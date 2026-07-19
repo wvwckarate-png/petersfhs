@@ -66,6 +66,7 @@ export default function Physics2Page() {
   const [navLoaded, setNavLoaded] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [reviewFilter, setReviewFilter] = useState("all"); // "all" | "missed"
+  const [qIndex, setQIndex] = useState(0);
   const [globalReview, setGlobalReview] = useState(false);
   const [activeFrq, setActiveFrq] = useState(null);
   const [frqSteps, setFrqSteps] = useState({});
@@ -192,6 +193,7 @@ export default function Physics2Page() {
     setUnitId(id);
     setActiveQ(null);
     setActiveFrq(null);
+    setQIndex(0);
   }
 
   return (
@@ -403,13 +405,13 @@ export default function Physics2Page() {
                   <div style={S.filterRow}>
                     <button
                       style={{ ...S.filterPill, ...(reviewFilter === "all" ? S.filterPillActive : {}) }}
-                      onClick={() => setReviewFilter("all")}
+                      onClick={() => { setReviewFilter("all"); setQIndex(0); }}
                     >
                       All Questions ({questions.length})
                     </button>
                     <button
                       style={{ ...S.filterPill, ...(reviewFilter === "missed" ? S.filterPillMissedActive : {}) }}
-                      onClick={() => setReviewFilter("missed")}
+                      onClick={() => { setReviewFilter("missed"); setQIndex(0); }}
                     >
                       Missed Only ({missedCount})
                     </button>
@@ -422,7 +424,7 @@ export default function Physics2Page() {
                   ? questions.filter((q) => answered[q.id] && !answered[q.id].correct)
                   : questions;
 
-                if (reviewFilter === "missed" && displayed.length === 0) {
+                if (displayed.length === 0) {
                   return (
                     <div style={S.emptyState}>
                       <div style={S.emptyIconBadge}>
@@ -443,68 +445,99 @@ export default function Physics2Page() {
                   );
                 }
 
+                const safeIndex = Math.min(qIndex, displayed.length - 1);
+                const q = displayed[safeIndex];
+                const i = questions.indexOf(q);
+                const a = answered[q.id];
+                const isRetriable = a && !a.correct;
+
                 return (
-                  <div style={S.qList}>
-                    {displayed.map((q) => {
-                      const i = questions.indexOf(q);
-                      const a = answered[q.id];
-                      const isOpen = activeQ === q.id;
-                      const isRetriable = a && !a.correct;
-                      return (
-                        <div key={q.id} style={S.qCard} className="qbank-hover">
-                          <button style={S.qHeader} onClick={() => setActiveQ(isOpen ? null : q.id)}>
-                            <div style={S.qHeaderLeft}>
-                              <span style={S.qNumBadge}>{String(i + 1).padStart(2, "0")}</span>
-                              <span style={S.qTopic}>{q.topic}</span>
-                              {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
-                            </div>
-                            <span style={{ ...S.qStatus, ...(a ? (a.correct ? S.qStatusCorrect : S.qStatusWrong) : S.qStatusUnanswered) }}>
-                              {a ? (a.correct ? "✓ correct" : "↻ retry") : "unanswered"}
-                            </span>
-                          </button>
-                          {isOpen && (
-                            <div style={S.qBody}>
-                              {q.stretch && (
-                                <div style={S.stretchNote}>
-                                  <strong>Stretch question</strong> — this one goes a bit beyond what's typically tested on the real AP exam. It's here to deepen your understanding, not because you're likely to see something exactly like it on test day.
-                                </div>
-                              )}
-                              {isRetriable && (
-                                <div style={S.retryNote}>
-                                  You missed this one previously. Pick a new answer below to try again — your explanation from last time is shown after you submit.
-                                </div>
-                              )}
-                              <p style={S.qStem}>{q.stem}</p>
-                              <div style={S.choices}>
-                                {q.choices.map((c, idx) => {
-                                  const chosen = a && a.selected === idx;
-                                  const isCorrectChoice = a && idx === q.correct;
-                                  let variant = S.choice;
-                                  if (a) {
-                                    if (isCorrectChoice) variant = { ...S.choice, ...S.choiceCorrect };
-                                    else if (chosen) variant = { ...S.choice, ...S.choiceWrong };
-                                    else variant = { ...S.choice, ...S.choiceDisabled };
-                                  }
-                                  return (
-                                    <button key={idx} onClick={() => selectChoice(q, idx)} disabled={a && a.correct} style={variant} className="choice-hover">
-                                      <span style={S.choiceLetter}>{String.fromCharCode(65 + idx)}</span>
-                                      <span>{c}</span>
-                                    </button>
-                                  );
-                                })}
-                              </div>
-                          {a && (
-                            <div style={S.explanation}>
-                              <div style={S.explanationLabel}>Discussion</div>
-                              <p style={S.explanationText}>{q.explanation}</p>
-                            </div>
-                          )}
-                        </div>
-                      )}
+                  <>
+                    <div style={S.qNavRow}>
+                      <button
+                        style={{ ...S.qNavBtn, ...(safeIndex === 0 ? S.qNavBtnDisabled : {}) }}
+                        disabled={safeIndex === 0}
+                        onClick={() => setQIndex(safeIndex - 1)}
+                      >
+                        ← Previous
+                      </button>
+                      <span style={S.qNavCounter}>Question {safeIndex + 1} of {displayed.length}</span>
+                      <button
+                        style={{ ...S.qNavBtn, ...(safeIndex === displayed.length - 1 ? S.qNavBtnDisabled : {}) }}
+                        disabled={safeIndex === displayed.length - 1}
+                        onClick={() => setQIndex(safeIndex + 1)}
+                      >
+                        Next →
+                      </button>
                     </div>
-                  );
-                })}
-              </div>
+
+                    <div style={S.qCard}>
+                      <div style={S.qHeader}>
+                        <div style={S.qHeaderLeft}>
+                          <span style={S.qNumBadge}>{String(i + 1).padStart(2, "0")}</span>
+                          <span style={S.qTopic}>{q.topic}</span>
+                          {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
+                        </div>
+                        <span style={{ ...S.qStatus, ...(a ? (a.correct ? S.qStatusCorrect : S.qStatusWrong) : S.qStatusUnanswered) }}>
+                          {a ? (a.correct ? "✓ correct" : "↻ retry") : "unanswered"}
+                        </span>
+                      </div>
+                      <div style={S.qBody}>
+                        {q.stretch && (
+                          <div style={S.stretchNote}>
+                            <strong>Stretch question</strong> — this one goes a bit beyond what's typically tested on the real AP exam. It's here to deepen your understanding, not because you're likely to see something exactly like it on test day.
+                          </div>
+                        )}
+                        {isRetriable && (
+                          <div style={S.retryNote}>
+                            You missed this one previously. Pick a new answer below to try again — your explanation from last time is shown after you submit.
+                          </div>
+                        )}
+                        <p style={S.qStem}>{q.stem}</p>
+                        <div style={S.choices}>
+                          {q.choices.map((c, idx) => {
+                            const chosen = a && a.selected === idx;
+                            const isCorrectChoice = a && idx === q.correct;
+                            let variant = S.choice;
+                            if (a) {
+                              if (isCorrectChoice) variant = { ...S.choice, ...S.choiceCorrect };
+                              else if (chosen) variant = { ...S.choice, ...S.choiceWrong };
+                              else variant = { ...S.choice, ...S.choiceDisabled };
+                            }
+                            return (
+                              <button key={idx} onClick={() => selectChoice(q, idx)} disabled={a && a.correct} style={variant} className="choice-hover">
+                                <span style={S.choiceLetter}>{String.fromCharCode(65 + idx)}</span>
+                                <span>{c}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                        {a && (
+                          <div style={S.explanation}>
+                            <div style={S.explanationLabel}>Discussion</div>
+                            <p style={S.explanationText}>{q.explanation}</p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+
+                    <div style={S.qNavRowBottom}>
+                      <button
+                        style={{ ...S.qNavBtn, ...(safeIndex === 0 ? S.qNavBtnDisabled : {}) }}
+                        disabled={safeIndex === 0}
+                        onClick={() => setQIndex(safeIndex - 1)}
+                      >
+                        ← Previous
+                      </button>
+                      <button
+                        style={{ ...S.qNavBtn, ...(safeIndex === displayed.length - 1 ? S.qNavBtnDisabled : {}) }}
+                        disabled={safeIndex === displayed.length - 1}
+                        onClick={() => setQIndex(safeIndex + 1)}
+                      >
+                        Next →
+                      </button>
+                    </div>
+                  </>
                 );
               })()}
             </>
@@ -738,6 +771,11 @@ const S = {
   progressFill: { height: "100%", background: "#7C9B72", transition: "width 0.3s ease" },
 
   qList: { display: "flex", flexDirection: "column", gap: 10 },
+  qNavRow: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 },
+  qNavRowBottom: { display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: 16 },
+  qNavBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#FFFFFF", color: "#5E7A55", border: "1px solid #ECEAE3", padding: "10px 18px", borderRadius: 100, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
+  qNavBtnDisabled: { opacity: 0.35, cursor: "default", boxShadow: "none" },
+  qNavCounter: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 12.5, fontWeight: 600, color: "#767F73" },
   filterRow: { display: "flex", gap: 8, marginBottom: 14 },
   globalHeader: { display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: 14, background: "#FFFFFF", borderRadius: 16, padding: "16px 18px", marginBottom: 18, boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   globalHeaderTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 17, color: "#2E332E", marginBottom: 3 },
