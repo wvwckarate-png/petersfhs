@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const subjects = [
-  { id: "physics2", name: "AP Physics 2", color: "#7C9B72", ready: false },
+  { id: "physics2", name: "AP Physics 2", color: "#7C9B72", ready: true },
   { id: "physics1", name: "AP Physics 1", color: "#7BA3B8", ready: false },
   { id: "biology", name: "AP Biology", color: "#9887B0", ready: false },
   { id: "chemistry", name: "AP Chemistry", color: "#D98B7B", ready: false },
@@ -18,11 +18,11 @@ export default function ApHubPage() {
       </div>
       <div style={styles.grid}>
         {subjects.map((s) => (
-          <div key={s.id} style={{ ...styles.card, opacity: s.ready ? 1 : 0.55 }}>
+          <Link key={s.id} to={s.ready ? `/ap/${s.id}` : "#"} style={{ ...styles.card, opacity: s.ready ? 1 : 0.55, textDecoration: "none" }}>
             <div style={{ ...styles.cardAccent, background: s.color }} />
             <div style={styles.cardName}>{s.name}</div>
             <div style={styles.cardStatus}>{s.ready ? "Ready" : "Coming soon"}</div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
