@@ -201,10 +201,14 @@ export default function Physics2Page() {
         .app-sidebar-backdrop.open{ display:flex !important; }
         .desktop-only-label{ display:none !important; }
 
+        .dash-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:14px; }
+        @media (min-width: 700px){ .dash-grid{ grid-template-columns: repeat(3, 1fr); } }
+        @media (min-width: 1100px){ .dash-grid{ grid-template-columns: repeat(4, 1fr); } }
+
         /* Desktop: sidebar becomes a persistent column, no overlay */
         @media (min-width: 900px){
           .mobile-only-switcher{ display:none !important; }
-          .app-body{ display:flex; gap:26px; align-items:flex-start; max-width:1200px !important; }
+          .app-body{ display:grid; grid-template-columns: 260px 1fr; gap:26px; max-width:1200px !important; }
           .app-container{ max-width:1200px !important; }
           .app-sidebar-backdrop{
             display:block !important; position:static !important; background:transparent !important;
@@ -214,7 +218,7 @@ export default function Physics2Page() {
             width:260px !important; max-width:none !important;
             height:auto !important; box-shadow:none !important; border-radius:18px !important;
             background:#FFFFFF !important; border:1px solid #ECEAE3; padding:16px 14px !important;
-            position:sticky !important; top:88px !important;
+            position:sticky !important; top:18px !important;
           }
           .mobile-only-flex{ display:none !important; }
           .desktop-only-label{ display:block !important; margin-bottom:10px; }
@@ -233,7 +237,7 @@ export default function Physics2Page() {
         }
 
         @media (min-width: 1300px){
-          .app-body{ max-width:1320px !important; }
+          .app-body{ max-width:1320px !important; grid-template-columns: 280px 1fr; }
           .app-container{ max-width:1320px !important; }
           .app-sidebar{ width:280px !important; }
         }
@@ -675,7 +679,7 @@ export default function Physics2Page() {
                 )}
               </div>
 
-              <div style={S.dashUnitList}>
+              <div style={S.dashUnitList} className="dash-grid">
                 {UNITS.map((u) => {
                   const s = statsFor(u.id);
                   const uPct = s.total ? Math.round((s.done / s.total) * 100) : 0;
@@ -821,7 +825,7 @@ const SHARED_STUDY_CSS = `
 // ---------- Styles ----------
 
 const S = {
-  page: { minHeight: "100vh", background: "#FAFAF7", color: "#2E332E", fontFamily: "'Nunito', sans-serif", fontSize: 16.5, lineHeight: 1.6 },
+  page: { height: "100vh", background: "#FAFAF7", color: "#2E332E", fontFamily: "'Nunito', sans-serif", fontSize: 16.5, lineHeight: 1.6, display: "flex", flexDirection: "column", overflow: "hidden" },
 
   topbar: { background: "#FFFFFF", borderBottom: "1px solid #ECEAE3", padding: "14px 24px" },
   topbarInner: { maxWidth: 1040, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" },
@@ -836,7 +840,7 @@ const S = {
   modePillActive: { background: "#7C9B72", color: "white" },
   modePillIcon: { display: "inline-flex", marginRight: 7, position: "relative", top: 1 },
 
-  body: { maxWidth: 1040, margin: "0 auto", padding: "18px 24px 24px", position: "relative" },
+  body: { maxWidth: 1040, margin: "0 auto", padding: "18px 24px 24px", position: "relative", flex: 1, overflowY: "auto", width: "100%" },
 
   unitSwitcher: { width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 14, padding: "12px 16px", marginBottom: 18, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   unitSwitcherLeft: { display: "flex", alignItems: "baseline", gap: 9 },
@@ -934,21 +938,21 @@ const S = {
   emptyTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 19, color: "#2E332E", marginBottom: 10 },
   emptyText: { fontSize: 14.5, color: "#767F73", maxWidth: 400, margin: "0 auto", lineHeight: 1.6 },
 
-  dashWrap: { maxWidth: 900 },
+  dashWrap: { maxWidth: 1100 },
   dashCards: { display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 14, marginBottom: 26 },
-  dashCard: { background: "#FFFFFF", borderRadius: 18, padding: "20px 22px", boxShadow: "0 4px 14px rgba(70,90,60,0.06)" },
+  dashCard: { background: "#FFFFFF", borderRadius: 18, padding: "26px 22px", boxShadow: "0 4px 14px rgba(70,90,60,0.06)", display: "flex", flexDirection: "column", justifyContent: "center", aspectRatio: "1.15" },
   dashCardLabel: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", color: "#767F73", marginBottom: 8 },
   dashCardValue: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 28, color: "#5E7A55" },
   dashCardOf: { fontSize: 15, color: "#B4BBAF", fontWeight: 600 },
 
-  dashUnitList: { display: "flex", flexDirection: "column", gap: 10 },
-  dashUnitRow: { background: "#FFFFFF", borderRadius: 16, padding: "16px 20px", boxShadow: "0 2px 8px rgba(70,90,60,0.04)" },
-  dashUnitInfo: { display: "flex", justifyContent: "space-between", marginBottom: 8, flexWrap: "wrap", gap: 6 },
+  dashUnitList: {},
+  dashUnitRow: { background: "#FFFFFF", borderRadius: 16, padding: "18px 18px", boxShadow: "0 2px 8px rgba(70,90,60,0.04)", display: "flex", flexDirection: "column" },
+  dashUnitInfo: { display: "flex", flexDirection: "column", gap: 4, marginBottom: 10 },
   dashUnitName: { fontWeight: 700, fontSize: 15, color: "#2E332E" },
   dashUnitMeta: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#767F73" },
   dashUnitTrack: { height: 6, background: "#E6E9E3", borderRadius: 4, overflow: "hidden", marginBottom: 10 },
   dashUnitFill: { height: "100%", background: "#7C9B72" },
-  dashUnitActions: { display: "flex", gap: 8 },
+  dashUnitActions: { display: "flex", gap: 8, marginTop: "auto" },
   dashJumpBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12, background: "#EAF1E6", color: "#5E7A55", border: "none", borderRadius: 100, padding: "6px 14px", cursor: "pointer" },
 
   resetLink: { marginTop: 26, background: "transparent", border: "none", color: "#D98B7B", fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, cursor: "pointer", padding: "10px 0" },
