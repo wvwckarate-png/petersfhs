@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const subjects = [
   { id: "physics2", name: "AP Physics 2", color: "#7C9B72", ready: true },
   { id: "physics1", name: "AP Physics 1", color: "#7BA3B8", ready: false },
-  { id: "biology", name: "AP Biology", color: "#9887B0", ready: false },
+  { id: "biology", name: "AP Biology", color: "#9887B0", ready: true },
   { id: "chemistry", name: "AP Chemistry", color: "#D98B7B", ready: false },
 ];
 
