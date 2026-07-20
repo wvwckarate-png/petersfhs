@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import { getEngineCSS } from "../shared/engineStyles";
 
-const BIOLOGY_COLORS = {
-  sage: "#9887B0", sageDeep: "#6B5A80", sagePale: "#EDE8F2", sagePill: "#DDD3EA",
+const CHEMISTRY_COLORS = {
+  sage: "#D98B7B", sageDeep: "#A85F4F", sagePale: "#F7E9E5", sagePill: "#F0D5CC",
 };
 
-const MCQ_STORAGE_KEY = "biology-hub-mcq-progress-v1";
-const NAV_STORAGE_KEY = "biology-hub-last-nav-v1";
+const MCQ_STORAGE_KEY = "chemistry-hub-mcq-progress-v1";
+const NAV_STORAGE_KEY = "chemistry-hub-last-nav-v1";
 
 const MODES = [
   { id: "study", label: "Study Guides" },
@@ -57,7 +57,7 @@ function ModeIcon({ id, size = 16 }) {
   return null;
 }
 
-export default function BiologyPage() {
+export default function ChemistryPage() {
   const [mode, setMode] = useState("study");
   const [unitId, setUnitId] = useState(1);
   const [activeQ, setActiveQ] = useState(null);
@@ -198,19 +198,20 @@ export default function BiologyPage() {
 
   return (
     <div style={S.page}>
-      <style>{getEngineCSS(BIOLOGY_COLORS)}</style>
+      <style>{getEngineCSS(CHEMISTRY_COLORS)}</style>
       {/* TOP BAR */}
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                <path d="M19 5C19 5 19.5 13 13.5 18C8.5 22 4 19.5 4 19.5C4 19.5 3 13.5 8 9C12.5 5 19 5 19 5Z" stroke="#6B5A80" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M18 6L9.5 15.5" stroke="#9887B0" strokeWidth="1.6" strokeLinecap="round"/>
+                <path d="M9 3H15" stroke="#A85F4F" strokeWidth="1.8" strokeLinecap="round"/>
+                <path d="M10 3.5V9.5L4.8 18.2C4.2 19.3 5 20.5 6.2 20.5H17.8C19 20.5 19.8 19.3 19.2 18.2L14 9.5V3.5" stroke="#A85F4F" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M7 15.5C8.5 14.3 10 16.5 12 15.5C14 14.5 15.5 16.3 17 15.5" stroke="#D98B7B" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
               </svg>
             </div>
             <div>
-              <div style={S.logoText}>AP Biology Hub</div>
+              <div style={S.logoText}>AP Chemistry Hub</div>
               <div style={S.logoTag}>Peters Family Homeschool</div>
             </div>
           </div>
@@ -244,7 +245,7 @@ export default function BiologyPage() {
               <span style={S.unitSwitcherName}>{unit.name}</span>
             </span>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none">
-              <path d="M4 6L12 14L20 6" stroke="#6B5A80" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              <path d="M4 6L12 14L20 6" stroke="#A85F4F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
         )}
@@ -727,14 +728,14 @@ const S = {
   topbar: { background: "#FFFFFF", borderBottom: "1px solid #ECEAE3", padding: "14px 24px" },
   topbarInner: { maxWidth: 1040, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" },
   logoRow: { display: "flex", alignItems: "center", gap: 12 },
-  logoMark: { width: 36, height: 36, borderRadius: 11, background: "#EDE8F2", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
+  logoMark: { width: 36, height: 36, borderRadius: 11, background: "#F7E9E5", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
   logoText: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 17, color: "#2E332E" },
   logoTag: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10, letterSpacing: "0.1em", color: "#767F73", textTransform: "uppercase" },
 
   modeBar: { background: "#FFFFFF", borderBottom: "1px solid #ECEAE3", padding: "10px 24px", position: "sticky", top: 0, zIndex: 5 },
   modeBarInner: { maxWidth: 1040, margin: "0 auto", display: "flex", gap: 8, flexWrap: "wrap" },
   modePill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#F0EFE9", color: "#5A4E3F", border: "none", padding: "8px 16px", borderRadius: 100, cursor: "pointer", display: "inline-flex", alignItems: "center" },
-  modePillActive: { background: "#9887B0", color: "white" },
+  modePillActive: { background: "#D98B7B", color: "white" },
   modePillIcon: { display: "inline-flex", marginRight: 7, position: "relative", top: 1 },
   backToHubPill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#EDE8F2", color: "#6B5A80", border: "none", padding: "8px 16px", borderRadius: 100, cursor: "pointer", display: "inline-flex", alignItems: "center", textDecoration: "none", marginLeft: "auto" },
 
@@ -742,7 +743,7 @@ const S = {
 
   unitSwitcher: { width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 14, padding: "12px 16px", marginBottom: 18, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   unitSwitcherLeft: { display: "flex", alignItems: "baseline", gap: 9 },
-  unitSwitcherNum: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#6B5A80", fontWeight: 700 },
+  unitSwitcherNum: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#A85F4F", fontWeight: 700 },
   unitSwitcherName: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 15.5, color: "#2E332E" },
 
   drawerBackdrop: { position: "fixed", inset: 0, background: "rgba(46,51,46,0.35)", zIndex: 20, display: "flex" },
@@ -751,13 +752,13 @@ const S = {
   drawerClose: { background: "#F0EFE9", border: "none", borderRadius: 100, width: 30, height: 30, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer" },
   sidebarLabel: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11, letterSpacing: "0.1em", color: "#767F73", marginBottom: 2, textTransform: "uppercase" },
   unitBtn: { textAlign: "left", background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 14, padding: "11px 13px", fontFamily: "inherit", boxShadow: "0 2px 8px rgba(70,90,60,0.04)", cursor: "pointer" },
-  unitBtnActive: { background: "#EDE8F2", border: "1px solid #B8D1AE" },
+  unitBtnActive: { background: "#F7E9E5", border: "1px solid #B8D1AE" },
   unitBtnTop: { display: "flex", justifyContent: "space-between", marginBottom: 3 },
-  unitNum: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, color: "#6B5A80", fontWeight: 700 },
+  unitNum: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, color: "#A85F4F", fontWeight: 700 },
   unitWeight: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 9.5, color: "#767F73" },
   unitName: { fontSize: 13, fontWeight: 700, lineHeight: 1.3, color: "#2E332E" },
   miniTrack: { height: 5, background: "#E6E9E3", borderRadius: 3, overflow: "hidden", marginTop: 7 },
-  miniFill: { height: "100%", background: "#9887B0" },
+  miniFill: { height: "100%", background: "#D98B7B" },
 
   main: { flex: 1, minWidth: 0 },
   studyPane: { background: "transparent" },
@@ -765,14 +766,14 @@ const S = {
   progressBar: { marginBottom: 18, background: "#FFFFFF", borderRadius: 16, padding: "14px 18px", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   progressBarTop: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap", marginBottom: 8 },
   unitResetBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12, background: "#FBEAE5", color: "#B14D3A", border: "none", borderRadius: 100, padding: "5px 12px", cursor: "pointer", whiteSpace: "nowrap" },
-  progressText: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, color: "#6B5A80" },
+  progressText: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, color: "#A85F4F" },
   progressTrack: { height: 7, background: "#E6E9E3", borderRadius: 4, overflow: "hidden" },
-  progressFill: { height: "100%", background: "#9887B0", transition: "width 0.3s ease" },
+  progressFill: { height: "100%", background: "#D98B7B", transition: "width 0.3s ease" },
 
   qList: { display: "flex", flexDirection: "column", gap: 10 },
   qNavRow: { display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: 14 },
   qNavRowBottom: { display: "flex", alignItems: "center", justifyContent: "space-between", marginTop: 16 },
-  qNavBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#FFFFFF", color: "#6B5A80", border: "1px solid #ECEAE3", padding: "10px 18px", borderRadius: 100, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
+  qNavBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#FFFFFF", color: "#A85F4F", border: "1px solid #ECEAE3", padding: "10px 18px", borderRadius: 100, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   qNavBtnDisabled: { opacity: 0.35, cursor: "default", boxShadow: "none" },
   qNavCounter: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 12.5, fontWeight: 600, color: "#767F73" },
   filterRow: { display: "flex", gap: 8, marginBottom: 14 },
@@ -780,23 +781,23 @@ const S = {
   globalHeaderTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 17, color: "#2E332E", marginBottom: 3 },
   globalHeaderSub: { fontSize: 13, color: "#767F73" },
   exitGlobalBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12.5, background: "#F0EFE9", color: "#5A4E3F", border: "none", borderRadius: 100, padding: "7px 15px", cursor: "pointer", flexShrink: 0, whiteSpace: "nowrap" },
-  unitBadge: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, fontWeight: 700, color: "#6B5A80", background: "#DDD3EA", borderRadius: 8, padding: "4px 8px", whiteSpace: "nowrap" },
+  unitBadge: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, fontWeight: 700, color: "#A85F4F", background: "#F0D5CC", borderRadius: 8, padding: "4px 8px", whiteSpace: "nowrap" },
   reviewAllCard: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 16, background: "#FBEAE5", borderRadius: 18, padding: "18px 22px", marginBottom: 26, flexWrap: "wrap" },
   reviewAllLeft: { display: "flex", alignItems: "center", gap: 14 },
   reviewAllIcon: { width: 44, height: 44, borderRadius: 14, background: "#FFFFFF", color: "#B14D3A", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
   reviewAllTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 15.5, color: "#2E332E", marginBottom: 2 },
   reviewAllSub: { fontSize: 13, color: "#8A6D3B" },
   reviewAllBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#B14D3A", color: "white", border: "none", borderRadius: 100, padding: "10px 20px", cursor: "pointer", whiteSpace: "nowrap" },
-  reviewAllCardClear: { background: "#EDE8F2" },
-  reviewAllIconClear: { color: "#6B5A80" },
+  reviewAllCardClear: { background: "#F7E9E5" },
+  reviewAllIconClear: { color: "#A85F4F" },
   filterPill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12.5, background: "#F0EFE9", color: "#5A4E3F", border: "none", padding: "7px 14px", borderRadius: 100, cursor: "pointer" },
-  filterPillActive: { background: "#9887B0", color: "white" },
+  filterPillActive: { background: "#D98B7B", color: "white" },
   filterPillMissedActive: { background: "#D98B7B", color: "white" },
   retryNote: { fontSize: 13.5, lineHeight: 1.5, color: "#8A4A38", background: "#FBEAE5", borderRadius: 10, padding: "10px 14px", margin: "16px 0 12px" },
   qCard: { background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 16, overflow: "hidden", boxShadow: "0 2px 8px rgba(70,90,60,0.04)" },
   qHeader: { width: "100%", display: "flex", justifyContent: "space-between", alignItems: "center", padding: "14px 16px", background: "transparent", border: "none", cursor: "pointer" },
   qHeaderLeft: { display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" },
-  qNumBadge: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, fontWeight: 700, color: "#6B5A80", background: "#DDD3EA", borderRadius: 8, padding: "4px 8px" },
+  qNumBadge: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, fontWeight: 700, color: "#A85F4F", background: "#F0D5CC", borderRadius: 8, padding: "4px 8px" },
   qTopic: { fontSize: 14.5, fontWeight: 700, color: "#2E332E", textAlign: "left" },
   stretchBadge: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10, fontWeight: 700, letterSpacing: "0.04em", textTransform: "uppercase", background: "#FBF0DD", color: "#B08D57", borderRadius: 100, padding: "3px 9px" },
   qStatus: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, padding: "4px 10px", borderRadius: 100 },
@@ -810,12 +811,12 @@ const S = {
   choices: { display: "flex", flexDirection: "column", gap: 8 },
   choice: { display: "flex", gap: 10, alignItems: "flex-start", textAlign: "left", padding: "11px 14px", border: "1px solid #ECEAE3", borderRadius: 12, background: "#FCFBF8", fontFamily: "inherit", fontSize: 14.5, lineHeight: 1.45, cursor: "pointer" },
   choiceLetter: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 700, color: "#767F73", flexShrink: 0 },
-  choiceCorrect: { background: "#E1EEDD", border: "1px solid #9887B0" },
+  choiceCorrect: { background: "#E1EEDD", border: "1px solid #D98B7B" },
   choiceWrong: { background: "#FBEAE5", border: "1px solid #D98B7B" },
   choiceDisabled: { opacity: 0.5, cursor: "default" },
 
-  explanation: { marginTop: 14, padding: "13px 16px", background: "#EDE8F2", borderRadius: 12 },
-  explanationLabel: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: "#6B5A80", marginBottom: 6 },
+  explanation: { marginTop: 14, padding: "13px 16px", background: "#F7E9E5", borderRadius: 12 },
+  explanationLabel: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: "#A85F4F", marginBottom: 6 },
   explanationText: { fontSize: 14.5, lineHeight: 1.55, margin: 0, color: "#3B4038" },
 
   frqWrap: { minHeight: 300 },
@@ -827,7 +828,7 @@ const S = {
   frqBody: { padding: "0 20px 22px", borderTop: "1px solid #F0EFE9" },
   frqPrompt: { fontSize: 15, lineHeight: 1.65, color: "#3B4038", margin: "18px 0 20px", background: "#FAFAF7", borderRadius: 12, padding: "14px 16px" },
   frqPart: { marginBottom: 20, paddingBottom: 4 },
-  frqPartLabel: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 700, fontSize: 12.5, color: "#6B5A80", background: "#EDE8F2", display: "inline-block", padding: "3px 10px", borderRadius: 100, marginBottom: 8 },
+  frqPartLabel: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 700, fontSize: 12.5, color: "#A85F4F", background: "#F7E9E5", display: "inline-block", padding: "3px 10px", borderRadius: 100, marginBottom: 8 },
   frqPartAsk: { fontSize: 14.5, lineHeight: 1.55, color: "#2E332E", fontWeight: 600, margin: "0 0 10px" },
   frqRevealBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13, background: "#7BA3B8", color: "white", border: "none", borderRadius: 100, padding: "9px 18px", cursor: "pointer" },
   frqSteps: { display: "flex", flexDirection: "column", gap: 8 },
@@ -837,7 +838,7 @@ const S = {
   frqNextBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12.5, background: "white", color: "#7BA3B8", border: "1px solid #C7DCE4", borderRadius: 100, padding: "8px 16px", cursor: "pointer", alignSelf: "flex-start", marginTop: 2 },
   frqCollapseBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12, background: "transparent", color: "#767F73", border: "none", padding: "6px 0", cursor: "pointer", alignSelf: "flex-start" },
   emptyState: { background: "#FFFFFF", borderRadius: 20, padding: "50px 30px", textAlign: "center", boxShadow: "0 4px 14px rgba(70,90,60,0.06)" },
-  emptyIconBadge: { width: 56, height: 56, borderRadius: 18, background: "#EDE8F2", color: "#6B5A80", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 16px" },
+  emptyIconBadge: { width: 56, height: 56, borderRadius: 18, background: "#F7E9E5", color: "#A85F4F", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 16px" },
   emptyTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 19, color: "#2E332E", marginBottom: 10 },
   emptyText: { fontSize: 14.5, color: "#767F73", maxWidth: 400, margin: "0 auto", lineHeight: 1.6 },
 
@@ -845,7 +846,7 @@ const S = {
   dashCards: { display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 14, marginBottom: 26 },
   dashCard: { background: "#FFFFFF", borderRadius: 18, padding: "26px 22px", boxShadow: "0 4px 14px rgba(70,90,60,0.06)", display: "flex", flexDirection: "column", justifyContent: "center", aspectRatio: "1.15" },
   dashCardLabel: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", color: "#767F73", marginBottom: 8 },
-  dashCardValue: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 28, color: "#6B5A80" },
+  dashCardValue: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 28, color: "#A85F4F" },
   dashCardOf: { fontSize: 15, color: "#B4BBAF", fontWeight: 600 },
 
   dashUnitList: {},
@@ -854,9 +855,9 @@ const S = {
   dashUnitName: { fontWeight: 700, fontSize: 15, color: "#2E332E" },
   dashUnitMeta: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#767F73" },
   dashUnitTrack: { height: 6, background: "#E6E9E3", borderRadius: 4, overflow: "hidden", marginBottom: 10 },
-  dashUnitFill: { height: "100%", background: "#9887B0" },
+  dashUnitFill: { height: "100%", background: "#D98B7B" },
   dashUnitActions: { display: "flex", gap: 8, marginTop: "auto" },
-  dashJumpBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12, background: "#EDE8F2", color: "#6B5A80", border: "none", borderRadius: 100, padding: "6px 14px", cursor: "pointer" },
+  dashJumpBtn: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 12, background: "#F7E9E5", color: "#A85F4F", border: "none", borderRadius: 100, padding: "6px 14px", cursor: "pointer" },
 
   resetLink: { marginTop: 26, background: "transparent", border: "none", color: "#D98B7B", fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, cursor: "pointer", padding: "10px 0" },
 
