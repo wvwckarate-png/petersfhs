@@ -6,6 +6,7 @@ import Physics2Page from "./hubs/physics2/Physics2Page";
 import BiologyPage from "./hubs/biology/BiologyPage";
 import ChemistryPage from "./hubs/chemistry/ChemistryPage";
 import Physics1Page from "./hubs/physics1/Physics1Page";
+import GovernmentPage from "./hubs/government/GovernmentPage";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/ap/biology" element={<BiologyPage />} />
         <Route path="/ap/chemistry" element={<ChemistryPage />} />
         <Route path="/ap/physics1" element={<Physics1Page />} />
+        <Route path="/ap/government" element={<GovernmentPage />} />
       </Routes>
     </BrowserRouter>
   );
