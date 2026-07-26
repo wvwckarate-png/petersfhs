@@ -9,7 +9,7 @@ const subjects = [
   { id: "environmental", name: "AP Environmental Science", color: "#6B8F5E", ready: true },
   { id: "ushistory", name: "AP US History", color: "#A8434B", ready: true },
   { id: "government", name: "AP US Government", color: "#5B6FA8", ready: true },
-  { id: "englang", name: "AP English Language", color: "#C9992E", ready: false },
+  { id: "englang", name: "AP English Language", color: "#C9992E", ready: true },
   { id: "englit", name: "AP English Literature", color: "#3E5C8A", ready: false },
 ];
 

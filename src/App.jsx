@@ -9,6 +9,7 @@ import Physics1Page from "./hubs/physics1/Physics1Page";
 import GovernmentPage from "./hubs/government/GovernmentPage";
 import EnvSciencePage from "./hubs/apes/EnvSciencePage";
 import UsHistoryPage from "./hubs/apush/USHistoryPage";
+import EnglishLangPage from "./hubs/englang/EnglishLangPage";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/ap/government" element={<GovernmentPage />} />
         <Route path="/ap/environmental" element={<EnvSciencePage />} />
         <Route path="/ap/ushistory" element={<UsHistoryPage />} />
+<Route path="/ap/englang" element={<EnglishLangPage />} />
       </Routes>
     </BrowserRouter>
   );
