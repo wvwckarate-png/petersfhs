@@ -7,7 +7,7 @@ const subjects = [
   { id: "biology", name: "AP Biology", color: "#9887B0", ready: true },
   { id: "chemistry", name: "AP Chemistry", color: "#D98B7B", ready: true },
   { id: "environmental", name: "AP Environmental Science", color: "#6B8F5E", ready: true },
-  { id: "ushistory", name: "AP US History", color: "#A8434B", ready: false },
+  { id: "ushistory", name: "AP US History", color: "#A8434B", ready: true },
   { id: "government", name: "AP US Government", color: "#5B6FA8", ready: true },
 ];
 
