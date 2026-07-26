@@ -9,6 +9,8 @@ const subjects = [
   { id: "environmental", name: "AP Environmental Science", color: "#6B8F5E", ready: true },
   { id: "ushistory", name: "AP US History", color: "#A8434B", ready: true },
   { id: "government", name: "AP US Government", color: "#5B6FA8", ready: true },
+  { id: "englang", name: "AP English Language", color: "#C9992E", ready: false },
+  { id: "englit", name: "AP English Literature", color: "#3E5C8A", ready: false },
 ];
 
 function SubjectIcon({ id, color }) {
@@ -62,6 +64,27 @@ function SubjectIcon({ id, color }) {
         <path d="M6 3V21" stroke={color} strokeWidth="1.8" strokeLinecap="round"/>
         <path d="M6 4H18L15.5 7.5L18 11H6" stroke={color} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
         <path d="M6 5.5H12.5M6 7.5H12.5M6 9.5H12.5" stroke={color} strokeWidth="1" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (id === "englang") {
+    return (
+      <svg {...common}>
+        <path d="M19 4C19 4 12 5 8 11C6 14 5 18 4.5 20C6.5 19.5 10 18 13 16C19 12 19 4 19 4Z" stroke={color} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M9.5 14.5L5 19" stroke={color} strokeWidth="1.6" strokeLinecap="round"/>
+        <path d="M4.5 20L4 21.5" stroke={color} strokeWidth="1.4" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (id === "englit") {
+    return (
+      <svg {...common}>
+        <path d="M4 20H20" stroke={color} strokeWidth="1.8" strokeLinecap="round"/>
+        <rect x="5.5" y="7" width="3.2" height="13" stroke={color} strokeWidth="1.5" fill="none"/>
+        <rect x="14.5" y="9" width="3.2" height="11" stroke={color} strokeWidth="1.5" fill="none"/>
+        <g transform="rotate(12 11.5 14)">
+          <rect x="9.8" y="7.5" width="3.2" height="12.5" stroke={color} strokeWidth="1.5" fill="none"/>
+        </g>
       </svg>
     );
   }
