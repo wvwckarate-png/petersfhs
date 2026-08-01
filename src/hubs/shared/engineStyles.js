@@ -118,10 +118,10 @@ export function getEngineCSS(colors = {}) {
     .skillbox p{margin:0 0 10px;}
     .worked{background:var(--sky-pale); border-radius:18px; padding:20px 24px; margin:24px 0;}
     .worked p{margin:0 0 12px;}
-    details.solution summary{cursor:pointer; font-family:'Nunito',sans-serif; font-size:13px; font-weight:700; color:var(--sky); letter-spacing:0.02em; padding:9px 16px; list-style:none; background:white; border-radius:100px; display:inline-block; margin-top:4px;}
+    details.solution summary{cursor:pointer; font-family:'Nunito',sans-serif; font-size:0; font-weight:700; color:var(--sky); letter-spacing:0.02em; padding:9px 16px; list-style:none; background:white; border-radius:100px; display:inline-block; margin-top:4px;}
     details.solution summary::-webkit-details-marker{display:none;}
-    details.solution summary::before{content:"▸ REVEAL SOLUTION";}
-    details.solution[open] summary::before{content:"▾ HIDE SOLUTION";}
+    details.solution summary::before{content:"▸ REVEAL SOLUTION"; font-size:13px;}
+    details.solution[open] summary::before{content:"▾ HIDE SOLUTION"; font-size:13px;}
     details.solution .sol-content{background:white; border-radius:14px; padding:16px 20px; margin-top:10px; font-size:15.5px;}
     .recap{background:var(--amber-pale); border-radius:18px; padding:22px 24px; margin:36px 0;}
     .recap ul{margin:0; padding-left:20px;}
