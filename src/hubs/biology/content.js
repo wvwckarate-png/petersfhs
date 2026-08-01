@@ -448,6 +448,11 @@ const STUDY_CONTENT = {
   <h2 id="s23"><span class="num">2.3</span>The Plasma Membrane</h2>
   <p>Every cell is wrapped in a plasma membrane, and the model biologists use to describe it is called the <strong>fluid mosaic model</strong>. "Fluid" because the membrane isn't a rigid wall — its components can drift and move within the plane of the membrane, more like a layer of oil than a solid sheet. "Mosaic" because it's made of many different types of molecules — phospholipids, proteins, cholesterol, carbohydrates — arranged together like tiles, not one uniform substance.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-fluid-mosaic-comprehensive.png" alt="A cross-section of the plasma membrane showing the fluid mosaic model in detail: the phospholipid bilayer with hydrophilic heads and hydrophobic tails, cholesterol wedged among the tails, integral and transmembrane proteins spanning the bilayer, peripheral and surface proteins attached without spanning, and glycoproteins and glycolipids with carbohydrate chains extending from the extracellular surface." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Every "tile" in the mosaic is labeled here — take a moment to find each component from the table below directly in this image before moving on.</p>
+  </div>
+
   <p>As you learned in Unit 1, the membrane's backbone is a phospholipid bilayer: amphipathic phospholipids with hydrophilic heads facing outward toward the watery environment on both sides, and hydrophobic tails clustered inward, away from water. Embedded within and across this bilayer are proteins that carry out most of the membrane's actual work.</p>
 
   <table class="formula-table">
@@ -460,6 +465,11 @@ const STUDY_CONTENT = {
       <tr><td>Glycoproteins/glycolipids</td><td>Carbohydrate chains on the exterior surface; cell recognition and signaling</td></tr>
     </tbody>
   </table>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-fluid-mosaic-integral-proteins.png" alt="A phospholipid bilayer diagram with channel protein and carrier protein explicitly bracketed together as integral proteins, alongside a peripheral protein attached to the inner surface and a glycoprotein on the outer surface bound to cholesterol. An inset labels the phospholipid's phosphate head as polar/hydrophilic and its fatty acid tails as non-polar/hydrophobic." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Worth remembering this exact grouping: channel proteins and carrier proteins are both integral proteins — a detail that becomes directly relevant in Section 2.4, where you'll use both of these specific protein types to explain facilitated diffusion.</p>
+  </div>
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
@@ -508,6 +518,11 @@ const STUDY_CONTENT = {
     <li><strong>Isotonic</strong> — solute concentrations are equal; no net water movement</li>
   </ul>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-tonicity-grid.png" alt="A grid showing tonicity outcomes for animal cells and plant cells. In a hypotonic solution, animal cells lyse and plant cells become turgid. In a hypertonic solution, animal cells shrivel (crenate) and plant cells plasmolyze. In an isotonic solution, animal cells stay normal and plant cells are flaccid." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Six outcomes, one grid — memorize this shape and you can reconstruct any tonicity question. Notice animal and plant cells respond oppositely to a hypotonic environment: bursting is bad for one, turgid is good for the other.</p>
+  </div>
+
   <div class="worked">
     <span class="tag-label example">Worked Example 2</span>
     <p>A red blood cell (no cell wall) is placed in a 10% salt solution, which is far more concentrated than the cell's internal solute concentration. Predict what happens to the cell and explain why.</p>
@@ -519,6 +534,11 @@ const STUDY_CONTENT = {
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>Plant cells behave differently from animal cells in a hypotonic environment because of their rigid cell wall. A plant cell in a hypotonic solution takes in water and swells, but the cell wall prevents it from bursting — instead it becomes <strong>turgid</strong> (firm), which is actually the healthy, desired state for a plant cell. Don't assume "cell swelling" is always bad; for walled cells in a hypotonic environment, it's normal and beneficial. Conversely, a plant cell in a hypertonic environment loses water and its membrane pulls away from the wall — this is <strong>plasmolysis</strong>, and it's a sign of stress.</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-tonicity-explained.png" alt="A diagram showing the action of hypotonic, isotonic, and hypertonic solutions on animal and plant cells, with the mechanism explained at each step. In a hypotonic solution, solvent moves into the cell; animal cells swell and may burst, while plant cells become turgid but keep their shape because of the cell wall. In an isotonic solution, equilibrium is achieved with no net solvent exchange. In a hypertonic solution, solvent moves out; animal cells shrink into a crenated shape, while plant cell cytoplasm pulls away from the cell wall in plasmolysis. The plant cell diagram is labeled with cell wall, plasma membrane, cytoplasm, vacuole, and nucleus." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">This one spells out the mechanism this trap box is warning about: in the plant cell's hypotonic panel, the cell swells but the outer boundary stays put — that's the wall doing its job. In the hypertonic panel, watch the membrane pull inward away from the wall; that visible gap is plasmolysis.</p>
   </div>
 
   <p><strong>Facilitated diffusion</strong> moves substances that can't cross the lipid bilayer directly — because they're charged, too polar, or too large — through specific transport proteins. <strong>Channel proteins</strong> form a pore that specific molecules or ions pass through; <strong>carrier proteins</strong> bind their specific cargo and change shape to shuttle it across. Both are still passive: no ATP required, and movement is still down the concentration gradient — the protein just provides a path for molecules that otherwise couldn't cross on their own.</p>
@@ -6941,6 +6961,10 @@ STUDY_CONTENT[6] = `<div class="hero">
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
     <p><strong>Epigenetic</strong> regulation — changes to gene expression that don't alter the underlying DNA sequence itself — is a major, heavily tested mechanism. DNA methylation (adding methyl groups, typically to cytosine bases) generally SILENCES gene expression by making chromatin more tightly packed and less accessible to transcription machinery. Histone modification works similarly: tightly wound chromatin (heterochromatin) is generally inaccessible and transcriptionally silent, while loosely packed chromatin (euchromatin) is accessible and available for transcription. This connects directly back to Unit 1's functional group chemistry — remember, methyl groups are nonpolar, and that nonpolar character is part of what allows them to affect how tightly DNA packages with histone proteins.</p>
+    <div class="diagram">
+      <img src="/images/diagrams/biology/diagram-u6-euchromatin-heterochromatin-active-silent.png" alt="A zoom sequence from the nucleus to a chromosome to interphase chromatin to DNA, showing euchromatin labeled 'Active' as loosely spaced nucleosomes and heterochromatin labeled 'Silent' as tightly packed nucleosomes." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+      <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">"Active" and "Silent" are labeled directly on the diagram — that's exactly the vocabulary to use on an FRQ. Loosely packed euchromatin (top) is open for business; tightly packed heterochromatin (bottom) is locked shut.</p>
+    </div>
   </div>
 
   <div class="worked">
@@ -6949,6 +6973,11 @@ STUDY_CONTENT[6] = `<div class="hero">
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">Since DNA methylation of a promoter region generally silences gene expression by promoting tighter, less accessible chromatin packaging, this gene would be expected to show LOWER expression (or be effectively "off") in the liver cells, where it's heavily methylated, compared to the muscle cells, where the unmethylated promoter would leave chromatin more accessible, allowing transcription factors and RNA polymerase easier access to initiate transcription. This is a clear, testable example of how epigenetic differences — not differences in the underlying DNA sequence itself, which is identical in both cell types — can produce dramatically different gene expression patterns and, ultimately, different cell types and functions.</div>
     </details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-histone-acetylation.png" alt="A diagram comparing heterochromatin, shown as tightly packed nucleosomes, to euchromatin, shown as loosely spaced nucleosomes with acetyl groups attached, illustrating how histone acetylation is associated with the open, accessible euchromatin state." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Methylation isn't the only chemical tag that controls chromatin state — adding acetyl groups to histone proteins (shown here) has the opposite packing effect from methylation, loosening chromatin into the open, active euchromatin form. Same underlying idea as DNA methylation above, just a different chemical modification pushing chromatin structure in the opposite direction.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -8104,10 +8133,20 @@ STUDY_CONTENT[7] = `<div class="hero">
     <p>Homologous and analogous structures are constantly mixed up, and this is a favorite exam trap. Quick test: do the structures share an underlying anatomical/developmental origin, even if they now look and function differently (like a bat's wing and a human arm, both built from the same basic bone arrangement)? That's homologous — evidence of shared ancestry. Do the structures look and function similarly but arose completely independently, from unrelated starting points (like an insect wing and a bird wing, structurally nothing alike underneath)? That's analogous — evidence of convergent evolution, NOT shared ancestry.</p>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-homologous-vs-analogous.png" alt="A side-by-side comparison of homologous and analogous structures. Homologous structures share ancestry, similar underlying anatomy, and may have similar or different functions, illustrated by vertebrate limb bones (human arm, bat wing) sharing the same bone arrangement. Analogous structures have different ancestry, dissimilar anatomy, and similar functions, illustrated by a butterfly wing and a bird wing, which look and function alike but share no common underlying structure." style="width:100%; max-width:700px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Look at the center illustration closely: the homologous limbs (top) have matching color-coded bones in the same positions, just reshaped for different jobs. The analogous wings (bottom) share no such matching structure underneath — they just happen to look similar on the outside.</p>
+  </div>
+
   <h3>Quick Check</h3>
   <div class="practice-item"><span class="qnum-badge">Q</span><span>A shark's fin and a dolphin's fin serve a similar function (swimming) but evolved from completely different underlying structures in unrelated ancestral lineages. Are these homologous or analogous structures? What does this indicate?</span></div>
   <div class="answer-key">
     <details><summary>Check your answer</summary><div class="a-content">These are analogous structures, since they share similar function (swimming) but arose from different underlying anatomical origins in unrelated lineages, rather than from a shared ancestral structure. This is evidence of convergent evolution — similar environmental pressures (moving efficiently through water) independently favored a broadly similar fin-like shape in two unrelated lineages, not evidence that sharks and dolphins share a particularly close common ancestor.</div></details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-homology-analogy-matrix.png" alt="A 2x2 matrix comparing legs and flippers across mammals and insects. Reading down each column: a cat leg and a whale flipper are homologous to each other (both mammal limbs, same underlying bone plan, different specific function), and a praying mantis leg and a water boatman flipper leg are homologous to each other (both insect legs, same underlying plan). Reading across each row: a cat leg and a praying mantis leg are analogous (both used for walking, but built on completely different body plans), and a whale flipper and a water boatman flipper leg are analogous (both used for swimming, but built on completely different body plans)." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Read this one carefully — it's testing the same idea from two directions at once. Down a row (cat leg → whale flipper) is homologous: same species group, same underlying limb plan, just doing a different job. Across a column (cat leg → praying mantis leg) is analogous: unrelated groups, doing the same job, with completely unrelated underlying structures.</p>
   </div>
 
   <div class="heylook">
@@ -9478,6 +9517,19 @@ STUDY_CONTENT[8] = `<div class="hero">
     <p>When a question describes removing a predator (often a keystone species), trace the effect step by step down the food chain: removing the predator typically allows its prey population to increase unchecked, which then increases pressure on whatever THAT prey species eats, potentially depleting that next level down — and so on. This chain reaction, rippling through multiple trophic levels following a change at one level, is called a trophic cascade. Always work through the chain one full step at a time rather than jumping straight to a final guess.</p>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p>A forest ecosystem has three trophic levels: tigers (apex predator), deer (primary consumer/prey), and grass (producer). Tigers are hunted to local extinction. Trace the trophic cascade this would set off, one step at a time.</p>
+    <details class="solution"><summary>Show the reasoning</summary>
+      <div class="sol-content">Work down the chain one link at a time, exactly as the skillbox above describes. Step 1: with tigers gone, the deer population is no longer controlled by predation, so it grows rapidly — an unchecked boom at the 2nd trophic level. Step 2: that larger deer population needs more food, so grazing pressure on grass (the 1st trophic level, the producer) increases substantially. Step 3: heavier grazing can deplete the grass, potentially degrading the whole habitat for deer and every other species that depends on that grassland. Notice the pattern captured by "the enemy of my enemy is my friend": the tiger's presence indirectly protected the grass, by keeping the deer in check — removing the top predator has an INDIRECT effect that skips straight past the deer and lands on the producer level, even though tigers never eat grass themselves.</div>
+    </details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-trophic-cascade-tiger-deer-grass.png" alt="A trophic cascade diagram showing three trophic levels: predator (tigers) at the top, prey/primary consumer (deer) in the middle, and producer (grass) at the bottom. Solid green arrows show the direct predator-to-prey and prey-to-producer relationships. A dashed blue arrow labeled 'indirect effect' connects the predator level directly to the producer level, captioned 'the enemy of my enemy is my friend.'" style="width:100%; max-width:700px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">That dashed "indirect effect" arrow is the whole concept in one line — the predator's influence reaches all the way down to the producer level without ever touching it directly, purely by controlling the middle link in the chain.</p>
+  </div>
+
   <h3>Quick Check</h3>
   <div class="practice-item"><span class="qnum-badge">Q</span><span>Sea otters are a keystone species in kelp forest ecosystems, since they prey heavily on sea urchins, which graze on kelp. Predict what would happen to a kelp forest ecosystem if sea otters were removed entirely.</span></div>
   <div class="answer-key">
@@ -9553,6 +9605,16 @@ STUDY_CONTENT[8] = `<div class="hero">
     </tbody>
   </table>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-nitrogen-cycle-comprehensive.png" alt="A diagram of the nitrogen cycle showing atmospheric nitrogen gas, nitrogen-fixing bacteria (both free-living in soil and living in legume root nodules) converting it to ammonium, decomposers breaking down organic matter into ammonium through ammonification, nitrifying bacteria converting ammonium to nitrites and then nitrates through nitrification, plants taking up ammonium and nitrates through assimilation, and denitrifying bacteria converting nitrates back to atmospheric nitrogen gas through denitrification." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Trace the full loop at least once out loud: atmospheric N2 → fixation → ammonium → nitrification → nitrate → assimilation into plants → ammonification (via decomposers, back to ammonium) → denitrification → back to atmospheric N2.</p>
+  </div>
+
+  <div class="skillbox">
+    <span class="tag-label skill">Exam Skill: Memorize This One Precisely</span>
+    <p>The nitrogen cycle is one of the most reliably tested diagram-labeling topics on the exam — you genuinely need to know these five process names cold, not just recognize them: <strong>nitrogen fixation</strong> (N2 → ammonia/ammonium, done by nitrogen-fixing bacteria), <strong>nitrification</strong> (ammonium → nitrite → nitrate, done by nitrifying bacteria), <strong>assimilation</strong> (plants/organisms taking up ammonium or nitrate and building it into biological molecules), <strong>ammonification</strong> (decomposers breaking down dead organic matter back into ammonium), and <strong>denitrification</strong> (nitrate → N2 gas, done by denitrifying bacteria, the only step that returns nitrogen to the atmosphere). A released FRQ that hands you a blank version of this diagram and asks you to label the arrows is a completely realistic scenario — practice drawing this cycle from memory, not just reading it.</p>
+  </div>
+
   <div class="heylook">
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>This connects to units you already know</div>
     <p>The carbon cycle is really just Units 3's photosynthesis and cellular respiration, scaled up to the whole planet. Photosynthesis pulls carbon out of the atmosphere as CO2 and locks it into organic molecules (glucose); respiration burns that organic matter back down, releasing CO2 back into the atmosphere. Human combustion of fossil fuels essentially releases ancient, long-buried carbon (from long-dead organisms) back into this cycle much faster than it would naturally be released, which is the core mechanism behind human-driven climate change.</p>
@@ -9561,6 +9623,11 @@ STUDY_CONTENT[8] = `<div class="hero">
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>Students often think all organisms can directly use atmospheric nitrogen gas (N2), since nitrogen is so abundant in the atmosphere (about 78%). They can't — N2's triple bond is extremely stable and unusable by most organisms directly. Only certain specialized bacteria (nitrogen-fixing bacteria) can convert N2 into usable forms like ammonia, which then becomes available to plants and, through the food chain, to other organisms. This is exactly why nitrogen, despite its atmospheric abundance, is so often a limiting nutrient for plant growth.</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-nitrogen-cycle-industrial-internal.png" alt="A simplified nitrogen cycle diagram distinguishing biological nitrogen fixation from industrial nitrogen fixation, both producing ammonia (NH3). Ammonia undergoes nitrification to nitrate (NO3-), which is assimilated into proteins, which are decomposed back into ammonia, labeled as internal cycling. Nitrate can also undergo denitrification back to atmospheric N2." style="width:100%; max-width:550px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Worth noticing: this version splits out "industrial N2 fixation" (the Haber-Bosch process used to make synthetic fertilizer) as a second fixation pathway alongside biological fixation — a real, human-scale input into the nitrogen cycle. It also groups the middle section as "internal cycling," a useful way to separate the atmosphere-exchange steps (fixation, denitrification) from the ecosystem-internal loop (nitrification, assimilation, decomposition) happening between them.</p>
   </div>
 
   <h3>Quick Check</h3>
