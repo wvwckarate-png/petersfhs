@@ -261,6 +261,11 @@ const STUDY_CONTENT = {
 
   <p>Amino acids link via dehydration synthesis to form a <strong>peptide bond</strong> between the carboxyl group of one and the amino group of the next. A chain of amino acids is a <strong>polypeptide</strong>; a folded, functional polypeptide (or several together) is a <strong>protein</strong>.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u1-protein-structure-overview.png" alt="The four levels of protein structure shown as a progression: a primary sequence of amino acids, alpha helixes forming secondary structure, folded polypeptide chains forming tertiary structure, and a complex of multiple protein molecules forming quaternary structure." style="width:100%; max-width:750px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Same protein, four zoom levels — sequence, local fold, full 3D shape, then multiple chains assembled together. Keep this picture in mind as you read what specific bonds hold each level together below.</p>
+  </div>
+
   <table class="formula-table">
     <thead><tr><th>Level</th><th>What It Describes</th><th>Main Forces Involved</th></tr></thead>
     <tbody>
@@ -270,6 +275,11 @@ const STUDY_CONTENT = {
       <tr><td>Quaternary</td><td>Arrangement of multiple polypeptide subunits together</td><td>Same forces as tertiary, between separate chains</td></tr>
     </tbody>
   </table>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u1-protein-structure-hemoglobin.png" alt="Hemoglobin as a worked example of protein structure: amino acids linked by peptide bonds with visible R-groups, hydrogen bonds forming the secondary alpha helix, the tertiary beta-globin polypeptide folding around a heme group, and the full quaternary hemoglobin molecule made of two alpha-globin and two beta-globin polypeptides plus four heme groups." style="width:100%; max-width:850px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Hemoglobin is the example worth memorizing: notice the actual hydrogen bonds holding the α-helix together, and that quaternary structure here means four separate polypeptides (two α-globin, two β-globin) plus four heme groups, all non-covalently associated — exactly the kind of assembly that heat or pH can pull apart without touching a single peptide bond.</p>
+  </div>
 
   <div class="skillbox">
     <span class="tag-label skill">Exam Skill: Predicting Denaturation</span>
@@ -363,6 +373,11 @@ const STUDY_CONTENT = {
       <tr><td>Cell wall (plants, fungi, bacteria)</td><td>Structural support and protection</td></tr>
     </tbody>
   </table>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-eukaryotic-cell-organelle-map.png" alt="A labeled diagram of a generalized eukaryotic (animal) cell, showing the nucleus with nuclear envelope, chromatin, and nucleolus; rough and smooth endoplasmic reticulum; Golgi apparatus; lysosomes; mitochondria; peroxisome; vacuole; plasma membrane; cytoplasm; and cytoskeleton components including microtubules, centrosome, intermediate filaments, and microfilaments." style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Use this to turn the table above into an actual mental map — notice how the rough ER sits right next to the nucleus (ribosome-studded, feeding directly into the Golgi), while the smooth ER and mitochondria are scattered more freely through the cytoplasm. The cytoskeleton labels are extra detail worth knowing exists, even though they're not the focus of this section.</p>
+  </div>
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
@@ -548,9 +563,19 @@ const STUDY_CONTENT = {
   <h3>The Endosymbiotic Theory</h3>
   <p>Here's one of the most genuinely surprising ideas in all of biology: mitochondria and chloroplasts were once free-living prokaryotic organisms. According to the <strong>endosymbiotic theory</strong>, an ancestral eukaryotic cell engulfed a free-living aerobic bacterium (which became the mitochondrion) and, in the lineage leading to plants, later engulfed a free-living photosynthetic bacterium (which became the chloroplast) — rather than digesting these bacteria, the host cell formed a stable, mutually beneficial relationship with them that persists in essentially every eukaryotic cell today.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-endosymbiosis-sequence.png" alt="A sequence showing the origin of eukaryotic cells: an ancestral prokaryote's plasma membrane infolds to form an endoplasmic reticulum and nuclear envelope, producing a cell with a nucleus and endomembrane system. This cell then engulfs an aerobic heterotrophic prokaryote, which becomes the mitochondrion, producing an ancestral heterotrophic eukaryote. Separately, in the lineage leading to plants, that cell later also engulfs a photosynthetic prokaryote, which becomes the plastid, producing an ancestral photosynthetic eukaryote." style="width:100%; max-width:750px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Notice the order matters: the nucleus forms first, entirely from the cell's own membrane folding inward — no engulfing involved. Only afterward does that already-nucleated cell engulf the bacterium that becomes the mitochondrion, and only in the plant lineage, later still, does a second engulfment produce the chloroplast.</p>
+  </div>
+
   <div class="heylook">
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>The evidence is the actual exam content</div>
     <p>This isn't just a fun story — the AP exam tests the specific evidence for it. Mitochondria and chloroplasts have their own circular DNA (like bacteria, unlike the linear chromosomes in the nucleus), their own ribosomes (which are more similar in size to bacterial ribosomes than to the eukaryotic cell's own cytoplasmic ribosomes), and a double membrane (consistent with having been engulfed by an ancestral cell's membrane while retaining their own original membrane). They also replicate independently of the cell cycle, by a process resembling bacterial binary fission. Memorize these four lines of evidence — they show up in FRQs constantly.</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u2-endosymbiosis-evidence-panel.png" alt="A diagram of a mitochondrion, a chloroplast, and a modern prokaryote highlighting the four lines of evidence for endosymbiotic origin: their own non-nuclear circular DNA (plasmid), ribosomes similar in size to present-day prokaryote ribosomes, a double membrane (two lipid bilayers), and reproduction by binary fission." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Matching this image's labels to the four lines of evidence above: the DNA loop inside the mitochondrion and chloroplast is their own circular <strong>plasmid</strong>-like DNA; the dots lining the chloroplast are <strong>ribosomes</strong> sized like a prokaryote's; both organelles are wrapped in a visible <strong>double membrane</strong>; and both reproduce independently by <strong>binary fission</strong>, just like the modern prokaryote shown alongside them.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -2780,6 +2805,11 @@ STUDY_CONTENT[3] = `<div class="hero">
     <p>Competitive vs. noncompetitive inhibition is one of the most commonly missed distinctions on the exam. The key diagnostic: does adding more substrate restore normal enzyme activity? If yes, it's competitive (the extra substrate can out-compete the inhibitor for the active site). If no — activity stays suppressed no matter how much substrate you add — it's noncompetitive, because the inhibitor isn't even in the active site; it's changed the enzyme's shape from somewhere else entirely.</p>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u3-enzyme-inhibition-types.png" alt="Four panels comparing enzyme binding: normal binding, where substrate fits the active site; competitive inhibition, where an inhibitor occupies the active site and blocks the substrate; noncompetitive inhibition, where an inhibitor binds a separate allosteric site and changes the enzyme's shape; and uncompetitive inhibition, where an inhibitor binds only after the substrate is already attached." style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Focus on the first three panels for the exam: competitive physically blocks the active site itself, while noncompetitive binds a separate allosteric site and distorts the active site's shape from a distance — that difference in location is the whole trap-box test above.</p>
+  </div>
+
   <div class="worked">
     <span class="tag-label example">Worked Example 1</span>
     <p>A researcher adds an inhibitor to an enzyme reaction and observes that increasing substrate concentration to very high levels eventually restores the enzyme's maximum reaction rate. What type of inhibitor is this, and how do you know?</p>
@@ -2801,6 +2831,15 @@ STUDY_CONTENT[3] = `<div class="hero">
       <li>Distinguish competitive and noncompetitive inhibition using the "does more substrate help?" test.</li>
       <li>Explain both halves of a temperature-vs-activity curve (rising then falling).</li>
     </ul>
+  </div>
+
+  <div class="heylook">
+    <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Beyond the AP Exam — Optional Enrichment</div>
+    <p>If you keep reading about enzymes (in a college course, or just out of curiosity), you'll run into two more inhibitor types — uncompetitive and mixed — along with the Km/Vmax language biochemists use to describe them precisely. None of this is tested on the AP exam, and you don't need it for full credit on any AP question. It's here purely because seeing the complete picture can make the competitive/noncompetitive distinction click even harder.</p>
+    <div class="diagram">
+      <img src="/images/diagrams/biology/diagram-u3-enzyme-inhibition-kinetics-table.png" alt="A table comparing four enzyme inhibitor types by what they bind and their effect on Km and Vmax: competitive inhibitors bind free enzyme and increase Km with no change to Vmax; uncompetitive inhibitors bind only the enzyme-substrate complex and decrease both Km and Vmax; noncompetitive inhibitors bind free enzyme and enzyme-substrate complex with equal affinity at an allosteric site, not changing Km but decreasing Vmax; mixed inhibitors bind both forms with unequal affinity, changing Km in either direction and decreasing Vmax." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+      <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Notice that AP's "noncompetitive" is really just one specific case here (equal affinity for both free enzyme and enzyme-substrate complex) — that's why noncompetitive inhibitors always drop Vmax without touching Km, exactly as the AP-level table above describes.</p>
+    </div>
   </div>
 
   <h2 id="s32"><span class="num">3.2</span>Cellular Energy and ATP</h2>
@@ -2850,6 +2889,11 @@ STUDY_CONTENT[3] = `<div class="hero">
 
   <p>The <strong>light-independent reactions</strong> (Calvin cycle) occur in the stroma and use the ATP and NADPH generated by the light-dependent reactions to fix CO2 into organic sugar. Despite the name, the Calvin cycle isn't truly independent of light — it depends entirely on the ATP and NADPH the light reactions supply, and stops shortly after light reactions stop.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u3-photosynthesis.png" alt="Diagram of photosynthesis inside the chloroplast, showing the light-dependent reactions in the thylakoid membrane (photolysis splitting water, releasing O2, producing ATP and NADPH) on the left, and the light-independent Calvin cycle in the stroma (Rubisco fixing CO2, RuBP and G3P, producing glucose) on the right, connected by ATP and NADPH." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The two halves of photosynthesis, side by side: light reactions on the left turning light and water into ATP and NADPH, Calvin cycle on the right spending that ATP and NADPH to build glucose from CO2. Notice they're drawn touching — that's the point, neither half runs without the other.</p>
+  </div>
+
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>The term "light-independent reactions" leads students to think the Calvin cycle can run indefinitely in the dark. It can't — it depends completely on a continuous supply of ATP and NADPH from the light-dependent reactions, which only occur when light is available. Without light, the Calvin cycle quickly stalls once existing ATP/NADPH stores run out. The name refers only to the fact that the Calvin cycle's own steps don't directly use light energy, not that it's independent of light overall.</p>
@@ -2884,6 +2928,11 @@ STUDY_CONTENT[3] = `<div class="hero">
   <div class="eq">
     <div class="main">C6H12O6 + 6O2 → 6CO2 + 6H2O + ATP</div>
     <div class="sub">Overall summary equation for aerobic cellular respiration</div>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u3-cellular-respiration.png" alt="Diagram of cellular respiration showing glycolysis, the Krebs cycle, and the electron transport chain occurring inside the mitochondrion, with ATP, NADH, CO2, and water tracked at each stage." style="width:100%; max-width:900px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The full path from food and oxygen going in, to ATP, CO2, and water coming out — glycolysis in the cytosol, then the Krebs cycle and electron transport inside the mitochondrion.</p>
   </div>
 
   <table class="formula-table">
@@ -2932,6 +2981,11 @@ STUDY_CONTENT[3] = `<div class="hero">
   <h2 id="s35"><span class="num">3.5</span>Fermentation and Pathway Regulation</h2>
   <p>What happens when oxygen isn't available? Without O2 to accept electrons at the end of the electron transport chain, the chain backs up and stops, which means the Krebs cycle and pyruvate oxidation stall too (they depend on NAD+ and FAD being regenerated by the ETC, and without the chain running, those carriers stay "full" as NADH/FADH2 with nowhere to unload). Only glycolysis, which doesn't require oxygen at all, can continue — but glycolysis itself depends on a steady supply of NAD+ to keep running.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u3-fermentation-pathway.png" alt="Flowchart showing glucose entering glycolysis to produce pyruvate, which then splits into two paths: fermentation (without oxygen, producing lactic acid or ethanol) or the Krebs cycle and electron transport (with oxygen, producing CO2, water, and 34-36 ATP)." style="width:100%; max-width:340px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The fork in the road: every glucose molecule goes through glycolysis first, no matter what — it's only AFTER that point that the path splits depending on whether oxygen is available.</p>
+  </div>
+
   <p><strong>Fermentation</strong> solves this problem, not by making significant additional ATP, but by regenerating NAD+ so glycolysis can continue operating. That's fermentation's entire biological purpose — it's a NAD+ regeneration workaround, not a major energy-producing pathway.</p>
 
   <table class="formula-table">
@@ -2949,6 +3003,11 @@ STUDY_CONTENT[3] = `<div class="hero">
 
   <h3>Enzyme Regulation and Feedback Inhibition</h3>
   <p>Cellular respiration and photosynthesis are both tightly regulated so cells don't waste resources overproducing ATP or sugar they don't need. A common regulatory strategy is <strong>feedback inhibition</strong>: the final product of a pathway binds to and inhibits an enzyme earlier in that same pathway (often the first, rate-limiting step), automatically slowing production once enough product has accumulated — a built-in, self-correcting braking system that requires no outside signal.</p>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u3-feedback-inhibition.png" alt="Diagram showing ATP feeding back to inhibit three earlier points in cellular respiration: the glycolysis step converting glucose, the pyruvate oxidation step converting pyruvate to acetyl-CoA, and the citric acid cycle, each marked with a stop sign." style="width:100%; max-width:420px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">ATP itself is the product doing the inhibiting here — high ATP levels put the brakes on multiple points earlier in the pathway, not just the very first step.</p>
+  </div>
 
   <div class="skillbox">
     <span class="tag-label skill">Exam Skill: Recognizing Feedback Inhibition</span>
@@ -4138,12 +4197,22 @@ STUDY_CONTENT[4] = `<div class="hero">
 
   <p>One of the most heavily tested pathway examples is the <strong>G protein-coupled receptor (GPCR)</strong> pathway. A ligand binds the GPCR, causing it to change shape and activate an associated G protein by triggering GDP to be swapped for GTP. The activated G protein then goes on to activate other proteins or enzymes, continuing the cascade — this GDP-to-GTP swap is the molecular "on switch" you'll see referenced constantly in released FRQs.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u4-gpcr-gdp-gtp-switch.png" alt="A GPCR embedded in the plasma membrane with an inactive, GDP-bound G protein (Gα subunit with β and γ subunits attached) resting below it. After a signaling molecule binds the GPCR, the G protein swaps GDP for GTP, and the Gα subunit separates from the βγ subunits, each going on to trigger separate downstream signals affecting processes like hormone signaling, immune function, and metabolic signaling." style="width:100%; max-width:800px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The GDP-to-GTP swap (bottom center) is the exact moment this pathway flips on — and notice it doesn't just activate one downstream effect. The Gα and βγ pieces split apart and each go trigger their own separate signal, which is amplification happening in real time.</p>
+  </div>
+
   <div class="worked">
     <span class="tag-label example">Worked Example 1</span>
     <p>A mutation locks a G protein in its active, GTP-bound state permanently, unable to convert back to the inactive GDP-bound state. Predict the effect on the associated signaling pathway's activity, even without any ligand present.</p>
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">Since the G protein is stuck in its active (GTP-bound) form, it would continue activating downstream steps of the signaling pathway continuously, regardless of whether the receptor has actually been triggered by ligand binding. This would result in constant, ligand-independent activation of the pathway — essentially the pathway being permanently "stuck on." This kind of mutation is actually relevant to real cancer biology, since several oncogenes work through exactly this mechanism: a signaling pathway (often related to cell division) getting locked into a permanently active state.</div>
     </details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u4-gpcr-cascade-to-gene-expression.png" alt="A GPCR pathway shown reaching all the way into the nucleus: the ligand binds the GPCR, activating the G protein, which activates an effector protein, which triggers a chain of downstream effectors that cross into the nucleus, phosphorylate a transcription factor, and turn on transcription of a gene." style="width:100%; max-width:380px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Follow this all the way to the bottom: the same GDP/GTP switch you just saw can end with a phosphorylated transcription factor turning a gene on — a real, testable example of the "signal → altered gene expression" endpoint mentioned above, and a direct callback to Unit 6's transcription content.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -4178,7 +4247,17 @@ STUDY_CONTENT[4] = `<div class="hero">
     <p>Students often think DNA replication happens during mitosis. It doesn't — by the time mitosis begins, DNA has already been fully replicated during S phase. Mitosis's entire job is accurately SEPARATING already-duplicated sister chromatids into two new nuclei, not duplicating DNA itself. Mixing up "when copying happens" versus "when separating happens" is one of the most common cell cycle errors.</p>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u4-mitosis-pmat-labeled.png" alt="A labeled diagram of the cell cycle stages: interphase, showing loose chromatin inside an intact nuclear envelope; prophase, showing condensed chromosomes and spindle fibers forming from centrioles; metaphase, showing chromosomes aligned at the metaphase plate; anaphase, showing daughter chromosomes being pulled to opposite poles; and telophase and cytokinesis, showing the nuclear envelope reforming and a cleavage furrow dividing the cytoplasm into two daughter cells." style="width:100%; max-width:700px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Start at that first panel — Interphase already has loose, uncondensed chromatin inside an intact nuclear envelope. Nothing about entering prophase involves copying DNA; the cell is just reorganizing DNA it already duplicated back in S phase.</p>
+  </div>
+
   <p>During mitosis, chromosomes condense and become visible (prophase), align at the cell's center (metaphase), sister chromatids separate and are pulled to opposite poles (anaphase), and two new nuclei form (telophase) — followed by cytokinesis, physically dividing the cytoplasm into two separate daughter cells, each genetically identical to the original.</p>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u4-mitosis-phase-reference-table.png" alt="A reference table matching each mitotic phase to a labeled cell image and description: prophase (chromosomes condense as spindle fibers stretch across the cell), metaphase (chromosomes line up at the cell's middle and attach to spindle fibers), anaphase (spindle fibers pull chromosome pairs apart toward each end), telophase (nuclear membrane reappears and the cell pinches apart), and cytokinesis (two new daughter cells are present)." style="width:100%; max-width:500px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">A quick-reference version of the same five stages — useful for a last pass before a quiz, once the mechanism above already makes sense.</p>
+  </div>
 
   <h3>Quick Check</h3>
   <div class="practice-item"><span class="qnum-badge">Q</span><span>A cell biologist observes a cell with visibly condensed chromosomes lined up at the cell's equator. Which phase of mitosis is this, and what should happen next?</span></div>
@@ -4197,6 +4276,11 @@ STUDY_CONTENT[4] = `<div class="hero">
 
   <h2 id="s44"><span class="num">4.4</span>Cell Cycle Regulation and Checkpoints</h2>
   <p>Cell division is far too important — and far too dangerous if done incorrectly — to happen unsupervised. The cell cycle includes several <strong>checkpoints</strong>, points at which the cell evaluates internal and external conditions before committing to continue through the cycle.</p>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u4-cell-cycle-checkpoints-wheel.png" alt="A wheel diagram of the cell cycle showing interphase (G1, S, G2) and the mitotic phase (mitosis and cytokinesis), with three checkpoints marked in red: the G1 checkpoint at the G1-to-S boundary, the G2 checkpoint at the G2-to-M boundary, and the M checkpoint within the mitotic phase before cytokinesis. G0, a resting state cells can exit into from G1, is also shown." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">All three checkpoints sit at a transition — G1 checkpoint gates entry into S, G2 checkpoint gates entry into M, and the M checkpoint gates the final step of division itself. G0 (top right) is where a cell can permanently exit the cycle instead of continuing.</p>
+  </div>
 
   <table class="formula-table">
     <thead><tr><th>Checkpoint</th><th>Location</th><th>What It Checks</th></tr></thead>
@@ -5527,11 +5611,21 @@ STUDY_CONTENT[5] = `<div class="hero">
     </details>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u5-nondisjunction-anaphase-comparison.png" alt="Side-by-side comparison of nondisjunction at anaphase I versus anaphase II. In anaphase I nondisjunction, both homologous chromosomes go to the same pole, and after meiosis II all resulting gametes are aneuploid. In anaphase II nondisjunction, meiosis I separates normally, but sister chromatids fail to separate in one of the two resulting cells during meiosis II, so half of the final gametes are haploid and half are aneuploid." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Left panel matches the worked example above exactly. Right panel previews the anaphase II case coming up next — notice meiosis I looks completely normal there, which is exactly the clue that tells you where the error actually happened.</p>
+  </div>
+
   <p>If an n+1 gamete fertilizes a normal gamete, the resulting offspring has three copies of that particular chromosome instead of the usual two — a condition called <strong>trisomy</strong> (Down syndrome, trisomy 21, is the most well-known example). If an n−1 gamete fertilizes a normal gamete, the offspring has only one copy — <strong>monosomy</strong>.</p>
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>Nondisjunction can occur during EITHER Meiosis I (a whole homologous pair fails to separate) or Meiosis II (sister chromatids fail to separate) — and the resulting gamete outcomes differ slightly between the two. If nondisjunction happens in Meiosis I, ALL FOUR resulting gametes are abnormal (two n+1, two n−1). If it happens in Meiosis II, only TWO of the four resulting gametes are abnormal (one n+1, one n−1), while the other two gametes (from the homologous pair that separated normally in Meiosis I) are entirely normal. Being able to identify which meiotic division nondisjunction occurred in, based on how many abnormal gametes result, is a favorite AP diagram question.</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u5-nondisjunction-mi-vs-mii-labeled.png" alt="A fully labeled diagram tracing nondisjunction through meiosis I and meiosis II for two scenarios. Top: nondisjunction during meiosis I produces four final gametes labeled n+1, n+1, n-1, n-1. Bottom: meiosis I proceeds normally, but nondisjunction during meiosis II in one of the two resulting cells produces four final gametes labeled n+1, n-1, n, n." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Every one of the four final gametes is labeled here — count them for each scenario and you'll see exactly what the trap box above is describing: 4 abnormal (top) versus 2 abnormal + 2 normal (bottom). This is the exact pattern-recognition skill the Quick Check below is testing.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -6636,6 +6730,11 @@ STUDY_CONTENT[6] = `<div class="hero">
   <h2 id="s61"><span class="num">6.1</span>DNA Structure and Replication</h2>
   <p>You covered DNA's basic structure back in Unit 1 — the double helix, antiparallel strands, complementary base pairing (A-T, G-C). Now let's focus on how that structure gets accurately copied every time a cell divides, a process called <strong>DNA replication</strong>.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-dna-chromosome-context.png" alt="Diagram zooming from a full chromosome down into the coiled DNA double helix, showing the replication fork opening with helicase and DNA polymerase at work, and a color-coded legend for adenine, thymine, cytosine, and guanine base pairing." style="width:100%; max-width:620px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Zooming out matters here: that tightly coiled chromosome you're used to seeing in mitosis diagrams is the SAME molecule as this double helix, just packaged up. This is what gets unwound and copied.</p>
+  </div>
+
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
     <p>DNA replication is <strong>semiconservative</strong> — each of the two original strands serves as a template for building one new complementary strand, so every resulting double helix ends up with one original ("parental") strand and one newly synthesized strand. This isn't just a historical footnote; it's the entire logical basis for how replication can be both accurate (each new strand is built by matching complementary bases against an intact template) and efficient.</p>
@@ -6653,6 +6752,11 @@ STUDY_CONTENT[6] = `<div class="hero">
   </table>
 
   <p>Because DNA polymerase can only add new nucleotides in the 5' to 3' direction, and the two template strands run antiparallel to each other, replication proceeds differently on each strand. The <strong>leading strand</strong> is synthesized continuously, in one long piece, following directly behind the replication fork. The <strong>lagging strand</strong> must be synthesized discontinuously, in short segments (<strong>Okazaki fragments</strong>) that are later joined together by ligase — because DNA polymerase can only build in one direction, but the fork keeps opening up in the "wrong" direction for that strand.</p>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-replication-fork-enzymes.png" alt="Detailed diagram of the DNA replication fork showing helicase unwinding the double helix, topoisomerase relieving strain ahead of the fork, DNA polymerase synthesizing the continuous leading strand, and the lagging strand being built in Okazaki fragments each starting with an RNA primer." style="width:100%; max-width:750px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Every enzyme from the table above, shown doing its actual job at the fork. Notice the leading strand only needs DNA polymerase to sit and run continuously, while the lagging strand needs a fresh RNA primer every time it restarts a new Okazaki fragment.</p>
+  </div>
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
@@ -6684,6 +6788,11 @@ STUDY_CONTENT[6] = `<div class="hero">
 
   <h2 id="s62"><span class="num">6.2</span>Transcription</h2>
   <p><strong>Transcription</strong> is the process of copying a gene's DNA sequence into a complementary mRNA (messenger RNA) molecule, which then carries that genetic information out of the nucleus (in eukaryotes) to be used for protein synthesis. It's carried out by the enzyme <strong>RNA polymerase</strong>.</p>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-central-dogma-overview.png" alt="The Central Dogma: a double-stranded DNA segment being transcribed into a single-stranded mRNA sequence, which is then translated codon by codon into a polypeptide chain of amino acids, ending at a stop codon." style="width:100%; max-width:750px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The whole unit in one picture: DNA's base sequence becomes mRNA's base sequence (transcription), and mRNA's codons become a chain of amino acids (translation) — everything else in this section is detail layered onto this one flow.</p>
+  </div>
 
   <table class="formula-table">
     <thead><tr><th>Stage</th><th>What Happens</th></tr></thead>
@@ -6731,6 +6840,11 @@ STUDY_CONTENT[6] = `<div class="hero">
 
   <p>Translation involves three types of RNA working together: mRNA (carries the code), <strong>tRNA</strong> (transfer RNA, each carrying a specific amino acid and matching a specific codon via its anticodon), and <strong>rRNA</strong> (ribosomal RNA, a structural and catalytic component of the ribosome itself). A tRNA's <strong>anticodon</strong> pairs with a complementary mRNA codon, ensuring the correct amino acid is added to the growing polypeptide chain in the correct order.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-translation-mechanism.png" alt="The three stages of translation at the ribosome: initiation (tRNA carrying the first amino acid binds the start codon AUG), elongation (tRNAs deliver amino acids one by one to build the polypeptide chain), and termination (a release factor recognizes the stop codon UAG and releases the completed polypeptide)." style="width:100%; max-width:550px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Watch the ribosome itself move left to right along the mRNA — initiation sets the reading frame at AUG, elongation is just this cycle repeating, and termination happens the instant a stop codon reaches the site instead of another amino acid-carrying tRNA.</p>
+  </div>
+
   <div class="skillbox">
     <span class="tag-label skill">Exam Skill: Using a Codon Table</span>
     <p>Practice reading mRNA sequences in triplets (codons), starting from the start codon AUG (which also codes for the amino acid methionine), and continuing until you hit one of the three stop codons (UAA, UAG, UGA). Always double-check your reading frame — starting from the wrong nucleotide shifts every subsequent codon, producing a completely different (and usually nonfunctional) amino acid sequence, an error called a frameshift.</p>
@@ -6772,6 +6886,11 @@ STUDY_CONTENT[6] = `<div class="hero">
     </tbody>
   </table>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-point-mutation-types-comparison.png" alt="A comparison table tracing a single starting DNA triplet through mRNA and protein for five scenarios: no mutation (TTC to AAG to Lysine), a silent mutation (TTT to AAA, still Lysine), a nonsense mutation (ATC to UAG, a stop codon), a conservative missense mutation (TCC to AGG, Arginine, still a basic amino acid like the original Lysine), and a non-conservative missense mutation (TGC to ACG, Threonine, a polar amino acid chemically different from the original Lysine)." style="width:100%; max-width:850px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Same starting codon, five outcomes, traced all the way to amino acid chemistry. Notice why missense severity varies so much: the conservative change (Lys→Arg) swaps one basic amino acid for another, barely disturbing the protein, while the non-conservative change (Lys→Thr) swaps a charged amino acid for a polar one — a much bigger structural disruption from a single base change.</p>
+  </div>
+
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>Insertions and deletions are NOT automatically frameshift mutations — it depends entirely on how many nucleotides are added or removed. Inserting or deleting a number of nucleotides that's a MULTIPLE OF THREE keeps the reading frame intact downstream (it just adds or removes one or more whole amino acids), while insertions/deletions of 1, 2, 4, 5 nucleotides (not a multiple of 3) shift the reading frame for everything downstream. Always check whether the number of nucleotides changed is divisible by 3 before assuming a frameshift has occurred.</p>
@@ -6809,6 +6928,11 @@ STUDY_CONTENT[6] = `<div class="hero">
   <div class="skillbox">
     <span class="tag-label skill">Exam Skill: Reasoning Through Operon Logic</span>
     <p>The lac operon is normally OFF (a repressor protein binds the operator, physically blocking RNA polymerase) unless lactose is present. When lactose is present, it binds and inactivates the repressor, allowing transcription to proceed — this is called <strong>negative regulation</strong> (via a repressor being removed). If you see a diagram of an operon with a repressor, ask: what condition removes the repressor and turns the genes ON? That's almost always the key question being tested.</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u6-lac-operon-lactose-absent.png" alt="The lac operon in its default OFF state with lactose absent: the regulatory gene lacI is transcribed and translated into an active repressor protein, which binds the operator, physically blocking RNA polymerase from binding the promoter, so no RNA is made from lacZ." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">This is the operon's resting state — lacI's protein product (the repressor) sits directly on the operator, and its shape physically blocks RNA polymerase from ever reaching the promoter. Picture lactose showing up and binding that repressor, changing its shape so it releases the operator — that's the entire "on switch" for this pathway.</p>
   </div>
 
   <h3>Eukaryotic Gene Regulation</h3>
@@ -8002,6 +8126,11 @@ STUDY_CONTENT[7] = `<div class="hero">
   <h2 id="s72"><span class="num">7.2</span>Mechanisms of Natural Selection</h2>
   <p><strong>Natural selection</strong> requires three conditions: heritable variation must exist within a population, that variation must affect survival or reproduction (differential fitness), and the advantageous variants must be passed on more often to the next generation. Over time, this shifts a population's allele/trait frequencies in the direction favored by the current environment.</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-selection-types-labeled-curves.png" alt="Three graphs of number of individuals versus phenotype/trait, each comparing the original population (dotted line) to the population after selection (solid line). Directional selection: selection for one extreme and against the other, shifting the whole curve to one side. Stabilizing selection: selection against the extreme phenotypes at both ends, narrowing the curve around the mean. Disruptive selection: selection for the extremes and against the mean, splitting the curve into two peaks." style="width:100%; max-width:420px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Read the caption at the top of each panel — it's describing the exact mechanism, not just the shape. Compare this against the table below and you should be able to sketch all three curves from memory before you finish this section.</p>
+  </div>
+
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
     <p>Natural selection acts on PHENOTYPES (the observable, expressed traits an organism actually has and uses), but its evolutionary EFFECT is on allele frequencies at the population level, since it's the underlying alleles that get passed on to offspring. A common exam trap is describing selection as acting "on genes" directly — really, selection acts on the whole organism's phenotype and survival/reproductive success, and allele frequency change is the downstream population-level consequence of that differential survival and reproduction.</p>
@@ -8022,6 +8151,11 @@ STUDY_CONTENT[7] = `<div class="hero">
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">This is directional selection. The environmental change (drought eliminating small seeds) favored one extreme of the existing beak-size variation — larger, stronger beaks capable of cracking the large, hard seeds that remained available. Birds with larger beaks would have had a survival/reproductive advantage under these new conditions, leading their allele combinations to become more common in subsequent generations, shifting the population's average beak size toward that favored extreme over time. This is essentially the real, famous example of directional selection observed in Darwin's finches on the Galápagos Islands.</div>
     </details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-selection-types-real-examples.png" alt="Three real biological examples of selection types. Stabilizing selection: robins typically lay four eggs, since larger clutches risk malnourished chicks and smaller clutches risk no viable offspring. Directional selection: peppered moth coloration shifted from light to dark during the Industrial Revolution as soot darkened tree bark, favoring camouflaged dark moths. Diversifying (disruptive) selection: in a hypothetical rabbit population, gray and Himalayan (gray-and-white) rabbits blend better with a rocky environment than plain white rabbits." style="width:100%; max-width:520px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The bottom panel calls this "diversifying selection" — that's just another name for disruptive selection, the term this guide uses. Same concept, same curve shape (two peaks, favoring both extremes), different label depending on which textbook you're reading.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -8113,9 +8247,19 @@ STUDY_CONTENT[7] = `<div class="hero">
   <h2 id="s75"><span class="num">7.5</span>Phylogeny and Common Ancestry</h2>
   <p>A <strong>phylogenetic tree</strong> (or cladogram) is a diagram representing the evolutionary relationships among a group of organisms, based on shared characteristics (often derived from molecular/DNA sequence data, but also morphological traits).</p>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-phylogeny-vocabulary.png" alt="A phylogenetic tree labeled with basic vocabulary: terminal taxa are the species listed at the tips of the tree (A through H), nodes are the colored dots marking each branch point, and branches are the line segments connecting nodes to each other and to the tips." style="width:100%; max-width:700px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Learn these three terms before anything else in this section: terminal taxa (the species you're comparing), nodes (the branch points — each one IS a common ancestor), and branches (the lines connecting them). Everything the skillbox below explains is really just "read the nodes correctly."</p>
+  </div>
+
   <div class="skillbox">
     <span class="tag-label skill">Exam Skill: Reading Phylogenetic Trees</span>
     <p>Each branch point (node) on a tree represents a common ancestor shared by everything branching off from that point. Two species are considered more closely related if their branches diverge from a MORE RECENT common ancestor (a node closer to the tips of the tree) than two species whose lineages diverge from an OLDER, more distant common ancestor. Tree topology (branching pattern) is what matters for interpreting relatedness — NOT the left-to-right order species happen to be listed in, and NOT physical similarity alone (remember analogous structures from Section 7.1 — similarity doesn't always mean close relatedness).</p>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u7-phylogeny-mrca.png" alt="A phylogenetic tree with species A through E labeled as species of interest at the top. The most recent common ancestor of A and B is marked at the node where their branches join. The most recent common ancestor of all five species (A, B, C, D, and E) is marked at the root of the tree, further down. An arrow on the right shows present-day species at the top and ancestors below." style="width:100%; max-width:550px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">This is the exact logic Worked Example 3 below is testing. A and B's most recent common ancestor sits close to the tips (very recent) — so A and B are closely related. The ancestor shared by all five species sits all the way down at the root (much older) — so that's a much more distant relationship.</p>
   </div>
 
   <div class="trap">
@@ -9268,6 +9412,11 @@ STUDY_CONTENT[8] = `<div class="hero">
     <div class="sub">K = carrying capacity · Growth slows as N approaches K; S-shaped growth curve</div>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-population-growth-curves-annotated.png" alt="Side-by-side comparison of exponential growth, a J-shaped curve where growth rate continues to accelerate forever, and logistic growth, an S-shaped curve where early growth accelerates quickly, reaches a point of maximum growth before it begins to slow, and later growth slows to zero as the population approaches carrying capacity, marked with a dashed line." style="width:100%; max-width:700px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Look closely at that marked "point of maximum growth" on the logistic curve — it sits roughly in the middle, not at either end. That's the population's steepest, fastest-growing moment, which is a subtler and more testable detail than just "the curve levels off."</p>
+  </div>
+
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
     <p>The single most important term in the logistic growth equation is the (K − N)/K fraction — this is what makes logistic growth realistic. When population size (N) is small relative to carrying capacity (K), this fraction is close to 1, so growth proceeds almost exponentially. As N approaches K, this fraction approaches 0, slowing growth to nearly zero — the population levels off near carrying capacity rather than growing forever. Exponential growth has no such braking term, which is exactly why it's only realistic for short periods, under unlimited-resource conditions (like a population first colonizing a new, resource-rich environment).</p>
@@ -9352,6 +9501,11 @@ STUDY_CONTENT[8] = `<div class="hero">
     <p>Only about 10% of the energy available at one trophic level typically gets transferred to and incorporated into the next trophic level up (the "10% rule" or trophic efficiency) — the remaining roughly 90% is lost, mostly as heat released through cellular respiration (recall Unit 3: energy transformations are never 100% efficient) and through energy used for the organism's own metabolism, growth, and waste production, none of which gets passed on to whatever eats it. This single number explains an enormous amount of ecology: why food chains rarely extend beyond 4-5 trophic levels (there's simply too little usable energy left by that point), and why there's always dramatically less total biomass at higher trophic levels than at lower ones.</p>
   </div>
 
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-trophic-levels-kcal.png" alt="A pyramid of trophic levels with real energy values in Kcal per square meter per year: primary producers (autotrophs) at 10,000, primary consumers (heterotrophs) at 1,000, secondary consumers at 100, and tertiary consumers at 10, each level receiving only about 10% of the energy of the level below. Decomposers (detritivores) are shown at the base, living off detritus and waste from all other trophic levels. Arrows show the vast majority of energy at each level being lost as heat to the environment, produced by cellular respiration." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Same 10% rule as the equation below, just shown with real numbers instead of percentages — and notice it names the actual source of the lost energy: cellular respiration, the exact same process from Unit 3, running in every organism at every level.</p>
+  </div>
+
   <div class="eq">
     <div class="main">Energy available at next trophic level ≈ Energy at current level × 0.10</div>
     <div class="sub">The "10% Rule" — approximate, but a reliable order-of-magnitude estimate</div>
@@ -9363,6 +9517,11 @@ STUDY_CONTENT[8] = `<div class="hero">
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">Applying the 10% rule at each successive transfer: Primary consumers (herbivores) receive approximately 100,000 × 0.10 = 10,000 kcal. Secondary consumers (carnivores eating herbivores) receive approximately 10,000 × 0.10 = 1,000 kcal. Tertiary consumers (carnivores eating other carnivores) receive approximately 1,000 × 0.10 = 100 kcal. Notice how dramatically the available energy shrinks at each step — this is exactly why top predators (tertiary/quaternary consumers) are always relatively rare compared to the producers and lower-level consumers supporting them; there simply isn't enough energy left by that point in the chain to support a large population.</div>
     </details>
+  </div>
+
+  <div class="diagram">
+    <img src="/images/diagrams/biology/diagram-u8-energy-pyramid-percentages.png" alt="An energy pyramid showing five trophic levels as percentages: primary producers at 100%, primary consumers at 10%, secondary consumers at 1%, third level consumers at 0.1%, and apex predators at 0.01%. Arrows show most energy at each level being lost as heat, decomposers breaking down waste and dead matter from every level, and recycled nutrients returning to primary producers." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">This is the same calculation you just worked through, drawn as a shape — 100% shrinking to 0.01% across five levels is exactly why the pyramid gets so dramatically narrow near the top, and why apex predators are always the rarest organisms in any ecosystem.</p>
   </div>
 
   <p>An <strong>energy pyramid</strong> visually represents this pattern, with producers forming the wide base and each successive trophic level represented by a progressively smaller tier, reflecting the shrinking energy available. A <strong>biomass pyramid</strong> typically shows a similar shape for the same underlying reason — less available energy generally supports less total living biomass at higher trophic levels.</p>
