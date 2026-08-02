@@ -172,9 +172,15 @@ export default function VocabPage() {
       if (e.key === "ArrowLeft" || e.key === "ArrowRight") {
         e.preventDefault();
         setFlipped((f) => !f);
-      } else if (e.key === "ArrowUp" || e.key === "ArrowDown") {
+      } else if (e.key === "ArrowUp") {
         e.preventDefault();
         handleSkip();
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        if (cardIndex > 0) {
+          setCardIndex(cardIndex - 1);
+          setFlipped(false);
+        }
       }
     }
     document.addEventListener("keydown", handleKey);

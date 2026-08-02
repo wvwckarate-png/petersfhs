@@ -12,6 +12,10 @@ export default function HomePage() {
       <div style={styles.header}>
         <h1 style={styles.title}>Peters Family Homeschool</h1>
         <p style={styles.subtitle}>Pick a hub to get started.</p>
+        <p style={styles.tagline}>
+          "Each thing you learn is one more thing you know."
+          <span style={styles.taglineAuthor}> — Michael D. Peters, DVM</span>
+        </p>
       </div>
       <div style={styles.grid}>
         {hubs.map((hub) => (
@@ -21,6 +25,7 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+      <footer style={styles.footer}>v2.0.0</footer>
     </div>
   );
 }
@@ -30,6 +35,9 @@ const styles = {
   header: { textAlign: "center", marginBottom: 40 },
   title: { fontSize: 32, fontWeight: 800, color: "#2E332E", margin: 0 },
   subtitle: { color: "#767F73", marginTop: 8 },
+  tagline: { color: "#9AA096", marginTop: 18, fontSize: 14, fontStyle: "italic", maxWidth: 640, marginLeft: "auto", marginRight: "auto" },
+  taglineAuthor: { fontStyle: "normal", fontWeight: 600, color: "#767F73" },
+  footer: { textAlign: "center", marginTop: 60, fontSize: 11.5, color: "#C4C0C0", fontFamily: "monospace", letterSpacing: "0.05em" },
   grid: { display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap" },
   card: { display: "block", width: 260, background: "white", borderRadius: 18, padding: 24, textDecoration: "none", boxShadow: "0 4px 14px rgba(0,0,0,0.06)" },
   cardName: { fontSize: 20, fontWeight: 800, color: "#2E332E", marginBottom: 8 },
