@@ -2,44 +2,174 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const hubs = [
-  { path: "/ap", name: "AP Hub", description: "Study guides, practice questions, and FRQs for AP subjects." },
-  { path: "/sat", name: "SAT Hub", description: "Vocabulary flashcards and practice for the SAT." },
+  {
+    path: "/ap",
+    name: "AP Hub",
+    description: "Study guides, practice questions, and FRQs for AP subjects.",
+    color: "#7C9B72",
+    colorDeep: "#5E7A55",
+    colorPale: "#EAF1E6",
+  },
+  {
+    path: "/sat",
+    name: "SAT Hub",
+    description: "Vocabulary flashcards and practice for the SAT.",
+    color: "#3D3470",
+    colorDeep: "#2A2350",
+    colorPale: "#EFEDFA",
+  },
 ];
+
+function HubIcon({ path, color }) {
+  const common = { width: 26, height: 26, viewBox: "0 0 24 24", fill: "none" };
+  if (path === "/ap") {
+    return (
+      <svg {...common}>
+        <path d="M12 3L20 7.5V16.5L12 21L4 16.5V7.5L12 3Z" stroke={color} strokeWidth="1.7" strokeLinejoin="round"/>
+        <path d="M12 3V21" stroke={color} strokeWidth="1.4" strokeLinecap="round" opacity="0.5"/>
+        <path d="M8 11L12 13.2L16 11" stroke={color} strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+      </svg>
+    );
+  }
+  if (path === "/sat") {
+    return (
+      <svg {...common}>
+        <path d="M3 9.5L12 4L21 9.5" stroke={color} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
+        <path d="M3.5 9.5H20.5" stroke={color} strokeWidth="1.7" strokeLinecap="round"/>
+        <path d="M4.5 9.5V18.5M8.5 9.5V18.5M12 9.5V18.5M15.5 9.5V18.5M19.5 9.5V18.5" stroke={color} strokeWidth="1.5" strokeLinecap="round" opacity="0.6"/>
+        <path d="M3 19.5H21" stroke={color} strokeWidth="1.9" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  return null;
+}
 
 export default function HomePage() {
   return (
     <div style={styles.page}>
-      <div style={styles.header}>
-        <h1 style={styles.title}>Peters Family Homeschool</h1>
-        <p style={styles.subtitle}>Pick a hub to get started.</p>
-        <p style={styles.tagline}>
-          "Each thing you learn is one more thing you know."
-          <span style={styles.taglineAuthor}> — Michael D. Peters, DVM</span>
-        </p>
+      <div style={styles.glowOne} />
+      <div style={styles.glowTwo} />
+
+      <div style={styles.content}>
+        <div style={styles.header}>
+          <img src="/images/logo.png" alt="Peters Family Homeschool" style={styles.logo} />
+          <p style={styles.subtitle}>Pick a hub to get started.</p>
+          <p style={styles.tagline}>
+            "Each thing you learn is one more thing you know."
+            <span style={styles.taglineAuthor}> — Michael D. Peters, DVM</span>
+          </p>
+        </div>
+
+        <div style={styles.grid}>
+          {hubs.map((hub) => (
+            <Link
+              key={hub.path}
+              to={hub.path}
+              style={{
+                ...styles.card,
+                borderTop: `4px solid ${hub.color}`,
+              }}
+              className="home-card-hover"
+            >
+              <div style={{ ...styles.cardIconBadge, background: hub.colorPale }}>
+                <HubIcon path={hub.path} color={hub.colorDeep} />
+              </div>
+              <div style={{ ...styles.cardName, color: hub.colorDeep }}>{hub.name}</div>
+              <div style={styles.cardDesc}>{hub.description}</div>
+              <div style={{ ...styles.cardArrow, color: hub.color }}>Enter →</div>
+            </Link>
+          ))}
+        </div>
+
+        <footer style={styles.footer}>v2.1.0</footer>
       </div>
-      <div style={styles.grid}>
-        {hubs.map((hub) => (
-          <Link key={hub.path} to={hub.path} style={styles.card}>
-            <div style={styles.cardName}>{hub.name}</div>
-            <div style={styles.cardDesc}>{hub.description}</div>
-          </Link>
-        ))}
-      </div>
-      <footer style={styles.footer}>v2.0.0</footer>
+
+      <style>{`
+        .home-card-hover {
+          transition: transform 0.18s ease, box-shadow 0.18s ease;
+        }
+        .home-card-hover:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 16px 36px rgba(0,0,0,0.09);
+        }
+      `}</style>
     </div>
   );
 }
 
 const styles = {
-  page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "sans-serif", padding: "60px 24px", boxSizing: "border-box" },
-  header: { textAlign: "center", marginBottom: 40 },
-  title: { fontSize: 32, fontWeight: 800, color: "#2E332E", margin: 0 },
-  subtitle: { color: "#767F73", marginTop: 8 },
-  tagline: { color: "#9AA096", marginTop: 18, fontSize: 14, fontStyle: "italic", maxWidth: 640, marginLeft: "auto", marginRight: "auto" },
-  taglineAuthor: { fontStyle: "normal", fontWeight: 600, color: "#767F73" },
-  footer: { textAlign: "center", marginTop: 60, fontSize: 11.5, color: "#C4C0C0", fontFamily: "monospace", letterSpacing: "0.05em" },
-  grid: { display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap" },
-  card: { display: "block", width: 260, background: "white", borderRadius: 18, padding: 24, textDecoration: "none", boxShadow: "0 4px 14px rgba(0,0,0,0.06)" },
-  cardName: { fontSize: 20, fontWeight: 800, color: "#2E332E", marginBottom: 8 },
-  cardDesc: { fontSize: 14, color: "#767F73", lineHeight: 1.5 },
+  page: {
+    minHeight: "100vh",
+    background: "linear-gradient(180deg, #FAFAF7 0%, #F3F1E9 100%)",
+    fontFamily: "'Nunito', 'Manrope', sans-serif",
+    padding: "60px 24px",
+    boxSizing: "border-box",
+    position: "relative",
+    overflow: "hidden",
+  },
+  glowOne: {
+    position: "absolute",
+    top: -120,
+    left: -100,
+    width: 420,
+    height: 420,
+    borderRadius: "50%",
+    background: "radial-gradient(circle, rgba(124,155,114,0.16) 0%, rgba(124,155,114,0) 70%)",
+    pointerEvents: "none",
+  },
+  glowTwo: {
+    position: "absolute",
+    bottom: -140,
+    right: -120,
+    width: 480,
+    height: 480,
+    borderRadius: "50%",
+    background: "radial-gradient(circle, rgba(61,52,112,0.13) 0%, rgba(61,52,112,0) 70%)",
+    pointerEvents: "none",
+  },
+  content: {
+    position: "relative",
+    zIndex: 1,
+    maxWidth: 780,
+    margin: "0 auto",
+  },
+  header: { textAlign: "center", marginBottom: 48 },
+  logo: {
+    maxWidth: 420,
+    width: "100%",
+    height: "auto",
+    marginBottom: 4,
+  },
+  subtitle: { color: "#767F73", marginTop: 10, fontSize: 16 },
+  tagline: { color: "#9AA096", marginTop: 20, fontSize: 14, fontStyle: "italic", maxWidth: 640, marginLeft: "auto", marginRight: "auto" },
+  taglineAuthor: { fontStyle: "normal", fontWeight: 700, color: "#767F73" },
+
+  grid: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+    gap: 20,
+  },
+  card: {
+    display: "flex",
+    flexDirection: "column",
+    background: "white",
+    borderRadius: 20,
+    padding: "28px 26px",
+    textDecoration: "none",
+    boxShadow: "0 6px 20px rgba(0,0,0,0.06)",
+  },
+  cardIconBadge: {
+    width: 52,
+    height: 52,
+    borderRadius: 16,
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 16,
+  },
+  cardName: { fontFamily: "'Manrope', sans-serif", fontSize: 21, fontWeight: 800, marginBottom: 8 },
+  cardDesc: { fontSize: 14.5, color: "#767F73", lineHeight: 1.55, flex: 1 },
+  cardArrow: { fontFamily: "'Nunito', sans-serif", fontWeight: 800, fontSize: 13.5, marginTop: 18 },
+
+  footer: { textAlign: "center", marginTop: 60, fontSize: 11.5, color: "#C4C0C0", fontFamily: "'IBM Plex Mono', monospace", letterSpacing: "0.05em" },
 };
