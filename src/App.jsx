@@ -11,6 +11,9 @@ import EnvSciencePage from "./hubs/apes/EnvSciencePage";
 import UsHistoryPage from "./hubs/apush/USHistoryPage";
 import EnglishLangPage from "./hubs/englang/EnglishLangPage";
 import EngLitPage from "./hubs/aplit/EngLitPage";
+import SatHubPage from "./hubs/sat/SatHubPage";
+import VocabPage from "./hubs/sat/vocab/VocabPage";
+import QuestionBankPage from "./hubs/sat/vocab/QuestionBankPage";
 
 export default function App() {
   return (
@@ -27,6 +30,9 @@ export default function App() {
         <Route path="/ap/ushistory" element={<UsHistoryPage />} />
 <Route path="/ap/englang" element={<EnglishLangPage />} />
         <Route path="/ap/englit" element={<EngLitPage />} />
+        <Route path="/sat" element={<SatHubPage />} />
+        <Route path="/sat/vocab" element={<VocabPage />} />
+        <Route path="/sat/vocab-questions" element={<QuestionBankPage />} />
       </Routes>
     </BrowserRouter>
   );

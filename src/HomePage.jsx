@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const hubs = [
   { path: "/ap", name: "AP Hub", description: "Study guides, practice questions, and FRQs for AP subjects." },
+  { path: "/sat", name: "SAT Hub", description: "Vocabulary flashcards and practice for the SAT." },
 ];
 
 export default function HomePage() {
