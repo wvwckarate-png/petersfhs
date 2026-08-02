@@ -71,17 +71,21 @@ export default function HomePage() {
               }}
               className="home-card-hover"
             >
-              <div style={{ ...styles.cardIconBadge, background: hub.colorPale }}>
-                <HubIcon path={hub.path} color={hub.colorDeep} />
+              <div style={styles.cardInner}>
+                <div style={{ ...styles.cardName, color: hub.colorDeep }}>{hub.name}</div>
+                <div style={styles.cardDescRow}>
+                  <div style={{ ...styles.cardIconBadge, background: hub.colorPale }}>
+                    <HubIcon path={hub.path} color={hub.colorDeep} />
+                  </div>
+                  <div style={styles.cardDesc}>{hub.description}</div>
+                </div>
+                <div style={{ ...styles.cardArrow, color: hub.color }}>Enter →</div>
               </div>
-              <div style={{ ...styles.cardName, color: hub.colorDeep }}>{hub.name}</div>
-              <div style={styles.cardDesc}>{hub.description}</div>
-              <div style={{ ...styles.cardArrow, color: hub.color }}>Enter →</div>
             </Link>
           ))}
         </div>
 
-        <footer style={styles.footer}>v2.1.0</footer>
+        <footer style={styles.footer}>v2.1.1</footer>
       </div>
 
       <style>{`
@@ -151,12 +155,27 @@ const styles = {
   },
   card: {
     display: "flex",
-    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
     background: "white",
     borderRadius: 20,
-    padding: "28px 26px",
+    padding: "24px 24px",
     textDecoration: "none",
     boxShadow: "0 6px 20px rgba(0,0,0,0.06)",
+  },
+  cardInner: {
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    textAlign: "center",
+  },
+  cardName: { fontFamily: "'Manrope', sans-serif", fontSize: 21, fontWeight: 800, marginBottom: 14 },
+  cardDescRow: {
+    display: "flex",
+    alignItems: "center",
+    gap: 14,
+    textAlign: "left",
   },
   cardIconBadge: {
     width: 52,
@@ -165,10 +184,9 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 16,
+    flexShrink: 0,
   },
-  cardName: { fontFamily: "'Manrope', sans-serif", fontSize: 21, fontWeight: 800, marginBottom: 8 },
-  cardDesc: { fontSize: 14.5, color: "#767F73", lineHeight: 1.55, flex: 1 },
+  cardDesc: { fontSize: 14.5, color: "#767F73", lineHeight: 1.55, maxWidth: 220 },
   cardArrow: { fontFamily: "'Nunito', sans-serif", fontWeight: 800, fontSize: 13.5, marginTop: 18 },
 
   footer: { textAlign: "center", marginTop: 60, fontSize: 11.5, color: "#C4C0C0", fontFamily: "'IBM Plex Mono', monospace", letterSpacing: "0.05em" },
