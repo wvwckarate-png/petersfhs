@@ -71,6 +71,24 @@ const STUDY_CONTENT = {
     <li>The curve flattens out and spreads wider — a bigger range of speeds is now represented.</li>
     <li>The area under the curve stays exactly the same, because you haven't added or removed any particles.</li>
   </ul>
+<div class="diagram">
+<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="270" x2="450" y2="270" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="270" x2="50" y2="30" stroke="#333" stroke-width="2"/>
+  <text x="440" y="292" font-size="13" fill="#333">speed</text>
+  <text x="15" y="35" font-size="13" fill="#333"># particles</text>
+  <path d="M 60 268 Q 130 60 200 268" fill="none" stroke="#3f6ae0" stroke-width="2.5"/>
+  <text x="90" y="90" font-size="12" fill="#3f6ae0">before heating</text>
+  <path d="M 60 268 Q 220 150 380 268" fill="none" stroke="#e0473f" stroke-width="2.5"/>
+  <text x="290" y="175" font-size="12" fill="#e0473f">after heating</text>
+  <line x1="130" y1="270" x2="130" y2="60" stroke="#3f6ae0" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <line x1="220" y1="270" x2="220" y2="150" stroke="#e0473f" stroke-width="1" stroke-dasharray="3,3" opacity="0.5"/>
+  <text x="105" y="285" font-size="10" fill="#555">peak₁</text>
+  <text x="200" y="285" font-size="10" fill="#555">peak₂</text>
+</svg>
+<p class="diagram-caption">Maxwell-Boltzmann speed distribution before and after heating: the peak shifts to a higher speed, the curve grows shorter and wider, and the total area under each curve stays the same (same number of particles).</p>
+</div>
+
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
@@ -168,6 +186,27 @@ const STUDY_CONTENT = {
     <li>W is positive when work is done ON the gas (something compresses it); negative when the gas does work on its surroundings (it expands).</li>
     <li>For a gas expanding at constant pressure, W = −PΔV — notice the negative sign. That's consistent with expansion meaning the gas is doing work on the outside world, which reads as negative work done ON the gas.</li>
   </ul>
+<div class="diagram">
+<svg width="480" height="360" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg">
+  <line x1="60" y1="300" x2="440" y2="300" stroke="#333" stroke-width="2"/>
+  <line x1="60" y1="300" x2="60" y2="30" stroke="#333" stroke-width="2"/>
+  <text x="450" y="305" font-size="14" fill="#333">V</text>
+  <text x="35" y="30" font-size="14" fill="#333">P</text>
+  <circle cx="180" cy="180" r="5" fill="#222"/>
+  <text x="188" y="175" font-size="13" fill="#222">A (P₀, V₀)</text>
+  <line x1="180" y1="180" x2="320" y2="180" stroke="#e07a3f" stroke-width="3"/>
+  <text x="330" y="184" font-size="12" fill="#e07a3f">isobaric (const P)</text>
+  <line x1="180" y1="180" x2="180" y2="70" stroke="#3f7ae0" stroke-width="3"/>
+  <text x="186" y="65" font-size="12" fill="#3f7ae0">isochoric (const V)</text>
+  <path d="M 180 180 Q 250 130 340 95" fill="none" stroke="#3fae5a" stroke-width="3"/>
+  <text x="345" y="98" font-size="12" fill="#3fae5a">isothermal (PV=const)</text>
+  <path d="M 180 180 Q 220 110 270 60" fill="none" stroke="#9a3fae" stroke-width="3"/>
+  <text x="275" y="60" font-size="12" fill="#9a3fae">adiabatic (steeper)</text>
+  <circle cx="180" cy="180" r="4" fill="#222"/>
+</svg>
+<p class="diagram-caption">P-V diagram showing all four classic processes starting from a common state A: isobaric (horizontal), isochoric (vertical), isothermal (hyperbola-shaped curve), and adiabatic (a similar but steeper curve).</p>
+</div>
+
 
   <h3>Internal energy depends only on temperature (for an ideal gas)</h3>
   <p>This is a genuinely powerful shortcut, and it's worth memorizing on its own: for an ideal gas, internal energy U depends <em>only</em> on temperature — not pressure, not volume, individually. For a monatomic ideal gas specifically:</p>
@@ -344,6 +383,36 @@ const STUDY_CONTENT = {
   <p>Touch a charged object to a neutral conductor, and charge flows between them until both reach the same potential. Both end up charged with the <strong>same sign</strong> as the original.</p>
   <h3>Induction</h3>
   <p>This one takes a bit more visualizing. A charged rod is brought near — never touching — a neutral conductor. The rod's field pushes the conductor's free charges around inside it (this is called polarization) without ever transferring any charge directly. Now, while the rod is still nearby, ground the conductor: charge of the same sign as the rod escapes through that ground wire, repelled away by the rod. Disconnect the ground first, THEN remove the rod, and the conductor is left with a charge <strong>opposite</strong> to the rod.</p>
+<div class="diagram">
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+  <text x="30" y="20" font-size="12" fill="#333" font-weight="bold">1. Rod approaches</text>
+  <circle cx="80" cy="90" r="30" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="65" y="130" font-size="10" fill="#333">neutral</text>
+  <rect x="10" y="55" width="14" height="60" fill="#e0473f"/>
+  <text x="2" y="50" font-size="10" fill="#e0473f">− rod</text>
+
+  <text x="180" y="20" font-size="12" fill="#333" font-weight="bold">2. Polarizes</text>
+  <circle cx="230" cy="90" r="30" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="240" y="94" font-size="14" fill="#3f6ae0">+++</text>
+  <text x="205" y="94" font-size="14" fill="#e0473f">−−−</text>
+  <rect x="160" y="55" width="14" height="60" fill="#e0473f"/>
+
+  <text x="330" y="20" font-size="12" fill="#333" font-weight="bold">3. Grounded</text>
+  <circle cx="380" cy="90" r="30" fill="#f2f2f2" stroke="#333" stroke-width="1.5"/>
+  <text x="390" y="94" font-size="14" fill="#3f6ae0">+++</text>
+  <line x1="410" y1="90" x2="440" y2="90" stroke="#333" stroke-width="1.5"/>
+  <line x1="440" y1="80" x2="440" y2="100" stroke="#333" stroke-width="2"/>
+  <text x="405" y="130" font-size="9" fill="#333">e⁻ escape</text>
+  <rect x="310" y="55" width="14" height="60" fill="#e0473f"/>
+
+  <text x="480" y="20" font-size="12" fill="#333" font-weight="bold">4. Rod removed</text>
+  <circle cx="530" cy="90" r="30" fill="#dbe6ff" stroke="#333" stroke-width="1.5"/>
+  <text x="516" y="94" font-size="14" fill="#3f6ae0">+ + +</text>
+  <text x="495" y="150" font-size="10" fill="#3f6ae0">final: positive</text>
+</svg>
+<p class="diagram-caption">Charging by induction, step by step: the approaching rod polarizes the conductor, grounding lets like-signed charge escape, and removing the ground (then the rod) leaves the conductor charged opposite to the rod.</p>
+</div>
+
 
   <div class="divider">· · ·</div>
 
@@ -361,10 +430,51 @@ const STUDY_CONTENT = {
     <li>Lines never cross each other. Ever. If a sketch shows crossing lines, something's wrong with it.</li>
     <li>Lines start on positive charges and end on negative charges.</li>
   </ul>
+<div class="diagram">
+<svg width="480" height="320" viewBox="0 0 480 320" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="160" r="14" fill="#e0473f"/>
+  <text x="145" y="165" font-size="14" fill="#fff" font-weight="bold">+</text>
+  <circle cx="330" cy="160" r="14" fill="#3f6ae0"/>
+  <text x="325" y="165" font-size="14" fill="#fff" font-weight="bold">−</text>
+  <path d="M 164 160 Q 240 90 316 160" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 164 150 Q 240 60 316 150" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 164 170 Q 240 120 316 170" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 164 190 Q 240 250 316 190" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="240" y1="60" x2="240" y2="260" stroke="#3fae5a" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="248" y="275" font-size="12" fill="#3fae5a">V = 0 equipotential</text>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#555"/>
+    </marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Field lines for a dipole (+Q and −Q), running from the positive to the negative charge. The perpendicular bisector between the charges is the V = 0 equipotential line.</p>
+</div>
+
 
   <h3>Special case worth knowing cold: the parallel plate capacitor</h3>
   <p>Between two oppositely charged parallel plates, ignoring edge effects (per the AP reference sheet's own assumption), the field is uniform everywhere between the plates — same magnitude, same direction, no matter where you are between them.</p>
   <div class="eq"><div class="main">E = Q / (ε₀A)</div></div>
+<div class="diagram">
+<svg width="420" height="260" viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg">
+  <rect x="90" y="40" width="16" height="180" fill="#e0473f"/>
+  <text x="70" y="35" font-size="13" fill="#e0473f">+ + + + +</text>
+  <rect x="310" y="40" width="16" height="180" fill="#3f6ae0"/>
+  <text x="295" y="35" font-size="13" fill="#3f6ae0">− − − − −</text>
+  <line x1="106" y1="70" x2="310" y2="70" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="106" y1="110" x2="310" y2="110" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="106" y1="150" x2="310" y2="150" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <line x1="106" y1="190" x2="310" y2="190" stroke="#333" stroke-width="2" marker-end="url(#arrow2)"/>
+  <text x="180" y="240" font-size="13" fill="#333">E = Q / (ε₀A), uniform between plates</text>
+  <defs>
+    <marker id="arrow2" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Between two oppositely charged parallel plates, the electric field is uniform in both magnitude and direction, ignoring edge effects.</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 2</span>
@@ -587,6 +697,34 @@ const STUDY_CONTENT = {
       <div class="sol-content">Start with the innermost group — the parallel pair: 1/R<sub>p</sub> = 1/12 + 1/12 = 2/12, so R<sub>p</sub> = 6 Ω. Then add the series resistor on top of that: R<sub>total</sub> = 6 + 6 = <strong>12 Ω</strong>. The habit to build here is always resolving the innermost parallel or series group first, then working outward one step at a time — trying to combine everything in one single step is exactly where errors sneak in.</div>
     </details>
   </div>
+<div class="diagram">
+<svg width="440" height="240" viewBox="0 0 440 240" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="130" x2="90" y2="130" stroke="#333" stroke-width="2"/>
+  <rect x="90" y="115" width="60" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="103" y="110" font-size="13" fill="#333">6 Ω</text>
+  <line x1="150" y1="130" x2="190" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="190" y1="130" x2="190" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="190" y1="130" x2="190" y2="180" stroke="#333" stroke-width="2"/>
+  <rect x="190" y="65" width="80" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="205" y="60" font-size="13" fill="#333">12 Ω</text>
+  <rect x="190" y="165" width="80" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="205" y="220" font-size="13" fill="#333">12 Ω</text>
+  <line x1="270" y1="80" x2="330" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="270" y1="180" x2="330" y2="180" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="80" x2="330" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="180" x2="330" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="130" x2="400" y2="130" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="130" x2="40" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="130" x2="400" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="30" x2="180" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="30" x2="400" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="180" y1="20" x2="180" y2="40" stroke="#333" stroke-width="3"/>
+  <line x1="260" y1="15" x2="260" y2="45" stroke="#333" stroke-width="1.5"/>
+  <text x="188" y="12" font-size="13" fill="#333" text-anchor="middle">battery</text>
+</svg>
+<p class="diagram-caption">A 6 Ω resistor in series with a parallel combination of two 12 Ω resistors — matching Worked Example 2. The parallel pair reduces to 6 Ω, giving a total of 12 Ω.</p>
+</div>
+
 
   <div class="divider">· · ·</div>
 
@@ -615,6 +753,35 @@ const STUDY_CONTENT = {
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>This one trick handles almost every RC question</div>
     <p>Two moments are always safe to reason about without any calculus at all: the instant right after the switch closes, and a long time later. Right after closing, an uncharged capacitor behaves like a plain wire — zero resistance. A long time later, a fully-charged capacitor behaves like a completely broken wire — no current flows through that branch at all. Nearly every AP RC question can be cracked open just by figuring out which of these two limits actually applies to what's being asked.</p>
   </div>
+<div class="diagram">
+<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="25" font-size="14" fill="#333" font-weight="bold">t = 0 (just closed)</text>
+  <line x1="40" y1="60" x2="180" y2="60" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="60" x2="40" y2="150" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="150" x2="180" y2="150" stroke="#333" stroke-width="2"/>
+  <rect x="80" y="45" width="50" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="85" y="40" font-size="12" fill="#333">R</text>
+  <line x1="180" y1="60" x2="180" y2="90" stroke="#e0473f" stroke-width="3"/>
+  <line x1="170" y1="90" x2="190" y2="90" stroke="#e0473f" stroke-width="3"/>
+  <text x="150" y="105" font-size="11" fill="#e0473f">acts like a wire (0 Ω)</text>
+  <line x1="180" y1="120" x2="180" y2="150" stroke="#333" stroke-width="2"/>
+
+  <text x="300" y="25" font-size="14" fill="#333" font-weight="bold">t → ∞ (long after)</text>
+  <line x1="280" y1="60" x2="420" y2="60" stroke="#333" stroke-width="2"/>
+  <line x1="280" y1="60" x2="280" y2="150" stroke="#333" stroke-width="2"/>
+  <line x1="280" y1="150" x2="420" y2="150" stroke="#333" stroke-width="2"/>
+  <rect x="320" y="45" width="50" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="325" y="40" font-size="12" fill="#333">R</text>
+  <line x1="410" y1="80" x2="410" y2="100" stroke="#3f6ae0" stroke-width="4"/>
+  <line x1="425" y1="80" x2="425" y2="100" stroke="#3f6ae0" stroke-width="4"/>
+  <text x="380" y="115" font-size="11" fill="#3f6ae0">acts like open switch</text>
+  <line x1="410" y1="60" x2="410" y2="80" stroke="#333" stroke-width="2"/>
+  <line x1="425" y1="100" x2="425" y2="150" stroke="#333" stroke-width="2"/>
+  <line x1="410" y1="60" x2="420" y2="60" stroke="#333" stroke-width="2"/>
+</svg>
+<p class="diagram-caption">Two safe RC limits: right after closing, an uncharged capacitor behaves like a plain wire; a long time later, the fully-charged capacitor behaves like a broken wire (open switch).</p>
+</div>
+
 
   <div class="recap">
     <span class="tag-label recap">Before You Move On</span>
@@ -712,6 +879,44 @@ const STUDY_CONTENT = {
     </ol>
     <p style="margin-top:10px;">The #1 way students lose points here isn't forgetting the rule — it's rushing it, or forgetting the negative-charge flip. Do it slowly, physically, with your actual hand, every single time.</p>
   </div>
+<div class="diagram">
+<svg width="480" height="240" viewBox="0 0 480 240" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="25" font-size="14" fill="#333" font-weight="bold">Positive charge, B into page</text>
+  <rect x="30" y="45" width="180" height="140" fill="#f2f2f2" stroke="#ccc"/>
+  <g>
+    <text x="40" y="60" font-size="10" fill="#888">× × × × ×</text>
+    <text x="40" y="90" font-size="10" fill="#888">× × × × ×</text>
+    <text x="40" y="120" font-size="10" fill="#888">× × × × ×</text>
+    <text x="40" y="150" font-size="10" fill="#888">× × × × ×</text>
+    <text x="40" y="180" font-size="10" fill="#888">× × × × ×</text>
+  </g>
+  <line x1="60" y1="150" x2="160" y2="150" stroke="#333" stroke-width="2" marker-end="url(#a3)"/>
+  <text x="100" y="168" font-size="11" fill="#333">v (+q)</text>
+  <line x1="120" y1="150" x2="120" y2="90" stroke="#e0473f" stroke-width="3" marker-end="url(#a3r)"/>
+  <text x="126" y="95" font-size="11" fill="#e0473f">F (up)</text>
+
+  <text x="300" y="25" font-size="14" fill="#333" font-weight="bold">Negative charge, B into page</text>
+  <rect x="270" y="45" width="180" height="140" fill="#f2f2f2" stroke="#ccc"/>
+  <g>
+    <text x="280" y="60" font-size="10" fill="#888">× × × × ×</text>
+    <text x="280" y="90" font-size="10" fill="#888">× × × × ×</text>
+    <text x="280" y="120" font-size="10" fill="#888">× × × × ×</text>
+    <text x="280" y="150" font-size="10" fill="#888">× × × × ×</text>
+    <text x="280" y="180" font-size="10" fill="#888">× × × × ×</text>
+  </g>
+  <line x1="300" y1="150" x2="400" y2="150" stroke="#333" stroke-width="2" marker-end="url(#a3)"/>
+  <text x="340" y="168" font-size="11" fill="#333">v (−q)</text>
+  <line x1="360" y1="150" x2="360" y2="185" stroke="#3f6ae0" stroke-width="3" marker-end="url(#a3b)"/>
+  <text x="330" y="200" font-size="11" fill="#3f6ae0">F (down — flipped)</text>
+  <defs>
+    <marker id="a3" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333"/></marker>
+    <marker id="a3r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e0473f"/></marker>
+    <marker id="a3b" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3f6ae0"/></marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Right-hand rule for a positive charge moving right through a field into the page (force is up); for a negative charge in the same setup, the force flips to point down.</p>
+</div>
+
 
   <h2 id="s121"><span class="num">12.1</span>Magnetic Fields</h2>
   <p>Magnetic fields are produced by moving charge — current flowing in a wire, or the intrinsic "spin" of electrons that makes permanent magnets work in the first place. Field lines run from a magnet's north pole to its south pole outside the magnet, and always form complete closed loops (they never just stop somewhere in space).</p>
@@ -757,6 +962,23 @@ const STUDY_CONTENT = {
   <h3>Field created by a long, straight current-carrying wire</h3>
   <div class="eq"><div class="main">B = μ₀I / (2πr)</div><div class="sub">Direction: grab the wire with your right thumb pointing along I — your curled fingers show B's direction, circling the wire</div></div>
   <p>Notice this field weakens with distance as 1/r, not 1/r² like the point-charge fields you got used to in Unit 10. That's a genuinely different falloff rate, worth explicitly remembering, since it's easy to default to the inverse-square pattern out of habit.</p>
+<div class="diagram">
+<svg width="360" height="280" viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">
+  <line x1="180" y1="260" x2="180" y2="20" stroke="#333" stroke-width="4" marker-end="url(#a4)"/>
+  <text x="188" y="30" font-size="12" fill="#333">I</text>
+  <circle cx="90" cy="140" r="20" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="80" y="145" font-size="16" fill="#555">•</text>
+  <text x="60" y="175" font-size="11" fill="#555">B out of page</text>
+  <circle cx="270" cy="140" r="20" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="262" y="146" font-size="14" fill="#555">×</text>
+  <text x="245" y="175" font-size="11" fill="#555">B into page</text>
+  <defs>
+    <marker id="a4" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#333"/></marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Field from a long straight wire carrying current I (upward): using the grip rule, the field points out of the page on the left side and into the page on the right side.</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 2</span>
@@ -930,6 +1152,31 @@ const STUDY_CONTENT = {
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>This one idea explains almost every mirror image question</div>
     <p>For a concave mirror, where the object sits relative to the focal point completely determines the image type. Object beyond the center of curvature (2f) gives a smaller, inverted, real image. Object between f and 2f gives a larger, inverted, real image. Object exactly at f gives no image at all (the rays emerge parallel, never converging anywhere). Object inside f, closer than the focal point, gives a magnified, upright, VIRTUAL image — this is exactly how a magnifying mirror works, and it's worth picturing a physical dentist's mirror the next time you see this scenario.</p>
   </div>
+<div class="diagram">
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="20" y1="230" x2="460" y2="230" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+  <path d="M 400 100 Q 380 230 400 360" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="240" cy="230" r="3" fill="#333"/>
+  <text x="236" y="248" font-size="11" fill="#333">C (2f)</text>
+  <circle cx="320" cy="230" r="3" fill="#333"/>
+  <text x="316" y="248" font-size="11" fill="#333">f</text>
+  <line x1="80" y1="230" x2="80" y2="130" stroke="#e0473f" stroke-width="3"/>
+  <text x="60" y="125" font-size="11" fill="#e0473f">Object</text>
+  <line x1="80" y1="130" x2="400" y2="130" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="400" y1="130" x2="314.55" y2="227.27" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="80" y1="130" x2="240" y2="230" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="240" y1="230" x2="314.55" y2="227.27" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="80" y1="130" x2="320" y2="230" stroke="#9a3fae" stroke-width="1.5"/>
+  <line x1="320" y1="230" x2="80" y2="230" stroke="#9a3fae" stroke-width="1.5"/>
+  <line x1="80" y1="230" x2="314.55" y2="227.27" stroke="#9a3fae" stroke-width="1.5"/>
+  <circle cx="314.55" cy="227.27" r="4" fill="#222"/>
+  <line x1="314.55" y1="227.27" x2="314.55" y2="215" stroke="#e0473f" stroke-width="3"/>
+  <line x1="314.55" y1="215" x2="270" y2="150" stroke="#e0473f" stroke-width="1" stroke-dasharray="2,2"/>
+  <text x="150" y="145" font-size="11" fill="#e0473f">Image (real, inverted)</text>
+</svg>
+<p class="diagram-caption">Concave mirror ray diagram for an object beyond the center of curvature (2f). All three principal rays converge at the same point, forming a real, inverted, reduced image between f and 2f.</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 1</span>
@@ -977,6 +1224,30 @@ const STUDY_CONTENT = {
     <li>A ray through the exact center of the lens passes straight through, undeviated.</li>
   </ol>
   <p>A diverging (concave) lens always produces a virtual, upright, reduced image, regardless of the object's distance — the one lens case, like the plane mirror, where you can predict the image type on sight, with no calculation required at all.</p>
+<div class="diagram">
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="20" y1="230" x2="460" y2="230" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+  <path d="M 240 100 Q 265 230 240 360" fill="none" stroke="#333" stroke-width="0"/>
+  <path d="M 240 130 Q 260 230 240 330 Q 220 230 240 130 Z" fill="#dbe9ff" stroke="#333" stroke-width="2" opacity="0.6" transform="translate(0,-100)"/>
+  <path d="M 240 30 Q 262 130 240 230 Q 218 130 240 30 Z" fill="#dbe9ff" stroke="#333" stroke-width="2"/>
+  <circle cx="160" cy="230" r="3" fill="#333"/>
+  <text x="150" y="248" font-size="11" fill="#333">f</text>
+  <circle cx="320" cy="230" r="3" fill="#333"/>
+  <text x="312" y="248" font-size="11" fill="#333">f</text>
+  <line x1="100" y1="230" x2="100" y2="150" stroke="#e0473f" stroke-width="3"/>
+  <text x="80" y="145" font-size="11" fill="#e0473f">Object</text>
+  <line x1="100" y1="150" x2="240" y2="150" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="240" y1="150" x2="380" y2="270" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="100" y1="150" x2="240" y2="230" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="240" y1="230" x2="380" y2="270" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="100" y1="150" x2="380" y2="270" stroke="#9a3fae" stroke-width="1.5" stroke-dasharray="0"/>
+  <circle cx="380" cy="270" r="4" fill="#222"/>
+  <line x1="380" y1="230" x2="380" y2="270" stroke="#e0473f" stroke-width="3"/>
+  <text x="360" y="290" font-size="11" fill="#e0473f">Image (real, inverted)</text>
+</svg>
+<p class="diagram-caption">Converging (biconvex) lens ray diagram: a ray parallel to the axis refracts through the far focal point; a ray through the near focal point emerges parallel; a ray through the lens center passes straight through — all three meet at the real, inverted image.</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 3</span>
@@ -1153,6 +1424,31 @@ const STUDY_CONTENT = {
   <h3>Standing waves</h3>
   <p>A standing wave forms when two identical waves travel in opposite directions along the same medium — like a wave reflecting back on itself along a string. Certain points, called <strong>nodes</strong>, never move at all. Others, called <strong>antinodes</strong>, oscillate with maximum amplitude.</p>
   <div class="eq"><div class="main">λ_n = 2L/n &nbsp;·&nbsp; f<sub>n</sub> = nv/(2L)</div><div class="sub">string fixed at both ends; n = 1, 2, 3... (harmonic number)</div></div>
+<div class="diagram">
+<svg width="480" height="360" viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg">
+  <text x="20" y="20" font-size="13" fill="#333" font-weight="bold">n = 1 (fundamental) — 2 nodes</text>
+  <line x1="20" y1="60" x2="220" y2="60" stroke="#ccc" stroke-width="1"/>
+  <path d="M 20 60 Q 120 20 220 60" fill="none" stroke="#3f6ae0" stroke-width="2"/>
+  <circle cx="20" cy="60" r="3" fill="#333"/><circle cx="220" cy="60" r="3" fill="#333"/>
+
+  <text x="260" y="20" font-size="13" fill="#333" font-weight="bold">n = 2 — 3 nodes</text>
+  <line x1="260" y1="60" x2="460" y2="60" stroke="#ccc" stroke-width="1"/>
+  <path d="M 260 60 Q 310 20 360 60 Q 410 100 460 60" fill="none" stroke="#3fae5a" stroke-width="2"/>
+  <circle cx="260" cy="60" r="3" fill="#333"/><circle cx="360" cy="60" r="3" fill="#333"/><circle cx="460" cy="60" r="3" fill="#333"/>
+
+  <text x="20" y="200" font-size="13" fill="#333" font-weight="bold">n = 3 — 4 nodes</text>
+  <line x1="20" y1="240" x2="220" y2="240" stroke="#ccc" stroke-width="1"/>
+  <path d="M 20 240 Q 53 200 87 240 Q 120 280 153 240 Q 187 200 220 240" fill="none" stroke="#e0473f" stroke-width="2"/>
+  <circle cx="20" cy="240" r="3" fill="#333"/><circle cx="87" cy="240" r="3" fill="#333"/><circle cx="153" cy="240" r="3" fill="#333"/><circle cx="220" cy="240" r="3" fill="#333"/>
+
+  <text x="260" y="200" font-size="13" fill="#333" font-weight="bold">n = 4 — 5 nodes</text>
+  <line x1="260" y1="240" x2="460" y2="240" stroke="#ccc" stroke-width="1"/>
+  <path d="M 260 240 Q 285 200 310 240 Q 335 280 360 240 Q 385 200 410 240 Q 435 280 460 240" fill="none" stroke="#9a3fae" stroke-width="2"/>
+  <circle cx="260" cy="240" r="3" fill="#333"/><circle cx="310" cy="240" r="3" fill="#333"/><circle cx="360" cy="240" r="3" fill="#333"/><circle cx="410" cy="240" r="3" fill="#333"/><circle cx="460" cy="240" r="3" fill="#333"/>
+</svg>
+<p class="diagram-caption">Standing wave harmonics on a string fixed at both ends, n = 1 through n = 4. Each harmonic n has n antinodes and n+1 nodes (including the two fixed ends).</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 1</span>
@@ -1181,6 +1477,33 @@ const STUDY_CONTENT = {
     <span class="tag-label trap">Watch Out For This</span>
     <p>The central bright fringe (m = 0) sits exactly opposite the midpoint between the two slits — this is where the path difference is exactly zero, NOT where either individual slit lines up with the screen. Some students expect the brightest spot to align directly with one of the slits; it doesn't, and that mistake is worth deliberately unlearning now.</p>
   </div>
+<div class="diagram">
+<svg width="560" height="300" viewBox="0 0 560 300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="10" x2="40" y2="290" stroke="#333" stroke-width="4"/>
+  <rect x="34" y="130" width="12" height="14" fill="#fff"/>
+  <rect x="34" y="156" width="12" height="14" fill="#fff"/>
+  <text x="5" y="128" font-size="10" fill="#333">slit 1</text>
+  <text x="5" y="182" font-size="10" fill="#333">slit 2</text>
+  <line x1="420" y1="10" x2="420" y2="290" stroke="#333" stroke-width="3"/>
+  <text x="395" y="8" font-size="11" fill="#333">screen</text>
+  <line x1="40" y1="137" x2="420" y2="150" stroke="#999" stroke-width="0.75"/>
+  <line x1="40" y1="163" x2="420" y2="150" stroke="#999" stroke-width="0.75"/>
+  <line x1="40" y1="137" x2="420" y2="30" stroke="#999" stroke-width="0.75"/>
+  <line x1="40" y1="163" x2="420" y2="30" stroke="#999" stroke-width="0.75"/>
+  <line x1="40" y1="137" x2="420" y2="270" stroke="#999" stroke-width="0.75"/>
+  <line x1="40" y1="163" x2="420" y2="270" stroke="#999" stroke-width="0.75"/>
+  <rect x="415" y="144" width="10" height="12" fill="#3fae5a"/>
+  <text x="432" y="153" font-size="11" fill="#3fae5a">m=0 (central, bright)</text>
+  <rect x="415" y="24" width="10" height="12" fill="#3fae5a"/>
+  <text x="432" y="33" font-size="11" fill="#3fae5a">m=1 (bright)</text>
+  <rect x="415" y="264" width="10" height="12" fill="#3fae5a"/>
+  <text x="432" y="273" font-size="11" fill="#3fae5a">m=1 (bright)</text>
+  <line x1="40" y1="150" x2="420" y2="150" stroke="#9a3fae" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="150" y="145" font-size="10" fill="#9a3fae">midpoint line (zero path difference)</text>
+</svg>
+<p class="diagram-caption">Double-slit geometry: the central bright fringe (m=0) sits directly opposite the midpoint between the two slits — not behind either individual slit — with alternating bright fringes spreading symmetrically above and below.</p>
+</div>
+
 
   <div class="worked">
     <span class="tag-label example">Worked Example 2</span>
@@ -1198,6 +1521,37 @@ const STUDY_CONTENT = {
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>The one rule that makes thin films actually make sense</div>
     <p>Reflection off a boundary into a HIGHER-index medium causes a 180° phase shift — think of it like a fixed end. Reflection off a boundary into a LOWER-index medium causes NO phase shift — think of it like a free end. You have to check this separately for BOTH the top surface and the bottom surface of the film. If the two reflections have a MISMATCHED number of phase shifts (one shifted, one not), the usual constructive/destructive conditions flip relative to what a simple path-difference calculation alone would tell you. This is the step almost everyone forgets, and it's the difference between a right and wrong answer on nearly every thin-film problem.</p>
   </div>
+<div class="diagram">
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+  <text x="60" y="25" font-size="12" fill="#333">air (n = 1.0)</text>
+  <line x1="60" y1="70" x2="420" y2="70" stroke="#333" stroke-width="1.5"/>
+  <rect x="60" y="70" width="360" height="90" fill="#dbe9ff" opacity="0.6"/>
+  <text x="60" y="120" font-size="12" fill="#333">film (n = 1.4)</text>
+  <line x1="60" y1="160" x2="420" y2="160" stroke="#333" stroke-width="1.5"/>
+  <text x="60" y="195" font-size="12" fill="#333">glass (n = 1.5)</text>
+
+  <line x1="170" y1="20" x2="200" y2="70" stroke="#666" stroke-width="1.5"/>
+  <line x1="200" y1="70" x2="170" y2="20" stroke="#e0473f" stroke-width="2" marker-end="url(#a6r)"/>
+  <text x="130" y="15" font-size="10" fill="#e0473f">Ray 1: 180° shift</text>
+
+  <line x1="200" y1="70" x2="230" y2="160" stroke="#666" stroke-width="1.5"/>
+  <line x1="230" y1="160" x2="260" y2="70" stroke="#3fae5a" stroke-width="2"/>
+  <line x1="260" y1="70" x2="290" y2="20" stroke="#3fae5a" stroke-width="2" marker-end="url(#a6g)"/>
+  <text x="245" y="15" font-size="10" fill="#3fae5a">Ray 2: 180° shift</text>
+
+  <line x1="345" y1="70" x2="345" y2="160" stroke="#333" stroke-width="1"/>
+  <text x="352" y="118" font-size="11" fill="#333">t</text>
+
+  <text x="60" y="230" font-size="11" fill="#333">Both reflections go from lower n into higher n → both shift 180°.</text>
+  <text x="60" y="250" font-size="11" fill="#333">Shifts match, so they cancel: the ordinary path-difference rule applies directly.</text>
+  <defs>
+    <marker id="a6r" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#e0473f"/></marker>
+    <marker id="a6g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3fae5a"/></marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Thin-film reflections: Ray 1 reflects off the top surface (air into film, low into high n — 180° shift). Ray 2 transmits through the film and reflects off the bottom surface (film into glass, also low into high n — another 180° shift). Since both shifts match, they cancel relative to each other, and the ordinary path-difference rule (2t = mλ for constructive) applies without an extra flip.</p>
+</div>
+
   <div class="eq"><div class="main">Path difference = 2t</div><div class="sub">t = film thickness; light crosses the film twice (down and back up)</div></div>
 
   <div class="recap">
@@ -1320,6 +1674,29 @@ const STUDY_CONTENT = {
     <span class="tag-label idea">Key Idea — Reading an Energy Level Diagram</span>
     <p>AP Physics 2 usually GIVES you the specific energy levels for a problem, as a diagram — something like −5E₀, −3E₀, −2E₀ for n = 1, 2, 3 — rather than expecting you to derive them from scratch. Your job is to correctly find the ENERGY DIFFERENCE between two levels an electron jumps between. That difference is precisely the energy of the photon absorbed or emitted, nothing more complicated than that.</p>
   </div>
+<div class="diagram">
+<svg width="420" height="320" viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
+  <line x1="60" y1="40" x2="360" y2="40" stroke="#999" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="365" y="44" font-size="12" fill="#999">0 (ionization)</text>
+  <line x1="60" y1="120" x2="360" y2="120" stroke="#333" stroke-width="2"/>
+  <text x="365" y="124" font-size="12" fill="#333">−2E₀ (n=3)</text>
+  <line x1="60" y1="190" x2="360" y2="190" stroke="#333" stroke-width="2"/>
+  <text x="365" y="194" font-size="12" fill="#333">−3E₀ (n=2)</text>
+  <line x1="60" y1="280" x2="360" y2="280" stroke="#333" stroke-width="2"/>
+  <text x="365" y="284" font-size="12" fill="#333">−5E₀ (n=1)</text>
+  <line x1="120" y1="120" x2="120" y2="280" stroke="#e0473f" stroke-width="2" marker-end="url(#a5)"/>
+  <text x="126" y="200" font-size="11" fill="#e0473f">3→1</text>
+  <line x1="180" y1="190" x2="180" y2="280" stroke="#3f6ae0" stroke-width="2" marker-end="url(#a5)"/>
+  <text x="186" y="240" font-size="11" fill="#3f6ae0">2→1</text>
+  <line x1="240" y1="120" x2="240" y2="190" stroke="#3fae5a" stroke-width="2" marker-end="url(#a5)"/>
+  <text x="246" y="160" font-size="11" fill="#3fae5a">3→2</text>
+  <defs>
+    <marker id="a5" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#333"/></marker>
+  </defs>
+</svg>
+<p class="diagram-caption">Energy level diagram with three bound levels (−5E₀, −3E₀, −2E₀ for n = 1, 2, 3) and the ionization threshold at 0. Arrows show the three possible emission transitions and their energy gaps.</p>
+</div>
+
   <div class="eq"><div class="main">E<sub>photon</sub> = |E<sub>final</sub> − E<sub>initial</sub>| = hf</div></div>
   <p>An electron dropping to a LOWER energy level <strong>emits</strong> a photon, releasing energy as it goes. An electron jumping to a HIGHER energy level must <strong>absorb</strong> a photon of exactly the right energy — no more, no less, ever.</p>
 
