@@ -133,6 +133,19 @@ const STUDY_CONTENT = {
     </details>
   </div>
 
+  <div class="key-idea">
+    <span class="tag-label idea">Where PV = nRT Actually Comes From</span>
+    <p>It's worth seeing, at least once, that the ideal gas law isn't three separate rules bolted together — Boyle's Law (P₁V₁ = P₂V₂ at constant T), Charles's Law (V₁/T₁ = V₂/T₂ at constant P), and Gay-Lussac's Law (P₁/T₁ = P₂/T₂ at constant V) are all just PV = nRT with one variable frozen. Hold T constant and PV = nRT collapses to Boyle's Law. Hold P constant and it collapses to Charles's Law. Hold V constant and it collapses to Gay-Lussac's Law. You never need to memorize three separate laws — you need one law and the discipline to cross out whatever's held fixed.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 2b</span>
+    <p><strong>A Three-Variable Change.</strong> A gas sample starts at 2.0 atm, 4.0 L, and 300 K. It ends at 6.0 L and 450 K. Find the final pressure.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Nothing is held fixed here — all three variables (P, V, T) are changing at once, so use the full combined gas law rather than one of the three special-case shortcuts: P₁V₁/T₁ = P₂V₂/T₂. Plugging in: (2.0)(4.0)/300 = P₂(6.0)/450. Left side: 8.0/300 ≈ 0.0267. So P₂ = (0.0267)(450)/6.0 ≈ <strong>2.0 atm</strong>. Notice the pressure ended up unchanged — volume increased by a factor of 1.5 (4.0 → 6.0 L) and temperature also increased by a factor of 1.5 (300 → 450 K), and since those two effects on pressure exactly cancel (V increasing tends to lower P, T increasing tends to raise P, by the same ratio here), pressure comes back to where it started. This is a good problem for building the habit of setting up the combined law first and letting the algebra tell you what happens, rather than trying to guess the answer from the individual ratios.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s93"><span class="num">9.3</span>Thermal Energy Transfer and Equilibrium</h2>
@@ -223,6 +236,23 @@ const STUDY_CONTENT = {
   </table>
   <p>You'll be asked to sketch these on a P-V diagram often enough that it's worth having the shapes memorized cold: isobaric is a horizontal line, isochoric is a vertical line, isothermal is a curve (hyperbola-shaped, following PV = constant), and adiabatic is a similar-looking curve but noticeably steeper at any given point.</p>
 
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>If you've used a chemistry textbook or a different physics course, you may have seen the first law written as ΔU = Q − W instead of ΔU = Q + W. Both are correct physics — they're just using opposite sign conventions for W. The AP Physics 2 exam <strong>always</strong> uses W = work done ON the gas, matching ΔU = Q + W, and that's the only version you should use on this exam. If a formula ever looks like it's giving you the opposite sign from what you expect, check whether you've accidentally mixed in the "work done BY the gas" convention from somewhere else — don't let two internally-consistent but opposite conventions bleed into the same calculation.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 4b</span>
+    <p><strong>A Full Cycle on a P-V Diagram.</strong> A gas undergoes the cycle A → B → C → A: from A (2.0 atm, 3.0 L) it expands at constant pressure to B (2.0 atm, 6.0 L); then from B it cools at constant volume to C (1.0 atm, 6.0 L); then from C it compresses back to A along a straight diagonal line on the P-V diagram. Find the work done ON the gas for each leg, and the net work done ON the gas over the full cycle.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Take the legs one at a time, converting atm·L to joules at the end (1 atm·L ≈ 101.3 J).<br><br>
+      <strong>A → B (isobaric, expanding):</strong> W = −PΔV = −(2.0 atm)(6.0 − 3.0 L) = −6.0 atm·L ≈ −608 J. Negative, as expected — the gas is expanding, so it's doing positive work on its surroundings.<br><br>
+      <strong>B → C (isochoric):</strong> ΔV = 0, so W = 0 J exactly. No calculation needed beyond recognizing the process type.<br><br>
+      <strong>C → A (a straight diagonal line, not one of the four named processes):</strong> Work still equals the area under the P-V path for that leg, found geometrically. This leg runs from (6.0 L, 1.0 atm) to (3.0 L, 2.0 atm) — a straight line, so the "area under the curve" is a trapezoid: average pressure × ΔV = [(1.0+2.0)/2](3.0 − 6.0) = (1.5)(−3.0) = −4.5 atm·L done <em>by</em> the gas along this segment... but here it's a compression (volume decreasing), so work done ON the gas is positive: W = +4.5 atm·L ≈ +456 J.<br><br>
+      <strong>Net work done ON the gas over the full cycle:</strong> −608 + 0 + 456 = <strong>−152 J</strong> (net negative — the gas did more work on its surroundings during the A→B expansion than was done on it during the C→A compression). This matches the shortcut from earlier in this unit: tracing A→B→C→A moves clockwise around the loop on a P-V diagram, and a clockwise loop always means positive net work done <em>by</em> the gas — equivalently, negative net work done <em>on</em> it, exactly what was found here.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s95"><span class="num">9.5</span>Specific Heat and Thermal Conductivity</h2>
@@ -239,6 +269,21 @@ const STUDY_CONTENT = {
   </ul>
   <p>Here's what I'd want you to really absorb: every single experimental-design FRQ in this course rewards the exact same instinct. Name the actual equipment you'd use. Describe specifically what you measure and exactly when. Explain how you'd cut down on uncertainty — multiple trials, a thermometer with fine graduations, minimizing transfer time to reduce heat loss to the air, good insulation. Graders are looking for that level of concrete specificity, not vague gestures at "doing the experiment carefully."</p>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 4c</span>
+    <p><strong>Reading Real Experimental Data.</strong> A student runs the thermal-conductivity experiment from Worked Example 3, varying ΔT and measuring Q/Δt each time, for a wrap with area 0.40 m² and thickness 0.0050 m:</p>
+    <table class="formula-table">
+      <tr><th>ΔT (°C)</th><th>Q/Δt (W)</th></tr>
+      <tr><td>10</td><td>4.1</td></tr>
+      <tr><td>20</td><td>8.0</td></tr>
+      <tr><td>30</td><td>12.2</td></tr>
+      <tr><td>40</td><td>15.9</td></tr>
+    </table>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">First confirm the setup: Q/Δt = kAΔT/L predicts a straight line through the origin if you plot Q/Δt against ΔT, with slope = kA/L. Checking the ratios: 4.1/10 = 0.41, 8.0/20 = 0.40, 12.2/30 ≈ 0.41, 15.9/40 ≈ 0.40 — consistently close to 0.40, confirming the linear relationship holds and giving a best-fit slope of about 0.40 W/°C. Then solve for k: slope = kA/L, so k = slope × L/A = (0.40)(0.0050)/(0.40) = <strong>0.0050 W/(m·K)</strong>. Two things worth noticing: first, real data never falls in an exactly straight line, so "does the pattern look linear" is a judgment call, not something with one right answer — the small variation here (0.40 to 0.41) is normal measurement scatter, not a sign the model is wrong. Second, this exact "collect several (x, y) pairs, confirm linearity, extract the unknown from the slope" pipeline reappears constantly across AP Physics 2 experimental-design questions — internalizing it here pays off well beyond this one problem.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s96"><span class="num">9.6</span>Entropy and the Second Law of Thermodynamics</h2>
@@ -251,6 +296,30 @@ const STUDY_CONTENT = {
     <li>Mixing of substances that used to be kept separate.</li>
   </ul>
   <p>On the exam, entropy questions in Physics 2 are almost always conceptual rather than numerical. You'll be asked to explain, in words, why a process is or isn't consistent with the second law, or to compare entropy changes between two scenarios qualitatively. The reasoning almost always comes back to some version of the same idea: heat moving from hot to cold increases entropy; the reverse would need external energy input and simply doesn't happen on its own.</p>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>The second law says the entropy of an <strong>isolated system</strong> never decreases — it does NOT say entropy can never decrease anywhere, for any object, ever. A specific object or subsystem can absolutely lose entropy (water freezing into highly-ordered ice, for instance), as long as it's exchanging energy with its surroundings and the surroundings gain at least as much entropy as the subsystem lost. Whenever you're asked to judge whether a process is consistent with the second law, make sure you're checking the entropy of the whole isolated system — not just the one piece that happens to be getting more ordered.</p>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 9 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Average kinetic energy</td><td>K<sub>avg</sub> = (3/2) k<sub>B</sub> T &nbsp;(T in kelvin)</td></tr>
+      <tr><td>Ideal gas law</td><td>PV = nRT = Nk<sub>B</sub>T</td></tr>
+      <tr><td>Comparing two gas states</td><td>P₁V₁/T₁ = P₂V₂/T₂</td></tr>
+      <tr><td>Heat conduction rate</td><td>Q/Δt = kAΔT/L</td></tr>
+      <tr><td>Specific heat</td><td>Q = mcΔT</td></tr>
+      <tr><td>Calorimetry (insulated system)</td><td>m<sub>hot</sub>c<sub>hot</sub>|ΔT<sub>hot</sub>| = m<sub>cold</sub>c<sub>cold</sub>|ΔT<sub>cold</sub>|</td></tr>
+      <tr><td>First law of thermodynamics</td><td>ΔU = Q + W &nbsp;(W = work done ON the gas)</td></tr>
+      <tr><td>Internal energy (monatomic ideal gas)</td><td>U = (3/2)nRT = (3/2)Nk<sub>B</sub>T</td></tr>
+      <tr><td>Isobaric work</td><td>W = −PΔV</td></tr>
+      <tr><td>Isochoric</td><td>W = 0, so ΔU = Q</td></tr>
+      <tr><td>Isothermal</td><td>ΔU = 0, so W = −Q</td></tr>
+      <tr><td>Adiabatic</td><td>Q = 0, so ΔU = W</td></tr>
+    </table>
+  </div>
 
   <div class="recap">
     <span class="tag-label recap">Before You Move On</span>
@@ -367,6 +436,14 @@ const STUDY_CONTENT = {
     </details>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1b</span>
+    <p><strong>Three Charges in a Line.</strong> A charge +Q is fixed at x = 0 and a charge +4Q is fixed at x = 3.0 m. Where on the x-axis (between the two charges) could a third charge be placed so that it feels zero net force?</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Since both fixed charges are positive, the third charge (whatever its own sign) feels a push from each — for those two pushes to cancel, the equilibrium point has to sit closer to the WEAKER charge (+Q), since a smaller charge only "wins" at short range. Let the equilibrium point be a distance d from the +Q charge, so it's (3.0 − d) from the +4Q charge. Setting the force magnitudes equal: kQq/d² = k(4Q)q/(3.0−d)². The k, q, and Q all cancel: 1/d² = 4/(3.0−d)². Cross-multiplying: (3.0−d)² = 4d². Taking the square root of both sides: 3.0 − d = 2d (taking the positive root, since d must be between 0 and 3.0). Solving: 3.0 = 3d, so d = <strong>1.0 m</strong> from the +Q charge (2.0 m from the +4Q charge). Notice this matches the intuition: the equilibrium point sits closer to the smaller charge, at exactly the ratio set by the square roots of the charge magnitudes (√1 : √4 = 1 : 2).</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s102"><span class="num">10.2</span>The Process of Charging</h2>
@@ -413,6 +490,10 @@ const STUDY_CONTENT = {
 <p class="diagram-caption">Charging by induction, step by step: the approaching rod polarizes the conductor, grounding lets like-signed charge escape, and removing the ground (then the rod) leaves the conductor charged opposite to the rod.</p>
 </div>
 
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>The ORDER of the last two steps matters completely. You must disconnect the ground <strong>before</strong> removing the rod. If you remove the rod first while the conductor is still grounded, the conductor's excess charge simply flows back out through the ground wire the instant the rod's influence is gone, and the conductor ends up neutral again — the whole procedure "undoes itself." The charge only gets trapped on the conductor if the ground connection is broken first, while the rod is still nearby holding the charge distribution in place.</p>
+  </div>
 
   <div class="divider">· · ·</div>
 
@@ -493,6 +574,19 @@ const STUDY_CONTENT = {
   </div>
   <p>Here's a shortcut worth internalizing: a charge released from rest always moves in whichever direction decreases the system's PE — exactly like a ball rolling downhill. That lets you answer a lot of "which way does it move" questions instantly, without grinding through a force calculation.</p>
 
+  <div class="key-idea">
+    <span class="tag-label idea">Potential Energy Is a Property of the Pair, Not Either Charge Alone</span>
+    <p>It's easy to slip into thinking of potential energy as something one charge "has," the way an object has gravitational PE due to its height. But electric PE genuinely belongs to the pair (or full system) of charges together — a lone charge sitting by itself in empty space has no electric potential energy at all, since U = kq₁q₂/r requires a second charge to even be defined. This matters when a problem asks you to find "the potential energy of the system": you're summing over every distinct PAIR of charges, not assigning some individual PE value to each one separately.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 2b</span>
+    <p><strong>Assembling a Three-Charge System.</strong> Three charges, each +3.0 μC, are brought from very far apart to the corners of an equilateral triangle with side length 0.50 m. Find the total work required to assemble this configuration.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">The work required to assemble a system of charges from infinite separation equals the total electric potential energy of the final configuration (since PE was zero when they were infinitely far apart, and energy conservation means whatever work went in is now stored as PE). With three charges, there are three distinct pairs, and by symmetry each pair is separated by the same distance (0.50 m, the triangle's side length). Each pair contributes U = kq²/r = (9.0×10⁹)(3.0×10⁻⁶)²/0.50 = (9.0×10⁹)(9.0×10⁻¹²)/0.50 ≈ 0.162 J. Three identical pairs: total work = 3 × 0.162 ≈ <strong>0.486 J</strong>. This is positive, as it should be — assembling three like charges closer together against their mutual repulsion always takes positive work put in from outside, exactly matching the like-charges rule from earlier in this section.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s105"><span class="num">10.5</span>Electric Potential</h2>
@@ -507,6 +601,14 @@ const STUDY_CONTENT = {
 
   <p>One more picture worth locking in: equipotential lines are always <strong>perpendicular</strong> to field lines, at every single point where they cross. This shows up constantly in sketching questions, so it's worth having as an instant, automatic fact rather than something you re-derive each time. Moving along an equipotential line takes zero work, since ΔV = 0 along it by definition.</p>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 3</span>
+    <p><strong>Potential from Three Charges.</strong> Charges of +4.0 μC, −2.0 μC, and +1.0 μC sit at distances of 0.20 m, 0.40 m, and 0.10 m respectively from point P. Find the total electric potential at P.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Since potential is a scalar, just add each contribution algebraically — no angles, no components, no vector work at all. V₁ = kq₁/r₁ = (9.0×10⁹)(4.0×10⁻⁶)/0.20 = 1.8×10⁵ V. V₂ = kq₂/r₂ = (9.0×10⁹)(−2.0×10⁻⁶)/0.40 = −4.5×10⁴ V. V₃ = kq₃/r₃ = (9.0×10⁹)(1.0×10⁻⁶)/0.10 = 9.0×10⁴ V. Total: V = 1.8×10⁵ + (−4.5×10⁴) + 9.0×10⁴ = <strong>2.25 × 10⁵ V</strong>. Compare how much simpler this was than a three-charge field problem would have been — no need to know the directions from each charge to point P, or how the three charges are arranged relative to each other in space at all, since only the straight-line distance to each charge matters for potential. That's the entire appeal of working with potential instead of field whenever a problem allows it.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s106"><span class="num">10.6</span>Capacitors</h2>
@@ -517,6 +619,15 @@ const STUDY_CONTENT = {
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
     <p>Whether charge or voltage ends up being what changes always comes down to one question: is the battery still connected? Battery connected → voltage is forced to stay fixed, so charge is what has to respond to whatever else changes. Battery disconnected → charge is physically trapped with nowhere to go, so voltage is what responds instead. Check this first, every single time, before you reason about anything else in a capacitor problem — it determines which variable you're even allowed to treat as constant.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 4</span>
+    <p><strong>Capacitor With and Without a Dielectric.</strong> A parallel plate capacitor with plate area 0.020 m² and separation 0.0010 m is connected to a 12 V battery. (a) Find the capacitance and stored charge with vacuum between the plates. (b) A dielectric with κ = 3.0 is now inserted, still connected to the battery. Find the new stored energy.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content"><strong>(a)</strong> C₀ = ε₀A/d = (8.85×10⁻¹²)(0.020)/(0.0010) ≈ 1.77×10⁻¹⁰ F. Charge: Q₀ = C₀ΔV = (1.77×10⁻¹⁰)(12) ≈ 2.12×10⁻⁹ C.<br><br>
+      <strong>(b)</strong> With the dielectric inserted (battery still connected, so ΔV stays fixed at 12 V): C = κC₀ = (3.0)(1.77×10⁻¹⁰) ≈ 5.31×10⁻¹⁰ F. Stored energy: U = ½CΔV² = 0.5(5.31×10⁻¹⁰)(12)² ≈ <strong>3.82×10⁻⁸ J</strong>. For comparison, the original energy (part a) was U₀ = ½C₀ΔV² = 0.5(1.77×10⁻¹⁰)(144) ≈ 1.27×10⁻⁸ J — the dielectric roughly tripled the stored energy, exactly matching the factor of κ = 3.0 increase in capacitance, since voltage was held fixed by the battery throughout.</div>
+    </details>
   </div>
 
   <div class="divider">· · ·</div>
@@ -544,6 +655,22 @@ const STUDY_CONTENT = {
       <li>Use W = −qΔV = ΔK to solve particle-through-a-potential-difference problems.</li>
       <li>Compute capacitance, charge, and stored energy — and know whether the battery stays connected.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 10 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Coulomb's Law</td><td>|F| = kq₁q₂/r² &nbsp;(k = 9.0×10⁹ N·m²/C²)</td></tr>
+      <tr><td>Electric field (point charge)</td><td>E = kq/r²</td></tr>
+      <tr><td>Field between parallel plates</td><td>E = Q/(ε₀A)</td></tr>
+      <tr><td>Electric potential energy</td><td>U = kq₁q₂/r</td></tr>
+      <tr><td>Electric potential (point charge)</td><td>V = kq/r</td></tr>
+      <tr><td>Field vs. potential</td><td>|E| = |ΔV/Δr|</td></tr>
+      <tr><td>Work-energy for a moving charge</td><td>W = −qΔV = ΔK</td></tr>
+      <tr><td>Capacitance</td><td>C = Q/ΔV = κε₀A/d</td></tr>
+      <tr><td>Energy stored in a capacitor</td><td>U = ½QΔV = ½C(ΔV)²</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 10 Practice Set</h2>
@@ -640,6 +767,14 @@ const STUDY_CONTENT = {
     <p>By convention, current flows in the direction positive charge WOULD move — even though in an actual metal wire, it's negatively charged electrons doing the moving, drifting the opposite way. This isn't a mistake baked into physics; it's a historical convention (stated explicitly on the AP reference sheet) that's baked into literally every circuit diagram you'll ever see. So reason in terms of conventional current, always — not electron flow — and you'll match every textbook and every exam answer key.</p>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Current from Charge Flow.</strong> A wire carries 3.2×10²⁰ electrons past a point in 4.0 seconds. Find the current, and state its direction relative to the electron flow.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">First find the total charge that passed, using the magnitude of one electron's charge: Q = Ne = (3.2×10²⁰)(1.6×10⁻¹⁹ C) ≈ 51.2 C. Then I = Q/Δt = 51.2/4.0 ≈ <strong>12.8 A</strong>. Direction: conventional current always points opposite to the actual direction electrons are drifting, since current is defined as the direction positive charge would move. So if these electrons are drifting, say, to the left through the wire, the conventional current is directed to the right.</div>
+    </details>
+  </div>
+
   <h2 id="s112"><span class="num">11.2</span>Simple Circuits</h2>
   <p>A circuit needs a complete, unbroken conducting path for current to flow at all — some kind of source (usually a battery), connecting wires, and typically a resistive element like a bulb or resistor. Break the loop anywhere, and current stops everywhere in that loop, not just downstream of wherever you broke it.</p>
   <div class="trap">
@@ -647,6 +782,14 @@ const STUDY_CONTENT = {
     <p>Students sometimes picture current "running out" as it passes through a bulb, kind of like water being used up along the way. It doesn't work that way. The same current flows into and out of every single-path component, no exceptions. What actually changes as current passes through a resistor is energy — converted to heat or light — not the amount of charge flowing. Charge in equals charge out, always, for any single unbranched path.</p>
   </div>
   <p>A capacitor in a simple DC circuit blocks steady-state current once it's fully charged — no charge can cross the physical gap between its plates. So any part of a circuit that can ONLY be reached through a fully-charged capacitor carries zero current once the system settles down, even though current did flow briefly while the capacitor was still charging up.</p>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Identifying Dead Branches.</strong> A circuit has a battery, a resistor R₁ in the main loop, and a second branch — a resistor R₂ in series with a capacitor — connected in parallel with R₁. A long time after the switch closes, find the current through R₂.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Once a capacitor is fully charged, it blocks any further steady-state current through its own branch — the entire branch carrying R₂ and the capacitor in series ends up with zero current, no matter what R₂'s resistance actually is. So the current through R₂ is simply <strong>0 A</strong> once the system settles down. All the current in this circuit ends up flowing only through R₁, since that's the only complete conducting path left once the capacitor branch effectively "opens." This is a favorite AP setup precisely because it tests whether you recognize that a fully-charged capacitor kills current in its whole branch, not just at the capacitor itself.</div>
+    </details>
+  </div>
 
   <div class="divider">· · ·</div>
 
@@ -674,6 +817,14 @@ const STUDY_CONTENT = {
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
     <p>A bulb rated "100 W" only actually dissipates 100 W at its RATED voltage. Connect it to a different voltage, and its power draw changes along with it. Power isn't some fixed, permanent property of a bulb sitting on a shelf — it depends on the actual voltage and current the bulb is experiencing right now, in this specific circuit.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Choosing the Right Power Equation.</strong> A 25 Ω resistor carries 0.80 A. Find the power it dissipates, and separately find the voltage across it.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">You're given resistance and current, so reach for the power form built from exactly those two: P = I²R = (0.80)²(25) = (0.64)(25) = <strong>16 W</strong>. For the voltage, Ohm's Law directly: V = IR = (0.80)(25) = <strong>20 V</strong>. As a check, P = IV = (0.80)(20) = 16 W — same answer either way, confirming the numbers are self-consistent. The real skill here isn't the arithmetic, it's recognizing which of the three power forms (P=IV, P=I²R, P=V²/R) avoids an unnecessary extra step given what you're actually handed — here, I and R were given directly, so P=I²R gets you there in one line without first having to solve for V.</div>
+    </details>
   </div>
 
   <div class="divider">· · ·</div>
@@ -733,12 +884,59 @@ const STUDY_CONTENT = {
   <div class="eq"><div class="main">ΣΔV = 0 (around any closed loop)</div></div>
   <p>Practically, this means adding up voltage RISES (crossing a battery from − to +) and voltage DROPS (crossing a resistor in the direction current flows, or crossing a battery from + to −), and setting the total to zero. This is how you solve for unknown currents or voltages in circuits with multiple loops and multiple batteries — genuinely one of the most powerful tools in this whole unit.</p>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Two Batteries in One Loop.</strong> A single loop contains a 15 V battery, a 5.0 V battery oriented so it opposes the first, and a 4.0 Ω resistor, all in series. Find the current, and state which battery is being charged (having current forced backward through it).</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Walk the loop in one consistent direction and add up voltage rises and drops as you go. Going around: +15 V (rise, crossing the strong battery − to +), then −5.0 V (a drop, since this battery is oriented so you cross it + to − going the same way around), then −I(4.0) (a drop across the resistor, in the direction current flows). Setting the total to zero: 15 − 5.0 − 4.0I = 0, so 4.0I = 10, giving I = <strong>2.5 A</strong>. Since the current came out positive, it really does flow in the direction assumed — driven by the stronger (15 V) battery. That means the weaker (5.0 V) battery has current pushed backward through it against its own preferred direction, so it's the one being charged, exactly like a smaller battery placed in a circuit with a larger one.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s117"><span class="num">11.7</span>Kirchhoff's Junction Rule</h2>
   <p>The junction rule is conservation of charge, applied at a single point: wherever wires meet, the total current flowing in has to equal the total current flowing out. Charge can't pile up anywhere, and it can't vanish either.</p>
   <div class="eq"><div class="main">ΣI<sub>in</sub> = ΣI<sub>out</sub> (at any junction)</div></div>
   <p>This is exactly why current splits across parallel branches in the first place, and why those branch currents have to add back up to the main current once the branches recombine — the junction rule is really the formal justification underneath the "current splits in parallel" behavior you saw back in 11.5.</p>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Combining the Loop and Junction Rules.</strong> A circuit has a 12 V battery in series with a 2.0 Ω resistor, which then splits into two parallel branches: a 6.0 Ω resistor and a 3.0 Ω resistor. Use the loop and junction rules together to find the current through the 3.0 Ω resistor.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Call the current through the 2.0 Ω resistor I (this is also the total current from the battery, since it's the only path before the split), the current through the 6.0 Ω branch I₆, and the current through the 3.0 Ω branch I₃. <strong>Junction rule</strong> at the split: I = I₆ + I₃. <strong>Loop rule</strong> around the loop containing the 2.0 Ω and 6.0 Ω resistors: 12 − I(2.0) − I₆(6.0) = 0. <strong>Loop rule</strong> around the loop containing the 6.0 Ω and 3.0 Ω resistors (both branches share the same voltage, since they're in parallel): I₆(6.0) = I₃(3.0), so I₆ = 0.5 I₃. Substituting into the junction equation: I = 0.5I₃ + I₃ = 1.5I₃. Substituting both into the first loop equation: 12 − (1.5I₃)(2.0) − (0.5I₃)(6.0) = 0 → 12 − 3.0I₃ − 3.0I₃ = 0 → 12 = 6.0I₃ → I₃ = <strong>2.0 A</strong>. This three-equation, three-unknown structure — one junction equation plus one loop equation per independent loop — is the general template for any circuit too tangled for simple series/parallel reduction alone.</div>
+    </details>
+  </div>
+<div class="diagram">
+<svg width="440" height="240" viewBox="0 0 440 240" xmlns="http://www.w3.org/2000/svg">
+  <line x1="40" y1="120" x2="90" y2="120" stroke="#333" stroke-width="2"/>
+  <rect x="90" y="105" width="60" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="100" y="100" font-size="12" fill="#333">2.0 Ω</text>
+  <line x1="150" y1="120" x2="190" y2="120" stroke="#333" stroke-width="2"/>
+  <line x1="190" y1="120" x2="190" y2="70" stroke="#333" stroke-width="2"/>
+  <line x1="190" y1="120" x2="190" y2="170" stroke="#333" stroke-width="2"/>
+  <rect x="190" y="55" width="80" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="205" y="50" font-size="12" fill="#333">6.0 Ω</text>
+  <rect x="190" y="155" width="80" height="30" fill="none" stroke="#333" stroke-width="2"/>
+  <text x="205" y="210" font-size="12" fill="#333">3.0 Ω</text>
+  <line x1="270" y1="70" x2="330" y2="70" stroke="#333" stroke-width="2"/>
+  <line x1="270" y1="170" x2="330" y2="170" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="70" x2="330" y2="120" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="170" x2="330" y2="120" stroke="#333" stroke-width="2"/>
+  <line x1="330" y1="120" x2="400" y2="120" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="120" x2="40" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="400" y1="120" x2="400" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="40" y1="30" x2="180" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="260" y1="30" x2="400" y2="30" stroke="#333" stroke-width="2"/>
+  <line x1="180" y1="20" x2="180" y2="40" stroke="#333" stroke-width="3"/>
+  <line x1="260" y1="15" x2="260" y2="45" stroke="#333" stroke-width="1.5"/>
+  <text x="188" y="12" font-size="13" fill="#333" text-anchor="middle">12 V</text>
+  <text x="150" y="145" font-size="11" fill="#3f6ae0">I</text>
+  <text x="255" y="60" font-size="11" fill="#e0473f">I₆</text>
+  <text x="255" y="205" font-size="11" fill="#3fae5a">I₃</text>
+</svg>
+<p class="diagram-caption">The circuit from the combined loop-and-junction worked example: a 12 V battery drives current I through a 2.0 Ω resistor, which then splits at the junction into I₆ (through the 6.0 Ω branch) and I₃ (through the 3.0 Ω branch).</p>
+</div>
+
 
   <div class="divider">· · ·</div>
 
@@ -782,6 +980,20 @@ const STUDY_CONTENT = {
 <p class="diagram-caption">Two safe RC limits: right after closing, an uncharged capacitor behaves like a plain wire; a long time later, the fully-charged capacitor behaves like a broken wire (open switch).</p>
 </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Current and Charge at the Two Limits.</strong> A 9.0 V battery, a 3.0 Ω resistor, and an initially-uncharged 2.0 μF capacitor are connected in series with a switch. Find the current immediately after the switch closes, and the final charge on the capacitor a long time later.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content"><strong>At t = 0:</strong> the uncharged capacitor acts like a plain wire, so the circuit behaves as if it's just the battery and resistor: I = ε/R = 9.0/3.0 = <strong>3.0 A</strong>.<br><br>
+      <strong>At t → ∞:</strong> the fully-charged capacitor acts like an open switch, so current in the loop drops to zero, and the capacitor ends up with the full battery voltage across it (since there's no voltage drop left over the resistor once I = 0): Q<sub>final</sub> = CΔV = (2.0×10⁻⁶)(9.0) = <strong>1.8×10⁻⁵ C</strong>.<br><br>
+      Notice neither calculation needed the resistor value for the final charge, and neither needed the capacitance for the initial current — each limit isolates exactly the piece of information that matters at that instant, which is the whole point of reasoning through the two safe limits instead of trying to track the full time-dependence.</div>
+    </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Don't mix the two limits together. A common mistake is using the fully-charged capacitor's charge (which depends on C and ε, not R) to try to find the initial current (which depends on ε and R, not C), or vice versa. Each limit has its own self-contained set of "what matters right now" — keep them separate rather than pulling numbers across from the wrong moment in time.</p>
+  </div>
 
   <div class="recap">
     <span class="tag-label recap">Before You Move On</span>
@@ -793,6 +1005,23 @@ const STUDY_CONTENT = {
       <li>Apply Kirchhoff's loop and junction rules to solve multi-loop circuits.</li>
       <li>Reason through RC circuits at t = 0 and t → ∞ without needing calculus.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 11 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Current</td><td>I = ΔQ/Δt</td></tr>
+      <tr><td>Ohm's Law</td><td>V = IR</td></tr>
+      <tr><td>Resistance from geometry</td><td>R = ρℓ/A</td></tr>
+      <tr><td>Power (three equivalent forms)</td><td>P = IΔV = I²R = (ΔV)²/R</td></tr>
+      <tr><td>Series resistors</td><td>R<sub>s</sub> = ΣR<sub>i</sub></td></tr>
+      <tr><td>Parallel resistors</td><td>1/R<sub>p</sub> = Σ(1/R<sub>i</sub>)</td></tr>
+      <tr><td>Kirchhoff's Loop Rule</td><td>ΣΔV = 0 around any closed loop</td></tr>
+      <tr><td>Kirchhoff's Junction Rule</td><td>ΣI<sub>in</sub> = ΣI<sub>out</sub> at any junction</td></tr>
+      <tr><td>RC circuit, t = 0</td><td>capacitor acts like a wire (0 Ω)</td></tr>
+      <tr><td>RC circuit, t → ∞</td><td>capacitor acts like an open switch; Q<sub>final</sub> = Cε</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 11 Practice Set</h2>
@@ -926,6 +1155,14 @@ const STUDY_CONTENT = {
     <p>Unlike electric charges, magnetic poles always come in N-S pairs. There's no such thing as an isolated magnetic "monopole," and no one has ever found one. Cut a bar magnet in half, expecting to isolate a pure N piece and a pure S piece, and here's what actually happens: you just get two smaller magnets, each with its own complete N and S pole. It's genuinely counterintuitive the first time you hear it.</p>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Field Lines and Poles.</strong> A bar magnet's field lines are sketched. At a point just outside the magnet, the field lines are dense and point toward the magnet. Which pole is closest to that point?</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Field lines run from a magnet's north pole to its south pole outside the magnet — always in that direction, no exceptions. If the lines near this point are pointing <em>toward</em> the magnet, that means they're on their way to terminate there, which only happens at a <strong>south pole</strong>. Density being high just confirms the point is close to the magnet itself (density falls off with distance, same idea as electric field lines), but it's the direction of the lines — toward vs. away — that actually identifies which pole is nearby.</div>
+    </details>
+  </div>
+
   <div class="heylook">
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>The single most important fact in this whole unit</div>
     <p>The magnetic force on a moving charge is <strong>always perpendicular</strong> to its velocity. Here's why that matters so much: a force perpendicular to motion can never do work (remember W = Fd cosθ — with θ = 90°, that's automatically zero). So magnetic forces <strong>never change a charge's speed or kinetic energy</strong>, only its direction. This one fact is the backbone underneath nearly every circular-motion-in-a-magnetic-field question you'll ever see on this exam.</p>
@@ -951,6 +1188,11 @@ const STUDY_CONTENT = {
     <details class="solution"><summary></summary>
       <div class="sol-content">Point your fingers along +x (velocity), curl them into the page (−z, the field direction) — your thumb ends up pointing <strong>+y (upward)</strong>. Since the proton is positive, that's the force direction directly, no flip needed. But here's the twist: since the force always stays perpendicular to velocity, as the proton curves upward, the force direction rotates right along with it, always staying perpendicular — and that's exactly what produces a full <strong>circular path</strong>, curving upward and to the left initially, eventually tracing a complete circle. If this were an electron instead (negative charge), the initial force would be downward instead — a full 180° flip, purely because of the sign.</div>
     </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>The single most common right-hand-rule error isn't forgetting the rule — it's mixing up which hand-part does which job. Fingers point along <strong>velocity</strong> (or current, for a wire). You <strong>curl</strong> those fingers toward the field. The <strong>thumb</strong> gives the force, for a positive charge. Students under time pressure often swap the roles — pointing fingers along the field instead of velocity, or reading the force off the fingers instead of the thumb. Slow down and do the physical motion with your actual hand rather than trying to visualize it purely in your head; it's faster in the long run than re-deriving a wrong answer.</p>
   </div>
 
   <div class="divider">· · ·</div>
@@ -985,6 +1227,19 @@ const STUDY_CONTENT = {
     <p><strong>Force Between Two Parallel Wires.</strong> Two long, straight wires run parallel to each other, both carrying current in the SAME direction. Do they attract or repel?</p>
     <details class="solution"><summary></summary>
       <div class="sol-content">They <strong>attract</strong>. Wire 1's field circles around it; at Wire 2's location, that field points in a specific direction (found via the grab-the-wire rule). Apply the force rule to Wire 2 sitting in that field, and you find the force pulls Wire 2 toward Wire 1. Here's a genuinely memorable contrast to keep in your back pocket: <strong>parallel currents (same direction) attract, antiparallel currents (opposite directions) repel</strong> — the exact reverse of "likes repel" for electric charge. This flip-of-intuition is a favorite thing for the AP exam to test, specifically because it's counterintuitive if you're on autopilot.</div>
+    </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>It's easy to default to an inverse-square falloff out of habit, since that's what governed every field in Units 10 and 11's electric-field-adjacent material. A long straight wire's magnetic field falls off as 1/r — a gentler, direct inverse relationship, not 1/r². Doubling your distance from a wire only cuts the field in half, not to one-fourth. Keep the two falloff rates filed separately: point charges and Coulomb's Law get 1/r², long straight wires get 1/r.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 3</span>
+    <p><strong>Comparing Field at Two Distances.</strong> A long straight wire carries current I. Point A is 0.10 m from the wire; Point B is 0.40 m from the wire. Find the ratio of the field at A to the field at B.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Since B = μ₀I/(2πr) ∝ 1/r, the ratio of fields is just the inverse ratio of distances: B<sub>A</sub>/B<sub>B</sub> = r<sub>B</sub>/r<sub>A</sub> = 0.40/0.10 = <strong>4</strong>. Point A's field is 4 times stronger than Point B's — notice this is a direct ratio, not squared. If this were an electric field from a point charge instead, quadrupling the distance would cut the field to 1/16, not 1/4 — a good gut-check for whether you've defaulted to the wrong falloff rate.</div>
     </details>
   </div>
 
@@ -1036,6 +1291,20 @@ const STUDY_CONTENT = {
       <li>Apply Lenz's Law correctly — opposing the CHANGE, not the field itself.</li>
       <li>Use motional EMF (ε = BLv) for a rod sweeping through a field.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 12 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Force on a moving charge</td><td>|F| = |q||v||B|sinθ</td></tr>
+      <tr><td>Radius of circular motion</td><td>r = mv/(qB)</td></tr>
+      <tr><td>Force on a current-carrying wire</td><td>|F| = |I||ℓ||B|sinθ</td></tr>
+      <tr><td>Field from a long straight wire</td><td>B = μ₀I/(2πr) &nbsp;(falls off as 1/r)</td></tr>
+      <tr><td>Magnetic flux</td><td>Φ_B = BAcosθ</td></tr>
+      <tr><td>Faraday's Law</td><td>ε = −N(ΔΦ_B/Δt)</td></tr>
+      <tr><td>Motional EMF</td><td>ε = BLv</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 12 Practice Set</h2>
@@ -1132,6 +1401,14 @@ const STUDY_CONTENT = {
     <span class="tag-label trap">Watch Out For This</span>
     <p>Angles in optics are always measured from the normal — the perpendicular to the surface — never from the surface itself. Here's where this bites people: a ray hitting a mirror "at a steep angle" relative to the surface might actually have a SMALL angle of incidence, since it's nearly perpendicular to that surface. Get in the habit of physically drawing the normal line first, every single time, before you try to measure any angle at all.</p>
   </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Rotating a Mirror.</strong> A ray strikes a flat mirror at a 25° angle of incidence. The mirror is then rotated by 10° about an axis lying in its own surface, with the incoming ray unchanged. Find the new angle between the incident and reflected rays.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Originally, the angle between the incident and reflected rays is twice the angle of incidence (since incidence = reflection, both measured from the normal): 2(25°) = 50°. Rotating the mirror by 10° rotates its normal by that same 10°, which shifts the reflected ray by <strong>twice</strong> the mirror's rotation — a general rule worth having ready: rotate the mirror by θ, and the reflected ray deflects by 2θ, for a fixed incoming ray. So the reflected ray shifts by 20°, and the new angle between incident and reflected rays is 50° + 20° = <strong>70°</strong>. This "double the mirror's rotation" rule shows up in optical instruments (like galvanometer mirrors) and is a favorite twist on an otherwise simple reflection question.</div>
+    </details>
+  </div>
   <p>A flat (plane) mirror always produces a <strong>virtual, upright, same-size</strong> image, located as far behind the mirror as the object sits in front of it. This is the one case in the whole unit where you don't need the mirror equation at all — it's just true by simple geometry, every single time, no calculation required.</p>
 
   <div class="divider">· · ·</div>
@@ -1184,6 +1461,11 @@ const STUDY_CONTENT = {
     <details class="solution"><summary></summary>
       <div class="sol-content">1/s<sub>o</sub> + 1/s<sub>i</sub> = 1/f → 1/30 + 1/s<sub>i</sub> = 1/10 → 1/s<sub>i</sub> = 1/10 − 1/30 = 3/30 − 1/30 = 2/30 → s<sub>i</sub> = 15 cm. Positive s<sub>i</sub> means a <strong>real image</strong>, sitting 15 cm in front of the mirror. Magnification: M = −s<sub>i</sub>/s<sub>o</sub> = −15/30 = −0.5 — negative means <strong>inverted</strong>, and a magnitude less than 1 means <strong>reduced</strong> (smaller than the object). Notice this matches the "beyond 2f" prediction from the key idea above (the object at 30 cm sits beyond 2f = 20 cm) — a good habit is checking your algebra against that qualitative prediction before you commit to an answer.</div>
     </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Students often blur together the four object-distance zones (inside f, at f, between f and 2f, beyond 2f) into a vague sense of "closer means bigger image." Get the boundaries exact: beyond 2f gives a REDUCED real image; between f and 2f gives a MAGNIFIED real image; exactly at f gives NO image; inside f gives a MAGNIFIED VIRTUAL image. Notice the image only flips from real to virtual when the object crosses inside f — not at the 2f boundary, which only affects whether the real image is magnified or reduced. Mixing up which boundary controls which property is one of the most common point-losers in this section.</p>
   </div>
 
   <div class="divider">· · ·</div>
@@ -1257,6 +1539,46 @@ const STUDY_CONTENT = {
     </details>
   </div>
 
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Mirrors and lenses share the exact same equation, but a real image forms on OPPOSITE sides relative to the object: for a mirror, a real image forms on the SAME side as the object (light bounces back); for a lens, a real image forms on the OPPOSITE side (light passes through). If you carry a mirror-based intuition into a lens problem (or vice versa) about which side of the diagram the real image should land on, you'll misread an otherwise-correct calculation. Always re-confirm which type of instrument you're working with before interpreting a positive s<sub>i</sub>.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 4</span>
+    <p><strong>A Diverging Lens.</strong> An object is placed 40 cm from a diverging lens with focal length 25 cm. Find the image distance and describe the image.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">1/s<sub>o</sub> + 1/s<sub>i</sub> = 1/f → 1/40 + 1/s<sub>i</sub> = 1/(−25) → 1/s<sub>i</sub> = −1/25 − 1/40 = −8/200 − 5/200 = −13/200 → s<sub>i</sub> ≈ <strong>−15.4 cm</strong>. Negative confirms virtual, as expected — this didn't even need to be calculated to know the sign, since a diverging lens always produces a virtual image regardless of object distance. Magnification: M = −s<sub>i</sub>/s<sub>o</sub> = −(−15.4)/40 ≈ 0.38 — positive (upright), and less than 1 in magnitude (reduced). This matches the general diverging-lens rule exactly: virtual, upright, reduced, for any object distance you're handed.</div>
+    </details>
+  </div>
+<div class="diagram">
+<svg width="480" height="300" viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg">
+  <line x1="20" y1="180" x2="460" y2="180" stroke="#999" stroke-width="1" stroke-dasharray="4,4"/>
+  <path d="M 240 100 Q 220 180 240 260 Q 260 180 240 100 Z" fill="#dbe9ff" opacity="0.6" stroke="#333" stroke-width="2"/>
+  <circle cx="160" cy="180" r="3" fill="#333"/>
+  <text x="152" y="198" font-size="11" fill="#333">f</text>
+  <circle cx="320" cy="180" r="3" fill="#333"/>
+  <text x="312" y="198" font-size="11" fill="#333">f</text>
+
+  <line x1="140" y1="180" x2="140" y2="155" stroke="#e0473f" stroke-width="3"/>
+  <text x="105" y="150" font-size="11" fill="#e0473f">Object</text>
+
+  <line x1="140" y1="155" x2="240" y2="155" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="240" y1="155" x2="440" y2="92.5" stroke="#3f6ae0" stroke-width="1.5"/>
+  <line x1="240" y1="155" x2="195.6" y2="168.9" stroke="#3f6ae0" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
+
+  <line x1="140" y1="155" x2="240" y2="180" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="240" y1="180" x2="440" y2="230" stroke="#3fae5a" stroke-width="1.5"/>
+  <line x1="240" y1="180" x2="195.6" y2="168.9" stroke="#3fae5a" stroke-width="1" stroke-dasharray="3,3" opacity="0.7"/>
+
+  <circle cx="195.6" cy="168.9" r="4" fill="#222"/>
+  <line x1="195.6" y1="180" x2="195.6" y2="168.9" stroke="#e0473f" stroke-width="3"/>
+  <text x="130" y="215" font-size="11" fill="#e0473f">Image (virtual, upright, reduced)</text>
+</svg>
+<p class="diagram-caption">Diverging lens ray diagram: a ray parallel to the axis refracts as if it came from the near focal point; a ray through the lens center passes straight through. Both rays diverge after the lens (solid), but tracing them backward (dashed) shows they appear to come from a single point on the object's side — the virtual, upright, reduced image.</p>
+</div>
+
+
   <div class="recap">
     <span class="tag-label recap">Before You Move On</span>
     <ul>
@@ -1267,6 +1589,20 @@ const STUDY_CONTENT = {
       <li>Find the critical angle and know total internal reflection only occurs going into a LESS dense medium.</li>
       <li>Remember the one sign-convention difference between mirrors and lenses: which side a real image forms on.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 13 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Law of reflection</td><td>θ<sub>incidence</sub> = θ<sub>reflection</sub></td></tr>
+      <tr><td>Mirror/lens equation</td><td>1/s<sub>o</sub> + 1/s<sub>i</sub> = 1/f</td></tr>
+      <tr><td>Magnification</td><td>M = h<sub>i</sub>/h<sub>o</sub> = −s<sub>i</sub>/s<sub>o</sub></td></tr>
+      <tr><td>Snell's Law</td><td>n = c/v &nbsp;·&nbsp; n₁sinθ₁ = n₂sinθ₂</td></tr>
+      <tr><td>Critical angle</td><td>sinθ<sub>c</sub> = n₂/n₁ &nbsp;(only when n₁ &gt; n₂)</td></tr>
+      <tr><td>Real image, mirror</td><td>forms on the SAME side as the object</td></tr>
+      <tr><td>Real image, lens</td><td>forms on the OPPOSITE side from the object</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 13 Practice Set</h2>
@@ -1365,6 +1701,14 @@ const STUDY_CONTENT = {
   </div>
   <div class="eq"><div class="main">v = fλ</div><div class="sub">wave speed = frequency × wavelength — the single most-used equation in this unit</div></div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Basic Wave Speed.</strong> A sound wave has frequency 440 Hz (concert pitch A) and travels through air at 343 m/s. Find its wavelength. If the same note were played underwater, where sound travels at 1480 m/s, find the new wavelength.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">In air: λ = v/f = 343/440 ≈ 0.78 m. Underwater: λ = v/f = 1480/440 ≈ <strong>3.36 m</strong>. Notice the frequency doesn't change at all between the two cases — 440 Hz is a property of the SOURCE (however fast the source is actually vibrating), not of the medium. What changes is speed, which is set by the medium, and wavelength adjusts to keep v = fλ balanced. This is a genuinely common setup: "same source, different medium, find how the wavelength changes" — frequency is always the one quantity you can carry over unchanged.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s142"><span class="num">14.2</span>Periodic Waves</h2>
@@ -1401,6 +1745,50 @@ const STUDY_CONTENT = {
     <span class="tag-label idea">Key Idea — The EM Spectrum Is One Family</span>
     <p>Radio waves, microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays are all fundamentally the SAME kind of wave — electromagnetic — differing only in frequency and, correspondingly, wavelength. Higher frequency means higher photon energy (E = hf, which you'll see again in Unit 15), and that's exactly why X-rays and gamma rays are dangerous while radio waves aren't, despite both technically being "light" in the broadest sense.</p>
   </div>
+<div class="diagram">
+<svg width="640" height="200" viewBox="0 0 640 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="specGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c0392b"/>
+      <stop offset="16%" stop-color="#e07a3f"/>
+      <stop offset="32%" stop-color="#e0c73f"/>
+      <stop offset="48%" stop-color="#3fae5a"/>
+      <stop offset="64%" stop-color="#3f9ae0"/>
+      <stop offset="80%" stop-color="#6a3fe0"/>
+      <stop offset="100%" stop-color="#9a3fae"/>
+    </linearGradient>
+    <marker id="specArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#333"/></marker>
+  </defs>
+  <rect x="30" y="60" width="560" height="30" fill="url(#specGrad)" opacity="0.85"/>
+  <line x1="30" y1="60" x2="30" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="130" y1="60" x2="130" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="230" y1="60" x2="230" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="330" y1="60" x2="330" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="390" y1="60" x2="390" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="470" y1="60" x2="470" y2="90" stroke="#333" stroke-width="1"/>
+  <line x1="590" y1="60" x2="590" y2="90" stroke="#333" stroke-width="1"/>
+  <text x="55" y="50" font-size="11" fill="#333">Radio</text>
+  <text x="150" y="50" font-size="11" fill="#333">Microwave</text>
+  <text x="255" y="50" font-size="11" fill="#333">Infrared</text>
+  <text x="340" y="115" font-size="11" fill="#333" font-weight="bold">Visible</text>
+  <text x="400" y="50" font-size="11" fill="#333">Ultraviolet</text>
+  <text x="490" y="50" font-size="11" fill="#333">X-ray</text>
+  <text x="565" y="50" font-size="11" fill="#333">Gamma</text>
+  <line x1="30" y1="130" x2="590" y2="130" stroke="#333" stroke-width="1.5" marker-end="url(#specArrow)"/>
+  <text x="30" y="150" font-size="11" fill="#333">longer λ, lower f, lower photon energy</text>
+  <text x="380" y="150" font-size="11" fill="#333">shorter λ, higher f, higher energy</text>
+</svg>
+<p class="diagram-caption">The electromagnetic spectrum: all of these are the same kind of wave, differing only in frequency and wavelength. Visible light — the narrow band your eye detects — sits in the middle, with lower-energy radio/microwave/infrared on one side and higher-energy UV/X-ray/gamma on the other.</p>
+</div>
+
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Identifying a Region of the Spectrum.</strong> An electromagnetic wave has frequency 3.0×10¹⁸ Hz. Find its wavelength, and identify which region of the EM spectrum it falls in.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">λ = c/f = (3.0×10⁸)/(3.0×10¹⁸) = 1.0×10⁻¹⁰ m = 0.1 nm. A wavelength this short — well below the visible range (roughly 400–700 nm) and even below typical ultraviolet — places this wave in the <strong>X-ray</strong> region of the spectrum. Getting comfortable converting quickly between frequency and wavelength, then placing the result on the spectrum from memory (radio → microwave → infrared → visible → ultraviolet → X-ray → gamma, in order of increasing frequency), is worth practicing until it's automatic.</div>
+    </details>
+  </div>
 
   <div class="divider">· · ·</div>
 
@@ -1410,7 +1798,40 @@ const STUDY_CONTENT = {
     <span class="tag-label idea">Key Idea — Direction First, Numbers Second</span>
     <p>Source and observer moving TOWARD each other → observed frequency INCREASES (pitch sounds higher, wavelengths compress). Moving AWAY from each other → observed frequency DECREASES (pitch sounds lower, wavelengths stretch). Get this directional intuition locked in before you ever touch a formula — on the real exam, a conceptual Doppler question is far more likely to show up than a plug-and-chug numeric one.</p>
   </div>
+<div class="diagram">
+<svg width="560" height="260" viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="150" cy="130" r="95" fill="none" stroke="#3f6ae0" stroke-width="1.5"/>
+  <circle cx="195" cy="130" r="65" fill="none" stroke="#666" stroke-width="1.2"/>
+  <circle cx="240" cy="130" r="35" fill="none" stroke="#666" stroke-width="1.2"/>
+  <circle cx="280" cy="130" r="8" fill="none" stroke="#e0473f" stroke-width="1.5"/>
+
+  <circle cx="280" cy="130" r="5" fill="#333"/>
+  <text x="255" y="115" font-size="10" fill="#333">source (moving right)</text>
+  <line x1="150" y1="200" x2="280" y2="200" stroke="#666" stroke-width="1" marker-end="url(#dopArrow)"/>
+  <text x="185" y="215" font-size="10" fill="#666">motion</text>
+
+  <text x="300" y="60" font-size="11" fill="#e0473f" font-weight="bold">compressed ahead</text>
+  <text x="300" y="78" font-size="10" fill="#e0473f">→ shorter λ, higher observed f</text>
+
+  <text x="10" y="30" font-size="11" fill="#3f6ae0" font-weight="bold">spread out behind</text>
+  <text x="10" y="48" font-size="10" fill="#3f6ae0">→ longer λ, lower observed f</text>
+
+  <defs>
+    <marker id="dopArrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#666"/></marker>
+  </defs>
+</svg>
+<p class="diagram-caption">A moving source emits successive wavefronts — each one is centered where the source was at the moment it was emitted, and has had a different amount of time to expand. Ahead of the source (right), the wavefronts bunch together (compressed, higher observed frequency); behind it (left), they spread apart (stretched, lower observed frequency).</p>
+</div>
+
   <div class="eq"><div class="main">f' = f × (v ± v<sub>observer</sub>)/(v ∓ v<sub>source</sub>)</div><div class="sub">v = speed of the wave in the medium; use + when motion is toward, − when away, applied consistently to numerator/denominator</div></div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>An Approaching Ambulance.</strong> An ambulance siren emits sound at 700 Hz. The ambulance moves toward a stationary observer at 30 m/s, through air where sound travels at 343 m/s. Find the frequency the observer hears.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">The observer is stationary, so v<sub>observer</sub> = 0. The source is moving TOWARD the observer, which means the source term in the denominator should make the whole fraction bigger (raising the observed frequency) — so use the minus sign in the denominator: f' = f × v/(v − v<sub>source</sub>) = 700 × 343/(343 − 30) = 700 × 343/313 ≈ <strong>767 Hz</strong>. Before trusting the arithmetic, sanity-check the direction: the source is approaching, so the observed frequency should come out HIGHER than 700 Hz — and 767 Hz does. If you'd gotten a number below 700 Hz here, that would be a signal you picked the wrong sign in the denominator, worth catching before moving on.</div>
+    </details>
+  </div>
 
   <div class="divider">· · ·</div>
 
@@ -1456,6 +1877,11 @@ const STUDY_CONTENT = {
     <details class="solution"><summary></summary>
       <div class="sol-content">f<sub>n</sub> = nv/(2L) = (3)(40)/(2 × 1.2) = 120/2.4 = <strong>50 Hz</strong>. Here's a subtlety worth catching: the third harmonic doesn't mean "three times the length" — it means three antinodes fit along the string, with the wavelength shortened to fit (λ₃ = 2L/3 = 0.8 m here), which is exactly why frequency scales up with n even though the string's physical length never actually changes.</div>
     </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Node and antinode counts are easy to get off by one. For a string fixed at both ends, the harmonic number n always equals the number of ANTINODES, while the number of NODES (including both fixed ends) is always n + 1. It's tempting to assume nodes and antinodes come in equal counts, but they never do for this boundary condition — there's always exactly one more node than antinode. Recount directly from a sketch rather than trying to recall the rule from memory under pressure.</p>
   </div>
 
   <div class="divider">· · ·</div>
@@ -1554,6 +1980,14 @@ const STUDY_CONTENT = {
 
   <div class="eq"><div class="main">Path difference = 2t</div><div class="sub">t = film thickness; light crosses the film twice (down and back up)</div></div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Minimum Soap Film Thickness.</strong> A soap film (n = 1.33) in air is illuminated with 600 nm light. Find the minimum nonzero thickness for constructive interference (a bright reflection).</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">First check the phase shifts. Top surface: air (n=1.0) into film (n=1.33) — low into high, so a 180° shift. Bottom surface: film (n=1.33) into air (n=1.0) — high into low, so NO shift. The two reflections are MISMATCHED (one shifted, one not), which flips the usual rule: for mismatched shifts, constructive interference actually happens at path differences of (m + ½)λ instead of mλ. So: 2t = (m + ½)λ<sub>film</sub>, where λ<sub>film</sub> = λ<sub>air</sub>/n = 600/1.33 ≈ 451 nm. For the minimum nonzero thickness, use m = 0: 2t = ½(451), so t = 451/4 ≈ <strong>113 nm</strong>. This is exactly the scenario the phase-shift trap earlier in this section warns about — a student who forgot to check the mismatched shifts and used the "normal" mλ rule instead would have computed t = λ<sub>film</sub>/2 ≈ 225 nm, a genuinely different (and wrong) answer, purely from missing that one step.</div>
+    </details>
+  </div>
+
   <div class="recap">
     <span class="tag-label recap">Before You Move On</span>
     <ul>
@@ -1565,6 +1999,22 @@ const STUDY_CONTENT = {
       <li>Apply d sinθ = mλ for double-slit bright fringes.</li>
       <li>Track phase shifts carefully on both surfaces in thin-film problems.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 14 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Wave speed</td><td>v = fλ &nbsp;(c = fλ for EM waves)</td></tr>
+      <tr><td>Period-frequency relationship</td><td>T = 1/f</td></tr>
+      <tr><td>Doppler effect</td><td>f' = f × (v ± v<sub>observer</sub>)/(v ∓ v<sub>source</sub>)</td></tr>
+      <tr><td>Standing wave wavelength (string, both ends fixed)</td><td>λ<sub>n</sub> = 2L/n</td></tr>
+      <tr><td>Standing wave frequency</td><td>f<sub>n</sub> = nv/(2L)</td></tr>
+      <tr><td>Constructive interference</td><td>path difference = mλ</td></tr>
+      <tr><td>Destructive interference</td><td>path difference = (m + ½)λ</td></tr>
+      <tr><td>Double-slit bright fringes</td><td>d sinθ = mλ</td></tr>
+      <tr><td>Thin film path difference</td><td>2t &nbsp;(check phase shifts before applying mλ / (m+½)λ)</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 14 Practice Set</h2>
@@ -1666,6 +2116,21 @@ const STUDY_CONTENT = {
     <p>Light, normally described as a wave back in Unit 14, also behaves as discrete packets of energy called <strong>photons</strong>. Electrons and other matter, normally described as particles, also have a wavelength associated with their motion. Neither picture — pure wave, pure particle — is complete on its own; which behavior you actually observe often depends entirely on what experiment you happen to be running.</p>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Photon Energy and Electron Wavelength, Side by Side.</strong> (a) Find the energy of a photon with wavelength 500 nm. (b) Find the de Broglie wavelength of an electron (mass 9.11×10⁻³¹ kg) moving at 1.0×10⁶ m/s. Compare the two results.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content"><strong>(a)</strong> E = hc/λ = 1240/500 = 2.48 eV — a visible-light photon, right in the range your eye can detect.<br><br>
+      <strong>(b)</strong> First find momentum: p = mv = (9.11×10⁻³¹)(1.0×10⁶) = 9.11×10⁻²⁵ kg·m/s. Then λ = h/p = (6.63×10⁻³⁴)/(9.11×10⁻²⁵) ≈ <strong>7.3×10⁻¹⁰ m</strong> (0.73 nm).<br><br>
+      Notice what this comparison actually shows: the photon's wavelength (500 nm) and the electron's wavelength (0.73 nm) are both perfectly well-defined numbers, computed from completely different starting equations — E = hc/λ for the photon (built from its wave nature) and λ = h/p for the electron (built from its particle nature, its momentum). That's wave-particle duality in numbers rather than words: the "particle" (electron) has a wavelength, and the "wave" (photon) has a particle-like energy, both describable with the tools from the opposite picture.</div>
+    </details>
+  </div>
+
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Wave-particle duality does NOT mean a photon or electron is "sometimes a wave and sometimes a particle" as if it randomly switches identity. It means every quantum object has both wave-like and particle-like properties AT ALL TIMES — which behavior shows up in a given measurement depends on what you're measuring, not on the object changing what it fundamentally is. Avoid language like "the electron turns into a wave" on an FRQ; describe it instead as exhibiting wave-like behavior in that particular experiment.</p>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s152"><span class="num">15.2</span>The Bohr Model of Atomic Structure</h2>
@@ -1726,6 +2191,32 @@ const STUDY_CONTENT = {
     <p>Hotter objects radiate more total energy AND shift their peak emission toward SHORTER wavelengths — higher frequency, higher energy. This is exactly why a metal rod glows dull red when moderately hot, but shifts toward white-hot as its temperature climbs further — the peak of its emission is physically shifting toward shorter, higher-energy wavelengths as it heats up.</p>
   </div>
 
+  <div class="trap">
+    <span class="tag-label trap">Watch Out For This</span>
+    <p>Don't confuse "hotter objects radiate more total energy" with "hotter objects radiate ONLY shorter wavelengths." A hot object still radiates across the entire spectrum — it's the PEAK that shifts shorter, not the whole curve narrowing down to just one color. A white-hot object is emitting plenty of red and infrared too; it's just that the blue/violet end has caught up and the overall balance has shifted, which combined with more total emission is what your eye reads as "white" rather than "red."</p>
+  </div>
+<div class="diagram">
+<svg width="500" height="320" viewBox="0 0 500 320" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="270" x2="470" y2="270" stroke="#333" stroke-width="2"/>
+  <line x1="50" y1="270" x2="50" y2="30" stroke="#333" stroke-width="2"/>
+  <text x="395" y="292" font-size="13" fill="#333">wavelength</text>
+  <text x="10" y="35" font-size="13" fill="#333">intensity</text>
+
+  <path d="M 70 268 Q 130 260 160 230 Q 200 150 260 268" fill="none" stroke="#3f6ae0" stroke-width="2.5"/>
+  <text x="70" y="245" font-size="11" fill="#3f6ae0">cooler (T₁)</text>
+
+  <path d="M 70 268 Q 110 240 140 150 Q 170 60 260 268" fill="none" stroke="#9a3fae" stroke-width="2.5"/>
+  <text x="90" y="80" font-size="11" fill="#9a3fae">hotter (T₂ &gt; T₁)</text>
+
+  <line x1="160" y1="270" x2="160" y2="230" stroke="#3f6ae0" stroke-width="1" stroke-dasharray="3,3"/>
+  <line x1="140" y1="270" x2="140" y2="150" stroke="#9a3fae" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="105" y="290" font-size="10" fill="#555">peak₂</text>
+  <text x="145" y="290" font-size="10" fill="#555">peak₁</text>
+</svg>
+<p class="diagram-caption">Blackbody radiation curves at two temperatures: the hotter object (T₂) radiates more total energy (larger area under its curve) AND its peak shifts to a shorter wavelength — it does not simply scale up the same curve, and it never stops emitting at longer wavelengths either.</p>
+</div>
+
+
   <div class="divider">· · ·</div>
 
   <h2 id="s155"><span class="num">15.5</span>The Photoelectric Effect</h2>
@@ -1753,6 +2244,14 @@ const STUDY_CONTENT = {
     <p>Compton scattering provides direct evidence that photons carry real momentum, not just energy. Treating the photon-electron interaction exactly like a genuine two-particle collision — complete with conservation of both momentum and energy — is what makes the wavelength shift come out correctly. This is further, independent confirmation of light's particle-like behavior, building directly on the photoelectric effect's evidence from a completely different angle.</p>
   </div>
 
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Photon Momentum.</strong> Find the momentum of a photon with wavelength 400 nm, and compare it to the momentum of an electron moving at 1000 m/s.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">Rearranging the de Broglie relation (which applies to photons too, not just matter): p = h/λ = (6.63×10⁻³⁴)/(400×10⁻⁹) ≈ 1.66×10⁻²⁷ kg·m/s. For the electron: p = mv = (9.11×10⁻³¹)(1000) ≈ 9.11×10⁻²⁸ kg·m/s. The photon's momentum is roughly 1.8 times larger, despite the photon having zero rest mass — a good reminder that p = h/λ works for any quantum object with a wavelength, photon or matter, without ever needing to plug in a mass for the photon term.</div>
+    </details>
+  </div>
+
   <div class="divider">· · ·</div>
 
   <h2 id="s157"><span class="num">15.7</span>Fission, Fusion, and Nuclear Decay</h2>
@@ -1761,6 +2260,14 @@ const STUDY_CONTENT = {
   <div class="heylook">
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Mass defect — the idea that ties fission AND fusion together</div>
     <p>The total mass of a nucleus's separate parts — protons and neutrons individually — is always slightly MORE than the mass of the assembled nucleus itself. That missing mass, called the mass defect, was converted into the binding energy that holds the nucleus together, via E = mc². Here's the part that surprises people: fission (splitting heavy nuclei) and fusion (combining light nuclei) BOTH release energy, for the exact same underlying reason — in each case, the resulting nuclei end up more tightly bound, with lower total mass, than the starting materials. The "lost" mass becomes released energy either way, whether you're splitting apart or combining.</p>
+  </div>
+
+  <div class="worked">
+    <span class="tag-label example">Worked Example 1</span>
+    <p><strong>Energy from a Mass Defect.</strong> In a nuclear reaction, the total mass of the products is 0.00186 kg less than the total mass of the reactants. Find the energy released.</p>
+    <details class="solution"><summary></summary>
+      <div class="sol-content">The missing mass converts directly to energy via E = mc²: E = (0.00186)(3.0×10⁸)² = (0.00186)(9.0×10¹⁶) ≈ <strong>1.67×10¹⁴ J</strong>. To put that in perspective, this comes from less than 2 grams of "missing" mass — comparable to burning many thousands of tons of coal, from mass that simply isn't there anymore in the products. This is the whole reason nuclear reactions release such disproportionately large amounts of energy compared to chemical reactions: chemical reactions rearrange electron bonds without any measurable mass changing into energy, while nuclear reactions convert a small but very real sliver of actual mass directly into energy through c², an enormous conversion factor.</div>
+    </details>
   </div>
 
   <div class="divider">· · ·</div>
@@ -1797,6 +2304,22 @@ const STUDY_CONTENT = {
       <li>Use E = mc² and the concept of mass defect for fission/fusion energy release.</li>
       <li>Balance mass number and atomic number across all four types of radioactive decay.</li>
     </ul>
+  </div>
+
+  <div class="formula-summary">
+    <span class="tag-label recap">Unit 15 Formula Summary</span>
+    <table class="formula-table">
+      <tr><th>Concept</th><th>Formula</th></tr>
+      <tr><td>Photon energy</td><td>E = hf = hc/λ &nbsp;(hc = 1240 eV·nm)</td></tr>
+      <tr><td>de Broglie wavelength</td><td>λ = h/p &nbsp;(applies to matter and photons)</td></tr>
+      <tr><td>Photon energy from a transition</td><td>E<sub>photon</sub> = |E<sub>final</sub> − E<sub>initial</sub>|</td></tr>
+      <tr><td>Photoelectric effect</td><td>K<sub>max</sub> = hf − φ</td></tr>
+      <tr><td>Mass-energy equivalence</td><td>E = mc²</td></tr>
+      <tr><td>Alpha decay</td><td>mass number −4, atomic number −2</td></tr>
+      <tr><td>Beta-minus decay</td><td>mass number unchanged, atomic number +1</td></tr>
+      <tr><td>Beta-plus decay</td><td>mass number unchanged, atomic number −1</td></tr>
+      <tr><td>Gamma decay</td><td>mass number and atomic number both unchanged</td></tr>
+    </table>
   </div>
 
   <h2 id="practice"><span class="num">📘</span>Unit 15 Practice Set</h2>
