@@ -4094,10 +4094,10 @@ const QUESTIONS = {
         "2",
         "2.83",
         "4",
-        "2^2"
+        "5.66"
       ],
-      "correct": 1,
-      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both: factor = 2^1.5 × 2^0.5 = 2^(1.5+0.5) = 2^2.0 = 4... rechecking exponent arithmetic: 1.5 + 0.5 = 2.0, so the factor is 2² = 4, not 2.83. Reworking: 2^1.5 ≈ 2.828 and 2^0.5 ≈ 1.414, and 2.828 × 1.414 ≈ 4.00, confirming the factor is indeed 4 — matching answer choice (c), demonstrating that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) are handled with the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
+      "correct": 2,
+      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2^1.5 × 2^0.5 = 2^(1.5+0.5) = 2² = 4. Note that 2^1.5 ≈ 2.83 alone only accounts for doubling [A] — doubling [B] contributes an additional factor of 2^0.5 ≈ 1.41, and 2.83 × 1.41 ≈ 4, confirming the combined factor is 4. This shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
       "stretch": true
     },
     {
@@ -6344,10 +6344,10 @@ const QUESTIONS = {
         "Adding an inert (non-reacting) gas at constant volume",
         "Adding more of a reactant",
         "Increasing temperature",
-        "Adding more of a reactant is correct, along with removing a product and changing volume/pressure — all of these shift the equilibrium position but leave K unchanged"
+        "Adding a catalyst to speed up the reaction"
       ],
-      "correct": 3,
-      "explanation": "K is a function of temperature ONLY — concentration changes (adding/removing reactant or product) and pressure/volume changes shift the equilibrium POSITION (the specific concentrations present at the new equilibrium) but do not change the actual numerical value of K itself; only a temperature change actually alters K. (Note: adding an inert gas at CONSTANT volume also has no effect on equilibrium position at all, since it doesn't change any actual reacting species' concentrations or partial pressures.)"
+      "correct": 1,
+      "explanation": "K is a function of temperature ONLY. Adding more of a reactant enlarges the denominator of Q, pushing Q below K, so the equilibrium shifts forward to consume the added reactant and restore Q = K — the position moves, but K itself is unchanged. Adding an inert gas at constant volume changes neither the position nor K, since it doesn't alter any reacting species' concentration or partial pressure. Increasing temperature actually does change the value of K itself (that's the one change that alters K, not just position). Adding a catalyst changes neither K nor the position — it speeds up the forward and reverse reactions equally, so equilibrium is reached faster but at the same concentrations."
     },
     {
       "id": "7-56",
@@ -6608,8 +6608,8 @@ const QUESTIONS = {
         "2.30",
         "11.70"
       ],
-      "correct": 1,
-      "explanation": "Ba(OH)₂ provides 2 OH⁻ per formula unit: [OH⁻] = 2 × 0.00250 = 0.00500 M. pOH = −log(0.00500) = 2.30. pH = 14.00 − 2.30 = 11.70."
+      "correct": 3,
+      "explanation": "Ba(OH)₂ provides 2 OH⁻ per formula unit: [OH⁻] = 2 × 0.00250 = 0.00500 M. pOH = −log(0.00500) = 2.30. pH = 14.00 − 2.30 = 11.70. (11.40 is a common wrong answer from forgetting the factor of 2 from Ba(OH)₂'s two OH⁻ ions and instead using [OH⁻] = 0.00250 M directly, which gives pOH = 2.60 and pH = 11.40.)"
     },
     {
       "id": "8-11",
@@ -7662,13 +7662,13 @@ const QUESTIONS = {
       "topic": "9.5 Free Energy and Equilibrium",
       "stem": "A reaction has ΔG° = −25.0 kJ/mol at 298 K. Calculate K.",
       "choices": [
-        "2.96 × 10⁴",
+        "2.41 × 10⁴",
         "8.4 × 10⁻⁵",
         "−25.0",
         "1.01 × 10⁻⁴"
       ],
       "correct": 0,
-      "explanation": "Rearranging ΔG° = −RTlnK: lnK = −ΔG°/(RT) = −(−25,000)/[(8.314)(298)] = 25,000/2477.6 = 10.09. K = e^10.09 = 2.96 × 10⁴."
+      "explanation": "Rearranging ΔG° = −RTlnK: lnK = −ΔG°/(RT) = −(−25,000)/[(8.314)(298)] = 25,000/2477.6 = 10.09. K = e^10.09 = 2.41 × 10⁴."
     },
     {
       "id": "9-27",
