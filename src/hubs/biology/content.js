@@ -26,7 +26,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 8–11%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -199,7 +199,7 @@ const STUDY_CONTENT = {
     <ul>
       <li>Explain why carbon's four bonding sites make it uniquely suited to building complex biological molecules.</li>
       <li>Given a functional group, identify whether it makes a region of a molecule polar/nonpolar, acidic/basic.</li>
-      <li>Recognize each functional group by its structure in a diagram.</li>
+      <li>Recognize each functional group by its structural formula (e.g., –OH, –COOH, –NH2) when it appears in a larger molecule.</li>
     </ul>
   </div>
 
@@ -333,7 +333,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 10–13%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -467,7 +467,7 @@ const STUDY_CONTENT = {
   </table>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u2-fluid-mosaic-integral-proteins.png" alt="A phospholipid bilayer diagram with channel protein and carrier protein explicitly bracketed together as integral proteins, alongside a peripheral protein attached to the inner surface and a glycoprotein on the outer surface bound to cholesterol. An inset labels the phospholipid's phosphate head as polar/hydrophilic and its fatty acid tails as non-polar/hydrophobic." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <img src="/images/diagrams/biology/diagram-u2-fluid-mosaic-integral-proteins.png" alt="A phospholipid bilayer diagram with channel protein and carrier protein explicitly bracketed together as integral proteins, alongside a peripheral protein attached to the inner surface, a glycoprotein on the outer surface, and cholesterol molecules wedged among the fatty acid tails nearby. An inset labels the phospholipid's phosphate head as polar/hydrophilic and its fatty acid tails as non-polar/hydrophobic." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
     <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Worth remembering this exact grouping: channel proteins and carrier proteins are both integral proteins — a detail that becomes directly relevant in Section 2.4, where you'll use both of these specific protein types to explain facilitated diffusion.</p>
   </div>
 
@@ -594,8 +594,8 @@ const STUDY_CONTENT = {
   </div>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u2-endosymbiosis-evidence-panel.png" alt="A diagram of a mitochondrion, a chloroplast, and a modern prokaryote highlighting the four lines of evidence for endosymbiotic origin: their own non-nuclear circular DNA (plasmid), ribosomes similar in size to present-day prokaryote ribosomes, a double membrane (two lipid bilayers), and reproduction by binary fission." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
-    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Matching this image's labels to the four lines of evidence above: the DNA loop inside the mitochondrion and chloroplast is their own circular <strong>plasmid</strong>-like DNA; the dots lining the chloroplast are <strong>ribosomes</strong> sized like a prokaryote's; both organelles are wrapped in a visible <strong>double membrane</strong>; and both reproduce independently by <strong>binary fission</strong>, just like the modern prokaryote shown alongside them.</p>
+    <img src="/images/diagrams/biology/diagram-u2-endosymbiosis-evidence-panel.png" alt="A diagram of a mitochondrion, a chloroplast, and a modern prokaryote highlighting the four lines of evidence for endosymbiotic origin: their own non-nuclear circular DNA (resembling a bacterial chromosome), ribosomes similar in size to present-day prokaryote ribosomes, a double membrane (two lipid bilayers), and reproduction by binary fission." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Matching this image's labels to the four lines of evidence above: the DNA loop inside the mitochondrion and chloroplast is their own circular, <strong>bacterial-chromosome</strong>-like DNA; the dots lining the chloroplast are <strong>ribosomes</strong> sized like a prokaryote's; both organelles are wrapped in a visible <strong>double membrane</strong>; and both reproduce independently by <strong>binary fission</strong>, just like the modern prokaryote shown alongside them.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -1443,13 +1443,13 @@ const QUESTIONS = {
       topic: "1.5 Proteins and Nucleic Acids",
       stem: "A short DNA strand has the sequence 5'-GCTACG-3'. What is the sequence of its complementary strand, written 5' to 3'?",
       choices: [
-        "5'-CGATGC-3'",
+        "5'-CGTAGC-3'",
         "5'-GCTACG-3'",
         "3'-CGATGC-5'",
         "5'-TAGCGT-3'"
       ],
       correct: 0,
-      explanation: "Base pairing rules: G pairs with C, and A pairs with T. Reading the original 5'-GCTACG-3' and pairing each base gives 3'-CGATGC-5' when aligned antiparallel to the original — which, when re-written in the standard 5' to 3' direction (reading it from the other end), is 5'-CGATGC-3'. Remember: the complementary strand runs antiparallel, so you have to pair the bases in reverse order to write it correctly in the 5' to 3' direction."
+      explanation: "Base pairing rules: G pairs with C, and A pairs with T. Aligning the original strand antiparallel to its partner and pairing each base gives 3'-CGATGC-5'. That correctly shows the base pairing, but it's labeled 3' to 5' — to express the same complementary strand in the standard 5' to 3' direction, you have to reverse the order of the letters (not just relabel the ends), giving 5'-CGTAGC-3'. Remember: the complementary strand runs antiparallel, so converting between orientations means reversing the sequence, not just swapping the end labels."
     },
     {
       id: "1-63",
@@ -1810,15 +1810,15 @@ const QUESTIONS = {
     {
       id: "2-25",
       topic: "2.2 Cell Size and SA:V",
-      stem: "A researcher compares metabolic rate per gram of tissue in a small mammal versus a large mammal of similar body plan. Based on SA:V principles at the level of individual cells and tissues, which trend would be a reasonable prediction?",
+      stem: "A researcher compares metabolic rate per gram of tissue in a small mammal versus a large mammal of similar body plan. Based on SA:V principles applied to the whole organism's surface area relative to its body mass, which trend would be a reasonable prediction?",
       choices: [
         "Smaller mammals should have a lower metabolic rate per gram of tissue than larger mammals",
-        "Smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, partly reflecting the more favorable SA:V relationships supporting more efficient exchange at smaller scales",
+        "Smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, partly reflecting the more favorable body-surface-to-mass ratio that increases relative heat loss and exchange at smaller scales",
         "Metabolic rate per gram should be identical regardless of body size",
         "SA:V ratio has no bearing on whole-organism metabolic rate"
       ],
       correct: 1,
-      explanation: "This extends the cellular SA:V principle to a whole-organism scale, which is a real and well-documented biological pattern: smaller animals do generally have a higher metabolic rate per gram of body mass than larger animals, and favorable surface-area-to-volume relationships (supporting more efficient exchange and greater relative heat loss, requiring a higher metabolic rate to compensate) are part of the underlying explanation."
+      explanation: "This is a real and well-documented biological pattern: smaller animals generally have a higher metabolic rate per gram of body mass than larger animals. The explanation is a whole-organism SA:V effect, not a cellular one — individual cell size is roughly constant across mammal species, so it's the organism's own surface area (skin, relative to its body mass/volume) that scales unfavorably as body size increases. A smaller body has more surface area per gram, loses relatively more heat, and needs a higher mass-specific metabolic rate to compensate."
     },
     {
       id: "2-26",
@@ -2137,12 +2137,12 @@ const QUESTIONS = {
     {
       id: "2-50",
       topic: "2.4 Passive Transport",
-      stem: "Which of the following correctly ranks these substances from most to least able to cross a plasma membrane by simple diffusion?",
+      stem: "Which of the following correctly ranks O2 gas, water, and glucose from most to least able to cross a plasma membrane by simple diffusion?",
       choices: [
-        "Na⁺ ion > glucose > O2 gas",
+        "Na⁺ ion > O2 gas > glucose",
         "O2 gas > water > glucose",
-        "Glucose > Na⁺ ion > O2 gas",
-        "Water > glucose > O2 gas"
+        "Glucose > water > O2 gas",
+        "Water > O2 gas > glucose"
       ],
       correct: 1,
       explanation: "Small nonpolar gases like O2 cross most easily by simple diffusion, followed by small polar molecules like water (which cross more slowly but still directly), while larger or charged/polar molecules like glucose require transport proteins and essentially cannot cross by simple diffusion at all — placing them at the bottom of this ranking."
@@ -2400,7 +2400,7 @@ const FRQ_CONTENT = {
       id: "frq-1-2",
       source: "Original",
       title: "Macromolecule Structure and Function — Comparing Polysaccharides",
-      prompt: "A biochemist isolates three polysaccharide samples — Sample A, B, and C — all confirmed by mass spectrometry to be built entirely from glucose monomers. Sample A is highly branched and rapidly broken down by human digestive enzymes. Sample B is also branched and rapidly digestible, but has a higher average molecular weight and is isolated exclusively from animal liver tissue. Sample C forms rigid, insoluble fibers and is completely resistant to human digestive enzymes.",
+      prompt: "A biochemist isolates three polysaccharide samples — Sample A, B, and C — all confirmed by mass spectrometry to be built entirely from glucose monomers. Sample A is branched and rapidly broken down by human digestive enzymes. Sample B is even more highly branched and rapidly digestible, and has a higher average molecular weight and is isolated exclusively from animal liver tissue. Sample C forms rigid, insoluble fibers and is completely resistant to human digestive enzymes.",
       parts: [
         {
           label: "(a)",
@@ -2616,12 +2616,12 @@ const FRQ_CONTENT = {
         },
         {
           label: "(c)",
-          ask: "The researchers then observe a second protein that also moves X⁺ into the cell, but this time against its concentration gradient, and ATP is consumed during this process. Predict how this second protein's mechanism differs from the first, and explain the energetic basis for this difference.",
+          ask: "The researchers then observe a second protein that moves X⁺ out of the cell, but this time against its concentration gradient, and ATP is consumed during this process. Predict how this second protein's mechanism differs from the first, and explain the energetic basis for this difference.",
           steps: [
-            "The second protein represents active transport, since X⁺ is being moved against its concentration gradient (low to high concentration).",
+            "The second protein represents active transport, since X⁺ is being moved against its concentration gradient — out of the cell, from lower internal concentration to higher external concentration.",
             "Moving a substance against its gradient is energetically unfavorable, unlike the first (passive) case, so this process requires an external energy input.",
             "ATP hydrolysis provides that energy, allowing the protein to do the work needed to move X⁺ against the concentration gradient it would otherwise passively follow.",
-            "Full credit requires explicitly contrasting this mechanism with the first protein's (passive, no ATP, down-gradient) and explaining the underlying energetic reason ATP becomes necessary specifically when movement opposes the gradient."
+            "Full credit requires explicitly contrasting this mechanism with the first protein's (passive, no ATP, down-gradient, moving into the cell) and explaining the underlying energetic reason ATP becomes necessary specifically when movement opposes the gradient."
           ]
         }
       ]
@@ -2781,7 +2781,7 @@ STUDY_CONTENT[3] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 12–16%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -3014,7 +3014,7 @@ STUDY_CONTENT[3] = `<div class="hero">
   <p>What happens when oxygen isn't available? Without O2 to accept electrons at the end of the electron transport chain, the chain backs up and stops, which means the Krebs cycle and pyruvate oxidation stall too (they depend on NAD+ and FAD being regenerated by the ETC, and without the chain running, those carriers stay "full" as NADH/FADH2 with nowhere to unload). Only glycolysis, which doesn't require oxygen at all, can continue — but glycolysis itself depends on a steady supply of NAD+ to keep running.</p>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u3-fermentation-pathway.png" alt="Flowchart showing glucose entering glycolysis to produce pyruvate, which then splits into two paths: fermentation (without oxygen, producing lactic acid or ethanol) or the Krebs cycle and electron transport (with oxygen, producing CO2, water, and 34-36 ATP)." style="width:100%; max-width:340px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <img src="/images/diagrams/biology/diagram-u3-fermentation-pathway.png" alt="Flowchart showing glucose entering glycolysis to produce pyruvate, which then splits into two paths: fermentation (without oxygen, producing lactic acid or ethanol) or the Krebs cycle and electron transport (with oxygen, producing CO2, water, and a large net yield of ATP)." style="width:100%; max-width:340px; height:auto; display:block; margin:0 auto; border-radius:8px;">
     <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The fork in the road: every glucose molecule goes through glycolysis first, no matter what — it's only AFTER that point that the path splits depending on whether oxygen is available.</p>
   </div>
 
@@ -3532,7 +3532,7 @@ QUESTIONS[3] = [
       stem: "Which of the following correctly ranks the four stages of aerobic respiration by approximate ATP yield, from least to most ATP directly produced?",
       choices: [
         "Electron transport chain < Krebs cycle < glycolysis < pyruvate oxidation",
-        "Pyruvate oxidation ≈ Krebs cycle < glycolysis < electron transport chain",
+        "Pyruvate oxidation < glycolysis ≈ Krebs cycle < electron transport chain",
         "Glycolysis < electron transport chain < Krebs cycle < pyruvate oxidation",
         "All four stages produce approximately equal amounts of ATP"
       ],
@@ -3965,10 +3965,10 @@ FRQ_CONTENT[3] = [
           label: "(c)",
           ask: "Predict how the presence of this same noncompetitive inhibitor would affect the enzyme's activity at its optimal temperature versus at a temperature well above its optimum. Justify your prediction.",
           steps: [
-            "Prediction: the inhibitor's suppressive effect on activity would be present at both temperatures, but the enzyme's absolute activity level would be further reduced at the elevated temperature, compounding the inhibitor's effect.",
-            "Justification: the inhibitor reduces activity through a distinct mechanism (conformational change at an allosteric site) from heat denaturation (disruption of weak interactions maintaining tertiary structure generally).",
-            "At elevated temperature, both factors — the inhibitor's structural effect and heat-driven disruption of the enzyme's overall structure — would act simultaneously, likely producing an even greater reduction in activity than either factor alone.",
-            "Full credit requires recognizing that these are two independent, compounding mechanisms of disruption, rather than treating temperature and inhibitor effects as unrelated or mutually exclusive."
+            "Prediction: the inhibitor's suppressive effect operates through a distinct mechanism from heat, but at a temperature well above optimum, activity is already sharply reduced by denaturation — so the inhibitor's additional effect becomes difficult to detect or measure once activity is already near zero from heat alone.",
+            "Justification: the inhibitor reduces activity through a distinct mechanism (conformational change at an allosteric site) from heat denaturation (disruption of weak interactions maintaining tertiary structure generally), so the two act independently rather than through the same pathway.",
+            "At the optimal temperature, the inhibitor's effect is clearly measurable against a high baseline activity. At a temperature well above optimum, activity from heat alone is likely already near the floor of zero, leaving little room for the inhibitor's effect to produce a further observable reduction.",
+            "Full credit requires recognizing that the inhibitor and heat act through two independent mechanisms of disruption AND recognizing the floor effect — that once denaturation has already abolished most activity, the inhibitor's additional contribution becomes negligible/unmeasurable rather than simply 'adding up' to an even greater reduction."
           ]
         }
       ]
@@ -4105,9 +4105,9 @@ FRQ_CONTENT[3] = [
           ask: "Explain why lactic acid fermentation, despite regenerating NAD+ and allowing continued ATP production via glycolysis, cannot fully replace aerobic respiration as a sustainable energy source during prolonged intense exercise.",
           steps: [
             "Fermentation itself produces no additional ATP beyond what glycolysis alone generates; it merely allows glycolysis to keep running by regenerating NAD+.",
-            "Glycolysis's ATP yield per glucose molecule is far smaller than the total ATP yield of the complete aerobic pathway (glycolysis + pyruvate oxidation + Krebs cycle + electron transport chain/chemiosmosis).",
+            "Glycolysis nets only about 2 ATP per glucose molecule directly, versus a much larger total yield (roughly 15 times more) from the complete aerobic pathway (glycolysis + pyruvate oxidation + Krebs cycle + electron transport chain/chemiosmosis), which harvests far more energy from the same glucose molecule.",
             "Because fermentation-supported glycolysis alone produces so much less ATP per glucose molecule than full aerobic respiration, it cannot sustainably meet the much higher energy demands of prolonged intense exercise, making it useful only as a short-term supplement, not a long-term substitute.",
-            "Full credit requires quantitatively contrasting the ATP yield of glycolysis/fermentation versus the full aerobic pathway, not just stating that fermentation is 'less efficient' without explaining why that limits sustainability."
+            "Full credit requires contrasting the ATP yield of glycolysis/fermentation versus the full aerobic pathway with an actual magnitude (e.g., ~2 ATP vs. a much larger aerobic total), not just stating that fermentation is 'less efficient' without explaining why that limits sustainability."
           ]
         },
         {
@@ -4167,7 +4167,7 @@ STUDY_CONTENT[4] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -4287,7 +4287,7 @@ STUDY_CONTENT[4] = `<div class="hero">
   <p>During mitosis, chromosomes condense and become visible (prophase), align at the cell's center (metaphase), sister chromatids separate and are pulled to opposite poles (anaphase), and two new nuclei form (telophase) — followed by cytokinesis, physically dividing the cytoplasm into two separate daughter cells, each genetically identical to the original.</p>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u4-mitosis-phase-reference-table.png" alt="A reference table matching each mitotic phase to a labeled cell image and description: prophase (chromosomes condense as spindle fibers stretch across the cell), metaphase (chromosomes line up at the cell's middle and attach to spindle fibers), anaphase (spindle fibers pull chromosome pairs apart toward each end), telophase (nuclear membrane reappears and the cell pinches apart), and cytokinesis (two new daughter cells are present)." style="width:100%; max-width:500px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <img src="/images/diagrams/biology/diagram-u4-mitosis-phase-reference-table.png" alt="A reference table matching each mitotic phase to a labeled cell image and description: prophase (chromosomes condense as spindle fibers stretch across the cell), metaphase (chromosomes line up at the cell's middle and attach to spindle fibers), anaphase (spindle fibers pull the sister chromatids of each chromosome apart toward opposite poles), telophase (nuclear membranes reappear around each set of chromosomes, which decondense), and cytokinesis (the cell pinches apart, producing two new daughter cells)." style="width:100%; max-width:500px; height:auto; display:block; margin:0 auto; border-radius:8px;">
     <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">A quick-reference version of the same five stages — useful for a last pass before a quiz, once the mechanism above already makes sense.</p>
   </div>
 
@@ -4310,7 +4310,7 @@ STUDY_CONTENT[4] = `<div class="hero">
   <p>Cell division is far too important — and far too dangerous if done incorrectly — to happen unsupervised. The cell cycle includes several <strong>checkpoints</strong>, points at which the cell evaluates internal and external conditions before committing to continue through the cycle.</p>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u4-cell-cycle-checkpoints-wheel.png" alt="A wheel diagram of the cell cycle showing interphase (G1, S, G2) and the mitotic phase (mitosis and cytokinesis), with three checkpoints marked in red: the G1 checkpoint at the G1-to-S boundary, the G2 checkpoint at the G2-to-M boundary, and the M checkpoint within the mitotic phase before cytokinesis. G0, a resting state cells can exit into from G1, is also shown." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <img src="/images/diagrams/biology/diagram-u4-cell-cycle-checkpoints-wheel.png" alt="A wheel diagram of the cell cycle showing interphase (G1, S, G2) and the mitotic phase (mitosis and cytokinesis), with three checkpoints marked in red: the G1 checkpoint at the G1-to-S boundary, the G2 checkpoint at the G2-to-M boundary, and the M checkpoint at the metaphase-to-anaphase transition, checking that all chromosomes are properly attached to spindle fibers before anaphase begins. G0, a resting state cells can exit into from G1, is also shown." style="width:100%; max-width:480px; height:auto; display:block; margin:0 auto; border-radius:8px;">
     <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">All three checkpoints sit at a transition — G1 checkpoint gates entry into S, G2 checkpoint gates entry into M, and the M checkpoint gates the final step of division itself. G0 (top right) is where a cell can permanently exit the cycle instead of continuing.</p>
   </div>
 
@@ -4361,7 +4361,7 @@ STUDY_CONTENT[4] = `<div class="hero">
 
   <div class="heylook">
     <div class="heylook-label"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.5.4.9 1 1 1.7l.1.9h5l.1-.9c.1-.7.5-1.3 1-1.7A6 6 0 0 0 12 3z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>Connecting the whole unit together</div>
-    <p>Cancer usually requires MULTIPLE mutations accumulating in the same cell lineage over time — a mutation in a proto-oncogene alone often isn't enough, because tumor suppressor genes and checkpoints would normally catch the resulting problem and trigger repair or apoptosis. Cancer typically develops when both a "gas pedal stuck down" mutation (oncogene) AND a "brakes fail" mutation (tumor suppressor loss) occur together, disabling both the abnormal drive to divide AND the safety systems that would normally stop it.</p>
+    <p>Cancer usually requires MULTIPLE mutations accumulating in the same cell lineage over time — a mutation in a proto-oncogene alone often isn't enough, because tumor suppressor genes and checkpoints would normally catch the resulting problem and trigger repair or apoptosis. Cancer typically develops when both a "gas pedal stuck down" mutation (oncogene) AND a "brakes fail" mutation (tumor suppressor loss) occur together — the oncogene mutation switches ON the abnormal drive to divide, while the tumor suppressor mutation disables the safety systems that would normally stop it.</p>
   </div>
 
   <div class="trap">
@@ -4815,7 +4815,7 @@ QUESTIONS[4] = [
       topic: "4.5 Cancer and Cell Cycle Dysregulation",
       stem: "A tumor cell shows continuous activation of a growth-signaling pathway, even in the complete absence of external growth factor ligand. Which mutation type would most plausibly explain this?",
       choices: [
-        "A loss-of-function mutation in a tumor suppressor gene exclusively",
+        "A loss-of-function mutation in a DNA mismatch repair gene, unrelated to the growth-signaling pathway itself",
         "A gain-of-function mutation somewhere in the growth-signaling pathway (such as in a receptor or G protein) that locks the pathway in an active state independent of ligand binding",
         "A mutation with no relationship to signaling pathways",
         "Complete deletion of the entire signaling pathway"
@@ -5447,7 +5447,7 @@ STUDY_CONTENT[5] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 8–11%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -5530,14 +5530,14 @@ STUDY_CONTENT[5] = `<div class="hero">
     <span class="tag-label example">Worked Example 2</span>
     <p>Two pea plants, both heterozygous for seed shape (Rr, round dominant) and heterozygous for seed color (Yy, yellow dominant), are crossed. What is the probability of offspring that are round AND yellow?</p>
     <details class="solution"><summary>Show the reasoning</summary>
-      <div class="sol-content">Treat each gene separately using the product rule. For seed shape, Rr × Rr produces a 3:4 (75%) chance of round (RR or Rr) and 1:4 (25%) chance of wrinkled (rr). For seed color, Yy × Yy produces a 3:4 (75%) chance of yellow and 1:4 (25%) chance of green. Since these are two independent genes (independent assortment), multiply the individual probabilities: 3/4 (round) × 3/4 (yellow) = 9/16 probability of round AND yellow offspring. This is exactly what a full 16-box dihybrid Punnett square would also show, but the calculation is much faster.</div>
+      <div class="sol-content">Treat each gene separately using the product rule. For seed shape, Rr × Rr produces a 3/4 (75%) chance of round (RR or Rr) and 1/4 (25%) chance of wrinkled (rr). For seed color, Yy × Yy produces a 3/4 (75%) chance of yellow and 1/4 (25%) chance of green. Since these are two independent genes (independent assortment), multiply the individual probabilities: 3/4 (round) × 3/4 (yellow) = 9/16 probability of round AND yellow offspring. This is exactly what a full 16-box dihybrid Punnett square would also show, but the calculation is much faster.</div>
     </details>
   </div>
 
   <h3>Quick Check</h3>
   <div class="practice-item"><span class="qnum-badge">Q</span><span>A pea plant heterozygous for two genes (RrYy) is crossed with a plant that is homozygous recessive for both genes (rryy) — a testcross. What proportion of offspring would be expected to show BOTH recessive phenotypes?</span></div>
   <div class="answer-key">
-    <details><summary>Check your answer</summary><div class="a-content">For each gene individually, Rr × rr produces a 1:2 (50%) chance of the recessive phenotype (rr), and the same is true for Yy × yy (50% chance of yy). Using the product rule for these two independent genes: 1/2 × 1/2 = 1/4, or 25%, probability of offspring showing both recessive phenotypes (rryy). Testcrosses like this one are specifically useful for determining an unknown genotype, since the homozygous recessive parent can only contribute recessive alleles, revealing exactly what alleles the other parent is passing on.</div></details>
+    <details><summary>Check your answer</summary><div class="a-content">For each gene individually, Rr × rr produces a 1/2 (50%) chance of the recessive phenotype (rr), and the same is true for Yy × yy (50% chance of yy). Using the product rule for these two independent genes: 1/2 × 1/2 = 1/4, or 25%, probability of offspring showing both recessive phenotypes (rryy). Testcrosses like this one are specifically useful for determining an unknown genotype, since the homozygous recessive parent can only contribute recessive alleles, revealing exactly what alleles the other parent is passing on.</div></details>
   </div>
 
   <div class="recap">
@@ -6741,7 +6741,7 @@ STUDY_CONTENT[6] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 12–16%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -6776,6 +6776,7 @@ STUDY_CONTENT[6] = `<div class="hero">
     <thead><tr><th>Enzyme/Component</th><th>Function</th></tr></thead>
     <tbody>
       <tr><td>Helicase</td><td>Unwinds and separates the double helix, breaking hydrogen bonds between base pairs</td></tr>
+      <tr><td>Topoisomerase</td><td>Relieves the torsional strain (supercoiling) that builds up ahead of the replication fork as helicase unwinds the helix, by cutting and rejoining the DNA strand</td></tr>
       <tr><td>Single-strand binding proteins</td><td>Stabilize separated single strands, preventing them from re-annealing</td></tr>
       <tr><td>Primase</td><td>Synthesizes a short RNA primer, providing a starting point for DNA polymerase</td></tr>
       <tr><td>DNA polymerase</td><td>Synthesizes new DNA strand by adding complementary nucleotides, reading the template 3' to 5' and building the new strand 5' to 3'</td></tr>
@@ -6967,12 +6968,17 @@ STUDY_CONTENT[6] = `<div class="hero">
     <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">This is the operon's resting state — lacI's protein product (the repressor) sits directly on the operator, and its shape physically blocks RNA polymerase from ever reaching the promoter. Picture lactose showing up and binding that repressor, changing its shape so it releases the operator — that's the entire "on switch" for this pathway.</p>
   </div>
 
+  <div class="key-idea">
+    <span class="tag-label idea">Key Idea</span>
+    <p>Removing the repressor isn't the whole story — the lac operon is also <strong>positively</strong> regulated based on glucose availability, a phenomenon called <strong>catabolite repression</strong>. Glucose is the cell's preferred, more efficiently metabolized energy source, so the cell only wants to fully commit to lactose metabolism when glucose is scarce. When glucose is low, a molecule called cAMP accumulates and binds an activator protein called <strong>CAP</strong> (catabolite activator protein); the cAMP-CAP complex then binds near the promoter and helps RNA polymerase bind much more effectively, boosting transcription. When glucose is abundant, cAMP levels drop, CAP can't activate the promoter, and transcription stays low even if the repressor has already been removed by lactose. This is why the operon reaches its HIGHEST transcription specifically when lactose is present AND glucose is scarce — lactose removes the repressor (negative regulation lifted) while low glucose activates CAP (positive regulation engaged), and both conditions are needed together for maximal expression.</p>
+  </div>
+
   <h3>Eukaryotic Gene Regulation</h3>
   <p>Eukaryotic gene regulation is more elaborate, occurring at multiple possible levels: before transcription (chromatin structure — how tightly DNA is packaged around histone proteins, affecting accessibility), during transcription (transcription factors binding promoters/enhancers), after transcription (alternative splicing, mRNA stability), during translation, and after translation (protein modification, degradation).</p>
 
   <div class="key-idea">
     <span class="tag-label idea">Key Idea</span>
-    <p><strong>Epigenetic</strong> regulation — changes to gene expression that don't alter the underlying DNA sequence itself — is a major, heavily tested mechanism. DNA methylation (adding methyl groups, typically to cytosine bases) generally SILENCES gene expression by making chromatin more tightly packed and less accessible to transcription machinery. Histone modification works similarly: tightly wound chromatin (heterochromatin) is generally inaccessible and transcriptionally silent, while loosely packed chromatin (euchromatin) is accessible and available for transcription. This connects directly back to Unit 1's functional group chemistry — remember, methyl groups are nonpolar, and that nonpolar character is part of what allows them to affect how tightly DNA packages with histone proteins.</p>
+    <p><strong>Epigenetic</strong> regulation — changes to gene expression that don't alter the underlying DNA sequence itself — is a major, heavily tested mechanism. DNA methylation (adding methyl groups, typically to cytosine bases) generally SILENCES gene expression by making chromatin more tightly packed and less accessible to transcription machinery. Histone modification works similarly: tightly wound chromatin (heterochromatin) is generally inaccessible and transcriptionally silent, while loosely packed chromatin (euchromatin) is accessible and available for transcription. This connects directly back to Unit 1's functional group chemistry — the methyl group added to cytosine is the same functional group you learned there. Specialized proteins recognize these methylated cytosines and recruit chromatin-condensing machinery (such as enzymes that remove acetyl groups from histones), which is what actually pulls the DNA into a tighter, transcriptionally silent package.</p>
     <div class="diagram">
       <img src="/images/diagrams/biology/diagram-u6-euchromatin-heterochromatin-active-silent.png" alt="A zoom sequence from the nucleus to a chromosome to interphase chromatin to DNA, showing euchromatin labeled 'Active' as loosely spaced nucleosomes and heterochromatin labeled 'Silent' as tightly packed nucleosomes." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
       <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">"Active" and "Silent" are labeled directly on the diagram — that's exactly the vocabulary to use on an FRQ. Loosely packed euchromatin (top) is open for business; tightly packed heterochromatin (bottom) is locked shut.</p>
@@ -7255,7 +7261,7 @@ QUESTIONS[6] = [
       topic: "6.3 Translation",
       stem: "Translate the mRNA sequence 5'-AUG UUU GCC UAA-3' into its corresponding amino acid sequence, using standard codon assignments (UUU = Phe, GCC = Ala).",
       choices: [
-        "Met-Phe-Ala",
+        "Met-Phe-Ala-Leu (four amino acids, with UAA coding for leucine)",
         "Met-Phe-Ala-Stop (three amino acids, translation terminates at UAA)",
         "Phe-Ala-Met",
         "This sequence cannot be translated"
@@ -7979,11 +7985,11 @@ FRQ_CONTENT[6] = [
         },
         {
           label: "(c)",
-          ask: "Predict whether this specific missense mutation is more or less likely to significantly disrupt protein function, given that histidine and arginine are both positively charged, similarly sized amino acids under physiological conditions. Justify your prediction.",
+          ask: "Predict whether this specific missense mutation is more or less likely to significantly disrupt protein function, given that histidine and arginine are both classified as basic amino acids with similarly sized R-groups. Justify your prediction.",
           steps: [
             "Prediction: this particular missense mutation is relatively LESS likely to significantly disrupt protein function, compared to a missense mutation substituting chemically very different amino acids (such as replacing a charged amino acid with a strongly hydrophobic one).",
-            "Justification: since histidine and arginine share similar chemical properties (both positively charged, similar size) under physiological conditions, this substitution is considered relatively 'conservative' — the new amino acid can often still participate in similar types of interactions (ionic bonds, hydrogen bonds) as the original, making it less likely to dramatically disrupt the protein's local structure or overall folding compared to a substitution introducing a chemically very different R-group.",
-            "Full credit requires connecting the specific chemical similarity between histidine and arginine (both being positively charged) to a reasoned prediction about functional impact, rather than simply asserting the mutation's severity without this structural/chemical reasoning — this reflects real principles used in predicting the likely impact of missense mutations in genetics and medicine."
+            "Justification: since histidine and arginine share similar chemical properties (both classified as basic, similarly sized R-groups), this substitution is considered relatively 'conservative' — the new amino acid can often still participate in similar types of interactions (ionic bonds, hydrogen bonds) as the original, making it less likely to dramatically disrupt the protein's local structure or overall folding compared to a substitution introducing a chemically very different R-group.",
+            "Full credit requires connecting the specific chemical similarity between histidine and arginine (both being basic amino acids of similar size) to a reasoned prediction about functional impact, rather than simply asserting the mutation's severity without this structural/chemical reasoning — this reflects real principles used in predicting the likely impact of missense mutations in genetics and medicine."
           ]
         }
       ]
@@ -8107,7 +8113,7 @@ STUDY_CONTENT[7] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 13–20%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -8158,7 +8164,7 @@ STUDY_CONTENT[7] = `<div class="hero">
 
   <div class="diagram">
     <img src="/images/diagrams/biology/diagram-u7-homology-analogy-matrix.png" alt="A 2x2 matrix comparing legs and flippers across mammals and insects. Reading down each column: a cat leg and a whale flipper are homologous to each other (both mammal limbs, same underlying bone plan, different specific function), and a praying mantis leg and a water boatman flipper leg are homologous to each other (both insect legs, same underlying plan). Reading across each row: a cat leg and a praying mantis leg are analogous (both used for walking, but built on completely different body plans), and a whale flipper and a water boatman flipper leg are analogous (both used for swimming, but built on completely different body plans)." style="width:100%; max-width:600px; height:auto; display:block; margin:0 auto; border-radius:8px;">
-    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Read this one carefully — it's testing the same idea from two directions at once. Down a row (cat leg → whale flipper) is homologous: same species group, same underlying limb plan, just doing a different job. Across a column (cat leg → praying mantis leg) is analogous: unrelated groups, doing the same job, with completely unrelated underlying structures.</p>
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Read this one carefully — it's testing the same idea from two directions at once. Down a column (cat leg → whale flipper) is homologous: same underlying body-plan group, same underlying limb plan, just doing a different job. Across a row (cat leg → praying mantis leg) is analogous: unrelated groups, doing the same job, with completely unrelated underlying structures.</p>
   </div>
 
   <div class="heylook">
@@ -8205,8 +8211,8 @@ STUDY_CONTENT[7] = `<div class="hero">
   </div>
 
   <div class="diagram">
-    <img src="/images/diagrams/biology/diagram-u7-selection-types-real-examples.png" alt="Three real biological examples of selection types. Stabilizing selection: robins typically lay four eggs, since larger clutches risk malnourished chicks and smaller clutches risk no viable offspring. Directional selection: peppered moth coloration shifted from light to dark during the Industrial Revolution as soot darkened tree bark, favoring camouflaged dark moths. Diversifying (disruptive) selection: in a hypothetical rabbit population, gray and Himalayan (gray-and-white) rabbits blend better with a rocky environment than plain white rabbits." style="width:100%; max-width:520px; height:auto; display:block; margin:0 auto; border-radius:8px;">
-    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The bottom panel calls this "diversifying selection" — that's just another name for disruptive selection, the term this guide uses. Same concept, same curve shape (two peaks, favoring both extremes), different label depending on which textbook you're reading.</p>
+    <img src="/images/diagrams/biology/diagram-u7-selection-types-real-examples.png" alt="Three real biological examples of selection types. Stabilizing selection: robins typically lay four eggs, since larger clutches risk malnourished chicks and smaller clutches risk no viable offspring. Directional selection: peppered moth coloration shifted from light to dark during the Industrial Revolution as soot darkened tree bark, favoring camouflaged dark moths. Diversifying (disruptive) selection: in African seedcracker finches, small-billed birds feed efficiently on soft seeds and large-billed birds feed efficiently on hard seeds, while intermediate-billed birds handle both poorly — favoring both bill-size extremes over the middle and producing a population with two peaks, few birds with medium-sized bills." style="width:100%; max-width:520px; height:auto; display:block; margin:0 auto; border-radius:8px;">
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">The bottom panel calls this "diversifying selection" — that's just another name for disruptive selection, the term this guide uses. Same concept, same curve shape (two peaks, favoring both extremes over a disfavored middle — here, favoring small and large bills over medium ones), different label depending on which textbook you're reading.</p>
   </div>
 
   <h3>Quick Check</h3>
@@ -9432,7 +9438,7 @@ STUDY_CONTENT[8] = `<div class="hero">
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">5 topics</span>
-    <span class="pill">18 practice questions</span>
+    <span class="pill">10 practice questions</span>
   </div>
 </div>
 
@@ -9530,7 +9536,7 @@ STUDY_CONTENT[8] = `<div class="hero">
   </div>
 
   <div class="worked">
-    <span class="tag-label example">Worked Example 1</span>
+    <span class="tag-label example">Worked Example 2</span>
     <p>A forest ecosystem has three trophic levels: tigers (apex predator), deer (primary consumer/prey), and grass (producer). Tigers are hunted to local extinction. Trace the trophic cascade this would set off, one step at a time.</p>
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">Work down the chain one link at a time, exactly as the skillbox above describes. Step 1: with tigers gone, the deer population is no longer controlled by predation, so it grows rapidly — an unchecked boom at the 2nd trophic level. Step 2: that larger deer population needs more food, so grazing pressure on grass (the 1st trophic level, the producer) increases substantially. Step 3: heavier grazing can deplete the grass, potentially degrading the whole habitat for deer and every other species that depends on that grassland. Notice the pattern captured by "the enemy of my enemy is my friend": the tiger's presence indirectly protected the grass, by keeping the deer in check — removing the top predator has an INDIRECT effect that skips straight past the deer and lands on the producer level, even though tigers never eat grass themselves.</div>
@@ -9576,7 +9582,7 @@ STUDY_CONTENT[8] = `<div class="hero">
   </div>
 
   <div class="worked">
-    <span class="tag-label example">Worked Example 2</span>
+    <span class="tag-label example">Worked Example 3</span>
     <p>A grassland ecosystem has 100,000 kcal of energy available at the producer (plant) level. Using the 10% rule, estimate the energy available at the primary consumer, secondary consumer, and tertiary consumer levels.</p>
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">Applying the 10% rule at each successive transfer: Primary consumers (herbivores) receive approximately 100,000 × 0.10 = 10,000 kcal. Secondary consumers (carnivores eating herbivores) receive approximately 10,000 × 0.10 = 1,000 kcal. Tertiary consumers (carnivores eating other carnivores) receive approximately 1,000 × 0.10 = 100 kcal. Notice how dramatically the available energy shrinks at each step — this is exactly why top predators (tertiary/quaternary consumers) are always relatively rare compared to the producers and lower-level consumers supporting them; there simply isn't enough energy left by that point in the chain to support a large population.</div>
@@ -9619,7 +9625,7 @@ STUDY_CONTENT[8] = `<div class="hero">
 
   <div class="diagram">
     <img src="/images/diagrams/biology/diagram-u8-nitrogen-cycle-comprehensive.png" alt="A diagram of the nitrogen cycle showing atmospheric nitrogen gas, nitrogen-fixing bacteria (both free-living in soil and living in legume root nodules) converting it to ammonium, decomposers breaking down organic matter into ammonium through ammonification, nitrifying bacteria converting ammonium to nitrites and then nitrates through nitrification, plants taking up ammonium and nitrates through assimilation, and denitrifying bacteria converting nitrates back to atmospheric nitrogen gas through denitrification." style="width:100%; max-width:650px; height:auto; display:block; margin:0 auto; border-radius:8px;">
-    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Trace the full loop at least once out loud: atmospheric N2 → fixation → ammonium → nitrification → nitrate → assimilation into plants → ammonification (via decomposers, back to ammonium) → denitrification → back to atmospheric N2.</p>
+    <p class="diagram-caption" style="text-align:center; font-size:0.9em; color:#666; margin-top:8px;">Trace the full loop at least once out loud: atmospheric N2 → fixation → ammonium → nitrification → nitrate → assimilation into plants → ammonification (via decomposers, back to ammonium) → nitrification again (back to nitrate) → denitrification → back to atmospheric N2.</p>
   </div>
 
   <div class="skillbox">
@@ -9673,7 +9679,7 @@ STUDY_CONTENT[8] = `<div class="hero">
   </div>
 
   <div class="worked">
-    <span class="tag-label example">Worked Example 3</span>
+    <span class="tag-label example">Worked Example 4</span>
     <p>An invasive plant species is introduced to a grassland ecosystem and rapidly outcompetes native grass species for space, water, and sunlight. Predict the likely downstream effects on the herbivore species that depended on the native grasses, and on the broader ecosystem.</p>
     <details class="solution"><summary>Show the reasoning</summary>
       <div class="sol-content">As the invasive plant outcompetes and reduces native grass populations, herbivore species that specifically depend on those native grasses for food would likely experience reduced food availability, potentially causing their populations to decline as well (unless they're able to successfully switch to relying on the invasive plant instead, which isn't guaranteed, since many herbivores have evolved specific digestive adaptations suited to particular native plant species). This decline in herbivore populations could then ripple further up the food chain, potentially affecting predator populations that depend on those herbivores — illustrating how a single invasive species introduction can trigger a cascading disruption through multiple trophic levels of an ecosystem, not just directly affecting the native plants it outcompetes.</div>
@@ -10058,7 +10064,7 @@ QUESTIONS[8] = [
       id: "8-27",
       topic: "8.1 Population Ecology",
       stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A population is growing according to the logistic model with K = 1,000 and a current population size of N = 900. Compared to when N was 100 (with the same K), how would you expect the population's ABSOLUTE growth rate (dN/dt), not just the growth RATE per individual, to compare between these two population sizes?",
+      stem: "Stretch — beyond typical AP difficulty: A population is growing according to the logistic model with K = 1,000 and a current population size of N = 900. Compared to when N was 200 (with the same K), how would you expect the population's ABSOLUTE growth rate (dN/dt), not just the growth RATE per individual, to compare between these two population sizes?",
       choices: [
         "The growth rate must always be higher when N is closer to K",
         "The absolute growth rate is likely lower at N = 900 than it was somewhere in the middle range of population growth, since the (K−N)/K braking term is now quite small (0.1) even though N itself is large — illustrating that logistic growth's absolute growth rate typically peaks at some INTERMEDIATE population size, not at either extreme (very low N or N very close to K)",
