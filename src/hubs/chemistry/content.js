@@ -350,11 +350,11 @@ const QUESTIONS = {
       "choices": [
         "C₂H₄ and C₃H₆",
         "C₂H₆ and C₃H₈",
-        "C₂H₂ and C₄H₄",
+        "C₃H₄ and C₄H₆",
         "CH₄ and C₂H₆"
       ],
       "correct": 0,
-      "explanation": "C₂H₄ reduces to CH₂ (dividing both subscripts by 2), and C₃H₆ also reduces to CH₂ (dividing both by 3) — so they share the empirical formula CH₂, even though their molecular formulas and actual molar masses differ. Checking the other pairs: C₂H₆ reduces to C₁H₃ while C₃H₈ doesn't reduce at all (already in lowest terms), so those don't match."
+      "explanation": "C₂H₄ reduces to CH₂ (dividing both subscripts by 2), and C₃H₆ also reduces to CH₂ (dividing both by 3) — so they share the empirical formula CH₂, even though their molecular formulas and actual molar masses differ. Checking the other pairs: C₂H₆ reduces to CH₃ while C₃H₈ is already in lowest terms, so those don't match. C₃H₄ is already in lowest terms (GCD of 3 and 4 is 1) while C₄H₆ reduces to C₂H₃, so those don't match either. CH₄ is already in lowest terms while C₂H₆ reduces to CH₃, so that pair doesn't match."
     },
     {
       "id": "1-23",
