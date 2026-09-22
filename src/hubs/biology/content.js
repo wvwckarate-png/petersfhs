@@ -639,1716 +639,6813 @@ const STUDY_CONTENT = {
 // ============================================================
 
 const QUESTIONS = {
-  1: [
+  "1": [
     {
-      id: "1-1",
-      topic: "1.1 Water and Life",
-      stem: "Water's high surface tension allows some insects to walk on the surface of a pond. Which property of water is most directly responsible for this phenomenon?",
-      choices: [
-        "Adhesion between water molecules and the insect's legs",
-        "Cohesion between water molecules due to hydrogen bonding",
+      "id": "1-1",
+      "topic": "1.1 Water and Life",
+      "stem": "Water's high surface tension allows some insects to walk on the surface of a pond. Which property of water is most directly responsible for this phenomenon?",
+      "choices": [
+        "The lower density of ice compared to liquid water",
         "The high specific heat of water",
-        "The lower density of ice compared to liquid water"
+        "Adhesion between water molecules and the insect's legs",
+        "Cohesion between water molecules due to hydrogen bonding"
       ],
-      correct: 1,
-      explanation: "Surface tension arises because water molecules at the surface hydrogen-bond to each other (cohesion) more strongly than to the air above, creating a taut, film-like surface. Adhesion involves water bonding to a different substance, which isn't what's producing the tension itself. Specific heat and ice density are real properties of water but don't explain surface tension."
+      "correct": 3,
+      "explanation": "Surface tension arises because water molecules at the surface hydrogen-bond to each other (cohesion) more strongly than to the air above, creating a taut, film-like surface. Adhesion involves water bonding to a different substance, which isn't what's producing the tension itself. Specific heat and ice density are real properties of water but don't explain surface tension."
     },
     {
-      id: "1-2",
-      topic: "1.1 Water and Life",
-      stem: "A student places a drop of oil and a drop of water side by side on wax paper. The water forms a rounded bead while the oil spreads out flatter. This difference is best explained by the fact that:",
-      choices: [
+      "id": "1-2",
+      "topic": "1.1 Water and Life",
+      "stem": "A student places a drop of oil and a drop of water side by side on wax paper. The water forms a rounded bead while the oil spreads out flatter. This difference is best explained by the fact that:",
+      "choices": [
         "Oil molecules are heavier than water molecules",
+        "Wax paper is hydrophilic, causing water to bead up",
         "Water molecules hydrogen-bond strongly to each other, pulling into a shape that minimizes surface area, while oil molecules lack this strong mutual attraction",
-        "Oil is a polymer and water is a monomer",
-        "Wax paper is hydrophilic, causing water to bead up"
+        "Oil is a polymer and water is a monomer"
       ],
-      correct: 1,
-      explanation: "Water's strong cohesion (from hydrogen bonding) pulls it into the shape with the least surface area relative to volume — a bead — to maximize internal hydrogen bonding. Oil molecules are nonpolar and don't hydrogen-bond to each other with nearly the same strength, so they spread out instead. Wax paper is actually hydrophobic, which is part of why the water beads rather than spreading, but that's not what explains the shape difference between oil and water themselves."
+      "correct": 2,
+      "explanation": "Water's strong cohesion (from hydrogen bonding) pulls it into the shape with the least surface area relative to volume — a bead — to maximize internal hydrogen bonding. Oil molecules are nonpolar and don't hydrogen-bond to each other with nearly the same strength, so they spread out instead. Wax paper is actually hydrophobic, which is part of why the water beads rather than spreading, but that's not what explains the shape difference between oil and water themselves."
     },
     {
-      id: "1-3",
-      topic: "1.1 Water and Life",
-      stem: "Which of the following correctly explains why ice floats on liquid water?",
-      choices: [
+      "id": "1-3",
+      "topic": "1.1 Water and Life",
+      "stem": "Which of the following correctly explains why ice floats on liquid water?",
+      "choices": [
         "Ice molecules move faster than liquid water molecules, spreading them further apart",
         "Hydrogen bonds in ice form a rigid, open hexagonal lattice that takes up more space than the more randomly arranged hydrogen bonds in liquid water",
-        "Ice contains fewer hydrogen atoms per molecule than liquid water",
-        "The covalent bonds within water molecules weaken as temperature drops"
+        "The covalent bonds within water molecules weaken as temperature drops",
+        "Ice contains fewer hydrogen atoms per molecule than liquid water"
       ],
-      correct: 1,
-      explanation: "As water freezes, hydrogen bonds lock each molecule into a fixed hexagonal lattice that is actually more spread out (lower density) than the jumbled, closer-packed arrangement of liquid water. Molecules in ice move slower, not faster, and the covalent O–H bonds within each molecule are unaffected by temperature — it's the hydrogen bonds between molecules that change."
+      "correct": 1,
+      "explanation": "As water freezes, hydrogen bonds lock each molecule into a fixed hexagonal lattice that is actually more spread out (lower density) than the jumbled, closer-packed arrangement of liquid water. Molecules in ice move slower, not faster, and the covalent O–H bonds within each molecule are unaffected by temperature — it's the hydrogen bonds between molecules that change."
     },
     {
-      id: "1-4",
-      topic: "1.1 Water and Life",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A researcher compares two hypothetical liquids, X and Y, that are similar in molar mass but differ in that liquid X's molecules can form hydrogen bonds with each other while liquid Y's cannot. Which prediction about their specific heats is best supported?",
-      choices: [
+      "id": "1-4",
+      "topic": "1.1 Water and Life",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher compares two hypothetical liquids, X and Y, that are similar in molar mass but differ in that liquid X's molecules can form hydrogen bonds with each other while liquid Y's cannot. Which prediction about their specific heats is best supported?",
+      "choices": [
         "Liquid X will have a lower specific heat than liquid Y, because hydrogen bonds make molecules move faster",
+        "Liquid Y will have a higher specific heat because its molecules move more independently",
         "Liquid X will have a higher specific heat than liquid Y, because energy added to X will be partly absorbed by breaking hydrogen bonds rather than increasing molecular motion",
-        "The two liquids will have identical specific heats, since specific heat depends only on molar mass",
-        "Liquid Y will have a higher specific heat because its molecules move more independently"
+        "The two liquids will have identical specific heats, since specific heat depends only on molar mass"
       ],
-      correct: 1,
-      explanation: "This applies the water specific-heat mechanism to a novel scenario, which is a common AP move. Since X's molecules can hydrogen bond, added heat energy gets partially diverted into breaking those bonds instead of directly increasing molecular kinetic energy (temperature), meaning it takes more energy to raise X's temperature by a given amount — a higher specific heat. Y, lacking hydrogen bonding, converts added energy almost entirely into increased motion, so its temperature rises more easily per unit of energy added."
+      "correct": 2,
+      "explanation": "This applies the water specific-heat mechanism to a novel scenario, which is a common AP move. Since X's molecules can hydrogen bond, added heat energy gets partially diverted into breaking those bonds instead of directly increasing molecular kinetic energy (temperature), meaning it takes more energy to raise X's temperature by a given amount — a higher specific heat. Y, lacking hydrogen bonding, converts added energy almost entirely into increased motion, so its temperature rises more easily per unit of energy added."
     },
     {
-      id: "1-5",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "A solution has a pH of 4. What is the approximate change in H⁺ concentration if the pH is raised to 7?",
-      choices: [
-        "A 3-fold decrease",
-        "A 300-fold decrease",
+      "id": "1-5",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "A solution has a pH of 4. What is the approximate change in H⁺ concentration if the pH is raised to 7?",
+      "choices": [
         "A 1,000-fold decrease",
+        "A 300-fold decrease",
+        "A 3-fold decrease",
         "A 1,000-fold increase"
       ],
-      correct: 2,
-      explanation: "The pH scale is logarithmic (base 10), so each whole-unit change represents a 10-fold change in H⁺ concentration. Moving from pH 4 to pH 7 is a 3-unit increase, meaning H⁺ concentration decreases by 10³ = 1,000-fold. Since pH went up, H⁺ concentration must go down, ruling out the last option."
+      "correct": 0,
+      "explanation": "The pH scale is logarithmic (base 10), so each whole-unit change represents a 10-fold change in H⁺ concentration. Moving from pH 4 to pH 7 is a 3-unit increase, meaning H⁺ concentration decreases by 10³ = 1,000-fold. Since pH went up, H⁺ concentration must go down, ruling out the last option."
     },
     {
-      id: "1-6",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "Which statement best explains why a small change in blood pH can be life-threatening?",
-      choices: [
-        "A pH change alters the covalent peptide bonds holding amino acids together in every protein",
-        "A pH change disrupts the weak interactions (hydrogen bonds, ionic interactions) maintaining proteins' tertiary structure, which can denature enzymes and stop essential reactions",
+      "id": "1-6",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "Which statement best explains why a small change in blood pH can be life-threatening?",
+      "choices": [
         "A pH change directly destroys DNA's double helix within seconds",
-        "A pH change causes all water molecules in the blood to instantly evaporate"
+        "A pH change alters the covalent peptide bonds holding amino acids together in every protein",
+        "A pH change causes all water molecules in the blood to instantly evaporate",
+        "A pH change disrupts the weak interactions (hydrogen bonds, ionic interactions) maintaining proteins' tertiary structure, which can denature enzymes and stop essential reactions"
       ],
-      correct: 1,
-      explanation: "pH shifts disrupt the weak, non-covalent bonds (hydrogen bonds, ionic interactions between charged R-groups) responsible for a protein's 3D folded shape — not the strong covalent peptide bonds of the primary structure. When enzymes denature, they lose their functional shape and their reactions (many essential to survival) stop working, which is why organisms tightly regulate internal pH."
+      "correct": 3,
+      "explanation": "pH shifts disrupt the weak, non-covalent bonds (hydrogen bonds, ionic interactions between charged R-groups) responsible for a protein's 3D folded shape — not the strong covalent peptide bonds of the primary structure. When enzymes denature, they lose their functional shape and their reactions (many essential to survival) stop working, which is why organisms tightly regulate internal pH."
     },
     {
-      id: "1-7",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "In a titration graph of pH vs. volume of base added to a buffered solution, the buffering region is best identified as:",
-      choices: [
-        "The steepest part of the curve, where pH changes most rapidly",
-        "The flattest part of the curve, where pH changes very little despite continued addition of base",
+      "id": "1-7",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "In a titration graph of pH vs. volume of base added to a buffered solution, the buffering region is best identified as:",
+      "choices": [
         "The very beginning of the graph before any base has been added",
-        "The point where the curve crosses pH 7"
+        "The steepest part of the curve, where pH changes most rapidly",
+        "The point where the curve crosses pH 7",
+        "The flattest part of the curve, where pH changes very little despite continued addition of base"
       ],
-      correct: 1,
-      explanation: "A buffer resists pH change by absorbing added H⁺ or OH⁻, so on a titration graph, the buffering region appears as a flat plateau where adding more base barely shifts the pH. Once the buffer's capacity is exhausted, the graph rises sharply — that steep region is specifically where buffering is no longer occurring."
+      "correct": 3,
+      "explanation": "A buffer resists pH change by absorbing added H⁺ or OH⁻, so on a titration graph, the buffering region appears as a flat plateau where adding more base barely shifts the pH. Once the buffer's capacity is exhausted, the graph rises sharply — that steep region is specifically where buffering is no longer occurring."
     },
     {
-      id: "1-8",
-      topic: "1.3 Carbon Bonding",
-      stem: "Which property of carbon most directly explains its central role in building complex biological molecules?",
-      choices: [
-        "Carbon is the most electronegative common biological element",
-        "Carbon has four valence electrons, allowing it to form four covalent bonds and build extensive chains, branches, and rings",
+      "id": "1-8",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Which property of carbon most directly explains its central role in building complex biological molecules?",
+      "choices": [
         "Carbon atoms are radioactive, providing energy for bond formation",
-        "Carbon only bonds with oxygen and hydrogen"
+        "Carbon only bonds with oxygen and hydrogen",
+        "Carbon is the most electronegative common biological element",
+        "Carbon has four valence electrons, allowing it to form four covalent bonds and build extensive chains, branches, and rings"
       ],
-      correct: 1,
-      explanation: "Carbon's four valence electrons give it four bonding sites, letting it link to multiple other atoms (including other carbons) simultaneously — this is what allows the huge structural diversity of organic molecules: straight chains, branches, and rings, all with room left for functional groups. Carbon is not especially electronegative, is not radioactive, and readily bonds with many elements besides O and H (including N, S, and P)."
+      "correct": 3,
+      "explanation": "Carbon's four valence electrons give it four bonding sites, letting it link to multiple other atoms (including other carbons) simultaneously — this is what allows the huge structural diversity of organic molecules: straight chains, branches, and rings, all with room left for functional groups. Carbon is not especially electronegative, is not radioactive, and readily bonds with many elements besides O and H (including N, S, and P)."
     },
     {
-      id: "1-9",
-      topic: "1.3 Carbon Bonding",
-      stem: "A molecule contains a –COOH group attached to its carbon skeleton. Based on this functional group alone, which property would you predict for this region of the molecule?",
-      choices: [
-        "It will be nonpolar and hydrophobic",
-        "It will tend to donate an H⁺, making that region acidic",
+      "id": "1-9",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "A molecule contains a –COOH group attached to its carbon skeleton. Based on this functional group alone, which property would you predict for this region of the molecule?",
+      "choices": [
         "It will form disulfide bridges with nearby molecules",
+        "It will tend to donate an H⁺, making that region acidic",
+        "It will be nonpolar and hydrophobic",
         "It will be unreactive under all biological conditions"
       ],
-      correct: 1,
-      explanation: "The carboxyl group (–COOH) is acidic — it tends to release its hydrogen as H⁺, becoming negatively charged (–COO⁻). This is why amino acids and fatty acids, which both contain carboxyl groups, behave as weak acids. Disulfide bridges form specifically from sulfhydryl (–SH) groups, not carboxyl groups."
+      "correct": 1,
+      "explanation": "The carboxyl group (–COOH) is acidic — it tends to release its hydrogen as H⁺, becoming negatively charged (–COO⁻). This is why amino acids and fatty acids, which both contain carboxyl groups, behave as weak acids. Disulfide bridges form specifically from sulfhydryl (–SH) groups, not carboxyl groups."
     },
     {
-      id: "1-10",
-      topic: "1.3 Carbon Bonding",
-      stem: "DNA methylation — the addition of methyl groups (–CH3) to certain DNA bases — is known to influence gene expression, often by making genes less accessible for transcription. Based on the chemical properties of a methyl group, which explanation is most consistent with this effect?",
-      choices: [
+      "id": "1-10",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "DNA methylation — the addition of methyl groups (–CH3) to certain DNA bases — is known to influence gene expression, often by making genes less accessible for transcription. Based on the chemical properties of a methyl group, which explanation is most consistent with this effect?",
+      "choices": [
         "Methyl groups are highly polar and attract transcription machinery to the DNA",
+        "Methyl groups replace nitrogenous bases entirely, deleting genetic information",
         "Methyl groups are nonpolar and can increase local hydrophobic interactions, potentially altering how tightly DNA associates with surrounding proteins",
-        "Methyl groups directly break the phosphodiester backbone of DNA",
-        "Methyl groups replace nitrogenous bases entirely, deleting genetic information"
+        "Methyl groups directly break the phosphodiester backbone of DNA"
       ],
-      correct: 1,
-      explanation: "This question asks you to reason from a functional group's known chemical behavior (methyl = nonpolar/hydrophobic) to a plausible biological consequence. Because methyl groups are nonpolar, adding them can change local hydrophobic interactions and physically compact DNA-protein packaging, making genes less accessible — consistent with methylation's known gene-silencing effect. This is a conceptual bridge to Unit 6 (Gene Expression and Regulation), where you'll study epigenetics in depth."
+      "correct": 2,
+      "explanation": "This question asks you to reason from a functional group's known chemical behavior (methyl = nonpolar/hydrophobic) to a plausible biological consequence. Because methyl groups are nonpolar, adding them can change local hydrophobic interactions and physically compact DNA-protein packaging, making genes less accessible — consistent with methylation's known gene-silencing effect. This is a conceptual bridge to Unit 6 (Gene Expression and Regulation), where you'll study epigenetics in depth."
     },
     {
-      id: "1-11",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Which of the following correctly describes the relationship between dehydration synthesis and hydrolysis?",
-      choices: [
-        "Both reactions add a water molecule to build larger polymers",
-        "Dehydration synthesis builds polymers and releases water; hydrolysis breaks polymers by adding water",
+      "id": "1-11",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Which of the following correctly describes the relationship between dehydration synthesis and hydrolysis?",
+      "choices": [
+        "The two reactions are unrelated processes that occur in different macromolecule classes",
         "Dehydration synthesis breaks polymers by removing water; hydrolysis builds polymers",
-        "The two reactions are unrelated processes that occur in different macromolecule classes"
+        "Both reactions add a water molecule to build larger polymers",
+        "Dehydration synthesis builds polymers and releases water; hydrolysis breaks polymers by adding water"
       ],
-      correct: 1,
-      explanation: "Dehydration synthesis links monomers into polymers, releasing a water molecule as a byproduct of each new bond formed. Hydrolysis is the reverse: a water molecule is added across a bond, splitting a polymer back into its component monomers. These two reactions are the universal mechanism by which carbohydrates, proteins, and nucleic acids are built and broken down."
+      "correct": 3,
+      "explanation": "Dehydration synthesis links monomers into polymers, releasing a water molecule as a byproduct of each new bond formed. Hydrolysis is the reverse: a water molecule is added across a bond, splitting a polymer back into its component monomers. These two reactions are the universal mechanism by which carbohydrates, proteins, and nucleic acids are built and broken down."
     },
     {
-      id: "1-12",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Starch, glycogen, and cellulose are all polymers of the same monomer, glucose, yet they have dramatically different physical properties. What best explains this?",
-      choices: [
-        "They are made of different isotopes of glucose",
+      "id": "1-12",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Starch, glycogen, and cellulose are all polymers of the same monomer, glucose, yet they have dramatically different physical properties. What best explains this?",
+      "choices": [
+        "Cellulose is not actually made of glucose",
         "The bond geometry (glycosidic linkage) connecting glucose units differs between them, producing different overall shapes",
-        "Starch and glycogen contain nitrogen while cellulose does not",
-        "Cellulose is not actually made of glucose"
+        "They are made of different isotopes of glucose",
+        "Starch and glycogen contain nitrogen while cellulose does not"
       ],
-      correct: 1,
-      explanation: "All three are built entirely from glucose monomers. Their differences in physical property (digestibility, rigidity, branching) come from the specific geometry of the glycosidic bond linking each glucose to the next, which determines whether the resulting polymer is helical/branched (starch, glycogen) or forms straight, tightly packed chains (cellulose)."
+      "correct": 1,
+      "explanation": "All three are built entirely from glucose monomers. Their differences in physical property (digestibility, rigidity, branching) come from the specific geometry of the glycosidic bond linking each glucose to the next, which determines whether the resulting polymer is helical/branched (starch, glycogen) or forms straight, tightly packed chains (cellulose)."
     },
     {
-      id: "1-13",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "A phospholipid placed in water will spontaneously arrange into a bilayer because the molecule is:",
-      choices: [
-        "Entirely hydrophobic",
+      "id": "1-13",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "A phospholipid placed in water will spontaneously arrange into a bilayer because the molecule is:",
+      "choices": [
+        "Radioactive, generating energy for self-assembly",
         "Entirely hydrophilic",
-        "Amphipathic — having both a hydrophilic head and hydrophobic tails",
-        "Radioactive, generating energy for self-assembly"
+        "Entirely hydrophobic",
+        "Amphipathic — having both a hydrophilic head and hydrophobic tails"
       ],
-      correct: 2,
-      explanation: "Phospholipids have a hydrophilic phosphate-containing head and two hydrophobic fatty acid tails, making them amphipathic. In water, this dual nature drives spontaneous self-assembly into a bilayer, with heads facing the surrounding water and tails clustering away from it — a passive, energy-minimizing process, not an active or catalyzed one."
+      "correct": 3,
+      "explanation": "Phospholipids have a hydrophilic phosphate-containing head and two hydrophobic fatty acid tails, making them amphipathic. In water, this dual nature drives spontaneous self-assembly into a bilayer, with heads facing the surrounding water and tails clustering away from it — a passive, energy-minimizing process, not an active or catalyzed one."
     },
     {
-      id: "1-14",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Which type of fatty acid is most likely to be liquid at room temperature, and why?",
-      choices: [
-        "Saturated, because straight tails allow tight packing",
-        "Unsaturated, because double bonds create kinks that prevent tight packing between tails",
+      "id": "1-14",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Which type of fatty acid is most likely to be liquid at room temperature, and why?",
+      "choices": [
         "Saturated, because double bonds increase molecular motion",
-        "Unsaturated, because they lack any hydrocarbon tails"
+        "Unsaturated, because they lack any hydrocarbon tails",
+        "Unsaturated, because double bonds create kinks that prevent tight packing between tails",
+        "Saturated, because straight tails allow tight packing"
       ],
-      correct: 1,
-      explanation: "Unsaturated fatty acids contain one or more carbon-carbon double bonds, which introduce a rigid kink into the tail. This kink prevents the fatty acid tails from packing tightly against neighboring molecules, resulting in weaker intermolecular attraction and a liquid state at room temperature (e.g., olive oil). Saturated fats, lacking these kinks, pack tightly and are typically solid at room temperature (e.g., butter)."
+      "correct": 2,
+      "explanation": "Unsaturated fatty acids contain one or more carbon-carbon double bonds, which introduce a rigid kink into the tail. This kink prevents the fatty acid tails from packing tightly against neighboring molecules, resulting in weaker intermolecular attraction and a liquid state at room temperature (e.g., olive oil). Saturated fats, lacking these kinks, pack tightly and are typically solid at room temperature (e.g., butter)."
     },
     {
-      id: "1-15",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "The unique identity and function of each of the 20 amino acids is determined primarily by differences in:",
-      choices: [
+      "id": "1-15",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "The unique identity and function of each of the 20 amino acids is determined primarily by differences in:",
+      "choices": [
         "The central carbon atom, which varies between amino acids",
+        "The number of peptide bonds each amino acid can form",
         "The carboxyl group, which is unique to each amino acid",
-        "The R-group (side chain), which varies while the rest of the backbone stays the same",
-        "The number of peptide bonds each amino acid can form"
+        "The R-group (side chain), which varies while the rest of the backbone stays the same"
       ],
-      correct: 2,
-      explanation: "All 20 amino acids share an identical core backbone (central carbon, amino group, carboxyl group, hydrogen). The one variable component — the R-group — is what differs between amino acids and what determines each one's chemical personality (polar, nonpolar, acidic, basic), which in turn drives how a polypeptide folds into its functional shape."
+      "correct": 3,
+      "explanation": "All 20 amino acids share an identical core backbone (central carbon, amino group, carboxyl group, hydrogen). The one variable component — the R-group — is what differs between amino acids and what determines each one's chemical personality (polar, nonpolar, acidic, basic), which in turn drives how a polypeptide folds into its functional shape."
     },
     {
-      id: "1-16",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "A protein is heated until it loses its function, but mass spectrometry confirms its amino acid sequence is completely unchanged. Which level(s) of protein structure were most likely disrupted?",
-      choices: [
-        "Primary structure only",
+      "id": "1-16",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "A protein is heated until it loses its function, but mass spectrometry confirms its amino acid sequence is completely unchanged. Which level(s) of protein structure were most likely disrupted?",
+      "choices": [
         "Secondary, tertiary, and/or quaternary structure, but not primary structure",
-        "Only the peptide bonds linking amino acids",
-        "The DNA sequence encoding the protein"
+        "Primary structure only",
+        "The DNA sequence encoding the protein",
+        "Only the peptide bonds linking amino acids"
       ],
-      correct: 1,
-      explanation: "Primary structure — the linear amino acid sequence — is held together by strong covalent peptide bonds, which heat at physiologically relevant temperatures typically does not break (that's why the sequence is unchanged). Higher levels of structure depend on weaker, non-covalent interactions that are readily disrupted by heat, causing the protein to denature and lose function while its underlying sequence stays intact."
+      "correct": 0,
+      "explanation": "Primary structure — the linear amino acid sequence — is held together by strong covalent peptide bonds, which heat at physiologically relevant temperatures typically does not break (that's why the sequence is unchanged). Higher levels of structure depend on weaker, non-covalent interactions that are readily disrupted by heat, causing the protein to denature and lose function while its underlying sequence stays intact."
     },
     {
-      id: "1-17",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "In DNA, guanine-cytosine (G-C) base pairs are held together by 3 hydrogen bonds, while adenine-thymine (A-T) pairs have only 2. Based on this, which prediction is best supported?",
-      choices: [
-        "A DNA region high in G-C content will require less energy (lower temperature) to separate the two strands than an A-T-rich region",
-        "A DNA region high in G-C content will require more energy (higher temperature) to separate the two strands than an A-T-rich region",
+      "id": "1-17",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "In DNA, guanine-cytosine (G-C) base pairs are held together by 3 hydrogen bonds, while adenine-thymine (A-T) pairs have only 2. Based on this, which prediction is best supported?",
+      "choices": [
         "G-C content has no effect on how easily DNA strands separate",
-        "A-T pairs are covalently bonded, while G-C pairs are not"
+        "A DNA region high in G-C content will require less energy (lower temperature) to separate the two strands than an A-T-rich region",
+        "A-T pairs are covalently bonded, while G-C pairs are not",
+        "A DNA region high in G-C content will require more energy (higher temperature) to separate the two strands than an A-T-rich region"
       ],
-      correct: 1,
-      explanation: "More hydrogen bonds means a stronger overall attraction holding the two strands together at that location. Since G-C pairs have 3 hydrogen bonds versus A-T's 2, a G-C-rich region is held together more strongly and requires more thermal energy (a higher \"melting\" temperature) to separate the strands, compared to an A-T-rich region. Both base pair types are held together by hydrogen bonds, not covalent bonds — the sugar-phosphate backbone is where the covalent bonds are."
+      "correct": 3,
+      "explanation": "More hydrogen bonds means a stronger overall attraction holding the two strands together at that location. Since G-C pairs have 3 hydrogen bonds versus A-T's 2, a G-C-rich region is held together more strongly and requires more thermal energy (a higher \"melting\" temperature) to separate the strands, compared to an A-T-rich region. Both base pair types are held together by hydrogen bonds, not covalent bonds — the sugar-phosphate backbone is where the covalent bonds are."
     },
     {
-      id: "1-18",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A researcher engineers a mutant enzyme in which a single amino acid deep within the folded protein's core — normally nonpolar — is replaced with a strongly charged amino acid. Which outcome is most likely?",
-      choices: [
-        "No effect, since only surface amino acids matter for protein folding",
-        "The protein may misfold, because a charged R-group in the hydrophobic core would be energetically unfavorable, disrupting the hydrophobic interactions that normally stabilize tertiary structure",
+      "id": "1-18",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher engineers a mutant enzyme in which a single amino acid deep within the folded protein's core — normally nonpolar — is replaced with a strongly charged amino acid. Which outcome is most likely?",
+      "choices": [
         "The primary structure of the protein will spontaneously change to compensate",
-        "The mutation will only affect the protein's quaternary structure, never its tertiary structure"
+        "No effect, since only surface amino acids matter for protein folding",
+        "The mutation will only affect the protein's quaternary structure, never its tertiary structure",
+        "The protein may misfold, because a charged R-group in the hydrophobic core would be energetically unfavorable, disrupting the hydrophobic interactions that normally stabilize tertiary structure"
       ],
-      correct: 1,
-      explanation: "During protein folding, nonpolar R-groups typically cluster together in the protein's hydrophobic core, away from the surrounding water, which is a major stabilizing force in tertiary structure. Introducing a charged R-group into that core is energetically unfavorable (charged groups \"want\" to be near water), which can disrupt the folding pattern and cause misfolding or loss of function — this is the underlying logic behind many real disease-causing point mutations, including sickle-cell hemoglobin."
+      "correct": 3,
+      "explanation": "During protein folding, nonpolar R-groups typically cluster together in the protein's hydrophobic core, away from the surrounding water, which is a major stabilizing force in tertiary structure. Introducing a charged R-group into that core is energetically unfavorable (charged groups \"want\" to be near water), which can disrupt the folding pattern and cause misfolding or loss of function — this is the underlying logic behind many real disease-causing point mutations, including sickle-cell hemoglobin."
     },
     {
-      id: "1-19",
-      topic: "1.1 Water and Life",
-      stem: "Redwood trees can move water more than 100 meters upward from roots to leaves with no pump. According to the cohesion-tension theory, which combination of properties makes this possible?",
-      choices: [
-        "Adhesion of water to xylem walls pushes water upward, powered by root pressure alone",
-        "Water evaporating from leaves pulls on the continuous, cohesive column of water below it, while adhesion to xylem walls helps prevent the column from breaking apart",
+      "id": "1-19",
+      "topic": "1.1 Water and Life",
+      "stem": "Redwood trees can move water more than 100 meters upward from roots to leaves with no pump. According to the cohesion-tension theory, which combination of properties makes this possible?",
+      "choices": [
         "High specific heat allows water to rise as it absorbs heat energy from the sun",
-        "Hydrophobic interactions between water and xylem walls create a vacuum effect"
+        "Hydrophobic interactions between water and xylem walls create a vacuum effect",
+        "Water evaporating from leaves pulls on the continuous, cohesive column of water below it, while adhesion to xylem walls helps prevent the column from breaking apart",
+        "Adhesion of water to xylem walls pushes water upward, powered by root pressure alone"
       ],
-      correct: 1,
-      explanation: "As water evaporates from leaf surfaces (transpiration), it creates tension that pulls the entire connected water column upward, much like pulling on one end of a chain. This only works because cohesion (hydrogen bonding between water molecules) keeps the column unbroken under tension, while adhesion to the xylem walls provides additional support against gravity. Xylem transport is a classic multi-property water question — it uses cohesion AND adhesion together, not just one."
+      "correct": 2,
+      "explanation": "As water evaporates from leaf surfaces (transpiration), it creates tension that pulls the entire connected water column upward, much like pulling on one end of a chain. This only works because cohesion (hydrogen bonding between water molecules) keeps the column unbroken under tension, while adhesion to the xylem walls provides additional support against gravity. Xylem transport is a classic multi-property water question — it uses cohesion AND adhesion together, not just one."
     },
     {
-      id: "1-20",
-      topic: "1.1 Water and Life",
-      stem: "Which comparison of bond strength is accurate?",
-      choices: [
+      "id": "1-20",
+      "topic": "1.1 Water and Life",
+      "stem": "Which comparison of bond strength is accurate?",
+      "choices": [
         "A single hydrogen bond is stronger than a single covalent bond",
-        "A single hydrogen bond is much weaker than a single covalent bond, but large numbers of hydrogen bonds acting together can produce significant collective strength",
         "Hydrogen bonds and covalent bonds are approximately equal in strength",
+        "A single hydrogen bond is much weaker than a single covalent bond, but large numbers of hydrogen bonds acting together can produce significant collective strength",
         "Covalent bonds can form and break constantly at body temperature, just like hydrogen bonds"
       ],
-      correct: 1,
-      explanation: "Any individual hydrogen bond is roughly 1/20th the strength of a covalent bond and constantly forms and breaks at body temperature. What makes hydrogen bonding biologically powerful isn't bond strength — it's bond quantity. Large numbers of simultaneous hydrogen bonds (as in DNA base pairing or water's lattice) add up to meaningful collective strength, while still allowing structures to be flexible and dynamic rather than permanently locked in place."
+      "correct": 2,
+      "explanation": "Any individual hydrogen bond is roughly 1/20th the strength of a covalent bond and constantly forms and breaks at body temperature. What makes hydrogen bonding biologically powerful isn't bond strength — it's bond quantity. Large numbers of simultaneous hydrogen bonds (as in DNA base pairing or water's lattice) add up to meaningful collective strength, while still allowing structures to be flexible and dynamic rather than permanently locked in place."
     },
     {
-      id: "1-21",
-      topic: "1.1 Water and Life",
-      stem: "When nonpolar molecules like oil are placed in water, they cluster together rather than dissolving. This phenomenon, sometimes called the hydrophobic effect, occurs primarily because:",
-      choices: [
-        "Nonpolar molecules are actively repelled by a special force from water",
+      "id": "1-21",
+      "topic": "1.1 Water and Life",
+      "stem": "When nonpolar molecules like oil are placed in water, they cluster together rather than dissolving. This phenomenon, sometimes called the hydrophobic effect, occurs primarily because:",
+      "choices": [
         "Water molecules maximize their own hydrogen bonding with each other by excluding nonpolar molecules, which minimizes disruption to the hydrogen-bond network",
-        "Nonpolar molecules are denser than water and sink to form clusters",
-        "Oil molecules are positively charged and water is negatively charged overall"
+        "Oil molecules are positively charged and water is negatively charged overall",
+        "Nonpolar molecules are actively repelled by a special force from water",
+        "Nonpolar molecules are denser than water and sink to form clusters"
       ],
-      correct: 1,
-      explanation: "Nonpolar molecules can't form hydrogen bonds with water, so their presence would force nearby water molecules to reduce their own hydrogen bonding. Water \"prefers\" to maximize hydrogen bonding among its own molecules, so nonpolar substances get pushed together and excluded — not because of an active repulsive force, but because clustering minimizes the disruption to water's hydrogen-bond network. This same hydrophobic effect is a major driver of protein folding and phospholipid bilayer formation."
+      "correct": 0,
+      "explanation": "Nonpolar molecules can't form hydrogen bonds with water, so their presence would force nearby water molecules to reduce their own hydrogen bonding. Water \"prefers\" to maximize hydrogen bonding among its own molecules, so nonpolar substances get pushed together and excluded — not because of an active repulsive force, but because clustering minimizes the disruption to water's hydrogen-bond network. This same hydrophobic effect is a major driver of protein folding and phospholipid bilayer formation."
     },
     {
-      id: "1-22",
-      topic: "1.1 Water and Life",
-      stem: "Coastal cities tend to have more moderate temperature swings between day and night than inland cities at the same latitude. This is best explained by:",
-      choices: [
+      "id": "1-22",
+      "topic": "1.1 Water and Life",
+      "stem": "Coastal cities tend to have more moderate temperature swings between day and night than inland cities at the same latitude. This is best explained by:",
+      "choices": [
         "The high specific heat of the large body of water nearby, which resists rapid temperature change and moderates the surrounding air temperature",
-        "Ocean water being naturally colder than land, which cancels out any temperature increase",
         "Coastal air containing less carbon dioxide than inland air",
+        "Ocean water being naturally colder than land, which cancels out any temperature increase",
         "Adhesion between ocean water and coastal soil trapping heat underground"
       ],
-      correct: 0,
-      explanation: "Because water has an unusually high specific heat (a result of hydrogen bonding absorbing much of the added or removed heat energy), large bodies of water heat up and cool down much more slowly than land does. Coastal air, in contact with that slow-changing water temperature, experiences a moderating effect — smaller daily and seasonal temperature swings than inland areas far from large water bodies."
+      "correct": 0,
+      "explanation": "Because water has an unusually high specific heat (a result of hydrogen bonding absorbing much of the added or removed heat energy), large bodies of water heat up and cool down much more slowly than land does. Coastal air, in contact with that slow-changing water temperature, experiences a moderating effect — smaller daily and seasonal temperature swings than inland areas far from large water bodies."
     },
     {
-      id: "1-23",
-      topic: "1.1 Water and Life",
-      stem: "A student compares capillary action in two glass tubes of different diameters, both dipped in water. Which result would you predict, and why?",
-      choices: [
-        "Water rises higher in the wider tube, because there is more total adhesion",
+      "id": "1-23",
+      "topic": "1.1 Water and Life",
+      "stem": "A student compares capillary action in two glass tubes of different diameters, both dipped in water. Which result would you predict, and why?",
+      "choices": [
+        "Water does not rise in either tube unless a pump is applied",
         "Water rises higher in the narrower tube, because the ratio of wall surface area (where adhesion occurs) to water volume is greater in a narrow tube",
         "Water rises to the same height in both tubes, since capillary action doesn't depend on tube diameter",
-        "Water does not rise in either tube unless a pump is applied"
+        "Water rises higher in the wider tube, because there is more total adhesion"
       ],
-      correct: 1,
-      explanation: "Capillary action results from adhesion (water to glass) combined with cohesion (water to water) pulling water upward against gravity. In a narrower tube, a given volume of water has proportionally more contact with the tube's adhesive walls relative to its weight, so the adhesive pull is more effective at lifting it — water rises higher in narrow tubes than wide ones. This is directly relevant to how water moves through narrow xylem vessels in plants."
+      "correct": 1,
+      "explanation": "Capillary action results from adhesion (water to glass) combined with cohesion (water to water) pulling water upward against gravity. In a narrower tube, a given volume of water has proportionally more contact with the tube's adhesive walls relative to its weight, so the adhesive pull is more effective at lifting it — water rises higher in narrow tubes than wide ones. This is directly relevant to how water moves through narrow xylem vessels in plants."
     },
     {
-      id: "1-24",
-      topic: "1.1 Water and Life",
-      stem: "A newly discovered molecule contains five hydroxyl (–OH) groups and no nonpolar regions. Based on this, predict its solubility behavior in water.",
-      choices: [
-        "It will be hydrophobic and will not dissolve in water",
-        "It will be hydrophilic and should dissolve readily in water, since hydroxyl groups are polar and can hydrogen bond with water",
+      "id": "1-24",
+      "topic": "1.1 Water and Life",
+      "stem": "A newly discovered molecule contains five hydroxyl (–OH) groups and no nonpolar regions. Based on this, predict its solubility behavior in water.",
+      "choices": [
         "Its solubility cannot be predicted from functional groups alone",
-        "It will react explosively with water"
+        "It will react explosively with water",
+        "It will be hydrophobic and will not dissolve in water",
+        "It will be hydrophilic and should dissolve readily in water, since hydroxyl groups are polar and can hydrogen bond with water"
       ],
-      correct: 1,
-      explanation: "Hydroxyl groups are polar and capable of hydrogen bonding, which is exactly the kind of interaction water forms with itself. A molecule covered in hydroxyl groups and lacking nonpolar regions would be expected to interact favorably with water molecules and dissolve readily — this is, not coincidentally, why sugars (which are covered in hydroxyl groups) are so water-soluble."
+      "correct": 3,
+      "explanation": "Hydroxyl groups are polar and capable of hydrogen bonding, which is exactly the kind of interaction water forms with itself. A molecule covered in hydroxyl groups and lacking nonpolar regions would be expected to interact favorably with water molecules and dissolve readily — this is, not coincidentally, why sugars (which are covered in hydroxyl groups) are so water-soluble."
     },
     {
-      id: "1-25",
-      topic: "1.1 Water and Life",
-      stem: "Which statement correctly describes a polar covalent bond?",
-      choices: [
+      "id": "1-25",
+      "topic": "1.1 Water and Life",
+      "stem": "Which statement correctly describes a polar covalent bond?",
+      "choices": [
+        "No electrons are shared between the two atoms at all",
         "Electrons are shared completely equally between the two atoms",
-        "Electrons are shared unequally between two atoms due to a difference in electronegativity, creating partial charges",
         "One atom fully transfers an electron to the other, creating full positive and negative ions",
-        "No electrons are shared between the two atoms at all"
+        "Electrons are shared unequally between two atoms due to a difference in electronegativity, creating partial charges"
       ],
-      correct: 1,
-      explanation: "A polar covalent bond, like the O–H bonds in water, involves atoms sharing electrons unevenly because one atom (the more electronegative one) pulls the shared electrons closer to itself. This creates partial charges (δ+ and δ−) without fully transferring an electron — full electron transfer, producing complete ions, is what defines an ionic bond instead."
+      "correct": 3,
+      "explanation": "A polar covalent bond, like the O–H bonds in water, involves atoms sharing electrons unevenly because one atom (the more electronegative one) pulls the shared electrons closer to itself. This creates partial charges (δ+ and δ−) without fully transferring an electron — full electron transfer, producing complete ions, is what defines an ionic bond instead."
     },
     {
-      id: "1-26",
-      topic: "1.1 Water and Life",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A hypothetical molecule, XH2, has the same electronegativity difference between X and H as oxygen has with hydrogen, but XH2 is perfectly linear (180° bond angle) rather than bent. Predict how this molecule's ability to hydrogen bond compares to water's, and justify your answer.",
-      choices: [
-        "XH2 would hydrogen bond identically to water, since bond angle doesn't affect polarity",
-        "XH2 would be nonpolar overall despite having polar individual bonds, because the two bond dipoles would point in exactly opposite directions and cancel out — greatly reducing its ability to hydrogen bond compared to water",
+      "id": "1-26",
+      "topic": "1.1 Water and Life",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A hypothetical molecule, XH2, has the same electronegativity difference between X and H as oxygen has with hydrogen, but XH2 is perfectly linear (180° bond angle) rather than bent. Predict how this molecule's ability to hydrogen bond compares to water's, and justify your answer.",
+      "choices": [
         "XH2 would be more polar than water because it is more symmetrical",
-        "XH2 would form ionic bonds instead of hydrogen bonds due to its shape"
+        "XH2 would form ionic bonds instead of hydrogen bonds due to its shape",
+        "XH2 would be nonpolar overall despite having polar individual bonds, because the two bond dipoles would point in exactly opposite directions and cancel out — greatly reducing its ability to hydrogen bond compared to water",
+        "XH2 would hydrogen bond identically to water, since bond angle doesn't affect polarity"
       ],
-      correct: 1,
-      explanation: "This is a genuinely higher-level question: even with polar individual bonds, molecular geometry determines overall polarity. In a linear molecule, the two individual bond dipoles point in exactly opposite directions and cancel each other out vectorially, making the molecule nonpolar overall (this is the real reason CO2, despite having polar C=O bonds, is a nonpolar molecule). Water's bent shape is what prevents its two O–H dipoles from canceling, which is precisely why bond angle — not just electronegativity difference — is essential to water's polarity and hydrogen-bonding ability."
+      "correct": 2,
+      "explanation": "This is a genuinely higher-level question: even with polar individual bonds, molecular geometry determines overall polarity. In a linear molecule, the two individual bond dipoles point in exactly opposite directions and cancel each other out vectorially, making the molecule nonpolar overall (this is the real reason CO2, despite having polar C=O bonds, is a nonpolar molecule). Water's bent shape is what prevents its two O–H dipoles from canceling, which is precisely why bond angle — not just electronegativity difference — is essential to water's polarity and hydrogen-bonding ability."
     },
     {
-      id: "1-27",
-      topic: "1.1 Water and Life",
-      stem: "Sweating helps cool the human body as sweat evaporates from the skin. This cooling effect is best explained by which property of water?",
-      choices: [
+      "id": "1-27",
+      "topic": "1.1 Water and Life",
+      "stem": "Sweating helps cool the human body as sweat evaporates from the skin. This cooling effect is best explained by which property of water?",
+      "choices": [
         "Water's high heat of vaporization, meaning it takes a large amount of energy to convert liquid water to vapor — energy that is drawn from body heat, cooling the skin",
-        "Water's low density as a solid",
+        "Water's acidic pH",
         "Water's ability to act as a universal solvent",
-        "Water's acidic pH"
+        "Water's low density as a solid"
       ],
-      correct: 0,
-      explanation: "Converting liquid water to water vapor requires breaking a large number of hydrogen bonds, which takes substantial energy — this is why water has a high heat of vaporization, a close relative of its high specific heat. When sweat evaporates, it draws that needed energy from the surrounding skin in the form of heat, which is why evaporating sweat has a cooling effect on the body."
+      "correct": 0,
+      "explanation": "Converting liquid water to water vapor requires breaking a large number of hydrogen bonds, which takes substantial energy — this is why water has a high heat of vaporization, a close relative of its high specific heat. When sweat evaporates, it draws that needed energy from the surrounding skin in the form of heat, which is why evaporating sweat has a cooling effect on the body."
     },
     {
-      id: "1-28",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "A student mixes equal volumes of a pH 2 solution and a pH 10 solution. Which statement about the resulting pH is most accurate?",
-      choices: [
-        "The resulting pH will be exactly 6, the simple average of 2 and 10",
-        "The resulting pH cannot be determined from pH values alone without knowing the specific concentrations and identities of the acid and base involved",
+      "id": "1-28",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "A student mixes equal volumes of a pH 2 solution and a pH 10 solution. Which statement about the resulting pH is most accurate?",
+      "choices": [
+        "The resulting pH will be 2, since acids always dominate",
         "The resulting pH will always be 7, neutral",
-        "The resulting pH will be 2, since acids always dominate"
+        "The resulting pH cannot be determined from pH values alone without knowing the specific concentrations and identities of the acid and base involved",
+        "The resulting pH will be exactly 6, the simple average of 2 and 10"
       ],
-      correct: 1,
-      explanation: "This tests whether students understand that pH is a logarithmic, not linear, scale — you cannot average pH values directly the way you would average two temperatures. The actual resulting pH depends on the exact H⁺ and OH⁻ concentrations (which require converting pH values back into concentrations first), the strength of the acid/base (strong vs. weak), and their specific chemical identities — none of which can be determined from the pH numbers alone."
+      "correct": 2,
+      "explanation": "This tests whether students understand that pH is a logarithmic, not linear, scale — you cannot average pH values directly the way you would average two temperatures. The actual resulting pH depends on the exact H⁺ and OH⁻ concentrations (which require converting pH values back into concentrations first), the strength of the acid/base (strong vs. weak), and their specific chemical identities — none of which can be determined from the pH numbers alone."
     },
     {
-      id: "1-29",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "Which of the following best defines a base, according to the standard biological definition used in this course?",
-      choices: [
+      "id": "1-29",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "Which of the following best defines a base, according to the standard biological definition used in this course?",
+      "choices": [
+        "A substance that cannot dissolve in water",
         "A substance that always contains hydroxide ions in its molecular formula",
-        "A substance that decreases the H⁺ concentration of a solution, either by donating OH⁻ or by accepting H⁺",
         "A substance with a pH exactly equal to 14",
-        "A substance that cannot dissolve in water"
+        "A substance that decreases the H⁺ concentration of a solution, either by donating OH⁻ or by accepting H⁺"
       ],
-      correct: 1,
-      explanation: "A base is defined functionally by its effect on H⁺ concentration, not by its exact chemical formula. Some bases directly donate OH⁻ (like NaOH), while others work by accepting free H⁺ from solution (like ammonia, NH3, which becomes NH4⁺). Both mechanisms lower the solution's H⁺ concentration and raise its pH, which is what actually defines something as a base."
+      "correct": 3,
+      "explanation": "A base is defined functionally by its effect on H⁺ concentration, not by its exact chemical formula. Some bases directly donate OH⁻ (like NaOH), while others work by accepting free H⁺ from solution (like ammonia, NH3, which becomes NH4⁺). Both mechanisms lower the solution's H⁺ concentration and raise its pH, which is what actually defines something as a base."
     },
     {
-      id: "1-30",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "A buffered solution is titrated with a strong acid. On a graph of pH vs. volume of acid added, what happens once the buffer's capacity is fully used up?",
-      choices: [
+      "id": "1-30",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "A buffered solution is titrated with a strong acid. On a graph of pH vs. volume of acid added, what happens once the buffer's capacity is fully used up?",
+      "choices": [
+        "The graph becomes perfectly flat",
         "The pH continues to change very slowly and gradually forever",
-        "The pH begins to drop sharply, since there is no more buffer available to absorb the added H⁺",
         "The pH immediately returns to 7",
-        "The graph becomes perfectly flat"
+        "The pH begins to drop sharply, since there is no more buffer available to absorb the added H⁺"
       ],
-      correct: 1,
-      explanation: "Once all of the buffer's H⁺-absorbing component has been converted (its capacity is exhausted), any further acid added has nothing left to neutralize it, so free H⁺ builds up rapidly and pH drops sharply — this is the steep portion of a titration curve that follows the flat buffering plateau."
+      "correct": 3,
+      "explanation": "Once all of the buffer's H⁺-absorbing component has been converted (its capacity is exhausted), any further acid added has nothing left to neutralize it, so free H⁺ builds up rapidly and pH drops sharply — this is the steep portion of a titration curve that follows the flat buffering plateau."
     },
     {
-      id: "1-31",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "Carbonic acid (H2CO3) can donate an H⁺ to become bicarbonate (HCO3⁻), and bicarbonate can accept an H⁺ to become carbonic acid again. This pair is a good biological buffer primarily because:",
-      choices: [
+      "id": "1-31",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "Carbonic acid (H2CO3) can donate an H⁺ to become bicarbonate (HCO3⁻), and bicarbonate can accept an H⁺ to become carbonic acid again. This pair is a good biological buffer primarily because:",
+      "choices": [
         "Carbonic acid is a strong acid, so it reacts completely and instantly",
         "The system can respond in either direction — absorbing excess H⁺ by converting to carbonic acid, or releasing H⁺ by converting to bicarbonate — depending on which is needed to resist a pH change",
         "Bicarbonate is a solid that precipitates out of solution when pH changes",
         "Carbonic acid and bicarbonate cannot interconvert once formed"
       ],
-      correct: 1,
-      explanation: "An effective buffer pair can shift in either direction to counteract whatever pH change is occurring: if H⁺ is added, bicarbonate mops it up by becoming carbonic acid; if H⁺ is removed, carbonic acid can release H⁺ back into solution to replace it. This reversible, two-way responsiveness — not simply being a strong acid — is what makes a conjugate acid-base pair function as a buffer."
+      "correct": 1,
+      "explanation": "An effective buffer pair can shift in either direction to counteract whatever pH change is occurring: if H⁺ is added, bicarbonate mops it up by becoming carbonic acid; if H⁺ is removed, carbonic acid can release H⁺ back into solution to replace it. This reversible, two-way responsiveness — not simply being a strong acid — is what makes a conjugate acid-base pair function as a buffer."
     },
     {
-      id: "1-32",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "An enzyme has an optimal pH of 7.0 and begins losing activity outside the range of about 6.0–8.0. Which explanation for this pattern is most accurate?",
-      choices: [
-        "Outside this range, the enzyme's covalent peptide bonds break apart entirely",
-        "Outside this range, changes in H⁺ concentration alter the charge on ionizable R-groups, disrupting the weak interactions that hold the enzyme's active site in its precise functional shape",
+      "id": "1-32",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "An enzyme has an optimal pH of 7.0 and begins losing activity outside the range of about 6.0–8.0. Which explanation for this pattern is most accurate?",
+      "choices": [
+        "Outside this range, the enzyme's substrate becomes radioactive",
         "Outside this range, the enzyme converts into a completely different molecule",
-        "Outside this range, the enzyme's substrate becomes radioactive"
+        "Outside this range, the enzyme's covalent peptide bonds break apart entirely",
+        "Outside this range, changes in H⁺ concentration alter the charge on ionizable R-groups, disrupting the weak interactions that hold the enzyme's active site in its precise functional shape"
       ],
-      correct: 1,
-      explanation: "An enzyme's narrow optimal pH range reflects the sensitivity of its tertiary structure to pH-driven changes in R-group charge. Shifting pH beyond the optimal range changes which R-groups are protonated/deprotonated, disrupting the ionic and hydrogen bonds maintaining the enzyme's shape — not breaking its primary-structure peptide bonds, which are far more resistant to pH changes."
+      "correct": 3,
+      "explanation": "An enzyme's narrow optimal pH range reflects the sensitivity of its tertiary structure to pH-driven changes in R-group charge. Shifting pH beyond the optimal range changes which R-groups are protonated/deprotonated, disrupting the ionic and hydrogen bonds maintaining the enzyme's shape — not breaking its primary-structure peptide bonds, which are far more resistant to pH changes."
     },
     {
-      id: "1-33",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "A solution has an H⁺ concentration of 1 × 10⁻⁵ M. What is its pH?",
-      choices: [
-        "5",
+      "id": "1-33",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "A solution has an H⁺ concentration of 1 × 10⁻⁵ M. What is its pH?",
+      "choices": [
         "9",
         "-5",
-        "1 × 10⁻⁵"
+        "1 × 10⁻⁵",
+        "5"
       ],
-      correct: 0,
-      explanation: "pH = −log[H⁺]. Here, [H⁺] = 1 × 10⁻⁵ M, so pH = −log(1 × 10⁻⁵) = −(−5) = 5. A quick shortcut: when H⁺ concentration is written as a clean power of 10, the pH is simply the absolute value of that exponent."
+      "correct": 3,
+      "explanation": "pH = −log[H⁺]. Here, [H⁺] = 1 × 10⁻⁵ M, so pH = −log(1 × 10⁻⁵) = −(−5) = 5. A quick shortcut: when H⁺ concentration is written as a clean power of 10, the pH is simply the absolute value of that exponent."
     },
     {
-      id: "1-34",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "Which scenario would most directly threaten cellular function by disrupting protein structure, independent of temperature?",
-      choices: [
-        "A sudden, large shift in intracellular pH",
+      "id": "1-34",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "Which scenario would most directly threaten cellular function by disrupting protein structure, independent of temperature?",
+      "choices": [
+        "A cell absorbing glucose through a membrane transporter",
         "A cell dividing normally during mitosis",
-        "A cell producing more ATP than usual during exercise",
-        "A cell absorbing glucose through a membrane transporter"
+        "A sudden, large shift in intracellular pH",
+        "A cell producing more ATP than usual during exercise"
       ],
-      correct: 0,
-      explanation: "A large, sudden pH shift disrupts the weak, non-covalent interactions responsible for protein tertiary structure, independent of any change in temperature. The other three options describe normal cellular processes that don't inherently threaten protein folding."
+      "correct": 2,
+      "explanation": "A large, sudden pH shift disrupts the weak, non-covalent interactions responsible for protein tertiary structure, independent of any change in temperature. The other three options describe normal cellular processes that don't inherently threaten protein folding."
     },
     {
-      id: "1-35",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "Human blood pH normally stays within 7.35–7.45. A patient's blood pH drops to 7.1, a condition called acidosis. Based on what you know about pH and protein structure, which symptom would be a biologically reasonable consequence?",
-      choices: [
+      "id": "1-35",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "Human blood pH normally stays within 7.35–7.45. A patient's blood pH drops to 7.1, a condition called acidosis. Based on what you know about pH and protein structure, which symptom would be a biologically reasonable consequence?",
+      "choices": [
         "Improved enzyme efficiency throughout the body",
-        "Widespread disruption of enzyme function, since many blood and tissue enzymes are optimized for a much narrower pH range than 7.1",
+        "Immediate conversion of all blood proteins into carbohydrates",
         "No physiological effect at all, since 7.1 is still considered a neutral pH",
-        "Immediate conversion of all blood proteins into carbohydrates"
+        "Widespread disruption of enzyme function, since many blood and tissue enzymes are optimized for a much narrower pH range than 7.1"
       ],
-      correct: 1,
-      explanation: "Even though 7.1 might seem \"close to neutral\" on paper, it represents a significant departure from blood's normal tightly-regulated 7.35–7.45 range. Many enzymes are optimized to function within that narrow band, so a drop to 7.1 can meaningfully disrupt R-group charge patterns and denature or impair enzyme function across multiple organ systems — which is exactly why acidosis is a serious medical condition."
+      "correct": 3,
+      "explanation": "Even though 7.1 might seem \"close to neutral\" on paper, it represents a significant departure from blood's normal tightly-regulated 7.35–7.45 range. Many enzymes are optimized to function within that narrow band, so a drop to 7.1 can meaningfully disrupt R-group charge patterns and denature or impair enzyme function across multiple organ systems — which is exactly why acidosis is a serious medical condition."
     },
     {
-      id: "1-36",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A weak acid buffer system is most effective at resisting pH change when the solution's pH is close to the buffer's own characteristic pKa (the pH at which the acid and its conjugate base are present in equal amounts). Based on this, predict which buffer would be best suited to protect a solution meant to stay near pH 7.4.",
-      choices: [
-        "A buffer with a pKa of 2.0",
-        "A buffer with a pKa close to 7.4, since the buffer works best when the solution pH is near its pKa",
+      "id": "1-36",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A weak acid buffer system is most effective at resisting pH change when the solution's pH is close to the buffer's own characteristic pKa (the pH at which the acid and its conjugate base are present in equal amounts). Based on this, predict which buffer would be best suited to protect a solution meant to stay near pH 7.4.",
+      "choices": [
         "A buffer with a pKa of 12.0",
-        "pKa is irrelevant to buffer selection"
+        "A buffer with a pKa of 2.0",
+        "pKa is irrelevant to buffer selection",
+        "A buffer with a pKa close to 7.4, since the buffer works best when the solution pH is near its pKa"
       ],
-      correct: 1,
-      explanation: "This question extends the buffer concept slightly beyond the core AP curriculum by introducing pKa, but the underlying logic follows directly from what you already know: a buffer works by having roughly equal amounts of its acid and conjugate base forms available to absorb either added H⁺ or added OH⁻. That balance point is the pKa, so a buffer is most effective right around its own pKa — choosing one with a pKa far from the target pH (like 2.0 or 12.0) would leave the buffer mostly in one form, with much less capacity to resist change in the direction that matters."
+      "correct": 3,
+      "explanation": "This question extends the buffer concept slightly beyond the core AP curriculum by introducing pKa, but the underlying logic follows directly from what you already know: a buffer works by having roughly equal amounts of its acid and conjugate base forms available to absorb either added H⁺ or added OH⁻. That balance point is the pKa, so a buffer is most effective right around its own pKa — choosing one with a pKa far from the target pH (like 2.0 or 12.0) would leave the buffer mostly in one form, with much less capacity to resist change in the direction that matters."
     },
     {
-      id: "1-37",
-      topic: "1.2 pH, Acids, Bases, Buffers",
-      stem: "A student measures a solution's pH before and after adding a small amount of strong acid. The pH barely changes. What can the student reasonably conclude?",
-      choices: [
+      "id": "1-37",
+      "topic": "1.2 pH, Acids, Bases, Buffers",
+      "stem": "A student measures a solution's pH before and after adding a small amount of strong acid. The pH barely changes. What can the student reasonably conclude?",
+      "choices": [
         "The solution contains no water",
-        "The solution likely contains a buffer system that absorbed the added H⁺",
         "The strong acid must not have actually been added",
-        "The solution's temperature must have decreased"
+        "The solution's temperature must have decreased",
+        "The solution likely contains a buffer system that absorbed the added H⁺"
       ],
-      correct: 1,
-      explanation: "A solution's resistance to pH change despite added acid is the defining signature of a buffer at work — the buffer's base component is absorbing the added H⁺ rather than letting it accumulate freely in solution, which is exactly why pH barely shifts."
+      "correct": 3,
+      "explanation": "A solution's resistance to pH change despite added acid is the defining signature of a buffer at work — the buffer's base component is absorbing the added H⁺ rather than letting it accumulate freely in solution, which is exactly why pH barely shifts."
     },
     {
-      id: "1-38",
-      topic: "1.3 Carbon Bonding",
-      stem: "Silicon, like carbon, has four valence electrons and can form four covalent bonds. Yet biology on Earth is carbon-based, not silicon-based. Which factor best explains carbon's advantage?",
-      choices: [
+      "id": "1-38",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Silicon, like carbon, has four valence electrons and can form four covalent bonds. Yet biology on Earth is carbon-based, not silicon-based. Which factor best explains carbon's advantage?",
+      "choices": [
         "Silicon cannot form any covalent bonds at all",
-        "Carbon-carbon bonds are relatively strong and stable at biological temperatures, while larger silicon-based chains tend to be less stable, limiting the complexity of molecules silicon can reliably form",
+        "Carbon is radioactive, which silicon is not",
         "Silicon has more than four valence electrons",
-        "Carbon is radioactive, which silicon is not"
+        "Carbon-carbon bonds are relatively strong and stable at biological temperatures, while larger silicon-based chains tend to be less stable, limiting the complexity of molecules silicon can reliably form"
       ],
-      correct: 1,
-      explanation: "This is a classic \"why carbon and not X\" AP-style application question. Silicon does share carbon's four-bond capability, but carbon-carbon bonds are notably more stable across the range of temperatures where biological reactions happen, allowing carbon to build the long, stable chains, rings, and branches essential to complex biomolecules. Longer silicon chains tend to be much less stable, which is a major reason silicon-based biology isn't observed."
+      "correct": 3,
+      "explanation": "This is a classic \"why carbon and not X\" AP-style application question. Silicon does share carbon's four-bond capability, but carbon-carbon bonds are notably more stable across the range of temperatures where biological reactions happen, allowing carbon to build the long, stable chains, rings, and branches essential to complex biomolecules. Longer silicon chains tend to be much less stable, which is a major reason silicon-based biology isn't observed."
     },
     {
-      id: "1-39",
-      topic: "1.3 Carbon Bonding",
-      stem: "A molecule has an –NH2 group attached to its carbon skeleton. Which behavior would you predict for this region?",
-      choices: [
+      "id": "1-39",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "A molecule has an –NH2 group attached to its carbon skeleton. Which behavior would you predict for this region?",
+      "choices": [
+        "It will remain completely nonpolar and unreactive",
         "It will tend to accept an H⁺, becoming positively charged and behaving as a base",
         "It will tend to donate an H⁺, becoming negatively charged and behaving as an acid",
-        "It will remain completely nonpolar and unreactive",
         "It will only interact with other amino groups"
       ],
-      correct: 0,
-      explanation: "The amino group (–NH2) has a lone pair of electrons on its nitrogen that can accept a free H⁺, becoming –NH3⁺ and taking on a positive charge — this is what makes amino groups behave as weak bases. This is the functional-group counterpart to the acidic carboxyl group, and together they're what give amino acids their name and their characteristic charge behavior."
+      "correct": 1,
+      "explanation": "The amino group (–NH2) has a lone pair of electrons on its nitrogen that can accept a free H⁺, becoming –NH3⁺ and taking on a positive charge — this is what makes amino groups behave as weak bases. This is the functional-group counterpart to the acidic carboxyl group, and together they're what give amino acids their name and their characteristic charge behavior."
     },
     {
-      id: "1-40",
-      topic: "1.3 Carbon Bonding",
-      stem: "Which of the following molecules would you expect to be the LEAST soluble in water, based on its functional groups?",
-      choices: [
-        "A molecule covered entirely in hydroxyl groups",
+      "id": "1-40",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Which of the following molecules would you expect to be the LEAST soluble in water, based on its functional groups?",
+      "choices": [
         "A molecule covered entirely in carboxyl groups",
+        "A molecule covered entirely in amino groups",
         "A molecule made up almost entirely of methyl groups with no polar functional groups at all",
-        "A molecule covered entirely in amino groups"
+        "A molecule covered entirely in hydroxyl groups"
       ],
-      correct: 2,
-      explanation: "Methyl groups (–CH3) are nonpolar and cannot hydrogen bond with water. A molecule dominated by methyl groups, lacking any polar functional groups, would be hydrophobic and poorly soluble in water — unlike hydroxyl, carboxyl, and amino groups, which are all polar or chargeable and promote water solubility."
+      "correct": 2,
+      "explanation": "Methyl groups (–CH3) are nonpolar and cannot hydrogen bond with water. A molecule dominated by methyl groups, lacking any polar functional groups, would be hydrophobic and poorly soluble in water — unlike hydroxyl, carboxyl, and amino groups, which are all polar or chargeable and promote water solubility."
     },
     {
-      id: "1-41",
-      topic: "1.3 Carbon Bonding",
-      stem: "Two isomers of a molecule have the exact same chemical formula but different arrangements of atoms in space, resulting in different functional group placements. Which statement about these isomers is most accurate?",
-      choices: [
+      "id": "1-41",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Two isomers of a molecule have the exact same chemical formula but different arrangements of atoms in space, resulting in different functional group placements. Which statement about these isomers is most accurate?",
+      "choices": [
         "They will always have identical biological properties, since their formula is the same",
-        "They may have very different biological properties, since function often depends on the precise 3D arrangement and placement of functional groups, not just overall atomic composition",
         "Isomers cannot exist among biological molecules",
-        "One isomer will always be radioactive"
+        "One isomer will always be radioactive",
+        "They may have very different biological properties, since function often depends on the precise 3D arrangement and placement of functional groups, not just overall atomic composition"
       ],
-      correct: 1,
-      explanation: "Chemical formula tells you what atoms are present but not how they're arranged — and in biology, arrangement is often everything. Two isomers can have identical formulas but dramatically different shapes, functional group positions, and therefore biological behavior (glucose and fructose, for instance, are structural isomers with the same formula but different properties). This is a preview of how important 3D shape will be throughout the rest of this course."
+      "correct": 3,
+      "explanation": "Chemical formula tells you what atoms are present but not how they're arranged — and in biology, arrangement is often everything. Two isomers can have identical formulas but dramatically different shapes, functional group positions, and therefore biological behavior (glucose and fructose, for instance, are structural isomers with the same formula but different properties). This is a preview of how important 3D shape will be throughout the rest of this course."
     },
     {
-      id: "1-42",
-      topic: "1.3 Carbon Bonding",
-      stem: "A biochemist wants to design a molecule that will readily form disulfide bridges with cysteine residues in a protein. Which functional group should this molecule contain?",
-      choices: [
-        "Hydroxyl (–OH)",
-        "Sulfhydryl (–SH)",
+      "id": "1-42",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "A biochemist wants to design a molecule that will readily form disulfide bridges with cysteine residues in a protein. Which functional group should this molecule contain?",
+      "choices": [
         "Amino (–NH2)",
-        "Carbonyl (C=O)"
+        "Carbonyl (C=O)",
+        "Hydroxyl (–OH)",
+        "Sulfhydryl (–SH)"
       ],
-      correct: 1,
-      explanation: "Disulfide bridges are covalent bonds that specifically form between the sulfur atoms of two sulfhydryl (–SH) groups, typically found on cysteine's R-group. A molecule intended to form disulfide bridges would need a sulfhydryl group of its own to react with a cysteine's sulfur."
+      "correct": 3,
+      "explanation": "Disulfide bridges are covalent bonds that specifically form between the sulfur atoms of two sulfhydryl (–SH) groups, typically found on cysteine's R-group. A molecule intended to form disulfide bridges would need a sulfhydryl group of its own to react with a cysteine's sulfur."
     },
     {
-      id: "1-43",
-      topic: "1.3 Carbon Bonding",
-      stem: "Which functional group is most directly responsible for ATP's ability to store and release usable energy?",
-      choices: [
-        "Hydroxyl",
+      "id": "1-43",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Which functional group is most directly responsible for ATP's ability to store and release usable energy?",
+      "choices": [
         "Phosphate",
+        "Sulfhydryl",
         "Amino",
-        "Sulfhydryl"
+        "Hydroxyl"
       ],
-      correct: 1,
-      explanation: "ATP's three linked phosphate groups are negatively charged and repel each other, storing potential energy in the bonds holding them together. Breaking the bond to the terminal phosphate releases that stored energy, which is why the phosphate functional group — not any of the others — is central to ATP's role as the cell's energy currency."
+      "correct": 0,
+      "explanation": "ATP's three linked phosphate groups are negatively charged and repel each other, storing potential energy in the bonds holding them together. Breaking the bond to the terminal phosphate releases that stored energy, which is why the phosphate functional group — not any of the others — is central to ATP's role as the cell's energy currency."
     },
     {
-      id: "1-44",
-      topic: "1.3 Carbon Bonding",
-      stem: "A carbon atom forms bonds to four different atoms or groups, all different from one another. This carbon is called a chiral center, and molecules built around it can exist as mirror-image forms (enantiomers) that are not superimposable. Why does this matter biologically?",
-      choices: [
+      "id": "1-44",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "A carbon atom forms bonds to four different atoms or groups, all different from one another. This carbon is called a chiral center, and molecules built around it can exist as mirror-image forms (enantiomers) that are not superimposable. Why does this matter biologically?",
+      "choices": [
         "It doesn't matter — enantiomers always behave identically in biological systems",
+        "Chirality only affects a molecule's color, not its function",
         "Enzymes and receptors, which are themselves built from chiral amino acids, often bind only one specific enantiomer of a molecule, so the two mirror-image forms can have very different biological effects",
-        "Enantiomers can only form in nonliving chemical systems, never in cells",
-        "Chirality only affects a molecule's color, not its function"
+        "Enantiomers can only form in nonliving chemical systems, never in cells"
       ],
-      correct: 1,
-      explanation: "This connects carbon's four-bond geometry to a real, testable biological consequence: because enzymes and receptors have their own specific 3D chiral shape, they often fit only one enantiomer of a target molecule, the way a right hand fits a right-handed glove but not a left-handed one. This is why, biologically, one enantiomer of a drug or molecule can be effective or safe while its mirror image is inactive or even harmful — chirality is a direct, testable consequence of carbon's four-bond geometry."
+      "correct": 2,
+      "explanation": "This connects carbon's four-bond geometry to a real, testable biological consequence: because enzymes and receptors have their own specific 3D chiral shape, they often fit only one enantiomer of a target molecule, the way a right hand fits a right-handed glove but not a left-handed one. This is why, biologically, one enantiomer of a drug or molecule can be effective or safe while its mirror image is inactive or even harmful — chirality is a direct, testable consequence of carbon's four-bond geometry."
     },
     {
-      id: "1-45",
-      topic: "1.3 Carbon Bonding",
-      stem: "Which pair correctly matches a functional group with an accurate description of its chemical behavior?",
-      choices: [
-        "Carboxyl group — behaves as a base by accepting H⁺",
+      "id": "1-45",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Which pair correctly matches a functional group with an accurate description of its chemical behavior?",
+      "choices": [
         "Amino group — behaves as an acid by donating H⁺",
-        "Hydroxyl group — polar, increases a molecule's solubility in water",
-        "Methyl group — polar, decreases a molecule's solubility in water"
+        "Carboxyl group — behaves as a base by accepting H⁺",
+        "Methyl group — polar, decreases a molecule's solubility in water",
+        "Hydroxyl group — polar, increases a molecule's solubility in water"
       ],
-      correct: 2,
-      explanation: "Hydroxyl groups are polar (due to the electronegative oxygen) and readily hydrogen bond with water, increasing solubility — this pairing is correct. Carboxyl groups actually behave as acids (donating H⁺), amino groups behave as bases (accepting H⁺), and methyl groups are nonpolar, so the other three pairings each have the behavior reversed."
+      "correct": 3,
+      "explanation": "Hydroxyl groups are polar (due to the electronegative oxygen) and readily hydrogen bond with water, increasing solubility — this pairing is correct. Carboxyl groups actually behave as acids (donating H⁺), amino groups behave as bases (accepting H⁺), and methyl groups are nonpolar, so the other three pairings each have the behavior reversed."
     },
     {
-      id: "1-46",
-      topic: "1.3 Carbon Bonding",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A researcher wants to increase a drug molecule's ability to cross the hydrophobic interior of a cell membrane, without changing its core structure. Which modification would most plausibly help achieve this?",
-      choices: [
-        "Adding several additional carboxyl groups to the molecule",
+      "id": "1-46",
+      "topic": "1.3 Carbon Bonding",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher wants to increase a drug molecule's ability to cross the hydrophobic interior of a cell membrane, without changing its core structure. Which modification would most plausibly help achieve this?",
+      "choices": [
         "Adding several additional phosphate groups to the molecule",
+        "Adding several additional carboxyl groups to the molecule",
         "Replacing polar hydroxyl groups with nonpolar methyl groups where possible",
         "Adding an additional amino group to the molecule"
       ],
-      correct: 2,
-      explanation: "This applies functional group chemistry to a genuinely applied pharmacology-style scenario. The interior of a phospholipid bilayer is hydrophobic, so molecules that are more nonpolar cross it more easily by simple diffusion. Replacing polar hydroxyl groups (which favor water solubility) with nonpolar methyl groups (which favor lipid solubility) would make the molecule more hydrophobic overall, improving its ability to passively cross the membrane's hydrophobic core — while adding more carboxyl, phosphate, or amino groups would all make the molecule more polar/charged and less membrane-permeable."
+      "correct": 2,
+      "explanation": "This applies functional group chemistry to a genuinely applied pharmacology-style scenario. The interior of a phospholipid bilayer is hydrophobic, so molecules that are more nonpolar cross it more easily by simple diffusion. Replacing polar hydroxyl groups (which favor water solubility) with nonpolar methyl groups (which favor lipid solubility) would make the molecule more hydrophobic overall, improving its ability to passively cross the membrane's hydrophobic core — while adding more carboxyl, phosphate, or amino groups would all make the molecule more polar/charged and less membrane-permeable."
     },
     {
-      id: "1-47",
-      topic: "1.3 Carbon Bonding",
-      stem: "Which statement best describes why functional groups are considered more useful to memorize by behavior than by exact chemical formula alone?",
-      choices: [
-        "Functional groups behave consistently regardless of which larger molecule they're attached to, so knowing a group's behavior lets you predict properties of many different molecules at once",
-        "Functional groups never appear in more than one type of molecule",
+      "id": "1-47",
+      "topic": "1.3 Carbon Bonding",
+      "stem": "Which statement best describes why functional groups are considered more useful to memorize by behavior than by exact chemical formula alone?",
+      "choices": [
         "Chemical formulas are more important than functional groups for predicting biological behavior",
-        "Functional groups have no relationship to a molecule's overall properties"
+        "Functional groups never appear in more than one type of molecule",
+        "Functional groups have no relationship to a molecule's overall properties",
+        "Functional groups behave consistently regardless of which larger molecule they're attached to, so knowing a group's behavior lets you predict properties of many different molecules at once"
       ],
-      correct: 0,
-      explanation: "This is really a study-skills-meets-content question: functional groups are worth learning as reusable, predictable units precisely because their behavior transfers across contexts. Once you know a carboxyl group is acidic wherever it appears, you can predict that property in amino acids, fatty acids, or any other molecule containing it — which is far more efficient (and more testable on unfamiliar-molecule questions) than memorizing each molecule's properties individually."
+      "correct": 3,
+      "explanation": "This is really a study-skills-meets-content question: functional groups are worth learning as reusable, predictable units precisely because their behavior transfers across contexts. Once you know a carboxyl group is acidic wherever it appears, you can predict that property in amino acids, fatty acids, or any other molecule containing it — which is far more efficient (and more testable on unfamiliar-molecule questions) than memorizing each molecule's properties individually."
     },
     {
-      id: "1-48",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "A scientist hydrolyzes an unknown polymer and finds that its only breakdown products are glucose molecules. Based on this alone, which conclusion is justified?",
-      choices: [
+      "id": "1-48",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "A scientist hydrolyzes an unknown polymer and finds that its only breakdown products are glucose molecules. Based on this alone, which conclusion is justified?",
+      "choices": [
         "The polymer must be cellulose specifically",
-        "The polymer is a polysaccharide made of glucose monomers, but its specific identity (starch, glycogen, or cellulose) cannot be determined from monomer identity alone",
         "The polymer must be a protein",
-        "The polymer cannot be broken down further"
+        "The polymer cannot be broken down further",
+        "The polymer is a polysaccharide made of glucose monomers, but its specific identity (starch, glycogen, or cellulose) cannot be determined from monomer identity alone"
       ],
-      correct: 1,
-      explanation: "Knowing only that a polymer's monomers are glucose tells you it's a glucose-based polysaccharide, but starch, glycogen, and cellulose are ALL built from glucose — what distinguishes them is the specific glycosidic bond geometry linking those glucose units, which hydrolysis into individual monomers wouldn't reveal. Additional structural information (like digestibility, branching pattern, or solubility) would be needed to identify the specific polysaccharide."
+      "correct": 3,
+      "explanation": "Knowing only that a polymer's monomers are glucose tells you it's a glucose-based polysaccharide, but starch, glycogen, and cellulose are ALL built from glucose — what distinguishes them is the specific glycosidic bond geometry linking those glucose units, which hydrolysis into individual monomers wouldn't reveal. Additional structural information (like digestibility, branching pattern, or solubility) would be needed to identify the specific polysaccharide."
     },
     {
-      id: "1-49",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Which of the following would most directly indicate that a molecule is a disaccharide rather than a monosaccharide?",
-      choices: [
-        "The molecule contains exactly one glycosidic bond linking two monosaccharide units, formed by dehydration synthesis",
+      "id": "1-49",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Which of the following would most directly indicate that a molecule is a disaccharide rather than a monosaccharide?",
+      "choices": [
         "The molecule has the formula C6H12O6",
-        "The molecule is soluble in water",
-        "The molecule contains a phosphate group"
+        "The molecule contains a phosphate group",
+        "The molecule contains exactly one glycosidic bond linking two monosaccharide units, formed by dehydration synthesis",
+        "The molecule is soluble in water"
       ],
-      correct: 0,
-      explanation: "A disaccharide is, by definition, two monosaccharides joined by a single glycosidic bond via dehydration synthesis (like sucrose = glucose + fructose). Having the formula C6H12O6 actually describes single monosaccharides, not disaccharides; water solubility and phosphate content don't distinguish mono- from disaccharides at all."
+      "correct": 2,
+      "explanation": "A disaccharide is, by definition, two monosaccharides joined by a single glycosidic bond via dehydration synthesis (like sucrose = glucose + fructose). Having the formula C6H12O6 actually describes single monosaccharides, not disaccharides; water solubility and phosphate content don't distinguish mono- from disaccharides at all."
     },
     {
-      id: "1-50",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "A cell needs to rapidly access stored glucose for an urgent burst of energy. Which storage polysaccharide's structure makes it especially well-suited for this, compared to a less-branched alternative?",
-      choices: [
+      "id": "1-50",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "A cell needs to rapidly access stored glucose for an urgent burst of energy. Which storage polysaccharide's structure makes it especially well-suited for this, compared to a less-branched alternative?",
+      "choices": [
         "Cellulose, because it is the most rigid",
-        "Glycogen, because its highly branched structure provides many more free ends where enzymes can simultaneously begin breaking off glucose units, releasing glucose faster",
+        "Glycogen, because it is hydrophobic",
         "A completely unbranched glucose chain, because it is simplest to break down",
-        "Glycogen, because it is hydrophobic"
+        "Glycogen, because its highly branched structure provides many more free ends where enzymes can simultaneously begin breaking off glucose units, releasing glucose faster"
       ],
-      correct: 1,
-      explanation: "Glycogen's extensive branching means it has many free ends exposed at once, and glucose-releasing enzymes can act on multiple branch ends simultaneously rather than working through one long chain sequentially. This structural feature — not chain simplicity — is what allows animals to mobilize stored glucose quickly during sudden energy demand, which is exactly the kind of situation glycogen (versus a hypothetical unbranched storage molecule) is built for."
+      "correct": 3,
+      "explanation": "Glycogen's extensive branching means it has many free ends exposed at once, and glucose-releasing enzymes can act on multiple branch ends simultaneously rather than working through one long chain sequentially. This structural feature — not chain simplicity — is what allows animals to mobilize stored glucose quickly during sudden energy demand, which is exactly the kind of situation glycogen (versus a hypothetical unbranched storage molecule) is built for."
     },
     {
-      id: "1-51",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Trans fats are unsaturated fats whose double-bond geometry causes their tails to remain relatively straight, similar to saturated fats, rather than kinked. Based on this description, which physical property would you predict for trans fats?",
-      choices: [
+      "id": "1-51",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Trans fats are unsaturated fats whose double-bond geometry causes their tails to remain relatively straight, similar to saturated fats, rather than kinked. Based on this description, which physical property would you predict for trans fats?",
+      "choices": [
         "They should behave more like typical unsaturated fats — liquid at room temperature",
         "They should behave more like saturated fats — solid or semi-solid at room temperature, since their straight tails allow tighter packing despite containing double bonds",
         "They should be completely insoluble in any biological system",
         "They should immediately break down into monosaccharides"
       ],
-      correct: 1,
-      explanation: "This question tests whether you understand that it's tail shape/packing ability — not simply the presence of a double bond — that determines a fat's physical state. Even though trans fats technically contain double bonds (making them \"unsaturated\" by definition), their particular double-bond geometry keeps the tails straight rather than kinked, allowing them to pack tightly like saturated fats and behave more solid at room temperature, unlike typical (cis) unsaturated fats."
+      "correct": 1,
+      "explanation": "This question tests whether you understand that it's tail shape/packing ability — not simply the presence of a double bond — that determines a fat's physical state. Even though trans fats technically contain double bonds (making them \"unsaturated\" by definition), their particular double-bond geometry keeps the tails straight rather than kinked, allowing them to pack tightly like saturated fats and behave more solid at room temperature, unlike typical (cis) unsaturated fats."
     },
     {
-      id: "1-52",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Which statement correctly distinguishes a triglyceride from a phospholipid?",
-      choices: [
+      "id": "1-52",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Which statement correctly distinguishes a triglyceride from a phospholipid?",
+      "choices": [
         "A triglyceride has three fatty acid tails attached to glycerol and is not amphipathic, while a phospholipid has two fatty acid tails and a phosphate-containing head, making it amphipathic",
-        "A triglyceride is amphipathic, while a phospholipid is entirely hydrophobic",
         "Triglycerides and phospholipids are chemically identical",
+        "A triglyceride is amphipathic, while a phospholipid is entirely hydrophobic",
         "A phospholipid contains no fatty acid tails at all"
       ],
-      correct: 0,
-      explanation: "A triglyceride's glycerol backbone is fully occupied by three fatty acid tails, making the whole molecule hydrophobic (not amphipathic) — well-suited for compact energy storage. A phospholipid instead has only two fatty acid tails, with the third position occupied by a polar, phosphate-containing head group, giving it both a hydrophilic and a hydrophobic region (amphipathic) — the property that allows it to form membranes."
+      "correct": 0,
+      "explanation": "A triglyceride's glycerol backbone is fully occupied by three fatty acid tails, making the whole molecule hydrophobic (not amphipathic) — well-suited for compact energy storage. A phospholipid instead has only two fatty acid tails, with the third position occupied by a polar, phosphate-containing head group, giving it both a hydrophilic and a hydrophobic region (amphipathic) — the property that allows it to form membranes."
     },
     {
-      id: "1-53",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "A researcher removes all phosphate head groups from a sample of phospholipids, leaving only the glycerol-and-fatty-acid portion intact. What would you predict about this modified molecule's behavior in water?",
-      choices: [
+      "id": "1-53",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "A researcher removes all phosphate head groups from a sample of phospholipids, leaving only the glycerol-and-fatty-acid portion intact. What would you predict about this modified molecule's behavior in water?",
+      "choices": [
+        "It would form a rigid crystal structure identical to cellulose",
         "It would still form a bilayer identical to normal phospholipids",
-        "It would no longer be amphipathic and would behave more like a triglyceride — clustering together as a hydrophobic droplet rather than forming an organized bilayer",
         "It would dissolve completely and evenly throughout the water",
-        "It would form a rigid crystal structure identical to cellulose"
+        "It would no longer be amphipathic and would behave more like a triglyceride — clustering together as a hydrophobic droplet rather than forming an organized bilayer"
       ],
-      correct: 1,
-      explanation: "Removing the phosphate head eliminates the hydrophilic portion of the molecule, leaving only the hydrophobic glycerol-fatty-acid backbone — structurally, this now resembles a triglyceride far more than a phospholipid. Without an amphipathic structure, the molecule would lose its ability to orient itself into an organized bilayer and would instead behave like other purely hydrophobic lipids, clumping together to minimize contact with water."
+      "correct": 3,
+      "explanation": "Removing the phosphate head eliminates the hydrophilic portion of the molecule, leaving only the hydrophobic glycerol-fatty-acid backbone — structurally, this now resembles a triglyceride far more than a phospholipid. Without an amphipathic structure, the molecule would lose its ability to orient itself into an organized bilayer and would instead behave like other purely hydrophobic lipids, clumping together to minimize contact with water."
     },
     {
-      id: "1-54",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Steroids, such as cholesterol, are structurally very different from triglycerides and phospholipids, yet are still classified as lipids. What justifies grouping them together?",
-      choices: [
+      "id": "1-54",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Steroids, such as cholesterol, are structurally very different from triglycerides and phospholipids, yet are still classified as lipids. What justifies grouping them together?",
+      "choices": [
+        "All three are found only in the cell nucleus",
         "All three are built from the same monomer",
         "All three share the defining lipid property of being hydrophobic, even though their structures (fused rings vs. glycerol-fatty acid chains) differ substantially",
-        "All three are polymers of glucose",
-        "All three are found only in the cell nucleus"
+        "All three are polymers of glucose"
       ],
-      correct: 1,
-      explanation: "Unlike carbohydrates, proteins, and nucleic acids — which are defined by a shared monomer-polymer relationship — lipids are grouped together based on a shared functional property: hydrophobicity, due to being mostly nonpolar. Steroids' four-fused-ring structure looks nothing like a triglyceride's glycerol-and-tails structure, but both are overwhelmingly nonpolar, which is the actual basis for classifying them together as lipids."
+      "correct": 2,
+      "explanation": "Unlike carbohydrates, proteins, and nucleic acids — which are defined by a shared monomer-polymer relationship — lipids are grouped together based on a shared functional property: hydrophobicity, due to being mostly nonpolar. Steroids' four-fused-ring structure looks nothing like a triglyceride's glycerol-and-tails structure, but both are overwhelmingly nonpolar, which is the actual basis for classifying them together as lipids."
     },
     {
-      id: "1-55",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "A cell wall is composed largely of cellulose. Which property of cellulose is most directly responsible for cell walls being able to provide structural rigidity to plant cells?",
-      choices: [
+      "id": "1-55",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "A cell wall is composed largely of cellulose. Which property of cellulose is most directly responsible for cell walls being able to provide structural rigidity to plant cells?",
+      "choices": [
         "Cellulose's helical structure, which allows it to be quickly broken down for energy",
         "Cellulose's long, straight chains held together by extensive hydrogen bonding between adjacent chains, forming rigid, strong fibers",
-        "Cellulose's high solubility in water",
-        "Cellulose's ability to form a bilayer"
+        "Cellulose's ability to form a bilayer",
+        "Cellulose's high solubility in water"
       ],
-      correct: 1,
-      explanation: "Cellulose's particular glycosidic linkage produces long, straight (not helical) chains that hydrogen bond extensively to neighboring cellulose chains, bundling into strong, rigid microfibrils. This extensive inter-chain hydrogen bonding, not high water solubility or bilayer formation (bilayers are a lipid property, not a carbohydrate one), is what gives cellulose-based cell walls their structural strength."
+      "correct": 1,
+      "explanation": "Cellulose's particular glycosidic linkage produces long, straight (not helical) chains that hydrogen bond extensively to neighboring cellulose chains, bundling into strong, rigid microfibrils. This extensive inter-chain hydrogen bonding, not high water solubility or bilayer formation (bilayers are a lipid property, not a carbohydrate one), is what gives cellulose-based cell walls their structural strength."
     },
     {
-      id: "1-56",
-      topic: "1.4 Carbohydrates and Lipids",
-      stem: "Which of the following processes correctly pairs a direction of the dehydration synthesis/hydrolysis reaction with an accurate description?",
-      choices: [
-        "Digesting a starchy meal into individual glucose molecules — dehydration synthesis, releasing water",
-        "Digesting a starchy meal into individual glucose molecules — hydrolysis, consuming water to break glycosidic bonds",
+      "id": "1-56",
+      "topic": "1.4 Carbohydrates and Lipids",
+      "stem": "Which of the following processes correctly pairs a direction of the dehydration synthesis/hydrolysis reaction with an accurate description?",
+      "choices": [
+        "Linking glucose units into glycogen for storage — hydrolysis, releasing water",
         "Linking amino acids into a new protein — hydrolysis, consuming water",
-        "Linking glucose units into glycogen for storage — hydrolysis, releasing water"
+        "Digesting a starchy meal into individual glucose molecules — hydrolysis, consuming water to break glycosidic bonds",
+        "Digesting a starchy meal into individual glucose molecules — dehydration synthesis, releasing water"
       ],
-      correct: 1,
-      explanation: "Digestion breaks polymers down into monomers, which requires adding a water molecule across each bond broken — that's hydrolysis. The other options each mismatch the direction: building a protein from amino acids or building glycogen from glucose are both bond-forming (polymer-building) processes, which are dehydration synthesis reactions that release water, not hydrolysis reactions that consume it."
+      "correct": 2,
+      "explanation": "Digestion breaks polymers down into monomers, which requires adding a water molecule across each bond broken — that's hydrolysis. The other options each mismatch the direction: building a protein from amino acids or building glycogen from glucose are both bond-forming (polymer-building) processes, which are dehydration synthesis reactions that release water, not hydrolysis reactions that consume it."
     },
     {
-      id: "1-57",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "Two different proteins are built from the exact same 200 amino acids but in a different order. Which statement about these two proteins is most accurate?",
-      choices: [
+      "id": "1-57",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "Two different proteins are built from the exact same 200 amino acids but in a different order. Which statement about these two proteins is most accurate?",
+      "choices": [
         "They will necessarily have identical tertiary structure and function, since they're made of the same amino acids",
+        "Both proteins will be identical to DNA molecules",
         "They will likely fold into different tertiary structures and may have completely different functions, since primary sequence (order) determines how a polypeptide folds",
-        "Amino acid order has no effect on protein folding",
-        "Both proteins will be identical to DNA molecules"
+        "Amino acid order has no effect on protein folding"
       ],
-      correct: 1,
-      explanation: "A protein's primary structure — the specific linear sequence of amino acids — is what dictates how it folds into secondary and tertiary structure, since folding depends on which R-groups end up interacting with which others based on their position in the chain. Changing the order, even using identical amino acids, produces a different pattern of R-group interactions, which usually results in a different fold and, quite possibly, a different function entirely."
+      "correct": 2,
+      "explanation": "A protein's primary structure — the specific linear sequence of amino acids — is what dictates how it folds into secondary and tertiary structure, since folding depends on which R-groups end up interacting with which others based on their position in the chain. Changing the order, even using identical amino acids, produces a different pattern of R-group interactions, which usually results in a different fold and, quite possibly, a different function entirely."
     },
     {
-      id: "1-58",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "A protein is composed of two separate polypeptide chains that associate together to form the final functional molecule. What level of protein structure does this description represent?",
-      choices: [
+      "id": "1-58",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "A protein is composed of two separate polypeptide chains that associate together to form the final functional molecule. What level of protein structure does this description represent?",
+      "choices": [
+        "Quaternary structure",
         "Primary structure",
         "Secondary structure",
-        "Tertiary structure",
-        "Quaternary structure"
+        "Tertiary structure"
       ],
-      correct: 3,
-      explanation: "Quaternary structure specifically refers to the arrangement of multiple separate polypeptide chains (subunits) associating together into one functional protein complex — hemoglobin, with its four subunits, is the classic biological example. Primary, secondary, and tertiary structure all describe features of a single polypeptide chain, not the association of multiple chains."
+      "correct": 0,
+      "explanation": "Quaternary structure specifically refers to the arrangement of multiple separate polypeptide chains (subunits) associating together into one functional protein complex — hemoglobin, with its four subunits, is the classic biological example. Primary, secondary, and tertiary structure all describe features of a single polypeptide chain, not the association of multiple chains."
     },
     {
-      id: "1-59",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "Which type of interaction is primarily responsible for the alpha-helix and beta-pleated-sheet patterns seen in secondary protein structure?",
-      choices: [
-        "Ionic bonds between charged R-groups",
+      "id": "1-59",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "Which type of interaction is primarily responsible for the alpha-helix and beta-pleated-sheet patterns seen in secondary protein structure?",
+      "choices": [
         "Hydrogen bonds between atoms along the polypeptide backbone (not the R-groups)",
         "Disulfide bridges between cysteine R-groups",
-        "Covalent peptide bonds"
+        "Covalent peptide bonds",
+        "Ionic bonds between charged R-groups"
       ],
-      correct: 1,
-      explanation: "Secondary structure arises from hydrogen bonding along the repeating backbone of the polypeptide chain (between the backbone's carbonyl oxygen and amino hydrogen atoms), independent of what specific R-groups are present. This is different from tertiary structure, which depends heavily on R-group interactions like ionic bonds, disulfide bridges, and hydrophobic clustering."
+      "correct": 0,
+      "explanation": "Secondary structure arises from hydrogen bonding along the repeating backbone of the polypeptide chain (between the backbone's carbonyl oxygen and amino hydrogen atoms), independent of what specific R-groups are present. This is different from tertiary structure, which depends heavily on R-group interactions like ionic bonds, disulfide bridges, and hydrophobic clustering."
     },
     {
-      id: "1-60",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "A single nucleotide is composed of which three components?",
-      choices: [
-        "An amino acid, a phosphate group, and a nitrogenous base",
+      "id": "1-60",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "A single nucleotide is composed of which three components?",
+      "choices": [
         "A five-carbon sugar, a phosphate group, and a nitrogenous base",
-        "Two nitrogenous bases and a fatty acid",
-        "A glycerol backbone, a phosphate group, and a sugar"
+        "An amino acid, a phosphate group, and a nitrogenous base",
+        "A glycerol backbone, a phosphate group, and a sugar",
+        "Two nitrogenous bases and a fatty acid"
       ],
-      correct: 1,
-      explanation: "A nucleotide's three components are a five-carbon sugar (deoxyribose in DNA, ribose in RNA), a phosphate group, and one nitrogenous base. Confusing nucleotides with amino acids (which have an amino group, carboxyl group, and R-group instead) is a common mix-up worth double-checking on the exam."
+      "correct": 0,
+      "explanation": "A nucleotide's three components are a five-carbon sugar (deoxyribose in DNA, ribose in RNA), a phosphate group, and one nitrogenous base. Confusing nucleotides with amino acids (which have an amino group, carboxyl group, and R-group instead) is a common mix-up worth double-checking on the exam."
     },
     {
-      id: "1-61",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "RNA differs from DNA in several structural ways. Which of the following is an accurate structural difference between the two?",
-      choices: [
+      "id": "1-61",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "RNA differs from DNA in several structural ways. Which of the following is an accurate structural difference between the two?",
+      "choices": [
+        "DNA and RNA use entirely different phosphate groups",
         "RNA uses deoxyribose sugar, while DNA uses ribose sugar",
         "RNA is typically single-stranded and uses uracil instead of thymine, while DNA is typically double-stranded and uses thymine",
-        "RNA contains amino acids, while DNA does not",
-        "DNA and RNA use entirely different phosphate groups"
+        "RNA contains amino acids, while DNA does not"
       ],
-      correct: 1,
-      explanation: "RNA is generally single-stranded (versus DNA's double helix) and uses the base uracil in place of thymine. The sugar assignment in the first option is backwards — DNA uses deoxyribose (missing one oxygen compared to ribose), while RNA uses ribose; that's actually where the \"deoxy\" in DNA's name comes from."
+      "correct": 2,
+      "explanation": "RNA is generally single-stranded (versus DNA's double helix) and uses the base uracil in place of thymine. The sugar assignment in the first option is backwards — DNA uses deoxyribose (missing one oxygen compared to ribose), while RNA uses ribose; that's actually where the \"deoxy\" in DNA's name comes from."
     },
     {
-      id: "1-62",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "A short DNA strand has the sequence 5'-GCTACG-3'. What is the sequence of its complementary strand, written 5' to 3'?",
-      choices: [
+      "id": "1-62",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "A short DNA strand has the sequence 5'-GCTACG-3'. What is the sequence of its complementary strand, written 5' to 3'?",
+      "choices": [
+        "3'-CGATGC-5'",
         "5'-CGTAGC-3'",
         "5'-GCTACG-3'",
-        "3'-CGATGC-5'",
         "5'-TAGCGT-3'"
       ],
-      correct: 0,
-      explanation: "Base pairing rules: G pairs with C, and A pairs with T. Aligning the original strand antiparallel to its partner and pairing each base gives 3'-CGATGC-5'. That correctly shows the base pairing, but it's labeled 3' to 5' — to express the same complementary strand in the standard 5' to 3' direction, you have to reverse the order of the letters (not just relabel the ends), giving 5'-CGTAGC-3'. Remember: the complementary strand runs antiparallel, so converting between orientations means reversing the sequence, not just swapping the end labels."
+      "correct": 1,
+      "explanation": "Base pairing rules: G pairs with C, and A pairs with T. Aligning the original strand antiparallel to its partner and pairing each base gives 3'-CGATGC-5'. That correctly shows the base pairing, but it's labeled 3' to 5' — to express the same complementary strand in the standard 5' to 3' direction, you have to reverse the order of the letters (not just relabel the ends), giving 5'-CGTAGC-3'. Remember: the complementary strand runs antiparallel, so converting between orientations means reversing the sequence, not just swapping the end labels."
     },
     {
-      id: "1-63",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "A biochemist compares two short DNA segments of equal length: Segment 1 is 80% G-C content, and Segment 2 is 80% A-T content. Which segment would require more thermal energy to separate its two strands, and why?",
-      choices: [
-        "Segment 1, because G-C pairs form 3 hydrogen bonds compared to A-T's 2, making the strands harder to separate",
-        "Segment 2, because A-T pairs are covalently bonded",
+      "id": "1-63",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "A biochemist compares two short DNA segments of equal length: Segment 1 is 80% G-C content, and Segment 2 is 80% A-T content. Which segment would require more thermal energy to separate its two strands, and why?",
+      "choices": [
         "Both segments would require identical energy, since base composition doesn't affect strand stability",
-        "Segment 1, because G and C are larger atoms than A and T"
+        "Segment 1, because G and C are larger atoms than A and T",
+        "Segment 1, because G-C pairs form 3 hydrogen bonds compared to A-T's 2, making the strands harder to separate",
+        "Segment 2, because A-T pairs are covalently bonded"
       ],
-      correct: 0,
-      explanation: "G-C base pairs form 3 hydrogen bonds versus A-T's 2, meaning a G-C-rich segment has more total hydrogen bonding holding its two strands together and would require more thermal energy (a higher melting temperature) to separate — a direct, testable application of base-pairing chemistry that shows up often in DNA/PCR-related AP questions."
+      "correct": 2,
+      "explanation": "G-C base pairs form 3 hydrogen bonds versus A-T's 2, meaning a G-C-rich segment has more total hydrogen bonding holding its two strands together and would require more thermal energy (a higher melting temperature) to separate — a direct, testable application of base-pairing chemistry that shows up often in DNA/PCR-related AP questions."
     },
     {
-      id: "1-64",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stem: "Which of the following amino acid R-groups would you most expect to be found on the exterior surface of a globular protein dissolved in the cytoplasm (a watery environment)?",
-      choices: [
-        "A strongly nonpolar, hydrophobic R-group",
-        "A polar or charged, hydrophilic R-group",
+      "id": "1-64",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stem": "Which of the following amino acid R-groups would you most expect to be found on the exterior surface of a globular protein dissolved in the cytoplasm (a watery environment)?",
+      "choices": [
         "An R-group with no atoms at all",
+        "A polar or charged, hydrophilic R-group",
+        "A strongly nonpolar, hydrophobic R-group",
         "Only R-groups containing sulfur"
       ],
-      correct: 1,
-      explanation: "In a watery (aqueous) environment, a folded globular protein typically positions its hydrophilic (polar/charged) R-groups on the outer surface, where they can favorably interact with surrounding water, while burying hydrophobic R-groups in the protein's interior core, away from water. This pattern — hydrophilic outside, hydrophobic inside — is a direct consequence of the hydrophobic effect driving protein folding."
+      "correct": 1,
+      "explanation": "In a watery (aqueous) environment, a folded globular protein typically positions its hydrophilic (polar/charged) R-groups on the outer surface, where they can favorably interact with surrounding water, while burying hydrophobic R-groups in the protein's interior core, away from water. This pattern — hydrophilic outside, hydrophobic inside — is a direct consequence of the hydrophobic effect driving protein folding."
     },
     {
-      id: "1-65",
-      topic: "1.5 Proteins and Nucleic Acids",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A membrane-embedded protein has a region that sits entirely within the hydrophobic interior of the phospholipid bilayer. Predict what kind of R-groups you would expect to find on the amino acids in that specific membrane-spanning region, and explain your reasoning by contrasting it with a cytoplasmic globular protein.",
-      choices: [
+      "id": "1-65",
+      "topic": "1.5 Proteins and Nucleic Acids",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A membrane-embedded protein has a region that sits entirely within the hydrophobic interior of the phospholipid bilayer. Predict what kind of R-groups you would expect to find on the amino acids in that specific membrane-spanning region, and explain your reasoning by contrasting it with a cytoplasmic globular protein.",
+      "choices": [
         "Hydrophilic R-groups, for the same reason as a cytoplasmic protein's surface",
         "Hydrophobic R-groups, because that region of the protein is surrounded by the bilayer's hydrophobic fatty acid tails rather than by water, so hydrophobic R-groups are energetically favored there instead of buried inside",
         "R-groups are irrelevant to membrane protein structure",
         "Only R-groups containing phosphate groups"
       ],
-      correct: 1,
-      explanation: "This question asks you to transfer the hydrophilic-outside/hydrophobic-inside folding logic to a different environment, which is exactly the kind of \"same principle, new context\" reasoning higher-difficulty AP questions reward. For a typical cytoplasmic protein, the surrounding environment is water, so hydrophilic R-groups favorably sit on the exterior. But for the membrane-spanning region of a membrane protein, the surrounding environment is instead the hydrophobic interior of the phospholipid bilayer — so the amino acids in contact with that environment would be expected to have hydrophobic R-groups facing outward toward the lipid tails, essentially an inside-out version of the usual pattern, driven by the same underlying principle: R-groups orient to minimize unfavorable contact with their surrounding environment."
+      "correct": 1,
+      "explanation": "This question asks you to transfer the hydrophilic-outside/hydrophobic-inside folding logic to a different environment, which is exactly the kind of \"same principle, new context\" reasoning higher-difficulty AP questions reward. For a typical cytoplasmic protein, the surrounding environment is water, so hydrophilic R-groups favorably sit on the exterior. But for the membrane-spanning region of a membrane protein, the surrounding environment is instead the hydrophobic interior of the phospholipid bilayer — so the amino acids in contact with that environment would be expected to have hydrophobic R-groups facing outward toward the lipid tails, essentially an inside-out version of the usual pattern, driven by the same underlying principle: R-groups orient to minimize unfavorable contact with their surrounding environment."
     }
   ],
-  2: [
+  "2": [
     {
-      id: "2-1",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which structural feature is present in prokaryotic cells but absent in eukaryotic cells?",
-      choices: [
-        "A single, circular chromosome located in the nucleoid region, not enclosed by a membrane",
-        "Ribosomes",
+      "id": "2-1",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which structural feature is present in prokaryotic cells but absent in eukaryotic cells?",
+      "choices": [
         "A plasma membrane",
-        "Cytoplasm"
+        "Ribosomes",
+        "Cytoplasm",
+        "A single, circular chromosome located in the nucleoid region, not enclosed by a membrane"
       ],
-      correct: 0,
-      explanation: "Prokaryotic cells lack a membrane-bound nucleus; their single circular chromosome sits in a region called the nucleoid, not enclosed by any membrane. Eukaryotic cells instead have linear chromosomes enclosed within a true, membrane-bound nucleus. Ribosomes, a plasma membrane, and cytoplasm are present in both cell types."
+      "correct": 3,
+      "explanation": "Prokaryotic cells lack a membrane-bound nucleus; their single circular chromosome sits in a region called the nucleoid, not enclosed by any membrane. Eukaryotic cells instead have linear chromosomes enclosed within a true, membrane-bound nucleus. Ribosomes, a plasma membrane, and cytoplasm are present in both cell types."
     },
     {
-      id: "2-2",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "A cell biologist examines an unknown cell and finds ribosomes but no membrane-bound organelles of any kind. This cell is most likely:",
-      choices: [
+      "id": "2-2",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "A cell biologist examines an unknown cell and finds ribosomes but no membrane-bound organelles of any kind. This cell is most likely:",
+      "choices": [
+        "An animal cell lacking mitochondria",
         "A plant cell",
         "A prokaryotic cell",
-        "An animal cell lacking mitochondria",
         "A eukaryotic cell in an early stage of development"
       ],
-      correct: 1,
-      explanation: "The complete absence of membrane-bound organelles, combined with the presence of ribosomes, is the hallmark of a prokaryotic cell. All eukaryotic cells — plant, animal, or otherwise — possess membrane-bound organelles like the nucleus, ER, and Golgi, regardless of developmental stage."
+      "correct": 2,
+      "explanation": "The complete absence of membrane-bound organelles, combined with the presence of ribosomes, is the hallmark of a prokaryotic cell. All eukaryotic cells — plant, animal, or otherwise — possess membrane-bound organelles like the nucleus, ER, and Golgi, regardless of developmental stage."
     },
     {
-      id: "2-3",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which organelle is the primary site of ATP production through aerobic respiration?",
-      choices: [
-        "Golgi apparatus",
+      "id": "2-3",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which organelle is the primary site of ATP production through aerobic respiration?",
+      "choices": [
         "Mitochondrion",
         "Lysosome",
-        "Rough endoplasmic reticulum"
+        "Rough endoplasmic reticulum",
+        "Golgi apparatus"
       ],
-      correct: 1,
-      explanation: "The mitochondrion is the primary site of aerobic (oxygen-requiring) cellular respiration, generating the majority of a eukaryotic cell's ATP. The Golgi apparatus modifies and sorts proteins/lipids, lysosomes digest waste, and rough ER synthesizes proteins for secretion."
+      "correct": 0,
+      "explanation": "The mitochondrion is the primary site of aerobic (oxygen-requiring) cellular respiration, generating the majority of a eukaryotic cell's ATP. The Golgi apparatus modifies and sorts proteins/lipids, lysosomes digest waste, and rough ER synthesizes proteins for secretion."
     },
     {
-      id: "2-4",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "A cell is found to contain a large number of lysosomes. Which cellular activity would this cell most likely be specialized for?",
-      choices: [
+      "id": "2-4",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "A cell is found to contain a large number of lysosomes. Which cellular activity would this cell most likely be specialized for?",
+      "choices": [
+        "Photosynthesis",
         "Rapid cell division",
         "Extensive breakdown of waste materials, damaged organelles, or engulfed particles",
-        "High rates of protein secretion",
-        "Photosynthesis"
+        "High rates of protein secretion"
       ],
-      correct: 1,
-      explanation: "Lysosomes contain digestive enzymes used to break down waste materials, damaged organelles (a process called autophagy), and materials taken in via phagocytosis. A cell with an unusually high number of lysosomes would be expected to specialize in this kind of degradative/digestive activity, such as immune cells that engulf and destroy pathogens."
+      "correct": 2,
+      "explanation": "Lysosomes contain digestive enzymes used to break down waste materials, damaged organelles (a process called autophagy), and materials taken in via phagocytosis. A cell with an unusually high number of lysosomes would be expected to specialize in this kind of degradative/digestive activity, such as immune cells that engulf and destroy pathogens."
     },
     {
-      id: "2-5",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which best describes the relationship between rough ER and the Golgi apparatus in the protein secretion pathway?",
-      choices: [
-        "Proteins are synthesized in the Golgi apparatus and then sent to rough ER for final modification",
+      "id": "2-5",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which best describes the relationship between rough ER and the Golgi apparatus in the protein secretion pathway?",
+      "choices": [
+        "The Golgi apparatus produces ribosomes that are then sent to rough ER",
         "Proteins are synthesized on ribosomes attached to rough ER, then transported to the Golgi apparatus for further modification, sorting, and packaging",
-        "Rough ER and the Golgi apparatus perform identical, redundant functions",
-        "The Golgi apparatus produces ribosomes that are then sent to rough ER"
+        "Proteins are synthesized in the Golgi apparatus and then sent to rough ER for final modification",
+        "Rough ER and the Golgi apparatus perform identical, redundant functions"
       ],
-      correct: 1,
-      explanation: "The secretion pathway flows in a specific order: ribosomes on rough ER synthesize the protein, rough ER performs initial folding and modification, and the protein then travels (typically via vesicle) to the Golgi apparatus, which further modifies, sorts, and packages it for its final destination — often secretion out of the cell."
+      "correct": 1,
+      "explanation": "The secretion pathway flows in a specific order: ribosomes on rough ER synthesize the protein, rough ER performs initial folding and modification, and the protein then travels (typically via vesicle) to the Golgi apparatus, which further modifies, sorts, and packages it for its final destination — often secretion out of the cell."
     },
     {
-      id: "2-6",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Smooth ER, unlike rough ER, lacks ribosomes on its surface. Which function is smooth ER primarily associated with?",
-      choices: [
-        "Protein synthesis for secretion",
-        "Lipid synthesis and detoxification of harmful substances",
+      "id": "2-6",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Smooth ER, unlike rough ER, lacks ribosomes on its surface. Which function is smooth ER primarily associated with?",
+      "choices": [
         "Digestion of engulfed particles",
-        "Housing the cell's DNA"
+        "Housing the cell's DNA",
+        "Lipid synthesis and detoxification of harmful substances",
+        "Protein synthesis for secretion"
       ],
-      correct: 1,
-      explanation: "Smooth ER's lack of ribosomes reflects its different role: rather than synthesizing proteins, it's the primary site of lipid synthesis, calcium ion storage, and detoxification of drugs and other harmful substances (particularly extensive in liver cells)."
+      "correct": 2,
+      "explanation": "Smooth ER's lack of ribosomes reflects its different role: rather than synthesizing proteins, it's the primary site of lipid synthesis, calcium ion storage, and detoxification of drugs and other harmful substances (particularly extensive in liver cells)."
     },
     {
-      id: "2-7",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "A student argues that prokaryotic cells are simpler and therefore less well-adapted to their environments than eukaryotic cells. Evaluate this claim.",
-      choices: [
+      "id": "2-7",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "A student argues that prokaryotic cells are simpler and therefore less well-adapted to their environments than eukaryotic cells. Evaluate this claim.",
+      "choices": [
+        "The claim is well-supported, since eukaryotes are found in more environments",
         "The claim is well-supported, since prokaryotes lack organelles",
         "The claim is not well-supported; prokaryotes have persisted successfully for billions of years and occupy an enormous range of environments, demonstrating that structural simplicity does not equate to poor adaptation",
-        "The claim is well-supported, since eukaryotes are found in more environments",
         "The claim cannot be evaluated without knowing a specific species"
       ],
-      correct: 1,
-      explanation: "Structural complexity and evolutionary success are not the same thing. Prokaryotes have thrived for billions of years, vastly outnumber eukaryotes, and occupy an extraordinary range of environments (including extremes eukaryotes can't survive), which strongly undermines the claim that their comparative structural simplicity makes them less adapted."
+      "correct": 2,
+      "explanation": "Structural complexity and evolutionary success are not the same thing. Prokaryotes have thrived for billions of years, vastly outnumber eukaryotes, and occupy an extraordinary range of environments (including extremes eukaryotes can't survive), which strongly undermines the claim that their comparative structural simplicity makes them less adapted."
     },
     {
-      id: "2-8",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which organelle would be most directly responsible for housing the enzymes needed to transcribe DNA into mRNA in a eukaryotic cell?",
-      choices: [
-        "Mitochondrion",
+      "id": "2-8",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which organelle would be most directly responsible for housing the enzymes needed to transcribe DNA into mRNA in a eukaryotic cell?",
+      "choices": [
         "Nucleus",
+        "Smooth ER",
         "Lysosome",
-        "Smooth ER"
+        "Mitochondrion"
       ],
-      correct: 1,
-      explanation: "Transcription — copying DNA into mRNA — occurs in the nucleus in eukaryotic cells, since that's where the DNA itself is housed, along with the necessary transcription machinery."
+      "correct": 0,
+      "explanation": "Transcription — copying DNA into mRNA — occurs in the nucleus in eukaryotic cells, since that's where the DNA itself is housed, along with the necessary transcription machinery."
     },
     {
-      id: "2-9",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A researcher observes that a particular unicellular organism lacks a nucleus and membrane-bound organelles, yet is capable of complex, coordinated internal chemical regulation not typically associated with prokaryotes. Which conclusion is most scientifically appropriate?",
-      choices: [
-        "The organism cannot actually be a prokaryote, since only eukaryotes can regulate internal chemistry",
+      "id": "2-9",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher observes that a particular unicellular organism lacks a nucleus and membrane-bound organelles, yet is capable of complex, coordinated internal chemical regulation not typically associated with prokaryotes. Which conclusion is most scientifically appropriate?",
+      "choices": [
+        "This observation is impossible and indicates an experimental error",
         "Complex internal regulation does not require membrane-bound compartmentalization; prokaryotes achieve regulation through other mechanisms (such as localized protein complexes and regulatory molecules), so this observation is consistent with prokaryotic biology rather than contradicting it",
         "The organism must have evolved organelles that are simply too small to observe",
-        "This observation is impossible and indicates an experimental error"
+        "The organism cannot actually be a prokaryote, since only eukaryotes can regulate internal chemistry"
       ],
-      correct: 1,
-      explanation: "This question pushes back against the oversimplified idea that compartmentalization is the ONLY way to achieve regulatory complexity. Real prokaryotes achieve substantial metabolic and regulatory sophistication using non-membrane-bound mechanisms — localized protein complexes, RNA-based regulation, and metabolic microcompartments encased in protein shells rather than membranes. A well-reasoned response recognizes that lacking membrane-bound organelles doesn't cap a cell's regulatory complexity; it just means that complexity is achieved differently."
+      "correct": 1,
+      "explanation": "This question pushes back against the oversimplified idea that compartmentalization is the ONLY way to achieve regulatory complexity. Real prokaryotes achieve substantial metabolic and regulatory sophistication using non-membrane-bound mechanisms — localized protein complexes, RNA-based regulation, and metabolic microcompartments encased in protein shells rather than membranes. A well-reasoned response recognizes that lacking membrane-bound organelles doesn't cap a cell's regulatory complexity; it just means that complexity is achieved differently."
     },
     {
-      id: "2-10",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which structure would you expect to find only in plant cells, not animal cells?",
-      choices: [
-        "Mitochondria",
+      "id": "2-10",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which structure would you expect to find only in plant cells, not animal cells?",
+      "choices": [
         "Ribosomes",
-        "Chloroplasts",
-        "Plasma membrane"
+        "Mitochondria",
+        "Plasma membrane",
+        "Chloroplasts"
       ],
-      correct: 2,
-      explanation: "Chloroplasts, the site of photosynthesis, are found in plant cells (and some protists) but not in animal cells, which lack the capacity for photosynthesis. Mitochondria, ribosomes, and the plasma membrane are common to both plant and animal cells."
+      "correct": 3,
+      "explanation": "Chloroplasts, the site of photosynthesis, are found in plant cells (and some protists) but not in animal cells, which lack the capacity for photosynthesis. Mitochondria, ribosomes, and the plasma membrane are common to both plant and animal cells."
     },
     {
-      id: "2-11",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Free ribosomes (not attached to rough ER) typically synthesize proteins destined for which location?",
-      choices: [
-        "Secretion outside the cell",
-        "Use within the cytosol itself, or import into organelles like mitochondria",
+      "id": "2-11",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Free ribosomes (not attached to rough ER) typically synthesize proteins destined for which location?",
+      "choices": [
         "Exclusively the Golgi apparatus",
-        "Exclusively the plasma membrane"
+        "Use within the cytosol itself, or import into organelles like mitochondria",
+        "Exclusively the plasma membrane",
+        "Secretion outside the cell"
       ],
-      correct: 1,
-      explanation: "Free ribosomes in the cytosol typically synthesize proteins intended to function within the cytosol itself or to be imported into organelles like mitochondria and chloroplasts. Proteins destined for secretion or for insertion into the plasma membrane are instead typically synthesized on ribosomes attached to rough ER."
+      "correct": 1,
+      "explanation": "Free ribosomes in the cytosol typically synthesize proteins intended to function within the cytosol itself or to be imported into organelles like mitochondria and chloroplasts. Proteins destined for secretion or for insertion into the plasma membrane are instead typically synthesized on ribosomes attached to rough ER."
     },
     {
-      id: "2-12",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "A cell biologist disrupts a cell's Golgi apparatus with a chemical inhibitor. Which process would be most directly impaired?",
-      choices: [
+      "id": "2-12",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "A cell biologist disrupts a cell's Golgi apparatus with a chemical inhibitor. Which process would be most directly impaired?",
+      "choices": [
+        "Aerobic respiration",
         "DNA replication",
         "Final modification, sorting, and packaging of proteins for secretion",
-        "Aerobic respiration",
         "Photosynthesis"
       ],
-      correct: 1,
-      explanation: "The Golgi apparatus specifically handles final modification, sorting, and packaging of proteins and lipids (often received from the ER) before they're directed to their final destination, including secretion. Disrupting it would most directly impair that specific pathway, not unrelated processes like DNA replication or respiration."
+      "correct": 2,
+      "explanation": "The Golgi apparatus specifically handles final modification, sorting, and packaging of proteins and lipids (often received from the ER) before they're directed to their final destination, including secretion. Disrupting it would most directly impair that specific pathway, not unrelated processes like DNA replication or respiration."
     },
     {
-      id: "2-13",
-      topic: "2.1 Prokaryotic and Eukaryotic Cells",
-      stem: "Which of the following is an accurate generalization about the relationship between organelle structure and organelle function?",
-      choices: [
-        "An organelle's structure has no relationship to its function",
+      "id": "2-13",
+      "topic": "2.1 Prokaryotic and Eukaryotic Cells",
+      "stem": "Which of the following is an accurate generalization about the relationship between organelle structure and organelle function?",
+      "choices": [
         "An organelle's specific structure is generally well-suited to carry out its specific function — the structure-function theme is a recurring pattern across biology, not a coincidence",
         "All organelles have identical structures regardless of function",
-        "Organelle function can only be determined by observing DNA sequence"
+        "Organelle function can only be determined by observing DNA sequence",
+        "An organelle's structure has no relationship to its function"
       ],
-      correct: 1,
-      explanation: "The structure-function relationship is one of AP Biology's core recurring themes: an organelle's particular shape and composition (rough ER's ribosome-studded surface, mitochondria's folded inner membrane, etc.) is generally well-matched to the specific job it performs — this pattern repeats at every level of biological organization, from molecules to organelles to whole organisms."
+      "correct": 0,
+      "explanation": "The structure-function relationship is one of AP Biology's core recurring themes: an organelle's particular shape and composition (rough ER's ribosome-studded surface, mitochondria's folded inner membrane, etc.) is generally well-matched to the specific job it performs — this pattern repeats at every level of biological organization, from molecules to organelles to whole organisms."
     },
     {
-      id: "2-14",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "As a spherical cell's radius doubles, its surface area increases by a factor of 4, while its volume increases by a factor of 8. What does this demonstrate about the relationship between cell size and SA:V ratio?",
-      choices: [
-        "SA:V ratio increases as cell size increases",
+      "id": "2-14",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "As a spherical cell's radius doubles, its surface area increases by a factor of 4, while its volume increases by a factor of 8. What does this demonstrate about the relationship between cell size and SA:V ratio?",
+      "choices": [
         "SA:V ratio decreases as cell size increases, since volume grows faster than surface area",
+        "SA:V ratio is unrelated to cell radius",
         "SA:V ratio remains constant regardless of cell size",
-        "SA:V ratio is unrelated to cell radius"
+        "SA:V ratio increases as cell size increases"
       ],
-      correct: 1,
-      explanation: "Because surface area scales with the square of linear dimension while volume scales with the cube, volume grows disproportionately faster as a cell enlarges. This means the ratio of surface area to volume (SA:V) necessarily decreases as cell size increases — a mathematical relationship with direct biological consequences for cell size limits."
+      "correct": 0,
+      "explanation": "Because surface area scales with the square of linear dimension while volume scales with the cube, volume grows disproportionately faster as a cell enlarges. This means the ratio of surface area to volume (SA:V) necessarily decreases as cell size increases — a mathematical relationship with direct biological consequences for cell size limits."
     },
     {
-      id: "2-15",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Calculate the surface area, volume, and SA:V ratio of a cube-shaped cell with 3 μm sides.",
-      choices: [
+      "id": "2-15",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Calculate the surface area, volume, and SA:V ratio of a cube-shaped cell with 3 μm sides.",
+      "choices": [
         "SA = 27 μm², V = 54 μm³, SA:V = 0.5:1",
         "SA = 54 μm², V = 27 μm³, SA:V = 2:1",
-        "SA = 18 μm², V = 9 μm³, SA:V = 2:1",
-        "SA = 9 μm², V = 27 μm³, SA:V = 1:3"
+        "SA = 9 μm², V = 27 μm³, SA:V = 1:3",
+        "SA = 18 μm², V = 9 μm³, SA:V = 2:1"
       ],
-      correct: 1,
-      explanation: "SA = 6s² = 6 × (3×3) = 6 × 9 = 54 μm². V = s³ = 3×3×3 = 27 μm³. SA:V = 54:27, which simplifies to 2:1. Double-checking the formula pairing (SA uses s², V uses s³) is the most common place students make an error on this calculation."
+      "correct": 1,
+      "explanation": "SA = 6s² = 6 × (3×3) = 6 × 9 = 54 μm². V = s³ = 3×3×3 = 27 μm³. SA:V = 54:27, which simplifies to 2:1. Double-checking the formula pairing (SA uses s², V uses s³) is the most common place students make an error on this calculation."
     },
     {
-      id: "2-16",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Microvilli are tiny, finger-like projections that extensively fold the surface of intestinal absorptive cells. What is their most direct functional benefit?",
-      choices: [
-        "They reduce the cell's overall volume, making digestion faster",
+      "id": "2-16",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Microvilli are tiny, finger-like projections that extensively fold the surface of intestinal absorptive cells. What is their most direct functional benefit?",
+      "choices": [
         "They dramatically increase the cell's surface area without proportionally increasing its volume, improving the efficiency of nutrient absorption",
-        "They allow the cell to divide more frequently",
-        "They provide a site for photosynthesis"
+        "They reduce the cell's overall volume, making digestion faster",
+        "They provide a site for photosynthesis",
+        "They allow the cell to divide more frequently"
       ],
-      correct: 1,
-      explanation: "Microvilli increase a cell's effective surface area substantially while adding comparatively little extra volume — directly boosting the cell's SA:V ratio. Since nutrient absorption happens across the cell's surface, this structural adaptation dramatically improves absorption efficiency without requiring the cell to be smaller or divide more."
+      "correct": 0,
+      "explanation": "Microvilli increase a cell's effective surface area substantially while adding comparatively little extra volume — directly boosting the cell's SA:V ratio. Since nutrient absorption happens across the cell's surface, this structural adaptation dramatically improves absorption efficiency without requiring the cell to be smaller or divide more."
     },
     {
-      id: "2-17",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Why can't a single cell simply keep growing larger indefinitely to meet an organism's increasing size needs?",
-      choices: [
+      "id": "2-17",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Why can't a single cell simply keep growing larger indefinitely to meet an organism's increasing size needs?",
+      "choices": [
         "Cells are physically incapable of growing at all after formation",
-        "As a cell grows, its SA:V ratio decreases, eventually making its surface area too small relative to its volume to adequately support exchange of nutrients, gases, and waste",
         "Larger cells always become toxic to the organism",
-        "DNA cannot exist in cells larger than a certain size"
+        "DNA cannot exist in cells larger than a certain size",
+        "As a cell grows, its SA:V ratio decreases, eventually making its surface area too small relative to its volume to adequately support exchange of nutrients, gases, and waste"
       ],
-      correct: 1,
-      explanation: "This is the central biological consequence of the SA:V relationship: past a certain size, a cell's membrane surface area becomes too small relative to its internal volume to keep up with the metabolic demands of exchange. This is why organisms grow by increasing cell NUMBER (via division) rather than simply growing individual cells indefinitely larger."
+      "correct": 3,
+      "explanation": "This is the central biological consequence of the SA:V relationship: past a certain size, a cell's membrane surface area becomes too small relative to its internal volume to keep up with the metabolic demands of exchange. This is why organisms grow by increasing cell NUMBER (via division) rather than simply growing individual cells indefinitely larger."
     },
     {
-      id: "2-18",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Two spherical cells, A and B, have the same total volume, but Cell A is a single sphere while Cell B has been artificially divided into 8 smaller spheres of equal total volume. Which has the greater combined surface area, and why?",
-      choices: [
-        "Cell A, since it is one continuous structure",
-        "Cell B, since dividing a given volume into multiple smaller units increases total surface area even though total volume stays the same",
+      "id": "2-18",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Two spherical cells, A and B, have the same total volume, but Cell A is a single sphere while Cell B has been artificially divided into 8 smaller spheres of equal total volume. Which has the greater combined surface area, and why?",
+      "choices": [
         "They will have identical total surface area, since volume is unchanged",
-        "This cannot be determined without additional information"
+        "This cannot be determined without additional information",
+        "Cell A, since it is one continuous structure",
+        "Cell B, since dividing a given volume into multiple smaller units increases total surface area even though total volume stays the same"
       ],
-      correct: 1,
-      explanation: "This illustrates exactly why organisms are built from many small cells rather than one giant cell: for a fixed total volume, subdividing it into multiple smaller units increases the combined surface area substantially (since each new unit gains its own additional surface), improving overall exchange efficiency even though the total amount of \"living material\" (volume) hasn't changed."
+      "correct": 3,
+      "explanation": "This illustrates exactly why organisms are built from many small cells rather than one giant cell: for a fixed total volume, subdividing it into multiple smaller units increases the combined surface area substantially (since each new unit gains its own additional surface), improving overall exchange efficiency even though the total amount of \"living material\" (volume) hasn't changed."
     },
     {
-      id: "2-19",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Mitochondrial cristae are extensive foldings of the inner mitochondrial membrane. Which principle explains why this folding is advantageous?",
-      choices: [
+      "id": "2-19",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Mitochondrial cristae are extensive foldings of the inner mitochondrial membrane. Which principle explains why this folding is advantageous?",
+      "choices": [
         "It increases surface area for the proteins and reactions of aerobic respiration, without requiring the mitochondrion to increase in overall volume",
         "It decreases the mitochondrion's overall volume",
         "It allows the mitochondrion to perform photosynthesis",
         "It has no functional advantage; it is simply a byproduct of the membrane's chemical composition"
       ],
-      correct: 0,
-      explanation: "Cristae are a clear example of the SA:V principle applied inside an organelle: folding the inner membrane dramatically increases the surface area available for embedded electron transport chain proteins and ATP synthase, boosting the mitochondrion's respiratory capacity, without requiring it to take up more physical space."
+      "correct": 0,
+      "explanation": "Cristae are a clear example of the SA:V principle applied inside an organelle: folding the inner membrane dramatically increases the surface area available for embedded electron transport chain proteins and ATP synthase, boosting the mitochondrion's respiratory capacity, without requiring it to take up more physical space."
     },
     {
-      id: "2-20",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "A cell has a surface area of 100 μm² and a volume of 50 μm³. A second cell has a surface area of 400 μm² and a volume of 400 μm³. Which cell has the more favorable SA:V ratio for efficient exchange?",
-      choices: [
-        "The first cell (SA:V = 2:1)",
-        "The second cell (SA:V = 1:1)",
+      "id": "2-20",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "A cell has a surface area of 100 μm² and a volume of 50 μm³. A second cell has a surface area of 400 μm² and a volume of 400 μm³. Which cell has the more favorable SA:V ratio for efficient exchange?",
+      "choices": [
+        "SA:V ratio cannot be calculated from this information",
         "They are equally favorable",
-        "SA:V ratio cannot be calculated from this information"
+        "The first cell (SA:V = 2:1)",
+        "The second cell (SA:V = 1:1)"
       ],
-      correct: 0,
-      explanation: "First cell: SA:V = 100:50 = 2:1. Second cell: SA:V = 400:400 = 1:1. A higher SA:V ratio (2:1 vs. 1:1) means more surface area is available per unit of volume, making the first cell more efficient at exchange relative to its size, despite being smaller overall."
+      "correct": 2,
+      "explanation": "First cell: SA:V = 100:50 = 2:1. Second cell: SA:V = 400:400 = 1:1. A higher SA:V ratio (2:1 vs. 1:1) means more surface area is available per unit of volume, making the first cell more efficient at exchange relative to its size, despite being smaller overall."
     },
     {
-      id: "2-21",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Which best explains why very large eggs (like an ostrich egg) can exist as single cells despite the SA:V constraint that limits most cells to a microscopic size?",
-      choices: [
-        "Egg cells have an unusually high metabolic rate that offsets their large size",
-        "A large portion of an egg cell's volume is relatively metabolically inactive stored nutrients (yolk) rather than actively respiring cytoplasm, reducing the practical exchange demand relative to its size",
+      "id": "2-21",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Which best explains why very large eggs (like an ostrich egg) can exist as single cells despite the SA:V constraint that limits most cells to a microscopic size?",
+      "choices": [
         "Egg cells do not obey the surface area to volume relationship",
-        "Egg cells have no plasma membrane"
+        "Egg cells have no plasma membrane",
+        "Egg cells have an unusually high metabolic rate that offsets their large size",
+        "A large portion of an egg cell's volume is relatively metabolically inactive stored nutrients (yolk) rather than actively respiring cytoplasm, reducing the practical exchange demand relative to its size"
       ],
-      correct: 1,
-      explanation: "The SA:V constraint is really about matching exchange capacity (surface area) to metabolic demand (which scales with the amount of active volume, not simply total volume). Since much of a large egg's volume is nutrient storage rather than actively metabolizing material, its effective exchange demand is much lower than its raw size would suggest — allowing it to exist as a single, unusually large cell."
+      "correct": 3,
+      "explanation": "The SA:V constraint is really about matching exchange capacity (surface area) to metabolic demand (which scales with the amount of active volume, not simply total volume). Since much of a large egg's volume is nutrient storage rather than actively metabolizing material, its effective exchange demand is much lower than its raw size would suggest — allowing it to exist as a single, unusually large cell."
     },
     {
-      id: "2-22",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "A student calculates that Cell X has SA:V = 3:1 and Cell Y has SA:V = 1:2. Which statement is accurate?",
-      choices: [
+      "id": "2-22",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "A student calculates that Cell X has SA:V = 3:1 and Cell Y has SA:V = 1:2. Which statement is accurate?",
+      "choices": [
+        "SA:V ratios below 1 are not biologically possible",
         "Cell X likely has a more favorable ratio for efficient material exchange than Cell Y",
-        "Cell Y likely has a more favorable ratio for efficient material exchange than Cell X",
         "Both cells have identical exchange efficiency",
-        "SA:V ratios below 1 are not biologically possible"
+        "Cell Y likely has a more favorable ratio for efficient material exchange than Cell X"
       ],
-      correct: 0,
-      explanation: "A higher SA:V ratio (3:1, meaning 3 units of surface area per 1 unit of volume) indicates more membrane surface relatively available to support the cell's volume, generally correlating with more efficient exchange. Cell Y's 1:2 ratio (less than 1 unit of surface area per unit of volume) reflects a less favorable relationship — a much larger volume relative to available exchange surface."
+      "correct": 1,
+      "explanation": "A higher SA:V ratio (3:1, meaning 3 units of surface area per 1 unit of volume) indicates more membrane surface relatively available to support the cell's volume, generally correlating with more efficient exchange. Cell Y's 1:2 ratio (less than 1 unit of surface area per unit of volume) reflects a less favorable relationship — a much larger volume relative to available exchange surface."
     },
     {
-      id: "2-23",
-      topic: "2.2 Cell Size and SA:V",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A spherical cell has a diameter of 20 μm. If the cell's diameter increased to 40 μm (doubling), by what factor would its surface area increase, and by what factor would its volume increase?",
-      choices: [
+      "id": "2-23",
+      "topic": "2.2 Cell Size and SA:V",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A spherical cell has a diameter of 20 μm. If the cell's diameter increased to 40 μm (doubling), by what factor would its surface area increase, and by what factor would its volume increase?",
+      "choices": [
+        "Surface area increases 2x, volume increases 4x",
         "Surface area increases 2x, volume increases 2x",
-        "Surface area increases 4x, volume increases 8x",
         "Surface area increases 8x, volume increases 4x",
-        "Surface area increases 2x, volume increases 4x"
+        "Surface area increases 4x, volume increases 8x"
       ],
-      correct: 1,
-      explanation: "Surface area of a sphere scales with r² (radius squared), so doubling the radius (or diameter, same ratio) increases surface area by 2² = 4-fold. Volume scales with r³, so doubling the radius increases volume by 2³ = 8-fold. This numeric relationship — a surface area increase lagging behind an even larger volume increase — is the precise mathematical basis for why SA:V ratio always falls as a cell (or any object) grows uniformly larger."
+      "correct": 3,
+      "explanation": "Surface area of a sphere scales with r² (radius squared), so doubling the radius (or diameter, same ratio) increases surface area by 2² = 4-fold. Volume scales with r³, so doubling the radius increases volume by 2³ = 8-fold. This numeric relationship — a surface area increase lagging behind an even larger volume increase — is the precise mathematical basis for why SA:V ratio always falls as a cell (or any object) grows uniformly larger."
     },
     {
-      id: "2-24",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Which cellular process is most directly explained by the need to maintain a favorable SA:V ratio as an organism grows?",
-      choices: [
-        "Protein synthesis",
+      "id": "2-24",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Which cellular process is most directly explained by the need to maintain a favorable SA:V ratio as an organism grows?",
+      "choices": [
+        "Osmosis",
         "Cell division",
         "DNA transcription",
-        "Osmosis"
+        "Protein synthesis"
       ],
-      correct: 1,
-      explanation: "As a growing cell approaches an unfavorable SA:V ratio, cell division allows the organism to increase in total size and cell number without any individual cell exceeding a workable size limit — keeping each resulting cell's SA:V ratio within an efficient range. This is one of the clearest real-world biological consequences of the SA:V relationship."
+      "correct": 1,
+      "explanation": "As a growing cell approaches an unfavorable SA:V ratio, cell division allows the organism to increase in total size and cell number without any individual cell exceeding a workable size limit — keeping each resulting cell's SA:V ratio within an efficient range. This is one of the clearest real-world biological consequences of the SA:V relationship."
     },
     {
-      id: "2-25",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "A researcher compares metabolic rate per gram of tissue in a small mammal versus a large mammal of similar body plan. Based on SA:V principles applied to the whole organism's surface area relative to its body mass, which trend would be a reasonable prediction?",
-      choices: [
-        "Smaller mammals should have a lower metabolic rate per gram of tissue than larger mammals",
-        "Smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, partly reflecting the more favorable body-surface-to-mass ratio that increases relative heat loss and exchange at smaller scales",
+      "id": "2-25",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "A researcher compares metabolic rate per gram of tissue in a small mammal versus a large mammal of similar body plan. Based on SA:V principles applied to the whole organism's surface area relative to its body mass, which trend would be a reasonable prediction?",
+      "choices": [
         "Metabolic rate per gram should be identical regardless of body size",
-        "SA:V ratio has no bearing on whole-organism metabolic rate"
+        "SA:V ratio has no bearing on whole-organism metabolic rate",
+        "Smaller mammals should have a lower metabolic rate per gram of tissue than larger mammals",
+        "Smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, partly reflecting the more favorable body-surface-to-mass ratio that increases relative heat loss and exchange at smaller scales"
       ],
-      correct: 1,
-      explanation: "This is a real and well-documented biological pattern: smaller animals generally have a higher metabolic rate per gram of body mass than larger animals. The explanation is a whole-organism SA:V effect, not a cellular one — individual cell size is roughly constant across mammal species, so it's the organism's own surface area (skin, relative to its body mass/volume) that scales unfavorably as body size increases. A smaller body has more surface area per gram, loses relatively more heat, and needs a higher mass-specific metabolic rate to compensate."
+      "correct": 3,
+      "explanation": "This is a real and well-documented biological pattern: smaller animals generally have a higher metabolic rate per gram of body mass than larger animals. The explanation is a whole-organism SA:V effect, not a cellular one — individual cell size is roughly constant across mammal species, so it's the organism's own surface area (skin, relative to its body mass/volume) that scales unfavorably as body size increases. A smaller body has more surface area per gram, loses relatively more heat, and needs a higher mass-specific metabolic rate to compensate."
     },
     {
-      id: "2-26",
-      topic: "2.2 Cell Size and SA:V",
-      stem: "Which formula correctly represents the volume of a cube-shaped cell with side length s?",
-      choices: [
+      "id": "2-26",
+      "topic": "2.2 Cell Size and SA:V",
+      "stem": "Which formula correctly represents the volume of a cube-shaped cell with side length s?",
+      "choices": [
         "V = 6s²",
-        "V = s³",
         "V = 4/3 × π × s³",
+        "V = s³",
         "V = s²"
       ],
-      correct: 1,
-      explanation: "For a cube with side length s, volume is calculated as V = s³ (side length cubed). The formula 6s² is instead the surface area formula for a cube (6 faces, each with area s²); the 4/3πr³ formula applies to spheres, not cubes."
+      "correct": 2,
+      "explanation": "For a cube with side length s, volume is calculated as V = s³ (side length cubed). The formula 6s² is instead the surface area formula for a cube (6 faces, each with area s²); the 4/3πr³ formula applies to spheres, not cubes."
     },
     {
-      id: "2-27",
-      topic: "2.3 The Plasma Membrane",
-      stem: "According to the fluid mosaic model, which best describes the arrangement of proteins within the membrane?",
-      choices: [
+      "id": "2-27",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "According to the fluid mosaic model, which best describes the arrangement of proteins within the membrane?",
+      "choices": [
         "All proteins are fixed in one permanent location and cannot move",
-        "Proteins, along with phospholipids, can move and drift within the plane of the membrane, giving the membrane a fluid, dynamic character",
         "Proteins exist only outside the membrane, never embedded within it",
+        "Proteins, along with phospholipids, can move and drift within the plane of the membrane, giving the membrane a fluid, dynamic character",
         "There are no proteins in the plasma membrane at all"
       ],
-      correct: 1,
-      explanation: "The \"fluid\" part of the fluid mosaic model specifically refers to the ability of both phospholipids and embedded proteins to drift and move laterally within the plane of the membrane, rather than being locked in fixed positions — this dynamic quality is essential to many membrane functions."
+      "correct": 2,
+      "explanation": "The \"fluid\" part of the fluid mosaic model specifically refers to the ability of both phospholipids and embedded proteins to drift and move laterally within the plane of the membrane, rather than being locked in fixed positions — this dynamic quality is essential to many membrane functions."
     },
     {
-      id: "2-28",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which type of membrane protein spans completely across the lipid bilayer, often functioning in transport?",
-      choices: [
-        "Peripheral protein",
+      "id": "2-28",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which type of membrane protein spans completely across the lipid bilayer, often functioning in transport?",
+      "choices": [
         "Integral (transmembrane) protein",
-        "Glycoprotein exclusively",
-        "Cholesterol"
+        "Cholesterol",
+        "Peripheral protein",
+        "Glycoprotein exclusively"
       ],
-      correct: 1,
-      explanation: "Integral proteins, particularly transmembrane proteins, are embedded within and span across the lipid bilayer, often serving transport (channel/carrier) or receptor functions. Peripheral proteins, by contrast, are attached to the membrane surface without spanning across it."
+      "correct": 0,
+      "explanation": "Integral proteins, particularly transmembrane proteins, are embedded within and span across the lipid bilayer, often serving transport (channel/carrier) or receptor functions. Peripheral proteins, by contrast, are attached to the membrane surface without spanning across it."
     },
     {
-      id: "2-29",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Glycoproteins on a cell's exterior surface are primarily involved in which function?",
-      choices: [
+      "id": "2-29",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Glycoproteins on a cell's exterior surface are primarily involved in which function?",
+      "choices": [
         "ATP synthesis",
-        "Cell-cell recognition and signaling",
+        "Photosynthesis",
         "DNA replication",
-        "Photosynthesis"
+        "Cell-cell recognition and signaling"
       ],
-      correct: 1,
-      explanation: "The carbohydrate chains attached to glycoproteins (and glycolipids) on the cell's exterior surface serve as identifying markers, allowing cells to recognize each other — this is important in immune system function, tissue formation, and cell signaling."
+      "correct": 3,
+      "explanation": "The carbohydrate chains attached to glycoproteins (and glycolipids) on the cell's exterior surface serve as identifying markers, allowing cells to recognize each other — this is important in immune system function, tissue formation, and cell signaling."
     },
     {
-      id: "2-30",
-      topic: "2.3 The Plasma Membrane",
-      stem: "A membrane is exposed to unusually high temperatures. Without cholesterol present to regulate fluidity, what would you predict?",
-      choices: [
+      "id": "2-30",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "A membrane is exposed to unusually high temperatures. Without cholesterol present to regulate fluidity, what would you predict?",
+      "choices": [
+        "The membrane would convert entirely into protein",
         "The membrane would become excessively fluid, potentially compromising its structural integrity",
-        "The membrane would become excessively rigid",
         "The membrane would be completely unaffected by temperature",
-        "The membrane would convert entirely into protein"
+        "The membrane would become excessively rigid"
       ],
-      correct: 0,
-      explanation: "At high temperatures, phospholipids naturally move more, increasing membrane fluidity. Cholesterol normally restrains this excess movement; without it, a membrane at high temperature would become abnormally fluid, potentially compromising the membrane's structural integrity and its ability to function as a selective barrier."
+      "correct": 1,
+      "explanation": "At high temperatures, phospholipids naturally move more, increasing membrane fluidity. Cholesterol normally restrains this excess movement; without it, a membrane at high temperature would become abnormally fluid, potentially compromising the membrane's structural integrity and its ability to function as a selective barrier."
     },
     {
-      id: "2-31",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which molecules can typically cross the plasma membrane directly through the lipid bilayer without requiring a transport protein?",
-      choices: [
-        "Glucose and amino acids",
-        "Small nonpolar molecules like O2 and CO2, and to a lesser extent small polar molecules like water",
+      "id": "2-31",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which molecules can typically cross the plasma membrane directly through the lipid bilayer without requiring a transport protein?",
+      "choices": [
         "Sodium and potassium ions",
-        "Large proteins"
+        "Large proteins",
+        "Small nonpolar molecules like O2 and CO2, and to a lesser extent small polar molecules like water",
+        "Glucose and amino acids"
       ],
-      correct: 1,
-      explanation: "Small, nonpolar molecules like O2 and CO2 diffuse directly through the hydrophobic bilayer interior easily. Small polar molecules like water can also cross directly, though more slowly (and can be sped up by aquaporin channels). Ions, glucose, amino acids, and large molecules like proteins generally require specific transport proteins to cross."
+      "correct": 2,
+      "explanation": "Small, nonpolar molecules like O2 and CO2 diffuse directly through the hydrophobic bilayer interior easily. Small polar molecules like water can also cross directly, though more slowly (and can be sped up by aquaporin channels). Ions, glucose, amino acids, and large molecules like proteins generally require specific transport proteins to cross."
     },
     {
-      id: "2-32",
-      topic: "2.3 The Plasma Membrane",
-      stem: "A cell's membrane is selectively permeable. Which statement best captures what this term means?",
-      choices: [
-        "The membrane allows all substances to cross equally",
-        "The membrane allows no substances to cross under any circumstances",
+      "id": "2-32",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "A cell's membrane is selectively permeable. Which statement best captures what this term means?",
+      "choices": [
         "The membrane allows some substances to cross more easily than others, based on factors like size, polarity, and charge",
-        "The membrane's permeability changes randomly with no predictable pattern"
+        "The membrane allows all substances to cross equally",
+        "The membrane's permeability changes randomly with no predictable pattern",
+        "The membrane allows no substances to cross under any circumstances"
       ],
-      correct: 2,
-      explanation: "Selective permeability means the membrane discriminates between substances — some cross easily (small, nonpolar molecules), some cross more slowly or only with help (small polar molecules, molecules needing transport proteins), and some essentially cannot cross the lipid bilayer directly at all (large or highly charged molecules)."
+      "correct": 0,
+      "explanation": "Selective permeability means the membrane discriminates between substances — some cross easily (small, nonpolar molecules), some cross more slowly or only with help (small polar molecules, molecules needing transport proteins), and some essentially cannot cross the lipid bilayer directly at all (large or highly charged molecules)."
     },
     {
-      id: "2-33",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which of the following best explains why phospholipids spontaneously arrange into a bilayer rather than a single layer when forming a cell membrane in a watery environment?",
-      choices: [
+      "id": "2-33",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which of the following best explains why phospholipids spontaneously arrange into a bilayer rather than a single layer when forming a cell membrane in a watery environment?",
+      "choices": [
         "A single layer would leave hydrophobic tails exposed to water on one side, which is energetically unfavorable; a bilayer allows all hydrophilic heads to face water while all hydrophobic tails cluster away from water on both sides",
         "A single layer is chemically impossible to form",
-        "Phospholipids are magnetically attracted to form pairs",
-        "A bilayer requires an external protein scaffold to form"
+        "A bilayer requires an external protein scaffold to form",
+        "Phospholipids are magnetically attracted to form pairs"
       ],
-      correct: 0,
-      explanation: "Since a cell's interior and exterior are both watery environments, a single phospholipid layer would leave hydrophobic tails exposed to water somewhere — energetically unfavorable. A bilayer, tails facing tails in the middle, allows hydrophilic heads to face the watery environment on BOTH sides simultaneously, which is the lowest-energy, most stable arrangement and forms spontaneously without needing external assembly help."
+      "correct": 0,
+      "explanation": "Since a cell's interior and exterior are both watery environments, a single phospholipid layer would leave hydrophobic tails exposed to water somewhere — energetically unfavorable. A bilayer, tails facing tails in the middle, allows hydrophilic heads to face the watery environment on BOTH sides simultaneously, which is the lowest-energy, most stable arrangement and forms spontaneously without needing external assembly help."
     },
     {
-      id: "2-34",
-      topic: "2.3 The Plasma Membrane",
-      stem: "A researcher removes all peripheral proteins from a cell membrane while leaving integral proteins and the phospholipid bilayer intact. Which structural feature of the membrane would remain unaffected?",
-      choices: [
-        "The membrane would lose its overall structural existence entirely",
+      "id": "2-34",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "A researcher removes all peripheral proteins from a cell membrane while leaving integral proteins and the phospholipid bilayer intact. Which structural feature of the membrane would remain unaffected?",
+      "choices": [
         "The basic bilayer structure and transmembrane transport capability would remain largely intact, since integral proteins (not peripheral proteins) generally handle transport",
-        "The membrane would immediately become completely impermeable",
-        "The cell would convert into a prokaryote"
+        "The membrane would lose its overall structural existence entirely",
+        "The cell would convert into a prokaryote",
+        "The membrane would immediately become completely impermeable"
       ],
-      correct: 1,
-      explanation: "Peripheral proteins are attached to the membrane surface, often playing structural or signaling roles, but the core bilayer structure and most transmembrane transport functions depend on the phospholipid bilayer and integral proteins. Removing only peripheral proteins would leave the basic membrane structure and much of its transport capability intact, even though some surface functions would be lost."
+      "correct": 0,
+      "explanation": "Peripheral proteins are attached to the membrane surface, often playing structural or signaling roles, but the core bilayer structure and most transmembrane transport functions depend on the phospholipid bilayer and integral proteins. Removing only peripheral proteins would leave the basic membrane structure and much of its transport capability intact, even though some surface functions would be lost."
     },
     {
-      id: "2-35",
-      topic: "2.3 The Plasma Membrane",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A membrane protein is found to have a stretch of amino acids with predominantly nonpolar R-groups embedded within the bilayer, flanked by stretches with predominantly polar/charged R-groups on either side facing the aqueous cytoplasm and extracellular fluid. Which conclusion about this protein's structure is best supported?",
-      choices: [
-        "This pattern indicates the protein has no functional role in the membrane",
+      "id": "2-35",
+      "topic": "2.3 The Plasma Membrane",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A membrane protein is found to have a stretch of amino acids with predominantly nonpolar R-groups embedded within the bilayer, flanked by stretches with predominantly polar/charged R-groups on either side facing the aqueous cytoplasm and extracellular fluid. Which conclusion about this protein's structure is best supported?",
+      "choices": [
         "This pattern is consistent with a transmembrane protein, where the nonpolar segment spans the hydrophobic bilayer interior and the polar/charged segments interact favorably with the watery environments on either side",
-        "This pattern indicates the protein is entirely located outside the membrane",
-        "This pattern is only possible in prokaryotic cell membranes"
+        "This pattern indicates the protein has no functional role in the membrane",
+        "This pattern is only possible in prokaryotic cell membranes",
+        "This pattern indicates the protein is entirely located outside the membrane"
       ],
-      correct: 1,
-      explanation: "This connects amino acid R-group chemistry (from Unit 1) directly to membrane protein structure. A stretch of nonpolar amino acids is energetically favorable within the hydrophobic bilayer interior, while polar/charged stretches are favorable in the watery environments on either side of the membrane — this exact R-group pattern (nonpolar-polar-polar) is in fact how biologists identify likely transmembrane regions in an unknown protein's amino acid sequence."
+      "correct": 0,
+      "explanation": "This connects amino acid R-group chemistry (from Unit 1) directly to membrane protein structure. A stretch of nonpolar amino acids is energetically favorable within the hydrophobic bilayer interior, while polar/charged stretches are favorable in the watery environments on either side of the membrane — this exact R-group pattern (nonpolar-polar-polar) is in fact how biologists identify likely transmembrane regions in an unknown protein's amino acid sequence."
     },
     {
-      id: "2-36",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which best describes cholesterol's location within the plasma membrane?",
-      choices: [
-        "Cholesterol is found only on the outer surface of the membrane, never within it",
+      "id": "2-36",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which best describes cholesterol's location within the plasma membrane?",
+      "choices": [
         "Cholesterol is wedged among the phospholipid tails within the hydrophobic interior of the bilayer",
+        "Cholesterol is found only in plant cell membranes",
         "Cholesterol replaces phospholipids entirely in animal cell membranes",
-        "Cholesterol is found only in plant cell membranes"
+        "Cholesterol is found only on the outer surface of the membrane, never within it"
       ],
-      correct: 1,
-      explanation: "Cholesterol is a small, mostly nonpolar steroid molecule that inserts itself among the fatty acid tails within the hydrophobic interior of the phospholipid bilayer, where it can moderate how closely those tails pack together depending on temperature."
+      "correct": 0,
+      "explanation": "Cholesterol is a small, mostly nonpolar steroid molecule that inserts itself among the fatty acid tails within the hydrophobic interior of the phospholipid bilayer, where it can moderate how closely those tails pack together depending on temperature."
     },
     {
-      id: "2-37",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which statement accurately compares the permeability of the plasma membrane to charged ions (like Na⁺) versus small nonpolar gases (like O2)?",
-      choices: [
-        "Charged ions cross the lipid bilayer directly more easily than nonpolar gases",
-        "Charged ions generally cannot cross the hydrophobic bilayer interior directly and require specific transport proteins, while small nonpolar gases can diffuse directly through the bilayer",
+      "id": "2-37",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which statement accurately compares the permeability of the plasma membrane to charged ions (like Na⁺) versus small nonpolar gases (like O2)?",
+      "choices": [
+        "Neither can ever cross the plasma membrane under any circumstances",
         "Both cross the membrane with identical ease",
-        "Neither can ever cross the plasma membrane under any circumstances"
+        "Charged ions cross the lipid bilayer directly more easily than nonpolar gases",
+        "Charged ions generally cannot cross the hydrophobic bilayer interior directly and require specific transport proteins, while small nonpolar gases can diffuse directly through the bilayer"
       ],
-      correct: 1,
-      explanation: "Charged ions are strongly repelled by the hydrophobic, nonpolar interior of the bilayer and essentially cannot cross it directly — they require specific channel or carrier proteins. Small nonpolar gases like O2, lacking any charge or significant polarity, can dissolve into and diffuse directly through the hydrophobic interior with relative ease."
+      "correct": 3,
+      "explanation": "Charged ions are strongly repelled by the hydrophobic, nonpolar interior of the bilayer and essentially cannot cross it directly — they require specific channel or carrier proteins. Small nonpolar gases like O2, lacking any charge or significant polarity, can dissolve into and diffuse directly through the hydrophobic interior with relative ease."
     },
     {
-      id: "2-38",
-      topic: "2.3 The Plasma Membrane",
-      stem: "A drug is designed to bind to a receptor protein on a cell's exterior surface. Which type of membrane protein is this drug most likely targeting?",
-      choices: [
+      "id": "2-38",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "A drug is designed to bind to a receptor protein on a cell's exterior surface. Which type of membrane protein is this drug most likely targeting?",
+      "choices": [
         "A structural phospholipid",
+        "The nuclear membrane exclusively",
         "An integral membrane protein with a receptor function, exposed on the extracellular surface",
-        "Cholesterol",
-        "The nuclear membrane exclusively"
+        "Cholesterol"
       ],
-      correct: 1,
-      explanation: "Receptor proteins that bind external signaling molecules (like many drugs and hormones) are typically integral membrane proteins with a portion exposed on the cell's extracellular surface, allowing them to detect and bind molecules approaching from outside the cell."
+      "correct": 2,
+      "explanation": "Receptor proteins that bind external signaling molecules (like many drugs and hormones) are typically integral membrane proteins with a portion exposed on the cell's extracellular surface, allowing them to detect and bind molecules approaching from outside the cell."
     },
     {
-      id: "2-39",
-      topic: "2.3 The Plasma Membrane",
-      stem: "Which of the following would most directly disrupt the overall structural integrity of a phospholipid bilayer?",
-      choices: [
-        "Removing all glycoproteins from the membrane surface",
-        "Introducing a solvent that disrupts the hydrophobic interactions holding the fatty acid tails together in the membrane's interior",
+      "id": "2-39",
+      "topic": "2.3 The Plasma Membrane",
+      "stem": "Which of the following would most directly disrupt the overall structural integrity of a phospholipid bilayer?",
+      "choices": [
         "Adding additional cholesterol molecules within normal physiological amounts",
+        "Introducing a solvent that disrupts the hydrophobic interactions holding the fatty acid tails together in the membrane's interior",
+        "Removing all glycoproteins from the membrane surface",
         "Slightly increasing extracellular glucose concentration"
       ],
-      correct: 1,
-      explanation: "The bilayer's fundamental structural integrity depends on the hydrophobic effect keeping fatty acid tails clustered together, away from water. A solvent that disrupts these hydrophobic interactions would directly threaten the bilayer's basic structure, unlike removing surface glycoproteins (a surface feature, not structural) or adding cholesterol within normal ranges (which regulates, but doesn't destroy, bilayer structure)."
+      "correct": 1,
+      "explanation": "The bilayer's fundamental structural integrity depends on the hydrophobic effect keeping fatty acid tails clustered together, away from water. A solvent that disrupts these hydrophobic interactions would directly threaten the bilayer's basic structure, unlike removing surface glycoproteins (a surface feature, not structural) or adding cholesterol within normal ranges (which regulates, but doesn't destroy, bilayer structure)."
     },
     {
-      id: "2-40",
-      topic: "2.4 Passive Transport",
-      stem: "Which statement accurately defines passive transport?",
-      choices: [
-        "Movement of a substance across a membrane against its concentration gradient, requiring ATP",
-        "Movement of a substance across a membrane down its concentration gradient, requiring no cellular energy input",
+      "id": "2-40",
+      "topic": "2.4 Passive Transport",
+      "stem": "Which statement accurately defines passive transport?",
+      "choices": [
         "Movement that only occurs through active pumping proteins",
-        "Movement that always requires vesicle formation"
+        "Movement that always requires vesicle formation",
+        "Movement of a substance across a membrane down its concentration gradient, requiring no cellular energy input",
+        "Movement of a substance across a membrane against its concentration gradient, requiring ATP"
       ],
-      correct: 1,
-      explanation: "Passive transport is defined by movement down the concentration gradient (from higher to lower concentration) and by not requiring an input of cellular energy (like ATP) — this includes simple diffusion, facilitated diffusion, and osmosis."
+      "correct": 2,
+      "explanation": "Passive transport is defined by movement down the concentration gradient (from higher to lower concentration) and by not requiring an input of cellular energy (like ATP) — this includes simple diffusion, facilitated diffusion, and osmosis."
     },
     {
-      id: "2-41",
-      topic: "2.4 Passive Transport",
-      stem: "A red blood cell is placed in a solution with a lower solute concentration than the cell's interior. This solution is:",
-      choices: [
-        "Hypertonic to the cell",
+      "id": "2-41",
+      "topic": "2.4 Passive Transport",
+      "stem": "A red blood cell is placed in a solution with a lower solute concentration than the cell's interior. This solution is:",
+      "choices": [
         "Hypotonic to the cell",
         "Isotonic to the cell",
-        "Osmotically inert"
+        "Osmotically inert",
+        "Hypertonic to the cell"
       ],
-      correct: 1,
-      explanation: "A solution with a lower solute concentration than the cell's interior is hypotonic relative to the cell — water will move into the cell by osmosis, since the cell's interior has relatively more solute (and relatively less free water) than the surrounding hypotonic solution."
+      "correct": 0,
+      "explanation": "A solution with a lower solute concentration than the cell's interior is hypotonic relative to the cell — water will move into the cell by osmosis, since the cell's interior has relatively more solute (and relatively less free water) than the surrounding hypotonic solution."
     },
     {
-      id: "2-42",
-      topic: "2.4 Passive Transport",
-      stem: "A plant cell placed in a hypertonic solution undergoes plasmolysis. Which best describes what is physically happening to the cell?",
-      choices: [
-        "The cell wall dissolves completely",
-        "Water leaves the cell by osmosis, causing the plasma membrane to shrink away from the surrounding rigid cell wall",
+      "id": "2-42",
+      "topic": "2.4 Passive Transport",
+      "stem": "A plant cell placed in a hypertonic solution undergoes plasmolysis. Which best describes what is physically happening to the cell?",
+      "choices": [
         "The cell rapidly divides",
-        "Water rushes into the cell, causing it to burst"
+        "Water rushes into the cell, causing it to burst",
+        "The cell wall dissolves completely",
+        "Water leaves the cell by osmosis, causing the plasma membrane to shrink away from the surrounding rigid cell wall"
       ],
-      correct: 1,
-      explanation: "In a hypertonic environment, water leaves the plant cell by osmosis (moving toward the higher solute concentration outside). Since the rigid cell wall doesn't shrink along with the cell's contents, the plasma membrane pulls away from the wall as the cell's interior volume decreases — this separation is what defines plasmolysis."
+      "correct": 3,
+      "explanation": "In a hypertonic environment, water leaves the plant cell by osmosis (moving toward the higher solute concentration outside). Since the rigid cell wall doesn't shrink along with the cell's contents, the plasma membrane pulls away from the wall as the cell's interior volume decreases — this separation is what defines plasmolysis."
     },
     {
-      id: "2-43",
-      topic: "2.4 Passive Transport",
-      stem: "Facilitated diffusion differs from simple diffusion primarily in that facilitated diffusion:",
-      choices: [
+      "id": "2-43",
+      "topic": "2.4 Passive Transport",
+      "stem": "Facilitated diffusion differs from simple diffusion primarily in that facilitated diffusion:",
+      "choices": [
+        "Only occurs in prokaryotic cells",
         "Requires ATP, while simple diffusion does not",
         "Requires a specific transport protein to move molecules that cannot cross the lipid bilayer directly, while simple diffusion does not require a protein",
-        "Moves substances against their concentration gradient",
-        "Only occurs in prokaryotic cells"
+        "Moves substances against their concentration gradient"
       ],
-      correct: 1,
-      explanation: "Both simple and facilitated diffusion are passive (down the gradient, no ATP needed) — the key difference is that facilitated diffusion requires a specific channel or carrier protein because the substance being moved (often charged or polar) cannot cross the hydrophobic bilayer directly on its own, unlike the small nonpolar molecules that use simple diffusion."
+      "correct": 2,
+      "explanation": "Both simple and facilitated diffusion are passive (down the gradient, no ATP needed) — the key difference is that facilitated diffusion requires a specific channel or carrier protein because the substance being moved (often charged or polar) cannot cross the hydrophobic bilayer directly on its own, unlike the small nonpolar molecules that use simple diffusion."
     },
     {
-      id: "2-44",
-      topic: "2.4 Passive Transport",
-      stem: "Aquaporins are channel proteins that allow water to cross the membrane much faster than it would through the bilayer alone. Is osmosis through an aquaporin still considered passive transport?",
-      choices: [
-        "No, because it involves a protein, which always indicates active transport",
+      "id": "2-44",
+      "topic": "2.4 Passive Transport",
+      "stem": "Aquaporins are channel proteins that allow water to cross the membrane much faster than it would through the bilayer alone. Is osmosis through an aquaporin still considered passive transport?",
+      "choices": [
+        "This cannot be determined without knowing the cell type",
         "Yes, because water still moves down its own concentration gradient and no ATP is spent — the aquaporin simply provides a faster path, not an energy source",
         "No, because aquaporins convert ATP into water molecules",
-        "This cannot be determined without knowing the cell type"
+        "No, because it involves a protein, which always indicates active transport"
       ],
-      correct: 1,
-      explanation: "Aquaporins speed up water movement by providing a dedicated channel, but they don't change the fundamental nature of the process: water is still moving down its concentration gradient (toward the side with more solute), and no ATP is being spent. This remains passive transport, just facilitated (accelerated) by a protein — using a protein does not automatically make a process active."
+      "correct": 1,
+      "explanation": "Aquaporins speed up water movement by providing a dedicated channel, but they don't change the fundamental nature of the process: water is still moving down its concentration gradient (toward the side with more solute), and no ATP is being spent. This remains passive transport, just facilitated (accelerated) by a protein — using a protein does not automatically make a process active."
     },
     {
-      id: "2-45",
-      topic: "2.4 Passive Transport",
-      stem: "A cell is placed in an isotonic solution. What would you expect to observe regarding the cell's size over time?",
-      choices: [
-        "The cell will swell significantly",
-        "The cell will shrink significantly",
+      "id": "2-45",
+      "topic": "2.4 Passive Transport",
+      "stem": "A cell is placed in an isotonic solution. What would you expect to observe regarding the cell's size over time?",
+      "choices": [
         "The cell's size will remain essentially stable, since there is no net water movement in either direction",
-        "The cell will burst immediately"
+        "The cell will shrink significantly",
+        "The cell will burst immediately",
+        "The cell will swell significantly"
       ],
-      correct: 2,
-      explanation: "In an isotonic solution, the solute concentration inside and outside the cell is equal, so there's no net driving force for water to move in either direction by osmosis (water still moves both ways, but at equal rates, resulting in no net change). The cell's size stays essentially stable."
+      "correct": 0,
+      "explanation": "In an isotonic solution, the solute concentration inside and outside the cell is equal, so there's no net driving force for water to move in either direction by osmosis (water still moves both ways, but at equal rates, resulting in no net change). The cell's size stays essentially stable."
     },
     {
-      id: "2-46",
-      topic: "2.4 Passive Transport",
-      stem: "A glucose transporter protein moves glucose from an area of high extracellular concentration into a cell with lower internal glucose concentration, requiring no ATP. This is an example of:",
-      choices: [
-        "Active transport",
+      "id": "2-46",
+      "topic": "2.4 Passive Transport",
+      "stem": "A glucose transporter protein moves glucose from an area of high extracellular concentration into a cell with lower internal glucose concentration, requiring no ATP. This is an example of:",
+      "choices": [
         "Facilitated diffusion",
-        "Osmosis",
-        "Exocytosis"
+        "Active transport",
+        "Exocytosis",
+        "Osmosis"
       ],
-      correct: 1,
-      explanation: "Since glucose is moving DOWN its concentration gradient (high to low) using a specific transport protein and no ATP is required, this fits the definition of facilitated diffusion exactly — a form of passive transport that uses a protein because glucose can't cross the lipid bilayer directly."
+      "correct": 0,
+      "explanation": "Since glucose is moving DOWN its concentration gradient (high to low) using a specific transport protein and no ATP is required, this fits the definition of facilitated diffusion exactly — a form of passive transport that uses a protein because glucose can't cross the lipid bilayer directly."
     },
     {
-      id: "2-47",
-      topic: "2.4 Passive Transport",
-      stem: "Which scenario describes osmosis specifically, rather than diffusion in general?",
-      choices: [
-        "CO2 moving from an area of high concentration to low concentration across a membrane",
+      "id": "2-47",
+      "topic": "2.4 Passive Transport",
+      "stem": "Which scenario describes osmosis specifically, rather than diffusion in general?",
+      "choices": [
         "Water moving across a selectively permeable membrane toward the side with the higher solute concentration",
         "Sodium ions being pumped against their gradient using ATP",
+        "CO2 moving from an area of high concentration to low concentration across a membrane",
         "A protein being packaged in the Golgi apparatus"
       ],
-      correct: 1,
-      explanation: "Osmosis is specifically the diffusion of water (not any other molecule) across a selectively permeable membrane, driven by a difference in solute concentration on either side. General diffusion can apply to any molecule moving down its own gradient; osmosis is the water-specific case."
+      "correct": 0,
+      "explanation": "Osmosis is specifically the diffusion of water (not any other molecule) across a selectively permeable membrane, driven by a difference in solute concentration on either side. General diffusion can apply to any molecule moving down its own gradient; osmosis is the water-specific case."
     },
     {
-      id: "2-48",
-      topic: "2.4 Passive Transport",
-      stem: "A biologist wants to preserve red blood cells for a lab activity and needs to store them in a solution that will keep them from swelling or shrinking. Which type of solution should be used?",
-      choices: [
-        "A strongly hypertonic solution",
+      "id": "2-48",
+      "topic": "2.4 Passive Transport",
+      "stem": "A biologist wants to preserve red blood cells for a lab activity and needs to store them in a solution that will keep them from swelling or shrinking. Which type of solution should be used?",
+      "choices": [
         "A strongly hypotonic solution",
         "An isotonic solution",
-        "Distilled water"
+        "Distilled water",
+        "A strongly hypertonic solution"
       ],
-      correct: 2,
-      explanation: "An isotonic solution matches the solute concentration inside the red blood cells, resulting in no net water movement and therefore no swelling or shrinking — this is why isotonic saline solutions are used medically and in labs to preserve cells without osmotic stress."
+      "correct": 1,
+      "explanation": "An isotonic solution matches the solute concentration inside the red blood cells, resulting in no net water movement and therefore no swelling or shrinking — this is why isotonic saline solutions are used medically and in labs to preserve cells without osmotic stress."
     },
     {
-      id: "2-49",
-      topic: "2.4 Passive Transport",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: A cell is placed in a solution where the total solute concentration is equal to the cell's interior, but the solution contains a solute that can freely cross the membrane (unlike the cell's internal solutes, which cannot). Predict what will happen to the cell's volume over time, and explain your reasoning.",
-      choices: [
-        "Nothing will happen, since the solutions are technically isotonic",
+      "id": "2-49",
+      "topic": "2.4 Passive Transport",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A cell is placed in a solution where the total solute concentration is equal to the cell's interior, but the solution contains a solute that can freely cross the membrane (unlike the cell's internal solutes, which cannot). Predict what will happen to the cell's volume over time, and explain your reasoning.",
+      "choices": [
         "The cell will likely swell over time, because the permeable solute will diffuse into the cell down its own gradient once inside further increasing the cell's effective internal solute concentration, drawing water in by osmosis afterward",
+        "The membrane will dissolve entirely",
         "The cell will shrink permanently and cannot recover",
-        "The membrane will dissolve entirely"
+        "Nothing will happen, since the solutions are technically isotonic"
       ],
-      correct: 1,
-      explanation: "This tests a subtle but real distinction between \"isotonic\" (based on total solute concentration, including solutes that can freely cross) and \"isosmotic\" in a stricter physiological sense: a solute that can freely cross the membrane will diffuse into the cell down its own gradient over time, effectively raising the cell's internal solute concentration beyond the external solution (since the external permeable solute keeps entering while non-permeable internal solutes stay put). This shifts the balance, and water will then follow by osmosis, causing the cell to swell, despite the solutions technically starting out with equal total solute concentrations."
+      "correct": 0,
+      "explanation": "This tests a subtle but real distinction between \"isotonic\" (based on total solute concentration, including solutes that can freely cross) and \"isosmotic\" in a stricter physiological sense: a solute that can freely cross the membrane will diffuse into the cell down its own gradient over time, effectively raising the cell's internal solute concentration beyond the external solution (since the external permeable solute keeps entering while non-permeable internal solutes stay put). This shifts the balance, and water will then follow by osmosis, causing the cell to swell, despite the solutions technically starting out with equal total solute concentrations."
     },
     {
-      id: "2-50",
-      topic: "2.4 Passive Transport",
-      stem: "Which of the following correctly ranks O2 gas, water, and glucose from most to least able to cross a plasma membrane by simple diffusion?",
-      choices: [
-        "Na⁺ ion > O2 gas > glucose",
-        "O2 gas > water > glucose",
+      "id": "2-50",
+      "topic": "2.4 Passive Transport",
+      "stem": "Which of the following correctly ranks O2 gas, water, and glucose from most to least able to cross a plasma membrane by simple diffusion?",
+      "choices": [
+        "Water > O2 gas > glucose",
         "Glucose > water > O2 gas",
-        "Water > O2 gas > glucose"
+        "Na⁺ ion > O2 gas > glucose",
+        "O2 gas > water > glucose"
       ],
-      correct: 1,
-      explanation: "Small nonpolar gases like O2 cross most easily by simple diffusion, followed by small polar molecules like water (which cross more slowly but still directly), while larger or charged/polar molecules like glucose require transport proteins and essentially cannot cross by simple diffusion at all — placing them at the bottom of this ranking."
+      "correct": 3,
+      "explanation": "Small nonpolar gases like O2 cross most easily by simple diffusion, followed by small polar molecules like water (which cross more slowly but still directly), while larger or charged/polar molecules like glucose require transport proteins and essentially cannot cross by simple diffusion at all — placing them at the bottom of this ranking."
     },
     {
-      id: "2-51",
-      topic: "2.4 Passive Transport",
-      stem: "In a hypotonic environment, which cell type is at greatest risk of bursting (lysis) due to excessive water uptake?",
-      choices: [
-        "A plant cell, protected by a rigid cell wall",
+      "id": "2-51",
+      "topic": "2.4 Passive Transport",
+      "stem": "In a hypotonic environment, which cell type is at greatest risk of bursting (lysis) due to excessive water uptake?",
+      "choices": [
         "An animal cell, lacking a rigid cell wall to resist expansion",
+        "A plant cell, protected by a rigid cell wall",
         "A bacterial cell with a thick cell wall",
         "Cell wall presence has no effect on lysis risk"
       ],
-      correct: 1,
-      explanation: "Animal cells lack a rigid cell wall, so as water enters by osmosis in a hypotonic environment, there's nothing to physically resist the cell's expansion beyond the plasma membrane's own limited elasticity — making animal cells vulnerable to bursting (lysis) in strongly hypotonic conditions, unlike walled cells (plant, fungal, bacterial), which become turgid but don't burst."
+      "correct": 0,
+      "explanation": "Animal cells lack a rigid cell wall, so as water enters by osmosis in a hypotonic environment, there's nothing to physically resist the cell's expansion beyond the plasma membrane's own limited elasticity — making animal cells vulnerable to bursting (lysis) in strongly hypotonic conditions, unlike walled cells (plant, fungal, bacterial), which become turgid but don't burst."
     },
     {
-      id: "2-52",
-      topic: "2.4 Passive Transport",
-      stem: "Which statement about channel proteins and carrier proteins, both involved in facilitated diffusion, is accurate?",
-      choices: [
+      "id": "2-52",
+      "topic": "2.4 Passive Transport",
+      "stem": "Which statement about channel proteins and carrier proteins, both involved in facilitated diffusion, is accurate?",
+      "choices": [
+        "Channel proteins require ATP, while carrier proteins do not",
         "Channel proteins form a continuous pore for specific molecules to pass through, while carrier proteins bind their cargo and undergo a shape change to move it across",
         "Channel proteins and carrier proteins are functionally identical with no meaningful differences",
-        "Only carrier proteins are involved in facilitated diffusion; channel proteins are exclusively used in active transport",
-        "Channel proteins require ATP, while carrier proteins do not"
+        "Only carrier proteins are involved in facilitated diffusion; channel proteins are exclusively used in active transport"
       ],
-      correct: 0,
-      explanation: "Channel proteins create an open pore that allows specific molecules or ions to pass through passively down their gradient. Carrier proteins instead bind their specific cargo molecule and undergo a conformational (shape) change to physically shuttle it across the membrane — both mechanisms are passive (no ATP) when used for facilitated diffusion."
+      "correct": 1,
+      "explanation": "Channel proteins create an open pore that allows specific molecules or ions to pass through passively down their gradient. Carrier proteins instead bind their specific cargo molecule and undergo a conformational (shape) change to physically shuttle it across the membrane — both mechanisms are passive (no ATP) when used for facilitated diffusion."
     },
     {
-      id: "2-53",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Which best defines active transport?",
-      choices: [
-        "Movement of a substance down its concentration gradient, requiring no energy",
+      "id": "2-53",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Which best defines active transport?",
+      "choices": [
+        "Movement that occurs exclusively during cell division",
         "Movement of a substance against its concentration gradient, requiring an input of energy (typically ATP)",
         "Movement that only occurs through simple diffusion",
-        "Movement that occurs exclusively during cell division"
+        "Movement of a substance down its concentration gradient, requiring no energy"
       ],
-      correct: 1,
-      explanation: "Active transport is defined by movement AGAINST the concentration gradient (low to high concentration), which is energetically unfavorable and therefore requires an input of cellular energy, most commonly from ATP hydrolysis — this is the defining contrast with passive transport."
+      "correct": 1,
+      "explanation": "Active transport is defined by movement AGAINST the concentration gradient (low to high concentration), which is energetically unfavorable and therefore requires an input of cellular energy, most commonly from ATP hydrolysis — this is the defining contrast with passive transport."
     },
     {
-      id: "2-54",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "The sodium-potassium pump moves 3 Na⁺ ions out of the cell and 2 K⁺ ions into the cell per cycle, both against their respective concentration gradients. What does this process require?",
-      choices: [
+      "id": "2-54",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "The sodium-potassium pump moves 3 Na⁺ ions out of the cell and 2 K⁺ ions into the cell per cycle, both against their respective concentration gradients. What does this process require?",
+      "choices": [
+        "Light energy exclusively",
         "No energy input, since it involves channel proteins",
         "ATP, since both ions are being moved against their gradients",
-        "Only a concentration gradient, with no additional energy source",
-        "Light energy exclusively"
+        "Only a concentration gradient, with no additional energy source"
       ],
-      correct: 1,
-      explanation: "Since both Na⁺ and K⁺ are being moved against their existing concentration gradients (out of already Na⁺-poor cells, into already K⁺-rich cells), this movement is energetically unfavorable and requires ATP hydrolysis to power the pump — a textbook example of primary active transport."
+      "correct": 2,
+      "explanation": "Since both Na⁺ and K⁺ are being moved against their existing concentration gradients (out of already Na⁺-poor cells, into already K⁺-rich cells), this movement is energetically unfavorable and requires ATP hydrolysis to power the pump — a textbook example of primary active transport."
     },
     {
-      id: "2-55",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Secondary active transport uses the existing concentration gradient of one substance (established earlier by primary active transport) to power the movement of a second substance against its own gradient. Which statement about secondary active transport is accurate?",
-      choices: [
-        "It requires no ATP investment anywhere in the overall system",
+      "id": "2-55",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Secondary active transport uses the existing concentration gradient of one substance (established earlier by primary active transport) to power the movement of a second substance against its own gradient. Which statement about secondary active transport is accurate?",
+      "choices": [
         "While the specific transport step doesn't directly use ATP, the system as a whole depends on ATP having been spent earlier to establish the gradient being used as an energy source",
-        "It only moves substances down their concentration gradients",
-        "It is identical in mechanism to simple diffusion"
+        "It requires no ATP investment anywhere in the overall system",
+        "It is identical in mechanism to simple diffusion",
+        "It only moves substances down their concentration gradients"
       ],
-      correct: 1,
-      explanation: "Secondary active transport is a clever energy-borrowing strategy: the immediate transport step itself doesn't directly consume ATP, but it depends entirely on a gradient that was built using ATP at an earlier stage (via primary active transport, like the sodium-potassium pump). The overall system remains fundamentally energy-dependent, even though the specific coupled step isn't directly ATP-powered."
+      "correct": 0,
+      "explanation": "Secondary active transport is a clever energy-borrowing strategy: the immediate transport step itself doesn't directly consume ATP, but it depends entirely on a gradient that was built using ATP at an earlier stage (via primary active transport, like the sodium-potassium pump). The overall system remains fundamentally energy-dependent, even though the specific coupled step isn't directly ATP-powered."
     },
     {
-      id: "2-56",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "A white blood cell engulfs a large bacterium by extending its membrane around the bacterium and pinching it into an internal vesicle. This process is:",
-      choices: [
-        "Exocytosis",
+      "id": "2-56",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "A white blood cell engulfs a large bacterium by extending its membrane around the bacterium and pinching it into an internal vesicle. This process is:",
+      "choices": [
         "Phagocytosis, a form of endocytosis",
-        "Simple diffusion",
-        "Facilitated diffusion"
-      ],
-      correct: 1,
-      explanation: "Phagocytosis (\"cell eating\") is a specific type of endocytosis in which the membrane engulfs a large solid particle (like a bacterium), forming an internal vesicle — a key mechanism used by immune cells to capture and later destroy pathogens."
-    },
-    {
-      id: "2-57",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "A cell releases hormone molecules by fusing an internal vesicle containing the hormone with the plasma membrane, spilling its contents outside the cell. This process is:",
-      choices: [
-        "Endocytosis",
+        "Facilitated diffusion",
         "Exocytosis",
-        "Osmosis",
-        "Facilitated diffusion"
+        "Simple diffusion"
       ],
-      correct: 1,
-      explanation: "Exocytosis is the process by which an internal vesicle fuses with the plasma membrane, releasing its contents to the cell's exterior — the reverse conceptual process from endocytosis, and the mechanism cells use for secretion of hormones, neurotransmitters, and other large or bulk materials."
+      "correct": 0,
+      "explanation": "Phagocytosis (\"cell eating\") is a specific type of endocytosis in which the membrane engulfs a large solid particle (like a bacterium), forming an internal vesicle — a key mechanism used by immune cells to capture and later destroy pathogens."
     },
     {
-      id: "2-58",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Which piece of evidence for the endosymbiotic theory relates specifically to how mitochondria replicate?",
-      choices: [
-        "Mitochondria have a double membrane",
+      "id": "2-57",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "A cell releases hormone molecules by fusing an internal vesicle containing the hormone with the plasma membrane, spilling its contents outside the cell. This process is:",
+      "choices": [
+        "Exocytosis",
+        "Facilitated diffusion",
+        "Osmosis",
+        "Endocytosis"
+      ],
+      "correct": 0,
+      "explanation": "Exocytosis is the process by which an internal vesicle fuses with the plasma membrane, releasing its contents to the cell's exterior — the reverse conceptual process from endocytosis, and the mechanism cells use for secretion of hormones, neurotransmitters, and other large or bulk materials."
+    },
+    {
+      "id": "2-58",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Which piece of evidence for the endosymbiotic theory relates specifically to how mitochondria replicate?",
+      "choices": [
         "Mitochondria divide independently of the rest of the cell cycle, through a process resembling bacterial binary fission",
         "Mitochondria are found in every eukaryotic cell",
+        "Mitochondria have a double membrane",
         "Mitochondria produce ATP"
       ],
-      correct: 1,
-      explanation: "Mitochondria don't simply appear when a cell divides — they replicate on their own schedule, independently of the broader cell cycle, using a division process that closely resembles bacterial binary fission. This independent, bacteria-like replication pattern is one of the four classic lines of evidence supporting endosymbiotic origin."
+      "correct": 0,
+      "explanation": "Mitochondria don't simply appear when a cell divides — they replicate on their own schedule, independently of the broader cell cycle, using a division process that closely resembles bacterial binary fission. This independent, bacteria-like replication pattern is one of the four classic lines of evidence supporting endosymbiotic origin."
     },
     {
-      id: "2-59",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Mitochondrial ribosomes are structurally more similar in size to bacterial ribosomes than to the ribosomes found free in the eukaryotic cell's own cytoplasm. What does this evidence support?",
-      choices: [
-        "That mitochondria evolved after chloroplasts",
+      "id": "2-59",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Mitochondrial ribosomes are structurally more similar in size to bacterial ribosomes than to the ribosomes found free in the eukaryotic cell's own cytoplasm. What does this evidence support?",
+      "choices": [
         "That mitochondria originated from an engulfed free-living bacterium, since retaining bacterial-type ribosomes is consistent with a bacterial ancestry",
         "That mitochondria have no functional ribosomes at all",
-        "That all eukaryotic ribosomes are identical to bacterial ribosomes"
+        "That all eukaryotic ribosomes are identical to bacterial ribosomes",
+        "That mitochondria evolved after chloroplasts"
       ],
-      correct: 1,
-      explanation: "If mitochondria originated as free-living bacteria that were engulfed by an ancestral eukaryotic cell, we'd expect their ribosomes to retain bacterial characteristics rather than matching the eukaryotic cell's own cytoplasmic ribosomes — which is exactly what's observed, making this one of the four key evidence lines for endosymbiotic theory."
+      "correct": 0,
+      "explanation": "If mitochondria originated as free-living bacteria that were engulfed by an ancestral eukaryotic cell, we'd expect their ribosomes to retain bacterial characteristics rather than matching the eukaryotic cell's own cytoplasmic ribosomes — which is exactly what's observed, making this one of the four key evidence lines for endosymbiotic theory."
     },
     {
-      id: "2-60",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Why do mitochondria and chloroplasts have a double membrane, according to the endosymbiotic theory?",
-      choices: [
-        "Double membranes form randomly in all organelles with no particular cause",
+      "id": "2-60",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Why do mitochondria and chloroplasts have a double membrane, according to the endosymbiotic theory?",
+      "choices": [
         "The inner membrane is thought to be the original membrane of the engulfed prokaryote, while the outer membrane is derived from the ancestral host cell's membrane during the engulfment process",
         "Double membranes are required for photosynthesis specifically and are unrelated to mitochondria",
-        "Double membranes indicate the organelle was synthesized entirely within the nucleus"
+        "Double membranes indicate the organelle was synthesized entirely within the nucleus",
+        "Double membranes form randomly in all organelles with no particular cause"
       ],
-      correct: 1,
-      explanation: "The double-membrane structure is explained directly by the engulfment process central to endosymbiotic theory: the engulfed prokaryote retained its own original single membrane (becoming the organelle's inner membrane), while the ancestral host cell's membrane wrapped around it during engulfment, becoming the organelle's outer membrane."
+      "correct": 0,
+      "explanation": "The double-membrane structure is explained directly by the engulfment process central to endosymbiotic theory: the engulfed prokaryote retained its own original single membrane (becoming the organelle's inner membrane), while the ancestral host cell's membrane wrapped around it during engulfment, becoming the organelle's outer membrane."
     },
     {
-      id: "2-61",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Which of the following is NOT one of the four classic lines of evidence supporting the endosymbiotic theory?",
-      choices: [
-        "Circular DNA within the organelle",
-        "A double membrane surrounding the organelle",
+      "id": "2-61",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Which of the following is NOT one of the four classic lines of evidence supporting the endosymbiotic theory?",
+      "choices": [
         "Independent division resembling bacterial binary fission",
-        "The organelle's ability to perform photosynthesis in ALL eukaryotic cells"
+        "The organelle's ability to perform photosynthesis in ALL eukaryotic cells",
+        "A double membrane surrounding the organelle",
+        "Circular DNA within the organelle"
       ],
-      correct: 3,
-      explanation: "Photosynthesis is not universal to all eukaryotic cells (animal cells, for instance, lack chloroplasts entirely) and is not itself one of the four structural/behavioral lines of evidence for endosymbiotic origin. The actual four lines of evidence are: circular DNA, own ribosomes (bacterial-sized), double membrane, and independent division resembling binary fission."
+      "correct": 1,
+      "explanation": "Photosynthesis is not universal to all eukaryotic cells (animal cells, for instance, lack chloroplasts entirely) and is not itself one of the four structural/behavioral lines of evidence for endosymbiotic origin. The actual four lines of evidence are: circular DNA, own ribosomes (bacterial-sized), double membrane, and independent division resembling binary fission."
     },
     {
-      id: "2-62",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "A researcher proposes that the Golgi apparatus also originated through endosymbiosis, similar to mitochondria. Which finding would most directly undermine this proposal?",
-      choices: [
-        "The Golgi apparatus is found in most eukaryotic cells",
+      "id": "2-62",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "A researcher proposes that the Golgi apparatus also originated through endosymbiosis, similar to mitochondria. Which finding would most directly undermine this proposal?",
+      "choices": [
+        "The Golgi apparatus is located near the ER",
         "The Golgi apparatus lacks its own DNA, lacks its own distinct ribosomes, has only a single membrane, and does not divide independently of the cell cycle",
-        "The Golgi apparatus modifies proteins",
-        "The Golgi apparatus is located near the ER"
+        "The Golgi apparatus is found in most eukaryotic cells",
+        "The Golgi apparatus modifies proteins"
       ],
-      correct: 1,
-      explanation: "The Golgi apparatus lacks essentially all of the structural and behavioral hallmarks used as evidence for mitochondria and chloroplasts' endosymbiotic origin — no own DNA, no distinct bacterial-type ribosomes, only a single membrane, and no independent replication. This absence of supporting evidence is exactly why the Golgi apparatus (unlike mitochondria/chloroplasts) is understood to have originated through internal membrane budding within the eukaryotic cell, not engulfment of a free-living prokaryote."
+      "correct": 1,
+      "explanation": "The Golgi apparatus lacks essentially all of the structural and behavioral hallmarks used as evidence for mitochondria and chloroplasts' endosymbiotic origin — no own DNA, no distinct bacterial-type ribosomes, only a single membrane, and no independent replication. This absence of supporting evidence is exactly why the Golgi apparatus (unlike mitochondria/chloroplasts) is understood to have originated through internal membrane budding within the eukaryotic cell, not engulfment of a free-living prokaryote."
     },
     {
-      id: "2-63",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "Which sequence correctly reflects the proposed order of events in the endosymbiotic theory as it relates to mitochondria and chloroplasts?",
-      choices: [
-        "A photosynthetic bacterium was engulfed first, becoming the mitochondrion; later an aerobic bacterium was engulfed, becoming the chloroplast",
-        "An aerobic bacterium was engulfed first, becoming the mitochondrion; later (in the lineage leading to plants), a photosynthetic bacterium was engulfed, becoming the chloroplast",
+      "id": "2-63",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "Which sequence correctly reflects the proposed order of events in the endosymbiotic theory as it relates to mitochondria and chloroplasts?",
+      "choices": [
         "Both organelles were engulfed simultaneously in every eukaryotic lineage",
-        "Chloroplasts appeared before any eukaryotic cells existed"
+        "An aerobic bacterium was engulfed first, becoming the mitochondrion; later (in the lineage leading to plants), a photosynthetic bacterium was engulfed, becoming the chloroplast",
+        "Chloroplasts appeared before any eukaryotic cells existed",
+        "A photosynthetic bacterium was engulfed first, becoming the mitochondrion; later an aerobic bacterium was engulfed, becoming the chloroplast"
       ],
-      correct: 1,
-      explanation: "The generally accepted sequence is that an ancestral eukaryotic cell first engulfed a free-living aerobic bacterium, which became the mitochondrion (found in essentially all eukaryotes) — and later, specifically in the lineage leading to plants and algae, a separate engulfment of a free-living photosynthetic bacterium gave rise to the chloroplast, which is why chloroplasts are found only in that particular lineage, not universally across eukaryotes."
+      "correct": 1,
+      "explanation": "The generally accepted sequence is that an ancestral eukaryotic cell first engulfed a free-living aerobic bacterium, which became the mitochondrion (found in essentially all eukaryotes) — and later, specifically in the lineage leading to plants and algae, a separate engulfment of a free-living photosynthetic bacterium gave rise to the chloroplast, which is why chloroplasts are found only in that particular lineage, not universally across eukaryotes."
     },
     {
-      id: "2-64",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stretch: true,
-      stem: "Stretch — beyond typical AP difficulty: Some mitochondrial proteins are actually encoded by nuclear DNA (not mitochondrial DNA) and are imported into the mitochondrion after being synthesized in the cytoplasm. How is this observation best reconciled with the endosymbiotic theory?",
-      choices: [
+      "id": "2-64",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Some mitochondrial proteins are actually encoded by nuclear DNA (not mitochondrial DNA) and are imported into the mitochondrion after being synthesized in the cytoplasm. How is this observation best reconciled with the endosymbiotic theory?",
+      "choices": [
         "This observation completely disproves the endosymbiotic theory, since a truly independent bacterium would encode all its own proteins",
+        "This observation shows mitochondria never had their own DNA to begin with",
         "Over evolutionary time, substantial gene transfer occurred from the original endosymbiont's genome to the host cell's nuclear genome, so the mitochondrion retains only a small subset of its original genes while relying on the nucleus (and cytoplasmic import machinery) for many of the proteins it needs — this is expected under a long history of co-evolution, not a contradiction of it",
-        "Mitochondrial proteins have always been encoded exclusively by nuclear DNA, and mitochondrial DNA serves no purpose",
-        "This observation shows mitochondria never had their own DNA to begin with"
+        "Mitochondrial proteins have always been encoded exclusively by nuclear DNA, and mitochondrial DNA serves no purpose"
       ],
-      correct: 1,
-      explanation: "This is a genuinely advanced extension of endosymbiotic theory that shows real depth of understanding: rather than contradicting the theory, gradual gene transfer from the original endosymbiont's genome to the host nucleus over enormous evolutionary timescales is a well-documented, expected feature of long-term endosymbiotic relationships. Mitochondria today retain only a small fraction of the genes a free-living bacterium would need, having transferred most of them to the nuclear genome over time — which is precisely why most mitochondrial proteins today are nuclear-encoded and imported, while mitochondria still retain a small, distinct genome of their own for a subset of essential genes."
+      "correct": 2,
+      "explanation": "This is a genuinely advanced extension of endosymbiotic theory that shows real depth of understanding: rather than contradicting the theory, gradual gene transfer from the original endosymbiont's genome to the host nucleus over enormous evolutionary timescales is a well-documented, expected feature of long-term endosymbiotic relationships. Mitochondria today retain only a small fraction of the genes a free-living bacterium would need, having transferred most of them to the nuclear genome over time — which is precisely why most mitochondrial proteins today are nuclear-encoded and imported, while mitochondria still retain a small, distinct genome of their own for a subset of essential genes."
     },
     {
-      id: "2-65",
-      topic: "2.5 Active Transport and Endosymbiosis",
-      stem: "A cell actively transports amino acids into itself against their concentration gradient by coupling their movement to Na⁺ ions moving down their own gradient (which was established earlier by the sodium-potassium pump). This coupled process is best classified as:",
-      choices: [
-        "Simple diffusion",
+      "id": "2-65",
+      "topic": "2.5 Active Transport and Endosymbiosis",
+      "stem": "A cell actively transports amino acids into itself against their concentration gradient by coupling their movement to Na⁺ ions moving down their own gradient (which was established earlier by the sodium-potassium pump). This coupled process is best classified as:",
+      "choices": [
         "Primary active transport",
         "Secondary active transport",
+        "Simple diffusion",
         "Osmosis"
       ],
-      correct: 2,
-      explanation: "This scenario is the defining example of secondary active transport: the amino acid is being moved against its own gradient, but the immediate energy source is the pre-established Na⁺ gradient (itself built earlier by ATP-powered primary active transport, i.e., the sodium-potassium pump), not direct ATP use in this specific coupled step."
+      "correct": 1,
+      "explanation": "This scenario is the defining example of secondary active transport: the amino acid is being moved against its own gradient, but the immediate energy source is the pre-established Na⁺ gradient (itself built earlier by ATP-powered primary active transport, i.e., the sodium-potassium pump), not direct ATP use in this specific coupled step."
     }
   ],
-
-  // ============================================================
-  // UNIT 3+ QUESTIONS TO BE ADDED
-  // ============================================================
-
+  "3": [
+    {
+      "id": "3-1",
+      "topic": "3.1 Enzymes",
+      "stem": "What is the primary function of an enzyme in a biochemical reaction?",
+      "choices": [
+        "To change the products of the reaction",
+        "To permanently bind to and consume the substrate",
+        "To provide the energy needed for an endergonic reaction",
+        "To lower the activation energy required for the reaction, increasing its rate"
+      ],
+      "correct": 3,
+      "explanation": "Enzymes are biological catalysts: they speed up reactions by lowering the activation energy barrier, without changing the identity of the products or being consumed themselves. They don't supply energy to a reaction — they just make an already-possible reaction happen faster."
+    },
+    {
+      "id": "3-2",
+      "topic": "3.1 Enzymes",
+      "stem": "An enzyme's active site is specific to a particular substrate primarily because of:",
+      "choices": [
+        "The enzyme's primary structure having no effect on specificity",
+        "The active site's precise 3D shape and the chemical properties of its R-groups, which are complementary to the substrate",
+        "The enzyme's location within the cytoplasm",
+        "The enzyme's overall size relative to the cell"
+      ],
+      "correct": 1,
+      "explanation": "An enzyme's specificity comes from its active site's precise shape and chemical environment (determined by which R-groups line the pocket), which must be complementary to a specific substrate's shape and chemistry — this connects directly back to how R-groups determine tertiary structure and function, covered in Unit 1."
+    },
+    {
+      "id": "3-3",
+      "topic": "3.1 Enzymes",
+      "stem": "A graph of reaction rate vs. substrate concentration for an enzyme-catalyzed reaction shows the rate increasing, then leveling off into a plateau at high substrate concentrations. What explains the plateau?",
+      "choices": [
+        "The substrate has run out completely",
+        "The reaction has stopped being exergonic",
+        "The enzyme has been permanently destroyed",
+        "All available active sites are saturated with substrate, so adding more substrate cannot further increase the rate until more enzyme becomes available"
+      ],
+      "correct": 3,
+      "explanation": "Once substrate concentration is high enough that essentially every enzyme active site is occupied at any given moment (saturation), the reaction is proceeding as fast as the fixed amount of enzyme allows — adding more substrate beyond this point can't increase the rate further, since the bottleneck is now enzyme availability, not substrate availability."
+    },
+    {
+      "id": "3-4",
+      "topic": "3.1 Enzymes",
+      "stem": "A noncompetitive inhibitor is added to an enzyme reaction. Which outcome would you expect, even with a large excess of substrate present?",
+      "choices": [
+        "The enzyme begins catalyzing a completely different reaction",
+        "The substrate becomes an inhibitor itself",
+        "Normal enzyme activity is fully restored",
+        "Enzyme activity remains suppressed, since the inhibitor has altered the enzyme's shape at a location other than the active site"
+      ],
+      "correct": 3,
+      "explanation": "Because a noncompetitive inhibitor binds somewhere other than the active site and changes the enzyme's overall shape (including, often, the active site's shape), simply adding more substrate can't out-compete it the way it could with a competitive inhibitor — the structural problem persists regardless of substrate concentration."
+    },
+    {
+      "id": "3-5",
+      "topic": "3.1 Enzymes",
+      "stem": "Which best explains why an enzyme's activity drops sharply above its optimal temperature?",
+      "choices": [
+        "Excess heat disrupts the weak, non-covalent bonds maintaining the enzyme's tertiary structure, denaturing it and destroying the active site's functional shape",
+        "High temperatures convert the enzyme into a different type of macromolecule",
+        "The substrate becomes chemically inert above the optimal temperature",
+        "The enzyme's primary structure breaks apart above the optimal temperature"
+      ],
+      "correct": 0,
+      "explanation": "This connects directly to Unit 1's denaturation concept: heat above the optimal range disrupts the weak, non-covalent interactions (not the strong covalent peptide bonds of primary structure) holding the enzyme's tertiary structure together, destroying the active site's precise shape and therefore its function."
+    },
+    {
+      "id": "3-6",
+      "topic": "3.1 Enzymes",
+      "stem": "A researcher observes that an inhibitor reduces an enzyme's maximum reaction rate even when substrate concentration is extremely high, but does not change the substrate concentration needed to reach half-maximal rate. Which best classifies this inhibitor?",
+      "choices": [
+        "This describes a cofactor, not an inhibitor",
+        "Competitive inhibitor",
+        "This describes a substrate analog",
+        "Noncompetitive inhibitor"
+      ],
+      "correct": 3,
+      "explanation": "A hallmark of noncompetitive inhibition is that it lowers the enzyme's maximum possible rate (since some fraction of enzyme is permanently disabled by the inhibitor, regardless of substrate levels), which is not reversed by adding more substrate — distinct from competitive inhibition, where enough substrate can eventually restore the normal maximum rate."
+    },
+    {
+      "id": "3-7",
+      "topic": "3.1 Enzymes",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: An allosteric enzyme has both an active site and a separate regulatory site where an activator molecule can bind. Binding of the activator increases the enzyme's affinity for its substrate at the active site. Which mechanism most plausibly explains this effect?",
+      "choices": [
+        "The activator destroys the enzyme's primary structure",
+        "Activator binding has no physical effect on the enzyme's shape",
+        "Activator binding at the regulatory site causes a conformational change that is transmitted through the protein's structure, altering the active site's shape in a way that improves substrate binding",
+        "The activator directly enters the active site alongside the substrate"
+      ],
+      "correct": 2,
+      "explanation": "This is the flip side of allosteric inhibition, testing the same underlying concept: since allosteric sites are physically separate from the active site, any effect (positive or negative) they have on active site function must occur through conformational change — the same folded protein structure that lets an inhibitor DISABLE the active site from a distance can also let an activator IMPROVE the active site's function from a distance, via the same fundamental shape-transmission mechanism."
+    },
+    {
+      "id": "3-8",
+      "topic": "3.1 Enzymes",
+      "stem": "Which of the following would be the most direct experimental evidence that a given inhibitor is competitive rather than noncompetitive?",
+      "choices": [
+        "Reaction rate is fully restored to normal maximum levels when substrate concentration is increased sufficiently, in the presence of the inhibitor",
+        "The reaction becomes endergonic in the presence of the inhibitor",
+        "The enzyme changes color",
+        "The inhibitor's molecular weight"
+      ],
+      "correct": 0,
+      "explanation": "The defining experimental signature of competitive inhibition is that sufficiently high substrate concentration can restore the enzyme's normal maximum reaction rate, since substrate molecules increasingly out-compete the inhibitor for the shared active site — this specific outcome (full restoration at high substrate) is the clearest direct evidence distinguishing competitive from noncompetitive inhibition."
+    },
+    {
+      "id": "3-9",
+      "topic": "3.1 Enzymes",
+      "stem": "A cell's enzyme normally functions optimally at pH 7. If the cell's internal pH drops to 5, which outcome is most likely?",
+      "choices": [
+        "The enzyme's substrate specificity will improve",
+        "The enzyme's activity will likely decrease, since the altered H⁺ concentration disrupts the weak interactions maintaining the enzyme's functional shape",
+        "There will be no effect on the enzyme at all",
+        "The enzyme's activity will likely increase, since more H⁺ improves all enzyme function"
+      ],
+      "correct": 1,
+      "explanation": "Since this enzyme's optimal pH is 7, a shift to pH 5 moves it away from its ideal functional range. This alters the charge on ionizable R-groups, disrupting the weak, non-covalent interactions that maintain the enzyme's precise tertiary structure and active site shape — reducing activity, not improving it."
+    },
+    {
+      "id": "3-10",
+      "topic": "3.1 Enzymes",
+      "stem": "Which statement accurately distinguishes activation energy from the overall energy change (ΔG) of a reaction?",
+      "choices": [
+        "Activation energy is the energy barrier that must be overcome to start a reaction; ΔG is the overall difference in energy between reactants and products, and enzymes affect only activation energy, not ΔG",
+        "ΔG only applies to enzyme-free reactions",
+        "Enzymes change a reaction's ΔG but not its activation energy",
+        "Activation energy and ΔG are the same thing"
+      ],
+      "correct": 0,
+      "explanation": "This is a subtle but important distinction: enzymes lower the activation energy barrier (making a reaction proceed faster), but they do NOT change ΔG, the overall energy difference between reactants and products, which determines whether a reaction is exergonic or endergonic in the first place. An enzyme can speed up a reaction without changing whether that reaction is energetically favorable overall."
+    },
+    {
+      "id": "3-11",
+      "topic": "3.1 Enzymes",
+      "stem": "A biologist compares reaction rate at very low substrate concentration with and without a fixed amount of enzyme present. What would you expect?",
+      "choices": [
+        "No difference, since enzyme has no effect at low substrate concentration",
+        "Both reactions proceed at identical maximum rates",
+        "The reaction with enzyme present proceeds substantially faster, since the enzyme lowers activation energy regardless of substrate concentration",
+        "The reaction without enzyme proceeds faster"
+      ],
+      "correct": 2,
+      "explanation": "Enzymes lower activation energy and speed up reactions across the range of substrate concentrations, including low concentrations — the enzyme-catalyzed reaction would still proceed considerably faster than the uncatalyzed version, even though at low substrate levels the ABSOLUTE rate is limited by how much substrate is available."
+    },
+    {
+      "id": "3-12",
+      "topic": "3.1 Enzymes",
+      "stem": "Which best describes what happens to an enzyme molecule after it catalyzes a reaction?",
+      "choices": [
+        "It becomes part of the substrate permanently",
+        "It is permanently consumed and cannot be reused",
+        "It is released unchanged and can catalyze additional reaction cycles",
+        "It converts into the reaction's product"
+      ],
+      "correct": 2,
+      "explanation": "A defining feature of catalysts, including enzymes, is that they are not consumed or permanently altered by the reactions they catalyze — after releasing the product, the enzyme returns to its original form and is available to catalyze additional reaction cycles."
+    },
+    {
+      "id": "3-13",
+      "topic": "3.1 Enzymes",
+      "stem": "A mutation changes one amino acid within an enzyme's active site, altering its shape. Which outcome is most likely?",
+      "choices": [
+        "The enzyme's function will be completely unaffected",
+        "The enzyme's ability to bind its substrate may be impaired, since active site shape is critical to substrate binding",
+        "The enzyme will gain the ability to bind additional, unrelated substrates",
+        "The mutation will have no possible effect on protein structure"
+      ],
+      "correct": 1,
+      "explanation": "Since an enzyme's specificity and catalytic ability depend directly on the active site's precise shape, a mutation altering an amino acid within that site is likely to impair substrate binding and function — this is a direct, testable application of the structure-function relationship."
+    },
+    {
+      "id": "3-14",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "ATP releases usable energy when which bond is broken?",
+      "choices": [
+        "The bond to the terminal (outermost) phosphate group",
+        "A hydrogen bond within the ribose sugar",
+        "The bond between two nitrogenous bases",
+        "The bond between the sugar and the nitrogenous base"
+      ],
+      "correct": 0,
+      "explanation": "ATP's three phosphate groups are negatively charged and repel each other, storing potential energy. Breaking the bond to the terminal (third, outermost) phosphate releases that stored energy, converting ATP to ADP + Pi — this specific bond, not others in the molecule, is what's relevant to ATP's energy-releasing function."
+    },
+    {
+      "id": "3-15",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which reaction correctly represents ATP hydrolysis?",
+      "choices": [
+        "ATP → glucose + energy",
+        "ADP → ATP + H2O",
+        "ATP + H2O → ADP + Pi + energy",
+        "ADP + Pi + energy → ATP + H2O"
+      ],
+      "correct": 2,
+      "explanation": "ATP hydrolysis breaks down ATP using water, releasing energy and producing ADP and inorganic phosphate (Pi) as products — this is the exergonic direction. The reverse reaction (building ATP from ADP + Pi) is endergonic and requires an energy input, which is the opposite equation."
+    },
+    {
+      "id": "3-16",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which term describes a reaction in which the products have LESS energy than the reactants, releasing energy overall?",
+      "choices": [
+        "Exergonic",
+        "Anabolic exclusively",
+        "Isothermic",
+        "Endergonic"
+      ],
+      "correct": 0,
+      "explanation": "Exergonic reactions release energy overall, meaning the products end up with less energy than the reactants started with — ATP hydrolysis is a classic example. Endergonic reactions are the opposite: products end up with more energy than the reactants, requiring an energy input."
+    },
+    {
+      "id": "3-17",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "A cellular process that would not occur spontaneously on its own is made possible by pairing it with ATP hydrolysis. This strategy is called:",
+      "choices": [
+        "Chemiosmosis",
+        "Fermentation",
+        "Energy coupling",
+        "Feedback inhibition"
+      ],
+      "correct": 2,
+      "explanation": "Energy coupling is the strategy of pairing an exergonic reaction (like ATP hydrolysis) with an endergonic reaction, so that the combined overall process becomes energetically favorable — this is how cells power reactions and processes that wouldn't happen on their own."
+    },
+    {
+      "id": "3-18",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which of the following is an example of an endergonic cellular process?",
+      "choices": [
+        "Facilitated diffusion of glucose down its gradient",
+        "Active transport moving a solute against its concentration gradient",
+        "Glucose breakdown during cellular respiration",
+        "ATP hydrolysis"
+      ],
+      "correct": 1,
+      "explanation": "Active transport moves substances against their concentration gradient, which is energetically unfavorable on its own and therefore requires an energy input — making it endergonic. ATP hydrolysis and glucose breakdown are both exergonic (energy-releasing); facilitated diffusion, going down the gradient, requires no additional energy input at all."
+    },
+    {
+      "id": "3-19",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Why can't cells simply store large reserves of ATP the way they store fat or glycogen for long-term energy needs?",
+      "choices": [
+        "ATP cannot be synthesized by cells at all",
+        "ATP has no chemical energy stored within it",
+        "ATP is used constantly and turned over rapidly, functioning more like a fast, short-term energy currency than a long-term storage molecule",
+        "ATP is toxic to cells in any quantity"
+      ],
+      "correct": 2,
+      "explanation": "ATP functions as a rapidly-used, short-term energy currency, constantly being broken down and resynthesized as cells carry out their moment-to-moment activities — this is different from fat and glycogen, which are built for stable, longer-term energy storage. Cells maintain only a small, quickly-cycled ATP pool rather than a large static reserve."
+    },
+    {
+      "id": "3-20",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which of the following best describes why building ATP from ADP and Pi is considered endergonic?",
+      "choices": [
+        "Because ATP synthesis releases heat",
+        "Because the product (ATP) has more stored potential energy than the reactants (ADP + Pi)",
+        "Because this reaction only happens in plants",
+        "Because ADP is a larger molecule than ATP"
+      ],
+      "correct": 1,
+      "explanation": "Building ATP from ADP and Pi requires adding a third phosphate group, which increases electrostatic repulsion among the phosphates and stores additional potential energy in the resulting molecule — since the product ends up with more energy than the reactants, this reaction requires an energy input, making it endergonic."
+    },
+    {
+      "id": "3-21",
+      "topic": "3.3 Photosynthesis",
+      "stem": "In which part of the chloroplast do the light-dependent reactions occur?",
+      "choices": [
+        "The mitochondrial matrix",
+        "The stroma",
+        "The thylakoid membrane",
+        "The outer chloroplast membrane only"
+      ],
+      "correct": 2,
+      "explanation": "The light-dependent reactions occur specifically in the thylakoid membrane, where chlorophyll and other pigments capture light energy. The Calvin cycle (light-independent reactions), by contrast, occurs in the stroma, the fluid-filled space surrounding the thylakoids."
+    },
+    {
+      "id": "3-22",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which molecule is split to release the O2 given off during photosynthesis?",
+      "choices": [
+        "Water",
+        "ATP",
+        "Carbon dioxide",
+        "Glucose"
+      ],
+      "correct": 0,
+      "explanation": "Water molecules are split (photolysis) during the light-dependent reactions to replace electrons lost by chlorophyll after being excited by light, releasing O2 as a byproduct. Carbon dioxide is not split for oxygen — its carbon and oxygen atoms are instead used later, in the Calvin cycle, to build sugar."
+    },
+    {
+      "id": "3-23",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which two molecules produced by the light-dependent reactions are directly required by the Calvin cycle?",
+      "choices": [
+        "Glucose and CO2",
+        "Oxygen and water",
+        "NADH and FADH2",
+        "ATP and NADPH"
+      ],
+      "correct": 3,
+      "explanation": "The light-dependent reactions produce ATP and NADPH, both of which are required by the Calvin cycle to power the fixation of CO2 into organic sugar. NADH and FADH2 are instead associated with cellular respiration, not photosynthesis — a common point of confusion worth double-checking."
+    },
+    {
+      "id": "3-24",
+      "topic": "3.3 Photosynthesis",
+      "stem": "A plant is kept in complete darkness for several hours, then given light again. What would you predict happens to Calvin cycle activity almost immediately after light is restored?",
+      "choices": [
+        "Calvin cycle activity resumes fairly quickly, since light restores the supply of ATP and NADPH the Calvin cycle depends on",
+        "Calvin cycle activity only resumes after 24 hours",
+        "Calvin cycle activity remains at zero indefinitely, since it never recovers",
+        "Calvin cycle activity was unaffected by darkness in the first place"
+      ],
+      "correct": 0,
+      "explanation": "Since the Calvin cycle's dependence on light is indirect — it needs the ATP and NADPH that only the light-dependent reactions can supply — restoring light quickly restores that ATP/NADPH supply, and Calvin cycle activity would be expected to resume relatively quickly once light returns."
+    },
+    {
+      "id": "3-25",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which best describes the overall relationship between the light-dependent reactions and the Calvin cycle?",
+      "choices": [
+        "The light-dependent reactions supply ATP and NADPH that the Calvin cycle depends on to fix CO2 into sugar; the Calvin cycle in turn supplies ADP, Pi, and NADP+ back to the light reactions",
+        "The Calvin cycle supplies energy to the light-dependent reactions",
+        "They are completely independent processes that never interact",
+        "Both processes occur in the mitochondria"
+      ],
+      "correct": 0,
+      "explanation": "The two stages are interdependent in both directions: the light reactions supply ATP/NADPH the Calvin cycle needs, while the Calvin cycle in turn regenerates ADP, Pi, and NADP+ (the \"spent\" forms), which the light reactions need as raw materials to keep producing new ATP and NADPH — a continuous cycle between the two stages."
+    },
+    {
+      "id": "3-26",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which correctly identifies the role of chlorophyll in the light-dependent reactions?",
+      "choices": [
+        "It absorbs light energy and becomes excited, initiating electron transport",
+        "It regenerates ADP from ATP",
+        "It directly fixes CO2 into sugar",
+        "It functions as the final electron acceptor at the end of the electron transport chain"
+      ],
+      "correct": 0,
+      "explanation": "Chlorophyll's role is to absorb light energy, which excites its electrons to a higher energy state; those excited electrons are then passed into an electron transport chain, ultimately driving ATP and NADPH production. Chlorophyll does not fix CO2 (that's the Calvin cycle's job) and is not the ETC's final acceptor."
+    },
+    {
+      "id": "3-27",
+      "topic": "3.3 Photosynthesis",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher exposes a plant to light of a wavelength that chlorophyll does not absorb well, but that a different accessory pigment (present in smaller amounts) does absorb strongly. Predict whether photosynthesis can still proceed, and explain the underlying mechanism.",
+      "choices": [
+        "Photosynthesis can still proceed, since accessory pigments can absorb light energy at wavelengths chlorophyll misses and transfer that captured energy to chlorophyll, which then still initiates electron transport",
+        "The accessory pigment will directly split water without any chlorophyll involvement",
+        "The plant will instead begin performing cellular respiration exclusively",
+        "Photosynthesis cannot proceed at all without direct chlorophyll absorption"
+      ],
+      "correct": 0,
+      "explanation": "This extends the light-absorption concept slightly beyond the core curriculum: accessory pigments (like carotenoids) broaden the range of usable light wavelengths by absorbing energy chlorophyll itself doesn't absorb well, then transferring that captured energy to chlorophyll, which still ultimately initiates the electron transport process. This is why photosynthetic organisms have multiple pigment types rather than relying on chlorophyll alone — it maximizes the usable portion of the light spectrum."
+    },
+    {
+      "id": "3-28",
+      "topic": "3.3 Photosynthesis",
+      "stem": "In which location does the Calvin cycle occur, and what molecule serves as its key carbon input?",
+      "choices": [
+        "Mitochondrial matrix; oxygen",
+        "Stroma; carbon dioxide",
+        "Thylakoid membrane; water",
+        "Inner mitochondrial membrane; glucose"
+      ],
+      "correct": 1,
+      "explanation": "The Calvin cycle occurs in the chloroplast's stroma and uses carbon dioxide as its key carbon input, fixing it (with the help of ATP and NADPH) into organic sugar molecules over the course of the cycle."
+    },
+    {
+      "id": "3-29",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which stage of cellular respiration occurs in the cytoplasm and does not require oxygen?",
+      "choices": [
+        "Electron transport chain",
+        "Krebs cycle",
+        "Glycolysis",
+        "Pyruvate oxidation"
+      ],
+      "correct": 2,
+      "explanation": "Glycolysis takes place in the cytoplasm and splits glucose into two pyruvate molecules without requiring oxygen — this is why glycolysis can continue even under anaerobic conditions, unlike the later stages, which occur in the mitochondria and depend (directly or indirectly) on oxygen availability."
+    },
+    {
+      "id": "3-30",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which molecule serves as the final electron acceptor at the end of the electron transport chain in aerobic respiration?",
+      "choices": [
+        "Glucose",
+        "Pyruvate",
+        "Oxygen",
+        "NAD+"
+      ],
+      "correct": 2,
+      "explanation": "Oxygen accepts electrons at the very end of the electron transport chain, combining with them and H⁺ to form water. This keeps the chain from backing up, which is essential to sustaining continued H⁺ pumping and, therefore, continued ATP production via chemiosmosis."
+    },
+    {
+      "id": "3-31",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which process directly uses the H⁺ gradient built by the electron transport chain to produce ATP?",
+      "choices": [
+        "Fermentation",
+        "Pyruvate oxidation",
+        "Glycolysis",
+        "Chemiosmosis, via ATP synthase"
+      ],
+      "correct": 3,
+      "explanation": "Chemiosmosis is the process by which H⁺ ions flow back down their concentration gradient through ATP synthase, and that flow powers ATP synthase's function of bonding ADP and Pi together into ATP — this is the mechanism responsible for the vast majority of ATP produced during aerobic respiration."
+    },
+    {
+      "id": "3-32",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "A poison completely blocks ATP synthase, preventing H⁺ from flowing through it, though the electron transport chain itself continues pumping H⁺ normally. What would you predict?",
+      "choices": [
+        "ATP production would increase",
+        "Oxygen would stop being used as the final electron acceptor",
+        "The electron transport chain would immediately stop pumping H⁺",
+        "The H⁺ gradient would build up more steeply than normal since H⁺ can't flow back through ATP synthase, and ATP production via chemiosmosis would drop sharply since that flow is what powers ATP synthesis"
+      ],
+      "correct": 3,
+      "explanation": "If ATP synthase is blocked but the ETC keeps pumping H⁺, the H⁺ gradient would actually build up MORE than normal (since the usual outlet, ATP synthase, is closed) — but since ATP production specifically depends on H⁺ flowing THROUGH ATP synthase, and that flow is now blocked, ATP synthesis via chemiosmosis would drop sharply despite the steep gradient still existing."
+    },
+    {
+      "id": "3-33",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which two molecules act as electron carriers, delivering electrons to the electron transport chain from earlier stages of respiration?",
+      "choices": [
+        "CO2 and O2",
+        "Glucose and pyruvate",
+        "ATP and ADP",
+        "NADH and FADH2"
+      ],
+      "correct": 3,
+      "explanation": "NADH and FADH2, produced during glycolysis, pyruvate oxidation, and the Krebs cycle, carry high-energy electrons to the electron transport chain, where those electrons are passed down the chain, powering H⁺ pumping and ultimately ATP synthesis via chemiosmosis."
+    },
+    {
+      "id": "3-34",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "During the Krebs cycle, CO2 is released as a byproduct. What is the ultimate source of the carbon atoms in this released CO2?",
+      "choices": [
+        "Water molecules",
+        "ATP molecules",
+        "The original glucose molecule, via pyruvate and acetyl-CoA",
+        "Oxygen gas taken in during respiration"
+      ],
+      "correct": 2,
+      "explanation": "The CO2 released during pyruvate oxidation and the Krebs cycle originates from the carbon atoms of the original glucose molecule, which was broken down into pyruvate during glycolysis and further processed into acetyl-CoA before entering the Krebs cycle — the carbon is progressively stripped away as CO2 as the molecule is fully oxidized."
+    },
+    {
+      "id": "3-35",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which of the following correctly ranks the four stages of aerobic respiration by approximate ATP yield, from least to most ATP directly produced?",
+      "choices": [
+        "Electron transport chain < Krebs cycle < glycolysis < pyruvate oxidation",
+        "Pyruvate oxidation < glycolysis ≈ Krebs cycle < electron transport chain",
+        "All four stages produce approximately equal amounts of ATP",
+        "Glycolysis < electron transport chain < Krebs cycle < pyruvate oxidation"
+      ],
+      "correct": 1,
+      "explanation": "Pyruvate oxidation produces no ATP directly (its main products are NADH and CO2), the Krebs cycle produces a small amount of ATP directly (via substrate-level phosphorylation) alongside NADH and FADH2, glycolysis produces a small net amount of ATP directly, and the electron transport chain (via chemiosmosis) produces by far the largest share of the total ATP yield, using the NADH/FADH2 supplied by the earlier stages."
+    },
+    {
+      "id": "3-36",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Cyanide poisoning blocks the final protein complex of the electron transport chain, preventing oxygen from accepting electrons. Which outcome would you predict for overall cellular ATP production, and why?",
+      "choices": [
+        "ATP production would increase, since the cell no longer needs oxygen",
+        "The cell would immediately switch entirely to photosynthesis",
+        "ATP production would drop dramatically, since blocking the final complex stalls the entire electron transport chain, halting chemiosmosis and the large majority of ATP synthesis",
+        "ATP production would be largely unaffected, since glycolysis alone can meet the cell's energy needs"
+      ],
+      "correct": 2,
+      "explanation": "Blocking electron flow at the final ETC complex causes the entire chain to back up (since each earlier complex can't pass electrons forward), stopping H⁺ pumping and collapsing the gradient chemiosmosis depends on. Since the ETC/chemiosmosis pathway accounts for the vast majority of a cell's ATP production, this blockage causes a dramatic overall drop in ATP output — which is exactly why cyanide is lethal."
+    },
+    {
+      "id": "3-37",
+      "topic": "3.4 Cellular Respiration",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher adds a chemical that makes the inner mitochondrial membrane \"leaky,\" allowing H⁺ ions to freely cross back into the matrix without passing through ATP synthase. Predict the effect on ATP production and on the amount of heat released by the mitochondria, and explain your reasoning.",
+      "choices": [
+        "ATP production would increase, and heat release would decrease",
+        "Neither ATP production nor heat release would be affected",
+        "The electron transport chain would immediately stop functioning entirely",
+        "ATP production would decrease, since the H⁺ gradient dissipates through the leak rather than being used productively by ATP synthase; more of the energy from the gradient would instead be released as heat rather than captured as ATP"
+      ],
+      "correct": 3,
+      "explanation": "This describes a real biological phenomenon called uncoupling (naturally used by \"uncoupling proteins\" in brown fat tissue for heat generation). If H⁺ can freely leak back across the membrane without passing through ATP synthase, the carefully built gradient dissipates without doing the useful work of producing ATP — the energy that would have gone into ATP synthesis is instead released as heat. This demonstrates that the H⁺ gradient itself is really the direct energy currency of chemiosmosis, and ATP synthase is simply the machine that normally captures that energy productively; bypass the machine, and the energy still has to go somewhere — as heat."
+    },
+    {
+      "id": "3-38",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "What is the primary biological purpose of fermentation?",
+      "choices": [
+        "To directly produce CO2 for use in photosynthesis",
+        "To regenerate NAD+ from NADH, allowing glycolysis to continue running without oxygen",
+        "To produce large amounts of additional ATP beyond what glycolysis alone provides",
+        "To replace the electron transport chain entirely"
+      ],
+      "correct": 1,
+      "explanation": "Fermentation's entire purpose is regenerating NAD+ (consumed during glycolysis) so that glycolysis — the only ATP-producing pathway that doesn't require oxygen — can keep running when oxygen is unavailable. It is not a significant source of additional ATP on its own."
+    },
+    {
+      "id": "3-39",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which organism/process pairing is correct?",
+      "choices": [
+        "Human muscle cells during intense exercise — alcoholic fermentation",
+        "Human muscle cells — no fermentation occurs under any circumstances",
+        "Yeast — lactic acid fermentation",
+        "Yeast — alcoholic fermentation, producing ethanol and CO2"
+      ],
+      "correct": 3,
+      "explanation": "Yeast performs alcoholic fermentation, converting pyruvate into ethanol and CO2 while regenerating NAD+. Human muscle cells instead perform lactic acid fermentation during intense exercise, converting pyruvate into lactate — the two fermentation types and their associated organisms/products are a common point of exam confusion worth memorizing precisely."
+    },
+    {
+      "id": "3-40",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which statement about fermentation's ATP yield is accurate?",
+      "choices": [
+        "Fermentation requires ATP as an input and produces none",
+        "Fermentation itself produces no additional ATP beyond what glycolysis already generated; all ATP produced under anaerobic conditions still comes from glycolysis alone",
+        "Fermentation produces exactly the same amount of ATP as the full aerobic pathway",
+        "Fermentation produces significantly more ATP than aerobic respiration"
+      ],
+      "correct": 1,
+      "explanation": "This is a frequently tested and frequently misunderstood point: fermentation reactions themselves (converting pyruvate to lactate or ethanol/CO2) don't produce any additional ATP — the only ATP being made under these anaerobic conditions still comes from glycolysis, which fermentation simply allows to keep running by regenerating its needed NAD+ supply."
+    },
+    {
+      "id": "3-41",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "In a pathway with feedback inhibition, the final product typically inhibits an enzyme located:",
+      "choices": [
+        "At the very end of the pathway, after the product has already formed",
+        "Near the beginning of the same pathway, often at the first or a rate-limiting step",
+        "Only in a completely separate, unrelated pathway",
+        "At a random point unrelated to the pathway's own steps"
+      ],
+      "correct": 1,
+      "explanation": "Feedback inhibition typically works by having a pathway's final product loop back and inhibit an enzyme near the pathway's own beginning (often the first, rate-limiting step) — this efficiently shuts down the entire pathway's activity as soon as it starts, rather than letting the cell waste resources on intermediate steps that would just be blocked later anyway."
+    },
+    {
+      "id": "3-42",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which type of enzyme inhibition is feedback inhibition typically an example of?",
+      "choices": [
+        "Feedback inhibition only occurs in prokaryotic cells",
+        "Competitive inhibition, since the product competes for the active site",
+        "Feedback inhibition is not a form of enzyme inhibition at all",
+        "Noncompetitive/allosteric inhibition, since the product typically binds a regulatory site rather than the active site"
+      ],
+      "correct": 3,
+      "explanation": "Feedback inhibition is typically a form of noncompetitive (allosteric) inhibition: the pathway's end product usually binds a regulatory (allosteric) site on the target enzyme, not the active site itself, changing the enzyme's shape and reducing its activity — connecting this regulatory concept directly back to the inhibition types covered in Section 3.1."
+    },
+    {
+      "id": "3-43",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "A cell's respiration pathway produces excess ATP relative to current demand. Through feedback inhibition, high ATP levels can inhibit an early glycolytic enzyme. What is the functional benefit of this regulation?",
+      "choices": [
+        "It has no functional benefit and is simply a byproduct of chemistry",
+        "It prevents the cell from wastefully overproducing ATP and consuming glucose when energy demand is already met, conserving resources",
+        "It ensures the cell always maximizes ATP production regardless of need",
+        "It permanently shuts down glycolysis"
+      ],
+      "correct": 1,
+      "explanation": "Feedback inhibition by high ATP levels acts as a self-correcting brake: when the cell already has plenty of ATP, inhibiting an early glycolytic enzyme slows down further glucose breakdown and unnecessary additional ATP production, conserving glucose and other resources until ATP levels drop again and the inhibition is relieved."
+    },
+    {
+      "id": "3-44",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which best explains why glycolysis can occur in both the presence and absence of oxygen?",
+      "choices": [
+        "Glycolysis only occurs in the presence of oxygen",
+        "Glycolysis directly requires oxygen as a substrate",
+        "Glycolysis occurs in the cytoplasm and does not depend on oxygen or the mitochondria; it only requires a supply of NAD+, which can be regenerated either by the ETC (aerobic) or by fermentation (anaerobic)",
+        "Glycolysis has no relationship to NAD+ availability"
+      ],
+      "correct": 2,
+      "explanation": "Glycolysis itself doesn't use oxygen directly — its only real requirement, besides glucose, is a supply of NAD+ to accept electrons during the process. That NAD+ can be regenerated either by the oxygen-dependent electron transport chain (under aerobic conditions) or by fermentation (under anaerobic conditions), which is exactly why glycolysis can proceed either way, as long as SOME mechanism for regenerating NAD+ is available."
+    },
+    {
+      "id": "3-45",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "A cell that normally performs aerobic respiration is placed in a low-oxygen environment. Predict the immediate effect on Krebs cycle and pyruvate oxidation activity, and explain why.",
+      "choices": [
+        "Krebs cycle and pyruvate oxidation activity increase to compensate for low oxygen",
+        "Krebs cycle and pyruvate oxidation activity are completely unaffected by oxygen availability",
+        "The cell immediately begins performing photosynthesis instead",
+        "Krebs cycle and pyruvate oxidation activity decrease, since they depend on NAD+ and FAD being regenerated by the oxygen-dependent electron transport chain, which slows without adequate oxygen"
+      ],
+      "correct": 3,
+      "explanation": "Both pyruvate oxidation and the Krebs cycle depend on a continued supply of NAD+ and FAD, which are normally regenerated by the electron transport chain using oxygen as the final electron acceptor. Without adequate oxygen, the ETC slows, NAD+/FAD regeneration slows, and both pyruvate oxidation and the Krebs cycle stall as their electron carriers stay \"full\" (as NADH/FADH2) with nowhere to unload."
+    },
+    {
+      "id": "3-46",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A yeast culture is grown under anaerobic conditions and produces ethanol via alcoholic fermentation. A researcher then adds a chemical that specifically blocks the enzyme converting pyruvate to acetaldehyde (the first step of alcoholic fermentation), without affecting glycolysis directly. Predict the effect on glycolytic ATP production, and explain the underlying mechanism.",
+      "choices": [
+        "The cell would immediately switch to aerobic respiration despite the absence of oxygen",
+        "Glycolytic ATP production would increase substantially",
+        "Glycolytic ATP production would be unaffected, since fermentation and glycolysis are unrelated",
+        "Glycolytic ATP production would decrease, because blocking fermentation prevents NAD+ regeneration; without a fresh NAD+ supply, glycolysis (which requires NAD+ as an input) would stall, reducing its ATP output despite not being directly targeted by the chemical"
+      ],
+      "correct": 3,
+      "explanation": "This tests a genuinely subtle chain of dependency: even though the chemical doesn't touch glycolysis directly, blocking fermentation's NAD+-regenerating step removes glycolysis's only available NAD+ source in this anaerobic culture. Since glycolysis requires NAD+ to proceed, its own rate (and therefore its own ATP output) would fall as available NAD+ runs low — a clear demonstration that fermentation's real biological importance lies entirely in supporting glycolysis, not in producing energy of its own."
+    },
+    {
+      "id": "3-47",
+      "topic": "3.1 Enzymes",
+      "stem": "Which of the following is the best definition of an enzyme's substrate?",
+      "choices": [
+        "The final product released after the reaction",
+        "Any random molecule that happens to be near the enzyme",
+        "A molecule that permanently disables the enzyme",
+        "The specific molecule or molecules that bind to the enzyme's active site and undergo the catalyzed reaction"
+      ],
+      "correct": 3,
+      "explanation": "A substrate is the specific reactant molecule (or molecules) that binds to an enzyme's active site and is converted into product(s) through the catalyzed reaction — an enzyme's substrate specificity is defined by which molecules can fit and react at its particular active site."
+    },
+    {
+      "id": "3-48",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which best describes the overall relationship between exergonic and endergonic reactions in metabolism?",
+      "choices": [
+        "Endergonic reactions always occur spontaneously without any energy input",
+        "Exergonic reactions require an external energy source to proceed",
+        "They never occur within the same organism",
+        "Exergonic reactions (like ATP hydrolysis) can be coupled to power endergonic reactions, allowing cells to carry out energy-requiring processes"
+      ],
+      "correct": 3,
+      "explanation": "This is the foundation of cellular energy management: cells constantly use exergonic reactions (especially ATP hydrolysis) as an energy source to power endergonic reactions and processes that wouldn't happen spontaneously on their own, through the principle of energy coupling."
+    },
+    {
+      "id": "3-49",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which best describes the overall energy transformation accomplished by photosynthesis?",
+      "choices": [
+        "No energy transformation occurs during photosynthesis",
+        "Kinetic energy is converted into thermal energy",
+        "Chemical energy is converted into light energy",
+        "Light energy is converted into chemical energy stored in the bonds of glucose"
+      ],
+      "correct": 3,
+      "explanation": "Photosynthesis's fundamental job is capturing light energy and converting it into chemical potential energy stored within the covalent bonds of glucose (and other organic molecules) — this stored energy is later released by cellular respiration to power ATP production."
+    },
+    {
+      "id": "3-50",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which molecule directly enters the Krebs cycle after pyruvate oxidation?",
+      "choices": [
+        "Glucose",
+        "Acetyl-CoA",
+        "ATP",
+        "Oxygen"
+      ],
+      "correct": 1,
+      "explanation": "Pyruvate oxidation converts pyruvate into acetyl-CoA (releasing CO2 and producing NADH in the process), and it's acetyl-CoA specifically that enters the Krebs cycle to be further broken down and fully oxidized."
+    },
+    {
+      "id": "3-51",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "A cell is engineered to lack functional mitochondria entirely. Which stage of aerobic respiration could this cell still perform?",
+      "choices": [
+        "Pyruvate oxidation",
+        "Glycolysis, since it occurs in the cytoplasm independent of the mitochondria",
+        "The electron transport chain",
+        "The Krebs cycle"
+      ],
+      "correct": 1,
+      "explanation": "Glycolysis occurs in the cytoplasm, entirely independent of the mitochondria, so a cell lacking functional mitochondria could still perform glycolysis (producing a small net amount of ATP). Pyruvate oxidation, the Krebs cycle, and the electron transport chain all occur within the mitochondria and would be impossible without them."
+    },
+    {
+      "id": "3-52",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which of the following would most directly indicate that a cell is relying on fermentation rather than aerobic respiration?",
+      "choices": [
+        "A large increase in the number of mitochondria",
+        "A large increase in oxygen consumption",
+        "High levels of CO2 production with no lactate or ethanol detected",
+        "Accumulation of lactate (in animal cells) or ethanol and CO2 (in yeast), combined with continued but limited ATP production from glycolysis alone"
+      ],
+      "correct": 3,
+      "explanation": "The accumulation of fermentation's characteristic byproducts (lactate in animal cells, or ethanol and CO2 in yeast), paired with ATP production limited to what glycolysis alone can provide, is the clearest indicator that a cell is relying on fermentation rather than the full aerobic pathway — which would instead show much higher oxygen consumption and much greater total ATP output."
+    },
+    {
+      "id": "3-53",
+      "topic": "3.1 Enzymes",
+      "stem": "Which best explains why enzymes are considered highly efficient biological catalysts compared to typical uncatalyzed reactions?",
+      "choices": [
+        "Enzymes eliminate the need for any reactants at all",
+        "Enzymes are consumed with each reaction, providing energy directly",
+        "Enzymes change the chemical identity of the products formed",
+        "Enzymes dramatically lower the activation energy required, allowing reactions that would otherwise be far too slow to sustain life to occur quickly enough to support cellular processes"
+      ],
+      "correct": 3,
+      "explanation": "Enzymes' efficiency comes specifically from their ability to dramatically lower activation energy, which can increase reaction rates by many orders of magnitude compared to the uncatalyzed reaction — this is precisely what makes complex, coordinated cellular metabolism possible on biologically relevant timescales."
+    },
+    {
+      "id": "3-54",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "A biochemist measures the energy content of ATP versus ADP + Pi separately. Which comparison would you expect?",
+      "choices": [
+        "Energy content cannot be compared between these molecules",
+        "ATP contains more total potential energy than ADP + Pi combined, since forming the additional phosphate bond required an energy input",
+        "ATP and ADP + Pi contain identical amounts of energy",
+        "ATP contains less total potential energy than ADP + Pi combined"
+      ],
+      "correct": 1,
+      "explanation": "Since building ATP from ADP + Pi is an endergonic process (product has more energy than reactants), ATP itself contains more stored potential energy than its ADP + Pi components — this stored energy is what's released, and made available to power cellular work, when ATP is later hydrolyzed back to ADP + Pi."
+    },
+    {
+      "id": "3-55",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which of the following would most directly reduce the rate of the Calvin cycle without directly affecting the light-dependent reactions themselves?",
+      "choices": [
+        "Removing the thylakoid membrane entirely",
+        "Reducing available CO2 concentration",
+        "Removing chlorophyll from the thylakoid membrane",
+        "Reducing available light intensity"
+      ],
+      "correct": 1,
+      "explanation": "Since the Calvin cycle's specific raw material is CO2 (used to build sugar), reducing CO2 availability would directly limit Calvin cycle activity without necessarily affecting the light-dependent reactions' own inputs (light and water) — this isolates the Calvin cycle's specific bottleneck from the light reactions' separate requirements."
+    },
+    {
+      "id": "3-56",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Which best explains why the electron transport chain requires a continuous supply of NADH and FADH2 to function?",
+      "choices": [
+        "NADH and FADH2 are byproducts with no functional role in the ETC",
+        "The ETC can generate its own electrons without any external supply",
+        "NADH and FADH2 donate the high-energy electrons that are passed down the chain, and it's the energy released during that electron transfer that powers H⁺ pumping",
+        "NADH and FADH2 directly synthesize ATP without involving the ETC at all"
+      ],
+      "correct": 2,
+      "explanation": "NADH and FADH2 supply the actual electrons that move through the electron transport chain; the energy released as those electrons pass from one protein complex to the next is what powers active H⁺ pumping across the inner mitochondrial membrane — without a continued NADH/FADH2 supply, there would be no electrons to move and no energy release to drive pumping."
+    },
+    {
+      "id": "3-57",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which best describes the relationship between glycolysis and fermentation under anaerobic conditions?",
+      "choices": [
+        "Glycolysis cannot occur unless fermentation happens first",
+        "Fermentation directly produces glucose for glycolysis to use",
+        "Fermentation depends on pyruvate, the end product of glycolysis, and in turn allows glycolysis to continue by regenerating its needed NAD+ supply — the two processes are mutually dependent under anaerobic conditions",
+        "Fermentation occurs entirely independently of glycolysis"
+      ],
+      "correct": 2,
+      "explanation": "Under anaerobic conditions, glycolysis and fermentation are mutually dependent: glycolysis supplies the pyruvate that fermentation converts into lactate or ethanol/CO2, while fermentation supplies the regenerated NAD+ that glycolysis needs to keep running — neither process can be sustained without the other in this anaerobic context."
+    },
+    {
+      "id": "3-58",
+      "topic": "3.1 Enzymes",
+      "stem": "Which experimental result would provide the strongest evidence that a particular substance is functioning as an enzyme cofactor rather than as the substrate itself?",
+      "choices": [
+        "The substance directly denatures the enzyme",
+        "The substance is permanently incorporated into the reaction's final product",
+        "The substance is required for the reaction to proceed at a normal rate, but is not itself chemically transformed into the product",
+        "The substance is completely unrelated to the enzyme's function"
+      ],
+      "correct": 2,
+      "explanation": "A cofactor assists an enzyme's function (often by helping stabilize the active site or participate in the catalytic mechanism) without itself being converted into product, unlike the substrate, which is chemically transformed during the reaction — this distinction (required but not consumed as product) is the key experimental signature separating a cofactor from a substrate."
+    },
+    {
+      "id": "3-59",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which best summarizes ATP's role as described throughout this section?",
+      "choices": [
+        "ATP functions as a rapidly cycled, short-term energy currency, coupling exergonic reactions to endergonic cellular processes",
+        "ATP is a long-term energy storage molecule similar to fat",
+        "ATP has no role in cellular energy transfer",
+        "ATP only functions during photosynthesis"
+      ],
+      "correct": 0,
+      "explanation": "ATP's defining biological role is as a fast-turnover energy currency: it's constantly produced (via exergonic processes like respiration) and constantly spent (via coupling to endergonic cellular processes), rather than serving as a stable, long-term energy reserve the way fat or glycogen do."
+    },
+    {
+      "id": "3-60",
+      "topic": "3.3 Photosynthesis",
+      "stem": "Which of the following correctly identifies BOTH the location and inputs of the Calvin cycle?",
+      "choices": [
+        "Stroma; inputs are CO2, ATP, and NADPH",
+        "Thylakoid membrane; inputs are light and water",
+        "Cytoplasm; inputs are pyruvate and NAD+",
+        "Mitochondrial matrix; inputs are glucose and oxygen"
+      ],
+      "correct": 0,
+      "explanation": "The Calvin cycle occurs in the chloroplast's stroma and uses CO2 (the carbon source), along with ATP and NADPH (both supplied by the light-dependent reactions), as its key inputs to build organic sugar molecules."
+    },
+    {
+      "id": "3-61",
+      "topic": "3.4 Cellular Respiration",
+      "stem": "Approximately how many total stages make up the full process of aerobic cellular respiration, from glucose to the electron transport chain?",
+      "choices": [
+        "Four: glycolysis, pyruvate oxidation, the Krebs cycle, and the electron transport chain/chemiosmosis",
+        "Two: glycolysis and the Krebs cycle only",
+        "Six distinct stages",
+        "One continuous, undivided process"
+      ],
+      "correct": 0,
+      "explanation": "Aerobic cellular respiration is organized into four sequential stages: glycolysis (cytoplasm), pyruvate oxidation (mitochondrial matrix), the Krebs cycle (mitochondrial matrix), and the electron transport chain paired with chemiosmosis (inner mitochondrial membrane) — each stage feeding products forward into the next."
+    },
+    {
+      "id": "3-62",
+      "topic": "3.5 Fermentation and Pathway Regulation",
+      "stem": "Which best explains why muscle soreness sometimes follows intense exercise that outpaces oxygen delivery?",
+      "choices": [
+        "Muscle cells stop producing ATP entirely during intense exercise",
+        "Excess oxygen accumulates in the muscle",
+        "The muscle cells switch to performing photosynthesis",
+        "Lactic acid fermentation, used to sustain glycolytic ATP production when oxygen delivery can't keep up with demand, produces lactate, which is associated with the sensation of muscle fatigue/soreness during and after intense effort"
+      ],
+      "correct": 3,
+      "explanation": "When oxygen delivery can't keep pace with a muscle's ATP demand during intense exercise, lactic acid fermentation kicks in to keep glycolysis (and its limited ATP output) running by regenerating NAD+ — the resulting lactate buildup is associated with the fatigue and soreness often experienced during and after this kind of intense, oxygen-limited effort."
+    },
+    {
+      "id": "3-63",
+      "topic": "3.1 Enzymes",
+      "stem": "Which best explains why body temperature (around 37°C in humans) tends to be close to the optimal temperature for most human enzymes?",
+      "choices": [
+        "Enzymes and the organisms that rely on them have evolved together, such that an organism's typical body temperature and its enzymes' optimal temperature range tend to be well-matched, supporting efficient metabolic function",
+        "All enzymes across all species share an identical optimal temperature",
+        "It is purely coincidental and has no evolutionary explanation",
+        "Enzyme optimal temperature has no relationship to organism physiology"
+      ],
+      "correct": 0,
+      "explanation": "This isn't coincidence — it reflects co-evolution between an organism's regulated body temperature and the optimal temperature range of the enzymes that operate within it, since enzymes functioning efficiently at an organism's normal operating temperature would be strongly favored by natural selection over enzymes poorly matched to that temperature."
+    },
+    {
+      "id": "3-64",
+      "topic": "3.2 Cellular Energy and ATP",
+      "stem": "Which of the following statements accurately reflects the relationship between metabolism, ATP, and the laws of thermodynamics?",
+      "choices": [
+        "Thermodynamics has no relevance to biological systems",
+        "Cellular metabolism violates the laws of thermodynamics by creating energy from nothing",
+        "Cellular metabolism doesn't create energy; it transforms energy from one form to another (light to chemical, chemical to ATP, etc.), consistent with the conservation of energy, while some energy is inevitably lost as heat at each transformation",
+        "ATP synthesis produces 100% usable energy with no losses"
+      ],
+      "correct": 2,
+      "explanation": "Cellular energy pathways are fully consistent with the laws of thermodynamics: no new energy is created, only transformed from one form to another (light energy to chemical energy in photosynthesis, chemical energy to ATP in respiration), and — consistent with the second law — some energy is inevitably lost as heat at each transformation step, meaning these processes are never perfectly efficient."
+    },
+    {
+      "id": "3-65",
+      "topic": "3.3 Photosynthesis",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A plant is exposed to a herbicide that specifically blocks electron flow at a particular point within the light-dependent reactions' electron transport chain, preventing electrons from reaching NADP+. Predict the effect on both O2 production and Calvin cycle activity, and explain whether these two effects would occur on the same or different timescales.",
+      "choices": [
+        "Neither process is connected to electron transport chain function",
+        "O2 production would increase while Calvin cycle activity stays the same",
+        "O2 production (tied to water-splitting near the beginning of the chain) might continue briefly even as electron flow is blocked further downstream, while NADPH production (and therefore Calvin cycle activity) would be affected essentially immediately, since it depends directly on electrons completing their journey to NADP+",
+        "Both O2 production and Calvin cycle activity would stop instantly and simultaneously"
+      ],
+      "correct": 2,
+      "explanation": "This requires tracing the specific ordering of events within the light-dependent reactions: water-splitting (which releases O2) occurs near the START of the electron transport chain, to replace electrons chlorophyll loses, while NADPH formation happens at the END of the chain, when electrons finally reach NADP+. If the block occurs partway through the chain, water-splitting (and O2 release) could plausibly continue briefly, using up any residual capacity in the early chain, even as electrons downstream of the block can no longer reach NADP+ — meaning NADPH production, and therefore the Calvin cycle (which depends directly on NADPH), would be disrupted essentially immediately, while O2 production might lag slightly behind before also declining as the whole system backs up."
+    }
+  ],
+  "4": [
+    {
+      "id": "4-1",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "A signaling cell releases a chemical messenger that travels through the bloodstream to affect cells in a distant organ. This is an example of:",
+      "choices": [
+        "Direct contact signaling",
+        "Endocrine signaling",
+        "Autocrine signaling",
+        "Paracrine signaling"
+      ],
+      "correct": 1,
+      "explanation": "Endocrine signaling involves a signal (hormone) traveling long distances through the bloodstream to reach target cells in distant tissues or organs — this is distinct from paracrine signaling (local, nearby cells) and autocrine signaling (a cell signaling itself)."
+    },
+    {
+      "id": "4-2",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "A large, polar protein hormone cannot cross the plasma membrane directly. How does it still trigger a response inside a target cell?",
+      "choices": [
+        "It converts into a nonpolar molecule upon contact with the membrane",
+        "It is actively transported through the membrane by a carrier protein and binds an intracellular receptor",
+        "It cannot trigger any response in target cells",
+        "It binds a membrane-bound receptor on the cell surface, triggering an internal signaling cascade without the hormone itself entering the cell"
+      ],
+      "correct": 3,
+      "explanation": "Large, polar signaling molecules bind membrane-bound receptors on the extracellular surface. The signal is relayed into the cell through the receptor's conformational change and downstream signaling molecules — the ligand itself never has to cross the membrane for the signal to be transmitted."
+    },
+    {
+      "id": "4-3",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which type of receptor would a small, nonpolar steroid hormone most likely bind?",
+      "choices": [
+        "A membrane-bound receptor exclusively",
+        "A receptor located outside the cell entirely, with no interaction with the cell itself",
+        "An intracellular receptor, since the hormone can diffuse directly across the plasma membrane",
+        "No receptor is needed for steroid hormones"
+      ],
+      "correct": 2,
+      "explanation": "Small, nonpolar molecules like steroid hormones can cross the hydrophobic interior of the plasma membrane directly by simple diffusion, allowing them to bind receptors located inside the cytoplasm or nucleus, rather than requiring a surface receptor."
+    },
+    {
+      "id": "4-4",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "A cell secretes a signaling molecule that affects nearby cells within the same tissue, but not cells located far away. This is best classified as:",
+      "choices": [
+        "Direct contact signaling only",
+        "No signaling has occurred",
+        "Paracrine signaling",
+        "Endocrine signaling"
+      ],
+      "correct": 2,
+      "explanation": "Paracrine signaling involves local signals affecting nearby cells within a limited range, distinct from endocrine signaling's long-distance, bloodstream-based reach. This is the type of signaling used by many local growth factors and neurotransmitters at synapses."
+    },
+    {
+      "id": "4-5",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "A cell releases a signaling molecule that then binds to and affects the very same cell that released it. This is:",
+      "choices": [
+        "Paracrine signaling",
+        "Autocrine signaling",
+        "Endocrine signaling",
+        "This scenario cannot occur biologically"
+      ],
+      "correct": 1,
+      "explanation": "Autocrine signaling is specifically defined as a cell responding to a signal it releases itself — this self-signaling mechanism is used, for example, by some immune cells to reinforce or regulate their own activity."
+    },
+    {
+      "id": "4-6",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "What is the primary functional purpose of a multi-step signal transduction pathway rather than a single, direct step from receptor to response?",
+      "choices": [
+        "To amplify the original signal, allowing a small number of ligand-receptor binding events to produce a large cellular response",
+        "To ensure the ligand enters the cell",
+        "To slow down the cell's response as much as possible",
+        "To convert the signal into a different type of molecule with no other effect"
+      ],
+      "correct": 0,
+      "explanation": "Multi-step pathways allow each activated component to activate multiple downstream components, amplifying a small initial signal into a much larger final response — this amplification is the key functional advantage of a multi-step cascade over a single direct step."
+    },
+    {
+      "id": "4-7",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "In a G protein-coupled receptor (GPCR) pathway, what specifically triggers the G protein to become active?",
+      "choices": [
+        "ATP directly binds and activates the G protein",
+        "Ligand binding to the receptor causes a conformational change that promotes GDP being exchanged for GTP on the G protein",
+        "The G protein is activated by being physically removed from the membrane",
+        "The G protein spontaneously activates with no external trigger"
+      ],
+      "correct": 1,
+      "explanation": "Ligand binding to a GPCR causes the receptor to change shape, which promotes the exchange of GDP for GTP on the associated G protein — this GDP-to-GTP swap is the molecular \"on switch\" that activates the G protein and allows it to trigger the next step in the pathway."
+    },
+    {
+      "id": "4-8",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "A mutated G protein cannot hydrolyze GTP back to GDP, remaining permanently in its active state. What would you predict about this pathway's activity?",
+      "choices": [
+        "The receptor would stop responding to any ligand entirely",
+        "The pathway would be permanently inactive",
+        "The pathway would function completely normally, unaffected by this mutation",
+        "The pathway would remain continuously active, independent of whether a ligand has bound the receptor"
+      ],
+      "correct": 3,
+      "explanation": "If the G protein cannot convert back to its inactive GDP-bound state, it remains locked in its active, signal-transmitting form regardless of whether the receptor is currently bound by ligand — resulting in continuous, ligand-independent pathway activation, a mechanism relevant to certain cancer-related oncogenes."
+    },
+    {
+      "id": "4-9",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "Which best describes what happens at the end of a typical signal transduction pathway?",
+      "choices": [
+        "A specific cellular response occurs, such as a change in gene expression, enzyme activity, or cell behavior",
+        "The cell immediately undergoes mitosis regardless of pathway type",
+        "The original ligand is destroyed and no cellular change occurs",
+        "The signal simply disappears with no further effect"
+      ],
+      "correct": 0,
+      "explanation": "A signal transduction pathway culminates in a specific, meaningful cellular response — this might be activation or repression of gene expression, a change in enzyme activity, altered cell metabolism, or another functional outcome, depending on the specific pathway and cell type involved."
+    },
+    {
+      "id": "4-10",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A signaling pathway includes a step where an enzyme called a protein kinase adds a phosphate group to a downstream target protein, activating it. A separate enzyme, a phosphatase, later removes that same phosphate group, deactivating the target protein. Explain the functional significance of having both a kinase and a phosphatase acting on the same target within a pathway.",
+      "choices": [
+        "The phosphatase always acts before the kinase in every pathway",
+        "This arrangement allows the pathway to be reversible — enabling the cell to both activate a response when needed and later turn that response off once the signal is no longer present, rather than being permanently locked into one state",
+        "This arrangement serves no functional purpose and is simply redundant",
+        "Kinases and phosphatases only exist in prokaryotic cells"
+      ],
+      "correct": 1,
+      "explanation": "This introduces the reversibility concept found throughout real cell signaling: having both an activating enzyme (kinase, adding phosphate) and a deactivating enzyme (phosphatase, removing phosphate) acting on the same target allows a cell to dynamically turn a response on when a signal is present and off again once it's gone — a critical feature for a cell's ability to respond appropriately to CHANGING conditions, rather than being stuck in one state after a single signaling event."
+    },
+    {
+      "id": "4-11",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "A cell lacks any functional receptor for a particular hormone, though the hormone is present at normal concentration in its surroundings. What would you predict about this cell's response to the hormone?",
+      "choices": [
+        "The cell would respond even more strongly than normal",
+        "The cell would fail to respond to the hormone, since without a functional receptor, the signal cannot be detected or transduced into the cell",
+        "The cell would respond normally, since receptors are not required for signaling",
+        "The hormone would enter the cell directly regardless of receptor status"
+      ],
+      "correct": 1,
+      "explanation": "Since receptor binding is the essential first step that initiates a signal transduction pathway, a cell lacking a functional receptor for a given ligand cannot detect or respond to that ligand, regardless of how much of it is present in the surrounding environment — the signal simply has nowhere to bind and nothing to trigger."
+    },
+    {
+      "id": "4-12",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "During which phase of the cell cycle does DNA replication occur?",
+      "choices": [
+        "G1",
+        "G2",
+        "M phase (mitosis)",
+        "S phase"
+      ],
+      "correct": 3,
+      "explanation": "DNA replication occurs specifically during S (synthesis) phase, part of interphase — by the time mitosis (M phase) begins, DNA has already been fully duplicated, and mitosis's job is to separate the resulting sister chromatids, not to copy DNA."
+    },
+    {
+      "id": "4-13",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "A cell is observed with condensed, duplicated chromosomes (each consisting of two sister chromatids) that have just aligned at the cell's center. Which phase of mitosis is this?",
+      "choices": [
+        "Anaphase",
+        "Prophase",
+        "Telophase",
+        "Metaphase"
+      ],
+      "correct": 3,
+      "explanation": "Metaphase is specifically defined by chromosomes being aligned at the cell's center (the metaphase plate), having already condensed during prophase. This precedes anaphase, when sister chromatids are pulled apart."
+    },
+    {
+      "id": "4-14",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "During which phase of mitosis do sister chromatids separate and move to opposite poles of the cell?",
+      "choices": [
+        "Anaphase",
+        "Prophase",
+        "Telophase",
+        "Metaphase"
+      ],
+      "correct": 0,
+      "explanation": "Anaphase is defined by the separation of sister chromatids, each now considered an individual chromosome, and their movement toward opposite poles of the cell, pulled by the spindle apparatus."
+    },
+    {
+      "id": "4-15",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which best describes what happens during cytokinesis?",
+      "choices": [
+        "DNA is replicated",
+        "Chromosomes condense and become visible",
+        "Sister chromatids separate",
+        "The cytoplasm physically divides, producing two separate daughter cells"
+      ],
+      "correct": 3,
+      "explanation": "Cytokinesis is the physical division of the cytoplasm that follows the nuclear division accomplished during mitosis (telophase), resulting in two separate daughter cells, each with its own nucleus and roughly equal cytoplasmic contents."
+    },
+    {
+      "id": "4-16",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "A researcher observes a cell in which the nuclear envelope has just reformed around two separate sets of chromosomes at opposite ends of the cell, and the chromosomes are beginning to decondense. Which phase is this?",
+      "choices": [
+        "Prophase",
+        "Anaphase",
+        "Telophase",
+        "Metaphase"
+      ],
+      "correct": 2,
+      "explanation": "Telophase is defined by the reformation of the nuclear envelope around each set of separated chromosomes and the beginning of chromosome decondensation, essentially reversing the condensation that occurred during prophase — this typically overlaps with cytokinesis, which physically completes the division."
+    },
+    {
+      "id": "4-17",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which phase of the cell cycle typically represents the largest proportion of a cell's total cycle time?",
+      "choices": [
+        "S phase",
+        "M phase (mitosis)",
+        "G1, as part of interphase",
+        "Cytokinesis alone"
+      ],
+      "correct": 2,
+      "explanation": "G1, part of interphase, is typically the longest phase of the cell cycle for most actively dividing cells, representing the period of general growth and normal metabolic activity before the cell commits to DNA replication. Interphase overall (G1 + S + G2) makes up the large majority of a typical cell cycle's total time, with M phase comparatively brief."
+    },
+    {
+      "id": "4-18",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "A researcher wants to identify cells actively undergoing DNA replication in a tissue sample. Which technique would be most directly useful?",
+      "choices": [
+        "Using a labeled nucleotide that gets incorporated into newly synthesized DNA, then detecting which cells have taken it up",
+        "Measuring the pH of the cytoplasm",
+        "Measuring the cells' overall size",
+        "Counting the number of mitochondria per cell"
+      ],
+      "correct": 0,
+      "explanation": "Since DNA replication (S phase) specifically involves synthesizing new DNA strands using free nucleotides, a labeled nucleotide that gets incorporated into this newly synthesized DNA can be used to specifically identify cells that are actively in S phase at the time of labeling — a real and commonly used laboratory technique."
+    },
+    {
+      "id": "4-19",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Which cell cycle checkpoint serves as the primary decision point for whether a cell will continue through the cycle at all?",
+      "choices": [
+        "M checkpoint (spindle checkpoint)",
+        "G1 checkpoint",
+        "There is no primary decision point",
+        "G2 checkpoint"
+      ],
+      "correct": 1,
+      "explanation": "The G1 checkpoint is generally considered the primary \"go/no-go\" decision point, evaluating cell size, nutrient availability, growth signals, and DNA integrity before committing the cell to continue into S phase and the rest of the cycle."
+    },
+    {
+      "id": "4-20",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "The M checkpoint (spindle checkpoint) specifically evaluates:",
+      "choices": [
+        "Whether all chromosomes are properly attached to spindle fibers before anaphase begins",
+        "Whether adequate nutrients are available",
+        "Whether DNA has been fully and accurately replicated",
+        "Whether the cell has grown to an adequate size"
+      ],
+      "correct": 0,
+      "explanation": "The M checkpoint (spindle checkpoint) specifically ensures that all chromosomes are properly attached to spindle fibers from both poles before allowing the cell to proceed into anaphase — this prevents chromosomes from being unevenly distributed to daughter cells."
+    },
+    {
+      "id": "4-21",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "A cell's M checkpoint fails to detect that one chromosome is not properly attached to spindle fibers, and the cell proceeds into anaphase anyway. What is the most likely consequence?",
+      "choices": [
+        "The cell will immediately repair the DNA damage",
+        "No consequence; chromosome attachment is not actually important for proper division",
+        "Uneven distribution of chromosomes to the daughter cells, potentially resulting in aneuploidy (an abnormal chromosome number)",
+        "The cell will skip S phase in its next cycle"
+      ],
+      "correct": 2,
+      "explanation": "If a chromosome is not properly attached to spindle fibers when anaphase begins, it may not be pulled to the correct pole along with the other chromosomes, resulting in one daughter cell receiving an extra chromosome and the other receiving one too few — a condition called aneuploidy, which can have significant functional consequences for the resulting cells."
+    },
+    {
+      "id": "4-22",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Cyclins and cyclin-dependent kinases (CDKs) are central to cell cycle regulation. Which best describes their general functional relationship?",
+      "choices": [
+        "CDKs regulate cyclins, but cyclins have no effect on CDKs",
+        "Cyclins and CDKs are two names for the exact same molecule",
+        "Cyclins and CDKs function completely independently of each other",
+        "Cyclins must bind to and activate CDKs, and it's specific cyclin-CDK combinations, reaching required activity levels, that drive progression through specific checkpoints"
+      ],
+      "correct": 3,
+      "explanation": "Cyclins are regulatory proteins whose levels rise and fall through the cell cycle; they must bind to and activate their partner CDKs (cyclin-dependent kinases) for those CDKs to become functionally active. Specific cyclin-CDK combinations, reaching sufficient activity at the right time, are what drive the cell past specific checkpoints and into the next phase of the cycle."
+    },
+    {
+      "id": "4-23",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "A cell experiences significant DNA damage during G2. Assuming normal checkpoint function, what is the most likely immediate outcome?",
+      "choices": [
+        "The cell proceeds directly into mitosis regardless of the damage",
+        "The cell skips G2 entirely and returns to G1",
+        "DNA damage during G2 has no effect on cell cycle progression",
+        "The G2 checkpoint detects the damage and halts the cycle, allowing time for repair (or triggering apoptosis if damage is too severe)"
+      ],
+      "correct": 3,
+      "explanation": "The G2 checkpoint specifically evaluates whether DNA replication was completed accurately and whether any DNA damage is present before allowing the cell to proceed into mitosis. Detecting significant damage at this checkpoint would normally halt the cycle, providing time for repair mechanisms to act, or trigger apoptosis if the damage is too severe to safely repair."
+    },
+    {
+      "id": "4-24",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Which best explains why cell cycle checkpoints are considered essential for preventing serious cellular dysfunction?",
+      "choices": [
+        "Checkpoints exist only to slow down cell division for no functional reason",
+        "Checkpoints only matter in prokaryotic cells",
+        "Checkpoints have no real functional importance and exist only incidentally",
+        "Checkpoints prevent cells with damaged DNA or improperly completed processes from continuing to divide, reducing the risk of passing on mutations or producing cells with abnormal chromosome numbers"
+      ],
+      "correct": 3,
+      "explanation": "Checkpoints serve as quality-control points that catch errors (DNA damage, incomplete replication, improper chromosome attachment) before they can be passed on to daughter cells — without functional checkpoints, a cell would be far more likely to divide despite serious problems, increasing the risk of mutations accumulating and being propagated, or of daughter cells receiving an abnormal number of chromosomes."
+    },
+    {
+      "id": "4-25",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A cell line is engineered so that its cyclin protein levels remain constantly high throughout the entire cell cycle, rather than rising and falling at specific points as normal. Predict the effect on this cell's cycle regulation, and explain your reasoning.",
+      "choices": [
+        "Cyclin levels have no relationship to CDK activity",
+        "The cell cycle would be completely unaffected, since only CDK levels matter",
+        "Checkpoint regulation would likely be disrupted, since the normal rise-and-fall pattern of cyclin levels (not just their presence) is what times CDK activation to specific points in the cycle — constantly high cyclin levels could cause premature or inappropriately timed progression through checkpoints",
+        "The cell would be permanently unable to divide at all"
+      ],
+      "correct": 2,
+      "explanation": "This tests a subtle but important point: it's not simply the PRESENCE of cyclin that matters, but the precisely timed RISE AND FALL of specific cyclins that normally activates specific CDKs at specific points in the cycle, driving orderly, sequential progression. If cyclin levels stay constantly high rather than fluctuating appropriately, the normal timing mechanism is disrupted, which could cause CDKs to remain inappropriately active and potentially drive premature or improperly regulated progression through checkpoints — illustrating that regulation depends on the DYNAMICS of cyclin levels, not just their existence."
+    },
+    {
+      "id": "4-26",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which best describes the normal function of a proto-oncogene?",
+      "choices": [
+        "It has no function in normal cells",
+        "It exclusively functions to repair DNA damage",
+        "It normally inhibits cell division",
+        "It normally promotes cell division when appropriately signaled to do so"
+      ],
+      "correct": 3,
+      "explanation": "A proto-oncogene is a completely normal gene whose job is to promote cell division when appropriately triggered by growth signals — it becomes cancer-associated (an oncogene) only after a gain-of-function mutation causes it to promote division inappropriately or continuously."
+    },
+    {
+      "id": "4-27",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which type of mutation would convert a proto-oncogene into a cancer-promoting oncogene?",
+      "choices": [
+        "A loss-of-function mutation that eliminates the gene's activity entirely",
+        "Proto-oncogenes cannot be mutated",
+        "A gain-of-function mutation that causes the gene to promote cell division inappropriately or continuously",
+        "Any mutation, regardless of its functional effect"
+      ],
+      "correct": 2,
+      "explanation": "Converting a proto-oncogene into an oncogene specifically requires a gain-of-function mutation — one that increases or deregulates the gene's normal division-promoting activity, rather than eliminating its function (which is instead the pattern associated with tumor suppressor gene mutations)."
+    },
+    {
+      "id": "4-28",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which type of mutation is typically associated with tumor suppressor genes becoming cancer-associated?",
+      "choices": [
+        "A gain-of-function mutation that increases the gene's activity",
+        "Tumor suppressor genes cannot be mutated in a way relevant to cancer",
+        "A mutation that converts the gene into a proto-oncogene",
+        "A loss-of-function mutation that eliminates the gene's normal division-inhibiting or repair function"
+      ],
+      "correct": 3,
+      "explanation": "Tumor suppressor genes normally inhibit division, repair DNA, or trigger apoptosis when needed. Cancer-associated dysfunction typically results from a loss-of-function mutation that eliminates this protective activity — removing a normal \"brake\" on cell division, rather than adding an inappropriate \"gas pedal\" activity."
+    },
+    {
+      "id": "4-29",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Why does cancer typically require multiple mutations accumulating in the same cell lineage, rather than developing from a single mutation alone?",
+      "choices": [
+        "Multiple regulatory safeguards (checkpoints, tumor suppressor genes) normally exist to catch and correct problems, so cancer typically requires both an abnormal drive to divide AND a failure of the safeguards that would normally stop that abnormal division",
+        "A single mutation always immediately causes cancer",
+        "Mutations cannot accumulate within the same cell lineage",
+        "Cancer never actually requires more than one mutation"
+      ],
+      "correct": 0,
+      "explanation": "Because cells have multiple layers of regulatory protection (checkpoints, tumor suppressor gene function, apoptosis), a single mutation (such as one activating a proto-oncogene) is often insufficient to cause cancer on its own, since other safeguards would normally catch and correct the resulting problem. Cancer typically develops only when multiple mutations accumulate — both mutations driving abnormal division AND mutations disabling the safeguards that would normally stop it."
+    },
+    {
+      "id": "4-30",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "p53 is a tumor suppressor gene that halts the cell cycle in response to DNA damage or triggers apoptosis if damage is severe. A cell with a loss-of-function mutation in both copies of its p53 gene would be expected to:",
+      "choices": [
+        "Have an impaired ability to halt division or trigger apoptosis in response to DNA damage, potentially allowing damaged cells to continue dividing",
+        "Show no change in cell cycle behavior",
+        "Show improved DNA damage detection",
+        "Immediately stop dividing altogether"
+      ],
+      "correct": 0,
+      "explanation": "Since p53's normal function is to detect DNA damage and respond by halting the cycle or triggering apoptosis, losing this function (through mutation of both gene copies) would impair the cell's ability to respond appropriately to DNA damage — potentially allowing cells with damaged DNA to continue dividing unchecked, which is why p53 mutations are found in a very large proportion of human cancers."
+    },
+    {
+      "id": "4-31",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which analogy best captures the functional difference between an oncogene and a mutated tumor suppressor gene, in terms of their effect on cell division?",
+      "choices": [
+        "An oncogene is like a stuck gas pedal (division promoted continuously); a mutated tumor suppressor gene is like failed brakes (division no longer inhibited)",
+        "An oncogene inhibits division; a tumor suppressor promotes it",
+        "Both function identically, promoting division through the same mechanism",
+        "Neither has any relationship to cell division control"
+      ],
+      "correct": 0,
+      "explanation": "This is a commonly used and accurate teaching analogy: an oncogene (mutated proto-oncogene) acts like a gas pedal stuck down, continuously promoting division regardless of appropriate signals, while a mutated (loss-of-function) tumor suppressor gene acts like brakes that no longer work, removing the normal restraint on division — together, these two mechanisms represent the two broad categories of mutations driving cancer development."
+    },
+    {
+      "id": "4-32",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "A tumor cell shows continuous activation of a growth-signaling pathway, even in the complete absence of external growth factor ligand. Which mutation type would most plausibly explain this?",
+      "choices": [
+        "Complete deletion of the entire signaling pathway",
+        "A gain-of-function mutation somewhere in the growth-signaling pathway (such as in a receptor or G protein) that locks the pathway in an active state independent of ligand binding",
+        "A loss-of-function mutation in a DNA mismatch repair gene, unrelated to the growth-signaling pathway itself",
+        "A mutation with no relationship to signaling pathways"
+      ],
+      "correct": 1,
+      "explanation": "Continuous, ligand-independent pathway activation is a classic signature of a gain-of-function mutation somewhere within the pathway itself — such as a receptor that signals even without ligand binding, or a G protein locked in its active GTP-bound state — effectively locking the pathway \"on\" regardless of whether the normal external trigger is present."
+    },
+    {
+      "id": "4-33",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which best explains why a target cell, but not every cell in the body, responds to a particular circulating hormone?",
+      "choices": [
+        "Only target cells contain DNA",
+        "Only target cells possess the specific receptor required to bind and respond to that particular hormone",
+        "All cells in the body respond identically to every hormone",
+        "The hormone physically avoids non-target cells"
+      ],
+      "correct": 1,
+      "explanation": "Hormone specificity depends on receptor presence: even though a hormone may circulate throughout the entire body via the bloodstream, only cells expressing the specific receptor capable of binding that hormone will actually respond to it — cells lacking that receptor are simply unaffected, regardless of hormone exposure."
+    },
+    {
+      "id": "4-34",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "A researcher blocks a specific protein kinase in the middle of a signal transduction pathway. What would you predict about the pathway's ability to reach its final target?",
+      "choices": [
+        "The pathway would likely be disrupted downstream of the blocked kinase, since each step in the cascade typically depends on the activity of the previous step",
+        "The pathway would proceed normally, unaffected by the blockage",
+        "Blocking a kinase has no relevance to signal transduction",
+        "The pathway would become permanently active instead of blocked"
+      ],
+      "correct": 0,
+      "explanation": "Since signal transduction pathways proceed as a sequential cascade, with each step's activity typically depending on the previous step having occurred, blocking a kinase partway through the pathway would be expected to disrupt transmission of the signal to any steps occurring further downstream of that blockage."
+    },
+    {
+      "id": "4-35",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which of the following correctly lists the four sub-phases of mitosis in the correct order?",
+      "choices": [
+        "Anaphase, telophase, prophase, metaphase",
+        "Prophase, metaphase, anaphase, telophase",
+        "Telophase, anaphase, metaphase, prophase",
+        "Metaphase, prophase, telophase, anaphase"
+      ],
+      "correct": 1,
+      "explanation": "The correct order of mitosis's sub-phases is prophase (chromosome condensation), metaphase (alignment at the cell's center), anaphase (sister chromatid separation), and telophase (nuclear envelope reformation) — remembering this order (often via the mnemonic PMAT) is essential for correctly interpreting cell cycle diagrams and questions."
+    },
+    {
+      "id": "4-36",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Which best summarizes the overall function of the cell cycle's checkpoint system as a whole?",
+      "choices": [
+        "Checkpoints serve no meaningful regulatory function",
+        "To evaluate internal and external conditions at key points, halting the cycle if problems are detected, protecting the integrity of the resulting daughter cells",
+        "To eliminate the need for DNA replication",
+        "To ensure the cell divides as quickly as possible regardless of conditions"
+      ],
+      "correct": 1,
+      "explanation": "The checkpoint system's overall function is quality control: pausing the cell cycle at key points to evaluate whether conditions are appropriate and whether prior steps were completed correctly, protecting the genetic integrity and functional viability of the daughter cells that will eventually result from division."
+    },
+    {
+      "id": "4-37",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which statement accurately reflects the relationship between proto-oncogenes, tumor suppressor genes, and normal healthy cells?",
+      "choices": [
+        "Only tumor suppressor genes are present in healthy cells",
+        "Only proto-oncogenes are present in healthy cells",
+        "Proto-oncogenes and tumor suppressor genes are only found in cancer cells",
+        "Both proto-oncogenes and tumor suppressor genes are present and functioning normally in healthy cells, performing important roles in regulating cell division and DNA integrity"
+      ],
+      "correct": 3,
+      "explanation": "Both gene categories are entirely normal and present in healthy cells, performing important regulatory functions (promoting appropriate division, or inhibiting division/repairing DNA/triggering apoptosis when needed) — it's specifically mutation of these otherwise normal genes, not their mere presence, that contributes to cancer development."
+    },
+    {
+      "id": "4-38",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which of the following would be an example of direct contact signaling, distinct from paracrine, autocrine, or endocrine signaling?",
+      "choices": [
+        "A hormone traveling through the bloodstream",
+        "A cell responding to a growth factor it secreted itself",
+        "A local growth factor diffusing to nearby cells",
+        "Two adjacent cells communicating through gap junctions, allowing direct passage of signaling molecules between them"
+      ],
+      "correct": 3,
+      "explanation": "Direct contact signaling occurs when adjacent cells physically touch and communicate, such as through gap junctions (channels directly connecting the cytoplasm of neighboring cells) or membrane-bound ligand-receptor interactions between touching cells — distinct from the other signaling types, which don't require direct physical contact."
+    },
+    {
+      "id": "4-39",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "Which best describes second messengers in a signal transduction pathway?",
+      "choices": [
+        "The original ligand molecule after it enters the cell",
+        "Small molecules produced inside the cell that relay and amplify the signal from an activated receptor to downstream targets",
+        "A backup receptor used only if the primary receptor fails",
+        "A molecule that terminates all signaling pathways"
+      ],
+      "correct": 1,
+      "explanation": "Second messengers are small, diffusible molecules produced inside the cell (often as a consequence of receptor activation) that help relay and amplify the original signal to downstream targets within the cell, without the original extracellular ligand (the \"first messenger\") itself needing to enter the cell."
+    },
+    {
+      "id": "4-40",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "A cell has just completed S phase. Which statement about its chromosomes is accurate at this point?",
+      "choices": [
+        "The cell now has half its original amount of DNA",
+        "Each chromosome now consists of two identical sister chromatids, joined together, since DNA has just been replicated",
+        "No DNA replication has occurred at this point",
+        "The chromosomes have already separated into individual daughter cells"
+      ],
+      "correct": 1,
+      "explanation": "Having just completed S phase, each of the cell's chromosomes has been duplicated into two identical sister chromatids joined at the centromere — this doubled DNA content persists through G2 and into mitosis, where the sister chromatids will eventually be separated during anaphase."
+    },
+    {
+      "id": "4-41",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Which checkpoint would be most directly responsible for detecting an error in newly replicated DNA before the cell proceeds into mitosis?",
+      "choices": [
+        "There is no checkpoint responsible for this",
+        "M checkpoint (spindle checkpoint)",
+        "G1 checkpoint",
+        "G2 checkpoint"
+      ],
+      "correct": 3,
+      "explanation": "The G2 checkpoint specifically evaluates whether DNA replication (which occurred during S phase) was completed accurately and checks for any DNA damage before allowing the cell to proceed into mitosis — this is distinct from the G1 checkpoint (evaluating conditions before replication begins) and the M checkpoint (evaluating spindle attachment during mitosis itself)."
+    },
+    {
+      "id": "4-42",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which best describes apoptosis and its relevance to cell cycle regulation?",
+      "choices": [
+        "Apoptosis is a programmed, regulated form of cell death that can be triggered when a cell has DNA damage too severe to safely repair, serving as a safeguard against propagating that damage",
+        "Apoptosis is an uncontrolled, accidental form of cell death unrelated to cell cycle regulation",
+        "Apoptosis is the same process as mitosis",
+        "Apoptosis only occurs in cancer cells"
+      ],
+      "correct": 0,
+      "explanation": "Apoptosis is a controlled, programmed process of cell death, distinct from uncontrolled cell damage or death. It can be triggered as a regulatory safeguard when a cell's DNA damage is too severe to repair, eliminating that cell entirely rather than risking division and propagation of the damage to daughter cells."
+    },
+    {
+      "id": "4-43",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "A researcher blocks a specific membrane-bound receptor on a cell's surface using an antibody that physically occupies the receptor's ligand-binding site. Predict the effect on this cell's response to its normal ligand.",
+      "choices": [
+        "The cell's response would be unaffected",
+        "The ligand would instead enter the cell directly",
+        "The cell would respond even more strongly than normal",
+        "The cell's response to that specific ligand would likely be blocked or reduced, since the ligand can no longer bind and activate the occupied receptor"
+      ],
+      "correct": 3,
+      "explanation": "If an antibody physically occupies the receptor's ligand-binding site, the normal ligand can no longer bind and trigger receptor activation, which would be expected to block or significantly reduce the cell's normal signaling response to that ligand — this same principle underlies several real therapeutic drugs that work by blocking specific receptors."
+    },
+    {
+      "id": "4-44",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "A cell's signal transduction pathway ultimately results in a transcription factor being activated and moving into the nucleus. Which type of cellular response does this most directly suggest?",
+      "choices": [
+        "A change in membrane permeability only",
+        "A change in gene expression, since transcription factors regulate the transcription of specific genes",
+        "Immediate cell death",
+        "Direct ATP synthesis"
+      ],
+      "correct": 1,
+      "explanation": "Transcription factors are proteins that regulate gene transcription by binding specific DNA sequences, typically in the nucleus. A signaling pathway culminating in an activated transcription factor entering the nucleus most directly suggests the pathway's ultimate effect is a change in gene expression — turning specific genes on or off."
+    },
+    {
+      "id": "4-45",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which of the following would most directly disrupt a cell's ability to properly separate sister chromatids during anaphase?",
+      "choices": [
+        "A change in extracellular pH with no effect on the mitotic machinery",
+        "An increase in overall cell size",
+        "A mutation affecting an unrelated metabolic enzyme with no role in cell division",
+        "A mutation affecting spindle fiber formation or function"
+      ],
+      "correct": 3,
+      "explanation": "Since spindle fibers are the physical structures responsible for pulling sister chromatids apart and toward opposite poles during anaphase, a mutation impairing spindle fiber formation or function would most directly disrupt this specific process, potentially leading to improper chromosome separation."
+    },
+    {
+      "id": "4-46",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "A pharmaceutical researcher is designing a cancer treatment intended to force cancer cells (which have lost normal checkpoint function) to undergo apoptosis despite their checkpoint defects. Which cellular pathway would this treatment most plausibly need to target?",
+      "choices": [
+        "The pathway leading to programmed cell death, bypassing the normal checkpoint-dependent trigger for that pathway",
+        "A completely unrelated metabolic pathway with no connection to cell division",
+        "This is not a scientifically plausible treatment strategy",
+        "Only pathways involved in DNA replication timing"
+      ],
+      "correct": 0,
+      "explanation": "Since the cancer cells in this scenario have lost normal checkpoint function (and therefore the normal trigger for apoptosis in response to detected problems), an effective treatment strategy would need to activate the apoptosis pathway through some OTHER route, bypassing the defective checkpoint-dependent trigger — this is in fact the general strategy behind several real classes of cancer therapeutics."
+    },
+    {
+      "id": "4-47",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which best explains why cancer is often described as fundamentally a disease of cell cycle regulation, rather than simply \"abnormal cells\"?",
+      "choices": [
+        "Because cancer cells cannot perform any normal cellular functions",
+        "Because cancer cells have no DNA",
+        "Because the defining feature of cancer cells is their loss of normal control over when and whether to divide, traceable to specific mutations in genes that normally regulate the cell cycle",
+        "Because all cancer cells are identical to each other"
+      ],
+      "correct": 2,
+      "explanation": "What defines cancer at the cellular level is specifically the loss of normal cell cycle regulation — cells dividing when they shouldn't, ignoring the checkpoints and regulatory signals (proto-oncogene/tumor suppressor gene function) that would normally control division — which is why understanding normal cell cycle regulation is essential to understanding what goes wrong in cancer."
+    },
+    {
+      "id": "4-48",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which best explains why paracrine signals typically have a much more localized effect than endocrine signals?",
+      "choices": [
+        "Paracrine signals are chemically incapable of entering the bloodstream and travel only short distances to nearby cells, while endocrine signals are specifically released into the bloodstream for long-distance transport",
+        "Paracrine signals are simply weaker versions of endocrine signals",
+        "There is no meaningful difference between paracrine and endocrine signaling",
+        "Endocrine signals only affect the cell that released them"
+      ],
+      "correct": 0,
+      "explanation": "The distinction between paracrine and endocrine signaling is fundamentally about the DELIVERY route: paracrine signals diffuse locally to nearby cells without entering the bloodstream, naturally limiting their range, while endocrine signals are specifically released into the bloodstream, allowing them to travel throughout the body to reach distant target tissues."
+    },
+    {
+      "id": "4-49",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "Which best describes the overall sequence of events in cell signaling, from initial signal to final response?",
+      "choices": [
+        "There is no consistent sequence in cell signaling",
+        "Reception (ligand binds receptor), transduction (signal relayed/amplified through a pathway), response (specific cellular outcome)",
+        "Transduction, response, reception",
+        "Response, transduction, reception"
+      ],
+      "correct": 1,
+      "explanation": "Cell signaling generally follows a three-stage sequence: reception (the ligand binds its specific receptor), transduction (the signal is relayed and typically amplified through a multi-step pathway), and response (the pathway culminates in a specific, meaningful cellular outcome) — this reception-transduction-response framework is a useful way to organize and analyze any signaling scenario."
+    },
+    {
+      "id": "4-50",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "A cell that has permanently exited the cell cycle and will not divide again (such as most mature neurons) is often described as being in which state?",
+      "choices": [
+        "Continuously cycling through mitosis",
+        "G0, a resting state outside the normal active cell cycle",
+        "Permanently stuck in S phase",
+        "Permanently stuck in anaphase"
+      ],
+      "correct": 1,
+      "explanation": "Cells that have exited the active cell cycle, often permanently, are described as being in G0 — a resting/quiescent state distinct from the G1, S, G2, and M phases of an actively cycling cell. Many highly specialized, mature cell types (like most neurons) spend the vast majority of their existence in G0."
+    },
+    {
+      "id": "4-51",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Growth factors are external signals that can promote a cell's progression past the G1 checkpoint. Which best explains their mechanism of action, connecting back to Section 4.1-4.2?",
+      "choices": [
+        "Growth factors bind specific receptors, triggering signal transduction pathways that ultimately activate the cyclins/CDKs needed to drive the cell past the G1 checkpoint",
+        "Growth factors work only by entering the nucleus directly, bypassing all receptors",
+        "Growth factors directly alter DNA sequence to force cell division",
+        "Growth factors have no relationship to cell signaling mechanisms"
+      ],
+      "correct": 0,
+      "explanation": "This connects the unit's signaling concepts directly to cell cycle regulation: growth factors act as ligands that bind specific receptors, triggering signal transduction pathways whose downstream effects include activating the cyclin-CDK complexes required to pass the G1 checkpoint — cell cycle progression and cell signaling are deeply interconnected, not separate topics."
+    },
+    {
+      "id": "4-52",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which of the following mutation combinations would be most strongly associated with cancer development, based on the two-hit concept discussed in this unit?",
+      "choices": [
+        "No mutations at all",
+        "A single, isolated gain-of-function mutation in a proto-oncogene, with all other regulatory genes fully functional",
+        "Two separate loss-of-function mutations in two completely unrelated, non-regulatory genes",
+        "A gain-of-function mutation in a proto-oncogene combined with a loss-of-function mutation disabling a relevant tumor suppressor gene, within the same cell lineage"
+      ],
+      "correct": 3,
+      "explanation": "Cancer development is most strongly associated with the combination of BOTH an abnormal drive to divide (gain-of-function mutation activating a proto-oncogene) AND a failure of the safeguards that would normally catch and correct that problem (loss-of-function mutation disabling a relevant tumor suppressor gene) — occurring together within the same cell lineage, rather than either mutation type occurring in isolation."
+    },
+    {
+      "id": "4-53",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which of the following best distinguishes a membrane-bound receptor's mechanism of action from an intracellular receptor's mechanism?",
+      "choices": [
+        "There is no meaningful mechanistic difference between the two",
+        "Membrane-bound receptors are found only in prokaryotic cells",
+        "Intracellular receptors always trigger faster responses than membrane-bound receptors",
+        "A membrane-bound receptor initiates a signaling cascade from the cell surface without the ligand entering the cell, while an intracellular receptor is bound directly by a ligand that has already entered the cell"
+      ],
+      "correct": 3,
+      "explanation": "The fundamental mechanistic distinction is where and how the ligand interacts with its receptor: membrane-bound receptors are bound at the cell surface, triggering an internal signaling cascade without the ligand itself entering the cell, while intracellular receptors are bound directly by a ligand small/nonpolar enough to have already diffused into the cell."
+    },
+    {
+      "id": "4-54",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "A researcher observes that a cell's signaling pathway produces a measurable response within seconds of ligand binding, much faster than would be expected if new proteins had to be synthesized first. Which explanation is most plausible?",
+      "choices": [
+        "The observation is impossible and indicates experimental error",
+        "The response must involve new gene transcription and protein synthesis, despite the fast timescale",
+        "The response likely involves modification of existing proteins already present in the cell (such as through phosphorylation by a kinase), which can occur much faster than synthesizing entirely new proteins",
+        "Fast responses never involve signal transduction pathways"
+      ],
+      "correct": 2,
+      "explanation": "Modifying existing proteins (for example, through kinase-driven phosphorylation, which activates or deactivates a protein already present in the cell) can occur on a timescale of seconds, far faster than the minutes-to-hours typically required for new gene transcription and protein synthesis — this is why very rapid cellular responses to signaling are usually mediated by modification of pre-existing proteins rather than new protein production."
+    },
+    {
+      "id": "4-55",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which best describes the relationship between interphase and mitosis in terms of relative duration for a typical actively dividing cell?",
+      "choices": [
+        "There is no consistent relationship between the two",
+        "Mitosis typically takes up the vast majority of the total cell cycle time",
+        "Interphase (G1, S, and G2 combined) typically takes up the vast majority of the total cell cycle time, with mitosis comparatively brief",
+        "Interphase and mitosis are always exactly equal in duration"
+      ],
+      "correct": 2,
+      "explanation": "For most actively dividing cells, interphase (encompassing G1, S, and G2) makes up the large majority of the total cell cycle's duration, representing the cell's ongoing growth, DNA replication, and preparation activities — mitosis itself, while visually dramatic, is typically a comparatively brief portion of the overall cycle."
+    },
+    {
+      "id": "4-56",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "A researcher discovers a mutation that causes a cell's CDK to remain active regardless of whether its partner cyclin is bound. Predict the most likely consequence for cell cycle regulation.",
+      "choices": [
+        "Cell cycle progression could occur inappropriately, since the normal requirement for cyclin binding (which times CDK activation to specific points in the cycle) would be bypassed",
+        "The cell would be permanently unable to enter the cell cycle",
+        "The cell cycle would be regulated even more precisely than normal",
+        "This mutation would have no effect on cell cycle timing"
+      ],
+      "correct": 0,
+      "explanation": "Since normal cell cycle timing depends on CDKs requiring their specific partner cyclin to become active (and cyclin levels rise and fall at defined points in the cycle), a CDK that's constitutively active regardless of cyclin binding would bypass this normal timing mechanism, potentially allowing inappropriate or improperly timed progression through the cycle — a dysregulation mechanism relevant to cancer biology."
+    },
+    {
+      "id": "4-57",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "Which of the following would provide the strongest evidence that a specific gene functions as a tumor suppressor gene, rather than a proto-oncogene?",
+      "choices": [
+        "The gene is expressed only in cancer cells and never in healthy cells",
+        "Loss-of-function mutations in the gene are associated with increased cancer risk, while the gene's normal function involves inhibiting division, repairing DNA, or triggering apoptosis",
+        "The gene has no relationship to cancer risk under any mutation type",
+        "Gain-of-function mutations in the gene are associated with increased cancer risk"
+      ],
+      "correct": 1,
+      "explanation": "The defining pattern for a tumor suppressor gene is that LOSS of its function (not gain) is associated with increased cancer risk, consistent with its normal role being to inhibit inappropriate division, repair DNA damage, or trigger apoptosis — losing that protective function removes a safeguard, unlike a proto-oncogene, where it's specifically GAIN of function that drives cancer risk."
+    },
+    {
+      "id": "4-58",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which of the following signaling scenarios would be classified as endocrine signaling?",
+      "choices": [
+        "The pancreas releasing insulin into the bloodstream, which then affects target cells throughout the body, including in the liver and muscle",
+        "Two touching cells communicating through a gap junction",
+        "A neurotransmitter released at a synapse, affecting only the adjacent neuron",
+        "A cell responding to a growth factor it released itself"
+      ],
+      "correct": 0,
+      "explanation": "Insulin release from the pancreas into the bloodstream, affecting distant target tissues throughout the body, is a textbook example of endocrine signaling — distinguished by the long-distance, bloodstream-based delivery route, unlike the local (paracrine), self-directed (autocrine), or direct-contact signaling described in the other options."
+    },
+    {
+      "id": "4-59",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "Which best explains why signal transduction pathways typically involve multiple sequential steps rather than a receptor directly performing the final cellular response itself?",
+      "choices": [
+        "Multiple steps always slow down the cell's response with no benefit",
+        "Multiple steps allow for amplification of the signal and provide multiple points where the pathway can be regulated or integrated with other signals",
+        "A receptor is physically incapable of directly performing any cellular response",
+        "Multiple steps exist purely by evolutionary accident with no functional benefit"
+      ],
+      "correct": 1,
+      "explanation": "Beyond simple amplification, multi-step pathways provide multiple points at which the signal can be regulated, modulated, or integrated with signals from other pathways — giving the cell much more nuanced control over its final response than a single, unregulated direct step from receptor to outcome would allow."
+    },
+    {
+      "id": "4-60",
+      "topic": "4.3 The Cell Cycle",
+      "stem": "Which best describes what happens to chromosome number in a daughter cell immediately after normal mitosis and cytokinesis, compared to the original parent cell?",
+      "choices": [
+        "Chromosome number is unpredictable after mitosis",
+        "The daughter cell has double the chromosome number of the parent cell",
+        "The daughter cell has the same chromosome number as the parent cell, since mitosis produces genetically identical daughter cells",
+        "The daughter cell has half the chromosome number of the parent cell"
+      ],
+      "correct": 2,
+      "explanation": "Mitosis is specifically designed to produce daughter cells that are genetically identical to the parent cell and to each other, with the same chromosome number — this is distinct from meiosis (covered in a later unit), which produces daughter cells with HALF the chromosome number, for sexual reproduction."
+    },
+    {
+      "id": "4-61",
+      "topic": "4.4 Cell Cycle Regulation and Checkpoints",
+      "stem": "Which of the following best explains why loss of checkpoint function alone is often not sufficient to cause cancer, requiring additional mutations as well?",
+      "choices": [
+        "Checkpoints have no relationship to cancer development at all",
+        "Checkpoint loss alone is always sufficient and no additional mutations are needed",
+        "Cancer cannot develop from checkpoint dysfunction under any circumstances",
+        "A cell also typically needs an active drive to divide inappropriately (such as an activated oncogene); losing checkpoints alone removes a safeguard but doesn't necessarily provide the abnormal signal to divide in the first place"
+      ],
+      "correct": 3,
+      "explanation": "Checkpoint loss removes a safeguard against inappropriate division, but a cell still generally needs some abnormal signal or drive actually pushing it to divide inappropriately (such as a gain-of-function oncogene mutation) for that lost safeguard to actually result in problematic, uncontrolled division — this is why cancer typically requires the combination of multiple mutation types working together, not just checkpoint loss in isolation."
+    },
+    {
+      "id": "4-62",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stem": "A tumor is found to have cells with widely varying chromosome numbers between individual cells, unlike normal, healthy tissue. Which cell cycle regulation failure would most plausibly explain this observation?",
+      "choices": [
+        "Failure of the M checkpoint (spindle checkpoint), allowing cells to proceed through anaphase despite improperly attached chromosomes, resulting in uneven chromosome distribution",
+        "A failure specifically located in G1 only, with no relevance to chromosome number",
+        "Normal, fully functional cell cycle regulation",
+        "This observation has no connection to cell cycle regulation"
+      ],
+      "correct": 0,
+      "explanation": "Widely varying chromosome numbers between individual cells within a tumor (a hallmark of many cancers) is consistent with repeated failures of the M checkpoint, which normally ensures all chromosomes are properly attached to spindle fibers before allowing anaphase to proceed — repeated failures here would be expected to produce daughter cells with inconsistent, abnormal chromosome numbers over successive divisions."
+    },
+    {
+      "id": "4-63",
+      "topic": "4.1 Cell Signaling Basics",
+      "stem": "Which best describes the general structural requirement for a ligand to bind an intracellular receptor rather than a membrane-bound receptor?",
+      "choices": [
+        "There is no structural requirement; any ligand can bind any receptor type",
+        "The ligand must be large and highly charged",
+        "The ligand must be a protein",
+        "The ligand must be small and sufficiently nonpolar to cross the plasma membrane by simple diffusion"
+      ],
+      "correct": 3,
+      "explanation": "Since intracellular receptors are located inside the cell, a ligand must first be able to cross the plasma membrane to reach them — this requires the ligand to be small and sufficiently nonpolar to diffuse directly through the hydrophobic bilayer interior, a direct application of the membrane permeability rules from Unit 2."
+    },
+    {
+      "id": "4-64",
+      "topic": "4.2 Signal Transduction Pathways",
+      "stem": "Which of the following would most directly disrupt signal amplification within a signal transduction pathway, even if the receptor itself functions normally?",
+      "choices": [
+        "Normal receptor binding by the correct ligand",
+        "A mutation affecting an unrelated, separate pathway entirely",
+        "An increase in ligand concentration",
+        "A mutation that prevents an early pathway enzyme from activating multiple downstream target molecules, limiting it to activating only one"
+      ],
+      "correct": 3,
+      "explanation": "Amplification specifically depends on each activated pathway component being able to activate MULTIPLE downstream targets. A mutation limiting an early pathway enzyme to activating only a single downstream target (rather than many) would directly reduce the pathway's amplification capacity, even if the initial receptor-ligand binding step itself remains completely normal."
+    },
+    {
+      "id": "4-65",
+      "topic": "4.5 Cancer and Cell Cycle Dysregulation",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher identifies a mutation in a gene that, when present, dramatically increases the rate at which OTHER mutations accumulate throughout a cell's genome over successive divisions (a \"mutator\" mutation), without directly affecting cell division rate itself. Explain how this type of mutation could still meaningfully contribute to cancer development, despite not directly driving division or disabling a specific checkpoint.",
+      "choices": [
+        "This type of mutation always immediately repairs itself",
+        "By dramatically increasing the overall mutation rate throughout the genome, this mutation increases the statistical likelihood that OTHER specific mutations (activating oncogenes, disabling tumor suppressor genes) will eventually occur within the same cell lineage, indirectly accelerating the accumulation of the mutation combinations actually needed to drive cancer",
+        "This type of mutation could not contribute to cancer development, since it doesn't directly affect division",
+        "This mutation would only be relevant in prokaryotic cells"
+      ],
+      "correct": 1,
+      "explanation": "This is a genuinely sophisticated extension of the multiple-mutation cancer model: rather than being a specific 'driver' mutation itself (like an oncogene or disabled tumor suppressor), a mutator mutation instead increases the overall genomic instability/mutation rate, making it statistically much more likely that the SPECIFIC combination of driver mutations needed for cancer will eventually arise within that cell lineage's genome over time — this illustrates that genes maintaining genomic stability (sometimes called 'caretaker' genes) represent a third meaningful category of cancer-relevant genes, distinct from but supporting the classic oncogene/tumor suppressor framework."
+    }
+  ],
+  "5": [
+    {
+      "id": "5-1",
+      "topic": "5.1 Meiosis",
+      "stem": "Which event marks the true reduction in chromosome number from diploid to haploid during meiosis?",
+      "choices": [
+        "Separation of homologous chromosome pairs during anaphase I",
+        "Crossing over during prophase I",
+        "DNA replication during interphase, before meiosis begins",
+        "Separation of sister chromatids during anaphase II"
+      ],
+      "correct": 0,
+      "explanation": "Homologous pairs separating during anaphase I is what actually cuts the chromosome number in half. Anaphase II, by contrast, only separates already-halved (haploid) sister chromatids, and does not further change chromosome number."
+    },
+    {
+      "id": "5-2",
+      "topic": "5.1 Meiosis",
+      "stem": "Crossing over during prophase I involves the exchange of genetic material between:",
+      "choices": [
+        "Mitochondrial and nuclear DNA",
+        "Two completely unrelated, non-homologous chromosomes",
+        "Sister chromatids of the same chromosome",
+        "Homologous chromosomes, one of maternal and one of paternal origin"
+      ],
+      "correct": 3,
+      "explanation": "Crossing over specifically occurs between homologous chromosomes — one inherited from each parent — exchanging corresponding segments of DNA and creating new allele combinations that didn't exist on either original parental chromosome."
+    },
+    {
+      "id": "5-3",
+      "topic": "5.1 Meiosis",
+      "stem": "Which of the following is a source of genetic variation produced during meiosis?",
+      "choices": [
+        "Cytokinesis",
+        "DNA methylation",
+        "Mitochondrial replication",
+        "Independent assortment of homologous pairs at metaphase I"
+      ],
+      "correct": 3,
+      "explanation": "Independent assortment — the random orientation of each homologous pair at the metaphase I plate, independent of how other pairs orient — is one of the three major sources of genetic variation generated by meiosis, alongside crossing over and random fertilization."
+    },
+    {
+      "id": "5-4",
+      "topic": "5.1 Meiosis",
+      "stem": "A diploid cell with 2n = 6 undergoes meiosis. How many chromosomes are present in each cell immediately after Meiosis I is completed?",
+      "choices": [
+        "1.5",
+        "6",
+        "3",
+        "12"
+      ],
+      "correct": 2,
+      "explanation": "Meiosis I separates homologous pairs, halving the chromosome number from 2n = 6 to n = 3. Each of these 3 chromosomes still consists of two sister chromatids at this point, since sister chromatid separation doesn't occur until Meiosis II."
+    },
+    {
+      "id": "5-5",
+      "topic": "5.1 Meiosis",
+      "stem": "Which best explains why full siblings, despite having the same two parents, are not genetically identical to each other?",
+      "choices": [
+        "Independent assortment, crossing over, and random fertilization all contribute unique combinations of alleles to each sibling's genome",
+        "Siblings only differ due to mutations occurring after birth",
+        "Full siblings always have exactly identical DNA",
+        "Only environmental factors cause differences between siblings"
+      ],
+      "correct": 0,
+      "explanation": "The three sources of genetic variation generated during meiosis and fertilization (independent assortment, crossing over, and which specific sperm and egg combine at fertilization) ensure that each gamete — and therefore each resulting offspring — receives a genetically unique combination of parental alleles, even among full siblings."
+    },
+    {
+      "id": "5-6",
+      "topic": "5.1 Meiosis",
+      "stem": "How many genetically distinct haploid cells are typically produced from a single diploid cell undergoing meiosis?",
+      "choices": [
+        "Eight",
+        "One",
+        "Four",
+        "Two"
+      ],
+      "correct": 2,
+      "explanation": "Meiosis (Meiosis I followed by Meiosis II) typically produces four haploid cells from a single starting diploid cell, each genetically distinct due to independent assortment and crossing over (assuming crossing over occurred)."
+    },
+    {
+      "id": "5-7",
+      "topic": "5.1 Meiosis",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A cell has three homologous pairs (2n = 6). Ignoring crossing over entirely, how many genetically distinct combinations of whole chromosomes are possible in the resulting gametes, based on independent assortment alone?",
+      "choices": [
+        "6",
+        "64",
+        "8",
+        "3"
+      ],
+      "correct": 2,
+      "explanation": "For n homologous pairs, independent assortment alone produces 2^n possible combinations of whole (non-recombined) chromosomes in the gametes, since each pair independently orients one of two possible ways. With 3 homologous pairs, this is 2³ = 8 possible combinations — and this number grows enormously for organisms with many chromosomes (humans, with 23 pairs, have 2²³, over 8 million possible combinations from independent assortment alone, before even counting crossing over or random fertilization)."
+    },
+    {
+      "id": "5-8",
+      "topic": "5.1 Meiosis",
+      "stem": "Which statement accurately describes what happens to sister chromatids during Meiosis I?",
+      "choices": [
+        "They exchange genetic material with each other",
+        "They separate from each other",
+        "They are destroyed during Meiosis I",
+        "They remain joined together and move as a single unit while homologous pairs separate"
+      ],
+      "correct": 3,
+      "explanation": "During Meiosis I, sister chromatids remain joined together at the centromere and move as a single unit to one pole, while it's the homologous PAIRS that separate from each other — sister chromatids don't separate from one another until Meiosis II."
+    },
+    {
+      "id": "5-9",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Which correctly defines phenotype?",
+      "choices": [
+        "The process of gamete formation",
+        "The observable physical trait or characteristic resulting from an organism's genotype",
+        "The specific combination of alleles an organism carries for a gene",
+        "The location of a gene on a chromosome"
+      ],
+      "correct": 1,
+      "explanation": "Phenotype refers to the observable trait or characteristic an organism displays, resulting from the interaction of its genotype (allele combination) with, in some cases, environmental factors — distinct from genotype, which refers specifically to the underlying allele combination itself."
+    },
+    {
+      "id": "5-10",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Two heterozygous pea plants (Rr) are crossed. What proportion of offspring would be expected to show the recessive phenotype?",
+      "choices": [
+        "0%",
+        "75%",
+        "25%",
+        "50%"
+      ],
+      "correct": 2,
+      "explanation": "An Rr × Rr cross produces offspring in a 1:2:1 genotype ratio (RR : Rr : rr), meaning 1/4, or 25%, are expected to be homozygous recessive (rr) and therefore show the recessive phenotype."
+    },
+    {
+      "id": "5-11",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Mendel's Law of Segregation describes which physical event that occurs during meiosis?",
+      "choices": [
+        "The two alleles for a gene separating from each other during gamete formation, so each gamete receives only one allele",
+        "Independent assortment of different genes",
+        "Nondisjunction",
+        "Crossing over between homologous chromosomes"
+      ],
+      "correct": 0,
+      "explanation": "The Law of Segregation states that the two alleles an organism carries for a given gene separate from each other during gamete formation (specifically, as homologous chromosomes separate during anaphase I), so that each resulting gamete receives only one of the two alleles."
+    },
+    {
+      "id": "5-12",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A plant heterozygous for two independently assorting genes (AaBb) is self-crossed. Using the product rule, what proportion of offspring would be expected to show the genotype AaBb specifically?",
+      "choices": [
+        "1/4",
+        "9/16",
+        "1/2",
+        "1/16"
+      ],
+      "correct": 0,
+      "explanation": "For gene A, Aa × Aa produces Aa with probability 1/2. For gene B, Bb × Bb produces Bb with probability 1/2. Using the product rule for these independent genes: 1/2 × 1/2 = 1/4 probability of the specific genotype AaBb."
+    },
+    {
+      "id": "5-13",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A testcross involves crossing an individual of unknown genotype with an individual that is:",
+      "choices": [
+        "Homozygous dominant for the trait in question",
+        "Heterozygous for the trait in question",
+        "Of unknown genotype as well",
+        "Homozygous recessive for the trait in question"
+      ],
+      "correct": 3,
+      "explanation": "A testcross specifically uses a homozygous recessive individual as the known partner, since a homozygous recessive parent can only contribute recessive alleles to offspring — this makes it possible to determine the unknown parent's genotype based on the resulting phenotype ratios in the offspring."
+    },
+    {
+      "id": "5-14",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Which rule of probability should be used to calculate the likelihood of two SEPARATE, independent genetic events BOTH occurring together?",
+      "choices": [
+        "The product rule (multiplication)",
+        "The sum rule (addition)",
+        "Neither rule applies to genetics",
+        "Division by the total number of possible outcomes only"
+      ],
+      "correct": 0,
+      "explanation": "The product rule (multiplying individual probabilities) is used to calculate the probability of two or more independent events all occurring together (an \"AND\" scenario) — such as an offspring being both round AND yellow in a dihybrid cross, where seed shape and seed color assort independently."
+    },
+    {
+      "id": "5-15",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A cross between AaBb and aabb (a testcross for two genes) produces offspring in what ratio, assuming independent assortment?",
+      "choices": [
+        "1:2:1",
+        "9:3:3:1",
+        "1:1:1:1 (AaBb : Aabb : aaBb : aabb)",
+        "3:1"
+      ],
+      "correct": 2,
+      "explanation": "A dihybrid testcross (heterozygous for both genes crossed with homozygous recessive for both) produces a 1:1:1:1 ratio of the four possible offspring genotype/phenotype combinations, since each gene independently has a 1:1 chance of either allele from the heterozygous parent, and these combine according to the product rule."
+    },
+    {
+      "id": "5-16",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "A red snapdragon is crossed with a white snapdragon, producing all pink offspring. This is an example of:",
+      "choices": [
+        "Codominance",
+        "Incomplete dominance",
+        "Multiple alleles",
+        "Sex-linked inheritance"
+      ],
+      "correct": 1,
+      "explanation": "Incomplete dominance produces a heterozygote with a single, blended, intermediate phenotype (pink) between the two homozygous phenotypes (red and white) — distinct from codominance, where both original phenotypes would be fully and separately expressed rather than blended."
+    },
+    {
+      "id": "5-17",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "AB blood type results from an individual having both the IA and IB alleles simultaneously, with both A and B antigens fully expressed on red blood cells. This is an example of:",
+      "choices": [
+        "Codominance",
+        "Pleiotropy",
+        "Incomplete dominance",
+        "Polygenic inheritance"
+      ],
+      "correct": 0,
+      "explanation": "Codominance describes a heterozygote showing BOTH homozygous phenotypes fully and separately, rather than a blend — AB blood type is the classic textbook example, since both A and B antigens are fully present and detectable, not merged into some intermediate form."
+    },
+    {
+      "id": "5-18",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "ABO blood type is determined by three possible alleles (IA, IB, i) in the population, even though any individual carries only two. This describes:",
+      "choices": [
+        "Sex-linked inheritance",
+        "Nondisjunction",
+        "Multiple alleles",
+        "Codominance exclusively"
+      ],
+      "correct": 2,
+      "explanation": "Multiple alleles describes a gene that has more than two possible allele variants present within a population's overall gene pool, even though any single individual can only carry two of those alleles (one on each homologous chromosome). ABO blood type is a classic multiple-allele system that also happens to involve codominance between two of its three alleles."
+    },
+    {
+      "id": "5-19",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Human height is influenced by many different genes, each contributing a small additive effect, producing a continuous range of possible heights rather than a few discrete categories. This is an example of:",
+      "choices": [
+        "Codominance",
+        "Pleiotropy",
+        "Sex-linked inheritance",
+        "Polygenic inheritance"
+      ],
+      "correct": 3,
+      "explanation": "Polygenic inheritance describes a single trait influenced by multiple different genes, each contributing a small effect, together producing a continuous range of possible phenotypes (rather than a few sharply distinct categories) — human height and skin color are classic examples."
+    },
+    {
+      "id": "5-20",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "The sickle-cell allele affects red blood cell shape, but also influences malaria resistance and can cause organ damage. A single gene influencing multiple, seemingly unrelated traits is called:",
+      "choices": [
+        "Polygenic inheritance",
+        "Pleiotropy",
+        "Codominance",
+        "Incomplete dominance"
+      ],
+      "correct": 1,
+      "explanation": "Pleiotropy describes a single gene influencing multiple, distinct phenotypic traits — the sickle-cell allele is a textbook example, since one gene's effect ripples out into red blood cell shape, malaria resistance, and potential organ damage, seemingly unrelated effects that all trace back to the same underlying gene."
+    },
+    {
+      "id": "5-21",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "In humans, an X-linked recessive condition is much more commonly observed in males than in females. Which explanation is correct?",
+      "choices": [
+        "Males have two X chromosomes, requiring two copies of the recessive allele",
+        "Males have only one X chromosome, so a single copy of the recessive allele is sufficient to produce the phenotype, with no second X to potentially carry a masking dominant allele",
+        "Males and females are equally likely to display X-linked recessive conditions",
+        "X-linked conditions cannot occur in females under any circumstances"
+      ],
+      "correct": 1,
+      "explanation": "Males (XY) have only one X chromosome, so a single recessive allele on that X is sufficient to produce the recessive phenotype, since there's no second X chromosome present that could carry a masking dominant allele. Females (XX) need two copies (one on each X) to show the same recessive phenotype, making them less likely to be affected."
+    },
+    {
+      "id": "5-22",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "A woman who is a carrier for an X-linked recessive condition (XAXa) has children with an unaffected man (XAY). What proportion of their sons would be expected to be affected by the condition?",
+      "choices": [
+        "0%",
+        "100%",
+        "50%",
+        "25%"
+      ],
+      "correct": 2,
+      "explanation": "Sons receive their single X chromosome from their mother. Since the mother is XAXa, there is a 1/2 (50%) chance a son receives the Xa allele (becoming affected, XaY) and a 1/2 chance he receives the XA allele (becoming unaffected, XAY)."
+    },
+    {
+      "id": "5-23",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A trait shows incomplete dominance for flower color (red RR, white rr, pink Rr) AND is influenced by a completely separate, independently assorting gene controlling petal number (multiple alleles, with three possible phenotypes). If a plant heterozygous for flower color (Rr) and heterozygous for petal number (using two of the three possible alleles) is self-crossed, how would you approach calculating the probability of a specific combined phenotype?",
+      "choices": [
+        "Only the flower color gene needs to be considered, since incomplete dominance overrides other genes",
+        "This calculation is impossible with genes following different inheritance patterns",
+        "Add the two probabilities together instead of multiplying them",
+        "Calculate the probability for the flower color phenotype and the petal number phenotype SEPARATELY (using the appropriate ratios for each inheritance pattern), then multiply the two probabilities together using the product rule, since the genes assort independently of each other"
+      ],
+      "correct": 3,
+      "explanation": "This tests whether you understand that the product rule applies regardless of what SPECIFIC inheritance pattern governs each individual gene, as long as the genes themselves assort independently of each other. Incomplete dominance changes the phenotype RATIOS for a single gene (e.g., 1:2:1 for red:pink:white, rather than a Mendelian 3:1), but doesn't change the fundamental logic that independently assorting genes' probabilities can still be multiplied together — you'd simply calculate each gene's own specific phenotype probability using its own particular inheritance rules, then combine them via the product rule as usual."
+    },
+    {
+      "id": "5-24",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Which best distinguishes pleiotropy from polygenic inheritance?",
+      "choices": [
+        "Pleiotropy involves multiple genes affecting one trait; polygenic inheritance involves one gene affecting multiple traits",
+        "Pleiotropy involves one gene affecting multiple traits; polygenic inheritance involves multiple genes affecting one trait",
+        "Pleiotropy and polygenic inheritance are the exact same phenomenon",
+        "Neither term has any relationship to gene-trait relationships"
+      ],
+      "correct": 1,
+      "explanation": "These two terms describe opposite directions of gene-trait relationships: pleiotropy is one gene influencing MULTIPLE different traits, while polygenic inheritance is MULTIPLE genes together influencing a single trait — a common and important distinction to keep straight."
+    },
+    {
+      "id": "5-25",
+      "topic": "5.4 Linkage",
+      "stem": "Two genes located very close together on the same chromosome are said to be:",
+      "choices": [
+        "Undergoing nondisjunction",
+        "Located on different chromosomes",
+        "Independently assorting",
+        "Linked"
+      ],
+      "correct": 3,
+      "explanation": "Genes located close together on the same chromosome are described as linked, since they tend to be inherited together (violating independent assortment) because they aren't separated by the random orientation of different chromosome pairs — they can, however, still be separated by crossing over."
+    },
+    {
+      "id": "5-26",
+      "topic": "5.4 Linkage",
+      "stem": "Which of the following is the ONLY mechanism capable of separating two linked genes located on the same chromosome?",
+      "choices": [
+        "Crossing over during prophase I",
+        "Mitosis",
+        "Independent assortment",
+        "Random fertilization"
+      ],
+      "correct": 0,
+      "explanation": "Since linked genes are physically located on the same chromosome, independent assortment (which shuffles whole, separate chromosomes) cannot separate them — only crossing over, which physically exchanges segments of DNA between homologous chromosomes, can separate genes that started out linked together on the same chromosome."
+    },
+    {
+      "id": "5-27",
+      "topic": "5.4 Linkage",
+      "stem": "In a genetic cross, two genes are found to be inherited together in 82% of offspring, with only 18% showing recombinant (non-parental) combinations. What is the recombination frequency between these two genes?",
+      "choices": [
+        "82%",
+        "50%",
+        "9%",
+        "18%"
+      ],
+      "correct": 3,
+      "explanation": "Recombination frequency is specifically the percentage of offspring showing RECOMBINANT (non-parental) combinations, which in this case is 18% — the 82% figure instead represents the parental (non-recombinant) combinations that stayed together as inherited."
+    },
+    {
+      "id": "5-28",
+      "topic": "5.4 Linkage",
+      "stem": "A recombination frequency close to 50% between two genes most likely suggests:",
+      "choices": [
+        "The two genes are either very far apart on the same chromosome, or located on entirely different chromosomes, since either case results in essentially independent assortment",
+        "Nondisjunction has occurred",
+        "The two genes are extremely close together on the same chromosome",
+        "The two genes are identical to each other"
+      ],
+      "correct": 0,
+      "explanation": "A recombination frequency approaching 50% indicates that the two genes are separating from each other about as often as would be expected from pure independent assortment — this occurs either when genes are on completely different chromosomes, or when they're so far apart on the SAME chromosome that crossovers between them are extremely frequent, making them functionally behave as unlinked."
+    },
+    {
+      "id": "5-29",
+      "topic": "5.4 Linkage",
+      "stem": "Which best describes the relationship between physical distance and recombination frequency for two genes on the same chromosome?",
+      "choices": [
+        "Recombination frequency is always exactly proportional to chromosome length regardless of gene position",
+        "Physical distance has no relationship to recombination frequency",
+        "Greater physical distance correlates with higher recombination frequency, since there's more opportunity for a crossover to occur between them",
+        "Greater physical distance correlates with lower recombination frequency"
+      ],
+      "correct": 2,
+      "explanation": "Genes located farther apart on the same chromosome have more physical space between them where a crossover event could occur, making it statistically more likely that a crossover will happen somewhere between the two specific genes — resulting in a higher recombination frequency for genes that are farther apart."
+    },
+    {
+      "id": "5-30",
+      "topic": "5.4 Linkage",
+      "stem": "A researcher uses recombination frequency data to construct a genetic map. Which statement about genetic maps is accurate?",
+      "choices": [
+        "Genetic maps directly measure the exact physical length of DNA in base pairs",
+        "Genetic maps only apply to genes on different chromosomes",
+        "Genetic maps cannot be constructed from recombination frequency data",
+        "Genetic maps use recombination frequency as a proxy for relative gene distance, with 1% recombination frequency roughly equal to 1 map unit"
+      ],
+      "correct": 3,
+      "explanation": "Genetic maps use recombination frequency as an indirect proxy for relative distance between genes on the same chromosome, with 1% recombination frequency conventionally corresponding to roughly 1 map unit (centimorgan) — this doesn't directly measure physical distance in base pairs, but provides a useful relative ordering and spacing of genes along a chromosome."
+    },
+    {
+      "id": "5-31",
+      "topic": "5.4 Linkage",
+      "stem": "Three genes on the same chromosome show the following recombination frequencies: Gene A and Gene B: 5%; Gene B and Gene C: 12%; Gene A and Gene C: 17%. Based on this data, what is the most likely gene order on the chromosome?",
+      "choices": [
+        "The order cannot be determined from this data",
+        "C-A-B",
+        "A-B-C",
+        "B-A-C"
+      ],
+      "correct": 2,
+      "explanation": "Since the recombination frequency between A and C (17%) is approximately equal to the sum of A-B (5%) and B-C (12%), this suggests B lies between A and C, giving the gene order A-B-C — this is exactly how three-point genetic mapping problems are solved, using additive recombination frequencies to infer relative gene order."
+    },
+    {
+      "id": "5-32",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Which term describes the failure of homologous chromosomes or sister chromatids to separate properly during meiosis?",
+      "choices": [
+        "Independent assortment",
+        "Nondisjunction",
+        "Crossing over",
+        "Codominance"
+      ],
+      "correct": 1,
+      "explanation": "Nondisjunction is the specific term for a failure of proper chromosome separation during meiosis (or mitosis), resulting in gametes (or cells) with an abnormal number of chromosomes."
+    },
+    {
+      "id": "5-33",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "An individual has three copies of chromosome 21 instead of the normal two, resulting in Down syndrome. This condition is an example of:",
+      "choices": [
+        "Trisomy",
+        "Polyploidy",
+        "Monosomy",
+        "Linkage"
+      ],
+      "correct": 0,
+      "explanation": "Trisomy refers to having three copies of a particular chromosome instead of the normal two — Down syndrome (trisomy 21) is the most well-known human example, resulting from a gamete with an extra copy of chromosome 21 fertilizing normally."
+    },
+    {
+      "id": "5-34",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Nondisjunction occurring during Meiosis I (a homologous pair failing to separate) affects how many of the four resulting gametes?",
+      "choices": [
+        "All four",
+        "This cannot be determined",
+        "Two",
+        "None"
+      ],
+      "correct": 0,
+      "explanation": "Since a homologous pair failing to separate during Meiosis I affects both resulting cells from that division (one gets an extra chromosome, one is missing it), and Meiosis II simply separates sister chromatids within those already-abnormal cells, all four final gametes end up with an incorrect chromosome number for that particular chromosome."
+    },
+    {
+      "id": "5-35",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Nondisjunction occurring during Meiosis II (sister chromatids failing to separate in one of the two cells produced by Meiosis I) affects how many of the four resulting gametes?",
+      "choices": [
+        "Two",
+        "Exactly three",
+        "All four",
+        "None"
+      ],
+      "correct": 0,
+      "explanation": "If nondisjunction occurs during Meiosis II, it only affects the ONE cell in which the sister chromatid separation error occurs — the other cell produced by the normal Meiosis I division proceeds through Meiosis II correctly, so its two resulting gametes are entirely normal, leaving exactly two of the four total gametes abnormal."
+    },
+    {
+      "id": "5-36",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "An individual has only one copy of a particular chromosome instead of the normal two. This condition is called:",
+      "choices": [
+        "Monosomy",
+        "Codominance",
+        "Trisomy",
+        "Polyploidy"
+      ],
+      "correct": 0,
+      "explanation": "Monosomy describes having only one copy of a particular chromosome instead of the normal two, resulting from an n−1 gamete (missing that chromosome due to nondisjunction) participating in fertilization with a normal gamete."
+    },
+    {
+      "id": "5-37",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "A geneticist examines four gametes resulting from meiosis and finds that all four have an abnormal number of a particular chromosome (two have an extra copy, two are missing it entirely). During which meiotic division did nondisjunction most likely occur for this chromosome?",
+      "choices": [
+        "Meiosis II",
+        "This pattern is impossible",
+        "Mitosis, not meiosis",
+        "Meiosis I"
+      ],
+      "correct": 3,
+      "explanation": "Since ALL FOUR resulting gametes show an abnormal chromosome number for this particular chromosome, this is the signature pattern of nondisjunction occurring during Meiosis I — if it had occurred during Meiosis II instead, only two of the four gametes would be affected, with the other two remaining entirely normal."
+    },
+    {
+      "id": "5-38",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A woman who is a known carrier for nondisjunction-prone meiosis has an elevated risk of producing aneuploid gametes for a particular chromosome. If nondisjunction risk is independent between her two meiotic divisions, and the probability of nondisjunction occurring specifically in Meiosis I is 4% while the probability of nondisjunction occurring specifically in Meiosis II (given that Meiosis I proceeded normally) is 3%, what is the approximate overall probability that a given egg cell from this woman is aneuploid for this chromosome?",
+      "choices": [
+        "1%",
+        "12%",
+        "7%",
+        "Approximately 6.9% (4% + [96% × 3%])"
+      ],
+      "correct": 3,
+      "explanation": "This requires combining the two independent risk pathways correctly using the sum and product rules together: the probability of nondisjunction in Meiosis I is 4% directly. For nondisjunction to occur specifically in Meiosis II, Meiosis I must have gone normally FIRST (96% probability), AND THEN nondisjunction must occur in Meiosis II (3% probability) — giving 0.96 × 0.03 ≈ 2.9% for that specific pathway. Adding the two mutually exclusive pathways together (nondisjunction in M1, OR normal M1 followed by nondisjunction in M2): 4% + 2.9% ≈ 6.9% total probability of an aneuploid egg — illustrating how the sum and product rules combine in a more complex, multi-step probability scenario."
+    },
+    {
+      "id": "5-39",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Which best explains why aneuploidy (an abnormal chromosome number) often has more severe biological consequences than simply having extra or missing non-genetic material?",
+      "choices": [
+        "Extra or missing chromosomes only affect physical appearance, never internal cell function",
+        "Chromosomes contain genes, so an abnormal chromosome number results in an abnormal DOSAGE of many genes simultaneously, disrupting the carefully balanced levels of gene products a cell normally needs",
+        "Aneuploidy only affects mitochondrial function, not the rest of the cell",
+        "Aneuploidy has no biological consequences of any kind"
+      ],
+      "correct": 1,
+      "explanation": "Since chromosomes carry genes, having an abnormal number of a particular chromosome means having an abnormal DOSAGE (too much or too little) of every gene located on that chromosome simultaneously — cells are generally quite sensitive to having the correct relative dosage of many interacting gene products, which is why aneuploidy so often produces significant developmental or functional consequences."
+    },
+    {
+      "id": "5-1b",
+      "topic": "5.1 Meiosis",
+      "stem": "Which phase of meiosis specifically involves the pairing of homologous chromosomes (synapsis) and the occurrence of crossing over?",
+      "choices": [
+        "Metaphase I",
+        "Prophase II",
+        "Prophase I",
+        "Anaphase II"
+      ],
+      "correct": 2,
+      "explanation": "Prophase I is specifically when homologous chromosomes pair up closely together (synapsis) and crossing over occurs between them — this is a defining, unique feature of Meiosis I, distinguishing it from the essentially mitotic-like division of Meiosis II."
+    },
+    {
+      "id": "5-2b",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A cross between two heterozygous individuals (Aa × Aa) for a simple dominant/recessive trait produces offspring in what expected genotype ratio?",
+      "choices": [
+        "3 AA : 1 aa",
+        "1 AA : 2 Aa : 1 aa",
+        "1 AA : 1 aa",
+        "All Aa"
+      ],
+      "correct": 1,
+      "explanation": "An Aa × Aa cross produces the classic 1:2:1 genotype ratio (1 AA : 2 Aa : 1 aa), which corresponds to a 3:1 phenotype ratio (3 showing the dominant phenotype [AA and Aa combined] : 1 showing the recessive phenotype [aa])."
+    },
+    {
+      "id": "5-3b",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Which of the following traits would be the LEAST likely candidate for polygenic inheritance?",
+      "choices": [
+        "Human height, which shows a continuous range of values across a population",
+        "A simple dominant/recessive trait showing only two sharply distinct phenotype categories with no intermediates",
+        "Human skin color, which shows a continuous range of shades",
+        "Crop yield, which varies continuously across many values"
+      ],
+      "correct": 1,
+      "explanation": "Polygenic traits are characterized by a CONTINUOUS range of phenotypes (since multiple genes each contribute a small additive effect), unlike simple dominant/recessive traits, which typically show a small number of sharply distinct phenotype categories controlled by a single gene — a trait showing only two sharp categories with no intermediates is the poorest fit for polygenic inheritance among these options."
+    },
+    {
+      "id": "5-4b",
+      "topic": "5.4 Linkage",
+      "stem": "Which of the following observations would provide the strongest evidence that two genes are linked, rather than assorting independently?",
+      "choices": [
+        "A dihybrid cross produces exactly equal numbers of all four possible phenotype combinations",
+        "A dihybrid cross produces offspring predominantly showing only the two PARENTAL phenotype combinations, with far fewer recombinant combinations than expected under independent assortment",
+        "A dihybrid cross produces offspring in a ratio close to 9:3:3:1",
+        "The two genes are located on different chromosomes"
+      ],
+      "correct": 1,
+      "explanation": "The signature of linkage is a strong excess of PARENTAL (non-recombinant) phenotype combinations compared to what independent assortment would predict, with recombinant combinations being much rarer — a 9:3:3:1 ratio, by contrast, is exactly what independent assortment predicts for two unlinked genes, and would argue AGAINST linkage."
+    },
+    {
+      "id": "5-5b",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Which statement about the general biological consequences of monosomy is most accurate?",
+      "choices": [
+        "Monosomy for most human chromosomes tends to be even more developmentally severe than trisomy for the same chromosome, often incompatible with survival",
+        "Monosomy has no biological consequences of any kind",
+        "Monosomy always produces the exact same phenotype as trisomy for the same chromosome",
+        "Monosomy only affects chromosome 21"
+      ],
+      "correct": 0,
+      "explanation": "For most human chromosomes, monosomy (missing an entire chromosome, and therefore every gene on it) tends to be even more severe developmentally than trisomy for the same chromosome, and is very often incompatible with survival to birth — this reflects how critical having at least the normal minimum dosage of most genes actually is for normal development."
+    },
+    {
+      "id": "5-40",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A pea plant with genotype Rr is crossed with another plant of unknown genotype. The cross produces offspring in a ratio of approximately 1 round : 1 wrinkled. What is the most likely genotype of the unknown parent?",
+      "choices": [
+        "RR",
+        "rr",
+        "Rr",
+        "This ratio is impossible to produce from any cross"
+      ],
+      "correct": 1,
+      "explanation": "A 1:1 ratio of round to wrinkled offspring is the expected outcome of a testcross: Rr × rr produces offspring that are 1/2 Rr (round) and 1/2 rr (wrinkled) — a 1:1 ratio specifically indicates the unknown parent is homozygous recessive (rr)."
+    },
+    {
+      "id": "5-41",
+      "topic": "5.1 Meiosis",
+      "stem": "Which best explains why meiosis, rather than mitosis, is used to produce gametes for sexual reproduction?",
+      "choices": [
+        "Meiosis halves the chromosome number, so that when two gametes combine during fertilization, the resulting offspring has the correct, normal diploid chromosome number, rather than double",
+        "Meiosis is simply a faster version of mitosis",
+        "Mitosis and meiosis produce identical results and either could be used",
+        "Mitosis would produce gametes with double the normal chromosome number"
+      ],
+      "correct": 0,
+      "explanation": "If gametes were produced by mitosis (which maintains chromosome number), combining two full diploid gametes at fertilization would double the chromosome number in each successive generation. Meiosis specifically halves chromosome number, ensuring that fertilization restores the normal diploid number rather than causing it to double every generation."
+    },
+    {
+      "id": "5-42",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Which of the following would be the best experimental evidence to distinguish codominance from incomplete dominance for a given trait?",
+      "choices": [
+        "Observing whether the heterozygote's phenotype is a blended intermediate (incomplete dominance) or shows both original phenotypes fully and separately, without blending (codominance)",
+        "Measuring the heterozygote's overall size",
+        "Counting the total number of offspring produced",
+        "Determining whether the trait is influenced by more than one gene"
+      ],
+      "correct": 0,
+      "explanation": "The defining diagnostic test between codominance and incomplete dominance is specifically whether the heterozygote's phenotype represents a genuine BLEND (incomplete dominance, like pink from red and white) or shows BOTH original phenotypes fully and distinguishably, without merging (codominance, like AB blood type)."
+    },
+    {
+      "id": "5-43",
+      "topic": "5.4 Linkage",
+      "stem": "A cross between two genes on the same chromosome produces the following data: 430 parental-type offspring, 70 recombinant-type offspring. What is the approximate recombination frequency between these two genes?",
+      "choices": [
+        "43%",
+        "70%",
+        "14%",
+        "86%"
+      ],
+      "correct": 2,
+      "explanation": "Recombination frequency = (recombinant offspring ÷ total offspring) × 100 = (70 ÷ 500) × 100 = 14%. This relatively low recombination frequency suggests these two genes are fairly closely linked on the same chromosome."
+    },
+    {
+      "id": "5-44",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "A prenatal genetic test reveals that a developing fetus has an extra copy of chromosome 18 in every cell. This condition most likely resulted from:",
+      "choices": [
+        "A mutation occurring after birth",
+        "Normal meiosis with no errors",
+        "Crossing over between non-homologous chromosomes",
+        "Nondisjunction during meiosis in one of the parents, producing a gamete with an extra copy of chromosome 18, which then combined with a normal gamete at fertilization"
+      ],
+      "correct": 3,
+      "explanation": "An extra copy of a chromosome present in EVERY cell of the fetus indicates the abnormality originated at fertilization, from a gamete (produced via nondisjunction during a parent's meiosis) carrying an extra copy of that chromosome — every cell in the resulting individual, having descended from that original fertilized egg via mitosis, would carry the same abnormal chromosome number."
+    },
+    {
+      "id": "5-45",
+      "topic": "5.1 Meiosis",
+      "stem": "Which best describes the relationship between meiosis and mitosis in terms of the number of divisions involved?",
+      "choices": [
+        "Both involve exactly the same number of divisions",
+        "Meiosis involves two sequential divisions (Meiosis I and II); mitosis involves a single division",
+        "Meiosis and mitosis are the same process with different names",
+        "Meiosis involves one division; mitosis involves two"
+      ],
+      "correct": 1,
+      "explanation": "Meiosis consists of two sequential divisions (Meiosis I, which reduces chromosome number, followed by Meiosis II, which separates sister chromatids), while mitosis consists of a single division that maintains the original chromosome number in each resulting cell."
+    },
+    {
+      "id": "5-46",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "In a monohybrid cross between two heterozygotes (Aa × Aa), what proportion of offspring would be expected to be heterozygous?",
+      "choices": [
+        "25%",
+        "75%",
+        "50%",
+        "100%"
+      ],
+      "correct": 2,
+      "explanation": "The 1:2:1 genotype ratio from an Aa × Aa cross means 1/4 AA, 2/4 (50%) Aa, and 1/4 aa — so 50% of offspring are expected to be heterozygous (Aa)."
+    },
+    {
+      "id": "5-47",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Which of the following correctly uses the sum rule in a genetics probability calculation?",
+      "choices": [
+        "Calculating the probability of an offspring being round AND yellow by multiplying two individual probabilities",
+        "Calculating the probability of an offspring being EITHER homozygous dominant OR heterozygous (two mutually exclusive outcomes both resulting in the dominant phenotype) by adding their individual probabilities together",
+        "The sum rule does not apply to genetics",
+        "Calculating the probability of two unrelated crosses occurring in the same year"
+      ],
+      "correct": 1,
+      "explanation": "The sum rule (adding probabilities) is used for calculating the combined probability of mutually exclusive outcomes — such as an offspring being either AA or Aa (two distinct genotypes that both happen to produce the same dominant phenotype), where you'd add the individual probabilities of each genotype to find the total probability of the dominant phenotype overall."
+    },
+    {
+      "id": "5-48",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "A father with blood type A (genotype IAi) and a mother with blood type B (genotype IBi) have children. Which blood types are possible among their offspring?",
+      "choices": [
+        "Only AB",
+        "A, B, AB, and O",
+        "Only O",
+        "Only A and B"
+      ],
+      "correct": 1,
+      "explanation": "Since both parents are heterozygous (IAi and IBi), their children could inherit various combinations: IAIB (type AB), IAi (type A), IBi (type B), or ii (type O) — all four ABO blood types are possible from this particular cross, illustrating how multiple alleles combined with codominance (between IA and IB) and simple dominance (of both over i) can produce a range of outcomes."
+    },
+    {
+      "id": "5-49",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Hemophilia is an X-linked recessive condition in humans. A man with hemophilia has children with a woman who is homozygous dominant (unaffected, non-carrier) for the trait. What is the expected outcome for their daughters?",
+      "choices": [
+        "All daughters will be affected by hemophilia",
+        "All daughters will be completely unaffected non-carriers",
+        "All daughters will be unaffected carriers, since they receive the father's recessive X allele and the mother's dominant X allele",
+        "Daughters cannot inherit X-linked traits from their father"
+      ],
+      "correct": 2,
+      "explanation": "Daughters receive one X chromosome from each parent. From their affected father (XaY), they receive his Xa (recessive) allele; from their unaffected, non-carrier mother (XAXA), they receive an XA (dominant) allele. This makes every daughter XAXa — unaffected (since the dominant allele masks the recessive one) but a carrier, since they do carry one copy of the recessive allele."
+    },
+    {
+      "id": "5-50",
+      "topic": "5.4 Linkage",
+      "stem": "Which of the following statements about linked genes and independent assortment is accurate?",
+      "choices": [
+        "Linked genes are never inherited together",
+        "Linked genes tend to violate the Law of Independent Assortment, being inherited together more often than would be expected by chance, unless separated by crossing over",
+        "Independent assortment only applies to genes on the same chromosome",
+        "Linked genes always follow the Law of Independent Assortment exactly"
+      ],
+      "correct": 1,
+      "explanation": "Independent assortment assumes genes are on different chromosomes and sort completely independently; linked genes, being physically located on the same chromosome, violate this assumption and tend to be inherited together more often than chance would predict, unless a crossover event separates them."
+    },
+    {
+      "id": "5-51",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Which of the following is the most likely outcome for a human embryo with monosomy of an autosome (a non-sex chromosome)?",
+      "choices": [
+        "No effect on development whatsoever",
+        "Normal, healthy development with no complications",
+        "Very often, failure to survive to birth, due to the severe consequences of missing an entire chromosome's worth of genes",
+        "Development of enhanced abilities compared to typical individuals"
+      ],
+      "correct": 2,
+      "explanation": "Autosomal monosomy (missing an entire chromosome, including all its genes) is generally severe and very often incompatible with survival to birth in humans, reflecting how critical having the correct minimum gene dosage is for normal development — this is markedly more severe, in most cases, than the corresponding trisomy for the same chromosome."
+    },
+    {
+      "id": "5-52",
+      "topic": "5.1 Meiosis",
+      "stem": "Which best describes the difference between Meiosis II and mitosis, in terms of the starting chromosome number of the cells involved?",
+      "choices": [
+        "Meiosis II begins with haploid cells; mitosis begins with diploid cells (in most organisms)",
+        "Neither process has a defined starting chromosome number",
+        "Meiosis II begins with diploid cells; mitosis begins with haploid cells",
+        "Both begin with the exact same chromosome number in all cases"
+      ],
+      "correct": 0,
+      "explanation": "Meiosis II operates on the already-haploid cells produced by Meiosis I, separating sister chromatids within an already-reduced chromosome set. Mitosis, by contrast, typically operates on diploid cells (in most multicellular organisms), maintaining that diploid number in the resulting daughter cells — this is why Meiosis II is often described as mechanically resembling mitosis, but starting from a different (haploid) chromosome number."
+    },
+    {
+      "id": "5-53",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "A cross between AABB and aabb parents (both homozygous, for two independently assorting genes) would be expected to produce F1 offspring with which genotype?",
+      "choices": [
+        "AaBb",
+        "aabb",
+        "AABB",
+        "A mixture of all possible genotypes"
+      ],
+      "correct": 0,
+      "explanation": "Since each parent is homozygous and can only contribute one type of allele for each gene (A and B from the AABB parent; a and b from the aabb parent), every F1 offspring from this cross would be AaBb, heterozygous for both genes — a classic Mendelian dihybrid cross starting point."
+    },
+    {
+      "id": "5-54",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Which best explains why polygenic traits typically show a continuous, bell-curve-like distribution across a population, rather than a few sharply distinct categories?",
+      "choices": [
+        "Each of the multiple genes involved contributes a small additive effect, and the many possible combinations of alleles across all the genes produce many intermediate phenotype values, creating a smooth, continuous range",
+        "Only two alleles exist for polygenic traits",
+        "Polygenic traits never show any variation within a population",
+        "Polygenic traits are entirely determined by environment, with no genetic component at all"
+      ],
+      "correct": 0,
+      "explanation": "Because multiple genes each contribute a small additive effect to a polygenic trait, the many possible combinations of alleles across all the contributing genes create a large number of possible intermediate phenotype values — statistically, this produces a smooth, continuous, often bell-curve-shaped distribution across a population, rather than the few sharply distinct categories seen in simple single-gene traits."
+    },
+    {
+      "id": "5-55",
+      "topic": "5.4 Linkage",
+      "stem": "A researcher performs a cross and finds a recombination frequency of 2% between two genes. Compared to a different pair of genes with a recombination frequency of 40%, which pair is more tightly linked?",
+      "choices": [
+        "The pair with 40% recombination frequency",
+        "The pair with 2% recombination frequency, since a lower recombination frequency indicates the genes are inherited together more consistently, suggesting they are closer together on the chromosome",
+        "Both pairs are equally linked",
+        "Recombination frequency has no relationship to linkage strength"
+      ],
+      "correct": 1,
+      "explanation": "A lower recombination frequency (2% vs. 40%) indicates fewer crossover events separating the two genes, meaning they are inherited together far more consistently — this is the signature of tighter (stronger) linkage, generally corresponding to genes located closer together on the chromosome."
+    },
+    {
+      "id": "5-56",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stem": "Which of the following would be the most direct way to determine whether a specific instance of nondisjunction occurred during a father's or a mother's meiosis?",
+      "choices": [
+        "Nondisjunction's parental origin can never be determined",
+        "Measuring the affected individual's height",
+        "Counting the total number of the affected individual's siblings",
+        "Using genetic markers to trace which parent's chromosome(s) contributed the extra or missing chromosome copy"
+      ],
+      "correct": 3,
+      "explanation": "By using genetic markers (specific, identifiable variations) that differ between the two parents' chromosomes, researchers can trace which parent's chromosome copies are present (and in what number) in the affected individual, allowing them to determine which parent's meiosis was the likely source of a nondisjunction event."
+    },
+    {
+      "id": "5-57",
+      "topic": "5.1 Meiosis",
+      "stem": "Which of the following would most directly disrupt independent assortment specifically, without necessarily affecting crossing over?",
+      "choices": [
+        "A mutation preventing cytokinesis",
+        "A mutation affecting only mitochondrial DNA",
+        "A mutation preventing DNA replication entirely",
+        "A mutation preventing proper random orientation of homologous pairs at the metaphase I plate"
+      ],
+      "correct": 3,
+      "explanation": "Independent assortment specifically depends on homologous pairs orienting randomly (independent of how other pairs orient) at the metaphase I plate. A mutation disrupting this specific random-orientation process would directly impair independent assortment, distinct from crossing over (a separate mechanism occurring earlier, during prophase I)."
+    },
+    {
+      "id": "5-58",
+      "topic": "5.2 Mendelian Genetics",
+      "stem": "Which best describes the purpose of using probability rules (product and sum rules) rather than large Punnett squares for complex genetics problems involving many genes?",
+      "choices": [
+        "Probability rules only work for single-gene problems",
+        "Punnett squares should never be used under any circumstances",
+        "Probability rules give fundamentally different, more accurate answers than Punnett squares",
+        "Probability rules produce the same correct answers as an equivalent large Punnett square, but are typically much faster and less error-prone for problems involving several independently assorting genes"
+      ],
+      "correct": 3,
+      "explanation": "Probability rules (product and sum rules) and Punnett squares are mathematically equivalent approaches that will always produce the same correct answer for a given cross — but for problems involving three or more independently assorting genes, a full Punnett square becomes extremely large and unwieldy (64 or more boxes), making probability rules a much faster and less error-prone approach."
+    },
+    {
+      "id": "5-59",
+      "topic": "5.5 Chromosomal Abnormalities",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Turner syndrome in humans results from monosomy of a sex chromosome, producing an individual with only a single X chromosome (genotype XO) rather than the typical XX or XY. Explain why this particular monosomy is compatible with survival, unlike most autosomal monosomies, which are typically not.",
+      "choices": [
+        "Sex chromosomes contain no genes relevant to survival",
+        "Turner syndrome individuals are not actually missing any genetic material",
+        "One of the two X chromosomes in typical XX individuals is normally inactivated (X-inactivation) in most cells anyway, so having only a single, fully active X chromosome represents a smaller effective loss of functional gene dosage than losing an entire autosome (where both copies are normally fully active) would represent",
+        "Autosomal monosomy is always completely survivable as well"
+      ],
+      "correct": 2,
+      "explanation": "This requires connecting sex chromosome biology to the dosage-sensitivity concept from earlier in the unit: in typical XX individuals, one of the two X chromosomes is normally inactivated (condensed and largely silenced) in most cells during development anyway, meaning XX individuals are already functioning with roughly one X chromosome's worth of active gene expression in most cells. An XO individual, having only one X to begin with (fully active, since there's no second X to inactivate), therefore represents a smaller relative loss of functional gene dosage compared to what would happen if an entire AUTOSOME (where both copies are normally fully active in all cells) were lost — helping explain why Turner syndrome, unlike most autosomal monosomies, is compatible with survival."
+    },
+    {
+      "id": "5-60",
+      "topic": "5.3 Non-Mendelian Inheritance",
+      "stem": "Which of the following traits would most likely be classified as showing simple, complete dominance (standard Mendelian inheritance), rather than one of the non-Mendelian patterns covered in this unit?",
+      "choices": [
+        "A trait influenced by many different genes, showing a continuous range of phenotypes",
+        "A trait where the heterozygote shows a blended, intermediate phenotype",
+        "A trait where the heterozygote fully expresses both original phenotypes simultaneously",
+        "A trait where the heterozygote phenotype exactly matches one of the two homozygous phenotypes, with no blending and no expression of the other phenotype"
+      ],
+      "correct": 3,
+      "explanation": "Simple, complete Mendelian dominance is defined by the heterozygote's phenotype exactly matching one of the two homozygous phenotypes (the dominant one), with the recessive phenotype fully masked and no blending or simultaneous expression occurring — this is distinct from incomplete dominance (blending) and codominance (both expressed simultaneously)."
+    }
+  ],
+  "6": [
+    {
+      "id": "6-1",
+      "topic": "6.1 DNA Replication",
+      "stem": "DNA replication is described as semiconservative. What does this mean?",
+      "choices": [
+        "Each new double helix consists entirely of newly synthesized DNA",
+        "DNA replication only occurs occasionally, conserving cellular resources",
+        "Each new double helix consists of one original (parental) strand and one newly synthesized strand",
+        "Each new double helix consists entirely of original DNA, with no new synthesis"
+      ],
+      "correct": 2,
+      "explanation": "Semiconservative replication means each resulting double helix is a hybrid: one strand is the original template strand (conserved from the parental molecule), and one strand is newly synthesized — this was experimentally confirmed by the classic Meselson-Stahl experiment."
+    },
+    {
+      "id": "6-2",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which enzyme is responsible for unwinding the DNA double helix during replication?",
+      "choices": [
+        "Primase",
+        "Ligase",
+        "DNA polymerase",
+        "Helicase"
+      ],
+      "correct": 3,
+      "explanation": "Helicase unwinds the double helix by breaking the hydrogen bonds between base pairs, separating the two strands so each can serve as a template for new strand synthesis."
+    },
+    {
+      "id": "6-3",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which enzyme synthesizes a short RNA primer, providing a starting point for DNA polymerase to begin adding nucleotides?",
+      "choices": [
+        "Primase",
+        "Topoisomerase",
+        "Ligase",
+        "Helicase"
+      ],
+      "correct": 0,
+      "explanation": "Primase synthesizes a short RNA primer complementary to the DNA template, providing the free 3' end that DNA polymerase requires to begin adding new DNA nucleotides — DNA polymerase cannot start synthesis entirely from scratch."
+    },
+    {
+      "id": "6-4",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which best explains why the lagging strand is synthesized in short fragments (Okazaki fragments) rather than continuously?",
+      "choices": [
+        "The lagging strand has a fundamentally different chemical structure than the leading strand",
+        "The lagging strand does not require any enzymes for synthesis",
+        "DNA polymerase can only synthesize in the 5' to 3' direction, and on the lagging strand this direction runs away from the opening replication fork, requiring repeated restarts",
+        "Ligase is unable to function on the lagging strand"
+      ],
+      "correct": 2,
+      "explanation": "Because DNA polymerase can only add nucleotides 5' to 3', and the two template strands are antiparallel, the lagging strand's synthesis direction runs opposite to how the replication fork is opening — requiring synthesis to restart repeatedly (each restart producing a new short Okazaki fragment) as more template becomes exposed, rather than proceeding continuously as on the leading strand."
+    },
+    {
+      "id": "6-5",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which enzyme joins Okazaki fragments together into a continuous strand?",
+      "choices": [
+        "Primase",
+        "RNA polymerase",
+        "Ligase",
+        "Helicase"
+      ],
+      "correct": 2,
+      "explanation": "Ligase seals the gaps between adjacent Okazaki fragments on the lagging strand, joining them into one continuous strand after the RNA primers have been removed and replaced with DNA."
+    },
+    {
+      "id": "6-6",
+      "topic": "6.1 DNA Replication",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher discovers a mutant DNA polymerase that lacks proofreading (error-correcting) ability but otherwise functions normally. Predict the effect on the overall mutation rate of cells using this enzyme, and explain the underlying mechanism.",
+      "choices": [
+        "DNA polymerase has no relationship to mutation rate",
+        "The mutation rate would decrease, since less proofreading means fewer changes are made overall",
+        "The mutation rate would likely increase, since normal DNA polymerase proofreading detects and corrects mismatched nucleotides during synthesis; without this error-correction, more replication errors would persist uncorrected in the newly synthesized strand",
+        "The mutation rate would be completely unaffected"
+      ],
+      "correct": 2,
+      "explanation": "This extends beyond the core AP curriculum's description of DNA polymerase's basic synthesis function to its lesser-emphasized proofreading role: normal DNA polymerase can detect when it has added an incorrectly paired nucleotide and remove/replace it before continuing synthesis, substantially reducing the final error rate. Without this proofreading function, incorrectly paired nucleotides that would normally be caught and corrected would instead persist in the final DNA sequence, resulting in a higher overall mutation rate for cells relying on this defective enzyme."
+    },
+    {
+      "id": "6-7",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which best describes the direction in which DNA polymerase adds new nucleotides to a growing strand?",
+      "choices": [
+        "3' to 5' exclusively",
+        "Both directions simultaneously",
+        "5' to 3' exclusively",
+        "Direction is random and unpredictable"
+      ],
+      "correct": 2,
+      "explanation": "DNA polymerase can only add new nucleotides to the growing strand's 3' end, meaning synthesis always proceeds in the 5' to 3' direction — this directional constraint is the underlying reason the leading and lagging strands must be synthesized differently."
+    },
+    {
+      "id": "6-8",
+      "topic": "6.2 Transcription",
+      "stem": "Which enzyme is responsible for synthesizing mRNA during transcription?",
+      "choices": [
+        "DNA polymerase",
+        "Helicase",
+        "Ligase",
+        "RNA polymerase"
+      ],
+      "correct": 3,
+      "explanation": "RNA polymerase is the enzyme responsible for transcription — synthesizing an mRNA strand complementary to the DNA template strand, using ribonucleotides (including uracil instead of thymine)."
+    },
+    {
+      "id": "6-9",
+      "topic": "6.2 Transcription",
+      "stem": "Which region of DNA does RNA polymerase bind to initiate transcription?",
+      "choices": [
+        "An exon",
+        "An intron",
+        "The promoter",
+        "The terminator"
+      ],
+      "correct": 2,
+      "explanation": "The promoter is a specific DNA sequence located upstream of a gene that RNA polymerase (often with the help of additional transcription factors) binds to initiate transcription at the correct starting location."
+    },
+    {
+      "id": "6-10",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following distinguishes introns from exons?",
+      "choices": [
+        "Introns are found only in prokaryotic genes",
+        "Introns are non-coding sequences removed during RNA splicing; exons are coding sequences that remain in the mature mRNA",
+        "Introns and exons are identical and interchangeable terms",
+        "Introns are coding sequences that remain in the mature mRNA; exons are removed during splicing"
+      ],
+      "correct": 1,
+      "explanation": "Exons are the coding sequences of a gene that remain in the final, mature mRNA transcript. Introns are non-coding, intervening sequences that are transcribed initially but then cut out and removed during RNA splicing, before the mature mRNA leaves the nucleus."
+    },
+    {
+      "id": "6-11",
+      "topic": "6.2 Transcription",
+      "stem": "Alternative splicing allows a single gene to produce multiple different proteins primarily by:",
+      "choices": [
+        "Changing the DNA sequence of the gene itself",
+        "Converting introns into functional proteins directly",
+        "Including or excluding different combinations of exons in the final mature mRNA",
+        "Duplicating the entire gene multiple times"
+      ],
+      "correct": 2,
+      "explanation": "Alternative splicing works by selectively including or excluding different exons in different combinations when producing the mature mRNA from a single pre-mRNA transcript — different combinations of included exons produce different final mRNA sequences, and therefore different final protein products, all from the same original gene and DNA sequence."
+    },
+    {
+      "id": "6-12",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following occurs during the elongation stage of transcription?",
+      "choices": [
+        "RNA polymerase binds the promoter",
+        "Introns are removed from the transcript",
+        "The completed mRNA transcript is released",
+        "RNA polymerase moves along the DNA template, synthesizing a complementary mRNA strand"
+      ],
+      "correct": 3,
+      "explanation": "Elongation is the stage during which RNA polymerase actively moves along the DNA template strand, synthesizing the growing complementary mRNA strand — this occurs after initiation (promoter binding) and before termination (transcript release)."
+    },
+    {
+      "id": "6-13",
+      "topic": "6.2 Transcription",
+      "stem": "Which correctly describes the modifications made to a eukaryotic pre-mRNA transcript before it leaves the nucleus?",
+      "choices": [
+        "No modifications occur to eukaryotic pre-mRNA",
+        "Only introns are added, with no other changes",
+        "The entire transcript is converted directly into protein within the nucleus",
+        "A 5' cap and 3' poly-A tail are added, and introns are removed via splicing"
+      ],
+      "correct": 3,
+      "explanation": "Eukaryotic pre-mRNA undergoes several processing steps before export from the nucleus: addition of a protective 5' cap, addition of a 3' poly-A tail (both helping protect the mRNA and aid in translation initiation/export), and removal of introns via splicing, leaving only exons joined together in the mature mRNA."
+    },
+    {
+      "id": "6-14",
+      "topic": "6.3 Translation",
+      "stem": "A codon consists of how many nucleotides?",
+      "choices": [
+        "One",
+        "Three",
+        "Four",
+        "Two"
+      ],
+      "correct": 1,
+      "explanation": "A codon is a sequence of three nucleotides in mRNA, which either specifies a particular amino acid or serves as a stop signal — this three-nucleotide grouping is the fundamental unit the genetic code is read in during translation."
+    },
+    {
+      "id": "6-15",
+      "topic": "6.3 Translation",
+      "stem": "Which start codon initiates translation and also codes for the amino acid methionine?",
+      "choices": [
+        "UAG",
+        "UAA",
+        "AUG",
+        "UGA"
+      ],
+      "correct": 2,
+      "explanation": "AUG is the standard start codon, marking the beginning of the coding sequence in an mRNA transcript, and it also codes for the amino acid methionine — meaning nearly all newly synthesized polypeptides begin with a methionine (though it's sometimes removed afterward)."
+    },
+    {
+      "id": "6-16",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following describes the function of tRNA during translation?",
+      "choices": [
+        "tRNA carries the genetic code copied from DNA out of the nucleus",
+        "tRNA carries a specific amino acid and uses its anticodon to pair with a complementary mRNA codon, ensuring the correct amino acid is added to the growing polypeptide",
+        "tRNA directly synthesizes new DNA",
+        "tRNA forms the structural and catalytic core of the ribosome"
+      ],
+      "correct": 1,
+      "explanation": "Each tRNA molecule carries one specific amino acid and has a three-nucleotide anticodon that pairs with a complementary codon on the mRNA, ensuring that the correct amino acid, matching that specific codon, gets added to the growing polypeptide chain in the correct sequence order."
+    },
+    {
+      "id": "6-17",
+      "topic": "6.3 Translation",
+      "stem": "The genetic code is described as \"degenerate.\" What does this mean?",
+      "choices": [
+        "The genetic code differs completely between species",
+        "Most amino acids are specified by more than one codon",
+        "Each codon specifies multiple different amino acids",
+        "The genetic code frequently produces errors"
+      ],
+      "correct": 1,
+      "explanation": "\"Degenerate\" (or redundant) specifically refers to the fact that, with 64 possible codons but only 20 amino acids, most amino acids can be specified by more than one codon — this is distinct from being ambiguous (which would mean one codon specifies multiple different amino acids, which does NOT occur)."
+    },
+    {
+      "id": "6-18",
+      "topic": "6.3 Translation",
+      "stem": "Translate the mRNA sequence 5'-AUG UUU GCC UAA-3' into its corresponding amino acid sequence, using standard codon assignments (UUU = Phe, GCC = Ala).",
+      "choices": [
+        "Met-Phe-Ala-Leu (four amino acids, with UAA coding for leucine)",
+        "Phe-Ala-Met",
+        "This sequence cannot be translated",
+        "Met-Phe-Ala-Stop (three amino acids, translation terminates at UAA)"
+      ],
+      "correct": 3,
+      "explanation": "Reading in codons: AUG = Met (start), UUU = Phe, GCC = Ala, UAA = Stop (no amino acid added; translation terminates here). The resulting polypeptide is Met-Phe-Ala, three amino acids total, with the stop codon ending translation rather than adding a fourth amino acid."
+    },
+    {
+      "id": "6-19",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following best explains why the near-universality of the genetic code across nearly all known organisms is considered strong evidence for a shared evolutionary origin of life?",
+      "choices": [
+        "It has no evolutionary significance at all",
+        "It shows that the genetic code changes constantly over time",
+        "If life had multiple, independent origins, there would be no clear reason to expect the same arbitrary codon-to-amino-acid assignments to arise independently and identically across vastly different, unrelated lineages",
+        "It proves that all organisms are genetically identical"
+      ],
+      "correct": 2,
+      "explanation": "The specific codon-to-amino-acid assignments are essentially arbitrary from a chemical standpoint — there's no fundamental chemical necessity forcing a particular codon to specify a particular amino acid. Finding the same arbitrary assignments shared across nearly all known life strongly suggests this code was established once, in a shared common ancestor, and has been conserved (with only minor exceptions) ever since — rather than arising independently multiple times, which would be an enormous coincidence given the code's arbitrary nature."
+    },
+    {
+      "id": "6-20",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following molecules is a structural and catalytic component of the ribosome itself?",
+      "choices": [
+        "DNA polymerase",
+        "rRNA",
+        "tRNA",
+        "mRNA"
+      ],
+      "correct": 1,
+      "explanation": "rRNA (ribosomal RNA) is a key structural and catalytic component of the ribosome, playing a direct role in catalyzing peptide bond formation between amino acids during translation — distinct from mRNA (which carries the genetic code) and tRNA (which delivers specific amino acids)."
+    },
+    {
+      "id": "6-21",
+      "topic": "6.4 Mutations",
+      "stem": "A mutation changes a codon from GGA (glycine) to GGC, which also codes for glycine. This is an example of:",
+      "choices": [
+        "A frameshift mutation",
+        "A nonsense mutation",
+        "A missense mutation",
+        "A silent mutation"
+      ],
+      "correct": 3,
+      "explanation": "A silent mutation occurs when a nucleotide change alters the specific codon but the resulting codon still specifies the SAME amino acid (a direct consequence of the genetic code's degeneracy) — resulting in no change to the protein's amino acid sequence."
+    },
+    {
+      "id": "6-22",
+      "topic": "6.4 Mutations",
+      "stem": "A mutation changes a codon that specifies an amino acid into a premature stop codon. This is an example of:",
+      "choices": [
+        "This scenario is not possible",
+        "A nonsense mutation",
+        "A silent mutation",
+        "A missense mutation"
+      ],
+      "correct": 1,
+      "explanation": "A nonsense mutation creates a premature stop codon where an amino-acid-specifying codon previously existed, causing translation to terminate early — typically producing a truncated, usually nonfunctional protein, since a significant portion of the intended sequence is never synthesized."
+    },
+    {
+      "id": "6-23",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following insertion/deletion mutations would NOT cause a frameshift?",
+      "choices": [
+        "Deletion of 2 nucleotides",
+        "Insertion of 6 nucleotides",
+        "Deletion of 4 nucleotides",
+        "Insertion of 1 nucleotide"
+      ],
+      "correct": 1,
+      "explanation": "A frameshift occurs when the number of nucleotides inserted or deleted is NOT a multiple of three, since this shifts how all downstream codons are grouped and read. Six nucleotides IS a multiple of three (two full codons), so inserting 6 nucleotides would add two whole amino acids without shifting the reading frame for anything downstream — the other options (1, 2, and 4 nucleotides) are not multiples of three and would each cause a frameshift."
+    },
+    {
+      "id": "6-24",
+      "topic": "6.4 Mutations",
+      "stem": "Which type of mutation would generally be expected to have the most severe overall effect on a protein's structure and function?",
+      "choices": [
+        "A silent mutation occurring in an intron",
+        "A missense mutation changing one amino acid located far from the protein's active site",
+        "A silent mutation",
+        "A frameshift mutation occurring early in the gene's coding sequence"
+      ],
+      "correct": 3,
+      "explanation": "A frameshift mutation occurring early in the coding sequence disrupts the reading frame for essentially the entire remainder of the gene, typically producing a largely scrambled, nonfunctional amino acid sequence downstream — generally more severe than a silent mutation (no effect) or a missense mutation affecting a single amino acid distant from the functionally critical active site (often minimal effect)."
+    },
+    {
+      "id": "6-25",
+      "topic": "6.4 Mutations",
+      "stem": "Sickle-cell disease results from a single nucleotide change causing one specific amino acid substitution in the hemoglobin protein. This is an example of:",
+      "choices": [
+        "A frameshift mutation",
+        "A silent mutation",
+        "A missense mutation",
+        "A nonsense mutation"
+      ],
+      "correct": 2,
+      "explanation": "Sickle-cell disease results from a missense mutation — a single nucleotide change causing one amino acid to be substituted for a different one in the resulting protein, in this case changing hemoglobin's structure in a way that significantly affects red blood cell shape and function."
+    },
+    {
+      "id": "6-26",
+      "topic": "6.4 Mutations",
+      "stem": "A mutagen is a substance or form of energy that:",
+      "choices": [
+        "Only affects RNA, never DNA",
+        "Repairs DNA damage",
+        "Increases the rate of mutation, either by directly damaging DNA or interfering with normal replication",
+        "Has no effect on DNA whatsoever"
+      ],
+      "correct": 2,
+      "explanation": "A mutagen is any chemical or physical agent (such as certain chemicals, UV radiation, or ionizing radiation) that increases the rate of mutation, either by directly damaging DNA structure or by interfering with the normal, accurate process of DNA replication."
+    },
+    {
+      "id": "6-27",
+      "topic": "6.4 Mutations",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A deletion removes 3 nucleotides from a gene's coding sequence, but the deletion spans the boundary between two adjacent codons, removing the last nucleotide of one codon and the first two nucleotides of the following codon. Predict the effect on the resulting protein, and explain your reasoning, even though exactly 3 nucleotides (a multiple of 3) were removed.",
+      "choices": [
+        "No frameshift would occur, and the protein would be entirely unaffected",
+        "The reading frame would definitely shift for the entire rest of the gene",
+        "This deletion would always create a nonsense mutation",
+        "Even though exactly 3 nucleotides were removed (avoiding a frameshift for everything further downstream), this specific deletion would still merge parts of two original codons into one new, different codon at the deletion site — likely changing one amino acid at that specific location, even while the reading frame for the REST of the downstream sequence remains intact"
+      ],
+      "correct": 3,
+      "explanation": "This is a genuinely subtle extension of the frameshift concept: while removing a multiple of 3 nucleotides preserves the reading frame for everything downstream of the deletion, it doesn't guarantee the protein is completely unaffected if the deletion doesn't align cleanly with codon boundaries. In this scenario, the deletion merges the remaining piece of one codon with the remaining piece of the next codon into a new, different three-nucleotide sequence — likely producing a different amino acid at that specific junction point, even though the frame for the rest of the sequence downstream remains correctly aligned. This illustrates that 'multiple of 3 = frameshift-free' doesn't automatically mean 'no amino acid sequence change at all' — the specific codon boundaries matter too."
+    },
+    {
+      "id": "6-28",
+      "topic": "6.5 Gene Regulation",
+      "stem": "In the lac operon, what is the normal role of the repressor protein when lactose is ABSENT?",
+      "choices": [
+        "It actively transcribes the operon's genes",
+        "It directly synthesizes lactose",
+        "It has no role when lactose is absent",
+        "It binds the operator, physically blocking RNA polymerase from transcribing the operon's genes"
+      ],
+      "correct": 3,
+      "explanation": "In the absence of lactose, the repressor protein is active and binds to the operator region, physically blocking RNA polymerase from transcribing the lac operon's genes — keeping those genes off when lactose (and therefore the need for lactose-digesting enzymes) isn't present."
+    },
+    {
+      "id": "6-29",
+      "topic": "6.5 Gene Regulation",
+      "stem": "What specifically happens to allow the lac operon to be transcribed when lactose IS present?",
+      "choices": [
+        "Lactose directly enters the ribosome",
+        "Lactose binds the repressor protein, changing its shape and causing it to release from the operator, removing the block to transcription",
+        "Lactose directly binds RNA polymerase, activating it",
+        "The promoter region is destroyed"
+      ],
+      "correct": 1,
+      "explanation": "When lactose is present, it binds to the repressor protein, causing a conformational change that makes the repressor release from the operator region — removing the physical block and allowing RNA polymerase to proceed with transcription of the lac operon's genes."
+    },
+    {
+      "id": "6-30",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which best describes DNA methylation's typical general effect on gene expression?",
+      "choices": [
+        "It has no effect on gene expression whatsoever",
+        "It generally silences gene expression by promoting tighter, less accessible chromatin packaging",
+        "It generally activates gene expression by loosening chromatin structure",
+        "It directly changes the underlying DNA sequence"
+      ],
+      "correct": 1,
+      "explanation": "DNA methylation (typically adding methyl groups to cytosine bases) generally silences gene expression by promoting tighter, more condensed chromatin packaging, making that region of DNA less accessible to the transcription machinery — an epigenetic mechanism, since it regulates expression without changing the underlying DNA sequence itself."
+    },
+    {
+      "id": "6-31",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following best explains why a liver cell and a neuron, despite containing identical DNA, are structurally and functionally so different?",
+      "choices": [
+        "They contain entirely different DNA sequences",
+        "They express different subsets of their identical genome, due to differential gene regulation, not differences in the underlying DNA sequence",
+        "Gene expression is identical in all human cell types",
+        "Only one of the two cell types actually contains DNA"
+      ],
+      "correct": 1,
+      "explanation": "Since virtually all cells in a multicellular organism share the same DNA sequence, cell type differences arise specifically from DIFFERENTIAL GENE EXPRESSION — different cell types activate different subsets of genes from the same shared genome, through various regulatory mechanisms (transcription factors, chromatin structure, epigenetic modifications), producing dramatically different resulting cell structures and functions."
+    },
+    {
+      "id": "6-32",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Heterochromatin is tightly packed, condensed chromatin. Based on this description, what would you predict about gene expression in heterochromatin regions?",
+      "choices": [
+        "Heterochromatin has no relationship to gene expression",
+        "Genes in heterochromatin regions are generally poorly expressed or silent, since tight packing limits access for transcription machinery",
+        "Heterochromatin only exists in prokaryotic cells",
+        "Genes in heterochromatin regions are generally highly expressed"
+      ],
+      "correct": 1,
+      "explanation": "Because heterochromatin is tightly, densely packed, it's generally inaccessible to the transcription machinery (RNA polymerase, transcription factors) that needs physical access to DNA to initiate transcription — genes located in heterochromatin regions are therefore typically poorly expressed or completely silent, in contrast to genes in the more loosely packed, accessible euchromatin."
+    },
+    {
+      "id": "6-33",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following represents post-translational regulation of gene expression?",
+      "choices": [
+        "Chemical modification of an already-synthesized protein, altering its activity or stability",
+        "DNA methylation of a promoter region",
+        "A transcription factor binding a gene's promoter",
+        "Alternative splicing of a pre-mRNA transcript"
+      ],
+      "correct": 0,
+      "explanation": "Post-translational regulation occurs AFTER a protein has already been synthesized, through mechanisms like chemical modification (e.g., phosphorylation), which can alter the protein's activity, stability, or localization — distinct from regulation occurring earlier in the process, such as at the level of transcription (transcription factors, DNA methylation) or post-transcriptional processing (alternative splicing)."
+    },
+    {
+      "id": "6-34",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which best explains the biological necessity of DNA replication occurring with high fidelity (accuracy)?",
+      "choices": [
+        "DNA replication accuracy only matters in prokaryotic cells",
+        "High fidelity is not actually important for cell function",
+        "Since DNA carries the genetic instructions needed for proper cell and organism function, errors introduced during replication (mutations) can be passed on to daughter cells and potentially disrupt protein function or cause disease",
+        "High fidelity replication prevents cells from ever dividing"
+      ],
+      "correct": 2,
+      "explanation": "Because DNA sequence directly determines protein sequence (and therefore function) through transcription and translation, replication errors (mutations) that aren't caught and corrected can be passed on to daughter cells, potentially disrupting normal protein function — this is why cells have evolved multiple mechanisms (like DNA polymerase's proofreading function) to keep replication highly accurate."
+    },
+    {
+      "id": "6-35",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following correctly compares transcription and DNA replication in terms of which strand(s) of DNA are used as a template?",
+      "choices": [
+        "Transcription uses both DNA strands simultaneously for every gene",
+        "DNA replication uses both strands as templates (one for each new strand); transcription typically uses only one strand as a template for a given gene",
+        "DNA replication uses only one strand as a template, while transcription uses both",
+        "Both processes use identical mechanisms with no differences"
+      ],
+      "correct": 1,
+      "explanation": "During DNA replication, BOTH original strands serve as templates simultaneously, each producing one new complementary strand (consistent with the semiconservative model). During transcription, however, only ONE of the two DNA strands (the template strand) is used to synthesize mRNA for any given gene — the other strand remains unused for that particular gene's transcription."
+    },
+    {
+      "id": "6-36",
+      "topic": "6.3 Translation",
+      "stem": "Which molecule directly carries the genetic information from the nucleus to the ribosome for protein synthesis in eukaryotic cells?",
+      "choices": [
+        "mRNA",
+        "tRNA",
+        "DNA",
+        "rRNA"
+      ],
+      "correct": 0,
+      "explanation": "mRNA (messenger RNA) is the molecule that carries the genetic information copied from DNA (via transcription) out of the nucleus to ribosomes in the cytoplasm, where it serves as the template read during translation to synthesize a corresponding protein."
+    },
+    {
+      "id": "6-37",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following mutation types would be expected to have the SMALLEST typical effect on protein function?",
+      "choices": [
+        "A nonsense mutation early in the gene",
+        "A missense mutation affecting a critical active site residue",
+        "A frameshift mutation early in the gene",
+        "A silent mutation"
+      ],
+      "correct": 3,
+      "explanation": "A silent mutation, by definition, results in NO change to the protein's amino acid sequence at all (since the new codon still specifies the same amino acid), making it the mutation type with essentially no direct effect on protein function among these options — in contrast to frameshift and early nonsense mutations (typically severe) and missense mutations affecting critical residues (potentially significant)."
+    },
+    {
+      "id": "6-38",
+      "topic": "6.5 Gene Regulation",
+      "stem": "A biologist finds that a specific gene is expressed at high levels in embryonic cells but becomes permanently silenced as those cells differentiate into mature, specialized cell types. Which mechanism would most plausibly explain this kind of stable, long-term silencing?",
+      "choices": [
+        "Random chance with no underlying mechanism",
+        "A missense mutation in the gene's coding sequence",
+        "Epigenetic modification, such as DNA methylation, which can stably silence a gene across many cell divisions without altering the underlying DNA sequence",
+        "Complete deletion of the gene from the genome"
+      ],
+      "correct": 2,
+      "explanation": "Stable, long-term gene silencing that persists across many cell divisions (as differentiated cells continue dividing) without altering the actual DNA sequence is a hallmark of epigenetic regulation, particularly DNA methylation — which can be faithfully copied to daughter cells during DNA replication, maintaining the silenced state across cell generations, unlike a temporary regulatory signal that would need to be continuously reapplied."
+    },
+    {
+      "id": "6-39",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which of the following would most directly result from a complete loss of helicase function in a cell?",
+      "choices": [
+        "Only RNA synthesis would be affected, not DNA replication",
+        "DNA replication would proceed normally, since helicase is not essential",
+        "DNA replication would be severely impaired or unable to proceed, since the double helix could not be properly unwound to expose template strands for synthesis",
+        "Helicase loss would only affect the leading strand, not the lagging strand"
+      ],
+      "correct": 2,
+      "explanation": "Since helicase is responsible for unwinding the double helix and separating the two strands, exposing them as templates for new strand synthesis, its complete loss would severely impair or halt DNA replication entirely, affecting both the leading and lagging strands (both of which require an unwound, accessible template to be synthesized from)."
+    },
+    {
+      "id": "6-40",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following would most directly prevent RNA polymerase from correctly initiating transcription of a particular gene?",
+      "choices": [
+        "A mutation located far downstream, well past the gene's stop codon",
+        "A mutation in the gene's promoter region that prevents RNA polymerase (and associated transcription factors) from binding properly",
+        "Normal levels of RNA polymerase in the cell",
+        "Normal availability of ribonucleotides in the cell"
+      ],
+      "correct": 1,
+      "explanation": "Since the promoter is the specific DNA sequence RNA polymerase (often with transcription factors) must bind to correctly initiate transcription, a mutation disrupting this region would directly impair the cell's ability to begin transcribing that particular gene — a mutation located well downstream of the gene itself would be much less likely to have this specific effect."
+    },
+    {
+      "id": "6-41",
+      "topic": "6.3 Translation",
+      "stem": "A tRNA molecule has the anticodon 3'-UAC-5'. Which mRNA codon would this tRNA be expected to pair with, and which amino acid does it likely carry?",
+      "choices": [
+        "5'-AUG-3', carrying methionine",
+        "This tRNA cannot pair with any codon",
+        "5'-GUA-3', carrying valine",
+        "5'-UAC-3', carrying tyrosine"
+      ],
+      "correct": 0,
+      "explanation": "Anticodon and codon pair in an antiparallel, complementary fashion (like DNA strands). The anticodon 3'-UAC-5' pairs with the complementary codon 5'-AUG-3' (A-U, U-A, C-G, read antiparallel) — and since AUG is the start codon specifying methionine, this tRNA would be expected to carry methionine."
+    },
+    {
+      "id": "6-42",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following mutations would be classified as a nonsense mutation?",
+      "choices": [
+        "A mutation with no effect on the resulting protein at all",
+        "A mutation inserting exactly three nucleotides, adding one new amino acid",
+        "A mutation changing one codon to another that specifies the same amino acid",
+        "A mutation changing an amino-acid-specifying codon into a premature stop codon"
+      ],
+      "correct": 3,
+      "explanation": "A nonsense mutation is specifically defined as a change that converts an amino-acid-specifying codon into a stop codon, causing translation to terminate prematurely and typically producing a truncated, often nonfunctional protein — distinct from silent mutations (no amino acid change), missense mutations (different amino acid, not a stop), and simple in-frame insertions (adding, not stopping, the sequence)."
+    },
+    {
+      "id": "6-43",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following best describes a transcription factor's general role in eukaryotic gene regulation?",
+      "choices": [
+        "Transcription factors have no relationship to gene expression",
+        "Transcription factors directly translate mRNA into protein",
+        "Transcription factors are a type of ribosomal RNA",
+        "Transcription factors are proteins that bind specific DNA sequences (such as promoters or enhancers) to help regulate whether and how much a particular gene is transcribed"
+      ],
+      "correct": 3,
+      "explanation": "Transcription factors are regulatory proteins that bind specific DNA sequences (such as promoters and enhancers) to help control whether, when, and how strongly a particular gene gets transcribed — they represent one of the major mechanisms of eukaryotic gene regulation, working alongside chromatin structure and epigenetic modifications."
+    },
+    {
+      "id": "6-44",
+      "topic": "6.1 DNA Replication",
+      "stem": "Single-strand binding proteins play which role during DNA replication?",
+      "choices": [
+        "They join Okazaki fragments together",
+        "They synthesize RNA primers",
+        "They synthesize new DNA nucleotides",
+        "They stabilize the separated single strands of DNA, preventing them from re-forming the double helix before replication is complete"
+      ],
+      "correct": 3,
+      "explanation": "After helicase separates the two DNA strands, single-strand binding proteins attach to and stabilize those exposed single strands, preventing them from spontaneously re-annealing (re-forming base pairs with each other) before DNA polymerase has a chance to use them as templates."
+    },
+    {
+      "id": "6-45",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following would most directly result from a mutation disrupting a gene's normal splicing signals, without affecting the gene's actual coding sequence?",
+      "choices": [
+        "Improper inclusion or exclusion of exons during splicing, potentially producing an abnormal mature mRNA and a dysfunctional protein, even though the underlying coding sequence itself is unchanged",
+        "Complete failure of DNA replication",
+        "No effect at all, since only the coding sequence matters for protein production",
+        "Immediate cell death in all cases"
+      ],
+      "correct": 0,
+      "explanation": "Since normal splicing depends on specific signal sequences marking intron/exon boundaries, a mutation disrupting these signals (even without changing the coding sequence itself) could cause exons to be improperly included or excluded, or introns to be improperly retained — potentially producing an abnormal, dysfunctional mature mRNA and protein despite the underlying gene sequence being otherwise intact."
+    },
+    {
+      "id": "6-46",
+      "topic": "6.3 Translation",
+      "stem": "Which best explains why the genetic code being nearly universal across almost all known organisms has practical significance for modern biotechnology, such as producing human insulin in bacteria?",
+      "choices": [
+        "Since nearly all organisms interpret the same codons as specifying the same amino acids, a human gene inserted into a bacterial cell can still be correctly transcribed and translated by the bacterium's own cellular machinery, producing a functional human protein",
+        "The genetic code must be completely reprogrammed for each new organism",
+        "Bacteria cannot perform transcription or translation at all",
+        "It has no practical significance"
+      ],
+      "correct": 0,
+      "explanation": "Because the genetic code is nearly universal, a bacterium's transcription and translation machinery will correctly interpret a human gene's codons the same way human cells would, allowing the bacterium to produce a correctly folded, functional human protein (like insulin) — this shared code is precisely what makes recombinant DNA technology (inserting genes from one species into another) practically feasible."
+    },
+    {
+      "id": "6-47",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following statements accurately compares the typical severity of missense versus nonsense mutations?",
+      "choices": [
+        "Neither mutation type has any functional consequence",
+        "Nonsense mutations always have less severe effects than missense mutations",
+        "Missense and nonsense mutations always have identical effects",
+        "Nonsense mutations, by causing premature termination and truncating the protein, are generally expected to have more severe effects than a typical missense mutation, which changes only a single amino acid while preserving the rest of the protein"
+      ],
+      "correct": 3,
+      "explanation": "Nonsense mutations generally tend to be more severe than a typical missense mutation, since truncating a protein (nonsense mutation) usually eliminates a large portion of its structure and function entirely, whereas a missense mutation changes just one amino acid while leaving the rest of the protein's sequence and, often, much of its structure/function intact — though the specific severity of any individual missense mutation does still depend on which amino acid changed and where."
+    },
+    {
+      "id": "6-48",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following best describes why gene regulation is considered essential for multicellular organisms, beyond simply turning genes on or off?",
+      "choices": [
+        "Gene regulation allows genetically identical cells to differentiate into diverse cell types with different structures and functions, and allows cells to dynamically respond to changing internal and external conditions",
+        "Gene regulation has no real biological importance",
+        "Gene regulation only matters in single-celled organisms",
+        "All genes in a multicellular organism are always expressed at identical levels in every cell"
+      ],
+      "correct": 0,
+      "explanation": "Gene regulation serves two major essential functions: it allows genetically identical cells (sharing the same DNA) to differentiate into vastly different specialized cell types by expressing different subsets of genes, and it allows individual cells to dynamically adjust their gene expression in response to changing conditions (nutrient availability, signaling molecules, stress) — both are essential for the complex, coordinated function of multicellular organisms."
+    },
+    {
+      "id": "6-49",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which of the following would occur if DNA polymerase attempted to synthesize a new strand without a primer already in place?",
+      "choices": [
+        "Synthesis could not begin, since DNA polymerase requires an existing free 3' end to extend from, which is normally provided by a primer",
+        "Synthesis would proceed normally with no issues",
+        "DNA polymerase would synthesize an entirely new primer itself",
+        "Helicase would compensate for the missing primer"
+      ],
+      "correct": 0,
+      "explanation": "DNA polymerase can only extend an existing strand by adding nucleotides to a free 3' end — it cannot initiate synthesis entirely from scratch. This is exactly why primase's role (synthesizing a short RNA primer to provide that initial free 3' end) is essential for replication to begin at all."
+    },
+    {
+      "id": "6-50",
+      "topic": "6.2 Transcription",
+      "stem": "Which best describes the relationship between a gene's DNA template strand and the resulting mRNA sequence?",
+      "choices": [
+        "The mRNA sequence is the exact reverse of the template strand with no base pairing involved",
+        "The mRNA sequence is complementary to the template strand (with U replacing T), effectively matching the sequence of the OTHER (non-template, or 'coding') DNA strand, except with U instead of T",
+        "The mRNA sequence has no relationship to either DNA strand",
+        "The mRNA sequence is chemically identical to the template strand"
+      ],
+      "correct": 1,
+      "explanation": "RNA polymerase builds mRNA as a complementary copy of the template strand, base-pairing appropriately (with U used in place of T). Because of this complementary relationship, the resulting mRNA sequence actually matches the sequence of the OTHER DNA strand (the non-template, or 'coding,' strand) almost exactly — except with U substituted for T."
+    },
+    {
+      "id": "6-51",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following would be the direct consequence of a defective ribosome that cannot properly bind mRNA?",
+      "choices": [
+        "This defect would have no effect on protein synthesis",
+        "Translation could not proceed normally, since the ribosome is essential for reading mRNA and synthesizing the corresponding protein",
+        "DNA replication would immediately halt",
+        "Transcription would be directly and immediately impaired"
+      ],
+      "correct": 1,
+      "explanation": "Since the ribosome is the molecular machine responsible for reading mRNA codons and catalyzing the addition of the corresponding amino acids during translation, a ribosome defective in its ability to bind mRNA would directly and severely impair translation, though this defect wouldn't be expected to directly affect the separate processes of transcription or DNA replication."
+    },
+    {
+      "id": "6-52",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following would be the most likely functional consequence of a missense mutation that changes a nonpolar amino acid to a polar, charged amino acid at a location buried within a protein's hydrophobic core?",
+      "choices": [
+        "This mutation would only affect the protein's primary structure, with no effect on higher-order structure",
+        "Likely disruption of the protein's normal folding, since a charged amino acid in a hydrophobic core is energetically unfavorable, potentially altering the protein's overall shape and function",
+        "No effect on protein structure or function",
+        "The protein would automatically gain a new, beneficial function"
+      ],
+      "correct": 1,
+      "explanation": "This connects mutation effects directly back to Unit 1's protein folding principles: introducing a charged, hydrophilic R-group into a location normally occupied by a nonpolar residue within a protein's hydrophobic core is energetically unfavorable, since charged groups typically favor proximity to water rather than a nonpolar environment — this can disrupt the normal hydrophobic clustering that stabilizes tertiary structure, potentially altering the protein's overall folded shape and impairing its function."
+    },
+    {
+      "id": "6-53",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which best describes the general relationship between chromatin accessibility and gene expression level?",
+      "choices": [
+        "More accessible regions are always associated with lower gene expression",
+        "More accessible (loosely packed, euchromatin) regions are generally associated with HIGHER gene expression; less accessible (tightly packed, heterochromatin) regions are generally associated with LOWER gene expression",
+        "Chromatin structure only matters in prokaryotic cells, which lack chromatin entirely",
+        "Chromatin accessibility has no relationship to gene expression level"
+      ],
+      "correct": 1,
+      "explanation": "This is a foundational relationship in eukaryotic gene regulation: loosely packed, accessible euchromatin generally allows transcription machinery easier physical access to DNA, correlating with higher gene expression, while tightly packed, inaccessible heterochromatin generally blocks that access, correlating with lower expression or complete silencing."
+    },
+    {
+      "id": "6-54",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which of the following best describes topoisomerase's general role during DNA replication (a component sometimes tested alongside helicase)?",
+      "choices": [
+        "It relieves the twisting/supercoiling stress that builds up ahead of the replication fork as the double helix is unwound",
+        "It seals gaps between Okazaki fragments",
+        "It has no relationship to DNA replication",
+        "It directly synthesizes new DNA nucleotides"
+      ],
+      "correct": 0,
+      "explanation": "As helicase unwinds the double helix, the DNA ahead of the replication fork experiences increasing torsional stress (supercoiling), since the helix is being unwound faster than the stress can naturally dissipate. Topoisomerase relieves this stress by temporarily cutting and rejoining the DNA strand, preventing the accumulating tension from stalling or damaging the replication process."
+    },
+    {
+      "id": "6-55",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following would most directly prevent a completed mRNA transcript from being properly exported from the nucleus in a eukaryotic cell?",
+      "choices": [
+        "Failure to add the 5' cap and 3' poly-A tail, both of which play roles in mRNA stability, processing, and export",
+        "Normal completion of transcription with all standard processing steps",
+        "Normal binding of ribosomes to the mRNA",
+        "Normal splicing of introns"
+      ],
+      "correct": 0,
+      "explanation": "The 5' cap and 3' poly-A tail added during eukaryotic pre-mRNA processing play important roles in protecting the mRNA from degradation, aiding in ribosome binding, and facilitating proper export from the nucleus — a failure to add these modifications would be expected to disrupt normal mRNA processing and export, rather than the normal completion of these processing steps."
+    },
+    {
+      "id": "6-56",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following best describes what happens when a ribosome encounters a stop codon during translation?",
+      "choices": [
+        "The ribosome continues translating indefinitely, ignoring the stop codon",
+        "The ribosome adds a special 'stop' amino acid to the growing chain",
+        "The stop codon is skipped and translation continues from the next codon",
+        "No tRNA anticodon normally matches a stop codon; instead, release factors bind, causing the completed polypeptide to be released and translation to terminate"
+      ],
+      "correct": 3,
+      "explanation": "Stop codons (UAA, UAG, UGA) don't have a corresponding tRNA with a matching anticodon; instead, they are recognized by release factor proteins, which bind at the stop codon and trigger release of the completed polypeptide chain from the ribosome, terminating translation for that particular mRNA."
+    },
+    {
+      "id": "6-57",
+      "topic": "6.4 Mutations",
+      "stem": "A student claims that all mutations are harmful to an organism. Evaluate this claim using your understanding of mutation types and their effects.",
+      "choices": [
+        "The claim is well-supported, since all mutations are nonsense mutations",
+        "The claim is not well-supported; silent mutations typically have no functional effect, and even some missense mutations can be neutral or, in rarer cases, beneficial, depending on the specific amino acid change and its location",
+        "The claim is well-supported; all mutations reduce organism fitness",
+        "Mutations never occur in living organisms"
+      ],
+      "correct": 1,
+      "explanation": "This claim overgeneralizes: silent mutations, by definition, produce no change in amino acid sequence and therefore typically have no functional consequence at all. Even missense mutations vary enormously in effect, from negligible (a conservative substitution in a non-critical region) to severe (disrupting an active site) to, occasionally, beneficial (providing a new or improved function) — mutations exist on a wide spectrum of effects, not a uniform 'always harmful' category."
+    },
+    {
+      "id": "6-58",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following would be the most direct experimental evidence that a specific promoter region's methylation status controls a particular gene's expression?",
+      "choices": [
+        "Observing that the cell has stopped producing ATP",
+        "Observing an unrelated gene's expression changing",
+        "Observing that removing methylation from the promoter (demethylation) correlates with increased transcription of that gene, while adding methylation correlates with decreased transcription",
+        "Observing that the gene's coding sequence has changed"
+      ],
+      "correct": 2,
+      "explanation": "The most direct evidence connecting a specific regulatory mechanism (promoter methylation) to gene expression would be demonstrating a clear, consistent CORRELATION (ideally with experimental manipulation, like artificially adding or removing methylation) between that specific methylation state and the resulting transcription level of that specific gene — showing the two are causally linked, not just observing an unrelated change."
+    },
+    {
+      "id": "6-59",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which of the following best explains why DNA replication must occur before mitosis, rather than during it?",
+      "choices": [
+        "DNA replication and mitosis have no relationship to each other",
+        "Mitosis's role is to accurately separate already-duplicated sister chromatids into two daughter cells; without prior replication (during S phase), there would be no duplicated chromatids for mitosis to properly separate",
+        "Mitosis actually performs DNA replication itself",
+        "DNA replication only occurs in prokaryotic cells, which don't undergo mitosis"
+      ],
+      "correct": 1,
+      "explanation": "This connects back to Unit 4's cell cycle content: mitosis's job is to accurately separate ALREADY-DUPLICATED sister chromatids into two genetically identical daughter cells — for this to work, DNA must already have been fully replicated beforehand (during S phase of interphase), providing the paired sister chromatids that mitosis then separates."
+    },
+    {
+      "id": "6-60",
+      "topic": "6.2 Transcription",
+      "stem": "Which of the following would most likely occur if a gene's terminator sequence were mutated, preventing RNA polymerase from properly recognizing it?",
+      "choices": [
+        "DNA replication would be directly affected",
+        "The gene's promoter would be destroyed",
+        "Transcription would never begin",
+        "RNA polymerase might continue transcribing past the normal termination point, potentially producing an abnormally long transcript"
+      ],
+      "correct": 3,
+      "explanation": "Since the terminator sequence signals RNA polymerase to stop transcription and release the completed transcript, a mutation disrupting this recognition could cause RNA polymerase to continue transcribing beyond the normal endpoint, potentially producing an abnormally long, improperly terminated transcript, without directly affecting the earlier initiation step (promoter recognition) or DNA replication (a separate, unrelated process)."
+    },
+    {
+      "id": "6-61",
+      "topic": "6.3 Translation",
+      "stem": "Which of the following best describes the general relationship between the number of codons in an mRNA's coding sequence and the number of amino acids in the resulting protein?",
+      "choices": [
+        "There is no relationship between codon number and amino acid number",
+        "The stop codon adds an additional amino acid to the protein",
+        "Each codon (except the stop codon) corresponds to one amino acid in the final protein, so the coding sequence length (excluding the stop codon) directly determines the number of amino acids",
+        "Each amino acid requires ten codons"
+      ],
+      "correct": 2,
+      "explanation": "Since each codon (other than the stop codon, which adds no amino acid) specifies exactly one amino acid, the number of amino acid-specifying codons in the coding sequence directly determines the number of amino acids in the resulting polypeptide — this straightforward one-to-one relationship (excluding the non-coding stop codon) is fundamental to translating between nucleotide sequence length and protein length."
+    },
+    {
+      "id": "6-62",
+      "topic": "6.4 Mutations",
+      "stem": "Which of the following mutation scenarios would be expected to have zero effect on the resulting protein's amino acid sequence?",
+      "choices": [
+        "A frameshift mutation in the coding sequence",
+        "A nonsense mutation in the coding sequence",
+        "A missense mutation in the coding sequence",
+        "A mutation occurring within an intron that gets removed during splicing"
+      ],
+      "correct": 3,
+      "explanation": "Since introns are removed from the pre-mRNA during splicing and never appear in the mature mRNA used for translation, a mutation occurring entirely within an intron (and not affecting nearby splicing signal sequences) would typically have no effect on the resulting protein's amino acid sequence, unlike mutations occurring within the coding sequence (exons) itself."
+    },
+    {
+      "id": "6-63",
+      "topic": "6.5 Gene Regulation",
+      "stem": "Which of the following best describes an enhancer, in the context of eukaryotic gene regulation?",
+      "choices": [
+        "An enzyme that directly synthesizes mRNA",
+        "A protein that always silences gene expression",
+        "A type of intron",
+        "A DNA sequence, sometimes located far from a gene, that transcription factors can bind to help increase that gene's transcription rate"
+      ],
+      "correct": 3,
+      "explanation": "An enhancer is a regulatory DNA sequence, sometimes located a considerable distance from the gene it regulates (even on a different part of the same chromosome, brought into proximity through DNA looping), that specific transcription factors can bind to help increase that gene's transcription rate — a key mechanism in the more elaborate, multi-layered gene regulation seen in eukaryotic cells."
+    },
+    {
+      "id": "6-64",
+      "topic": "6.1 DNA Replication",
+      "stem": "Which of the following best summarizes the overall purpose of DNA replication within the broader context of the cell cycle and organismal biology?",
+      "choices": [
+        "DNA replication has no broader biological purpose",
+        "To destroy old DNA and prevent any genetic continuity between generations",
+        "To randomly scramble the genome for variation",
+        "To accurately duplicate the genome so that each resulting daughter cell (after mitosis) receives a complete, accurate copy of the genetic information needed for normal function"
+      ],
+      "correct": 3,
+      "explanation": "DNA replication's overarching purpose is faithful genome duplication, ensuring that when a cell divides (via mitosis), each resulting daughter cell receives a complete, accurate copy of the genetic instructions needed for normal cellular structure and function — accuracy here is essential, since errors can be propagated to all future descendant cells."
+    },
+    {
+      "id": "6-65",
+      "topic": "6.5 Gene Regulation",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher discovers a small RNA molecule (a microRNA) that binds to a complementary sequence within a specific mRNA molecule's untranslated region, marking that mRNA for degradation before it can be translated. Explain how this represents a distinct regulatory mechanism from the DNA methylation and transcription factor mechanisms discussed elsewhere in this unit, in terms of WHERE in the gene expression process it acts.",
+      "choices": [
+        "This mechanism acts POST-transcriptionally — after mRNA has already been produced but before it's translated — regulating gene expression by controlling mRNA STABILITY/degradation, distinct from DNA methylation (which acts before transcription, at the chromatin level) and transcription factors (which act during transcription initiation)",
+        "This mechanism only affects DNA replication, not gene expression",
+        "This mechanism acts at the exact same stage as DNA methylation",
+        "This mechanism has no relationship to gene expression regulation at all"
+      ],
+      "correct": 0,
+      "explanation": "This introduces microRNA-mediated regulation as a genuine additional layer beyond the core mechanisms emphasized earlier in the unit, testing whether you can correctly place a novel regulatory mechanism within the broader gene expression pathway (before transcription → during transcription → after transcription/before translation → during/after translation). Since this mechanism acts on already-produced mRNA (marking it for degradation before translation can occur), it represents post-transcriptional regulation, mechanistically and temporally distinct from DNA methylation (acting earlier, at the level of chromatin accessibility before transcription even begins) and transcription factors (acting during the transcription initiation step itself) — illustrating that eukaryotic gene regulation truly does operate at multiple, mechanistically distinct stages, as emphasized in Section 6.5."
+    }
+  ],
+  "7": [
+    {
+      "id": "7-1",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "A whale's flipper, a bat's wing, and a human arm all share the same fundamental underlying bone arrangement, despite serving very different functions. This is an example of:",
+      "choices": [
+        "Convergent evolution",
+        "Analogous structures",
+        "Sympatric speciation",
+        "Homologous structures"
+      ],
+      "correct": 3,
+      "explanation": "Homologous structures share an underlying anatomical origin (the same fundamental bone arrangement, in this case) despite having diverged to serve different functions in different lineages — this pattern is strong evidence of shared common ancestry."
+    },
+    {
+      "id": "7-2",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "The wings of a butterfly and the wings of a bird serve a similar function (flight) but developed from entirely different underlying structures in unrelated lineages. This is an example of:",
+      "choices": [
+        "Analogous structures",
+        "Homologous structures",
+        "Reproductive isolation",
+        "Vestigial structures"
+      ],
+      "correct": 0,
+      "explanation": "Analogous structures share similar function but arose independently from different underlying origins — evidence of convergent evolution (similar environmental pressures independently producing a similar solution), not evidence of shared ancestry."
+    },
+    {
+      "id": "7-3",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which type of evidence for evolution involves comparing the developmental stages of embryos across different species?",
+      "choices": [
+        "Biogeography",
+        "The fossil record",
+        "Comparative embryology",
+        "Molecular biology"
+      ],
+      "correct": 2,
+      "explanation": "Comparative embryology examines similarities in the developmental stages of embryos across different species, which can reveal shared ancestry even between species whose adult forms look very different from one another."
+    },
+    {
+      "id": "7-4",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which best describes how molecular biology (DNA/protein sequence comparison) provides evidence for evolution?",
+      "choices": [
+        "All species have identical DNA sequences",
+        "DNA sequence has no relationship to evolutionary relatedness",
+        "Species with more similar DNA/protein sequences generally share a more recent common ancestor",
+        "Molecular data can only be used to study a single species at a time"
+      ],
+      "correct": 2,
+      "explanation": "Since mutations accumulate gradually over evolutionary time, species that diverged more recently from a shared common ancestor generally have had less time to accumulate independent differences, resulting in more similar DNA/protein sequences — this relationship allows sequence comparison to serve as a powerful tool for inferring relative relatedness."
+    },
+    {
+      "id": "7-5",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "The unique species found on isolated island chains, often closely related to species on the nearest mainland but distinct from them, is best explained by which type of evidence?",
+      "choices": [
+        "Biogeography",
+        "Comparative embryology",
+        "Homologous structures",
+        "Vestigial structures"
+      ],
+      "correct": 0,
+      "explanation": "Biogeography examines the geographic distribution of species and how that distribution reflects evolutionary history — island species being closely related to, but distinct from, mainland species reflects colonization from the mainland followed by independent evolutionary divergence in isolation."
+    },
+    {
+      "id": "7-6",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "A vestigial structure is best described as:",
+      "choices": [
+        "A structure that has lost most or all of its original function over evolutionary time, often reduced in size, reflecting an organism's evolutionary history",
+        "A structure that has no evolutionary history",
+        "A structure found only in the fossil record",
+        "A structure unique to a single species with no relatives"
+      ],
+      "correct": 0,
+      "explanation": "Vestigial structures are remnants of structures that served an important function in an ancestral lineage but have lost most or all of that function over evolutionary time (often becoming reduced in size) — like the human appendix or the reduced pelvic bones found in some whale species — providing evidence of an organism's evolutionary history and ancestry."
+    },
+    {
+      "id": "7-7",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following is required for natural selection to occur within a population?",
+      "choices": [
+        "Heritable variation must exist, and that variation must affect survival or reproductive success",
+        "All individuals must be genetically identical",
+        "Mutation must never occur",
+        "The population must be completely isolated geographically"
+      ],
+      "correct": 0,
+      "explanation": "Natural selection requires that heritable variation exists within a population, that this variation affects differential survival or reproduction (fitness), and that advantageous variants are passed on more often — without heritable, fitness-relevant variation, there's nothing for selection to act on."
+    },
+    {
+      "id": "7-8",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "A population of moths shows variation in wing color from very light to very dark. Following an environmental change that makes dark-colored tree bark much more common, the population's average wing color becomes progressively darker over subsequent generations, as dark-colored moths increasingly outcompete lighter-colored moths for survival. This is an example of:",
+      "choices": [
+        "Directional selection",
+        "Genetic drift",
+        "Stabilizing selection",
+        "Disruptive selection"
+      ],
+      "correct": 0,
+      "explanation": "Since the environmental change favored one specific extreme (dark coloration, for camouflage against dark bark) and the population's overall phenotype distribution shifted toward that favored extreme over time, this is a classic example of directional selection — similar to the famous peppered moth example associated with industrial pollution darkening tree bark."
+    },
+    {
+      "id": "7-9",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which type of selection favors both extreme phenotypes over the intermediate phenotype?",
+      "choices": [
+        "Stabilizing selection",
+        "Directional selection",
+        "Sexual selection exclusively",
+        "Disruptive selection"
+      ],
+      "correct": 3,
+      "explanation": "Disruptive selection favors both extreme phenotypes while selecting against the intermediate phenotype, which can increase overall phenotypic variation in a population and, in some cases, contribute to eventual speciation if the two favored extremes become reproductively isolated from each other."
+    },
+    {
+      "id": "7-10",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which best describes why natural selection is often said to act on phenotype, with allele frequency change being the resulting evolutionary consequence?",
+      "choices": [
+        "Because phenotype and allele frequency are always identical concepts",
+        "Because it's an organism's expressed, observable traits (phenotype) that directly determine its survival and reproductive success in a given environment, and it's THROUGH this differential survival/reproduction that the underlying allele frequencies shift in the population over generations",
+        "Because natural selection directly targets and destroys specific alleles",
+        "Because natural selection has no relationship to alleles at all"
+      ],
+      "correct": 1,
+      "explanation": "An organism's phenotype (its actual observable characteristics) is what directly interacts with the environment and determines survival/reproductive outcomes — allele frequency change is the downstream, population-level RESULT of this differential success being passed on (or not) to the next generation, not something selection targets directly."
+    },
+    {
+      "id": "7-11",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A trait's phenotype is influenced by both genetics and environment (a common scenario for many real traits). Explain why natural selection acting on this phenotype would be expected to be LESS effective at shifting allele frequencies compared to a phenotype determined entirely by genetics.",
+      "choices": [
+        "Since some of the observed phenotypic variation is due to environmental factors rather than genetic differences, selecting for a particular phenotype doesn't perfectly correlate with selecting for particular alleles — some individuals with favorable phenotypes (due to environment) may not actually carry favorable alleles, and vice versa, diluting the efficiency of selection at shifting allele frequencies",
+        "Environmental influence has no effect on selection's efficiency",
+        "Environmental influence always makes selection more effective, not less",
+        "Genetics and environment cannot both influence the same trait"
+      ],
+      "correct": 0,
+      "explanation": "This requires distinguishing phenotype from genotype at a more sophisticated level: when environment substantially contributes to phenotype, an individual's observed trait value doesn't perfectly reflect its underlying genetic contribution. Since natural selection can only 'see' and act on phenotype directly, some selection pressure gets effectively wasted on phenotypic variation that isn't actually heritable (environmentally caused), reducing how efficiently allele frequencies shift compared to a scenario where phenotype and genotype align perfectly — this is closely related to the real concept of heritability used in evolutionary biology."
+    },
+    {
+      "id": "7-12",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following would be the clearest real-world example of stabilizing selection?",
+      "choices": [
+        "A population of finches evolving progressively larger beaks following a drought",
+        "A population of bacteria becoming increasingly resistant to an antibiotic over successive generations",
+        "A single population splitting into two reproductively isolated groups",
+        "Human birth weight, where infants of average weight have the highest survival rate, with both very low and very high birth weights associated with increased risk"
+      ],
+      "correct": 3,
+      "explanation": "Human birth weight is a classic textbook example of stabilizing selection, since intermediate (average) birth weight is associated with the best survival outcomes, while selection acts against both extremes — reducing variation around the favored intermediate value, rather than shifting the population toward either extreme (directional selection) or increasing variation (disruptive selection)."
+    },
+    {
+      "id": "7-13",
+      "topic": "7.3 Population Genetics",
+      "stem": "In the Hardy-Weinberg equation p² + 2pq + q² = 1, what does the term 2pq represent?",
+      "choices": [
+        "The frequency of the homozygous recessive genotype",
+        "The frequency of the homozygous dominant genotype",
+        "The frequency of the dominant allele",
+        "The frequency of the heterozygous genotype"
+      ],
+      "correct": 3,
+      "explanation": "2pq represents the expected frequency of heterozygous individuals in a population at Hardy-Weinberg equilibrium — p² represents homozygous dominant frequency, and q² represents homozygous recessive frequency."
+    },
+    {
+      "id": "7-14",
+      "topic": "7.3 Population Genetics",
+      "stem": "In a population at Hardy-Weinberg equilibrium, 9% of individuals show the homozygous recessive phenotype. What is the frequency of the recessive allele (q)?",
+      "choices": [
+        "0.9",
+        "0.81",
+        "0.3",
+        "0.09"
+      ],
+      "correct": 2,
+      "explanation": "Since q² = 0.09 (9% homozygous recessive), q = √0.09 = 0.3. This is one of the most fundamental Hardy-Weinberg calculation steps: taking the square root of the observed homozygous recessive frequency to find the recessive allele frequency."
+    },
+    {
+      "id": "7-15",
+      "topic": "7.3 Population Genetics",
+      "stem": "Using the same population from the previous question (q = 0.3), what is the frequency of the dominant allele (p)?",
+      "choices": [
+        "0.09",
+        "0.3",
+        "0.6",
+        "0.7"
+      ],
+      "correct": 3,
+      "explanation": "Since p + q = 1, and q = 0.3, then p = 1 − 0.3 = 0.7."
+    },
+    {
+      "id": "7-16",
+      "topic": "7.3 Population Genetics",
+      "stem": "Using p = 0.7 and q = 0.3 from the previous questions, what is the expected frequency of heterozygous individuals in this population?",
+      "choices": [
+        "0.42",
+        "0.49",
+        "0.21",
+        "0.09"
+      ],
+      "correct": 0,
+      "explanation": "2pq = 2 × 0.7 × 0.3 = 0.42, or 42% of the population expected to be heterozygous, assuming Hardy-Weinberg equilibrium."
+    },
+    {
+      "id": "7-17",
+      "topic": "7.3 Population Genetics",
+      "stem": "Which of the following is NOT one of the five conditions required for a population to remain in Hardy-Weinberg equilibrium?",
+      "choices": [
+        "A very large population size (no genetic drift)",
+        "No mutation",
+        "Random mating",
+        "Frequent natural selection favoring specific traits"
+      ],
+      "correct": 3,
+      "explanation": "Hardy-Weinberg equilibrium specifically requires the ABSENCE of natural selection (along with no mutation, random mating, no gene flow, and a very large population size to avoid genetic drift) — a population actively experiencing natural selection is, by definition, NOT meeting the conditions for Hardy-Weinberg equilibrium."
+    },
+    {
+      "id": "7-18",
+      "topic": "7.3 Population Genetics",
+      "stem": "A researcher finds that a population's observed genotype frequencies closely match what Hardy-Weinberg equilibrium predicts, based on the population's observed allele frequencies. What can the researcher tentatively conclude?",
+      "choices": [
+        "No further study of this population is possible",
+        "This population is not showing strong evidence of deviation from equilibrium, suggesting the five Hardy-Weinberg conditions may be approximately met (or that evolutionary forces are roughly balancing out)",
+        "The population must consist of only two individuals",
+        "The population is definitely undergoing rapid evolution"
+      ],
+      "correct": 1,
+      "explanation": "When observed genotype frequencies closely match Hardy-Weinberg predictions, this suggests the population is not showing strong evidence of active evolutionary change at that particular gene (or that any evolutionary forces present happen to be roughly balancing each other out) — though this doesn't definitively prove all five conditions are perfectly met, since some deviations could be too small to easily detect, or forces could be counteracting each other."
+    },
+    {
+      "id": "7-19",
+      "topic": "7.3 Population Genetics",
+      "stem": "A population has an allele frequency of p = 0.8 for the dominant allele. What percentage of the population would be expected to show the DOMINANT phenotype, assuming Hardy-Weinberg equilibrium?",
+      "choices": [
+        "64%",
+        "96%",
+        "80%",
+        "4%"
+      ],
+      "correct": 1,
+      "explanation": "The dominant phenotype includes both homozygous dominant (p²) and heterozygous (2pq) individuals, since both genotypes display the dominant phenotype. With p = 0.8, q = 0.2: p² = 0.64, 2pq = 2(0.8)(0.2) = 0.32. Dominant phenotype frequency = p² + 2pq = 0.64 + 0.32 = 0.96, or 96%. (Alternatively: 1 − q² = 1 − 0.04 = 0.96.)"
+    },
+    {
+      "id": "7-20",
+      "topic": "7.3 Population Genetics",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A population of 1,000 individuals is at Hardy-Weinberg equilibrium with q = 0.2 for a recessive allele. A researcher removes all 40 homozygous recessive individuals from the population (through a selective event) before reproduction occurs, leaving the remaining 960 individuals to mate randomly. Calculate the new allele frequencies in the gene pool immediately after this selective removal, before any new mating occurs.",
+      "choices": [
+        "This scenario cannot be analyzed using Hardy-Weinberg concepts",
+        "q remains exactly 0.2, since removing individuals doesn't affect allele frequency",
+        "q decreases to approximately 0.167, since removing all homozygous recessive individuals removes a disproportionate number of recessive alleles relative to their contribution before the removal",
+        "q increases to 0.5"
+      ],
+      "correct": 2,
+      "explanation": "This requires tracking actual allele counts through a selection event, extending beyond the standard equilibrium calculation: initially, with q = 0.2, homozygous recessive individuals number 1000 × 0.04 = 40 (matching the removal described), heterozygous individuals number 1000 × 2(0.8)(0.2) = 320, and homozygous dominant individuals number 1000 × 0.64 = 640. After removing the 40 homozygous recessive individuals, 960 remain: 640 AA + 320 Aa. Total alleles = 960 × 2 = 1920. Recessive (a) alleles remaining = 320 × 1 = 320 (each Aa individual contributes one a allele; AA individuals contribute none). New q = 320/1920 ≈ 0.167. Notice this is a real but relatively modest drop from the original 0.2, even though ALL homozygous recessive individuals were removed — most copies of the recessive allele were actually 'hiding' in heterozygotes, which this selection event never touched. This is precisely why selection against a fully recessive allele is slow to eliminate it from a population: once an allele is rare, most of its copies exist in unaffected heterozygous carriers, shielded from direct selection."
+    },
+    {
+      "id": "7-21",
+      "topic": "7.4 Speciation",
+      "stem": "Two populations of the same species become separated by a newly formed mountain range, preventing gene flow between them. Over many generations, they accumulate independent genetic differences and eventually can no longer successfully interbreed. This is an example of:",
+      "choices": [
+        "Genetic drift with no speciation",
+        "Allopatric speciation",
+        "Sympatric speciation",
+        "Postzygotic isolation without speciation"
+      ],
+      "correct": 1,
+      "explanation": "Allopatric speciation specifically involves a geographic barrier (in this case, a mountain range) physically separating populations, preventing gene flow and allowing independent divergence until reproductive isolation is achieved — this is the classic, most commonly cited mechanism of speciation."
+    },
+    {
+      "id": "7-22",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following describes a prezygotic reproductive barrier?",
+      "choices": [
+        "A hybrid offspring that is produced but is sterile",
+        "Two species that breed at different times of year, preventing mating from occurring at all",
+        "Reduced survival of hybrid offspring after birth",
+        "A hybrid embryo that fails to develop properly after fertilization"
+      ],
+      "correct": 1,
+      "explanation": "A prezygotic barrier prevents mating or fertilization from occurring in the first place — temporal isolation (breeding at different times) is a classic example. The other options all describe postzygotic barriers, which occur AFTER fertilization has already taken place."
+    },
+    {
+      "id": "7-23",
+      "topic": "7.4 Speciation",
+      "stem": "A mule (offspring of a horse and a donkey) can be produced through successful mating and fertilization, but mules are sterile and cannot reproduce. This is an example of which type of reproductive barrier?",
+      "choices": [
+        "Habitat isolation (prezygotic)",
+        "Reduced hybrid fertility (postzygotic)",
+        "Gametic isolation (prezygotic)",
+        "Temporal isolation (prezygotic)"
+      ],
+      "correct": 1,
+      "explanation": "Since mating and fertilization DO successfully occur (a viable hybrid offspring, the mule, is produced), but that offspring is unable to reproduce, this is a postzygotic barrier specifically classified as reduced hybrid fertility — occurring after fertilization, unlike prezygotic barriers, which would have prevented mating/fertilization from happening at all."
+    },
+    {
+      "id": "7-24",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following mechanisms is most closely associated with sympatric speciation via polyploidy, particularly common in plants?",
+      "choices": [
+        "Behavioral changes in mating displays",
+        "Gradual genetic divergence over millions of years due to geographic isolation",
+        "Geographic separation by a river",
+        "A chromosome number error resulting in offspring with a different chromosome number than the parent population, immediately creating reproductive isolation without any geographic separation"
+      ],
+      "correct": 3,
+      "explanation": "Polyploidy (having more than the normal two full sets of chromosomes) can immediately create reproductive isolation from the original parent population, since offspring with a different chromosome number generally cannot successfully interbreed with the original population — this can occur suddenly, within the same geographic area (sympatric), rather than requiring gradual divergence via geographic separation (allopatric)."
+    },
+    {
+      "id": "7-25",
+      "topic": "7.4 Speciation",
+      "stem": "Two bird species living in the same geographic area have evolved distinctly different courtship dance patterns, and females of each species only respond to their own species' specific dance pattern. This is an example of:",
+      "choices": [
+        "Behavioral isolation",
+        "Gametic isolation",
+        "Habitat isolation",
+        "Reduced hybrid viability"
+      ],
+      "correct": 0,
+      "explanation": "Behavioral isolation is a prezygotic barrier involving differences in courtship rituals, mating calls, or other behaviors that prevent successful mating between different species, even when they occupy the same physical habitat — this is exactly the scenario described here, distinct from habitat isolation (physically occupying different areas within a shared region) or postzygotic barriers (which occur after successful mating/fertilization)."
+    },
+    {
+      "id": "7-26",
+      "topic": "7.4 Speciation",
+      "stem": "Which best distinguishes allopatric from sympatric speciation?",
+      "choices": [
+        "There is no meaningful difference between the two",
+        "Allopatric speciation requires geographic separation; sympatric speciation occurs without geographic separation",
+        "Sympatric speciation always occurs faster than allopatric speciation",
+        "Allopatric speciation only occurs in plants"
+      ],
+      "correct": 1,
+      "explanation": "The core distinguishing feature is the presence or absence of geographic separation: allopatric speciation requires a physical geographic barrier preventing gene flow, while sympatric speciation occurs without such separation, through other mechanisms like polyploidy, strong disruptive selection, or behavioral/temporal isolation within the same shared geographic area."
+    },
+    {
+      "id": "7-27",
+      "topic": "7.4 Speciation",
+      "stem": "Which statement accurately reflects the relationship between geographic separation and speciation?",
+      "choices": [
+        "Geographic separation is a MECHANISM that can lead to speciation by preventing gene flow, but speciation itself is not complete until true reproductive isolation has developed, even if the populations were later reunited",
+        "Geographic separation has no relationship to speciation whatsoever",
+        "All geographically separated populations automatically become separate species within one generation",
+        "Geographic separation alone is sufficient to define two populations as separate species"
+      ],
+      "correct": 0,
+      "explanation": "Geographic separation, in allopatric speciation, is the mechanism that stops gene flow and creates the OPPORTUNITY for independent divergence — but speciation itself isn't considered complete until genuine reproductive isolation has developed (meaning the populations could no longer successfully interbreed even if physically reunited), which typically requires substantial time and independent evolutionary change, not just physical separation alone."
+    },
+    {
+      "id": "7-28",
+      "topic": "7.5 Phylogeny",
+      "stem": "On a phylogenetic tree, what does a branch point (node) represent?",
+      "choices": [
+        "A random point with no biological meaning",
+        "A common ancestor shared by all lineages branching off from that point",
+        "The extinction of a species",
+        "The exact current population size of a species"
+      ],
+      "correct": 1,
+      "explanation": "Each node (branch point) on a phylogenetic tree represents a common ancestor shared by all the descendant lineages that branch off from that specific point — this is the fundamental unit of information a phylogenetic tree conveys about evolutionary relationships."
+    },
+    {
+      "id": "7-29",
+      "topic": "7.5 Phylogeny",
+      "stem": "On a phylogenetic tree, which factor determines how closely related two species are to each other?",
+      "choices": [
+        "How recent their shared common ancestor (node) is",
+        "How physically similar they look to each other",
+        "The alphabetical order of their scientific names",
+        "Their left-to-right visual position on the page"
+      ],
+      "correct": 0,
+      "explanation": "Relatedness on a phylogenetic tree is determined specifically by the RECENCY of the shared common ancestor (node) — a more recent shared node indicates a closer relationship. Visual left-right position, physical similarity, and naming order are all NOT valid indicators of relatedness on a properly constructed tree."
+    },
+    {
+      "id": "7-30",
+      "topic": "7.5 Phylogeny",
+      "stem": "A phylogenetic tree shows that Species P and Species Q share a common ancestor dated to 2 million years ago, while Species P and Species R share a common ancestor dated to 15 million years ago. Which pair is more closely related?",
+      "choices": [
+        "This cannot be determined from the information given",
+        "P and Q, since their shared ancestor is more recent",
+        "Both pairs are equally related",
+        "P and R, since their shared ancestor is older"
+      ],
+      "correct": 1,
+      "explanation": "P and Q are more closely related, since they share a more RECENT common ancestor (2 million years ago) than P and R do (15 million years ago) — less evolutionary time has passed since P and Q diverged, indicating a closer relationship."
+    },
+    {
+      "id": "7-31",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following data types is commonly used to construct modern phylogenetic trees?",
+      "choices": [
+        "Only the geographic location where each species currently lives",
+        "Random assignment with no supporting data",
+        "Only the physical size of each species",
+        "DNA/protein sequence comparisons between species"
+      ],
+      "correct": 3,
+      "explanation": "Modern phylogenetic trees are commonly constructed using DNA and protein sequence comparisons between species, since the degree of sequence similarity/difference provides quantifiable data reflecting how much evolutionary time has likely passed since species diverged from a shared ancestor — though morphological (physical structure) data is also used, particularly for extinct species known only from fossils."
+    },
+    {
+      "id": "7-32",
+      "topic": "7.5 Phylogeny",
+      "stem": "A student examines a phylogenetic tree and concludes that two species drawn adjacent to each other, side by side, must be very closely related. Evaluate this conclusion.",
+      "choices": [
+        "The conclusion is not necessarily well-supported; visual left-right adjacency on a tree diagram does not by itself indicate relatedness — only the recency of the species' shared common ancestor (node) determines actual relatedness",
+        "The conclusion is correct only for plant species",
+        "Phylogenetic trees cannot be used to draw any conclusions about relatedness",
+        "The conclusion is well-supported, since visual adjacency always indicates close relatedness"
+      ],
+      "correct": 0,
+      "explanation": "This tests the common misconception directly: branches on a tree can be rotated around any node without changing the tree's actual meaning, meaning visual left-right adjacency is essentially arbitrary and doesn't reflect relatedness — only the actual branching pattern (which node species share, and how recent that node is) carries real evolutionary information."
+    },
+    {
+      "id": "7-33",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "The human appendix, believed to be a reduced remnant of a larger structure used for digesting cellulose in ancestral species, is an example of:",
+      "choices": [
+        "A homologous structure shared with all mammals",
+        "A structure with no evolutionary explanation",
+        "An analogous structure",
+        "A vestigial structure"
+      ],
+      "correct": 3,
+      "explanation": "The human appendix is a classic example of a vestigial structure — believed to be a reduced remnant of a larger structure that served a more significant digestive function in ancestral species, now retaining only a fraction (or none) of its original function."
+    },
+    {
+      "id": "7-34",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following would be considered the 'fitness' of an organism, in evolutionary biology terms?",
+      "choices": [
+        "An organism's lifespan alone, regardless of reproduction",
+        "An organism's physical strength or speed alone",
+        "An organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation, relative to other individuals in the population",
+        "An organism's size compared to other members of its species"
+      ],
+      "correct": 2,
+      "explanation": "In evolutionary biology, 'fitness' specifically refers to an organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation compared to other individuals — not simply physical traits like strength, speed, size, or even lifespan in isolation from reproductive outcome."
+    },
+    {
+      "id": "7-35",
+      "topic": "7.3 Population Genetics",
+      "stem": "A population has q² = 0.36 for a recessive trait. Calculate p² (homozygous dominant frequency).",
+      "choices": [
+        "0.36",
+        "0.16",
+        "0.64",
+        "0.04"
+      ],
+      "correct": 1,
+      "explanation": "q² = 0.36, so q = √0.36 = 0.6, and p = 1 − 0.6 = 0.4. Therefore p² = 0.4² = 0.16."
+    },
+    {
+      "id": "7-36",
+      "topic": "7.4 Speciation",
+      "stem": "Two species of sea urchins release sperm and eggs into open water for external fertilization, but molecular incompatibilities between their gametes prevent successful fertilization from occurring even when sperm and egg meet. This is an example of:",
+      "choices": [
+        "Habitat isolation",
+        "Behavioral isolation",
+        "Reduced hybrid viability",
+        "Gametic isolation"
+      ],
+      "correct": 3,
+      "explanation": "Gametic isolation is a prezygotic barrier involving molecular or chemical incompatibilities between sperm and egg that prevent fertilization from occurring successfully, even when gametes from two different species do come into physical contact with each other."
+    },
+    {
+      "id": "7-37",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following would provide the strongest evidence that two species are closely related, based on the principles discussed in this unit?",
+      "choices": [
+        "Both species live on the same continent",
+        "Both species have very similar DNA sequences for multiple genes, and share a recent common ancestor on a phylogenetic tree constructed from that data",
+        "Both species were discovered in the same calendar year",
+        "Both species happen to be similar in overall body size"
+      ],
+      "correct": 1,
+      "explanation": "High DNA sequence similarity across multiple genes, combined with a recent shared common ancestor on a properly constructed phylogenetic tree, together represent strong, converging molecular and analytical evidence of close relatedness — much stronger evidence than superficial factors like shared geography, similar body size, or coincidental discovery timing, none of which directly indicate evolutionary relatedness."
+    },
+    {
+      "id": "7-38",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which of the following would be the best example of a 'transitional form' documented in the fossil record?",
+      "choices": [
+        "A fossil that is chemically identical to a living organism today",
+        "A fossil of a modern human",
+        "A fossil showing a combination of characteristics intermediate between an ancestral group and a more derived (modern) group, such as fossils showing features intermediate between fish and early tetrapods",
+        "A fossil showing no relationship to any other known species"
+      ],
+      "correct": 2,
+      "explanation": "Transitional fossils show a combination of characteristics intermediate between an ancestral group and a more derived group, documenting gradual evolutionary change over time — fossils showing features intermediate between fish and early tetrapods (four-limbed land vertebrates) are a well-known, heavily studied example of this kind of evidence."
+    },
+    {
+      "id": "7-39",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following scenarios would most directly demonstrate disruptive selection?",
+      "choices": [
+        "A population where only average-sized individuals survive to reproduce",
+        "A population where the largest individuals consistently outcompete all others",
+        "A population showing no variation in beak size at all",
+        "A population of birds where both very small-beaked and very large-beaked individuals have a feeding advantage over intermediate-beaked individuals, due to two distinct available food sources"
+      ],
+      "correct": 3,
+      "explanation": "Disruptive selection is specifically characterized by BOTH extreme phenotypes being favored over the intermediate — a population where two distinct available food sources favor both very small and very large beaks (each specialized for a different food source), while intermediate beaks are disadvantaged at both, is a textbook disruptive selection scenario."
+    },
+    {
+      "id": "7-40",
+      "topic": "7.3 Population Genetics",
+      "stem": "Which of the following would violate the 'random mating' condition required for Hardy-Weinberg equilibrium?",
+      "choices": [
+        "A very large population size",
+        "Individuals preferentially choosing mates with a similar phenotype for a particular trait (assortative mating)",
+        "Individuals mating completely randomly with respect to the trait in question",
+        "The complete absence of mutation"
+      ],
+      "correct": 1,
+      "explanation": "Assortative mating — individuals preferentially choosing mates based on similarity (or dissimilarity) for a particular trait, rather than mating completely at random with respect to that trait — directly violates the random mating condition required for Hardy-Weinberg equilibrium, and can shift genotype frequencies away from what the equilibrium equations would predict, even without changing overall allele frequencies."
+    },
+    {
+      "id": "7-41",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following best explains why postzygotic barriers, despite occurring after fertilization has already taken place, still contribute meaningfully to reproductive isolation between species?",
+      "choices": [
+        "Postzygotic barriers have no actual effect on reproductive isolation",
+        "Postzygotic barriers always occur before any mating attempt",
+        "Postzygotic barriers only matter for plant species",
+        "By reducing hybrid viability or fertility, postzygotic barriers reduce or eliminate the successful transmission of mixed genetic material into future generations, effectively preventing sustained gene flow between the two parent species even though initial mating/fertilization did occur"
+      ],
+      "correct": 3,
+      "explanation": "Even when mating and fertilization successfully occur, if the resulting hybrid offspring have reduced viability (don't survive well) or reduced fertility (can't reproduce successfully themselves, like mules), this effectively prevents sustained gene flow between the two parent populations across generations — achieving functional reproductive isolation, just through a mechanism that operates after fertilization rather than preventing it."
+    },
+    {
+      "id": "7-42",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following statements about phylogenetic trees is most accurate?",
+      "choices": [
+        "Phylogenetic trees are constructed entirely at random with no underlying data",
+        "Phylogenetic trees represent hypotheses about evolutionary relationships based on available evidence, and can be revised as new data (such as additional molecular sequence data) becomes available",
+        "Phylogenetic trees only apply to extinct species",
+        "Once constructed, a phylogenetic tree can never be revised or updated"
+      ],
+      "correct": 1,
+      "explanation": "Phylogenetic trees represent scientific hypotheses about evolutionary relationships, constructed based on the best available evidence at the time (morphological and/or molecular data) — like any scientific hypothesis, they can be revised or updated as new evidence becomes available, such as additional DNA sequence data providing more detailed or accurate information about relatedness."
+    },
+    {
+      "id": "7-43",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which best explains why the nearly universal genetic code (covered in Unit 6) is also considered evidence for evolution?",
+      "choices": [
+        "It only applies to organisms discovered after 2000",
+        "It has no relationship to evolutionary evidence",
+        "It proves that evolution does not occur",
+        "The fact that nearly all known organisms share the same arbitrary codon-to-amino-acid assignments strongly suggests this code originated once, in a shared common ancestor, rather than arising independently and identically multiple times"
+      ],
+      "correct": 3,
+      "explanation": "This connects back to Unit 6: since the specific codon-to-amino-acid assignments in the genetic code are essentially chemically arbitrary, finding the same arbitrary assignments shared across nearly all known life is strong evidence that this code was established once in a shared common ancestor and has been conserved ever since, rather than arising independently multiple times — itself a form of molecular evidence for shared common ancestry."
+    },
+    {
+      "id": "7-44",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Sexual selection, a specific form of natural selection related to mate choice, can sometimes favor traits that appear to reduce an individual's direct survival (such as elaborate, conspicuous plumage that could attract predators). Which best explains why such traits can still be favored by selection overall?",
+      "choices": [
+        "Sexual selection only operates in plants",
+        "If the reproductive advantage gained from increased mating success (due to the trait being attractive to potential mates) outweighs the survival cost of the trait, the trait can still increase overall fitness and be favored by selection",
+        "Sexual selection has no relationship to natural selection at all",
+        "Traits that reduce survival can never be favored under any circumstances"
+      ],
+      "correct": 1,
+      "explanation": "Since fitness is fundamentally about REPRODUCTIVE success, not survival alone, a trait that slightly reduces survival but substantially increases mating success (and therefore reproductive output) can still result in a net fitness advantage overall — this is exactly the logic behind sexual selection favoring conspicuous or costly traits that might otherwise seem to work against straightforward survival-based selection."
+    },
+    {
+      "id": "7-45",
+      "topic": "7.3 Population Genetics",
+      "stem": "A population is found to have significantly MORE heterozygous individuals than Hardy-Weinberg equilibrium would predict, given the population's allele frequencies. Which scenario could plausibly explain this deviation?",
+      "choices": [
+        "The complete absence of any selection",
+        "A very large, effectively infinite population size",
+        "A mating pattern in which individuals actively prefer mates with a DIFFERENT phenotype than their own (disassortative mating), which can increase heterozygosity above what random mating alone would predict",
+        "Random mating with respect to the trait"
+      ],
+      "correct": 2,
+      "explanation": "Disassortative mating — individuals preferring mates with a phenotype different from their own — can produce more heterozygous offspring than random mating would predict, since it tends to systematically pair individuals with different underlying genotypes together more often than chance alone would produce, representing a violation of the random mating condition required for Hardy-Weinberg equilibrium."
+    },
+    {
+      "id": "7-46",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following would most directly support the conclusion that speciation between two previously connected populations is now complete (not just in progress)?",
+      "choices": [
+        "The two populations have identical geographic ranges",
+        "The two populations remain in the same geographic location",
+        "The two populations show no genetic differences whatsoever",
+        "Individuals from the two populations, when brought back into contact, either cannot successfully mate, or their offspring have significantly reduced viability or fertility, demonstrating genuine reproductive isolation"
+      ],
+      "correct": 3,
+      "explanation": "The defining test for whether speciation is truly complete is genuine reproductive isolation — demonstrating that the two populations can no longer successfully interbreed and produce viable, fertile offspring, even when brought back into direct contact — rather than simply observing genetic differences or geographic patterns alone, which don't by themselves confirm that reproductive isolation has actually been achieved."
+    },
+    {
+      "id": "7-47",
+      "topic": "7.5 Phylogeny",
+      "stem": "A phylogenetic analysis reveals that a trait long assumed to indicate close relatedness between two species (based on physical similarity) actually evolved independently in each lineage, based on molecular data showing the two species are not closely related on the underlying DNA-based tree. This scenario best illustrates:",
+      "choices": [
+        "Molecular data is always less reliable than physical similarity for determining relatedness",
+        "The trait is homologous",
+        "This scenario is biologically impossible",
+        "The trait is likely the result of convergent evolution — physically similar (analogous), but not indicative of close shared ancestry, once independent molecular evidence is considered"
+      ],
+      "correct": 3,
+      "explanation": "This scenario directly illustrates why relying on physical similarity ALONE can be misleading (connecting back to the homologous/analogous distinction in Section 7.1) — molecular (DNA-based) evidence, showing the two species are not actually closely related despite their superficial similarity, strongly suggests the trait evolved independently in each lineage (convergent evolution), making it an analogous rather than homologous structure, despite initial appearances."
+    },
+    {
+      "id": "7-48",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following best distinguishes artificial selection from natural selection?",
+      "choices": [
+        "Natural selection only occurs in artificial (laboratory) settings",
+        "Artificial selection and natural selection are identical processes with no meaningful differences",
+        "Artificial selection cannot produce any observable changes in a population",
+        "Artificial selection involves humans deliberately choosing which individuals reproduce based on desired traits, while natural selection results from differential survival/reproduction driven by the natural environment, without deliberate human choice"
+      ],
+      "correct": 3,
+      "explanation": "Artificial selection involves humans deliberately selecting which individuals reproduce based on desired traits (as in selective breeding of crops or livestock), while natural selection is an unguided process resulting from differential survival and reproduction driven by the natural environment — both share the same fundamental mechanism (differential reproductive success of certain heritable variants), but differ in what's driving the selection pressure."
+    },
+    {
+      "id": "7-49",
+      "topic": "7.3 Population Genetics",
+      "stem": "A rare, isolated population experiences a random, chance event (such as a natural disaster) that dramatically and unpredictably reduces its size, causing certain allele frequencies to shift substantially, independent of whether those alleles were actually advantageous or disadvantageous. This describes:",
+      "choices": [
+        "Gene flow",
+        "Hardy-Weinberg equilibrium",
+        "Natural selection",
+        "Genetic drift, specifically a bottleneck effect"
+      ],
+      "correct": 3,
+      "explanation": "Genetic drift refers to random, chance-driven changes in allele frequency, particularly pronounced in small populations. A bottleneck effect specifically describes a dramatic, sudden reduction in population size (often due to a random event like a natural disaster) that can randomly and substantially shift allele frequencies in the surviving population, independent of whether the affected alleles were adaptive."
+    },
+    {
+      "id": "7-50",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following would be considered a form of gene flow, and how would it relate to the process of allopatric speciation?",
+      "choices": [
+        "Genetic drift within an isolated population",
+        "Natural selection favoring a particular phenotype",
+        "Individuals migrating between two previously separated populations and successfully interbreeding, which could counteract the genetic divergence otherwise expected under allopatric speciation",
+        "A mutation occurring spontaneously within a single population"
+      ],
+      "correct": 2,
+      "explanation": "Gene flow refers to the movement of alleles between populations, typically through migration and interbreeding — if individuals migrate between two populations that had begun diverging due to geographic separation and successfully interbreed, this reintroduces genetic mixing that can counteract or slow the divergence otherwise expected under allopatric speciation, potentially preventing full reproductive isolation from developing."
+    },
+    {
+      "id": "7-51",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following best describes the concept of a 'most recent common ancestor' (MRCA) for a given pair of species on a phylogenetic tree?",
+      "choices": [
+        "The species that appears highest on the tree diagram",
+        "The single ancestral organism/population represented by the node where the two species' lineages most recently diverged from each other",
+        "A concept with no meaningful biological definition",
+        "A random, currently-living individual selected arbitrarily"
+      ],
+      "correct": 1,
+      "explanation": "The most recent common ancestor (MRCA) for a given pair of species refers specifically to the ancestral population/organism represented by the node at which their two lineages most recently diverged from each other on the tree — this is the specific point of shared ancestry that determines how closely related the two species are considered to be."
+    },
+    {
+      "id": "7-52",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which of the following best describes how the fossil record, while providing strong evidence for evolution, is nonetheless considered an incomplete record of evolutionary history?",
+      "choices": [
+        "The fossil record contains no useful information about evolution at all",
+        "The fossil record perfectly documents every single organism that has ever lived",
+        "Only modern organisms can be studied through the fossil record",
+        "Fossilization is a relatively rare process requiring specific conditions, so many organisms (particularly soft-bodied ones, or those in environments unfavorable to fossil preservation) are underrepresented or entirely missing from the fossil record"
+      ],
+      "correct": 3,
+      "explanation": "Fossilization requires specific, relatively rare conditions (rapid burial, particular environmental chemistry, and more) to occur, meaning many organisms — especially soft-bodied ones lacking hard structures like bone or shell, or those living in environments unfavorable to fossil preservation — are underrepresented or entirely absent from the fossil record, making it a valuable but genuinely incomplete window into evolutionary history."
+    },
+    {
+      "id": "7-53",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following best describes co-evolution?",
+      "choices": [
+        "A process that only occurs in extinct organisms",
+        "A single species evolving entirely independently of any other species",
+        "A synonym for genetic drift",
+        "The process by which two or more species reciprocally influence each other's evolution over time, often through close ecological interactions such as predator-prey or plant-pollinator relationships"
+      ],
+      "correct": 3,
+      "explanation": "Co-evolution describes a process in which two or more species exert reciprocal evolutionary pressure on each other over time, often through close, ongoing ecological relationships (like a predator and its prey, or a flowering plant and its specific pollinator), each adapting in response to changes in the other over evolutionary time."
+    },
+    {
+      "id": "7-54",
+      "topic": "7.3 Population Genetics",
+      "stem": "Which of the following scenarios would most directly represent a violation of the 'no gene flow' condition required for Hardy-Weinberg equilibrium?",
+      "choices": [
+        "New individuals regularly migrating into a population and successfully interbreeding, introducing new alleles or shifting existing allele frequencies",
+        "A population mating entirely randomly",
+        "A population that is completely isolated with no immigration or emigration",
+        "A population experiencing no mutation"
+      ],
+      "correct": 0,
+      "explanation": "Gene flow specifically refers to the movement of alleles between populations, typically via migration and interbreeding — new individuals regularly migrating into a population and interbreeding would directly violate the 'no gene flow' condition, potentially introducing new alleles or shifting existing allele frequencies away from what Hardy-Weinberg equilibrium alone would predict."
+    },
+    {
+      "id": "7-55",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following would provide the strongest evidence that two populations, previously part of the same species, have now completed the process of allopatric speciation?",
+      "choices": [
+        "The two populations remain geographically separated by the original barrier",
+        "The two populations show identical physical appearances",
+        "The two populations have never been tested for interbreeding compatibility",
+        "When the geographic barrier is naturally removed (or individuals are experimentally reunited), the two populations are unable to successfully interbreed and produce viable, fertile offspring"
+      ],
+      "correct": 3,
+      "explanation": "The definitive test for completed speciation is demonstrating genuine reproductive isolation — specifically, that when given the opportunity to interbreed (whether through natural removal of the original barrier or experimental reunion), the two populations can no longer successfully produce viable, fertile offspring, confirming that true reproductive isolation (not just ongoing geographic separation) has been achieved."
+    },
+    {
+      "id": "7-56",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following would be considered a 'derived' (more recently evolved) characteristic when constructing a phylogenetic tree, as opposed to an 'ancestral' characteristic?",
+      "choices": [
+        "A characteristic found equally in all living organisms without exception",
+        "A characteristic present in the group's most distant common ancestor and shared by essentially all members of the group",
+        "A characteristic with no evolutionary origin",
+        "A characteristic that evolved more recently within a specific lineage, present only in that lineage and its descendants, not in the broader ancestral group"
+      ],
+      "correct": 3,
+      "explanation": "A derived characteristic is one that evolved more recently within a specific lineage after it diverged from the broader ancestral group, and is therefore found only in that particular lineage and its descendants — distinct from an ancestral characteristic, which was present in the group's more distant common ancestor and is typically shared much more broadly across the group."
+    },
+    {
+      "id": "7-57",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which of the following would be the best example of using comparative anatomy to distinguish homologous from analogous structures in a scientific investigation?",
+      "choices": [
+        "Examining the underlying skeletal or developmental structure of two similar-looking organs across different species to determine whether they share a common structural origin, beyond just superficial external similarity",
+        "Measuring only the external color of the structures",
+        "Assuming all similar-looking structures must be homologous without further evidence",
+        "Simply observing that two structures look similar from the outside, without further investigation"
+      ],
+      "correct": 0,
+      "explanation": "Distinguishing homologous from analogous structures scientifically requires looking beyond superficial external similarity to examine the underlying anatomical or developmental origin of the structures being compared — structures that share a common underlying origin (even if now serving different functions) are homologous, while structures that merely look or function similarly from unrelated origins are analogous."
+    },
+    {
+      "id": "7-58",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following best describes why antibiotic resistance in bacterial populations is considered a real-world, observable example of natural selection?",
+      "choices": [
+        "Bacteria intentionally develop resistance to survive antibiotic treatment",
+        "Antibiotic resistance has no genetic basis",
+        "All bacteria automatically become resistant regardless of genetics",
+        "Heritable variation in resistance already exists within a bacterial population (due to naturally occurring mutations); antibiotic exposure kills susceptible bacteria while resistant bacteria survive and reproduce, increasing the resistant allele's frequency in the surviving population over successive generations"
+      ],
+      "correct": 3,
+      "explanation": "Antibiotic resistance evolution follows the classic natural selection pattern precisely: heritable variation in resistance already exists within a bacterial population before antibiotic exposure (due to naturally occurring mutations, not a deliberate response), and antibiotic exposure then acts as a strong selective pressure — killing susceptible bacteria while resistant individuals survive and reproduce, increasing the resistance allele's frequency in the population over subsequent generations, exactly as natural selection theory predicts."
+    },
+    {
+      "id": "7-59",
+      "topic": "7.3 Population Genetics",
+      "stem": "A population has a recessive allele frequency of q = 0.1. What percentage of the population is expected to be heterozygous carriers of this recessive allele, without showing the recessive phenotype themselves?",
+      "choices": [
+        "18%",
+        "81%",
+        "1%",
+        "10%"
+      ],
+      "correct": 0,
+      "explanation": "With q = 0.1, p = 1 − 0.1 = 0.9. Heterozygous frequency = 2pq = 2 × 0.9 × 0.1 = 0.18, or 18% of the population expected to be unaffected heterozygous carriers."
+    },
+    {
+      "id": "7-60",
+      "topic": "7.4 Speciation",
+      "stem": "Which of the following would be the best description of the overall relationship between reproductive isolation and the biological species concept?",
+      "choices": [
+        "The biological species concept has no relationship to reproductive isolation",
+        "Reproductive isolation is only relevant to plant species",
+        "The biological species concept defines a species as a group of organisms capable of interbreeding and producing viable, fertile offspring under natural conditions; reproductive isolation from other such groups is therefore the key criterion distinguishing separate species under this definition",
+        "All organisms belong to the same species regardless of interbreeding ability"
+      ],
+      "correct": 2,
+      "explanation": "The biological species concept specifically defines a species based on the ability to interbreed and produce viable, fertile offspring under natural conditions — reproductive isolation from other groups (via prezygotic or postzygotic barriers) is therefore the central criterion used to determine whether two populations should be considered separate species under this widely used definition."
+    },
+    {
+      "id": "7-61",
+      "topic": "7.5 Phylogeny",
+      "stem": "Which of the following would be an appropriate use of a phylogenetic tree in a public health context?",
+      "choices": [
+        "Predicting weather patterns",
+        "Tracking the evolutionary relationships among different viral strains during an outbreak to understand transmission patterns and identify the likely source of infection",
+        "Phylogenetic trees have no practical applications outside of basic biology classrooms",
+        "Determining an individual patient's personal medical history"
+      ],
+      "correct": 1,
+      "explanation": "Phylogenetic analysis is genuinely and widely used in public health and epidemiology — tracking evolutionary relationships among viral or bacterial strains during an outbreak (based on genetic sequence data) can reveal transmission patterns, help identify the likely source of an outbreak, and inform public health responses, representing a real, practical application of the phylogenetic concepts covered in this unit."
+    },
+    {
+      "id": "7-62",
+      "topic": "7.1 Evidence for Evolution",
+      "stem": "Which of the following best explains why finding a shared, unusual genetic sequence error (a specific type of mutation with no functional purpose) in the exact same location in the genomes of two different species would be considered particularly strong evidence of shared ancestry?",
+      "choices": [
+        "Such a specific, non-functional shared error is highly unlikely to have arisen independently by pure chance in both lineages, making inheritance from a shared common ancestor a much more probable explanation",
+        "All genetic errors are identical across all species regardless of relatedness",
+        "This type of evidence has no bearing on evolutionary relationships",
+        "This evidence would suggest the two species are not related at all"
+      ],
+      "correct": 0,
+      "explanation": "A specific, non-functional (and therefore not subject to natural selection maintaining it) genetic sequence error found in the exact same location in two different species is highly unlikely to have arisen independently, by pure chance, in both lineages separately — inheritance of that shared error from a common ancestor (who originally acquired the mutation, then passed it down to both descendant lineages) is a far more probable and parsimonious explanation, making this a particularly powerful form of molecular evidence for shared ancestry."
+    },
+    {
+      "id": "7-63",
+      "topic": "7.2 Mechanisms of Natural Selection",
+      "stem": "Which of the following would be the most accurate way to describe the outcome of natural selection over many generations, in terms of a population's overall adaptation to its environment?",
+      "choices": [
+        "Natural selection produces organisms that are perfectly, flawlessly adapted to every possible aspect of their environment",
+        "Natural selection has no effect on how well-adapted a population is to its environment",
+        "Natural selection only operates over a single generation and then stops permanently",
+        "Natural selection tends to increase the frequency of traits that improve relative reproductive success under CURRENT environmental conditions, but this process is constrained by available genetic variation and does not produce perfect or permanent adaptation, especially if environmental conditions later change"
+      ],
+      "correct": 3,
+      "explanation": "While natural selection does tend to increase the frequency of traits that improve reproductive success under current conditions, it's important to understand that this process is constrained by the genetic variation actually available in a population, doesn't produce theoretically 'perfect' adaptation, and doesn't guarantee permanent adaptation if environmental conditions change in the future — natural selection is an ongoing, environment-dependent process, not a one-time optimization toward some fixed ideal."
+    },
+    {
+      "id": "7-64",
+      "topic": "7.3 Population Genetics",
+      "stem": "Which of the following best describes why Hardy-Weinberg equilibrium, despite rarely being perfectly met by any real population, remains a genuinely useful concept in evolutionary biology?",
+      "choices": [
+        "It serves as a valuable theoretical baseline (a 'null hypothesis' of no evolution) against which real populations' actual genotype frequencies can be compared, helping researchers detect and quantify the presence and strength of evolutionary forces acting on a population",
+        "It can only be applied to laboratory-grown organisms",
+        "It proves that evolution never actually occurs in nature",
+        "It has no practical use since no real population perfectly meets its conditions"
+      ],
+      "correct": 0,
+      "explanation": "Hardy-Weinberg's practical value comes precisely from its role as a theoretical null-hypothesis baseline: by predicting what genotype frequencies WOULD look like in the complete absence of evolutionary forces, researchers can compare this prediction to a real population's actual observed genotype frequencies — a significant deviation reveals that evolutionary forces (selection, drift, gene flow, non-random mating, or mutation) are indeed acting on that population, helping identify and even quantify evolution as it's actually happening."
+    },
+    {
+      "id": "7-65",
+      "topic": "7.4 Speciation",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher studies a ring species — a chain of neighboring populations distributed around a geographic barrier (such as a mountain range or large body of water), where each neighboring population can successfully interbreed with its immediate neighbors, but the two populations at the far ends of the ring (where the ring finally closes and they come into contact) cannot successfully interbreed with each other. Explain why this scenario poses an interesting challenge for applying the biological species concept.",
+      "choices": [
+        "Ring species only exist in a single, isolated species with no broader implications",
+        "Since the biological species concept relies on a clear-cut, binary distinction between 'same species' (can interbreed) and 'different species' (cannot interbreed), a ring species creates a genuinely ambiguous case: adjacent populations along the ring are functionally the 'same species' (they interbreed successfully), yet the two end populations, connected only indirectly through this chain, cannot interbreed — challenging the assumption that reproductive compatibility must be a simple, transitive, all-or-nothing property across an entire connected population",
+        "This scenario does not actually pose any challenge to the biological species concept",
+        "Ring species prove that speciation never actually occurs"
+      ],
+      "correct": 1,
+      "explanation": "This is a genuinely sophisticated extension that illustrates a real limitation of the biological species concept as typically taught: ring species demonstrate that reproductive compatibility isn't necessarily a simple, transitive property (if A can breed with B, and B can breed with C, that doesn't guarantee A can breed with C) across a continuously connected chain of populations. This creates real difficulty in applying a strict same-species/different-species binary to the ring as a whole, since it depends entirely on which specific pairs of populations you happen to compare — illustrating that speciation is often a gradual, continuous process without perfectly sharp, universal boundaries, rather than the clean binary the simplified species concept might suggest."
+    }
+  ],
+  "8": [
+    {
+      "id": "8-1",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which equation correctly represents exponential population growth?",
+      "choices": [
+        "dN/dt = rmaxN",
+        "dN/dt = B − D only, with no rate term",
+        "N = K always",
+        "dN/dt = rmaxN((K − N)/K)"
+      ],
+      "correct": 0,
+      "explanation": "Exponential growth is represented by dN/dt = rmaxN, with no limiting term — population growth rate is simply proportional to current population size, producing unlimited, accelerating growth (a J-shaped curve) under ideal, resource-unlimited conditions."
+    },
+    {
+      "id": "8-2",
+      "topic": "8.1 Population Ecology",
+      "stem": "In the logistic growth equation dN/dt = rmaxN((K − N)/K), what happens to the (K − N)/K term as population size (N) approaches carrying capacity (K)?",
+      "choices": [
+        "It approaches 0, causing growth rate to slow toward zero",
+        "It has no effect on growth rate",
+        "It approaches 1, causing growth to accelerate",
+        "It becomes negative infinity"
+      ],
+      "correct": 0,
+      "explanation": "As N approaches K, the numerator (K − N) approaches zero, making the entire (K − N)/K fraction approach zero — this mathematically causes the overall growth rate to slow toward zero as the population nears carrying capacity, producing the characteristic leveling-off (S-shaped curve) of logistic growth."
+    },
+    {
+      "id": "8-3",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which best defines carrying capacity (K)?",
+      "choices": [
+        "The maximum population size a particular environment can sustainably support, given its available resources",
+        "The rate at which a population grows exponentially",
+        "The absolute maximum number of offspring a single organism can produce",
+        "The minimum population size needed for a species to survive"
+      ],
+      "correct": 0,
+      "explanation": "Carrying capacity is the maximum population size a specific environment can sustainably support long-term, given the availability of resources like food, water, and space — populations tend to level off near this value under logistic growth, rather than growing indefinitely."
+    },
+    {
+      "id": "8-4",
+      "topic": "8.1 Population Ecology",
+      "stem": "Disease transmission tends to increase in a population as population density increases, since individuals come into closer, more frequent contact. This is an example of:",
+      "choices": [
+        "Carrying capacity itself",
+        "A density-dependent limiting factor",
+        "Exponential growth exclusively",
+        "A density-independent limiting factor"
+      ],
+      "correct": 1,
+      "explanation": "Disease transmission's impact scales with population density (spreading more easily/rapidly in a more crowded population), making it a classic density-dependent limiting factor — its effect intensifies specifically because of increased density, unlike density-independent factors, whose impact doesn't depend on population crowding."
+    },
+    {
+      "id": "8-5",
+      "topic": "8.1 Population Ecology",
+      "stem": "A severe volcanic eruption destroys a significant portion of a forest ecosystem, killing organisms regardless of the population densities present beforehand. This is an example of:",
+      "choices": [
+        "A density-independent limiting factor",
+        "A density-dependent limiting factor",
+        "Logistic growth",
+        "Carrying capacity"
+      ],
+      "correct": 0,
+      "explanation": "Since the volcanic eruption's destructive effect doesn't depend on how crowded the affected populations were beforehand (it would cause similar destruction regardless of population density), this is a density-independent limiting factor — a classic example alongside other natural disasters and extreme weather events."
+    },
+    {
+      "id": "8-6",
+      "topic": "8.1 Population Ecology",
+      "stem": "A population is introduced to a new environment with abundant, essentially unlimited resources. Which growth pattern would initially be expected?",
+      "choices": [
+        "Immediate population decline",
+        "Immediate leveling off at carrying capacity",
+        "No growth at all",
+        "Growth resembling exponential growth, at least initially, before resource limitations eventually begin to matter"
+      ],
+      "correct": 3,
+      "explanation": "Under conditions of abundant, essentially unlimited resources (typical of a population first colonizing a new, resource-rich environment), growth would initially resemble exponential growth, since density-dependent limiting factors haven't yet become significant — this pattern typically shifts toward logistic growth as the population grows and resources become comparatively more limited."
+    },
+    {
+      "id": "8-7",
+      "topic": "8.2 Community Ecology",
+      "stem": "Bees pollinate flowers while feeding on their nectar, benefiting both the bee (food) and the flower (pollination/reproduction). This interaction is classified as:",
+      "choices": [
+        "Competition",
+        "Parasitism",
+        "Mutualism",
+        "Commensalism"
+      ],
+      "correct": 2,
+      "explanation": "Mutualism describes an interaction benefiting BOTH participating species — bees gain nectar as food, while flowers benefit from pollination, aiding their reproduction — a classic (+/+) species interaction."
+    },
+    {
+      "id": "8-8",
+      "topic": "8.2 Community Ecology",
+      "stem": "A barnacle attaches to a whale's skin, gaining a place to live and access to nutrient-rich water as the whale swims, without providing any noticeable benefit or harm to the whale itself. This interaction is classified as:",
+      "choices": [
+        "Mutualism",
+        "Predation",
+        "Commensalism",
+        "Parasitism"
+      ],
+      "correct": 2,
+      "explanation": "Commensalism describes an interaction benefiting one species (the barnacle) while having a neutral effect (neither significant benefit nor harm) on the other species (the whale) — a (+/0) species interaction."
+    },
+    {
+      "id": "8-9",
+      "topic": "8.2 Community Ecology",
+      "stem": "Two species of birds in the same habitat both rely heavily on the same limited insect food source, and the presence of each species reduces the food available to the other. This interaction is classified as:",
+      "choices": [
+        "Commensalism",
+        "Predation",
+        "Mutualism",
+        "Competition"
+      ],
+      "correct": 3,
+      "explanation": "Competition describes an interaction that negatively affects BOTH participating species, typically resulting from a shared, limited resource (in this case, the same insect food source) — a (−/−) species interaction."
+    },
+    {
+      "id": "8-10",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which best distinguishes predation from parasitism?",
+      "choices": [
+        "Predation and parasitism are identical interactions with different names",
+        "Predation only occurs between plant species",
+        "Predation typically results in the prey's relatively quick death; parasitism typically involves an extended relationship with a living host, often without immediately killing it",
+        "Parasitism always results in immediate death, while predation never does"
+      ],
+      "correct": 2,
+      "explanation": "The key distinguishing feature is the typical timescale and outcome: predation generally results in the prey's death relatively quickly, in a single direct interaction, while parasitism typically involves the parasite benefiting from an extended relationship with a living host, often over a longer period, without necessarily killing the host immediately (or sometimes at all)."
+    },
+    {
+      "id": "8-11",
+      "topic": "8.2 Community Ecology",
+      "stem": "A keystone species is best defined as:",
+      "choices": [
+        "A species whose impact on its community/ecosystem is disproportionately large relative to its own abundance",
+        "A species found only in aquatic ecosystems",
+        "A species with no ecological interactions with any other species",
+        "The most numerous species in an ecosystem"
+      ],
+      "correct": 0,
+      "explanation": "A keystone species is defined by having a disproportionately large ecological impact relative to its own numerical abundance — removing it can trigger dramatic, cascading changes throughout the entire community, even though the species itself might not be especially numerous compared to other species present."
+    },
+    {
+      "id": "8-12",
+      "topic": "8.2 Community Ecology",
+      "stem": "Removing a keystone predator from an ecosystem often results in which chain of events?",
+      "choices": [
+        "The predator's prey population increases (no longer controlled by predation), which can then increase pressure on whatever that prey species consumes, potentially triggering effects that ripple through multiple trophic levels",
+        "The predator's prey population immediately goes extinct",
+        "All other species in the ecosystem are completely unaffected",
+        "No noticeable change to the ecosystem"
+      ],
+      "correct": 0,
+      "explanation": "Removing a keystone predator typically triggers a trophic cascade: the predator's prey population, no longer controlled by predation, tends to increase — this larger prey population then places increased pressure on ITS food source, and this chain reaction can continue rippling through multiple trophic levels of the ecosystem, illustrating the disproportionate impact a keystone species has relative to its own numbers."
+    },
+    {
+      "id": "8-13",
+      "topic": "8.3 Energy Flow",
+      "stem": "According to the '10% rule,' approximately what percentage of energy available at one trophic level is typically transferred to and incorporated into the next trophic level up?",
+      "choices": [
+        "10%",
+        "50%",
+        "90%",
+        "1%"
+      ],
+      "correct": 0,
+      "explanation": "The 10% rule states that approximately 10% of the energy available at one trophic level is typically transferred to and incorporated into the biomass of the next trophic level, with the remaining roughly 90% lost, primarily as heat through cellular respiration and metabolism."
+    },
+    {
+      "id": "8-14",
+      "topic": "8.3 Energy Flow",
+      "stem": "Where does most of the energy lost between trophic levels actually go?",
+      "choices": [
+        "It is destroyed and disappears entirely",
+        "It is transferred entirely to the next trophic level with no loss",
+        "It is lost primarily as heat, released through cellular respiration and general metabolism at each trophic level",
+        "It converts entirely into new biomass at the same trophic level"
+      ],
+      "correct": 2,
+      "explanation": "Most of the energy 'lost' between trophic levels isn't destroyed (consistent with the laws of thermodynamics covered in Unit 3) — it's released as heat through cellular respiration and general metabolic processes at each level, energy that supported the organism's own life processes but is not passed on to whatever eats it."
+    },
+    {
+      "id": "8-15",
+      "topic": "8.3 Energy Flow",
+      "stem": "A producer level has 200,000 kcal of available energy. Using the 10% rule, calculate the approximate energy available at the primary consumer level.",
+      "choices": [
+        "180,000 kcal",
+        "200,000 kcal",
+        "20,000 kcal",
+        "2,000 kcal"
+      ],
+      "correct": 2,
+      "explanation": "Applying the 10% rule: 200,000 × 0.10 = 20,000 kcal available at the primary consumer level."
+    },
+    {
+      "id": "8-16",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which best explains why food chains rarely extend beyond about 4-5 trophic levels?",
+      "choices": [
+        "Food chains have no relationship to energy availability",
+        "Predators are physically incapable of eating more than 5 different prey species",
+        "Because approximately 90% of available energy is lost at each successive trophic transfer, there simply isn't enough usable energy remaining to support an additional trophic level after 4-5 transfers, in most ecosystems",
+        "There is a hard biological limit preventing more levels from ever existing"
+      ],
+      "correct": 2,
+      "explanation": "Since only about 10% of available energy is transferred at each trophic level, the total available energy shrinks dramatically at each successive step — after 4-5 transfers, the remaining energy is typically too small to support a sustainable additional trophic level's population, which is why food chains generally don't extend much further than this in most ecosystems."
+    },
+    {
+      "id": "8-17",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which best explains why energy pyramids typically show a wide base (producers) and progressively narrower tiers moving upward through the trophic levels?",
+      "choices": [
+        "This shape reflects the progressively decreasing amount of energy available at each successive trophic level, due to substantial energy loss at each transfer",
+        "This shape has no biological meaning and is purely stylistic",
+        "This shape only applies to aquatic ecosystems",
+        "This shape reflects increasing energy availability at higher trophic levels"
+      ],
+      "correct": 0,
+      "explanation": "The narrowing pyramid shape directly and accurately reflects the progressively decreasing amount of energy actually available at each successive trophic level, a direct consequence of the substantial (roughly 90%) energy loss occurring at each trophic transfer."
+    },
+    {
+      "id": "8-18",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which organisms are classified as producers in an ecosystem's trophic structure?",
+      "choices": [
+        "Organisms that decompose dead matter exclusively",
+        "Organisms, typically photosynthetic, that capture energy directly from an abiotic source (like sunlight) and convert it into usable chemical energy",
+        "Organisms that consume other organisms exclusively",
+        "Only organisms found at the very top of the food chain"
+      ],
+      "correct": 1,
+      "explanation": "Producers, typically photosynthetic organisms like plants and algae, capture energy directly from an abiotic source (sunlight, for photosynthesis) and convert it into usable chemical energy, forming the base of virtually all food chains and the entry point for energy into most ecosystems."
+    },
+    {
+      "id": "8-19",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which best describes a fundamental difference between how energy and matter move through an ecosystem?",
+      "choices": [
+        "Energy flows in one direction and is ultimately lost as heat; matter (chemical elements) is continuously recycled between living organisms and the abiotic environment",
+        "Both energy and matter flow in one direction and are ultimately lost",
+        "Both energy and matter are continuously recycled with no loss",
+        "There is no meaningful difference between how energy and matter move through ecosystems"
+      ],
+      "correct": 0,
+      "explanation": "This is a fundamental distinction in ecology: energy flows through an ecosystem in one direction (entering as sunlight, ultimately lost as heat, per the laws of thermodynamics) and cannot be recycled, while matter (elements like carbon, nitrogen, and water) is continuously recycled between living organisms and the abiotic (nonliving) environment through biogeochemical cycles."
+    },
+    {
+      "id": "8-20",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which two processes together form the core of the carbon cycle's exchange between the atmosphere and living organisms?",
+      "choices": [
+        "Nitrogen fixation and denitrification",
+        "Predation and competition",
+        "Photosynthesis (removing atmospheric CO2) and cellular respiration/combustion (releasing CO2 back into the atmosphere)",
+        "Evaporation and precipitation"
+      ],
+      "correct": 2,
+      "explanation": "Photosynthesis removes CO2 from the atmosphere, fixing carbon into organic molecules, while cellular respiration (and combustion, including of fossil fuels) releases carbon back into the atmosphere as CO2 — this exchange forms the core of the carbon cycle's movement between the atmosphere and living organisms."
+    },
+    {
+      "id": "8-21",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Most organisms, including plants, cannot directly use atmospheric nitrogen gas (N2) despite its abundance. Which process makes nitrogen usable for most organisms?",
+      "choices": [
+        "Nitrogen fixation, performed by specialized bacteria that convert N2 into usable forms like ammonia",
+        "Cellular respiration",
+        "Predation",
+        "Photosynthesis"
+      ],
+      "correct": 0,
+      "explanation": "Nitrogen fixation, performed by specialized nitrogen-fixing bacteria, converts atmospheric N2 (which most organisms cannot use directly, due to its highly stable triple bond) into usable forms like ammonia — making this otherwise inaccessible nitrogen supply available to plants and, through the food chain, to the rest of the ecosystem."
+    },
+    {
+      "id": "8-22",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Why is nitrogen often a limiting nutrient for plant growth, despite making up roughly 78% of Earth's atmosphere?",
+      "choices": [
+        "Plants can absorb atmospheric N2 directly with no assistance",
+        "Plants have no use for nitrogen at all",
+        "Nitrogen is actually extremely rare on Earth",
+        "Most of that abundant atmospheric nitrogen (N2) is chemically unusable by plants directly, and depends on specialized nitrogen-fixing bacteria to convert it into usable forms first"
+      ],
+      "correct": 3,
+      "explanation": "Despite N2's atmospheric abundance, its stable triple bond makes it directly unusable by plants — plants depend entirely on nitrogen-fixing bacteria to first convert N2 into usable forms. Since this conversion process can be a bottleneck, nitrogen often ends up being a limiting nutrient for plant growth, despite its overall abundance in the atmosphere."
+    },
+    {
+      "id": "8-23",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Human combustion of fossil fuels primarily affects which biogeochemical cycle, and how?",
+      "choices": [
+        "The nitrogen cycle, by fixing atmospheric nitrogen",
+        "The carbon cycle, by releasing large amounts of ancient, long-buried carbon back into the atmosphere as CO2, much faster than it would naturally be released",
+        "The water cycle, by directly creating new water molecules",
+        "Fossil fuel combustion has no relationship to any biogeochemical cycle"
+      ],
+      "correct": 1,
+      "explanation": "Fossil fuels (coal, oil, natural gas) represent ancient carbon that was buried and removed from active circulation over enormously long timescales. Burning these fuels releases that long-sequestered carbon back into the atmosphere as CO2 much faster than it would naturally cycle back, significantly disrupting the carbon cycle's normal balance — this is the core mechanism behind human-driven climate change."
+    },
+    {
+      "id": "8-24",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which best explains why higher biodiversity generally increases an ecosystem's resilience to disturbance?",
+      "choices": [
+        "Higher biodiversity always makes ecosystems less stable",
+        "Higher biodiversity provides functional redundancy — multiple species often perform overlapping ecological roles, so if one species declines, others can help maintain overall ecosystem function",
+        "Higher biodiversity only matters in aquatic ecosystems",
+        "Higher biodiversity has no relationship to ecosystem resilience"
+      ],
+      "correct": 1,
+      "explanation": "Functional redundancy — multiple species performing similar or overlapping ecological roles — means that if a disturbance affects one particular species, other species can often help maintain the ecosystem's overall function, making high-biodiversity ecosystems generally more resilient than low-diversity ecosystems, where losing even one species performing a unique role could leave that function completely unfilled."
+    },
+    {
+      "id": "8-25",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following is a well-documented mechanism by which human activity contributes to biodiversity loss?",
+      "choices": [
+        "Eliminating all invasive species worldwide",
+        "Reducing the human population to zero",
+        "Habitat destruction/fragmentation, directly eliminating or dividing the space species need to survive",
+        "Increasing genetic diversity within all species"
+      ],
+      "correct": 2,
+      "explanation": "Habitat destruction and fragmentation — directly eliminating natural habitat or dividing it into smaller, disconnected patches — is one of the most significant, well-documented human-driven mechanisms of biodiversity loss, alongside invasive species introduction, pollution, overharvesting, and climate change."
+    },
+    {
+      "id": "8-26",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "An invasive species is introduced to a new ecosystem and rapidly outcompetes native species, in part because it lacks the natural predators or competitors present in its original ecosystem. This scenario best illustrates:",
+      "choices": [
+        "How invasive species can disrupt native ecosystems, contributing to biodiversity loss",
+        "A density-independent limiting factor exclusively",
+        "A beneficial mutualistic relationship",
+        "The nitrogen cycle"
+      ],
+      "correct": 0,
+      "explanation": "This scenario illustrates a classic mechanism of invasive species impact: lacking the natural checks (predators, competitors, diseases) present in their original ecosystem, invasive species can often outcompete native species for resources, disrupting existing community structure and contributing significantly to biodiversity loss in the newly invaded ecosystem."
+    },
+    {
+      "id": "8-27",
+      "topic": "8.1 Population Ecology",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A population is growing according to the logistic model with K = 1,000 and a current population size of N = 900. Compared to when N was 200 (with the same K), how would you expect the population's ABSOLUTE growth rate (dN/dt), not just the growth RATE per individual, to compare between these two population sizes?",
+      "choices": [
+        "The absolute growth rate is always highest exactly when N = K",
+        "The growth rate must always be higher when N is closer to K",
+        "The absolute growth rate is identical regardless of N",
+        "The absolute growth rate is likely lower at N = 900 than it was somewhere in the middle range of population growth, since the (K−N)/K braking term is now quite small (0.1) even though N itself is large — illustrating that logistic growth's absolute growth rate typically peaks at some INTERMEDIATE population size, not at either extreme (very low N or N very close to K)"
+      ],
+      "correct": 3,
+      "explanation": "This requires deeper mathematical reasoning about the logistic equation: dN/dt = rmaxN((K−N)/K) is the PRODUCT of N (which increases as population grows) and (K−N)/K (which decreases as population grows, approaching zero near K). At very low N, N itself is small, keeping absolute growth low despite (K−N)/K being close to 1. At N very close to K (like N=900, K=1000), (K−N)/K is small (0.1 here), keeping absolute growth low despite N itself being large. The ABSOLUTE growth rate (dN/dt) is actually maximized at some INTERMEDIATE population size (mathematically, exactly at N = K/2 for the standard logistic equation) — this is why the classic S-shaped logistic curve is steepest in its MIDDLE portion, not at either the very beginning or very end, a genuinely more nuanced point than simply stating growth 'slows down' as N approaches K."
+    },
+    {
+      "id": "8-28",
+      "topic": "8.2 Community Ecology",
+      "stem": "A tapeworm lives inside a host organism's digestive system, absorbing nutrients from the host's food over an extended period, without immediately killing the host. This interaction is classified as:",
+      "choices": [
+        "Predation",
+        "Parasitism",
+        "Commensalism",
+        "Mutualism"
+      ],
+      "correct": 1,
+      "explanation": "Parasitism describes an interaction benefiting one species (the tapeworm, absorbing nutrients) while harming the other (the host, losing nutrients/resources) — but distinct from predation, since the relationship persists over an extended period, without immediately killing the host."
+    },
+    {
+      "id": "8-29",
+      "topic": "8.3 Energy Flow",
+      "stem": "A secondary consumer has 5,000 kcal of available energy. Working BACKWARD using the 10% rule, approximately how much energy would have been available at the producer level that ultimately supported this secondary consumer?",
+      "choices": [
+        "50,000 kcal",
+        "500 kcal",
+        "500,000 kcal",
+        "5,000 kcal"
+      ],
+      "correct": 2,
+      "explanation": "Working backward requires reversing the 10% rule (multiplying by 10 at each step rather than 0.10): secondary consumer (5,000 kcal) ← primary consumer (5,000 × 10 = 50,000 kcal) ← producer (50,000 × 10 = 500,000 kcal). This illustrates just how much original producer-level energy is actually required to support even a modest amount of energy at higher trophic levels."
+    },
+    {
+      "id": "8-30",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following best describes transpiration's role in the water cycle?",
+      "choices": [
+        "Transpiration has no relationship to the water cycle",
+        "Transpiration removes water from the atmosphere",
+        "Transpiration only occurs in animals, not plants",
+        "Transpiration is the process by which water vapor is released into the atmosphere from plant leaves, contributing (alongside evaporation from other surfaces) to the movement of water into the atmosphere"
+      ],
+      "correct": 3,
+      "explanation": "Transpiration is the release of water vapor from plant leaves (as part of the same water transport system driven by cohesion-tension, covered back in Unit 1's water properties section) into the atmosphere, contributing alongside evaporation from other surfaces (like bodies of water) to the movement of water into the atmosphere, an essential part of the water cycle."
+    },
+    {
+      "id": "8-31",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following would most directly demonstrate genuine ecosystem resilience following a disturbance?",
+      "choices": [
+        "The ecosystem, after experiencing a disturbance, is able to recover its normal structure and function over time",
+        "The ecosystem permanently collapses and never recovers any function",
+        "The ecosystem shows no measurable response to any disturbance whatsoever",
+        "Resilience cannot be measured or observed in any way"
+      ],
+      "correct": 0,
+      "explanation": "Ecosystem resilience specifically refers to an ecosystem's ability to recover its normal structure and function after experiencing a disturbance — demonstrating this recovery process (not simply resisting all disturbance entirely, which is a related but distinct concept called resistance) is the clearest evidence of genuine resilience."
+    },
+    {
+      "id": "8-32",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following would most directly cause a population's growth curve to shift from resembling exponential growth to resembling logistic growth over time?",
+      "choices": [
+        "The complete absence of any limiting factors indefinitely",
+        "The population's carrying capacity increasing to infinity",
+        "The population reaching a size where density-dependent limiting factors (like resource competition) begin to significantly affect birth and death rates",
+        "A sudden decrease in population size to zero"
+      ],
+      "correct": 2,
+      "explanation": "As a population grows and approaches its environment's carrying capacity, density-dependent limiting factors (increasing competition for food/space/resources, potentially increased disease transmission) begin to significantly slow birth rates and/or increase death rates — this shift is exactly what transitions a population's growth pattern from resembling unconstrained exponential growth to the more realistic, leveling-off logistic growth pattern."
+    },
+    {
+      "id": "8-33",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would be the most direct evidence that a particular species functions as a keystone species in its ecosystem?",
+      "choices": [
+        "The species is the most numerous organism present in the ecosystem",
+        "The species is found in multiple different ecosystems",
+        "Experimental or observational removal of the species triggers disproportionately large, cascading changes throughout the broader community, despite the species' relatively modest abundance",
+        "The species has no interactions with any other species"
+      ],
+      "correct": 2,
+      "explanation": "The defining evidence for keystone species status is specifically the DISPROPORTIONATE impact of the species' removal relative to its own abundance — observing that removal triggers large, cascading changes throughout the community (despite the species not necessarily being especially numerous) is the clearest experimental/observational signature of a true keystone species."
+    },
+    {
+      "id": "8-34",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following organisms would most likely occupy the tertiary consumer trophic level in a typical food chain?",
+      "choices": [
+        "An herbivore eating plants directly",
+        "A carnivore that eats other carnivores, which themselves eat herbivores",
+        "A decomposer breaking down dead organic matter",
+        "A plant performing photosynthesis"
+      ],
+      "correct": 1,
+      "explanation": "A tertiary consumer is a carnivore that eats other carnivores (secondary consumers), which themselves eat herbivores (primary consumers), which eat producers (plants) — this places a tertiary consumer at a relatively high trophic level, typically supported by a much smaller total energy pool than lower levels, due to cumulative energy loss at each transfer."
+    },
+    {
+      "id": "8-35",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following would most directly disrupt the normal functioning of the nitrogen cycle in a particular ecosystem?",
+      "choices": [
+        "Normal levels of cellular respiration in local organisms",
+        "An increase in sunlight availability with no other changes",
+        "A significant decline in the population of nitrogen-fixing bacteria, reducing the conversion of atmospheric N2 into usable forms",
+        "A stable, unchanged water cycle"
+      ],
+      "correct": 2,
+      "explanation": "Since nitrogen-fixing bacteria are the primary organisms capable of converting largely unusable atmospheric N2 into forms usable by plants and other organisms, a significant decline in their population would directly reduce the amount of usable nitrogen entering the ecosystem's food web, potentially limiting plant growth and disrupting the broader nitrogen cycle."
+    },
+    {
+      "id": "8-36",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following would be the most scientifically sound approach for evaluating the specific ecological impact of introducing a particular invasive species to a new ecosystem?",
+      "choices": [
+        "Comparing measurable ecosystem characteristics (such as native species population sizes, resource availability, or community structure) before and after the invasive species' introduction, ideally alongside a comparable, uninvaded control ecosystem",
+        "Relying entirely on anecdotal reports with no systematic data collection",
+        "Only examining the invasive species' own population size, with no other data",
+        "Assuming impact without collecting any data"
+      ],
+      "correct": 0,
+      "explanation": "A scientifically sound evaluation of invasive species impact requires systematic before/after comparison of relevant ecosystem characteristics (native species populations, resource availability, community structure), ideally alongside a comparable control ecosystem lacking the invasive species — this kind of controlled, data-driven comparison is what allows researchers to draw reliable conclusions about the invasive species' actual ecological impact, rather than relying on assumption or anecdote alone."
+    },
+    {
+      "id": "8-37",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which best describes the overall shape of a population's growth curve under the logistic growth model?",
+      "choices": [
+        "A straight, linear line",
+        "An S-shaped (sigmoid) curve, with growth accelerating initially, then slowing as the population approaches carrying capacity",
+        "A perfectly flat line with no growth at all",
+        "A J-shaped curve with no leveling off"
+      ],
+      "correct": 1,
+      "explanation": "Logistic growth produces the classic S-shaped (sigmoid) curve: growth starts slowly, accelerates as the population grows (resembling exponential growth when resources are relatively abundant), then gradually slows and levels off as the population approaches carrying capacity — distinct from the unlimited, ever-accelerating J-shaped curve of pure exponential growth."
+    },
+    {
+      "id": "8-38",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would most directly demonstrate a trophic cascade following a specific ecological change?",
+      "choices": [
+        "A single species' population changing with absolutely no effect on any other species at any other trophic level",
+        "A change at one trophic level (such as removal of a top predator) triggering a chain of effects rippling through multiple subsequent trophic levels of the food chain",
+        "A change that affects only organisms at exactly the same trophic level as the initial disturbance",
+        "Complete stability across all trophic levels regardless of any disturbance"
+      ],
+      "correct": 1,
+      "explanation": "A trophic cascade is specifically defined by a change at one trophic level triggering a CHAIN of effects that ripple through MULTIPLE subsequent trophic levels — like removing a top predator, which allows its prey to increase, which then increases pressure on whatever that prey consumes, and so on — this cross-level ripple effect is the defining feature distinguishing a trophic cascade from a more isolated, single-level change."
+    },
+    {
+      "id": "8-39",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which best explains why herbivore biomass is generally much smaller than producer (plant) biomass within a given ecosystem?",
+      "choices": [
+        "Because only about 10% of energy is transferred from the producer level to the primary consumer (herbivore) level, the amount of biomass that can be supported at the herbivore level is correspondingly much smaller than at the producer level",
+        "Herbivores are always physically larger than plants",
+        "Herbivores reproduce much more slowly than plants in all cases",
+        "There is no meaningful relationship between trophic level and biomass"
+      ],
+      "correct": 0,
+      "explanation": "Since only about 10% of the energy available at the producer level typically transfers to and supports the primary consumer (herbivore) level, there is correspondingly much less available energy — and therefore much less total biomass that can be sustainably supported — at the herbivore level compared to the much larger energy/biomass pool present at the producer level."
+    },
+    {
+      "id": "8-40",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following best describes denitrification, a key process within the nitrogen cycle?",
+      "choices": [
+        "A process with no relationship to the nitrogen cycle",
+        "The complete removal of all nitrogen from an ecosystem permanently",
+        "The conversion of nitrogen compounds (like nitrate) back into atmospheric N2 gas, performed by specific bacteria, completing the nitrogen cycle by returning nitrogen to the atmosphere",
+        "The conversion of atmospheric N2 into usable forms like ammonia"
+      ],
+      "correct": 2,
+      "explanation": "Denitrification is performed by specific bacteria that convert nitrogen compounds (like nitrate, a usable form) back into atmospheric N2 gas — this process completes the nitrogen cycle by returning fixed nitrogen back to its original atmospheric form, balancing the nitrogen-fixation process that initially converts N2 into usable forms."
+    },
+    {
+      "id": "8-41",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following best describes how climate change contributes to biodiversity loss, according to well-documented ecological mechanisms?",
+      "choices": [
+        "Climate change has no relationship to biodiversity",
+        "Climate change only affects a single species worldwide",
+        "Climate change alters temperature and precipitation patterns, often faster than many species can adapt to or migrate in response to, potentially disrupting habitats and species interactions that organisms depend on",
+        "Climate change always increases biodiversity uniformly across all ecosystems"
+      ],
+      "correct": 2,
+      "explanation": "Climate change alters environmental conditions (temperature, precipitation) at a pace that often exceeds many species' ability to adapt genetically or migrate to more suitable habitat, disrupting established habitats, resource availability, and species interactions (such as timing mismatches between species that have co-evolved, like a pollinator and the plant it pollinates) — a well-documented and significant contributor to ongoing biodiversity loss."
+    },
+    {
+      "id": "8-42",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following population characteristics would be most directly used to calculate a population's growth rate?",
+      "choices": [
+        "The population's average individual body size",
+        "Only the geographic area the population occupies",
+        "Only the population's current absolute size, with no other information",
+        "Birth rate and death rate (and, when relevant, immigration and emigration rates)"
+      ],
+      "correct": 3,
+      "explanation": "A population's growth rate is fundamentally calculated from birth rate, death rate, and (when relevant to the specific population being studied) immigration and emigration rates — these are the actual demographic inputs and outputs that directly determine whether, and how quickly, a population's size is changing over time."
+    },
+    {
+      "id": "8-43",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would be the best example of interspecific competition (competition between two different species) rather than intraspecific competition (competition within the same species)?",
+      "choices": [
+        "A population of deer competing with a population of elk for the same limited grazing area and food resources",
+        "A single organism competing with itself",
+        "Two species engaged in a mutualistic relationship",
+        "Two individual robins competing for the same nesting territory"
+      ],
+      "correct": 0,
+      "explanation": "Interspecific competition specifically involves competition between two different species (in this case, deer and elk) for the same limited resource — distinct from intraspecific competition, which occurs between individuals of the SAME species (like the robins competing with each other in the first option)."
+    },
+    {
+      "id": "8-44",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following would be the most direct consequence of a significant decline in producer-level biomass within an ecosystem (such as due to a severe drought affecting plant growth)?",
+      "choices": [
+        "Producer-level biomass has no relationship to other trophic levels",
+        "An automatic increase in energy availability at higher trophic levels",
+        "Reduced energy availability at the primary consumer level and, following the same 10% rule logic, likely reduced energy availability at all subsequent, higher trophic levels as well",
+        "No effect on any other trophic level"
+      ],
+      "correct": 2,
+      "explanation": "Since each trophic level's available energy is fundamentally derived from (and limited by) the energy available at the level below it, a significant decline in producer-level biomass would be expected to reduce energy availability at the primary consumer level, and this reduction would similarly propagate up through all subsequent, higher trophic levels, following the same underlying 10% rule logic in reverse."
+    },
+    {
+      "id": "8-45",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following best explains why biogeochemical cycles are essential for the long-term sustainability of life on Earth?",
+      "choices": [
+        "Biogeochemical cycles only matter for a single generation of organisms",
+        "Since the total amount of essential elements (carbon, nitrogen, etc.) on Earth is essentially fixed, these elements must be continuously recycled between living organisms and the environment to remain available for ongoing biological use, rather than being permanently used up",
+        "Biogeochemical cycles have no relationship to life's sustainability",
+        "New atoms of carbon and nitrogen are constantly being created to replace used ones"
+      ],
+      "correct": 1,
+      "explanation": "Since Earth's total supply of essential elements like carbon and nitrogen is essentially fixed (not being created anew), these elements MUST be continuously recycled between living organisms and the abiotic environment (through the various biogeochemical cycles) to remain available for ongoing biological use across countless generations — without this recycling, essential elements would eventually become locked away and unavailable, making continued life impossible."
+    },
+    {
+      "id": "8-46",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following best describes the relationship between an ecosystem's overall biodiversity and its total number of possible species interactions?",
+      "choices": [
+        "The number of species interactions is always exactly equal to the number of species present",
+        "Higher biodiversity always reduces the number of species interactions",
+        "Higher biodiversity generally correlates with a greater potential number and complexity of species interactions within the ecosystem",
+        "Biodiversity has no relationship to the number of species interactions"
+      ],
+      "correct": 2,
+      "explanation": "As the number of species present in an ecosystem increases (higher biodiversity), the potential number and complexity of possible interactions between those species (predation, competition, mutualism, and so on) also tends to increase substantially — this greater web of interactions is part of what underlies the connection between high biodiversity and greater ecosystem resilience/functional redundancy."
+    },
+    {
+      "id": "8-47",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following scenarios would be the best real-world example of a population initially exhibiting exponential-like growth?",
+      "choices": [
+        "A small population of an invasive species newly introduced to an environment with abundant resources and no established predators or competitors",
+        "A population that has been stable at its carrying capacity for many generations",
+        "A population experiencing severe, ongoing resource limitation",
+        "A population with an extremely high death rate and very low birth rate"
+      ],
+      "correct": 0,
+      "explanation": "A small population newly introduced to an environment with abundant, essentially unexploited resources and no established predators/competitors is the classic real-world scenario for initial exponential-like growth — density-dependent limiting factors haven't yet become significant, allowing the population to grow rapidly, closely resembling the exponential growth model, at least until resources begin to become comparatively limiting."
+    },
+    {
+      "id": "8-48",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would be the most direct way to experimentally test whether a suspected species is truly a keystone species in a given ecosystem?",
+      "choices": [
+        "Measuring only the species' physical size",
+        "Assuming keystone status without any supporting evidence or data",
+        "Simply counting the total number of individuals of that species present",
+        "Experimentally or observationally removing the species (or comparing similar areas with and without the species present) and measuring resulting changes in the broader community's structure and function"
+      ],
+      "correct": 3,
+      "explanation": "The most direct experimental test for keystone species status involves removing the species (or comparing otherwise similar areas with and without the species naturally present) and measuring the resulting changes in the broader community's structure and function — disproportionately large changes relative to the species' modest abundance would support classifying it as a true keystone species, which is exactly how real keystone species (like sea otters in kelp forests) have been scientifically identified and confirmed."
+    },
+    {
+      "id": "8-49",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following correctly orders these trophic levels from lowest to highest in a typical food chain?",
+      "choices": [
+        "There is no consistent order to trophic levels",
+        "Tertiary consumer, secondary consumer, primary consumer, producer",
+        "Primary consumer, producer, tertiary consumer, secondary consumer",
+        "Producer, primary consumer, secondary consumer, tertiary consumer"
+      ],
+      "correct": 3,
+      "explanation": "The correct trophic level order, from lowest (base of the food chain) to highest, is: producer (photosynthetic organisms) → primary consumer (herbivores, eating producers) → secondary consumer (carnivores eating herbivores) → tertiary consumer (carnivores eating other carnivores)."
+    },
+    {
+      "id": "8-50",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following would most directly increase atmospheric CO2 concentration, disrupting the normal balance of the carbon cycle?",
+      "choices": [
+        "Increased ocean absorption of atmospheric CO2 with no other changes",
+        "Increased photosynthesis by a large forest",
+        "Large-scale deforestation combined with increased fossil fuel combustion, both reducing carbon uptake and increasing carbon release simultaneously",
+        "Decreased human population with no other changes"
+      ],
+      "correct": 2,
+      "explanation": "Large-scale deforestation reduces the total photosynthetic capacity available to remove CO2 from the atmosphere (fewer plants performing photosynthesis), while increased fossil fuel combustion simultaneously releases large amounts of previously sequestered carbon back into the atmosphere — occurring together, these two factors compound to significantly increase atmospheric CO2 concentration, disrupting the carbon cycle's normal balance."
+    },
+    {
+      "id": "8-51",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following would be the most scientifically appropriate response to observing a significant decline in biodiversity within a particular ecosystem?",
+      "choices": [
+        "Assuming the decline will have no consequences of any kind",
+        "Ignoring the observation, since biodiversity has no ecological importance",
+        "Immediately concluding the ecosystem will fully recover with no further action or investigation needed",
+        "Investigating potential causes (habitat loss, invasive species, pollution, climate change, overharvesting) and considering how the observed decline might affect the ecosystem's overall resilience and function going forward"
+      ],
+      "correct": 3,
+      "explanation": "A scientifically appropriate response to observed biodiversity decline involves investigating the specific underlying cause(s) among the well-documented mechanisms of biodiversity loss, and considering the likely consequences for the ecosystem's functional redundancy and overall resilience going forward — rather than dismissing the observation or assuming outcomes (positive or negative) without further investigation."
+    },
+    {
+      "id": "8-52",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following would be the most direct consequence of a population significantly exceeding its environment's carrying capacity, at least temporarily?",
+      "choices": [
+        "There would be no relationship between population size and resource availability",
+        "The population would be expected to continue growing indefinitely with no consequences",
+        "Carrying capacity would automatically and immediately increase to match the population size",
+        "Resources would likely become severely strained, potentially leading to increased death rates and/or decreased birth rates until the population declines back toward a more sustainable level near carrying capacity"
+      ],
+      "correct": 3,
+      "explanation": "When a population temporarily exceeds its environment's carrying capacity, available resources become severely strained relative to demand, typically leading to increased death rates (from starvation, increased competition, or related stresses) and/or decreased birth rates, which tends to bring the population back down toward a more sustainable level closer to carrying capacity over time — illustrating carrying capacity's role as a genuine, resource-based ecological limit."
+    },
+    {
+      "id": "8-53",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would most likely represent a shift from mutualism toward parasitism between two interacting species over evolutionary time?",
+      "choices": [
+        "Both species going extinct simultaneously",
+        "Both species continuing to benefit equally, with no change over time",
+        "One species evolving to extract benefit from the interaction while providing progressively less (or no) benefit in return, ultimately harming the other species rather than benefiting it",
+        "The interaction becoming entirely neutral for both species"
+      ],
+      "correct": 2,
+      "explanation": "A shift from mutualism (+/+) toward parasitism (+/−) would specifically involve one species evolving to continue extracting benefit from the interaction while providing progressively less (or eventually no) benefit in return — effectively shifting the OTHER species' experience of the interaction from beneficial to actively harmful, illustrating that species interaction types aren't always fixed and can shift along an evolutionary continuum over time."
+    },
+    {
+      "id": "8-54",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following organisms plays an essential role in returning energy-containing organic matter from dead organisms back into a form usable by producers and other organisms in the ecosystem?",
+      "choices": [
+        "Tertiary consumers exclusively",
+        "Decomposers, which break down dead organic matter, releasing nutrients back into the ecosystem",
+        "Decomposers have no meaningful ecological role",
+        "Producers exclusively"
+      ],
+      "correct": 1,
+      "explanation": "Decomposers (such as many fungi and bacteria) play an essential ecological role by breaking down dead organic matter (from all trophic levels), releasing the nutrients contained within back into the ecosystem in forms that producers and other organisms can use again — an essential complement to the trophic energy flow discussed elsewhere in this section, closing the loop for nutrient (though not energy) cycling."
+    },
+    {
+      "id": "8-55",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following would be the most direct consequence of significantly reducing the ocean's capacity to absorb atmospheric CO2 (such as through ocean warming, which reduces CO2 solubility)?",
+      "choices": [
+        "Atmospheric CO2 concentration would automatically decrease",
+        "The carbon cycle would be completely unaffected",
+        "Atmospheric CO2 concentration would likely increase further, since less carbon would be removed from the atmosphere by this particular natural absorption pathway",
+        "This scenario has no relationship to the carbon cycle"
+      ],
+      "correct": 2,
+      "explanation": "Oceans serve as a significant natural carbon sink, absorbing substantial amounts of atmospheric CO2. If ocean warming (or other factors) reduces this absorption capacity, less atmospheric CO2 would be removed by this pathway, likely contributing to further increases in atmospheric CO2 concentration — illustrating how changes to one part of the carbon cycle's natural balance can have compounding effects on atmospheric CO2 levels overall."
+    },
+    {
+      "id": "8-56",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following would provide the most direct evidence supporting the specific hypothesis that biodiversity loss reduces ecosystem resilience?",
+      "choices": [
+        "A study finding that ecosystems with experimentally reduced species richness show significantly slower or less complete recovery of normal function following a standardized disturbance, compared to ecosystems with higher, unmanipulated species richness",
+        "A study conducted without any disturbance or recovery measurement at all",
+        "A study finding no relationship whatsoever between species richness and ecosystem recovery time following disturbance",
+        "A study measuring only rainfall patterns with no biodiversity data"
+      ],
+      "correct": 0,
+      "explanation": "A well-designed study directly testing this hypothesis would need to experimentally manipulate species richness (biodiversity) and then measure and compare recovery outcomes following a standardized disturbance between the reduced-diversity and higher-diversity conditions — finding that reduced-diversity ecosystems show measurably slower or less complete recovery would provide direct, controlled experimental evidence supporting the biodiversity-resilience relationship."
+    },
+    {
+      "id": "8-57",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following would be the most appropriate use of the exponential growth model in real-world ecological research?",
+      "choices": [
+        "The exponential model has no legitimate real-world applications",
+        "Predicting a well-established population's behavior over many decades in a resource-limited environment",
+        "Predicting a population's behavior at exactly its carrying capacity",
+        "Modeling the initial, short-term growth of a small population recently introduced into a new environment with abundant, essentially unexploited resources"
+      ],
+      "correct": 3,
+      "explanation": "The exponential growth model is most appropriately applied to model the INITIAL, short-term growth of a population under conditions where resources are genuinely abundant and essentially unlimited relative to current population size (such as a small population recently introduced to a resource-rich new environment) — for longer-term predictions in resource-limited environments, the logistic model is generally far more realistic and appropriate."
+    },
+    {
+      "id": "8-58",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would be the most likely long-term outcome for two species engaged in intense, ongoing interspecific competition for an identical, limited resource, according to the competitive exclusion principle?",
+      "choices": [
+        "One species will typically outcompete and exclude the other from that particular resource/niche over time, unless the species diverge in resource use in some way (niche differentiation)",
+        "Competition has no long-term ecological consequences",
+        "Both species will immediately go extinct simultaneously",
+        "Both species will always coexist indefinitely with no change"
+      ],
+      "correct": 0,
+      "explanation": "The competitive exclusion principle predicts that two species competing intensely for the exact same limited resource/ecological niche generally cannot coexist indefinitely — one species will typically outcompete and exclude the other over time, UNLESS the species are able to diverge somewhat in their specific resource use (niche differentiation), reducing the direct overlap and allowing coexistence."
+    },
+    {
+      "id": "8-59",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following would be an accurate general statement comparing the total biomass typically found at the producer level versus the total biomass typically found at the tertiary consumer level, within a given ecosystem?",
+      "choices": [
+        "There is no consistent relationship between trophic level and biomass",
+        "Producer and tertiary consumer biomass are always exactly equal",
+        "Producer biomass is typically much greater than tertiary consumer biomass, reflecting the substantial energy loss occurring at each of the several trophic transfers required to reach the tertiary consumer level",
+        "Tertiary consumer biomass is typically much greater than producer biomass"
+      ],
+      "correct": 2,
+      "explanation": "Given the roughly 90% energy loss occurring at EACH of the several trophic transfers required to move from the producer level up to the tertiary consumer level, the cumulative energy loss is substantial — meaning producer-level biomass is typically far greater than tertiary consumer biomass in most ecosystems, consistent with the narrowing shape of energy and biomass pyramids."
+    },
+    {
+      "id": "8-60",
+      "topic": "8.4 Biogeochemical Cycles",
+      "stem": "Which of the following would be the most accurate description of how carbon moves from a living organism back into the abiotic environment?",
+      "choices": [
+        "Carbon only leaves an organism through predation",
+        "Carbon can never leave a living organism once incorporated",
+        "Carbon can be released back into the abiotic environment (as atmospheric CO2) through cellular respiration during the organism's life, or through decomposition after the organism dies",
+        "Carbon cycling has no relationship to living organisms at all"
+      ],
+      "correct": 2,
+      "explanation": "Carbon incorporated into an organism's biological molecules can be released back into the abiotic environment (primarily as atmospheric CO2) in two main ways: through the organism's own ongoing cellular respiration during its life, and through decomposition of the organism's remains after death — both processes return carbon to the shared atmospheric pool, completing the cycle."
+    },
+    {
+      "id": "8-61",
+      "topic": "8.5 Biodiversity and Stability",
+      "stem": "Which of the following would be the most scientifically sound conservation strategy for protecting an ecosystem's overall resilience, based on the biodiversity-resilience relationship discussed in this section?",
+      "choices": [
+        "Ignoring biodiversity considerations entirely in conservation planning",
+        "Focusing exclusively on protecting a single, visually appealing species with no regard for broader community structure",
+        "Deliberately reducing species diversity to simplify ecosystem management",
+        "Working to protect and maintain overall species diversity and habitat connectivity within the ecosystem, recognizing that broader biodiversity (not just a single species) contributes to functional redundancy and resilience"
+      ],
+      "correct": 3,
+      "explanation": "Given the established relationship between biodiversity and functional redundancy/resilience, a scientifically sound conservation strategy would prioritize protecting overall species diversity and habitat connectivity (rather than focusing narrowly on a single charismatic species), since it's this broader biodiversity that provides the ecosystem-level resilience benefits discussed throughout this section."
+    },
+    {
+      "id": "8-62",
+      "topic": "8.1 Population Ecology",
+      "stem": "Which of the following best describes 'r' (the intrinsic/per capita growth rate) in population ecology equations?",
+      "choices": [
+        "The environment's carrying capacity",
+        "The total population size at any given time",
+        "The average per-individual contribution to population growth, reflecting the difference between per capita birth rate and per capita death rate",
+        "A constant that never varies between species or conditions"
+      ],
+      "correct": 2,
+      "explanation": "The intrinsic growth rate (r) represents the average per-individual contribution to population growth — essentially, the per capita birth rate minus the per capita death rate — and can vary significantly between species (based on their typical reproductive rate and lifespan) and can also be influenced by environmental conditions."
+    },
+    {
+      "id": "8-63",
+      "topic": "8.2 Community Ecology",
+      "stem": "Which of the following would be the most accurate way to describe an ecological niche?",
+      "choices": [
+        "A synonym for a species' physical size",
+        "The full set of biotic and abiotic resources and conditions a species uses and requires, including its role within the community (what it eats, what eats it, and its other functional relationships)",
+        "The specific geographic location where a species is found, with no other information",
+        "A concept with no practical ecological application"
+      ],
+      "correct": 1,
+      "explanation": "An ecological niche encompasses the full set of biotic and abiotic conditions and resources a species uses and requires to survive and reproduce, including its specific functional role within the broader community (its diet, predators, habitat requirements, and other relevant interactions) — it's a much broader, more functional concept than simply a species' physical location or size."
+    },
+    {
+      "id": "8-64",
+      "topic": "8.3 Energy Flow",
+      "stem": "Which of the following best explains why apex (top) predators generally exist at relatively low population densities compared to species at lower trophic levels within the same ecosystem?",
+      "choices": [
+        "Apex predators require no energy to survive",
+        "Due to substantial cumulative energy loss at each trophic transfer required to reach their high trophic level, there is comparatively little total energy available to support a large apex predator population, limiting their sustainable population density",
+        "Apex predators always choose to have small populations by preference",
+        "Apex predators have no relationship to energy availability"
+      ],
+      "correct": 1,
+      "explanation": "Since apex predators typically occupy a relatively high trophic level, and substantial energy is lost (roughly 90%) at each of the several trophic transfers required to reach that level, there is comparatively little total energy remaining available to support their population — this fundamental energy limitation is why apex predators generally exist at much lower population densities than species at lower trophic levels within the same ecosystem."
+    },
+    {
+      "id": "8-65",
+      "topic": "8.5 Biodiversity and Stability",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: A researcher proposes that ecosystem resilience depends not just on overall SPECIES RICHNESS (total number of species), but also on FUNCTIONAL DIVERSITY (the range of distinct ecological roles those species collectively perform). Explain why two ecosystems with identical species richness could still have very different levels of actual resilience, based on this distinction.",
+      "choices": [
+        "If one ecosystem's species are highly redundant in ecological role (many species performing very similar functions, with few distinct roles represented) while another ecosystem's equal number of species collectively cover a much WIDER range of distinct ecological roles, the second ecosystem would likely show greater resilience, since losing any single species is less likely to eliminate a unique, otherwise-unfilled ecological function",
+        "More species always automatically means more distinct ecological roles, with no possible exceptions",
+        "Functional diversity has no relationship to resilience",
+        "Species richness and functional diversity are always identical, so this scenario is impossible"
+      ],
+      "correct": 0,
+      "explanation": "This is a genuinely sophisticated distinction beyond the simplified 'more species = more resilience' framing: an ecosystem could have high species richness while still having LOW functional diversity, if many of those species happen to perform very similar ecological roles (redundant within a narrow functional category) while other important ecological functions are covered by only one or very few species. In this case, losing that one species performing a unique function could still cause significant disruption, DESPITE the ecosystem's overall high species count — illustrating that it's specifically the DIVERSITY OF FUNCTIONAL ROLES represented (not simply the raw species count) that most directly determines an ecosystem's actual resilience to losing any particular species."
+    }
+  ]
 };
 
 // ============================================================
@@ -8227,7 +13324,15 @@ STUDY_CONTENT[7] = `<div class="hero">
       <li>State the three conditions required for natural selection to occur.</li>
       <li>Distinguish directional, stabilizing, and disruptive selection and predict their effect on population phenotype distribution.</li>
       <li>Explain why selection acts on phenotype but has its evolutionary effect on allele frequency.</li>
+      <li>Explain how sexual selection and co-evolution can favor traits that don't maximize survival on their own, and distinguish artificial from natural selection.</li>
     </ul>
+  </div>
+
+  <div class="key-idea">
+    <span class="tag-label idea">Key Idea — Selection Comes in More Forms Than Directional, Stabilizing, and Disruptive</span>
+    <p><strong>Sexual selection</strong> is a form of natural selection driven specifically by mate choice or mate competition rather than by survival alone. It can favor traits — like a peacock's tail or elaborate birdsong — that carry a real survival cost (more visible to predators, more energy to grow and maintain) as long as the resulting boost in mating success more than makes up for it. Since evolutionary fitness is about reproductive success, not survival in isolation, a costly-to-survive trait can still be favored overall if it wins enough extra mates.</p>
+    <p><strong>Artificial selection</strong> is the same underlying mechanism — differential reproduction of certain heritable variants — but with humans, not the environment, choosing which individuals reproduce (selective breeding of crops and livestock is the classic example). It's evidence that selection can produce rapid, dramatic phenotypic change when the selecting pressure is strong and consistent.</p>
+    <p><strong>Co-evolution</strong> is when two or more species exert reciprocal selective pressure on each other over time — a predator and prey population each evolving in response to the other's adaptations, or a flower and its specific pollinator each becoming more finely matched to one another. It's a reminder that a species' environment includes the other species around it, not just the physical habitat.</p>
   </div>
 
   <h2 id="s73"><span class="num">7.3</span>Population Genetics and Hardy-Weinberg</h2>
@@ -9560,7 +14665,15 @@ STUDY_CONTENT[8] = `<div class="hero">
       <li>Classify a species interaction (predation, competition, mutualism, commensalism, parasitism) based on its effect on each participant.</li>
       <li>Distinguish predation from parasitism.</li>
       <li>Explain what a keystone species is and trace a trophic cascade following its removal.</li>
+      <li>Distinguish interspecific from intraspecific competition, and explain the competitive exclusion principle and the concept of an ecological niche.</li>
     </ul>
+  </div>
+
+  <div class="key-idea">
+    <span class="tag-label idea">Key Idea — Competition Comes in Two Forms, and It Has a Predictable Long-Term Outcome</span>
+    <p><strong>Intraspecific competition</strong> is competition between individuals of the SAME species (two robins fighting over the same nesting territory); <strong>interspecific competition</strong> is competition between DIFFERENT species (deer and elk competing for the same grazing area). Both are competition for a limited resource — the distinction is just who's competing.</p>
+    <p>A species' <strong>ecological niche</strong> is the full set of biotic and abiotic resources and conditions it uses and requires, including its functional role in the community — what it eats, what eats it, where it lives, and how it interacts with everything else. It's a much broader idea than just a species' location or size.</p>
+    <p>The <strong>competitive exclusion principle</strong> predicts that two species competing intensely for an identical, fully overlapping niche generally cannot coexist indefinitely — one will typically outcompete and exclude the other over time. The main way species avoid this outcome is <strong>niche differentiation</strong>: diverging in resource use (different feeding times, different prey size, different microhabitat) enough to reduce the overlap and allow coexistence.</p>
   </div>
 
   <h2 id="s83"><span class="num">8.3</span>Energy Flow and Trophic Structure</h2>

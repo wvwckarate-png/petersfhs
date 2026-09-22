@@ -6,7 +6,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">7 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -237,7 +237,7 @@ const STUDY_CONTENT = {
 
   <div class="trap">
     <span class="tag-label trap">Watch Out For This</span>
-    <p>An object thrown straight up and one simply dropped from the same height, released at the peak height of the first object's path, hit the ground with different total flight times but the exact same acceleration throughout — gravity doesn't change based on what an object is doing. Don't assume "in the air longer" means "different acceleration." It almost always just means a different starting velocity.</p>
+    <p>An object thrown straight up, and a second object simply dropped from rest at the instant the first reaches its peak height, both experience the exact same acceleration (g) the whole way down — even though the thrown object's total flight time (up and back down) is longer than the dropped object's fall time. Gravity doesn't change based on what an object is doing. Don't assume "in the air longer" means "different acceleration." It almost always just means a different starting velocity.</p>
   </div>
 
   <div class="worked">
@@ -350,7 +350,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 18–23%</span>
     <span class="pill">9 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -707,7 +707,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 18–23%</span>
     <span class="pill">6 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -981,7 +981,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">6 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -1245,7 +1245,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">6 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -1424,7 +1424,7 @@ const STUDY_CONTENT = {
   </div>
 
   <h2 id="s55"><span class="num">5.5</span>Static Equilibrium</h2>
-  <p>An object is in complete static equilibrium when it has zero linear acceleration AND zero angular acceleration — meaning BOTH the net force and the net torque acting on it must be exactly zero. This section is where balance, seesaws, beams, and ladders all live.</p>
+  <p>An object is in complete static equilibrium when it has zero linear acceleration AND zero angular acceleration — meaning BOTH the net force and the net torque acting on it must be exactly zero — AND the object starts at rest (v=0, ω=0). That last condition is what distinguishes "static" equilibrium from "dynamic" equilibrium: an object moving or spinning at constant nonzero velocity also has zero net force and zero net torque, but it isn't static. This section is where balance, seesaws, beams, and ladders all live.</p>
 
   <div class="eq">
     <div class="main">ΣF = 0 &nbsp;·&nbsp; Στ = 0</div>
@@ -1543,7 +1543,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 5–8%</span>
     <span class="pill">4 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -1756,7 +1756,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 5–8%</span>
     <span class="pill">4 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -1963,7 +1963,7 @@ const STUDY_CONTENT = {
   <div class="hero-pills">
     <span class="pill">Exam weight 10–15%</span>
     <span class="pill">6 topics</span>
-    <span class="pill">65 practice questions</span>
+    <span class="pill">13 practice questions</span>
   </div>
 </div>
 
@@ -2326,7 +2326,7 @@ const QUESTIONS = {
     { id: "2-6", topic: "2.1 Forces and FBDs", stem: "On a free-body diagram, how should the length of each force arrow be drawn?", choices: ["All arrows should be the same length, regardless of force size.", "Roughly proportional to the magnitude of that specific force.", "Length doesn't matter, only direction matters.", "Longer arrows should represent smaller forces."], correct: 1, explanation: "A well-drawn FBD uses arrow length to roughly represent the relative size of each force — larger forces get longer arrows. This visual cue helps you (and a grader) quickly sanity-check whether forces plausibly balance or not." },
     { id: "2-7", topic: "2.1 Forces and FBDs", stem: "Which of these is NOT a legitimate force to include on a free-body diagram?", choices: ["Gravity", "Normal force from a supporting surface", "Tension from an attached string", "A 'force of momentum' carrying the object forward"], correct: 3, explanation: "There is no such thing as a 'force of momentum' — momentum is a property of a moving object, not a force acting on it. Gravity, normal force, and tension are all genuine forces with real physical sources; the fourth option is a common but invented misconception." },
     { id: "2-8", topic: "2.2 First Law and Equilibrium", stem: "An object moves in a straight line at a constant 15 m/s. What is the net force acting on it?", choices: ["A force in the direction of motion, proportional to speed.", "Zero.", "A force proportional to the object's mass alone.", "Cannot be determined without knowing the object's mass."], correct: 1, explanation: "Constant velocity (in both speed and direction) means zero acceleration, and by Newton's Second Law, zero acceleration means zero net force — regardless of how fast the object happens to be moving." },
-    { id: "2-9", topic: "2.2 First Law and Equilibrium", stem: "A box at rest has three forces acting on it: 20 N east, 20 N west, and an unknown vertical force pair that balances gravity. Is the box in equilibrium?", choices: ["Yes — the horizontal forces cancel, and the problem states the vertical forces balance too.", "No — three forces can never sum to zero.", "Only if all three forces have equal magnitude.", "Cannot be determined without more information."], correct: 0, explanation: "Equilibrium just requires the vector sum of all forces to be zero. The horizontal pair (20 N east and 20 N west) cancels on its own, and the problem states the vertical forces balance as well — so the total net force is zero, and the box is in equilibrium." },
+    { id: "2-9", topic: "2.2 First Law and Equilibrium", stem: "A box at rest has several forces acting on it: 20 N east, 20 N west, and an unknown vertical pair of forces that balances gravity. Is the box in equilibrium?", choices: ["Yes — the horizontal forces cancel, and the problem states the vertical forces balance too.", "No — several forces acting at once can never sum to zero.", "Only if all the forces have equal magnitude.", "Cannot be determined without more information."], correct: 0, explanation: "Equilibrium just requires the vector sum of all forces to be zero. The horizontal pair (20 N east and 20 N west) cancels on its own, and the problem states the vertical forces balance as well — so the total net force is zero, and the box is in equilibrium." },
     { id: "2-10", topic: "2.2 First Law and Equilibrium", stem: "A picture frame hangs at rest from two wires, each pulling upward at some angle. If the frame's weight is 12 N, what must be true about the combined upward pull of both wires?", choices: ["Combined upward pull must be less than 12 N.", "Combined upward pull must be greater than 12 N.", "Combined upward pull must equal exactly 12 N.", "Combined upward pull is unrelated to the frame's weight."], correct: 2, explanation: "Since the frame is at rest (equilibrium), the net force must be zero — meaning the total upward pull from both wires must exactly balance the 12 N of downward weight." },
     { id: "2-11", topic: "2.2 First Law and Equilibrium", stem: "Which of the following objects is in equilibrium?", choices: ["A ball at the peak of its path after being thrown straight up.", "A car speeding up from a stoplight.", "An elevator moving downward at a constant 2 m/s.", "A skydiver just after jumping, before reaching terminal velocity."], correct: 2, explanation: "An elevator moving at constant velocity (even if that velocity is downward) has zero acceleration, and is therefore in equilibrium. The ball at its peak still has gravity acting on it (nonzero net force, nonzero acceleration); the speeding-up car and the still-accelerating skydiver both have nonzero net force by definition." },
     { id: "2-12", topic: "2.2 First Law and Equilibrium", stem: "Is it possible for an object in equilibrium to have multiple nonzero forces acting on it?", choices: ["No, equilibrium requires zero forces.", "Yes — equilibrium requires the forces to sum to zero, not for there to be no forces at all.", "Only if exactly two forces are present.", "Only for objects at rest, never for moving objects."], correct: 1, explanation: "Equilibrium is defined by the vector sum of forces being zero — it says nothing about how many individual nonzero forces are present. A book on a table, for instance, has two clearly nonzero forces (gravity and normal force) that happen to cancel." },
@@ -2590,7 +2590,7 @@ const QUESTIONS = {
     { id: "6-2", topic: "6.1 Rotational Kinetic Energy", stem: "An object's angular velocity is doubled while its moment of inertia stays the same. How does its rotational kinetic energy change?", choices: ["It doubles.", "It quadruples.", "It stays the same.", "It is cut in half."], correct: 1, explanation: "Since KE_rot=½Iω² depends on ω², doubling angular velocity quadruples rotational kinetic energy (2²=4) — the same squared relationship as translational KE and speed." },
     { id: "6-3", topic: "6.1 Rotational Kinetic Energy", stem: "An object has rotational kinetic energy 72 J and moment of inertia 4.0 kg·m². Find its angular velocity.", choices: ["3.0 rad/s", "6.0 rad/s", "9.0 rad/s", "18 rad/s"], correct: 1, explanation: "72 = ½(4.0)ω², so ω² = 144/4.0 = 36, giving ω = 6.0 rad/s." },
     { id: "6-4", topic: "6.1 Rotational Kinetic Energy", stem: "An object's moment of inertia is doubled while its angular velocity stays the same. How does its rotational kinetic energy change?", choices: ["It doubles.", "It quadruples.", "It stays the same.", "It is cut in half."], correct: 0, explanation: "Since KE_rot=½Iω² is directly proportional to I (with ω fixed), doubling the moment of inertia directly doubles the rotational kinetic energy — a linear relationship, unlike ω's squared dependence." },
-    { id: "6-5", topic: "6.1 Rotational Kinetic Energy", stem: "Find the rotational kinetic energy of a solid disk (mass 3.0 kg, radius 0.40 m) spinning at 10 rad/s.", choices: ["6.0 J", "12 J", "24 J", "48 J"], correct: 2, explanation: "I = ½MR² = ½(3.0)(0.40)² = 0.24 kg·m². KE_rot = ½(0.24)(10)² = ½(0.24)(100) = 24 J." },
+    { id: "6-5", topic: "6.1 Rotational Kinetic Energy", stem: "Find the rotational kinetic energy of a solid disk (mass 3.0 kg, radius 0.40 m) spinning at 10 rad/s.", choices: ["6.0 J", "12 J", "24 J", "48 J"], correct: 1, explanation: "I = ½MR² = ½(3.0)(0.40)² = 0.24 kg·m². KE_rot = ½Iω² = ½(0.24)(10)² = ½(0.24)(100) = 12 J." },
     { id: "6-6", topic: "6.1 Rotational Kinetic Energy", stem: "In the formula KE_rot=½Iω², what role does moment of inertia I play, by direct analogy with translational kinetic energy KE=½mv²?", choices: ["The role of velocity.", "The role of mass.", "The role of force.", "I has no analog in the translational formula."], correct: 1, explanation: "Moment of inertia I plays the same structural role in the rotational KE formula that mass m plays in the translational KE formula — both represent the object's 'inertia' being multiplied by the square of its speed (angular or linear)." },
     { id: "6-7", topic: "6.1 Rotational Kinetic Energy", stem: "A hoop and a solid disk have equal mass, radius, and angular velocity. Compare their rotational kinetic energies.", choices: ["The hoop has greater rotational KE, since it has the greater moment of inertia.", "The disk has greater rotational KE.", "They have equal rotational KE, since KE only depends on ω.", "Cannot be compared without more information."], correct: 0, explanation: "Since KE_rot=½Iω² and both objects share the same ω, the object with the larger moment of inertia has the greater rotational KE. The hoop (I=MR²) has twice the moment of inertia of the disk (I=½MR²) for equal mass and radius, so it has twice the rotational KE as well." },
     { id: "6-8", topic: "6.1 Rotational Kinetic Energy", stem: "Find the rotational kinetic energy of a hoop (mass 2.0 kg, radius 0.50 m) spinning at 6.0 rad/s.", choices: ["4.5 J", "9.0 J", "18 J", "36 J"], correct: 1, explanation: "I = MR² = (2.0)(0.50)² = 0.5 kg·m². KE_rot = ½Iω² = ½(0.5)(6.0)² = ½(0.5)(36) = 9.0 J." },
@@ -2958,26 +2958,26 @@ const FRQ_CONTENT = {
       id: "frq-3-1",
       source: "Original",
       title: "A Block Launched by a Spring Up a Rough Ramp",
-      prompt: "A 2.0 kg block is pressed against a spring (k = 400 N/m), compressing it 0.20 m, on a horizontal frictionless section of track. The block is released, leaves the spring, and then travels up a ramp with friction (μ_k = 0.25) that rises to a height of 1.5 m. (a) Find the block's speed just after leaving the spring. (b) Find the block's kinetic energy at the top of the 1.5 m ramp, accounting for both the height gained and friction, given that the ramp's incline is 30° (so the distance traveled along the ramp is 3.0 m) (cos30°≈0.87). (c) A student claims that since energy is always conserved, the block's kinetic energy at the top must equal its kinetic energy right after leaving the spring. Evaluate this claim.",
+      prompt: "A 2.0 kg block is pressed against a spring (k = 400 N/m), compressing it 0.50 m, on a horizontal frictionless section of track. The block is released, leaves the spring, and then travels up a ramp with friction (μ_k = 0.25) that rises to a height of 1.5 m. (a) Find the block's speed just after leaving the spring. (b) Find the block's kinetic energy at the top of the 1.5 m ramp, accounting for both the height gained and friction, given that the ramp's incline is 30° (so the distance traveled along the ramp is 3.0 m) (cos30°≈0.87). (c) A student claims that since energy is always conserved, the block's kinetic energy at the top must equal its kinetic energy right after leaving the spring. Evaluate this claim.",
       parts: [
         { label: "(a)", ask: "Find the block's speed just after leaving the spring.", steps: [
           "Recognize that on the frictionless section, all elastic PE converts to KE: ½kx² = ½mv².",
-          "Substitute known values: ½(400)(0.20)² = ½(2.0)v², so 8.0 = 1.0v².",
-          "Solve: v² = 8.0, so v = √8.0 ≈ 2.83 m/s."
+          "Substitute known values: ½(400)(0.50)² = ½(2.0)v², so 50.0 = 1.0v².",
+          "Solve: v² = 50.0, so v = √50.0 ≈ 7.07 m/s."
         ]},
         { label: "(b)", ask: "Find the block's kinetic energy at the top of the ramp.", steps: [
-          "Find the block's kinetic energy right after leaving the spring: KE = ½kx² = 8.0 J (from part a, before taking the square root).",
+          "Find the block's kinetic energy right after leaving the spring: KE = ½kx² = 50.0 J (from part a, before taking the square root).",
           "Find the normal force on the ramp: F_N = mg·cos30° = (2.0)(9.8)(0.87) ≈ 17.05 N.",
           "Find the friction force: f_k = μ_k·F_N = 0.25(17.05) ≈ 4.26 N.",
           "Find the work done by friction over the 3.0 m ramp distance: W_friction = −f_k × d = −(4.26)(3.0) ≈ −12.8 J.",
           "Find the height gained and the resulting PE increase: PE gained = mgh = (2.0)(9.8)(1.5) = 29.4 J.",
-          "Apply the energy balance: KE_top = KE_bottom − ΔPE − |W_friction| = 8.0 − 29.4 − 12.8 = −34.2 J.",
-          "Recognize this negative result means the block does NOT actually make it to the top of the ramp — it runs out of kinetic energy partway up, since it started with far less energy (8.0 J) than the 29.4 J needed to climb the ramp alone, even before considering friction."
+          "Apply the energy balance: KE_top = KE_bottom − ΔPE − |W_friction| = 50.0 − 29.4 − 12.8 = 7.8 J.",
+          "Since this result is positive, the block does make it to the top of the ramp, arriving with 7.8 J of kinetic energy remaining."
         ]},
         { label: "(c)", ask: "Evaluate the student's claim.", steps: [
           "Recall the actual condition for conservation of MECHANICAL energy specifically: it only holds when no non-conservative force does work on the system.",
           "Note that friction acts on the ramp portion of this problem, doing negative work and removing mechanical energy from the block.",
-          "Conclude the student's claim is INCORRECT: while TOTAL energy (including heat generated by friction) is indeed always conserved, mechanical energy (KE+PE) specifically is NOT conserved here, since friction converts some of it into heat — this is exactly why the block's kinetic energy at the top (or wherever it stops) is less than what simple conservation of mechanical energy alone would predict."
+          "Conclude the student's claim is INCORRECT: while TOTAL energy (including heat generated by friction) is indeed always conserved, mechanical energy (KE+PE) specifically is NOT conserved here, since friction converts some of it into heat — this is exactly why the block's kinetic energy at the top (7.8 J) is less than its kinetic energy right after leaving the spring (50.0 J), even though both PE gained and heat lost account for the full difference."
         ]}
       ]
     },
@@ -3232,12 +3232,12 @@ const FRQ_CONTENT = {
         ]},
         { label: "(c)", ask: "Compare rotational kinetic energy before and after.", steps: [
           "Find KE before (person at center contributes zero, only the platform is spinning): KE_before = ½(400)(2.0)² = ½(400)(4.0) = 800 J.",
-          "Find KE after: KE_after = ½(600)(1.33)² ≈ ½(600)(1.77) ≈ 531 J.",
-          "Compare: KE decreased from 800 J to about 531 J — energy was REMOVED from the rotational system (about 269 J), as the person walking outward against the platform's rotation does negative work on the system (the platform has to do work on the person to keep them moving in a circle at increasing radius, which comes at the cost of the platform's own rotational KE)."
+          "Find KE after: KE_after = ½(600)(4/3)² = ½(600)(16/9) = 4800/9 ≈ 533 J.",
+          "Compare: KE decreased from 800 J to about 533 J — energy was REMOVED from the rotational system (about 267 J), as the person walking outward against the platform's rotation does negative work on the system (the platform has to do work on the person to keep them moving in a circle at increasing radius, which comes at the cost of the platform's own rotational KE)."
         ]},
         { label: "(d)", ask: "Evaluate the student's claim.", steps: [
           "Recall that angular momentum conservation and kinetic energy conservation are separate, independent laws — zero external torque guarantees the former but says nothing about the latter.",
-          "Point to the direct numerical evidence from part (c): kinetic energy dropped from 800 J to about 531 J, even though angular momentum was exactly conserved throughout (that's literally how ω_final was calculated).",
+          "Point to the direct numerical evidence from part (c): kinetic energy dropped from 800 J to about 533 J, even though angular momentum was exactly conserved throughout (that's literally how ω_final was calculated).",
           "Conclude the student's claim is INCORRECT: angular momentum conservation does not imply kinetic energy conservation — this scenario is actually the mirror image of the skater pulling her arms IN (which increases KE); here, mass is moving OUTWARD, which decreases the system's rotational kinetic energy instead."
         ]}
       ]
@@ -3323,7 +3323,7 @@ const FRQ_CONTENT = {
       id: "frq-7-3",
       source: "Original",
       title: "A Mass Dropped Onto a Spring",
-      prompt: "A 1.5 kg block sits at rest on top of a vertical spring (k=600 N/m), compressing it slightly at equilibrium. The block is then pushed down an additional 0.10 m from that equilibrium position and released from rest, undergoing SHM. (a) Find the angular frequency of the resulting oscillation. (b) Find the period of oscillation. (c) Find the maximum speed of the block during its motion. (d) A student claims that because the block started below the spring's natural (uncompressed) length, the amplitude of its SHM must be measured from the spring's natural length, not from the new equilibrium position. Evaluate this claim.",
+      prompt: "A 1.5 kg block is attached to the top of a vertical spring (k=600 N/m), compressing it slightly at equilibrium. The block is then pushed down an additional 0.10 m from that equilibrium position and released from rest, undergoing SHM. (a) Find the angular frequency of the resulting oscillation. (b) Find the period of oscillation. (c) Find the maximum speed of the block during its motion. (d) A student claims that because the block started below the spring's natural (uncompressed) length, the amplitude of its SHM must be measured from the spring's natural length, not from the new equilibrium position. Evaluate this claim.",
       parts: [
         { label: "(a)", ask: "Find the angular frequency.", steps: [
           "Apply ω=√(k/m) directly, since angular frequency for a spring-mass system depends only on k and m, regardless of orientation or where equilibrium happens to sit: ω = √(600/1.5) = √400 = 20 rad/s."
@@ -3410,8 +3410,8 @@ const FRQ_CONTENT = {
         ]},
         { label: "(b)", ask: "Find the tension needed for each object, or determine if none is needed.", steps: [
           "For Object A: weight = mg = (6.0)(9.8) = 58.8 N. Since buoyant force (78.4 N) exceeds weight (58.8 N), the object would float upward on its own — a string is needed to hold it DOWN, with tension T_A = F_b − weight = 78.4 − 58.8 = 19.6 N (string pulling downward).",
-          "For Object B: weight = mg = (12)(9.8) = 117.6 N. Since weight (117.6 N) exceeds buoyant force (78.4 N), the object would sink on its own — if a string is attached to the bottom holding it in place at that depth, it would actually need to pull it UP, or more naturally, the object would simply rest on the tank floor with a normal force making up the difference, needing no string tension at all in the downward sense the problem may have implied.",
-          "Recognize this distinction: Object A needs to be held DOWN (tension pulling down, 19.6 N); Object B doesn't need to be held down at all, since it would sink without support — it would need to be held UP if suspended at that depth, requiring a normal force or upward string tension of 117.6−78.4=39.2 N instead."
+          "For Object B: weight = mg = (12)(9.8) = 117.6 N. Since weight (117.6 N) exceeds buoyant force (78.4 N), the object would sink on its own. Taking the problem's setup as a string suspending it at a fixed depth (not resting on the tank floor), the string must pull UP to hold it there, with tension = 117.6 − 78.4 = 39.2 N.",
+          "Recognize this distinction: Object A needs to be held DOWN (tension pulling down, 19.6 N, since it's more buoyant than heavy); Object B needs to be held UP (tension pulling up, 39.2 N, since it's heavier than buoyant) — the string's role flips direction depending on which force wins."
         ]},
         { label: "(c)", ask: "Evaluate the student's claim.", steps: [
           "Recall Archimedes' Principle: buoyant force depends ONLY on the volume of fluid displaced (and the fluid's density) — not on the submerged object's own mass or density at all.",

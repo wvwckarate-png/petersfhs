@@ -408,7 +408,7 @@ const STUDY_CONTENT = {
 
   <div class="key-idea">
     <span class="tag-label idea">Key Idea — Bacon's Rebellion Was a Turning Point in the Shift Toward Racial Slavery</span>
-    <p>Before the 1670s, the Chesapeake's dominant labor source was <strong>indentured servitude</strong> — young English migrants (many escaping poverty at home) contracted their labor for a fixed term, typically four to seven years, in exchange for passage to the colonies. In 1676, <strong>Bacon's Rebellion</strong> erupted in Virginia: a coalition of poor colonists — including former indentured servants and even some enslaved people — rose up against Virginia's colonial government, angry over the elite's land policy and its failure to support aggressive frontier expansion against Native peoples. The rebellion was suppressed, but it deeply alarmed Virginia's planter elite, who recognized the danger of a growing population of poor, landless, racially-similar free and freed servants who could unite in rebellion across racial lines. In the following decades, Virginia's elite increasingly shifted toward enslaved African labor specifically — a labor source that, unlike indentured servitude, was permanent, hereditary, and (elites calculated) less likely to unite with poor free whites in future uprisings.</p>
+    <p>Before the 1670s, the Chesapeake's dominant labor source was <strong>indentured servitude</strong> — young English migrants (many escaping poverty at home) contracted their labor for a fixed term, typically four to seven years, in exchange for passage to the colonies. In 1676, <strong>Bacon's Rebellion</strong> erupted in Virginia: a coalition of poor colonists — including former indentured servants and even some enslaved people — rose up against Virginia's colonial government, angry over the elite's land policy and its failure to support aggressive frontier expansion against Native peoples. The rebellion was suppressed, but it deeply alarmed Virginia's planter elite, who recognized the danger of a growing population of poor, landless free and freed servants who could unite in rebellion across racial lines. In the following decades, Virginia's elite increasingly shifted toward enslaved African labor specifically — a labor source that, unlike indentured servitude, was permanent, hereditary, and (elites calculated) less likely to unite with poor free whites in future uprisings.</p>
   </div>
 
   <div class="trap">
@@ -2998,609 +2998,7638 @@ const UNITS = [
 ];
 
 const QUESTIONS = {
-  1: [
-    { id: "1-1", topic: "1.1 Native American Societies", stem: "Which factor most directly explains why Pacific Northwest Native societies developed complex social stratification without practicing agriculture?", choices: ["A shortage of arable land forced reliance on trade instead.", "Abundant, reliable salmon runs provided a food surplus dense enough to support permanent, stratified settlement without farming.", "Contact with European traders introduced stratified social structures.", "Pacific Northwest societies were less numerous than agricultural societies elsewhere."], correct: 1, explanation: "Abundant, reliable salmon runs provided a food surplus dense and predictable enough to support permanent, socially stratified settlements without requiring agriculture — a direct example of geography (Theme GEO) shaping social structure." },
-    { id: "1-2", topic: "1.1 Native American Societies", stem: "The Haudenosaunee (Iroquois) Confederacy is historically significant primarily as an example of which of the following?", choices: ["A purely nomadic hunting society with no political structure.", "A sophisticated political confederation uniting multiple nations under a shared governing structure.", "A society organized entirely around Pacific salmon fishing.", "A society that had no contact with European colonizers before 1700."], correct: 1, explanation: "The Haudenosaunee Confederacy united five (later six) nations under a sophisticated shared political structure — a genuine, historically significant example of complex Native American governance, directly refuting characterizations of pre-contact societies as simple or unorganized." },
-    { id: "1-3", topic: "1.1 Native American Societies", stem: "What was Cahokia?", choices: ["A Spanish colonial settlement in Florida.", "A major Mississippian mound-building urban center near present-day St. Louis, with population possibly in the tens of thousands at its peak.", "A Pueblo irrigation settlement in the Southwest.", "A term for Great Plains bison-hunting bands."], correct: 1, explanation: "Cahokia was a major Mississippian culture urban center near present-day St. Louis, with a population possibly in the tens of thousands at its peak around 1050–1200 CE — a genuine large, complex pre-contact urban society." },
-    { id: "1-4", topic: "1.1 Native American Societies", stem: "Which agricultural practice, sometimes called the 'Three Sisters,' was widely used by Eastern Woodlands Native societies?", choices: ["Growing corn, beans, and squash together.", "Growing wheat, barley, and oats together.", "Irrigating rice paddies.", "Cultivating grapes for wine production."], correct: 0, explanation: "The 'Three Sisters' — corn, beans, and squash grown together, with each crop benefiting the others — was a widely used agricultural practice among Eastern Woodlands Native societies." },
-    { id: "1-5", topic: "1.1 Native American Societies", stem: "Why is it historically inaccurate to describe the mounted, horse-based Plains Indian culture as characteristic of the pre-contact (before 1492) Great Plains?", choices: ["Horses were always present on the Great Plains before European contact.", "Horses were introduced to North America by Spanish colonizers and spread to Plains societies gradually, well after this period's timeframe.", "Plains societies never adopted horses at any point in their history.", "This characterization is actually historically accurate for the pre-contact period."], correct: 1, explanation: "Horses were introduced to North America by Spanish colonizers and spread gradually northward to Plains societies over subsequent generations — the classic mounted Plains Indian culture developed well after this period's 1491–1607 timeframe, not before European contact." },
-    { id: "1-6", topic: "1.1 Native American Societies", stem: "A historian argues that pre-contact Native American societies should be studied with the same analytical seriousness applied to any complex society elsewhere in the world. Which piece of evidence would most directly support this argument?", choices: ["The small size of most Great Plains hunting bands.", "The Haudenosaunee Confederacy's sophisticated multi-nation governing structure and Cahokia's large urban population.", "The absence of any Native American agricultural societies.", "The uniformity of Native American societies across all regions of North America."], correct: 1, explanation: "The Haudenosaunee Confederacy's sophisticated governance and Cahokia's substantial urban population directly support treating pre-contact Native societies with serious analytical attention, comparable to any complex society elsewhere — countering flattening or dismissive characterizations." },
-    { id: "1-7", topic: "1.1 Native American Societies", stem: "Which Native American society type relied primarily on irrigation-based agriculture in an arid climate?", choices: ["Pacific Northwest societies", "Great Plains societies (pre-horse)", "Southwest Pueblo peoples", "None of these groups practiced irrigation"], correct: 2, explanation: "Southwest Pueblo peoples relied on irrigation-based agriculture to farm successfully in their arid climate, supporting settled communities with multi-story adobe dwellings." },
-    { id: "1-8", topic: "1.1 Native American Societies", stem: "What best explains the general causal relationship between food source reliability and Native American social/political complexity?", choices: ["There is no meaningful relationship between food source and social complexity.", "A more reliable, dense food surplus (whether from agriculture or, in some cases, non-farmed resources) tended to support larger, more stratified, more sedentary societies; less reliable or lower-density food sources tended to support smaller, more mobile societies.", "Only societies practicing agriculture ever developed complex social structures.", "Social complexity was determined entirely by proximity to the Atlantic coast."], correct: 1, explanation: "A more reliable, dense food surplus — whether from agriculture (Southwest, Eastern Woodlands) or abundant non-farmed resources (Pacific Northwest salmon) — tended to support larger, more sedentary, more socially stratified societies, while less reliable or lower-density food sources favored smaller, more mobile societies." },
-    { id: "1-9", topic: "1.1 Native American Societies", stem: "What role did potlatch ceremonies play in Pacific Northwest Native societies?", choices: ["They redistributed wealth and status within a socially stratified society.", "They were used exclusively for agricultural planning.", "They marked the introduction of European trade goods.", "They had no social or economic function."], correct: 0, explanation: "Potlatch ceremonies redistributed wealth and status within Pacific Northwest societies — a social and economic practice connected to the region's stratified social structure, itself made possible by abundant salmon-based food surplus." },
-    { id: "1-10", topic: "1.1 Native American Societies", stem: "Which of the following best describes the diversity of Native American societies in 1491?", choices: ["A single, uniform culture spanning the entire continent.", "An enormous diversity of distinct societies, shaped significantly by regional geography and available resources.", "Only two major cultural groups: agricultural and non-agricultural.", "Native societies existed only in the Eastern half of the continent."], correct: 1, explanation: "Native American societies in 1491 displayed enormous diversity, shaped significantly by regional geography and resource availability — the central corrective point of this section, directly countering any monolithic characterization." },
-    { id: "1-11", topic: "1.1 Native American Societies", stem: "By the time of sustained European contact, what was the general state of Cahokia?", choices: ["At its historical peak population.", "In decline, having passed its peak population and influence.", "Just beginning to be founded.", "Cahokia had never existed by this time."], correct: 1, explanation: "Cahokia was in decline by the time of sustained European contact — its peak population and influence occurred earlier, around 1050–1200 CE, with decline setting in before Europeans arrived." },
-    { id: "1-12", topic: "1.2 European Exploration", stem: "What does the 'God, Gold, and Glory' framework describe?", choices: ["Three unrelated, mutually exclusive motives for European exploration.", "Three genuinely distinct, often overlapping motives — religious, economic, and national/personal prestige — driving European exploration.", "A framework used exclusively to describe Portuguese exploration.", "A framework with no historical basis or usefulness."], correct: 1, explanation: "'God, Gold, and Glory' describes three genuinely distinct but often overlapping motives — religious mission, economic gain, and national/personal prestige — that together explain European exploration, frequently operating simultaneously within a single expedition." },
-    { id: "1-13", topic: "1.2 European Exploration", stem: "Which specific ship design, developed by the Portuguese, was crucial to enabling sustained transoceanic exploration?", choices: ["The galleon", "The caravel", "The clipper ship", "The steamship"], correct: 1, explanation: "The caravel, a Portuguese ship design combining maneuverability with the ability to sail effectively against the wind, was crucial to enabling sustained, practical transoceanic exploration." },
-    { id: "1-14", topic: "1.2 European Exploration", stem: "Which navigational tools were significant technological developments enabling long ocean voyages?", choices: ["The telescope and sextant, developed in the 1700s.", "The magnetic compass and the astrolabe.", "GPS-based navigation systems.", "Radio communication."], correct: 1, explanation: "The magnetic compass and the astrolabe (used for determining latitude) were significant navigational technologies enabling long, open-ocean voyages during the Age of Exploration." },
-    { id: "1-15", topic: "1.2 European Exploration", stem: "Which European nation led early exploration of the African coast, culminating in Vasco da Gama's 1498 sea route to India?", choices: ["Spain", "France", "Portugal", "England"], correct: 2, explanation: "Portugal, under the sponsorship of Prince Henry the Navigator, led early exploration down the African coast, culminating in Vasco da Gama's 1498 voyage establishing a sea route to India around Africa." },
-    { id: "1-16", topic: "1.2 European Exploration", stem: "Is it accurate to describe Columbus's 1492 voyage as the absolute beginning of the European Age of Exploration?", choices: ["Yes, no European exploration occurred before 1492.", "No — Portugal had already been exploring the African coast for decades before 1492; Columbus's voyage is significant specifically for opening sustained European contact with the Americas.", "Yes, because Columbus was the first European to ever cross any ocean.", "No, because Columbus's voyage had no historical significance at all."], correct: 1, explanation: "Portugal had already been engaged in African coastal exploration for decades before 1492 — Columbus's Spanish-sponsored voyage is significant specifically for opening SUSTAINED European contact with the Americas, not for being the absolute first European exploration voyage." },
-    { id: "1-17", topic: "1.2 European Exploration", stem: "What was Columbus originally seeking when he set sail in 1492?", choices: ["A land route through Africa.", "A western sea route to Asia.", "A specific location to found a Spanish military base.", "The source of the Nile River."], correct: 1, explanation: "Columbus was originally seeking a western sea route to Asia, sponsored by the Spanish crown, and instead landed in the Caribbean, initiating sustained European contact with the Americas." },
-    { id: "1-18", topic: "1.2 European Exploration", stem: "How did the economic motive ('Gold') for exploration specifically relate to existing trade routes to Asia?", choices: ["European powers sought a western sea route to bypass expensive overland routes controlled by Middle Eastern and Italian intermediaries.", "European powers had no interest in Asian trade goods.", "Existing overland trade routes to Asia were already free and open to all European powers.", "The economic motive had no relationship to Asian trade at all."], correct: 0, explanation: "The economic motive for exploration included seeking a western sea route to Asian markets specifically to bypass the expensive overland trade routes controlled by Middle Eastern and Italian intermediaries, aiming to access valuable goods more directly and profitably." },
-    { id: "1-19", topic: "1.2 European Exploration", stem: "Which motive from the 'God, Gold, and Glory' framework best explains European monarchies' competition for territorial claims against rival powers?", choices: ["God", "Gold", "Glory", "None of these motives relate to inter-European competition"], correct: 2, explanation: "'Glory' — national and personal prestige — best explains European monarchies' direct competition with rival powers for territorial claims and international standing." },
-    { id: "1-20", topic: "1.2 European Exploration", stem: "A single Spanish expedition seeks precious metals, claims new territory for the crown, and aims to convert Native peoples to Catholicism. How many of the three 'God, Gold, and Glory' motives does this single expedition illustrate?", choices: ["Only one motive", "Only two motives", "All three motives simultaneously", "None of the three motives"], correct: 2, explanation: "This expedition illustrates all three motives simultaneously: Gold (precious metals), Glory (claiming territory for the crown), and God (religious conversion) — directly illustrating how these motives frequently overlapped rather than operating in isolation." },
-    { id: "1-21", topic: "1.2 European Exploration", stem: "Why was the timing of sustained transoceanic exploration in the late 1400s not primarily explained by motive alone?", choices: ["Motive was the only relevant factor; timing has no other explanation.", "Specific technological developments (the caravel, compass, astrolabe) were necessary preconditions that made long ocean voyages newly practical, regardless of how long the underlying motives (religious, economic, competitive) had already existed.", "European nations had no motive to explore before the late 1400s.", "Technology played no role in enabling exploration."], correct: 1, explanation: "Motives like religious mission, economic ambition, and national competition had existed for a long time before the late 1400s — what changed was the arrival of specific enabling technology (the caravel, compass, astrolabe) that made sustained transoceanic voyages newly practical, explaining the specific TIMING of the exploration surge." },
-    { id: "1-22", topic: "1.3 Columbian Exchange", stem: "Who coined the term 'Columbian Exchange'?", choices: ["Christopher Columbus himself", "Historian Alfred Crosby", "Hernán Cortés", "Bartolomé de las Casas"], correct: 1, explanation: "Historian Alfred Crosby coined the term 'Columbian Exchange' to describe the massive, bidirectional transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres following 1492." },
-    { id: "1-23", topic: "1.3 Columbian Exchange", stem: "Which of the following crops moved from the Americas to Europe as part of the Columbian Exchange?", choices: ["Wheat and barley", "Maize and potatoes", "Rice and sugarcane", "Coffee and bananas"], correct: 1, explanation: "Maize (corn) and potatoes moved from the Americas to Europe as part of the Columbian Exchange, becoming staple crops that significantly expanded the European food supply." },
-    { id: "1-24", topic: "1.3 Columbian Exchange", stem: "Which of the following moved from the Old World to the Americas as part of the Columbian Exchange?", choices: ["Maize and tobacco", "Horses and cattle", "Potatoes and tomatoes", "Cacao and squash"], correct: 1, explanation: "Horses and cattle moved from the Old World to the Americas as part of the Columbian Exchange, along with crops like wheat and sugarcane — significantly reshaping American agriculture and, eventually, Native ways of life." },
-    { id: "1-25", topic: "1.3 Columbian Exchange", stem: "What is a 'virgin soil epidemic'?", choices: ["An epidemic affecting only agricultural crops, not humans.", "An epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in unusually high mortality.", "A term describing the spread of European crops to the Americas.", "An epidemic that only affects soil fertility."], correct: 1, explanation: "A 'virgin soil epidemic' describes an epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in catastrophically high mortality — precisely the situation Native American populations faced with Old World diseases like smallpox." },
-    { id: "1-26", topic: "1.3 Columbian Exchange", stem: "What was the dominant factor in the catastrophic decline of Native American populations following European contact?", choices: ["Direct military conquest alone.", "Disease, particularly virgin soil epidemics like smallpox, to which Native populations had no prior immunity.", "Native populations voluntarily relocated to Europe.", "Climate change unrelated to European contact."], correct: 1, explanation: "Disease — particularly virgin soil epidemics like smallpox, to which Native populations had no prior immunity — was the dominant factor in catastrophic Native American population decline, exceeding the demographic impact of direct military conquest." },
-    { id: "1-27", topic: "1.3 Columbian Exchange", stem: "Approximately what range of Native American population decline do historians commonly cite for some regions during the first century of sustained contact?", choices: ["5–10%", "20–30%", "80–90%", "Essentially no measurable decline"], correct: 2, explanation: "Historians commonly cite population declines estimated at 80–90% in some regions during the first century of sustained contact, reflecting the catastrophic demographic impact of virgin soil epidemics." },
-    { id: "1-28", topic: "1.3 Columbian Exchange", stem: "How did New World crops contribute to European population growth following the Columbian Exchange?", choices: ["They had no effect on European population trends.", "Calorie-dense crops like the potato and maize could be grown on land unsuited to traditional grains, expanding the overall European food supply.", "New World crops were toxic and reduced European population.", "New World crops were never successfully cultivated in Europe."], correct: 1, explanation: "Calorie-dense New World crops like the potato and maize could be grown successfully on land not well-suited to traditional European grain crops, expanding the overall food supply and contributing to sustained European population growth." },
-    { id: "1-29", topic: "1.3 Columbian Exchange", stem: "Which best describes the overall nature of the Columbian Exchange?", choices: ["A one-directional transfer from Europe to the Americas only.", "A massive, bidirectional transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres.", "A transfer limited exclusively to precious metals.", "A purely symbolic concept with no measurable historical impact."], correct: 1, explanation: "The Columbian Exchange was a massive, bidirectional transfer — moving in both directions between the Eastern and Western Hemispheres — of plants, animals, diseases, and people, with dramatically different consequences on each side of the Atlantic." },
-    { id: "1-30", topic: "1.3 Columbian Exchange", stem: "A historian argues that European military superiority alone explains the rapid decline of Native American societies after 1492. How would this section's content evaluate that argument?", choices: ["The argument is fully accurate and requires no further evidence.", "The argument is incomplete — disease, not military conquest alone, was the dominant demographic factor in Native population decline.", "The argument incorrectly claims Native societies never declined at all.", "This section provides no basis for evaluating such an argument."], correct: 1, explanation: "This section's content directly evaluates such an argument as incomplete — while military conquest was real and significant, disease (particularly virgin soil epidemics) was the dominant factor in Native population decline, frequently preceding or occurring independent of direct military conquest." },
-    { id: "1-31", topic: "1.3 Columbian Exchange", stem: "Which of the following diseases is commonly cited as part of the Old World disease burden introduced to Native American populations?", choices: ["Smallpox", "Malaria (native to the Americas prior to contact, in this framing)", "A disease exclusive to European livestock with no human transmission", "None; no new diseases were introduced during this period"], correct: 0, explanation: "Smallpox is commonly cited as a key Old World disease introduced to Native American populations, causing catastrophic virgin soil epidemics due to the population's lack of prior immunity." },
-    { id: "1-32", topic: "1.3 Columbian Exchange", stem: "Why does the Columbian Exchange framework matter for understanding later periods of this course, not just Period 1?", choices: ["It has no relevance beyond Period 1.", "Its consequences — Native population collapse, labor shortages, and the resulting shift toward African slavery — directly shape colonial economic and social development throughout subsequent periods.", "The Columbian Exchange concluded entirely by 1500 with no lasting effects.", "It only affected European history, not American history."], correct: 1, explanation: "The Columbian Exchange's consequences — Native population collapse, resulting labor shortages, and the consequent shift toward African slave labor — directly shape colonial economic and social development throughout subsequent periods of this course, making it a foundational causal framework rather than an isolated Period 1 topic." },
-    { id: "1-33", topic: "1.4 Spanish Conquest", stem: "Who led the Spanish conquest of the Aztec Empire?", choices: ["Francisco Pizarro", "Hernán Cortés", "Bartolomé de las Casas", "Ferdinand Magellan"], correct: 1, explanation: "Hernán Cortés led the Spanish conquest of the Aztec Empire (1519–1521), exploiting internal political divisions and disease to defeat a much larger empire with a comparatively small Spanish force." },
-    { id: "1-34", topic: "1.4 Spanish Conquest", stem: "Who led the Spanish conquest of the Inca Empire?", choices: ["Hernán Cortés", "Francisco Pizarro", "Christopher Columbus", "Vasco da Gama"], correct: 1, explanation: "Francisco Pizarro led the Spanish conquest of the Inca Empire (1532–1533), similarly exploiting internal political weakness and the effects of disease." },
-    { id: "1-35", topic: "1.4 Spanish Conquest", stem: "Which group did Cortés ally with to significantly strengthen his forces against the Aztec Empire?", choices: ["The Inca", "The Tlaxcalans, who resented Aztec rule", "The Pueblo peoples of the Southwest", "The Haudenosaunee Confederacy"], correct: 1, explanation: "Cortés allied with the Tlaxcalans and other groups who resented Aztec rule, turning a small Spanish force into a much larger combined army — a critical factor in the conquest's success." },
-    { id: "1-36", topic: "1.4 Spanish Conquest", stem: "Which factor is commonly UNDER-emphasized in oversimplified accounts of Spanish conquest that credit superior weaponry alone?", choices: ["The role of Spanish naval technology.", "The exploitation of existing political divisions among Native groups, and the weakening effects of disease.", "The role of the printing press in spreading conquest narratives.", "The role of English colonial competition."], correct: 1, explanation: "Oversimplified accounts crediting Spanish weaponry alone commonly under-emphasize the exploitation of existing Native political divisions (alliances with rival groups) and the significant weakening effects of disease on both target empires during the conquest period." },
-    { id: "1-37", topic: "1.4 Spanish Conquest", stem: "What was the Spanish casta system?", choices: ["An informal social custom with no legal basis.", "A formal, legally codified racial hierarchy determining social status, legal rights, and economic opportunity based on ancestry.", "A system used exclusively to organize Spanish military ranks.", "A trade agreement between Spain and Portugal."], correct: 1, explanation: "The Spanish casta system was a formal, legally codified racial hierarchy that determined an individual's social status, legal rights, and economic opportunity based on ancestry — not merely informal social custom." },
-    { id: "1-38", topic: "1.4 Spanish Conquest", stem: "In the Spanish casta system, who generally held the highest colonial offices?", choices: ["Mestizos", "Criollos (Spanish descent, born in the Americas)", "Peninsulares (Spanish-born colonists)", "Native Americans"], correct: 2, explanation: "Peninsulares — colonists born in Spain itself — generally held the highest colonial offices in the casta system, ranking above criollos (Spanish descent but born in the Americas), despite criollos often being wealthy." },
-    { id: "1-39", topic: "1.4 Spanish Conquest", stem: "What does 'mestizo' refer to in the Spanish casta system?", choices: ["A person of purely Spanish ancestry born in Spain.", "A person of mixed Spanish and Native American ancestry.", "A person of purely African ancestry.", "A term with no relationship to ancestry."], correct: 1, explanation: "'Mestizo' referred to a person of mixed Spanish and Native American ancestry within the Spanish casta system's hierarchy." },
-    { id: "1-40", topic: "1.4 Spanish Conquest", stem: "Why does the formal, legal nature of the casta system matter for comparison with later periods of American history?", choices: ["It has no relevance to any later period.", "It represents a concrete historical example of a legally institutionalized racial hierarchy, a pattern the course revisits when examining other systems of legal racial hierarchy in later periods.", "The casta system was the only racial hierarchy in all of American history.", "Legal racial hierarchies never appear again after this period."], correct: 1, explanation: "The casta system's formal, legal nature makes it a concrete historical example of an institutionalized racial hierarchy — directly useful for later comparison with other systems of legal racial hierarchy that develop in subsequent periods of American history, a recurring comparison this course revisits." },
-    { id: "1-41", topic: "1.4 Spanish Conquest", stem: "Approximately when did Cortés's conquest of the Aztec Empire occur?", choices: ["1492–1493", "1519–1521", "1607–1610", "1776–1783"], correct: 1, explanation: "Cortés's conquest of the Aztec Empire occurred approximately 1519–1521, roughly three decades after Columbus's initial 1492 voyage." },
-    { id: "1-42", topic: "1.4 Spanish Conquest", stem: "Which of the following combined factors best explains the success of Spanish conquest over large, sophisticated Native empires?", choices: ["Spanish weaponry alone, with no other contributing factors.", "A combination of superior weaponry, exploitation of existing political divisions, and the weakening effects of disease.", "Sheer numerical superiority of Spanish forces over Native populations.", "Native empires voluntarily surrendered without any resistance."], correct: 1, explanation: "A complete explanation requires combining multiple factors: superior weaponry, exploitation of existing Native political divisions, and the significant weakening effects of disease — no single factor alone provides a complete explanation." },
-    { id: "1-43", topic: "1.5 Labor Systems", stem: "What was the encomienda system?", choices: ["A system granting Spanish colonists the right to demand labor and tribute from Native Americans in a specific area.", "A trade agreement between Spain and England.", "A system of paid wage labor for Native Americans.", "A Native American system of communal land management."], correct: 0, explanation: "The encomienda system granted individual Spanish colonists (encomenderos) the right to demand labor and tribute from Native Americans living in a specific area, nominally in exchange for protection and Christianization." },
-    { id: "1-44", topic: "1.5 Labor Systems", stem: "In practice, how did the encomienda system typically function?", choices: ["As a genuinely voluntary, fairly compensated labor arrangement.", "As a brutal forced labor system, contributing significantly to Native population decline through overwork.", "As a purely religious institution with no labor component.", "As a system exclusively benefiting Native American communities."], correct: 1, explanation: "In practice, encomienda functioned as a brutal forced labor system — overwork under this system, alongside disease, contributed significantly to catastrophic Native population decline in areas under Spanish control." },
-    { id: "1-45", topic: "1.5 Labor Systems", stem: "Who was Bartolomé de las Casas?", choices: ["A conquistador who led the conquest of the Inca Empire.", "A Dominican friar who became a prominent critic of the encomienda system's treatment of Native peoples.", "The Spanish king who authorized Columbus's voyage.", "A leader of the Tlaxcalan alliance against the Aztecs."], correct: 1, explanation: "Bartolomé de las Casas was a Dominican friar who became a prominent critic of the encomienda system's brutal treatment of Native peoples — though his own history includes complexity, discussed further in this section." },
-    { id: "1-46", topic: "1.5 Labor Systems", stem: "What is historically notable, and complicating, about Bartolomé de las Casas's early advocacy?", choices: ["He had no complicating history and was a consistently unblemished moral reformer.", "He initially proposed African slave labor as an alternative to Native forced labor, a position he later regretted.", "He personally led the conquest of the Aztec Empire.", "He opposed all forms of Christian conversion efforts in the Americas."], correct: 1, explanation: "Las Casas's early advocacy is historically complicated by his initial proposal of African slave labor as an alternative to Native forced labor — a position he later regretted — illustrating how even contemporary critics of one coerced labor system could still support another." },
-    { id: "1-47", topic: "1.5 Labor Systems", stem: "What was the primary driver of the colonial shift from Native forced labor toward African slave labor?", choices: ["Primarily moral concern among Spanish colonial authorities generally.", "Primarily economic necessity, as disease and overwork caused a severe Native labor shortage.", "A direct order from the Catholic Church banning all Native labor.", "Native Americans voluntarily requested this labor shift."], correct: 1, explanation: "The shift was driven primarily by economic necessity — catastrophic Native population decline from disease and overwork created a severe labor shortage for profitable colonial enterprises, particularly labor-intensive sugar production, which colonists sought to fill with an alternative labor source." },
-    { id: "1-48", topic: "1.5 Labor Systems", stem: "Which cash crop was particularly labor-intensive and significant in driving demand for alternative labor sources in Spanish colonies?", choices: ["Wheat", "Sugar", "Potatoes", "Tobacco exclusively, with no role for sugar"], correct: 1, explanation: "Sugar production was particularly labor-intensive and significant in driving colonial demand for alternative labor sources as the Native labor supply collapsed." },
-    { id: "1-49", topic: "1.5 Labor Systems", stem: "Trace the correct causal sequence: which of the following best orders the chain of events from Columbian Exchange disease to African slavery's growth?", choices: ["African slavery grows → labor shortage → Native population decline → disease.", "Disease → Native population decline → labor shortage → growth of African slave labor as an alternative.", "Labor shortage → disease → Native population decline → African slavery.", "These events have no causal relationship to one another."], correct: 1, explanation: "The correct causal sequence is: Old World disease causes Native population decline → this decline (combined with brutal encomienda conditions) creates a severe labor shortage → colonies turn to African slave labor as an alternative to fill that gap." },
-    { id: "1-50", topic: "1.5 Labor Systems", stem: "Why were West and Central African populations viewed by colonizers as a 'solution' to the colonial labor shortage?", choices: ["They had no prior exposure to any disease of any kind.", "They had greater relative immunity to the specific mix of diseases circulating in the Atlantic world compared to Native American populations.", "They voluntarily offered to replace Native laborers.", "They had no farming or labor skills of any kind."], correct: 1, explanation: "West and Central African populations had greater relative immunity to the specific mix of diseases circulating in the Atlantic world (having had longer historical exposure to some of the same disease families as Europeans) compared to Native American populations, which colonizers used to justify importing enslaved Africans as an alternative labor source." },
-    { id: "1-51", topic: "1.5 Labor Systems", stem: "Is it accurate to describe the shift toward African slavery as a broadly moral reform effort by Spanish colonial society?", choices: ["Yes, moral concern for Native peoples was the dominant driver across Spanish colonial society.", "No — while some individuals like Las Casas raised moral objections, the broader colonial shift was driven primarily by economic necessity as the Native labor supply collapsed.", "Yes, because Las Casas's advocacy represented the near-universal Spanish colonial view.", "No, because there was no shift toward African slavery at all during this period."], correct: 1, explanation: "It is not accurate to characterize this shift as a broad moral reform effort — while individuals like Las Casas raised moral objections, the broader colonial shift toward African slave labor was driven primarily by economic necessity, not a widespread moral reckoning among Spanish colonial society." },
-    { id: "1-52", topic: "1.5 Labor Systems", stem: "Why does the causal chain connecting disease, labor shortage, and African slavery matter for the rest of this AP US History course?", choices: ["It has no relevance beyond Period 1 and can be safely forgotten.", "It establishes one of the most important multi-step causal relationships in the entire course, connecting Period 1 directly to slavery's expansion throughout subsequent periods.", "It only matters for understanding Spanish colonial administration, with no broader relevance.", "The causal chain is purely coincidental with no explanatory value."], correct: 1, explanation: "This causal chain — disease, depopulation, labor shortage, forced African migration — is one of the most important multi-step causal relationships in the entire course, directly connecting Period 1's Columbian Exchange content to slavery's expansion throughout subsequent periods of American history." },
-    { id: "1-53", topic: "1.5 Labor Systems", stem: "Which best summarizes the encomienda system's relationship to the broader theme of Work, Exchange, and Technology (WXT)?", choices: ["Encomienda has no relationship to this theme.", "Encomienda represents an early colonial labor/economic system, directly relevant to the WXT theme's focus on how labor systems, markets, and government policy shape economic development.", "WXT applies only to industrial-era labor systems, not colonial-era ones.", "Encomienda was purely a religious institution unrelated to economic exchange."], correct: 1, explanation: "Encomienda represents an early colonial labor and economic system directly relevant to the Work, Exchange, and Technology (WXT) theme, which examines how labor systems, markets, and government policy shape economic development — a theme this course applies across every period, including this earliest one." },
-    { id: "1-54", topic: "1.6 Cultural Contact", stem: "How did most European colonizers generally understand land ownership?", choices: ["As a communal resource with no individual ownership possible.", "As individually owned property, transferable through sale or grant, with exclusive rights held by an owner.", "As something that could never be legally transferred.", "Identically to how most Native American societies understood it."], correct: 1, explanation: "Most European colonizers operated within a legal and cultural framework treating land as individually owned property, transferable through sale or grant, with an owner holding exclusive rights — a framework that differed significantly from many Native American land-use concepts." },
-    { id: "1-55", topic: "1.6 Cultural Contact", stem: "What does 'usufruct' land use mean, as commonly associated with many Native American societies?", choices: ["Exclusive, permanent individual ownership of land.", "The right to use land and its resources, rather than exclusively 'own' it in the European legal sense.", "A legal system identical to European land law.", "A term unrelated to any land use concept."], correct: 1, explanation: "'Usufruct' land use refers to the right to USE land and its resources — often communally and tied to seasonal or agricultural patterns — rather than claiming exclusive ownership in the European legal sense, a key conceptual difference from European property frameworks." },
-    { id: "1-56", topic: "1.6 Cultural Contact", stem: "How could differing land ownership concepts between Europeans and Native Americans produce genuine, sincere misunderstanding in specific land transactions?", choices: ["Misunderstanding was never genuine; all such transactions involved deliberate European deception.", "A Native group might grant temporary or shared land-use rights under their own communal framework, while Europeans, operating under an individual-ownership framework, could sincerely believe they had acquired full permanent ownership.", "Both groups always understood land transactions identically, with no possibility of misunderstanding.", "This scenario has no historical basis and never actually occurred."], correct: 1, explanation: "A Native group might grant temporary or shared land-use rights consistent with a communal framework, while Europeans, operating from an individual-ownership framework, could sincerely believe they had acquired full permanent ownership — producing genuine, sincerely held misunderstanding on both sides, not necessarily deliberate fraud, even though consequences for Native communities were often severe regardless of original intent." },
-    { id: "1-57", topic: "1.6 Cultural Contact", stem: "Is it accurate to characterize Native American responses to European colonization as uniformly passive?", choices: ["Yes, Native peoples were uniformly passive victims with no active role in shaping outcomes.", "No — Native peoples actively resisted, negotiated, adapted, and in documented cases successfully leveraged rivalries between European powers to their own advantage.", "Yes, because no historical evidence exists of Native resistance or negotiation.", "No, because Europeans never had any rivalries Native groups could leverage."], correct: 1, explanation: "It is not accurate to characterize Native responses as uniformly passive — Native peoples actively resisted, negotiated, adapted, and in many documented cases successfully leveraged competition and rivalries between European powers to their own advantage throughout the colonial period." },
-    { id: "1-58", topic: "1.6 Cultural Contact", stem: "Why does this course emphasize treating Native Americans as active historical agents rather than passive subjects of a process happening to them?", choices: ["This framing has no historical or analytical value.", "Because Native peoples genuinely shaped historical outcomes through resistance, negotiation, adaptation, and strategic use of European rivalries — an accurate historical framing, not merely a stylistic preference.", "Because Native Americans had no meaningful interaction with European colonizers at all.", "Because this framing is required only for essays, not for factual accuracy."], correct: 1, explanation: "This framing reflects genuine historical accuracy — Native peoples actively shaped outcomes through resistance, negotiation, adaptation, and strategic engagement with European rivalries — not merely a stylistic or ideological preference, making it essential for historically accurate analysis throughout this course." },
-    { id: "1-59", topic: "1.6 Cultural Contact", stem: "Which theme most directly connects to this section's content on differing land ownership concepts?", choices: ["Work, Exchange, and Technology (WXT) exclusively", "Geography and the Environment (GEO), and Migration and Settlement (MIG)", "America in the World (WOR) exclusively", "Social Structures (SOC) exclusively"], correct: 1, explanation: "This section's content on land use and ownership connects most directly to Geography and the Environment (GEO) — how land and environment shaped social/political development — and Migration and Settlement (MIG), examining how peoples moving into new territory interacted with existing land use patterns." },
-    { id: "1-60", topic: "1.6 Cultural Contact", stem: "Which of the following best illustrates a Native American group actively leveraging European rivalries?", choices: ["A Native group refusing all contact with any European power.", "A Native group forming alliances with one European power to gain advantage against a rival European power or a rival Native group.", "A scenario that never actually occurred in colonial history.", "A Native group adopting European land law identically to European practice."], correct: 1, explanation: "A Native group forming strategic alliances with one European power to gain advantage against a rival European power (or a rival Native group) directly illustrates active agency and strategic engagement with the colonial political landscape, rather than passive victimhood." },
-    { id: "1-61", topic: "1.6 Cultural Contact", stem: "What consequence often followed from the conceptual mismatch in land ownership understanding, regardless of the sincerity of either side's original intent?", choices: ["No meaningful consequence for either party.", "Permanent displacement of Native communities from land they had understood as shared or temporarily granted use rights to.", "Europeans always ultimately adopted the Native usufruct framework instead.", "Native communities always retained full legal ownership under European law."], correct: 1, explanation: "Regardless of the sincerity of either side's original understanding, permanent displacement of Native communities frequently resulted, since European legal and political power ultimately enforced the European framework of exclusive ownership once a transaction was interpreted that way." },
-    { id: "1-62", topic: "1.6 Cultural Contact", stem: "Which best summarizes this section's overall lesson about cultural contact during Period 1?", choices: ["Cultural contact was a simple, one-directional process with no genuine complexity.", "Cultural contact involved genuine conceptual mismatches (like land ownership), active Native agency in response, and consequences that often followed regardless of either side's original sincerity.", "Cultural contact had no lasting historical consequences.", "European and Native American understandings of land were always identical."], correct: 1, explanation: "This section's overall lesson is that cultural contact involved genuine conceptual mismatches (particularly around land ownership), active Native agency and response to colonization, and significant consequences that often followed regardless of either side's original sincerity — a more nuanced picture than either a simple 'clash of civilizations' or 'passive victimization' framing alone." },
-    { id: "1-63", topic: "1.6 Cultural Contact", stem: "A student writes an essay claiming that all land conflicts between Europeans and Native Americans resulted from deliberate European deception. Evaluate this claim using this section's content.", choices: ["This claim is fully accurate with no need for further nuance.", "This claim is incomplete — while deliberate deception certainly occurred in some cases, genuine conceptual mismatches in land ownership understanding could also produce sincere misunderstanding on both sides, not solely deliberate fraud.", "This claim is inaccurate because no land conflicts ever occurred.", "This claim cannot be evaluated using any historical evidence."], correct: 1, explanation: "This claim is incomplete — while deliberate deception certainly occurred in documented historical cases, this section specifically emphasizes that genuine conceptual mismatches in land ownership understanding could ALSO produce sincere misunderstanding on both sides, a more complete and nuanced explanation than attributing every conflict to deliberate fraud alone." },
-    { id: "1-64", topic: "1.6 Cultural Contact", stem: "Which of the following would be the strongest way to support an argument that Native Americans exercised meaningful historical agency during Period 1 and beyond?", choices: ["Citing only instances of Native population decline from disease.", "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries.", "Citing only European accounts of exploration motives.", "Citing the technological developments that enabled European exploration."], correct: 1, explanation: "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries provides direct, concrete evidence of meaningful historical agency — a stronger form of support than general statistics about population decline or unrelated European exploration content." },
-    { id: "1-65", topic: "1.6 Cultural Contact", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this unit's content by explaining how the Columbian Exchange (Section 1.3), Spanish labor systems (Section 1.5), and differing land ownership concepts (Section 1.6) together form a single, interconnected causal system rather than three separate, unrelated topics.", choices: ["These three topics are entirely unrelated and should be studied independently with no connections drawn between them.", "Disease from the Columbian Exchange caused Native population collapse, which created labor shortages driving the shift toward African slavery (Section 1.5), while simultaneously, differing land ownership concepts (Section 1.6) shaped how remaining and surviving Native communities negotiated, resisted, or lost access to land under colonial expansion — together, these three processes describe a single interconnected transformation of American demographics, labor, and land use following contact.", "Only the Columbian Exchange has any historical significance; the other two topics are minor footnotes.", "Land ownership concepts caused the Columbian Exchange, reversing the actual historical causal order."], correct: 1, explanation: "This synthesis question rewards recognizing that Sections 1.3, 1.5, and 1.6 aren't three isolated topics but interconnected pieces of a single transformation: Columbian Exchange disease caused Native population collapse, which drove the labor shortage behind the shift toward African slavery, while the parallel, ongoing conceptual clash over land ownership shaped how colonial expansion proceeded and how surviving Native communities responded to it — demographic collapse, labor system transformation, and land dispossession were simultaneous, interconnected processes, not a sequence of unrelated events, and recognizing this kind of interconnection across sections is exactly the synthesis skill the real DBQ and LEQ reward." },
+  "1": [
+    {
+      "id": "1-1",
+      "topic": "1.1 Native American Societies",
+      "stem": "Which factor most directly explains why Pacific Northwest Native societies developed complex social stratification without practicing agriculture?",
+      "choices": [
+        "Pacific Northwest societies were less numerous than agricultural societies elsewhere.",
+        "Abundant, reliable salmon runs provided a food surplus dense enough to support permanent, stratified settlement without farming.",
+        "Contact with European traders introduced stratified social structures.",
+        "A shortage of arable land forced reliance on trade instead."
+      ],
+      "correct": 1,
+      "explanation": "Abundant, reliable salmon runs provided a food surplus dense and predictable enough to support permanent, socially stratified settlements without requiring agriculture — a direct example of geography (Theme GEO) shaping social structure."
+    },
+    {
+      "id": "1-2",
+      "topic": "1.1 Native American Societies",
+      "stem": "The Haudenosaunee (Iroquois) Confederacy is historically significant primarily as an example of which of the following?",
+      "choices": [
+        "A purely nomadic hunting society with no political structure.",
+        "A society organized entirely around Pacific salmon fishing.",
+        "A sophisticated political confederation uniting multiple nations under a shared governing structure.",
+        "A society that had no contact with European colonizers before 1700."
+      ],
+      "correct": 2,
+      "explanation": "The Haudenosaunee Confederacy united five (later six) nations under a sophisticated shared political structure — a genuine, historically significant example of complex Native American governance, directly refuting characterizations of pre-contact societies as simple or unorganized."
+    },
+    {
+      "id": "1-3",
+      "topic": "1.1 Native American Societies",
+      "stem": "What was Cahokia?",
+      "choices": [
+        "A Pueblo irrigation settlement in the Southwest.",
+        "A Spanish colonial settlement in Florida.",
+        "A major Mississippian mound-building urban center near present-day St. Louis, with population possibly in the tens of thousands at its peak.",
+        "A term for Great Plains bison-hunting bands."
+      ],
+      "correct": 2,
+      "explanation": "Cahokia was a major Mississippian culture urban center near present-day St. Louis, with a population possibly in the tens of thousands at its peak around 1050–1200 CE — a genuine large, complex pre-contact urban society."
+    },
+    {
+      "id": "1-4",
+      "topic": "1.1 Native American Societies",
+      "stem": "Which agricultural practice, sometimes called the 'Three Sisters,' was widely used by Eastern Woodlands Native societies?",
+      "choices": [
+        "Cultivating grapes for wine production.",
+        "Irrigating rice paddies.",
+        "Growing corn, beans, and squash together.",
+        "Growing wheat, barley, and oats together."
+      ],
+      "correct": 2,
+      "explanation": "The 'Three Sisters' — corn, beans, and squash grown together, with each crop benefiting the others — was a widely used agricultural practice among Eastern Woodlands Native societies."
+    },
+    {
+      "id": "1-5",
+      "topic": "1.1 Native American Societies",
+      "stem": "Why is it historically inaccurate to describe the mounted, horse-based Plains Indian culture as characteristic of the pre-contact (before 1492) Great Plains?",
+      "choices": [
+        "Plains societies never adopted horses at any point in their history.",
+        "This characterization is actually historically accurate for the pre-contact period.",
+        "Horses were always present on the Great Plains before European contact.",
+        "Horses were introduced to North America by Spanish colonizers and spread to Plains societies gradually, well after this period's timeframe."
+      ],
+      "correct": 3,
+      "explanation": "Horses were introduced to North America by Spanish colonizers and spread gradually northward to Plains societies over subsequent generations — the classic mounted Plains Indian culture developed well after this period's 1491–1607 timeframe, not before European contact."
+    },
+    {
+      "id": "1-6",
+      "topic": "1.1 Native American Societies",
+      "stem": "A historian argues that pre-contact Native American societies should be studied with the same analytical seriousness applied to any complex society elsewhere in the world. Which piece of evidence would most directly support this argument?",
+      "choices": [
+        "The Haudenosaunee Confederacy's sophisticated multi-nation governing structure and Cahokia's large urban population.",
+        "The uniformity of Native American societies across all regions of North America.",
+        "The small size of most Great Plains hunting bands.",
+        "The absence of any Native American agricultural societies."
+      ],
+      "correct": 0,
+      "explanation": "The Haudenosaunee Confederacy's sophisticated governance and Cahokia's substantial urban population directly support treating pre-contact Native societies with serious analytical attention, comparable to any complex society elsewhere — countering flattening or dismissive characterizations."
+    },
+    {
+      "id": "1-7",
+      "topic": "1.1 Native American Societies",
+      "stem": "Which Native American society type relied primarily on irrigation-based agriculture in an arid climate?",
+      "choices": [
+        "None of these groups practiced irrigation",
+        "Southwest Pueblo peoples",
+        "Pacific Northwest societies",
+        "Great Plains societies (pre-horse)"
+      ],
+      "correct": 1,
+      "explanation": "Southwest Pueblo peoples relied on irrigation-based agriculture to farm successfully in their arid climate, supporting settled communities with multi-story adobe dwellings."
+    },
+    {
+      "id": "1-8",
+      "topic": "1.1 Native American Societies",
+      "stem": "What best explains the general causal relationship between food source reliability and Native American social/political complexity?",
+      "choices": [
+        "Only societies practicing agriculture ever developed complex social structures.",
+        "There is no meaningful relationship between food source and social complexity.",
+        "Social complexity was determined entirely by proximity to the Atlantic coast.",
+        "A more reliable, dense food surplus (whether from agriculture or, in some cases, non-farmed resources) tended to support larger, more stratified, more sedentary societies; less reliable or lower-density food sources tended to support smaller, more mobile societies."
+      ],
+      "correct": 3,
+      "explanation": "A more reliable, dense food surplus — whether from agriculture (Southwest, Eastern Woodlands) or abundant non-farmed resources (Pacific Northwest salmon) — tended to support larger, more sedentary, more socially stratified societies, while less reliable or lower-density food sources favored smaller, more mobile societies."
+    },
+    {
+      "id": "1-9",
+      "topic": "1.1 Native American Societies",
+      "stem": "What role did potlatch ceremonies play in Pacific Northwest Native societies?",
+      "choices": [
+        "They redistributed wealth and status within a socially stratified society.",
+        "They were used exclusively for agricultural planning.",
+        "They marked the introduction of European trade goods.",
+        "They had no social or economic function."
+      ],
+      "correct": 0,
+      "explanation": "Potlatch ceremonies redistributed wealth and status within Pacific Northwest societies — a social and economic practice connected to the region's stratified social structure, itself made possible by abundant salmon-based food surplus."
+    },
+    {
+      "id": "1-10",
+      "topic": "1.1 Native American Societies",
+      "stem": "Which of the following best describes the diversity of Native American societies in 1491?",
+      "choices": [
+        "A single, uniform culture spanning the entire continent.",
+        "Only two major cultural groups: agricultural and non-agricultural.",
+        "Native societies existed only in the Eastern half of the continent.",
+        "An enormous diversity of distinct societies, shaped significantly by regional geography and available resources."
+      ],
+      "correct": 3,
+      "explanation": "Native American societies in 1491 displayed enormous diversity, shaped significantly by regional geography and resource availability — the central corrective point of this section, directly countering any monolithic characterization."
+    },
+    {
+      "id": "1-11",
+      "topic": "1.1 Native American Societies",
+      "stem": "By the time of sustained European contact, what was the general state of Cahokia?",
+      "choices": [
+        "Just beginning to be founded.",
+        "In decline, having passed its peak population and influence.",
+        "Cahokia had never existed by this time.",
+        "At its historical peak population."
+      ],
+      "correct": 1,
+      "explanation": "Cahokia was in decline by the time of sustained European contact — its peak population and influence occurred earlier, around 1050–1200 CE, with decline setting in before Europeans arrived."
+    },
+    {
+      "id": "1-12",
+      "topic": "1.2 European Exploration",
+      "stem": "What does the 'God, Gold, and Glory' framework describe?",
+      "choices": [
+        "A framework used exclusively to describe Portuguese exploration.",
+        "Three unrelated, mutually exclusive motives for European exploration.",
+        "Three genuinely distinct, often overlapping motives — religious, economic, and national/personal prestige — driving European exploration.",
+        "A framework with no historical basis or usefulness."
+      ],
+      "correct": 2,
+      "explanation": "'God, Gold, and Glory' describes three genuinely distinct but often overlapping motives — religious mission, economic gain, and national/personal prestige — that together explain European exploration, frequently operating simultaneously within a single expedition."
+    },
+    {
+      "id": "1-13",
+      "topic": "1.2 European Exploration",
+      "stem": "Which specific ship design, developed by the Portuguese, was crucial to enabling sustained transoceanic exploration?",
+      "choices": [
+        "The steamship",
+        "The clipper ship",
+        "The galleon",
+        "The caravel"
+      ],
+      "correct": 3,
+      "explanation": "The caravel, a Portuguese ship design combining maneuverability with the ability to sail effectively against the wind, was crucial to enabling sustained, practical transoceanic exploration."
+    },
+    {
+      "id": "1-14",
+      "topic": "1.2 European Exploration",
+      "stem": "Which navigational tools were significant technological developments enabling long ocean voyages?",
+      "choices": [
+        "Radio communication.",
+        "The telescope and sextant, developed in the 1700s.",
+        "The magnetic compass and the astrolabe.",
+        "GPS-based navigation systems."
+      ],
+      "correct": 2,
+      "explanation": "The magnetic compass and the astrolabe (used for determining latitude) were significant navigational technologies enabling long, open-ocean voyages during the Age of Exploration."
+    },
+    {
+      "id": "1-15",
+      "topic": "1.2 European Exploration",
+      "stem": "Which European nation led early exploration of the African coast, culminating in Vasco da Gama's 1498 sea route to India?",
+      "choices": [
+        "Spain",
+        "Portugal",
+        "England",
+        "France"
+      ],
+      "correct": 1,
+      "explanation": "Portugal, under the sponsorship of Prince Henry the Navigator, led early exploration down the African coast, culminating in Vasco da Gama's 1498 voyage establishing a sea route to India around Africa."
+    },
+    {
+      "id": "1-16",
+      "topic": "1.2 European Exploration",
+      "stem": "Is it accurate to describe Columbus's 1492 voyage as the absolute beginning of the European Age of Exploration?",
+      "choices": [
+        "Yes, because Columbus was the first European to ever cross any ocean.",
+        "No, because Columbus's voyage had no historical significance at all.",
+        "Yes, no European exploration occurred before 1492.",
+        "No — Portugal had already been exploring the African coast for decades before 1492; Columbus's voyage is significant specifically for opening sustained European contact with the Americas."
+      ],
+      "correct": 3,
+      "explanation": "Portugal had already been engaged in African coastal exploration for decades before 1492 — Columbus's Spanish-sponsored voyage is significant specifically for opening SUSTAINED European contact with the Americas, not for being the absolute first European exploration voyage."
+    },
+    {
+      "id": "1-17",
+      "topic": "1.2 European Exploration",
+      "stem": "What was Columbus originally seeking when he set sail in 1492?",
+      "choices": [
+        "The source of the Nile River.",
+        "A land route through Africa.",
+        "A western sea route to Asia.",
+        "A specific location to found a Spanish military base."
+      ],
+      "correct": 2,
+      "explanation": "Columbus was originally seeking a western sea route to Asia, sponsored by the Spanish crown, and instead landed in the Caribbean, initiating sustained European contact with the Americas."
+    },
+    {
+      "id": "1-18",
+      "topic": "1.2 European Exploration",
+      "stem": "How did the economic motive ('Gold') for exploration specifically relate to existing trade routes to Asia?",
+      "choices": [
+        "Existing overland trade routes to Asia were already free and open to all European powers.",
+        "The economic motive had no relationship to Asian trade at all.",
+        "European powers sought a western sea route to bypass expensive overland routes controlled by Middle Eastern and Italian intermediaries.",
+        "European powers had no interest in Asian trade goods."
+      ],
+      "correct": 2,
+      "explanation": "The economic motive for exploration included seeking a western sea route to Asian markets specifically to bypass the expensive overland trade routes controlled by Middle Eastern and Italian intermediaries, aiming to access valuable goods more directly and profitably."
+    },
+    {
+      "id": "1-19",
+      "topic": "1.2 European Exploration",
+      "stem": "Which motive from the 'God, Gold, and Glory' framework best explains European monarchies' competition for territorial claims against rival powers?",
+      "choices": [
+        "Gold",
+        "Glory",
+        "God",
+        "None of these motives relate to inter-European competition"
+      ],
+      "correct": 1,
+      "explanation": "'Glory' — national and personal prestige — best explains European monarchies' direct competition with rival powers for territorial claims and international standing."
+    },
+    {
+      "id": "1-20",
+      "topic": "1.2 European Exploration",
+      "stem": "A single Spanish expedition seeks precious metals, claims new territory for the crown, and aims to convert Native peoples to Catholicism. How many of the three 'God, Gold, and Glory' motives does this single expedition illustrate?",
+      "choices": [
+        "All three motives simultaneously",
+        "Only one motive",
+        "Only two motives",
+        "None of the three motives"
+      ],
+      "correct": 0,
+      "explanation": "This expedition illustrates all three motives simultaneously: Gold (precious metals), Glory (claiming territory for the crown), and God (religious conversion) — directly illustrating how these motives frequently overlapped rather than operating in isolation."
+    },
+    {
+      "id": "1-21",
+      "topic": "1.2 European Exploration",
+      "stem": "Why was the timing of sustained transoceanic exploration in the late 1400s not primarily explained by motive alone?",
+      "choices": [
+        "European nations had no motive to explore before the late 1400s.",
+        "Technology played no role in enabling exploration.",
+        "Specific technological developments (the caravel, compass, astrolabe) were necessary preconditions that made long ocean voyages newly practical, regardless of how long the underlying motives (religious, economic, competitive) had already existed.",
+        "Motive was the only relevant factor; timing has no other explanation."
+      ],
+      "correct": 2,
+      "explanation": "Motives like religious mission, economic ambition, and national competition had existed for a long time before the late 1400s — what changed was the arrival of specific enabling technology (the caravel, compass, astrolabe) that made sustained transoceanic voyages newly practical, explaining the specific TIMING of the exploration surge."
+    },
+    {
+      "id": "1-22",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Who coined the term 'Columbian Exchange'?",
+      "choices": [
+        "Bartolomé de las Casas",
+        "Christopher Columbus himself",
+        "Hernán Cortés",
+        "Historian Alfred Crosby"
+      ],
+      "correct": 3,
+      "explanation": "Historian Alfred Crosby coined the term 'Columbian Exchange' to describe the massive, bidirectional transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres following 1492."
+    },
+    {
+      "id": "1-23",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Which of the following crops moved from the Americas to Europe as part of the Columbian Exchange?",
+      "choices": [
+        "Maize and potatoes",
+        "Rice and sugarcane",
+        "Wheat and barley",
+        "Coffee and bananas"
+      ],
+      "correct": 0,
+      "explanation": "Maize (corn) and potatoes moved from the Americas to Europe as part of the Columbian Exchange, becoming staple crops that significantly expanded the European food supply."
+    },
+    {
+      "id": "1-24",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Which of the following moved from the Old World to the Americas as part of the Columbian Exchange?",
+      "choices": [
+        "Potatoes and tomatoes",
+        "Cacao and squash",
+        "Maize and tobacco",
+        "Horses and cattle"
+      ],
+      "correct": 3,
+      "explanation": "Horses and cattle moved from the Old World to the Americas as part of the Columbian Exchange, along with crops like wheat and sugarcane — significantly reshaping American agriculture and, eventually, Native ways of life."
+    },
+    {
+      "id": "1-25",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "What is a 'virgin soil epidemic'?",
+      "choices": [
+        "An epidemic affecting only agricultural crops, not humans.",
+        "An epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in unusually high mortality.",
+        "A term describing the spread of European crops to the Americas.",
+        "An epidemic that only affects soil fertility."
+      ],
+      "correct": 1,
+      "explanation": "A 'virgin soil epidemic' describes an epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in catastrophically high mortality — precisely the situation Native American populations faced with Old World diseases like smallpox."
+    },
+    {
+      "id": "1-26",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "What was the dominant factor in the catastrophic decline of Native American populations following European contact?",
+      "choices": [
+        "Direct military conquest alone.",
+        "Native populations voluntarily relocated to Europe.",
+        "Disease, particularly virgin soil epidemics like smallpox, to which Native populations had no prior immunity.",
+        "Climate change unrelated to European contact."
+      ],
+      "correct": 2,
+      "explanation": "Disease — particularly virgin soil epidemics like smallpox, to which Native populations had no prior immunity — was the dominant factor in catastrophic Native American population decline, exceeding the demographic impact of direct military conquest."
+    },
+    {
+      "id": "1-27",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Approximately what range of Native American population decline do historians commonly cite for some regions during the first century of sustained contact?",
+      "choices": [
+        "20–30%",
+        "Essentially no measurable decline",
+        "80–90%",
+        "5–10%"
+      ],
+      "correct": 2,
+      "explanation": "Historians commonly cite population declines estimated at 80–90% in some regions during the first century of sustained contact, reflecting the catastrophic demographic impact of virgin soil epidemics."
+    },
+    {
+      "id": "1-28",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "How did New World crops contribute to European population growth following the Columbian Exchange?",
+      "choices": [
+        "Calorie-dense crops like the potato and maize could be grown on land unsuited to traditional grains, expanding the overall European food supply.",
+        "New World crops were never successfully cultivated in Europe.",
+        "They had no effect on European population trends.",
+        "New World crops were toxic and reduced European population."
+      ],
+      "correct": 0,
+      "explanation": "Calorie-dense New World crops like the potato and maize could be grown successfully on land not well-suited to traditional European grain crops, expanding the overall food supply and contributing to sustained European population growth."
+    },
+    {
+      "id": "1-29",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Which best describes the overall nature of the Columbian Exchange?",
+      "choices": [
+        "A transfer limited exclusively to precious metals.",
+        "A purely symbolic concept with no measurable historical impact.",
+        "A massive, bidirectional transfer of plants, animals, diseases, and people between the Eastern and Western Hemispheres.",
+        "A one-directional transfer from Europe to the Americas only."
+      ],
+      "correct": 2,
+      "explanation": "The Columbian Exchange was a massive, bidirectional transfer — moving in both directions between the Eastern and Western Hemispheres — of plants, animals, diseases, and people, with dramatically different consequences on each side of the Atlantic."
+    },
+    {
+      "id": "1-30",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "A historian argues that European military superiority alone explains the rapid decline of Native American societies after 1492. How would this section's content evaluate that argument?",
+      "choices": [
+        "This section provides no basis for evaluating such an argument.",
+        "The argument incorrectly claims Native societies never declined at all.",
+        "The argument is incomplete — disease, not military conquest alone, was the dominant demographic factor in Native population decline.",
+        "The argument is fully accurate and requires no further evidence."
+      ],
+      "correct": 2,
+      "explanation": "This section's content directly evaluates such an argument as incomplete — while military conquest was real and significant, disease (particularly virgin soil epidemics) was the dominant factor in Native population decline, frequently preceding or occurring independent of direct military conquest."
+    },
+    {
+      "id": "1-31",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Which of the following diseases is commonly cited as part of the Old World disease burden introduced to Native American populations?",
+      "choices": [
+        "Smallpox",
+        "A disease exclusive to European livestock with no human transmission",
+        "Malaria (native to the Americas prior to contact, in this framing)",
+        "None; no new diseases were introduced during this period"
+      ],
+      "correct": 0,
+      "explanation": "Smallpox is commonly cited as a key Old World disease introduced to Native American populations, causing catastrophic virgin soil epidemics due to the population's lack of prior immunity."
+    },
+    {
+      "id": "1-32",
+      "topic": "1.3 Columbian Exchange",
+      "stem": "Why does the Columbian Exchange framework matter for understanding later periods of this course, not just Period 1?",
+      "choices": [
+        "It has no relevance beyond Period 1.",
+        "It only affected European history, not American history.",
+        "The Columbian Exchange concluded entirely by 1500 with no lasting effects.",
+        "Its consequences — Native population collapse, labor shortages, and the resulting shift toward African slavery — directly shape colonial economic and social development throughout subsequent periods."
+      ],
+      "correct": 3,
+      "explanation": "The Columbian Exchange's consequences — Native population collapse, resulting labor shortages, and the consequent shift toward African slave labor — directly shape colonial economic and social development throughout subsequent periods of this course, making it a foundational causal framework rather than an isolated Period 1 topic."
+    },
+    {
+      "id": "1-33",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Who led the Spanish conquest of the Aztec Empire?",
+      "choices": [
+        "Hernán Cortés",
+        "Francisco Pizarro",
+        "Bartolomé de las Casas",
+        "Ferdinand Magellan"
+      ],
+      "correct": 0,
+      "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire (1519–1521), exploiting internal political divisions and disease to defeat a much larger empire with a comparatively small Spanish force."
+    },
+    {
+      "id": "1-34",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Who led the Spanish conquest of the Inca Empire?",
+      "choices": [
+        "Francisco Pizarro",
+        "Hernán Cortés",
+        "Vasco da Gama",
+        "Christopher Columbus"
+      ],
+      "correct": 0,
+      "explanation": "Francisco Pizarro led the Spanish conquest of the Inca Empire (1532–1533), similarly exploiting internal political weakness and the effects of disease."
+    },
+    {
+      "id": "1-35",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Which group did Cortés ally with to significantly strengthen his forces against the Aztec Empire?",
+      "choices": [
+        "The Tlaxcalans, who resented Aztec rule",
+        "The Inca",
+        "The Pueblo peoples of the Southwest",
+        "The Haudenosaunee Confederacy"
+      ],
+      "correct": 0,
+      "explanation": "Cortés allied with the Tlaxcalans and other groups who resented Aztec rule, turning a small Spanish force into a much larger combined army — a critical factor in the conquest's success."
+    },
+    {
+      "id": "1-36",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Which factor is commonly UNDER-emphasized in oversimplified accounts of Spanish conquest that credit superior weaponry alone?",
+      "choices": [
+        "The role of English colonial competition.",
+        "The exploitation of existing political divisions among Native groups, and the weakening effects of disease.",
+        "The role of Spanish naval technology.",
+        "The role of the printing press in spreading conquest narratives."
+      ],
+      "correct": 1,
+      "explanation": "Oversimplified accounts crediting Spanish weaponry alone commonly under-emphasize the exploitation of existing Native political divisions (alliances with rival groups) and the significant weakening effects of disease on both target empires during the conquest period."
+    },
+    {
+      "id": "1-37",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "What was the Spanish casta system?",
+      "choices": [
+        "A trade agreement between Spain and Portugal.",
+        "A system used exclusively to organize Spanish military ranks.",
+        "An informal social custom with no legal basis.",
+        "A formal, legally codified racial hierarchy determining social status, legal rights, and economic opportunity based on ancestry."
+      ],
+      "correct": 3,
+      "explanation": "The Spanish casta system was a formal, legally codified racial hierarchy that determined an individual's social status, legal rights, and economic opportunity based on ancestry — not merely informal social custom."
+    },
+    {
+      "id": "1-38",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "In the Spanish casta system, who generally held the highest colonial offices?",
+      "choices": [
+        "Peninsulares (Spanish-born colonists)",
+        "Mestizos",
+        "Criollos (Spanish descent, born in the Americas)",
+        "Native Americans"
+      ],
+      "correct": 0,
+      "explanation": "Peninsulares — colonists born in Spain itself — generally held the highest colonial offices in the casta system, ranking above criollos (Spanish descent but born in the Americas), despite criollos often being wealthy."
+    },
+    {
+      "id": "1-39",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "What does 'mestizo' refer to in the Spanish casta system?",
+      "choices": [
+        "A person of mixed Spanish and Native American ancestry.",
+        "A term with no relationship to ancestry.",
+        "A person of purely Spanish ancestry born in Spain.",
+        "A person of purely African ancestry."
+      ],
+      "correct": 0,
+      "explanation": "'Mestizo' referred to a person of mixed Spanish and Native American ancestry within the Spanish casta system's hierarchy."
+    },
+    {
+      "id": "1-40",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Why does the formal, legal nature of the casta system matter for comparison with later periods of American history?",
+      "choices": [
+        "Legal racial hierarchies never appear again after this period.",
+        "The casta system was the only racial hierarchy in all of American history.",
+        "It has no relevance to any later period.",
+        "It represents a concrete historical example of a legally institutionalized racial hierarchy, a pattern the course revisits when examining other systems of legal racial hierarchy in later periods."
+      ],
+      "correct": 3,
+      "explanation": "The casta system's formal, legal nature makes it a concrete historical example of an institutionalized racial hierarchy — directly useful for later comparison with other systems of legal racial hierarchy that develop in subsequent periods of American history, a recurring comparison this course revisits."
+    },
+    {
+      "id": "1-41",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Approximately when did Cortés's conquest of the Aztec Empire occur?",
+      "choices": [
+        "1607–1610",
+        "1519–1521",
+        "1492–1493",
+        "1776–1783"
+      ],
+      "correct": 1,
+      "explanation": "Cortés's conquest of the Aztec Empire occurred approximately 1519–1521, roughly three decades after Columbus's initial 1492 voyage."
+    },
+    {
+      "id": "1-42",
+      "topic": "1.4 Spanish Conquest",
+      "stem": "Which of the following combined factors best explains the success of Spanish conquest over large, sophisticated Native empires?",
+      "choices": [
+        "A combination of superior weaponry, exploitation of existing political divisions, and the weakening effects of disease.",
+        "Native empires voluntarily surrendered without any resistance.",
+        "Sheer numerical superiority of Spanish forces over Native populations.",
+        "Spanish weaponry alone, with no other contributing factors."
+      ],
+      "correct": 0,
+      "explanation": "A complete explanation requires combining multiple factors: superior weaponry, exploitation of existing Native political divisions, and the significant weakening effects of disease — no single factor alone provides a complete explanation."
+    },
+    {
+      "id": "1-43",
+      "topic": "1.5 Labor Systems",
+      "stem": "What was the encomienda system?",
+      "choices": [
+        "A system of paid wage labor for Native Americans.",
+        "A system granting Spanish colonists the right to demand labor and tribute from Native Americans in a specific area.",
+        "A trade agreement between Spain and England.",
+        "A Native American system of communal land management."
+      ],
+      "correct": 1,
+      "explanation": "The encomienda system granted individual Spanish colonists (encomenderos) the right to demand labor and tribute from Native Americans living in a specific area, nominally in exchange for protection and Christianization."
+    },
+    {
+      "id": "1-44",
+      "topic": "1.5 Labor Systems",
+      "stem": "In practice, how did the encomienda system typically function?",
+      "choices": [
+        "As a brutal forced labor system, contributing significantly to Native population decline through overwork.",
+        "As a genuinely voluntary, fairly compensated labor arrangement.",
+        "As a system exclusively benefiting Native American communities.",
+        "As a purely religious institution with no labor component."
+      ],
+      "correct": 0,
+      "explanation": "In practice, encomienda functioned as a brutal forced labor system — overwork under this system, alongside disease, contributed significantly to catastrophic Native population decline in areas under Spanish control."
+    },
+    {
+      "id": "1-45",
+      "topic": "1.5 Labor Systems",
+      "stem": "Who was Bartolomé de las Casas?",
+      "choices": [
+        "A conquistador who led the conquest of the Inca Empire.",
+        "A Dominican friar who became a prominent critic of the encomienda system's treatment of Native peoples.",
+        "A leader of the Tlaxcalan alliance against the Aztecs.",
+        "The Spanish king who authorized Columbus's voyage."
+      ],
+      "correct": 1,
+      "explanation": "Bartolomé de las Casas was a Dominican friar who became a prominent critic of the encomienda system's brutal treatment of Native peoples — though his own history includes complexity, discussed further in this section."
+    },
+    {
+      "id": "1-46",
+      "topic": "1.5 Labor Systems",
+      "stem": "What is historically notable, and complicating, about Bartolomé de las Casas's early advocacy?",
+      "choices": [
+        "He personally led the conquest of the Aztec Empire.",
+        "He initially proposed African slave labor as an alternative to Native forced labor, a position he later regretted.",
+        "He had no complicating history and was a consistently unblemished moral reformer.",
+        "He opposed all forms of Christian conversion efforts in the Americas."
+      ],
+      "correct": 1,
+      "explanation": "Las Casas's early advocacy is historically complicated by his initial proposal of African slave labor as an alternative to Native forced labor — a position he later regretted — illustrating how even contemporary critics of one coerced labor system could still support another."
+    },
+    {
+      "id": "1-47",
+      "topic": "1.5 Labor Systems",
+      "stem": "What was the primary driver of the colonial shift from Native forced labor toward African slave labor?",
+      "choices": [
+        "Primarily economic necessity, as disease and overwork caused a severe Native labor shortage.",
+        "Native Americans voluntarily requested this labor shift.",
+        "A direct order from the Catholic Church banning all Native labor.",
+        "Primarily moral concern among Spanish colonial authorities generally."
+      ],
+      "correct": 0,
+      "explanation": "The shift was driven primarily by economic necessity — catastrophic Native population decline from disease and overwork created a severe labor shortage for profitable colonial enterprises, particularly labor-intensive sugar production, which colonists sought to fill with an alternative labor source."
+    },
+    {
+      "id": "1-48",
+      "topic": "1.5 Labor Systems",
+      "stem": "Which cash crop was particularly labor-intensive and significant in driving demand for alternative labor sources in Spanish colonies?",
+      "choices": [
+        "Tobacco exclusively, with no role for sugar",
+        "Wheat",
+        "Sugar",
+        "Potatoes"
+      ],
+      "correct": 2,
+      "explanation": "Sugar production was particularly labor-intensive and significant in driving colonial demand for alternative labor sources as the Native labor supply collapsed."
+    },
+    {
+      "id": "1-49",
+      "topic": "1.5 Labor Systems",
+      "stem": "Trace the correct causal sequence: which of the following best orders the chain of events from Columbian Exchange disease to African slavery's growth?",
+      "choices": [
+        "African slavery grows → labor shortage → Native population decline → disease.",
+        "These events have no causal relationship to one another.",
+        "Disease → Native population decline → labor shortage → growth of African slave labor as an alternative.",
+        "Labor shortage → disease → Native population decline → African slavery."
+      ],
+      "correct": 2,
+      "explanation": "The correct causal sequence is: Old World disease causes Native population decline → this decline (combined with brutal encomienda conditions) creates a severe labor shortage → colonies turn to African slave labor as an alternative to fill that gap."
+    },
+    {
+      "id": "1-50",
+      "topic": "1.5 Labor Systems",
+      "stem": "Why were West and Central African populations viewed by colonizers as a 'solution' to the colonial labor shortage?",
+      "choices": [
+        "They had greater relative immunity to the specific mix of diseases circulating in the Atlantic world compared to Native American populations.",
+        "They had no farming or labor skills of any kind.",
+        "They had no prior exposure to any disease of any kind.",
+        "They voluntarily offered to replace Native laborers."
+      ],
+      "correct": 0,
+      "explanation": "West and Central African populations had greater relative immunity to the specific mix of diseases circulating in the Atlantic world (having had longer historical exposure to some of the same disease families as Europeans) compared to Native American populations, which colonizers used to justify importing enslaved Africans as an alternative labor source."
+    },
+    {
+      "id": "1-51",
+      "topic": "1.5 Labor Systems",
+      "stem": "Is it accurate to describe the shift toward African slavery as a broadly moral reform effort by Spanish colonial society?",
+      "choices": [
+        "Yes, because Las Casas's advocacy represented the near-universal Spanish colonial view.",
+        "No, because there was no shift toward African slavery at all during this period.",
+        "No — while some individuals like Las Casas raised moral objections, the broader colonial shift was driven primarily by economic necessity as the Native labor supply collapsed.",
+        "Yes, moral concern for Native peoples was the dominant driver across Spanish colonial society."
+      ],
+      "correct": 2,
+      "explanation": "It is not accurate to characterize this shift as a broad moral reform effort — while individuals like Las Casas raised moral objections, the broader colonial shift toward African slave labor was driven primarily by economic necessity, not a widespread moral reckoning among Spanish colonial society."
+    },
+    {
+      "id": "1-52",
+      "topic": "1.5 Labor Systems",
+      "stem": "Why does the causal chain connecting disease, labor shortage, and African slavery matter for the rest of this AP US History course?",
+      "choices": [
+        "It only matters for understanding Spanish colonial administration, with no broader relevance.",
+        "It establishes one of the most important multi-step causal relationships in the entire course, connecting Period 1 directly to slavery's expansion throughout subsequent periods.",
+        "The causal chain is purely coincidental with no explanatory value.",
+        "It has no relevance beyond Period 1 and can be safely forgotten."
+      ],
+      "correct": 1,
+      "explanation": "This causal chain — disease, depopulation, labor shortage, forced African migration — is one of the most important multi-step causal relationships in the entire course, directly connecting Period 1's Columbian Exchange content to slavery's expansion throughout subsequent periods of American history."
+    },
+    {
+      "id": "1-53",
+      "topic": "1.5 Labor Systems",
+      "stem": "Which best summarizes the encomienda system's relationship to the broader theme of Work, Exchange, and Technology (WXT)?",
+      "choices": [
+        "Encomienda has no relationship to this theme.",
+        "Encomienda represents an early colonial labor/economic system, directly relevant to the WXT theme's focus on how labor systems, markets, and government policy shape economic development.",
+        "Encomienda was purely a religious institution unrelated to economic exchange.",
+        "WXT applies only to industrial-era labor systems, not colonial-era ones."
+      ],
+      "correct": 1,
+      "explanation": "Encomienda represents an early colonial labor and economic system directly relevant to the Work, Exchange, and Technology (WXT) theme, which examines how labor systems, markets, and government policy shape economic development — a theme this course applies across every period, including this earliest one."
+    },
+    {
+      "id": "1-54",
+      "topic": "1.6 Cultural Contact",
+      "stem": "How did most European colonizers generally understand land ownership?",
+      "choices": [
+        "As individually owned property, transferable through sale or grant, with exclusive rights held by an owner.",
+        "As a communal resource with no individual ownership possible.",
+        "Identically to how most Native American societies understood it.",
+        "As something that could never be legally transferred."
+      ],
+      "correct": 0,
+      "explanation": "Most European colonizers operated within a legal and cultural framework treating land as individually owned property, transferable through sale or grant, with an owner holding exclusive rights — a framework that differed significantly from many Native American land-use concepts."
+    },
+    {
+      "id": "1-55",
+      "topic": "1.6 Cultural Contact",
+      "stem": "What does 'usufruct' land use mean, as commonly associated with many Native American societies?",
+      "choices": [
+        "Exclusive, permanent individual ownership of land.",
+        "A legal system identical to European land law.",
+        "A term unrelated to any land use concept.",
+        "The right to use land and its resources, rather than exclusively 'own' it in the European legal sense."
+      ],
+      "correct": 3,
+      "explanation": "'Usufruct' land use refers to the right to USE land and its resources — often communally and tied to seasonal or agricultural patterns — rather than claiming exclusive ownership in the European legal sense, a key conceptual difference from European property frameworks."
+    },
+    {
+      "id": "1-56",
+      "topic": "1.6 Cultural Contact",
+      "stem": "How could differing land ownership concepts between Europeans and Native Americans produce genuine, sincere misunderstanding in specific land transactions?",
+      "choices": [
+        "A Native group might grant temporary or shared land-use rights under their own communal framework, while Europeans, operating under an individual-ownership framework, could sincerely believe they had acquired full permanent ownership.",
+        "Misunderstanding was never genuine; all such transactions involved deliberate European deception.",
+        "Both groups always understood land transactions identically, with no possibility of misunderstanding.",
+        "This scenario has no historical basis and never actually occurred."
+      ],
+      "correct": 0,
+      "explanation": "A Native group might grant temporary or shared land-use rights consistent with a communal framework, while Europeans, operating from an individual-ownership framework, could sincerely believe they had acquired full permanent ownership — producing genuine, sincerely held misunderstanding on both sides, not necessarily deliberate fraud, even though consequences for Native communities were often severe regardless of original intent."
+    },
+    {
+      "id": "1-57",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Is it accurate to characterize Native American responses to European colonization as uniformly passive?",
+      "choices": [
+        "Yes, Native peoples were uniformly passive victims with no active role in shaping outcomes.",
+        "Yes, because no historical evidence exists of Native resistance or negotiation.",
+        "No — Native peoples actively resisted, negotiated, adapted, and in documented cases successfully leveraged rivalries between European powers to their own advantage.",
+        "No, because Europeans never had any rivalries Native groups could leverage."
+      ],
+      "correct": 2,
+      "explanation": "It is not accurate to characterize Native responses as uniformly passive — Native peoples actively resisted, negotiated, adapted, and in many documented cases successfully leveraged competition and rivalries between European powers to their own advantage throughout the colonial period."
+    },
+    {
+      "id": "1-58",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Why does this course emphasize treating Native Americans as active historical agents rather than passive subjects of a process happening to them?",
+      "choices": [
+        "Because Native peoples genuinely shaped historical outcomes through resistance, negotiation, adaptation, and strategic use of European rivalries — an accurate historical framing, not merely a stylistic preference.",
+        "This framing has no historical or analytical value.",
+        "Because Native Americans had no meaningful interaction with European colonizers at all.",
+        "Because this framing is required only for essays, not for factual accuracy."
+      ],
+      "correct": 0,
+      "explanation": "This framing reflects genuine historical accuracy — Native peoples actively shaped outcomes through resistance, negotiation, adaptation, and strategic engagement with European rivalries — not merely a stylistic or ideological preference, making it essential for historically accurate analysis throughout this course."
+    },
+    {
+      "id": "1-59",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Which theme most directly connects to this section's content on differing land ownership concepts?",
+      "choices": [
+        "Work, Exchange, and Technology (WXT) exclusively",
+        "Social Structures (SOC) exclusively",
+        "America in the World (WOR) exclusively",
+        "Geography and the Environment (GEO), and Migration and Settlement (MIG)"
+      ],
+      "correct": 3,
+      "explanation": "This section's content on land use and ownership connects most directly to Geography and the Environment (GEO) — how land and environment shaped social/political development — and Migration and Settlement (MIG), examining how peoples moving into new territory interacted with existing land use patterns."
+    },
+    {
+      "id": "1-60",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Which of the following best illustrates a Native American group actively leveraging European rivalries?",
+      "choices": [
+        "A scenario that never actually occurred in colonial history.",
+        "A Native group refusing all contact with any European power.",
+        "A Native group adopting European land law identically to European practice.",
+        "A Native group forming alliances with one European power to gain advantage against a rival European power or a rival Native group."
+      ],
+      "correct": 3,
+      "explanation": "A Native group forming strategic alliances with one European power to gain advantage against a rival European power (or a rival Native group) directly illustrates active agency and strategic engagement with the colonial political landscape, rather than passive victimhood."
+    },
+    {
+      "id": "1-61",
+      "topic": "1.6 Cultural Contact",
+      "stem": "What consequence often followed from the conceptual mismatch in land ownership understanding, regardless of the sincerity of either side's original intent?",
+      "choices": [
+        "No meaningful consequence for either party.",
+        "Native communities always retained full legal ownership under European law.",
+        "Europeans always ultimately adopted the Native usufruct framework instead.",
+        "Permanent displacement of Native communities from land they had understood as shared or temporarily granted use rights to."
+      ],
+      "correct": 3,
+      "explanation": "Regardless of the sincerity of either side's original understanding, permanent displacement of Native communities frequently resulted, since European legal and political power ultimately enforced the European framework of exclusive ownership once a transaction was interpreted that way."
+    },
+    {
+      "id": "1-62",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Which best summarizes this section's overall lesson about cultural contact during Period 1?",
+      "choices": [
+        "Cultural contact was a simple, one-directional process with no genuine complexity.",
+        "European and Native American understandings of land were always identical.",
+        "Cultural contact had no lasting historical consequences.",
+        "Cultural contact involved genuine conceptual mismatches (like land ownership), active Native agency in response, and consequences that often followed regardless of either side's original sincerity."
+      ],
+      "correct": 3,
+      "explanation": "This section's overall lesson is that cultural contact involved genuine conceptual mismatches (particularly around land ownership), active Native agency and response to colonization, and significant consequences that often followed regardless of either side's original sincerity — a more nuanced picture than either a simple 'clash of civilizations' or 'passive victimization' framing alone."
+    },
+    {
+      "id": "1-63",
+      "topic": "1.6 Cultural Contact",
+      "stem": "A student writes an essay claiming that all land conflicts between Europeans and Native Americans resulted from deliberate European deception. Evaluate this claim using this section's content.",
+      "choices": [
+        "This claim is inaccurate because no land conflicts ever occurred.",
+        "This claim is fully accurate with no need for further nuance.",
+        "This claim cannot be evaluated using any historical evidence.",
+        "This claim is incomplete — while deliberate deception certainly occurred in some cases, genuine conceptual mismatches in land ownership understanding could also produce sincere misunderstanding on both sides, not solely deliberate fraud."
+      ],
+      "correct": 3,
+      "explanation": "This claim is incomplete — while deliberate deception certainly occurred in documented historical cases, this section specifically emphasizes that genuine conceptual mismatches in land ownership understanding could ALSO produce sincere misunderstanding on both sides, a more complete and nuanced explanation than attributing every conflict to deliberate fraud alone."
+    },
+    {
+      "id": "1-64",
+      "topic": "1.6 Cultural Contact",
+      "stem": "Which of the following would be the strongest way to support an argument that Native Americans exercised meaningful historical agency during Period 1 and beyond?",
+      "choices": [
+        "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries.",
+        "Citing only instances of Native population decline from disease.",
+        "Citing only European accounts of exploration motives.",
+        "Citing the technological developments that enabled European exploration."
+      ],
+      "correct": 0,
+      "explanation": "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries provides direct, concrete evidence of meaningful historical agency — a stronger form of support than general statistics about population decline or unrelated European exploration content."
+    },
+    {
+      "id": "1-65",
+      "topic": "1.6 Cultural Contact",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this unit's content by explaining how the Columbian Exchange (Section 1.3), Spanish labor systems (Section 1.5), and differing land ownership concepts (Section 1.6) together form a single, interconnected causal system rather than three separate, unrelated topics.",
+      "choices": [
+        "Only the Columbian Exchange has any historical significance; the other two topics are minor footnotes.",
+        "Disease from the Columbian Exchange caused Native population collapse, which created labor shortages driving the shift toward African slavery (Section 1.5), while simultaneously, differing land ownership concepts (Section 1.6) shaped how remaining and surviving Native communities negotiated, resisted, or lost access to land under colonial expansion — together, these three processes describe a single interconnected transformation of American demographics, labor, and land use following contact.",
+        "Land ownership concepts caused the Columbian Exchange, reversing the actual historical causal order.",
+        "These three topics are entirely unrelated and should be studied independently with no connections drawn between them."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question rewards recognizing that Sections 1.3, 1.5, and 1.6 aren't three isolated topics but interconnected pieces of a single transformation: Columbian Exchange disease caused Native population collapse, which drove the labor shortage behind the shift toward African slavery, while the parallel, ongoing conceptual clash over land ownership shaped how colonial expansion proceeded and how surviving Native communities responded to it — demographic collapse, labor system transformation, and land dispossession were simultaneous, interconnected processes, not a sequence of unrelated events, and recognizing this kind of interconnection across sections is exactly the synthesis skill the real DBQ and LEQ reward."
+    }
   ],
-  2: [
-    { id: "2-1", topic: "2.1 Regional Differences", stem: "What was the primary founding motive of the Massachusetts Bay Colony?", choices: ["Profit from cash crop agriculture", "Religious reform and community-building", "Fur trade with Native nations", "Military conquest of Spanish territory"], correct: 1, explanation: "Massachusetts Bay was founded primarily for religious reform and community-building by Puritan settlers seeking to establish a model religious society." },
-    { id: "2-2", topic: "2.1 Regional Differences", stem: "What was the primary founding motive of the Virginia colony?", choices: ["Religious reform", "Profit-driven cash crop agriculture, sponsored by the Virginia Company", "Fur trade exclusively", "Escape from religious persecution in Spain"], correct: 1, explanation: "Virginia was founded primarily as a profit-driven venture sponsored by the Virginia Company, a joint-stock company seeking financial returns through cash crop (tobacco) agriculture." },
-    { id: "2-3", topic: "2.1 Regional Differences", stem: "Why did New England experience more balanced gender ratios and family-based population growth than the early Chesapeake?", choices: ["New England had no relationship between founding motive and demographics.", "Puritan settlers largely emigrated as whole families seeking religious community, unlike the young single male laborers recruited for Chesapeake tobacco cultivation.", "The Chesapeake had a healthier climate than New England.", "Women were legally prohibited from emigrating to the Chesapeake."], correct: 1, explanation: "Puritan settlers largely emigrated as whole families seeking to build a religious community, producing a balanced gender ratio, while the Chesapeake's profit-driven tobacco economy recruited largely young single men, producing a heavily male-skewed population." },
-    { id: "2-4", topic: "2.1 Regional Differences", stem: "Which colonial region was the most ethnically and religiously diverse?", choices: ["New England", "The Middle Colonies", "The Chesapeake", "All regions had identical diversity"], correct: 1, explanation: "The Middle Colonies were the most ethnically and religiously diverse region, including Quaker Pennsylvania's policy of religious toleration and Dutch heritage in New York." },
-    { id: "2-5", topic: "2.1 Regional Differences", stem: "What was William Penn's 'holy experiment' in Pennsylvania?", choices: ["An attempt to establish a purely Puritan colony.", "A colony founded on Quaker principles of religious toleration.", "A military expedition against French Canada.", "A trading post focused exclusively on the fur trade."], correct: 1, explanation: "William Penn's 'holy experiment' was Pennsylvania's founding on Quaker principles of religious toleration, contributing to the Middle Colonies' broader ethnic and religious diversity." },
-    { id: "2-6", topic: "2.1 Regional Differences", stem: "Why is it historically inaccurate to describe 'the colonies' as a single, uniform entity during this period?", choices: ["It is actually accurate; all thirteen colonies were essentially identical.", "New England, the Middle Colonies, and the Chesapeake/South differed dramatically in founding motive, economy, demographics, and religious composition.", "There were no meaningful economic differences between any colonial regions.", "Regional differences only emerged after the Revolutionary War."], correct: 1, explanation: "New England, the Middle Colonies, and the Chesapeake/South differed dramatically across founding motive, economy, demographics, and religious composition — treating 'the colonies' as uniform flattens genuine, historically significant regional diversity." },
-    { id: "2-7", topic: "2.1 Regional Differences", stem: "What was the primary economic activity of the Chesapeake colonies?", choices: ["Fishing and shipbuilding", "Tobacco cultivation", "Fur trading exclusively", "Manufacturing of finished goods"], correct: 1, explanation: "Tobacco cultivation was the primary economic activity of the Chesapeake colonies, driving the region's plantation-based economy and demand for agricultural labor." },
-    { id: "2-8", topic: "2.1 Regional Differences", stem: "Which region became known for grain production and was sometimes called the 'breadbasket' colonies?", choices: ["New England", "The Middle Colonies", "The Chesapeake", "The Caribbean colonies"], correct: 1, explanation: "The Middle Colonies became known for grain production, earning the informal 'breadbasket' colonies designation within the broader colonial economy." },
-    { id: "2-9", topic: "2.1 Regional Differences", stem: "Explain why the Chesapeake colonies developed a labor system increasingly dependent on coerced labor, while New England did not develop a comparable dependence.", choices: ["The Chesapeake's labor-intensive cash crop economy created strong demand for a large, controllable labor force, unlike New England's small-scale mixed economy.", "New England had no access to any labor source of any kind.", "The Chesapeake had a smaller population than New England throughout this period.", "There is no meaningful economic explanation for this difference."], correct: 0, explanation: "The Chesapeake's labor-intensive cash crop agriculture created strong, ongoing demand for a large, controllable labor force, first met through indentured servitude and later increasingly through African slavery — a demand New England's smaller-scale, more diversified economy did not generate to the same degree." },
-    { id: "2-10", topic: "2.1 Regional Differences", stem: "What role did town meetings play in New England colonial society?", choices: ["They had no political function.", "They provided a strong institution of local self-governance.", "They were used exclusively for religious worship.", "They were controlled entirely by the English crown with no local input."], correct: 1, explanation: "Town meetings provided New England colonies with a strong institution of local self-governance, directly connecting to Section 2.3's broader theme of early colonial self-rule." },
-    { id: "2-11", topic: "2.1 Regional Differences", stem: "A historian wants to explain regional economic differences among the thirteen colonies. Which single question would provide the most useful starting point, according to this section's framework?", choices: ["What was each colony's founding motive?", "What was the population of each colony's capital city?", "What year was each colony founded?", "How many rivers ran through each colony?"], correct: 0, explanation: "Founding motive (religious, economic, or mixed) is the single most useful starting question, since it predicts an enormous amount about a colony's subsequent settlement pattern, demographics, economy, and labor system, as this section demonstrates." },
-    { id: "2-12", topic: "2.2 Labor Systems", stem: "What was indentured servitude?", choices: ["A permanent, hereditary form of coerced labor.", "A fixed-term labor contract, typically four to seven years, in exchange for passage to the colonies.", "A voluntary wage labor system with no contractual obligation.", "A system exclusive to New England."], correct: 1, explanation: "Indentured servitude was a fixed-term labor contract, typically four to seven years, in which migrants exchanged a period of labor for passage to the colonies — the dominant Chesapeake labor source before the shift toward African slavery." },
-    { id: "2-13", topic: "2.2 Labor Systems", stem: "What was Bacon's Rebellion (1676)?", choices: ["A slave uprising in South Carolina.", "A Virginia uprising by poor colonists, including former indentured servants, against the colonial government's land policy and Native American policy.", "A tax revolt against the Navigation Acts.", "A religious conflict during the Great Awakening."], correct: 1, explanation: "Bacon's Rebellion was a 1676 Virginia uprising led by Nathaniel Bacon, involving poor colonists (including former indentured servants and some enslaved people) against Virginia's colonial government over land policy and its handling of Native American relations on the frontier." },
-    { id: "2-14", topic: "2.2 Labor Systems", stem: "Why did Bacon's Rebellion alarm Virginia's colonial elite?", choices: ["It had no lasting significance and caused no concern.", "It demonstrated that poor colonists, including former indentured servants, could unite in rebellion across racial lines.", "It resulted in the immediate abolition of slavery in Virginia.", "It was led entirely by wealthy planters against the poor."], correct: 1, explanation: "Bacon's Rebellion alarmed Virginia's elite by demonstrating that poor colonists — including former indentured servants and some enslaved people — could unite in rebellion across racial lines, prompting elites to reconsider their labor system." },
-    { id: "2-15", topic: "2.2 Labor Systems", stem: "How did Virginia's elite respond to the instability exposed by Bacon's Rebellion?", choices: ["By abolishing indentured servitude entirely with no replacement.", "By increasingly shifting toward permanent, hereditary African slavery, viewed as less likely to produce cross-racial uprisings.", "By granting full political rights to all colonists regardless of status.", "By ending all cash crop agriculture in Virginia."], correct: 1, explanation: "Virginia's elite increasingly shifted toward permanent, hereditary African slave labor in the decades following Bacon's Rebellion, calculating that this labor source was less likely to unite with poor free whites in future cross-racial uprisings." },
-    { id: "2-16", topic: "2.2 Labor Systems", stem: "What did the 1662 Virginia law establish regarding the status of children born to enslaved mothers?", choices: ["Children born to enslaved mothers were automatically free.", "A child's enslaved or free status followed the status of the mother, regardless of the father's status.", "A child's status was determined by a court hearing in each individual case.", "This law had no relationship to slavery at all."], correct: 1, explanation: "The 1662 Virginia law established that a child's enslaved or free status followed the status of the mother — meaning children born to enslaved women were enslaved regardless of the father's status, a principle later called partus sequitur ventrem." },
-    { id: "2-17", topic: "2.2 Labor Systems", stem: "Why did the 1662 Virginia law represent a fundamental transformation rather than a minor legal detail?", choices: ["It had no practical effect on the institution of slavery.", "It transformed slavery from a temporary labor arrangement into a permanent, self-perpetuating, inheritable institution that could expand across generations.", "It applied only to indentured servants, not enslaved people.", "It immediately ended the practice of slavery in Virginia."], correct: 1, explanation: "By making enslaved status hereditary through the mother, this law transformed slavery from a temporary labor arrangement (like indentured servitude, non-inheritable) into a permanent, self-perpetuating institution — a fundamental structural transformation." },
-    { id: "2-18", topic: "2.2 Labor Systems", stem: "Which labor system was the Chesapeake's dominant labor source BEFORE Bacon's Rebellion?", choices: ["African slavery exclusively", "Indentured servitude", "Free wage labor exclusively", "No labor system was used before this period"], correct: 1, explanation: "Indentured servitude was the Chesapeake's dominant labor source before Bacon's Rebellion prompted the shift toward permanent African slavery in subsequent decades." },
-    { id: "2-19", topic: "2.2 Labor Systems", stem: "Is it accurate to describe the shift from indentured servitude to racial slavery as a purely economic process with no political dimension?", choices: ["Yes, political factors played no role in this shift.", "No — Bacon's Rebellion illustrates a specific POLITICAL calculation by colonial elites (avoiding future cross-racial rebellion) layered on top of the underlying economic motive.", "Yes, because Bacon's Rebellion had no connection to labor systems.", "No, because economic factors played no role in this shift."], correct: 1, explanation: "This shift involved both economic and political dimensions — Bacon's Rebellion illustrates a specific political calculation (preventing future cross-racial uprisings) that colonial elites layered on top of the underlying economic motive for a stable, controllable labor force." },
-    { id: "2-20", topic: "2.2 Labor Systems", stem: "How did indentured servitude differ from racial slavery in terms of the nature of the labor obligation?", choices: ["Indentured servitude was permanent and hereditary; racial slavery was temporary.", "Indentured servitude was a fixed-term contract; racial slavery, following legal changes like the 1662 Virginia law, became permanent and hereditary.", "Both systems were identical in every respect.", "Indentured servitude only applied to enslaved Africans."], correct: 1, explanation: "Indentured servitude was a fixed-term contractual labor obligation (typically four to seven years), while racial slavery, following legal developments like the 1662 Virginia law, became a permanent and hereditary condition — a fundamental structural difference." },
-    { id: "2-21", topic: "2.2 Labor Systems", stem: "A student argues that racial slavery in the English colonies developed as an immediate, inevitable feature of colonization from the very beginning. Evaluate this argument using this section's content.", choices: ["This argument is accurate; racial slavery was present from the first day of colonization with no prior alternative.", "This argument is inaccurate — indentured servitude was the dominant Chesapeake labor system before the 1670s, and the shift toward racial slavery developed through a specific sequence of events, including Bacon's Rebellion and subsequent legal changes.", "This argument is accurate, but only for New England.", "This argument cannot be evaluated using any historical evidence."], correct: 1, explanation: "This argument is inaccurate — this section specifically traces how indentured servitude was the dominant early Chesapeake labor system, and racial slavery developed through a specific historical sequence (Bacon's Rebellion, followed by hardening legal codes like the 1662 law), not as an immediate, inevitable feature present from the start." },
-    { id: "2-22", topic: "2.2 Labor Systems", stem: "Which best summarizes the overall causal sequence linking Bacon's Rebellion to the hardening of racial slavery?", choices: ["Racial slavery hardened first, which then caused Bacon's Rebellion.", "Bacon's Rebellion exposed the danger of cross-racial rebellion among poor colonists, prompting elites to increasingly shift toward and legally entrench permanent, hereditary African slavery as a perceived safer alternative.", "These two events have no causal relationship to one another.", "Bacon's Rebellion caused the immediate abolition of all forms of coerced labor."], correct: 1, explanation: "The correct causal sequence: Bacon's Rebellion exposed the danger of poor colonists uniting in rebellion across racial lines, prompting Virginia's elite to increasingly shift toward and legally entrench permanent, hereditary African slavery as a perceived safer, more stable labor alternative." },
-    { id: "2-23", topic: "2.3 Colonial Governance", stem: "What was the House of Burgesses?", choices: ["The first elected legislative body in the English colonies, established in Virginia in 1619.", "A religious governing body in Massachusetts Bay.", "A council of Native American leaders.", "A French colonial trading company."], correct: 0, explanation: "The House of Burgesses, established in Virginia in 1619, was the first elected legislative body in the English colonies — an early landmark in colonial self-governance." },
-    { id: "2-24", topic: "2.3 Colonial Governance", stem: "What was the Mayflower Compact (1620)?", choices: ["A trade agreement between Plymouth and England.", "An agreement among Plymouth colonists establishing self-government based on the consent of the governed, made before landing.", "A treaty with local Native American nations.", "A royal charter granting Plymouth colonists land rights."], correct: 1, explanation: "The Mayflower Compact was an agreement among Plymouth colonists establishing self-government based on the consent of the governed, signed before the colonists even landed — an early expression of colonial self-rule principles." },
-    { id: "2-25", topic: "2.3 Colonial Governance", stem: "What was 'salutary neglect'?", choices: ["A strict, consistently enforced British colonial policy.", "England's generally loose, inconsistent enforcement of trade and governance regulations, allowing colonial assemblies to develop substantial practical self-governing authority.", "A policy of complete British withdrawal from all colonial affairs.", "A term describing Native American land policy."], correct: 1, explanation: "Salutary neglect describes England's generally loose, inconsistent enforcement of trade and governance regulations over much of this period, allowing colonial assemblies to develop substantial practical authority over local taxation and legislation." },
-    { id: "2-26", topic: "2.3 Colonial Governance", stem: "Why does salutary neglect matter for understanding colonial reactions to British policy after 1763 (Period 3)?", choices: ["It has no relationship to later colonial reactions.", "Decades of practical self-governance under salutary neglect meant colonists experienced Britain's later tighter enforcement as an alarming reversal of a long-standing practical arrangement, not merely routine enforcement.", "Salutary neglect continued unchanged after 1763 with no policy shift.", "Colonists were entirely unaware of any change in British policy after 1763."], correct: 1, explanation: "Decades of practical self-governance under salutary neglect gave colonists a lived expectation of autonomy — Britain's later shift toward stricter enforcement felt like an alarming REVERSAL of established practice, not simply ordinary law enforcement, directly shaping the intensity of colonial resistance." },
-    { id: "2-27", topic: "2.3 Colonial Governance", stem: "Which institution provided New England colonists with a strong tradition of local self-governance?", choices: ["The House of Burgesses", "Town meetings", "The Navigation Acts", "The Spanish casta system"], correct: 1, explanation: "Town meetings provided New England colonists with a strong, direct tradition of local self-governance, complementing broader colonial governance developments like the House of Burgesses in Virginia." },
-    { id: "2-28", topic: "2.3 Colonial Governance", stem: "Is it accurate to describe colonial self-governance as a phenomenon that emerged suddenly in the 1760s–70s?", choices: ["Yes, colonial self-governance had no history before the 1760s.", "No — colonial self-governance had deep roots stretching back to the House of Burgesses (1619) and Mayflower Compact (1620), continuing through decades of salutary neglect.", "Yes, because the House of Burgesses was established after 1763.", "No, because colonial self-governance never existed at any point in American history."], correct: 1, explanation: "Colonial self-governance had deep roots stretching back to institutions like the House of Burgesses (1619) and the Mayflower Compact (1620), continuing and expanding through decades of salutary neglect — it did not suddenly emerge in the 1760s." },
-    { id: "2-29", topic: "2.3 Colonial Governance", stem: "What specific practical authority did colonial assemblies increasingly develop under salutary neglect?", choices: ["Authority over local taxation and legislation.", "Complete independence from the British crown.", "Authority to declare war on European nations.", "No practical authority of any kind."], correct: 0, explanation: "Colonial assemblies increasingly developed substantial practical authority over local taxation and legislation under salutary neglect, even while remaining nominally subject to the crown." },
-    { id: "2-30", topic: "2.3 Colonial Governance", stem: "Which document is considered an early expression of government based on the consent of the governed, predating the Declaration of Independence by over 150 years?", choices: ["The House of Burgesses charter", "The Mayflower Compact", "The Navigation Acts", "The Treaty of Paris"], correct: 1, explanation: "The Mayflower Compact (1620) is considered an early expression of government based on the consent of the governed, predating the Declaration of Independence (1776) by over 150 years." },
-    { id: "2-31", topic: "2.3 Colonial Governance", stem: "A historian argues that Period 3's revolutionary demands for self-governance 'came from nowhere.' Evaluate this argument using Section 2.3's content.", choices: ["This argument is accurate; colonists had no prior experience of self-governance.", "This argument is inaccurate — Period 2 established over a century of practical colonial self-governance through institutions like the House of Burgesses and the practice of salutary neglect, providing essential context for Period 3 demands.", "This argument is accurate, but only for New England colonies.", "This argument cannot be evaluated using any historical evidence from this unit."], correct: 1, explanation: "This argument is inaccurate — Section 2.3 establishes over a century of practical colonial self-governance (House of Burgesses, Mayflower Compact, salutary neglect) as essential historical context, directly refuting any claim that Period 3's self-governance demands emerged with no prior history." },
-    { id: "2-32", topic: "2.3 Colonial Governance", stem: "Which best describes the relationship between salutary neglect and formal British authority over the colonies during this period?", choices: ["Salutary neglect meant Britain formally renounced all authority over the colonies.", "Colonies remained nominally subject to the crown, but salutary neglect allowed colonial assemblies substantial PRACTICAL authority despite this formal subordination.", "Salutary neglect meant colonies had no relationship to Britain at all.", "Salutary neglect was a formal legal declaration of colonial independence."], correct: 1, explanation: "Colonies remained nominally subject to the crown throughout this period, but salutary neglect's loose, inconsistent enforcement allowed colonial assemblies to develop substantial PRACTICAL self-governing authority despite this formal subordination — an important nuance distinguishing formal from practical authority." },
-    { id: "2-33", topic: "2.3 Colonial Governance", stem: "Why is the House of Burgesses significant beyond simply being 'first'?", choices: ["It has no significance beyond being historically first.", "It established an early, functioning model of elected representative governance that set a precedent colonists would draw on throughout the following century and into the Revolutionary period.", "It was immediately abolished after its first meeting.", "It only met a single time in 1619 and never again."], correct: 1, explanation: "The House of Burgesses is significant beyond simply being first because it established a functioning, ongoing model of elected representative governance that set a precedent colonists drew on and expanded throughout the following century, connecting directly to later Revolutionary-era demands for representative government." },
-    { id: "2-34", topic: "2.4 French and Dutch Approaches", stem: "What was the primary focus of French colonial strategy in North America?", choices: ["Large-scale agricultural land settlement", "The fur trade", "Religious conversion exclusively, with no economic motive", "Mining precious metals"], correct: 1, explanation: "French colonial strategy in North America centered primarily on the fur trade, an economic activity requiring cooperative relationships with Native trading partners rather than large-scale land displacement." },
-    { id: "2-35", topic: "2.4 French and Dutch Approaches", stem: "Why did French colonial relations with Native peoples tend to be more cooperative than English colonial relations?", choices: ["The French were inherently more culturally tolerant as a national trait.", "French colonial strategy (fur trade) required functioning, ongoing alliances with Native trading partners, unlike English colonial strategy, which required displacing Native peoples for agricultural land.", "The French had no contact with Native peoples at all.", "English colonists were legally prohibited from any contact with Native peoples."], correct: 1, explanation: "The structural, economic explanation is preferred over a vague cultural one: French fur trade strategy required functioning alliances with Native trading partners to be profitable, while English agricultural land settlement required displacing Native peoples — economic strategy, not national character, best explains the difference." },
-    { id: "2-36", topic: "2.4 French and Dutch Approaches", stem: "What was the primary focus of Dutch colonial strategy in New Netherland?", choices: ["Agricultural plantation settlement", "Trade, particularly the fur trade via the Hudson River", "Religious missionary conversion exclusively", "Military conquest of English colonies"], correct: 1, explanation: "Dutch colonial strategy in New Netherland centered on trade, particularly the fur trade conducted via the Hudson River, producing a relatively diverse and commercially oriented trading colony." },
-    { id: "2-37", topic: "2.4 French and Dutch Approaches", stem: "What later became of the Dutch colony of New Netherland?", choices: ["It became present-day New York.", "It became present-day Pennsylvania.", "It remained a permanently independent Dutch territory.", "It became part of French Canada."], correct: 0, explanation: "New Netherland later became New York, following English acquisition of the colony from the Dutch." },
-    { id: "2-38", topic: "2.4 French and Dutch Approaches", stem: "Why does this section prefer a structural/economic explanation over a 'national character' explanation for differing colonial-Native relations?", choices: ["Because national character explanations are always more accurate.", "Because a structural explanation identifies the actual underlying causal mechanism (what each colonial economy needed to be profitable), rather than relying on an unsupported generalization about national temperament.", "Because economic factors are never relevant to historical explanation.", "Because there is no meaningful difference between these two types of explanation."], correct: 1, explanation: "A structural/economic explanation is preferred because it identifies the actual underlying causal mechanism — what each colonial economy structurally required to be profitable — rather than relying on an unsupported, oversimplified generalization about national temperament or character." },
-    { id: "2-39", topic: "2.4 French and Dutch Approaches", stem: "Which colonial power's approach to settlement most directly required displacing Native peoples from land?", choices: ["French", "Dutch", "English", "None of these powers displaced any Native peoples"], correct: 2, explanation: "English colonial strategy, centered on agricultural land settlement for a rapidly growing settler population, most directly and structurally required displacing Native peoples from land, unlike the trade-focused French and Dutch approaches." },
-    { id: "2-40", topic: "2.4 French and Dutch Approaches", stem: "A student explains that French colonists 'just liked Native Americans more' than English colonists did. What is the strongest critique of this explanation?", choices: ["This explanation is fully accurate and needs no further support.", "This explanation relies on an unsupported generalization about national character rather than identifying the structural economic factor (fur trade dependence on Native alliances) that actually explains the pattern.", "This explanation incorrectly claims the French had worse relations with Native peoples.", "This explanation has no relationship to any historical evidence."], correct: 1, explanation: "The strongest critique is that this explanation relies on an unsupported generalization about national character or attitude, rather than identifying the actual structural economic factor — French fur trade's dependence on cooperative Native alliances — that this section identifies as the real explanatory mechanism." },
-    { id: "2-41", topic: "2.4 French and Dutch Approaches", stem: "Which comparison point does this section use as a model for explaining regional or national differences elsewhere in the course?", choices: ["Comparing population sizes only, with no attention to economic structure.", "Comparing the underlying STRUCTURE of each economy — what it required from land and from Native peoples to be profitable — as the key explanatory variable.", "Comparing only religious differences between colonial powers.", "Comparing exclusively military strength between colonial powers."], correct: 1, explanation: "This section models explaining regional/national differences by comparing the underlying structure of each economy — what it required from land and from Native relationships to be profitable — as the key explanatory variable, a reusable analytical approach for comparison questions elsewhere in the course." },
-    { id: "2-42", topic: "2.4 French and Dutch Approaches", stem: "Which of the following was NOT a primary focus of French colonial strategy in North America?", choices: ["The fur trade", "Missionary activity", "Large-scale agricultural settlement requiring extensive land displacement of Native peoples", "Maintaining alliances with Native trading partners"], correct: 2, explanation: "Large-scale agricultural settlement requiring extensive land displacement was NOT a primary focus of French colonial strategy — this was more characteristic of English colonization, while French strategy centered on the fur trade and relatively sparse settlement." },
-    { id: "2-43", topic: "2.4 French and Dutch Approaches", stem: "How did the relatively sparse French settler population in North America relate to French colonial economic strategy?", choices: ["Sparse settlement had no relationship to economic strategy.", "Sparse settlement was consistent with a fur-trade-focused economy that did not require large numbers of settlers displacing Native peoples for agricultural land.", "The French population was actually larger than the English population throughout this period.", "Sparse settlement was caused entirely by disease, unrelated to economic strategy."], correct: 1, explanation: "The relatively sparse French settler population was consistent with — and helps explain — a fur-trade-focused economic strategy that did not require large numbers of settlers displacing Native peoples for agricultural land, unlike the English pattern." },
-    { id: "2-44", topic: "2.4 French and Dutch Approaches", stem: "Which of the following best completes this comparison: English colonization : agricultural land settlement :: French colonization : ___?", choices: ["Agricultural land settlement", "The fur trade", "Religious conversion with no economic motive", "Mining precious metals exclusively"], correct: 1, explanation: "English colonization centered on agricultural land settlement; French colonization centered on the fur trade — the key structural difference this section uses to explain differing patterns of relations with Native peoples." },
-    { id: "2-45", topic: "2.5 Great Awakening", stem: "What was the First Great Awakening?", choices: ["A political movement demanding independence from Britain.", "A religious revival movement of the 1730s–40s emphasizing intense, personal religious conversion experience over formal ritual and hierarchy.", "A military conflict between English and French colonists.", "An economic reform movement targeting the Navigation Acts."], correct: 1, explanation: "The First Great Awakening was a religious revival movement of the 1730s–40s emphasizing intense, personal religious conversion experience over formal ritual and established religious hierarchy." },
-    { id: "2-46", topic: "2.5 Great Awakening", stem: "Which preacher was known for vivid, emotionally intense sermons like 'Sinners in the Hands of an Angry God'?", choices: ["George Whitefield", "Jonathan Edwards", "William Penn", "Nathaniel Bacon"], correct: 1, explanation: "Jonathan Edwards was known for vivid, emotionally intense sermons like 'Sinners in the Hands of an Angry God,' a landmark example of Great Awakening preaching." },
-    { id: "2-47", topic: "2.5 Great Awakening", stem: "Which preacher was an itinerant figure who traveled extensively across colonial and denominational boundaries, drawing enormous crowds?", choices: ["Jonathan Edwards", "George Whitefield", "Thomas Paine", "John Locke"], correct: 1, explanation: "George Whitefield was an itinerant preacher who traveled extensively across colonial and denominational boundaries, drawing enormous crowds regardless of formal religious affiliation." },
-    { id: "2-48", topic: "2.5 Great Awakening", stem: "How did the Great Awakening contribute to religious pluralism in the colonies?", choices: ["It had no effect on religious pluralism.", "New denominations, such as Baptists and Methodists, gained ground as the movement challenged established religious hierarchy.", "It eliminated all religious denominations except one.", "It made all colonists members of a single unified church."], correct: 1, explanation: "The Great Awakening contributed to religious pluralism as new denominations like Baptists and Methodists gained ground, reflecting the movement's broader challenge to established religious hierarchy and ritual." },
-    { id: "2-49", topic: "2.5 Great Awakening", stem: "Why was George Whitefield's itinerant preaching significant as a cross-colonial phenomenon?", choices: ["It had no significance beyond its immediate religious content.", "It created one of the first genuinely shared popular experiences among colonists in different, otherwise very different regions, since Whitefield crossed colonial and denominational boundaries.", "It was confined entirely to a single colony with no broader reach.", "It was primarily a political, not religious, phenomenon."], correct: 1, explanation: "Whitefield's itinerant preaching across colonial and denominational lines created one of the first genuinely shared popular experiences among colonists in different, otherwise very different regions — a significant cross-colonial phenomenon well before formal political unification." },
-    { id: "2-50", topic: "2.5 Great Awakening", stem: "How should a student appropriately characterize the connection between the Great Awakening and the later American Revolution?", choices: ["As a direct, airtight, undisputed causal relationship stated as settled historical fact.", "As an interpretive connection some historians draw (questioning religious authority as one thread contributing to a broader later culture of questioning authority), appropriately hedged rather than stated as an ironclad causal claim.", "As having absolutely no possible connection whatsoever.", "As the single most important cause of the Revolution, more significant than any other factor."], correct: 1, explanation: "This connection should be characterized as an interpretive connection some historians draw, appropriately hedged as one plausible interpretation among others — not stated as a direct, airtight, settled causal fact, which would overstate the historical evidence." },
-    { id: "2-51", topic: "2.5 Great Awakening", stem: "What core religious emphasis distinguished the Great Awakening from more traditional, hierarchy-centered religious practice?", choices: ["An emphasis on formal ritual over personal experience.", "An emphasis on intense, personal religious conversion experience.", "An emphasis on strict adherence to a single established denomination.", "An emphasis on rejecting all forms of Christianity."], correct: 1, explanation: "The Great Awakening's core distinguishing emphasis was on intense, personal religious conversion experience, contrasting with more traditional religious practice's greater emphasis on formal ritual and hierarchy." },
-    { id: "2-52", topic: "2.5 Great Awakening", stem: "Approximately when did the First Great Awakening occur?", choices: ["1600s–1610s", "1730s–1740s", "1770s–1780s", "1850s–1860s"], correct: 1, explanation: "The First Great Awakening occurred approximately in the 1730s–1740s, a religious revival predating the Revolutionary period by several decades." },
-    { id: "2-53", topic: "2.5 Great Awakening", stem: "How did the Great Awakening's challenge to established religious authority connect to the movement's broader colonial significance?", choices: ["It had no broader significance beyond individual religious experience.", "It reflected and reinforced a broader pattern of colonists directly engaging with and sometimes challenging established institutional authority, a pattern some historians connect (with appropriate hedging) to later political developments.", "It resulted in the immediate elimination of all religious institutions.", "It had significance only for New England, with no effect elsewhere."], correct: 1, explanation: "The Great Awakening's challenge to established religious authority reflected a broader pattern of colonists directly engaging with and sometimes challenging institutional authority — a pattern some historians connect, with appropriate hedging, to later political developments, without claiming a direct, unqualified causal link." },
-    { id: "2-54", topic: "2.5 Great Awakening", stem: "Which best distinguishes Jonathan Edwards's role from George Whitefield's role in the Great Awakening?", choices: ["Edwards was itinerant across colonies; Whitefield remained in a single location.", "Edwards is known for a specific, vivid sermon example ('Sinners in the Hands of an Angry God'); Whitefield is known specifically for his itinerant, cross-colonial preaching reach.", "Both figures played identical roles with no meaningful distinction.", "Neither figure had any documented role in the Great Awakening."], correct: 1, explanation: "Edwards is specifically associated with a landmark example of emotionally intense preaching content ('Sinners in the Hands of an Angry God'), while Whitefield is specifically known for his itinerant, cross-colonial preaching reach — both significant but in somewhat different ways." },
-    { id: "2-55", topic: "2.5 Great Awakening", stem: "Which theme does the Great Awakening's cross-colonial reach most directly connect to?", choices: ["The gradual development of shared colonial experiences and identity before formal political unification.", "The exclusive economic focus of colonial trade policy.", "Native American land ownership concepts.", "The Spanish casta system."], correct: 0, explanation: "The Great Awakening's cross-colonial reach connects most directly to the gradual development of shared colonial experiences and identity well before formal political unification — a theme the course revisits when examining what eventually enables coordinated colonial political action." },
-    { id: "2-56", topic: "2.6 Mercantilism", stem: "What is mercantilism?", choices: ["An economic theory holding that colonies existed primarily to economically benefit the mother country.", "A religious movement emphasizing personal conversion.", "A political theory advocating direct colonial representation in Parliament.", "A labor system based on fixed-term contracts."], correct: 0, explanation: "Mercantilism was the dominant economic theory holding that colonies existed primarily to economically benefit the mother country — supplying raw materials and serving as a captive market for finished goods." },
-    { id: "2-57", topic: "2.6 Mercantilism", stem: "What did the Navigation Acts require?", choices: ["Colonial trade to pass through English ports and ships.", "All colonial goods to be manufactured within the colonies.", "Free, unrestricted colonial trade with any nation.", "Colonies to pay no taxes of any kind to England."], correct: 0, explanation: "The Navigation Acts required colonial trade to pass through English ports and English ships, restricting colonial trade with other nations to enforce mercantilist economic policy." },
-    { id: "2-58", topic: "2.6 Mercantilism", stem: "What does the simplified 'triangular trade' model describe?", choices: ["A trade pattern exclusively between England and France.", "Manufactured goods from Europe to Africa, enslaved people from Africa to the Americas, and raw materials/cash crops from the Americas back to Europe.", "A trade pattern involving only Native American nations.", "A pattern of trade exclusively within a single colony."], correct: 1, explanation: "The triangular trade model describes manufactured goods moving from Europe to Africa, enslaved people from Africa to the Americas, and raw materials/cash crops from the Americas back to Europe — though real Atlantic trade patterns were considerably more complex than this simplified model." },
-    { id: "2-59", topic: "2.6 Mercantilism", stem: "Was the triangular trade model an exact, complete description of real Atlantic trade patterns?", choices: ["Yes, all Atlantic trade followed this exact triangular pattern with no variation.", "No — real Atlantic trade patterns were considerably more varied and complex than this simplified illustrative model suggests.", "Yes, but only for trade between France and Spain.", "No, because the triangular trade model has no historical basis whatsoever."], correct: 1, explanation: "The triangular trade model is a useful simplified illustration, but real Atlantic trade patterns were considerably more varied and complex than this simplified triangle suggests — an important qualification when using this model." },
-    { id: "2-60", topic: "2.6 Mercantilism", stem: "Was enforcement of the Navigation Acts consistently strict throughout Period 2?", choices: ["Yes, enforcement was strict and consistent from 1651 onward with no variation.", "No — enforcement was often loose and inconsistent under salutary neglect, allowing significant colonial smuggling and de facto economic autonomy.", "Yes, but only in New England.", "No, because the Navigation Acts were never actually enforced at any point."], correct: 1, explanation: "Enforcement of the Navigation Acts was often loose and inconsistent under salutary neglect (Section 2.3), allowing significant colonial smuggling and substantial de facto economic autonomy for decades." },
-    { id: "2-61", topic: "2.6 Mercantilism", stem: "Why does loose Navigation Act enforcement during Period 2 matter for understanding Period 3?", choices: ["It has no relevance to Period 3 whatsoever.", "Colonial merchants grew accustomed to substantial practical trade freedom, so Britain's later stricter post-1763 enforcement felt like a sudden, alarming crackdown rather than routine law enforcement.", "The Navigation Acts were repealed entirely before Period 3 began.", "Britain never changed its enforcement approach at any point after 1763."], correct: 1, explanation: "Because colonial merchants grew accustomed to loose enforcement and substantial practical trade freedom, Britain's later shift toward stricter enforcement after 1763 felt like a sudden, alarming crackdown on long-accepted practices, not simply routine continued enforcement — directly fueling Period 3 colonial grievances." },
-    { id: "2-62", topic: "2.6 Mercantilism", stem: "According to mercantilist theory, how was a nation's wealth primarily measured?", choices: ["By its population size alone.", "By its accumulated precious metal (bullion).", "By the number of colonies it controlled, regardless of any economic output.", "By its literacy rate."], correct: 1, explanation: "Mercantilist theory primarily measured a nation's wealth by its accumulated precious metal (bullion), motivating policies designed to maximize exports and accumulated wealth while minimizing imports from rival powers." },
-    { id: "2-63", topic: "2.6 Mercantilism", stem: "Which best describes the relationship between mercantilism and the Navigation Acts?", choices: ["They are unrelated concepts with no connection.", "The Navigation Acts were the specific legal mechanism Britain used to enforce mercantilist economic policy in the colonies.", "Mercantilism was a labor system, while the Navigation Acts were a religious policy.", "The Navigation Acts preceded and caused the development of mercantilist theory."], correct: 1, explanation: "The Navigation Acts were the specific legal mechanism Britain used to enforce mercantilist economic policy — requiring colonial trade to benefit the mother country by passing through English ports and ships, consistent with mercantilist theory's core principles." },
-    { id: "2-64", topic: "2.6 Mercantilism", stem: "When did the Navigation Acts begin?", choices: ["1607", "1651", "1763", "1776"], correct: 1, explanation: "The Navigation Acts began in 1651, establishing the legal framework for enforcing mercantilist trade policy in the English colonies over the following century." },
-    { id: "2-65", topic: "2.6 Mercantilism", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize Sections 2.3 and 2.6 by explaining how salutary neglect's effect on colonial GOVERNANCE and its effect on colonial TRADE enforcement together produced a single, compounded set of expectations that Britain's post-1763 policy shift would violate.", choices: ["Governance and trade enforcement are entirely separate topics with no meaningful connection to draw between them.", "Salutary neglect allowed colonial assemblies practical governing authority (Section 2.3) AND allowed loose Navigation Act trade enforcement (Section 2.6) simultaneously — together producing a broad, compounded colonial expectation of practical autonomy across BOTH political and economic life, meaning Britain's later post-1763 policy shift felt like a comprehensive reversal across multiple dimensions of colonial life at once, not merely a change in one isolated policy area.", "Only trade enforcement matters for understanding Period 3; governance has no relevance.", "Salutary neglect had no effect on either governance or trade enforcement."], correct: 1, explanation: "This synthesis question rewards recognizing that salutary neglect operated simultaneously across two related but distinct domains — practical governing authority (Section 2.3) and loose trade enforcement (Section 2.6) — producing a single, COMPOUNDED colonial expectation of practical autonomy spanning both political and economic life. This is exactly why Britain's post-1763 policy shift (Period 3) felt so comprehensively alarming to colonists: it wasn't a change in one isolated policy area, but a simultaneous tightening across multiple dimensions of colonial life that colonists had, for over a century, experienced as settled and normal." },
+  "2": [
+    {
+      "id": "2-1",
+      "topic": "2.1 Regional Differences",
+      "stem": "What was the primary founding motive of the Massachusetts Bay Colony?",
+      "choices": [
+        "Military conquest of Spanish territory",
+        "Religious reform and community-building",
+        "Fur trade with Native nations",
+        "Profit from cash crop agriculture"
+      ],
+      "correct": 1,
+      "explanation": "Massachusetts Bay was founded primarily for religious reform and community-building by Puritan settlers seeking to establish a model religious society."
+    },
+    {
+      "id": "2-2",
+      "topic": "2.1 Regional Differences",
+      "stem": "What was the primary founding motive of the Virginia colony?",
+      "choices": [
+        "Fur trade exclusively",
+        "Profit-driven cash crop agriculture, sponsored by the Virginia Company",
+        "Religious reform",
+        "Escape from religious persecution in Spain"
+      ],
+      "correct": 1,
+      "explanation": "Virginia was founded primarily as a profit-driven venture sponsored by the Virginia Company, a joint-stock company seeking financial returns through cash crop (tobacco) agriculture."
+    },
+    {
+      "id": "2-3",
+      "topic": "2.1 Regional Differences",
+      "stem": "Why did New England experience more balanced gender ratios and family-based population growth than the early Chesapeake?",
+      "choices": [
+        "Puritan settlers largely emigrated as whole families seeking religious community, unlike the young single male laborers recruited for Chesapeake tobacco cultivation.",
+        "Women were legally prohibited from emigrating to the Chesapeake.",
+        "New England had no relationship between founding motive and demographics.",
+        "The Chesapeake had a healthier climate than New England."
+      ],
+      "correct": 0,
+      "explanation": "Puritan settlers largely emigrated as whole families seeking to build a religious community, producing a balanced gender ratio, while the Chesapeake's profit-driven tobacco economy recruited largely young single men, producing a heavily male-skewed population."
+    },
+    {
+      "id": "2-4",
+      "topic": "2.1 Regional Differences",
+      "stem": "Which colonial region was the most ethnically and religiously diverse?",
+      "choices": [
+        "New England",
+        "The Chesapeake",
+        "All regions had identical diversity",
+        "The Middle Colonies"
+      ],
+      "correct": 3,
+      "explanation": "The Middle Colonies were the most ethnically and religiously diverse region, including Quaker Pennsylvania's policy of religious toleration and Dutch heritage in New York."
+    },
+    {
+      "id": "2-5",
+      "topic": "2.1 Regional Differences",
+      "stem": "What was William Penn's 'holy experiment' in Pennsylvania?",
+      "choices": [
+        "A military expedition against French Canada.",
+        "A trading post focused exclusively on the fur trade.",
+        "An attempt to establish a purely Puritan colony.",
+        "A colony founded on Quaker principles of religious toleration."
+      ],
+      "correct": 3,
+      "explanation": "William Penn's 'holy experiment' was Pennsylvania's founding on Quaker principles of religious toleration, contributing to the Middle Colonies' broader ethnic and religious diversity."
+    },
+    {
+      "id": "2-6",
+      "topic": "2.1 Regional Differences",
+      "stem": "Why is it historically inaccurate to describe 'the colonies' as a single, uniform entity during this period?",
+      "choices": [
+        "Regional differences only emerged after the Revolutionary War.",
+        "New England, the Middle Colonies, and the Chesapeake/South differed dramatically in founding motive, economy, demographics, and religious composition.",
+        "It is actually accurate; all thirteen colonies were essentially identical.",
+        "There were no meaningful economic differences between any colonial regions."
+      ],
+      "correct": 1,
+      "explanation": "New England, the Middle Colonies, and the Chesapeake/South differed dramatically across founding motive, economy, demographics, and religious composition — treating 'the colonies' as uniform flattens genuine, historically significant regional diversity."
+    },
+    {
+      "id": "2-7",
+      "topic": "2.1 Regional Differences",
+      "stem": "What was the primary economic activity of the Chesapeake colonies?",
+      "choices": [
+        "Fur trading exclusively",
+        "Manufacturing of finished goods",
+        "Fishing and shipbuilding",
+        "Tobacco cultivation"
+      ],
+      "correct": 3,
+      "explanation": "Tobacco cultivation was the primary economic activity of the Chesapeake colonies, driving the region's plantation-based economy and demand for agricultural labor."
+    },
+    {
+      "id": "2-8",
+      "topic": "2.1 Regional Differences",
+      "stem": "Which region became known for grain production and was sometimes called the 'breadbasket' colonies?",
+      "choices": [
+        "The Chesapeake",
+        "The Caribbean colonies",
+        "The Middle Colonies",
+        "New England"
+      ],
+      "correct": 2,
+      "explanation": "The Middle Colonies became known for grain production, earning the informal 'breadbasket' colonies designation within the broader colonial economy."
+    },
+    {
+      "id": "2-9",
+      "topic": "2.1 Regional Differences",
+      "stem": "Explain why the Chesapeake colonies developed a labor system increasingly dependent on coerced labor, while New England did not develop a comparable dependence.",
+      "choices": [
+        "The Chesapeake had a smaller population than New England throughout this period.",
+        "The Chesapeake's labor-intensive cash crop economy created strong demand for a large, controllable labor force, unlike New England's small-scale mixed economy.",
+        "New England had no access to any labor source of any kind.",
+        "There is no meaningful economic explanation for this difference."
+      ],
+      "correct": 1,
+      "explanation": "The Chesapeake's labor-intensive cash crop agriculture created strong, ongoing demand for a large, controllable labor force, first met through indentured servitude and later increasingly through African slavery — a demand New England's smaller-scale, more diversified economy did not generate to the same degree."
+    },
+    {
+      "id": "2-10",
+      "topic": "2.1 Regional Differences",
+      "stem": "What role did town meetings play in New England colonial society?",
+      "choices": [
+        "They provided a strong institution of local self-governance.",
+        "They were used exclusively for religious worship.",
+        "They had no political function.",
+        "They were controlled entirely by the English crown with no local input."
+      ],
+      "correct": 0,
+      "explanation": "Town meetings provided New England colonies with a strong institution of local self-governance, directly connecting to Section 2.3's broader theme of early colonial self-rule."
+    },
+    {
+      "id": "2-11",
+      "topic": "2.1 Regional Differences",
+      "stem": "A historian wants to explain regional economic differences among the thirteen colonies. Which single question would provide the most useful starting point, according to this section's framework?",
+      "choices": [
+        "What year was each colony founded?",
+        "What was each colony's founding motive?",
+        "What was the population of each colony's capital city?",
+        "How many rivers ran through each colony?"
+      ],
+      "correct": 1,
+      "explanation": "Founding motive (religious, economic, or mixed) is the single most useful starting question, since it predicts an enormous amount about a colony's subsequent settlement pattern, demographics, economy, and labor system, as this section demonstrates."
+    },
+    {
+      "id": "2-12",
+      "topic": "2.2 Labor Systems",
+      "stem": "What was indentured servitude?",
+      "choices": [
+        "A permanent, hereditary form of coerced labor.",
+        "A voluntary wage labor system with no contractual obligation.",
+        "A fixed-term labor contract, typically four to seven years, in exchange for passage to the colonies.",
+        "A system exclusive to New England."
+      ],
+      "correct": 2,
+      "explanation": "Indentured servitude was a fixed-term labor contract, typically four to seven years, in which migrants exchanged a period of labor for passage to the colonies — the dominant Chesapeake labor source before the shift toward African slavery."
+    },
+    {
+      "id": "2-13",
+      "topic": "2.2 Labor Systems",
+      "stem": "What was Bacon's Rebellion (1676)?",
+      "choices": [
+        "A slave uprising in South Carolina.",
+        "A religious conflict during the Great Awakening.",
+        "A tax revolt against the Navigation Acts.",
+        "A Virginia uprising by poor colonists, including former indentured servants, against the colonial government's land policy and Native American policy."
+      ],
+      "correct": 3,
+      "explanation": "Bacon's Rebellion was a 1676 Virginia uprising led by Nathaniel Bacon, involving poor colonists (including former indentured servants and some enslaved people) against Virginia's colonial government over land policy and its handling of Native American relations on the frontier."
+    },
+    {
+      "id": "2-14",
+      "topic": "2.2 Labor Systems",
+      "stem": "Why did Bacon's Rebellion alarm Virginia's colonial elite?",
+      "choices": [
+        "It had no lasting significance and caused no concern.",
+        "It was led entirely by wealthy planters against the poor.",
+        "It demonstrated that poor colonists, including former indentured servants, could unite in rebellion across racial lines.",
+        "It resulted in the immediate abolition of slavery in Virginia."
+      ],
+      "correct": 2,
+      "explanation": "Bacon's Rebellion alarmed Virginia's elite by demonstrating that poor colonists — including former indentured servants and some enslaved people — could unite in rebellion across racial lines, prompting elites to reconsider their labor system."
+    },
+    {
+      "id": "2-15",
+      "topic": "2.2 Labor Systems",
+      "stem": "How did Virginia's elite respond to the instability exposed by Bacon's Rebellion?",
+      "choices": [
+        "By granting full political rights to all colonists regardless of status.",
+        "By abolishing indentured servitude entirely with no replacement.",
+        "By ending all cash crop agriculture in Virginia.",
+        "By increasingly shifting toward permanent, hereditary African slavery, viewed as less likely to produce cross-racial uprisings."
+      ],
+      "correct": 3,
+      "explanation": "Virginia's elite increasingly shifted toward permanent, hereditary African slave labor in the decades following Bacon's Rebellion, calculating that this labor source was less likely to unite with poor free whites in future cross-racial uprisings."
+    },
+    {
+      "id": "2-16",
+      "topic": "2.2 Labor Systems",
+      "stem": "What did the 1662 Virginia law establish regarding the status of children born to enslaved mothers?",
+      "choices": [
+        "A child's enslaved or free status followed the status of the mother, regardless of the father's status.",
+        "This law had no relationship to slavery at all.",
+        "A child's status was determined by a court hearing in each individual case.",
+        "Children born to enslaved mothers were automatically free."
+      ],
+      "correct": 0,
+      "explanation": "The 1662 Virginia law established that a child's enslaved or free status followed the status of the mother — meaning children born to enslaved women were enslaved regardless of the father's status, a principle later called partus sequitur ventrem."
+    },
+    {
+      "id": "2-17",
+      "topic": "2.2 Labor Systems",
+      "stem": "Why did the 1662 Virginia law represent a fundamental transformation rather than a minor legal detail?",
+      "choices": [
+        "It immediately ended the practice of slavery in Virginia.",
+        "It applied only to indentured servants, not enslaved people.",
+        "It transformed slavery from a temporary labor arrangement into a permanent, self-perpetuating, inheritable institution that could expand across generations.",
+        "It had no practical effect on the institution of slavery."
+      ],
+      "correct": 2,
+      "explanation": "By making enslaved status hereditary through the mother, this law transformed slavery from a temporary labor arrangement (like indentured servitude, non-inheritable) into a permanent, self-perpetuating institution — a fundamental structural transformation."
+    },
+    {
+      "id": "2-18",
+      "topic": "2.2 Labor Systems",
+      "stem": "Which labor system was the Chesapeake's dominant labor source BEFORE Bacon's Rebellion?",
+      "choices": [
+        "Indentured servitude",
+        "Free wage labor exclusively",
+        "African slavery exclusively",
+        "No labor system was used before this period"
+      ],
+      "correct": 0,
+      "explanation": "Indentured servitude was the Chesapeake's dominant labor source before Bacon's Rebellion prompted the shift toward permanent African slavery in subsequent decades."
+    },
+    {
+      "id": "2-19",
+      "topic": "2.2 Labor Systems",
+      "stem": "Is it accurate to describe the shift from indentured servitude to racial slavery as a purely economic process with no political dimension?",
+      "choices": [
+        "No, because economic factors played no role in this shift.",
+        "Yes, political factors played no role in this shift.",
+        "Yes, because Bacon's Rebellion had no connection to labor systems.",
+        "No — Bacon's Rebellion illustrates a specific POLITICAL calculation by colonial elites (avoiding future cross-racial rebellion) layered on top of the underlying economic motive."
+      ],
+      "correct": 3,
+      "explanation": "This shift involved both economic and political dimensions — Bacon's Rebellion illustrates a specific political calculation (preventing future cross-racial uprisings) that colonial elites layered on top of the underlying economic motive for a stable, controllable labor force."
+    },
+    {
+      "id": "2-20",
+      "topic": "2.2 Labor Systems",
+      "stem": "How did indentured servitude differ from racial slavery in terms of the nature of the labor obligation?",
+      "choices": [
+        "Indentured servitude only applied to enslaved Africans.",
+        "Both systems were identical in every respect.",
+        "Indentured servitude was permanent and hereditary; racial slavery was temporary.",
+        "Indentured servitude was a fixed-term contract; racial slavery, following legal changes like the 1662 Virginia law, became permanent and hereditary."
+      ],
+      "correct": 3,
+      "explanation": "Indentured servitude was a fixed-term contractual labor obligation (typically four to seven years), while racial slavery, following legal developments like the 1662 Virginia law, became a permanent and hereditary condition — a fundamental structural difference."
+    },
+    {
+      "id": "2-21",
+      "topic": "2.2 Labor Systems",
+      "stem": "A student argues that racial slavery in the English colonies developed as an immediate, inevitable feature of colonization from the very beginning. Evaluate this argument using this section's content.",
+      "choices": [
+        "This argument is inaccurate — indentured servitude was the dominant Chesapeake labor system before the 1670s, and the shift toward racial slavery developed through a specific sequence of events, including Bacon's Rebellion and subsequent legal changes.",
+        "This argument cannot be evaluated using any historical evidence.",
+        "This argument is accurate; racial slavery was present from the first day of colonization with no prior alternative.",
+        "This argument is accurate, but only for New England."
+      ],
+      "correct": 0,
+      "explanation": "This argument is inaccurate — this section specifically traces how indentured servitude was the dominant early Chesapeake labor system, and racial slavery developed through a specific historical sequence (Bacon's Rebellion, followed by hardening legal codes like the 1662 law), not as an immediate, inevitable feature present from the start."
+    },
+    {
+      "id": "2-22",
+      "topic": "2.2 Labor Systems",
+      "stem": "Which best summarizes the overall causal sequence linking Bacon's Rebellion to the hardening of racial slavery?",
+      "choices": [
+        "Bacon's Rebellion caused the immediate abolition of all forms of coerced labor.",
+        "These two events have no causal relationship to one another.",
+        "Racial slavery hardened first, which then caused Bacon's Rebellion.",
+        "Bacon's Rebellion exposed the danger of cross-racial rebellion among poor colonists, prompting elites to increasingly shift toward and legally entrench permanent, hereditary African slavery as a perceived safer alternative."
+      ],
+      "correct": 3,
+      "explanation": "The correct causal sequence: Bacon's Rebellion exposed the danger of poor colonists uniting in rebellion across racial lines, prompting Virginia's elite to increasingly shift toward and legally entrench permanent, hereditary African slavery as a perceived safer, more stable labor alternative."
+    },
+    {
+      "id": "2-23",
+      "topic": "2.3 Colonial Governance",
+      "stem": "What was the House of Burgesses?",
+      "choices": [
+        "A French colonial trading company.",
+        "The first elected legislative body in the English colonies, established in Virginia in 1619.",
+        "A council of Native American leaders.",
+        "A religious governing body in Massachusetts Bay."
+      ],
+      "correct": 1,
+      "explanation": "The House of Burgesses, established in Virginia in 1619, was the first elected legislative body in the English colonies — an early landmark in colonial self-governance."
+    },
+    {
+      "id": "2-24",
+      "topic": "2.3 Colonial Governance",
+      "stem": "What was the Mayflower Compact (1620)?",
+      "choices": [
+        "A trade agreement between Plymouth and England.",
+        "A royal charter granting Plymouth colonists land rights.",
+        "A treaty with local Native American nations.",
+        "An agreement among Plymouth colonists establishing self-government based on the consent of the governed, made before landing."
+      ],
+      "correct": 3,
+      "explanation": "The Mayflower Compact was an agreement among Plymouth colonists establishing self-government based on the consent of the governed, signed before the colonists even landed — an early expression of colonial self-rule principles."
+    },
+    {
+      "id": "2-25",
+      "topic": "2.3 Colonial Governance",
+      "stem": "What was 'salutary neglect'?",
+      "choices": [
+        "England's generally loose, inconsistent enforcement of trade and governance regulations, allowing colonial assemblies to develop substantial practical self-governing authority.",
+        "A policy of complete British withdrawal from all colonial affairs.",
+        "A strict, consistently enforced British colonial policy.",
+        "A term describing Native American land policy."
+      ],
+      "correct": 0,
+      "explanation": "Salutary neglect describes England's generally loose, inconsistent enforcement of trade and governance regulations over much of this period, allowing colonial assemblies to develop substantial practical authority over local taxation and legislation."
+    },
+    {
+      "id": "2-26",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Why does salutary neglect matter for understanding colonial reactions to British policy after 1763 (Period 3)?",
+      "choices": [
+        "Decades of practical self-governance under salutary neglect meant colonists experienced Britain's later tighter enforcement as an alarming reversal of a long-standing practical arrangement, not merely routine enforcement.",
+        "It has no relationship to later colonial reactions.",
+        "Salutary neglect continued unchanged after 1763 with no policy shift.",
+        "Colonists were entirely unaware of any change in British policy after 1763."
+      ],
+      "correct": 0,
+      "explanation": "Decades of practical self-governance under salutary neglect gave colonists a lived expectation of autonomy — Britain's later shift toward stricter enforcement felt like an alarming REVERSAL of established practice, not simply ordinary law enforcement, directly shaping the intensity of colonial resistance."
+    },
+    {
+      "id": "2-27",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Which institution provided New England colonists with a strong tradition of local self-governance?",
+      "choices": [
+        "The Navigation Acts",
+        "The House of Burgesses",
+        "Town meetings",
+        "The Spanish casta system"
+      ],
+      "correct": 2,
+      "explanation": "Town meetings provided New England colonists with a strong, direct tradition of local self-governance, complementing broader colonial governance developments like the House of Burgesses in Virginia."
+    },
+    {
+      "id": "2-28",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Is it accurate to describe colonial self-governance as a phenomenon that emerged suddenly in the 1760s–70s?",
+      "choices": [
+        "No — colonial self-governance had deep roots stretching back to the House of Burgesses (1619) and Mayflower Compact (1620), continuing through decades of salutary neglect.",
+        "No, because colonial self-governance never existed at any point in American history.",
+        "Yes, because the House of Burgesses was established after 1763.",
+        "Yes, colonial self-governance had no history before the 1760s."
+      ],
+      "correct": 0,
+      "explanation": "Colonial self-governance had deep roots stretching back to institutions like the House of Burgesses (1619) and the Mayflower Compact (1620), continuing and expanding through decades of salutary neglect — it did not suddenly emerge in the 1760s."
+    },
+    {
+      "id": "2-29",
+      "topic": "2.3 Colonial Governance",
+      "stem": "What specific practical authority did colonial assemblies increasingly develop under salutary neglect?",
+      "choices": [
+        "No practical authority of any kind.",
+        "Complete independence from the British crown.",
+        "Authority to declare war on European nations.",
+        "Authority over local taxation and legislation."
+      ],
+      "correct": 3,
+      "explanation": "Colonial assemblies increasingly developed substantial practical authority over local taxation and legislation under salutary neglect, even while remaining nominally subject to the crown."
+    },
+    {
+      "id": "2-30",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Which document is considered an early expression of government based on the consent of the governed, predating the Declaration of Independence by over 150 years?",
+      "choices": [
+        "The Mayflower Compact",
+        "The Navigation Acts",
+        "The Treaty of Paris",
+        "The House of Burgesses charter"
+      ],
+      "correct": 0,
+      "explanation": "The Mayflower Compact (1620) is considered an early expression of government based on the consent of the governed, predating the Declaration of Independence (1776) by over 150 years."
+    },
+    {
+      "id": "2-31",
+      "topic": "2.3 Colonial Governance",
+      "stem": "A historian argues that Period 3's revolutionary demands for self-governance 'came from nowhere.' Evaluate this argument using Section 2.3's content.",
+      "choices": [
+        "This argument cannot be evaluated using any historical evidence from this unit.",
+        "This argument is accurate, but only for New England colonies.",
+        "This argument is accurate; colonists had no prior experience of self-governance.",
+        "This argument is inaccurate — Period 2 established over a century of practical colonial self-governance through institutions like the House of Burgesses and the practice of salutary neglect, providing essential context for Period 3 demands."
+      ],
+      "correct": 3,
+      "explanation": "This argument is inaccurate — Section 2.3 establishes over a century of practical colonial self-governance (House of Burgesses, Mayflower Compact, salutary neglect) as essential historical context, directly refuting any claim that Period 3's self-governance demands emerged with no prior history."
+    },
+    {
+      "id": "2-32",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Which best describes the relationship between salutary neglect and formal British authority over the colonies during this period?",
+      "choices": [
+        "Salutary neglect was a formal legal declaration of colonial independence.",
+        "Salutary neglect meant Britain formally renounced all authority over the colonies.",
+        "Colonies remained nominally subject to the crown, but salutary neglect allowed colonial assemblies substantial PRACTICAL authority despite this formal subordination.",
+        "Salutary neglect meant colonies had no relationship to Britain at all."
+      ],
+      "correct": 2,
+      "explanation": "Colonies remained nominally subject to the crown throughout this period, but salutary neglect's loose, inconsistent enforcement allowed colonial assemblies to develop substantial PRACTICAL self-governing authority despite this formal subordination — an important nuance distinguishing formal from practical authority."
+    },
+    {
+      "id": "2-33",
+      "topic": "2.3 Colonial Governance",
+      "stem": "Why is the House of Burgesses significant beyond simply being 'first'?",
+      "choices": [
+        "It established an early, functioning model of elected representative governance that set a precedent colonists would draw on throughout the following century and into the Revolutionary period.",
+        "It has no significance beyond being historically first.",
+        "It was immediately abolished after its first meeting.",
+        "It only met a single time in 1619 and never again."
+      ],
+      "correct": 0,
+      "explanation": "The House of Burgesses is significant beyond simply being first because it established a functioning, ongoing model of elected representative governance that set a precedent colonists drew on and expanded throughout the following century, connecting directly to later Revolutionary-era demands for representative government."
+    },
+    {
+      "id": "2-34",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "What was the primary focus of French colonial strategy in North America?",
+      "choices": [
+        "Large-scale agricultural land settlement",
+        "The fur trade",
+        "Religious conversion exclusively, with no economic motive",
+        "Mining precious metals"
+      ],
+      "correct": 1,
+      "explanation": "French colonial strategy in North America centered primarily on the fur trade, an economic activity requiring cooperative relationships with Native trading partners rather than large-scale land displacement."
+    },
+    {
+      "id": "2-35",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Why did French colonial relations with Native peoples tend to be more cooperative than English colonial relations?",
+      "choices": [
+        "The French had no contact with Native peoples at all.",
+        "English colonists were legally prohibited from any contact with Native peoples.",
+        "French colonial strategy (fur trade) required functioning, ongoing alliances with Native trading partners, unlike English colonial strategy, which required displacing Native peoples for agricultural land.",
+        "The French were inherently more culturally tolerant as a national trait."
+      ],
+      "correct": 2,
+      "explanation": "The structural, economic explanation is preferred over a vague cultural one: French fur trade strategy required functioning alliances with Native trading partners to be profitable, while English agricultural land settlement required displacing Native peoples — economic strategy, not national character, best explains the difference."
+    },
+    {
+      "id": "2-36",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "What was the primary focus of Dutch colonial strategy in New Netherland?",
+      "choices": [
+        "Trade, particularly the fur trade via the Hudson River",
+        "Agricultural plantation settlement",
+        "Religious missionary conversion exclusively",
+        "Military conquest of English colonies"
+      ],
+      "correct": 0,
+      "explanation": "Dutch colonial strategy in New Netherland centered on trade, particularly the fur trade conducted via the Hudson River, producing a relatively diverse and commercially oriented trading colony."
+    },
+    {
+      "id": "2-37",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "What later became of the Dutch colony of New Netherland?",
+      "choices": [
+        "It became part of French Canada.",
+        "It remained a permanently independent Dutch territory.",
+        "It became present-day New York.",
+        "It became present-day Pennsylvania."
+      ],
+      "correct": 2,
+      "explanation": "New Netherland later became New York, following English acquisition of the colony from the Dutch."
+    },
+    {
+      "id": "2-38",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Why does this section prefer a structural/economic explanation over a 'national character' explanation for differing colonial-Native relations?",
+      "choices": [
+        "Because a structural explanation identifies the actual underlying causal mechanism (what each colonial economy needed to be profitable), rather than relying on an unsupported generalization about national temperament.",
+        "Because there is no meaningful difference between these two types of explanation.",
+        "Because national character explanations are always more accurate.",
+        "Because economic factors are never relevant to historical explanation."
+      ],
+      "correct": 0,
+      "explanation": "A structural/economic explanation is preferred because it identifies the actual underlying causal mechanism — what each colonial economy structurally required to be profitable — rather than relying on an unsupported, oversimplified generalization about national temperament or character."
+    },
+    {
+      "id": "2-39",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Which colonial power's approach to settlement most directly required displacing Native peoples from land?",
+      "choices": [
+        "French",
+        "None of these powers displaced any Native peoples",
+        "Dutch",
+        "English"
+      ],
+      "correct": 3,
+      "explanation": "English colonial strategy, centered on agricultural land settlement for a rapidly growing settler population, most directly and structurally required displacing Native peoples from land, unlike the trade-focused French and Dutch approaches."
+    },
+    {
+      "id": "2-40",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "A student explains that French colonists 'just liked Native Americans more' than English colonists did. What is the strongest critique of this explanation?",
+      "choices": [
+        "This explanation incorrectly claims the French had worse relations with Native peoples.",
+        "This explanation is fully accurate and needs no further support.",
+        "This explanation relies on an unsupported generalization about national character rather than identifying the structural economic factor (fur trade dependence on Native alliances) that actually explains the pattern.",
+        "This explanation has no relationship to any historical evidence."
+      ],
+      "correct": 2,
+      "explanation": "The strongest critique is that this explanation relies on an unsupported generalization about national character or attitude, rather than identifying the actual structural economic factor — French fur trade's dependence on cooperative Native alliances — that this section identifies as the real explanatory mechanism."
+    },
+    {
+      "id": "2-41",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Which comparison point does this section use as a model for explaining regional or national differences elsewhere in the course?",
+      "choices": [
+        "Comparing only religious differences between colonial powers.",
+        "Comparing population sizes only, with no attention to economic structure.",
+        "Comparing exclusively military strength between colonial powers.",
+        "Comparing the underlying STRUCTURE of each economy — what it required from land and from Native peoples to be profitable — as the key explanatory variable."
+      ],
+      "correct": 3,
+      "explanation": "This section models explaining regional/national differences by comparing the underlying structure of each economy — what it required from land and from Native relationships to be profitable — as the key explanatory variable, a reusable analytical approach for comparison questions elsewhere in the course."
+    },
+    {
+      "id": "2-42",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Which of the following was NOT a primary focus of French colonial strategy in North America?",
+      "choices": [
+        "The fur trade",
+        "Maintaining alliances with Native trading partners",
+        "Large-scale agricultural settlement requiring extensive land displacement of Native peoples",
+        "Missionary activity"
+      ],
+      "correct": 2,
+      "explanation": "Large-scale agricultural settlement requiring extensive land displacement was NOT a primary focus of French colonial strategy — this was more characteristic of English colonization, while French strategy centered on the fur trade and relatively sparse settlement."
+    },
+    {
+      "id": "2-43",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "How did the relatively sparse French settler population in North America relate to French colonial economic strategy?",
+      "choices": [
+        "Sparse settlement was caused entirely by disease, unrelated to economic strategy.",
+        "Sparse settlement was consistent with a fur-trade-focused economy that did not require large numbers of settlers displacing Native peoples for agricultural land.",
+        "Sparse settlement had no relationship to economic strategy.",
+        "The French population was actually larger than the English population throughout this period."
+      ],
+      "correct": 1,
+      "explanation": "The relatively sparse French settler population was consistent with — and helps explain — a fur-trade-focused economic strategy that did not require large numbers of settlers displacing Native peoples for agricultural land, unlike the English pattern."
+    },
+    {
+      "id": "2-44",
+      "topic": "2.4 French and Dutch Approaches",
+      "stem": "Which of the following best completes this comparison: English colonization : agricultural land settlement :: French colonization : ___?",
+      "choices": [
+        "Mining precious metals exclusively",
+        "Agricultural land settlement",
+        "Religious conversion with no economic motive",
+        "The fur trade"
+      ],
+      "correct": 3,
+      "explanation": "English colonization centered on agricultural land settlement; French colonization centered on the fur trade — the key structural difference this section uses to explain differing patterns of relations with Native peoples."
+    },
+    {
+      "id": "2-45",
+      "topic": "2.5 Great Awakening",
+      "stem": "What was the First Great Awakening?",
+      "choices": [
+        "A military conflict between English and French colonists.",
+        "An economic reform movement targeting the Navigation Acts.",
+        "A religious revival movement of the 1730s–40s emphasizing intense, personal religious conversion experience over formal ritual and hierarchy.",
+        "A political movement demanding independence from Britain."
+      ],
+      "correct": 2,
+      "explanation": "The First Great Awakening was a religious revival movement of the 1730s–40s emphasizing intense, personal religious conversion experience over formal ritual and established religious hierarchy."
+    },
+    {
+      "id": "2-46",
+      "topic": "2.5 Great Awakening",
+      "stem": "Which preacher was known for vivid, emotionally intense sermons like 'Sinners in the Hands of an Angry God'?",
+      "choices": [
+        "William Penn",
+        "Nathaniel Bacon",
+        "Jonathan Edwards",
+        "George Whitefield"
+      ],
+      "correct": 2,
+      "explanation": "Jonathan Edwards was known for vivid, emotionally intense sermons like 'Sinners in the Hands of an Angry God,' a landmark example of Great Awakening preaching."
+    },
+    {
+      "id": "2-47",
+      "topic": "2.5 Great Awakening",
+      "stem": "Which preacher was an itinerant figure who traveled extensively across colonial and denominational boundaries, drawing enormous crowds?",
+      "choices": [
+        "George Whitefield",
+        "Thomas Paine",
+        "John Locke",
+        "Jonathan Edwards"
+      ],
+      "correct": 0,
+      "explanation": "George Whitefield was an itinerant preacher who traveled extensively across colonial and denominational boundaries, drawing enormous crowds regardless of formal religious affiliation."
+    },
+    {
+      "id": "2-48",
+      "topic": "2.5 Great Awakening",
+      "stem": "How did the Great Awakening contribute to religious pluralism in the colonies?",
+      "choices": [
+        "It had no effect on religious pluralism.",
+        "New denominations, such as Baptists and Methodists, gained ground as the movement challenged established religious hierarchy.",
+        "It eliminated all religious denominations except one.",
+        "It made all colonists members of a single unified church."
+      ],
+      "correct": 1,
+      "explanation": "The Great Awakening contributed to religious pluralism as new denominations like Baptists and Methodists gained ground, reflecting the movement's broader challenge to established religious hierarchy and ritual."
+    },
+    {
+      "id": "2-49",
+      "topic": "2.5 Great Awakening",
+      "stem": "Why was George Whitefield's itinerant preaching significant as a cross-colonial phenomenon?",
+      "choices": [
+        "It had no significance beyond its immediate religious content.",
+        "It was confined entirely to a single colony with no broader reach.",
+        "It created one of the first genuinely shared popular experiences among colonists in different, otherwise very different regions, since Whitefield crossed colonial and denominational boundaries.",
+        "It was primarily a political, not religious, phenomenon."
+      ],
+      "correct": 2,
+      "explanation": "Whitefield's itinerant preaching across colonial and denominational lines created one of the first genuinely shared popular experiences among colonists in different, otherwise very different regions — a significant cross-colonial phenomenon well before formal political unification."
+    },
+    {
+      "id": "2-50",
+      "topic": "2.5 Great Awakening",
+      "stem": "How should a student appropriately characterize the connection between the Great Awakening and the later American Revolution?",
+      "choices": [
+        "As an interpretive connection some historians draw (questioning religious authority as one thread contributing to a broader later culture of questioning authority), appropriately hedged rather than stated as an ironclad causal claim.",
+        "As having absolutely no possible connection whatsoever.",
+        "As the single most important cause of the Revolution, more significant than any other factor.",
+        "As a direct, airtight, undisputed causal relationship stated as settled historical fact."
+      ],
+      "correct": 0,
+      "explanation": "This connection should be characterized as an interpretive connection some historians draw, appropriately hedged as one plausible interpretation among others — not stated as a direct, airtight, settled causal fact, which would overstate the historical evidence."
+    },
+    {
+      "id": "2-51",
+      "topic": "2.5 Great Awakening",
+      "stem": "What core religious emphasis distinguished the Great Awakening from more traditional, hierarchy-centered religious practice?",
+      "choices": [
+        "An emphasis on rejecting all forms of Christianity.",
+        "An emphasis on intense, personal religious conversion experience.",
+        "An emphasis on formal ritual over personal experience.",
+        "An emphasis on strict adherence to a single established denomination."
+      ],
+      "correct": 1,
+      "explanation": "The Great Awakening's core distinguishing emphasis was on intense, personal religious conversion experience, contrasting with more traditional religious practice's greater emphasis on formal ritual and hierarchy."
+    },
+    {
+      "id": "2-52",
+      "topic": "2.5 Great Awakening",
+      "stem": "Approximately when did the First Great Awakening occur?",
+      "choices": [
+        "1600s–1610s",
+        "1730s–1740s",
+        "1770s–1780s",
+        "1850s–1860s"
+      ],
+      "correct": 1,
+      "explanation": "The First Great Awakening occurred approximately in the 1730s–1740s, a religious revival predating the Revolutionary period by several decades."
+    },
+    {
+      "id": "2-53",
+      "topic": "2.5 Great Awakening",
+      "stem": "How did the Great Awakening's challenge to established religious authority connect to the movement's broader colonial significance?",
+      "choices": [
+        "It had significance only for New England, with no effect elsewhere.",
+        "It had no broader significance beyond individual religious experience.",
+        "It reflected and reinforced a broader pattern of colonists directly engaging with and sometimes challenging established institutional authority, a pattern some historians connect (with appropriate hedging) to later political developments.",
+        "It resulted in the immediate elimination of all religious institutions."
+      ],
+      "correct": 2,
+      "explanation": "The Great Awakening's challenge to established religious authority reflected a broader pattern of colonists directly engaging with and sometimes challenging institutional authority — a pattern some historians connect, with appropriate hedging, to later political developments, without claiming a direct, unqualified causal link."
+    },
+    {
+      "id": "2-54",
+      "topic": "2.5 Great Awakening",
+      "stem": "Which best distinguishes Jonathan Edwards's role from George Whitefield's role in the Great Awakening?",
+      "choices": [
+        "Edwards was itinerant across colonies; Whitefield remained in a single location.",
+        "Edwards is known for a specific, vivid sermon example ('Sinners in the Hands of an Angry God'); Whitefield is known specifically for his itinerant, cross-colonial preaching reach.",
+        "Neither figure had any documented role in the Great Awakening.",
+        "Both figures played identical roles with no meaningful distinction."
+      ],
+      "correct": 1,
+      "explanation": "Edwards is specifically associated with a landmark example of emotionally intense preaching content ('Sinners in the Hands of an Angry God'), while Whitefield is specifically known for his itinerant, cross-colonial preaching reach — both significant but in somewhat different ways."
+    },
+    {
+      "id": "2-55",
+      "topic": "2.5 Great Awakening",
+      "stem": "Which theme does the Great Awakening's cross-colonial reach most directly connect to?",
+      "choices": [
+        "The exclusive economic focus of colonial trade policy.",
+        "The gradual development of shared colonial experiences and identity before formal political unification.",
+        "The Spanish casta system.",
+        "Native American land ownership concepts."
+      ],
+      "correct": 1,
+      "explanation": "The Great Awakening's cross-colonial reach connects most directly to the gradual development of shared colonial experiences and identity well before formal political unification — a theme the course revisits when examining what eventually enables coordinated colonial political action."
+    },
+    {
+      "id": "2-56",
+      "topic": "2.6 Mercantilism",
+      "stem": "What is mercantilism?",
+      "choices": [
+        "An economic theory holding that colonies existed primarily to economically benefit the mother country.",
+        "A religious movement emphasizing personal conversion.",
+        "A labor system based on fixed-term contracts.",
+        "A political theory advocating direct colonial representation in Parliament."
+      ],
+      "correct": 0,
+      "explanation": "Mercantilism was the dominant economic theory holding that colonies existed primarily to economically benefit the mother country — supplying raw materials and serving as a captive market for finished goods."
+    },
+    {
+      "id": "2-57",
+      "topic": "2.6 Mercantilism",
+      "stem": "What did the Navigation Acts require?",
+      "choices": [
+        "Free, unrestricted colonial trade with any nation.",
+        "Colonies to pay no taxes of any kind to England.",
+        "Colonial trade to pass through English ports and ships.",
+        "All colonial goods to be manufactured within the colonies."
+      ],
+      "correct": 2,
+      "explanation": "The Navigation Acts required colonial trade to pass through English ports and English ships, restricting colonial trade with other nations to enforce mercantilist economic policy."
+    },
+    {
+      "id": "2-58",
+      "topic": "2.6 Mercantilism",
+      "stem": "What does the simplified 'triangular trade' model describe?",
+      "choices": [
+        "A trade pattern exclusively between England and France.",
+        "A pattern of trade exclusively within a single colony.",
+        "Manufactured goods from Europe to Africa, enslaved people from Africa to the Americas, and raw materials/cash crops from the Americas back to Europe.",
+        "A trade pattern involving only Native American nations."
+      ],
+      "correct": 2,
+      "explanation": "The triangular trade model describes manufactured goods moving from Europe to Africa, enslaved people from Africa to the Americas, and raw materials/cash crops from the Americas back to Europe — though real Atlantic trade patterns were considerably more complex than this simplified model."
+    },
+    {
+      "id": "2-59",
+      "topic": "2.6 Mercantilism",
+      "stem": "Was the triangular trade model an exact, complete description of real Atlantic trade patterns?",
+      "choices": [
+        "Yes, all Atlantic trade followed this exact triangular pattern with no variation.",
+        "No, because the triangular trade model has no historical basis whatsoever.",
+        "Yes, but only for trade between France and Spain.",
+        "No — real Atlantic trade patterns were considerably more varied and complex than this simplified illustrative model suggests."
+      ],
+      "correct": 3,
+      "explanation": "The triangular trade model is a useful simplified illustration, but real Atlantic trade patterns were considerably more varied and complex than this simplified triangle suggests — an important qualification when using this model."
+    },
+    {
+      "id": "2-60",
+      "topic": "2.6 Mercantilism",
+      "stem": "Was enforcement of the Navigation Acts consistently strict throughout Period 2?",
+      "choices": [
+        "Yes, enforcement was strict and consistent from 1651 onward with no variation.",
+        "No — enforcement was often loose and inconsistent under salutary neglect, allowing significant colonial smuggling and de facto economic autonomy.",
+        "No, because the Navigation Acts were never actually enforced at any point.",
+        "Yes, but only in New England."
+      ],
+      "correct": 1,
+      "explanation": "Enforcement of the Navigation Acts was often loose and inconsistent under salutary neglect (Section 2.3), allowing significant colonial smuggling and substantial de facto economic autonomy for decades."
+    },
+    {
+      "id": "2-61",
+      "topic": "2.6 Mercantilism",
+      "stem": "Why does loose Navigation Act enforcement during Period 2 matter for understanding Period 3?",
+      "choices": [
+        "The Navigation Acts were repealed entirely before Period 3 began.",
+        "Britain never changed its enforcement approach at any point after 1763.",
+        "It has no relevance to Period 3 whatsoever.",
+        "Colonial merchants grew accustomed to substantial practical trade freedom, so Britain's later stricter post-1763 enforcement felt like a sudden, alarming crackdown rather than routine law enforcement."
+      ],
+      "correct": 3,
+      "explanation": "Because colonial merchants grew accustomed to loose enforcement and substantial practical trade freedom, Britain's later shift toward stricter enforcement after 1763 felt like a sudden, alarming crackdown on long-accepted practices, not simply routine continued enforcement — directly fueling Period 3 colonial grievances."
+    },
+    {
+      "id": "2-62",
+      "topic": "2.6 Mercantilism",
+      "stem": "According to mercantilist theory, how was a nation's wealth primarily measured?",
+      "choices": [
+        "By its literacy rate.",
+        "By its population size alone.",
+        "By the number of colonies it controlled, regardless of any economic output.",
+        "By its accumulated precious metal (bullion)."
+      ],
+      "correct": 3,
+      "explanation": "Mercantilist theory primarily measured a nation's wealth by its accumulated precious metal (bullion), motivating policies designed to maximize exports and accumulated wealth while minimizing imports from rival powers."
+    },
+    {
+      "id": "2-63",
+      "topic": "2.6 Mercantilism",
+      "stem": "Which best describes the relationship between mercantilism and the Navigation Acts?",
+      "choices": [
+        "Mercantilism was a labor system, while the Navigation Acts were a religious policy.",
+        "They are unrelated concepts with no connection.",
+        "The Navigation Acts preceded and caused the development of mercantilist theory.",
+        "The Navigation Acts were the specific legal mechanism Britain used to enforce mercantilist economic policy in the colonies."
+      ],
+      "correct": 3,
+      "explanation": "The Navigation Acts were the specific legal mechanism Britain used to enforce mercantilist economic policy — requiring colonial trade to benefit the mother country by passing through English ports and ships, consistent with mercantilist theory's core principles."
+    },
+    {
+      "id": "2-64",
+      "topic": "2.6 Mercantilism",
+      "stem": "When did the Navigation Acts begin?",
+      "choices": [
+        "1776",
+        "1651",
+        "1607",
+        "1763"
+      ],
+      "correct": 1,
+      "explanation": "The Navigation Acts began in 1651, establishing the legal framework for enforcing mercantilist trade policy in the English colonies over the following century."
+    },
+    {
+      "id": "2-65",
+      "topic": "2.6 Mercantilism",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize Sections 2.3 and 2.6 by explaining how salutary neglect's effect on colonial GOVERNANCE and its effect on colonial TRADE enforcement together produced a single, compounded set of expectations that Britain's post-1763 policy shift would violate.",
+      "choices": [
+        "Governance and trade enforcement are entirely separate topics with no meaningful connection to draw between them.",
+        "Only trade enforcement matters for understanding Period 3; governance has no relevance.",
+        "Salutary neglect had no effect on either governance or trade enforcement.",
+        "Salutary neglect allowed colonial assemblies practical governing authority (Section 2.3) AND allowed loose Navigation Act trade enforcement (Section 2.6) simultaneously — together producing a broad, compounded colonial expectation of practical autonomy across BOTH political and economic life, meaning Britain's later post-1763 policy shift felt like a comprehensive reversal across multiple dimensions of colonial life at once, not merely a change in one isolated policy area."
+      ],
+      "correct": 3,
+      "explanation": "This synthesis question rewards recognizing that salutary neglect operated simultaneously across two related but distinct domains — practical governing authority (Section 2.3) and loose trade enforcement (Section 2.6) — producing a single, COMPOUNDED colonial expectation of practical autonomy spanning both political and economic life. This is exactly why Britain's post-1763 policy shift (Period 3) felt so comprehensively alarming to colonists: it wasn't a change in one isolated policy area, but a simultaneous tightening across multiple dimensions of colonial life that colonists had, for over a century, experienced as settled and normal."
+    }
   ],
-  3: [
-    { id: "3-1", topic: "3.1 French and Indian War", stem: "What territorial dispute triggered the French and Indian War?", choices: ["Competing claims to Florida", "Competing French and British claims to the Ohio River Valley", "A dispute over control of the Mississippi Delta", "A conflict over Canadian fishing rights"], correct: 1, explanation: "The French and Indian War began over competing French and British claims to the Ohio River Valley, with Washington's 1754 expedition marking an early flashpoint." },
-    { id: "3-2", topic: "3.1 French and Indian War", stem: "What did the 1763 Treaty of Paris establish?", choices: ["American independence from Britain.", "Britain's acquisition of Canada and territory east of the Mississippi River from France.", "A permanent alliance between France and the American colonies.", "The abolition of the Proclamation Line."], correct: 1, explanation: "The 1763 Treaty of Paris ended the French and Indian War, with Britain gaining Canada and territory east of the Mississippi River from France, removing France from mainland North America." },
-    { id: "3-3", topic: "3.1 French and Indian War", stem: "What did the Proclamation of 1763 prohibit?", choices: ["All colonial trade with Britain.", "Colonial settlement west of the Appalachian Mountains.", "The importation of enslaved Africans.", "Colonial representation in Parliament."], correct: 1, explanation: "The Proclamation of 1763 prohibited colonial settlement west of the Appalachian Mountains, angering land-hungry colonists eager to expand westward following the French threat's removal." },
-    { id: "3-4", topic: "3.1 French and Indian War", stem: "Why did Britain impose new taxes on colonists following the French and Indian War?", choices: ["To fund an entirely new war against Spain.", "To help pay off massive war debt incurred during the conflict.", "Colonists specifically requested new taxes.", "Britain had no financial motive for these new taxes."], correct: 1, explanation: "Britain imposed new taxes on colonists to help pay off the massive war debt incurred during the French and Indian War, directly setting up the taxation conflicts of Section 3.2." },
-    { id: "3-5", topic: "3.1 French and Indian War", stem: "Explain how removing the French military threat weakened, rather than strengthened, colonial loyalty to Britain.", choices: ["It had no effect on colonial loyalty of any kind.", "Colonists no longer needed British protection as urgently, weakening a key rationale for accepting British authority, precisely as Britain imposed new costs and restrictions.", "It strengthened colonial loyalty by making colonists feel safer and more grateful.", "The French threat was never actually removed."], correct: 1, explanation: "With the French threat eliminated, colonists no longer needed British military protection as urgently — weakening a key practical rationale for accepting British authority, right as Britain imposed new taxes and the Proclamation of 1763, fueling resentment." },
-    { id: "3-6", topic: "3.1 French and Indian War", stem: "The French and Indian War was the North American theater of which broader global conflict?", choices: ["The Seven Years' War", "The Napoleonic Wars", "The War of 1812", "The Hundred Years' War"], correct: 0, explanation: "The French and Indian War was the North American theater of the broader global Seven Years' War (1756–1763)." },
-    { id: "3-7", topic: "3.1 French and Indian War", stem: "Is it accurate to describe British victory in the French and Indian War as producing no negative consequences for British-colonial relations?", choices: ["Yes, British victory had only positive effects on British-colonial relations.", "No — British victory directly produced war debt, new taxation, the Proclamation of 1763, and reduced colonial dependence on British protection, all of which contributed to colonial resistance.", "Yes, because the war had no measurable effect on colonial relations at all.", "No, because Britain actually lost the French and Indian War."], correct: 1, explanation: "British victory directly produced several consequences — war debt, new taxation, the Proclamation of 1763, and reduced colonial need for British protection — that together contributed significantly to the colonial resistance covered in Section 3.2." },
-    { id: "3-8", topic: "3.1 French and Indian War", stem: "Which of the following best summarizes this section's central causal argument about the French and Indian War?", choices: ["The war had no lasting consequences of any kind.", "British victory itself produced the specific conditions (debt, taxation, Proclamation Line, reduced need for protection) that provoked the colonial resistance that follows in Period 3.", "The war caused immediate American independence in 1763.", "The war strengthened French control over North America."], correct: 1, explanation: "This section's central causal argument is that British victory itself — not defeat — produced the specific conditions that provoked colonial resistance, an ironic and causally important connection to the rest of Period 3." },
-    { id: "3-9", topic: "3.2 Coming of the Revolution", stem: "Why was the Stamp Act (1765) particularly significant compared to earlier British trade duties?", choices: ["It was Parliament's first DIRECT tax on colonists, rather than a tax on trade.", "It was the first tax of any kind ever imposed on colonists.", "It had no relationship to taxation at all.", "It was immediately and universally accepted without protest."], correct: 0, explanation: "The Stamp Act was significant because it was Parliament's first DIRECT tax on colonists (on printed materials), rather than a tax on trade goods — provoking the specific 'no taxation without representation' constitutional argument." },
-    { id: "3-10", topic: "3.2 Coming of the Revolution", stem: "What does 'no taxation without representation' specifically argue?", choices: ["That taxes of any kind and amount should never exist.", "That only a body colonists elected could legitimately tax them.", "That colonists should have no representation in any government.", "That Britain should tax colonists more heavily."], correct: 1, explanation: "'No taxation without representation' made a specific constitutional argument: that only a body colonists elected could legitimately tax them — not a general objection to taxation's existence or amount." },
-    { id: "3-11", topic: "3.2 Coming of the Revolution", stem: "What event directly triggered the Coercive (Intolerable) Acts of 1774?", choices: ["The Stamp Act Congress", "The Boston Tea Party", "The Battle of Saratoga", "The Proclamation of 1763"], correct: 1, explanation: "The Coercive Acts of 1774 were a direct, punitive British response to the Boston Tea Party (December 1773), closing Boston's port among other measures." },
-    { id: "3-12", topic: "3.2 Coming of the Revolution", stem: "What was the Stamp Act Congress (1765)?", choices: ["A meeting of British Parliament members only.", "An early example of cross-colonial political coordination to protest the Stamp Act.", "A military conflict between colonists and British troops.", "A meeting that formally declared independence."], correct: 1, explanation: "The Stamp Act Congress (1765) was an early example of cross-colonial political coordination, with delegates from multiple colonies meeting to formally protest the Stamp Act together." },
-    { id: "3-13", topic: "3.2 Coming of the Revolution", stem: "Why should the sequence of British policies and colonial responses between 1764 and 1774 be understood as an escalating cycle?", choices: ["Each event was completely unrelated to every other event in the sequence.", "Each British policy provoked a colonial response, which in turn provoked an even harsher British policy, steadily narrowing the space for compromise.", "British policy became progressively more lenient throughout this period.", "Colonial responses had no effect on subsequent British policy."], correct: 1, explanation: "This period should be understood as an escalating action-reaction cycle — each British policy provoked a colonial response, which provoked a harsher British policy in turn, steadily narrowing the space for compromise and pushing toward armed conflict." },
-    { id: "3-14", topic: "3.2 Coming of the Revolution", stem: "What colonial response followed the Townshend Acts (1767)?", choices: ["Immediate declaration of independence.", "Colonial boycotts of British goods.", "Full colonial acceptance with no protest.", "The Boston Tea Party."], correct: 1, explanation: "Colonial boycotts of British goods followed the Townshend Acts (1767), which had imposed taxes on imported goods like glass, tea, and paper." },
-    { id: "3-15", topic: "3.2 Coming of the Revolution", stem: "Which body convened in 1774 in direct response to the Coercive Acts?", choices: ["The Stamp Act Congress", "The First Continental Congress", "The Constitutional Convention", "The Second Continental Congress"], correct: 1, explanation: "The First Continental Congress convened in 1774 in direct response to the Coercive Acts, representing a further escalation of cross-colonial political coordination." },
-    { id: "3-16", topic: "3.2 Coming of the Revolution", stem: "Why is it important to distinguish 'no taxation without representation' from simple anti-tax sentiment?", choices: ["There is no meaningful distinction between these two positions.", "This distinction explains why colonists could accept some British trade regulation while specifically rejecting direct taxation as illegitimate on constitutional grounds.", "Colonists never actually accepted any form of British regulation.", "This distinction has no relevance to understanding colonial resistance."], correct: 1, explanation: "This distinction matters because it explains a genuine nuance in colonial thinking: colonists could accept some forms of British trade regulation (like the loosely-enforced Navigation Acts) while specifically rejecting DIRECT taxation as constitutionally illegitimate — a more precise position than blanket anti-tax sentiment." },
-    { id: "3-17", topic: "3.3 Revolutionary Ideology", stem: "What did John Locke's natural rights philosophy hold?", choices: ["That government authority derives from hereditary succession alone.", "That individuals possess inherent rights (life, liberty, property) and that legitimate government authority derives from the consent of the governed.", "That monarchy is the only legitimate form of government.", "That individuals possess no inherent rights of any kind."], correct: 1, explanation: "Locke's natural rights philosophy held that individuals possess inherent rights to life, liberty, and property, and that legitimate government authority derives specifically from the consent of the governed." },
-    { id: "3-18", topic: "3.3 Revolutionary Ideology", stem: "What does republicanism, as an Enlightenment-era political ideology, emphasize?", choices: ["Absolute monarchy and centralized power.", "Civic virtue, suspicion of concentrated or arbitrary power, and an engaged, virtuous citizenry.", "Complete rejection of any organized government.", "Hereditary aristocratic rule."], correct: 1, explanation: "Republicanism emphasized civic virtue, a suspicion of concentrated or arbitrary power, and the importance of an engaged, virtuous citizenry — a key ideological framework alongside Lockean natural rights philosophy." },
-    { id: "3-19", topic: "3.3 Revolutionary Ideology", stem: "What was Thomas Paine's Common Sense (January 1776)?", choices: ["A formal declaration of war against Britain.", "An influential, accessible pamphlet arguing for independence.", "A treaty ending the Revolutionary War.", "A British government policy document."], correct: 1, explanation: "Common Sense was Thomas Paine's influential pamphlet, written in accessible language, arguing directly for independence and significantly shifting public opinion in the months before July 1776." },
-    { id: "3-20", topic: "3.3 Revolutionary Ideology", stem: "Did all colonists uniformly support full independence from Britain from 1763 onward?", choices: ["Yes, all colonists unanimously supported full independence from 1763 onward.", "No — through much of the early 1770s, many colonists sought reform and reconciliation within the British Empire, not full independence.", "Yes, because Common Sense had no effect on colonial opinion.", "No, because no colonists ever supported independence at any point."], correct: 1, explanation: "Colonists did not uniformly support independence from the start — through much of the early 1770s, many sought reform and reconciliation within the British Empire; Common Sense helped shift a meaningful portion of opinion toward full independence in the crucial months before July 1776." },
-    { id: "3-21", topic: "3.3 Revolutionary Ideology", stem: "How did Common Sense translate Enlightenment ideas for a mass audience?", choices: ["It restated Locke's philosophy in the exact same technical language.", "It translated abstract natural rights philosophy into direct, plainly written, widely accessible language arguing hereditary monarchy itself was illegitimate.", "It had no relationship to Enlightenment philosophy at all.", "It was written exclusively for an elite, highly educated audience."], correct: 1, explanation: "Common Sense translated Locke's more abstract natural rights philosophy into direct, plainly written, widely accessible language, arguing that hereditary monarchy itself (not just King George III's specific policies) was an illegitimate form of government." },
-    { id: "3-22", topic: "3.3 Revolutionary Ideology", stem: "According to Lockean philosophy, what right do people retain if a government fails to protect their rights or rules without their consent?", choices: ["No right of any kind.", "A right to overthrow that government.", "A right only to petition the government, with no further recourse.", "A right to seek compensation from a neutral third party only."], correct: 1, explanation: "Lockean natural rights philosophy held that people retain a right to overthrow a government that fails to protect their rights or that rules without their consent — a foundational justification for revolutionary resistance." },
-    { id: "3-23", topic: "3.3 Revolutionary Ideology", stem: "Why did colonists need an ideological framework beyond specific grievances about individual taxes?", choices: ["Specific tax grievances alone were sufficient to justify revolution with no broader framework needed.", "A broader intellectual framework was needed to justify resistance to established authority itself as legitimate, not merely as a response to specific unpopular policies.", "Colonists had no interest in developing any ideological justification.", "Ideological frameworks played no role in the Revolution."], correct: 1, explanation: "Colonists needed a broader intellectual framework — supplied by Locke's natural rights philosophy and republicanism — to argue that resistance to Britain was a legitimate defense of fundamental rights, not simply lawless rebellion against specific unpopular policies." },
-    { id: "3-24", topic: "3.3 Revolutionary Ideology", stem: "Which best completes this comparison: specific tax grievances : immediate colonial protest :: Enlightenment natural rights philosophy : ___?", choices: ["Immediate colonial protest, with no distinction from tax grievances.", "Broader ideological legitimation of resistance to authority itself.", "A cause with no relationship to colonial resistance.", "A framework used exclusively by the British government."], correct: 1, explanation: "Specific tax grievances prompted immediate colonial protest; Enlightenment natural rights philosophy provided the broader ideological legitimation for resistance to established authority itself — two distinct but complementary components of colonial resistance." },
-    { id: "3-25", topic: "3.4 Independence and War", stem: "Who was the primary author of the Declaration of Independence?", choices: ["George Washington", "Thomas Jefferson", "Alexander Hamilton", "Benjamin Franklin"], correct: 1, explanation: "Thomas Jefferson was the primary author of the Declaration of Independence (July 4, 1776), drawing directly on Lockean natural rights philosophy." },
-    { id: "3-26", topic: "3.4 Independence and War", stem: "What was the primary LONGER-TERM significance of the Battle of Saratoga (1777)?", choices: ["It had no significance beyond the immediate battlefield outcome.", "It convinced France to formally ally with the United States, providing crucial military, naval, and financial support.", "It resulted in immediate British surrender and the war's end.", "It caused the Declaration of Independence to be written."], correct: 1, explanation: "Saratoga's primary longer-term significance was diplomatic — the American victory convinced France to formally ally with the United States (1778), providing crucial support that significantly strengthened the American war effort." },
-    { id: "3-27", topic: "3.4 Independence and War", stem: "What battle resulted in British General Cornwallis's surrender, effectively ending major fighting in the Revolutionary War?", choices: ["Saratoga", "Yorktown", "Lexington and Concord", "Bunker Hill"], correct: 1, explanation: "The Battle of Yorktown (1781) resulted in British General Cornwallis's surrender, effectively ending major fighting in the Revolutionary War." },
-    { id: "3-28", topic: "3.4 Independence and War", stem: "What did the Treaty of Paris (1783) establish?", choices: ["A continuation of British colonial rule.", "Formal recognition of American independence and the war's boundaries.", "An alliance between Britain and France against the United States.", "The Proclamation of 1763's continuation."], correct: 1, explanation: "The Treaty of Paris (1783) formally ended the Revolutionary War, recognizing American independence and establishing the new nation's boundaries." },
-    { id: "3-29", topic: "3.4 Independence and War", stem: "Why is it insufficient to explain Saratoga's significance purely in terms of immediate battlefield outcome?", choices: ["Battlefield outcomes are always the most important consideration in every case.", "Saratoga's true historical significance lies in the diplomatic consequence it triggered — securing French alliance — which arguably proved decisive to the war's ultimate outcome.", "Saratoga had no diplomatic consequence of any kind.", "The battle itself was strategically irrelevant to the war."], correct: 1, explanation: "Explaining Saratoga purely in terms of immediate battlefield outcome misses its more historically significant diplomatic consequence — securing the French alliance that provided crucial support arguably decisive to the war's ultimate outcome." },
-    { id: "3-30", topic: "3.4 Independence and War", stem: "What specific form of support did the Franco-American Alliance (1778) provide?", choices: ["Military supplies, naval support, and financing.", "No meaningful support of any kind.", "Only diplomatic recognition, with no material support.", "Exclusively financial support, with no military or naval component."], correct: 0, explanation: "The Franco-American Alliance (1778), secured following Saratoga, provided crucial military supplies, naval support, and financing — support that significantly strengthened the American war effort." },
-    { id: "3-31", topic: "3.4 Independence and War", stem: "How did French naval support specifically contribute to the American victory at Yorktown?", choices: ["It had no role in the Yorktown campaign.", "French naval power helped trap Cornwallis's forces, a critical factor in the decisive American victory.", "French naval forces fought exclusively in European waters.", "French naval support arrived only after the war had already ended."], correct: 1, explanation: "French naval support helped trap Cornwallis's forces at Yorktown, a critical factor contributing to this decisive American victory — a direct, concrete illustration of the French alliance's practical military value." },
-    { id: "3-32", topic: "3.4 Independence and War", stem: "Which document did Thomas Jefferson draw on most directly in composing the Declaration of Independence?", choices: ["The Magna Carta exclusively", "Lockean natural rights philosophy", "The Navigation Acts", "The Treaty of Paris"], correct: 1, explanation: "Jefferson drew most directly on Lockean natural rights philosophy in composing the Declaration of Independence, reflecting Section 3.3's ideological content." },
-    { id: "3-33", topic: "3.5 Articles of Confederation", stem: "What power did Congress lack under the Articles of Confederation regarding taxation?", choices: ["Congress could tax citizens directly at will.", "Congress could only REQUEST funds from states, with no power to tax directly.", "Congress had unlimited taxing power over both states and citizens.", "Taxation was not a relevant issue under the Articles."], correct: 1, explanation: "Under the Articles of Confederation, Congress could only request funds from states, with no independent power to tax directly — a central structural weakness." },
-    { id: "3-34", topic: "3.5 Articles of Confederation", stem: "Why was the Articles of Confederation's central government designed to be so weak?", choices: ["This weakness was an unintentional oversight with no explanation.", "This weakness directly reflected colonists' recent experience with what they saw as centralized British tyranny and a genuine fear of recreating that same power concentration.", "The framers had no experience with any form of government to draw on.", "Weak central government was required by the Declaration of Independence."], correct: 1, explanation: "The Articles' deliberately weak central government directly reflected colonists' recent experience with centralized British tyranny and a genuine fear of recreating that same concentration of power domestically." },
-    { id: "3-35", topic: "3.5 Articles of Confederation", stem: "What was the Northwest Ordinance (1787)?", choices: ["A failed policy with no lasting effect.", "A significant, lasting success under the Articles, establishing an orderly process for admitting new states and banning slavery in the Northwest Territory.", "A treaty ending the Revolutionary War.", "A tax policy targeting western farmers."], correct: 1, explanation: "The Northwest Ordinance (1787) was a significant, lasting policy success under the otherwise weak Articles of Confederation, establishing an orderly process for admitting new states, banning slavery in the Northwest Territory, and providing for public education funding." },
-    { id: "3-36", topic: "3.5 Articles of Confederation", stem: "What was Shays' Rebellion (1786–87)?", choices: ["A slave uprising in Georgia.", "An uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection and tax policies.", "A British military invasion of New England.", "A political party formed to oppose Washington."], correct: 1, explanation: "Shays' Rebellion was an uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection and tax policies, exposing the Articles of Confederation's practical weaknesses." },
-    { id: "3-37", topic: "3.5 Articles of Confederation", stem: "How did the national government respond to Shays' Rebellion under the Articles of Confederation?", choices: ["It sent a well-funded national army to suppress the rebellion immediately.", "It could not respond effectively, since it had no standing army or independent taxing power, leaving Massachusetts to rely on a privately funded militia.", "It formally recognized the rebellion's demands and changed national policy.", "It had no relationship to this event at all."], correct: 1, explanation: "The national government could not respond effectively to Shays' Rebellion, since it had no standing army or independent taxing power under the Articles — Massachusetts had to rely on a privately funded militia, vividly exposing this structural weakness." },
-    { id: "3-38", topic: "3.5 Articles of Confederation", stem: "Why is it important to acknowledge the Articles' weakness as a deliberate design choice before explaining the problems it caused?", choices: ["It is not important; the reasoning behind the design is irrelevant.", "A stronger essay explains WHY the framers chose this weak structure (fear of centralized tyranny) before explaining what problems it caused, rather than treating the weakness as an unexplained oversight.", "The Articles' weakness was never actually a deliberate choice.", "This acknowledgment has no relevance to understanding the Constitutional Convention."], correct: 1, explanation: "Acknowledging the deliberate reasoning behind the Articles' weak design (genuine fear of centralized tyranny) before explaining its practical problems produces a stronger, more complete historical argument than treating the weakness as an unexplained mistake." },
-    { id: "3-39", topic: "3.5 Articles of Confederation", stem: "What voting arrangement did the Articles of Confederation establish for states in Congress?", choices: ["Each state received votes proportional to its population.", "Each state received one vote, regardless of size or population.", "Only the largest three states received votes.", "States had no voting power under the Articles."], correct: 1, explanation: "Under the Articles of Confederation, each state received one vote in Congress regardless of size or population — a structural feature later replaced by the Great Compromise's population-based House and equal-representation Senate." },
-    { id: "3-40", topic: "3.5 Articles of Confederation", stem: "What requirement made amending the Articles of Confederation extremely difficult?", choices: ["No amendment process existed at all.", "Amendment required unanimous consent from all states.", "Amendment required only a simple majority of states.", "Only Congress, without any state involvement, could amend the Articles."], correct: 1, explanation: "Amending the Articles of Confederation required unanimous consent from all states — an extremely high bar that made reforming the document's structural weaknesses very difficult in practice." },
-    { id: "3-41", topic: "3.5 Articles of Confederation", stem: "Why did Shays' Rebellion become a key catalyst for constitutional reform?", choices: ["It had no relationship to the Constitutional Convention.", "It vividly and concretely exposed, in a way abstract structural arguments could not, the practical danger of a national government too weak to maintain basic order.", "It resulted in the immediate ratification of a new Constitution with no further debate needed.", "It convinced political leaders that the Articles needed no reform at all."], correct: 1, explanation: "Shays' Rebellion became a key catalyst for reform because it vividly and concretely exposed, in a way abstract arguments about the Articles' structure could not, the real-world danger of a national government too weak to maintain basic order — directly pushing many leaders toward supporting a stronger central government." },
-    { id: "3-42", topic: "3.6 Constitutional Convention", stem: "What dispute did the Great (Connecticut) Compromise resolve?", choices: ["A dispute over slavery's legality.", "The large-state/small-state disagreement over legislative representation, resolved through a bicameral legislature.", "A dispute over presidential term limits.", "A dispute over the location of the national capital."], correct: 1, explanation: "The Great (Connecticut) Compromise resolved the large-state/small-state representation dispute by creating a bicameral legislature — a House based on population and a Senate with equal representation per state." },
-    { id: "3-43", topic: "3.6 Constitutional Convention", stem: "What did the Three-Fifths Compromise actually do?", choices: ["It granted enslaved people three-fifths of a vote in elections.", "It counted enslaved people as three-fifths of a person solely for calculating a state's population for representation and taxation purposes.", "It granted enslaved people three-fifths of full legal citizenship.", "It immediately ended slavery in three-fifths of all states."], correct: 1, explanation: "The Three-Fifths Compromise counted enslaved people as three-fifths of a person SOLELY for calculating a state's total population for representation in the House and for federal taxation — it granted enslaved people no political rights whatsoever." },
-    { id: "3-44", topic: "3.6 Constitutional Convention", stem: "What was the political EFFECT of the Three-Fifths Compromise on slaveholding states?", choices: ["It reduced slaveholding states' political power in Congress.", "It increased slaveholding states' political power and influence, since it boosted their total counted population for House representation and Electoral College votes.", "It had no effect on any state's political power.", "It only affected the Senate, not the House of Representatives."], correct: 1, explanation: "The Three-Fifths Compromise increased slaveholding states' political power by boosting their total counted population for House representation and Electoral College votes, entirely independent of any political voice for enslaved people themselves." },
-    { id: "3-45", topic: "3.6 Constitutional Convention", stem: "What did the Commerce Compromise establish regarding the international slave trade?", choices: ["The international slave trade was immediately and permanently banned.", "Congress could not interfere with the international slave trade until 1808.", "The international slave trade was placed entirely under state, not federal, control with no time limit.", "The Commerce Compromise had no relationship to the slave trade."], correct: 1, explanation: "The Commerce Compromise specified that Congress could regulate interstate and foreign commerce but could not interfere with the international slave trade until 1808 — a specific, time-limited protection for the trade." },
-    { id: "3-46", topic: "3.6 Constitutional Convention", stem: "What was the Federalist position on the proper scope of central government power?", choices: ["Central government should have no power whatsoever.", "A stronger central government was needed, capable of effective national action the Articles had proven incapable of.", "Only state governments should exist, with no national government at all.", "Federalists opposed the Constitution entirely."], correct: 1, explanation: "Federalists favored a stronger central government, capable of the effective national action that the weak Articles of Confederation had proven incapable of providing." },
-    { id: "3-47", topic: "3.6 Constitutional Convention", stem: "What was the primary Anti-Federalist concern about the proposed Constitution?", choices: ["That it granted too little power to the central government.", "That centralized power under the new Constitution could become just as tyrannical as British authority, and that it initially lacked an explicit bill of rights.", "That it created too many states.", "That it eliminated the House of Representatives."], correct: 1, explanation: "Anti-Federalists feared that centralized power under the new Constitution could become just as tyrannical as the British authority colonists had recently overthrown, and specifically criticized its initial lack of an explicit bill of rights." },
-    { id: "3-48", topic: "3.6 Constitutional Convention", stem: "What directly produced the Bill of Rights (1791)?", choices: ["Federalist demands for a stronger executive branch.", "Anti-Federalist pressure and concerns about the Constitution's initial lack of explicit individual rights protections.", "A direct order from King George III.", "The Northwest Ordinance."], correct: 1, explanation: "Anti-Federalist pressure and concerns about the Constitution's initial lack of explicit rights protections directly produced the Bill of Rights, added specifically to secure ratification in key states." },
-    { id: "3-49", topic: "3.6 Constitutional Convention", stem: "Who authored the Federalist Papers?", choices: ["Jefferson, Madison, and Paine", "Hamilton, Madison, and Jay", "Washington, Adams, and Franklin", "Locke, Paine, and Jefferson"], correct: 1, explanation: "Hamilton, Madison, and Jay authored the Federalist Papers, a series of essays building public support for ratifying the new Constitution." },
-    { id: "3-50", topic: "3.7 Washington's Administration", stem: "What did Hamilton's financial program include?", choices: ["Federal assumption of state debts, a national bank, and protective tariffs.", "The immediate abolition of all federal taxation.", "A plan to return to the Articles of Confederation.", "The elimination of the national bank."], correct: 0, explanation: "Hamilton's financial program included federal assumption of state debts, a national bank, and protective tariffs — provoking intense constitutional debate over the scope of federal power." },
-    { id: "3-51", topic: "3.7 Washington's Administration", stem: "What is 'loose construction' of the Constitution, as argued by Hamilton?", choices: ["Interpreting the Constitution to grant the federal government no powers beyond those explicitly listed.", "Interpreting the Constitution, particularly via the 'necessary and proper' clause, to justify implied federal powers beyond those explicitly listed.", "A synonym for strict construction, with no meaningful difference.", "A position that opposed the existence of the Constitution altogether."], correct: 1, explanation: "Loose construction, argued by Hamilton, interpreted the Constitution (particularly via the 'necessary and proper' clause) to justify implied federal powers beyond those explicitly listed — contrasted with Jefferson and Madison's strict construction." },
-    { id: "3-52", topic: "3.7 Washington's Administration", stem: "What is 'strict construction' of the Constitution, as argued by Jefferson and Madison?", choices: ["A position identical to loose construction.", "An interpretation limiting federal power to only those powers explicitly listed in the Constitution, fearing looser interpretation could justify nearly unlimited federal power.", "A position rejecting the Constitution entirely.", "A position advocating for a return to British colonial rule."], correct: 1, explanation: "Strict construction, argued by Jefferson and Madison, limited federal power to only those powers explicitly listed in the Constitution, out of fear that looser interpretation could justify nearly unlimited federal power." },
-    { id: "3-53", topic: "3.7 Washington's Administration", stem: "What two political parties emerged from the constitutional debate over Hamilton's financial program?", choices: ["Whigs and Democrats", "Federalists and Democratic-Republicans", "Republicans and Progressives", "Loyalists and Patriots"], correct: 1, explanation: "The Federalists (Hamilton-aligned) and the Democratic-Republicans (Jefferson/Madison-aligned) emerged as the first American political parties from this constitutional debate." },
-    { id: "3-54", topic: "3.7 Washington's Administration", stem: "What was the Whiskey Rebellion (1794)?", choices: ["An uprising of Pennsylvania farmers resisting a federal excise tax on whiskey.", "A slave uprising in Virginia.", "A conflict with Native Americans in the Ohio Valley.", "A dispute over the location of the national capital."], correct: 0, explanation: "The Whiskey Rebellion (1794) was an uprising of Pennsylvania farmers resisting a federal excise tax on whiskey, suppressed by federal militia personally led by Washington." },
-    { id: "3-55", topic: "3.7 Washington's Administration", stem: "How did the federal government's response to the Whiskey Rebellion differ from its response to Shays' Rebellion under the Articles?", choices: ["Both rebellions received an identical government response.", "Washington personally led federal militia to suppress the Whiskey Rebellion, demonstrating enforcement capability the Articles-era government had conspicuously lacked during Shays' Rebellion.", "The government ignored the Whiskey Rebellion entirely.", "The government responded more weakly to the Whiskey Rebellion than to Shays' Rebellion."], correct: 1, explanation: "Washington personally led federal militia to suppress the Whiskey Rebellion, directly demonstrating the new federal government's willingness and practical capacity to enforce its authority — a stark, deliberate contrast with the Articles-era government's inability to respond effectively to Shays' Rebellion." },
-    { id: "3-56", topic: "3.7 Washington's Administration", stem: "Why did the emergence of the Federalist and Democratic-Republican parties represent an outcome many founders hoped to avoid?", choices: ["Founders had actively hoped for the formation of organized political parties.", "Many founders explicitly viewed organized political 'factions' as dangerous, making this partisan emergence an outcome they had hoped to avoid despite their own involvement in it.", "Political parties had no relationship to any founder's stated views.", "This outcome had no historical significance."], correct: 1, explanation: "Many founders explicitly viewed organized political 'factions' as dangerous to republican government — making the emergence of the Federalist and Democratic-Republican parties, which several of these same founders helped create, a genuinely ironic outcome relative to their own stated hopes." },
-    { id: "3-57", topic: "3.7 Washington's Administration", stem: "What foreign policy precedent did Washington establish regarding European conflicts?", choices: ["Active military alliance with France in its war against Britain.", "Neutrality, as expressed in the Neutrality Proclamation of 1793.", "Formal annexation of French colonial territory.", "Withdrawal from all foreign diplomatic relations."], correct: 1, explanation: "Washington established a precedent of neutrality in European conflicts, expressed in the Neutrality Proclamation of 1793 regarding the war between France and Britain." },
-    { id: "3-58", topic: "3.7 Washington's Administration", stem: "Which regional/economic base was most aligned with the Federalist Party?", choices: ["Southern agrarian interests", "Northern commercial and financial interests", "Western frontier settlers exclusively", "No particular regional base was associated with either party"], correct: 1, explanation: "Northern commercial and financial interests were most aligned with the Federalist Party, contrasted with the Democratic-Republicans' southern agrarian base." },
-    { id: "3-59", topic: "3.8 Continuity and Change", stem: "What is 'Republican Motherhood'?", choices: ["A political party led entirely by women.", "The idea that women's role was to raise virtuous future citizens for the new republic, elevating the cultural importance of female education without expanding formal political rights.", "A legal framework granting women full voting rights.", "A term unrelated to the Revolutionary era."], correct: 1, explanation: "Republican Motherhood reconceived women's role as raising virtuous future citizens for the new republic — genuinely elevating the cultural importance of female education, but without producing any expansion of formal political rights." },
-    { id: "3-60", topic: "3.8 Continuity and Change", stem: "Did Abigail Adams's private appeal to 'remember the ladies' result in any legal change for women's political rights?", choices: ["Yes, it resulted in immediate voting rights for women.", "No — it did not translate into any legal change, despite its historical significance as an early expression of concern for women's status.", "Yes, but only in Massachusetts specifically.", "No, because Abigail Adams never made any such appeal."], correct: 1, explanation: "Abigail Adams's private appeal to her husband John to 'remember the ladies' did not translate into any legal change for women's political rights, despite its historical significance as an early expression of concern for women's status." },
-    { id: "3-61", topic: "3.8 Continuity and Change", stem: "How did revolutionary natural rights ideology create tension with the continued existence of slavery?", choices: ["It created no tension whatsoever.", "Revolutionary rhetoric emphasizing universal natural rights and liberty was in direct ideological tension with slavery's continued existence, prompting gradual abolition processes in several northern states.", "Revolutionary ideology explicitly endorsed and expanded slavery everywhere.", "Slavery had already been fully abolished before the Revolution began."], correct: 1, explanation: "Revolutionary rhetoric emphasizing universal natural rights and liberty created genuine ideological tension with slavery's continued existence, prompting several northern states to begin gradual abolition processes in the years following independence." },
-    { id: "3-62", topic: "3.8 Continuity and Change", stem: "Despite Revolutionary rhetoric about liberty, how did slavery's status in the South change (or not change) following the Revolution?", choices: ["Slavery was immediately abolished throughout the South.", "Slavery persisted and, if anything, became further entrenched, reflected in constitutional compromises like the Three-Fifths Compromise and the Commerce Compromise's slave trade protection.", "The South had no economic reliance on slavery at any point.", "Slavery's status in the South is unrelated to any constitutional provision."], correct: 1, explanation: "Despite Revolutionary rhetoric, slavery persisted and, if anything, became further entrenched in the South, directly reflected in the Constitution's own compromises — the Three-Fifths Compromise increased slaveholding states' political power, and the Commerce Compromise protected the international slave trade until 1808." },
-    { id: "3-63", topic: "3.8 Continuity and Change", stem: "How did continued westward expansion in the new republic affect Native Americans?", choices: ["Westward expansion had no effect on Native Americans.", "Displacement pressure continued and in some ways intensified, as the newly independent United States pursued westward expansion largely unconstrained by earlier British limits like the Proclamation of 1763.", "Native Americans were granted full political rights following independence.", "Westward expansion ended entirely after 1783."], correct: 1, explanation: "Displacement pressure on Native Americans continued and in some ways intensified in the new republic, as the United States pursued westward expansion largely unconstrained by earlier British-imposed limits like the Proclamation of 1763." },
-    { id: "3-64", topic: "3.8 Continuity and Change", stem: "Why is it inaccurate to describe the Revolutionary era as a period of broad, uniform expansion of liberty for all Americans?", choices: ["This description is actually fully accurate with no need for qualification.", "Revolutionary rhetoric's actual application was highly uneven across different groups — producing real but limited change for some (northern abolition, Republican Motherhood) alongside significant continuity of restriction for others (southern slavery, Native American displacement, women's formal political rights).", "Liberty expanded uniformly and completely for every single group during this era.", "No group experienced any change in status during this era."], correct: 1, explanation: "It is inaccurate because revolutionary rhetoric's actual application was highly UNEVEN across different groups — producing genuine but geographically and categorically limited change for some, alongside significant continuity of restriction for others, requiring a group-by-group analysis rather than one sweeping claim." },
-    { id: "3-65", topic: "3.8 Continuity and Change", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the SAME underlying tension — between centralized authority and individual/local autonomy — appears in at least three different specific contexts across Sections 3.2, 3.5/3.6, and 3.7, despite involving different parties each time.", choices: ["These three contexts involve completely unrelated tensions with no common thread.", "Colonists vs. Britain (Section 3.2) over taxation without representation, the Articles' weak-central-government design followed by the Constitution's stronger one (Sections 3.5–3.6) over how much power to concentrate nationally, and Federalists vs. Democratic-Republicans (Section 3.7) over loose vs. strict constitutional construction all represent the SAME recurring question — how much authority should be concentrated versus distributed — appearing in three structurally similar but substantively different historical moments.", "Only Section 3.2 involves any tension between authority and autonomy; the other sections are unrelated.", "The Constitution resolved this tension permanently in 1787, and it never reappeared afterward."], correct: 1, explanation: "This synthesis question directly rewards the unit's opening Skill Builder framework: colonists vs. Britain (Section 3.2), the Articles' deliberate weakness followed by the Constitution's stronger structure (Sections 3.5–3.6), and the Federalist/Democratic-Republican construction debate (Section 3.7) all represent the SAME recurring question about how much authority should be concentrated versus distributed, appearing in three structurally similar but substantively different historical moments across this single unit — recognizing this recurring pattern, rather than treating each conflict as a wholly separate topic, is exactly the kind of connective, thematic reasoning that strong LEQ and DBQ responses reward." },
+  "3": [
+    {
+      "id": "3-1",
+      "topic": "3.1 French and Indian War",
+      "stem": "What territorial dispute triggered the French and Indian War?",
+      "choices": [
+        "Competing French and British claims to the Ohio River Valley",
+        "A conflict over Canadian fishing rights",
+        "A dispute over control of the Mississippi Delta",
+        "Competing claims to Florida"
+      ],
+      "correct": 0,
+      "explanation": "The French and Indian War began over competing French and British claims to the Ohio River Valley, with Washington's 1754 expedition marking an early flashpoint."
+    },
+    {
+      "id": "3-2",
+      "topic": "3.1 French and Indian War",
+      "stem": "What did the 1763 Treaty of Paris establish?",
+      "choices": [
+        "American independence from Britain.",
+        "A permanent alliance between France and the American colonies.",
+        "Britain's acquisition of Canada and territory east of the Mississippi River from France.",
+        "The abolition of the Proclamation Line."
+      ],
+      "correct": 2,
+      "explanation": "The 1763 Treaty of Paris ended the French and Indian War, with Britain gaining Canada and territory east of the Mississippi River from France, removing France from mainland North America."
+    },
+    {
+      "id": "3-3",
+      "topic": "3.1 French and Indian War",
+      "stem": "What did the Proclamation of 1763 prohibit?",
+      "choices": [
+        "Colonial settlement west of the Appalachian Mountains.",
+        "All colonial trade with Britain.",
+        "Colonial representation in Parliament.",
+        "The importation of enslaved Africans."
+      ],
+      "correct": 0,
+      "explanation": "The Proclamation of 1763 prohibited colonial settlement west of the Appalachian Mountains, angering land-hungry colonists eager to expand westward following the French threat's removal."
+    },
+    {
+      "id": "3-4",
+      "topic": "3.1 French and Indian War",
+      "stem": "Why did Britain impose new taxes on colonists following the French and Indian War?",
+      "choices": [
+        "To help pay off massive war debt incurred during the conflict.",
+        "Britain had no financial motive for these new taxes.",
+        "To fund an entirely new war against Spain.",
+        "Colonists specifically requested new taxes."
+      ],
+      "correct": 0,
+      "explanation": "Britain imposed new taxes on colonists to help pay off the massive war debt incurred during the French and Indian War, directly setting up the taxation conflicts of Section 3.2."
+    },
+    {
+      "id": "3-5",
+      "topic": "3.1 French and Indian War",
+      "stem": "Explain how removing the French military threat weakened, rather than strengthened, colonial loyalty to Britain.",
+      "choices": [
+        "It had no effect on colonial loyalty of any kind.",
+        "Colonists no longer needed British protection as urgently, weakening a key rationale for accepting British authority, precisely as Britain imposed new costs and restrictions.",
+        "The French threat was never actually removed.",
+        "It strengthened colonial loyalty by making colonists feel safer and more grateful."
+      ],
+      "correct": 1,
+      "explanation": "With the French threat eliminated, colonists no longer needed British military protection as urgently — weakening a key practical rationale for accepting British authority, right as Britain imposed new taxes and the Proclamation of 1763, fueling resentment."
+    },
+    {
+      "id": "3-6",
+      "topic": "3.1 French and Indian War",
+      "stem": "The French and Indian War was the North American theater of which broader global conflict?",
+      "choices": [
+        "The Napoleonic Wars",
+        "The War of 1812",
+        "The Seven Years' War",
+        "The Hundred Years' War"
+      ],
+      "correct": 2,
+      "explanation": "The French and Indian War was the North American theater of the broader global Seven Years' War (1756–1763)."
+    },
+    {
+      "id": "3-7",
+      "topic": "3.1 French and Indian War",
+      "stem": "Is it accurate to describe British victory in the French and Indian War as producing no negative consequences for British-colonial relations?",
+      "choices": [
+        "No, because Britain actually lost the French and Indian War.",
+        "Yes, because the war had no measurable effect on colonial relations at all.",
+        "No — British victory directly produced war debt, new taxation, the Proclamation of 1763, and reduced colonial dependence on British protection, all of which contributed to colonial resistance.",
+        "Yes, British victory had only positive effects on British-colonial relations."
+      ],
+      "correct": 2,
+      "explanation": "British victory directly produced several consequences — war debt, new taxation, the Proclamation of 1763, and reduced colonial need for British protection — that together contributed significantly to the colonial resistance covered in Section 3.2."
+    },
+    {
+      "id": "3-8",
+      "topic": "3.1 French and Indian War",
+      "stem": "Which of the following best summarizes this section's central causal argument about the French and Indian War?",
+      "choices": [
+        "The war caused immediate American independence in 1763.",
+        "The war strengthened French control over North America.",
+        "The war had no lasting consequences of any kind.",
+        "British victory itself produced the specific conditions (debt, taxation, Proclamation Line, reduced need for protection) that provoked the colonial resistance that follows in Period 3."
+      ],
+      "correct": 3,
+      "explanation": "This section's central causal argument is that British victory itself — not defeat — produced the specific conditions that provoked colonial resistance, an ironic and causally important connection to the rest of Period 3."
+    },
+    {
+      "id": "3-9",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "Why was the Stamp Act (1765) particularly significant compared to earlier British trade duties?",
+      "choices": [
+        "It was Parliament's first DIRECT tax on colonists, rather than a tax on trade.",
+        "It was immediately and universally accepted without protest.",
+        "It had no relationship to taxation at all.",
+        "It was the first tax of any kind ever imposed on colonists."
+      ],
+      "correct": 0,
+      "explanation": "The Stamp Act was significant because it was Parliament's first DIRECT tax on colonists (on printed materials), rather than a tax on trade goods — provoking the specific 'no taxation without representation' constitutional argument."
+    },
+    {
+      "id": "3-10",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "What does 'no taxation without representation' specifically argue?",
+      "choices": [
+        "That colonists should have no representation in any government.",
+        "That only a body colonists elected could legitimately tax them.",
+        "That taxes of any kind and amount should never exist.",
+        "That Britain should tax colonists more heavily."
+      ],
+      "correct": 1,
+      "explanation": "'No taxation without representation' made a specific constitutional argument: that only a body colonists elected could legitimately tax them — not a general objection to taxation's existence or amount."
+    },
+    {
+      "id": "3-11",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "What event directly triggered the Coercive (Intolerable) Acts of 1774?",
+      "choices": [
+        "The Boston Tea Party",
+        "The Proclamation of 1763",
+        "The Stamp Act Congress",
+        "The Battle of Saratoga"
+      ],
+      "correct": 0,
+      "explanation": "The Coercive Acts of 1774 were a direct, punitive British response to the Boston Tea Party (December 1773), closing Boston's port among other measures."
+    },
+    {
+      "id": "3-12",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "What was the Stamp Act Congress (1765)?",
+      "choices": [
+        "A military conflict between colonists and British troops.",
+        "A meeting that formally declared independence.",
+        "An early example of cross-colonial political coordination to protest the Stamp Act.",
+        "A meeting of British Parliament members only."
+      ],
+      "correct": 2,
+      "explanation": "The Stamp Act Congress (1765) was an early example of cross-colonial political coordination, with delegates from multiple colonies meeting to formally protest the Stamp Act together."
+    },
+    {
+      "id": "3-13",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "Why should the sequence of British policies and colonial responses between 1764 and 1774 be understood as an escalating cycle?",
+      "choices": [
+        "Each event was completely unrelated to every other event in the sequence.",
+        "Colonial responses had no effect on subsequent British policy.",
+        "Each British policy provoked a colonial response, which in turn provoked an even harsher British policy, steadily narrowing the space for compromise.",
+        "British policy became progressively more lenient throughout this period."
+      ],
+      "correct": 2,
+      "explanation": "This period should be understood as an escalating action-reaction cycle — each British policy provoked a colonial response, which provoked a harsher British policy in turn, steadily narrowing the space for compromise and pushing toward armed conflict."
+    },
+    {
+      "id": "3-14",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "What colonial response followed the Townshend Acts (1767)?",
+      "choices": [
+        "Colonial boycotts of British goods.",
+        "Immediate declaration of independence.",
+        "The Boston Tea Party.",
+        "Full colonial acceptance with no protest."
+      ],
+      "correct": 0,
+      "explanation": "Colonial boycotts of British goods followed the Townshend Acts (1767), which had imposed taxes on imported goods like glass, tea, and paper."
+    },
+    {
+      "id": "3-15",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "Which body convened in 1774 in direct response to the Coercive Acts?",
+      "choices": [
+        "The Second Continental Congress",
+        "The Constitutional Convention",
+        "The First Continental Congress",
+        "The Stamp Act Congress"
+      ],
+      "correct": 2,
+      "explanation": "The First Continental Congress convened in 1774 in direct response to the Coercive Acts, representing a further escalation of cross-colonial political coordination."
+    },
+    {
+      "id": "3-16",
+      "topic": "3.2 Coming of the Revolution",
+      "stem": "Why is it important to distinguish 'no taxation without representation' from simple anti-tax sentiment?",
+      "choices": [
+        "This distinction explains why colonists could accept some British trade regulation while specifically rejecting direct taxation as illegitimate on constitutional grounds.",
+        "Colonists never actually accepted any form of British regulation.",
+        "This distinction has no relevance to understanding colonial resistance.",
+        "There is no meaningful distinction between these two positions."
+      ],
+      "correct": 0,
+      "explanation": "This distinction matters because it explains a genuine nuance in colonial thinking: colonists could accept some forms of British trade regulation (like the loosely-enforced Navigation Acts) while specifically rejecting DIRECT taxation as constitutionally illegitimate — a more precise position than blanket anti-tax sentiment."
+    },
+    {
+      "id": "3-17",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "What did John Locke's natural rights philosophy hold?",
+      "choices": [
+        "That individuals possess no inherent rights of any kind.",
+        "That government authority derives from hereditary succession alone.",
+        "That monarchy is the only legitimate form of government.",
+        "That individuals possess inherent rights (life, liberty, property) and that legitimate government authority derives from the consent of the governed."
+      ],
+      "correct": 3,
+      "explanation": "Locke's natural rights philosophy held that individuals possess inherent rights to life, liberty, and property, and that legitimate government authority derives specifically from the consent of the governed."
+    },
+    {
+      "id": "3-18",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "What does republicanism, as an Enlightenment-era political ideology, emphasize?",
+      "choices": [
+        "Absolute monarchy and centralized power.",
+        "Hereditary aristocratic rule.",
+        "Complete rejection of any organized government.",
+        "Civic virtue, suspicion of concentrated or arbitrary power, and an engaged, virtuous citizenry."
+      ],
+      "correct": 3,
+      "explanation": "Republicanism emphasized civic virtue, a suspicion of concentrated or arbitrary power, and the importance of an engaged, virtuous citizenry — a key ideological framework alongside Lockean natural rights philosophy."
+    },
+    {
+      "id": "3-19",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "What was Thomas Paine's Common Sense (January 1776)?",
+      "choices": [
+        "A British government policy document.",
+        "A formal declaration of war against Britain.",
+        "An influential, accessible pamphlet arguing for independence.",
+        "A treaty ending the Revolutionary War."
+      ],
+      "correct": 2,
+      "explanation": "Common Sense was Thomas Paine's influential pamphlet, written in accessible language, arguing directly for independence and significantly shifting public opinion in the months before July 1776."
+    },
+    {
+      "id": "3-20",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "Did all colonists uniformly support full independence from Britain from 1763 onward?",
+      "choices": [
+        "Yes, because Common Sense had no effect on colonial opinion.",
+        "No, because no colonists ever supported independence at any point.",
+        "No — through much of the early 1770s, many colonists sought reform and reconciliation within the British Empire, not full independence.",
+        "Yes, all colonists unanimously supported full independence from 1763 onward."
+      ],
+      "correct": 2,
+      "explanation": "Colonists did not uniformly support independence from the start — through much of the early 1770s, many sought reform and reconciliation within the British Empire; Common Sense helped shift a meaningful portion of opinion toward full independence in the crucial months before July 1776."
+    },
+    {
+      "id": "3-21",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "How did Common Sense translate Enlightenment ideas for a mass audience?",
+      "choices": [
+        "It restated Locke's philosophy in the exact same technical language.",
+        "It had no relationship to Enlightenment philosophy at all.",
+        "It translated abstract natural rights philosophy into direct, plainly written, widely accessible language arguing hereditary monarchy itself was illegitimate.",
+        "It was written exclusively for an elite, highly educated audience."
+      ],
+      "correct": 2,
+      "explanation": "Common Sense translated Locke's more abstract natural rights philosophy into direct, plainly written, widely accessible language, arguing that hereditary monarchy itself (not just King George III's specific policies) was an illegitimate form of government."
+    },
+    {
+      "id": "3-22",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "According to Lockean philosophy, what right do people retain if a government fails to protect their rights or rules without their consent?",
+      "choices": [
+        "No right of any kind.",
+        "A right to overthrow that government.",
+        "A right to seek compensation from a neutral third party only.",
+        "A right only to petition the government, with no further recourse."
+      ],
+      "correct": 1,
+      "explanation": "Lockean natural rights philosophy held that people retain a right to overthrow a government that fails to protect their rights or that rules without their consent — a foundational justification for revolutionary resistance."
+    },
+    {
+      "id": "3-23",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "Why did colonists need an ideological framework beyond specific grievances about individual taxes?",
+      "choices": [
+        "A broader intellectual framework was needed to justify resistance to established authority itself as legitimate, not merely as a response to specific unpopular policies.",
+        "Specific tax grievances alone were sufficient to justify revolution with no broader framework needed.",
+        "Ideological frameworks played no role in the Revolution.",
+        "Colonists had no interest in developing any ideological justification."
+      ],
+      "correct": 0,
+      "explanation": "Colonists needed a broader intellectual framework — supplied by Locke's natural rights philosophy and republicanism — to argue that resistance to Britain was a legitimate defense of fundamental rights, not simply lawless rebellion against specific unpopular policies."
+    },
+    {
+      "id": "3-24",
+      "topic": "3.3 Revolutionary Ideology",
+      "stem": "Which best completes this comparison: specific tax grievances : immediate colonial protest :: Enlightenment natural rights philosophy : ___?",
+      "choices": [
+        "Broader ideological legitimation of resistance to authority itself.",
+        "A framework used exclusively by the British government.",
+        "Immediate colonial protest, with no distinction from tax grievances.",
+        "A cause with no relationship to colonial resistance."
+      ],
+      "correct": 0,
+      "explanation": "Specific tax grievances prompted immediate colonial protest; Enlightenment natural rights philosophy provided the broader ideological legitimation for resistance to established authority itself — two distinct but complementary components of colonial resistance."
+    },
+    {
+      "id": "3-25",
+      "topic": "3.4 Independence and War",
+      "stem": "Who was the primary author of the Declaration of Independence?",
+      "choices": [
+        "Benjamin Franklin",
+        "George Washington",
+        "Alexander Hamilton",
+        "Thomas Jefferson"
+      ],
+      "correct": 3,
+      "explanation": "Thomas Jefferson was the primary author of the Declaration of Independence (July 4, 1776), drawing directly on Lockean natural rights philosophy."
+    },
+    {
+      "id": "3-26",
+      "topic": "3.4 Independence and War",
+      "stem": "What was the primary LONGER-TERM significance of the Battle of Saratoga (1777)?",
+      "choices": [
+        "It had no significance beyond the immediate battlefield outcome.",
+        "It caused the Declaration of Independence to be written.",
+        "It convinced France to formally ally with the United States, providing crucial military, naval, and financial support.",
+        "It resulted in immediate British surrender and the war's end."
+      ],
+      "correct": 2,
+      "explanation": "Saratoga's primary longer-term significance was diplomatic — the American victory convinced France to formally ally with the United States (1778), providing crucial support that significantly strengthened the American war effort."
+    },
+    {
+      "id": "3-27",
+      "topic": "3.4 Independence and War",
+      "stem": "What battle resulted in British General Cornwallis's surrender, effectively ending major fighting in the Revolutionary War?",
+      "choices": [
+        "Saratoga",
+        "Lexington and Concord",
+        "Bunker Hill",
+        "Yorktown"
+      ],
+      "correct": 3,
+      "explanation": "The Battle of Yorktown (1781) resulted in British General Cornwallis's surrender, effectively ending major fighting in the Revolutionary War."
+    },
+    {
+      "id": "3-28",
+      "topic": "3.4 Independence and War",
+      "stem": "What did the Treaty of Paris (1783) establish?",
+      "choices": [
+        "A continuation of British colonial rule.",
+        "An alliance between Britain and France against the United States.",
+        "The Proclamation of 1763's continuation.",
+        "Formal recognition of American independence and the war's boundaries."
+      ],
+      "correct": 3,
+      "explanation": "The Treaty of Paris (1783) formally ended the Revolutionary War, recognizing American independence and establishing the new nation's boundaries."
+    },
+    {
+      "id": "3-29",
+      "topic": "3.4 Independence and War",
+      "stem": "Why is it insufficient to explain Saratoga's significance purely in terms of immediate battlefield outcome?",
+      "choices": [
+        "Saratoga had no diplomatic consequence of any kind.",
+        "The battle itself was strategically irrelevant to the war.",
+        "Saratoga's true historical significance lies in the diplomatic consequence it triggered — securing French alliance — which arguably proved decisive to the war's ultimate outcome.",
+        "Battlefield outcomes are always the most important consideration in every case."
+      ],
+      "correct": 2,
+      "explanation": "Explaining Saratoga purely in terms of immediate battlefield outcome misses its more historically significant diplomatic consequence — securing the French alliance that provided crucial support arguably decisive to the war's ultimate outcome."
+    },
+    {
+      "id": "3-30",
+      "topic": "3.4 Independence and War",
+      "stem": "What specific form of support did the Franco-American Alliance (1778) provide?",
+      "choices": [
+        "Military supplies, naval support, and financing.",
+        "No meaningful support of any kind.",
+        "Exclusively financial support, with no military or naval component.",
+        "Only diplomatic recognition, with no material support."
+      ],
+      "correct": 0,
+      "explanation": "The Franco-American Alliance (1778), secured following Saratoga, provided crucial military supplies, naval support, and financing — support that significantly strengthened the American war effort."
+    },
+    {
+      "id": "3-31",
+      "topic": "3.4 Independence and War",
+      "stem": "How did French naval support specifically contribute to the American victory at Yorktown?",
+      "choices": [
+        "It had no role in the Yorktown campaign.",
+        "French naval support arrived only after the war had already ended.",
+        "French naval power helped trap Cornwallis's forces, a critical factor in the decisive American victory.",
+        "French naval forces fought exclusively in European waters."
+      ],
+      "correct": 2,
+      "explanation": "French naval support helped trap Cornwallis's forces at Yorktown, a critical factor contributing to this decisive American victory — a direct, concrete illustration of the French alliance's practical military value."
+    },
+    {
+      "id": "3-32",
+      "topic": "3.4 Independence and War",
+      "stem": "Which document did Thomas Jefferson draw on most directly in composing the Declaration of Independence?",
+      "choices": [
+        "Lockean natural rights philosophy",
+        "The Treaty of Paris",
+        "The Navigation Acts",
+        "The Magna Carta exclusively"
+      ],
+      "correct": 0,
+      "explanation": "Jefferson drew most directly on Lockean natural rights philosophy in composing the Declaration of Independence, reflecting Section 3.3's ideological content."
+    },
+    {
+      "id": "3-33",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "What power did Congress lack under the Articles of Confederation regarding taxation?",
+      "choices": [
+        "Congress could tax citizens directly at will.",
+        "Congress had unlimited taxing power over both states and citizens.",
+        "Taxation was not a relevant issue under the Articles.",
+        "Congress could only REQUEST funds from states, with no power to tax directly."
+      ],
+      "correct": 3,
+      "explanation": "Under the Articles of Confederation, Congress could only request funds from states, with no independent power to tax directly — a central structural weakness."
+    },
+    {
+      "id": "3-34",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "Why was the Articles of Confederation's central government designed to be so weak?",
+      "choices": [
+        "The framers had no experience with any form of government to draw on.",
+        "Weak central government was required by the Declaration of Independence.",
+        "This weakness was an unintentional oversight with no explanation.",
+        "This weakness directly reflected colonists' recent experience with what they saw as centralized British tyranny and a genuine fear of recreating that same power concentration."
+      ],
+      "correct": 3,
+      "explanation": "The Articles' deliberately weak central government directly reflected colonists' recent experience with centralized British tyranny and a genuine fear of recreating that same concentration of power domestically."
+    },
+    {
+      "id": "3-35",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "What was the Northwest Ordinance (1787)?",
+      "choices": [
+        "A treaty ending the Revolutionary War.",
+        "A tax policy targeting western farmers.",
+        "A significant, lasting success under the Articles, establishing an orderly process for admitting new states and banning slavery in the Northwest Territory.",
+        "A failed policy with no lasting effect."
+      ],
+      "correct": 2,
+      "explanation": "The Northwest Ordinance (1787) was a significant, lasting policy success under the otherwise weak Articles of Confederation, establishing an orderly process for admitting new states, banning slavery in the Northwest Territory, and providing for public education funding."
+    },
+    {
+      "id": "3-36",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "What was Shays' Rebellion (1786–87)?",
+      "choices": [
+        "A political party formed to oppose Washington.",
+        "An uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection and tax policies.",
+        "A British military invasion of New England.",
+        "A slave uprising in Georgia."
+      ],
+      "correct": 1,
+      "explanation": "Shays' Rebellion was an uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection and tax policies, exposing the Articles of Confederation's practical weaknesses."
+    },
+    {
+      "id": "3-37",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "How did the national government respond to Shays' Rebellion under the Articles of Confederation?",
+      "choices": [
+        "It had no relationship to this event at all.",
+        "It formally recognized the rebellion's demands and changed national policy.",
+        "It sent a well-funded national army to suppress the rebellion immediately.",
+        "It could not respond effectively, since it had no standing army or independent taxing power, leaving Massachusetts to rely on a privately funded militia."
+      ],
+      "correct": 3,
+      "explanation": "The national government could not respond effectively to Shays' Rebellion, since it had no standing army or independent taxing power under the Articles — Massachusetts had to rely on a privately funded militia, vividly exposing this structural weakness."
+    },
+    {
+      "id": "3-38",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "Why is it important to acknowledge the Articles' weakness as a deliberate design choice before explaining the problems it caused?",
+      "choices": [
+        "This acknowledgment has no relevance to understanding the Constitutional Convention.",
+        "The Articles' weakness was never actually a deliberate choice.",
+        "It is not important; the reasoning behind the design is irrelevant.",
+        "A stronger essay explains WHY the framers chose this weak structure (fear of centralized tyranny) before explaining what problems it caused, rather than treating the weakness as an unexplained oversight."
+      ],
+      "correct": 3,
+      "explanation": "Acknowledging the deliberate reasoning behind the Articles' weak design (genuine fear of centralized tyranny) before explaining its practical problems produces a stronger, more complete historical argument than treating the weakness as an unexplained mistake."
+    },
+    {
+      "id": "3-39",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "What voting arrangement did the Articles of Confederation establish for states in Congress?",
+      "choices": [
+        "Only the largest three states received votes.",
+        "Each state received votes proportional to its population.",
+        "Each state received one vote, regardless of size or population.",
+        "States had no voting power under the Articles."
+      ],
+      "correct": 2,
+      "explanation": "Under the Articles of Confederation, each state received one vote in Congress regardless of size or population — a structural feature later replaced by the Great Compromise's population-based House and equal-representation Senate."
+    },
+    {
+      "id": "3-40",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "What requirement made amending the Articles of Confederation extremely difficult?",
+      "choices": [
+        "Amendment required only a simple majority of states.",
+        "Amendment required unanimous consent from all states.",
+        "No amendment process existed at all.",
+        "Only Congress, without any state involvement, could amend the Articles."
+      ],
+      "correct": 1,
+      "explanation": "Amending the Articles of Confederation required unanimous consent from all states — an extremely high bar that made reforming the document's structural weaknesses very difficult in practice."
+    },
+    {
+      "id": "3-41",
+      "topic": "3.5 Articles of Confederation",
+      "stem": "Why did Shays' Rebellion become a key catalyst for constitutional reform?",
+      "choices": [
+        "It convinced political leaders that the Articles needed no reform at all.",
+        "It resulted in the immediate ratification of a new Constitution with no further debate needed.",
+        "It had no relationship to the Constitutional Convention.",
+        "It vividly and concretely exposed, in a way abstract structural arguments could not, the practical danger of a national government too weak to maintain basic order."
+      ],
+      "correct": 3,
+      "explanation": "Shays' Rebellion became a key catalyst for reform because it vividly and concretely exposed, in a way abstract arguments about the Articles' structure could not, the real-world danger of a national government too weak to maintain basic order — directly pushing many leaders toward supporting a stronger central government."
+    },
+    {
+      "id": "3-42",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What dispute did the Great (Connecticut) Compromise resolve?",
+      "choices": [
+        "The large-state/small-state disagreement over legislative representation, resolved through a bicameral legislature.",
+        "A dispute over presidential term limits.",
+        "A dispute over the location of the national capital.",
+        "A dispute over slavery's legality."
+      ],
+      "correct": 0,
+      "explanation": "The Great (Connecticut) Compromise resolved the large-state/small-state representation dispute by creating a bicameral legislature — a House based on population and a Senate with equal representation per state."
+    },
+    {
+      "id": "3-43",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What did the Three-Fifths Compromise actually do?",
+      "choices": [
+        "It granted enslaved people three-fifths of full legal citizenship.",
+        "It granted enslaved people three-fifths of a vote in elections.",
+        "It counted enslaved people as three-fifths of a person solely for calculating a state's population for representation and taxation purposes.",
+        "It immediately ended slavery in three-fifths of all states."
+      ],
+      "correct": 2,
+      "explanation": "The Three-Fifths Compromise counted enslaved people as three-fifths of a person SOLELY for calculating a state's total population for representation in the House and for federal taxation — it granted enslaved people no political rights whatsoever."
+    },
+    {
+      "id": "3-44",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What was the political EFFECT of the Three-Fifths Compromise on slaveholding states?",
+      "choices": [
+        "It had no effect on any state's political power.",
+        "It only affected the Senate, not the House of Representatives.",
+        "It increased slaveholding states' political power and influence, since it boosted their total counted population for House representation and Electoral College votes.",
+        "It reduced slaveholding states' political power in Congress."
+      ],
+      "correct": 2,
+      "explanation": "The Three-Fifths Compromise increased slaveholding states' political power by boosting their total counted population for House representation and Electoral College votes, entirely independent of any political voice for enslaved people themselves."
+    },
+    {
+      "id": "3-45",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What did the Commerce Compromise establish regarding the international slave trade?",
+      "choices": [
+        "The international slave trade was immediately and permanently banned.",
+        "Congress could not interfere with the international slave trade until 1808.",
+        "The international slave trade was placed entirely under state, not federal, control with no time limit.",
+        "The Commerce Compromise had no relationship to the slave trade."
+      ],
+      "correct": 1,
+      "explanation": "The Commerce Compromise specified that Congress could regulate interstate and foreign commerce but could not interfere with the international slave trade until 1808 — a specific, time-limited protection for the trade."
+    },
+    {
+      "id": "3-46",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What was the Federalist position on the proper scope of central government power?",
+      "choices": [
+        "Only state governments should exist, with no national government at all.",
+        "A stronger central government was needed, capable of effective national action the Articles had proven incapable of.",
+        "Central government should have no power whatsoever.",
+        "Federalists opposed the Constitution entirely."
+      ],
+      "correct": 1,
+      "explanation": "Federalists favored a stronger central government, capable of the effective national action that the weak Articles of Confederation had proven incapable of providing."
+    },
+    {
+      "id": "3-47",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What was the primary Anti-Federalist concern about the proposed Constitution?",
+      "choices": [
+        "That it granted too little power to the central government.",
+        "That it created too many states.",
+        "That it eliminated the House of Representatives.",
+        "That centralized power under the new Constitution could become just as tyrannical as British authority, and that it initially lacked an explicit bill of rights."
+      ],
+      "correct": 3,
+      "explanation": "Anti-Federalists feared that centralized power under the new Constitution could become just as tyrannical as the British authority colonists had recently overthrown, and specifically criticized its initial lack of an explicit bill of rights."
+    },
+    {
+      "id": "3-48",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "What directly produced the Bill of Rights (1791)?",
+      "choices": [
+        "Anti-Federalist pressure and concerns about the Constitution's initial lack of explicit individual rights protections.",
+        "The Northwest Ordinance.",
+        "A direct order from King George III.",
+        "Federalist demands for a stronger executive branch."
+      ],
+      "correct": 0,
+      "explanation": "Anti-Federalist pressure and concerns about the Constitution's initial lack of explicit rights protections directly produced the Bill of Rights, added specifically to secure ratification in key states."
+    },
+    {
+      "id": "3-49",
+      "topic": "3.6 Constitutional Convention",
+      "stem": "Who authored the Federalist Papers?",
+      "choices": [
+        "Jefferson, Madison, and Paine",
+        "Hamilton, Madison, and Jay",
+        "Washington, Adams, and Franklin",
+        "Locke, Paine, and Jefferson"
+      ],
+      "correct": 1,
+      "explanation": "Hamilton, Madison, and Jay authored the Federalist Papers, a series of essays building public support for ratifying the new Constitution."
+    },
+    {
+      "id": "3-50",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What did Hamilton's financial program include?",
+      "choices": [
+        "The immediate abolition of all federal taxation.",
+        "The elimination of the national bank.",
+        "Federal assumption of state debts, a national bank, and protective tariffs.",
+        "A plan to return to the Articles of Confederation."
+      ],
+      "correct": 2,
+      "explanation": "Hamilton's financial program included federal assumption of state debts, a national bank, and protective tariffs — provoking intense constitutional debate over the scope of federal power."
+    },
+    {
+      "id": "3-51",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What is 'loose construction' of the Constitution, as argued by Hamilton?",
+      "choices": [
+        "Interpreting the Constitution, particularly via the 'necessary and proper' clause, to justify implied federal powers beyond those explicitly listed.",
+        "A position that opposed the existence of the Constitution altogether.",
+        "A synonym for strict construction, with no meaningful difference.",
+        "Interpreting the Constitution to grant the federal government no powers beyond those explicitly listed."
+      ],
+      "correct": 0,
+      "explanation": "Loose construction, argued by Hamilton, interpreted the Constitution (particularly via the 'necessary and proper' clause) to justify implied federal powers beyond those explicitly listed — contrasted with Jefferson and Madison's strict construction."
+    },
+    {
+      "id": "3-52",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What is 'strict construction' of the Constitution, as argued by Jefferson and Madison?",
+      "choices": [
+        "A position identical to loose construction.",
+        "An interpretation limiting federal power to only those powers explicitly listed in the Constitution, fearing looser interpretation could justify nearly unlimited federal power.",
+        "A position rejecting the Constitution entirely.",
+        "A position advocating for a return to British colonial rule."
+      ],
+      "correct": 1,
+      "explanation": "Strict construction, argued by Jefferson and Madison, limited federal power to only those powers explicitly listed in the Constitution, out of fear that looser interpretation could justify nearly unlimited federal power."
+    },
+    {
+      "id": "3-53",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What two political parties emerged from the constitutional debate over Hamilton's financial program?",
+      "choices": [
+        "Federalists and Democratic-Republicans",
+        "Whigs and Democrats",
+        "Loyalists and Patriots",
+        "Republicans and Progressives"
+      ],
+      "correct": 0,
+      "explanation": "The Federalists (Hamilton-aligned) and the Democratic-Republicans (Jefferson/Madison-aligned) emerged as the first American political parties from this constitutional debate."
+    },
+    {
+      "id": "3-54",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What was the Whiskey Rebellion (1794)?",
+      "choices": [
+        "An uprising of Pennsylvania farmers resisting a federal excise tax on whiskey.",
+        "A slave uprising in Virginia.",
+        "A dispute over the location of the national capital.",
+        "A conflict with Native Americans in the Ohio Valley."
+      ],
+      "correct": 0,
+      "explanation": "The Whiskey Rebellion (1794) was an uprising of Pennsylvania farmers resisting a federal excise tax on whiskey, suppressed by federal militia personally led by Washington."
+    },
+    {
+      "id": "3-55",
+      "topic": "3.7 Washington's Administration",
+      "stem": "How did the federal government's response to the Whiskey Rebellion differ from its response to Shays' Rebellion under the Articles?",
+      "choices": [
+        "The government responded more weakly to the Whiskey Rebellion than to Shays' Rebellion.",
+        "Washington personally led federal militia to suppress the Whiskey Rebellion, demonstrating enforcement capability the Articles-era government had conspicuously lacked during Shays' Rebellion.",
+        "Both rebellions received an identical government response.",
+        "The government ignored the Whiskey Rebellion entirely."
+      ],
+      "correct": 1,
+      "explanation": "Washington personally led federal militia to suppress the Whiskey Rebellion, directly demonstrating the new federal government's willingness and practical capacity to enforce its authority — a stark, deliberate contrast with the Articles-era government's inability to respond effectively to Shays' Rebellion."
+    },
+    {
+      "id": "3-56",
+      "topic": "3.7 Washington's Administration",
+      "stem": "Why did the emergence of the Federalist and Democratic-Republican parties represent an outcome many founders hoped to avoid?",
+      "choices": [
+        "This outcome had no historical significance.",
+        "Political parties had no relationship to any founder's stated views.",
+        "Founders had actively hoped for the formation of organized political parties.",
+        "Many founders explicitly viewed organized political 'factions' as dangerous, making this partisan emergence an outcome they had hoped to avoid despite their own involvement in it."
+      ],
+      "correct": 3,
+      "explanation": "Many founders explicitly viewed organized political 'factions' as dangerous to republican government — making the emergence of the Federalist and Democratic-Republican parties, which several of these same founders helped create, a genuinely ironic outcome relative to their own stated hopes."
+    },
+    {
+      "id": "3-57",
+      "topic": "3.7 Washington's Administration",
+      "stem": "What foreign policy precedent did Washington establish regarding European conflicts?",
+      "choices": [
+        "Active military alliance with France in its war against Britain.",
+        "Neutrality, as expressed in the Neutrality Proclamation of 1793.",
+        "Withdrawal from all foreign diplomatic relations.",
+        "Formal annexation of French colonial territory."
+      ],
+      "correct": 1,
+      "explanation": "Washington established a precedent of neutrality in European conflicts, expressed in the Neutrality Proclamation of 1793 regarding the war between France and Britain."
+    },
+    {
+      "id": "3-58",
+      "topic": "3.7 Washington's Administration",
+      "stem": "Which regional/economic base was most aligned with the Federalist Party?",
+      "choices": [
+        "Southern agrarian interests",
+        "Western frontier settlers exclusively",
+        "No particular regional base was associated with either party",
+        "Northern commercial and financial interests"
+      ],
+      "correct": 3,
+      "explanation": "Northern commercial and financial interests were most aligned with the Federalist Party, contrasted with the Democratic-Republicans' southern agrarian base."
+    },
+    {
+      "id": "3-59",
+      "topic": "3.8 Continuity and Change",
+      "stem": "What is 'Republican Motherhood'?",
+      "choices": [
+        "A term unrelated to the Revolutionary era.",
+        "A political party led entirely by women.",
+        "A legal framework granting women full voting rights.",
+        "The idea that women's role was to raise virtuous future citizens for the new republic, elevating the cultural importance of female education without expanding formal political rights."
+      ],
+      "correct": 3,
+      "explanation": "Republican Motherhood reconceived women's role as raising virtuous future citizens for the new republic — genuinely elevating the cultural importance of female education, but without producing any expansion of formal political rights."
+    },
+    {
+      "id": "3-60",
+      "topic": "3.8 Continuity and Change",
+      "stem": "Did Abigail Adams's private appeal to 'remember the ladies' result in any legal change for women's political rights?",
+      "choices": [
+        "No — it did not translate into any legal change, despite its historical significance as an early expression of concern for women's status.",
+        "No, because Abigail Adams never made any such appeal.",
+        "Yes, it resulted in immediate voting rights for women.",
+        "Yes, but only in Massachusetts specifically."
+      ],
+      "correct": 0,
+      "explanation": "Abigail Adams's private appeal to her husband John to 'remember the ladies' did not translate into any legal change for women's political rights, despite its historical significance as an early expression of concern for women's status."
+    },
+    {
+      "id": "3-61",
+      "topic": "3.8 Continuity and Change",
+      "stem": "How did revolutionary natural rights ideology create tension with the continued existence of slavery?",
+      "choices": [
+        "Revolutionary rhetoric emphasizing universal natural rights and liberty was in direct ideological tension with slavery's continued existence, prompting gradual abolition processes in several northern states.",
+        "Slavery had already been fully abolished before the Revolution began.",
+        "It created no tension whatsoever.",
+        "Revolutionary ideology explicitly endorsed and expanded slavery everywhere."
+      ],
+      "correct": 0,
+      "explanation": "Revolutionary rhetoric emphasizing universal natural rights and liberty created genuine ideological tension with slavery's continued existence, prompting several northern states to begin gradual abolition processes in the years following independence."
+    },
+    {
+      "id": "3-62",
+      "topic": "3.8 Continuity and Change",
+      "stem": "Despite Revolutionary rhetoric about liberty, how did slavery's status in the South change (or not change) following the Revolution?",
+      "choices": [
+        "Slavery persisted and, if anything, became further entrenched, reflected in constitutional compromises like the Three-Fifths Compromise and the Commerce Compromise's slave trade protection.",
+        "Slavery's status in the South is unrelated to any constitutional provision.",
+        "The South had no economic reliance on slavery at any point.",
+        "Slavery was immediately abolished throughout the South."
+      ],
+      "correct": 0,
+      "explanation": "Despite Revolutionary rhetoric, slavery persisted and, if anything, became further entrenched in the South, directly reflected in the Constitution's own compromises — the Three-Fifths Compromise increased slaveholding states' political power, and the Commerce Compromise protected the international slave trade until 1808."
+    },
+    {
+      "id": "3-63",
+      "topic": "3.8 Continuity and Change",
+      "stem": "How did continued westward expansion in the new republic affect Native Americans?",
+      "choices": [
+        "Native Americans were granted full political rights following independence.",
+        "Westward expansion had no effect on Native Americans.",
+        "Westward expansion ended entirely after 1783.",
+        "Displacement pressure continued and in some ways intensified, as the newly independent United States pursued westward expansion largely unconstrained by earlier British limits like the Proclamation of 1763."
+      ],
+      "correct": 3,
+      "explanation": "Displacement pressure on Native Americans continued and in some ways intensified in the new republic, as the United States pursued westward expansion largely unconstrained by earlier British-imposed limits like the Proclamation of 1763."
+    },
+    {
+      "id": "3-64",
+      "topic": "3.8 Continuity and Change",
+      "stem": "Why is it inaccurate to describe the Revolutionary era as a period of broad, uniform expansion of liberty for all Americans?",
+      "choices": [
+        "No group experienced any change in status during this era.",
+        "Liberty expanded uniformly and completely for every single group during this era.",
+        "This description is actually fully accurate with no need for qualification.",
+        "Revolutionary rhetoric's actual application was highly uneven across different groups — producing real but limited change for some (northern abolition, Republican Motherhood) alongside significant continuity of restriction for others (southern slavery, Native American displacement, women's formal political rights)."
+      ],
+      "correct": 3,
+      "explanation": "It is inaccurate because revolutionary rhetoric's actual application was highly UNEVEN across different groups — producing genuine but geographically and categorically limited change for some, alongside significant continuity of restriction for others, requiring a group-by-group analysis rather than one sweeping claim."
+    },
+    {
+      "id": "3-65",
+      "topic": "3.8 Continuity and Change",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the SAME underlying tension — between centralized authority and individual/local autonomy — appears in at least three different specific contexts across Sections 3.2, 3.5/3.6, and 3.7, despite involving different parties each time.",
+      "choices": [
+        "These three contexts involve completely unrelated tensions with no common thread.",
+        "Colonists vs. Britain (Section 3.2) over taxation without representation, the Articles' weak-central-government design followed by the Constitution's stronger one (Sections 3.5–3.6) over how much power to concentrate nationally, and Federalists vs. Democratic-Republicans (Section 3.7) over loose vs. strict constitutional construction all represent the SAME recurring question — how much authority should be concentrated versus distributed — appearing in three structurally similar but substantively different historical moments.",
+        "Only Section 3.2 involves any tension between authority and autonomy; the other sections are unrelated.",
+        "The Constitution resolved this tension permanently in 1787, and it never reappeared afterward."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question directly rewards the unit's opening Skill Builder framework: colonists vs. Britain (Section 3.2), the Articles' deliberate weakness followed by the Constitution's stronger structure (Sections 3.5–3.6), and the Federalist/Democratic-Republican construction debate (Section 3.7) all represent the SAME recurring question about how much authority should be concentrated versus distributed, appearing in three structurally similar but substantively different historical moments across this single unit — recognizing this recurring pattern, rather than treating each conflict as a wholly separate topic, is exactly the kind of connective, thematic reasoning that strong LEQ and DBQ responses reward."
+    }
   ],
-  4: [
-    { id: "4-1", topic: "4.1 Jeffersonian Era", stem: "What was the Louisiana Purchase (1803)?", choices: ["A treaty ending war with Spain.", "The acquisition of a vast territory from France, roughly doubling the size of the United States.", "A purchase of territory from Mexico.", "An agreement establishing the Proclamation Line."], correct: 1, explanation: "The Louisiana Purchase (1803) was the acquisition of a vast territory from France, roughly doubling the size of the United States." },
-    { id: "4-2", topic: "4.1 Jeffersonian Era", stem: "What constitutional problem did the Louisiana Purchase present for Jefferson?", choices: ["The Constitution explicitly prohibited any territorial acquisition.", "The Constitution nowhere explicitly grants the federal government power to acquire new territory, conflicting with Jefferson's strict constructionist principles.", "The purchase required a declaration of war first.", "There was no constitutional problem of any kind."], correct: 1, explanation: "The Constitution nowhere explicitly grants the federal government power to acquire new territory — a genuine problem for Jefferson, a committed strict constructionist who had previously opposed expansive readings of federal power." },
-    { id: "4-3", topic: "4.1 Jeffersonian Era", stem: "What is the specific irony in Jefferson's decision to complete the Louisiana Purchase?", choices: ["There is no irony; Jefferson always supported loose construction.", "Jefferson, a committed strict constructionist who had opposed Hamilton's loose construction, ultimately relied on an expansive reading of federal power to justify the purchase.", "Jefferson refused to complete the purchase due to constitutional concerns.", "The purchase had no relationship to constitutional interpretation."], correct: 1, explanation: "The irony is that Jefferson, who had built his political identity partly around opposing Hamilton's loose construction, ultimately set aside his own stated principles to complete a purchase relying on a similarly expansive reading of federal power." },
-    { id: "4-4", topic: "4.1 Jeffersonian Era", stem: "What did Marbury v. Madison (1803) establish?", choices: ["The principle of judicial review — the Supreme Court's authority to declare an act of Congress unconstitutional.", "The Louisiana Purchase's constitutionality.", "The Second Bank of the United States's legality.", "The Indian Removal Act's constitutionality."], correct: 0, explanation: "Marbury v. Madison (1803) established judicial review — the Supreme Court's authority to declare an act of Congress unconstitutional, a landmark precedent for the judicial branch." },
-    { id: "4-5", topic: "4.1 Jeffersonian Era", stem: "Who was the Chief Justice presiding over Marbury v. Madison?", choices: ["Thomas Jefferson", "John Marshall", "Andrew Jackson", "James Madison"], correct: 1, explanation: "Chief Justice John Marshall presided over Marbury v. Madison (1803), establishing the precedent of judicial review." },
-    { id: "4-6", topic: "4.1 Jeffersonian Era", stem: "Why is judicial review significant, given it isn't explicitly stated in the Constitution's text?", choices: ["It has no practical significance of any kind.", "It significantly strengthened the federal judiciary's role in the constitutional system, becoming a foundational precedent relied upon ever since, despite not being explicitly enumerated.", "It was immediately overturned by Congress.", "It only applied to a single specific case with no lasting precedent."], correct: 1, explanation: "Judicial review significantly strengthened the federal judiciary's role in the constitutional system, becoming a foundational, continuously relied-upon precedent despite not being explicitly stated in the Constitution's text." },
-    { id: "4-7", topic: "4.1 Jeffersonian Era", stem: "A historian argues that Jefferson's presidency shows a purely consistent application of strict constructionist principles throughout. Evaluate this argument.", choices: ["This argument is fully accurate with no need for qualification.", "This argument is inaccurate — the Louisiana Purchase specifically shows Jefferson departing from his own stated strict constructionist principles when practical considerations outweighed ideological consistency.", "This argument is accurate, but only regarding Marbury v. Madison.", "This argument cannot be evaluated using any historical evidence."], correct: 1, explanation: "This argument is inaccurate — the Louisiana Purchase specifically illustrates Jefferson departing from his own stated strict constructionist principles, an important nuance and genuine historical irony worth noting rather than glossing over." },
-    { id: "4-8", topic: "4.1 Jeffersonian Era", stem: "Which expedition did Jefferson commission to explore the newly acquired Louisiana Territory?", choices: ["The Lewis and Clark Expedition", "The Pike Expedition to Florida", "An expedition led by Andrew Jackson", "No expedition was ever commissioned"], correct: 0, explanation: "Jefferson commissioned the Lewis and Clark Expedition to explore the newly acquired Louisiana Territory, gathering geographic, scientific, and diplomatic information." },
-    { id: "4-9", topic: "4.2 War of 1812", stem: "Which of the following was a cause of the War of 1812?", choices: ["British impressment of American sailors.", "The Louisiana Purchase.", "The Missouri Compromise.", "The Indian Removal Act."], correct: 0, explanation: "British impressment of American sailors — forcibly recruiting them into British naval service — was a significant cause of the War of 1812, alongside British support for Native resistance on the frontier." },
-    { id: "4-10", topic: "4.2 War of 1812", stem: "Was the War of 1812 a decisive American military victory?", choices: ["Yes, the United States won a clear, decisive military victory.", "No — the war was militarily inconclusive, with the Treaty of Ghent largely restoring prewar boundaries.", "Yes, because Britain formally ceded Canada to the United States.", "No, because the United States surrendered unconditionally."], correct: 1, explanation: "The War of 1812 was militarily inconclusive — the Treaty of Ghent that ended it largely restored prewar boundaries with no major territorial changes, despite the war's significant political consequences." },
-    { id: "4-11", topic: "4.2 War of 1812", stem: "What was the Hartford Convention?", choices: ["A meeting of southern slaveholders.", "A gathering of New England Federalists opposed to the War of 1812, where grievances including potential secession were discussed.", "The convention that wrote the Constitution.", "A meeting to negotiate the Louisiana Purchase."], correct: 1, explanation: "The Hartford Convention was a gathering of New England Federalists opposed to the War of 1812, where grievances including discussion of potential secession were raised — later badly damaging the Federalist Party's reputation." },
-    { id: "4-12", topic: "4.2 War of 1812", stem: "Why was the Hartford Convention's timing particularly damaging to the Federalist Party?", choices: ["It had no damaging effect on the Federalist Party at all.", "News of the convention's grievances became public around the same time as Jackson's victory at New Orleans, making Federalists appear unpatriotic at the exact moment national pride was surging.", "The convention occurred decades after the war had ended.", "The convention resulted in an immediate Federalist Party victory in the next election."], correct: 1, explanation: "News of the Hartford Convention became public around the same time as Andrew Jackson's victory at the Battle of New Orleans, making the Federalists appear unpatriotic at exactly the moment national pride was surging — badly compounding the political damage to the party." },
-    { id: "4-13", topic: "4.2 War of 1812", stem: "What was the 'Era of Good Feelings'?", choices: ["A period of intense two-party political competition.", "A period of reduced formal party competition under one-party (Democratic-Republican) dominance, following the Federalist Party's collapse.", "A period marked by the Civil War's end.", "A term unrelated to the War of 1812's political consequences."], correct: 1, explanation: "The 'Era of Good Feelings' describes a period of reduced formal party competition under one-party Democratic-Republican dominance, a direct political consequence of the Federalist Party's collapse following the War of 1812." },
-    { id: "4-14", topic: "4.2 War of 1812", stem: "What did the Treaty of Ghent, which ended the War of 1812, primarily establish?", choices: ["Significant new American territorial gains from Britain.", "A largely restored prewar boundary status quo, with no major territorial changes.", "British annexation of the United States.", "American annexation of Canada."], correct: 1, explanation: "The Treaty of Ghent largely restored prewar boundaries with no major territorial changes — consistent with the war's overall militarily inconclusive outcome." },
-    { id: "4-15", topic: "4.2 War of 1812", stem: "Why should the War of 1812's SIGNIFICANCE for this exam be understood primarily in political rather than military terms?", choices: ["The war had no significance of any kind.", "Despite its inconclusive military outcome, the war produced significant political consequences — surging nationalism and the Federalist Party's collapse — which are its more historically significant legacy.", "The war resulted in a clear, decisive military victory that overshadows any political consequence.", "Political consequences and military outcomes are always identical in historical significance."], correct: 1, explanation: "Despite the war's inconclusive military outcome, its POLITICAL consequences — surging American nationalism and the Federalist Party's collapse — are its more historically significant legacy, which is why this exam emphasizes these consequences over any claimed military victory." },
-    { id: "4-16", topic: "4.2 War of 1812", stem: "Which general's victory at the Battle of New Orleans became closely, and damagingly for Federalists, associated with the Hartford Convention's timing?", choices: ["George Washington", "Andrew Jackson", "John Marshall", "Thomas Jefferson"], correct: 1, explanation: "Andrew Jackson's victory at the Battle of New Orleans became closely associated in timing with the damaging news of the Hartford Convention, compounding the political damage to the Federalist Party." },
-    { id: "4-17", topic: "4.3 Market Revolution", stem: "What did the Erie Canal (completed 1825) accomplish?", choices: ["Connected the Great Lakes to the Atlantic via the Hudson River, dramatically reducing shipping costs and travel time.", "Connected the Mississippi River to the Pacific Ocean.", "Eliminated the need for any road transportation.", "Had no significant effect on regional trade."], correct: 0, explanation: "The Erie Canal connected the Great Lakes to the Atlantic via the Hudson River, dramatically reducing shipping costs and travel time between the Midwest and Northeast." },
-    { id: "4-18", topic: "4.3 Market Revolution", stem: "What was the Lowell System?", choices: ["A system of subsistence farming.", "An early American industrial system, notably employing young unmarried women in Massachusetts textile mills.", "A canal transportation network.", "A political voting system."], correct: 1, explanation: "The Lowell System was an early American industrial system notably employing young unmarried women in Massachusetts textile mills, an important example of early industrialization." },
-    { id: "4-19", topic: "4.3 Market Revolution", stem: "What is the specific causal mechanism by which falling transportation costs transformed American agriculture during this period?", choices: ["Falling transportation costs had no effect on agriculture.", "Falling transportation costs made it newly profitable for interior farmers to grow cash crops for distant markets, rather than primarily for family subsistence.", "Falling transportation costs eliminated farming entirely in favor of industry.", "Falling transportation costs only affected coastal, not interior, farmers."], correct: 1, explanation: "Falling transportation costs (from canals, roads, and eventually railroads) made it newly profitable for interior farmers to grow cash crops specifically for distant markets, transforming agriculture from primarily subsistence-oriented to market-oriented." },
-    { id: "4-20", topic: "4.3 Market Revolution", stem: "Why is describing the Market Revolution simply as 'the economy grew' an insufficiently precise answer for this exam?", choices: ["This description is actually sufficiently precise and complete.", "The exam rewards identifying the SPECIFIC mechanism (falling transportation costs enabling the shift from subsistence to market-oriented agriculture) rather than a vague statement about general growth.", "The Market Revolution had nothing to do with economic growth.", "Precision has no value in historical explanation."], correct: 1, explanation: "The exam rewards identifying the SPECIFIC causal mechanism — falling transportation costs enabling market-oriented agriculture and regional specialization — rather than a vague, imprecise statement about general economic growth or 'progress.'" },
-    { id: "4-21", topic: "4.3 Market Revolution", stem: "What broader social consequence, beyond simple economic statistics, did the Market Revolution produce?", choices: ["No social consequences of any kind resulted from the Market Revolution.", "Wage labor in factories became a new option distinct from family farm labor, reshaping family and social structures.", "The Market Revolution eliminated all forms of labor entirely.", "Social structures remained completely unaffected by economic changes during this period."], correct: 1, explanation: "The Market Revolution produced broader social consequences beyond economics — wage labor in factories became a new option distinct from traditional family farm labor, reshaping family and social structures during this period." },
-    { id: "4-22", topic: "4.3 Market Revolution", stem: "Which of the following best completes this causal chain: falling transportation costs → increased profitability of cash crop farming for distant markets → ___?", choices: ["Complete elimination of all agriculture.", "Shift from subsistence-oriented to market-oriented agriculture and growing regional economic specialization.", "Immediate abolition of slavery nationwide.", "No further consequences of any kind."], correct: 1, explanation: "The causal chain concludes with a shift from subsistence-oriented to market-oriented agriculture and growing regional economic specialization — the core transformation this section's key idea describes." },
-    { id: "4-23", topic: "4.3 Market Revolution", stem: "Which development is a specific, named example of the Market Revolution's transportation improvements?", choices: ["The Erie Canal", "The Louisiana Purchase", "The Missouri Compromise", "The Indian Removal Act"], correct: 0, explanation: "The Erie Canal is a specific, named example of the Market Revolution's transportation improvements, directly reducing shipping costs and enabling market-oriented agriculture in the interior." },
-    { id: "4-24", topic: "4.3 Market Revolution", stem: "Approximately when was the Erie Canal completed?", choices: ["1803", "1825", "1848", "1776"], correct: 1, explanation: "The Erie Canal was completed in 1825, connecting the Great Lakes to the Atlantic via the Hudson River during Period 4's Market Revolution." },
-    { id: "4-25", topic: "4.4 Second Great Awakening", stem: "What was the Second Great Awakening?", choices: ["A political movement demanding independence from Britain.", "A wave of evangelical Protestant religious revival in the early-to-mid 1800s, emphasizing individual salvation and moral improvement.", "A synonym for the First Great Awakening, with no meaningful distinction.", "An economic reform movement targeting tariffs."], correct: 1, explanation: "The Second Great Awakening was a wave of evangelical Protestant religious revival sweeping the United States in the early-to-mid 1800s, emphasizing individual salvation and moral improvement." },
-    { id: "4-26", topic: "4.4 Second Great Awakening", stem: "How does the Second Great Awakening differ from the First Great Awakening in terms of timing?", choices: ["Both occurred during the exact same decades.", "The First Great Awakening occurred in the 1730s–40s (Period 2); the Second Great Awakening occurred in the early-to-mid 1800s (Period 4).", "The Second Great Awakening occurred before the First Great Awakening.", "There is no meaningful timing distinction between the two."], correct: 1, explanation: "The First Great Awakening occurred in the 1730s–40s during Period 2, while the Second Great Awakening occurred roughly a century later, in the early-to-mid 1800s during Period 4 — two distinct revival movements." },
-    { id: "4-27", topic: "4.4 Second Great Awakening", stem: "What theological emphasis distinguished the Second Great Awakening and directly fueled social reform movements?", choices: ["A belief that society could not be changed by human effort.", "A belief that individuals and society itself could be actively perfected through committed moral effort.", "A rejection of all forms of religious practice.", "An exclusive focus on ritual over personal conviction."], correct: 1, explanation: "The Second Great Awakening's theology emphasized that individuals AND society itself could be actively perfected through committed moral effort — a belief that directly fueled the era's social reform movements." },
-    { id: "4-28", topic: "4.4 Second Great Awakening", stem: "Which reform movement is directly connected to the Second Great Awakening's theology in this section?", choices: ["The abolitionist movement", "The Federalist Party's formation", "The Louisiana Purchase", "The Indian Removal Act"], correct: 0, explanation: "The abolitionist movement is directly connected to the Second Great Awakening's theology — abolitionists drew on the belief that slavery was a moral sin society had a religious obligation to actively eliminate." },
-    { id: "4-29", topic: "4.4 Second Great Awakening", stem: "What significant event, occurring near the end of this period, is associated with the emerging women's rights movement?", choices: ["The Seneca Falls Convention (1848)", "The Hartford Convention", "The Constitutional Convention", "The Missouri Compromise"], correct: 0, explanation: "The Seneca Falls Convention (1848), occurring near this period's end, is a landmark event associated with the emerging women's rights movement, connected to the broader wave of reform fueled by the Second Great Awakening." },
-    { id: "4-30", topic: "4.4 Second Great Awakening", stem: "Which reform movement, alongside abolitionism, is specifically named as connected to the Second Great Awakening's influence?", choices: ["The temperance movement", "The spoils system", "Manifest Destiny", "The Bank War"], correct: 0, explanation: "The temperance movement (opposing alcohol consumption) is specifically named alongside abolitionism as a reform movement fueled by the Second Great Awakening's emphasis on moral improvement." },
-    { id: "4-31", topic: "4.4 Second Great Awakening", stem: "A question asks about the religious movement connected to antebellum reform movements like abolitionism and temperance. Which specific movement should you name?", choices: ["The First Great Awakening", "The Second Great Awakening specifically", "Neither Great Awakening is relevant to this question", "The Protestant Reformation"], correct: 1, explanation: "The Second Great Awakening specifically — not the First — is the religious movement connected to antebellum reform movements like abolitionism and temperance, a frequently tested distinction on this exam." },
-    { id: "4-32", topic: "4.4 Second Great Awakening", stem: "Why did the Second Great Awakening's theology provide abolitionists with a particularly powerful vocabulary for their cause?", choices: ["It provided no meaningful vocabulary or motivation for abolitionists.", "It framed slavery specifically as a moral sin that a genuinely Christian society had a religious obligation to actively eliminate, not merely tolerate.", "It explicitly endorsed slavery as morally acceptable.", "It had no relationship to moral or religious argument of any kind."], correct: 1, explanation: "The Second Great Awakening's theology framed slavery specifically as a moral sin that a genuinely Christian society had a religious obligation to actively eliminate — providing abolitionists with a powerful religious vocabulary and motivating conviction." },
-    { id: "4-33", topic: "4.5 Jacksonian Democracy", stem: "What specific change expanded suffrage during the Jacksonian era?", choices: ["Extension of voting rights to women.", "Removal of property ownership requirements for voting in most states, specifically among white men.", "Extension of voting rights to enslaved people.", "Extension of voting rights to Native Americans."], correct: 1, explanation: "The Jacksonian era saw the removal of property ownership requirements for voting in most states — but this expansion applied specifically and exclusively to white men." },
-    { id: "4-34", topic: "4.5 Jacksonian Democracy", stem: "Did Jacksonian-era suffrage expansion affect the political rights of women, enslaved people, free Black Americans, or Native Americans?", choices: ["Yes, all of these groups gained significant new political rights during this era.", "No — the expansion applied specifically to white men, and in some states, free Black Americans' voting rights were actually formally narrowed during this same period.", "Yes, but only for Native Americans specifically.", "No, because no suffrage expansion occurred at all during this era."], correct: 1, explanation: "Jacksonian-era suffrage expansion applied specifically to white men — it did not extend to women, enslaved people, free Black Americans, or Native Americans, and in some states, free Black Americans' voting rights were actually formally narrowed during this same period." },
-    { id: "4-35", topic: "4.5 Jacksonian Democracy", stem: "What was the 'spoils system'?", choices: ["A system of rewarding political supporters with government jobs.", "A system for distributing western land to Native Americans.", "A tariff policy targeting British goods.", "A synonym for judicial review."], correct: 0, explanation: "The spoils system was Jackson's practice of rewarding political supporters with government jobs, which he justified as rotating ordinary citizens through government service rather than entrenching a permanent political elite." },
-    { id: "4-36", topic: "4.5 Jacksonian Democracy", stem: "Why is it an incomplete answer to describe 'Jacksonian Democracy' simply as a straightforward expansion of American democracy?", choices: ["This description is fully complete and accurate with no need for further qualification.", "This description fails to specify that the expansion applied specifically to white men, while this same period saw continued or intensified restriction of rights for other groups.", "Jacksonian Democracy involved no expansion of any political rights whatsoever.", "There is no meaningful distinction to draw between different groups' political rights during this era."], correct: 1, explanation: "Describing 'Jacksonian Democracy' as simply a straightforward democratic expansion is incomplete because it fails to specify WHO the expansion actually included (white men specifically), while other groups faced continued or intensified restriction during this same period." },
-    { id: "4-37", topic: "4.5 Jacksonian Democracy", stem: "What justification did Jackson offer for the spoils system?", choices: ["That it would entrench a permanent political elite.", "That it rotated ordinary citizens through government service rather than entrenching a permanent political elite.", "That it had no relationship to political participation at all.", "That it would reduce voter turnout."], correct: 1, explanation: "Jackson justified the spoils system by arguing it rotated ordinary citizens through government service, rather than allowing a permanent, entrenched political elite to monopolize government positions." },
-    { id: "4-38", topic: "4.5 Jacksonian Democracy", stem: "During which years did Andrew Jackson serve as president?", choices: ["1801–1809", "1812–1815", "1829–1837", "1845–1849"], correct: 2, explanation: "Andrew Jackson served as president from 1829 to 1837, a period associated with expanded white male suffrage, the spoils system, Indian Removal, and the Bank War." },
-    { id: "4-39", topic: "4.5 Jacksonian Democracy", stem: "Which of the following would be the STRONGEST way to evaluate the claim that Jacksonian democracy represented universal democratic expansion?", choices: ["Simply agreeing with the claim with no further analysis.", "Noting the genuine expansion of white male suffrage while also citing continued Native American displacement and expanding slavery as evidence the expansion was not universal.", "Ignoring the claim entirely as unanswerable.", "Focusing exclusively on economic policy with no reference to suffrage or civil rights."], correct: 1, explanation: "The strongest evaluation holds both facts together: genuine expansion of white male suffrage AND continued/intensified restriction for other groups (Native American displacement, expanding slavery) — directly refuting the claim of truly universal democratic expansion." },
-    { id: "4-40", topic: "4.5 Jacksonian Democracy", stem: "Which best completes this comparison: property requirement removal : expanded white male suffrage :: continued slavery and Indian Removal : ___?", choices: ["Expanded rights for all Americans equally", "Continued or intensified restriction for other groups during the same period", "A completely unrelated historical development", "Evidence that no suffrage expansion occurred at all"], correct: 1, explanation: "Continued or intensified restriction for other groups during the same period is the correct completion — directly illustrating this section's key point about the unevenness of Jacksonian-era democratic expansion." },
-    { id: "4-41", topic: "4.6 Indian Removal and Bank War", stem: "What did the Indian Removal Act (1830) authorize?", choices: ["The forced relocation of Native American nations from the Southeast to territory west of the Mississippi River.", "The extension of full citizenship to Native Americans.", "The creation of the Second Bank of the United States.", "A treaty with Britain regarding Native American land."], correct: 0, explanation: "The Indian Removal Act (1830) authorized the forced relocation of Native American nations from the Southeast to designated territory west of the Mississippi River." },
-    { id: "4-42", topic: "4.6 Indian Removal and Bank War", stem: "What did the Supreme Court rule in Worcester v. Georgia (1832)?", choices: ["That Georgia had full authority over Cherokee land.", "That the Cherokee Nation was a sovereign nation not subject to Georgia's state law.", "That the Indian Removal Act was constitutional.", "That Jackson had no authority as president."], correct: 1, explanation: "In Worcester v. Georgia (1832), the Supreme Court ruled in the Cherokee Nation's favor, affirming their status as a sovereign nation not subject to Georgia's state law." },
-    { id: "4-43", topic: "4.6 Indian Removal and Bank War", stem: "How did Jackson respond to the Worcester v. Georgia ruling?", choices: ["He fully enforced the ruling and protected Cherokee sovereignty.", "He refused to enforce the ruling, directly defying the Supreme Court and proceeding with removal anyway.", "He immediately resigned the presidency.", "He had no involvement in this matter at all."], correct: 1, explanation: "Jackson refused to enforce the Worcester v. Georgia ruling, directly defying the Supreme Court and proceeding with Cherokee removal anyway — a significant instance of executive defiance of judicial authority." },
-    { id: "4-44", topic: "4.6 Indian Removal and Bank War", stem: "When was the Cherokee Trail of Tears actually implemented, and under which president?", choices: ["1830, under Jackson", "1838, under Van Buren", "1848, under a president not yet in office during this period", "1776, under no president at all"], correct: 1, explanation: "The Trail of Tears was actually implemented in 1838, under Jackson's successor Martin Van Buren — though the underlying policy and legal groundwork were established during Jackson's own presidency." },
-    { id: "4-45", topic: "4.6 Indian Removal and Bank War", stem: "What was Jackson's stated objection to the Second Bank of the United States?", choices: ["That it was too small to be economically useful.", "That it represented an unconstitutional concentration of economic power benefiting wealthy elites at the expense of ordinary Americans.", "That it had no relationship to the national economy at all.", "That it charged insufficient interest rates."], correct: 1, explanation: "Jackson viewed the Second Bank of the United States as an unconstitutional concentration of economic power benefiting wealthy elites at the expense of ordinary Americans, leading to his 'Bank War.'" },
-    { id: "4-46", topic: "4.6 Indian Removal and Bank War", stem: "How did Jackson ultimately destroy the Second Bank of the United States?", choices: ["Through a Supreme Court ruling declaring it unconstitutional.", "By vetoing its recharter and withdrawing federal deposits.", "Through a direct act of Congress with no presidential involvement.", "The Second Bank was never actually destroyed."], correct: 1, explanation: "Jackson destroyed the Second Bank of the United States by vetoing its recharter and subsequently withdrawing federal deposits, effectively ending the institution." },
-    { id: "4-47", topic: "4.6 Indian Removal and Bank War", stem: "What broader pattern do both Indian Removal and the Bank War illustrate about Jackson's presidency?", choices: ["Jackson consistently deferred to established institutions and the Supreme Court.", "Jackson's willingness to use aggressive presidential power, including defying established institutions like the Supreme Court and the national bank, in the name of protecting what he characterized as ordinary Americans' interests.", "Jackson had no significant impact on the scope of presidential power.", "Both events show Jackson consistently opposing any expansion of executive authority."], correct: 1, explanation: "Both Indian Removal (defying the Supreme Court) and the Bank War (destroying an established national institution) illustrate Jackson's broader pattern of using aggressive presidential power, even against established institutions, framed as protecting ordinary Americans' interests." },
-    { id: "4-48", topic: "4.6 Indian Removal and Bank War", stem: "Why is the sequencing of the Indian Removal Act (1830) and the Trail of Tears (1838) important to get precisely right?", choices: ["Sequencing has no importance for understanding this history.", "The eight-year gap shows the policy's legal and political groundwork was established under Jackson, while actual implementation of the most infamous forced relocation occurred later, under Van Buren.", "Both events occurred simultaneously in 1830.", "The Trail of Tears actually preceded the Indian Removal Act."], correct: 1, explanation: "Getting this sequencing precisely right matters because it shows the policy and legal groundwork (including Jackson's defiance of Worcester v. Georgia) were established under Jackson, while the actual, most infamous implementation of forced relocation occurred later, under his successor Van Buren — an important chronological distinction." },
-    { id: "4-49", topic: "4.7 Sectionalism", stem: "What did the Missouri Compromise (1820) establish?", choices: ["The immediate abolition of slavery nationwide.", "Admission of Missouri as a slave state and Maine as a free state simultaneously, prohibiting slavery in Louisiana Purchase territory north of the 36°30' line.", "A permanent ban on any new states joining the Union.", "The Indian Removal Act's specific terms."], correct: 1, explanation: "The Missouri Compromise (1820) admitted Missouri as a slave state and Maine as a free state simultaneously, while prohibiting slavery in the remaining Louisiana Purchase territory north of the 36°30' parallel line." },
-    { id: "4-50", topic: "4.7 Sectionalism", stem: "Did the Missouri Compromise permanently resolve the question of slavery's expansion into new territory?", choices: ["Yes, it permanently and completely resolved this question with no future conflict.", "No — it merely established a geographic line that would predictably become contested again as the nation continued expanding westward, temporarily deferring rather than permanently resolving the conflict.", "Yes, because no new territory was ever acquired after 1820.", "No, because the compromise had no relationship to slavery whatsoever."], correct: 1, explanation: "The Missouri Compromise did not permanently resolve the slavery expansion question — it established a geographic line that would predictably face renewed pressure as the nation continued expanding westward, merely deferring rather than resolving the underlying conflict." },
-    { id: "4-51", topic: "4.7 Sectionalism", stem: "What effect did Eli Whitney's cotton gin have on the institution of slavery in the American South?", choices: ["It made slavery economically obsolete, leading to its decline.", "It economically entrenched slavery more deeply, since growing cotton demand required an ever-larger enslaved workforce.", "It had no relationship to slavery's economic viability.", "It eliminated the need for cotton cultivation entirely."], correct: 1, explanation: "The cotton gin economically entrenched slavery more deeply, rather than making it obsolete — dramatically increasing cotton profitability and driving surging demand for enslaved labor across the Deep South." },
-    { id: "4-52", topic: "4.7 Sectionalism", stem: "How did the cotton gin specifically increase cotton's profitability?", choices: ["It had no effect on cotton processing efficiency.", "It dramatically increased the efficiency of processing short-staple cotton, which could be grown across a much larger geographic area than previous varieties.", "It eliminated the need for any human labor in cotton production.", "It only affected long-staple cotton, with no relevance to the broader Deep South."], correct: 1, explanation: "The cotton gin dramatically increased the efficiency of processing short-staple cotton — a variety that could be grown across a much larger geographic area of the Deep South than the long-staple cotton previously cultivated, driving surging profitability and demand." },
-    { id: "4-53", topic: "4.7 Sectionalism", stem: "How does the cotton gin's economic effect connect to Period 3's continuity/change content on slavery?", choices: ["There is no connection between these two units' content.", "It directly extends Period 3's Section 3.8 observation that slavery persisted and became further entrenched in the South despite revolutionary liberty rhetoric, showing a specific economic mechanism (the cotton gin) driving this continued entrenchment.", "The cotton gin caused the immediate abolition of slavery, contradicting Period 3's content.", "Period 3 and Period 4 cover completely unrelated historical periods with no possible connection."], correct: 1, explanation: "The cotton gin's economic effect directly extends Period 3's observation (Section 3.8) that slavery persisted and became further entrenched despite revolutionary rhetoric — Period 4 identifies the SPECIFIC economic mechanism (the cotton gin) driving this continued entrenchment forward in time." },
-    { id: "4-54", topic: "4.7 Sectionalism", stem: "Why should a strong essay explicitly frame the Missouri Compromise as a temporary deferral rather than a permanent solution?", choices: ["Because this framing is inaccurate and should be avoided.", "Because the compromise's geographic line was always going to face renewed pressure as the nation continued acquiring new western territory, a pressure that would eventually explode into later crises.", "Because the Missouri Compromise had no relationship to slavery at all.", "Because the compromise immediately and permanently ended all sectional conflict."], correct: 1, explanation: "A strong essay frames the Missouri Compromise as a temporary deferral because its geographic line was always going to face renewed pressure as the nation continued acquiring new western territory — a pressure that predictably intensifies in later periods." },
-    { id: "4-55", topic: "4.7 Sectionalism", stem: "What geographic line did the Missouri Compromise establish for prohibiting slavery in the remaining Louisiana Purchase territory?", choices: ["The Mississippi River", "The 36°30' parallel", "The Appalachian Mountains", "The Rocky Mountains"], correct: 1, explanation: "The Missouri Compromise established the 36°30' parallel line, prohibiting slavery in Louisiana Purchase territory north of this line." },
-    { id: "4-56", topic: "4.7 Sectionalism", stem: "Approximately when was the cotton gin invented, relative to this unit's Period 4 timeframe?", choices: ["In the middle of Period 4, around 1825", "Shortly before Period 4 begins, in 1793", "At the very end of Period 4, in 1848", "During Period 1, well before this unit"], correct: 1, explanation: "The cotton gin was invented in 1793, shortly before Period 4 begins — its economic effects on slavery's entrenchment and expansion play out significantly during this period." },
-    { id: "4-57", topic: "4.8 Manifest Destiny", stem: "What was 'Manifest Destiny'?", choices: ["A specific legal treaty with Mexico.", "The widely held belief that American westward expansion across the continent was divinely ordained and inevitable.", "A synonym for the Missouri Compromise.", "A policy limiting westward expansion."], correct: 1, explanation: "Manifest Destiny was the widely held belief that American westward expansion across the North American continent was not merely desirable, but divinely ordained and inevitable." },
-    { id: "4-58", topic: "4.8 Manifest Destiny", stem: "Was Manifest Destiny a neutral, purely geographic description of westward movement?", choices: ["Yes, it was simply a neutral factual description with no ideological content.", "No — it was a specific ideological framework invoking claims of divine sanction and cultural/racial superiority to justify displacing existing populations and frame expansion as inevitable and righteous.", "Yes, because it had no relationship to justifying any specific policy.", "No, because Manifest Destiny opposed all westward expansion."], correct: 1, explanation: "Manifest Destiny was not a neutral description — it was a specific ideological framework invoking claims of divine sanction and cultural/racial superiority, used to justify displacing existing Native American and Mexican populations and framing continued expansion as inevitable and righteous." },
-    { id: "4-59", topic: "4.8 Manifest Destiny", stem: "What war did Manifest Destiny ideology help drive, resulting in a massive new U.S. territorial acquisition?", choices: ["The War of 1812", "The Mexican-American War (1846–1848)", "The French and Indian War", "The Revolutionary War"], correct: 1, explanation: "Manifest Destiny ideology helped drive the Mexican-American War (1846–1848), resulting in the United States acquiring a massive new territory known as the Mexican Cession." },
-    { id: "4-60", topic: "4.8 Manifest Destiny", stem: "What territorial acquisition resulted from the Mexican-American War?", choices: ["The Louisiana Purchase", "The Mexican Cession", "The Gadsden Purchase exclusively", "No territory was acquired from this war"], correct: 1, explanation: "The Mexican Cession resulted from the Mexican-American War (1846–1848), a massive new territorial acquisition that directly reopened sectional conflict over slavery's expansion." },
-    { id: "4-61", topic: "4.8 Manifest Destiny", stem: "How did Manifest Destiny's territorial acquisitions connect to the sectional conflict covered in Section 4.7?", choices: ["There is no connection between westward expansion and sectional conflict.", "New territory acquired through Manifest Destiny-driven expansion immediately reopened, with fresh urgency, the unresolved question of slavery's expansion that the Missouri Compromise had only temporarily deferred.", "Manifest Destiny permanently resolved all sectional conflict over slavery.", "New territory had no relationship to slavery whatsoever."], correct: 1, explanation: "New territory acquired through Manifest Destiny-driven expansion (like the Mexican Cession) immediately reopened, with fresh urgency, the unresolved question of slavery's expansion that the Missouri Compromise (Section 4.7) had only temporarily deferred — directly connecting these two sections." },
-    { id: "4-62", topic: "4.8 Manifest Destiny", stem: "Which 1845 event, driven partly by Manifest Destiny ideology, contributed to rising tensions with Mexico?", choices: ["The Louisiana Purchase", "The annexation of Texas", "The Missouri Compromise", "The Hartford Convention"], correct: 1, explanation: "The annexation of Texas (1845), driven partly by Manifest Destiny ideology, contributed to rising tensions with Mexico that would soon lead to the Mexican-American War." },
-    { id: "4-63", topic: "4.8 Manifest Destiny", stem: "Why does every new territory acquired through westward expansion require a 'fresh answer' to the slavery question, according to this section?", choices: ["Because the nation had permanently resolved the slavery question and no further answer was ever needed.", "Because the nation had never actually resolved the underlying question of slavery's expansion, only postponed it through temporary compromises like the Missouri Compromise, meaning each new territory reopened the same unresolved debate.", "Because slavery was irrelevant to territorial expansion.", "Because each new territory automatically became a free state with no debate required."], correct: 1, explanation: "Every new territory required a fresh answer because the nation had never actually resolved the underlying question of slavery's expansion — only postponed it through temporary compromises like the Missouri Compromise — meaning each new acquisition reopened the same fundamentally unresolved debate." },
-    { id: "4-64", topic: "4.8 Manifest Destiny", stem: "Which of the following populations were displaced or subordinated as a direct consequence of Manifest Destiny-driven expansion?", choices: ["No populations were affected by this expansion.", "Native American and Mexican populations already present in territory the United States sought to acquire.", "Only European immigrant populations.", "Only populations in the original thirteen colonies."], correct: 1, explanation: "Manifest Destiny-driven expansion displaced or subordinated Native American and Mexican populations already present in territory the United States sought to acquire, a direct consequence of this ideology's practical application." },
-    { id: "4-65", topic: "4.8 Manifest Destiny", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how Sections 4.1 (Louisiana Purchase), 4.7 (Missouri Compromise), and 4.8 (Manifest Destiny/Mexican Cession) together form a single, recurring pattern in which territorial acquisition repeatedly reopens the SAME unresolved constitutional and sectional questions, despite occurring decades apart.", choices: ["These three territorial acquisitions are entirely unrelated events with no common pattern.", "Each major territorial acquisition (Louisiana Purchase, then the Louisiana Purchase territory's slavery status addressed by the Missouri Compromise, then the Mexican Cession) repeatedly reopened the SAME two recurring questions — how much implied federal power is legitimate, and whether slavery should expand into new territory — showing these were not one-time crises but a recurring structural pattern triggered by the same underlying cause (territorial growth) throughout this entire period.", "Only the Missouri Compromise addressed any question related to slavery; the other two acquisitions were unrelated to this issue.", "Territorial acquisition had no relationship to constitutional or sectional questions at any point in this unit."], correct: 1, explanation: "This synthesis question rewards recognizing a genuinely recurring PATTERN across the unit: the Louisiana Purchase (Section 4.1) first raised the question of implied federal power over territorial acquisition; the same acquired territory's slavery status then required the Missouri Compromise (Section 4.7) to address; and the Mexican Cession (Section 4.8) reopened the identical unresolved slavery-expansion question yet again decades later. Recognizing that territorial growth ITSELF was the recurring underlying cause repeatedly triggering the same two fundamental unresolved questions — legitimate scope of federal power, and slavery's expansion — is a stronger, more sophisticated argument than treating each acquisition as an isolated event, and is exactly the kind of connective pattern-recognition a strong DBQ or LEQ response on this period should demonstrate." },
+  "4": [
+    {
+      "id": "4-1",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "What was the Louisiana Purchase (1803)?",
+      "choices": [
+        "A purchase of territory from Mexico.",
+        "The acquisition of a vast territory from France, roughly doubling the size of the United States.",
+        "An agreement establishing the Proclamation Line.",
+        "A treaty ending war with Spain."
+      ],
+      "correct": 1,
+      "explanation": "The Louisiana Purchase (1803) was the acquisition of a vast territory from France, roughly doubling the size of the United States."
+    },
+    {
+      "id": "4-2",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "What constitutional problem did the Louisiana Purchase present for Jefferson?",
+      "choices": [
+        "The Constitution explicitly prohibited any territorial acquisition.",
+        "The Constitution nowhere explicitly grants the federal government power to acquire new territory, conflicting with Jefferson's strict constructionist principles.",
+        "There was no constitutional problem of any kind.",
+        "The purchase required a declaration of war first."
+      ],
+      "correct": 1,
+      "explanation": "The Constitution nowhere explicitly grants the federal government power to acquire new territory — a genuine problem for Jefferson, a committed strict constructionist who had previously opposed expansive readings of federal power."
+    },
+    {
+      "id": "4-3",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "What is the specific irony in Jefferson's decision to complete the Louisiana Purchase?",
+      "choices": [
+        "Jefferson refused to complete the purchase due to constitutional concerns.",
+        "Jefferson, a committed strict constructionist who had opposed Hamilton's loose construction, ultimately relied on an expansive reading of federal power to justify the purchase.",
+        "The purchase had no relationship to constitutional interpretation.",
+        "There is no irony; Jefferson always supported loose construction."
+      ],
+      "correct": 1,
+      "explanation": "The irony is that Jefferson, who had built his political identity partly around opposing Hamilton's loose construction, ultimately set aside his own stated principles to complete a purchase relying on a similarly expansive reading of federal power."
+    },
+    {
+      "id": "4-4",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "What did Marbury v. Madison (1803) establish?",
+      "choices": [
+        "The Louisiana Purchase's constitutionality.",
+        "The Second Bank of the United States's legality.",
+        "The principle of judicial review — the Supreme Court's authority to declare an act of Congress unconstitutional.",
+        "The Indian Removal Act's constitutionality."
+      ],
+      "correct": 2,
+      "explanation": "Marbury v. Madison (1803) established judicial review — the Supreme Court's authority to declare an act of Congress unconstitutional, a landmark precedent for the judicial branch."
+    },
+    {
+      "id": "4-5",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "Who was the Chief Justice presiding over Marbury v. Madison?",
+      "choices": [
+        "Andrew Jackson",
+        "James Madison",
+        "John Marshall",
+        "Thomas Jefferson"
+      ],
+      "correct": 2,
+      "explanation": "Chief Justice John Marshall presided over Marbury v. Madison (1803), establishing the precedent of judicial review."
+    },
+    {
+      "id": "4-6",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "Why is judicial review significant, given it isn't explicitly stated in the Constitution's text?",
+      "choices": [
+        "It only applied to a single specific case with no lasting precedent.",
+        "It has no practical significance of any kind.",
+        "It significantly strengthened the federal judiciary's role in the constitutional system, becoming a foundational precedent relied upon ever since, despite not being explicitly enumerated.",
+        "It was immediately overturned by Congress."
+      ],
+      "correct": 2,
+      "explanation": "Judicial review significantly strengthened the federal judiciary's role in the constitutional system, becoming a foundational, continuously relied-upon precedent despite not being explicitly stated in the Constitution's text."
+    },
+    {
+      "id": "4-7",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "A historian argues that Jefferson's presidency shows a purely consistent application of strict constructionist principles throughout. Evaluate this argument.",
+      "choices": [
+        "This argument is accurate, but only regarding Marbury v. Madison.",
+        "This argument is inaccurate — the Louisiana Purchase specifically shows Jefferson departing from his own stated strict constructionist principles when practical considerations outweighed ideological consistency.",
+        "This argument is fully accurate with no need for qualification.",
+        "This argument cannot be evaluated using any historical evidence."
+      ],
+      "correct": 1,
+      "explanation": "This argument is inaccurate — the Louisiana Purchase specifically illustrates Jefferson departing from his own stated strict constructionist principles, an important nuance and genuine historical irony worth noting rather than glossing over."
+    },
+    {
+      "id": "4-8",
+      "topic": "4.1 Jeffersonian Era",
+      "stem": "Which expedition did Jefferson commission to explore the newly acquired Louisiana Territory?",
+      "choices": [
+        "No expedition was ever commissioned",
+        "The Lewis and Clark Expedition",
+        "The Pike Expedition to Florida",
+        "An expedition led by Andrew Jackson"
+      ],
+      "correct": 1,
+      "explanation": "Jefferson commissioned the Lewis and Clark Expedition to explore the newly acquired Louisiana Territory, gathering geographic, scientific, and diplomatic information."
+    },
+    {
+      "id": "4-9",
+      "topic": "4.2 War of 1812",
+      "stem": "Which of the following was a cause of the War of 1812?",
+      "choices": [
+        "British impressment of American sailors.",
+        "The Louisiana Purchase.",
+        "The Missouri Compromise.",
+        "The Indian Removal Act."
+      ],
+      "correct": 0,
+      "explanation": "British impressment of American sailors — forcibly recruiting them into British naval service — was a significant cause of the War of 1812, alongside British support for Native resistance on the frontier."
+    },
+    {
+      "id": "4-10",
+      "topic": "4.2 War of 1812",
+      "stem": "Was the War of 1812 a decisive American military victory?",
+      "choices": [
+        "No, because the United States surrendered unconditionally.",
+        "No — the war was militarily inconclusive, with the Treaty of Ghent largely restoring prewar boundaries.",
+        "Yes, the United States won a clear, decisive military victory.",
+        "Yes, because Britain formally ceded Canada to the United States."
+      ],
+      "correct": 1,
+      "explanation": "The War of 1812 was militarily inconclusive — the Treaty of Ghent that ended it largely restored prewar boundaries with no major territorial changes, despite the war's significant political consequences."
+    },
+    {
+      "id": "4-11",
+      "topic": "4.2 War of 1812",
+      "stem": "What was the Hartford Convention?",
+      "choices": [
+        "A gathering of New England Federalists opposed to the War of 1812, where grievances including potential secession were discussed.",
+        "The convention that wrote the Constitution.",
+        "A meeting of southern slaveholders.",
+        "A meeting to negotiate the Louisiana Purchase."
+      ],
+      "correct": 0,
+      "explanation": "The Hartford Convention was a gathering of New England Federalists opposed to the War of 1812, where grievances including discussion of potential secession were raised — later badly damaging the Federalist Party's reputation."
+    },
+    {
+      "id": "4-12",
+      "topic": "4.2 War of 1812",
+      "stem": "Why was the Hartford Convention's timing particularly damaging to the Federalist Party?",
+      "choices": [
+        "The convention occurred decades after the war had ended.",
+        "News of the convention's grievances became public around the same time as Jackson's victory at New Orleans, making Federalists appear unpatriotic at the exact moment national pride was surging.",
+        "The convention resulted in an immediate Federalist Party victory in the next election.",
+        "It had no damaging effect on the Federalist Party at all."
+      ],
+      "correct": 1,
+      "explanation": "News of the Hartford Convention became public around the same time as Andrew Jackson's victory at the Battle of New Orleans, making the Federalists appear unpatriotic at exactly the moment national pride was surging — badly compounding the political damage to the party."
+    },
+    {
+      "id": "4-13",
+      "topic": "4.2 War of 1812",
+      "stem": "What was the 'Era of Good Feelings'?",
+      "choices": [
+        "A term unrelated to the War of 1812's political consequences.",
+        "A period of intense two-party political competition.",
+        "A period of reduced formal party competition under one-party (Democratic-Republican) dominance, following the Federalist Party's collapse.",
+        "A period marked by the Civil War's end."
+      ],
+      "correct": 2,
+      "explanation": "The 'Era of Good Feelings' describes a period of reduced formal party competition under one-party Democratic-Republican dominance, a direct political consequence of the Federalist Party's collapse following the War of 1812."
+    },
+    {
+      "id": "4-14",
+      "topic": "4.2 War of 1812",
+      "stem": "What did the Treaty of Ghent, which ended the War of 1812, primarily establish?",
+      "choices": [
+        "British annexation of the United States.",
+        "A largely restored prewar boundary status quo, with no major territorial changes.",
+        "Significant new American territorial gains from Britain.",
+        "American annexation of Canada."
+      ],
+      "correct": 1,
+      "explanation": "The Treaty of Ghent largely restored prewar boundaries with no major territorial changes — consistent with the war's overall militarily inconclusive outcome."
+    },
+    {
+      "id": "4-15",
+      "topic": "4.2 War of 1812",
+      "stem": "Why should the War of 1812's SIGNIFICANCE for this exam be understood primarily in political rather than military terms?",
+      "choices": [
+        "Despite its inconclusive military outcome, the war produced significant political consequences — surging nationalism and the Federalist Party's collapse — which are its more historically significant legacy.",
+        "Political consequences and military outcomes are always identical in historical significance.",
+        "The war had no significance of any kind.",
+        "The war resulted in a clear, decisive military victory that overshadows any political consequence."
+      ],
+      "correct": 0,
+      "explanation": "Despite the war's inconclusive military outcome, its POLITICAL consequences — surging American nationalism and the Federalist Party's collapse — are its more historically significant legacy, which is why this exam emphasizes these consequences over any claimed military victory."
+    },
+    {
+      "id": "4-16",
+      "topic": "4.2 War of 1812",
+      "stem": "Which general's victory at the Battle of New Orleans became closely, and damagingly for Federalists, associated with the Hartford Convention's timing?",
+      "choices": [
+        "Thomas Jefferson",
+        "George Washington",
+        "Andrew Jackson",
+        "John Marshall"
+      ],
+      "correct": 2,
+      "explanation": "Andrew Jackson's victory at the Battle of New Orleans became closely associated in timing with the damaging news of the Hartford Convention, compounding the political damage to the Federalist Party."
+    },
+    {
+      "id": "4-17",
+      "topic": "4.3 Market Revolution",
+      "stem": "What did the Erie Canal (completed 1825) accomplish?",
+      "choices": [
+        "Eliminated the need for any road transportation.",
+        "Connected the Mississippi River to the Pacific Ocean.",
+        "Connected the Great Lakes to the Atlantic via the Hudson River, dramatically reducing shipping costs and travel time.",
+        "Had no significant effect on regional trade."
+      ],
+      "correct": 2,
+      "explanation": "The Erie Canal connected the Great Lakes to the Atlantic via the Hudson River, dramatically reducing shipping costs and travel time between the Midwest and Northeast."
+    },
+    {
+      "id": "4-18",
+      "topic": "4.3 Market Revolution",
+      "stem": "What was the Lowell System?",
+      "choices": [
+        "A canal transportation network.",
+        "A political voting system.",
+        "An early American industrial system, notably employing young unmarried women in Massachusetts textile mills.",
+        "A system of subsistence farming."
+      ],
+      "correct": 2,
+      "explanation": "The Lowell System was an early American industrial system notably employing young unmarried women in Massachusetts textile mills, an important example of early industrialization."
+    },
+    {
+      "id": "4-19",
+      "topic": "4.3 Market Revolution",
+      "stem": "What is the specific causal mechanism by which falling transportation costs transformed American agriculture during this period?",
+      "choices": [
+        "Falling transportation costs eliminated farming entirely in favor of industry.",
+        "Falling transportation costs had no effect on agriculture.",
+        "Falling transportation costs only affected coastal, not interior, farmers.",
+        "Falling transportation costs made it newly profitable for interior farmers to grow cash crops for distant markets, rather than primarily for family subsistence."
+      ],
+      "correct": 3,
+      "explanation": "Falling transportation costs (from canals, roads, and eventually railroads) made it newly profitable for interior farmers to grow cash crops specifically for distant markets, transforming agriculture from primarily subsistence-oriented to market-oriented."
+    },
+    {
+      "id": "4-20",
+      "topic": "4.3 Market Revolution",
+      "stem": "Why is describing the Market Revolution simply as 'the economy grew' an insufficiently precise answer for this exam?",
+      "choices": [
+        "Precision has no value in historical explanation.",
+        "The exam rewards identifying the SPECIFIC mechanism (falling transportation costs enabling the shift from subsistence to market-oriented agriculture) rather than a vague statement about general growth.",
+        "The Market Revolution had nothing to do with economic growth.",
+        "This description is actually sufficiently precise and complete."
+      ],
+      "correct": 1,
+      "explanation": "The exam rewards identifying the SPECIFIC causal mechanism — falling transportation costs enabling market-oriented agriculture and regional specialization — rather than a vague, imprecise statement about general economic growth or 'progress.'"
+    },
+    {
+      "id": "4-21",
+      "topic": "4.3 Market Revolution",
+      "stem": "What broader social consequence, beyond simple economic statistics, did the Market Revolution produce?",
+      "choices": [
+        "No social consequences of any kind resulted from the Market Revolution.",
+        "The Market Revolution eliminated all forms of labor entirely.",
+        "Wage labor in factories became a new option distinct from family farm labor, reshaping family and social structures.",
+        "Social structures remained completely unaffected by economic changes during this period."
+      ],
+      "correct": 2,
+      "explanation": "The Market Revolution produced broader social consequences beyond economics — wage labor in factories became a new option distinct from traditional family farm labor, reshaping family and social structures during this period."
+    },
+    {
+      "id": "4-22",
+      "topic": "4.3 Market Revolution",
+      "stem": "Which of the following best completes this causal chain: falling transportation costs → increased profitability of cash crop farming for distant markets → ___?",
+      "choices": [
+        "No further consequences of any kind.",
+        "Complete elimination of all agriculture.",
+        "Immediate abolition of slavery nationwide.",
+        "Shift from subsistence-oriented to market-oriented agriculture and growing regional economic specialization."
+      ],
+      "correct": 3,
+      "explanation": "The causal chain concludes with a shift from subsistence-oriented to market-oriented agriculture and growing regional economic specialization — the core transformation this section's key idea describes."
+    },
+    {
+      "id": "4-23",
+      "topic": "4.3 Market Revolution",
+      "stem": "Which development is a specific, named example of the Market Revolution's transportation improvements?",
+      "choices": [
+        "The Indian Removal Act",
+        "The Erie Canal",
+        "The Louisiana Purchase",
+        "The Missouri Compromise"
+      ],
+      "correct": 1,
+      "explanation": "The Erie Canal is a specific, named example of the Market Revolution's transportation improvements, directly reducing shipping costs and enabling market-oriented agriculture in the interior."
+    },
+    {
+      "id": "4-24",
+      "topic": "4.3 Market Revolution",
+      "stem": "Approximately when was the Erie Canal completed?",
+      "choices": [
+        "1825",
+        "1848",
+        "1803",
+        "1776"
+      ],
+      "correct": 0,
+      "explanation": "The Erie Canal was completed in 1825, connecting the Great Lakes to the Atlantic via the Hudson River during Period 4's Market Revolution."
+    },
+    {
+      "id": "4-25",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "What was the Second Great Awakening?",
+      "choices": [
+        "An economic reform movement targeting tariffs.",
+        "A wave of evangelical Protestant religious revival in the early-to-mid 1800s, emphasizing individual salvation and moral improvement.",
+        "A synonym for the First Great Awakening, with no meaningful distinction.",
+        "A political movement demanding independence from Britain."
+      ],
+      "correct": 1,
+      "explanation": "The Second Great Awakening was a wave of evangelical Protestant religious revival sweeping the United States in the early-to-mid 1800s, emphasizing individual salvation and moral improvement."
+    },
+    {
+      "id": "4-26",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "How does the Second Great Awakening differ from the First Great Awakening in terms of timing?",
+      "choices": [
+        "The Second Great Awakening occurred before the First Great Awakening.",
+        "Both occurred during the exact same decades.",
+        "The First Great Awakening occurred in the 1730s–40s (Period 2); the Second Great Awakening occurred in the early-to-mid 1800s (Period 4).",
+        "There is no meaningful timing distinction between the two."
+      ],
+      "correct": 2,
+      "explanation": "The First Great Awakening occurred in the 1730s–40s during Period 2, while the Second Great Awakening occurred roughly a century later, in the early-to-mid 1800s during Period 4 — two distinct revival movements."
+    },
+    {
+      "id": "4-27",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "What theological emphasis distinguished the Second Great Awakening and directly fueled social reform movements?",
+      "choices": [
+        "A rejection of all forms of religious practice.",
+        "An exclusive focus on ritual over personal conviction.",
+        "A belief that individuals and society itself could be actively perfected through committed moral effort.",
+        "A belief that society could not be changed by human effort."
+      ],
+      "correct": 2,
+      "explanation": "The Second Great Awakening's theology emphasized that individuals AND society itself could be actively perfected through committed moral effort — a belief that directly fueled the era's social reform movements."
+    },
+    {
+      "id": "4-28",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "Which reform movement is directly connected to the Second Great Awakening's theology in this section?",
+      "choices": [
+        "The Louisiana Purchase",
+        "The Indian Removal Act",
+        "The Federalist Party's formation",
+        "The abolitionist movement"
+      ],
+      "correct": 3,
+      "explanation": "The abolitionist movement is directly connected to the Second Great Awakening's theology — abolitionists drew on the belief that slavery was a moral sin society had a religious obligation to actively eliminate."
+    },
+    {
+      "id": "4-29",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "What significant event, occurring near the end of this period, is associated with the emerging women's rights movement?",
+      "choices": [
+        "The Missouri Compromise",
+        "The Seneca Falls Convention (1848)",
+        "The Hartford Convention",
+        "The Constitutional Convention"
+      ],
+      "correct": 1,
+      "explanation": "The Seneca Falls Convention (1848), occurring near this period's end, is a landmark event associated with the emerging women's rights movement, connected to the broader wave of reform fueled by the Second Great Awakening."
+    },
+    {
+      "id": "4-30",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "Which reform movement, alongside abolitionism, is specifically named as connected to the Second Great Awakening's influence?",
+      "choices": [
+        "The spoils system",
+        "The Bank War",
+        "Manifest Destiny",
+        "The temperance movement"
+      ],
+      "correct": 3,
+      "explanation": "The temperance movement (opposing alcohol consumption) is specifically named alongside abolitionism as a reform movement fueled by the Second Great Awakening's emphasis on moral improvement."
+    },
+    {
+      "id": "4-31",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "A question asks about the religious movement connected to antebellum reform movements like abolitionism and temperance. Which specific movement should you name?",
+      "choices": [
+        "The First Great Awakening",
+        "The Second Great Awakening specifically",
+        "Neither Great Awakening is relevant to this question",
+        "The Protestant Reformation"
+      ],
+      "correct": 1,
+      "explanation": "The Second Great Awakening specifically — not the First — is the religious movement connected to antebellum reform movements like abolitionism and temperance, a frequently tested distinction on this exam."
+    },
+    {
+      "id": "4-32",
+      "topic": "4.4 Second Great Awakening",
+      "stem": "Why did the Second Great Awakening's theology provide abolitionists with a particularly powerful vocabulary for their cause?",
+      "choices": [
+        "It had no relationship to moral or religious argument of any kind.",
+        "It framed slavery specifically as a moral sin that a genuinely Christian society had a religious obligation to actively eliminate, not merely tolerate.",
+        "It explicitly endorsed slavery as morally acceptable.",
+        "It provided no meaningful vocabulary or motivation for abolitionists."
+      ],
+      "correct": 1,
+      "explanation": "The Second Great Awakening's theology framed slavery specifically as a moral sin that a genuinely Christian society had a religious obligation to actively eliminate — providing abolitionists with a powerful religious vocabulary and motivating conviction."
+    },
+    {
+      "id": "4-33",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "What specific change expanded suffrage during the Jacksonian era?",
+      "choices": [
+        "Extension of voting rights to enslaved people.",
+        "Removal of property ownership requirements for voting in most states, specifically among white men.",
+        "Extension of voting rights to Native Americans.",
+        "Extension of voting rights to women."
+      ],
+      "correct": 1,
+      "explanation": "The Jacksonian era saw the removal of property ownership requirements for voting in most states — but this expansion applied specifically and exclusively to white men."
+    },
+    {
+      "id": "4-34",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "Did Jacksonian-era suffrage expansion affect the political rights of women, enslaved people, free Black Americans, or Native Americans?",
+      "choices": [
+        "Yes, all of these groups gained significant new political rights during this era.",
+        "Yes, but only for Native Americans specifically.",
+        "No — the expansion applied specifically to white men, and in some states, free Black Americans' voting rights were actually formally narrowed during this same period.",
+        "No, because no suffrage expansion occurred at all during this era."
+      ],
+      "correct": 2,
+      "explanation": "Jacksonian-era suffrage expansion applied specifically to white men — it did not extend to women, enslaved people, free Black Americans, or Native Americans, and in some states, free Black Americans' voting rights were actually formally narrowed during this same period."
+    },
+    {
+      "id": "4-35",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "What was the 'spoils system'?",
+      "choices": [
+        "A system of rewarding political supporters with government jobs.",
+        "A tariff policy targeting British goods.",
+        "A synonym for judicial review.",
+        "A system for distributing western land to Native Americans."
+      ],
+      "correct": 0,
+      "explanation": "The spoils system was Jackson's practice of rewarding political supporters with government jobs, which he justified as rotating ordinary citizens through government service rather than entrenching a permanent political elite."
+    },
+    {
+      "id": "4-36",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "Why is it an incomplete answer to describe 'Jacksonian Democracy' simply as a straightforward expansion of American democracy?",
+      "choices": [
+        "This description is fully complete and accurate with no need for further qualification.",
+        "There is no meaningful distinction to draw between different groups' political rights during this era.",
+        "Jacksonian Democracy involved no expansion of any political rights whatsoever.",
+        "This description fails to specify that the expansion applied specifically to white men, while this same period saw continued or intensified restriction of rights for other groups."
+      ],
+      "correct": 3,
+      "explanation": "Describing 'Jacksonian Democracy' as simply a straightforward democratic expansion is incomplete because it fails to specify WHO the expansion actually included (white men specifically), while other groups faced continued or intensified restriction during this same period."
+    },
+    {
+      "id": "4-37",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "What justification did Jackson offer for the spoils system?",
+      "choices": [
+        "That it had no relationship to political participation at all.",
+        "That it would entrench a permanent political elite.",
+        "That it would reduce voter turnout.",
+        "That it rotated ordinary citizens through government service rather than entrenching a permanent political elite."
+      ],
+      "correct": 3,
+      "explanation": "Jackson justified the spoils system by arguing it rotated ordinary citizens through government service, rather than allowing a permanent, entrenched political elite to monopolize government positions."
+    },
+    {
+      "id": "4-38",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "During which years did Andrew Jackson serve as president?",
+      "choices": [
+        "1829–1837",
+        "1812–1815",
+        "1845–1849",
+        "1801–1809"
+      ],
+      "correct": 0,
+      "explanation": "Andrew Jackson served as president from 1829 to 1837, a period associated with expanded white male suffrage, the spoils system, Indian Removal, and the Bank War."
+    },
+    {
+      "id": "4-39",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "Which of the following would be the STRONGEST way to evaluate the claim that Jacksonian democracy represented universal democratic expansion?",
+      "choices": [
+        "Noting the genuine expansion of white male suffrage while also citing continued Native American displacement and expanding slavery as evidence the expansion was not universal.",
+        "Focusing exclusively on economic policy with no reference to suffrage or civil rights.",
+        "Ignoring the claim entirely as unanswerable.",
+        "Simply agreeing with the claim with no further analysis."
+      ],
+      "correct": 0,
+      "explanation": "The strongest evaluation holds both facts together: genuine expansion of white male suffrage AND continued/intensified restriction for other groups (Native American displacement, expanding slavery) — directly refuting the claim of truly universal democratic expansion."
+    },
+    {
+      "id": "4-40",
+      "topic": "4.5 Jacksonian Democracy",
+      "stem": "Which best completes this comparison: property requirement removal : expanded white male suffrage :: continued slavery and Indian Removal : ___?",
+      "choices": [
+        "Expanded rights for all Americans equally",
+        "A completely unrelated historical development",
+        "Evidence that no suffrage expansion occurred at all",
+        "Continued or intensified restriction for other groups during the same period"
+      ],
+      "correct": 3,
+      "explanation": "Continued or intensified restriction for other groups during the same period is the correct completion — directly illustrating this section's key point about the unevenness of Jacksonian-era democratic expansion."
+    },
+    {
+      "id": "4-41",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "What did the Indian Removal Act (1830) authorize?",
+      "choices": [
+        "A treaty with Britain regarding Native American land.",
+        "The extension of full citizenship to Native Americans.",
+        "The forced relocation of Native American nations from the Southeast to territory west of the Mississippi River.",
+        "The creation of the Second Bank of the United States."
+      ],
+      "correct": 2,
+      "explanation": "The Indian Removal Act (1830) authorized the forced relocation of Native American nations from the Southeast to designated territory west of the Mississippi River."
+    },
+    {
+      "id": "4-42",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "What did the Supreme Court rule in Worcester v. Georgia (1832)?",
+      "choices": [
+        "That Jackson had no authority as president.",
+        "That the Cherokee Nation was a sovereign nation not subject to Georgia's state law.",
+        "That Georgia had full authority over Cherokee land.",
+        "That the Indian Removal Act was constitutional."
+      ],
+      "correct": 1,
+      "explanation": "In Worcester v. Georgia (1832), the Supreme Court ruled in the Cherokee Nation's favor, affirming their status as a sovereign nation not subject to Georgia's state law."
+    },
+    {
+      "id": "4-43",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "How did Jackson respond to the Worcester v. Georgia ruling?",
+      "choices": [
+        "He had no involvement in this matter at all.",
+        "He fully enforced the ruling and protected Cherokee sovereignty.",
+        "He immediately resigned the presidency.",
+        "He refused to enforce the ruling, directly defying the Supreme Court and proceeding with removal anyway."
+      ],
+      "correct": 3,
+      "explanation": "Jackson refused to enforce the Worcester v. Georgia ruling, directly defying the Supreme Court and proceeding with Cherokee removal anyway — a significant instance of executive defiance of judicial authority."
+    },
+    {
+      "id": "4-44",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "When was the Cherokee Trail of Tears actually implemented, and under which president?",
+      "choices": [
+        "1848, under a president not yet in office during this period",
+        "1830, under Jackson",
+        "1838, under Van Buren",
+        "1776, under no president at all"
+      ],
+      "correct": 2,
+      "explanation": "The Trail of Tears was actually implemented in 1838, under Jackson's successor Martin Van Buren — though the underlying policy and legal groundwork were established during Jackson's own presidency."
+    },
+    {
+      "id": "4-45",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "What was Jackson's stated objection to the Second Bank of the United States?",
+      "choices": [
+        "That it was too small to be economically useful.",
+        "That it had no relationship to the national economy at all.",
+        "That it charged insufficient interest rates.",
+        "That it represented an unconstitutional concentration of economic power benefiting wealthy elites at the expense of ordinary Americans."
+      ],
+      "correct": 3,
+      "explanation": "Jackson viewed the Second Bank of the United States as an unconstitutional concentration of economic power benefiting wealthy elites at the expense of ordinary Americans, leading to his 'Bank War.'"
+    },
+    {
+      "id": "4-46",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "How did Jackson ultimately destroy the Second Bank of the United States?",
+      "choices": [
+        "Through a direct act of Congress with no presidential involvement.",
+        "The Second Bank was never actually destroyed.",
+        "By vetoing its recharter and withdrawing federal deposits.",
+        "Through a Supreme Court ruling declaring it unconstitutional."
+      ],
+      "correct": 2,
+      "explanation": "Jackson destroyed the Second Bank of the United States by vetoing its recharter and subsequently withdrawing federal deposits, effectively ending the institution."
+    },
+    {
+      "id": "4-47",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "What broader pattern do both Indian Removal and the Bank War illustrate about Jackson's presidency?",
+      "choices": [
+        "Jackson had no significant impact on the scope of presidential power.",
+        "Both events show Jackson consistently opposing any expansion of executive authority.",
+        "Jackson's willingness to use aggressive presidential power, including defying established institutions like the Supreme Court and the national bank, in the name of protecting what he characterized as ordinary Americans' interests.",
+        "Jackson consistently deferred to established institutions and the Supreme Court."
+      ],
+      "correct": 2,
+      "explanation": "Both Indian Removal (defying the Supreme Court) and the Bank War (destroying an established national institution) illustrate Jackson's broader pattern of using aggressive presidential power, even against established institutions, framed as protecting ordinary Americans' interests."
+    },
+    {
+      "id": "4-48",
+      "topic": "4.6 Indian Removal and Bank War",
+      "stem": "Why is the sequencing of the Indian Removal Act (1830) and the Trail of Tears (1838) important to get precisely right?",
+      "choices": [
+        "Both events occurred simultaneously in 1830.",
+        "The eight-year gap shows the policy's legal and political groundwork was established under Jackson, while actual implementation of the most infamous forced relocation occurred later, under Van Buren.",
+        "The Trail of Tears actually preceded the Indian Removal Act.",
+        "Sequencing has no importance for understanding this history."
+      ],
+      "correct": 1,
+      "explanation": "Getting this sequencing precisely right matters because it shows the policy and legal groundwork (including Jackson's defiance of Worcester v. Georgia) were established under Jackson, while the actual, most infamous implementation of forced relocation occurred later, under his successor Van Buren — an important chronological distinction."
+    },
+    {
+      "id": "4-49",
+      "topic": "4.7 Sectionalism",
+      "stem": "What did the Missouri Compromise (1820) establish?",
+      "choices": [
+        "The immediate abolition of slavery nationwide.",
+        "A permanent ban on any new states joining the Union.",
+        "Admission of Missouri as a slave state and Maine as a free state simultaneously, prohibiting slavery in Louisiana Purchase territory north of the 36°30' line.",
+        "The Indian Removal Act's specific terms."
+      ],
+      "correct": 2,
+      "explanation": "The Missouri Compromise (1820) admitted Missouri as a slave state and Maine as a free state simultaneously, while prohibiting slavery in the remaining Louisiana Purchase territory north of the 36°30' parallel line."
+    },
+    {
+      "id": "4-50",
+      "topic": "4.7 Sectionalism",
+      "stem": "Did the Missouri Compromise permanently resolve the question of slavery's expansion into new territory?",
+      "choices": [
+        "Yes, because no new territory was ever acquired after 1820.",
+        "No — it merely established a geographic line that would predictably become contested again as the nation continued expanding westward, temporarily deferring rather than permanently resolving the conflict.",
+        "No, because the compromise had no relationship to slavery whatsoever.",
+        "Yes, it permanently and completely resolved this question with no future conflict."
+      ],
+      "correct": 1,
+      "explanation": "The Missouri Compromise did not permanently resolve the slavery expansion question — it established a geographic line that would predictably face renewed pressure as the nation continued expanding westward, merely deferring rather than resolving the underlying conflict."
+    },
+    {
+      "id": "4-51",
+      "topic": "4.7 Sectionalism",
+      "stem": "What effect did Eli Whitney's cotton gin have on the institution of slavery in the American South?",
+      "choices": [
+        "It had no relationship to slavery's economic viability.",
+        "It economically entrenched slavery more deeply, since growing cotton demand required an ever-larger enslaved workforce.",
+        "It made slavery economically obsolete, leading to its decline.",
+        "It eliminated the need for cotton cultivation entirely."
+      ],
+      "correct": 1,
+      "explanation": "The cotton gin economically entrenched slavery more deeply, rather than making it obsolete — dramatically increasing cotton profitability and driving surging demand for enslaved labor across the Deep South."
+    },
+    {
+      "id": "4-52",
+      "topic": "4.7 Sectionalism",
+      "stem": "How did the cotton gin specifically increase cotton's profitability?",
+      "choices": [
+        "It dramatically increased the efficiency of processing short-staple cotton, which could be grown across a much larger geographic area than previous varieties.",
+        "It had no effect on cotton processing efficiency.",
+        "It only affected long-staple cotton, with no relevance to the broader Deep South.",
+        "It eliminated the need for any human labor in cotton production."
+      ],
+      "correct": 0,
+      "explanation": "The cotton gin dramatically increased the efficiency of processing short-staple cotton — a variety that could be grown across a much larger geographic area of the Deep South than the long-staple cotton previously cultivated, driving surging profitability and demand."
+    },
+    {
+      "id": "4-53",
+      "topic": "4.7 Sectionalism",
+      "stem": "How does the cotton gin's economic effect connect to Period 3's continuity/change content on slavery?",
+      "choices": [
+        "Period 3 and Period 4 cover completely unrelated historical periods with no possible connection.",
+        "There is no connection between these two units' content.",
+        "It directly extends Period 3's Section 3.8 observation that slavery persisted and became further entrenched in the South despite revolutionary liberty rhetoric, showing a specific economic mechanism (the cotton gin) driving this continued entrenchment.",
+        "The cotton gin caused the immediate abolition of slavery, contradicting Period 3's content."
+      ],
+      "correct": 2,
+      "explanation": "The cotton gin's economic effect directly extends Period 3's observation (Section 3.8) that slavery persisted and became further entrenched despite revolutionary rhetoric — Period 4 identifies the SPECIFIC economic mechanism (the cotton gin) driving this continued entrenchment forward in time."
+    },
+    {
+      "id": "4-54",
+      "topic": "4.7 Sectionalism",
+      "stem": "Why should a strong essay explicitly frame the Missouri Compromise as a temporary deferral rather than a permanent solution?",
+      "choices": [
+        "Because the compromise's geographic line was always going to face renewed pressure as the nation continued acquiring new western territory, a pressure that would eventually explode into later crises.",
+        "Because the compromise immediately and permanently ended all sectional conflict.",
+        "Because the Missouri Compromise had no relationship to slavery at all.",
+        "Because this framing is inaccurate and should be avoided."
+      ],
+      "correct": 0,
+      "explanation": "A strong essay frames the Missouri Compromise as a temporary deferral because its geographic line was always going to face renewed pressure as the nation continued acquiring new western territory — a pressure that predictably intensifies in later periods."
+    },
+    {
+      "id": "4-55",
+      "topic": "4.7 Sectionalism",
+      "stem": "What geographic line did the Missouri Compromise establish for prohibiting slavery in the remaining Louisiana Purchase territory?",
+      "choices": [
+        "The Appalachian Mountains",
+        "The Rocky Mountains",
+        "The 36°30' parallel",
+        "The Mississippi River"
+      ],
+      "correct": 2,
+      "explanation": "The Missouri Compromise established the 36°30' parallel line, prohibiting slavery in Louisiana Purchase territory north of this line."
+    },
+    {
+      "id": "4-56",
+      "topic": "4.7 Sectionalism",
+      "stem": "Approximately when was the cotton gin invented, relative to this unit's Period 4 timeframe?",
+      "choices": [
+        "In the middle of Period 4, around 1825",
+        "At the very end of Period 4, in 1848",
+        "During Period 1, well before this unit",
+        "Shortly before Period 4 begins, in 1793"
+      ],
+      "correct": 3,
+      "explanation": "The cotton gin was invented in 1793, shortly before Period 4 begins — its economic effects on slavery's entrenchment and expansion play out significantly during this period."
+    },
+    {
+      "id": "4-57",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "What was 'Manifest Destiny'?",
+      "choices": [
+        "A policy limiting westward expansion.",
+        "A synonym for the Missouri Compromise.",
+        "A specific legal treaty with Mexico.",
+        "The widely held belief that American westward expansion across the continent was divinely ordained and inevitable."
+      ],
+      "correct": 3,
+      "explanation": "Manifest Destiny was the widely held belief that American westward expansion across the North American continent was not merely desirable, but divinely ordained and inevitable."
+    },
+    {
+      "id": "4-58",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "Was Manifest Destiny a neutral, purely geographic description of westward movement?",
+      "choices": [
+        "No, because Manifest Destiny opposed all westward expansion.",
+        "Yes, it was simply a neutral factual description with no ideological content.",
+        "No — it was a specific ideological framework invoking claims of divine sanction and cultural/racial superiority to justify displacing existing populations and frame expansion as inevitable and righteous.",
+        "Yes, because it had no relationship to justifying any specific policy."
+      ],
+      "correct": 2,
+      "explanation": "Manifest Destiny was not a neutral description — it was a specific ideological framework invoking claims of divine sanction and cultural/racial superiority, used to justify displacing existing Native American and Mexican populations and framing continued expansion as inevitable and righteous."
+    },
+    {
+      "id": "4-59",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "What war did Manifest Destiny ideology help drive, resulting in a massive new U.S. territorial acquisition?",
+      "choices": [
+        "The Revolutionary War",
+        "The French and Indian War",
+        "The Mexican-American War (1846–1848)",
+        "The War of 1812"
+      ],
+      "correct": 2,
+      "explanation": "Manifest Destiny ideology helped drive the Mexican-American War (1846–1848), resulting in the United States acquiring a massive new territory known as the Mexican Cession."
+    },
+    {
+      "id": "4-60",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "What territorial acquisition resulted from the Mexican-American War?",
+      "choices": [
+        "The Gadsden Purchase exclusively",
+        "No territory was acquired from this war",
+        "The Mexican Cession",
+        "The Louisiana Purchase"
+      ],
+      "correct": 2,
+      "explanation": "The Mexican Cession resulted from the Mexican-American War (1846–1848), a massive new territorial acquisition that directly reopened sectional conflict over slavery's expansion."
+    },
+    {
+      "id": "4-61",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "How did Manifest Destiny's territorial acquisitions connect to the sectional conflict covered in Section 4.7?",
+      "choices": [
+        "There is no connection between westward expansion and sectional conflict.",
+        "Manifest Destiny permanently resolved all sectional conflict over slavery.",
+        "New territory acquired through Manifest Destiny-driven expansion immediately reopened, with fresh urgency, the unresolved question of slavery's expansion that the Missouri Compromise had only temporarily deferred.",
+        "New territory had no relationship to slavery whatsoever."
+      ],
+      "correct": 2,
+      "explanation": "New territory acquired through Manifest Destiny-driven expansion (like the Mexican Cession) immediately reopened, with fresh urgency, the unresolved question of slavery's expansion that the Missouri Compromise (Section 4.7) had only temporarily deferred — directly connecting these two sections."
+    },
+    {
+      "id": "4-62",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "Which 1845 event, driven partly by Manifest Destiny ideology, contributed to rising tensions with Mexico?",
+      "choices": [
+        "The annexation of Texas",
+        "The Hartford Convention",
+        "The Missouri Compromise",
+        "The Louisiana Purchase"
+      ],
+      "correct": 0,
+      "explanation": "The annexation of Texas (1845), driven partly by Manifest Destiny ideology, contributed to rising tensions with Mexico that would soon lead to the Mexican-American War."
+    },
+    {
+      "id": "4-63",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "Why does every new territory acquired through westward expansion require a 'fresh answer' to the slavery question, according to this section?",
+      "choices": [
+        "Because each new territory automatically became a free state with no debate required.",
+        "Because the nation had permanently resolved the slavery question and no further answer was ever needed.",
+        "Because the nation had never actually resolved the underlying question of slavery's expansion, only postponed it through temporary compromises like the Missouri Compromise, meaning each new territory reopened the same unresolved debate.",
+        "Because slavery was irrelevant to territorial expansion."
+      ],
+      "correct": 2,
+      "explanation": "Every new territory required a fresh answer because the nation had never actually resolved the underlying question of slavery's expansion — only postponed it through temporary compromises like the Missouri Compromise — meaning each new acquisition reopened the same fundamentally unresolved debate."
+    },
+    {
+      "id": "4-64",
+      "topic": "4.8 Manifest Destiny",
+      "stem": "Which of the following populations were displaced or subordinated as a direct consequence of Manifest Destiny-driven expansion?",
+      "choices": [
+        "No populations were affected by this expansion.",
+        "Only European immigrant populations.",
+        "Only populations in the original thirteen colonies.",
+        "Native American and Mexican populations already present in territory the United States sought to acquire."
+      ],
+      "correct": 3,
+      "explanation": "Manifest Destiny-driven expansion displaced or subordinated Native American and Mexican populations already present in territory the United States sought to acquire, a direct consequence of this ideology's practical application."
+    },
+    {
+      "id": "4-65",
+      "topic": "4.8 Manifest Destiny",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how Sections 4.1 (Louisiana Purchase), 4.7 (Missouri Compromise), and 4.8 (Manifest Destiny/Mexican Cession) together form a single, recurring pattern in which territorial acquisition repeatedly reopens the SAME unresolved constitutional and sectional questions, despite occurring decades apart.",
+      "choices": [
+        "Only the Missouri Compromise addressed any question related to slavery; the other two acquisitions were unrelated to this issue.",
+        "Each major territorial acquisition (Louisiana Purchase, then the Louisiana Purchase territory's slavery status addressed by the Missouri Compromise, then the Mexican Cession) repeatedly reopened the SAME two recurring questions — how much implied federal power is legitimate, and whether slavery should expand into new territory — showing these were not one-time crises but a recurring structural pattern triggered by the same underlying cause (territorial growth) throughout this entire period.",
+        "Territorial acquisition had no relationship to constitutional or sectional questions at any point in this unit.",
+        "These three territorial acquisitions are entirely unrelated events with no common pattern."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question rewards recognizing a genuinely recurring PATTERN across the unit: the Louisiana Purchase (Section 4.1) first raised the question of implied federal power over territorial acquisition; the same acquired territory's slavery status then required the Missouri Compromise (Section 4.7) to address; and the Mexican Cession (Section 4.8) reopened the identical unresolved slavery-expansion question yet again decades later. Recognizing that territorial growth ITSELF was the recurring underlying cause repeatedly triggering the same two fundamental unresolved questions — legitimate scope of federal power, and slavery's expansion — is a stronger, more sophisticated argument than treating each acquisition as an isolated event, and is exactly the kind of connective pattern-recognition a strong DBQ or LEQ response on this period should demonstrate."
+    }
   ],
-  5: [
-    { id: "5-1", topic: "5.1 Compromise of 1850", stem: "What did the Compromise of 1850 admit to the Union?", choices: ["Texas as a slave state", "California as a free state", "Kansas as a free state", "Missouri as a slave state"], correct: 1, explanation: "The Compromise of 1850 admitted California as a free state, one of several provisions engineered by Henry Clay and Stephen Douglas." },
-    { id: "5-2", topic: "5.1 Compromise of 1850", stem: "What is 'popular sovereignty,' as introduced in the Compromise of 1850?", choices: ["A fixed geographic line determining slavery's status.", "Letting each territory's own settlers vote on whether to permit slavery.", "A ban on slavery throughout all U.S. territories.", "A requirement that Congress alone decide slavery's status in every territory."], correct: 1, explanation: "Popular sovereignty let each territory's own settlers vote on whether to permit slavery, rather than Congress drawing a fixed geographic line as under the Missouri Compromise." },
-    { id: "5-3", topic: "5.1 Compromise of 1850", stem: "What did the strengthened Fugitive Slave Act, part of the Compromise of 1850, require?", choices: ["Southern states to free all enslaved people immediately.", "Citizens in free states to assist in capturing and returning escaped enslaved people.", "The complete abolition of slavery in Washington D.C.", "Free states to grant full citizenship to formerly enslaved people."], correct: 1, explanation: "The strengthened Fugitive Slave Act required citizens in free states to actively assist in capturing and returning escaped enslaved people, deeply antagonizing northern public opinion." },
-    { id: "5-4", topic: "5.1 Compromise of 1850", stem: "Why was popular sovereignty structurally more unstable than the Missouri Compromise's fixed geographic line?", choices: ["It had no meaningful structural difference from the Missouri Compromise.", "It turned slavery's status in each territory into an ongoing, contestable local political question, giving both pro- and anti-slavery activists direct incentive to flood into a territory to influence its vote.", "It automatically banned slavery in every territory with no local input.", "It required unanimous consent from all existing states before taking effect."], correct: 1, explanation: "Popular sovereignty turned slavery's status into an ongoing LOCAL political contest in each territory, giving both pro- and anti-slavery activists direct incentive to flood in to influence the vote — a structural instability the Missouri Compromise's fixed line didn't have." },
-    { id: "5-5", topic: "5.1 Compromise of 1850", stem: "Which element of the Compromise of 1850 is frequently underemphasized relative to California statehood, despite being one of its most immediately divisive provisions?", choices: ["The Wilmot Proviso", "The strengthened Fugitive Slave Act", "The Missouri Compromise line", "The Kansas-Nebraska Act"], correct: 1, explanation: "The strengthened Fugitive Slave Act is frequently underemphasized but was one of the Compromise's most immediately divisive elements, forcing northern citizens to actively participate in slavery's enforcement." },
-    { id: "5-6", topic: "5.1 Compromise of 1850", stem: "Did the Compromise of 1850 ban slavery itself in Washington D.C.?", choices: ["Yes, it fully abolished slavery in Washington D.C.", "No — it banned only the slave TRADE in Washington D.C., not slavery itself.", "No, it had no provisions relating to Washington D.C. at all.", "Yes, but only for a period of ten years."], correct: 1, explanation: "The Compromise of 1850 banned the slave trade (buying and selling enslaved people) in Washington D.C., but did not abolish slavery itself there." },
-    { id: "5-7", topic: "5.1 Compromise of 1850", stem: "Under popular sovereignty, how were Utah and New Mexico territories organized regarding slavery?", choices: ["Slavery was immediately and permanently banned in both territories.", "Each territory's settlers would vote on whether to permit slavery.", "Slavery was immediately and permanently permitted in both territories.", "Congress directly decided both territories' status with no local input."], correct: 1, explanation: "Utah and New Mexico territories were organized under popular sovereignty, meaning each territory's own settlers would vote on whether to permit slavery." },
-    { id: "5-8", topic: "5.1 Compromise of 1850", stem: "Who were the two political figures most associated with engineering the Compromise of 1850?", choices: ["Lincoln and Douglas", "Henry Clay and Stephen Douglas", "Jefferson and Madison", "Jackson and Van Buren"], correct: 1, explanation: "Henry Clay and Stephen Douglas were the two political figures most associated with engineering the Compromise of 1850." },
-    { id: "5-9", topic: "5.2 Kansas-Nebraska Act", stem: "What did the Kansas-Nebraska Act (1854) do to the Missouri Compromise line?", choices: ["Strengthened and extended it.", "Explicitly repealed it, applying popular sovereignty to Kansas and Nebraska territories instead.", "Had no relationship to the Missouri Compromise line.", "Made it permanent and unchangeable."], correct: 1, explanation: "The Kansas-Nebraska Act explicitly repealed the Missouri Compromise line, applying popular sovereignty instead to the Kansas and Nebraska territories — territory that should have been automatically free under the earlier line." },
-    { id: "5-10", topic: "5.2 Kansas-Nebraska Act", stem: "What was 'Bleeding Kansas'?", choices: ["A peaceful territorial election with no conflict.", "Violent conflict in Kansas Territory between pro-slavery and anti-slavery settlers who flooded in to influence the territory's vote.", "A Civil War battle fought in Kansas.", "A term unrelated to popular sovereignty."], correct: 1, explanation: "'Bleeding Kansas' describes the violent conflict in Kansas Territory between pro-slavery and anti-slavery settlers who flooded in specifically to influence the territory's popular sovereignty vote — a vivid, practical demonstration of this mechanism's instability." },
-    { id: "5-11", topic: "5.2 Kansas-Nebraska Act", stem: "What effect did the Kansas-Nebraska Act have on the Whig Party?", choices: ["It strengthened and unified the Whig Party.", "It shattered the Whig Party, which could not hold together its northern anti-slavery-expansion faction and its southern pro-slavery faction.", "It had no effect on the Whig Party at all.", "It transformed the Whig Party into the Democratic Party."], correct: 1, explanation: "Northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line shattered the Whig Party, which could not hold together its fractured northern and southern factions." },
-    { id: "5-12", topic: "5.2 Kansas-Nebraska Act", stem: "What new political party emerged from the Whig Party's collapse, founded in 1854?", choices: ["The Democratic Party", "The Republican Party", "The Federalist Party", "The Know-Nothing Party as the sole successor"], correct: 1, explanation: "The Republican Party emerged from the Whig Party's collapse in 1854, organized specifically around opposing slavery's expansion into western territories." },
-    { id: "5-13", topic: "5.2 Kansas-Nebraska Act", stem: "Was the early Republican Party founded as an abolitionist party seeking slavery's immediate nationwide end?", choices: ["Yes, the Republican Party's founding platform sought immediate nationwide abolition.", "No — its founding platform specifically opposed slavery's EXPANSION into new western territories, a narrower position than full abolitionism.", "Yes, because the Republican Party had no relationship to slavery at all.", "No, because the Republican Party actually supported slavery's expansion."], correct: 1, explanation: "The early Republican Party's founding platform specifically opposed slavery's expansion into new western territories — a genuinely narrower position than full, immediate nationwide abolitionism." },
-    { id: "5-14", topic: "5.2 Kansas-Nebraska Act", stem: "Trace the causal chain: Kansas-Nebraska Act → ___ → Whig Party collapse → Republican Party founding.", choices: ["Southern celebration and unified national support", "Northern outrage over the repeal of the Missouri Compromise line", "Immediate national abolition of slavery", "No intermediate step exists in this causal chain"], correct: 1, explanation: "The correct intermediate step is northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line, which fractured the Whig Party and led to the Republican Party's founding." },
-    { id: "5-15", topic: "5.2 Kansas-Nebraska Act", stem: "What did the Kansas-Nebraska Act demonstrate in practice about popular sovereignty, previewed conceptually in Section 5.1?", choices: ["That popular sovereignty was a stable, uncontroversial mechanism.", "That popular sovereignty's structural instability (incentivizing activists to flood into a territory) could produce actual, sustained violent conflict, not just theoretical volatility.", "That popular sovereignty had no relationship to the Missouri Compromise.", "That Congress alone should always decide slavery's territorial status."], correct: 1, explanation: "'Bleeding Kansas' demonstrated in practice that popular sovereignty's structural instability, previewed conceptually in Section 5.1, could produce actual, sustained violent conflict — not merely a theoretical concern." },
-    { id: "5-16", topic: "5.2 Kansas-Nebraska Act", stem: "What new, more explicitly sectional political party divide replaced the old Whig-Democrat system following the Kansas-Nebraska Act?", choices: ["Federalist-Republican", "Republican-Democrat", "Whig-Federalist", "No new party divide emerged"], correct: 1, explanation: "A new Republican-Democrat party divide, more explicitly organized along sectional lines, replaced the old Whig-Democrat party system following the Kansas-Nebraska Act's fallout." },
-    { id: "5-17", topic: "5.3 Dred Scott and 1860", stem: "What did the Supreme Court rule in Dred Scott v. Sandford (1857) regarding enslaved people's citizenship status?", choices: ["That enslaved people were full U.S. citizens with standing to sue.", "That enslaved people and even free Black Americans were not U.S. citizens and had no standing to sue in federal court.", "That the case had no relationship to citizenship at all.", "That only enslaved people, not free Black Americans, lacked citizenship."], correct: 1, explanation: "Dred Scott v. Sandston (1857) ruled that enslaved people, and even free Black Americans, were not U.S. citizens and therefore had no standing to sue in federal court." },
-    { id: "5-18", topic: "5.3 Dred Scott and 1860", stem: "What did Dred Scott rule regarding Congress's power to restrict slavery in the territories?", choices: ["That Congress had unlimited power to restrict slavery anywhere.", "That Congress had NO constitutional power to prohibit slavery in the territories at all.", "That only the Supreme Court, not Congress, could decide slavery's territorial status.", "The ruling had no relationship to congressional power over slavery."], correct: 1, explanation: "Dred Scott ruled that Congress had NO constitutional power to prohibit slavery in the territories — effectively invalidating the Missouri Compromise's core mechanism even retroactively, and undermining popular sovereignty's legitimacy as well." },
-    { id: "5-19", topic: "5.3 Dred Scott and 1860", stem: "Why is it insufficient to describe Dred Scott as merely affecting one individual's legal status?", choices: ["This description is fully sufficient and complete.", "The ruling's true significance was constitutional and national — invalidating the entire legal framework prior compromises had relied on to restrict slavery's expansion.", "Dred Scott had no significance beyond the individual case.", "The ruling only applied to a single specific territory, not the nation as a whole."], correct: 1, explanation: "Dred Scott's true significance was constitutional and national — by ruling Congress had no power to restrict slavery in any territory, it effectively invalidated the entire prior legal framework for limiting slavery's expansion, radicalizing northern opinion far beyond the individual case." },
-    { id: "5-20", topic: "5.3 Dred Scott and 1860", stem: "How did the Democratic Party's position change by the Election of 1860?", choices: ["The party remained fully unified with no sectional division.", "The party split along sectional lines, with northern and southern Democrats nominating different candidates.", "The party merged with the Republican Party.", "The party ceased to exist entirely before 1860."], correct: 1, explanation: "By 1860, the Democratic Party had split along sectional lines, with northern and southern Democrats nominating different candidates — a significant factor in Lincoln's ultimate victory." },
-    { id: "5-21", topic: "5.3 Dred Scott and 1860", stem: "How did southern states interpret Lincoln's 1860 electoral victory, given his almost complete lack of southern electoral support?", choices: ["As proof the political system still adequately protected southern interests.", "As proof that the political system could no longer protect their interests through ordinary electoral means, directly triggering secession.", "As an irrelevant, minor political development.", "As a victory southern states widely celebrated and supported."], correct: 1, explanation: "Southern states interpreted Lincoln's victory, achieved with almost no southern electoral support, as proof the political system could no longer protect their interests through ordinary electoral means — directly triggering the wave of secession that began even before his inauguration." },
-    { id: "5-22", topic: "5.3 Dred Scott and 1860", stem: "Which of the following best summarizes the escalating sequence from the Compromise of 1850 through the Election of 1860?", choices: ["A steady, uninterrupted march toward peaceful sectional reconciliation.", "A repeated pattern of attempted compromise (1850, Kansas-Nebraska) followed by escalating crisis (Bleeding Kansas, Dred Scott), culminating in the political breaking point of the 1860 election and subsequent secession.", "A series of entirely unrelated, coincidental events with no connecting pattern.", "An immediate jump from the Missouri Compromise directly to secession, with no intermediate events."], correct: 1, explanation: "This period shows a repeated pattern of attempted compromise (1850, Kansas-Nebraska) followed by escalating crisis (Bleeding Kansas, Dred Scott's radicalizing effect), culminating in the 1860 election as the final political breaking point and triggering secession — a coherent escalating pattern, not isolated events." },
-    { id: "5-23", topic: "5.3 Dred Scott and 1860", stem: "Which party did Abraham Lincoln represent in the 1860 election?", choices: ["The Democratic Party", "The Republican Party", "The Whig Party", "The Federalist Party"], correct: 1, explanation: "Abraham Lincoln represented the Republican Party in the 1860 election, a party explicitly opposed to slavery's expansion into western territories." },
-    { id: "5-24", topic: "5.3 Dred Scott and 1860", stem: "Did Dred Scott resolve the underlying sectional dispute over slavery's territorial expansion?", choices: ["Yes, it fully and permanently resolved the dispute with no further conflict.", "No — it inflamed rather than resolved the dispute, since it appeared to open all territories to slavery with no remaining legal check.", "Yes, but only temporarily for a period of five years.", "No, because Dred Scott had no relationship to slavery's territorial expansion."], correct: 1, explanation: "Dred Scott inflamed rather than resolved the underlying dispute — its ruling appeared to open all territories to slavery with no remaining legal check, radicalizing northern opinion rather than settling the conflict." },
-    { id: "5-25", topic: "5.4 Civil War Causes and Strategy", stem: "What does this exam treat as the central, underlying cause of the Civil War?", choices: ["An abstract states' rights principle unrelated to any specific policy.", "Slavery — the specific 'state right' at the center of secession was explicitly the right to maintain and expand slavery.", "A dispute over tariff policy exclusively.", "A dispute over the location of the national capital."], correct: 1, explanation: "This exam treats slavery as the central, underlying cause of the Civil War — the specific 'state right' at the center of secession was explicitly and repeatedly the right to maintain and expand slavery, as southern states' own secession declarations stated." },
-    { id: "5-26", topic: "5.4 Civil War Causes and Strategy", stem: "Which of the following was a Union strategic advantage at the outset of the Civil War?", choices: ["Fighting a defensive war on familiar territory.", "Larger population and greater industrial capacity.", "Initially superior military leadership in several key engagements.", "Strong motivation defending home territory directly."], correct: 1, explanation: "Larger population and greater industrial capacity were significant Union strategic advantages, alongside a more extensive railroad network and naval superiority." },
-    { id: "5-27", topic: "5.4 Civil War Causes and Strategy", stem: "Which of the following was a Confederate strategic advantage at the outset of the Civil War?", choices: ["Naval superiority", "Fighting primarily a defensive war on familiar home territory", "Greater industrial capacity", "A more extensive railroad network"], correct: 1, explanation: "Fighting primarily a defensive war on familiar home territory was a significant Confederate strategic advantage, alongside initially superior military leadership in several key early engagements." },
-    { id: "5-28", topic: "5.4 Civil War Causes and Strategy", stem: "What did the Union victory at Gettysburg (July 1863) accomplish strategically?", choices: ["It gave the Union control of the Mississippi River.", "It ended Lee's invasion of the North, eliminating Confederate hopes of a decisive victory on northern soil.", "It ended the war immediately.", "It had no strategic significance."], correct: 1, explanation: "Gettysburg ended General Lee's invasion of the North, eliminating Confederate hopes of a decisive victory on northern soil that might have pressured the Union toward a negotiated peace." },
-    { id: "5-29", topic: "5.4 Civil War Causes and Strategy", stem: "What did the Union victory at Vicksburg (July 1863) accomplish strategically?", choices: ["It ended Lee's invasion of the North.", "It gave the Union full control of the Mississippi River, splitting the Confederacy in two.", "It had no strategic significance.", "It resulted in immediate Confederate surrender."], correct: 1, explanation: "Vicksburg gave the Union full control of the Mississippi River, splitting the Confederacy in two and severing a crucial supply and communication link between its eastern and western portions." },
-    { id: "5-30", topic: "5.4 Civil War Causes and Strategy", stem: "Why are Gettysburg and Vicksburg jointly considered the war's turning point, despite occurring in different theaters?", choices: ["They have no meaningful joint significance.", "They occurred almost simultaneously in different theaters, together eliminating the Confederacy's best remaining strategic options at once and shifting overall war momentum toward the Union.", "Only Gettysburg had any strategic significance; Vicksburg was unimportant.", "Only Vicksburg had any strategic significance; Gettysburg was unimportant."], correct: 1, explanation: "Gettysburg and Vicksburg, occurring almost simultaneously in different theaters, together eliminated the Confederacy's best remaining strategic options in two different theaters at once, jointly shifting overall war momentum decisively toward the Union." },
-    { id: "5-31", topic: "5.4 Civil War Causes and Strategy", stem: "A student argues the Civil War was fundamentally about an abstract 'states' rights' principle disconnected from slavery specifically. Evaluate this argument.", choices: ["This argument is fully accurate with no need for qualification.", "This argument is incomplete — southern states' own secession declarations explicitly named slavery as the specific right at stake, not an abstract, unrelated principle.", "This argument is accurate, but only for the war's first year.", "This argument cannot be evaluated using any historical evidence."], correct: 1, explanation: "This argument is incomplete — southern states' own secession declarations explicitly and repeatedly named slavery specifically as the right at stake, directly contradicting a characterization of 'states' rights' as an abstract principle disconnected from that specific institution." },
-    { id: "5-32", topic: "5.4 Civil War Causes and Strategy", stem: "What naval advantage did the Union hold over the Confederacy?", choices: ["The Union had no naval advantage of any kind.", "Naval superiority, enabling a blockade of southern ports.", "The Confederacy had superior naval power throughout the war.", "Naval power played no role in the Civil War."], correct: 1, explanation: "Union naval superiority enabled a blockade of southern ports, restricting Confederate trade and supply access throughout the war — a significant Union strategic advantage." },
-    { id: "5-33", topic: "5.5 Emancipation", stem: "When was the Emancipation Proclamation issued, and following what battle?", choices: ["January 1863, following the Battle of Antietam (September 1862)", "1776, following the Battle of Saratoga", "1865, following the war's complete end", "1850, following the Compromise of 1850"], correct: 0, explanation: "The Emancipation Proclamation was issued in January 1863, following the Union's tactical victory at Antietam in September 1862, which gave Lincoln the political standing to issue it." },
-    { id: "5-34", topic: "5.5 Emancipation", stem: "Did the Emancipation Proclamation free enslaved people in loyal border states like Maryland and Kentucky?", choices: ["Yes, it freed enslaved people in every U.S. state and territory.", "No — it applied specifically to states in rebellion, explicitly excluding loyal border states.", "Yes, but only in Kentucky specifically.", "No, because the Proclamation freed no enslaved people anywhere."], correct: 1, explanation: "The Emancipation Proclamation applied specifically to states currently in rebellion against the Union — it did NOT free enslaved people in loyal border states like Maryland and Kentucky." },
-    { id: "5-35", topic: "5.5 Emancipation", stem: "Why did Lincoln exclude loyal border states from the Emancipation Proclamation's scope?", choices: ["He had no reason and simply forgot to include them.", "He lacked clear constitutional authority to abolish slavery in states not in rebellion, and worried about pushing loyal border states toward secession.", "Loyal border states had already abolished slavery independently.", "The Proclamation was never actually intended to address slavery at all."], correct: 1, explanation: "Lincoln excluded loyal border states because he lacked clear constitutional authority to abolish slavery in states not in rebellion, and worried that including them could push these loyal states toward secession." },
-    { id: "5-36", topic: "5.5 Emancipation", stem: "What later constitutional amendment achieved full, nationwide abolition of slavery, distinct from the Emancipation Proclamation's limited scope?", choices: ["The Fourteenth Amendment", "The Thirteenth Amendment", "The Fifteenth Amendment", "The Nineteenth Amendment"], correct: 1, explanation: "The Thirteenth Amendment (ratified 1865, after the war's end) achieved full, nationwide abolition of slavery — a distinct and later development from the Emancipation Proclamation's more limited wartime scope." },
-    { id: "5-37", topic: "5.5 Emancipation", stem: "Beyond its legal scope, what significant PRACTICAL effect did the Emancipation Proclamation have on the Union war effort?", choices: ["It had no practical effect of any kind.", "It authorized Black men to enlist in the Union Army, adding a substantial new source of manpower.", "It ended the war immediately.", "It reduced the Union Army's total manpower."], correct: 1, explanation: "The Emancipation Proclamation authorized Black men to enlist in the Union Army, adding a substantial new source of manpower — a significant practical effect beyond its more limited legal scope." },
-    { id: "5-38", topic: "5.5 Emancipation", stem: "How did the Emancipation Proclamation change the war's purpose?", choices: ["It had no effect on the war's purpose.", "It transformed the war's purpose from purely preserving the Union into also ending slavery.", "It ended the war's connection to preserving the Union entirely.", "It made ending slavery the war's ONLY purpose, eliminating the Union preservation goal."], correct: 1, explanation: "The Emancipation Proclamation transformed the war's purpose from purely preserving the Union into ALSO ending slavery — adding, not replacing, the war's original preservation goal." },
-    { id: "5-39", topic: "5.5 Emancipation", stem: "A student claims the Emancipation Proclamation immediately freed all enslaved people throughout the United States. Evaluate this claim.", choices: ["This claim is fully accurate.", "This claim is inaccurate — the Proclamation applied only to states in rebellion, explicitly excluding loyal border states; full nationwide abolition required the later Thirteenth Amendment.", "This claim is accurate, but only for the year 1863 specifically.", "This claim cannot be evaluated using any historical evidence."], correct: 1, explanation: "This claim is inaccurate — a frequently tested misconception. The Proclamation applied only to states in rebellion, explicitly excluding loyal border states; full nationwide abolition required the separate, later Thirteenth Amendment (1865)." },
-    { id: "5-40", topic: "5.5 Emancipation", stem: "Why did Lincoln wait for a Union battlefield victory before issuing the Emancipation Proclamation, rather than issuing it immediately after drafting it?", choices: ["He had no strategic reason for the delay.", "He wanted to issue it from a position of relative strength rather than apparent desperation following a string of Union military setbacks.", "He was legally prohibited from issuing it before a specific date.", "He was waiting for congressional approval, which was never granted."], correct: 1, explanation: "Lincoln waited for a Union battlefield victory (Antietam) so the Proclamation would appear as a position of strength rather than a desperate gesture following a string of Union military setbacks — a deliberate strategic timing decision." },
-    { id: "5-41", topic: "5.6 Presidential Reconstruction", stem: "What was Lincoln's Ten Percent Plan?", choices: ["A plan requiring 90% of a state's population to take a loyalty oath before readmission.", "An early, relatively lenient Reconstruction plan for readmitting former Confederate states to the Union.", "A plan increasing tariffs by ten percent.", "A plan unrelated to Reconstruction."], correct: 1, explanation: "Lincoln's Ten Percent Plan was an early, relatively lenient Reconstruction plan envisioning a comparatively easy path back to the Union for former Confederate states." },
-    { id: "5-42", topic: "5.6 Presidential Reconstruction", stem: "How did Andrew Johnson's approach to Reconstruction compare to Lincoln's?", choices: ["Johnson's approach was significantly more strict and punitive than Lincoln's.", "Johnson's approach was even more lenient than Lincoln's, readmitting southern states with minimal requirements and offering broad pardons.", "Johnson and Lincoln pursued identical Reconstruction policies with no meaningful difference.", "Johnson had no involvement in Reconstruction policy at all."], correct: 1, explanation: "Johnson's approach to Reconstruction was even more lenient than Lincoln's, quickly readmitting southern states with minimal requirements and offering broad pardons to former Confederates." },
-    { id: "5-43", topic: "5.6 Presidential Reconstruction", stem: "What were Black Codes?", choices: ["Laws granting formerly enslaved people full citizenship rights.", "Laws passed by southern states severely restricting freed people's rights regarding labor contracts, movement, and other basic freedoms.", "Federal laws protecting Black voting rights.", "A synonym for the Freedmen's Bureau."], correct: 1, explanation: "Black Codes were laws passed by southern states under Johnson's lenient Reconstruction policy, severely restricting freed people's rights regarding labor contracts, movement, and other basic freedoms." },
-    { id: "5-44", topic: "5.6 Presidential Reconstruction", stem: "How did Black Codes provoke congressional Republican backlash against Johnson's approach?", choices: ["Black Codes had no effect on congressional opinion.", "Black Codes appeared to Republicans as an attempt to recreate slavery's essential conditions in all but name, convincing them Johnson's lenient approach was allowing the South to evade the war's outcome.", "Congress fully supported Black Codes with no objection.", "Black Codes were enacted by Congress itself, not southern states."], correct: 1, explanation: "Black Codes appeared to congressional Republicans as an attempt to recreate slavery's essential conditions in all but name — directly convincing them that Johnson's lenient approach was allowing the South to evade the war's fundamental outcome." },
-    { id: "5-45", topic: "5.6 Presidential Reconstruction", stem: "Is it accurate to treat Lincoln's and Johnson's Reconstruction approaches as identical?", choices: ["Yes, both presidents pursued exactly identical Reconstruction policies.", "No — while both were relatively lenient compared to what followed, Johnson's approach was notably more lenient and included essentially no meaningful protection for freed people's rights.", "Yes, because Johnson simply continued Lincoln's exact plan with no changes.", "No, because Lincoln's approach was actually harsher than Johnson's."], correct: 1, explanation: "It is not accurate to treat these approaches as identical — while both were relatively lenient, Johnson's was notably more lenient and included essentially no meaningful protection for freed people's rights, a specific and significant difference." },
-    { id: "5-46", topic: "5.6 Presidential Reconstruction", stem: "What did congressional Republican backlash against Johnson's Reconstruction approach directly set up?", choices: ["A complete end to any Reconstruction policy.", "The shift toward Radical Reconstruction, with Congress seizing control of Reconstruction policy from the president.", "Johnson's immediate re-election.", "The Emancipation Proclamation's issuance."], correct: 1, explanation: "Congressional Republican backlash against Johnson's leniency and southern Black Codes directly set up the shift toward Radical Reconstruction, with Congress seizing control of Reconstruction policy from the president." },
-    { id: "5-47", topic: "5.6 Presidential Reconstruction", stem: "Under Johnson's Reconstruction approach, what protection did formerly enslaved people generally receive?", choices: ["Extensive, well-enforced federal protection of their basic rights.", "Essentially no meaningful protection, allowing southern states to pass restrictive Black Codes largely unchecked.", "Complete political equality with full voting rights guaranteed immediately.", "Protection identical to what Radical Reconstruction would later provide."], correct: 1, explanation: "Under Johnson's lenient approach, formerly enslaved people received essentially no meaningful federal protection, allowing southern states to pass restrictive Black Codes largely unchecked — a key factor provoking later congressional intervention." },
-    { id: "5-48", topic: "5.6 Presidential Reconstruction", stem: "Why is 'Presidential Reconstruction' (Lincoln and Johnson) generally described as more lenient than what follows in Section 5.7?", choices: ["Presidential Reconstruction was actually harsher than what followed.", "Both Lincoln's and Johnson's approaches favored a relatively easy path back to the Union for former Confederate states, with limited federal protection for freed people, compared to the more assertive federal intervention of Radical Reconstruction.", "There is no meaningful difference between Presidential and Radical Reconstruction.", "Presidential Reconstruction included military occupation of the South, unlike Radical Reconstruction."], correct: 1, explanation: "Both Lincoln's and Johnson's approaches favored a relatively easy path back to the Union with limited federal protection for freed people, in contrast to the more assertive federal intervention (military districts, constitutional amendments) of Radical Reconstruction covered next." },
-    { id: "5-49", topic: "5.7 Radical Reconstruction", stem: "What did the Thirteenth Amendment (1865) establish?", choices: ["Citizenship for all persons born in the United States.", "Abolition of slavery nationwide.", "Prohibition of denying voting rights based on race.", "Military districts throughout the South."], correct: 1, explanation: "The Thirteenth Amendment (1865) established the abolition of slavery nationwide, the first of the three Reconstruction-era constitutional amendments." },
-    { id: "5-50", topic: "5.7 Radical Reconstruction", stem: "What did the Fourteenth Amendment (1868) establish?", choices: ["Abolition of slavery nationwide.", "Citizenship for all persons born in the United States and equal protection under the law.", "Prohibition of denying voting rights based on race.", "The Reconstruction Acts' military district system."], correct: 1, explanation: "The Fourteenth Amendment (1868) established citizenship for all persons born in the United States (including formerly enslaved people) and guaranteed equal protection under the law." },
-    { id: "5-51", topic: "5.7 Radical Reconstruction", stem: "What did the Fifteenth Amendment (1870) establish?", choices: ["Abolition of slavery nationwide.", "Citizenship for all persons born in the United States.", "Prohibition of denying the right to vote based on race, color, or previous condition of servitude.", "Women's suffrage nationwide."], correct: 2, explanation: "The Fifteenth Amendment (1870) prohibited denying the right to vote based on race, color, or previous condition of servitude — the third of the three Reconstruction-era amendments." },
-    { id: "5-52", topic: "5.7 Radical Reconstruction", stem: "Why did these three amendments need to be passed in this specific sequence (13th, then 14th, then 15th)?", choices: ["The sequence was arbitrary with no logical connection.", "Each amendment answered a progressively more specific question building on the one before: abolition first, then citizenship/legal protection, then voting rights.", "The amendments could have been passed in any order with no difference in effect.", "Only the order of passage mattered, not the content of each amendment."], correct: 1, explanation: "Each amendment answered a progressively more specific question building directly on the one before it — first abolishing slavery, then establishing citizenship and legal protection, then securing voting rights — a logical sequence, not an arbitrary order." },
-    { id: "5-53", topic: "5.7 Radical Reconstruction", stem: "What did the Reconstruction Acts establish regarding the former Confederacy?", choices: ["Complete, immediate self-governance with no federal oversight.", "Division of the former Confederacy into military districts under direct federal military oversight, with readmission conditioned on specific requirements.", "Permanent exclusion of southern states from the Union.", "No relationship to the South's governance structure."], correct: 1, explanation: "The Reconstruction Acts divided the former Confederacy into military districts under direct federal military oversight, with readmission to the Union conditioned on ratifying the Fourteenth Amendment and establishing new state constitutions guaranteeing Black male suffrage." },
-    { id: "5-54", topic: "5.7 Radical Reconstruction", stem: "What was the Freedmen's Bureau?", choices: ["A Confederate government agency.", "An agency providing formerly enslaved people direct assistance, including education, medical care, and help negotiating labor contracts.", "A military unit fighting for the Confederacy.", "A synonym for the Ku Klux Klan."], correct: 1, explanation: "The Freedmen's Bureau provided formerly enslaved people direct assistance, including education, medical care, and help negotiating labor contracts, during the Reconstruction era." },
-    { id: "5-55", topic: "5.7 Radical Reconstruction", stem: "Did Radical Reconstruction see genuine Black political participation, including elected office?", choices: ["No, Black Americans held no political office of any kind during this period.", "Yes — Black Americans were elected to southern state legislatures and to the U.S. Congress itself for the first time.", "Yes, but only at the local municipal level, never in state legislatures or Congress.", "No, because the Reconstruction Acts explicitly prohibited Black political participation."], correct: 1, explanation: "Radical Reconstruction saw genuine, historic Black political participation — Black Americans were elected to southern state legislatures and to the U.S. Congress itself for the first time, a significant historical achievement." },
-    { id: "5-56", topic: "5.7 Radical Reconstruction", stem: "Why is it important not to understate the significance of Black political participation during Radical Reconstruction, even though this achievement would later be reversed?", choices: ["This achievement should be dismissed entirely since it did not last permanently.", "It represented authentic, substantial political achievement in its own right, and a complete answer honors this genuine achievement while also explaining its eventual, forcible reversal.", "Black political participation during this period had no historical significance of any kind.", "The eventual reversal makes the original achievement historically meaningless."], correct: 1, explanation: "Black political participation during Radical Reconstruction represented authentic, substantial political achievement, even though it would tragically prove temporary — a complete, historically accurate answer honors this genuine achievement while also explaining its eventual reversal, rather than only emphasizing the reversal." },
-    { id: "5-57", topic: "5.8 End of Reconstruction", stem: "What was the Ku Klux Klan's role during Reconstruction?", choices: ["Providing federal protection for Black civil rights.", "Using terrorism and violence specifically to suppress Black political participation and intimidate Black communities and their white allies.", "Administering the Freedmen's Bureau.", "Enforcing the Reconstruction Acts on behalf of the federal government."], correct: 1, explanation: "The Ku Klux Klan used organized terrorism and violence specifically to suppress Black political participation and intimidate Black communities and their white allies throughout Reconstruction." },
-    { id: "5-58", topic: "5.8 End of Reconstruction", stem: "What did the Compromise of 1877 establish?", choices: ["Immediate full civil rights protection for all Black Americans permanently.", "Rutherford B. Hayes's presidency in exchange for withdrawing remaining federal troops from the South.", "A permanent extension of Radical Reconstruction.", "The Thirteenth Amendment's ratification."], correct: 1, explanation: "The Compromise of 1877 resolved the disputed 1876 presidential election by awarding the presidency to Republican Rutherford B. Hayes in exchange for withdrawing remaining federal troops from the South." },
-    { id: "5-59", topic: "5.8 End of Reconstruction", stem: "What was the practical effect of the Compromise of 1877 on federal enforcement of Black civil rights in the South?", choices: ["It strengthened federal enforcement significantly.", "It effectively ended federal enforcement of Black civil rights protections in the former Confederacy, clearing the way for Jim Crow segregation and disenfranchisement.", "It had no practical effect of any kind.", "It immediately extended federal enforcement for another twenty years."], correct: 1, explanation: "The Compromise of 1877 effectively ended federal enforcement of Black civil rights protections in the former Confederacy, clearing the way for the systematic legal disenfranchisement and segregation that dominates the opening of Period 6." },
-    { id: "5-60", topic: "5.8 End of Reconstruction", stem: "Is it accurate to describe Reconstruction's end as resulting from a single cause?", choices: ["Yes, only the Compromise of 1877 caused Reconstruction's end.", "No — a complete answer names both sustained organized violence (KKK terrorism) AND the specific 1877 political deal as jointly necessary parts of the explanation.", "Yes, only KKK violence caused Reconstruction's end, with no political component.", "No, because Reconstruction never actually ended."], correct: 1, explanation: "A complete explanation names BOTH sustained organized violence (KKK terrorism undermining practical enforcement throughout Reconstruction's existence) AND the specific 1877 political deal (delivering its final, formal political end) as jointly necessary parts of the explanation." },
-    { id: "5-61", topic: "5.8 End of Reconstruction", stem: "Evaluate the extent to which Reconstruction should be considered a complete failure.", choices: ["Reconstruction should be considered a complete, unqualified failure with no redeeming legacy.", "A complete evaluation distinguishes Reconstruction's short-term practical failure (undone by violence and the Compromise of 1877) from its longer-term constitutional legacy (the Thirteenth, Fourteenth, and Fifteenth Amendments, later used by the Civil Rights Movement).", "Reconstruction should be considered a complete, unqualified success with no failures.", "Reconstruction's legacy cannot be evaluated using any historical evidence."], correct: 1, explanation: "A complete, historically accurate evaluation distinguishes Reconstruction's short-term practical failure (its specific goals dismantled by violence and the 1877 Compromise) from its enduring, if long-delayed, constitutional legacy (the three amendments later used by the twentieth-century Civil Rights Movement) — avoiding a simple, one-sided verdict." },
-    { id: "5-62", topic: "5.8 End of Reconstruction", stem: "How did Reconstruction's constitutional amendments prove significant well beyond the Reconstruction era itself?", choices: ["They had no significance beyond the immediate Reconstruction period.", "They remained on the books and became the essential legal foundation the twentieth-century Civil Rights Movement would eventually use to dismantle segregation.", "They were fully repealed shortly after Reconstruction ended.", "They only applied during the specific years they were passed, with no lasting legal effect."], correct: 1, explanation: "The Reconstruction-era amendments remained on the books despite Reconstruction's practical political failure, becoming the essential legal foundation the twentieth-century Civil Rights Movement (Period 8) would eventually rely on to dismantle segregation." },
-    { id: "5-63", topic: "5.8 End of Reconstruction", stem: "What system of racial oppression did the end of Reconstruction clear the way for, dominating the opening of Period 6?", choices: ["Immediate full racial equality with no further restriction.", "Jim Crow segregation and systematic disenfranchisement.", "A return to formal, legal slavery.", "No system of racial oppression followed Reconstruction's end."], correct: 1, explanation: "The end of Reconstruction cleared the way for Jim Crow segregation and systematic legal disenfranchisement, a system of racial oppression that dominates the opening of Period 6." },
-    { id: "5-64", topic: "5.8 End of Reconstruction", stem: "Which year is associated with the political compromise that formally ended Reconstruction?", choices: ["1865", "1870", "1877", "1898"], correct: 2, explanation: "1877 is associated with the Compromise of 1877, the political deal that formally ended Reconstruction by trading the disputed presidency for federal troop withdrawal from the South." },
-    { id: "5-65", topic: "5.8 End of Reconstruction", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the SAME structural pattern — a genuine, significant advance for a marginalized group, followed by organized violent and political backlash that reverses much of that advance in practice while leaving some legal framework intact — appears in BOTH the story of Radical Reconstruction's Black political participation (Section 5.7) AND, in miniature, within the broader arc of this unit's failed slavery-expansion compromises (Sections 5.1–5.3).", choices: ["These two patterns have no meaningful structural similarity to draw upon.", "Both patterns show an initial genuine step forward (popular sovereignty as a flexible new mechanism; Black political achievement during Radical Reconstruction) followed by violent, destabilizing backlash (Bleeding Kansas; KKK terrorism and the Compromise of 1877) that undermined the practical achievement while leaving important legal/structural residue behind (the sectional party realignment; the enduring 13th/14th/15th Amendments) — a recurring structural rhythm of advance, violent backlash, and partial but lasting residue.", "Only Radical Reconstruction involved any backlash; the slavery-expansion compromises faced no comparable resistance.", "This unit contains no recurring structural patterns of any kind."], correct: 1, explanation: "This synthesis question rewards recognizing a genuinely recurring STRUCTURAL RHYTHM across seemingly different parts of the unit: an initial step intended as a stabilizing advance (popular sovereignty as new flexible mechanism; Black political participation as genuine achievement) is met with organized, often violent backlash (Bleeding Kansas; KKK terrorism and the 1877 Compromise) that undermines the immediate practical goal — but in both cases, something lasting survives the backlash (a transformed party system that eventually elects Lincoln; constitutional amendments that outlive Reconstruction's practical collapse). Recognizing this shared rhythm of advance-backlash-lasting-residue across genuinely different subject matter within the same unit is exactly the kind of higher-order synthesis a top-scoring LEQ or DBQ response should demonstrate." },
+  "5": [
+    {
+      "id": "5-1",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "What did the Compromise of 1850 admit to the Union?",
+      "choices": [
+        "Missouri as a slave state",
+        "Texas as a slave state",
+        "Kansas as a free state",
+        "California as a free state"
+      ],
+      "correct": 3,
+      "explanation": "The Compromise of 1850 admitted California as a free state, one of several provisions engineered by Henry Clay and Stephen Douglas."
+    },
+    {
+      "id": "5-2",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "What is 'popular sovereignty,' as introduced in the Compromise of 1850?",
+      "choices": [
+        "A requirement that Congress alone decide slavery's status in every territory.",
+        "A ban on slavery throughout all U.S. territories.",
+        "A fixed geographic line determining slavery's status.",
+        "Letting each territory's own settlers vote on whether to permit slavery."
+      ],
+      "correct": 3,
+      "explanation": "Popular sovereignty let each territory's own settlers vote on whether to permit slavery, rather than Congress drawing a fixed geographic line as under the Missouri Compromise."
+    },
+    {
+      "id": "5-3",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "What did the strengthened Fugitive Slave Act, part of the Compromise of 1850, require?",
+      "choices": [
+        "The complete abolition of slavery in Washington D.C.",
+        "Southern states to free all enslaved people immediately.",
+        "Citizens in free states to assist in capturing and returning escaped enslaved people.",
+        "Free states to grant full citizenship to formerly enslaved people."
+      ],
+      "correct": 2,
+      "explanation": "The strengthened Fugitive Slave Act required citizens in free states to actively assist in capturing and returning escaped enslaved people, deeply antagonizing northern public opinion."
+    },
+    {
+      "id": "5-4",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "Why was popular sovereignty structurally more unstable than the Missouri Compromise's fixed geographic line?",
+      "choices": [
+        "It turned slavery's status in each territory into an ongoing, contestable local political question, giving both pro- and anti-slavery activists direct incentive to flood into a territory to influence its vote.",
+        "It automatically banned slavery in every territory with no local input.",
+        "It had no meaningful structural difference from the Missouri Compromise.",
+        "It required unanimous consent from all existing states before taking effect."
+      ],
+      "correct": 0,
+      "explanation": "Popular sovereignty turned slavery's status into an ongoing LOCAL political contest in each territory, giving both pro- and anti-slavery activists direct incentive to flood in to influence the vote — a structural instability the Missouri Compromise's fixed line didn't have."
+    },
+    {
+      "id": "5-5",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "Which element of the Compromise of 1850 is frequently underemphasized relative to California statehood, despite being one of its most immediately divisive provisions?",
+      "choices": [
+        "The Missouri Compromise line",
+        "The Wilmot Proviso",
+        "The strengthened Fugitive Slave Act",
+        "The Kansas-Nebraska Act"
+      ],
+      "correct": 2,
+      "explanation": "The strengthened Fugitive Slave Act is frequently underemphasized but was one of the Compromise's most immediately divisive elements, forcing northern citizens to actively participate in slavery's enforcement."
+    },
+    {
+      "id": "5-6",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "Did the Compromise of 1850 ban slavery itself in Washington D.C.?",
+      "choices": [
+        "No — it banned only the slave TRADE in Washington D.C., not slavery itself.",
+        "No, it had no provisions relating to Washington D.C. at all.",
+        "Yes, it fully abolished slavery in Washington D.C.",
+        "Yes, but only for a period of ten years."
+      ],
+      "correct": 0,
+      "explanation": "The Compromise of 1850 banned the slave trade (buying and selling enslaved people) in Washington D.C., but did not abolish slavery itself there."
+    },
+    {
+      "id": "5-7",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "Under popular sovereignty, how were Utah and New Mexico territories organized regarding slavery?",
+      "choices": [
+        "Slavery was immediately and permanently permitted in both territories.",
+        "Congress directly decided both territories' status with no local input.",
+        "Slavery was immediately and permanently banned in both territories.",
+        "Each territory's settlers would vote on whether to permit slavery."
+      ],
+      "correct": 3,
+      "explanation": "Utah and New Mexico territories were organized under popular sovereignty, meaning each territory's own settlers would vote on whether to permit slavery."
+    },
+    {
+      "id": "5-8",
+      "topic": "5.1 Compromise of 1850",
+      "stem": "Who were the two political figures most associated with engineering the Compromise of 1850?",
+      "choices": [
+        "Jefferson and Madison",
+        "Jackson and Van Buren",
+        "Lincoln and Douglas",
+        "Henry Clay and Stephen Douglas"
+      ],
+      "correct": 3,
+      "explanation": "Henry Clay and Stephen Douglas were the two political figures most associated with engineering the Compromise of 1850."
+    },
+    {
+      "id": "5-9",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What did the Kansas-Nebraska Act (1854) do to the Missouri Compromise line?",
+      "choices": [
+        "Had no relationship to the Missouri Compromise line.",
+        "Strengthened and extended it.",
+        "Made it permanent and unchangeable.",
+        "Explicitly repealed it, applying popular sovereignty to Kansas and Nebraska territories instead."
+      ],
+      "correct": 3,
+      "explanation": "The Kansas-Nebraska Act explicitly repealed the Missouri Compromise line, applying popular sovereignty instead to the Kansas and Nebraska territories — territory that should have been automatically free under the earlier line."
+    },
+    {
+      "id": "5-10",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What was 'Bleeding Kansas'?",
+      "choices": [
+        "A Civil War battle fought in Kansas.",
+        "A peaceful territorial election with no conflict.",
+        "Violent conflict in Kansas Territory between pro-slavery and anti-slavery settlers who flooded in to influence the territory's vote.",
+        "A term unrelated to popular sovereignty."
+      ],
+      "correct": 2,
+      "explanation": "'Bleeding Kansas' describes the violent conflict in Kansas Territory between pro-slavery and anti-slavery settlers who flooded in specifically to influence the territory's popular sovereignty vote — a vivid, practical demonstration of this mechanism's instability."
+    },
+    {
+      "id": "5-11",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What effect did the Kansas-Nebraska Act have on the Whig Party?",
+      "choices": [
+        "It shattered the Whig Party, which could not hold together its northern anti-slavery-expansion faction and its southern pro-slavery faction.",
+        "It had no effect on the Whig Party at all.",
+        "It strengthened and unified the Whig Party.",
+        "It transformed the Whig Party into the Democratic Party."
+      ],
+      "correct": 0,
+      "explanation": "Northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line shattered the Whig Party, which could not hold together its fractured northern and southern factions."
+    },
+    {
+      "id": "5-12",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What new political party emerged from the Whig Party's collapse, founded in 1854?",
+      "choices": [
+        "The Federalist Party",
+        "The Democratic Party",
+        "The Republican Party",
+        "The Know-Nothing Party as the sole successor"
+      ],
+      "correct": 2,
+      "explanation": "The Republican Party emerged from the Whig Party's collapse in 1854, organized specifically around opposing slavery's expansion into western territories."
+    },
+    {
+      "id": "5-13",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "Was the early Republican Party founded as an abolitionist party seeking slavery's immediate nationwide end?",
+      "choices": [
+        "Yes, because the Republican Party had no relationship to slavery at all.",
+        "No — its founding platform specifically opposed slavery's EXPANSION into new western territories, a narrower position than full abolitionism.",
+        "Yes, the Republican Party's founding platform sought immediate nationwide abolition.",
+        "No, because the Republican Party actually supported slavery's expansion."
+      ],
+      "correct": 1,
+      "explanation": "The early Republican Party's founding platform specifically opposed slavery's expansion into new western territories — a genuinely narrower position than full, immediate nationwide abolitionism."
+    },
+    {
+      "id": "5-14",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "Trace the causal chain: Kansas-Nebraska Act → ___ → Whig Party collapse → Republican Party founding.",
+      "choices": [
+        "Southern celebration and unified national support",
+        "Northern outrage over the repeal of the Missouri Compromise line",
+        "No intermediate step exists in this causal chain",
+        "Immediate national abolition of slavery"
+      ],
+      "correct": 1,
+      "explanation": "The correct intermediate step is northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line, which fractured the Whig Party and led to the Republican Party's founding."
+    },
+    {
+      "id": "5-15",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What did the Kansas-Nebraska Act demonstrate in practice about popular sovereignty, previewed conceptually in Section 5.1?",
+      "choices": [
+        "That Congress alone should always decide slavery's territorial status.",
+        "That popular sovereignty had no relationship to the Missouri Compromise.",
+        "That popular sovereignty was a stable, uncontroversial mechanism.",
+        "That popular sovereignty's structural instability (incentivizing activists to flood into a territory) could produce actual, sustained violent conflict, not just theoretical volatility."
+      ],
+      "correct": 3,
+      "explanation": "'Bleeding Kansas' demonstrated in practice that popular sovereignty's structural instability, previewed conceptually in Section 5.1, could produce actual, sustained violent conflict — not merely a theoretical concern."
+    },
+    {
+      "id": "5-16",
+      "topic": "5.2 Kansas-Nebraska Act",
+      "stem": "What new, more explicitly sectional political party divide replaced the old Whig-Democrat system following the Kansas-Nebraska Act?",
+      "choices": [
+        "Republican-Democrat",
+        "No new party divide emerged",
+        "Whig-Federalist",
+        "Federalist-Republican"
+      ],
+      "correct": 0,
+      "explanation": "A new Republican-Democrat party divide, more explicitly organized along sectional lines, replaced the old Whig-Democrat party system following the Kansas-Nebraska Act's fallout."
+    },
+    {
+      "id": "5-17",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "What did the Supreme Court rule in Dred Scott v. Sandford (1857) regarding enslaved people's citizenship status?",
+      "choices": [
+        "That the case had no relationship to citizenship at all.",
+        "That enslaved people and even free Black Americans were not U.S. citizens and had no standing to sue in federal court.",
+        "That only enslaved people, not free Black Americans, lacked citizenship.",
+        "That enslaved people were full U.S. citizens with standing to sue."
+      ],
+      "correct": 1,
+      "explanation": "Dred Scott v. Sandford (1857) ruled that enslaved people, and even free Black Americans, were not U.S. citizens and therefore had no standing to sue in federal court."
+    },
+    {
+      "id": "5-18",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "What did Dred Scott rule regarding Congress's power to restrict slavery in the territories?",
+      "choices": [
+        "That only the Supreme Court, not Congress, could decide slavery's territorial status.",
+        "That Congress had NO constitutional power to prohibit slavery in the territories at all.",
+        "The ruling had no relationship to congressional power over slavery.",
+        "That Congress had unlimited power to restrict slavery anywhere."
+      ],
+      "correct": 1,
+      "explanation": "Dred Scott ruled that Congress had NO constitutional power to prohibit slavery in the territories — effectively invalidating the Missouri Compromise's core mechanism even retroactively, and undermining popular sovereignty's legitimacy as well."
+    },
+    {
+      "id": "5-19",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "Why is it insufficient to describe Dred Scott as merely affecting one individual's legal status?",
+      "choices": [
+        "The ruling's true significance was constitutional and national — invalidating the entire legal framework prior compromises had relied on to restrict slavery's expansion.",
+        "The ruling only applied to a single specific territory, not the nation as a whole.",
+        "This description is fully sufficient and complete.",
+        "Dred Scott had no significance beyond the individual case."
+      ],
+      "correct": 0,
+      "explanation": "Dred Scott's true significance was constitutional and national — by ruling Congress had no power to restrict slavery in any territory, it effectively invalidated the entire prior legal framework for limiting slavery's expansion, radicalizing northern opinion far beyond the individual case."
+    },
+    {
+      "id": "5-20",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "How did the Democratic Party's position change by the Election of 1860?",
+      "choices": [
+        "The party merged with the Republican Party.",
+        "The party ceased to exist entirely before 1860.",
+        "The party split along sectional lines, with northern and southern Democrats nominating different candidates.",
+        "The party remained fully unified with no sectional division."
+      ],
+      "correct": 2,
+      "explanation": "By 1860, the Democratic Party had split along sectional lines, with northern and southern Democrats nominating different candidates — a significant factor in Lincoln's ultimate victory."
+    },
+    {
+      "id": "5-21",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "How did southern states interpret Lincoln's 1860 electoral victory, given his almost complete lack of southern electoral support?",
+      "choices": [
+        "As an irrelevant, minor political development.",
+        "As a victory southern states widely celebrated and supported.",
+        "As proof the political system still adequately protected southern interests.",
+        "As proof that the political system could no longer protect their interests through ordinary electoral means, directly triggering secession."
+      ],
+      "correct": 3,
+      "explanation": "Southern states interpreted Lincoln's victory, achieved with almost no southern electoral support, as proof the political system could no longer protect their interests through ordinary electoral means — directly triggering the wave of secession that began even before his inauguration."
+    },
+    {
+      "id": "5-22",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "Which of the following best summarizes the escalating sequence from the Compromise of 1850 through the Election of 1860?",
+      "choices": [
+        "A repeated pattern of attempted compromise (1850, Kansas-Nebraska) followed by escalating crisis (Bleeding Kansas, Dred Scott), culminating in the political breaking point of the 1860 election and subsequent secession.",
+        "A steady, uninterrupted march toward peaceful sectional reconciliation.",
+        "A series of entirely unrelated, coincidental events with no connecting pattern.",
+        "An immediate jump from the Missouri Compromise directly to secession, with no intermediate events."
+      ],
+      "correct": 0,
+      "explanation": "This period shows a repeated pattern of attempted compromise (1850, Kansas-Nebraska) followed by escalating crisis (Bleeding Kansas, Dred Scott's radicalizing effect), culminating in the 1860 election as the final political breaking point and triggering secession — a coherent escalating pattern, not isolated events."
+    },
+    {
+      "id": "5-23",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "Which party did Abraham Lincoln represent in the 1860 election?",
+      "choices": [
+        "The Federalist Party",
+        "The Whig Party",
+        "The Republican Party",
+        "The Democratic Party"
+      ],
+      "correct": 2,
+      "explanation": "Abraham Lincoln represented the Republican Party in the 1860 election, a party explicitly opposed to slavery's expansion into western territories."
+    },
+    {
+      "id": "5-24",
+      "topic": "5.3 Dred Scott and 1860",
+      "stem": "Did Dred Scott resolve the underlying sectional dispute over slavery's territorial expansion?",
+      "choices": [
+        "Yes, but only temporarily for a period of five years.",
+        "No — it inflamed rather than resolved the dispute, since it appeared to open all territories to slavery with no remaining legal check.",
+        "Yes, it fully and permanently resolved the dispute with no further conflict.",
+        "No, because Dred Scott had no relationship to slavery's territorial expansion."
+      ],
+      "correct": 1,
+      "explanation": "Dred Scott inflamed rather than resolved the underlying dispute — its ruling appeared to open all territories to slavery with no remaining legal check, radicalizing northern opinion rather than settling the conflict."
+    },
+    {
+      "id": "5-25",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "What does this exam treat as the central, underlying cause of the Civil War?",
+      "choices": [
+        "A dispute over tariff policy exclusively.",
+        "An abstract states' rights principle unrelated to any specific policy.",
+        "Slavery — the specific 'state right' at the center of secession was explicitly the right to maintain and expand slavery.",
+        "A dispute over the location of the national capital."
+      ],
+      "correct": 2,
+      "explanation": "This exam treats slavery as the central, underlying cause of the Civil War — the specific 'state right' at the center of secession was explicitly and repeatedly the right to maintain and expand slavery, as southern states' own secession declarations stated."
+    },
+    {
+      "id": "5-26",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "Which of the following was a Union strategic advantage at the outset of the Civil War?",
+      "choices": [
+        "Strong motivation defending home territory directly.",
+        "Larger population and greater industrial capacity.",
+        "Fighting a defensive war on familiar territory.",
+        "Initially superior military leadership in several key engagements."
+      ],
+      "correct": 1,
+      "explanation": "Larger population and greater industrial capacity were significant Union strategic advantages, alongside a more extensive railroad network and naval superiority."
+    },
+    {
+      "id": "5-27",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "Which of the following was a Confederate strategic advantage at the outset of the Civil War?",
+      "choices": [
+        "Naval superiority",
+        "Fighting primarily a defensive war on familiar home territory",
+        "Greater industrial capacity",
+        "A more extensive railroad network"
+      ],
+      "correct": 1,
+      "explanation": "Fighting primarily a defensive war on familiar home territory was a significant Confederate strategic advantage, alongside initially superior military leadership in several key early engagements."
+    },
+    {
+      "id": "5-28",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "What did the Union victory at Gettysburg (July 1863) accomplish strategically?",
+      "choices": [
+        "It gave the Union control of the Mississippi River.",
+        "It had no strategic significance.",
+        "It ended Lee's invasion of the North, eliminating Confederate hopes of a decisive victory on northern soil.",
+        "It ended the war immediately."
+      ],
+      "correct": 2,
+      "explanation": "Gettysburg ended General Lee's invasion of the North, eliminating Confederate hopes of a decisive victory on northern soil that might have pressured the Union toward a negotiated peace."
+    },
+    {
+      "id": "5-29",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "What did the Union victory at Vicksburg (July 1863) accomplish strategically?",
+      "choices": [
+        "It ended Lee's invasion of the North.",
+        "It resulted in immediate Confederate surrender.",
+        "It had no strategic significance.",
+        "It gave the Union full control of the Mississippi River, splitting the Confederacy in two."
+      ],
+      "correct": 3,
+      "explanation": "Vicksburg gave the Union full control of the Mississippi River, splitting the Confederacy in two and severing a crucial supply and communication link between its eastern and western portions."
+    },
+    {
+      "id": "5-30",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "Why are Gettysburg and Vicksburg jointly considered the war's turning point, despite occurring in different theaters?",
+      "choices": [
+        "Only Vicksburg had any strategic significance; Gettysburg was unimportant.",
+        "They occurred almost simultaneously in different theaters, together eliminating the Confederacy's best remaining strategic options at once and shifting overall war momentum toward the Union.",
+        "They have no meaningful joint significance.",
+        "Only Gettysburg had any strategic significance; Vicksburg was unimportant."
+      ],
+      "correct": 1,
+      "explanation": "Gettysburg and Vicksburg, occurring almost simultaneously in different theaters, together eliminated the Confederacy's best remaining strategic options in two different theaters at once, jointly shifting overall war momentum decisively toward the Union."
+    },
+    {
+      "id": "5-31",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "A student argues the Civil War was fundamentally about an abstract 'states' rights' principle disconnected from slavery specifically. Evaluate this argument.",
+      "choices": [
+        "This argument is incomplete — southern states' own secession declarations explicitly named slavery as the specific right at stake, not an abstract, unrelated principle.",
+        "This argument is fully accurate with no need for qualification.",
+        "This argument cannot be evaluated using any historical evidence.",
+        "This argument is accurate, but only for the war's first year."
+      ],
+      "correct": 0,
+      "explanation": "This argument is incomplete — southern states' own secession declarations explicitly and repeatedly named slavery specifically as the right at stake, directly contradicting a characterization of 'states' rights' as an abstract principle disconnected from that specific institution."
+    },
+    {
+      "id": "5-32",
+      "topic": "5.4 Civil War Causes and Strategy",
+      "stem": "What naval advantage did the Union hold over the Confederacy?",
+      "choices": [
+        "The Union had no naval advantage of any kind.",
+        "Naval power played no role in the Civil War.",
+        "Naval superiority, enabling a blockade of southern ports.",
+        "The Confederacy had superior naval power throughout the war."
+      ],
+      "correct": 2,
+      "explanation": "Union naval superiority enabled a blockade of southern ports, restricting Confederate trade and supply access throughout the war — a significant Union strategic advantage."
+    },
+    {
+      "id": "5-33",
+      "topic": "5.5 Emancipation",
+      "stem": "When was the Emancipation Proclamation issued, and following what battle?",
+      "choices": [
+        "January 1863, following the Battle of Antietam (September 1862)",
+        "1776, following the Battle of Saratoga",
+        "1850, following the Compromise of 1850",
+        "1865, following the war's complete end"
+      ],
+      "correct": 0,
+      "explanation": "The Emancipation Proclamation was issued in January 1863, following the Union's tactical victory at Antietam in September 1862, which gave Lincoln the political standing to issue it."
+    },
+    {
+      "id": "5-34",
+      "topic": "5.5 Emancipation",
+      "stem": "Did the Emancipation Proclamation free enslaved people in loyal border states like Maryland and Kentucky?",
+      "choices": [
+        "No, because the Proclamation freed no enslaved people anywhere.",
+        "Yes, it freed enslaved people in every U.S. state and territory.",
+        "No — it applied specifically to states in rebellion, explicitly excluding loyal border states.",
+        "Yes, but only in Kentucky specifically."
+      ],
+      "correct": 2,
+      "explanation": "The Emancipation Proclamation applied specifically to states currently in rebellion against the Union — it did NOT free enslaved people in loyal border states like Maryland and Kentucky."
+    },
+    {
+      "id": "5-35",
+      "topic": "5.5 Emancipation",
+      "stem": "Why did Lincoln exclude loyal border states from the Emancipation Proclamation's scope?",
+      "choices": [
+        "The Proclamation was never actually intended to address slavery at all.",
+        "Loyal border states had already abolished slavery independently.",
+        "He lacked clear constitutional authority to abolish slavery in states not in rebellion, and worried about pushing loyal border states toward secession.",
+        "He had no reason and simply forgot to include them."
+      ],
+      "correct": 2,
+      "explanation": "Lincoln excluded loyal border states because he lacked clear constitutional authority to abolish slavery in states not in rebellion, and worried that including them could push these loyal states toward secession."
+    },
+    {
+      "id": "5-36",
+      "topic": "5.5 Emancipation",
+      "stem": "What later constitutional amendment achieved full, nationwide abolition of slavery, distinct from the Emancipation Proclamation's limited scope?",
+      "choices": [
+        "The Fifteenth Amendment",
+        "The Thirteenth Amendment",
+        "The Nineteenth Amendment",
+        "The Fourteenth Amendment"
+      ],
+      "correct": 1,
+      "explanation": "The Thirteenth Amendment (ratified 1865, after the war's end) achieved full, nationwide abolition of slavery — a distinct and later development from the Emancipation Proclamation's more limited wartime scope."
+    },
+    {
+      "id": "5-37",
+      "topic": "5.5 Emancipation",
+      "stem": "Beyond its legal scope, what significant PRACTICAL effect did the Emancipation Proclamation have on the Union war effort?",
+      "choices": [
+        "It reduced the Union Army's total manpower.",
+        "It authorized Black men to enlist in the Union Army, adding a substantial new source of manpower.",
+        "It ended the war immediately.",
+        "It had no practical effect of any kind."
+      ],
+      "correct": 1,
+      "explanation": "The Emancipation Proclamation authorized Black men to enlist in the Union Army, adding a substantial new source of manpower — a significant practical effect beyond its more limited legal scope."
+    },
+    {
+      "id": "5-38",
+      "topic": "5.5 Emancipation",
+      "stem": "How did the Emancipation Proclamation change the war's purpose?",
+      "choices": [
+        "It transformed the war's purpose from purely preserving the Union into also ending slavery.",
+        "It had no effect on the war's purpose.",
+        "It made ending slavery the war's ONLY purpose, eliminating the Union preservation goal.",
+        "It ended the war's connection to preserving the Union entirely."
+      ],
+      "correct": 0,
+      "explanation": "The Emancipation Proclamation transformed the war's purpose from purely preserving the Union into ALSO ending slavery — adding, not replacing, the war's original preservation goal."
+    },
+    {
+      "id": "5-39",
+      "topic": "5.5 Emancipation",
+      "stem": "A student claims the Emancipation Proclamation immediately freed all enslaved people throughout the United States. Evaluate this claim.",
+      "choices": [
+        "This claim is accurate, but only for the year 1863 specifically.",
+        "This claim is inaccurate — the Proclamation applied only to states in rebellion, explicitly excluding loyal border states; full nationwide abolition required the later Thirteenth Amendment.",
+        "This claim is fully accurate.",
+        "This claim cannot be evaluated using any historical evidence."
+      ],
+      "correct": 1,
+      "explanation": "This claim is inaccurate — a frequently tested misconception. The Proclamation applied only to states in rebellion, explicitly excluding loyal border states; full nationwide abolition required the separate, later Thirteenth Amendment (1865)."
+    },
+    {
+      "id": "5-40",
+      "topic": "5.5 Emancipation",
+      "stem": "Why did Lincoln wait for a Union battlefield victory before issuing the Emancipation Proclamation, rather than issuing it immediately after drafting it?",
+      "choices": [
+        "He wanted to issue it from a position of relative strength rather than apparent desperation following a string of Union military setbacks.",
+        "He was waiting for congressional approval, which was never granted.",
+        "He had no strategic reason for the delay.",
+        "He was legally prohibited from issuing it before a specific date."
+      ],
+      "correct": 0,
+      "explanation": "Lincoln waited for a Union battlefield victory (Antietam) so the Proclamation would appear as a position of strength rather than a desperate gesture following a string of Union military setbacks — a deliberate strategic timing decision."
+    },
+    {
+      "id": "5-41",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "What was Lincoln's Ten Percent Plan?",
+      "choices": [
+        "An early, relatively lenient Reconstruction plan for readmitting former Confederate states to the Union.",
+        "A plan increasing tariffs by ten percent.",
+        "A plan requiring 90% of a state's population to take a loyalty oath before readmission.",
+        "A plan unrelated to Reconstruction."
+      ],
+      "correct": 0,
+      "explanation": "Lincoln's Ten Percent Plan was an early, relatively lenient Reconstruction plan envisioning a comparatively easy path back to the Union for former Confederate states."
+    },
+    {
+      "id": "5-42",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "How did Andrew Johnson's approach to Reconstruction compare to Lincoln's?",
+      "choices": [
+        "Johnson and Lincoln pursued identical Reconstruction policies with no meaningful difference.",
+        "Johnson had no involvement in Reconstruction policy at all.",
+        "Johnson's approach was even more lenient than Lincoln's, readmitting southern states with minimal requirements and offering broad pardons.",
+        "Johnson's approach was significantly more strict and punitive than Lincoln's."
+      ],
+      "correct": 2,
+      "explanation": "Johnson's approach to Reconstruction was even more lenient than Lincoln's, quickly readmitting southern states with minimal requirements and offering broad pardons to former Confederates."
+    },
+    {
+      "id": "5-43",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "What were Black Codes?",
+      "choices": [
+        "Laws granting formerly enslaved people full citizenship rights.",
+        "A synonym for the Freedmen's Bureau.",
+        "Laws passed by southern states severely restricting freed people's rights regarding labor contracts, movement, and other basic freedoms.",
+        "Federal laws protecting Black voting rights."
+      ],
+      "correct": 2,
+      "explanation": "Black Codes were laws passed by southern states under Johnson's lenient Reconstruction policy, severely restricting freed people's rights regarding labor contracts, movement, and other basic freedoms."
+    },
+    {
+      "id": "5-44",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "How did Black Codes provoke congressional Republican backlash against Johnson's approach?",
+      "choices": [
+        "Black Codes appeared to Republicans as an attempt to recreate slavery's essential conditions in all but name, convincing them Johnson's lenient approach was allowing the South to evade the war's outcome.",
+        "Black Codes were enacted by Congress itself, not southern states.",
+        "Black Codes had no effect on congressional opinion.",
+        "Congress fully supported Black Codes with no objection."
+      ],
+      "correct": 0,
+      "explanation": "Black Codes appeared to congressional Republicans as an attempt to recreate slavery's essential conditions in all but name — directly convincing them that Johnson's lenient approach was allowing the South to evade the war's fundamental outcome."
+    },
+    {
+      "id": "5-45",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "Is it accurate to treat Lincoln's and Johnson's Reconstruction approaches as identical?",
+      "choices": [
+        "No — while both were relatively lenient compared to what followed, Johnson's approach was notably more lenient and included essentially no meaningful protection for freed people's rights.",
+        "Yes, because Johnson simply continued Lincoln's exact plan with no changes.",
+        "No, because Lincoln's approach was actually harsher than Johnson's.",
+        "Yes, both presidents pursued exactly identical Reconstruction policies."
+      ],
+      "correct": 0,
+      "explanation": "It is not accurate to treat these approaches as identical — while both were relatively lenient, Johnson's was notably more lenient and included essentially no meaningful protection for freed people's rights, a specific and significant difference."
+    },
+    {
+      "id": "5-46",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "What did congressional Republican backlash against Johnson's Reconstruction approach directly set up?",
+      "choices": [
+        "A complete end to any Reconstruction policy.",
+        "Johnson's immediate re-election.",
+        "The shift toward Radical Reconstruction, with Congress seizing control of Reconstruction policy from the president.",
+        "The Emancipation Proclamation's issuance."
+      ],
+      "correct": 2,
+      "explanation": "Congressional Republican backlash against Johnson's leniency and southern Black Codes directly set up the shift toward Radical Reconstruction, with Congress seizing control of Reconstruction policy from the president."
+    },
+    {
+      "id": "5-47",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "Under Johnson's Reconstruction approach, what protection did formerly enslaved people generally receive?",
+      "choices": [
+        "Protection identical to what Radical Reconstruction would later provide.",
+        "Extensive, well-enforced federal protection of their basic rights.",
+        "Essentially no meaningful protection, allowing southern states to pass restrictive Black Codes largely unchecked.",
+        "Complete political equality with full voting rights guaranteed immediately."
+      ],
+      "correct": 2,
+      "explanation": "Under Johnson's lenient approach, formerly enslaved people received essentially no meaningful federal protection, allowing southern states to pass restrictive Black Codes largely unchecked — a key factor provoking later congressional intervention."
+    },
+    {
+      "id": "5-48",
+      "topic": "5.6 Presidential Reconstruction",
+      "stem": "Why is 'Presidential Reconstruction' (Lincoln and Johnson) generally described as more lenient than what follows in Section 5.7?",
+      "choices": [
+        "There is no meaningful difference between Presidential and Radical Reconstruction.",
+        "Presidential Reconstruction was actually harsher than what followed.",
+        "Both Lincoln's and Johnson's approaches favored a relatively easy path back to the Union for former Confederate states, with limited federal protection for freed people, compared to the more assertive federal intervention of Radical Reconstruction.",
+        "Presidential Reconstruction included military occupation of the South, unlike Radical Reconstruction."
+      ],
+      "correct": 2,
+      "explanation": "Both Lincoln's and Johnson's approaches favored a relatively easy path back to the Union with limited federal protection for freed people, in contrast to the more assertive federal intervention (military districts, constitutional amendments) of Radical Reconstruction covered next."
+    },
+    {
+      "id": "5-49",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "What did the Thirteenth Amendment (1865) establish?",
+      "choices": [
+        "Prohibition of denying voting rights based on race.",
+        "Citizenship for all persons born in the United States.",
+        "Military districts throughout the South.",
+        "Abolition of slavery nationwide."
+      ],
+      "correct": 3,
+      "explanation": "The Thirteenth Amendment (1865) established the abolition of slavery nationwide, the first of the three Reconstruction-era constitutional amendments."
+    },
+    {
+      "id": "5-50",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "What did the Fourteenth Amendment (1868) establish?",
+      "choices": [
+        "Prohibition of denying voting rights based on race.",
+        "Abolition of slavery nationwide.",
+        "The Reconstruction Acts' military district system.",
+        "Citizenship for all persons born in the United States and equal protection under the law."
+      ],
+      "correct": 3,
+      "explanation": "The Fourteenth Amendment (1868) established citizenship for all persons born in the United States (including formerly enslaved people) and guaranteed equal protection under the law."
+    },
+    {
+      "id": "5-51",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "What did the Fifteenth Amendment (1870) establish?",
+      "choices": [
+        "Citizenship for all persons born in the United States.",
+        "Abolition of slavery nationwide.",
+        "Women's suffrage nationwide.",
+        "Prohibition of denying the right to vote based on race, color, or previous condition of servitude."
+      ],
+      "correct": 3,
+      "explanation": "The Fifteenth Amendment (1870) prohibited denying the right to vote based on race, color, or previous condition of servitude — the third of the three Reconstruction-era amendments."
+    },
+    {
+      "id": "5-52",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "Why did these three amendments need to be passed in this specific sequence (13th, then 14th, then 15th)?",
+      "choices": [
+        "The amendments could have been passed in any order with no difference in effect.",
+        "Each amendment answered a progressively more specific question building on the one before: abolition first, then citizenship/legal protection, then voting rights.",
+        "The sequence was arbitrary with no logical connection.",
+        "Only the order of passage mattered, not the content of each amendment."
+      ],
+      "correct": 1,
+      "explanation": "Each amendment answered a progressively more specific question building directly on the one before it — first abolishing slavery, then establishing citizenship and legal protection, then securing voting rights — a logical sequence, not an arbitrary order."
+    },
+    {
+      "id": "5-53",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "What did the Reconstruction Acts establish regarding the former Confederacy?",
+      "choices": [
+        "Complete, immediate self-governance with no federal oversight.",
+        "Division of the former Confederacy into military districts under direct federal military oversight, with readmission conditioned on specific requirements.",
+        "No relationship to the South's governance structure.",
+        "Permanent exclusion of southern states from the Union."
+      ],
+      "correct": 1,
+      "explanation": "The Reconstruction Acts divided the former Confederacy into military districts under direct federal military oversight, with readmission to the Union conditioned on ratifying the Fourteenth Amendment and establishing new state constitutions guaranteeing Black male suffrage."
+    },
+    {
+      "id": "5-54",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "What was the Freedmen's Bureau?",
+      "choices": [
+        "A Confederate government agency.",
+        "A military unit fighting for the Confederacy.",
+        "An agency providing formerly enslaved people direct assistance, including education, medical care, and help negotiating labor contracts.",
+        "A synonym for the Ku Klux Klan."
+      ],
+      "correct": 2,
+      "explanation": "The Freedmen's Bureau provided formerly enslaved people direct assistance, including education, medical care, and help negotiating labor contracts, during the Reconstruction era."
+    },
+    {
+      "id": "5-55",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "Did Radical Reconstruction see genuine Black political participation, including elected office?",
+      "choices": [
+        "No, Black Americans held no political office of any kind during this period.",
+        "Yes, but only at the local municipal level, never in state legislatures or Congress.",
+        "Yes — Black Americans were elected to southern state legislatures and to the U.S. Congress itself for the first time.",
+        "No, because the Reconstruction Acts explicitly prohibited Black political participation."
+      ],
+      "correct": 2,
+      "explanation": "Radical Reconstruction saw genuine, historic Black political participation — Black Americans were elected to southern state legislatures and to the U.S. Congress itself for the first time, a significant historical achievement."
+    },
+    {
+      "id": "5-56",
+      "topic": "5.7 Radical Reconstruction",
+      "stem": "Why is it important not to understate the significance of Black political participation during Radical Reconstruction, even though this achievement would later be reversed?",
+      "choices": [
+        "It represented authentic, substantial political achievement in its own right, and a complete answer honors this genuine achievement while also explaining its eventual, forcible reversal.",
+        "This achievement should be dismissed entirely since it did not last permanently.",
+        "Black political participation during this period had no historical significance of any kind.",
+        "The eventual reversal makes the original achievement historically meaningless."
+      ],
+      "correct": 0,
+      "explanation": "Black political participation during Radical Reconstruction represented authentic, substantial political achievement, even though it would tragically prove temporary — a complete, historically accurate answer honors this genuine achievement while also explaining its eventual reversal, rather than only emphasizing the reversal."
+    },
+    {
+      "id": "5-57",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "What was the Ku Klux Klan's role during Reconstruction?",
+      "choices": [
+        "Using terrorism and violence specifically to suppress Black political participation and intimidate Black communities and their white allies.",
+        "Providing federal protection for Black civil rights.",
+        "Enforcing the Reconstruction Acts on behalf of the federal government.",
+        "Administering the Freedmen's Bureau."
+      ],
+      "correct": 0,
+      "explanation": "The Ku Klux Klan used organized terrorism and violence specifically to suppress Black political participation and intimidate Black communities and their white allies throughout Reconstruction."
+    },
+    {
+      "id": "5-58",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "What did the Compromise of 1877 establish?",
+      "choices": [
+        "The Thirteenth Amendment's ratification.",
+        "Immediate full civil rights protection for all Black Americans permanently.",
+        "Rutherford B. Hayes's presidency in exchange for withdrawing remaining federal troops from the South.",
+        "A permanent extension of Radical Reconstruction."
+      ],
+      "correct": 2,
+      "explanation": "The Compromise of 1877 resolved the disputed 1876 presidential election by awarding the presidency to Republican Rutherford B. Hayes in exchange for withdrawing remaining federal troops from the South."
+    },
+    {
+      "id": "5-59",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "What was the practical effect of the Compromise of 1877 on federal enforcement of Black civil rights in the South?",
+      "choices": [
+        "It immediately extended federal enforcement for another twenty years.",
+        "It strengthened federal enforcement significantly.",
+        "It had no practical effect of any kind.",
+        "It effectively ended federal enforcement of Black civil rights protections in the former Confederacy, clearing the way for Jim Crow segregation and disenfranchisement."
+      ],
+      "correct": 3,
+      "explanation": "The Compromise of 1877 effectively ended federal enforcement of Black civil rights protections in the former Confederacy, clearing the way for the systematic legal disenfranchisement and segregation that dominates the opening of Period 6."
+    },
+    {
+      "id": "5-60",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "Is it accurate to describe Reconstruction's end as resulting from a single cause?",
+      "choices": [
+        "No, because Reconstruction never actually ended.",
+        "Yes, only the Compromise of 1877 caused Reconstruction's end.",
+        "No — a complete answer names both sustained organized violence (KKK terrorism) AND the specific 1877 political deal as jointly necessary parts of the explanation.",
+        "Yes, only KKK violence caused Reconstruction's end, with no political component."
+      ],
+      "correct": 2,
+      "explanation": "A complete explanation names BOTH sustained organized violence (KKK terrorism undermining practical enforcement throughout Reconstruction's existence) AND the specific 1877 political deal (delivering its final, formal political end) as jointly necessary parts of the explanation."
+    },
+    {
+      "id": "5-61",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "Evaluate the extent to which Reconstruction should be considered a complete failure.",
+      "choices": [
+        "A complete evaluation distinguishes Reconstruction's short-term practical failure (undone by violence and the Compromise of 1877) from its longer-term constitutional legacy (the Thirteenth, Fourteenth, and Fifteenth Amendments, later used by the Civil Rights Movement).",
+        "Reconstruction should be considered a complete, unqualified success with no failures.",
+        "Reconstruction's legacy cannot be evaluated using any historical evidence.",
+        "Reconstruction should be considered a complete, unqualified failure with no redeeming legacy."
+      ],
+      "correct": 0,
+      "explanation": "A complete, historically accurate evaluation distinguishes Reconstruction's short-term practical failure (its specific goals dismantled by violence and the 1877 Compromise) from its enduring, if long-delayed, constitutional legacy (the three amendments later used by the twentieth-century Civil Rights Movement) — avoiding a simple, one-sided verdict."
+    },
+    {
+      "id": "5-62",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "How did Reconstruction's constitutional amendments prove significant well beyond the Reconstruction era itself?",
+      "choices": [
+        "They remained on the books and became the essential legal foundation the twentieth-century Civil Rights Movement would eventually use to dismantle segregation.",
+        "They had no significance beyond the immediate Reconstruction period.",
+        "They were fully repealed shortly after Reconstruction ended.",
+        "They only applied during the specific years they were passed, with no lasting legal effect."
+      ],
+      "correct": 0,
+      "explanation": "The Reconstruction-era amendments remained on the books despite Reconstruction's practical political failure, becoming the essential legal foundation the twentieth-century Civil Rights Movement (Period 8) would eventually rely on to dismantle segregation."
+    },
+    {
+      "id": "5-63",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "What system of racial oppression did the end of Reconstruction clear the way for, dominating the opening of Period 6?",
+      "choices": [
+        "Immediate full racial equality with no further restriction.",
+        "A return to formal, legal slavery.",
+        "No system of racial oppression followed Reconstruction's end.",
+        "Jim Crow segregation and systematic disenfranchisement."
+      ],
+      "correct": 3,
+      "explanation": "The end of Reconstruction cleared the way for Jim Crow segregation and systematic legal disenfranchisement, a system of racial oppression that dominates the opening of Period 6."
+    },
+    {
+      "id": "5-64",
+      "topic": "5.8 End of Reconstruction",
+      "stem": "Which year is associated with the political compromise that formally ended Reconstruction?",
+      "choices": [
+        "1870",
+        "1898",
+        "1877",
+        "1865"
+      ],
+      "correct": 2,
+      "explanation": "1877 is associated with the Compromise of 1877, the political deal that formally ended Reconstruction by trading the disputed presidency for federal troop withdrawal from the South."
+    },
+    {
+      "id": "5-65",
+      "topic": "5.8 End of Reconstruction",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the SAME structural pattern — a genuine, significant advance for a marginalized group, followed by organized violent and political backlash that reverses much of that advance in practice while leaving some legal framework intact — appears in BOTH the story of Radical Reconstruction's Black political participation (Section 5.7) AND, in miniature, within the broader arc of this unit's failed slavery-expansion compromises (Sections 5.1–5.3).",
+      "choices": [
+        "This unit contains no recurring structural patterns of any kind.",
+        "Only Radical Reconstruction involved any backlash; the slavery-expansion compromises faced no comparable resistance.",
+        "Both patterns show an initial genuine step forward (popular sovereignty as a flexible new mechanism; Black political achievement during Radical Reconstruction) followed by violent, destabilizing backlash (Bleeding Kansas; KKK terrorism and the Compromise of 1877) that undermined the practical achievement while leaving important legal/structural residue behind (the sectional party realignment; the enduring 13th/14th/15th Amendments) — a recurring structural rhythm of advance, violent backlash, and partial but lasting residue.",
+        "These two patterns have no meaningful structural similarity to draw upon."
+      ],
+      "correct": 2,
+      "explanation": "This synthesis question rewards recognizing a genuinely recurring STRUCTURAL RHYTHM across seemingly different parts of the unit: an initial step intended as a stabilizing advance (popular sovereignty as new flexible mechanism; Black political participation as genuine achievement) is met with organized, often violent backlash (Bleeding Kansas; KKK terrorism and the 1877 Compromise) that undermines the immediate practical goal — but in both cases, something lasting survives the backlash (a transformed party system that eventually elects Lincoln; constitutional amendments that outlive Reconstruction's practical collapse). Recognizing this shared rhythm of advance-backlash-lasting-residue across genuinely different subject matter within the same unit is exactly the kind of higher-order synthesis a top-scoring LEQ or DBQ response should demonstrate."
+    }
   ],
-  6: [
-    { id: "6-1", topic: "6.1 Second Industrial Revolution", stem: "What business strategy did Andrew Carnegie use to dominate the steel industry?", choices: ["Horizontal integration", "Vertical integration", "Popular sovereignty", "The spoils system"], correct: 1, explanation: "Andrew Carnegie used vertical integration — controlling every stage of production, from raw material mines to shipping railroads — to dominate the steel industry." },
-    { id: "6-2", topic: "6.1 Second Industrial Revolution", stem: "What business strategy did John D. Rockefeller use to dominate the oil industry?", choices: ["Vertical integration", "Horizontal integration", "The Bessemer process", "The Dawes Act"], correct: 1, explanation: "John D. Rockefeller used horizontal integration — buying out or merging with competing companies at the same stage of production — to dominate the oil industry through Standard Oil." },
-    { id: "6-3", topic: "6.1 Second Industrial Revolution", stem: "What does 'vertical integration' specifically mean?", choices: ["Buying out competitors making the same product.", "Controlling every stage of production, from raw materials to finished, distributed product.", "A synonym for horizontal integration.", "A government policy regulating businesses."], correct: 1, explanation: "Vertical integration means controlling every stage of production — from raw materials to finished, shipped product — eliminating dependence on outside suppliers or distributors." },
-    { id: "6-4", topic: "6.1 Second Industrial Revolution", stem: "What does 'horizontal integration' specifically mean?", choices: ["Controlling every stage of production.", "Buying out or merging with competing companies at the SAME stage of production.", "A synonym for vertical integration.", "A government antitrust policy."], correct: 1, explanation: "Horizontal integration means buying out or merging with competing companies at the SAME stage of production, consolidating an entire industry under one company's control." },
-    { id: "6-5", topic: "6.1 Second Industrial Revolution", stem: "A steel company buys out several other steel-producing companies that make the identical product. Which strategy does this illustrate?", choices: ["Vertical integration", "Horizontal integration", "The Dawes Act", "Popular sovereignty"], correct: 1, explanation: "Buying out competing companies making the identical product at the same stage of production illustrates horizontal integration, Rockefeller's strategy in the oil industry." },
-    { id: "6-6", topic: "6.1 Second Industrial Revolution", stem: "What innovation significantly reduced the cost of steel production during this period?", choices: ["The Bessemer process", "The Dawes Act", "Popular sovereignty", "The spoils system"], correct: 0, explanation: "The Bessemer process significantly reduced the cost of steel production, enabling faster and cheaper steel manufacturing central to the Second Industrial Revolution." },
-    { id: "6-7", topic: "6.1 Second Industrial Revolution", stem: "Which industry is described as the era's dominant big business, providing essential infrastructure connecting the national market?", choices: ["Textile manufacturing", "Railroads", "Agriculture", "Banking exclusively"], correct: 1, explanation: "Railroads were the era's dominant big business, providing essential infrastructure connecting the national market and enabling the broader Second Industrial Revolution." },
-    { id: "6-8", topic: "6.1 Second Industrial Revolution", stem: "Why is distinguishing vertical from horizontal integration important for this exam, rather than treating both as interchangeable synonyms for 'big business getting bigger'?", choices: ["There is no meaningful reason to distinguish these two strategies.", "This exam specifically rewards correctly identifying WHICH strategy a described scenario illustrates, based on whether a company is acquiring different production stages or same-stage competitors.", "Only vertical integration is ever tested on this exam.", "Only horizontal integration is ever tested on this exam."], correct: 1, explanation: "This exam specifically rewards correctly identifying which strategy a described scenario illustrates — vertical integration involves different production stages, horizontal integration involves same-stage competitors — a precise distinction, not interchangeable synonyms." },
-    { id: "6-9", topic: "6.2 Robber Barons and Social Darwinism", stem: "What does the 'robber baron' historical framing emphasize about Gilded Age industrialists?", choices: ["Genuine economic innovation and essential infrastructure-building.", "Ruthless, often exploitative business practices, crushing competitors and suppressing wages.", "Exclusively philanthropic activity with no business criticism.", "A framing with no historical basis of any kind."], correct: 1, explanation: "The 'robber baron' framing emphasizes ruthless, often exploitative business practices — crushing competitors, suppressing wages, and amassing fortunes through methods some viewed as unfair or corrupt." },
-    { id: "6-10", topic: "6.2 Robber Barons and Social Darwinism", stem: "What does the 'captain of industry' historical framing emphasize?", choices: ["Purely exploitative business practices with no redeeming quality.", "Genuine economic innovation, essential national infrastructure-building, and for some, significant later philanthropy.", "A framing focused exclusively on labor union activity.", "A framing with no relationship to Gilded Age industrialists."], correct: 1, explanation: "The 'captain of industry' framing emphasizes genuine economic innovation, the construction of essential national infrastructure, and, for some industrialists, significant later philanthropy." },
-    { id: "6-11", topic: "6.2 Robber Barons and Social Darwinism", stem: "What did Social Darwinism argue?", choices: ["That government should heavily regulate all economic activity.", "That 'survival of the fittest' applied to human society and economics, naturally and appropriately sorting successful from unsuccessful individuals.", "That wealth should be equally redistributed by government.", "That labor unions should control all major industries."], correct: 1, explanation: "Social Darwinism applied 'survival of the fittest' to human society and economics, arguing economic competition naturally and appropriately sorted society's 'fittest' from 'less fit' individuals, justifying minimal government intervention." },
-    { id: "6-12", topic: "6.2 Robber Barons and Social Darwinism", stem: "What did Andrew Carnegie's 'Gospel of Wealth' essay argue?", choices: ["That the wealthy should never engage in philanthropy.", "That the wealthy had earned their fortunes legitimately but bore a moral responsibility to use that wealth philanthropically for society's broader benefit.", "That all wealth should be seized by government.", "That poverty should be criminalized."], correct: 1, explanation: "Carnegie's 'Gospel of Wealth' argued the wealthy had earned their fortunes through legitimate competition but bore a moral responsibility to use that wealth philanthropically for society's broader benefit, rather than simply passing it to heirs." },
-    { id: "6-13", topic: "6.2 Robber Barons and Social Darwinism", stem: "How does the Gospel of Wealth differ from Social Darwinism?", choices: ["They are identical ideas with no meaningful distinction.", "Social Darwinism justified minimal intervention and indifference toward the poor; the Gospel of Wealth argued the wealthy bore an active moral obligation to give back philanthropically.", "The Gospel of Wealth opposed all forms of wealth accumulation.", "Social Darwinism required mandatory philanthropy by law."], correct: 1, explanation: "Social Darwinism justified minimal government intervention and indifference toward the poor as a natural outcome of competition, while the Gospel of Wealth argued the wealthy bore an ACTIVE moral obligation to give back philanthropically — related but genuinely distinct positions." },
-    { id: "6-14", topic: "6.2 Robber Barons and Social Darwinism", stem: "Why might a strong essay evaluating Andrew Carnegie avoid forcing a single 'robber baron' or 'captain of industry' verdict?", choices: ["Because only one characterization could possibly be historically accurate.", "Because evidence exists for both characterizations — wage suppression and violent labor conflict support one, while efficient infrastructure-building and extensive philanthropy support the other — and a strong essay can hold both together.", "Because Carnegie has no documented historical record of any kind.", "Because this debate has no relevance to the AP exam."], correct: 1, explanation: "A strong essay avoids forcing a single verdict because genuine evidence exists for both characterizations — a strong essay holds both together rather than picking one exclusively, reflecting the actual complexity of the historical record." },
-    { id: "6-15", topic: "6.2 Robber Barons and Social Darwinism", stem: "What philosophical/scientific concept did Social Darwinism apply to human society and economics?", choices: ["Newton's laws of motion", "Darwin's 'survival of the fittest'", "Einstein's theory of relativity", "Mercantilist economic theory"], correct: 1, explanation: "Social Darwinism applied Charles Darwin's biological concept of 'survival of the fittest' to human society and economics, providing ideological justification for extreme wealth inequality." },
-    { id: "6-16", topic: "6.2 Robber Barons and Social Darwinism", stem: "What kind of government economic policy did Social Darwinism tend to justify?", choices: ["Extensive government regulation and redistribution.", "Laissez-faire policy — minimal government interference in the economy.", "Complete government ownership of all industry.", "A policy with no relationship to government economic involvement."], correct: 1, explanation: "Social Darwinism tended to justify laissez-faire policy — minimal government interference in the economy — since economic competition was viewed as a natural, appropriate sorting mechanism that government intervention would improperly disrupt." },
-    { id: "6-17", topic: "6.3 Labor Movement", stem: "What was the Great Railroad Strike (1877)?", choices: ["The first major nationwide strike, which saw federal troops deployed against strikers.", "A bombing at a Chicago labor rally.", "A strike at a Carnegie steel plant.", "A strike unrelated to railroads despite its name."], correct: 0, explanation: "The Great Railroad Strike (1877) was the first major nationwide strike, which saw federal troops deployed against striking workers — establishing an early pattern of government intervention on business's side." },
-    { id: "6-18", topic: "6.3 Labor Movement", stem: "What was the Haymarket Affair (1886)?", choices: ["A peaceful, uneventful labor rally with no lasting consequence.", "A bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally.", "A strike at a Carnegie steel plant.", "A strike involving Pullman railroad cars."], correct: 1, explanation: "The Haymarket Affair (1886) was a bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally, despite unclear responsibility for the bombing itself." },
-    { id: "6-19", topic: "6.3 Labor Movement", stem: "What was the Homestead Strike (1892)?", choices: ["A peaceful negotiation with no violence.", "Violent conflict at a Carnegie steel plant, where private security forces (Pinkertons) clashed violently with strikers.", "A nationwide railroad strike.", "A strike unrelated to the steel industry."], correct: 1, explanation: "The Homestead Strike (1892) involved violent conflict at a Carnegie steel plant, where private security forces (Pinkertons) clashed violently with striking workers." },
-    { id: "6-20", topic: "6.3 Labor Movement", stem: "What was the Pullman Strike (1894)?", choices: ["A strike at a Carnegie steel plant.", "A nationwide railroad strike, where federal troops were deployed under a court injunction against striking workers.", "A peaceful strike with no government involvement.", "A strike that occurred before the Great Railroad Strike."], correct: 1, explanation: "The Pullman Strike (1894) was a nationwide railroad strike where federal troops were deployed under a court injunction, treating the strikers' actions as an illegal restraint on interstate commerce." },
-    { id: "6-21", topic: "6.3 Labor Movement", stem: "What recurring pattern does the comparison between the Great Railroad Strike (1877) and the Pullman Strike (1894) reveal?", choices: ["Government power consistently sided with labor against business.", "Federal government power was repeatedly deployed on the side of business against organized labor.", "The federal government never intervened in either strike.", "There is no meaningful pattern connecting these two strikes."], correct: 1, explanation: "This comparison reveals a consistent pattern: federal government power was repeatedly deployed on the side of business against organized labor, whether through direct troop deployment or court injunctions." },
-    { id: "6-22", topic: "6.3 Labor Movement", stem: "How did the Knights of Labor's membership strategy differ from the AFL's?", choices: ["The Knights of Labor pursued a broader membership strategy including unskilled workers, women, and Black workers; the AFL focused narrowly on skilled workers.", "Both organizations pursued identical membership strategies.", "The AFL pursued broader membership than the Knights of Labor.", "Neither organization had any specific membership strategy."], correct: 0, explanation: "The Knights of Labor pursued a broader membership strategy, including unskilled workers, women, and Black workers, while the AFL, under Samuel Gompers, focused narrowly on skilled workers." },
-    { id: "6-23", topic: "6.3 Labor Movement", stem: "What was the AFL's 'bread and butter' strategy?", choices: ["A focus on broad social reform goals with no specific economic demands.", "A narrower, pragmatic focus on concrete gains — wages, hours, working conditions — rather than broader social reform.", "A strategy focused exclusively on unskilled workers.", "A strategy with no relationship to labor organizing."], correct: 1, explanation: "The AFL's 'bread and butter' strategy focused narrowly and pragmatically on concrete gains — wages, hours, and working conditions — rather than pursuing the Knights of Labor's broader social reform goals." },
-    { id: "6-24", topic: "6.3 Labor Movement", stem: "Which labor organization's strategy ultimately proved more durable during this period?", choices: ["The Knights of Labor's broader strategy", "The AFL's narrower, pragmatic strategy", "Neither organization survived this period", "Both organizations had identical durability"], correct: 1, explanation: "The AFL's narrower, more pragmatic 'bread and butter' strategy ultimately proved more durable than the Knights of Labor's broader but less focused strategy." },
-    { id: "6-25", topic: "6.4 New Immigration and Nativism", stem: "What regions did 'Old Immigration' predominantly come from?", choices: ["Southern and eastern Europe", "Northern and western Europe", "East Asia exclusively", "Latin America exclusively"], correct: 1, explanation: "'Old Immigration' predominantly came from northern and western Europe, preceding the later shift toward 'New Immigration' from different regions." },
-    { id: "6-26", topic: "6.4 New Immigration and Nativism", stem: "What regions did 'New Immigration' predominantly come from, beginning significantly in this period?", choices: ["Northern and western Europe exclusively", "Southern and eastern Europe, along with continued Chinese immigration", "Only Canada and Mexico", "Only Australia and New Zealand"], correct: 1, explanation: "'New Immigration' predominantly came from southern and eastern Europe (Italy, Russia, Poland, and other regions), along with continued Chinese immigration on the West Coast." },
-    { id: "6-27", topic: "6.4 New Immigration and Nativism", stem: "What is 'nativism'?", choices: ["A policy encouraging unlimited immigration.", "Hostility toward immigrants, often grounded in religious and ethnic prejudice.", "A synonym for the Populist movement.", "A policy protecting Native American land rights."], correct: 1, explanation: "Nativism describes hostility toward immigrants, often grounded in religious prejudice (many New Immigrants were Catholic or Jewish) and ethnic/racial prejudice against groups viewed as culturally different." },
-    { id: "6-28", topic: "6.4 New Immigration and Nativism", stem: "What did the Chinese Exclusion Act (1882) do?", choices: ["Encouraged unlimited Chinese immigration.", "Explicitly banned Chinese immigration — the first major federal law restricting immigration by race.", "Applied to all immigrant groups equally, with no specific target.", "Granted Chinese immigrants automatic citizenship."], correct: 1, explanation: "The Chinese Exclusion Act (1882) explicitly banned Chinese immigration, becoming the first major federal law to explicitly restrict immigration based on race/national origin." },
-    { id: "6-29", topic: "6.4 New Immigration and Nativism", stem: "Why is the Chinese Exclusion Act significant beyond its immediate effect on Chinese immigrants specifically?", choices: ["It has no significance beyond its immediate target.", "It established a significant precedent for federal immigration restriction on racial/ethnic grounds, which later, broader restrictive laws would build upon.", "It was immediately repealed with no lasting effect.", "It only affected immigration policy for a single year."], correct: 1, explanation: "The Chinese Exclusion Act established a significant precedent for federal immigration restriction on explicitly racial/ethnic grounds — a precedent later, broader restrictive immigration laws in the early twentieth century would build directly upon." },
-    { id: "6-30", topic: "6.4 New Immigration and Nativism", stem: "What religious factors contributed to nativist hostility toward New Immigrants?", choices: ["New Immigrants were entirely Protestant, matching the existing population.", "Many New Immigrants were Catholic or Jewish, provoking hostility from a Protestant-majority native-born population.", "Religion played no role in nativist hostility.", "New Immigrants had no religious affiliation of any kind."], correct: 1, explanation: "Many New Immigrants were Catholic or Jewish, provoking hostility from a Protestant-majority native-born population — a significant religious dimension to Gilded Age nativism." },
-    { id: "6-31", topic: "6.4 New Immigration and Nativism", stem: "Why does distinguishing 'Old' from 'New' Immigration matter for understanding this period's nativism specifically?", choices: ["This distinction has no relevance to understanding nativism.", "New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different from the existing population than earlier immigrant waves, fueling a specific, escalating hostility.", "Old and New Immigration provoked identical levels of nativist hostility.", "Nativism only targeted Old Immigration, not New Immigration."], correct: 1, explanation: "This distinction matters because New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different from the existing population than earlier 'Old Immigration' waves had been, fueling escalating, specific nativist hostility during this period." },
-    { id: "6-32", topic: "6.4 New Immigration and Nativism", stem: "Which of the following best summarizes the shift this section describes in American immigration patterns?", choices: ["No shift occurred; immigration patterns remained constant throughout American history.", "A shift from predominantly northern/western European immigration toward predominantly southern/eastern European and Chinese immigration, provoking intensified nativist backlash.", "A shift away from any European immigration entirely.", "A shift toward exclusively Latin American immigration."], correct: 1, explanation: "This section describes a shift from predominantly northern/western European ('Old') immigration toward predominantly southern/eastern European and continued Chinese ('New') immigration, provoking intensified nativist backlash during this period." },
-    { id: "6-33", topic: "6.5 Urbanization and Political Machines", stem: "What were 'tenements'?", choices: ["Large, spacious suburban homes.", "Densely packed, often unsafe urban apartment buildings.", "Government-run immigrant assistance offices.", "A synonym for political machines."], correct: 1, explanation: "Tenements were densely packed, often unsafe urban apartment buildings, a significant urban problem produced by rapid industrialization and immigration during this period." },
-    { id: "6-34", topic: "6.5 Urbanization and Political Machines", stem: "What was Tammany Hall?", choices: ["A federal government agency.", "New York's most famous political machine.", "A labor union.", "A Populist Party organization."], correct: 1, explanation: "Tammany Hall was New York's most famous political machine, an organized (and often corrupt) urban political organization providing services to immigrant and working-class residents in exchange for political loyalty." },
-    { id: "6-35", topic: "6.5 Urbanization and Political Machines", stem: "What did political machines provide to immigrant and working-class urban residents?", choices: ["No services of any kind.", "Genuinely needed services — jobs, housing assistance, help navigating government bureaucracy — in exchange for political loyalty and votes.", "Only formal, government-run social services.", "Exclusively financial services with no other assistance."], correct: 1, explanation: "Political machines provided genuinely needed services — jobs, housing assistance, help navigating unfamiliar government bureaucracy — in exchange for reliable political loyalty and votes from immigrant and working-class communities." },
-    { id: "6-36", topic: "6.5 Urbanization and Political Machines", stem: "Is it accurate to describe political machines as purely corrupt organizations with no genuine benefit to the urban poor?", choices: ["Yes, political machines provided no benefit of any kind to anyone.", "No — a complete answer explains the real services machines provided that help explain their genuine, durable popular support, alongside acknowledging their corruption.", "Yes, because political machines had no relationship to immigrant communities.", "No, because political machines were never actually corrupt in any way."], correct: 1, explanation: "It is not accurate to describe political machines as purely corrupt with no genuine benefit — a complete, historically accurate answer explains the real services they provided (helping explain their durable popular support) alongside acknowledging their well-documented corruption and graft." },
-    { id: "6-37", topic: "6.5 Urbanization and Political Machines", stem: "What urban problem, alongside tenements, did rapid industrialization and immigration produce?", choices: ["Excessive government capacity to manage growth.", "Inadequate sanitation and limited formal government capacity to manage rapid growth.", "A complete absence of any urban population growth.", "Immediate, comprehensive government solutions to all urban problems."], correct: 1, explanation: "Inadequate sanitation and limited formal government capacity to manage rapid growth were significant urban problems, alongside tenement overcrowding, that political machines partially filled the resulting service gap for." },
-    { id: "6-38", topic: "6.5 Urbanization and Political Machines", stem: "What specific exchange defines the relationship between political machines and the immigrant communities they served?", choices: ["Services provided in exchange for reliable political loyalty and votes.", "Money provided in exchange for immediate citizenship.", "Housing provided with no expectation of anything in return.", "Votes provided by machines in exchange for services from immigrants."], correct: 0, explanation: "The defining exchange was services (jobs, housing assistance, bureaucratic help) provided by machines in exchange for reliable political loyalty and votes from the immigrant communities they served." },
-    { id: "6-39", topic: "6.5 Urbanization and Political Machines", stem: "Why did political machines emerge specifically in response to rapid urbanization during this period?", choices: ["Political machines had no relationship to urbanization.", "Formal city government lacked adequate capacity to manage rapid urban growth, leaving a service gap that political machines filled, however imperfectly.", "Political machines predated urbanization by several centuries.", "Rapid urbanization eliminated any need for political organization of any kind."], correct: 1, explanation: "Political machines emerged specifically because formal city government lacked adequate capacity to manage the era's rapid urban growth, leaving a genuine service gap that machines filled — imperfectly and often corruptly, but with real practical benefit to many immigrant families." },
-    { id: "6-40", topic: "6.5 Urbanization and Political Machines", stem: "Which of the following best completes this comparison: political machines : urban immigrant communities :: Freedmen's Bureau (Period 5) : ___?", choices: ["Formerly enslaved people seeking assistance during Reconstruction", "Wealthy industrialists", "Native American nations exclusively", "Southern plantation owners"], correct: 0, explanation: "Political machines served urban immigrant communities with practical assistance in a service gap; the Freedmen's Bureau (Period 5) similarly served formerly enslaved people with practical assistance in a comparable service gap — a useful structural parallel between two different periods' institutions." },
-    { id: "6-41", topic: "6.6 The West and Native Americans", stem: "What did the Dawes Act (1887) do?", choices: ["Forcibly relocated Native nations to new territory, as under Period 4's removal policy.", "Broke up communally held reservation land into individual allotments, pursuing assimilation rather than relocation.", "Granted Native Americans full political rights immediately.", "Had no relationship to Native American land policy."], correct: 1, explanation: "The Dawes Act (1887) broke up communally held reservation land into individual allotments granted to individual Native American family heads, pursuing forced assimilation rather than Period 4's relocation-based removal policy." },
-    { id: "6-42", topic: "6.6 The West and Native Americans", stem: "What was the actual practical consequence of the Dawes Act for total Native American landholding?", choices: ["A significant net increase in total Native landholding.", "A massive net LOSS of total Native American landholding, as 'surplus' land was opened to white settlers.", "No change in total Native American landholding.", "The Dawes Act had no relationship to land at all."], correct: 1, explanation: "The Dawes Act resulted in a massive net LOSS of total Native American landholding, since 'surplus' reservation land not allotted to individuals was opened for sale to white settlers." },
-    { id: "6-43", topic: "6.6 The West and Native Americans", stem: "What occurred at the Battle of Little Bighorn (1876)?", choices: ["A significant Native American victory over Custer's forces.", "A decisive U.S. military victory with no Native resistance.", "The signing of the Dawes Act.", "The founding of the Populist Party."], correct: 0, explanation: "The Battle of Little Bighorn (1876) was a significant Native American victory over Custer's forces, part of continued armed conflict during this period." },
-    { id: "6-44", topic: "6.6 The West and Native Americans", stem: "What occurred at Wounded Knee (1890)?", choices: ["A peaceful negotiation with no violence.", "U.S. troops killed a large number of Lakota Sioux, including many women and children, generally marking the end of major armed Native resistance on the Plains.", "A significant Native American military victory.", "The founding of the Dawes Act."], correct: 1, explanation: "The Wounded Knee Massacre (1890) saw U.S. troops kill a large number of Lakota Sioux, including many women and children, generally marking the end of major armed Native resistance on the Plains." },
-    { id: "6-45", topic: "6.6 The West and Native Americans", stem: "What did Frederick Jackson Turner's 1893 'Frontier Thesis' argue?", choices: ["That the frontier's closing had no historical significance.", "That the closing of the American frontier marked the end of a formative era of American character-building through westward expansion.", "That westward expansion should continue indefinitely with no closing point.", "That Native Americans, not settlers, defined the frontier experience."], correct: 1, explanation: "Turner's Frontier Thesis argued that the closing of the American frontier (declared by the Census Bureau in 1890) marked the end of a formative era of American character-building through westward expansion." },
-    { id: "6-46", topic: "6.6 The West and Native Americans", stem: "Should Turner's Frontier Thesis be treated as an objective statement of geographic fact, or as a specific historical interpretation?", choices: ["As an objective, universally agreed-upon statement of geographic fact with no interpretive element.", "As a specific, influential historical interpretation and argument, not simply an objective fact.", "As a claim with no relationship to American history.", "As a Native American perspective on westward expansion."], correct: 1, explanation: "Turner's Frontier Thesis should be treated as a specific, influential historical interpretation and argument about the frontier's significance for American character — not simply an objective, uncontested statement of geographic fact." },
-    { id: "6-47", topic: "6.6 The West and Native Americans", stem: "Compare the Dawes Act's mechanism to the Indian Removal Act's mechanism from Period 4.", choices: ["Both policies used the exact same mechanism with no meaningful difference.", "Indian Removal forcibly relocated Native nations to new territory; the Dawes Act instead pursued assimilation through individual land allotment, a genuinely different mechanism.", "The Dawes Act relocated Native nations; Indian Removal used land allotment.", "Neither policy had any relationship to Native American land."], correct: 1, explanation: "Indian Removal forcibly relocated Native nations to new territory, while the Dawes Act instead pursued assimilation through individual land allotment — a genuinely different mechanism, though both produced similarly devastating practical consequences." },
-    { id: "6-48", topic: "6.6 The West and Native Americans", stem: "Why is it inaccurate to describe the Dawes Act as a straightforwardly benevolent policy simply because its mechanism differed from Period 4's forcible removal?", choices: ["The Dawes Act was, in fact, a fully benevolent policy with no negative consequence.", "Despite its different mechanism, the Dawes Act produced similarly devastating practical consequences — massive net loss of Native landholding and a direct assault on tribal cultural and communal structures.", "The Dawes Act had no practical consequences of any kind.", "The Dawes Act and Indian Removal were identical policies with no meaningful distinction."], correct: 1, explanation: "It is inaccurate to describe the Dawes Act as straightforwardly benevolent because, despite its different, superficially more benevolent-sounding mechanism, it produced similarly devastating practical consequences for Native land and cultural autonomy as Period 4's removal policy." },
-    { id: "6-49", topic: "6.7 Agrarian Discontent and Populism", stem: "What two economic pressures combined to drive farmer economic distress during this period?", choices: ["Rising crop prices and low railroad shipping rates.", "Falling crop prices and high, often exploitative railroad shipping rates.", "No economic pressures affected farmers during this period.", "Only falling crop prices, with no relationship to railroad rates."], correct: 1, explanation: "Falling crop prices (driven by increased agricultural competition) combined with high, often exploitative railroad shipping rates to create a painful economic squeeze driving farmer distress and organizing." },
-    { id: "6-50", topic: "6.7 Agrarian Discontent and Populism", stem: "What was the Farmers' Alliance?", choices: ["A labor union for industrial workers.", "An organization through which farmers organized in response to economic distress, a precursor to the Populist Party.", "A political machine.", "A federal government agency."], correct: 1, explanation: "The Farmers' Alliance was an organization through which farmers organized in response to economic distress, serving as a precursor to the Populist Party's founding in 1892." },
-    { id: "6-51", topic: "6.7 Agrarian Discontent and Populism", stem: "When was the Populist (People's) Party founded?", choices: ["1877", "1892", "1896", "1898"], correct: 1, explanation: "The Populist (People's) Party was founded in 1892, articulating its reform agenda in the Omaha Platform." },
-    { id: "6-52", topic: "6.7 Agrarian Discontent and Populism", stem: "What did the Omaha Platform's 'free coinage of silver' demand aim to achieve?", choices: ["Reducing the total money supply to lower prices.", "Increasing the money supply to raise prices and ease farmers' debt burdens.", "Eliminating currency entirely.", "A demand unrelated to any economic goal."], correct: 1, explanation: "Free coinage of silver aimed to increase the money supply, raising prices and easing debt burdens for farmers struggling under falling crop prices and existing debt." },
-    { id: "6-53", topic: "6.7 Agrarian Discontent and Populism", stem: "Which of the following was a demand in the Populist Party's Omaha Platform?", choices: ["Direct election of U.S. Senators", "Immediate abolition of the presidency", "A return to the Articles of Confederation", "Elimination of all federal taxation"], correct: 0, explanation: "Direct election of U.S. Senators was a demand in the Populist Party's Omaha Platform, alongside free silver coinage, a graduated income tax, and government ownership of railroads." },
-    { id: "6-54", topic: "6.7 Agrarian Discontent and Populism", stem: "Why should the Populist platform NOT be described as narrowly focused only on immediate farmer economic relief?", choices: ["The Populist platform was, in fact, narrowly focused only on farmer relief with no broader vision.", "The Omaha Platform's demands (direct election of senators, graduated income tax, government railroad ownership) represented a genuinely broad, ambitious vision of political and economic reform.", "The Populist Party had no specific platform of any kind.", "The Populist platform focused exclusively on immigration policy."], correct: 1, explanation: "The Omaha Platform's demands represented a genuinely broad, ambitious reform vision well beyond narrow farmer relief — several of these demands would later be achieved through Progressive Era constitutional amendments." },
-    { id: "6-55", topic: "6.7 Agrarian Discontent and Populism", stem: "Explain how railroad monopoly power specifically contributed to farmer economic distress.", choices: ["Railroad monopolies had no relationship to farmer economic conditions.", "With no practical competing shipping option in many areas, railroad monopolies could charge farmers exploitative rates, directly cutting into already-thin profit margins.", "Railroad monopolies consistently charged farmers below-market shipping rates.", "Farmers had no need for railroad shipping services of any kind."], correct: 1, explanation: "With no practical competing shipping option in many rural areas, railroad monopolies could charge farmers exploitative rates, directly cutting into already-thin profit margins at the same time crop prices were falling." },
-    { id: "6-56", topic: "6.7 Agrarian Discontent and Populism", stem: "What government ownership demand appeared in the Omaha Platform?", choices: ["Government ownership of all farms", "Government ownership of railroads", "Government ownership of all steel mills", "No government ownership demand appeared in the platform"], correct: 1, explanation: "Government ownership of railroads was a demand in the Omaha Platform, directly responding to farmers' grievances about exploitative railroad monopoly shipping rates." },
-    { id: "6-57", topic: "6.8 Election of 1896", stem: "Who delivered the famous 'Cross of Gold' speech in the 1896 election?", choices: ["William McKinley", "William Jennings Bryan", "Andrew Carnegie", "Samuel Gompers"], correct: 1, explanation: "Democratic candidate William Jennings Bryan delivered the famous 'Cross of Gold' speech in the 1896 election, passionately advocating free silver coinage." },
-    { id: "6-58", topic: "6.8 Election of 1896", stem: "What did Bryan's 'Cross of Gold' speech effectively do to the Populist movement?", choices: ["It had no relationship to the Populist movement.", "It absorbed the Populist Party's core free silver issue and much of its voting base into the Democratic Party.", "It eliminated the free silver issue entirely from national politics.", "It caused the Populist Party to grow stronger as an independent force."], correct: 1, explanation: "Bryan's adoption of free silver in his 'Cross of Gold' speech effectively absorbed the Populist Party's core issue and much of its voting base into the Democratic Party, undermining Populist independent political viability." },
-    { id: "6-59", topic: "6.8 Election of 1896", stem: "Who won the 1896 presidential election?", choices: ["William Jennings Bryan", "William McKinley", "Andrew Carnegie", "Grover Cleveland"], correct: 1, explanation: "Republican William McKinley won the 1896 presidential election, running on a platform defending the gold standard and protective tariffs." },
-    { id: "6-60", topic: "6.8 Election of 1896", stem: "What coalition supported McKinley's winning 1896 campaign?", choices: ["Rural, agrarian free-silver supporters", "Urban, industrial, and business interests defending the gold standard", "Exclusively southern voters", "Exclusively Populist Party voters"], correct: 1, explanation: "McKinley's winning coalition consisted of urban, industrial, and business interests defending the gold standard against Bryan's rural/agrarian free-silver coalition." },
-    { id: "6-61", topic: "6.8 Election of 1896", stem: "What makes the Election of 1896 a 'critical realigning election'?", choices: ["It had no lasting effect on American politics.", "McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican dominance, rather than simply determining a single term's winner.", "It was immediately reversed in the next election with no lasting effect.", "It only affected state-level elections, not national politics."], correct: 1, explanation: "The 1896 election is a critical realigning election because McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican political dominance — not merely determining one term's winner." },
-    { id: "6-62", topic: "6.8 Election of 1896", stem: "Did the Populist Party's specific political ideas disappear entirely after the 1896 election?", choices: ["Yes, all Populist ideas were permanently abandoned with no future influence.", "No — several Omaha Platform demands (direct election of senators, graduated income tax) were later achieved through constitutional amendments during the Progressive Era.", "Yes, because the Populist Party never had any specific ideas.", "No, because the Populist Party won the 1896 election outright."], correct: 1, explanation: "Populist ideas did not disappear entirely — several Omaha Platform demands, including direct election of senators and a graduated income tax, were later achieved through constitutional amendments during the Progressive Era (Period 7)." },
-    { id: "6-63", topic: "6.8 Election of 1896", stem: "Why should the Populist Party's political end in 1896 be distinguished from the Populist movement's longer-term ideological influence?", choices: ["There is no meaningful distinction to draw between these two things.", "The party ended as an independent political force capable of winning national elections, but many of its specific ideas achieved lasting influence through later constitutional amendments — two genuinely different claims.", "The Populist Party never actually ended in any sense.", "The Populist movement had no ideological influence of any kind, before or after 1896."], correct: 1, explanation: "This distinction matters because the Populist PARTY's end as an independent political force is a different claim from the Populist MOVEMENT's genuine longer-term ideological influence — several of its specific ideas achieved lasting influence through later constitutional amendments, even as the party itself declined." },
-    { id: "6-64", topic: "6.8 Election of 1896", stem: "What issue did William McKinley's campaign platform specifically defend, in direct contrast to Bryan's free silver position?", choices: ["Free silver coinage", "The gold standard and protective tariffs", "Direct election of senators", "Government ownership of railroads"], correct: 1, explanation: "McKinley's campaign platform specifically defended the gold standard and protective tariffs, in direct contrast to Bryan's free silver advocacy." },
-    { id: "6-65", topic: "6.8 Election of 1896", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how Sections 6.1–6.2 (industrial consolidation and its ideological justification) and Sections 6.7–6.8 (agrarian organizing and its political absorption) represent two opposite ends of the SAME underlying economic transformation, with industrial capital gaining power at one end while a specific economic class (farmers) organized in direct political response at the other.", choices: ["These sections describe entirely unrelated economic phenomena with no connection.", "The same industrial consolidation and railroad power that Sections 6.1–6.2 describe as building enormous fortunes through vertical/horizontal integration is the DIRECT CAUSE of the railroad monopoly exploitation Section 6.7 identifies as driving farmer distress — meaning industrial concentration didn't just create wealthy industrialists, it simultaneously created the exploited economic constituency (farmers facing monopoly shipping rates) whose organized political response (Populism) directly shaped the 1896 election covered in Section 6.8.", "Only urban industrial workers, not farmers, were affected by industrial consolidation in any way.", "Agrarian organizing had no relationship to industrial consolidation of any kind."], correct: 1, explanation: "This synthesis question rewards recognizing that industrial consolidation (Sections 6.1–6.2) and agrarian political organizing (Sections 6.7–6.8) are not separate storylines but two ends of the SAME underlying transformation: the same railroad concentration of economic power that built enormous industrial fortunes is the direct, specific cause of the exploitative shipping rates Section 6.7 identifies as driving farmer distress — meaning the industrial consolidation covered early in this unit directly produced the exploited constituency whose organized political response (Populism) shaped the critical election covered at the unit's end, tying the entire unit into a single connected economic and political narrative rather than a list of separate topics." },
+  "6": [
+    {
+      "id": "6-1",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "What business strategy did Andrew Carnegie use to dominate the steel industry?",
+      "choices": [
+        "The spoils system",
+        "Popular sovereignty",
+        "Horizontal integration",
+        "Vertical integration"
+      ],
+      "correct": 3,
+      "explanation": "Andrew Carnegie used vertical integration — controlling every stage of production, from raw material mines to shipping railroads — to dominate the steel industry."
+    },
+    {
+      "id": "6-2",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "What business strategy did John D. Rockefeller use to dominate the oil industry?",
+      "choices": [
+        "The Dawes Act",
+        "Vertical integration",
+        "Horizontal integration",
+        "The Bessemer process"
+      ],
+      "correct": 2,
+      "explanation": "John D. Rockefeller used horizontal integration — buying out or merging with competing companies at the same stage of production — to dominate the oil industry through Standard Oil."
+    },
+    {
+      "id": "6-3",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "What does 'vertical integration' specifically mean?",
+      "choices": [
+        "Controlling every stage of production, from raw materials to finished, distributed product.",
+        "Buying out competitors making the same product.",
+        "A government policy regulating businesses.",
+        "A synonym for horizontal integration."
+      ],
+      "correct": 0,
+      "explanation": "Vertical integration means controlling every stage of production — from raw materials to finished, shipped product — eliminating dependence on outside suppliers or distributors."
+    },
+    {
+      "id": "6-4",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "What does 'horizontal integration' specifically mean?",
+      "choices": [
+        "A synonym for vertical integration.",
+        "Controlling every stage of production.",
+        "Buying out or merging with competing companies at the SAME stage of production.",
+        "A government antitrust policy."
+      ],
+      "correct": 2,
+      "explanation": "Horizontal integration means buying out or merging with competing companies at the SAME stage of production, consolidating an entire industry under one company's control."
+    },
+    {
+      "id": "6-5",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "A steel company buys out several other steel-producing companies that make the identical product. Which strategy does this illustrate?",
+      "choices": [
+        "The Dawes Act",
+        "Horizontal integration",
+        "Vertical integration",
+        "Popular sovereignty"
+      ],
+      "correct": 1,
+      "explanation": "Buying out competing companies making the identical product at the same stage of production illustrates horizontal integration, Rockefeller's strategy in the oil industry."
+    },
+    {
+      "id": "6-6",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "What innovation significantly reduced the cost of steel production during this period?",
+      "choices": [
+        "The Dawes Act",
+        "The Bessemer process",
+        "The spoils system",
+        "Popular sovereignty"
+      ],
+      "correct": 1,
+      "explanation": "The Bessemer process significantly reduced the cost of steel production, enabling faster and cheaper steel manufacturing central to the Second Industrial Revolution."
+    },
+    {
+      "id": "6-7",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "Which industry is described as the era's dominant big business, providing essential infrastructure connecting the national market?",
+      "choices": [
+        "Textile manufacturing",
+        "Railroads",
+        "Banking exclusively",
+        "Agriculture"
+      ],
+      "correct": 1,
+      "explanation": "Railroads were the era's dominant big business, providing essential infrastructure connecting the national market and enabling the broader Second Industrial Revolution."
+    },
+    {
+      "id": "6-8",
+      "topic": "6.1 Second Industrial Revolution",
+      "stem": "Why is distinguishing vertical from horizontal integration important for this exam, rather than treating both as interchangeable synonyms for 'big business getting bigger'?",
+      "choices": [
+        "There is no meaningful reason to distinguish these two strategies.",
+        "Only vertical integration is ever tested on this exam.",
+        "This exam specifically rewards correctly identifying WHICH strategy a described scenario illustrates, based on whether a company is acquiring different production stages or same-stage competitors.",
+        "Only horizontal integration is ever tested on this exam."
+      ],
+      "correct": 2,
+      "explanation": "This exam specifically rewards correctly identifying which strategy a described scenario illustrates — vertical integration involves different production stages, horizontal integration involves same-stage competitors — a precise distinction, not interchangeable synonyms."
+    },
+    {
+      "id": "6-9",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What does the 'robber baron' historical framing emphasize about Gilded Age industrialists?",
+      "choices": [
+        "Genuine economic innovation and essential infrastructure-building.",
+        "Exclusively philanthropic activity with no business criticism.",
+        "A framing with no historical basis of any kind.",
+        "Ruthless, often exploitative business practices, crushing competitors and suppressing wages."
+      ],
+      "correct": 3,
+      "explanation": "The 'robber baron' framing emphasizes ruthless, often exploitative business practices — crushing competitors, suppressing wages, and amassing fortunes through methods some viewed as unfair or corrupt."
+    },
+    {
+      "id": "6-10",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What does the 'captain of industry' historical framing emphasize?",
+      "choices": [
+        "A framing focused exclusively on labor union activity.",
+        "A framing with no relationship to Gilded Age industrialists.",
+        "Purely exploitative business practices with no redeeming quality.",
+        "Genuine economic innovation, essential national infrastructure-building, and for some, significant later philanthropy."
+      ],
+      "correct": 3,
+      "explanation": "The 'captain of industry' framing emphasizes genuine economic innovation, the construction of essential national infrastructure, and, for some industrialists, significant later philanthropy."
+    },
+    {
+      "id": "6-11",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What did Social Darwinism argue?",
+      "choices": [
+        "That 'survival of the fittest' applied to human society and economics, naturally and appropriately sorting successful from unsuccessful individuals.",
+        "That labor unions should control all major industries.",
+        "That wealth should be equally redistributed by government.",
+        "That government should heavily regulate all economic activity."
+      ],
+      "correct": 0,
+      "explanation": "Social Darwinism applied 'survival of the fittest' to human society and economics, arguing economic competition naturally and appropriately sorted society's 'fittest' from 'less fit' individuals, justifying minimal government intervention."
+    },
+    {
+      "id": "6-12",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What did Andrew Carnegie's 'Gospel of Wealth' essay argue?",
+      "choices": [
+        "That all wealth should be seized by government.",
+        "That the wealthy had earned their fortunes legitimately but bore a moral responsibility to use that wealth philanthropically for society's broader benefit.",
+        "That poverty should be criminalized.",
+        "That the wealthy should never engage in philanthropy."
+      ],
+      "correct": 1,
+      "explanation": "Carnegie's 'Gospel of Wealth' argued the wealthy had earned their fortunes through legitimate competition but bore a moral responsibility to use that wealth philanthropically for society's broader benefit, rather than simply passing it to heirs."
+    },
+    {
+      "id": "6-13",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "How does the Gospel of Wealth differ from Social Darwinism?",
+      "choices": [
+        "Social Darwinism justified minimal intervention and indifference toward the poor; the Gospel of Wealth argued the wealthy bore an active moral obligation to give back philanthropically.",
+        "The Gospel of Wealth opposed all forms of wealth accumulation.",
+        "Social Darwinism required mandatory philanthropy by law.",
+        "They are identical ideas with no meaningful distinction."
+      ],
+      "correct": 0,
+      "explanation": "Social Darwinism justified minimal government intervention and indifference toward the poor as a natural outcome of competition, while the Gospel of Wealth argued the wealthy bore an ACTIVE moral obligation to give back philanthropically — related but genuinely distinct positions."
+    },
+    {
+      "id": "6-14",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "Why might a strong essay evaluating Andrew Carnegie avoid forcing a single 'robber baron' or 'captain of industry' verdict?",
+      "choices": [
+        "Because Carnegie has no documented historical record of any kind.",
+        "Because only one characterization could possibly be historically accurate.",
+        "Because evidence exists for both characterizations — wage suppression and violent labor conflict support one, while efficient infrastructure-building and extensive philanthropy support the other — and a strong essay can hold both together.",
+        "Because this debate has no relevance to the AP exam."
+      ],
+      "correct": 2,
+      "explanation": "A strong essay avoids forcing a single verdict because genuine evidence exists for both characterizations — a strong essay holds both together rather than picking one exclusively, reflecting the actual complexity of the historical record."
+    },
+    {
+      "id": "6-15",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What philosophical/scientific concept did Social Darwinism apply to human society and economics?",
+      "choices": [
+        "Newton's laws of motion",
+        "Darwin's 'survival of the fittest'",
+        "Mercantilist economic theory",
+        "Einstein's theory of relativity"
+      ],
+      "correct": 1,
+      "explanation": "Social Darwinism applied Charles Darwin's biological concept of 'survival of the fittest' to human society and economics, providing ideological justification for extreme wealth inequality."
+    },
+    {
+      "id": "6-16",
+      "topic": "6.2 Robber Barons and Social Darwinism",
+      "stem": "What kind of government economic policy did Social Darwinism tend to justify?",
+      "choices": [
+        "Laissez-faire policy — minimal government interference in the economy.",
+        "A policy with no relationship to government economic involvement.",
+        "Complete government ownership of all industry.",
+        "Extensive government regulation and redistribution."
+      ],
+      "correct": 0,
+      "explanation": "Social Darwinism tended to justify laissez-faire policy — minimal government interference in the economy — since economic competition was viewed as a natural, appropriate sorting mechanism that government intervention would improperly disrupt."
+    },
+    {
+      "id": "6-17",
+      "topic": "6.3 Labor Movement",
+      "stem": "What was the Great Railroad Strike (1877)?",
+      "choices": [
+        "The first major nationwide strike, which saw federal troops deployed against strikers.",
+        "A strike unrelated to railroads despite its name.",
+        "A bombing at a Chicago labor rally.",
+        "A strike at a Carnegie steel plant."
+      ],
+      "correct": 0,
+      "explanation": "The Great Railroad Strike (1877) was the first major nationwide strike, which saw federal troops deployed against striking workers — establishing an early pattern of government intervention on business's side."
+    },
+    {
+      "id": "6-18",
+      "topic": "6.3 Labor Movement",
+      "stem": "What was the Haymarket Affair (1886)?",
+      "choices": [
+        "A peaceful, uneventful labor rally with no lasting consequence.",
+        "A bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally.",
+        "A strike at a Carnegie steel plant.",
+        "A strike involving Pullman railroad cars."
+      ],
+      "correct": 1,
+      "explanation": "The Haymarket Affair (1886) was a bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally, despite unclear responsibility for the bombing itself."
+    },
+    {
+      "id": "6-19",
+      "topic": "6.3 Labor Movement",
+      "stem": "What was the Homestead Strike (1892)?",
+      "choices": [
+        "Violent conflict at a Carnegie steel plant, where private security forces (Pinkertons) clashed violently with strikers.",
+        "A strike unrelated to the steel industry.",
+        "A nationwide railroad strike.",
+        "A peaceful negotiation with no violence."
+      ],
+      "correct": 0,
+      "explanation": "The Homestead Strike (1892) involved violent conflict at a Carnegie steel plant, where private security forces (Pinkertons) clashed violently with striking workers."
+    },
+    {
+      "id": "6-20",
+      "topic": "6.3 Labor Movement",
+      "stem": "What was the Pullman Strike (1894)?",
+      "choices": [
+        "A nationwide railroad strike, where federal troops were deployed under a court injunction against striking workers.",
+        "A strike that occurred before the Great Railroad Strike.",
+        "A strike at a Carnegie steel plant.",
+        "A peaceful strike with no government involvement."
+      ],
+      "correct": 0,
+      "explanation": "The Pullman Strike (1894) was a nationwide railroad strike where federal troops were deployed under a court injunction, treating the strikers' actions as an illegal restraint on interstate commerce."
+    },
+    {
+      "id": "6-21",
+      "topic": "6.3 Labor Movement",
+      "stem": "What recurring pattern does the comparison between the Great Railroad Strike (1877) and the Pullman Strike (1894) reveal?",
+      "choices": [
+        "Federal government power was repeatedly deployed on the side of business against organized labor.",
+        "There is no meaningful pattern connecting these two strikes.",
+        "Government power consistently sided with labor against business.",
+        "The federal government never intervened in either strike."
+      ],
+      "correct": 0,
+      "explanation": "This comparison reveals a consistent pattern: federal government power was repeatedly deployed on the side of business against organized labor, whether through direct troop deployment or court injunctions."
+    },
+    {
+      "id": "6-22",
+      "topic": "6.3 Labor Movement",
+      "stem": "How did the Knights of Labor's membership strategy differ from the AFL's?",
+      "choices": [
+        "The Knights of Labor pursued a broader membership strategy including unskilled workers, women, and Black workers; the AFL focused narrowly on skilled workers.",
+        "Neither organization had any specific membership strategy.",
+        "The AFL pursued broader membership than the Knights of Labor.",
+        "Both organizations pursued identical membership strategies."
+      ],
+      "correct": 0,
+      "explanation": "The Knights of Labor pursued a broader membership strategy, including unskilled workers, women, and Black workers, while the AFL, under Samuel Gompers, focused narrowly on skilled workers."
+    },
+    {
+      "id": "6-23",
+      "topic": "6.3 Labor Movement",
+      "stem": "What was the AFL's 'bread and butter' strategy?",
+      "choices": [
+        "A strategy with no relationship to labor organizing.",
+        "A strategy focused exclusively on unskilled workers.",
+        "A narrower, pragmatic focus on concrete gains — wages, hours, working conditions — rather than broader social reform.",
+        "A focus on broad social reform goals with no specific economic demands."
+      ],
+      "correct": 2,
+      "explanation": "The AFL's 'bread and butter' strategy focused narrowly and pragmatically on concrete gains — wages, hours, and working conditions — rather than pursuing the Knights of Labor's broader social reform goals."
+    },
+    {
+      "id": "6-24",
+      "topic": "6.3 Labor Movement",
+      "stem": "Which labor organization's strategy ultimately proved more durable during this period?",
+      "choices": [
+        "The AFL's narrower, pragmatic strategy",
+        "The Knights of Labor's broader strategy",
+        "Both organizations had identical durability",
+        "Neither organization survived this period"
+      ],
+      "correct": 0,
+      "explanation": "The AFL's narrower, more pragmatic 'bread and butter' strategy ultimately proved more durable than the Knights of Labor's broader but less focused strategy."
+    },
+    {
+      "id": "6-25",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "What regions did 'Old Immigration' predominantly come from?",
+      "choices": [
+        "East Asia exclusively",
+        "Northern and western Europe",
+        "Southern and eastern Europe",
+        "Latin America exclusively"
+      ],
+      "correct": 1,
+      "explanation": "'Old Immigration' predominantly came from northern and western Europe, preceding the later shift toward 'New Immigration' from different regions."
+    },
+    {
+      "id": "6-26",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "What regions did 'New Immigration' predominantly come from, beginning significantly in this period?",
+      "choices": [
+        "Only Canada and Mexico",
+        "Northern and western Europe exclusively",
+        "Southern and eastern Europe, along with continued Chinese immigration",
+        "Only Australia and New Zealand"
+      ],
+      "correct": 2,
+      "explanation": "'New Immigration' predominantly came from southern and eastern Europe (Italy, Russia, Poland, and other regions), along with continued Chinese immigration on the West Coast."
+    },
+    {
+      "id": "6-27",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "What is 'nativism'?",
+      "choices": [
+        "A policy protecting Native American land rights.",
+        "A synonym for the Populist movement.",
+        "Hostility toward immigrants, often grounded in religious and ethnic prejudice.",
+        "A policy encouraging unlimited immigration."
+      ],
+      "correct": 2,
+      "explanation": "Nativism describes hostility toward immigrants, often grounded in religious prejudice (many New Immigrants were Catholic or Jewish) and ethnic/racial prejudice against groups viewed as culturally different."
+    },
+    {
+      "id": "6-28",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "What did the Chinese Exclusion Act (1882) do?",
+      "choices": [
+        "Encouraged unlimited Chinese immigration.",
+        "Explicitly banned Chinese immigration — the first major federal law restricting immigration by race.",
+        "Granted Chinese immigrants automatic citizenship.",
+        "Applied to all immigrant groups equally, with no specific target."
+      ],
+      "correct": 1,
+      "explanation": "The Chinese Exclusion Act (1882) explicitly banned Chinese immigration, becoming the first major federal law to explicitly restrict immigration based on race/national origin."
+    },
+    {
+      "id": "6-29",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "Why is the Chinese Exclusion Act significant beyond its immediate effect on Chinese immigrants specifically?",
+      "choices": [
+        "It was immediately repealed with no lasting effect.",
+        "It has no significance beyond its immediate target.",
+        "It established a significant precedent for federal immigration restriction on racial/ethnic grounds, which later, broader restrictive laws would build upon.",
+        "It only affected immigration policy for a single year."
+      ],
+      "correct": 2,
+      "explanation": "The Chinese Exclusion Act established a significant precedent for federal immigration restriction on explicitly racial/ethnic grounds — a precedent later, broader restrictive immigration laws in the early twentieth century would build directly upon."
+    },
+    {
+      "id": "6-30",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "What religious factors contributed to nativist hostility toward New Immigrants?",
+      "choices": [
+        "Religion played no role in nativist hostility.",
+        "Many New Immigrants were Catholic or Jewish, provoking hostility from a Protestant-majority native-born population.",
+        "New Immigrants were entirely Protestant, matching the existing population.",
+        "New Immigrants had no religious affiliation of any kind."
+      ],
+      "correct": 1,
+      "explanation": "Many New Immigrants were Catholic or Jewish, provoking hostility from a Protestant-majority native-born population — a significant religious dimension to Gilded Age nativism."
+    },
+    {
+      "id": "6-31",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "Why does distinguishing 'Old' from 'New' Immigration matter for understanding this period's nativism specifically?",
+      "choices": [
+        "Old and New Immigration provoked identical levels of nativist hostility.",
+        "Nativism only targeted Old Immigration, not New Immigration.",
+        "New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different from the existing population than earlier immigrant waves, fueling a specific, escalating hostility.",
+        "This distinction has no relevance to understanding nativism."
+      ],
+      "correct": 2,
+      "explanation": "This distinction matters because New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different from the existing population than earlier 'Old Immigration' waves had been, fueling escalating, specific nativist hostility during this period."
+    },
+    {
+      "id": "6-32",
+      "topic": "6.4 New Immigration and Nativism",
+      "stem": "Which of the following best summarizes the shift this section describes in American immigration patterns?",
+      "choices": [
+        "No shift occurred; immigration patterns remained constant throughout American history.",
+        "A shift toward exclusively Latin American immigration.",
+        "A shift from predominantly northern/western European immigration toward predominantly southern/eastern European and Chinese immigration, provoking intensified nativist backlash.",
+        "A shift away from any European immigration entirely."
+      ],
+      "correct": 2,
+      "explanation": "This section describes a shift from predominantly northern/western European ('Old') immigration toward predominantly southern/eastern European and continued Chinese ('New') immigration, provoking intensified nativist backlash during this period."
+    },
+    {
+      "id": "6-33",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "What were 'tenements'?",
+      "choices": [
+        "Large, spacious suburban homes.",
+        "Government-run immigrant assistance offices.",
+        "A synonym for political machines.",
+        "Densely packed, often unsafe urban apartment buildings."
+      ],
+      "correct": 3,
+      "explanation": "Tenements were densely packed, often unsafe urban apartment buildings, a significant urban problem produced by rapid industrialization and immigration during this period."
+    },
+    {
+      "id": "6-34",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "What was Tammany Hall?",
+      "choices": [
+        "A Populist Party organization.",
+        "New York's most famous political machine.",
+        "A labor union.",
+        "A federal government agency."
+      ],
+      "correct": 1,
+      "explanation": "Tammany Hall was New York's most famous political machine, an organized (and often corrupt) urban political organization providing services to immigrant and working-class residents in exchange for political loyalty."
+    },
+    {
+      "id": "6-35",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "What did political machines provide to immigrant and working-class urban residents?",
+      "choices": [
+        "Genuinely needed services — jobs, housing assistance, help navigating government bureaucracy — in exchange for political loyalty and votes.",
+        "No services of any kind.",
+        "Exclusively financial services with no other assistance.",
+        "Only formal, government-run social services."
+      ],
+      "correct": 0,
+      "explanation": "Political machines provided genuinely needed services — jobs, housing assistance, help navigating unfamiliar government bureaucracy — in exchange for reliable political loyalty and votes from immigrant and working-class communities."
+    },
+    {
+      "id": "6-36",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "Is it accurate to describe political machines as purely corrupt organizations with no genuine benefit to the urban poor?",
+      "choices": [
+        "No — a complete answer explains the real services machines provided that help explain their genuine, durable popular support, alongside acknowledging their corruption.",
+        "Yes, political machines provided no benefit of any kind to anyone.",
+        "Yes, because political machines had no relationship to immigrant communities.",
+        "No, because political machines were never actually corrupt in any way."
+      ],
+      "correct": 0,
+      "explanation": "It is not accurate to describe political machines as purely corrupt with no genuine benefit — a complete, historically accurate answer explains the real services they provided (helping explain their durable popular support) alongside acknowledging their well-documented corruption and graft."
+    },
+    {
+      "id": "6-37",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "What urban problem, alongside tenements, did rapid industrialization and immigration produce?",
+      "choices": [
+        "A complete absence of any urban population growth.",
+        "Excessive government capacity to manage growth.",
+        "Immediate, comprehensive government solutions to all urban problems.",
+        "Inadequate sanitation and limited formal government capacity to manage rapid growth."
+      ],
+      "correct": 3,
+      "explanation": "Inadequate sanitation and limited formal government capacity to manage rapid growth were significant urban problems, alongside tenement overcrowding, that political machines partially filled the resulting service gap for."
+    },
+    {
+      "id": "6-38",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "What specific exchange defines the relationship between political machines and the immigrant communities they served?",
+      "choices": [
+        "Votes provided by machines in exchange for services from immigrants.",
+        "Housing provided with no expectation of anything in return.",
+        "Services provided in exchange for reliable political loyalty and votes.",
+        "Money provided in exchange for immediate citizenship."
+      ],
+      "correct": 2,
+      "explanation": "The defining exchange was services (jobs, housing assistance, bureaucratic help) provided by machines in exchange for reliable political loyalty and votes from the immigrant communities they served."
+    },
+    {
+      "id": "6-39",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "Why did political machines emerge specifically in response to rapid urbanization during this period?",
+      "choices": [
+        "Formal city government lacked adequate capacity to manage rapid urban growth, leaving a service gap that political machines filled, however imperfectly.",
+        "Political machines had no relationship to urbanization.",
+        "Political machines predated urbanization by several centuries.",
+        "Rapid urbanization eliminated any need for political organization of any kind."
+      ],
+      "correct": 0,
+      "explanation": "Political machines emerged specifically because formal city government lacked adequate capacity to manage the era's rapid urban growth, leaving a genuine service gap that machines filled — imperfectly and often corruptly, but with real practical benefit to many immigrant families."
+    },
+    {
+      "id": "6-40",
+      "topic": "6.5 Urbanization and Political Machines",
+      "stem": "Which of the following best completes this comparison: political machines : urban immigrant communities :: Freedmen's Bureau (Period 5) : ___?",
+      "choices": [
+        "Formerly enslaved people seeking assistance during Reconstruction",
+        "Southern plantation owners",
+        "Native American nations exclusively",
+        "Wealthy industrialists"
+      ],
+      "correct": 0,
+      "explanation": "Political machines served urban immigrant communities with practical assistance in a service gap; the Freedmen's Bureau (Period 5) similarly served formerly enslaved people with practical assistance in a comparable service gap — a useful structural parallel between two different periods' institutions."
+    },
+    {
+      "id": "6-41",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "What did the Dawes Act (1887) do?",
+      "choices": [
+        "Granted Native Americans full political rights immediately.",
+        "Forcibly relocated Native nations to new territory, as under Period 4's removal policy.",
+        "Broke up communally held reservation land into individual allotments, pursuing assimilation rather than relocation.",
+        "Had no relationship to Native American land policy."
+      ],
+      "correct": 2,
+      "explanation": "The Dawes Act (1887) broke up communally held reservation land into individual allotments granted to individual Native American family heads, pursuing forced assimilation rather than Period 4's relocation-based removal policy."
+    },
+    {
+      "id": "6-42",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "What was the actual practical consequence of the Dawes Act for total Native American landholding?",
+      "choices": [
+        "No change in total Native American landholding.",
+        "A significant net increase in total Native landholding.",
+        "The Dawes Act had no relationship to land at all.",
+        "A massive net LOSS of total Native American landholding, as 'surplus' land was opened to white settlers."
+      ],
+      "correct": 3,
+      "explanation": "The Dawes Act resulted in a massive net LOSS of total Native American landholding, since 'surplus' reservation land not allotted to individuals was opened for sale to white settlers."
+    },
+    {
+      "id": "6-43",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "What occurred at the Battle of Little Bighorn (1876)?",
+      "choices": [
+        "The founding of the Populist Party.",
+        "A decisive U.S. military victory with no Native resistance.",
+        "A significant Native American victory over Custer's forces.",
+        "The signing of the Dawes Act."
+      ],
+      "correct": 2,
+      "explanation": "The Battle of Little Bighorn (1876) was a significant Native American victory over Custer's forces, part of continued armed conflict during this period."
+    },
+    {
+      "id": "6-44",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "What occurred at Wounded Knee (1890)?",
+      "choices": [
+        "The founding of the Dawes Act.",
+        "U.S. troops killed a large number of Lakota Sioux, including many women and children, generally marking the end of major armed Native resistance on the Plains.",
+        "A peaceful negotiation with no violence.",
+        "A significant Native American military victory."
+      ],
+      "correct": 1,
+      "explanation": "The Wounded Knee Massacre (1890) saw U.S. troops kill a large number of Lakota Sioux, including many women and children, generally marking the end of major armed Native resistance on the Plains."
+    },
+    {
+      "id": "6-45",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "What did Frederick Jackson Turner's 1893 'Frontier Thesis' argue?",
+      "choices": [
+        "That Native Americans, not settlers, defined the frontier experience.",
+        "That the frontier's closing had no historical significance.",
+        "That the closing of the American frontier marked the end of a formative era of American character-building through westward expansion.",
+        "That westward expansion should continue indefinitely with no closing point."
+      ],
+      "correct": 2,
+      "explanation": "Turner's Frontier Thesis argued that the closing of the American frontier (declared by the Census Bureau in 1890) marked the end of a formative era of American character-building through westward expansion."
+    },
+    {
+      "id": "6-46",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "Should Turner's Frontier Thesis be treated as an objective statement of geographic fact, or as a specific historical interpretation?",
+      "choices": [
+        "As a claim with no relationship to American history.",
+        "As a Native American perspective on westward expansion.",
+        "As an objective, universally agreed-upon statement of geographic fact with no interpretive element.",
+        "As a specific, influential historical interpretation and argument, not simply an objective fact."
+      ],
+      "correct": 3,
+      "explanation": "Turner's Frontier Thesis should be treated as a specific, influential historical interpretation and argument about the frontier's significance for American character — not simply an objective, uncontested statement of geographic fact."
+    },
+    {
+      "id": "6-47",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "Compare the Dawes Act's mechanism to the Indian Removal Act's mechanism from Period 4.",
+      "choices": [
+        "Both policies used the exact same mechanism with no meaningful difference.",
+        "The Dawes Act relocated Native nations; Indian Removal used land allotment.",
+        "Indian Removal forcibly relocated Native nations to new territory; the Dawes Act instead pursued assimilation through individual land allotment, a genuinely different mechanism.",
+        "Neither policy had any relationship to Native American land."
+      ],
+      "correct": 2,
+      "explanation": "Indian Removal forcibly relocated Native nations to new territory, while the Dawes Act instead pursued assimilation through individual land allotment — a genuinely different mechanism, though both produced similarly devastating practical consequences."
+    },
+    {
+      "id": "6-48",
+      "topic": "6.6 The West and Native Americans",
+      "stem": "Why is it inaccurate to describe the Dawes Act as a straightforwardly benevolent policy simply because its mechanism differed from Period 4's forcible removal?",
+      "choices": [
+        "The Dawes Act was, in fact, a fully benevolent policy with no negative consequence.",
+        "Despite its different mechanism, the Dawes Act produced similarly devastating practical consequences — massive net loss of Native landholding and a direct assault on tribal cultural and communal structures.",
+        "The Dawes Act had no practical consequences of any kind.",
+        "The Dawes Act and Indian Removal were identical policies with no meaningful distinction."
+      ],
+      "correct": 1,
+      "explanation": "It is inaccurate to describe the Dawes Act as straightforwardly benevolent because, despite its different, superficially more benevolent-sounding mechanism, it produced similarly devastating practical consequences for Native land and cultural autonomy as Period 4's removal policy."
+    },
+    {
+      "id": "6-49",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "What two economic pressures combined to drive farmer economic distress during this period?",
+      "choices": [
+        "Falling crop prices and high, often exploitative railroad shipping rates.",
+        "Only falling crop prices, with no relationship to railroad rates.",
+        "No economic pressures affected farmers during this period.",
+        "Rising crop prices and low railroad shipping rates."
+      ],
+      "correct": 0,
+      "explanation": "Falling crop prices (driven by increased agricultural competition) combined with high, often exploitative railroad shipping rates to create a painful economic squeeze driving farmer distress and organizing."
+    },
+    {
+      "id": "6-50",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "What was the Farmers' Alliance?",
+      "choices": [
+        "A federal government agency.",
+        "An organization through which farmers organized in response to economic distress, a precursor to the Populist Party.",
+        "A labor union for industrial workers.",
+        "A political machine."
+      ],
+      "correct": 1,
+      "explanation": "The Farmers' Alliance was an organization through which farmers organized in response to economic distress, serving as a precursor to the Populist Party's founding in 1892."
+    },
+    {
+      "id": "6-51",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "When was the Populist (People's) Party founded?",
+      "choices": [
+        "1892",
+        "1898",
+        "1877",
+        "1896"
+      ],
+      "correct": 0,
+      "explanation": "The Populist (People's) Party was founded in 1892, articulating its reform agenda in the Omaha Platform."
+    },
+    {
+      "id": "6-52",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "What did the Omaha Platform's 'free coinage of silver' demand aim to achieve?",
+      "choices": [
+        "A demand unrelated to any economic goal.",
+        "Eliminating currency entirely.",
+        "Increasing the money supply to raise prices and ease farmers' debt burdens.",
+        "Reducing the total money supply to lower prices."
+      ],
+      "correct": 2,
+      "explanation": "Free coinage of silver aimed to increase the money supply, raising prices and easing debt burdens for farmers struggling under falling crop prices and existing debt."
+    },
+    {
+      "id": "6-53",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "Which of the following was a demand in the Populist Party's Omaha Platform?",
+      "choices": [
+        "A return to the Articles of Confederation",
+        "Direct election of U.S. Senators",
+        "Elimination of all federal taxation",
+        "Immediate abolition of the presidency"
+      ],
+      "correct": 1,
+      "explanation": "Direct election of U.S. Senators was a demand in the Populist Party's Omaha Platform, alongside free silver coinage, a graduated income tax, and government ownership of railroads."
+    },
+    {
+      "id": "6-54",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "Why should the Populist platform NOT be described as narrowly focused only on immediate farmer economic relief?",
+      "choices": [
+        "The Populist platform focused exclusively on immigration policy.",
+        "The Populist platform was, in fact, narrowly focused only on farmer relief with no broader vision.",
+        "The Omaha Platform's demands (direct election of senators, graduated income tax, government railroad ownership) represented a genuinely broad, ambitious vision of political and economic reform.",
+        "The Populist Party had no specific platform of any kind."
+      ],
+      "correct": 2,
+      "explanation": "The Omaha Platform's demands represented a genuinely broad, ambitious reform vision well beyond narrow farmer relief — several of these demands would later be achieved through Progressive Era constitutional amendments."
+    },
+    {
+      "id": "6-55",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "Explain how railroad monopoly power specifically contributed to farmer economic distress.",
+      "choices": [
+        "Railroad monopolies consistently charged farmers below-market shipping rates.",
+        "With no practical competing shipping option in many areas, railroad monopolies could charge farmers exploitative rates, directly cutting into already-thin profit margins.",
+        "Railroad monopolies had no relationship to farmer economic conditions.",
+        "Farmers had no need for railroad shipping services of any kind."
+      ],
+      "correct": 1,
+      "explanation": "With no practical competing shipping option in many rural areas, railroad monopolies could charge farmers exploitative rates, directly cutting into already-thin profit margins at the same time crop prices were falling."
+    },
+    {
+      "id": "6-56",
+      "topic": "6.7 Agrarian Discontent and Populism",
+      "stem": "What government ownership demand appeared in the Omaha Platform?",
+      "choices": [
+        "Government ownership of all steel mills",
+        "Government ownership of railroads",
+        "Government ownership of all farms",
+        "No government ownership demand appeared in the platform"
+      ],
+      "correct": 1,
+      "explanation": "Government ownership of railroads was a demand in the Omaha Platform, directly responding to farmers' grievances about exploitative railroad monopoly shipping rates."
+    },
+    {
+      "id": "6-57",
+      "topic": "6.8 Election of 1896",
+      "stem": "Who delivered the famous 'Cross of Gold' speech in the 1896 election?",
+      "choices": [
+        "William McKinley",
+        "Samuel Gompers",
+        "Andrew Carnegie",
+        "William Jennings Bryan"
+      ],
+      "correct": 3,
+      "explanation": "Democratic candidate William Jennings Bryan delivered the famous 'Cross of Gold' speech in the 1896 election, passionately advocating free silver coinage."
+    },
+    {
+      "id": "6-58",
+      "topic": "6.8 Election of 1896",
+      "stem": "What did Bryan's 'Cross of Gold' speech effectively do to the Populist movement?",
+      "choices": [
+        "It had no relationship to the Populist movement.",
+        "It eliminated the free silver issue entirely from national politics.",
+        "It absorbed the Populist Party's core free silver issue and much of its voting base into the Democratic Party.",
+        "It caused the Populist Party to grow stronger as an independent force."
+      ],
+      "correct": 2,
+      "explanation": "Bryan's adoption of free silver in his 'Cross of Gold' speech effectively absorbed the Populist Party's core issue and much of its voting base into the Democratic Party, undermining Populist independent political viability."
+    },
+    {
+      "id": "6-59",
+      "topic": "6.8 Election of 1896",
+      "stem": "Who won the 1896 presidential election?",
+      "choices": [
+        "William Jennings Bryan",
+        "Andrew Carnegie",
+        "William McKinley",
+        "Grover Cleveland"
+      ],
+      "correct": 2,
+      "explanation": "Republican William McKinley won the 1896 presidential election, running on a platform defending the gold standard and protective tariffs."
+    },
+    {
+      "id": "6-60",
+      "topic": "6.8 Election of 1896",
+      "stem": "What coalition supported McKinley's winning 1896 campaign?",
+      "choices": [
+        "Urban, industrial, and business interests defending the gold standard",
+        "Exclusively Populist Party voters",
+        "Rural, agrarian free-silver supporters",
+        "Exclusively southern voters"
+      ],
+      "correct": 0,
+      "explanation": "McKinley's winning coalition consisted of urban, industrial, and business interests defending the gold standard against Bryan's rural/agrarian free-silver coalition."
+    },
+    {
+      "id": "6-61",
+      "topic": "6.8 Election of 1896",
+      "stem": "What makes the Election of 1896 a 'critical realigning election'?",
+      "choices": [
+        "It only affected state-level elections, not national politics.",
+        "It was immediately reversed in the next election with no lasting effect.",
+        "It had no lasting effect on American politics.",
+        "McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican dominance, rather than simply determining a single term's winner."
+      ],
+      "correct": 3,
+      "explanation": "The 1896 election is a critical realigning election because McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican political dominance — not merely determining one term's winner."
+    },
+    {
+      "id": "6-62",
+      "topic": "6.8 Election of 1896",
+      "stem": "Did the Populist Party's specific political ideas disappear entirely after the 1896 election?",
+      "choices": [
+        "Yes, all Populist ideas were permanently abandoned with no future influence.",
+        "No, because the Populist Party won the 1896 election outright.",
+        "Yes, because the Populist Party never had any specific ideas.",
+        "No — several Omaha Platform demands (direct election of senators, graduated income tax) were later achieved through constitutional amendments during the Progressive Era."
+      ],
+      "correct": 3,
+      "explanation": "Populist ideas did not disappear entirely — several Omaha Platform demands, including direct election of senators and a graduated income tax, were later achieved through constitutional amendments during the Progressive Era (Period 7)."
+    },
+    {
+      "id": "6-63",
+      "topic": "6.8 Election of 1896",
+      "stem": "Why should the Populist Party's political end in 1896 be distinguished from the Populist movement's longer-term ideological influence?",
+      "choices": [
+        "There is no meaningful distinction to draw between these two things.",
+        "The party ended as an independent political force capable of winning national elections, but many of its specific ideas achieved lasting influence through later constitutional amendments — two genuinely different claims.",
+        "The Populist Party never actually ended in any sense.",
+        "The Populist movement had no ideological influence of any kind, before or after 1896."
+      ],
+      "correct": 1,
+      "explanation": "This distinction matters because the Populist PARTY's end as an independent political force is a different claim from the Populist MOVEMENT's genuine longer-term ideological influence — several of its specific ideas achieved lasting influence through later constitutional amendments, even as the party itself declined."
+    },
+    {
+      "id": "6-64",
+      "topic": "6.8 Election of 1896",
+      "stem": "What issue did William McKinley's campaign platform specifically defend, in direct contrast to Bryan's free silver position?",
+      "choices": [
+        "The gold standard and protective tariffs",
+        "Direct election of senators",
+        "Free silver coinage",
+        "Government ownership of railroads"
+      ],
+      "correct": 0,
+      "explanation": "McKinley's campaign platform specifically defended the gold standard and protective tariffs, in direct contrast to Bryan's free silver advocacy."
+    },
+    {
+      "id": "6-65",
+      "topic": "6.8 Election of 1896",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how Sections 6.1–6.2 (industrial consolidation and its ideological justification) and Sections 6.7–6.8 (agrarian organizing and its political absorption) represent two opposite ends of the SAME underlying economic transformation, with industrial capital gaining power at one end while a specific economic class (farmers) organized in direct political response at the other.",
+      "choices": [
+        "Agrarian organizing had no relationship to industrial consolidation of any kind.",
+        "The same industrial consolidation and railroad power that Sections 6.1–6.2 describe as building enormous fortunes through vertical/horizontal integration is the DIRECT CAUSE of the railroad monopoly exploitation Section 6.7 identifies as driving farmer distress — meaning industrial concentration didn't just create wealthy industrialists, it simultaneously created the exploited economic constituency (farmers facing monopoly shipping rates) whose organized political response (Populism) directly shaped the 1896 election covered in Section 6.8.",
+        "These sections describe entirely unrelated economic phenomena with no connection.",
+        "Only urban industrial workers, not farmers, were affected by industrial consolidation in any way."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question rewards recognizing that industrial consolidation (Sections 6.1–6.2) and agrarian political organizing (Sections 6.7–6.8) are not separate storylines but two ends of the SAME underlying transformation: the same railroad concentration of economic power that built enormous industrial fortunes is the direct, specific cause of the exploitative shipping rates Section 6.7 identifies as driving farmer distress — meaning the industrial consolidation covered early in this unit directly produced the exploited constituency whose organized political response (Populism) shaped the critical election covered at the unit's end, tying the entire unit into a single connected economic and political narrative rather than a list of separate topics."
+    }
   ],
-  7: [
-    { id: "7-1", topic: "7.1 American Imperialism", stem: "What territories did the United States gain control of following the Spanish-American War (1898)?", choices: ["Canada, Mexico, and Cuba", "The Philippines, Puerto Rico, and Guam", "Alaska, Hawaii, and Texas", "France, Germany, and Spain"], correct: 1, explanation: "The United States gained control of the Philippines, Puerto Rico, and Guam following the Spanish-American War, marking a significant turn toward overseas imperial power." },
-    { id: "7-2", topic: "7.1 American Imperialism", stem: "What was the Platt Amendment?", choices: ["A law restricting immigration.", "A provision restricting Cuban sovereignty and authorizing U.S. military intervention, following Cuba's nominal independence.", "A tariff policy targeting Spain.", "A constitutional amendment expanding voting rights."], correct: 1, explanation: "The Platt Amendment restricted Cuban sovereignty and authorized U.S. military intervention in Cuba, following Cuba's nominal independence after the Spanish-American War." },
-    { id: "7-3", topic: "7.1 American Imperialism", stem: "What was the Anti-Imperialist League's core objection to overseas territorial acquisition?", choices: ["That it was too expensive for the federal budget.", "That it contradicted core American democratic principles by governing populations without their consent.", "That it would strengthen relations with Spain.", "That it had no relationship to any political or moral principle."], correct: 1, explanation: "The Anti-Imperialist League argued that governing overseas populations without their consent directly contradicted core American democratic principles, providing significant domestic opposition to imperial expansion." },
-    { id: "7-4", topic: "7.1 American Imperialism", stem: "What did the Open Door Policy (1899) assert regarding China?", choices: ["That China should be divided into exclusive colonial territories.", "That all nations should have equal trading access to China, rather than exclusive spheres of influence.", "That the U.S. should annex China entirely.", "That China should be excluded from all international trade."], correct: 1, explanation: "The Open Door Policy asserted that all nations should have equal trading access to China, rather than China being carved into exclusive spheres of influence by rival imperial powers." },
-    { id: "7-5", topic: "7.1 American Imperialism", stem: "What did the Roosevelt Corollary to the Monroe Doctrine assert?", choices: ["A U.S. right to intervene in Latin American nations' internal affairs to preserve stability and prevent European intervention.", "A U.S. commitment to never intervene in any foreign nation's affairs.", "A U.S. alliance with European powers to jointly govern Latin America.", "A policy unrelated to Latin America."], correct: 0, explanation: "The Roosevelt Corollary asserted a U.S. right to intervene in Latin American nations' internal affairs to preserve stability and prevent European intervention, significantly expanding the original Monroe Doctrine's more defensive posture." },
-    { id: "7-6", topic: "7.1 American Imperialism", stem: "How does the Roosevelt Corollary's approach to extending influence differ from direct territorial acquisition like the Philippines?", choices: ["There is no meaningful difference between these two approaches.", "The Roosevelt Corollary asserted a right to intervene without formal territorial annexation ('informal empire'), unlike the Philippines' direct formal governance.", "The Roosevelt Corollary involved formal annexation, while the Philippines did not.", "Both approaches involved identical formal governing arrangements."], correct: 1, explanation: "The Roosevelt Corollary extended U.S. influence through a right to intervene without formal territorial annexation — a form of 'informal empire' — genuinely different from the Philippines' direct, formal colonial governance." },
-    { id: "7-7", topic: "7.1 American Imperialism", stem: "What role did 'yellow journalism' play in the lead-up to the Spanish-American War?", choices: ["It had no relationship to the war.", "Sensationalized newspaper coverage of Spanish colonial abuses in Cuba helped build American public support for war.", "It exclusively opposed American entry into the war.", "It was a term describing Spanish government propaganda."], correct: 1, explanation: "Sensationalized 'yellow journalism' newspaper coverage of Spanish colonial abuses in Cuba, along with the USS Maine's explosion, helped build American public support for entering the Spanish-American War." },
-    { id: "7-8", topic: "7.1 American Imperialism", stem: "Is it accurate to describe American imperialism during this period as universally supported with no domestic opposition?", choices: ["Yes, imperialism faced no domestic opposition of any kind.", "No — the Anti-Imperialist League, including prominent figures like Mark Twain, actively opposed overseas territorial acquisition.", "Yes, because the Anti-Imperialist League never actually existed.", "No, because no American ever supported imperialism during this period."], correct: 1, explanation: "It is not accurate to describe American imperialism as universally supported — the Anti-Imperialist League, including prominent figures like Mark Twain, actively and publicly opposed overseas territorial acquisition on democratic principled grounds." },
-    { id: "7-9", topic: "7.2 Progressive Era", stem: "What specific abuse did Upton Sinclair's The Jungle expose, directly leading to federal legislation?", choices: ["Railroad monopoly pricing", "Horrific meatpacking industry conditions", "Banking system fragility", "Voter fraud"], correct: 1, explanation: "Upton Sinclair's The Jungle exposed horrific meatpacking industry conditions, directly leading to the Pure Food and Drug Act and Meat Inspection Act (both 1906)." },
-    { id: "7-10", topic: "7.2 Progressive Era", stem: "What did the Seventeenth Amendment (1913) establish?", choices: ["Women's suffrage nationwide.", "Direct election of U.S. Senators.", "Prohibition of alcohol.", "A graduated income tax."], correct: 1, explanation: "The Seventeenth Amendment (1913) established direct election of U.S. Senators — a demand directly traceable to the Populist Party's 1892 Omaha Platform." },
-    { id: "7-11", topic: "7.2 Progressive Era", stem: "How does the Seventeenth Amendment connect to Period 6's Populist movement?", choices: ["There is no connection between these two developments.", "Direct election of Senators was originally a demand in the Populist Party's 1892 Omaha Platform, achieved through constitutional amendment two decades after Populism's independent party organization collapsed.", "The Seventeenth Amendment eliminated a Populist achievement.", "The Populist movement actively opposed direct election of Senators."], correct: 1, explanation: "Direct election of Senators was originally a Populist Omaha Platform demand (Section 6.7) — the Seventeenth Amendment's passage two decades later directly illustrates Populism's genuine longer-term ideological influence, even after the party's own political end." },
-    { id: "7-12", topic: "7.2 Progressive Era", stem: "How did Theodore Roosevelt's 'Square Deal' approach trusts?", choices: ["By opposing all forms of large business regardless of behavior.", "By distinguishing between 'good trusts' (efficient, non-abusive) and 'bad trusts' (genuinely abusive), pursuing selective regulation.", "By eliminating all antitrust enforcement entirely.", "By nationalizing all major industries."], correct: 1, explanation: "Roosevelt's Square Deal distinguished between 'good trusts' and 'bad trusts,' pursuing selective regulation and antitrust enforcement rather than blanket opposition to large business size itself." },
-    { id: "7-13", topic: "7.2 Progressive Era", stem: "How did Woodrow Wilson's 'New Freedom' approach differ philosophically from Roosevelt's Square Deal?", choices: ["They were philosophically identical with no meaningful difference.", "New Freedom was more philosophically skeptical of large corporate concentration generally, favoring more aggressive trust-breaking regardless of current behavior.", "New Freedom favored eliminating all antitrust enforcement entirely.", "New Freedom had no relationship to trusts or corporate power."], correct: 1, explanation: "Wilson's New Freedom was more philosophically skeptical of large corporate concentration generally, favoring more aggressive trust-breaking as inherently preferable, regardless of whether a specific corporation was currently behaving abusively — a genuinely different underlying philosophy from Roosevelt's Square Deal." },
-    { id: "7-14", topic: "7.2 Progressive Era", stem: "Which political reforms allowed voters more direct influence over legislation and officeholders during the Progressive Era?", choices: ["The direct primary, initiative, referendum, and recall", "The spoils system", "Popular sovereignty", "The Homestead Act"], correct: 0, explanation: "The direct primary, initiative, referendum, and recall were Progressive-era political reforms allowing voters more direct influence over legislation and officeholders." },
-    { id: "7-15", topic: "7.2 Progressive Era", stem: "What specific causal pattern connects muckraking journalism to Progressive legislation?", choices: ["Muckraking journalism had no relationship to any legislation.", "Muckrakers exposed specific corporate and social abuses to a mass audience, directly leading to specific regulatory legislation addressing those exposed abuses.", "Muckraking journalism only ever criticized government, never business.", "Legislation always preceded muckraking journalism, not the reverse."], correct: 1, explanation: "The muckraker-to-legislation pattern involves journalists exposing specific abuses to a mass audience, directly leading to specific regulatory legislation — as with Sinclair's The Jungle leading directly to food safety laws." },
-    { id: "7-16", topic: "7.3 WWI Neutrality to Intervention", stem: "What was 'unrestricted submarine warfare'?", choices: ["A policy of attacking only military vessels with prior warning.", "Germany's policy of attacking ships, including passenger vessels, without warning.", "A U.S. naval strategy against Germany.", "A policy unrelated to World War I."], correct: 1, explanation: "Unrestricted submarine warfare was Germany's policy of attacking ships, including passenger vessels like the Lusitania, without warning — a significant strain on American neutrality." },
-    { id: "7-17", topic: "7.3 WWI Neutrality to Intervention", stem: "Did the Lusitania's sinking (1915) immediately and directly bring the United States into World War I?", choices: ["Yes, the U.S. declared war immediately following the Lusitania's sinking.", "No — the U.S. remained neutral for nearly two more years after this event, since Germany temporarily suspended unrestricted submarine warfare in response to American protest.", "Yes, because the Lusitania was an American vessel.", "No, because the Lusitania's sinking had no relationship to World War I."], correct: 1, explanation: "The Lusitania's sinking did NOT immediately bring the U.S. into the war — Germany temporarily suspended unrestricted submarine warfare in response to American diplomatic protest, and the U.S. remained neutral for nearly two more years." },
-    { id: "7-18", topic: "7.3 WWI Neutrality to Intervention", stem: "What was the Zimmermann Telegram?", choices: ["A German proposal encouraging Mexico to attack the United States in exchange for German support recovering lost Mexican territory.", "A peace treaty ending World War I.", "A U.S. diplomatic proposal to Germany.", "A telegram with no relationship to World War I."], correct: 0, explanation: "The Zimmermann Telegram was a secret German proposal encouraging Mexico to attack the United States in exchange for German support recovering lost Mexican territory — its revelation in early 1917 directly contributed to U.S. entry into the war." },
-    { id: "7-19", topic: "7.3 WWI Neutrality to Intervention", stem: "What two developments, both occurring in early 1917, directly triggered the U.S. declaration of war?", choices: ["The Lusitania's sinking and the Treaty of Versailles", "Germany's resumption of unrestricted submarine warfare and the Zimmermann Telegram's revelation", "The Spanish-American War and the Open Door Policy", "The New Deal and the Great Depression"], correct: 1, explanation: "Germany's 1917 resumption of unrestricted submarine warfare, combined with the Zimmermann Telegram's revelation, together directly triggered the April 1917 U.S. declaration of war." },
-    { id: "7-20", topic: "7.3 WWI Neutrality to Intervention", stem: "How did President Wilson frame American entry into World War I?", choices: ["As a purely economic decision with no idealistic justification.", "As a fight to 'make the world safe for democracy,' connecting U.S. involvement to broader reform ideals.", "As a war of pure territorial conquest.", "Wilson provided no public justification for U.S. entry."], correct: 1, explanation: "Wilson framed American entry idealistically, describing the war as a fight to 'make the world safe for democracy,' connecting U.S. involvement to broader Progressive-era reform ideals rather than narrow self-interest alone." },
-    { id: "7-21", topic: "7.3 WWI Neutrality to Intervention", stem: "Why is it insufficient to cite the Lusitania's sinking alone as the direct trigger for U.S. entry into World War I?", choices: ["The Lusitania's sinking is the complete and sufficient explanation with no further factors needed.", "The Lusitania's sinking (1915) preceded actual U.S. entry by nearly two years; the more immediate 1917 triggers were renewed unrestricted submarine warfare and the Zimmermann Telegram.", "The Lusitania's sinking had no relationship to World War I at all.", "The U.S. actually entered the war before the Lusitania sank."], correct: 1, explanation: "The Lusitania's sinking alone is insufficient because it preceded actual U.S. entry by nearly two years — Germany's temporary suspension of unrestricted submarine warfare defused that immediate crisis, and the more immediate, direct 1917 triggers were the resumed submarine warfare and Zimmermann Telegram." },
-    { id: "7-22", topic: "7.3 WWI Neutrality to Intervention", stem: "For approximately how long did the United States maintain official neutrality after World War I began in Europe?", choices: ["A few weeks", "Nearly three years", "A single day", "Ten years"], correct: 1, explanation: "The United States maintained official neutrality for nearly three years after World War I began in Europe, before entering the war in April 1917." },
-    { id: "7-23", topic: "7.4 Home Front and Versailles", stem: "What did the War Industries Board do?", choices: ["Coordinated industrial production for the war effort.", "Conducted government propaganda promoting the war.", "Restricted civil liberties during the war.", "Negotiated the Treaty of Versailles."], correct: 0, explanation: "The War Industries Board coordinated industrial production for the World War I war effort, a significant expansion of federal economic coordination." },
-    { id: "7-24", topic: "7.4 Home Front and Versailles", stem: "What did the Espionage Act and Sedition Act do?", choices: ["Expanded civil liberties protections during the war.", "Criminalized various forms of anti-war speech and dissent, resulting in significant civil liberties restrictions.", "Had no relationship to civil liberties.", "Established the League of Nations."], correct: 1, explanation: "The Espionage Act and Sedition Act criminalized various forms of anti-war speech and dissent, resulting in significant civil liberties restrictions during World War I." },
-    { id: "7-25", topic: "7.4 Home Front and Versailles", stem: "What legal test did Schenck v. United States (1919) establish?", choices: ["The 'clear and present danger' test permitting speech restriction in specific circumstances.", "The principle of judicial review.", "The 'separate but equal' doctrine.", "A test unrelated to free speech."], correct: 0, explanation: "Schenck v. United States (1919) established the 'clear and present danger' test, permitting speech restriction in specific circumstances — a significant free speech precedent arising from World War I-era Espionage Act prosecutions." },
-    { id: "7-26", topic: "7.4 Home Front and Versailles", stem: "What was the Great Migration, and what drove its significant acceleration during this period?", choices: ["The movement of white settlers westward, driven by the Homestead Act.", "The large-scale movement of Black Americans from the rural South to northern industrial cities, driven by wartime industrial labor demand.", "The movement of European immigrants back to Europe.", "A movement unrelated to World War I."], correct: 1, explanation: "The Great Migration was the large-scale movement of Black Americans from the rural South to northern industrial cities, significantly accelerated by wartime industrial labor demand and continuing well beyond the war's end." },
-    { id: "7-27", topic: "7.4 Home Front and Versailles", stem: "Did the United States ultimately join the League of Nations, despite it being central to Wilson's Fourteen Points?", choices: ["Yes, the U.S. Senate ratified the Treaty of Versailles and joined the League.", "No — the U.S. Senate ultimately rejected the Treaty of Versailles, and the U.S. never joined the League of Nations.", "Yes, but only for a brief period before withdrawing.", "No, because Wilson never actually proposed the League of Nations."], correct: 1, explanation: "The U.S. Senate ultimately REJECTED the Treaty of Versailles, and the United States never joined the League of Nations — a frequently tested, genuinely ironic outcome given Wilson's central role in proposing it." },
-    { id: "7-28", topic: "7.4 Home Front and Versailles", stem: "What was the primary Senate concern that led to the Treaty of Versailles's rejection?", choices: ["That the treaty was too lenient toward Germany.", "That League of Nations membership could obligate U.S. military commitments abroad without full congressional control.", "That the treaty failed to address the Zimmermann Telegram.", "That the treaty had no relationship to any Senate concern."], correct: 1, explanation: "The primary Senate concern was that League of Nations membership could obligate U.S. military commitments abroad without full congressional control — reflecting persistent American ambivalence about binding international commitment." },
-    { id: "7-29", topic: "7.4 Home Front and Versailles", stem: "What is genuinely ironic about the Senate's rejection of the League of Nations?", choices: ["There is no irony in this outcome.", "Despite the League being Wilson's own signature proposal within his Fourteen Points, the U.S. Senate rejected American membership in it.", "Wilson personally opposed the League of Nations from the start.", "The Senate unanimously supported the League with no opposition."], correct: 1, explanation: "The genuine irony is that despite the League of Nations being Wilson's own signature proposal, central to his Fourteen Points, the U.S. Senate ultimately rejected American membership — a president's own diplomatic achievement rejected by his own country's legislature." },
-    { id: "7-30", topic: "7.5 The 1920s", stem: "What technique did Henry Ford use to dramatically reduce automobile costs?", choices: ["Vertical integration exclusively", "Assembly-line mass production", "Horizontal integration exclusively", "The Bessemer process"], correct: 1, explanation: "Henry Ford's assembly-line mass production techniques dramatically reduced automobile costs, making car ownership newly accessible to a broad middle class during the 1920s." },
-    { id: "7-31", topic: "7.5 The 1920s", stem: "What was the Harlem Renaissance?", choices: ["A political movement demanding independence.", "A flourishing of Black literary, artistic, and musical achievement centered in New York during the 1920s.", "A labor union organizing effort.", "A movement opposing Prohibition."], correct: 1, explanation: "The Harlem Renaissance was a flourishing of Black literary, artistic, and musical achievement centered in New York during the 1920s, representing genuine cultural achievement during this decade." },
-    { id: "7-32", topic: "7.5 The 1920s", stem: "What did the National Origins Act (1924) do?", choices: ["Encouraged unlimited immigration from all regions equally.", "Imposed strict immigration quotas explicitly designed to favor northern/western European immigration over 'New Immigration.'", "Applied equally to all immigrant groups with no regional favoritism.", "Had no relationship to immigration policy."], correct: 1, explanation: "The National Origins Act (1924) imposed strict immigration quotas explicitly designed to favor northern/western European immigration over the 'New Immigration' from southern/eastern Europe, reflecting intensifying 1920s nativism." },
-    { id: "7-33", topic: "7.5 The 1920s", stem: "What did the Eighteenth Amendment establish, and what ultimately happened to it?", choices: ["Women's suffrage; it remains in effect today.", "Prohibition of alcohol; it proved difficult to enforce, fueled organized crime, and was ultimately repealed via the Twenty-First Amendment.", "Direct election of Senators; it remains in effect today.", "A graduated income tax; it was repealed within one year."], correct: 1, explanation: "The Eighteenth Amendment established Prohibition of alcohol, which proved difficult to enforce and fueled organized crime, ultimately leading to its repeal via the Twenty-First Amendment." },
-    { id: "7-34", topic: "7.5 The 1920s", stem: "What cultural conflict did the Scopes Trial (1925) dramatize?", choices: ["A conflict between labor and business.", "A conflict between religious fundamentalism and scientific modernism over teaching evolution in public schools.", "A conflict over immigration policy.", "A conflict unrelated to any cultural issue."], correct: 1, explanation: "The Scopes Trial (1925) dramatized a genuine cultural conflict between religious fundamentalism and scientific modernism over teaching evolution in public schools." },
-    { id: "7-35", topic: "7.5 The 1920s", stem: "How did the 1920s Ku Klux Klan differ from its Reconstruction-era iteration in terms of its targets?", choices: ["It targeted only Black Americans, identical to its Reconstruction-era targets.", "It also targeted Catholics, Jews, and immigrants, not only Black Americans as in its Reconstruction-era iteration.", "It had no specific targets during either era.", "It exclusively targeted immigrants, with no continuity to its Reconstruction-era targets."], correct: 1, explanation: "The resurgent 1920s Klan also targeted Catholics, Jews, and immigrants, expanding beyond its Reconstruction-era focus primarily on Black Americans, reaching significant national membership and political influence." },
-    { id: "7-36", topic: "7.5 The 1920s", stem: "Should the 1920s be characterized as purely a decade of prosperity and cultural liberation, or purely a decade of conservative backlash?", choices: ["Purely prosperity and liberation, with no backlash of any kind.", "Neither purely — both were genuinely, simultaneously true, and a strong essay holds both together.", "Purely conservative backlash, with no genuine prosperity or cultural change.", "The 1920s cannot be characterized in any way using available historical evidence."], correct: 1, explanation: "The 1920s should not be characterized as purely one or the other — both genuine prosperity/cultural liberation AND powerful conservative backlash were simultaneously true, and a strong essay holds both together rather than picking one narrative exclusively." },
-    { id: "7-37", topic: "7.6 The Great Depression", stem: "Is the October 1929 stock market crash alone a sufficient explanation for the Great Depression's severity?", choices: ["Yes, the crash alone fully explains the Depression's severity and duration.", "No — the crash is better understood as a trigger that exposed deeper structural weaknesses (overproduction, uneven wealth distribution, banking fragility, margin speculation).", "Yes, because no other economic factors existed during the 1920s.", "No, because the stock market crash had no relationship to the Depression at all."], correct: 1, explanation: "The crash alone is an insufficient explanation — it's more accurately understood as the specific trigger that exposed and activated deeper structural weaknesses already present in the 1920s economy, turning a potential correction into a catastrophic collapse." },
-    { id: "7-38", topic: "7.6 The Great Depression", stem: "What does 'buying on margin' refer to?", choices: ["Purchasing stock using risky borrowed money.", "A government relief program.", "A banking regulation policy.", "A synonym for the Dust Bowl."], correct: 0, explanation: "'Buying on margin' refers to purchasing stock using risky borrowed money, a practice that amplified losses when the stock market crashed in 1929." },
-    { id: "7-39", topic: "7.6 The Great Depression", stem: "How is it most accurate to characterize Hoover's response to the Great Depression?", choices: ["He took literally no action of any kind.", "He took some action (like the Reconstruction Finance Corporation) but his underlying philosophy of voluntary cooperation and limited direct intervention shaped a response inadequate to the crisis's scale.", "He immediately implemented programs identical to the later New Deal.", "He had no relationship to Depression-era policy at all."], correct: 1, explanation: "The most accurate characterization is that Hoover took some action, but his underlying philosophical commitment to voluntary cooperation and limited direct federal intervention shaped a response inadequate to the crisis's unprecedented scale — more precise than simply claiming he 'did nothing.'" },
-    { id: "7-40", topic: "7.6 The Great Depression", stem: "What was the Dust Bowl?", choices: ["A New Deal relief program.", "Severe drought and soil erosion devastating Great Plains agriculture, compounding the economic crisis.", "A term for Hoover's shantytowns.", "A stock market financial instrument."], correct: 1, explanation: "The Dust Bowl was severe drought and soil erosion devastating Great Plains agriculture, an environmental catastrophe compounding the economic crisis of the Great Depression." },
-    { id: "7-41", topic: "7.6 The Great Depression", stem: "What were 'Hoovervilles'?", choices: ["Wealthy suburban developments.", "Improvised shantytowns, named as a direct, pointed public rebuke of Hoover's perceived inadequate Depression response.", "Government relief offices.", "A term unrelated to the Great Depression."], correct: 1, explanation: "'Hoovervilles' were improvised shantytowns that sprang up in cities nationwide, named as a direct, pointed public rebuke of Hoover's perceived inadequate response to the Depression." },
-    { id: "7-42", topic: "7.6 The Great Depression", stem: "How did uneven wealth distribution during the 1920s contribute to the Depression's severity?", choices: ["It had no relationship to the Depression's severity.", "It limited broad consumer purchasing power even during the 'prosperous' 1920s, contributing to overproduction relative to actual demand.", "It ensured broad, evenly distributed prosperity with no economic weakness.", "It only affected wealthy Americans, with no broader economic consequence."], correct: 1, explanation: "Uneven wealth distribution limited broad consumer purchasing power even during the seemingly prosperous 1920s, contributing to overproduction relative to actual demand — one of the structural weaknesses the 1929 crash exposed." },
-    { id: "7-43", topic: "7.6 The Great Depression", stem: "Why is the stock market crash better described as a 'trigger' rather than a standalone sufficient cause?", choices: ["Because the crash had no economic effect of any kind.", "Because it interacted with and activated preexisting structural weaknesses, turning what might have been a contained correction into a prolonged, catastrophic collapse.", "Because the crash occurred years after the Depression had already ended.", "Because triggers and causes are identical concepts with no meaningful distinction."], correct: 1, explanation: "The crash is better described as a trigger because it interacted with and activated preexisting structural weaknesses (overproduction, banking fragility, speculation) that turned what might have been a more contained financial correction into a prolonged, catastrophic economic collapse." },
-    { id: "7-44", topic: "7.7 The New Deal", stem: "What did the Social Security Act (1935) establish?", choices: ["A system of old-age pensions and unemployment insurance.", "Direct government employment on public works projects.", "Workers' right to unionize.", "Federal deposit insurance."], correct: 0, explanation: "The Social Security Act (1935) established a system of old-age pensions and unemployment insurance — a permanent, lasting federal social welfare program." },
-    { id: "7-45", topic: "7.7 The New Deal", stem: "What did the Wagner Act (1935) guarantee?", choices: ["Old-age pensions.", "Workers' right to unionize and engage in collective bargaining.", "Federal deposit insurance.", "Direct government employment."], correct: 1, explanation: "The Wagner Act (1935) guaranteed workers' right to unionize and engage in collective bargaining, significantly strengthening organized labor's legal position." },
-    { id: "7-46", topic: "7.7 The New Deal", stem: "What did the FDIC (Federal Deposit Insurance Corporation) address?", choices: ["Unemployment relief.", "Banking system fragility, by insuring individual bank deposits.", "Workers' right to unionize.", "Old-age pensions."], correct: 1, explanation: "The FDIC addressed banking system fragility by insuring individual bank deposits, directly responding to the banking failures that had worsened the Depression's severity." },
-    { id: "7-47", topic: "7.7 The New Deal", stem: "What was the WPA (Works Progress Administration)?", choices: ["A permanent social welfare program.", "A program providing direct government employment on public works projects.", "A banking regulation agency.", "A labor union."], correct: 1, explanation: "The WPA provided direct government employment on public works projects, a significant relief program during the Great Depression." },
-    { id: "7-48", topic: "7.7 The New Deal", stem: "What is the New Deal's most historically significant LEGACY, beyond its immediate relief and recovery goals?", choices: ["It had no lasting legacy beyond the specific crisis it addressed.", "It permanently expanded the federal government's role in economic regulation and social welfare provision, well beyond the Progressive Era's earlier reforms.", "It eliminated the federal government's role in the economy entirely.", "It only affected the specific years it was in effect, with no lasting institutional change."], correct: 1, explanation: "The New Deal's most historically significant legacy is REFORM — permanently expanding the federal government's role in economic regulation and social welfare provision, establishing institutions (Social Security, FDIC, Wagner Act) that remained the basic governance framework for decades." },
-    { id: "7-49", topic: "7.7 The New Deal", stem: "Did the New Deal face uniform, uncontested political support?", choices: ["Yes, the New Deal faced no political opposition of any kind.", "No — it faced criticism from the political left (Huey Long), business/conservative interests, and the Supreme Court itself, which initially struck down several major programs.", "Yes, because no political figure ever criticized any New Deal program.", "No, because the New Deal never actually existed."], correct: 1, explanation: "The New Deal faced genuine multi-directional opposition — from the political left (Huey Long, arguing it didn't go far enough), business/conservative interests (viewing it as dangerous overreach), and the Supreme Court, which initially struck down several major programs as unconstitutional." },
-    { id: "7-50", topic: "7.7 The New Deal", stem: "How should a strong essay distinguish between different New Deal programs' significance?", choices: ["All New Deal programs should be treated as identical, with one uniform legacy.", "By distinguishing PERMANENT structural legacy programs (Social Security, FDIC, Wagner Act) from TEMPORARY emergency-relief programs (WPA).", "By ignoring any distinction between different programs entirely.", "By treating only the WPA as historically significant, ignoring all other programs."], correct: 1, explanation: "A strong essay distinguishes between the New Deal's PERMANENT structural legacy programs (Social Security, FDIC, Wagner Act, designed to last) and its TEMPORARY emergency-relief programs (like the WPA, tied to the specific unemployment crisis) — rather than treating 'the New Deal' as one undifferentiated policy." },
-    { id: "7-51", topic: "7.8 WWII Path to War", stem: "What position did 'isolationists' hold regarding U.S. involvement in the growing global conflicts of the 1930s?", choices: ["Favoring immediate direct U.S. military entry.", "Favoring staying out of the growing European and Asian conflicts entirely.", "Favoring alliance exclusively with Japan.", "Isolationism had no relationship to foreign policy debate."], correct: 1, explanation: "Isolationists favored staying out of the growing European and Asian conflicts entirely, representing one side of a genuine national debate throughout the 1930s and into 1941." },
-    { id: "7-52", topic: "7.8 WWII Path to War", stem: "What did the Lend-Lease Act (1941) do?", choices: ["Declared war on Germany directly.", "Provided military supplies to Britain and other Allied nations without requiring immediate cash payment.", "Ended all U.S. support for Allied nations.", "Established the United Nations."], correct: 1, explanation: "The Lend-Lease Act (1941) provided military supplies to Britain and other Allied nations without requiring immediate cash payment, supporting the Allied war effort while formally stopping short of direct U.S. military participation." },
-    { id: "7-53", topic: "7.8 WWII Path to War", stem: "What event immediately and decisively ended the isolationism-interventionism debate?", choices: ["The Lend-Lease Act's passage", "The attack on Pearl Harbor (December 7, 1941)", "The Treaty of Versailles", "The Zimmermann Telegram"], correct: 1, explanation: "The Japanese attack on Pearl Harbor (December 7, 1941) immediately and decisively ended the isolationism-interventionism debate, bringing the United States directly into World War II." },
-    { id: "7-54", topic: "7.8 WWII Path to War", stem: "What did 'Rosie the Riveter' symbolize?", choices: ["Japanese American internment.", "Women entering the industrial workforce in unprecedented numbers during World War II.", "The Lend-Lease Act.", "Isolationist opposition to the war."], correct: 1, explanation: "'Rosie the Riveter' symbolized women entering the industrial workforce in unprecedented numbers during World War II, filling positions vacated by men serving in the military." },
-    { id: "7-55", topic: "7.8 WWII Path to War", stem: "Was Japanese American internment based on individual evidence of disloyalty?", choices: ["Yes, internment was based on individualized evidence and legal proceedings for each person.", "No — it was based explicitly on racial and national origin grounds, applied broadly to an entire population group (including U.S. citizens) with no requirement of individual evidence.", "Yes, but only for non-citizens, not for U.S. citizens.", "No, because Japanese American internment never actually occurred."], correct: 1, explanation: "Japanese American internment was based explicitly on racial and national origin grounds, applied broadly to an entire population group (including roughly 120,000 people, many of them U.S. citizens) with no requirement of individual evidence of disloyalty." },
-    { id: "7-56", topic: "7.8 WWII Path to War", stem: "How did World War II mobilization affect the persistence of the Great Depression?", choices: ["It had no effect on the Depression's persistence.", "Massive wartime production demand effectively eliminated unemployment and dramatically accelerated economic growth beyond what New Deal programs alone had achieved.", "It worsened unemployment significantly.", "It ended the Depression before the New Deal was even implemented."], correct: 1, explanation: "Massive wartime production demand effectively eliminated unemployment and dramatically accelerated economic growth in a way New Deal programs alone had not fully achieved — fueling ongoing historical debate about what truly ended the Depression." },
-    { id: "7-57", topic: "7.8 WWII Path to War", stem: "Approximately how many Japanese Americans were forcibly relocated and interned during World War II?", choices: ["About 1,000", "Roughly 120,000", "Over 10 million", "None; internment is a historical myth"], correct: 1, explanation: "Roughly 120,000 Japanese Americans, many of them U.S. citizens, were forcibly relocated and interned during World War II based on racial and national origin grounds." },
-    { id: "7-58", topic: "7.9 WWII Fighting and Winning", stem: "What occurred on D-Day (June 6, 1944)?", choices: ["Japan's surrender.", "A massive Allied amphibious invasion of Nazi-occupied France, opening a crucial second front against Germany.", "The atomic bombing of Hiroshima.", "The attack on Pearl Harbor."], correct: 1, explanation: "D-Day (June 6, 1944) was a massive Allied amphibious invasion of Nazi-occupied France, opening a crucial second front against Germany that, combined with Soviet advances, led to Germany's surrender." },
-    { id: "7-59", topic: "7.9 WWII Fighting and Winning", stem: "What was the 'island-hopping' strategy used in the Pacific theater?", choices: ["Capturing every single Japanese-held position without exception.", "Selectively capturing key strategic Pacific islands, using each as a base for the next advance toward Japan.", "A purely defensive strategy with no offensive advances.", "A strategy used exclusively in the European theater."], correct: 1, explanation: "'Island-hopping' involved selectively capturing key strategic Pacific islands rather than every Japanese-held position, using each captured island as a base for the next advance toward Japan itself." },
-    { id: "7-60", topic: "7.9 WWII Fighting and Winning", stem: "What led to Japan's surrender and the war's end in August 1945?", choices: ["The Treaty of Versailles", "The United States dropping atomic bombs on Hiroshima and Nagasaki", "The Lend-Lease Act", "D-Day"], correct: 1, explanation: "The United States dropping atomic bombs on Hiroshima and Nagasaki (August 1945) led to Japan's surrender and the war's end." },
-    { id: "7-61", topic: "7.9 WWII Fighting and Winning", stem: "What is one historiographical position on the necessity of using atomic bombs against Japan?", choices: ["That the bombs were entirely unnecessary and had no strategic purpose of any kind.", "That the bombs were militarily necessary to avoid the massive projected casualties of a full conventional invasion of Japan.", "That Japan had already formally surrendered before the bombs were used.", "There is no historiographical debate on this question; it is fully settled."], correct: 1, explanation: "One historiographical position argues the bombs were militarily necessary to avoid the massive projected casualties (on both sides) of a full conventional invasion of Japan." },
-    { id: "7-62", topic: "7.9 WWII Fighting and Winning", stem: "What is a competing historiographical position on the atomic bomb decision?", choices: ["That the bombs were used purely for humanitarian reasons with no other motive.", "That Japan was already close to surrender through other means, and that demonstrating American power to the Soviet Union was an additional motive.", "That the atomic bombs were never actually used.", "That there is no competing position to the 'militarily necessary' argument."], correct: 1, explanation: "A competing position argues Japan was already close to surrender through other diplomatic or military pressures, and that the bombs' use was influenced by additional considerations, including demonstrating American power to the Soviet Union at the emerging start of Cold War tensions." },
-    { id: "7-63", topic: "7.9 WWII Fighting and Winning", stem: "Should a strong essay treat the atomic bomb decision's necessity as a settled historical consensus?", choices: ["Yes, this question has a single, uncontested correct answer.", "No — this exam rewards acknowledging it as a genuinely contested historiographical question with legitimate historians on multiple sides.", "Yes, because no historian has ever debated this question.", "No, because the atomic bomb decision has no historical significance."], correct: 1, explanation: "A strong essay should NOT treat this as a settled consensus — this exam specifically rewards acknowledging the atomic bomb decision as a genuinely contested historiographical question with legitimate historians holding multiple different positions." },
-    { id: "7-64", topic: "7.9 WWII Fighting and Winning", stem: "In which theater did the 'island-hopping' strategy apply?", choices: ["The European theater", "The Pacific theater", "Both theaters equally", "Neither theater; it was a naval-only strategy with no land component"], correct: 1, explanation: "'Island-hopping' was specifically the Pacific theater strategy, contrasted with the European theater's different approach, including the D-Day invasion." },
-    { id: "7-65", topic: "7.9 WWII Fighting and Winning", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit's opening theme by tracing the federal government's expanding role from Section 7.2 (Progressive regulation) through Section 7.4 (wartime economic coordination) through Section 7.7 (New Deal permanent programs) to Section 7.8/7.9 (WWII mobilization and the atomic bomb), explaining why this represents one continuous trajectory rather than four separate developments.", choices: ["These four developments have no meaningful connection to one another.", "Each step represents a further expansion of federal government capacity and reach — Progressive regulation of specific industries, wartime economic coordination across the entire economy, New Deal permanent social welfare institutions, and finally WWII's unprecedented federal mobilization of the ENTIRE economy plus a wholly new category of military technology — showing a continuous trajectory of federal government scope and power expanding step by step across this single unit, each building on precedents the previous step established.", "Only Progressive Era regulation involved any expansion of federal power; all other developments actually reduced federal authority.", "Federal government power remained completely static and unchanged throughout this entire unit."], correct: 1, explanation: "This synthesis question directly rewards the unit's opening Skill Builder framework: Progressive regulation of specific industries (Section 7.2) established an early precedent for federal economic intervention; wartime coordination (Section 7.4) expanded this to coordinate entire industries for a national goal; the New Deal (Section 7.7) established PERMANENT federal social welfare institutions beyond any temporary crisis; and WWII mobilization (Sections 7.8–7.9) represented federal coordination of the ENTIRE economy plus development of an entirely unprecedented category of military technology. Recognizing these as four sequential STEPS in one continuous trajectory of expanding federal government scope and capacity — each building on precedents the previous step established — rather than four unconnected historical developments, is exactly the kind of connective, unit-spanning synthesis a top-scoring essay on this period should demonstrate." },
+  "7": [
+    {
+      "id": "7-1",
+      "topic": "7.1 American Imperialism",
+      "stem": "What territories did the United States gain control of following the Spanish-American War (1898)?",
+      "choices": [
+        "France, Germany, and Spain",
+        "The Philippines, Puerto Rico, and Guam",
+        "Alaska, Hawaii, and Texas",
+        "Canada, Mexico, and Cuba"
+      ],
+      "correct": 1,
+      "explanation": "The United States gained control of the Philippines, Puerto Rico, and Guam following the Spanish-American War, marking a significant turn toward overseas imperial power."
+    },
+    {
+      "id": "7-2",
+      "topic": "7.1 American Imperialism",
+      "stem": "What was the Platt Amendment?",
+      "choices": [
+        "A constitutional amendment expanding voting rights.",
+        "A tariff policy targeting Spain.",
+        "A provision restricting Cuban sovereignty and authorizing U.S. military intervention, following Cuba's nominal independence.",
+        "A law restricting immigration."
+      ],
+      "correct": 2,
+      "explanation": "The Platt Amendment restricted Cuban sovereignty and authorized U.S. military intervention in Cuba, following Cuba's nominal independence after the Spanish-American War."
+    },
+    {
+      "id": "7-3",
+      "topic": "7.1 American Imperialism",
+      "stem": "What was the Anti-Imperialist League's core objection to overseas territorial acquisition?",
+      "choices": [
+        "That it was too expensive for the federal budget.",
+        "That it would strengthen relations with Spain.",
+        "That it had no relationship to any political or moral principle.",
+        "That it contradicted core American democratic principles by governing populations without their consent."
+      ],
+      "correct": 3,
+      "explanation": "The Anti-Imperialist League argued that governing overseas populations without their consent directly contradicted core American democratic principles, providing significant domestic opposition to imperial expansion."
+    },
+    {
+      "id": "7-4",
+      "topic": "7.1 American Imperialism",
+      "stem": "What did the Open Door Policy (1899) assert regarding China?",
+      "choices": [
+        "That China should be excluded from all international trade.",
+        "That all nations should have equal trading access to China, rather than exclusive spheres of influence.",
+        "That China should be divided into exclusive colonial territories.",
+        "That the U.S. should annex China entirely."
+      ],
+      "correct": 1,
+      "explanation": "The Open Door Policy asserted that all nations should have equal trading access to China, rather than China being carved into exclusive spheres of influence by rival imperial powers."
+    },
+    {
+      "id": "7-5",
+      "topic": "7.1 American Imperialism",
+      "stem": "What did the Roosevelt Corollary to the Monroe Doctrine assert?",
+      "choices": [
+        "A U.S. commitment to never intervene in any foreign nation's affairs.",
+        "A U.S. alliance with European powers to jointly govern Latin America.",
+        "A U.S. right to intervene in Latin American nations' internal affairs to preserve stability and prevent European intervention.",
+        "A policy unrelated to Latin America."
+      ],
+      "correct": 2,
+      "explanation": "The Roosevelt Corollary asserted a U.S. right to intervene in Latin American nations' internal affairs to preserve stability and prevent European intervention, significantly expanding the original Monroe Doctrine's more defensive posture."
+    },
+    {
+      "id": "7-6",
+      "topic": "7.1 American Imperialism",
+      "stem": "How does the Roosevelt Corollary's approach to extending influence differ from direct territorial acquisition like the Philippines?",
+      "choices": [
+        "There is no meaningful difference between these two approaches.",
+        "The Roosevelt Corollary involved formal annexation, while the Philippines did not.",
+        "The Roosevelt Corollary asserted a right to intervene without formal territorial annexation ('informal empire'), unlike the Philippines' direct formal governance.",
+        "Both approaches involved identical formal governing arrangements."
+      ],
+      "correct": 2,
+      "explanation": "The Roosevelt Corollary extended U.S. influence through a right to intervene without formal territorial annexation — a form of 'informal empire' — genuinely different from the Philippines' direct, formal colonial governance."
+    },
+    {
+      "id": "7-7",
+      "topic": "7.1 American Imperialism",
+      "stem": "What role did 'yellow journalism' play in the lead-up to the Spanish-American War?",
+      "choices": [
+        "It had no relationship to the war.",
+        "Sensationalized newspaper coverage of Spanish colonial abuses in Cuba helped build American public support for war.",
+        "It exclusively opposed American entry into the war.",
+        "It was a term describing Spanish government propaganda."
+      ],
+      "correct": 1,
+      "explanation": "Sensationalized 'yellow journalism' newspaper coverage of Spanish colonial abuses in Cuba, along with the USS Maine's explosion, helped build American public support for entering the Spanish-American War."
+    },
+    {
+      "id": "7-8",
+      "topic": "7.1 American Imperialism",
+      "stem": "Is it accurate to describe American imperialism during this period as universally supported with no domestic opposition?",
+      "choices": [
+        "No — the Anti-Imperialist League, including prominent figures like Mark Twain, actively opposed overseas territorial acquisition.",
+        "Yes, imperialism faced no domestic opposition of any kind.",
+        "Yes, because the Anti-Imperialist League never actually existed.",
+        "No, because no American ever supported imperialism during this period."
+      ],
+      "correct": 0,
+      "explanation": "It is not accurate to describe American imperialism as universally supported — the Anti-Imperialist League, including prominent figures like Mark Twain, actively and publicly opposed overseas territorial acquisition on democratic principled grounds."
+    },
+    {
+      "id": "7-9",
+      "topic": "7.2 Progressive Era",
+      "stem": "What specific abuse did Upton Sinclair's The Jungle expose, directly leading to federal legislation?",
+      "choices": [
+        "Railroad monopoly pricing",
+        "Voter fraud",
+        "Banking system fragility",
+        "Horrific meatpacking industry conditions"
+      ],
+      "correct": 3,
+      "explanation": "Upton Sinclair's The Jungle exposed horrific meatpacking industry conditions, directly leading to the Pure Food and Drug Act and Meat Inspection Act (both 1906)."
+    },
+    {
+      "id": "7-10",
+      "topic": "7.2 Progressive Era",
+      "stem": "What did the Seventeenth Amendment (1913) establish?",
+      "choices": [
+        "Women's suffrage nationwide.",
+        "Direct election of U.S. Senators.",
+        "A graduated income tax.",
+        "Prohibition of alcohol."
+      ],
+      "correct": 1,
+      "explanation": "The Seventeenth Amendment (1913) established direct election of U.S. Senators — a demand directly traceable to the Populist Party's 1892 Omaha Platform."
+    },
+    {
+      "id": "7-11",
+      "topic": "7.2 Progressive Era",
+      "stem": "How does the Seventeenth Amendment connect to Period 6's Populist movement?",
+      "choices": [
+        "Direct election of Senators was originally a demand in the Populist Party's 1892 Omaha Platform, achieved through constitutional amendment two decades after Populism's independent party organization collapsed.",
+        "The Populist movement actively opposed direct election of Senators.",
+        "The Seventeenth Amendment eliminated a Populist achievement.",
+        "There is no connection between these two developments."
+      ],
+      "correct": 0,
+      "explanation": "Direct election of Senators was originally a Populist Omaha Platform demand (Section 6.7) — the Seventeenth Amendment's passage two decades later directly illustrates Populism's genuine longer-term ideological influence, even after the party's own political end."
+    },
+    {
+      "id": "7-12",
+      "topic": "7.2 Progressive Era",
+      "stem": "How did Theodore Roosevelt's 'Square Deal' approach trusts?",
+      "choices": [
+        "By distinguishing between 'good trusts' (efficient, non-abusive) and 'bad trusts' (genuinely abusive), pursuing selective regulation.",
+        "By nationalizing all major industries.",
+        "By opposing all forms of large business regardless of behavior.",
+        "By eliminating all antitrust enforcement entirely."
+      ],
+      "correct": 0,
+      "explanation": "Roosevelt's Square Deal distinguished between 'good trusts' and 'bad trusts,' pursuing selective regulation and antitrust enforcement rather than blanket opposition to large business size itself."
+    },
+    {
+      "id": "7-13",
+      "topic": "7.2 Progressive Era",
+      "stem": "How did Woodrow Wilson's 'New Freedom' approach differ philosophically from Roosevelt's Square Deal?",
+      "choices": [
+        "New Freedom had no relationship to trusts or corporate power.",
+        "They were philosophically identical with no meaningful difference.",
+        "New Freedom favored eliminating all antitrust enforcement entirely.",
+        "New Freedom was more philosophically skeptical of large corporate concentration generally, favoring more aggressive trust-breaking regardless of current behavior."
+      ],
+      "correct": 3,
+      "explanation": "Wilson's New Freedom was more philosophically skeptical of large corporate concentration generally, favoring more aggressive trust-breaking as inherently preferable, regardless of whether a specific corporation was currently behaving abusively — a genuinely different underlying philosophy from Roosevelt's Square Deal."
+    },
+    {
+      "id": "7-14",
+      "topic": "7.2 Progressive Era",
+      "stem": "Which political reforms allowed voters more direct influence over legislation and officeholders during the Progressive Era?",
+      "choices": [
+        "The spoils system",
+        "Popular sovereignty",
+        "The Homestead Act",
+        "The direct primary, initiative, referendum, and recall"
+      ],
+      "correct": 3,
+      "explanation": "The direct primary, initiative, referendum, and recall were Progressive-era political reforms allowing voters more direct influence over legislation and officeholders."
+    },
+    {
+      "id": "7-15",
+      "topic": "7.2 Progressive Era",
+      "stem": "What specific causal pattern connects muckraking journalism to Progressive legislation?",
+      "choices": [
+        "Muckrakers exposed specific corporate and social abuses to a mass audience, directly leading to specific regulatory legislation addressing those exposed abuses.",
+        "Muckraking journalism only ever criticized government, never business.",
+        "Muckraking journalism had no relationship to any legislation.",
+        "Legislation always preceded muckraking journalism, not the reverse."
+      ],
+      "correct": 0,
+      "explanation": "The muckraker-to-legislation pattern involves journalists exposing specific abuses to a mass audience, directly leading to specific regulatory legislation — as with Sinclair's The Jungle leading directly to food safety laws."
+    },
+    {
+      "id": "7-16",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "What was 'unrestricted submarine warfare'?",
+      "choices": [
+        "A U.S. naval strategy against Germany.",
+        "A policy unrelated to World War I.",
+        "A policy of attacking only military vessels with prior warning.",
+        "Germany's policy of attacking ships, including passenger vessels, without warning."
+      ],
+      "correct": 3,
+      "explanation": "Unrestricted submarine warfare was Germany's policy of attacking ships, including passenger vessels like the Lusitania, without warning — a significant strain on American neutrality."
+    },
+    {
+      "id": "7-17",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "Did the Lusitania's sinking (1915) immediately and directly bring the United States into World War I?",
+      "choices": [
+        "No, because the Lusitania's sinking had no relationship to World War I.",
+        "Yes, because the Lusitania was an American vessel.",
+        "Yes, the U.S. declared war immediately following the Lusitania's sinking.",
+        "No — the U.S. remained neutral for nearly two more years after this event, since Germany temporarily suspended unrestricted submarine warfare in response to American protest."
+      ],
+      "correct": 3,
+      "explanation": "The Lusitania's sinking did NOT immediately bring the U.S. into the war — Germany temporarily suspended unrestricted submarine warfare in response to American diplomatic protest, and the U.S. remained neutral for nearly two more years."
+    },
+    {
+      "id": "7-18",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "What was the Zimmermann Telegram?",
+      "choices": [
+        "A German proposal encouraging Mexico to attack the United States in exchange for German support recovering lost Mexican territory.",
+        "A peace treaty ending World War I.",
+        "A telegram with no relationship to World War I.",
+        "A U.S. diplomatic proposal to Germany."
+      ],
+      "correct": 0,
+      "explanation": "The Zimmermann Telegram was a secret German proposal encouraging Mexico to attack the United States in exchange for German support recovering lost Mexican territory — its revelation in early 1917 directly contributed to U.S. entry into the war."
+    },
+    {
+      "id": "7-19",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "What two developments, both occurring in early 1917, directly triggered the U.S. declaration of war?",
+      "choices": [
+        "Germany's resumption of unrestricted submarine warfare and the Zimmermann Telegram's revelation",
+        "The Spanish-American War and the Open Door Policy",
+        "The New Deal and the Great Depression",
+        "The Lusitania's sinking and the Treaty of Versailles"
+      ],
+      "correct": 0,
+      "explanation": "Germany's 1917 resumption of unrestricted submarine warfare, combined with the Zimmermann Telegram's revelation, together directly triggered the April 1917 U.S. declaration of war."
+    },
+    {
+      "id": "7-20",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "How did President Wilson frame American entry into World War I?",
+      "choices": [
+        "As a war of pure territorial conquest.",
+        "As a fight to 'make the world safe for democracy,' connecting U.S. involvement to broader reform ideals.",
+        "As a purely economic decision with no idealistic justification.",
+        "Wilson provided no public justification for U.S. entry."
+      ],
+      "correct": 1,
+      "explanation": "Wilson framed American entry idealistically, describing the war as a fight to 'make the world safe for democracy,' connecting U.S. involvement to broader Progressive-era reform ideals rather than narrow self-interest alone."
+    },
+    {
+      "id": "7-21",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "Why is it insufficient to cite the Lusitania's sinking alone as the direct trigger for U.S. entry into World War I?",
+      "choices": [
+        "The Lusitania's sinking is the complete and sufficient explanation with no further factors needed.",
+        "The Lusitania's sinking (1915) preceded actual U.S. entry by nearly two years; the more immediate 1917 triggers were renewed unrestricted submarine warfare and the Zimmermann Telegram.",
+        "The U.S. actually entered the war before the Lusitania sank.",
+        "The Lusitania's sinking had no relationship to World War I at all."
+      ],
+      "correct": 1,
+      "explanation": "The Lusitania's sinking alone is insufficient because it preceded actual U.S. entry by nearly two years — Germany's temporary suspension of unrestricted submarine warfare defused that immediate crisis, and the more immediate, direct 1917 triggers were the resumed submarine warfare and Zimmermann Telegram."
+    },
+    {
+      "id": "7-22",
+      "topic": "7.3 WWI Neutrality to Intervention",
+      "stem": "For approximately how long did the United States maintain official neutrality after World War I began in Europe?",
+      "choices": [
+        "Nearly three years",
+        "A single day",
+        "Ten years",
+        "A few weeks"
+      ],
+      "correct": 0,
+      "explanation": "The United States maintained official neutrality for nearly three years after World War I began in Europe, before entering the war in April 1917."
+    },
+    {
+      "id": "7-23",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What did the War Industries Board do?",
+      "choices": [
+        "Restricted civil liberties during the war.",
+        "Coordinated industrial production for the war effort.",
+        "Negotiated the Treaty of Versailles.",
+        "Conducted government propaganda promoting the war."
+      ],
+      "correct": 1,
+      "explanation": "The War Industries Board coordinated industrial production for the World War I war effort, a significant expansion of federal economic coordination."
+    },
+    {
+      "id": "7-24",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What did the Espionage Act and Sedition Act do?",
+      "choices": [
+        "Criminalized various forms of anti-war speech and dissent, resulting in significant civil liberties restrictions.",
+        "Expanded civil liberties protections during the war.",
+        "Established the League of Nations.",
+        "Had no relationship to civil liberties."
+      ],
+      "correct": 0,
+      "explanation": "The Espionage Act and Sedition Act criminalized various forms of anti-war speech and dissent, resulting in significant civil liberties restrictions during World War I."
+    },
+    {
+      "id": "7-25",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What legal test did Schenck v. United States (1919) establish?",
+      "choices": [
+        "The 'separate but equal' doctrine.",
+        "The principle of judicial review.",
+        "The 'clear and present danger' test permitting speech restriction in specific circumstances.",
+        "A test unrelated to free speech."
+      ],
+      "correct": 2,
+      "explanation": "Schenck v. United States (1919) established the 'clear and present danger' test, permitting speech restriction in specific circumstances — a significant free speech precedent arising from World War I-era Espionage Act prosecutions."
+    },
+    {
+      "id": "7-26",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What was the Great Migration, and what drove its significant acceleration during this period?",
+      "choices": [
+        "The movement of white settlers westward, driven by the Homestead Act.",
+        "The large-scale movement of Black Americans from the rural South to northern industrial cities, driven by wartime industrial labor demand.",
+        "The movement of European immigrants back to Europe.",
+        "A movement unrelated to World War I."
+      ],
+      "correct": 1,
+      "explanation": "The Great Migration was the large-scale movement of Black Americans from the rural South to northern industrial cities, significantly accelerated by wartime industrial labor demand and continuing well beyond the war's end."
+    },
+    {
+      "id": "7-27",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "Did the United States ultimately join the League of Nations, despite it being central to Wilson's Fourteen Points?",
+      "choices": [
+        "No — the U.S. Senate ultimately rejected the Treaty of Versailles, and the U.S. never joined the League of Nations.",
+        "Yes, but only for a brief period before withdrawing.",
+        "No, because Wilson never actually proposed the League of Nations.",
+        "Yes, the U.S. Senate ratified the Treaty of Versailles and joined the League."
+      ],
+      "correct": 0,
+      "explanation": "The U.S. Senate ultimately REJECTED the Treaty of Versailles, and the United States never joined the League of Nations — a frequently tested, genuinely ironic outcome given Wilson's central role in proposing it."
+    },
+    {
+      "id": "7-28",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What was the primary Senate concern that led to the Treaty of Versailles's rejection?",
+      "choices": [
+        "That the treaty failed to address the Zimmermann Telegram.",
+        "That the treaty had no relationship to any Senate concern.",
+        "That the treaty was too lenient toward Germany.",
+        "That League of Nations membership could obligate U.S. military commitments abroad without full congressional control."
+      ],
+      "correct": 3,
+      "explanation": "The primary Senate concern was that League of Nations membership could obligate U.S. military commitments abroad without full congressional control — reflecting persistent American ambivalence about binding international commitment."
+    },
+    {
+      "id": "7-29",
+      "topic": "7.4 Home Front and Versailles",
+      "stem": "What is genuinely ironic about the Senate's rejection of the League of Nations?",
+      "choices": [
+        "There is no irony in this outcome.",
+        "Despite the League being Wilson's own signature proposal within his Fourteen Points, the U.S. Senate rejected American membership in it.",
+        "Wilson personally opposed the League of Nations from the start.",
+        "The Senate unanimously supported the League with no opposition."
+      ],
+      "correct": 1,
+      "explanation": "The genuine irony is that despite the League of Nations being Wilson's own signature proposal, central to his Fourteen Points, the U.S. Senate ultimately rejected American membership — a president's own diplomatic achievement rejected by his own country's legislature."
+    },
+    {
+      "id": "7-30",
+      "topic": "7.5 The 1920s",
+      "stem": "What technique did Henry Ford use to dramatically reduce automobile costs?",
+      "choices": [
+        "Horizontal integration exclusively",
+        "Vertical integration exclusively",
+        "The Bessemer process",
+        "Assembly-line mass production"
+      ],
+      "correct": 3,
+      "explanation": "Henry Ford's assembly-line mass production techniques dramatically reduced automobile costs, making car ownership newly accessible to a broad middle class during the 1920s."
+    },
+    {
+      "id": "7-31",
+      "topic": "7.5 The 1920s",
+      "stem": "What was the Harlem Renaissance?",
+      "choices": [
+        "A political movement demanding independence.",
+        "A flourishing of Black literary, artistic, and musical achievement centered in New York during the 1920s.",
+        "A labor union organizing effort.",
+        "A movement opposing Prohibition."
+      ],
+      "correct": 1,
+      "explanation": "The Harlem Renaissance was a flourishing of Black literary, artistic, and musical achievement centered in New York during the 1920s, representing genuine cultural achievement during this decade."
+    },
+    {
+      "id": "7-32",
+      "topic": "7.5 The 1920s",
+      "stem": "What did the National Origins Act (1924) do?",
+      "choices": [
+        "Had no relationship to immigration policy.",
+        "Encouraged unlimited immigration from all regions equally.",
+        "Applied equally to all immigrant groups with no regional favoritism.",
+        "Imposed strict immigration quotas explicitly designed to favor northern/western European immigration over 'New Immigration.'"
+      ],
+      "correct": 3,
+      "explanation": "The National Origins Act (1924) imposed strict immigration quotas explicitly designed to favor northern/western European immigration over the 'New Immigration' from southern/eastern Europe, reflecting intensifying 1920s nativism."
+    },
+    {
+      "id": "7-33",
+      "topic": "7.5 The 1920s",
+      "stem": "What did the Eighteenth Amendment establish, and what ultimately happened to it?",
+      "choices": [
+        "A graduated income tax; it was repealed within one year.",
+        "Direct election of Senators; it remains in effect today.",
+        "Women's suffrage; it remains in effect today.",
+        "Prohibition of alcohol; it proved difficult to enforce, fueled organized crime, and was ultimately repealed via the Twenty-First Amendment."
+      ],
+      "correct": 3,
+      "explanation": "The Eighteenth Amendment established Prohibition of alcohol, which proved difficult to enforce and fueled organized crime, ultimately leading to its repeal via the Twenty-First Amendment."
+    },
+    {
+      "id": "7-34",
+      "topic": "7.5 The 1920s",
+      "stem": "What cultural conflict did the Scopes Trial (1925) dramatize?",
+      "choices": [
+        "A conflict over immigration policy.",
+        "A conflict between religious fundamentalism and scientific modernism over teaching evolution in public schools.",
+        "A conflict unrelated to any cultural issue.",
+        "A conflict between labor and business."
+      ],
+      "correct": 1,
+      "explanation": "The Scopes Trial (1925) dramatized a genuine cultural conflict between religious fundamentalism and scientific modernism over teaching evolution in public schools."
+    },
+    {
+      "id": "7-35",
+      "topic": "7.5 The 1920s",
+      "stem": "How did the 1920s Ku Klux Klan differ from its Reconstruction-era iteration in terms of its targets?",
+      "choices": [
+        "It exclusively targeted immigrants, with no continuity to its Reconstruction-era targets.",
+        "It also targeted Catholics, Jews, and immigrants, not only Black Americans as in its Reconstruction-era iteration.",
+        "It had no specific targets during either era.",
+        "It targeted only Black Americans, identical to its Reconstruction-era targets."
+      ],
+      "correct": 1,
+      "explanation": "The resurgent 1920s Klan also targeted Catholics, Jews, and immigrants, expanding beyond its Reconstruction-era focus primarily on Black Americans, reaching significant national membership and political influence."
+    },
+    {
+      "id": "7-36",
+      "topic": "7.5 The 1920s",
+      "stem": "Should the 1920s be characterized as purely a decade of prosperity and cultural liberation, or purely a decade of conservative backlash?",
+      "choices": [
+        "The 1920s cannot be characterized in any way using available historical evidence.",
+        "Purely conservative backlash, with no genuine prosperity or cultural change.",
+        "Neither purely — both were genuinely, simultaneously true, and a strong essay holds both together.",
+        "Purely prosperity and liberation, with no backlash of any kind."
+      ],
+      "correct": 2,
+      "explanation": "The 1920s should not be characterized as purely one or the other — both genuine prosperity/cultural liberation AND powerful conservative backlash were simultaneously true, and a strong essay holds both together rather than picking one narrative exclusively."
+    },
+    {
+      "id": "7-37",
+      "topic": "7.6 The Great Depression",
+      "stem": "Is the October 1929 stock market crash alone a sufficient explanation for the Great Depression's severity?",
+      "choices": [
+        "No — the crash is better understood as a trigger that exposed deeper structural weaknesses (overproduction, uneven wealth distribution, banking fragility, margin speculation).",
+        "Yes, because no other economic factors existed during the 1920s.",
+        "Yes, the crash alone fully explains the Depression's severity and duration.",
+        "No, because the stock market crash had no relationship to the Depression at all."
+      ],
+      "correct": 0,
+      "explanation": "The crash alone is an insufficient explanation — it's more accurately understood as the specific trigger that exposed and activated deeper structural weaknesses already present in the 1920s economy, turning a potential correction into a catastrophic collapse."
+    },
+    {
+      "id": "7-38",
+      "topic": "7.6 The Great Depression",
+      "stem": "What does 'buying on margin' refer to?",
+      "choices": [
+        "Purchasing stock using risky borrowed money.",
+        "A banking regulation policy.",
+        "A synonym for the Dust Bowl.",
+        "A government relief program."
+      ],
+      "correct": 0,
+      "explanation": "'Buying on margin' refers to purchasing stock using risky borrowed money, a practice that amplified losses when the stock market crashed in 1929."
+    },
+    {
+      "id": "7-39",
+      "topic": "7.6 The Great Depression",
+      "stem": "How is it most accurate to characterize Hoover's response to the Great Depression?",
+      "choices": [
+        "He had no relationship to Depression-era policy at all.",
+        "He took some action (like the Reconstruction Finance Corporation) but his underlying philosophy of voluntary cooperation and limited direct intervention shaped a response inadequate to the crisis's scale.",
+        "He immediately implemented programs identical to the later New Deal.",
+        "He took literally no action of any kind."
+      ],
+      "correct": 1,
+      "explanation": "The most accurate characterization is that Hoover took some action, but his underlying philosophical commitment to voluntary cooperation and limited direct federal intervention shaped a response inadequate to the crisis's unprecedented scale — more precise than simply claiming he 'did nothing.'"
+    },
+    {
+      "id": "7-40",
+      "topic": "7.6 The Great Depression",
+      "stem": "What was the Dust Bowl?",
+      "choices": [
+        "A stock market financial instrument.",
+        "Severe drought and soil erosion devastating Great Plains agriculture, compounding the economic crisis.",
+        "A New Deal relief program.",
+        "A term for Hoover's shantytowns."
+      ],
+      "correct": 1,
+      "explanation": "The Dust Bowl was severe drought and soil erosion devastating Great Plains agriculture, an environmental catastrophe compounding the economic crisis of the Great Depression."
+    },
+    {
+      "id": "7-41",
+      "topic": "7.6 The Great Depression",
+      "stem": "What were 'Hoovervilles'?",
+      "choices": [
+        "Wealthy suburban developments.",
+        "Government relief offices.",
+        "Improvised shantytowns, named as a direct, pointed public rebuke of Hoover's perceived inadequate Depression response.",
+        "A term unrelated to the Great Depression."
+      ],
+      "correct": 2,
+      "explanation": "'Hoovervilles' were improvised shantytowns that sprang up in cities nationwide, named as a direct, pointed public rebuke of Hoover's perceived inadequate response to the Depression."
+    },
+    {
+      "id": "7-42",
+      "topic": "7.6 The Great Depression",
+      "stem": "How did uneven wealth distribution during the 1920s contribute to the Depression's severity?",
+      "choices": [
+        "It ensured broad, evenly distributed prosperity with no economic weakness.",
+        "It limited broad consumer purchasing power even during the 'prosperous' 1920s, contributing to overproduction relative to actual demand.",
+        "It had no relationship to the Depression's severity.",
+        "It only affected wealthy Americans, with no broader economic consequence."
+      ],
+      "correct": 1,
+      "explanation": "Uneven wealth distribution limited broad consumer purchasing power even during the seemingly prosperous 1920s, contributing to overproduction relative to actual demand — one of the structural weaknesses the 1929 crash exposed."
+    },
+    {
+      "id": "7-43",
+      "topic": "7.6 The Great Depression",
+      "stem": "Why is the stock market crash better described as a 'trigger' rather than a standalone sufficient cause?",
+      "choices": [
+        "Because the crash had no economic effect of any kind.",
+        "Because the crash occurred years after the Depression had already ended.",
+        "Because triggers and causes are identical concepts with no meaningful distinction.",
+        "Because it interacted with and activated preexisting structural weaknesses, turning what might have been a contained correction into a prolonged, catastrophic collapse."
+      ],
+      "correct": 3,
+      "explanation": "The crash is better described as a trigger because it interacted with and activated preexisting structural weaknesses (overproduction, banking fragility, speculation) that turned what might have been a more contained financial correction into a prolonged, catastrophic economic collapse."
+    },
+    {
+      "id": "7-44",
+      "topic": "7.7 The New Deal",
+      "stem": "What did the Social Security Act (1935) establish?",
+      "choices": [
+        "Federal deposit insurance.",
+        "A system of old-age pensions and unemployment insurance.",
+        "Direct government employment on public works projects.",
+        "Workers' right to unionize."
+      ],
+      "correct": 1,
+      "explanation": "The Social Security Act (1935) established a system of old-age pensions and unemployment insurance — a permanent, lasting federal social welfare program."
+    },
+    {
+      "id": "7-45",
+      "topic": "7.7 The New Deal",
+      "stem": "What did the Wagner Act (1935) guarantee?",
+      "choices": [
+        "Federal deposit insurance.",
+        "Direct government employment.",
+        "Old-age pensions.",
+        "Workers' right to unionize and engage in collective bargaining."
+      ],
+      "correct": 3,
+      "explanation": "The Wagner Act (1935) guaranteed workers' right to unionize and engage in collective bargaining, significantly strengthening organized labor's legal position."
+    },
+    {
+      "id": "7-46",
+      "topic": "7.7 The New Deal",
+      "stem": "What did the FDIC (Federal Deposit Insurance Corporation) address?",
+      "choices": [
+        "Old-age pensions.",
+        "Workers' right to unionize.",
+        "Unemployment relief.",
+        "Banking system fragility, by insuring individual bank deposits."
+      ],
+      "correct": 3,
+      "explanation": "The FDIC addressed banking system fragility by insuring individual bank deposits, directly responding to the banking failures that had worsened the Depression's severity."
+    },
+    {
+      "id": "7-47",
+      "topic": "7.7 The New Deal",
+      "stem": "What was the WPA (Works Progress Administration)?",
+      "choices": [
+        "A banking regulation agency.",
+        "A permanent social welfare program.",
+        "A program providing direct government employment on public works projects.",
+        "A labor union."
+      ],
+      "correct": 2,
+      "explanation": "The WPA provided direct government employment on public works projects, a significant relief program during the Great Depression."
+    },
+    {
+      "id": "7-48",
+      "topic": "7.7 The New Deal",
+      "stem": "What is the New Deal's most historically significant LEGACY, beyond its immediate relief and recovery goals?",
+      "choices": [
+        "It had no lasting legacy beyond the specific crisis it addressed.",
+        "It eliminated the federal government's role in the economy entirely.",
+        "It only affected the specific years it was in effect, with no lasting institutional change.",
+        "It permanently expanded the federal government's role in economic regulation and social welfare provision, well beyond the Progressive Era's earlier reforms."
+      ],
+      "correct": 3,
+      "explanation": "The New Deal's most historically significant legacy is REFORM — permanently expanding the federal government's role in economic regulation and social welfare provision, establishing institutions (Social Security, FDIC, Wagner Act) that remained the basic governance framework for decades."
+    },
+    {
+      "id": "7-49",
+      "topic": "7.7 The New Deal",
+      "stem": "Did the New Deal face uniform, uncontested political support?",
+      "choices": [
+        "Yes, the New Deal faced no political opposition of any kind.",
+        "Yes, because no political figure ever criticized any New Deal program.",
+        "No — it faced criticism from the political left (Huey Long), business/conservative interests, and the Supreme Court itself, which initially struck down several major programs.",
+        "No, because the New Deal never actually existed."
+      ],
+      "correct": 2,
+      "explanation": "The New Deal faced genuine multi-directional opposition — from the political left (Huey Long, arguing it didn't go far enough), business/conservative interests (viewing it as dangerous overreach), and the Supreme Court, which initially struck down several major programs as unconstitutional."
+    },
+    {
+      "id": "7-50",
+      "topic": "7.7 The New Deal",
+      "stem": "How should a strong essay distinguish between different New Deal programs' significance?",
+      "choices": [
+        "By ignoring any distinction between different programs entirely.",
+        "By distinguishing PERMANENT structural legacy programs (Social Security, FDIC, Wagner Act) from TEMPORARY emergency-relief programs (WPA).",
+        "All New Deal programs should be treated as identical, with one uniform legacy.",
+        "By treating only the WPA as historically significant, ignoring all other programs."
+      ],
+      "correct": 1,
+      "explanation": "A strong essay distinguishes between the New Deal's PERMANENT structural legacy programs (Social Security, FDIC, Wagner Act, designed to last) and its TEMPORARY emergency-relief programs (like the WPA, tied to the specific unemployment crisis) — rather than treating 'the New Deal' as one undifferentiated policy."
+    },
+    {
+      "id": "7-51",
+      "topic": "7.8 WWII Path to War",
+      "stem": "What position did 'isolationists' hold regarding U.S. involvement in the growing global conflicts of the 1930s?",
+      "choices": [
+        "Favoring immediate direct U.S. military entry.",
+        "Favoring alliance exclusively with Japan.",
+        "Isolationism had no relationship to foreign policy debate.",
+        "Favoring staying out of the growing European and Asian conflicts entirely."
+      ],
+      "correct": 3,
+      "explanation": "Isolationists favored staying out of the growing European and Asian conflicts entirely, representing one side of a genuine national debate throughout the 1930s and into 1941."
+    },
+    {
+      "id": "7-52",
+      "topic": "7.8 WWII Path to War",
+      "stem": "What did the Lend-Lease Act (1941) do?",
+      "choices": [
+        "Ended all U.S. support for Allied nations.",
+        "Established the United Nations.",
+        "Provided military supplies to Britain and other Allied nations without requiring immediate cash payment.",
+        "Declared war on Germany directly."
+      ],
+      "correct": 2,
+      "explanation": "The Lend-Lease Act (1941) provided military supplies to Britain and other Allied nations without requiring immediate cash payment, supporting the Allied war effort while formally stopping short of direct U.S. military participation."
+    },
+    {
+      "id": "7-53",
+      "topic": "7.8 WWII Path to War",
+      "stem": "What event immediately and decisively ended the isolationism-interventionism debate?",
+      "choices": [
+        "The Zimmermann Telegram",
+        "The Treaty of Versailles",
+        "The attack on Pearl Harbor (December 7, 1941)",
+        "The Lend-Lease Act's passage"
+      ],
+      "correct": 2,
+      "explanation": "The Japanese attack on Pearl Harbor (December 7, 1941) immediately and decisively ended the isolationism-interventionism debate, bringing the United States directly into World War II."
+    },
+    {
+      "id": "7-54",
+      "topic": "7.8 WWII Path to War",
+      "stem": "What did 'Rosie the Riveter' symbolize?",
+      "choices": [
+        "Isolationist opposition to the war.",
+        "Women entering the industrial workforce in unprecedented numbers during World War II.",
+        "The Lend-Lease Act.",
+        "Japanese American internment."
+      ],
+      "correct": 1,
+      "explanation": "'Rosie the Riveter' symbolized women entering the industrial workforce in unprecedented numbers during World War II, filling positions vacated by men serving in the military."
+    },
+    {
+      "id": "7-55",
+      "topic": "7.8 WWII Path to War",
+      "stem": "Was Japanese American internment based on individual evidence of disloyalty?",
+      "choices": [
+        "No — it was based explicitly on racial and national origin grounds, applied broadly to an entire population group (including U.S. citizens) with no requirement of individual evidence.",
+        "No, because Japanese American internment never actually occurred.",
+        "Yes, internment was based on individualized evidence and legal proceedings for each person.",
+        "Yes, but only for non-citizens, not for U.S. citizens."
+      ],
+      "correct": 0,
+      "explanation": "Japanese American internment was based explicitly on racial and national origin grounds, applied broadly to an entire population group (including roughly 120,000 people, many of them U.S. citizens) with no requirement of individual evidence of disloyalty."
+    },
+    {
+      "id": "7-56",
+      "topic": "7.8 WWII Path to War",
+      "stem": "How did World War II mobilization affect the persistence of the Great Depression?",
+      "choices": [
+        "Massive wartime production demand effectively eliminated unemployment and dramatically accelerated economic growth beyond what New Deal programs alone had achieved.",
+        "It worsened unemployment significantly.",
+        "It had no effect on the Depression's persistence.",
+        "It ended the Depression before the New Deal was even implemented."
+      ],
+      "correct": 0,
+      "explanation": "Massive wartime production demand effectively eliminated unemployment and dramatically accelerated economic growth in a way New Deal programs alone had not fully achieved — fueling ongoing historical debate about what truly ended the Depression."
+    },
+    {
+      "id": "7-57",
+      "topic": "7.8 WWII Path to War",
+      "stem": "Approximately how many Japanese Americans were forcibly relocated and interned during World War II?",
+      "choices": [
+        "None; internment is a historical myth",
+        "Roughly 120,000",
+        "About 1,000",
+        "Over 10 million"
+      ],
+      "correct": 1,
+      "explanation": "Roughly 120,000 Japanese Americans, many of them U.S. citizens, were forcibly relocated and interned during World War II based on racial and national origin grounds."
+    },
+    {
+      "id": "7-58",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "What occurred on D-Day (June 6, 1944)?",
+      "choices": [
+        "Japan's surrender.",
+        "A massive Allied amphibious invasion of Nazi-occupied France, opening a crucial second front against Germany.",
+        "The attack on Pearl Harbor.",
+        "The atomic bombing of Hiroshima."
+      ],
+      "correct": 1,
+      "explanation": "D-Day (June 6, 1944) was a massive Allied amphibious invasion of Nazi-occupied France, opening a crucial second front against Germany that, combined with Soviet advances, led to Germany's surrender."
+    },
+    {
+      "id": "7-59",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "What was the 'island-hopping' strategy used in the Pacific theater?",
+      "choices": [
+        "A strategy used exclusively in the European theater.",
+        "Selectively capturing key strategic Pacific islands, using each as a base for the next advance toward Japan.",
+        "A purely defensive strategy with no offensive advances.",
+        "Capturing every single Japanese-held position without exception."
+      ],
+      "correct": 1,
+      "explanation": "'Island-hopping' involved selectively capturing key strategic Pacific islands rather than every Japanese-held position, using each captured island as a base for the next advance toward Japan itself."
+    },
+    {
+      "id": "7-60",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "What led to Japan's surrender and the war's end in August 1945?",
+      "choices": [
+        "The United States dropping atomic bombs on Hiroshima and Nagasaki",
+        "D-Day",
+        "The Treaty of Versailles",
+        "The Lend-Lease Act"
+      ],
+      "correct": 0,
+      "explanation": "The United States dropping atomic bombs on Hiroshima and Nagasaki (August 1945) led to Japan's surrender and the war's end."
+    },
+    {
+      "id": "7-61",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "What is one historiographical position on the necessity of using atomic bombs against Japan?",
+      "choices": [
+        "That the bombs were entirely unnecessary and had no strategic purpose of any kind.",
+        "There is no historiographical debate on this question; it is fully settled.",
+        "That Japan had already formally surrendered before the bombs were used.",
+        "That the bombs were militarily necessary to avoid the massive projected casualties of a full conventional invasion of Japan."
+      ],
+      "correct": 3,
+      "explanation": "One historiographical position argues the bombs were militarily necessary to avoid the massive projected casualties (on both sides) of a full conventional invasion of Japan."
+    },
+    {
+      "id": "7-62",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "What is a competing historiographical position on the atomic bomb decision?",
+      "choices": [
+        "That the atomic bombs were never actually used.",
+        "That the bombs were used purely for humanitarian reasons with no other motive.",
+        "That Japan was already close to surrender through other means, and that demonstrating American power to the Soviet Union was an additional motive.",
+        "That there is no competing position to the 'militarily necessary' argument."
+      ],
+      "correct": 2,
+      "explanation": "A competing position argues Japan was already close to surrender through other diplomatic or military pressures, and that the bombs' use was influenced by additional considerations, including demonstrating American power to the Soviet Union at the emerging start of Cold War tensions."
+    },
+    {
+      "id": "7-63",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "Should a strong essay treat the atomic bomb decision's necessity as a settled historical consensus?",
+      "choices": [
+        "Yes, this question has a single, uncontested correct answer.",
+        "Yes, because no historian has ever debated this question.",
+        "No — this exam rewards acknowledging it as a genuinely contested historiographical question with legitimate historians on multiple sides.",
+        "No, because the atomic bomb decision has no historical significance."
+      ],
+      "correct": 2,
+      "explanation": "A strong essay should NOT treat this as a settled consensus — this exam specifically rewards acknowledging the atomic bomb decision as a genuinely contested historiographical question with legitimate historians holding multiple different positions."
+    },
+    {
+      "id": "7-64",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stem": "In which theater did the 'island-hopping' strategy apply?",
+      "choices": [
+        "Neither theater; it was a naval-only strategy with no land component",
+        "The Pacific theater",
+        "The European theater",
+        "Both theaters equally"
+      ],
+      "correct": 1,
+      "explanation": "'Island-hopping' was specifically the Pacific theater strategy, contrasted with the European theater's different approach, including the D-Day invasion."
+    },
+    {
+      "id": "7-65",
+      "topic": "7.9 WWII Fighting and Winning",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit's opening theme by tracing the federal government's expanding role from Section 7.2 (Progressive regulation) through Section 7.4 (wartime economic coordination) through Section 7.7 (New Deal permanent programs) to Section 7.8/7.9 (WWII mobilization and the atomic bomb), explaining why this represents one continuous trajectory rather than four separate developments.",
+      "choices": [
+        "These four developments have no meaningful connection to one another.",
+        "Each step represents a further expansion of federal government capacity and reach — Progressive regulation of specific industries, wartime economic coordination across the entire economy, New Deal permanent social welfare institutions, and finally WWII's unprecedented federal mobilization of the ENTIRE economy plus a wholly new category of military technology — showing a continuous trajectory of federal government scope and power expanding step by step across this single unit, each building on precedents the previous step established.",
+        "Only Progressive Era regulation involved any expansion of federal power; all other developments actually reduced federal authority.",
+        "Federal government power remained completely static and unchanged throughout this entire unit."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question directly rewards the unit's opening Skill Builder framework: Progressive regulation of specific industries (Section 7.2) established an early precedent for federal economic intervention; wartime coordination (Section 7.4) expanded this to coordinate entire industries for a national goal; the New Deal (Section 7.7) established PERMANENT federal social welfare institutions beyond any temporary crisis; and WWII mobilization (Sections 7.8–7.9) represented federal coordination of the ENTIRE economy plus development of an entirely unprecedented category of military technology. Recognizing these as four sequential STEPS in one continuous trajectory of expanding federal government scope and capacity — each building on precedents the previous step established — rather than four unconnected historical developments, is exactly the kind of connective, unit-spanning synthesis a top-scoring essay on this period should demonstrate."
+    }
   ],
-  8: [
-    { id: "8-1", topic: "8.1 Origins of the Cold War", stem: "What was 'containment'?", choices: ["A strategy of directly rolling back existing Soviet territorial control.", "A strategy of actively preventing further Soviet/communist expansion without seeking to directly reverse existing Soviet gains.", "A strategy of full military alliance with the Soviet Union.", "A strategy unrelated to the Cold War."], correct: 1, explanation: "Containment was a strategy of actively preventing further Soviet/communist expansion, without seeking to directly roll back existing Soviet territorial gains — a specifically limited strategic aim." },
-    { id: "8-2", topic: "8.1 Origins of the Cold War", stem: "What did the Truman Doctrine (1947) provide?", choices: ["Aid to Greece and Turkey to resist communist pressure.", "Direct military alliance with the Soviet Union.", "Economic aid to rebuild Japan.", "A formal peace treaty ending World War II."], correct: 0, explanation: "The Truman Doctrine (1947) provided aid to Greece and Turkey to resist communist pressure, an early concrete application of the containment strategy." },
-    { id: "8-3", topic: "8.1 Origins of the Cold War", stem: "What was the Marshall Plan?", choices: ["A military alliance treaty.", "Extensive economic aid to rebuild Western European economies, aiming to prevent communism's appeal in economically desperate conditions.", "A plan to invade the Soviet Union.", "A domestic anticommunism policy."], correct: 1, explanation: "The Marshall Plan provided extensive economic aid to rebuild Western European economies, aiming to prevent communism's political appeal in economically desperate postwar conditions." },
-    { id: "8-4", topic: "8.1 Origins of the Cold War", stem: "What occurred during the Berlin Blockade (1948–49)?", choices: ["The Soviet Union attempted to cut off Allied access to West Berlin, met by a sustained American/Allied airlift.", "The U.S. blockaded Moscow.", "Germany was formally reunified.", "NATO was dissolved."], correct: 0, explanation: "During the Berlin Blockade, the Soviet Union attempted to cut off Allied access to West Berlin, met by a sustained American/Allied airlift of supplies, demonstrating containment in direct practice." },
-    { id: "8-5", topic: "8.1 Origins of the Cold War", stem: "What was NATO (formed 1949)?", choices: ["A formal military alliance among the U.S. and Western European nations.", "A Soviet-led military alliance.", "An economic aid program.", "A domestic anticommunism agency."], correct: 0, explanation: "NATO (1949) was a formal military alliance among the U.S. and Western European nations, institutionalizing Cold War division into a lasting collective security structure." },
-    { id: "8-6", topic: "8.1 Origins of the Cold War", stem: "What two 1949 developments significantly intensified American Cold War anxiety?", choices: ["The Marshall Plan and NATO's formation", "The Soviet Union's atomic bomb test and China's establishment as a communist state", "The Truman Doctrine and the Berlin Blockade", "The Korean War and McCarthyism"], correct: 1, explanation: "The Soviet Union's 1949 atomic bomb test and China's establishment as a communist state under Mao Zedong (also 1949) significantly intensified American Cold War anxiety, directly fueling domestic anticommunism." },
-    { id: "8-7", topic: "8.1 Origins of the Cold War", stem: "Why was the Marshall Plan's economic aid considered a form of Cold War strategy, not simply humanitarian assistance?", choices: ["It had no strategic purpose of any kind.", "American policymakers believed economically desperate populations would be more susceptible to communist appeals, so funding recovery directly served containment's broader strategic goal.", "It was designed exclusively to weaken Western European economies.", "It had no relationship to the broader Cold War at all."], correct: 1, explanation: "American policymakers believed economically desperate, war-devastated populations would be more susceptible to communist political appeals — meaning funding European economic recovery directly served containment's broader strategic goal, not existing in a separate humanitarian category." },
-    { id: "8-8", topic: "8.1 Origins of the Cold War", stem: "Why should containment NOT be described as aiming to directly reverse existing Soviet territorial control?", choices: ["Because containment had unlimited strategic aims with no restriction.", "Because containment specifically aimed at preventing FURTHER expansion, a more limited strategic goal than reversing existing Soviet gains in Eastern Europe.", "Because containment never actually existed as a real strategy.", "Because the Soviet Union had no existing territorial control to reverse."], correct: 1, explanation: "Containment specifically aimed at preventing further Soviet/communist expansion — a more limited strategic goal than reversing existing Soviet territorial control, an important distinction for understanding later U.S. non-intervention in existing Soviet-aligned territory." },
-    { id: "8-9", topic: "8.2 Korean War and McCarthyism", stem: "How did the Korean War (1950–53) ultimately end?", choices: ["A decisive U.S./UN military victory reunifying Korea.", "A stalemate and armistice, restoring roughly the prewar border between North and South Korea.", "A decisive North Korean military victory.", "The war never actually ended."], correct: 1, explanation: "The Korean War ended in a stalemate and armistice, restoring roughly the prewar border between North and South Korea — a limited outcome reflecting containment's specifically limited strategic aim." },
-    { id: "8-10", topic: "8.2 Korean War and McCarthyism", stem: "Why did the Korean War's limited outcome directly reflect containment's strategic logic?", choices: ["The war's outcome had no relationship to containment strategy.", "Containment aimed at preventing communist expansion into South Korea specifically, not achieving total victory or reunifying Korea under non-communist control.", "The U.S. sought to reunify Korea under communist control.", "Containment required total military victory in every conflict."], correct: 1, explanation: "The Korean War's limited outcome directly reflected containment's specifically limited strategic aim — preventing communist expansion into South Korea, not achieving total victory or Korean reunification under non-communist control." },
-    { id: "8-11", topic: "8.2 Korean War and McCarthyism", stem: "What did Senator Joseph McCarthy allege?", choices: ["Widespread communist infiltration of the U.S. government, often with minimal or no substantiating evidence.", "That the Korean War should end immediately.", "That the Marshall Plan should be expanded.", "That NATO should be dissolved."], correct: 0, explanation: "Senator Joseph McCarthy alleged widespread communist infiltration of the U.S. government, often making sweeping accusations with minimal or no substantiating evidence." },
-    { id: "8-12", topic: "8.2 Korean War and McCarthyism", stem: "What role did HUAC (House Un-American Activities Committee) and the Hollywood blacklist play during this period?", choices: ["They had no relationship to domestic anticommunism.", "They extended the anticommunist climate beyond McCarthy himself, targeting entertainment industry figures suspected of communist sympathies, often based on unproven allegations.", "They exclusively investigated foreign policy matters.", "They provided legal protection for accused individuals."], correct: 1, explanation: "HUAC and the Hollywood blacklist extended the anticommunist climate beyond McCarthy himself, targeting entertainment industry figures suspected of communist sympathies, often damaging or ending careers based on unproven or flimsy allegations." },
-    { id: "8-13", topic: "8.2 Korean War and McCarthyism", stem: "What led to McCarthy's political downfall?", choices: ["His accusations extending to the U.S. Army during televised hearings, exposing his methods' recklessness to a national audience.", "The end of the Korean War.", "The Marshall Plan's completion.", "NATO's formation."], correct: 0, explanation: "McCarthy's political downfall came after his accusations extended to the U.S. Army during televised hearings, exposing his methods' recklessness to a national audience and significantly discrediting him." },
-    { id: "8-14", topic: "8.2 Korean War and McCarthyism", stem: "Should McCarthyism be characterized as a proportionate, accurate response to a genuine large-scale communist infiltration threat?", choices: ["Yes, McCarthy's specific allegations were consistently well-substantiated.", "No — while some genuine espionage cases existed, McCarthy's own specific allegations were frequently unsubstantiated and excessive, representing a significant civil liberties overreach.", "Yes, because no genuine espionage cases ever existed during this period.", "No, because McCarthyism never actually occurred."], correct: 1, explanation: "McCarthyism should NOT be characterized as a proportionate response — while some genuine espionage cases did exist (like the Rosenbergs), McCarthy's own specific allegations were frequently unsubstantiated and excessive, representing a significant civil liberties overreach fueled by exaggerated Cold War anxiety." },
-    { id: "8-15", topic: "8.2 Korean War and McCarthyism", stem: "How did 'losing China' (1949) and the Korean War's outbreak (1950) together intensify domestic anticommunism?", choices: ["These events had no relationship to domestic anticommunism.", "They created a sense that communism was rapidly expanding despite containment, fueling anxiety that political figures like McCarthy exploited by alleging internal domestic subversion.", "They immediately ended all domestic anticommunist sentiment.", "They only affected foreign policy, with no domestic political consequence."], correct: 1, explanation: "China's fall to communism and Korea's invasion together created genuine anxiety that communism was expanding despite containment efforts, fueling a climate that McCarthy and others exploited by alleging internal domestic subversion explained this apparent 'failure.'" },
-    { id: "8-16", topic: "8.2 Korean War and McCarthyism", stem: "Which case involved a genuine, documented instance of atomic espionage during this period?", choices: ["The Scopes Trial", "The Rosenberg case", "The Watergate scandal", "The Zimmermann Telegram"], correct: 1, explanation: "The Rosenberg case involved a genuine, documented instance of atomic espionage, providing some genuine basis for Cold War-era anticommunist concern, even as McCarthy's own broader allegations were frequently excessive and unsubstantiated." },
-    { id: "8-17", topic: "8.3 1950s Society", stem: "What was Levittown an example of?", choices: ["Urban tenement housing.", "Mass-produced suburban housing developments enabled by government-backed mortgage programs.", "A political machine.", "A labor union."], correct: 1, explanation: "Levittown was an example of mass-produced suburban housing developments, enabled by government-backed mortgage programs, that made homeownership newly accessible to a broad middle class during the 1950s." },
-    { id: "8-18", topic: "8.3 1950s Society", stem: "What government program helped enable postwar suburban homeownership?", choices: ["The GI Bill's mortgage assistance", "The Marshall Plan", "The Wagner Act", "NATO"], correct: 0, explanation: "The GI Bill's mortgage assistance helped enable postwar suburban homeownership, contributing to significant 1950s suburbanization." },
-    { id: "8-19", topic: "8.3 1950s Society", stem: "What was 'redlining'?", choices: ["A government program encouraging integrated housing.", "A discriminatory lending practice denying loans in specific neighborhoods, often based on race.", "A labor union organizing tactic.", "A foreign policy strategy."], correct: 1, explanation: "Redlining was a discriminatory lending practice that denied loans in specific neighborhoods, often based on race, significantly limiting Black American access to suburban homeownership opportunities." },
-    { id: "8-20", topic: "8.3 1950s Society", stem: "Did government-backed mortgage programs provide race-neutral access to suburban homeownership?", choices: ["Yes, these programs were applied completely equally regardless of race.", "No — these programs and related private lending practices like redlining frequently and explicitly discriminated based on race, significantly limiting Black American access.", "Yes, because redlining never actually occurred.", "No, because these programs excluded all Americans equally with no exception."], correct: 1, explanation: "Government-backed mortgage programs were NOT race-neutral — these programs and related practices like redlining frequently and explicitly discriminated based on race, significantly limiting suburban homeownership access for Black Americans specifically." },
-    { id: "8-21", topic: "8.3 1950s Society", stem: "What infrastructure project, authorized in 1956, further enabled suburban growth and automobile-centered culture?", choices: ["The Erie Canal", "The interstate highway system", "The transcontinental railroad", "The Panama Canal"], correct: 1, explanation: "The interstate highway system, authorized in 1956, further enabled suburban growth and automobile-centered culture during the 1950s." },
-    { id: "8-22", topic: "8.3 1950s Society", stem: "What was the 'Baby Boom'?", choices: ["A significant, sustained rise in birth rates reflecting the era's emphasis on family stability.", "A decline in birth rates during the 1950s.", "A term for suburban housing development.", "A labor movement term."], correct: 0, explanation: "The Baby Boom was a significant, sustained rise in birth rates during this period, reflecting and reinforcing the 1950s' emphasis on family stability and consumer-oriented domestic life." },
-    { id: "8-23", topic: "8.3 1950s Society", stem: "How does 1950s housing discrimination connect to the Civil Rights Movement covered in Section 8.4?", choices: ["There is no connection between these two topics.", "It directly connects to the movement's emerging demands for full and equal access to opportunities other Americans (particularly white suburban homeowners) already enjoyed.", "The Civil Rights Movement had no relationship to housing policy.", "1950s housing discrimination ended entirely before the Civil Rights Movement began."], correct: 1, explanation: "1950s housing discrimination directly connects to the Civil Rights Movement's emerging demands for full and equal access to opportunities — including suburban homeownership — that other Americans already enjoyed through government-backed programs." },
-    { id: "8-24", topic: "8.4 Civil Rights Movement", stem: "What did Brown v. Board of Education (1954) rule?", choices: ["That school segregation was constitutional under 'separate but equal.'", "That school segregation was unconstitutional, overturning 'separate but equal.'", "That voting rights could be restricted based on race.", "A ruling unrelated to civil rights."], correct: 1, explanation: "Brown v. Board of Education (1954) ruled that school segregation was unconstitutional, directly overturning the earlier 'separate but equal' doctrine." },
-    { id: "8-25", topic: "8.4 Civil Rights Movement", stem: "What was the Montgomery Bus Boycott (1955–56)?", choices: ["A sustained nonviolent protest against bus segregation that launched Martin Luther King Jr.'s national leadership.", "A Supreme Court ruling.", "A federal voting rights law.", "A violent uprising."], correct: 0, explanation: "The Montgomery Bus Boycott (1955–56) was a sustained nonviolent protest against bus segregation that launched Martin Luther King Jr.'s national civil rights leadership." },
-    { id: "8-26", topic: "8.4 Civil Rights Movement", stem: "What did the Civil Rights Act (1964) ban?", choices: ["Only voting discrimination.", "Discrimination based on race, color, religion, sex, or national origin in public accommodations and employment.", "Only school segregation.", "Only housing discrimination."], correct: 1, explanation: "The Civil Rights Act (1964) banned discrimination based on race, color, religion, sex, or national origin in public accommodations and employment — a broad, significant piece of civil rights legislation." },
-    { id: "8-27", topic: "8.4 Civil Rights Movement", stem: "What did the Voting Rights Act (1965) address?", choices: ["School segregation exclusively.", "Discriminatory voting practices (like literacy tests) and authorized federal oversight of voter registration in discriminatory jurisdictions.", "Housing discrimination exclusively.", "Employment discrimination exclusively."], correct: 1, explanation: "The Voting Rights Act (1965) banned discriminatory voting practices like literacy tests and authorized federal oversight of voter registration in jurisdictions with a history of discrimination." },
-    { id: "8-28", topic: "8.4 Civil Rights Movement", stem: "What strategic approach did Martin Luther King Jr. and allied organizations pursue?", choices: ["Armed resistance and separatism.", "Nonviolent civil disobedience, deliberately breaking unjust laws through peaceful protest and accepting arrest.", "Exclusive reliance on lawsuits with no direct action.", "Full cooperation with segregationist policies."], correct: 1, explanation: "King and allied organizations pursued nonviolent civil disobedience — deliberately breaking unjust segregation laws through peaceful protest and accepting arrest, using resulting media coverage to build broader support." },
-    { id: "8-29", topic: "8.4 Civil Rights Movement", stem: "What approach did Malcolm X and the Black Power movement articulate, in contrast to King's approach?", choices: ["An approach identical to King's nonviolent strategy.", "A more assertive approach emphasizing Black self-determination, self-defense, and sometimes skepticism about integration as the movement's necessary ultimate goal.", "Complete rejection of any civil rights activism.", "An approach focused exclusively on international diplomacy."], correct: 1, explanation: "Malcolm X and the Black Power movement articulated a more assertive approach, emphasizing Black self-determination, self-defense, and sometimes skepticism about whether integration into existing institutions was the movement's most appropriate ultimate goal." },
-    { id: "8-30", topic: "8.4 Civil Rights Movement", stem: "Should 'the Civil Rights Movement' be described as a single, strategically unified entity?", choices: ["Yes, all civil rights activists shared an identical strategic approach.", "No — the movement contained genuine strategic debate, with King's nonviolent integrationist approach and Malcolm X's/Black Power's more assertive approach representing genuinely different philosophies.", "Yes, because no strategic disagreement ever existed within the movement.", "No, because the Civil Rights Movement never actually existed."], correct: 1, explanation: "The Civil Rights Movement should NOT be described as strategically unified — it contained genuine internal strategic debate, with King's approach and Malcolm X's/Black Power's approach representing genuinely different strategic philosophies within a broader, internally diverse movement." },
-    { id: "8-31", topic: "8.4 Civil Rights Movement", stem: "What was the Civil Rights Movement's significance in the context of the Cold War?", choices: ["It had no relationship to the Cold War.", "American segregation was a significant Cold War propaganda liability, since Soviet propaganda regularly cited it to challenge U.S. claims of moral and democratic superiority.", "The Soviet Union actively supported American segregation.", "The Cold War had no relationship to any domestic American issue."], correct: 1, explanation: "American segregation was a significant Cold War propaganda liability — Soviet propaganda regularly cited it to challenge U.S. claims of moral and democratic superiority, giving civil rights reform genuine Cold War strategic significance." },
-    { id: "8-32", topic: "8.5 Vietnam and Great Society", stem: "What did Johnson's Great Society agenda include?", choices: ["Medicare, Medicaid, and the War on Poverty.", "The Marshall Plan and NATO.", "The Wagner Act and Social Security Act.", "Détente and the opening to China."], correct: 0, explanation: "Johnson's Great Society agenda included Medicare (health insurance for elderly Americans), Medicaid (health insurance for low-income Americans), and a broader War on Poverty including programs like Head Start." },
-    { id: "8-33", topic: "8.5 Vietnam and Great Society", stem: "How did the Great Society relate to the New Deal's precedent?", choices: ["It had no relationship to the New Deal.", "It directly extended the New Deal's basic premise of federal responsibility for economic security into new areas, including healthcare specifically.", "It eliminated all New Deal programs.", "It preceded the New Deal chronologically."], correct: 1, explanation: "The Great Society directly extended the New Deal's basic premise of federal responsibility for economic security into new areas the New Deal itself had not addressed, particularly healthcare (Medicare, Medicaid)." },
-    { id: "8-34", topic: "8.5 Vietnam and Great Society", stem: "What did the Gulf of Tonkin Resolution (1964) do?", choices: ["Ended U.S. involvement in Vietnam.", "Granted Johnson broad authority to escalate U.S. military involvement in Vietnam.", "Established the Great Society.", "Created NATO."], correct: 1, explanation: "The Gulf of Tonkin Resolution (1964) granted Johnson broad authority to escalate U.S. military involvement in Vietnam, directly preceding dramatic escalation of the war." },
-    { id: "8-35", topic: "8.5 Vietnam and Great Society", stem: "Was the Tet Offensive (1968) a military victory for North Vietnamese/Viet Cong forces?", choices: ["Yes, it was a decisive North Vietnamese military victory.", "No — it was ultimately a significant military defeat for the attacking forces, who suffered heavy casualties and failed to hold captured territory.", "Yes, because North Vietnam won the war immediately afterward.", "The Tet Offensive never actually occurred."], correct: 1, explanation: "The Tet Offensive was ultimately a significant MILITARY DEFEAT for the attacking North Vietnamese/Viet Cong forces, who suffered heavy casualties and failed to hold captured territory — despite its major political/psychological significance." },
-    { id: "8-36", topic: "8.5 Vietnam and Great Society", stem: "Why did the Tet Offensive significantly damage American public confidence in the war, despite being a military defeat for the attackers?", choices: ["It had no effect on American public opinion.", "Its sheer scale and coordination directly contradicted official U.S. government assurances that the war was being won, damaging public trust regardless of the actual battlefield outcome.", "It resulted in immediate American surrender.", "American media coverage of the offensive was entirely positive."], correct: 1, explanation: "Tet's sheer scale and coordination directly contradicted U.S. government assurances that the war was being won — significantly damaging public and media confidence in the war effort and the government's honesty, regardless of the offensive's actual military outcome." },
-    { id: "8-37", topic: "8.5 Vietnam and Great Society", stem: "How did the Vietnam War's cost affect the Great Society's domestic agenda?", choices: ["It had no relationship to the Great Society at all.", "Resources and political attention devoted to the escalating war effort came at the expense of the Great Society's own funding and political momentum.", "It significantly increased Great Society funding.", "The Great Society was fully implemented before the Vietnam War began."], correct: 1, explanation: "As the Vietnam War escalated dramatically in cost, resources and political attention devoted to it came, to a real extent, at the expense of the ambitious Great Society agenda's own funding and political momentum — a direct competing-priorities tension." },
-    { id: "8-38", topic: "8.5 Vietnam and Great Society", stem: "Which of the following best illustrates this unit's theme of foreign and domestic policy shaping each other?", choices: ["Foreign and domestic policy operated in completely separate, unrelated spheres during this period.", "The Vietnam War's cost directly competing with Great Society funding.", "Foreign policy had no relationship to any domestic program during this period.", "Domestic policy had no relationship to any foreign policy decision during this period."], correct: 1, explanation: "The Vietnam War's escalating cost directly competing with the Great Society's domestic funding is a clear, direct illustration of this unit's opening theme — foreign policy and domestic policy constantly and directly shaping and constraining each other, not operating as separate tracks." },
-    { id: "8-39", topic: "8.6 Social Movements", stem: "What book helped catalyze a renewed women's movement in the 1960s?", choices: ["The Jungle", "The Feminine Mystique", "Common Sense", "The Gospel of Wealth"], correct: 1, explanation: "Betty Friedan's The Feminine Mystique (1963) helped catalyze a renewed women's movement, leading to the founding of the National Organization for Women (NOW)." },
-    { id: "8-40", topic: "8.6 Social Movements", stem: "Did the Equal Rights Amendment achieve successful ratification?", choices: ["Yes, it was successfully ratified and remains part of the Constitution.", "No — despite passing Congress in 1972, it ultimately failed to achieve ratification by the required number of states within its deadline.", "Yes, but only for a brief period before being repealed.", "The Equal Rights Amendment was never actually proposed."], correct: 1, explanation: "Despite passing Congress in 1972, the Equal Rights Amendment ultimately failed to achieve ratification by the required number of states within its deadline — a significant setback for the women's movement." },
-    { id: "8-41", topic: "8.6 Social Movements", stem: "What significant environmental policy developments occurred around 1970?", choices: ["The establishment of the Environmental Protection Agency (EPA) and the first Earth Day.", "The Marshall Plan and NATO's formation.", "The Civil Rights Act and Voting Rights Act.", "The Gulf of Tonkin Resolution."], correct: 0, explanation: "The establishment of the Environmental Protection Agency (EPA) and the first Earth Day (1970) were significant environmental movement achievements around this time." },
-    { id: "8-42", topic: "8.6 Social Movements", stem: "How did the Civil Rights Movement's organizing strategies influence later social movements?", choices: ["They had no influence on any later movement.", "The women's and environmental movements directly adapted tactics like mass peaceful demonstrations and targeted legislative advocacy pioneered by the Civil Rights Movement.", "Later movements rejected all Civil Rights Movement tactics entirely.", "The Civil Rights Movement only influenced foreign policy, not other domestic movements."], correct: 1, explanation: "The women's and environmental movements directly adapted organizing tactics — mass peaceful demonstrations, targeted legislative advocacy, effective media use — pioneered by the Civil Rights Movement, applying this template to their own distinct causes." },
-    { id: "8-43", topic: "8.6 Social Movements", stem: "What organization did the women's movement found in response to Friedan's work?", choices: ["The National Organization for Women (NOW)", "The Farmers' Alliance", "The AFL", "Tammany Hall"], correct: 0, explanation: "The National Organization for Women (NOW) was founded as part of the renewed women's movement, following the influence of Betty Friedan's The Feminine Mystique." },
-    { id: "8-44", topic: "8.6 Social Movements", stem: "Why is it important to distinguish the women's and environmental movements' substantive goals from the Civil Rights Movement's specific goals, even while acknowledging shared organizing methods?", choices: ["There is no reason to make this distinction.", "While these movements adapted similar organizing tactics, they pursued genuinely distinct substantive causes — a strong essay shouldn't conflate shared methods with identical goals.", "These movements had no relationship to each other of any kind, including methods.", "All social movements during this period pursued identical goals."], correct: 1, explanation: "It's important to distinguish shared organizing METHODS from substantive GOALS — the women's and environmental movements adapted Civil Rights Movement tactics while pursuing genuinely distinct causes, a distinction a strong essay should maintain rather than conflating methods with identical goals." },
-    { id: "8-45", topic: "8.7 Nixon and Watergate", stem: "What was 'détente'?", choices: ["A policy of increased Cold War tension.", "A policy of reduced Cold War tension and increased diplomatic engagement with the Soviet Union, including arms control agreements.", "A domestic anticommunism policy.", "A policy unrelated to the Cold War."], correct: 1, explanation: "Détente was Nixon's policy of reduced Cold War tension and increased diplomatic engagement with the Soviet Union, including arms control agreements." },
-    { id: "8-46", topic: "8.7 Nixon and Watergate", stem: "What was the strategic logic behind Nixon's 1972 opening to China?", choices: ["Nixon had no strategic reasoning behind this decision.", "Exploiting growing tension between China and the Soviet Union (the Sino-Soviet split) to increase diplomatic pressure and leverage against the USSR.", "Nixon sought to form a military alliance against Japan.", "Nixon sought to end all U.S. relations with Asia entirely."], correct: 1, explanation: "Nixon's opening to China strategically exploited growing tension between China and the Soviet Union, aiming to increase U.S. diplomatic pressure and leverage against the Soviet Union, America's primary Cold War rival." },
-    { id: "8-47", topic: "8.7 Nixon and Watergate", stem: "What was 'Vietnamization'?", choices: ["Increasing U.S. troop commitment in Vietnam.", "Gradually withdrawing U.S. troops while transferring primary combat responsibility to South Vietnamese forces.", "A policy of immediate, complete U.S. withdrawal with no transition.", "A policy unrelated to the Vietnam War."], correct: 1, explanation: "Vietnamization was Nixon's policy of gradually withdrawing U.S. troops while transferring primary combat responsibility to South Vietnamese forces, eventually leading to full U.S. withdrawal in 1973." },
-    { id: "8-48", topic: "8.7 Nixon and Watergate", stem: "What was the Watergate scandal?", choices: ["A foreign policy crisis involving the Soviet Union.", "A break-in at Democratic Party headquarters connected to Nixon's re-election campaign, followed by a documented cover-up effort.", "A domestic economic crisis.", "A civil rights protest."], correct: 1, explanation: "The Watergate scandal began with a break-in at Democratic Party headquarters connected to Nixon's re-election campaign, followed by a documented, sustained cover-up effort that ultimately forced Nixon's resignation." },
-    { id: "8-49", topic: "8.7 Nixon and Watergate", stem: "What was the outcome of the Watergate scandal for Nixon's presidency?", choices: ["Nixon completed his full term with no consequence.", "Nixon resigned in 1974, the only U.S. presidential resignation in American history.", "Nixon was formally impeached and removed from office by the Senate.", "The scandal had no consequence for Nixon's presidency."], correct: 1, explanation: "Watergate ultimately forced Nixon's resignation in 1974 — the only U.S. presidential resignation in American history, occurring before a formal Senate impeachment removal vote could take place." },
-    { id: "8-50", topic: "8.7 Nixon and Watergate", stem: "Should Watergate be characterized purely as a story of institutional failure?", choices: ["Yes, Watergate represents only institutional failure with no institutional success.", "No — while it represented a genuine, serious abuse of power, its resolution (press investigation, congressional action, Supreme Court ruling) also demonstrated that constitutional accountability mechanisms could function even against a sitting president.", "Yes, because no accountability mechanism ever functioned during Watergate.", "No, because Watergate never actually occurred."], correct: 1, explanation: "Watergate should NOT be characterized purely as institutional failure — while it represented genuine, serious abuse of power, its resolution also demonstrated that American constitutional accountability mechanisms could function effectively even against a sitting president, a genuine duality." },
-    { id: "8-51", topic: "8.7 Nixon and Watergate", stem: "What ultimately happened to South Vietnam following the U.S. withdrawal (1973)?", choices: ["South Vietnam remained independent and non-communist permanently.", "South Vietnam was ultimately defeated and unified with North Vietnam under communist control (1975).", "South Vietnam became a U.S. territory.", "South Vietnam immediately became a NATO member."], correct: 1, explanation: "Following the U.S. withdrawal (1973), South Vietnam was ultimately defeated and unified with North Vietnam under communist control by 1975." },
-    { id: "8-52", topic: "8.7 Nixon and Watergate", stem: "What role did the Supreme Court play in resolving the Watergate scandal?", choices: ["The Supreme Court had no involvement in Watergate.", "The Supreme Court ruled that Nixon must release incriminating tape recordings.", "The Supreme Court formally removed Nixon from office.", "The Supreme Court ruled Nixon's actions were entirely legal."], correct: 1, explanation: "The Supreme Court ruled that Nixon must release incriminating tape recordings, a significant judicial branch action that directly contributed to Watergate's ultimate resolution and Nixon's resignation." },
-    { id: "8-53", topic: "8.8 Economic Challenges", stem: "What was 'stagflation'?", choices: ["A period of rapid economic growth with no inflation.", "The unusual, simultaneous combination of economic stagnation (slow growth, high unemployment) AND high inflation.", "A synonym for the Great Depression.", "A term unrelated to economic conditions."], correct: 1, explanation: "Stagflation was the unusual, simultaneous combination of economic stagnation (slow growth, high unemployment) AND high inflation, emerging significantly during the 1970s." },
-    { id: "8-54", topic: "8.8 Economic Challenges", stem: "Why did stagflation challenge conventional Keynesian economic policy assumptions?", choices: ["It didn't challenge any economic assumptions.", "Conventional assumptions held that stagnation and inflation normally moved in opposite directions, with policy tools typically addressing one at the cost of worsening the other.", "Keynesian economics had no relationship to inflation or stagnation.", "Stagflation confirmed all existing economic policy assumptions perfectly."], correct: 1, explanation: "Stagflation challenged conventional Keynesian assumptions because these problems normally moved in opposite directions — policy tools typically used to address one (like stimulating growth) would usually worsen the other (inflation), making stagflation's simultaneous combination a genuine policy puzzle." },
-    { id: "8-55", topic: "8.8 Economic Challenges", stem: "What triggered the 1973 OPEC oil embargo?", choices: ["A response to U.S. support for Israel during the Yom Kippur War.", "A response to the Vietnam War's end.", "A response to Watergate.", "A response to the Great Society's programs."], correct: 0, explanation: "The 1973 OPEC oil embargo was a response to U.S. support for Israel during the Yom Kippur War, causing a sharp oil price spike that significantly contributed to inflationary pressure." },
-    { id: "8-56", topic: "8.8 Economic Challenges", stem: "What did the 1973 oil embargo expose about the American economy?", choices: ["Complete American energy self-sufficiency with no vulnerability.", "Growing American economic vulnerability to international energy supply disruption.", "That the American economy had no relationship to oil prices.", "That oil prices had no effect on inflation."], correct: 1, explanation: "The 1973 oil embargo exposed America's growing economic vulnerability to international energy supply disruption, significantly contributing to the era's inflationary pressure." },
-    { id: "8-57", topic: "8.8 Economic Challenges", stem: "How did Vietnam and Watergate together affect American public trust in government?", choices: ["They had no combined effect on public trust.", "Their combined cumulative effect significantly and lastingly damaged American public trust in government institutions generally.", "They significantly increased public trust in government.", "Only Watergate affected public trust; Vietnam had no relationship to this."], correct: 1, explanation: "The combined cumulative effect of Vietnam's disillusioning outcome and Watergate's documented corruption significantly and lastingly damaged American public trust in government institutions generally, persisting well beyond the specific events themselves." },
-    { id: "8-58", topic: "8.8 Economic Challenges", stem: "How does declining public trust by the late 1970s connect to this unit's broader theme of expanding federal government power?", choices: ["There is no connection between these two developments.", "The combined disillusionment from Vietnam and Watergate directly undermined public confidence in the same expanded federal government this unit traced, setting up receptiveness to a different political message in Period 9.", "Public trust in government increased steadily throughout this entire unit with no decline.", "Federal government power had no relationship to public trust at any point."], correct: 1, explanation: "The combined disillusionment from Vietnam and Watergate directly undermined public confidence in the expanded federal government this entire unit traced (since the Progressive Era), setting up genuine public receptiveness to a different, more skeptical political message that Period 9 will cover." },
-    { id: "8-59", topic: "8.8 Economic Challenges", stem: "What specific policy challenge did stagflation set up for the subsequent period covered in Period 9?", choices: ["No policy challenge of any kind resulted from stagflation.", "The need for different economic policy approaches, since conventional tools struggled to address stagnation and inflation simultaneously.", "Stagflation had no relationship to any later economic policy.", "Stagflation was fully and permanently resolved before Period 9 began."], correct: 1, explanation: "Stagflation set up the need for different economic policy approaches in Period 9, since conventional Keynesian tools had struggled to address the unusual simultaneous combination of stagnation and inflation." },
-    { id: "8-60", topic: "8.8 Economic Challenges", stem: "Why is it insufficient to describe 1970s economic conditions as simply 'bad economic times' without further specification?", choices: ["This description is fully sufficient and complete.", "This fails to name the SPECIFIC, genuinely unusual feature — the simultaneous combination of stagnation and inflation — that made 1970s economic conditions a distinct policy challenge, not simply a generic downturn.", "1970s economic conditions were not actually difficult in any way.", "Specificity has no value in historical economic analysis."], correct: 1, explanation: "A vague 'bad economic times' description fails to name stagflation's SPECIFIC, genuinely unusual feature — the simultaneous combination of stagnation and inflation — which is precisely what made this economic challenge distinct from a typical downturn and set up different policy debates in Period 9." },
-    { id: "8-61", topic: "8.8 Economic Challenges", stem: "Which of the following pairs of events combined to significantly damage American public trust in government by the late 1970s?", choices: ["The Marshall Plan and NATO's formation", "Vietnam's disillusioning outcome and the Watergate scandal", "Brown v. Board and the Civil Rights Act", "The Great Society and détente"], correct: 1, explanation: "Vietnam's disillusioning outcome and the Watergate scandal combined to significantly and lastingly damage American public trust in government institutions by the late 1970s." },
-    { id: "8-62", topic: "8.8 Economic Challenges", stem: "How did the 1973 OPEC oil embargo relate to broader Middle East geopolitics during this period?", choices: ["It had no relationship to Middle East geopolitics.", "It was a direct response to U.S. support for Israel during the Yom Kippur War, connecting domestic American economic conditions to international conflict.", "It was caused entirely by domestic American energy policy with no international dimension.", "It occurred in a region with no relationship to oil production."], correct: 1, explanation: "The oil embargo was a direct response to U.S. support for Israel during the Yom Kippur War, directly connecting domestic American economic conditions (stagflation, inflation) to international Middle East geopolitical conflict." },
-    { id: "8-63", topic: "8.8 Economic Challenges", stem: "Which specific economic combination made 1970s conditions unusual compared to a typical recession?", choices: ["High growth combined with low unemployment", "Slow growth and high unemployment combined with high inflation", "Low inflation combined with high growth", "No unusual combination existed during this decade"], correct: 1, explanation: "The unusual combination of slow growth and high unemployment (stagnation) combined with high inflation — together called stagflation — made 1970s conditions genuinely unusual compared to a typical recession, where these factors normally move in opposite directions." },
-    { id: "8-64", topic: "8.8 Economic Challenges", stem: "Why does this unit's closing section connect directly to Period 9's opening themes?", choices: ["There is no connection between the end of this unit and the beginning of the next.", "Declining public trust in government and economic policy challenges (stagflation) directly set up the political and economic shift Period 9 will cover.", "Period 9 covers an entirely unrelated set of historical developments with no connection to Period 8.", "This unit's closing section has no relationship to any subsequent historical period."], correct: 1, explanation: "This unit's closing section — declining public trust and stagflation's policy challenge — directly sets up Period 9's opening themes, connecting the two units through a continuous historical narrative rather than a sharp, disconnected break." },
-    { id: "8-65", topic: "8.8 Economic Challenges", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the Cold War's ideological competition (Section 8.1), the Civil Rights Movement's international significance (Section 8.4), and the Vietnam War's domestic political consequences (Section 8.5) together illustrate a single, unit-spanning pattern in which foreign policy and domestic politics were never actually separable during this period, despite often being studied as separate categories.", choices: ["Foreign policy and domestic politics were entirely separate and unrelated throughout this entire unit.", "The Cold War's ideological competition gave the Civil Rights Movement genuine international leverage (since segregation undermined American Cold War propaganda), while the Vietnam War's domestic unpopularity (fueled partly by the same Cold War containment logic that started American involvement) directly undermined the Great Society and public trust in the very government structure the Cold War had helped expand — showing that foreign policy decisions and domestic political outcomes were continuously, causally intertwined throughout this entire period, not two separate categories that happened to occur during the same decades.", "Only the Civil Rights Movement had any international dimension; all other developments in this unit were purely domestic.", "The Vietnam War had no relationship to domestic politics of any kind."], correct: 1, explanation: "This synthesis question rewards recognizing that this unit's foreign policy and domestic developments were never actually separable: the Cold War's ideological competition gave the Civil Rights Movement genuine international leverage against segregation; containment's same underlying logic drove the Vietnam War, whose domestic unpopularity then directly undermined the Great Society's funding and, ultimately, public trust in the very expanded federal government structure the Cold War itself had helped build. Recognizing this continuous, causally intertwined relationship between 'foreign' and 'domestic' history — rather than treating them as separate categories that merely happened to occur during the same decades — is exactly the connective, unit-spanning synthesis this unit's opening Skill Builder framework asks for, and exactly what a top-scoring essay on this period should demonstrate." },
+  "8": [
+    {
+      "id": "8-1",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What was 'containment'?",
+      "choices": [
+        "A strategy of directly rolling back existing Soviet territorial control.",
+        "A strategy unrelated to the Cold War.",
+        "A strategy of actively preventing further Soviet/communist expansion without seeking to directly reverse existing Soviet gains.",
+        "A strategy of full military alliance with the Soviet Union."
+      ],
+      "correct": 2,
+      "explanation": "Containment was a strategy of actively preventing further Soviet/communist expansion, without seeking to directly roll back existing Soviet territorial gains — a specifically limited strategic aim."
+    },
+    {
+      "id": "8-2",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What did the Truman Doctrine (1947) provide?",
+      "choices": [
+        "Direct military alliance with the Soviet Union.",
+        "Economic aid to rebuild Japan.",
+        "A formal peace treaty ending World War II.",
+        "Aid to Greece and Turkey to resist communist pressure."
+      ],
+      "correct": 3,
+      "explanation": "The Truman Doctrine (1947) provided aid to Greece and Turkey to resist communist pressure, an early concrete application of the containment strategy."
+    },
+    {
+      "id": "8-3",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What was the Marshall Plan?",
+      "choices": [
+        "A plan to invade the Soviet Union.",
+        "A domestic anticommunism policy.",
+        "A military alliance treaty.",
+        "Extensive economic aid to rebuild Western European economies, aiming to prevent communism's appeal in economically desperate conditions."
+      ],
+      "correct": 3,
+      "explanation": "The Marshall Plan provided extensive economic aid to rebuild Western European economies, aiming to prevent communism's political appeal in economically desperate postwar conditions."
+    },
+    {
+      "id": "8-4",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What occurred during the Berlin Blockade (1948–49)?",
+      "choices": [
+        "NATO was dissolved.",
+        "The Soviet Union attempted to cut off Allied access to West Berlin, met by a sustained American/Allied airlift.",
+        "The U.S. blockaded Moscow.",
+        "Germany was formally reunified."
+      ],
+      "correct": 1,
+      "explanation": "During the Berlin Blockade, the Soviet Union attempted to cut off Allied access to West Berlin, met by a sustained American/Allied airlift of supplies, demonstrating containment in direct practice."
+    },
+    {
+      "id": "8-5",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What was NATO (formed 1949)?",
+      "choices": [
+        "A Soviet-led military alliance.",
+        "A domestic anticommunism agency.",
+        "An economic aid program.",
+        "A formal military alliance among the U.S. and Western European nations."
+      ],
+      "correct": 3,
+      "explanation": "NATO (1949) was a formal military alliance among the U.S. and Western European nations, institutionalizing Cold War division into a lasting collective security structure."
+    },
+    {
+      "id": "8-6",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "What two 1949 developments significantly intensified American Cold War anxiety?",
+      "choices": [
+        "The Soviet Union's atomic bomb test and China's establishment as a communist state",
+        "The Marshall Plan and NATO's formation",
+        "The Korean War and McCarthyism",
+        "The Truman Doctrine and the Berlin Blockade"
+      ],
+      "correct": 0,
+      "explanation": "The Soviet Union's 1949 atomic bomb test and China's establishment as a communist state under Mao Zedong (also 1949) significantly intensified American Cold War anxiety, directly fueling domestic anticommunism."
+    },
+    {
+      "id": "8-7",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "Why was the Marshall Plan's economic aid considered a form of Cold War strategy, not simply humanitarian assistance?",
+      "choices": [
+        "It had no strategic purpose of any kind.",
+        "It was designed exclusively to weaken Western European economies.",
+        "It had no relationship to the broader Cold War at all.",
+        "American policymakers believed economically desperate populations would be more susceptible to communist appeals, so funding recovery directly served containment's broader strategic goal."
+      ],
+      "correct": 3,
+      "explanation": "American policymakers believed economically desperate, war-devastated populations would be more susceptible to communist political appeals — meaning funding European economic recovery directly served containment's broader strategic goal, not existing in a separate humanitarian category."
+    },
+    {
+      "id": "8-8",
+      "topic": "8.1 Origins of the Cold War",
+      "stem": "Why should containment NOT be described as aiming to directly reverse existing Soviet territorial control?",
+      "choices": [
+        "Because the Soviet Union had no existing territorial control to reverse.",
+        "Because containment specifically aimed at preventing FURTHER expansion, a more limited strategic goal than reversing existing Soviet gains in Eastern Europe.",
+        "Because containment had unlimited strategic aims with no restriction.",
+        "Because containment never actually existed as a real strategy."
+      ],
+      "correct": 1,
+      "explanation": "Containment specifically aimed at preventing further Soviet/communist expansion — a more limited strategic goal than reversing existing Soviet territorial control, an important distinction for understanding later U.S. non-intervention in existing Soviet-aligned territory."
+    },
+    {
+      "id": "8-9",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "How did the Korean War (1950–53) ultimately end?",
+      "choices": [
+        "A stalemate and armistice, restoring roughly the prewar border between North and South Korea.",
+        "A decisive North Korean military victory.",
+        "The war never actually ended.",
+        "A decisive U.S./UN military victory reunifying Korea."
+      ],
+      "correct": 0,
+      "explanation": "The Korean War ended in a stalemate and armistice, restoring roughly the prewar border between North and South Korea — a limited outcome reflecting containment's specifically limited strategic aim."
+    },
+    {
+      "id": "8-10",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "Why did the Korean War's limited outcome directly reflect containment's strategic logic?",
+      "choices": [
+        "The war's outcome had no relationship to containment strategy.",
+        "Containment required total military victory in every conflict.",
+        "Containment aimed at preventing communist expansion into South Korea specifically, not achieving total victory or reunifying Korea under non-communist control.",
+        "The U.S. sought to reunify Korea under communist control."
+      ],
+      "correct": 2,
+      "explanation": "The Korean War's limited outcome directly reflected containment's specifically limited strategic aim — preventing communist expansion into South Korea, not achieving total victory or Korean reunification under non-communist control."
+    },
+    {
+      "id": "8-11",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "What did Senator Joseph McCarthy allege?",
+      "choices": [
+        "Widespread communist infiltration of the U.S. government, often with minimal or no substantiating evidence.",
+        "That the Korean War should end immediately.",
+        "That the Marshall Plan should be expanded.",
+        "That NATO should be dissolved."
+      ],
+      "correct": 0,
+      "explanation": "Senator Joseph McCarthy alleged widespread communist infiltration of the U.S. government, often making sweeping accusations with minimal or no substantiating evidence."
+    },
+    {
+      "id": "8-12",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "What role did HUAC (House Un-American Activities Committee) and the Hollywood blacklist play during this period?",
+      "choices": [
+        "They exclusively investigated foreign policy matters.",
+        "They extended the anticommunist climate beyond McCarthy himself, targeting entertainment industry figures suspected of communist sympathies, often based on unproven allegations.",
+        "They provided legal protection for accused individuals.",
+        "They had no relationship to domestic anticommunism."
+      ],
+      "correct": 1,
+      "explanation": "HUAC and the Hollywood blacklist extended the anticommunist climate beyond McCarthy himself, targeting entertainment industry figures suspected of communist sympathies, often damaging or ending careers based on unproven or flimsy allegations."
+    },
+    {
+      "id": "8-13",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "What led to McCarthy's political downfall?",
+      "choices": [
+        "The Marshall Plan's completion.",
+        "NATO's formation.",
+        "The end of the Korean War.",
+        "His accusations extending to the U.S. Army during televised hearings, exposing his methods' recklessness to a national audience."
+      ],
+      "correct": 3,
+      "explanation": "McCarthy's political downfall came after his accusations extended to the U.S. Army during televised hearings, exposing his methods' recklessness to a national audience and significantly discrediting him."
+    },
+    {
+      "id": "8-14",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "Should McCarthyism be characterized as a proportionate, accurate response to a genuine large-scale communist infiltration threat?",
+      "choices": [
+        "No, because McCarthyism never actually occurred.",
+        "Yes, because no genuine espionage cases ever existed during this period.",
+        "No — while some genuine espionage cases existed, McCarthy's own specific allegations were frequently unsubstantiated and excessive, representing a significant civil liberties overreach.",
+        "Yes, McCarthy's specific allegations were consistently well-substantiated."
+      ],
+      "correct": 2,
+      "explanation": "McCarthyism should NOT be characterized as a proportionate response — while some genuine espionage cases did exist (like the Rosenbergs), McCarthy's own specific allegations were frequently unsubstantiated and excessive, representing a significant civil liberties overreach fueled by exaggerated Cold War anxiety."
+    },
+    {
+      "id": "8-15",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "How did 'losing China' (1949) and the Korean War's outbreak (1950) together intensify domestic anticommunism?",
+      "choices": [
+        "These events had no relationship to domestic anticommunism.",
+        "They immediately ended all domestic anticommunist sentiment.",
+        "They created a sense that communism was rapidly expanding despite containment, fueling anxiety that political figures like McCarthy exploited by alleging internal domestic subversion.",
+        "They only affected foreign policy, with no domestic political consequence."
+      ],
+      "correct": 2,
+      "explanation": "China's fall to communism and Korea's invasion together created genuine anxiety that communism was expanding despite containment efforts, fueling a climate that McCarthy and others exploited by alleging internal domestic subversion explained this apparent 'failure.'"
+    },
+    {
+      "id": "8-16",
+      "topic": "8.2 Korean War and McCarthyism",
+      "stem": "Which case involved a genuine, documented instance of atomic espionage during this period?",
+      "choices": [
+        "The Scopes Trial",
+        "The Rosenberg case",
+        "The Watergate scandal",
+        "The Zimmermann Telegram"
+      ],
+      "correct": 1,
+      "explanation": "The Rosenberg case involved a genuine, documented instance of atomic espionage, providing some genuine basis for Cold War-era anticommunist concern, even as McCarthy's own broader allegations were frequently excessive and unsubstantiated."
+    },
+    {
+      "id": "8-17",
+      "topic": "8.3 1950s Society",
+      "stem": "What was Levittown an example of?",
+      "choices": [
+        "A labor union.",
+        "Urban tenement housing.",
+        "Mass-produced suburban housing developments enabled by government-backed mortgage programs.",
+        "A political machine."
+      ],
+      "correct": 2,
+      "explanation": "Levittown was an example of mass-produced suburban housing developments, enabled by government-backed mortgage programs, that made homeownership newly accessible to a broad middle class during the 1950s."
+    },
+    {
+      "id": "8-18",
+      "topic": "8.3 1950s Society",
+      "stem": "What government program helped enable postwar suburban homeownership?",
+      "choices": [
+        "The GI Bill's mortgage assistance",
+        "NATO",
+        "The Wagner Act",
+        "The Marshall Plan"
+      ],
+      "correct": 0,
+      "explanation": "The GI Bill's mortgage assistance helped enable postwar suburban homeownership, contributing to significant 1950s suburbanization."
+    },
+    {
+      "id": "8-19",
+      "topic": "8.3 1950s Society",
+      "stem": "What was 'redlining'?",
+      "choices": [
+        "A government program encouraging integrated housing.",
+        "A foreign policy strategy.",
+        "A labor union organizing tactic.",
+        "A discriminatory lending practice denying loans in specific neighborhoods, often based on race."
+      ],
+      "correct": 3,
+      "explanation": "Redlining was a discriminatory lending practice that denied loans in specific neighborhoods, often based on race, significantly limiting Black American access to suburban homeownership opportunities."
+    },
+    {
+      "id": "8-20",
+      "topic": "8.3 1950s Society",
+      "stem": "Did government-backed mortgage programs provide race-neutral access to suburban homeownership?",
+      "choices": [
+        "No, because these programs excluded all Americans equally with no exception.",
+        "Yes, these programs were applied completely equally regardless of race.",
+        "Yes, because redlining never actually occurred.",
+        "No — these programs and related private lending practices like redlining frequently and explicitly discriminated based on race, significantly limiting Black American access."
+      ],
+      "correct": 3,
+      "explanation": "Government-backed mortgage programs were NOT race-neutral — these programs and related practices like redlining frequently and explicitly discriminated based on race, significantly limiting suburban homeownership access for Black Americans specifically."
+    },
+    {
+      "id": "8-21",
+      "topic": "8.3 1950s Society",
+      "stem": "What infrastructure project, authorized in 1956, further enabled suburban growth and automobile-centered culture?",
+      "choices": [
+        "The transcontinental railroad",
+        "The interstate highway system",
+        "The Erie Canal",
+        "The Panama Canal"
+      ],
+      "correct": 1,
+      "explanation": "The interstate highway system, authorized in 1956, further enabled suburban growth and automobile-centered culture during the 1950s."
+    },
+    {
+      "id": "8-22",
+      "topic": "8.3 1950s Society",
+      "stem": "What was the 'Baby Boom'?",
+      "choices": [
+        "A decline in birth rates during the 1950s.",
+        "A significant, sustained rise in birth rates reflecting the era's emphasis on family stability.",
+        "A term for suburban housing development.",
+        "A labor movement term."
+      ],
+      "correct": 1,
+      "explanation": "The Baby Boom was a significant, sustained rise in birth rates during this period, reflecting and reinforcing the 1950s' emphasis on family stability and consumer-oriented domestic life."
+    },
+    {
+      "id": "8-23",
+      "topic": "8.3 1950s Society",
+      "stem": "How does 1950s housing discrimination connect to the Civil Rights Movement covered in Section 8.4?",
+      "choices": [
+        "There is no connection between these two topics.",
+        "The Civil Rights Movement had no relationship to housing policy.",
+        "It directly connects to the movement's emerging demands for full and equal access to opportunities other Americans (particularly white suburban homeowners) already enjoyed.",
+        "1950s housing discrimination ended entirely before the Civil Rights Movement began."
+      ],
+      "correct": 2,
+      "explanation": "1950s housing discrimination directly connects to the Civil Rights Movement's emerging demands for full and equal access to opportunities — including suburban homeownership — that other Americans already enjoyed through government-backed programs."
+    },
+    {
+      "id": "8-24",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What did Brown v. Board of Education (1954) rule?",
+      "choices": [
+        "That voting rights could be restricted based on race.",
+        "A ruling unrelated to civil rights.",
+        "That school segregation was constitutional under 'separate but equal.'",
+        "That school segregation was unconstitutional, overturning 'separate but equal.'"
+      ],
+      "correct": 3,
+      "explanation": "Brown v. Board of Education (1954) ruled that school segregation was unconstitutional, directly overturning the earlier 'separate but equal' doctrine."
+    },
+    {
+      "id": "8-25",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What was the Montgomery Bus Boycott (1955–56)?",
+      "choices": [
+        "A Supreme Court ruling.",
+        "A sustained nonviolent protest against bus segregation that launched Martin Luther King Jr.'s national leadership.",
+        "A violent uprising.",
+        "A federal voting rights law."
+      ],
+      "correct": 1,
+      "explanation": "The Montgomery Bus Boycott (1955–56) was a sustained nonviolent protest against bus segregation that launched Martin Luther King Jr.'s national civil rights leadership."
+    },
+    {
+      "id": "8-26",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What did the Civil Rights Act (1964) ban?",
+      "choices": [
+        "Only voting discrimination.",
+        "Only school segregation.",
+        "Discrimination based on race, color, religion, sex, or national origin in public accommodations and employment.",
+        "Only housing discrimination."
+      ],
+      "correct": 2,
+      "explanation": "The Civil Rights Act (1964) banned discrimination based on race, color, religion, sex, or national origin in public accommodations and employment — a broad, significant piece of civil rights legislation."
+    },
+    {
+      "id": "8-27",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What did the Voting Rights Act (1965) address?",
+      "choices": [
+        "School segregation exclusively.",
+        "Housing discrimination exclusively.",
+        "Discriminatory voting practices (like literacy tests) and authorized federal oversight of voter registration in discriminatory jurisdictions.",
+        "Employment discrimination exclusively."
+      ],
+      "correct": 2,
+      "explanation": "The Voting Rights Act (1965) banned discriminatory voting practices like literacy tests and authorized federal oversight of voter registration in jurisdictions with a history of discrimination."
+    },
+    {
+      "id": "8-28",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What strategic approach did Martin Luther King Jr. and allied organizations pursue?",
+      "choices": [
+        "Full cooperation with segregationist policies.",
+        "Exclusive reliance on lawsuits with no direct action.",
+        "Nonviolent civil disobedience, deliberately breaking unjust laws through peaceful protest and accepting arrest.",
+        "Armed resistance and separatism."
+      ],
+      "correct": 2,
+      "explanation": "King and allied organizations pursued nonviolent civil disobedience — deliberately breaking unjust segregation laws through peaceful protest and accepting arrest, using resulting media coverage to build broader support."
+    },
+    {
+      "id": "8-29",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What approach did Malcolm X and the Black Power movement articulate, in contrast to King's approach?",
+      "choices": [
+        "An approach identical to King's nonviolent strategy.",
+        "Complete rejection of any civil rights activism.",
+        "A more assertive approach emphasizing Black self-determination, self-defense, and sometimes skepticism about integration as the movement's necessary ultimate goal.",
+        "An approach focused exclusively on international diplomacy."
+      ],
+      "correct": 2,
+      "explanation": "Malcolm X and the Black Power movement articulated a more assertive approach, emphasizing Black self-determination, self-defense, and sometimes skepticism about whether integration into existing institutions was the movement's most appropriate ultimate goal."
+    },
+    {
+      "id": "8-30",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "Should 'the Civil Rights Movement' be described as a single, strategically unified entity?",
+      "choices": [
+        "Yes, all civil rights activists shared an identical strategic approach.",
+        "No — the movement contained genuine strategic debate, with King's nonviolent integrationist approach and Malcolm X's/Black Power's more assertive approach representing genuinely different philosophies.",
+        "Yes, because no strategic disagreement ever existed within the movement.",
+        "No, because the Civil Rights Movement never actually existed."
+      ],
+      "correct": 1,
+      "explanation": "The Civil Rights Movement should NOT be described as strategically unified — it contained genuine internal strategic debate, with King's approach and Malcolm X's/Black Power's approach representing genuinely different strategic philosophies within a broader, internally diverse movement."
+    },
+    {
+      "id": "8-31",
+      "topic": "8.4 Civil Rights Movement",
+      "stem": "What was the Civil Rights Movement's significance in the context of the Cold War?",
+      "choices": [
+        "The Soviet Union actively supported American segregation.",
+        "The Cold War had no relationship to any domestic American issue.",
+        "American segregation was a significant Cold War propaganda liability, since Soviet propaganda regularly cited it to challenge U.S. claims of moral and democratic superiority.",
+        "It had no relationship to the Cold War."
+      ],
+      "correct": 2,
+      "explanation": "American segregation was a significant Cold War propaganda liability — Soviet propaganda regularly cited it to challenge U.S. claims of moral and democratic superiority, giving civil rights reform genuine Cold War strategic significance."
+    },
+    {
+      "id": "8-32",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "What did Johnson's Great Society agenda include?",
+      "choices": [
+        "Medicare, Medicaid, and the War on Poverty.",
+        "The Wagner Act and Social Security Act.",
+        "Détente and the opening to China.",
+        "The Marshall Plan and NATO."
+      ],
+      "correct": 0,
+      "explanation": "Johnson's Great Society agenda included Medicare (health insurance for elderly Americans), Medicaid (health insurance for low-income Americans), and a broader War on Poverty including programs like Head Start."
+    },
+    {
+      "id": "8-33",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "How did the Great Society relate to the New Deal's precedent?",
+      "choices": [
+        "It directly extended the New Deal's basic premise of federal responsibility for economic security into new areas, including healthcare specifically.",
+        "It eliminated all New Deal programs.",
+        "It preceded the New Deal chronologically.",
+        "It had no relationship to the New Deal."
+      ],
+      "correct": 0,
+      "explanation": "The Great Society directly extended the New Deal's basic premise of federal responsibility for economic security into new areas the New Deal itself had not addressed, particularly healthcare (Medicare, Medicaid)."
+    },
+    {
+      "id": "8-34",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "What did the Gulf of Tonkin Resolution (1964) do?",
+      "choices": [
+        "Granted Johnson broad authority to escalate U.S. military involvement in Vietnam.",
+        "Ended U.S. involvement in Vietnam.",
+        "Established the Great Society.",
+        "Created NATO."
+      ],
+      "correct": 0,
+      "explanation": "The Gulf of Tonkin Resolution (1964) granted Johnson broad authority to escalate U.S. military involvement in Vietnam, directly preceding dramatic escalation of the war."
+    },
+    {
+      "id": "8-35",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "Was the Tet Offensive (1968) a military victory for North Vietnamese/Viet Cong forces?",
+      "choices": [
+        "No — it was ultimately a significant military defeat for the attacking forces, who suffered heavy casualties and failed to hold captured territory.",
+        "The Tet Offensive never actually occurred.",
+        "Yes, because North Vietnam won the war immediately afterward.",
+        "Yes, it was a decisive North Vietnamese military victory."
+      ],
+      "correct": 0,
+      "explanation": "The Tet Offensive was ultimately a significant MILITARY DEFEAT for the attacking North Vietnamese/Viet Cong forces, who suffered heavy casualties and failed to hold captured territory — despite its major political/psychological significance."
+    },
+    {
+      "id": "8-36",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "Why did the Tet Offensive significantly damage American public confidence in the war, despite being a military defeat for the attackers?",
+      "choices": [
+        "It had no effect on American public opinion.",
+        "It resulted in immediate American surrender.",
+        "American media coverage of the offensive was entirely positive.",
+        "Its sheer scale and coordination directly contradicted official U.S. government assurances that the war was being won, damaging public trust regardless of the actual battlefield outcome."
+      ],
+      "correct": 3,
+      "explanation": "Tet's sheer scale and coordination directly contradicted U.S. government assurances that the war was being won — significantly damaging public and media confidence in the war effort and the government's honesty, regardless of the offensive's actual military outcome."
+    },
+    {
+      "id": "8-37",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "How did the Vietnam War's cost affect the Great Society's domestic agenda?",
+      "choices": [
+        "It significantly increased Great Society funding.",
+        "It had no relationship to the Great Society at all.",
+        "Resources and political attention devoted to the escalating war effort came at the expense of the Great Society's own funding and political momentum.",
+        "The Great Society was fully implemented before the Vietnam War began."
+      ],
+      "correct": 2,
+      "explanation": "As the Vietnam War escalated dramatically in cost, resources and political attention devoted to it came, to a real extent, at the expense of the ambitious Great Society agenda's own funding and political momentum — a direct competing-priorities tension."
+    },
+    {
+      "id": "8-38",
+      "topic": "8.5 Vietnam and Great Society",
+      "stem": "Which of the following best illustrates this unit's theme of foreign and domestic policy shaping each other?",
+      "choices": [
+        "Foreign and domestic policy operated in completely separate, unrelated spheres during this period.",
+        "Foreign policy had no relationship to any domestic program during this period.",
+        "The Vietnam War's cost directly competing with Great Society funding.",
+        "Domestic policy had no relationship to any foreign policy decision during this period."
+      ],
+      "correct": 2,
+      "explanation": "The Vietnam War's escalating cost directly competing with the Great Society's domestic funding is a clear, direct illustration of this unit's opening theme — foreign policy and domestic policy constantly and directly shaping and constraining each other, not operating as separate tracks."
+    },
+    {
+      "id": "8-39",
+      "topic": "8.6 Social Movements",
+      "stem": "What book helped catalyze a renewed women's movement in the 1960s?",
+      "choices": [
+        "The Jungle",
+        "The Gospel of Wealth",
+        "Common Sense",
+        "The Feminine Mystique"
+      ],
+      "correct": 3,
+      "explanation": "Betty Friedan's The Feminine Mystique (1963) helped catalyze a renewed women's movement, leading to the founding of the National Organization for Women (NOW)."
+    },
+    {
+      "id": "8-40",
+      "topic": "8.6 Social Movements",
+      "stem": "Did the Equal Rights Amendment achieve successful ratification?",
+      "choices": [
+        "Yes, it was successfully ratified and remains part of the Constitution.",
+        "Yes, but only for a brief period before being repealed.",
+        "The Equal Rights Amendment was never actually proposed.",
+        "No — despite passing Congress in 1972, it ultimately failed to achieve ratification by the required number of states within its deadline."
+      ],
+      "correct": 3,
+      "explanation": "Despite passing Congress in 1972, the Equal Rights Amendment ultimately failed to achieve ratification by the required number of states within its deadline — a significant setback for the women's movement."
+    },
+    {
+      "id": "8-41",
+      "topic": "8.6 Social Movements",
+      "stem": "What significant environmental policy developments occurred around 1970?",
+      "choices": [
+        "The establishment of the Environmental Protection Agency (EPA) and the first Earth Day.",
+        "The Marshall Plan and NATO's formation.",
+        "The Civil Rights Act and Voting Rights Act.",
+        "The Gulf of Tonkin Resolution."
+      ],
+      "correct": 0,
+      "explanation": "The establishment of the Environmental Protection Agency (EPA) and the first Earth Day (1970) were significant environmental movement achievements around this time."
+    },
+    {
+      "id": "8-42",
+      "topic": "8.6 Social Movements",
+      "stem": "How did the Civil Rights Movement's organizing strategies influence later social movements?",
+      "choices": [
+        "Later movements rejected all Civil Rights Movement tactics entirely.",
+        "The women's and environmental movements directly adapted tactics like mass peaceful demonstrations and targeted legislative advocacy pioneered by the Civil Rights Movement.",
+        "They had no influence on any later movement.",
+        "The Civil Rights Movement only influenced foreign policy, not other domestic movements."
+      ],
+      "correct": 1,
+      "explanation": "The women's and environmental movements directly adapted organizing tactics — mass peaceful demonstrations, targeted legislative advocacy, effective media use — pioneered by the Civil Rights Movement, applying this template to their own distinct causes."
+    },
+    {
+      "id": "8-43",
+      "topic": "8.6 Social Movements",
+      "stem": "What organization did the women's movement found in response to Friedan's work?",
+      "choices": [
+        "The AFL",
+        "The Farmers' Alliance",
+        "Tammany Hall",
+        "The National Organization for Women (NOW)"
+      ],
+      "correct": 3,
+      "explanation": "The National Organization for Women (NOW) was founded as part of the renewed women's movement, following the influence of Betty Friedan's The Feminine Mystique."
+    },
+    {
+      "id": "8-44",
+      "topic": "8.6 Social Movements",
+      "stem": "Why is it important to distinguish the women's and environmental movements' substantive goals from the Civil Rights Movement's specific goals, even while acknowledging shared organizing methods?",
+      "choices": [
+        "There is no reason to make this distinction.",
+        "These movements had no relationship to each other of any kind, including methods.",
+        "All social movements during this period pursued identical goals.",
+        "While these movements adapted similar organizing tactics, they pursued genuinely distinct substantive causes — a strong essay shouldn't conflate shared methods with identical goals."
+      ],
+      "correct": 3,
+      "explanation": "It's important to distinguish shared organizing METHODS from substantive GOALS — the women's and environmental movements adapted Civil Rights Movement tactics while pursuing genuinely distinct causes, a distinction a strong essay should maintain rather than conflating methods with identical goals."
+    },
+    {
+      "id": "8-45",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What was 'détente'?",
+      "choices": [
+        "A policy of increased Cold War tension.",
+        "A policy of reduced Cold War tension and increased diplomatic engagement with the Soviet Union, including arms control agreements.",
+        "A domestic anticommunism policy.",
+        "A policy unrelated to the Cold War."
+      ],
+      "correct": 1,
+      "explanation": "Détente was Nixon's policy of reduced Cold War tension and increased diplomatic engagement with the Soviet Union, including arms control agreements."
+    },
+    {
+      "id": "8-46",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What was the strategic logic behind Nixon's 1972 opening to China?",
+      "choices": [
+        "Exploiting growing tension between China and the Soviet Union (the Sino-Soviet split) to increase diplomatic pressure and leverage against the USSR.",
+        "Nixon sought to form a military alliance against Japan.",
+        "Nixon had no strategic reasoning behind this decision.",
+        "Nixon sought to end all U.S. relations with Asia entirely."
+      ],
+      "correct": 0,
+      "explanation": "Nixon's opening to China strategically exploited growing tension between China and the Soviet Union, aiming to increase U.S. diplomatic pressure and leverage against the Soviet Union, America's primary Cold War rival."
+    },
+    {
+      "id": "8-47",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What was 'Vietnamization'?",
+      "choices": [
+        "Gradually withdrawing U.S. troops while transferring primary combat responsibility to South Vietnamese forces.",
+        "Increasing U.S. troop commitment in Vietnam.",
+        "A policy unrelated to the Vietnam War.",
+        "A policy of immediate, complete U.S. withdrawal with no transition."
+      ],
+      "correct": 0,
+      "explanation": "Vietnamization was Nixon's policy of gradually withdrawing U.S. troops while transferring primary combat responsibility to South Vietnamese forces, eventually leading to full U.S. withdrawal in 1973."
+    },
+    {
+      "id": "8-48",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What was the Watergate scandal?",
+      "choices": [
+        "A foreign policy crisis involving the Soviet Union.",
+        "A break-in at Democratic Party headquarters connected to Nixon's re-election campaign, followed by a documented cover-up effort.",
+        "A civil rights protest.",
+        "A domestic economic crisis."
+      ],
+      "correct": 1,
+      "explanation": "The Watergate scandal began with a break-in at Democratic Party headquarters connected to Nixon's re-election campaign, followed by a documented, sustained cover-up effort that ultimately forced Nixon's resignation."
+    },
+    {
+      "id": "8-49",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What was the outcome of the Watergate scandal for Nixon's presidency?",
+      "choices": [
+        "Nixon completed his full term with no consequence.",
+        "Nixon was formally impeached and removed from office by the Senate.",
+        "The scandal had no consequence for Nixon's presidency.",
+        "Nixon resigned in 1974, the only U.S. presidential resignation in American history."
+      ],
+      "correct": 3,
+      "explanation": "Watergate ultimately forced Nixon's resignation in 1974 — the only U.S. presidential resignation in American history, occurring before a formal Senate impeachment removal vote could take place."
+    },
+    {
+      "id": "8-50",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "Should Watergate be characterized purely as a story of institutional failure?",
+      "choices": [
+        "Yes, because no accountability mechanism ever functioned during Watergate.",
+        "No, because Watergate never actually occurred.",
+        "No — while it represented a genuine, serious abuse of power, its resolution (press investigation, congressional action, Supreme Court ruling) also demonstrated that constitutional accountability mechanisms could function even against a sitting president.",
+        "Yes, Watergate represents only institutional failure with no institutional success."
+      ],
+      "correct": 2,
+      "explanation": "Watergate should NOT be characterized purely as institutional failure — while it represented genuine, serious abuse of power, its resolution also demonstrated that American constitutional accountability mechanisms could function effectively even against a sitting president, a genuine duality."
+    },
+    {
+      "id": "8-51",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What ultimately happened to South Vietnam following the U.S. withdrawal (1973)?",
+      "choices": [
+        "South Vietnam remained independent and non-communist permanently.",
+        "South Vietnam became a U.S. territory.",
+        "South Vietnam was ultimately defeated and unified with North Vietnam under communist control (1975).",
+        "South Vietnam immediately became a NATO member."
+      ],
+      "correct": 2,
+      "explanation": "Following the U.S. withdrawal (1973), South Vietnam was ultimately defeated and unified with North Vietnam under communist control by 1975."
+    },
+    {
+      "id": "8-52",
+      "topic": "8.7 Nixon and Watergate",
+      "stem": "What role did the Supreme Court play in resolving the Watergate scandal?",
+      "choices": [
+        "The Supreme Court had no involvement in Watergate.",
+        "The Supreme Court formally removed Nixon from office.",
+        "The Supreme Court ruled Nixon's actions were entirely legal.",
+        "The Supreme Court ruled that Nixon must release incriminating tape recordings."
+      ],
+      "correct": 3,
+      "explanation": "The Supreme Court ruled that Nixon must release incriminating tape recordings, a significant judicial branch action that directly contributed to Watergate's ultimate resolution and Nixon's resignation."
+    },
+    {
+      "id": "8-53",
+      "topic": "8.8 Economic Challenges",
+      "stem": "What was 'stagflation'?",
+      "choices": [
+        "A term unrelated to economic conditions.",
+        "A synonym for the Great Depression.",
+        "The unusual, simultaneous combination of economic stagnation (slow growth, high unemployment) AND high inflation.",
+        "A period of rapid economic growth with no inflation."
+      ],
+      "correct": 2,
+      "explanation": "Stagflation was the unusual, simultaneous combination of economic stagnation (slow growth, high unemployment) AND high inflation, emerging significantly during the 1970s."
+    },
+    {
+      "id": "8-54",
+      "topic": "8.8 Economic Challenges",
+      "stem": "Why did stagflation challenge conventional Keynesian economic policy assumptions?",
+      "choices": [
+        "It didn't challenge any economic assumptions.",
+        "Stagflation confirmed all existing economic policy assumptions perfectly.",
+        "Keynesian economics had no relationship to inflation or stagnation.",
+        "Conventional assumptions held that stagnation and inflation normally moved in opposite directions, with policy tools typically addressing one at the cost of worsening the other."
+      ],
+      "correct": 3,
+      "explanation": "Stagflation challenged conventional Keynesian assumptions because these problems normally moved in opposite directions — policy tools typically used to address one (like stimulating growth) would usually worsen the other (inflation), making stagflation's simultaneous combination a genuine policy puzzle."
+    },
+    {
+      "id": "8-55",
+      "topic": "8.8 Economic Challenges",
+      "stem": "What triggered the 1973 OPEC oil embargo?",
+      "choices": [
+        "A response to the Vietnam War's end.",
+        "A response to the Great Society's programs.",
+        "A response to U.S. support for Israel during the Yom Kippur War.",
+        "A response to Watergate."
+      ],
+      "correct": 2,
+      "explanation": "The 1973 OPEC oil embargo was a response to U.S. support for Israel during the Yom Kippur War, causing a sharp oil price spike that significantly contributed to inflationary pressure."
+    },
+    {
+      "id": "8-56",
+      "topic": "8.8 Economic Challenges",
+      "stem": "What did the 1973 oil embargo expose about the American economy?",
+      "choices": [
+        "Growing American economic vulnerability to international energy supply disruption.",
+        "That the American economy had no relationship to oil prices.",
+        "Complete American energy self-sufficiency with no vulnerability.",
+        "That oil prices had no effect on inflation."
+      ],
+      "correct": 0,
+      "explanation": "The 1973 oil embargo exposed America's growing economic vulnerability to international energy supply disruption, significantly contributing to the era's inflationary pressure."
+    },
+    {
+      "id": "8-57",
+      "topic": "8.8 Economic Challenges",
+      "stem": "How did Vietnam and Watergate together affect American public trust in government?",
+      "choices": [
+        "Only Watergate affected public trust; Vietnam had no relationship to this.",
+        "They significantly increased public trust in government.",
+        "Their combined cumulative effect significantly and lastingly damaged American public trust in government institutions generally.",
+        "They had no combined effect on public trust."
+      ],
+      "correct": 2,
+      "explanation": "The combined cumulative effect of Vietnam's disillusioning outcome and Watergate's documented corruption significantly and lastingly damaged American public trust in government institutions generally, persisting well beyond the specific events themselves."
+    },
+    {
+      "id": "8-58",
+      "topic": "8.8 Economic Challenges",
+      "stem": "How does declining public trust by the late 1970s connect to this unit's broader theme of expanding federal government power?",
+      "choices": [
+        "There is no connection between these two developments.",
+        "The combined disillusionment from Vietnam and Watergate directly undermined public confidence in the same expanded federal government this unit traced, setting up receptiveness to a different political message in Period 9.",
+        "Public trust in government increased steadily throughout this entire unit with no decline.",
+        "Federal government power had no relationship to public trust at any point."
+      ],
+      "correct": 1,
+      "explanation": "The combined disillusionment from Vietnam and Watergate directly undermined public confidence in the expanded federal government this entire unit traced (since the Progressive Era), setting up genuine public receptiveness to a different, more skeptical political message that Period 9 will cover."
+    },
+    {
+      "id": "8-59",
+      "topic": "8.8 Economic Challenges",
+      "stem": "What specific policy challenge did stagflation set up for the subsequent period covered in Period 9?",
+      "choices": [
+        "Stagflation had no relationship to any later economic policy.",
+        "Stagflation was fully and permanently resolved before Period 9 began.",
+        "The need for different economic policy approaches, since conventional tools struggled to address stagnation and inflation simultaneously.",
+        "No policy challenge of any kind resulted from stagflation."
+      ],
+      "correct": 2,
+      "explanation": "Stagflation set up the need for different economic policy approaches in Period 9, since conventional Keynesian tools had struggled to address the unusual simultaneous combination of stagnation and inflation."
+    },
+    {
+      "id": "8-60",
+      "topic": "8.8 Economic Challenges",
+      "stem": "Why is it insufficient to describe 1970s economic conditions as simply 'bad economic times' without further specification?",
+      "choices": [
+        "Specificity has no value in historical economic analysis.",
+        "1970s economic conditions were not actually difficult in any way.",
+        "This fails to name the SPECIFIC, genuinely unusual feature — the simultaneous combination of stagnation and inflation — that made 1970s economic conditions a distinct policy challenge, not simply a generic downturn.",
+        "This description is fully sufficient and complete."
+      ],
+      "correct": 2,
+      "explanation": "A vague 'bad economic times' description fails to name stagflation's SPECIFIC, genuinely unusual feature — the simultaneous combination of stagnation and inflation — which is precisely what made this economic challenge distinct from a typical downturn and set up different policy debates in Period 9."
+    },
+    {
+      "id": "8-61",
+      "topic": "8.8 Economic Challenges",
+      "stem": "Which of the following pairs of events combined to significantly damage American public trust in government by the late 1970s?",
+      "choices": [
+        "The Great Society and détente",
+        "Brown v. Board and the Civil Rights Act",
+        "The Marshall Plan and NATO's formation",
+        "Vietnam's disillusioning outcome and the Watergate scandal"
+      ],
+      "correct": 3,
+      "explanation": "Vietnam's disillusioning outcome and the Watergate scandal combined to significantly and lastingly damage American public trust in government institutions by the late 1970s."
+    },
+    {
+      "id": "8-62",
+      "topic": "8.8 Economic Challenges",
+      "stem": "How did the 1973 OPEC oil embargo relate to broader Middle East geopolitics during this period?",
+      "choices": [
+        "It was a direct response to U.S. support for Israel during the Yom Kippur War, connecting domestic American economic conditions to international conflict.",
+        "It occurred in a region with no relationship to oil production.",
+        "It was caused entirely by domestic American energy policy with no international dimension.",
+        "It had no relationship to Middle East geopolitics."
+      ],
+      "correct": 0,
+      "explanation": "The oil embargo was a direct response to U.S. support for Israel during the Yom Kippur War, directly connecting domestic American economic conditions (stagflation, inflation) to international Middle East geopolitical conflict."
+    },
+    {
+      "id": "8-63",
+      "topic": "8.8 Economic Challenges",
+      "stem": "Which specific economic combination made 1970s conditions unusual compared to a typical recession?",
+      "choices": [
+        "No unusual combination existed during this decade",
+        "Low inflation combined with high growth",
+        "Slow growth and high unemployment combined with high inflation",
+        "High growth combined with low unemployment"
+      ],
+      "correct": 2,
+      "explanation": "The unusual combination of slow growth and high unemployment (stagnation) combined with high inflation — together called stagflation — made 1970s conditions genuinely unusual compared to a typical recession, where these factors normally move in opposite directions."
+    },
+    {
+      "id": "8-64",
+      "topic": "8.8 Economic Challenges",
+      "stem": "Why does this unit's closing section connect directly to Period 9's opening themes?",
+      "choices": [
+        "Period 9 covers an entirely unrelated set of historical developments with no connection to Period 8.",
+        "This unit's closing section has no relationship to any subsequent historical period.",
+        "Declining public trust in government and economic policy challenges (stagflation) directly set up the political and economic shift Period 9 will cover.",
+        "There is no connection between the end of this unit and the beginning of the next."
+      ],
+      "correct": 2,
+      "explanation": "This unit's closing section — declining public trust and stagflation's policy challenge — directly sets up Period 9's opening themes, connecting the two units through a continuous historical narrative rather than a sharp, disconnected break."
+    },
+    {
+      "id": "8-65",
+      "topic": "8.8 Economic Challenges",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this entire unit by explaining how the Cold War's ideological competition (Section 8.1), the Civil Rights Movement's international significance (Section 8.4), and the Vietnam War's domestic political consequences (Section 8.5) together illustrate a single, unit-spanning pattern in which foreign policy and domestic politics were never actually separable during this period, despite often being studied as separate categories.",
+      "choices": [
+        "Foreign policy and domestic politics were entirely separate and unrelated throughout this entire unit.",
+        "The Cold War's ideological competition gave the Civil Rights Movement genuine international leverage (since segregation undermined American Cold War propaganda), while the Vietnam War's domestic unpopularity (fueled partly by the same Cold War containment logic that started American involvement) directly undermined the Great Society and public trust in the very government structure the Cold War had helped expand — showing that foreign policy decisions and domestic political outcomes were continuously, causally intertwined throughout this entire period, not two separate categories that happened to occur during the same decades.",
+        "Only the Civil Rights Movement had any international dimension; all other developments in this unit were purely domestic.",
+        "The Vietnam War had no relationship to domestic politics of any kind."
+      ],
+      "correct": 1,
+      "explanation": "This synthesis question rewards recognizing that this unit's foreign policy and domestic developments were never actually separable: the Cold War's ideological competition gave the Civil Rights Movement genuine international leverage against segregation; containment's same underlying logic drove the Vietnam War, whose domestic unpopularity then directly undermined the Great Society's funding and, ultimately, public trust in the very expanded federal government structure the Cold War itself had helped build. Recognizing this continuous, causally intertwined relationship between 'foreign' and 'domestic' history — rather than treating them as separate categories that merely happened to occur during the same decades — is exactly the connective, unit-spanning synthesis this unit's opening Skill Builder framework asks for, and exactly what a top-scoring essay on this period should demonstrate."
+    }
   ],
-  9: [
-    { id: "9-1", topic: "9.1 Conservative Resurgence", stem: "What did Reagan's 'supply-side economics' (Reaganomics) argue?", choices: ["That increasing tax rates would stimulate economic growth.", "That reducing tax rates and government regulation would stimulate economic growth and investment.", "That the federal government should nationalize major industries.", "That government spending should increase dramatically with no tax changes."], correct: 1, explanation: "Reagan's supply-side economics argued that reducing tax rates (particularly for higher earners and businesses) and reducing government regulation would stimulate economic growth and investment, benefiting the broader economy." },
-    { id: "9-2", topic: "9.1 Conservative Resurgence", stem: "How did Reaganomics represent a philosophical departure from prior federal economic policy assumptions?", choices: ["It continued Keynesian demand-side assumptions with no change.", "It represented a significant departure from the Keynesian demand-side assumptions that had generally guided federal economic policy since the New Deal.", "It had no relationship to any prior economic philosophy.", "It was identical to New Deal economic philosophy."], correct: 1, explanation: "Reaganomics represented a significant philosophical departure from the Keynesian demand-side assumptions that had generally guided federal economic policy since the New Deal (Period 7)." },
-    { id: "9-3", topic: "9.1 Conservative Resurgence", stem: "What three distinct constituencies united within Reagan's 'New Right' political coalition?", choices: ["Labor unions, environmentalists, and pacifists.", "Fiscal conservatives, religious/social conservatives, and anti-communist foreign policy hawks.", "Only fiscal conservatives, with no other constituencies.", "Only religious conservatives, with no other constituencies."], correct: 1, explanation: "The 'New Right' coalition united fiscal conservatives (lower taxes, less regulation), religious/social conservatives (mobilized around issues like abortion), and anti-communist foreign policy hawks." },
-    { id: "9-4", topic: "9.1 Conservative Resurgence", stem: "Should the New Right coalition be described as ideologically uniform?", choices: ["Yes, all New Right constituencies shared identical specific priorities on every issue.", "No — it united genuinely distinct constituencies with different specific priorities, a coalition rather than a single ideologically uniform movement.", "Yes, because only one constituency ever supported Reagan.", "No, because the New Right coalition never actually existed."], correct: 1, explanation: "The New Right should NOT be described as ideologically uniform — it united genuinely distinct constituencies (fiscal conservatives, religious conservatives, foreign policy hawks) with different specific priorities, a coalition rather than a single uniform movement." },
-    { id: "9-5", topic: "9.1 Conservative Resurgence", stem: "How does Reagan's 1980 election connect to Period 8's closing themes?", choices: ["There is no connection between these two developments.", "Reagan's election directly reflected the declining public trust in expanded federal government that Vietnam and Watergate had produced.", "Reagan's election increased public trust in the exact same expanded federal government structure.", "Period 8 has no relationship to any subsequent political development."], correct: 1, explanation: "Reagan's election directly reflected the declining public trust in expanded federal government that Period 8's closing themes (Vietnam, Watergate, stagflation) had set up, offering a political alternative skeptical of that same expanded federal role." },
-    { id: "9-6", topic: "9.1 Conservative Resurgence", stem: "What specific policy approach did fiscal conservatives within the New Right coalition favor?", choices: ["Higher taxes and increased regulation.", "Lower taxes and reduced regulation.", "Nationalization of major industries.", "No specific fiscal policy preference of any kind."], correct: 1, explanation: "Fiscal conservatives within the New Right coalition favored lower taxes and reduced regulation, consistent with the broader supply-side economic philosophy." },
-    { id: "9-7", topic: "9.1 Conservative Resurgence", stem: "Around what issue did religious/social conservatives within the New Right become increasingly politically mobilized?", choices: ["Tax policy exclusively", "Abortion", "Foreign trade policy", "Labor union organizing"], correct: 1, explanation: "Religious/social conservatives within the New Right coalition became increasingly politically mobilized around issues like abortion, one of several distinct priorities within the broader coalition." },
-    { id: "9-8", topic: "9.1 Conservative Resurgence", stem: "What general policy approach did anti-communist foreign policy hawks within the New Right favor toward the Soviet Union?", choices: ["A passive, non-confrontational approach.", "An assertive, confrontational approach.", "Complete disengagement from any foreign policy involving the Soviet Union.", "Formal military alliance with the Soviet Union."], correct: 1, explanation: "Anti-communist foreign policy hawks within the New Right favored an assertive, confrontational approach toward the Soviet Union, one of the coalition's distinct priorities." },
-    { id: "9-9", topic: "9.1 Conservative Resurgence", stem: "Which of the following best summarizes the relationship between Reagan's economic philosophy and the New Deal's Keynesian assumptions?", choices: ["They were identical philosophies with no meaningful difference.", "Reaganomics represented a significant, deliberate philosophical departure from the demand-side Keynesian assumptions that had guided policy since the New Deal.", "The New Deal had no economic philosophy of any kind.", "Reaganomics preceded the New Deal chronologically."], correct: 1, explanation: "Reaganomics represented a significant, deliberate philosophical departure from the demand-side Keynesian assumptions that had generally guided federal economic policy since the New Deal — a genuine ideological shift in national economic policy direction." },
-    { id: "9-10", topic: "9.1 Conservative Resurgence", stem: "Why is recognizing internal coalition diversity within the New Right consistent with a broader pattern in this course?", choices: ["This course has never asked students to recognize internal diversity within any political movement.", "This course has repeatedly asked students to recognize internal diversity within seemingly unified movements, as with the Populist coalition (Period 6) and the Civil Rights Movement's internal strategic debates (Period 8).", "Internal coalition diversity is a concept unique to Period 9 with no precedent elsewhere in the course.", "Political movements are always ideologically uniform, with no genuine internal diversity possible."], correct: 1, explanation: "This course has repeatedly asked students to recognize internal diversity within seemingly unified political movements — the Populist coalition (Period 6) and the Civil Rights Movement's internal strategic debates (Period 8) both modeled this same analytical habit, now applied to the New Right coalition." },
-    { id: "9-11", topic: "9.1 Conservative Resurgence", stem: "What broader federal government trajectory did Reagan's political message express skepticism about?", choices: ["The trajectory of expanding federal government role and scope traced since the Progressive Era.", "A trajectory of consistently shrinking federal government since 1789.", "Reagan's political message expressed no skepticism about any federal government trajectory.", "The trajectory of federal foreign policy exclusively, with no domestic component."], correct: 0, explanation: "Reagan's political message expressed skepticism about the broader trajectory of expanding federal government role and scope this course has traced since the Progressive Era (Period 7) through the Great Society (Period 8)." },
-    { id: "9-12", topic: "9.2 End of the Cold War", stem: "What did Gorbachev's 'glasnost' policy mean?", choices: ["Economic restructuring and market reforms.", "'Openness' — permitting greater political expression and transparency.", "A policy of increased military spending.", "A policy of complete political repression."], correct: 1, explanation: "'Glasnost' meant 'openness,' permitting greater political expression and transparency within the Soviet Union — one of Gorbachev's significant reform policies." },
-    { id: "9-13", topic: "9.2 End of the Cold War", stem: "What did Gorbachev's 'perestroika' policy mean?", choices: ["Political openness and transparency.", "'Restructuring' — economic reforms introducing limited market mechanisms.", "A policy of expanding the Soviet military.", "A synonym for glasnost, with no meaningful distinction."], correct: 1, explanation: "'Perestroika' meant 'restructuring,' referring to economic reforms introducing limited market mechanisms into the Soviet centrally planned economy." },
-    { id: "9-14", topic: "9.2 End of the Cold War", stem: "What occurred in 1989, symbolically and practically marking Eastern European communism's collapse?", choices: ["The Soviet Union's formal dissolution", "The fall of the Berlin Wall", "The Persian Gulf War", "The September 11 attacks"], correct: 1, explanation: "The fall of the Berlin Wall (1989) symbolically and practically marked Eastern European communism's collapse, a major milestone in the Cold War's end." },
-    { id: "9-15", topic: "9.2 End of the Cold War", stem: "When did the Soviet Union formally dissolve?", choices: ["1985", "1989", "1991", "2001"], correct: 2, explanation: "The Soviet Union formally dissolved in 1991, following the fall of the Berlin Wall (1989) and the broader collapse of Soviet political and economic control." },
-    { id: "9-16", topic: "9.2 End of the Cold War", stem: "What underlying structural factor provided crucial context for why Gorbachev's reforms, once initiated, proved impossible to fully contain?", choices: ["The Soviet economy was thriving and highly efficient.", "The Soviet centrally planned economy had grown increasingly inefficient and unable to keep pace with Western economic and technological development.", "The Soviet Union had no economic system of any kind.", "Soviet economic weakness had no relationship to the reforms' consequences."], correct: 1, explanation: "The Soviet centrally planned economy's increasing inefficiency and inability to keep pace with Western economic and technological development provided crucial structural context for why Gorbachev's reforms, once initiated, proved impossible to fully contain." },
-    { id: "9-17", topic: "9.2 End of the Cold War", stem: "What is one historiographical position on the Cold War's end, emphasizing U.S. policy's role?", choices: ["U.S. policy had no relationship to the Cold War's end.", "Reagan's substantial defense spending increases and assertive rhetoric pressured the Soviet economy into an unsustainable competitive position, followed by skillful diplomatic engagement with Gorbachev.", "The U.S. actively supported continued Soviet expansion.", "There is no historiographical position emphasizing U.S. policy's role."], correct: 1, explanation: "One historiographical position emphasizes U.S. policy's decisive role — Reagan's defense buildup and assertive rhetoric pressuring the Soviet economy, followed by diplomatic engagement with Gorbachev — as significantly contributing to the Cold War's end." },
-    { id: "9-18", topic: "9.2 End of the Cold War", stem: "What is a competing historiographical position, emphasizing internal Soviet factors?", choices: ["Internal Soviet factors had no relationship to the Cold War's end.", "The Soviet system's accumulated economic inefficiency and internal political pressures were more fundamentally decisive, substantially independent of specific U.S. policy choices.", "Internal Soviet factors alone caused the Cold War to begin, not end.", "There is no competing historiographical position to the U.S.-policy-centered explanation."], correct: 1, explanation: "A competing position emphasizes internal Soviet factors — accumulated economic inefficiency, Gorbachev's own reform choices, and satellite states' internal pressures — as more fundamentally decisive, substantially independent of specific U.S. policy choices." },
-    { id: "9-19", topic: "9.2 End of the Cold War", stem: "Should a strong essay treat the Cold War's end as having a single, uncontested, settled explanation?", choices: ["Yes, this question has one single, universally agreed-upon correct answer.", "No — this exam rewards acknowledging it as a genuinely contested historiographical question, similar to the atomic bomb debate from Period 7.", "Yes, because no historian has ever debated the Cold War's causes.", "No, because the Cold War's end has no historical significance worth analyzing."], correct: 1, explanation: "A strong essay should NOT treat this as a single, settled explanation — this exam rewards acknowledging the Cold War's end as a genuinely contested historiographical question, directly paralleling the atomic bomb debate's treatment in Period 7." },
-    { id: "9-20", topic: "9.2 End of the Cold War", stem: "What effect did glasnost and perestroika have on Soviet control over Eastern European satellite states?", choices: ["They had no effect on Eastern European satellite states.", "They significantly loosened Soviet political and economic control over these states, contributing to their eventual independence.", "They significantly strengthened Soviet control over these states.", "They only affected domestic Soviet policy, with no relationship to satellite states."], correct: 1, explanation: "Glasnost and perestroika significantly loosened Soviet political and economic control both domestically and over Eastern European satellite states, contributing directly to their eventual independence from Soviet control." },
-    { id: "9-21", topic: "9.2 End of the Cold War", stem: "Which of the following correctly sequences two major Cold War-ending events?", choices: ["The Soviet Union's dissolution (1991) preceded the Berlin Wall's fall (1989).", "The Berlin Wall's fall (1989) preceded the Soviet Union's dissolution (1991).", "Both events occurred in the exact same year.", "Neither event has a documented date."], correct: 1, explanation: "The Berlin Wall's fall (1989) preceded the Soviet Union's formal dissolution (1991) — a correct chronological sequence of two major milestones in the Cold War's end." },
-    { id: "9-22", topic: "9.2 End of the Cold War", stem: "Who was the Soviet leader whose reform policies are most closely associated with the Cold War's end?", choices: ["Joseph Stalin", "Mikhail Gorbachev", "Nikita Khrushchev", "Vladimir Lenin"], correct: 1, explanation: "Mikhail Gorbachev's reform policies (glasnost and perestroika) are most closely associated with the systemic changes leading to the Cold War's end." },
-    { id: "9-23", topic: "9.3 Post-Cold War Foreign Policy", stem: "What did the Persian Gulf War (1991) accomplish?", choices: ["Successfully reversed Iraq's invasion of Kuwait.", "Established American occupation of Iraq permanently.", "Ended the Cold War.", "Had no relationship to any international conflict."], correct: 0, explanation: "The Persian Gulf War (1991) successfully reversed Iraq's invasion of Kuwait, an early example of post-Cold War American-led military engagement." },
-    { id: "9-24", topic: "9.3 Post-Cold War Foreign Policy", stem: "What event fundamentally redirected American foreign policy priorities in the early 2000s?", choices: ["The Persian Gulf War", "The September 11, 2001 terrorist attacks", "The fall of the Berlin Wall", "The 2008 financial crisis"], correct: 1, explanation: "The September 11, 2001 terrorist attacks fundamentally redirected American foreign policy priorities, leading directly to the War on Terror." },
-    { id: "9-25", topic: "9.3 Post-Cold War Foreign Policy", stem: "What was the direct connection between the Afghanistan War (2001) and the September 11 attacks?", choices: ["No connection existed between these two events.", "The Afghanistan War targeted the Taliban government that had sheltered the al-Qaeda network responsible for the September 11 attacks.", "The Afghanistan War preceded the September 11 attacks chronologically.", "The Afghanistan War targeted Iraq, not Afghanistan."], correct: 1, explanation: "The Afghanistan War (2001) targeted the Taliban government that had sheltered the al-Qaeda network responsible for the September 11 attacks — a direct, clear connection." },
-    { id: "9-26", topic: "9.3 Post-Cold War Foreign Policy", stem: "How did the Iraq War's (2003) justification differ from the Afghanistan War's justification?", choices: ["Both wars had identical, equally clear justifications with no meaningful difference.", "The Iraq War lacked the same direct connection to September 11, and its justification (weapons of mass destruction concerns) proved significantly more contested.", "The Iraq War had a stronger, clearer connection to September 11 than Afghanistan did.", "Neither war had any stated justification of any kind."], correct: 1, explanation: "The Iraq War (2003) lacked the same direct connection to September 11 that Afghanistan had, and its justification (concerns about weapons of mass destruction that ultimately were not found) proved significantly more contested domestically and internationally." },
-    { id: "9-27", topic: "9.3 Post-Cold War Foreign Policy", stem: "Why should the Afghanistan War and Iraq War be treated as distinct developments, rather than a single undifferentiated 'War on Terror' campaign?", choices: ["There is no meaningful distinction between these two conflicts.", "They had genuinely different origins, levels of international support, and domestic political reception, which this exam rewards distinguishing precisely.", "Only the Iraq War is historically significant; Afghanistan should be ignored entirely.", "Both wars occurred in identical locations with identical justifications."], correct: 1, explanation: "The Afghanistan and Iraq Wars had genuinely different origins (direct September 11 connection vs. more contested WMD concerns), levels of international support, and domestic political reception — this exam rewards distinguishing them precisely rather than treating 'the War on Terror' as one undifferentiated campaign." },
-    { id: "9-28", topic: "9.3 Post-Cold War Foreign Policy", stem: "What strategic position did the United States occupy following the Cold War's end?", choices: ["A weakened, marginal international position.", "The world's sole remaining superpower.", "A position identical to its Cold War-era status, with no meaningful change.", "A position of complete international isolation."], correct: 1, explanation: "Following the Cold War's end, the United States occupied the position of the world's sole remaining superpower, a genuinely new strategic position shaping subsequent foreign policy decisions." },
-    { id: "9-29", topic: "9.3 Post-Cold War Foreign Policy", stem: "What government did the Taliban lead, which the Afghanistan War specifically targeted?", choices: ["The government of Iraq", "The government of Afghanistan, which had sheltered al-Qaeda", "The government of the Soviet Union", "The government of Kuwait"], correct: 1, explanation: "The Taliban led the government of Afghanistan, which had sheltered the al-Qaeda network responsible for the September 11 attacks — the specific target of the 2001 Afghanistan War." },
-    { id: "9-30", topic: "9.3 Post-Cold War Foreign Policy", stem: "What specific claimed justification for the Iraq War (2003) ultimately proved unfounded?", choices: ["A direct connection to the September 11 attacks.", "The presence of weapons of mass destruction, which were ultimately not found.", "A request from the United Nations for immediate intervention.", "No justification was ever offered for the Iraq War."], correct: 1, explanation: "Concerns about Iraqi weapons of mass destruction were a specific claimed justification for the 2003 Iraq War that ultimately proved unfounded, contributing to the war's significantly more contested reception." },
-    { id: "9-31", topic: "9.3 Post-Cold War Foreign Policy", stem: "How did the Persian Gulf War (1991) differ from Cold War-era conflicts in its basic strategic framework?", choices: ["It followed the exact same superpower-versus-superpower framework as Cold War conflicts.", "It occurred as an early example of post-Cold War American military engagement without the direct superpower-versus-superpower framework structuring earlier conflicts.", "It involved direct combat between the U.S. and Soviet Union.", "It had no relationship to any change in international strategic framework."], correct: 1, explanation: "The Persian Gulf War occurred as an early example of post-Cold War American military engagement, without the direct superpower-versus-superpower framework that had structured Cold War-era conflicts like Korea and Vietnam." },
-    { id: "9-32", topic: "9.4 Globalization", stem: "What was NAFTA (1993)?", choices: ["A domestic tax policy.", "The North American Free Trade Agreement, expanding international trade.", "A Cold War military alliance.", "A civil rights law."], correct: 1, explanation: "NAFTA (North American Free Trade Agreement, 1993) expanded international trade among the U.S., Canada, and Mexico, part of the broader trend of expanding globalization during this period." },
-    { id: "9-33", topic: "9.4 Globalization", stem: "What genuine benefits did globalization and digital technology produce during this period?", choices: ["No genuine benefits of any kind.", "Lower consumer prices, new technology-sector industries and jobs, and expanded access to information.", "Only benefits for a single industry, with no broader economic effect.", "Complete elimination of all economic inequality."], correct: 1, explanation: "Globalization and digital technology produced genuine benefits including lower consumer prices, new technology-sector industries and jobs, and expanded access to information." },
-    { id: "9-34", topic: "9.4 Globalization", stem: "What genuine costs, concentrated in specific regions and industries, did globalization also produce?", choices: ["No genuine costs of any kind.", "Significant manufacturing job losses in some American regions, as production shifted to locations with lower labor costs.", "Complete elimination of all American manufacturing nationwide with no regional variation.", "Costs affecting only foreign countries, with no domestic American effect."], correct: 1, explanation: "Globalization produced genuine costs concentrated in specific regions and industries, notably significant manufacturing job losses as production shifted to locations with lower labor costs." },
-    { id: "9-35", topic: "9.4 Globalization", stem: "Why should globalization's effects NOT be described as either purely positive or purely negative?", choices: ["Globalization actually had no effects of any kind.", "Consistent with this course's recurring pattern, a strong essay identifies both genuine benefits and genuine, unevenly distributed costs rather than defaulting to a single simplified narrative.", "Globalization's effects were universally identical and evenly distributed across every region and industry.", "This question has no relationship to any pattern this course has established."], correct: 1, explanation: "Consistent with this course's recurring 'hold both stories together' pattern (seen with the Gilded Age, the 1920s), globalization's effects should not be described as purely positive or negative — a strong essay identifies both genuine benefits and genuine, unevenly distributed costs." },
-    { id: "9-36", topic: "9.4 Globalization", stem: "How does globalization's uneven economic effect parallel the Gilded Age's economic transformation (Period 6)?", choices: ["There is no meaningful parallel between these two periods.", "Both produced genuine aggregate economic growth and benefits while simultaneously generating serious hardship concentrated in specific groups or regions.", "The Gilded Age produced only negative effects, while globalization produced only positive effects.", "Globalization and the Gilded Age involve identical, not merely parallel, historical processes."], correct: 1, explanation: "Both the Gilded Age's industrialization and globalization produced genuine aggregate economic growth and benefits while simultaneously generating serious hardship concentrated in specific groups (Gilded Age workers/farmers; globalization-era manufacturing regions) — a recurring pattern of uneven economic transformation this course has traced repeatedly." },
-    { id: "9-37", topic: "9.4 Globalization", stem: "What broader economic trend did manufacturing job losses in specific American regions contribute to?", choices: ["Complete national economic collapse.", "Growing public debate over globalization's costs and benefits and rising economic inequality between different regions and skill levels.", "A total elimination of economic inequality nationwide.", "No broader economic or political trend of any kind."], correct: 1, explanation: "Manufacturing job losses in specific regions contributed to growing public debate over globalization's overall costs and benefits and to rising economic inequality between different regions and skill levels." },
-    { id: "9-38", topic: "9.4 Globalization", stem: "What technological development, alongside expanding international trade, significantly transformed the American economy during this period?", choices: ["The invention of the printing press", "The rise of personal computing and later the internet", "The Bessemer process", "The cotton gin"], correct: 1, explanation: "The rise of digital technology — personal computing and later the internet — alongside expanding international trade like NAFTA, significantly transformed the American economy during this period." },
-    { id: "9-39", topic: "9.4 Globalization", stem: "Which best completes this comparison: Gilded Age industrialization : uneven economic transformation :: late-20th/21st century globalization : ___?", choices: ["Perfectly even, universally beneficial economic transformation with no costs of any kind", "Similarly uneven economic transformation, with genuine benefits and genuine, unevenly distributed costs", "No economic transformation of any kind", "A transformation entirely unrelated to any prior period's economic pattern"], correct: 1, explanation: "Globalization represents a similarly uneven economic transformation to Gilded Age industrialization — genuine aggregate benefits alongside genuine, unevenly distributed costs — directly paralleling this recurring course pattern." },
-    { id: "9-40", topic: "9.4 Globalization", stem: "How did NAFTA relate to the broader trend of globalization during this period?", choices: ["NAFTA had no relationship to globalization.", "NAFTA was a specific example of expanding international trade agreements, part of the broader globalization trend transforming the American economy.", "NAFTA reduced international trade significantly.", "NAFTA only applied to trade with Asian countries."], correct: 1, explanation: "NAFTA was a specific example of expanding international trade agreements, directly part of the broader globalization trend that significantly transformed the American economy during this period." },
-    { id: "9-41", topic: "9.4 Globalization", stem: "Why is precision about WHICH regions and industries bore globalization's costs important for a strong essay?", choices: ["Precision about specific regional/industry effects has no value in historical analysis.", "It reflects the exam's broader expectation that economic transformations be analyzed with attention to their UNEVEN distribution, not just their aggregate net effect.", "All regions and industries experienced identical effects, making precision unnecessary.", "This precision only matters for questions specifically about the Gilded Age, not later periods."], correct: 1, explanation: "Precision about which specific regions and industries bore globalization's costs reflects this exam's broader expectation that economic transformations be analyzed with attention to their uneven distribution — a general analytical skill applicable across multiple periods in this course, not just Period 9." },
-    { id: "9-42", topic: "9.5 Social and Political Debates", stem: "What issues are generally grouped under 'culture war' debates during this period?", choices: ["Only foreign policy issues.", "Abortion rights, gay rights and marriage equality, immigration policy, and the role of religion in public life.", "Only economic policy issues.", "Only issues related to the Cold War."], correct: 1, explanation: "'Culture war' debates during this period generally encompassed abortion rights, gay rights and marriage equality, immigration policy, and the proper role of religion in public life." },
-    { id: "9-43", topic: "9.5 Social and Political Debates", stem: "What Supreme Court ruling (2015) established a nationwide right to same-sex marriage?", choices: ["Brown v. Board of Education", "Obergefell v. Hodges", "Dred Scott v. Sandford", "Marbury v. Madison"], correct: 1, explanation: "Obergefell v. Hodges (2015) established a nationwide right to same-sex marriage, a significant culmination of the gay rights movement's legal advocacy." },
-    { id: "9-44", topic: "9.5 Social and Political Debates", stem: "What is 'political polarization'?", choices: ["A decrease in political disagreement of any kind.", "An increasing tendency for Americans' political views across different issues to sort more consistently along party lines, with declining overlap between parties.", "A synonym for the Cold War.", "A term unrelated to any political trend."], correct: 1, explanation: "Political polarization describes an increasing tendency for Americans' political views across different specific issues to sort more consistently along party lines, with declining overlap or common ground between the two major parties compared to earlier in the twentieth century." },
-    { id: "9-45", topic: "9.5 Social and Political Debates", stem: "How should a strong essay approach genuinely contested contemporary political debates (like abortion or immigration policy)?", choices: ["By strongly advocating for one specific position as objectively correct.", "By describing the substance of the debate and the positions involved factually and evenhandedly, without advocating for one side.", "By ignoring these topics entirely, since they have no historical significance.", "By assuming all Americans hold identical views on these issues."], correct: 1, explanation: "A strong essay approaches genuinely contested contemporary debates by describing the substance and positions factually and evenhandedly, without advocating for one side — matching this exam's expectation of historical objectivity for questions that remain actively contested." },
-    { id: "9-46", topic: "9.5 Social and Political Debates", stem: "Why does this exam expect the same disciplined neutrality for culture war debates that it expected for the atomic bomb debate (Period 7)?", choices: ["These are entirely unrelated types of questions requiring different treatment.", "Both involve genuinely contested questions where historical or political consensus has not settled on one clearly correct answer, requiring factual, balanced treatment rather than advocacy.", "The atomic bomb debate has been fully resolved, unlike culture war debates.", "Neutrality is never expected for any topic in this course."], correct: 1, explanation: "Both the atomic bomb debate and contemporary culture war debates involve genuinely contested questions where consensus (historical or political) hasn't settled on one clearly correct answer — both require the same disciplined, factual, balanced treatment rather than advocacy for one position." },
-    { id: "9-47", topic: "9.5 Social and Political Debates", stem: "What recurring specific questions have generally structured immigration policy debate during this period?", choices: ["No specific recurring questions have structured this debate.", "Appropriate levels and criteria for legal immigration, addressing undocumented immigrants already present, and border security policy.", "Only questions about trade tariffs, with no relationship to immigration specifically.", "Only questions about foreign military policy."], correct: 1, explanation: "Immigration policy debate has generally centered on recurring questions including appropriate levels and criteria for legal immigration, addressing undocumented immigrants already in the country, and border security policy." },
-    { id: "9-48", topic: "9.5 Social and Political Debates", stem: "Is political polarization a recent, entirely unprecedented phenomenon with no historical antecedent in this course?", choices: ["Yes, no prior period in this course featured any significant political division.", "While polarization's specific recent intensity is a notable feature of this period, this course has traced significant political division and party realignment in earlier periods too (such as the 1896 critical realigning election, Period 6).", "Political division only began after the year 2000.", "This course has never discussed any form of political division in any period."], correct: 1, explanation: "While recent political polarization's specific intensity is a notable feature of this period, this course has traced significant political division and party realignment in earlier periods too — such as the critical realigning Election of 1896 (Period 6) — providing useful historical context rather than treating current polarization as entirely without precedent." },
-    { id: "9-49", topic: "9.5 Social and Political Debates", stem: "What does 'marriage equality' specifically refer to, in the context of this period's culture war debates?", choices: ["Equal division of household labor.", "The legal right of same-sex couples to marry.", "Equal pay legislation.", "A synonym for the Equal Rights Amendment."], correct: 1, explanation: "'Marriage equality' refers specifically to the legal right of same-sex couples to marry, an issue culminating in the Obergefell v. Hodges (2015) Supreme Court ruling." },
-    { id: "9-50", topic: "9.5 Social and Political Debates", stem: "Why is describing a contested debate's 'genuinely different underlying values' a stronger approach than simply listing policy positions?", choices: ["Underlying values have no relationship to policy positions.", "Explaining the different underlying values driving disagreement (economic, security, humanitarian considerations, for instance) provides a more complete, historically substantive account than simply listing positions without explaining their basis.", "Policy positions and underlying values are always identical with no distinction.", "This approach is never useful for any historical analysis."], correct: 1, explanation: "Explaining the different underlying values driving disagreement provides a more complete, historically substantive account of a contested debate than simply listing positions without explaining their basis — a stronger analytical approach for engaging genuine disagreement fairly." },
-    { id: "9-51", topic: "9.5 Social and Political Debates", stem: "Which best describes the general trend in overlap between the two major American political parties' positions during this period, according to this section?", choices: ["Increasing overlap and common ground between the two parties.", "Declining overlap or common ground between the two parties' positions compared to earlier in the twentieth century.", "No change in the level of overlap between the two parties.", "This section makes no claim about any trend in party overlap."], correct: 1, explanation: "This section describes declining overlap or common ground between the two major parties' positions compared to earlier in the twentieth century, a key feature of the described trend toward political polarization." },
-    { id: "9-52", topic: "9.5 Social and Political Debates", stem: "Which prior unit in this course modeled the same 'disciplined neutrality' approach to a genuinely contested historical/historiographical question?", choices: ["No prior unit in this course modeled this approach.", "Period 7's treatment of the atomic bomb decision's necessity.", "Period 1's treatment of Columbus's voyage.", "Period 3's treatment of the Declaration of Independence."], correct: 1, explanation: "Period 7's treatment of the atomic bomb decision's necessity modeled the same disciplined neutrality approach — presenting genuine competing historiographical positions fairly without declaring one side simply, uncontestedly correct." },
-    { id: "9-53", topic: "9.6 21st Century Challenges", stem: "What triggered the 2008 financial crisis?", choices: ["A sudden increase in agricultural crop prices.", "Risky mortgage lending practices and complex financial instruments whose risks proved poorly understood and poorly regulated.", "A foreign military invasion of the United States.", "The dissolution of the Soviet Union."], correct: 1, explanation: "The 2008 financial crisis was triggered significantly by risky mortgage lending practices and complex financial instruments whose risks proved poorly understood and poorly regulated." },
-    { id: "9-54", topic: "9.6 21st Century Challenges", stem: "How does the 2008 financial crisis compare in severity to prior American economic downturns?", choices: ["It was a minor, insignificant economic event.", "It produced the most severe American economic downturn since the Great Depression.", "It was less severe than any prior recession in American history.", "It had no relationship to the broader American economy."], correct: 1, explanation: "The 2008 financial crisis produced the most severe American economic downturn since the Great Depression (Period 7), a significant and historically comparable economic event." },
-    { id: "9-55", topic: "9.6 21st Century Challenges", stem: "How did the federal government's response to the 2008 financial crisis connect to this course's recurring patterns?", choices: ["It had no relationship to any prior pattern in this course.", "It directly continued this course's recurring pattern of expanded federal economic intervention during major crises, paralleling the New Deal and wartime mobilization.", "It represented a complete reversal of every prior federal crisis response pattern.", "The federal government took no action of any kind in response to the crisis."], correct: 1, explanation: "The federal government's 2008 crisis response (financial sector intervention, stimulus spending) directly continued this course's recurring pattern of expanded federal economic intervention during major crises, paralleling the New Deal's Depression response and wartime economic mobilization." },
-    { id: "9-56", topic: "9.6 21st Century Challenges", stem: "What did the Affordable Care Act (2010) represent?", choices: ["A reduction in federal healthcare involvement.", "A further, significantly contested extension of federal involvement in healthcare policy, building on but extending beyond Medicare/Medicaid.", "The complete elimination of Medicare and Medicaid.", "A policy unrelated to healthcare."], correct: 1, explanation: "The Affordable Care Act (2010) represented a further, significantly contested extension of federal involvement in healthcare policy, building on but extending beyond the earlier Medicare/Medicaid precedent established during the Great Society (Period 8)." },
-    { id: "9-57", topic: "9.6 21st Century Challenges", stem: "What movement gained significant national attention beginning in the 2010s, addressing concerns about racial disparities in criminal justice?", choices: ["The Populist movement", "The Black Lives Matter movement", "The Anti-Imperialist League", "The Farmers' Alliance"], correct: 1, explanation: "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing ongoing concerns about racial disparities in criminal justice and other areas." },
-    { id: "9-58", topic: "9.6 21st Century Challenges", stem: "How does continued 21st century civil rights and social justice activism connect to this course's broader pattern?", choices: ["This activism has no relationship to any prior period's civil rights activity.", "It is consistent with this course's recurring pattern of civil rights activism evolving across periods, from Reconstruction through the Progressive Era through the 1960s Civil Rights Movement.", "Civil rights activism ended entirely after the 1960s with no subsequent developments.", "This activism represents an entirely unprecedented historical phenomenon with no connection to any earlier period."], correct: 1, explanation: "Continued 21st century civil rights and social justice activism is consistent with this course's recurring pattern of civil rights activism evolving across multiple periods — Reconstruction, the Progressive Era, and the 1960s Civil Rights Movement all represent earlier chapters in this same continuing story." },
-    { id: "9-59", topic: "9.6 21st Century Challenges", stem: "How should this section's treatment of recent civil rights activism and its surrounding debates be approached, given this section's broader guidance?", choices: ["With strong advocacy for one specific settled historical verdict.", "Factually and precisely, without asserting a settled historical verdict on questions that, given their recency, remain genuinely subject to ongoing public and political debate.", "By ignoring this topic entirely as historically insignificant.", "By assuming universal agreement exists on every aspect of this activism and its reception."], correct: 1, explanation: "This section's own guidance specifies that recent civil rights activism and its surrounding debates should be described factually and precisely, without asserting a settled historical verdict on questions that remain genuinely subject to ongoing public and political debate, given their recency." },
-    { id: "9-60", topic: "9.6 21st Century Challenges", stem: "Why does this final unit require the most caution in this entire course about distinguishing settled fact from ongoing debate?", choices: ["This unit requires the LEAST caution of any unit in the course.", "This unit covers the most recent history in the course, lacking the decades or centuries of historical distance and scholarly consensus that earlier units benefit from.", "Caution about distinguishing fact from debate is irrelevant to historical study.", "Every fact in this unit is equally well-established as facts from Period 1."], correct: 1, explanation: "This final unit requires the most caution because it covers the most recent history in the entire course, lacking the decades or centuries of historical distance and scholarly consensus that earlier units (like Period 1, covering events from over 500 years ago) benefit from." },
-    { id: "9-61", topic: "9.6 21st Century Challenges", stem: "List two prior examples from this course of major crises prompting expanded federal government economic role, which the 2008 financial crisis response continues.", choices: ["The Constitutional Convention's response to the Articles' weakness, and the New Deal's response to the Great Depression.", "The Missouri Compromise and the Kansas-Nebraska Act.", "The Spanish-American War and the Mexican-American War.", "The First and Second Great Awakenings."], correct: 0, explanation: "The Constitutional Convention's response to the Articles of Confederation's demonstrated weakness (Period 3) and the New Deal's response to the Great Depression (Period 7) are two prior examples of major crises prompting expanded federal government economic role, a pattern the 2008 crisis response continues." },
-    { id: "9-62", topic: "9.6 21st Century Challenges", stem: "Approximately when did the Black Lives Matter movement gain significant national attention?", choices: ["The 1960s", "The 1980s", "Beginning in the 2010s", "Before 1900"], correct: 2, explanation: "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing ongoing concerns about racial disparities in areas including criminal justice." },
-    { id: "9-63", topic: "9.6 21st Century Challenges", stem: "What is one of the most significant unifying threads spanning this entire nine-period course, according to this unit's closing content?", choices: ["A complete absence of any recurring pattern across the course's nine periods.", "Major crises repeatedly prompting significant, often lasting expansion of federal government economic role and capacity.", "A consistent, unbroken decline in federal government power across all nine periods.", "No connection exists between any of this course's nine periods."], correct: 1, explanation: "According to this unit's closing content, one of the most significant unifying threads spanning this entire course is major crises repeatedly prompting significant, often lasting expansion of federal government economic role and capacity — from the Constitutional Convention through the New Deal, wartime mobilization, the Great Society, and the 2008 crisis response." },
-    { id: "9-64", topic: "9.6 21st Century Challenges", stem: "Why is the 2008 financial crisis a fitting topic to close out this course's coverage of expanding federal government power?", choices: ["It has no relationship to this recurring theme.", "It represents the most recent, and one of the clearest, examples of this course's multi-century pattern of federal crisis response, directly connecting the course's earliest and most recent periods.", "It represents a complete reversal of every pattern this course has traced.", "Federal government power played no role in the 2008 crisis response."], correct: 1, explanation: "The 2008 financial crisis is a fitting closing topic because it represents the most recent, clearest example of this course's multi-century pattern of federal crisis response — directly connecting this course's earliest periods (the Constitutional Convention's response to the Articles' weakness) to its most recent history." },
-    { id: "9-65", topic: "9.6 21st Century Challenges", stretch: true, stem: "Stretch — beyond typical AP difficulty: Synthesize this ENTIRE COURSE by explaining how the pattern of 'major crisis producing expanded federal government response' first identified in Period 3 (the Constitutional Convention responding to the Articles of Confederation's weakness) recurs across at least four additional widely separated periods, and explain why recognizing this single multi-century pattern is more valuable for exam success than memorizing each individual crisis response in isolation.", choices: ["No such recurring pattern exists across this course; each crisis response was entirely unique with no connection to any other.", "The pattern recurs in the New Deal's response to the Great Depression (Period 7), wartime economic mobilization in both World Wars (Periods 7–8), the Great Society's response to persistent poverty (Period 8), and the 2008 financial crisis response (Period 9) — recognizing this single recurring pattern is more valuable than memorizing each crisis in isolation because it gives you a reusable analytical framework applicable to any new crisis-response scenario a DBQ or LEQ might present, rather than requiring you to reason from scratch each time.", "This pattern only appears once in the entire course, in Period 3, with no recurrence in any later period.", "Memorizing individual facts in isolation is always superior to recognizing recurring patterns across a course."], correct: 1, explanation: "This final, course-spanning synthesis question rewards recognizing that the 'major crisis produces expanded federal government response' pattern first identified in Period 3 recurs across the New Deal (Period 7), wartime mobilization (Periods 7-8), the Great Society (Period 8), and the 2008 financial crisis (Period 9) — five widely separated instances of the SAME underlying pattern. Recognizing this single recurring pattern is more valuable than memorizing each crisis response in isolation because it provides a REUSABLE analytical framework: when a DBQ or LEQ presents a new, unfamiliar crisis-response scenario, a student who has internalized this pattern can reason about it using an established analytical structure, rather than needing to construct an entirely new explanation from scratch — exactly the kind of transferable, course-spanning historical thinking skill this entire course, and this final synthesis question specifically, has been building toward." },
-  ],
+  "9": [
+    {
+      "id": "9-1",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "What did Reagan's 'supply-side economics' (Reaganomics) argue?",
+      "choices": [
+        "That the federal government should nationalize major industries.",
+        "That increasing tax rates would stimulate economic growth.",
+        "That reducing tax rates and government regulation would stimulate economic growth and investment.",
+        "That government spending should increase dramatically with no tax changes."
+      ],
+      "correct": 2,
+      "explanation": "Reagan's supply-side economics argued that reducing tax rates (particularly for higher earners and businesses) and reducing government regulation would stimulate economic growth and investment, benefiting the broader economy."
+    },
+    {
+      "id": "9-2",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "How did Reaganomics represent a philosophical departure from prior federal economic policy assumptions?",
+      "choices": [
+        "It had no relationship to any prior economic philosophy.",
+        "It represented a significant departure from the Keynesian demand-side assumptions that had generally guided federal economic policy since the New Deal.",
+        "It continued Keynesian demand-side assumptions with no change.",
+        "It was identical to New Deal economic philosophy."
+      ],
+      "correct": 1,
+      "explanation": "Reaganomics represented a significant philosophical departure from the Keynesian demand-side assumptions that had generally guided federal economic policy since the New Deal (Period 7)."
+    },
+    {
+      "id": "9-3",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "What three distinct constituencies united within Reagan's 'New Right' political coalition?",
+      "choices": [
+        "Only religious conservatives, with no other constituencies.",
+        "Only fiscal conservatives, with no other constituencies.",
+        "Labor unions, environmentalists, and pacifists.",
+        "Fiscal conservatives, religious/social conservatives, and anti-communist foreign policy hawks."
+      ],
+      "correct": 3,
+      "explanation": "The 'New Right' coalition united fiscal conservatives (lower taxes, less regulation), religious/social conservatives (mobilized around issues like abortion), and anti-communist foreign policy hawks."
+    },
+    {
+      "id": "9-4",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "Should the New Right coalition be described as ideologically uniform?",
+      "choices": [
+        "No, because the New Right coalition never actually existed.",
+        "No — it united genuinely distinct constituencies with different specific priorities, a coalition rather than a single ideologically uniform movement.",
+        "Yes, all New Right constituencies shared identical specific priorities on every issue.",
+        "Yes, because only one constituency ever supported Reagan."
+      ],
+      "correct": 1,
+      "explanation": "The New Right should NOT be described as ideologically uniform — it united genuinely distinct constituencies (fiscal conservatives, religious conservatives, foreign policy hawks) with different specific priorities, a coalition rather than a single uniform movement."
+    },
+    {
+      "id": "9-5",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "How does Reagan's 1980 election connect to Period 8's closing themes?",
+      "choices": [
+        "There is no connection between these two developments.",
+        "Period 8 has no relationship to any subsequent political development.",
+        "Reagan's election increased public trust in the exact same expanded federal government structure.",
+        "Reagan's election directly reflected the declining public trust in expanded federal government that Vietnam and Watergate had produced."
+      ],
+      "correct": 3,
+      "explanation": "Reagan's election directly reflected the declining public trust in expanded federal government that Period 8's closing themes (Vietnam, Watergate, stagflation) had set up, offering a political alternative skeptical of that same expanded federal role."
+    },
+    {
+      "id": "9-6",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "What specific policy approach did fiscal conservatives within the New Right coalition favor?",
+      "choices": [
+        "Higher taxes and increased regulation.",
+        "No specific fiscal policy preference of any kind.",
+        "Lower taxes and reduced regulation.",
+        "Nationalization of major industries."
+      ],
+      "correct": 2,
+      "explanation": "Fiscal conservatives within the New Right coalition favored lower taxes and reduced regulation, consistent with the broader supply-side economic philosophy."
+    },
+    {
+      "id": "9-7",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "Around what issue did religious/social conservatives within the New Right become increasingly politically mobilized?",
+      "choices": [
+        "Labor union organizing",
+        "Foreign trade policy",
+        "Abortion",
+        "Tax policy exclusively"
+      ],
+      "correct": 2,
+      "explanation": "Religious/social conservatives within the New Right coalition became increasingly politically mobilized around issues like abortion, one of several distinct priorities within the broader coalition."
+    },
+    {
+      "id": "9-8",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "What general policy approach did anti-communist foreign policy hawks within the New Right favor toward the Soviet Union?",
+      "choices": [
+        "A passive, non-confrontational approach.",
+        "An assertive, confrontational approach.",
+        "Formal military alliance with the Soviet Union.",
+        "Complete disengagement from any foreign policy involving the Soviet Union."
+      ],
+      "correct": 1,
+      "explanation": "Anti-communist foreign policy hawks within the New Right favored an assertive, confrontational approach toward the Soviet Union, one of the coalition's distinct priorities."
+    },
+    {
+      "id": "9-9",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "Which of the following best summarizes the relationship between Reagan's economic philosophy and the New Deal's Keynesian assumptions?",
+      "choices": [
+        "Reaganomics represented a significant, deliberate philosophical departure from the demand-side Keynesian assumptions that had guided policy since the New Deal.",
+        "Reaganomics preceded the New Deal chronologically.",
+        "The New Deal had no economic philosophy of any kind.",
+        "They were identical philosophies with no meaningful difference."
+      ],
+      "correct": 0,
+      "explanation": "Reaganomics represented a significant, deliberate philosophical departure from the demand-side Keynesian assumptions that had generally guided federal economic policy since the New Deal — a genuine ideological shift in national economic policy direction."
+    },
+    {
+      "id": "9-10",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "Why is recognizing internal coalition diversity within the New Right consistent with a broader pattern in this course?",
+      "choices": [
+        "This course has never asked students to recognize internal diversity within any political movement.",
+        "This course has repeatedly asked students to recognize internal diversity within seemingly unified movements, as with the Populist coalition (Period 6) and the Civil Rights Movement's internal strategic debates (Period 8).",
+        "Internal coalition diversity is a concept unique to Period 9 with no precedent elsewhere in the course.",
+        "Political movements are always ideologically uniform, with no genuine internal diversity possible."
+      ],
+      "correct": 1,
+      "explanation": "This course has repeatedly asked students to recognize internal diversity within seemingly unified political movements — the Populist coalition (Period 6) and the Civil Rights Movement's internal strategic debates (Period 8) both modeled this same analytical habit, now applied to the New Right coalition."
+    },
+    {
+      "id": "9-11",
+      "topic": "9.1 Conservative Resurgence",
+      "stem": "What broader federal government trajectory did Reagan's political message express skepticism about?",
+      "choices": [
+        "A trajectory of consistently shrinking federal government since 1789.",
+        "Reagan's political message expressed no skepticism about any federal government trajectory.",
+        "The trajectory of federal foreign policy exclusively, with no domestic component.",
+        "The trajectory of expanding federal government role and scope traced since the Progressive Era."
+      ],
+      "correct": 3,
+      "explanation": "Reagan's political message expressed skepticism about the broader trajectory of expanding federal government role and scope this course has traced since the Progressive Era (Period 7) through the Great Society (Period 8)."
+    },
+    {
+      "id": "9-12",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What did Gorbachev's 'glasnost' policy mean?",
+      "choices": [
+        "Economic restructuring and market reforms.",
+        "'Openness' — permitting greater political expression and transparency.",
+        "A policy of increased military spending.",
+        "A policy of complete political repression."
+      ],
+      "correct": 1,
+      "explanation": "'Glasnost' meant 'openness,' permitting greater political expression and transparency within the Soviet Union — one of Gorbachev's significant reform policies."
+    },
+    {
+      "id": "9-13",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What did Gorbachev's 'perestroika' policy mean?",
+      "choices": [
+        "'Restructuring' — economic reforms introducing limited market mechanisms.",
+        "Political openness and transparency.",
+        "A policy of expanding the Soviet military.",
+        "A synonym for glasnost, with no meaningful distinction."
+      ],
+      "correct": 0,
+      "explanation": "'Perestroika' meant 'restructuring,' referring to economic reforms introducing limited market mechanisms into the Soviet centrally planned economy."
+    },
+    {
+      "id": "9-14",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What occurred in 1989, symbolically and practically marking Eastern European communism's collapse?",
+      "choices": [
+        "The fall of the Berlin Wall",
+        "The Soviet Union's formal dissolution",
+        "The Persian Gulf War",
+        "The September 11 attacks"
+      ],
+      "correct": 0,
+      "explanation": "The fall of the Berlin Wall (1989) symbolically and practically marked Eastern European communism's collapse, a major milestone in the Cold War's end."
+    },
+    {
+      "id": "9-15",
+      "topic": "9.2 End of the Cold War",
+      "stem": "When did the Soviet Union formally dissolve?",
+      "choices": [
+        "1989",
+        "1985",
+        "1991",
+        "2001"
+      ],
+      "correct": 2,
+      "explanation": "The Soviet Union formally dissolved in 1991, following the fall of the Berlin Wall (1989) and the broader collapse of Soviet political and economic control."
+    },
+    {
+      "id": "9-16",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What underlying structural factor provided crucial context for why Gorbachev's reforms, once initiated, proved impossible to fully contain?",
+      "choices": [
+        "The Soviet Union had no economic system of any kind.",
+        "The Soviet centrally planned economy had grown increasingly inefficient and unable to keep pace with Western economic and technological development.",
+        "The Soviet economy was thriving and highly efficient.",
+        "Soviet economic weakness had no relationship to the reforms' consequences."
+      ],
+      "correct": 1,
+      "explanation": "The Soviet centrally planned economy's increasing inefficiency and inability to keep pace with Western economic and technological development provided crucial structural context for why Gorbachev's reforms, once initiated, proved impossible to fully contain."
+    },
+    {
+      "id": "9-17",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What is one historiographical position on the Cold War's end, emphasizing U.S. policy's role?",
+      "choices": [
+        "U.S. policy had no relationship to the Cold War's end.",
+        "Reagan's substantial defense spending increases and assertive rhetoric pressured the Soviet economy into an unsustainable competitive position, followed by skillful diplomatic engagement with Gorbachev.",
+        "The U.S. actively supported continued Soviet expansion.",
+        "There is no historiographical position emphasizing U.S. policy's role."
+      ],
+      "correct": 1,
+      "explanation": "One historiographical position emphasizes U.S. policy's decisive role — Reagan's defense buildup and assertive rhetoric pressuring the Soviet economy, followed by diplomatic engagement with Gorbachev — as significantly contributing to the Cold War's end."
+    },
+    {
+      "id": "9-18",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What is a competing historiographical position, emphasizing internal Soviet factors?",
+      "choices": [
+        "There is no competing historiographical position to the U.S.-policy-centered explanation.",
+        "Internal Soviet factors had no relationship to the Cold War's end.",
+        "The Soviet system's accumulated economic inefficiency and internal political pressures were more fundamentally decisive, substantially independent of specific U.S. policy choices.",
+        "Internal Soviet factors alone caused the Cold War to begin, not end."
+      ],
+      "correct": 2,
+      "explanation": "A competing position emphasizes internal Soviet factors — accumulated economic inefficiency, Gorbachev's own reform choices, and satellite states' internal pressures — as more fundamentally decisive, substantially independent of specific U.S. policy choices."
+    },
+    {
+      "id": "9-19",
+      "topic": "9.2 End of the Cold War",
+      "stem": "Should a strong essay treat the Cold War's end as having a single, uncontested, settled explanation?",
+      "choices": [
+        "Yes, because no historian has ever debated the Cold War's causes.",
+        "No, because the Cold War's end has no historical significance worth analyzing.",
+        "Yes, this question has one single, universally agreed-upon correct answer.",
+        "No — this exam rewards acknowledging it as a genuinely contested historiographical question, similar to the atomic bomb debate from Period 7."
+      ],
+      "correct": 3,
+      "explanation": "A strong essay should NOT treat this as a single, settled explanation — this exam rewards acknowledging the Cold War's end as a genuinely contested historiographical question, directly paralleling the atomic bomb debate's treatment in Period 7."
+    },
+    {
+      "id": "9-20",
+      "topic": "9.2 End of the Cold War",
+      "stem": "What effect did glasnost and perestroika have on Soviet control over Eastern European satellite states?",
+      "choices": [
+        "They only affected domestic Soviet policy, with no relationship to satellite states.",
+        "They significantly loosened Soviet political and economic control over these states, contributing to their eventual independence.",
+        "They significantly strengthened Soviet control over these states.",
+        "They had no effect on Eastern European satellite states."
+      ],
+      "correct": 1,
+      "explanation": "Glasnost and perestroika significantly loosened Soviet political and economic control both domestically and over Eastern European satellite states, contributing directly to their eventual independence from Soviet control."
+    },
+    {
+      "id": "9-21",
+      "topic": "9.2 End of the Cold War",
+      "stem": "Which of the following correctly sequences two major Cold War-ending events?",
+      "choices": [
+        "The Berlin Wall's fall (1989) preceded the Soviet Union's dissolution (1991).",
+        "Both events occurred in the exact same year.",
+        "The Soviet Union's dissolution (1991) preceded the Berlin Wall's fall (1989).",
+        "Neither event has a documented date."
+      ],
+      "correct": 0,
+      "explanation": "The Berlin Wall's fall (1989) preceded the Soviet Union's formal dissolution (1991) — a correct chronological sequence of two major milestones in the Cold War's end."
+    },
+    {
+      "id": "9-22",
+      "topic": "9.2 End of the Cold War",
+      "stem": "Who was the Soviet leader whose reform policies are most closely associated with the Cold War's end?",
+      "choices": [
+        "Nikita Khrushchev",
+        "Joseph Stalin",
+        "Vladimir Lenin",
+        "Mikhail Gorbachev"
+      ],
+      "correct": 3,
+      "explanation": "Mikhail Gorbachev's reform policies (glasnost and perestroika) are most closely associated with the systemic changes leading to the Cold War's end."
+    },
+    {
+      "id": "9-23",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What did the Persian Gulf War (1991) accomplish?",
+      "choices": [
+        "Established American occupation of Iraq permanently.",
+        "Successfully reversed Iraq's invasion of Kuwait.",
+        "Had no relationship to any international conflict.",
+        "Ended the Cold War."
+      ],
+      "correct": 1,
+      "explanation": "The Persian Gulf War (1991) successfully reversed Iraq's invasion of Kuwait, an early example of post-Cold War American-led military engagement."
+    },
+    {
+      "id": "9-24",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What event fundamentally redirected American foreign policy priorities in the early 2000s?",
+      "choices": [
+        "The 2008 financial crisis",
+        "The Persian Gulf War",
+        "The September 11, 2001 terrorist attacks",
+        "The fall of the Berlin Wall"
+      ],
+      "correct": 2,
+      "explanation": "The September 11, 2001 terrorist attacks fundamentally redirected American foreign policy priorities, leading directly to the War on Terror."
+    },
+    {
+      "id": "9-25",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What was the direct connection between the Afghanistan War (2001) and the September 11 attacks?",
+      "choices": [
+        "The Afghanistan War preceded the September 11 attacks chronologically.",
+        "No connection existed between these two events.",
+        "The Afghanistan War targeted Iraq, not Afghanistan.",
+        "The Afghanistan War targeted the Taliban government that had sheltered the al-Qaeda network responsible for the September 11 attacks."
+      ],
+      "correct": 3,
+      "explanation": "The Afghanistan War (2001) targeted the Taliban government that had sheltered the al-Qaeda network responsible for the September 11 attacks — a direct, clear connection."
+    },
+    {
+      "id": "9-26",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "How did the Iraq War's (2003) justification differ from the Afghanistan War's justification?",
+      "choices": [
+        "The Iraq War had a stronger, clearer connection to September 11 than Afghanistan did.",
+        "Both wars had identical, equally clear justifications with no meaningful difference.",
+        "The Iraq War lacked the same direct connection to September 11, and its justification (weapons of mass destruction concerns) proved significantly more contested.",
+        "Neither war had any stated justification of any kind."
+      ],
+      "correct": 2,
+      "explanation": "The Iraq War (2003) lacked the same direct connection to September 11 that Afghanistan had, and its justification (concerns about weapons of mass destruction that ultimately were not found) proved significantly more contested domestically and internationally."
+    },
+    {
+      "id": "9-27",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "Why should the Afghanistan War and Iraq War be treated as distinct developments, rather than a single undifferentiated 'War on Terror' campaign?",
+      "choices": [
+        "There is no meaningful distinction between these two conflicts.",
+        "Only the Iraq War is historically significant; Afghanistan should be ignored entirely.",
+        "They had genuinely different origins, levels of international support, and domestic political reception, which this exam rewards distinguishing precisely.",
+        "Both wars occurred in identical locations with identical justifications."
+      ],
+      "correct": 2,
+      "explanation": "The Afghanistan and Iraq Wars had genuinely different origins (direct September 11 connection vs. more contested WMD concerns), levels of international support, and domestic political reception — this exam rewards distinguishing them precisely rather than treating 'the War on Terror' as one undifferentiated campaign."
+    },
+    {
+      "id": "9-28",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What strategic position did the United States occupy following the Cold War's end?",
+      "choices": [
+        "A position of complete international isolation.",
+        "A position identical to its Cold War-era status, with no meaningful change.",
+        "A weakened, marginal international position.",
+        "The world's sole remaining superpower."
+      ],
+      "correct": 3,
+      "explanation": "Following the Cold War's end, the United States occupied the position of the world's sole remaining superpower, a genuinely new strategic position shaping subsequent foreign policy decisions."
+    },
+    {
+      "id": "9-29",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What government did the Taliban lead, which the Afghanistan War specifically targeted?",
+      "choices": [
+        "The government of Afghanistan, which had sheltered al-Qaeda",
+        "The government of Iraq",
+        "The government of Kuwait",
+        "The government of the Soviet Union"
+      ],
+      "correct": 0,
+      "explanation": "The Taliban led the government of Afghanistan, which had sheltered the al-Qaeda network responsible for the September 11 attacks — the specific target of the 2001 Afghanistan War."
+    },
+    {
+      "id": "9-30",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "What specific claimed justification for the Iraq War (2003) ultimately proved unfounded?",
+      "choices": [
+        "A direct connection to the September 11 attacks.",
+        "The presence of weapons of mass destruction, which were ultimately not found.",
+        "No justification was ever offered for the Iraq War.",
+        "A request from the United Nations for immediate intervention."
+      ],
+      "correct": 1,
+      "explanation": "Concerns about Iraqi weapons of mass destruction were a specific claimed justification for the 2003 Iraq War that ultimately proved unfounded, contributing to the war's significantly more contested reception."
+    },
+    {
+      "id": "9-31",
+      "topic": "9.3 Post-Cold War Foreign Policy",
+      "stem": "How did the Persian Gulf War (1991) differ from Cold War-era conflicts in its basic strategic framework?",
+      "choices": [
+        "It followed the exact same superpower-versus-superpower framework as Cold War conflicts.",
+        "It involved direct combat between the U.S. and Soviet Union.",
+        "It occurred as an early example of post-Cold War American military engagement without the direct superpower-versus-superpower framework structuring earlier conflicts.",
+        "It had no relationship to any change in international strategic framework."
+      ],
+      "correct": 2,
+      "explanation": "The Persian Gulf War occurred as an early example of post-Cold War American military engagement, without the direct superpower-versus-superpower framework that had structured Cold War-era conflicts like Korea and Vietnam."
+    },
+    {
+      "id": "9-32",
+      "topic": "9.4 Globalization",
+      "stem": "What was NAFTA (1993)?",
+      "choices": [
+        "The North American Free Trade Agreement, expanding international trade.",
+        "A domestic tax policy.",
+        "A civil rights law.",
+        "A Cold War military alliance."
+      ],
+      "correct": 0,
+      "explanation": "NAFTA (North American Free Trade Agreement, 1993) expanded international trade among the U.S., Canada, and Mexico, part of the broader trend of expanding globalization during this period."
+    },
+    {
+      "id": "9-33",
+      "topic": "9.4 Globalization",
+      "stem": "What genuine benefits did globalization and digital technology produce during this period?",
+      "choices": [
+        "Complete elimination of all economic inequality.",
+        "Only benefits for a single industry, with no broader economic effect.",
+        "Lower consumer prices, new technology-sector industries and jobs, and expanded access to information.",
+        "No genuine benefits of any kind."
+      ],
+      "correct": 2,
+      "explanation": "Globalization and digital technology produced genuine benefits including lower consumer prices, new technology-sector industries and jobs, and expanded access to information."
+    },
+    {
+      "id": "9-34",
+      "topic": "9.4 Globalization",
+      "stem": "What genuine costs, concentrated in specific regions and industries, did globalization also produce?",
+      "choices": [
+        "Significant manufacturing job losses in some American regions, as production shifted to locations with lower labor costs.",
+        "No genuine costs of any kind.",
+        "Complete elimination of all American manufacturing nationwide with no regional variation.",
+        "Costs affecting only foreign countries, with no domestic American effect."
+      ],
+      "correct": 0,
+      "explanation": "Globalization produced genuine costs concentrated in specific regions and industries, notably significant manufacturing job losses as production shifted to locations with lower labor costs."
+    },
+    {
+      "id": "9-35",
+      "topic": "9.4 Globalization",
+      "stem": "Why should globalization's effects NOT be described as either purely positive or purely negative?",
+      "choices": [
+        "Globalization actually had no effects of any kind.",
+        "Consistent with this course's recurring pattern, a strong essay identifies both genuine benefits and genuine, unevenly distributed costs rather than defaulting to a single simplified narrative.",
+        "This question has no relationship to any pattern this course has established.",
+        "Globalization's effects were universally identical and evenly distributed across every region and industry."
+      ],
+      "correct": 1,
+      "explanation": "Consistent with this course's recurring 'hold both stories together' pattern (seen with the Gilded Age, the 1920s), globalization's effects should not be described as purely positive or negative — a strong essay identifies both genuine benefits and genuine, unevenly distributed costs."
+    },
+    {
+      "id": "9-36",
+      "topic": "9.4 Globalization",
+      "stem": "How does globalization's uneven economic effect parallel the Gilded Age's economic transformation (Period 6)?",
+      "choices": [
+        "Both produced genuine aggregate economic growth and benefits while simultaneously generating serious hardship concentrated in specific groups or regions.",
+        "Globalization and the Gilded Age involve identical, not merely parallel, historical processes.",
+        "The Gilded Age produced only negative effects, while globalization produced only positive effects.",
+        "There is no meaningful parallel between these two periods."
+      ],
+      "correct": 0,
+      "explanation": "Both the Gilded Age's industrialization and globalization produced genuine aggregate economic growth and benefits while simultaneously generating serious hardship concentrated in specific groups (Gilded Age workers/farmers; globalization-era manufacturing regions) — a recurring pattern of uneven economic transformation this course has traced repeatedly."
+    },
+    {
+      "id": "9-37",
+      "topic": "9.4 Globalization",
+      "stem": "What broader economic trend did manufacturing job losses in specific American regions contribute to?",
+      "choices": [
+        "No broader economic or political trend of any kind.",
+        "Complete national economic collapse.",
+        "Growing public debate over globalization's costs and benefits and rising economic inequality between different regions and skill levels.",
+        "A total elimination of economic inequality nationwide."
+      ],
+      "correct": 2,
+      "explanation": "Manufacturing job losses in specific regions contributed to growing public debate over globalization's overall costs and benefits and to rising economic inequality between different regions and skill levels."
+    },
+    {
+      "id": "9-38",
+      "topic": "9.4 Globalization",
+      "stem": "What technological development, alongside expanding international trade, significantly transformed the American economy during this period?",
+      "choices": [
+        "The Bessemer process",
+        "The rise of personal computing and later the internet",
+        "The invention of the printing press",
+        "The cotton gin"
+      ],
+      "correct": 1,
+      "explanation": "The rise of digital technology — personal computing and later the internet — alongside expanding international trade like NAFTA, significantly transformed the American economy during this period."
+    },
+    {
+      "id": "9-39",
+      "topic": "9.4 Globalization",
+      "stem": "Which best completes this comparison: Gilded Age industrialization : uneven economic transformation :: late-20th/21st century globalization : ___?",
+      "choices": [
+        "Perfectly even, universally beneficial economic transformation with no costs of any kind",
+        "A transformation entirely unrelated to any prior period's economic pattern",
+        "No economic transformation of any kind",
+        "Similarly uneven economic transformation, with genuine benefits and genuine, unevenly distributed costs"
+      ],
+      "correct": 3,
+      "explanation": "Globalization represents a similarly uneven economic transformation to Gilded Age industrialization — genuine aggregate benefits alongside genuine, unevenly distributed costs — directly paralleling this recurring course pattern."
+    },
+    {
+      "id": "9-40",
+      "topic": "9.4 Globalization",
+      "stem": "How did NAFTA relate to the broader trend of globalization during this period?",
+      "choices": [
+        "NAFTA reduced international trade significantly.",
+        "NAFTA was a specific example of expanding international trade agreements, part of the broader globalization trend transforming the American economy.",
+        "NAFTA only applied to trade with Asian countries.",
+        "NAFTA had no relationship to globalization."
+      ],
+      "correct": 1,
+      "explanation": "NAFTA was a specific example of expanding international trade agreements, directly part of the broader globalization trend that significantly transformed the American economy during this period."
+    },
+    {
+      "id": "9-41",
+      "topic": "9.4 Globalization",
+      "stem": "Why is precision about WHICH regions and industries bore globalization's costs important for a strong essay?",
+      "choices": [
+        "It reflects the exam's broader expectation that economic transformations be analyzed with attention to their UNEVEN distribution, not just their aggregate net effect.",
+        "This precision only matters for questions specifically about the Gilded Age, not later periods.",
+        "All regions and industries experienced identical effects, making precision unnecessary.",
+        "Precision about specific regional/industry effects has no value in historical analysis."
+      ],
+      "correct": 0,
+      "explanation": "Precision about which specific regions and industries bore globalization's costs reflects this exam's broader expectation that economic transformations be analyzed with attention to their uneven distribution — a general analytical skill applicable across multiple periods in this course, not just Period 9."
+    },
+    {
+      "id": "9-42",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "What issues are generally grouped under 'culture war' debates during this period?",
+      "choices": [
+        "Abortion rights, gay rights and marriage equality, immigration policy, and the role of religion in public life.",
+        "Only foreign policy issues.",
+        "Only economic policy issues.",
+        "Only issues related to the Cold War."
+      ],
+      "correct": 0,
+      "explanation": "'Culture war' debates during this period generally encompassed abortion rights, gay rights and marriage equality, immigration policy, and the proper role of religion in public life."
+    },
+    {
+      "id": "9-43",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "What Supreme Court ruling (2015) established a nationwide right to same-sex marriage?",
+      "choices": [
+        "Obergefell v. Hodges",
+        "Brown v. Board of Education",
+        "Marbury v. Madison",
+        "Dred Scott v. Sandford"
+      ],
+      "correct": 0,
+      "explanation": "Obergefell v. Hodges (2015) established a nationwide right to same-sex marriage, a significant culmination of the gay rights movement's legal advocacy."
+    },
+    {
+      "id": "9-44",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "What is 'political polarization'?",
+      "choices": [
+        "An increasing tendency for Americans' political views across different issues to sort more consistently along party lines, with declining overlap between parties.",
+        "A term unrelated to any political trend.",
+        "A decrease in political disagreement of any kind.",
+        "A synonym for the Cold War."
+      ],
+      "correct": 0,
+      "explanation": "Political polarization describes an increasing tendency for Americans' political views across different specific issues to sort more consistently along party lines, with declining overlap or common ground between the two major parties compared to earlier in the twentieth century."
+    },
+    {
+      "id": "9-45",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "How should a strong essay approach genuinely contested contemporary political debates (like abortion or immigration policy)?",
+      "choices": [
+        "By describing the substance of the debate and the positions involved factually and evenhandedly, without advocating for one side.",
+        "By ignoring these topics entirely, since they have no historical significance.",
+        "By assuming all Americans hold identical views on these issues.",
+        "By strongly advocating for one specific position as objectively correct."
+      ],
+      "correct": 0,
+      "explanation": "A strong essay approaches genuinely contested contemporary debates by describing the substance and positions factually and evenhandedly, without advocating for one side — matching this exam's expectation of historical objectivity for questions that remain actively contested."
+    },
+    {
+      "id": "9-46",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "Why does this exam expect the same disciplined neutrality for culture war debates that it expected for the atomic bomb debate (Period 7)?",
+      "choices": [
+        "Neutrality is never expected for any topic in this course.",
+        "Both involve genuinely contested questions where historical or political consensus has not settled on one clearly correct answer, requiring factual, balanced treatment rather than advocacy.",
+        "These are entirely unrelated types of questions requiring different treatment.",
+        "The atomic bomb debate has been fully resolved, unlike culture war debates."
+      ],
+      "correct": 1,
+      "explanation": "Both the atomic bomb debate and contemporary culture war debates involve genuinely contested questions where consensus (historical or political) hasn't settled on one clearly correct answer — both require the same disciplined, factual, balanced treatment rather than advocacy for one position."
+    },
+    {
+      "id": "9-47",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "What recurring specific questions have generally structured immigration policy debate during this period?",
+      "choices": [
+        "Appropriate levels and criteria for legal immigration, addressing undocumented immigrants already present, and border security policy.",
+        "Only questions about trade tariffs, with no relationship to immigration specifically.",
+        "No specific recurring questions have structured this debate.",
+        "Only questions about foreign military policy."
+      ],
+      "correct": 0,
+      "explanation": "Immigration policy debate has generally centered on recurring questions including appropriate levels and criteria for legal immigration, addressing undocumented immigrants already in the country, and border security policy."
+    },
+    {
+      "id": "9-48",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "Is political polarization a recent, entirely unprecedented phenomenon with no historical antecedent in this course?",
+      "choices": [
+        "While polarization's specific recent intensity is a notable feature of this period, this course has traced significant political division and party realignment in earlier periods too (such as the 1896 critical realigning election, Period 6).",
+        "Political division only began after the year 2000.",
+        "Yes, no prior period in this course featured any significant political division.",
+        "This course has never discussed any form of political division in any period."
+      ],
+      "correct": 0,
+      "explanation": "While recent political polarization's specific intensity is a notable feature of this period, this course has traced significant political division and party realignment in earlier periods too — such as the critical realigning Election of 1896 (Period 6) — providing useful historical context rather than treating current polarization as entirely without precedent."
+    },
+    {
+      "id": "9-49",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "What does 'marriage equality' specifically refer to, in the context of this period's culture war debates?",
+      "choices": [
+        "The legal right of same-sex couples to marry.",
+        "Equal division of household labor.",
+        "A synonym for the Equal Rights Amendment.",
+        "Equal pay legislation."
+      ],
+      "correct": 0,
+      "explanation": "'Marriage equality' refers specifically to the legal right of same-sex couples to marry, an issue culminating in the Obergefell v. Hodges (2015) Supreme Court ruling."
+    },
+    {
+      "id": "9-50",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "Why is describing a contested debate's 'genuinely different underlying values' a stronger approach than simply listing policy positions?",
+      "choices": [
+        "This approach is never useful for any historical analysis.",
+        "Policy positions and underlying values are always identical with no distinction.",
+        "Underlying values have no relationship to policy positions.",
+        "Explaining the different underlying values driving disagreement (economic, security, humanitarian considerations, for instance) provides a more complete, historically substantive account than simply listing positions without explaining their basis."
+      ],
+      "correct": 3,
+      "explanation": "Explaining the different underlying values driving disagreement provides a more complete, historically substantive account of a contested debate than simply listing positions without explaining their basis — a stronger analytical approach for engaging genuine disagreement fairly."
+    },
+    {
+      "id": "9-51",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "Which best describes the general trend in overlap between the two major American political parties' positions during this period, according to this section?",
+      "choices": [
+        "Declining overlap or common ground between the two parties' positions compared to earlier in the twentieth century.",
+        "Increasing overlap and common ground between the two parties.",
+        "No change in the level of overlap between the two parties.",
+        "This section makes no claim about any trend in party overlap."
+      ],
+      "correct": 0,
+      "explanation": "This section describes declining overlap or common ground between the two major parties' positions compared to earlier in the twentieth century, a key feature of the described trend toward political polarization."
+    },
+    {
+      "id": "9-52",
+      "topic": "9.5 Social and Political Debates",
+      "stem": "Which prior unit in this course modeled the same 'disciplined neutrality' approach to a genuinely contested historical/historiographical question?",
+      "choices": [
+        "Period 1's treatment of Columbus's voyage.",
+        "No prior unit in this course modeled this approach.",
+        "Period 7's treatment of the atomic bomb decision's necessity.",
+        "Period 3's treatment of the Declaration of Independence."
+      ],
+      "correct": 2,
+      "explanation": "Period 7's treatment of the atomic bomb decision's necessity modeled the same disciplined neutrality approach — presenting genuine competing historiographical positions fairly without declaring one side simply, uncontestedly correct."
+    },
+    {
+      "id": "9-53",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "What triggered the 2008 financial crisis?",
+      "choices": [
+        "Risky mortgage lending practices and complex financial instruments whose risks proved poorly understood and poorly regulated.",
+        "A sudden increase in agricultural crop prices.",
+        "A foreign military invasion of the United States.",
+        "The dissolution of the Soviet Union."
+      ],
+      "correct": 0,
+      "explanation": "The 2008 financial crisis was triggered significantly by risky mortgage lending practices and complex financial instruments whose risks proved poorly understood and poorly regulated."
+    },
+    {
+      "id": "9-54",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "How does the 2008 financial crisis compare in severity to prior American economic downturns?",
+      "choices": [
+        "It had no relationship to the broader American economy.",
+        "It produced the most severe American economic downturn since the Great Depression.",
+        "It was a minor, insignificant economic event.",
+        "It was less severe than any prior recession in American history."
+      ],
+      "correct": 1,
+      "explanation": "The 2008 financial crisis produced the most severe American economic downturn since the Great Depression (Period 7), a significant and historically comparable economic event."
+    },
+    {
+      "id": "9-55",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "How did the federal government's response to the 2008 financial crisis connect to this course's recurring patterns?",
+      "choices": [
+        "It directly continued this course's recurring pattern of expanded federal economic intervention during major crises, paralleling the New Deal and wartime mobilization.",
+        "It had no relationship to any prior pattern in this course.",
+        "The federal government took no action of any kind in response to the crisis.",
+        "It represented a complete reversal of every prior federal crisis response pattern."
+      ],
+      "correct": 0,
+      "explanation": "The federal government's 2008 crisis response (financial sector intervention, stimulus spending) directly continued this course's recurring pattern of expanded federal economic intervention during major crises, paralleling the New Deal's Depression response and wartime economic mobilization."
+    },
+    {
+      "id": "9-56",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "What did the Affordable Care Act (2010) represent?",
+      "choices": [
+        "A policy unrelated to healthcare.",
+        "A further, significantly contested extension of federal involvement in healthcare policy, building on but extending beyond Medicare/Medicaid.",
+        "The complete elimination of Medicare and Medicaid.",
+        "A reduction in federal healthcare involvement."
+      ],
+      "correct": 1,
+      "explanation": "The Affordable Care Act (2010) represented a further, significantly contested extension of federal involvement in healthcare policy, building on but extending beyond the earlier Medicare/Medicaid precedent established during the Great Society (Period 8)."
+    },
+    {
+      "id": "9-57",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "What movement gained significant national attention beginning in the 2010s, addressing concerns about racial disparities in criminal justice?",
+      "choices": [
+        "The Black Lives Matter movement",
+        "The Populist movement",
+        "The Anti-Imperialist League",
+        "The Farmers' Alliance"
+      ],
+      "correct": 0,
+      "explanation": "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing ongoing concerns about racial disparities in criminal justice and other areas."
+    },
+    {
+      "id": "9-58",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "How does continued 21st century civil rights and social justice activism connect to this course's broader pattern?",
+      "choices": [
+        "This activism represents an entirely unprecedented historical phenomenon with no connection to any earlier period.",
+        "This activism has no relationship to any prior period's civil rights activity.",
+        "Civil rights activism ended entirely after the 1960s with no subsequent developments.",
+        "It is consistent with this course's recurring pattern of civil rights activism evolving across periods, from Reconstruction through the Progressive Era through the 1960s Civil Rights Movement."
+      ],
+      "correct": 3,
+      "explanation": "Continued 21st century civil rights and social justice activism is consistent with this course's recurring pattern of civil rights activism evolving across multiple periods — Reconstruction, the Progressive Era, and the 1960s Civil Rights Movement all represent earlier chapters in this same continuing story."
+    },
+    {
+      "id": "9-59",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "How should this section's treatment of recent civil rights activism and its surrounding debates be approached, given this section's broader guidance?",
+      "choices": [
+        "By ignoring this topic entirely as historically insignificant.",
+        "Factually and precisely, without asserting a settled historical verdict on questions that, given their recency, remain genuinely subject to ongoing public and political debate.",
+        "With strong advocacy for one specific settled historical verdict.",
+        "By assuming universal agreement exists on every aspect of this activism and its reception."
+      ],
+      "correct": 1,
+      "explanation": "This section's own guidance specifies that recent civil rights activism and its surrounding debates should be described factually and precisely, without asserting a settled historical verdict on questions that remain genuinely subject to ongoing public and political debate, given their recency."
+    },
+    {
+      "id": "9-60",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "Why does this final unit require the most caution in this entire course about distinguishing settled fact from ongoing debate?",
+      "choices": [
+        "Caution about distinguishing fact from debate is irrelevant to historical study.",
+        "This unit covers the most recent history in the course, lacking the decades or centuries of historical distance and scholarly consensus that earlier units benefit from.",
+        "Every fact in this unit is equally well-established as facts from Period 1.",
+        "This unit requires the LEAST caution of any unit in the course."
+      ],
+      "correct": 1,
+      "explanation": "This final unit requires the most caution because it covers the most recent history in the entire course, lacking the decades or centuries of historical distance and scholarly consensus that earlier units (like Period 1, covering events from over 500 years ago) benefit from."
+    },
+    {
+      "id": "9-61",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "List two prior examples from this course of major crises prompting expanded federal government economic role, which the 2008 financial crisis response continues.",
+      "choices": [
+        "The Constitutional Convention's response to the Articles' weakness, and the New Deal's response to the Great Depression.",
+        "The Missouri Compromise and the Kansas-Nebraska Act.",
+        "The Spanish-American War and the Mexican-American War.",
+        "The First and Second Great Awakenings."
+      ],
+      "correct": 0,
+      "explanation": "The Constitutional Convention's response to the Articles of Confederation's demonstrated weakness (Period 3) and the New Deal's response to the Great Depression (Period 7) are two prior examples of major crises prompting expanded federal government economic role, a pattern the 2008 crisis response continues."
+    },
+    {
+      "id": "9-62",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "Approximately when did the Black Lives Matter movement gain significant national attention?",
+      "choices": [
+        "Beginning in the 2010s",
+        "The 1980s",
+        "The 1960s",
+        "Before 1900"
+      ],
+      "correct": 0,
+      "explanation": "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing ongoing concerns about racial disparities in areas including criminal justice."
+    },
+    {
+      "id": "9-63",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "What is one of the most significant unifying threads spanning this entire nine-period course, according to this unit's closing content?",
+      "choices": [
+        "A consistent, unbroken decline in federal government power across all nine periods.",
+        "A complete absence of any recurring pattern across the course's nine periods.",
+        "No connection exists between any of this course's nine periods.",
+        "Major crises repeatedly prompting significant, often lasting expansion of federal government economic role and capacity."
+      ],
+      "correct": 3,
+      "explanation": "According to this unit's closing content, one of the most significant unifying threads spanning this entire course is major crises repeatedly prompting significant, often lasting expansion of federal government economic role and capacity — from the Constitutional Convention through the New Deal, wartime mobilization, the Great Society, and the 2008 crisis response."
+    },
+    {
+      "id": "9-64",
+      "topic": "9.6 21st Century Challenges",
+      "stem": "Why is the 2008 financial crisis a fitting topic to close out this course's coverage of expanding federal government power?",
+      "choices": [
+        "Federal government power played no role in the 2008 crisis response.",
+        "It has no relationship to this recurring theme.",
+        "It represents a complete reversal of every pattern this course has traced.",
+        "It represents the most recent, and one of the clearest, examples of this course's multi-century pattern of federal crisis response, directly connecting the course's earliest and most recent periods."
+      ],
+      "correct": 3,
+      "explanation": "The 2008 financial crisis is a fitting closing topic because it represents the most recent, clearest example of this course's multi-century pattern of federal crisis response — directly connecting this course's earliest periods (the Constitutional Convention's response to the Articles' weakness) to its most recent history."
+    },
+    {
+      "id": "9-65",
+      "topic": "9.6 21st Century Challenges",
+      "stretch": true,
+      "stem": "Stretch — beyond typical AP difficulty: Synthesize this ENTIRE COURSE by explaining how the pattern of 'major crisis producing expanded federal government response' first identified in Period 3 (the Constitutional Convention responding to the Articles of Confederation's weakness) recurs across at least four additional widely separated periods, and explain why recognizing this single multi-century pattern is more valuable for exam success than memorizing each individual crisis response in isolation.",
+      "choices": [
+        "No such recurring pattern exists across this course; each crisis response was entirely unique with no connection to any other.",
+        "Memorizing individual facts in isolation is always superior to recognizing recurring patterns across a course.",
+        "This pattern only appears once in the entire course, in Period 3, with no recurrence in any later period.",
+        "The pattern recurs in the New Deal's response to the Great Depression (Period 7), wartime economic mobilization in both World Wars (Periods 7–8), the Great Society's response to persistent poverty (Period 8), and the 2008 financial crisis response (Period 9) — recognizing this single recurring pattern is more valuable than memorizing each crisis in isolation because it gives you a reusable analytical framework applicable to any new crisis-response scenario a DBQ or LEQ might present, rather than requiring you to reason from scratch each time."
+      ],
+      "correct": 3,
+      "explanation": "This final, course-spanning synthesis question rewards recognizing that the 'major crisis produces expanded federal government response' pattern first identified in Period 3 recurs across the New Deal (Period 7), wartime mobilization (Periods 7-8), the Great Society (Period 8), and the 2008 financial crisis (Period 9) — five widely separated instances of the SAME underlying pattern. Recognizing this single recurring pattern is more valuable than memorizing each crisis response in isolation because it provides a REUSABLE analytical framework: when a DBQ or LEQ presents a new, unfamiliar crisis-response scenario, a student who has internalized this pattern can reason about it using an established analytical structure, rather than needing to construct an entirely new explanation from scratch — exactly the kind of transferable, course-spanning historical thinking skill this entire course, and this final synthesis question specifically, has been building toward."
+    }
+  ]
 };
 
 const FRQ_CONTENT = {
@@ -3625,7 +10654,7 @@ const FRQ_CONTENT = {
       documents: [
         { num: 1, label: "Doc 1", desc: "Excerpt from a Spanish colonial administrator's report to the crown, c. 1540, describing sharp declines in the local Native population available for encomienda labor, attributing the decline to 'the pestilence that arrived among them, against which they had no defense, striking down entire villages before our men had ever set foot there.'" },
         { num: 2, label: "Doc 2", desc: "Table (illustrative, constructed for this exercise) showing estimated Native population for a specific Caribbean island: c. 1492, estimated several hundred thousand; c. 1520, estimated under fifty thousand; c. 1550, estimated under a few thousand." },
-        { num: 3, label: "Doc 3", desc: "Excerpt from a Dominican friar's письмо (letter) to Spanish church authorities, c. 1545, describing the encomienda system's demands on Native laborers as 'a labor so unceasing and so harsh that even those the sickness spares are worked past what any body can endure.'" },
+        { num: 3, label: "Doc 3", desc: "Excerpt from a Dominican friar's letter to Spanish church authorities, c. 1545, describing the encomienda system's demands on Native laborers as 'a labor so unceasing and so harsh that even those the sickness spares are worked past what any body can endure.'" },
         { num: 4, label: "Doc 4", desc: "Excerpt from a Spanish military officer's account of the conquest of a Native settlement, c. 1521, describing armed resistance from Native warriors and noting that Native allies from a rival group made up the majority of the attacking force." },
         { num: 5, label: "Doc 5", desc: "Map (illustrative, described for this exercise) showing the spread of a major epidemic outward from an initial coastal contact point across an inland Native trade network, reaching communities that had not yet had direct contact with any European." },
         { num: 6, label: "Doc 6", desc: "Excerpt from a Native oral history account, recorded generations later, describing an epidemic that 'came before the strangers themselves reached our towns, carried, it was said, by traders who had visited villages nearer the coast.'" },
