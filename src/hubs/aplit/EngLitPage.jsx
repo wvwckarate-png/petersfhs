@@ -83,7 +83,7 @@ export default function EngLitPage() {
         if (navResult && navResult.value) {
           const nav = JSON.parse(navResult.value);
           if (nav.mode) setMode(nav.mode);
-          if (nav.unitId) setUnitId(nav.unitId);
+          if (nav.unitId && UNITS.some((u) => u.id === nav.unitId)) setUnitId(nav.unitId);
         }
       } catch (e) {}
       setNavLoaded(true);
