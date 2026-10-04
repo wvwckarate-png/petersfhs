@@ -142,7 +142,8 @@ export default function EnglishLangPage() {
 
   async function resetProgress(scopeUnitId) {
     if (scopeUnitId) {
-      const qs = QUESTIONS[scopeUnitId] || [];
+      const scopeData = QUESTIONS[scopeUnitId];
+      const qs = Array.isArray(scopeData) ? scopeData : (scopeData?.items || []);
       const idsToClear = new Set(qs.map((q) => q.id));
       const next = {};
       Object.keys(answered).forEach((k) => { if (!idsToClear.has(k)) next[k] = answered[k]; });

@@ -1,23 +1,24 @@
-import React from "react";
+import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
-import ApHubPage from "./hubs/ap/ApHubPage";
-import Physics2Page from "./hubs/physics2/Physics2Page";
-import BiologyPage from "./hubs/biology/BiologyPage";
-import ChemistryPage from "./hubs/chemistry/ChemistryPage";
-import Physics1Page from "./hubs/physics1/Physics1Page";
-import GovernmentPage from "./hubs/government/GovernmentPage";
-import EnvSciencePage from "./hubs/apes/EnvSciencePage";
-import UsHistoryPage from "./hubs/apush/USHistoryPage";
-import EnglishLangPage from "./hubs/englang/EnglishLangPage";
-import EngLitPage from "./hubs/aplit/EngLitPage";
-import SatHubPage from "./hubs/sat/SatHubPage";
-import VocabPage from "./hubs/sat/vocab/VocabPage";
-import QuestionBankPage from "./hubs/sat/vocab/QuestionBankPage";
+const ApHubPage = lazy(() => import("./hubs/ap/ApHubPage"));
+const Physics2Page = lazy(() => import("./hubs/physics2/Physics2Page"));
+const BiologyPage = lazy(() => import("./hubs/biology/BiologyPage"));
+const ChemistryPage = lazy(() => import("./hubs/chemistry/ChemistryPage"));
+const Physics1Page = lazy(() => import("./hubs/physics1/Physics1Page"));
+const GovernmentPage = lazy(() => import("./hubs/government/GovernmentPage"));
+const EnvSciencePage = lazy(() => import("./hubs/apes/EnvSciencePage"));
+const UsHistoryPage = lazy(() => import("./hubs/apush/USHistoryPage"));
+const EnglishLangPage = lazy(() => import("./hubs/englang/EnglishLangPage"));
+const EngLitPage = lazy(() => import("./hubs/aplit/EngLitPage"));
+const SatHubPage = lazy(() => import("./hubs/sat/SatHubPage"));
+const VocabPage = lazy(() => import("./hubs/sat/vocab/VocabPage"));
+const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"));
 
 export default function App() {
   return (
     <BrowserRouter>
+      <Suspense fallback={<div style={{ padding: 24 }}>Loading…</div>}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ap" element={<ApHubPage />} />
@@ -28,12 +29,13 @@ export default function App() {
         <Route path="/ap/government" element={<GovernmentPage />} />
         <Route path="/ap/environmental" element={<EnvSciencePage />} />
         <Route path="/ap/ushistory" element={<UsHistoryPage />} />
-<Route path="/ap/englang" element={<EnglishLangPage />} />
+        <Route path="/ap/englang" element={<EnglishLangPage />} />
         <Route path="/ap/englit" element={<EngLitPage />} />
         <Route path="/sat" element={<SatHubPage />} />
         <Route path="/sat/vocab" element={<VocabPage />} />
         <Route path="/sat/vocab-questions" element={<QuestionBankPage />} />
       </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }
