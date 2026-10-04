@@ -73,16 +73,16 @@ export function getEngineCSS(colors = {}) {
     .logo-mark{width:38px; height:38px; border-radius:12px; background:var(--sage-pale); display:flex; align-items:center; justify-content:center;}
     .logo-text{font-family:'Manrope',sans-serif; font-weight:800; font-size:21px; color:var(--ink);}
     .logo-tag{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:0.14em; color:var(--ink-soft); text-transform:uppercase; margin-left:4px;}
-    .hero{padding:34px 24px 26px; max-width:740px; margin:0 auto;}
+    .hero{padding:34px 20px 26px; max-width:740px; margin:0 auto;}
     .eyebrow{font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:0.16em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:10px;}
     .hero h1{font-size:34px; margin:0 0 8px; color:var(--ink); line-height:1.15;}
     .hero .sub{font-size:16px; color:var(--ink-soft); max-width:520px; margin:0 0 18px; font-family:'Nunito',sans-serif; font-weight:400;}
     .hero-pills{display:flex; gap:8px; flex-wrap:wrap;}
     .pill{font-family:'Nunito',sans-serif; font-weight:700; font-size:12.5px; background:var(--sage-pill); color:var(--sage-deep); padding:7px 15px; border-radius:100px;}
-    .toc{background:var(--card); border-radius:22px; box-shadow:var(--shadow); padding:20px 24px; margin:0 auto 34px; max-width:740px;}
+    .toc{background:var(--card); border-radius:22px; box-shadow:var(--shadow); padding:20px 24px; margin:0 auto 34px; max-width:700px;}
     .toc-label{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:0.14em; color:var(--ink-soft); text-transform:uppercase; margin-bottom:12px;}
     .toc ol{margin:0; padding:0; list-style:none; display:grid; grid-template-columns:1fr 1fr; gap:8px 20px;}
-    .toc a{color:var(--ink); text-decoration:none; font-weight:600; font-size:14.5px; display:flex; align-items:center; gap:8px; font-family:'Nunito',sans-serif;}
+    .toc a{color:var(--ink); text-decoration:none; font-weight:600; font-size:14.5px; display:flex; align-items:flex-start; line-height:1.4; gap:8px; font-family:'Nunito',sans-serif;}
     .toc a::before{content:"›"; color:var(--sage); font-weight:700; font-size:16px;}
     .toc a:hover{color:var(--sage-deep);}
     h2{font-size:24px; color:var(--ink); margin:44px 0 6px; display:flex; align-items:center; gap:10px;}
@@ -113,7 +113,8 @@ export function getEngineCSS(colors = {}) {
     .heylook .heylook-label{font-family:'Manrope',sans-serif; font-weight:800; font-size:14px; letter-spacing:0.06em; color:#FBE8C6; margin-bottom:8px; display:flex; align-items:center; gap:8px; text-transform:uppercase;}
     .heylook .heylook-label svg{flex-shrink:0;}
     .heylook p{margin:0; font-size:16.5px; line-height:1.6; color:white; font-weight:500;}
-    .heylook strong{color:#FBE8C6;}
+    .heylook strong{color:#FBE8C6 !important;}
+    .tag-label.heylook{background:rgba(255,255,255,0.16); color:#FBE8C6; padding:5px 13px; margin:0 0 10px; box-shadow:none;}
     .skillbox{background:var(--violet-pale); border-radius:18px; padding:20px 24px; margin:24px 0;}
     .skillbox p{margin:0 0 10px;}
     .worked{background:var(--sky-pale); border-radius:18px; padding:20px 24px; margin:24px 0;}
