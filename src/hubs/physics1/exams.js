@@ -145,6 +145,6 @@ const FULL_EXAMS = [EXAM_1, EXAM_2, EXAM_3, EXAM_4].map((questions, i) => ({
   questions,
 }));
 
-const EXAMS = [...FULL_EXAMS, SAMPLE_EXAM];
+const EXAMS = [SAMPLE_EXAM, ...FULL_EXAMS];
 
 export { EXAM_FORMAT, EXAMS };

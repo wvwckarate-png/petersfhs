@@ -13,6 +13,11 @@ import RichText from "./RichText";
                correct is an index (single answer) or an array of indexes (select several)
     units    – [{ id, name, weight }]
     colors   – { accent, accentDeep, pale, pill }
+    reference – optional [{ title, html }] reference sheets shown in a pop-up during the exam
+
+  Exams may also define `sets`: { [setId]: { text, figures } } — a shared stimulus shown with every
+  question whose `setId` matches (questions of a set are consecutive). A question may carry its own
+  `figures`. A figure is { svg, alt, caption? } or { table: { headers, rows }, caption? }.
 */
 
 const AP_LABELS = {
@@ -70,7 +75,71 @@ function fmtClock(totalSeconds) {
   return (h ? `${h}:` : "") + `${mm}:${String(sec).padStart(2, "0")}`;
 }
 
-export default function ExamEngine({ hubKey, format, exams, units, colors }) {
+
+// ---- figures & shared stimuli ----
+function Figure({ fig, S }) {
+  if (fig.table) {
+    const { headers = [], rows = [] } = fig.table;
+    return (
+      <figure style={S.fig}>
+        <div style={S.tableWrap}>
+          <table style={S.table}>
+            {headers.length > 0 && (
+              <thead>
+                <tr>{headers.map((h, i) => <th key={i} style={S.th}><RichText text={String(h)} /></th>)}</tr>
+              </thead>
+            )}
+            <tbody>
+              {rows.map((r, ri) => (
+                <tr key={ri}>{r.map((c, ci) => <td key={ci} style={ci === 0 ? S.tdFirst : S.td}><RichText text={String(c)} /></td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {fig.caption && <figcaption style={S.figCaption}>{fig.caption}</figcaption>}
+      </figure>
+    );
+  }
+  return (
+    <figure style={S.fig}>
+      <div
+        className="exam-fig"
+        role="img"
+        aria-label={fig.alt || "Figure"}
+        style={{ maxWidth: fig.maxWidth || 560 }}
+        dangerouslySetInnerHTML={{ __html: fig.svg }}
+      />
+      {fig.caption && <figcaption style={S.figCaption}>{fig.caption}</figcaption>}
+    </figure>
+  );
+}
+
+function Stimulus({ exam, q, S, compact }) {
+  const set = q.setId && exam.sets ? exam.sets[q.setId] : null;
+  let label = null;
+  if (set) {
+    const idx = exam.questions.map((x, i) => (x.setId === q.setId ? i + 1 : null)).filter(Boolean);
+    const first = idx[0], last = idx[idx.length - 1];
+    label = first === last ? `Question ${first} refers to the following.` : `Questions ${first}–${last} refer to the following information.`;
+  }
+  const paras = set ? (Array.isArray(set.text) ? set.text : set.text ? [set.text] : []) : [];
+  const figs = set ? set.figures || [] : [];
+  if (!set) return null;
+  return (
+    <div style={compact ? S.stimCompact : S.stim}>
+      <div style={S.stimLabel}>{label}</div>
+      {paras.map((t, i) => <p key={i} style={S.stimText}><RichText text={t} /></p>)}
+      {figs.map((f, i) => <Figure key={i} fig={f} S={S} />)}
+    </div>
+  );
+}
+
+function QuestionFigures({ q, S }) {
+  if (!q.figures || !q.figures.length) return null;
+  return <>{q.figures.map((f, i) => <Figure key={i} fig={f} S={S} />)}</>;
+}
+
+export default function ExamEngine({ hubKey, format, exams, units, colors, reference }) {
   const STORE_KEY = `${hubKey}-exams-v1`;
   const [store, setStore] = useState({}); // { [examId]: record }
   const [loaded, setLoaded] = useState(false);
@@ -79,6 +148,7 @@ export default function ExamEngine({ hubKey, format, exams, units, colors }) {
   const [timerChoice, setTimerChoice] = useState(true);
   const [reportFilter, setReportFilter] = useState("missed");
   const [elapsed, setElapsed] = useState(0);
+  const [refTab, setRefTab] = useState(0);
 
   const storeRef = useRef(store);
   storeRef.current = store;
@@ -372,6 +442,9 @@ export default function ExamEngine({ hubKey, format, exams, units, colors }) {
               {rec.timerOn ? fmtClock(remaining) : fmtClock(elapsed)}
               <span style={S.clockTag}>{rec.timerOn ? "left" : "elapsed"}</span>
             </div>
+            {reference && reference.length > 0 && (
+              <button style={S.ghostBtn} onClick={() => setModal({ kind: "reference", examId: exam.id })}>Reference</button>
+            )}
             <button style={S.ghostBtn} onClick={() => saveAndExit(exam.id)}>Save &amp; exit</button>
           </div>
         </div>
@@ -389,7 +462,9 @@ export default function ExamEngine({ hubKey, format, exams, units, colors }) {
               </button>
             </div>
 
+            <Stimulus exam={exam} q={q} S={S} />
             <p style={S.stem}><RichText text={q.stem} /></p>
+            <QuestionFigures q={q} S={S} />
             {multi && <div style={S.multiNote}>Select {q.correct.length} answers.</div>}
 
             <div style={S.choices} role={multi ? "group" : "radiogroup"} aria-label="Answer choices">
@@ -556,7 +631,9 @@ export default function ExamEngine({ hubKey, format, exams, units, colors }) {
               {ok ? "Correct" : answered ? "Incorrect" : "Unanswered"}
             </span>
           </div>
+          <Stimulus exam={exam} q={q} S={S} compact />
           <p style={S.stem}><RichText text={q.stem} /></p>
+          <QuestionFigures q={q} S={S} />
           <div style={S.choices}>
             {q.choices.map((c, idx) => {
               const correctChoice = isMulti(q) ? q.correct.includes(idx) : q.correct === idx;
@@ -599,6 +676,29 @@ export default function ExamEngine({ hubKey, format, exams, units, colors }) {
     const answers = r.answers || {};
     const unanswered = ex.questions.filter((x) => !isAnswered(x, answers[x.id])).length;
     const flaggedCount = Object.keys(r.flags || {}).length;
+
+    if (modal.kind === "reference") {
+      const sec = reference[Math.min(refTab, reference.length - 1)];
+      return (
+        <div style={S.backdrop} onClick={() => setModal(null)}>
+          <div style={S.refModal} role="dialog" aria-modal="true" aria-label="Reference sheet" onClick={(e) => e.stopPropagation()}>
+            <div style={S.refHead}>
+              <div style={S.refTitle}>Reference sheet</div>
+              <button style={S.ghostBtn} onClick={() => setModal(null)}>Close</button>
+            </div>
+            {reference.length > 1 && (
+              <div style={S.refTabs}>
+                {reference.map((r, i) => (
+                  <button key={i} onClick={() => setRefTab(i)} style={{ ...S.filterBtn, ...(i === refTab ? S.filterOn : {}) }}>{r.title}</button>
+                ))}
+              </div>
+            )}
+            <div className="exam-ref" style={S.refBody} dangerouslySetInnerHTML={{ __html: sec.html }} />
+            <p style={S.refNote}>A study aid that mirrors the reference materials provided on the real exam. Check it against the official version before exam day.</p>
+          </div>
+        </div>
+      );
+    }
 
     let body;
     if (modal.kind === "start") {
@@ -672,6 +772,15 @@ const layoutCss = `
     .exam-layout{ grid-template-columns: minmax(0,1fr); }
     .exam-layout aside{ position:static; }
   }
+  .exam-fig svg{ width:100%; height:auto; display:block; }
+  @media (max-width: 520px){ .exam-fig{ overflow-x:auto; } .exam-fig svg{ min-width:440px; } }
+  .exam-ref{ font-size:14.5px; line-height:1.55; }
+  .exam-ref h4{ font-family:'Manrope',sans-serif; font-size:15px; margin:16px 0 6px; }
+  .exam-ref table{ border-collapse:collapse; width:100%; margin:6px 0 10px; }
+  .exam-ref th, .exam-ref td{ border:1px solid #E2E0D8; padding:4px 8px; text-align:left; vertical-align:top; }
+  .exam-ref th{ background:#F5F4EE; }
+  .exam-ref .pt td{ text-align:center; padding:3px 2px; font-size:11px; min-width:34px; }
+  .exam-ref .pt .sym{ font-weight:800; font-size:13px; display:block; }
   .exam-choice:hover{ border-color: var(--sage-pill) !important; background: var(--sage-pale) !important; cursor:pointer; }
 `;
 
@@ -788,6 +897,23 @@ function makeStyles(C) {
     modalText: { fontSize: 15, lineHeight: 1.6, color: "#3C423A", margin: "0 0 12px" },
     modalHint: { fontSize: 13, color: "#767F73", margin: "0 0 14px" },
     modalBtns: { display: "flex", justifyContent: "flex-end", gap: 10, flexWrap: "wrap" },
+    fig: { margin: "14px 0", padding: 0 },
+    figCaption: { fontSize: 12.5, color: "#767F73", marginTop: 6 },
+    tableWrap: { overflowX: "auto" },
+    table: { borderCollapse: "collapse", fontSize: 14, minWidth: 240 },
+    th: { background: C.pale, border: "1px solid #D8D6CE", padding: "6px 12px", textAlign: "left", fontWeight: 700 },
+    td: { border: "1px solid #E2E0D8", padding: "6px 12px" },
+    tdFirst: { border: "1px solid #E2E0D8", padding: "6px 12px", fontWeight: 700, background: "#FBFAF6" },
+    stim: { background: "#FBFAF6", border: "1px solid #E7E4DA", borderRadius: 14, padding: "12px 16px", margin: "14px 0 6px" },
+    stimCompact: { background: "#FBFAF6", border: "1px solid #E7E4DA", borderRadius: 12, padding: "10px 14px", margin: "12px 0 4px" },
+    stimLabel: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase", color: "#767F73", marginBottom: 6 },
+    stimText: { fontSize: 15, lineHeight: 1.6, margin: "0 0 8px" },
+    refModal: { background: "#fff", borderRadius: 18, padding: "18px 22px", maxWidth: 820, width: "100%", maxHeight: "86vh", display: "flex", flexDirection: "column", boxShadow: "0 20px 60px rgba(0,0,0,0.25)" },
+    refHead: { display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 8 },
+    refTitle: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 19 },
+    refTabs: { display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 8 },
+    refBody: { overflowY: "auto", flex: 1, paddingRight: 4 },
+    refNote: { fontSize: 12, color: "#9AA096", margin: "8px 0 0" },
     checkRow: { display: "flex", gap: 10, alignItems: "center", fontSize: 15, fontWeight: 700, margin: "6px 0 6px", cursor: "pointer" },
   };
 }

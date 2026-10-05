@@ -3,11 +3,15 @@ import { storage } from "../../lib/storage";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
+import ExamEngine from "../shared/ExamEngine";
+import { EXAM_FORMAT, EXAMS, REFERENCE } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 
 const PHYSICS2_COLORS = {
   sage: "#7C9B72", sageDeep: "#5E7A55", sagePale: "#EAF1E6", sagePill: "#DCEAD5",
 };
+
+const EXAM_COLORS = { accent: "#7C9B72", accentDeep: "#5E7A55", pale: "#EAF1E6", pill: "#DCEAD5" };
 
 const MCQ_STORAGE_KEY = "physics2-hub-mcq-progress-v1";
 const NAV_STORAGE_KEY = "physics2-hub-last-nav-v1";
@@ -16,6 +20,7 @@ const MODES = [
   { id: "study", label: "Study Guides" },
   { id: "mcq", label: "MCQ Practice" },
   { id: "frq", label: "FRQ Practice" },
+  { id: "exams", label: "MCQ Exams" },
   { id: "dashboard", label: "Dashboard" },
 ];
 
@@ -42,6 +47,15 @@ function ModeIcon({ id, size = 16 }) {
       <svg {...common}>
         <path d="M4.5 19.5L5.2 16.1L15.8 5.5C16.4 4.9 17.3 4.9 17.9 5.5L18.5 6.1C19.1 6.7 19.1 7.6 18.5 8.2L7.9 18.8L4.5 19.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M14.3 6.9L17.1 9.7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (id === "exams") {
+    return (
+      <svg {...common}>
+        <rect x="5" y="4.5" width="14" height="16" rx="2.2" stroke="currentColor" strokeWidth="1.7"/>
+        <path d="M9 4.5V3.5H15V4.5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M8.5 10H15.5M8.5 13.5H15.5M8.5 17H12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     );
   }
@@ -624,6 +638,10 @@ export default function Physics2Page() {
                 </div>
               )}
             </div>
+          )}
+
+          {mode === "exams" && (
+            <ExamEngine hubKey="physics2" format={EXAM_FORMAT} exams={EXAMS} units={UNITS} colors={EXAM_COLORS} reference={REFERENCE} />
           )}
 
           {mode === "dashboard" && (
