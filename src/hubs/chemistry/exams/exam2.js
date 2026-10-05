@@ -58,10 +58,10 @@ const EXAM = {
    "unit": 3,
    "stem": "At very high pressures, real gases show deviations from ideal behavior. Which statement best explains these deviations?",
    "choices": [
-    "The volume of the gas molecules themselves is no longer negligible compared with the volume of the container.",
-    "The molecules stop moving, so the kinetic molecular theory no longer applies.",
-    "The temperature of the gas decreases, so the molecules attract each other less.",
-    "The molecules collide with each other less often."
+    "The volume of the molecules is no longer negligible compared with the container's volume.",
+    "The molecules stop moving, so the kinetic molecular theory no longer applies to them.",
+    "The temperature of the gas decreases, so the molecules attract each other less strongly.",
+    "The molecules collide with each other less often, so the gas behaves less like an ideal gas."
    ],
    "correct": 0,
    "explanation": "The ideal gas model assumes the molecules have negligible volume and no attractions. At high pressure the molecules are squeezed close together, so their own volume becomes a significant part of the total volume and attractions between them become more important."
@@ -309,10 +309,10 @@ const EXAM = {
    "unit": 3,
    "stem": "Water has a much higher surface tension than hexane (C₆H₁₄). Which statement best explains this?",
    "choices": [
-    "Water molecules are held together by hydrogen bonds, which are stronger than the dispersion forces between hexane molecules.",
-    "Water molecules have a larger electron cloud than hexane molecules.",
-    "Water molecules are nonpolar, so they are pulled strongly toward each other.",
-    "The covalent bonds in water are stronger than the covalent bonds in hexane."
+    "Water molecules are held by hydrogen bonds, which are stronger than hexane's dispersion forces.",
+    "Water molecules have a much larger electron cloud than the molecules of hexane do.",
+    "Water molecules are nonpolar, so they are pulled strongly toward one another at the surface.",
+    "The covalent bonds within water molecules are stronger than those within hexane molecules."
    ],
    "correct": 0,
    "explanation": "Surface tension reflects the strength of the attractions between molecules at the surface. Water molecules form hydrogen bonds with each other, which are much stronger than the London dispersion forces that hold hexane molecules together. The bonds within the molecules are not what is overcome."
@@ -374,10 +374,10 @@ const EXAM = {
    "unit": 9,
    "stem": "A reaction has ΔH > 0 and ΔS > 0. Under what conditions is the reaction spontaneous?",
    "choices": [
-    "At high temperatures, because the −TΔS term becomes more negative than ΔH is positive.",
-    "At all temperatures, because ΔS is positive.",
-    "At low temperatures, because the reaction absorbs energy.",
-    "At no temperature, because ΔH is positive."
+    "At high temperatures, where the −TΔS term outweighs the positive ΔH",
+    "At all temperatures, because ΔS is positive for the reaction",
+    "At low temperatures, because the reaction absorbs energy from its surroundings",
+    "At no temperature, because ΔH is positive for the reaction"
    ],
    "correct": 0,
    "explanation": "Spontaneity requires ΔG = ΔH − TΔS < 0. With ΔH > 0, the −TΔS term must outweigh ΔH, which happens when T is large enough. At low temperature the positive ΔH dominates and the reaction is nonspontaneous."
@@ -601,10 +601,10 @@ const EXAM = {
    "unit": 1,
    "stem": "Which of the following correctly compares the first ionization energies of beryllium and boron?",
    "choices": [
-    "Boron has the higher first ionization energy, because it has more protons than beryllium.",
-    "Boron has the higher first ionization energy, because its atoms are smaller than beryllium atoms.",
-    "Beryllium has the higher first ionization energy, because its outermost electron is in a 2s subshell, which is lower in energy than the 2p subshell of boron.",
-    "The two elements have equal first ionization energies, because they are in the same period."
+    "Boron is higher, because it has more protons than beryllium has.",
+    "Boron is higher, because its atoms are smaller than beryllium atoms are.",
+    "Beryllium is higher, because its outer electron is in a lower-energy 2s subshell.",
+    "The two are equal, because both elements are in the same period."
    ],
    "correct": 2,
    "explanation": "The 2p electron that boron loses is higher in energy and is partially shielded by the 2s electrons, so it is easier to remove than beryllium's 2s electron, even though boron has the larger nuclear charge. This is a well-known exception to the general trend across a period."

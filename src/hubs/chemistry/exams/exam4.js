@@ -231,10 +231,10 @@ const EXAM = {
    "unit": 3,
    "stem": "In a paper chromatography experiment, a nonpolar compound travels farther up the paper (greater R_f) than a polar compound when a nonpolar solvent is used with a polar paper. Which statement best explains this?",
    "choices": [
-    "The nonpolar compound is attracted more strongly to the polar paper.",
-    "The polar compound is more soluble in the nonpolar solvent.",
-    "The compounds move at the same rate, but the nonpolar compound is lighter.",
-    "The polar compound is attracted more strongly to the polar paper, so it moves more slowly with the solvent."
+    "The nonpolar compound is attracted more strongly to the polar paper than the polar compound is.",
+    "The polar compound is more soluble in the nonpolar solvent, so it travels the farthest.",
+    "The compounds move at the same rate, but the nonpolar compound is the lighter one.",
+    "The polar compound sticks more strongly to the polar paper, so it moves more slowly."
    ],
    "correct": 3,
    "explanation": "The paper (stationary phase) is polar, so polar compounds stick to it more strongly and spend less time dissolved in the moving nonpolar solvent. They travel a shorter distance, while nonpolar compounds are carried farther by the solvent."
@@ -244,10 +244,10 @@ const EXAM = {
    "unit": 2,
    "stem": "Lithium fluoride, LiF, has a much higher melting point than cesium iodide, CsI. Which statement best explains this?",
    "choices": [
-    "The Li⁺ and F⁻ ions are smaller, so the distance between the ions is smaller and the Coulombic attraction is stronger.",
-    "LiF has covalent bonds, and CsI has ionic bonds.",
-    "The ions in CsI have greater charges than the ions in LiF.",
-    "LiF has stronger London dispersion forces than CsI."
+    "The Li⁺ and F⁻ ions are smaller, so the Coulombic attraction between them is stronger.",
+    "LiF has covalent bonds between its atoms, while CsI has ionic bonds between its ions.",
+    "The ions in CsI have greater charges than the ions in LiF, so CsI holds together more strongly.",
+    "LiF has much stronger London dispersion forces than CsI because it has more electrons."
    ],
    "correct": 0,
    "explanation": "Both compounds are made of ions with charges of +1 and −1, so the difference is in the ion sizes. Smaller ions can approach one another more closely, and by Coulomb's law the attractive force increases as the distance decreases. LiF therefore has the greater lattice energy and the higher melting point."
@@ -285,10 +285,10 @@ const EXAM = {
    "unit": 3,
    "stem": "The boiling points of the noble gases increase from helium (−269 °C) to xenon (−108 °C). Which statement best explains this trend?",
    "choices": [
-    "The London dispersion forces increase as the atoms get larger and have more electrons.",
-    "The dipole–dipole forces increase as the atomic number increases.",
-    "The noble gas atoms form stronger covalent bonds as they get larger.",
-    "The hydrogen bonding increases down the group."
+    "The London dispersion forces increase as the atoms get larger with more electrons.",
+    "The dipole–dipole forces increase as the atomic number of the noble gas increases.",
+    "The atoms form stronger covalent bonds with each other as the atoms get larger.",
+    "The hydrogen bonding between the atoms increases going down the group."
    ],
    "correct": 0,
    "explanation": "The noble gases are nonpolar atoms, so the only attractions between them are London dispersion forces. Larger atoms have more electrons and are more polarizable, so the dispersion forces and the boiling points are greater."
@@ -365,10 +365,10 @@ const EXAM = {
    "unit": 1,
    "stem": "The radius of the Li⁺ ion is much smaller than the radius of the Li atom. Which statement best explains this?",
    "choices": [
-    "Li⁺ has lost its outer 2s electron, leaving only the 1s electrons that are held more tightly, and the same nuclear charge now attracts fewer electrons.",
-    "Li⁺ has more protons than Li, so the nuclear charge is greater.",
-    "The Li⁺ ion has a larger number of electrons than the Li atom.",
-    "The 1s electrons in Li⁺ are less strongly attracted to the nucleus."
+    "The outer 2s electron is removed, leaving only the more tightly held 1s electrons.",
+    "Li⁺ has more protons than the Li atom, so the nuclear charge is greater.",
+    "The Li⁺ ion has a larger number of electrons than the neutral Li atom has.",
+    "The 1s electrons in Li⁺ are less strongly attracted to the nucleus than before."
    ],
    "correct": 0,
    "explanation": "When Li loses its valence electron from the 2s subshell, the outermost shell is removed entirely. The remaining two 1s electrons are in a smaller shell and are pulled in by the same nuclear charge (3+), so the ion is much smaller."
@@ -539,10 +539,10 @@ const EXAM = {
    "unit": 5,
    "stem": "According to collision theory, which of the following best explains why increasing the concentration of the reactants usually increases the reaction rate?",
    "choices": [
-    "The activation energy of the reaction decreases.",
-    "Each collision has more energy.",
-    "The rate constant increases.",
-    "The molecules collide more frequently, so more effective collisions occur per unit time."
+    "The activation energy of the reaction decreases when the concentration rises.",
+    "Each collision releases more energy when the reactants are more concentrated.",
+    "The rate constant increases whenever the concentration of a reactant is raised.",
+    "The molecules collide more often, so more effective collisions occur each second."
    ],
    "correct": 3,
    "explanation": "A higher concentration puts more molecules in a given volume, so collisions are more frequent. The fraction of collisions with enough energy and the correct orientation does not change, but the number of effective collisions per second increases. The rate constant and activation energy depend on temperature and catalysts, not concentration."
@@ -775,10 +775,10 @@ const EXAM = {
    "setId": "ce4-set7",
    "stem": "How does the pH at the equivalence point compare with 7, and why?",
    "choices": [
-    "It is equal to 7, because the acid and base are present in equal amounts.",
-    "It is less than 7, because HF is an acid.",
-    "It is greater than 7, because excess NaOH is present.",
-    "It is greater than 7, because F⁻ is the conjugate base of a weak acid and reacts with water to produce OH⁻."
+    "Equal to 7, because the acid and the base are present in equal amounts",
+    "Less than 7, because the solution began as a solution of the acid HF",
+    "Greater than 7, because excess NaOH remains in solution at that point",
+    "Greater than 7, because F⁻ is a weak acid's conjugate base and produces OH⁻"
    ],
    "correct": 3,
    "explanation": "At the equivalence point the solution contains F⁻, the conjugate base of a weak acid, which hydrolyzes: F⁻ + H₂O ⇌ HF + OH⁻. The solution is therefore basic, with a pH greater than 7."

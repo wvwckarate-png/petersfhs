@@ -39,10 +39,10 @@ const EXAM = {
    "unit": 9,
    "stem": "An ideal gas expands rapidly in an insulated cylinder, so that no heat flows into or out of the gas. What happens to the temperature of the gas?",
    "choices": [
-    "It decreases, because the gas does work on its surroundings at the expense of its internal energy.",
-    "It increases, because the gas has more room to move.",
-    "It stays the same, because no heat is exchanged.",
-    "It cannot be determined without knowing the initial pressure."
+    "It decreases, because the gas does work at the expense of its internal energy.",
+    "It increases, because the gas has more room in which to move around.",
+    "It stays the same, because no heat is exchanged with the surroundings.",
+    "It cannot be determined without knowing the initial pressure of the gas."
    ],
    "correct": 0,
    "explanation": "With Q = 0, the first law gives ΔU = −W_by. The expanding gas does positive work on its surroundings, so its internal energy decreases, and for an ideal gas this means the temperature falls."

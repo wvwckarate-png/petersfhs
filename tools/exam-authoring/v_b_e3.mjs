@@ -1,0 +1,17 @@
+export default [
+  ["How many fatty acid molecules are released", 3],
+  ["Calculate the water potential of a plant cell", -0.25],
+  ["How many molecules of NADH are produced by glycolysis", 2],
+  ["chromatids are in a human somatic cell at metaphase", 92],
+  ["2n = 6 chromosomes", 8],
+  ["probability that a son of this couple will have hemophilia", 0.5],
+  ["probability that III-2 is a carrier", 0.5],
+  ["all three traits", 27/64],
+  ["How many different codons are possible", 64],
+  ["How many fragments are produced", 3],
+  ["approximate frequency of carriers", 0.02],
+  ["300 plants in Hardy–Weinberg equilibrium", 144],
+  ["net primary productivity (NPP)", 8000],
+  ["How many times greater is the concentration of the pesticide", 625],
+  ["estimated size of the fish population", 200],
+];

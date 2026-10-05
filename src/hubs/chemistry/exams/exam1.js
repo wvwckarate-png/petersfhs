@@ -73,10 +73,10 @@ const EXAM = {
    "unit": 6,
    "stem": "A solid is heated at a constant rate and its temperature stays constant for several minutes while it melts. Which statement best explains why the temperature does not rise?",
    "choices": [
-    "The thermal energy added is used to overcome attractions between particles, increasing their potential energy.",
-    "The thermal energy added is converted into the kinetic energy of the particles.",
-    "The thermal energy added is lost to the surroundings.",
-    "The particles stop moving while the solid melts."
+    "The energy added overcomes attractions between particles, raising their potential energy.",
+    "The energy added is converted into the average kinetic energy of the particles.",
+    "The energy added is lost to the surroundings as heat while the solid melts.",
+    "The particles stop moving entirely while the solid is melting into a liquid."
    ],
    "correct": 0,
    "explanation": "During a phase change the temperature, which measures the average kinetic energy of the particles, stays constant. The energy added goes into increasing the potential energy of the particles as the attractions between them are overcome."
@@ -168,10 +168,10 @@ const EXAM = {
    "setId": "ce1-set3",
    "stem": "Which bond has the greater bond length?",
    "choices": [
-    "Cl–Cl, because the minimum of its curve occurs at a greater internuclear distance.",
-    "H–H, because the minimum of its curve is at lower energy.",
-    "The bond lengths are equal, because both are single bonds.",
-    "H–H, because its curve rises more steeply at short distances."
+    "Cl–Cl, because the minimum of its curve is at the greater internuclear distance.",
+    "H–H, because the minimum of its curve is at the lower potential energy.",
+    "The bond lengths are equal, because both of the bonds are single bonds.",
+    "H–H, because its curve rises more steeply at short internuclear distances."
    ],
    "correct": 0,
    "explanation": "The bond length is the internuclear distance at the minimum of the potential energy curve. The Cl–Cl minimum is at about 199 pm and the H–H minimum is at about 74 pm, so the Cl–Cl bond is longer. Chlorine atoms are larger than hydrogen atoms."
@@ -181,10 +181,10 @@ const EXAM = {
    "unit": 1,
    "stem": "Which of the following correctly compares the atomic radii of magnesium and chlorine?",
    "choices": [
-    "Chlorine has the larger radius, because it has more electrons than magnesium.",
+    "Chlorine has the larger radius, because it has more electrons than magnesium has.",
     "Chlorine has the larger radius, because it has a greater nuclear charge than magnesium.",
-    "The two atoms have equal radii, because they are in the same period.",
-    "Magnesium has the larger radius, because it has fewer protons attracting electrons in the same principal energy level."
+    "The two atoms have equal radii, because they are in the same period of the table.",
+    "Magnesium has the larger radius, because it has fewer protons pulling on the same shell."
    ],
    "correct": 3,
    "explanation": "Mg and Cl are both in the third period, so their valence electrons are in the same energy level and shielding is similar. Chlorine has 17 protons and magnesium has 12, so chlorine's valence electrons feel a greater effective nuclear charge and are pulled closer. The radius therefore decreases from left to right across a period."
@@ -463,10 +463,10 @@ const EXAM = {
    "setId": "ce1-set7",
    "stem": "Why does the 1s peak occur at a much greater binding energy than the 2p peak?",
    "choices": [
-    "The 1s electrons are farther from the nucleus, so they are held more tightly.",
-    "The 1s subshell contains more electrons than the 2p subshell.",
-    "The 1s electrons are shielded from the nucleus by the 2p electrons.",
-    "The 1s electrons are closer to the nucleus and experience a greater effective nuclear charge, so more energy is needed to remove them."
+    "The 1s electrons are farther from the nucleus, so they are held more tightly by it.",
+    "The 1s subshell holds more electrons than the 2p subshell does, so it binds more.",
+    "The 1s electrons are shielded from the nucleus by the electrons in the 2p subshell.",
+    "The 1s electrons are closer to the nucleus and feel a greater effective nuclear charge."
    ],
    "correct": 3,
    "explanation": "Binding energy depends on how strongly an electron is attracted to the nucleus. 1s electrons are the closest to the nucleus and are shielded the least, so they feel the greatest effective nuclear charge and require the most energy to remove. Inner electrons shield outer ones, not the reverse."

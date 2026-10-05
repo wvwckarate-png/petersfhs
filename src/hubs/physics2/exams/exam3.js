@@ -359,10 +359,10 @@ const EXAM = {
    "unit": 12,
    "stem": "A strong bar magnet is dropped through a long vertical copper tube. Compared with a nonmagnetic object of the same mass, the magnet falls slowly. Which explanation is correct?",
    "choices": [
-    "The changing magnetic flux induces currents in the tube, and by Lenz's law the magnetic force from those currents opposes the magnet's motion.",
-    "The copper is attracted to the magnet, and this attractive force supports part of the magnet's weight.",
+    "Induced currents in the tube create a magnetic force that opposes the magnet's motion (Lenz's law).",
+    "The copper is attracted to the magnet, and this attraction supports part of its weight.",
     "Copper is a ferromagnetic material, so the magnet is held back by magnetic friction.",
-    "The magnet loses its magnetization as it falls, which reduces its mass."
+    "The magnet loses its magnetization as it falls, which reduces its mass and its weight."
    ],
    "correct": 0,
    "explanation": "As the magnet falls, the magnetic flux through each section of the tube changes. This induces circulating (eddy) currents in the copper, and by Lenz's law the magnetic field of these currents opposes the change, which exerts an upward force on the magnet. Copper is not ferromagnetic, so there is no attraction in the absence of motion."

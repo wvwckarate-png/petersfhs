@@ -71,9 +71,9 @@ const EXAM = {
    "unit": 13,
    "stem": "White light passes through a glass prism and spreads into a spectrum of colors. Which statement explains why violet light is bent more than red light?",
    "choices": [
-    "Violet light has a lower frequency than red light.",
-    "Violet light travels faster in glass than red light does.",
-    "The prism adds energy to the violet light.",
+    "Violet light has a lower frequency than red light, so it is slowed more in glass.",
+    "Violet light travels faster in glass than red light does, so it is bent more.",
+    "The prism adds extra energy to the violet light as the light passes through it.",
     "The index of refraction of glass is greater for violet light than for red light."
    ],
    "correct": 3,
@@ -538,10 +538,10 @@ const EXAM = {
    "unit": 9,
    "stem": "When liquid water freezes in a freezer, the entropy of the water decreases. Why is this consistent with the second law of thermodynamics?",
    "choices": [
-    "The heat released to the surroundings increases the entropy of the surroundings by more than the water's entropy decreases.",
-    "The second law applies only to gases, not to liquids and solids.",
-    "The water's entropy does not actually decrease, because the molecules become more ordered.",
-    "The second law is violated, but only briefly while the water freezes."
+    "The heat released to the surroundings raises their entropy by more than the water's entropy falls.",
+    "The second law applies only to gases and does not apply to liquids and solids.",
+    "The water's entropy does not actually decrease, because its molecules become more ordered.",
+    "The second law is violated, but only for a brief time while the water freezes."
    ],
    "correct": 0,
    "explanation": "The second law requires the total entropy of an isolated system (here, the water plus its surroundings) not to decrease. As the water freezes, it releases heat to the colder surroundings, increasing their entropy by more than the water's entropy falls. The total entropy therefore increases, even though the water's entropy decreases."

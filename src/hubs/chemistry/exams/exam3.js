@@ -208,10 +208,10 @@ const EXAM = {
    "unit": 3,
    "stem": "Solid water (ice) is less dense than liquid water. Which statement best explains this?",
    "choices": [
-    "Ice molecules are lighter than liquid water molecules.",
-    "Ice has weaker hydrogen bonds than liquid water, so its molecules are farther apart.",
-    "The molecules of ice move faster, so they take up more room.",
-    "In ice, hydrogen bonding holds the molecules in an open lattice with more space between them than in the liquid."
+    "Ice molecules are lighter than the molecules of liquid water, so ice is less dense",
+    "Ice has weaker hydrogen bonds than liquid water, so its molecules are farther apart",
+    "The molecules in ice move faster than in the liquid, so they take up more room",
+    "In ice, hydrogen bonds hold the molecules in an open lattice with extra space between them"
    ],
    "correct": 3,
    "explanation": "In ice, each water molecule is hydrogen-bonded to four neighbors in a rigid, open hexagonal arrangement. When ice melts, some hydrogen bonds break and the molecules pack more closely, so the liquid is denser."
@@ -221,10 +221,10 @@ const EXAM = {
    "unit": 5,
    "stem": "Reaction 1 has an activation energy of 50 kJ/mol and reaction 2 has an activation energy of 100 kJ/mol. The reactions have similar frequency factors and take place at the same temperature. Which statement is correct?",
    "choices": [
-    "Reaction 1 has the larger rate constant, because a smaller fraction of molecules must have energy greater than a lower activation energy barrier.",
+    "Reaction 1 has the larger rate constant, because a lower barrier lets more molecules react.",
     "Reaction 2 has the larger rate constant, because its activation energy is greater.",
-    "The two reactions have the same rate constant, because the temperature is the same.",
-    "Reaction 2 is faster because it is more exothermic."
+    "The reactions have the same rate constant, because the temperature is the same for both.",
+    "Reaction 2 is faster, because it is more exothermic than reaction 1 and so releases more energy."
    ],
    "correct": 0,
    "explanation": "By the Arrhenius equation, k = Ae^(−Ea/RT), a lower activation energy gives a larger rate constant at the same temperature, because a larger fraction of the molecules have enough energy to react."
@@ -260,10 +260,10 @@ const EXAM = {
    "unit": 7,
    "stem": "A catalyst is added to a reaction mixture that is at equilibrium at constant temperature. Which statement is correct?",
    "choices": [
-    "The equilibrium position does not change, because the catalyst speeds up the forward and reverse reactions equally.",
-    "The equilibrium shifts toward the products, because the forward reaction is faster.",
-    "The value of K increases, because the activation energy is lower.",
-    "The equilibrium shifts toward the reactants, because the catalyst is consumed."
+    "The equilibrium position does not change, because both reactions speed up equally",
+    "The equilibrium shifts toward the products, because the forward reaction becomes faster",
+    "The value of K increases, because the activation energy of the reaction is lower",
+    "The equilibrium shifts toward the reactants, because the catalyst is used up in the reaction"
    ],
    "correct": 0,
    "explanation": "A catalyst lowers the activation energy of both the forward and reverse reactions by the same amount, so both rates increase equally. The system reaches equilibrium faster, but the equilibrium concentrations and the value of K do not change."
@@ -274,10 +274,10 @@ const EXAM = {
    "setId": "ce3-set4",
    "stem": "What does the triple point of the substance represent?",
    "choices": [
-    "The highest temperature at which the liquid can exist",
-    "The temperature at which the vapor pressure equals the atmospheric pressure",
-    "The point at which the solid melts at 1 atm",
-    "The one temperature and pressure at which the solid, liquid, and gas phases are all in equilibrium"
+    "The highest temperature at which the liquid phase of the substance can exist",
+    "The temperature at which the vapor pressure equals the external atmospheric pressure",
+    "The point at which the solid melts when the pressure is exactly one atmosphere",
+    "The one temperature and pressure at which all three phases are in equilibrium"
    ],
    "correct": 3,
    "explanation": "The triple point is the unique combination of temperature and pressure at which all three phases coexist in equilibrium. The highest temperature at which a liquid can exist is the critical point."
@@ -446,10 +446,10 @@ const EXAM = {
    "unit": 2,
    "stem": "Metals can be hammered into thin sheets without breaking, whereas ionic crystals shatter when struck. Which statement best explains the behavior of metals?",
    "choices": [
-    "The positive metal ions are surrounded by delocalized electrons, so layers can slide past each other without breaking the bonding.",
-    "The metal atoms are held together by strong covalent bonds that can bend.",
-    "The metal atoms transfer electrons to each other when struck.",
-    "The metal atoms form a network that is held by weak London dispersion forces."
+    "Positive ions in a sea of delocalized electrons let layers slide without breaking bonds",
+    "The metal atoms are held together by strong, directional covalent bonds that can bend",
+    "The metal atoms transfer electrons to each other whenever the sheet is struck",
+    "The metal atoms form a network held together only by weak London dispersion forces"
    ],
    "correct": 0,
    "explanation": "In metallic bonding, the valence electrons are delocalized in a \"sea\" surrounding the positive ions. When layers slide, the electron sea keeps holding the ions together. In an ionic crystal, shifting a layer brings like charges next to each other, and the repulsion shatters the crystal."
@@ -669,10 +669,10 @@ const EXAM = {
    "unit": 2,
    "stem": "Magnesium oxide, MgO, melts at 2852 °C, while sodium chloride, NaCl, melts at 801 °C. Which statement best explains this difference?",
    "choices": [
-    "MgO is a molecular solid with stronger intermolecular forces.",
-    "The oxide ion is a larger ion than the chloride ion.",
-    "MgO has ions with greater charges (2+ and 2−), so the Coulombic attractions in the lattice are stronger.",
-    "NaCl has stronger ionic bonds because the Na⁺ ion is smaller than the Mg²⁺ ion."
+    "MgO is a molecular solid with much stronger intermolecular forces than NaCl has",
+    "The oxide ion is a larger ion than the chloride ion, so the ions pack more tightly",
+    "MgO has ions with greater charges (2+ and 2−), so the lattice attractions are stronger",
+    "NaCl has stronger ionic bonds because the Na⁺ ion is smaller than the Mg²⁺ ion"
    ],
    "correct": 2,
    "explanation": "By Coulomb's law, the strength of the attraction depends on the product of the ion charges and decreases with the distance between them. MgO has 2+ and 2− ions (a charge product of 4 compared with 1 for NaCl) with similar spacing, so its lattice is much more strongly held together and requires far more energy to melt."
