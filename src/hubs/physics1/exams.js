@@ -3,6 +3,11 @@
 // Unit targets for a full exam (42 questions): U1 5, U2 8, U3 8, U4 5, U5 5, U6 3, U7 3, U8 5.
 // All numerical problems use g = 10 m/s².
 
+import EXAM_1 from "./exams/exam1";
+import EXAM_2 from "./exams/exam2";
+import EXAM_3 from "./exams/exam3";
+import EXAM_4 from "./exams/exam4";
+
 const EXAM_FORMAT = {
   questions: 42,
   minutes: 85,
@@ -130,6 +135,16 @@ const SAMPLE_EXAM = {
   ],
 };
 
-const EXAMS = [SAMPLE_EXAM];
+const FULL_DESCRIPTION =
+  "A full-length, 42-question exam with units weighted like the real AP Physics 1 exam. Every question is new — none repeat from MCQ Practice.";
+
+const FULL_EXAMS = [EXAM_1, EXAM_2, EXAM_3, EXAM_4].map((questions, i) => ({
+  id: `exam-${i + 1}`,
+  title: `Exam ${i + 1}`,
+  description: FULL_DESCRIPTION,
+  questions,
+}));
+
+const EXAMS = [...FULL_EXAMS, SAMPLE_EXAM];
 
 export { EXAM_FORMAT, EXAMS };

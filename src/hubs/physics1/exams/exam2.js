@@ -1,0 +1,551 @@
+// AP Physics 1 — MCQ Exam 2 (42 questions). Uses g = 10 m/s².
+const EXAM_2_QUESTIONS = [
+  {
+    "id": "e2-1",
+    "unit": 2,
+    "stem": "A 5.0 kg box is pushed across a rough horizontal floor by a constant horizontal force of 30 N. The coefficient of kinetic friction between the box and the floor is 0.20. What is the magnitude of the box's acceleration?",
+    "choices": [
+      "4.0 m/s²",
+      "5.8 m/s²",
+      "6.0 m/s²",
+      "8.0 m/s²"
+    ],
+    "correct": 0,
+    "explanation": "The normal force is mg = 50 N, so the friction force is (0.20)(50) = 10 N. The net force is 30 − 10 = 20 N, so a = 20/5.0 = 4.0 m/s². 6.0 m/s² ignores friction, and 5.8 m/s² uses the mass instead of the weight to find the friction."
+  },
+  {
+    "id": "e2-2",
+    "unit": 3,
+    "stem": "A motor with a constant power output of 2000 W lifts a 100 kg load at constant speed through a height of 10 m. How long does the lift take?",
+    "choices": [
+      "0.5 s",
+      "2.0 s",
+      "3.0 s",
+      "5.0 s"
+    ],
+    "correct": 3,
+    "explanation": "The work done on the load is mgh = (100)(10)(10) = 10,000 J. With P = W/t, the time is t = 10,000/2000 = 5.0 s."
+  },
+  {
+    "id": "e2-3",
+    "unit": 2,
+    "stem": "Two blocks of mass 2.0 kg and 3.0 kg are connected by a light string that passes over a light, frictionless pulley. The blocks are released from rest. What is the magnitude of the acceleration of the blocks?",
+    "choices": [
+      "0.5 m/s²",
+      "1.0 m/s²",
+      "2.0 m/s²",
+      "5.0 m/s²"
+    ],
+    "correct": 2,
+    "explanation": "The net force on the system is the difference in the weights: (3.0 − 2.0)(10) = 10 N. This force accelerates the total mass of 5.0 kg, so a = 10/5.0 = 2.0 m/s²."
+  },
+  {
+    "id": "e2-4",
+    "unit": 4,
+    "stem": "A 6.0 kg object at rest explodes into two pieces. A 2.0 kg piece moves to the right at 9.0 m/s. What is the speed of the 4.0 kg piece?",
+    "choices": [
+      "2.0 m/s",
+      "3.0 m/s",
+      "4.0 m/s",
+      "4.5 m/s"
+    ],
+    "correct": 3,
+    "explanation": "The total momentum is zero before and after the explosion, so the 4.0 kg piece must carry equal and opposite momentum: (4.0)v = (2.0)(9.0), giving v = 4.5 m/s directed to the left."
+  },
+  {
+    "id": "e2-5",
+    "unit": 6,
+    "stem": "A solid sphere of mass 0.50 kg (rotational inertia I = (2/5)MR²) rolls without slipping along a horizontal surface with a center-of-mass speed of 4.0 m/s. What is its total kinetic energy?",
+    "choices": [
+      "1.6 J",
+      "4.0 J",
+      "5.0 J",
+      "5.6 J"
+    ],
+    "correct": 3,
+    "explanation": "Rolling without slipping means ω = v/R. The translational kinetic energy is ½mv² = ½(0.50)(16) = 4.0 J. The rotational kinetic energy is ½Iω² = ½(2/5)(mR²)(v/R)² = (1/5)mv² = 1.6 J. The total is 4.0 + 1.6 = 5.6 J. 4.0 J and 1.6 J are only the translational and rotational parts."
+  },
+  {
+    "id": "e2-6",
+    "unit": 5,
+    "stem": "A 4.0 kg block hangs at rest from a light string wound around a drum of radius 0.25 m that can rotate about a fixed horizontal axle. What is the magnitude of the torque the string exerts on the drum about the axle?",
+    "choices": [
+      "10 N·m",
+      "16 N·m",
+      "40 N·m",
+      "160 N·m"
+    ],
+    "correct": 0,
+    "explanation": "The block is at rest, so the tension equals its weight, 40 N. The string pulls tangentially at the drum's radius, so τ = rF = (0.25)(40) = 10 N·m. 160 would result from dividing the force by the radius."
+  },
+  {
+    "id": "e2-7",
+    "unit": 3,
+    "stem": "The speed of a 2.0 kg object increases from 3.0 m/s to 5.0 m/s. How much net work is done on the object?",
+    "choices": [
+      "4 J",
+      "8 J",
+      "12 J",
+      "16 J"
+    ],
+    "correct": 3,
+    "explanation": "W = ΔK = ½(2.0)(5.0² − 3.0²) = 25 − 9 = 16 J. 4 J results from squaring the change in speed, (5.0 − 3.0)², instead of finding the change in v²."
+  },
+  {
+    "id": "e2-8",
+    "unit": 6,
+    "stem": "A skater spins at 2.0 rad/s with her arms extended and a rotational inertia of 3.0 kg·m². She pulls her arms in, reducing her rotational inertia to 1.5 kg·m². Friction is negligible. What is her new angular speed?",
+    "choices": [
+      "2.0 rad/s",
+      "4.0 rad/s",
+      "6.0 rad/s",
+      "8.0 rad/s"
+    ],
+    "correct": 1,
+    "explanation": "No external torque acts, so angular momentum is conserved: I₁ω₁ = I₂ω₂, giving (3.0)(2.0) = (1.5)ω₂ and ω₂ = 4.0 rad/s."
+  },
+  {
+    "id": "e2-9",
+    "unit": 1,
+    "stem": "A car traveling at 25 m/s brakes with a constant deceleration and comes to rest in 5.0 s. How far does the car travel while braking?",
+    "choices": [
+      "62.5 m",
+      "75 m",
+      "100 m",
+      "125 m"
+    ],
+    "correct": 0,
+    "explanation": "With constant deceleration, the average speed is (25 + 0)/2 = 12.5 m/s, so the distance is (12.5)(5.0) = 62.5 m. 125 m would result from using the initial speed for the entire 5.0 s, as if the car did not slow down."
+  },
+  {
+    "id": "e2-10",
+    "unit": 2,
+    "stem": "A block slides down a rough incline that makes an angle of 30° with the horizontal. The block moves at a constant speed. What is the coefficient of kinetic friction between the block and the incline?",
+    "choices": [
+      "0.50",
+      "0.58",
+      "0.87",
+      "1.7"
+    ],
+    "correct": 1,
+    "explanation": "At constant speed the net force along the incline is zero: mg sin 30° = μₖ mg cos 30°. Therefore μₖ = tan 30° = 0.58. 0.50 is sin 30° and 0.87 is cos 30°, and 1.7 is the inverse of the correct ratio."
+  },
+  {
+    "id": "e2-11",
+    "unit": 4,
+    "stem": "Which of the following quantities is conserved in every collision between two objects that form an isolated system?",
+    "choices": [
+      "The total kinetic energy of the system",
+      "The kinetic energy of each individual object",
+      "The linear momentum of each individual object",
+      "The total linear momentum of the system"
+    ],
+    "correct": 3,
+    "explanation": "Total linear momentum is conserved whenever there is no net external force, regardless of the type of collision. Kinetic energy is conserved only in elastic collisions, and the individual momenta and kinetic energies of the objects change because the objects exert forces on each other."
+  },
+  {
+    "id": "e2-12",
+    "unit": 2,
+    "stem": "A car travels at a constant speed of 20 m/s around a flat circular curve of radius 80 m. What is the minimum coefficient of static friction between the tires and the road that allows the car to stay on the curve?",
+    "choices": [
+      "0.25",
+      "0.40",
+      "0.50",
+      "2.0"
+    ],
+    "correct": 2,
+    "explanation": "Static friction provides the centripetal force: μₛmg = mv²/r, so μₛ = v²/(rg) = 400/(80 × 10) = 0.50. 2.0 results from inverting the ratio."
+  },
+  {
+    "id": "e2-13",
+    "unit": 5,
+    "stem": "Two small 1.0 kg masses are attached to the ends of a light rod 2.0 m long. What is the rotational inertia of the system about an axis perpendicular to the rod through one end?",
+    "choices": [
+      "1.0 kg·m²",
+      "2.0 kg·m²",
+      "4.0 kg·m²",
+      "8.0 kg·m²"
+    ],
+    "correct": 2,
+    "explanation": "I = Σmr² = (1.0)(0)² + (1.0)(2.0)² = 4.0 kg·m². The mass at the axis contributes nothing. 2.0 kg·m² would be the rotational inertia about an axis through the rod's center, where each mass is 1.0 m away."
+  },
+  {
+    "id": "e2-14",
+    "unit": 3,
+    "stem": "A 1.0 m long pendulum with a small bob is released from rest when the string makes a 60° angle with the vertical. What is the bob's speed at the lowest point of its swing?",
+    "choices": [
+      "1.0 m/s",
+      "2.2 m/s",
+      "3.2 m/s",
+      "4.5 m/s"
+    ],
+    "correct": 2,
+    "explanation": "The bob drops a height h = L(1 − cos 60°) = (1.0)(0.50) = 0.50 m. Energy conservation gives v = √(2gh) = √(2 × 10 × 0.50) = √10 ≈ 3.2 m/s. 4.5 m/s results from using the full string length as the drop height."
+  },
+  {
+    "id": "e2-15",
+    "unit": 5,
+    "stem": "A wheel starts from rest and has a constant angular acceleration of 2.0 rad/s². Through what angle does the wheel rotate in 5.0 s?",
+    "choices": [
+      "25 rad",
+      "50 rad",
+      "75 rad",
+      "100 rad"
+    ],
+    "correct": 0,
+    "explanation": "Starting from rest, θ = ½αt² = ½(2.0)(5.0)² = 25 rad. 50 rad results from leaving out the factor of ½."
+  },
+  {
+    "id": "e2-16",
+    "unit": 2,
+    "stem": "Two horizontal forces of 6.0 N and 8.0 N, perpendicular to each other, act on a 2.0 kg object on a frictionless surface. What is the magnitude of the object's acceleration?",
+    "choices": [
+      "2.5 m/s²",
+      "5.0 m/s²",
+      "7.0 m/s²",
+      "10 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "The net force is the vector sum: √(6.0² + 8.0²) = 10 N. Then a = F/m = 10/2.0 = 5.0 m/s². 7.0 m/s² comes from adding the forces (14 N) and dividing by the mass, which does not account for the perpendicular directions."
+  },
+  {
+    "id": "e2-17",
+    "unit": 8,
+    "stem": "In a hydraulic lift, a force of 200 N is applied to a small piston of area 0.010 m². The large piston has an area of 0.50 m². What is the maximum weight the large piston can support?",
+    "choices": [
+      "400 N",
+      "2,000 N",
+      "5,000 N",
+      "10,000 N"
+    ],
+    "correct": 3,
+    "explanation": "The pressure is transmitted equally throughout the fluid: F₁/A₁ = F₂/A₂, so F₂ = (200)(0.50/0.010) = 10,000 N. The force is multiplied by the ratio of the areas, 50."
+  },
+  {
+    "id": "e2-18",
+    "unit": 2,
+    "stem": "A 10 kg sign hangs motionless from two light cables. Each cable makes an angle of 30° with the horizontal. What is the tension in each cable?",
+    "choices": [
+      "50 N",
+      "100 N",
+      "173 N",
+      "200 N"
+    ],
+    "correct": 1,
+    "explanation": "The vertical components of the two tensions support the weight: 2T sin 30° = mg = 100 N, so T = 100 N. 50 N results from forgetting the angle (each cable supports half the weight), and 200 N would be the sum of the two tensions."
+  },
+  {
+    "id": "e2-19",
+    "unit": 1,
+    "stem": "A rock is dropped from rest from the top of an 80 m cliff. Air resistance is negligible. What is the rock's speed just before it hits the ground?",
+    "choices": [
+      "40 m/s",
+      "60 m/s",
+      "80 m/s",
+      "160 m/s"
+    ],
+    "correct": 0,
+    "explanation": "Starting from rest, v² = 2gh = 2(10)(80) = 1600, so v = 40 m/s. 80 m/s and 160 m/s come from confusing the height with the speed (or doubling it) and skipping the square root."
+  },
+  {
+    "id": "e2-20",
+    "unit": 2,
+    "stem": "A crate is pushed across a horizontal floor at a constant velocity by a 50 N horizontal force. Which of the following is true of the friction force that the floor exerts on the crate?",
+    "choices": [
+      "It has a magnitude of 50 N and points opposite the crate's motion.",
+      "It has a magnitude greater than 50 N and points opposite the crate's motion.",
+      "It has a magnitude of 50 N and points in the direction of the crate's motion.",
+      "It is zero, because the crate is moving at a constant velocity."
+    ],
+    "correct": 0,
+    "explanation": "A constant velocity means zero acceleration, so the net horizontal force is zero (Newton's first law). The friction force must therefore balance the 50 N push, with equal magnitude and the opposite direction. Constant velocity does not mean there is no friction."
+  },
+  {
+    "id": "e2-21",
+    "unit": 8,
+    "stem": "A solid object weighs 12 N in air and has an apparent weight of 8.0 N when it is completely submerged in water (density 1000 kg/m³). What is the density of the object?",
+    "choices": [
+      "1,500 kg/m³",
+      "3,000 kg/m³",
+      "4,500 kg/m³",
+      "12,000 kg/m³"
+    ],
+    "correct": 1,
+    "explanation": "The buoyant force is the loss of apparent weight: B = 12 − 8.0 = 4.0 N. Since B = ρ_water Vg, V = 4.0/(1000 × 10) = 4.0 × 10⁻⁴ m³. The object's mass is 12/10 = 1.2 kg, so its density is 1.2/(4.0 × 10⁻⁴) = 3000 kg/m³."
+  },
+  {
+    "id": "e2-22",
+    "unit": 4,
+    "stem": "A 1500 kg car moving at 12 m/s rear-ends a stationary 1000 kg car, and the two cars lock together. What is the speed of the cars just after the collision?",
+    "choices": [
+      "4.8 m/s",
+      "7.2 m/s",
+      "9.0 m/s",
+      "12 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Momentum is conserved: (1500)(12) = (2500)v, so v = 18,000/2500 = 7.2 m/s."
+  },
+  {
+    "id": "e2-23",
+    "unit": 3,
+    "stem": "A spring with force constant 400 N/m is stretched 0.10 m from its relaxed length. How much additional work is required to stretch the spring from 0.10 m to 0.30 m?",
+    "choices": [
+      "2 J",
+      "8 J",
+      "16 J",
+      "18 J"
+    ],
+    "correct": 2,
+    "explanation": "The work equals the change in spring potential energy: ½k(x₂² − x₁²) = ½(400)(0.30² − 0.10²) = 200(0.08) = 16 J. 18 J is the total energy stored at 0.30 m, which includes the energy already stored at 0.10 m."
+  },
+  {
+    "id": "e2-24",
+    "unit": 7,
+    "stem": "A 0.20 kg block attached to an ideal spring with force constant 80 N/m oscillates horizontally on a frictionless surface. What is the period of the oscillation?",
+    "choices": [
+      "0.05 s",
+      "0.16 s",
+      "0.31 s",
+      "0.63 s"
+    ],
+    "correct": 2,
+    "explanation": "The period of a mass–spring system is T = 2π√(m/k) = 2π√(0.20/80) = 2π(0.050) ≈ 0.31 s."
+  },
+  {
+    "id": "e2-25",
+    "unit": 8,
+    "stem": "Water flows at 3.0 m/s through a pipe with a cross-sectional area of 0.020 m². What is the volume flow rate of the water?",
+    "choices": [
+      "0.0067 m³/s",
+      "0.015 m³/s",
+      "0.050 m³/s",
+      "0.060 m³/s"
+    ],
+    "correct": 3,
+    "explanation": "The volume flow rate is Q = Av = (0.020)(3.0) = 0.060 m³/s. 0.0067 m³/s results from dividing the area by the speed instead of multiplying."
+  },
+  {
+    "id": "e2-26",
+    "unit": 2,
+    "stem": "A moon orbits a planet that is much more massive than the moon. Which statement correctly compares the gravitational forces between the two bodies?",
+    "choices": [
+      "The planet exerts a larger force on the moon than the moon exerts on the planet.",
+      "The two forces have equal magnitudes.",
+      "The moon exerts a larger force on the planet, because the moon accelerates more.",
+      "Only the planet exerts a gravitational force, because it has the greater mass."
+    ],
+    "correct": 1,
+    "explanation": "By Newton's third law, the gravitational force of the planet on the moon and the force of the moon on the planet are equal in magnitude and opposite in direction. The moon has the much larger acceleration only because its mass is much smaller (a = F/m)."
+  },
+  {
+    "id": "e2-27",
+    "unit": 4,
+    "stem": "A 2.0 kg cart moving at 4.0 m/s collides head-on with a 1.0 kg cart moving at 2.0 m/s in the opposite direction. The carts stick together. How much kinetic energy is lost in the collision?",
+    "choices": [
+      "6 J",
+      "12 J",
+      "18 J",
+      "24 J"
+    ],
+    "correct": 1,
+    "explanation": "Taking the 2.0 kg cart's direction as positive, the total momentum is (2.0)(4.0) − (1.0)(2.0) = 6.0 kg·m/s, so the carts move at 6.0/3.0 = 2.0 m/s together. The initial kinetic energy is ½(2.0)(4.0)² + ½(1.0)(2.0)² = 18 J, and the final is ½(3.0)(2.0)² = 6 J. The energy lost is 12 J. 6 J is the final energy and 18 J is the initial energy."
+  },
+  {
+    "id": "e2-28",
+    "unit": 3,
+    "stem": "A 70 kg climber ascends vertically 30 m in 60 s at a constant speed. What average power must the climber supply to work against gravity?",
+    "choices": [
+      "35 W",
+      "210 W",
+      "350 W",
+      "700 W"
+    ],
+    "correct": 2,
+    "explanation": "The work done against gravity is mgh = (70)(10)(30) = 21,000 J. Dividing by the time gives P = 21,000/60 = 350 W. 700 would be the climber's weight in newtons, not a power."
+  },
+  {
+    "id": "e2-29",
+    "unit": 6,
+    "stem": "An isolated star collapses to a much smaller radius with no external torque acting on it. Which statement correctly describes the star's rotation after the collapse?",
+    "choices": [
+      "Its angular speed is unchanged and its angular momentum increases.",
+      "Its angular speed increases and its angular momentum is unchanged.",
+      "Its angular speed decreases and its angular momentum is unchanged.",
+      "Its angular speed increases and its angular momentum increases."
+    ],
+    "correct": 1,
+    "explanation": "With no external torque, angular momentum L = Iω is conserved. The collapse reduces the star's rotational inertia I, so the angular speed ω must increase to keep L the same."
+  },
+  {
+    "id": "e2-30",
+    "unit": 1,
+    "stem": "A ball is thrown horizontally at 10 m/s from the top of a 20 m tall building. Air resistance is negligible. How far from the base of the building does the ball land?",
+    "choices": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "correct": 1,
+    "explanation": "The fall time depends only on the vertical motion: 20 = ½(10)t², so t = 2.0 s. Horizontally the ball moves at a constant 10 m/s, so x = (10)(2.0) = 20 m."
+  },
+  {
+    "id": "e2-31",
+    "unit": 7,
+    "stem": "A 2.0 kg block oscillates on a horizontal spring with force constant 200 N/m and an amplitude of 0.10 m. What is the block's maximum speed?",
+    "choices": [
+      "0.10 m/s",
+      "0.50 m/s",
+      "1.0 m/s",
+      "10 m/s"
+    ],
+    "correct": 2,
+    "explanation": "The angular frequency is ω = √(k/m) = √(200/2.0) = 10 rad/s, and the maximum speed is v_max = Aω = (0.10)(10) = 1.0 m/s. (Energy conservation gives the same result: ½kA² = ½mv²_max.)"
+  },
+  {
+    "id": "e2-32",
+    "unit": 3,
+    "stem": "A 20 N force directed 30° above the horizontal pulls a box 5.0 m along a horizontal floor. How much work does this force do on the box?",
+    "choices": [
+      "50 J",
+      "75 J",
+      "87 J",
+      "100 J"
+    ],
+    "correct": 2,
+    "explanation": "Only the component of the force along the displacement does work: W = Fd cos θ = (20)(5.0)(cos 30°) ≈ 87 J. 100 J ignores the angle, and 50 J uses sine instead of cosine."
+  },
+  {
+    "id": "e2-33",
+    "unit": 3,
+    "stem": "A block slides down a rough incline at a constant speed. Which of the following correctly describes the energy of the block–incline–Earth system?",
+    "choices": [
+      "The gravitational potential energy decreases and is converted entirely into kinetic energy.",
+      "The kinetic energy decreases, because friction does negative work on the block.",
+      "The gravitational potential energy stays constant, because the speed is constant.",
+      "The gravitational potential energy decreases and the thermal energy increases by the same amount."
+    ],
+    "correct": 3,
+    "explanation": "The speed is constant, so the kinetic energy does not change. The block is moving lower, so its gravitational potential energy decreases. Energy is conserved for the whole system, so the lost potential energy appears as thermal energy produced by friction."
+  },
+  {
+    "id": "e2-34",
+    "unit": 8,
+    "stem": "Air moves faster over the top surface of an airplane wing than over the bottom surface. Which of the following best explains the resulting upward force on the wing?",
+    "choices": [
+      "The pressure above the wing is higher than the pressure below it, so the net pressure force is upward.",
+      "The pressure is the same above and below the wing, so the upward force comes only from the wing's tilt.",
+      "The faster air above the wing pushes harder on it than the slower air below, so the net force is upward.",
+      "The pressure above the wing is lower than the pressure below it, so the net pressure force is upward."
+    ],
+    "correct": 3,
+    "explanation": "Bernoulli's equation says that where the fluid speed is greater, the pressure is lower. The lower pressure above the wing and higher pressure below produce a net upward force on the wing. Faster-moving air does not push harder on a surface; it exerts less pressure on it."
+  },
+  {
+    "id": "e2-35",
+    "unit": 8,
+    "stem": "What is the gauge pressure at the bottom of an open tank of oil (density 800 kg/m³) that is 3.0 m deep?",
+    "choices": [
+      "2,400 Pa",
+      "8,000 Pa",
+      "24,000 Pa",
+      "240,000 Pa"
+    ],
+    "correct": 2,
+    "explanation": "The gauge pressure is ρgh = (800)(10)(3.0) = 24,000 Pa. The atmospheric pressure is not included in the gauge pressure."
+  },
+  {
+    "id": "e2-36",
+    "unit": 7,
+    "stem": "A simple pendulum is taken from Earth to the Moon, where the gravitational acceleration is smaller. The pendulum's length does not change. How does the period of the pendulum change?",
+    "choices": [
+      "The period is shorter, because the bob's weight is smaller.",
+      "The period is longer, because the gravitational acceleration is smaller.",
+      "The period is unchanged, because the period does not depend on the bob's mass.",
+      "The period is unchanged, because the length of the pendulum is the same."
+    ],
+    "correct": 1,
+    "explanation": "The period of a simple pendulum is T = 2π√(L/g). With the same length and a smaller g, the period is longer. It is true that the period does not depend on the bob's mass, but it does depend on g, so it changes."
+  },
+  {
+    "id": "e2-37",
+    "unit": 5,
+    "stem": "Which of the following must be true for an extended object that is in static equilibrium?",
+    "choices": [
+      "The net force on the object and the net torque about any point are both zero.",
+      "The net force on the object is zero, but the net torque can be nonzero.",
+      "The net torque about the center of mass is zero, but the net force can be nonzero.",
+      "The object's weight must be balanced by a single upward force at its center of mass."
+    ],
+    "correct": 0,
+    "explanation": "For static equilibrium, both the translational and rotational accelerations must be zero. That requires the net force to be zero and the net torque about any chosen point to be zero. Equilibrium does not require a single supporting force at the center of mass: a plank resting on two supports, for example, is in equilibrium with forces at two different points."
+  },
+  {
+    "id": "e2-38",
+    "unit": 4,
+    "stem": "A net force acts on a 0.50 kg cart that is initially at rest. The force increases linearly from 0 to 20 N over 0.10 s and is then removed. What is the cart's final speed?",
+    "choices": [
+      "2.0 m/s",
+      "4.0 m/s",
+      "10 m/s",
+      "20 m/s"
+    ],
+    "correct": 0,
+    "explanation": "The impulse is the area under the force–time graph, a triangle: ½(20 N)(0.10 s) = 1.0 N·s. Since J = Δp = mv, v = 1.0/0.50 = 2.0 m/s. 4.0 m/s results from treating the area as a rectangle (20 N × 0.10 s)."
+  },
+  {
+    "id": "e2-39",
+    "unit": 1,
+    "stem": "The position of an object moving along a straight line is plotted against time. The graph curves upward (it is concave up) and has a positive slope at every point. Which of the following describes the object's motion?",
+    "choices": [
+      "It is moving in the positive direction with constant speed.",
+      "It is moving in the positive direction with decreasing speed.",
+      "It is moving in the negative direction with increasing speed.",
+      "It is moving in the positive direction with increasing speed."
+    ],
+    "correct": 3,
+    "explanation": "The slope of a position–time graph is the velocity. A positive slope means motion in the positive direction, and a slope that gets steeper means the speed is increasing (positive acceleration). A constant speed would give a straight line, and a negative-direction motion would give a negative slope."
+  },
+  {
+    "id": "e2-40",
+    "unit": 5,
+    "stem": "A constant 12 N force is applied tangentially to the rim of a disk of radius 0.20 m. The disk's rotational inertia is 0.060 kg·m². What is the disk's angular acceleration?",
+    "choices": [
+      "4.0 rad/s²",
+      "12 rad/s²",
+      "20 rad/s²",
+      "40 rad/s²"
+    ],
+    "correct": 3,
+    "explanation": "The torque is τ = rF = (0.20)(12) = 2.4 N·m, so α = τ/I = 2.4/0.060 = 40 rad/s²."
+  },
+  {
+    "id": "e2-41",
+    "unit": 1,
+    "stem": "A student drops a small ball from several different heights h and measures the fall time t for each. The student wants to plot a graph whose slope can be used to find the acceleration due to gravity g. Which graph would be linear with a slope related to g?",
+    "choices": [
+      "h on the vertical axis versus t² on the horizontal axis",
+      "h on the vertical axis versus t on the horizontal axis",
+      "t on the vertical axis versus h on the horizontal axis",
+      "t² on the vertical axis versus h² on the horizontal axis"
+    ],
+    "correct": 0,
+    "explanation": "For a ball dropped from rest, h = ½gt². A graph of h versus t² is therefore a straight line through the origin with a slope of g/2, so g is twice the slope. Graphs of h versus t or t versus h are curved, and t² is proportional to h, not h², so the last graph is also curved."
+  },
+  {
+    "id": "e2-42",
+    "unit": 3,
+    "stem": "A 1000 kg car speeds up from 10 m/s to 20 m/s. How much net work is done on the car?",
+    "choices": [
+      "150 kJ",
+      "200 kJ",
+      "300 kJ",
+      "600 kJ"
+    ],
+    "correct": 0,
+    "explanation": "By the work–energy theorem, W = ΔK = ½(1000)(20² − 10²) = 150,000 J = 150 kJ. 200 kJ is only the final kinetic energy, and 300 kJ results from forgetting the ½."
+  }
+];
+
+export default EXAM_2_QUESTIONS;
