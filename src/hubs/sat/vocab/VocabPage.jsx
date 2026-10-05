@@ -3,10 +3,6 @@ import { storage } from "../../../lib/storage";
 import { Link } from "react-router-dom";
 import { DIFFICULTIES, DECKS, WORDS } from "./content";
 
-const VOCAB_COLORS = {
-  indigo: "#3D3470", indigoDeep: "#2A2350", gold: "#E8A33D", pale: "#EFEDFA",
-};
-
 const PROGRESS_KEY = "vocab-word-progress-v1";
 const NAV_KEY = "vocab-last-nav-v1";
 
@@ -29,15 +25,18 @@ export default function VocabPage() {
       try {
         const result = await storage.get(PROGRESS_KEY, false);
         if (result && result.value) setWordState(JSON.parse(result.value));
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       try {
         const navResult = await storage.get(NAV_KEY, false);
         if (navResult && navResult.value) {
           const nav = JSON.parse(navResult.value);
-          if (nav.view && nav.view !== "session") setView(nav.view);
-          if (nav.activeDifficulty) setActiveDifficulty(nav.activeDifficulty);
+          const validDifficulty = DIFFICULTIES.some((d) => d.id === nav.activeDifficulty);
+          if (validDifficulty) setActiveDifficulty(nav.activeDifficulty);
+          // Only restore views that don't depend on an in-progress card session
+          if (nav.view === "difficulties" || nav.view === "dashboard") setView(nav.view);
+          else if (nav.view === "decks" && validDifficulty) setView("decks");
         }
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       setNavLoaded(true);
     })();
   }, []);

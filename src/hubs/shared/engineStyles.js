@@ -26,9 +26,10 @@ export function getEngineCSS(colors = {}) {
     .app-sidebar-backdrop.open{ display:flex !important; }
     .desktop-only-label{ display:none !important; }
 
-    .dash-grid{ display:grid; grid-template-columns: repeat(2, 1fr); gap:14px; }
-    @media (min-width: 700px){ .dash-grid{ grid-template-columns: repeat(3, 1fr); } }
-    @media (min-width: 1100px){ .dash-grid{ grid-template-columns: repeat(4, 1fr); } }
+    .dash-grid{ display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:14px; }
+    @media (max-width: 520px){ .dash-grid{ grid-template-columns: minmax(0, 1fr); } .dash-stats{ grid-template-columns: minmax(0, 1fr) !important; } .dash-stats > div{ aspect-ratio:auto !important; padding:18px 22px !important; } }
+    @media (min-width: 700px){ .dash-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+    @media (min-width: 1100px){ .dash-grid{ grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
     @media (min-width: 900px){
       .mobile-only-switcher{ display:none !important; }
@@ -67,6 +68,7 @@ export function getEngineCSS(colors = {}) {
 
     body{background:var(--bg); color:var(--ink); font-family:'Nunito', sans-serif; font-size:16.5px; line-height:1.7;}
     .wrap{max-width:740px; margin:0 auto; padding:0 20px 90px;}
+    [id]{scroll-margin-top:16px;}
     h1,h2,h3,.display{font-family:'Manrope', sans-serif; font-weight:800;}
     .topbar{background:var(--card); border-bottom:1px solid var(--border); padding:22px 24px;}
     .topbar-inner{max-width:740px; margin:0 auto; display:flex; align-items:center; gap:12px;}
@@ -144,6 +146,11 @@ export function getEngineCSS(colors = {}) {
     .divider{text-align:center; margin:40px 0; color:var(--sage-pill); font-size:20px; letter-spacing:14px;}
     .footer-nav{text-align:center; margin-top:50px; padding:26px; background:var(--sage-pale); border-radius:20px; font-size:15px; color:var(--ink-soft);}
     .footer-nav strong{color:var(--sage-deep);}
+    @media (max-width: 899px){
+      .hero{padding-left:0; padding-right:0;}
+      .wrap{padding-left:0; padding-right:0;}
+    }
+    @media (max-width: 600px){ .toc ol{grid-template-columns:1fr;} }
     .quote{font-family:'Nunito',sans-serif; font-style:italic; text-align:center; color:var(--ink-soft); font-size:15.5px; margin:26px auto 0; max-width:520px;}
   `;
 }

@@ -8506,4 +8506,10 @@ const FRQ_CONTENT = {
   ]
 };
 
+// Question IDs are only unique within a unit ("1-1" exists in every unit), but saved
+// progress is keyed by ID — so namespace them by unit to keep progress per-unit.
+for (const [unit, data] of Object.entries(QUESTIONS)) {
+  for (const q of data.items) q.id = `u${unit}-${q.id}`;
+}
+
 export { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT };

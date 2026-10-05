@@ -19,15 +19,17 @@ export default function QuestionBankPage() {
       try {
         const result = await storage.get(PROGRESS_KEY, false);
         if (result && result.value) setAnswered(JSON.parse(result.value));
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       try {
         const navResult = await storage.get(NAV_KEY, false);
         if (navResult && navResult.value) {
           const nav = JSON.parse(navResult.value);
-          if (nav.view && nav.view !== "quiz" && nav.view !== "missedReview") setView(nav.view);
-          if (nav.activeDifficulty) setActiveDifficulty(nav.activeDifficulty);
+          const validDifficulty = DIFFICULTIES.some((d) => d.id === nav.activeDifficulty);
+          if (validDifficulty) setActiveDifficulty(nav.activeDifficulty);
+          if (nav.view === "difficulties" || nav.view === "dashboard") setView(nav.view);
+          else if (nav.view === "decks" && validDifficulty) setView("decks");
         }
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       setNavLoaded(true);
     })();
   }, []);
@@ -242,7 +244,6 @@ export default function QuestionBankPage() {
               setQIndex={setQIndex}
               selectChoice={selectChoice}
               onExit={() => setView("difficulties")}
-              isRetryMode
             />
           )
         )}
@@ -293,7 +294,7 @@ export default function QuestionBankPage() {
   );
 }
 
-function QuestionRunner({ title, questions, deckLabels, answered, qIndex, setQIndex, selectChoice, onExit, isRetryMode }) {
+function QuestionRunner({ title, questions, deckLabels, answered, qIndex, setQIndex, selectChoice, onExit }) {
   if (questions.length === 0) {
     return (
       <div style={S.emptyState}>
@@ -431,11 +432,11 @@ const S = {
   qPassage: { fontSize: 16.5, lineHeight: 1.65, color: "#2A2350", margin: "0 0 20px", fontWeight: 500 },
 
   choices: { display: "flex", flexDirection: "column", gap: 9 },
-  choice: { display: "flex", gap: 10, alignItems: "flex-start", textAlign: "left", padding: "12px 15px", border: "1px solid #E5E2F0", borderRadius: 12, background: "#FCFBF8", fontFamily: "inherit", fontSize: 14.5, lineHeight: 1.45, cursor: "pointer" },
+  choice: { display: "flex", gap: 10, alignItems: "flex-start", textAlign: "left", color: "inherit", padding: "12px 15px", border: "1px solid #E5E2F0", borderRadius: 12, background: "#FCFBF8", fontFamily: "inherit", fontSize: 14.5, lineHeight: 1.45, cursor: "pointer" },
   choiceLetter: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 700, color: "#8A84A8", flexShrink: 0 },
   choiceCorrect: { background: "#E1EEDD", border: "1px solid #3D3470" },
   choiceWrong: { background: "#FBEAE5", border: "1px solid #D98B7B" },
-  choiceDisabled: { opacity: 0.5, cursor: "default" },
+  choiceDisabled: { opacity: 0.7, color: "inherit", cursor: "default" },
 
   explanation: { marginTop: 16, padding: "14px 16px", background: "#EFEDFA", borderRadius: 12 },
   explanationLabel: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: "#3D3470", marginBottom: 6 },

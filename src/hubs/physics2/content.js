@@ -6176,7 +6176,7 @@ const FRQ_CONTENT = {
       "id": "frq-9-3",
       "source": "2026 AP Exam, Free-Response Question 1",
       "title": "Heating a Gas with an Embedded Sphere",
-      "prompt": "A sample of n moles of monatomic ideal gas is in a large, sealed, thermally conducting, fixed-volume container along with a small sphere of mass mS, initially in thermal equilibrium with the gas. The gas starts in State X (pressure P, volume V). It's heated to State Y (pressure 3P), and the sphere returns to equilibrium with the gas. Total energy transferred to the sphere during heating is QS. Part A: (i) Sketch the Maxwell-Boltzmann speed distribution for State Y, given State X's distribution. (ii) Derive ΔT for the gas in terms of n, P, V. (iii) Derive the sphere's specific heat cS in terms of n, mS, P, V, QS. Part B: The same sphere is submerged in a liquid (mass mL, specific heat cL) in an insulated container, with mS<mL and cS<cL. The sphere starts hotter than the liquid; they reach thermal equilibrium. Indicate whether |ΔTS| is greater than, less than, or equal to |ΔTL|, with conceptual justification beyond algebra.",
+      "prompt": "A sample of n moles of monatomic ideal gas is in a large, sealed, thermally conducting, fixed-volume container along with a small sphere of mass mS, initially in thermal equilibrium with the gas. The gas starts in State X (pressure P, volume V). It's heated to State Y (pressure 3P), and the sphere returns to equilibrium with the gas. Total energy transferred to the sphere during heating is QS. Part A: (i) Sketch the Maxwell-Boltzmann speed distribution for State Y, given State X's distribution. (ii) Derive ΔT for the gas in terms of n, P, V. (iii) Derive the sphere's specific heat cS in terms of n, mS, P, V, QS. Part B: The same sphere is submerged in a liquid (mass mL, specific heat cL) in an insulated container, with m<sub>S</sub> < m<sub>L</sub> and c<sub>S</sub> < c<sub>L</sub>. The sphere starts hotter than the liquid; they reach thermal equilibrium. Indicate whether |ΔTS| is greater than, less than, or equal to |ΔTL|, with conceptual justification beyond algebra.",
       "parts": [
         {
           "label": "Part A(i)",
@@ -6212,7 +6212,7 @@ const FRQ_CONTENT = {
           "ask": "Compare |ΔTS| to |ΔTL|.",
           "steps": [
             "Set up the energy conservation statement for the insulated sphere-and-liquid system: heat lost by the (hotter) sphere equals heat gained by the (cooler) liquid, in magnitude: m<sub>S</sub>·c<sub>S</sub>·|ΔT<sub>S</sub>| = m<sub>L</sub>·c<sub>L</sub>·|ΔT<sub>L</sub>|.",
-            "Compare the mc products on each side: since m<sub>S</sub><m<sub>L</sub> AND c<sub>S</sub><c<sub>L</sub>, the product m<sub>S</sub>·c<sub>S</sub> is considerably smaller than m<sub>L</sub>·c<sub>L</sub>.",
+            "Compare the mc products on each side: since m<sub>S</sub> < m<sub>L</sub> AND c<sub>S</sub> < c<sub>L</sub>, the product m<sub>S</sub>·c<sub>S</sub> is considerably smaller than m<sub>L</sub>·c<sub>L</sub>.",
             "Use that comparison to determine which ΔT must be larger: since the two sides must balance, the sphere's temperature change |ΔT<sub>S</sub>| must be the LARGER of the two to make up the difference — so |ΔT<sub>S</sub>| > |ΔT<sub>L</sub>|.",
             "State the conceptual reason in words: the liquid's greater mass and greater specific heat both mean it resists changing temperature more strongly, so for the same energy exchanged, the liquid barely shifts while the sphere swings much more."
           ]

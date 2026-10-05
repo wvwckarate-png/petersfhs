@@ -1,6 +1,8 @@
 import React, { Suspense, lazy } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./HomePage";
+import NotFoundPage from "./NotFoundPage";
+import ErrorBoundary from "./ErrorBoundary";
 const ApHubPage = lazy(() => import("./hubs/ap/ApHubPage"));
 const Physics2Page = lazy(() => import("./hubs/physics2/Physics2Page"));
 const BiologyPage = lazy(() => import("./hubs/biology/BiologyPage"));
@@ -18,7 +20,8 @@ const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"))
 export default function App() {
   return (
     <BrowserRouter>
-      <Suspense fallback={<div style={{ padding: 24 }}>Loading…</div>}>
+      <ErrorBoundary>
+      <Suspense fallback={<div style={{ margin: "auto", padding: 24, fontFamily: "sans-serif", color: "#767F73" }}>Loading…</div>}>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/ap" element={<ApHubPage />} />
@@ -34,8 +37,10 @@ export default function App() {
         <Route path="/sat" element={<SatHubPage />} />
         <Route path="/sat/vocab" element={<VocabPage />} />
         <Route path="/sat/vocab-questions" element={<QuestionBankPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       </Suspense>
+      </ErrorBoundary>
     </BrowserRouter>
   );
 }

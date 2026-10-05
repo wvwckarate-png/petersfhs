@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { storage } from "../../lib/storage";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
+import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
 
 const CHEMISTRY_COLORS = {
@@ -77,7 +78,7 @@ export default function ChemistryPage() {
       try {
         const result = await storage.get(MCQ_STORAGE_KEY, false);
         if (result && result.value) setAnswered(JSON.parse(result.value));
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       try {
         const navResult = await storage.get(NAV_STORAGE_KEY, false);
         if (navResult && navResult.value) {
@@ -85,7 +86,7 @@ export default function ChemistryPage() {
           if (nav.mode) setMode(nav.mode);
           if (nav.unitId && UNITS.some((u) => u.id === nav.unitId)) setUnitId(nav.unitId);
         }
-      } catch (e) {}
+      } catch { /* storage unavailable or unreadable — ignore */ }
       setNavLoaded(true);
     })();
   }, []);
@@ -125,6 +126,11 @@ export default function ChemistryPage() {
     return () => document.removeEventListener('keydown', handleEscape);
   }, []);
 
+  // Start each unit / mode / question at the top of the scrolling area
+  useEffect(() => {
+    document.querySelector(".app-body")?.scrollTo({ top: 0 });
+  }, [unitId, mode, globalReview, qIndex, reviewFilter]);
+
   const persistAnswers = useCallback(async (next) => {
     try {
       await storage.set(MCQ_STORAGE_KEY, JSON.stringify(next), false);
@@ -152,7 +158,7 @@ export default function ChemistryPage() {
     } else {
       setAnswered({});
       setResetTarget(null);
-      try { await storage.delete(MCQ_STORAGE_KEY, false); } catch (e) {}
+      try { await storage.delete(MCQ_STORAGE_KEY, false); } catch { /* storage unavailable or unreadable — ignore */ }
     }
   }
 
@@ -239,7 +245,7 @@ export default function ChemistryPage() {
 
       <div style={S.body} className="app-body">
         {mode !== "dashboard" && !globalReview && (
-          <button style={S.unitSwitcher} className="mobile-only-switcher" onClick={() => setSidebarOpen(true)}>
+          <button style={S.unitSwitcher} className="mobile-only-switcher" onClick={() => setSidebarOpen(true)} aria-haspopup="dialog" aria-expanded={sidebarOpen}>
             <span style={S.unitSwitcherLeft}>
               <span style={S.unitSwitcherNum}>Unit {unit.id}</span>
               <span style={S.unitSwitcherName}>{unit.name}</span>
@@ -259,7 +265,7 @@ export default function ChemistryPage() {
             <aside style={S.drawer} className="app-sidebar" onClick={(e) => e.stopPropagation()}>
               <div style={S.drawerHeader} className="mobile-only-flex">
                 <div style={S.sidebarLabel}>Units</div>
-                <button style={S.drawerClose} onClick={() => setSidebarOpen(false)}>
+                <button style={S.drawerClose} onClick={() => setSidebarOpen(false)} aria-label="Close units menu">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
                     <path d="M6 6L18 18M6 18L18 6" stroke="#767F73" strokeWidth="2" strokeLinecap="round"/>
                   </svg>
@@ -329,7 +335,7 @@ export default function ChemistryPage() {
                     const isOpen = activeQ === q.id;
                     return (
                       <div key={q.id} style={S.qCard} className="qbank-hover">
-                        <button style={S.qHeader} onClick={() => setActiveQ(isOpen ? null : q.id)}>
+                        <button style={S.qHeader} onClick={() => setActiveQ(isOpen ? null : q.id)} aria-expanded={isOpen}>
                           <div style={S.qHeaderLeft}>
                             <span style={S.unitBadge}>Unit {qUnitId}</span>
                             <span style={S.qTopic}>{q.topic}</span>
@@ -347,7 +353,7 @@ export default function ChemistryPage() {
                             <div style={S.retryNote}>
                               You missed this one previously (Unit {qUnitId}: {unitName}). Pick a new answer below to try again.
                             </div>
-                            <p style={S.qStem}>{q.stem}</p>
+                            <p style={S.qStem}><RichText text={q.stem} /></p>
                             <div style={S.choices}>
                               {q.choices.map((c, idx) => {
                                 const chosen = a && a.selected === idx;
@@ -361,7 +367,7 @@ export default function ChemistryPage() {
                                 return (
                                   <button key={idx} onClick={() => selectChoice(q, idx)} disabled={a && a.correct} style={variant} className="choice-hover">
                                     <span style={S.choiceLetter}>{String.fromCharCode(65 + idx)}</span>
-                                    <span>{c}</span>
+                                    <span><RichText text={c} /></span>
                                   </button>
                                 );
                               })}
@@ -369,7 +375,7 @@ export default function ChemistryPage() {
                             {a && (
                               <div style={S.explanation}>
                                 <div style={S.explanationLabel}>Discussion</div>
-                                <p style={S.explanationText}>{q.explanation}</p>
+                                <p style={S.explanationText}><RichText text={q.explanation} /></p>
                               </div>
                             )}
                           </div>
@@ -493,7 +499,7 @@ export default function ChemistryPage() {
                             You missed this one previously. Pick a new answer below to try again — your explanation from last time is shown after you submit.
                           </div>
                         )}
-                        <p style={S.qStem}>{q.stem}</p>
+                        <p style={S.qStem}><RichText text={q.stem} /></p>
                         <div style={S.choices}>
                           {q.choices.map((c, idx) => {
                             const chosen = a && a.selected === idx;
@@ -507,7 +513,7 @@ export default function ChemistryPage() {
                             return (
                               <button key={idx} onClick={() => selectChoice(q, idx)} disabled={a && a.correct} style={variant} className="choice-hover">
                                 <span style={S.choiceLetter}>{String.fromCharCode(65 + idx)}</span>
-                                <span>{c}</span>
+                                <span><RichText text={c} /></span>
                               </button>
                             );
                           })}
@@ -515,7 +521,7 @@ export default function ChemistryPage() {
                         {a && (
                           <div style={S.explanation}>
                             <div style={S.explanationLabel}>Discussion</div>
-                            <p style={S.explanationText}>{q.explanation}</p>
+                            <p style={S.explanationText}><RichText text={q.explanation} /></p>
                           </div>
                         )}
                       </div>
@@ -561,7 +567,7 @@ export default function ChemistryPage() {
                     const isOpen = activeFrq === frq.id;
                     return (
                       <div key={frq.id} style={S.frqCard} className="frq-card-hover">
-                        <button style={S.frqHeader} onClick={() => setActiveFrq(isOpen ? null : frq.id)}>
+                        <button style={S.frqHeader} onClick={() => setActiveFrq(isOpen ? null : frq.id)} aria-expanded={isOpen}>
                           <div>
                             <div style={S.frqSource}>{frq.source}</div>
                             <div style={S.frqTitle}>{frq.title}</div>
@@ -572,7 +578,7 @@ export default function ChemistryPage() {
                         </button>
                         {isOpen && (
                           <div style={S.frqBody}>
-                            <p style={S.frqPrompt}>{frq.prompt}</p>
+                            <p style={S.frqPrompt}><RichText text={frq.prompt} /></p>
                             {frq.parts.map((part, pIdx) => {
                               const key = `${frq.id}::${pIdx}`;
                               const revealed = frqSteps[key] || 0;
@@ -580,7 +586,7 @@ export default function ChemistryPage() {
                               return (
                                 <div key={pIdx} style={S.frqPart}>
                                   <div style={S.frqPartLabel}>{part.label}</div>
-                                  <p style={S.frqPartAsk}>{part.ask}</p>
+                                  <p style={S.frqPartAsk}><RichText text={part.ask} /></p>
 
                                   {revealed === 0 && (
                                     <button style={S.frqRevealBtn} onClick={() => setFrqSteps({ ...frqSteps, [key]: 1 })}>
@@ -593,7 +599,7 @@ export default function ChemistryPage() {
                                       {part.steps.slice(0, revealed).map((step, sIdx) => (
                                         <div key={sIdx} style={S.frqStep}>
                                           <span style={S.frqStepNum}>{sIdx + 1}</span>
-                                          <span style={S.frqStepText}>{step}</span>
+                                          <span style={S.frqStepText}><RichText text={step} /></span>
                                         </div>
                                       ))}
                                       {revealed < total ? (
@@ -622,7 +628,7 @@ export default function ChemistryPage() {
 
           {mode === "dashboard" && (
             <div style={S.dashWrap}>
-              <div style={S.dashCards}>
+              <div style={S.dashCards} className="dash-stats">
                 <div style={S.dashCard}>
                   <div style={S.dashCardLabel}>MCQs Answered</div>
                   <div style={S.dashCardValue}>{overall.done} <span style={S.dashCardOf}>/ {overall.total}</span></div>
@@ -723,7 +729,7 @@ export default function ChemistryPage() {
 // ---------- Styles ----------
 
 const S = {
-  page: { height: "100vh", background: "#FAFAF7", color: "#2E332E", fontFamily: "'Nunito', sans-serif", fontSize: 16.5, lineHeight: 1.6, display: "flex", flexDirection: "column", overflow: "hidden" },
+  page: { height: "100dvh", background: "#FAFAF7", color: "#2E332E", fontFamily: "'Nunito', sans-serif", fontSize: 16.5, lineHeight: 1.6, display: "flex", flexDirection: "column", overflow: "hidden" },
 
   topbar: { background: "#FFFFFF", borderBottom: "1px solid #ECEAE3", padding: "14px 24px" },
   topbarInner: { maxWidth: 1040, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" },
@@ -741,9 +747,9 @@ const S = {
 
   body: { maxWidth: 1040, margin: "0 auto", padding: "18px 24px 24px", position: "relative", flex: 1, overflowY: "auto", width: "100%" },
 
-  unitSwitcher: { width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 14, padding: "12px 16px", marginBottom: 18, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
+  unitSwitcher: { width: "100%", textAlign: "left", fontFamily: "inherit", display: "flex", alignItems: "center", justifyContent: "space-between", background: "#FFFFFF", border: "1px solid #ECEAE3", borderRadius: 14, padding: "12px 16px", marginBottom: 18, cursor: "pointer", boxShadow: "0 2px 8px rgba(70,90,60,0.05)" },
   unitSwitcherLeft: { display: "flex", alignItems: "baseline", gap: 9 },
-  unitSwitcherNum: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#A85F4F", fontWeight: 700 },
+  unitSwitcherNum: { whiteSpace: "nowrap", flexShrink: 0, fontFamily: "'IBM Plex Mono',monospace", fontSize: 11.5, color: "#A85F4F", fontWeight: 700 },
   unitSwitcherName: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 15.5, color: "#2E332E" },
 
   drawerBackdrop: { position: "fixed", inset: 0, background: "rgba(46,51,46,0.35)", zIndex: 20, display: "flex" },
@@ -809,11 +815,11 @@ const S = {
   stretchNote: { fontSize: 13.5, lineHeight: 1.5, color: "#8A6D3B", background: "#FBF0DD", borderRadius: 10, padding: "10px 14px", margin: "16px 0 12px" },
   qStem: { fontSize: 15.5, lineHeight: 1.55, margin: "16px 0 14px" },
   choices: { display: "flex", flexDirection: "column", gap: 8 },
-  choice: { display: "flex", gap: 10, alignItems: "flex-start", textAlign: "left", padding: "11px 14px", border: "1px solid #ECEAE3", borderRadius: 12, background: "#FCFBF8", fontFamily: "inherit", fontSize: 14.5, lineHeight: 1.45, cursor: "pointer" },
+  choice: { display: "flex", gap: 10, alignItems: "flex-start", textAlign: "left", color: "inherit", padding: "11px 14px", border: "1px solid #ECEAE3", borderRadius: 12, background: "#FCFBF8", fontFamily: "inherit", fontSize: 14.5, lineHeight: 1.45, cursor: "pointer" },
   choiceLetter: { fontFamily: "'IBM Plex Mono',monospace", fontWeight: 700, color: "#767F73", flexShrink: 0 },
   choiceCorrect: { background: "#E1EEDD", border: "1px solid #D98B7B" },
   choiceWrong: { background: "#FBEAE5", border: "1px solid #D98B7B" },
-  choiceDisabled: { opacity: 0.5, cursor: "default" },
+  choiceDisabled: { opacity: 0.7, color: "inherit", cursor: "default" },
 
   explanation: { marginTop: 14, padding: "13px 16px", background: "#F7E9E5", borderRadius: 12 },
   explanationLabel: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: "#A85F4F", marginBottom: 6 },
@@ -843,7 +849,7 @@ const S = {
   emptyText: { fontSize: 14.5, color: "#767F73", maxWidth: 400, margin: "0 auto", lineHeight: 1.6 },
 
   dashWrap: { maxWidth: 1100 },
-  dashCards: { display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 14, marginBottom: 26 },
+  dashCards: { display: "grid", gridTemplateColumns: "repeat(3, minmax(0, 1fr))", gap: 14, marginBottom: 26 },
   dashCard: { background: "#FFFFFF", borderRadius: 18, padding: "26px 22px", boxShadow: "0 4px 14px rgba(70,90,60,0.06)", display: "flex", flexDirection: "column", justifyContent: "center", aspectRatio: "1.15" },
   dashCardLabel: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", color: "#767F73", marginBottom: 8 },
   dashCardValue: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 28, color: "#A85F4F" },
