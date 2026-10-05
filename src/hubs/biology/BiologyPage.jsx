@@ -242,8 +242,8 @@ export default function BiologyPage() {
         </div>
       </div>
 
-      <div style={S.body} className="app-body">
-        {mode !== "dashboard" && !globalReview && (
+      <div style={S.body} className="app-body" data-no-sidebar={mode === "dashboard" || mode === "exams" || globalReview ? "true" : undefined}>
+        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
           <button style={S.unitSwitcher} className="mobile-only-switcher" onClick={() => setSidebarOpen(true)} aria-haspopup="dialog" aria-expanded={sidebarOpen}>
             <span style={S.unitSwitcherLeft}>
               <span style={S.unitSwitcherNum}>Unit {unit.id}</span>
@@ -255,7 +255,7 @@ export default function BiologyPage() {
           </button>
         )}
 
-        {mode !== "dashboard" && !globalReview && (
+        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
           <div
             style={S.drawerBackdrop}
             className={sidebarOpen ? "app-sidebar-backdrop open" : "app-sidebar-backdrop"}

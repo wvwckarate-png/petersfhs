@@ -27,13 +27,15 @@ export function getEngineCSS(colors = {}) {
     .desktop-only-label{ display:none !important; }
 
     .dash-grid{ display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:14px; }
-    @media (max-width: 520px){ .dash-grid{ grid-template-columns: minmax(0, 1fr); } .dash-stats{ grid-template-columns: minmax(0, 1fr) !important; } .dash-stats > div{ aspect-ratio:auto !important; padding:18px 22px !important; } }
+    @media (max-width: 520px){ .dash-grid{ grid-template-columns: minmax(0, 1fr); } .dash-stats{ grid-template-columns: minmax(0, 1fr) !important; } .dash-stats > div{ padding:18px 22px !important; } }
+    .dash-stats > div{ aspect-ratio:auto !important; min-height:110px; }
     @media (min-width: 700px){ .dash-grid{ grid-template-columns: repeat(3, minmax(0, 1fr)); } }
     @media (min-width: 1100px){ .dash-grid{ grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 
     @media (min-width: 900px){
       .mobile-only-switcher{ display:none !important; }
       .app-body{ display:grid; grid-template-columns: 260px 1fr; gap:26px; max-width:1200px !important; }
+      .app-body[data-no-sidebar="true"]{ display:block !important; }
       .app-container{ max-width:1200px !important; }
       .app-sidebar-backdrop{
         display:block !important; position:static !important; background:transparent !important;

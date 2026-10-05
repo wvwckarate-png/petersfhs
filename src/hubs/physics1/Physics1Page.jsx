@@ -3,11 +3,15 @@ import { storage } from "../../lib/storage";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
+import ExamEngine from "../shared/ExamEngine";
+import { EXAM_FORMAT, EXAMS } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 
 const PHYSICS1_COLORS = {
   sage: "#7BA3B8", sageDeep: "#4F7A8F", sagePale: "#E5EFF3", sagePill: "#CCE1EA",
 };
+
+const EXAM_COLORS = { accent: "#7BA3B8", accentDeep: "#4F7A8F", pale: "#E5EFF3", pill: "#CCE1EA" };
 
 const MCQ_STORAGE_KEY = "physics1-hub-mcq-progress-v1";
 const NAV_STORAGE_KEY = "physics1-hub-last-nav-v1";
@@ -16,6 +20,7 @@ const MODES = [
   { id: "study", label: "Study Guides" },
   { id: "mcq", label: "MCQ Practice" },
   { id: "frq", label: "FRQ Practice" },
+  { id: "exams", label: "MCQ Exams" },
   { id: "dashboard", label: "Dashboard" },
 ];
 
@@ -42,6 +47,15 @@ function ModeIcon({ id, size = 16 }) {
       <svg {...common}>
         <path d="M4.5 19.5L5.2 16.1L15.8 5.5C16.4 4.9 17.3 4.9 17.9 5.5L18.5 6.1C19.1 6.7 19.1 7.6 18.5 8.2L7.9 18.8L4.5 19.5Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M14.3 6.9L17.1 9.7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (id === "exams") {
+    return (
+      <svg {...common}>
+        <rect x="5" y="4.5" width="14" height="16" rx="2.2" stroke="currentColor" strokeWidth="1.7"/>
+        <path d="M9 4.5V3.5H15V4.5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M8.5 10H15.5M8.5 13.5H15.5M8.5 17H12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
       </svg>
     );
   }
@@ -243,8 +257,8 @@ export default function Physics1Page() {
         </div>
       </div>
 
-      <div style={S.body} className="app-body">
-        {mode !== "dashboard" && !globalReview && (
+      <div style={S.body} className="app-body" data-no-sidebar={mode === "dashboard" || mode === "exams" || globalReview ? "true" : undefined}>
+        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
           <button style={S.unitSwitcher} className="mobile-only-switcher" onClick={() => setSidebarOpen(true)} aria-haspopup="dialog" aria-expanded={sidebarOpen}>
             <span style={S.unitSwitcherLeft}>
               <span style={S.unitSwitcherNum}>Unit {unit.id}</span>
@@ -256,7 +270,7 @@ export default function Physics1Page() {
           </button>
         )}
 
-        {mode !== "dashboard" && !globalReview && (
+        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
           <div
             style={S.drawerBackdrop}
             className={sidebarOpen ? "app-sidebar-backdrop open" : "app-sidebar-backdrop"}
@@ -624,6 +638,10 @@ export default function Physics1Page() {
                 </div>
               )}
             </div>
+          )}
+
+          {mode === "exams" && (
+            <ExamEngine hubKey="physics1" format={EXAM_FORMAT} exams={EXAMS} units={UNITS} colors={EXAM_COLORS} />
           )}
 
           {mode === "dashboard" && (
