@@ -1,0 +1,24 @@
+// Figure assignments for AP Physics 1 Exam 3 (question id -> figures).
+import * as P from "./p1figs.mjs";
+const { fig } = P;
+
+export default {
+  "e3-3": [fig(P.displacement({ a: "6.0 m east", bText: "8.0 m north" }), "A path starting at a point, going 6.0 meters east and then 8.0 meters north to the end point.")],
+  "e3-4": [fig(P.incline({ deg: 30, blockLabel: "2.0 kg", t: 0.86, hText: "3.0 m", info: "frictionless" }), "A 2.0 kilogram box at the top of a frictionless ramp, 3.0 meters above the bottom of the ramp.")],
+  "e3-7": [fig(P.flatBlocks({ blocks: [{ label: "3.0 kg", w: 100 }], forces: [{ label: "12 N", dir: 1, on: 0, len: 100 }, { label: "4.0 N", dir: -1, on: 0, len: 56 }], surfaceLabel: "frictionless surface", ends: ["west", "east"] }), "A 3.0 kilogram object on a frictionless horizontal surface with a 12 newton force toward the east (right) and a 4.0 newton force toward the west (left).")],
+  "e3-12": [fig(P.incline({ deg: 30, blockLabel: "50 kg", t: 0.5, slopeText: "20 m", arrows: [{ dir: 1, label: "rope", len: 56 }, { dir: -1, label: "100 N friction", len: 56 }] }), "A 50 kilogram sled pulled 20 meters up a 30 degree incline by a rope along the slope, with a 100 newton friction force acting down the slope.")],
+  "e3-14": [fig(P.pipe({ left: ["wide section", "v = 2.0 m/s"], right: ["narrow section", "v = 6.0 m/s"] }), "A horizontal pipe with water moving at 2.0 meters per second in the wide section and 6.0 meters per second in the narrow section.")],
+  "e3-15": [fig(P.hill({ hText: "25 m" }), "A roller-coaster car at rest at the top of a hill 25 meters above the bottom of the track.")],
+  "e3-16": [fig(P.flatBlocks({ blocks: [{ label: "4.0 kg", w: 90 }, { label: "6.0 kg", w: 100 }], tie: [0, 1], forces: [{ label: "30 N", dir: 1, on: 1, len: 90 }], surfaceLabel: "frictionless surface" }), "A 4.0 kilogram block connected by a string to a 6.0 kilogram block on a frictionless surface, with a 30 newton force pulling the 6.0 kilogram block to the right, away from the other block.")],
+  "e3-21": [fig(P.diskChild({ wText: "ω = 2.0 rad/s", rText: "2.0 m", childText: "25 kg child" }), "Top view of a horizontal disk rotating at 2.0 radians per second about its center, and a 25 kilogram child standing at rest beside the disk who will step onto it and stay 2.0 meters from the axis.")],
+  "e3-26": [fig(P.graph({ x: [0, 8, 1], y: [0, 6, 2], xLabel: "t (s)", yLabel: "v (m/s)", series: [{ name: "v", pts: [[0, 0], [2, 4], [5, 4], [8, 1]], color: "#3F7A94" }] }), "A velocity versus time graph: the velocity rises from 0 to 4 meters per second over 2 seconds, stays constant until 5 seconds, then decreases to 1 meter per second at 8 seconds.")],
+  "e3-27": [fig(P.launchAngle({ vText: "20 m/s", deg: 30 }), "A ball launched from level ground with a speed of 20 meters per second at an angle of 30 degrees above the horizontal.")],
+  "e3-31": [fig(P.carts({ rows: [
+    { title: "Before", items: [{ x: 80, w: 26, shape: "ball", label: "0.25 kg", v: "8.0 m/s", dir: 1 }] },
+    { title: "After, leaving the bat", items: [{ x: 300, w: 26, shape: "ball", label: "0.25 kg", v: "12 m/s", dir: -1 }] }] }), "A 0.25 kilogram ball moving right at 8.0 meters per second toward a bat, and then leaving the bat moving left at 12 meters per second.")],
+  "e3-33": [fig(P.beam({ L: 3, supports: [{ at: 0, label: "left support" }, { at: 3, label: "right support" }], loads: [{ at: 1, kind: "rest", label: "60 kg", w: 44 }], beamLabel: "uniform beam, 30 kg", labelAt: 0.74, dims: [{ a: 0, b: 1, label: "1.0 m" }, { a: 0, b: 3, label: "3.0 m" }] }), "A uniform 3.0 meter beam of mass 30 kilograms resting on a support at each end, with a 60 kilogram person standing 1.0 meter from the left end.")],
+  "e3-35": [fig(P.beam({ L: 2, supports: [{ at: 1, label: "pivot" }], loads: [{ at: 0, kind: "arrow", label: "8.0 N" }, { at: 1.6, kind: "arrow", label: "5.0 N" }], beamLabel: "uniform rod, length 2.0 m", dims: [{ a: 0, b: 1, label: "1.0 m" }, { a: 1, b: 1.6, label: "0.60 m" }] }), "A uniform rod 2.0 meters long pivoted at its center, with an 8.0 newton downward force at the left end and a 5.0 newton downward force 0.60 meters to the right of the pivot.")],
+  "e3-36": [fig(P.springVert({ k: "k = 100 N/m", m: "2.0 kg" }), "A 2.0 kilogram block hanging at rest from a vertical spring with force constant 100 newtons per meter.")],
+  "e3-39": [fig(P.graph({ x: [0, 6, 1], y: [0, 12, 2], xLabel: "t (s)", yLabel: "Net force (N)", series: [{ name: "F", pts: [[0, 0], [2, 10], [4, 10], [6, 0]], color: "#D2705A" }] }), "A graph of net force versus time: the force rises from zero to 10 newtons at 2 seconds, stays constant until 4 seconds, and falls to zero at 6 seconds.")],
+  "e3-42": [fig(P.incline({ deg: 37, blockLabel: "5.0 kg", info: "rough, block at rest" }), "A 5.0 kilogram block at rest on a rough incline that makes an angle of 37 degrees with the horizontal.")],
+};

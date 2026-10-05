@@ -106,7 +106,7 @@ function Figure({ fig, S }) {
         className="exam-fig"
         role="img"
         aria-label={fig.alt || "Figure"}
-        style={{ maxWidth: fig.maxWidth || 560 }}
+        style={{ maxWidth: fig.maxWidth || 560, ...(fig.minWidth ? { "--fig-min": fig.minWidth + "px" } : {}) }}
         dangerouslySetInnerHTML={{ __html: fig.svg }}
       />
       {fig.caption && <figcaption style={S.figCaption}>{fig.caption}</figcaption>}
@@ -773,7 +773,7 @@ const layoutCss = `
     .exam-layout aside{ position:static; }
   }
   .exam-fig svg{ width:100%; height:auto; display:block; }
-  @media (max-width: 520px){ .exam-fig{ overflow-x:auto; } .exam-fig svg{ min-width:440px; } }
+  @media (max-width: 520px){ .exam-fig{ overflow-x:auto; } .exam-fig svg{ min-width:var(--fig-min, 440px); } }
   .exam-ref{ font-size:14.5px; line-height:1.55; }
   .exam-ref h4{ font-family:'Manrope',sans-serif; font-size:15px; margin:16px 0 6px; }
   .exam-ref table{ border-collapse:collapse; width:100%; margin:6px 0 10px; }

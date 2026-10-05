@@ -1,0 +1,24 @@
+// Figure assignments for AP Physics 1 Exam 4 (question id -> figures).
+import * as P from "./p1figs.mjs";
+const { fig } = P;
+
+export default {
+  "e4-2": [fig(P.cliff({ hText: "20 m", vText: "10 m/s" }), "A ball thrown horizontally at 10 meters per second from the top of a 20 meter high cliff.")],
+  "e4-3": [fig(P.circleTop({ rText: "r = 1.0 m", vText: "4.0 m/s", objText: "0.50 kg" }), "Top view of a 0.50 kilogram ball on a string moving in a horizontal circle of radius 1.0 meter at 4.0 meters per second.")],
+  "e4-8": [fig(P.beam({ L: 3, supports: [{ at: 0.5 }], loads: [{ at: 0, kind: "rest", label: "600 N", w: 56 }, { at: 3, kind: "arrow", label: "F = ?" }], beamLabel: "massless lever, 3.0 m", dims: [{ a: 0, b: 0.5, label: "0.50 m" }, { a: 0, b: 3, label: "3.0 m" }] }), "A massless lever 3.0 meters long on a fulcrum 0.50 meters from the left end, with a 600 newton load resting on the left end and an unknown downward force F applied at the right end.")],
+  "e4-9": [fig(P.circleTop({ rText: "r = 50 m", vText: "15 m/s", objText: "1200 kg", kind: "car", string: "dashed" }), "Top view of a 1200 kilogram car moving at a constant 15 meters per second around a circular track of radius 50 meters.")],
+  "e4-10": [fig(P.torqueArm({ body: "door", rText: "0.80 m", F: "50 N", deg: 60, pivotLabel: "hinge" }), "Top view of a door hinged on the left. A 50 newton force is applied at the handle, 0.80 meters from the hinge, at an angle of 60 degrees to the line from the hinge to the handle.")],
+  "e4-11": [fig(P.stackBlocks({ top: "2.0 kg", bottom: "8.0 kg", aText: "a = 1.5 m/s²" }), "A 2.0 kilogram block resting on top of an 8.0 kilogram block on a frictionless table. A horizontal force F on the lower block accelerates both blocks together at 1.5 meters per second squared.")],
+  "e4-13": [fig(P.carts({ rows: [{ title: "Before the collision", items: [{ x: 50, w: 70, label: "1.0 kg", v: "6.0 m/s", dir: 1 }, { x: 290, w: 100, label: "2.0 kg", v: "at rest" }] }] }), "A 1.0 kilogram block moving right at 6.0 meters per second toward a 2.0 kilogram block at rest.")],
+  "e4-17": [fig(P.tankHole({ hText: "1.8 m" }), "A large open water tank with a small hole in its side 1.8 meters below the water surface, with water leaving the hole in a stream.")],
+  "e4-20": [fig(P.incline({ deg: 30, blockLabel: "2.0 kg", info: "rough, μk = 0.50", t: 0.7 }), "A 2.0 kilogram block released from rest on a rough incline at 30 degrees with the horizontal, with a coefficient of kinetic friction of 0.50.")],
+  "e4-22": [fig(P.springVert({ k: "k = 800 N/m", m: "0.40 kg", mode: "launch", dimText: "0.10 m" }), "A 0.40 kilogram ball resting on a vertical spring with force constant 800 newtons per meter that is compressed 0.10 meters below its relaxed length.")],
+  "e4-25": [fig(P.dropCompare({ mode: "throw", hText: "2.0 m" }), "Ball 1 dropped from rest and ball 2 thrown horizontally with a large speed, both released at the same instant from the same height of 2.0 meters above the floor.")],
+  "e4-26": [fig(P.beam({ L: 1.5, supports: [], loads: [{ at: 1.5, kind: "bob", label: "2.0 kg" }], axis: 0, dims: [{ a: 0, b: 1.5, label: "1.5 m" }], beamLabel: "light rod" }), "A 2.0 kilogram point mass at the end of a light rod 1.5 meters long that pivots about its other end.")],
+  "e4-31": [fig(P.skateWall({}), "A student standing on a skateboard with both hands pushing against a wall, then rolling backward away from the wall.")],
+  "e4-34": [fig(P.cliff({ hText: "h = ?", vText: "15 m/s", dText: "45 m" }), "A stone thrown horizontally at 15 meters per second from the top of a cliff of unknown height, landing 45 meters from the base of the cliff.")],
+  "e4-35": [fig(P.circleTop({ rText: "r", objText: "", vText: "", showV: false, stringBreak: true }), "Top view of a ball swinging in a horizontal circle on a string. The string breaks when the ball reaches the point on the right side of the circle.")],
+  "e4-36": [fig(P.graph({ x: [0, 6, 1], y: [0, 7, 1], xLabel: "t (s)", yLabel: "v (m/s)", series: [{ name: "v", pts: [[0, 6], [2, 6], [6, 0]], color: "#3F7A94" }] }), "A velocity versus time graph: constant 6.0 meters per second for 2.0 seconds, then decreasing uniformly to zero at 6.0 seconds.")],
+  "e4-39": [fig(P.graph({ x: [0, 8, 2], y: [0, 2, 0.5], xLabel: "F (N)", yLabel: "a (m/s²)", series: [{ name: "a", pts: [[0, 0], [2, 0.5], [4, 1], [6, 1.5], [8, 2]], color: "#3F7A94", markers: true }] }), "A graph of acceleration versus net force for a cart: a straight line through the origin with a slope of 0.25 per kilogram, passing through the points (2 N, 0.5 m/s squared), (4 N, 1.0), (6 N, 1.5) and (8 N, 2.0).")],
+  "e4-41": [fig(P.floatCylinder({ fracText: "30% below the surface" }), "A uniform cylinder floating upright in water with 30 percent of its volume below the water surface.")],
+};

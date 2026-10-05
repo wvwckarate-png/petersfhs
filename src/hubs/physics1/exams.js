@@ -7,6 +7,7 @@ import EXAM_1 from "./exams/exam1";
 import EXAM_2 from "./exams/exam2";
 import EXAM_3 from "./exams/exam3";
 import EXAM_4 from "./exams/exam4";
+import SAMPLE_FIGURES from "./exams/sample-figures";
 
 const EXAM_FORMAT = {
   questions: 42,
@@ -136,7 +137,7 @@ const SAMPLE_EXAM = {
 };
 
 const FULL_DESCRIPTION =
-  "A full-length, 42-question exam with units weighted like the real AP Physics 1 exam. Every question is new — none repeat from MCQ Practice.";
+  "A full-length, 42-question exam with units weighted like the real AP Physics 1 exam. Every question is new — none repeat from MCQ Practice. Many questions include diagrams and graphs.";
 
 const FULL_EXAMS = [EXAM_1, EXAM_2, EXAM_3, EXAM_4].map((questions, i) => ({
   id: `exam-${i + 1}`,
@@ -144,6 +145,8 @@ const FULL_EXAMS = [EXAM_1, EXAM_2, EXAM_3, EXAM_4].map((questions, i) => ({
   description: FULL_DESCRIPTION,
   questions,
 }));
+
+SAMPLE_EXAM.questions = SAMPLE_EXAM.questions.map((q) => (SAMPLE_FIGURES[q.id] ? { ...q, figures: SAMPLE_FIGURES[q.id] } : q));
 
 const EXAMS = [SAMPLE_EXAM, ...FULL_EXAMS];
 
