@@ -6,6 +6,7 @@ import RichText from "../shared/RichText";
 import ExamEngine from "../shared/ExamEngine";
 import { EXAM_FORMAT, EXAMS, REFERENCE } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
+import { useSectionProgress } from "../shared/useSectionProgress";
 
 const PHYSICS2_COLORS = {
   sage: "#7C9B72", sageDeep: "#5E7A55", sagePale: "#EAF1E6", sagePill: "#DCEAD5",
@@ -110,6 +111,9 @@ export default function Physics2Page() {
     if (!navLoaded) return;
     storage.set(NAV_STORAGE_KEY, JSON.stringify({ mode, unitId }), false).catch(() => {});
   }, [mode, unitId, navLoaded]);
+
+  // Section check-offs for the study guide ("Jump to a section" list + end-of-section buttons)
+  const sectionProgress = useSectionProgress({ hubKey: "physics2-hub", content: STUDY_CONTENT, unitId, active: mode === "study" });
 
   // Fix "Jump to" links inside study guide content — the injected HTML's <a href="#s91">
   // anchors don't reliably trigger native browser scrolling inside this app's scroll
@@ -304,6 +308,12 @@ export default function Physics2Page() {
                     {mode === "mcq" && (
                       <div style={S.miniTrack}><div style={{ ...S.miniFill, width: `${pct}%` }} /></div>
                     )}
+                    {mode === "study" && sectionProgress.progress(u.id).done > 0 && (
+                      <>
+                        <div style={S.miniTrack}><div style={{ ...S.miniFill, width: `${sectionProgress.progress(u.id).pct}%` }} /></div>
+                        <div style={{ fontSize: 11.5, color: "#767F73", marginTop: 5 }}>{sectionProgress.progress(u.id).done}/{sectionProgress.progress(u.id).total} sections done</div>
+                      </>
+                    )}
                   </button>
                 );
               })}
@@ -314,6 +324,7 @@ export default function Physics2Page() {
         <main style={S.main}>
           {mode === "study" && (
             <div
+              data-study-pane
               style={S.studyPane}
               dangerouslySetInnerHTML={{ __html: STUDY_CONTENT[unitId] || "<p>Content not found.</p>" }}
             />

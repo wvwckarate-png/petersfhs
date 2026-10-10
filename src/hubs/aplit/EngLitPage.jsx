@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
+import { useSectionProgress } from "../shared/useSectionProgress";
 
 const ENGLIT_COLORS = {
   sage: "#3E5C8A", sageDeep: "#2E4568", sagePale: "#E9EDF5", sagePill: "#D6DFEE",
@@ -96,6 +97,9 @@ export default function EngLitPage() {
     if (!navLoaded) return;
     storage.set(NAV_STORAGE_KEY, JSON.stringify({ mode, unitId }), false).catch(() => {});
   }, [mode, unitId, navLoaded]);
+
+  // Section check-offs for the study guide ("Jump to a section" list + end-of-section buttons)
+  const sectionProgress = useSectionProgress({ hubKey: "englit-hub", content: STUDY_CONTENT, unitId, active: mode === "study" });
 
   // Fix "Jump to" links inside study guide content — the injected HTML's <a href="#s91">
   // anchors don't reliably trigger native browser scrolling inside this app's scroll
@@ -296,6 +300,12 @@ export default function EngLitPage() {
                     {mode === "mcq" && (
                       <div style={S.miniTrack}><div style={{ ...S.miniFill, width: `${pct}%` }} /></div>
                     )}
+                    {mode === "study" && sectionProgress.progress(u.id).done > 0 && (
+                      <>
+                        <div style={S.miniTrack}><div style={{ ...S.miniFill, width: `${sectionProgress.progress(u.id).pct}%` }} /></div>
+                        <div style={{ fontSize: 11.5, color: "#767F73", marginTop: 5 }}>{sectionProgress.progress(u.id).done}/{sectionProgress.progress(u.id).total} sections done</div>
+                      </>
+                    )}
                   </button>
                 );
               })}
@@ -306,6 +316,7 @@ export default function EngLitPage() {
         <main style={S.main}>
           {mode === "study" && (
             <div
+              data-study-pane
               style={S.studyPane}
               dangerouslySetInnerHTML={{ __html: STUDY_CONTENT[unitId] || "<p>Content not found.</p>" }}
             />
