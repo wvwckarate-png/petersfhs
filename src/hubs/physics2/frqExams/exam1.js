@@ -91,7 +91,7 @@ const EXAM = {
     {
      "id": "A (i)",
      "label": "Part A (i)",
-     "prompt": "On Figure 1, draw two principal rays from the top of the object that can be used to locate the image formed by the lens. Then draw the image and indicate whether it is real or virtual and upright or inverted.",
+     "prompt": "On a sketch of Figure 1, draw two principal rays from the top of the object that can be used to locate the image formed by the lens. Then draw the image and indicate whether it is real or virtual and upright or inverted.",
      "paper": true,
      "modelFigures": [
       {
@@ -150,7 +150,7 @@ const EXAM = {
     {
      "id": "C",
      "label": "Part C",
-     "prompt": "On the axes provided, sketch a graph of the image distance <i>d</i><sub>i</sub> as a function of the object distance <i>d</i><sub>o</sub> for object distances from 15 cm to 60 cm. Label the values of <i>d</i><sub>i</sub> at both ends of your curve.",
+     "prompt": "On a set of axes that you draw, sketch a graph of the image distance <i>d</i><sub>i</sub> as a function of the object distance <i>d</i><sub>o</sub> for object distances from 15 cm to 60 cm. Label the values of <i>d</i><sub>i</sub> at both ends of your curve.",
      "paper": true,
      "modelFigures": [
       {

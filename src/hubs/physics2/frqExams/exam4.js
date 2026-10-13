@@ -116,7 +116,7 @@ const EXAM = {
     {
      "id": "C",
      "label": "Part C",
-     "prompt": "On the axes provided, sketch the cycle as a graph of temperature <i>T</i> as a function of volume <i>V</i>. Take <i>T</i><sub>A</sub> as the unit of temperature, label the four states, and use arrows to show the direction of the cycle.",
+     "prompt": "On a set of axes that you draw, sketch the cycle as a graph of temperature <i>T</i> as a function of volume <i>V</i>. Take <i>T</i><sub>A</sub> as the unit of temperature, label the four states, and use arrows to show the direction of the cycle.",
      "paper": true,
      "modelFigures": [
       {

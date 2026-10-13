@@ -54,8 +54,8 @@ export function cladogram({ tree, W = 480, H = 280, traits = [] }) {
 }
 
 /** Gel electrophoresis. lanes: [{label, bands:[0..1 (0=top/wells,1=bottom)]}] */
-export function gel({ lanes, W = 480, H = 280 }) {
-  const mL = 30, laneW = (W - mL - 20) / lanes.length; let b = rect(mL - 6, 28, W - mL - 8, H - 50, { fill: "#EDE8DC", stroke: COL.ink, w: 1.6 });
+export function gel({ lanes, W = 480, H = 280, mL = 30 }) {
+  const laneW = (W - mL - 20) / lanes.length; let b = rect(mL - 6, 28, W - mL - 8, H - 50, { fill: "#EDE8DC", stroke: COL.ink, w: 1.6 });
   lanes.forEach((l, i) => {
     const x = mL + laneW * i + laneW / 2;
     b += rect(x - laneW * 0.32, 32, laneW * 0.64, 7, { fill: "#fff", stroke: COL.ink, w: 1 }) + text(x, 20, l.label, { size: 12, weight: 700 });

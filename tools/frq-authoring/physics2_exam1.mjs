@@ -94,7 +94,7 @@ export default exam({
       ["A thin converging lens has focal length 12 cm. An object 4.0 cm tall is placed 30 cm to the left of the lens on its principal axis, as shown in Figure 1."],
       [lensFig],
       [
-        P("A (i)", "On Figure 1, draw two principal rays from the top of the object that can be used to locate the image formed by the lens. Then draw the image and indicate whether it is real or virtual and upright or inverted.", [
+        P("A (i)", "On a sketch of Figure 1, draw two principal rays from the top of the object that can be used to locate the image formed by the lens. Then draw the image and indicate whether it is real or virtual and upright or inverted.", [
           "For a ray from the top of the object that travels parallel to the axis and refracts through the focal point on the right side of the lens",
           "For a second ray that is correct: through the center of the lens without bending, or through the left focal point and emerging parallel to the axis",
           "For locating the image at the point where the rays cross (on the right side) and indicating that it is real and inverted",
@@ -120,7 +120,7 @@ export default exam({
         ], [
           `Now the object is inside the focal length (8.0 cm is less than 12 cm). 1/<i>d</i><sub>i</sub> = 1/<i>f</i> − 1/<i>d</i><sub>o</sub> = 1/12 − 1/8 = (2 − 3)/24 = −1/24 cm<sup>−1</sup>, so <i>d</i><sub>i</sub> = <b>−24 cm</b>. The negative sign means the image is <b>virtual</b>: it is on the same side of the lens as the object, and the refracted rays only appear to diverge from it. The magnification is <i>m</i> = −<i>d</i><sub>i</sub>/<i>d</i><sub>o</sub> = +3.0, so the image is <b>upright</b> and <b>three times as large</b> as the object — the lens is acting as a magnifying glass.`,
         ], { label: "Part B" }),
-        P("C", "On the axes provided, sketch a graph of the image distance <i>d</i><sub>i</sub> as a function of the object distance <i>d</i><sub>o</sub> for object distances from 15 cm to 60 cm. Label the values of <i>d</i><sub>i</sub> at both ends of your curve.", [
+        P("C", "On a set of axes that you draw, sketch a graph of the image distance <i>d</i><sub>i</sub> as a function of the object distance <i>d</i><sub>o</sub> for object distances from 15 cm to 60 cm. Label the values of <i>d</i><sub>i</sub> at both ends of your curve.", [
           "For a curve that decreases as the object distance increases and is concave up (steep at first, flattening out)",
           "For correct end values: <i>d</i><sub>i</sub> = 60 cm at <i>d</i><sub>o</sub> = 15 cm and <i>d</i><sub>i</sub> = 15 cm at <i>d</i><sub>o</sub> = 60 cm",
         ], [

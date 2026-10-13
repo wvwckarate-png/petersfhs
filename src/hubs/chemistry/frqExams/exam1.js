@@ -252,7 +252,7 @@ const EXAM = {
       "For explaining that NH<sub>4</sub><sup>+</sup> donates protons to water, NH<sub>4</sub><sup>+</sup> + H<sub>2</sub>O ⇌ NH<sub>3</sub> + H<sub>3</sub>O<sup>+</sup>, producing H<sub>3</sub>O<sup>+</sup> and making the solution acidic"
      ],
      "model": [
-      "At the equivalence point, all the NH<sub>3</sub> has been converted to NH<sub>4</sub><sup>+</sup>, and the solution contains NH<sub>4</sub><sup>+</sup> and Cl<sup>−</sup>. Cl<sup>−</sup> is the conjugate base of a strong acid and does not react with water. NH<sub>4</sub><sup>+</sup> is the conjugate acid of a weak base and is a weak acid: NH<sub>4</sub><sup>+</sup>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ NH<sub>3</sub>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>). This adds H<sub>3</sub>O<sup>+</sup> to the solution, so the pH at the equivalence point is below 7 (about 5.3 for a 0.075 M solution)."
+      "At the equivalence point, all the NH<sub>3</sub> has been converted to NH<sub>4</sub><sup>+</sup>, and the solution contains NH<sub>4</sub><sup>+</sup> and Cl<sup>−</sup>. Cl<sup>−</sup> is the conjugate base of a strong acid and does not react with water. NH<sub>4</sub><sup>+</sup> is the conjugate acid of a weak base and is a weak acid: NH<sub>4</sub><sup>+</sup>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ NH<sub>3</sub>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>). This adds H<sub>3</sub>O<sup>+</sup> to the solution, so the pH at the equivalence point is below 7 (about 5.2 for a 0.075 M solution)."
      ]
     }
    ]

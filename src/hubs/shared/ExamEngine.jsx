@@ -919,4 +919,5 @@ function makeStyles(C) {
 }
 
 // Shared with the FRQ exam engine.
+/* eslint-disable react/only-export-components */
 export { Figure, makeStyles, layoutCss, fmtClock };

@@ -84,7 +84,7 @@ export default exam({
       ["Figure 1 shows equipotential lines in a region of space that contains an electric field. The potential of each line is given."],
       [equiFig],
       [
-        P("A", "On Figure 1, draw at least three electric field lines in the region between the 30 V and 0 V equipotential lines. Include arrowheads to show the direction of the field.", [
+        P("A", "On a sketch of Figure 1, draw at least three electric field lines in the region between the 30 V and 0 V equipotential lines. Include arrowheads to show the direction of the field.", [
           "For field lines that are perpendicular to the equipotential lines (horizontal)",
           "For field lines that are parallel and evenly spaced, showing a uniform field",
           "For arrowheads that point in the +<i>x</i> direction, from high potential toward low potential",
@@ -98,7 +98,7 @@ export default exam({
           "For using conservation of energy: <i>e</i>Δ<i>V</i> = ½<i>mv</i><sup>2</sup>, with Δ<i>V</i> = 30 V",
           "For a correct speed of about 7.6 × 10<sup>4</sup> m/s",
         ], [`The force on the positive proton is in the direction of the field (+<i>x</i>), and the field is uniform, so the proton moves along +<i>x</i> with a constant acceleration, speeding up. By conservation of energy, the kinetic energy gained equals the electric potential energy lost: ½<i>mv</i><sup>2</sup> = <i>e</i>Δ<i>V</i> = (1.60 × 10<sup>−19</sup> C)(30 V) = 4.8 × 10<sup>−18</sup> J. So <i>v</i> = √(2(4.8 × 10<sup>−18</sup> J)/(1.67 × 10<sup>−27</sup> kg)) ≈ <b>7.6 × 10<sup>4</sup> m/s</b>.`], { label: "Part C" }),
-        P("D", "On the axes provided, sketch a graph of the electric potential energy <i>U</i> of the proton as a function of its position <i>x</i> as it moves from <i>x</i> = 0 to <i>x</i> = 6 cm. Label the values of <i>U</i> at the endpoints.", [
+        P("D", "On a set of axes that you draw, sketch a graph of the electric potential energy <i>U</i> of the proton as a function of its position <i>x</i> as it moves from <i>x</i> = 0 to <i>x</i> = 6 cm. Label the values of <i>U</i> at the endpoints.", [
           "For a straight line (linear) that decreases as <i>x</i> increases",
           "For correct endpoints: 30 eV (4.8 × 10<sup>−18</sup> J) at <i>x</i> = 0 and 0 at <i>x</i> = 6 cm",
         ], ["The potential energy of the proton is <i>U</i> = <i>eV</i>. In a uniform field <i>V</i> decreases linearly with <i>x</i>, so <i>U</i> is a straight line sloping down from 30 eV (4.8 × 10<sup>−18</sup> J) at <i>x</i> = 0 to 0 at <i>x</i> = 6 cm. The magnitude of the slope is the force on the proton, <i>eE</i>."], { label: "Part D", paper: true, modelFigures: [UpModel] }),

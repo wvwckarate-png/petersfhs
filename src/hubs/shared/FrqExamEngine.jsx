@@ -48,7 +48,7 @@ function selfScore(exam, checks) {
 }
 
 /** Textarea that keeps its own text while typing and saves (debounced) to the exam record. */
-function ResponseBox({ value, onSave, S, F, rows = 6, label }) {
+function ResponseBox({ value, onSave, F, rows = 6, label }) {
   const [v, setV] = useState(value || "");
   const latest = useRef(v);
   const saved = useRef(value || "");
@@ -391,7 +391,6 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
                 key={`${exam.id}-${key(q, p)}`}
                 value={answers[key(q, p)]}
                 onSave={(t) => saveAnswer(exam.id, key(q, p), t)}
-                S={S}
                 F={F}
                 rows={p.rows || (partPoints(p) >= 3 ? 7 : 4)}
                 label={`Response for ${q.id} ${p.label || p.id}`}
@@ -524,7 +523,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
           <div style={F.reflect}>
             <div style={F.subLabel}>My reflection on Question {n + 1}</div>
             <div style={F.reflectHint}>What did I miss? Which concept or skill do I need to review? What will I do differently next time?</div>
-            <ResponseBox key={`note-${exam.id}-${q.id}`} value={notes[q.id]} onSave={(t) => saveNote(exam.id, q.id, t)} S={S} F={F} rows={3} label={`Reflection for question ${n + 1}`} />
+            <ResponseBox key={`note-${exam.id}-${q.id}`} value={notes[q.id]} onSave={(t) => saveNote(exam.id, q.id, t)} F={F} rows={3} label={`Reflection for question ${n + 1}`} />
           </div>
         </div>
       ))}

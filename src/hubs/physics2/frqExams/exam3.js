@@ -91,7 +91,7 @@ const EXAM = {
     {
      "id": "A",
      "label": "Part A",
-     "prompt": "On Figure 1, draw at least three electric field lines in the region between the 30 V and 0 V equipotential lines. Include arrowheads to show the direction of the field.",
+     "prompt": "On a sketch of Figure 1, draw at least three electric field lines in the region between the 30 V and 0 V equipotential lines. Include arrowheads to show the direction of the field.",
      "paper": true,
      "modelFigures": [
       {
@@ -137,7 +137,7 @@ const EXAM = {
     {
      "id": "D",
      "label": "Part D",
-     "prompt": "On the axes provided, sketch a graph of the electric potential energy <i>U</i> of the proton as a function of its position <i>x</i> as it moves from <i>x</i> = 0 to <i>x</i> = 6 cm. Label the values of <i>U</i> at the endpoints.",
+     "prompt": "On a set of axes that you draw, sketch a graph of the electric potential energy <i>U</i> of the proton as a function of its position <i>x</i> as it moves from <i>x</i> = 0 to <i>x</i> = 6 cm. Label the values of <i>U</i> at the endpoints.",
      "paper": true,
      "modelFigures": [
       {
