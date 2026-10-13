@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useCallback } from "react";
+import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
 import { storage } from "../../lib/storage";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
@@ -7,6 +7,8 @@ import ExamEngine from "../shared/ExamEngine";
 import { EXAM_FORMAT, EXAMS, REFERENCE } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+
+const FrqExamsView = lazy(() => import("./FrqExamsView"));
 
 const PHYSICS2_COLORS = {
   sage: "#7C9B72", sageDeep: "#5E7A55", sagePale: "#EAF1E6", sagePill: "#DCEAD5",
@@ -22,6 +24,7 @@ const MODES = [
   { id: "mcq", label: "MCQ Practice" },
   { id: "frq", label: "FRQ Practice" },
   { id: "exams", label: "MCQ Exams" },
+  { id: "frqexams", label: "FRQ Exams" },
   { id: "dashboard", label: "Dashboard" },
 ];
 
@@ -57,6 +60,16 @@ function ModeIcon({ id, size = 16 }) {
         <rect x="5" y="4.5" width="14" height="16" rx="2.2" stroke="currentColor" strokeWidth="1.7"/>
         <path d="M9 4.5V3.5H15V4.5" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M8.5 10H15.5M8.5 13.5H15.5M8.5 17H12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (id === "frqexams") {
+    return (
+      <svg {...common}>
+        <path d="M6.5 3.8H14L18.5 8.3V17.2C18.5 18.4 17.5 19.4 16.3 19.4H6.5C5.3 19.4 4.3 18.4 4.3 17.2V6C4.3 4.8 5.3 3.8 6.5 3.8Z" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"/>
+        <path d="M14 3.8V8.3H18.5" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"/>
+        <path d="M8 12.2H14.5M8 15.2H12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+        <path d="M13 20.6L14 17.9L19.6 12.3C20.1 11.8 20.9 11.8 21.4 12.3C21.9 12.8 21.9 13.6 21.4 14.1L15.8 19.7L13 20.6Z" fill="#fff" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round"/>
       </svg>
     );
   }
@@ -261,8 +274,8 @@ export default function Physics2Page() {
         </div>
       </div>
 
-      <div style={S.body} className="app-body" data-no-sidebar={mode === "dashboard" || mode === "exams" || globalReview ? "true" : undefined}>
-        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
+      <div style={S.body} className="app-body" data-no-sidebar={mode === "dashboard" || mode === "exams" || mode === "frqexams" || globalReview ? "true" : undefined}>
+        {mode !== "dashboard" && mode !== "exams" && mode !== "frqexams" && !globalReview && (
           <button style={S.unitSwitcher} className="mobile-only-switcher" onClick={() => setSidebarOpen(true)} aria-haspopup="dialog" aria-expanded={sidebarOpen}>
             <span style={S.unitSwitcherLeft}>
               <span style={S.unitSwitcherNum}>Unit {unit.id}</span>
@@ -274,7 +287,7 @@ export default function Physics2Page() {
           </button>
         )}
 
-        {mode !== "dashboard" && mode !== "exams" && !globalReview && (
+        {mode !== "dashboard" && mode !== "exams" && mode !== "frqexams" && !globalReview && (
           <div
             style={S.drawerBackdrop}
             className={sidebarOpen ? "app-sidebar-backdrop open" : "app-sidebar-backdrop"}
@@ -653,6 +666,12 @@ export default function Physics2Page() {
 
           {mode === "exams" && (
             <ExamEngine hubKey="physics2" format={EXAM_FORMAT} exams={EXAMS} units={UNITS} colors={EXAM_COLORS} reference={REFERENCE} />
+          )}
+
+          {mode === "frqexams" && (
+            <Suspense fallback={<div style={{ color: "#767F73", padding: 20 }}>Loading FRQ exams…</div>}>
+              <FrqExamsView colors={EXAM_COLORS} />
+            </Suspense>
           )}
 
           {mode === "dashboard" && (

@@ -917,3 +917,6 @@ function makeStyles(C) {
     checkRow: { display: "flex", gap: 10, alignItems: "center", fontSize: 15, fontWeight: 700, margin: "6px 0 6px", cursor: "pointer" },
   };
 }
+
+// Shared with the FRQ exam engine.
+export { Figure, makeStyles, layoutCss, fmtClock };
