@@ -340,7 +340,7 @@ const EXAM = {
       "For the correct value, about 93.8%"
      ],
      "model": [
-      "Percent yield = (actual/theoretical)(100) = (0.485 L / 0.517 L)(100) = <b>93.8%</b>."
+      "Percent yield = (actual yield/theoretical yield)(100). Both volumes are measured at the same temperature and pressure, so they can be compared directly: (0.485 L / 0.517 L)(100) = <b>93.8%</b>. A yield below 100% is expected because some gas can be lost or left in the tubing, or the magnesium may not react completely."
      ]
     }
    ]

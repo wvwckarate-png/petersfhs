@@ -59,6 +59,13 @@ function ResponseBox({ value, onSave, F, rows = 6, label }) {
     if (latest.current !== saved.current) { saved.current = latest.current; onSave(latest.current); }
   }, [onSave]);
   useEffect(() => flush, [flush]);
+  // Don't lose the last few words if the tab is closed or hidden before the debounce fires.
+  useEffect(() => {
+    const onHide = () => { if (document.visibilityState === "hidden" || document.visibilityState === undefined) flush(); };
+    document.addEventListener("visibilitychange", onHide);
+    window.addEventListener("pagehide", flush);
+    return () => { document.removeEventListener("visibilitychange", onHide); window.removeEventListener("pagehide", flush); };
+  }, [flush]);
   useEffect(() => {
     const el = ta.current;
     if (el) { el.style.height = "auto"; el.style.height = Math.max(el.scrollHeight + 2, rows * 24) + "px"; }
@@ -178,6 +185,14 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
     setRevealed({});
     setView({ type: "review", examId });
   }
+  function reopenExam(examId) {
+    const r = storeRef.current[examId];
+    patch(examId, { status: "inprogress", finishedAt: null });
+    elapsedRef.current = r?.elapsed || 0;
+    setElapsed(Math.floor(elapsedRef.current));
+    setTimeUp(false);
+    setView({ type: "run", examId });
+  }
   function resetExam(examId) {
     const next = { ...storeRef.current };
     delete next[examId];
@@ -186,7 +201,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
     setView({ type: "list" });
   }
 
-  // timer
+  // timer — counts real elapsed time (browsers slow timers in background tabs, so don't just add 1 per tick)
   const running = view.type === "run" && rec?.status === "inprogress";
   const timerOn = !!rec?.timerOn;
   useEffect(() => {
@@ -194,11 +209,16 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
     const examId = view.examId;
     const exam = examById(examId);
     const limit = exam ? minutesFor(exam) * 60 : 0;
+    let last = Date.now();
+    let lastSaved = Math.floor(elapsedRef.current);
     const id = setInterval(() => {
-      elapsedRef.current += 1;
-      setElapsed(elapsedRef.current);
-      if (elapsedRef.current % 15 === 0) patch(examId, { elapsed: elapsedRef.current });
-      if (timerOn && limit && elapsedRef.current === limit) setTimeUp(true);
+      const now = Date.now();
+      const before = elapsedRef.current;
+      elapsedRef.current += Math.min((now - last) / 1000, 3600);
+      last = now;
+      setElapsed(Math.floor(elapsedRef.current));
+      if (Math.floor(elapsedRef.current) - lastSaved >= 15) { lastSaved = Math.floor(elapsedRef.current); patch(examId, { elapsed: elapsedRef.current }); }
+      if (timerOn && limit && before < limit && elapsedRef.current >= limit) setTimeUp(true);
     }, 1000);
     return () => {
       clearInterval(id);
@@ -206,6 +226,14 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [running, view.examId, timerOn]);
+
+  // Escape closes pop-ups
+  useEffect(() => {
+    if (!modal) return undefined;
+    const onKey = (e) => { if (e.key === "Escape") setModal(null); };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, [modal]);
 
   const toggleCheck = (examId, k, i) => {
     const r = storeRef.current[examId] || {};
@@ -326,13 +354,13 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
             <div style={S.runTitle}>{exam.title}</div>
             <div style={S.runSub}>{doneParts}/{totalParts} parts written</div>
           </div>
-          <div style={S.runRight}>
+          <div style={{ ...S.runRight, flexWrap: "wrap" }}>
             <div style={{ ...S.clock, ...(lowTime ? S.clockLow : {}) }} aria-live="off">
               {rec.timerOn ? fmtClock(Math.max(0, remaining)) : fmtClock(elapsed)}
               <span style={S.clockTag}>{rec.timerOn ? "left" : "elapsed"}</span>
             </div>
-            {reference && reference.length > 0 && <button style={S.ghostBtn} onClick={() => setModal({ kind: "reference", examId: exam.id })}>Reference</button>}
-            <button style={S.ghostBtn} onClick={() => saveAndExit(exam.id)}>Save &amp; exit</button>
+            {reference && reference.length > 0 && <button style={F.nowrapBtn(S)} onClick={() => setModal({ kind: "reference", examId: exam.id })}>Reference</button>}
+            <button style={F.nowrapBtn(S)} onClick={() => saveAndExit(exam.id)}>Save &amp; exit</button>
           </div>
         </div>
 
@@ -530,6 +558,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
 
       <div style={S.reportFooter}>
         <button style={S.primaryBtn} onClick={() => setView({ type: "list" })}>Back to exams</button>
+        <button style={S.ghostBtn} onClick={() => reopenExam(exam.id)}>Reopen to keep writing</button>
         <button style={S.ghostBtn} onClick={() => setModal({ kind: "reset", examId: exam.id })}>Reset &amp; retake later</button>
       </div>
       {modal && renderModal()}
@@ -591,7 +620,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
           <h3 style={S.modalTitle}>Finish this exam?</h3>
           <p style={S.modalText}>
             {blankParts > 0 ? `${blankParts} part${blankParts === 1 ? " is" : "s are"} still blank. ` : "Every part has a response. "}
-            Finishing opens the answer key. You won't be able to add to your responses afterward (you can reset the exam to retake it).
+            Finishing opens the answer key. If you finish too soon, you can reopen the exam from the answer key page to keep writing.
           </p>
           <div style={S.modalBtns}>
             <button style={S.ghostBtn} onClick={() => setModal(null)}>Keep writing</button>
@@ -641,7 +670,8 @@ function makeFrqStyles(C) {
     pillSub: { fontFamily: mono, fontWeight: 500, fontSize: 10.5, color: "#767F73" },
     qHead: { display: "flex", justifyContent: "space-between", alignItems: "center", gap: 10, flexWrap: "wrap", marginBottom: 6 },
     qChips: { display: "flex", gap: 6, flexWrap: "wrap" },
-    kindChip: { background: C.accentDeep, color: "#fff", fontWeight: 800, fontSize: 11.5, letterSpacing: "0.04em", padding: "4px 11px", borderRadius: 100 },
+    kindChip: { background: C.accentDeep, color: "#fff", fontWeight: 800, fontSize: 11.5, letterSpacing: "0.04em", lineHeight: 1.4, padding: "4px 11px", borderRadius: 12 },
+    nowrapBtn: (S) => ({ ...S.ghostBtn, whiteSpace: "nowrap" }),
     ptsChip: { background: C.pill, color: C.accentDeep, fontWeight: 700, fontSize: 12, padding: "4px 11px", borderRadius: 100 },
     prompt: { margin: "6px 0 4px" },
     introText: { fontSize: 15.5, lineHeight: 1.65, margin: "0 0 10px" },

@@ -28,7 +28,7 @@ const EXAM = {
       "For the correct volume of 25.0 mL, justified from the 1:1 mole ratio (moles of HA = moles of OH<sup>−</sup>: (0.0250 L)(0.100 M) = (0.100 M)<i>V</i>) or from the steep rise in pH on the curve"
      ],
      "model": [
-      "Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>. This agrees with the very steep rise in pH on the curve at about 25 mL."
+      "Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>. This agrees with the very steep rise in pH on the curve at about 25 mL, which marks the equivalence point where the moles of base added equal the moles of acid originally present."
      ]
     },
     {
@@ -150,7 +150,7 @@ const EXAM = {
       "For the correct value, <i>K</i> ≈ 6 × 10<sup>5</sup>"
      ],
      "model": [
-      "Δ<i>G</i>° = −<i>RT</i> ln <i>K</i> → ln <i>K</i> = −Δ<i>G</i>°/(<i>RT</i>) = −(−33.0 × 10<sup>3</sup> J/mol)/[(8.314 J/(mol·K))(298 K)] = 13.3, so <i>K</i> = e<sup>13.3</sup> ≈ <b>610000</b> (about 6 × 10<sup>5</sup>). The large value of <i>K</i> shows that products are strongly favored at 298 K."
+      "Δ<i>G</i>° = −<i>RT</i> ln <i>K</i> → ln <i>K</i> = −Δ<i>G</i>°/(<i>RT</i>) = −(−33.0 × 10<sup>3</sup> J/mol)/[(8.314 J/(mol·K))(298 K)] = 13.3, so <i>K</i> = e<sup>13.3</sup> ≈ <b>6.1 × 10<sup>5</sup></b> (about 6 × 10<sup>5</sup>). The large value of <i>K</i> shows that products are strongly favored at 298 K."
      ]
     },
     {
@@ -208,7 +208,7 @@ const EXAM = {
       "For the correct pressure, about 3.69 atm"
      ],
      "model": [
-      "<i>P</i> = <i>nRT</i>/<i>V</i> = (0.300 mol)(0.08206 L·atm/(mol·K))(300 K)/(2.00 L) = <b>3.69 atm</b>."
+      "The total number of moles of gas is 0.100 + 0.200 = 0.300 mol, and both gases occupy the same container, so <i>P</i> = <i>nRT</i>/<i>V</i> = (0.300 mol)(0.08206 L·atm/(mol·K))(300 K)/(2.00 L) = <b>3.69 atm</b>."
      ]
     },
     {
@@ -318,7 +318,7 @@ const EXAM = {
       "For the correct equation: Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>)"
      ],
      "model": [
-      "Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>). Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> are spectator ions."
+      "Writing the complete ionic equation, Pb<sup>2+</sup> + 2 NO<sub>3</sub><sup>−</sup> + 2 Na<sup>+</sup> + 2 I<sup>−</sup> → PbI<sub>2</sub>(<i>s</i>) + 2 Na<sup>+</sup> + 2 NO<sub>3</sub><sup>−</sup>, the Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> ions appear unchanged on both sides (spectator ions). The net ionic equation is <b>Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>)</b>."
      ]
     },
     {

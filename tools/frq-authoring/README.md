@@ -15,3 +15,5 @@ Real-exam formats used (College Board): Physics 2 — 4 questions (40 points, 95
 representations 12, experimental design and analysis 10, qualitative/quantitative translation 8); Chemistry — 7 questions (46 points, 105 min:
 3 long × 10, 4 short × 4); Biology — 6 questions (34 points, 90 min: 2 long × 9, 4 short × 4).
 Each hub has a sample exam (shorter) and four full exams. After rebuilding an exam, the hub's `frqExams.js` already imports it.
+
+Note: students' self-scoring check marks are saved by rubric position. If you reorder or add scoring points in an exam that someone has already used, tell them to reset that exam (or their check marks will line up with the wrong points).

@@ -1,5 +1,5 @@
 // AP Chemistry FRQ — Exam 3 (46 points, 105 minutes)
-import { exam, P, Q, fig, table, sig } from "./frqlib.mjs";
+import { exam, P, Q, fig, table, sig, sci } from "./frqlib.mjs";
 import { titrationCurve, massSpectrum, maxwell } from "./chemfrqfigs.mjs";
 
 // ---------- Q1: weak acid titration ----------
@@ -58,7 +58,7 @@ export default exam({
       [
         P("A", "Determine the volume of NaOH(<i>aq</i>) that must be added to reach the equivalence point. Justify your answer.", [
           "For the correct volume of 25.0 mL, justified from the 1:1 mole ratio (moles of HA = moles of OH<sup>−</sup>: (0.0250 L)(0.100 M) = (0.100 M)<i>V</i>) or from the steep rise in pH on the curve",
-        ], ["Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>. This agrees with the very steep rise in pH on the curve at about 25 mL."], { label: "Part A" }),
+        ], ["Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>. This agrees with the very steep rise in pH on the curve at about 25 mL, which marks the equivalence point where the moles of base added equal the moles of acid originally present."], { label: "Part A" }),
         P("B", "Use the titration curve to estimate the acid-dissociation constant, <i>K</i><sub>a</sub>, of HA. Explain your method.", [
           "For identifying the half-equivalence point (12.5 mL) and reading the pH there, about 4.7, and indicating that at that point [HA] = [A<sup>−</sup>], so pH = p<i>K</i><sub>a</sub>",
           "For a correct value of <i>K</i><sub>a</sub> ≈ 1.8 × 10<sup>−5</sup> (10<sup>−4.74</sup>)",
@@ -91,7 +91,7 @@ export default exam({
         P("B", "Calculate the value of the equilibrium constant, <i>K</i>, at 298 K. Show your work. (<i>R</i> = 8.314 J/(mol·K))", [
           "For using Δ<i>G</i>° = −<i>RT</i> ln <i>K</i> with Δ<i>G</i>° in joules",
           "For the correct value, <i>K</i> ≈ 6 × 10<sup>5</sup>",
-        ], [`Δ<i>G</i>° = −<i>RT</i> ln <i>K</i> → ln <i>K</i> = −Δ<i>G</i>°/(<i>RT</i>) = −(−33.0 × 10<sup>3</sup> J/mol)/[(8.314 J/(mol·K))(298 K)] = 13.3, so <i>K</i> = e<sup>13.3</sup> ≈ <b>${sig(K, 2)}</b> (about 6 × 10<sup>5</sup>). The large value of <i>K</i> shows that products are strongly favored at 298 K.`], { label: "Part B" }),
+        ], [`Δ<i>G</i>° = −<i>RT</i> ln <i>K</i> → ln <i>K</i> = −Δ<i>G</i>°/(<i>RT</i>) = −(−33.0 × 10<sup>3</sup> J/mol)/[(8.314 J/(mol·K))(298 K)] = 13.3, so <i>K</i> = e<sup>13.3</sup> ≈ <b>${sci(K, 2)}</b> (about 6 × 10<sup>5</sup>). The large value of <i>K</i> shows that products are strongly favored at 298 K.`], { label: "Part B" }),
         P("C", "Predict whether <i>K</i> increases, decreases, or stays the same when the temperature is raised to 700 K. Justify your answer.", [
           "For predicting that <i>K</i> decreases",
           "For reasoning that the reaction is exothermic (Δ<i>H</i>° &lt; 0), so raising the temperature shifts the equilibrium toward the reactants (or: Δ<i>G</i>° becomes less negative as <i>T</i> increases because −<i>T</i>Δ<i>S</i>° is positive)".replace("&lt;", "<"),
@@ -113,7 +113,7 @@ export default exam({
         P("A", "Calculate the total pressure of the gas mixture, in atm. Show your work. (<i>R</i> = 0.08206 L·atm/(mol·K))", [
           "For using <i>PV</i> = <i>nRT</i> with the total number of moles (0.300 mol)",
           "For the correct pressure, about 3.69 atm",
-        ], [`<i>P</i> = <i>nRT</i>/<i>V</i> = (0.300 mol)(0.08206 L·atm/(mol·K))(300 K)/(2.00 L) = <b>${Ptot.toFixed(2)} atm</b>.`], { label: "Part A" }),
+        ], [`The total number of moles of gas is 0.100 + 0.200 = 0.300 mol, and both gases occupy the same container, so <i>P</i> = <i>nRT</i>/<i>V</i> = (0.300 mol)(0.08206 L·atm/(mol·K))(300 K)/(2.00 L) = <b>${Ptot.toFixed(2)} atm</b>.`], { label: "Part A" }),
         P("B", "Calculate the partial pressure of neon in the mixture. Show your work.", [
           "For using Dalton's law, <i>P</i><sub>Ne</sub> = <i>X</i><sub>Ne</sub><i>P</i><sub>total</sub> (or <i>P</i> = <i>nRT</i>/<i>V</i> with the moles of Ne), where <i>X</i><sub>Ne</sub> = 0.200/0.300",
           "For the correct partial pressure, about 2.46 atm",
@@ -152,7 +152,7 @@ export default exam({
       [
         P("A", "Write the balanced net ionic equation for the formation of the precipitate.", [
           "For the correct equation: Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>)",
-        ], ["Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>). Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> are spectator ions."], { label: "Part A" }),
+        ], ["Writing the complete ionic equation, Pb<sup>2+</sup> + 2 NO<sub>3</sub><sup>−</sup> + 2 Na<sup>+</sup> + 2 I<sup>−</sup> → PbI<sub>2</sub>(<i>s</i>) + 2 Na<sup>+</sup> + 2 NO<sub>3</sub><sup>−</sup>, the Na<sup>+</sup> and NO<sub>3</sub><sup>−</sup> ions appear unchanged on both sides (spectator ions). The net ionic equation is <b>Pb<sup>2+</sup>(<i>aq</i>) + 2 I<sup>−</sup>(<i>aq</i>) → PbI<sub>2</sub>(<i>s</i>)</b>."], { label: "Part A" }),
         P("B", "Identify the limiting reactant, and calculate the mass of PbI<sub>2</sub>(<i>s</i>) that precipitates, assuming that the reaction goes to completion. Show your work.", [
           "For correctly determining the moles of each reactant (0.0100 mol Pb<sup>2+</sup> and 0.0150 mol I<sup>−</sup>) and identifying I<sup>−</sup> as the limiting reactant (it would take 0.0200 mol I<sup>−</sup> to react with all the Pb<sup>2+</sup>)",
           "For the correct mass of precipitate, about 3.46 g (0.00750 mol × 461.0 g/mol)",

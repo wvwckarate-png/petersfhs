@@ -88,7 +88,7 @@ export default exam({
           "For a sinusoidal curve that completes exactly one full cycle between <i>t</i> = 0 and <i>t</i> = 0.050 s (with times of 0.0125, 0.025, and 0.0375 s indicated)",
           "For a curve with an amplitude of 2.0 cm",
           "For a curve that starts at <i>y</i> = 0 and first moves in the negative direction (to −2.0 cm at 0.0125 s), consistent with a wave moving in the +<i>x</i> direction",
-        ], [`At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the part of the string that is currently just to the left of <i>x</i> = 0 (where the snapshot shows negative displacement) is about to arrive there: the point at <i>x</i> = 0 moves down first. Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s.`], { label: "Part A (ii)", paper: true, modelFigures: [ytChart] }),
+        ], [`At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the pattern shifts to the right: the part of the (periodic) wave pattern that is just to the left of <i>x</i> = 0, which has a negative displacement, is about to arrive there. Equivalently, the snapshot has a positive slope at <i>x</i> = 0, and for a wave moving in +<i>x</i> the velocity of a point is <i>v</i><sub><i>y</i></sub> = −<i>v</i>(∂<i>y</i>/∂<i>x</i>), which is negative: the point at <i>x</i> = 0 moves down first. Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s.`], { label: "Part A (ii)", paper: true, modelFigures: [ytChart] }),
         P("B (i)", "The string is 1.20 m long and is fixed at both ends. Two waves with the wavelength shown in Figure 1 travel in opposite directions on the string and create a standing wave. Determine how many antinodes (loops) the standing wave has. Show your work.", [
           "For using the condition for a standing wave on a string with fixed ends, <i>L</i> = <i>n</i>λ/2 (or equivalent)",
           "For a correct result of 6 antinodes (the sixth harmonic)",
@@ -137,7 +137,7 @@ export default exam({
         P("A", "Calculate the energy, in eV, of a photon of the 400 nm light. Show your work.", [
           "For using <i>E</i> = <i>hf</i> = <i>hc</i>/λ with the correct values",
           "For a correct photon energy of 3.1 eV",
-        ], ["<i>E</i> = <i>hc</i>/λ = (1240 eV·nm)/(400 nm) = <b>3.1 eV</b>."], { label: "Part A" }),
+        ], ["A photon's energy is <i>E</i> = <i>hf</i> = <i>hc</i>/λ, and the combination <i>hc</i> = 1240 eV·nm is given. <i>E</i> = (1240 eV·nm)/(400 nm) = <b>3.1 eV</b>. Using eV and nm directly avoids converting to joules and meters."], { label: "Part A" }),
         P("B", "Calculate the maximum kinetic energy of the emitted electrons. Show your work.", [
           "For using the photoelectric effect equation, <i>K</i><sub>max</sub> = <i>hf</i> − φ (conservation of energy)",
           "For a correct maximum kinetic energy of 0.8 eV",

@@ -142,7 +142,7 @@ export default exam({
         P("B", "Calculate the percent yield of H<sub>2</sub>(<i>g</i>) for the experiment. Show your work.", [
           "For dividing the measured volume by the theoretical volume and multiplying by 100",
           "For the correct value, about 93.8%",
-        ], [`Percent yield = (actual/theoretical)(100) = (0.485 L / ${Vth.toFixed(3)} L)(100) = <b>${pct.toFixed(1)}%</b>.`], { label: "Part B" }),
+        ], [`Percent yield = (actual yield/theoretical yield)(100). Both volumes are measured at the same temperature and pressure, so they can be compared directly: (0.485 L / ${Vth.toFixed(3)} L)(100) = <b>${pct.toFixed(1)}%</b>. A yield below 100% is expected because some gas can be lost or left in the tubing, or the magnesium may not react completely.`], { label: "Part B" }),
       ]),
 
     Q("6", "Short Answer", 9,

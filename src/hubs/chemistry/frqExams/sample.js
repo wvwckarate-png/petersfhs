@@ -22,7 +22,7 @@ const EXAM = {
       "For the correct net ionic equation: H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>)"
      ],
      "model": [
-      "H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>). Cl<sup>−</sup> and Na<sup>+</sup> are spectator ions."
+      "The complete ionic equation is H<sup>+</sup> + Cl<sup>−</sup> + Na<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O + Na<sup>+</sup> + Cl<sup>−</sup>. Cl<sup>−</sup> and Na<sup>+</sup> appear unchanged on both sides, so they are spectator ions and are left out, leaving the net ionic equation <b>H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>)</b>."
      ]
     },
     {

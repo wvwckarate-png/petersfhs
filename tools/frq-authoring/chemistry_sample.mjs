@@ -22,7 +22,7 @@ export default exam({
       [
         P("A", "Write the balanced net ionic equation for the reaction that occurs in the flask.", [
           "For the correct net ionic equation: H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>)",
-        ], ["H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>). Cl<sup>−</sup> and Na<sup>+</sup> are spectator ions."], { label: "Part A" }),
+        ], ["The complete ionic equation is H<sup>+</sup> + Cl<sup>−</sup> + Na<sup>+</sup> + OH<sup>−</sup> → H<sub>2</sub>O + Na<sup>+</sup> + Cl<sup>−</sup>. Cl<sup>−</sup> and Na<sup>+</sup> appear unchanged on both sides, so they are spectator ions and are left out, leaving the net ionic equation <b>H<sup>+</sup>(<i>aq</i>) + OH<sup>−</sup>(<i>aq</i>) → H<sub>2</sub>O(<i>l</i>)</b>."], { label: "Part A" }),
         P("B", "Calculate the molarity of the HCl(<i>aq</i>). Show your work.", [
           "For correctly using the 1:1 mole ratio to find the moles of HCl at the endpoint, (0.03140 L)(0.100 mol/L) = 3.14 × 10<sup>−3</sup> mol",
           "For the correct molarity, 3.14 × 10<sup>−3</sup> mol/0.02500 L = 0.126 <i>M</i>",

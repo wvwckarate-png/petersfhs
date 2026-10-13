@@ -159,7 +159,7 @@ const EXAM = {
       "For the correct predicted rate of 1.8 × 10<sup>−3</sup> M/s, calculated from the rate law with the value of <i>k</i> from part B"
      ],
      "model": [
-      "rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>] = (0.12 M<sup>−1</sup>s<sup>−1</sup>)(0.30 M)(0.050 M) = <b>1.8 × 10<sup>−3</sup> M/s</b>."
+      "Use the rate law from part A and the rate constant from part B: rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>] = (0.12 M<sup>−1</sup>s<sup>−1</sup>)(0.30 M)(0.050 M) = <b>1.8 × 10<sup>−3</sup> M/s</b>. As a check, [H<sub>2</sub>O<sub>2</sub>] is three times that of trial 1 and [I<sup>−</sup>] is half, so the rate should be 1.2 × 10<sup>−3</sup> × 3 × 0.5 = 1.8 × 10<sup>−3</sup> M/s, which agrees."
      ]
     },
     {

@@ -165,7 +165,7 @@ const EXAM = {
       "For a correct value of about 53 (<i>K</i><sub>c</sub> is unitless in AP Chemistry; an answer with units M<sup>−1</sup> is also accepted)"
      ],
      "model": [
-      "<i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]) = (4.80 × 10<sup>−5</sup>)/[(9.52 × 10<sup>−4</sup>)(9.52 × 10<sup>−4</sup>)] = <b>53</b>."
+      "<i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]) = (4.80 × 10<sup>−5</sup>)/[(9.52 × 10<sup>−4</sup>)(9.52 × 10<sup>−4</sup>)] = <b>53</b>. The value is moderately greater than 1, so the products are somewhat favored at equilibrium at this temperature."
      ]
     },
     {
@@ -234,7 +234,7 @@ const EXAM = {
       "For a correct value of about 45.2%"
      ],
      "model": [
-      "Percent by mass = (0.5644 g / 1.250 g)(100) = <b>45.2%</b> Na<sub>2</sub>CO<sub>3</sub>."
+      "Percent by mass = (mass of Na<sub>2</sub>CO<sub>3</sub>/mass of sample)(100) = (0.5644 g / 1.250 g)(100) = <b>45.2%</b> Na<sub>2</sub>CO<sub>3</sub>. The remaining 54.8% of the sample is impurities that do not react with HCl."
      ]
     },
     {

@@ -95,7 +95,7 @@ export default exam({
         P("D", "Calculate the value of the equilibrium constant, <i>K</i><sub>c</sub>, for the reaction. Show your work.", [
           "For a correct expression, <i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]), with the values from parts B and C substituted",
           "For a correct value of about 53 (<i>K</i><sub>c</sub> is unitless in AP Chemistry; an answer with units M<sup>−1</sup> is also accepted)",
-        ], [`<i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]) = (4.80 × 10<sup>−5</sup>)/[(9.52 × 10<sup>−4</sup>)(9.52 × 10<sup>−4</sup>)] = <b>${Math.round(Kc)}</b>.`], { label: "Part D" }),
+        ], [`<i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]) = (4.80 × 10<sup>−5</sup>)/[(9.52 × 10<sup>−4</sup>)(9.52 × 10<sup>−4</sup>)] = <b>${Math.round(Kc)}</b>. The value is moderately greater than 1, so the products are somewhat favored at equilibrium at this temperature.`], { label: "Part D" }),
         P("E", "The student heats the equilibrium mixture and finds that the absorbance at 447 nm decreases. Is the forward reaction endothermic or exothermic? Justify your answer.", [
           "For indicating that the forward reaction is exothermic",
           "For reasoning that the lower absorbance means less FeSCN<sup>2+</sup>, so the equilibrium shifted toward the reactants when the temperature increased; a system shifts in the endothermic direction when heated, so the reverse reaction is endothermic and the forward reaction is exothermic",
@@ -120,7 +120,7 @@ export default exam({
         P("C", "Calculate the percent by mass of Na<sub>2</sub>CO<sub>3</sub> in the 1.250 g sample. Show your work.", [
           "For dividing the mass of Na<sub>2</sub>CO<sub>3</sub> by the mass of the sample and multiplying by 100",
           "For a correct value of about 45.2%",
-        ], [`Percent by mass = (${mNa2CO3.toFixed(4)} g / 1.250 g)(100) = <b>${pct.toFixed(1)}%</b> Na<sub>2</sub>CO<sub>3</sub>.`], { label: "Part C" }),
+        ], [`Percent by mass = (mass of Na<sub>2</sub>CO<sub>3</sub>/mass of sample)(100) = (${mNa2CO3.toFixed(4)} g / 1.250 g)(100) = <b>${pct.toFixed(1)}%</b> Na<sub>2</sub>CO<sub>3</sub>. The remaining 54.8% of the sample is impurities that do not react with HCl.`], { label: "Part C" }),
         P("D", "The student accidentally adds a little too much HCl, so that the volume of HCl recorded is greater than the volume needed to reach the equivalence point. Indicate whether the calculated percent by mass of Na<sub>2</sub>CO<sub>3</sub> is too high, too low, or unaffected. Justify your answer.", [
           "For indicating that the calculated percent is too high",
           "For reasoning that a larger recorded volume of HCl gives a larger calculated number of moles of HCl and therefore of Na<sub>2</sub>CO<sub>3</sub> (and a larger mass and percent)",

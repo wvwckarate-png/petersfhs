@@ -118,7 +118,7 @@ const EXAM = {
       "For a curve that starts at <i>y</i> = 0 and first moves in the negative direction (to −2.0 cm at 0.0125 s), consistent with a wave moving in the +<i>x</i> direction"
      ],
      "model": [
-      "At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the part of the string that is currently just to the left of <i>x</i> = 0 (where the snapshot shows negative displacement) is about to arrive there: the point at <i>x</i> = 0 moves down first. Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s."
+      "At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the pattern shifts to the right: the part of the (periodic) wave pattern that is just to the left of <i>x</i> = 0, which has a negative displacement, is about to arrive there. Equivalently, the snapshot has a positive slope at <i>x</i> = 0, and for a wave moving in +<i>x</i> the velocity of a point is <i>v</i><sub><i>y</i></sub> = −<i>v</i>(∂<i>y</i>/∂<i>x</i>), which is negative: the point at <i>x</i> = 0 moves down first. Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s."
      ]
     },
     {
@@ -299,7 +299,7 @@ const EXAM = {
       "For a correct photon energy of 3.1 eV"
      ],
      "model": [
-      "<i>E</i> = <i>hc</i>/λ = (1240 eV·nm)/(400 nm) = <b>3.1 eV</b>."
+      "A photon's energy is <i>E</i> = <i>hf</i> = <i>hc</i>/λ, and the combination <i>hc</i> = 1240 eV·nm is given. <i>E</i> = (1240 eV·nm)/(400 nm) = <b>3.1 eV</b>. Using eV and nm directly avoids converting to joules and meters."
      ]
     },
     {
