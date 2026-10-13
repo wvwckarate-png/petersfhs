@@ -125,7 +125,7 @@ export function galvanicCell({ left, right, bridge = "salt bridge", electronDir 
   b += poly([[116, 90], [116, 50], [225, 50]]) + poly([[386, 90], [386, 50], [295, 50]]);
   b += circle(260, 50, 22, { fill: "#fff" }) + text(260, 56, "V", { weight: 800, size: 16 }) + (volts ? text(260, 16, volts, { size: 13, weight: 700 }) : "");
   b += path("M170 160 L170 128 L350 128 L350 160", { w: 14, stroke: "#D8D2C0" }) + path("M170 160 L170 128 L350 128 L350 160", { w: 1.6, stroke: COL.ink }) + text(260, 120, bridge, { size: 12 });
-  b += electronDir === "right" ? line(135, 34, 205, 34, { arrow: true, w: 1.8 }) + text(170, 26, "e⁻", { size: 12, weight: 700 }) : line(375, 34, 305, 34, { arrow: true, w: 1.8 }) + text(340, 26, "e⁻", { size: 12, weight: 700 });
+  b += electronDir === null ? "" : electronDir === "right" ? line(135, 34, 205, 34, { arrow: true, w: 1.8 }) + text(170, 26, "e⁻", { size: 12, weight: 700 }) : line(375, 34, 305, 34, { arrow: true, w: 1.8 }) + text(340, 26, "e⁻", { size: 12, weight: 700 });
   return svg(W, H, b);
 }
 
