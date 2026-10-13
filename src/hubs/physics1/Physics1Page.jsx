@@ -7,6 +7,7 @@ import ExamEngine from "../shared/ExamEngine";
 import { EXAM_FORMAT, EXAMS } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import ExamScoresCard from "../shared/ExamScoresCard";
 
 const PHYSICS1_COLORS = {
   sage: "#7BA3B8", sageDeep: "#4F7A8F", sagePale: "#E5EFF3", sagePill: "#CCE1EA",
@@ -702,6 +703,14 @@ export default function Physics1Page() {
                   </button>
                 )}
               </div>
+
+              <ExamScoresCard
+                hubKey="physics1"
+                mcq={{ exams: EXAMS, format: EXAM_FORMAT }}
+                frq={null}
+                colors={EXAM_COLORS}
+                onOpen={(kind) => setMode(kind === "mcq" ? "exams" : "frqexams")}
+              />
 
               <div style={S.dashUnitList} className="dash-grid">
                 {UNITS.map((u) => {

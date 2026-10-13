@@ -7,6 +7,8 @@ import ExamEngine from "../shared/ExamEngine";
 import { EXAM_FORMAT, EXAMS, REFERENCE } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import ExamScoresCard from "../shared/ExamScoresCard";
+import FRQ_META from "./frqMeta";
 
 const FrqExamsView = lazy(() => import("./FrqExamsView"));
 
@@ -720,6 +722,14 @@ export default function BiologyPage() {
                   </button>
                 )}
               </div>
+
+              <ExamScoresCard
+                hubKey="biology"
+                mcq={{ exams: EXAMS, format: EXAM_FORMAT }}
+                frq={{ meta: FRQ_META }}
+                colors={EXAM_COLORS}
+                onOpen={(kind) => setMode(kind === "mcq" ? "exams" : "frqexams")}
+              />
 
               <div style={S.dashUnitList} className="dash-grid">
                 {UNITS.map((u) => {
