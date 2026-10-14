@@ -212,7 +212,7 @@ const QUESTIONS = {
       "stem": "Starch, glycogen, and cellulose are all polymers of the same monomer, glucose, yet they have dramatically different physical properties. What best explains this?",
       "choices": [
         "The glycosidic linkage geometry connecting glucose units differs between them",
-        "Starch and glycogen contain nitrogen atoms in their structure, while cellulose does not",
+        "Starch and glycogen contain nitrogen atoms in their structure",
         "Starch, glycogen, and cellulose are each built from a different isotope of glucose",
         "Cellulose is not actually built from glucose monomers at all"
       ],
@@ -488,11 +488,11 @@ const QUESTIONS = {
       "choices": [
         "9",
         "1 × 10⁻⁵",
-        "-5",
+        "−5",
         "5"
       ],
       "correct": 3,
-      "explanation": "pH = −log[H⁺]. Here, [H⁺] = 1 × 10⁻⁵ M, so pH = −log(1 × 10⁻⁵) = −(−5) = 5. A quick shortcut: when H⁺ concentration is written as a clean power of 10, the pH is simply the absolute value of that exponent. Answering \"9\" likely comes from confusing this with a pOH-related calculation, \"-5\" comes from forgetting to apply the negative sign in the pH formula, and restating the concentration itself (1 × 10⁻⁵) skips the log conversion entirely rather than computing pH."
+      "explanation": "pH = −log[H⁺]. Here, [H⁺] = 1 × 10⁻⁵ M, so pH = −log(1 × 10⁻⁵) = −(−5) = 5. A quick shortcut: when H⁺ concentration is written as a clean power of 10, the pH is simply the absolute value of that exponent. Answering \"9\" likely comes from confusing this with a pOH-related calculation, \"−5\" comes from forgetting to apply the negative sign in the pH formula, and restating the concentration itself (1 × 10⁻⁵) skips the log conversion entirely rather than computing pH."
     },
     {
       "id": "1-34",
@@ -1856,7 +1856,7 @@ const QUESTIONS = {
         "It lowers the activation energy needed, speeding up the reaction"
       ],
       "correct": 3,
-      "explanation": "Correct: enzymes are catalysts — they lower the activation energy barrier so a reaction reaches its existing products faster, without being consumed or altering what those products are. (A) is wrong because catalysts by definition don't change reaction products, only reaction rate. (C) is wrong because enzymes don't add energy to the system; they only reduce the energy barrier to a reaction that was already thermodynamically possible. (D) is wrong because enzymes are regenerated unchanged after each catalytic cycle and can be reused many times, not consumed like a reactant."
+      "explanation": "Correct: enzymes are catalysts — they lower the activation energy barrier so a reaction reaches its existing products faster, without being consumed or altering what those products are. (C) is wrong because catalysts by definition don't change reaction products, only reaction rate. (B) is wrong because enzymes don't add energy to the system; they only reduce the energy barrier to a reaction that was already thermodynamically possible. (A) is wrong because enzymes are regenerated unchanged after each catalytic cycle and can be reused many times, not consumed like a reactant."
     },
     {
       "id": "3-2",
@@ -1869,7 +1869,7 @@ const QUESTIONS = {
         "The enzyme is simply too large for other molecules to approach it"
       ],
       "correct": 1,
-      "explanation": "Correct: specificity comes from the active site's precise 3D shape and the chemical properties of its lining R-groups (set by tertiary structure), which must complement a given substrate's shape and chemistry — the classic lock-and-key/induced-fit idea from Unit 1. (B) is wrong because overall enzyme size relative to the cell has nothing to do with which substrate fits the active site; a huge enzyme can have a tiny, highly specific pocket. (C) is wrong because cytoplasmic location affects whether enzyme and substrate can meet, not whether the active site is chemically or structurally compatible with that substrate once they do meet. (D) is wrong because primary structure (amino acid sequence) is exactly what determines the folding into tertiary structure that creates the active site — it isn't irrelevant, it's foundational."
+      "explanation": "Correct: specificity comes from the active site's precise 3D shape and the chemical properties of its lining R-groups (set by tertiary structure), which must complement a given substrate's shape and chemistry — the classic lock-and-key/induced-fit idea from Unit 1. (D) is wrong because overall enzyme size relative to the cell has nothing to do with which substrate fits the active site; a huge enzyme can have a tiny, highly specific pocket. (C) is wrong because cytoplasmic location affects whether enzyme and substrate can meet, not whether the active site is chemically or structurally compatible with that substrate once they do meet. (A) is wrong because primary structure (amino acid sequence) is exactly what determines the folding into tertiary structure that creates the active site — it isn't irrelevant, it's foundational."
     },
     {
       "id": "3-3",
@@ -1882,7 +1882,7 @@ const QUESTIONS = {
         "Active sites are saturated"
       ],
       "correct": 3,
-      "explanation": "Correct: at high substrate concentration, essentially every active site is occupied at any moment (saturation); the fixed amount of enzyme is now the bottleneck, so adding more substrate can't push the rate any higher. (A) is wrong because nothing in this scenario destroys the enzyme — a plateau reflects saturation, not enzyme loss, and the enzyme is still actively cycling substrate at that rate. (C) is wrong because a plateau at HIGH substrate concentration is the opposite of running out of substrate — substrate is in excess at that point, which is precisely why more of it doesn't help. (D) is wrong because whether a reaction is exergonic is a property of the reactants and products (ΔG), unrelated to enzyme saturation — enzymes don't change ΔG at all."
+      "explanation": "Correct: at high substrate concentration, essentially every active site is occupied at any moment (saturation); the fixed amount of enzyme is now the bottleneck, so adding more substrate can't push the rate any higher. (C) is wrong because nothing in this scenario destroys the enzyme — a plateau reflects saturation, not enzyme loss, and the enzyme is still actively cycling substrate at that rate. (A) is wrong because a plateau at HIGH substrate concentration is the opposite of running out of substrate — substrate is in excess at that point, which is precisely why more of it doesn't help. (B) is wrong because whether a reaction is exergonic is a property of the reactants and products (ΔG), unrelated to enzyme saturation — enzymes don't change ΔG at all."
     },
     {
       "id": "3-4",
@@ -1895,7 +1895,7 @@ const QUESTIONS = {
         "Activity stays suppressed"
       ],
       "correct": 3,
-      "explanation": "Correct: because a noncompetitive inhibitor binds at a site other than the active site and distorts the enzyme's overall (and often active-site) shape, piling on more substrate can't out-compete it the way it would a competitive inhibitor — the structural problem isn't a matter of substrate concentration. (A) is wrong because that outcome describes competitive inhibition, where excess substrate restores full activity by outcompeting the inhibitor for the active site — noncompetitive inhibition specifically resists this fix. (C) is wrong because inhibitors block or reduce an enzyme's existing activity; they don't redirect the enzyme toward a new catalytic function. (D) is wrong because nothing about noncompetitive inhibition converts the substrate itself into an inhibitory molecule — the inhibitor and substrate remain chemically distinct throughout."
+      "explanation": "Correct: because a noncompetitive inhibitor binds at a site other than the active site and distorts the enzyme's overall (and often active-site) shape, piling on more substrate can't out-compete it the way it would a competitive inhibitor — the structural problem isn't a matter of substrate concentration. (B) is wrong because that outcome describes competitive inhibition, where excess substrate restores full activity by outcompeting the inhibitor for the active site — noncompetitive inhibition specifically resists this fix. (A) is wrong because inhibitors block or reduce an enzyme's existing activity; they don't redirect the enzyme toward a new catalytic function. (C) is wrong because nothing about noncompetitive inhibition converts the substrate itself into an inhibitory molecule — the inhibitor and substrate remain chemically distinct throughout."
     },
     {
       "id": "3-5",
@@ -1908,7 +1908,7 @@ const QUESTIONS = {
         "The enzyme's primary structure breaks apart above the optimal temperature"
       ],
       "correct": 1,
-      "explanation": "Correct: this connects to Unit 1's denaturation concept — excess heat disrupts the weak, non-covalent interactions (hydrogen bonds, ionic interactions, hydrophobic clustering) maintaining tertiary structure, unfolding the protein and destroying the active site's precise shape. (A) is wrong because the substrate's own chemical reactivity isn't what's failing here; the problem is that the enzyme can no longer bind and orient it correctly. (C) is wrong because primary structure is held together by strong covalent peptide bonds, which don't break under typical denaturing heat — it's the weaker higher-order structure that gives way first. (D) is wrong because denaturation changes a protein's shape, not its fundamental chemical class; a denatured enzyme is still a protein, just a non-functional, unfolded one."
+      "explanation": "Correct: this connects to Unit 1's denaturation concept — excess heat disrupts the weak, non-covalent interactions (hydrogen bonds, ionic interactions, hydrophobic clustering) maintaining tertiary structure, unfolding the protein and destroying the active site's precise shape. (A) is wrong because the substrate's own chemical reactivity isn't what's failing here; the problem is that the enzyme can no longer bind and orient it correctly. (D) is wrong because primary structure is held together by strong covalent peptide bonds, which don't break under typical denaturing heat — it's the weaker higher-order structure that gives way first. (C) is wrong because denaturation changes a protein's shape, not its fundamental chemical class; a denatured enzyme is still a protein, just a non-functional, unfolded one."
     },
     {
       "id": "3-6",
@@ -1921,7 +1921,7 @@ const QUESTIONS = {
         "A cofactor, not an inhibitor at all"
       ],
       "correct": 1,
-      "explanation": "Correct: lowering the maximum rate (Vmax) without shifting the substrate concentration needed for half-maximal rate is the textbook signature of noncompetitive inhibition — some fraction of enzyme is disabled regardless of how much substrate is present, so no amount of substrate restores full Vmax. (A) is wrong because competitive inhibitors raise the substrate concentration needed to reach half-maximal rate (since substrate must outcompete the inhibitor) while leaving Vmax unchanged once substrate is high enough — the opposite pattern from what's described. (C) is wrong because cofactors assist and typically increase enzyme function, they don't reduce maximum rate. (D) is wrong because a substrate analog that competes for the active site would behave like a competitive inhibitor, again showing a shifted half-maximal point rather than a lowered Vmax."
+      "explanation": "Correct: lowering the maximum rate (Vmax) without shifting the substrate concentration needed for half-maximal rate is the textbook signature of noncompetitive inhibition — some fraction of enzyme is disabled regardless of how much substrate is present, so no amount of substrate restores full Vmax. (A) is wrong because competitive inhibitors raise the substrate concentration needed to reach half-maximal rate (since substrate must outcompete the inhibitor) while leaving Vmax unchanged once substrate is high enough — the opposite pattern from what's described. (D) is wrong because cofactors assist and typically increase enzyme function, they don't reduce maximum rate. (C) is wrong because a substrate analog that competes for the active site would behave like a competitive inhibitor, again showing a shifted half-maximal point rather than a lowered Vmax."
     },
     {
       "id": "3-7",
@@ -1935,7 +1935,7 @@ const QUESTIONS = {
         "Activator binding has no physical effect on the enzyme's overall shape"
       ],
       "correct": 2,
-      "explanation": "Correct: this is the mirror image of allosteric inhibition — because the regulatory site is physically separate from the active site, any effect it has (positive or negative) must be transmitted through a conformational change in the protein; here that change happens to improve, rather than impair, substrate binding at the active site. (A) is wrong because an allosteric activator by definition binds a distinct regulatory site, not the active site itself — if it entered the active site alongside substrate, it would be acting more like a cofactor or coactivator at that site, not an allosteric effector. (C) is wrong because breaking primary structure means breaking covalent peptide bonds, which would destroy the protein entirely, not fine-tune its active site — allosteric regulation works through reversible shape changes, not structural destruction. (D) is wrong because if activator binding truly had no effect on shape, it could not explain any change in substrate affinity at a physically separate site — some shape change is required to link the two sites."
+      "explanation": "Correct: this is the mirror image of allosteric inhibition — because the regulatory site is physically separate from the active site, any effect it has (positive or negative) must be transmitted through a conformational change in the protein; here that change happens to improve, rather than impair, substrate binding at the active site. (A) is wrong because an allosteric activator by definition binds a distinct regulatory site, not the active site itself — if it entered the active site alongside substrate, it would be acting more like a cofactor or coactivator at that site, not an allosteric effector. (B) is wrong because breaking primary structure means breaking covalent peptide bonds, which would destroy the protein entirely, not fine-tune its active site — allosteric regulation works through reversible shape changes, not structural destruction. (D) is wrong because if activator binding truly had no effect on shape, it could not explain any change in substrate affinity at a physically separate site — some shape change is required to link the two sites."
     },
     {
       "id": "3-8",
@@ -1961,7 +1961,7 @@ const QUESTIONS = {
         "Activity increases, because more H⁺ improves enzyme function generally"
       ],
       "correct": 0,
-      "explanation": "Correct: since the enzyme's optimum is pH 7, shifting to pH 5 moves it away from that ideal range — the changed H⁺ concentration alters the charge on ionizable R-groups, disrupting the weak, non-covalent interactions that maintain tertiary structure and active site shape, reducing activity. (A) is wrong because more H⁺ doesn't universally help enzyme function — each enzyme has its own optimal pH, and departing from it in either direction (more acidic or more basic) tends to reduce activity, not improve it. (C) is wrong because moving away from optimal pH degrades the active site's precise shape, which would impair rather than sharpen substrate binding and specificity. (D) is wrong because pH changes alter R-group charges throughout the protein, including in the active site region, so some effect on structure and function is expected, not none."
+      "explanation": "Correct: since the enzyme's optimum is pH 7, shifting to pH 5 moves it away from that ideal range — the changed H⁺ concentration alters the charge on ionizable R-groups, disrupting the weak, non-covalent interactions that maintain tertiary structure and active site shape, reducing activity. (D) is wrong because more H⁺ doesn't universally help enzyme function — each enzyme has its own optimal pH, and departing from it in either direction (more acidic or more basic) tends to reduce activity, not improve it. (B) is wrong because moving away from optimal pH degrades the active site's precise shape, which would impair rather than sharpen substrate binding and specificity. (C) is wrong because pH changes alter R-group charges throughout the protein, including in the active site region, so some effect on structure and function is expected, not none."
     },
     {
       "id": "3-10",
@@ -1987,7 +1987,7 @@ const QUESTIONS = {
         "Both reactions reach identical maximum rates regardless of enzyme"
       ],
       "correct": 2,
-      "explanation": "Correct: because enzymes lower activation energy across the full range of substrate concentrations, the catalyzed reaction still proceeds considerably faster than the uncatalyzed one even at low substrate levels — though the absolute rate in both cases is limited by how little substrate is available. (A) is wrong because activation energy is lowered by the enzyme's presence regardless of how much substrate is around; the benefit doesn't switch off at low concentrations, only the absolute rate does. (C) is wrong because it directly contradicts what catalysis does — an enzyme never makes a reaction slower than its uncatalyzed counterpart. (D) is wrong because maximum rate (Vmax) for an uncatalyzed reaction is far lower than for the same reaction with enzyme present; catalysis raises the achievable rate ceiling, so the two are not equal."
+      "explanation": "Correct: because enzymes lower activation energy across the full range of substrate concentrations, the catalyzed reaction still proceeds considerably faster than the uncatalyzed one even at low substrate levels — though the absolute rate in both cases is limited by how little substrate is available. (B) is wrong because activation energy is lowered by the enzyme's presence regardless of how much substrate is around; the benefit doesn't switch off at low concentrations, only the absolute rate does. (A) is wrong because it directly contradicts what catalysis does — an enzyme never makes a reaction slower than its uncatalyzed counterpart. (D) is wrong because maximum rate (Vmax) for an uncatalyzed reaction is far lower than for the same reaction with enzyme present; catalysis raises the achievable rate ceiling, so the two are not equal."
     },
     {
       "id": "3-12",
@@ -2000,7 +2000,7 @@ const QUESTIONS = {
         "It is released unchanged, ready for more catalytic cycles"
       ],
       "correct": 3,
-      "explanation": "Correct: like all catalysts, an enzyme is not consumed or permanently altered by the reaction it speeds up — after the product is released, the enzyme returns to its original form and is free to bind a new substrate molecule and repeat the cycle. (A) is wrong because it describes a reactant being fully converted to product, which is not how catalysts behave — an enzyme's whole functional advantage is that it can be reused many times. (C) is wrong because the enzyme and the product are chemically distinct molecules throughout; the enzyme facilitates the substrate's conversion to product without becoming that product itself. (D) is wrong for the same reason — the enzyme temporarily binds substrate but separates from the released product rather than merging with it permanently."
+      "explanation": "Correct: like all catalysts, an enzyme is not consumed or permanently altered by the reaction it speeds up — after the product is released, the enzyme returns to its original form and is free to bind a new substrate molecule and repeat the cycle. (C) is wrong because it describes a reactant being fully converted to product, which is not how catalysts behave — an enzyme's whole functional advantage is that it can be reused many times. (B) is wrong because the enzyme and the product are chemically distinct molecules throughout; the enzyme facilitates the substrate's conversion to product without becoming that product itself. (A) is wrong for the same reason — the enzyme temporarily binds substrate but separates from the released product rather than merging with it permanently."
     },
     {
       "id": "3-13",
@@ -2013,7 +2013,7 @@ const QUESTIONS = {
         "Protein structure is entirely immune to this kind of mutation"
       ],
       "correct": 0,
-      "explanation": "Correct: since substrate binding and catalysis depend on the active site's precise shape and chemistry, changing even one amino acid within that site can alter its geometry or chemical properties enough to impair how well the substrate binds — a direct application of the structure-function relationship. (A) is wrong because it ignores that the active site's shape is functionally critical; a mutation there is one of the most likely places in the whole protein to disrupt activity, not the least likely. (C) is wrong because random shape changes are far more likely to reduce or eliminate binding to the original substrate than to create a useful new binding capability for unrelated molecules. (D) is wrong because amino acid substitutions are a well-established cause of altered protein folding and structure — this is precisely how many mutations affect enzyme function."
+      "explanation": "Correct: since substrate binding and catalysis depend on the active site's precise shape and chemistry, changing even one amino acid within that site can alter its geometry or chemical properties enough to impair how well the substrate binds — a direct application of the structure-function relationship. (C) is wrong because it ignores that the active site's shape is functionally critical; a mutation there is one of the most likely places in the whole protein to disrupt activity, not the least likely. (B) is wrong because random shape changes are far more likely to reduce or eliminate binding to the original substrate than to create a useful new binding capability for unrelated molecules. (D) is wrong because amino acid substitutions are a well-established cause of altered protein folding and structure — this is precisely how many mutations affect enzyme function."
     },
     {
       "id": "3-14",
@@ -2039,7 +2039,7 @@ const QUESTIONS = {
         "ADP + Pi + energy → ATP + H2O"
       ],
       "correct": 1,
-      "explanation": "Correct: ATP hydrolysis uses water to break down ATP, releasing energy and yielding ADP plus inorganic phosphate as products — this is the exergonic, energy-releasing direction. (A) is wrong because it's the reverse reaction: building ATP from ADP + Pi is endergonic and requires an energy input rather than releasing one, so its energy term belongs on the left side of the arrow, not produced as output. (C) is wrong because ATP hydrolysis doesn't produce glucose at all — glucose and ATP are entirely different molecules involved in different (if related) metabolic contexts. (D) is wrong on two counts: it shows ADP alone converting to ATP without adding a phosphate group, and it mislabels an endergonic phosphorylation as an energy-releasing reaction."
+      "explanation": "Correct: ATP hydrolysis uses water to break down ATP, releasing energy and yielding ADP plus inorganic phosphate as products — this is the exergonic, energy-releasing direction. (D) is wrong because it's the reverse reaction: building ATP from ADP + Pi is endergonic and requires an energy input rather than releasing one, so its energy term belongs on the left side of the arrow, not produced as output. (A) is wrong because ATP hydrolysis doesn't produce glucose at all — glucose and ATP are entirely different molecules involved in different (if related) metabolic contexts. (C) is wrong on two counts: it shows ADP alone converting to ATP without adding a phosphate group, and it mislabels an endergonic phosphorylation as an energy-releasing reaction."
     },
     {
       "id": "3-16",
@@ -2052,7 +2052,7 @@ const QUESTIONS = {
         "Exergonic"
       ],
       "correct": 3,
-      "explanation": "Correct: exergonic reactions release energy overall because the products end up with less energy than the reactants started with — ATP hydrolysis is the classic cellular example. (A) is wrong because endergonic describes the opposite pattern: products end up with MORE energy than reactants, requiring an energy input rather than releasing one. (C) is wrong because \"isothermic\" isn't a standard term for this reactant/product energy comparison at all — it isn't a recognized category of reaction energetics used in this context. (D) is wrong because anabolic (building larger molecules) and exergonic/endergonic are describing different things — many anabolic reactions are actually endergonic, and 'exclusively' incorrectly implies release-of-energy reactions are always building reactions."
+      "explanation": "Correct: exergonic reactions release energy overall because the products end up with less energy than the reactants started with — ATP hydrolysis is the classic cellular example. (A) is wrong because endergonic describes the opposite pattern: products end up with MORE energy than reactants, requiring an energy input rather than releasing one. (B) is wrong because \"isothermic\" isn't a standard term for this reactant/product energy comparison at all — it isn't a recognized category of reaction energetics used in this context. (C) is wrong because anabolic (building larger molecules) and exergonic/endergonic are describing different things — many anabolic reactions are actually endergonic, and 'exclusively' incorrectly implies release-of-energy reactions are always building reactions."
     },
     {
       "id": "3-17",
@@ -2065,7 +2065,7 @@ const QUESTIONS = {
         "Fermentation"
       ],
       "correct": 1,
-      "explanation": "Correct: energy coupling is the strategy of pairing an exergonic reaction, most often ATP hydrolysis, with an endergonic reaction so the combined process becomes energetically favorable overall — this is how cells drive reactions that wouldn't happen spontaneously on their own. (A) is wrong because fermentation is a specific metabolic pathway for regenerating NAD+ under anaerobic conditions, not a general strategy for powering unfavorable reactions. (C) is wrong because chemiosmosis is the specific mechanism of using an H⁺ gradient to drive ATP synthase, not the general concept of pairing exergonic and endergonic reactions. (D) is wrong because feedback inhibition is a regulatory mechanism that slows a pathway down using its own end product, unrelated to coupling energy release to an energy-requiring process."
+      "explanation": "Correct: energy coupling is the strategy of pairing an exergonic reaction, most often ATP hydrolysis, with an endergonic reaction so the combined process becomes energetically favorable overall — this is how cells drive reactions that wouldn't happen spontaneously on their own. (D) is wrong because fermentation is a specific metabolic pathway for regenerating NAD+ under anaerobic conditions, not a general strategy for powering unfavorable reactions. (A) is wrong because chemiosmosis is the specific mechanism of using an H⁺ gradient to drive ATP synthase, not the general concept of pairing exergonic and endergonic reactions. (C) is wrong because feedback inhibition is a regulatory mechanism that slows a pathway down using its own end product, unrelated to coupling energy release to an energy-requiring process."
     },
     {
       "id": "3-18",
@@ -2078,7 +2078,7 @@ const QUESTIONS = {
         "ATP hydrolysis"
       ],
       "correct": 1,
-      "explanation": "Correct: moving a solute against its concentration gradient is energetically unfavorable on its own, so active transport requires an energy input (typically from coupled ATP hydrolysis) — making it endergonic. (A) is wrong because ATP hydrolysis is itself exergonic — it's the energy SOURCE that powers endergonic processes like active transport, not an example of an endergonic process itself. (C) is wrong because breaking down glucose releases energy overall (that's the whole point of respiration), making it exergonic, not endergonic. (D) is wrong because facilitated diffusion moves a solute down its existing gradient, which is spontaneous and requires no additional energy input, unlike active transport's uphill movement."
+      "explanation": "Correct: moving a solute against its concentration gradient is energetically unfavorable on its own, so active transport requires an energy input (typically from coupled ATP hydrolysis) — making it endergonic. (D) is wrong because ATP hydrolysis is itself exergonic — it's the energy SOURCE that powers endergonic processes like active transport, not an example of an endergonic process itself. (A) is wrong because breaking down glucose releases energy overall (that's the whole point of respiration), making it exergonic, not endergonic. (C) is wrong because facilitated diffusion moves a solute down its existing gradient, which is spontaneous and requires no additional energy input, unlike active transport's uphill movement."
     },
     {
       "id": "3-19",
@@ -2117,7 +2117,7 @@ const QUESTIONS = {
         "The mitochondrial matrix"
       ],
       "correct": 2,
-      "explanation": "Correct: the light-dependent reactions occur in the thylakoid membrane, where chlorophyll and other pigments embedded there capture light energy and drive electron transport. (A) is wrong because the stroma is where the light-INDEPENDENT reactions (Calvin cycle) occur, not the light-dependent ones — a common mix-up between the two chloroplast compartments. (C) is wrong because the outer chloroplast membrane is a boundary membrane with no light-harvesting pigments or electron transport machinery — the relevant membrane is internal (thylakoid), not the chloroplast's outer envelope. (D) is wrong because the mitochondrial matrix is part of a completely different organelle (mitochondria, used in cellular respiration), unrelated to photosynthesis's light reactions."
+      "explanation": "Correct: the light-dependent reactions occur in the thylakoid membrane, where chlorophyll and other pigments embedded there capture light energy and drive electron transport. (A) is wrong because the stroma is where the light-INDEPENDENT reactions (Calvin cycle) occur, not the light-dependent ones — a common mix-up between the two chloroplast compartments. (B) is wrong because the outer chloroplast membrane is a boundary membrane with no light-harvesting pigments or electron transport machinery — the relevant membrane is internal (thylakoid), not the chloroplast's outer envelope. (D) is wrong because the mitochondrial matrix is part of a completely different organelle (mitochondria, used in cellular respiration), unrelated to photosynthesis's light reactions."
     },
     {
       "id": "3-22",
@@ -2130,7 +2130,7 @@ const QUESTIONS = {
         "ATP"
       ],
       "correct": 1,
-      "explanation": "Correct: water molecules are split during photolysis in the light-dependent reactions to replace electrons chlorophyll loses after being excited by light, releasing O2 as a byproduct in the process. (A) is wrong because glucose isn't split during the light reactions at all — it's the eventual PRODUCT built later by the Calvin cycle, not a source of released oxygen. (B) is wrong because CO2's carbon and oxygen atoms are used in the Calvin cycle to help build sugar, not split apart to release O2 during the light reactions — this is a frequently confused point. (D) is wrong because ATP is a PRODUCT of the light-dependent reactions (via chemiosmosis), not a molecule that gets split to release oxygen."
+      "explanation": "Correct: water molecules are split during photolysis in the light-dependent reactions to replace electrons chlorophyll loses after being excited by light, releasing O2 as a byproduct in the process. (A) is wrong because glucose isn't split during the light reactions at all — it's the eventual PRODUCT built later by the Calvin cycle, not a source of released oxygen. (C) is wrong because CO2's carbon and oxygen atoms are used in the Calvin cycle to help build sugar, not split apart to release O2 during the light reactions — this is a frequently confused point. (D) is wrong because ATP is a PRODUCT of the light-dependent reactions (via chemiosmosis), not a molecule that gets split to release oxygen."
     },
     {
       "id": "3-23",
@@ -2143,7 +2143,7 @@ const QUESTIONS = {
         "NADH and FADH2"
       ],
       "correct": 0,
-      "explanation": "Correct: the light-dependent reactions produce ATP and NADPH, both of which the Calvin cycle directly requires to power the fixation of CO2 into organic sugar. (A) is wrong because oxygen is a released byproduct (from water-splitting) and water is a light-reaction input, not Calvin cycle inputs — neither is used directly by the Calvin cycle. (C) is wrong because glucose is the Calvin cycle's eventual OUTPUT and CO2 is its carbon-source INPUT, not products supplied by the light reactions to the Calvin cycle. (D) is wrong because NADH and FADH2 are electron carriers associated with cellular respiration, not photosynthesis — a frequent point of confusion since NADPH (photosynthesis) and NADH (respiration) sound similar but are used in different pathways."
+      "explanation": "Correct: the light-dependent reactions produce ATP and NADPH, both of which the Calvin cycle directly requires to power the fixation of CO2 into organic sugar. (C) is wrong because oxygen is a released byproduct (from water-splitting) and water is a light-reaction input, not Calvin cycle inputs — neither is used directly by the Calvin cycle. (B) is wrong because glucose is the Calvin cycle's eventual OUTPUT and CO2 is its carbon-source INPUT, not products supplied by the light reactions to the Calvin cycle. (D) is wrong because NADH and FADH2 are electron carriers associated with cellular respiration, not photosynthesis — a frequent point of confusion since NADPH (photosynthesis) and NADH (respiration) sound similar but are used in different pathways."
     },
     {
       "id": "3-24",
@@ -2156,7 +2156,7 @@ const QUESTIONS = {
         "It was never affected by the period of darkness in the first place"
       ],
       "correct": 1,
-      "explanation": "Correct: because the Calvin cycle's dependence on light is indirect — it needs the ATP and NADPH that only the light-dependent reactions can supply — restoring light quickly restores that supply, so Calvin cycle activity is expected to resume relatively quickly once light returns. (A) is wrong because nothing about a temporary lack of light permanently damages the Calvin cycle's enzymes or machinery; the shutdown is a supply issue, reversible as soon as ATP/NADPH production resumes. (C) is wrong because the Calvin cycle DOES depend on light indirectly through its ATP/NADPH requirement, so extended darkness would in fact halt or sharply reduce its activity. (D) is wrong because there's no biological basis for a fixed 24-hour delay — recovery tracks how quickly the light reactions restart producing ATP and NADPH, which happens promptly once light is available."
+      "explanation": "Correct: because the Calvin cycle's dependence on light is indirect — it needs the ATP and NADPH that only the light-dependent reactions can supply — restoring light quickly restores that supply, so Calvin cycle activity is expected to resume relatively quickly once light returns. (C) is wrong because nothing about a temporary lack of light permanently damages the Calvin cycle's enzymes or machinery; the shutdown is a supply issue, reversible as soon as ATP/NADPH production resumes. (D) is wrong because the Calvin cycle DOES depend on light indirectly through its ATP/NADPH requirement, so extended darkness would in fact halt or sharply reduce its activity. (A) is wrong because there's no biological basis for a fixed 24-hour delay — recovery tracks how quickly the light reactions restart producing ATP and NADPH, which happens promptly once light is available."
     },
     {
       "id": "3-25",
@@ -2169,7 +2169,7 @@ const QUESTIONS = {
         "Light reactions supply ATP and NADPH to the Calvin cycle"
       ],
       "correct": 3,
-      "explanation": "Correct: the two stages are interdependent in both directions — the light reactions supply the ATP and NADPH the Calvin cycle needs, while the Calvin cycle regenerates the \"spent\" forms (ADP, Pi, and NADP+) that the light reactions then need as raw materials to keep producing fresh ATP and NADPH, forming a continuous cycle between the two stages. (A) is wrong because it's the opposite of how they actually function — the two stages are tightly linked, each depending on products supplied by the other. (C) is wrong because it reverses the true direction of the primary energy relationship; the light reactions supply the Calvin cycle with usable energy carriers, not the other way around. (D) is wrong because both stages of photosynthesis occur within the chloroplast (thylakoid membrane and stroma), not the mitochondria, which is the organelle for cellular respiration."
+      "explanation": "Correct: the two stages are interdependent in both directions — the light reactions supply the ATP and NADPH the Calvin cycle needs, while the Calvin cycle regenerates the \"spent\" forms (ADP, Pi, and NADP+) that the light reactions then need as raw materials to keep producing fresh ATP and NADPH, forming a continuous cycle between the two stages. (B) is wrong because it's the opposite of how they actually function — the two stages are tightly linked, each depending on products supplied by the other. (A) is wrong because it reverses the true direction of the primary energy relationship; the light reactions supply the Calvin cycle with usable energy carriers, not the other way around. (C) is wrong because both stages of photosynthesis occur within the chloroplast (thylakoid membrane and stroma), not the mitochondria, which is the organelle for cellular respiration."
     },
     {
       "id": "3-26",
@@ -2182,7 +2182,7 @@ const QUESTIONS = {
         "It absorbs light energy, becomes excited, and initiates electron transport"
       ],
       "correct": 3,
-      "explanation": "Correct: chlorophyll absorbs light energy, which excites its electrons to a higher energy state; those excited electrons are then passed into an electron transport chain, ultimately driving ATP and NADPH production. (B) is wrong because fixing CO2 into sugar is the Calvin cycle's job, carried out by enzymes like rubisco in the stroma — chlorophyll's role is confined to light absorption and initiating electron flow, not carbon fixation. (C) is wrong because chlorophyll is the electron DONOR that starts the chain (after being excited by light), not the final acceptor that ends it — in the light reactions, that role belongs to NADP+ or, in an earlier segment, plastoquinone-type carriers. (D) is wrong because chlorophyll has no role in converting ATP back to ADP; that reverse reaction happens through ATP-consuming cellular work elsewhere, unrelated to chlorophyll's light-capturing function."
+      "explanation": "Correct: chlorophyll absorbs light energy, which excites its electrons to a higher energy state; those excited electrons are then passed into an electron transport chain, ultimately driving ATP and NADPH production. (B) is wrong because fixing CO2 into sugar is the Calvin cycle's job, carried out by enzymes like rubisco in the stroma — chlorophyll's role is confined to light absorption and initiating electron flow, not carbon fixation. (C) is wrong because chlorophyll is the electron DONOR that starts the chain (after being excited by light), not the final acceptor that ends it — in the light reactions, that role belongs to NADP+ or, in an earlier segment, plastoquinone-type carriers. (A) is wrong because chlorophyll has no role in converting ATP back to ADP; that reverse reaction happens through ATP-consuming cellular work elsewhere, unrelated to chlorophyll's light-capturing function."
     },
     {
       "id": "3-27",
@@ -2196,7 +2196,7 @@ const QUESTIONS = {
         "It can still proceed"
       ],
       "correct": 3,
-      "explanation": "Correct: accessory pigments like carotenoids broaden the usable light spectrum by absorbing wavelengths chlorophyll itself absorbs poorly, then transferring that captured energy to chlorophyll, which still ultimately initiates electron transport — this is why photosynthetic organisms carry multiple pigment types rather than relying on chlorophyll alone. (A) is wrong because it ignores the entire purpose of accessory pigments, which exist specifically to extend light capture beyond what chlorophyll absorbs directly. (C) is wrong because there's no mechanism by which a wavelength mismatch would cause a plant to switch its metabolism to cellular respiration; photosynthesis simply proceeds via the accessory-pigment energy-transfer pathway instead. (D) is wrong because water-splitting is tied to the reaction center machinery associated with chlorophyll, not performed independently by accessory pigments bypassing chlorophyll altogether."
+      "explanation": "Correct: accessory pigments like carotenoids broaden the usable light spectrum by absorbing wavelengths chlorophyll itself absorbs poorly, then transferring that captured energy to chlorophyll, which still ultimately initiates electron transport — this is why photosynthetic organisms carry multiple pigment types rather than relying on chlorophyll alone. (A) is wrong because it ignores the entire purpose of accessory pigments, which exist specifically to extend light capture beyond what chlorophyll absorbs directly. (C) is wrong because there's no mechanism by which a wavelength mismatch would cause a plant to switch its metabolism to cellular respiration; photosynthesis simply proceeds via the accessory-pigment energy-transfer pathway instead. (B) is wrong because water-splitting is tied to the reaction center machinery associated with chlorophyll, not performed independently by accessory pigments bypassing chlorophyll altogether."
     },
     {
       "id": "3-28",
@@ -2209,7 +2209,7 @@ const QUESTIONS = {
         "Thylakoid membrane; water is the key carbon input"
       ],
       "correct": 2,
-      "explanation": "Correct: the Calvin cycle occurs in the chloroplast's stroma and uses carbon dioxide as its key carbon input, fixing it — with help from ATP and NADPH — into organic sugar molecules over the course of the cycle. (A) is wrong on both counts: the thylakoid membrane hosts the light-dependent reactions, not the Calvin cycle, and water isn't the carbon-containing input the Calvin cycle fixes (it's split during the light reactions instead). (C) and (D) are both wrong because they place the process in mitochondrial structures entirely — the Calvin cycle is a chloroplast process, unrelated to mitochondria, and neither oxygen nor glucose is the carbon source the cycle fixes (CO2 is)."
+      "explanation": "Correct: the Calvin cycle occurs in the chloroplast's stroma and uses carbon dioxide as its key carbon input, fixing it — with help from ATP and NADPH — into organic sugar molecules over the course of the cycle. (D) is wrong on both counts: the thylakoid membrane hosts the light-dependent reactions, not the Calvin cycle, and water isn't the carbon-containing input the Calvin cycle fixes (it's split during the light reactions instead). (A) and (B) are both wrong because they place the process in mitochondrial structures entirely — the Calvin cycle is a chloroplast process, unrelated to mitochondria, and neither oxygen nor glucose is the carbon source the cycle fixes (CO2 is)."
     },
     {
       "id": "3-29",
@@ -2222,7 +2222,7 @@ const QUESTIONS = {
         "Glycolysis"
       ],
       "correct": 3,
-      "explanation": "Correct: glycolysis takes place in the cytoplasm and splits glucose into two pyruvate molecules without requiring oxygen, which is why it can continue running even under anaerobic conditions. (A) is wrong because the Krebs cycle occurs in the mitochondrial matrix and, while it doesn't use oxygen directly either, it depends indirectly on oxygen since it needs continuous NAD+/FAD regeneration supplied by the oxygen-dependent electron transport chain. (C) is wrong because the electron transport chain occurs on the inner mitochondrial membrane and requires oxygen directly, as the final electron acceptor. (D) is wrong because pyruvate oxidation occurs in the mitochondrial matrix and, like the Krebs cycle, depends indirectly on oxygen availability through its NAD+ requirement."
+      "explanation": "Correct: glycolysis takes place in the cytoplasm and splits glucose into two pyruvate molecules without requiring oxygen, which is why it can continue running even under anaerobic conditions. (C) is wrong because the Krebs cycle occurs in the mitochondrial matrix and, while it doesn't use oxygen directly either, it depends indirectly on oxygen since it needs continuous NAD+/FAD regeneration supplied by the oxygen-dependent electron transport chain. (A) is wrong because the electron transport chain occurs on the inner mitochondrial membrane and requires oxygen directly, as the final electron acceptor. (B) is wrong because pyruvate oxidation occurs in the mitochondrial matrix and, like the Krebs cycle, depends indirectly on oxygen availability through its NAD+ requirement."
     },
     {
       "id": "3-30",
@@ -2235,7 +2235,7 @@ const QUESTIONS = {
         "Glucose"
       ],
       "correct": 2,
-      "explanation": "Correct: oxygen accepts electrons at the very end of the electron transport chain, combining with them and H⁺ to form water — this keeps the chain from backing up, which is essential to sustaining continued H⁺ pumping and therefore continued ATP production via chemiosmosis. (A) is wrong because glucose is broken down at the very start of respiration (in glycolysis), far upstream of the electron transport chain, and never functions as an electron acceptor there. (B) is wrong because NAD+ is an electron CARRIER that delivers electrons TO the chain (as NADH) — it's not the final destination for electrons at the chain's end. (D) is wrong because pyruvate is processed early in respiration (via pyruvate oxidation) and plays no role as an electron acceptor within the electron transport chain itself."
+      "explanation": "Correct: oxygen accepts electrons at the very end of the electron transport chain, combining with them and H⁺ to form water — this keeps the chain from backing up, which is essential to sustaining continued H⁺ pumping and therefore continued ATP production via chemiosmosis. (D) is wrong because glucose is broken down at the very start of respiration (in glycolysis), far upstream of the electron transport chain, and never functions as an electron acceptor there. (B) is wrong because NAD+ is an electron CARRIER that delivers electrons TO the chain (as NADH) — it's not the final destination for electrons at the chain's end. (A) is wrong because pyruvate is processed early in respiration (via pyruvate oxidation) and plays no role as an electron acceptor within the electron transport chain itself."
     },
     {
       "id": "3-31",
@@ -2248,7 +2248,7 @@ const QUESTIONS = {
         "Glycolysis"
       ],
       "correct": 2,
-      "explanation": "Correct: chemiosmosis is the process by which H⁺ ions flow back down their concentration gradient through ATP synthase, and that flow powers ATP synthase's bonding of ADP and Pi into ATP — the mechanism responsible for the vast majority of ATP produced during aerobic respiration. (A) is wrong because glycolysis produces ATP through substrate-level phosphorylation in the cytoplasm, a completely different mechanism that doesn't involve any H⁺ gradient. (C) is wrong because pyruvate oxidation doesn't produce ATP directly or use an H⁺ gradient — its main products are NADH and CO2, feeding into later stages. (D) is wrong because fermentation's role is regenerating NAD+ to keep glycolysis running under anaerobic conditions; it doesn't involve an H⁺ gradient or chemiosmosis at all."
+      "explanation": "Correct: chemiosmosis is the process by which H⁺ ions flow back down their concentration gradient through ATP synthase, and that flow powers ATP synthase's bonding of ADP and Pi into ATP — the mechanism responsible for the vast majority of ATP produced during aerobic respiration. (D) is wrong because glycolysis produces ATP through substrate-level phosphorylation in the cytoplasm, a completely different mechanism that doesn't involve any H⁺ gradient. (A) is wrong because pyruvate oxidation doesn't produce ATP directly or use an H⁺ gradient — its main products are NADH and CO2, feeding into later stages. (B) is wrong because fermentation's role is regenerating NAD+ to keep glycolysis running under anaerobic conditions; it doesn't involve an H⁺ gradient or chemiosmosis at all."
     },
     {
       "id": "3-32",
@@ -2261,7 +2261,7 @@ const QUESTIONS = {
         "ATP production would actually increase under this scenario"
       ],
       "correct": 0,
-      "explanation": "Correct: if ATP synthase is blocked but the ETC keeps pumping H⁺, the gradient would actually build up MORE than normal, since its usual outlet is closed — but because ATP production specifically depends on H⁺ flowing THROUGH ATP synthase, and that flow is now blocked, ATP synthesis via chemiosmosis would drop sharply despite the steep gradient still existing. (A) is wrong because blocking the very structure that makes ATP (ATP synthase) can't increase ATP output — it removes the only route by which the gradient's energy gets converted into ATP. (C) is wrong because the problem states the ETC continues pumping H⁺ normally; ATP synthase and the ETC are separate protein complexes, and blocking one doesn't automatically shut down the other. (D) is wrong because oxygen's role as final electron acceptor happens at the ETC, upstream of ATP synthase — blocking ATP synthase doesn't interfere with oxygen's separate function there."
+      "explanation": "Correct: if ATP synthase is blocked but the ETC keeps pumping H⁺, the gradient would actually build up MORE than normal, since its usual outlet is closed — but because ATP production specifically depends on H⁺ flowing THROUGH ATP synthase, and that flow is now blocked, ATP synthesis via chemiosmosis would drop sharply despite the steep gradient still existing. (D) is wrong because blocking the very structure that makes ATP (ATP synthase) can't increase ATP output — it removes the only route by which the gradient's energy gets converted into ATP. (C) is wrong because the problem states the ETC continues pumping H⁺ normally; ATP synthase and the ETC are separate protein complexes, and blocking one doesn't automatically shut down the other. (B) is wrong because oxygen's role as final electron acceptor happens at the ETC, upstream of ATP synthase — blocking ATP synthase doesn't interfere with oxygen's separate function there."
     },
     {
       "id": "3-33",
@@ -2274,7 +2274,7 @@ const QUESTIONS = {
         "Carbon dioxide and oxygen"
       ],
       "correct": 0,
-      "explanation": "Correct: NADH and FADH2, produced during glycolysis, pyruvate oxidation, and the Krebs cycle, carry high-energy electrons to the electron transport chain, where those electrons are passed down the chain, powering H⁺ pumping and ultimately ATP synthesis via chemiosmosis. (A) is wrong because ATP and ADP are the products and reactants of phosphorylation reactions, not electron-carrying molecules that feed the ETC. (C) is wrong because glucose and pyruvate are carbon-containing fuel molecules broken down earlier in respiration; they don't themselves deliver electrons to the ETC. (D) is wrong because CO2 is a released byproduct and O2 is the ETC's final electron acceptor — neither one delivers electrons TO the chain from earlier respiration stages."
+      "explanation": "Correct: NADH and FADH2, produced during glycolysis, pyruvate oxidation, and the Krebs cycle, carry high-energy electrons to the electron transport chain, where those electrons are passed down the chain, powering H⁺ pumping and ultimately ATP synthesis via chemiosmosis. (B) is wrong because ATP and ADP are the products and reactants of phosphorylation reactions, not electron-carrying molecules that feed the ETC. (C) is wrong because glucose and pyruvate are carbon-containing fuel molecules broken down earlier in respiration; they don't themselves deliver electrons to the ETC. (D) is wrong because CO2 is a released byproduct and O2 is the ETC's final electron acceptor — neither one delivers electrons TO the chain from earlier respiration stages."
     },
     {
       "id": "3-34",
@@ -2287,7 +2287,7 @@ const QUESTIONS = {
         "ATP molecules generated earlier in the pathway"
       ],
       "correct": 2,
-      "explanation": "Correct: the CO2 released during pyruvate oxidation and the Krebs cycle originates from the carbon atoms of the original glucose molecule, broken down into pyruvate during glycolysis and further processed into acetyl-CoA before entering the Krebs cycle, with carbon progressively stripped away as CO2 as the molecule is fully oxidized. (A) is wrong because oxygen's role in respiration is accepting electrons at the end of the ETC to form water — it doesn't supply the carbon atoms that end up in released CO2. (C) is wrong because water isn't a carbon-containing molecule and can't be the source of carbon atoms found in CO2. (D) is wrong because ATP doesn't contain the carbon backbone being oxidized in these reactions — it's a separate energy-carrier molecule, not a source of the carbons released as CO2."
+      "explanation": "Correct: the CO2 released during pyruvate oxidation and the Krebs cycle originates from the carbon atoms of the original glucose molecule, broken down into pyruvate during glycolysis and further processed into acetyl-CoA before entering the Krebs cycle, with carbon progressively stripped away as CO2 as the molecule is fully oxidized. (B) is wrong because oxygen's role in respiration is accepting electrons at the end of the ETC to form water — it doesn't supply the carbon atoms that end up in released CO2. (A) is wrong because water isn't a carbon-containing molecule and can't be the source of carbon atoms found in CO2. (D) is wrong because ATP doesn't contain the carbon backbone being oxidized in these reactions — it's a separate energy-carrier molecule, not a source of the carbons released as CO2."
     },
     {
       "id": "3-35",
@@ -2300,7 +2300,7 @@ const QUESTIONS = {
         "All four stages produce roughly equal amounts of ATP"
       ],
       "correct": 0,
-      "explanation": "Correct: pyruvate oxidation produces no ATP directly (mainly NADH and CO2), the Krebs cycle produces a small amount directly via substrate-level phosphorylation alongside NADH and FADH2, glycolysis produces a small net amount directly, and the electron transport chain (via chemiosmosis) produces by far the largest share of total ATP yield using the NADH/FADH2 supplied by the earlier stages. (A) is wrong because it places the electron transport chain — the largest ATP producer by far — at the bottom of the ranking, essentially inverting the correct order. (C) is wrong because it ranks pyruvate oxidation, which produces essentially zero ATP directly, above both glycolysis and the ETC, and glycolysis below the ETC in a way that misorders the small producers relative to each other. (D) is wrong because ATP yield across the four stages is highly uneven, not roughly equal — the ETC alone accounts for the large majority of the total."
+      "explanation": "Correct: pyruvate oxidation produces no ATP directly (mainly NADH and CO2), the Krebs cycle produces a small amount directly via substrate-level phosphorylation alongside NADH and FADH2, glycolysis produces a small net amount directly, and the electron transport chain (via chemiosmosis) produces by far the largest share of total ATP yield using the NADH/FADH2 supplied by the earlier stages. (B) is wrong because it places the electron transport chain — the largest ATP producer by far — at the bottom of the ranking, essentially inverting the correct order. (C) is wrong because it ranks pyruvate oxidation, which produces essentially zero ATP directly, above both glycolysis and the ETC, and glycolysis below the ETC in a way that misorders the small producers relative to each other. (D) is wrong because ATP yield across the four stages is highly uneven, not roughly equal — the ETC alone accounts for the large majority of the total."
     },
     {
       "id": "3-36",
@@ -2313,7 +2313,7 @@ const QUESTIONS = {
         "It would be largely unaffected, since glycolysis alone can cover the cell's energy needs"
       ],
       "correct": 2,
-      "explanation": "Correct: blocking electron flow at the final ETC complex causes the entire chain to back up (since each earlier complex can't pass electrons forward), stopping H⁺ pumping and collapsing the gradient chemiosmosis depends on — since the ETC/chemiosmosis pathway accounts for the vast majority of a cell's ATP, this causes a dramatic overall drop, which is exactly why cyanide is lethal. (A) is wrong because glycolysis alone produces only a small net amount of ATP compared to the ETC, nowhere near enough to sustain most cells' energy demands on its own. (C) is wrong because losing the ability to use oxygen doesn't free up more energy — it eliminates the pathway responsible for most ATP production, a severe net loss, not a gain. (D) is wrong because animal cells (the typical context for cyanide poisoning) lack chloroplasts and cannot perform photosynthesis under any circumstances, regardless of ETC status."
+      "explanation": "Correct: blocking electron flow at the final ETC complex causes the entire chain to back up (since each earlier complex can't pass electrons forward), stopping H⁺ pumping and collapsing the gradient chemiosmosis depends on — since the ETC/chemiosmosis pathway accounts for the vast majority of a cell's ATP, this causes a dramatic overall drop, which is exactly why cyanide is lethal. (D) is wrong because glycolysis alone produces only a small net amount of ATP compared to the ETC, nowhere near enough to sustain most cells' energy demands on its own. (A) is wrong because losing the ability to use oxygen doesn't free up more energy — it eliminates the pathway responsible for most ATP production, a severe net loss, not a gain. (B) is wrong because animal cells (the typical context for cyanide poisoning) lack chloroplasts and cannot perform photosynthesis under any circumstances, regardless of ETC status."
     },
     {
       "id": "3-37",
@@ -2327,7 +2327,7 @@ const QUESTIONS = {
         "ATP production would increase while heat release decreased"
       ],
       "correct": 2,
-      "explanation": "Correct: this describes real biological \"uncoupling\" (used naturally by uncoupling proteins in brown fat for heat generation) — if H⁺ leaks freely back across the membrane without passing through ATP synthase, the carefully built gradient dissipates without doing the useful work of producing ATP, and the energy that would have gone into ATP synthesis is instead released as heat, showing that the H⁺ gradient is the real direct energy currency of chemiosmosis while ATP synthase is simply the machine that normally captures it productively. (A) is wrong because it reverses both effects — a leaky membrane reduces ATP output (since less H⁺ passes through the ATP-generating machinery) while increasing, not decreasing, heat release. (C) is wrong because bypassing ATP synthase fundamentally changes where the gradient's stored energy ends up — it cannot leave both ATP and heat output unaffected. (D) is wrong because the ETC itself (electron transport and H⁺ pumping) doesn't depend on ATP synthase functioning; the chain can keep pumping H⁺ even as that H⁺ leaks back out through a different route."
+      "explanation": "Correct: this describes real biological \"uncoupling\" (used naturally by uncoupling proteins in brown fat for heat generation) — if H⁺ leaks freely back across the membrane without passing through ATP synthase, the carefully built gradient dissipates without doing the useful work of producing ATP, and the energy that would have gone into ATP synthesis is instead released as heat, showing that the H⁺ gradient is the real direct energy currency of chemiosmosis while ATP synthase is simply the machine that normally captures it productively. (D) is wrong because it reverses both effects — a leaky membrane reduces ATP output (since less H⁺ passes through the ATP-generating machinery) while increasing, not decreasing, heat release. (A) is wrong because bypassing ATP synthase fundamentally changes where the gradient's stored energy ends up — it cannot leave both ATP and heat output unaffected. (B) is wrong because the ETC itself (electron transport and H⁺ pumping) doesn't depend on ATP synthase functioning; the chain can keep pumping H⁺ even as that H⁺ leaks back out through a different route."
     },
     {
       "id": "3-38",
@@ -2340,7 +2340,7 @@ const QUESTIONS = {
         "To regenerate NAD+ from NADH so glycolysis can keep running without oxygen"
       ],
       "correct": 3,
-      "explanation": "Correct: fermentation's entire purpose is regenerating NAD+ (consumed during glycolysis) so that glycolysis — the only ATP-producing pathway that doesn't require oxygen — can keep running when oxygen is unavailable; it is not a significant source of additional ATP on its own. (A) is wrong because fermentation itself generates no additional ATP; all ATP made under these anaerobic conditions still comes from glycolysis, not from the fermentation step. (C) is wrong because any CO2 released during fermentation (in yeast) is a byproduct, not something manufactured for photosynthesis — fermentation and photosynthesis are unrelated pathways in different organisms/contexts. (D) is wrong because fermentation doesn't perform the ETC's job (pumping H⁺, using oxygen, generating chemiosmotic ATP) — it's a completely separate, much simpler NAD+-recycling workaround used specifically when the ETC pathway is unavailable."
+      "explanation": "Correct: fermentation's entire purpose is regenerating NAD+ (consumed during glycolysis) so that glycolysis — the only ATP-producing pathway that doesn't require oxygen — can keep running when oxygen is unavailable; it is not a significant source of additional ATP on its own. (B) is wrong because fermentation itself generates no additional ATP; all ATP made under these anaerobic conditions still comes from glycolysis, not from the fermentation step. (A) is wrong because any CO2 released during fermentation (in yeast) is a byproduct, not something manufactured for photosynthesis — fermentation and photosynthesis are unrelated pathways in different organisms/contexts. (C) is wrong because fermentation doesn't perform the ETC's job (pumping H⁺, using oxygen, generating chemiosmotic ATP) — it's a completely separate, much simpler NAD+-recycling workaround used specifically when the ETC pathway is unavailable."
     },
     {
       "id": "3-39",
@@ -2353,7 +2353,7 @@ const QUESTIONS = {
         "Human muscle cells during intense exercise perform alcoholic fermentation"
       ],
       "correct": 2,
-      "explanation": "Correct: yeast performs alcoholic fermentation, converting pyruvate into ethanol and CO2 while regenerating NAD+. (A) is wrong because it swaps the fermentation type — lactic acid fermentation is characteristic of human muscle cells, not yeast. (B) is wrong for the same reason in reverse — human muscle cells during intense exercise perform lactic acid fermentation (producing lactate), not alcoholic fermentation. (D) is wrong because human muscle cells DO perform lactic acid fermentation specifically when oxygen delivery can't keep up with ATP demand, such as during intense exercise — fermentation is not absent from human physiology, just a different type than yeast's."
+      "explanation": "Correct: yeast performs alcoholic fermentation, converting pyruvate into ethanol and CO2 while regenerating NAD+. (B) is wrong because it swaps the fermentation type — lactic acid fermentation is characteristic of human muscle cells, not yeast. (D) is wrong for the same reason in reverse — human muscle cells during intense exercise perform lactic acid fermentation (producing lactate), not alcoholic fermentation. (A) is wrong because human muscle cells DO perform lactic acid fermentation specifically when oxygen delivery can't keep up with ATP demand, such as during intense exercise — fermentation is not absent from human physiology, just a different type than yeast's."
     },
     {
       "id": "3-40",
@@ -2366,7 +2366,7 @@ const QUESTIONS = {
         "Fermentation requires ATP as an input and generates none at all"
       ],
       "correct": 2,
-      "explanation": "Correct: this is a frequently tested and frequently misunderstood point — fermentation reactions themselves (converting pyruvate to lactate or ethanol/CO2) don't produce any additional ATP; the only ATP being made under anaerobic conditions still comes from glycolysis, which fermentation simply allows to keep running by regenerating its needed NAD+ supply. (A) is wrong because fermentation yields far LESS total ATP than the full aerobic pathway (which includes the Krebs cycle and ETC/chemiosmosis on top of glycolysis) — it's a much less energy-efficient route, not a more productive one. (C) is wrong for the same underlying reason: aerobic respiration yields substantially more ATP per glucose than glycolysis-plus-fermentation alone, so the totals are far from equal. (D) is wrong because fermentation doesn't consume ATP as an input — its actual function is recycling NAD+, a cofactor, not spending or generating ATP directly."
+      "explanation": "Correct: this is a frequently tested and frequently misunderstood point — fermentation reactions themselves (converting pyruvate to lactate or ethanol/CO2) don't produce any additional ATP; the only ATP being made under anaerobic conditions still comes from glycolysis, which fermentation simply allows to keep running by regenerating its needed NAD+ supply. (B) is wrong because fermentation yields far LESS total ATP than the full aerobic pathway (which includes the Krebs cycle and ETC/chemiosmosis on top of glycolysis) — it's a much less energy-efficient route, not a more productive one. (A) is wrong for the same underlying reason: aerobic respiration yields substantially more ATP per glucose than glycolysis-plus-fermentation alone, so the totals are far from equal. (D) is wrong because fermentation doesn't consume ATP as an input — its actual function is recycling NAD+, a cofactor, not spending or generating ATP directly."
     },
     {
       "id": "3-41",
@@ -2379,7 +2379,7 @@ const QUESTIONS = {
         "Only within a completely separate, unrelated metabolic pathway"
       ],
       "correct": 2,
-      "explanation": "Correct: feedback inhibition typically works by having a pathway's final product loop back and inhibit an enzyme near the pathway's own beginning (often the first, rate-limiting step), efficiently shutting down the entire pathway's activity as soon as it starts rather than wasting resources on intermediate steps that would just get blocked later anyway. (A) is wrong because feedback inhibition specifically targets an enzyme WITHIN the same pathway that produced the inhibiting product, not a random unrelated location. (C) is wrong for the same reason — the defining feature of feedback inhibition is that the product regulates its OWN pathway of origin, not a separate one. (D) is wrong because inhibiting a step at the very end, after the product has already formed, wouldn't conserve any resources — the efficient strategy (and the one cells actually use) is to block near the start, before resources are committed to intermediate steps."
+      "explanation": "Correct: feedback inhibition typically works by having a pathway's final product loop back and inhibit an enzyme near the pathway's own beginning (often the first, rate-limiting step), efficiently shutting down the entire pathway's activity as soon as it starts rather than wasting resources on intermediate steps that would just get blocked later anyway. (A) is wrong because feedback inhibition specifically targets an enzyme WITHIN the same pathway that produced the inhibiting product, not a random unrelated location. (D) is wrong for the same reason — the defining feature of feedback inhibition is that the product regulates its OWN pathway of origin, not a separate one. (B) is wrong because inhibiting a step at the very end, after the product has already formed, wouldn't conserve any resources — the efficient strategy (and the one cells actually use) is to block near the start, before resources are committed to intermediate steps."
     },
     {
       "id": "3-42",
@@ -2392,7 +2392,7 @@ const QUESTIONS = {
         "Competitive inhibition, since the product competes directly for the active site"
       ],
       "correct": 1,
-      "explanation": "Correct: feedback inhibition is typically a form of noncompetitive (allosteric) inhibition — the pathway's end product usually binds a regulatory (allosteric) site on the target enzyme, not the active site itself, changing the enzyme's shape and reducing its activity, connecting this regulatory concept back to the inhibition types from Section 3.1. (A) is wrong because the end product in feedback inhibition typically isn't structurally similar to the enzyme's actual substrate and doesn't compete for the active site — it binds a distinct regulatory site instead. (C) is wrong because feedback inhibition IS a genuine, well-established form of enzyme regulation/inhibition, central to how metabolic pathways self-regulate. (D) is wrong because feedback inhibition occurs broadly across both prokaryotic and eukaryotic cells as a general metabolic regulation strategy, not one restricted to prokaryotes."
+      "explanation": "Correct: feedback inhibition is typically a form of noncompetitive (allosteric) inhibition — the pathway's end product usually binds a regulatory (allosteric) site on the target enzyme, not the active site itself, changing the enzyme's shape and reducing its activity, connecting this regulatory concept back to the inhibition types from Section 3.1. (D) is wrong because the end product in feedback inhibition typically isn't structurally similar to the enzyme's actual substrate and doesn't compete for the active site — it binds a distinct regulatory site instead. (C) is wrong because feedback inhibition IS a genuine, well-established form of enzyme regulation/inhibition, central to how metabolic pathways self-regulate. (A) is wrong because feedback inhibition occurs broadly across both prokaryotic and eukaryotic cells as a general metabolic regulation strategy, not one restricted to prokaryotes."
     },
     {
       "id": "3-43",
@@ -2405,7 +2405,7 @@ const QUESTIONS = {
         "It prevents wasteful ATP overproduction once energy demand is already met"
       ],
       "correct": 3,
-      "explanation": "Correct: feedback inhibition by high ATP levels acts as a self-correcting brake — when the cell already has plenty of ATP, inhibiting an early glycolytic enzyme slows further glucose breakdown and unnecessary additional ATP production, conserving glucose and other resources until ATP levels drop again and the inhibition is relieved. (A) is wrong because it describes the opposite of what feedback inhibition accomplishes — the whole point is to REDUCE overproduction when ATP is already abundant, not maximize output regardless of need. (C) is wrong because this regulation has a clear adaptive function (resource conservation), not merely being an incidental byproduct of chemistry with no purpose. (D) is wrong because feedback inhibition is reversible — when ATP levels drop again, the inhibition is relieved and glycolysis resumes, rather than being shut down forever."
+      "explanation": "Correct: feedback inhibition by high ATP levels acts as a self-correcting brake — when the cell already has plenty of ATP, inhibiting an early glycolytic enzyme slows further glucose breakdown and unnecessary additional ATP production, conserving glucose and other resources until ATP levels drop again and the inhibition is relieved. (A) is wrong because it describes the opposite of what feedback inhibition accomplishes — the whole point is to REDUCE overproduction when ATP is already abundant, not maximize output regardless of need. (C) is wrong because this regulation has a clear adaptive function (resource conservation), not merely being an incidental byproduct of chemistry with no purpose. (B) is wrong because feedback inhibition is reversible — when ATP levels drop again, the inhibition is relieved and glycolysis resumes, rather than being shut down forever."
     },
     {
       "id": "3-44",
@@ -2418,7 +2418,7 @@ const QUESTIONS = {
         "Because glycolysis directly requires oxygen as one of its substrates"
       ],
       "correct": 1,
-      "explanation": "Correct: glycolysis doesn't use oxygen directly — its only real requirement besides glucose is a supply of NAD+ to accept electrons during the process, and that NAD+ can be regenerated either by the oxygen-dependent electron transport chain (aerobic) or by fermentation (anaerobic), which is exactly why glycolysis can proceed either way as long as some mechanism for regenerating NAD+ is available. (A) is wrong because it's exactly backwards — glycolysis has no direct oxygen requirement whatsoever, which is precisely why it can occur without oxygen. (C) is wrong for the same reason — glycolysis is well known to proceed even in the complete absence of oxygen, as long as fermentation can keep regenerating its NAD+. (D) is wrong because NAD+ availability is actually the central limiting factor for glycolysis to keep running — glycolysis stalls without it, making this relationship essential rather than nonexistent."
+      "explanation": "Correct: glycolysis doesn't use oxygen directly — its only real requirement besides glucose is a supply of NAD+ to accept electrons during the process, and that NAD+ can be regenerated either by the oxygen-dependent electron transport chain (aerobic) or by fermentation (anaerobic), which is exactly why glycolysis can proceed either way as long as some mechanism for regenerating NAD+ is available. (D) is wrong because it's exactly backwards — glycolysis has no direct oxygen requirement whatsoever, which is precisely why it can occur without oxygen. (C) is wrong for the same reason — glycolysis is well known to proceed even in the complete absence of oxygen, as long as fermentation can keep regenerating its NAD+. (A) is wrong because NAD+ availability is actually the central limiting factor for glycolysis to keep running — glycolysis stalls without it, making this relationship essential rather than nonexistent."
     },
     {
       "id": "3-45",
@@ -2431,7 +2431,7 @@ const QUESTIONS = {
         "Their activity increases to compensate for the drop in available oxygen"
       ],
       "correct": 1,
-      "explanation": "Correct: both pyruvate oxidation and the Krebs cycle depend on a continued supply of NAD+ and FAD, normally regenerated by the electron transport chain using oxygen as the final electron acceptor — without adequate oxygen, the ETC slows, NAD+/FAD regeneration slows, and both stages stall as their electron carriers stay \"full\" (as NADH/FADH2) with nowhere to unload. (A) is wrong because these stages can't simply ramp up under low oxygen — their required cofactor supply is what's constrained, and that constraint gets worse, not better, as oxygen drops. (C) is wrong because both stages depend indirectly but genuinely on oxygen through the NAD+/FAD regeneration chain — they are not oxygen-independent processes. (D) is wrong because this is an animal or general eukaryotic cell context (not specified as a photosynthetic organism), and even in plant cells, respiration and photosynthesis are separate processes that don't substitute for one another on demand."
+      "explanation": "Correct: both pyruvate oxidation and the Krebs cycle depend on a continued supply of NAD+ and FAD, normally regenerated by the electron transport chain using oxygen as the final electron acceptor — without adequate oxygen, the ETC slows, NAD+/FAD regeneration slows, and both stages stall as their electron carriers stay \"full\" (as NADH/FADH2) with nowhere to unload. (D) is wrong because these stages can't simply ramp up under low oxygen — their required cofactor supply is what's constrained, and that constraint gets worse, not better, as oxygen drops. (A) is wrong because both stages depend indirectly but genuinely on oxygen through the NAD+/FAD regeneration chain — they are not oxygen-independent processes. (C) is wrong because this is an animal or general eukaryotic cell context (not specified as a photosynthetic organism), and even in plant cells, respiration and photosynthesis are separate processes that don't substitute for one another on demand."
     },
     {
       "id": "3-46",
@@ -2445,7 +2445,7 @@ const QUESTIONS = {
         "It would decrease"
       ],
       "correct": 3,
-      "explanation": "Correct: even though the chemical doesn't touch glycolysis directly, blocking fermentation's NAD+-regenerating step removes glycolysis's only available NAD+ source in this anaerobic culture — since glycolysis requires NAD+ to proceed, its own rate (and ATP output) would fall as available NAD+ runs low, demonstrating that fermentation's real biological importance lies in supporting glycolysis, not producing energy of its own. (A) is wrong because it ignores the tight NAD+-dependency link between the two processes established throughout this section — they are very much interconnected under anaerobic conditions. (C) is wrong because removing glycolysis's NAD+ supply can only hinder, not boost, its ability to proceed — there's no mechanism by which blocking a needed cofactor's regeneration would speed the pathway up. (D) is wrong because oxygen availability is an external condition unaffected by this chemical — a culture with no oxygen present cannot suddenly perform aerobic respiration regardless of what happens to fermentation."
+      "explanation": "Correct: even though the chemical doesn't touch glycolysis directly, blocking fermentation's NAD+-regenerating step removes glycolysis's only available NAD+ source in this anaerobic culture — since glycolysis requires NAD+ to proceed, its own rate (and ATP output) would fall as available NAD+ runs low, demonstrating that fermentation's real biological importance lies in supporting glycolysis, not producing energy of its own. (B) is wrong because it ignores the tight NAD+-dependency link between the two processes established throughout this section — they are very much interconnected under anaerobic conditions. (C) is wrong because removing glycolysis's NAD+ supply can only hinder, not boost, its ability to proceed — there's no mechanism by which blocking a needed cofactor's regeneration would speed the pathway up. (A) is wrong because oxygen availability is an external condition unaffected by this chemical — a culture with no oxygen present cannot suddenly perform aerobic respiration regardless of what happens to fermentation."
     },
     {
       "id": "3-47",
@@ -2458,7 +2458,7 @@ const QUESTIONS = {
         "The final product released once the reaction is complete"
       ],
       "correct": 0,
-      "explanation": "Correct: a substrate is the specific reactant molecule (or molecules) that binds to an enzyme's active site and is converted into product(s) through the catalyzed reaction — an enzyme's substrate specificity is defined by which molecules can fit and react at its particular active site. (A) is wrong because it describes the product, which is what the substrate becomes AFTER the reaction, not the substrate itself. (C) is wrong because that describes an inhibitor's role, which blocks or reduces enzyme function, the opposite of a substrate, which the enzyme actively processes into product. (D) is wrong because mere physical proximity doesn't make something a substrate — a substrate must specifically fit and chemically interact with the active site, regardless of what else happens to be nearby."
+      "explanation": "Correct: a substrate is the specific reactant molecule (or molecules) that binds to an enzyme's active site and is converted into product(s) through the catalyzed reaction — an enzyme's substrate specificity is defined by which molecules can fit and react at its particular active site. (D) is wrong because it describes the product, which is what the substrate becomes AFTER the reaction, not the substrate itself. (C) is wrong because that describes an inhibitor's role, which blocks or reduces enzyme function, the opposite of a substrate, which the enzyme actively processes into product. (B) is wrong because mere physical proximity doesn't make something a substrate — a substrate must specifically fit and chemically interact with the active site, regardless of what else happens to be nearby."
     },
     {
       "id": "3-48",
@@ -2471,7 +2471,7 @@ const QUESTIONS = {
         "Exergonic reactions require an outside energy source before they can proceed"
       ],
       "correct": 2,
-      "explanation": "Correct: this is the foundation of cellular energy management — cells constantly use exergonic reactions (especially ATP hydrolysis) as an energy source to power endergonic reactions and processes that wouldn't happen spontaneously on their own, through the principle of energy coupling. (A) is wrong because exergonic and endergonic reactions occur together constantly within the same cell — in fact, coupling them is central to how metabolism works, not something that never happens. (C) is wrong because endergonic reactions, by definition, require an energy input to proceed — they are not spontaneous on their own, which is precisely why coupling to an exergonic reaction is necessary. (D) is wrong because exergonic reactions proceed spontaneously on their own by definition, releasing energy without needing an external input first — that's what makes them useful for powering endergonic processes."
+      "explanation": "Correct: this is the foundation of cellular energy management — cells constantly use exergonic reactions (especially ATP hydrolysis) as an energy source to power endergonic reactions and processes that wouldn't happen spontaneously on their own, through the principle of energy coupling. (A) is wrong because exergonic and endergonic reactions occur together constantly within the same cell — in fact, coupling them is central to how metabolism works, not something that never happens. (B) is wrong because endergonic reactions, by definition, require an energy input to proceed — they are not spontaneous on their own, which is precisely why coupling to an exergonic reaction is necessary. (D) is wrong because exergonic reactions proceed spontaneously on their own by definition, releasing energy without needing an external input first — that's what makes them useful for powering endergonic processes."
     },
     {
       "id": "3-49",
@@ -2484,7 +2484,7 @@ const QUESTIONS = {
         "Chemical energy is converted into light energy"
       ],
       "correct": 0,
-      "explanation": "Correct: photosynthesis's fundamental job is capturing light energy and converting it into chemical potential energy stored within the covalent bonds of glucose and other organic molecules — energy later released by cellular respiration to power ATP production. (A) is wrong because it reverses the actual direction of energy conversion — photosynthesis converts light energy INTO chemical energy, not the other way around. (C) is wrong because photosynthesis isn't fundamentally about kinetic-to-thermal conversion; its defining transformation is light energy into stored chemical bond energy. (D) is wrong because photosynthesis is precisely an energy-transformation process — describing it as having no meaningful transformation misses its entire biological function."
+      "explanation": "Correct: photosynthesis's fundamental job is capturing light energy and converting it into chemical potential energy stored within the covalent bonds of glucose and other organic molecules — energy later released by cellular respiration to power ATP production. (D) is wrong because it reverses the actual direction of energy conversion — photosynthesis converts light energy INTO chemical energy, not the other way around. (C) is wrong because photosynthesis isn't fundamentally about kinetic-to-thermal conversion; its defining transformation is light energy into stored chemical bond energy. (B) is wrong because photosynthesis is precisely an energy-transformation process — describing it as having no meaningful transformation misses its entire biological function."
     },
     {
       "id": "3-50",
@@ -2497,7 +2497,7 @@ const QUESTIONS = {
         "Glucose"
       ],
       "correct": 2,
-      "explanation": "Correct: pyruvate oxidation converts pyruvate into acetyl-CoA (releasing CO2 and producing NADH in the process), and it's acetyl-CoA specifically that enters the Krebs cycle to be further broken down and fully oxidized. (A) is wrong because glucose is broken down much earlier, during glycolysis, well before pyruvate oxidation or the Krebs cycle. (C) is wrong because oxygen's role is as the final electron acceptor at the end of the electron transport chain, not as a molecule entering the Krebs cycle directly. (D) is wrong because ATP is an energy-carrier product generated at various points in respiration, not a carbon-containing molecule that enters the Krebs cycle as fuel."
+      "explanation": "Correct: pyruvate oxidation converts pyruvate into acetyl-CoA (releasing CO2 and producing NADH in the process), and it's acetyl-CoA specifically that enters the Krebs cycle to be further broken down and fully oxidized. (D) is wrong because glucose is broken down much earlier, during glycolysis, well before pyruvate oxidation or the Krebs cycle. (B) is wrong because oxygen's role is as the final electron acceptor at the end of the electron transport chain, not as a molecule entering the Krebs cycle directly. (A) is wrong because ATP is an energy-carrier product generated at various points in respiration, not a carbon-containing molecule that enters the Krebs cycle as fuel."
     },
     {
       "id": "3-51",
@@ -2510,7 +2510,7 @@ const QUESTIONS = {
         "Glycolysis, since it occurs in the cytoplasm independent of mitochondria"
       ],
       "correct": 3,
-      "explanation": "Correct: glycolysis occurs entirely in the cytoplasm, independent of the mitochondria, so a cell lacking functional mitochondria could still perform glycolysis, producing a small net amount of ATP. (A) is wrong because the Krebs cycle occurs within the mitochondrial matrix and would be impossible without functional mitochondria. (B) is wrong because the electron transport chain is embedded in the inner mitochondrial membrane and, like the Krebs cycle, requires functional mitochondria to operate. (D) is wrong because pyruvate oxidation also takes place within the mitochondrial matrix, making it equally dependent on functional mitochondria being present."
+      "explanation": "Correct: glycolysis occurs entirely in the cytoplasm, independent of the mitochondria, so a cell lacking functional mitochondria could still perform glycolysis, producing a small net amount of ATP. (C) is wrong because the Krebs cycle occurs within the mitochondrial matrix and would be impossible without functional mitochondria. (A) is wrong because the electron transport chain is embedded in the inner mitochondrial membrane and, like the Krebs cycle, requires functional mitochondria to operate. (B) is wrong because pyruvate oxidation also takes place within the mitochondrial matrix, making it equally dependent on functional mitochondria being present."
     },
     {
       "id": "3-52",
@@ -2523,7 +2523,7 @@ const QUESTIONS = {
         "A large increase in the cell's overall oxygen consumption"
       ],
       "correct": 2,
-      "explanation": "Correct: the accumulation of fermentation's characteristic byproducts (lactate in animal cells, or ethanol and CO2 in yeast), paired with ATP production limited to what glycolysis alone can provide, is the clearest indicator that a cell is relying on fermentation rather than the full aerobic pathway. (A) is wrong because high CO2 output with no fermentation byproducts detected actually points toward active aerobic respiration (Krebs cycle/pyruvate oxidation releasing CO2), not fermentation, which is defined partly by producing those very byproducts. (C) is wrong because fermentation is specifically what a cell relies on when oxygen ISN'T being used at high levels — increased oxygen consumption instead points to active aerobic respiration. (D) is wrong because fermentation occurs in the cytoplasm and doesn't involve or require mitochondria at all — a rise in mitochondrial number would instead suggest a shift toward greater aerobic capacity, not reliance on fermentation."
+      "explanation": "Correct: the accumulation of fermentation's characteristic byproducts (lactate in animal cells, or ethanol and CO2 in yeast), paired with ATP production limited to what glycolysis alone can provide, is the clearest indicator that a cell is relying on fermentation rather than the full aerobic pathway. (B) is wrong because high CO2 output with no fermentation byproducts detected actually points toward active aerobic respiration (Krebs cycle/pyruvate oxidation releasing CO2), not fermentation, which is defined partly by producing those very byproducts. (D) is wrong because fermentation is specifically what a cell relies on when oxygen ISN'T being used at high levels — increased oxygen consumption instead points to active aerobic respiration. (A) is wrong because fermentation occurs in the cytoplasm and doesn't involve or require mitochondria at all — a rise in mitochondrial number would instead suggest a shift toward greater aerobic capacity, not reliance on fermentation."
     },
     {
       "id": "3-53",
@@ -2536,7 +2536,7 @@ const QUESTIONS = {
         "They are consumed with every reaction, supplying energy directly to it"
       ],
       "correct": 0,
-      "explanation": "Correct: enzymes' efficiency comes specifically from their ability to dramatically lower activation energy, which can increase reaction rates by many orders of magnitude compared to the uncatalyzed reaction — precisely what makes complex, coordinated cellular metabolism possible on biologically relevant timescales. (A) is wrong because catalysts by definition don't alter what products a reaction forms, only how fast it reaches those same products. (C) is wrong because enzymes are not consumed during catalysis and don't supply energy to the reaction — they're reused across many cycles and only lower the energy barrier, without adding energy themselves. (D) is wrong because enzymes still require reactants (substrates) to act on; they facilitate a reaction between existing reactants rather than making reactants unnecessary."
+      "explanation": "Correct: enzymes' efficiency comes specifically from their ability to dramatically lower activation energy, which can increase reaction rates by many orders of magnitude compared to the uncatalyzed reaction — precisely what makes complex, coordinated cellular metabolism possible on biologically relevant timescales. (B) is wrong because catalysts by definition don't alter what products a reaction forms, only how fast it reaches those same products. (D) is wrong because enzymes are not consumed during catalysis and don't supply energy to the reaction — they're reused across many cycles and only lower the energy barrier, without adding energy themselves. (C) is wrong because enzymes still require reactants (substrates) to act on; they facilitate a reaction between existing reactants rather than making reactants unnecessary."
     },
     {
       "id": "3-54",
@@ -2549,7 +2549,7 @@ const QUESTIONS = {
         "The energy content of these molecules cannot meaningfully be compared"
       ],
       "correct": 0,
-      "explanation": "Correct: since building ATP from ADP + Pi is an endergonic process (the product ends up with more energy than the reactants), ATP itself contains more stored potential energy than its ADP + Pi components — energy that's released and made available to power cellular work when ATP is later hydrolyzed back to ADP + Pi. (A) is wrong because it reverses the actual comparison — ATP is the higher-energy molecule precisely because forming it required adding energy via that extra phosphate bond. (C) is wrong because if the two had identical energy content, forming ATP from ADP + Pi (or breaking it back down) wouldn't release or require any net energy, contradicting how ATP functions as an energy currency at all. (D) is wrong because comparing stored chemical potential energy between related molecules is a standard, well-established biochemical measurement — it's exactly how ATP's energetic role is understood and quantified."
+      "explanation": "Correct: since building ATP from ADP + Pi is an endergonic process (the product ends up with more energy than the reactants), ATP itself contains more stored potential energy than its ADP + Pi components — energy that's released and made available to power cellular work when ATP is later hydrolyzed back to ADP + Pi. (C) is wrong because it reverses the actual comparison — ATP is the higher-energy molecule precisely because forming it required adding energy via that extra phosphate bond. (B) is wrong because if the two had identical energy content, forming ATP from ADP + Pi (or breaking it back down) wouldn't release or require any net energy, contradicting how ATP functions as an energy currency at all. (D) is wrong because comparing stored chemical potential energy between related molecules is a standard, well-established biochemical measurement — it's exactly how ATP's energetic role is understood and quantified."
     },
     {
       "id": "3-55",
@@ -2575,7 +2575,7 @@ const QUESTIONS = {
         "They synthesize ATP directly, without any involvement from the ETC itself"
       ],
       "correct": 1,
-      "explanation": "Correct: NADH and FADH2 supply the actual electrons that move through the electron transport chain; the energy released as those electrons pass from one protein complex to the next is what powers active H⁺ pumping across the inner mitochondrial membrane — without a continued supply, there would be no electrons to move and no energy release to drive pumping. (A) is wrong because NADH and FADH2 don't synthesize ATP directly themselves — their electrons must first pass through the ETC, whose pumped H⁺ gradient then powers ATP synthase separately, via chemiosmosis. (C) is wrong because far from being inert, NADH and FADH2 are functionally essential — they are the direct electron source that makes ETC operation and H⁺ pumping possible at all. (D) is wrong because the ETC has no independent electron source of its own; it depends entirely on NADH and FADH2 delivering electrons from earlier respiration stages."
+      "explanation": "Correct: NADH and FADH2 supply the actual electrons that move through the electron transport chain; the energy released as those electrons pass from one protein complex to the next is what powers active H⁺ pumping across the inner mitochondrial membrane — without a continued supply, there would be no electrons to move and no energy release to drive pumping. (D) is wrong because NADH and FADH2 don't synthesize ATP directly themselves — their electrons must first pass through the ETC, whose pumped H⁺ gradient then powers ATP synthase separately, via chemiosmosis. (C) is wrong because far from being inert, NADH and FADH2 are functionally essential — they are the direct electron source that makes ETC operation and H⁺ pumping possible at all. (A) is wrong because the ETC has no independent electron source of its own; it depends entirely on NADH and FADH2 delivering electrons from earlier respiration stages."
     },
     {
       "id": "3-57",
@@ -2588,7 +2588,7 @@ const QUESTIONS = {
         "Glycolysis cannot begin unless fermentation happens first"
       ],
       "correct": 1,
-      "explanation": "Correct: under anaerobic conditions, glycolysis and fermentation are mutually dependent — glycolysis supplies the pyruvate that fermentation converts into lactate or ethanol/CO2, while fermentation supplies the regenerated NAD+ glycolysis needs to keep running, meaning neither process can be sustained without the other in this context. (A) is wrong because it directly contradicts the well-established interdependency between the two processes — fermentation specifically requires pyruvate that only glycolysis provides. (C) is wrong because the sequence runs the other direction — glycolysis happens FIRST, producing the pyruvate that fermentation then acts on; glycolysis doesn't wait for fermentation to occur first. (D) is wrong because fermentation converts pyruvate into lactate or ethanol/CO2, not into glucose — it doesn't supply glycolysis's starting fuel at all."
+      "explanation": "Correct: under anaerobic conditions, glycolysis and fermentation are mutually dependent — glycolysis supplies the pyruvate that fermentation converts into lactate or ethanol/CO2, while fermentation supplies the regenerated NAD+ glycolysis needs to keep running, meaning neither process can be sustained without the other in this context. (A) is wrong because it directly contradicts the well-established interdependency between the two processes — fermentation specifically requires pyruvate that only glycolysis provides. (D) is wrong because the sequence runs the other direction — glycolysis happens FIRST, producing the pyruvate that fermentation then acts on; glycolysis doesn't wait for fermentation to occur first. (C) is wrong because fermentation converts pyruvate into lactate or ethanol/CO2, not into glucose — it doesn't supply glycolysis's starting fuel at all."
     },
     {
       "id": "3-58",
@@ -2601,7 +2601,7 @@ const QUESTIONS = {
         "The substance ends up permanently built into the reaction's final product"
       ],
       "correct": 2,
-      "explanation": "Correct: a cofactor assists an enzyme's function (often by helping stabilize the active site or participate in the catalytic mechanism) without itself being converted into product, unlike the substrate, which is chemically transformed during the reaction — this distinction (required but not consumed as product) is the key experimental signature separating a cofactor from a substrate. (A) is wrong because that describes how a SUBSTRATE behaves — becoming incorporated into or transformed into the product — which is the opposite of a cofactor's typically unchanged, reusable role. (C) is wrong because a cofactor that's truly unrelated to enzyme function wouldn't be \"required for normal rate\" at all — the defining feature here is that it IS functionally necessary, just not chemically converted. (D) is wrong because denaturing the enzyme would describe an inhibitor or damaging agent, not a cofactor, which supports rather than disrupts normal enzyme function."
+      "explanation": "Correct: a cofactor assists an enzyme's function (often by helping stabilize the active site or participate in the catalytic mechanism) without itself being converted into product, unlike the substrate, which is chemically transformed during the reaction — this distinction (required but not consumed as product) is the key experimental signature separating a cofactor from a substrate. (D) is wrong because that describes how a SUBSTRATE behaves — becoming incorporated into or transformed into the product — which is the opposite of a cofactor's typically unchanged, reusable role. (A) is wrong because a cofactor that's truly unrelated to enzyme function wouldn't be \"required for normal rate\" at all — the defining feature here is that it IS functionally necessary, just not chemically converted. (B) is wrong because denaturing the enzyme would describe an inhibitor or damaging agent, not a cofactor, which supports rather than disrupts normal enzyme function."
     },
     {
       "id": "3-59",
@@ -2614,7 +2614,7 @@ const QUESTIONS = {
         "ATP plays no meaningful role in transferring cellular energy"
       ],
       "correct": 1,
-      "explanation": "Correct: ATP's defining biological role is as a fast-turnover energy currency — constantly produced (via exergonic processes like respiration) and constantly spent (via coupling to endergonic cellular processes) — rather than serving as a stable, long-term energy reserve the way fat or glycogen do. (A) is wrong because it directly contradicts ATP's actual role: cells keep only a small, rapidly cycled ATP pool, unlike fat and glycogen, which ARE built for genuine long-term storage. (C) is wrong because ATP is central, not irrelevant, to cellular energy transfer — it's the primary molecule cells use to move energy from energy-releasing to energy-requiring processes. (D) is wrong because ATP is used broadly across virtually all cellular processes (both plant and animal, and both photosynthetic and non-photosynthetic organisms), not exclusively within photosynthesis."
+      "explanation": "Correct: ATP's defining biological role is as a fast-turnover energy currency — constantly produced (via exergonic processes like respiration) and constantly spent (via coupling to endergonic cellular processes) — rather than serving as a stable, long-term energy reserve the way fat or glycogen do. (C) is wrong because it directly contradicts ATP's actual role: cells keep only a small, rapidly cycled ATP pool, unlike fat and glycogen, which ARE built for genuine long-term storage. (D) is wrong because ATP is central, not irrelevant, to cellular energy transfer — it's the primary molecule cells use to move energy from energy-releasing to energy-requiring processes. (A) is wrong because ATP is used broadly across virtually all cellular processes (both plant and animal, and both photosynthetic and non-photosynthetic organisms), not exclusively within photosynthesis."
     },
     {
       "id": "3-60",
@@ -2627,7 +2627,7 @@ const QUESTIONS = {
         "Cytoplasm; its inputs are pyruvate and NAD+"
       ],
       "correct": 2,
-      "explanation": "Correct: the Calvin cycle occurs in the chloroplast's stroma and uses CO2 (the carbon source), along with ATP and NADPH supplied by the light-dependent reactions, as its key inputs to build organic sugar molecules. (A) is wrong because it describes the location and inputs of the LIGHT-dependent reactions, not the Calvin cycle — a mix-up of the two photosynthetic stages. (C) is wrong because it places the process in the mitochondrial matrix with respiration-related inputs, but the Calvin cycle is a chloroplast process entirely unrelated to mitochondria. (D) is wrong for the same reason — cytoplasm, pyruvate, and NAD+ describe cellular respiration's glycolysis stage, not the Calvin cycle."
+      "explanation": "Correct: the Calvin cycle occurs in the chloroplast's stroma and uses CO2 (the carbon source), along with ATP and NADPH supplied by the light-dependent reactions, as its key inputs to build organic sugar molecules. (B) is wrong because it describes the location and inputs of the LIGHT-dependent reactions, not the Calvin cycle — a mix-up of the two photosynthetic stages. (A) is wrong because it places the process in the mitochondrial matrix with respiration-related inputs, but the Calvin cycle is a chloroplast process entirely unrelated to mitochondria. (D) is wrong for the same reason — cytoplasm, pyruvate, and NAD+ describe cellular respiration's glycolysis stage, not the Calvin cycle."
     },
     {
       "id": "3-61",
@@ -2640,7 +2640,7 @@ const QUESTIONS = {
         "One single, undivided continuous process"
       ],
       "correct": 2,
-      "explanation": "Correct: aerobic cellular respiration is organized into four sequential stages — glycolysis (cytoplasm), pyruvate oxidation (mitochondrial matrix), the Krebs cycle (mitochondrial matrix), and the electron transport chain paired with chemiosmosis (inner mitochondrial membrane) — each stage feeding products forward into the next. (A) is wrong because it omits both pyruvate oxidation and the electron transport chain, two distinct stages with their own locations and functions. (C) is wrong because respiration is clearly organized into separable stages, each occurring in a different cellular location and producing distinct intermediate products, rather than proceeding as one undifferentiated process. (D) is wrong because it overcounts the number of stages — the standard four-stage breakdown doesn't split further into six separate stages."
+      "explanation": "Correct: aerobic cellular respiration is organized into four sequential stages — glycolysis (cytoplasm), pyruvate oxidation (mitochondrial matrix), the Krebs cycle (mitochondrial matrix), and the electron transport chain paired with chemiosmosis (inner mitochondrial membrane) — each stage feeding products forward into the next. (B) is wrong because it omits both pyruvate oxidation and the electron transport chain, two distinct stages with their own locations and functions. (D) is wrong because respiration is clearly organized into separable stages, each occurring in a different cellular location and producing distinct intermediate products, rather than proceeding as one undifferentiated process. (A) is wrong because it overcounts the number of stages — the standard four-stage breakdown doesn't split further into six separate stages."
     },
     {
       "id": "3-62",
@@ -2653,7 +2653,7 @@ const QUESTIONS = {
         "It acts as a signal that shuts glycolysis down once ATP demand is satisfied"
       ],
       "correct": 1,
-      "explanation": "Correct: when oxygen delivery can't keep pace with ATP demand, the ETC slows and NADH can't be reoxidized to NAD+ fast enough there — lactic acid fermentation converts pyruvate to lactate and, in doing so, regenerates NAD+, letting glycolysis (the only ATP-producing step that doesn't need oxygen) keep running; lactate itself adds no ATP beyond glycolysis's own output. (A) is wrong because lactate production itself yields no additional ATP — its function is regenerating NAD+, a cofactor-recycling role, not an energy-generating one. (C) is wrong because lactate has no oxygen-binding or oxygen-transport function; that's an unrelated, fabricated mechanism not part of how lactic acid fermentation actually works. (D) is wrong because lactate's role is enabling glycolysis to CONTINUE (by recycling NAD+), not shutting it down — it functions oppositely to what this choice describes. (Note: lactate clears from the blood within roughly an hour after exercise, well before delayed-onset muscle soreness sets in 24–48 hours later — DOMS results from micro-tears and inflammation in muscle fibers, not lingering lactate.)"
+      "explanation": "Correct: when oxygen delivery can't keep pace with ATP demand, the ETC slows and NADH can't be reoxidized to NAD+ fast enough there — lactic acid fermentation converts pyruvate to lactate and, in doing so, regenerates NAD+, letting glycolysis (the only ATP-producing step that doesn't need oxygen) keep running; lactate itself adds no ATP beyond glycolysis's own output. (C) is wrong because lactate production itself yields no additional ATP — its function is regenerating NAD+, a cofactor-recycling role, not an energy-generating one. (A) is wrong because lactate has no oxygen-binding or oxygen-transport function; that's an unrelated, fabricated mechanism not part of how lactic acid fermentation actually works. (D) is wrong because lactate's role is enabling glycolysis to CONTINUE (by recycling NAD+), not shutting it down — it functions oppositely to what this choice describes. (Note: lactate clears from the blood within roughly an hour after exercise, well before delayed-onset muscle soreness sets in 24–48 hours later — DOMS results from micro-tears and inflammation in muscle fibers, not lingering lactate.)"
     },
     {
       "id": "3-63",
@@ -2666,7 +2666,7 @@ const QUESTIONS = {
         "Enzymes and organisms co-evolved"
       ],
       "correct": 3,
-      "explanation": "Correct: this isn't coincidence — it reflects co-evolution between an organism's regulated body temperature and the optimal temperature range of the enzymes operating within it, since enzymes functioning efficiently at an organism's normal operating temperature would be strongly favored by natural selection over poorly matched ones. (A) is wrong because there's a clear, well-supported evolutionary explanation (natural selection favoring well-matched enzyme/body-temperature pairings) rather than this being random chance. (C) is wrong because different species (and even different enzymes within one organism) can have quite different optimal temperatures, matched to their own particular physiology — there's no single universal optimum shared by all enzymes. (D) is wrong because enzyme optimal temperature is closely tied to organism physiology through this co-evolutionary matching — the two are linked, not unrelated."
+      "explanation": "Correct: this isn't coincidence — it reflects co-evolution between an organism's regulated body temperature and the optimal temperature range of the enzymes operating within it, since enzymes functioning efficiently at an organism's normal operating temperature would be strongly favored by natural selection over poorly matched ones. (B) is wrong because there's a clear, well-supported evolutionary explanation (natural selection favoring well-matched enzyme/body-temperature pairings) rather than this being random chance. (C) is wrong because different species (and even different enzymes within one organism) can have quite different optimal temperatures, matched to their own particular physiology — there's no single universal optimum shared by all enzymes. (A) is wrong because enzyme optimal temperature is closely tied to organism physiology through this co-evolutionary matching — the two are linked, not unrelated."
     },
     {
       "id": "3-64",
@@ -2679,7 +2679,7 @@ const QUESTIONS = {
         "Metabolism violates thermodynamics by generating energy out of nothing"
       ],
       "correct": 0,
-      "explanation": "Correct: cellular energy pathways are fully consistent with the laws of thermodynamics — no new energy is created, only transformed from one form to another (light energy to chemical energy in photosynthesis, chemical energy to ATP in respiration), and, consistent with the second law, some energy is inevitably lost as heat at each transformation step, meaning these processes are never perfectly efficient. (A) is wrong because it directly contradicts the first law of thermodynamics (conservation of energy) — metabolism transforms existing energy between forms rather than creating new energy. (C) is wrong because no real energy transformation is 100% efficient; some energy is always lost as heat at each step, consistent with the second law, so ATP synthesis inevitably involves some energy loss. (D) is wrong because thermodynamic principles apply fully to biological systems just as they do to any physical or chemical system — living things don't get an exemption from these laws."
+      "explanation": "Correct: cellular energy pathways are fully consistent with the laws of thermodynamics — no new energy is created, only transformed from one form to another (light energy to chemical energy in photosynthesis, chemical energy to ATP in respiration), and, consistent with the second law, some energy is inevitably lost as heat at each transformation step, meaning these processes are never perfectly efficient. (D) is wrong because it directly contradicts the first law of thermodynamics (conservation of energy) — metabolism transforms existing energy between forms rather than creating new energy. (C) is wrong because no real energy transformation is 100% efficient; some energy is always lost as heat at each step, consistent with the second law, so ATP synthesis inevitably involves some energy loss. (B) is wrong because thermodynamic principles apply fully to biological systems just as they do to any physical or chemical system — living things don't get an exemption from these laws."
     },
     {
       "id": "3-65",
@@ -2693,7 +2693,7 @@ const QUESTIONS = {
         "Both effects would stop instantly and at exactly the same moment"
       ],
       "correct": 0,
-      "explanation": "Correct: water-splitting (which releases O2) occurs near the START of the electron transport chain, replacing electrons chlorophyll loses, while NADPH formation happens at the END of the chain, when electrons finally reach NADP+ — if the block occurs partway through, water-splitting and O2 release could plausibly continue briefly using residual capacity in the early chain, even as electrons downstream can no longer reach NADP+, so NADPH production (and the Calvin cycle, which depends on it) would be disrupted almost immediately, while O2 production might lag slightly before also declining as the system backs up. (A) is wrong because it ignores the different positions of water-splitting (early in the chain) and NADPH formation (at the chain's end) relative to where the block occurs — these two effects aren't necessarily simultaneous. (C) is wrong because blocking downstream electron flow provides no mechanism for INCREASING O2 production, and Calvin cycle activity would be disrupted (via lost NADPH supply), not left unchanged. (D) is wrong because both processes are directly tied to specific points within the same electron transport chain — water-splitting near its start and NADPH formation at its end — making them very much connected to ETC function."
+      "explanation": "Correct: water-splitting (which releases O2) occurs near the START of the electron transport chain, replacing electrons chlorophyll loses, while NADPH formation happens at the END of the chain, when electrons finally reach NADP+ — if the block occurs partway through, water-splitting and O2 release could plausibly continue briefly using residual capacity in the early chain, even as electrons downstream can no longer reach NADP+, so NADPH production (and the Calvin cycle, which depends on it) would be disrupted almost immediately, while O2 production might lag slightly before also declining as the system backs up. (D) is wrong because it ignores the different positions of water-splitting (early in the chain) and NADPH formation (at the chain's end) relative to where the block occurs — these two effects aren't necessarily simultaneous. (C) is wrong because blocking downstream electron flow provides no mechanism for INCREASING O2 production, and Calvin cycle activity would be disrupted (via lost NADPH supply), not left unchanged. (B) is wrong because both processes are directly tied to specific points within the same electron transport chain — water-splitting near its start and NADPH formation at its end — making them very much connected to ETC function."
     },
     {
       "id": "3-66",
@@ -2706,7 +2706,7 @@ const QUESTIONS = {
         "It's found in every photosynthetic cell and fixes carbon quickly, but is unstable at room temperature"
       ],
       "correct": 1,
-      "explanation": "Correct: rubisco is considered the most abundant protein on Earth because it's present in essentially every photosynthetic cell, not because any single organism has an unusually large amount; it's also a comparatively slow enzyme that occasionally fixes O2 instead of CO2 (a costly mistake), so plants compensate for its inefficiency by producing it in very large quantities. (A) is wrong because it mislabels rubisco as a FAST catalyst and attributes its abundance to temperature instability rather than to its actual inefficiency (slow rate and occasional O2 fixation), which is the real reason plants need so much of it. (C) is wrong because rubisco's abundance comes from being present across nearly all photosynthetic organisms broadly, not from being confined to a handful of species that individually make extra. (D) is wrong because rubisco fixes O2 far less efficiently and far less often than CO2 — describing the two as similarly efficient misrepresents its core inefficiency problem, and it's rubisco quantity, not RuBP quantity, that plants increase to compensate."
+      "explanation": "Correct: rubisco is considered the most abundant protein on Earth because it's present in essentially every photosynthetic cell, not because any single organism has an unusually large amount; it's also a comparatively slow enzyme that occasionally fixes O2 instead of CO2 (a costly mistake), so plants compensate for its inefficiency by producing it in very large quantities. (D) is wrong because it mislabels rubisco as a FAST catalyst and attributes its abundance to temperature instability rather than to its actual inefficiency (slow rate and occasional O2 fixation), which is the real reason plants need so much of it. (A) is wrong because rubisco's abundance comes from being present across nearly all photosynthetic organisms broadly, not from being confined to a handful of species that individually make extra. (C) is wrong because rubisco fixes O2 far less efficiently and far less often than CO2 — describing the two as similarly efficient misrepresents its core inefficiency problem, and it's rubisco quantity, not RuBP quantity, that plants increase to compensate."
     },
     {
       "id": "3-67",
@@ -2719,7 +2719,7 @@ const QUESTIONS = {
         "The thylakoid membrane; ATP synthase, via chemiosmosis analogous to mitochondria"
       ],
       "correct": 3,
-      "explanation": "Correct: the light-dependent reactions pump H+ into the thylakoid lumen as electrons pass from photosystem II toward photosystem I, building a concentration gradient across the thylakoid membrane; that gradient drives ATP synthase embedded in the thylakoid membrane to produce ATP as H+ flows back down its gradient, the same chemiosmotic mechanism used in the inner mitochondrial membrane during respiration. (A) is wrong because the outer chloroplast membrane is a boundary membrane with no H+-pumping electron transport machinery — the relevant gradient forms across the internal thylakoid membrane instead. (B) is wrong because that describes the analogous process in MITOCHONDRIA during cellular respiration, not the chloroplast structure where the light reactions' H+ gradient actually forms. (D) is wrong on two counts: the stroma is where the Calvin cycle occurs, not where this H+ gradient forms, and rubisco is a carbon-fixing enzyme with no role in ATP synthesis or phosphorylation of ADP."
+      "explanation": "Correct: the light-dependent reactions pump H+ into the thylakoid lumen as electrons pass from photosystem II toward photosystem I, building a concentration gradient across the thylakoid membrane; that gradient drives ATP synthase embedded in the thylakoid membrane to produce ATP as H+ flows back down its gradient, the same chemiosmotic mechanism used in the inner mitochondrial membrane during respiration. (C) is wrong because the outer chloroplast membrane is a boundary membrane with no H+-pumping electron transport machinery — the relevant gradient forms across the internal thylakoid membrane instead. (B) is wrong because that describes the analogous process in MITOCHONDRIA during cellular respiration, not the chloroplast structure where the light reactions' H+ gradient actually forms. (A) is wrong on two counts: the stroma is where the Calvin cycle occurs, not where this H+ gradient forms, and rubisco is a carbon-fixing enzyme with no role in ATP synthesis or phosphorylation of ADP."
     }
   ],
   "4": [
@@ -3005,7 +3005,7 @@ const QUESTIONS = {
         "Cyclins bind and activate CDKs, and specific cyclin-CDK combinations reaching required activity drive progression through specific checkpoints",
         "Cyclins and CDKs are simply two different names referring to the exact same molecule",
         "Cyclins and CDKs function completely independently, with no interaction between them",
-        "CDKs regulate cyclin levels, but cyclins have no reciprocal effect on CDK activity"
+        "CDKs regulate cyclin levels"
       ],
       "correct": 0,
       "explanation": "Cyclins must bind CDKs to activate them, and it's specific cyclin-CDK pairings reaching sufficient levels that push the cell past particular checkpoints, making choice 0 correct. Choice 2 is wrong because cyclins and CDKs work together, not independently — CDKs are inactive without their cyclin partner. Choice 3 is wrong because it reverses the relationship: cyclins activate CDKs, not the other way around. Choice 1 is wrong because they are distinct molecule types — a regulatory protein and an enzyme — not synonyms."
@@ -3597,7 +3597,7 @@ const QUESTIONS = {
         "Homologous chromosomes, one maternal and one paternal"
       ],
       "correct": 3,
-      "explanation": "Crossing over exchanges segments only between homologous chromosomes — one from each parent — creating new allele combinations. Choice A is wrong because sister chromatids are already identical copies of the same chromosome, so exchanging material between them wouldn't create anything new. Choice C describes non-homologous chromosomes, which don't pair up (synapse) with each other and so can't undergo crossing over. Choice D confuses cellular compartments: mitochondrial DNA is physically separate from nuclear chromosomes and isn't involved in meiotic crossing over at all."
+      "explanation": "Crossing over exchanges segments only between homologous chromosomes — one from each parent — creating new allele combinations. Choice C is wrong because sister chromatids are already identical copies of the same chromosome, so exchanging material between them wouldn't create anything new. Choice A describes non-homologous chromosomes, which don't pair up (synapse) with each other and so can't undergo crossing over. Choice B confuses cellular compartments: mitochondrial DNA is physically separate from nuclear chromosomes and isn't involved in meiotic crossing over at all."
     },
     {
       "id": "5-3",
@@ -3610,7 +3610,7 @@ const QUESTIONS = {
         "Independent assortment of homologous pairs"
       ],
       "correct": 3,
-      "explanation": "Independent assortment — random orientation of each homologous pair at the metaphase I plate — is one of the three classic sources of meiotic variation. Choice B, DNA methylation, is an epigenetic change that doesn't alter allele sequence or create new combinations. Choice C, mitochondrial replication, duplicates organelle DNA (maternally inherited and essentially identical across offspring) and has nothing to do with nuclear chromosome variation. Choice D, cytokinesis, simply divides the cytoplasm after nuclear division is complete and doesn't generate any new genetic combinations."
+      "explanation": "Independent assortment — random orientation of each homologous pair at the metaphase I plate — is one of the three classic sources of meiotic variation. Choice B, DNA methylation, is an epigenetic change that doesn't alter allele sequence or create new combinations. Choice A, mitochondrial replication, duplicates organelle DNA (maternally inherited and essentially identical across offspring) and has nothing to do with nuclear chromosome variation. Choice C, cytokinesis, simply divides the cytoplasm after nuclear division is complete and doesn't generate any new genetic combinations."
     },
     {
       "id": "5-4",
@@ -3623,7 +3623,7 @@ const QUESTIONS = {
         "12 chromosomes (double the original diploid number)"
       ],
       "correct": 2,
-      "explanation": "Meiosis I separates homologous pairs, halving chromosome number from 2n = 6 to n = 3 (each still made of two sister chromatids). Choice A (6) mistakenly treats Meiosis I as not changing chromosome number at all, perhaps confusing it with mitosis. Choice C (12) reflects the opposite error, doubling instead of halving — possibly confusing the halving of Meiosis I with the doubling that happens during S-phase replication. Choice D (1.5) comes from incorrectly dividing by 4, as if both meiotic divisions had already occurred."
+      "explanation": "Meiosis I separates homologous pairs, halving chromosome number from 2n = 6 to n = 3 (each still made of two sister chromatids). Choice A (6) mistakenly treats Meiosis I as not changing chromosome number at all, perhaps confusing it with mitosis. Choice D (12) reflects the opposite error, doubling instead of halving — possibly confusing the halving of Meiosis I with the doubling that happens during S-phase replication. Choice B (1.5) comes from incorrectly dividing by 4, as if both meiotic divisions had already occurred."
     },
     {
       "id": "5-5",
@@ -3636,7 +3636,7 @@ const QUESTIONS = {
         "Independent assortment, crossing over, and random fertilization each contribute variation"
       ],
       "correct": 3,
-      "explanation": "Meiosis and fertilization introduce three independent sources of variation — independent assortment (which chromosome copies end up together), crossing over (new allele combinations within a chromosome), and random fertilization (which specific sperm meets which specific egg) — so each sibling ends up with a distinct combination of parental alleles. Choice A is factually wrong: identical DNA between siblings only happens with monozygotic (identical) twins, not full siblings generally. Choice C ignores genetics entirely, when genetic variation is the primary driver of sibling differences. Choice D wrongly limits variation to post-birth mutations, ignoring that meiotic and fertilization-based variation is already present at conception."
+      "explanation": "Meiosis and fertilization introduce three independent sources of variation — independent assortment (which chromosome copies end up together), crossing over (new allele combinations within a chromosome), and random fertilization (which specific sperm meets which specific egg) — so each sibling ends up with a distinct combination of parental alleles. Choice C is factually wrong: identical DNA between siblings only happens with monozygotic (identical) twins, not full siblings generally. Choice B ignores genetics entirely, when genetic variation is the primary driver of sibling differences. Choice A wrongly limits variation to post-birth mutations, ignoring that meiotic and fertilization-based variation is already present at conception."
     },
     {
       "id": "5-6",
@@ -3649,7 +3649,7 @@ const QUESTIONS = {
         "Four haploid cells"
       ],
       "correct": 3,
-      "explanation": "A single diploid cell undergoes two sequential divisions (Meiosis I and II), yielding four haploid cells total. Choice A (one) confuses meiosis with a process that doesn't divide the cell at all. Choice B (two) reflects stopping after only Meiosis I, forgetting that Meiosis II further divides each of those two cells. Choice D (eight) overcounts, as if each of the four cells divided again, which doesn't happen in normal meiosis."
+      "explanation": "A single diploid cell undergoes two sequential divisions (Meiosis I and II), yielding four haploid cells total. Choice B (one) confuses meiosis with a process that doesn't divide the cell at all. Choice C (two) reflects stopping after only Meiosis I, forgetting that Meiosis II further divides each of those two cells. Choice A (eight) overcounts, as if each of the four cells divided again, which doesn't happen in normal meiosis."
     },
     {
       "id": "5-7",
@@ -3659,11 +3659,11 @@ const QUESTIONS = {
       "choices": [
         "6 combinations",
         "3 combinations",
-        "64 combinations (from mistakenly using 4ⁿ instead of 2ⁿ)",
-        "8 combinations (2³)"
+        "64 combinations",
+        "8 combinations"
       ],
       "correct": 3,
-      "explanation": "For n homologous pairs, independent assortment alone yields 2ⁿ possible chromosome combinations in gametes, since each pair independently orients one of two ways. With 3 pairs, that's 2³ = 8. Choice A (3) mistakes the number of pairs itself for the number of combinations. Choice B (6) comes from multiplying 2 × 3 (treating the pairs additively) rather than raising 2 to the power of 3. Choice D (64) results from using 4ⁿ instead of 2ⁿ, a common error from confusing 'two ways to orient each pair' with 'four possible allele combinations.' The correct exponential relationship is why humans, with 23 pairs, have over 8 million possible gamete combinations from independent assortment alone."
+      "explanation": "For n homologous pairs, independent assortment alone yields 2ⁿ possible chromosome combinations in gametes, since each pair independently orients one of two ways. With 3 pairs, that's 2³ = 8. Choice B (3) mistakes the number of pairs itself for the number of combinations. Choice A (6) comes from multiplying 2 × 3 (treating the pairs additively) rather than raising 2 to the power of 3. Choice C (64) results from using 4ⁿ instead of 2ⁿ, a common error from confusing 'two ways to orient each pair' with 'four possible allele combinations.' The correct exponential relationship is why humans, with 23 pairs, have over 8 million possible gamete combinations from independent assortment alone."
     },
     {
       "id": "5-8",
@@ -3676,7 +3676,7 @@ const QUESTIONS = {
         "They separate from each other and move to opposite poles"
       ],
       "correct": 0,
-      "explanation": "During Meiosis I, sister chromatids remain joined at the centromere and move together as a single unit, while it's the homologous PAIRS that separate — sister chromatids don't separate from each other until Meiosis II. Choice A describes what actually happens to homologous pairs (not sister chromatids) during Meiosis I, a common source of confusion between the two structures. Choice C is simply false — chromatids aren't destroyed at any point in meiosis. Choice D describes crossing over, which occurs between non-sister chromatids of homologous chromosomes during prophase I, not between sister chromatids of the same chromosome."
+      "explanation": "During Meiosis I, sister chromatids remain joined at the centromere and move together as a single unit, while it's the homologous PAIRS that separate — sister chromatids don't separate from each other until Meiosis II. Choice D describes what actually happens to homologous pairs (not sister chromatids) during Meiosis I, a common source of confusion between the two structures. Choice C is simply false — chromatids aren't destroyed at any point in meiosis. Choice B describes crossing over, which occurs between non-sister chromatids of homologous chromosomes during prophase I, not between sister chromatids of the same chromosome."
     },
     {
       "id": "5-9",
@@ -3689,7 +3689,7 @@ const QUESTIONS = {
         "The cellular process by which gametes are formed"
       ],
       "correct": 1,
-      "explanation": "Phenotype is the observable trait resulting from genotype (and sometimes environment). Choice A actually defines genotype, not phenotype — a common mix-up between the two related-but-distinct terms. Choice C describes a gene's locus, an unrelated concept about chromosomal position. Choice D describes gametogenesis, a process unrelated to the genotype-phenotype relationship."
+      "explanation": "Phenotype is the observable trait resulting from genotype (and sometimes environment). Choice C actually defines genotype, not phenotype — a common mix-up between the two related-but-distinct terms. Choice A describes a gene's locus, an unrelated concept about chromosomal position. Choice D describes gametogenesis, a process unrelated to the genotype-phenotype relationship."
     },
     {
       "id": "5-10",
@@ -3724,11 +3724,11 @@ const QUESTIONS = {
       "choices": [
         "1/2 (the probability for just one gene alone)",
         "9/16 (the fraction showing both dominant phenotypes, not this specific genotype)",
-        "1/16 (from mistakenly multiplying four separate 1/2 probabilities)",
+        "1/16",
         "1/4"
       ],
       "correct": 3,
-      "explanation": "For gene A, Aa × Aa gives Aa with probability 1/2; same for gene B. By the product rule: 1/2 × 1/2 = 1/4. Choice A (1/16) results from incorrectly multiplying four separate 1/2 probabilities instead of the two correct 1/2 probabilities, one per gene. Choice C (1/2) is the probability for only a single gene's heterozygous outcome, forgetting to multiply in the second gene. Choice D (9/16) is the fraction of offspring showing BOTH dominant phenotypes (AABB, AABb, AaBB, AaBb combined) — a different question than the specific genotype AaBb alone."
+      "explanation": "For gene A, Aa × Aa gives Aa with probability 1/2; same for gene B. By the product rule: 1/2 × 1/2 = 1/4. Choice C (1/16) results from incorrectly multiplying four separate 1/2 probabilities instead of the two correct 1/2 probabilities, one per gene. Choice A (1/2) is the probability for only a single gene's heterozygous outcome, forgetting to multiply in the second gene. Choice B (9/16) is the fraction of offspring showing BOTH dominant phenotypes (AABB, AABb, AaBB, AaBb combined) — a different question than the specific genotype AaBb alone."
     },
     {
       "id": "5-13",
@@ -3741,7 +3741,7 @@ const QUESTIONS = {
         "An individual heterozygous for the trait in question"
       ],
       "correct": 1,
-      "explanation": "A testcross pairs the unknown individual with a homozygous recessive partner, since a homozygous recessive parent can only contribute recessive alleles — making offspring phenotype ratios reveal the unknown parent's genotype. Choice A (homozygous dominant) wouldn't work: it would mask the recessive allele in offspring regardless of the unknown parent's genotype, since a dominant allele from this parent guarantees the dominant phenotype either way. Choice C (heterozygous) introduces its own unpredictable variation, making results impossible to cleanly attribute. Choice D (also unknown) defeats the purpose entirely, since there'd be two unknowns and no way to interpret results."
+      "explanation": "A testcross pairs the unknown individual with a homozygous recessive partner, since a homozygous recessive parent can only contribute recessive alleles — making offspring phenotype ratios reveal the unknown parent's genotype. Choice C (homozygous dominant) wouldn't work: it would mask the recessive allele in offspring regardless of the unknown parent's genotype, since a dominant allele from this parent guarantees the dominant phenotype either way. Choice D (heterozygous) introduces its own unpredictable variation, making results impossible to cleanly attribute. Choice A (also unknown) defeats the purpose entirely, since there'd be two unknowns and no way to interpret results."
     },
     {
       "id": "5-14",
@@ -3754,7 +3754,7 @@ const QUESTIONS = {
         "Neither probability rule applies to genetics problems"
       ],
       "correct": 1,
-      "explanation": "The product rule multiplies individual probabilities together to find the likelihood of multiple independent events ALL occurring (an 'AND' scenario) — such as an offspring being both round AND yellow. Choice A, the sum rule, is instead used for mutually exclusive 'OR' scenarios, which doesn't fit a 'both occurring' question. Choice C is simply incorrect — probability rules are fundamental genetics tools. Choice D describes calculating a probability directly from a ratio, not combining two separate probabilities, so it doesn't address combining two independent events."
+      "explanation": "The product rule multiplies individual probabilities together to find the likelihood of multiple independent events ALL occurring (an 'AND' scenario) — such as an offspring being both round AND yellow. Choice A, the sum rule, is instead used for mutually exclusive 'OR' scenarios, which doesn't fit a 'both occurring' question. Choice D is simply incorrect — probability rules are fundamental genetics tools. Choice C describes calculating a probability directly from a ratio, not combining two separate probabilities, so it doesn't address combining two independent events."
     },
     {
       "id": "5-15",
@@ -3767,7 +3767,7 @@ const QUESTIONS = {
         "1:1:1:1 (AaBb : Aabb : aaBb : aabb)"
       ],
       "correct": 3,
-      "explanation": "A dihybrid testcross (AaBb × aabb) gives each gene an independent 1:1 chance of either allele from the heterozygous parent; combined via the product rule, this produces a 1:1:1:1 ratio of all four genotype/phenotype combinations. Choice B (9:3:3:1) is the ratio for a full AaBb × AaBb dihybrid cross, not a testcross. Choice C (3:1) is the single-gene monohybrid ratio, not a two-gene result. Choice D (1:2:1) is a single-gene GENOTYPE ratio, also from a monohybrid cross, and likewise doesn't account for the second gene."
+      "explanation": "A dihybrid testcross (AaBb × aabb) gives each gene an independent 1:1 chance of either allele from the heterozygous parent; combined via the product rule, this produces a 1:1:1:1 ratio of all four genotype/phenotype combinations. Choice C (9:3:3:1) is the ratio for a full AaBb × AaBb dihybrid cross, not a testcross. Choice A (3:1) is the single-gene monohybrid ratio, not a two-gene result. Choice B (1:2:1) is a single-gene GENOTYPE ratio, also from a monohybrid cross, and likewise doesn't account for the second gene."
     },
     {
       "id": "5-16",
@@ -3780,7 +3780,7 @@ const QUESTIONS = {
         "Sex-linked inheritance, where the gene is located on a sex chromosome"
       ],
       "correct": 0,
-      "explanation": "Incomplete dominance produces a single blended, intermediate heterozygote phenotype (pink) between the two homozygous phenotypes (red, white). Choice A, codominance, would instead require both red AND white to show up fully and separately, not a merged blend, which doesn't match the uniform pink result. Choice C, multiple alleles, refers to a gene having more than two variants across a population, not what this red/white cross demonstrates. Choice D, sex-linked inheritance, concerns gene location on a sex chromosome and has no bearing on how a heterozygote's color is expressed."
+      "explanation": "Incomplete dominance produces a single blended, intermediate heterozygote phenotype (pink) between the two homozygous phenotypes (red, white). Choice C, codominance, would instead require both red AND white to show up fully and separately, not a merged blend, which doesn't match the uniform pink result. Choice B, multiple alleles, refers to a gene having more than two variants across a population, not what this red/white cross demonstrates. Choice D, sex-linked inheritance, concerns gene location on a sex chromosome and has no bearing on how a heterozygote's color is expressed."
     },
     {
       "id": "5-17",
@@ -3793,7 +3793,7 @@ const QUESTIONS = {
         "Pleiotropy, one gene affecting several unrelated traits"
       ],
       "correct": 0,
-      "explanation": "Codominance describes a heterozygote showing BOTH homozygous phenotypes fully and separately, not blended — AB blood type is the classic example, since both A and B antigens are fully and separately present. Choice A, incomplete dominance, would instead predict blended, intermediate antigen expression, which doesn't match the scenario. Choice C, polygenic inheritance, concerns multiple genes influencing a single trait, but ABO blood type is controlled by one gene with multiple alleles. Choice D, pleiotropy, concerns one gene affecting multiple unrelated traits, not how one gene's two alleles are both expressed."
+      "explanation": "Codominance describes a heterozygote showing BOTH homozygous phenotypes fully and separately, not blended — AB blood type is the classic example, since both A and B antigens are fully and separately present. Choice B, incomplete dominance, would instead predict blended, intermediate antigen expression, which doesn't match the scenario. Choice C, polygenic inheritance, concerns multiple genes influencing a single trait, but ABO blood type is controlled by one gene with multiple alleles. Choice D, pleiotropy, concerns one gene affecting multiple unrelated traits, not how one gene's two alleles are both expressed."
     },
     {
       "id": "5-18",
@@ -3806,7 +3806,7 @@ const QUESTIONS = {
         "Multiple alleles"
       ],
       "correct": 3,
-      "explanation": "Multiple alleles describes a gene with more than two variants present in a population's gene pool, even though each individual carries only two. ABO blood type (IA, IB, i) is a classic example. Choice A, codominance, is a related but distinct concept describing how two alleles are expressed together in a heterozygote — but it doesn't by itself explain why THREE alleles exist in the population, which multiple alleles specifically addresses. Choice C, sex-linked inheritance, is irrelevant since the ABO gene isn't on a sex chromosome. Choice D, nondisjunction, is a chromosome separation error unrelated to allele count."
+      "explanation": "Multiple alleles describes a gene with more than two variants present in a population's gene pool, even though each individual carries only two. ABO blood type (IA, IB, i) is a classic example. Choice C, codominance, is a related but distinct concept describing how two alleles are expressed together in a heterozygote — but it doesn't by itself explain why THREE alleles exist in the population, which multiple alleles specifically addresses. Choice A, sex-linked inheritance, is irrelevant since the ABO gene isn't on a sex chromosome. Choice B, nondisjunction, is a chromosome separation error unrelated to allele count."
     },
     {
       "id": "5-19",
@@ -3819,7 +3819,7 @@ const QUESTIONS = {
         "Codominance, both alleles expressed fully in the heterozygote"
       ],
       "correct": 0,
-      "explanation": "Polygenic inheritance describes a single trait influenced by many genes, each with a small additive effect, producing a continuous range of phenotypes — height is a classic example. Choice A, pleiotropy, is the reverse relationship (ONE gene affecting MULTIPLE traits), not multiple genes affecting one trait. Choice C, codominance, describes how two alleles of a single gene are both expressed in a heterozygote, which doesn't explain a continuous range produced by many genes. Choice D, sex-linked inheritance, concerns chromosomal location, not the number of genes contributing to a trait."
+      "explanation": "Polygenic inheritance describes a single trait influenced by many genes, each with a small additive effect, producing a continuous range of phenotypes — height is a classic example. Choice C, pleiotropy, is the reverse relationship (ONE gene affecting MULTIPLE traits), not multiple genes affecting one trait. Choice D, codominance, describes how two alleles of a single gene are both expressed in a heterozygote, which doesn't explain a continuous range produced by many genes. Choice B, sex-linked inheritance, concerns chromosomal location, not the number of genes contributing to a trait."
     },
     {
       "id": "5-20",
@@ -3832,7 +3832,7 @@ const QUESTIONS = {
         "Pleiotropy"
       ],
       "correct": 3,
-      "explanation": "Pleiotropy describes a single gene influencing multiple, distinct phenotypic traits — the sickle-cell allele is a textbook example, affecting red blood cell shape, malaria resistance, and organ damage from one gene. Choice A, polygenic inheritance, is the reverse relationship (many genes affecting ONE trait). Choices C and D, codominance and incomplete dominance, both describe how a heterozygote expresses two alleles of a SINGLE trait, a completely different concept from one gene influencing multiple different traits."
+      "explanation": "Pleiotropy describes a single gene influencing multiple, distinct phenotypic traits — the sickle-cell allele is a textbook example, affecting red blood cell shape, malaria resistance, and organ damage from one gene. Choice C, polygenic inheritance, is the reverse relationship (many genes affecting ONE trait). Choices A and B, incomplete dominance and codominance, both describe how a heterozygote expresses two alleles of a SINGLE trait, a completely different concept from one gene influencing multiple different traits."
     },
     {
       "id": "5-21",
@@ -3845,7 +3845,7 @@ const QUESTIONS = {
         "Males have only one X chromosome, so a single recessive allele is enough to cause the phenotype"
       ],
       "correct": 3,
-      "explanation": "Males (XY) have only one X chromosome, so one recessive allele on it is sufficient to produce the phenotype — there's no second X to carry a masking dominant allele. Choice A gets male anatomy backwards: males have only one X, not two, which is exactly why they're more vulnerable. Choice C is factually wrong — females CAN show X-linked recessive conditions when they inherit two recessive alleles (one on each X), just less often. Choice D ignores the well-documented sex disparity in X-linked recessive condition frequency."
+      "explanation": "Males (XY) have only one X chromosome, so one recessive allele on it is sufficient to produce the phenotype — there's no second X to carry a masking dominant allele. Choice A gets male anatomy backwards: males have only one X, not two, which is exactly why they're more vulnerable. Choice B is factually wrong — females CAN show X-linked recessive conditions when they inherit two recessive alleles (one on each X), just less often. Choice C ignores the well-documented sex disparity in X-linked recessive condition frequency."
     },
     {
       "id": "5-22",
@@ -3858,7 +3858,7 @@ const QUESTIONS = {
         "100%, all of the sons"
       ],
       "correct": 0,
-      "explanation": "Sons get their only X chromosome from their mother. Since she's XAXa, there's a 1/2 chance a son inherits her Xa allele (becoming affected, XaY) and a 1/2 chance he inherits XA (unaffected). Choice A (0%) incorrectly assumes the father's unaffected status protects sons, but sons don't receive an X from their father at all, only a Y. Choice B (25%) may come from mistakenly treating this like a two-allele cross needing both parents' X alleles combined. Choice D (100%) incorrectly assumes the mother must pass on the recessive allele every time, ignoring that she's heterozygous and passes each allele with equal 50% probability."
+      "explanation": "Sons get their only X chromosome from their mother. Since she's XAXa, there's a 1/2 chance a son inherits her Xa allele (becoming affected, XaY) and a 1/2 chance he inherits XA (unaffected). Choice B (0%) incorrectly assumes the father's unaffected status protects sons, but sons don't receive an X from their father at all, only a Y. Choice C (25%) may come from mistakenly treating this like a two-allele cross needing both parents' X alleles combined. Choice D (100%) incorrectly assumes the mother must pass on the recessive allele every time, ignoring that she's heterozygous and passes each allele with equal 50% probability."
     },
     {
       "id": "5-23",
@@ -3872,7 +3872,7 @@ const QUESTIONS = {
         "This calculation is impossible since the genes follow different inheritance patterns"
       ],
       "correct": 0,
-      "explanation": "The product rule applies to any independently assorting genes regardless of what specific inheritance pattern governs each individual gene — you calculate each gene's own phenotype probability using its own rules, then multiply, since the genes themselves assort independently. Choice A is wrong: incomplete dominance changes the phenotype RATIO for its own gene, but has no power to override or ignore an entirely separate, independently assorting gene. Choice C, adding instead of multiplying, is the sum rule, used for mutually exclusive alternative outcomes, not for combining two traits that must occur together. Choice D is incorrect — differing inheritance patterns for different genes don't prevent combining their probabilities, as long as the genes assort independently."
+      "explanation": "The product rule applies to any independently assorting genes regardless of what specific inheritance pattern governs each individual gene — you calculate each gene's own phenotype probability using its own rules, then multiply, since the genes themselves assort independently. Choice C is wrong: incomplete dominance changes the phenotype RATIO for its own gene, but has no power to override or ignore an entirely separate, independently assorting gene. Choice B, adding instead of multiplying, is the sum rule, used for mutually exclusive alternative outcomes, not for combining two traits that must occur together. Choice D is incorrect — differing inheritance patterns for different genes don't prevent combining their probabilities, as long as the genes assort independently."
     },
     {
       "id": "5-24",
@@ -3885,7 +3885,7 @@ const QUESTIONS = {
         "Pleiotropy is multiple genes affecting one trait; polygenic inheritance is one gene affecting multiple traits (the definitions reversed)"
       ],
       "correct": 2,
-      "explanation": "These two terms describe opposite directions of gene-trait relationships: pleiotropy is one gene affecting MULTIPLE traits, while polygenic inheritance is MULTIPLE genes affecting a single trait. Choice B incorrectly claims they're identical, ignoring this fundamental directional difference. Choice C exactly reverses the correct definitions — a common point of confusion given how similarly the two terms sound. Choice D is wrong since both terms specifically describe how genes relate to traits, just in opposite directions."
+      "explanation": "These two terms describe opposite directions of gene-trait relationships: pleiotropy is one gene affecting MULTIPLE traits, while polygenic inheritance is MULTIPLE genes affecting a single trait. Choice B incorrectly claims they're identical, ignoring this fundamental directional difference. Choice D exactly reverses the correct definitions — a common point of confusion given how similarly the two terms sound. Choice A is wrong since both terms specifically describe how genes relate to traits, just in opposite directions."
     },
     {
       "id": "5-25",
@@ -3898,7 +3898,7 @@ const QUESTIONS = {
         "Independently assorting, sorting randomly relative to each other"
       ],
       "correct": 1,
-      "explanation": "Genes located close together on the same chromosome are described as linked, since they're inherited together more often than chance would predict, as they aren't separated by random chromosome orientation. Choice A describes the opposite situation — genes assorting independently is exactly what does NOT happen for closely linked genes. Choice C is incorrect since the question specifies the genes are on the SAME chromosome. Choice D, nondisjunction, is an unrelated chromosome separation error, not a description of gene proximity."
+      "explanation": "Genes located close together on the same chromosome are described as linked, since they're inherited together more often than chance would predict, as they aren't separated by random chromosome orientation. Choice D describes the opposite situation — genes assorting independently is exactly what does NOT happen for closely linked genes. Choice C is incorrect since the question specifies the genes are on the SAME chromosome. Choice A, nondisjunction, is an unrelated chromosome separation error, not a description of gene proximity."
     },
     {
       "id": "5-26",
@@ -3911,7 +3911,7 @@ const QUESTIONS = {
         "Random fertilization, which sperm fertilizes which egg"
       ],
       "correct": 1,
-      "explanation": "Since linked genes sit on the same chromosome, only crossing over (which physically exchanges DNA segments between homologous chromosomes) can separate them. Choice A, independent assortment, shuffles whole, separate chromosomes relative to each other — it has no power to separate genes physically linked on the SAME chromosome. Choice C, random fertilization, determines which gametes combine but doesn't rearrange genes within a chromosome. Choice D, mitosis, is a separate process that doesn't involve homologous chromosome pairing or crossing over."
+      "explanation": "Since linked genes sit on the same chromosome, only crossing over (which physically exchanges DNA segments between homologous chromosomes) can separate them. Choice C, independent assortment, shuffles whole, separate chromosomes relative to each other — it has no power to separate genes physically linked on the SAME chromosome. Choice D, random fertilization, determines which gametes combine but doesn't rearrange genes within a chromosome. Choice A, mitosis, is a separate process that doesn't involve homologous chromosome pairing or crossing over."
     },
     {
       "id": "5-27",
@@ -3924,7 +3924,7 @@ const QUESTIONS = {
         "82%, the parental (non-recombinant) percentage"
       ],
       "correct": 0,
-      "explanation": "Recombination frequency is specifically the percentage of RECOMBINANT (non-parental) offspring, which is 18% here. Choice A (82%) mistakenly uses the parental (non-recombinant) percentage instead — the two figures are complements of each other, and it's easy to grab the wrong one. Choice C (9%) appears to halve the recombinant percentage for no clear biological reason. Choice D (50%) is the value that would indicate no linkage at all, which doesn't match the strong linkage (82% parental) shown here."
+      "explanation": "Recombination frequency is specifically the percentage of RECOMBINANT (non-parental) offspring, which is 18% here. Choice D (82%) mistakenly uses the parental (non-recombinant) percentage instead — the two figures are complements of each other, and it's easy to grab the wrong one. Choice B (9%) appears to halve the recombinant percentage for no clear biological reason. Choice C (50%) is the value that would indicate no linkage at all, which doesn't match the strong linkage (82% parental) shown here."
     },
     {
       "id": "5-28",
@@ -3937,7 +3937,7 @@ const QUESTIONS = {
         "The two genes are extremely close together on the same chromosome, making them very tightly linked"
       ],
       "correct": 0,
-      "explanation": "A recombination frequency near 50% indicates the genes separate about as often as pure independent assortment predicts — true either for genes on different chromosomes, or genes so far apart on the same chromosome that crossovers between them are frequent. Choice A describes the opposite scenario: tightly linked genes produce a LOW recombination frequency, not one near 50%. Choice C is nonsensical — identical genes at the same locus wouldn't produce any measurable recombination frequency. Choice D, nondisjunction, is an unrelated chromosome-number error with nothing to do with recombination frequency."
+      "explanation": "A recombination frequency near 50% indicates the genes separate about as often as pure independent assortment predicts — true either for genes on different chromosomes, or genes so far apart on the same chromosome that crossovers between them are frequent. Choice D describes the opposite scenario: tightly linked genes produce a LOW recombination frequency, not one near 50%. Choice B is nonsensical — identical genes at the same locus wouldn't produce any measurable recombination frequency. Choice C, nondisjunction, is an unrelated chromosome-number error with nothing to do with recombination frequency."
     },
     {
       "id": "5-29",
@@ -3950,7 +3950,7 @@ const QUESTIONS = {
         "Greater physical distance correlates with higher recombination frequency"
       ],
       "correct": 3,
-      "explanation": "Genes farther apart on a chromosome have more physical space between them for a crossover to occur, making a crossover somewhere between them statistically more likely, producing a higher recombination frequency. Choice B states the opposite relationship, which contradicts how crossover probability scales with distance. Choice C denies any relationship at all, when this correlation is the entire basis for genetic mapping. Choice D overstates the relationship as an exact proportionality regardless of gene position, when recombination frequency actually reflects the specific distance BETWEEN two genes, not overall chromosome length, and becomes less linear at larger distances due to double crossovers."
+      "explanation": "Genes farther apart on a chromosome have more physical space between them for a crossover to occur, making a crossover somewhere between them statistically more likely, producing a higher recombination frequency. Choice B states the opposite relationship, which contradicts how crossover probability scales with distance. Choice C denies any relationship at all, when this correlation is the entire basis for genetic mapping. Choice A overstates the relationship as an exact proportionality regardless of gene position, when recombination frequency actually reflects the specific distance BETWEEN two genes, not overall chromosome length, and becomes less linear at larger distances due to double crossovers."
     },
     {
       "id": "5-30",
@@ -3963,7 +3963,7 @@ const QUESTIONS = {
         "Genetic maps directly and precisely measure the exact physical length of DNA between genes, in base pairs"
       ],
       "correct": 1,
-      "explanation": "Genetic maps use recombination frequency as an indirect proxy for relative gene distance on the same chromosome, with 1% recombination frequency conventionally corresponding to about 1 map unit (centimorgan). Choice A overstates the precision — recombination frequency is a relative, indirect measure, not a direct base-pair measurement (and it underestimates true distance for genes far apart, due to double crossovers). Choice C is simply false, since recombination frequency data is exactly what genetic maps are built from. Choice D is wrong — genetic mapping by recombination frequency applies to genes on the SAME chromosome (linked genes); genes on different chromosomes just show ~50% recombination frequency."
+      "explanation": "Genetic maps use recombination frequency as an indirect proxy for relative gene distance on the same chromosome, with 1% recombination frequency conventionally corresponding to about 1 map unit (centimorgan). Choice D overstates the precision — recombination frequency is a relative, indirect measure, not a direct base-pair measurement (and it underestimates true distance for genes far apart, due to double crossovers). Choice A is simply false, since recombination frequency data is exactly what genetic maps are built from. Choice C is wrong — genetic mapping by recombination frequency applies to genes on the SAME chromosome (linked genes); genes on different chromosomes just show ~50% recombination frequency."
     },
     {
       "id": "5-31",
@@ -3976,7 +3976,7 @@ const QUESTIONS = {
         "A-B-C"
       ],
       "correct": 3,
-      "explanation": "Since the A–C recombination frequency (17%) is approximately the sum of A–B (5%) and B–C (12%), Gene B must lie between A and C, giving the order A-B-C. Choices A and C both incorrectly place Gene A in the middle — but if A were in the middle, the largest recombination frequency should be between B and C (the two outer genes), not between A and C as the data shows. Choice D is incorrect because three-point mapping data like this is specifically designed to allow gene order to be determined from additive recombination frequencies."
+      "explanation": "Since the A–C recombination frequency (17%) is approximately the sum of A–B (5%) and B–C (12%), Gene B must lie between A and C, giving the order A-B-C. Choices A and C both incorrectly place Gene A in the middle — but if A were in the middle, the largest recombination frequency should be between B and C (the two outer genes), not between A and C as the data shows. Choice B is incorrect because three-point mapping data like this is specifically designed to allow gene order to be determined from additive recombination frequencies."
     },
     {
       "id": "5-32",
@@ -3989,7 +3989,7 @@ const QUESTIONS = {
         "Independent assortment, random orientation of chromosome pairs"
       ],
       "correct": 1,
-      "explanation": "Nondisjunction is the specific term for a failure of chromosomes to separate properly during meiosis (or mitosis), producing cells with an abnormal chromosome number. Choice A, crossing over, is a normal process that exchanges DNA segments and doesn't involve a separation failure. Choice C, independent assortment, is also a normal process describing random chromosome orientation, not a failure. Choice D, codominance, is an unrelated inheritance pattern with no connection to chromosome number."
+      "explanation": "Nondisjunction is the specific term for a failure of chromosomes to separate properly during meiosis (or mitosis), producing cells with an abnormal chromosome number. Choice A, crossing over, is a normal process that exchanges DNA segments and doesn't involve a separation failure. Choice D, independent assortment, is also a normal process describing random chromosome orientation, not a failure. Choice C, codominance, is an unrelated inheritance pattern with no connection to chromosome number."
     },
     {
       "id": "5-33",
@@ -4002,7 +4002,7 @@ const QUESTIONS = {
         "Linkage, genes inherited together on the same chromosome"
       ],
       "correct": 0,
-      "explanation": "Trisomy means having three copies of a particular chromosome instead of the normal two — Down syndrome (trisomy 21) is the classic human example. Choice A, monosomy, describes the opposite situation, having only ONE copy instead of the normal two. Choice C, polyploidy, describes having extra complete SETS of ALL chromosomes, a much broader and different condition, generally not compatible with human survival. Choice D, linkage, is an unrelated concept about genes on the same chromosome being inherited together, with no connection to chromosome number."
+      "explanation": "Trisomy means having three copies of a particular chromosome instead of the normal two — Down syndrome (trisomy 21) is the classic human example. Choice C, monosomy, describes the opposite situation, having only ONE copy instead of the normal two. Choice B, polyploidy, describes having extra complete SETS of ALL chromosomes, a much broader and different condition, generally not compatible with human survival. Choice D, linkage, is an unrelated concept about genes on the same chromosome being inherited together, with no connection to chromosome number."
     },
     {
       "id": "5-34",
@@ -4015,7 +4015,7 @@ const QUESTIONS = {
         "None of the four gametes"
       ],
       "correct": 2,
-      "explanation": "A homologous pair failing to separate in Meiosis I affects BOTH resulting cells from that division (one gets an extra copy, one is missing it entirely), and Meiosis II simply separates sister chromatids within those already-abnormal cells, so all four final gametes end up incorrect for that chromosome. Choice A (none) would only be true if the error self-corrected, which doesn't happen. Choice B (two) is actually correct for nondisjunction occurring during Meiosis II instead, a common mix-up. Choice D is incorrect because this outcome is a well-established, predictable pattern, not indeterminate."
+      "explanation": "A homologous pair failing to separate in Meiosis I affects BOTH resulting cells from that division (one gets an extra copy, one is missing it entirely), and Meiosis II simply separates sister chromatids within those already-abnormal cells, so all four final gametes end up incorrect for that chromosome. Choice D (none) would only be true if the error self-corrected, which doesn't happen. Choice A (two) is actually correct for nondisjunction occurring during Meiosis II instead, a common mix-up. Choice B is incorrect because this outcome is a well-established, predictable pattern, not indeterminate."
     },
     {
       "id": "5-35",
@@ -4028,7 +4028,7 @@ const QUESTIONS = {
         "None of the four gametes"
       ],
       "correct": 1,
-      "explanation": "Nondisjunction in Meiosis II only affects the ONE cell where the sister-chromatid error occurs — the other cell from Meiosis I proceeds normally through Meiosis II, producing two entirely normal gametes, leaving exactly two of the four total gametes abnormal. Choice A (all four) is actually correct for Meiosis I nondisjunction instead, a common mix-up between the two divisions. Choice C (none) would mean the error had no consequence at all, contradicting the premise. Choice D (three) doesn't match any standard nondisjunction pattern, since affected-gamete counts come in even numbers (0, 2, or 4), not odd ones."
+      "explanation": "Nondisjunction in Meiosis II only affects the ONE cell where the sister-chromatid error occurs — the other cell from Meiosis I proceeds normally through Meiosis II, producing two entirely normal gametes, leaving exactly two of the four total gametes abnormal. Choice C (all four) is actually correct for Meiosis I nondisjunction instead, a common mix-up between the two divisions. Choice D (none) would mean the error had no consequence at all, contradicting the premise. Choice A (three) doesn't match any standard nondisjunction pattern, since affected-gamete counts come in even numbers (0, 2, or 4), not odd ones."
     },
     {
       "id": "5-36",
@@ -4041,7 +4041,7 @@ const QUESTIONS = {
         "Polyploidy, extra complete sets of every chromosome"
       ],
       "correct": 2,
-      "explanation": "Monosomy describes having only one copy of a particular chromosome instead of the normal two, resulting from an n−1 gamete (missing that chromosome) combining with a normal gamete at fertilization. Choice A, trisomy, describes the opposite condition, an EXTRA copy rather than a missing one. Choice C, polyploidy, describes extra complete SETS of ALL chromosomes, a different and much broader condition. Choice D, codominance, is an unrelated inheritance pattern with no connection to chromosome number."
+      "explanation": "Monosomy describes having only one copy of a particular chromosome instead of the normal two, resulting from an n−1 gamete (missing that chromosome) combining with a normal gamete at fertilization. Choice A, trisomy, describes the opposite condition, an EXTRA copy rather than a missing one. Choice D, polyploidy, describes extra complete SETS of ALL chromosomes, a different and much broader condition. Choice B, codominance, is an unrelated inheritance pattern with no connection to chromosome number."
     },
     {
       "id": "5-37",
@@ -4054,7 +4054,7 @@ const QUESTIONS = {
         "Mitosis, not meiosis, since gametes don't come from meiosis"
       ],
       "correct": 1,
-      "explanation": "All four gametes showing an abnormal number for this chromosome is the signature pattern of nondisjunction during Meiosis I, since the error affects both cells produced by that division, which then carry the error through Meiosis II unchanged. Choice B describes the alternative pattern: Meiosis II nondisjunction would only affect two of the four gametes, since the other Meiosis I daughter cell proceeds normally. Choice C is wrong because this pattern is the expected, well-documented result of Meiosis I nondisjunction. Choice D is incorrect and biologically backwards — gametes are specifically produced by meiosis, not mitosis."
+      "explanation": "All four gametes showing an abnormal number for this chromosome is the signature pattern of nondisjunction during Meiosis I, since the error affects both cells produced by that division, which then carry the error through Meiosis II unchanged. Choice C describes the alternative pattern: Meiosis II nondisjunction would only affect two of the four gametes, since the other Meiosis I daughter cell proceeds normally. Choice B is wrong because this pattern is the expected, well-documented result of Meiosis I nondisjunction. Choice D is incorrect and biologically backwards — gametes are specifically produced by meiosis, not mitosis."
     },
     {
       "id": "5-38",
@@ -4068,7 +4068,7 @@ const QUESTIONS = {
         "1%, from subtracting 3% from 4% instead of combining the two pathways"
       ],
       "correct": 2,
-      "explanation": "This requires combining two independent risk pathways using the sum and product rules together: nondisjunction in Meiosis I occurs with probability 4% directly. For nondisjunction to occur specifically in Meiosis II, Meiosis I must first proceed normally (96% probability) AND THEN Meiosis II nondisjunction must occur (3%): 0.96 × 0.03 ≈ 2.9%. Adding these two mutually exclusive pathways: 4% + 2.9% ≈ 6.9% total. Choice A (7%) is close but comes from simply adding 4% and 3% directly, skipping the necessary 96% conditional adjustment. Choice C (12%) results from treating 4 and 3 as plain numbers to multiply. Choice D (1%) comes from subtracting the two percentages instead of correctly combining the two independent risk pathways."
+      "explanation": "This requires combining two independent risk pathways using the sum and product rules together: nondisjunction in Meiosis I occurs with probability 4% directly. For nondisjunction to occur specifically in Meiosis II, Meiosis I must first proceed normally (96% probability) AND THEN Meiosis II nondisjunction must occur (3%): 0.96 × 0.03 ≈ 2.9%. Adding these two mutually exclusive pathways: 4% + 2.9% ≈ 6.9% total. Choice A (7%) is close but comes from simply adding 4% and 3% directly, skipping the necessary 96% conditional adjustment. Choice B (12%) results from treating 4 and 3 as plain numbers to multiply. Choice D (1%) comes from subtracting the two percentages instead of correctly combining the two independent risk pathways."
     },
     {
       "id": "5-39",
@@ -4081,7 +4081,7 @@ const QUESTIONS = {
         "Aneuploidy has no biological consequences of any kind, positive or negative"
       ],
       "correct": 1,
-      "explanation": "Since chromosomes carry genes, an abnormal chromosome number means an abnormal DOSAGE of every gene on that chromosome at once — cells are highly sensitive to correct relative gene-product dosages, explaining aneuploidy's typically severe consequences. Choice B is factually wrong: aneuploidy (like Down syndrome or Turner syndrome) has well-documented, significant biological consequences. Choice C is also wrong — aneuploidy affects internal cellular and physiological function broadly, not merely outward appearance. Choice D incorrectly singles out mitochondrial function; mitochondrial DNA is separate from nuclear chromosomes entirely, so nuclear aneuploidy primarily disrupts nuclear gene dosage, not mitochondrial function specifically."
+      "explanation": "Since chromosomes carry genes, an abnormal chromosome number means an abnormal DOSAGE of every gene on that chromosome at once — cells are highly sensitive to correct relative gene-product dosages, explaining aneuploidy's typically severe consequences. Choice D is factually wrong: aneuploidy (like Down syndrome or Turner syndrome) has well-documented, significant biological consequences. Choice C is also wrong — aneuploidy affects internal cellular and physiological function broadly, not merely outward appearance. Choice A incorrectly singles out mitochondrial function; mitochondrial DNA is separate from nuclear chromosomes entirely, so nuclear aneuploidy primarily disrupts nuclear gene dosage, not mitochondrial function specifically."
     },
     {
       "id": "5-1b",
@@ -4107,7 +4107,7 @@ const QUESTIONS = {
         "All offspring being Aa, with no AA or aa individuals"
       ],
       "correct": 2,
-      "explanation": "An Aa × Aa cross produces the classic 1:2:1 genotype ratio (1 AA : 2 Aa : 1 aa), corresponding to a 3:1 phenotype ratio. Choice B incorrectly omits the heterozygous (Aa) category entirely and mislabels the 3/4 dominant-phenotype group as all being AA, when it actually includes both AA and Aa individuals. Choice C is the ratio expected from a testcross (Aa × aa), not from an Aa × Aa cross, and likewise omits heterozygotes. Choice D would only occur if one parent were AA and the other aa, not from two heterozygous Aa parents."
+      "explanation": "An Aa × Aa cross produces the classic 1:2:1 genotype ratio (1 AA : 2 Aa : 1 aa), corresponding to a 3:1 phenotype ratio. Choice B incorrectly omits the heterozygous (Aa) category entirely and mislabels the 3/4 dominant-phenotype group as all being AA, when it actually includes both AA and Aa individuals. Choice A is the ratio expected from a testcross (Aa × aa), not from an Aa × Aa cross, and likewise omits heterozygotes. Choice D would only occur if one parent were AA and the other aa, not from two heterozygous Aa parents."
     },
     {
       "id": "5-3b",
@@ -4120,7 +4120,7 @@ const QUESTIONS = {
         "Human height, which shows a smooth, continuous range of values across a population"
       ],
       "correct": 1,
-      "explanation": "Polygenic traits show a CONTINUOUS range of phenotypes, since multiple genes each add a small effect — but a trait with only two sharp, non-overlapping categories and no intermediates is the signature of simple single-gene dominant/recessive inheritance instead, making it the poorest fit for polygenic inheritance. Choices A, B, and D (height, skin color, crop yield) are all classic examples of continuously varying, polygenic traits, which is the opposite of what the question is asking for, the LEAST likely candidate."
+      "explanation": "Polygenic traits show a CONTINUOUS range of phenotypes, since multiple genes each add a small effect — but a trait with only two sharp, non-overlapping categories and no intermediates is the signature of simple single-gene dominant/recessive inheritance instead, making it the poorest fit for polygenic inheritance. Choices D, A, and C (height, skin color, crop yield) are all classic examples of continuously varying, polygenic traits, which is the opposite of what the question is asking for, the LEAST likely candidate."
     },
     {
       "id": "5-4b",
@@ -4133,7 +4133,7 @@ const QUESTIONS = {
         "The two genes turn out to be located on two entirely different chromosomes"
       ],
       "correct": 2,
-      "explanation": "Linkage's signature is an excess of PARENTAL (non-recombinant) phenotype combinations relative to what independent assortment predicts, with recombinant combinations being notably rarer. Choice A (9:3:3:1) is exactly what independent assortment predicts for two UNLINKED genes, so seeing this ratio would argue AGAINST linkage. Choice C (equal numbers of all four combinations) would actually suggest a testcross between unlinked genes, again indicating independent assortment. Choice D directly states the genes are on different chromosomes, which by definition rules out linkage rather than providing evidence for it."
+      "explanation": "Linkage's signature is an excess of PARENTAL (non-recombinant) phenotype combinations relative to what independent assortment predicts, with recombinant combinations being notably rarer. Choice B (9:3:3:1) is exactly what independent assortment predicts for two UNLINKED genes, so seeing this ratio would argue AGAINST linkage. Choice A (equal numbers of all four combinations) would actually suggest a testcross between unlinked genes, again indicating independent assortment. Choice D directly states the genes are on different chromosomes, which by definition rules out linkage rather than providing evidence for it."
     },
     {
       "id": "5-5b",
@@ -4146,7 +4146,7 @@ const QUESTIONS = {
         "Monosomy has no biological consequences of any kind, for any chromosome"
       ],
       "correct": 0,
-      "explanation": "For most human chromosomes, monosomy (missing an entire chromosome and all its genes) is generally even more severe than trisomy for the same chromosome, and is very often incompatible with survival to birth, reflecting how critical the correct minimum gene dosage is for development. Choice B is factually wrong, since monosomy has well-documented, typically severe biological consequences. Choice C incorrectly limits monosomy to chromosome 21 specifically, but monosomy can occur for any chromosome (Down syndrome is trisomy 21, not monosomy). Choice D incorrectly claims monosomy and trisomy always produce identical outcomes, when missing genetic material is generally more severe than having extra material of the same chromosome."
+      "explanation": "For most human chromosomes, monosomy (missing an entire chromosome and all its genes) is generally even more severe than trisomy for the same chromosome, and is very often incompatible with survival to birth, reflecting how critical the correct minimum gene dosage is for development. Choice D is factually wrong, since monosomy has well-documented, typically severe biological consequences. Choice C incorrectly limits monosomy to chromosome 21 specifically, but monosomy can occur for any chromosome (Down syndrome is trisomy 21, not monosomy). Choice B incorrectly claims monosomy and trisomy always produce identical outcomes, when missing genetic material is generally more severe than having extra material of the same chromosome."
     },
     {
       "id": "5-40",
@@ -4159,7 +4159,7 @@ const QUESTIONS = {
         "Rr, heterozygous"
       ],
       "correct": 1,
-      "explanation": "A 1:1 ratio of round to wrinkled offspring is the signature of a testcross: Rr × rr produces 1/2 Rr (round) and 1/2 rr (wrinkled). Choice A (RR) would instead produce ALL round offspring, since Rr × RR gives only round phenotypes, no wrinkled ones. Choice B (Rr) would produce a 3:1 ratio (Rr × Rr), not 1:1. Choice D is incorrect, since a 1:1 ratio is a completely standard, reproducible outcome of a testcross."
+      "explanation": "A 1:1 ratio of round to wrinkled offspring is the signature of a testcross: Rr × rr produces 1/2 Rr (round) and 1/2 rr (wrinkled). Choice A (RR) would instead produce ALL round offspring, since Rr × RR gives only round phenotypes, no wrinkled ones. Choice D (Rr) would produce a 3:1 ratio (Rr × Rr), not 1:1. Choice C is incorrect, since a 1:1 ratio is a completely standard, reproducible outcome of a testcross."
     },
     {
       "id": "5-41",
@@ -4172,7 +4172,7 @@ const QUESTIONS = {
         "Mitosis would instead produce gametes carrying the full, unreduced diploid chromosome number"
       ],
       "correct": 0,
-      "explanation": "If gametes were produced by mitosis (which preserves full diploid chromosome number), combining two diploid gametes at fertilization would double the chromosome number every generation. Meiosis specifically halves chromosome number, so fertilization restores the correct diploid number instead. Choice A describes what WOULD happen if mitosis were used for gamete production, correctly identifying the problem meiosis prevents, but it doesn't itself state why meiosis is the solution, which is what the question asks. Choice C is factually wrong: mitosis and meiosis differ fundamentally in chromosome number outcome and genetic variation. Choice D mischaracterizes meiosis as merely a speed variant of mitosis, ignoring its distinct mechanism and purpose."
+      "explanation": "If gametes were produced by mitosis (which preserves full diploid chromosome number), combining two diploid gametes at fertilization would double the chromosome number every generation. Meiosis specifically halves chromosome number, so fertilization restores the correct diploid number instead. Choice D describes what WOULD happen if mitosis were used for gamete production, correctly identifying the problem meiosis prevents, but it doesn't itself state why meiosis is the solution, which is what the question asks. Choice B is factually wrong: mitosis and meiosis differ fundamentally in chromosome number outcome and genetic variation. Choice C mischaracterizes meiosis as merely a speed variant of mitosis, ignoring its distinct mechanism and purpose."
     },
     {
       "id": "5-42",
@@ -4185,7 +4185,7 @@ const QUESTIONS = {
         "Observing whether the heterozygote shows a blended phenotype or both parental phenotypes separately"
       ],
       "correct": 3,
-      "explanation": "The defining diagnostic test is whether the heterozygote's phenotype is a genuine BLEND (incomplete dominance, e.g., pink from red × white) or shows BOTH original phenotypes fully and distinguishably, without merging (codominance, e.g., AB blood type). Choice B, measuring overall size, doesn't address phenotype blending versus separate expression at all. Choice C, counting total offspring, relates to sample size, not to distinguishing these two inheritance patterns. Choice D, checking for multiple genes, is actually the diagnostic question for distinguishing single-gene from POLYGENIC inheritance, a different distinction entirely."
+      "explanation": "The defining diagnostic test is whether the heterozygote's phenotype is a genuine BLEND (incomplete dominance, e.g., pink from red × white) or shows BOTH original phenotypes fully and distinguishably, without merging (codominance, e.g., AB blood type). Choice B, measuring overall size, doesn't address phenotype blending versus separate expression at all. Choice C, counting total offspring, relates to sample size, not to distinguishing these two inheritance patterns. Choice A, checking for multiple genes, is actually the diagnostic question for distinguishing single-gene from POLYGENIC inheritance, a different distinction entirely."
     },
     {
       "id": "5-43",
@@ -4198,7 +4198,7 @@ const QUESTIONS = {
         "43%, from mistakenly dividing 430 by 1,000 instead of by the correct total of 500"
       ],
       "correct": 2,
-      "explanation": "Recombination frequency = (recombinant offspring ÷ total offspring) × 100 = (70 ÷ 500) × 100 = 14%. Choice A (70%) mistakes the raw recombinant count for a percentage, without dividing by the total number of offspring at all. Choice C (43%) results from using an incorrect total (1,000 instead of the correct 500). Choice D (86%) is actually the PARENTAL (non-recombinant) percentage (430 ÷ 500 = 86%), the complement of the correct recombination frequency, easy to grab by mistake."
+      "explanation": "Recombination frequency = (recombinant offspring ÷ total offspring) × 100 = (70 ÷ 500) × 100 = 14%. Choice B (70%) mistakes the raw recombinant count for a percentage, without dividing by the total number of offspring at all. Choice D (43%) results from using an incorrect total (1,000 instead of the correct 500). Choice A (86%) is actually the PARENTAL (non-recombinant) percentage (430 ÷ 500 = 86%), the complement of the correct recombination frequency, easy to grab by mistake."
     },
     {
       "id": "5-44",
@@ -4211,7 +4211,7 @@ const QUESTIONS = {
         "Nondisjunction in a parent's meiosis, producing a gamete with an extra chromosome 18"
       ],
       "correct": 3,
-      "explanation": "An extra chromosome present in EVERY cell of the fetus indicates the error originated at fertilization, from a gamete (produced via nondisjunction during a parent's meiosis) that already carried an extra chromosome 18 — every cell in the fetus, descending from that fertilized egg via mitosis, then carries the same abnormal number. Choice A is inconsistent with the finding, since normal meiosis wouldn't produce a gamete with an extra chromosome. Choice C, a post-birth mutation, wouldn't explain why EVERY cell is affected, since a mutation after birth would typically affect only cells descended from wherever it occurred. Choice D, crossing over between non-homologous chromosomes, isn't a normal meiotic event and wouldn't by itself change overall chromosome NUMBER."
+      "explanation": "An extra chromosome present in EVERY cell of the fetus indicates the error originated at fertilization, from a gamete (produced via nondisjunction during a parent's meiosis) that already carried an extra chromosome 18 — every cell in the fetus, descending from that fertilized egg via mitosis, then carries the same abnormal number. Choice A is inconsistent with the finding, since normal meiosis wouldn't produce a gamete with an extra chromosome. Choice B, a post-birth mutation, wouldn't explain why EVERY cell is affected, since a mutation after birth would typically affect only cells descended from wherever it occurred. Choice C, crossing over between non-homologous chromosomes, isn't a normal meiotic event and wouldn't by itself change overall chromosome NUMBER."
     },
     {
       "id": "5-45",
@@ -4224,7 +4224,7 @@ const QUESTIONS = {
         "Meiosis and mitosis are actually the exact same process, just called by two different names"
       ],
       "correct": 1,
-      "explanation": "Meiosis consists of two sequential divisions (Meiosis I, which reduces chromosome number, and Meiosis II, which separates sister chromatids), while mitosis is a single division that maintains chromosome number. Choice A exactly reverses the correct numbers of divisions for each process. Choice C incorrectly claims they involve the same number of divisions. Choice D incorrectly claims they're the same process, when they differ substantially in mechanism, number of divisions, and genetic outcome."
+      "explanation": "Meiosis consists of two sequential divisions (Meiosis I, which reduces chromosome number, and Meiosis II, which separates sister chromatids), while mitosis is a single division that maintains chromosome number. Choice C exactly reverses the correct numbers of divisions for each process. Choice A incorrectly claims they involve the same number of divisions. Choice D incorrectly claims they're the same process, when they differ substantially in mechanism, number of divisions, and genetic outcome."
     },
     {
       "id": "5-46",
@@ -4237,7 +4237,7 @@ const QUESTIONS = {
         "50% of the offspring"
       ],
       "correct": 3,
-      "explanation": "The 1:2:1 genotype ratio from Aa × Aa means 1/4 AA, 2/4 (50%) Aa, and 1/4 aa, so 50% are heterozygous. Choice A (25%) is actually the proportion that's homozygous dominant (AA) OR homozygous recessive (aa) individually, not heterozygous. Choice C (75%) is the proportion showing the DOMINANT PHENOTYPE (AA + Aa combined), which conflates phenotype with the specifically heterozygous genotype. Choice D (100%) would only be correct if both parents were homozygous for opposite alleles (AA × aa)."
+      "explanation": "The 1:2:1 genotype ratio from Aa × Aa means 1/4 AA, 2/4 (50%) Aa, and 1/4 aa, so 50% are heterozygous. Choice A (25%) is actually the proportion that's homozygous dominant (AA) OR homozygous recessive (aa) individually, not heterozygous. Choice B (75%) is the proportion showing the DOMINANT PHENOTYPE (AA + Aa combined), which conflates phenotype with the specifically heterozygous genotype. Choice C (100%) would only be correct if both parents were homozygous for opposite alleles (AA × aa)."
     },
     {
       "id": "5-47",
@@ -4250,7 +4250,7 @@ const QUESTIONS = {
         "Correctly noting that the sum rule simply does not apply anywhere in genetics"
       ],
       "correct": 2,
-      "explanation": "The sum rule (adding probabilities) applies to mutually exclusive outcomes, such as an offspring being either AA or Aa (two distinct genotypes that both produce the dominant phenotype), where you add their individual probabilities to get the total probability of the dominant phenotype. Choice A describes the PRODUCT rule instead (multiplying probabilities for two traits both occurring together), the opposite rule from what's being asked about. Choice C describes an irrelevant, nonsensical scenario. Choice D incorrectly denies that the sum rule has any genetics application, when it's a standard tool for combining mutually exclusive genotype or phenotype probabilities."
+      "explanation": "The sum rule (adding probabilities) applies to mutually exclusive outcomes, such as an offspring being either AA or Aa (two distinct genotypes that both produce the dominant phenotype), where you add their individual probabilities to get the total probability of the dominant phenotype. Choice B describes the PRODUCT rule instead (multiplying probabilities for two traits both occurring together), the opposite rule from what's being asked about. Choice A describes an irrelevant, nonsensical scenario. Choice D incorrectly denies that the sum rule has any genetics application, when it's a standard tool for combining mutually exclusive genotype or phenotype probabilities."
     },
     {
       "id": "5-48",
@@ -4263,7 +4263,7 @@ const QUESTIONS = {
         "Only blood types A and B, and no others"
       ],
       "correct": 0,
-      "explanation": "Since both parents are heterozygous (IAi and IBi), their children can inherit IAIB (type AB), IAi (type A), IBi (type B), or ii (type O) — all four blood types are possible. Choice A wrongly excludes types AB and O, missing that each parent can also pass on their recessive i allele. Choice C incorrectly assumes only the IA and IB alleles combine, ignoring that either parent could instead pass on their i allele. Choice D incorrectly assumes only the recessive i alleles combine, ignoring that either parent could pass on their dominant IA or IB allele instead."
+      "explanation": "Since both parents are heterozygous (IAi and IBi), their children can inherit IAIB (type AB), IAi (type A), IBi (type B), or ii (type O) — all four blood types are possible. Choice D wrongly excludes types AB and O, missing that each parent can also pass on their recessive i allele. Choice B incorrectly assumes only the IA and IB alleles combine, ignoring that either parent could instead pass on their i allele. Choice C incorrectly assumes only the recessive i alleles combine, ignoring that either parent could pass on their dominant IA or IB allele instead."
     },
     {
       "id": "5-49",
@@ -4276,7 +4276,7 @@ const QUESTIONS = {
         "All daughters will be fully affected by hemophilia themselves, just like their father"
       ],
       "correct": 0,
-      "explanation": "Daughters get one X from each parent: from their affected father (XaY) they receive his Xa allele; from their unaffected, non-carrier mother (XAXA) they receive an XA allele, making every daughter XAXa — unaffected (dominant allele masks the recessive) but a carrier. Choice A incorrectly assumes daughters would show the phenotype, which would require them to be XaXa, but their mother can only contribute a dominant XA. Choice C wrongly claims daughters are non-carriers, overlooking that they DO receive their father's recessive Xa allele, they just don't express it. Choice D is factually wrong — daughters always receive an X chromosome from their father."
+      "explanation": "Daughters get one X from each parent: from their affected father (XaY) they receive his Xa allele; from their unaffected, non-carrier mother (XAXA) they receive an XA allele, making every daughter XAXa — unaffected (dominant allele masks the recessive) but a carrier. Choice D incorrectly assumes daughters would show the phenotype, which would require them to be XaXa, but their mother can only contribute a dominant XA. Choice C wrongly claims daughters are non-carriers, overlooking that they DO receive their father's recessive Xa allele, they just don't express it. Choice B is factually wrong — daughters always receive an X chromosome from their father."
     },
     {
       "id": "5-50",
@@ -4302,7 +4302,7 @@ const QUESTIONS = {
         "No measurable effect on development or survival whatsoever"
       ],
       "correct": 2,
-      "explanation": "Autosomal monosomy (missing an entire chromosome and all its genes) is generally severe and very often incompatible with survival to birth in humans, since it disrupts the correct minimum gene dosage needed for normal development. Choice A is factually wrong — autosomal monosomy is well-documented to be severe, not benign. Choice C is implausible; missing an entire chromosome's genes causes deficits, not enhancements. Choice D denies any developmental effect at all, contradicted by extensive clinical evidence."
+      "explanation": "Autosomal monosomy (missing an entire chromosome and all its genes) is generally severe and very often incompatible with survival to birth in humans, since it disrupts the correct minimum gene dosage needed for normal development. Choice A is factually wrong — autosomal monosomy is well-documented to be severe, not benign. Choice B is implausible; missing an entire chromosome's genes causes deficits, not enhancements. Choice D denies any developmental effect at all, contradicted by extensive clinical evidence."
     },
     {
       "id": "5-52",
@@ -4315,7 +4315,7 @@ const QUESTIONS = {
         "Meiosis II actually begins with diploid cells; mitosis begins with haploid cells instead"
       ],
       "correct": 0,
-      "explanation": "Meiosis II operates on the already-haploid cells produced by Meiosis I; mitosis, by contrast, typically operates on diploid cells (in most multicellular organisms), maintaining that number in the daughter cells. Choice B incorrectly claims both start with the same chromosome number, ignoring that Meiosis II begins AFTER chromosome number has already been halved. Choice C exactly reverses the correct starting chromosome numbers for the two processes. Choice D is incorrect — both processes have well-defined, predictable starting chromosome numbers."
+      "explanation": "Meiosis II operates on the already-haploid cells produced by Meiosis I; mitosis, by contrast, typically operates on diploid cells (in most multicellular organisms), maintaining that number in the daughter cells. Choice C incorrectly claims both start with the same chromosome number, ignoring that Meiosis II begins AFTER chromosome number has already been halved. Choice D exactly reverses the correct starting chromosome numbers for the two processes. Choice B is incorrect — both processes have well-defined, predictable starting chromosome numbers."
     },
     {
       "id": "5-53",
@@ -4328,7 +4328,7 @@ const QUESTIONS = {
         "AaBb"
       ],
       "correct": 3,
-      "explanation": "Each homozygous parent can only contribute one type of allele per gene (A and B from AABB; a and b from aabb), so every F1 offspring is AaBb, heterozygous for both genes. Choice A (AABB) would require the aabb parent to somehow contribute dominant alleles, which it cannot. Choice C (aabb) similarly would require the AABB parent to contribute recessive alleles, which it cannot. Choice D incorrectly suggests variation among F1 offspring, but since both parents are homozygous, every offspring receives an identical combination of alleles, producing uniform AaBb offspring."
+      "explanation": "Each homozygous parent can only contribute one type of allele per gene (A and B from AABB; a and b from aabb), so every F1 offspring is AaBb, heterozygous for both genes. Choice B (AABB) would require the aabb parent to somehow contribute dominant alleles, which it cannot. Choice C (aabb) similarly would require the AABB parent to contribute recessive alleles, which it cannot. Choice A incorrectly suggests variation among F1 offspring, but since both parents are homozygous, every offspring receives an identical combination of alleles, producing uniform AaBb offspring."
     },
     {
       "id": "5-54",
@@ -4341,7 +4341,7 @@ const QUESTIONS = {
         "Polygenic traits never show any measurable variation within a population whatsoever"
       ],
       "correct": 0,
-      "explanation": "Because multiple genes each contribute a small additive effect, the many possible allele combinations across all contributing genes create many possible intermediate phenotype values, producing a smooth, often bell-curve-shaped continuous distribution. Choice B incorrectly denies any genetic component, when polygenic inheritance is specifically about MULTIPLE GENES contributing to the trait. Choice C is factually wrong: polygenic traits are influenced by multiple different GENES, not limited to just two total alleles. Choice D contradicts the premise entirely — polygenic traits are specifically known for showing substantial, continuous variation within populations."
+      "explanation": "Because multiple genes each contribute a small additive effect, the many possible allele combinations across all contributing genes create many possible intermediate phenotype values, producing a smooth, often bell-curve-shaped continuous distribution. Choice C incorrectly denies any genetic component, when polygenic inheritance is specifically about MULTIPLE GENES contributing to the trait. Choice B is factually wrong: polygenic traits are influenced by multiple different GENES, not limited to just two total alleles. Choice D contradicts the premise entirely — polygenic traits are specifically known for showing substantial, continuous variation within populations."
     },
     {
       "id": "5-55",
@@ -4354,7 +4354,7 @@ const QUESTIONS = {
         "Both gene pairs are equally linked to each other, despite the different values"
       ],
       "correct": 1,
-      "explanation": "A lower recombination frequency (2% vs. 40%) means fewer crossover events separate the two genes, so they're inherited together far more consistently, the signature of tighter linkage, generally reflecting closer physical proximity on the chromosome. Choice B picks the higher percentage, an intuitive but backwards reading: a HIGHER recombination frequency actually indicates WEAKER linkage, not stronger. Choice C incorrectly claims equal linkage despite a 20-fold difference in recombination frequency. Choice D denies any relationship at all, when recombination frequency is specifically the standard measure used to quantify linkage strength."
+      "explanation": "A lower recombination frequency (2% vs. 40%) means fewer crossover events separate the two genes, so they're inherited together far more consistently, the signature of tighter linkage, generally reflecting closer physical proximity on the chromosome. Choice C picks the higher percentage, an intuitive but backwards reading: a HIGHER recombination frequency actually indicates WEAKER linkage, not stronger. Choice D incorrectly claims equal linkage despite a 20-fold difference in recombination frequency. Choice A denies any relationship at all, when recombination frequency is specifically the standard measure used to quantify linkage strength."
     },
     {
       "id": "5-56",
@@ -4367,7 +4367,7 @@ const QUESTIONS = {
         "Recognizing that nondisjunction's parental origin can never actually be determined"
       ],
       "correct": 0,
-      "explanation": "Genetic markers (identifiable DNA variations that differ between the two parents) let researchers trace which parent's chromosome copies are present, and in what number, in the affected individual, revealing which parent's meiosis was the likely source of the nondisjunction event. Choice A, measuring height, has no established connection to identifying which parent's chromosome is involved. Choice C incorrectly claims this can never be determined, when genetic marker analysis is a standard, well-established method for doing exactly this. Choice D, counting siblings, provides no genetic information about the chromosome copies involved."
+      "explanation": "Genetic markers (identifiable DNA variations that differ between the two parents) let researchers trace which parent's chromosome copies are present, and in what number, in the affected individual, revealing which parent's meiosis was the likely source of the nondisjunction event. Choice C, measuring height, has no established connection to identifying which parent's chromosome is involved. Choice D incorrectly claims this can never be determined, when genetic marker analysis is a standard, well-established method for doing exactly this. Choice B, counting siblings, provides no genetic information about the chromosome copies involved."
     },
     {
       "id": "5-57",
@@ -4380,7 +4380,7 @@ const QUESTIONS = {
         "A mutation that prevents cytokinesis, the physical division of the cytoplasm"
       ],
       "correct": 2,
-      "explanation": "Independent assortment specifically depends on homologous pairs orienting randomly at the metaphase I plate; a mutation disrupting this orientation process would directly impair independent assortment. Choice B, blocking DNA replication entirely, would prevent the cell from having replicated chromosomes at all, disrupting the ENTIRE meiotic process broadly, not specifically independent assortment. Choice C, blocking cytokinesis, would prevent the physical splitting of cells after division, a downstream structural issue unrelated to how chromosomes orient beforehand. Choice D, affecting only mitochondrial DNA, wouldn't touch nuclear chromosome behavior at all."
+      "explanation": "Independent assortment specifically depends on homologous pairs orienting randomly at the metaphase I plate; a mutation disrupting this orientation process would directly impair independent assortment. Choice A, blocking DNA replication entirely, would prevent the cell from having replicated chromosomes at all, disrupting the ENTIRE meiotic process broadly, not specifically independent assortment. Choice D, blocking cytokinesis, would prevent the physical splitting of cells after division, a downstream structural issue unrelated to how chromosomes orient beforehand. Choice B, affecting only mitochondrial DNA, wouldn't touch nuclear chromosome behavior at all."
     },
     {
       "id": "5-58",
@@ -4393,7 +4393,7 @@ const QUESTIONS = {
         "Punnett squares should never be used under any circumstances, for any genetics problem"
       ],
       "correct": 2,
-      "explanation": "Probability rules (product and sum rules) and Punnett squares are mathematically equivalent and always agree on the correct answer, but for three or more independently assorting genes, a full Punnett square becomes extremely large (64+ boxes) and unwieldy, making probability rules much faster and less error-prone. Choice A incorrectly claims the two methods give DIFFERENT answers, when a correctly constructed Punnett square and correctly applied probability rules always agree. Choice C overstates the case — Punnett squares remain a valid, often clearer tool for one or two genes; they're just less practical for larger numbers of genes. Choice D is incorrect: probability rules work for any number of genes, and are most valuable relative to Punnett squares for MULTI-gene problems."
+      "explanation": "Probability rules (product and sum rules) and Punnett squares are mathematically equivalent and always agree on the correct answer, but for three or more independently assorting genes, a full Punnett square becomes extremely large (64+ boxes) and unwieldy, making probability rules much faster and less error-prone. Choice A incorrectly claims the two methods give DIFFERENT answers, when a correctly constructed Punnett square and correctly applied probability rules always agree. Choice D overstates the case — Punnett squares remain a valid, often clearer tool for one or two genes; they're just less practical for larger numbers of genes. Choice B is incorrect: probability rules work for any number of genes, and are most valuable relative to Punnett squares for MULTI-gene problems."
     },
     {
       "id": "5-59",
@@ -4407,7 +4407,7 @@ const QUESTIONS = {
         "Sex chromosomes contain no genes that are relevant to survival or development"
       ],
       "correct": 2,
-      "explanation": "In typical XX individuals, one X chromosome is normally inactivated (X-inactivation) in most cells anyway, so XX individuals already function with roughly one X's worth of active gene expression. An XO individual, with only one (fully active) X, therefore represents a smaller relative loss of functional gene dosage than losing an entire AUTOSOME (where both copies are normally fully active) would represent, helping explain why Turner syndrome, unlike most autosomal monosomies, is compatible with survival. Choice A is factually wrong: Turner syndrome individuals ARE missing genetic material, they just tolerate that loss unusually well due to X-inactivation. Choice C is incorrect — the X chromosome does carry genes relevant to survival and development, which is exactly why complete absence of any X isn't compatible with life. Choice D is factually wrong and contradicts the premise of the question itself, which specifically asks why autosomal monosomies typically are NOT survivable, unlike this sex-chromosome case."
+      "explanation": "In typical XX individuals, one X chromosome is normally inactivated (X-inactivation) in most cells anyway, so XX individuals already function with roughly one X's worth of active gene expression. An XO individual, with only one (fully active) X, therefore represents a smaller relative loss of functional gene dosage than losing an entire AUTOSOME (where both copies are normally fully active) would represent, helping explain why Turner syndrome, unlike most autosomal monosomies, is compatible with survival. Choice B is factually wrong: Turner syndrome individuals ARE missing genetic material, they just tolerate that loss unusually well due to X-inactivation. Choice D is incorrect — the X chromosome does carry genes relevant to survival and development, which is exactly why complete absence of any X isn't compatible with life. Choice A is factually wrong and contradicts the premise of the question itself, which specifically asks why autosomal monosomies typically are NOT survivable, unlike this sex-chromosome case."
     },
     {
       "id": "5-60",
@@ -4420,7 +4420,7 @@ const QUESTIONS = {
         "A trait influenced by many different genes together, showing a continuous range of phenotypes"
       ],
       "correct": 2,
-      "explanation": "Simple, complete Mendelian dominance means the heterozygote's phenotype exactly matches the dominant homozygous phenotype, with the recessive phenotype fully masked, no blending, no simultaneous expression. Choice B describes incomplete dominance instead, where the heterozygote shows a blended, intermediate phenotype rather than fully matching one parental type. Choice C describes polygenic inheritance, an entirely different pattern involving multiple genes and a continuous phenotype range. Choice D describes codominance, where both phenotypes are expressed simultaneously and separately, rather than one masking the other."
+      "explanation": "Simple, complete Mendelian dominance means the heterozygote's phenotype exactly matches the dominant homozygous phenotype, with the recessive phenotype fully masked, no blending, no simultaneous expression. Choice A describes incomplete dominance instead, where the heterozygote shows a blended, intermediate phenotype rather than fully matching one parental type. Choice D describes polygenic inheritance, an entirely different pattern involving multiple genes and a continuous phenotype range. Choice B describes codominance, where both phenotypes are expressed simultaneously and separately, rather than one masking the other."
     },
     {
       "id": "5-66",
@@ -4433,7 +4433,7 @@ const QUESTIONS = {
         "Independent assortment, random orientation of chromosome pairs"
       ],
       "correct": 0,
-      "explanation": "Random fertilization is the source of variation arising from which specific sperm happens to fertilize which specific egg, out of the many genetically distinct gametes each parent produces. Choice A, crossing over, instead creates new allele combinations WITHIN a chromosome during prophase I, a different mechanism occurring earlier and within a single cell's meiosis. Choice B, independent assortment, creates new combinations of whole chromosomes during metaphase I, also occurring within a single meiotic division, not at the moment of fertilization. Choice D, nondisjunction, is a chromosome-separation ERROR producing abnormal chromosome numbers, not a normal source of beneficial genetic variation."
+      "explanation": "Random fertilization is the source of variation arising from which specific sperm happens to fertilize which specific egg, out of the many genetically distinct gametes each parent produces. Choice C, crossing over, instead creates new allele combinations WITHIN a chromosome during prophase I, a different mechanism occurring earlier and within a single cell's meiosis. Choice D, independent assortment, creates new combinations of whole chromosomes during metaphase I, also occurring within a single meiotic division, not at the moment of fertilization. Choice B, nondisjunction, is a chromosome-separation ERROR producing abnormal chromosome numbers, not a normal source of beneficial genetic variation."
     }
   ],
   "6": [
@@ -4448,7 +4448,7 @@ const QUESTIONS = {
         "Entirely new DNA in both strands of each daughter helix, with no parental strand retained anywhere"
       ],
       "correct": 2,
-      "explanation": "Semiconservative means each daughter helix is a hybrid of one old strand and one new strand (confirmed by Meselson-Stahl). Choice A describes the (incorrect) 'conservative' model, where an all-new helix and an all-old helix would form instead. Choice C confuses 'conservative' with the everyday meaning of 'conserving resources' — replication's frequency isn't what the term refers to. Choice D describes the opposite: no new synthesis at all, which isn't replication."
+      "explanation": "Semiconservative means each daughter helix is a hybrid of one old strand and one new strand (confirmed by Meselson-Stahl). Choice D describes the (incorrect) 'conservative' model, where an all-new helix and an all-old helix would form instead. Choice A confuses 'conservative' with the everyday meaning of 'conserving resources' — replication's frequency isn't what the term refers to. Choice B describes the opposite: no new synthesis at all, which isn't replication."
     },
     {
       "id": "6-2",
@@ -4461,7 +4461,7 @@ const QUESTIONS = {
         "DNA polymerase, which is also mainly responsible for opening the helix before synthesizing"
       ],
       "correct": 2,
-      "explanation": "Helicase breaks the hydrogen bonds between base pairs to separate the two strands. DNA polymerase (A) only extends an existing strand from an existing template — it doesn't unwind DNA. Ligase (C) seals backbone nicks between fragments, not hydrogen bonds between strands. Primase (D) lays down RNA primers to give polymerase a starting point; neither of these enzymes separates the helix."
+      "explanation": "Helicase breaks the hydrogen bonds between base pairs to separate the two strands. DNA polymerase (D) only extends an existing strand from an existing template — it doesn't unwind DNA. Ligase (B) seals backbone nicks between fragments, not hydrogen bonds between strands. Primase (A) lays down RNA primers to give polymerase a starting point; neither of these enzymes separates the helix."
     },
     {
       "id": "6-3",
@@ -4474,7 +4474,7 @@ const QUESTIONS = {
         "Helicase, which separates the two DNA strands rather than laying down a starting sequence"
       ],
       "correct": 2,
-      "explanation": "Primase synthesizes a short RNA primer, giving DNA polymerase the free 3' end it needs to begin adding nucleotides. Helicase (A) separates strands but adds no primer. Ligase (C) acts at the end of the process, sealing already-synthesized fragments together. Topoisomerase (D) relieves the twisting stress created ahead of the replication fork; none of these three provide the starting sequence polymerase requires."
+      "explanation": "Primase synthesizes a short RNA primer, giving DNA polymerase the free 3' end it needs to begin adding nucleotides. Helicase (D) separates strands but adds no primer. Ligase (B) acts at the end of the process, sealing already-synthesized fragments together. Topoisomerase (A) relieves the twisting stress created ahead of the replication fork; none of these three provide the starting sequence polymerase requires."
     },
     {
       "id": "6-4",
@@ -4487,7 +4487,7 @@ const QUESTIONS = {
         "Polymerase only synthesizes 5' to 3', so on the lagging strand this runs away from the opening fork"
       ],
       "correct": 3,
-      "explanation": "Because polymerase only extends 3' ends and the two template strands are antiparallel, the lagging strand's synthesis direction points away from the moving fork, so it has to restart repeatedly as more template is exposed. Choice B is false — both strands are ordinary DNA with the same chemistry. Choice C is false — ligase specifically functions on the lagging strand, sealing the resulting Okazaki fragments together. Choice D is false — the lagging strand requires the same core enzymes (primase, polymerase, ligase) as replication generally does."
+      "explanation": "Because polymerase only extends 3' ends and the two template strands are antiparallel, the lagging strand's synthesis direction points away from the moving fork, so it has to restart repeatedly as more template is exposed. Choice B is false — both strands are ordinary DNA with the same chemistry. Choice C is false — ligase specifically functions on the lagging strand, sealing the resulting Okazaki fragments together. Choice A is false — the lagging strand requires the same core enzymes (primase, polymerase, ligase) as replication generally does."
     },
     {
       "id": "6-5",
@@ -4500,7 +4500,7 @@ const QUESTIONS = {
         "Primase, which synthesizes RNA primers rather than joining finished fragments"
       ],
       "correct": 0,
-      "explanation": "Ligase seals the remaining gaps between adjacent Okazaki fragments (after their RNA primers are removed and replaced with DNA), producing one continuous lagging strand. Helicase (A) unwinds the helix earlier in the process and plays no role in joining fragments. Primase (B) provides starting primers, the opposite function of sealing an ending. RNA polymerase (D) belongs to transcription, not DNA replication, and never acts on Okazaki fragments."
+      "explanation": "Ligase seals the remaining gaps between adjacent Okazaki fragments (after their RNA primers are removed and replaced with DNA), producing one continuous lagging strand. Helicase (B) unwinds the helix earlier in the process and plays no role in joining fragments. Primase (D) provides starting primers, the opposite function of sealing an ending. RNA polymerase (C) belongs to transcription, not DNA replication, and never acts on Okazaki fragments."
     },
     {
       "id": "6-6",
@@ -4540,7 +4540,7 @@ const QUESTIONS = {
         "Ligase, an enzyme that seals DNA fragments rather than building an RNA transcript"
       ],
       "correct": 1,
-      "explanation": "RNA polymerase builds an mRNA strand complementary to the DNA template, using ribonucleotides (with uracil instead of thymine). DNA polymerase (A) synthesizes DNA during replication, not RNA during transcription. Helicase (C) only separates strands; it never adds nucleotides to a growing chain. Ligase (D) seals gaps in DNA backbones and has no role in building an mRNA molecule."
+      "explanation": "RNA polymerase builds an mRNA strand complementary to the DNA template, using ribonucleotides (with uracil instead of thymine). DNA polymerase (C) synthesizes DNA during replication, not RNA during transcription. Helicase (A) only separates strands; it never adds nucleotides to a growing chain. Ligase (D) seals gaps in DNA backbones and has no role in building an mRNA molecule."
     },
     {
       "id": "6-9",
@@ -4566,7 +4566,7 @@ const QUESTIONS = {
         "Introns remain in mature mRNA as coding sequence, while exons get spliced out and discarded"
       ],
       "correct": 0,
-      "explanation": "Exons are the coding portions of a gene that remain in the mature mRNA; introns are non-coding intervening sequences transcribed initially but then cut out during splicing. Choice A swaps the two definitions exactly backwards. Choice C is false since they refer to opposite, non-interchangeable categories. Choice D is also backwards — introns are a defining feature of most eukaryotic genes and are largely absent from prokaryotic genes, not the other way around."
+      "explanation": "Exons are the coding portions of a gene that remain in the mature mRNA; introns are non-coding intervening sequences transcribed initially but then cut out during splicing. Choice D swaps the two definitions exactly backwards. Choice B is false since they refer to opposite, non-interchangeable categories. Choice C is also backwards — introns are a defining feature of most eukaryotic genes and are largely absent from prokaryotic genes, not the other way around."
     },
     {
       "id": "6-11",
@@ -4579,7 +4579,7 @@ const QUESTIONS = {
         "By altering the underlying DNA sequence of the gene between different cell types"
       ],
       "correct": 0,
-      "explanation": "Alternative splicing selectively includes or excludes different exons when assembling the mature mRNA, so different combinations yield different mRNAs — and therefore different proteins — from one pre-mRNA transcript. Choice A is wrong because the DNA sequence itself never changes between splice variants. Choice C describes gene duplication, an unrelated process that doesn't occur during splicing. Choice D is wrong because introns are removed entirely during splicing, never incorporated into the protein-coding portion."
+      "explanation": "Alternative splicing selectively includes or excludes different exons when assembling the mature mRNA, so different combinations yield different mRNAs — and therefore different proteins — from one pre-mRNA transcript. Choice D is wrong because the DNA sequence itself never changes between splice variants. Choice C describes gene duplication, an unrelated process that doesn't occur during splicing. Choice B is wrong because introns are removed entirely during splicing, never incorporated into the protein-coding portion."
     },
     {
       "id": "6-12",
@@ -4592,7 +4592,7 @@ const QUESTIONS = {
         "Release of the completed transcript, which marks termination rather than elongation"
       ],
       "correct": 2,
-      "explanation": "During elongation, RNA polymerase actively travels along the template strand, extending the growing mRNA. Promoter binding (A) is the initiation step that precedes elongation. Transcript release (C) is termination, the step that follows elongation. Intron removal (D) is RNA processing that happens after the transcript is made, not during the act of synthesizing it."
+      "explanation": "During elongation, RNA polymerase actively travels along the template strand, extending the growing mRNA. Promoter binding (A) is the initiation step that precedes elongation. Transcript release (D) is termination, the step that follows elongation. Intron removal (B) is RNA processing that happens after the transcript is made, not during the act of synthesizing it."
     },
     {
       "id": "6-13",
@@ -4605,7 +4605,7 @@ const QUESTIONS = {
         "Only introns are added to the transcript, with no other processing steps occurring"
       ],
       "correct": 1,
-      "explanation": "Eukaryotic pre-mRNA processing adds a protective 5' cap and a 3' poly-A tail and removes introns via splicing before export. Choice B is wrong because translation happens on ribosomes in the cytoplasm, not directly inside the nucleus. Choice C ignores these well-documented processing steps entirely. Choice D reverses the actual process — introns are removed, not added, during normal pre-mRNA processing."
+      "explanation": "Eukaryotic pre-mRNA processing adds a protective 5' cap and a 3' poly-A tail and removes introns via splicing before export. Choice A is wrong because translation happens on ribosomes in the cytoplasm, not directly inside the nucleus. Choice C ignores these well-documented processing steps entirely. Choice D reverses the actual process — introns are removed, not added, during normal pre-mRNA processing."
     },
     {
       "id": "6-14",
@@ -4618,7 +4618,7 @@ const QUESTIONS = {
         "Two nucleotides, which still yields too few possible combinations for 20 amino acids"
       ],
       "correct": 1,
-      "explanation": "A codon is a three-nucleotide unit specifying either one amino acid or a stop signal. One nucleotide (A) allows only 4 combinations, and two nucleotides (B) allow only 16 — both fall short of the 20 amino acids that must be encoded. Four nucleotides (D) would allow 256 combinations, far more redundancy than the genetic code actually shows; three nucleotides (64 combinations) is the number actually used."
+      "explanation": "A codon is a three-nucleotide unit specifying either one amino acid or a stop signal. One nucleotide (A) allows only 4 combinations, and two nucleotides (D) allow only 16 — both fall short of the 20 amino acids that must be encoded. Four nucleotides (C) would allow 256 combinations, far more redundancy than the genetic code actually shows; three nucleotides (64 combinations) is the number actually used."
     },
     {
       "id": "6-15",
@@ -4644,7 +4644,7 @@ const QUESTIONS = {
         "It forms the main structural and catalytic core of the ribosome itself"
       ],
       "correct": 0,
-      "explanation": "Each tRNA carries one specific amino acid and pairs its anticodon with the complementary mRNA codon, ensuring the right amino acid is added at each step. Choice A actually describes mRNA's job, not tRNA's. Choice C describes rRNA, the molecule that forms the ribosome's structural and catalytic core. Choice D describes DNA polymerase's role in replication — tRNA plays no part in synthesizing DNA."
+      "explanation": "Each tRNA carries one specific amino acid and pairs its anticodon with the complementary mRNA codon, ensuring the right amino acid is added at each step. Choice B actually describes mRNA's job, not tRNA's. Choice D describes rRNA, the molecule that forms the ribosome's structural and catalytic core. Choice C describes DNA polymerase's role in replication — tRNA plays no part in synthesizing DNA."
     },
     {
       "id": "6-17",
@@ -4657,7 +4657,7 @@ const QUESTIONS = {
         "The genetic code's codon assignments differ completely from one species to another"
       ],
       "correct": 2,
-      "explanation": "'Degenerate' (or redundant) refers to the 64 possible codons mapping onto only 20 amino acids, so most amino acids have more than one codon that specifies them. Choice A confuses degeneracy with error rate, which it doesn't describe. Choice C describes ambiguity — one codon specifying multiple amino acids — which does not actually occur in the genetic code. Choice D is false, since the code is nearly universal across species rather than varying species to species."
+      "explanation": "'Degenerate' (or redundant) refers to the 64 possible codons mapping onto only 20 amino acids, so most amino acids have more than one codon that specifies them. Choice B confuses degeneracy with error rate, which it doesn't describe. Choice A describes ambiguity — one codon specifying multiple amino acids — which does not actually occur in the genetic code. Choice D is false, since the code is nearly universal across species rather than varying species to species."
     },
     {
       "id": "6-18",
@@ -4670,7 +4670,7 @@ const QUESTIONS = {
         "The sequence cannot be translated at all because it contains a stop codon"
       ],
       "correct": 0,
-      "explanation": "Reading codon by codon: AUG = Met (start), UUU = Phe, GCC = Ala, UAA = Stop. The finished polypeptide is Met-Phe-Ala, three residues, with UAA ending translation rather than coding for an amino acid. Choice A incorrectly treats UAA as coding for leucine instead of functioning as a stop signal. Choice C both drops the initiating methionine and scrambles the amino acid order. Choice D is wrong because a stop codon ends translation normally — it doesn't make the sequence untranslatable."
+      "explanation": "Reading codon by codon: AUG = Met (start), UUU = Phe, GCC = Ala, UAA = Stop. The finished polypeptide is Met-Phe-Ala, three residues, with UAA ending translation rather than coding for an amino acid. Choice B incorrectly treats UAA as coding for leucine instead of functioning as a stop signal. Choice C both drops the initiating methionine and scrambles the amino acid order. Choice D is wrong because a stop codon ends translation normally — it doesn't make the sequence untranslatable."
     },
     {
       "id": "6-19",
@@ -4683,7 +4683,7 @@ const QUESTIONS = {
         "It proves every organism sharing this code has an identical genome sequence"
       ],
       "correct": 1,
-      "explanation": "Because codon-to-amino-acid assignments are chemically arbitrary, finding the same assignments preserved across nearly all life strongly suggests one shared origin rather than repeated, coincidental independent origins. Choice A dismisses this significance without justification. Choice C overreaches — sharing a genetic code says nothing about having an identical genome, since organisms clearly differ enormously in their actual sequences. Choice D contradicts the evidence, since near-universality reflects strong conservation over time, not constant change."
+      "explanation": "Because codon-to-amino-acid assignments are chemically arbitrary, finding the same assignments preserved across nearly all life strongly suggests one shared origin rather than repeated, coincidental independent origins. Choice C dismisses this significance without justification. Choice D overreaches — sharing a genetic code says nothing about having an identical genome, since organisms clearly differ enormously in their actual sequences. Choice A contradicts the evidence, since near-universality reflects strong conservation over time, not constant change."
     },
     {
       "id": "6-20",
@@ -4696,7 +4696,7 @@ const QUESTIONS = {
         "rRNA"
       ],
       "correct": 3,
-      "explanation": "rRNA forms a key structural and catalytic part of the ribosome, directly helping catalyze peptide bond formation between amino acids. mRNA (A) only carries the coded message that the ribosome reads; it isn't part of the ribosome's structure. tRNA (B) delivers individual amino acids to the ribosome but doesn't form its core. DNA polymerase (D) functions in DNA replication and has no role in ribosome structure at all."
+      "explanation": "rRNA forms a key structural and catalytic part of the ribosome, directly helping catalyze peptide bond formation between amino acids. mRNA (C) only carries the coded message that the ribosome reads; it isn't part of the ribosome's structure. tRNA (B) delivers individual amino acids to the ribosome but doesn't form its core. DNA polymerase (A) functions in DNA replication and has no role in ribosome structure at all."
     },
     {
       "id": "6-21",
@@ -4709,7 +4709,7 @@ const QUESTIONS = {
         "A silent mutation"
       ],
       "correct": 3,
-      "explanation": "Because GGA and GGC both specify glycine, the amino acid sequence doesn't change — this is a silent mutation, made possible by the genetic code's degeneracy. Choice A is incorrect since missense mutations specifically change the amino acid produced, which didn't happen here. Choice C is incorrect because no stop codon was introduced. Choice D is incorrect because no nucleotides were inserted or deleted, so the reading frame for downstream codons is untouched."
+      "explanation": "Because GGA and GGC both specify glycine, the amino acid sequence doesn't change — this is a silent mutation, made possible by the genetic code's degeneracy. Choice B is incorrect since missense mutations specifically change the amino acid produced, which didn't happen here. Choice C is incorrect because no stop codon was introduced. Choice A is incorrect because no nucleotides were inserted or deleted, so the reading frame for downstream codons is untouched."
     },
     {
       "id": "6-22",
@@ -4735,7 +4735,7 @@ const QUESTIONS = {
         "Deleting 4 nucleotides, which again is not a multiple of three"
       ],
       "correct": 0,
-      "explanation": "A frameshift results whenever the number of inserted or deleted nucleotides is not a multiple of three, since that shifts how every downstream codon groups. Six nucleotides equals two whole codons, so it adds two amino acids without disturbing the reading frame afterward. Choices A, B, and D (1, 2, and 4 nucleotides) are each not multiples of three, so all three would shift the downstream reading frame and cause a frameshift."
+      "explanation": "A frameshift results whenever the number of inserted or deleted nucleotides is not a multiple of three, since that shifts how every downstream codon groups. Six nucleotides equals two whole codons, so it adds two amino acids without disturbing the reading frame afterward. Choices C, B, and D (1, 2, and 4 nucleotides) are each not multiples of three, so all three would shift the downstream reading frame and cause a frameshift."
     },
     {
       "id": "6-24",
@@ -4748,7 +4748,7 @@ const QUESTIONS = {
         "A silent mutation, which produces no change to the amino acid sequence at all"
       ],
       "correct": 1,
-      "explanation": "An early frameshift disrupts the reading frame for essentially the entire rest of the gene, typically scrambling most of the downstream sequence into a largely nonfunctional protein. A silent mutation (A) causes no amino acid change at all, so it has essentially no effect. A distant missense change (B) usually has only a minor effect since only one residue, away from the functionally critical region, is altered. A silent intron mutation (D) is removed during splicing and never reaches the protein at all, making it functionally irrelevant."
+      "explanation": "An early frameshift disrupts the reading frame for essentially the entire rest of the gene, typically scrambling most of the downstream sequence into a largely nonfunctional protein. A silent mutation (D) causes no amino acid change at all, so it has essentially no effect. A distant missense change (C) usually has only a minor effect since only one residue, away from the functionally critical region, is altered. A silent intron mutation (A) is removed during splicing and never reaches the protein at all, making it functionally irrelevant."
     },
     {
       "id": "6-25",
@@ -4761,7 +4761,7 @@ const QUESTIONS = {
         "A frameshift mutation, which would require an insertion or deletion rather than a single substitution"
       ],
       "correct": 1,
-      "explanation": "Sickle-cell disease arises from a missense mutation: a single nucleotide change that substitutes one amino acid for another in hemoglobin, altering the protein's structure and red blood cell shape. Choice A is wrong because no stop codon is introduced here — a full-length protein is still made, just with one different residue. Choice C is wrong since no nucleotides are inserted or deleted, so no frame shift occurs. Choice D is wrong because the amino acid sequence does in fact change — that altered residue is exactly what causes the disease."
+      "explanation": "Sickle-cell disease arises from a missense mutation: a single nucleotide change that substitutes one amino acid for another in hemoglobin, altering the protein's structure and red blood cell shape. Choice C is wrong because no stop codon is introduced here — a full-length protein is still made, just with one different residue. Choice D is wrong since no nucleotides are inserted or deleted, so no frame shift occurs. Choice A is wrong because the amino acid sequence does in fact change — that altered residue is exactly what causes the disease."
     },
     {
       "id": "6-26",
@@ -4774,7 +4774,7 @@ const QUESTIONS = {
         "Something acting exclusively on RNA molecules, never touching DNA itself"
       ],
       "correct": 1,
-      "explanation": "A mutagen (chemical or physical, such as UV or ionizing radiation) raises the mutation rate, either by damaging DNA directly or by disrupting accurate replication. Choice A describes the opposite function — repair mechanisms fix damage rather than cause it. Choice C directly contradicts the definition of a mutagen, which is defined by having a measurable effect. Choice D is inaccurate, since classic mutagens like UV light and many chemicals act directly on DNA itself, not exclusively on RNA."
+      "explanation": "A mutagen (chemical or physical, such as UV or ionizing radiation) raises the mutation rate, either by damaging DNA directly or by disrupting accurate replication. Choice C describes the opposite function — repair mechanisms fix damage rather than cause it. Choice A directly contradicts the definition of a mutagen, which is defined by having a measurable effect. Choice D is inaccurate, since classic mutagens like UV light and many chemicals act directly on DNA itself, not exclusively on RNA."
     },
     {
       "id": "6-27",
@@ -4788,7 +4788,7 @@ const QUESTIONS = {
         "This particular kind of boundary-spanning deletion would always create a nonsense mutation"
       ],
       "correct": 2,
-      "explanation": "Removing exactly 3 nucleotides preserves the reading frame downstream, but that alone doesn't guarantee the protein is unaffected if the cut doesn't fall cleanly between codons. Here, the deletion fuses leftover pieces of two adjacent codons into one new triplet, likely changing that single amino acid even while everything further downstream reads correctly. Choice A wrongly assumes 'no frameshift' means 'no change at all.' Choice C wrongly assumes this specific outcome (a stop codon) is guaranteed, when in fact any amino acid, stop or otherwise, could result depending on the new triplet formed. Choice D is simply wrong, since a multiple-of-three deletion by definition does not shift the downstream frame."
+      "explanation": "Removing exactly 3 nucleotides preserves the reading frame downstream, but that alone doesn't guarantee the protein is unaffected if the cut doesn't fall cleanly between codons. Here, the deletion fuses leftover pieces of two adjacent codons into one new triplet, likely changing that single amino acid even while everything further downstream reads correctly. Choice B wrongly assumes 'no frameshift' means 'no change at all.' Choice D wrongly assumes this specific outcome (a stop codon) is guaranteed, when in fact any amino acid, stop or otherwise, could result depending on the new triplet formed. Choice A is simply wrong, since a multiple-of-three deletion by definition does not shift the downstream frame."
     },
     {
       "id": "6-28",
@@ -4801,7 +4801,7 @@ const QUESTIONS = {
         "It directly synthesizes lactose molecules for the cell's own use"
       ],
       "correct": 1,
-      "explanation": "With no lactose present, the active repressor binds the operator and physically blocks RNA polymerase, keeping the lac genes off. Choice B misattributes RNA polymerase's job (transcribing genes) to the repressor, which never synthesizes RNA itself. Choice C is wrong because the repressor is actively doing its job (blocking transcription) precisely when lactose is absent. Choice D confuses the repressor, a regulatory protein, with a metabolic enzyme — it has no role in synthesizing lactose."
+      "explanation": "With no lactose present, the active repressor binds the operator and physically blocks RNA polymerase, keeping the lac genes off. Choice C misattributes RNA polymerase's job (transcribing genes) to the repressor, which never synthesizes RNA itself. Choice A is wrong because the repressor is actively doing its job (blocking transcription) precisely when lactose is absent. Choice D confuses the repressor, a regulatory protein, with a metabolic enzyme — it has no role in synthesizing lactose."
     },
     {
       "id": "6-29",
@@ -4827,7 +4827,7 @@ const QUESTIONS = {
         "It directly changes the underlying nucleotide sequence of the DNA itself"
       ],
       "correct": 2,
-      "explanation": "DNA methylation typically adds methyl groups to cytosines, promoting tighter chromatin packaging that makes the region less accessible and generally silences expression there. Choice A describes the opposite effect. Choice C contradicts methylation's well-established regulatory role. Choice D is wrong because methylation is an epigenetic mark that regulates expression without altering the underlying DNA sequence itself."
+      "explanation": "DNA methylation typically adds methyl groups to cytosines, promoting tighter chromatin packaging that makes the region less accessible and generally silences expression there. Choice B describes the opposite effect. Choice A contradicts methylation's well-established regulatory role. Choice D is wrong because methylation is an epigenetic mark that regulates expression without altering the underlying DNA sequence itself."
     },
     {
       "id": "6-31",
@@ -4840,7 +4840,7 @@ const QUESTIONS = {
         "They actually contain entirely different DNA sequences from one another"
       ],
       "correct": 1,
-      "explanation": "Since nearly all cells share the same DNA, differences between cell types like liver cells and neurons arise from differential gene expression — different subsets of the shared genome being turned on or off. Choice A is factually wrong, since virtually all somatic cells retain the same genome. Choice C is false, since both cell types contain a full copy of the genome. Choice D directly contradicts the premise of the question, since it's precisely the differing expression patterns that make these cell types structurally and functionally distinct."
+      "explanation": "Since nearly all cells share the same DNA, differences between cell types like liver cells and neurons arise from differential gene expression — different subsets of the shared genome being turned on or off. Choice D is factually wrong, since virtually all somatic cells retain the same genome. Choice C is false, since both cell types contain a full copy of the genome. Choice A directly contradicts the premise of the question, since it's precisely the differing expression patterns that make these cell types structurally and functionally distinct."
     },
     {
       "id": "6-32",
@@ -4853,7 +4853,7 @@ const QUESTIONS = {
         "Genes there are generally poorly expressed, since tight packing limits access"
       ],
       "correct": 3,
-      "explanation": "Because heterochromatin is densely packed, it's generally inaccessible to RNA polymerase and transcription factors, so genes located there tend to be poorly expressed or silent. Choice A states the opposite of this relationship. Choice C denies a well-established link between chromatin structure and expression level. Choice D is wrong because heterochromatin is a eukaryotic chromatin structure — prokaryotic cells lack the histone-based chromatin packaging that defines it."
+      "explanation": "Because heterochromatin is densely packed, it's generally inaccessible to RNA polymerase and transcription factors, so genes located there tend to be poorly expressed or silent. Choice B states the opposite of this relationship. Choice A denies a well-established link between chromatin structure and expression level. Choice C is wrong because heterochromatin is a eukaryotic chromatin structure — prokaryotic cells lack the histone-based chromatin packaging that defines it."
     },
     {
       "id": "6-33",
@@ -4866,7 +4866,7 @@ const QUESTIONS = {
         "Alternative splicing occurring during pre-mRNA processing"
       ],
       "correct": 1,
-      "explanation": "Post-translational regulation acts on a protein after it's already been made, such as through modifications like phosphorylation that alter its activity, stability, or localization. Choice A (transcription factor binding) and choice D (DNA methylation) both regulate expression at the transcriptional level, before any protein exists. Choice B (alternative splicing) regulates the mRNA itself, a post-transcriptional but still pre-translational step — none of these three act on a finished protein."
+      "explanation": "Post-translational regulation acts on a protein after it's already been made, such as through modifications like phosphorylation that alter its activity, stability, or localization. Choice C (transcription factor binding) and choice A (DNA methylation) both regulate expression at the transcriptional level, before any protein exists. Choice D (alternative splicing) regulates the mRNA itself, a post-transcriptional but still pre-translational step — none of these three act on a finished protein."
     },
     {
       "id": "6-34",
@@ -4879,7 +4879,7 @@ const QUESTIONS = {
         "Uncorrected replication errors can be passed to daughter cells and disrupt protein function"
       ],
       "correct": 3,
-      "explanation": "Because DNA sequence determines protein sequence and function, uncorrected replication errors (mutations) can be inherited by daughter cells and disrupt normal protein function or contribute to disease — this is why cells evolved proofreading mechanisms. Choice A dismisses a concern that is, in fact, central to cell biology. Choice C is arbitrary and false, since accurate replication matters in eukaryotes just as much as in prokaryotes. Choice D confuses accuracy with the act of dividing itself — high-fidelity replication supports normal division rather than preventing it."
+      "explanation": "Because DNA sequence determines protein sequence and function, uncorrected replication errors (mutations) can be inherited by daughter cells and disrupt normal protein function or contribute to disease — this is why cells evolved proofreading mechanisms. Choice C dismisses a concern that is, in fact, central to cell biology. Choice B is arbitrary and false, since accurate replication matters in eukaryotes just as much as in prokaryotes. Choice A confuses accuracy with the act of dividing itself — high-fidelity replication supports normal division rather than preventing it."
     },
     {
       "id": "6-35",
@@ -4892,7 +4892,7 @@ const QUESTIONS = {
         "Transcription uses both DNA strands simultaneously, for every single gene it transcribes"
       ],
       "correct": 1,
-      "explanation": "Replication uses both original strands as templates simultaneously (matching the semiconservative model), while transcription of any given gene copies from just one strand, the template strand. Choice B ignores this clear mechanistic difference between the two processes. Choice C is wrong because only one strand serves as template for a given gene's transcription, not both. Choice D reverses the correct relationship entirely."
+      "explanation": "Replication uses both original strands as templates simultaneously (matching the semiconservative model), while transcription of any given gene copies from just one strand, the template strand. Choice C ignores this clear mechanistic difference between the two processes. Choice A is wrong because only one strand serves as template for a given gene's transcription, not both. Choice D reverses the correct relationship entirely."
     },
     {
       "id": "6-36",
@@ -4905,7 +4905,7 @@ const QUESTIONS = {
         "DNA, which stays in the nucleus and does not itself travel to the ribosome"
       ],
       "correct": 2,
-      "explanation": "mRNA carries the genetic information transcribed from DNA out of the nucleus to ribosomes in the cytoplasm, serving as the template read during translation. tRNA (A) delivers individual amino acids rather than carrying the overall coded message. rRNA (B) forms part of the ribosome's structure rather than transporting genetic information. DNA (D) remains inside the nucleus in eukaryotic cells and is not itself exported to the ribosome."
+      "explanation": "mRNA carries the genetic information transcribed from DNA out of the nucleus to ribosomes in the cytoplasm, serving as the template read during translation. tRNA (B) delivers individual amino acids rather than carrying the overall coded message. rRNA (A) forms part of the ribosome's structure rather than transporting genetic information. DNA (D) remains inside the nucleus in eukaryotic cells and is not itself exported to the ribosome."
     },
     {
       "id": "6-37",
@@ -4918,7 +4918,7 @@ const QUESTIONS = {
         "A silent mutation"
       ],
       "correct": 3,
-      "explanation": "A silent mutation leaves the amino acid sequence completely unchanged, since the new codon still specifies the same amino acid, giving it essentially no effect on protein function. An early frameshift (A) and an early nonsense mutation (B) both typically cause severe disruption by scrambling or truncating most of the downstream sequence. A missense mutation at a critical active-site residue (D) can also significantly impair function, since that specific position matters disproportionately to the protein's activity."
+      "explanation": "A silent mutation leaves the amino acid sequence completely unchanged, since the new codon still specifies the same amino acid, giving it essentially no effect on protein function. An early frameshift (C) and an early nonsense mutation (A) both typically cause severe disruption by scrambling or truncating most of the downstream sequence. A missense mutation at a critical active-site residue (B) can also significantly impair function, since that specific position matters disproportionately to the protein's activity."
     },
     {
       "id": "6-38",
@@ -4931,7 +4931,7 @@ const QUESTIONS = {
         "Complete physical deletion of the gene from the cell's own genome"
       ],
       "correct": 1,
-      "explanation": "Stable, long-term silencing that persists across many cell divisions without changing the DNA sequence is a hallmark of epigenetic regulation, especially DNA methylation, which is faithfully copied to daughter cells during replication. Choice A offers no actual mechanism and doesn't explain the stability observed. Choice C would be detectable as a missing gene, not silencing of a still-present one. Choice D would alter the protein's sequence rather than turning off its expression, and wouldn't explain why the change is so reliably tied to differentiation."
+      "explanation": "Stable, long-term silencing that persists across many cell divisions without changing the DNA sequence is a hallmark of epigenetic regulation, especially DNA methylation, which is faithfully copied to daughter cells during replication. Choice A offers no actual mechanism and doesn't explain the stability observed. Choice D would be detectable as a missing gene, not silencing of a still-present one. Choice C would alter the protein's sequence rather than turning off its expression, and wouldn't explain why the change is so reliably tied to differentiation."
     },
     {
       "id": "6-39",
@@ -4944,7 +4944,7 @@ const QUESTIONS = {
         "Only RNA synthesis would be disrupted, leaving DNA replication itself unaffected"
       ],
       "correct": 2,
-      "explanation": "Since helicase unwinds the double helix to expose both template strands, losing it would severely impair or halt replication entirely. Choice A wrongly assumes helicase is dispensable, when it's actually required to expose any template at all. Choice C misattributes the effect to RNA synthesis (transcription), a separate process that doesn't depend on this replication enzyme. Choice D is incorrect because both the leading and lagging strands require an unwound template, so both would be affected equally."
+      "explanation": "Since helicase unwinds the double helix to expose both template strands, losing it would severely impair or halt replication entirely. Choice B wrongly assumes helicase is dispensable, when it's actually required to expose any template at all. Choice D misattributes the effect to RNA synthesis (transcription), a separate process that doesn't depend on this replication enzyme. Choice A is incorrect because both the leading and lagging strands require an unwound template, so both would be affected equally."
     },
     {
       "id": "6-40",
@@ -4957,7 +4957,7 @@ const QUESTIONS = {
         "The cell having normal, unaltered levels of RNA polymerase available"
       ],
       "correct": 2,
-      "explanation": "Since the promoter is the sequence RNA polymerase (often with transcription factors) must bind to correctly start transcription, a mutation there would directly impair initiation of that gene. Choice B is unlikely to have this effect, since a mutation well past the stop codon lies outside the region controlling initiation. Choices C and D describe normal, unimpaired conditions (adequate ribonucleotides, adequate RNA polymerase) that would support transcription rather than prevent it."
+      "explanation": "Since the promoter is the sequence RNA polymerase (often with transcription factors) must bind to correctly start transcription, a mutation there would directly impair initiation of that gene. Choice B is unlikely to have this effect, since a mutation well past the stop codon lies outside the region controlling initiation. Choices A and D describe normal, unimpaired conditions (adequate ribonucleotides, adequate RNA polymerase) that would support transcription rather than prevent it."
     },
     {
       "id": "6-41",
@@ -4970,7 +4970,7 @@ const QUESTIONS = {
         "5'-UAC-3', carrying tyrosine, based on simply rewriting the anticodon rather than pairing it"
       ],
       "correct": 2,
-      "explanation": "Codon and anticodon pair antiparallel and complementary, like DNA strands: 3'-UAC-5' pairs with 5'-AUG-3' (A-U, U-A, C-G). Since AUG is the start codon specifying methionine, this tRNA carries methionine. Choice B incorrectly treats the anticodon sequence as if it were simply copied over as the codon, rather than base-paired to it. Choice C incorrectly reverses the letter order rather than applying actual base-pairing rules. Choice D is false, since this anticodon does have a valid complementary codon."
+      "explanation": "Codon and anticodon pair antiparallel and complementary, like DNA strands: 3'-UAC-5' pairs with 5'-AUG-3' (A-U, U-A, C-G). Since AUG is the start codon specifying methionine, this tRNA carries methionine. Choice D incorrectly treats the anticodon sequence as if it were simply copied over as the codon, rather than base-paired to it. Choice B incorrectly reverses the letter order rather than applying actual base-pairing rules. Choice A is false, since this anticodon does have a valid complementary codon."
     },
     {
       "id": "6-42",
@@ -4983,7 +4983,7 @@ const QUESTIONS = {
         "A mutation changing an amino-acid-specifying codon into a premature stop codon"
       ],
       "correct": 3,
-      "explanation": "A nonsense mutation converts an amino-acid-coding codon into a stop codon, prematurely ending translation and typically producing a truncated protein. Choice A describes a silent mutation, since the amino acid identity stays the same. Choice C describes an in-frame insertion, which adds a new amino acid rather than halting translation. Choice D describes a mutation with no functional consequence, the opposite of what a nonsense mutation typically causes."
+      "explanation": "A nonsense mutation converts an amino-acid-coding codon into a stop codon, prematurely ending translation and typically producing a truncated protein. Choice B describes a silent mutation, since the amino acid identity stays the same. Choice A describes an in-frame insertion, which adds a new amino acid rather than halting translation. Choice C describes a mutation with no functional consequence, the opposite of what a nonsense mutation typically causes."
     },
     {
       "id": "6-43",
@@ -4996,7 +4996,7 @@ const QUESTIONS = {
         "A category of ribosomal RNA involved in ribosome structure, not DNA binding"
       ],
       "correct": 1,
-      "explanation": "Transcription factors are regulatory proteins that bind specific DNA sequences like promoters and enhancers to help control whether, when, and how strongly a gene is transcribed. Choice B confuses transcription factors (proteins) with rRNA (a type of RNA that forms part of the ribosome). Choice C misattributes translation, a ribosome-driven process, to transcription factors, which act at the DNA/transcription level instead. Choice D directly contradicts their well-established central role in eukaryotic gene regulation."
+      "explanation": "Transcription factors are regulatory proteins that bind specific DNA sequences like promoters and enhancers to help control whether, when, and how strongly a gene is transcribed. Choice D confuses transcription factors (proteins) with rRNA (a type of RNA that forms part of the ribosome). Choice A misattributes translation, a ribosome-driven process, to transcription factors, which act at the DNA/transcription level instead. Choice C directly contradicts their well-established central role in eukaryotic gene regulation."
     },
     {
       "id": "6-44",
@@ -5009,7 +5009,7 @@ const QUESTIONS = {
         "They directly synthesize brand-new DNA nucleotides onto a growing strand"
       ],
       "correct": 2,
-      "explanation": "After helicase separates the strands, single-strand binding proteins attach to and stabilize those exposed single strands, keeping them from re-annealing before polymerase can use them as templates. Choice A describes DNA polymerase's job, not this protein's. Choice C describes ligase's role in sealing fragments together, a separate step. Choice D describes primase's role in laying down starting primers — none of these three functions belongs to single-strand binding proteins."
+      "explanation": "After helicase separates the strands, single-strand binding proteins attach to and stabilize those exposed single strands, keeping them from re-annealing before polymerase can use them as templates. Choice D describes DNA polymerase's job, not this protein's. Choice A describes ligase's role in sealing fragments together, a separate step. Choice B describes primase's role in laying down starting primers — none of these three functions belongs to single-strand binding proteins."
     },
     {
       "id": "6-45",
@@ -5022,7 +5022,7 @@ const QUESTIONS = {
         "Complete failure of the cell's entire DNA replication process"
       ],
       "correct": 0,
-      "explanation": "Since splicing depends on specific signal sequences marking intron/exon boundaries, disrupting those signals can cause exons to be wrongly included or excluded even without changing the coding sequence itself, potentially producing an abnormal protein. Choice A wrongly assumes only the coding sequence matters, ignoring that proper splicing is itself required to assemble a correct mature mRNA. Choice C misattributes the effect to DNA replication, an unrelated process. Choice D overstates the severity — such mutations vary widely in effect and are not universally lethal."
+      "explanation": "Since splicing depends on specific signal sequences marking intron/exon boundaries, disrupting those signals can cause exons to be wrongly included or excluded even without changing the coding sequence itself, potentially producing an abnormal protein. Choice B wrongly assumes only the coding sequence matters, ignoring that proper splicing is itself required to assemble a correct mature mRNA. Choice D misattributes the effect to DNA replication, an unrelated process. Choice C overstates the severity — such mutations vary widely in effect and are not universally lethal."
     },
     {
       "id": "6-46",
@@ -5035,7 +5035,7 @@ const QUESTIONS = {
         "The genetic code must be entirely reprogrammed before use in any new host organism"
       ],
       "correct": 0,
-      "explanation": "Because the code is nearly universal, a bacterium's transcription and translation machinery reads a human gene's codons the same way human cells would, letting it produce a correctly folded, functional protein like insulin — this shared code is what makes recombinant DNA technology practical. Choice A dismisses a significance that underlies real biotechnology applications. Choice C is factually wrong, since bacteria routinely perform both processes on their own genes. Choice D contradicts the very premise of code universality, which is precisely why reprogramming isn't necessary."
+      "explanation": "Because the code is nearly universal, a bacterium's transcription and translation machinery reads a human gene's codons the same way human cells would, letting it produce a correctly folded, functional protein like insulin — this shared code is what makes recombinant DNA technology practical. Choice C dismisses a significance that underlies real biotechnology applications. Choice B is factually wrong, since bacteria routinely perform both processes on their own genes. Choice D contradicts the very premise of code universality, which is precisely why reprogramming isn't necessary."
     },
     {
       "id": "6-47",
@@ -5048,7 +5048,7 @@ const QUESTIONS = {
         "Nonsense mutations, by truncating the protein, are generally more severe than typical missense changes"
       ],
       "correct": 3,
-      "explanation": "Truncating a protein (nonsense mutation) typically eliminates a large portion of its structure and function, while a missense mutation changes just one amino acid and often leaves the rest of the protein largely intact — making nonsense mutations generally more severe on average. Choice A states the reverse relationship. Choice C ignores that these mutation types have meaningfully different typical outcomes. Choice D is false, since both mutation types can and often do have real functional consequences, even if their severity typically differs."
+      "explanation": "Truncating a protein (nonsense mutation) typically eliminates a large portion of its structure and function, while a missense mutation changes just one amino acid and often leaves the rest of the protein largely intact — making nonsense mutations generally more severe on average. Choice A states the reverse relationship. Choice C ignores that these mutation types have meaningfully different typical outcomes. Choice B is false, since both mutation types can and often do have real functional consequences, even if their severity typically differs."
     },
     {
       "id": "6-48",
@@ -5061,7 +5061,7 @@ const QUESTIONS = {
         "Gene regulation carries no real biological importance for the organism"
       ],
       "correct": 1,
-      "explanation": "Gene regulation lets genetically identical cells become diverse specialized cell types by expressing different gene subsets, and lets individual cells adjust expression in response to changing internal and external conditions. Choice B dismisses an importance that is well-established and directly testable. Choice C has the relevance backwards, since regulation becomes especially critical in multicellular organisms with many differentiated cell types. Choice D directly contradicts observed biology, since expression levels vary dramatically between cell types and conditions."
+      "explanation": "Gene regulation lets genetically identical cells become diverse specialized cell types by expressing different gene subsets, and lets individual cells adjust expression in response to changing internal and external conditions. Choice D dismisses an importance that is well-established and directly testable. Choice A has the relevance backwards, since regulation becomes especially critical in multicellular organisms with many differentiated cell types. Choice C directly contradicts observed biology, since expression levels vary dramatically between cell types and conditions."
     },
     {
       "id": "6-49",
@@ -5074,7 +5074,7 @@ const QUESTIONS = {
         "Synthesis could not begin, since polymerase needs an existing free 3' end to extend"
       ],
       "correct": 3,
-      "explanation": "DNA polymerase can only extend an existing strand from a free 3' end and cannot initiate synthesis from nothing — this is exactly why primase's short RNA primer is essential to get replication started. Choice A wrongly assumes the primer is dispensable. Choice C confuses polymerase's function with primase's; polymerase extends primers, it doesn't create them. Choice D misassigns this role to helicase, whose job is unwinding the helix, not providing a starting point for synthesis."
+      "explanation": "DNA polymerase can only extend an existing strand from a free 3' end and cannot initiate synthesis from nothing — this is exactly why primase's short RNA primer is essential to get replication started. Choice B wrongly assumes the primer is dispensable. Choice A confuses polymerase's function with primase's; polymerase extends primers, it doesn't create them. Choice C misassigns this role to helicase, whose job is unwinding the helix, not providing a starting point for synthesis."
     },
     {
       "id": "6-50",
@@ -5087,7 +5087,7 @@ const QUESTIONS = {
         "The mRNA is complementary to the template, matching the non-template strand except U for T"
       ],
       "correct": 3,
-      "explanation": "RNA polymerase builds mRNA as a complementary copy of the template strand (using U in place of T), which means the mRNA sequence ends up matching the other, non-template ('coding') DNA strand almost exactly. Choice A is wrong because complementary base pairing, not identity, links mRNA to the template strand. Choice C ignores this well-defined complementary relationship entirely. Choice D is wrong because base pairing is exactly the mechanism that produces the mRNA sequence — it isn't formed without pairing."
+      "explanation": "RNA polymerase builds mRNA as a complementary copy of the template strand (using U in place of T), which means the mRNA sequence ends up matching the other, non-template ('coding') DNA strand almost exactly. Choice A is wrong because complementary base pairing, not identity, links mRNA to the template strand. Choice B ignores this well-defined complementary relationship entirely. Choice C is wrong because base pairing is exactly the mechanism that produces the mRNA sequence — it isn't formed without pairing."
     },
     {
       "id": "6-51",
@@ -5100,7 +5100,7 @@ const QUESTIONS = {
         "DNA replication would immediately halt as a direct consequence of this defect"
       ],
       "correct": 0,
-      "explanation": "The ribosome reads mRNA codons and catalyzes addition of the matching amino acids, so a ribosome unable to bind mRNA would directly and severely impair translation. Choice A misattributes the effect to transcription, a separate, earlier process carried out by RNA polymerase rather than the ribosome. Choice C similarly misattributes the effect to DNA replication, an unrelated process. Choice D contradicts the ribosome's essential, direct role in synthesizing protein from mRNA."
+      "explanation": "The ribosome reads mRNA codons and catalyzes addition of the matching amino acids, so a ribosome unable to bind mRNA would directly and severely impair translation. Choice B misattributes the effect to transcription, a separate, earlier process carried out by RNA polymerase rather than the ribosome. Choice D similarly misattributes the effect to DNA replication, an unrelated process. Choice C contradicts the ribosome's essential, direct role in synthesizing protein from mRNA."
     },
     {
       "id": "6-52",
@@ -5113,7 +5113,7 @@ const QUESTIONS = {
         "The protein would automatically gain a beneficial new function as a direct result"
       ],
       "correct": 0,
-      "explanation": "Introducing a charged, hydrophilic residue into a spot normally occupied by a nonpolar residue in the hydrophobic core is energetically unfavorable, since charged groups favor proximity to water rather than a nonpolar environment — this can disrupt the hydrophobic clustering that stabilizes tertiary structure. Choice A understates the likely impact of such a poorly tolerated substitution in a structurally important location. Choice C assumes an unsupported, favorable outcome with no basis. Choice D is inconsistent, since a change disrupting hydrophobic core packing would be expected to affect tertiary (higher-order) structure, not just the primary sequence."
+      "explanation": "Introducing a charged, hydrophilic residue into a spot normally occupied by a nonpolar residue in the hydrophobic core is energetically unfavorable, since charged groups favor proximity to water rather than a nonpolar environment — this can disrupt the hydrophobic clustering that stabilizes tertiary structure. Choice C understates the likely impact of such a poorly tolerated substitution in a structurally important location. Choice D assumes an unsupported, favorable outcome with no basis. Choice B is inconsistent, since a change disrupting hydrophobic core packing would be expected to affect tertiary (higher-order) structure, not just the primary sequence."
     },
     {
       "id": "6-53",
@@ -5126,7 +5126,7 @@ const QUESTIONS = {
         "Chromatin structure is relevant only in prokaryotic cells, which actually lack chromatin"
       ],
       "correct": 2,
-      "explanation": "Loosely packed, accessible euchromatin generally gives transcription machinery easier physical access, correlating with higher expression, while tightly packed heterochromatin blocks that access and correlates with lower expression or silencing. Choice B denies this well-established relationship outright. Choice C states the opposite of the actual correlation. Choice D is backwards, since chromatin structure is specifically a eukaryotic feature — prokaryotic cells lack the histone-based packaging that defines it."
+      "explanation": "Loosely packed, accessible euchromatin generally gives transcription machinery easier physical access, correlating with higher expression, while tightly packed heterochromatin blocks that access and correlates with lower expression or silencing. Choice A denies this well-established relationship outright. Choice B states the opposite of the actual correlation. Choice D is backwards, since chromatin structure is specifically a eukaryotic feature — prokaryotic cells lack the histone-based packaging that defines it."
     },
     {
       "id": "6-54",
@@ -5139,7 +5139,7 @@ const QUESTIONS = {
         "It seals the remaining gaps between adjacent Okazaki fragments"
       ],
       "correct": 0,
-      "explanation": "As helicase unwinds the helix, torsional stress (supercoiling) builds up ahead of the fork faster than it can dissipate naturally; topoisomerase relieves this by temporarily cutting and rejoining the strand. Choice B describes DNA polymerase's role, not topoisomerase's. Choice C describes ligase's role in sealing Okazaki fragments, a separate function. Choice D contradicts topoisomerase's well-established, essential role in preventing replication from stalling under accumulated tension."
+      "explanation": "As helicase unwinds the helix, torsional stress (supercoiling) builds up ahead of the fork faster than it can dissipate naturally; topoisomerase relieves this by temporarily cutting and rejoining the strand. Choice C describes DNA polymerase's role, not topoisomerase's. Choice D describes ligase's role in sealing Okazaki fragments, a separate function. Choice B contradicts topoisomerase's well-established, essential role in preventing replication from stalling under accumulated tension."
     },
     {
       "id": "6-55",
@@ -5152,7 +5152,7 @@ const QUESTIONS = {
         "Normal splicing of introns out of the pre-mRNA transcript itself"
       ],
       "correct": 1,
-      "explanation": "The 5' cap and 3' poly-A tail protect mRNA from degradation, assist ribosome binding, and help enable proper nuclear export; failing to add them disrupts this processing and export. Choices B, C, and D each describe a normal, correctly functioning step (completed processing, correct ribosome binding, correct splicing) that would support proper export, not prevent it — the question specifically asks what would disrupt export, which only the missing cap/tail scenario does."
+      "explanation": "The 5' cap and 3' poly-A tail protect mRNA from degradation, assist ribosome binding, and help enable proper nuclear export; failing to add them disrupts this processing and export. Choices A, C, and D each describe a normal, correctly functioning step (completed processing, correct ribosome binding, correct splicing) that would support proper export, not prevent it — the question specifically asks what would disrupt export, which only the missing cap/tail scenario does."
     },
     {
       "id": "6-56",
@@ -5165,7 +5165,7 @@ const QUESTIONS = {
         "The ribosome continues translating indefinitely, simply ignoring the stop codon it meets"
       ],
       "correct": 1,
-      "explanation": "Stop codons have no matching tRNA; release factor proteins instead bind at the stop codon, triggering release of the finished polypeptide and ending translation. Choice A is wrong because no amino acid, special or otherwise, is added at a stop codon. Choice C is wrong because translation reliably terminates at a stop codon rather than continuing past it. Choice D is wrong because the stop codon is recognized and acted upon, not simply skipped as if it weren't there."
+      "explanation": "Stop codons have no matching tRNA; release factor proteins instead bind at the stop codon, triggering release of the finished polypeptide and ending translation. Choice A is wrong because no amino acid, special or otherwise, is added at a stop codon. Choice D is wrong because translation reliably terminates at a stop codon rather than continuing past it. Choice C is wrong because the stop codon is recognized and acted upon, not simply skipped as if it weren't there."
     },
     {
       "id": "6-57",
@@ -5178,7 +5178,7 @@ const QUESTIONS = {
         "The claim is well-supported, since every single mutation reduces overall fitness"
       ],
       "correct": 2,
-      "explanation": "This overgeneralizes: silent mutations produce no amino acid change and typically no functional consequence, while missense mutations range from negligible to severe to, occasionally, beneficial depending on the specific change and location. Choice A asserts a uniform negative effect the evidence doesn't support. Choice C is factually wrong, since nonsense mutations are just one of several distinct mutation categories, not the only kind that occurs. Choice D is directly contradicted by the well-documented occurrence of mutations in all living organisms."
+      "explanation": "This overgeneralizes: silent mutations produce no amino acid change and typically no functional consequence, while missense mutations range from negligible to severe to, occasionally, beneficial depending on the specific change and location. Choice D asserts a uniform negative effect the evidence doesn't support. Choice B is factually wrong, since nonsense mutations are just one of several distinct mutation categories, not the only kind that occurs. Choice A is directly contradicted by the well-documented occurrence of mutations in all living organisms."
     },
     {
       "id": "6-58",
@@ -5191,7 +5191,7 @@ const QUESTIONS = {
         "Observing that the cell has stopped producing ATP following the treatment"
       ],
       "correct": 2,
-      "explanation": "The most direct evidence linking promoter methylation to expression is a consistent correlation — ideally via direct experimental manipulation — between that specific methylation state and that gene's transcription level. Choice B would actually indicate a mutation had occurred, not a methylation effect, since methylation doesn't alter the underlying sequence. Choice C describes an unrelated cellular process (energy metabolism) with no direct bearing on this specific regulatory question. Choice D fails to demonstrate anything about the gene of interest, since it examines a different gene entirely."
+      "explanation": "The most direct evidence linking promoter methylation to expression is a consistent correlation — ideally via direct experimental manipulation — between that specific methylation state and that gene's transcription level. Choice B would actually indicate a mutation had occurred, not a methylation effect, since methylation doesn't alter the underlying sequence. Choice D describes an unrelated cellular process (energy metabolism) with no direct bearing on this specific regulatory question. Choice A fails to demonstrate anything about the gene of interest, since it examines a different gene entirely."
     },
     {
       "id": "6-59",
@@ -5204,7 +5204,7 @@ const QUESTIONS = {
         "DNA replication occurs only in prokaryotic cells, which don't undergo mitosis at all"
       ],
       "correct": 2,
-      "explanation": "Mitosis's job is separating already-duplicated sister chromatids into two daughter cells, so replication must occur beforehand (during S phase) to produce those paired chromatids for mitosis to act on. Choice B denies a clear, sequential dependency between the two processes. Choice C confuses the two processes' roles — mitosis separates chromosomes, it doesn't replicate DNA. Choice D is false, since DNA replication occurs in eukaryotic cells too, ahead of their own mitotic divisions."
+      "explanation": "Mitosis's job is separating already-duplicated sister chromatids into two daughter cells, so replication must occur beforehand (during S phase) to produce those paired chromatids for mitosis to act on. Choice B denies a clear, sequential dependency between the two processes. Choice A confuses the two processes' roles — mitosis separates chromosomes, it doesn't replicate DNA. Choice D is false, since DNA replication occurs in eukaryotic cells too, ahead of their own mitotic divisions."
     },
     {
       "id": "6-60",
@@ -5217,7 +5217,7 @@ const QUESTIONS = {
         "RNA polymerase might continue past the normal endpoint, producing an overlong transcript"
       ],
       "correct": 3,
-      "explanation": "Since the terminator signals RNA polymerase to stop and release the transcript, disrupting it could let polymerase continue transcribing past the normal endpoint, producing an abnormally long transcript. Choice A confuses termination with initiation — a terminator problem doesn't prevent transcription from starting. Choice C misattributes the effect to the promoter, a separate sequence controlling initiation rather than termination. Choice D misattributes the effect to DNA replication, an unrelated process that doesn't depend on transcriptional terminators."
+      "explanation": "Since the terminator signals RNA polymerase to stop and release the transcript, disrupting it could let polymerase continue transcribing past the normal endpoint, producing an abnormally long transcript. Choice A confuses termination with initiation — a terminator problem doesn't prevent transcription from starting. Choice B misattributes the effect to the promoter, a separate sequence controlling initiation rather than termination. Choice C misattributes the effect to DNA replication, an unrelated process that doesn't depend on transcriptional terminators."
     },
     {
       "id": "6-61",
@@ -5230,7 +5230,7 @@ const QUESTIONS = {
         "Every single amino acid in the protein requires ten separate codons to specify it"
       ],
       "correct": 1,
-      "explanation": "Since each amino-acid-specifying codon codes for exactly one amino acid, the number of such codons directly determines the number of amino acids in the resulting polypeptide (the stop codon adds none). Choice B denies this clear, direct one-to-one relationship. Choice C invents a ratio (ten codons per amino acid) that has no basis in how the genetic code actually works. Choice D is wrong because the stop codon specifically signals termination and adds no amino acid to the chain."
+      "explanation": "Since each amino-acid-specifying codon codes for exactly one amino acid, the number of such codons directly determines the number of amino acids in the resulting polypeptide (the stop codon adds none). Choice A denies this clear, direct one-to-one relationship. Choice D invents a ratio (ten codons per amino acid) that has no basis in how the genetic code actually works. Choice C is wrong because the stop codon specifically signals termination and adds no amino acid to the chain."
     },
     {
       "id": "6-62",
@@ -5243,7 +5243,7 @@ const QUESTIONS = {
         "A missense mutation occurring within the gene's own coding sequence"
       ],
       "correct": 0,
-      "explanation": "Since introns are spliced out and never appear in the mature mRNA, a mutation entirely within an intron (away from splicing signal sequences) typically has no effect on the resulting protein's amino acid sequence. Choices A, C, and D all describe mutations occurring within the coding sequence (exons) itself, where changes directly alter the codons actually translated — a missense mutation changes one amino acid, a nonsense mutation truncates the protein, and a frameshift disrupts the downstream reading frame, so all three would be expected to affect the protein."
+      "explanation": "Since introns are spliced out and never appear in the mature mRNA, a mutation entirely within an intron (away from splicing signal sequences) typically has no effect on the resulting protein's amino acid sequence. Choices B, C, and D all describe mutations occurring within the coding sequence (exons) itself, where changes directly alter the codons actually translated — a missense mutation changes one amino acid, a nonsense mutation truncates the protein, and a frameshift disrupts the downstream reading frame, so all three would be expected to affect the protein."
     },
     {
       "id": "6-63",
@@ -5256,7 +5256,7 @@ const QUESTIONS = {
         "A specific category of intron sequence found within a gene"
       ],
       "correct": 2,
-      "explanation": "An enhancer is a regulatory DNA sequence, sometimes far from the gene it regulates, that specific transcription factors bind to help increase that gene's transcription rate. Choice B confuses an enhancer (a DNA sequence) with RNA polymerase (the enzyme that actually synthesizes mRNA). Choice C incorrectly categorizes an enhancer as a type of intron, when it's a distinct regulatory DNA element rather than part of the transcribed intron/exon structure. Choice D is wrong both because enhancers are DNA sequences rather than proteins, and because their defining role is increasing, not silencing, expression."
+      "explanation": "An enhancer is a regulatory DNA sequence, sometimes far from the gene it regulates, that specific transcription factors bind to help increase that gene's transcription rate. Choice A confuses an enhancer (a DNA sequence) with RNA polymerase (the enzyme that actually synthesizes mRNA). Choice D incorrectly categorizes an enhancer as a type of intron, when it's a distinct regulatory DNA element rather than part of the transcribed intron/exon structure. Choice B is wrong both because enhancers are DNA sequences rather than proteins, and because their defining role is increasing, not silencing, expression."
     },
     {
       "id": "6-64",
@@ -5269,7 +5269,7 @@ const QUESTIONS = {
         "To accurately duplicate the genome so each daughter cell gets a complete copy"
       ],
       "correct": 3,
-      "explanation": "Replication's overarching purpose is faithful genome duplication, ensuring each daughter cell produced by mitosis receives a complete, accurate set of genetic instructions — accuracy matters because errors can be inherited by all descendant cells. Choice B mischaracterizes replication's purpose as generating variation, when in fact replication is built for accuracy, with variation instead arising from separate, comparatively rare mutation events. Choice C reverses the purpose entirely, since replication preserves rather than destroys genetic continuity. Choice D dismisses a purpose that is, in fact, foundational to cellular reproduction and inheritance."
+      "explanation": "Replication's overarching purpose is faithful genome duplication, ensuring each daughter cell produced by mitosis receives a complete, accurate set of genetic instructions — accuracy matters because errors can be inherited by all descendant cells. Choice B mischaracterizes replication's purpose as generating variation, when in fact replication is built for accuracy, with variation instead arising from separate, comparatively rare mutation events. Choice A reverses the purpose entirely, since replication preserves rather than destroys genetic continuity. Choice C dismisses a purpose that is, in fact, foundational to cellular reproduction and inheritance."
     },
     {
       "id": "6-65",
@@ -5283,7 +5283,7 @@ const QUESTIONS = {
         "This mechanism acts at exactly the same stage as DNA methylation does"
       ],
       "correct": 2,
-      "explanation": "Because this microRNA acts on already-produced mRNA, marking it for degradation before translation, it represents post-transcriptional regulation — mechanistically and temporally distinct from DNA methylation (acting earlier, at the chromatin level before transcription even begins) and transcription factors (acting during transcription initiation itself). Choice A incorrectly places it at the same stage as methylation, when it actually acts much later in the pathway, on mRNA rather than on chromatin. Choice C dismisses a clearly defined regulatory role. Choice D misplaces the mechanism into DNA replication, an unrelated process that this microRNA doesn't act on at all."
+      "explanation": "Because this microRNA acts on already-produced mRNA, marking it for degradation before translation, it represents post-transcriptional regulation — mechanistically and temporally distinct from DNA methylation (acting earlier, at the chromatin level before transcription even begins) and transcription factors (acting during transcription initiation itself). Choice D incorrectly places it at the same stage as methylation, when it actually acts much later in the pathway, on mRNA rather than on chromatin. Choice A dismisses a clearly defined regulatory role. Choice B misplaces the mechanism into DNA replication, an unrelated process that this microRNA doesn't act on at all."
     },
     {
       "id": "6-66",
@@ -5296,7 +5296,7 @@ const QUESTIONS = {
         "High glucose lowers cAMP, so CAP can't help RNA polymerase, even after the repressor is removed"
       ],
       "correct": 3,
-      "explanation": "High glucose lowers cAMP, preventing the cAMP-CAP complex from forming and helping RNA polymerase bind the promoter — this positive-regulation signal stays off even though lactose has already removed the repressor. Choice A is incorrect because lactose, if present, does successfully remove the repressor regardless of glucose level; glucose affects the separate CAP-based activation step instead. Choice C is far too broad, since RNA polymerase remains intact and active for transcribing other genes. Choice D is incorrect, since glucose levels don't control lactose transport into the cell."
+      "explanation": "High glucose lowers cAMP, preventing the cAMP-CAP complex from forming and helping RNA polymerase bind the promoter — this positive-regulation signal stays off even though lactose has already removed the repressor. Choice A is incorrect because lactose, if present, does successfully remove the repressor regardless of glucose level; glucose affects the separate CAP-based activation step instead. Choice C is far too broad, since RNA polymerase remains intact and active for transcribing other genes. Choice B is incorrect, since glucose levels don't control lactose transport into the cell."
     },
     {
       "id": "6-67",
@@ -5309,7 +5309,7 @@ const QUESTIONS = {
         "Lactose absent, glucose abundant, since abundant glucose should favor high transcription"
       ],
       "correct": 2,
-      "explanation": "Maximal transcription needs lactose present (inactivating the repressor, lifting the block on RNA polymerase) AND glucose scarce (letting cAMP accumulate, activate CAP, and help RNA polymerase bind the promoter). Choice A is wrong because abundant glucose keeps CAP inactive via catabolite repression, limiting transcription even with lactose present. Choice B is wrong because without lactose, the repressor stays bound regardless of glucose level, blocking transcription outright. Choice D is wrong for the same reason — with no lactose, the repressor blocks RNA polymerase no matter how scarce or abundant glucose is."
+      "explanation": "Maximal transcription needs lactose present (inactivating the repressor, lifting the block on RNA polymerase) AND glucose scarce (letting cAMP accumulate, activate CAP, and help RNA polymerase bind the promoter). Choice B is wrong because abundant glucose keeps CAP inactive via catabolite repression, limiting transcription even with lactose present. Choice A is wrong because without lactose, the repressor stays bound regardless of glucose level, blocking transcription outright. Choice D is wrong for the same reason — with no lactose, the repressor blocks RNA polymerase no matter how scarce or abundant glucose is."
     }
   ],
   "7": [
@@ -5318,39 +5318,39 @@ const QUESTIONS = {
       "topic": "7.1 Evidence for Evolution",
       "stem": "A whale's flipper, a bat's wing, and a human arm all share the same fundamental underlying bone arrangement, despite serving very different functions. This is an example of:",
       "choices": [
-        "Sympatric speciation (a mechanism of new-species formation, unrelated to shared anatomy)",
-        "Analogous structures (similar in function only, from unrelated evolutionary origins)",
+        "Sympatric speciation",
+        "Analogous structures",
         "Convergent evolution (the process that produces analogous structures, not a term for a shared inherited plan)",
         "Homologous structures"
       ],
       "correct": 3,
-      "explanation": "Homologous structures share an underlying anatomical origin — the same bone arrangement — despite serving different functions in each lineage, matching the scenario described. Analogous structures (A) is the opposite pattern: similar function arising from unrelated origins, not what's described here. Convergent evolution (C) names the process that produces analogous structures, not a label for a shared skeletal plan inherited from a common ancestor. Sympatric speciation (D) is an unrelated concept about how new species arise without geographic separation, with no connection to comparative anatomy."
+      "explanation": "Homologous structures share an underlying anatomical origin — the same bone arrangement — despite serving different functions in each lineage, matching the scenario described. Analogous structures (B) is the opposite pattern: similar function arising from unrelated origins, not what's described here. Convergent evolution (C) names the process that produces analogous structures, not a label for a shared skeletal plan inherited from a common ancestor. Sympatric speciation (A) is an unrelated concept about how new species arise without geographic separation, with no connection to comparative anatomy."
     },
     {
       "id": "7-2",
       "topic": "7.1 Evidence for Evolution",
       "stem": "The wings of a butterfly and the wings of a bird serve a similar function (flight) but developed from entirely different underlying structures in unrelated lineages. This is an example of:",
       "choices": [
-        "Homologous structures (would require a shared underlying origin, not just shared function)",
+        "Homologous structures",
         "Vestigial structures (structures that have lost their original function — not what's being compared here)",
         "Analogous structures",
-        "Reproductive isolation (a barrier to interbreeding, unrelated to wing anatomy)"
+        "Reproductive isolation"
       ],
       "correct": 2,
-      "explanation": "Analogous structures arise independently in unrelated lineages but converge on a similar function — exactly the case for butterfly and bird wings, built from entirely different underlying structures. Homologous (A) would require the wings to share a common structural origin inherited from a shared ancestor, which they don't. Vestigial (C) describes a structure that has lost function over time, not a fully functioning wing shared across unrelated groups. Reproductive isolation (D) is a barrier to interbreeding between species, unrelated to comparative anatomy."
+      "explanation": "Analogous structures arise independently in unrelated lineages but converge on a similar function — exactly the case for butterfly and bird wings, built from entirely different underlying structures. Homologous (A) would require the wings to share a common structural origin inherited from a shared ancestor, which they don't. Vestigial (B) describes a structure that has lost function over time, not a fully functioning wing shared across unrelated groups. Reproductive isolation (D) is a barrier to interbreeding between species, unrelated to comparative anatomy."
     },
     {
       "id": "7-3",
       "topic": "7.1 Evidence for Evolution",
       "stem": "Which type of evidence for evolution involves comparing the developmental stages of embryos across different species?",
       "choices": [
-        "Biogeography (compares geographic distribution of species, not developmental stages)",
-        "The fossil record (compares preserved remains of past organisms, not living embryos)",
-        "Molecular biology (compares DNA/protein sequences, not developmental stages)",
+        "Biogeography",
+        "The fossil record",
+        "Molecular biology",
         "Comparative embryology"
       ],
       "correct": 3,
-      "explanation": "Comparative embryology specifically compares developmental stages across species. Biogeography (A) instead compares where species live geographically. The fossil record (C) provides evidence from preserved remains of past organisms rather than the developing embryos of living species. Molecular biology (D) compares DNA or protein sequences rather than developmental anatomy — a distinct category of evidence covered elsewhere in this unit."
+      "explanation": "Comparative embryology specifically compares developmental stages across species. Biogeography (A) instead compares where species live geographically. The fossil record (B) provides evidence from preserved remains of past organisms rather than the developing embryos of living species. Molecular biology (C) compares DNA or protein sequences rather than developmental anatomy — a distinct category of evidence covered elsewhere in this unit."
     },
     {
       "id": "7-4",
@@ -5363,20 +5363,20 @@ const QUESTIONS = {
         "Species with more similar DNA/protein sequences generally share a more recent common ancestor"
       ],
       "correct": 3,
-      "explanation": "Since mutations accumulate gradually over evolutionary time, species that diverged more recently generally have had less time to accumulate independent differences, resulting in more similar DNA/protein sequences. Option B gets this backwards — sequence divergence is exactly what tracks relatedness. Option C is factually false, since sequence differences (not identical sequences) are what allow comparison in the first place. Option D misses the point that molecular evidence is only powerful because it compares sequences ACROSS species."
+      "explanation": "Since mutations accumulate gradually over evolutionary time, species that diverged more recently generally have had less time to accumulate independent differences, resulting in more similar DNA/protein sequences. Option A gets this backwards — sequence divergence is exactly what tracks relatedness. Option B is factually false, since sequence differences (not identical sequences) are what allow comparison in the first place. Option C misses the point that molecular evidence is only powerful because it compares sequences ACROSS species."
     },
     {
       "id": "7-5",
       "topic": "7.1 Evidence for Evolution",
       "stem": "The unique species found on isolated island chains, often closely related to species on the nearest mainland but distinct from them, is best explained by which type of evidence?",
       "choices": [
-        "Vestigial structures (reduced remnant structures, unrelated to island colonization)",
-        "Homologous structures (a type of anatomical evidence, not a geographic distribution pattern)",
-        "Comparative embryology (compares developmental stages, not geographic distribution)",
+        "Vestigial structures",
+        "Homologous structures",
+        "Comparative embryology",
         "Biogeography"
       ],
       "correct": 3,
-      "explanation": "Biogeography examines the geographic distribution of species and how it reflects evolutionary history — island species being related to, but distinct from, mainland species reflects colonization followed by independent divergence in isolation. Comparative embryology (A) instead compares developmental stages of embryos, not geographic patterns. Homologous structures (C) is an anatomical category of evidence, not a geographic one. Vestigial structures (D) refers to reduced, functionless remnants, unrelated to island biogeography."
+      "explanation": "Biogeography examines the geographic distribution of species and how it reflects evolutionary history — island species being related to, but distinct from, mainland species reflects colonization followed by independent divergence in isolation. Comparative embryology (C) instead compares developmental stages of embryos, not geographic patterns. Homologous structures (B) is an anatomical category of evidence, not a geographic one. Vestigial structures (A) refers to reduced, functionless remnants, unrelated to island biogeography."
     },
     {
       "id": "7-6",
@@ -5385,11 +5385,11 @@ const QUESTIONS = {
       "choices": [
         "A structure that has lost most or all of its original function over evolutionary time, often reduced in size",
         "A structure found only in the fossil record, when vestigial structures are commonly found in living organisms, like the human appendix",
-        "A structure that has no evolutionary history, when in fact vestigial structures have a clear evolutionary origin — they simply lost function",
+        "A structure that has no evolutionary history",
         "A structure unique to a single species with no relatives, when vestigial structures are shared with related species that retain the full ancestral function"
       ],
       "correct": 0,
-      "explanation": "Vestigial structures are remnants of structures that served an important function in an ancestral lineage but have lost most or all of that function over time, often becoming reduced in size — like the human appendix or the reduced pelvic bones in some whale species — reflecting an organism's evolutionary history. Option A is wrong because vestigial structures DO have a clear evolutionary origin. Option C is wrong because they're common in living organisms, not confined to fossils. Option D is wrong because vestigial structures are typically shared across related species that still use the full ancestral structure."
+      "explanation": "Vestigial structures are remnants of structures that served an important function in an ancestral lineage but have lost most or all of that function over time, often becoming reduced in size — like the human appendix or the reduced pelvic bones in some whale species — reflecting an organism's evolutionary history. Option C is wrong because vestigial structures DO have a clear evolutionary origin. Option B is wrong because they're common in living organisms, not confined to fossils. Option D is wrong because vestigial structures are typically shared across related species that still use the full ancestral structure."
     },
     {
       "id": "7-7",
@@ -5402,7 +5402,7 @@ const QUESTIONS = {
         "Mutation must never occur, when mutation is actually a key source of the heritable variation selection acts on"
       ],
       "correct": 2,
-      "explanation": "Natural selection requires heritable variation that affects differential survival or reproduction (fitness), with advantageous variants passed on more often. Option A is backwards: genetic identity would remove the variation selection needs to act on. Option C confuses speciation mechanisms (like allopatric speciation) with the requirements for selection itself. Option D is wrong because mutation is a primary source of the heritable variation that fuels selection, not something that must be absent."
+      "explanation": "Natural selection requires heritable variation that affects differential survival or reproduction (fitness), with advantageous variants passed on more often. Option B is backwards: genetic identity would remove the variation selection needs to act on. Option A confuses speciation mechanisms (like allopatric speciation) with the requirements for selection itself. Option D is wrong because mutation is a primary source of the heritable variation that fuels selection, not something that must be absent."
     },
     {
       "id": "7-8",
@@ -5415,7 +5415,7 @@ const QUESTIONS = {
         "Genetic drift (random chance change in small populations, not a consistent shift driven by a camouflage advantage)"
       ],
       "correct": 2,
-      "explanation": "Since the environmental change favored one specific extreme (dark coloration, for camouflage against dark bark) and the population's phenotype distribution shifted toward that extreme over time, this is directional selection — similar to the famous peppered moth example from industrial pollution darkening tree bark. Stabilizing selection (A) would instead favor the middle of the range. Disruptive selection (C) would favor both light and dark extremes at once. Genetic drift (D) is a random process unrelated to a consistent, survival-driven shift."
+      "explanation": "Since the environmental change favored one specific extreme (dark coloration, for camouflage against dark bark) and the population's phenotype distribution shifted toward that extreme over time, this is directional selection — similar to the famous peppered moth example from industrial pollution darkening tree bark. Stabilizing selection (A) would instead favor the middle of the range. Disruptive selection (B) would favor both light and dark extremes at once. Genetic drift (D) is a random process unrelated to a consistent, survival-driven shift."
     },
     {
       "id": "7-9",
@@ -5428,20 +5428,20 @@ const QUESTIONS = {
         "Disruptive selection"
       ],
       "correct": 3,
-      "explanation": "Disruptive selection favors both extreme phenotypes while selecting against the intermediate, which can increase phenotypic variation and, in some cases, contribute to speciation if the two favored extremes become reproductively isolated. Directional selection (A) shifts the population toward just one extreme. Stabilizing selection (B) does the opposite of disruptive selection, favoring the middle. Sexual selection (D) is defined by the driver (mate choice), not by favoring both extremes specifically."
+      "explanation": "Disruptive selection favors both extreme phenotypes while selecting against the intermediate, which can increase phenotypic variation and, in some cases, contribute to speciation if the two favored extremes become reproductively isolated. Directional selection (C) shifts the population toward just one extreme. Stabilizing selection (A) does the opposite of disruptive selection, favoring the middle. Sexual selection (B) is defined by the driver (mate choice), not by favoring both extremes specifically."
     },
     {
       "id": "7-10",
       "topic": "7.2 Mechanisms of Natural Selection",
       "stem": "Which best describes why natural selection is often said to act on phenotype, with allele frequency change being the resulting evolutionary consequence?",
       "choices": [
-        "Because natural selection directly targets and destroys specific alleles, when selection actually acts on visible phenotypes, not genes directly",
+        "Because natural selection directly targets and destroys specific alleles",
         "Because phenotype and allele frequency are always identical concepts, when they are related but distinct measures",
         "Phenotype directly determines survival and reproductive success, and allele frequency change is the resulting population-level consequence",
         "Because natural selection has no relationship to alleles at all, when allele frequency change is precisely the downstream genetic result of selection"
       ],
       "correct": 2,
-      "explanation": "An organism's phenotype directly interacts with the environment and determines survival/reproductive outcomes; allele frequency change is the downstream, population-level result of this differential success being passed on to the next generation, not something selection targets directly. Option A wrongly places genes, not phenotypes, as selection's direct target. Option C conflates two distinct concepts — an observable trait versus a population-genetic frequency. Option D is simply false, since allele frequency change is exactly the eventual genetic consequence of selection acting on phenotype."
+      "explanation": "An organism's phenotype directly interacts with the environment and determines survival/reproductive outcomes; allele frequency change is the downstream, population-level result of this differential success being passed on to the next generation, not something selection targets directly. Option A wrongly places genes, not phenotypes, as selection's direct target. Option B conflates two distinct concepts — an observable trait versus a population-genetic frequency. Option D is simply false, since allele frequency change is exactly the eventual genetic consequence of selection acting on phenotype."
     },
     {
       "id": "7-11",
@@ -5455,20 +5455,20 @@ const QUESTIONS = {
         "Genetics and environment cannot both influence the same trait, though many real traits, like height or crop yield, are shaped by both simultaneously"
       ],
       "correct": 0,
-      "explanation": "When environment substantially contributes to phenotype, an individual's observed trait doesn't perfectly reflect its underlying genotype — some individuals with favorable phenotypes (due to environment) may not carry favorable alleles, and vice versa. Since selection can only 'see' and act on phenotype directly, some selection pressure is effectively wasted on non-heritable, environmentally caused variation, diluting how efficiently allele frequencies shift compared to a scenario where phenotype and genotype align perfectly. This is closely related to the real concept of heritability in evolutionary biology, and it's why options A and C — which claim environmental influence has no effect or actually helps — get the direction backwards, and why option D's premise (that a trait can't be shaped by both) is simply false."
+      "explanation": "When environment substantially contributes to phenotype, an individual's observed trait doesn't perfectly reflect its underlying genotype — some individuals with favorable phenotypes (due to environment) may not carry favorable alleles, and vice versa. Since selection can only 'see' and act on phenotype directly, some selection pressure is effectively wasted on non-heritable, environmentally caused variation, diluting how efficiently allele frequencies shift compared to a scenario where phenotype and genotype align perfectly. This is closely related to the real concept of heritability in evolutionary biology, and it's why options B and C — which claim environmental influence has no effect or actually helps — get the direction backwards, and why option D's premise (that a trait can't be shaped by both) is simply false."
     },
     {
       "id": "7-12",
       "topic": "7.2 Mechanisms of Natural Selection",
       "stem": "Which of the following would be the clearest real-world example of stabilizing selection?",
       "choices": [
-        "A single population splitting into two reproductively isolated groups (describes speciation, not a pattern of selection on its own)",
+        "A single population splitting into two reproductively isolated groups",
         "A population of bacteria becoming increasingly resistant to an antibiotic over successive generations (a shift toward one extreme — directional selection)",
         "Human birth weight, where infants of average weight have the highest survival rate",
         "A population of finches evolving progressively larger beaks following a drought (again a shift toward one extreme — directional selection)"
       ],
       "correct": 2,
-      "explanation": "Human birth weight is a classic textbook example of stabilizing selection, since intermediate (average) birth weight is associated with the best survival outcomes, while selection acts against both extremes. Option A describes bacteria consistently shifting toward one extreme (resistance) — directional selection, not stabilizing. Option C similarly describes a shift toward one extreme (larger beaks) — again directional. Option D describes a speciation event, not a selection pattern at all."
+      "explanation": "Human birth weight is a classic textbook example of stabilizing selection, since intermediate (average) birth weight is associated with the best survival outcomes, while selection acts against both extremes. Option B describes bacteria consistently shifting toward one extreme (resistance) — directional selection, not stabilizing. Option D similarly describes a shift toward one extreme (larger beaks) — again directional. Option A describes a speciation event, not a selection pattern at all."
     },
     {
       "id": "7-13",
@@ -5481,20 +5481,20 @@ const QUESTIONS = {
         "The frequency of the homozygous recessive genotype (that's q², not 2pq)"
       ],
       "correct": 2,
-      "explanation": "2pq represents the expected frequency of heterozygous individuals in a population at Hardy-Weinberg equilibrium. Option A confuses 2pq with p², the homozygous dominant genotype frequency. Option C confuses it with q², the homozygous recessive genotype frequency. Option D confuses a genotype frequency (2pq) with a single allele frequency (p)."
+      "explanation": "2pq represents the expected frequency of heterozygous individuals in a population at Hardy-Weinberg equilibrium. Option B confuses 2pq with p², the homozygous dominant genotype frequency. Option D confuses it with q², the homozygous recessive genotype frequency. Option A confuses a genotype frequency (2pq) with a single allele frequency (p)."
     },
     {
       "id": "7-14",
       "topic": "7.3 Population Genetics",
       "stem": "In a population at Hardy-Weinberg equilibrium, 9% of individuals show the homozygous recessive phenotype. What is the frequency of the recessive allele (q)?",
       "choices": [
-        "0.81 (equal to p², found from squaring 0.9 instead of finding q)",
-        "0.09 (equal to q² itself — the homozygous recessive frequency, not yet square-rooted)",
-        "0.9 (a common decimal-placement slip — mistaking √0.09 for 0.9 rather than the correct 0.3)",
+        "0.81",
+        "0.09",
+        "0.9",
         "0.3"
       ],
       "correct": 3,
-      "explanation": "Since q² = 0.09 (9% homozygous recessive), q = √0.09 = 0.3. This is one of the most fundamental Hardy-Weinberg steps: taking the square root of the observed homozygous recessive frequency. Choice A stops at q² without taking the square root. Choice C (0.81) results from squaring 0.9 instead — a mix-up between p and q. Choice D (0.9) reflects a decimal-placement error in the square root itself, similar to mistaking √9 = 3 for a shifted decimal."
+      "explanation": "Since q² = 0.09 (9% homozygous recessive), q = √0.09 = 0.3. This is one of the most fundamental Hardy-Weinberg steps: taking the square root of the observed homozygous recessive frequency. Choice B stops at q² without taking the square root. Choice A (0.81) results from squaring 0.9 instead — a mix-up between p and q. Choice C (0.9) reflects a decimal-placement error in the square root itself, similar to mistaking √9 = 3 for a shifted decimal."
     },
     {
       "id": "7-15",
@@ -5503,11 +5503,11 @@ const QUESTIONS = {
       "choices": [
         "0.6 (double q — from computing 2q instead of 1 − q)",
         "0.7",
-        "0.09 (this is q², unrelated to solving p + q = 1 for p)",
-        "0.3 (this is q itself, not p)"
+        "0.09",
+        "0.3"
       ],
       "correct": 1,
-      "explanation": "Since p + q = 1, and q = 0.3, p = 1 − 0.3 = 0.7. Choice A simply restates q rather than solving for p. Choice B results from doubling q (2 × 0.3 = 0.6) instead of subtracting it from 1. Choice D (0.09) is q² (0.3²), an entirely different Hardy-Weinberg term."
+      "explanation": "Since p + q = 1, and q = 0.3, p = 1 − 0.3 = 0.7. Choice D simply restates q rather than solving for p. Choice A results from doubling q (2 × 0.3 = 0.6) instead of subtracting it from 1. Choice C (0.09) is q² (0.3²), an entirely different Hardy-Weinberg term."
     },
     {
       "id": "7-16",
@@ -5515,12 +5515,12 @@ const QUESTIONS = {
       "stem": "Using p = 0.7 and q = 0.3 from the previous questions, what is the expected frequency of heterozygous individuals in this population?",
       "choices": [
         "0.42",
-        "0.09 (equal to q², the homozygous recessive frequency, not the heterozygous frequency)",
-        "0.21 (equal to pq without doubling — omitting the '2' in 2pq)",
-        "0.49 (equal to p², the homozygous dominant frequency, not 2pq)"
+        "0.09",
+        "0.21",
+        "0.49"
       ],
       "correct": 0,
-      "explanation": "2pq = 2 × 0.7 × 0.3 = 0.42, the expected heterozygous frequency. Choice B (0.21) is just p × q without doubling — a common error that drops the factor of 2 accounting for the two ways to form a heterozygote (allele from either parent). Choices A (0.09 = q²) and D (0.49 = p²) are both homozygous genotype frequencies, not the heterozygous one."
+      "explanation": "2pq = 2 × 0.7 × 0.3 = 0.42, the expected heterozygous frequency. Choice C (0.21) is just p × q without doubling — a common error that drops the factor of 2 accounting for the two ways to form a heterozygote (allele from either parent). Choices B (0.09 = q²) and D (0.49 = p²) are both homozygous genotype frequencies, not the heterozygous one."
     },
     {
       "id": "7-17",
@@ -5533,7 +5533,7 @@ const QUESTIONS = {
         "Frequent natural selection favoring specific traits"
       ],
       "correct": 3,
-      "explanation": "Hardy-Weinberg equilibrium specifically requires the ABSENCE of natural selection, so 'frequent natural selection favoring specific traits' is the one option NOT among the five conditions — it's actually the opposite of what's required. No mutation (A), random mating (B), and a very large population avoiding drift (C) are each genuinely required conditions, along with no gene flow (not listed as an option here)."
+      "explanation": "Hardy-Weinberg equilibrium specifically requires the ABSENCE of natural selection, so 'frequent natural selection favoring specific traits' is the one option NOT among the five conditions — it's actually the opposite of what's required. No mutation (B), random mating (A), and a very large population avoiding drift (C) are each genuinely required conditions, along with no gene flow (not listed as an option here)."
     },
     {
       "id": "7-18",
@@ -5541,12 +5541,12 @@ const QUESTIONS = {
       "stem": "A researcher finds that a population's observed genotype frequencies closely match what Hardy-Weinberg equilibrium predicts, based on the population's observed allele frequencies. What can the researcher tentatively conclude?",
       "choices": [
         "The population is definitely undergoing rapid evolution, the opposite of what matching HW predictions actually suggests",
-        "The population must consist of only two individuals, though population size has no bearing on whether observed frequencies match HW predictions",
-        "No further study of this population is possible, though matching HW predictions is a starting point for further questions, not an endpoint",
+        "The population must consist of only two individuals",
+        "No further study of this population is possible",
         "This population is not showing strong evidence of deviation from equilibrium, suggesting the five Hardy-Weinberg conditions may be approximately met"
       ],
       "correct": 3,
-      "explanation": "When observed genotype frequencies closely match Hardy-Weinberg predictions, this suggests the population is not showing strong evidence of active evolutionary change at that gene (or that any evolutionary forces present happen to be roughly balancing out) — though this doesn't definitively prove all five conditions are perfectly met, since small deviations could go undetected. Option A draws the opposite conclusion from what matching predictions imply. Option C invents an unrelated claim about population size. Option D wrongly treats a statistical match as ending scientific inquiry rather than informing it."
+      "explanation": "When observed genotype frequencies closely match Hardy-Weinberg predictions, this suggests the population is not showing strong evidence of active evolutionary change at that gene (or that any evolutionary forces present happen to be roughly balancing out) — though this doesn't definitively prove all five conditions are perfectly met, since small deviations could go undetected. Option A draws the opposite conclusion from what matching predictions imply. Option B invents an unrelated claim about population size. Option C wrongly treats a statistical match as ending scientific inquiry rather than informing it."
     },
     {
       "id": "7-19",
@@ -5554,12 +5554,12 @@ const QUESTIONS = {
       "stem": "A population has an allele frequency of p = 0.8 for the dominant allele. What percentage of the population would be expected to show the DOMINANT phenotype, assuming Hardy-Weinberg equilibrium?",
       "choices": [
         "96%",
-        "64% (this is p² alone — homozygous dominant only, leaving out the heterozygotes who also show the dominant phenotype)",
+        "64%",
         "80% (this simply restates p, the allele frequency, rather than the phenotype frequency)",
-        "4% (this is q², the frequency of the recessive phenotype — the opposite group)"
+        "4%"
       ],
       "correct": 0,
-      "explanation": "The dominant phenotype includes both homozygous dominant (p²) and heterozygous (2pq) individuals, since both genotypes display the dominant phenotype. With p = 0.8, q = 0.2: p² = 0.64, 2pq = 2(0.8)(0.2) = 0.32, so dominant phenotype frequency = 0.64 + 0.32 = 0.96, or 96% (equivalently, 1 − q² = 1 − 0.04 = 0.96). Choice A (64%) counts only p², missing the heterozygotes. Choice B (4%) is q² itself, the recessive phenotype's frequency. Choice D (80%) just restates the allele frequency p rather than computing a phenotype frequency at all."
+      "explanation": "The dominant phenotype includes both homozygous dominant (p²) and heterozygous (2pq) individuals, since both genotypes display the dominant phenotype. With p = 0.8, q = 0.2: p² = 0.64, 2pq = 2(0.8)(0.2) = 0.32, so dominant phenotype frequency = 0.64 + 0.32 = 0.96, or 96% (equivalently, 1 − q² = 1 − 0.04 = 0.96). Choice B (64%) counts only p², missing the heterozygotes. Choice D (4%) is q² itself, the recessive phenotype's frequency. Choice C (80%) just restates the allele frequency p rather than computing a phenotype frequency at all."
     },
     {
       "id": "7-20",
@@ -5581,12 +5581,12 @@ const QUESTIONS = {
       "stem": "Two populations of the same species become separated by a newly formed mountain range, preventing gene flow between them. Over many generations, they accumulate independent genetic differences and eventually can no longer successfully interbreed. This is an example of:",
       "choices": [
         "Allopatric speciation",
-        "Postzygotic isolation without speciation (describes a barrier type occurring after mating, not the geographic mechanism described)",
+        "Postzygotic isolation without speciation",
         "Genetic drift with no speciation (the populations here DID become reproductively isolated, so speciation clearly did occur)",
         "Sympatric speciation (occurs without geographic separation — the opposite of what's described here)"
       ],
       "correct": 0,
-      "explanation": "Allopatric speciation specifically involves a geographic barrier — here, a mountain range — physically separating populations, preventing gene flow and allowing independent divergence until reproductive isolation is achieved. Option A describes the opposite scenario, where no geographic separation occurs. Option C mislabels a full speciation event as merely one type of postzygotic barrier without speciation. Option D contradicts the stem, which explicitly states that speciation (loss of interbreeding ability) did occur."
+      "explanation": "Allopatric speciation specifically involves a geographic barrier — here, a mountain range — physically separating populations, preventing gene flow and allowing independent divergence until reproductive isolation is achieved. Option D describes the opposite scenario, where no geographic separation occurs. Option B mislabels a full speciation event as merely one type of postzygotic barrier without speciation. Option C contradicts the stem, which explicitly states that speciation (loss of interbreeding ability) did occur."
     },
     {
       "id": "7-22",
@@ -5594,12 +5594,12 @@ const QUESTIONS = {
       "stem": "Which of the following describes a prezygotic reproductive barrier?",
       "choices": [
         "Two species that breed at different times of year, preventing mating from occurring at all",
-        "Reduced survival of hybrid offspring after birth (occurs after successful mating and development — postzygotic)",
-        "A hybrid embryo that fails to develop properly after fertilization (occurs after fertilization — postzygotic)",
+        "Reduced survival of hybrid offspring after birth",
+        "A hybrid embryo that fails to develop properly after fertilization",
         "A hybrid offspring that is produced but is sterile (mating and fertilization already occurred here — a postzygotic barrier)"
       ],
       "correct": 0,
-      "explanation": "A prezygotic barrier prevents mating or fertilization from occurring in the first place — temporal isolation (breeding at different times) is a classic example. Options A, C, and D all describe events that happen AFTER fertilization has already taken place (a produced-but-sterile hybrid, a failed embryo, and reduced offspring survival), making each of them postzygotic rather than prezygotic barriers."
+      "explanation": "A prezygotic barrier prevents mating or fertilization from occurring in the first place — temporal isolation (breeding at different times) is a classic example. Options B, C, and D all describe events that happen AFTER fertilization has already taken place (a produced-but-sterile hybrid, a failed embryo, and reduced offspring survival), making each of them postzygotic rather than prezygotic barriers."
     },
     {
       "id": "7-23",
@@ -5612,20 +5612,20 @@ const QUESTIONS = {
         "Reduced hybrid fertility (postzygotic)"
       ],
       "correct": 3,
-      "explanation": "Since mating and fertilization DO successfully occur (a viable hybrid offspring, the mule, is produced), but that offspring is unable to reproduce, this is a postzygotic barrier specifically classified as reduced hybrid fertility. Options A, B, and D are all prezygotic barriers, which by definition would have prevented mating or fertilization from happening at all — but the scenario explicitly states fertilization succeeded."
+      "explanation": "Since mating and fertilization DO successfully occur (a viable hybrid offspring, the mule, is produced), but that offspring is unable to reproduce, this is a postzygotic barrier specifically classified as reduced hybrid fertility. Options A, B, and C are all prezygotic barriers, which by definition would have prevented mating or fertilization from happening at all — but the scenario explicitly states fertilization succeeded."
     },
     {
       "id": "7-24",
       "topic": "7.4 Speciation",
       "stem": "Which of the following mechanisms is most closely associated with sympatric speciation via polyploidy, particularly common in plants?",
       "choices": [
-        "Behavioral changes in mating displays (a sympatric mechanism, but based on behavior rather than chromosome number)",
-        "Geographic separation by a river (describes allopatric speciation, not the sympatric, chromosome-based mechanism of polyploidy)",
+        "Behavioral changes in mating displays",
+        "Geographic separation by a river",
         "A chromosome number error resulting in offspring with a different chromosome number than the parent population, immediately creating reproductive isolation",
         "Gradual genetic divergence over millions of years due to geographic isolation (again describes allopatric speciation's slow timescale, not polyploidy's sudden effect)"
       ],
       "correct": 2,
-      "explanation": "Polyploidy (having more than the normal two full sets of chromosomes) can immediately create reproductive isolation from the parent population, since offspring with a different chromosome number generally cannot successfully interbreed with it — this can occur suddenly, within the same geographic area (sympatric), rather than requiring gradual divergence via geographic separation (allopatric, as in option A or C). Option D describes a real sympatric mechanism, but one based on mate-choice behavior, not the chromosome-number change that defines polyploidy specifically."
+      "explanation": "Polyploidy (having more than the normal two full sets of chromosomes) can immediately create reproductive isolation from the parent population, since offspring with a different chromosome number generally cannot successfully interbreed with it — this can occur suddenly, within the same geographic area (sympatric), rather than requiring gradual divergence via geographic separation (allopatric, as in option B or D). Option A describes a real sympatric mechanism, but one based on mate-choice behavior, not the chromosome-number change that defines polyploidy specifically."
     },
     {
       "id": "7-25",
@@ -5633,12 +5633,12 @@ const QUESTIONS = {
       "stem": "Two bird species living in the same geographic area have evolved distinctly different courtship dance patterns, and females of each species only respond to their own species' specific dance pattern. This is an example of:",
       "choices": [
         "Habitat isolation (would involve occupying different physical spaces, not differing courtship behavior)",
-        "Reduced hybrid viability (a postzygotic barrier occurring after fertilization, not a barrier to mating itself)",
-        "Gametic isolation (a molecular incompatibility between sperm and egg, not a difference in courtship display)",
+        "Reduced hybrid viability",
+        "Gametic isolation",
         "Behavioral isolation"
       ],
       "correct": 3,
-      "explanation": "Behavioral isolation is a prezygotic barrier involving differences in courtship rituals, mating calls, or other behaviors that prevent successful mating between species, even when they share the same physical habitat — exactly the scenario described. Option A instead requires physically different habitats, not just different behaviors within a shared one. Options C and D both describe barriers that occur after mating or fertilization has been attempted, not a barrier that prevents mating attraction in the first place."
+      "explanation": "Behavioral isolation is a prezygotic barrier involving differences in courtship rituals, mating calls, or other behaviors that prevent successful mating between species, even when they share the same physical habitat — exactly the scenario described. Option A instead requires physically different habitats, not just different behaviors within a shared one. Options B and C both describe barriers that occur after mating or fertilization has been attempted, not a barrier that prevents mating attraction in the first place."
     },
     {
       "id": "7-26",
@@ -5648,10 +5648,10 @@ const QUESTIONS = {
         "Allopatric speciation only occurs in plants, though it occurs across many types of organisms — it's polyploidy, a sympatric mechanism, that's especially common in plants",
         "Allopatric speciation requires geographic separation; sympatric speciation occurs without geographic separation",
         "There is no meaningful difference between the two, though they differ specifically in whether geographic separation is involved",
-        "Sympatric speciation always occurs faster than allopatric speciation, though speed isn't actually the defining distinction between the two"
+        "Sympatric speciation always occurs faster than allopatric speciation"
       ],
       "correct": 1,
-      "explanation": "The core distinguishing feature is the presence or absence of geographic separation: allopatric speciation requires a physical geographic barrier preventing gene flow, while sympatric speciation occurs without such separation, through mechanisms like polyploidy, strong disruptive selection, or behavioral/temporal isolation within a shared area. Option B mistakenly treats speed as the defining difference. Option C reverses which type of speciation is especially associated with plants (that's sympatric speciation via polyploidy). Option D denies that any meaningful difference exists, which the geographic-separation criterion directly contradicts."
+      "explanation": "The core distinguishing feature is the presence or absence of geographic separation: allopatric speciation requires a physical geographic barrier preventing gene flow, while sympatric speciation occurs without such separation, through mechanisms like polyploidy, strong disruptive selection, or behavioral/temporal isolation within a shared area. Option D mistakenly treats speed as the defining difference. Option A reverses which type of speciation is especially associated with plants (that's sympatric speciation via polyploidy). Option C denies that any meaningful difference exists, which the geographic-separation criterion directly contradicts."
     },
     {
       "id": "7-27",
@@ -5664,7 +5664,7 @@ const QUESTIONS = {
         "Geographic separation is a MECHANISM that can lead to speciation by preventing gene flow, but speciation itself is not complete until true reproductive isolation has developed, even if the populations were later reunited"
       ],
       "correct": 3,
-      "explanation": "Geographic separation, in allopatric speciation, is the mechanism that stops gene flow and creates the OPPORTUNITY for independent divergence — but speciation itself isn't complete until genuine reproductive isolation has developed, meaning the populations could no longer successfully interbreed even if physically reunited. Option A wrongly treats separation alone as sufficient proof of separate species. Option C denies any relationship, when separation is precisely the allopatric mechanism. Option D wrongly compresses a typically multi-generational process into a single generation."
+      "explanation": "Geographic separation, in allopatric speciation, is the mechanism that stops gene flow and creates the OPPORTUNITY for independent divergence — but speciation itself isn't complete until genuine reproductive isolation has developed, meaning the populations could no longer successfully interbreed even if physically reunited. Option C wrongly treats separation alone as sufficient proof of separate species. Option B denies any relationship, when separation is precisely the allopatric mechanism. Option A wrongly compresses a typically multi-generational process into a single generation."
     },
     {
       "id": "7-28",
@@ -5677,7 +5677,7 @@ const QUESTIONS = {
         "The extinction of a species (a node marks a divergence event, not an extinction event)"
       ],
       "correct": 2,
-      "explanation": "Each node (branch point) on a phylogenetic tree represents a common ancestor shared by all the descendant lineages branching off from that specific point — the fundamental unit of information a phylogenetic tree conveys. Option A confuses a node with a population-size statistic, which trees don't depict. Option C wrongly treats node placement as arbitrary, when it's determined by actual evolutionary evidence. Option D confuses a divergence event (branching into new lineages) with an extinction event (a lineage ending)."
+      "explanation": "Each node (branch point) on a phylogenetic tree represents a common ancestor shared by all the descendant lineages branching off from that specific point — the fundamental unit of information a phylogenetic tree conveys. Option B confuses a node with a population-size statistic, which trees don't depict. Option A wrongly treats node placement as arbitrary, when it's determined by actual evolutionary evidence. Option D confuses a divergence event (branching into new lineages) with an extinction event (a lineage ending)."
     },
     {
       "id": "7-29",
@@ -5687,10 +5687,10 @@ const QUESTIONS = {
         "How recent their shared common ancestor (node) is",
         "The alphabetical order of their scientific names (an arbitrary naming convention with no evolutionary significance)",
         "Their left-to-right visual position on the page (branches can be rotated without changing the tree's meaning, so position alone means nothing)",
-        "How physically similar they look to each other (similarity can be misleading, since it may reflect convergent rather than shared evolution)"
+        "How physically similar they look to each other"
       ],
       "correct": 0,
-      "explanation": "Relatedness on a phylogenetic tree is determined specifically by the RECENCY of the shared common ancestor (node) — a more recent shared node indicates a closer relationship. Visual left-right position (A) is arbitrary, since branches can rotate freely around any node. Physical similarity (C) can be misleading when it results from convergent evolution rather than shared ancestry. Alphabetical order (D) is a naming convention entirely unrelated to biology."
+      "explanation": "Relatedness on a phylogenetic tree is determined specifically by the RECENCY of the shared common ancestor (node) — a more recent shared node indicates a closer relationship. Visual left-right position (C) is arbitrary, since branches can rotate freely around any node. Physical similarity (D) can be misleading when it results from convergent evolution rather than shared ancestry. Alphabetical order (B) is a naming convention entirely unrelated to biology."
     },
     {
       "id": "7-30",
@@ -5703,7 +5703,7 @@ const QUESTIONS = {
         "P and R, since their shared ancestor is older — but an older shared ancestor actually means MORE time has passed since divergence, indicating a more distant relationship"
       ],
       "correct": 2,
-      "explanation": "P and Q are more closely related, since they share a more RECENT common ancestor (2 million years ago) than P and R do (15 million years ago) — less evolutionary time has passed since P and Q diverged, indicating a closer relationship. Option B reverses this logic, treating an older shared ancestor as indicating closeness. Option C ignores the clearly different dates given. Option D wrongly claims the necessary information isn't present, when the two ancestor dates are exactly what's needed."
+      "explanation": "P and Q are more closely related, since they share a more RECENT common ancestor (2 million years ago) than P and R do (15 million years ago) — less evolutionary time has passed since P and Q diverged, indicating a closer relationship. Option D reverses this logic, treating an older shared ancestor as indicating closeness. Option A ignores the clearly different dates given. Option B wrongly claims the necessary information isn't present, when the two ancestor dates are exactly what's needed."
     },
     {
       "id": "7-31",
@@ -5716,7 +5716,7 @@ const QUESTIONS = {
         "DNA/protein sequence comparisons between species"
       ],
       "correct": 3,
-      "explanation": "Modern phylogenetic trees are commonly constructed using DNA and protein sequence comparisons between species, since the degree of sequence similarity or difference provides quantifiable data reflecting how much evolutionary time has likely passed since divergence — though morphological data is also used, particularly for extinct species known only from fossils. Option B overstates the reliability of body size alone, which can converge independently. Option C confuses current geography with evolutionary history. Option D denies that any real data underlies tree construction, which is false."
+      "explanation": "Modern phylogenetic trees are commonly constructed using DNA and protein sequence comparisons between species, since the degree of sequence similarity or difference provides quantifiable data reflecting how much evolutionary time has likely passed since divergence — though morphological data is also used, particularly for extinct species known only from fossils. Option B overstates the reliability of body size alone, which can converge independently. Option C confuses current geography with evolutionary history. Option A denies that any real data underlies tree construction, which is false."
     },
     {
       "id": "7-32",
@@ -5729,7 +5729,7 @@ const QUESTIONS = {
         "The conclusion is not necessarily well-supported; visual left-right adjacency on a tree diagram does not by itself indicate relatedness"
       ],
       "correct": 3,
-      "explanation": "This tests a common misconception directly: branches on a tree can be rotated around any node without changing the tree's actual meaning, so visual left-right adjacency is essentially arbitrary and doesn't reflect relatedness — only the actual branching pattern (which node species share, and how recent that node is) carries real evolutionary information. Option A endorses the misconception outright. Option C wrongly restricts the rotation principle to plants, when it applies universally. Option D overcorrects by claiming trees convey no relatedness information at all, when the branching structure itself very much does."
+      "explanation": "This tests a common misconception directly: branches on a tree can be rotated around any node without changing the tree's actual meaning, so visual left-right adjacency is essentially arbitrary and doesn't reflect relatedness — only the actual branching pattern (which node species share, and how recent that node is) carries real evolutionary information. Option B endorses the misconception outright. Option C wrongly restricts the rotation principle to plants, when it applies universally. Option A overcorrects by claiming trees convey no relatedness information at all, when the branching structure itself very much does."
     },
     {
       "id": "7-33",
@@ -5742,7 +5742,7 @@ const QUESTIONS = {
         "An analogous structure (analogous structures arise independently in unrelated lineages — this instead reflects reduced ancestral anatomy within our own lineage)"
       ],
       "correct": 0,
-      "explanation": "The human appendix is a classic example of a vestigial structure — a reduced remnant of a larger structure that served a more significant digestive function in ancestral species, now retaining only a fraction (or none) of its original function. Option A misapplies 'homologous,' a term about shared structural origin across different species, not a description of a single reduced remnant. Option B misapplies 'analogous,' which describes independently evolved similar-function structures in unrelated lineages, not this scenario. Option D is simply false, since the vestigial explanation IS the evolutionary explanation."
+      "explanation": "The human appendix is a classic example of a vestigial structure — a reduced remnant of a larger structure that served a more significant digestive function in ancestral species, now retaining only a fraction (or none) of its original function. Option B misapplies 'homologous,' a term about shared structural origin across different species, not a description of a single reduced remnant. Option D misapplies 'analogous,' which describes independently evolved similar-function structures in unrelated lineages, not this scenario. Option C is simply false, since the vestigial explanation IS the evolutionary explanation."
     },
     {
       "id": "7-34",
@@ -5755,7 +5755,7 @@ const QUESTIONS = {
         "An organism's size compared to other members of its species, which alone doesn't determine fitness unless it actually translates into greater reproductive success"
       ],
       "correct": 0,
-      "explanation": "In evolutionary biology, 'fitness' specifically refers to an organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation compared to other individuals — not simply physical traits like strength, speed, or size, or even lifespan considered in isolation from reproductive outcome. Options A, C, and D each describe a trait that might correlate with fitness in some cases, but none of them define fitness itself, which is fundamentally about reproductive contribution to the next generation."
+      "explanation": "In evolutionary biology, 'fitness' specifically refers to an organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation compared to other individuals — not simply physical traits like strength, speed, or size, or even lifespan considered in isolation from reproductive outcome. Options B, C, and D each describe a trait that might correlate with fitness in some cases, but none of them define fitness itself, which is fundamentally about reproductive contribution to the next generation."
     },
     {
       "id": "7-35",
@@ -5764,24 +5764,24 @@ const QUESTIONS = {
       "choices": [
         "0.16",
         "0.64 (would be p² only if p = 0.8, which would require q = 0.2, not the q = 0.6 found from q² = 0.36)",
-        "0.36 (this is q² itself, the value given in the problem — not yet converted to p²)",
-        "0.04 (equal to q² only if q were 0.2 — not the q value implied by this problem)"
+        "0.36",
+        "0.04"
       ],
       "correct": 0,
-      "explanation": "q² = 0.36, so q = √0.36 = 0.6, and p = 1 − 0.6 = 0.4. Therefore p² = 0.4² = 0.16. Choice C simply restates the given q² without converting it. Choice D would only be correct if p were 0.8 — mixing up p and q. Choice A doesn't correspond to any direct step in this calculation and reflects a basic arithmetic slip."
+      "explanation": "q² = 0.36, so q = √0.36 = 0.6, and p = 1 − 0.6 = 0.4. Therefore p² = 0.4² = 0.16. Choice C simply restates the given q² without converting it. Choice B would only be correct if p were 0.8 — mixing up p and q. Choice D doesn't correspond to any direct step in this calculation and reflects a basic arithmetic slip."
     },
     {
       "id": "7-36",
       "topic": "7.4 Speciation",
       "stem": "Two species of sea urchins release sperm and eggs into open water for external fertilization, but molecular incompatibilities between their gametes prevent successful fertilization from occurring even when sperm and egg meet. This is an example of:",
       "choices": [
-        "Behavioral isolation (involves differing courtship or mating behaviors, not molecular incompatibility between sperm and egg)",
+        "Behavioral isolation",
         "Habitat isolation (would mean the species live/breed in physically different places, not that their gametes fail to fuse chemically)",
-        "Reduced hybrid viability (a postzygotic barrier occurring after fertilization — but here, fertilization never successfully occurs at all)",
+        "Reduced hybrid viability",
         "Gametic isolation"
       ],
       "correct": 3,
-      "explanation": "Gametic isolation is a prezygotic barrier involving molecular or chemical incompatibilities between sperm and egg that prevent fertilization from occurring successfully, even when gametes from two species do come into physical contact — exactly the scenario described. Option A would require physically separate habitats, not chemical incompatibility. Option C describes a barrier that occurs after fertilization succeeds, but fertilization never succeeds here. Option D concerns courtship behavior, not gamete chemistry."
+      "explanation": "Gametic isolation is a prezygotic barrier involving molecular or chemical incompatibilities between sperm and egg that prevent fertilization from occurring successfully, even when gametes from two species do come into physical contact — exactly the scenario described. Option B would require physically separate habitats, not chemical incompatibility. Option C describes a barrier that occurs after fertilization succeeds, but fertilization never succeeds here. Option A concerns courtship behavior, not gamete chemistry."
     },
     {
       "id": "7-37",
@@ -5790,11 +5790,11 @@ const QUESTIONS = {
       "choices": [
         "Both species happen to be similar in overall body size, which can converge independently and is a weak, potentially misleading indicator",
         "Both species were discovered in the same calendar year, a historical coincidence with no bearing on evolutionary relationships",
-        "Both species live on the same continent, though shared geography doesn't by itself indicate genetic relatedness",
+        "Both species live on the same continent",
         "Both species have very similar DNA sequences for multiple genes, and share a recent common ancestor on a phylogenetic tree constructed from that data"
       ],
       "correct": 3,
-      "explanation": "High DNA sequence similarity across multiple genes, combined with a recent shared common ancestor on a properly constructed phylogenetic tree, together represent strong, converging molecular and analytical evidence of close relatedness — much stronger than superficial factors like shared geography (A), similar body size (C), or coincidental discovery timing (D), none of which directly indicate evolutionary relatedness."
+      "explanation": "High DNA sequence similarity across multiple genes, combined with a recent shared common ancestor on a properly constructed phylogenetic tree, together represent strong, converging molecular and analytical evidence of close relatedness — much stronger than superficial factors like shared geography (C), similar body size (A), or coincidental discovery timing (B), none of which directly indicate evolutionary relatedness."
     },
     {
       "id": "7-38",
@@ -5804,10 +5804,10 @@ const QUESTIONS = {
         "A fossil showing no relationship to any other known species, though a transitional fossil's significance comes precisely from showing clear relationships to both an ancestral and a derived group",
         "A fossil showing a combination of characteristics intermediate between an ancestral group and a more derived (modern) group, such as fossils showing features intermediate between fish and early tetrapods",
         "A fossil of a modern human, who isn't a transitional form between an older and newer group but a currently living endpoint",
-        "A fossil that is chemically identical to a living organism today, though chemical identity isn't what defines a transitional form — intermediate anatomical features are"
+        "A fossil that is chemically identical to a living organism today"
       ],
       "correct": 1,
-      "explanation": "Transitional fossils show a combination of characteristics intermediate between an ancestral group and a more derived group, documenting gradual evolutionary change — fossils showing features intermediate between fish and early tetrapods (four-limbed land vertebrates) are a well-known example. Option B misidentifies a modern endpoint species as transitional. Option C gets the concept backwards, since showing relationships to both groups is exactly what makes a fossil transitional. Option D substitutes an irrelevant criterion (chemical identity) for the actual defining feature (intermediate anatomy)."
+      "explanation": "Transitional fossils show a combination of characteristics intermediate between an ancestral group and a more derived group, documenting gradual evolutionary change — fossils showing features intermediate between fish and early tetrapods (four-limbed land vertebrates) are a well-known example. Option C misidentifies a modern endpoint species as transitional. Option A gets the concept backwards, since showing relationships to both groups is exactly what makes a fossil transitional. Option D substitutes an irrelevant criterion (chemical identity) for the actual defining feature (intermediate anatomy)."
     },
     {
       "id": "7-39",
@@ -5820,7 +5820,7 @@ const QUESTIONS = {
         "A population of birds where both very small-beaked and very large-beaked individuals have a feeding advantage over intermediate-beaked individuals, due to two distinct available food sources"
       ],
       "correct": 3,
-      "explanation": "Disruptive selection is specifically characterized by BOTH extreme phenotypes being favored over the intermediate — a population where two distinct food sources favor both very small and very large beaks (each specialized for a different food source), while intermediate beaks are disadvantaged at both, is a textbook disruptive selection scenario. Option A instead favors the intermediate (stabilizing selection). Option C favors only one extreme (directional selection). Option D describes a population with no variation, meaning no selection pattern could act at all."
+      "explanation": "Disruptive selection is specifically characterized by BOTH extreme phenotypes being favored over the intermediate — a population where two distinct food sources favor both very small and very large beaks (each specialized for a different food source), while intermediate beaks are disadvantaged at both, is a textbook disruptive selection scenario. Option A instead favors the intermediate (stabilizing selection). Option B favors only one extreme (directional selection). Option C describes a population with no variation, meaning no selection pattern could act at all."
     },
     {
       "id": "7-40",
@@ -5833,7 +5833,7 @@ const QUESTIONS = {
         "A very large population size, which satisfies a different HW condition — avoiding genetic drift — and has no bearing on random mating"
       ],
       "correct": 2,
-      "explanation": "Assortative mating — individuals preferentially choosing mates based on similarity for a particular trait, rather than mating completely at random with respect to that trait — directly violates the random mating condition, and can shift genotype frequencies away from Hardy-Weinberg predictions, even without changing overall allele frequencies. Option A actually describes the condition being met, not violated. Options C and D each describe a different, unrelated HW condition (population size and mutation, respectively) being satisfied."
+      "explanation": "Assortative mating — individuals preferentially choosing mates based on similarity for a particular trait, rather than mating completely at random with respect to that trait — directly violates the random mating condition, and can shift genotype frequencies away from Hardy-Weinberg predictions, even without changing overall allele frequencies. Option B actually describes the condition being met, not violated. Options A and D each describe a different, unrelated HW condition (population size and mutation, respectively) being satisfied."
     },
     {
       "id": "7-41",
@@ -5841,12 +5841,12 @@ const QUESTIONS = {
       "stem": "Which of the following best explains why postzygotic barriers, despite occurring after fertilization has already taken place, still contribute meaningfully to reproductive isolation between species?",
       "choices": [
         "By reducing hybrid viability or fertility, postzygotic barriers reduce or eliminate the successful transmission of mixed genetic material into future generations, effectively preventing sustained gene flow between the two parent species",
-        "Postzygotic barriers always occur before any mating attempt, though by definition 'postzygotic' means AFTER fertilization, not before mating",
+        "Postzygotic barriers always occur before any mating attempt",
         "Postzygotic barriers only matter for plant species, though examples like reduced hybrid fertility in mules are well documented across animal species too",
         "Postzygotic barriers have no actual effect on reproductive isolation, though they do — by blocking successful transmission of hybrid genes into future generations"
       ],
       "correct": 0,
-      "explanation": "Even when mating and fertilization successfully occur, if the resulting hybrid offspring have reduced viability or reduced fertility (like mules), this effectively prevents sustained gene flow between the two parent populations across generations — achieving functional reproductive isolation through a mechanism that operates after fertilization rather than preventing it. Option A denies this effect exists, which contradicts the mechanism just described. Option C wrongly limits the concept to plants. Option D directly contradicts the term 'postzygotic,' which specifically means after the zygote (fertilized egg) forms."
+      "explanation": "Even when mating and fertilization successfully occur, if the resulting hybrid offspring have reduced viability or reduced fertility (like mules), this effectively prevents sustained gene flow between the two parent populations across generations — achieving functional reproductive isolation through a mechanism that operates after fertilization rather than preventing it. Option D denies this effect exists, which contradicts the mechanism just described. Option C wrongly limits the concept to plants. Option B directly contradicts the term 'postzygotic,' which specifically means after the zygote (fertilized egg) forms."
     },
     {
       "id": "7-42",
@@ -5855,11 +5855,11 @@ const QUESTIONS = {
       "choices": [
         "Phylogenetic trees only apply to extinct species, though trees commonly include living species as well, often alongside extinct ones known from fossils",
         "Phylogenetic trees represent hypotheses about evolutionary relationships based on available evidence, and can be revised as new data (such as additional molecular sequence data) becomes available",
-        "Phylogenetic trees are constructed entirely at random with no underlying data, though they're actually built from real morphological and/or molecular evidence",
+        "Phylogenetic trees are constructed entirely at random with no underlying data",
         "Once constructed, a phylogenetic tree can never be revised or updated, though like any scientific hypothesis, trees are regularly revised as new evidence emerges"
       ],
       "correct": 1,
-      "explanation": "Phylogenetic trees represent scientific hypotheses about evolutionary relationships, constructed from the best available evidence at the time — like any scientific hypothesis, they can be revised as new evidence becomes available, such as additional DNA sequence data providing more accurate relatedness information. Option A falsely claims no real data underlies tree construction. Option C falsely claims trees are permanently fixed once made. Option D falsely restricts trees to extinct species only, when living species are commonly included too."
+      "explanation": "Phylogenetic trees represent scientific hypotheses about evolutionary relationships, constructed from the best available evidence at the time — like any scientific hypothesis, they can be revised as new evidence becomes available, such as additional DNA sequence data providing more accurate relatedness information. Option C falsely claims no real data underlies tree construction. Option D falsely claims trees are permanently fixed once made. Option A falsely restricts trees to extinct species only, when living species are commonly included too."
     },
     {
       "id": "7-43",
@@ -5867,25 +5867,25 @@ const QUESTIONS = {
       "stem": "Which best explains why the nearly universal genetic code (covered in Unit 6) is also considered evidence for evolution?",
       "choices": [
         "It only applies to organisms discovered after 2000, though the code's universality applies across all studied life regardless of discovery date",
-        "It has no relationship to evolutionary evidence, though the near-universal, arbitrary nature of the code is actually significant molecular evidence",
-        "It proves that evolution does not occur, when this evidence actually supports, rather than contradicts, shared common ancestry and evolution",
+        "It has no relationship to evolutionary evidence",
+        "It proves that evolution does not occur",
         "The fact that nearly all known organisms share the same arbitrary codon-to-amino-acid assignments strongly suggests this code originated once, in a shared common ancestor, rather than arising independently and identically multiple times"
       ],
       "correct": 3,
-      "explanation": "Since the specific codon-to-amino-acid assignments in the genetic code are essentially chemically arbitrary, finding the same arbitrary assignments shared across nearly all known life is strong evidence that this code was established once in a shared common ancestor and conserved ever since, rather than arising independently multiple times — a form of molecular evidence for shared common ancestry. Option A dismisses this connection despite it being a genuine piece of evidence. Option C draws the opposite conclusion from what the evidence supports. Option D invents an arbitrary date restriction with no basis."
+      "explanation": "Since the specific codon-to-amino-acid assignments in the genetic code are essentially chemically arbitrary, finding the same arbitrary assignments shared across nearly all known life is strong evidence that this code was established once in a shared common ancestor and conserved ever since, rather than arising independently multiple times — a form of molecular evidence for shared common ancestry. Option B dismisses this connection despite it being a genuine piece of evidence. Option C draws the opposite conclusion from what the evidence supports. Option A invents an arbitrary date restriction with no basis."
     },
     {
       "id": "7-44",
       "topic": "7.2 Mechanisms of Natural Selection",
       "stem": "Sexual selection, a specific form of natural selection related to mate choice, can sometimes favor traits that appear to reduce an individual's direct survival (such as elaborate, conspicuous plumage that could attract predators). Which best explains why such traits can still be favored by selection overall?",
       "choices": [
-        "Sexual selection only operates in plants, though it is classically documented in animals — like elaborate bird plumage — rather than being plant-exclusive",
+        "Sexual selection only operates in plants",
         "Sexual selection has no relationship to natural selection at all, though it's explicitly described here as a specific form of natural selection related to mate choice",
         "If the reproductive advantage gained from increased mating success (due to the trait being attractive to potential mates) outweighs the survival cost of the trait, the trait can still increase overall fitness and be favored by selection",
-        "Traits that reduce survival can never be favored under any circumstances, though fitness depends on net reproductive outcome, not survival alone"
+        "Traits that reduce survival can never be favored under any circumstances"
       ],
       "correct": 2,
-      "explanation": "Since fitness is fundamentally about REPRODUCTIVE success, not survival alone, a trait that slightly reduces survival but substantially increases mating success (and therefore reproductive output) can still result in a net fitness advantage — this is exactly the logic behind sexual selection favoring conspicuous or costly traits that might otherwise seem to work against straightforward survival-based selection. Option A contradicts the stem's own framing of sexual selection as a form of natural selection. Option C wrongly treats survival cost as an absolute veto, ignoring net fitness. Option D misapplies the concept to plants when the classic examples (like plumage) are animal-based."
+      "explanation": "Since fitness is fundamentally about REPRODUCTIVE success, not survival alone, a trait that slightly reduces survival but substantially increases mating success (and therefore reproductive output) can still result in a net fitness advantage — this is exactly the logic behind sexual selection favoring conspicuous or costly traits that might otherwise seem to work against straightforward survival-based selection. Option B contradicts the stem's own framing of sexual selection as a form of natural selection. Option D wrongly treats survival cost as an absolute veto, ignoring net fitness. Option A misapplies the concept to plants when the classic examples (like plumage) are animal-based."
     },
     {
       "id": "7-45",
@@ -5898,7 +5898,7 @@ const QUESTIONS = {
         "A very large, effectively infinite population size, which satisfies the 'no genetic drift' condition and has no direct effect on heterozygosity via mate choice"
       ],
       "correct": 1,
-      "explanation": "Disassortative mating — individuals preferring mates with a phenotype different from their own — can produce more heterozygous offspring than random mating would predict, since it systematically pairs individuals with different underlying genotypes together more often than chance alone would, violating the random-mating condition. Option A describes the baseline condition that would produce the standard HW prediction, not a deviation from it. Options C and D each describe a different HW condition (population size, absence of selection) that doesn't specifically explain excess heterozygosity."
+      "explanation": "Disassortative mating — individuals preferring mates with a phenotype different from their own — can produce more heterozygous offspring than random mating would predict, since it systematically pairs individuals with different underlying genotypes together more often than chance alone would, violating the random-mating condition. Option C describes the baseline condition that would produce the standard HW prediction, not a deviation from it. Options A and D each describe a different HW condition (population size, absence of selection) that doesn't specifically explain excess heterozygosity."
     },
     {
       "id": "7-46",
@@ -5906,12 +5906,12 @@ const QUESTIONS = {
       "stem": "Which of the following would most directly support the conclusion that speciation between two previously connected populations is now complete (not just in progress)?",
       "choices": [
         "Individuals from the two populations, when brought back into contact, either cannot successfully mate, or their offspring have significantly reduced viability or fertility, demonstrating genuine reproductive isolation",
-        "The two populations have identical geographic ranges, though identical range doesn't demonstrate reproductive isolation one way or the other",
+        "The two populations have identical geographic ranges",
         "The two populations remain in the same geographic location, though shared location alone says nothing about whether reproductive isolation has developed",
         "The two populations show no genetic differences whatsoever, which would actually argue against completed speciation, not support it"
       ],
       "correct": 0,
-      "explanation": "The defining test for whether speciation is truly complete is genuine reproductive isolation — demonstrating that the two populations can no longer successfully interbreed and produce viable, fertile offspring, even when brought back into direct contact — rather than observing genetic differences or geographic patterns alone. Option A and D both point to geographic facts that don't test reproductive compatibility. Option C's premise (no genetic differences) would actually undercut, rather than support, a claim of completed speciation."
+      "explanation": "The defining test for whether speciation is truly complete is genuine reproductive isolation — demonstrating that the two populations can no longer successfully interbreed and produce viable, fertile offspring, even when brought back into direct contact — rather than observing genetic differences or geographic patterns alone. Option B and C both point to geographic facts that don't test reproductive compatibility. Option D's premise (no genetic differences) would actually undercut, rather than support, a claim of completed speciation."
     },
     {
       "id": "7-47",
@@ -5924,7 +5924,7 @@ const QUESTIONS = {
         "This scenario is biologically impossible, though convergent evolution producing misleadingly similar traits in unrelated lineages is a well-documented, common phenomenon"
       ],
       "correct": 1,
-      "explanation": "This scenario directly illustrates why relying on physical similarity ALONE can be misleading (connecting back to the homologous/analogous distinction in Section 7.1) — molecular evidence, showing the two species are not actually closely related despite their superficial similarity, strongly suggests the trait evolved independently in each lineage (convergent evolution), making it analogous rather than homologous. Option A misapplies 'homologous' despite the molecular evidence contradicting shared ancestry. Option C draws the opposite conclusion from what this scenario demonstrates. Option D denies a well-documented biological phenomenon."
+      "explanation": "This scenario directly illustrates why relying on physical similarity ALONE can be misleading (connecting back to the homologous/analogous distinction in Section 7.1) — molecular evidence, showing the two species are not actually closely related despite their superficial similarity, strongly suggests the trait evolved independently in each lineage (convergent evolution), making it analogous rather than homologous. Option C misapplies 'homologous' despite the molecular evidence contradicting shared ancestry. Option A draws the opposite conclusion from what this scenario demonstrates. Option D denies a well-documented biological phenomenon."
     },
     {
       "id": "7-48",
@@ -5937,7 +5937,7 @@ const QUESTIONS = {
         "Natural selection only occurs in artificial (laboratory) settings, which reverses the terms: natural selection occurs in nature, while artificial selection is the human-directed process"
       ],
       "correct": 1,
-      "explanation": "Artificial selection involves humans deliberately selecting which individuals reproduce based on desired traits (as in selective breeding of crops or livestock), while natural selection is an unguided process resulting from differential survival and reproduction driven by the natural environment — both share the same fundamental mechanism (differential reproductive success), but differ in what's driving the selection pressure. Option B denies any meaningful difference despite the clear distinction in what drives each process. Option C reverses the terms entirely. Option D contradicts well-documented results of artificial selection, like modern crop varieties and dog breeds."
+      "explanation": "Artificial selection involves humans deliberately selecting which individuals reproduce based on desired traits (as in selective breeding of crops or livestock), while natural selection is an unguided process resulting from differential survival and reproduction driven by the natural environment — both share the same fundamental mechanism (differential reproductive success), but differ in what's driving the selection pressure. Option A denies any meaningful difference despite the clear distinction in what drives each process. Option D reverses the terms entirely. Option C contradicts well-documented results of artificial selection, like modern crop varieties and dog breeds."
     },
     {
       "id": "7-49",
@@ -5946,11 +5946,11 @@ const QUESTIONS = {
       "choices": [
         "Genetic drift, specifically a bottleneck effect",
         "Natural selection, which acts based on whether alleles are advantageous or disadvantageous — but this scenario is explicitly independent of that",
-        "Hardy-Weinberg equilibrium, though this scenario describes a violation of HW conditions via a sudden population-size event, not a state of equilibrium",
+        "Hardy-Weinberg equilibrium",
         "Gene flow, which involves the movement of alleles between populations via migration, not a random reduction in population size"
       ],
       "correct": 0,
-      "explanation": "Genetic drift refers to random, chance-driven changes in allele frequency, particularly pronounced in small populations. A bottleneck effect specifically describes a dramatic, sudden reduction in population size (often due to a random event like a natural disaster) that can randomly and substantially shift allele frequencies in survivors, independent of whether the affected alleles were adaptive. Option A wrongly invokes selection, which requires the shift to depend on advantage/disadvantage — explicitly not the case here. Option C describes a different process (migration between populations). Option D confuses a violation of HW conditions with the equilibrium state itself."
+      "explanation": "Genetic drift refers to random, chance-driven changes in allele frequency, particularly pronounced in small populations. A bottleneck effect specifically describes a dramatic, sudden reduction in population size (often due to a random event like a natural disaster) that can randomly and substantially shift allele frequencies in survivors, independent of whether the affected alleles were adaptive. Option B wrongly invokes selection, which requires the shift to depend on advantage/disadvantage — explicitly not the case here. Option D describes a different process (migration between populations). Option C confuses a violation of HW conditions with the equilibrium state itself."
     },
     {
       "id": "7-50",
@@ -5970,13 +5970,13 @@ const QUESTIONS = {
       "topic": "7.5 Phylogeny",
       "stem": "Which of the following best describes the concept of a 'most recent common ancestor' (MRCA) for a given pair of species on a phylogenetic tree?",
       "choices": [
-        "A random, currently-living individual selected arbitrarily, though the MRCA is a specific ancestral population defined by the tree's structure, not an arbitrary living individual",
+        "A random, currently-living individual selected arbitrarily",
         "The single ancestral organism/population represented by the node where the two species' lineages most recently diverged from each other",
         "A concept with no meaningful biological definition, though the MRCA has a precise, well-defined meaning tied to a specific node on the tree",
-        "The species that appears highest on the tree diagram, though vertical or top position on a tree carries no special meaning about ancestry"
+        "The species that appears highest on the tree diagram"
       ],
       "correct": 1,
-      "explanation": "The most recent common ancestor (MRCA) for a given pair of species refers specifically to the ancestral population or organism represented by the node at which their two lineages most recently diverged — the specific point of shared ancestry that determines how closely related the species are considered to be. Option B wrongly substitutes an arbitrary living individual for a defined ancestral node. Option C wrongly attaches meaning to vertical tree position, which carries none. Option D denies the concept has meaning despite its precise definition."
+      "explanation": "The most recent common ancestor (MRCA) for a given pair of species refers specifically to the ancestral population or organism represented by the node at which their two lineages most recently diverged — the specific point of shared ancestry that determines how closely related the species are considered to be. Option A wrongly substitutes an arbitrary living individual for a defined ancestral node. Option D wrongly attaches meaning to vertical tree position, which carries none. Option C denies the concept has meaning despite its precise definition."
     },
     {
       "id": "7-52",
@@ -5984,12 +5984,12 @@ const QUESTIONS = {
       "stem": "Which of the following best describes how the fossil record, while providing strong evidence for evolution, is nonetheless considered an incomplete record of evolutionary history?",
       "choices": [
         "Fossilization is a relatively rare process requiring specific conditions, so many organisms (particularly soft-bodied ones, or those in environments unfavorable to fossil preservation) are underrepresented or entirely missing from the fossil record",
-        "The fossil record perfectly documents every single organism that has ever lived, though the rarity of fossilization conditions actually means large portions of past life are missing from the record",
-        "The fossil record contains no useful information about evolution at all, though it provides substantial, well-documented evidence — it's simply incomplete, not useless",
-        "Only modern organisms can be studied through the fossil record, though the fossil record specifically documents past, often extinct, organisms — not primarily modern ones"
+        "The fossil record perfectly documents every single organism that has ever lived",
+        "The fossil record contains no useful information about evolution at all",
+        "Only modern organisms can be studied through the fossil record"
       ],
       "correct": 0,
-      "explanation": "Fossilization requires specific, relatively rare conditions (rapid burial, particular environmental chemistry, and more) to occur, meaning many organisms — especially soft-bodied ones lacking hard structures like bone or shell, or those in environments unfavorable to preservation — are underrepresented or entirely absent from the fossil record. Option A overstates the record's completeness. Option C wrongly dismisses the record's value entirely rather than acknowledging it as valuable-but-incomplete. Option D reverses which organisms the fossil record primarily documents (past, not modern, ones)."
+      "explanation": "Fossilization requires specific, relatively rare conditions (rapid burial, particular environmental chemistry, and more) to occur, meaning many organisms — especially soft-bodied ones lacking hard structures like bone or shell, or those in environments unfavorable to preservation — are underrepresented or entirely absent from the fossil record. Option B overstates the record's completeness. Option C wrongly dismisses the record's value entirely rather than acknowledging it as valuable-but-incomplete. Option D reverses which organisms the fossil record primarily documents (past, not modern, ones)."
     },
     {
       "id": "7-53",
@@ -5997,12 +5997,12 @@ const QUESTIONS = {
       "stem": "Which of the following best describes co-evolution?",
       "choices": [
         "A process that only occurs in extinct organisms, though co-evolution is actively documented and studied in living species today, such as ongoing predator-prey arms races",
-        "A synonym for genetic drift, though drift is a random process unrelated to species influencing each other's evolution",
-        "A single species evolving entirely independently of any other species, though co-evolution specifically requires reciprocal influence BETWEEN species, not isolated evolution",
+        "A synonym for genetic drift",
+        "A single species evolving entirely independently of any other species",
         "The process by which two or more species reciprocally influence each other's evolution over time, often through close ecological interactions such as predator-prey or plant-pollinator relationships"
       ],
       "correct": 3,
-      "explanation": "Co-evolution describes a process in which two or more species exert reciprocal evolutionary pressure on each other over time, often through close, ongoing ecological relationships (like a predator and its prey, or a flowering plant and its specific pollinator), each adapting in response to changes in the other. Option B describes isolated, single-species evolution, the opposite of the reciprocal relationship co-evolution requires. Option C wrongly restricts the concept to extinct organisms, when it's actively studied in living systems. Option D conflates co-evolution with an unrelated random process (drift)."
+      "explanation": "Co-evolution describes a process in which two or more species exert reciprocal evolutionary pressure on each other over time, often through close, ongoing ecological relationships (like a predator and its prey, or a flowering plant and its specific pollinator), each adapting in response to changes in the other. Option C describes isolated, single-species evolution, the opposite of the reciprocal relationship co-evolution requires. Option A wrongly restricts the concept to extinct organisms, when it's actively studied in living systems. Option B conflates co-evolution with an unrelated random process (drift)."
     },
     {
       "id": "7-54",
@@ -6015,20 +6015,20 @@ const QUESTIONS = {
         "A population that is completely isolated with no immigration or emigration, which actually satisfies the 'no gene flow' condition rather than violating it"
       ],
       "correct": 1,
-      "explanation": "Gene flow specifically refers to the movement of alleles between populations, typically via migration and interbreeding — new individuals regularly migrating into a population and interbreeding would directly violate the 'no gene flow' condition, potentially introducing new alleles or shifting allele frequencies away from Hardy-Weinberg predictions. Option A describes the condition being satisfied, not violated. Options C and D each describe a different HW condition (mutation, random mating) being met, unrelated to migration."
+      "explanation": "Gene flow specifically refers to the movement of alleles between populations, typically via migration and interbreeding — new individuals regularly migrating into a population and interbreeding would directly violate the 'no gene flow' condition, potentially introducing new alleles or shifting allele frequencies away from Hardy-Weinberg predictions. Option D describes the condition being satisfied, not violated. Options A and C each describe a different HW condition (mutation, random mating) being met, unrelated to migration."
     },
     {
       "id": "7-55",
       "topic": "7.4 Speciation",
       "stem": "Which of the following would provide the strongest evidence that two populations, previously part of the same species, have now completed the process of allopatric speciation?",
       "choices": [
-        "The two populations have never been tested for interbreeding compatibility, though without any such test, completed speciation can't actually be confirmed",
+        "The two populations have never been tested for interbreeding compatibility",
         "When the geographic barrier is naturally removed (or individuals are experimentally reunited), the two populations are unable to successfully interbreed and produce viable, fertile offspring",
         "The two populations show identical physical appearances, though physical similarity says nothing directly about reproductive compatibility",
-        "The two populations remain geographically separated by the original barrier, though continued separation alone doesn't demonstrate that true reproductive isolation has developed"
+        "The two populations remain geographically separated by the original barrier"
       ],
       "correct": 1,
-      "explanation": "The definitive test for completed speciation is demonstrating genuine reproductive isolation — that when given the opportunity to interbreed (whether through natural removal of the original barrier or experimental reunion), the two populations can no longer successfully produce viable, fertile offspring. Option A only shows separation is ongoing, not that isolation has been tested. Option C substitutes appearance for actual reproductive compatibility. Option D describes the absence of the very test needed to confirm completed speciation."
+      "explanation": "The definitive test for completed speciation is demonstrating genuine reproductive isolation — that when given the opportunity to interbreed (whether through natural removal of the original barrier or experimental reunion), the two populations can no longer successfully produce viable, fertile offspring. Option D only shows separation is ongoing, not that isolation has been tested. Option C substitutes appearance for actual reproductive compatibility. Option A describes the absence of the very test needed to confirm completed speciation."
     },
     {
       "id": "7-56",
@@ -6036,12 +6036,12 @@ const QUESTIONS = {
       "stem": "Which of the following would be considered a 'derived' (more recently evolved) characteristic when constructing a phylogenetic tree, as opposed to an 'ancestral' characteristic?",
       "choices": [
         "A characteristic present in the group's most distant common ancestor and shared by essentially all members of the group, which actually describes an ANCESTRAL characteristic, not a derived one",
-        "A characteristic found equally in all living organisms without exception, though a derived trait is specific to a particular lineage, not universally shared across all life",
+        "A characteristic found equally in all living organisms without exception",
         "A characteristic with no evolutionary origin, though every characteristic discussed in phylogenetics is understood to have some evolutionary origin",
         "A characteristic that evolved more recently within a specific lineage, present only in that lineage and its descendants, not in the broader ancestral group"
       ],
       "correct": 3,
-      "explanation": "A derived characteristic is one that evolved more recently within a specific lineage after it diverged from the broader ancestral group, and is therefore found only in that lineage and its descendants — distinct from an ancestral characteristic, which was present in a more distant common ancestor and shared much more broadly. Option A describes the ancestral pattern, the opposite of what's asked. Option C denies characteristics have any evolutionary origin, which is false. Option D wrongly claims universal sharing, when derived traits are lineage-specific by definition."
+      "explanation": "A derived characteristic is one that evolved more recently within a specific lineage after it diverged from the broader ancestral group, and is therefore found only in that lineage and its descendants — distinct from an ancestral characteristic, which was present in a more distant common ancestor and shared much more broadly. Option A describes the ancestral pattern, the opposite of what's asked. Option C denies characteristics have any evolutionary origin, which is false. Option B wrongly claims universal sharing, when derived traits are lineage-specific by definition."
     },
     {
       "id": "7-57",
@@ -6054,7 +6054,7 @@ const QUESTIONS = {
         "Measuring only the external color of the structures, which has no bearing on distinguishing shared structural origin from independent evolution"
       ],
       "correct": 0,
-      "explanation": "Distinguishing homologous from analogous structures scientifically requires looking beyond superficial external similarity to examine the underlying anatomical or developmental origin of the structures being compared — structures sharing a common underlying origin (even if now serving different functions) are homologous, while structures that merely look or function similarly from unrelated origins are analogous. Option A relies on exactly the superficial observation that's insufficient. Option C substitutes an irrelevant trait (color). Option D describes the very assumption that leads to misclassifying analogous structures, as seen in question 7-47."
+      "explanation": "Distinguishing homologous from analogous structures scientifically requires looking beyond superficial external similarity to examine the underlying anatomical or developmental origin of the structures being compared — structures sharing a common underlying origin (even if now serving different functions) are homologous, while structures that merely look or function similarly from unrelated origins are analogous. Option B relies on exactly the superficial observation that's insufficient. Option D substitutes an irrelevant trait (color). Option C describes the very assumption that leads to misclassifying analogous structures, as seen in question 7-47."
     },
     {
       "id": "7-58",
@@ -6063,37 +6063,37 @@ const QUESTIONS = {
       "choices": [
         "All bacteria automatically become resistant regardless of genetics, though only bacteria carrying the resistance mutation survive and reproduce — susceptible bacteria are killed",
         "Heritable variation in resistance already exists within a bacterial population (due to naturally occurring mutations); antibiotic exposure kills susceptible bacteria while resistant bacteria survive and reproduce, increasing the resistant allele's frequency in the surviving population over successive generations",
-        "Antibiotic resistance has no genetic basis, though resistance is heritable and traceable to specific genetic mutations, which is precisely why it can be selected for",
-        "Bacteria intentionally develop resistance to survive antibiotic treatment, though resistance actually arises from pre-existing random mutation, not a deliberate response to antibiotics"
+        "Antibiotic resistance has no genetic basis",
+        "Bacteria intentionally develop resistance to survive antibiotic treatment"
       ],
       "correct": 1,
-      "explanation": "Antibiotic resistance evolution follows the classic natural selection pattern: heritable variation in resistance already exists within a bacterial population before antibiotic exposure (due to naturally occurring mutations, not a deliberate response), and antibiotic exposure then acts as a strong selective pressure — killing susceptible bacteria while resistant individuals survive and reproduce, increasing the resistance allele's frequency over subsequent generations. Option A wrongly implies intentional, directed development. Option C denies the well-established genetic basis of resistance. Option D wrongly claims universal resistance regardless of genotype, when only resistant individuals actually survive."
+      "explanation": "Antibiotic resistance evolution follows the classic natural selection pattern: heritable variation in resistance already exists within a bacterial population before antibiotic exposure (due to naturally occurring mutations, not a deliberate response), and antibiotic exposure then acts as a strong selective pressure — killing susceptible bacteria while resistant individuals survive and reproduce, increasing the resistance allele's frequency over subsequent generations. Option D wrongly implies intentional, directed development. Option C denies the well-established genetic basis of resistance. Option A wrongly claims universal resistance regardless of genotype, when only resistant individuals actually survive."
     },
     {
       "id": "7-59",
       "topic": "7.3 Population Genetics",
       "stem": "A population has a recessive allele frequency of q = 0.1. What percentage of the population is expected to be heterozygous carriers of this recessive allele, without showing the recessive phenotype themselves?",
       "choices": [
-        "81% (equal to p², the homozygous dominant frequency: 0.9² = 0.81)",
-        "1% (equal to q², the homozygous recessive frequency: 0.1² = 0.01)",
+        "81%",
+        "1%",
         "10% (this simply restates q itself, the allele frequency, rather than computing the heterozygous genotype frequency)",
         "18%"
       ],
       "correct": 3,
-      "explanation": "With q = 0.1, p = 1 − 0.1 = 0.9, so heterozygous frequency = 2pq = 2 × 0.9 × 0.1 = 0.18, or 18%. Choice A (1%) is q² (0.1²), the homozygous recessive frequency — the affected group, not the carriers. Choice D (81%) is p² (0.9²), the homozygous dominant frequency. Choice B (10%) just restates q, the allele frequency, without applying the 2pq genotype formula at all."
+      "explanation": "With q = 0.1, p = 1 − 0.1 = 0.9, so heterozygous frequency = 2pq = 2 × 0.9 × 0.1 = 0.18, or 18%. Choice B (1%) is q² (0.1²), the homozygous recessive frequency — the affected group, not the carriers. Choice A (81%) is p² (0.9²), the homozygous dominant frequency. Choice C (10%) just restates q, the allele frequency, without applying the 2pq genotype formula at all."
     },
     {
       "id": "7-60",
       "topic": "7.4 Speciation",
       "stem": "Which of the following would be the best description of the overall relationship between reproductive isolation and the biological species concept?",
       "choices": [
-        "Reproductive isolation is only relevant to plant species, though it applies broadly across sexually reproducing organisms, not just plants",
+        "Reproductive isolation is only relevant to plant species",
         "All organisms belong to the same species regardless of interbreeding ability, though interbreeding compatibility is exactly the defining criterion this concept uses to distinguish species",
         "The biological species concept has no relationship to reproductive isolation, though reproductive isolation is precisely the central criterion this concept is built around",
         "The biological species concept defines a species as a group of organisms capable of interbreeding and producing viable, fertile offspring under natural conditions; reproductive isolation from other such groups is therefore the key criterion distinguishing separate species under this definition"
       ],
       "correct": 3,
-      "explanation": "The biological species concept specifically defines a species based on the ability to interbreed and produce viable, fertile offspring under natural conditions — reproductive isolation from other groups (via prezygotic or postzygotic barriers) is therefore the central criterion used to determine whether two populations should be considered separate species. Option B denies the exact relationship the concept is defined by. Option C wrongly collapses all organisms into one species regardless of interbreeding. Option D wrongly restricts the concept to plants alone."
+      "explanation": "The biological species concept specifically defines a species based on the ability to interbreed and produce viable, fertile offspring under natural conditions — reproductive isolation from other groups (via prezygotic or postzygotic barriers) is therefore the central criterion used to determine whether two populations should be considered separate species. Option C denies the exact relationship the concept is defined by. Option B wrongly collapses all organisms into one species regardless of interbreeding. Option A wrongly restricts the concept to plants alone."
     },
     {
       "id": "7-61",
@@ -6106,20 +6106,20 @@ const QUESTIONS = {
         "Predicting weather patterns, which relies on meteorological data entirely unrelated to evolutionary relationships"
       ],
       "correct": 2,
-      "explanation": "Phylogenetic analysis is genuinely and widely used in public health and epidemiology — tracking evolutionary relationships among viral or bacterial strains during an outbreak (based on genetic sequence data) can reveal transmission patterns, help identify the likely source of an outbreak, and inform public health responses. Option B wrongly dismisses this real-world application. Options C and D each substitute an unrelated data type (personal medical records, weather data) that a phylogenetic tree doesn't provide."
+      "explanation": "Phylogenetic analysis is genuinely and widely used in public health and epidemiology — tracking evolutionary relationships among viral or bacterial strains during an outbreak (based on genetic sequence data) can reveal transmission patterns, help identify the likely source of an outbreak, and inform public health responses. Option B wrongly dismisses this real-world application. Options A and D each substitute an unrelated data type (personal medical records, weather data) that a phylogenetic tree doesn't provide."
     },
     {
       "id": "7-62",
       "topic": "7.1 Evidence for Evolution",
       "stem": "Which of the following best explains why finding a shared, unusual genetic sequence error (a specific type of mutation with no functional purpose) in the exact same location in the genomes of two different species would be considered particularly strong evidence of shared ancestry?",
       "choices": [
-        "All genetic errors are identical across all species regardless of relatedness, though genetic errors actually vary substantially between species — it's the SHARING of this specific, unusual error that's significant",
-        "This evidence would suggest the two species are not related at all, though a shared, improbable, non-functional error actually points toward shared ancestry, not against it",
+        "All genetic errors are identical across all species regardless of relatedness",
+        "This evidence would suggest the two species are not related at all",
         "Such a specific, non-functional shared error is highly unlikely to have arisen independently by pure chance in both lineages, making inheritance from a shared common ancestor a much more probable explanation",
-        "This type of evidence has no bearing on evolutionary relationships, though a specific, shared, non-functional error is actually considered particularly strong molecular evidence"
+        "This type of evidence has no bearing on evolutionary relationships"
       ],
       "correct": 2,
-      "explanation": "A specific, non-functional genetic sequence error found in the exact same location in two different species is highly unlikely to have arisen independently, by pure chance, in both lineages separately — inheritance of that shared error from a common ancestor (who originally acquired the mutation, then passed it to both descendant lineages) is a far more probable and parsimonious explanation, making this a particularly powerful form of molecular evidence. Option B dismisses evidence that's actually significant. Option C wrongly claims all errors are identical everywhere, when it's the specific sharing that matters. Option D draws the opposite conclusion from the one the evidence supports."
+      "explanation": "A specific, non-functional genetic sequence error found in the exact same location in two different species is highly unlikely to have arisen independently, by pure chance, in both lineages separately — inheritance of that shared error from a common ancestor (who originally acquired the mutation, then passed it to both descendant lineages) is a far more probable and parsimonious explanation, making this a particularly powerful form of molecular evidence. Option D dismisses evidence that's actually significant. Option A wrongly claims all errors are identical everywhere, when it's the specific sharing that matters. Option B draws the opposite conclusion from the one the evidence supports."
     },
     {
       "id": "7-63",
@@ -6132,7 +6132,7 @@ const QUESTIONS = {
         "Natural selection produces organisms that are perfectly, flawlessly adapted to every possible aspect of their environment, though selection is constrained by the genetic variation actually available and can't achieve theoretical perfection"
       ],
       "correct": 1,
-      "explanation": "While natural selection does tend to increase the frequency of traits that improve reproductive success under current conditions, this process is constrained by the genetic variation actually available in a population, doesn't produce theoretically 'perfect' adaptation, and doesn't guarantee permanent adaptation if environmental conditions change in the future — it's an ongoing, environment-dependent process, not a one-time optimization toward a fixed ideal. Option A overstates selection's power toward perfection. Option C wrongly denies selection has any adaptive effect. Option D wrongly limits selection to a single generation, when it operates continuously as long as its requirements are met."
+      "explanation": "While natural selection does tend to increase the frequency of traits that improve reproductive success under current conditions, this process is constrained by the genetic variation actually available in a population, doesn't produce theoretically 'perfect' adaptation, and doesn't guarantee permanent adaptation if environmental conditions change in the future — it's an ongoing, environment-dependent process, not a one-time optimization toward a fixed ideal. Option D overstates selection's power toward perfection. Option A wrongly denies selection has any adaptive effect. Option C wrongly limits selection to a single generation, when it operates continuously as long as its requirements are met."
     },
     {
       "id": "7-64",
@@ -6142,10 +6142,10 @@ const QUESTIONS = {
         "It can only be applied to laboratory-grown organisms, though it's applied broadly to natural, wild populations as a comparison baseline",
         "It proves that evolution never actually occurs in nature, though it does the opposite — deviations from its predictions are used as evidence that evolution IS occurring",
         "It serves as a valuable theoretical baseline (a 'null hypothesis' of no evolution) against which real populations' actual genotype frequencies can be compared, helping researchers detect and quantify the presence and strength of evolutionary forces acting on a population",
-        "It has no practical use since no real population perfectly meets its conditions, though its value comes precisely from serving as a comparison baseline, not from being perfectly met"
+        "It has no practical use since no real population perfectly meets its conditions"
       ],
       "correct": 2,
-      "explanation": "Hardy-Weinberg's practical value comes precisely from its role as a theoretical null-hypothesis baseline: by predicting what genotype frequencies WOULD look like in the complete absence of evolutionary forces, researchers can compare this prediction to a real population's actual observed genotype frequencies — a significant deviation reveals that evolutionary forces (selection, drift, gene flow, non-random mating, or mutation) are acting on that population. Option A wrongly dismisses this baseline value. Option C draws the opposite conclusion from how HW deviations are actually used. Option D wrongly restricts application to lab organisms, when wild populations are the typical subject."
+      "explanation": "Hardy-Weinberg's practical value comes precisely from its role as a theoretical null-hypothesis baseline: by predicting what genotype frequencies WOULD look like in the complete absence of evolutionary forces, researchers can compare this prediction to a real population's actual observed genotype frequencies — a significant deviation reveals that evolutionary forces (selection, drift, gene flow, non-random mating, or mutation) are acting on that population. Option D wrongly dismisses this baseline value. Option B draws the opposite conclusion from how HW deviations are actually used. Option A wrongly restricts application to lab organisms, when wild populations are the typical subject."
     },
     {
       "id": "7-65",
@@ -6156,10 +6156,10 @@ const QUESTIONS = {
         "Ring species only exist in a single, isolated species with no broader implications, though they illustrate a broader conceptual challenge for how species boundaries are defined generally",
         "This scenario does not actually pose any challenge to the biological species concept, though it directly challenges the concept's assumption that interbreeding compatibility is a simple, transitive property",
         "Since the biological species concept relies on a binary same-species/different-species distinction, a ring species creates ambiguity: adjacent populations along the ring can interbreed, yet the two end populations cannot, despite being connected through the chain",
-        "Ring species prove that speciation never actually occurs, though ring species actually illustrate speciation as an ongoing, gradual process — not that it never happens"
+        "Ring species prove that speciation never actually occurs"
       ],
       "correct": 2,
-      "explanation": "This is a genuinely sophisticated extension that illustrates a real limitation of the biological species concept as typically taught: ring species demonstrate that reproductive compatibility isn't necessarily a simple, transitive property (if A can breed with B, and B can breed with C, that doesn't guarantee A can breed with C) across a continuously connected chain of populations. This creates real difficulty applying a strict same-species/different-species binary to the ring as a whole, since the answer depends entirely on which specific pairs of populations you happen to compare — illustrating that speciation is often a gradual, continuous process without perfectly sharp boundaries, rather than the clean binary the simplified species concept suggests. Option A denies this well-documented challenge. Option C draws the wrong conclusion (that speciation never occurs) from a scenario that actually illustrates speciation-in-progress. Option D wrongly minimizes the conceptual implications to a single isolated case."
+      "explanation": "This is a genuinely sophisticated extension that illustrates a real limitation of the biological species concept as typically taught: ring species demonstrate that reproductive compatibility isn't necessarily a simple, transitive property (if A can breed with B, and B can breed with C, that doesn't guarantee A can breed with C) across a continuously connected chain of populations. This creates real difficulty applying a strict same-species/different-species binary to the ring as a whole, since the answer depends entirely on which specific pairs of populations you happen to compare — illustrating that speciation is often a gradual, continuous process without perfectly sharp boundaries, rather than the clean binary the simplified species concept suggests. Option B denies this well-documented challenge. Option D draws the wrong conclusion (that speciation never occurs) from a scenario that actually illustrates speciation-in-progress. Option A wrongly minimizes the conceptual implications to a single isolated case."
     }
   ],
   "8": [
@@ -6274,7 +6274,7 @@ const QUESTIONS = {
       "choices": [
         "Commensalism, benefiting one species with no effect on the other",
         "Mutualism, benefiting both bird species",
-        "Predation, with one bird species consuming the other (a common point of confusion)",
+        "Predation, with one bird species consuming the other",
         "Competition, since both species are negatively affected by the shared, limited resource"
       ],
       "correct": 3,
@@ -6287,7 +6287,7 @@ const QUESTIONS = {
       "choices": [
         "Predation and parasitism are identical interactions that simply use different names — a plausible-sounding but incorrect claim",
         "Predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host without immediately killing it",
-        "Parasitism always causes immediate death, while predation never does",
+        "Parasitism always causes immediate death",
         "Predation occurs only between plant species, unlike parasitism"
       ],
       "correct": 1,
@@ -6325,7 +6325,7 @@ const QUESTIONS = {
       "stem": "According to the '10% rule,' approximately what percentage of energy available at one trophic level is typically transferred to and incorporated into the next trophic level up?",
       "choices": [
         "50%, an efficiency far higher than typical trophic transfers achieve",
-        "1%, a much smaller fraction than the rule describes (a common point of confusion)",
+        "1%, a much smaller fraction than the rule describes",
         "90%, which actually describes the fraction lost, not transferred",
         "10%, the fraction of energy typically passed to the next trophic level"
       ],
@@ -6428,7 +6428,7 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Most organisms, including plants, cannot directly use atmospheric nitrogen gas (N2) despite its abundance. Which process makes nitrogen usable for most organisms?",
       "choices": [
-        "Predation, a species interaction unrelated to converting atmospheric gas (a common point of confusion)",
+        "Predation, a species interaction unrelated to converting atmospheric gas",
         "Cellular respiration, which releases CO2 rather than making nitrogen usable",
         "Nitrogen fixation, performed by bacteria that convert N2 into usable forms like ammonia",
         "Photosynthesis, which instead captures light energy rather than converting nitrogen"
@@ -6586,7 +6586,7 @@ const QUESTIONS = {
       "stem": "Which of the following would be the most direct evidence that a particular species functions as a keystone species in its ecosystem?",
       "choices": [
         "Removing the species triggers disproportionately large, cascading community changes despite its modest abundance",
-        "The species is found in multiple different ecosystems around the world (a common point of confusion)",
+        "The species is found in multiple different ecosystems around the world",
         "The species has no interactions with any other species in the ecosystem",
         "The species is the most numerous organism present in the ecosystem"
       ],
@@ -6639,7 +6639,7 @@ const QUESTIONS = {
       "choices": [
         "An S-shaped (sigmoid) curve, accelerating initially, then slowing near carrying capacity",
         "A perfectly flat line showing no growth at all",
-        "A straight, linear line with a constant slope (a common point of confusion)",
+        "A straight, linear line with a constant slope",
         "A J-shaped curve that never levels off"
       ],
       "correct": 0,
@@ -6692,7 +6692,7 @@ const QUESTIONS = {
         "Climate change always increases biodiversity uniformly across all ecosystems",
         "Climate change has no meaningful relationship to biodiversity",
         "Climate change alters temperature and precipitation faster than many species can adapt to, disrupting habitats and interactions",
-        "Climate change affects only a single species worldwide (a common point of confusion)"
+        "Climate change affects only a single species worldwide"
       ],
       "correct": 2,
       "explanation": "Climate change alters environmental conditions at a pace that often exceeds many species' ability to adapt or migrate, disrupting habitats, resource availability, and species interactions (like timing mismatches between co-evolved species such as a pollinator and its plant) — a well-documented contributor to biodiversity loss. Choice 1 denies a well-established, significant ecological relationship. Choice 3 wrongly limits an effect that impacts species broadly across ecosystems worldwide. Choice 0 claims the opposite of the documented trend, which is generally biodiversity loss, not uniform gain."
@@ -6743,7 +6743,7 @@ const QUESTIONS = {
       "choices": [
         "Biogeochemical cycles have no meaningful relationship to life's sustainability",
         "Since Earth's supply of essential elements is essentially fixed, they must be recycled to remain available for ongoing biological use",
-        "Biogeochemical cycles only matter for a single generation of organisms (a common point of confusion)",
+        "Biogeochemical cycles only matter for a single generation of organisms",
         "New atoms of carbon and nitrogen are constantly created to replace used ones"
       ],
       "correct": 1,
@@ -6846,7 +6846,7 @@ const QUESTIONS = {
       "stem": "Which of the following would most likely represent a shift from mutualism toward parasitism between two interacting species over evolutionary time?",
       "choices": [
         "Both species continuing to benefit equally, with no change to the relationship over time",
-        "Both species going extinct simultaneously as a direct result (a common point of confusion)",
+        "Both species going extinct simultaneously as a direct result",
         "The interaction becoming entirely neutral for both species involved",
         "One species extracting benefit while providing progressively less in return, ultimately harming the other"
       ],
@@ -6897,7 +6897,7 @@ const QUESTIONS = {
       "topic": "8.1 Population Ecology",
       "stem": "Which of the following would be the most appropriate use of the exponential growth model in real-world ecological research?",
       "choices": [
-        "The exponential model has no legitimate real-world applications at all (a common point of confusion)",
+        "The exponential model has no legitimate real-world applications at all",
         "Predicting a population's behavior at exactly its carrying capacity",
         "Modeling the initial, short-term growth of a small population in a resource-abundant new environment",
         "Predicting a well-established population's behavior over decades in a resource-limited environment"
@@ -7004,7 +7004,7 @@ const QUESTIONS = {
       "choices": [
         "An ecosystem with functionally redundant species can have lower resilience than one with equal richness but wider functional diversity",
         "More species always automatically means more distinct ecological roles, with no exceptions",
-        "Functional diversity has no relationship to resilience whatsoever (a common point of confusion)",
+        "Functional diversity has no relationship to resilience whatsoever",
         "Species richness and functional diversity are always identical, making this scenario impossible"
       ],
       "correct": 0,
