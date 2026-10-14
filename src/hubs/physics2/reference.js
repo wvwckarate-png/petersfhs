@@ -64,7 +64,7 @@ const REFERENCE = [
         ["Resistivity", "R = ρL/A"],
         ["Resistors in series / parallel", "R<sub>s</sub> = ΣR<sub>i</sub>; 1/R<sub>p</sub> = Σ1/R<sub>i</sub>"],
         ["Capacitors in series / parallel", "1/C<sub>s</sub> = Σ1/C<sub>i</sub>; C<sub>p</sub> = ΣC<sub>i</sub>"],
-        ["Terminal voltage", "V = ε − Ir"],
+        ["Terminal voltage", "V = 𝓔 − Ir"],
       ], ["Concept", "Equation"]) +
       "<h4>Magnetism</h4>" +
       table([
@@ -72,8 +72,8 @@ const REFERENCE = [
         ["Force on a current-carrying wire", "F = BIL sin θ"],
         ["Circular motion in a field", "r = mv/(qB)"],
         ["Magnetic flux", "Φ = BA cos θ"],
-        ["Faraday's law", "ε = −NΔΦ/Δt"],
-        ["Motional emf", "ε = BLv"],
+        ["Faraday's law", "𝓔 = −NΔΦ/Δt"],
+        ["Motional emf", "𝓔 = BLv"],
       ], ["Concept", "Equation"]),
   },
   {

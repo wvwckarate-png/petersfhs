@@ -90,7 +90,7 @@ const EXAM = {
     "0.063 V"
    ],
    "correct": 2,
-   "explanation": "The area of the loop is πr² = π(0.10)² = 0.0314 m². The magnitude of the average emf is |ε| = AΔB/Δt = (0.0314)(0.20)/(0.050) ≈ 0.126 V ≈ 0.13 V."
+   "explanation": "The area of the loop is πr² = π(0.10)² = 0.0314 m². The magnitude of the average emf is |𝓔| = AΔB/Δt = (0.0314)(0.20)/(0.050) ≈ 0.126 V ≈ 0.13 V."
   },
   {
    "id": "p2e4-8",
@@ -401,7 +401,7 @@ const EXAM = {
     "5.0 V"
    ],
    "correct": 1,
-   "explanation": "The maximum emf is ε_max = NBAω = (100)(0.50)(0.020)(50) = 50 V."
+   "explanation": "The maximum emf is 𝓔_max = NBAω = (100)(0.50)(0.020)(50) = 50 V."
   },
   {
    "id": "p2e4-30",
@@ -531,7 +531,7 @@ const EXAM = {
     "10 V"
    ],
    "correct": 1,
-   "explanation": "The terminal voltage is the emf minus the potential drop across the internal resistance: V = ε − Ir = 9.0 − (2.0)(0.50) = 8.0 V."
+   "explanation": "The terminal voltage is the emf minus the potential drop across the internal resistance: V = 𝓔 − Ir = 9.0 − (2.0)(0.50) = 8.0 V."
   },
   {
    "id": "p2e4-40",

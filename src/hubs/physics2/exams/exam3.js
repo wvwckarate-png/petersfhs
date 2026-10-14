@@ -248,7 +248,7 @@ const EXAM = {
     "0.050 V"
    ],
    "correct": 1,
-   "explanation": "Faraday's law for a coil gives |ε| = NΔΦ/Δt = (50)(0.020)/(0.40) = 2.5 V. Leaving out the number of turns would give 0.050 V."
+   "explanation": "Faraday's law for a coil gives |𝓔| = NΔΦ/Δt = (50)(0.020)/(0.40) = 2.5 V. Leaving out the number of turns would give 0.050 V."
   },
   {
    "id": "p2e3-19",

@@ -322,11 +322,11 @@ const EXAM = {
      "label": "Part B",
      "prompt": "Calculate the magnitude of the induced current in the loop while it is entering the field region. Show your work.",
      "rubric": [
-      "For using Faraday's law for a conductor moving in a field, ε = <i>B</i>ℓ<i>v</i> (or ε = Δ<i>Φ</i>/Δ<i>t</i> with Φ = <i>B</i>ℓ<i>x</i>), to obtain 0.12 V",
-      "For using Ohm's law, <i>I</i> = ε/<i>R</i>, to obtain a current of 0.24 A"
+      "For using Faraday's law for a conductor moving in a field, 𝓔 = <i>B</i>ℓ<i>v</i> (or 𝓔 = Δ<i>Φ</i>/Δ<i>t</i> with Φ = <i>B</i>ℓ<i>x</i>), to obtain 0.12 V",
+      "For using Ohm's law, <i>I</i> = 𝓔/<i>R</i>, to obtain a current of 0.24 A"
      ],
      "model": [
-      "While the loop enters, the area inside the field grows at the rate ℓ<i>v</i>, so the magnitude of the induced emf is ε = ΔΦ/Δ<i>t</i> = <i>B</i>ℓ<i>v</i> = (0.30 T)(0.20 m)(2.0 m/s) = 0.12 V. By Ohm's law <i>I</i> = ε/<i>R</i> = (0.12 V)/(0.50 Ω) = <b>0.24 A</b>."
+      "While the loop enters, the area inside the field grows at the rate ℓ<i>v</i>, so the magnitude of the induced emf is 𝓔 = ΔΦ/Δ<i>t</i> = <i>B</i>ℓ<i>v</i> = (0.30 T)(0.20 m)(2.0 m/s) = 0.12 V. By Ohm's law <i>I</i> = 𝓔/<i>R</i> = (0.12 V)/(0.50 Ω) = <b>0.24 A</b>."
      ]
     },
     {

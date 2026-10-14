@@ -444,7 +444,7 @@ const EXAM = {
     "0.15 V"
    ],
    "correct": 2,
-   "explanation": "The motional emf is ε = BLv = (0.50)(0.40)(3.0) = 0.60 V."
+   "explanation": "The motional emf is 𝓔 = BLv = (0.50)(0.40)(3.0) = 0.60 V."
   },
   {
    "id": "p2e2-34",

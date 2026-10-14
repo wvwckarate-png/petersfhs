@@ -130,7 +130,7 @@ export default exam({
       ]),
 
     Q("3", "Experimental Design and Analysis", 24,
-      ["A student wants to determine the emf ε and the internal resistance <i>r</i> of a battery. The student has the battery, a variable resistor (rheostat), a voltmeter, an ammeter, a switch, and connecting wires. In each trial the student sets the variable resistor to a different resistance, closes the switch, and records the current in the battery and the potential difference across the battery's terminals. The data are shown in Table 1."],
+      ["A student wants to determine the emf 𝓔 and the internal resistance <i>r</i> of a battery. The student has the battery, a variable resistor (rheostat), a voltmeter, an ammeter, a switch, and connecting wires. In each trial the student sets the variable resistor to a different resistance, closes the switch, and records the current in the battery and the potential difference across the battery's terminals. The data are shown in Table 1."],
       [dataTable],
       [
         P("A", "Describe how the student should connect the ammeter and the voltmeter to measure the current in the battery and the potential difference across the battery's terminals.", [
@@ -139,18 +139,18 @@ export default exam({
         ], [
           "The ammeter must carry the battery's current, so it is placed in series in the loop containing the battery, the variable resistor and the switch. The voltmeter must measure the potential difference between the battery's terminals, so it is connected in parallel with the battery — one lead to each terminal. (An ideal voltmeter has very high resistance and draws almost no current; an ideal ammeter has very low resistance and does not change the current.)",
         ], { label: "Part A" }),
-        P("B (i)", "Indicate which quantities the student should graph on the vertical and horizontal axes so that the data produce a straight line that can be used to determine ε and <i>r</i>. Write the equation that relates the quantities and the features of the line.", [
+        P("B (i)", "Indicate which quantities the student should graph on the vertical and horizontal axes so that the data produce a straight line that can be used to determine 𝓔 and <i>r</i>. Write the equation that relates the quantities and the features of the line.", [
           "For indicating the terminal voltage <i>V</i> on the vertical axis and the current <i>I</i> on the horizontal axis",
-          "For writing <i>V</i> = ε − <i>Ir</i> and indicating that the slope is −<i>r</i> and the vertical intercept is ε",
+          "For writing <i>V</i> = 𝓔 − <i>Ir</i> and indicating that the slope is −<i>r</i> and the vertical intercept is 𝓔",
         ], [
-          "Graph <b><i>V</i> (vertical) versus <i>I</i> (horizontal)</b>. The potential difference across the terminals is the emf minus the potential drop across the internal resistance: <i>V</i> = ε − <i>Ir</i>. This has the form <i>y</i> = <i>b</i> + <i>mx</i>, so the vertical intercept is ε and the slope is −<i>r</i>.",
+          "Graph <b><i>V</i> (vertical) versus <i>I</i> (horizontal)</b>. The potential difference across the terminals is the emf minus the potential drop across the internal resistance: <i>V</i> = 𝓔 − <i>Ir</i>. This has the form <i>y</i> = <i>b</i> + <i>mx</i>, so the vertical intercept is 𝓔 and the slope is −<i>r</i>.",
         ], { label: "Part B (i)" }),
-        P("B (ii)", "The student draws a best-fit line through the data. The line passes through the points (0.40 A, 8.4 V) and (2.8 A, 4.8 V). Use these points to determine the internal resistance <i>r</i> and the emf ε of the battery. Show your work.", [
+        P("B (ii)", "The student draws a best-fit line through the data. The line passes through the points (0.40 A, 8.4 V) and (2.8 A, 4.8 V). Use these points to determine the internal resistance <i>r</i> and the emf 𝓔 of the battery. Show your work.", [
           "For a correct calculation of the slope of the best-fit line: (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −1.5 V/A",
           "For a correct internal resistance of 1.5 Ω (the magnitude of the slope, with units)",
-          "For a correct emf of 9.0 V, from the vertical intercept or from substituting a point into <i>V</i> = ε − <i>Ir</i>",
+          "For a correct emf of 9.0 V, from the vertical intercept or from substituting a point into <i>V</i> = 𝓔 − <i>Ir</i>",
         ], [
-          "Slope = Δ<i>V</i>/Δ<i>I</i> = (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −3.6 V / 2.4 A = −1.5 V/A. Because the slope equals −<i>r</i>, the internal resistance is <b><i>r</i> = 1.5 Ω</b>. For the emf, use a point on the line in <i>V</i> = ε − <i>Ir</i>: ε = <i>V</i> + <i>Ir</i> = 8.4 V + (0.40 A)(1.5 Ω) = <b>9.0 V</b>. This is the value of the line where it crosses the vertical axis at <i>I</i> = 0.",
+          "Slope = Δ<i>V</i>/Δ<i>I</i> = (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −3.6 V / 2.4 A = −1.5 V/A. Because the slope equals −<i>r</i>, the internal resistance is <b><i>r</i> = 1.5 Ω</b>. For the emf, use a point on the line in <i>V</i> = 𝓔 − <i>Ir</i>: 𝓔 = <i>V</i> + <i>Ir</i> = 8.4 V + (0.40 A)(1.5 Ω) = <b>9.0 V</b>. This is the value of the line where it crosses the vertical axis at <i>I</i> = 0.",
         ], { label: "Part B (ii)", tip: "The slope of <i>V</i> versus <i>I</i> is −<i>r</i>, so the internal resistance is the <em>magnitude</em> of the slope. Don't report <i>r</i> as a negative number, and don't use a measured data point instead of the line." }),
         P("C", "Describe one change to the procedure that would reduce the uncertainty in the student's results.", [
           "For a valid improvement, such as repeating each measurement several times and averaging; taking more trials over a wider range of currents; or keeping the switch closed only briefly (so the battery does not heat up or run down during the measurements)",
@@ -159,9 +159,9 @@ export default exam({
         ], { label: "Part C" }),
         P("D", "A second student claims that the potential difference across the terminals of a battery is always equal to the battery's emf. Do the data and graph support this claim? Justify your answer.", [
           "For indicating that the claim is not supported, because <i>V</i> decreases as the current increases (the best-fit line has a negative slope)",
-          "For explaining that <i>V</i> = ε − <i>Ir</i>, so the terminal voltage equals the emf only when the current is zero (at the vertical intercept) — otherwise there is a potential drop across the internal resistance",
+          "For explaining that <i>V</i> = 𝓔 − <i>Ir</i>, so the terminal voltage equals the emf only when the current is zero (at the vertical intercept) — otherwise there is a potential drop across the internal resistance",
         ], [
-          "The data do not support the claim. The terminal voltage falls from about 8.3 V to about 4.5 V as the current increases from 0.50 A to 3.0 A, so it is not constant and not equal to the 9.0 V emf. The graph's equation, <i>V</i> = ε − <i>Ir</i>, shows why: a current in the battery produces a potential drop <i>Ir</i> across the internal resistance, so the potential difference available to the external circuit is smaller than the emf. The terminal voltage equals the emf only in the limit of zero current, where the line meets the vertical axis.",
+          "The data do not support the claim. The terminal voltage falls from about 8.3 V to about 4.5 V as the current increases from 0.50 A to 3.0 A, so it is not constant and not equal to the 9.0 V emf. The graph's equation, <i>V</i> = 𝓔 − <i>Ir</i>, shows why: a current in the battery produces a potential drop <i>Ir</i> across the internal resistance, so the potential difference available to the external circuit is smaller than the emf. The terminal voltage equals the emf only in the limit of zero current, where the line meets the vertical axis.",
         ], { label: "Part D" }),
       ]),
 

@@ -159,7 +159,7 @@ const EXAM = {
     "0.10 V"
    ],
    "correct": 0,
-   "explanation": "The magnetic flux changes from BA = (0.50)(0.20) = 0.10 T·m² to zero in 0.10 s. By Faraday's law, |ε| = ΔΦ/Δt = 0.10/0.10 = 1.0 V."
+   "explanation": "The magnetic flux changes from BA = (0.50)(0.20) = 0.10 T·m² to zero in 0.10 s. By Faraday's law, |𝓔| = ΔΦ/Δt = 0.10/0.10 = 1.0 V."
   },
   {
    "id": "p2e1-12",
@@ -244,7 +244,7 @@ const EXAM = {
     "10 V"
    ],
    "correct": 3,
-   "explanation": "The internal and external resistors are in series, so I = ε/(r + R) = 12/6.0 = 2.0 A. The potential difference across the external resistor is V = IR = (2.0)(5.0) = 10 V. 12 V would be the potential difference only if the battery had no internal resistance."
+   "explanation": "The internal and external resistors are in series, so I = 𝓔/(r + R) = 12/6.0 = 2.0 A. The potential difference across the external resistor is V = IR = (2.0)(5.0) = 10 V. 12 V would be the potential difference only if the battery had no internal resistance."
   },
   {
    "id": "p2e1-18",

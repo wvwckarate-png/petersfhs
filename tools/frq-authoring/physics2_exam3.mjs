@@ -144,9 +144,9 @@ export default exam({
           "For reasoning (Lenz's law) that the inward magnetic flux through the loop is increasing, so the induced current creates a magnetic field out of the page to oppose the change, which corresponds to a counterclockwise current",
         ], ["The current is <b>counterclockwise</b>. As the loop enters, the magnetic flux through it directed into the page is increasing. By Lenz's law the induced current opposes the increase by producing its own magnetic field out of the page inside the loop. By the right-hand rule, a field out of the page at the center of a loop requires a counterclockwise current."], { label: "Part A" }),
         P("B", "Calculate the magnitude of the induced current in the loop while it is entering the field region. Show your work.", [
-          "For using Faraday's law for a conductor moving in a field, ε = <i>B</i>ℓ<i>v</i> (or ε = Δ<i>Φ</i>/Δ<i>t</i> with Φ = <i>B</i>ℓ<i>x</i>), to obtain 0.12 V",
-          "For using Ohm's law, <i>I</i> = ε/<i>R</i>, to obtain a current of 0.24 A",
-        ], ["While the loop enters, the area inside the field grows at the rate ℓ<i>v</i>, so the magnitude of the induced emf is ε = ΔΦ/Δ<i>t</i> = <i>B</i>ℓ<i>v</i> = (0.30 T)(0.20 m)(2.0 m/s) = 0.12 V. By Ohm's law <i>I</i> = ε/<i>R</i> = (0.12 V)/(0.50 Ω) = <b>0.24 A</b>."], { label: "Part B" }),
+          "For using Faraday's law for a conductor moving in a field, 𝓔 = <i>B</i>ℓ<i>v</i> (or 𝓔 = Δ<i>Φ</i>/Δ<i>t</i> with Φ = <i>B</i>ℓ<i>x</i>), to obtain 0.12 V",
+          "For using Ohm's law, <i>I</i> = 𝓔/<i>R</i>, to obtain a current of 0.24 A",
+        ], ["While the loop enters, the area inside the field grows at the rate ℓ<i>v</i>, so the magnitude of the induced emf is 𝓔 = ΔΦ/Δ<i>t</i> = <i>B</i>ℓ<i>v</i> = (0.30 T)(0.20 m)(2.0 m/s) = 0.12 V. By Ohm's law <i>I</i> = 𝓔/<i>R</i> = (0.12 V)/(0.50 Ω) = <b>0.24 A</b>."], { label: "Part B" }),
         P("C", "Calculate the magnitude of the external force that must be applied to the loop to keep it moving at constant speed while it enters the field, and state the direction of this force. Justify the direction.", [
           "For a correct magnitude, <i>F</i> = <i>I</i>ℓ<i>B</i> = (0.24 A)(0.20 m)(0.30 T) ≈ 1.4 × 10<sup>−2</sup> N",
           "For indicating that the applied force is directed to the right (the direction of motion) because the magnetic force on the current in the leading side of the loop is to the left, opposing the motion (Lenz's law)",
