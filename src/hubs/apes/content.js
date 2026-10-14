@@ -1161,7 +1161,7 @@ const QUESTIONS = {
         "A measure of genetic diversity within a single species' population, unrelated to species counts."
       ],
       "correct": 2,
-      "explanation": "Species evenness describes how equally individuals are spread across the species present — a community dominated by one species has low evenness even with many species overall. Option A describes genetic diversity, a different biodiversity level entirely. Option C describes species richness, which counts species but says nothing about their relative abundance. Option D describes ecosystem diversity, the variety of habitat types across a region, not the distribution of individuals within one community."
+      "explanation": "Species evenness describes how equally individuals are spread across the species present — a community dominated by one species has low evenness even with many species overall. Option D describes genetic diversity, a different biodiversity level entirely. Option B describes species richness, which counts species but says nothing about their relative abundance. Option A describes ecosystem diversity, the variety of habitat types across a region, not the distribution of individuals within one community."
     },
     {
       "id": "2-5",
@@ -1174,7 +1174,7 @@ const QUESTIONS = {
         "Community B has higher overall diversity, because dominance by one species increases diversity."
       ],
       "correct": 0,
-      "explanation": "Both communities share identical richness (12 species), but Community A distributes individuals far more evenly across those species, giving it higher overall diversity — richness alone doesn't determine diversity. Choice A wrongly assumes equal richness means equal diversity, ignoring evenness. Choice C is incorrect because the given information (equal richness, contrasting evenness) is sufficient to compare diversity. Choice D reverses the relationship: dominance by one species (85%) lowers evenness and therefore lowers overall diversity, not raises it."
+      "explanation": "Both communities share identical richness (12 species), but Community A distributes individuals far more evenly across those species, giving it higher overall diversity — richness alone doesn't determine diversity. Choice B wrongly assumes equal richness means equal diversity, ignoring evenness. Choice C is incorrect because the given information (equal richness, contrasting evenness) is sufficient to compare diversity. Choice D reverses the relationship: dominance by one species (85%) lowers evenness and therefore lowers overall diversity, not raises it."
     },
     {
       "id": "2-6",
@@ -1187,7 +1187,7 @@ const QUESTIONS = {
         "No — richness and diversity are completely unrelated measures of a community."
       ],
       "correct": 1,
-      "explanation": "Species diversity depends on both richness (how many species) and evenness (how equally distributed) together — richness alone is incomplete, since a high-richness community can still have low overall diversity if evenness is poor. Choice A overstates the case: richness IS related to diversity, just not sufficient alone. Choice B wrongly equates the two distinct concepts. Choice C is a fabricated exception — the richness/evenness relationship holds regardless of ecosystem type."
+      "explanation": "Species diversity depends on both richness (how many species) and evenness (how equally distributed) together — richness alone is incomplete, since a high-richness community can still have low overall diversity if evenness is poor. Choice D overstates the case: richness IS related to diversity, just not sufficient alone. Choice C wrongly equates the two distinct concepts. Choice A is a fabricated exception — the richness/evenness relationship holds regardless of ecosystem type."
     },
     {
       "id": "2-7",
@@ -1200,7 +1200,7 @@ const QUESTIONS = {
         "A rainforest containing hundreds of different plant and animal species living together."
       ],
       "correct": 2,
-      "explanation": "Variation in genetic traits (like disease resistance) within a single species' population — here, wheat — is a direct example of genetic diversity. Option A illustrates ecosystem diversity (multiple ecosystem types), option C illustrates species richness (a species count), and option D illustrates species diversity (many species in one community) — all distinct from genetic diversity, which involves variation within one species."
+      "explanation": "Variation in genetic traits (like disease resistance) within a single species' population — here, wheat — is a direct example of genetic diversity. Option A illustrates ecosystem diversity (multiple ecosystem types), option B illustrates species richness (a species count), and option D illustrates species diversity (many species in one community) — all distinct from genetic diversity, which involves variation within one species."
     },
     {
       "id": "2-8",
@@ -1226,7 +1226,7 @@ const QUESTIONS = {
         "Richness cannot be determined without knowing the evenness of each forest."
       ],
       "correct": 1,
-      "explanation": "Species richness is simply a count of species present, independent of how evenly individuals are distributed — the second forest's 15 species exceed the first forest's 5, regardless of each forest's evenness. Choice B wrongly links richness to evenness (a different measure). Choice C is incorrect because richness is fully determined by the given species counts alone — evenness data isn't needed. Choice D is incorrect because the counts (5 vs. 15) are explicitly different."
+      "explanation": "Species richness is simply a count of species present, independent of how evenly individuals are distributed — the second forest's 15 species exceed the first forest's 5, regardless of each forest's evenness. Choice C wrongly links richness to evenness (a different measure). Choice D is incorrect because richness is fully determined by the given species counts alone — evenness data isn't needed. Choice A is incorrect because the counts (5 vs. 15) are explicitly different."
     },
     {
       "id": "2-10",
@@ -1239,7 +1239,7 @@ const QUESTIONS = {
         "Evenness has no practical relevance to conservation decisions, since richness alone is always sufficient."
       ],
       "correct": 2,
-      "explanation": "Evenness matters because a community with high richness but low evenness may be far more fragile than it appears — most ecological function may rest on just one or two dominant species, with the many \"rare\" species contributing comparatively little. Choice A dismisses evenness's real conservation value. Choice C is a fabricated claim; richness is routinely measurable. Choice D confuses the two distinct measures — they are related but not identical, which is precisely why both are tracked separately."
+      "explanation": "Evenness matters because a community with high richness but low evenness may be far more fragile than it appears — most ecological function may rest on just one or two dominant species, with the many \"rare\" species contributing comparatively little. Choice D dismisses evenness's real conservation value. Choice A is a fabricated claim; richness is routinely measurable. Choice B confuses the two distinct measures — they are related but not identical, which is precisely why both are tracked separately."
     },
     {
       "id": "2-11",
@@ -1252,7 +1252,7 @@ const QUESTIONS = {
         "A new species colonizes the area for the first time, adding to the existing community."
       ],
       "correct": 1,
-      "explanation": "When a dominant species declines while others become relatively more common, the distribution of individuals across species becomes more equal — increasing evenness — without necessarily changing richness. Choice A (reduced area) doesn't directly redistribute individuals among species. Choice B (total extinction) eliminates the community, not just its evenness. Choice D (new colonizer) would change richness, and its effect on evenness depends on how abundant the new species becomes, making it a less direct answer than C."
+      "explanation": "When a dominant species declines while others become relatively more common, the distribution of individuals across species becomes more equal — increasing evenness — without necessarily changing richness. Choice A (reduced area) doesn't directly redistribute individuals among species. Choice C (total extinction) eliminates the community, not just its evenness. Choice D (new colonizer) would change richness, and its effect on evenness depends on how abundant the new species becomes, making it a less direct answer than B."
     },
     {
       "id": "2-12",
@@ -1265,7 +1265,7 @@ const QUESTIONS = {
         "High genetic diversity guarantees that a population will never decline in size at all."
       ],
       "correct": 1,
-      "explanation": "Greater genetic diversity raises the odds that some individuals happen to carry traits conferring resistance or tolerance to a new threat, improving the odds part of the population survives. Choice B denies a well-established relationship. Choice C fabricates a taxonomic restriction — genetic diversity matters across all sexually reproducing species. Choice D overstates the benefit: genetic diversity improves resilience but is no guarantee against decline from other causes (habitat loss, unrelated disasters)."
+      "explanation": "Greater genetic diversity raises the odds that some individuals happen to carry traits conferring resistance or tolerance to a new threat, improving the odds part of the population survives. Choice A denies a well-established relationship. Choice C fabricates a taxonomic restriction — genetic diversity matters across all sexually reproducing species. Choice D overstates the benefit: genetic diversity improves resilience but is no guarantee against decline from other causes (habitat loss, unrelated disasters)."
     },
     {
       "id": "2-13",
@@ -1278,7 +1278,7 @@ const QUESTIONS = {
         "A species with an outsized ecological effect relative to its abundance."
       ],
       "correct": 3,
-      "explanation": "A keystone species has a disproportionately large ecological effect relative to its own abundance — removing it can trigger cascading ecosystem changes. Choice A describes an endemic species (restricted range), choice B describes an indicator species (a pollution/health signal), and choice D describes the opposite idea — keystone species are often NOT the most abundant; their impact is disproportionate precisely because it exceeds what their (often modest) abundance would predict."
+      "explanation": "A keystone species has a disproportionately large ecological effect relative to its own abundance — removing it can trigger cascading ecosystem changes. Choice B describes an endemic species (restricted range), choice C describes an indicator species (a pollution/health signal), and choice A describes the opposite idea — keystone species are often NOT the most abundant; their impact is disproportionate precisely because it exceeds what their (often modest) abundance would predict."
     },
     {
       "id": "2-14",
@@ -1291,7 +1291,7 @@ const QUESTIONS = {
         "A species whose presence or health signals the broader health of its ecosystem."
       ],
       "correct": 3,
-      "explanation": "An indicator species is one whose presence, absence, or condition signals the overall health of its ecosystem, often because it's especially sensitive to a specific type of change like pollution. Choice A describes the most abundant species, a different concept unrelated to sensitivity. Choices B and D describe extinct or captive-only species, neither of which relates to serving as an ecological health signal."
+      "explanation": "An indicator species is one whose presence, absence, or condition signals the overall health of its ecosystem, often because it's especially sensitive to a specific type of change like pollution. Choice B describes the most abundant species, a different concept unrelated to sensitivity. Choices A and C describe extinct or captive-only species, neither of which relates to serving as an ecological health signal."
     },
     {
       "id": "2-15",
@@ -1304,7 +1304,7 @@ const QUESTIONS = {
         "A species that has already gone extinct within the past few decades."
       ],
       "correct": 0,
-      "explanation": "An endemic species is one found naturally in only a single, specific geographic location and nowhere else, making it especially vulnerable to disturbances there. Choice A describes an introduced/invasive species, the opposite pattern. Choice C describes a widespread, cosmopolitan species, the opposite of endemic. Choice D describes extinction status, unrelated to geographic restriction."
+      "explanation": "An endemic species is one found naturally in only a single, specific geographic location and nowhere else, making it especially vulnerable to disturbances there. Choice C describes an introduced/invasive species, the opposite pattern. Choice B describes a widespread, cosmopolitan species, the opposite of endemic. Choice D describes extinction status, unrelated to geographic restriction."
     },
     {
       "id": "2-16",
@@ -1343,7 +1343,7 @@ const QUESTIONS = {
         "Endemic species are actually less vulnerable to extinction than widely distributed species, overall."
       ],
       "correct": 2,
-      "explanation": "Since an endemic species' entire population exists in one location, a single localized disturbance (habitat destruction, disease, natural disaster) can threaten the whole species — unlike a widely distributed species, which would lose only part of its range from the same event. Choice A misstates the definition of endemic (restricted, not widespread). Choice B is an unrelated, false claim about genetics. Choice D reverses the actual relationship."
+      "explanation": "Since an endemic species' entire population exists in one location, a single localized disturbance (habitat destruction, disease, natural disaster) can threaten the whole species — unlike a widely distributed species, which would lose only part of its range from the same event. Choice B misstates the definition of endemic (restricted, not widespread). Choice A is an unrelated, false claim about genetics. Choice D reverses the actual relationship."
     },
     {
       "id": "2-19",
@@ -1356,7 +1356,7 @@ const QUESTIONS = {
         "Resilience only depends on an ecosystem's total land area, not its biodiversity."
       ],
       "correct": 1,
-      "explanation": "Higher biodiversity (genetic, species, or ecosystem level) generally provides more backup options for an ecosystem to draw on when facing a new stressor, improving its ability to absorb disturbance and recover. Choice B denies this well-established relationship. Choice C substitutes an unrelated factor (land area) for biodiversity. Choice D reverses the relationship entirely — losing biodiversity removes backup options and reduces resilience, it doesn't increase it."
+      "explanation": "Higher biodiversity (genetic, species, or ecosystem level) generally provides more backup options for an ecosystem to draw on when facing a new stressor, improving its ability to absorb disturbance and recover. Choice C denies this well-established relationship. Choice D substitutes an unrelated factor (land area) for biodiversity. Choice A reverses the relationship entirely — losing biodiversity removes backup options and reduces resilience, it doesn't increase it."
     },
     {
       "id": "2-20",
@@ -1369,7 +1369,7 @@ const QUESTIONS = {
         "This scenario describes ecosystem diversity, not genetic diversity, and is therefore irrelevant to disease risk."
       ],
       "correct": 2,
-      "explanation": "With low genetic diversity, a disease or pest effective against that specific genetic variety could devastate crops across every field growing it simultaneously — a documented historical risk in agricultural monocultures. Choice A misclassifies the scenario; a single crop population's genetic uniformity is precisely genetic diversity, not ecosystem diversity. Choice B denies a well-documented risk. Choice D is false — low diversity may raise short-term yield uniformity but creates exactly this catastrophic vulnerability as a major downside."
+      "explanation": "With low genetic diversity, a disease or pest effective against that specific genetic variety could devastate crops across every field growing it simultaneously — a documented historical risk in agricultural monocultures. Choice D misclassifies the scenario; a single crop population's genetic uniformity is precisely genetic diversity, not ecosystem diversity. Choice A denies a well-documented risk. Choice B is false — low diversity may raise short-term yield uniformity but creates exactly this catastrophic vulnerability as a major downside."
     },
     {
       "id": "2-21",
@@ -1382,7 +1382,7 @@ const QUESTIONS = {
         "A species that provides most of an ecosystem's biomass, with an effect proportional to that abundance."
       ],
       "correct": 3,
-      "explanation": "A keystone species is defined by a disproportionately large effect relative to its abundance — a species that provides a large share of biomass with an effect roughly proportional to that abundance does not fit this definition, since there's no disproportion involved. Choices B, C, and D all describe classic keystone functions: a predator indirectly protecting vegetation (trophic cascade), an ecosystem engineer reshaping habitat, and a pollinator with outsized reproductive impact despite a small population — all textbook examples of disproportionate ecological effect."
+      "explanation": "A keystone species is defined by a disproportionately large effect relative to its abundance — a species that provides a large share of biomass with an effect roughly proportional to that abundance does not fit this definition, since there's no disproportion involved. Choices A, B, and C all describe classic keystone functions: a predator indirectly protecting vegetation (trophic cascade), an ecosystem engineer reshaping habitat, and a pollinator with outsized reproductive impact despite a small population — all textbook examples of disproportionate ecological effect."
     },
     {
       "id": "2-22",
@@ -1421,7 +1421,7 @@ const QUESTIONS = {
         "Only very small islands can support any species at all."
       ],
       "correct": 1,
-      "explanation": "Larger islands offer more habitat and resources, supporting larger, more resilient populations less prone to local extinction — predicting higher equilibrium richness. Choice A denies a core prediction of the theory. Choice B is a fabricated absolute claim. Choice D reverses the relationship: increased competition on large islands does occur but is outweighed by the greater habitat and resource availability, so larger islands are predicted to support more species, not fewer."
+      "explanation": "Larger islands offer more habitat and resources, supporting larger, more resilient populations less prone to local extinction — predicting higher equilibrium richness. Choice C denies a core prediction of the theory. Choice D is a fabricated absolute claim. Choice A reverses the relationship: increased competition on large islands does occur but is outweighed by the greater habitat and resource availability, so larger islands are predicted to support more species, not fewer."
     },
     {
       "id": "2-25",
@@ -1434,7 +1434,7 @@ const QUESTIONS = {
         "Islands farther from the mainland support more species, due to reduced competition from mainland species."
       ],
       "correct": 0,
-      "explanation": "Islands closer to the mainland receive higher immigration from mainland source populations, predicting higher equilibrium richness. Choice B reverses this relationship — greater distance reduces immigration and typically lowers richness, despite the plausible-sounding \"reduced competition\" framing. Choice C denies a core prediction of the theory. Choice D is a fabricated absolute restriction with no basis in the theory."
+      "explanation": "Islands closer to the mainland receive higher immigration from mainland source populations, predicting higher equilibrium richness. Choice D reverses this relationship — greater distance reduces immigration and typically lowers richness, despite the plausible-sounding \"reduced competition\" framing. Choice B denies a core prediction of the theory. Choice C is a fabricated absolute restriction with no basis in the theory."
     },
     {
       "id": "2-26",
@@ -1460,7 +1460,7 @@ const QUESTIONS = {
         "No — the theory also applies to any isolated habitat fragment, not just ocean islands."
       ],
       "correct": 3,
-      "explanation": "Island biogeography theory extends to any isolated habitat patch — a forest fragment surrounded by farmland, a mountaintop surrounded by lowland, a park surrounded by development — not just literal ocean islands. Choice B is false; the theory remains widely used in conservation science. Choice C fabricates an arbitrary size threshold with no basis in the theory. Choice D incorrectly restricts the theory to literal islands, missing its major modern application to fragmented terrestrial habitat."
+      "explanation": "Island biogeography theory extends to any isolated habitat patch — a forest fragment surrounded by farmland, a mountaintop surrounded by lowland, a park surrounded by development — not just literal ocean islands. Choice A is false; the theory remains widely used in conservation science. Choice C fabricates an arbitrary size threshold with no basis in the theory. Choice B incorrectly restricts the theory to literal islands, missing its major modern application to fragmented terrestrial habitat."
     },
     {
       "id": "2-28",
@@ -1473,7 +1473,7 @@ const QUESTIONS = {
         "Species richness would remain completely unchanged."
       ],
       "correct": 2,
-      "explanation": "Fragmentation creates smaller, more isolated patches — both factors (reduced size, increased isolation) predict lower equilibrium species richness within each patch. Choice A ignores both predicted effects. Choice B incorrectly claims the theory doesn't apply, when forest fragmentation is a textbook habitat-island scenario. Choice D reverses the prediction — smaller, more isolated patches are predicted to lose richness, not gain it."
+      "explanation": "Fragmentation creates smaller, more isolated patches — both factors (reduced size, increased isolation) predict lower equilibrium species richness within each patch. Choice D ignores both predicted effects. Choice A incorrectly claims the theory doesn't apply, when forest fragmentation is a textbook habitat-island scenario. Choice B reverses the prediction — smaller, more isolated patches are predicted to lose richness, not gain it."
     },
     {
       "id": "2-29",
@@ -1486,7 +1486,7 @@ const QUESTIONS = {
         "Island size has no relationship to extinction rate."
       ],
       "correct": 2,
-      "explanation": "Smaller islands simply have less total habitat and fewer resources, supporting smaller populations that are more vulnerable to local extinction from random events, disease, or environmental fluctuation. Choice B conflates size with distance — these are two independent variables in the theory. Choice C denies a core theoretical relationship. Choice D is a fabricated claim with no basis in the theory; predator abundance isn't systematically tied to island size."
+      "explanation": "Smaller islands simply have less total habitat and fewer resources, supporting smaller populations that are more vulnerable to local extinction from random events, disease, or environmental fluctuation. Choice A conflates size with distance — these are two independent variables in the theory. Choice D denies a core theoretical relationship. Choice B is a fabricated claim with no basis in the theory; predator abundance isn't systematically tied to island size."
     },
     {
       "id": "2-30",
@@ -1499,7 +1499,7 @@ const QUESTIONS = {
         "The park's species richness will be entirely unaffected by the surrounding development."
       ],
       "correct": 1,
-      "explanation": "This scenario applies island biogeography theory to a non-literal island — the park's increasing isolation from other natural habitat predicts a potential decline in equilibrium species richness over time, informing conservation planning around corridors or buffer zones. Choice A reverses the predicted direction of change. Choice B ignores the theory's core prediction that isolation affects richness. Choice C incorrectly dismisses a textbook application of the theory."
+      "explanation": "This scenario applies island biogeography theory to a non-literal island — the park's increasing isolation from other natural habitat predicts a potential decline in equilibrium species richness over time, informing conservation planning around corridors or buffer zones. Choice A reverses the predicted direction of change. Choice D ignores the theory's core prediction that isolation affects richness. Choice C incorrectly dismisses a textbook application of the theory."
     },
     {
       "id": "2-31",
@@ -1512,7 +1512,7 @@ const QUESTIONS = {
         "Further subdividing the existing habitat patches into many smaller, more isolated pieces of remaining habitat."
       ],
       "correct": 0,
-      "explanation": "Since immigration rate is one of the two key factors determining equilibrium richness, corridors connecting isolated patches reduce their functional isolation and are predicted to raise immigration and support higher richness. Choice A removes habitat entirely, the opposite of conservation. Choice B increases isolation, predicted to lower richness. Choice D shrinks and further fragments patches, also predicted to lower richness rather than help it."
+      "explanation": "Since immigration rate is one of the two key factors determining equilibrium richness, corridors connecting isolated patches reduce their functional isolation and are predicted to raise immigration and support higher richness. Choice B removes habitat entirely, the opposite of conservation. Choice C increases isolation, predicted to lower richness. Choice D shrinks and further fragments patches, also predicted to lower richness rather than help it."
     },
     {
       "id": "2-32",
@@ -1538,7 +1538,7 @@ const QUESTIONS = {
         "Both islands reach equilibrium at exactly the same rate and value, according to standard theory."
       ],
       "correct": 2,
-      "explanation": "A small, remote island, with fewer niches to fill and slower immigration, reaches its (lower) equilibrium richness relatively quickly, while a large island near the mainland takes longer to fill its greater number of available niches but ultimately supports a much higher equilibrium richness. Choice A ignores how size and distance affect both speed and final value. Choice C incorrectly attributes both faster speed AND higher value to the same island — in reality, the traits that speed up equilibrium (small, remote) are the opposite of the traits that raise its value (large, close). Choice D denies that the theory makes any prediction, when in fact it predicts both dimensions clearly."
+      "explanation": "A small, remote island, with fewer niches to fill and slower immigration, reaches its (lower) equilibrium richness relatively quickly, while a large island near the mainland takes longer to fill its greater number of available niches but ultimately supports a much higher equilibrium richness. Choice D ignores how size and distance affect both speed and final value. Choice A incorrectly attributes both faster speed AND higher value to the same island — in reality, the traits that speed up equilibrium (small, remote) are the opposite of the traits that raise its value (large, close). Choice B denies that the theory makes any prediction, when in fact it predicts both dimensions clearly."
     },
     {
       "id": "2-34",
@@ -1590,7 +1590,7 @@ const QUESTIONS = {
         "Less vulnerable, since a narrow tolerance range always indicates a more superior, specialized adaptation."
       ],
       "correct": 2,
-      "explanation": "A species with a narrow tolerance range for an important environmental factor is generally more vulnerable to environmental change, since even a modest shift could push conditions beyond what it can survive. Choices B and C both deny any relationship between tolerance-range width and vulnerability, contradicting the core concept. Choice D gets the relationship backward — a narrow range means less buffer, not \"superior adaptation.\""
+      "explanation": "A species with a narrow tolerance range for an important environmental factor is generally more vulnerable to environmental change, since even a modest shift could push conditions beyond what it can survive. Choices A and B both deny any relationship between tolerance-range width and vulnerability, contradicting the core concept. Choice D gets the relationship backward — a narrow range means less buffer, not \"superior adaptation.\""
     },
     {
       "id": "2-38",
@@ -1603,7 +1603,7 @@ const QUESTIONS = {
         "Both species are equally vulnerable regardless of tolerance range width."
       ],
       "correct": 2,
-      "explanation": "The coral's narrow tolerance range means a comparatively modest warming trend could push temperatures beyond its 30°C survival threshold, while the fish's much broader tolerance provides significantly more buffer against the same warming. Choice A ignores the explicit contrast in tolerance widths given in the stem. Choice B reverses the relationship — broader tolerance means less vulnerability, not more. Choice D contradicts the premise that the coral begins dying above 30°C."
+      "explanation": "The coral's narrow tolerance range means a comparatively modest warming trend could push temperatures beyond its 30°C survival threshold, while the fish's much broader tolerance provides significantly more buffer against the same warming. Choice D ignores the explicit contrast in tolerance widths given in the stem. Choice B reverses the relationship — broader tolerance means less vulnerability, not more. Choice A contradicts the premise that the coral begins dying above 30°C."
     },
     {
       "id": "2-39",
@@ -1616,7 +1616,7 @@ const QUESTIONS = {
         "The environmental factor shifts exactly into the species' optimal range, under normal conditions."
       ],
       "correct": 1,
-      "explanation": "A moderate shift away from ideal conditions — enough to reduce fitness and cause stress, but not enough to prevent survival — is precisely the transition from the optimal range into a zone of physiological stress. Choice B describes total extinction, the zone of intolerance, a far more extreme outcome. Choice C describes no change at all, meaning the organism would still be in its optimal range. Choice D describes movement INTO the optimal range, the opposite direction of the scenario described."
+      "explanation": "A moderate shift away from ideal conditions — enough to reduce fitness and cause stress, but not enough to prevent survival — is precisely the transition from the optimal range into a zone of physiological stress. Choice A describes total extinction, the zone of intolerance, a far more extreme outcome. Choice C describes no change at all, meaning the organism would still be in its optimal range. Choice D describes movement INTO the optimal range, the opposite direction of the scenario described."
     },
     {
       "id": "2-40",
@@ -1629,7 +1629,7 @@ const QUESTIONS = {
         "Climate change has no relationship to any species' environmental tolerance."
       ],
       "correct": 1,
-      "explanation": "Understanding a species' tolerance range for key factors like temperature lets scientists predict which species are most at risk as conditions shift under climate change — species with narrow tolerance for factors expected to change significantly become higher conservation priorities. Choice A fabricates a taxonomic restriction; the concept applies to any organism. Choices B and D both deny a well-established and practically important application of the concept."
+      "explanation": "Understanding a species' tolerance range for key factors like temperature lets scientists predict which species are most at risk as conditions shift under climate change — species with narrow tolerance for factors expected to change significantly become higher conservation priorities. Choice C fabricates a taxonomic restriction; the concept applies to any organism. Choices A and D both deny a well-established and practically important application of the concept."
     },
     {
       "id": "2-41",
@@ -1642,7 +1642,7 @@ const QUESTIONS = {
         "The generalist likely has a broader distribution, since it tolerates more varied conditions."
       ],
       "correct": 3,
-      "explanation": "A species with broad tolerance across multiple environmental factors can survive in a much wider variety of locations, generally supporting a broader geographic distribution than a specialist restricted to a narrow set of conditions. Choice A reverses the relationship entirely. Choice C ignores the clear premise that generalists and specialists differ in tolerance. Choice D denies a well-established relationship between tolerance breadth and range size."
+      "explanation": "A species with broad tolerance across multiple environmental factors can survive in a much wider variety of locations, generally supporting a broader geographic distribution than a specialist restricted to a narrow set of conditions. Choice A reverses the relationship entirely. Choice B ignores the clear premise that generalists and specialists differ in tolerance. Choice C denies a well-established relationship between tolerance breadth and range size."
     },
     {
       "id": "2-42",
@@ -1681,7 +1681,7 @@ const QUESTIONS = {
         "Both species are equally suitable regardless of their tolerance ranges."
       ],
       "correct": 2,
-      "explanation": "Given the site's fluctuating soil moisture, Species A's much broader range (10–60%) provides far more buffer than Species B's narrow range (25–35%), which could easily be exceeded during a dry or wet period — making Species A the safer choice for this specific site. Choice A ignores the explicit contrast between the two tolerance ranges. Choice C reverses the relationship: a narrower range means less buffer, not greater hardiness. Choice D contradicts the premise that both species have defined, survivable tolerance ranges."
+      "explanation": "Given the site's fluctuating soil moisture, Species A's much broader range (10–60%) provides far more buffer than Species B's narrow range (25–35%), which could easily be exceeded during a dry or wet period — making Species A the safer choice for this specific site. Choice D ignores the explicit contrast between the two tolerance ranges. Choice B reverses the relationship: a narrower range means less buffer, not greater hardiness. Choice A contradicts the premise that both species have defined, survivable tolerance ranges."
     },
     {
       "id": "2-45",
@@ -1694,7 +1694,7 @@ const QUESTIONS = {
         "Fire-adapted ecosystems never actually experience fire."
       ],
       "correct": 2,
-      "explanation": "A fire-adapted ecosystem has evolved specific traits and processes in response to a long history of periodic fire, and in many cases genuinely depends on it to function normally. Choice A fabricates a taxonomic restriction — plant fire adaptations (like serotinous cones) are actually especially prominent. Choice C contradicts the definition, since fire-adapted ecosystems specifically do experience recurring fire. Choice D describes the opposite of adaptation — fire-adapted ecosystems are built to recover from, not be destroyed by, fire."
+      "explanation": "A fire-adapted ecosystem has evolved specific traits and processes in response to a long history of periodic fire, and in many cases genuinely depends on it to function normally. Choice B fabricates a taxonomic restriction — plant fire adaptations (like serotinous cones) are actually especially prominent. Choice D contradicts the definition, since fire-adapted ecosystems specifically do experience recurring fire. Choice A describes the opposite of adaptation — fire-adapted ecosystems are built to recover from, not be destroyed by, fire."
     },
     {
       "id": "2-46",
@@ -1707,7 +1707,7 @@ const QUESTIONS = {
         "Cones that prevent any seed release under any conditions."
       ],
       "correct": 2,
-      "explanation": "Serotinous cones remain sealed and release seeds only when exposed to fire's heat, timing germination to follow right after a fire has cleared competing vegetation and enriched the soil with ash. Choice A substitutes an unrelated trigger (freezing) with no basis in the actual adaptation. Choice C misplaces the adaptation in the wrong biome — serotiny is a fire-ecosystem trait, not a rainforest one. Choice D describes total seed-release prevention, which would make the cones useless rather than adaptive."
+      "explanation": "Serotinous cones remain sealed and release seeds only when exposed to fire's heat, timing germination to follow right after a fire has cleared competing vegetation and enriched the soil with ash. Choice A substitutes an unrelated trigger (freezing) with no basis in the actual adaptation. Choice B misplaces the adaptation in the wrong biome — serotiny is a fire-ecosystem trait, not a rainforest one. Choice D describes total seed-release prevention, which would make the cones useless rather than adaptive."
     },
     {
       "id": "2-47",
@@ -1720,7 +1720,7 @@ const QUESTIONS = {
         "Fire suppression always reduces fire severity indefinitely with no downsides, under normal conditions."
       ],
       "correct": 2,
-      "explanation": "Total fire suppression lets fuel accumulate well beyond what a natural, periodic-fire regime would allow — since fire can rarely be prevented forever, the eventual fire tends to be far more severe than the smaller, frequent fires the ecosystem historically experienced. Choice A wrongly claims fire-adapted ecosystems are immune to suppression's downsides. Choice B claims the opposite of the correct relationship — suppression eventually increases severity, not reduces it indefinitely. Choice C denies any long-term consequence, contradicting the well-documented fuel-accumulation effect."
+      "explanation": "Total fire suppression lets fuel accumulate well beyond what a natural, periodic-fire regime would allow — since fire can rarely be prevented forever, the eventual fire tends to be far more severe than the smaller, frequent fires the ecosystem historically experienced. Choice B wrongly claims fire-adapted ecosystems are immune to suppression's downsides. Choice D claims the opposite of the correct relationship — suppression eventually increases severity, not reduces it indefinitely. Choice A denies any long-term consequence, contradicting the well-documented fuel-accumulation effect."
     },
     {
       "id": "2-48",
@@ -1733,7 +1733,7 @@ const QUESTIONS = {
         "No, because natural disturbances never actually affect any ecosystem."
       ],
       "correct": 2,
-      "explanation": "Many ecosystems have evolved specific adaptations to a natural disturbance regime and aren't simply harmed by every disturbance uniformly — some genuinely depend on periodic disturbance (like fire) as part of normal functioning. Choice A overgeneralizes destructiveness across all ecosystems. Choice B fabricates an aquatic-only exception with no basis. Choice C denies that disturbances have any effect at all, contradicting the entire premise of the question."
+      "explanation": "Many ecosystems have evolved specific adaptations to a natural disturbance regime and aren't simply harmed by every disturbance uniformly — some genuinely depend on periodic disturbance (like fire) as part of normal functioning. Choice B overgeneralizes destructiveness across all ecosystems. Choice A fabricates an aquatic-only exception with no basis. Choice D denies that disturbances have any effect at all, contradicting the entire premise of the question."
     },
     {
       "id": "2-49",
@@ -1746,7 +1746,7 @@ const QUESTIONS = {
         "Fire clears dead material and suppresses competitors, benefiting fire-adapted species."
       ],
       "correct": 3,
-      "explanation": "Periodic fire in a fire-adapted ecosystem clears accumulated dead plant material and can suppress competing, non-fire-adapted species, favoring the fire-adapted species that evolved alongside this disturbance regime. Choice A overstates fire's destructiveness as total and permanent. Choice B denies any beneficial function, contradicting a core concept of fire ecology. Choice D wrongly restricts fire's effects to soil chemistry alone, ignoring its direct effects on vegetation and animal populations."
+      "explanation": "Periodic fire in a fire-adapted ecosystem clears accumulated dead plant material and can suppress competing, non-fire-adapted species, favoring the fire-adapted species that evolved alongside this disturbance regime. Choice A overstates fire's destructiveness as total and permanent. Choice B denies any beneficial function, contradicting a core concept of fire ecology. Choice C wrongly restricts fire's effects to soil chemistry alone, ignoring its direct effects on vegetation and animal populations."
     },
     {
       "id": "2-50",
@@ -1759,7 +1759,7 @@ const QUESTIONS = {
         "A term with no established ecological meaning."
       ],
       "correct": 2,
-      "explanation": "A disturbance regime describes the characteristic pattern of natural disturbances — how frequently and intensely fire, flooding, or storms typically occur — that a specific ecosystem has experienced over long periods, shaping the adaptations of species there. Choice A confuses an ecological concept with a policy/administrative one. Choice B denies a standard, well-established ecological term. Choice D equates the concept with destruction, when it actually describes a normal, often beneficial, recurring pattern."
+      "explanation": "A disturbance regime describes the characteristic pattern of natural disturbances — how frequently and intensely fire, flooding, or storms typically occur — that a specific ecosystem has experienced over long periods, shaping the adaptations of species there. Choice B confuses an ecological concept with a policy/administrative one. Choice D denies a standard, well-established ecological term. Choice A equates the concept with destruction, when it actually describes a normal, often beneficial, recurring pattern."
     },
     {
       "id": "2-51",
@@ -1772,7 +1772,7 @@ const QUESTIONS = {
         "To restore the natural disturbance regime and support fire-adapted species."
       ],
       "correct": 3,
-      "explanation": "Reintroducing controlled burns is a well-established strategy to restore a fire-adapted ecosystem's natural disturbance regime — reducing dangerously accumulated fuel loads and supporting fire-adapted species and processes disrupted by decades of suppression. Choice A misstates the goal — the intent is to restore the existing grassland ecosystem, not convert it to a different biome. Choice B denies a widely practiced, well-justified management tool. Choice D overstates the goal as total vegetation elimination, when low-intensity burns specifically aim to preserve and support the existing fire-adapted plant community."
+      "explanation": "Reintroducing controlled burns is a well-established strategy to restore a fire-adapted ecosystem's natural disturbance regime — reducing dangerously accumulated fuel loads and supporting fire-adapted species and processes disrupted by decades of suppression. Choice C misstates the goal — the intent is to restore the existing grassland ecosystem, not convert it to a different biome. Choice A denies a widely practiced, well-justified management tool. Choice B overstates the goal as total vegetation elimination, when low-intensity burns specifically aim to preserve and support the existing fire-adapted plant community."
     },
     {
       "id": "2-52",
@@ -1798,7 +1798,7 @@ const QUESTIONS = {
         "This scenario has no relationship to the disturbance regime concept."
       ],
       "correct": 0,
-      "explanation": "Just as some ecosystems are fire-adapted from a long history of periodic fire, some coastal ecosystems have evolved alongside periodic hurricanes and may have adaptations (resilient root systems, disturbance-timed life cycles) supporting recovery — treating the hurricane as part of a normal disturbance regime rather than an unprecedented catastrophe. Choice A denies the stem's own premise of \"significant immediate damage.\" Choice B denies any storm effect at all. Choice D dismisses the disturbance-regime framework that directly explains this scenario."
+      "explanation": "Just as some ecosystems are fire-adapted from a long history of periodic fire, some coastal ecosystems have evolved alongside periodic hurricanes and may have adaptations (resilient root systems, disturbance-timed life cycles) supporting recovery — treating the hurricane as part of a normal disturbance regime rather than an unprecedented catastrophe. Choice C denies the stem's own premise of \"significant immediate damage.\" Choice B denies any storm effect at all. Choice D dismisses the disturbance-regime framework that directly explains this scenario."
     },
     {
       "id": "2-54",
@@ -1811,7 +1811,7 @@ const QUESTIONS = {
         "Fire suppression always and permanently reduces the severity of any future fire, without exception."
       ],
       "correct": 2,
-      "explanation": "This is the well-documented consequence of long-term fire suppression in a fire-adapted ecosystem: fuel buildup from decades of preventing smaller, natural fires produces a far more severe event once fire eventually occurs than the historical disturbance regime would have produced. Choice A claims the opposite of what actually happens. Choice B ignores the well-established causal link between suppression and fuel accumulation. Choice C wrongly concludes the forest \"was never fire-adapted\" from an outcome that is actually a hallmark consequence of disrupting fire adaptation through suppression."
+      "explanation": "This is the well-documented consequence of long-term fire suppression in a fire-adapted ecosystem: fuel buildup from decades of preventing smaller, natural fires produces a far more severe event once fire eventually occurs than the historical disturbance regime would have produced. Choice D claims the opposite of what actually happens. Choice B ignores the well-established causal link between suppression and fuel accumulation. Choice A wrongly concludes the forest \"was never fire-adapted\" from an outcome that is actually a hallmark consequence of disrupting fire adaptation through suppression."
     },
     {
       "id": "2-55",
@@ -1837,7 +1837,7 @@ const QUESTIONS = {
         "Primary succession is always faster than secondary succession, according to standard theory."
       ],
       "correct": 2,
-      "explanation": "Primary succession begins on bare rock or substrate entirely lacking soil (after a volcanic eruption or glacial retreat); secondary succession begins on an already-disturbed area retaining existing soil (after a fire or farmland abandonment). Choice B reverses the actual speed relationship — primary succession is slower, not faster, since soil must form from scratch. Choice C denies a fundamental, well-established distinction. Choice D fabricates an aquatic-only restriction with no basis."
+      "explanation": "Primary succession begins on bare rock or substrate entirely lacking soil (after a volcanic eruption or glacial retreat); secondary succession begins on an already-disturbed area retaining existing soil (after a fire or farmland abandonment). Choice D reverses the actual speed relationship — primary succession is slower, not faster, since soil must form from scratch. Choice A denies a fundamental, well-established distinction. Choice B fabricates an aquatic-only restriction with no basis."
     },
     {
       "id": "2-57",
@@ -1850,7 +1850,7 @@ const QUESTIONS = {
         "Primary succession has no relationship to soil formation, according to standard theory."
       ],
       "correct": 0,
-      "explanation": "Primary succession must start from bare rock with no soil, requiring pioneer species to slowly begin soil formation before later species can establish — a step secondary succession skips, since usable soil (and often a seed bank) is already present. Choice A fabricates a taxonomic restriction unrelated to the actual distinction. Choice B denies the central role soil formation plays in primary succession's slow pace. Choice C introduces an unrelated variable (climate) not actually responsible for the speed difference."
+      "explanation": "Primary succession must start from bare rock with no soil, requiring pioneer species to slowly begin soil formation before later species can establish — a step secondary succession skips, since usable soil (and often a seed bank) is already present. Choice C fabricates a taxonomic restriction unrelated to the actual distinction. Choice D denies the central role soil formation plays in primary succession's slow pace. Choice B introduces an unrelated variable (climate) not actually responsible for the speed difference."
     },
     {
       "id": "2-58",
@@ -1863,7 +1863,7 @@ const QUESTIONS = {
         "Species that only ever appear during secondary succession, and never during primary succession."
       ],
       "correct": 1,
-      "explanation": "Pioneer species — typically lichens and mosses in primary succession — are the first organisms to colonize bare rock, gradually breaking it down and building the first thin layer of soil later species depend on. Choice B reverses the actual pattern — pioneer species are specifically associated with primary succession, not excluded from it. Choice C describes the opposite stage: the late, established community, not the earliest colonizers. Choice D confuses two unrelated ecological concepts — keystone species relates to ecosystem-wide influence, not succession timing."
+      "explanation": "Pioneer species — typically lichens and mosses in primary succession — are the first organisms to colonize bare rock, gradually breaking it down and building the first thin layer of soil later species depend on. Choice D reverses the actual pattern — pioneer species are specifically associated with primary succession, not excluded from it. Choice C describes the opposite stage: the late, established community, not the earliest colonizers. Choice A confuses two unrelated ecological concepts — keystone species relates to ecosystem-wide influence, not succession timing."
     },
     {
       "id": "2-59",
@@ -1876,7 +1876,7 @@ const QUESTIONS = {
         "Primary succession, since the exposed rock has no pre-existing soil."
       ],
       "correct": 3,
-      "explanation": "Since the newly exposed rock lacks pre-existing soil, this site undergoes primary succession, beginning with pioneer species like lichens starting the slow soil-formation process. Choice A wrongly claims the scenario can't be classified, when it's a textbook primary-succession example. Choice C incorrectly assumes soil (and survivors) persist under glacial ice, which primary succession scenarios specifically rule out. Choice D denies that succession occurs at all, contradicting the very premise of newly exposed bare rock being colonized over time."
+      "explanation": "Since the newly exposed rock lacks pre-existing soil, this site undergoes primary succession, beginning with pioneer species like lichens starting the slow soil-formation process. Choice C wrongly claims the scenario can't be classified, when it's a textbook primary-succession example. Choice A incorrectly assumes soil (and survivors) persist under glacial ice, which primary succession scenarios specifically rule out. Choice B denies that succession occurs at all, contradicting the very premise of newly exposed bare rock being colonized over time."
     },
     {
       "id": "2-60",
@@ -1889,7 +1889,7 @@ const QUESTIONS = {
         "Secondary succession, since the field retains existing soil and a seed bank from farming."
       ],
       "correct": 3,
-      "explanation": "Since abandoned farmland retains existing soil (and often a dormant seed bank) from its agricultural history, this site undergoes secondary succession, which proceeds considerably faster than primary succession since soil formation isn't required. Choice A denies that succession occurs at all, contradicting the premise. Choice C incorrectly equates farmland (which retains soil) with bare rock (which lacks it) — the opposite starting condition. Choice D wrongly claims the scenario resists classification, when it's a textbook secondary-succession example."
+      "explanation": "Since abandoned farmland retains existing soil (and often a dormant seed bank) from its agricultural history, this site undergoes secondary succession, which proceeds considerably faster than primary succession since soil formation isn't required. Choice B denies that succession occurs at all, contradicting the premise. Choice A incorrectly equates farmland (which retains soil) with bare rock (which lacks it) — the opposite starting condition. Choice C wrongly claims the scenario resists classification, when it's a textbook secondary-succession example."
     },
     {
       "id": "2-61",
@@ -1902,7 +1902,7 @@ const QUESTIONS = {
         "No, because succession never actually reaches any stable state at all, ever."
       ],
       "correct": 1,
-      "explanation": "While the classic \"climax community\" concept described succession as ending in one permanent, stable community, most ecologists today recognize mature ecosystems remain genuinely dynamic, continuing to change gradually from small-scale disturbance, climate variation, and species interactions. Choice A fabricates an arbitrary primary-vs-secondary distinction not supported by the concept. Choice C overcorrects by denying any relative stability ever occurs, which is also an oversimplification. Choice D restates the outdated \"fixed endpoint\" view the question asks you to evaluate critically."
+      "explanation": "While the classic \"climax community\" concept described succession as ending in one permanent, stable community, most ecologists today recognize mature ecosystems remain genuinely dynamic, continuing to change gradually from small-scale disturbance, climate variation, and species interactions. Choice A fabricates an arbitrary primary-vs-secondary distinction not supported by the concept. Choice D overcorrects by denying any relative stability ever occurs, which is also an oversimplification. Choice C restates the outdated \"fixed endpoint\" view the question asks you to evaluate critically."
     },
     {
       "id": "2-62",
@@ -1928,7 +1928,7 @@ const QUESTIONS = {
         "Secondary succession, proceeding considerably faster than primary succession, since soil remains."
       ],
       "correct": 3,
-      "explanation": "Since the underlying soil survives the fire, this site undergoes secondary succession — proceeding considerably faster than the primary succession that would follow a volcanic eruption, since existing soil and often surviving roots or a seed bank give vegetation a head start. Choice A denies succession occurs at all, contradicting the premise. Choice B wrongly claims the pace can't be compared, when the soil-vs-no-soil distinction makes a clear, predictable comparison possible. Choice C misclassifies the succession type — surviving soil is the defining trait of secondary, not primary, succession."
+      "explanation": "Since the underlying soil survives the fire, this site undergoes secondary succession — proceeding considerably faster than the primary succession that would follow a volcanic eruption, since existing soil and often surviving roots or a seed bank give vegetation a head start. Choice A denies succession occurs at all, contradicting the premise. Choice C wrongly claims the pace can't be compared, when the soil-vs-no-soil distinction makes a clear, predictable comparison possible. Choice B misclassifies the succession type — surviving soil is the defining trait of secondary, not primary, succession."
     },
     {
       "id": "2-64",
@@ -1954,7 +1954,7 @@ const QUESTIONS = {
         "Topsoil reintroduction is irrelevant to succession type and only affects the site's appearance, under normal conditions."
       ],
       "correct": 2,
-      "explanation": "This scenario tests whether the underlying logic of the primary-vs-secondary distinction — presence or absence of usable soil (and its associated seed bank/microorganisms) — applies to a novel, human-engineered situation. Reintroducing stockpiled topsoil recreates the starting conditions of secondary succession rather than the bare-rock conditions of true primary succession, so treated sites are expected to recover considerably faster. Choice A wrongly reduces topsoil's role to mere appearance, ignoring its functional role in seeding recovery. Choice B incorrectly claims all mining sites default to primary succession regardless of treatment, ignoring how soil reintroduction changes the starting conditions. Choice C reverses the outcome — soil reintroduction speeds up recovery, it doesn't slow it."
+      "explanation": "This scenario tests whether the underlying logic of the primary-vs-secondary distinction — presence or absence of usable soil (and its associated seed bank/microorganisms) — applies to a novel, human-engineered situation. Reintroducing stockpiled topsoil recreates the starting conditions of secondary succession rather than the bare-rock conditions of true primary succession, so treated sites are expected to recover considerably faster. Choice D wrongly reduces topsoil's role to mere appearance, ignoring its functional role in seeding recovery. Choice A incorrectly claims all mining sites default to primary succession regardless of treatment, ignoring how soil reintroduction changes the starting conditions. Choice B reverses the outcome — soil reintroduction speeds up recovery, it doesn't slow it."
     },
     {
       "id": "2-66",
@@ -1980,7 +1980,7 @@ const QUESTIONS = {
         "From 0 (a single species) to just under 1 (many species, evenly distributed)."
       ],
       "correct": 3,
-      "explanation": "D ranges from 0 (a community with only one species) to just under 1 (many species, evenly distributed) — higher values indicate higher diversity. Choice A confuses D with species richness, a different measure entirely. Choice B vastly overstates the possible range; D is a proportion-based index bounded between 0 and 1. Choice C fabricates a negative range that doesn't match the formula's actual output, since squared proportions can never produce a negative sum."
+      "explanation": "D ranges from 0 (a community with only one species) to just under 1 (many species, evenly distributed) — higher values indicate higher diversity. Choice B confuses D with species richness, a different measure entirely. Choice C vastly overstates the possible range; D is a proportion-based index bounded between 0 and 1. Choice A fabricates a negative range that doesn't match the formula's actual output, since squared proportions can never produce a negative sum."
     },
     {
       "id": "2-68",
@@ -2032,7 +2032,7 @@ const QUESTIONS = {
         "No error; 0.70 is already the correct diversity index, under normal conditions."
       ],
       "correct": 1,
-      "explanation": "The student stopped one step too early — Σ(n/N)² alone is a dominance measure (higher value means less diverse); the actual index requires subtracting from 1, giving D = 1 − 0.70 = 0.30. Choice A wrongly accepts the unfinished calculation as final. Choice C proposes the wrong operation — adding 1 instead of subtracting would produce a value above 1, which is outside D's valid range. Choice D wrongly assumes 0.70 itself must be an invalid intermediate value, when Σ(n/N)² of 0.70 is a perfectly plausible result for a fairly dominated community."
+      "explanation": "The student stopped one step too early — Σ(n/N)² alone is a dominance measure (higher value means less diverse); the actual index requires subtracting from 1, giving D = 1 − 0.70 = 0.30. Choice D wrongly accepts the unfinished calculation as final. Choice A proposes the wrong operation — adding 1 instead of subtracting would produce a value above 1, which is outside D's valid range. Choice C wrongly assumes 0.70 itself must be an invalid intermediate value, when Σ(n/N)² of 0.70 is a perfectly plausible result for a fairly dominated community."
     },
     {
       "id": "2-72",
@@ -2058,7 +2058,7 @@ const QUESTIONS = {
         "Community P: D=0.50; Community Q: D=0.90 — richness alone determines D with no role for evenness."
       ],
       "correct": 1,
-      "explanation": "Community P: Σ(10/100)² × 10 = 10 × 0.01 = 0.10, so D = 0.90. Community Q: (40/100)²+(30/100)²+(30/100)² = 0.16+0.09+0.09 = 0.34, so D = 0.66. Both communities are internally quite even (no species dominates dramatically in either), yet Community P's much higher richness (10 species vs. 3) still produces a meaningfully higher D — richness ALSO independently contributes to D even when comparing two reasonably even communities, since Simpson's Index incorporates both components simultaneously. Choice A gets the correct D values swapped but wrongly claims richness alone determines D, ignoring evenness's role shown in earlier questions. Choice C is simply factually wrong — the two D values (0.90 vs. 0.66) are clearly not identical. Choice D incorrectly claims D can't be calculated across differing richness levels, when the formula works identically regardless of how many species are present."
+      "explanation": "Community P: Σ(10/100)² × 10 = 10 × 0.01 = 0.10, so D = 0.90. Community Q: (40/100)²+(30/100)²+(30/100)² = 0.16+0.09+0.09 = 0.34, so D = 0.66. Both communities are internally quite even (no species dominates dramatically in either), yet Community P's much higher richness (10 species vs. 3) still produces a meaningfully higher D — richness ALSO independently contributes to D even when comparing two reasonably even communities, since Simpson's Index incorporates both components simultaneously. Choice D gets the correct D values swapped but wrongly claims richness alone determines D, ignoring evenness's role shown in earlier questions. Choice A is simply factually wrong — the two D values (0.90 vs. 0.66) are clearly not identical. Choice C incorrectly claims D can't be calculated across differing richness levels, when the formula works identically regardless of how many species are present."
     },
     {
       "id": "2-74",
@@ -2110,7 +2110,7 @@ const QUESTIONS = {
         "Crop growth would decrease, since nitrogen and phosphorus cannot be used together."
       ],
       "correct": 1,
-      "explanation": "Liebig's Law of the Minimum holds that growth is limited by the scarcest resource relative to need — since phosphorus, not nitrogen, is limiting here, adding more nitrogen (already abundant) does nothing to increase growth. Choice A assumes fertilizer always helps regardless of what's actually limiting, contradicting the Law of the Minimum. Choice B assumes a partial, proportional benefit that the Law of the Minimum specifically rules out once a factor is non-limiting. Choice D fabricates an antagonistic nitrogen-phosphorus interaction with no basis in the stem."
+      "explanation": "Liebig's Law of the Minimum holds that growth is limited by the scarcest resource relative to need — since phosphorus, not nitrogen, is limiting here, adding more nitrogen (already abundant) does nothing to increase growth. Choice A assumes fertilizer always helps regardless of what's actually limiting, contradicting the Law of the Minimum. Choice C assumes a partial, proportional benefit that the Law of the Minimum specifically rules out once a factor is non-limiting. Choice D fabricates an antagonistic nitrogen-phosphorus interaction with no basis in the stem."
     },
     {
       "id": "2-78",
@@ -2136,7 +2136,7 @@ const QUESTIONS = {
         "This is not a true adaptation at all, since the fish developed it individually in response to need."
       ],
       "correct": 2,
-      "explanation": "Producing antifreeze proteins is an internal biochemical/metabolic process, the definition of a physiological adaptation. Choice B misclassifies it as behavioral, but this trait involves no action or behavior pattern — it's a fixed biochemical trait. Choice C misclassifies it as structural because it involves \"body tissue,\" but the trait is really a biochemical function, not a physical structure like a shape or body part. Choice D incorrectly frames adaptation as something an individual develops \"in response to need\" within its lifetime, rather than a trait shaped by natural selection over generations (the same misconception addressed in question 2-81)."
+      "explanation": "Producing antifreeze proteins is an internal biochemical/metabolic process, the definition of a physiological adaptation. Choice A misclassifies it as behavioral, but this trait involves no action or behavior pattern — it's a fixed biochemical trait. Choice B misclassifies it as structural because it involves \"body tissue,\" but the trait is really a biochemical function, not a physical structure like a shape or body part. Choice D incorrectly frames adaptation as something an individual develops \"in response to need\" within its lifetime, rather than a trait shaped by natural selection over generations (the same misconception addressed in question 2-81)."
     },
     {
       "id": "2-80",
@@ -2162,7 +2162,7 @@ const QUESTIONS = {
         "The flaw is that soot could not possibly affect moth coloration in any way, according to standard theory."
       ],
       "correct": 0,
-      "explanation": "This is the classic misconception this unit warns against: adaptation happens at the population level over generations, through natural selection acting on pre-existing trait variation (some moths already darker), not individuals purposefully changing during their lifetime. Choice A endorses the flawed premise itself, rather than identifying it as an error. Choice B misidentifies the flaw — soot genuinely can and does affect selection pressure on moth coloration (the classic peppered moth example); the error is in the mechanism proposed, not the soot's relevance. Choice D also misidentifies the flaw; moths clearly can have heritable coloration traits, which is precisely what makes natural selection possible in this example."
+      "explanation": "This is the classic misconception this unit warns against: adaptation happens at the population level over generations, through natural selection acting on pre-existing trait variation (some moths already darker), not individuals purposefully changing during their lifetime. Choice B endorses the flawed premise itself, rather than identifying it as an error. Choice D misidentifies the flaw — soot genuinely can and does affect selection pressure on moth coloration (the classic peppered moth example); the error is in the mechanism proposed, not the soot's relevance. Choice C also misidentifies the flaw; moths clearly can have heritable coloration traits, which is precisely what makes natural selection possible in this example."
     },
     {
       "id": "2-82",
@@ -2175,7 +2175,7 @@ const QUESTIONS = {
         "A straight diagonal line, since doubling the habitat area always exactly doubles the number of species present."
       ],
       "correct": 1,
-      "explanation": "The species-area relationship produces a curve that rises steeply at first and then levels off — doubling area doesn't double species number, since additional area mostly supports more individuals of already-present species, plus only some genuinely new ones. Choice A wrongly assumes a proportional, linear relationship. Choice C denies any relationship between area and richness at all, contradicting the well-established species-area curve. Choice D describes a declining relationship, the opposite of the actual (positive, decelerating) pattern."
+      "explanation": "The species-area relationship produces a curve that rises steeply at first and then levels off — doubling area doesn't double species number, since additional area mostly supports more individuals of already-present species, plus only some genuinely new ones. Choice D wrongly assumes a proportional, linear relationship. Choice C denies any relationship between area and richness at all, contradicting the well-established species-area curve. Choice A describes a declining relationship, the opposite of the actual (positive, decelerating) pattern."
     },
     {
       "id": "2-83",
@@ -2188,7 +2188,7 @@ const QUESTIONS = {
         "Smaller patches have proportionally more boundary, exposing more habitat to harmful edge conditions."
       ],
       "correct": 3,
-      "explanation": "Smaller patches have a higher boundary-to-area ratio than one large patch of the same total area, so fragmentation sharply increases the proportion of edge habitat — this boundary zone experiences harsher, more variable conditions and greater exposure to predators, competitors, and invasive species, harming species that need stable interior conditions. Choice A denies the geometric relationship between patch size and edge proportion, which holds mathematically regardless of context. Choice C wrongly claims edge habitat requires human construction, when fragmentation itself geometrically creates edge, independent of the cause. Choice D fabricates an aquatic-only restriction; edge effects are actually a predominantly terrestrial concept in this context (forest fragmentation, wildlife corridors)."
+      "explanation": "Smaller patches have a higher boundary-to-area ratio than one large patch of the same total area, so fragmentation sharply increases the proportion of edge habitat — this boundary zone experiences harsher, more variable conditions and greater exposure to predators, competitors, and invasive species, harming species that need stable interior conditions. Choice A denies the geometric relationship between patch size and edge proportion, which holds mathematically regardless of context. Choice C wrongly claims edge habitat requires human construction, when fragmentation itself geometrically creates edge, independent of the cause. Choice B fabricates an aquatic-only restriction; edge effects are actually a predominantly terrestrial concept in this context (forest fragmentation, wildlife corridors)."
     }
   ],
   "3": [
@@ -6332,7 +6332,7 @@ const QUESTIONS = {
         "A pollutant entirely unrelated to primary pollutants or their chemistry."
       ],
       "correct": 1,
-      "explanation": "A secondary pollutant, like ground-level ozone formed from NOx and VOCs reacting in sunlight, forms through atmospheric chemistry rather than being released directly. Choice A describes a primary pollutant instead. Secondary pollutants aren't confined indoors, and far from being unrelated to primary pollutants, they are defined by their dependence on them as chemical precursors."
+      "explanation": "A secondary pollutant, like ground-level ozone formed from NOx and VOCs reacting in sunlight, forms through atmospheric chemistry rather than being released directly. Choice C describes a primary pollutant instead. Secondary pollutants aren't confined indoors, and far from being unrelated to primary pollutants, they are defined by their dependence on them as chemical precursors."
     },
     {
       "id": "7-3",
@@ -6358,7 +6358,7 @@ const QUESTIONS = {
         "Secondary pollutants have no primary pollutant precursors of any kind driving their formation."
       ],
       "correct": 2,
-      "explanation": "A secondary pollutant has no single direct emission source to regulate -- it forms from a chemical reaction between primary pollutants -- so effective control means reducing those primary precursors (e.g., NOx and VOCs for ozone). This is not necessarily easier than controlling primary pollutants (B), and it is false that secondary pollutants lack primary precursors (C) or are uncontrollable altogether (D) -- regulating precursors is a well-established control strategy."
+      "explanation": "A secondary pollutant has no single direct emission source to regulate -- it forms from a chemical reaction between primary pollutants -- so effective control means reducing those primary precursors (e.g., NOx and VOCs for ozone). This is not necessarily easier than controlling primary pollutants (B), and it is false that secondary pollutants lack primary precursors (D) or are uncontrollable altogether (A) -- regulating precursors is a well-established control strategy."
     },
     {
       "id": "7-5",
@@ -6371,7 +6371,7 @@ const QUESTIONS = {
         "The NOx here is primary; the ozone is secondary."
       ],
       "correct": 3,
-      "explanation": "The NOx is released directly from the factory, making it a primary pollutant; the ozone forms afterward through a reaction with VOCs and sunlight, making it secondary. Calling both secondary (A) ignores that NOx is directly emitted; calling both primary (C) ignores that ozone forms via a later reaction; and reversing the classification (D) swaps which pollutant is emitted directly versus formed through chemistry."
+      "explanation": "The NOx is released directly from the factory, making it a primary pollutant; the ozone forms afterward through a reaction with VOCs and sunlight, making it secondary. Calling both secondary (A) ignores that NOx is directly emitted; calling both primary (C) ignores that ozone forms via a later reaction; and reversing the classification (B) swaps which pollutant is emitted directly versus formed through chemistry."
     },
     {
       "id": "7-6",
@@ -6397,7 +6397,7 @@ const QUESTIONS = {
         "Secondary -- it forms only through atmospheric chemical reactions, never direct release."
       ],
       "correct": 0,
-      "explanation": "Particulate matter is generally a primary pollutant -- emitted directly from combustion and industrial sources -- though some PM does form secondarily from gas-phase reactions. It is not classified as a greenhouse gas rather than a pollutant (A); it is not exclusively secondary (C), since most PM is directly emitted; and it clearly fits within the primary/secondary framework (D)."
+      "explanation": "Particulate matter is generally a primary pollutant -- emitted directly from combustion and industrial sources -- though some PM does form secondarily from gas-phase reactions. It is not classified as a greenhouse gas rather than a pollutant (B); it is not exclusively secondary (D), since most PM is directly emitted; and it clearly fits within the primary/secondary framework (C)."
     },
     {
       "id": "7-8",
@@ -6410,7 +6410,7 @@ const QUESTIONS = {
         "There is no effective strategy for reducing any secondary pollutant."
       ],
       "correct": 2,
-      "explanation": "Ground-level ozone forms when NOx and VOCs react in sunlight, so reducing those precursor emissions is the effective control strategy. There is no direct ozone 'source' to regulate (C), since ozone forms secondarily; strategies do exist for secondary pollutants (A); and increasing precursor emissions (D) would worsen, not reduce, ozone formation."
+      "explanation": "Ground-level ozone forms when NOx and VOCs react in sunlight, so reducing those precursor emissions is the effective control strategy. There is no direct ozone 'source' to regulate (B), since ozone forms secondarily; strategies do exist for secondary pollutants (D); and increasing precursor emissions (A) would worsen, not reduce, ozone formation."
     },
     {
       "id": "7-9",
@@ -6423,7 +6423,7 @@ const QUESTIONS = {
         "A primary pollutant, released directly from the vehicle's exhaust."
       ],
       "correct": 3,
-      "explanation": "CO is emitted directly from vehicle exhaust, making it a primary pollutant. It is not confined to the stratosphere (B) -- CO is a surface-level concern; it does not form through an atmospheric reaction like a secondary pollutant would (C); and since it clearly meets the primary pollutant definition, D is incorrect."
+      "explanation": "CO is emitted directly from vehicle exhaust, making it a primary pollutant. It is not confined to the stratosphere (A) -- CO is a surface-level concern; it does not form through an atmospheric reaction like a secondary pollutant would (C); and since it clearly meets the primary pollutant definition, B is incorrect."
     },
     {
       "id": "7-10",
@@ -6449,7 +6449,7 @@ const QUESTIONS = {
         "Complete darkness, with no light present at all."
       ],
       "correct": 2,
-      "explanation": "Sunlight supplies the energy for the NOx-VOC reaction that produces ground-level ozone and other smog components, which is why smog is worse on sunny days. Darkness (B) would halt this photochemical reaction rather than enable it, and high winds or freezing temperatures aren't required inputs for the reaction itself."
+      "explanation": "Sunlight supplies the energy for the NOx-VOC reaction that produces ground-level ozone and other smog components, which is why smog is worse on sunny days. Darkness (D) would halt this photochemical reaction rather than enable it, and high winds or freezing temperatures aren't required inputs for the reaction itself."
     },
     {
       "id": "7-12",
@@ -6462,7 +6462,7 @@ const QUESTIONS = {
         "Overcast days consistently have far higher vehicle traffic than sunny days."
       ],
       "correct": 1,
-      "explanation": "Because sunlight is a required input for the NOx-VOC reaction, the more intense sunlight of hot, sunny days drives smog formation more vigorously than the weaker light of overcast days. Sunlight is directly, not tangentially, related to smog (B); traffic differences (C) aren't the explanation for this sunlight-driven pattern; and smog formation depends on sunlight, not cold temperatures (D)."
+      "explanation": "Because sunlight is a required input for the NOx-VOC reaction, the more intense sunlight of hot, sunny days drives smog formation more vigorously than the weaker light of overcast days. Sunlight is directly, not tangentially, related to smog (A); traffic differences (D) aren't the explanation for this sunlight-driven pattern; and smog formation depends on sunlight, not cold temperatures (C)."
     },
     {
       "id": "7-13",
@@ -6475,7 +6475,7 @@ const QUESTIONS = {
         "Los Angeles receives essentially no sunlight for most of the year."
       ],
       "correct": 0,
-      "explanation": "Los Angeles combines abundant sunshine (driving the photochemical reaction) with heavy vehicle traffic (supplying NOx and VOC precursors), historically producing severe smog. In reality Los Angeles is known for abundant sunshine, not its absence (B); it has notably heavy, not low, traffic (C); and smog formation is fundamentally tied to both factors, contradicting D."
+      "explanation": "Los Angeles combines abundant sunshine (driving the photochemical reaction) with heavy vehicle traffic (supplying NOx and VOC precursors), historically producing severe smog. In reality Los Angeles is known for abundant sunshine, not its absence (D); it has notably heavy, not low, traffic (B); and smog formation is fundamentally tied to both factors, contradicting C."
     },
     {
       "id": "7-14",
@@ -6488,7 +6488,7 @@ const QUESTIONS = {
         "No -- ground-level ozone is harmful, while stratospheric ozone is protective."
       ],
       "correct": 3,
-      "explanation": "Ground-level and stratospheric ozone are chemically the same molecule (O3) but represent opposite concerns: ground-level ozone is a harmful smog component, while stratospheric ozone protects life by absorbing UV radiation -- so they are not identical concerns (B, D), and ground-level ozone is a real, measurable pollutant, not a myth (C)."
+      "explanation": "Ground-level and stratospheric ozone are chemically the same molecule (O3) but represent opposite concerns: ground-level ozone is a harmful smog component, while stratospheric ozone protects life by absorbing UV radiation -- so they are not identical concerns (B, C), and ground-level ozone is a real, measurable pollutant, not a myth (A)."
     },
     {
       "id": "7-15",
@@ -6501,7 +6501,7 @@ const QUESTIONS = {
         "Smog levels would likely decrease, since fewer precursors remain to react."
       ],
       "correct": 3,
-      "explanation": "Since NOx and VOCs are the raw materials for the photochemical reaction that forms smog, cutting their emissions reduces the material available to react, so smog levels would be expected to decrease -- not increase (B) or stay unchanged (C). Emission controls are directly, not tangentially, related to smog levels (D)."
+      "explanation": "Since NOx and VOCs are the raw materials for the photochemical reaction that forms smog, cutting their emissions reduces the material available to react, so smog levels would be expected to decrease -- not increase (A) or stay unchanged (C). Emission controls are directly, not tangentially, related to smog levels (B)."
     },
     {
       "id": "7-16",
@@ -6527,7 +6527,7 @@ const QUESTIONS = {
         "No, since photochemical smog has no established relationship to vehicle emissions."
       ],
       "correct": 0,
-      "explanation": "Vehicles emit the primary pollutants NOx and VOCs, which react afterward in the atmosphere with sunlight to form smog -- the smog itself is not tailpipe exhaust. Choice A wrongly denies any link between vehicles and smog, while C and D both incorrectly claim smog is emitted directly rather than formed secondarily."
+      "explanation": "Vehicles emit the primary pollutants NOx and VOCs, which react afterward in the atmosphere with sunlight to form smog -- the smog itself is not tailpipe exhaust. Choice D wrongly denies any link between vehicles and smog, while B and C both incorrectly claim smog is emitted directly rather than formed secondarily."
     },
     {
       "id": "7-18",
@@ -6553,7 +6553,7 @@ const QUESTIONS = {
         "Warm air sitting above cooler surface air, the reverse of the normal pattern."
       ],
       "correct": 3,
-      "explanation": "A thermal inversion is a layer of warm air sitting above cooler surface air -- the reverse of the troposphere's normal decreasing-with-altitude pattern. It is not another name for smog (B), which is a pollutant mixture, not a temperature structure; it occurs in the troposphere, not the stratosphere (C); and it is the reverse of, not identical to, the normal pattern (D)."
+      "explanation": "A thermal inversion is a layer of warm air sitting above cooler surface air -- the reverse of the troposphere's normal decreasing-with-altitude pattern. It is not another name for smog (A), which is a pollutant mixture, not a temperature structure; it occurs in the troposphere, not the stratosphere (C); and it is the reverse of, not identical to, the normal pattern (B)."
     },
     {
       "id": "7-20",
@@ -6566,7 +6566,7 @@ const QUESTIONS = {
         "Thermal inversions have no established relationship to pollutant dispersal."
       ],
       "correct": 0,
-      "explanation": "Because the warm air aloft is less dense than the cool surface air, it acts as a 'lid' that blocks the surface air -- and pollutants within it -- from rising and dispersing normally. Inversions are directly tied to dispersal (contradicting A); they aren't confined to nighttime pollution-free hours (C); and warm air is actually less dense, not denser, than cool air (D)."
+      "explanation": "Because the warm air aloft is less dense than the cool surface air, it acts as a 'lid' that blocks the surface air -- and pollutants within it -- from rising and dispersing normally. Inversions are directly tied to dispersal (contradicting D); they aren't confined to nighttime pollution-free hours (C); and warm air is actually less dense, not denser, than cool air (B)."
     },
     {
       "id": "7-21",
@@ -6592,7 +6592,7 @@ const QUESTIONS = {
         "Valleys never experience thermal inversions under any conditions."
       ],
       "correct": 1,
-      "explanation": "Surrounding mountains can physically block the horizontal dispersal of cool, pollutant-laden surface air, compounding the inversion's vertical trapping and worsening air quality. Valleys are actually especially prone to inversions, not immune (A); mountains clearly do affect air quality in this scenario (B); and they compound rather than eliminate inversions (D)."
+      "explanation": "Surrounding mountains can physically block the horizontal dispersal of cool, pollutant-laden surface air, compounding the inversion's vertical trapping and worsening air quality. Valleys are actually especially prone to inversions, not immune (D); mountains clearly do affect air quality in this scenario (C); and they compound rather than eliminate inversions (A)."
     },
     {
       "id": "7-23",
@@ -6605,7 +6605,7 @@ const QUESTIONS = {
         "Pollution concentration would remain completely unaffected by the inversion."
       ],
       "correct": 1,
-      "explanation": "Since the inversion blocks the normal dispersal mechanism, pollutants continue accumulating with nowhere to disperse, so concentration would be expected to build up over the multi-day event -- not stay unaffected (B) or decrease (D). The scenario is a direct, textbook application of inversion effects, contradicting A."
+      "explanation": "Since the inversion blocks the normal dispersal mechanism, pollutants continue accumulating with nowhere to disperse, so concentration would be expected to build up over the multi-day event -- not stay unaffected (D) or decrease (A). The scenario is a direct, textbook application of inversion effects, contradicting C."
     },
     {
       "id": "7-24",
@@ -6618,7 +6618,7 @@ const QUESTIONS = {
         "A city on flat, open terrain with strong regional winds."
       ],
       "correct": 0,
-      "explanation": "A mountain-valley city with limited wind is most vulnerable, since the surrounding terrain compounds the inversion's vertical trapping by also blocking horizontal dispersal. Flat, open terrain with strong winds (C) would allow much better dispersal even during an inversion, so the two locations are not equally vulnerable (A), and location clearly does affect severity (D)."
+      "explanation": "A mountain-valley city with limited wind is most vulnerable, since the surrounding terrain compounds the inversion's vertical trapping by also blocking horizontal dispersal. Flat, open terrain with strong winds (D) would allow much better dispersal even during an inversion, so the two locations are not equally vulnerable (C), and location clearly does affect severity (B)."
     },
     {
       "id": "7-25",
@@ -6631,7 +6631,7 @@ const QUESTIONS = {
         "It changes concentration by blocking dispersal, not creating pollution."
       ],
       "correct": 3,
-      "explanation": "A thermal inversion doesn't generate new pollution -- it changes the CONCENTRATION of existing pollution by blocking normal dispersal, letting already-emitted pollutants build up near the surface. It clearly does affect concentration (contradicting A); it affects both primary and secondary pollutants, not just secondary ones (B); and it traps rather than creates pollution (C)."
+      "explanation": "A thermal inversion doesn't generate new pollution -- it changes the CONCENTRATION of existing pollution by blocking normal dispersal, letting already-emitted pollutants build up near the surface. It clearly does affect concentration (contradicting B); it affects both primary and secondary pollutants, not just secondary ones (C); and it traps rather than creates pollution (A)."
     },
     {
       "id": "7-26",
@@ -6644,7 +6644,7 @@ const QUESTIONS = {
         "Thermal inversions have no established relationship to weather conditions."
       ],
       "correct": 2,
-      "explanation": "Because inversions are driven by specific, temporary weather setups (like calm, clear nights), they break down once conditions change -- such as increased wind or daytime solar heating -- restoring the normal temperature pattern. They are weather-driven, not weather-independent (A); they occur far more often than once a century (C); and they end rather than persist permanently (D)."
+      "explanation": "Because inversions are driven by specific, temporary weather setups (like calm, clear nights), they break down once conditions change -- such as increased wind or daytime solar heating -- restoring the normal temperature pattern. They are weather-driven, not weather-independent (D); they occur far more often than once a century (B); and they end rather than persist permanently (A)."
     },
     {
       "id": "7-27",
@@ -6670,7 +6670,7 @@ const QUESTIONS = {
         "5.6, slightly acidic due to dissolved atmospheric CO2."
       ],
       "correct": 3,
-      "explanation": "Normal, unpolluted rainfall has a pH around 5.6 -- slightly acidic due to naturally dissolved atmospheric CO2 forming weak carbonic acid, even without any pollution present. A pH of 2.0 (A) is far too acidic for unpolluted rain, 7.0 (B) would be neutral rather than naturally slightly acidic, and 9.0 (D) would be basic, which unpolluted rain is not."
+      "explanation": "Normal, unpolluted rainfall has a pH around 5.6 -- slightly acidic due to naturally dissolved atmospheric CO2 forming weak carbonic acid, even without any pollution present. A pH of 2.0 (B) is far too acidic for unpolluted rain, 7.0 (C) would be neutral rather than naturally slightly acidic, and 9.0 (A) would be basic, which unpolluted rain is not."
     },
     {
       "id": "7-29",
@@ -6683,7 +6683,7 @@ const QUESTIONS = {
         "No, because acid rain never actually registers a pH below 7."
       ],
       "correct": 2,
-      "explanation": "Since normal rain is naturally slightly acidic (~pH 5.6) due to dissolved CO2, 'acid rain' specifically means precipitation significantly more acidic than that baseline -- not simply any pH under the neutral value of 7 (A). Acid rain does register well below pH 7 (contradicting C), and the classification isn't season-dependent (D)."
+      "explanation": "Since normal rain is naturally slightly acidic (~pH 5.6) due to dissolved CO2, 'acid rain' specifically means precipitation significantly more acidic than that baseline -- not simply any pH under the neutral value of 7 (A). Acid rain does register well below pH 7 (contradicting D), and the classification isn't season-dependent (B)."
     },
     {
       "id": "7-30",
@@ -6709,7 +6709,7 @@ const QUESTIONS = {
         "The population would be unaffected, since fish have no meaningful pH tolerance range."
       ],
       "correct": 0,
-      "explanation": "A species with a narrow pH tolerance range has little buffer against environmental change -- a moderate pH shift from acid rain could push conditions into a zone of physiological stress, causing decline, not growth (C) or no effect (A). This is a direct application of Unit 2's range-of-tolerance concept, not an unrelated scenario (B)."
+      "explanation": "A species with a narrow pH tolerance range has little buffer against environmental change -- a moderate pH shift from acid rain could push conditions into a zone of physiological stress, causing decline, not growth (C) or no effect (D). This is a direct application of Unit 2's range-of-tolerance concept, not an unrelated scenario (B)."
     },
     {
       "id": "7-32",
@@ -6722,7 +6722,7 @@ const QUESTIONS = {
         "Acid rain has no measurable effect on forest ecosystems."
       ],
       "correct": 1,
-      "explanation": "Acid rain causes documented forest damage through direct foliage damage and leaching of soil nutrients, weakening trees and leaving them more vulnerable to disease and pests. It does not boost growth (B), it does have measurable effects (contradicting C), and its impacts extend to terrestrial ecosystems, not just aquatic ones (D)."
+      "explanation": "Acid rain causes documented forest damage through direct foliage damage and leaching of soil nutrients, weakening trees and leaving them more vulnerable to disease and pests. It does not boost growth (A), it does have measurable effects (contradicting D), and its impacts extend to terrestrial ecosystems, not just aquatic ones (C)."
     },
     {
       "id": "7-33",
@@ -6735,7 +6735,7 @@ const QUESTIONS = {
         "Both natural gas and coal produce essentially identical SO2 emissions."
       ],
       "correct": 2,
-      "explanation": "Coal combustion is most strongly associated with significant SO2 emissions among fossil fuels, due to its comparatively high sulfur content -- directly connecting to Unit 6's coverage of coal's high pollutant output. Natural gas produces far less SO2 (contradicting C), the two fuels are not equivalent emitters (A), and coal's SO2 output is far from negligible (contradicting B)."
+      "explanation": "Coal combustion is most strongly associated with significant SO2 emissions among fossil fuels, due to its comparatively high sulfur content -- directly connecting to Unit 6's coverage of coal's high pollutant output. Natural gas produces far less SO2 (contradicting A), the two fuels are not equivalent emitters (D), and coal's SO2 output is far from negligible (contradicting B)."
     },
     {
       "id": "7-34",
@@ -6748,7 +6748,7 @@ const QUESTIONS = {
         "Acid rain changes water pH, and species vary in how much shift they can tolerate."
       ],
       "correct": 3,
-      "explanation": "Because acid rain's primary aquatic effect is changing water pH, and species have specific ranges of tolerance for pH just as for temperature, this connects directly to Unit 2's range of tolerance concept. Range of tolerance applies to multiple factors, not temperature alone (A); acid rain does affect aquatic species (contradicting B); and the connection is direct, not absent (C)."
+      "explanation": "Because acid rain's primary aquatic effect is changing water pH, and species have specific ranges of tolerance for pH just as for temperature, this connects directly to Unit 2's range of tolerance concept. Range of tolerance applies to multiple factors, not temperature alone (B); acid rain does affect aquatic species (contradicting C); and the connection is direct, not absent (A)."
     },
     {
       "id": "7-35",
@@ -6761,7 +6761,7 @@ const QUESTIONS = {
         "SO2 and NOx react with water vapor to form sulfuric and nitric acid."
       ],
       "correct": 3,
-      "explanation": "The precise chemistry is SO2 and NOx reacting with atmospheric water vapor to form sulfuric acid and nitric acid, which then fall as acid precipitation. CO2 and oxygen (A) aren't the acid-forming reactants here, the process is a specific chemical reaction, not an unexplained phenomenon (B), and ozone plays no role in this particular reaction (D)."
+      "explanation": "The precise chemistry is SO2 and NOx reacting with atmospheric water vapor to form sulfuric acid and nitric acid, which then fall as acid precipitation. CO2 and oxygen (B) aren't the acid-forming reactants here, the process is a specific chemical reaction, not an unexplained phenomenon (A), and ozone plays no role in this particular reaction (C)."
     },
     {
       "id": "7-36",
@@ -6774,7 +6774,7 @@ const QUESTIONS = {
         "A gas found exclusively in industrial facilities, never in homes."
       ],
       "correct": 0,
-      "explanation": "Radon is a naturally occurring radioactive gas that continuously seeps into buildings from underlying soil and rock, independent of any industrial activity. It is not confined to industrial settings (A), it isn't a vehicle-exhaust particulate (C), and it is a natural, not synthetic, substance (D)."
+      "explanation": "Radon is a naturally occurring radioactive gas that continuously seeps into buildings from underlying soil and rock, independent of any industrial activity. It is not confined to industrial settings (D), it isn't a vehicle-exhaust particulate (C), and it is a natural, not synthetic, substance (B)."
     },
     {
       "id": "7-37",
@@ -6787,7 +6787,7 @@ const QUESTIONS = {
         "A gas with no established link to lung cancer at all."
       ],
       "correct": 2,
-      "explanation": "Radon is recognized as the second leading cause of lung cancer overall, after smoking. Smoking, not radon, remains the leading cause (contradicting B), and radon's risk is significant rather than negligible (C) or nonexistent (D) -- a notable hazard given its natural, undetectable-without-testing origin."
+      "explanation": "Radon is recognized as the second leading cause of lung cancer overall, after smoking. Smoking, not radon, remains the leading cause (contradicting B), and radon's risk is significant rather than negligible (A) or nonexistent (D) -- a notable hazard given its natural, undetectable-without-testing origin."
     },
     {
       "id": "7-38",
@@ -6800,7 +6800,7 @@ const QUESTIONS = {
         "Poor ventilation has no established relationship to indoor pollutant concentration."
       ],
       "correct": 1,
-      "explanation": "Poor ventilation limits exchange with the much larger, constantly mixing volume of outdoor air, so pollutants accumulate and concentrate indoors -- this is why poorly ventilated spaces like basements are particular concerns. Ventilation clearly affects concentration (contradicting B); poor ventilation traps, rather than eliminates, pollutants (C); and pollutants are actually a bigger issue in poorly, not well, ventilated spaces (D)."
+      "explanation": "Poor ventilation limits exchange with the much larger, constantly mixing volume of outdoor air, so pollutants accumulate and concentrate indoors -- this is why poorly ventilated spaces like basements are particular concerns. Ventilation clearly affects concentration (contradicting D); poor ventilation traps, rather than eliminates, pollutants (C); and pollutants are actually a bigger issue in poorly, not well, ventilated spaces (A)."
     },
     {
       "id": "7-39",
@@ -6813,7 +6813,7 @@ const QUESTIONS = {
         "No, outdoor air pollution is always the greater concern in every circumstance."
       ],
       "correct": 0,
-      "explanation": "Indoor air pollution, particularly from radon, can pose a genuinely significant health risk in some circumstances despite receiving considerably less regulatory attention than outdoor air quality -- so it is not always the lesser concern (B), it is a real phenomenon (contradicting C), and the risk comes from genuinely indoor sources, not an outdoor origin (D)."
+      "explanation": "Indoor air pollution, particularly from radon, can pose a genuinely significant health risk in some circumstances despite receiving considerably less regulatory attention than outdoor air quality -- so it is not always the lesser concern (D), it is a real phenomenon (contradicting C), and the risk comes from genuinely indoor sources, not an outdoor origin (B)."
     },
     {
       "id": "7-40",
@@ -6852,7 +6852,7 @@ const QUESTIONS = {
         "Radon still poses a genuine hazard, regardless of its natural origin."
       ],
       "correct": 3,
-      "explanation": "Radon's natural origin has no bearing on its hazard -- it's colorless, odorless, and accumulates in poorly ventilated indoor spaces regardless of source, posing a genuine lung cancer risk. Natural origin doesn't make a substance harmless (A), non-human sources can absolutely pose risks (contradicting C), and radon's risk is well-documented, not negligible (D)."
+      "explanation": "Radon's natural origin has no bearing on its hazard -- it's colorless, odorless, and accumulates in poorly ventilated indoor spaces regardless of source, posing a genuine lung cancer risk. Natural origin doesn't make a substance harmless (B), non-human sources can absolutely pose risks (contradicting C), and radon's risk is well-documented, not negligible (A)."
     },
     {
       "id": "7-43",
@@ -6917,7 +6917,7 @@ const QUESTIONS = {
         "Only mobile sources such as cars and trucks."
       ],
       "correct": 1,
-      "explanation": "The Clean Air Act regulates both stationary sources (power plants, factories) and mobile sources (vehicles), giving it broad authority over many emitter types. Limiting it to only stationary (A) or only mobile (B) sources understates its scope, and it clearly does regulate emissions, contradicting D."
+      "explanation": "The Clean Air Act regulates both stationary sources (power plants, factories) and mobile sources (vehicles), giving it broad authority over many emitter types. Limiting it to only stationary (A) or only mobile (D) sources understates its scope, and it clearly does regulate emissions, contradicting C."
     },
     {
       "id": "7-48",
@@ -6930,7 +6930,7 @@ const QUESTIONS = {
         "A fixed tax applied equally to every SO2 source regardless of emission level."
       ],
       "correct": 0,
-      "explanation": "A cap-and-trade system for SO2 emissions set an overall emissions cap while letting individual sources trade allowances, reducing acid-rain-causing pollution cost-effectively. This is a market mechanism, not a coal ban (B), a flat tax (C), or an absence of regulation (D) -- all of which lack the trading flexibility that made this approach notably cost-effective."
+      "explanation": "A cap-and-trade system for SO2 emissions set an overall emissions cap while letting individual sources trade allowances, reducing acid-rain-causing pollution cost-effectively. This is a market mechanism, not a coal ban (C), a flat tax (D), or an absence of regulation (B) -- all of which lack the trading flexibility that made this approach notably cost-effective."
     },
     {
       "id": "7-49",
@@ -6969,7 +6969,7 @@ const QUESTIONS = {
         "Catalytic converters only affect indoor air quality, not outdoor smog."
       ],
       "correct": 0,
-      "explanation": "Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting A); they reduce rather than increase NOx (contradicting B); and the connection is direct, not absent (C)."
+      "explanation": "Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting A); they reduce rather than increase NOx (contradicting C); and the connection is direct, not absent (B)."
     },
     {
       "id": "7-52",
@@ -6982,7 +6982,7 @@ const QUESTIONS = {
         "Yes, but only for pollutants found indoors, not outdoors."
       ],
       "correct": 1,
-      "explanation": "Effective control requires targeting specific pollutants with specific technologies at their specific sources -- scrubbers for SO2, catalytic converters for vehicle NOx/CO -- rather than one universal fix (contradicting C). This isn't limited to indoor pollutants (A), and multiple effective technologies clearly do exist (contradicting B)."
+      "explanation": "Effective control requires targeting specific pollutants with specific technologies at their specific sources -- scrubbers for SO2, catalytic converters for vehicle NOx/CO -- rather than one universal fix (contradicting C). This isn't limited to indoor pollutants (D), and multiple effective technologies clearly do exist (contradicting A)."
     },
     {
       "id": "7-53",
@@ -7034,7 +7034,7 @@ const QUESTIONS = {
         "Ozone concentrations are entirely unrelated to NOx and VOC emission levels."
       ],
       "correct": 2,
-      "explanation": "This tests recognition that secondary pollutant formation is often nonlinear: ground-level ozone depends on the specific ratio and interaction between NOx and VOC concentrations, not simply their combined total, so cutting both by the same percentage doesn't guarantee a proportional ozone cut -- the underlying chemistry can respond disproportionately depending on which precursor is more limiting. This contradicts the assumption that precursor cuts translate one-to-one into pollutant cuts (B), the clear dependence of ozone on these precursors (C), and the assumption that only measurement error could explain the pattern (D) -- a more sophisticated application of the primary/secondary relationship than the unit's core examples require."
+      "explanation": "This tests recognition that secondary pollutant formation is often nonlinear: ground-level ozone depends on the specific ratio and interaction between NOx and VOC concentrations, not simply their combined total, so cutting both by the same percentage doesn't guarantee a proportional ozone cut -- the underlying chemistry can respond disproportionately depending on which precursor is more limiting. This contradicts the assumption that precursor cuts translate one-to-one into pollutant cuts (B), the clear dependence of ozone on these precursors (D), and the assumption that only measurement error could explain the pattern (A) -- a more sophisticated application of the primary/secondary relationship than the unit's core examples require."
     },
     {
       "id": "7-57",
@@ -7060,7 +7060,7 @@ const QUESTIONS = {
         "Setting a direct emissions limit on the secondary pollutant itself, measured at its 'source.'"
       ],
       "correct": 2,
-      "explanation": "Since a secondary pollutant has no single direct source, effective regulation targets its primary precursors instead, reducing the raw material available for the reaction that forms it. There is no direct 'source' of a secondary pollutant to regulate (D); secondary pollutants can be reduced through precursor control (contradicting B); and increasing, not decreasing, primary emissions would worsen the problem (contradicting C)."
+      "explanation": "Since a secondary pollutant has no single direct source, effective regulation targets its primary precursors instead, reducing the raw material available for the reaction that forms it. There is no direct 'source' of a secondary pollutant to regulate (D); secondary pollutants can be reduced through precursor control (contradicting A); and increasing, not decreasing, primary emissions would worsen the problem (contradicting B)."
     },
     {
       "id": "7-59",
@@ -7073,7 +7073,7 @@ const QUESTIONS = {
         "Photochemical smog cannot form without heavy vehicle traffic under any circumstances."
       ],
       "correct": 1,
-      "explanation": "Since smog requires both NOx and VOCs reacting in sunlight, and vehicle traffic (a common NOx source) is low here, the NOx is more likely coming from industrial or other non-vehicle sources -- illustrating that vehicles aren't the only possible NOx source. This contradicts the idea that heavy traffic is required (A) or that VOCs alone suffice without NOx (B); the scenario is realistic, not impossible (C)."
+      "explanation": "Since smog requires both NOx and VOCs reacting in sunlight, and vehicle traffic (a common NOx source) is low here, the NOx is more likely coming from industrial or other non-vehicle sources -- illustrating that vehicles aren't the only possible NOx source. This contradicts the idea that heavy traffic is required (D) or that VOCs alone suffice without NOx (C); the scenario is realistic, not impossible (A)."
     },
     {
       "id": "7-60",
@@ -7086,7 +7086,7 @@ const QUESTIONS = {
         "Spring, due to increased rainfall alone."
       ],
       "correct": 1,
-      "explanation": "Winter would generally have the lowest smog levels among the options, since weaker, less abundant sunlight provides less energy to drive the NOx-VOC reaction, even with unchanged emissions. Rainfall alone (B) isn't the key seasonal driver of smog chemistry, smog levels clearly do vary by season given sunlight differences (contradicting C), and summer (D) would actually have the highest, not lowest, smog levels."
+      "explanation": "Winter would generally have the lowest smog levels among the options, since weaker, less abundant sunlight provides less energy to drive the NOx-VOC reaction, even with unchanged emissions. Rainfall alone (D) isn't the key seasonal driver of smog chemistry, smog levels clearly do vary by season given sunlight differences (contradicting A), and summer (C) would actually have the highest, not lowest, smog levels."
     },
     {
       "id": "7-61",
@@ -7099,7 +7099,7 @@ const QUESTIONS = {
         "Thermal inversions form with equal likelihood under any weather condition."
       ],
       "correct": 1,
-      "explanation": "Clear skies and calm winds, especially overnight, let the ground radiate heat away efficiently, cooling surface air rapidly while air aloft stays comparatively warm -- a classic inversion setup. Heavy rain and strong winds (A) tend to mix the atmosphere and prevent inversions; inversions aren't limited to hot, humid conditions (B); and they don't occur with equal likelihood under every condition (C), since calm, clear weather specifically favors them."
+      "explanation": "Clear skies and calm winds, especially overnight, let the ground radiate heat away efficiently, cooling surface air rapidly while air aloft stays comparatively warm -- a classic inversion setup. Heavy rain and strong winds (C) tend to mix the atmosphere and prevent inversions; inversions aren't limited to hot, humid conditions (A); and they don't occur with equal likelihood under every condition (D), since calm, clear weather specifically favors them."
     },
     {
       "id": "7-62",
@@ -7112,7 +7112,7 @@ const QUESTIONS = {
         "Thermal inversions end only after exactly 24 hours, regardless of conditions."
       ],
       "correct": 0,
-      "explanation": "An inversion typically ends when weather conditions change -- increased wind can mix the air layers, or daytime solar heating can warm the surface enough to eliminate the temperature layering, restoring normal circulation. Inversions do end (contradicting A); they end through natural weather changes, not human intervention (C); and their duration depends on conditions, not a fixed 24-hour clock (D)."
+      "explanation": "An inversion typically ends when weather conditions change -- increased wind can mix the air layers, or daytime solar heating can warm the surface enough to eliminate the temperature layering, restoring normal circulation. Inversions do end (contradicting C); they end through natural weather changes, not human intervention (B); and their duration depends on conditions, not a fixed 24-hour clock (D)."
     },
     {
       "id": "7-63",
@@ -7125,7 +7125,7 @@ const QUESTIONS = {
         "Acid snow, fog, and the dry deposition of acidic particles onto surfaces."
       ],
       "correct": 3,
-      "explanation": "Acid deposition can occur not just as liquid rain but also as acid snow, acid fog, and dry deposition of acidic particles settling onto surfaces -- 'acid rain' is often shorthand for this broader category. It isn't limited to gas alone (A) or excluded from solid/gaseous forms (B), and liquid rain is not the only possible form (D)."
+      "explanation": "Acid deposition can occur not just as liquid rain but also as acid snow, acid fog, and dry deposition of acidic particles settling onto surfaces -- 'acid rain' is often shorthand for this broader category. It isn't limited to gas alone (A) or excluded from solid/gaseous forms (B), and liquid rain is not the only possible form (C)."
     },
     {
       "id": "7-64",
@@ -7138,7 +7138,7 @@ const QUESTIONS = {
         "Older homes are always legally required to have asbestos removed before any sale."
       ],
       "correct": 2,
-      "explanation": "Because asbestos was a commonly used building material before its serious health risks were fully recognized and regulated, older homes are more likely to contain it in materials like insulation or flooring. Removal isn't always legally mandated before sale (A), asbestos risk clearly does relate to building age (contradicting B), and it is older, not newer, construction that is more likely to contain it (contradicting D)."
+      "explanation": "Because asbestos was a commonly used building material before its serious health risks were fully recognized and regulated, older homes are more likely to contain it in materials like insulation or flooring. Removal isn't always legally mandated before sale (D), asbestos risk clearly does relate to building age (contradicting B), and it is older, not newer, construction that is more likely to contain it (contradicting A)."
     },
     {
       "id": "7-65",
@@ -7177,7 +7177,7 @@ const QUESTIONS = {
         "Species with no reliance on sound for any behavior whatsoever."
       ],
       "correct": 1,
-      "explanation": "Species that depend on sound for communication, mating calls, and predator/prey detection -- such as many birds, marine mammals, and amphibians -- are especially vulnerable to noise pollution masking these behaviors. Species with no sound reliance (B) wouldn't be affected this way, underground species (C) aren't uniquely implicated, and plants (D) don't rely on sound-based behavior at all."
+      "explanation": "Species that depend on sound for communication, mating calls, and predator/prey detection -- such as many birds, marine mammals, and amphibians -- are especially vulnerable to noise pollution masking these behaviors. Species with no sound reliance (D) wouldn't be affected this way, underground species (C) aren't uniquely implicated, and plants (A) don't rely on sound-based behavior at all."
     },
     {
       "id": "7-68",
@@ -7190,7 +7190,7 @@ const QUESTIONS = {
         "Increasing the number of highway lanes with no additional noise controls."
       ],
       "correct": 1,
-      "explanation": "Sound barriers along highways and stricter zoning that separates noise sources from residential areas are established, legitimate mitigation strategies. Removing speed limits (A) or adding lanes without noise controls (B) would likely worsen noise, and relocation (D) isn't the only option, since barriers and zoning can effectively mitigate impact without displacing residents."
+      "explanation": "Sound barriers along highways and stricter zoning that separates noise sources from residential areas are established, legitimate mitigation strategies. Removing speed limits (C) or adding lanes without noise controls (D) would likely worsen noise, and relocation (A) isn't the only option, since barriers and zoning can effectively mitigate impact without displacing residents."
     }
   ],
   "8": [
@@ -7205,7 +7205,7 @@ const QUESTIONS = {
         "Pollution unconnected to any specific origin."
       ],
       "correct": 2,
-      "explanation": "Point source pollution comes from a single, identifiable origin—like a factory's discharge pipe—that can be directly monitored and regulated. Choice B describes nonpoint source pollution, the opposite concept. Choice A wrongly restricts point sources to oceans; they occur in any water body. Choice D is wrong because point sources are defined by having a specific, traceable origin, not the absence of one."
+      "explanation": "Point source pollution comes from a single, identifiable origin—like a factory's discharge pipe—that can be directly monitored and regulated. Choice A describes nonpoint source pollution, the opposite concept. Choice B wrongly restricts point sources to oceans; they occur in any water body. Choice D is wrong because point sources are defined by having a specific, traceable origin, not the absence of one."
     },
     {
       "id": "8-2",
@@ -7218,7 +7218,7 @@ const QUESTIONS = {
         "Pollution governed only by a single international treaty."
       ],
       "correct": 2,
-      "explanation": "Nonpoint source pollution is diffuse, arising from many dispersed sources scattered across a watershed—for example, agricultural runoff, lawn fertilizer, and street residue—making it far harder to trace than a single source. Choice D describes point source pollution, the opposite concept. Choice A is incorrect because nonpoint source pollution is addressed mainly through domestic land-management policy, not a single treaty. Choice B is wrong since nonpoint pollution does enter waterways; that's precisely the problem."
+      "explanation": "Nonpoint source pollution is diffuse, arising from many dispersed sources scattered across a watershed—for example, agricultural runoff, lawn fertilizer, and street residue—making it far harder to trace than a single source. Choice A describes point source pollution, the opposite concept. Choice D is incorrect because nonpoint source pollution is addressed mainly through domestic land-management policy, not a single treaty. Choice B is wrong since nonpoint pollution does enter waterways; that's precisely the problem."
     },
     {
       "id": "8-3",
@@ -7231,7 +7231,7 @@ const QUESTIONS = {
         "RCRA"
       ],
       "correct": 0,
-      "explanation": "The Clean Water Act is the primary U.S. law regulating pollutant discharges into water bodies, historically most effective against point sources. The Clean Air Act (A) governs atmospheric emissions, not water discharges. RCRA (B) governs hazardous solid waste management, not water pollutant discharge. The Endangered Species Act (C) protects threatened species and habitat, not pollution discharge generally."
+      "explanation": "The Clean Water Act is the primary U.S. law regulating pollutant discharges into water bodies, historically most effective against point sources. The Clean Air Act (C) governs atmospheric emissions, not water discharges. RCRA (D) governs hazardous solid waste management, not water pollutant discharge. The Endangered Species Act (B) protects threatened species and habitat, not pollution discharge generally."
     },
     {
       "id": "8-4",
@@ -7244,7 +7244,7 @@ const QUESTIONS = {
         "The Clean Water Act's permitting framework does not apply to point source discharges."
       ],
       "correct": 1,
-      "explanation": "A point source—like a factory pipe—has one identifiable location that can be directly monitored and permitted, while nonpoint sources are spread across countless dispersed locations (farms, lawns, streets) with no single site to inspect, making enforcement far harder. Choice A is false: the Clean Water Act's NPDES permitting system directly targets point sources. Choice B is wrong—nonpoint source pollution is real and well-documented. Choice D reverses the actual relationship; point sources are comparatively easier to regulate, not harder."
+      "explanation": "A point source—like a factory pipe—has one identifiable location that can be directly monitored and permitted, while nonpoint sources are spread across countless dispersed locations (farms, lawns, streets) with no single site to inspect, making enforcement far harder. Choice D is false: the Clean Water Act's NPDES permitting system directly targets point sources. Choice C is wrong—nonpoint source pollution is real and well-documented. Choice A reverses the actual relationship; point sources are comparatively easier to regulate, not harder."
     },
     {
       "id": "8-5",
@@ -7257,7 +7257,7 @@ const QUESTIONS = {
         "Point and nonpoint sources contribute in exactly equal amounts in every watershed."
       ],
       "correct": 0,
-      "explanation": "Nonpoint source pollution has become the larger remaining contributor in many watersheds because decades of Clean Water Act regulation have made substantial progress on point sources, while the inherently harder-to-regulate diffuse sources persist. Choice A is false—point sources have been regulated since the 1970s Clean Water Act. Choice B is unrealistic; the balance varies by watershed and generally favors nonpoint sources today. Choice D ignores that both types remain active concerns in many locations."
+      "explanation": "Nonpoint source pollution has become the larger remaining contributor in many watersheds because decades of Clean Water Act regulation have made substantial progress on point sources, while the inherently harder-to-regulate diffuse sources persist. Choice B is false—point sources have been regulated since the 1970s Clean Water Act. Choice D is unrealistic; the balance varies by watershed and generally favors nonpoint sources today. Choice C ignores that both types remain active concerns in many locations."
     },
     {
       "id": "8-6",
@@ -7270,7 +7270,7 @@ const QUESTIONS = {
         "Neither point nor nonpoint source"
       ],
       "correct": 2,
-      "explanation": "An outfall pipe releasing wastewater at one identifiable location is a textbook point source, subject to NPDES permitting. Choice B is wrong because discharging treated wastewater into a river is a water pollution scenario. Choice C incorrectly claims the discharge fits no category, when it clearly matches the point source definition. Choice D is wrong because a single pipe is the opposite of nonpoint pollution's many dispersed sources."
+      "explanation": "An outfall pipe releasing wastewater at one identifiable location is a textbook point source, subject to NPDES permitting. Choice A is wrong because discharging treated wastewater into a river is a water pollution scenario. Choice D incorrectly claims the discharge fits no category, when it clearly matches the point source definition. Choice B is wrong because a single pipe is the opposite of nonpoint pollution's many dispersed sources."
     },
     {
       "id": "8-7",
@@ -7283,7 +7283,7 @@ const QUESTIONS = {
         "Point source"
       ],
       "correct": 2,
-      "explanation": "Stormwater runoff collected from many dispersed streets, parking lots, and other surfaces is a classic nonpoint source—there's no single pipe or facility responsible, making it diffuse and hard to regulate directly. Choice A is wrong because oil and debris entering a river are clearly pollutants. Choice C incorrectly claims neither category fits, when nonpoint source is the correct classification. Choice D is wrong because point source pollution requires one identifiable origin, not dozens of scattered surfaces."
+      "explanation": "Stormwater runoff collected from many dispersed streets, parking lots, and other surfaces is a classic nonpoint source—there's no single pipe or facility responsible, making it diffuse and hard to regulate directly. Choice A is wrong because oil and debris entering a river are clearly pollutants. Choice B incorrectly claims neither category fits, when nonpoint source is the correct classification. Choice D is wrong because point source pollution requires one identifiable origin, not dozens of scattered surfaces."
     },
     {
       "id": "8-8",
@@ -7296,7 +7296,7 @@ const QUESTIONS = {
         "Ignoring the runoff problem entirely, since it supposedly cannot be regulated at all."
       ],
       "correct": 1,
-      "explanation": "Because nonpoint source pollution lacks a single site to permit, broader land management policies—such as required vegetated buffer strips or incentives affecting many farms' fertilizer practices—are more effective than single-source permitting. Choice B describes the point-source permitting approach, which doesn't fit diffuse agricultural runoff. Choices C and D both wrongly assume nonpoint pollution is unmanageable; it can be addressed, just through different regulatory tools than point sources use."
+      "explanation": "Because nonpoint source pollution lacks a single site to permit, broader land management policies—such as required vegetated buffer strips or incentives affecting many farms' fertilizer practices—are more effective than single-source permitting. Choice A describes the point-source permitting approach, which doesn't fit diffuse agricultural runoff. Choices C and D both wrongly assume nonpoint pollution is unmanageable; it can be addressed, just through different regulatory tools than point sources use."
     },
     {
       "id": "8-9",
@@ -7309,7 +7309,7 @@ const QUESTIONS = {
         "Nonpoint source pollution is actually easier to regulate, contrary to this section's content."
       ],
       "correct": 0,
-      "explanation": "Nonpoint source pollution's diffuse, many-source nature means there's no single site where direct monitoring, permitting, and enforcement—the tools that work well for point sources—can be applied. Choice A reverses the actual relationship. Choice C is wrong; the regulatory difficulty differs substantially, which is exactly why the Clean Water Act has been more effective against point sources. Choice D is irrelevant and factually unsupported—regulatory difficulty stems from source structure, not pollutant quantity."
+      "explanation": "Nonpoint source pollution's diffuse, many-source nature means there's no single site where direct monitoring, permitting, and enforcement—the tools that work well for point sources—can be applied. Choice D reverses the actual relationship. Choice B is wrong; the regulatory difficulty differs substantially, which is exactly why the Clean Water Act has been more effective against point sources. Choice C is irrelevant and factually unsupported—regulatory difficulty stems from source structure, not pollutant quantity."
     },
     {
       "id": "8-10",
@@ -7322,7 +7322,7 @@ const QUESTIONS = {
         "Oxygen and hydrogen together"
       ],
       "correct": 2,
-      "explanation": "Phosphorus and nitrogen, commonly introduced via fertilizer runoff or inadequately treated sewage, are the nutrients most responsible for triggering eutrophication when present in excess. Choices A and D (carbon/helium, argon/neon) name elements that are not the limiting nutrients driving algal overgrowth. Choice B (oxygen and hydrogen) names the components of water itself, not the nutrient inputs that fuel excessive algal growth."
+      "explanation": "Phosphorus and nitrogen, commonly introduced via fertilizer runoff or inadequately treated sewage, are the nutrients most responsible for triggering eutrophication when present in excess. Choices A and B (carbon/helium, argon/neon) name elements that are not the limiting nutrients driving algal overgrowth. Choice D (oxygen and hydrogen) names the components of water itself, not the nutrient inputs that fuel excessive algal growth."
     },
     {
       "id": "8-11",
@@ -7335,7 +7335,7 @@ const QUESTIONS = {
         "An explosive algal bloom, as the nutrient cap is removed."
       ],
       "correct": 3,
-      "explanation": "The first step is an explosive algal bloom: since phosphorus (or another nutrient) was likely limiting productivity, the excess supply removes that cap, letting algae grow rapidly. Choice B skips this intermediate step—fish death occurs later, after the bloom dies back and decomposition depletes oxygen. Choice C is unrelated; nutrient enrichment doesn't cause a water body to dry up. Choice D is incorrect because eutrophication is triggered by nutrients, not a temperature change."
+      "explanation": "The first step is an explosive algal bloom: since phosphorus (or another nutrient) was likely limiting productivity, the excess supply removes that cap, letting algae grow rapidly. Choice B skips this intermediate step—fish death occurs later, after the bloom dies back and decomposition depletes oxygen. Choice A is unrelated; nutrient enrichment doesn't cause a water body to dry up. Choice C is incorrect because eutrophication is triggered by nutrients, not a temperature change."
     },
     {
       "id": "8-12",
@@ -7348,7 +7348,7 @@ const QUESTIONS = {
         "Fish consuming the algae directly."
       ],
       "correct": 1,
-      "explanation": "Decomposer bacteria, breaking down the large volume of dead algal matter once the bloom dies back, consume substantial dissolved oxygen—this decomposition-driven depletion, not the algae itself, directly causes fish kills. Choice B is wrong; oxygen depletion is the central mechanism of eutrophication-related fish kills. Choice C is incorrect because fish grazing on algae isn't the process that removes dissolved oxygen. Choice D is wrong because living algae, via photosynthesis, actually produce oxygen rather than consume it."
+      "explanation": "Decomposer bacteria, breaking down the large volume of dead algal matter once the bloom dies back, consume substantial dissolved oxygen—this decomposition-driven depletion, not the algae itself, directly causes fish kills. Choice C is wrong; oxygen depletion is the central mechanism of eutrophication-related fish kills. Choice D is incorrect because fish grazing on algae isn't the process that removes dissolved oxygen. Choice A is wrong because living algae, via photosynthesis, actually produce oxygen rather than consume it."
     },
     {
       "id": "8-13",
@@ -7361,7 +7361,7 @@ const QUESTIONS = {
         "A region of water known for unusually high algae species diversity."
       ],
       "correct": 0,
-      "explanation": "A hypoxic (low-oxygen) or anoxic (no-oxygen) zone results from oxygen depletion caused by decomposing algae after a eutrophication-driven bloom, creating conditions lethal to fish and other oxygen-dependent species. Choice A confuses the concept with algae diversity, which isn't what defines these zones. Choice C describes the opposite condition—hypoxic/anoxic zones have depleted, not elevated, oxygen. Choice D is wrong; these zones are a direct, well-documented consequence of eutrophication."
+      "explanation": "A hypoxic (low-oxygen) or anoxic (no-oxygen) zone results from oxygen depletion caused by decomposing algae after a eutrophication-driven bloom, creating conditions lethal to fish and other oxygen-dependent species. Choice D confuses the concept with algae diversity, which isn't what defines these zones. Choice C describes the opposite condition—hypoxic/anoxic zones have depleted, not elevated, oxygen. Choice B is wrong; these zones are a direct, well-documented consequence of eutrophication."
     },
     {
       "id": "8-14",
@@ -7374,7 +7374,7 @@ const QUESTIONS = {
         "No, because fish kills during eutrophication events are entirely unrelated to algae presence."
       ],
       "correct": 2,
-      "explanation": "The algae itself isn't what directly kills fish—it's the DECOMPOSITION of the dead algae by bacteria, which consumes dissolved oxygen, that creates the lethal hypoxic/anoxic conditions. Choice A wrongly denies any link to algae, when algae's decomposition is central to the mechanism. Choice B overstates direct algal toxicity as the cause for essentially all fish species, when oxygen depletion is the general mechanism (only certain harmful algal blooms produce actual toxins). Choice C incorrectly limits the mechanism to select species, when the decomposition-driven oxygen depletion applies broadly."
+      "explanation": "The algae itself isn't what directly kills fish—it's the DECOMPOSITION of the dead algae by bacteria, which consumes dissolved oxygen, that creates the lethal hypoxic/anoxic conditions. Choice D wrongly denies any link to algae, when algae's decomposition is central to the mechanism. Choice A overstates direct algal toxicity as the cause for essentially all fish species, when oxygen depletion is the general mechanism (only certain harmful algal blooms produce actual toxins). Choice B incorrectly limits the mechanism to select species, when the decomposition-driven oxygen depletion applies broadly."
     },
     {
       "id": "8-15",
@@ -7387,7 +7387,7 @@ const QUESTIONS = {
         "Eutrophication involves only nitrogen input, never any phosphorus input."
       ],
       "correct": 2,
-      "explanation": "Eutrophication directly applies Unit 1's limiting nutrient concept: since phosphorus is frequently the nutrient in shortest supply relative to demand in freshwater systems, adding excess phosphorus removes that productivity cap, triggering the algal bloom that begins eutrophication. Choice A wrongly denies this clear conceptual link. Choice B is incorrect; limiting nutrients apply to aquatic ecosystems too, exactly as described here. Choice C is wrong because phosphorus, not just nitrogen, is frequently the limiting nutrient driving eutrophication in freshwater systems."
+      "explanation": "Eutrophication directly applies Unit 1's limiting nutrient concept: since phosphorus is frequently the nutrient in shortest supply relative to demand in freshwater systems, adding excess phosphorus removes that productivity cap, triggering the algal bloom that begins eutrophication. Choice A wrongly denies this clear conceptual link. Choice B is incorrect; limiting nutrients apply to aquatic ecosystems too, exactly as described here. Choice D is wrong because phosphorus, not just nitrogen, is frequently the limiting nutrient driving eutrophication in freshwater systems."
     },
     {
       "id": "8-16",
@@ -7400,7 +7400,7 @@ const QUESTIONS = {
         "A term with no established or recognized meaning in environmental science."
       ],
       "correct": 0,
-      "explanation": "Cultural eutrophication refers specifically to human-caused acceleration of the eutrophication process—typically driven by excess nutrient input from fertilizer runoff or inadequately treated sewage—distinguishing it from naturally occurring, much slower eutrophication. Choice A describes the opposite: natural eutrophication, not the human-driven 'cultural' variety. Choice B incorrectly conflates it with thermal pollution, an unrelated heat-based issue. Choice C is wrong; 'cultural eutrophication' is a well-established environmental science term."
+      "explanation": "Cultural eutrophication refers specifically to human-caused acceleration of the eutrophication process—typically driven by excess nutrient input from fertilizer runoff or inadequately treated sewage—distinguishing it from naturally occurring, much slower eutrophication. Choice C describes the opposite: natural eutrophication, not the human-driven 'cultural' variety. Choice B incorrectly conflates it with thermal pollution, an unrelated heat-based issue. Choice D is wrong; 'cultural eutrophication' is a well-established environmental science term."
     },
     {
       "id": "8-17",
@@ -7413,7 +7413,7 @@ const QUESTIONS = {
         "Dissolved oxygen levels will likely drop sharply from decomposer activity."
       ],
       "correct": 3,
-      "explanation": "As the bloom dies back, decomposer bacteria will break down the dead algal matter, consuming substantial dissolved oxygen—expected to decrease oxygen levels sharply and potentially cause a fish die-off under hypoxic or anoxic conditions. Choice A wrongly denies the well-documented link between bloom die-back and later water quality decline. Choice B states the opposite of what happens; decomposition consumes, rather than adds, oxygen. Choice D is inconsistent with the mechanism—fish are often harmed by the resulting oxygen depletion."
+      "explanation": "As the bloom dies back, decomposer bacteria will break down the dead algal matter, consuming substantial dissolved oxygen—expected to decrease oxygen levels sharply and potentially cause a fish die-off under hypoxic or anoxic conditions. Choice A wrongly denies the well-documented link between bloom die-back and later water quality decline. Choice B states the opposite of what happens; decomposition consumes, rather than adds, oxygen. Choice C is inconsistent with the mechanism—fish are often harmed by the resulting oxygen depletion."
     },
     {
       "id": "8-18",
@@ -7426,7 +7426,7 @@ const QUESTIONS = {
         "Reducing fertilizer use or establishing riparian buffer strips."
       ],
       "correct": 3,
-      "explanation": "Reducing fertilizer application or establishing vegetated buffer strips directly addresses the root cause—excess nutrient input—rather than simply treating symptoms without addressing the ongoing source. Choice A only removes existing algae without stopping fresh nutrients from fueling future blooms, treating a symptom rather than the cause. Choice B doesn't address nutrient levels and could add further biological stress to the system. Choice C is irrelevant to nutrient input and would not resolve the underlying cause of cultural eutrophication."
+      "explanation": "Reducing fertilizer application or establishing vegetated buffer strips directly addresses the root cause—excess nutrient input—rather than simply treating symptoms without addressing the ongoing source. Choice C only removes existing algae without stopping fresh nutrients from fueling future blooms, treating a symptom rather than the cause. Choice B doesn't address nutrient levels and could add further biological stress to the system. Choice A is irrelevant to nutrient input and would not resolve the underlying cause of cultural eutrophication."
     },
     {
       "id": "8-19",
@@ -7439,7 +7439,7 @@ const QUESTIONS = {
         "A chemical used exclusively in wastewater treatment."
       ],
       "correct": 2,
-      "explanation": "An endocrine disruptor is a chemical that interferes with the body's hormone signaling system, sometimes causing developmental or reproductive harm even at very low concentrations. Choice A incorrectly equates it with POPs; endocrine disruption is defined by mechanism, while POP status is defined by persistence, and the two overlap only sometimes. Choice B is wrong since endocrine disruptors, by definition, do have biological effects. Choice D is incorrect; endocrine disruptors are found in many product categories, not wastewater treatment specifically."
+      "explanation": "An endocrine disruptor is a chemical that interferes with the body's hormone signaling system, sometimes causing developmental or reproductive harm even at very low concentrations. Choice B incorrectly equates it with POPs; endocrine disruption is defined by mechanism, while POP status is defined by persistence, and the two overlap only sometimes. Choice A is wrong since endocrine disruptors, by definition, do have biological effects. Choice D is incorrect; endocrine disruptors are found in many product categories, not wastewater treatment specifically."
     },
     {
       "id": "8-20",
@@ -7465,7 +7465,7 @@ const QUESTIONS = {
         "A chemical compound found only within indoor air environments."
       ],
       "correct": 0,
-      "explanation": "A Persistent Organic Pollutant (POP) resists environmental breakdown, bioaccumulates in organisms' tissue, and can travel long distances—together making POPs a particularly long-lasting environmental concern. Choice A incorrectly equates POPs with primary air pollutants, an unrelated air-quality category. Choice B describes the opposite property; POPs are defined by resisting breakdown, not breaking down quickly. Choice D is wrong; POPs are found in soil, water, and food chains broadly, not limited to indoor air."
+      "explanation": "A Persistent Organic Pollutant (POP) resists environmental breakdown, bioaccumulates in organisms' tissue, and can travel long distances—together making POPs a particularly long-lasting environmental concern. Choice C incorrectly equates POPs with primary air pollutants, an unrelated air-quality category. Choice B describes the opposite property; POPs are defined by resisting breakdown, not breaking down quickly. Choice D is wrong; POPs are found in soil, water, and food chains broadly, not limited to indoor air."
     },
     {
       "id": "8-22",
@@ -7478,7 +7478,7 @@ const QUESTIONS = {
         "Nitrogen gas"
       ],
       "correct": 2,
-      "explanation": "DDT, a historically widely used pesticide, is the classic example of a Persistent Organic Pollutant—resistant to breakdown, bioaccumulating in tissue, and capable of biomagnifying up food chains, as covered in Unit 5. Choices B, C, and D (water vapor, nitrogen gas, oxygen) are all naturally occurring atmospheric components with no persistent, bioaccumulative pollutant properties."
+      "explanation": "DDT, a historically widely used pesticide, is the classic example of a Persistent Organic Pollutant—resistant to breakdown, bioaccumulating in tissue, and capable of biomagnifying up food chains, as covered in Unit 5. Choices A, D, and B (water vapor, nitrogen gas, oxygen) are all naturally occurring atmospheric components with no persistent, bioaccumulative pollutant properties."
     },
     {
       "id": "8-23",
@@ -7491,7 +7491,7 @@ const QUESTIONS = {
         "Because POPs bioaccumulate, they biomagnify up food chains into predators."
       ],
       "correct": 3,
-      "explanation": "Because POPs resist breakdown and bioaccumulate within individual organisms' tissue, they undergo biomagnification as predators consume many contaminated prey—reaching their highest concentrations in top predators, exactly the mechanism covered in Unit 5. Choice A denies a well-established, direct connection. Choice B is factually wrong; biomagnification affects consumers at every trophic level, not just producers. Choice C incorrectly restricts biomagnification to gases, when it's a solid/tissue-based accumulation process."
+      "explanation": "Because POPs resist breakdown and bioaccumulate within individual organisms' tissue, they undergo biomagnification as predators consume many contaminated prey—reaching their highest concentrations in top predators, exactly the mechanism covered in Unit 5. Choice B denies a well-established, direct connection. Choice A is factually wrong; biomagnification affects consumers at every trophic level, not just producers. Choice C incorrectly restricts biomagnification to gases, when it's a solid/tissue-based accumulation process."
     },
     {
       "id": "8-24",
@@ -7504,7 +7504,7 @@ const QUESTIONS = {
         "POPs can travel long distances via atmospheric or oceanic transport."
       ],
       "correct": 3,
-      "explanation": "POPs can travel long distances—through atmospheric or oceanic transport—before eventually depositing, meaning their environmental and health effects can occur far from the original point of release, a key reason many POPs have faced international restriction. Choices A and B both wrongly claim POPs stay near their release site, the opposite of their defining long-range transport property. Choice D is wrong; POPs specifically resist breakdown, so they don't dissolve into harmless components."
+      "explanation": "POPs can travel long distances—through atmospheric or oceanic transport—before eventually depositing, meaning their environmental and health effects can occur far from the original point of release, a key reason many POPs have faced international restriction. Choices A and B both wrongly claim POPs stay near their release site, the opposite of their defining long-range transport property. Choice C is wrong; POPs specifically resist breakdown, so they don't dissolve into harmless components."
     },
     {
       "id": "8-25",
@@ -7530,7 +7530,7 @@ const QUESTIONS = {
         "These two terms are perfectly identical with no meaningful distinction."
       ],
       "correct": 1,
-      "explanation": "Endocrine disruptors are defined by their MECHANISM (hormone system interference), while POPs are defined by their PERSISTENCE and bioaccumulation properties—two different classification dimensions, so a given chemical could fall into one category, both, or neither. Choice A overstates the case; the categories can and do overlap (e.g., DDT is both). Choice B is wrong; the terms describe different properties, not identical concepts. Choice C is an overgeneralization—some endocrine disruptors are also persistent, and some POPs also disrupt hormones."
+      "explanation": "Endocrine disruptors are defined by their MECHANISM (hormone system interference), while POPs are defined by their PERSISTENCE and bioaccumulation properties—two different classification dimensions, so a given chemical could fall into one category, both, or neither. Choice A overstates the case; the categories can and do overlap (e.g., DDT is both). Choice D is wrong; the terms describe different properties, not identical concepts. Choice C is an overgeneralization—some endocrine disruptors are also persistent, and some POPs also disrupt hormones."
     },
     {
       "id": "8-27",
@@ -7543,7 +7543,7 @@ const QUESTIONS = {
         "Their persistence, bioaccumulation, and long-range transport cause widespread harm."
       ],
       "correct": 3,
-      "explanation": "The combination of persistence, bioaccumulation, biomagnification up food chains, and long-distance environmental transport makes POPs capable of causing widespread and long-lasting harm across large geographic areas—precisely the combination of properties motivating international restrictions. Choice A is factually wrong; treaties like the Stockholm Convention have restricted numerous POPs. Choice B contradicts the well-documented harm POPs cause. Choice D is wrong; POPs like DDT have extensively documented ecological and health effects."
+      "explanation": "The combination of persistence, bioaccumulation, biomagnification up food chains, and long-distance environmental transport makes POPs capable of causing widespread and long-lasting harm across large geographic areas—precisely the combination of properties motivating international restrictions. Choice A is factually wrong; treaties like the Stockholm Convention have restricted numerous POPs. Choice B contradicts the well-documented harm POPs cause. Choice C is wrong; POPs like DDT have extensively documented ecological and health effects."
     },
     {
       "id": "8-28",
@@ -7556,7 +7556,7 @@ const QUESTIONS = {
         "Pollution that only ever affects air quality, never water quality."
       ],
       "correct": 2,
-      "explanation": "Thermal pollution refers to an increase in a water body's temperature—commonly from heated water discharged by industrial processes like power plant cooling systems—with heat itself, not any chemical contaminant, as the pollutant. Choice B is wrong; thermal pollution specifically affects water bodies, not air. Choice C incorrectly conflates it with eutrophication, a separate nutrient-driven process. Choice D is wrong because thermal pollution doesn't require any toxic chemical contamination at all—heat alone is the harmful factor."
+      "explanation": "Thermal pollution refers to an increase in a water body's temperature—commonly from heated water discharged by industrial processes like power plant cooling systems—with heat itself, not any chemical contaminant, as the pollutant. Choice D is wrong; thermal pollution specifically affects water bodies, not air. Choice B incorrectly conflates it with eutrophication, a separate nutrient-driven process. Choice A is wrong because thermal pollution doesn't require any toxic chemical contamination at all—heat alone is the harmful factor."
     },
     {
       "id": "8-29",
@@ -7569,7 +7569,7 @@ const QUESTIONS = {
         "Warmer water holds LESS dissolved oxygen than cooler water."
       ],
       "correct": 3,
-      "explanation": "Warmer water holds less dissolved oxygen than cooler water, a basic physical/chemical property, meaning thermal pollution can stress oxygen-dependent aquatic species even without any additional chemical contamination. Choice A wrongly denies this well-established relationship. Choice C similarly denies any temperature dependence, contradicting basic solubility chemistry. Choice D states the opposite of the actual relationship between temperature and oxygen solubility."
+      "explanation": "Warmer water holds less dissolved oxygen than cooler water, a basic physical/chemical property, meaning thermal pollution can stress oxygen-dependent aquatic species even without any additional chemical contamination. Choice A wrongly denies this well-established relationship. Choice C similarly denies any temperature dependence, contradicting basic solubility chemistry. Choice B states the opposite of the actual relationship between temperature and oxygen solubility."
     },
     {
       "id": "8-30",
@@ -7582,7 +7582,7 @@ const QUESTIONS = {
         "No — it's specifically about heat itself, even in chemically clean water."
       ],
       "correct": 3,
-      "explanation": "Thermal pollution doesn't necessarily involve any toxic chemical contamination—it's specifically about the temperature increase itself as the harmful factor, even in water that is otherwise chemically clean. Choice A wrongly denies that thermal pollution affects water quality; elevated temperature itself degrades habitat conditions. Choice B incorrectly claims chemical contamination is required by definition. Choice D unnecessarily restricts the concept to industrial sources; the defining feature is the heat itself, not the source category."
+      "explanation": "Thermal pollution doesn't necessarily involve any toxic chemical contamination—it's specifically about the temperature increase itself as the harmful factor, even in water that is otherwise chemically clean. Choice C wrongly denies that thermal pollution affects water quality; elevated temperature itself degrades habitat conditions. Choice A incorrectly claims chemical contamination is required by definition. Choice B unnecessarily restricts the concept to industrial sources; the defining feature is the heat itself, not the source category."
     },
     {
       "id": "8-31",
@@ -7595,7 +7595,7 @@ const QUESTIONS = {
         "Thermal pollution has no relationship to species composition."
       ],
       "correct": 1,
-      "explanation": "By pushing native species outside their optimal temperature tolerance range (Unit 2's tolerance concept), thermal pollution can create conditions more favorable to different species—sometimes invasive, warmer-adapted ones (Unit 5's species-shift content). Choice A is wrong; thermal changes typically disadvantage some native species rather than benefiting all equally. Choice B and Choice D both deny a well-documented link between temperature and species composition shifts."
+      "explanation": "By pushing native species outside their optimal temperature tolerance range (Unit 2's tolerance concept), thermal pollution can create conditions more favorable to different species—sometimes invasive, warmer-adapted ones (Unit 5's species-shift content). Choice A is wrong; thermal changes typically disadvantage some native species rather than benefiting all equally. Choice C and Choice D both deny a well-documented link between temperature and species composition shifts."
     },
     {
       "id": "8-32",
@@ -7608,7 +7608,7 @@ const QUESTIONS = {
         "This decline has no relationship to the temperature increase."
       ],
       "correct": 1,
-      "explanation": "Given the species' narrow temperature tolerance range, the 6°C increase likely pushed conditions outside its optimal range and into a zone of physiological stress or intolerance—illustrating thermal pollution's harm through a purely temperature-based mechanism, without any chemical contaminant required. Choice A wrongly assumes a chemical cause when the scenario describes only a temperature change. Choice B denies an obvious causal link given the timing and the species' known narrow tolerance. Choice D reverses the actual relationship—a narrow tolerance range makes a species MORE vulnerable to temperature shifts, not more resistant."
+      "explanation": "Given the species' narrow temperature tolerance range, the 6°C increase likely pushed conditions outside its optimal range and into a zone of physiological stress or intolerance—illustrating thermal pollution's harm through a purely temperature-based mechanism, without any chemical contaminant required. Choice A wrongly assumes a chemical cause when the scenario describes only a temperature change. Choice D denies an obvious causal link given the timing and the species' known narrow tolerance. Choice C reverses the actual relationship—a narrow tolerance range makes a species MORE vulnerable to temperature shifts, not more resistant."
     },
     {
       "id": "8-33",
@@ -7634,7 +7634,7 @@ const QUESTIONS = {
         "There is no relationship between thermal pollution and invasive species."
       ],
       "correct": 2,
-      "explanation": "If an invasive species has a temperature tolerance profile better suited to the new, warmer conditions created by thermal pollution than more temperature-sensitive native species, the invasive species could gain a competitive advantage, connecting this section to Unit 5's invasive species content. Choice B states the opposite outcome; thermal pollution can favor, not eliminate, invasive species. Choice C is wrong; temperature is a key factor shaping invasive species' success. Choice D denies a documented ecological relationship covered directly in this section."
+      "explanation": "If an invasive species has a temperature tolerance profile better suited to the new, warmer conditions created by thermal pollution than more temperature-sensitive native species, the invasive species could gain a competitive advantage, connecting this section to Unit 5's invasive species content. Choice B states the opposite outcome; thermal pollution can favor, not eliminate, invasive species. Choice A is wrong; temperature is a key factor shaping invasive species' success. Choice D denies a documented ecological relationship covered directly in this section."
     },
     {
       "id": "8-35",
@@ -7647,7 +7647,7 @@ const QUESTIONS = {
         "Increased dissolved oxygen capacity, coupled with immediate elimination of all aquatic life."
       ],
       "correct": 0,
-      "explanation": "Thermal pollution harms aquatic ecosystems through two distinct mechanisms: reduced dissolved oxygen capacity (a basic physical property of warmer water) and shifting which species' temperature tolerance ranges are favored. Choice A wrongly claims only one mechanism exists, when two are described in this section. Choice B incorrectly attributes the harm to chemical toxicity, which thermal pollution does not require. Choice C both reverses the oxygen relationship (warmer water holds less, not more, oxygen) and overstates the impact as immediate total elimination of life."
+      "explanation": "Thermal pollution harms aquatic ecosystems through two distinct mechanisms: reduced dissolved oxygen capacity (a basic physical property of warmer water) and shifting which species' temperature tolerance ranges are favored. Choice B wrongly claims only one mechanism exists, when two are described in this section. Choice C incorrectly attributes the harm to chemical toxicity, which thermal pollution does not require. Choice D both reverses the oxygen relationship (warmer water holds less, not more, oxygen) and overstates the impact as immediate total elimination of life."
     },
     {
       "id": "8-36",
@@ -7660,7 +7660,7 @@ const QUESTIONS = {
         "Yes, because thermal pollution always contains toxic chemicals."
       ],
       "correct": 0,
-      "explanation": "Thermal pollution's harm mechanism is genuinely distinct from a typical chemical pollutant's—it operates through temperature-related physical and physiological effects (reduced dissolved oxygen, tolerance range shifts), not through toxic chemical action. Choice A incorrectly claims chemicals are always involved. Choice B overgeneralizes; different pollutants clearly act through different mechanisms, as this section demonstrates. Choice C denies thermal pollution's well-documented ecological harm entirely."
+      "explanation": "Thermal pollution's harm mechanism is genuinely distinct from a typical chemical pollutant's—it operates through temperature-related physical and physiological effects (reduced dissolved oxygen, tolerance range shifts), not through toxic chemical action. Choice D incorrectly claims chemicals are always involved. Choice B overgeneralizes; different pollutants clearly act through different mechanisms, as this section demonstrates. Choice C denies thermal pollution's well-documented ecological harm entirely."
     },
     {
       "id": "8-37",
@@ -7673,7 +7673,7 @@ const QUESTIONS = {
         "Unit 2's tolerance range and Unit 5's invasive species concepts."
       ],
       "correct": 3,
-      "explanation": "This scenario draws directly on Unit 2's range of tolerance concept (explaining the species shift due to temperature) and Unit 5's content on shifting species composition and invasive species (the community-level consequence). Choice A incorrectly invokes plate tectonics, an unrelated geology topic. Choice B wrongly denies any cross-unit connection, when the scenario clearly involves tolerance ranges and species shifts covered elsewhere. Choice D incorrectly invokes energy conservation, which isn't the relevant concept for this ecological scenario."
+      "explanation": "This scenario draws directly on Unit 2's range of tolerance concept (explaining the species shift due to temperature) and Unit 5's content on shifting species composition and invasive species (the community-level consequence). Choice A incorrectly invokes plate tectonics, an unrelated geology topic. Choice C wrongly denies any cross-unit connection, when the scenario clearly involves tolerance ranges and species shifts covered elsewhere. Choice B incorrectly invokes energy conservation, which isn't the relevant concept for this ecological scenario."
     },
     {
       "id": "8-38",
@@ -7686,7 +7686,7 @@ const QUESTIONS = {
         "Any and all forms of waste decomposition from occurring."
       ],
       "correct": 1,
-      "explanation": "A sanitary landfill is lined specifically to prevent leachate—contaminated liquid that forms as waste decomposes and water passes through it—from reaching and contaminating groundwater below. Choice B is wrong; decomposition still occurs within a landfill, it's just contained. Choice C misunderstands the purpose; landfills are designed to safely contain buried waste, not prevent burial. Choice D is incorrect; compaction is a normal, intended part of landfill operation, not something the design prevents."
+      "explanation": "A sanitary landfill is lined specifically to prevent leachate—contaminated liquid that forms as waste decomposes and water passes through it—from reaching and contaminating groundwater below. Choice D is wrong; decomposition still occurs within a landfill, it's just contained. Choice A misunderstands the purpose; landfills are designed to safely contain buried waste, not prevent burial. Choice C is incorrect; compaction is a normal, intended part of landfill operation, not something the design prevents."
     },
     {
       "id": "8-39",
@@ -7699,7 +7699,7 @@ const QUESTIONS = {
         "It can release air pollutants, and its ash needs separate disposal."
       ],
       "correct": 3,
-      "explanation": "While incineration significantly reduces waste volume, it can release air pollutants unless properly controlled with adequate emission controls, and it produces ash that still requires separate disposal—a genuine tradeoff against its volume-reduction benefit. Choice A denies this well-documented tradeoff. Choice C is factually incorrect; incineration is legal and widely practiced in many countries under regulation. Choice D states the opposite of incineration's actual effect—it reduces, not increases, total waste volume."
+      "explanation": "While incineration significantly reduces waste volume, it can release air pollutants unless properly controlled with adequate emission controls, and it produces ash that still requires separate disposal—a genuine tradeoff against its volume-reduction benefit. Choice A denies this well-documented tradeoff. Choice C is factually incorrect; incineration is legal and widely practiced in many countries under regulation. Choice B states the opposite of incineration's actual effect—it reduces, not increases, total waste volume."
     },
     {
       "id": "8-40",
@@ -7712,7 +7712,7 @@ const QUESTIONS = {
         "Landfilling waste after it has already been produced"
       ],
       "correct": 1,
-      "explanation": "Reducing waste generation in the first place is the most preferred strategy in this hierarchy, since it avoids the environmental cost of producing the item at all. Choice B (reusing) and Choice D (recycling) are both preferable to disposal but rank below reducing because they still involve managing an item that was already produced. Choice A (landfilling) is disposal, the least preferred option of all, not a hierarchy strategy for avoiding waste."
+      "explanation": "Reducing waste generation in the first place is the most preferred strategy in this hierarchy, since it avoids the environmental cost of producing the item at all. Choice C (reusing) and Choice A (recycling) are both preferable to disposal but rank below reducing because they still involve managing an item that was already produced. Choice D (landfilling) is disposal, the least preferred option of all, not a hierarchy strategy for avoiding waste."
     },
     {
       "id": "8-41",
@@ -7725,7 +7725,7 @@ const QUESTIONS = {
         "All three strategies are equally preferred"
       ],
       "correct": 0,
-      "explanation": "Recycling is the least preferred of the three strategies, since it still requires energy and resources to reprocess material into something new—though it remains meaningfully better than simple disposal. Choice A (reusing) ranks above recycling because it extends an item's life without reprocessing it. Choice B (reducing) is the most preferred tier, avoiding production entirely. Choice C is wrong; the hierarchy explicitly ranks these three strategies rather than treating them as equal."
+      "explanation": "Recycling is the least preferred of the three strategies, since it still requires energy and resources to reprocess material into something new—though it remains meaningfully better than simple disposal. Choice C (reusing) ranks above recycling because it extends an item's life without reprocessing it. Choice B (reducing) is the most preferred tier, avoiding production entirely. Choice D is wrong; the hierarchy explicitly ranks these three strategies rather than treating them as equal."
     },
     {
       "id": "8-42",
@@ -7738,7 +7738,7 @@ const QUESTIONS = {
         "CERCLA"
       ],
       "correct": 2,
-      "explanation": "RCRA (Resource Conservation and Recovery Act) governs the ongoing, forward-looking 'cradle to grave' management of hazardous waste, tracking it from generation through final disposal. Choice A (CERCLA) instead addresses cleanup of already-contaminated sites, a backward-looking function. Choice C (Endangered Species Act) protects threatened species and habitat, unrelated to hazardous waste tracking. Choice D (Clean Air Act) regulates atmospheric emissions, not solid or hazardous waste management."
+      "explanation": "RCRA (Resource Conservation and Recovery Act) governs the ongoing, forward-looking 'cradle to grave' management of hazardous waste, tracking it from generation through final disposal. Choice D (CERCLA) instead addresses cleanup of already-contaminated sites, a backward-looking function. Choice B (Endangered Species Act) protects threatened species and habitat, unrelated to hazardous waste tracking. Choice A (Clean Air Act) regulates atmospheric emissions, not solid or hazardous waste management."
     },
     {
       "id": "8-43",
@@ -7751,7 +7751,7 @@ const QUESTIONS = {
         "The Delaney Clause"
       ],
       "correct": 1,
-      "explanation": "CERCLA, commonly called Superfund, specifically addresses cleanup of already-contaminated sites, often including abandoned sites where no responsible party remains to fund remediation otherwise. Choice B (RCRA) instead governs forward-looking, ongoing hazardous waste management, not cleanup of existing contamination. Choice C (Safe Drinking Water Act) regulates water intended for human consumption, not site cleanup. Choice A (Delaney Clause) is a food-safety provision unrelated to contaminated-site remediation."
+      "explanation": "CERCLA, commonly called Superfund, specifically addresses cleanup of already-contaminated sites, often including abandoned sites where no responsible party remains to fund remediation otherwise. Choice A (RCRA) instead governs forward-looking, ongoing hazardous waste management, not cleanup of existing contamination. Choice C (Safe Drinking Water Act) regulates water intended for human consumption, not site cleanup. Choice D (Delaney Clause) is a food-safety provision unrelated to contaminated-site remediation."
     },
     {
       "id": "8-44",
@@ -7764,7 +7764,7 @@ const QUESTIONS = {
         "Neither law establishes any meaningful distinction in its regulatory timeframe."
       ],
       "correct": 2,
-      "explanation": "RCRA is forward-looking, governing the ongoing management and disposal of hazardous waste as it's generated going forward, while CERCLA is backward-looking, addressing cleanup of contamination that already exists at a site. Choice C exactly reverses these two laws' actual temporal focus. Choice A wrongly denies that either law has a temporal orientation, when this forward/backward distinction is a defining feature of each. Choice B is incorrect for the same reason—the two laws address clearly distinct timeframes."
+      "explanation": "RCRA is forward-looking, governing the ongoing management and disposal of hazardous waste as it's generated going forward, while CERCLA is backward-looking, addressing cleanup of contamination that already exists at a site. Choice B exactly reverses these two laws' actual temporal focus. Choice D wrongly denies that either law has a temporal orientation, when this forward/backward distinction is a defining feature of each. Choice A is incorrect for the same reason—the two laws address clearly distinct timeframes."
     },
     {
       "id": "8-45",
@@ -7777,7 +7777,7 @@ const QUESTIONS = {
         "Recycling"
       ],
       "correct": 0,
-      "explanation": "Redesigning packaging to use less material in the first place is a direct example of 'reducing'—the most preferred tier of the hierarchy, since it avoids the environmental cost of producing the excess material entirely. Choice A (reusing) would involve using the same packaging again, not designing it to need less material. Choice B (recycling) would involve reprocessing packaging after use, a different action entirely. Choice D is wrong; this action clearly fits the 'reducing' tier of the hierarchy."
+      "explanation": "Redesigning packaging to use less material in the first place is a direct example of 'reducing'—the most preferred tier of the hierarchy, since it avoids the environmental cost of producing the excess material entirely. Choice C (reusing) would involve using the same packaging again, not designing it to need less material. Choice D (recycling) would involve reprocessing packaging after use, a different action entirely. Choice B is wrong; this action clearly fits the 'reducing' tier of the hierarchy."
     },
     {
       "id": "8-46",
@@ -7790,7 +7790,7 @@ const QUESTIONS = {
         "Monitoring is required only for landfills that accept hazardous waste, never ordinary municipal waste."
       ],
       "correct": 2,
-      "explanation": "Even a properly lined and closed landfill can potentially develop issues over time, such as liner degradation or unexpected leaks, so long-term monitoring helps detect and address any leachate escape before it causes significant groundwater contamination; waste continues decomposing and generating leachate for years after closure. Choice A incorrectly restricts this requirement to hazardous-waste landfills, when ordinary municipal landfills require monitoring too. Choice C is wrong; leachate production continues for years as buried waste keeps decomposing. Choice D directly contradicts standard landfill regulatory practice, which requires ongoing post-closure monitoring."
+      "explanation": "Even a properly lined and closed landfill can potentially develop issues over time, such as liner degradation or unexpected leaks, so long-term monitoring helps detect and address any leachate escape before it causes significant groundwater contamination; waste continues decomposing and generating leachate for years after closure. Choice D incorrectly restricts this requirement to hazardous-waste landfills, when ordinary municipal landfills require monitoring too. Choice A is wrong; leachate production continues for years as buried waste keeps decomposing. Choice B directly contradicts standard landfill regulatory practice, which requires ongoing post-closure monitoring."
     },
     {
       "id": "8-47",
@@ -7803,7 +7803,7 @@ const QUESTIONS = {
         "Nothing; primary treatment is a purely symbolic first step."
       ],
       "correct": 1,
-      "explanation": "Primary treatment uses physical processes—screening and sedimentation—to remove large solids from wastewater, the first stage in the treatment sequence. Choice A wrongly dismisses primary treatment as merely symbolic, when it performs genuine solid removal. Choice B incorrectly names dissolved gases as the target, which isn't what physical screening and settling address. Choice C describes tertiary treatment's function, not primary treatment's."
+      "explanation": "Primary treatment uses physical processes—screening and sedimentation—to remove large solids from wastewater, the first stage in the treatment sequence. Choice D wrongly dismisses primary treatment as merely symbolic, when it performs genuine solid removal. Choice A incorrectly names dissolved gases as the target, which isn't what physical screening and settling address. Choice C describes tertiary treatment's function, not primary treatment's."
     },
     {
       "id": "8-48",
@@ -7816,7 +7816,7 @@ const QUESTIONS = {
         "Remaining organic matter, using microorganisms."
       ],
       "correct": 3,
-      "explanation": "Secondary treatment uses biological processes—microorganisms breaking down organic matter—to remove the dissolved and suspended organic material remaining after primary treatment's physical solid removal. Choice A wrongly claims the two stages are identical; they use different mechanisms entirely. Choice B overstates secondary treatment's scope; complete pathogen and nutrient removal is tertiary treatment's job. Choice D describes primary treatment's physical screening function, not secondary treatment's biological one."
+      "explanation": "Secondary treatment uses biological processes—microorganisms breaking down organic matter—to remove the dissolved and suspended organic material remaining after primary treatment's physical solid removal. Choice A wrongly claims the two stages are identical; they use different mechanisms entirely. Choice B overstates secondary treatment's scope; complete pathogen and nutrient removal is tertiary treatment's job. Choice C describes primary treatment's physical screening function, not secondary treatment's biological one."
     },
     {
       "id": "8-49",
@@ -7829,7 +7829,7 @@ const QUESTIONS = {
         "Only the dissolved gases present in the raw wastewater stream."
       ],
       "correct": 0,
-      "explanation": "Tertiary treatment uses advanced processes to remove remaining nutrients and pathogens that primary and secondary treatment don't fully address, producing the highest-quality effluent of the three stages. Choice A wrongly claims tertiary treatment adds nothing new, contradicting its defined purpose. Choice B describes primary treatment's function (large solid removal), not tertiary's. Choice C incorrectly names dissolved gases, which isn't tertiary treatment's target contaminant."
+      "explanation": "Tertiary treatment uses advanced processes to remove remaining nutrients and pathogens that primary and secondary treatment don't fully address, producing the highest-quality effluent of the three stages. Choice C wrongly claims tertiary treatment adds nothing new, contradicting its defined purpose. Choice B describes primary treatment's function (large solid removal), not tertiary's. Choice D incorrectly names dissolved gases, which isn't tertiary treatment's target contaminant."
     },
     {
       "id": "8-50",
@@ -7842,7 +7842,7 @@ const QUESTIONS = {
         "RCRA (hazardous waste law)"
       ],
       "correct": 2,
-      "explanation": "The Safe Drinking Water Act specifically regulates the quality of water intended for human consumption, distinct from the Clean Water Act's broader focus on pollutant discharges into water bodies generally. Choice C addresses discharge into water bodies, not consumption-quality standards. Choice B (CERCLA) addresses contaminated-site cleanup, unrelated to drinking water quality. Choice D (RCRA) governs hazardous waste management, not drinking water standards."
+      "explanation": "The Safe Drinking Water Act specifically regulates the quality of water intended for human consumption, distinct from the Clean Water Act's broader focus on pollutant discharges into water bodies generally. Choice B addresses discharge into water bodies, not consumption-quality standards. Choice A (CERCLA) addresses contaminated-site cleanup, unrelated to drinking water quality. Choice D (RCRA) governs hazardous waste management, not drinking water standards."
     },
     {
       "id": "8-51",
@@ -7855,7 +7855,7 @@ const QUESTIONS = {
         "Yes, these are simply two different official names for one identical law."
       ],
       "correct": 0,
-      "explanation": "These are two distinct required pieces of legislation addressing related but different concerns: the Clean Water Act governs pollutant discharges into water bodies generally, while the Safe Drinking Water Act specifically governs water intended for human consumption. Choice A wrongly claims they're the same law. Choice B incorrectly restricts both laws to ocean pollution; neither is ocean-specific. Choice D is factually wrong; both laws are real, currently enforced federal statutes."
+      "explanation": "These are two distinct required pieces of legislation addressing related but different concerns: the Clean Water Act governs pollutant discharges into water bodies generally, while the Safe Drinking Water Act specifically governs water intended for human consumption. Choice D wrongly claims they're the same law. Choice B incorrectly restricts both laws to ocean pollution; neither is ocean-specific. Choice C is factually wrong; both laws are real, currently enforced federal statutes."
     },
     {
       "id": "8-52",
@@ -7868,7 +7868,7 @@ const QUESTIONS = {
         "Plants are legally prohibited from ever using tertiary treatment."
       ],
       "correct": 0,
-      "explanation": "Given tertiary treatment's significantly higher cost, a plant may reasonably decide against it if primary and secondary treatment alone are sufficient to meet applicable regulatory discharge standards, even though tertiary treatment would produce cleaner water. Choice B is factually wrong; tertiary treatment requires substantial additional investment, not none. Choice C incorrectly claims a legal prohibition that doesn't exist—many plants do use tertiary treatment. Choice D states the opposite of tertiary treatment's actual effect; it produces higher-quality effluent than secondary treatment, not lower."
+      "explanation": "Given tertiary treatment's significantly higher cost, a plant may reasonably decide against it if primary and secondary treatment alone are sufficient to meet applicable regulatory discharge standards, even though tertiary treatment would produce cleaner water. Choice B is factually wrong; tertiary treatment requires substantial additional investment, not none. Choice D incorrectly claims a legal prohibition that doesn't exist—many plants do use tertiary treatment. Choice C states the opposite of tertiary treatment's actual effect; it produces higher-quality effluent than secondary treatment, not lower."
     },
     {
       "id": "8-53",
@@ -7881,7 +7881,7 @@ const QUESTIONS = {
         "None of the three stages use microorganisms"
       ],
       "correct": 1,
-      "explanation": "Secondary treatment specifically relies on microorganisms to biologically break down remaining organic matter in the wastewater, distinguishing it from primary treatment's purely physical processes. Choice B (tertiary treatment) instead uses advanced chemical or physical processes to remove nutrients and pathogens. Choice D (primary treatment) relies on physical screening and sedimentation, not microorganisms. Choice C is wrong; secondary treatment's biological process does depend on microorganisms."
+      "explanation": "Secondary treatment specifically relies on microorganisms to biologically break down remaining organic matter in the wastewater, distinguishing it from primary treatment's purely physical processes. Choice C (tertiary treatment) instead uses advanced chemical or physical processes to remove nutrients and pathogens. Choice A (primary treatment) relies on physical screening and sedimentation, not microorganisms. Choice D is wrong; secondary treatment's biological process does depend on microorganisms."
     },
     {
       "id": "8-54",
@@ -7894,7 +7894,7 @@ const QUESTIONS = {
         "Repeating secondary treatment's biological microorganism process again."
       ],
       "correct": 2,
-      "explanation": "Tertiary treatment is specifically designed to remove remaining nutrients and pathogens that primary and secondary treatment don't fully address, making it the appropriate additional stage for this scenario. Choice A and Choice B both wrongly suggest simply repeating an earlier stage, which wouldn't target the nutrients and pathogens that stage was never designed to remove. Choice C incorrectly claims no further option exists, when tertiary treatment is precisely the next stage for this purpose."
+      "explanation": "Tertiary treatment is specifically designed to remove remaining nutrients and pathogens that primary and secondary treatment don't fully address, making it the appropriate additional stage for this scenario. Choice B and Choice D both wrongly suggest simply repeating an earlier stage, which wouldn't target the nutrients and pathogens that stage was never designed to remove. Choice A incorrectly claims no further option exists, when tertiary treatment is precisely the next stage for this purpose."
     },
     {
       "id": "8-55",
@@ -7920,7 +7920,7 @@ const QUESTIONS = {
         "The dose required to cure 50% of a disease."
       ],
       "correct": 0,
-      "explanation": "LD50 (lethal dose, 50%) measures the dose of a substance required to kill 50% of a test population—a standard toxicology measure for comparing relative toxicity between substances. Choice A wrongly denies LD50's clear toxicology purpose. Choice C confuses it with an unrelated lifespan measure, not a dose-based lethality threshold. Choice D incorrectly describes a curative dose rather than a lethal one; LD50 measures harm, not treatment efficacy."
+      "explanation": "LD50 (lethal dose, 50%) measures the dose of a substance required to kill 50% of a test population—a standard toxicology measure for comparing relative toxicity between substances. Choice B wrongly denies LD50's clear toxicology purpose. Choice C confuses it with an unrelated lifespan measure, not a dose-based lethality threshold. Choice D incorrectly describes a curative dose rather than a lethal one; LD50 measures harm, not treatment efficacy."
     },
     {
       "id": "8-57",
@@ -7933,7 +7933,7 @@ const QUESTIONS = {
         "LD50 has no relationship to a substance's toxicity."
       ],
       "correct": 1,
-      "explanation": "A lower LD50 indicates a more toxic substance, since a smaller dose is sufficient to kill 50% of the test population, indicating greater potency. Choice A gets the direction backwards, applying a generic 'smaller number, less danger' intuition rather than LD50's specific meaning. Choice B overstates the case; a low LD50 indicates high toxicity, not harmlessness. Choice C wrongly denies that LD50 relates to toxicity at all, when it's specifically a toxicity measure."
+      "explanation": "A lower LD50 indicates a more toxic substance, since a smaller dose is sufficient to kill 50% of the test population, indicating greater potency. Choice C gets the direction backwards, applying a generic 'smaller number, less danger' intuition rather than LD50's specific meaning. Choice A overstates the case; a low LD50 indicates high toxicity, not harmlessness. Choice D wrongly denies that LD50 relates to toxicity at all, when it's specifically a toxicity measure."
     },
     {
       "id": "8-58",
@@ -7946,7 +7946,7 @@ const QUESTIONS = {
         "Substance B, since its LD50 number happens to be larger."
       ],
       "correct": 1,
-      "explanation": "Substance A is more toxic—its much lower LD50 (10 mg/kg vs. 1000 mg/kg) means a far smaller dose is sufficient to reach the 50% lethality threshold, indicating greater potency. Choice A picks the wrong substance by mistakenly treating a larger LD50 number as more dangerous, when the opposite is true. Choice B ignores the 100-fold difference between the two LD50 values. Choice C is wrong; comparing LD50 values is exactly how relative toxicity is standardly assessed."
+      "explanation": "Substance A is more toxic—its much lower LD50 (10 mg/kg vs. 1000 mg/kg) means a far smaller dose is sufficient to reach the 50% lethality threshold, indicating greater potency. Choice D picks the wrong substance by mistakenly treating a larger LD50 number as more dangerous, when the opposite is true. Choice A ignores the 100-fold difference between the two LD50 values. Choice C is wrong; comparing LD50 values is exactly how relative toxicity is standardly assessed."
     },
     {
       "id": "8-59",
@@ -7959,7 +7959,7 @@ const QUESTIONS = {
         "Generally, a greater biological effect as the dose increases."
       ],
       "correct": 3,
-      "explanation": "A typical dose-response curve generally shows increasing biological effect with increasing dose—though, as covered in Section 8.3, endocrine disruptors are a notable exception to this general pattern. Choice A wrongly denies any dose-effect relationship, contrary to the basic premise of dose-response toxicology. Choice C incorrectly restricts dose-response curves to pathogens; they apply broadly to chemical toxins as well. Choice D states the opposite of the typical pattern, though endocrine disruptors can complicate this general rule."
+      "explanation": "A typical dose-response curve generally shows increasing biological effect with increasing dose—though, as covered in Section 8.3, endocrine disruptors are a notable exception to this general pattern. Choice A wrongly denies any dose-effect relationship, contrary to the basic premise of dose-response toxicology. Choice C incorrectly restricts dose-response curves to pathogens; they apply broadly to chemical toxins as well. Choice B states the opposite of the typical pattern, though endocrine disruptors can complicate this general rule."
     },
     {
       "id": "8-60",
@@ -7972,7 +7972,7 @@ const QUESTIONS = {
         "Endocrine disruptors"
       ],
       "correct": 3,
-      "explanation": "Endocrine disruptors are a notable exception to the typical dose-response pattern, since they can cause significant harm even at very low concentrations by interfering with the naturally low-concentration hormone signaling system, rather than requiring a comparatively high dose to cause comparable harm. Choice C (Persistent Organic Pollutants) is defined by persistence and bioaccumulation, not by an exceptional dose-response pattern, though some POPs are also endocrine disruptors. Choices A and D (sulfur dioxide, particulate matter) are conventional air pollutants that generally follow the typical more-dose-more-harm pattern."
+      "explanation": "Endocrine disruptors are a notable exception to the typical dose-response pattern, since they can cause significant harm even at very low concentrations by interfering with the naturally low-concentration hormone signaling system, rather than requiring a comparatively high dose to cause comparable harm. Choice C (Persistent Organic Pollutants) is defined by persistence and bioaccumulation, not by an exceptional dose-response pattern, though some POPs are also endocrine disruptors. Choices B and A (sulfur dioxide, particulate matter) are conventional air pollutants that generally follow the typical more-dose-more-harm pattern."
     },
     {
       "id": "8-61",
@@ -7985,7 +7985,7 @@ const QUESTIONS = {
         "Beneficial microorganisms that actively improve overall water quality."
       ],
       "correct": 2,
-      "explanation": "Pathogens are disease-causing organisms, and their transmission through contaminated drinking water remains a major global health issue, particularly in regions lacking adequate sewage treatment or safe drinking water access. Choice A states the opposite; pathogens cause disease rather than improving water quality. Choice C incorrectly categorizes pathogens as a chemical pollutant class (POPs), when pathogens are living disease-causing organisms. Choice D wrongly equates pathogens with an unrelated hormone-interference concept."
+      "explanation": "Pathogens are disease-causing organisms, and their transmission through contaminated drinking water remains a major global health issue, particularly in regions lacking adequate sewage treatment or safe drinking water access. Choice D states the opposite; pathogens cause disease rather than improving water quality. Choice A incorrectly categorizes pathogens as a chemical pollutant class (POPs), when pathogens are living disease-causing organisms. Choice B wrongly equates pathogens with an unrelated hormone-interference concept."
     },
     {
       "id": "8-62",
@@ -7998,7 +7998,7 @@ const QUESTIONS = {
         "The Clean Air Act (air emissions law)"
       ],
       "correct": 1,
-      "explanation": "The Safe Drinking Water Act directly addresses pathogen-driven waterborne illness risk by establishing enforceable quality standards for public drinking water systems in the United States. Choice A (RCRA) governs hazardous solid waste management, unrelated to drinking water pathogens. Choice C (Clean Air Act) regulates atmospheric emissions, not waterborne disease. Choice D (CERCLA) addresses contaminated-site cleanup, not ongoing drinking water quality standards."
+      "explanation": "The Safe Drinking Water Act directly addresses pathogen-driven waterborne illness risk by establishing enforceable quality standards for public drinking water systems in the United States. Choice C (RCRA) governs hazardous solid waste management, unrelated to drinking water pathogens. Choice D (Clean Air Act) regulates atmospheric emissions, not waterborne disease. Choice A (CERCLA) addresses contaminated-site cleanup, not ongoing drinking water quality standards."
     },
     {
       "id": "8-63",
@@ -8011,7 +8011,7 @@ const QUESTIONS = {
         "No — LD50 measures only acute lethal toxicity from a single dose."
       ],
       "correct": 3,
-      "explanation": "LD50 specifically measures ACUTE lethal toxicity from a single dose—it doesn't capture other important health concerns like chronic low-dose exposure effects, carcinogenicity, or endocrine-disrupting mechanisms, which can cause harm without necessarily showing up as increased lethality on a standard LD50 test. Choice B overstates LD50's scope; it captures only acute lethality, not every health effect. Choice C incorrectly restricts LD50 testing to human subjects; it's typically derived from animal studies. Choice D reverses LD50's actual focus, which is acute, not chronic, effects."
+      "explanation": "LD50 specifically measures ACUTE lethal toxicity from a single dose—it doesn't capture other important health concerns like chronic low-dose exposure effects, carcinogenicity, or endocrine-disrupting mechanisms, which can cause harm without necessarily showing up as increased lethality on a standard LD50 test. Choice A overstates LD50's scope; it captures only acute lethality, not every health effect. Choice B incorrectly restricts LD50 testing to human subjects; it's typically derived from animal studies. Choice C reverses LD50's actual focus, which is acute, not chronic, effects."
     },
     {
       "id": "8-64",
@@ -8024,7 +8024,7 @@ const QUESTIONS = {
         "Pathogens only exist in regions with advanced sewage treatment infrastructure."
       ],
       "correct": 2,
-      "explanation": "Without adequate sewage treatment—particularly the pathogen-removal benefits of secondary and tertiary treatment covered in Section 8.6—disease-causing organisms can enter water sources used for drinking, bathing, and other human contact, directly connecting this section's pathogen content to the unit's earlier wastewater treatment coverage. Choice A wrongly denies this direct link. Choice C states the opposite of the actual relationship; pathogen risk is higher, not exclusive to, regions with advanced treatment. Choice D wrongly denies a clear cross-section connection within the unit."
+      "explanation": "Without adequate sewage treatment—particularly the pathogen-removal benefits of secondary and tertiary treatment covered in Section 8.6—disease-causing organisms can enter water sources used for drinking, bathing, and other human contact, directly connecting this section's pathogen content to the unit's earlier wastewater treatment coverage. Choice B wrongly denies this direct link. Choice D states the opposite of the actual relationship; pathogen risk is higher, not exclusive to, regions with advanced treatment. Choice A wrongly denies a clear cross-section connection within the unit."
     },
     {
       "id": "8-65",
@@ -8037,7 +8037,7 @@ const QUESTIONS = {
         "LD50 only measures acute toxicity; Chemical Y's high LD50 masks its endocrine-disrupting risk at far lower doses."
       ],
       "correct": 3,
-      "explanation": "This question tests whether students can apply the Section 8.3/8.7 lesson that endocrine disruptors violate the typical dose-response assumption. LD50 measures only acute lethal toxicity from a single dose: Chemical Y's much higher LD50 (5000 mg/kg) makes it look far safer than Chemical X (LD50 50 mg/kg) by that single measure alone, but Chemical Y's endocrine-disrupting effects occur at concentrations 1000 times below its own LD50, so realistic environmental exposure could cause significant reproductive harm from Chemical Y long before exposure ever approached acutely lethal levels. Choice A wrongly assumes lower LD50 always means more dangerous overall, ignoring Chemical Y's low-dose endocrine risk. Choice C overstates LD50's scope; it captures acute lethality only, not chronic or low-dose effects. Choice D incorrectly reverses the actual concern — endocrine-disrupting harm is precisely dangerous because it occurs well BELOW the LD50 threshold, not above it."
+      "explanation": "This question tests whether students can apply the Section 8.3/8.7 lesson that endocrine disruptors violate the typical dose-response assumption. LD50 measures only acute lethal toxicity from a single dose: Chemical Y's much higher LD50 (5000 mg/kg) makes it look far safer than Chemical X (LD50 50 mg/kg) by that single measure alone, but Chemical Y's endocrine-disrupting effects occur at concentrations 1000 times below its own LD50, so realistic environmental exposure could cause significant reproductive harm from Chemical Y long before exposure ever approached acutely lethal levels. Choice A wrongly assumes lower LD50 always means more dangerous overall, ignoring Chemical Y's low-dose endocrine risk. Choice B overstates LD50's scope; it captures acute lethality only, not chronic or low-dose effects. Choice C incorrectly reverses the actual concern — endocrine-disrupting harm is precisely dangerous because it occurs well BELOW the LD50 threshold, not above it."
     },
     {
       "id": "8-66",
@@ -8046,11 +8046,11 @@ const QUESTIONS = {
       "choices": [
         "A biological process that occurs exclusively in plants, never in any animal species",
         "The buildup of a substance within a single organism's tissue over its lifetime.",
-        "The complete removal of a toxic substance from an ecosystem over time",
-        "A process that only occurs in plants, never in animals"
+        "The increase in a substance's concentration at each successive trophic level of a food chain.",
+        "A process that only occurs in aquatic ecosystems, never in terrestrial ones."
       ],
       "correct": 1,
-      "explanation": "Bioaccumulation is the buildup of a persistent substance within a single organism's tissue over its lifetime, because the organism absorbs or ingests it faster than it can excrete or break it down. Choice A actually describes biomagnification—the trophic-level increase in concentration as predators eat many contaminated prey—a related but distinct process. Choice B is wrong; bioaccumulation occurs in animals as well as plants. Choice D describes the opposite outcome; persistent substances accumulate rather than disappear from ecosystems."
+      "explanation": "Bioaccumulation is the buildup of a substance within a single organism's tissues over its lifetime. Choice C describes biomagnification — the rise in concentration at each higher trophic level as predators eat many contaminated prey — a related but distinct process. Choices A and D wrongly restrict bioaccumulation to plants or to aquatic ecosystems, when it occurs in animals and on land as well."
     },
     {
       "id": "8-67",
@@ -8063,7 +8063,7 @@ const QUESTIONS = {
         "Cadmium"
       ],
       "correct": 1,
-      "explanation": "Mercury causes neurological damage and biomagnifies up the food chain, historically demonstrated by the Minamata Bay mercury poisoning disaster in Japan. Choice B (lead) is instead classically associated with neurological and developmental harm from sources like lead pipes and paint, not the Minamata Bay incident. Choice C (cadmium) is associated with kidney damage from industrial and mining runoff. Choice D (arsenic) is a different heavy-metal/metalloid contaminant not linked to the Minamata Bay event."
+      "explanation": "Mercury causes neurological damage and biomagnifies up the food chain, historically demonstrated by the Minamata Bay mercury poisoning disaster in Japan. Choice A (lead) is instead classically associated with neurological and developmental harm from sources like lead pipes and paint, not the Minamata Bay incident. Choice D (cadmium) is associated with kidney damage from industrial and mining runoff. Choice C (arsenic) is a different heavy-metal/metalloid contaminant not linked to the Minamata Bay event."
     },
     {
       "id": "8-68",
@@ -8076,7 +8076,7 @@ const QUESTIONS = {
         "Fecal-oral route via contaminated water"
       ],
       "correct": 3,
-      "explanation": "Cholera and dysentery are waterborne diseases transmitted via the fecal-oral route—contaminated drinking water containing human or animal waste—and remain leading causes of illness and death in regions lacking adequate sewage treatment or safe drinking water access. Choice A incorrectly identifies airborne transmission, which isn't how these specific pathogens spread. Choice C is factually wrong; both diseases are well-documented as transmissible between humans via contaminated water. Choice D incorrectly limits transmission to skin contact, when ingestion of contaminated water is the primary route."
+      "explanation": "Cholera and dysentery are waterborne diseases transmitted via the fecal-oral route—contaminated drinking water containing human or animal waste—and remain leading causes of illness and death in regions lacking adequate sewage treatment or safe drinking water access. Choice C incorrectly identifies airborne transmission, which isn't how these specific pathogens spread. Choice B is factually wrong; both diseases are well-documented as transmissible between humans via contaminated water. Choice A incorrectly limits transmission to skin contact, when ingestion of contaminated water is the primary route."
     },
     {
       "id": "8-69",
@@ -8102,7 +8102,7 @@ const QUESTIONS = {
         "Mercury"
       ],
       "correct": 2,
-      "explanation": "Lead causes neurological and developmental harm, especially in children, historically traced to sources like lead pipes and lead-based paint. Choice C (mercury) instead causes neurological damage via biomagnification, famously demonstrated at Minamata Bay, a distinct exposure pathway from lead pipes/paint. Choice A (cadmium) is associated with kidney damage from industrial and mining runoff. Choice D (arsenic) is a different metalloid contaminant not classically linked to lead pipes or paint."
+      "explanation": "Lead causes neurological and developmental harm, especially in children, historically traced to sources like lead pipes and lead-based paint. Choice D (mercury) instead causes neurological damage via biomagnification, famously demonstrated at Minamata Bay, a distinct exposure pathway from lead pipes/paint. Choice A (cadmium) is associated with kidney damage from industrial and mining runoff. Choice B (arsenic) is a different metalloid contaminant not classically linked to lead pipes or paint."
     },
     {
       "id": "8-71",
@@ -8115,7 +8115,7 @@ const QUESTIONS = {
         "Mercury"
       ],
       "correct": 2,
-      "explanation": "Cadmium causes kidney damage and is associated with industrial and mining runoff, distinct from lead's neurological/developmental effects and mercury's neurological damage and biomagnification made famous by the Minamata Bay disaster. Choice B (mercury) instead causes neurological harm and biomagnifies up food chains. Choice C (lead) causes neurological and developmental harm, especially in children, from sources like pipes and paint. Choice D (chromium) is a different heavy metal not classically highlighted for this kidney-damage association in this context."
+      "explanation": "Cadmium causes kidney damage and is associated with industrial and mining runoff, distinct from lead's neurological/developmental effects and mercury's neurological damage and biomagnification made famous by the Minamata Bay disaster. Choice D (mercury) instead causes neurological harm and biomagnifies up food chains. Choice B (lead) causes neurological and developmental harm, especially in children, from sources like pipes and paint. Choice A (chromium) is a different heavy metal not classically highlighted for this kidney-damage association in this context."
     },
     {
       "id": "8-72",
@@ -8128,7 +8128,7 @@ const QUESTIONS = {
         "Incineration"
       ],
       "correct": 1,
-      "explanation": "Composting decomposes organic waste into usable soil material through controlled biological breakdown. Choice A (incineration) reduces waste volume by burning it, not by producing soil material. Choice B (sanitary landfilling) contains and monitors buried waste rather than converting it into usable soil. Choice C (recycling) reprocesses materials like plastic, metal, or paper into new products, a different process from organic decomposition."
+      "explanation": "Composting decomposes organic waste into usable soil material through controlled biological breakdown. Choice D (incineration) reduces waste volume by burning it, not by producing soil material. Choice A (sanitary landfilling) contains and monitors buried waste rather than converting it into usable soil. Choice C (recycling) reprocesses materials like plastic, metal, or paper into new products, a different process from organic decomposition."
     }
   ],
   "9": [

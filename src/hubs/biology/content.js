@@ -4054,7 +4054,7 @@ const QUESTIONS = {
         "Mitosis, not meiosis, since gametes don't come from meiosis"
       ],
       "correct": 1,
-      "explanation": "All four gametes showing an abnormal number for this chromosome is the signature pattern of nondisjunction during Meiosis I, since the error affects both cells produced by that division, which then carry the error through Meiosis II unchanged. Choice C describes the alternative pattern: Meiosis II nondisjunction would only affect two of the four gametes, since the other Meiosis I daughter cell proceeds normally. Choice B is wrong because this pattern is the expected, well-documented result of Meiosis I nondisjunction. Choice D is incorrect and biologically backwards — gametes are specifically produced by meiosis, not mitosis."
+      "explanation": "All four gametes showing an abnormal number for this chromosome is the signature pattern of nondisjunction during Meiosis I, since the error affects both cells produced by that division, which then carry the error through Meiosis II unchanged. Choice C describes the alternative pattern: Meiosis II nondisjunction would only affect two of the four gametes, since the other Meiosis I daughter cell proceeds normally. Choice A is wrong because this pattern is the expected, well-documented result of Meiosis I nondisjunction. Choice D is incorrect and biologically backwards — gametes are specifically produced by meiosis, not mitosis."
     },
     {
       "id": "5-38",

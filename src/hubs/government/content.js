@@ -65,7 +65,7 @@ const QUESTIONS = {
         "A concentrated elite holding disproportionate resources and access."
       ],
       "correct": 3,
-      "explanation": "Elite theory holds that influence concentrates in a small, resource-advantaged elite — those with outsized wealth, education, or institutional position — rather than resulting from evenly matched group competition (A, which describes pluralism), random chance (B), or sheer voter turnout (D)."
+      "explanation": "Elite theory holds that influence concentrates in a small, resource-advantaged elite — those with outsized wealth, education, or institutional position — rather than resulting from evenly matched group competition (C, which describes pluralism), random chance (B), or sheer voter turnout (A)."
     },
     {
       "id": "1-3",
@@ -169,7 +169,7 @@ const QUESTIONS = {
         "They originate from acts of Congress."
       ],
       "correct": 1,
-      "explanation": "The Declaration's Enlightenment natural-rights philosophy holds that rights like life, liberty, and the pursuit of happiness belong to people inherently and independent of government — government exists to secure them, not create them. This rules out choices that make rights something government hands out (C, D) or restricts to a subset of citizens like voters (B)."
+      "explanation": "The Declaration's Enlightenment natural-rights philosophy holds that rights like life, liberty, and the pursuit of happiness belong to people inherently and independent of government — government exists to secure them, not create them. This rules out choices that make rights something government hands out (C, D) or restricts to a subset of citizens like voters (A)."
     },
     {
       "id": "1-11",
@@ -247,7 +247,7 @@ const QUESTIONS = {
         "Incorrect — the Constitution, not the Declaration, established the three branches."
       ],
       "correct": 3,
-      "explanation": "The claim is wrong: the Declaration of Independence is a philosophical justification for separation and never establishes any governing structure — it is the Constitution that creates and defines the three branches. Choice B is also wrong since the Constitution does establish three branches; choices C and D wrongly credit the Declaration with structural work it never performed, even partially."
+      "explanation": "The claim is wrong: the Declaration of Independence is a philosophical justification for separation and never establishes any governing structure — it is the Constitution that creates and defines the three branches. Choice B is also wrong since the Constitution does establish three branches; choices A and C wrongly credit the Declaration with structural work it never performed, even partially."
     },
     {
       "id": "1-17",
@@ -312,7 +312,7 @@ const QUESTIONS = {
         "The success of the Articles of Confederation's taxation system."
       ],
       "correct": 1,
-      "explanation": "Shays' Rebellion is significant because the national government under the Articles had no standing army and no reliable way to fund one, so it could not respond — the uprising was put down by a privately funded state militia instead, exposing the Articles' core weaknesses. This is the opposite of choices B and D, which wrongly describe the national government as capable and well-funded, and the responding militia was raised privately, not under direct federal command (ruling out A)."
+      "explanation": "Shays' Rebellion is significant because the national government under the Articles had no standing army and no reliable way to fund one, so it could not respond — the uprising was put down by a privately funded state militia instead, exposing the Articles' core weaknesses. This is the opposite of choices A and D, which wrongly describe the national government as capable and well-funded, and the responding militia was raised privately, not under direct federal command (ruling out C)."
     },
     {
       "id": "1-22",
@@ -325,7 +325,7 @@ const QUESTIONS = {
         "No power for the national government to tax."
       ],
       "correct": 1,
-      "explanation": "A bicameral legislature with one house apportioned by population is a feature of the Constitution (the House of Representatives), created precisely to fix the Articles' weaknesses — not a weakness of the Articles itself, which instead gave every state a single vote regardless of size. Choices A, B, and D are genuine Articles weaknesses: no national judiciary, no taxing power, and no national executive."
+      "explanation": "A bicameral legislature with one house apportioned by population is a feature of the Constitution (the House of Representatives), created precisely to fix the Articles' weaknesses — not a weakness of the Articles itself, which instead gave every state a single vote regardless of size. Choices A, C, and D are genuine Articles weaknesses: no national judiciary, no taxing power, and no national executive."
     },
     {
       "id": "1-23",
@@ -338,7 +338,7 @@ const QUESTIONS = {
         "It concentrated too much power in a strong national government."
       ],
       "correct": 1,
-      "explanation": "The Articles' central design flaw was the opposite of over-centralization: fearing monarchy, the framers deliberately created a weak national government, and that government proved too weak to handle basic tasks like taxation, defense, and interstate commerce. This rules out choice C (too much power, not too little), and the Articles neither eliminated state governments (A) nor created a monarchy (D) — if anything, it under-empowered the center relative to the states."
+      "explanation": "The Articles' central design flaw was the opposite of over-centralization: fearing monarchy, the framers deliberately created a weak national government, and that government proved too weak to handle basic tasks like taxation, defense, and interstate commerce. This rules out choice D (too much power, not too little), and the Articles neither eliminated state governments (A) nor created a monarchy (C) — if anything, it under-empowered the center relative to the states."
     },
     {
       "id": "1-24",
@@ -416,7 +416,7 @@ const QUESTIONS = {
         "Ban all political organizations."
       ],
       "correct": 1,
-      "explanation": "Madison explicitly rejects eliminating the causes of factions — which he says would require destroying liberty itself (ruling out D) — in favor of controlling their effects by enlarging and diversifying the republic, since a wider range of competing interests makes it harder for any one faction to dominate. He never proposes banning organizations (C) or handing power to a single faction (B), which would make the problem worse, not better."
+      "explanation": "Madison explicitly rejects eliminating the causes of factions — which he says would require destroying liberty itself (ruling out A) — in favor of controlling their effects by enlarging and diversifying the republic, since a wider range of competing interests makes it harder for any one faction to dominate. He never proposes banning organizations (D) or handing power to a single faction (C), which would make the problem worse, not better."
     },
     {
       "id": "1-30",
@@ -429,7 +429,7 @@ const QUESTIONS = {
         "Because a large republic could not have a written constitution."
       ],
       "correct": 1,
-      "explanation": "Brutus No. 1 argues that as a republic's size and population grow, elected representatives become increasingly distant from ordinary citizens, weakening accountability and responsiveness. Brutus never claims a large republic would abolish elections (C), eliminate state governments outright (B), or preclude a written constitution (D) — his objection is specifically about representative accountability at scale."
+      "explanation": "Brutus No. 1 argues that as a republic's size and population grow, elected representatives become increasingly distant from ordinary citizens, weakening accountability and responsiveness. Brutus never claims a large republic would abolish elections (A), eliminate state governments outright (C), or preclude a written constitution (D) — his objection is specifically about representative accountability at scale."
     },
     {
       "id": "1-31",
@@ -442,7 +442,7 @@ const QUESTIONS = {
         "Whether the United States should have a written constitution at all."
       ],
       "correct": 0,
-      "explanation": "The two documents' central disagreement is about republic size: Madison (Federalist No. 10) argues a large, diverse republic controls factional danger, while Brutus (Brutus No. 1) argues a small republic keeps representatives accountable and better protects liberty. Neither document disputes having a written constitution (A), addresses presidential election method (B), or questions whether states retain governing power (D) — those simply aren't the terms of their debate."
+      "explanation": "The two documents' central disagreement is about republic size: Madison (Federalist No. 10) argues a large, diverse republic controls factional danger, while Brutus (Brutus No. 1) argues a small republic keeps representatives accountable and better protects liberty. Neither document disputes having a written constitution (D), addresses presidential election method (C), or questions whether states retain governing power (B) — those simply aren't the terms of their debate."
     },
     {
       "id": "1-32",
@@ -455,7 +455,7 @@ const QUESTIONS = {
         "No — eliminating them would require destroying liberty itself."
       ],
       "correct": 3,
-      "explanation": "Madison argues eliminating factions is neither viable nor desirable, since factions form naturally whenever people are free to think and act differently — removing them would mean removing liberty itself. This rules out both 'yes' answers (A and D), which wrongly treat elimination as achievable and desirable, and choice C, which denies factions exist at all despite Madison treating them as an inevitable feature of free societies."
+      "explanation": "Madison argues eliminating factions is neither viable nor desirable, since factions form naturally whenever people are free to think and act differently — removing them would mean removing liberty itself. This rules out both 'yes' answers (A and B), which wrongly treat elimination as achievable and desirable, and choice C, which denies factions exist at all despite Madison treating them as an inevitable feature of free societies."
     },
     {
       "id": "1-33",
@@ -494,7 +494,7 @@ const QUESTIONS = {
         "That the new national government was too powerful and distant."
       ],
       "correct": 3,
-      "explanation": "A central Anti-Federalist concern, reflected in documents like Brutus No. 1, was that the proposed Constitution created too strong and too distant a national government, endangering both individual liberty and state authority — the opposite of choice C, which mistakenly describes their worry as a government that was too weak. The Constitution did include a president (ruling out A) and an amendment process (ruling out B), so neither was ever a live concern."
+      "explanation": "A central Anti-Federalist concern, reflected in documents like Brutus No. 1, was that the proposed Constitution created too strong and too distant a national government, endangering both individual liberty and state authority — the opposite of choice B, which mistakenly describes their worry as a government that was too weak. The Constitution did include a president (ruling out A) and an amendment process (ruling out C), so neither was ever a live concern."
     },
     {
       "id": "1-36",
@@ -611,7 +611,7 @@ const QUESTIONS = {
         "The president issuing an executive order unilaterally."
       ],
       "correct": 2,
-      "explanation": "Congress checks the judicial branch mainly through the Senate's confirmation power over judicial nominees and Congress's constitutional power to impeach and remove federal judges. Choice A is the judiciary checking the legislature (the reverse direction), and choices B and C are executive actions that don't involve Congress checking the courts at all."
+      "explanation": "Congress checks the judicial branch mainly through the Senate's confirmation power over judicial nominees and Congress's constitutional power to impeach and remove federal judges. Choice A is the judiciary checking the legislature (the reverse direction), and choices B and D are executive actions that don't involve Congress checking the courts at all."
     },
     {
       "id": "1-45",
@@ -767,7 +767,7 @@ const QUESTIONS = {
         "Categorical grants provide broader discretion to states; block grants are narrowly restricted."
       ],
       "correct": 2,
-      "explanation": "Categorical grants are tightly restricted to a specific, narrowly defined purpose with detailed conditions attached, while block grants fund a broader purpose and give states considerably more discretion over spending — the reverse of choice C. The two grant types are meaningfully different (ruling out D), and neither is restricted to national defense specifically (ruling out A)."
+      "explanation": "Categorical grants are tightly restricted to a specific, narrowly defined purpose with detailed conditions attached, while block grants fund a broader purpose and give states considerably more discretion over spending — the reverse of choice D. The two grant types are meaningfully different (ruling out B), and neither is restricted to national defense specifically (ruling out A)."
     },
     {
       "id": "1-57",
@@ -793,7 +793,7 @@ const QUESTIONS = {
         "A federal requirement accompanied by full federal funding to cover compliance costs."
       ],
       "correct": 2,
-      "explanation": "An unfunded mandate is a federal requirement states must comply with, without federal funding to cover the compliance costs — the opposite of choice A, which describes a FUNDED mandate. It is not a grant at all, so it isn't optional the way a grant can be (ruling out B), and it runs in the wrong direction from choice D, which describes the federal government funding a state law rather than a state complying with a federal one."
+      "explanation": "An unfunded mandate is a federal requirement states must comply with, without federal funding to cover the compliance costs — the opposite of choice D, which describes a FUNDED mandate. It is not a grant at all, so it isn't optional the way a grant can be (ruling out A), and it runs in the wrong direction from choice B, which describes the federal government funding a state law rather than a state complying with a federal one."
     },
     {
       "id": "1-59",
@@ -806,7 +806,7 @@ const QUESTIONS = {
         "That the Commerce Clause gives Congress unlimited regulatory authority over any activity."
       ],
       "correct": 1,
-      "explanation": "Lopez was significant precisely because the Court limited federal power, ruling that a federal law banning guns near schools exceeded Congress's Commerce Clause authority since gun possession near a school lacked a substantial connection to interstate commerce — the opposite of choice B, which claims unlimited authority. The Commerce Clause itself was not struck down, only this particular application (ruling out C), and its reach extends well beyond interstate travel alone (ruling out D)."
+      "explanation": "Lopez was significant precisely because the Court limited federal power, ruling that a federal law banning guns near schools exceeded Congress's Commerce Clause authority since gun possession near a school lacked a substantial connection to interstate commerce — the opposite of choice D, which claims unlimited authority. The Commerce Clause itself was not struck down, only this particular application (ruling out A), and its reach extends well beyond interstate travel alone (ruling out C)."
     },
     {
       "id": "1-60",
@@ -819,7 +819,7 @@ const QUESTIONS = {
         "Ratification of the 16th Amendment, which gave Congress the power to levy an income tax."
       ],
       "correct": 1,
-      "explanation": "Lopez (1995) is the genuine counterexample: the Court struck down a federal law (banning guns near schools) as exceeding Congress's Commerce Clause authority, shifting power back toward the states rather than expanding federal power. The New Deal's agency expansion (A), McCulloch's implied-powers holding (B), and the 16th Amendment's income tax power (D) are all instances of federal power GROWING, not contracting — a student must recognize that these three fit the historian's pattern before Lopez stands out as the one that breaks it."
+      "explanation": "Lopez (1995) is the genuine counterexample: the Court struck down a federal law (banning guns near schools) as exceeding Congress's Commerce Clause authority, shifting power back toward the states rather than expanding federal power. The New Deal's agency expansion (C), McCulloch's implied-powers holding (A), and the 16th Amendment's income tax power (D) are all instances of federal power GROWING, not contracting — a student must recognize that these three fit the historian's pattern before Lopez stands out as the one that breaks it."
     },
     {
       "id": "1-61",
@@ -871,7 +871,7 @@ const QUESTIONS = {
         "A categorical grant with narrow, specific conditions."
       ],
       "correct": 3,
-      "explanation": "Categorical grants are, by definition, narrowly restricted to a specific purpose with detailed conditions — giving states far less discretion than a block grant (broader purpose, more flexibility, choice D), unrestricted revenue sharing (choice B), or a grant with no conditions at all (choice C), all of which leave the state considerably freer to decide how to spend the money."
+      "explanation": "Categorical grants are, by definition, narrowly restricted to a specific purpose with detailed conditions — giving states far less discretion than a block grant (broader purpose, more flexibility, choice A), unrestricted revenue sharing (choice C), or a grant with no conditions at all (choice B), all of which leave the state considerably freer to decide how to spend the money."
     },
     {
       "id": "1-65",
@@ -885,7 +885,7 @@ const QUESTIONS = {
         "Both tools are functionally identical in how they constrain state choices."
       ],
       "correct": 0,
-      "explanation": "A categorical grant is fundamentally an incentive — the state retains a real, if often financially painful, option to decline both the money and its attached conditions. An unfunded mandate is a legal obligation: the state must comply with the federal requirement regardless of whether it wants to, and regardless of whether any funding comes with it — a structurally more direct constraint on state autonomy than a grant's conditional incentive. This is the reverse of choice A, which swaps which tool is optional; and since the two tools plainly differ this way, they are neither functionally identical (ruling out C) nor without real effect on state behavior (ruling out B)."
+      "explanation": "A categorical grant is fundamentally an incentive — the state retains a real, if often financially painful, option to decline both the money and its attached conditions. An unfunded mandate is a legal obligation: the state must comply with the federal requirement regardless of whether it wants to, and regardless of whether any funding comes with it — a structurally more direct constraint on state autonomy than a grant's conditional incentive. This is the reverse of choice C, which swaps which tool is optional; and since the two tools plainly differ this way, they are neither functionally identical (ruling out D) nor without real effect on state behavior (ruling out B)."
     },
     {
       "id": "1-66",
@@ -1865,7 +1865,7 @@ const QUESTIONS = {
         "Yes, because the 10th Amendment automatically incorporates every right."
       ],
       "correct": 0,
-      "explanation": "Selective incorporation is exactly that — selective: each right needs its own court ruling applying it to the states, with no automatic blanket rule. Option A is false because the Bill of Rights originally bound only the federal government; option C misstates the 10th Amendment, which reserves power rather than incorporating rights; option D is false since cases like Gideon and McDonald show incorporation has repeatedly occurred."
+      "explanation": "Selective incorporation is exactly that — selective: each right needs its own court ruling applying it to the states, with no automatic blanket rule. Option C is false because the Bill of Rights originally bound only the federal government; option D misstates the 10th Amendment, which reserves power rather than incorporating rights; option B is false since cases like Gideon and McDonald show incorporation has repeatedly occurred."
     },
     {
       "id": "3-6",
@@ -1904,7 +1904,7 @@ const QUESTIONS = {
         "A single ruling that incorporated the whole Bill of Rights at once."
       ],
       "correct": 1,
-      "explanation": "Selective incorporation proceeds gradually, right by right, through individual Supreme Court rulings using the 14th Amendment's Due Process Clause. It has occurred repeatedly (ruling out option A), was never done in one sweeping ruling (option B), and the 14th Amendment itself (ratified 1868) did not automatically incorporate every right — courts had to apply it case by case over the following century (option C)."
+      "explanation": "Selective incorporation proceeds gradually, right by right, through individual Supreme Court rulings using the 14th Amendment's Due Process Clause. It has occurred repeatedly (ruling out option A), was never done in one sweeping ruling (option D), and the 14th Amendment itself (ratified 1868) did not automatically incorporate every right — courts had to apply it case by case over the following century (option C)."
     },
     {
       "id": "3-9",
@@ -1930,7 +1930,7 @@ const QUESTIONS = {
         "That voluntary school-sponsored prayer is constitutional."
       ],
       "correct": 0,
-      "explanation": "Engel v. Vitale held that even a voluntary, nondenominational, school-sponsored prayer violates the Establishment Clause — the government's official sponsorship was itself the problem, regardless of whether students could opt out. It did not require prayer (the opposite of option A), it did not uphold voluntary sponsored prayer (option B), and it squarely was a First Amendment case (ruling out option C)."
+      "explanation": "Engel v. Vitale held that even a voluntary, nondenominational, school-sponsored prayer violates the Establishment Clause — the government's official sponsorship was itself the problem, regardless of whether students could opt out. It did not require prayer (the opposite of option B), it did not uphold voluntary sponsored prayer (option D), and it squarely was a First Amendment case (ruling out option C)."
     },
     {
       "id": "3-11",
@@ -1943,7 +1943,7 @@ const QUESTIONS = {
         "That Amish parents could not be compelled to school children past 8th grade."
       ],
       "correct": 3,
-      "explanation": "Wisconsin v. Yoder ruled for the Amish families, finding the compulsory-education law substantially burdened their sincere religious practice and that the state's interest did not outweigh that burden here. It did not impose a universal schooling mandate (option A is the opposite result); it was a Free Exercise case, not an Establishment Clause case (option C); and its holding was narrow to these facts, not a categorical exemption for all religious objections everywhere (option D overstates it)."
+      "explanation": "Wisconsin v. Yoder ruled for the Amish families, finding the compulsory-education law substantially burdened their sincere religious practice and that the state's interest did not outweigh that burden here. It did not impose a universal schooling mandate (option A is the opposite result); it was a Free Exercise case, not an Establishment Clause case (option C); and its holding was narrow to these facts, not a categorical exemption for all religious objections everywhere (option B overstates it)."
     },
     {
       "id": "3-12",
@@ -1982,7 +1982,7 @@ const QUESTIONS = {
         "Yes, but only for students younger than age ten."
       ],
       "correct": 0,
-      "explanation": "The Court specifically rejected the argument that voluntary participation cured the Establishment Clause problem — the government's sponsorship and endorsement of the prayer was itself unconstitutional, independent of whether any student was compelled to join in. Option A states the opposite of the holding; option C is false since the voluntariness argument was directly addressed and rejected; option D invents an age distinction the case never drew."
+      "explanation": "The Court specifically rejected the argument that voluntary participation cured the Establishment Clause problem — the government's sponsorship and endorsement of the prayer was itself unconstitutional, independent of whether any student was compelled to join in. Option C states the opposite of the holding; option B is false since the voluntariness argument was directly addressed and rejected; option D invents an age distinction the case never drew."
     },
     {
       "id": "3-15",
@@ -1995,7 +1995,7 @@ const QUESTIONS = {
         "The scenario differs too much from Engel v. Vitale to apply its reasoning."
       ],
       "correct": 1,
-      "explanation": "This scenario mirrors Engel's facts almost exactly — a school-composed, officially sponsored prayer with an opt-out — and would likely be found unconstitutional under that precedent, since Engel rejected both the nondenominational and voluntary-participation defenses raised in options B and D. Option C is wrong because Engel is precisely the controlling required case for this fact pattern."
+      "explanation": "This scenario mirrors Engel's facts almost exactly — a school-composed, officially sponsored prayer with an opt-out — and would likely be found unconstitutional under that precedent, since Engel rejected both the nondenominational and voluntary-participation defenses raised in options A and C. Option D is wrong because Engel is precisely the controlling required case for this fact pattern."
     },
     {
       "id": "3-16",
@@ -2060,7 +2060,7 @@ const QUESTIONS = {
         "A school district sponsoring a daily prayer."
       ],
       "correct": 0,
-      "explanation": "Schenck v. United States arose from a conviction under the Espionage Act for distributing leaflets urging resistance to the WWI draft; the Court upheld the conviction, establishing the 'clear and present danger' standard. Option B describes New York Times Co. v. United States; option C describes Engel v. Vitale; option D describes Tinker v. Des Moines."
+      "explanation": "Schenck v. United States arose from a conviction under the Espionage Act for distributing leaflets urging resistance to the WWI draft; the Court upheld the conviction, establishing the 'clear and present danger' standard. Option C describes New York Times Co. v. United States; option D describes Engel v. Vitale; option B describes Tinker v. Des Moines."
     },
     {
       "id": "3-21",
@@ -2073,7 +2073,7 @@ const QUESTIONS = {
         "That students retain First Amendment rights at school, with limits."
       ],
       "correct": 3,
-      "explanation": "Tinker v. Des Moines held that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate,' while also allowing schools to restrict speech that would substantially disrupt the educational environment. Option A overstates the protection (there is an exception); option C is wrong because Tinker itself protected symbolic speech (the armbands); option D states the opposite of the holding."
+      "explanation": "Tinker v. Des Moines held that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate,' while also allowing schools to restrict speech that would substantially disrupt the educational environment. Option A overstates the protection (there is an exception); option C is wrong because Tinker itself protected symbolic speech (the armbands); option B states the opposite of the holding."
     },
     {
       "id": "3-22",
@@ -2086,7 +2086,7 @@ const QUESTIONS = {
         "A school district officially sponsoring a prayer."
       ],
       "correct": 0,
-      "explanation": "Tinker v. Des Moines involved students who wore black armbands as a silent, symbolic protest against the Vietnam War, which the Court found to be protected symbolic speech. Option B describes Gideon v. Wainwright; option C describes Engel v. Vitale; option D describes New York Times Co. v. United States."
+      "explanation": "Tinker v. Des Moines involved students who wore black armbands as a silent, symbolic protest against the Vietnam War, which the Court found to be protected symbolic speech. Option C describes Gideon v. Wainwright; option D describes Engel v. Vitale; option B describes New York Times Co. v. United States."
     },
     {
       "id": "3-23",
@@ -2099,7 +2099,7 @@ const QUESTIONS = {
         "Whenever any student or staff member merely disagrees with it."
       ],
       "correct": 0,
-      "explanation": "Tinker's standard limits restriction to speech that would cause a substantial disruption to the educational environment or infringe on others' rights — a comparatively high bar. Option A is wrong because political topics alone don't trigger restriction; option C overstates protection, since the substantial-disruption exception exists; option D is wrong because mere disagreement or discomfort does not meet Tinker's threshold."
+      "explanation": "Tinker's standard limits restriction to speech that would cause a substantial disruption to the educational environment or infringe on others' rights — a comparatively high bar. Option C is wrong because political topics alone don't trigger restriction; option B overstates protection, since the substantial-disruption exception exists; option D is wrong because mere disagreement or discomfort does not meet Tinker's threshold."
     },
     {
       "id": "3-24",
@@ -2112,7 +2112,7 @@ const QUESTIONS = {
         "No — mere disagreement alone doesn't meet Tinker's standard."
       ],
       "correct": 3,
-      "explanation": "Since only disagreement occurred and no actual disruption resulted, this falls short of Tinker's 'substantial disruption' threshold, so the school likely could not constitutionally punish the student. Options A and D both treat disagreement or a speech's political content as sufficient grounds for punishment, which is exactly what Tinker rejects; option C is wrong because this is a textbook Tinker fact pattern."
+      "explanation": "Since only disagreement occurred and no actual disruption resulted, this falls short of Tinker's 'substantial disruption' threshold, so the school likely could not constitutionally punish the student. Options B and C both treat disagreement or a speech's political content as sufficient grounds for punishment, which is exactly what Tinker rejects; option A is wrong because this is a textbook Tinker fact pattern."
     },
     {
       "id": "3-25",
@@ -2125,7 +2125,7 @@ const QUESTIONS = {
         "No, freedom of speech receives no constitutional protection."
       ],
       "correct": 2,
-      "explanation": "Freedom of speech is not absolute — cases like Schenck (the 'clear and present danger' test) and Tinker (the 'substantial disruption' standard for schools) show the frameworks courts use to decide when restriction is permissible. Option A overstates protection; option C understates it, since speech is a core protected right; option D wrongly limits the qualification to schools alone when limits exist in other contexts too (e.g., Schenck)."
+      "explanation": "Freedom of speech is not absolute — cases like Schenck (the 'clear and present danger' test) and Tinker (the 'substantial disruption' standard for schools) show the frameworks courts use to decide when restriction is permissible. Option A overstates protection; option D understates it, since speech is a core protected right; option B wrongly limits the qualification to schools alone when limits exist in other contexts too (e.g., Schenck)."
     },
     {
       "id": "3-26",
@@ -2190,7 +2190,7 @@ const QUESTIONS = {
         "A state completely banning handgun ownership."
       ],
       "correct": 2,
-      "explanation": "New York Times Co. v. United States — the 'Pentagon Papers' case — involved the government seeking a court injunction to block newspapers from publishing classified Vietnam War documents. Option A describes McDonald v. Chicago; option C describes Engel v. Vitale; option D describes Tinker v. Des Moines."
+      "explanation": "New York Times Co. v. United States — the 'Pentagon Papers' case — involved the government seeking a court injunction to block newspapers from publishing classified Vietnam War documents. Option D describes McDonald v. Chicago; option A describes Engel v. Vitale; option B describes Tinker v. Des Moines."
     },
     {
       "id": "3-31",
@@ -2203,7 +2203,7 @@ const QUESTIONS = {
         "That the government failed to justify prior restraint, so publication could proceed."
       ],
       "correct": 3,
-      "explanation": "The Court ruled against the government, finding it had not met the heavy burden required to justify prior restraint, so publication could proceed — establishing a strong presumption against this kind of censorship. Options A and B both misstate the holding by giving the government (or denying the press) more power than the ruling actually did, and option C is wrong since this is a landmark First Amendment case."
+      "explanation": "The Court ruled against the government, finding it had not met the heavy burden required to justify prior restraint, so publication could proceed — establishing a strong presumption against this kind of censorship. Options B and C both misstate the holding by giving the government (or denying the press) more power than the ruling actually did, and option A is wrong since this is a landmark First Amendment case."
     },
     {
       "id": "3-32",
@@ -2216,7 +2216,7 @@ const QUESTIONS = {
         "The ruling did not involve newspapers or any publication at all."
       ],
       "correct": 2,
-      "explanation": "The case's holding addresses only prior restraint — blocking publication in advance — and did not fully resolve whether other legal consequences might follow publication under separate legal theories. Option C overstates the ruling's effect (no such prosecution followed directly from it), and option D goes too far the other way by promising blanket immunity the ruling never provided."
+      "explanation": "The case's holding addresses only prior restraint — blocking publication in advance — and did not fully resolve whether other legal consequences might follow publication under separate legal theories. Option B overstates the ruling's effect (no such prosecution followed directly from it), and option A goes too far the other way by promising blanket immunity the ruling never provided."
     },
     {
       "id": "3-33",
@@ -2229,7 +2229,7 @@ const QUESTIONS = {
         "There is no meaningful difference in how courts treat these two restrictions."
       ],
       "correct": 1,
-      "explanation": "Prior restraint is especially severe because it prevents the public from ever receiving the information in the first place — a complete, irreversible loss — while after-the-fact punishment at least allows the information to reach the public first. Options A and B both understate this real and well-established distinction, and option C is simply inaccurate: prior restraint doctrine applies most prominently to the press."
+      "explanation": "Prior restraint is especially severe because it prevents the public from ever receiving the information in the first place — a complete, irreversible loss — while after-the-fact punishment at least allows the information to reach the public first. Options A and D both understate this real and well-established distinction, and option C is simply inaccurate: prior restraint doctrine applies most prominently to the press."
     },
     {
       "id": "3-34",
@@ -2294,7 +2294,7 @@ const QUESTIONS = {
         "A type of procedure used only in criminal sentencing."
       ],
       "correct": 0,
-      "explanation": "Substantive due process is the doctrine by which courts read the Due Process Clause to protect certain fundamental rights not explicitly enumerated in the Constitution's text, such as the right to privacy — going beyond a purely procedural reading. Options B and C describe unrelated processes, and option D describes the opposite concept: procedural (not substantive) due process."
+      "explanation": "Substantive due process is the doctrine by which courts read the Due Process Clause to protect certain fundamental rights not explicitly enumerated in the Constitution's text, such as the right to privacy — going beyond a purely procedural reading. Options C and D describe unrelated processes, and option B describes the opposite concept: procedural (not substantive) due process."
     },
     {
       "id": "3-39",
@@ -2307,7 +2307,7 @@ const QUESTIONS = {
         "That the right to privacy was created by a constitutional amendment."
       ],
       "correct": 2,
-      "explanation": "Roe v. Wade held that the right to privacy, derived from the 14th Amendment's Due Process Clause, extended to a woman's decision to have an abortion, within a framework balancing that right against state interests as pregnancy progressed. Option B contradicts the holding directly; option C is wrong because Roe limited, rather than left unlimited, state regulatory authority; option D is inaccurate since the right to privacy is judicially implied, not amendment-created."
+      "explanation": "Roe v. Wade held that the right to privacy, derived from the 14th Amendment's Due Process Clause, extended to a woman's decision to have an abortion, within a framework balancing that right against state interests as pregnancy progressed. Option A contradicts the holding directly; option B is wrong because Roe limited, rather than left unlimited, state regulatory authority; option D is inaccurate since the right to privacy is judicially implied, not amendment-created."
     },
     {
       "id": "3-40",
@@ -2320,7 +2320,7 @@ const QUESTIONS = {
         "Yes, but only in half of U.S. states."
       ],
       "correct": 1,
-      "explanation": "Dobbs v. Jackson Women's Health Organization (2022) overturned Roe, holding the Constitution does not confer a right to abortion and returning the issue to individual states. Options A and B both wrongly assume Roe still controls in some or all states; option D is factually wrong, since Dobbs was a Supreme Court ruling, not a constitutional amendment."
+      "explanation": "Dobbs v. Jackson Women's Health Organization (2022) overturned Roe, holding the Constitution does not confer a right to abortion and returning the issue to individual states. Options C and D both wrongly assume Roe still controls in some or all states; option A is factually wrong, since Dobbs was a Supreme Court ruling, not a constitutional amendment."
     },
     {
       "id": "3-41",
@@ -2333,7 +2333,7 @@ const QUESTIONS = {
         "It is no longer relevant to the course in any way."
       ],
       "correct": 2,
-      "explanation": "Roe remains required because of its foundational significance to substantive due process and the right to privacy — understanding its reasoning matters even though a student should also know Dobbs later overturned it as controlling precedent. Option B contradicts that continuing relevance; option C is factually wrong since Roe is not current law; option D ignores Dobbs (2022)."
+      "explanation": "Roe remains required because of its foundational significance to substantive due process and the right to privacy — understanding its reasoning matters even though a student should also know Dobbs later overturned it as controlling precedent. Option D contradicts that continuing relevance; option A is factually wrong since Roe is not current law; option B ignores Dobbs (2022)."
     },
     {
       "id": "3-42",
@@ -2450,7 +2450,7 @@ const QUESTIONS = {
         "Violently resist any law considered unjust."
       ],
       "correct": 2,
-      "explanation": "King argues individuals have a moral responsibility to disobey unjust laws openly and peacefully while willingly accepting the legal consequences — this combination of open disobedience and accepted punishment distinguishes legitimate civil disobedience from ordinary lawbreaking. Option A describes the patient, court-only approach King was arguing against; option C misrepresents his explicitly nonviolent philosophy; option D ignores his central claim that unjust laws warrant disobedience."
+      "explanation": "King argues individuals have a moral responsibility to disobey unjust laws openly and peacefully while willingly accepting the legal consequences — this combination of open disobedience and accepted punishment distinguishes legitimate civil disobedience from ordinary lawbreaking. Option A describes the patient, court-only approach King was arguing against; option D misrepresents his explicitly nonviolent philosophy; option B ignores his central claim that unjust laws warrant disobedience."
     },
     {
       "id": "3-51",
@@ -2489,7 +2489,7 @@ const QUESTIONS = {
         "Only break laws that carry no criminal penalty."
       ],
       "correct": 2,
-      "explanation": "King argues legitimate civil disobedience requires breaking an unjust law openly and nonviolently while willingly accepting whatever legal penalty follows — that acceptance is what shows respect for the rule of law even while resisting a specific unjust provision. Options B, C, and D each describe something closer to evasion or lawlessness, which King explicitly distinguishes from principled civil disobedience."
+      "explanation": "King argues legitimate civil disobedience requires breaking an unjust law openly and nonviolently while willingly accepting whatever legal penalty follows — that acceptance is what shows respect for the rule of law even while resisting a specific unjust provision. Options A, B, and D each describe something closer to evasion or lawlessness, which King explicitly distinguishes from principled civil disobedience."
     },
     {
       "id": "3-54",
@@ -2515,7 +2515,7 @@ const QUESTIONS = {
         "The ruling did not address facility quality in any way."
       ],
       "correct": 1,
-      "explanation": "The Court's key reasoning was that the act of separation by race itself generates inherent inequality and harm, regardless of whether physical facilities were objectively comparable — moving beyond tangible comparison to the psychological and social harm of segregation itself. Option B is false since facility comparability was directly addressed; options C and D introduce cost and factual claims the Court's reasoning did not actually rely on."
+      "explanation": "The Court's key reasoning was that the act of separation by race itself generates inherent inequality and harm, regardless of whether physical facilities were objectively comparable — moving beyond tangible comparison to the psychological and social harm of segregation itself. Option D is false since facility comparability was directly addressed; options A and C introduce cost and factual claims the Court's reasoning did not actually rely on."
     },
     {
       "id": "3-56",
@@ -2528,7 +2528,7 @@ const QUESTIONS = {
         "The two are entirely unrelated historically and legally."
       ],
       "correct": 1,
-      "explanation": "Brown v. Board of Education is widely regarded as a foundational catalyst for the broader Civil Rights Movement, providing legal and moral momentum for the struggle against segregation that continued for years afterward. Option A is wrong because the Movement intensified, not ended, after Brown; options B and D both deny a connection that is well documented historically."
+      "explanation": "Brown v. Board of Education is widely regarded as a foundational catalyst for the broader Civil Rights Movement, providing legal and moral momentum for the struggle against segregation that continued for years afterward. Option C is wrong because the Movement intensified, not ended, after Brown; options A and D both deny a connection that is well documented historically."
     },
     {
       "id": "3-57",
@@ -2541,7 +2541,7 @@ const QUESTIONS = {
         "The most demanding review, requiring a compelling interest and narrow tailoring."
       ],
       "correct": 3,
-      "explanation": "Strict scrutiny is the most demanding level of judicial review, applied to government actions that classify by race or burden certain fundamental rights; it requires a compelling government interest and narrow tailoring to achieve it. Option C describes rational basis review, essentially the opposite standard, and options B and D both wrongly confine strict scrutiny to contexts where it does not actually apply."
+      "explanation": "Strict scrutiny is the most demanding level of judicial review, applied to government actions that classify by race or burden certain fundamental rights; it requires a compelling government interest and narrow tailoring to achieve it. Option B describes rational basis review, essentially the opposite standard, and options A and C both wrongly confine strict scrutiny to contexts where it does not actually apply."
     },
     {
       "id": "3-58",
@@ -2567,7 +2567,7 @@ const QUESTIONS = {
         "Different rights and actions raise different constitutional concerns."
       ],
       "correct": 3,
-      "explanation": "Courts vary the level of scrutiny because different government actions and rights claims raise genuinely different levels of constitutional concern — a racial classification, for instance, is treated with far more skepticism than most other regulations, reflecting historical and constitutional judgments about which distinctions are most dangerous. Options B, C, and D all deny that any principled distinction exists, which is inconsistent with the tiered-scrutiny framework itself."
+      "explanation": "Courts vary the level of scrutiny because different government actions and rights claims raise genuinely different levels of constitutional concern — a racial classification, for instance, is treated with far more skepticism than most other regulations, reflecting historical and constitutional judgments about which distinctions are most dangerous. Options A, B, and C all deny that any principled distinction exists, which is inconsistent with the tiered-scrutiny framework itself."
     },
     {
       "id": "3-60",
@@ -2593,7 +2593,7 @@ const QUESTIONS = {
         "Tinker's 'substantial disruption' standard"
       ],
       "correct": 3,
-      "explanation": "The 'substantial disruption' standard from Tinker v. Des Moines specifically governs restrictions on student speech in schools — a narrower, more particular standard than the general strict scrutiny framework, reflecting the school environment's unique context. Strict scrutiny governs different contexts (like racial classifications), Schenck's test arose in a different (wartime) setting, and option D is wrong since Tinker itself establishes a governing standard."
+      "explanation": "The 'substantial disruption' standard from Tinker v. Des Moines specifically governs restrictions on student speech in schools — a narrower, more particular standard than the general strict scrutiny framework, reflecting the school environment's unique context. Strict scrutiny governs different contexts (like racial classifications), Schenck's test arose in a different (wartime) setting, and option B is wrong since Tinker itself establishes a governing standard."
     },
     {
       "id": "3-62",
@@ -2606,7 +2606,7 @@ const QUESTIONS = {
         "The balancing of liberty and order is not a real feature of constitutional law."
       ],
       "correct": 1,
-      "explanation": "Neither individual liberties nor government interests automatically win — courts genuinely balance the two using tests like strict scrutiny, 'clear and present danger,' and Tinker's 'substantial disruption' standard, with outcomes depending on the facts and the strength of each side's claim. Option A denies this well-established feature of the doctrine, while options C and D each wrongly claim one side always prevails."
+      "explanation": "Neither individual liberties nor government interests automatically win — courts genuinely balance the two using tests like strict scrutiny, 'clear and present danger,' and Tinker's 'substantial disruption' standard, with outcomes depending on the facts and the strength of each side's claim. Option D denies this well-established feature of the doctrine, while options A and C each wrongly claim one side always prevails."
     },
     {
       "id": "3-63",
@@ -2632,7 +2632,7 @@ const QUESTIONS = {
         "Civil liberties and civil rights are always absolute, never limited."
       ],
       "correct": 0,
-      "explanation": "A recurring theme of this unit is that civil liberties and civil rights are rarely absolute — they frequently come into tension with other legitimate government interests (order, safety, equality), and courts have developed standards like strict scrutiny, clear and present danger, and substantial disruption to resolve that tension case by case. Options A, B, and D each contradict a point the unit's cases repeatedly demonstrate."
+      "explanation": "A recurring theme of this unit is that civil liberties and civil rights are rarely absolute — they frequently come into tension with other legitimate government interests (order, safety, equality), and courts have developed standards like strict scrutiny, clear and present danger, and substantial disruption to resolve that tension case by case. Options B, C, and D each contradict a point the unit's cases repeatedly demonstrate."
     },
     {
       "id": "3-65",
@@ -2646,7 +2646,7 @@ const QUESTIONS = {
         "The law is clearly constitutional under both cases, given unlimited school authority."
       ],
       "correct": 0,
-      "explanation": "Yoder's Free Exercise reasoning suggests a law substantially burdening sincere religious belief without accommodation is constitutionally suspect unless the government's interest is compelling enough to override it — here, compelling an act the students' religion prohibits. Tinker's recognition that students retain expressive rights at school, combined with the broader principle that compelled speech (being forced to express a message one doesn't hold) raises similar First Amendment concerns to restricted speech, supports the argument that forcing participation against sincere belief is constitutionally problematic. Option A wrongly limits Tinker to restricted (not compelled) speech; option C wrongly denies either case's relevance, when the scenario draws on both cases' underlying logic even though neither addresses these exact facts; option D overstates school authority, which neither case supports. Synthesizing two required cases' principles to reason through a new fact pattern is exactly the higher-order application skill the real exam rewards, beyond reciting each case's specific holding."
+      "explanation": "Yoder's Free Exercise reasoning suggests a law substantially burdening sincere religious belief without accommodation is constitutionally suspect unless the government's interest is compelling enough to override it — here, compelling an act the students' religion prohibits. Tinker's recognition that students retain expressive rights at school, combined with the broader principle that compelled speech (being forced to express a message one doesn't hold) raises similar First Amendment concerns to restricted speech, supports the argument that forcing participation against sincere belief is constitutionally problematic. Option B wrongly limits Tinker to restricted (not compelled) speech; option C wrongly denies either case's relevance, when the scenario draws on both cases' underlying logic even though neither addresses these exact facts; option D overstates school authority, which neither case supports. Synthesizing two required cases' principles to reason through a new fact pattern is exactly the higher-order application skill the real exam rewards, beyond reciting each case's specific holding."
     },
     {
       "id": "3-66",

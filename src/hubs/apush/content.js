@@ -80,7 +80,7 @@ const QUESTIONS = {
         "Pacific Northwest populations were too small and scattered to develop social stratification."
       ],
       "correct": 1,
-      "explanation": "Abundant, reliable salmon runs provided a food surplus dense and predictable enough to support permanent, socially stratified settlements without agriculture — geography (Theme GEO) shaping social structure directly. Population was in fact substantial, not small (A); the stratification predates sustained European contact, not caused by it (C); and arable-land scarcity is irrelevant to a non-farming economy (D)."
+      "explanation": "Abundant, reliable salmon runs provided a food surplus dense and predictable enough to support permanent, socially stratified settlements without agriculture — geography (Theme GEO) shaping social structure directly. Population was in fact substantial, not small (D); the stratification predates sustained European contact, not caused by it (A); and arable-land scarcity is irrelevant to a non-farming economy (C)."
     },
     {
       "id": "1-2",
@@ -93,7 +93,7 @@ const QUESTIONS = {
         "A purely nomadic hunting society organized with no formal political structure."
       ],
       "correct": 0,
-      "explanation": "The Haudenosaunee Confederacy united five (later six) nations under a sophisticated shared political structure. It was an agricultural Eastern Woodlands society, not a nomadic hunting band (A); its economy centered on 'Three Sisters' farming, not Pacific salmon (B, which describes a different region); and its significance has nothing to do with the specific date of first European contact (D)."
+      "explanation": "The Haudenosaunee Confederacy united five (later six) nations under a sophisticated shared political structure. It was an agricultural Eastern Woodlands society, not a nomadic hunting band (D); its economy centered on 'Three Sisters' farming, not Pacific salmon (B, which describes a different region); and its significance has nothing to do with the specific date of first European contact (B)."
     },
     {
       "id": "1-3",
@@ -106,7 +106,7 @@ const QUESTIONS = {
         "A major Mississippian mound-building center near St. Louis with a population possibly in the tens of thousands."
       ],
       "correct": 3,
-      "explanation": "Cahokia was a major Mississippian culture urban center near present-day St. Louis, with a population possibly in the tens of thousands at its peak around 1050–1200 CE. It was not a Southwest irrigation settlement (A), a Spanish colonial outpost (B, which postdates it and is a different culture entirely), or a term for Plains hunting bands (D)."
+      "explanation": "Cahokia was a major Mississippian culture urban center near present-day St. Louis, with a population possibly in the tens of thousands at its peak around 1050–1200 CE. It was not a Southwest irrigation settlement (C), a Spanish colonial outpost (B, which postdates it and is a different culture entirely), or a term for Plains hunting bands (B)."
     },
     {
       "id": "1-4",
@@ -119,7 +119,7 @@ const QUESTIONS = {
         "Cultivating grapevines as part of a regional wine-making tradition."
       ],
       "correct": 0,
-      "explanation": "The 'Three Sisters' — corn, beans, and squash grown together, each crop benefiting the others — was widely practiced by Eastern Woodlands societies. Grapes (A) and rice paddies (B) were not part of this practice, and wheat, barley, and oats (D) are Old World grains introduced only after contact."
+      "explanation": "The 'Three Sisters' — corn, beans, and squash grown together, each crop benefiting the others — was widely practiced by Eastern Woodlands societies. Grapes (D) and rice paddies (B) were not part of this practice, and wheat, barley, and oats (C) are Old World grains introduced only after contact."
     },
     {
       "id": "1-5",
@@ -145,7 +145,7 @@ const QUESTIONS = {
         "The broad uniformity of Native American societies across every region of North America."
       ],
       "correct": 0,
-      "explanation": "The Haudenosaunee Confederacy's sophisticated governance and Cahokia's substantial urban population directly support treating pre-contact Native societies with serious analytical attention. Claiming uniformity (B) contradicts the unit's central point about regional diversity, small Plains bands (C) would undercut rather than support the argument, and agricultural societies clearly existed (contradicting D)."
+      "explanation": "The Haudenosaunee Confederacy's sophisticated governance and Cahokia's substantial urban population directly support treating pre-contact Native societies with serious analytical attention. Claiming uniformity (D) contradicts the unit's central point about regional diversity, small Plains bands (B) would undercut rather than support the argument, and agricultural societies clearly existed (contradicting C)."
     },
     {
       "id": "1-7",
@@ -158,7 +158,7 @@ const QUESTIONS = {
         "Southwest Pueblo peoples, who engineered irrigation to farm in an arid climate."
       ],
       "correct": 3,
-      "explanation": "Southwest Pueblo peoples relied on irrigation-based agriculture to farm successfully in their arid climate, supporting settled communities with multi-story adobe dwellings. Option A is wrong on the facts; Pacific Northwest societies (C) were stratified without farming at all; Great Plains societies (D) were nomadic hunters, not irrigators."
+      "explanation": "Southwest Pueblo peoples relied on irrigation-based agriculture to farm successfully in their arid climate, supporting settled communities with multi-story adobe dwellings. Option C is wrong on the facts; Pacific Northwest societies (A) were stratified without farming at all; Great Plains societies (B) were nomadic hunters, not irrigators."
     },
     {
       "id": "1-8",
@@ -171,7 +171,7 @@ const QUESTIONS = {
         "There is no meaningful relationship between food source reliability and social complexity."
       ],
       "correct": 0,
-      "explanation": "A more reliable, dense food surplus — whether from agriculture (Southwest, Eastern Woodlands) or abundant non-farmed resources (Pacific Northwest salmon) — tended to support larger, more sedentary, more stratified societies. Pacific Northwest stratification without farming directly disproves A; the unit's own comparisons show a real relationship, disproving B; and Atlantic proximity (C) is never the operative variable in any of the unit's examples."
+      "explanation": "A more reliable, dense food surplus — whether from agriculture (Southwest, Eastern Woodlands) or abundant non-farmed resources (Pacific Northwest salmon) — tended to support larger, more sedentary, more stratified societies. Pacific Northwest stratification without farming directly disproves C; the unit's own comparisons show a real relationship, disproving D; and Atlantic proximity (B) is never the operative variable in any of the unit's examples."
     },
     {
       "id": "1-9",
@@ -184,7 +184,7 @@ const QUESTIONS = {
         "They originated specifically to mark the arrival of European trade goods."
       ],
       "correct": 0,
-      "explanation": "Potlatch ceremonies redistributed wealth and status within Pacific Northwest societies, a practice connected to the region's stratified social structure. Pacific Northwest societies did not farm, so agricultural planning (B) does not apply; potlatch predates sustained European trade contact (contradicting C); and it clearly served a real social/economic function (contradicting D)."
+      "explanation": "Potlatch ceremonies redistributed wealth and status within Pacific Northwest societies, a practice connected to the region's stratified social structure. Pacific Northwest societies did not farm, so agricultural planning (C) does not apply; potlatch predates sustained European trade contact (contradicting D); and it clearly served a real social/economic function (contradicting B)."
     },
     {
       "id": "1-10",
@@ -197,7 +197,7 @@ const QUESTIONS = {
         "An enormous diversity of distinct societies, shaped significantly by regional geography and available resources."
       ],
       "correct": 3,
-      "explanation": "Native American societies in 1491 displayed enormous diversity, shaped significantly by regional geography and resource availability — the section's central corrective point. A single uniform culture (A) and a simple two-category split (B) both flatten this diversity, and Native societies existed across the entire continent, not only the East (C)."
+      "explanation": "Native American societies in 1491 displayed enormous diversity, shaped significantly by regional geography and resource availability — the section's central corrective point. A single uniform culture (C) and a simple two-category split (A) both flatten this diversity, and Native societies existed across the entire continent, not only the East (B)."
     },
     {
       "id": "1-11",
@@ -210,7 +210,7 @@ const QUESTIONS = {
         "At its historical peak population and political influence."
       ],
       "correct": 1,
-      "explanation": "Cahokia was in decline by the time of sustained European contact — its peak population and influence occurred earlier, around 1050–1200 CE. It was not newly founded at contact (A), it had certainly existed and flourished earlier (contradicting C), and it was well past its peak by contact, not at it (contradicting D)."
+      "explanation": "Cahokia was in decline by the time of sustained European contact — its peak population and influence occurred earlier, around 1050–1200 CE. It was not newly founded at contact (C), it had certainly existed and flourished earlier (contradicting A), and it was well past its peak by contact, not at it (contradicting D)."
     },
     {
       "id": "1-12",
@@ -223,7 +223,7 @@ const QUESTIONS = {
         "A framework used exclusively to describe early Portuguese exploration."
       ],
       "correct": 2,
-      "explanation": "'God, Gold, and Glory' describes three genuinely distinct but often overlapping motives — religious mission, economic gain, and national/personal prestige — that together explain European exploration generally, not just Portuguese voyages (A), frequently operating together within a single expedition rather than never (B), and carrying real explanatory value (contradicting D)."
+      "explanation": "'God, Gold, and Glory' describes three genuinely distinct but often overlapping motives — religious mission, economic gain, and national/personal prestige — that together explain European exploration generally, not just Portuguese voyages (D), frequently operating together within a single expedition rather than never (A), and carrying real explanatory value (contradicting B)."
     },
     {
       "id": "1-13",
@@ -236,7 +236,7 @@ const QUESTIONS = {
         "The steamship, a nineteenth-century innovation in ocean travel."
       ],
       "correct": 2,
-      "explanation": "The caravel, a Portuguese ship design combining maneuverability with the ability to sail effectively against the wind, was crucial to enabling sustained transoceanic exploration in the late 1400s. The steamship (A) and clipper ship (B) are far later innovations, and the galleon (C) came into wide use after this initial era of exploration."
+      "explanation": "The caravel, a Portuguese ship design combining maneuverability with the ability to sail effectively against the wind, was crucial to enabling sustained transoceanic exploration in the late 1400s. The steamship (D) and clipper ship (A) are far later innovations, and the galleon (B) came into wide use after this initial era of exploration."
     },
     {
       "id": "1-14",
@@ -249,7 +249,7 @@ const QUESTIONS = {
         "GPS-based satellite navigation systems."
       ],
       "correct": 1,
-      "explanation": "The magnetic compass and the astrolabe (used for determining latitude) were significant navigational technologies enabling long, open-ocean voyages during the Age of Exploration. Radio (A) and GPS (D) are modern technologies, and the telescope/sextant (B) came into common navigational use centuries later, not in the 1400s–1500s."
+      "explanation": "The magnetic compass and the astrolabe (used for determining latitude) were significant navigational technologies enabling long, open-ocean voyages during the Age of Exploration. Radio (A) and GPS (D) are modern technologies, and the telescope/sextant (C) came into common navigational use centuries later, not in the 1400s–1500s."
     },
     {
       "id": "1-15",
@@ -262,7 +262,7 @@ const QUESTIONS = {
         "Portugal, sponsor of Prince Henry the Navigator's coastal voyages."
       ],
       "correct": 3,
-      "explanation": "Portugal, under the sponsorship of Prince Henry the Navigator, led early exploration down the African coast, culminating in Vasco da Gama's 1498 voyage establishing a sea route to India. Spain (A) sponsored Columbus's westward voyages instead, and England (C) and France (D) entered transoceanic exploration significantly later than Portugal."
+      "explanation": "Portugal, under the sponsorship of Prince Henry the Navigator, led early exploration down the African coast, culminating in Vasco da Gama's 1498 voyage establishing a sea route to India. Spain (A) sponsored Columbus's westward voyages instead, and England (C) and France (B) entered transoceanic exploration significantly later than Portugal."
     },
     {
       "id": "1-16",
@@ -314,7 +314,7 @@ const QUESTIONS = {
         "Gold, the pursuit of precious metals and trade wealth."
       ],
       "correct": 2,
-      "explanation": "'Glory' — national and personal prestige — best explains European monarchies' direct competition with rival powers for territorial claims and international standing. Gold (A) centers on economic gain rather than prestige rivalry, God (C) centers on religious mission, and the framework clearly does relate to inter-European competition (contradicting D)."
+      "explanation": "'Glory' — national and personal prestige — best explains European monarchies' direct competition with rival powers for territorial claims and international standing. Gold (D) centers on economic gain rather than prestige rivalry, God (B) centers on religious mission, and the framework clearly does relate to inter-European competition (contradicting A)."
     },
     {
       "id": "1-20",
@@ -327,7 +327,7 @@ const QUESTIONS = {
         "Only one of the three motives, with the other two entirely absent."
       ],
       "correct": 1,
-      "explanation": "This expedition illustrates all three motives simultaneously: Gold (precious metals), Glory (claiming territory for the crown), and God (religious conversion) — directly illustrating how these motives frequently overlapped. It is not limited to one (B) or two (C) motives, and it is not an exception outside the framework (D)."
+      "explanation": "This expedition illustrates all three motives simultaneously: Gold (precious metals), Glory (claiming territory for the crown), and God (religious conversion) — directly illustrating how these motives frequently overlapped. It is not limited to one (D) or two (C) motives, and it is not an exception outside the framework (A)."
     },
     {
       "id": "1-21",
@@ -353,7 +353,7 @@ const QUESTIONS = {
         "Christopher Columbus himself, describing his own voyages."
       ],
       "correct": 0,
-      "explanation": "Historian Alfred Crosby coined the term 'Columbian Exchange' to describe the massive, bidirectional transfer of plants, animals, diseases, and people between the hemispheres following 1492. Las Casas (A), Columbus (B), and Cortés (C) were sixteenth-century historical figures, not the modern historian who named this exchange."
+      "explanation": "Historian Alfred Crosby coined the term 'Columbian Exchange' to describe the massive, bidirectional transfer of plants, animals, diseases, and people between the hemispheres following 1492. Las Casas (B), Columbus (D), and Cortés (C) were sixteenth-century historical figures, not the modern historian who named this exchange."
     },
     {
       "id": "1-23",
@@ -366,7 +366,7 @@ const QUESTIONS = {
         "Coffee and bananas, crops later introduced to the Americas from elsewhere."
       ],
       "correct": 2,
-      "explanation": "Maize (corn) and potatoes moved from the Americas to Europe, becoming staple crops that significantly expanded the European food supply. Rice, sugarcane, wheat, and barley (B, C) all moved in the opposite direction, from the Old World to the Americas, and coffee and bananas (D) are not part of this Americas-to-Europe transfer."
+      "explanation": "Maize (corn) and potatoes moved from the Americas to Europe, becoming staple crops that significantly expanded the European food supply. Rice, sugarcane, wheat, and barley (A, B) all moved in the opposite direction, from the Old World to the Americas, and coffee and bananas (D) are not part of this Americas-to-Europe transfer."
     },
     {
       "id": "1-24",
@@ -392,7 +392,7 @@ const QUESTIONS = {
         "An epidemic defined narrowly as damage to soil fertility rather than to health."
       ],
       "correct": 1,
-      "explanation": "A 'virgin soil epidemic' describes an epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in catastrophically high mortality — precisely the situation Native populations faced with Old World diseases like smallpox. It describes human disease, not crop damage (A) or soil fertility (D), and it has nothing to do with crop movement (C)."
+      "explanation": "A 'virgin soil epidemic' describes an epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in catastrophically high mortality — precisely the situation Native populations faced with Old World diseases like smallpox. It describes human disease, not crop damage (C) or soil fertility (D), and it has nothing to do with crop movement (A)."
     },
     {
       "id": "1-26",
@@ -405,7 +405,7 @@ const QUESTIONS = {
         "Direct military conquest by Spanish forces, acting alone."
       ],
       "correct": 2,
-      "explanation": "Disease — particularly virgin soil epidemics like smallpox — was the dominant factor in catastrophic Native population decline, exceeding the demographic impact of military conquest acting alone (A). There is no historical basis for large-scale voluntary relocation to Europe (B), and the decline is tied directly to European contact, not unrelated climate change (D)."
+      "explanation": "Disease — particularly virgin soil epidemics like smallpox — was the dominant factor in catastrophic Native population decline, exceeding the demographic impact of military conquest acting alone (D). There is no historical basis for large-scale voluntary relocation to Europe (B), and the decline is tied directly to European contact, not unrelated climate change (A)."
     },
     {
       "id": "1-27",
@@ -418,7 +418,7 @@ const QUESTIONS = {
         "A catastrophic decline of roughly 80–90% in the first century."
       ],
       "correct": 3,
-      "explanation": "Historians commonly cite population declines estimated at 80–90% in some regions during the first century of sustained contact, reflecting the catastrophic demographic impact of virgin soil epidemics — a far larger decline than the modest (A) or minor (D) figures, and certainly not the absence of decline claimed in B."
+      "explanation": "Historians commonly cite population declines estimated at 80–90% in some regions during the first century of sustained contact, reflecting the catastrophic demographic impact of virgin soil epidemics — a far larger decline than the modest (A) or minor (B) figures, and certainly not the absence of decline claimed in B."
     },
     {
       "id": "1-28",
@@ -444,7 +444,7 @@ const QUESTIONS = {
         "A transfer limited exclusively to the movement of precious metals."
       ],
       "correct": 2,
-      "explanation": "The Columbian Exchange was a massive, bidirectional transfer — moving in both directions between the hemispheres — of plants, animals, diseases, and people, not merely precious metals (A), not merely symbolic (B), and not one-directional (D), since crops, disease, and people moved both ways."
+      "explanation": "The Columbian Exchange was a massive, bidirectional transfer — moving in both directions between the hemispheres — of plants, animals, diseases, and people, not merely precious metals (D), not merely symbolic (A), and not one-directional (B), since crops, disease, and people moved both ways."
     },
     {
       "id": "1-30",
@@ -470,7 +470,7 @@ const QUESTIONS = {
         "No new disease of any kind was introduced to the Americas during this period."
       ],
       "correct": 0,
-      "explanation": "Smallpox is commonly cited as a key Old World disease introduced to Native American populations, causing catastrophic virgin soil epidemics due to their lack of prior immunity. A livestock-only disease (B) does not describe smallpox, malaria in this framing is generally discussed as an Old World import rather than pre-contact (C), and new diseases clearly were introduced during this period (contradicting D)."
+      "explanation": "Smallpox is commonly cited as a key Old World disease introduced to Native American populations, causing catastrophic virgin soil epidemics due to their lack of prior immunity. A livestock-only disease (C) does not describe smallpox, malaria in this framing is generally discussed as an Old World import rather than pre-contact (B), and new diseases clearly were introduced during this period (contradicting D)."
     },
     {
       "id": "1-32",
@@ -483,7 +483,7 @@ const QUESTIONS = {
         "It has no relevance to American history beyond Period 1 itself."
       ],
       "correct": 2,
-      "explanation": "The Columbian Exchange's consequences — Native population collapse, resulting labor shortages, and the consequent shift toward African slave labor — directly shape colonial economic and social development throughout subsequent periods, making it a foundational framework rather than confined to Period 1 (A), to Europe alone (B), or to events concluded by 1500 (C)."
+      "explanation": "The Columbian Exchange's consequences — Native population collapse, resulting labor shortages, and the consequent shift toward African slave labor — directly shape colonial economic and social development throughout subsequent periods, making it a foundational framework rather than confined to Period 1 (D), to Europe alone (B), or to events concluded by 1500 (A)."
     },
     {
       "id": "1-33",
@@ -496,7 +496,7 @@ const QUESTIONS = {
         "Ferdinand Magellan, known for his circumnavigation voyage."
       ],
       "correct": 0,
-      "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire (1519–1521), exploiting internal political divisions and disease. Pizarro (B) led the separate conquest of the Inca Empire, Las Casas (C) was a critic of labor practices rather than a conquistador, and Magellan (D) is known for circumnavigation, not Aztec conquest."
+      "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire (1519–1521), exploiting internal political divisions and disease. Pizarro (C) led the separate conquest of the Inca Empire, Las Casas (B) was a critic of labor practices rather than a conquistador, and Magellan (D) is known for circumnavigation, not Aztec conquest."
     },
     {
       "id": "1-34",
@@ -509,7 +509,7 @@ const QUESTIONS = {
         "Christopher Columbus, known for his 1492 transatlantic voyage."
       ],
       "correct": 0,
-      "explanation": "Francisco Pizarro led the Spanish conquest of the Inca Empire (1532–1533), similarly exploiting internal political weakness and disease. Cortés (B) led the separate conquest of the Aztec Empire, and da Gama (C) and Columbus (D) were explorers whose voyages predate and are unrelated to the Inca conquest."
+      "explanation": "Francisco Pizarro led the Spanish conquest of the Inca Empire (1532–1533), similarly exploiting internal political weakness and disease. Cortés (C) led the separate conquest of the Aztec Empire, and da Gama (B) and Columbus (D) were explorers whose voyages predate and are unrelated to the Inca conquest."
     },
     {
       "id": "1-35",
@@ -522,7 +522,7 @@ const QUESTIONS = {
         "The Inca, a separate empire located far to the south in the Andes."
       ],
       "correct": 2,
-      "explanation": "Cortés allied with the Tlaxcalans and other groups who resented Aztec rule, turning a small Spanish force into a much larger combined army. The Inca (B), Pueblo (C), and Haudenosaunee (D) were all geographically and politically unconnected to the Aztec conquest campaign."
+      "explanation": "Cortés allied with the Tlaxcalans and other groups who resented Aztec rule, turning a small Spanish force into a much larger combined army. The Inca (D), Pueblo (A), and Haudenosaunee (B) were all geographically and politically unconnected to the Aztec conquest campaign."
     },
     {
       "id": "1-36",
@@ -535,7 +535,7 @@ const QUESTIONS = {
         "The specific role of Spanish naval technology in the conquest."
       ],
       "correct": 0,
-      "explanation": "Oversimplified accounts crediting Spanish weaponry alone commonly under-emphasize the exploitation of existing Native political divisions and the significant weakening effects of disease. English competition (A), Spanish naval technology (C), and the printing press (D) are not the factors this section identifies as commonly overlooked."
+      "explanation": "Oversimplified accounts crediting Spanish weaponry alone commonly under-emphasize the exploitation of existing Native political divisions and the significant weakening effects of disease. English competition (B), Spanish naval technology (D), and the printing press (C) are not the factors this section identifies as commonly overlooked."
     },
     {
       "id": "1-37",
@@ -548,7 +548,7 @@ const QUESTIONS = {
         "A system used exclusively to organize ranks within the Spanish military."
       ],
       "correct": 1,
-      "explanation": "The Spanish casta system was a formal, legally codified racial hierarchy that determined an individual's social status, legal rights, and economic opportunity based on ancestry — not a trade agreement (A), a military rank system (B), or merely informal custom (C)."
+      "explanation": "The Spanish casta system was a formal, legally codified racial hierarchy that determined an individual's social status, legal rights, and economic opportunity based on ancestry — not a trade agreement (C), a military rank system (D), or merely informal custom (A)."
     },
     {
       "id": "1-38",
@@ -561,7 +561,7 @@ const QUESTIONS = {
         "Criollos, people of Spanish descent born in the Americas."
       ],
       "correct": 0,
-      "explanation": "Peninsulares — colonists born in Spain itself — generally held the highest colonial offices, ranking above criollos (C) despite criollos often being wealthy. Mestizos (B) and Native Americans (D) ranked well below both peninsulares and criollos in the hierarchy."
+      "explanation": "Peninsulares — colonists born in Spain itself — generally held the highest colonial offices, ranking above criollos (D) despite criollos often being wealthy. Mestizos (B) and Native Americans (C) ranked well below both peninsulares and criollos in the hierarchy."
     },
     {
       "id": "1-39",
@@ -574,7 +574,7 @@ const QUESTIONS = {
         "A person of purely African ancestry, under the casta system."
       ],
       "correct": 2,
-      "explanation": "'Mestizo' referred to a person of mixed Spanish and Native American ancestry within the casta system. It is not unrelated to ancestry (B); purely Spanish-born ancestry (C) describes a peninsular, and purely African ancestry (D) describes a different casta category entirely."
+      "explanation": "'Mestizo' referred to a person of mixed Spanish and Native American ancestry within the casta system. It is not unrelated to ancestry (A); purely Spanish-born ancestry (B) describes a peninsular, and purely African ancestry (D) describes a different casta category entirely."
     },
     {
       "id": "1-40",
@@ -600,7 +600,7 @@ const QUESTIONS = {
         "1776–1783, during the era of the American Revolution."
       ],
       "correct": 0,
-      "explanation": "Cortés's conquest of the Aztec Empire occurred approximately 1519–1521, roughly three decades after Columbus's initial 1492 voyage. 1607–1610 (A) marks England's Jamestown settlement, 1492–1493 (C) is Columbus's own voyage, and 1776–1783 (D) is the American Revolutionary era — none matches the Aztec conquest."
+      "explanation": "Cortés's conquest of the Aztec Empire occurred approximately 1519–1521, roughly three decades after Columbus's initial 1492 voyage. 1607–1610 (C) marks England's Jamestown settlement, 1492–1493 (B) is Columbus's own voyage, and 1776–1783 (D) is the American Revolutionary era — none matches the Aztec conquest."
     },
     {
       "id": "1-42",
@@ -626,7 +626,7 @@ const QUESTIONS = {
         "A Native American system for managing land communally."
       ],
       "correct": 2,
-      "explanation": "The encomienda system granted individual Spanish colonists the right to demand labor and tribute from Native Americans, nominally in exchange for protection and Christianization. It was not paid, freely-entered wage labor (A), a Spain-England trade agreement (C), or a Native communal land system (D)."
+      "explanation": "The encomienda system granted individual Spanish colonists the right to demand labor and tribute from Native Americans, nominally in exchange for protection and Christianization. It was not paid, freely-entered wage labor (B), a Spain-England trade agreement (A), or a Native communal land system (D)."
     },
     {
       "id": "1-44",
@@ -639,7 +639,7 @@ const QUESTIONS = {
         "As a brutal forced labor system that contributed to Native population decline through overwork."
       ],
       "correct": 3,
-      "explanation": "In practice, encomienda functioned as a brutal forced labor system; overwork under it, alongside disease, contributed significantly to catastrophic Native population decline. It was not voluntary or fairly compensated (B), it overwhelmingly benefited Spanish colonists rather than Native communities (contradicting C), and it centrally involved coerced labor, not merely religion (contradicting D)."
+      "explanation": "In practice, encomienda functioned as a brutal forced labor system; overwork under it, alongside disease, contributed significantly to catastrophic Native population decline. It was not voluntary or fairly compensated (B), it overwhelmingly benefited Spanish colonists rather than Native communities (contradicting A), and it centrally involved coerced labor, not merely religion (contradicting C)."
     },
     {
       "id": "1-45",
@@ -652,7 +652,7 @@ const QUESTIONS = {
         "The Spanish king who formally authorized Columbus's 1492 voyage."
       ],
       "correct": 2,
-      "explanation": "Bartolomé de las Casas was a Dominican friar who became a prominent critic of the encomienda system's brutal treatment of Native peoples. He was not the conquistador who conquered the Inca (A, that was Pizarro), a Tlaxcalan leader (C), or the Spanish king (D)."
+      "explanation": "Bartolomé de las Casas was a Dominican friar who became a prominent critic of the encomienda system's brutal treatment of Native peoples. He was not the conquistador who conquered the Inca (A, that was Pizarro), a Tlaxcalan leader (B), or the Spanish king (D)."
     },
     {
       "id": "1-46",
@@ -678,7 +678,7 @@ const QUESTIONS = {
         "Native Americans are recorded as having voluntarily requested this specific labor shift."
       ],
       "correct": 1,
-      "explanation": "The shift was driven primarily by economic necessity — catastrophic Native population decline from disease and overwork created a severe labor shortage for profitable enterprises like sugar production. There is no record of Native Americans requesting this shift (B) or of a papal ban driving it (C), and broad moral concern was not the dominant driver (contradicting D)."
+      "explanation": "The shift was driven primarily by economic necessity — catastrophic Native population decline from disease and overwork created a severe labor shortage for profitable enterprises like sugar production. There is no record of Native Americans requesting this shift (D) or of a papal ban driving it (C), and broad moral concern was not the dominant driver (contradicting A)."
     },
     {
       "id": "1-48",
@@ -691,7 +691,7 @@ const QUESTIONS = {
         "Sugar, a labor-intensive crop central to plantation profits."
       ],
       "correct": 3,
-      "explanation": "Sugar production was particularly labor-intensive and significant in driving colonial demand for alternative labor sources as the Native labor supply collapsed. Tobacco alone (A) understates sugar's central role, and wheat (B) and potatoes (D) were not the labor-intensive cash crops driving this demand."
+      "explanation": "Sugar production was particularly labor-intensive and significant in driving colonial demand for alternative labor sources as the Native labor supply collapsed. Tobacco alone (C) understates sugar's central role, and wheat (A) and potatoes (B) were not the labor-intensive cash crops driving this demand."
     },
     {
       "id": "1-49",
@@ -743,7 +743,7 @@ const QUESTIONS = {
         "It is one of the most important multi-step causal chains, linking Period 1 directly to slavery's later growth."
       ],
       "correct": 3,
-      "explanation": "This causal chain — disease, depopulation, labor shortage, forced African migration — is one of the most important multi-step causal relationships in the entire course, connecting Period 1 directly to slavery's expansion in later periods. It is not confined to Spanish administration alone (A), it reflects a genuine causal relationship rather than coincidence (contradicting C), and it matters well beyond Period 1 (contradicting D)."
+      "explanation": "This causal chain — disease, depopulation, labor shortage, forced African migration — is one of the most important multi-step causal relationships in the entire course, connecting Period 1 directly to slavery's expansion in later periods. It is not confined to Spanish administration alone (A), it reflects a genuine causal relationship rather than coincidence (contradicting A), and it matters well beyond Period 1 (contradicting C)."
     },
     {
       "id": "1-53",
@@ -795,7 +795,7 @@ const QUESTIONS = {
         "Both groups reportedly always understood land transactions in an identical way."
       ],
       "correct": 2,
-      "explanation": "A Native group might grant temporary or shared land-use rights under a communal framework, while Europeans, operating under an individual-ownership framework, could sincerely believe they had acquired full permanent ownership — producing genuine, sincerely held misunderstanding on both sides. Deliberate deception (B) does not describe every such case, identical understanding (C) is precisely what did not happen, and this scenario is well documented, not baseless (contradicting D)."
+      "explanation": "A Native group might grant temporary or shared land-use rights under a communal framework, while Europeans, operating under an individual-ownership framework, could sincerely believe they had acquired full permanent ownership — producing genuine, sincerely held misunderstanding on both sides. Deliberate deception (B) does not describe every such case, identical understanding (D) is precisely what did not happen, and this scenario is well documented, not baseless (contradicting A)."
     },
     {
       "id": "1-57",
@@ -834,7 +834,7 @@ const QUESTIONS = {
         "America in the World (WOR) exclusively, with no other theme relevant."
       ],
       "correct": 2,
-      "explanation": "This section's content on land use and ownership connects most directly to Geography and the Environment (GEO) and Migration and Settlement (MIG), examining how peoples moving into new territory interacted with existing land-use patterns. WXT (A), SOC (B), and WOR (C) are each less directly connected to this specific land-ownership content than GEO and MIG together."
+      "explanation": "This section's content on land use and ownership connects most directly to Geography and the Environment (GEO) and Migration and Settlement (MIG), examining how peoples moving into new territory interacted with existing land-use patterns. WXT (B), SOC (A), and WOR (D) are each less directly connected to this specific land-ownership content than GEO and MIG together."
     },
     {
       "id": "1-60",
@@ -847,7 +847,7 @@ const QUESTIONS = {
         "A Native group allying with one European power for advantage against a rival power or rival Native group."
       ],
       "correct": 3,
-      "explanation": "A Native group forming strategic alliances with one European power to gain advantage against a rival power or Native group directly illustrates active agency. Such alliances are well documented, not unknown (contradicting A), total refusal of contact (B) illustrates avoidance rather than strategic leverage, and adopting European law identically (C) describes assimilation rather than leverage."
+      "explanation": "A Native group forming strategic alliances with one European power to gain advantage against a rival power or Native group directly illustrates active agency. Such alliances are well documented, not unknown (contradicting B), total refusal of contact (C) illustrates avoidance rather than strategic leverage, and adopting European law identically (A) describes assimilation rather than leverage."
     },
     {
       "id": "1-61",
@@ -899,7 +899,7 @@ const QUESTIONS = {
         "Specific instances of Native groups negotiating, resisting, adapting, and leveraging rivalries."
       ],
       "correct": 3,
-      "explanation": "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries provides direct, concrete evidence of meaningful historical agency. Disease statistics alone (B) speak to demographic impact, not agency; European exploration accounts (C) and exploration technology (D) do not address Native agency at all."
+      "explanation": "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries provides direct, concrete evidence of meaningful historical agency. Disease statistics alone (A) speak to demographic impact, not agency; European exploration accounts (B) and exploration technology (C) do not address Native agency at all."
     },
     {
       "id": "1-65",
@@ -913,7 +913,7 @@ const QUESTIONS = {
         "Disease-driven Native population collapse drove the labor shift to African slavery, while land-ownership conflict shaped how colonial expansion and dispossession unfolded — three connected threads of one transformation."
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing that Sections 1.3, 1.5, and 1.6 are interconnected pieces of a single transformation: Columbian Exchange disease caused Native population collapse, which drove the labor shortage behind the shift toward African slavery, while the parallel conceptual clash over land ownership shaped how colonial expansion proceeded. Treating the Columbian Exchange as the only significant topic (A) is a false hierarchy, reversing cause and effect (C) inverts the real chronology, and treating the three as unrelated (D) misses exactly the interconnection this question tests."
+      "explanation": "This synthesis question rewards recognizing that Sections 1.3, 1.5, and 1.6 are interconnected pieces of a single transformation: Columbian Exchange disease caused Native population collapse, which drove the labor shortage behind the shift toward African slavery, while the parallel conceptual clash over land ownership shaped how colonial expansion proceeded. Treating the Columbian Exchange as the only significant topic (C) is a false hierarchy, reversing cause and effect (A) inverts the real chronology, and treating the three as unrelated (B) misses exactly the interconnection this question tests."
     },
     {
       "id": "1-66",
@@ -926,7 +926,7 @@ const QUESTIONS = {
         "Vasco da Gama"
       ],
       "correct": 1,
-      "explanation": "Prince Henry the Navigator sponsored Portugal's early, sustained exploration of the African coast, building the navigational expertise and technology that Spain's westward voyages later drew on. King Ferdinand (A) sponsored Columbus's Spanish voyages rather than Portugal's African program; Vasco da Gama (C) was the explorer who reached India in 1498 under this earlier Portuguese initiative, not its sponsor; and the papacy (D) later arbitrated Spanish-Portuguese territorial claims but did not sponsor these voyages."
+      "explanation": "Prince Henry the Navigator sponsored Portugal's early, sustained exploration of the African coast, building the navigational expertise and technology that Spain's westward voyages later drew on. King Ferdinand (C) sponsored Columbus's Spanish voyages rather than Portugal's African program; Vasco da Gama (D) was the explorer who reached India in 1498 under this earlier Portuguese initiative, not its sponsor; and the papacy (A) later arbitrated Spanish-Portuguese territorial claims but did not sponsor these voyages."
     },
     {
       "id": "1-67",
@@ -939,7 +939,7 @@ const QUESTIONS = {
         "It had no measurable effect on Catholic exploration or colonization."
       ],
       "correct": 0,
-      "explanation": "The Reformation era's religious competition intensified the Catholic Church's competitive posture, sharpening the missionary urgency behind the 'God' motive for Spanish and Portuguese exploration and colonization. It did not eliminate (A) or leave unaffected (C) that motive, and Catholic powers expanded rather than abandoned (D) missionary efforts during this era."
+      "explanation": "The Reformation era's religious competition intensified the Catholic Church's competitive posture, sharpening the missionary urgency behind the 'God' motive for Spanish and Portuguese exploration and colonization. It did not eliminate (C) or leave unaffected (D) that motive, and Catholic powers expanded rather than abandoned (B) missionary efforts during this era."
     }
   ],
   "2": [
@@ -2663,7 +2663,7 @@ const QUESTIONS = {
         "Acquisition of a vast French territory in 1803, doubling the nation's size."
       ],
       "correct": 3,
-      "explanation": "The Louisiana Purchase (1803) was the acquisition of a vast territory from France, roughly doubling the size of the United States. Choice A confuses it with the 1819 Adams-Onís Treaty that acquired Florida from Spain; C describes the unrelated 1763 Proclamation Line; D refers to the 1795 Pinckney Treaty, a separate agreement with Spain over river access."
+      "explanation": "The Louisiana Purchase (1803) was the acquisition of a vast territory from France, roughly doubling the size of the United States. Choice B confuses it with the 1819 Adams-Onís Treaty that acquired Florida from Spain; C describes the unrelated 1763 Proclamation Line; A refers to the 1795 Pinckney Treaty, a separate agreement with Spain over river access."
     },
     {
       "id": "4-2",
@@ -2676,7 +2676,7 @@ const QUESTIONS = {
         "The Constitution explicitly prohibited any federal acquisition of new territory."
       ],
       "correct": 0,
-      "explanation": "The Constitution nowhere explicitly grants the federal government power to acquire new territory — a genuine problem for the strict-constructionist Jefferson. Choice A overstates the case (the Constitution is silent, not prohibitive); C is false, as no such 1801 amendment existed; D confuses this with an unrelated requirement."
+      "explanation": "The Constitution nowhere explicitly grants the federal government power to acquire new territory — a genuine problem for the strict-constructionist Jefferson. Choice D overstates the case (the Constitution is silent, not prohibitive); C is false, as no such 1801 amendment existed; B confuses this with an unrelated requirement."
     },
     {
       "id": "4-3",
@@ -3495,7 +3495,7 @@ const QUESTIONS = {
         "These three territorial acquisitions were entirely unrelated, isolated events sharing no common underlying pattern or recurring cause."
       ],
       "correct": 2,
-      "explanation": "This synthesis rewards recognizing a recurring pattern: the Louisiana Purchase (4.1) first raised the question of implied federal power; the same territory's slavery status required the Missouri Compromise (4.7); and the Mexican Cession (4.8) reopened the identical slavery-expansion question decades later. Choice A wrongly isolates the Missouri Compromise as the only slavery-relevant event — the Mexican Cession also reopened it. Choices C and D treat these as unrelated, missing the connective, pattern-recognition argument (territorial growth as the recurring underlying cause) that strong DBQ/LEQ responses reward.",
+      "explanation": "This synthesis rewards recognizing a recurring pattern: the Louisiana Purchase (4.1) first raised the question of implied federal power; the same territory's slavery status required the Missouri Compromise (4.7); and the Mexican Cession (4.8) reopened the identical slavery-expansion question decades later. Choice B wrongly isolates the Missouri Compromise as the only slavery-relevant event — the Mexican Cession also reopened it. Choices A and D treat these as unrelated, missing the connective, pattern-recognition argument (territorial growth as the recurring underlying cause) that strong DBQ/LEQ responses reward.",
       "stretch": true
     },
     {
@@ -4398,7 +4398,7 @@ const QUESTIONS = {
         "A federal law capping how large a single business could legally grow."
       ],
       "correct": 1,
-      "explanation": "Vertical integration means owning every stage of production, from raw material to finished, shipped product — eliminating dependence on outside suppliers. Choice B describes horizontal integration instead (buying same-stage rivals); choice C invents a regulatory law that didn't exist in this form; choice D wrongly treats vertical and horizontal integration as synonyms, when they describe different-stage vs. same-stage consolidation."
+      "explanation": "Vertical integration means owning every stage of production, from raw material to finished, shipped product — eliminating dependence on outside suppliers. Choice C describes horizontal integration instead (buying same-stage rivals); choice D invents a regulatory law that didn't exist in this form; choice A wrongly treats vertical and horizontal integration as synonyms, when they describe different-stage vs. same-stage consolidation."
     },
     {
       "id": "6-4",
@@ -4411,7 +4411,7 @@ const QUESTIONS = {
         "Buying out or merging with competing companies at the SAME stage of production."
       ],
       "correct": 3,
-      "explanation": "Horizontal integration means buying out or merging with competitors at the same stage of production, as Rockefeller did with rival oil refiners. Choice A wrongly equates it with vertical integration; choice B describes vertical integration instead (different stages); choice D invents a specific federal law rather than describing the business strategy itself."
+      "explanation": "Horizontal integration means buying out or merging with competitors at the same stage of production, as Rockefeller did with rival oil refiners. Choice C wrongly equates it with vertical integration; choice A describes vertical integration instead (different stages); choice B invents a specific federal law rather than describing the business strategy itself."
     },
     {
       "id": "6-5",
@@ -4463,7 +4463,7 @@ const QUESTIONS = {
         "There is no meaningful reason to ever distinguish these two related business strategies."
       ],
       "correct": 2,
-      "explanation": "This exam rewards correctly identifying which strategy a described scenario illustrates, based on whether a company acquires different production stages (vertical) or same-stage competitors (horizontal). Choice A wrongly denies a real, tested distinction; choices B and D each wrongly claim only one of the two strategies ever appears, when both are directly tested."
+      "explanation": "This exam rewards correctly identifying which strategy a described scenario illustrates, based on whether a company acquires different production stages (vertical) or same-stage competitors (horizontal). Choice D wrongly denies a real, tested distinction; choices A and B each wrongly claim only one of the two strategies ever appears, when both are directly tested."
     },
     {
       "id": "6-9",
@@ -4476,7 +4476,7 @@ const QUESTIONS = {
         "Genuine economic innovation and essential infrastructure-building, with no serious criticism."
       ],
       "correct": 0,
-      "explanation": "The 'robber baron' framing emphasizes ruthless, often exploitative business practices: crushing competitors and suppressing wages. Choice A describes the opposite 'captain of industry' framing; choice B narrows industrialists to philanthropy alone, ignoring their business conduct entirely; choice C is wrong because the framing reflects real, documented contemporary and historical criticism, not a groundless modern invention."
+      "explanation": "The 'robber baron' framing emphasizes ruthless, often exploitative business practices: crushing competitors and suppressing wages. Choice D describes the opposite 'captain of industry' framing; choice B narrows industrialists to philanthropy alone, ignoring their business conduct entirely; choice C is wrong because the framing reflects real, documented contemporary and historical criticism, not a groundless modern invention."
     },
     {
       "id": "6-10",
@@ -4489,7 +4489,7 @@ const QUESTIONS = {
         "A framing describing industrialists with no relationship to their business activity."
       ],
       "correct": 2,
-      "explanation": "'Captain of industry' emphasizes genuine economic innovation, essential infrastructure-building, and, for some industrialists, significant later philanthropy. Choice A misdirects the framing toward labor unions rather than industrialists; choice B is incoherent, since the framing is specifically about industrialists' business activity; choice C instead describes the opposing 'robber baron' framing."
+      "explanation": "'Captain of industry' emphasizes genuine economic innovation, essential infrastructure-building, and, for some industrialists, significant later philanthropy. Choice B misdirects the framing toward labor unions rather than industrialists; choice D is incoherent, since the framing is specifically about industrialists' business activity; choice A instead describes the opposing 'robber baron' framing."
     },
     {
       "id": "6-11",
@@ -4528,7 +4528,7 @@ const QUESTIONS = {
         "They describe the identical idea, just using two different historical names."
       ],
       "correct": 2,
-      "explanation": "Social Darwinism justified minimal intervention and indifference toward the poor as a natural competitive outcome, while the Gospel of Wealth argued the wealthy bore an active moral obligation to give back philanthropically — related but genuinely distinct positions. Choice B misstates Carnegie's own defense of legitimately earned wealth; choice C invents a legal mandate that never existed; choice D collapses a real, exam-tested distinction between the two ideas."
+      "explanation": "Social Darwinism justified minimal intervention and indifference toward the poor as a natural competitive outcome, while the Gospel of Wealth argued the wealthy bore an active moral obligation to give back philanthropically — related but genuinely distinct positions. Choice B misstates Carnegie's own defense of legitimately earned wealth; choice A invents a legal mandate that never existed; choice D collapses a real, exam-tested distinction between the two ideas."
     },
     {
       "id": "6-14",
@@ -4540,8 +4540,8 @@ const QUESTIONS = {
         "Real evidence supports both framings — wage suppression and violence alongside philanthropy.",
         "This historiographical debate carries no relevance for the AP exam."
       ],
-      "correct": 3,
-      "explanation": "A strong essay avoids a single verdict because genuine evidence supports both framings: wage suppression and violent labor conflict support 'robber baron,' while efficient infrastructure-building and extensive philanthropy support 'captain of industry.' Choice A is false — Carnegie's business and philanthropic record is extensively documented; choice B wrongly assumes only one framing can be valid; choice C is incorrect since this exact debate is directly tested."
+      "correct": 2,
+      "explanation": "A strong essay avoids a single verdict because genuine evidence supports both framings: wage suppression and violent labor conflict support 'robber baron,' while efficient infrastructure-building and extensive philanthropy support 'captain of industry.' Choice A is false — Carnegie's business and philanthropic record is extensively documented; choice B wrongly assumes only one framing can be valid; choice D is incorrect since this exact debate is directly tested."
     },
     {
       "id": "6-15",
@@ -4580,7 +4580,7 @@ const QUESTIONS = {
         "A bombing that occurred at a Chicago labor rally."
       ],
       "correct": 0,
-      "explanation": "The Great Railroad Strike (1877) was the first major nationwide strike, met with federal troops deployed against strikers — an early instance of government power siding with business. Choice B contradicts the strike's own name and subject; choice C describes the later Haymarket Affair (1886); choice D describes the later Homestead Strike (1892)."
+      "explanation": "The Great Railroad Strike (1877) was the first major nationwide strike, met with federal troops deployed against strikers — an early instance of government power siding with business. Choice C contradicts the strike's own name and subject; choice D describes the later Haymarket Affair (1886); choice B describes the later Homestead Strike (1892)."
     },
     {
       "id": "6-18",
@@ -4593,7 +4593,7 @@ const QUESTIONS = {
         "A strike centered on Pullman-manufactured railroad sleeping cars."
       ],
       "correct": 0,
-      "explanation": "The Haymarket Affair (1886) was a bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally, despite unclear responsibility for the bombing itself. Choice A contradicts the event's actual violence and consequences; choice C describes the later Homestead Strike (1892); choice D describes the later Pullman Strike (1894)."
+      "explanation": "The Haymarket Affair (1886) was a bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally, despite unclear responsibility for the bombing itself. Choice B contradicts the event's actual violence and consequences; choice C describes the later Homestead Strike (1892); choice D describes the later Pullman Strike (1894)."
     },
     {
       "id": "6-19",
@@ -4606,7 +4606,7 @@ const QUESTIONS = {
         "A labor dispute entirely unconnected to the steel industry."
       ],
       "correct": 0,
-      "explanation": "The Homestead Strike (1892) involved violent conflict at a Carnegie steel plant, where private Pinkerton security forces clashed violently with strikers. Choice B directly contradicts the strike's steel-industry setting; choice C describes strikes like 1877 or 1894 instead; choice D contradicts the strike's well-documented violence."
+      "explanation": "The Homestead Strike (1892) involved violent conflict at a Carnegie steel plant, where private Pinkerton security forces clashed violently with strikers. Choice D directly contradicts the strike's steel-industry setting; choice B describes strikes like 1877 or 1894 instead; choice C contradicts the strike's well-documented violence."
     },
     {
       "id": "6-20",
@@ -4619,7 +4619,7 @@ const QUESTIONS = {
         "A strike that took place before the earlier Great Railroad Strike of 1877."
       ],
       "correct": 1,
-      "explanation": "The Pullman Strike (1894) was a nationwide railroad strike broken by federal troops deployed under a court injunction treating the strikers' actions as an illegal restraint on interstate commerce. Choice B reverses the actual chronology (1894 came after 1877); choice C describes the earlier Homestead Strike instead; choice D contradicts the strike's defining federal intervention."
+      "explanation": "The Pullman Strike (1894) was a nationwide railroad strike broken by federal troops deployed under a court injunction treating the strikers' actions as an illegal restraint on interstate commerce. Choice D reverses the actual chronology (1894 came after 1877); choice C describes the earlier Homestead Strike instead; choice A contradicts the strike's defining federal intervention."
     },
     {
       "id": "6-21",
@@ -4632,7 +4632,7 @@ const QUESTIONS = {
         "Government power consistently sided with striking workers over business owners."
       ],
       "correct": 1,
-      "explanation": "Comparing the Great Railroad Strike (1877) and Pullman Strike (1894) reveals a consistent pattern: federal power was repeatedly deployed on business's side, whether through troops or court injunctions. Choice B denies a well-documented, exam-relevant pattern; choice C reverses the actual, consistent direction of government intervention; choice D contradicts direct federal troop deployment in both strikes."
+      "explanation": "Comparing the Great Railroad Strike (1877) and Pullman Strike (1894) reveals a consistent pattern: federal power was repeatedly deployed on business's side, whether through troops or court injunctions. Choice A denies a well-documented, exam-relevant pattern; choice D reverses the actual, consistent direction of government intervention; choice C contradicts direct federal troop deployment in both strikes."
     },
     {
       "id": "6-22",
@@ -4645,7 +4645,7 @@ const QUESTIONS = {
         "Both organizations recruited from the exact same narrow pool of skilled industrial workers."
       ],
       "correct": 1,
-      "explanation": "The Knights of Labor pursued a broader strategy, including unskilled workers, women, and Black workers; the AFL under Samuel Gompers focused narrowly on skilled workers. Choice B denies both organizations' documented, deliberate recruitment strategies; choice C reverses which organization was actually broader; choice D contradicts the real contrast this exam tests directly."
+      "explanation": "The Knights of Labor pursued a broader strategy, including unskilled workers, women, and Black workers; the AFL under Samuel Gompers focused narrowly on skilled workers. Choice C denies both organizations' documented, deliberate recruitment strategies; choice A reverses which organization was actually broader; choice D contradicts the real contrast this exam tests directly."
     },
     {
       "id": "6-23",
@@ -4658,7 +4658,7 @@ const QUESTIONS = {
         "A strategy centered on sweeping social reform rather than specific economic demands."
       ],
       "correct": 2,
-      "explanation": "The AFL's 'bread and butter' strategy pragmatically focused on concrete gains — wages, hours, working conditions — rather than broader social reform. Choice A wrongly detaches the label from the AFL's real organizing approach; choice B reverses the AFL's actual skilled-worker focus (the Knights of Labor organized unskilled workers); choice D describes the Knights of Labor's broader goals instead."
+      "explanation": "The AFL's 'bread and butter' strategy pragmatically focused on concrete gains — wages, hours, working conditions — rather than broader social reform. Choice B wrongly detaches the label from the AFL's real organizing approach; choice A reverses the AFL's actual skilled-worker focus (the Knights of Labor organized unskilled workers); choice D describes the Knights of Labor's broader goals instead."
     },
     {
       "id": "6-24",
@@ -4697,7 +4697,7 @@ const QUESTIONS = {
         "Northern and western Europe exclusively, unchanged from earlier decades."
       ],
       "correct": 2,
-      "explanation": "'New Immigration' predominantly came from southern and eastern Europe (Italy, Russia, Poland), plus continued Chinese immigration. Choices A and D name regions that were not meaningful sources of Gilded Age immigration; choice B describes 'Old Immigration,' the earlier pattern New Immigration is contrasted against, not the new pattern itself."
+      "explanation": "'New Immigration' predominantly came from southern and eastern Europe (Italy, Russia, Poland), plus continued Chinese immigration. Choices A and B name regions that were not meaningful sources of Gilded Age immigration; choice D describes 'Old Immigration,' the earlier pattern New Immigration is contrasted against, not the new pattern itself."
     },
     {
       "id": "6-27",
@@ -4723,7 +4723,7 @@ const QUESTIONS = {
         "Applied equally to every immigrant group, without singling out any one nationality."
       ],
       "correct": 1,
-      "explanation": "The Chinese Exclusion Act (1882) explicitly banned Chinese immigration, becoming the first major federal law restricting immigration by race or national origin. Choice A states the reverse of the law's actual restriction; choice C misattributes a citizenship grant the law never made; choice D contradicts the law's specifically race-targeted design, which singled out Chinese immigrants alone."
+      "explanation": "The Chinese Exclusion Act (1882) explicitly banned Chinese immigration, becoming the first major federal law restricting immigration by race or national origin. Choice C states the reverse of the law's actual restriction; choice A misattributes a citizenship grant the law never made; choice D contradicts the law's specifically race-targeted design, which singled out Chinese immigrants alone."
     },
     {
       "id": "6-29",
@@ -4736,7 +4736,7 @@ const QUESTIONS = {
         "It was struck down by the courts almost immediately, leaving no lasting effect."
       ],
       "correct": 1,
-      "explanation": "The Chinese Exclusion Act set a significant precedent for federal immigration restriction on explicitly racial/ethnic grounds, which later, broader restrictive laws in the early twentieth century built directly upon. Choice A misstates the law's actual multi-decade duration and enforcement; choice B denies its well-documented precedent-setting role; choice D invents a one-year expiration the law did not have."
+      "explanation": "The Chinese Exclusion Act set a significant precedent for federal immigration restriction on explicitly racial/ethnic grounds, which later, broader restrictive laws in the early twentieth century built directly upon. Choice A misstates the law's actual multi-decade duration and enforcement; choice C denies its well-documented precedent-setting role; choice D invents a one-year expiration the law did not have."
     },
     {
       "id": "6-30",
@@ -4762,7 +4762,7 @@ const QUESTIONS = {
         "This distinction carries no real relevance for understanding Gilded Age nativism."
       ],
       "correct": 0,
-      "explanation": "Distinguishing Old from New Immigration matters because New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different than earlier waves, fueling escalating, specific hostility. Choice A denies the documented intensification of nativism; choice B reverses which wave nativism actually targeted most intensely; choice D denies the distinction's direct relevance to explaining that hostility."
+      "explanation": "Distinguishing Old from New Immigration matters because New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different than earlier waves, fueling escalating, specific hostility. Choice C denies the documented intensification of nativism; choice B reverses which wave nativism actually targeted most intensely; choice D denies the distinction's direct relevance to explaining that hostility."
     },
     {
       "id": "6-32",
@@ -4775,7 +4775,7 @@ const QUESTIONS = {
         "A shift from northern/western European toward southern/eastern European and Chinese immigration."
       ],
       "correct": 3,
-      "explanation": "This section describes a shift from predominantly northern/western European ('Old') immigration toward predominantly southern/eastern European and continued Chinese ('New') immigration, provoking intensified nativist backlash. Choice A denies a documented demographic shift; choice B misidentifies the actual source regions; choice D contradicts the continued, indeed dominant, role of European immigration throughout this shift."
+      "explanation": "This section describes a shift from predominantly northern/western European ('Old') immigration toward predominantly southern/eastern European and continued Chinese ('New') immigration, provoking intensified nativist backlash. Choice B denies a documented demographic shift; choice C misidentifies the actual source regions; choice A contradicts the continued, indeed dominant, role of European immigration throughout this shift."
     },
     {
       "id": "6-33",
@@ -4814,7 +4814,7 @@ const QUESTIONS = {
         "Exclusively formal, government-administered social services with no informal help."
       ],
       "correct": 1,
-      "explanation": "Political machines provided genuinely needed services — jobs, housing assistance, help navigating government bureaucracy — in exchange for reliable political loyalty and votes. Choice B denies the real, documented services machines provided; choice C narrows their assistance to finance alone, ignoring jobs and housing help; choice D wrongly attributes formal government services to what were actually informal machine networks."
+      "explanation": "Political machines provided genuinely needed services — jobs, housing assistance, help navigating government bureaucracy — in exchange for reliable political loyalty and votes. Choice C denies the real, documented services machines provided; choice A narrows their assistance to finance alone, ignoring jobs and housing help; choice D wrongly attributes formal government services to what were actually informal machine networks."
     },
     {
       "id": "6-36",
@@ -4827,7 +4827,7 @@ const QUESTIONS = {
         "No — real services helped explain machines' durable support, alongside real corruption."
       ],
       "correct": 3,
-      "explanation": "It is not accurate to call machines purely corrupt with no benefit — the real services they provided help explain their durable popular support, alongside their acknowledged corruption and graft. Choice B denies the documented practical help machines gave immigrant families; choice C contradicts machines' central, well-documented role in immigrant communities; choice D denies well-documented corruption like that of Tammany's 'Boss' Tweed."
+      "explanation": "It is not accurate to call machines purely corrupt with no benefit — the real services they provided help explain their durable popular support, alongside their acknowledged corruption and graft. Choice B denies the documented practical help machines gave immigrant families; choice A contradicts machines' central, well-documented role in immigrant communities; choice C denies well-documented corruption like that of Tammany's 'Boss' Tweed."
     },
     {
       "id": "6-37",
@@ -4840,7 +4840,7 @@ const QUESTIONS = {
         "Excessive, more-than-adequate government capacity to manage this rapid urban growth."
       ],
       "correct": 2,
-      "explanation": "Inadequate sanitation and limited formal government capacity to manage rapid growth were significant urban problems, alongside tenement overcrowding, that political machines partially filled the resulting gap for. Choice A contradicts the well-documented population surge cities actually experienced; choices B and C both invert the real, well-documented shortfall in formal government capacity during this period."
+      "explanation": "Inadequate sanitation and limited formal government capacity to manage rapid growth were significant urban problems, alongside tenement overcrowding, that political machines partially filled the resulting gap for. Choice A contradicts the well-documented population surge cities actually experienced; choices B and D both invert the real, well-documented shortfall in formal government capacity during this period."
     },
     {
       "id": "6-38",
@@ -4866,7 +4866,7 @@ const QUESTIONS = {
         "Political machines had no meaningful connection to the process of urbanization at all."
       ],
       "correct": 2,
-      "explanation": "Political machines emerged because formal city government lacked capacity to manage rapid urban growth, leaving a genuine service gap that machines filled, however imperfectly. Choice B denies the direct, causal link between urbanization and machine politics; choice C misstates the actual historical timing, since urban machines grew alongside Gilded Age city growth; choice D contradicts the real, growing demand for informal political organization this growth produced."
+      "explanation": "Political machines emerged because formal city government lacked capacity to manage rapid urban growth, leaving a genuine service gap that machines filled, however imperfectly. Choice D denies the direct, causal link between urbanization and machine politics; choice B misstates the actual historical timing, since urban machines grew alongside Gilded Age city growth; choice A contradicts the real, growing demand for informal political organization this growth produced."
     },
     {
       "id": "6-40",
@@ -4879,7 +4879,7 @@ const QUESTIONS = {
         "Native American nations exclusively, a group the Freedmen's Bureau did not serve."
       ],
       "correct": 1,
-      "explanation": "Political machines served urban immigrant communities with practical assistance in a service gap; the Freedmen's Bureau (Period 5) similarly served formerly enslaved people seeking practical assistance during Reconstruction — a useful structural parallel. Choice B misidentifies the Bureau's actual clientele; choice C names a group the Bureau did not primarily serve; choice D misapplies the analogy to a wealthy group needing no such assistance."
+      "explanation": "Political machines served urban immigrant communities with practical assistance in a service gap; the Freedmen's Bureau (Period 5) similarly served formerly enslaved people seeking practical assistance during Reconstruction — a useful structural parallel. Choice D misidentifies the Bureau's actual clientele; choice C names a group the Bureau did not primarily serve; choice A misapplies the analogy to a wealthy group needing no such assistance."
     },
     {
       "id": "6-41",
@@ -4892,7 +4892,7 @@ const QUESTIONS = {
         "Had no meaningful relationship to federal Native American land policy at all."
       ],
       "correct": 2,
-      "explanation": "The Dawes Act (1887) broke up communally held reservation land into individual allotments, pursuing forced assimilation rather than Period 4's relocation-based removal policy. Choice A misstates the Act's actual assimilationist land policy, not a citizenship grant; choice B describes Period 4's earlier Indian Removal policy, a genuinely different mechanism; choice D denies the Act's central, defining subject."
+      "explanation": "The Dawes Act (1887) broke up communally held reservation land into individual allotments, pursuing forced assimilation rather than Period 4's relocation-based removal policy. Choice B misstates the Act's actual assimilationist land policy, not a citizenship grant; choice A describes Period 4's earlier Indian Removal policy, a genuinely different mechanism; choice D denies the Act's central, defining subject."
     },
     {
       "id": "6-42",
@@ -4905,7 +4905,7 @@ const QUESTIONS = {
         "The Dawes Act had no meaningful relationship to land ownership at all."
       ],
       "correct": 1,
-      "explanation": "The Dawes Act resulted in a massive net loss of total Native American landholding, since 'surplus' reservation land not allotted to individuals was opened for sale to white settlers. Choice A understates the Act's severe, well-documented practical effect; choice B directly reverses the actual outcome; choice C contradicts the Act's central subject, which was specifically about restructuring land ownership."
+      "explanation": "The Dawes Act resulted in a massive net loss of total Native American landholding, since 'surplus' reservation land not allotted to individuals was opened for sale to white settlers. Choice C understates the Act's severe, well-documented practical effect; choice A directly reverses the actual outcome; choice D contradicts the Act's central subject, which was specifically about restructuring land ownership."
     },
     {
       "id": "6-43",
@@ -4931,7 +4931,7 @@ const QUESTIONS = {
         "A peaceful negotiation between U.S. officials and Lakota leaders, without violence."
       ],
       "correct": 2,
-      "explanation": "The Wounded Knee Massacre (1890) saw U.S. troops kill many Lakota Sioux, including women and children, generally marking the end of major armed Native resistance on the Plains. Choice A confuses this event with the unrelated 1887 Dawes Act; choice C contradicts the massacre's well-documented violence; choice D describes the earlier Little Bighorn (1876) instead, which was a Native victory."
+      "explanation": "The Wounded Knee Massacre (1890) saw U.S. troops kill many Lakota Sioux, including women and children, generally marking the end of major armed Native resistance on the Plains. Choice B confuses this event with the unrelated 1887 Dawes Act; choice D contradicts the massacre's well-documented violence; choice A describes the earlier Little Bighorn (1876) instead, which was a Native victory."
     },
     {
       "id": "6-45",
@@ -4944,7 +4944,7 @@ const QUESTIONS = {
         "That Native Americans, rather than settlers, primarily defined the frontier experience."
       ],
       "correct": 0,
-      "explanation": "Turner's 1893 Frontier Thesis argued that the frontier's closing (declared by the Census Bureau in 1890) marked the end of a formative era of American character-building through westward expansion. Choice A denies the thesis's actual, influential argument; choice B contradicts the thesis's premise that the frontier had, in fact, closed; choice D reverses Turner's actual settler-centered framing, a limitation historians have since critiqued."
+      "explanation": "Turner's 1893 Frontier Thesis argued that the frontier's closing (declared by the Census Bureau in 1890) marked the end of a formative era of American character-building through westward expansion. Choice C denies the thesis's actual, influential argument; choice B contradicts the thesis's premise that the frontier had, in fact, closed; choice D reverses Turner's actual settler-centered framing, a limitation historians have since critiqued."
     },
     {
       "id": "6-46",
@@ -4957,7 +4957,7 @@ const QUESTIONS = {
         "As a Native American perspective specifically on the meaning of westward expansion."
       ],
       "correct": 0,
-      "explanation": "Turner's Frontier Thesis should be treated as a specific, influential historical interpretation and argument about the frontier's significance — not simply an objective, uncontested fact. Choice A denies the thesis's clear historical importance; choice B misattributes Turner's own, settler-centered viewpoint to Native Americans; choice C wrongly strips the thesis of its interpretive, contestable character."
+      "explanation": "Turner's Frontier Thesis should be treated as a specific, influential historical interpretation and argument about the frontier's significance — not simply an objective, uncontested fact. Choice C denies the thesis's clear historical importance; choice D misattributes Turner's own, settler-centered viewpoint to Native Americans; choice B wrongly strips the thesis of its interpretive, contestable character."
     },
     {
       "id": "6-47",
@@ -4970,7 +4970,7 @@ const QUESTIONS = {
         "The Dawes Act relocated Native nations, while Indian Removal used land allotment."
       ],
       "correct": 0,
-      "explanation": "Indian Removal forcibly relocated Native nations to new territory, while the Dawes Act instead pursued assimilation through individual land allotment — a genuinely different mechanism, though both produced devastating consequences. Choice A denies this real, exam-tested distinction; choice B reverses which policy used which mechanism; choice D contradicts both policies' central, defining subject."
+      "explanation": "Indian Removal forcibly relocated Native nations to new territory, while the Dawes Act instead pursued assimilation through individual land allotment — a genuinely different mechanism, though both produced devastating consequences. Choice B denies this real, exam-tested distinction; choice D reverses which policy used which mechanism; choice C contradicts both policies' central, defining subject."
     },
     {
       "id": "6-48",
@@ -4983,7 +4983,7 @@ const QUESTIONS = {
         "Despite a different mechanism, it caused massive land loss and cultural disruption."
       ],
       "correct": 3,
-      "explanation": "Despite its different, superficially benevolent-sounding mechanism, the Dawes Act produced devastating practical consequences — massive net loss of Native landholding and a direct assault on tribal cultural structures — much like Period 4's removal policy. Choice A ignores the Act's well-documented, harmful outcomes; choice C denies its severe practical effects; choice D erases the real mechanistic difference this section teaches."
+      "explanation": "Despite its different, superficially benevolent-sounding mechanism, the Dawes Act produced devastating practical consequences — massive net loss of Native landholding and a direct assault on tribal cultural structures — much like Period 4's removal policy. Choice A ignores the Act's well-documented, harmful outcomes; choice B denies its severe practical effects; choice C erases the real mechanistic difference this section teaches."
     },
     {
       "id": "6-49",
@@ -5009,7 +5009,7 @@ const QUESTIONS = {
         "A labor union representing industrial rather than agricultural workers."
       ],
       "correct": 0,
-      "explanation": "The Farmers' Alliance was an organization through which farmers organized in response to economic distress, serving as a direct precursor to the 1892 founding of the Populist Party. Choice A wrongly makes it a federal agency rather than a grassroots farmer organization; choice C misapplies it to industrial rather than agricultural workers; choice D confuses it with the separate, urban political machine system."
+      "explanation": "The Farmers' Alliance was an organization through which farmers organized in response to economic distress, serving as a direct precursor to the 1892 founding of the Populist Party. Choice B wrongly makes it a federal agency rather than a grassroots farmer organization; choice D misapplies it to industrial rather than agricultural workers; choice C confuses it with the separate, urban political machine system."
     },
     {
       "id": "6-51",
@@ -5035,7 +5035,7 @@ const QUESTIONS = {
         "Eliminating the use of currency in the American economy entirely."
       ],
       "correct": 2,
-      "explanation": "Free coinage of silver aimed to increase the money supply, raising prices and easing debt burdens for farmers struggling under falling crop prices. Choice A denies the demand's specific, well-defined economic goal; choice B mischaracterizes a monetary policy as currency abolition; choice D reverses the Populists' actual goal, since they wanted higher, not lower, prices."
+      "explanation": "Free coinage of silver aimed to increase the money supply, raising prices and easing debt burdens for farmers struggling under falling crop prices. Choice A denies the demand's specific, well-defined economic goal; choice D mischaracterizes a monetary policy as currency abolition; choice B reverses the Populists' actual goal, since they wanted higher, not lower, prices."
     },
     {
       "id": "6-53",
@@ -5061,7 +5061,7 @@ const QUESTIONS = {
         "The Populist platform was, in truth, narrowly limited to farmer relief alone."
       ],
       "correct": 0,
-      "explanation": "The Omaha Platform's demands — direct election of senators, a graduated income tax, government railroad ownership — represented a genuinely broad, ambitious reform vision well beyond narrow farmer relief, several later achieved via Progressive Era amendments. Choice A misattributes an unrelated policy focus; choice B understates the platform's real scope; choice D denies the platform's well-documented, specific content."
+      "explanation": "The Omaha Platform's demands — direct election of senators, a graduated income tax, government railroad ownership — represented a genuinely broad, ambitious reform vision well beyond narrow farmer relief, several later achieved via Progressive Era amendments. Choice B misattributes an unrelated policy focus; choice D understates the platform's real scope; choice C denies the platform's well-documented, specific content."
     },
     {
       "id": "6-55",
@@ -5074,7 +5074,7 @@ const QUESTIONS = {
         "With no competing shipping option, monopolies charged exploitative rates on thin margins."
       ],
       "correct": 3,
-      "explanation": "With no practical competing shipping option in many areas, railroad monopolies could charge farmers exploitative rates, cutting into already-thin profit margins as crop prices fell. Choice A directly reverses the documented, exploitative pricing pattern; choice C denies railroads' central, well-documented role in farmer distress; choice D contradicts farmers' actual dependence on rail shipping to reach markets."
+      "explanation": "With no practical competing shipping option in many areas, railroad monopolies could charge farmers exploitative rates, cutting into already-thin profit margins as crop prices fell. Choice A directly reverses the documented, exploitative pricing pattern; choice B denies railroads' central, well-documented role in farmer distress; choice C contradicts farmers' actual dependence on rail shipping to reach markets."
     },
     {
       "id": "6-56",
@@ -5113,7 +5113,7 @@ const QUESTIONS = {
         "It caused the Populist Party to grow markedly stronger as an independent force."
       ],
       "correct": 1,
-      "explanation": "Bryan's adoption of free silver effectively absorbed the Populist Party's core issue and much of its voting base into the Democratic Party, undermining Populist independent viability. Choice A denies the speech's direct, well-documented effect on the Populist movement; choice B misstates that free silver actually became more prominent, not less, after the speech; choice D reverses the movement's actual post-1896 decline."
+      "explanation": "Bryan's adoption of free silver effectively absorbed the Populist Party's core issue and much of its voting base into the Democratic Party, undermining Populist independent viability. Choice C denies the speech's direct, well-documented effect on the Populist movement; choice A misstates that free silver actually became more prominent, not less, after the speech; choice D reverses the movement's actual post-1896 decline."
     },
     {
       "id": "6-59",
@@ -5139,7 +5139,7 @@ const QUESTIONS = {
         "Exclusively voters from the southern United States."
       ],
       "correct": 1,
-      "explanation": "McKinley's winning coalition consisted of urban, industrial, and business interests defending the gold standard, against Bryan's rural/agrarian free-silver coalition. Choice B misattributes Populist voters to McKinley rather than largely to Bryan; choice C actually describes Bryan's coalition, not McKinley's; choice D narrows the coalition to one region, ignoring its real urban/industrial/business base."
+      "explanation": "McKinley's winning coalition consisted of urban, industrial, and business interests defending the gold standard, against Bryan's rural/agrarian free-silver coalition. Choice A misattributes Populist voters to McKinley rather than largely to Bryan; choice C actually describes Bryan's coalition, not McKinley's; choice D narrows the coalition to one region, ignoring its real urban/industrial/business base."
     },
     {
       "id": "6-61",
@@ -5152,7 +5152,7 @@ const QUESTIONS = {
         "It had no lasting effect on American politics of any kind."
       ],
       "correct": 2,
-      "explanation": "The 1896 election is a critical realigning election because McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican dominance rather than simply determining one term's winner. Choice A understates the election's clear national significance; choice B and choice C both deny the well-documented, multi-decade realignment that followed 1896."
+      "explanation": "The 1896 election is a critical realigning election because McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican dominance rather than simply determining one term's winner. Choice A understates the election's clear national significance; choice B and choice D both deny the well-documented, multi-decade realignment that followed 1896."
     },
     {
       "id": "6-62",
@@ -5165,7 +5165,7 @@ const QUESTIONS = {
         "Yes, every Populist idea was permanently abandoned with no future influence."
       ],
       "correct": 0,
-      "explanation": "Populist ideas did not disappear entirely — direct election of senators and a graduated income tax, both Omaha Platform demands, were later achieved through constitutional amendments during the Progressive Era. Choice A overstates the movement's actual, lasting influence; choice B misstates the 1896 outcome, since McKinley, not a Populist-backed candidate, won; choice C denies the Omaha Platform's well-documented, specific content."
+      "explanation": "Populist ideas did not disappear entirely — direct election of senators and a graduated income tax, both Omaha Platform demands, were later achieved through constitutional amendments during the Progressive Era. Choice D overstates the movement's actual, lasting influence; choice C misstates the 1896 outcome, since McKinley, not a Populist-backed candidate, won; choice B denies the Omaha Platform's well-documented, specific content."
     },
     {
       "id": "6-63",
@@ -5178,7 +5178,7 @@ const QUESTIONS = {
         "The Populist Party, in truth, never actually ended in any meaningful sense."
       ],
       "correct": 1,
-      "explanation": "This distinction matters because the Populist PARTY's end as an independent political force is a different claim from the Populist MOVEMENT's longer-term ideological influence, since several ideas achieved lasting influence through later amendments even as the party declined. Choice A denies a real, exam-relevant distinction; choice C contradicts the party's well-documented decline after 1896; choice D denies the movement's own, later-realized influence."
+      "explanation": "This distinction matters because the Populist PARTY's end as an independent political force is a different claim from the Populist MOVEMENT's longer-term ideological influence, since several ideas achieved lasting influence through later amendments even as the party declined. Choice C denies a real, exam-relevant distinction; choice D contradicts the party's well-documented decline after 1896; choice A denies the movement's own, later-realized influence."
     },
     {
       "id": "6-64",
@@ -5205,7 +5205,7 @@ const QUESTIONS = {
         "Railroad concentration that built industrial fortunes directly caused the exploitative shipping rates driving farmer distress."
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing that industrial consolidation (6.1-6.2) and agrarian organizing (6.7-6.8) are two ends of the same transformation: the railroad concentration that built industrial fortunes directly caused the exploitative shipping rates Section 6.7 identifies as driving farmer distress, tying the unit into one connected narrative. Choice A and choice C both deny this direct causal link; choice D ignores that farmers, not just urban workers, were a central group affected by industrial consolidation."
+      "explanation": "This synthesis question rewards recognizing that industrial consolidation (6.1-6.2) and agrarian organizing (6.7-6.8) are two ends of the same transformation: the railroad concentration that built industrial fortunes directly caused the exploitative shipping rates Section 6.7 identifies as driving farmer distress, tying the unit into one connected narrative. Choice A and choice B both deny this direct causal link; choice C ignores that farmers, not just urban workers, were a central group affected by industrial consolidation."
     }
   ],
   "7": [
@@ -6094,7 +6094,7 @@ const QUESTIONS = {
         "A full military alliance uniting U.S. and Soviet forces against a resurgent Germany."
       ],
       "correct": 0,
-      "explanation": "Containment, devised chiefly by diplomat George Kennan, meant actively blocking further Soviet/communist expansion while accepting existing Soviet-held territory rather than trying to reverse it. Rolling back existing gains (Choice A) would have meant a far riskier, more aggressive policy than the U.S. actually pursued; the other two options describe things that never happened."
+      "explanation": "Containment, devised chiefly by diplomat George Kennan, meant actively blocking further Soviet/communist expansion while accepting existing Soviet-held territory rather than trying to reverse it. Rolling back existing gains (Choice C) would have meant a far riskier, more aggressive policy than the U.S. actually pursued; the other two options describe things that never happened."
     },
     {
       "id": "8-2",

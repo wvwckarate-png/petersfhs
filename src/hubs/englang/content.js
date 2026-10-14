@@ -196,7 +196,7 @@ const QUESTIONS = {
           "Occasion — the event or moment prompting the writing."
         ],
         "correct": 3,
-        "explanation": "‘At a city budget hearing’ names the specific event that prompted this remark, which is exactly what Occasion asks for. Tone (A) concerns attitude, not setting. Purpose (B) concerns the speaker's goal, which this phrase doesn't address. Subject (C) concerns what the piece is about, which this introductory phrase doesn't specify either."
+        "explanation": "‘At a city budget hearing’ names the specific event that prompted this remark, which is exactly what Occasion asks for. Tone (B) concerns attitude, not setting. Purpose (A) concerns the speaker's goal, which this phrase doesn't address. Subject (C) concerns what the piece is about, which this introductory phrase doesn't specify either."
       },
       {
         "id": "1-8",
@@ -3739,7 +3739,7 @@ const QUESTIONS = {
           "Rely on Source 2 alone, since its cost data is more concrete than Source 1's findings."
         ],
         "correct": 2,
-        "explanation": "The strongest move synthesizes the two sources rather than treating them separately: Source 2's cost and timeline data becomes a genuine counterargument the essay addresses head-on, then argues the benefits Source 1 documents are worth that cost (or proposes managing it). Choice A misreads the sources as agreeing when they address different issues entirely. Choices B and C both drop one source altogether, which is exactly the selective-citation problem Section 5.4 warns against — a strong essay engages every relevant source, not just the convenient one."
+        "explanation": "The strongest move synthesizes the two sources rather than treating them separately: Source 2's cost and timeline data becomes a genuine counterargument the essay addresses head-on, then argues the benefits Source 1 documents are worth that cost (or proposes managing it). Choice B misreads the sources as agreeing when they address different issues entirely. Choices A and D both drop one source altogether, which is exactly the selective-citation problem Section 5.4 warns against — a strong essay engages every relevant source, not just the convenient one."
       },
       {
         "id": "1-3",
@@ -3752,7 +3752,7 @@ const QUESTIONS = {
           "As Source 1's review of a dozen studies shows, delaying start times raised attendance measurably."
         ],
         "correct": 3,
-        "explanation": "Choice A names the source specifically, states its actual finding (attendance gains tied to delayed start times), and integrates smoothly into a sentence — the model this unit's Section 5.3 describes. Choice B uses the vague collective 'sources' instead of naming Source 1 specifically. Choice C names the source but gives no actual finding, just a vague gesture at its topic. Choice D does neither — no named source and no specific finding — making it the weakest attribution of the four."
+        "explanation": "Choice D names the source specifically, states its actual finding (attendance gains tied to delayed start times), and integrates smoothly into a sentence — the model this unit's Section 5.3 describes. Choice A uses the vague collective 'sources' instead of naming Source 1 specifically. Choice C names the source but gives no actual finding, just a vague gesture at its topic. Choice B does neither — no named source and no specific finding — making it the weakest attribution of the four."
       },
       {
         "id": "2-1",
@@ -3778,7 +3778,7 @@ const QUESTIONS = {
           "Left out of the essay entirely, since it doesn't support the thesis being argued."
         ],
         "correct": 2,
-        "explanation": "The strongest approach treats Source 4 as a real concession — acknowledging the budget tradeoff it raises — and then explains, potentially using Source 3's foot-traffic data, why the benefit still justifies the cost. Choices A and B both misrepresent what Source 4 actually says, which damages an essay's credibility. Choice C simply omits a relevant, complicating source, risking the appearance of avoidance that Section 5.4 warns against."
+        "explanation": "The strongest approach treats Source 4 as a real concession — acknowledging the budget tradeoff it raises — and then explains, potentially using Source 3's foot-traffic data, why the benefit still justifies the cost. Choices A and B both misrepresent what Source 4 actually says, which damages an essay's credibility. Choice D simply omits a relevant, complicating source, risking the appearance of avoidance that Section 5.4 warns against."
       },
       {
         "id": "2-3",
@@ -3791,7 +3791,7 @@ const QUESTIONS = {
           "No evidence of any kind; the claim is asserted without support, even though the source's exact language points elsewhere."
         ],
         "correct": 1,
-        "explanation": "Source 3 cites foot-traffic sensor data gathered across six sites, which is statistical/comparative evidence, not a single anecdote (choice A), unsupported assertion (choice B), or expert opinion without data (choice D) — the 12 percent figure comes from measured, comparative sensor readings."
+        "explanation": "Source 3 cites foot-traffic sensor data gathered across six sites, which is statistical/comparative evidence, not a single anecdote (choice A), unsupported assertion (choice D), or expert opinion without data (choice C) — the 12 percent figure comes from measured, comparative sensor readings."
       },
       {
         "id": "3-1",
@@ -3804,7 +3804,7 @@ const QUESTIONS = {
           "They make identical claims that apply equally to every type of work."
         ],
         "correct": 0,
-        "explanation": "Source 5 measures individual task completion while Source 6 measures cross-team collaborative work — two different dimensions of productivity that can both be true at once, so this isn't a genuine contradiction (choice B) or identical claims (choice C). Choice D is simply inaccurate; both sources explicitly discuss productivity."
+        "explanation": "Source 5 measures individual task completion while Source 6 measures cross-team collaborative work — two different dimensions of productivity that can both be true at once, so this isn't a genuine contradiction (choice C) or identical claims (choice D). Choice B is simply inaccurate; both sources explicitly discuss productivity."
       },
       {
         "id": "3-2",
@@ -3830,7 +3830,7 @@ const QUESTIONS = {
           "Per Source 6's analysis, fully remote teams were slower on collaborative work specifically."
         ],
         "correct": 3,
-        "explanation": "Choice B names Source 6 specifically, states its precise finding (collaborative work specifically, not all tasks), and notes the finding's limited scope — the specific, appropriately scoped attribution Section 5.3 models. The other choices either overgeneralize the finding (A, D) or use vague collective language ('sources') without naming which one (C)."
+        "explanation": "Choice D names Source 6 specifically, states its precise finding (collaborative work specifically, not all tasks), and notes the finding's limited scope — the specific, appropriately scoped attribution Section 5.3 models. The other choices either overgeneralize the finding (A, B) or use vague collective language ('sources') without naming which one (C)."
       },
       {
         "id": "4-1",
@@ -3843,7 +3843,7 @@ const QUESTIONS = {
           "Neither source is actually relevant to community college transfer policy."
         ],
         "correct": 1,
-        "explanation": "Source 7's benefit and Source 8's constraint are compatible rather than contradictory — a strong essay would acknowledge both and perhaps propose a resource-conscious implementation. Choice A overstates Source 8's role; it complicates rather than invalidates Source 7's data. Choices B and C simply misdescribe the sources' relevance and relationship."
+        "explanation": "Source 7's benefit and Source 8's constraint are compatible rather than contradictory — a strong essay would acknowledge both and perhaps propose a resource-conscious implementation. Choice C overstates Source 8's role; it complicates rather than invalidates Source 7's data. Choices A and D simply misdescribe the sources' relevance and relationship."
       },
       {
         "id": "4-2",
@@ -3856,7 +3856,7 @@ const QUESTIONS = {
           "A single anecdote describing one student's transfer experience."
         ],
         "correct": 0,
-        "explanation": "Source 7 reports a specific comparison (58% vs. 31%) tracked across a state system, which is statistical/comparative evidence — not unsupported opinion (A), an unsupported assertion (C), or a lone anecdote (D)."
+        "explanation": "Source 7 reports a specific comparison (58% vs. 31%) tracked across a state system, which is statistical/comparative evidence — not unsupported opinion (C), an unsupported assertion (B), or a lone anecdote (D)."
       },
       {
         "id": "4-3",
@@ -3869,7 +3869,7 @@ const QUESTIONS = {
           "The risk of appearing to selectively avoid a source that complicates the argument."
         ],
         "correct": 3,
-        "explanation": "Omitting a genuinely relevant, complicating source risks looking like selective avoidance to an attentive reader, which Section 5.4 identifies as a credibility risk. Choice A is backwards — using fewer sources isn't inherently better. Choice B mischaracterizes Source 8 as irrelevant when it's directly on-topic. Choice D is simply false; omitting a relevant counterpoint does not guarantee a high score."
+        "explanation": "Omitting a genuinely relevant, complicating source risks looking like selective avoidance to an attentive reader, which Section 5.4 identifies as a credibility risk. Choice B is backwards — using fewer sources isn't inherently better. Choice A mischaracterizes Source 8 as irrelevant when it's directly on-topic. Choice C is simply false; omitting a relevant counterpoint does not guarantee a high score."
       },
       {
         "id": "5-1",
@@ -3882,7 +3882,7 @@ const QUESTIONS = {
           "Argue that Source 10 proves tree planting provides no real benefit at all."
         ],
         "correct": 0,
-        "explanation": "Source 10's maintenance requirements explain what it actually takes to achieve the cooling benefit Source 9 documents, producing a more complete argument. Choice A overstates Source 10's claim — it discusses cost, not the absence of benefit. Choice B treats two distinct claims as identical. Choice C drops a genuinely relevant source rather than engaging its complication."
+        "explanation": "Source 10's maintenance requirements explain what it actually takes to achieve the cooling benefit Source 9 documents, producing a more complete argument. Choice D overstates Source 10's claim — it discusses cost, not the absence of benefit. Choice C treats two distinct claims as identical. Choice B drops a genuinely relevant source rather than engaging its complication."
       },
       {
         "id": "5-2",
@@ -3895,7 +3895,7 @@ const QUESTIONS = {
           "A claim of policy, recommending that cities expand their canopy coverage."
         ],
         "correct": 2,
-        "explanation": "Source 9 reports a specific, measured temperature difference from satellite imaging data, which is a claim of fact — not an opinion (D), a policy recommendation (B), or a non-claim (A)."
+        "explanation": "Source 9 reports a specific, measured temperature difference from satellite imaging data, which is a claim of fact — not an opinion (B), a policy recommendation (D), or a non-claim (A)."
       },
       {
         "id": "5-3",
@@ -3908,7 +3908,7 @@ const QUESTIONS = {
           "Cooling benefits require sustained, funded maintenance, so canopy programs need multi-year funding."
         ],
         "correct": 3,
-        "explanation": "This thesis combines Source 9's benefit with Source 10's maintenance requirement into a specific, actionable funding implication — more sophisticated than either source alone. Choice B ignores Source 10's cost information entirely. Choice C denies a genuine, useful relationship between the sources. Choice D overreacts to Source 10, treating a maintenance requirement as a reason to abandon the program rather than fund it properly."
+        "explanation": "This thesis combines Source 9's benefit with Source 10's maintenance requirement into a specific, actionable funding implication — more sophisticated than either source alone. Choice B ignores Source 10's cost information entirely. Choice C denies a genuine, useful relationship between the sources. Choice A overreacts to Source 10, treating a maintenance requirement as a reason to abandon the program rather than fund it properly."
       },
       {
         "id": "1-4",
@@ -3921,7 +3921,7 @@ const QUESTIONS = {
           "Source 1 becomes entirely irrelevant once the thesis adds this funding condition."
         ],
         "correct": 1,
-        "explanation": "Once the thesis makes funding a precondition, Source 2's cost and timeline figures stop being a mere counterargument and become core supporting evidence for the thesis's specific structure. Choice B is wrong because Source 1's benefit data is still needed to justify delaying at all. Choices C and D both ignore how a more specific thesis reshapes which sources matter most."
+        "explanation": "Once the thesis makes funding a precondition, Source 2's cost and timeline figures stop being a mere counterargument and become core supporting evidence for the thesis's specific structure. Choice D is wrong because Source 1's benefit data is still needed to justify delaying at all. Choices A and C both ignore how a more specific thesis reshapes which sources matter most."
       },
       {
         "id": "1-5",
@@ -3934,7 +3934,7 @@ const QUESTIONS = {
           "The single most important piece of evidence this essay would need to use."
         ],
         "correct": 1,
-        "explanation": "For a simple pro-delay thesis, Source 2 raises a practical challenge (cost, timeline) that must be acknowledged rather than evidence that directly supports delaying — making it a counterargument/complication per Section 5.5's sorting approach. Choice A wrongly dismisses a genuinely relevant source. Choices C and D both misclassify Source 2 as supporting evidence when it actually complicates the thesis."
+        "explanation": "For a simple pro-delay thesis, Source 2 raises a practical challenge (cost, timeline) that must be acknowledged rather than evidence that directly supports delaying — making it a counterargument/complication per Section 5.5's sorting approach. Choice C wrongly dismisses a genuinely relevant source. Choices A and D both misclassify Source 2 as supporting evidence when it actually complicates the thesis."
       },
       {
         "id": "2-4",
@@ -3947,7 +3947,7 @@ const QUESTIONS = {
           "Direct supporting evidence for the thesis, with no complication attached, which sounds plausible but overstates the source's actual claim."
         ],
         "correct": 0,
-        "explanation": "For a pro-funding thesis, Source 4's deferred-maintenance figure is a competing priority the essay must acknowledge, making it a counterargument/complication rather than direct support (choice A) or the essay's most important evidence (choice D). Choice C wrongly treats a directly relevant source as background noise."
+        "explanation": "For a pro-funding thesis, Source 4's deferred-maintenance figure is a competing priority the essay must acknowledge, making it a counterargument/complication rather than direct support (choice D) or the essay's most important evidence (choice B). Choice C wrongly treats a directly relevant source as background noise."
       },
       {
         "id": "3-4",
@@ -3973,7 +3973,7 @@ const QUESTIONS = {
           "Counterargument/complication, since it raises a resource constraint to address."
         ],
         "correct": 3,
-        "explanation": "For a pro-expansion thesis, Source 8's staffing concern is a genuine constraint the essay must acknowledge, making it a counterargument/complication rather than supporting evidence (choices B, C) or irrelevant background (choice A)."
+        "explanation": "For a pro-expansion thesis, Source 8's staffing concern is a genuine constraint the essay must acknowledge, making it a counterargument/complication rather than supporting evidence (choices A and B) or irrelevant background (choice C)."
       },
       {
         "id": "5-4",
@@ -3986,7 +3986,7 @@ const QUESTIONS = {
           "Both evidence and context — it directly justifies why the multi-year framing matters."
         ],
         "correct": 3,
-        "explanation": "Under the multi-year-commitment thesis, Source 10 does double duty: it's evidence for the thesis's claim and context explaining why that specific framing is necessary. Choice A wrongly excludes a source central to this thesis. Choice C denies a function that clearly exists here. Choice D undersells Source 10 — it supports the thesis rather than only opposing it."
+        "explanation": "Under the multi-year-commitment thesis, Source 10 does double duty: it's evidence for the thesis's claim and context explaining why that specific framing is necessary. Choice B wrongly excludes a source central to this thesis. Choice C denies a function that clearly exists here. Choice A undersells Source 10 — it supports the thesis rather than only opposing it."
       },
       {
         "id": "1-6",
@@ -3999,7 +3999,7 @@ const QUESTIONS = {
           "No thesis on this topic could ever rely on just a single source."
         ],
         "correct": 1,
-        "explanation": "A thesis narrowly about attendance benefits could rely almost entirely on Source 1 alone, requiring little genuine synthesis. Choice A, by contrast, explicitly needs both sources to weigh benefits against costs. Choice C overgeneralizes; some narrow theses genuinely can lean on one source. Choice D misdescribes the topic — a bus-cost-only thesis would lean mainly on Source 2, not both equally."
+        "explanation": "A thesis narrowly about attendance benefits could rely almost entirely on Source 1 alone, requiring little genuine synthesis. Choice C, by contrast, explicitly needs both sources to weigh benefits against costs. Choice D overgeneralizes; some narrow theses genuinely can lean on one source. Choice A misdescribes the topic — a bus-cost-only thesis would lean mainly on Source 2, not both equally."
       },
       {
         "id": "2-5",
@@ -4012,7 +4012,7 @@ const QUESTIONS = {
           "The estimated $40 million deferred maintenance gap in road and sidewalk repair."
         ],
         "correct": 3,
-        "explanation": "Source 4 grounds its competing-priorities argument in the specific $40 million maintenance-gap figure. Choice A confuses Source 4's evidence with Source 3's separate foot-traffic statistic. Choice B describes evidence Source 4 doesn't contain. Choice D is simply false — Source 4 does cite a specific number."
+        "explanation": "Source 4 grounds its competing-priorities argument in the specific $40 million maintenance-gap figure. Choice B confuses Source 4's evidence with Source 3's separate foot-traffic statistic. Choice C describes evidence Source 4 doesn't contain. Choice A is simply false — Source 4 does cite a specific number."
       },
       {
         "id": "3-5",
@@ -4025,7 +4025,7 @@ const QUESTIONS = {
           "No, because neither source actually discusses productivity in any way."
         ],
         "correct": 1,
-        "explanation": "The sources establish a specific distinction — individual work holds steady, collaborative work slows — that a blanket 'no effect at all' thesis erases. Choice B overstates the sources' disagreement as total contradiction. Choice C wrongly claims accuracy for an oversimplified thesis. Choice D is factually wrong; both sources are specifically about productivity."
+        "explanation": "The sources establish a specific distinction — individual work holds steady, collaborative work slows — that a blanket 'no effect at all' thesis erases. Choice A overstates the sources' disagreement as total contradiction. Choice C wrongly claims accuracy for an oversimplified thesis. Choice D is factually wrong; both sources are specifically about productivity."
       },
       {
         "id": "4-5",
@@ -4038,7 +4038,7 @@ const QUESTIONS = {
           "Transfer advising programs should never be implemented anywhere, under any circumstances."
         ],
         "correct": 2,
-        "explanation": "This thesis genuinely synthesizes both sources — the measurable benefit (Source 7) and the funding constraint (Source 8) — into one claim with a proposed solution. Choice B ignores Source 7's clear benefit. Choice C directly contradicts Source 7's data. Choice D goes well beyond anything either source actually supports."
+        "explanation": "This thesis genuinely synthesizes both sources — the measurable benefit (Source 7) and the funding constraint (Source 8) — into one claim with a proposed solution. Choice B ignores Source 7's clear benefit. Choice A directly contradicts Source 7's data. Choice D goes well beyond anything either source actually supports."
       },
       {
         "id": "5-5",
@@ -4051,7 +4051,7 @@ const QUESTIONS = {
           "The two sources describe no temporal relationship of any kind to each other, which many students pick when skimming rather than reading closely."
         ],
         "correct": 1,
-        "explanation": "Source 9's cooling effect comes from mature canopy, while Source 10 describes the maintenance period needed to get there — a genuine before/after relationship. Choice A reverses this relationship. Choices B and C both deny a real temporal connection that the sources clearly establish."
+        "explanation": "Source 9's cooling effect comes from mature canopy, while Source 10 describes the maintenance period needed to get there — a genuine before/after relationship. Choice A reverses this relationship. Choices C and D both deny a real temporal connection that the sources clearly establish."
       },
       {
         "id": "1-7",
@@ -4064,7 +4064,7 @@ const QUESTIONS = {
           "Source 1 functions as a condition on Source 2, with no other relationship between them."
         ],
         "correct": 2,
-        "explanation": "This thesis explicitly conditions the benefit Source 1 documents on the budgeting Source 2 describes, making Source 2 a condition on Source 1's recommendation. Choice D reverses this relationship. Choices B and C both deny a relationship the thesis explicitly establishes."
+        "explanation": "This thesis explicitly conditions the benefit Source 1 documents on the budgeting Source 2 describes, making Source 2 a condition on Source 1's recommendation. Choice D reverses this relationship. Choices A and B both deny a relationship the thesis explicitly establishes."
       },
       {
         "id": "2-6",
@@ -4106,7 +4106,7 @@ const QUESTIONS = {
           "It contains no reference to any sources at all in its sentences, overlooking the specific limits the source itself places on this point."
         ],
         "correct": 1,
-        "explanation": "Sentences [1]-[3] preview each source in turn, and sentence [4] confirms this plan ('examine each of these sources') — the exact source-by-source summary pattern Section 5.1's opening skillbox warns against. Choice A is the opposite of what the draft shows. Choice B is false; sentences [1]-[3] name three sources directly. Choice C is a dodge — the passage is plenty long enough to diagnose."
+        "explanation": "Sentences [1]-[3] preview each source in turn, and sentence [4] confirms this plan ('examine each of these sources') — the exact source-by-source summary pattern Section 5.1's opening skillbox warns against. Choice C is the opposite of what the draft shows. Choice D is false; sentences [1]-[3] name three sources directly. Choice A is a dodge — the passage is plenty long enough to diagnose."
       },
       {
         "id": "1w-2",
@@ -4119,7 +4119,7 @@ const QUESTIONS = {
           "It's a vague, generic statement that fails to state the writer's own specific claim."
         ],
         "correct": 3,
-        "explanation": "Sentence [5] could open almost any library-funding essay — it commits to nothing specific, which is why it fails as a thesis. Choice A misdiagnoses the problem as excess detail when the actual issue is a lack of it. Choice B is a grammar objection that doesn't apply here. Choice D is inaccurate; the sentence doesn't contradict anything, it simply says nothing specific."
+        "explanation": "Sentence [5] could open almost any library-funding essay — it commits to nothing specific, which is why it fails as a thesis. Choice A misdiagnoses the problem as excess detail when the actual issue is a lack of it. Choice C is a grammar objection that doesn't apply here. Choice B is inaccurate; the sentence doesn't contradict anything, it simply says nothing specific."
       },
       {
         "id": "1w-3",
@@ -4132,7 +4132,7 @@ const QUESTIONS = {
           "Source A discusses e-book lending statistics. Source B discusses circulation trends."
         ],
         "correct": 0,
-        "explanation": "This revision opens with the writer's own specific, defensible claim rather than a source preview, matching Section 5.1's model of genuine synthesis. The other three choices are simply the draft's own weak sentences repeated — a source-tour preview (B), a source-summary fragment (C), and a vague generic statement (D) — none of which state a specific position."
+        "explanation": "This revision opens with the writer's own specific, defensible claim rather than a source preview, matching Section 5.1's model of genuine synthesis. The other three choices are simply the draft's own weak sentences repeated — a source-tour preview (C), a source-summary fragment (D), and a vague generic statement (B) — none of which state a specific position."
       },
       {
         "id": "1w-4",
@@ -4145,7 +4145,7 @@ const QUESTIONS = {
           "Woven in wherever relevant to the writer's argument — not necessarily in original order."
         ],
         "correct": 3,
-        "explanation": "With a genuine thesis in place, sources get pulled in as evidence wherever the argument needs them, potentially reordered or split across paragraphs — not confined to one isolated paragraph each. Choice A wrongly assumes fewer sources are usable now. Choice C describes the very structure the revision is meant to fix. Choice D is inaccurate; the sources are still needed, just organized differently."
+        "explanation": "With a genuine thesis in place, sources get pulled in as evidence wherever the argument needs them, potentially reordered or split across paragraphs — not confined to one isolated paragraph each. Choice C wrongly assumes fewer sources are usable now. Choice A describes the very structure the revision is meant to fix. Choice B is inaccurate; the sources are still needed, just organized differently."
       },
       {
         "id": "1w-5",
@@ -4158,7 +4158,7 @@ const QUESTIONS = {
           "It is actually unrelated to how the essay's paragraphs will end up organized."
         ],
         "correct": 2,
-        "explanation": "Sentence [4] states outright that the essay will 'examine each of these sources,' directly confirming the source-by-source plan rather than merely hinting at it. Choice A denies a connection the sentence explicitly states. Choice C is the opposite of what the sentence signals. Choice D dismisses a sentence that is, in fact, the clearest diagnostic clue in the draft."
+        "explanation": "Sentence [4] states outright that the essay will 'examine each of these sources,' directly confirming the source-by-source plan rather than merely hinting at it. Choice D denies a connection the sentence explicitly states. Choice A is the opposite of what the sentence signals. Choice B dismisses a sentence that is, in fact, the clearest diagnostic clue in the draft."
       },
       {
         "id": "2w-1",
@@ -4171,7 +4171,7 @@ const QUESTIONS = {
           "It contains a factual error about what the underlying sources report."
         ],
         "correct": 1,
-        "explanation": "Sentence [3] notices that both source types seem valid but doesn't take the further step of combining them into a more precise claim — the missed opportunity Section 5.4 identifies. Choice C claims the opposite of what actually happens. Choices A and D both mischaracterize the sentence; it's directly about synthesis and contains no factual error, just an incomplete one."
+        "explanation": "Sentence [3] notices that both source types seem valid but doesn't take the further step of combining them into a more precise claim — the missed opportunity Section 5.4 identifies. Choice A claims the opposite of what actually happens. Choices C and D both mischaracterize the sentence; it's directly about synthesis and contains no factual error, just an incomplete one."
       },
       {
         "id": "2w-2",
@@ -4184,7 +4184,7 @@ const QUESTIONS = {
           "Restructure subsidies to phase down as costs fall, preserving benefits while addressing expense."
         ],
         "correct": 3,
-        "explanation": "This revision resolves the tension between 'helps adoption' and 'expensive' into one specific, actionable claim, rather than restating the draft's original non-conclusion. Choice B forces a false either/or the sources don't require. Choice C avoids the task entirely. Choice D is simply the original draft's unsynthesized sentence, restated."
+        "explanation": "This revision resolves the tension between 'helps adoption' and 'expensive' into one specific, actionable claim, rather than restating the draft's original non-conclusion. Choice A forces a false either/or the sources don't require. Choice C avoids the task entirely. Choice B is simply the original draft's unsynthesized sentence, restated."
       },
       {
         "id": "2w-3",
@@ -4197,7 +4197,7 @@ const QUESTIONS = {
           "This attribution is already appropriately smooth and specific as written."
         ],
         "correct": 0,
-        "explanation": "'Some sources... other sources' never names which sources support which claim — exactly the weak pattern Section 5.3 flags. Choice B is the opposite problem from what's actually present. Choice C is inaccurate; the paragraph does attempt attribution, just vaguely. Choice D wrongly credits the paragraph with a specificity it lacks."
+        "explanation": "'Some sources... other sources' never names which sources support which claim — exactly the weak pattern Section 5.3 flags. Choice C is the opposite problem from what's actually present. Choice B is inaccurate; the paragraph does attempt attribution, just vaguely. Choice D wrongly credits the paragraph with a specificity it lacks."
       },
       {
         "id": "2w-4",
@@ -4223,7 +4223,7 @@ const QUESTIONS = {
           "Removing every mention of any source from the paragraph entirely, which many students pick when skimming rather than reading closely."
         ],
         "correct": 2,
-        "explanation": "The paragraph has two distinct weaknesses — vague attribution and an unsynthesized conclusion — so the most valuable fix addresses both at once. Choice A would remove necessary evidence entirely. Choice C would add more of the very vagueness that's already a problem. Choice D addresses length, not the actual substantive weaknesses."
+        "explanation": "The paragraph has two distinct weaknesses — vague attribution and an unsynthesized conclusion — so the most valuable fix addresses both at once. Choice D would remove necessary evidence entirely. Choice A would add more of the very vagueness that's already a problem. Choice B addresses length, not the actual substantive weaknesses."
       },
       {
         "id": "1w-6",
@@ -4249,7 +4249,7 @@ const QUESTIONS = {
           "Qualifying language and this sentence serve entirely unrelated purposes."
         ],
         "correct": 1,
-        "explanation": "Genuine qualifying (Unit 4, 4.3) narrows or hedges an actual position; 'reasonable people can disagree' commits to no position to qualify in the first place — it's evasion, not calibration. Choice A wrongly equates two different moves. Choice C denies a real, useful comparison. Choice D overpraises a sentence that fails the very standard it's being compared to."
+        "explanation": "Genuine qualifying (Unit 4, 4.3) narrows or hedges an actual position; 'reasonable people can disagree' commits to no position to qualify in the first place — it's evasion, not calibration. Choice A wrongly equates two different moves. Choice D denies a real, useful comparison. Choice C overpraises a sentence that fails the very standard it's being compared to."
       },
       {
         "id": "1w-7",
@@ -4262,7 +4262,7 @@ const QUESTIONS = {
           "It would automatically earn full credit, regardless of the essay's structure."
         ],
         "correct": 2,
-        "explanation": "Summarizing sources individually without an organizing claim fails to show the sustained reasoning and specific commentary Evidence and Commentary rewards, so it would likely score low there. Choice B contradicts how this rubric category is actually scored. Choices C and D both wrongly exempt Evidence and Commentary from a structural problem that directly affects it."
+        "explanation": "Summarizing sources individually without an organizing claim fails to show the sustained reasoning and specific commentary Evidence and Commentary rewards, so it would likely score low there. Choice B contradicts how this rubric category is actually scored. Choices A and D both wrongly exempt Evidence and Commentary from a structural problem that directly affects it."
       },
       {
         "id": "2w-7",
@@ -4288,7 +4288,7 @@ const QUESTIONS = {
           "The following paragraphs discuss library topics that matter to the community."
         ],
         "correct": 0,
-        "explanation": "This revision previews the writer's own specific claim about misallocation, not a source-by-source tour. Choices A and D are still vague topic announcements. Choice C is simply the original draft's problem sentence, unchanged."
+        "explanation": "This revision previews the writer's own specific claim about misallocation, not a source-by-source tour. Choices B and D are still vague topic announcements. Choice C is simply the original draft's problem sentence, unchanged."
       },
       {
         "id": "1w-9",
@@ -4301,7 +4301,7 @@ const QUESTIONS = {
           "Yes — Section 5.1 explicitly allows a source to serve different purposes in different paragraphs."
         ],
         "correct": 3,
-        "explanation": "Section 5.1 specifically notes sources can appear in multiple paragraphs for different purposes, since organization follows the writer's argument, not a one-source-per-paragraph rule. Choices A and D both invent restrictions the unit never states. Choice B imposes an unnecessary condition that has nothing to do with whether reuse is appropriate."
+        "explanation": "Section 5.1 specifically notes sources can appear in multiple paragraphs for different purposes, since organization follows the writer's argument, not a one-source-per-paragraph rule. Choices A and C both invent restrictions the unit never states. Choice B imposes an unnecessary condition that has nothing to do with whether reuse is appropriate."
       },
       {
         "id": "1w-10",
@@ -4314,7 +4314,7 @@ const QUESTIONS = {
           "Each sentence only announces a topic without asserting a claim, regardless of order."
         ],
         "correct": 3,
-        "explanation": "The core issue is what each sentence does (announce, not argue), not the sequence they appear in — reordering three announcement sentences leaves three announcement sentences. Choices B and D both wrongly treat reordering as sufficient. Choice A avoids the question by denying any problem exists."
+        "explanation": "The core issue is what each sentence does (announce, not argue), not the sequence they appear in — reordering three announcement sentences leaves three announcement sentences. Choices A and C both wrongly treat reordering as sufficient. Choice B avoids the question by denying any problem exists."
       },
       {
         "id": "1w-11",
@@ -4327,7 +4327,7 @@ const QUESTIONS = {
           "Evidence dumping only ever applies to numerical statistics, not source citations."
         ],
         "correct": 2,
-        "explanation": "Mentioning each source's topic without commentary tying it to a claim is the same failure Unit 2 identified at the level of individual evidence, now happening at the level of whole sources. Choice A denies a real, direct parallel. Choice B invents a restriction Unit 2 never states. Choice D is the opposite of what the draft actually shows."
+        "explanation": "Mentioning each source's topic without commentary tying it to a claim is the same failure Unit 2 identified at the level of individual evidence, now happening at the level of whole sources. Choice A denies a real, direct parallel. Choice D invents a restriction Unit 2 never states. Choice B is the opposite of what the draft actually shows."
       },
       {
         "id": "2w-8",
@@ -4353,7 +4353,7 @@ const QUESTIONS = {
           "This paragraph already fully meets that standard in its current form."
         ],
         "correct": 2,
-        "explanation": "Unit 4's principle — engage the strongest, most specific version of an idea rather than a vague gesture at it — applies here too: cite each source's actual numbers rather than 'some sources say.' Choice A denies a real parallel. Choice C wrongly credits the current draft with specificity it lacks. Choice D narrows the principle further than the unit actually does."
+        "explanation": "Unit 4's principle — engage the strongest, most specific version of an idea rather than a vague gesture at it — applies here too: cite each source's actual numbers rather than 'some sources say.' Choice A denies a real parallel. Choice D wrongly credits the current draft with specificity it lacks. Choice B narrows the principle further than the unit actually does."
       },
       {
         "id": "2w-10",
@@ -4366,7 +4366,7 @@ const QUESTIONS = {
           "It risks leaving the essay without a clear claim for later paragraphs to build on."
         ],
         "correct": 3,
-        "explanation": "'It's complicated' commits to nothing specific for later paragraphs or the conclusion to develop, which is a real structural risk. Choice A states the opposite of the actual effect. Choices C and D both dismiss a risk that clearly follows from having no actionable claim."
+        "explanation": "'It's complicated' commits to nothing specific for later paragraphs or the conclusion to develop, which is a real structural risk. Choice A states the opposite of the actual effect. Choices B and C both dismiss a risk that clearly follows from having no actionable claim."
       },
       {
         "id": "1w-12",
@@ -4379,7 +4379,7 @@ const QUESTIONS = {
           "Subsequent paragraphs should still be organized strictly one source per paragraph."
         ],
         "correct": 2,
-        "explanation": "Genuine thesis-driven organization means paragraphs follow the writer's sub-claims, pulling in whichever sources are relevant to each — not the source list's original order. Choice D describes exactly the structure being replaced. Choices B and C both misdescribe what a thesis-driven revision would actually require."
+        "explanation": "Genuine thesis-driven organization means paragraphs follow the writer's sub-claims, pulling in whichever sources are relevant to each — not the source list's original order. Choice D describes exactly the structure being replaced. Choices A and B both misdescribe what a thesis-driven revision would actually require."
       },
       {
         "id": "2w-11",
@@ -4405,7 +4405,7 @@ const QUESTIONS = {
           "Direct, central supporting evidence for the core claim about demand-supply misalignment."
         ],
         "correct": 1,
-        "explanation": "Source C's budget information helps explain why reallocation matters or is difficult, but Sources A and B more directly drive the core demand-supply claim — making Source C secondary context. Choices A and B overstate Source C's centrality. Choice C wrongly excludes a source that's still relevant, just less central."
+        "explanation": "Source C's budget information helps explain why reallocation matters or is difficult, but Sources A and B more directly drive the core demand-supply claim — making Source C secondary context. Choices A and D overstate Source C's centrality. Choice C wrongly excludes a source that's still relevant, just less central."
       },
       {
         "id": "2w-12",
@@ -4418,7 +4418,7 @@ const QUESTIONS = {
           "They represent two different failure modes: no thesis at all (D1) versus unresolved tension (D2)."
         ],
         "correct": 3,
-        "explanation": "D1 never organizes around a thesis at all, while D2 has a thesis-adjacent structure but fails to resolve the tension it notices — two genuinely distinct ways synthesis can fail. Choice A collapses a real distinction. Choice B wrongly claims D2 has no weakness. Choice C denies the deliberate contrast the two drafts are clearly designed to illustrate."
+        "explanation": "D1 never organizes around a thesis at all, while D2 has a thesis-adjacent structure but fails to resolve the tension it notices — two genuinely distinct ways synthesis can fail. Choice C collapses a real distinction. Choice B wrongly claims D2 has no weakness. Choice A denies the deliberate contrast the two drafts are clearly designed to illustrate."
       },
       {
         "id": "1w-14",
@@ -4431,7 +4431,7 @@ const QUESTIONS = {
           "Restating each source's general topic once more at the essay's very end."
         ],
         "correct": 3,
-        "explanation": "Restating source topics in announcement style would reintroduce the exact source-by-source pattern the revision worked to eliminate, making it the least helpful addition. Choices B, C, and D are all genuinely valuable additions that reinforce the thesis-driven structure rather than undermining it."
+        "explanation": "Restating source topics in announcement style would reintroduce the exact source-by-source pattern the revision worked to eliminate, making it the least helpful addition. Choices A, B, and C are all genuinely valuable additions that reinforce the thesis-driven structure rather than undermining it."
       },
       {
         "id": "2w-13",
@@ -4444,7 +4444,7 @@ const QUESTIONS = {
           "Attribution requirements have no real relationship to how synthesized a conclusion is."
         ],
         "correct": 2,
-        "explanation": "A precise, synthesized conclusion needs correspondingly precise, named evidence behind each of its parts, so attribution should get more specific, not less. Choice C recommends the opposite of sound practice. Choices A and D both deny a real, direct relationship between synthesis quality and attribution precision."
+        "explanation": "A precise, synthesized conclusion needs correspondingly precise, named evidence behind each of its parts, so attribution should get more specific, not less. Choice B recommends the opposite of sound practice. Choices A and D both deny a real, direct relationship between synthesis quality and attribution precision."
       },
       {
         "id": "1w-15",
@@ -4457,7 +4457,7 @@ const QUESTIONS = {
           "A transformation that removes every source reference from the essay entirely."
         ],
         "correct": 0,
-        "explanation": "The exercise models moving from listing what sources discuss to weaving them in as evidence for the writer's own specific claim — a structural change, not merely a stylistic one. Choice A misstates the goal; sources remain, just used differently. Choice B denies the transformation the exercise clearly demonstrates. Choice D understates the change as cosmetic when it's fundamentally structural."
+        "explanation": "The exercise models moving from listing what sources discuss to weaving them in as evidence for the writer's own specific claim — a structural change, not merely a stylistic one. Choice D misstates the goal; sources remain, just used differently. Choice C denies the transformation the exercise clearly demonstrates. Choice B understates the change as cosmetic when it's fundamentally structural."
       },
       {
         "id": "1w-16",
@@ -4470,7 +4470,7 @@ const QUESTIONS = {
           "Each announces a source's general topic without stating a finding or connecting it to a claim."
         ],
         "correct": 3,
-        "explanation": "Sentences [1]-[3] each name a topic ('discusses e-book lending statistics') without a specific finding or argumentative connection — describing sources rather than using them. Choice A misdiagnoses a content problem as a grammar one. Choice B is inaccurate; the sentences don't conflict, they simply don't argue anything. Choice C gets the actual problem backwards — the sentences are too vague, not too detailed."
+        "explanation": "Sentences [1]-[3] each name a topic ('discusses e-book lending statistics') without a specific finding or argumentative connection — describing sources rather than using them. Choice C misdiagnoses a content problem as a grammar one. Choice B is inaccurate; the sentences don't conflict, they simply don't argue anything. Choice A gets the actual problem backwards — the sentences are too vague, not too detailed."
       },
       {
         "id": "1w-17",
@@ -4483,7 +4483,7 @@ const QUESTIONS = {
           "Source A's 40 percent rise in e-book lending justifies reconsidering the budget ratio."
         ],
         "correct": 3,
-        "explanation": "This revision cites a specific figure (40 percent) and connects it to an argumentative claim about budget ratios — genuine evidence use. Choices A, C, and D all remain vague topic gestures without a specific finding tied to an argument."
+        "explanation": "This revision cites a specific figure (40 percent) and connects it to an argumentative claim about budget ratios — genuine evidence use. Choices A, B, and C all remain vague topic gestures without a specific finding tied to an argument."
       },
       {
         "id": "2w-14",
@@ -4496,7 +4496,7 @@ const QUESTIONS = {
           "It is grammatically incorrect in a way that undermines its meaning, a common misreading of what the source actually says."
         ],
         "correct": 0,
-        "explanation": "'Reasonable people can disagree' applies to nearly any contested topic and commits to nothing specific, failing the Thesis requirement for a defensible claim. Choice B misdiagnoses vagueness as excess specificity. Choices A and C both misidentify problems (grammar, contradiction) that aren't actually present."
+        "explanation": "'Reasonable people can disagree' applies to nearly any contested topic and commits to nothing specific, failing the Thesis requirement for a defensible claim. Choice C misdiagnoses vagueness as excess specificity. Choices B and D both misidentify problems (grammar, contradiction) that aren't actually present."
       },
       {
         "id": "2w-15",
@@ -4509,7 +4509,7 @@ const QUESTIONS = {
           "Therefore, subsidies are complicated and reasonable people can disagree about them."
         ],
         "correct": 0,
-        "explanation": "This revision commits to a specific, defensible structural solution that synthesizes both concerns (benefit and cost) into one claim. Choice B is simply the original draft's non-thesis, unchanged. Choices A and D both avoid stating any actual position at all."
+        "explanation": "This revision commits to a specific, defensible structural solution that synthesizes both concerns (benefit and cost) into one claim. Choice D is simply the original draft's non-thesis, unchanged. Choices B and C both avoid stating any actual position at all."
       },
       {
         "id": "1w-18",
@@ -4522,7 +4522,7 @@ const QUESTIONS = {
           "Sentence [2] alone would need revision, with nothing else requiring a change."
         ],
         "correct": 1,
-        "explanation": "Revising sentence [5] into a real thesis first would give sentences [1]-[3] something specific to serve once they're also revised, making it the highest-leverage fix. Choice A denies any problem exists. Choice B understates the scope of needed revision. Choice C wrongly reduces the fix to reordering alone."
+        "explanation": "Revising sentence [5] into a real thesis first would give sentences [1]-[3] something specific to serve once they're also revised, making it the highest-leverage fix. Choice A denies any problem exists. Choice D understates the scope of needed revision. Choice C wrongly reduces the fix to reordering alone."
       },
       {
         "id": "2w-16",
@@ -4535,7 +4535,7 @@ const QUESTIONS = {
           "It shows the writer correctly noticing both source types are valid — a necessary first step, not yet synthesis."
         ],
         "correct": 3,
-        "explanation": "Noticing that both sides have merit is a genuine first step toward synthesis, even though the paragraph hasn't yet combined them into an argument. Choice D overstates the paragraph's progress. Choice C mischaracterizes the sources as irreconcilable when they're simply not yet combined. Choice B denies a relationship the sentence clearly has to synthesis."
+        "explanation": "Noticing that both sides have merit is a genuine first step toward synthesis, even though the paragraph hasn't yet combined them into an argument. Choice C overstates the paragraph's progress. Choice A mischaracterizes the sources as irreconcilable when they're simply not yet combined. Choice B denies a relationship the sentence clearly has to synthesis."
       },
       {
         "id": "1w-19",
@@ -4548,7 +4548,7 @@ const QUESTIONS = {
           "Both drafts demonstrate exactly the identical stage of synthesis failure."
         ],
         "correct": 2,
-        "explanation": "D2 has moved past D1's simple announcement problem to actually noticing source tension, but still stalls before resolving it — a later-stage failure. Choices A and D both judge 'advancement' by irrelevant surface features (source count, sentence length). Choice C denies a real, meaningful difference between the two drafts."
+        "explanation": "D2 has moved past D1's simple announcement problem to actually noticing source tension, but still stalls before resolving it — a later-stage failure. Choices A and B both judge 'advancement' by irrelevant surface features (source count, sentence length). Choice D denies a real, meaningful difference between the two drafts."
       },
       {
         "id": "2w-17",
@@ -4641,7 +4641,7 @@ const QUESTIONS = {
           "The delayed main clause mirrors the writer's own delayed reaction to the diagnosis."
         ],
         "correct": 3,
-        "explanation": "The syntax enacts the content: readers must wait through three accumulating 'after' clauses before reaching the payoff, just as the writer endured three accumulating frustrations before reaching her own breaking point — form mirroring content, this unit's central integrated-analysis move. The structure isn't accidental (A) or self-undermining (D): it reinforces meaning rather than working against it. And it signals patience finally running out, not an unconsidered, immediate reaction (B) — the delay itself is the point."
+        "explanation": "The syntax enacts the content: readers must wait through three accumulating 'after' clauses before reaching the payoff, just as the writer endured three accumulating frustrations before reaching her own breaking point — form mirroring content, this unit's central integrated-analysis move. The structure isn't accidental (C) or self-undermining (B): it reinforces meaning rather than working against it. And it signals patience finally running out, not an unconsidered, immediate reaction (A) — the delay itself is the point."
       },
       {
         "id": "1-3",
@@ -4667,7 +4667,7 @@ const QUESTIONS = {
           "Yes, but only because the cumulative rewrite would use noticeably fewer words."
         ],
         "correct": 0,
-        "explanation": "Converting to cumulative order would state the reaction immediately, losing the suspended tension the periodic version builds — removing the structural mirroring between the reader's wait and the writer's wait that makes this opening effective. The two structures are not rhetorically interchangeable (contra B, C), and the difference isn't primarily about length (B) — it's about where the tension is placed."
+        "explanation": "Converting to cumulative order would state the reaction immediately, losing the suspended tension the periodic version builds — removing the structural mirroring between the reader's wait and the writer's wait that makes this opening effective. The two structures are not rhetorically interchangeable (contra B, C), and the difference isn't primarily about length (D) — it's about where the tension is placed."
       },
       {
         "id": "1-5",
@@ -4693,7 +4693,7 @@ const QUESTIONS = {
           "Syntax and diction operate independently here, each contributing an unrelated effect."
         ],
         "correct": 1,
-        "explanation": "The periodic syntax builds accumulating frustration through structure (the long wait for the main clause), while increasingly pointed diction — 'let's wait and see' giving way to 'I stopped being polite' — reinforces that same emotional weight at the word level. The two levels aren't independent (A) or unrelated in effect (B): syntax and diction cooperate rather than pulling apart (ruling out D), which is this unit's central integrated-analysis lesson."
+        "explanation": "The periodic syntax builds accumulating frustration through structure (the long wait for the main clause), while increasingly pointed diction — 'let's wait and see' giving way to 'I stopped being polite' — reinforces that same emotional weight at the word level. The two levels aren't independent (D) or unrelated in effect (C): syntax and diction cooperate rather than pulling apart (ruling out A), which is this unit's central integrated-analysis lesson."
       },
       {
         "id": "2-1",
@@ -4719,7 +4719,7 @@ const QUESTIONS = {
           "A rhetorical question posed without any parallel grammatical structure."
         ],
         "correct": 2,
-        "explanation": "'Ask what this city can build... Do not ask what this city can build...' presents contrasting ideas (visitors vs. residents) in deliberately mirrored grammatical structure — antithesis requires both parallel form AND contrasting content, which this sentence pair supplies. It isn't cumulative structure, a single-sentence pattern, not a two-sentence contrast (B); it does use parallel grammar, not an unstructured question (C); and there's no missing conjunction to omit here (D) — these are two separate sentences, not a list."
+        "explanation": "'Ask what this city can build... Do not ask what this city can build...' presents contrasting ideas (visitors vs. residents) in deliberately mirrored grammatical structure — antithesis requires both parallel form AND contrasting content, which this sentence pair supplies. It isn't cumulative structure, a single-sentence pattern, not a two-sentence contrast (B); it does use parallel grammar, not an unstructured question (D); and there's no missing conjunction to omit here (A) — these are two separate sentences, not a list."
       },
       {
         "id": "2-3",
@@ -4732,7 +4732,7 @@ const QUESTIONS = {
           "The anaphora and antithesis both make the identical claim, so neither adds to the other."
         ],
         "correct": 2,
-        "explanation": "The anaphora establishes a rhythmic pattern of things the city DOES fund; the antithesis then sharply reframes that pattern into a values-based choice between two kinds of people — visitors and residents — so the preceding buildup makes the final contrast land harder than it would alone. The techniques don't make the same claim (A) or work against each other (B); calling them merely coincidental (C) misses that structural relationship."
+        "explanation": "The anaphora establishes a rhythmic pattern of things the city DOES fund; the antithesis then sharply reframes that pattern into a values-based choice between two kinds of people — visitors and residents — so the preceding buildup makes the final contrast land harder than it would alone. The techniques don't make the same claim (D) or work against each other (B); calling them merely coincidental (A) misses that structural relationship."
       },
       {
         "id": "2-4",
@@ -4745,7 +4745,7 @@ const QUESTIONS = {
           "The break undermines the passage's argument by seeming to change the topic."
         ],
         "correct": 2,
-        "explanation": "After three parallel 'We fund' sentences, the fourth sentence's shift to 'What we do not fund' stands out precisely because it interrupts an established rhythm — that disruption itself creates emphasis and marks the passage's turn from listing priorities to critiquing them. It isn't an error (A): the break is deliberate. And a noticeable pattern-break isn't rhetorically inert (D) or off-topic (B) — it sharpens the same argument the anaphora was already building."
+        "explanation": "After three parallel 'We fund' sentences, the fourth sentence's shift to 'What we do not fund' stands out precisely because it interrupts an established rhythm — that disruption itself creates emphasis and marks the passage's turn from listing priorities to critiquing them. It isn't an error (A): the break is deliberate. And a noticeable pattern-break isn't rhetorically inert (B) or off-topic (D) — it sharpens the same argument the anaphora was already building."
       },
       {
         "id": "2-5",
@@ -4758,7 +4758,7 @@ const QUESTIONS = {
           "A formal, archaic register that sounds out of place in modern public speech."
         ],
         "correct": 0,
-        "explanation": "The passage maintains a direct, plain-spoken, pointed public register throughout — no register shift occurs here, unlike Passage 4. It avoids both the dense technical jargon (A) and an intimate confessional voice (B), and it reads as contemporary rather than archaic (D) — appropriate, accessible language for a public audience."
+        "explanation": "The passage maintains a direct, plain-spoken, pointed public register throughout — no register shift occurs here, unlike Passage 4. It avoids both the dense technical jargon (B) and an intimate confessional voice (C), and it reads as contemporary rather than archaic (D) — appropriate, accessible language for a public audience."
       },
       {
         "id": "2-6",
@@ -4771,7 +4771,7 @@ const QUESTIONS = {
           "Anaphora gives each funded item its own sentence and emphasis, building cumulative weight."
         ],
         "correct": 3,
-        "explanation": "Anaphora's repeated sentence-initial structure gives each funded item its own full sentence and weight, building cumulative rhetorical force that a compressed, comma-separated list would flatten. This is a deliberate choice, not an accident (A); a list would compress rather than build weight (C is thus wrong, and D collapses a real distinction the passage's structure depends on)."
+        "explanation": "Anaphora's repeated sentence-initial structure gives each funded item its own full sentence and weight, building cumulative rhetorical force that a compressed, comma-separated list would flatten. This is a deliberate choice, not an accident (C); a list would compress rather than build weight (A is thus wrong, and B collapses a real distinction the passage's structure depends on)."
       },
       {
         "id": "3-1",
@@ -4797,7 +4797,7 @@ const QUESTIONS = {
           "No identifiable technique; the sentence follows ordinary syntax."
         ],
         "correct": 0,
-        "explanation": "'And' is repeated before each clause — 'it was chaos AND it was rhythm AND it was, somehow...' — slowing the pace in deliberate contrast to the rapid asyndeton of the sentence before it, giving each of the three claims its own weighted beat. It isn't antithesis, since chaos/rhythm/the-job aren't set up as opposites; it's the reverse of asyndeton, which omits rather than repeats conjunctions; and the repeated 'and' is a genuine identifiable technique, not absent (C)."
+        "explanation": "'And' is repeated before each clause — 'it was chaos AND it was rhythm AND it was, somehow...' — slowing the pace in deliberate contrast to the rapid asyndeton of the sentence before it, giving each of the three claims its own weighted beat. It isn't antithesis, since chaos/rhythm/the-job aren't set up as opposites; it's the reverse of asyndeton, which omits rather than repeats conjunctions; and the repeated 'and' is a genuine identifiable technique, not absent (D)."
       },
       {
         "id": "3-3",
@@ -4836,7 +4836,7 @@ const QUESTIONS = {
           "Highly formal, academic vocabulary throughout the entire passage."
         ],
         "correct": 0,
-        "explanation": "The passage uses plain, concrete, sensory vocabulary — tickets, pans, plates, voices — appropriate to a firsthand memoir account of physical, active kitchen work, grounding the diction in the passage's grounded subject matter. This rules out corporate jargon (A), academic formality (C), and archaic or ornate poetic diction (D), none of which appear here."
+        "explanation": "The passage uses plain, concrete, sensory vocabulary — tickets, pans, plates, voices — appropriate to a firsthand memoir account of physical, active kitchen work, grounding the diction in the passage's grounded subject matter. This rules out corporate jargon (B), academic formality (D), and archaic or ornate poetic diction (C), none of which appear here."
       },
       {
         "id": "3-6",
@@ -4849,7 +4849,7 @@ const QUESTIONS = {
           "The passage's diction actually varies considerably from sentence to sentence."
         ],
         "correct": 2,
-        "explanation": "The contrasting pacing techniques — fast asyndeton, then slow polysyndeton — layered onto consistently plain, concrete diction let the passage shift its rhythm to match different moments (chaos, then reflection) without also needing to shift its vocabulary register, a more subtle integration than Passage 4's combined register-and-syntax shift. The techniques don't work against the diction (A) or leave it out entirely (D); and the diction stays consistent rather than varying (C), which is exactly what lets the syntax do the work of marking the shift."
+        "explanation": "The contrasting pacing techniques — fast asyndeton, then slow polysyndeton — layered onto consistently plain, concrete diction let the passage shift its rhythm to match different moments (chaos, then reflection) without also needing to shift its vocabulary register, a more subtle integration than Passage 4's combined register-and-syntax shift. The techniques don't work against the diction (A) or leave it out entirely (B); and the diction stays consistent rather than varying (D), which is exactly what lets the syntax do the work of marking the shift."
       },
       {
         "id": "4-1",
@@ -4862,7 +4862,7 @@ const QUESTIONS = {
           "A formal, technical, corporate/bureaucratic register"
         ],
         "correct": 3,
-        "explanation": "The opening sentence — 'Pursuant to our Q3 strategic realignment initiative, the organization will be implementing a workforce optimization...' — uses dense corporate euphemism and passive, impersonal phrasing: a formal, bureaucratic register. It's neither intimate (B) nor figurative (C), and it's the opposite of casual (D) — that contrast is exactly what makes the later register shift so noticeable."
+        "explanation": "The opening sentence — 'Pursuant to our Q3 strategic realignment initiative, the organization will be implementing a workforce optimization...' — uses dense corporate euphemism and passive, impersonal phrasing: a formal, bureaucratic register. It's neither intimate (A) nor figurative (B), and it's the opposite of casual (C) — that contrast is exactly what makes the later register shift so noticeable."
       },
       {
         "id": "4-1a",
@@ -4875,7 +4875,7 @@ const QUESTIONS = {
           "“Q3 strategic realignment initiative” — branding language dressing the layoff up as a planned strategic move."
         ],
         "correct": 3,
-        "explanation": "“Q3 strategic realignment initiative” is corporate branding language — it frames the layoffs as a deliberate, forward-looking strategic move rather than naming what it is, doing the same euphemistic work as “workforce optimization” later in the same sentence. “Effective the first of next month” is precise, not vague (ruling out B); “12 percent” is a specific figure, not an obscuring euphemism (C); and “three divisions” states information plainly rather than hiding it (D)."
+        "explanation": "“Q3 strategic realignment initiative” is corporate branding language — it frames the layoffs as a deliberate, forward-looking strategic move rather than naming what it is, doing the same euphemistic work as “workforce optimization” later in the same sentence. “Effective the first of next month” is precise, not vague (ruling out C); “12 percent” is a specific figure, not an obscuring euphemism (B); and “three divisions” states information plainly rather than hiding it (A)."
       },
       {
         "id": "4-2a",
@@ -4914,7 +4914,7 @@ const QUESTIONS = {
           "'Workforce optimization'"
         ],
         "correct": 3,
-        "explanation": "'Workforce optimization' is the specific corporate euphemism used before the register shift — abstract corporate language standing in for the direct, human reality the writer states plainly afterward. Choice A is the writer's later plain statement of the same fact, not the euphemism; choice B is invented text that doesn't appear in the passage; and choice C is simply false — the opening sentence is saturated with euphemistic phrasing."
+        "explanation": "'Workforce optimization' is the specific corporate euphemism used before the register shift — abstract corporate language standing in for the direct, human reality the writer states plainly afterward. Choice C is the writer's later plain statement of the same fact, not the euphemism; choice A is invented text that doesn't appear in the passage; and choice B is simply false — the opening sentence is saturated with euphemistic phrasing."
       },
       {
         "id": "4-5a",
@@ -4927,7 +4927,7 @@ const QUESTIONS = {
           "These short sentences actually contradict the passage's overall message."
         ],
         "correct": 2,
-        "explanation": "The short, direct sentences' brevity sharply contrasts with the dense opening sentence, reinforcing the register shift's meaning at the syntax level too — plain truth delivered in plain, short sentences enacts the content's claim. They don't echo the opening's dense syntax (A, the opposite of what happens); they aren't rhetorically inert (B); and they support, rather than contradict, the passage's central point (C)."
+        "explanation": "The short, direct sentences' brevity sharply contrasts with the dense opening sentence, reinforcing the register shift's meaning at the syntax level too — plain truth delivered in plain, short sentences enacts the content's claim. They don't echo the opening's dense syntax (A, the opposite of what happens); they aren't rhetorically inert (B); and they support, rather than contradict, the passage's central point (D)."
       },
       {
         "id": "4-2",
@@ -4953,7 +4953,7 @@ const QUESTIONS = {
           "The shift enacts the writer's own recognition that corporate language fails to convey the truth."
         ],
         "correct": 3,
-        "explanation": "This register shift marks the writer's own recognition that formal corporate language fails to convey the human reality underneath it — the shift itself performs the passage's argument that official language can obscure plain truth, directly paralleling Section 6.4's discussion of register shifts marking significant turns. Nothing in the passage suggests disagreement with the layoffs themselves (A) or multiple authors (D), and a shift this deliberate and load-bearing is not merely decorative (B)."
+        "explanation": "This register shift marks the writer's own recognition that formal corporate language fails to convey the human reality underneath it — the shift itself performs the passage's argument that official language can obscure plain truth, directly paralleling Section 6.4's discussion of register shifts marking significant turns. Nothing in the passage suggests disagreement with the layoffs themselves (C) or multiple authors (B), and a shift this deliberate and load-bearing is not merely decorative (A)."
       },
       {
         "id": "5-1",
@@ -5005,7 +5005,7 @@ const QUESTIONS = {
           "None — the passage doesn't actually use an anaphoric structure."
         ],
         "correct": 0,
-        "explanation": "Three rejected candidates — the fire, the flood, and the decade of deferred repairs — are presented anaphorically before the passage's actual answer (a permit) finally arrives in the final sentence. The passage clearly does use anaphora (ruling out A); it names three causes, not one (B) or five (C)."
+        "explanation": "Three rejected candidates — the fire, the flood, and the decade of deferred repairs — are presented anaphorically before the passage's actual answer (a permit) finally arrives in the final sentence. The passage clearly does use anaphora (ruling out D); it names three causes, not one (B) or five (C)."
       },
       {
         "id": "5-5",
@@ -5060,7 +5060,7 @@ const QUESTIONS = {
           "So did after-school care. So did senior lunches. So did shelter, twice. Thirty-seven years of that."
         ],
         "correct": 3,
-        "explanation": "This revision uses anaphora ('So did... So did... So did...') building momentum toward the short, emphatic closing fragment 'Thirty-seven years of that' — far more memorable than a single flat sentence, directly applying this unit's schemes to strengthen the speech's intended close. Choice A states an opinion without any technique; choice C is vague summary rather than concrete, accumulating detail; and choice D keeps the original's flat, unemphatic phrasing without building any rhythm."
+        "explanation": "This revision uses anaphora ('So did... So did... So did...') building momentum toward the short, emphatic closing fragment 'Thirty-seven years of that' — far more memorable than a single flat sentence, directly applying this unit's schemes to strengthen the speech's intended close. Choice A states an opinion without any technique; choice C is vague summary rather than concrete, accumulating detail; and choice B keeps the original's flat, unemphatic phrasing without building any rhythm."
       },
       {
         "id": "1w-2",
@@ -5073,7 +5073,7 @@ const QUESTIONS = {
           "No, polysyndeton would add nothing measurable to this particular sentence's effect."
         ],
         "correct": 0,
-        "explanation": "Polysyndeton would slow this list and give each service its own weighted emphasis — appropriate for a persuasive speech trying to convey the mounting, cumulative importance of everything this building provides, consistent with this unit's discussion of polysyndeton's accumulation effect. The change isn't about brevity (contra A, which also gets the direction wrong — polysyndeton adds words); and the technique clearly has a real, describable rhetorical effect here (contra C), one that's entirely appropriate for this genre (contra D)."
+        "explanation": "Polysyndeton would slow this list and give each service its own weighted emphasis — appropriate for a persuasive speech trying to convey the mounting, cumulative importance of everything this building provides, consistent with this unit's discussion of polysyndeton's accumulation effect. The change isn't about brevity (contra C, which also gets the direction wrong — polysyndeton adds words); and the technique clearly has a real, describable rhetorical effect here (contra D), one that's entirely appropriate for this genre (contra B)."
       },
       {
         "id": "1w-3",
@@ -5099,7 +5099,7 @@ const QUESTIONS = {
           "No register shift would fit anywhere in a speech defending a community center."
         ],
         "correct": 2,
-        "explanation": "A shift from formal budget vocabulary to plain, direct, personal language — such as naming a specific person the storm shelter helped — would mark a significant turn, consistent with Section 6.4's point that register shifts often signal a passage's most important moments, here transitioning from cost data to human impact. A register shift clearly can fit this speech (contra A); staying in budget language (B) or going even more technical (D) would miss the emotional pivot the speaker wants."
+        "explanation": "A shift from formal budget vocabulary to plain, direct, personal language — such as naming a specific person the storm shelter helped — would mark a significant turn, consistent with Section 6.4's point that register shifts often signal a passage's most important moments, here transitioning from cost data to human impact. A register shift clearly can fit this speech (contra D); staying in budget language (B) or going even more technical (A) would miss the emotional pivot the speaker wants."
       },
       {
         "id": "1w-5",
@@ -5112,7 +5112,7 @@ const QUESTIONS = {
           "Stripping every specific number and date out of the speech entirely."
         ],
         "correct": 1,
-        "explanation": "The most strengthening revision principle is replacing the flat, simply-listed sentence [2] and underdeveloped sentence [5] with schemes like anaphora and parallel structure — building the rhythm and emphasis this unit's techniques are designed to create, especially valuable for a speech's memorable closing. Removing all numbers (A) would weaken the speech's evidence; uniform sentence structure (B) or one giant periodic sentence (D) would flatten rather than vary the rhetoric."
+        "explanation": "The most strengthening revision principle is replacing the flat, simply-listed sentence [2] and underdeveloped sentence [5] with schemes like anaphora and parallel structure — building the rhythm and emphasis this unit's techniques are designed to create, especially valuable for a speech's memorable closing. Removing all numbers (D) would weaken the speech's evidence; uniform sentence structure (C) or one giant periodic sentence (A) would flatten rather than vary the rhetoric."
       },
       {
         "id": "2w-1",
@@ -5125,7 +5125,7 @@ const QUESTIONS = {
           "Yes, but only because combining the sentences would shorten the passage overall (a claim the passage itself doesn't back up)."
         ],
         "correct": 0,
-        "explanation": "A parallel antithesis structure — e.g., 'I spent nine years being an accountant and one year finally becoming a baker' — would sharpen the contrast between the two career phases more effectively than two separate flat sentences, directly applying this unit's antithesis technique to an opening built around exactly the kind of clear, structured contrast antithesis is designed to convey. Antithesis is clearly relevant here (contra A), fits personal essays fine (contra C), and the benefit is sharper contrast, not just brevity (contra D)."
+        "explanation": "A parallel antithesis structure — e.g., 'I spent nine years being an accountant and one year finally becoming a baker' — would sharpen the contrast between the two career phases more effectively than two separate flat sentences, directly applying this unit's antithesis technique to an opening built around exactly the kind of clear, structured contrast antithesis is designed to convey. Antithesis is clearly relevant here (contra B), fits personal essays fine (contra C), and the benefit is sharper contrast, not just brevity (contra D)."
       },
       {
         "id": "2w-2",
@@ -5138,7 +5138,7 @@ const QUESTIONS = {
           "No, this particular sentence should instead be converted to periodic structure (a claim the passage itself doesn't back up)."
         ],
         "correct": 1,
-        "explanation": "Cumulative structure fits this explanatory, conversational sentence well — it delivers the core answer ('good at accounting and terrible at loving it') immediately, then adds refining detail, appropriate for the essay's direct register rather than the suspended tension periodic structure would create. Cumulative sentences work fine in personal essays (contra A), periodic structure would actually undercut this sentence's conversational directness (contra B), and the sentence clearly has identifiable structure (contra D)."
+        "explanation": "Cumulative structure fits this explanatory, conversational sentence well — it delivers the core answer ('good at accounting and terrible at loving it') immediately, then adds refining detail, appropriate for the essay's direct register rather than the suspended tension periodic structure would create. Cumulative sentences work fine in personal essays (contra C), periodic structure would actually undercut this sentence's conversational directness (contra D), and the sentence clearly has identifiable structure (contra A)."
       },
       {
         "id": "2w-3",
@@ -5151,7 +5151,7 @@ const QUESTIONS = {
           "Sentence [5] shifts sharply into a highly formal, academic register."
         ],
         "correct": 2,
-        "explanation": "Sentences [1]-[4] establish a plain, direct, conversational register (short factual statements, casual phrasing like 'a lot'), and sentence [5] continues this same register rather than shifting from it — appropriate consistency for a magazine personal essay, and worth noting as a deliberate choice, not merely an absence of technique. There's no jargon to drop (contra B) and no shift to formality (contra A); the register is entirely discernible and consistent (contra C)."
+        "explanation": "Sentences [1]-[4] establish a plain, direct, conversational register (short factual statements, casual phrasing like 'a lot'), and sentence [5] continues this same register rather than shifting from it — appropriate consistency for a magazine personal essay, and worth noting as a deliberate choice, not merely an absence of technique. There's no jargon to drop (contra A) and no shift to formality (contra D); the register is entirely discernible and consistent (contra B)."
       },
       {
         "id": "2w-4",
@@ -5164,7 +5164,7 @@ const QUESTIONS = {
           "A sentence with exactly the same structure as sentence [1]."
         ],
         "correct": 1,
-        "explanation": "This option builds genuine periodic structure — three accumulating 'after' clauses delaying the main clause — providing structural variety and rhetorical build-up before the more direct, cumulative sentence [5] delivers its explanatory payoff, a deliberate pairing of contrasting sentence types for effect. Repeating sentence [1]'s structure (A) or a flat list (B) adds no periodic buildup, and periodic structure clearly can fit here (contra C)."
+        "explanation": "This option builds genuine periodic structure — three accumulating 'after' clauses delaying the main clause — providing structural variety and rhetorical build-up before the more direct, cumulative sentence [5] delivers its explanatory payoff, a deliberate pairing of contrasting sentence types for effect. Repeating sentence [1]'s structure (D) or a flat list (A) adds no periodic buildup, and periodic structure clearly can fit here (contra C)."
       },
       {
         "id": "2w-5",
@@ -5177,7 +5177,7 @@ const QUESTIONS = {
           "Stripping out every personal, conversational element from the essay entirely."
         ],
         "correct": 2,
-        "explanation": "The primary improvement opportunity is introducing more varied, deliberate syntax structures (periodic sentences, antithesis) at key moments — adding rhetorical texture to currently similar short sentences — while preserving the essay's appropriately conversational diction register, which itself needs no significant change for this genre and audience. Removing the personal voice (A) or formalizing the whole essay (B) would work against its genre, and the draft clearly does have room to improve (contra C)."
+        "explanation": "The primary improvement opportunity is introducing more varied, deliberate syntax structures (periodic sentences, antithesis) at key moments — adding rhetorical texture to currently similar short sentences — while preserving the essay's appropriately conversational diction register, which itself needs no significant change for this genre and audience. Removing the personal voice (D) or formalizing the whole essay (A) would work against its genre, and the draft clearly does have room to improve (contra B)."
       },
       {
         "id": "1w-6",
@@ -5216,7 +5216,7 @@ const QUESTIONS = {
           "Yes, it would completely reverse the sentence's meaning into its opposite."
         ],
         "correct": 1,
-        "explanation": "The effect would be minimal on this particular short list — asyndeton's speed effect is more noticeable in longer lists (as in Passage 3's six-item list), a useful reminder that technique choice should be calibrated to the specific sentence, not applied as a reflexive, one-size-fits-all rule. Calling the effect zero (B) overstates the case in the other direction, and there's no rule capping asyndeton at longer lists only (D); nor would removing one conjunction reverse the sentence's meaning (C)."
+        "explanation": "The effect would be minimal on this particular short list — asyndeton's speed effect is more noticeable in longer lists (as in Passage 3's six-item list), a useful reminder that technique choice should be calibrated to the specific sentence, not applied as a reflexive, one-size-fits-all rule. Calling the effect zero (C) overstates the case in the other direction, and there's no rule capping asyndeton at longer lists only (A); nor would removing one conjunction reverse the sentence's meaning (D)."
       },
       {
         "id": "1w-9",
@@ -5229,7 +5229,7 @@ const QUESTIONS = {
           "Anaphora or epistrophe for the close, antithesis for cost-versus-value, and a targeted register shift."
         ],
         "correct": 3,
-        "explanation": "Combining anaphora/epistrophe for closing emphasis, antithesis for the cost-versus-value framing, and a deliberate register shift toward personal language at the key moment would most strengthen this speech — applying this unit's varied toolkit strategically rather than relying on just one technique throughout (contra B, C) or abandoning technique altogether (contra D)."
+        "explanation": "Combining anaphora/epistrophe for closing emphasis, antithesis for the cost-versus-value framing, and a deliberate register shift toward personal language at the key moment would most strengthen this speech — applying this unit's varied toolkit strategically rather than relying on just one technique throughout (contra A, C) or abandoning technique altogether (contra B)."
       },
       {
         "id": "1w-10",
@@ -5242,7 +5242,7 @@ const QUESTIONS = {
           "Short sentences like this one should always be cut from persuasive writing."
         ],
         "correct": 2,
-        "explanation": "This short sentence's brevity serves a specific function — a blunt, honest concession — that a longer sentence would undercut by seeming to over-explain or hedge; deleting it would remove an important ethos-building moment of honest acknowledgment before the speech's pivot. It doesn't contradict the speech (contra C) or serve no purpose (contra D), and the rule against short sentences generally (A) is exactly the reflexive thinking this unit warns against."
+        "explanation": "This short sentence's brevity serves a specific function — a blunt, honest concession — that a longer sentence would undercut by seeming to over-explain or hedge; deleting it would remove an important ethos-building moment of honest acknowledgment before the speech's pivot. It doesn't contradict the speech (contra B) or serve no purpose (contra A), and the rule against short sentences generally (D) is exactly the reflexive thinking this unit warns against."
       },
       {
         "id": "2w-6",
@@ -5268,7 +5268,7 @@ const QUESTIONS = {
           "Yes, but mainly because longer sentences are always the stronger choice."
         ],
         "correct": 1,
-        "explanation": "A register shift isn't necessarily needed here, since the essay's register is already conversational and consistent — register shifts are most rhetorically significant when they break an ESTABLISHED contrasting pattern, and this essay hasn't set up a formal register to shift away from, unlike Passage 4's deliberate corporate-to-casual structure. Register shifts aren't universally forbidden (contra A) or universally beneficial (contra C), and the question isn't really about sentence length (contra D)."
+        "explanation": "A register shift isn't necessarily needed here, since the essay's register is already conversational and consistent — register shifts are most rhetorically significant when they break an ESTABLISHED contrasting pattern, and this essay hasn't set up a formal register to shift away from, unlike Passage 4's deliberate corporate-to-casual structure. Register shifts aren't universally forbidden (contra C) or universally beneficial (contra A), and the question isn't really about sentence length (contra D)."
       },
       {
         "id": "2w-8",
@@ -5281,7 +5281,7 @@ const QUESTIONS = {
           "People ask why a lot."
         ],
         "correct": 1,
-        "explanation": "This revision builds genuine periodic structure — three accumulating 'after' clauses — delaying the main clause and its explanation, creating rhetorical build-up before the essay's key explanatory payoff, consistent with this unit's periodic sentence technique. Choice C is simply the unrevised original with no added structure; choice B rephrases as a question without any delay or buildup; and periodic structure clearly can work here (contra A)."
+        "explanation": "This revision builds genuine periodic structure — three accumulating 'after' clauses — delaying the main clause and its explanation, creating rhetorical build-up before the essay's key explanatory payoff, consistent with this unit's periodic sentence technique. Choice D is simply the unrevised original with no added structure; choice C rephrases as a question without any delay or buildup; and periodic structure clearly can work here (contra A)."
       },
       {
         "id": "2w-9",
@@ -5294,7 +5294,7 @@ const QUESTIONS = {
           "That only a single technique should ever be used within any one given essay."
         ],
         "correct": 2,
-        "explanation": "Both drafts teach that technique choice should be deliberate and purposeful, matched to each specific passage's content, register, and rhetorical goal — not applied as a uniform checklist regardless of fit, a lesson reinforced by noting where techniques would and wouldn't actually strengthen a given sentence. Technique clearly does connect to purpose (contra A), applying everything everywhere is exactly what this unit warns against (contra B), and using only one technique per essay is too restrictive a rule (contra C)."
+        "explanation": "Both drafts teach that technique choice should be deliberate and purposeful, matched to each specific passage's content, register, and rhetorical goal — not applied as a uniform checklist regardless of fit, a lesson reinforced by noting where techniques would and wouldn't actually strengthen a given sentence. Technique clearly does connect to purpose (contra A), applying everything everywhere is exactly what this unit warns against (contra B), and using only one technique per essay is too restrictive a rule (contra D)."
       },
       {
         "id": "1w-11",
@@ -5307,7 +5307,7 @@ const QUESTIONS = {
           "$340,000 is a considerable sum for any city's annual operating budget."
         ],
         "correct": 2,
-        "explanation": "This revision sets up antithesis by explicitly contrasting what closing 'saves' against what it 'loses,' using parallel grammatical framing that primes the reader for the value-based argument the speech goes on to make. Choice B is simply the unrevised original with no antithesis; choices A and C restate the cost without setting up any contrasting structure."
+        "explanation": "This revision sets up antithesis by explicitly contrasting what closing 'saves' against what it 'loses,' using parallel grammatical framing that primes the reader for the value-based argument the speech goes on to make. Choice B is simply the unrevised original with no antithesis; choices A and D restate the cost without setting up any contrasting structure."
       },
       {
         "id": "1w-12",
@@ -5320,7 +5320,7 @@ const QUESTIONS = {
           "It would become noticeably more formal and technical throughout the whole speech."
         ],
         "correct": 2,
-        "explanation": "The strengthened version would use deliberate schemes and a targeted register shift to build emotional and rhetorical force the flat original lacks, while preserving the original's honest, evidence-grounded content — enhancing delivery without sacrificing substance. It wouldn't drop the facts (contra A) or turn more formal/technical (contra B, the opposite direction), and the revisions described throughout this exercise are far from cosmetic (contra D)."
+        "explanation": "The strengthened version would use deliberate schemes and a targeted register shift to build emotional and rhetorical force the flat original lacks, while preserving the original's honest, evidence-grounded content — enhancing delivery without sacrificing substance. It wouldn't drop the facts (contra B) or turn more formal/technical (contra D, the opposite direction), and the revisions described throughout this exercise are far from cosmetic (contra A)."
       },
       {
         "id": "2w-10",
@@ -5333,7 +5333,7 @@ const QUESTIONS = {
           "Diction register has essentially no relationship to a publication's audience type."
         ],
         "correct": 0,
-        "explanation": "A general magazine audience benefits from accessible, conversational language that doesn't require specialized vocabulary, making the essay's consistent plain register well-matched to both its genre and its readership — a deliberate, appropriate choice, not simply a default. It isn't a universal rule that plain diction always wins regardless of context (contra B); diction register clearly does track audience (contra C); and nothing suggests this register is a mismatch here (contra D)."
+        "explanation": "A general magazine audience benefits from accessible, conversational language that doesn't require specialized vocabulary, making the essay's consistent plain register well-matched to both its genre and its readership — a deliberate, appropriate choice, not simply a default. It isn't a universal rule that plain diction always wins regardless of context (contra C); diction register clearly does track audience (contra D); and nothing suggests this register is a mismatch here (contra B)."
       },
       {
         "id": "1w-13",
@@ -5346,7 +5346,7 @@ const QUESTIONS = {
           "Yes, because polysyndeton is objectively the single most persuasive technique available."
         ],
         "correct": 2,
-        "explanation": "This would not be sound advice — different moments in the speech serve different purposes (factual statement, emphatic conclusion, honest concession), and applying a single technique uniformly would flatten these distinct rhetorical functions rather than serving each moment's specific needs, contradicting this unit's emphasis on purposeful, context-specific selection. No single technique is objectively best in all contexts (contra B), consistency isn't the top priority here (contra C), and polysyndeton is genuinely useful elsewhere in this same speech (contra D)."
+        "explanation": "This would not be sound advice — different moments in the speech serve different purposes (factual statement, emphatic conclusion, honest concession), and applying a single technique uniformly would flatten these distinct rhetorical functions rather than serving each moment's specific needs, contradicting this unit's emphasis on purposeful, context-specific selection. No single technique is objectively best in all contexts (contra D), consistency isn't the top priority here (contra B), and polysyndeton is genuinely useful elsewhere in this same speech (contra A)."
       },
       {
         "id": "2w-11",
@@ -5359,7 +5359,7 @@ const QUESTIONS = {
           "That named techniques are practical tools a writer can deliberately apply in revision."
         ],
         "correct": 3,
-        "explanation": "This unit's overall lesson, demonstrated through both draft exercises, is that specific, nameable techniques are practical tools a writer can deliberately deploy in their OWN revision — moving beyond merely recognizing these techniques in published writing to actually applying them, the productive, generative complement to this unit's analytical skills. The techniques are far from purely decorative (contra A); revision here is explicitly about rhetoric, not just mechanics (contra B); and a student, not only a professional, is exactly who this unit expects to apply them (contra C)."
+        "explanation": "This unit's overall lesson, demonstrated through both draft exercises, is that specific, nameable techniques are practical tools a writer can deliberately deploy in their OWN revision — moving beyond merely recognizing these techniques in published writing to actually applying them, the productive, generative complement to this unit's analytical skills. The techniques are far from purely decorative (contra B); revision here is explicitly about rhetoric, not just mechanics (contra C); and a student, not only a professional, is exactly who this unit expects to apply them (contra A)."
       },
       {
         "id": "1w-14",
@@ -5372,7 +5372,7 @@ const QUESTIONS = {
           "The two units' concepts share no meaningful relationship to one another."
         ],
         "correct": 2,
-        "explanation": "This unit's techniques provide the stylistic DELIVERY mechanism for the argumentative content Unit 4 taught how to structure — a strong speech needs both sound argumentative structure (concession, line of reasoning) and effective stylistic delivery (schemes, syntax) working together, illustrating how different units' skills combine in one strong piece of writing. Structure and style aren't substitutes (contra A) or unrelated (contra B), and Unit 4's structural concepts apply to speeches as much as essays (contra C) — this speech itself uses a concession move."
+        "explanation": "This unit's techniques provide the stylistic DELIVERY mechanism for the argumentative content Unit 4 taught how to structure — a strong speech needs both sound argumentative structure (concession, line of reasoning) and effective stylistic delivery (schemes, syntax) working together, illustrating how different units' skills combine in one strong piece of writing. Structure and style aren't substitutes (contra B) or unrelated (contra D), and Unit 4's structural concepts apply to speeches as much as essays (contra A) — this speech itself uses a concession move."
       },
       {
         "id": "2w-12",
@@ -5385,7 +5385,7 @@ const QUESTIONS = {
           "Analyzing published examples first builds the vocabulary needed to apply techniques oneself."
         ],
         "correct": 3,
-        "explanation": "Analyzing how these techniques function in the five reading passages first builds the recognition and vocabulary needed to then apply them deliberately in one's own revision — a deliberate analysis-before-production sequence, consistent with how skill-building generally progresses from recognizing a technique to actively using it. The reading and drafting sections are closely connected, not unrelated (contra A); the order is purposeful, not arbitrary (contra B); and nothing here ranks reading as less important (contra C) — it's foundational, not secondary."
+        "explanation": "Analyzing how these techniques function in the five reading passages first builds the recognition and vocabulary needed to then apply them deliberately in one's own revision — a deliberate analysis-before-production sequence, consistent with how skill-building generally progresses from recognizing a technique to actively using it. The reading and drafting sections are closely connected, not unrelated (contra C); the order is purposeful, not arbitrary (contra B); and nothing here ranks reading as less important (contra A) — it's foundational, not secondary."
       },
       {
         "id": "1w-15",
@@ -5398,7 +5398,7 @@ const QUESTIONS = {
           "Reviewing key sentences and deliberately asking whether a specific technique would strengthen them."
         ],
         "correct": 3,
-        "explanation": "The most reliable habit is a deliberate, targeted revision review — checking key sentences (especially openings, transitions, and conclusions) against this unit's toolkit and asking whether a SPECIFIC technique would strengthen that SPECIFIC moment, rather than either ignoring technique entirely (C) or applying every technique indiscriminately everywhere (B). Memorizing definitions without practice (A) never builds the applied skill this unit is teaching."
+        "explanation": "The most reliable habit is a deliberate, targeted revision review — checking key sentences (especially openings, transitions, and conclusions) against this unit's toolkit and asking whether a SPECIFIC technique would strengthen that SPECIFIC moment, rather than either ignoring technique entirely (A) or applying every technique indiscriminately everywhere (B). Memorizing definitions without practice (C) never builds the applied skill this unit is teaching."
       },
       {
         "id": "2w-13",
@@ -5411,7 +5411,7 @@ const QUESTIONS = {
           "The five readings mirror the exam's reading MCQs; the two drafts mirror its writing MCQs."
         ],
         "correct": 3,
-        "explanation": "The five reading passages directly mirror the exam's 'reading' multiple-choice questions (analyzing published rhetorical choices), while the two draft passages mirror the exam's 'writing' multiple-choice questions (evaluating and revising draft prose) — this unit's structure directly practices both tested skill types, consistent with the exam format covered in Unit 1's scoring guide. The real exam tests both question types, not just one (contra B), and the draft exercises are directly exam-relevant, not bonus or unrelated content (contra C, D)."
+        "explanation": "The five reading passages directly mirror the exam's 'reading' multiple-choice questions (analyzing published rhetorical choices), while the two draft passages mirror the exam's 'writing' multiple-choice questions (evaluating and revising draft prose) — this unit's structure directly practices both tested skill types, consistent with the exam format covered in Unit 1's scoring guide. The real exam tests both question types, not just one (contra A), and the draft exercises are directly exam-relevant, not bonus or unrelated content (contra B, C)."
       },
       {
         "id": "1w-16",
@@ -5424,7 +5424,7 @@ const QUESTIONS = {
           "This unit's approach directly contradicts what Unit 1 originally established."
         ],
         "correct": 2,
-        "explanation": "Unit 1 established that writing consists of deliberate choices serving a specific purpose and audience; this unit provides a far more precise, technical vocabulary (periodic sentences, anaphora, register shifts) for naming exactly WHICH choices a writer made at the sentence and word level — deepening rather than replacing that foundational insight, a fitting synthesis to close this unit on. Unit 1's ideas remain the foundation, not a relic (contra B), and there's a direct, not contradictory or absent, throughline (contra C, D)."
+        "explanation": "Unit 1 established that writing consists of deliberate choices serving a specific purpose and audience; this unit provides a far more precise, technical vocabulary (periodic sentences, anaphora, register shifts) for naming exactly WHICH choices a writer made at the sentence and word level — deepening rather than replacing that foundational insight, a fitting synthesis to close this unit on. Unit 1's ideas remain the foundation, not a relic (contra B), and there's a direct, not contradictory or absent, throughline (contra D, A)."
       },
       {
         "id": "1w-17",
@@ -5437,7 +5437,7 @@ const QUESTIONS = {
           "Sentence length has essentially no bearing on a speech's persuasive effectiveness."
         ],
         "correct": 1,
-        "explanation": "Varied sentence length lets the speaker match form to function — longer sentences for building context and connection, shorter ones for landing emphatic, memorable points — exactly the deliberate, purposeful variation this unit's toolkit is designed to help a writer control, rather than defaulting to uniform length throughout (contra C) or treating length as irrelevant (contra B) or shortness as something to avoid (contra D)."
+        "explanation": "Varied sentence length lets the speaker match form to function — longer sentences for building context and connection, shorter ones for landing emphatic, memorable points — exactly the deliberate, purposeful variation this unit's toolkit is designed to help a writer control, rather than defaulting to uniform length throughout (contra A) or treating length as irrelevant (contra D) or shortness as something to avoid (contra C)."
       },
       {
         "id": "2w-14",
@@ -5450,7 +5450,7 @@ const QUESTIONS = {
           "Neither technique would have any real effect on this particular sentence."
         ],
         "correct": 0,
-        "explanation": "Periodic structure builds toward a specific delayed revelation, matching the essay's own suspense-and-reveal structure about a career change, while polysyndeton's accumulation effect fits a different rhetorical goal less relevant to this specific opening's purpose — technique selection should match the specific rhetorical goal of a given moment. The two techniques are not interchangeable here (contra A) or both ineffective (contra B), and no technique is universally superior regardless of context (contra D)."
+        "explanation": "Periodic structure builds toward a specific delayed revelation, matching the essay's own suspense-and-reveal structure about a career change, while polysyndeton's accumulation effect fits a different rhetorical goal less relevant to this specific opening's purpose — technique selection should match the specific rhetorical goal of a given moment. The two techniques are not interchangeable here (contra B) or both ineffective (contra D), and no technique is universally superior regardless of context (contra C)."
       },
       {
         "id": "2w-15",
@@ -5463,7 +5463,7 @@ const QUESTIONS = {
           "These are essentially identical skills, requiring no separate or distinct practice."
         ],
         "correct": 2,
-        "explanation": "Recognizing a technique in finished writing and successfully applying it in one's own draft are related but genuinely distinct skills — this unit's draft exercises specifically bridge that gap by requiring students to generate effective revisions, not merely identify techniques already present. The two skills aren't identical (contra B), and this unit's own draft exercises show that application is learnable well short of professional experience (contra D); nothing here ranks recognition as intrinsically harder (contra C)."
+        "explanation": "Recognizing a technique in finished writing and successfully applying it in one's own draft are related but genuinely distinct skills — this unit's draft exercises specifically bridge that gap by requiring students to generate effective revisions, not merely identify techniques already present. The two skills aren't identical (contra D), and this unit's own draft exercises show that application is learnable well short of professional experience (contra B); nothing here ranks recognition as intrinsically harder (contra A)."
       },
       {
         "id": "1w-18",
@@ -6432,7 +6432,7 @@ const QUESTIONS = {
           "Source 1 comes from an independent lab with no stake in the device's reputation."
         ],
         "correct": 1,
-        "explanation": "Source 1 is the manufacturer's own published testing, so it has an obvious interest in favorable accuracy results (Section 8.1's institutional-interest dimension). Choice A inverts the logic — an interested party favors results that help it, not results that hurt it. Choice C describes Source 2, an independent university lab, not Source 1. Choice D ignores that self-published testing about one's own product is a textbook case of institutional interest, even though that interest doesn't make the findings automatically false."
+        "explanation": "Source 1 is the manufacturer's own published testing, so it has an obvious interest in favorable accuracy results (Section 8.1's institutional-interest dimension). Choice A inverts the logic — an interested party favors results that help it, not results that hurt it. Choice D describes Source 2, an independent university lab, not Source 1. Choice C ignores that self-published testing about one's own product is a textbook case of institutional interest, even though that interest doesn't make the findings automatically false."
       },
       {
         "id": "1-6",
@@ -6445,7 +6445,7 @@ const QUESTIONS = {
           "Source 2's biology lab studies general physiology, not exercise measurement specifically."
         ],
         "correct": 0,
-        "explanation": "Source 2's kinesiology lab setting provides direct, relevant expertise in exercise physiology and measurement — a strong expertise credential under this unit's four-dimension framework. Choice A misdescribes the lab's specialty. Choice B wrongly claims expertise is unassessable for academic settings generally. Choice C is wrong because expertise depends on the evaluator's background and independence, not on studying the same object — Source 1 is the manufacturer itself, a fundamentally different position than an outside lab."
+        "explanation": "Source 2's kinesiology lab setting provides direct, relevant expertise in exercise physiology and measurement — a strong expertise credential under this unit's four-dimension framework. Choice D misdescribes the lab's specialty. Choice B wrongly claims expertise is unassessable for academic settings generally. Choice C is wrong because expertise depends on the evaluator's background and independence, not on studying the same object — Source 1 is the manufacturer itself, a fundamentally different position than an outside lab."
       },
       {
         "id": "1-7",
@@ -6457,8 +6457,8 @@ const QUESTIONS = {
           "This would strengthen the essay by avoiding the appearance of conflicting evidence.",
           "Both sources make identical claims, so citing only one would lose no information."
         ],
-        "correct": 0,
-        "explanation": "Citing only Source 1 would create an incomplete picture, omitting a real, specific limitation (declining accuracy during high-intensity exercise) that Source 2 identifies. Choice A is wrong because sample size doesn't compensate for a gap in what conditions were tested. Choice C is false — the sources cover overlapping but not identical conditions. Choice D gets it backward: hiding a real limitation doesn't strengthen an essay, it makes the essay more vulnerable once a reader notices the gap."
+        "correct": 1,
+        "explanation": "Citing only Source 1 would create an incomplete picture, omitting a real, specific limitation (declining accuracy during high-intensity exercise) that Source 2 identifies. Choice A is wrong because sample size doesn't compensate for a gap in what conditions were tested. Choice D is false — the sources cover overlapping but not identical conditions. Choice C gets it backward: hiding a real limitation doesn't strengthen an essay, it makes the essay more vulnerable once a reader notices the gap."
       },
       {
         "id": "1-2",
@@ -6484,7 +6484,7 @@ const QUESTIONS = {
           "The device is accurate at rest and moderate activity, but less accurate during high-intensity exertion."
         ],
         "correct": 3,
-        "explanation": "This synthesis productively combines both findings: accepting Source 1's claims for the conditions it actually tested while incorporating Source 2's additional finding about a specific limitation. Choice A is wrong — the sources are directly related, both concerning the same device's accuracy. Choice B overgeneralizes a partial limitation into a blanket rejection Source 2 never makes. Choice D is unsupported; a limitation in one condition doesn't establish fraud."
+        "explanation": "This synthesis productively combines both findings: accepting Source 1's claims for the conditions it actually tested while incorporating Source 2's additional finding about a specific limitation. Choice B is wrong — the sources are directly related, both concerning the same device's accuracy. Choice A overgeneralizes a partial limitation into a blanket rejection Source 2 never makes. Choice C is unsupported; a limitation in one condition doesn't establish fraud."
       },
       {
         "id": "2-1",
@@ -6497,7 +6497,7 @@ const QUESTIONS = {
           "Source 4 fully confirms Source 3's claim that watch programs caused the burglary reduction."
         ],
         "correct": 2,
-        "explanation": "Source 4 raises a confounding-variable concern: neighborhood characteristics that predate the watch programs may be the real explanation for the correlation Source 3 reports. Choice A is the opposite of what Source 4 argues. Choice B misstates the critique — Source 4 never disputes the statistics themselves, only their causal interpretation. Choice D is simply false; the whole point of Source 4 is to raise exactly this concern."
+        "explanation": "Source 4 raises a confounding-variable concern: neighborhood characteristics that predate the watch programs may be the real explanation for the correlation Source 3 reports. Choice D is the opposite of what Source 4 argues. Choice B misstates the critique — Source 4 never disputes the statistics themselves, only their causal interpretation. Choice A is simply false; the whole point of Source 4 is to raise exactly this concern."
       },
       {
         "id": "2-6",
@@ -6510,7 +6510,7 @@ const QUESTIONS = {
           "As an independent criminology researcher, Source 4 brings specialized expertise in identifying confounding variables."
         ],
         "correct": 3,
-        "explanation": "As an independent criminology researcher, Source 4 brings specialized statistical and research expertise distinct from a police department's more operational perspective — genuine standing to raise this specific methodological critique. Choice A wrongly equates two very different kinds of expertise. Choice C is contradicted by the researcher's stated field. Choice D is wrong because expertise is exactly what gives a critique like this its credibility."
+        "explanation": "As an independent criminology researcher, Source 4 brings specialized statistical and research expertise distinct from a police department's more operational perspective — genuine standing to raise this specific methodological critique. Choice A wrongly equates two very different kinds of expertise. Choice C is contradicted by the researcher's stated field. Choice B is wrong because expertise is exactly what gives a critique like this its credibility."
       },
       {
         "id": "2-7",
@@ -6522,8 +6522,8 @@ const QUESTIONS = {
           "It suggests investigating whether the effect holds in neighborhoods with different income and homeownership profiles before expanding.",
           "It implies the police department's entire report should be treated as fraudulent."
         ],
-        "correct": 0,
-        "explanation": "Taking Source 4 seriously suggests a specific, actionable step: testing whether the burglary-reduction effect holds across different neighborhood profiles before expanding watch programs city-wide based on the observed correlation. Choice A overreacts — Source 4 questions the causal claim, not the programs' entire value. Choice B misreads a causal critique as an accusation of fraud. Choice D is wrong because Source 4's critique translates directly into a concrete research and policy step."
+        "correct": 2,
+        "explanation": "Taking Source 4 seriously suggests a specific, actionable step: testing whether the burglary-reduction effect holds across different neighborhood profiles before expanding watch programs city-wide based on the observed correlation. Choice B overreacts — Source 4 questions the causal claim, not the programs' entire value. Choice D misreads a causal critique as an accusation of fraud. Choice A is wrong because Source 4's critique translates directly into a concrete research and policy step."
       },
       {
         "id": "2-2",
@@ -6536,7 +6536,7 @@ const QUESTIONS = {
           "Yes, Source 4 demonstrates that Source 3's statistics were fabricated."
         ],
         "correct": 2,
-        "explanation": "Source 4 doesn't dispute the underlying correlation Source 3 reports — it questions whether the watch programs themselves caused that reduction, as opposed to pre-existing neighborhood traits. Choice A wrongly assumes one source type is always more credible. Choice C ignores that Source 4 directly responds to Source 3's specific claim. Choice D goes well beyond what Source 4 actually argues, which never alleges fabrication."
+        "explanation": "Source 4 doesn't dispute the underlying correlation Source 3 reports — it questions whether the watch programs themselves caused that reduction, as opposed to pre-existing neighborhood traits. Choice B wrongly assumes one source type is always more credible. Choice A ignores that Source 4 directly responds to Source 3's specific claim. Choice D goes well beyond what Source 4 actually argues, which never alleges fabrication."
       },
       {
         "id": "2-3",
@@ -6548,8 +6548,8 @@ const QUESTIONS = {
           "The correlation may be partly explained by neighborhood characteristics, so causal claims should be appropriately qualified.",
           "Source 3's report should be disregarded entirely as worthless."
         ],
-        "correct": 1,
-        "explanation": "A sophisticated synthesis qualifies rather than discards Source 3's finding: the correlation may be partly or wholly explained by confounding neighborhood characteristics, so causal claims about watch-program effectiveness need appropriate caveats. Choice A overreacts to a causal critique by discarding the data itself. Choice B ignores that Source 4 directly analyzes Source 3's same statistics. Choice C overstates Source 4's finding into a certainty it doesn't claim."
+        "correct": 2,
+        "explanation": "A sophisticated synthesis qualifies rather than discards Source 3's finding: the correlation may be partly or wholly explained by confounding neighborhood characteristics, so causal claims about watch-program effectiveness need appropriate caveats. Choice D overreacts to a causal critique by discarding the data itself. Choice A ignores that Source 4 directly analyzes Source 3's same statistics. Choice B overstates Source 4's finding into a certainty it doesn't claim."
       },
       {
         "id": "3-1",
@@ -6562,7 +6562,7 @@ const QUESTIONS = {
           "Source 6 notes the cited comparison projects serve higher-income populations than this corridor, questioning whether outcomes transfer."
         ],
         "correct": 3,
-        "explanation": "Source 6 raises a comparability concern: the cited projects serve a different, higher-income population than this corridor, questioning whether their outcomes would transfer here. Choice A and B both contradict the passage's clear critique. Choice D overstates the critique into an accusation of fabrication, which Source 6 never makes — its concern is about generalizability, not honesty."
+        "explanation": "Source 6 raises a comparability concern: the cited projects serve a different, higher-income population than this corridor, questioning whether their outcomes would transfer here. Choice A and B both contradict the passage's clear critique. Choice C overstates the critique into an accusation of fabrication, which Source 6 never makes — its concern is about generalizability, not honesty."
       },
       {
         "id": "3-6",
@@ -6575,7 +6575,7 @@ const QUESTIONS = {
           "Currency only matters for direct factual claims, never for forward-looking projections."
         ],
         "correct": 2,
-        "explanation": "Currency matters even for projections: if the underlying comparison-project data is dated, changing commuting conditions since then could affect how reliably those projections transfer to the present. Choice A and D both wrongly exempt projections from currency concerns. Choice C confuses the report's own publication date with the age of the underlying comparison data it draws on — those aren't necessarily the same."
+        "explanation": "Currency matters even for projections: if the underlying comparison-project data is dated, changing commuting conditions since then could affect how reliably those projections transfer to the present. Choice B and D both wrongly exempt projections from currency concerns. Choice A confuses the report's own publication date with the age of the underlying comparison data it draws on — those aren't necessarily the same."
       },
       {
         "id": "3-7",
@@ -6588,7 +6588,7 @@ const QUESTIONS = {
           "There is no meaningful difference; both are equally unsupported objections, treating a claim backed by specific survey data the same as one backed by nothing at all."
         ],
         "correct": 1,
-        "explanation": "Source 6's critique is grounded in specific evidence — a comparability concern about the cited projects and its own survey data — giving it genuine evidentiary weight rather than functioning as a vague complaint. Choice A wrongly equates supported and unsupported claims. Choice B is false; Source 6 introduces new comparison and survey data Source 5 never presents. Choice C directly contradicts the passage, which cites specific survey figures."
+        "explanation": "Source 6's critique is grounded in specific evidence — a comparability concern about the cited projects and its own survey data — giving it genuine evidentiary weight rather than functioning as a vague complaint. Choice D wrongly equates supported and unsupported claims. Choice A is false; Source 6 introduces new comparison and survey data Source 5 never presents. Choice C directly contradicts the passage, which cites specific survey figures."
       },
       {
         "id": "3-2",
@@ -6600,8 +6600,8 @@ const QUESTIONS = {
           "Source 5 has no institutional interest of any kind in this project's outcome.",
           "As the department's own feasibility study for a project it proposed, Source 5 has an interest in favorable projections."
         ],
-        "correct": 1,
-        "explanation": "As the state transportation department's own feasibility study for a project it is proposing, Source 5 has some interest in projections that support the project's approval — worth flagging without dismissing its modeling methodology outright. Choice A and B both ignore the department's evident stake in its own proposal succeeding. Choice D inverts the logic of institutional interest."
+        "correct": 3,
+        "explanation": "As the state transportation department's own feasibility study for a project it is proposing, Source 5 has some interest in projections that support the project's approval — worth flagging without dismissing its modeling methodology outright. Choice A and C both ignore the department's evident stake in its own proposal succeeding. Choice B inverts the logic of institutional interest."
       },
       {
         "id": "3-3",
@@ -6613,8 +6613,8 @@ const QUESTIONS = {
           "Source 6's survey finding that 60 percent of commuters couldn't afford the tolls raises a distributional equity concern.",
           "No equity concern is raised by either source about this project."
         ],
-        "correct": 0,
-        "explanation": "Source 6 raises a distributional equity concern: a majority of this corridor's commuters could not regularly afford the projected tolls, meaning the congestion benefit might primarily reach only wealthier commuters. Choice A misstates Source 6's actual argument, which is the opposite. Choice B ignores the survey data Source 6 explicitly presents. Choice C is contradicted by the passage — Source 5's feasibility study never mentions affordability."
+        "correct": 2,
+        "explanation": "Source 6 raises a distributional equity concern: a majority of this corridor's commuters could not regularly afford the projected tolls, meaning the congestion benefit might primarily reach only wealthier commuters. Choice A misstates Source 6's actual argument, which is the opposite. Choice D ignores the survey data Source 6 explicitly presents. Choice B is contradicted by the passage — Source 5's feasibility study never mentions affordability."
       },
       {
         "id": "3-4",
@@ -6627,7 +6627,7 @@ const QUESTIONS = {
           "The project should proceed exactly as proposed, with no modification of any kind, ignoring the specific equity concern Source 6's survey data raises about affordability."
         ],
         "correct": 0,
-        "explanation": "This synthesis accepts Source 5's projected benefit while incorporating Source 6's equity concern into a specific, actionable modification — rather than simply endorsing or rejecting the project wholesale. Choice A overreacts by discarding the documented benefit entirely. Choice B ignores that Source 6 directly responds to and complicates Source 5's specific claims. Choice C ignores Source 6's evidence entirely."
+        "explanation": "This synthesis accepts Source 5's projected benefit while incorporating Source 6's equity concern into a specific, actionable modification — rather than simply endorsing or rejecting the project wholesale. Choice B overreacts by discarding the documented benefit entirely. Choice D ignores that Source 6 directly responds to and complicates Source 5's specific claims. Choice C ignores Source 6's evidence entirely."
       },
       {
         "id": "1-4",
@@ -6640,7 +6640,7 @@ const QUESTIONS = {
           "Source 2 provides no methodological detail, so its verifiability cannot be assessed."
         ],
         "correct": 2,
-        "explanation": "Source 2's verifiability is relatively strong: it names the devices tested, the EKG comparison standard, and the specific exercise intensities, giving others enough detail to potentially replicate or scrutinize it. Choice A is wrong because verifiability depends on the level of methodological detail given, not just on sharing a comparison standard — Source 1 gives far less detail. Choice B wrongly claims university studies are inherently unassessable. Choice C is simply factually wrong about what the passage states."
+        "explanation": "Source 2's verifiability is relatively strong: it names the devices tested, the EKG comparison standard, and the specific exercise intensities, giving others enough detail to potentially replicate or scrutinize it. Choice B is wrong because verifiability depends on the level of methodological detail given, not just on sharing a comparison standard — Source 1 gives far less detail. Choice A wrongly claims university studies are inherently unassessable. Choice D is simply factually wrong about what the passage states."
       },
       {
         "id": "2-4",
@@ -6653,7 +6653,7 @@ const QUESTIONS = {
           "Source 3's institutional interest would push it toward reporting unfavorable outcomes."
         ],
         "correct": 1,
-        "explanation": "As the police department's own annual report on a department-supported program, Source 3 has a potential interest in reporting favorable outcomes — worth noting without assuming the underlying statistics are false, which Source 4 doesn't actually dispute. Choice B inverts the logic of institutional interest. Choice C ignores the department's evident stake in its own program's success. Choice D wrongly assumes only outside critics can have an interest; departments reporting on their own initiatives do too."
+        "explanation": "As the police department's own annual report on a department-supported program, Source 3 has a potential interest in reporting favorable outcomes — worth noting without assuming the underlying statistics are false, which Source 4 doesn't actually dispute. Choice D inverts the logic of institutional interest. Choice C ignores the department's evident stake in its own program's success. Choice A wrongly assumes only outside critics can have an interest; departments reporting on their own initiatives do too."
       },
       {
         "id": "4-1",
@@ -6666,7 +6666,7 @@ const QUESTIONS = {
           "Citing any source only once in an introduction is always sufficient for strong synthesis, regardless of how substantively the other two sources are actually used elsewhere."
         ],
         "correct": 0,
-        "explanation": "Citing Source A extensively while mentioning B and C only once each in the introduction likely fails Section 8.4's diagnostic test: if Source A's material were removed, the body paragraphs would have little substantive support remaining, despite technically citing three sources. Choice A and D both wrongly treat this as unproblematic. Choice C overgeneralizes; a single brief mention can be sufficient in some contexts but not when it's the source's only appearance."
+        "explanation": "Citing Source A extensively while mentioning B and C only once each in the introduction likely fails Section 8.4's diagnostic test: if Source A's material were removed, the body paragraphs would have little substantive support remaining, despite technically citing three sources. Choice B and C both wrongly treat this as unproblematic. Choice D overgeneralizes; a single brief mention can be sufficient in some contexts but not when it's the source's only appearance."
       },
       {
         "id": "4-2",
@@ -6691,8 +6691,8 @@ const QUESTIONS = {
           "This note demonstrates the specific weakness of overreliance on a single source.",
           "This note demonstrates poor reading comprehension of the source material."
         ],
-        "correct": 3,
-        "explanation": "The note demonstrates Section 8.2's investigating-conflict skill: rather than just recording that urban and rural results differ, it proposes a specific likely explanation (different labor markets) during the reading period itself. Choice A mischaracterizes an analytical note as a comprehension error. Choice C undersells the note's analytical content. Choice D misapplies a different unit concept (Section 8.4) that isn't relevant to this note."
+        "correct": 1,
+        "explanation": "The note demonstrates Section 8.2's investigating-conflict skill: rather than just recording that urban and rural results differ, it proposes a specific likely explanation (different labor markets) during the reading period itself. Choice D mischaracterizes an analytical note as a comprehension error. Choice A undersells the note's analytical content. Choice C misapplies a different unit concept (Section 8.4) that isn't relevant to this note."
       },
       {
         "id": "5-2",
@@ -6704,8 +6704,8 @@ const QUESTIONS = {
           "Reading actively and evaluatively from the start is more efficient, since it avoids a separate second pass later.",
           "Reading all sources fully before forming any position is always the more efficient approach."
         ],
-        "correct": 3,
-        "explanation": "Reading actively and evaluatively from the start — noting relevance and potential conflicts as they're encountered — is more efficient, since it avoids a separate, time-consuming second pass to reconstruct those judgments later. Choice A claims the opposite of what Section 8.5 recommends. Choices C and D both wrongly deny any connection between reading strategy and time efficiency, contradicting the section's core point."
+        "correct": 2,
+        "explanation": "Reading actively and evaluatively from the start — noting relevance and potential conflicts as they're encountered — is more efficient, since it avoids a separate, time-consuming second pass to reconstruct those judgments later. Choice D claims the opposite of what Section 8.5 recommends. Choices A and B both wrongly deny any connection between reading strategy and time efficiency, contradicting the section's core point."
       },
       {
         "id": "4-3",
@@ -6718,7 +6718,7 @@ const QUESTIONS = {
           "One of the two studies must have fabricated its underlying data, a claim the passage's description of matched control groups directly contradicts."
         ],
         "correct": 2,
-        "explanation": "Different labor market conditions likely explain the divergence: urban areas may have more available jobs matching participants' new training, while rural areas may have fewer such openings regardless of improved qualifications. Choice A ignores the passage's specific contextual explanation in favor of an unrelated factor. Choice B is an unsupported leap to fabrication. Choice D directly contradicts the passage, which describes testing the identical program in both settings."
+        "explanation": "Different labor market conditions likely explain the divergence: urban areas may have more available jobs matching participants' new training, while rural areas may have fewer such openings regardless of improved qualifications. Choice A ignores the passage's specific contextual explanation in favor of an unrelated factor. Choice D is an unsupported leap to fabrication. Choice B directly contradicts the passage, which describes testing the identical program in both settings."
       },
       {
         "id": "4-4",
@@ -6730,8 +6730,8 @@ const QUESTIONS = {
           "It proves the rural pilot was a complete failure with no redeeming outcome.",
           "This finding has no relevance to synthesizing the two studies' results."
         ],
-        "correct": 1,
-        "explanation": "Source 8's confidence and job-search findings suggest the program may have genuine value even where labor market conditions limit employment outcomes — supporting a synthesized claim that the program's value may depend on pairing it with adequate local job availability. Choice A overstates a limited result into total failure, ignoring the positive secondary findings. Choice B ignores the finding's clear relevance to interpreting the rural result. Choice D mischaracterizes complementary findings as an irreconcilable contradiction."
+        "correct": 0,
+        "explanation": "Source 8's confidence and job-search findings suggest the program may have genuine value even where labor market conditions limit employment outcomes — supporting a synthesized claim that the program's value may depend on pairing it with adequate local job availability. Choice C overstates a limited result into total failure, ignoring the positive secondary findings. Choice D ignores the finding's clear relevance to interpreting the rural result. Choice B mischaracterizes complementary findings as an irreconcilable contradiction."
       },
       {
         "id": "4-6",
@@ -6744,7 +6744,7 @@ const QUESTIONS = {
           "Only Source 7 has any verifiability; Source 8 provides none."
         ],
         "correct": 2,
-        "explanation": "Both sources specify their sample sizes and matched-control-group methodology, giving each finding sufficient methodological detail for independent scrutiny, regardless of whether their conclusions ultimately agree. Choice A and C both ignore that the passage gives comparable methodological detail for both studies. Choice D wrongly ties verifiability to agreement between sources, when it's actually a property of how much detail a single source discloses."
+        "explanation": "Both sources specify their sample sizes and matched-control-group methodology, giving each finding sufficient methodological detail for independent scrutiny, regardless of whether their conclusions ultimately agree. Choice A and D both ignore that the passage gives comparable methodological detail for both studies. Choice B wrongly ties verifiability to agreement between sources, when it's actually a property of how much detail a single source discloses."
       },
       {
         "id": "5-3",
@@ -6757,7 +6757,7 @@ const QUESTIONS = {
           "Yes, they make completely incompatible factual claims about ridership numbers."
         ],
         "correct": 2,
-        "explanation": "These sources don't directly conflict; they address different aspects of the same policy, so a sophisticated synthesis would use both together rather than forcing a false conflict. Choice B ignores that both sources concern the same fare-free pilot. Choices C and D both invent a factual dispute the passage never describes — Source 10 addresses funding, not ridership figures."
+        "explanation": "These sources don't directly conflict; they address different aspects of the same policy, so a sophisticated synthesis would use both together rather than forcing a false conflict. Choice A ignores that both sources concern the same fare-free pilot. Choices B and D both invent a factual dispute the passage never describes — Source 10 addresses funding, not ridership figures."
       },
       {
         "id": "5-4",
@@ -6769,8 +6769,8 @@ const QUESTIONS = {
           "The pilot appears to have real benefits, but making it permanent requires identifying a dedicated funding source.",
           "The pilot should be made permanent immediately, with no further consideration needed."
         ],
-        "correct": 1,
-        "explanation": "This synthesis uses both sources' distinct contributions: accepting Source 9's documented ridership and equity benefits while incorporating Source 10's funding concern into a specific, actionable next step. Choice A ignores the funding sustainability problem Source 10 raises. Choice B ignores the clear complementary relationship between the two sources. Choice D overreacts, discarding a documented benefit rather than addressing the funding gap directly."
+        "correct": 2,
+        "explanation": "This synthesis uses both sources' distinct contributions: accepting Source 9's documented ridership and equity benefits while incorporating Source 10's funding concern into a specific, actionable next step. Choice D ignores the funding sustainability problem Source 10 raises. Choice A ignores the clear complementary relationship between the two sources. Choice B overreacts, discarding a documented benefit rather than addressing the funding gap directly."
       },
       {
         "id": "5-6",
@@ -6783,7 +6783,7 @@ const QUESTIONS = {
           "Source 10 brings budget-analysis expertise focused on funding sustainability, complementing Source 9's ridership-tracking expertise, two genuinely different analytical skill sets neither source could substitute for the other."
         ],
         "correct": 3,
-        "explanation": "Source 10 brings specific budget-analysis expertise focused on funding sustainability, complementing rather than duplicating Source 9's operational ridership-tracking expertise — two genuinely different analytical dimensions. Choice A and D both ignore Source 10's clearly stated budget-analysis background. Choice C flattens a meaningful distinction the passage draws between operational and financial expertise."
+        "explanation": "Source 10 brings specific budget-analysis expertise focused on funding sustainability, complementing rather than duplicating Source 9's operational ridership-tracking expertise — two genuinely different analytical dimensions. Choice A and C both ignore Source 10's clearly stated budget-analysis background. Choice B flattens a meaningful distinction the passage draws between operational and financial expertise."
       },
       {
         "id": "5-7",
@@ -6796,7 +6796,7 @@ const QUESTIONS = {
           "Independent sources are always more accurate than institutional sources across every source set."
         ],
         "correct": 2,
-        "explanation": "Across all five source sets, institutional sources provide genuine, useful data alongside a clear institutional interest, while independent or complementary sources add scrutiny or additional dimensions — illustrating that productive synthesis uses both types together. Choice A treats one source type as inherently more trustworthy, which the unit repeatedly warns against. Choice B ignores the clear repeated pattern across the five sets. Choice C overstates the pattern into a blanket accuracy claim the unit never makes."
+        "explanation": "Across all five source sets, institutional sources provide genuine, useful data alongside a clear institutional interest, while independent or complementary sources add scrutiny or additional dimensions — illustrating that productive synthesis uses both types together. Choice A treats one source type as inherently more trustworthy, which the unit repeatedly warns against. Choice B ignores the clear repeated pattern across the five sets. Choice D overstates the pattern into a blanket accuracy claim the unit never makes."
       },
       {
         "id": "1-5",
@@ -6821,8 +6821,8 @@ const QUESTIONS = {
           "As sources that must both be eliminated from any argument, since they disagree.",
           "As sources that flatly contradict each other with no possible reconciliation."
         ],
-        "correct": 3,
-        "explanation": "Source 3 reports a correlation; Source 4 investigates a specific alternative causal explanation for that same correlation — a relationship of complication and refinement, not flat contradiction. Choice A overstates the disagreement as irreconcilable when Source 4 actually builds directly on Source 3's data. Choice C wrongly assumes disagreement requires discarding both sources. Choice D ignores that Source 4 is a direct response to Source 3's specific claim."
+        "correct": 1,
+        "explanation": "Source 3 reports a correlation; Source 4 investigates a specific alternative causal explanation for that same correlation — a relationship of complication and refinement, not flat contradiction. Choice D overstates the disagreement as irreconcilable when Source 4 actually builds directly on Source 3's data. Choice C wrongly assumes disagreement requires discarding both sources. Choice A ignores that Source 4 is a direct response to Source 3's specific claim."
       },
       {
         "id": "3-5",
@@ -6835,7 +6835,7 @@ const QUESTIONS = {
           "Removing Source 5 would most damage a pro-project argument, since it supplies the core congestion-benefit evidence, the specific projected benefit a pro-project essay would otherwise have no other source to draw on."
         ],
         "correct": 3,
-        "explanation": "Removing Source 5 would most damage a pro-project argument, since it provides the essay's primary evidence for the claimed congestion benefit that justifies the project in the first place — making it that argument's single most load-bearing source. Choices A and B both wrongly claim neither source matters. Choice D reverses the roles; Source 6 supplies the equity objection a pro-project essay would need to address, not its central justification."
+        "explanation": "Removing Source 5 would most damage a pro-project argument, since it provides the essay's primary evidence for the claimed congestion benefit that justifies the project in the first place — making it that argument's single most load-bearing source. Choices B and C both wrongly claim neither source matters. Choice A reverses the roles; Source 6 supplies the equity objection a pro-project essay would need to address, not its central justification."
       },
       {
         "id": "4-5",
@@ -6848,7 +6848,7 @@ const QUESTIONS = {
           "One paragraph summarizing Source 7, followed by a separate, disconnected paragraph summarizing Source 8."
         ],
         "correct": 2,
-        "explanation": "Organizing around a specific unifying claim — that effectiveness depends on labor market context — and using both sources' different findings as evidence for that single claim exemplifies genuine idea-based organization, turning an apparent conflict into the argument's substance. Choice B cites without a governing claim, which Section 8.3 identifies as weak. Choice C discards relevant evidence. Choice D is the source-by-source pattern this unit specifically trains students to avoid."
+        "explanation": "Organizing around a specific unifying claim — that effectiveness depends on labor market context — and using both sources' different findings as evidence for that single claim exemplifies genuine idea-based organization, turning an apparent conflict into the argument's substance. Choice A cites without a governing claim, which Section 8.3 identifies as weak. Choice B discards relevant evidence. Choice D is the source-by-source pattern this unit specifically trains students to avoid."
       },
       {
         "id": "5-5",
@@ -6861,7 +6861,7 @@ const QUESTIONS = {
           "Only funding sustainability matters; ridership and equity are irrelevant considerations."
         ],
         "correct": 2,
-        "explanation": "Source 9 establishes two positive dimensions that make the policy appealing, while Source 10 establishes a practical funding constraint that must be addressed for that appeal to become sustainable — three considerations a strong synthesis weighs together. Choice A invents an internal contradiction the passage doesn't describe. Choice B arbitrarily discards two of the three relevant considerations. Choice C ignores how directly the funding question depends on the benefits already established."
+        "explanation": "Source 9 establishes two positive dimensions that make the policy appealing, while Source 10 establishes a practical funding constraint that must be addressed for that appeal to become sustainable — three considerations a strong synthesis weighs together. Choice B invents an internal contradiction the passage doesn't describe. Choice D arbitrarily discards two of the three relevant considerations. Choice A ignores how directly the funding question depends on the benefits already established."
       },
       {
         "id": "1-8",
@@ -6873,8 +6873,8 @@ const QUESTIONS = {
           "Source 1 should be dismissed entirely due to its institutional interest, regardless of any corroborating evidence.",
           "Source 1 has real institutional interest and unclear currency, but reasonable expertise, warranting cautious, corroborated use."
         ],
-        "correct": 2,
-        "explanation": "A balanced assessment weighs all four dimensions together: institutional interest and currency are genuine concerns, but expertise and verifiability are reasonably strong, supporting cautious use alongside corroboration like Source 2. Choice A ignores the real institutional-interest concern. Choice B is factually wrong — the passage gives enough detail to assess several dimensions. Choice D overcorrects into automatic dismissal, which this unit's framework specifically warns against."
+        "correct": 3,
+        "explanation": "A balanced assessment weighs all four dimensions together: institutional interest and currency are genuine concerns, but expertise and verifiability are reasonably strong, supporting cautious use alongside corroboration like Source 2. Choice B ignores the real institutional-interest concern. Choice A is factually wrong — the passage gives enough detail to assess several dimensions. Choice C overcorrects into automatic dismissal, which this unit's framework specifically warns against."
       },
       {
         "id": "2-8",
@@ -6887,7 +6887,7 @@ const QUESTIONS = {
           "Explaining that the sources' apparent disagreement reflects a correlation-versus-causation distinction, rather than simply recording that the two sources happen to disagree with each other."
         ],
         "correct": 2,
-        "explanation": "The weakest approach is citing Source 3's statistic while ignoring Source 4's critique entirely, presenting contested causation as settled fact — exactly the one-sided source use Section 8.2 warns against. Choices B, C, and D each represent genuine engagement with both sources at increasing levels of sophistication, none of which is the weakest option described in the stem."
+        "explanation": "The weakest approach is citing Source 3's statistic while ignoring Source 4's critique entirely, presenting contested causation as settled fact — exactly the one-sided source use Section 8.2 warns against. Choices A, B, and D each represent genuine engagement with both sources at increasing levels of sophistication, none of which is the weakest option described in the stem."
       },
       {
         "id": "3-8",
@@ -6900,7 +6900,7 @@ const QUESTIONS = {
           "Nothing would be lost; Source 6 alone tells the complete story on its own."
         ],
         "correct": 1,
-        "explanation": "Using only Source 6 would lose the specific projected-benefit data explaining why the project was proposed, presenting only the objection without the countervailing case it's actually responding to. Choice A and B both ignore Source 5's substantive, distinct contribution. Choice C gets it backward — omitting the case the objection responds to makes an essay less balanced, not more."
+        "explanation": "Using only Source 6 would lose the specific projected-benefit data explaining why the project was proposed, presenting only the objection without the countervailing case it's actually responding to. Choice A and D both ignore Source 5's substantive, distinct contribution. Choice C gets it backward — omitting the case the objection responds to makes an essay less balanced, not more."
       },
       {
         "id": "4-7",
@@ -6913,7 +6913,7 @@ const QUESTIONS = {
           "Studying them together reveals a testable hypothesis, that labor market context matters, which neither study alone could establish."
         ],
         "correct": 3,
-        "explanation": "Studying the pair together reveals a specific, testable hypothesis — that labor market context shapes outcomes — that neither study alone could establish, since each only tested one context. Choice A and D both wrongly deny that comparison adds insight. Choice C contradicts the unit's entire premise, which is built around productively comparing related sources."
+        "explanation": "Studying the pair together reveals a specific, testable hypothesis — that labor market context shapes outcomes — that neither study alone could establish, since each only tested one context. Choice A and B both wrongly deny that comparison adds insight. Choice C contradicts the unit's entire premise, which is built around productively comparing related sources."
       },
       {
         "id": "5-8",
@@ -6925,8 +6925,8 @@ const QUESTIONS = {
           "That studying five source sets together provides no more insight than studying any single one alone.",
           "That only sources with zero institutional interest should ever be cited in an essay."
         ],
-        "correct": 2,
-        "explanation": "The single most important lesson is that genuine synthesis means actively investigating relationships between sources and building a position that accounts for that full relationship, rather than treating sources as items on a checklist to be cited without engagement. Choice A contradicts the comparative value the unit repeatedly demonstrates. Choice B misapplies the institutional-interest lesson into an absolute rule. Choice D describes the overreliance pattern Section 8.4 specifically warns against."
+        "correct": 1,
+        "explanation": "The single most important lesson is that genuine synthesis means actively investigating relationships between sources and building a position that accounts for that full relationship, rather than treating sources as items on a checklist to be cited without engagement. Choice C contradicts the comparative value the unit repeatedly demonstrates. Choice D misapplies the institutional-interest lesson into an absolute rule. Choice A describes the overreliance pattern Section 8.4 specifically warns against."
       },
       {
         "id": "3-9",
@@ -6939,7 +6939,7 @@ const QUESTIONS = {
           "The project is a good idea simply because Source 5 says so."
         ],
         "correct": 0,
-        "explanation": "This thesis genuinely synthesizes both sources: it accepts Source 5's documented benefit while directly incorporating Source 6's equity concern into a specific, actionable condition, rather than deferring to either source alone. Choices A and C each rely on a single source's authority rather than genuine synthesis. Choice D treats disagreement as unresolvable rather than as something a thesis can productively reconcile."
+        "explanation": "This thesis genuinely synthesizes both sources: it accepts Source 5's documented benefit while directly incorporating Source 6's equity concern into a specific, actionable condition, rather than deferring to either source alone. Choices B and D each rely on a single source's authority rather than genuine synthesis. Choice C treats disagreement as unresolvable rather than as something a thesis can productively reconcile."
       }
     ],
     "draftPassages": [
@@ -6968,7 +6968,7 @@ const QUESTIONS = {
           "They contain grammatical errors that obscure their meaning."
         ],
         "correct": 1,
-        "explanation": "Sentences [1]-[3] organize around individual sources rather than developing ideas — each sentence simply announces a different source's topic, exactly the source-by-source weakness Section 8.3 identifies as weaker than idea-based organization. Choice B is wrong; the sentences don't conflict, they simply sit side by side. Choice C is backward — the sentences are actually too vague and general to be criticized as overly specific. Choice D is unsupported by the actual text."
+        "explanation": "Sentences [1]-[3] organize around individual sources rather than developing ideas — each sentence simply announces a different source's topic, exactly the source-by-source weakness Section 8.3 identifies as weaker than idea-based organization. Choice C is wrong; the sentences don't conflict, they simply sit side by side. Choice A is backward — the sentences are actually too vague and general to be criticized as overly specific. Choice D is unsupported by the actual text."
       },
       {
         "id": "1w-2",
@@ -6980,8 +6980,8 @@ const QUESTIONS = {
           "Keeping the same three-sentence structure but adding a fourth source announcement.",
           "Removing all source citations from the paragraph entirely."
         ],
-        "correct": 3,
-        "explanation": "Reorganizing around a developing claim — opening with the specific access problem telehealth addresses, then supporting it with usage and satisfaction evidence as relevant — replaces disconnected source announcements with genuine idea-based organization. Choice A removes the evidence the paragraph needs rather than restructuring it. Choice C only changes sequence, not the underlying source-by-source pattern. Choice D compounds the existing weakness rather than fixing it."
+        "correct": 0,
+        "explanation": "Reorganizing around a developing claim — opening with the specific access problem telehealth addresses, then supporting it with usage and satisfaction evidence as relevant — replaces disconnected source announcements with genuine idea-based organization. Choice D removes the evidence the paragraph needs rather than restructuring it. Choice B only changes sequence, not the underlying source-by-source pattern. Choice C compounds the existing weakness rather than fixing it."
       },
       {
         "id": "1w-3",
@@ -6994,7 +6994,7 @@ const QUESTIONS = {
           "It is grammatically incorrect and difficult for a reader to parse."
         ],
         "correct": 0,
-        "explanation": "This sentence offers a vague, generic conclusion without specifying what SPECIFIC benefit each source demonstrates or how those benefits connect to the essay's actual policy argument — evidence dumping toward a conclusion rather than genuine synthesis. Choice B is the opposite problem from what's actually present. Choice C misreads the sentence, which summarizes rather than contradicts the prior claims. Choice D is unsupported by the actual wording."
+        "explanation": "This sentence offers a vague, generic conclusion without specifying what SPECIFIC benefit each source demonstrates or how those benefits connect to the essay's actual policy argument — evidence dumping toward a conclusion rather than genuine synthesis. Choice C is the opposite problem from what's actually present. Choice B misreads the sentence, which summarizes rather than contradicts the prior claims. Choice D is unsupported by the actual wording."
       },
       {
         "id": "2w-1",
@@ -7020,7 +7020,7 @@ const QUESTIONS = {
           "This diagnostic test cannot be meaningfully applied to a paragraph like this one."
         ],
         "correct": 0,
-        "explanation": "Applying the test, the argument would essentially collapse if the sole study were removed — sentence [3]'s vague reference to unspecified 'other research' provides no actual substantive support, revealing genuine overreliance rather than synthesis. Choice A ignores how little evidence would remain. Choice C is unsupported; removing evidence doesn't strengthen an argument. Choice D wrongly claims the test is inapplicable when it's exactly the situation it's designed to catch."
+        "explanation": "Applying the test, the argument would essentially collapse if the sole study were removed — sentence [3]'s vague reference to unspecified 'other research' provides no actual substantive support, revealing genuine overreliance rather than synthesis. Choice C ignores how little evidence would remain. Choice B is unsupported; removing evidence doesn't strengthen an argument. Choice D wrongly claims the test is inapplicable when it's exactly the situation it's designed to catch."
       },
       {
         "id": "2w-3",
@@ -7032,7 +7032,7 @@ const QUESTIONS = {
           "Removing sentence [3] entirely, leaving no replacement in its place.",
           "Replacing the vague gesture with specific findings from a genuinely different, named second source."
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": "Replacing the vague gesture with specific findings from a genuinely different, named source — substantively integrated rather than mentioned in passing — gives the paragraph an actual second evidentiary foundation, directly correcting the overreliance weakness. Choice A removes evidence rather than diversifying it. Choice B compounds the vagueness problem instead of fixing it. Choice C leaves the paragraph with even less support than before."
       },
       {
@@ -7045,8 +7045,8 @@ const QUESTIONS = {
           "A sentence flatly claiming Source B's satisfaction data is simply wrong.",
           "A sentence noting that Source B's ratings come from routine visits while Source C's data centers on complex referrals, a difference that could explain any apparent tension."
         ],
-        "correct": 1,
-        "explanation": "Noting that Source B's high ratings come from routine visits while Source C's access data concerns more complex referral cases investigates a specific likely explanation for any apparent tension — exactly the Section 8.2 skill of identifying WHY sources might diverge. Choice A dismisses a source rather than investigating the disagreement. Choice C avoids the analysis entirely by discarding evidence. Choice D records disagreement without the investigative step the skill requires."
+        "correct": 3,
+        "explanation": "Noting that Source B's high ratings come from routine visits while Source C's access data concerns more complex referral cases investigates a specific likely explanation for any apparent tension — exactly the Section 8.2 skill of identifying WHY sources might diverge. Choice A dismisses a source rather than investigating the disagreement. Choice C avoids the analysis entirely by discarding evidence. Choice B records disagreement without the investigative step the skill requires."
       },
       {
         "id": "2w-4",
@@ -7059,7 +7059,7 @@ const QUESTIONS = {
           "Keeping the paragraph organized exactly as it is currently written."
         ],
         "correct": 0,
-        "explanation": "Opening with the specific policy question and addressing it through two clearly connected threads, each drawing on multiple sources, applies Section 8.3's idea-based organization instead of simply reporting one study's sequential findings. Choice B increases reliance on the single source rather than reducing it. Choice C ignores the paragraph's demonstrated weaknesses. Choice D removes the very question the paragraph needs to organize around."
+        "explanation": "Opening with the specific policy question and addressing it through two clearly connected threads, each drawing on multiple sources, applies Section 8.3's idea-based organization instead of simply reporting one study's sequential findings. Choice C increases reliance on the single source rather than reducing it. Choice D ignores the paragraph's demonstrated weaknesses. Choice B removes the very question the paragraph needs to organize around."
       },
       {
         "id": "1w-5",
@@ -7072,7 +7072,7 @@ const QUESTIONS = {
           "Restructuring around a specific developing claim, with each source contributing distinct, substantive support to it."
         ],
         "correct": 3,
-        "explanation": "Restructuring around a specific developing claim — with each source contributing distinct, substantive support rather than its own disconnected announcement — addresses both the organizational weakness (Section 8.3) and the vague-conclusion weakness at once. Choice A removes needed evidence. Choice B addresses length, not the actual structural problem. Choice D multiplies the existing weakness rather than correcting it."
+        "explanation": "Restructuring around a specific developing claim — with each source contributing distinct, substantive support rather than its own disconnected announcement — addresses both the organizational weakness (Section 8.3) and the vague-conclusion weakness at once. Choice B removes needed evidence. Choice A addresses length, not the actual structural problem. Choice C multiplies the existing weakness rather than correcting it."
       },
       {
         "id": "2w-5",
@@ -7085,7 +7085,7 @@ const QUESTIONS = {
           "The conclusion is fully justified as written and requires no further qualification."
         ],
         "correct": 2,
-        "explanation": "Since the paragraph relies on essentially one study, its confident, unqualified conclusion generalizes from a single data source to a broad claim about test-optional policies generally — exactly the overreach risk Section 8.4 warns against. Choice A misreads the conclusion, which does derive from the cited study. Choice B misdiagnoses the problem as scope rather than evidentiary support. Choice D ignores the genuine overreach risk the narrow foundation creates."
+        "explanation": "Since the paragraph relies on essentially one study, its confident, unqualified conclusion generalizes from a single data source to a broad claim about test-optional policies generally — exactly the overreach risk Section 8.4 warns against. Choice B misreads the conclusion, which does derive from the cited study. Choice A misdiagnoses the problem as scope rather than evidentiary support. Choice D ignores the genuine overreach risk the narrow foundation creates."
       },
       {
         "id": "1w-6",
@@ -7111,7 +7111,7 @@ const QUESTIONS = {
           "This unit's overreliance problem extends evidence dumping to describe commentary drawn from only one substantive source."
         ],
         "correct": 3,
-        "explanation": "This unit's overreliance concept extends Unit 2's evidence-dumping concept into the multi-source context: while evidence dumping describes citing without connecting commentary, overreliance describes having genuine commentary but from only one substantive source. Choice A misreads which contexts the earlier concept applies to. Choice B ignores the direct conceptual link. Choice D wrongly frames extension as replacement."
+        "explanation": "This unit's overreliance concept extends Unit 2's evidence-dumping concept into the multi-source context: while evidence dumping describes citing without connecting commentary, overreliance describes having genuine commentary but from only one substantive source. Choice B misreads which contexts the earlier concept applies to. Choice A ignores the direct conceptual link. Choice C wrongly frames extension as replacement."
       },
       {
         "id": "1w-7",
@@ -7124,7 +7124,7 @@ const QUESTIONS = {
           "It flattens three distinct findings into one vague word, losing each source's specific contribution."
         ],
         "correct": 3,
-        "explanation": "The sentence collapses three genuinely different findings into one flat, undifferentiated word (\"beneficial\"), losing the specific, distinct contribution each source actually makes — a summary so generic it provides no real argumentative traction. Choice A is unsupported by the actual wording. Choice B misreads a vague summary as an outright contradiction. Choice D is the opposite of the sentence's actual weakness."
+        "explanation": "The sentence collapses three genuinely different findings into one flat, undifferentiated word (\"beneficial\"), losing the specific, distinct contribution each source actually makes — a summary so generic it provides no real argumentative traction. Choice B is unsupported by the actual wording. Choice A misreads a vague summary as an outright contradiction. Choice C is the opposite of the sentence's actual weakness."
       },
       {
         "id": "2w-7",
@@ -7137,7 +7137,7 @@ const QUESTIONS = {
           "A vague statement noting that many people hold opinions on this general topic."
         ],
         "correct": 1,
-        "explanation": "A specific finding from a genuinely different, independently conducted study — corroborating or complicating the first — gives the paragraph a real second evidentiary anchor. Choice B removes evidence entirely. Choice C is exactly the kind of vague gesture the paragraph already fails on. Choice D re-cites the same source, doing nothing to correct the underlying overreliance."
+        "explanation": "A specific finding from a genuinely different, independently conducted study — corroborating or complicating the first — gives the paragraph a real second evidentiary anchor. Choice A removes evidence entirely. Choice D is exactly the kind of vague gesture the paragraph already fails on. Choice C re-cites the same source, doing nothing to correct the underlying overreliance."
       },
       {
         "id": "1w-8",
@@ -7150,7 +7150,7 @@ const QUESTIONS = {
           "Citing exactly one source as many times as possible throughout the paragraph."
         ],
         "correct": 0,
-        "explanation": "A strong revision needs to accomplish three things together: a developing claim (Section 8.3), genuine multi-source use (Section 8.4), and real connecting commentary (extending Unit 2's evidence-dumping concept) — interconnected requirements, not separate checklist items. Choice A recreates the overreliance problem. Choice C removes the specificity the paragraph actually needs. Choice D adds volume without addressing the underlying structural issues."
+        "explanation": "A strong revision needs to accomplish three things together: a developing claim (Section 8.3), genuine multi-source use (Section 8.4), and real connecting commentary (extending Unit 2's evidence-dumping concept) — interconnected requirements, not separate checklist items. Choice D recreates the overreliance problem. Choice B removes the specificity the paragraph actually needs. Choice C adds volume without addressing the underlying structural issues."
       },
       {
         "id": "2w-8",
@@ -7162,8 +7162,8 @@ const QUESTIONS = {
           "Removing the specific policy question the paragraph is meant to address entirely.",
           "This paragraph should remain organized exactly as it is currently structured."
         ],
-        "correct": 0,
-        "explanation": "Opening with the specific policy question and addressing it through two clearly connected evidentiary threads, each drawing on genuinely multiple sources, applies Section 8.3's idea-based organization. Choice A deepens reliance on a single source. Choice B ignores the paragraph's demonstrated structural weaknesses. Choice C removes the very question the paragraph should organize around."
+        "correct": 1,
+        "explanation": "Opening with the specific policy question and addressing it through two clearly connected evidentiary threads, each drawing on genuinely multiple sources, applies Section 8.3's idea-based organization. Choice A deepens reliance on a single source. Choice D ignores the paragraph's demonstrated structural weaknesses. Choice C removes the very question the paragraph should organize around."
       },
       {
         "id": "1w-9",
@@ -7176,7 +7176,7 @@ const QUESTIONS = {
           "The pairing of these two specific drafts is arbitrary, with no real pedagogical purpose."
         ],
         "correct": 0,
-        "explanation": "Pairing a source-organization weakness (D1) with a source-overreliance weakness (D2) reflects two genuinely different, equally common synthesis failures — students need practice recognizing and correcting both, not just one. Choice A wrongly dismisses one of the two documented weaknesses. Choice C ignores the clear distinction between the two drafts' specific problems. Choice D misses the deliberate pedagogical design behind the pairing."
+        "explanation": "Pairing a source-organization weakness (D1) with a source-overreliance weakness (D2) reflects two genuinely different, equally common synthesis failures — students need practice recognizing and correcting both, not just one. Choice C wrongly dismisses one of the two documented weaknesses. Choice B ignores the clear distinction between the two drafts' specific problems. Choice D misses the deliberate pedagogical design behind the pairing."
       },
       {
         "id": "2w-9",
@@ -7189,7 +7189,7 @@ const QUESTIONS = {
           "These two qualities are identical; any paragraph that sounds objective is automatically well-synthesized."
         ],
         "correct": 0,
-        "explanation": "A paragraph can sound confident and objective while resting on a genuinely narrow evidentiary base — tone and multi-source substance are separate qualities, which is why the unit's diagnostic tools exist to check substance even when tone already sounds appropriate. Choice A and B both wrongly conflate or disconnect tone and substance. Choice D substitutes one surface feature (uncertainty) for the actual issue (evidentiary breadth)."
+        "explanation": "A paragraph can sound confident and objective while resting on a genuinely narrow evidentiary base — tone and multi-source substance are separate qualities, which is why the unit's diagnostic tools exist to check substance even when tone already sounds appropriate. Choice B and D both wrongly conflate or disconnect tone and substance. Choice C substitutes one surface feature (uncertainty) for the actual issue (evidentiary breadth)."
       },
       {
         "id": "1w-10",
@@ -7202,7 +7202,7 @@ const QUESTIONS = {
           "Transition words only smooth surface flow; they don't fix the underlying source-announcement structure."
         ],
         "correct": 3,
-        "explanation": "Adding transition words would only smooth surface-level flow without addressing the underlying structural problem: each sentence would still announce a different source's topic rather than contribute to one developing claim. Choice B overstates what a surface-level fix can accomplish. Choice C ignores the clearly identified organizational weakness. Choice D is an overgeneralization the passage never supports."
+        "explanation": "Adding transition words would only smooth surface-level flow without addressing the underlying structural problem: each sentence would still announce a different source's topic rather than contribute to one developing claim. Choice B overstates what a surface-level fix can accomplish. Choice C ignores the clearly identified organizational weakness. Choice A is an overgeneralization the passage never supports."
       },
       {
         "id": "2w-10",
@@ -7215,7 +7215,7 @@ const QUESTIONS = {
           "No, because this paragraph should use less confident language regardless of its evidentiary base."
         ],
         "correct": 1,
-        "explanation": "This would not be sound advice: the paragraph already uses confident language, and its actual weakness is evidentiary; adding more confidence to a narrow evidentiary base makes the overreach problem worse, not better. Choice B misdiagnoses tone as the issue rather than the actual cause. Choices C and D both wrongly treat confidence and evidentiary strength as interchangeable."
+        "explanation": "This would not be sound advice: the paragraph already uses confident language, and its actual weakness is evidentiary; adding more confidence to a narrow evidentiary base makes the overreach problem worse, not better. Choice D misdiagnoses tone as the issue rather than the actual cause. Choices A and C both wrongly treat confidence and evidentiary strength as interchangeable."
       },
       {
         "id": "1w-11",
@@ -7228,7 +7228,7 @@ const QUESTIONS = {
           "This unit's idea-based organization directly applies Unit 2's line-of-reasoning concept to multi-source writing."
         ],
         "correct": 3,
-        "explanation": "This unit's idea-based organization is a direct application of Unit 2's line-of-reasoning concept to multi-source research writing — the same underlying principle applied to how sources get cited and organized. Choice A misreads extension as contradiction. Choice C ignores the clear conceptual link between the two units. Choice D wrongly limits a general argumentative principle to a narrower context than it actually applies to."
+        "explanation": "This unit's idea-based organization is a direct application of Unit 2's line-of-reasoning concept to multi-source research writing — the same underlying principle applied to how sources get cited and organized. Choice C misreads extension as contradiction. Choice B ignores the clear conceptual link between the two units. Choice A wrongly limits a general argumentative principle to a narrower context than it actually applies to."
       },
       {
         "id": "2w-11",
@@ -7241,7 +7241,7 @@ const QUESTIONS = {
           "The draft exercises are identical in purpose to the conceptual sections that precede them."
         ],
         "correct": 0,
-        "explanation": "The conceptual sections provide vocabulary and diagnostic tools, while the draft exercises require actually applying those tools to genuinely flawed writing — testing whether concepts have become usable skills, not just recognizable definitions. Choices A and B both dismiss the exercises' clear function. Choice C ignores the distinct role each part plays."
+        "explanation": "The conceptual sections provide vocabulary and diagnostic tools, while the draft exercises require actually applying those tools to genuinely flawed writing — testing whether concepts have become usable skills, not just recognizable definitions. Choices B and C both dismiss the exercises' clear function. Choice D ignores the distinct role each part plays."
       },
       {
         "id": "1w-12",
@@ -7254,7 +7254,7 @@ const QUESTIONS = {
           "Does this paragraph avoid citing any sources at all?"
         ],
         "correct": 0,
-        "explanation": "This single diagnostic question efficiently catches both drafts' core problems — D1's source-announcement-without-claim weakness and D2's single-source overreliance — unifying the unit's separate diagnostic tools into one reusable check. Choices A and C focus on surface features irrelevant to synthesis quality. Choice B misapplies the lesson; the goal is genuine multi-source use, not avoiding citation altogether."
+        "explanation": "This single diagnostic question efficiently catches both drafts' core problems — D1's source-announcement-without-claim weakness and D2's single-source overreliance — unifying the unit's separate diagnostic tools into one reusable check. Choices B and C focus on surface features irrelevant to synthesis quality. Choice D misapplies the lesson; the goal is genuine multi-source use, not avoiding citation altogether."
       },
       {
         "id": "2w-12",
@@ -7267,7 +7267,7 @@ const QUESTIONS = {
           "That only one of the unit's five sections actually matters for exam success."
         ],
         "correct": 1,
-        "explanation": "This unit's central message is that genuine synthesis requires evaluating sources critically, investigating conflicts, organizing around ideas, and avoiding single-source overreliance — a coherent, interconnected skill set, not five separate, unrelated rules. Choice A contradicts the unit's entire premise. Choice B wrongly dismisses four of the five sections as irrelevant. Choice C misreads a unit about strengthening arguments as one discouraging them."
+        "explanation": "This unit's central message is that genuine synthesis requires evaluating sources critically, investigating conflicts, organizing around ideas, and avoiding single-source overreliance — a coherent, interconnected skill set, not five separate, unrelated rules. Choice A contradicts the unit's entire premise. Choice D wrongly dismisses four of the five sections as irrelevant. Choice C misreads a unit about strengthening arguments as one discouraging them."
       },
       {
         "id": "1w-13",
@@ -7280,7 +7280,7 @@ const QUESTIONS = {
           "Evaluating credibility, organizing ideas, and avoiding overreliance are general research and reasoning skills."
         ],
         "correct": 3,
-        "explanation": "Evaluating source credibility, investigating disagreement, organizing around ideas, and avoiding overreliance on a single source are general research and reasoning skills applicable to any research-based writing or decision-making context, not just this exam's essay format. Choices A, B, and D all wrongly confine genuinely transferable skills to a single narrow use case."
+        "explanation": "Evaluating source credibility, investigating disagreement, organizing around ideas, and avoiding overreliance on a single source are general research and reasoning skills applicable to any research-based writing or decision-making context, not just this exam's essay format. Choices A, B, and C all wrongly confine genuinely transferable skills to a single narrow use case."
       }
     ]
   },

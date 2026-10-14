@@ -118,7 +118,7 @@ const QUESTIONS = {
           "That she has firmly and consistently committed to a small wedding throughout, a claim nothing later in the passage, including her mother's ongoing skepticism, actually undermines."
         ],
         "correct": 0,
-        "explanation": "This is indirect characterization: Delia's repeated insistence on 'small' directly contradicts her own expanding, secretly-maintained guest list of eighty-three names, revealing self-deception or conflict avoidance rather than the honesty her words claim. Choice A wrongly claims the passage supports her claim being true; the guest list explicitly undermines it. Choice B misreads Tom's final question, whose careful tone signals he already suspects the truth, not ignorance of it. Choice D misplaces the doubt onto the mother, when the passage's irony centers on Delia's own self-contradiction, not her mother's judgment."
+        "explanation": "This is indirect characterization: Delia's repeated insistence on 'small' directly contradicts her own expanding, secretly-maintained guest list of eighty-three names, revealing self-deception or conflict avoidance rather than the honesty her words claim. Choice D wrongly claims the passage supports her claim being true; the guest list explicitly undermines it. Choice B misreads Tom's final question, whose careful tone signals he already suspects the truth, not ignorance of it. Choice C misplaces the doubt onto the mother, when the passage's irony centers on Delia's own self-contradiction, not her mother's judgment."
       },
       {
         "id": "1-2",
@@ -131,7 +131,7 @@ const QUESTIONS = {
           "It signals a physical injury serious enough to need medical attention."
         ],
         "correct": 2,
-        "explanation": "This quiet, self-inflicted gesture during a moment of verbally-claimed calm indirectly characterizes suppressed stress, contradicting her assurance that she's 'happy with small.' Choice A overstates the detail into an injury the text doesn't support — it's a faint 'white crescent,' not a wound. Choice C dismisses a detail the passage clearly ties to her stress, appearing right as she repeats her reassurance for the eleventh time. Choice D misreads a stress habit as general carelessness, when nothing else in the passage suggests Delia is accident-prone."
+        "explanation": "This quiet, self-inflicted gesture during a moment of verbally-claimed calm indirectly characterizes suppressed stress, contradicting her assurance that she's 'happy with small.' Choice D overstates the detail into an injury the text doesn't support — it's a faint 'white crescent,' not a wound. Choice A dismisses a detail the passage clearly ties to her stress, appearing right as she repeats her reassurance for the eleventh time. Choice B misreads a stress habit as general carelessness, when nothing else in the passage suggests Delia is accident-prone."
       },
       {
         "id": "1-3",
@@ -144,7 +144,7 @@ const QUESTIONS = {
           "It reveals Tom genuinely has no opinion either way about how large the wedding turns out to be."
         ],
         "correct": 2,
-        "explanation": "The narrator's explicit description of his tone as 'deliberately uninterested in being a fight' signals Tom suspects the truth and is choosing restraint over confrontation, paralleling Delia's own conflict-avoidance. Choice B contradicts the text's own framing — 'deliberately' implies awareness, not ignorance. Choice C ignores that a genuinely indifferent question wouldn't need such a carefully controlled tone. Choice D misreads 'careful' and 'light' as anger, when those words describe restraint, the opposite of building toward a fight."
+        "explanation": "The narrator's explicit description of his tone as 'deliberately uninterested in being a fight' signals Tom suspects the truth and is choosing restraint over confrontation, paralleling Delia's own conflict-avoidance. Choice A contradicts the text's own framing — 'deliberately' implies awareness, not ignorance. Choice D ignores that a genuinely indifferent question wouldn't need such a carefully controlled tone. Choice B misreads 'careful' and 'light' as anger, when those words describe restraint, the opposite of building toward a fight."
       },
       {
         "id": "1-4",
@@ -157,7 +157,7 @@ const QUESTIONS = {
           "It shows Tom does not care about the wedding's actual size at all."
         ],
         "correct": 1,
-        "explanation": "Ending on implied rather than explicit confrontation extends the passage's consistent pattern of indirect communication — tension existing beneath a controlled surface — reinforcing how both characters have been characterized throughout. Choice A misreads Tom's careful tone as indifference, when 'deliberately uninterested in being a fight' implies real awareness and restraint, not apathy. Choice C gets the relationship backwards — the ending is consistent with, not opposed to, the passage's established indirection. Choice D undersells the choice: leaving the confrontation unstated is itself meaningful, extending rather than abandoning the passage's technique."
+        "explanation": "Ending on implied rather than explicit confrontation extends the passage's consistent pattern of indirect communication — tension existing beneath a controlled surface — reinforcing how both characters have been characterized throughout. Choice D misreads Tom's careful tone as indifference, when 'deliberately uninterested in being a fight' implies real awareness and restraint, not apathy. Choice A gets the relationship backwards — the ending is consistent with, not opposed to, the passage's established indirection. Choice C undersells the choice: leaving the confrontation unstated is itself meaningful, extending rather than abandoning the passage's technique."
       },
       {
         "id": "1-5",
@@ -170,7 +170,7 @@ const QUESTIONS = {
           "The guest list detail has no real bearing on how the passage characterizes Delia, existing only as a minor logistical afterthought in an otherwise character-focused scene."
         ],
         "correct": 2,
-        "explanation": "The specific, escalating detail — eighty-three names penciled in, erased, and penciled in again — provides concrete indirect evidence of internal conflict between Delia's stated wishes and felt social obligation. Choice B ignores that this is the passage's central piece of characterizing evidence. Choice C treats the list as mere setting when it functions as psychological evidence, not backdrop. Choice D overstates her dishonesty as calculated; the erased-and-repenciled names suggest genuine uncertainty, not settled deception."
+        "explanation": "The specific, escalating detail — eighty-three names penciled in, erased, and penciled in again — provides concrete indirect evidence of internal conflict between Delia's stated wishes and felt social obligation. Choice D ignores that this is the passage's central piece of characterizing evidence. Choice A treats the list as mere setting when it functions as psychological evidence, not backdrop. Choice B overstates her dishonesty as calculated; the erased-and-repenciled names suggest genuine uncertainty, not settled deception."
       },
       {
         "id": "2-1",
@@ -183,7 +183,7 @@ const QUESTIONS = {
           "It is a detail unrelated to the passage's broader mood or meaning."
         ],
         "correct": 2,
-        "explanation": "The fading from red to 'tired pink' is a visual marker of extended time passing, reinforcing the passage's broader atmosphere of neglect and stagnation. Choice A contradicts the detail's plain meaning — fading paint signals disuse, not renovation. Choice B dismisses a detail the passage clearly uses to establish mood, alongside the overgrown lawn and unofficial parking. Choice C reduces a deliberately evocative detail to mere material fact, missing its atmospheric function."
+        "explanation": "The fading from red to 'tired pink' is a visual marker of extended time passing, reinforcing the passage's broader atmosphere of neglect and stagnation. Choice A contradicts the detail's plain meaning — fading paint signals disuse, not renovation. Choice D dismisses a detail the passage clearly uses to establish mood, alongside the overgrown lawn and unofficial parking. Choice B reduces a deliberately evocative detail to mere material fact, missing its atmospheric function."
       },
       {
         "id": "2-2",
@@ -196,7 +196,7 @@ const QUESTIONS = {
           "It simply indicates the house is dirty and in need of a thorough cleaning."
         ],
         "correct": 2,
-        "explanation": "This image blends literal domestic detail (dust outlines) with a suggestion of haunting or persistent loss, letting the house's emptiness register as absence rather than mere vacancy. Choice B reduces a deliberately evocative image to mundane housekeeping, missing its figurative work. Choice C misreads the dust patterns exactly backwards — they mark furniture that is gone, not newly arrived. Choice D directly contradicts the passage's established eleven-month vacancy."
+        "explanation": "This image blends literal domestic detail (dust outlines) with a suggestion of haunting or persistent loss, letting the house's emptiness register as absence rather than mere vacancy. Choice D reduces a deliberately evocative image to mundane housekeeping, missing its figurative work. Choice A misreads the dust patterns exactly backwards — they mark furniture that is gone, not newly arrived. Choice B directly contradicts the passage's established eleven-month vacancy."
       },
       {
         "id": "2-3",
@@ -209,7 +209,7 @@ const QUESTIONS = {
           "It has no symbolic function and is simply a realistic detail about aging electrical wiring."
         ],
         "correct": 0,
-        "explanation": "The light is explicitly called 'a small persistent signal to no one in particular,' directly signaling the text's own symbolic framing of unresolved absence and expectation. Choice A has no textual support — nothing connects the light to the realtor's efforts. Choice C is unsupported and, if anything, ironic — the light burns precisely because no one has arrived. Choice B dismisses a detail the passage itself editorializes about, missing the clearest symbolic signal in the excerpt."
+        "explanation": "The light is explicitly called 'a small persistent signal to no one in particular,' directly signaling the text's own symbolic framing of unresolved absence and expectation. Choice C has no textual support — nothing connects the light to the realtor's efforts. Choice B is unsupported and, if anything, ironic — the light burns precisely because no one has arrived. Choice D dismisses a detail the passage itself editorializes about, missing the clearest symbolic signal in the excerpt."
       },
       {
         "id": "2-4",
@@ -222,7 +222,7 @@ const QUESTIONS = {
           "It suggests the neighbors are behaving illegally, in a way the passage clearly condemns."
         ],
         "correct": 2,
-        "explanation": "The casual, unofficial use of the driveway suggests the house's exterior is being quietly absorbed into ordinary neighborhood life even as its interior remains frozen — a tension between external forgetting and internal persistence. Choice A undersells a detail the passage develops with deliberate phrasing ('the way people claim a space nobody's using'). Choice C reads judgment into a description that is notably neutral about the neighbors. Choice D misunderstands the detail's role — it extends, rather than contradicts, the theme of neglect, just from the outside in."
+        "explanation": "The casual, unofficial use of the driveway suggests the house's exterior is being quietly absorbed into ordinary neighborhood life even as its interior remains frozen — a tension between external forgetting and internal persistence. Choice A undersells a detail the passage develops with deliberate phrasing ('the way people claim a space nobody's using'). Choice D reads judgment into a description that is notably neutral about the neighbors. Choice B misunderstands the detail's role — it extends, rather than contradicts, the theme of neglect, just from the outside in."
       },
       {
         "id": "2-5",
@@ -235,7 +235,7 @@ const QUESTIONS = {
           "The accumulated details accomplish nothing that a general statement of mood wouldn't accomplish just as well."
         ],
         "correct": 1,
-        "explanation": "Letting readers arrive at 'sad and empty' through accumulated specifics — the sign, the dust, the light — is more persuasive and immersive than simply asserting a mood, since the reader effectively convinces themselves. Choice A treats purposeful craft as mere padding. Choice B is unsupported; the details are mutually reinforcing, not contradictory. Choice D flattens a real technique into a distinction without a difference, ignoring how much more vivid the specific version is."
+        "explanation": "Letting readers arrive at 'sad and empty' through accumulated specifics — the sign, the dust, the light — is more persuasive and immersive than simply asserting a mood, since the reader effectively convinces themselves. Choice C treats purposeful craft as mere padding. Choice A is unsupported; the details are mutually reinforcing, not contradictory. Choice D flattens a real technique into a distinction without a difference, ignoring how much more vivid the specific version is."
       },
       {
         "id": "3-1",
@@ -248,7 +248,7 @@ const QUESTIONS = {
           "It reflects simple carelessness or forgetfulness about a task he had just completed."
         ],
         "correct": 1,
-        "explanation": "Coiling then immediately uncoiling a rope 'he did not need to coil' is a displacement activity, revealing unresolved anxiety channeled into repetitive motion during a difficult conversation, echoing the spice-rack technique this unit's guide introduces. Choice A misreads purposeless repetition as incompetence, when the detail is psychological rather than technical. Choice C dismisses a detail the passage times precisely to Eli's emotionally loaded question. Choice D mistakes deliberate, repeated fidgeting for simple absent-mindedness."
+        "explanation": "Coiling then immediately uncoiling a rope 'he did not need to coil' is a displacement activity, revealing unresolved anxiety channeled into repetitive motion during a difficult conversation, echoing the spice-rack technique this unit's guide introduces. Choice C misreads purposeless repetition as incompetence, when the detail is psychological rather than technical. Choice A dismisses a detail the passage times precisely to Eli's emotionally loaded question. Choice D mistakes deliberate, repeated fidgeting for simple absent-mindedness."
       },
       {
         "id": "3-2",
@@ -261,7 +261,7 @@ const QUESTIONS = {
           "It introduces an entirely new, unrelated topic into the brothers' conversation."
         ],
         "correct": 0,
-        "explanation": "Sam's response retreats into a flat, literal technicality instead of engaging with Eli's emotional point, revealing discomfort with direct emotional engagement through dialogue alone. Choice A misses that the line responds directly to, rather than departs from, Eli's statement. Choice C gets the tone backwards — the line deflects and undercuts Eli's point rather than affirming it. Choice D dismisses a moment the passage clearly uses to characterize Sam's guardedness."
+        "explanation": "Sam's response retreats into a flat, literal technicality instead of engaging with Eli's emotional point, revealing discomfort with direct emotional engagement through dialogue alone. Choice D misses that the line responds directly to, rather than departs from, Eli's statement. Choice C gets the tone backwards — the line deflects and undercuts Eli's point rather than affirming it. Choice B dismisses a moment the passage clearly uses to characterize Sam's guardedness."
       },
       {
         "id": "3-3",
@@ -274,7 +274,7 @@ const QUESTIONS = {
           "It contradicts the passage's central themes of withholding and reticence."
         ],
         "correct": 1,
-        "explanation": "Describing the water as 'giving nothing away' mirrors the brothers' own emotional guardedness and the passage's structural refusal to resolve clearly, aligning setting with character and theme. Choice A has the relationship backwards — the description reinforces rather than contradicts the passage's core concerns. Choice B ignores the phrase's clearly evocative, non-technical language. Choice D dismisses a deliberate echo between description and the brothers' behavior."
+        "explanation": "Describing the water as 'giving nothing away' mirrors the brothers' own emotional guardedness and the passage's structural refusal to resolve clearly, aligning setting with character and theme. Choice D has the relationship backwards — the description reinforces rather than contradicts the passage's core concerns. Choice A ignores the phrase's clearly evocative, non-technical language. Choice C dismisses a deliberate echo between description and the brothers' behavior."
       },
       {
         "id": "3-4",
@@ -287,7 +287,7 @@ const QUESTIONS = {
           "It suggests the passage has no real thematic content to offer at all."
         ],
         "correct": 2,
-        "explanation": "Leaving 'whether that was the plan' unstated deliberately withholds resolution, locating the passage's interest in the brothers' shared, silent decision to keep going rather than in any declared outcome — the kind of meaningful ambiguity this unit's guide discusses. Choice A mistakes a deliberate craft choice for an unfinished manuscript. Choice C confuses narratorial uncertainty with a chosen technique — the narrator knows and withholds, rather than not knowing. Choice D ignores that withheld resolution is itself thematically significant."
+        "explanation": "Leaving 'whether that was the plan' unstated deliberately withholds resolution, locating the passage's interest in the brothers' shared, silent decision to keep going rather than in any declared outcome — the kind of meaningful ambiguity this unit's guide discusses. Choice A mistakes a deliberate craft choice for an unfinished manuscript. Choice B confuses narratorial uncertainty with a chosen technique — the narrator knows and withholds, rather than not knowing. Choice D ignores that withheld resolution is itself thematically significant."
       },
       {
         "id": "3-5",
@@ -300,7 +300,7 @@ const QUESTIONS = {
           "It can be read as symbolically paralleling the brothers' movement into difficult, previously avoided emotional territory."
         ],
         "correct": 3,
-        "explanation": "Moving further from shore, away from safety, parallels the brothers moving further into difficult emotional territory they've avoided for six years — literal and emotional distance developing together. Choice A misreads a symbolically loaded choice as merely a navigational detail. Choice C dismisses the clear thematic echo between 'going out' and confronting rather than avoiding their grief. Choice D misunderstands the relationship — continuing outward extends rather than contradicts the passage's central tension."
+        "explanation": "Moving further from shore, away from safety, parallels the brothers moving further into difficult emotional territory they've avoided for six years — literal and emotional distance developing together. Choice A misreads a symbolically loaded choice as merely a navigational detail. Choice C dismisses the clear thematic echo between 'going out' and confronting rather than avoiding their grief. Choice B misunderstands the relationship — continuing outward extends rather than contradicts the passage's central tension."
       },
       {
         "id": "4-1",
@@ -313,7 +313,7 @@ const QUESTIONS = {
           "It has no meaningful relationship to how the passage handles narrative distance."
         ],
         "correct": 1,
-        "explanation": "The qualifying phrase signals a gap between the external, dollar-value truth told to the adjuster and the narrator's fuller private experience, exactly the within-first-person distance-shifting this unit's guide covers. Choice A ignores that the phrase is precisely where narrative distance becomes visible in the text. Choice B is contradicted by the rich interior life the rest of the passage reveals. Choice C misreads a phrase that signals incompleteness, not honesty."
+        "explanation": "The qualifying phrase signals a gap between the external, dollar-value truth told to the adjuster and the narrator's fuller private experience, exactly the within-first-person distance-shifting this unit's guide covers. Choice D ignores that the phrase is precisely where narrative distance becomes visible in the text. Choice A is contradicted by the rich interior life the rest of the passage reveals. Choice C misreads a phrase that signals incompleteness, not honesty."
       },
       {
         "id": "4-2",
@@ -339,7 +339,7 @@ const QUESTIONS = {
           "It has no particular effect on the passage's narrative technique."
         ],
         "correct": 0,
-        "explanation": "Revealing 'what I did not say' closes the gap between narrator and reader precisely when the gap from the adjuster is widest, granting the reader privileged access another character is denied. Choice A misunderstands the technique — this move is a natural extension of first-person narration, not a break from it. Choice B has no textual support; the narrator is clear and deliberate about what he withheld. Choice C dismisses a moment the passage builds its central tension around."
+        "explanation": "Revealing 'what I did not say' closes the gap between narrator and reader precisely when the gap from the adjuster is widest, granting the reader privileged access another character is denied. Choice C misunderstands the technique — this move is a natural extension of first-person narration, not a break from it. Choice B has no textual support; the narrator is clear and deliberate about what he withheld. Choice D dismisses a moment the passage builds its central tension around."
       },
       {
         "id": "4-4",
@@ -352,7 +352,7 @@ const QUESTIONS = {
           "It extends the passage's insurance-claim framework metaphorically to an unresolved, internal emotional reckoning."
         ],
         "correct": 3,
-        "explanation": "Extending 'file a claim' to an internal decision he's 'still making sense of' figuratively applies the passage's insurance vocabulary to grief no official form could capture. Choices B and C both take the claim-language literally, when the context makes clear no actual claim is being filed. Choice D denies a deliberate, carefully placed figurative move the passage builds toward across the whole excerpt."
+        "explanation": "Extending 'file a claim' to an internal decision he's 'still making sense of' figuratively applies the passage's insurance vocabulary to grief no official form could capture. Choices B and C both take the claim-language literally, when the context makes clear no actual claim is being filed. Choice A denies a deliberate, carefully placed figurative move the passage builds toward across the whole excerpt."
       },
       {
         "id": "4-5",
@@ -365,7 +365,7 @@ const QUESTIONS = {
           "The pattern directly enacts the passage's theme about official systems' inadequacy to capture genuine internal loss."
         ],
         "correct": 3,
-        "explanation": "Who gets told what — controlled information for the adjuster, full access for the reader — enacts the very theme it explores, the gap between quantifiable, official accounting and actual, unquantifiable grief. Choice A dismisses a structural alignment the passage sustains throughout. Choice C treats a purposeful technique as decorative, when it does real thematic work. Choice D misreads the relationship entirely — the pattern supports, rather than undercuts, the passage's meaning."
+        "explanation": "Who gets told what — controlled information for the adjuster, full access for the reader — enacts the very theme it explores, the gap between quantifiable, official accounting and actual, unquantifiable grief. Choice B dismisses a structural alignment the passage sustains throughout. Choice C treats a purposeful technique as decorative, when it does real thematic work. Choice A misreads the relationship entirely — the pattern supports, rather than undercuts, the passage's meaning."
       },
       {
         "id": "5-1",
@@ -378,7 +378,7 @@ const QUESTIONS = {
           "A symbol with no particular connection to the passage's emotional content."
         ],
         "correct": 0,
-        "explanation": "The path's abrupt stopping point mirrors Rosa's own suspended emotional state, an incompleteness she has actively maintained rather than simply neglected. Choice A treats a symbolically loaded, carefully described detail as ordinary household trivia. Choice B is contradicted by Rosa's deliberate, careful maintenance of the gap — the opposite of laziness. Choice D dismisses a symbol the passage explicitly develops across the whole excerpt."
+        "explanation": "The path's abrupt stopping point mirrors Rosa's own suspended emotional state, an incompleteness she has actively maintained rather than simply neglected. Choice B treats a symbolically loaded, carefully described detail as ordinary household trivia. Choice C is contradicted by Rosa's deliberate, careful maintenance of the gap — the opposite of laziness. Choice D dismisses a symbol the passage explicitly develops across the whole excerpt."
       },
       {
         "id": "5-2",
@@ -391,7 +391,7 @@ const QUESTIONS = {
           "It suggests Rosa is physically unable to walk through the narrow gap in the path."
         ],
         "correct": 1,
-        "explanation": "Stepping carefully around, rather than through, shows the gap is preserved with intention rather than merely unfinished, reinforcing the reading of maintained rather than forgotten grief. Choice B invents a physical limitation the text never mentions. Choice C misreads a detail that supports, rather than contradicts, the passage's central symbol. Choice D undersells a deliberately specific verb choice ('carefully') that signals intention, not mere convenience."
+        "explanation": "Stepping carefully around, rather than through, shows the gap is preserved with intention rather than merely unfinished, reinforcing the reading of maintained rather than forgotten grief. Choice D invents a physical limitation the text never mentions. Choice C misreads a detail that supports, rather than contradicts, the passage's central symbol. Choice A undersells a deliberately specific verb choice ('carefully') that signals intention, not mere convenience."
       },
       {
         "id": "5-3",
@@ -404,7 +404,7 @@ const QUESTIONS = {
           "Rosa has simply forgotten that she was ever asked the question in the first place."
         ],
         "correct": 2,
-        "explanation": "The passage tells us 'Eventually' 'had stopped meaning anything specific years ago,' indicating deferral has become a permanent, essentially meaningless placeholder rather than a real intention. Choice B is directly contradicted by the text's own statement that the word no longer means anything specific. Choice C is unsupported — the passage says visitors 'sometimes' ask, implying it still happens. Choice D misreads a habitual, practiced answer as forgetfulness."
+        "explanation": "The passage tells us 'Eventually' 'had stopped meaning anything specific years ago,' indicating deferral has become a permanent, essentially meaningless placeholder rather than a real intention. Choice B is directly contradicted by the text's own statement that the word no longer means anything specific. Choice A is unsupported — the passage says visitors 'sometimes' ask, implying it still happens. Choice D misreads a habitual, practiced answer as forgetfulness."
       },
       {
         "id": "5-4",
@@ -417,7 +417,7 @@ const QUESTIONS = {
           "It fully resolves the passage's central tension with a complete, happy ending in which Rosa finally finishes the path her mother started building."
         ],
         "correct": 1,
-        "explanation": "Placing a single stone without 'finishing anything, not really' represents tentative movement toward change, its meaning lying precisely in its incompleteness — neither full avoidance nor full resolution. Choice B dismisses a carefully placed final image the whole passage has been building toward. Choice C overstates a small, hedged gesture into a complete emotional resolution the text explicitly denies. Choice D misreads a natural, consistent extension of Rosa's established pattern as a contradiction of it."
+        "explanation": "Placing a single stone without 'finishing anything, not really' represents tentative movement toward change, its meaning lying precisely in its incompleteness — neither full avoidance nor full resolution. Choice C dismisses a carefully placed final image the whole passage has been building toward. Choice D overstates a small, hedged gesture into a complete emotional resolution the text explicitly denies. Choice A misreads a natural, consistent extension of Rosa's established pattern as a contradiction of it."
       },
       {
         "id": "5-5",
@@ -430,7 +430,7 @@ const QUESTIONS = {
           "The two symbols function identically, with no meaningful distinction between them."
         ],
         "correct": 2,
-        "explanation": "Both objects carry unresolved emotional weight, but they diverge in development — the path gains a small, deliberate new stone while the porch light simply keeps burning unchanged, a meaningful contrast in how each symbol evolves. Choice B ignores a clear parallel the two passages share in symbolic technique. Choice C is inconsistent — Passage 5's path is at least as symbolically developed as Passage 2's light. Choice D flattens a real, describable difference between the two texts."
+        "explanation": "Both objects carry unresolved emotional weight, but they diverge in development — the path gains a small, deliberate new stone while the porch light simply keeps burning unchanged, a meaningful contrast in how each symbol evolves. Choice B ignores a clear parallel the two passages share in symbolic technique. Choice A is inconsistent — Passage 5's path is at least as symbolically developed as Passage 2's light. Choice D flattens a real, describable difference between the two texts."
       },
       {
         "id": "1-6",
@@ -443,7 +443,7 @@ const QUESTIONS = {
           "First person, giving intimate but limited access only to Delia's own perspective."
         ],
         "correct": 0,
-        "explanation": "The narration is third-person limited, focalized through Delia — we see her private guest list and inner calculation, while Tom and her mother appear only through dialogue and observable behavior. Choice A is wrong on grammatical grounds: there is no 'I'; the narration uses 'she.' Choice B misapplies a rare, unused form; the passage never blends the couple's perspectives. Choice C is contradicted directly by our access to Delia's private thoughts, which an objective narrator could never report."
+        "explanation": "The narration is third-person limited, focalized through Delia — we see her private guest list and inner calculation, while Tom and her mother appear only through dialogue and observable behavior. Choice D is wrong on grammatical grounds: there is no 'I'; the narration uses 'she.' Choice B misapplies a rare, unused form; the passage never blends the couple's perspectives. Choice C is contradicted directly by our access to Delia's private thoughts, which an objective narrator could never report."
       },
       {
         "id": "1-7",
@@ -456,7 +456,7 @@ const QUESTIONS = {
           "It contradicts the passage's otherwise quiet, restrained emotional tone."
         ],
         "correct": 1,
-        "explanation": "The unremarkable kitchen-table setting contrasts with the hidden tension of the guest list, suggesting this kind of quiet conflict unfolds within ordinary routine rather than dramatic confrontation. Choice A invents a plot detail — nothing in the passage discusses moving. Choice B undersells the setting's role; its very ordinariness is what makes the private tension land. Choice C has it backwards — the mundane setting reinforces, rather than contradicts, the passage's restrained tone."
+        "explanation": "The unremarkable kitchen-table setting contrasts with the hidden tension of the guest list, suggesting this kind of quiet conflict unfolds within ordinary routine rather than dramatic confrontation. Choice A invents a plot detail — nothing in the passage discusses moving. Choice C undersells the setting's role; its very ordinariness is what makes the private tension land. Choice D has it backwards — the mundane setting reinforces, rather than contradicts, the passage's restrained tone."
       },
       {
         "id": "2-6",
@@ -469,7 +469,7 @@ const QUESTIONS = {
           "First-person plural, narrated collectively by the neighborhood."
         ],
         "correct": 1,
-        "explanation": "The narration is third person, but unusually centers the house itself as its focal subject rather than any single human perspective. Choice A is unsupported — there's no collective 'we' voice anywhere in the passage. Choice B is contradicted by the complete absence of any first-person pronoun or personal recollection. Choice D is also unsupported; the passage never addresses a 'you.'"
+        "explanation": "The narration is third person, but unusually centers the house itself as its focal subject rather than any single human perspective. Choice D is unsupported — there's no collective 'we' voice anywhere in the passage. Choice C is contradicted by the complete absence of any first-person pronoun or personal recollection. Choice A is also unsupported; the passage never addresses a 'you.'"
       },
       {
         "id": "2-7",
@@ -482,7 +482,7 @@ const QUESTIONS = {
           "The passage's lack of characters means it has no clear thematic focus at all."
         ],
         "correct": 2,
-        "explanation": "By centering the house rather than a specific person, the passage generalizes its theme of loss beyond any one individual's story, letting the house's own memory function almost like a character. Choice A mistakes the absence of a protagonist for an absence of meaning, when the choice is clearly deliberate. Choice B dismisses a consistent, structurally significant choice as accidental. Choice D is simply false — no character in the passage is ever named."
+        "explanation": "By centering the house rather than a specific person, the passage generalizes its theme of loss beyond any one individual's story, letting the house's own memory function almost like a character. Choice D mistakes the absence of a protagonist for an absence of meaning, when the choice is clearly deliberate. Choice A dismisses a consistent, structurally significant choice as accidental. Choice B is simply false — no character in the passage is ever named."
       },
       {
         "id": "3-6",
@@ -495,7 +495,7 @@ const QUESTIONS = {
           "First person, narrated by Eli, giving direct access to his private thoughts."
         ],
         "correct": 0,
-        "explanation": "The passage reports dialogue and action (the rope, the brief exchanges) with virtually no direct interior access to either brother, the maximum narrative distance requiring the reader to infer feeling from behavior. Choice A is contradicted by the total absence of any stated interior thought for either brother. Choices C and D are both ruled out by the complete absence of a first-person 'I' anywhere in the passage."
+        "explanation": "The passage reports dialogue and action (the rope, the brief exchanges) with virtually no direct interior access to either brother, the maximum narrative distance requiring the reader to infer feeling from behavior. Choice C is contradicted by the total absence of any stated interior thought for either brother. Choices B and D are both ruled out by the complete absence of a first-person 'I' anywhere in the passage."
       },
       {
         "id": "3-7",
@@ -508,7 +508,7 @@ const QUESTIONS = {
           "The choice actively undermines the passage's themes about emotional distance between the brothers."
         ],
         "correct": 1,
-        "explanation": "Withholding interior access lets readers experience the same uncertainty about the brothers' true feelings that the brothers seem to have toward each other, form reinforcing content. Choice A treats a deliberate craft choice as arbitrary convenience, unsupported by the passage's consistent execution. Choice B dismisses an alignment between technique and theme the passage clearly maintains. Choice D gets the relationship backwards — the distance supports, rather than undermines, the passage's central concern."
+        "explanation": "Withholding interior access lets readers experience the same uncertainty about the brothers' true feelings that the brothers seem to have toward each other, form reinforcing content. Choice A treats a deliberate craft choice as arbitrary convenience, unsupported by the passage's consistent execution. Choice C dismisses an alignment between technique and theme the passage clearly maintains. Choice D gets the relationship backwards — the distance supports, rather than undermines, the passage's central concern."
       },
       {
         "id": "4-6",
@@ -521,7 +521,7 @@ const QUESTIONS = {
           "The choice of point of view is largely irrelevant to how this particular story means what it means."
         ],
         "correct": 2,
-        "explanation": "Only first person can grant this kind of direct, unmediated access to the narrator's private, unspoken thoughts — the drawer, 'what I did not say' — without heavy-handed narratorial intervention. Choice A understates how much the technique shapes the story's core effect. Choice B is unsupported and backwards; intimate first-person access tends to increase believability here. Choice C ignores how much explicit narration a third-person version would need to achieve the same intimacy."
+        "explanation": "Only first person can grant this kind of direct, unmediated access to the narrator's private, unspoken thoughts — the drawer, 'what I did not say' — without heavy-handed narratorial intervention. Choice A understates how much the technique shapes the story's core effect. Choice B is unsupported and backwards; intimate first-person access tends to increase believability here. Choice D ignores how much explicit narration a third-person version would need to achieve the same intimacy."
       },
       {
         "id": "4-7",
@@ -534,7 +534,7 @@ const QUESTIONS = {
           "Setting the scene during the bureaucratic aftermath shifts the passage's focus toward processing and meaning-making after the fact."
         ],
         "correct": 3,
-        "explanation": "Choosing the adjuster's visit over the fire itself shifts attention to processing and meaning-making after the event, consistent with the passage's deeper interest in ongoing internal reckoning rather than dramatic spectacle. Choice A dismisses a clearly deliberate structural choice. Choice B mistakes a single procedural detail for the passage's actual subject. Choice C is directly contradicted by the passage's own framing of the adjuster assessing what's already been lost."
+        "explanation": "Choosing the adjuster's visit over the fire itself shifts attention to processing and meaning-making after the event, consistent with the passage's deeper interest in ongoing internal reckoning rather than dramatic spectacle. Choice A dismisses a clearly deliberate structural choice. Choice C mistakes a single procedural detail for the passage's actual subject. Choice B is directly contradicted by the passage's own framing of the adjuster assessing what's already been lost."
       },
       {
         "id": "5-6",
@@ -547,7 +547,7 @@ const QUESTIONS = {
           "Second person, directly addressing Rosa as 'you' throughout the passage."
         ],
         "correct": 2,
-        "explanation": "The narration is third-person limited, focalized through Rosa — we learn she 'could never explain, even to herself' her reasoning, interior access an objective narrator couldn't provide. Choice A is contradicted by the consistent use of 'she' rather than 'I.' Choice C is ruled out by the passage's clear access to Rosa's private, unstated feelings. Choice D is unsupported; the passage never addresses Rosa or the reader as 'you.'"
+        "explanation": "The narration is third-person limited, focalized through Rosa — we learn she 'could never explain, even to herself' her reasoning, interior access an objective narrator couldn't provide. Choice A is contradicted by the consistent use of 'she' rather than 'I.' Choice B is ruled out by the passage's clear access to Rosa's private, unstated feelings. Choice D is unsupported; the passage never addresses Rosa or the reader as 'you.'"
       },
       {
         "id": "5-7",
@@ -560,7 +560,7 @@ const QUESTIONS = {
           "This hedging phrase reflects careful handling of ambiguous progress, avoiding overstating a small gesture as full resolution."
         ],
         "correct": 3,
-        "explanation": "The qualification ('not finishing anything, not really') carefully avoids overstating Rosa's gesture as full resolution while still registering it as genuine, if limited, movement. Choice A misreads a hedge about the scope of change as a decision to stop trying altogether. Choice C misunderstands the phrase's relationship to the stone-placing action — it qualifies rather than contradicts it. Choice D dismisses precise, deliberate language controlling how much progress the ending claims."
+        "explanation": "The qualification ('not finishing anything, not really') carefully avoids overstating Rosa's gesture as full resolution while still registering it as genuine, if limited, movement. Choice C misreads a hedge about the scope of change as a decision to stop trying altogether. Choice A misunderstands the phrase's relationship to the stone-placing action — it qualifies rather than contradicts it. Choice B dismisses precise, deliberate language controlling how much progress the ending claims."
       },
       {
         "id": "1-8",
@@ -573,7 +573,7 @@ const QUESTIONS = {
           "The passage has already reached a full resolution, complete with climax and falling action."
         ],
         "correct": 1,
-        "explanation": "The excerpt sits in rising action — the gap between Delia's stated wishes and her actual guest list has been established and is escalating toward Tom's knowing question, but no climax has occurred yet. Choice B underestimates how legible the escalating tension pattern is from the text itself. Choice C is directly contradicted by the passage ending mid-tension, with nothing resolved. Choice D ignores that conflict is actively developing well before the excerpt ends, not merely being set up."
+        "explanation": "The excerpt sits in rising action — the gap between Delia's stated wishes and her actual guest list has been established and is escalating toward Tom's knowing question, but no climax has occurred yet. Choice A underestimates how legible the escalating tension pattern is from the text itself. Choice D is directly contradicted by the passage ending mid-tension, with nothing resolved. Choice C ignores that conflict is actively developing well before the excerpt ends, not merely being set up."
       },
       {
         "id": "2-8",
@@ -586,7 +586,7 @@ const QUESTIONS = {
           "A conventional plot structure with clear rising action, a climax, and a resolution that becomes evident once the full story extends beyond this brief excerpt."
         ],
         "correct": 2,
-        "explanation": "The passage builds meaning through accumulated description (the sign, the dust, the light) rather than a sequence of events or decisions, a legitimate structural choice for atmosphere-driven short fiction. Choice B is contradicted by the passage's lack of any rising or resolving action. Choice C is unsupported — the passage stays within a single continuous present. Choice D is directly contradicted by the complete absence of dialogue in the passage."
+        "explanation": "The passage builds meaning through accumulated description (the sign, the dust, the light) rather than a sequence of events or decisions, a legitimate structural choice for atmosphere-driven short fiction. Choice D is contradicted by the passage's lack of any rising or resolving action. Choice A is unsupported — the passage stays within a single continuous present. Choice B is directly contradicted by the complete absence of dialogue in the passage."
       },
       {
         "id": "3-8",
@@ -599,7 +599,7 @@ const QUESTIONS = {
           "Likely near a turning point or minor climax, as the brothers make a shared, unspoken decision to continue."
         ],
         "correct": 3,
-        "explanation": "The brothers' shared decision to keep going rather than turn back marks a meaningful shift in their six-year silence, even without full resolution — a turning point or minor climax. Choice A ignores the conflict already established (their unspoken six-year rift, surfacing directly in dialogue). Choice B is contradicted by the passage's explicitly unresolved ending. Choice D understates how clearly the passage signals a shift in momentum through the brothers' choice to continue outward."
+        "explanation": "The brothers' shared decision to keep going rather than turn back marks a meaningful shift in their six-year silence, even without full resolution — a turning point or minor climax. Choice A ignores the conflict already established (their unspoken six-year rift, surfacing directly in dialogue). Choice B is contradicted by the passage's explicitly unresolved ending. Choice C understates how clearly the passage signals a shift in momentum through the brothers' choice to continue outward."
       },
       {
         "id": "4-8",
@@ -612,7 +612,7 @@ const QUESTIONS = {
           "Beginning after the fact emphasizes aftermath and processing over spectacle."
         ],
         "correct": 3,
-        "explanation": "Opening with the aftermath rather than the fire itself foregrounds processing and reflection over dramatic event, reinforcing the passage's deeper interest in internal reckoning. Choice A mistakes a deliberate, well-executed structural choice for a flaw. Choice B misreads emphasis on aftermath as dismissal of the fire's importance — the fire matters precisely because of what it leaves behind. Choice C dismisses a structural choice the passage's own content and tone directly support."
+        "explanation": "Opening with the aftermath rather than the fire itself foregrounds processing and reflection over dramatic event, reinforcing the passage's deeper interest in internal reckoning. Choice C mistakes a deliberate, well-executed structural choice for a flaw. Choice A misreads emphasis on aftermath as dismissal of the fire's importance — the fire matters precisely because of what it leaves behind. Choice B dismisses a structural choice the passage's own content and tone directly support."
       },
       {
         "id": "5-8",
@@ -625,7 +625,7 @@ const QUESTIONS = {
           "Establishing a repeated, static pattern before the deviation makes the final action's significance legible by contrast."
         ],
         "correct": 3,
-        "explanation": "Showing years of the same walk-and-avoid pattern first makes the small deviation — one new stone — legible as meaningful change, since the reader can measure it against an established routine. Choice B contradicts the passage's own final scene, which explicitly departs from the established pattern. Choice C has the relationship backwards — the repetition builds up, rather than undercuts, the final action's weight. Choice D dismisses a clear, purposeful structural technique."
+        "explanation": "Showing years of the same walk-and-avoid pattern first makes the small deviation — one new stone — legible as meaningful change, since the reader can measure it against an established routine. Choice B contradicts the passage's own final scene, which explicitly departs from the established pattern. Choice A has the relationship backwards — the repetition builds up, rather than undercuts, the final action's weight. Choice C dismisses a clear, purposeful structural technique."
       },
       {
         "id": "1-9",
@@ -638,7 +638,7 @@ const QUESTIONS = {
           "It suggests Delia has left herself with a permanent physical scar."
         ],
         "correct": 1,
-        "explanation": "'Crescent' evokes a moon-shape connotation — small, curved, associated with something partial or waning — subtly reinforcing the theme of tension kept mostly out of sight. Choice A misreads the word's quiet, understated connotation as somehow clashing with tone, when it actually matches it. Choice B misses the word choice entirely; a plainer word like 'mark' would have carried none of the same association. Choice D overstates a fleeting pressure mark into lasting physical damage the text doesn't describe."
+        "explanation": "'Crescent' evokes a moon-shape connotation — small, curved, associated with something partial or waning — subtly reinforcing the theme of tension kept mostly out of sight. Choice C misreads the word's quiet, understated connotation as somehow clashing with tone, when it actually matches it. Choice A misses the word choice entirely; a plainer word like 'mark' would have carried none of the same association. Choice D overstates a fleeting pressure mark into lasting physical damage the text doesn't describe."
       },
       {
         "id": "2-9",
@@ -651,7 +651,7 @@ const QUESTIONS = {
           "It suggests the current owners are actively cultivating the property for farming."
         ],
         "correct": 2,
-        "explanation": "Attributing 'giving up' to the lawn extends the passage's theme of neglect and abandonment into the physical setting, blurring passive decay with something closer to intention. Choice A misreads an image of abandonment as evidence of active use. Choice B dismisses phrasing the passage clearly chose for effect. Choice D flattens the deliberately figurative verb 'given up' into neutral, literal reporting, missing its personifying force."
+        "explanation": "Attributing 'giving up' to the lawn extends the passage's theme of neglect and abandonment into the physical setting, blurring passive decay with something closer to intention. Choice D misreads an image of abandonment as evidence of active use. Choice B dismisses phrasing the passage clearly chose for effect. Choice A flattens the deliberately figurative verb 'given up' into neutral, literal reporting, missing its personifying force."
       },
       {
         "id": "3-9",
@@ -664,7 +664,7 @@ const QUESTIONS = {
           "It contradicts the passage's later dialogue, which involves only the two brothers."
         ],
         "correct": 2,
-        "explanation": "Comparing the silence to 'a third passenger' personifies an abstract emotional state as a tangible presence, establishing from the opening line how weighty the brothers' unspoken tension is. Choice A takes a figurative comparison literally, missing the simile entirely. Choice C denies the image any figurative work despite its clearly non-literal comparison. Choice D misunderstands the relationship — the 'third passenger' is the silence itself, not a contradiction of the two-brother dialogue that follows."
+        "explanation": "Comparing the silence to 'a third passenger' personifies an abstract emotional state as a tangible presence, establishing from the opening line how weighty the brothers' unspoken tension is. Choice B takes a figurative comparison literally, missing the simile entirely. Choice A denies the image any figurative work despite its clearly non-literal comparison. Choice D misunderstands the relationship — the 'third passenger' is the silence itself, not a contradiction of the two-brother dialogue that follows."
       },
       {
         "id": "4-9",
@@ -677,7 +677,7 @@ const QUESTIONS = {
           "It carries no figurative significance and is simply a neutral, literal description."
         ],
         "correct": 0,
-        "explanation": "The careful qualifier implies a different, unstated way the loss 'mattered' outside the adjuster's dollar-value frame, planting the passage's central tension in one economical phrase. Choice A denies any figurative weight to phrasing the passage clearly chose over a simpler, flatter alternative. Choice B misdirects the implied criticism — the phrase is about the limits of his frame, not his personal attitude toward his job. Choice D gets the relationship backwards; the phrase sets up, rather than conflicts with, the drawer detail that follows."
+        "explanation": "The careful qualifier implies a different, unstated way the loss 'mattered' outside the adjuster's dollar-value frame, planting the passage's central tension in one economical phrase. Choice D denies any figurative weight to phrasing the passage clearly chose over a simpler, flatter alternative. Choice B misdirects the implied criticism — the phrase is about the limits of his frame, not his personal attitude toward his job. Choice C gets the relationship backwards; the phrase sets up, rather than conflicts with, the drawer detail that follows."
       },
       {
         "id": "5-9",
@@ -690,7 +690,7 @@ const QUESTIONS = {
           "It suggests Rosa's garden has become genuinely overrun with actual wild plants."
         ],
         "correct": 1,
-        "explanation": "'Wilderness' normally connotes something wild and uncontrolled, so pairing it with 'deliberate' creates a pointed tension — Rosa's grief is outwardly managed yet genuinely untamed underneath. Choice A denies figurative force to a phrase built from two words in tension with each other. Choice B misreads the phrase as inconsistent with Rosa's characterization, when it actually captures her precisely. Choice D takes 'wilderness' too literally; nothing suggests actual plant overgrowth."
+        "explanation": "'Wilderness' normally connotes something wild and uncontrolled, so pairing it with 'deliberate' creates a pointed tension — Rosa's grief is outwardly managed yet genuinely untamed underneath. Choice A denies figurative force to a phrase built from two words in tension with each other. Choice C misreads the phrase as inconsistent with Rosa's characterization, when it actually captures her precisely. Choice D takes 'wilderness' too literally; nothing suggests actual plant overgrowth."
       },
       {
         "id": "1-10",
@@ -703,7 +703,7 @@ const QUESTIONS = {
           "The brief description of Delia's kitchen table accomplishes this combined work most efficiently."
         ],
         "correct": 2,
-        "explanation": "The guest list simultaneously characterizes Delia's internal conflict, is grounded in the concrete kitchen setting, and foreshadows the coming confrontation implied by Tom's closing question — a single detail doing several kinds of work at once. Choice B names only a setting detail with no characterizing or foreshadowing function of its own. Choice C is suggestive of anxiety but doesn't combine setting or foreshadowing the way the guest list does. Choice D is a minor detail about the mother's argument, not one that does triple duty."
+        "explanation": "The guest list simultaneously characterizes Delia's internal conflict, is grounded in the concrete kitchen setting, and foreshadows the coming confrontation implied by Tom's closing question — a single detail doing several kinds of work at once. Choice D names only a setting detail with no characterizing or foreshadowing function of its own. Choice A is suggestive of anxiety but doesn't combine setting or foreshadowing the way the guest list does. Choice B is a minor detail about the mother's argument, not one that does triple duty."
       },
       {
         "id": "2-10",
@@ -716,7 +716,7 @@ const QUESTIONS = {
           "The description of the dust settling into the shape of former furniture, which lingers as the passage's most vivid and memorable single image."
         ],
         "correct": 0,
-        "explanation": "This phrase goes beyond neutral description to explicitly interpret the light's meaning, the clearest textual signal that the passage intends the light symbolically. Choice A is a factual time marker, not an interpretive one. Choice B, though evocative, describes rather than interprets — it doesn't editorialize the way the porch-light phrase does. Choice C is similarly descriptive rather than interpretive, marking time rather than assigning meaning."
+        "explanation": "This phrase goes beyond neutral description to explicitly interpret the light's meaning, the clearest textual signal that the passage intends the light symbolically. Choice B is a factual time marker, not an interpretive one. Choice D, though evocative, describes rather than interprets — it doesn't editorialize the way the porch-light phrase does. Choice C is similarly descriptive rather than interpretive, marking time rather than assigning meaning."
       },
       {
         "id": "3-10",
@@ -729,7 +729,7 @@ const QUESTIONS = {
           "It suggests the story is set during a period of drought on land."
         ],
         "correct": 2,
-        "explanation": "Low tide exposes what's normally submerged, paralleling the brothers' long-buried feelings finally surfacing in this conversation, extending figurative meaning into the title itself. Choice B misreads a title consistent with, not opposed to, the passage's ocean setting. Choice C confuses a nautical phenomenon with an unrelated weather condition. Choice D denies any figurative resonance despite the title's clear thematic fit with the passage's content."
+        "explanation": "Low tide exposes what's normally submerged, paralleling the brothers' long-buried feelings finally surfacing in this conversation, extending figurative meaning into the title itself. Choice A misreads a title consistent with, not opposed to, the passage's ocean setting. Choice D confuses a nautical phenomenon with an unrelated weather condition. Choice B denies any figurative resonance despite the title's clear thematic fit with the passage's content."
       },
       {
         "id": "4-10",
@@ -742,7 +742,7 @@ const QUESTIONS = {
           "It operates on two levels — the literal insurance inventory of lost possessions, and a figurative accounting of the narrator's grief."
         ],
         "correct": 3,
-        "explanation": "'Inventory' names both the literal insurance list of lost possessions and a figurative reckoning with internal, unquantifiable grief, a title chosen to carry both meanings at once. Choice B denies a double meaning the passage's own content clearly supports. Choice C is unsupported; the title fits the passage's content rather than conflicting with it. Choice D invents an unrelated biographical detail the text never mentions."
+        "explanation": "'Inventory' names both the literal insurance list of lost possessions and a figurative reckoning with internal, unquantifiable grief, a title chosen to carry both meanings at once. Choice B denies a double meaning the passage's own content clearly supports. Choice C is unsupported; the title fits the passage's content rather than conflicting with it. Choice A invents an unrelated biographical detail the text never mentions."
       },
       {
         "id": "5-10",
@@ -755,7 +755,7 @@ const QUESTIONS = {
           "All five passages end without full resolution, consistently modeling ambiguous endings as deliberate, meaningful choices."
         ],
         "correct": 3,
-        "explanation": "Every passage ends short of full resolution — Delia's confrontation unstated, the porch light still burning, the brothers still undeclared, the narrator's grief unfiled, Rosa's path still unfinished — a shared technique this unit's guide frames as deliberate rather than incomplete. Choice B undercounts how consistently this pattern holds across all five. Choice D directly contradicts the specific, unresolved ending each passage actually has."
+        "explanation": "Every passage ends short of full resolution — Delia's confrontation unstated, the porch light still burning, the brothers still undeclared, the narrator's grief unfiled, Rosa's path still unfinished — a shared technique this unit's guide frames as deliberate rather than incomplete. Choice B undercounts how consistently this pattern holds across all five. Choice C directly contradicts the specific, unresolved ending each passage actually has."
       },
       {
         "id": "1-11",
@@ -781,7 +781,7 @@ const QUESTIONS = {
           "It follows a completely standard five-part plot structure from exposition through resolution, tracing the house's decline in clearly separated narrative stages."
         ],
         "correct": 1,
-        "explanation": "With no protagonist or conflict, the passage builds meaning entirely through accumulated description, an atmosphere-driven approach that departs from event-driven plot conventions. Choices B and C both claim the opposite of what's evident — there is no rising action or climax anywhere in the passage. Choice D understates how clearly the passage's structural choice can be identified from the text alone."
+        "explanation": "With no protagonist or conflict, the passage builds meaning entirely through accumulated description, an atmosphere-driven approach that departs from event-driven plot conventions. Choices A and D both claim the opposite of what's evident — there is no rising action or climax anywhere in the passage. Choice C understates how clearly the passage's structural choice can be identified from the text alone."
       },
       {
         "id": "3-11",
@@ -794,7 +794,7 @@ const QUESTIONS = {
           "The dialogue provides full, direct access to both brothers' internal thoughts and feelings."
         ],
         "correct": 1,
-        "explanation": "The brothers' brief, deflecting exchanges reinforce the same withholding the narration practices, so both dialogue and narrative distance push the reader toward inference rather than certainty. Choice B has the relationship backwards — dialogue and distance work together here, not against each other. Choice C is simply false; several lines of dialogue drive the scene. Choice D is contradicted by how little the dialogue actually reveals about either brother's interior state."
+        "explanation": "The brothers' brief, deflecting exchanges reinforce the same withholding the narration practices, so both dialogue and narrative distance push the reader toward inference rather than certainty. Choice A has the relationship backwards — dialogue and distance work together here, not against each other. Choice C is simply false; several lines of dialogue drive the scene. Choice D is contradicted by how little the dialogue actually reveals about either brother's interior state."
       },
       {
         "id": "4-11",
@@ -807,7 +807,7 @@ const QUESTIONS = {
           "First-person narration actively undermines the passage's stated theme about hidden loss."
         ],
         "correct": 1,
-        "explanation": "A story about the gap between what's officially reported and what's privately felt needs a narrator who can show both sides at once, which first person accomplishes with an intimacy third person would struggle to match. Choice B has the relationship backwards. Choice C underestimates how much explicit narratorial commentary a different point of view would require to achieve the same effect. Choice D dismisses a clear, sustained alignment between technique and theme."
+        "explanation": "A story about the gap between what's officially reported and what's privately felt needs a narrator who can show both sides at once, which first person accomplishes with an intimacy third person would struggle to match. Choice D has the relationship backwards. Choice C underestimates how much explicit narratorial commentary a different point of view would require to achieve the same effect. Choice A dismisses a clear, sustained alignment between technique and theme."
       },
       {
         "id": "5-11",
@@ -820,7 +820,7 @@ const QUESTIONS = {
           "The passage takes place over a single week, with no reference to extended background time."
         ],
         "correct": 1,
-        "explanation": "Years of habitual evening walks establish a baseline before the passage narrows to one evening's small change, using extended time to make the brief moment's significance legible by contrast. Choice B ignores explicit time markers ('the summer before,' 'for years afterward,' 'this evening'). Choices C and D both understate the passage's clearly stated multi-year span before narrowing to the present evening."
+        "explanation": "Years of habitual evening walks establish a baseline before the passage narrows to one evening's small change, using extended time to make the brief moment's significance legible by contrast. Choice A ignores explicit time markers ('the summer before,' 'for years afterward,' 'this evening'). Choices C and D both understate the passage's clearly stated multi-year span before narrowing to the present evening."
       },
       {
         "id": "1-12",
@@ -833,7 +833,7 @@ const QUESTIONS = {
           "Figurative language, since the passage relies heavily on an extended, developed metaphor."
         ],
         "correct": 2,
-        "explanation": "The guest list, the thumbnail mark, and Tom's careful tone all function primarily to reveal character through inference, making indirect characterization the passage's dominant technique. Choice B overstates the plot, which is a single quiet domestic scene, not a complex sequence of events. Choice C is unsupported — the passage doesn't build any sustained extended metaphor comparable to Passage 4's insurance-claim framing. Choice D is backwards: the kitchen is mentioned briefly and mainly to ground character, not described at length for its own sake."
+        "explanation": "The guest list, the thumbnail mark, and Tom's careful tone all function primarily to reveal character through inference, making indirect characterization the passage's dominant technique. Choice B overstates the plot, which is a single quiet domestic scene, not a complex sequence of events. Choice D is unsupported — the passage doesn't build any sustained extended metaphor comparable to Passage 4's insurance-claim framing. Choice A is backwards: the kitchen is mentioned briefly and mainly to ground character, not described at length for its own sake."
       },
       {
         "id": "2-12",
@@ -846,7 +846,7 @@ const QUESTIONS = {
           "Dialogue-based characterization, since the passage consists mostly of spoken conversation."
         ],
         "correct": 0,
-        "explanation": "The sign, the dust, and the porch light do the passage's primary work, building mood and meaning through setting rather than through plot or character. Choice A is contradicted by the passage's static, event-free structure. Choice C overstates the narrator's presence — the voice stays understated rather than opinionated. Choice D is directly contradicted by the total absence of dialogue in the passage."
+        "explanation": "The sign, the dust, and the porch light do the passage's primary work, building mood and meaning through setting rather than through plot or character. Choice B is contradicted by the passage's static, event-free structure. Choice C overstates the narrator's presence — the voice stays understated rather than opinionated. Choice D is directly contradicted by the total absence of dialogue in the passage."
       },
       {
         "id": "3-12",
@@ -859,7 +859,7 @@ const QUESTIONS = {
           "Setting, since the passage spends most of its length on detailed oceanographic description."
         ],
         "correct": 0,
-        "explanation": "Withholding interior access forces inference from external dialogue and action, mirroring the brothers' own emotional distance — the passage's central technique. Choice B is directly contradicted; the narrator never states either brother's traits outright. Choice C overstates the setting's role — the ocean is sketched briefly, not developed at length. Choice D is incoherent and doesn't describe a technique the passage actually leans on."
+        "explanation": "Withholding interior access forces inference from external dialogue and action, mirroring the brothers' own emotional distance — the passage's central technique. Choice C is directly contradicted; the narrator never states either brother's traits outright. Choice D overstates the setting's role — the ocean is sketched briefly, not developed at length. Choice B is incoherent and doesn't describe a technique the passage actually leans on."
       },
       {
         "id": "4-12",
@@ -872,7 +872,7 @@ const QUESTIONS = {
           "Direct characterization, since the adjuster explicitly describes the narrator's personality traits."
         ],
         "correct": 2,
-        "explanation": "The drawer, the photograph, and the extended insurance-claim metaphor all carry meaning beyond their literal function, making figurative language and symbol this passage's dominant technique. Choice A overstates the plot, a single brief scene with no multi-stage arc. Choice B is contradicted by the passage's near-total lack of physical description of the burned house itself. Choice C is simply false — the adjuster never describes the narrator's personality."
+        "explanation": "The drawer, the photograph, and the extended insurance-claim metaphor all carry meaning beyond their literal function, making figurative language and symbol this passage's dominant technique. Choice B overstates the plot, a single brief scene with no multi-stage arc. Choice A is contradicted by the passage's near-total lack of physical description of the burned house itself. Choice D is simply false — the adjuster never describes the narrator's personality."
       },
       {
         "id": "5-12",
@@ -885,7 +885,7 @@ const QUESTIONS = {
           "Direct characterization, through explicit narratorial statement of Rosa's personality traits."
         ],
         "correct": 2,
-        "explanation": "The path's specific evolution — from abandoned project, to maintained gap, to one new stone — carries the passage's central meaning more than any other single element. Choice A is contradicted by the passage's single, consistent narrative perspective throughout. Choice C overstates a brief, reported exchange with visitors as the passage's primary content, when it's mostly narrated description. Choice D is directly contradicted by the passage's reliance on indirect, inferential characterization instead."
+        "explanation": "The path's specific evolution — from abandoned project, to maintained gap, to one new stone — carries the passage's central meaning more than any other single element. Choice B is contradicted by the passage's single, consistent narrative perspective throughout. Choice A overstates a brief, reported exchange with visitors as the passage's primary content, when it's mostly narrated description. Choice D is directly contradicted by the passage's reliance on indirect, inferential characterization instead."
       },
       {
         "id": "1-13",
@@ -898,7 +898,7 @@ const QUESTIONS = {
           "Passages 2 and 4, since both are set primarily inside a domestic interior space."
         ],
         "correct": 1,
-        "explanation": "Both Passages 1 and 3 escalate toward a moment of decision or confrontation (Tom's pointed question; the brothers' choice to keep going) and end just before that moment is directly addressed. Choice A is inaccurate — Passage 2 has no named human character at all, and Passage 5 centers on one (Rosa). Choice B ignores an evident, describable pattern shared by two of the five texts. Choice C mischaracterizes Passage 2, whose setting is an empty house, not an occupied domestic interior like Passage 4's."
+        "explanation": "Both Passages 1 and 3 escalate toward a moment of decision or confrontation (Tom's pointed question; the brothers' choice to keep going) and end just before that moment is directly addressed. Choice A is inaccurate — Passage 2 has no named human character at all, and Passage 5 centers on one (Rosa). Choice C ignores an evident, describable pattern shared by two of the five texts. Choice D mischaracterizes Passage 2, whose setting is an empty house, not an occupied domestic interior like Passage 4's."
       },
       {
         "id": "2-13",
@@ -911,7 +911,7 @@ const QUESTIONS = {
           "Passage 5 differs most, since it also centers on a physical object carrying symbolic weight."
         ],
         "correct": 1,
-        "explanation": "Passage 2 is unique in this set for making setting itself, rather than any character's action or thought, the primary vehicle for meaning, with human presence reduced entirely to implication. Choice B misidentifies Passage 5, which still centers a human character (Rosa) acting within her setting, unlike Passage 2's houseless narration. Choice C misreads how commonly domestic interiors appear; the real distinction is about whose action carries meaning, not the room type. Choice D ignores a clear, describable difference among the passages' techniques."
+        "explanation": "Passage 2 is unique in this set for making setting itself, rather than any character's action or thought, the primary vehicle for meaning, with human presence reduced entirely to implication. Choice D misidentifies Passage 5, which still centers a human character (Rosa) acting within her setting, unlike Passage 2's houseless narration. Choice A misreads how commonly domestic interiors appear; the real distinction is about whose action carries meaning, not the room type. Choice C ignores a clear, describable difference among the passages' techniques."
       },
       {
         "id": "3-13",
@@ -924,7 +924,7 @@ const QUESTIONS = {
           "Narrative distance cannot meaningfully be compared across passages that use different points of view."
         ],
         "correct": 2,
-        "explanation": "Comparing the passages shows a real range — Passage 4's confiding first person sits at one end, Passage 3's third-person objective at the other — demonstrating narrative distance as a tool writers vary deliberately by story. Choice A is false; every passage has an identifiable narrative distance, not just Passage 3. Choice C wrongly assumes point of view and narrative distance are the same axis. Choice D contradicts the clear, describable variation across the five texts."
+        "explanation": "Comparing the passages shows a real range — Passage 4's confiding first person sits at one end, Passage 3's third-person objective at the other — demonstrating narrative distance as a tool writers vary deliberately by story. Choice B is false; every passage has an identifiable narrative distance, not just Passage 3. Choice A wrongly assumes point of view and narrative distance are the same axis. Choice D contradicts the clear, describable variation across the five texts."
       },
       {
         "id": "4-13",
@@ -937,7 +937,7 @@ const QUESTIONS = {
           "Memorizing a fixed list of universal literary symbols to apply to any text encountered."
         ],
         "correct": 1,
-        "explanation": "Asking 'why this specific detail, and what does it reveal or accomplish' across character, setting, structure, point of view, and figurative language is the unifying habit this unit's five sections all model. Choice A contradicts this unit's own Key Idea that symbolic meaning is context-specific, not drawn from a universal dictionary. Choice B rules out the interpretive work the exam rewards, mistaking caution for rigor. Choice D describes exactly the plot-summary approach this unit's opening framework warns against."
+        "explanation": "Asking 'why this specific detail, and what does it reveal or accomplish' across character, setting, structure, point of view, and figurative language is the unifying habit this unit's five sections all model. Choice D contradicts this unit's own Key Idea that symbolic meaning is context-specific, not drawn from a universal dictionary. Choice A rules out the interpretive work the exam rewards, mistaking caution for rigor. Choice C describes exactly the plot-summary approach this unit's opening framework warns against."
       },
       {
         "id": "5-13",
@@ -950,7 +950,7 @@ const QUESTIONS = {
           "All five are centrally concerned with how people manage unresolved emotional states through small, indirect actions."
         ],
         "correct": 3,
-        "explanation": "Despite different plots and techniques, all five passages explore how people manage — or partially fail to manage — unresolved emotional states through small, indirect, often unspoken actions, a thread this unit's five distinct techniques each illuminate. Choice A dismisses a clear, describable thematic pattern running through every passage. Choice C ignores the same concern surfacing in Delia's guest list, the brothers' silence, the narrator's drawer, and the house's porch light alike. Choice D understates the connection to theme, not just setting, that ties the set together."
+        "explanation": "Despite different plots and techniques, all five passages explore how people manage — or partially fail to manage — unresolved emotional states through small, indirect, often unspoken actions, a thread this unit's five distinct techniques each illuminate. Choice A dismisses a clear, describable thematic pattern running through every passage. Choice C ignores the same concern surfacing in Delia's guest list, the brothers' silence, the narrator's drawer, and the house's porch light alike. Choice B understates the connection to theme, not just setting, that ties the set together."
       }
     ]
   },
@@ -2828,7 +2828,7 @@ const QUESTIONS = {
           "That the narrator chose to describe the meeting to us at all, rather than staying silent about it."
         ],
         "correct": 1,
-        "explanation": "The correct answer is the repeated, almost compulsive insistence on 'calm' and 'professional,' combined with the disproportionate fifteen-minute length of a supposedly simple explanation — someone genuinely composed rarely needs this much repeated self-reassurance, exactly the internal signal Section 4.1 teaches readers to detect. Choice A is wrong because merely choosing to narrate an event says nothing about whether the account is trustworthy — plenty of reliable narrators describe meetings in detail. Choice B misreads the three-years-ago detail as a memory issue; it actually characterizes the narrator's tendency to relitigate old grievances (see 1-5), not a signal about their emotional state in this specific meeting. Choice C points at Denise's behavior, but the question asks about signals of the narrator's OWN unreliability — what Denise did doesn't bear on whether the narrator's self-report can be trusted."
+        "explanation": "The correct answer is the repeated, almost compulsive insistence on 'calm' and 'professional,' combined with the disproportionate fifteen-minute length of a supposedly simple explanation — someone genuinely composed rarely needs this much repeated self-reassurance, exactly the internal signal Section 4.1 teaches readers to detect. Choice D is wrong because merely choosing to narrate an event says nothing about whether the account is trustworthy — plenty of reliable narrators describe meetings in detail. Choice A misreads the three-years-ago detail as a memory issue; it actually characterizes the narrator's tendency to relitigate old grievances (see 1-5), not a signal about their emotional state in this specific meeting. Choice C points at Denise's behavior, but the question asks about signals of the narrator's OWN unreliability — what Denise did doesn't bear on whether the narrator's self-report can be trusted."
       },
       {
         "id": "1-2",
@@ -2841,7 +2841,7 @@ const QUESTIONS = {
           "It confirms the narrator's account was accurate, since coworkers were simply following up on ordinary post-meeting business."
         ],
         "correct": 1,
-        "explanation": "Multiple coworkers independently checking on the narrator is external, corroborating evidence that contradicts the narrator's own claim that 'nothing unusual happened' — drawn from the narrator's own account, it undercuts their version, exactly the internal-evidence-against-itself pattern Section 4.1 emphasizes. Choice A gets the logic backward: if the meeting were as unremarkable as claimed, multiple people wouldn't feel compelled to check in — the concern itself is the inconsistency. Choice B has no textual support; the passage explicitly says people checked on 'the narrator,' not Denise, and there's no intermediary framing anywhere in the text. Choice C is a plausible-sounding but unsupported generalization — the passage gives no indication this workplace has a norm of checking in after every meeting, and inventing one to explain away the detail ignores the narrator's own admission that the repeated questioning struck them as strange."
+        "explanation": "Multiple coworkers independently checking on the narrator is external, corroborating evidence that contradicts the narrator's own claim that 'nothing unusual happened' — drawn from the narrator's own account, it undercuts their version, exactly the internal-evidence-against-itself pattern Section 4.1 emphasizes. Choice D gets the logic backward: if the meeting were as unremarkable as claimed, multiple people wouldn't feel compelled to check in — the concern itself is the inconsistency. Choice A has no textual support; the passage explicitly says people checked on 'the narrator,' not Denise, and there's no intermediary framing anywhere in the text. Choice C is a plausible-sounding but unsupported generalization — the passage gives no indication this workplace has a norm of checking in after every meeting, and inventing one to explain away the detail ignores the narrator's own admission that the repeated questioning struck them as strange."
       },
       {
         "id": "1-3",
@@ -2854,7 +2854,7 @@ const QUESTIONS = {
           "This detail is incidental scene-setting and doesn't connect to the passage's central technique of unreliable narration."
         ],
         "correct": 2,
-        "explanation": "This admission reveals an unacknowledged tension within the narrator's own account — genuine confusion about repeated questioning sits awkwardly next to the confident claim that nothing unusual happened, a specific internal contradiction the passage uses to signal unreliability without any character ever stating it directly. Choice A dismisses a detail the question itself flags as significant; 'having to explain it more than once' is precisely the kind of small, telling repetition Section 4.1 asks readers not to skip past. Choice B misreads the narrator as self-aware and candid, when the passage shows the opposite — the narrator never acknowledges an outburst, only puzzlement at others' reactions. Choice C shifts blame onto the coworkers with no textual basis; nothing suggests their concern was irrational, and reading it that way requires ignoring how many of them acted the same way."
+        "explanation": "This admission reveals an unacknowledged tension within the narrator's own account — genuine confusion about repeated questioning sits awkwardly next to the confident claim that nothing unusual happened, a specific internal contradiction the passage uses to signal unreliability without any character ever stating it directly. Choice D dismisses a detail the question itself flags as significant; 'having to explain it more than once' is precisely the kind of small, telling repetition Section 4.1 asks readers not to skip past. Choice B misreads the narrator as self-aware and candid, when the passage shows the opposite — the narrator never acknowledges an outburst, only puzzlement at others' reactions. Choice A shifts blame onto the coworkers with no textual basis; nothing suggests their concern was irrational, and reading it that way requires ignoring how many of them acted the same way."
       },
       {
         "id": "1-4",
@@ -2867,7 +2867,7 @@ const QUESTIONS = {
           "An event too thinly described for a reader to responsibly reconstruct any version beyond what the narrator states."
         ],
         "correct": 1,
-        "explanation": "The accumulated internal signals — the insistent, over-length claims of calm, the old grievances aired at length, the coworkers' concern, the narrator's own puzzled admission of having to repeat an explanation — invite the reader to reconstruct a significantly more heated confrontation than the narrator admits, exactly the kind of reconstruction Section 4.1's skill-building models. Choice A ignores that the narrator's own defensiveness (not just Denise's raised voice) is what the passage's signals point to. Choice C understates how much textual evidence is actually available here; the passage isn't too sparse to reconstruct from, it's unusually rich in self-undermining detail. Choice D simply restates the narrator's claim at face value, which is the reading this unit's entire framework asks students to move past."
+        "explanation": "The accumulated internal signals — the insistent, over-length claims of calm, the old grievances aired at length, the coworkers' concern, the narrator's own puzzled admission of having to repeat an explanation — invite the reader to reconstruct a significantly more heated confrontation than the narrator admits, exactly the kind of reconstruction Section 4.1's skill-building models. Choice C ignores that the narrator's own defensiveness (not just Denise's raised voice) is what the passage's signals point to. Choice D understates how much textual evidence is actually available here; the passage isn't too sparse to reconstruct from, it's unusually rich in self-undermining detail. Choice A simply restates the narrator's claim at face value, which is the reading this unit's entire framework asks students to move past."
       },
       {
         "id": "1-5",
@@ -2880,7 +2880,7 @@ const QUESTIONS = {
           "It carries no real significance and is included only to specify what the meeting covered."
         ],
         "correct": 1,
-        "explanation": "This detail suggests a pattern of holding onto old grievances well beyond their immediate relevance, indirectly characterizing someone whose lengthy 'explanation' may function as relitigating long-standing frustrations rather than addressing the current proposal — additional evidence supporting the more heated version of events reconstructed in 1-4. Choice A dismisses a detail that is doing real characterization work, not just scene-setting. Choice B treats an unflattering pattern (grievance-hoarding) as a neutral or flattering trait (good memory), missing the passage's ironic framing of the narrator's self-description as someone who 'provides context.' Choice D has the logic backward — far from lending credibility, dragging in three-year-old projects to explain a 'simple' point is exactly the kind of disproportionate behavior that makes the narrator less, not more, believable."
+        "explanation": "This detail suggests a pattern of holding onto old grievances well beyond their immediate relevance, indirectly characterizing someone whose lengthy 'explanation' may function as relitigating long-standing frustrations rather than addressing the current proposal — additional evidence supporting the more heated version of events reconstructed in 1-4. Choice D dismisses a detail that is doing real characterization work, not just scene-setting. Choice C treats an unflattering pattern (grievance-hoarding) as a neutral or flattering trait (good memory), missing the passage's ironic framing of the narrator's self-description as someone who 'provides context.' Choice A has the logic backward — far from lending credibility, dragging in three-year-old projects to explain a 'simple' point is exactly the kind of disproportionate behavior that makes the narrator less, not more, believable."
       },
       {
         "id": "2-1",
@@ -2893,7 +2893,7 @@ const QUESTIONS = {
           "Situational irony — the generator, purchased and tested for exactly this ordinary storm, fails for an unrelated reason (a squirrel)."
         ],
         "correct": 3,
-        "explanation": "This is situational irony — the generator, specifically purchased and tested for exactly this kind of ordinary storm, fails due to an entirely unrelated cause (a squirrel), contradicting the reasonable expectation that this deliberate investment would prevent precisely this kind of failure. Choice A wrongly denies any irony despite the passage's central contrast between preparation and outcome. Choice C misapplies dramatic irony — the passage never establishes that the reader learns the squirrel detail before any character does; it's presented as a fact 'later confirmed,' available to reader and townspeople at the same time, not a gap in a character's in-scene knowledge. Choice D misreads the mayor's quote as insincere; nothing in the passage signals sarcasm — he means the statement earnestly, which is precisely what makes the later failure ironic rather than merely mocking."
+        "explanation": "This is situational irony — the generator, specifically purchased and tested for exactly this kind of ordinary storm, fails due to an entirely unrelated cause (a squirrel), contradicting the reasonable expectation that this deliberate investment would prevent precisely this kind of failure. Choice B wrongly denies any irony despite the passage's central contrast between preparation and outcome. Choice C misapplies dramatic irony — the passage never establishes that the reader learns the squirrel detail before any character does; it's presented as a fact 'later confirmed,' available to reader and townspeople at the same time, not a gap in a character's in-scene knowledge. Choice A misreads the mayor's quote as insincere; nothing in the passage signals sarcasm — he means the statement earnestly, which is precisely what makes the later failure ironic rather than merely mocking."
       },
       {
         "id": "2-2",
@@ -2906,7 +2906,7 @@ const QUESTIONS = {
           "It shows the mayor anticipated the generator might eventually fail in exactly this way."
         ],
         "correct": 2,
-        "explanation": "This quote establishes the generator's intended purpose explicitly and confidently before the narrative reveals its failure, creating a foundation of stated expectation that the passage's actual events directly and ironically undermine. Choice A misses that the quote is doing real structural work — it's the setup half of the passage's central irony, not a throwaway line. Choice B inverts the point; the mayor's confidence is precisely what makes the later failure ironic, not a sign of foresight — he explicitly calls it protection against what 'we hope never happens,' with no hint he expects failure. Choice C confuses contradiction of expectation with contradiction of the passage itself — the quote and the later event are in tension by design, not because one detail is a factual inconsistency in the story."
+        "explanation": "This quote establishes the generator's intended purpose explicitly and confidently before the narrative reveals its failure, creating a foundation of stated expectation that the passage's actual events directly and ironically undermine. Choice A misses that the quote is doing real structural work — it's the setup half of the passage's central irony, not a throwaway line. Choice D inverts the point; the mayor's confidence is precisely what makes the later failure ironic, not a sign of foresight — he explicitly calls it protection against what 'we hope never happens,' with no hint he expects failure. Choice B confuses contradiction of expectation with contradiction of the passage itself — the quote and the later event are in tension by design, not because one detail is a factual inconsistency in the story."
       },
       {
         "id": "2-3",
@@ -2919,7 +2919,7 @@ const QUESTIONS = {
           "It intensifies the irony — the more thoroughly prepared something is described as being, the more pointed its failure becomes."
         ],
         "correct": 3,
-        "explanation": "This repeated, almost insistent emphasis on the generator's careful preparation and specific purpose heightens the situational irony's force — the more thoroughly prepared and specifically designed something is presented as being, the more ironic and pointed its failure becomes when it occurs for a reason entirely outside that preparation's scope. Choice A undersells language the passage repeats for a clear rhetorical reason. Choice B is directly contradicted by the passage, which states the generator failed and hospital staff had to rely on battery backups and flashlights. Choice C confuses two separate, compatible facts — the storm being unremarkable and the generator being over-described as prepared aren't in conflict; together they're exactly what makes the failure so ironic, since an ordinary storm is exactly what the generator should have handled with ease."
+        "explanation": "This repeated, almost insistent emphasis on the generator's careful preparation and specific purpose heightens the situational irony's force — the more thoroughly prepared and specifically designed something is presented as being, the more ironic and pointed its failure becomes when it occurs for a reason entirely outside that preparation's scope. Choice B undersells language the passage repeats for a clear rhetorical reason. Choice C is directly contradicted by the passage, which states the generator failed and hospital staff had to rely on battery backups and flashlights. Choice A confuses two separate, compatible facts — the storm being unremarkable and the generator being over-described as prepared aren't in conflict; together they're exactly what makes the failure so ironic, since an ordinary storm is exactly what the generator should have handled with ease."
       },
       {
         "id": "2-4",
@@ -2932,7 +2932,7 @@ const QUESTIONS = {
           "This detail has no meaningful effect on how the passage's tone comes across to readers."
         ],
         "correct": 0,
-        "explanation": "This specific, mundane, almost darkly comic cause introduces a wry, ironic tone into what could otherwise be a purely somber account of hospital failure during a storm — the gap between the serious stakes (hospital operations) and the almost trivial cause (a squirrel) creates a distinctly ironic, tonally complex effect. Choice A dismisses a detail doing clear tonal work, evidenced by the passage's own careful, deadpan phrasing around it. Choice B overstates the shift — the passage never abandons its serious content (flashlight-lit procedures, a disabled safety mechanism); the squirrel adds irony, not pure comedy. Choice C gets the relationship backward — the trivial cause doesn't undercut the seriousness, it sharpens it, by highlighting how disproportionate the point of failure was to its real consequences."
+        "explanation": "This specific, mundane, almost darkly comic cause introduces a wry, ironic tone into what could otherwise be a purely somber account of hospital failure during a storm — the gap between the serious stakes (hospital operations) and the almost trivial cause (a squirrel) creates a distinctly ironic, tonally complex effect. Choice D dismisses a detail doing clear tonal work, evidenced by the passage's own careful, deadpan phrasing around it. Choice C overstates the shift — the passage never abandons its serious content (flashlight-lit procedures, a disabled safety mechanism); the squirrel adds irony, not pure comedy. Choice B gets the relationship backward — the trivial cause doesn't undercut the seriousness, it sharpens it, by highlighting how disproportionate the point of failure was to its real consequences."
       },
       {
         "id": "2-5",
@@ -2945,7 +2945,7 @@ const QUESTIONS = {
           "This final image carries no particular rhetorical or thematic weight in the passage."
         ],
         "correct": 1,
-        "explanation": "This juxtaposition of urgent, improvised human effort (flashlight-lit procedures) against the generator's ironic, near-total physical intactness ('perfectly intact except for one small, chewed wire') sharpens the irony by emphasizing how minor and disproportionate the actual point of failure was relative to its consequences. Choice A undersells an image the passage clearly positions as its closing, culminating detail. Choice C invents a contradiction; nothing about the installation description conflicts with this final image — they're consistent, both emphasizing the generator's careful preparation. Choice D has no support in the text; the passage praises nothing and criticizes nothing about the medical staff's competence, only describes the improvised conditions they had to work under."
+        "explanation": "This juxtaposition of urgent, improvised human effort (flashlight-lit procedures) against the generator's ironic, near-total physical intactness ('perfectly intact except for one small, chewed wire') sharpens the irony by emphasizing how minor and disproportionate the actual point of failure was relative to its consequences. Choice D undersells an image the passage clearly positions as its closing, culminating detail. Choice A invents a contradiction; nothing about the installation description conflicts with this final image — they're consistent, both emphasizing the generator's careful preparation. Choice C has no support in the text; the passage praises nothing and criticizes nothing about the medical staff's competence, only describes the improvised conditions they had to work under."
       },
       {
         "id": "3-1",
@@ -2958,7 +2958,7 @@ const QUESTIONS = {
           "The motif of checking the doors, moving from unconscious ritual, to anxious repetition after a nearby break-in, to relaxed routine."
         ],
         "correct": 3,
-        "explanation": "This passage tracks the motif of door-checking across three distinct stages — unconscious ritual, anxious disruption after a nearby break-in, and eventual relaxed integration — exactly the kind of multi-stage motif development Section 4.3 emphasizes tracking rather than analyzing from a single appearance. Choice A invents content not in the passage; no crime statistics are ever mentioned, only a single nearby break-in as an inciting event. Choice C is simply incorrect — a clear, three-stage pattern is directly stated in the text. Choice D misidentifies a passing origin detail (the grandmother's house, mentioned once in the opening) as the motif itself; the grandmother never reappears in the middle or ending excerpts, so she can't be what's being tracked across all three stages."
+        "explanation": "This passage tracks the motif of door-checking across three distinct stages — unconscious ritual, anxious disruption after a nearby break-in, and eventual relaxed integration — exactly the kind of multi-stage motif development Section 4.3 emphasizes tracking rather than analyzing from a single appearance. Choice B invents content not in the passage; no crime statistics are ever mentioned, only a single nearby break-in as an inciting event. Choice A is simply incorrect — a clear, three-stage pattern is directly stated in the text. Choice C misidentifies a passing origin detail (the grandmother's house, mentioned once in the opening) as the motif itself; the grandmother never reappears in the middle or ending excerpts, so she can't be what's being tracked across all three stages."
       },
       {
         "id": "3-2",
@@ -2971,7 +2971,7 @@ const QUESTIONS = {
           "It shows no meaningful psychological change occurring between these first two excerpted stages."
         ],
         "correct": 1,
-        "explanation": "This shift reveals how a specific external event (the nearby break-in) disrupted a previously stable, unconscious ritual, introducing anxious repetition and self-doubt ('unable to quite trust her own memory') where confident habit had existed before — external circumstance directly affecting an established internal pattern. Choice B misdescribes the relationship between stages; the middle stage doesn't contradict the ending, it's one step in a coherent three-part progression the ending later resolves. Choice C is the opposite of what happens — checking four times instead of once shows Marguerite becoming more vigilant, not less. Choice D ignores the clearly marked change in both frequency (once versus four times) and quality (confident habit versus anxious self-doubt) between the two stages."
+        "explanation": "This shift reveals how a specific external event (the nearby break-in) disrupted a previously stable, unconscious ritual, introducing anxious repetition and self-doubt ('unable to quite trust her own memory') where confident habit had existed before — external circumstance directly affecting an established internal pattern. Choice A misdescribes the relationship between stages; the middle stage doesn't contradict the ending, it's one step in a coherent three-part progression the ending later resolves. Choice C is the opposite of what happens — checking four times instead of once shows Marguerite becoming more vigilant, not less. Choice D ignores the clearly marked change in both frequency (once versus four times) and quality (confident habit versus anxious self-doubt) between the two stages."
       },
       {
         "id": "3-3",
@@ -2984,7 +2984,7 @@ const QUESTIONS = {
           "It suggests this final stage simply repeats the passage's opening stage without any real development."
         ],
         "correct": 2,
-        "explanation": "This final stage suggests Marguerite has moved beyond both the original unconscious habit and the anxious, hypervigilant middle stage toward a new, integrated relationship with the same basic action — retaining the ritual's comfort while releasing the compulsive counting that characterized the anxious stage, genuine psychological development the motif's three stages trace across the passage. Choice B is directly contradicted by the passage's own language of 'comfort' replacing anxious counting. Choice C misreads 'stopped counting' as 'stopped checking' — the text explicitly says she 'still checks the doors most nights,' just without counting or needing a fixed order. Choice D overlooks real differences between the stages: the opening ritual is rigid and ordered, while the ending is looser and wordless, a meaningfully different relationship to the same action."
+        "explanation": "This final stage suggests Marguerite has moved beyond both the original unconscious habit and the anxious, hypervigilant middle stage toward a new, integrated relationship with the same basic action — retaining the ritual's comfort while releasing the compulsive counting that characterized the anxious stage, genuine psychological development the motif's three stages trace across the passage. Choice A is directly contradicted by the passage's own language of 'comfort' replacing anxious counting. Choice B misreads 'stopped counting' as 'stopped checking' — the text explicitly says she 'still checks the doors most nights,' just without counting or needing a fixed order. Choice D overlooks real differences between the stages: the opening ritual is rigid and ordered, while the ending is looser and wordless, a meaningfully different relationship to the same action."
       },
       {
         "id": "3-4",
@@ -2997,7 +2997,7 @@ const QUESTIONS = {
           "Motif analysis requires tracking a pattern's development across time, which only separated excerpts can reveal."
         ],
         "correct": 3,
-        "explanation": "Motif analysis specifically requires tracking a pattern's development ACROSS TIME and multiple instances — a single continuous scene could show one instance of the door-checking ritual, but only multiple, temporally separated excerpts can reveal the pattern's actual development and psychological significance over an extended period, exactly why Section 4.3 stresses that motif (unlike some symbol analysis) depends on tracking repetition, not one moment. Choice A treats a meaning-bearing structural choice as arbitrary formatting. Choice B is false on its face — a single scene, by definition, could only show one time period, not the years-long progression from childhood habit through the break-in's aftermath to eventual comfort. Choice C repeats the same error as A, denying purpose to a structure the rest of the passage's content depends on."
+        "explanation": "Motif analysis specifically requires tracking a pattern's development ACROSS TIME and multiple instances — a single continuous scene could show one instance of the door-checking ritual, but only multiple, temporally separated excerpts can reveal the pattern's actual development and psychological significance over an extended period, exactly why Section 4.3 stresses that motif (unlike some symbol analysis) depends on tracking repetition, not one moment. Choice A treats a meaning-bearing structural choice as arbitrary formatting. Choice C is false on its face — a single scene, by definition, could only show one time period, not the years-long progression from childhood habit through the break-in's aftermath to eventual comfort. Choice B repeats the same error as A, denying purpose to a structure the rest of the passage's content depends on."
       },
       {
         "id": "3-5",
@@ -3010,7 +3010,7 @@ const QUESTIONS = {
           "A ritual's psychological function can shift over time, moving from habit through anxious compulsion toward eventual comfort."
         ],
         "correct": 3,
-        "explanation": "This passage develops a theme about ritual's shifting psychological function — from unconscious habit through anxious compulsion to eventual comfortable integration — suggesting anxiety-driven ritual behavior can evolve rather than remaining permanently fixed at its most acute stage, a theme the motif's three-stage development specifically supports. Choice B misreads the passage's clearly sympathetic ending, where the ritual becomes a source of 'wordless comfort,' not something to be eliminated. Choice C undersells a passage whose entire three-part structure is built to generalize beyond one incident. Choice D is directly contradicted by the middle stage, where the break-in visibly and immediately changes Marguerite's behavior — the passage's whole point is that the threat DOES leave a psychological trace, one that later evolves rather than vanishing."
+        "explanation": "This passage develops a theme about ritual's shifting psychological function — from unconscious habit through anxious compulsion to eventual comfortable integration — suggesting anxiety-driven ritual behavior can evolve rather than remaining permanently fixed at its most acute stage, a theme the motif's three-stage development specifically supports. Choice B misreads the passage's clearly sympathetic ending, where the ritual becomes a source of 'wordless comfort,' not something to be eliminated. Choice C undersells a passage whose entire three-part structure is built to generalize beyond one incident. Choice A is directly contradicted by the middle stage, where the break-in visibly and immediately changes Marguerite's behavior — the passage's whole point is that the threat DOES leave a psychological trace, one that later evolves rather than vanishing."
       },
       {
         "id": "4-1",
@@ -3023,7 +3023,7 @@ const QUESTIONS = {
           "No clear or meaningful juxtaposition is actually established anywhere in this passage."
         ],
         "correct": 2,
-        "explanation": "This passage establishes a central juxtaposition between the chaotic, joyful, multi-generational childhood kitchen and the quiet, efficient, solo adult kitchen — two settings placed side by side specifically to highlight their contrast, exactly the structural juxtaposition Section 4.4 covers. Choice A invents a detail absent from the text; no specific cities are ever named, only two kitchens. Choice B misreads the passage's content — cumin amounts are mentioned only as an example of the childhood kitchen's lively arguing, not as a recipe comparison structuring the passage. Choice C denies a contrast the passage's entire two-part structure is organized around, from its title onward."
+        "explanation": "This passage establishes a central juxtaposition between the chaotic, joyful, multi-generational childhood kitchen and the quiet, efficient, solo adult kitchen — two settings placed side by side specifically to highlight their contrast, exactly the structural juxtaposition Section 4.4 covers. Choice A invents a detail absent from the text; no specific cities are ever named, only two kitchens. Choice B misreads the passage's content — cumin amounts are mentioned only as an example of the childhood kitchen's lively arguing, not as a recipe comparison structuring the passage. Choice D denies a contrast the passage's entire two-part structure is organized around, from its title onward."
       },
       {
         "id": "4-2",
@@ -3036,7 +3036,7 @@ const QUESTIONS = {
           "It reveals only a basic factual difference in square footage between the two kitchens described."
         ],
         "correct": 2,
-        "explanation": "This juxtaposition reveals the specific, particular nature of Adaeze's current loneliness — not simply that she lives alone, but that her present quiet is meaningful specifically BECAUSE it contrasts with a remembered standard of joyful noise, a weight the silence wouldn't carry if the childhood kitchen were never mentioned. Choice B reduces a psychologically rich contrast to a trivial, literal one the passage never actually emphasizes (no measurements or sizes are given). Choice C invents a judgment about the childhood kitchen's design that isn't in the text, which instead describes it warmly, as 'controlled, joyful chaos.' Choice D draws an unsupported conclusion about a general preference; the passage shows Adaeze has chosen and adjusted to her solo kitchen, not that she wishes to return to cooking for a crowd."
+        "explanation": "This juxtaposition reveals the specific, particular nature of Adaeze's current loneliness — not simply that she lives alone, but that her present quiet is meaningful specifically BECAUSE it contrasts with a remembered standard of joyful noise, a weight the silence wouldn't carry if the childhood kitchen were never mentioned. Choice D reduces a psychologically rich contrast to a trivial, literal one the passage never actually emphasizes (no measurements or sizes are given). Choice B invents a judgment about the childhood kitchen's design that isn't in the text, which instead describes it warmly, as 'controlled, joyful chaos.' Choice A draws an unsupported conclusion about a general preference; the passage shows Adaeze has chosen and adjusted to her solo kitchen, not that she wishes to return to cooking for a crowd."
       },
       {
         "id": "4-3",
@@ -3049,7 +3049,7 @@ const QUESTIONS = {
           "It reveals that Adaeze's 'efficient' system is actually a deliberate defense against a specific emotional vulnerability."
         ],
         "correct": 3,
-        "explanation": "This phrase reveals that Adaeze's efficient system is not simply practical but specifically defensive — a deliberate strategy built to manage and minimize a particular emotional vulnerability (loneliness triggered by excess, uneaten food), indirectly characterizing someone who has thought carefully about protecting herself from a specific kind of pain. Choice A is contradicted by the phrase itself, which names loneliness explicitly as the thing being managed — that's an emotional response, not an absence of one. Choice C flattens a detail doing real characterization work into mere logistics, missing the word 'prevent,' which signals intent rather than incidental practicality. Choice D invents a conflict where there is none — the later silence description is consistent with, not contradictory to, a kitchen system built to manage loneliness."
+        "explanation": "This phrase reveals that Adaeze's efficient system is not simply practical but specifically defensive — a deliberate strategy built to manage and minimize a particular emotional vulnerability (loneliness triggered by excess, uneaten food), indirectly characterizing someone who has thought carefully about protecting herself from a specific kind of pain. Choice A is contradicted by the phrase itself, which names loneliness explicitly as the thing being managed — that's an emotional response, not an absence of one. Choice C flattens a detail doing real characterization work into mere logistics, missing the word 'prevent,' which signals intent rather than incidental practicality. Choice B invents a conflict where there is none — the later silence description is consistent with, not contradictory to, a kitchen system built to manage loneliness."
       },
       {
         "id": "4-4",
@@ -3088,7 +3088,7 @@ const QUESTIONS = {
           "It takes no clear position on whether Gerald's self-assessment as private and humble is actually accurate."
         ],
         "correct": 2,
-        "explanation": "The passage creates clear ironic distance from Gerald's stated self-image through situational irony — his actual behavior (submitting his own plaque wording, being 'quite particular' about its size and placement) directly contradicts his claimed indifference to recognition, revealing a significant gap between self-perception and actual behavior. Choice B overreaches; nothing in the passage signals conscious, deliberate dishonesty — Gerald's own contradictory quote (see 5-4) reads as sincere, unwitting self-deception, not calculated lying. Choice C ignores how pointed and specific the passage's contradicting details are; this isn't neutral reporting, it's structured to invite skepticism. Choice D is directly contradicted by the passage's carefully placed ironic details, which consistently undercut rather than confirm Gerald's stated self-image."
+        "explanation": "The passage creates clear ironic distance from Gerald's stated self-image through situational irony — his actual behavior (submitting his own plaque wording, being 'quite particular' about its size and placement) directly contradicts his claimed indifference to recognition, revealing a significant gap between self-perception and actual behavior. Choice B overreaches; nothing in the passage signals conscious, deliberate dishonesty — Gerald's own contradictory quote (see 5-4) reads as sincere, unwitting self-deception, not calculated lying. Choice A ignores how pointed and specific the passage's contradicting details are; this isn't neutral reporting, it's structured to invite skepticism. Choice D is directly contradicted by the passage's carefully placed ironic details, which consistently undercut rather than confirm Gerald's stated self-image."
       },
       {
         "id": "5-2",
@@ -3101,7 +3101,7 @@ const QUESTIONS = {
           "It suggests Gerald is simply an unusually eloquent and confident public speaker at social gatherings, since dinner-party guests are typically impressed by someone who can speak at length and with apparent ease about their own character."
         ],
         "correct": 1,
-        "explanation": "This detail uses length itself ironically — the excessive words required to disclaim wanting recognition undercuts the disclaimer's content, since someone genuinely uninterested in recognition would likely need far fewer words to express that indifference, reinforcing the passage's authorial distance from Gerald's stated self-image. Choice A reframes an ironic detail as a flattering trait, missing that the passage isn't praising Gerald's eloquence but noting the suspicious excess of it. Choice B has the logic backward — the detail is presented specifically to cast doubt on, not confirm, Gerald's self-assessment. Choice D dismisses a detail the passage clearly foregrounds through its own pointed phrasing ('somehow always required'), a phrase that signals authorial skepticism."
+        "explanation": "This detail uses length itself ironically — the excessive words required to disclaim wanting recognition undercuts the disclaimer's content, since someone genuinely uninterested in recognition would likely need far fewer words to express that indifference, reinforcing the passage's authorial distance from Gerald's stated self-image. Choice D reframes an ironic detail as a flattering trait, missing that the passage isn't praising Gerald's eloquence but noting the suspicious excess of it. Choice A has the logic backward — the detail is presented specifically to cast doubt on, not confirm, Gerald's self-assessment. Choice C dismisses a detail the passage clearly foregrounds through its own pointed phrasing ('somehow always required'), a phrase that signals authorial skepticism."
       },
       {
         "id": "5-3",
@@ -3114,7 +3114,7 @@ const QUESTIONS = {
           "It carries no particular ironic weight beyond simply describing what text appears on the plaque."
         ],
         "correct": 2,
-        "explanation": "This wording represents the passage's irony at its most concentrated and self-defeating — Gerald actively writing and submitting text explicitly proclaiming his lack of interest in recognition, the ultimate contradiction between claimed value and actual documented behavior within a single, precisely quoted detail. Choice A is directly contradicted by the passage, which states plainly that 'Gerald had... submitted the exact wording himself.' Choice B misreads consistency as contradiction; this detail doesn't conflict with the earlier characterization, it's the culmination of the same pattern established from the passage's opening line. Choice D understates a detail the passage treats as its climactic piece of evidence, deliberately placed and quoted in full for its ironic effect."
+        "explanation": "This wording represents the passage's irony at its most concentrated and self-defeating — Gerald actively writing and submitting text explicitly proclaiming his lack of interest in recognition, the ultimate contradiction between claimed value and actual documented behavior within a single, precisely quoted detail. Choice B is directly contradicted by the passage, which states plainly that 'Gerald had... submitted the exact wording himself.' Choice A misreads consistency as contradiction; this detail doesn't conflict with the earlier characterization, it's the culmination of the same pattern established from the passage's opening line. Choice D understates a detail the passage treats as its climactic piece of evidence, deliberately placed and quoted in full for its ironic effect."
       },
       {
         "id": "5-4",
@@ -3127,7 +3127,7 @@ const QUESTIONS = {
           "It reveals that Gerald possesses complete, honest self-awareness about his own true motivations."
         ],
         "correct": 1,
-        "explanation": "This quote reveals a striking lack of self-awareness — Gerald's own words contain the exact logical contradiction the passage's irony depends on, yet he states it without any apparent recognition of how self-defeating it sounds, suggesting the gap between self-perception and reality is genuine self-deception rather than conscious manipulation. Choice A dismisses the quote the passage builds its clearest irony around. Choice B overstates Gerald's awareness; deliberate dishonesty would require him to recognize the contradiction he's creating, but the quote's earnest tone suggests he doesn't. Choice D is the opposite of what the quote shows — far from complete self-awareness, Gerald's own words are the clearest evidence in the passage that he lacks it."
+        "explanation": "This quote reveals a striking lack of self-awareness — Gerald's own words contain the exact logical contradiction the passage's irony depends on, yet he states it without any apparent recognition of how self-defeating it sounds, suggesting the gap between self-perception and reality is genuine self-deception rather than conscious manipulation. Choice C dismisses the quote the passage builds its clearest irony around. Choice A overstates Gerald's awareness; deliberate dishonesty would require him to recognize the contradiction he's creating, but the quote's earnest tone suggests he doesn't. Choice D is the opposite of what the quote shows — far from complete self-awareness, Gerald's own words are the clearest evidence in the passage that he lacks it."
       },
       {
         "id": "5-5",
@@ -3140,7 +3140,7 @@ const QUESTIONS = {
           "That a real gap can exist between a sincerely held self-image and actual behavior, especially for socially approved values like humility."
         ],
         "correct": 3,
-        "explanation": "This passage develops a theme about the relationship between stated values and actual behavior: a significant gap can exist between a person's sincerely held self-image and their actual, observable behavior, particularly regarding values (like humility or privacy) that carry social approval — suggesting genuine self-deception about one's own motivations is possible even regarding values a person believes they hold sincerely. Choice A states the opposite of what the passage actually illustrates through Gerald's contradiction. Choice B introduces a policy conclusion the passage never suggests or implies about donation practices generally. Choice D overgeneralizes from one character's specific self-deception to a sweeping claim about all charitable giving, which the passage doesn't make — it's a portrait of one man's contradiction, not an indictment of philanthropy."
+        "explanation": "This passage develops a theme about the relationship between stated values and actual behavior: a significant gap can exist between a person's sincerely held self-image and their actual, observable behavior, particularly regarding values (like humility or privacy) that carry social approval — suggesting genuine self-deception about one's own motivations is possible even regarding values a person believes they hold sincerely. Choice B states the opposite of what the passage actually illustrates through Gerald's contradiction. Choice A introduces a policy conclusion the passage never suggests or implies about donation practices generally. Choice C overgeneralizes from one character's specific self-deception to a sweeping claim about all charitable giving, which the passage doesn't make — it's a portrait of one man's contradiction, not an indictment of philanthropy."
       },
       {
         "id": "1-6",
@@ -3153,7 +3153,7 @@ const QUESTIONS = {
           "First-person, which lets the reader see the narrator's own self-justifying account closely enough to catch its inconsistencies."
         ],
         "correct": 3,
-        "explanation": "This passage uses first-person narration, essential to its unreliable narration technique — direct access to the narrator's own self-justifying account is specifically what allows the reader to detect internal inconsistencies and defensive patterns, an effect third-person narration would struggle to achieve as intimately. Choice A misdescribes the passage, which is saturated with the narrator's own interpretive claims ('I remained calm'), not objective, unfiltered reporting. Choice B is contradicted by the text's single, consistent 'I' throughout; no other character's internal thoughts are ever presented. Choice D has no textual basis — the passage never addresses the reader as 'you'; it consistently uses first-person 'I' to describe the narrator's own experience."
+        "explanation": "This passage uses first-person narration, essential to its unreliable narration technique — direct access to the narrator's own self-justifying account is specifically what allows the reader to detect internal inconsistencies and defensive patterns, an effect third-person narration would struggle to achieve as intimately. Choice C misdescribes the passage, which is saturated with the narrator's own interpretive claims ('I remained calm'), not objective, unfiltered reporting. Choice A is contradicted by the text's single, consistent 'I' throughout; no other character's internal thoughts are ever presented. Choice B has no textual basis — the passage never addresses the reader as 'you'; it consistently uses first-person 'I' to describe the narrator's own experience."
       },
       {
         "id": "2-6",
@@ -3179,7 +3179,7 @@ const QUESTIONS = {
           "Third-person objective, providing no access to any character's internal experience."
         ],
         "correct": 2,
-        "explanation": "This passage uses third-person limited narration focalized consistently through Marguerite across all three time periods, providing access to her internal experience of the ritual (the counting, the disrupted trust, the eventual wordless comfort) without shifting to any other character's perspective. Choice B is contradicted by details like 'unable to quite trust her own memory,' which require internal access an objective point of view wouldn't allow. Choice C misidentifies the pronoun pattern; the passage consistently uses 'she,' never 'I,' so this isn't first-person narration. Choice D is false — the same third-person perspective on Marguerite is maintained across all three excerpts, with no shift to another character's viewpoint."
+        "explanation": "This passage uses third-person limited narration focalized consistently through Marguerite across all three time periods, providing access to her internal experience of the ritual (the counting, the disrupted trust, the eventual wordless comfort) without shifting to any other character's perspective. Choice D is contradicted by details like 'unable to quite trust her own memory,' which require internal access an objective point of view wouldn't allow. Choice A misidentifies the pronoun pattern; the passage consistently uses 'she,' never 'I,' so this isn't first-person narration. Choice B is false — the same third-person perspective on Marguerite is maintained across all three excerpts, with no shift to another character's viewpoint."
       },
       {
         "id": "4-6",
@@ -3192,7 +3192,7 @@ const QUESTIONS = {
           "First-person, with Adaeze herself narrating her own experience of both kitchens directly."
         ],
         "correct": 1,
-        "explanation": "This passage uses third-person limited narration focalized through Adaeze, allowing the narration to move between describing her childhood memory and her current kitchen with the same intimate access to her internal comparison and evaluation of both — a consistent internal perspective bridging the two contrasted settings. Choice A is contradicted by lines like 'a silence... she'd never once heard,' which require internal access no purely objective narration would provide. Choice B misreads the passage's consistent third-person 'she' as evidence of multiple narrators, when it's a single, stable perspective throughout. Choice D misidentifies the pronoun; the passage never shifts to 'I,' remaining in third person for both kitchen descriptions."
+        "explanation": "This passage uses third-person limited narration focalized through Adaeze, allowing the narration to move between describing her childhood memory and her current kitchen with the same intimate access to her internal comparison and evaluation of both — a consistent internal perspective bridging the two contrasted settings. Choice C is contradicted by lines like 'a silence... she'd never once heard,' which require internal access no purely objective narration would provide. Choice A misreads the passage's consistent third-person 'she' as evidence of multiple narrators, when it's a single, stable perspective throughout. Choice D misidentifies the pronoun; the passage never shifts to 'I,' remaining in third person for both kitchen descriptions."
       },
       {
         "id": "5-6",
@@ -3205,7 +3205,7 @@ const QUESTIONS = {
           "The passage does not use any discernible or consistent point of view."
         ],
         "correct": 0,
-        "explanation": "This third-person narration reports Gerald's stated self-assessment alongside his actual documented behavior without a narrator directly correcting him — this narrative choice lets the CONTRADICTION between claim and action speak for itself, creating authorial distance through juxtaposed evidence rather than explicit narratorial judgment. Choice B is contradicted by the passage's clear, consistent third-person perspective throughout, tracking Gerald's statements and actions. Choice C has no textual support — the passage never addresses Gerald as 'you'; it describes him in the third person ('Gerald had always considered himself...'). Choice D is false; if Gerald narrated his own story in first person, the ironic distance the passage depends on would largely collapse, since we'd only have his own account rather than the narrator's juxtaposed reporting."
+        "explanation": "This third-person narration reports Gerald's stated self-assessment alongside his actual documented behavior without a narrator directly correcting him — this narrative choice lets the CONTRADICTION between claim and action speak for itself, creating authorial distance through juxtaposed evidence rather than explicit narratorial judgment. Choice D is contradicted by the passage's clear, consistent third-person perspective throughout, tracking Gerald's statements and actions. Choice B has no textual support — the passage never addresses Gerald as 'you'; it describes him in the third person ('Gerald had always considered himself...'). Choice C is false; if Gerald narrated his own story in first person, the ironic distance the passage depends on would largely collapse, since we'd only have his own account rather than the narrator's juxtaposed reporting."
       },
       {
         "id": "1-7",
@@ -3218,7 +3218,7 @@ const QUESTIONS = {
           "Structural juxtaposition, since the passage's central effect depends on contrasting two different settings."
         ],
         "correct": 2,
-        "explanation": "This passage relies most heavily on unreliable narration — its entire technique depends on detecting internal inconsistencies within the narrator's own account, making Section 4.1 the most directly applicable lens. Choice A doesn't fit; nothing in the passage repeats across multiple time periods the way a motif requires — it's a single, continuous meeting recounted once. Choice C doesn't apply either, since the passage never gives the reader information a character within the story lacks; the gap here is between the narrator's claims and what other details in the SAME account suggest, not a reader-character knowledge gap. Choice D is likewise a poor fit, since the passage never sets up two contrasting settings or ideas side by side."
+        "explanation": "This passage relies most heavily on unreliable narration — its entire technique depends on detecting internal inconsistencies within the narrator's own account, making Section 4.1 the most directly applicable lens. Choice A doesn't fit; nothing in the passage repeats across multiple time periods the way a motif requires — it's a single, continuous meeting recounted once. Choice B doesn't apply either, since the passage never gives the reader information a character within the story lacks; the gap here is between the narrator's claims and what other details in the SAME account suggest, not a reader-character knowledge gap. Choice D is likewise a poor fit, since the passage never sets up two contrasting settings or ideas side by side."
       },
       {
         "id": "2-7",
@@ -3231,7 +3231,7 @@ const QUESTIONS = {
           "Situational irony, since the passage's central effect depends on the contrast between the generator's careful preparation and its unrelated failure."
         ],
         "correct": 3,
-        "explanation": "This passage relies most heavily on situational irony — its central effect depends entirely on the contradiction between the generator's careful, extensive preparation and its failure due to an entirely unrelated, unanticipated cause, making Section 4.2 the most directly applicable lens. Choice A doesn't fit, since nothing here is tracked as a repeating pattern across multiple time periods; it's a single event told in third person. Choice C is a poor match, since the passage uses third-person, not first-person narration, and its irony doesn't hinge on distrusting anyone's personal account. Choice D also doesn't fit, since no character's stated self-assessment is being contradicted here — the irony is about an object's failure, not a person's self-image."
+        "explanation": "This passage relies most heavily on situational irony — its central effect depends entirely on the contradiction between the generator's careful, extensive preparation and its failure due to an entirely unrelated, unanticipated cause, making Section 4.2 the most directly applicable lens. Choice B doesn't fit, since nothing here is tracked as a repeating pattern across multiple time periods; it's a single event told in third person. Choice C is a poor match, since the passage uses third-person, not first-person narration, and its irony doesn't hinge on distrusting anyone's personal account. Choice A also doesn't fit, since no character's stated self-assessment is being contradicted here — the irony is about an object's failure, not a person's self-image."
       },
       {
         "id": "3-7",
@@ -3257,7 +3257,7 @@ const QUESTIONS = {
           "Unreliable narration, since the passage requires the reader to distrust Adaeze's own account of her internal state."
         ],
         "correct": 2,
-        "explanation": "This passage relies most heavily on juxtaposition — its central effect depends on placing two contrasting kitchen settings side by side to reveal something about loneliness and memory that neither setting alone would convey as effectively, making Section 4.4 the most directly applicable lens for this passage's technique. Choice A doesn't fit; nothing about Adaeze's account is shown to be inconsistent or distorted — the third-person narration doesn't ask readers to distrust her perceptions. Choice B is a poor match too, since the passage presents two settings, not one recurring element repeated across multiple instances the way a motif requires. Choice D also doesn't apply, since the passage never withholds information from Adaeze that the reader alone possesses."
+        "explanation": "This passage relies most heavily on juxtaposition — its central effect depends on placing two contrasting kitchen settings side by side to reveal something about loneliness and memory that neither setting alone would convey as effectively, making Section 4.4 the most directly applicable lens for this passage's technique. Choice D doesn't fit; nothing about Adaeze's account is shown to be inconsistent or distorted — the third-person narration doesn't ask readers to distrust her perceptions. Choice B is a poor match too, since the passage presents two settings, not one recurring element repeated across multiple instances the way a motif requires. Choice A also doesn't apply, since the passage never withholds information from Adaeze that the reader alone possesses."
       },
       {
         "id": "5-7",
@@ -3270,7 +3270,7 @@ const QUESTIONS = {
           "A motif, since the passage tracks a single recurring image or action across several distinct stages."
         ],
         "correct": 1,
-        "explanation": "This passage relies most heavily on authorial distance — its central effect depends on the gap between Gerald's sincere self-assessment and the actual, documented behavior the text presents alongside it, without direct narratorial correction, making Section 4.5 the most directly applicable lens. Choice A doesn't fit, since the passage doesn't contrast two distinct settings; it stays centered on one character's contradictory self-image. Choice C is a poor match, since nothing here is a recurring image or action tracked across separated stages of time. Choice D also misses the mark, since the passage is told in third person, not first — its irony comes from the narrator reporting Gerald's quotes alongside his behavior, not from an untrustworthy first-person voice."
+        "explanation": "This passage relies most heavily on authorial distance — its central effect depends on the gap between Gerald's sincere self-assessment and the actual, documented behavior the text presents alongside it, without direct narratorial correction, making Section 4.5 the most directly applicable lens. Choice A doesn't fit, since the passage doesn't contrast two distinct settings; it stays centered on one character's contradictory self-image. Choice D is a poor match, since nothing here is a recurring image or action tracked across separated stages of time. Choice C also misses the mark, since the passage is told in third person, not first — its irony comes from the narrator reporting Gerald's quotes alongside his behavior, not from an untrustworthy first-person voice."
       },
       {
         "id": "1-8",
@@ -3283,7 +3283,7 @@ const QUESTIONS = {
           "Only Passage 1 involves any gap between a character's claim and the underlying reality."
         ],
         "correct": 0,
-        "explanation": "Passage 1 uses FIRST-PERSON unreliable narration, where the reader must detect distortion within a narrator's own direct account, while Passage 5 uses THIRD-PERSON authorial distance, where the reader detects a gap between a character's quoted self-assessment and separately-narrated behavior — related techniques achieving similar reader-skepticism through different structural means. Choice A is factually wrong; Passage 5 is narrated in third person, reporting Gerald's quotes rather than being told from inside his head. Choice B collapses a distinction the passage pair is specifically designed to illustrate — the point-of-view difference genuinely changes how each technique operates. Choice C is incorrect; Passage 5 centers on exactly this kind of claim-versus-reality gap too, just achieved through a different narrative structure."
+        "explanation": "Passage 1 uses FIRST-PERSON unreliable narration, where the reader must detect distortion within a narrator's own direct account, while Passage 5 uses THIRD-PERSON authorial distance, where the reader detects a gap between a character's quoted self-assessment and separately-narrated behavior — related techniques achieving similar reader-skepticism through different structural means. Choice B is factually wrong; Passage 5 is narrated in third person, reporting Gerald's quotes rather than being told from inside his head. Choice C collapses a distinction the passage pair is specifically designed to illustrate — the point-of-view difference genuinely changes how each technique operates. Choice D is incorrect; Passage 5 centers on exactly this kind of claim-versus-reality gap too, just achieved through a different narrative structure."
       },
       {
         "id": "2-8",
@@ -3296,7 +3296,7 @@ const QUESTIONS = {
           "Neither passage provides the reader with any signals pointing toward its central technique."
         ],
         "correct": 1,
-        "explanation": "Passage 2's situational irony is signaled fairly directly through explicit narrative statement of expectation versus outcome (the mayor's quote, then the failure), while Passage 5's authorial distance requires more inference, since the passage never directly states that Gerald is wrong about himself, relying instead on the reader noticing the contradiction between his quotes and his documented actions. Choice A reverses the actual relationship; Passage 2's irony is the more explicitly signaled of the two. Choice B is contradicted by both passages, which clearly do provide signals — Passage 2 through stated expectation, Passage 5 through juxtaposed quotes and actions. Choice D flattens a real, useful distinction in how explicitly the two passages guide the reader toward their respective interpretations."
+        "explanation": "Passage 2's situational irony is signaled fairly directly through explicit narrative statement of expectation versus outcome (the mayor's quote, then the failure), while Passage 5's authorial distance requires more inference, since the passage never directly states that Gerald is wrong about himself, relying instead on the reader noticing the contradiction between his quotes and his documented actions. Choice C reverses the actual relationship; Passage 2's irony is the more explicitly signaled of the two. Choice D is contradicted by both passages, which clearly do provide signals — Passage 2 through stated expectation, Passage 5 through juxtaposed quotes and actions. Choice A flattens a real, useful distinction in how explicitly the two passages guide the reader toward their respective interpretations."
       },
       {
         "id": "3-8",
@@ -3309,7 +3309,7 @@ const QUESTIONS = {
           "The title has no discernible relationship to anything the passage actually describes or develops."
         ],
         "correct": 0,
-        "explanation": "'Inventory' suggests a careful, itemized accounting — appropriate to a passage centrally concerned with counting, checking, and tracking (the door-checking ritual), while also gesturing toward the passage's deeper concern with psychologically 'taking inventory' of one's own anxious patterns over time. Choice B dismisses a title that clearly operates on both a literal and figurative level once the door-checking motif is considered. Choice C takes the word 'inventory' at its most common but least relevant sense; nothing in the passage involves retail or stock of goods. Choice D misreads title and content as opposed, when they're actually well matched — the counting and checking IS a kind of inventory-taking, literally and psychologically."
+        "explanation": "'Inventory' suggests a careful, itemized accounting — appropriate to a passage centrally concerned with counting, checking, and tracking (the door-checking ritual), while also gesturing toward the passage's deeper concern with psychologically 'taking inventory' of one's own anxious patterns over time. Choice D dismisses a title that clearly operates on both a literal and figurative level once the door-checking motif is considered. Choice C takes the word 'inventory' at its most common but least relevant sense; nothing in the passage involves retail or stock of goods. Choice B misreads title and content as opposed, when they're actually well matched — the counting and checking IS a kind of inventory-taking, literally and psychologically."
       },
       {
         "id": "4-8",
@@ -3322,7 +3322,7 @@ const QUESTIONS = {
           "The title has no meaningful relationship to the passage's central juxtaposition technique, leaving readers to infer the passage's comparative structure entirely on their own, without the title offering any early guidance toward it."
         ],
         "correct": 2,
-        "explanation": "The title directly and explicitly names the passage's central juxtaposition — announcing the comparative structure before the passage itself develops it, priming the reader to attend specifically to the contrast between the two named settings from the very first word. Choice A undersells a title doing unusually direct structural work, naming the exact technique the passage uses. Choice B mistakes the setting (kitchens) for the genre (an instructional guide), which the passage never resembles — there are no steps or instructions given. Choice D sets up a false opposition; the two kitchens aren't separate from Adaeze's emotional state, they're the vehicle through which that emotional state is developed."
+        "explanation": "The title directly and explicitly names the passage's central juxtaposition — announcing the comparative structure before the passage itself develops it, priming the reader to attend specifically to the contrast between the two named settings from the very first word. Choice D undersells a title doing unusually direct structural work, naming the exact technique the passage uses. Choice A mistakes the setting (kitchens) for the genre (an instructional guide), which the passage never resembles — there are no steps or instructions given. Choice B sets up a false opposition; the two kitchens aren't separate from Adaeze's emotional state, they're the vehicle through which that emotional state is developed."
       },
       {
         "id": "5-8",
@@ -3335,7 +3335,7 @@ const QUESTIONS = {
           "The title's neutral framing is complicated by the passage's actual ironic content, itself a small-scale echo of the passage's central technique."
         ],
         "correct": 3,
-        "explanation": "The title establishes a seemingly neutral, factual frame (an event, a fundraiser) that the passage's actual content — Gerald's ironic self-contradiction — significantly complicates and undercuts; the gap between the title's neutral framing and the passage's pointed irony itself performs a small-scale version of the passage's central technique. Choice A misreads the relationship; the title's neutrality actually supports the irony by setting up an expectation the content subverts, rather than working against it. Choice B takes 'fundraiser' too literally, missing that the passage is about a person's psychology far more than about money or accounting. Choice D denies a relationship the title-content gap is clearly built around, echoing the same claim-versus-reality structure found throughout the passage."
+        "explanation": "The title establishes a seemingly neutral, factual frame (an event, a fundraiser) that the passage's actual content — Gerald's ironic self-contradiction — significantly complicates and undercuts; the gap between the title's neutral framing and the passage's pointed irony itself performs a small-scale version of the passage's central technique. Choice B misreads the relationship; the title's neutrality actually supports the irony by setting up an expectation the content subverts, rather than working against it. Choice C takes 'fundraiser' too literally, missing that the passage is about a person's psychology far more than about money or accounting. Choice A denies a relationship the title-content gap is clearly built around, echoing the same claim-versus-reality structure found throughout the passage."
       },
       {
         "id": "1-9",
@@ -3348,7 +3348,7 @@ const QUESTIONS = {
           "A defensively measured, insistently reasonable tone whose very consistency becomes suspicious rather than reassuring."
         ],
         "correct": 3,
-        "explanation": "This narrator maintains a defensively measured, insistently reasonable tone throughout — this consistent tonal performance of composure is itself part of what the passage asks readers to see through, since the tone's very consistency and insistence become suspicious rather than reassuring. Choice A is contradicted by the narrator's own claim never to have raised their voice; the tone stays controlled and measured, not angry, on the surface. Choice B misdescribes a passage whose tone is notably stable and consistent throughout, not erratic. Choice D is the opposite of the actual effect; the narrator insists repeatedly on calm rather than displaying open distress, which is precisely what makes the performance suspicious."
+        "explanation": "This narrator maintains a defensively measured, insistently reasonable tone throughout — this consistent tonal performance of composure is itself part of what the passage asks readers to see through, since the tone's very consistency and insistence become suspicious rather than reassuring. Choice A is contradicted by the narrator's own claim never to have raised their voice; the tone stays controlled and measured, not angry, on the surface. Choice B misdescribes a passage whose tone is notably stable and consistent throughout, not erratic. Choice C is the opposite of the actual effect; the narrator insists repeatedly on calm rather than displaying open distress, which is precisely what makes the performance suspicious."
       },
       {
         "id": "2-9",
@@ -3361,7 +3361,7 @@ const QUESTIONS = {
           "The measured narrative voice has no discernible effect on how the passage's meaning comes across."
         ],
         "correct": 0,
-        "explanation": "This restrained, almost clinical narrative voice, describing a hospital's power failure during a storm, creates ironic contrast with the potentially dramatic content — the calm delivery of an almost absurd cause (a squirrel) alongside serious consequences (delicate procedures by flashlight) heightens rather than diminishes the passage's central irony. Choice A dismisses a stylistic choice that shapes how readers register the passage's central contrast. Choice B misreads restraint as an indicator of low stakes, when the passage's actual content (patient safety, flashlight-lit procedures) makes clear the stakes are genuinely high despite the measured telling. Choice D has the relationship backward — the calm voice reinforces rather than undercuts the irony, by underplaying events that are, in fact, quite serious."
+        "explanation": "This restrained, almost clinical narrative voice, describing a hospital's power failure during a storm, creates ironic contrast with the potentially dramatic content — the calm delivery of an almost absurd cause (a squirrel) alongside serious consequences (delicate procedures by flashlight) heightens rather than diminishes the passage's central irony. Choice D dismisses a stylistic choice that shapes how readers register the passage's central contrast. Choice C misreads restraint as an indicator of low stakes, when the passage's actual content (patient safety, flashlight-lit procedures) makes clear the stakes are genuinely high despite the measured telling. Choice B has the relationship backward — the calm voice reinforces rather than undercuts the irony, by underplaying events that are, in fact, quite serious."
       },
       {
         "id": "3-9",
@@ -3374,7 +3374,7 @@ const QUESTIONS = {
           "The voice keeps a steady, clinical distance even during the anxious middle stage, letting readers register Marguerite's anxiety through described details rather than an anxious narrative voice."
         ],
         "correct": 3,
-        "explanation": "The narrative voice maintains a steady, somewhat clinical distance even while describing Marguerite's anxious middle-stage experience, allowing the READER to register the anxiety through specific described details (checking four times, distrusting her memory) rather than through an anxious narrative voice mirroring her internal state directly. Choice A is unsupported; the tone doesn't contradict the content so much as maintain a consistent distance from it throughout all three stages. Choice C confuses narrative distance with narratorial ignorance; a steady tone doesn't mean the narrator fails to register Marguerite's anxiety, only that it reports that anxiety calmly rather than performing it stylistically. Choice D is directly contradicted by details like 'unable to quite trust her own memory,' which is squarely a description of anxiety."
+        "explanation": "The narrative voice maintains a steady, somewhat clinical distance even while describing Marguerite's anxious middle-stage experience, allowing the READER to register the anxiety through specific described details (checking four times, distrusting her memory) rather than through an anxious narrative voice mirroring her internal state directly. Choice A is unsupported; the tone doesn't contradict the content so much as maintain a consistent distance from it throughout all three stages. Choice B confuses narrative distance with narratorial ignorance; a steady tone doesn't mean the narrator fails to register Marguerite's anxiety, only that it reports that anxiety calmly rather than performing it stylistically. Choice C is directly contradicted by details like 'unable to quite trust her own memory,' which is squarely a description of anxiety."
       },
       {
         "id": "4-9",
@@ -3387,7 +3387,7 @@ const QUESTIONS = {
           "The tone remains completely identical and unchanging across both of the passage's kitchen descriptions."
         ],
         "correct": 2,
-        "explanation": "The tone shifts from warm, energetic, almost celebratory language describing the childhood kitchen ('controlled, joyful chaos') to more measured, quietly melancholic language describing the current kitchen ('quiet, efficient system'), the tonal shift itself reinforcing the passage's central juxtaposition beyond just factual contrast. Choice B mischaracterizes the childhood kitchen, described warmly and positively, not negatively. Choice C ignores a clear shift in word choice and rhythm between the two descriptions — 'joyful chaos' reads very differently from 'quiet, efficient system.' Choice D reverses the actual pattern; it's the childhood kitchen, not the current one, that receives the more energetic, celebratory language."
+        "explanation": "The tone shifts from warm, energetic, almost celebratory language describing the childhood kitchen ('controlled, joyful chaos') to more measured, quietly melancholic language describing the current kitchen ('quiet, efficient system'), the tonal shift itself reinforcing the passage's central juxtaposition beyond just factual contrast. Choice B mischaracterizes the childhood kitchen, described warmly and positively, not negatively. Choice D ignores a clear shift in word choice and rhythm between the two descriptions — 'joyful chaos' reads very differently from 'quiet, efficient system.' Choice A reverses the actual pattern; it's the childhood kitchen, not the current one, that receives the more energetic, celebratory language."
       },
       {
         "id": "5-9",
@@ -3400,7 +3400,7 @@ const QUESTIONS = {
           "The dry, understated tone reports Gerald's contradictions factually, letting the irony speak for itself rather than editorializing."
         ],
         "correct": 3,
-        "explanation": "The dry, understated tone — reporting Gerald's contradictions factually rather than with explicit editorial outrage or mockery — lets the inherent irony of the situation speak for itself, trusting the reader to recognize the self-defeating contradiction without the narrator needing to explicitly point it out or judge Gerald directly. Choice A undersells a tone that's actively doing the work of authorial distance, letting facts imply judgment rather than skipping judgment altogether. Choice B is contradicted by the passage's carefully placed ironic details, which invite skepticism of Gerald rather than endorsement. Choice D mischaracterizes a tone that stays notably restrained and factual — there's no direct condemnation anywhere in the passage's wording."
+        "explanation": "The dry, understated tone — reporting Gerald's contradictions factually rather than with explicit editorial outrage or mockery — lets the inherent irony of the situation speak for itself, trusting the reader to recognize the self-defeating contradiction without the narrator needing to explicitly point it out or judge Gerald directly. Choice C undersells a tone that's actively doing the work of authorial distance, letting facts imply judgment rather than skipping judgment altogether. Choice A is contradicted by the passage's carefully placed ironic details, which invite skepticism of Gerald rather than endorsement. Choice B mischaracterizes a tone that stays notably restrained and factual — there's no direct condemnation anywhere in the passage's wording."
       },
       {
         "id": "1-10",
@@ -3413,7 +3413,7 @@ const QUESTIONS = {
           "It provides full, explicit resolution that confirms the narrator's version of events as accurate."
         ],
         "correct": 2,
-        "explanation": "This ending deliberately withholds resolution, leaving the gap between the narrator's insistent claims and the accumulated contradicting evidence unresolved — consistent with this course's broader emphasis on meaningful ambiguity, trusting the reader to have already reconstructed the more accurate version without needing explicit confirmation. Choice B is the opposite of what happens; the passage never confirms the narrator's account, it only lets the narrator continue asserting it unchallenged. Choice C misreads an ending that's fully consistent with, and in fact reinforces, the passage's unreliable-narration technique. Choice D has no textual basis; nothing in the passage suggests any upcoming correction or feedback is coming to the narrator."
+        "explanation": "This ending deliberately withholds resolution, leaving the gap between the narrator's insistent claims and the accumulated contradicting evidence unresolved — consistent with this course's broader emphasis on meaningful ambiguity, trusting the reader to have already reconstructed the more accurate version without needing explicit confirmation. Choice D is the opposite of what happens; the passage never confirms the narrator's account, it only lets the narrator continue asserting it unchallenged. Choice B misreads an ending that's fully consistent with, and in fact reinforces, the passage's unreliable-narration technique. Choice A has no textual basis; nothing in the passage suggests any upcoming correction or feedback is coming to the narrator."
       },
       {
         "id": "2-10",
@@ -3426,7 +3426,7 @@ const QUESTIONS = {
           "Even careful, extensively tested preparation can't account for every possible point of failure, since some risks fall entirely outside what planning can anticipate."
         ],
         "correct": 3,
-        "explanation": "This passage suggests that even careful, well-funded, extensively-tested preparation cannot account for every possible point of failure — some risks (like a squirrel's specific, unpredictable action) fall outside what any reasonable planning process could anticipate, suggesting genuine risk can never be fully eliminated through institutional diligence alone. Choice B draws an extreme policy conclusion the passage never suggests; the story doesn't argue against preparedness, only illustrates its limits. Choice C is the opposite of what the passage's central irony demonstrates. Choice D undersells a passage whose entire structure is built around this exact implication about planning's inherent limits."
+        "explanation": "This passage suggests that even careful, well-funded, extensively-tested preparation cannot account for every possible point of failure — some risks (like a squirrel's specific, unpredictable action) fall outside what any reasonable planning process could anticipate, suggesting genuine risk can never be fully eliminated through institutional diligence alone. Choice C draws an extreme policy conclusion the passage never suggests; the story doesn't argue against preparedness, only illustrates its limits. Choice B is the opposite of what the passage's central irony demonstrates. Choice A undersells a passage whose entire structure is built around this exact implication about planning's inherent limits."
       },
       {
         "id": "3-10",
@@ -3439,7 +3439,7 @@ const QUESTIONS = {
           "The pattern suggests that anxiety, once triggered by an event, never resolves or meaningfully changes afterward."
         ],
         "correct": 0,
-        "explanation": "This passage's movement from unconscious habit, through anxiety-driven disruption in response to genuine threat, toward eventual integrated comfort models a broader psychological pattern potentially applicable to how people process various anxieties over time — the specific door-checking detail serving as a concrete vehicle for a more general observation about anxiety's evolution. Choice A is directly contradicted by the passage's ending stage, where the anxiety does resolve into comfort. Choice B undersells a passage whose three-stage design invites exactly this kind of broader reading. Choice D denies the generalizing move the passage's own structure and final stage clearly invite, presenting a specific case as illustrative of a wider pattern."
+        "explanation": "This passage's movement from unconscious habit, through anxiety-driven disruption in response to genuine threat, toward eventual integrated comfort models a broader psychological pattern potentially applicable to how people process various anxieties over time — the specific door-checking detail serving as a concrete vehicle for a more general observation about anxiety's evolution. Choice D is directly contradicted by the passage's ending stage, where the anxiety does resolve into comfort. Choice B undersells a passage whose three-stage design invites exactly this kind of broader reading. Choice C denies the generalizing move the passage's own structure and final stage clearly invite, presenting a specific case as illustrative of a wider pattern."
       },
       {
         "id": "4-10",
@@ -3452,7 +3452,7 @@ const QUESTIONS = {
           "A deliberately chosen circumstance can be genuinely preferred and still a source of persistent loss at the same time."
         ],
         "correct": 3,
-        "explanation": "This passage suggests that a deliberately chosen circumstance (Adaeze's quiet, efficient solo kitchen) can be simultaneously genuinely preferred and a source of persistent, specific loss — suggesting choice and satisfaction aren't simply identical, and a person can rationally choose something while still registering what that choice costs them. Choice B undersells a passage that develops a clear, if nuanced, position through its juxtaposition. Choice C is contradicted by Adaeze's own persistent awareness of the silence's cost, which the passage takes care to describe. Choice D overstates the passage's ending; nothing suggests active regret or any plan to reverse the choice, only a clear-eyed acknowledgment of what it costs."
+        "explanation": "This passage suggests that a deliberately chosen circumstance (Adaeze's quiet, efficient solo kitchen) can be simultaneously genuinely preferred and a source of persistent, specific loss — suggesting choice and satisfaction aren't simply identical, and a person can rationally choose something while still registering what that choice costs them. Choice C undersells a passage that develops a clear, if nuanced, position through its juxtaposition. Choice B is contradicted by Adaeze's own persistent awareness of the silence's cost, which the passage takes care to describe. Choice A overstates the passage's ending; nothing suggests active regret or any plan to reverse the choice, only a clear-eyed acknowledgment of what it costs."
       },
       {
         "id": "5-10",
@@ -3465,7 +3465,7 @@ const QUESTIONS = {
           "All publicly performed virtues, in every case, are necessarily and completely insincere by nature."
         ],
         "correct": 0,
-        "explanation": "This passage suggests that virtues carrying particular social approval (like humility or selfless generosity) may be especially vulnerable to a gap between sincere self-belief and actual behavior, since the social reward for APPEARING to hold these virtues can create pressure toward performance that the person themselves may not consciously recognize as performance at all. Choice B draws a conclusion about ideal fundraising practice the passage never makes; it's a character study, not fundraising advice. Choice C undersells a passage whose entire arc develops exactly this thematic point through Gerald's specific case. Choice D overgeneralizes Gerald's particular self-deception into an absolute claim about all publicly performed virtue, which the passage's narrow focus on one character doesn't support."
+        "explanation": "This passage suggests that virtues carrying particular social approval (like humility or selfless generosity) may be especially vulnerable to a gap between sincere self-belief and actual behavior, since the social reward for APPEARING to hold these virtues can create pressure toward performance that the person themselves may not consciously recognize as performance at all. Choice C draws a conclusion about ideal fundraising practice the passage never makes; it's a character study, not fundraising advice. Choice B undersells a passage whose entire arc develops exactly this thematic point through Gerald's specific case. Choice D overgeneralizes Gerald's particular self-deception into an absolute claim about all publicly performed virtue, which the passage's narrow focus on one character doesn't support."
       },
       {
         "id": "1-11",
@@ -3478,7 +3478,7 @@ const QUESTIONS = {
           "Only Passage 5 actually deals with any gap between a character's self-perception and reality, since both passages ultimately ask the reader to trust a single, stated version of events without looking for any deeper contradiction."
         ],
         "correct": 2,
-        "explanation": "Passage 1 uses first-person narration requiring the reader to detect distortion within the narrator's own direct, ongoing account of events, while Passage 5 uses third-person narration presenting a character's self-description alongside separately-reported behavior — different formal structures achieving a similar thematic concern about self-perception's limits. Choice A is wrong; both passages centrally involve this kind of gap, just built through different narrative structures. Choice C flattens a distinction the passage pair is designed to illustrate — the difference in point of view genuinely changes how each technique works. Choice D is factually incorrect; Passage 1 is told in first person ('I'), not third person."
+        "explanation": "Passage 1 uses first-person narration requiring the reader to detect distortion within the narrator's own direct, ongoing account of events, while Passage 5 uses third-person narration presenting a character's self-description alongside separately-reported behavior — different formal structures achieving a similar thematic concern about self-perception's limits. Choice D is wrong; both passages centrally involve this kind of gap, just built through different narrative structures. Choice B flattens a distinction the passage pair is designed to illustrate — the difference in point of view genuinely changes how each technique works. Choice A is factually incorrect; Passage 1 is told in first person ('I'), not third person."
       },
       {
         "id": "2-11",
@@ -3491,7 +3491,7 @@ const QUESTIONS = {
           "Both passages use specific, concrete detail in essentially identical ways, serving identical purposes."
         ],
         "correct": 2,
-        "explanation": "Passage 2 uses a single, specific, almost absurd concrete detail (the squirrel) to create situational irony's central contradiction, while Passage 3 uses a repeated concrete detail (door-checking) across multiple time periods specifically to construct a developing motif — concrete detail serving structurally different purposes across the two passages. Choice B collapses a distinction the comparison is built to draw out; the two passages use concrete detail toward genuinely different structural ends. Choice C reverses Passage 3's actual technique, which depends on the door-checking detail recurring, not standing alone. Choice D is contradicted by both passages, each of which is built around a specific, carefully chosen concrete detail."
+        "explanation": "Passage 2 uses a single, specific, almost absurd concrete detail (the squirrel) to create situational irony's central contradiction, while Passage 3 uses a repeated concrete detail (door-checking) across multiple time periods specifically to construct a developing motif — concrete detail serving structurally different purposes across the two passages. Choice D collapses a distinction the comparison is built to draw out; the two passages use concrete detail toward genuinely different structural ends. Choice A reverses Passage 3's actual technique, which depends on the door-checking detail recurring, not standing alone. Choice B is contradicted by both passages, each of which is built around a specific, carefully chosen concrete detail."
       },
       {
         "id": "3-11",
@@ -3504,7 +3504,7 @@ const QUESTIONS = {
           "Memorizing the specific plot details belonging to each of the five individual passages studied in this unit."
         ],
         "correct": 2,
-        "explanation": "The single most valuable skill is consistently checking whether a text's surface-level presentation (a narrator's claims, a character's self-description, an apparently neutral event) is being subtly undercut or complicated by other textual evidence — irony, contradiction, repetition, or juxtaposition — rather than accepting surface presentation as straightforwardly reliable. Choice B describes essentially the opposite of what this unit teaches, treating unquestioning trust as a skill rather than a habit to overcome. Choice C reduces analysis to labeling, missing the deeper diagnostic habit the unit is actually building. Choice D mistakes memorization of specific content for a transferable reading skill, which is exactly what won't carry over to a new, unfamiliar passage."
+        "explanation": "The single most valuable skill is consistently checking whether a text's surface-level presentation (a narrator's claims, a character's self-description, an apparently neutral event) is being subtly undercut or complicated by other textual evidence — irony, contradiction, repetition, or juxtaposition — rather than accepting surface presentation as straightforwardly reliable. Choice A describes essentially the opposite of what this unit teaches, treating unquestioning trust as a skill rather than a habit to overcome. Choice B reduces analysis to labeling, missing the deeper diagnostic habit the unit is actually building. Choice D mistakes memorization of specific content for a transferable reading skill, which is exactly what won't carry over to a new, unfamiliar passage."
       },
       {
         "id": "4-11",
@@ -3517,7 +3517,7 @@ const QUESTIONS = {
           "Neither technique actually involves comparing across more than one textual moment or instance."
         ],
         "correct": 0,
-        "explanation": "Both techniques rely on presenting multiple related instances of something (two settings; three ritual stages) and asking the reader to notice the pattern of similarity and difference across those instances — a shared underlying principle of meaning emerging from comparison across multiple textual moments rather than from any single moment alone. Choice A is contradicted by both techniques, which explicitly depend on multiple instances (two kitchens; three stages). Choice B mischaracterizes both techniques as single-image, when juxtaposition requires at least two elements and motif requires repetition by definition. Choice C denies a connection the question itself is built to reveal, missing that Sections 4.3 and 4.4 rest on the same comparative logic."
+        "explanation": "Both techniques rely on presenting multiple related instances of something (two settings; three ritual stages) and asking the reader to notice the pattern of similarity and difference across those instances — a shared underlying principle of meaning emerging from comparison across multiple textual moments rather than from any single moment alone. Choice B is contradicted by both techniques, which explicitly depend on multiple instances (two kitchens; three stages). Choice D mischaracterizes both techniques as single-image, when juxtaposition requires at least two elements and motif requires repetition by definition. Choice C denies a connection the question itself is built to reveal, missing that Sections 4.3 and 4.4 rest on the same comparative logic."
       },
       {
         "id": "5-11",
@@ -3530,7 +3530,7 @@ const QUESTIONS = {
           "Gerald publicly apologizing for the plaque's wording and asking the committee to have it changed, a reversal that would require Gerald to recognize, and directly name, the very contradiction the passage otherwise leaves him blind to."
         ],
         "correct": 0,
-        "explanation": "Gerald likely continuing to describe himself as humble and private in future social situations, quite possibly discussing the plaque itself as evidence of how little he cares about recognition, is most consistent with the passage's characterization — the established pattern of unwitting self-contradiction suggesting continued, rather than resolved, self-deception. Choice A would require a level of self-awareness the passage gives no indication Gerald possesses. Choice B is inconsistent with the passage's clear pattern of Gerald actively seeking, rather than avoiding, credit and visibility. Choice D contradicts the passage's characterization even more sharply than A, since nothing in the text suggests sudden insight is coming — if anything, the pattern reads as deeply entrenched."
+        "explanation": "Gerald likely continuing to describe himself as humble and private in future social situations, quite possibly discussing the plaque itself as evidence of how little he cares about recognition, is most consistent with the passage's characterization — the established pattern of unwitting self-contradiction suggesting continued, rather than resolved, self-deception. Choice C would require a level of self-awareness the passage gives no indication Gerald possesses. Choice B is inconsistent with the passage's clear pattern of Gerald actively seeking, rather than avoiding, credit and visibility. Choice D contradicts the passage's characterization even more sharply than A, since nothing in the text suggests sudden insight is coming — if anything, the pattern reads as deeply entrenched."
       },
       {
         "id": "1-12",
@@ -3543,7 +3543,7 @@ const QUESTIONS = {
           "No two passages in this unit share this specific thematic concern with self-deception."
         ],
         "correct": 0,
-        "explanation": "Passages 1 and 5 most directly share this concern — both centering on a character's evidently sincere, though ultimately unreliable, belief about their own behavior or character, genuine self-deception rather than deliberate deception aimed at other people. Choice B identifies a real but surface-level similarity (domestic settings) rather than the deeper thematic one the question asks about; Passage 3 and 4 don't share a self-deception theme the way 1 and 5 do. Choice C denies a connection the unit's own thematic pairing clearly supports. Choice D also picks a surface-level similarity (physical settings and objects) rather than the specific concern with self-deception the question is asking about."
+        "explanation": "Passages 1 and 5 most directly share this concern — both centering on a character's evidently sincere, though ultimately unreliable, belief about their own behavior or character, genuine self-deception rather than deliberate deception aimed at other people. Choice C identifies a real but surface-level similarity (domestic settings) rather than the deeper thematic one the question asks about; Passage 3 and 4 don't share a self-deception theme the way 1 and 5 do. Choice D denies a connection the unit's own thematic pairing clearly supports. Choice B also picks a surface-level similarity (physical settings and objects) rather than the specific concern with self-deception the question is asking about."
       },
       {
         "id": "2-12",
@@ -3556,7 +3556,7 @@ const QUESTIONS = {
           "Passage 2's irony centers on one self-contained plot event, while Passage 5's irony is more diffuse, spread across a whole pattern of behavior."
         ],
         "correct": 3,
-        "explanation": "Passage 2's situational irony centers on a single, self-contained plot event (the generator's specific failure), while Passage 5's irony is more diffuse, emerging across the character's entire pattern of behavior and repeated self-description rather than one isolated event. Choice A denies a real difference in scope the question is built to draw out. Choice C is contradicted by both passages, each of which relies centrally on irony (situational in Passage 2, tied to authorial distance in Passage 5). Choice D reverses the actual relationship; it's Passage 2's irony that is the more narrowly, tightly focused of the two."
+        "explanation": "Passage 2's situational irony centers on a single, self-contained plot event (the generator's specific failure), while Passage 5's irony is more diffuse, emerging across the character's entire pattern of behavior and repeated self-description rather than one isolated event. Choice A denies a real difference in scope the question is built to draw out. Choice C is contradicted by both passages, each of which relies centrally on irony (situational in Passage 2, tied to authorial distance in Passage 5). Choice B reverses the actual relationship; it's Passage 2's irony that is the more narrowly, tightly focused of the two."
       },
       {
         "id": "3-12",
@@ -3569,7 +3569,7 @@ const QUESTIONS = {
           "Unit 1's foundational skills become largely irrelevant once this unit's more advanced techniques are introduced."
         ],
         "correct": 1,
-        "explanation": "This unit applies increasingly sophisticated versions of Unit 1's foundational tools (character revealed through action, meaningful structural choices, figurative development) while adding new layers specifically concerned with unreliability, irony, and the gap between surface presentation and underlying reality — building directly on, rather than replacing, Unit 1's close-reading foundation. Choice A ignores the guide's own stated framing that this unit's techniques 'layer ON TOP of Unit 1's basics.' Choice B understates real differences in content — this unit introduces genuinely new concepts (unreliable narration, motif, authorial distance) that Unit 1 doesn't cover. Choice C is directly contradicted by the guide, which treats Unit 1's skills as an ongoing foundation, not something to discard."
+        "explanation": "This unit applies increasingly sophisticated versions of Unit 1's foundational tools (character revealed through action, meaningful structural choices, figurative development) while adding new layers specifically concerned with unreliability, irony, and the gap between surface presentation and underlying reality — building directly on, rather than replacing, Unit 1's close-reading foundation. Choice A ignores the guide's own stated framing that this unit's techniques 'layer ON TOP of Unit 1's basics.' Choice C understates real differences in content — this unit introduces genuinely new concepts (unreliable narration, motif, authorial distance) that Unit 1 doesn't cover. Choice D is directly contradicted by the guide, which treats Unit 1's skills as an ongoing foundation, not something to discard."
       },
       {
         "id": "4-12",
@@ -3582,7 +3582,7 @@ const QUESTIONS = {
           "The five passages share only surface-level setting similarities, with no deeper technical or thematic connection between them, a claim the shared five-technique 'surface versus reality' pattern identified elsewhere in this unit's questions directly contradicts."
         ],
         "correct": 0,
-        "explanation": "Across genuinely different specific techniques (unreliable narration, situational irony, motif, juxtaposition, authorial distance), each passage asks the reader to notice a gap or pattern the surface-level presentation doesn't fully account for — a shared underlying commitment to reading skeptically and attentively rather than accepting any single stated claim, narrator, or character's self-presentation at simple face value. Choice A misses the deeper structural commonality the question specifically asks about, settling for a claim (shared setting types) the passages don't even really support. Choice C is contradicted by all five passages, each of which centers on exactly this kind of surface-versus-reality gap. Choice D denies the very connection this unit's culminating synthesis questions are built to draw out."
+        "explanation": "Across genuinely different specific techniques (unreliable narration, situational irony, motif, juxtaposition, authorial distance), each passage asks the reader to notice a gap or pattern the surface-level presentation doesn't fully account for — a shared underlying commitment to reading skeptically and attentively rather than accepting any single stated claim, narrator, or character's self-presentation at simple face value. Choice D misses the deeper structural commonality the question specifically asks about, settling for a claim (shared setting types) the passages don't even really support. Choice C is contradicted by all five passages, each of which centers on exactly this kind of surface-versus-reality gap. Choice B denies the very connection this unit's culminating synthesis questions are built to draw out."
       },
       {
         "id": "5-12",
@@ -3595,7 +3595,7 @@ const QUESTIONS = {
           "Both a claim-versus-evidence gap (unreliable narration or authorial distance) and situational irony would be directly relevant, since the example combines both."
         ],
         "correct": 3,
-        "explanation": "Both unreliable narration/authorial distance (the gap between the stated claim and the visible physical behavior) and situational irony (a person claiming patience while displaying its opposite) would be directly relevant — this hypothetical example combines exactly the kind of claim-versus-evidence gap and ironic contradiction Sections 4.1, 4.2, and 4.5 all address. Choice B misapplies juxtaposition, which involves two settings or ideas placed side by side, not a single character's contradictory claim and behavior. Choice C denies an obvious application of skills this unit builds directly toward recognizing. Choice D misapplies motif, since nothing in this one-time hypothetical scenario is described as recurring across multiple instances."
+        "explanation": "Both unreliable narration/authorial distance (the gap between the stated claim and the visible physical behavior) and situational irony (a person claiming patience while displaying its opposite) would be directly relevant — this hypothetical example combines exactly the kind of claim-versus-evidence gap and ironic contradiction Sections 4.1, 4.2, and 4.5 all address. Choice A misapplies juxtaposition, which involves two settings or ideas placed side by side, not a single character's contradictory claim and behavior. Choice C denies an obvious application of skills this unit builds directly toward recognizing. Choice B misapplies motif, since nothing in this one-time hypothetical scenario is described as recurring across multiple instances."
       },
       {
         "id": "1-13",
@@ -3608,7 +3608,7 @@ const QUESTIONS = {
           "Situational irony, since Passage 3's pattern develops through gradual change rather than a meaningful contradiction between expectation and outcome."
         ],
         "correct": 3,
-        "explanation": "Situational irony would be least directly useful for Passage 3 specifically, since its door-checking pattern develops through gradual psychological change rather than through any single, meaningful contradiction between expectation and outcome — the defining feature of situational irony that Passage 3 does not centrally rely on, unlike Passage 2. Choice A mischaracterizes 'this is the passage's own technique' as making it least useful, when the question asks about least USEFUL, not least present — motif is actually the MOST useful lens here, the opposite of what's being asked. Choice C is directly useful, not least useful, since tracking Marguerite's change over time is central to reading the passage. Choice D is also directly useful, since the passage's whole effect depends on its consistent third-person-limited access to Marguerite's internal state."
+        "explanation": "Situational irony would be least directly useful for Passage 3 specifically, since its door-checking pattern develops through gradual psychological change rather than through any single, meaningful contradiction between expectation and outcome — the defining feature of situational irony that Passage 3 does not centrally rely on, unlike Passage 2. Choice A mischaracterizes 'this is the passage's own technique' as making it least useful, when the question asks about least USEFUL, not least present — motif is actually the MOST useful lens here, the opposite of what's being asked. Choice B is directly useful, not least useful, since tracking Marguerite's change over time is central to reading the passage. Choice C is also directly useful, since the passage's whole effect depends on its consistent third-person-limited access to Marguerite's internal state."
       },
       {
         "id": "2-13",
@@ -3621,7 +3621,7 @@ const QUESTIONS = {
           "All five passages reward this specific reading skill equally, with no meaningful distinction between them."
         ],
         "correct": 1,
-        "explanation": "Passage 1 would most reward this specific skill, since its entire technique depends on the reader detecting specific logical and factual inconsistencies within the narrator's own self-justifying account — a different reading skill than tracking a developing pattern (Passage 3) or noticing a structural contrast (Passage 4). Choice A correctly identifies Passage 3's technique but for the wrong reason here — it names the passage that rewards inconsistency-detection LEAST, not most, since that isn't its central technique. Choice B denies a meaningful distinction the question is built to draw out between different reading skills. Choice C, like A, correctly describes Passage 4's technique but misapplies it — structural contrast-noticing isn't the same skill as inconsistency-detection, making it a weaker match than Passage 1."
+        "explanation": "Passage 1 would most reward this specific skill, since its entire technique depends on the reader detecting specific logical and factual inconsistencies within the narrator's own self-justifying account — a different reading skill than tracking a developing pattern (Passage 3) or noticing a structural contrast (Passage 4). Choice C correctly identifies Passage 3's technique but for the wrong reason here — it names the passage that rewards inconsistency-detection LEAST, not most, since that isn't its central technique. Choice D denies a meaningful distinction the question is built to draw out between different reading skills. Choice A, like A, correctly describes Passage 4's technique but misapplies it — structural contrast-noticing isn't the same skill as inconsistency-detection, making it a weaker match than Passage 1."
       },
       {
         "id": "3-13",
@@ -3634,7 +3634,7 @@ const QUESTIONS = {
           "Skipping analysis of any narrator's or character's direct claims to focus solely on setting description instead."
         ],
         "correct": 1,
-        "explanation": "The most transferable habit is approaching any new text by asking: does this narrator's account, character's self-description, or apparently neutral event contain internal signals (contradiction, disproportionate insistence, ironic outcome, developing pattern) suggesting a more complete or different truth than what's stated on the surface — a transferable diagnostic question rather than a technique-specific checklist. Choice A reduces the unit's habit to rote memorization, which is exactly the kind of non-transferable knowledge the question is asking readers to move past. Choice B misapplies the unit's lesson; direct claims are exactly what readers should scrutinize most closely, not skip over. Choice C imposes a rigid assumption the unit never makes and that would actually work against flexible analysis of a genuinely new text."
+        "explanation": "The most transferable habit is approaching any new text by asking: does this narrator's account, character's self-description, or apparently neutral event contain internal signals (contradiction, disproportionate insistence, ironic outcome, developing pattern) suggesting a more complete or different truth than what's stated on the surface — a transferable diagnostic question rather than a technique-specific checklist. Choice C reduces the unit's habit to rote memorization, which is exactly the kind of non-transferable knowledge the question is asking readers to move past. Choice D misapplies the unit's lesson; direct claims are exactly what readers should scrutinize most closely, not skip over. Choice A imposes a rigid assumption the unit never makes and that would actually work against flexible analysis of a genuinely new text."
       },
       {
         "id": "4-13",
@@ -3647,7 +3647,7 @@ const QUESTIONS = {
           "This hypothetical pattern would relate only to unreliable narration, and not to juxtaposition at all."
         ],
         "correct": 0,
-        "explanation": "This hypothetical pattern represents juxtaposition operating at the level of PERSONA rather than physical setting — placing a character's public performance and private reality side by side to reveal the gap between them, extending Passage 4's technique (contrasting two physical kitchens) to a psychological rather than spatial application of the same underlying principle. Choice A denies an application the technique's underlying logic clearly supports. Choice B artificially restricts juxtaposition to physical settings, when Section 4.4 defines it more broadly as applying 'to settings, time periods, or ideas.' Choice D wrongly excludes juxtaposition, when in fact both unreliable narration and juxtaposition could plausibly apply — the question specifically asks about juxtaposition's relevance, which the scenario clearly has."
+        "explanation": "This hypothetical pattern represents juxtaposition operating at the level of PERSONA rather than physical setting — placing a character's public performance and private reality side by side to reveal the gap between them, extending Passage 4's technique (contrasting two physical kitchens) to a psychological rather than spatial application of the same underlying principle. Choice B denies an application the technique's underlying logic clearly supports. Choice C artificially restricts juxtaposition to physical settings, when Section 4.4 defines it more broadly as applying 'to settings, time periods, or ideas.' Choice D wrongly excludes juxtaposition, when in fact both unreliable narration and juxtaposition could plausibly apply — the question specifically asks about juxtaposition's relevance, which the scenario clearly has."
       },
       {
         "id": "5-13",
@@ -3660,7 +3660,7 @@ const QUESTIONS = {
           "The unit's five passages could be freely rearranged in any order without affecting the overall learning progression."
         ],
         "correct": 1,
-        "explanation": "This progression moves from a more direct, first-person form of surface-versus-reality gap (requiring readers to distrust a narrator's own words) to a more structurally distanced, third-person form of the same underlying concern (requiring readers to notice a gap the text presents without direct narratorial commentary) — bookending the unit with two related but formally distinct versions of its central, unifying concern. Choice A dismisses a deliberate structural choice as arbitrary, when the pairing of first and last passages clearly echoes each other thematically (see 1-12's pairing). Choice B is contradicted by that same thematic pairing between Passages 1 and 5. Choice C similarly denies the unit's deliberate arc, understating how the ordering builds from more direct to more subtle detection of the same underlying gap."
+        "explanation": "This progression moves from a more direct, first-person form of surface-versus-reality gap (requiring readers to distrust a narrator's own words) to a more structurally distanced, third-person form of the same underlying concern (requiring readers to notice a gap the text presents without direct narratorial commentary) — bookending the unit with two related but formally distinct versions of its central, unifying concern. Choice A dismisses a deliberate structural choice as arbitrary, when the pairing of first and last passages clearly echoes each other thematically (see 1-12's pairing). Choice C is contradicted by that same thematic pairing between Passages 1 and 5. Choice D similarly denies the unit's deliberate arc, understating how the ordering builds from more direct to more subtle detection of the same underlying gap."
       }
     ]
   },
@@ -4600,7 +4600,7 @@ const QUESTIONS = {
           "It is purely factual description of events, carrying no emotional or psychological content."
         ],
         "correct": 1,
-        "explanation": "The soliloquy moves through multiple distinct stages — self-justification (\"I earned this... has to count for something\"), painful acknowledgment of his partner's absence and his own complicity, a moment of nearly correcting the record, a self-aware recognition of his own cowardice, and finally a return to the applause and his original position — genuine psychological movement across its length rather than one static position, exactly the internal development Section 6.1 asks readers to track. Option A is wrong because the ending is not resolved confidence; Victor names himself a coward and still doesn't act. Option B ignores the sharp pivot at \"Except\" and the near-decision to go back and correct the record. Option C misreads the entire speech, which is built almost entirely from Victor's shifting feelings about what he did, not neutral fact."
+        "explanation": "The soliloquy moves through multiple distinct stages — self-justification (\"I earned this... has to count for something\"), painful acknowledgment of his partner's absence and his own complicity, a moment of nearly correcting the record, a self-aware recognition of his own cowardice, and finally a return to the applause and his original position — genuine psychological movement across its length rather than one static position, exactly the internal development Section 6.1 asks readers to track. Option C is wrong because the ending is not resolved confidence; Victor names himself a coward and still doesn't act. Option A ignores the sharp pivot at \"Except\" and the near-decision to go back and correct the record. Option D misreads the entire speech, which is built almost entirely from Victor's shifting feelings about what he did, not neutral fact."
       },
       {
         "id": "1-2",
@@ -4613,7 +4613,7 @@ const QUESTIONS = {
           "The stage direction undercuts and contradicts what the soliloquy later reveals about his partner's absence."
         ],
         "correct": 1,
-        "explanation": "The physical action of setting the award down, paired with the immediate repetition of \"It has to count for something,\" suggests a moment of genuine uncertainty breaking through Victor's stated justification — the repetition itself signals he is trying to convince himself, the same defensive-insistence pattern this course associates with a speaker who protests too much. Option A misses that a stage direction timed to a repeated line is doing deliberate interpretive work, not just describing a gesture. Option B has it backwards: repeating a claim immediately after making it is a classic sign of doubt, not settled confidence. Option C is wrong because nothing here actually contradicts later content — the later material about his partner's absence deepens this same doubt rather than conflicting with it."
+        "explanation": "The physical action of setting the award down, paired with the immediate repetition of \"It has to count for something,\" suggests a moment of genuine uncertainty breaking through Victor's stated justification — the repetition itself signals he is trying to convince himself, the same defensive-insistence pattern this course associates with a speaker who protests too much. Option A misses that a stage direction timed to a repeated line is doing deliberate interpretive work, not just describing a gesture. Option C has it backwards: repeating a claim immediately after making it is a classic sign of doubt, not settled confidence. Option D is wrong because nothing here actually contradicts later content — the later material about his partner's absence deepens this same doubt rather than conflicting with it."
       },
       {
         "id": "1-3",
@@ -4626,7 +4626,7 @@ const QUESTIONS = {
           "It reveals that Victor has no real awareness of any ethical problem with the situation."
         ],
         "correct": 0,
-        "explanation": "The near-decision to \"walk back in and say her name,\" followed by his reversal, reveals the soliloquy's central tension between what Victor knows would be honest — crediting his partner — and his calculated assessment of what that honesty would cost him at this specific moment. The near-decision and reversal dramatize a real internal conflict, not a character who never considered the alternative. Option A is unsupported; nothing in the passage questions the partner's claim to credit — Victor's own words assume it. Option B gets the logic backward: the near-decision doesn't contradict the opening, it exposes the opening as motivated self-justification. Option C is directly disproven by the fact that Victor gets as far as almost walking back in to correct the record — that requires real awareness of the problem."
+        "explanation": "The near-decision to \"walk back in and say her name,\" followed by his reversal, reveals the soliloquy's central tension between what Victor knows would be honest — crediting his partner — and his calculated assessment of what that honesty would cost him at this specific moment. The near-decision and reversal dramatize a real internal conflict, not a character who never considered the alternative. Option B is unsupported; nothing in the passage questions the partner's claim to credit — Victor's own words assume it. Option C gets the logic backward: the near-decision doesn't contradict the opening, it exposes the opening as motivated self-justification. Option D is directly disproven by the fact that Victor gets as far as almost walking back in to correct the record — that requires real awareness of the problem."
       },
       {
         "id": "1-4",
@@ -4639,7 +4639,7 @@ const QUESTIONS = {
           "It reaches painful self-awareness without matching action."
         ],
         "correct": 3,
-        "explanation": "Victor's final self-assessment as \"a coward who waited three years too long\" shows the soliloquy reaching painful self-awareness without corresponding action: he accurately diagnoses his own cowardice, but the speech ends with him returning to the applause anyway, suggesting that recognizing a flaw doesn't automatically produce the will to correct it — a nuanced, unresolved ending rather than tidy moral resolution. Option A is contradicted by Victor's own language (\"it's simply also true that I'm a coward\"), which concedes complicity outright. Option B is the opposite of what happens; his last line is a decision to go back to the applause, not to correct the record. Option D overstates the case — the ending doesn't contradict what came before, it's the culmination of the doubt that's been building throughout."
+        "explanation": "Victor's final self-assessment as \"a coward who waited three years too long\" shows the soliloquy reaching painful self-awareness without corresponding action: he accurately diagnoses his own cowardice, but the speech ends with him returning to the applause anyway, suggesting that recognizing a flaw doesn't automatically produce the will to correct it — a nuanced, unresolved ending rather than tidy moral resolution. Option C is contradicted by Victor's own language (\"it's simply also true that I'm a coward\"), which concedes complicity outright. Option A is the opposite of what happens; his last line is a decision to go back to the applause, not to correct the record. Option B overstates the case — the ending doesn't contradict what came before, it's the culmination of the doubt that's been building throughout."
       },
       {
         "id": "1-5",
@@ -4652,7 +4652,7 @@ const QUESTIONS = {
           "Extended, private space offers no particular advantage over dialogue for this kind of content."
         ],
         "correct": 0,
-        "explanation": "The soliloquy's extended, uninterrupted space allows the audience to witness Victor's genuine, real-time psychological movement — from justification through doubt to near-action to retreat — a process that needs enough time and privacy to unfold visibly, which brief, interrupted dialogue with another character present would not permit as clearly. Option A misses that the value here is watching the movement happen, not just learning its endpoint — a summary line would lose exactly what makes the passage work. Option B ignores the premise of Section 6.1 itself: extended solo space is specifically what makes tracked psychological development possible. Option D is an unsupported generalization; nothing about extended solo speech restricts it to comedy, and this passage is a clear counterexample."
+        "explanation": "The soliloquy's extended, uninterrupted space allows the audience to witness Victor's genuine, real-time psychological movement — from justification through doubt to near-action to retreat — a process that needs enough time and privacy to unfold visibly, which brief, interrupted dialogue with another character present would not permit as clearly. Option C misses that the value here is watching the movement happen, not just learning its endpoint — a summary line would lose exactly what makes the passage work. Option D ignores the premise of Section 6.1 itself: extended solo space is specifically what makes tracked psychological development possible. Option B is an unsupported generalization; nothing about extended solo speech restricts it to comedy, and this passage is a clear counterexample."
       },
       {
         "id": "2-1",
@@ -4665,7 +4665,7 @@ const QUESTIONS = {
           "Marcus's quick, intuitive choice contrasts with Theodora's implied cautious approach to a similar decision."
         ],
         "correct": 3,
-        "explanation": "Marcus's quick, intuitive decision-making — accepting a position within twenty minutes — contrasts with Theodora's implied cautious, calculated approach to her own comparable decision (whether to accept a position in another city), and the subplot poses an implicit question about whether careful calculation actually serves major decisions well, exactly the kind of illuminating parallel Section 6.2 asks readers to identify. Option B invents a claim about Theodora's father that the excerpt never makes. Option C misses the parallel the passage is clearly building: both characters weigh taking a new position elsewhere. Option D dismisses a contrast the text sets up directly through Theodora's own pointed question to Marcus about his process."
+        "explanation": "Marcus's quick, intuitive decision-making — accepting a position within twenty minutes — contrasts with Theodora's implied cautious, calculated approach to her own comparable decision (whether to accept a position in another city), and the subplot poses an implicit question about whether careful calculation actually serves major decisions well, exactly the kind of illuminating parallel Section 6.2 asks readers to identify. Option C invents a claim about Theodora's father that the excerpt never makes. Option A misses the parallel the passage is clearly building: both characters weigh taking a new position elsewhere. Option B dismisses a contrast the text sets up directly through Theodora's own pointed question to Marcus about his process."
       },
       {
         "id": "2-2",
@@ -4678,7 +4678,7 @@ const QUESTIONS = {
           "It functions as a direct, personal criticism that Marcus intends pointedly toward Theodora."
         ],
         "correct": 0,
-        "explanation": "Marcus's line most likely functions as implicit commentary on Theodora's own situation, voiced through a minor character rather than through Theodora's direct self-reflection — a subplot character articulating a perspective the main plot may be building toward or testing, without requiring Theodora herself to state it explicitly. Option A overreads the scene; nothing suggests Marcus is speaking pointedly rather than generally, and his tone (\"not unkindly\") argues against it. Option B underreads the obvious structural parallel between Marcus's and Theodora's decisions. Option C isn't supported anywhere — the conversation concerns decision-making style, not Theodora's leadership of the museum."
+        "explanation": "Marcus's line most likely functions as implicit commentary on Theodora's own situation, voiced through a minor character rather than through Theodora's direct self-reflection — a subplot character articulating a perspective the main plot may be building toward or testing, without requiring Theodora herself to state it explicitly. Option D overreads the scene; nothing suggests Marcus is speaking pointedly rather than generally, and his tone (\"not unkindly\") argues against it. Option C underreads the obvious structural parallel between Marcus's and Theodora's decisions. Option B isn't supported anywhere — the conversation concerns decision-making style, not Theodora's leadership of the museum."
       },
       {
         "id": "2-3",
@@ -4691,7 +4691,7 @@ const QUESTIONS = {
           "It suggests Marcus isn't condemning Theodora's caution."
         ],
         "correct": 3,
-        "explanation": "Marcus's calm, unoffended response suggests he isn't attacking Theodora's more cautious approach as wrong, but genuinely offering a different perspective without judgment — making the subplot's implicit commentary feel like an available alternative rather than a direct condemnation of Theodora's more careful tendencies. Option B invents resentment the text never shows; his tone is described as \"not unkindly.\" Option C misreads calm as indifference — his detailed, engaged response shows he's taking the question seriously, not brushing it off. Option D is backward: his calm response is entirely consistent with, not contradictory to, the quick decision already described."
+        "explanation": "Marcus's calm, unoffended response suggests he isn't attacking Theodora's more cautious approach as wrong, but genuinely offering a different perspective without judgment — making the subplot's implicit commentary feel like an available alternative rather than a direct condemnation of Theodora's more careful tendencies. Option B invents resentment the text never shows; his tone is described as \"not unkindly.\" Option C misreads calm as indifference — his detailed, engaged response shows he's taking the question seriously, not brushing it off. Option A is backward: his calm response is entirely consistent with, not contradictory to, the quick decision already described."
       },
       {
         "id": "2-4",
@@ -4704,7 +4704,7 @@ const QUESTIONS = {
           "There is no meaningful reason to prefer a subplot over Theodora's own direct internal reflection here."
         ],
         "correct": 1,
-        "explanation": "Externalizing the contrasting perspective through another character, rather than having Theodora argue with herself internally, can feel less didactic and more organically dramatized — the reader encounters the alternative viewpoint as a genuine, independently-motivated character's actual life choice rather than as an authorial argument inserted into the protagonist's own thoughts. Option A dismisses a real craft distinction between showing a perspective through action and simply stating it. Option C is speculation about authorial ability the text gives no basis for. Option D is an unsupported generalization about craft difficulty that has nothing to do with why this particular structural choice works here."
+        "explanation": "Externalizing the contrasting perspective through another character, rather than having Theodora argue with herself internally, can feel less didactic and more organically dramatized — the reader encounters the alternative viewpoint as a genuine, independently-motivated character's actual life choice rather than as an authorial argument inserted into the protagonist's own thoughts. Option D dismisses a real craft distinction between showing a perspective through action and simply stating it. Option C is speculation about authorial ability the text gives no basis for. Option A is an unsupported generalization about craft difficulty that has nothing to do with why this particular structural choice works here."
       },
       {
         "id": "2-5",
@@ -4717,7 +4717,7 @@ const QUESTIONS = {
           "The excerpt definitively proves the novel argues every major decision should be made within twenty minutes."
         ],
         "correct": 1,
-        "explanation": "Based on this excerpt alone, one might reasonably infer that the novel may be exploring the tension between calculated caution and intuitive decisiveness in major life choices, though a claim about the novel's single definitive theme would overreach beyond what this specific subplot excerpt alone can establish — exactly the responsibly-scoped inference this unit's approach, building on Unit 3's Section 3.5, models. Option B turns a suggested tension into an absurd, overstated rule the text never claims. Option C predicts an outcome the excerpt gives no basis for; Theodora's own decision isn't shown here at all. Option D misses the clear thematic weight the dialogue itself is built to carry."
+        "explanation": "Based on this excerpt alone, one might reasonably infer that the novel may be exploring the tension between calculated caution and intuitive decisiveness in major life choices, though a claim about the novel's single definitive theme would overreach beyond what this specific subplot excerpt alone can establish — exactly the responsibly-scoped inference this unit's approach, building on Unit 3's Section 3.5, models. Option D turns a suggested tension into an absurd, overstated rule the text never claims. Option A predicts an outcome the excerpt gives no basis for; Theodora's own decision isn't shown here at all. Option C misses the clear thematic weight the dialogue itself is built to carry."
       },
       {
         "id": "3-1",
@@ -4730,7 +4730,7 @@ const QUESTIONS = {
           "The differences actually suggest the cabin has grown more familiar and intimate to Nora over time."
         ],
         "correct": 1,
-        "explanation": "Specific sensory and physical details shift meaningfully between the two passages — cedar scent \"gone thin,\" familiar quilts replaced with \"unfamiliar linens,\" and especially the loose dock board (a marker requiring insider knowledge) replaced entirely, with \"nothing left that required knowing this place the old way\" — tracking the loss of the cabin's former intimate, familiar character, exactly the kind of specific comparison Section 6.3 asks readers to trace between a setting's early and late appearances. Option A ignores the passage's own framing, which explicitly presents both excerpts as the same cabin at different times. Option C reverses the clear direction of change; every specific detail points toward loss of familiarity, not gain. Option D overlooks the multiple concrete differences the two excerpts are built around."
+        "explanation": "Specific sensory and physical details shift meaningfully between the two passages — cedar scent \"gone thin,\" familiar quilts replaced with \"unfamiliar linens,\" and especially the loose dock board (a marker requiring insider knowledge) replaced entirely, with \"nothing left that required knowing this place the old way\" — tracking the loss of the cabin's former intimate, familiar character, exactly the kind of specific comparison Section 6.3 asks readers to trace between a setting's early and late appearances. Option A ignores the passage's own framing, which explicitly presents both excerpts as the same cabin at different times. Option D reverses the clear direction of change; every specific detail points toward loss of familiarity, not gain. Option C overlooks the multiple concrete differences the two excerpts are built around."
       },
       {
         "id": "3-2",
@@ -4756,7 +4756,7 @@ const QUESTIONS = {
           "The phrase contradicts the passage's other details about how the cabin has changed."
         ],
         "correct": 1,
-        "explanation": "The phrase \"estate service\" signals institutional, impersonal processing of the grandmother's belongings following her death — carrying connotations of formal, businesslike handling rather than personal, family-directed care, reinforcing the passage's broader sense of the cabin's transition from intimate family space to something more processed and generic. Option A isn't supported by the text, which specifically attributes the change to an \"estate service,\" not Nora. Option C undervalues a precise word choice the passage uses deliberately instead of a neutral term like \"someone.\" Option D is wrong because this detail reinforces, rather than conflicts with, the passage's consistent pattern of the cabin becoming less personal."
+        "explanation": "The phrase \"estate service\" signals institutional, impersonal processing of the grandmother's belongings following her death — carrying connotations of formal, businesslike handling rather than personal, family-directed care, reinforcing the passage's broader sense of the cabin's transition from intimate family space to something more processed and generic. Option C isn't supported by the text, which specifically attributes the change to an \"estate service,\" not Nora. Option A undervalues a precise word choice the passage uses deliberately instead of a neutral term like \"someone.\" Option D is wrong because this detail reinforces, rather than conflicts with, the passage's consistent pattern of the cabin becoming less personal."
       },
       {
         "id": "3-4",
@@ -4769,7 +4769,7 @@ const QUESTIONS = {
           "The transformation likely parallels Nora's own sense of loss."
         ],
         "correct": 3,
-        "explanation": "The cabin's transformation from a space requiring intimate, insider knowledge to one that could be navigated by anyone likely parallels Nora's own sense of loss and displacement — the physical space no longer requiring or rewarding the specific, hard-won familiarity she once had with it, suggesting her own connection to this formative place has been structurally severed alongside her grandmother's death. Option A and Option D both understate the loss the passage builds toward through its accumulated specific details; nothing suggests indifference or relief. Option B dismisses the deliberate parallel the two passages are constructed to draw between the physical setting and Nora's inner experience of returning to it."
+        "explanation": "The cabin's transformation from a space requiring intimate, insider knowledge to one that could be navigated by anyone likely parallels Nora's own sense of loss and displacement — the physical space no longer requiring or rewarding the specific, hard-won familiarity she once had with it, suggesting her own connection to this formative place has been structurally severed alongside her grandmother's death. Option A and Option C both understate the loss the passage builds toward through its accumulated specific details; nothing suggests indifference or relief. Option B dismisses the deliberate parallel the two passages are constructed to draw between the physical setting and Nora's inner experience of returning to it."
       },
       {
         "id": "3-5",
@@ -4782,7 +4782,7 @@ const QUESTIONS = {
           "Setting cannot function as a motif under any reasonable definition of the term."
         ],
         "correct": 1,
-        "explanation": "Both techniques share the same underlying principle — tracking a recurring element's development across multiple appearances to reveal change — but apply it to different kinds of recurring elements: Unit 4's motif tracked a repeated ACTION (door-checking), while this unit's technique tracks a repeated PLACE, demonstrating the same analytical approach extended to a different textual element. Option A rejects a comparison the passage itself is built to support; a place returned to repeatedly can absolutely accumulate motif-like symbolic weight. Option B misses the shared structural logic connecting the two techniques. Option D is simply inaccurate — both techniques explicitly depend on tracking change across multiple appearances."
+        "explanation": "Both techniques share the same underlying principle — tracking a recurring element's development across multiple appearances to reveal change — but apply it to different kinds of recurring elements: Unit 4's motif tracked a repeated ACTION (door-checking), while this unit's technique tracks a repeated PLACE, demonstrating the same analytical approach extended to a different textual element. Option A rejects a comparison the passage itself is built to support; a place returned to repeatedly can absolutely accumulate motif-like symbolic weight. Option C misses the shared structural logic connecting the two techniques. Option D is simply inaccurate — both techniques explicitly depend on tracking change across multiple appearances."
       },
       {
         "id": "4-1",
@@ -4795,7 +4795,7 @@ const QUESTIONS = {
           "It suggests the two-year period was simply a less eventful stretch than the four years before it."
         ],
         "correct": 1,
-        "explanation": "This acknowledgment reveals the narrator's own limitation regarding the more recent, painful period — explicitly naming a structural imbalance BEFORE the narrative even begins, an unusually self-aware form of narrator limitation where the narrator diagnoses his own avoidance pattern directly rather than the reader needing to infer it from indirect textual signals. Option A gets the passage's own claim backward: the narrator explicitly says the second period is not less eventful, \"if anything, the opposite is true.\" Option B misreads this as internal contradiction rather than the narrator's central, consistent point. Option C misses that this passage is doing real interpretive work, not simply describing a table of contents."
+        "explanation": "This acknowledgment reveals the narrator's own limitation regarding the more recent, painful period — explicitly naming a structural imbalance BEFORE the narrative even begins, an unusually self-aware form of narrator limitation where the narrator diagnoses his own avoidance pattern directly rather than the reader needing to infer it from indirect textual signals. Option D gets the passage's own claim backward: the narrator explicitly says the second period is not less eventful, \"if anything, the opposite is true.\" Option A misreads this as internal contradiction rather than the narrator's central, consistent point. Option C misses that this passage is doing real interpretive work, not simply describing a table of contents."
       },
       {
         "id": "4-2",
@@ -4808,7 +4808,7 @@ const QUESTIONS = {
           "It primes readers to expect vague, compressed, emotionally guarded prose for that later period."
         ],
         "correct": 3,
-        "explanation": "This description prepares the reader to expect vague, compressed, emotionally guarded prose for the later period — priming expectations about the ACTUAL STYLE the reader will encounter, not just warning about length, since \"thin\" and \"reluctant\" describe qualities of the writing itself, not merely its quantity. Option A overstates the claim; the narrator says the later section will get \"a handful of pages,\" not none. Option B misreads this as inconsistent with the earlier plan, when it's simply elaborating on it. Option D directly contradicts the narrator's own description of thin, reluctant prose for that period."
+        "explanation": "This description prepares the reader to expect vague, compressed, emotionally guarded prose for the later period — priming expectations about the ACTUAL STYLE the reader will encounter, not just warning about length, since \"thin\" and \"reluctant\" describe qualities of the writing itself, not merely its quantity. Option A overstates the claim; the narrator says the later section will get \"a handful of pages,\" not none. Option C misreads this as inconsistent with the earlier plan, when it's simply elaborating on it. Option B directly contradicts the narrator's own description of thin, reluctant prose for that period."
       },
       {
         "id": "4-3",
@@ -4821,7 +4821,7 @@ const QUESTIONS = {
           "This framing carries no particular significance for how readers should interpret the imbalance."
         ],
         "correct": 2,
-        "explanation": "This framing suggests a process of previous attempts and resistance before arriving at acceptance — the narrator has apparently tried and failed to write the second period differently multiple times, and this account represents a considered decision to honor rather than override his own limitation, adding a layer of earned self-awareness to what might otherwise seem like simple incapacity. Option A isn't supported; nothing here suggests intent to deceive, only difficulty and eventual acceptance. Option B misreads consistency as contradiction — the framing extends, rather than conflicts with, the narrator's stated difficulty. Option D undersells language (\"several previous attempts,\" \"decided, finally\") the passage uses specifically to signal a process, not a throwaway detail."
+        "explanation": "This framing suggests a process of previous attempts and resistance before arriving at acceptance — the narrator has apparently tried and failed to write the second period differently multiple times, and this account represents a considered decision to honor rather than override his own limitation, adding a layer of earned self-awareness to what might otherwise seem like simple incapacity. Option B isn't supported; nothing here suggests intent to deceive, only difficulty and eventual acceptance. Option A misreads consistency as contradiction — the framing extends, rather than conflicts with, the narrator's stated difficulty. Option D undersells language (\"several previous attempts,\" \"decided, finally\") the passage uses specifically to signal a process, not a throwaway detail."
       },
       {
         "id": "4-4",
@@ -4834,7 +4834,7 @@ const QUESTIONS = {
           "The second period will probably receive full, detailed treatment somewhere later in the novel."
         ],
         "correct": 0,
-        "explanation": "Based on this opening, a reader should expect information about the two-year period to remain compressed, general, and emotionally guarded throughout, consistent with the narrator's own explicit, upfront acknowledgment of this specific limitation — a reader should not expect this pattern to simply resolve itself as the novel proceeds. Option B assumes a later reversal the narrator gives no reason to expect, having framed the limitation as a considered, ongoing choice rather than a temporary gap. Option C has no support; nothing marks the narrator's stated plan as unreliable. Option D contradicts the narrator's explicit statement that the four years will receive the bulk of the account."
+        "explanation": "Based on this opening, a reader should expect information about the two-year period to remain compressed, general, and emotionally guarded throughout, consistent with the narrator's own explicit, upfront acknowledgment of this specific limitation — a reader should not expect this pattern to simply resolve itself as the novel proceeds. Option D assumes a later reversal the narrator gives no reason to expect, having framed the limitation as a considered, ongoing choice rather than a temporary gap. Option B has no support; nothing marks the narrator's stated plan as unreliable. Option C contradicts the narrator's explicit statement that the four years will receive the bulk of the account."
       },
       {
         "id": "4-5",
@@ -4847,7 +4847,7 @@ const QUESTIONS = {
           "This passage's technique is essentially identical to Unit 4's approach, with no meaningful distinction between them."
         ],
         "correct": 2,
-        "explanation": "This passage represents an unusually direct, self-aware version of narrator limitation — the narrator explicitly names and explains his own structural avoidance pattern — contrasting with Unit 4's typically more indirect signals (internal contradiction, disproportionate insistence) that require readers to detect a limitation the narrator doesn't openly acknowledge. Option A is contradicted by the passage's entire content, which is built around exactly this kind of limitation. Option B collapses a meaningful distinction the passage is specifically designed to illustrate. Option D overgeneralizes from this one unusually explicit case to claim it describes Unit 4's narrators generally, which this course's earlier material doesn't support."
+        "explanation": "This passage represents an unusually direct, self-aware version of narrator limitation — the narrator explicitly names and explains his own structural avoidance pattern — contrasting with Unit 4's typically more indirect signals (internal contradiction, disproportionate insistence) that require readers to detect a limitation the narrator doesn't openly acknowledge. Option B is contradicted by the passage's entire content, which is built around exactly this kind of limitation. Option D collapses a meaningful distinction the passage is specifically designed to illustrate. Option A overgeneralizes from this one unusually explicit case to claim it describes Unit 4's narrators generally, which this course's earlier material doesn't support."
       },
       {
         "id": "5-1",
@@ -4860,7 +4860,7 @@ const QUESTIONS = {
           "A flaw in her technical surgical skill, which the passage suggests is simply inadequate."
         ],
         "correct": 0,
-        "explanation": "This passage identifies Gwendolyn's rigid refusal to call for surgical backup, rooted in her belief that doing so \"tells the whole room you've lost control\" — the text traces this specific trait directly to a specific consequence: Mr. Alvarez's diminished outcome, caused by her continuing alone for forty extra minutes during a complication her own training indicated required a second surgeon. Option A misidentifies the trait; nothing in the passage suggests general unkindness, only a specific refusal tied to pride. Option C is contradicted by the passage, which stresses her skill and eleven-year record rather than any technical inadequacy. Option D overlooks the clear, explicit causal chain the passage's final paragraph draws."
+        "explanation": "This passage identifies Gwendolyn's rigid refusal to call for surgical backup, rooted in her belief that doing so \"tells the whole room you've lost control\" — the text traces this specific trait directly to a specific consequence: Mr. Alvarez's diminished outcome, caused by her continuing alone for forty extra minutes during a complication her own training indicated required a second surgeon. Option B misidentifies the trait; nothing in the passage suggests general unkindness, only a specific refusal tied to pride. Option D is contradicted by the passage, which stresses her skill and eleven-year record rather than any technical inadequacy. Option C overlooks the clear, explicit causal chain the passage's final paragraph draws."
       },
       {
         "id": "5-2",
@@ -4873,7 +4873,7 @@ const QUESTIONS = {
           "This detail contradicts the passage's earlier claim that Gwendolyn has extensive surgical experience."
         ],
         "correct": 1,
-        "explanation": "This detail sharpens the tragic flaw's significance by establishing that Gwendolyn's choice wasn't due to lack of knowledge or genuine uncertainty about the correct protocol — she KNEW the appropriate response and chose against it specifically to preserve her streak, making this a clear case of flaw-driven choice rather than simple error or ignorance. Option B misreads a detail about Gwendolyn's knowledge as a criticism of her training's quality, when the point is the opposite — her training was sound and she overrode it. Option C undersells a detail doing real causal work in the passage's argument. Option D invents a contradiction the passage doesn't contain; extensive experience and a known-and-ignored protocol aren't in tension."
+        "explanation": "This detail sharpens the tragic flaw's significance by establishing that Gwendolyn's choice wasn't due to lack of knowledge or genuine uncertainty about the correct protocol — she KNEW the appropriate response and chose against it specifically to preserve her streak, making this a clear case of flaw-driven choice rather than simple error or ignorance. Option C misreads a detail about Gwendolyn's knowledge as a criticism of her training's quality, when the point is the opposite — her training was sound and she overrode it. Option A undersells a detail doing real causal work in the passage's argument. Option D invents a contradiction the passage doesn't contain; extensive experience and a known-and-ignored protocol aren't in tension."
       },
       {
         "id": "5-3",
@@ -4886,7 +4886,7 @@ const QUESTIONS = {
           "The delay builds toward a pointed final comparison, letting the streak's significance land before the ethical question is posed."
         ],
         "correct": 3,
-        "explanation": "This delay builds toward a pointed final comparison — \"what an eleven-year streak was actually worth measured against a single patient\" — withholding the direct question until the reader has fully absorbed the streak's significance to Gwendolyn, making the final ethical weighing land with more force than if it had been stated earlier or more directly. Option A misreads a passage that explicitly says Alvarez did not survive \"in the same condition\" as a positive outcome. Option B misunderstands how the ending functions; it completes the tension built earlier rather than contradicting it. Option C overlooks a structural choice — the delayed comparison — the passage clearly relies on for its final effect."
+        "explanation": "This delay builds toward a pointed final comparison — \"what an eleven-year streak was actually worth measured against a single patient\" — withholding the direct question until the reader has fully absorbed the streak's significance to Gwendolyn, making the final ethical weighing land with more force than if it had been stated earlier or more directly. Option B misreads a passage that explicitly says Alvarez did not survive \"in the same condition\" as a positive outcome. Option A misunderstands how the ending functions; it completes the tension built earlier rather than contradicting it. Option C overlooks a structural choice — the delayed comparison — the passage clearly relies on for its final effect."
       },
       {
         "id": "5-4",
@@ -4899,7 +4899,7 @@ const QUESTIONS = {
           "Both trace a specific trait to real consequence."
         ],
         "correct": 3,
-        "explanation": "Both passages explore a character's specific, identifiable trait — Victor's inability to admit others' contributions, Gwendolyn's refusal to ask for help — that the text traces to real consequence, though Passage 1 shows the character's own painful self-awareness of this trait, while Passage 5's narrator provides no comparable access to Gwendolyn's internal recognition of her flaw. Option A collapses a real distinction in narrative access between the two passages. Option B ignores that Passage 1 traces Victor's own trait (prioritizing self-preservation) to real psychological cost. Option D dismisses a comparison the two passages, both centered on trait-to-consequence patterns, clearly support."
+        "explanation": "Both passages explore a character's specific, identifiable trait — Victor's inability to admit others' contributions, Gwendolyn's refusal to ask for help — that the text traces to real consequence, though Passage 1 shows the character's own painful self-awareness of this trait, while Passage 5's narrator provides no comparable access to Gwendolyn's internal recognition of her flaw. Option C collapses a real distinction in narrative access between the two passages. Option B ignores that Passage 1 traces Victor's own trait (prioritizing self-preservation) to real psychological cost. Option A dismisses a comparison the two passages, both centered on trait-to-consequence patterns, clearly support."
       },
       {
         "id": "5-5",
@@ -4912,7 +4912,7 @@ const QUESTIONS = {
           "No — this trait doesn't meet the technical definition without a traced significant consequence."
         ],
         "correct": 3,
-        "explanation": "No — this unit's Section 6.5 specifically distinguishes tragic flaw from general character imperfection; a trait only qualifies in this technical sense when the text traceably connects it to significant consequence, which a hypothetical unrelated imperfection like poor public speaking would not meet unless the text specifically developed that connection. Option A is precisely the overapplication Section 6.5 warns against. Option B is incorrect; the unit's own definition directly answers this kind of question. Option D invents a rule — that profession determines whether a flaw is tragic — that has no basis in the passage or this unit's material."
+        "explanation": "No — this unit's Section 6.5 specifically distinguishes tragic flaw from general character imperfection; a trait only qualifies in this technical sense when the text traceably connects it to significant consequence, which a hypothetical unrelated imperfection like poor public speaking would not meet unless the text specifically developed that connection. Option C is precisely the overapplication Section 6.5 warns against. Option B is incorrect; the unit's own definition directly answers this kind of question. Option A invents a rule — that profession determines whether a flaw is tragic — that has no basis in the passage or this unit's material."
       },
       {
         "id": "1-6",
@@ -4990,7 +4990,7 @@ const QUESTIONS = {
           "Stage directions play essentially no role in this particular passage."
         ],
         "correct": 2,
-        "explanation": "This passage extends Unit 3's foundational point about stage directions carrying interpretive weight — here, the specific directions (setting down the award, picking it back up, stopping mid-sentence) don't just supplement the soliloquy's words but actively mark the stages of Victor's psychological movement, physical action and internal development occurring together. Option B undersells a real extension of the earlier idea into new territory (tracking movement, not just mood). Option C is unsupported; nothing about how the directions are used here conflicts with Unit 3's treatment. Option D is directly contradicted by the passage's repeated, deliberate use of the technique."
+        "explanation": "This passage extends Unit 3's foundational point about stage directions carrying interpretive weight — here, the specific directions (setting down the award, picking it back up, stopping mid-sentence) don't just supplement the soliloquy's words but actively mark the stages of Victor's psychological movement, physical action and internal development occurring together. Option B undersells a real extension of the earlier idea into new territory (tracking movement, not just mood). Option A is unsupported; nothing about how the directions are used here conflicts with Unit 3's treatment. Option D is directly contradicted by the passage's repeated, deliberate use of the technique."
       },
       {
         "id": "2-7",
@@ -5003,7 +5003,7 @@ const QUESTIONS = {
           "This passage actually uses no dialogue at all, relying entirely on narrative description."
         ],
         "correct": 1,
-        "explanation": "This passage extends Unit 3's dialogue-pattern analysis by using dialogue specifically to develop a SUBPLOT character's contrasting philosophy, rather than revealing an individual character's avoidance pattern — the same close attention to dialogue's revealing function, now serving a structural, comparative purpose between subplot and main plot. Option B and Option C both misdescribe a passage built almost entirely from a back-and-forth exchange between Marcus and Theodora. Option D is unsupported; nothing here conflicts with Unit 3's approach, it simply applies it to a new structural purpose."
+        "explanation": "This passage extends Unit 3's dialogue-pattern analysis by using dialogue specifically to develop a SUBPLOT character's contrasting philosophy, rather than revealing an individual character's avoidance pattern — the same close attention to dialogue's revealing function, now serving a structural, comparative purpose between subplot and main plot. Option C and Option D both misdescribe a passage built almost entirely from a back-and-forth exchange between Marcus and Theodora. Option A is unsupported; nothing here conflicts with Unit 3's approach, it simply applies it to a new structural purpose."
       },
       {
         "id": "3-7",
@@ -5016,7 +5016,7 @@ const QUESTIONS = {
           "Third-person limited, focalized through Nora consistently."
         ],
         "correct": 3,
-        "explanation": "This passage uses third-person limited narration, focalized through Nora in both excerpts, providing consistent access to her sensory experience of the cabin across both the early and late passages, allowing direct comparison of her perception at each point. Option A misidentifies the person; the narration refers to Nora by name and pronoun rather than using \"I.\" Option B overlooks the passage's heavy reliance on sensory detail (smell, texture) clearly filtered through Nora's perspective. Option C is unsupported — nothing in either excerpt signals a shift away from Nora as the focal character."
+        "explanation": "This passage uses third-person limited narration, focalized through Nora in both excerpts, providing consistent access to her sensory experience of the cabin across both the early and late passages, allowing direct comparison of her perception at each point. Option B misidentifies the person; the narration refers to Nora by name and pronoun rather than using \"I.\" Option C overlooks the passage's heavy reliance on sensory detail (smell, texture) clearly filtered through Nora's perspective. Option A is unsupported — nothing in either excerpt signals a shift away from Nora as the focal character."
       },
       {
         "id": "4-7",
@@ -5042,7 +5042,7 @@ const QUESTIONS = {
           "These numbers suggest the passage is primarily concerned with statistical medical data generally."
         ],
         "correct": 2,
-        "explanation": "These precise numbers lend the passage a sense of documented, almost clinical specificity, making Gwendolyn's streak and its ultimate cost feel concretely measurable and comparably weighable against each other, reinforcing the passage's closing rhetorical move of directly comparing the streak's \"worth\" against the patient's outcome. Option A misreads precise detail as somehow opposed to narrative content, when the numbers are woven directly into the story's key moments. Option C undersells detail doing clear rhetorical work. Option D overgeneralizes two specific, narratively meaningful figures into a claim about statistical subject matter the passage doesn't support."
+        "explanation": "These precise numbers lend the passage a sense of documented, almost clinical specificity, making Gwendolyn's streak and its ultimate cost feel concretely measurable and comparably weighable against each other, reinforcing the passage's closing rhetorical move of directly comparing the streak's \"worth\" against the patient's outcome. Option B misreads precise detail as somehow opposed to narrative content, when the numbers are woven directly into the story's key moments. Option A undersells detail doing clear rhetorical work. Option D overgeneralizes two specific, narratively meaningful figures into a claim about statistical subject matter the passage doesn't support."
       },
       {
         "id": "1-8",
@@ -5055,7 +5055,7 @@ const QUESTIONS = {
           "That public recognition and private conscience always align perfectly, with no possible tension between them."
         ],
         "correct": 2,
-        "explanation": "This passage suggests that a person can simultaneously want and accept public recognition while privately recognizing that recognition rests on an incomplete or unfair account — suggesting these two dimensions (external reward, internal honesty) can diverge significantly, with a person capable of choosing external reward even while clearly aware of the private cost. Option A is contradicted by the entire soliloquy, which is built on exactly this tension. Option B is the opposite of the ending, where Victor chooses the applause over correcting the record. Option D isn't supported; Victor's own words assume his partner's claim to credit is legitimate."
+        "explanation": "This passage suggests that a person can simultaneously want and accept public recognition while privately recognizing that recognition rests on an incomplete or unfair account — suggesting these two dimensions (external reward, internal honesty) can diverge significantly, with a person capable of choosing external reward even while clearly aware of the private cost. Option D is contradicted by the entire soliloquy, which is built on exactly this tension. Option B is the opposite of the ending, where Victor chooses the applause over correcting the record. Option A isn't supported; Victor's own words assume his partner's claim to credit is legitimate."
       },
       {
         "id": "2-8",
@@ -5068,7 +5068,7 @@ const QUESTIONS = {
           "That calculated caution is always the objectively superior approach to any major decision."
         ],
         "correct": 2,
-        "explanation": "This passage, through Marcus's subplot perspective, raises a genuine question about whether extensive calculation before major decisions actually serves people well, or whether it can become its own trap — though the passage itself doesn't definitively resolve this question, instead offering it as a perspective worth considering alongside more cautious approaches. Option A understates the clear thematic weight the dialogue is built to carry. Option B and Option C both overstate the passage's claim into a definitive verdict that the text, appropriately scoped as subplot commentary, doesn't actually make."
+        "explanation": "This passage, through Marcus's subplot perspective, raises a genuine question about whether extensive calculation before major decisions actually serves people well, or whether it can become its own trap — though the passage itself doesn't definitively resolve this question, instead offering it as a perspective worth considering alongside more cautious approaches. Option B understates the clear thematic weight the dialogue is built to carry. Option A and Option D both overstate the passage's claim into a definitive verdict that the text, appropriately scoped as subplot commentary, doesn't actually make."
       },
       {
         "id": "3-8",
@@ -5081,7 +5081,7 @@ const QUESTIONS = {
           "That intimate familiarity with a place can be permanently lost through change."
         ],
         "correct": 3,
-        "explanation": "This passage suggests that certain kinds of intimate familiarity with a place — like knowing to step over a specific loose board — represent a form of embodied, hard-won knowledge that can be permanently lost when a space is renovated or changed, even when the change is objectively an improvement (a rebuilt, presumably safer dock), suggesting loss and improvement aren't mutually exclusive. Option A overstates the point into a blanket judgment the passage doesn't make. Option C speculates about Nora's future feelings beyond what the excerpt supports. Option D directly contradicts the passage's central concern with exactly this relationship."
+        "explanation": "This passage suggests that certain kinds of intimate familiarity with a place — like knowing to step over a specific loose board — represent a form of embodied, hard-won knowledge that can be permanently lost when a space is renovated or changed, even when the change is objectively an improvement (a rebuilt, presumably safer dock), suggesting loss and improvement aren't mutually exclusive. Option C overstates the point into a blanket judgment the passage doesn't make. Option B speculates about Nora's future feelings beyond what the excerpt supports. Option A directly contradicts the passage's central concern with exactly this relationship."
       },
       {
         "id": "4-8",
@@ -5094,7 +5094,7 @@ const QUESTIONS = {
           "That the passage takes no clear position on the relationship between awareness and capability."
         ],
         "correct": 0,
-        "explanation": "This passage suggests that a narrator can be fully self-aware of his own avoidance pattern — explicitly naming and explaining it — while still being unable to actually write around or overcome that pattern, suggesting recognition and capability are separate, and recognizing a limitation doesn't automatically grant the power to transcend it. Option A is the opposite of what the passage shows: awareness here coexists with continued limitation, not a fix for it. Option B understates a position the passage states quite directly. Option C misreads self-awareness as disproof of limitation, when the passage treats them as fully compatible."
+        "explanation": "This passage suggests that a narrator can be fully self-aware of his own avoidance pattern — explicitly naming and explaining it — while still being unable to actually write around or overcome that pattern, suggesting recognition and capability are separate, and recognizing a limitation doesn't automatically grant the power to transcend it. Option C is the opposite of what the passage shows: awareness here coexists with continued limitation, not a fix for it. Option D understates a position the passage states quite directly. Option B misreads self-awareness as disproof of limitation, when the passage treats them as fully compatible."
       },
       {
         "id": "5-8",
@@ -5107,7 +5107,7 @@ const QUESTIONS = {
           "That professional reputation and patient welfare are always perfectly aligned, with no possible conflict between them."
         ],
         "correct": 1,
-        "explanation": "This passage suggests that a professional's investment in maintaining a specific reputation or streak can, in certain circumstances, come into direct conflict with the actual welfare of the people that professional is meant to serve — suggesting institutional or personal pride systems can create perverse incentives even among highly skilled, well-trained professionals. Option B overgeneralizes one specific case into a claim about surgeons broadly that the passage doesn't make. Option C is the opposite of what the passage demonstrates. Option D is unsupported; the passage stresses Gwendolyn's genuine skill and long track record, not an undeserved reputation."
+        "explanation": "This passage suggests that a professional's investment in maintaining a specific reputation or streak can, in certain circumstances, come into direct conflict with the actual welfare of the people that professional is meant to serve — suggesting institutional or personal pride systems can create perverse incentives even among highly skilled, well-trained professionals. Option C overgeneralizes one specific case into a claim about surgeons broadly that the passage doesn't make. Option D is the opposite of what the passage demonstrates. Option A is unsupported; the passage stresses Gwendolyn's genuine skill and long track record, not an undeserved reputation."
       },
       {
         "id": "1-9",
@@ -5120,7 +5120,7 @@ const QUESTIONS = {
           "Only Passage 1 actually deals with any conflict between reputation and honesty at all."
         ],
         "correct": 1,
-        "explanation": "Passage 1 provides direct access to the character's internal psychological process through soliloquy, letting readers witness Victor's self-aware conflict in real time, while Passage 5 provides no comparable internal access to Gwendolyn, instead using external narration and structural emphasis (the delayed final comparison) to develop its point about reputation's cost. Option B is factually wrong; Passage 5 contains no soliloquy or internal monologue of any kind. Option C collapses a distinction the two passages are clearly built to illustrate. Option D ignores that Gwendolyn's entire arc, like Victor's, concerns prioritizing reputation over another value."
+        "explanation": "Passage 1 provides direct access to the character's internal psychological process through soliloquy, letting readers witness Victor's self-aware conflict in real time, while Passage 5 provides no comparable internal access to Gwendolyn, instead using external narration and structural emphasis (the delayed final comparison) to develop its point about reputation's cost. Option A is factually wrong; Passage 5 contains no soliloquy or internal monologue of any kind. Option C collapses a distinction the two passages are clearly built to illustrate. Option D ignores that Gwendolyn's entire arc, like Victor's, concerns prioritizing reputation over another value."
       },
       {
         "id": "2-9",
@@ -5133,7 +5133,7 @@ const QUESTIONS = {
           "The two techniques share no underlying principle in common whatsoever."
         ],
         "correct": 2,
-        "explanation": "Both techniques rely on the reader making a COMPARISON — between subplot and main plot in Passage 2's case, between a setting's earlier and later appearance in Passage 3's case — to generate meaning that wouldn't be available from either single element in isolation, demonstrating this unit's broader emphasis on comparison as a meaning-generating technique. Option B is inaccurate; both techniques explicitly depend on comparison. Option C overlooks the shared structural logic the two techniques actually share. Option D ignores that the specific content (a workplace decision versus a physical setting) is clearly quite different between the two passages."
+        "explanation": "Both techniques rely on the reader making a COMPARISON — between subplot and main plot in Passage 2's case, between a setting's earlier and later appearance in Passage 3's case — to generate meaning that wouldn't be available from either single element in isolation, demonstrating this unit's broader emphasis on comparison as a meaning-generating technique. Option A is inaccurate; both techniques explicitly depend on comparison. Option D overlooks the shared structural logic the two techniques actually share. Option B ignores that the specific content (a workplace decision versus a physical setting) is clearly quite different between the two passages."
       },
       {
         "id": "3-9",
@@ -5159,7 +5159,7 @@ const QUESTIONS = {
           "Structural imbalance always indicates that a text's second half matters less than its first."
         ],
         "correct": 2,
-        "explanation": "The same underlying approach this unit's Section 6.4 models would apply directly — considering whether this disparity might signal something about what the narrator finds easier or harder to discuss, rather than assuming the imbalance simply reflects which decade was more eventful, and looking for any explicit or implicit signals the text provides about this specific structural choice's likely cause. Option A wrongly restricts the principle to fiction, though Passage 4 itself is exactly this kind of first-person structural self-commentary. Option C overstates a possible reading into a fixed rule. Option D dismisses a principle designed to generalize beyond any single genre."
+        "explanation": "The same underlying approach this unit's Section 6.4 models would apply directly — considering whether this disparity might signal something about what the narrator finds easier or harder to discuss, rather than assuming the imbalance simply reflects which decade was more eventful, and looking for any explicit or implicit signals the text provides about this specific structural choice's likely cause. Option B wrongly restricts the principle to fiction, though Passage 4 itself is exactly this kind of first-person structural self-commentary. Option D overstates a possible reading into a fixed rule. Option A dismisses a principle designed to generalize beyond any single genre."
       },
       {
         "id": "5-9",
@@ -5172,7 +5172,7 @@ const QUESTIONS = {
           "Memorizing the five specific passages covered in this unit's practice set for future reference."
         ],
         "correct": 1,
-        "explanation": "The most reliably transferable habit is approaching any new longer-work excerpt by asking what becomes possible specifically because of the work's extended scale — is there space here for tracked psychological movement, a parallel storyline commenting on the main one, a setting inviting comparison across return visits, structural evidence of narrator limitation, or a specific trait traceable to major consequence — rather than assuming the excerpt should be analyzed identically to a short, self-contained text. Option A describes the opposite of a useful habit. Option C imposes a rigid one-technique assumption the unit's Passage 1 (soliloquy plus emerging tragic flaw) already disproves. Option D confuses memorizing specific content with developing a transferable analytical habit."
+        "explanation": "The most reliably transferable habit is approaching any new longer-work excerpt by asking what becomes possible specifically because of the work's extended scale — is there space here for tracked psychological movement, a parallel storyline commenting on the main one, a setting inviting comparison across return visits, structural evidence of narrator limitation, or a specific trait traceable to major consequence — rather than assuming the excerpt should be analyzed identically to a short, self-contained text. Option C describes the opposite of a useful habit. Option A imposes a rigid one-technique assumption the unit's Passage 1 (soliloquy plus emerging tragic flaw) already disproves. Option D confuses memorizing specific content with developing a transferable analytical habit."
       },
       {
         "id": "1-10",
@@ -5185,7 +5185,7 @@ const QUESTIONS = {
           "This unit introduces entirely new skills that are unrelated to anything Unit 3 covered."
         ],
         "correct": 0,
-        "explanation": "This unit applies increasingly sophisticated versions of Unit 3's foundational tools (stage direction interpretation, extended character history, dialogue patterns, foils, bounded theme inference) while adding new layers specifically dependent on a work's extended scale — soliloquy's tracked movement, subplot's comparative function, setting's accumulated symbolism, structural narrator limitation, and traceable tragic flaw — building directly on, rather than replacing, Unit 3's foundation. Option A understates the genuinely new material this unit introduces. Option B overstates the break with Unit 3, ignoring the direct continuities this unit's items repeatedly draw. Option C is contradicted by items throughout this unit that explicitly rely on Unit 3 concepts like stage directions and foils."
+        "explanation": "This unit applies increasingly sophisticated versions of Unit 3's foundational tools (stage direction interpretation, extended character history, dialogue patterns, foils, bounded theme inference) while adding new layers specifically dependent on a work's extended scale — soliloquy's tracked movement, subplot's comparative function, setting's accumulated symbolism, structural narrator limitation, and traceable tragic flaw — building directly on, rather than replacing, Unit 3's foundation. Option C understates the genuinely new material this unit introduces. Option B overstates the break with Unit 3, ignoring the direct continuities this unit's items repeatedly draw. Option D is contradicted by items throughout this unit that explicitly rely on Unit 3 concepts like stage directions and foils."
       },
       {
         "id": "2-10",
@@ -5198,7 +5198,7 @@ const QUESTIONS = {
           "Only some of the five passages actually depend on extended scale for their central technique."
         ],
         "correct": 1,
-        "explanation": "Each passage demonstrates a technique that specifically REQUIRES space or scale to function — a soliloquy needs uninterrupted time to develop; a subplot needs its own developing storyline; a setting needs multiple return visits; narrator limitation needs enough structural space to create visible imbalance; a tragic flaw needs room for cause and significant consequence to unfold — collectively showing what becomes possible only at extended scale. Option B understates the pattern; all five passages actually share this dependency. Option C is the opposite of what this unit's whole framework argues. Option D contradicts the basic premise that these techniques specifically need extended space to operate."
+        "explanation": "Each passage demonstrates a technique that specifically REQUIRES space or scale to function — a soliloquy needs uninterrupted time to develop; a subplot needs its own developing storyline; a setting needs multiple return visits; narrator limitation needs enough structural space to create visible imbalance; a tragic flaw needs room for cause and significant consequence to unfold — collectively showing what becomes possible only at extended scale. Option D understates the pattern; all five passages actually share this dependency. Option C is the opposite of what this unit's whole framework argues. Option A contradicts the basic premise that these techniques specifically need extended space to operate."
       },
       {
         "id": "3-10",
@@ -5211,7 +5211,7 @@ const QUESTIONS = {
           "Passage 1, which involves a single continuous soliloquy requiring no comparison at all."
         ],
         "correct": 1,
-        "explanation": "Passage 3 would most directly reward a reader trained in comparative analysis, since its entire technique depends on directly comparing two versions of the same setting from different points in the narrative — precisely the comparative analysis skill this question describes, distinct from single-passage close reading techniques other passages in this unit rely on. Option B and Option D both correctly note those passages are single continuous excerpts, but wrongly claim this makes them equally rewarding for comparative analysis rather than less so. Option C overlooks the structural difference that sets Passage 3 apart from the unit's other four passages."
+        "explanation": "Passage 3 would most directly reward a reader trained in comparative analysis, since its entire technique depends on directly comparing two versions of the same setting from different points in the narrative — precisely the comparative analysis skill this question describes, distinct from single-passage close reading techniques other passages in this unit rely on. Option C and Option D both correctly note those passages are single continuous excerpts, but wrongly claim this makes them equally rewarding for comparative analysis rather than less so. Option A overlooks the structural difference that sets Passage 3 apart from the unit's other four passages."
       },
       {
         "id": "4-10",
@@ -5224,7 +5224,7 @@ const QUESTIONS = {
           "Passages 1 and 4."
         ],
         "correct": 3,
-        "explanation": "Passages 1 and 4 most directly share this concern, since both center on a first-person or soliloquy-based account explicitly grappling with the tension between full honesty and self-protective concealment — Victor considering whether to correct the record, the narrator explicitly naming what he cannot yet bring himself to render fully. Option B names a surface similarity (minor characters, decisions) that doesn't reach the specific concealment-versus-honesty concern the question asks about. Option C mischaracterizes Passage 5, which is not centrally about physical setting. Option D overlooks a pairing this unit's material draws directly."
+        "explanation": "Passages 1 and 4 most directly share this concern, since both center on a first-person or soliloquy-based account explicitly grappling with the tension between full honesty and self-protective concealment — Victor considering whether to correct the record, the narrator explicitly naming what he cannot yet bring himself to render fully. Option C names a surface similarity (minor characters, decisions) that doesn't reach the specific concealment-versus-honesty concern the question asks about. Option A mischaracterizes Passage 5, which is not centrally about physical setting. Option B overlooks a pairing this unit's material draws directly."
       },
       {
         "id": "5-10",
@@ -5237,7 +5237,7 @@ const QUESTIONS = {
           "Neither passage actually depicts any meaningful consequence resulting from a character's choice."
         ],
         "correct": 1,
-        "explanation": "Both passages trace a specific character choice (Victor's decision to stay silent; Gwendolyn's decision not to call for backup) to a real, significant cost — though Passage 1 focuses on internal, psychological cost to Victor himself, while Passage 5 focuses on external, physical cost to another person (Mr. Alvarez), illustrating that consequence in longer fiction can be internally or externally directed. Option B collapses a meaningful distinction in whom the consequence actually falls on. Option C and Option D both overlook the clear consequences each passage traces to its central character's choice."
+        "explanation": "Both passages trace a specific character choice (Victor's decision to stay silent; Gwendolyn's decision not to call for backup) to a real, significant cost — though Passage 1 focuses on internal, psychological cost to Victor himself, while Passage 5 focuses on external, physical cost to another person (Mr. Alvarez), illustrating that consequence in longer fiction can be internally or externally directed. Option A collapses a meaningful distinction in whom the consequence actually falls on. Option C and Option D both overlook the clear consequences each passage traces to its central character's choice."
       },
       {
         "id": "1-11",
@@ -5250,7 +5250,7 @@ const QUESTIONS = {
           "Soliloquy as tracked psychological movement."
         ],
         "correct": 3,
-        "explanation": "Soliloquy as tracked psychological movement would be most useful here, since a character alone on stage moving through several distinct emotional stages toward a reversal is precisely this unit's Section 6.1 definition and worked example pattern. Option A mistakes an incidental setting detail (a single stage location) for the technique actually at work. Options B and C both name techniques that could theoretically apply to almost any scenario in the abstract, but neither matches the specific pattern described — solo reflection through stages toward reversal — nearly as directly as soliloquy does."
+        "explanation": "Soliloquy as tracked psychological movement would be most useful here, since a character alone on stage moving through several distinct emotional stages toward a reversal is precisely this unit's Section 6.1 definition and worked example pattern. Option C mistakes an incidental setting detail (a single stage location) for the technique actually at work. Options A and B both name techniques that could theoretically apply to almost any scenario in the abstract, but neither matches the specific pattern described — solo reflection through stages toward reversal — nearly as directly as soliloquy does."
       },
       {
         "id": "2-11",
@@ -5263,7 +5263,7 @@ const QUESTIONS = {
           "Subplot and parallel structure."
         ],
         "correct": 3,
-        "explanation": "Subplot and parallel structure would be most useful here, since a minor character's storyline running alongside and implicitly commenting on the protagonist's related major decision is precisely this unit's Section 6.2 definition of the technique. Option A misapplies narrator limitation, a technique about what a narrator can or can't discuss, to a scenario that's actually about two parallel storylines. Options C and D each grab onto an incidental detail (locations, the possibility of a flaw) rather than the scenario's actual defining feature, a parallel minor-character storyline."
+        "explanation": "Subplot and parallel structure would be most useful here, since a minor character's storyline running alongside and implicitly commenting on the protagonist's related major decision is precisely this unit's Section 6.2 definition of the technique. Option A misapplies narrator limitation, a technique about what a narrator can or can't discuss, to a scenario that's actually about two parallel storylines. Options B and C each grab onto an incidental detail (locations, the possibility of a flaw) rather than the scenario's actual defining feature, a parallel minor-character storyline."
       },
       {
         "id": "3-11",
@@ -5276,7 +5276,7 @@ const QUESTIONS = {
           "Subplot, since restaurants could theoretically host secondary storylines of some kind."
         ],
         "correct": 1,
-        "explanation": "Symbolic setting across an extended work would be most useful here, since a location returned to multiple times with tracked, specific changes across visits is precisely this unit's Section 6.3 definition and worked example pattern, regardless of whether the specific setting is a lake cabin or a restaurant. Options B, C, and D each name a technique that could theoretically be layered onto a restaurant scene, but none of them actually matches the scenario's defining feature — a single place, revisited three times, with tracked change — the way symbolic setting does."
+        "explanation": "Symbolic setting across an extended work would be most useful here, since a location returned to multiple times with tracked, specific changes across visits is precisely this unit's Section 6.3 definition and worked example pattern, regardless of whether the specific setting is a lake cabin or a restaurant. Options A, C, and D each name a technique that could theoretically be layered onto a restaurant scene, but none of them actually matches the scenario's defining feature — a single place, revisited three times, with tracked change — the way symbolic setting does."
       },
       {
         "id": "4-11",
@@ -5289,7 +5289,7 @@ const QUESTIONS = {
           "Subplot, since family members could theoretically function as subplot characters of some kind."
         ],
         "correct": 2,
-        "explanation": "The limited narrator's structural shaping of the work would be most useful here, since a narrator explicitly explaining upfront why certain content will receive reduced coverage is precisely this unit's Section 6.4 definition and worked example pattern, regardless of the specific stated reason (privacy versus emotional difficulty) for the limitation. Options A, B, and C each seize on an incidental detail in the scenario (family, locations) rather than its actual defining feature — an upfront explanation of deliberately reduced coverage — which matches narrator limitation specifically."
+        "explanation": "The limited narrator's structural shaping of the work would be most useful here, since a narrator explicitly explaining upfront why certain content will receive reduced coverage is precisely this unit's Section 6.4 definition and worked example pattern, regardless of the specific stated reason (privacy versus emotional difficulty) for the limitation. Options A, B, and D each seize on an incidental detail in the scenario (family, locations) rather than its actual defining feature — an upfront explanation of deliberately reduced coverage — which matches narrator limitation specifically."
       },
       {
         "id": "5-11",
@@ -5302,7 +5302,7 @@ const QUESTIONS = {
           "Tragic flaw and character consequence."
         ],
         "correct": 3,
-        "explanation": "Tragic flaw and character consequence would be most useful here, since tracing a specific, named trait (avoiding delegation) directly to a specific, significant consequence (company failure) is precisely this unit's Section 6.5 definition and worked example pattern, regardless of the specific professional context involved. Options A, C, and D each name a technique that could theoretically apply to a business scenario in general terms, but none matches this scenario's actual defining feature — a specific trait traced directly to a major consequence — as precisely as tragic flaw does."
+        "explanation": "Tragic flaw and character consequence would be most useful here, since tracing a specific, named trait (avoiding delegation) directly to a specific, significant consequence (company failure) is precisely this unit's Section 6.5 definition and worked example pattern, regardless of the specific professional context involved. Options A, B, and C each name a technique that could theoretically apply to a business scenario in general terms, but none matches this scenario's actual defining feature — a specific trait traced directly to a major consequence — as precisely as tragic flaw does."
       },
       {
         "id": "1-12",
@@ -5315,7 +5315,7 @@ const QUESTIONS = {
           "That only plays, never novels, can effectively use the techniques this unit covers."
         ],
         "correct": 1,
-        "explanation": "The single most important transferable insight is that excerpts from longer works reward attention to what the SCALE of the surrounding work makes possible — extended psychological development, parallel storylines, accumulated symbolic weight through repetition, structural patterns revealing narrator limitation, and traceable cause-and-consequence chains — techniques that a short, self-contained text often cannot support in the same way. Option B is the opposite of this unit's central claim. Option C is contradicted by this unit's own passages, most of which are drawn from novels rather than plays. Option D imposes a rigid classification requirement this unit's material, including Passage 1's combination of soliloquy and tragic flaw, doesn't support."
+        "explanation": "The single most important transferable insight is that excerpts from longer works reward attention to what the SCALE of the surrounding work makes possible — extended psychological development, parallel storylines, accumulated symbolic weight through repetition, structural patterns revealing narrator limitation, and traceable cause-and-consequence chains — techniques that a short, self-contained text often cannot support in the same way. Option A is the opposite of this unit's central claim. Option D is contradicted by this unit's own passages, most of which are drawn from novels rather than plays. Option C imposes a rigid classification requirement this unit's material, including Passage 1's combination of soliloquy and tragic flaw, doesn't support."
       },
       {
         "id": "2-12",
@@ -5328,7 +5328,7 @@ const QUESTIONS = {
           "Tragic flaw, since romantic conflicts could theoretically involve some character flaw."
         ],
         "correct": 1,
-        "explanation": "Subplot and parallel structure would be most useful here, since a secondary storyline mirroring the protagonist's central conflict with a different outcome is precisely this unit's Section 6.2 definition, regardless of whether the shared concern is romance, career, or another life decision. Option A wrongly treats the format (play versus prose) as the deciding factor rather than the actual structural relationship described. Options B and C each grab onto an incidental detail (setting, the possibility of a flaw) instead of the scenario's defining feature, a mirrored secondary storyline."
+        "explanation": "Subplot and parallel structure would be most useful here, since a secondary storyline mirroring the protagonist's central conflict with a different outcome is precisely this unit's Section 6.2 definition, regardless of whether the shared concern is romance, career, or another life decision. Option C wrongly treats the format (play versus prose) as the deciding factor rather than the actual structural relationship described. Options A and D each grab onto an incidental detail (setting, the possibility of a flaw) instead of the scenario's defining feature, a mirrored secondary storyline."
       },
       {
         "id": "3-12",
@@ -5341,7 +5341,7 @@ const QUESTIONS = {
           "A single continuous passage would have shown content identical to the two excerpts combined."
         ],
         "correct": 1,
-        "explanation": "Symbolic setting analysis specifically requires comparison across TIME — a single continuous passage could only show one state of the setting, while two separated excerpts allow the reader to directly perceive the specific differences between them, which is the entire analytical basis for this unit's Section 6.3 technique. Options A and B both dismiss a structural choice that's actually doing essential work for the passage's technique. Option D contradicts the passage's whole point, which depends on the two excerpts showing meaningfully different states of the same setting."
+        "explanation": "Symbolic setting analysis specifically requires comparison across TIME — a single continuous passage could only show one state of the setting, while two separated excerpts allow the reader to directly perceive the specific differences between them, which is the entire analytical basis for this unit's Section 6.3 technique. Options A and C both dismiss a structural choice that's actually doing essential work for the passage's technique. Option D contradicts the passage's whole point, which depends on the two excerpts showing meaningfully different states of the same setting."
       },
       {
         "id": "4-12",
@@ -5367,7 +5367,7 @@ const QUESTIONS = {
           "No passage in this unit actually combines more than one single technique at once."
         ],
         "correct": 1,
-        "explanation": "Passage 1 arguably demonstrates a strong combination, since Victor's soliloquy (Section 6.1) simultaneously reveals what could be understood as an emerging tragic flaw (Section 6.5) — his specific, named tendency to prioritize self-preservation over honesty — with the soliloquy's tracked psychological movement showing the trait in its actual moment of operation. Options B and C correctly note those passages rely mainly on a single technique, which is exactly why they're weaker candidates than Passage 1 for this particular question. Option D is contradicted by Passage 1 itself, the clearest counterexample in this unit's set."
+        "explanation": "Passage 1 arguably demonstrates a strong combination, since Victor's soliloquy (Section 6.1) simultaneously reveals what could be understood as an emerging tragic flaw (Section 6.5) — his specific, named tendency to prioritize self-preservation over honesty — with the soliloquy's tracked psychological movement showing the trait in its actual moment of operation. Options A and C correctly note those passages rely mainly on a single technique, which is exactly why they're weaker candidates than Passage 1 for this particular question. Option D is contradicted by Passage 1 itself, the clearest counterexample in this unit's set."
       },
       {
         "id": "1-13",
@@ -5380,7 +5380,7 @@ const QUESTIONS = {
           "The soliloquy actually proves that Victor has no tragic flaw of any kind whatsoever."
         ],
         "correct": 2,
-        "explanation": "This unit's Section 3.5-adjacent principle about appropriately bounded inference applies here — the excerpt establishes the specific trait clearly (prioritizing self-preservation over honesty) and even shows Victor's own awareness of likely future cost (\"now I can't say it without it costing me everything\"), making it reasonable to identify this as an emerging tragic flaw pattern even without witnessing the full consequence play out within this specific excerpt. Option A invents a genre restriction this unit's material doesn't support; Passage 1 is drama and clearly uses trait-and-consequence logic. Option B overstates the requirement; bounded inference from a clear pattern is different from having no basis at all. Option C is contradicted by the trait the soliloquy itself establishes."
+        "explanation": "This unit's Section 3.5-adjacent principle about appropriately bounded inference applies here — the excerpt establishes the specific trait clearly (prioritizing self-preservation over honesty) and even shows Victor's own awareness of likely future cost (\"now I can't say it without it costing me everything\"), making it reasonable to identify this as an emerging tragic flaw pattern even without witnessing the full consequence play out within this specific excerpt. Option A invents a genre restriction this unit's material doesn't support; Passage 1 is drama and clearly uses trait-and-consequence logic. Option B overstates the requirement; bounded inference from a clear pattern is different from having no basis at all. Option D is contradicted by the trait the soliloquy itself establishes."
       },
       {
         "id": "2-13",
@@ -5393,7 +5393,7 @@ const QUESTIONS = {
           "Unit 2's coverage of enjambment, which concerns line breaks rather than character contrast."
         ],
         "correct": 0,
-        "explanation": "Unit 3's foil character concept most directly relates here, since Marcus functions similarly to a foil — his contrasting approach to a structurally similar decision illuminates something about Theodora's own tendencies, though operating through a full subplot rather than a single scene's direct character-to-character contrast. Options A, B, and C each correctly identify a concept from a different unit, but none of the three actually concerns character contrast, the specific relationship this question is asking about; only the foil concept does."
+        "explanation": "Unit 3's foil character concept most directly relates here, since Marcus functions similarly to a foil — his contrasting approach to a structurally similar decision illuminates something about Theodora's own tendencies, though operating through a full subplot rather than a single scene's direct character-to-character contrast. Options B, C, and D each correctly identify a concept from a different unit, but none of the three actually concerns character contrast, the specific relationship this question is asking about; only the foil concept does."
       },
       {
         "id": "3-13",
@@ -5406,7 +5406,7 @@ const QUESTIONS = {
           "Unit 5's conceit concept, which concerns extended metaphor rather than literal setting description."
         ],
         "correct": 2,
-        "explanation": "Unit 4's motif concept most directly relates here, since tracking a recurring element's development across multiple appearances to reveal change is the same underlying principle, here applied to a returning PLACE rather than a repeated action or image. Options B, C, and D each correctly identify a concept from a different unit, but none of the three actually concerns tracking a recurring element's change across appearances, the specific relationship Passage 3's technique depends on; only the motif concept does."
+        "explanation": "Unit 4's motif concept most directly relates here, since tracking a recurring element's development across multiple appearances to reveal change is the same underlying principle, here applied to a returning PLACE rather than a repeated action or image. Options A, B, and D each correctly identify a concept from a different unit, but none of the three actually concerns tracking a recurring element's change across appearances, the specific relationship Passage 3's technique depends on; only the motif concept does."
       },
       {
         "id": "4-13",
@@ -5419,7 +5419,7 @@ const QUESTIONS = {
           "Unit 5's ambiguity concept, which concerns multiple valid readings rather than narrator limitation."
         ],
         "correct": 2,
-        "explanation": "Unit 4's unreliable narration concept most directly relates here, since this passage extends that foundational idea — though notably in a more explicit, self-aware direction than Unit 4's typical examples, where limitation usually had to be inferred indirectly rather than being directly named by the narrator himself. Options B, C, and D each correctly identify a concept from a different unit, but none of the three actually concerns narrator limitation, the specific relationship Passage 4 is built around; only the unreliable narration concept does."
+        "explanation": "Unit 4's unreliable narration concept most directly relates here, since this passage extends that foundational idea — though notably in a more explicit, self-aware direction than Unit 4's typical examples, where limitation usually had to be inferred indirectly rather than being directly named by the narrator himself. Options A, B, and D each correctly identify a concept from a different unit, but none of the three actually concerns narrator limitation, the specific relationship Passage 4 is built around; only the unreliable narration concept does."
       },
       {
         "id": "5-13",
@@ -5432,7 +5432,7 @@ const QUESTIONS = {
           "Unit 4's authorial distance concept."
         ],
         "correct": 3,
-        "explanation": "Unit 4's authorial distance concept most directly relates here, since both techniques depend on the text presenting a gap between a character's self-belief or stated principle (\"I have never lost control of a room\") and the actual, less flattering reality the text's own evidence reveals, without requiring direct narratorial correction. Options A, C, and D each correctly identify a concept from a different unit, but none of the three actually concerns a gap between self-belief and revealed reality, the specific relationship Passage 5 is built around; only the authorial distance concept does."
+        "explanation": "Unit 4's authorial distance concept most directly relates here, since both techniques depend on the text presenting a gap between a character's self-belief or stated principle (\"I have never lost control of a room\") and the actual, less flattering reality the text's own evidence reveals, without requiring direct narratorial correction. Options A, B, and C each correctly identify a concept from a different unit, but none of the three actually concerns a gap between self-belief and revealed reality, the specific relationship Passage 5 is built around; only the authorial distance concept does."
       }
     ]
   },
@@ -7258,7 +7258,7 @@ const QUESTIONS = {
           "It has no effect, since dramatic irony requires the withheld information to surface within the same scene, not an earlier chapter."
         ],
         "correct": 1,
-        "explanation": "The correct reading is that the reader's Chapter Nine knowledge turns Warren's cheerful whistling and certainty of 'good news' into a source of tension the passage's own words never supply directly — the prose itself stays purely cheerful, and all of the dread comes from what the reader, not the text, is carrying into the scene. That is the sustained dramatic irony Section 9.1 describes. Choice A is wrong because dramatic irony doesn't require the ironic gap to be established in the same scene; sustaining it across chapters is exactly what makes it 'sustained.' Choice B is wrong because nothing marks the narration itself as unreliable — the narrator accurately reports Warren's mood, and the irony arises from the reader's superior knowledge, not from any narratorial distortion. Choice C is wrong because there is no contradiction: both Warren's genuine confidence and the reader's outside knowledge of Marcus's betrayal are simultaneously true, which is precisely what defines dramatic irony rather than a factual inconsistency."
+        "explanation": "The correct reading is that the reader's Chapter Nine knowledge turns Warren's cheerful whistling and certainty of 'good news' into a source of tension the passage's own words never supply directly — the prose itself stays purely cheerful, and all of the dread comes from what the reader, not the text, is carrying into the scene. That is the sustained dramatic irony Section 9.1 describes. Choice D is wrong because dramatic irony doesn't require the ironic gap to be established in the same scene; sustaining it across chapters is exactly what makes it 'sustained.' Choice A is wrong because nothing marks the narration itself as unreliable — the narrator accurately reports Warren's mood, and the irony arises from the reader's superior knowledge, not from any narratorial distortion. Choice C is wrong because there is no contradiction: both Warren's genuine confidence and the reader's outside knowledge of Marcus's betrayal are simultaneously true, which is precisely what defines dramatic irony rather than a factual inconsistency."
       },
       {
         "id": "1-2",
@@ -7271,7 +7271,7 @@ const QUESTIONS = {
           "This detail sharpens the irony by giving the reader concrete signals Warren himself misses entirely."
         ],
         "correct": 3,
-        "explanation": "The rushed handwriting and the unanswered late-night calls are concrete clues the reader can notice specifically because the reader already carries outside knowledge Warren lacks — so the reader now sees both the emotional irony (Warren's confidence vs. the reader's dread) and a second, sharper layer: specific physical evidence Warren fails to register at all. That doubling is what Section 9.1 means by irony being 'sharpened,' not merely sustained. Choice A undersells the detail as mere realism when it is doing real interpretive work tied to the withheld information. Choice C has it backwards: noticing what Warren misses deepens the irony rather than weakening it — his failure to register these signals is the point. Choice D misreads a plot-specific blind spot (missing signals only meaningful because of privileged reader knowledge) as a general character trait the passage never actually establishes."
+        "explanation": "The rushed handwriting and the unanswered late-night calls are concrete clues the reader can notice specifically because the reader already carries outside knowledge Warren lacks — so the reader now sees both the emotional irony (Warren's confidence vs. the reader's dread) and a second, sharper layer: specific physical evidence Warren fails to register at all. That doubling is what Section 9.1 means by irony being 'sharpened,' not merely sustained. Choice A undersells the detail as mere realism when it is doing real interpretive work tied to the withheld information. Choice B has it backwards: noticing what Warren misses deepens the irony rather than weakening it — his failure to register these signals is the point. Choice C misreads a plot-specific blind spot (missing signals only meaningful because of privileged reader knowledge) as a general character trait the passage never actually establishes."
       },
       {
         "id": "1-3",
@@ -7284,7 +7284,7 @@ const QUESTIONS = {
           "This description loads the word 'ordinary' with irony, since the reader knows this status is about to end."
         ],
         "correct": 3,
-        "explanation": "Calling the day 'entirely ordinary' carries real ironic weight because the reader — unlike Warren — already knows this ordinariness is about to be disrupted; the word 'ordinary' becomes loaded with meaning the text's own diction doesn't foreground on its own. This is the same sustained-irony mechanism Section 9.1 tracks: outside knowledge recoloring an innocuous phrase. Choice A is wrong because nothing in the passage casts doubt on the letter's contents; the reader's knowledge from Chapter Nine is treated as reliable throughout. Choice B is wrong for the same reason — the passage gives no signal that the earlier information was inaccurate. Choice D flattens a deliberately loaded closing line into a throwaway transition, missing that the specific word choice is doing ironic work precisely because of what the reader already knows."
+        "explanation": "Calling the day 'entirely ordinary' carries real ironic weight because the reader — unlike Warren — already knows this ordinariness is about to be disrupted; the word 'ordinary' becomes loaded with meaning the text's own diction doesn't foreground on its own. This is the same sustained-irony mechanism Section 9.1 tracks: outside knowledge recoloring an innocuous phrase. Choice A is wrong because nothing in the passage casts doubt on the letter's contents; the reader's knowledge from Chapter Nine is treated as reliable throughout. Choice C is wrong for the same reason — the passage gives no signal that the earlier information was inaccurate. Choice B flattens a deliberately loaded closing line into a throwaway transition, missing that the specific word choice is doing ironic work precisely because of what the reader already knows."
       },
       {
         "id": "1-4",
@@ -7297,7 +7297,7 @@ const QUESTIONS = {
           "This passage runs against the unit's stated principle, since ordinary details can't carry ironic weight."
         ],
         "correct": 2,
-        "explanation": "The mundane details — whistling while sorting mail, making coffee, calling the day 'ordinary' — are not inherently tense on their own; they become charged specifically because the reader carries accumulated knowledge from an earlier chapter, which is exactly how Section 9.1 says sustained irony can color scenes that seem unrelated to the central gap. Choice B misreads the example, since the whole point is that the irony extends well beyond the single moment of opening the letter to color the entire ordinary morning. Choice C is wrong because the passage need not avoid the letter to illustrate the principle — it shows the irony radiating outward from the letter to color surrounding 'unrelated' details like coffee-making and mail-sorting. Choice D directly contradicts the unit's key idea, which specifically argues that ordinary details CAN and do carry ironic weight once colored by sustained accumulated knowledge."
+        "explanation": "The mundane details — whistling while sorting mail, making coffee, calling the day 'ordinary' — are not inherently tense on their own; they become charged specifically because the reader carries accumulated knowledge from an earlier chapter, which is exactly how Section 9.1 says sustained irony can color scenes that seem unrelated to the central gap. Choice B misreads the example, since the whole point is that the irony extends well beyond the single moment of opening the letter to color the entire ordinary morning. Choice A is wrong because the passage need not avoid the letter to illustrate the principle — it shows the irony radiating outward from the letter to color surrounding 'unrelated' details like coffee-making and mail-sorting. Choice D directly contradicts the unit's key idea, which specifically argues that ordinary details CAN and do carry ironic weight once colored by sustained accumulated knowledge."
       },
       {
         "id": "1-5",
@@ -7309,8 +7309,8 @@ const QUESTIONS = {
           "First-person narration, with Warren himself narrating his own morning.",
           "Second-person narration, addressing Warren directly as 'you' throughout the passage."
         ],
-        "correct": 3,
-        "explanation": "The passage uses third-person limited narration focalized through Warren — a structural requirement for this technique, since the reader's superior knowledge has to come from outside the narration itself (Chapter Nine) rather than from the narration revealing more than Warren currently knows. If the passage shifted to omniscient access or otherwise broke that limitation, the irony's mechanism would change entirely. Choice A is wrong because there is no second-person address anywhere in the text; the narration is consistently third-person. Choice B is wrong because omniscient access to Marcus's perspective would actually undermine the irony's specific mechanism by confirming information from inside the narration rather than relying on the reader's outside knowledge. Choice C is wrong because Warren never narrates in his own voice — the passage consistently uses 'he,' not 'I.'"
+        "correct": 0,
+        "explanation": "The passage uses third-person limited narration focalized through Warren — a structural requirement for this technique, since the reader's superior knowledge has to come from outside the narration itself (Chapter Nine) rather than from the narration revealing more than Warren currently knows. If the passage shifted to omniscient access or otherwise broke that limitation, the irony's mechanism would change entirely. Choice D is wrong because there is no second-person address anywhere in the text; the narration is consistently third-person. Choice B is wrong because omniscient access to Marcus's perspective would actually undermine the irony's specific mechanism by confirming information from inside the narration rather than relying on the reader's outside knowledge. Choice C is wrong because Warren never narrates in his own voice — the passage consistently uses 'he,' not 'I.'"
       },
       {
         "id": "2-1",
@@ -7322,8 +7322,8 @@ const QUESTIONS = {
           "The two passages actually describe an entirely different pair of characters in the same novel.",
           "Only Yusuf's character changes across the two passages; Nadia stays exactly as first established."
         ],
-        "correct": 1,
-        "explanation": "The relationship's specific terms genuinely reverse: Yusuf, established early as the cautious one, becomes the one 'pushing forward,' while Nadia, established early as bold, becomes the one 'urging caution' — with neither character fully aware of when or how the shift occurred. That is exactly the evolving, rather than static, foil relationship Section 9.2 addresses. Choice A is wrong because both characters change roles, not just Yusuf; Nadia's shift toward caution is given equal weight in the later passage. Choice B misreads the text, which explicitly names Yusuf and Nadia in both excerpts as the same ongoing partnership. Choice C directly contradicts the passage's own content, which describes a clear reversal, not stasis."
+        "correct": 0,
+        "explanation": "The relationship's specific terms genuinely reverse: Yusuf, established early as the cautious one, becomes the one 'pushing forward,' while Nadia, established early as bold, becomes the one 'urging caution' — with neither character fully aware of when or how the shift occurred. That is exactly the evolving, rather than static, foil relationship Section 9.2 addresses. Choice D is wrong because both characters change roles, not just Yusuf; Nadia's shift toward caution is given equal weight in the later passage. Choice C misreads the text, which explicitly names Yusuf and Nadia in both excerpts as the same ongoing partnership. Choice B directly contradicts the passage's own content, which describes a clear reversal, not stasis."
       },
       {
         "id": "2-2",
@@ -7336,7 +7336,7 @@ const QUESTIONS = {
           "It reveals that Yusuf and Nadia have had essentially no meaningful interaction over the eight years."
         ],
         "correct": 1,
-        "explanation": "This evolution reveals gradual, mutual influence occurring across the extended partnership — each character apparently absorbing something of the other's approach over time without fully, consciously noticing the absorption, suggesting sustained close collaboration can genuinely reshape both participants rather than leaving fixed, static traits unchanged. Choice A is contradicted directly by the reversal itself, which could only happen through sustained close interaction, not its absence. Choice B is the opposite of what the passage shows: both characters visibly develop. Choice C reaches for a conflict narrative the passage never actually supports — nothing in either excerpt suggests friction or failure, only quiet mutual change."
+        "explanation": "This evolution reveals gradual, mutual influence occurring across the extended partnership — each character apparently absorbing something of the other's approach over time without fully, consciously noticing the absorption, suggesting sustained close collaboration can genuinely reshape both participants rather than leaving fixed, static traits unchanged. Choice D is contradicted directly by the reversal itself, which could only happen through sustained close interaction, not its absence. Choice A is the opposite of what the passage shows: both characters visibly develop. Choice C reaches for a conflict narrative the passage never actually supports — nothing in either excerpt suggests friction or failure, only quiet mutual change."
       },
       {
         "id": "2-3",
@@ -7348,8 +7348,8 @@ const QUESTIONS = {
           "No, since the specific terms of the contrast have genuinely reversed rather than persisted.",
           "Yes, because foil relationships by definition never change meaningfully across a narrative."
         ],
-        "correct": 0,
-        "explanation": "It is not accurate to call this 'the same foil relationship' persisting unchanged: while both passages describe A contrast between the two characters, the specific terms of that contrast have genuinely reversed, meaning this is a foil relationship whose actual content has evolved, revealing character development the fixed early-passage contrast alone couldn't show. Choice A asserts a definitional claim about foils that the unit's own key idea explicitly rejects — foils CAN evolve. Choice B is wrong because both passages clearly do describe a contrast, just a different one at each point. Choice C is too simple: noting 'some contrast exists' in both passages misses that the specific terms of that contrast have flipped, which is the more important observation."
+        "correct": 2,
+        "explanation": "It is not accurate to call this 'the same foil relationship' persisting unchanged: while both passages describe A contrast between the two characters, the specific terms of that contrast have genuinely reversed, meaning this is a foil relationship whose actual content has evolved, revealing character development the fixed early-passage contrast alone couldn't show. Choice D asserts a definitional claim about foils that the unit's own key idea explicitly rejects — foils CAN evolve. Choice B is wrong because both passages clearly do describe a contrast, just a different one at each point. Choice A is too simple: noting 'some contrast exists' in both passages misses that the specific terms of that contrast have flipped, which is the more important observation."
       },
       {
         "id": "2-4",
@@ -7362,7 +7362,7 @@ const QUESTIONS = {
           "This detail actually undercuts the passage's claim that a genuine reversal has occurred."
         ],
         "correct": 0,
-        "explanation": "The detail that neither character was 'entirely sure when, exactly' they'd started trading roles emphasizes that the evolution occurred gradually and organically rather than through any single, dramatic turning point — significant enough to fully reverse established roles, yet subtle enough that even the characters themselves couldn't identify a specific moment of change. Choice A misreads a specific, plot-relevant blind spot as a general character flaw the passage doesn't actually establish. Choice B undersells a detail that is doing real interpretive work about the nature of the change, not just describing momentary confusion. Choice C gets the logic backward: uncertainty about the timing doesn't undercut the reversal — the passage is explicit that the reversal did happen, only that its timing is unclear."
+        "explanation": "The detail that neither character was 'entirely sure when, exactly' they'd started trading roles emphasizes that the evolution occurred gradually and organically rather than through any single, dramatic turning point — significant enough to fully reverse established roles, yet subtle enough that even the characters themselves couldn't identify a specific moment of change. Choice B misreads a specific, plot-relevant blind spot as a general character flaw the passage doesn't actually establish. Choice C undersells a detail that is doing real interpretive work about the nature of the change, not just describing momentary confusion. Choice D gets the logic backward: uncertainty about the timing doesn't undercut the reversal — the passage is explicit that the reversal did happen, only that its timing is unclear."
       },
       {
         "id": "2-5",
@@ -7375,7 +7375,7 @@ const QUESTIONS = {
           "Both techniques compare the same element at two points in time to invite the reader to track change."
         ],
         "correct": 3,
-        "explanation": "Both techniques rely on the same underlying structural principle — presenting the same element (a setting; a character relationship) at two different points in a narrative's chronology, inviting the reader to actively compare and note specific differences that track significant development — applied here to relationship dynamics rather than physical place. Choice A denies a connection the unit explicitly draws, missing the shared comparative structure. Choice B overstates the similarity; the underlying comparative principle is shared, but the specific content (setting versus relationship) is genuinely different, so they aren't 'identical.' Choice C is factually wrong, since both techniques structurally depend on a two-point comparison across time."
+        "explanation": "Both techniques rely on the same underlying structural principle — presenting the same element (a setting; a character relationship) at two different points in a narrative's chronology, inviting the reader to actively compare and note specific differences that track significant development — applied here to relationship dynamics rather than physical place. Choice A denies a connection the unit explicitly draws, missing the shared comparative structure. Choice C overstates the similarity; the underlying comparative principle is shared, but the specific content (setting versus relationship) is genuinely different, so they aren't 'identical.' Choice B is factually wrong, since both techniques structurally depend on a two-point comparison across time."
       },
       {
         "id": "3-1",
@@ -7387,8 +7387,8 @@ const QUESTIONS = {
           "This scene, on closer look, actually contains no meaningful ambiguity of any kind.",
           "The ending fully resolves things, showing the siblings will plainly never speak again."
         ],
-        "correct": 2,
-        "explanation": "The ending preserves the genuine, unresolved tension between reconciliation and its real difficulty — neither confirming a full reconciliation nor a permanent estrangement, instead leaving the siblings' relationship in a deliberately uncertain, open state that avoids oversimplifying complicated family dynamics into a single clear resolution. Choice A misses the ambiguity that is central to the scene's entire design (the hedged dialogue, the in-between stage direction). Choice B and Choice C each force a single, opposite resolution onto a scene that explicitly withholds either outcome — the text supports neither a confirmed reconciliation nor a confirmed permanent break."
+        "correct": 0,
+        "explanation": "The ending preserves the genuine, unresolved tension between reconciliation and its real difficulty — neither confirming a full reconciliation nor a permanent estrangement, instead leaving the siblings' relationship in a deliberately uncertain, open state that avoids oversimplifying complicated family dynamics into a single clear resolution. Choice C misses the ambiguity that is central to the scene's entire design (the hedged dialogue, the in-between stage direction). Choice B and Choice D each force a single, opposite resolution onto a scene that explicitly withholds either outcome — the text supports neither a confirmed reconciliation nor a confirmed permanent break."
       },
       {
         "id": "3-2",
@@ -7400,8 +7400,8 @@ const QUESTIONS = {
           "This response actually fully commits Tomas to a specific, resolved future timeline.",
           "This response, read closely, definitively confirms the siblings will never meet again."
         ],
-        "correct": 3,
-        "explanation": "Tomas's response is itself ambiguous — 'maybe' hedges any firm commitment while 'sooner' suggests some genuine openness to increased contact, neither confirming reconciliation nor ruling it out, the specific word choice itself enacting the scene's larger, deliberate uncertainty. Choice A overreads finality into a line that is deliberately noncommittal. Choice B similarly overreads a hedged 'maybe' as a firm commitment, which the wording doesn't support. Choice C is wrong because the line is consistent with, not contradictory to, the scene's established hesitant tone — it's another instance of the same careful ambiguity running throughout the dialogue."
+        "correct": 1,
+        "explanation": "Tomas's response is itself ambiguous — 'maybe' hedges any firm commitment while 'sooner' suggests some genuine openness to increased contact, neither confirming reconciliation nor ruling it out, the specific word choice itself enacting the scene's larger, deliberate uncertainty. Choice D overreads finality into a line that is deliberately noncommittal. Choice C similarly overreads a hedged 'maybe' as a firm commitment, which the wording doesn't support. Choice A is wrong because the line is consistent with, not contradictory to, the scene's established hesitant tone — it's another instance of the same careful ambiguity running throughout the dialogue."
       },
       {
         "id": "3-3",
@@ -7414,7 +7414,7 @@ const QUESTIONS = {
           "This stage direction captures the scene's ambiguity through a precise, unresolved physical detail."
         ],
         "correct": 3,
-        "explanation": "The stage direction captures the scene's central ambiguity through precise physical detail — neither gesture (waving warmly, or turning away coldly) would accurately represent the siblings' actual uncertain state, so the text specifically describes an in-between physical position that embodies the emotional ambiguity without resolving it into either clear gesture. Choice A misreads the detail as inconsistent with the dialogue when it actually reinforces the same hesitancy the dialogue conveys. Choice B undersells a carefully chosen detail as merely incidental staging. Choice D is closest in surface wording but wrong in conclusion — 'rudeness' reads too definitively negative for a gesture the text frames as genuinely in-between, not dismissive."
+        "explanation": "The stage direction captures the scene's central ambiguity through precise physical detail — neither gesture (waving warmly, or turning away coldly) would accurately represent the siblings' actual uncertain state, so the text specifically describes an in-between physical position that embodies the emotional ambiguity without resolving it into either clear gesture. Choice C misreads the detail as inconsistent with the dialogue when it actually reinforces the same hesitancy the dialogue conveys. Choice A undersells a carefully chosen detail as merely incidental staging. Choice B is closest in surface wording but wrong in conclusion — 'rudeness' reads too definitively negative for a gesture the text frames as genuinely in-between, not dismissive."
       },
       {
         "id": "3-4",
@@ -7426,8 +7426,8 @@ const QUESTIONS = {
           "A more definitively resolved ending, in fact, would not weaken this particular scene at all.",
           "A more resolved ending would only weaken the scene if it specifically showed reconciliation."
         ],
-        "correct": 2,
-        "explanation": "A definitively resolved ending would oversimplify what this scene suggests is genuinely complicated, uncertain territory in real family relationships — forcing a clean resolution would likely feel less true to the specific, hesitant, uncertain dynamic the scene has carefully built through its dialogue and stage directions. Choice A wrongly limits the weakening effect to only one direction (reconciliation) when either forced outcome would equally flatten the scene's careful ambiguity. Choice B asserts the opposite of what the scene's careful construction supports. Choice C is wrong because the scene's dialogue and stage directions provide ample evidence to answer the question directly."
+        "correct": 1,
+        "explanation": "A definitively resolved ending would oversimplify what this scene suggests is genuinely complicated, uncertain territory in real family relationships — forcing a clean resolution would likely feel less true to the specific, hesitant, uncertain dynamic the scene has carefully built through its dialogue and stage directions. Choice D wrongly limits the weakening effect to only one direction (reconciliation) when either forced outcome would equally flatten the scene's careful ambiguity. Choice C asserts the opposite of what the scene's careful construction supports. Choice A is wrong because the scene's dialogue and stage directions provide ample evidence to answer the question directly."
       },
       {
         "id": "3-5",
@@ -7439,8 +7439,8 @@ const QUESTIONS = {
           "This scene extends Unit 3 by using stage directions to convey ambiguity itself, not a hidden gap.",
           "This scene uses stage directions in a way essentially identical to Unit 3's examples, with no change."
         ],
-        "correct": 0,
-        "explanation": "This scene extends Unit 3's foundational point by using stage directions specifically to convey ambiguity itself — rather than revealing a gap between stated dialogue and true feeling (Unit 3's typical pattern), here the stage directions work alongside genuinely ambiguous dialogue to create a doubled, mutually reinforcing uncertainty rather than a clarifying contrast. Choice A misstates the relationship; the scene builds on Unit 3 rather than contradicting it. Choice B misses the actual development described in Section 9.2's Unit 3 connection: the function of the stage directions here (conveying ambiguity) differs from Unit 3's typical pattern (revealing a hidden gap). Choice C dismisses stage directions that the passage's analysis treats as doing real, deliberate interpretive work."
+        "correct": 2,
+        "explanation": "This scene extends Unit 3's foundational point by using stage directions specifically to convey ambiguity itself — rather than revealing a gap between stated dialogue and true feeling (Unit 3's typical pattern), here the stage directions work alongside genuinely ambiguous dialogue to create a doubled, mutually reinforcing uncertainty rather than a clarifying contrast. Choice B misstates the relationship; the scene builds on Unit 3 rather than contradicting it. Choice D misses the actual development described in Section 9.2's Unit 3 connection: the function of the stage directions here (conveying ambiguity) differs from Unit 3's typical pattern (revealing a hidden gap). Choice A dismisses stage directions that the passage's analysis treats as doing real, deliberate interpretive work."
       },
       {
         "id": "4-1",
@@ -7452,8 +7452,8 @@ const QUESTIONS = {
           "Only a single layer of unreliability is really present anywhere in this passage.",
           "The passage's only real unreliability concerns the current narrator's basic literacy."
         ],
-        "correct": 0,
-        "explanation": "This passage layers at least three levels: the great-grandfather's original account of his own walk (subject to ordinary memory distortion); the uncle's thirty-year retelling (which has likely drifted toward 'the shape the story wanted to take'); and the current narrator's secondhand relation of what the uncle said the great-grandfather said, adding a further layer of remove. Choice A undercounts the layers the passage explicitly distinguishes. Choice B denies unreliability the passage directly establishes through the great-grandfather's own correction. Choice C invents an issue (literacy) the passage never raises at all — the narrator's remove is about secondhand retelling, not reading ability."
+        "correct": 1,
+        "explanation": "This passage layers at least three levels: the great-grandfather's original account of his own walk (subject to ordinary memory distortion); the uncle's thirty-year retelling (which has likely drifted toward 'the shape the story wanted to take'); and the current narrator's secondhand relation of what the uncle said the great-grandfather said, adding a further layer of remove. Choice C undercounts the layers the passage explicitly distinguishes. Choice A denies unreliability the passage directly establishes through the great-grandfather's own correction. Choice D invents an issue (literacy) the passage never raises at all — the narrator's remove is about secondhand retelling, not reading ability."
       },
       {
         "id": "4-2",
@@ -7466,7 +7466,7 @@ const QUESTIONS = {
           "The passage names narrative drift toward 'the shape the story wanted to take' as the specific distortion."
         ],
         "correct": 3,
-        "explanation": "The passage specifically names a distinct kind of distortion — narrative drift toward 'the shape the story wanted to take,' suggesting repeated retelling can reshape a story according to its own internal, almost independent narrative logic or dramatic satisfaction, not merely through accumulated simple forgetting of original details. Choice A imports intentional deception the passage never claims; the uncle isn't described as lying, but as having lost track of what he actually remembered. Choice B is directly contradicted, since the passage's own vocabulary ('or twenty times, the shape the story wanted to take') distinguishes the uncle's account from the great-grandfather's. Choice C flattens the specifically-named drift into generic forgetting, missing the passage's more precise claim."
+        "explanation": "The passage specifically names a distinct kind of distortion — narrative drift toward 'the shape the story wanted to take,' suggesting repeated retelling can reshape a story according to its own internal, almost independent narrative logic or dramatic satisfaction, not merely through accumulated simple forgetting of original details. Choice C imports intentional deception the passage never claims; the uncle isn't described as lying, but as having lost track of what he actually remembered. Choice A is directly contradicted, since the passage's own vocabulary ('or twenty times, the shape the story wanted to take') distinguishes the uncle's account from the great-grandfather's. Choice B flattens the specifically-named drift into generic forgetting, missing the passage's more precise claim."
       },
       {
         "id": "4-3",
@@ -7478,8 +7478,8 @@ const QUESTIONS = {
           "This correction gives precise evidence — twelve miles versus three — of how much the story inflated.",
           "This correction sits oddly against, and somewhat contradicts, the passage's stated uncertainty."
         ],
-        "correct": 1,
-        "explanation": "This correction provides a specific, concrete point of comparison revealing exactly how much the uncle's version had drifted from a source closer to the original event — the specific numbers (twelve miles versus three) and the great-grandfather's own dismissive framing ('likes to make it') give the reader precise evidence of the retelling's inflation. Choice A undersells this as generic added detail when it's actually the passage's key piece of quantifiable evidence. Choice B again wrongly imports deliberate lying, which the passage frames instead as gradual, largely unconscious narrative drift. Choice C misreads the correction as contradicting the narrator's stated uncertainty, when it actually supplies the very evidence that produces that uncertainty."
+        "correct": 2,
+        "explanation": "This correction provides a specific, concrete point of comparison revealing exactly how much the uncle's version had drifted from a source closer to the original event — the specific numbers (twelve miles versus three) and the great-grandfather's own dismissive framing ('likes to make it') give the reader precise evidence of the retelling's inflation. Choice A undersells this as generic added detail when it's actually the passage's key piece of quantifiable evidence. Choice B again wrongly imports deliberate lying, which the passage frames instead as gradual, largely unconscious narrative drift. Choice D misreads the correction as contradicting the narrator's stated uncertainty, when it actually supplies the very evidence that produces that uncertainty."
       },
       {
         "id": "4-4",
@@ -7491,8 +7491,8 @@ const QUESTIONS = {
           "It reveals the narrator has apparently never actually heard the great-grandfather's correction.",
           "It reveals the narrator has definitively decided the twelve-mile version is factually accurate."
         ],
-        "correct": 2,
-        "explanation": "The narrator's final statement reveals a sophisticated distinction between literal factual accuracy and a story's psychological or identity-shaping function — the narrator acknowledges uncertainty about truth while recognizing the exaggerated version served a real, formative purpose in shaping his own understanding of family expectations, regardless of its literal accuracy. Choice A is contradicted directly, since the narrator explicitly says he's 'not entirely sure... which version I actually believe.' Choice B misreads genuine ambivalence as total indifference; the narrator clearly cares, just about a different question than pure accuracy. Choice C is contradicted by the passage, which shows the narrator directly reporting the great-grandfather's correction earlier in the same text."
+        "correct": 0,
+        "explanation": "The narrator's final statement reveals a sophisticated distinction between literal factual accuracy and a story's psychological or identity-shaping function — the narrator acknowledges uncertainty about truth while recognizing the exaggerated version served a real, formative purpose in shaping his own understanding of family expectations, regardless of its literal accuracy. Choice D is contradicted directly, since the narrator explicitly says he's 'not entirely sure... which version I actually believe.' Choice B misreads genuine ambivalence as total indifference; the narrator clearly cares, just about a different question than pure accuracy. Choice C is contradicted by the passage, which shows the narrator directly reporting the great-grandfather's correction earlier in the same text."
       },
       {
         "id": "4-5",
@@ -7504,8 +7504,8 @@ const QUESTIONS = {
           "This passage's frame-narrative structure specifically enables its layered unreliability, layer by layer.",
           "This passage uses frame narrative but doesn't actually contain any layered unreliability."
         ],
-        "correct": 1,
-        "explanation": "This passage functions as a frame narrative (the current narrator relaying what the uncle relayed about the great-grandfather) specifically enabling the layered unreliability this unit addresses — each frame layer (great-grandfather to uncle to current narrator) introduces its own potential distortion, demonstrating how frame narrative structure and layered unreliability are often mechanically linked rather than separate, unrelated techniques. Choice A denies an explicit structural feature (the nested retelling) that the passage's opening lines establish directly. Choice B denies the exact connection Section 9.4 draws back to Unit 7's frame-narrative coverage. Choice C is contradicted by the passage's own layered structure, which the unit treats as a textbook example of both techniques operating together."
+        "correct": 2,
+        "explanation": "This passage functions as a frame narrative (the current narrator relaying what the uncle relayed about the great-grandfather) specifically enabling the layered unreliability this unit addresses — each frame layer (great-grandfather to uncle to current narrator) introduces its own potential distortion, demonstrating how frame narrative structure and layered unreliability are often mechanically linked rather than separate, unrelated techniques. Choice B denies an explicit structural feature (the nested retelling) that the passage's opening lines establish directly. Choice A denies the exact connection Section 9.4 draws back to Unit 7's frame-narrative coverage. Choice D is contradicted by the passage's own layered structure, which the unit treats as a textbook example of both techniques operating together."
       },
       {
         "id": "5-1",
@@ -7518,7 +7518,7 @@ const QUESTIONS = {
           "Only a single technique — symbol — is genuinely present anywhere in this passage."
         ],
         "correct": 2,
-        "explanation": "This passage combines frame narrative (the father's deathbed statement framing the boat's deeper meaning), symbol (the unfinished boat representing unfinished life projects), epiphany (the narrator's delayed understanding, 'I didn't understand, then... I understand it now'), and an ambiguous ending (the deliberately unresolved final decision about the boat). Choice A names a technique (free indirect discourse) the passage doesn't actually employ and misses the four the passage clearly does. Choice B denies a combination the passage's own layered structure makes explicit. Choice C undercounts the techniques present, isolating only the symbol and ignoring the framing, epiphany, and unresolved ending working alongside it."
+        "explanation": "This passage combines frame narrative (the father's deathbed statement framing the boat's deeper meaning), symbol (the unfinished boat representing unfinished life projects), epiphany (the narrator's delayed understanding, 'I didn't understand, then... I understand it now'), and an ambiguous ending (the deliberately unresolved final decision about the boat). Choice A names a technique (free indirect discourse) the passage doesn't actually employ and misses the four the passage clearly does. Choice B denies a combination the passage's own layered structure makes explicit. Choice D undercounts the techniques present, isolating only the symbol and ignoring the framing, epiphany, and unresolved ending working alongside it."
       },
       {
         "id": "5-2",
@@ -7531,7 +7531,7 @@ const QUESTIONS = {
           "This combination mainly suggests the narrator has actually completed everything he ever started."
         ],
         "correct": 0,
-        "explanation": "This combination extends the boat symbol into a broader pattern the narrator explicitly names — his own unfinished book, marriage, and 'smaller abandonments' arranged 'like a second, smaller exhibit of the same museum,' connecting the father's specific symbol to a generational pattern of incompletion the narrator only fully recognizes in this moment. Choice A misreads consistent extension as contradiction. Choice B states essentially the opposite of what the narrator's own list of unfinished things establishes. Choice C dismisses as mere clutter what the passage frames as a deliberate, meaningful pattern — 'a second, smaller exhibit of the same museum' is explicitly figurative, not literal household mess."
+        "explanation": "This combination extends the boat symbol into a broader pattern the narrator explicitly names — his own unfinished book, marriage, and 'smaller abandonments' arranged 'like a second, smaller exhibit of the same museum,' connecting the father's specific symbol to a generational pattern of incompletion the narrator only fully recognizes in this moment. Choice B misreads consistent extension as contradiction. Choice D states essentially the opposite of what the narrator's own list of unfinished things establishes. Choice C dismisses as mere clutter what the passage frames as a deliberate, meaningful pattern — 'a second, smaller exhibit of the same museum' is explicitly figurative, not literal household mess."
       },
       {
         "id": "5-3",
@@ -7543,8 +7543,8 @@ const QUESTIONS = {
           "This detail actually fully resolves the passage's central ambiguity about the unfinished boat.",
           "This detail has little significance beyond describing a fairly minor, passing interaction."
         ],
-        "correct": 3,
-        "explanation": "This detail suggests the pattern of unfinished things and uncertain answers may already be extending to a THIRD generation, with the daughter apparently already accustomed to her father's characteristic indecision — extending the passage's central concern beyond just the father-narrator relationship into a possible ongoing, multi-generational pattern the ending's ambiguity leaves genuinely open. Choice A gets the effect backward — the detail deepens the ambiguity rather than resolving it. Choice B undersells a detail that is doing real thematic work about generational continuity. Choice C misreads the daughter's practiced, resigned nod as rudeness rather than as quiet, learned familiarity with her father's pattern."
+        "correct": 0,
+        "explanation": "This detail suggests the pattern of unfinished things and uncertain answers may already be extending to a THIRD generation, with the daughter apparently already accustomed to her father's characteristic indecision — extending the passage's central concern beyond just the father-narrator relationship into a possible ongoing, multi-generational pattern the ending's ambiguity leaves genuinely open. Choice C gets the effect backward — the detail deepens the ambiguity rather than resolving it. Choice D undersells a detail that is doing real thematic work about generational continuity. Choice B misreads the daughter's practiced, resigned nod as rudeness rather than as quiet, learned familiarity with her father's pattern."
       },
       {
         "id": "5-4",
@@ -7556,8 +7556,8 @@ const QUESTIONS = {
           "This passage, in fact, contradicts essentially everything Unit 1 established about endings.",
           "This passage extends Unit 1's point about deliberate withheld resolution to a novel's final chapter."
         ],
-        "correct": 0,
-        "explanation": "This passage extends Unit 1's foundational point (that withheld resolution can be a deliberate, meaningful choice) to a longer work's final chapter — the specific undecided status of the boat, and now possibly the daughter's own future relationship to unfinished things, demonstrates the same principle operating at the scale of an entire novel's conclusion rather than a single short story's ending. Choice A misreads a passage that is explicitly unresolved ('I have not decided, yet') as resolved. Choice B denies a connection the question itself is built around and the unit explicitly draws. Choice C overstates a relationship that is actually one of extension and continuity, not contradiction."
+        "correct": 3,
+        "explanation": "This passage extends Unit 1's foundational point (that withheld resolution can be a deliberate, meaningful choice) to a longer work's final chapter — the specific undecided status of the boat, and now possibly the daughter's own future relationship to unfinished things, demonstrates the same principle operating at the scale of an entire novel's conclusion rather than a single short story's ending. Choice B misreads a passage that is explicitly unresolved ('I have not decided, yet') as resolved. Choice A denies a connection the question itself is built around and the unit explicitly draws. Choice C overstates a relationship that is actually one of extension and continuity, not contradiction."
       },
       {
         "id": "5-5",
@@ -7569,8 +7569,8 @@ const QUESTIONS = {
           "Only techniques from the most recent units (7, 8, 9) are actually useful for reading this passage.",
           "The nine units are essentially separate and unrelated, with no techniques transferring between them."
         ],
-        "correct": 3,
-        "explanation": "This passage suggests this course's nine units, despite their organization by genre and complexity level, ultimately teach a single, unified, transferable skill set — close, attentive reading for meaningful pattern, structure, and gap between surface and depth — that sophisticated texts draw on flexibly and in combination, regardless of which specific unit originally introduced a given technique. Choice A denies the very synthesis the passage was explicitly written to demonstrate. Choice B narrows the lesson to only this unit's material when the passage draws just as heavily on Units 1, 3, and 7. Choice C arbitrarily excludes Unit 1's symbol and Unit 3's frame-adjacent material, which the passage clearly also draws on."
+        "correct": 0,
+        "explanation": "This passage suggests this course's nine units, despite their organization by genre and complexity level, ultimately teach a single, unified, transferable skill set — close, attentive reading for meaningful pattern, structure, and gap between surface and depth — that sophisticated texts draw on flexibly and in combination, regardless of which specific unit originally introduced a given technique. Choice D denies the very synthesis the passage was explicitly written to demonstrate. Choice B narrows the lesson to only this unit's material when the passage draws just as heavily on Units 1, 3, and 7. Choice C arbitrarily excludes Unit 1's symbol and Unit 3's frame-adjacent material, which the passage clearly also draws on."
       },
       {
         "id": "1-6",
@@ -7583,7 +7583,7 @@ const QUESTIONS = {
           "A deliberately ambiguous ending that withholds resolution."
         ],
         "correct": 0,
-        "explanation": "Passage 1 relies most heavily on sustained dramatic irony: its entire effect depends on the reader's accumulated knowledge from an earlier chapter coloring this otherwise ordinary scene, making Section 9.1 the most directly applicable lens. Choice A is wrong because the passage involves a single narrator's account with no additional retelling layers or narrators to compound. Choice B is wrong because the passage doesn't end in unresolved uncertainty — it simply closes an ordinary morning scene. Choice C is wrong because the passage centers on one character's limited awareness, not a contrast between two characters' traits."
+        "explanation": "Passage 1 relies most heavily on sustained dramatic irony: its entire effect depends on the reader's accumulated knowledge from an earlier chapter coloring this otherwise ordinary scene, making Section 9.1 the most directly applicable lens. Choice C is wrong because the passage involves a single narrator's account with no additional retelling layers or narrators to compound. Choice D is wrong because the passage doesn't end in unresolved uncertainty — it simply closes an ordinary morning scene. Choice B is wrong because the passage centers on one character's limited awareness, not a contrast between two characters' traits."
       },
       {
         "id": "2-6",
@@ -7595,8 +7595,8 @@ const QUESTIONS = {
           "Layered unreliability spread across multiple compounding narrative levels.",
           "A deliberately ambiguous ending that withholds a clear resolution."
         ],
-        "correct": 3,
-        "explanation": "Passage 2 relies most heavily on the evolving foil relationship, since the passage's entire technique depends on comparing the same two characters' contrasting roles at two different points, revealing genuine reversal over time — making Section 9.2 the most directly applicable lens. Choice A is wrong because the passage doesn't end on unresolved uncertainty; it simply presents two dated excerpts. Choice B is wrong because there's a single narrative voice describing the partnership, not compounding layers of retelling. Choice C is wrong because there's no reader/character knowledge gap here — the reader and the characters have access to the same information within each excerpt."
+        "correct": 0,
+        "explanation": "Passage 2 relies most heavily on the evolving foil relationship, since the passage's entire technique depends on comparing the same two characters' contrasting roles at two different points, revealing genuine reversal over time — making Section 9.2 the most directly applicable lens. Choice D is wrong because the passage doesn't end on unresolved uncertainty; it simply presents two dated excerpts. Choice C is wrong because there's a single narrative voice describing the partnership, not compounding layers of retelling. Choice B is wrong because there's no reader/character knowledge gap here — the reader and the characters have access to the same information within each excerpt."
       },
       {
         "id": "3-6",
@@ -7608,8 +7608,8 @@ const QUESTIONS = {
           "The deliberately ambiguous ending, since it refuses to resolve whether the siblings reconcile.",
           "An evolving foil relationship tracked between two contrasting characters over time."
         ],
-        "correct": 0,
-        "explanation": "Passage 3 relies most heavily on the deliberately ambiguous ending, since the passage's entire technique depends on refusing to resolve whether the siblings will genuinely reconcile, making Section 9.3 the most directly applicable lens. Choice A is wrong because there's a single, direct scene with no compounding retellings or multiple narrators. Choice B is wrong because the scene doesn't develop a contrast between Renata and Tomas's traits; it centers on their shared uncertainty rather than opposing character traits. Choice C is wrong because there's no reader/character knowledge gap — the audience knows exactly as much as Renata and Tomas do throughout the scene."
+        "correct": 2,
+        "explanation": "Passage 3 relies most heavily on the deliberately ambiguous ending, since the passage's entire technique depends on refusing to resolve whether the siblings will genuinely reconcile, making Section 9.3 the most directly applicable lens. Choice B is wrong because there's a single, direct scene with no compounding retellings or multiple narrators. Choice D is wrong because the scene doesn't develop a contrast between Renata and Tomas's traits; it centers on their shared uncertainty rather than opposing character traits. Choice A is wrong because there's no reader/character knowledge gap — the audience knows exactly as much as Renata and Tomas do throughout the scene."
       },
       {
         "id": "4-6",
@@ -7621,8 +7621,8 @@ const QUESTIONS = {
           "A deliberately ambiguous ending that withholds a final resolution.",
           "Sustained dramatic irony built on a reader/character knowledge gap."
         ],
-        "correct": 0,
-        "explanation": "Passage 4 relies most heavily on layered unreliability, since the passage's entire technique depends on distinguishing three distinct levels of potential distortion across generations of retelling, making Section 9.4 the most directly applicable lens. Choice A is wrong because the passage doesn't turn on an unresolved conclusion; its close (the narrator's reflection on which version he 'needed to believe') is a reflective statement, not a withheld resolution. Choice B is wrong because the passage doesn't develop a contrast between two characters' traits. Choice C is wrong because there's no reader/character knowledge gap here — the reader learns the discrepancy at the same time the narrator reports it."
+        "correct": 1,
+        "explanation": "Passage 4 relies most heavily on layered unreliability, since the passage's entire technique depends on distinguishing three distinct levels of potential distortion across generations of retelling, making Section 9.4 the most directly applicable lens. Choice C is wrong because the passage doesn't turn on an unresolved conclusion; its close (the narrator's reflection on which version he 'needed to believe') is a reflective statement, not a withheld resolution. Choice A is wrong because the passage doesn't develop a contrast between two characters' traits. Choice D is wrong because there's no reader/character knowledge gap here — the reader learns the discrepancy at the same time the narrator reports it."
       },
       {
         "id": "5-6",
@@ -7634,8 +7634,8 @@ const QUESTIONS = {
           "Layered unreliability used here in isolation, with no other technique genuinely present.",
           "Full course synthesis, since the passage explicitly combines frame narrative, symbol, and more."
         ],
-        "correct": 2,
-        "explanation": "Passage 5 relies most heavily on full course synthesis, since the passage explicitly combines frame narrative, symbol, epiphany, and ambiguous ending simultaneously, exactly the kind of genuinely complex, course-spanning passage this unit's Section 9.5 addresses as this entire course's capstone. Choice A misattributes to dramatic irony a passage that contains no withheld information creating a reader/character knowledge gap. Choice B misattributes to layered unreliability a passage with a single, direct narrator rather than compounding retellings. Choice C directly denies the multi-technique combination the passage was purpose-built to demonstrate."
+        "correct": 3,
+        "explanation": "Passage 5 relies most heavily on full course synthesis, since the passage explicitly combines frame narrative, symbol, epiphany, and ambiguous ending simultaneously, exactly the kind of genuinely complex, course-spanning passage this unit's Section 9.5 addresses as this entire course's capstone. Choice A misattributes to dramatic irony a passage that contains no withheld information creating a reader/character knowledge gap. Choice C misattributes to layered unreliability a passage with a single, direct narrator rather than compounding retellings. Choice B directly denies the multi-technique combination the passage was purpose-built to demonstrate."
       },
       {
         "id": "1-7",
@@ -7648,7 +7648,7 @@ const QUESTIONS = {
           "This mundane style is exactly what lets the sustained dramatic irony operate without tipping its hand."
         ],
         "correct": 3,
-        "explanation": "The passage's plain, mundane prose is precisely what allows the sustained dramatic irony to work: if the writing itself signaled danger, it would undercut a technique that depends on the surface content staying genuinely ordinary while the reader's outside knowledge supplies all the tension. Choice A undersells this as incidental when it's a deliberate structural requirement of the technique. Choice B gets the relationship backward — understating the stakes on the surface is what makes the irony land, not what weakens it. Choice D reaches for a judgment about the narrator's attitude that the text never actually signals; the flat, neutral tone doesn't read as disapproval of Warren, only as narrative restraint."
+        "explanation": "The passage's plain, mundane prose is precisely what allows the sustained dramatic irony to work: if the writing itself signaled danger, it would undercut a technique that depends on the surface content staying genuinely ordinary while the reader's outside knowledge supplies all the tension. Choice B undersells this as incidental when it's a deliberate structural requirement of the technique. Choice A gets the relationship backward — understating the stakes on the surface is what makes the irony land, not what weakens it. Choice C reaches for a judgment about the narrator's attitude that the text never actually signals; the flat, neutral tone doesn't read as disapproval of Warren, only as narrative restraint."
       },
       {
         "id": "2-7",
@@ -7660,8 +7660,8 @@ const QUESTIONS = {
           "This grammatical parallelism formally reinforces the reader's ability to compare the two moments.",
           "This parallel structure has essentially no bearing on the passage's content or meaning."
         ],
-        "correct": 3,
-        "explanation": "The deliberate grammatical parallelism between the two passages (each structured around 'X saw/did A, Y saw/did B') formally reinforces the reader's ability to directly compare the two moments, the structural similarity between the sentences making the underlying reversal in content more immediately visible and striking. Choice A dismisses a stylistic choice that is doing real comparative work. Choice B gets the effect backward: the parallel form actually highlights difference in content, not sameness. Choice D is wrong for a similar reason — the parallelism supports rather than undermines the passage's point about evolution, by making the reversal easier to see."
+        "correct": 2,
+        "explanation": "The deliberate grammatical parallelism between the two passages (each structured around 'X saw/did A, Y saw/did B') formally reinforces the reader's ability to directly compare the two moments, the structural similarity between the sentences making the underlying reversal in content more immediately visible and striking. Choice D dismisses a stylistic choice that is doing real comparative work. Choice A gets the effect backward: the parallel form actually highlights difference in content, not sameness. Choice B is wrong for a similar reason — the parallelism supports rather than undermines the passage's point about evolution, by making the reversal easier to see."
       },
       {
         "id": "3-7",
@@ -7674,7 +7674,7 @@ const QUESTIONS = {
           "This sparse dialogue sits oddly against, and somewhat undercuts, the scene's emotional stakes."
         ],
         "correct": 1,
-        "explanation": "This minimal, halting dialogue — full of pauses, incomplete thoughts ('I don't know either'), and hesitant questions — formally enacts the characters' own genuine uncertainty and difficulty communicating, the sparse language itself becoming a technique supporting the scene's larger ambiguity rather than merely describing hesitant characters through more explicit narration. Choice A dismisses a deliberate formal choice as incidental. Choice B misreads the sparseness as undercutting stakes when it actually intensifies them by enacting difficulty rather than simply narrating it. Choice C misreads hesitation as emptiness; the characters clearly have a great deal at stake, they simply struggle to articulate it directly."
+        "explanation": "This minimal, halting dialogue — full of pauses, incomplete thoughts ('I don't know either'), and hesitant questions — formally enacts the characters' own genuine uncertainty and difficulty communicating, the sparse language itself becoming a technique supporting the scene's larger ambiguity rather than merely describing hesitant characters through more explicit narration. Choice A dismisses a deliberate formal choice as incidental. Choice D misreads the sparseness as undercutting stakes when it actually intensifies them by enacting difficulty rather than simply narrating it. Choice C misreads hesitation as emptiness; the characters clearly have a great deal at stake, they simply struggle to articulate it directly."
       },
       {
         "id": "4-7",
@@ -7687,7 +7687,7 @@ const QUESTIONS = {
           "This structure, on inspection, actually contradicts the passage's own content about unreliability."
         ],
         "correct": 2,
-        "explanation": "This structure allows the reader to first experience the layered unreliability directly (through the story's content and the correction), before the narrator's own reflection makes the deeper point explicit — that factual accuracy and psychological significance can diverge — the structure letting readers draw their own initial conclusions before the narrator's more explicit final framing. Choice A misreads a deliberate sequencing choice as an inconsistency; the ordering actually supports the passage's content rather than undercutting it. Choice B dismisses a structural choice that is doing clear interpretive work. Choice D overstates a relative emphasis; the structure gives both the story and the reflection real weight, using one to set up the other rather than ranking one above the other."
+        "explanation": "This structure allows the reader to first experience the layered unreliability directly (through the story's content and the correction), before the narrator's own reflection makes the deeper point explicit — that factual accuracy and psychological significance can diverge — the structure letting readers draw their own initial conclusions before the narrator's more explicit final framing. Choice D misreads a deliberate sequencing choice as an inconsistency; the ordering actually supports the passage's content rather than undercutting it. Choice B dismisses a structural choice that is doing clear interpretive work. Choice A overstates a relative emphasis; the structure gives both the story and the reflection real weight, using one to set up the other rather than ranking one above the other."
       },
       {
         "id": "5-7",
@@ -7700,7 +7700,7 @@ const QUESTIONS = {
           "This tense shift has little real bearing on the passage's other techniques or content."
         ],
         "correct": 0,
-        "explanation": "This present-tense framing during the moment of understanding creates immediacy specifically at the passage's epiphanic core, distinguishing this significant present-moment realization from the past-tense narration of the father's original statement and other surrounding narrative content — form marking the epiphany's special, immediate status within the passage's larger temporal structure. Choice A misreads a deliberate stylistic shift as an error; the tense change is a formal choice, not an inconsistency. Choice B misreads support as conflict; the tense shift actually reinforces the frame narrative's structure by marking the present-day frame distinctly from the framed past. Choice C dismisses a technique the passage uses in close coordination with its epiphany and frame structure."
+        "explanation": "This present-tense framing during the moment of understanding creates immediacy specifically at the passage's epiphanic core, distinguishing this significant present-moment realization from the past-tense narration of the father's original statement and other surrounding narrative content — form marking the epiphany's special, immediate status within the passage's larger temporal structure. Choice B misreads a deliberate stylistic shift as an error; the tense change is a formal choice, not an inconsistency. Choice C misreads support as conflict; the tense shift actually reinforces the frame narrative's structure by marking the present-day frame distinctly from the framed past. Choice D dismisses a technique the passage uses in close coordination with its epiphany and frame structure."
       },
       {
         "id": "1-8",
@@ -7713,7 +7713,7 @@ const QUESTIONS = {
           "That Warren specifically should have been more suspicious of his own daily routine."
         ],
         "correct": 1,
-        "explanation": "The passage suggests that significant, life-altering change can arrive within, and initially remain indistinguishable from, entirely ordinary routine — Warren's mail, coffee, and 'ordinary Tuesday' carry no inherent signal of what's coming; the change's significance is visible only to a reader carrying outside knowledge Warren himself lacks. Choice A misreads this as a judgment about Warren's personal vigilance rather than a broader observation about how change often doesn't announce itself. Choice B is wrong because the passage's whole structure — building tension purely from reader knowledge against an unmarked surface — does take an implicit position on this relationship. Choice C states the opposite of what the passage demonstrates: the routine here notably does NOT signal the coming disruption."
+        "explanation": "The passage suggests that significant, life-altering change can arrive within, and initially remain indistinguishable from, entirely ordinary routine — Warren's mail, coffee, and 'ordinary Tuesday' carry no inherent signal of what's coming; the change's significance is visible only to a reader carrying outside knowledge Warren himself lacks. Choice D misreads this as a judgment about Warren's personal vigilance rather than a broader observation about how change often doesn't announce itself. Choice A is wrong because the passage's whole structure — building tension purely from reader knowledge against an unmarked surface — does take an implicit position on this relationship. Choice C states the opposite of what the passage demonstrates: the routine here notably does NOT signal the coming disruption."
       },
       {
         "id": "2-8",
@@ -7725,8 +7725,8 @@ const QUESTIONS = {
           "Sustained collaboration, this passage suggests, can gradually reshape both participants' approaches.",
           "The passage stays neutral, taking no clear position on how collaborative relationships work."
         ],
-        "correct": 3,
-        "explanation": "The passage suggests that sustained, close collaboration between two people can genuinely reshape both participants' characteristic approaches over time, sometimes so gradually that neither person fully registers the change occurring — suggesting identity and characteristic approach aren't necessarily fixed, but can evolve through sufficiently sustained relationship and influence. Choice A understates the passage's clear thematic implication, which the reversal itself embodies. Choice B is the opposite of the passage's content. Choice C imports a negative outcome (failure, conflict) that the passage never actually depicts — nothing suggests the partnership suffered from the role shift."
+        "correct": 2,
+        "explanation": "The passage suggests that sustained, close collaboration between two people can genuinely reshape both participants' characteristic approaches over time, sometimes so gradually that neither person fully registers the change occurring — suggesting identity and characteristic approach aren't necessarily fixed, but can evolve through sufficiently sustained relationship and influence. Choice D understates the passage's clear thematic implication, which the reversal itself embodies. Choice A is the opposite of the passage's content. Choice B imports a negative outcome (failure, conflict) that the passage never actually depicts — nothing suggests the partnership suffered from the role shift."
       },
       {
         "id": "3-8",
@@ -7739,7 +7739,7 @@ const QUESTIONS = {
           "This scene, in fact, takes no real position on family estrangement or its potential repair."
         ],
         "correct": 2,
-        "explanation": "The passage suggests that estrangement and its potential repair may not follow a single climactic scene of resolution, but instead involve extended, uncertain, incremental processes without guaranteed outcomes — the scene's refusal to clarify whether this constitutes 'a beginning' suggests real reconciliation, if it happens at all, may not announce itself clearly even to the people involved. Choice A overstates the scene's implication into total pessimism the text doesn't actually support (Tomas's 'maybe sooner' leaves room for hope). Choice B overstates it in the opposite direction, into clean resolution the scene explicitly withholds. Choice C understates the clear thematic position the deliberately ambiguous staging takes."
+        "explanation": "The passage suggests that estrangement and its potential repair may not follow a single climactic scene of resolution, but instead involve extended, uncertain, incremental processes without guaranteed outcomes — the scene's refusal to clarify whether this constitutes 'a beginning' suggests real reconciliation, if it happens at all, may not announce itself clearly even to the people involved. Choice A overstates the scene's implication into total pessimism the text doesn't actually support (Tomas's 'maybe sooner' leaves room for hope). Choice B overstates it in the opposite direction, into clean resolution the scene explicitly withholds. Choice D understates the clear thematic position the deliberately ambiguous staging takes."
       },
       {
         "id": "4-8",
@@ -7751,8 +7751,8 @@ const QUESTIONS = {
           "That family stories should always be corrected for accuracy regardless of their psychological role.",
           "That factual accuracy always matters more than any psychological function a story might serve."
         ],
-        "correct": 3,
-        "explanation": "The passage suggests that a family story's factual accuracy and its genuine psychological or identity-shaping value can be meaningfully separate questions — a story can be factually inflated (twelve miles versus three) while still having served a real, formative purpose in shaping how someone understood their family's values and expectations, regardless of the literal truth. Choice A overstates a prescriptive claim ('should always be corrected') the reflective, ambivalent narrator never actually makes. Choice B understates the passage's clear thematic conclusion in its final lines. Choice C asserts the reverse priority from what the narrator's own reflection actually suggests he values."
+        "correct": 0,
+        "explanation": "The passage suggests that a family story's factual accuracy and its genuine psychological or identity-shaping value can be meaningfully separate questions — a story can be factually inflated (twelve miles versus three) while still having served a real, formative purpose in shaping how someone understood their family's values and expectations, regardless of the literal truth. Choice C overstates a prescriptive claim ('should always be corrected') the reflective, ambivalent narrator never actually makes. Choice B understates the passage's clear thematic conclusion in its final lines. Choice D asserts the reverse priority from what the narrator's own reflection actually suggests he values."
       },
       {
         "id": "5-8",
@@ -7764,8 +7764,8 @@ const QUESTIONS = {
           "That significant understanding can pass between generations indirectly, through delayed recognition.",
           "That understanding can only really pass between generations through direct, explicit conversation."
         ],
-        "correct": 0,
-        "explanation": "This passage suggests that significant understanding can pass between generations indirectly, through physical objects and delayed recognition, rather than requiring direct, explicit conversation — the narrator's understanding of his father arrives years later, triggered by physical presence in the same space, suggesting some forms of inheritance and understanding operate through experience and time rather than direct explanation. Choice A is directly contradicted by the text: the narrator explicitly says he 'didn't understand, then,' meaning the father's words did not communicate their full meaning directly. Choice B understates the passage's clear thematic conclusion. Choice C states the opposite of what the passage actually demonstrates through its own delayed, object-triggered understanding."
+        "correct": 2,
+        "explanation": "This passage suggests that significant understanding can pass between generations indirectly, through physical objects and delayed recognition, rather than requiring direct, explicit conversation — the narrator's understanding of his father arrives years later, triggered by physical presence in the same space, suggesting some forms of inheritance and understanding operate through experience and time rather than direct explanation. Choice A is directly contradicted by the text: the narrator explicitly says he 'didn't understand, then,' meaning the father's words did not communicate their full meaning directly. Choice B understates the passage's clear thematic conclusion. Choice D states the opposite of what the passage actually demonstrates through its own delayed, object-triggered understanding."
       },
       {
         "id": "1-9",
@@ -7777,8 +7777,8 @@ const QUESTIONS = {
           "Only Passage 1 actually involves any gap between what a character knows and what's true.",
           "Passage 1 uses a single-timeline reader/character gap, while Passage 4 stacks multiple narrators across time."
         ],
-        "correct": 1,
-        "explanation": "Passage 1 uses sustained dramatic irony, where the reader knows more than a character within a single, unified narrative timeline, while Passage 4 uses layered unreliability, where multiple successive narrators across different points in time each introduce their own potential distortion — a synchronic knowledge gap versus a diachronic, accumulating one. Choice A is wrong because Passage 4 also involves a knowledge/truth gap, just structured differently (across retellings rather than reader vs. character). Choice B collapses two genuinely distinct techniques (Section 9.1 vs. Section 9.4) into one, ignoring their different structures. Choice C makes the same error in stronger terms, denying any distinction the unit specifically draws."
+        "correct": 3,
+        "explanation": "Passage 1 uses sustained dramatic irony, where the reader knows more than a character within a single, unified narrative timeline, while Passage 4 uses layered unreliability, where multiple successive narrators across different points in time each introduce their own potential distortion — a synchronic knowledge gap versus a diachronic, accumulating one. Choice C is wrong because Passage 4 also involves a knowledge/truth gap, just structured differently (across retellings rather than reader vs. character). Choice B collapses two genuinely distinct techniques (Section 9.1 vs. Section 9.4) into one, ignoring their different structures. Choice A makes the same error in stronger terms, denying any distinction the unit specifically draws."
       },
       {
         "id": "2-9",
@@ -7803,7 +7803,7 @@ const QUESTIONS = {
           "Sustained dramatic irony, since silence could in theory create some form of ironic tension.",
           "The deliberately ambiguous ending, matching a conclusion that refuses to resolve a relationship's future."
         ],
-        "correct": 2,
+        "correct": 3,
         "explanation": "The deliberately ambiguous ending would be most useful here, since a conclusion refusing to resolve a relationship's future status is precisely Section 9.3's pattern, regardless of the specific relationship type (siblings or friends) involved. Choice A misapplies a compounding-retelling technique to a scenario that describes a single, direct scene with no additional narrative layers. Choice B misapplies a character-contrast technique to a scenario that describes mutual silence, not an opposing pair of traits. Choice C misapplies a reader-knowledge-gap technique to a scenario where, as with Passage 3, the audience and the characters share the same information throughout."
       },
       {
@@ -7816,8 +7816,8 @@ const QUESTIONS = {
           "Sustained dramatic irony, since a memoir could in theory create some form of reader knowledge gap.",
           "Layered unreliability, since a childhood account filtered through adult commentary compounds distortion."
         ],
-        "correct": 0,
-        "explanation": "Layered unreliability would be most useful here, since a childhood account (limited by youth's understanding) filtered through adult retrospective commentary (its own separate potential bias or reinterpretation) is precisely Section 9.4's pattern of compounding, distinct layers. Choice A misapplies a reader-knowledge-gap technique to a scenario about compounding personal accounts, not withheld plot information. Choice B misapplies a character-contrast technique to a scenario about one person's account at two life stages, not two distinct characters. Choice C misapplies an unresolved-ending technique to a scenario that's fundamentally about layered retelling, not a withheld final decision."
+        "correct": 3,
+        "explanation": "Layered unreliability would be most useful here, since a childhood account (limited by youth's understanding) filtered through adult retrospective commentary (its own separate potential bias or reinterpretation) is precisely Section 9.4's pattern of compounding, distinct layers. Choice C misapplies a reader-knowledge-gap technique to a scenario about compounding personal accounts, not withheld plot information. Choice B misapplies a character-contrast technique to a scenario about one person's account at two life stages, not two distinct characters. Choice A misapplies an unresolved-ending technique to a scenario that's fundamentally about layered retelling, not a withheld final decision."
       },
       {
         "id": "5-9",
@@ -7829,8 +7829,8 @@ const QUESTIONS = {
           "Sustained dramatic irony, since an inherited object could in theory involve a reader knowledge gap.",
           "Layered unreliability, since an inherited object could in theory involve multiple conflicting accounts."
         ],
-        "correct": 0,
-        "explanation": "Full course synthesis would be most useful here, since combining symbol (the inherited object), epiphany (new understanding), and ambiguous ending (unresolved decision) simultaneously is precisely Section 9.5's pattern, regardless of the specific inherited object (a boat, a ring, or something else) involved. Choice A misapplies a reader-knowledge-gap technique to a scenario about a character's own developing understanding, not withheld plot information from the reader. Choice B misapplies a character-contrast technique to a scenario centered on one character's internal, symbolic reckoning. Choice C misapplies a compounding-retelling technique to a scenario with a single narrator's direct reflection, not multiple accounts."
+        "correct": 1,
+        "explanation": "Full course synthesis would be most useful here, since combining symbol (the inherited object), epiphany (new understanding), and ambiguous ending (unresolved decision) simultaneously is precisely Section 9.5's pattern, regardless of the specific inherited object (a boat, a ring, or something else) involved. Choice C misapplies a reader-knowledge-gap technique to a scenario about a character's own developing understanding, not withheld plot information from the reader. Choice A misapplies a character-contrast technique to a scenario centered on one character's internal, symbolic reckoning. Choice D misapplies a compounding-retelling technique to a scenario with a single narrator's direct reflection, not multiple accounts."
       },
       {
         "id": "1-10",
@@ -7842,8 +7842,8 @@ const QUESTIONS = {
           "That this unit applies more advanced versions of Unit 3 and Unit 6's techniques while adding new ones.",
           "That every complex passage must be reduced to a single one of this unit's five named techniques."
         ],
-        "correct": 1,
-        "explanation": "This unit applies genuinely advanced versions of earlier techniques — Unit 3's foil becomes this unit's evolving foil, Unit 6's narrator limitation relates to this unit's layered unreliability — while introducing new techniques like sustained dramatic irony and deliberate ambiguous endings, building toward full-course synthesis. Choice A ignores that longer works specifically reward attention to what accumulates over a greater span, which the unit treats as a meaningful adjustment, not sameness. Choice B is wrong because the unit's examples and principles apply across both prose fiction and drama (see Passage 1's prose vs. Passage 3's drama). Choice D contradicts Section 9.5's whole point, which explicitly expects combinations of multiple techniques rather than forcing a single label."
+        "correct": 2,
+        "explanation": "This unit applies genuinely advanced versions of earlier techniques — Unit 3's foil becomes this unit's evolving foil, Unit 6's narrator limitation relates to this unit's layered unreliability — while introducing new techniques like sustained dramatic irony and deliberate ambiguous endings, building toward full-course synthesis. Choice B ignores that longer works specifically reward attention to what accumulates over a greater span, which the unit treats as a meaningful adjustment, not sameness. Choice A is wrong because the unit's examples and principles apply across both prose fiction and drama (see Passage 1's prose vs. Passage 3's drama). Choice D contradicts Section 9.5's whole point, which explicitly expects combinations of multiple techniques rather than forcing a single label."
       },
       {
         "id": "2-10",
@@ -7855,8 +7855,8 @@ const QUESTIONS = {
           "Each passage shows a truth that specifically requires extended scale — time, accumulation, reflection.",
           "The five passages mainly show that longer works are just longer short stories with no new capability."
         ],
-        "correct": 3,
-        "explanation": "Each passage demonstrates a truth specifically requiring extended scale to reveal — accumulated dramatic irony, character evolution over years, a relationship's genuine uncertainty sustained past a single scene, distortion compounding across retellings, and understanding arriving only after extended reflection — collectively showing what becomes possible only when a text has enough space and time to develop. Choice A undersells the pattern, since all five passages specifically hinge on extended scale, not just some. Choice B directly contradicts the unifying principle the question asks about. Choice C denies the genuinely different capabilities (accumulation, compounding, delayed recognition) the passages actually demonstrate."
+        "correct": 2,
+        "explanation": "Each passage demonstrates a truth specifically requiring extended scale to reveal — accumulated dramatic irony, character evolution over years, a relationship's genuine uncertainty sustained past a single scene, distortion compounding across retellings, and understanding arriving only after extended reflection — collectively showing what becomes possible only when a text has enough space and time to develop. Choice A undersells the pattern, since all five passages specifically hinge on extended scale, not just some. Choice B directly contradicts the unifying principle the question asks about. Choice D denies the genuinely different capabilities (accumulation, compounding, delayed recognition) the passages actually demonstrate."
       },
       {
         "id": "3-10",
@@ -7868,7 +7868,7 @@ const QUESTIONS = {
           "Passage 3, which relies primarily on a single, self-contained scene's own internal ambiguity.",
           "Passage 1, whose technique depends on applying knowledge accumulated from an earlier chapter."
         ],
-        "correct": 0,
+        "correct": 3,
         "explanation": "Passage 1 would most reward this skill, since its entire technique depends on the reader carrying and applying knowledge accumulated from an earlier chapter to color this specific, later scene — precisely the accumulated-knowledge tracking skill this question describes, distinct from passages relying on other specific techniques. Choice A overstates equivalence across all five passages when they in fact rely on different central techniques. Choice B correctly identifies Passage 5 as relying on delayed understanding, but that's a single-moment epiphany rather than tracking knowledge accumulated across a longer span, so it's a weaker match than Passage 1. Choice C is a fair description of Passage 3's ambiguity but doesn't involve tracking accumulated outside knowledge at all."
       },
       {
@@ -7881,8 +7881,8 @@ const QUESTIONS = {
           "No two passages in this unit actually share this specific thematic concern in any real way.",
           "Passages 1 and 3, since both, in fact, unfold within single, tightly contained scenes."
         ],
-        "correct": 2,
-        "explanation": "Passages 4 and 5 most directly share this concern, since both explore how understanding, stories, or significance get transmitted (or distorted) across generations — a grandfather's story reshaped through retelling; a father's unstated meaning finally understood by his son — a productive thematic pairing despite their different specific central techniques. Choice A misdescribes Passages 2 and 3, neither of which centers on cross-generational transmission of meaning. Choice B similarly misdescribes Passages 1 and 3 as sharing a concern they don't actually share; both are contained scenes, but neither is about generational transmission. Choice C denies a connection the unit's own material clearly supports."
+        "correct": 1,
+        "explanation": "Passages 4 and 5 most directly share this concern, since both explore how understanding, stories, or significance get transmitted (or distorted) across generations — a grandfather's story reshaped through retelling; a father's unstated meaning finally understood by his son — a productive thematic pairing despite their different specific central techniques. Choice A misdescribes Passages 2 and 3, neither of which centers on cross-generational transmission of meaning. Choice D similarly misdescribes Passages 1 and 3 as sharing a concern they don't actually share; both are contained scenes, but neither is about generational transmission. Choice C denies a connection the unit's own material clearly supports."
       },
       {
         "id": "5-10",
@@ -7894,8 +7894,8 @@ const QUESTIONS = {
           "Each passage shows a truth that specifically requires extended scale — accumulation, time, reflection.",
           "The five passages mainly show that longer works are just longer short stories with no new capability."
         ],
-        "correct": 1,
-        "explanation": "Each passage demonstrates a truth specifically requiring extended scale to reveal — accumulated dramatic irony, character evolution over years, a relationship's genuine uncertainty sustained past a single scene, distortion compounding across retellings, and understanding arriving only after extended reflection — collectively showing what becomes possible only when a text has enough space and time to develop. Choice A undersells the pattern, since all five passages specifically hinge on extended scale, not just some. Choice B directly contradicts the unifying principle the question asks about. Choice C denies the genuinely different capabilities (accumulation, compounding, delayed recognition) the passages actually demonstrate."
+        "correct": 2,
+        "explanation": "Each passage demonstrates a truth specifically requiring extended scale to reveal — accumulated dramatic irony, character evolution over years, a relationship's genuine uncertainty sustained past a single scene, distortion compounding across retellings, and understanding arriving only after extended reflection — collectively showing what becomes possible only when a text has enough space and time to develop. Choice A undersells the pattern, since all five passages specifically hinge on extended scale, not just some. Choice B directly contradicts the unifying principle the question asks about. Choice D denies the genuinely different capabilities (accumulation, compounding, delayed recognition) the passages actually demonstrate."
       },
       {
         "id": "1-11",
@@ -7907,8 +7907,8 @@ const QUESTIONS = {
           "That longer and shorter works should always be analyzed with identical technique and no distinction.",
           "That only stage plays, never novels, can make effective use of this unit's specific techniques."
         ],
-        "correct": 1,
-        "explanation": "The single most important insight is that longer works reward attention to what accumulates and develops across their full span — sustained knowledge gaps, evolving relationships, unresolved tensions honored rather than forced closed, and compounding layers of retelling — techniques a single brief passage often cannot support in the same way, requiring an excerpt to be read with awareness of its likely larger context. Choice A denies the very distinction the unit is built around. Choice B is contradicted by the unit's mixed prose-and-drama examples (Passages 1, 2, 4, 5 are prose; Passage 3 is drama). Choice C again forces artificial single-technique reduction, which Section 9.5 explicitly argues against."
+        "correct": 0,
+        "explanation": "The single most important insight is that longer works reward attention to what accumulates and develops across their full span — sustained knowledge gaps, evolving relationships, unresolved tensions honored rather than forced closed, and compounding layers of retelling — techniques a single brief passage often cannot support in the same way, requiring an excerpt to be read with awareness of its likely larger context. Choice C denies the very distinction the unit is built around. Choice D is contradicted by the unit's mixed prose-and-drama examples (Passages 1, 2, 4, 5 are prose; Passage 3 is drama). Choice B again forces artificial single-technique reduction, which Section 9.5 explicitly argues against."
       },
       {
         "id": "2-11",
@@ -7920,8 +7920,8 @@ const QUESTIONS = {
           "Memorizing every specific technique name across all three longer-work units in isolation.",
           "Assuming every exam excerpt will use exactly one technique from exactly one of the three units."
         ],
-        "correct": 2,
-        "explanation": "The most beneficial habit is approaching any exam excerpt with a flexible, cumulative toolkit — checking for foundational elements (stage directions, extended character history, dialogue patterns, foils, bounded theme inference), intermediate techniques (soliloquy, subplot, symbolic setting, narrator limitation, tragic flaw), and this unit's advanced techniques (sustained irony, evolving foils, ambiguous endings, layered unreliability) as potentially relevant, remaining alert to genuine combination. Choice A mistakes rote memorization for the flexible application skill the question is actually asking about. Choice B contradicts the combination-aware approach Section 9.5 explicitly models. Choice C wrongly treats earlier and later units as competing rather than cumulative."
+        "correct": 1,
+        "explanation": "The most beneficial habit is approaching any exam excerpt with a flexible, cumulative toolkit — checking for foundational elements (stage directions, extended character history, dialogue patterns, foils, bounded theme inference), intermediate techniques (soliloquy, subplot, symbolic setting, narrator limitation, tragic flaw), and this unit's advanced techniques (sustained irony, evolving foils, ambiguous endings, layered unreliability) as potentially relevant, remaining alert to genuine combination. Choice C mistakes rote memorization for the flexible application skill the question is actually asking about. Choice D contradicts the combination-aware approach Section 9.5 explicitly models. Choice A wrongly treats earlier and later units as competing rather than cumulative."
       },
       {
         "id": "3-11",
@@ -7933,8 +7933,8 @@ const QUESTIONS = {
           "This technique, strictly speaking, requires the exact gate image used in Passage 3 to apply.",
           "A crossroads ending, by this unit's definition, cannot really be considered ambiguous."
         ],
-        "correct": 3,
-        "explanation": "The same underlying approach this unit's Section 9.3 models would apply directly regardless of the specific medium (drama or prose) or specific image (a gate or a crossroads) used — considering what specific tension or complexity the withheld resolution preserves, connecting it back to the work's larger developed themes. Choice A wrongly ties the technique's applicability to one specific image rather than its underlying principle. Choice B is contradicted by this unit's own set, which applies ambiguous-ending analysis to prose (Passage 5) as well as drama (Passage 3). Choice C arbitrarily excludes a comparably unresolved image (a crossroads) with no textual basis for the distinction."
+        "correct": 1,
+        "explanation": "The same underlying approach this unit's Section 9.3 models would apply directly regardless of the specific medium (drama or prose) or specific image (a gate or a crossroads) used — considering what specific tension or complexity the withheld resolution preserves, connecting it back to the work's larger developed themes. Choice C wrongly ties the technique's applicability to one specific image rather than its underlying principle. Choice A is contradicted by this unit's own set, which applies ambiguous-ending analysis to prose (Passage 5) as well as drama (Passage 3). Choice D arbitrarily excludes a comparably unresolved image (a crossroads) with no textual basis for the distinction."
       },
       {
         "id": "4-11",
@@ -7947,7 +7947,7 @@ const QUESTIONS = {
           "Sustained dramatic irony, since a diary could in theory create a reader/character knowledge gap."
         ],
         "correct": 1,
-        "explanation": "Layered unreliability would be most useful here, since a childhood account (limited by youth's understanding) filtered through adult retrospective commentary (its own separate potential bias or reinterpretation) is precisely Section 9.4's pattern of compounding, distinct layers. Choice A misapplies an unresolved-ending technique to a scenario about compounding retellings, not a withheld conclusion. Choice B misapplies a reader-knowledge-gap technique to a scenario where the reader and the adult narrator share the same retrospective information. Choice C misapplies a character-contrast technique to a scenario about one person's account across two life stages, not two distinct characters."
+        "explanation": "Layered unreliability would be most useful here, since a childhood account (limited by youth's understanding) filtered through adult retrospective commentary (its own separate potential bias or reinterpretation) is precisely Section 9.4's pattern of compounding, distinct layers. Choice A misapplies an unresolved-ending technique to a scenario about compounding retellings, not a withheld conclusion. Choice D misapplies a reader-knowledge-gap technique to a scenario where the reader and the adult narrator share the same retrospective information. Choice B misapplies a character-contrast technique to a scenario about one person's account across two life stages, not two distinct characters."
       },
       {
         "id": "5-11",
@@ -7960,7 +7960,7 @@ const QUESTIONS = {
           "Passage 2, which relies almost exclusively on the evolving foil technique alone."
         ],
         "correct": 2,
-        "explanation": "Passage 5 is explicitly designed to demonstrate this unit's synthesis principle, combining frame narrative, symbol, epiphany, and ambiguous ending within a single passage — making it the clearest candidate for greatest technique combination among this unit's five passages, fittingly serving as both this unit's and this entire course's culminating example. Choice A correctly identifies Passage 1's central technique but wrongly claims it as the best example of combination, when it centers on one technique rather than several. Choice B makes the same category error for Passage 2. Choice C denies a combination the unit's own design, especially Passage 5, was specifically built to showcase."
+        "explanation": "Passage 5 is explicitly designed to demonstrate this unit's synthesis principle, combining frame narrative, symbol, epiphany, and ambiguous ending within a single passage — making it the clearest candidate for greatest technique combination among this unit's five passages, fittingly serving as both this unit's and this entire course's culminating example. Choice A correctly identifies Passage 1's central technique but wrongly claims it as the best example of combination, when it centers on one technique rather than several. Choice D makes the same category error for Passage 2. Choice B denies a combination the unit's own design, especially Passage 5, was specifically built to showcase."
       },
       {
         "id": "1-12",
@@ -7985,8 +7985,8 @@ const QUESTIONS = {
           "Layered unreliability, since siblings could in theory offer multiple conflicting accounts.",
           "The evolving foil relationship, since two characters' contrast narrows or reverses over the work's span."
         ],
-        "correct": 2,
-        "explanation": "The evolving foil relationship would be most useful here, since two characters' contrast narrowing or reversing across a work's span is precisely Section 9.2's pattern, regardless of whether the specific characters are business partners (Passage 2) or siblings. Choice A misapplies a layered-retelling technique to a scenario that describes direct character development, not compounding accounts. Choice B misapplies a reader-knowledge-gap technique to a scenario with no withheld information affecting how the reader experiences other scenes. Choice C reaches for an unresolved-ending label onto a scenario that's actually about mid-work character convergence, not a final unresolved decision."
+        "correct": 3,
+        "explanation": "The evolving foil relationship would be most useful here, since two characters' contrast narrowing or reversing across a work's span is precisely Section 9.2's pattern, regardless of whether the specific characters are business partners (Passage 2) or siblings. Choice C misapplies a layered-retelling technique to a scenario that describes direct character development, not compounding accounts. Choice B misapplies a reader-knowledge-gap technique to a scenario with no withheld information affecting how the reader experiences other scenes. Choice A reaches for an unresolved-ending label onto a scenario that's actually about mid-work character convergence, not a final unresolved decision."
       },
       {
         "id": "3-12",
@@ -7998,8 +7998,8 @@ const QUESTIONS = {
           "This unit introduces content that's entirely disconnected from the other two longer-fiction units.",
           "This unit's techniques, in effect, replace and invalidate everything covered in Units 3 and 6."
         ],
-        "correct": 3,
-        "explanation": "This unit completes the arc by applying the most sophisticated versions of techniques introduced across all three units — extending Unit 3's static foil into evolving relationships, Unit 6's single-layer narrator limitation into compounding layered unreliability — culminating in Section 9.5's explicit synthesis, mirroring exactly the three-stage progression this course's short fiction (Units 1, 4, 7) and poetry (Units 2, 5, 8) arcs also followed. Choice A denies a deliberate structural pattern the unit's own framing explicitly draws. Choice B is directly contradicted by the unit's repeated, explicit references back to Units 3 and 6. Choice C mischaracterizes extension as replacement; the unit builds on earlier techniques rather than discarding them."
+        "correct": 0,
+        "explanation": "This unit completes the arc by applying the most sophisticated versions of techniques introduced across all three units — extending Unit 3's static foil into evolving relationships, Unit 6's single-layer narrator limitation into compounding layered unreliability — culminating in Section 9.5's explicit synthesis, mirroring exactly the three-stage progression this course's short fiction (Units 1, 4, 7) and poetry (Units 2, 5, 8) arcs also followed. Choice B denies a deliberate structural pattern the unit's own framing explicitly draws. Choice C is directly contradicted by the unit's repeated, explicit references back to Units 3 and 6. Choice D mischaracterizes extension as replacement; the unit builds on earlier techniques rather than discarding them."
       },
       {
         "id": "4-12",
@@ -8011,8 +8011,8 @@ const QUESTIONS = {
           "Only the ability to recite five technique names drawn specifically from this final unit.",
           "A repertoire limited exclusively to this unit's five techniques, with earlier skills no longer useful."
         ],
-        "correct": 3,
-        "explanation": "A strong reader gains a flexible, layered analytical repertoire spanning foundational elements (stage directions, character history, dialogue, foils, bounded theme inference) through intermediate techniques (soliloquy, subplot, symbolic setting, narrator limitation, tragic flaw) to this unit's advanced, often-combined techniques (sustained irony, evolving foils, ambiguous endings, layered unreliability) — capable of meeting longer-work excerpts of any complexity the actual exam might present. Choice A wrongly discards earlier skills the unit explicitly treats as still relevant. Choice B mistakes practice with specific passages for the transferable skill those passages were meant to build. Choice C reduces a genuine reading skill to rote name recall."
+        "correct": 0,
+        "explanation": "A strong reader gains a flexible, layered analytical repertoire spanning foundational elements (stage directions, character history, dialogue, foils, bounded theme inference) through intermediate techniques (soliloquy, subplot, symbolic setting, narrator limitation, tragic flaw) to this unit's advanced, often-combined techniques (sustained irony, evolving foils, ambiguous endings, layered unreliability) — capable of meeting longer-work excerpts of any complexity the actual exam might present. Choice D wrongly discards earlier skills the unit explicitly treats as still relevant. Choice B mistakes practice with specific passages for the transferable skill those passages were meant to build. Choice C reduces a genuine reading skill to rote name recall."
       },
       {
         "id": "5-12",
@@ -8024,8 +8024,8 @@ const QUESTIONS = {
           "It serves no particular special role, being one of five roughly interchangeable passages.",
           "It serves essentially no real thematic connection to the rest of this course's material."
         ],
-        "correct": 2,
-        "explanation": "This passage serves as this entire course's final deliberate demonstration piece, explicitly written to combine techniques spanning Units 1, 3, 7, and this unit's own Section 9.3 within a single passage — modeling, in its very last practice example, the complete, combination-aware, full-course reading this nine-unit sequence has been building toward from its very first passage in Unit 1. Choice A misreads a deliberately dense, multi-technique passage as simplified; if anything it is more demanding than the unit's earlier passages. Choice B denies the special capstone status the unit's framing explicitly assigns it. Choice C denies the extensive, explicit thematic and structural connections the passage's analysis draws to earlier units."
+        "correct": 1,
+        "explanation": "This passage serves as this entire course's final deliberate demonstration piece, explicitly written to combine techniques spanning Units 1, 3, 7, and this unit's own Section 9.3 within a single passage — modeling, in its very last practice example, the complete, combination-aware, full-course reading this nine-unit sequence has been building toward from its very first passage in Unit 1. Choice A misreads a deliberately dense, multi-technique passage as simplified; if anything it is more demanding than the unit's earlier passages. Choice C denies the special capstone status the unit's framing explicitly assigns it. Choice D denies the extensive, explicit thematic and structural connections the passage's analysis draws to earlier units."
       },
       {
         "id": "1-13",
@@ -8037,8 +8037,8 @@ const QUESTIONS = {
           "Trust the cumulative habit of close reading for detail, technique combination, and textual evidence.",
           "Focus exclusively on memorizing this course's technique names in isolation from one another."
         ],
-        "correct": 0,
-        "explanation": "The most valuable advice is trusting the flexible, cumulative reading habit this course has built across nine units and three genres: read closely for specific, chosen detail; ask what that detail reveals or accomplishes; check whether multiple techniques are combining; and ground every claim in the text's own actual evidence. Choice A wrongly treats foundational and advanced skills as competitors rather than a cumulative toolkit the unit explicitly says to draw on together. Choice B mistakes memorized labels for the underlying reading habit the course is actually trying to build. Choice C directly contradicts Section 9.5's emphasis on combination-aware reading rather than forced single-technique matching."
+        "correct": 2,
+        "explanation": "The most valuable advice is trusting the flexible, cumulative reading habit this course has built across nine units and three genres: read closely for specific, chosen detail; ask what that detail reveals or accomplishes; check whether multiple techniques are combining; and ground every claim in the text's own actual evidence. Choice B wrongly treats foundational and advanced skills as competitors rather than a cumulative toolkit the unit explicitly says to draw on together. Choice D mistakes memorized labels for the underlying reading habit the course is actually trying to build. Choice A directly contradicts Section 9.5's emphasis on combination-aware reading rather than forced single-technique matching."
       },
       {
         "id": "2-13",
@@ -8051,7 +8051,7 @@ const QUESTIONS = {
           "This unit, unlike Unit 3's broader coverage, applies only to business-partnership characters."
         ],
         "correct": 1,
-        "explanation": "This course added the temporal, developmental dimension: Unit 3 established WHAT a foil relationship reveals through contrast at a single point, while this unit adds HOW that relationship's terms can genuinely change over a work's full span, extending a foundational concept into its most sophisticated, time-sensitive application. Choice A denies a real, substantive addition the unit clearly makes. Choice B invents a restriction to business partnerships that the unit's broader framework, including Passage 3's sibling relationship discussion elsewhere in the set, doesn't actually impose. Choice C misstates the relationship between the two units; Unit 9 builds on Unit 3's concept rather than eliminating it."
+        "explanation": "This course added the temporal, developmental dimension: Unit 3 established WHAT a foil relationship reveals through contrast at a single point, while this unit adds HOW that relationship's terms can genuinely change over a work's full span, extending a foundational concept into its most sophisticated, time-sensitive application. Choice A denies a real, substantive addition the unit clearly makes. Choice D invents a restriction to business partnerships that the unit's broader framework, including Passage 3's sibling relationship discussion elsewhere in the set, doesn't actually impose. Choice C misstates the relationship between the two units; Unit 9 builds on Unit 3's concept rather than eliminating it."
       },
       {
         "id": "3-13",
@@ -8064,7 +8064,7 @@ const QUESTIONS = {
           "This placement, on reflection, actually contradicts everything the course has taught about resolution."
         ],
         "correct": 0,
-        "explanation": "Concluding a course that has repeatedly emphasized meaningful ambiguity (since Unit 1) with a scene explicitly embodying that same principle creates a fitting formal echo — the course's own structure, ending on unresolved uncertainty rather than a tidy final answer, mirrors the specific literary value it has spent nine units teaching students to recognize and appreciate in the texts themselves. Choice A misreads the course's consistent teaching, which has celebrated meaningful ambiguity throughout rather than treating resolution as always necessary. Choice B mistakes a deliberate thematic choice for a structural flaw. Choice C denies the clear pedagogical intentionality behind pairing this unit's final content with its own recurring emphasis on ambiguity."
+        "explanation": "Concluding a course that has repeatedly emphasized meaningful ambiguity (since Unit 1) with a scene explicitly embodying that same principle creates a fitting formal echo — the course's own structure, ending on unresolved uncertainty rather than a tidy final answer, mirrors the specific literary value it has spent nine units teaching students to recognize and appreciate in the texts themselves. Choice D misreads the course's consistent teaching, which has celebrated meaningful ambiguity throughout rather than treating resolution as always necessary. Choice B mistakes a deliberate thematic choice for a structural flaw. Choice C denies the clear pedagogical intentionality behind pairing this unit's final content with its own recurring emphasis on ambiguity."
       },
       {
         "id": "4-13",
@@ -8077,7 +8077,7 @@ const QUESTIONS = {
           "That advanced literary skills, in fact, have no meaningful relationship to foundational ones."
         ],
         "correct": 0,
-        "explanation": "This course's progression demonstrates that sophisticated literary analysis builds cumulatively from foundational habits of noticing specific, chosen detail — the same basic instinct (why THIS detail, what does it reveal) scales, with practice, from a single indirect characterization choice in Unit 1's opening passage to this unit's compounding, multi-layered unreliability, the throughline connecting this course's simplest and most complex material. Choice A denies the deliberate cumulative structure the course's own design embodies. Choice B contradicts the unit's own claim of continued growth through its final material. Choice C denies the explicit throughline the question itself is built to reveal — advanced skills are extensions of, not separate from, foundational ones."
+        "explanation": "This course's progression demonstrates that sophisticated literary analysis builds cumulatively from foundational habits of noticing specific, chosen detail — the same basic instinct (why THIS detail, what does it reveal) scales, with practice, from a single indirect characterization choice in Unit 1's opening passage to this unit's compounding, multi-layered unreliability, the throughline connecting this course's simplest and most complex material. Choice C denies the deliberate cumulative structure the course's own design embodies. Choice B contradicts the unit's own claim of continued growth through its final material. Choice D denies the explicit throughline the question itself is built to reveal — advanced skills are extensions of, not separate from, foundational ones."
       },
       {
         "id": "5-13",
@@ -8090,7 +8090,7 @@ const QUESTIONS = {
           "Avoid all further timed practice, to reduce unnecessary stress before the actual exam."
         ],
         "correct": 0,
-        "explanation": "The appropriate final step is applying this course's own Section 9.5 principle directly: complete full-length, timed practice covering all three genres this course has addressed, honestly diagnose whatever specific technique gaps or genre weaknesses that practice reveals, and target remaining preparation time at those specific, identified areas using this course's relevant unit content for focused review — the same disciplined, evidence-based approach this course has modeled throughout its full nine-unit span. Choice A wrongly treats timed practice as a source of unnecessary stress rather than the course's own recommended final step. Choice B contradicts the course's cumulative design, which treats every unit, including the earliest ones, as still relevant. Choice C denies that targeted, evidence-based review has real value even after completing the course."
+        "explanation": "The appropriate final step is applying this course's own Section 9.5 principle directly: complete full-length, timed practice covering all three genres this course has addressed, honestly diagnose whatever specific technique gaps or genre weaknesses that practice reveals, and target remaining preparation time at those specific, identified areas using this course's relevant unit content for focused review — the same disciplined, evidence-based approach this course has modeled throughout its full nine-unit span. Choice D wrongly treats timed practice as a source of unnecessary stress rather than the course's own recommended final step. Choice B contradicts the course's cumulative design, which treats every unit, including the earliest ones, as still relevant. Choice C denies that targeted, evidence-based review has real value even after completing the course."
       },
       {
         "id": "2-14",
@@ -8103,7 +8103,7 @@ const QUESTIONS = {
           "It illustrates a widening of the original contrast, with the partners becoming more different from each other than they were at the start."
         ],
         "correct": 0,
-        "explanation": "The Yusuf/Nadia passage specifically illustrates outright reversal, the most extreme of the evolution types Section 9.2's key idea names: Yusuf becomes 'the one pushing forward' and Nadia 'the one urging caution,' meaning their original roles have fully traded places rather than simply softening. Choice A is wrong because the contrast doesn't widen — it flips, which is a different kind of change from the two characters growing further apart in their original roles. Choice C is wrong because 'partial resolution' implies the contrast fades toward similarity without swapping sides, but the text shows the specific roles exchanging outright, not fading. Choice D is wrong because it describes the mildest form of change (slight narrowing with core roles intact), which understates what the passage actually shows — a full exchange of positions, not a small adjustment within stable roles."
+        "explanation": "The Yusuf/Nadia passage specifically illustrates outright reversal, the most extreme of the evolution types Section 9.2's key idea names: Yusuf becomes 'the one pushing forward' and Nadia 'the one urging caution,' meaning their original roles have fully traded places rather than simply softening. Choice D is wrong because the contrast doesn't widen — it flips, which is a different kind of change from the two characters growing further apart in their original roles. Choice C is wrong because 'partial resolution' implies the contrast fades toward similarity without swapping sides, but the text shows the specific roles exchanging outright, not fading. Choice B is wrong because it describes the mildest form of change (slight narrowing with core roles intact), which understates what the passage actually shows — a full exchange of positions, not a small adjustment within stable roles."
       },
       {
         "id": "4-14",
@@ -8116,7 +8116,7 @@ const QUESTIONS = {
           "The current narrator's limitation is simply that he has an unusually poor memory for numerical details like distances."
         ],
         "correct": 2,
-        "explanation": "The current narrator's own distinct limitation, layered on top of the uncle's narrative drift, is structural and interpretive rather than a matter of memory: he has no firsthand access to either his uncle's account or his great-grandfather's correction, and he explicitly chooses to keep relating 'the twelve-mile version... because it's the one I grew up on,' openly favoring formative impact over accuracy ('which version I needed... to believe'). That is a separate, distinct kind of limitation from the uncle's gradual, largely unconscious drift toward 'the shape the story wanted to take.' Choice A is wrong because the passage never attributes any memory problem to the current narrator; his limitation is about secondhand access and interpretive choice, not recall. Choice B is wrong because the text shows the current narrator faithfully reporting the great-grandfather's correction rather than adding further embellishment of his own. Choice C is wrong because the narrator explicitly does acknowledge the correction, quoting the great-grandfather's own words directly in the passage."
+        "explanation": "The current narrator's own distinct limitation, layered on top of the uncle's narrative drift, is structural and interpretive rather than a matter of memory: he has no firsthand access to either his uncle's account or his great-grandfather's correction, and he explicitly chooses to keep relating 'the twelve-mile version... because it's the one I grew up on,' openly favoring formative impact over accuracy ('which version I needed... to believe'). That is a separate, distinct kind of limitation from the uncle's gradual, largely unconscious drift toward 'the shape the story wanted to take.' Choice D is wrong because the passage never attributes any memory problem to the current narrator; his limitation is about secondhand access and interpretive choice, not recall. Choice A is wrong because the text shows the current narrator faithfully reporting the great-grandfather's correction rather than adding further embellishment of his own. Choice B is wrong because the narrator explicitly does acknowledge the correction, quoting the great-grandfather's own words directly in the passage."
       }
     ]
   }
