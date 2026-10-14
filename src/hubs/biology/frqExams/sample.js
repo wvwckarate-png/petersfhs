@@ -85,12 +85,14 @@ const EXAM = {
      "id": "D",
      "label": "Part D",
      "prompt": "Explain how the surface-area-to-volume ratio limits the size that a cell can reach.",
+     "tip": "Say that <em>volume</em> increases faster than <em>surface area</em>. Writing only “a bigger cell needs more” does not explain the limit.",
      "rubric": [
       "For explaining that as a cell grows, its volume (which determines its need for nutrients and its production of wastes) increases faster than its surface area (the membrane across which materials must pass)",
       "For explaining that a low surface-area-to-volume ratio means that materials cannot be exchanged (and distributed through the cell by diffusion) fast enough to meet the needs of the cell"
      ],
      "model": [
-      "When a cell grows, its volume increases as the cube of its linear dimension while its surface area increases only as the square, so the surface-area-to-volume ratio falls. The cell's needs for nutrients and its production of wastes are proportional to its volume, but its exchange of materials with the environment is proportional to the surface area of the plasma membrane. Beyond a certain size the membrane cannot exchange materials fast enough, and diffusion inside a large cell is too slow, so the cell cannot be larger."
+      "When a cell grows, its volume increases as the cube of its linear dimension while its surface area increases only as the square, so the surface-area-to-volume ratio falls. The cell's needs for nutrients and its production of wastes are proportional to its volume, but its exchange of materials with the environment is proportional to the surface area of the plasma membrane.",
+      "Beyond a certain size the membrane cannot exchange materials fast enough, and diffusion inside a large cell is too slow, so the cell cannot be larger."
      ]
     },
     {
@@ -113,10 +115,12 @@ const EXAM = {
       "For identifying a limitation, such as that agar has no membrane with transport proteins, no active transport, no metabolism or organelles, and is not alive, so it models only passive diffusion"
      ],
      "model": [
-      "The cubes are a good model for the effect of size because the color change makes the distance traveled by the diffusing acid visible, and cubes of different sizes have precisely calculable surface areas and volumes. A limitation is that real cells have a selectively permeable plasma membrane, transport proteins (including active transport), and metabolism that consumes or produces substances inside the cell, and they are not uniform blocks of agar, so the model illustrates diffusion only."
+      "The cubes are a good model for the effect of size because the color change makes the distance traveled by the diffusing acid visible, and cubes of different sizes have precisely calculable surface areas and volumes.",
+      "A limitation is that real cells have a selectively permeable plasma membrane, transport proteins (including active transport), and metabolism that consumes or produces substances inside the cell, and they are not uniform blocks of agar, so the model illustrates diffusion only."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 2 — Cell structure and function (surface area to volume ratio)"
   },
   {
    "id": "2",
@@ -152,15 +156,18 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Explain how meiosis, but not mitosis, produces genetic variation among the cells that result.",
+     "tip": "Crossing over and independent assortment both happen in meiosis I. Mitosis does neither, which is why its daughter cells are identical.",
      "rubric": [
       "For explaining that meiosis includes crossing over (recombination between homologous chromosomes in prophase I)",
       "For explaining that meiosis also includes independent assortment of homologous chromosomes in metaphase I (random orientation), whereas in mitosis the daughter cells are genetically identical to the parent cell"
      ],
      "model": [
-      "Meiosis produces variation in two ways. During prophase I, homologous chromosomes exchange segments of DNA by crossing over, producing new combinations of alleles on each chromosome. At metaphase I, each homologous pair lines up independently of the others, so the maternal and paternal chromosomes are distributed to the gametes in random combinations. Mitosis has neither process: the sister chromatids are copies of each other, and the two daughter cells are genetically identical to the original cell."
+      "Meiosis produces variation in two ways. During prophase I, homologous chromosomes exchange segments of DNA by crossing over, producing new combinations of alleles on each chromosome. At metaphase I, each homologous pair lines up independently of the others, so the maternal and paternal chromosomes are distributed to the gametes in random combinations.",
+      "Mitosis has neither process: the sister chromatids are copies of each other, and the two daughter cells are genetically identical to the original cell."
      ]
     }
-   ]
+   ],
+   "topic": "Units 4 and 5 — The cell cycle and heredity (mitosis versus meiosis)"
   }
  ]
 };

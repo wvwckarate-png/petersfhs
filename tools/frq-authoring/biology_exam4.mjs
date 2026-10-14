@@ -36,6 +36,7 @@ export default exam({
   title: "Exam 4",
   description: "A full-length, six-question free-response exam: respiration in germinating seeds, antibiotic resistance, yeast fermentation, DNA structure, a cladogram, and a mark–recapture estimate.",
   minutes: 90,
+  topics: ["Unit 3 — Cellular energetics (cellular respiration)", "Unit 7 — Natural selection (antibiotic resistance)", "Unit 3 — Cellular energetics (fermentation)", "Unit 1 — Chemistry of life (hydrogen bonding and DNA)", "Unit 7 — Evolution (cladograms)", "Unit 8 — Ecology (population estimates)"],
   questions: [
     Q("1", "Interpreting and Evaluating Experimental Results", 25,
       ["A student used a respirometer to compare the rate of oxygen consumption by germinating pea seeds, dry (non-germinating) pea seeds, and glass beads of the same volume. Each sample was placed in a sealed vial that also contained a small amount of potassium hydroxide (KOH), which absorbs carbon dioxide. The vials were placed in a water bath at 22 °C, and the volume of gas that had been consumed in each vial was measured every five minutes. The results are shown in Table 1."],
@@ -50,7 +51,7 @@ export default exam({
         P("C", "Calculate the average rate of O<sub>2</sub> consumption, in mL per minute, over the 20 minutes for the germinating peas and for the dry peas. Show your work.", [
           "For a correct rate for the germinating peas: 0.49 mL/20 min = 0.0245 mL/min (about 0.025)",
           "For a correct rate for the dry peas: 0.03 mL/20 min = 0.0015 mL/min",
-        ], [`Rate = volume of O<sub>2</sub> consumed / time. Germinating peas: 0.49 mL/20 min = <b>0.0245 mL/min</b>. Dry peas: 0.03 mL/20 min = <b>0.0015 mL/min</b>. The germinating peas consumed O<sub>2</sub> about ${(rGerm / rDry).toFixed(0)} times as fast as the dry peas.`], { label: "Part C" }),
+        ], [`Rate = volume of O<sub>2</sub> consumed / time. Germinating peas: 0.49 mL/20 min = <b>0.0245 mL/min</b> (about 0.025). Dry peas: 0.03 mL/20 min = <b>0.0015 mL/min</b>. The germinating peas consumed O<sub>2</sub> about ${(rGerm / rDry).toFixed(0)} times as fast as the dry peas.`], { label: "Part C", tip: "Divide the volume of O<sub>2</sub> consumed by the time, and compare the germinating and dry peas numerically, not just in words." }),
         P("D", "Explain the difference between the rates of O<sub>2</sub> consumption of the germinating peas and the dry peas.", [
           "For explaining that germinating seeds are metabolically active and carrying out cellular respiration at a high rate to supply ATP for growth (and to break down stored starch and other nutrients)",
           "For explaining that dry seeds are dormant, with very low metabolic activity, so they use very little O<sub>2</sub>",
@@ -81,7 +82,7 @@ export default exam({
         ], ["There was heritable variation in the population: a few bacteria had a mutation that conferred resistance. The antibiotic acted as a selective pressure: susceptible cells died, while resistant cells survived and reproduced (differential reproductive success). Because the resistance gene is inherited by their offspring, each generation contained a higher proportion of resistant cells, so the allele frequency changed over time. This is natural selection."], { label: "Part C" }),
         P("D", "Calculate the percent change in the percentage of resistant bacteria between generation 10 and generation 15. Show your work.", [
           "For a correct calculation: [(35 − 6)/6] × 100 = 483% (an increase of about 480%)",
-        ], [`Percent change = [(final − initial)/initial] × 100 = [(35 − 6)/6] × 100 = <b>${pctChange.toFixed(0)}%</b>. The share of resistant cells increased by almost six times between generation 10 and generation 15.`], { label: "Part D" }),
+        ], [`Percent change = [(final − initial)/initial] × 100 = [(35 − 6)/6] × 100 = <b>${pctChange.toFixed(0)}%</b>. The share of resistant cells increased by almost six times between generation 10 and generation 15.`], { label: "Part D", tip: "Percent change is based on the <em>starting</em> value (6%), not on 100%." }),
         P("E", "Assume that the gene for resistance has a metabolic cost, which makes resistant bacteria grow more slowly than susceptible bacteria in the absence of the antibiotic. Predict what would happen to the percentage of resistant bacteria if the antibiotic were removed after generation 25, and justify your prediction.", [
           "For predicting that the percentage of resistant bacteria would decrease over time",
           "For justifying that without the antibiotic there is no longer selection for resistance, and the cost of the gene means that the susceptible bacteria have higher reproductive success, so they would increase in frequency",
@@ -106,7 +107,7 @@ export default exam({
         ], ["If the hypothesis is correct, the flask containing glucose will produce CO<sub>2</sub> faster (a larger volume of gas in the same time) than the flask containing lactose, which would produce about as little as the no-sugar control."], { label: "Part C" }),
         P("D", "Justify the prediction using the metabolic pathways of yeast.", [
           "For justifying that glucose can directly enter glycolysis and be fermented, producing ATP and CO<sub>2</sub>, whereas yeast lack the enzyme lactase to break lactose (a disaccharide) into glucose and galactose, so they cannot easily use lactose",
-        ], ["Glucose is the starting molecule for glycolysis, so yeast can break it down and ferment the pyruvate to ethanol and CO<sub>2</sub>. Lactose is a disaccharide of glucose and galactose, and most yeast do not make lactase, the enzyme needed to hydrolyze it. Without that enzyme they cannot get glucose from lactose, so little fermentation and little CO<sub>2</sub> occurs."], { label: "Part D" }),
+        ], ["Glucose is the starting molecule for glycolysis, so yeast can break it down and ferment the pyruvate to ethanol and CO<sub>2</sub>. Lactose is a disaccharide of glucose and galactose, and most yeast do not make lactase, the enzyme needed to hydrolyze it. Without that enzyme they cannot get glucose from lactose, so little fermentation and little CO<sub>2</sub> occurs."], { label: "Part D", tip: "Yeast cannot ferment lactose easily because they lack the enzyme lactase, not because lactose is “too big.”" }),
       ]),
 
     Q("4", "Conceptual Analysis", 10,
@@ -122,7 +123,7 @@ export default exam({
         P("C", "Two samples of double-stranded DNA of the same length are heated slowly. Sample 1 is 30% guanine and cytosine (GC), and sample 2 is 60% GC. Predict which sample requires a higher temperature to separate the two strands, and justify your prediction.", [
           "For predicting that sample 2 (60% GC) requires the higher temperature",
           "For justifying that G–C base pairs have three hydrogen bonds, whereas A–T base pairs have two, so a DNA molecule with more GC pairs has more hydrogen bonds and requires more energy to separate the strands",
-        ], ["Sample 2, with <b>60% GC</b>, would need the higher temperature. Each G–C pair is held together by three hydrogen bonds, and each A–T pair by only two. The DNA with a higher percentage of GC pairs has more hydrogen bonds per unit length, so more thermal energy is needed to break them and to separate (denature) the two strands."], { label: "Part C" }),
+        ], ["Sample 2, with <b>60% GC</b>, would need the higher temperature. Each G–C pair is held together by three hydrogen bonds, and each A–T pair by only two. The DNA with a higher percentage of GC pairs has more hydrogen bonds per unit length, so more thermal energy is needed to break them and to separate (denature) the two strands."], { label: "Part C", tip: "G–C pairs have three hydrogen bonds and A–T pairs have two. The higher GC content means more bonds to break." }),
       ]),
 
     Q("5", "Analyze a Model or Visual Representation", 10,
@@ -138,7 +139,7 @@ export default exam({
         P("C", "A student claims that the frog is more closely related to the lizard than to the shark. Do you agree or disagree with the claim? Justify your answer using the cladogram and the data in Table 1.", [
           "For agreeing with the claim (the frog is more closely related to the lizard)",
           "For justifying that the frog and the lizard share a more recent common ancestor (which had four limbs) that the shark does not share, as shown by the position of the branches and by the shared trait of four limbs",
-        ], ["I <b>agree</b>. On the cladogram, the frog and the lizard branch from a more recent common ancestor than the common ancestor that they share with the shark. They also share a derived trait, four limbs (Table 1), that the shark does not have, which indicates that this trait evolved in the ancestor of the frog, the lizard, and the mouse after the shark's lineage branched off."], { label: "Part C" }),
+        ], ["I <b>agree</b>. On the cladogram, the frog and the lizard branch from a more recent common ancestor than the common ancestor that they share with the shark. They also share a derived trait, four limbs (Table 1), that the shark does not have, which indicates that this trait evolved in the ancestor of the frog, the lizard, and the mouse after the shark's lineage branched off."], { label: "Part C", tip: "Read relationships from the branching order (recent common ancestors), not from how close two names sit on the page." }),
       ]),
 
     Q("6", "Analyze Data", 10,
@@ -154,7 +155,7 @@ export default exam({
         P("C", "Predict how the estimate would be affected if the paint made the marked beetles more likely to be eaten by predators during the week, and justify your prediction.", [
           "For predicting that the estimate would be too high",
           "For justifying that fewer marked beetles would survive to be recaptured, so the proportion of marked beetles in the second sample would be lower than in the population, making the population appear larger",
-        ], ["The estimate would be <b>too high</b>. If marked beetles are eaten more often, fewer of them are left to be recaptured, so the fraction of marked beetles in the second sample is smaller than it should be. In the calculation <i>N</i> = (marked × second sample)/(recaptured), a smaller number of recaptured beetles in the denominator gives a larger value of <i>N</i>."], { label: "Part C" }),
+        ], ["The estimate would be <b>too high</b>. If marked beetles are eaten more often, fewer of them are left to be recaptured, so the fraction of marked beetles in the second sample is smaller than it should be. In the calculation <i>N</i> = (marked × second sample)/(recaptured), a smaller number of recaptured beetles in the denominator gives a larger value of <i>N</i>."], { label: "Part C", tip: "If marked beetles are removed, fewer are recaptured, which <em>raises</em> the estimate. The denominator gets smaller." }),
       ]),
   ],
 });

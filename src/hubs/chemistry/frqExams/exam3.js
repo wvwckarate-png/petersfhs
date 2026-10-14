@@ -28,7 +28,8 @@ const EXAM = {
       "For the correct volume of 25.0 mL, justified from the 1:1 mole ratio (moles of HA = moles of OH<sup>−</sup>: (0.0250 L)(0.100 M) = (0.100 M)<i>V</i>) or from the steep rise in pH on the curve"
      ],
      "model": [
-      "Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>. This agrees with the very steep rise in pH on the curve at about 25 mL, which marks the equivalence point where the moles of base added equal the moles of acid originally present."
+      "Moles of HA = (0.0250 L)(0.100 mol/L) = 2.50 × 10<sup>−3</sup> mol. The reaction is 1:1, so the same amount of OH<sup>−</sup> is needed: <i>V</i> = (2.50 × 10<sup>−3</sup> mol)/(0.100 mol/L) = <b>25.0 mL</b>.",
+      "This agrees with the very steep rise in pH on the curve at about 25 mL, which marks the equivalence point where the moles of base added equal the moles of acid originally present."
      ]
     },
     {
@@ -52,19 +53,21 @@ const EXAM = {
       "For a correct pH of about 2.9"
      ],
      "model": [
-      "Let <i>x</i> = [H<sup>+</sup>]. <i>K</i><sub>a</sub> = <i>x</i><sup>2</sup>/(0.100 − <i>x</i>) ≈ <i>x</i><sup>2</sup>/0.100 (since the acid is weak). <i>x</i><sup>2</sup> = (1.8 × 10<sup>−5</sup>)(0.100) = 1.8 × 10<sup>−6</sup>, <i>x</i> = 1.34 × 10<sup>−3</sup> M. pH = −log(1.34 × 10<sup>−3</sup>) = <b>2.87</b>, consistent with the starting point of the curve."
+      "Let <i>x</i> = [H<sup>+</sup>]. <i>K</i><sub>a</sub> = <i>x</i><sup>2</sup>/(0.100 − <i>x</i>) ≈ <i>x</i><sup>2</sup>/0.100 (since the acid is weak). <i>x</i><sup>2</sup> = (1.8 × 10<sup>−5</sup>)(0.100) = 1.8 × 10<sup>−6</sup>, <i>x</i> = 1.34 × 10<sup>−3</sup> M. pH = −log(1.34 × 10<sup>−3</sup>) = <b>2.87</b> (about 2.9), consistent with the starting point of the curve."
      ]
     },
     {
      "id": "D",
      "label": "Part D",
      "prompt": "Calculate the pH at the equivalence point. Show your work.",
+     "tip": "At the equivalence point the total volume has doubled, so [A<sup>−</sup>] is 0.0500 <i>M</i>, not 0.100 <i>M</i>.",
      "rubric": [
       "For correctly determining that [A<sup>−</sup>] = 0.0500 <i>M</i> at the equivalence point (the volume has doubled) and using <i>K</i><sub>b</sub> = <i>K</i><sub>w</sub>/<i>K</i><sub>a</sub> = 5.6 × 10<sup>−10</sup>",
       "For a correct pH of about 8.7 (from [OH<sup>−</sup>] ≈ 5.3 × 10<sup>−6</sup> <i>M</i>)"
      ],
      "model": [
-      "At the equivalence point all the HA has become A<sup>−</sup>: [A<sup>−</sup>] = (2.50 × 10<sup>−3</sup> mol)/(0.0500 L) = 0.0500 M. A<sup>−</sup> is a weak base: <i>K</i><sub>b</sub> = <i>K</i><sub>w</sub>/<i>K</i><sub>a</sub> = (1.0 × 10<sup>−14</sup>)/(1.8 × 10<sup>−5</sup>) = 5.6 × 10<sup>−10</sup>. Then [OH<sup>−</sup>] = √[(5.6 × 10<sup>−10</sup>)(0.0500)] = 5.3 × 10<sup>−6</sup> M, pOH = 5.28, and pH = <b>8.72</b>."
+      "At the equivalence point all the HA has become A<sup>−</sup>: [A<sup>−</sup>] = (2.50 × 10<sup>−3</sup> mol)/(0.0500 L) = 0.0500 M. A<sup>−</sup> is a weak base: <i>K</i><sub>b</sub> = <i>K</i><sub>w</sub>/<i>K</i><sub>a</sub> = (1.0 × 10<sup>−14</sup>)/(1.8 × 10<sup>−5</sup>) = 5.6 × 10<sup>−10</sup>.",
+      "Then [OH<sup>−</sup>] = √[(5.6 × 10<sup>−10</sup>)(0.0500)] = 5.3 × 10<sup>−6</sup> M, pOH = 5.28, and pH = <b>8.72</b>."
      ]
     },
     {
@@ -105,7 +108,8 @@ const EXAM = {
       "For justifying that its color-change range (8.2–10.0) includes the pH at the equivalence point (about 8.7) and lies on the steep part of the curve, whereas indicators such as methyl red would change color well before the equivalence point"
      ],
      "model": [
-      "<b>Phenolphthalein</b> is the best choice. An indicator should change color over a pH range that contains the pH at the equivalence point and lies on the steep vertical part of the titration curve. The equivalence-point pH here is about 8.7, which is inside the transition range of phenolphthalein (8.2–10.0). Methyl orange and methyl red change color at a pH below the vertical portion (about 3–6), so they would signal the end well before 25.0 mL of base had been added."
+      "<b>Phenolphthalein</b> is the best choice. An indicator should change color over a pH range that contains the pH at the equivalence point and lies on the steep vertical part of the titration curve.",
+      "The equivalence-point pH here is about 8.7, which is inside the transition range of phenolphthalein (8.2–10.0). Methyl orange and methyl red change color at a pH below the vertical portion (about 3–6), so they would signal the end well before 25.0 mL of base had been added."
      ]
     },
     {
@@ -116,10 +120,11 @@ const EXAM = {
       "For a correct pH of about 12.0 (11.96), obtained from the excess OH<sup>−</sup>: (5.0 mL × 0.100 <i>M</i>)/(55.0 mL) = 9.1 × 10<sup>−3</sup> <i>M</i>"
      ],
      "model": [
-      "After the equivalence point, the pH is controlled by the excess OH<sup>−</sup>: moles of excess OH<sup>−</sup> = (0.0300 L − 0.0250 L)(0.100 M) = 5.0 × 10<sup>−4</sup> mol, in a total volume of 55.0 mL. [OH<sup>−</sup>] = (5.0 × 10<sup>−4</sup> mol)/(0.0550 L) = 9.1 × 10<sup>−3</sup> M, pOH = 2.04, so pH = <b>11.96</b>."
+      "After the equivalence point, the pH is controlled by the excess OH<sup>−</sup>: moles of excess OH<sup>−</sup> = (0.0300 L − 0.0250 L)(0.100 M) = 5.0 × 10<sup>−4</sup> mol, in a total volume of 55.0 mL. [OH<sup>−</sup>] = (5.0 × 10<sup>−4</sup> mol)/(0.0550 L) = 9.1 × 10<sup>−3</sup> M, pOH = 2.04, so pH = <b>11.96</b> (about 12.0)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 8 — Acids and bases (weak-acid titration)"
   },
   {
    "id": "2",
@@ -133,6 +138,7 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Calculate Δ<i>G</i>° at 298 K, in kJ/mol<sub>rxn</sub>. Is the reaction thermodynamically favorable at 298 K? Show your work.",
+     "tip": "Δ<i>S</i>° is in J/(mol·K) and Δ<i>H</i>° is in kJ/mol. Convert one of them before using Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>°.",
      "rubric": [
       "For the correct setup, Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° with Δ<i>S</i>° converted to kJ/K (−0.1987 kJ/K)",
       "For the correct value, about −33 kJ/mol<sub>rxn</sub>, and indicating that the reaction is thermodynamically favorable because Δ<i>G</i>° is negative"
@@ -162,7 +168,8 @@ const EXAM = {
       "For reasoning that the reaction is exothermic (Δ<i>H</i>° < 0), so raising the temperature shifts the equilibrium toward the reactants (or: Δ<i>G</i>° becomes less negative as <i>T</i> increases because −<i>T</i>Δ<i>S</i>° is positive)"
      ],
      "model": [
-      "<i>K</i> <b>decreases</b>. The forward reaction is exothermic (Δ<i>H</i>° is negative). Raising the temperature adds energy to the system, and the equilibrium shifts in the direction that absorbs energy, the endothermic (reverse) direction, which lowers the amount of NH<sub>3</sub> at equilibrium and decreases <i>K</i>. In terms of thermodynamics, Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° becomes less negative as <i>T</i> increases because Δ<i>S</i>° is negative."
+      "<i>K</i> <b>decreases</b>. The forward reaction is exothermic (Δ<i>H</i>° is negative). Raising the temperature adds energy to the system, and the equilibrium shifts in the direction that absorbs energy, the endothermic (reverse) direction, which lowers the amount of NH<sub>3</sub> at equilibrium and decreases <i>K</i>.",
+      "In terms of thermodynamics, Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° becomes less negative as <i>T</i> increases because Δ<i>S</i>° is negative."
      ]
     },
     {
@@ -174,7 +181,8 @@ const EXAM = {
       "For indicating that <i>K</i> does not change, because <i>K</i> depends only on temperature"
      ],
      "model": [
-      "Decreasing the volume at constant temperature increases the pressure. The equilibrium shifts toward the side with fewer moles of gas: 4 mol of reactant gas (N<sub>2</sub> + 3 H<sub>2</sub>) convert to 2 mol of NH<sub>3</sub>, so the shift is <b>toward the products</b>. The value of <b><i>K</i> is unchanged</b>, because the equilibrium constant depends only on temperature; the shift occurs because the reaction quotient <i>Q</i> is temporarily smaller than <i>K</i> right after the compression, and the system re-establishes <i>Q</i> = <i>K</i>."
+      "Decreasing the volume at constant temperature increases the pressure. The equilibrium shifts toward the side with fewer moles of gas: 4 mol of reactant gas (N<sub>2</sub> + 3 H<sub>2</sub>) convert to 2 mol of NH<sub>3</sub>, so the shift is <b>toward the products</b>.",
+      "The value of <b><i>K</i> is unchanged</b>, because the equilibrium constant depends only on temperature; the shift occurs because the reaction quotient <i>Q</i> is temporarily smaller than <i>K</i> right after the compression, and the system re-establishes <i>Q</i> = <i>K</i>."
      ]
     },
     {
@@ -186,10 +194,12 @@ const EXAM = {
       "For indicating that above this temperature Δ<i>G</i>° is positive, so the forward reaction is not thermodynamically favorable under standard conditions (the unfavorable −<i>T</i>Δ<i>S</i>° term outweighs the favorable enthalpy)"
      ],
      "model": [
-      "Δ<i>G</i>° = 0 when Δ<i>H</i>° = <i>T</i>Δ<i>S</i>°, so <i>T</i> = Δ<i>H</i>°/Δ<i>S</i>° = (−92,200 J/mol)/(−198.7 J/(mol·K)) = <b>464 K</b>. Because Δ<i>S</i>° is negative (4 mol of gas become 2 mol), −<i>T</i>Δ<i>S</i>° grows more positive as the temperature rises. Above about 464 K it is larger than |Δ<i>H</i>°|, so Δ<i>G</i>° > 0 and the forward reaction is <b>not</b> thermodynamically favorable under standard conditions. (Industrial plants use a compromise: a high temperature for rate, with high pressure and a catalyst to keep the yield acceptable.)"
+      "Δ<i>G</i>° = 0 when Δ<i>H</i>° = <i>T</i>Δ<i>S</i>°, so <i>T</i> = Δ<i>H</i>°/Δ<i>S</i>° = (−92,200 J/mol)/(−198.7 J/(mol·K)) = <b>464 K</b>. Because Δ<i>S</i>° is negative (4 mol of gas become 2 mol), −<i>T</i>Δ<i>S</i>° grows more positive as the temperature rises.",
+      "Above about 464 K it is larger than |Δ<i>H</i>°|, so Δ<i>G</i>° > 0 and the forward reaction is <b>not</b> thermodynamically favorable under standard conditions. (Industrial plants use a compromise: a high temperature for rate, with high pressure and a catalyst to keep the yield acceptable.)"
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Thermodynamics and equilibrium (the Haber process)"
   },
   {
    "id": "3",
@@ -227,6 +237,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Indicate whether the average kinetic energy of the helium atoms is greater than, less than, or equal to that of the neon atoms. Justify your answer.",
+     "tip": "Equal average kinetic energy does not mean equal speeds. The lighter gas moves faster.",
      "rubric": [
       "For indicating that the average kinetic energies are equal",
       "For explaining that average kinetic energy depends only on temperature (KE<sub>avg</sub> = (3/2)<i>k</i><sub>B</sub><i>T</i>), and both gases are at the same temperature"
@@ -256,10 +267,12 @@ const EXAM = {
       "For explaining that at low pressure the particles are far apart, so their own volume is negligible compared with the container volume, and at high temperature the particles' kinetic energy is large compared with the attractions between them, so those attractions have little effect"
      ],
      "model": [
-      "A real gas behaves most like an ideal gas at <b>high temperature and low pressure</b>. At low pressure the particles are far apart, so the volume of the particles themselves is a negligible fraction of the container volume, and the attractions between them are small. At high temperature the particles move so fast that the intermolecular attractions have little effect on collisions with the walls. At low temperature and high pressure, the particles are close together, their own volume matters, and attractions between them reduce the force of collisions with the walls, so the measured pressure falls below the ideal value."
+      "A real gas behaves most like an ideal gas at <b>high temperature and low pressure</b>. At low pressure the particles are far apart, so the volume of the particles themselves is a negligible fraction of the container volume, and the attractions between them are small.",
+      "At high temperature the particles move so fast that the intermolecular attractions have little effect on collisions with the walls. At low temperature and high pressure, the particles are close together, their own volume matters, and attractions between them reduce the force of collisions with the walls, so the measured pressure falls below the ideal value."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Gases and the kinetic molecular theory"
   },
   {
    "id": "4",
@@ -280,6 +293,7 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Use the data in Figure 1 to calculate the average atomic mass of gallium. Show your work.",
+     "tip": "Use fractional abundances (0.601), or divide by 100, in the weighted average. Using the percentages directly gives an answer 100 times too large.",
      "rubric": [
       "For correctly weighting each mass by its fractional abundance: 69(0.601) + 71(0.399)",
       "For the correct result, about 69.8 amu"
@@ -297,10 +311,12 @@ const EXAM = {
       "For identifying that the isotope with <i>m</i>/<i>z</i> = 71 has two more neutrons than the isotope with <i>m</i>/<i>z</i> = 69, and that the number of electrons and the chemical properties are the same"
      ],
      "model": [
-      "Gallium has two naturally occurring isotopes. Atoms of both isotopes have 31 protons (that is what makes them gallium) and, when neutral, 31 electrons, but they have different numbers of neutrons: Ga-69 has 38 neutrons and Ga-71 has 40 neutrons. The heavier isotope, with two more neutrons, is deflected differently in the spectrometer and produces the peak at <i>m</i>/<i>z</i> = 71."
+      "Gallium has two naturally occurring isotopes. Atoms of both isotopes have 31 protons (that is what makes them gallium) and, when neutral, 31 electrons, but they have different numbers of neutrons: Ga-69 has 38 neutrons and Ga-71 has 40 neutrons.",
+      "The heavier isotope, with two more neutrons, is deflected differently in the spectrometer and produces the peak at <i>m</i>/<i>z</i> = 71."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 1 — Atomic structure (isotopes and mass spectrometry)"
   },
   {
    "id": "5",
@@ -325,12 +341,14 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Identify the limiting reactant, and calculate the mass of PbI<sub>2</sub>(<i>s</i>) that precipitates, assuming that the reaction goes to completion. Show your work.",
+     "tip": "Find the limiting reactant by comparing <em>moles</em> using the reaction ratio, not by comparing volumes or concentrations.",
      "rubric": [
       "For correctly determining the moles of each reactant (0.0100 mol Pb<sup>2+</sup> and 0.0150 mol I<sup>−</sup>) and identifying I<sup>−</sup> as the limiting reactant (it would take 0.0200 mol I<sup>−</sup> to react with all the Pb<sup>2+</sup>)",
       "For the correct mass of precipitate, about 3.46 g (0.00750 mol × 461.0 g/mol)"
      ],
      "model": [
-      "Moles Pb<sup>2+</sup> = (0.0500 L)(0.200 M) = 0.0100 mol; moles I<sup>−</sup> = (0.0500 L)(0.300 M) = 0.0150 mol. The reaction requires 2 mol I<sup>−</sup> per mol Pb<sup>2+</sup>, so 0.0100 mol Pb<sup>2+</sup> would need 0.0200 mol I<sup>−</sup>: there is not enough, so <b>I<sup>−</sup> is the limiting reactant</b>. Moles of PbI<sub>2</sub> = 0.0150 mol I<sup>−</sup> × (1 mol PbI<sub>2</sub>/2 mol I<sup>−</sup>) = 0.00750 mol, and mass = (0.00750 mol)(461.0 g/mol) = <b>3.46 g</b>."
+      "Moles Pb<sup>2+</sup> = (0.0500 L)(0.200 M) = 0.0100 mol; moles I<sup>−</sup> = (0.0500 L)(0.300 M) = 0.0150 mol. The reaction requires 2 mol I<sup>−</sup> per mol Pb<sup>2+</sup>, so 0.0100 mol Pb<sup>2+</sup> would need 0.0200 mol I<sup>−</sup>: there is not enough, so <b>I<sup>−</sup> is the limiting reactant</b>.",
+      "Moles of PbI<sub>2</sub> = 0.0150 mol I<sup>−</sup> × (1 mol PbI<sub>2</sub>/2 mol I<sup>−</sup>) = 0.00750 mol, and mass = (0.00750 mol)(461.0 g/mol) = <b>3.46 g</b>."
      ]
     },
     {
@@ -344,7 +362,8 @@ const EXAM = {
       "Moles of Pb<sup>2+</sup> remaining = 0.0100 mol − 0.00750 mol = 0.00250 mol, in a total volume of 100.0 mL (0.1000 L): [Pb<sup>2+</sup>] = 0.00250 mol/0.1000 L = <b>0.025 M</b>."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 4 — Chemical reactions (precipitation and limiting reactants)"
   },
   {
    "id": "6",
@@ -358,12 +377,13 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Calculate the specific heat capacity of the metal. Show your work.",
+     "tip": "Use the metal's own temperature change (100.0 − 25.5 = 74.5 °C) in the denominator, not the water's.",
      "rubric": [
       "For using <i>q</i> = <i>mc</i>Δ<i>T</i> to find the energy gained by the water, (100.0 g)(4.18 J/(g·°C))(3.5 °C) = 1.46 × 10<sup>3</sup> J, and setting <i>q</i><sub>metal</sub> = −<i>q</i><sub>water</sub>",
       "For the correct specific heat capacity of the metal, about 0.39 J/(g·°C), using the metal's temperature change of 74.5 °C"
      ],
      "model": [
-      "The water gains <i>q</i> = (100.0 g)(4.18 J/(g·°C))(25.5 − 22.0 °C) = 1463 J. The metal loses the same amount of energy as it cools from 100.0 °C to 25.5 °C (Δ<i>T</i> = 74.5 °C): 1463 J = (50.0 g)<i>c</i>(74.5 °C), so <i>c</i> = <b>0.39 J/(g·°C)</b>."
+      "The water gains <i>q</i> = (100.0 g)(4.18 J/(g·°C))(25.5 − 22.0 °C) = 1463 J (about 1.46 × 10<sup>3</sup> J). The metal loses the same amount of energy as it cools from 100.0 °C to 25.5 °C (Δ<i>T</i> = 74.5 °C): 1463 J = (50.0 g)<i>c</i>(74.5 °C), so <i>c</i> = <b>0.39 J/(g·°C)</b>."
      ]
     },
     {
@@ -375,10 +395,12 @@ const EXAM = {
       "For reasoning that the water would gain less energy than the metal lost, so the measured final temperature (and the calculated <i>q</i> for the water) would be too small, which makes the calculated <i>c</i> smaller than the true value"
      ],
      "model": [
-      "The calculated value would be <b>too low</b>. If some of the thermal energy that left the metal escaped to the surroundings, the water would warm up less than it should, so the measured temperature change of the water, and the energy <i>q</i> = <i>mc</i>Δ<i>T</i> calculated for it, would be too small. The calculation assumes that this smaller <i>q</i> is the energy lost by the metal, so dividing by <i>m</i>Δ<i>T</i> of the metal gives a specific heat capacity that is lower than the true value."
+      "The calculated value would be <b>too low</b>. If some of the thermal energy that left the metal escaped to the surroundings, the water would warm up less than it should, so the measured temperature change of the water, and the energy <i>q</i> = <i>mc</i>Δ<i>T</i> calculated for it, would be too small.",
+      "The calculation assumes that this smaller <i>q</i> is the energy lost by the metal, so dividing by <i>m</i>Δ<i>T</i> of the metal gives a specific heat capacity that is lower than the true value."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 6 — Thermochemistry (calorimetry)"
   },
   {
    "id": "7",
@@ -404,22 +426,27 @@ const EXAM = {
       "For justifying that the peak of the distribution for Y is at a higher speed, so the molecules have a higher average kinetic energy (and the curve is broader, with a lower peak)"
      ],
      "model": [
-      "Sample <b>Y</b> is at the higher temperature. Temperature is a measure of the average kinetic energy of the molecules. The curve for Y has its maximum at a higher speed, and it is broader, so a larger fraction of its molecules have high speeds. Because the area under each curve is the same (all of the molecules), the broader curve has a lower peak."
+      "Sample <b>Y</b> is at the higher temperature. Temperature is a measure of the average kinetic energy of the molecules. The curve for Y has its maximum at a higher speed, and it is broader, so a larger fraction of its molecules have high speeds.",
+      "Because the area under each curve is the same (all of the molecules), the broader curve has a lower peak."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "A reaction between molecules of this gas and another reactant occurs much faster at the higher temperature, even though the temperature increases by only a few tens of degrees. Explain this observation in terms of the distribution of molecular energies and the activation energy.",
+     "tip": "The rate rises because the <em>fraction</em> of molecules with at least <i>E</i><sub>a</sub> increases, not because the average energy changes much.",
      "rubric": [
       "For explaining that a reaction occurs only when colliding molecules have at least the activation energy, and that only the high-energy tail of the distribution has such energies",
       "For explaining that a small increase in temperature increases the fraction of molecules in this tail by a large factor, so many more collisions are successful and the rate constant increases substantially"
      ],
      "model": [
-      "A collision leads to reaction only if the colliding molecules have a combined energy at least equal to the activation energy. At normal temperatures only a small fraction of the molecules, those in the high-energy tail of the distribution, have this much energy. When the temperature rises, the distribution shifts and spreads toward higher energies, and the fraction of molecules in the far tail increases by a large factor (it depends exponentially on <i>E</i><sub>a</sub>/<i>RT</i>), even for a small temperature change. A far larger fraction of collisions is then successful, so the rate constant and the rate increase greatly."
+      "A collision leads to reaction only if the colliding molecules have a combined energy at least equal to the activation energy. At normal temperatures only a small fraction of the molecules, those in the high-energy tail of the distribution, have this much energy.",
+      "When the temperature rises, the distribution shifts and spreads toward higher energies, and the fraction of molecules in the far tail increases by a large factor (it depends exponentially on <i>E</i><sub>a</sub>/<i>RT</i>), even for a small temperature change.",
+      "A far larger fraction of collisions is then successful, so the rate constant and the rate increase greatly."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Kinetics (collision theory and temperature)"
   }
  ]
 };

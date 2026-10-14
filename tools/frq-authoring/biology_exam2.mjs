@@ -44,6 +44,7 @@ export default exam({
   title: "Exam 2",
   description: "A full-length, six-question free-response exam: a cell-signaling experiment, population growth, membrane permeability, meiosis, osmosis in a U-tube, and gel electrophoresis.",
   minutes: 90,
+  topics: ["Unit 4 — Cell communication (signal transduction)", "Unit 8 — Ecology (population growth)", "Unit 2 — Cell membranes (permeability)", "Unit 5 — Heredity (meiosis and genetic variation)", "Unit 2 — Cell structure and function (osmosis and water potential)", "Unit 6 — Gene expression and regulation (biotechnology: gel electrophoresis)"],
   questions: [
     Q("1", "Interpreting and Evaluating Experimental Results", 25,
       ["A hormone secreted by an endocrine gland binds to a receptor protein on the plasma membrane of target cells. Researchers hypothesized that binding of the hormone to the receptor activates a protein kinase, which phosphorylates other proteins and leads to increased transcription of gene <i>X</i>. To test the hypothesis, they treated cultured cells in several ways, and then measured the amount of mRNA of gene <i>X</i> relative to the amount in untreated cells. The results are shown in Table 1. A phosphatase is an enzyme that removes phosphate groups from proteins."],
@@ -62,7 +63,7 @@ export default exam({
         P("D", "Cells that lack the receptor (group 4) showed no response to the hormone. Explain this result. Then predict how the amount of mRNA of gene <i>X</i> in group 5 compares with that in group 2 and justify your prediction.", [
           "For explaining that without the receptor the hormone cannot bind to the cells, so the signal transduction pathway is never activated",
           "For predicting that group 5 (with the phosphatase inhibitor) has more mRNA than group 2 and justifying that, because the phosphatase cannot remove phosphate groups, the kinase-activated proteins stay phosphorylated (active) longer, which prolongs or enhances the signal",
-        ], ["Without the receptor, the hormone has nothing to bind to, so the pathway is never started and the mRNA stays at the control level (1.1). In group 5, the phosphatase inhibitor prevents the removal of phosphate groups. Proteins phosphorylated by the kinase therefore remain active longer, and the signal is not turned off, so more mRNA is made: the data show 12.5, higher than the 8.0 of group 2."], { label: "Part D" }),
+        ], ["Without the receptor, the hormone has nothing to bind to, so the pathway is never started and the mRNA stays at the control level (1.1). In group 5, the phosphatase inhibitor prevents the removal of phosphate groups. Proteins phosphorylated by the kinase therefore remain active longer, and the signal is not turned off, so more mRNA is made: the data show 12.5, higher than the 8.0 of group 2."], { label: "Part D", tip: "A phosphatase <em>removes</em> phosphate groups, so inhibiting it keeps proteins active longer. Many students write the opposite." }),
         P("E", "Support the claim that kinase activity is required for the hormone to increase the expression of gene <i>X</i>, and describe how a signal transduction pathway can produce a large response to a small number of hormone molecules.", [
           "For supporting the claim with the data: the hormone raised mRNA to 8.0 in group 2, but when the kinase was inhibited (group 3) the level stayed near the control (1.2)",
           "For describing amplification: each activated receptor can activate many kinase molecules, each of which can phosphorylate many target proteins (a cascade), so one hormone molecule can lead to a large cellular response",
@@ -82,11 +83,11 @@ export default exam({
         ], ["Put time (days, 0–14) on the horizontal axis and population size (0–600) on the vertical axis, with even intervals and labels. Plot the eight points (0, 20), (2, 51), (4, 118), (6, 228), (8, 347), (10, 430), (12, 472), (14, 489) and join them: the result is an S-shaped curve."], { label: "Part A", paper: true, modelFigures: [popModel] }),
         P("B", "Based on the graph, estimate the carrying capacity of the culture bottle for the fruit flies.", [
           "For an estimate of about 500 flies (accept 490–520), the population size at which the curve levels off",
-        ], ["The carrying capacity is the maximum population the environment can sustain. The curve levels off at about <b>500 flies</b>."], { label: "Part B" }),
+        ], ["The carrying capacity is the maximum population the environment can sustain. The curve levels off at about <b>500 flies</b> (an estimate from 490 to 520 is acceptable)."], { label: "Part B" }),
         P("C", "Calculate the average rate of population growth, in flies per day, between day 4 and day 6, and identify the two-day interval during which the population grew most rapidly.", [
           "For a correct rate between day 4 and day 6: (228 − 118)/(2 days) = 55 flies per day",
           "For identifying days 6–8 as the interval of fastest growth (about 59.5 flies per day)",
-        ], [`Rate (days 4–6) = (228 − 118)/(6 − 4) = 110/2 = <b>55 flies/day</b>. Calculating the rate for every interval gives ${rates.map((x) => x.toFixed(1)).join(", ")} flies/day, so the population grew most rapidly between <b>days 6 and 8</b> (about 59.5 flies/day), when the population was near half of the carrying capacity.`], { label: "Part C" }),
+        ], [`Rate (days 4–6) = (228 − 118)/(6 − 4) = 110/2 = <b>55 flies/day</b>. Calculating the rate for every interval gives ${rates.map((x) => x.toFixed(1)).join(", ")} flies/day, so the population grew most rapidly between <b>days 6 and 8</b> (about 59.5 flies/day), when the population was near half of the carrying capacity.`], { label: "Part C", tip: "Compute the rate for each interval before naming the fastest one. The steepest part of the curve is in the middle, not at the start." }),
         P("D", "Explain why the rate of growth is slow at the beginning of the experiment and slows again at the end.", [
           "For explaining that early on there are few individuals reproducing (even though resources are plentiful), so the population grows slowly in absolute numbers, and growth speeds up as the population (and the number of reproducing flies) increases",
           "For explaining that as the population nears the carrying capacity, density-dependent limiting factors (food, space, waste products, disease) reduce birth rates and/or increase death rates, so the growth rate falls toward zero",
@@ -112,7 +113,7 @@ export default exam({
         ], ["If the hypothesis is correct, the water around the beet pieces at the higher temperatures will have a higher absorbance (more betacyanin has leaked out) than the water around the beet pieces at lower temperatures."], { label: "Part C" }),
         P("D", "Justify the student's prediction in terms of the structure of the cell membrane.", [
           "For justifying that high temperature increases the motion of phospholipids and denatures membrane proteins, disrupting the structure of the phospholipid bilayer and making it more permeable so that the pigment can leak out of the cell",
-        ], ["The membrane is a phospholipid bilayer with embedded proteins held together by weak interactions. High temperature increases the kinetic energy of the phospholipids (the membrane becomes more fluid) and can denature membrane proteins. The bilayer is disrupted, which creates leaks that allow the large pigment molecule to pass out of the vacuole and cell, so more pigment appears in the water."], { label: "Part D" }),
+        ], ["The membrane is a phospholipid bilayer with embedded proteins held together by weak interactions. High temperature increases the kinetic energy of the phospholipids (the membrane becomes more fluid) and can denature membrane proteins. The bilayer is disrupted, which creates leaks that allow the large pigment molecule to pass out of the vacuole and cell, so more pigment appears in the water."], { label: "Part D", tip: "Connect the answer to the phospholipid bilayer and the membrane proteins. “The cell bursts” is not the explanation." }),
       ]),
 
     Q("4", "Conceptual Analysis", 10,
@@ -128,7 +129,7 @@ export default exam({
         P("C", "In one meiotic division, one pair of homologous chromosomes fails to separate during meiosis I (nondisjunction). Predict the number of chromosomes in each of the four resulting gametes, and justify your prediction.", [
           "For predicting that two gametes will have 4 chromosomes and two gametes will have 2 chromosomes (instead of 3 each)",
           "For justifying that both members of one homologous pair moved to the same pole in meiosis I, so two of the gametes get an extra chromosome (<i>n</i> + 1) and two lack that chromosome (<i>n</i> − 1)",
-        ], ["Two gametes will have <b>4 chromosomes</b> (<i>n</i> + 1) and two will have <b>2 chromosomes</b> (<i>n</i> − 1). In a normal meiosis I the two members of each homologous pair move to opposite poles. If one pair fails to separate, both homologs go to the same pole, so one daughter cell (and the two gametes it forms in meiosis II) receives 4 chromosomes, while the other receives 2."], { label: "Part C" }),
+        ], ["Two gametes will have <b>4 chromosomes</b> (<i>n</i> + 1) and two will have <b>2 chromosomes</b> (<i>n</i> − 1). In a normal meiosis I the two members of each homologous pair move to opposite poles. If one pair fails to separate, both homologs go to the same pole, so one daughter cell (and the two gametes it forms in meiosis II) receives 4 chromosomes, while the other receives 2."], { label: "Part C", tip: "Count carefully: the four gametes have 4, 4, 2, and 2 chromosomes — not 3, 3, 3, and 3, and not 6." }),
       ]),
 
     Q("5", "Analyze a Model or Visual Representation", 10,
@@ -138,7 +139,7 @@ export default exam({
         P("A", "Predict how the water levels on the two sides of the tube will change over time, and justify your prediction using the concept of water potential.", [
           "For predicting that the level on the right (0.6 M) side will rise and the level on the left will fall",
           "For justifying that the 0.6 M solution has a lower water potential (more solute), so water moves by osmosis from the side with the higher water potential (the 0.2 M side) to the side with the lower water potential",
-        ], ["The water level on the <b>right</b> side will rise and the level on the left side will fall. The right side has the higher solute concentration, so its water potential is lower. Water moves by osmosis across the selectively permeable membrane from the higher water potential (the 0.2 M left side) to the lower water potential (the 0.6 M right side)."], { label: "Part A" }),
+        ], ["The water level on the <b>right</b> side will rise and the level on the left side will fall. The right side has the higher solute concentration, so its water potential is lower. Water moves by osmosis across the selectively permeable membrane from the higher water potential (the 0.2 M left side) to the lower water potential (the 0.6 M right side)."], { label: "Part A", tip: "Water moves toward the higher <em>solute</em> concentration (lower water potential), so the 0.6 M side rises." }),
         P("B", "Explain why the sucrose does not move across the membrane in this model.", [
           "For explaining that sucrose molecules are too large (and polar) to cross the membrane, which is permeable only to water (selectively permeable)",
         ], ["The membrane is selectively permeable: it allows water molecules to pass but not the larger, polar sucrose molecules, so the sucrose stays on its original side and only the water moves."], { label: "Part B" }),
@@ -162,7 +163,7 @@ export default exam({
         ], ["The mother and father each show all three fragments (500 bp from the mutant allele and 300 + 200 bp from the normal allele), so both are heterozygous carriers (<i>Nm</i>). The mutant allele is recessive: they are healthy because the normal allele provides a functional gene product. Each parent can pass on the mutant allele, and Child 1 received one from each parent (<i>mm</i>)."], { label: "Part C" }),
         P("D", "Calculate the probability that the next child of these parents will be homozygous for the mutant allele. Show your work.", [
           "For the correct probability of 1/4 (25%): (1/2)(1/2), since each heterozygous parent passes the mutant allele with probability 1/2",
-        ], ["For <i>Nm</i> × <i>Nm</i>, the probability that a child receives <i>m</i> from the mother is 1/2 and from the father is 1/2, so P(<i>mm</i>) = (1/2)(1/2) = <b>1/4 (25%)</b>."], { label: "Part D" }),
+        ], ["For <i>Nm</i> × <i>Nm</i>, the probability that a child receives <i>m</i> from the mother is 1/2 and from the father is 1/2, so P(<i>mm</i>) = (1/2)(1/2) = <b>1/4 (25%)</b>."], { label: "Part D", tip: "Each child is an independent event: the chance for the next child is 1/4 no matter what the earlier children's genotypes were." }),
       ]),
   ],
 });

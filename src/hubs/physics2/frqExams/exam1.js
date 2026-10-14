@@ -30,7 +30,8 @@ const EXAM = {
       "For adding the contributions in the same direction to obtain <i>E</i> = 9<i>kQ</i>/(4<i>d</i><sup>2</sup>), directed in the +<i>x</i> direction"
      ],
      "model": [
-      "For a point charge, <i>E</i> = <i>kq</i>/<i>r</i><sup>2</sup>, and the field points away from a positive charge and toward a negative charge. Sphere 1 is a distance <i>d</i> from P, so its field is <i>E</i><sub>1</sub> = <i>k</i>(2<i>Q</i>)/<i>d</i><sup>2</sup> = 2<i>kQ</i>/<i>d</i><sup>2</sup>, pointing away from sphere 1, which is the +<i>x</i> direction. Sphere 2 is a distance 3<i>d</i> − <i>d</i> = 2<i>d</i> from P, so <i>E</i><sub>2</sub> = <i>kQ</i>/(2<i>d</i>)<sup>2</sup> = <i>kQ</i>/(4<i>d</i><sup>2</sup>), pointing toward sphere 2, which is also the +<i>x</i> direction.",
+      "For a point charge, <i>E</i> = <i>kq</i>/<i>r</i><sup>2</sup>, and the field points away from a positive charge and toward a negative charge. Sphere 1 is a distance <i>d</i> from P, so its field is <i>E</i><sub>1</sub> = <i>k</i>(2<i>Q</i>)/<i>d</i><sup>2</sup> = 2<i>kQ</i>/<i>d</i><sup>2</sup>, pointing away from sphere 1, which is the +<i>x</i> direction.",
+      "Sphere 2 is a distance 3<i>d</i> − <i>d</i> = 2<i>d</i> from P, so <i>E</i><sub>2</sub> = <i>kQ</i>/(2<i>d</i>)<sup>2</sup> = <i>kQ</i>/(4<i>d</i><sup>2</sup>), pointing toward sphere 2, which is also the +<i>x</i> direction.",
       "The two fields point the same way, so they add: <i>E</i><sub>net</sub> = 2<i>kQ</i>/<i>d</i><sup>2</sup> + <i>kQ</i>/(4<i>d</i><sup>2</sup>) = <b>9<i>kQ</i>/(4<i>d</i><sup>2</sup>)</b>, directed along +<i>x</i>."
      ]
     },
@@ -38,6 +39,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Derive an expression for the electric potential at point P. Express your answer in terms of <i>Q</i>, <i>d</i>, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.",
+     "tip": "Electric potential is a scalar: add the potentials from the two charges with their signs, with no directions to combine. Adding them like vectors, or using 1/<i>r</i><sup>2</sup>, is the usual error.",
      "rubric": [
       "For starting with the electric potential of a point charge, <i>V</i> = <i>kq</i>/<i>r</i>, and indicating that the potentials from the two spheres add as scalars (with their signs)",
       "For a correct final expression, <i>V</i><sub>P</sub> = 2<i>kQ</i>/<i>d</i> − <i>kQ</i>/(2<i>d</i>) = 3<i>kQ</i>/(2<i>d</i>)"
@@ -56,7 +58,8 @@ const EXAM = {
       "For a correct final expression, <i>v</i> = √(3<i>kQq</i>/(<i>md</i>)), obtained from ½<i>mv</i><sup>2</sup> = <i>q</i>(<i>V</i><sub>P</sub> − <i>V</i><sub>R</sub>)"
      ],
      "model": [
-      "Only the conservative electric force does work on the particle, so the total of kinetic and electric potential energy is constant: <i>K</i><sub>P</sub> + <i>qV</i><sub>P</sub> = <i>K</i><sub>R</sub> + <i>qV</i><sub>R</sub>. The particle starts from rest, so <i>K</i><sub>P</sub> = 0. The potential at R is <i>V</i><sub>R</sub> = <i>k</i>(2<i>Q</i>)/(2<i>d</i>) + <i>k</i>(−<i>Q</i>)/(3<i>d</i> − 2<i>d</i>) = <i>kQ</i>/<i>d</i> − <i>kQ</i>/<i>d</i> = 0. Therefore ½<i>mv</i><sup>2</sup> = <i>q</i>(<i>V</i><sub>P</sub> − <i>V</i><sub>R</sub>) = <i>q</i>·3<i>kQ</i>/(2<i>d</i>), so <i>v</i><sup>2</sup> = 3<i>kQq</i>/(<i>md</i>) and <b><i>v</i> = √(3<i>kQq</i>/(<i>md</i>))</b>."
+      "Only the conservative electric force does work on the particle, so the total of kinetic and electric potential energy is constant: <i>K</i><sub>P</sub> + <i>qV</i><sub>P</sub> = <i>K</i><sub>R</sub> + <i>qV</i><sub>R</sub>. The particle starts from rest, so <i>K</i><sub>P</sub> = 0.",
+      "The potential at R is <i>V</i><sub>R</sub> = <i>k</i>(2<i>Q</i>)/(2<i>d</i>) + <i>k</i>(−<i>Q</i>)/(3<i>d</i> − 2<i>d</i>) = <i>kQ</i>/<i>d</i> − <i>kQ</i>/<i>d</i> = 0. Therefore ½<i>mv</i><sup>2</sup> = <i>q</i>(<i>V</i><sub>P</sub> − <i>V</i><sub>R</sub>) = <i>q</i>·3<i>kQ</i>/(2<i>d</i>), so <i>v</i><sup>2</sup> = 3<i>kQq</i>/(<i>md</i>) and <b><i>v</i> = √(3<i>kQq</i>/(<i>md</i>))</b>."
      ]
     },
     {
@@ -68,10 +71,12 @@ const EXAM = {
       "For reasoning that between the spheres the field from the positive sphere points away from it (+<i>x</i>) and the field from the negative sphere points toward it (also +<i>x</i>), so the two fields point the same way and cannot cancel"
      ],
      "model": [
-      "Disagree. At any point between the spheres, the field of the positive sphere 1 points away from sphere 1, which is toward sphere 2 (the +<i>x</i> direction). The field of the negative sphere 2 points toward sphere 2, which is also the +<i>x</i> direction. Because the two fields have the same direction everywhere between the spheres, they add and can never sum to zero. (A point of zero field exists only outside the spheres, beyond the smaller charge — to the right of sphere 2.)"
+      "Disagree. At any point between the spheres, the field of the positive sphere 1 points away from sphere 1, which is toward sphere 2 (the +<i>x</i> direction). The field of the negative sphere 2 points toward sphere 2, which is also the +<i>x</i> direction.",
+      "Because the two fields have the same direction everywhere between the spheres, they add and can never sum to zero. (A point of zero field exists only outside the spheres, beyond the smaller charge — to the right of sphere 2.)"
      ]
     }
-   ]
+   ],
+   "topic": "Unit 10 — Electric force, field, and potential"
   },
   {
    "id": "2",
@@ -107,7 +112,8 @@ const EXAM = {
       "For locating the image at the point where the rays cross (on the right side) and indicating that it is real and inverted"
      ],
      "model": [
-      "Ray 1 leaves the top of the object parallel to the principal axis, bends at the lens, and passes through the focal point on the right. Ray 2 passes through the center of the lens and continues in a straight line. The two rays cross on the right side of the lens, about 20 cm away, below the axis. The image is drawn as an arrow from the axis down to that crossing point: it is <b>real</b> (the light rays actually converge there) and <b>inverted</b>, and it is smaller than the object."
+      "Ray 1 leaves the top of the object parallel to the principal axis, bends at the lens, and passes through the focal point on the right. Ray 2 passes through the center of the lens and continues in a straight line.",
+      "The two rays cross on the right side of the lens, about 20 cm away, below the axis. The image is drawn as an arrow from the axis down to that crossing point: it is <b>real</b> (the light rays actually converge there) and <b>inverted</b>, and it is smaller than the object."
      ]
     },
     {
@@ -138,13 +144,15 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "The object is moved so that it is 8.0 cm from the lens. Describe the image that is formed (real or virtual, upright or inverted, larger or smaller than the object) and calculate the distance from the lens to the image. Show your work.",
+     "tip": "Keep the sign of the image distance. A negative <i>d</i><sub>i</sub> means a virtual image on the same side of the lens as the object, and it also makes the magnification positive (upright).",
      "rubric": [
       "For a correct calculation: 1/<i>d</i><sub>i</sub> = 1/12 − 1/8 = −1/24, so <i>d</i><sub>i</sub> = −24 cm",
       "For indicating that the negative image distance means the image is virtual (on the same side of the lens as the object)",
       "For indicating that the image is upright and larger than the object (<i>m</i> = +3.0)"
      ],
      "model": [
-      "Now the object is inside the focal length (8.0 cm is less than 12 cm). 1/<i>d</i><sub>i</sub> = 1/<i>f</i> − 1/<i>d</i><sub>o</sub> = 1/12 − 1/8 = (2 − 3)/24 = −1/24 cm<sup>−1</sup>, so <i>d</i><sub>i</sub> = <b>−24 cm</b>. The negative sign means the image is <b>virtual</b>: it is on the same side of the lens as the object, and the refracted rays only appear to diverge from it. The magnification is <i>m</i> = −<i>d</i><sub>i</sub>/<i>d</i><sub>o</sub> = +3.0, so the image is <b>upright</b> and <b>three times as large</b> as the object — the lens is acting as a magnifying glass."
+      "Now the object is inside the focal length (8.0 cm is less than 12 cm). 1/<i>d</i><sub>i</sub> = 1/<i>f</i> − 1/<i>d</i><sub>o</sub> = 1/12 − 1/8 = (2 − 3)/24 = −1/24 cm<sup>−1</sup>, so <i>d</i><sub>i</sub> = <b>−24 cm</b>.",
+      "The negative sign means the image is <b>virtual</b>: it is on the same side of the lens as the object, and the refracted rays only appear to diverge from it. The magnification is <i>m</i> = −<i>d</i><sub>i</sub>/<i>d</i><sub>o</sub> = +3.0, so the image is <b>upright</b> and <b>three times as large</b> as the object — the lens is acting as a magnifying glass."
      ]
     },
     {
@@ -154,9 +162,9 @@ const EXAM = {
      "paper": true,
      "modelFigures": [
       {
-       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"66\" y1=\"248\" x2=\"396\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"66\" y1=\"22\" x2=\"66\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"142.15\" y1=\"248\" x2=\"142.15\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"142.15\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"218.31\" y1=\"248\" x2=\"218.31\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"218.31\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">30</text><line x1=\"294.46\" y1=\"248\" x2=\"294.46\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"294.46\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">45</text><line x1=\"370.62\" y1=\"248\" x2=\"370.62\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"370.62\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">60</text><line x1=\"61\" y1=\"195.85\" x2=\"66\" y2=\"195.85\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"200.85\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"61\" y1=\"143.69\" x2=\"66\" y2=\"143.69\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"148.69\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">30</text><line x1=\"61\" y1=\"91.54\" x2=\"66\" y2=\"91.54\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"96.54\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">45</text><line x1=\"61\" y1=\"39.38\" x2=\"66\" y2=\"39.38\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"44.38\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">60</text><text x=\"231\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Object distance d_o (cm)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 135)\">Image distance d_i (cm)</text><path d=\"M142.15 39.38L147.23 81.11L157.38 122.83L167.54 143.69L187.85 164.55L218.31 178.46L269.08 188.4L319.85 193.1L370.62 195.85\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"147.23\" y=\"35.91\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">(15, 60)</text><text x=\"304.62\" y=\"180.2\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">(60, 15)</text></svg>",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"66\" y1=\"248\" x2=\"396\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"66\" y1=\"22\" x2=\"66\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"142.15\" y1=\"248\" x2=\"142.15\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"142.15\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"218.31\" y1=\"248\" x2=\"218.31\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"218.31\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">30</text><line x1=\"294.46\" y1=\"248\" x2=\"294.46\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"294.46\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">45</text><line x1=\"370.62\" y1=\"248\" x2=\"370.62\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"370.62\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">60</text><line x1=\"61\" y1=\"195.85\" x2=\"66\" y2=\"195.85\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"200.85\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"61\" y1=\"143.69\" x2=\"66\" y2=\"143.69\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"148.69\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">30</text><line x1=\"61\" y1=\"91.54\" x2=\"66\" y2=\"91.54\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"96.54\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">45</text><line x1=\"61\" y1=\"39.38\" x2=\"66\" y2=\"39.38\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"44.38\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">60</text><text x=\"231\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Object distance d<tspan baseline-shift=\"sub\" font-size=\"75%\">o</tspan> (cm)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 135)\">Image distance d<tspan baseline-shift=\"sub\" font-size=\"75%\">i</tspan> (cm)</text><path d=\"M142.15 39.38L147.23 81.11L152.31 106.14L157.38 122.83L162.46 134.75L167.54 143.69L172.62 150.65L177.69 156.21L182.77 160.76L187.85 164.55L192.92 167.76L198 170.51L203.08 172.9L208.15 174.98L213.23 176.83L218.31 178.46L223.38 179.93L228.46 181.24L233.54 182.44L238.62 183.52L243.69 184.51L248.77 185.42L253.85 186.25L258.92 187.02L264 187.73L269.08 188.4L274.15 189.01L279.23 189.59L284.31 190.13L289.38 190.63L294.46 191.1L299.54 191.55L304.62 191.97L309.69 192.37L314.77 192.75L319.85 193.1L324.92 193.44L330 193.76L335.08 194.07L340.15 194.36L345.23 194.63L350.31 194.9L355.38 195.15L360.46 195.39L365.54 195.62L370.62 195.85\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"147.23\" y=\"35.91\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">(15, 60)</text><text x=\"304.62\" y=\"180.2\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">(60, 15)</text></svg>",
        "alt": "A graph of image distance versus object distance. The curve starts at 60 centimeters when the object distance is 15 centimeters, decreases steeply at first and then gradually, and levels off toward about 15 centimeters at an object distance of 60 centimeters.",
-       "caption": "Model graph: d_i decreases from 60 cm to 15 cm, concave up, approaching f = 12 cm for large d_o."
+       "caption": "Model graph: <i>d</i><sub>i</sub> decreases from 60 cm to 15 cm, concave up, approaching <i>f</i> = 12 cm for large <i>d</i><sub>o</sub>."
       }
      ],
      "rubric": [
@@ -164,10 +172,12 @@ const EXAM = {
       "For correct end values: <i>d</i><sub>i</sub> = 60 cm at <i>d</i><sub>o</sub> = 15 cm and <i>d</i><sub>i</sub> = 15 cm at <i>d</i><sub>o</sub> = 60 cm"
      ],
      "model": [
-      "From the thin-lens equation, <i>d</i><sub>i</sub> = <i>f d</i><sub>o</sub>/(<i>d</i><sub>o</sub> − <i>f</i>) = 12<i>d</i><sub>o</sub>/(<i>d</i><sub>o</sub> − 12). At <i>d</i><sub>o</sub> = 15 cm, <i>d</i><sub>i</sub> = 180/3 = 60 cm; at <i>d</i><sub>o</sub> = 20 cm, <i>d</i><sub>i</sub> = 30 cm; at <i>d</i><sub>o</sub> = 30 cm, <i>d</i><sub>i</sub> = 20 cm; at <i>d</i><sub>o</sub> = 60 cm, <i>d</i><sub>i</sub> = 720/48 = 15 cm. The graph is a smooth, decreasing curve that is concave up. As the object moves far away, the image distance approaches the focal length (12 cm), and as the object approaches the focal point, the image distance grows very large."
+      "From the thin-lens equation, <i>d</i><sub>i</sub> = <i>f d</i><sub>o</sub>/(<i>d</i><sub>o</sub> − <i>f</i>) = 12<i>d</i><sub>o</sub>/(<i>d</i><sub>o</sub> − 12). At <i>d</i><sub>o</sub> = 15 cm, <i>d</i><sub>i</sub> = 180/3 = 60 cm; at <i>d</i><sub>o</sub> = 20 cm, <i>d</i><sub>i</sub> = 30 cm; at <i>d</i><sub>o</sub> = 30 cm, <i>d</i><sub>i</sub> = 20 cm; at <i>d</i><sub>o</sub> = 60 cm, <i>d</i><sub>i</sub> = 720/48 = 15 cm.",
+      "The graph is a smooth, decreasing curve that is concave up. As the object moves far away, the image distance approaches the focal length (12 cm), and as the object approaches the focal point, the image distance grows very large."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 13 — Geometric optics (thin lenses)"
   },
   {
    "id": "3",
@@ -230,7 +240,8 @@ const EXAM = {
       "For indicating that the voltmeter is connected in parallel across the terminals of the battery"
      ],
      "model": [
-      "The ammeter must carry the battery's current, so it is placed in series in the loop containing the battery, the variable resistor and the switch. The voltmeter must measure the potential difference between the battery's terminals, so it is connected in parallel with the battery — one lead to each terminal. (An ideal voltmeter has very high resistance and draws almost no current; an ideal ammeter has very low resistance and does not change the current.)"
+      "The ammeter must carry the battery's current, so it is placed in series in the loop containing the battery, the variable resistor and the switch. The voltmeter must measure the potential difference between the battery's terminals, so it is connected in parallel with the battery — one lead to each terminal.",
+      "(An ideal voltmeter has very high resistance and draws almost no current; an ideal ammeter has very low resistance and does not change the current.)"
      ]
     },
     {
@@ -249,13 +260,15 @@ const EXAM = {
      "id": "B (ii)",
      "label": "Part B (ii)",
      "prompt": "The student draws a best-fit line through the data. The line passes through the points (0.40 A, 8.4 V) and (2.8 A, 4.8 V). Use these points to determine the internal resistance <i>r</i> and the emf ε of the battery. Show your work.",
+     "tip": "The slope of <i>V</i> versus <i>I</i> is −<i>r</i>, so the internal resistance is the <em>magnitude</em> of the slope. Don't report <i>r</i> as a negative number, and don't use a measured data point instead of the line.",
      "rubric": [
       "For a correct calculation of the slope of the best-fit line: (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −1.5 V/A",
       "For a correct internal resistance of 1.5 Ω (the magnitude of the slope, with units)",
       "For a correct emf of 9.0 V, from the vertical intercept or from substituting a point into <i>V</i> = ε − <i>Ir</i>"
      ],
      "model": [
-      "Slope = Δ<i>V</i>/Δ<i>I</i> = (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −3.6 V / 2.4 A = −1.5 V/A. Because the slope equals −<i>r</i>, the internal resistance is <b><i>r</i> = 1.5 Ω</b>. For the emf, use a point on the line in <i>V</i> = ε − <i>Ir</i>: ε = <i>V</i> + <i>Ir</i> = 8.4 V + (0.40 A)(1.5 Ω) = <b>9.0 V</b>. This is the value of the line where it crosses the vertical axis at <i>I</i> = 0."
+      "Slope = Δ<i>V</i>/Δ<i>I</i> = (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −3.6 V / 2.4 A = −1.5 V/A. Because the slope equals −<i>r</i>, the internal resistance is <b><i>r</i> = 1.5 Ω</b>.",
+      "For the emf, use a point on the line in <i>V</i> = ε − <i>Ir</i>: ε = <i>V</i> + <i>Ir</i> = 8.4 V + (0.40 A)(1.5 Ω) = <b>9.0 V</b>. This is the value of the line where it crosses the vertical axis at <i>I</i> = 0."
      ]
     },
     {
@@ -266,7 +279,8 @@ const EXAM = {
       "For a valid improvement, such as repeating each measurement several times and averaging; taking more trials over a wider range of currents; or keeping the switch closed only briefly (so the battery does not heat up or run down during the measurements)"
      ],
      "model": [
-      "The student could take several readings at each resistor setting and average them, which reduces the effect of random reading errors. Taking more trials spread over a wider range of currents also gives a better-determined best-fit line. A third good practice is to close the switch only long enough to read the meters, because a battery that is running for a long time warms and drains, which changes its emf and internal resistance during the experiment."
+      "The student could take several readings at each resistor setting and average them, which reduces the effect of random reading errors. Taking more trials spread over a wider range of currents also gives a better-determined best-fit line.",
+      "A third good practice is to close the switch only long enough to read the meters, because a battery that is running for a long time warms and drains, which changes its emf and internal resistance during the experiment."
      ]
     },
     {
@@ -278,10 +292,13 @@ const EXAM = {
       "For explaining that <i>V</i> = ε − <i>Ir</i>, so the terminal voltage equals the emf only when the current is zero (at the vertical intercept) — otherwise there is a potential drop across the internal resistance"
      ],
      "model": [
-      "The data do not support the claim. The terminal voltage falls from about 8.3 V to about 4.5 V as the current increases from 0.50 A to 3.0 A, so it is not constant and not equal to the 9.0 V emf. The graph's equation, <i>V</i> = ε − <i>Ir</i>, shows why: a current in the battery produces a potential drop <i>Ir</i> across the internal resistance, so the potential difference available to the external circuit is smaller than the emf. The terminal voltage equals the emf only in the limit of zero current, where the line meets the vertical axis."
+      "The data do not support the claim. The terminal voltage falls from about 8.3 V to about 4.5 V as the current increases from 0.50 A to 3.0 A, so it is not constant and not equal to the 9.0 V emf.",
+      "The graph's equation, <i>V</i> = ε − <i>Ir</i>, shows why: a current in the battery produces a potential drop <i>Ir</i> across the internal resistance, so the potential difference available to the external circuit is smaller than the emf.",
+      "The terminal voltage equals the emf only in the limit of zero current, where the line meets the vertical axis."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 11 — Electric circuits (emf and internal resistance)"
   },
   {
    "id": "4",
@@ -307,12 +324,14 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Indicate whether the root-mean-square (rms) speed of the helium atoms is greater than, less than, or equal to that of the argon atoms, and calculate the ratio <i>v</i><sub>rms,He</sub>/<i>v</i><sub>rms,Ar</sub>. Show your work.",
+     "tip": "Equal average kinetic energy does <em>not</em> mean equal speeds. For the same kinetic energy, the lighter atoms must move faster (<i>v</i> ∝ 1/√<i>m</i>).",
      "rubric": [
       "For indicating that the rms speed of helium is greater than that of argon",
       "For a correct ratio of about 3.2, obtained from the equal kinetic energies: <i>v</i><sub>He</sub>/<i>v</i><sub>Ar</sub> = √(<i>m</i><sub>Ar</sub>/<i>m</i><sub>He</sub>) = √(39.9/4.0)"
      ],
      "model": [
-      "Because the average kinetic energy ½<i>mv</i><sup>2</sup> is the same for both and a helium atom is far less massive, helium atoms must move faster: <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>), so the speed varies as 1/√<i>m</i>. The ratio is <i>v</i><sub>He</sub>/<i>v</i><sub>Ar</sub> = √(<i>m</i><sub>Ar</sub>/<i>m</i><sub>He</sub>) = √(39.9/4.0) = <b>3.2</b>. The helium atoms' rms speed is a little more than three times that of the argon atoms."
+      "Because the average kinetic energy ½<i>mv</i><sup>2</sup> is the same for both and a helium atom is far less massive, helium atoms must move faster: <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>), so the speed varies as 1/√<i>m</i>.",
+      "The ratio is <i>v</i><sub>He</sub>/<i>v</i><sub>Ar</sub> = √(<i>m</i><sub>Ar</sub>/<i>m</i><sub>He</sub>) = √(39.9/4.0) = <b>3.2</b>. The helium atoms' rms speed is a little more than three times that of the argon atoms."
      ]
     },
     {
@@ -336,10 +355,12 @@ const EXAM = {
       "For indicating that the pressure increases (doubles), because with <i>V</i> and <i>n</i> fixed <i>P</i> is proportional to <i>T</i> (or because faster atoms collide with the walls more often and more forcefully)"
      ],
      "model": [
-      "Since <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>) is proportional to √<i>T</i>, doubling the absolute temperature multiplies the rms speed by √2 ≈ <b>1.4</b> (helium: about 1.9 × 10<sup>3</sup> m/s). The container is rigid and sealed, so <i>V</i> and the number of atoms stay the same; from <i>PV</i> = <i>nRT</i>, the pressure is proportional to <i>T</i> and <b>doubles</b>. Microscopically, the faster atoms hit the walls more often and with larger momentum changes."
+      "Since <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>) is proportional to √<i>T</i>, doubling the absolute temperature multiplies the rms speed by √2 ≈ <b>1.4</b> (helium: about 1.9 × 10<sup>3</sup> m/s). The container is rigid and sealed, so <i>V</i> and the number of atoms stay the same; from <i>PV</i> = <i>nRT</i>, the pressure is proportional to <i>T</i> and <b>doubles</b>.",
+      "Microscopically, the faster atoms hit the walls more often and with larger momentum changes."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Thermodynamics (kinetic theory of gases)"
   }
  ]
 };

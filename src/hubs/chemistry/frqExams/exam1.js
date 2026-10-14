@@ -28,6 +28,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the thermal energy, in joules, absorbed by the solution during the experiment. Show your work.",
+     "tip": "Use the total mass of the mixed solution (100.0 g, from both 50.0 mL volumes), not just one solution's mass.",
      "rubric": [
       "For using <i>q</i> = <i>mc</i>Δ<i>T</i> with the total mass of the mixture (100.0 g) and Δ<i>T</i> = 6.5 °C",
       "For the correct value, about 2.7 × 10<sup>3</sup> J (2717 J)"
@@ -83,7 +84,8 @@ const EXAM = {
       "Δ<i>H</i>° = Σ Δ<i>H</i><sub>f</sub>°(products) − Σ Δ<i>H</i><sub>f</sub>°(reactants) = (−285.8) − [(−230.0) + 0] = <b>−55.8 kJ/mol</b>. The experimental value, about −54 kJ/mol, is about 2.6% smaller in magnitude. This is <b>consistent</b> with some energy leaving the cup: if the solution did not absorb all the energy released, the measured temperature rise would be smaller than expected, and so would the calculated magnitude of Δ<i>H</i>."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 6 — Thermochemistry (calorimetry and enthalpy)"
   },
   {
    "id": "2",
@@ -130,13 +132,15 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Using the data in Table 1, determine the order of the reaction with respect to H<sub>2</sub>O<sub>2</sub> and with respect to I<sup>−</sup>. Justify your answers, and then write the rate law for the reaction.",
+     "tip": "Determine each order from how the rate changes when one concentration changes. Orders are not the coefficients in the balanced equation.",
      "rubric": [
       "For the correct order with respect to H<sub>2</sub>O<sub>2</sub> (first order), justified by comparing trials 1 and 2: doubling [H<sub>2</sub>O<sub>2</sub>] with [I<sup>−</sup>] constant doubles the rate",
       "For the correct order with respect to I<sup>−</sup> (first order), justified by comparing trials 1 and 3: doubling [I<sup>−</sup>] with [H<sub>2</sub>O<sub>2</sub>] constant doubles the rate",
       "For the correct rate law: rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>]"
      ],
      "model": [
-      "Compare trials 1 and 2: [H<sub>2</sub>O<sub>2</sub>] doubles (0.10 M → 0.20 M) while [I<sup>−</sup>] is constant, and the rate doubles (1.2 × 10<sup>−3</sup> → 2.4 × 10<sup>−3</sup> M/s), so the reaction is <b>first order in H<sub>2</sub>O<sub>2</sub></b>. Compare trials 1 and 3: [I<sup>−</sup>] doubles with [H<sub>2</sub>O<sub>2</sub>] constant, and the rate doubles, so the reaction is <b>first order in I<sup>−</sup></b>. The rate law is <b>rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>]</b>."
+      "Compare trials 1 and 2: [H<sub>2</sub>O<sub>2</sub>] doubles (0.10 M → 0.20 M) while [I<sup>−</sup>] is constant, and the rate doubles (1.2 × 10<sup>−3</sup> → 2.4 × 10<sup>−3</sup> M/s), so the reaction is <b>first order in H<sub>2</sub>O<sub>2</sub></b>.",
+      "Compare trials 1 and 3: [I<sup>−</sup>] doubles with [H<sub>2</sub>O<sub>2</sub>] constant, and the rate doubles, so the reaction is <b>first order in I<sup>−</sup></b>. The rate law is <b>rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>]</b>."
      ]
     },
     {
@@ -171,7 +175,9 @@ const EXAM = {
       "For identifying I<sup>−</sup> as the catalyst (consumed in step 1 and regenerated in step 2) and IO<sup>−</sup> as the intermediate (produced in step 1 and consumed in step 2)"
      ],
      "model": [
-      "The rate of a multistep reaction is set by its slowest (rate-determining) step. Step 1 is an elementary step that involves one H<sub>2</sub>O<sub>2</sub> and one I<sup>−</sup>, so its rate law is rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>], exactly the experimental rate law. The <b>catalyst is I<sup>−</sup></b>: it is used in step 1 and regenerated in step 2, and it does not appear in the overall equation. The <b>intermediate is IO<sup>−</sup></b>: it is formed in step 1 and used up in step 2. Adding the two steps gives 2 H<sub>2</sub>O<sub>2</sub> → 2 H<sub>2</sub>O + O<sub>2</sub>, matching the overall reaction."
+      "The rate of a multistep reaction is set by its slowest (rate-determining) step. Step 1 is an elementary step that involves one H<sub>2</sub>O<sub>2</sub> and one I<sup>−</sup>, so its rate law is rate = <i>k</i>[H<sub>2</sub>O<sub>2</sub>][I<sup>−</sup>], exactly the experimental rate law.",
+      "The <b>catalyst is I<sup>−</sup></b>: it is used in step 1 and regenerated in step 2, and it does not appear in the overall equation. The <b>intermediate is IO<sup>−</sup></b>: it is formed in step 1 and used up in step 2.",
+      "Adding the two steps gives 2 H<sub>2</sub>O<sub>2</sub> → 2 H<sub>2</sub>O + O<sub>2</sub>, matching the overall reaction."
      ]
     },
     {
@@ -191,10 +197,12 @@ const EXAM = {
       "For indicating that the enthalpy change (the energy difference between reactants and products) is unchanged, because the reactants and products are the same"
      ],
      "model": [
-      "On a potential energy diagram, both pathways start at the same energy for the reactants and end at the same energy for the products, so the <b>enthalpy change is unchanged</b>. The catalyzed pathway (dashed) has a <b>lower peak</b>, which means a <b>lower activation energy</b>. A lower activation energy means that a larger fraction of collisions have enough energy to react, so the rate constant increases."
+      "On a potential energy diagram, both pathways start at the same energy for the reactants and end at the same energy for the products, so the <b>enthalpy change is unchanged</b>. The catalyzed pathway (dashed) has a <b>lower peak</b>, which means a <b>lower activation energy</b>.",
+      "A lower activation energy means that a larger fraction of collisions have enough energy to react, so the rate constant increases."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Kinetics (rate laws, mechanisms, catalysts)"
   },
   {
    "id": "3",
@@ -224,16 +232,17 @@ const EXAM = {
      "rubric": [
       "For a correct equilibrium setup, e.g., 1.8 × 10<sup>−5</sup> = <i>x</i><sup>2</sup>/(0.150 − <i>x</i>) with [NH<sub>4</sub><sup>+</sup>] = [OH<sup>−</sup>] = <i>x</i>",
       "For a correct value of [OH<sup>−</sup>], about 1.6 × 10<sup>−3</sup> M (using the approximation 0.150 − <i>x</i> ≈ 0.150)",
-      "For a correct pH of about 11.2 (pOH = 2.79, pH = 14.00 − pOH)"
+      "For a correct pH of about 11.2 (pOH ≈ 2.8, pH = 14.00 − pOH)"
      ],
      "model": [
-      "Let <i>x</i> = [OH<sup>−</sup>] = [NH<sub>4</sub><sup>+</sup>] at equilibrium. Because <i>K</i><sub>b</sub> is small, assume 0.150 − <i>x</i> ≈ 0.150. Then <i>x</i><sup>2</sup> = (1.8 × 10<sup>−5</sup>)(0.150) = 2.7 × 10<sup>−6</sup>, so [OH<sup>−</sup>] = <i>x</i> = 1.6 × 10<sup>−3</sup> M ≈ 1.6 × 10<sup>−3</sup> M (which is about 1% of 0.150 M, so the approximation is valid). pOH = −log(1.6 × 10<sup>−3</sup>) = 2.78, so pH = 14.00 − 2.78 = <b>11.22</b>."
+      "Let <i>x</i> = [OH<sup>−</sup>] = [NH<sub>4</sub><sup>+</sup>] at equilibrium. Because <i>K</i><sub>b</sub> is small, assume 0.150 − <i>x</i> ≈ 0.150. Then <i>x</i><sup>2</sup> = (1.8 × 10<sup>−5</sup>)(0.150) = 2.7 × 10<sup>−6</sup>, so [OH<sup>−</sup>] = <i>x</i> = 1.64 × 10<sup>−3</sup> M ≈ 1.6 × 10<sup>−3</sup> M (which is about 1% of 0.150 M, so the approximation is valid). pOH = −log(1.64 × 10<sup>−3</sup>) = 2.78, so pH = 14.00 − 2.78 = <b>11.22</b> (about 11.2)."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "A buffer solution is prepared by adding 10.0 mL of 0.150 <i>M</i> HCl(<i>aq</i>) to 25.0 mL of 0.150 <i>M</i> NH<sub>3</sub>(<i>aq</i>). Calculate the pH of the buffer. Show your work.",
+     "tip": "After the strong acid reacts, treat the leftover NH<sub>3</sub> and the NH<sub>4</sub><sup>+</sup> formed as the buffer pair. Use the amounts <em>after</em> the reaction, not the starting amounts.",
      "rubric": [
       "For correctly determining the moles after the reaction NH<sub>3</sub> + H<sup>+</sup> → NH<sub>4</sub><sup>+</sup>: 3.75 mmol NH<sub>3</sub> − 1.50 mmol = 2.25 mmol NH<sub>3</sub> remaining and 1.50 mmol NH<sub>4</sub><sup>+</sup> formed",
       "For a correct method for the pH of a buffer: the Henderson–Hasselbalch equation (with p<i>K</i><sub>a</sub> of NH<sub>4</sub><sup>+</sup> = 14.00 − p<i>K</i><sub>b</sub> = 9.26) or substitution into the <i>K</i><sub>b</sub> expression",
@@ -252,10 +261,12 @@ const EXAM = {
       "For explaining that NH<sub>4</sub><sup>+</sup> donates protons to water, NH<sub>4</sub><sup>+</sup> + H<sub>2</sub>O ⇌ NH<sub>3</sub> + H<sub>3</sub>O<sup>+</sup>, producing H<sub>3</sub>O<sup>+</sup> and making the solution acidic"
      ],
      "model": [
-      "At the equivalence point, all the NH<sub>3</sub> has been converted to NH<sub>4</sub><sup>+</sup>, and the solution contains NH<sub>4</sub><sup>+</sup> and Cl<sup>−</sup>. Cl<sup>−</sup> is the conjugate base of a strong acid and does not react with water. NH<sub>4</sub><sup>+</sup> is the conjugate acid of a weak base and is a weak acid: NH<sub>4</sub><sup>+</sup>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ NH<sub>3</sub>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>). This adds H<sub>3</sub>O<sup>+</sup> to the solution, so the pH at the equivalence point is below 7 (about 5.2 for a 0.075 M solution)."
+      "At the equivalence point, all the NH<sub>3</sub> has been converted to NH<sub>4</sub><sup>+</sup>, and the solution contains NH<sub>4</sub><sup>+</sup> and Cl<sup>−</sup>. Cl<sup>−</sup> is the conjugate base of a strong acid and does not react with water.",
+      "NH<sub>4</sub><sup>+</sup> is the conjugate acid of a weak base and is a weak acid: NH<sub>4</sub><sup>+</sup>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ NH<sub>3</sub>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>). This adds H<sub>3</sub>O<sup>+</sup> to the solution, so the pH at the equivalence point is below 7 (about 5.2 for a 0.075 M solution)."
      ]
     }
-   ]
+   ],
+   "topic": "Units 7 and 8 — Equilibrium and acids and bases (weak bases and buffers)"
   },
   {
    "id": "4",
@@ -274,22 +285,26 @@ const EXAM = {
       "For correctly identifying the forces in dimethyl ether: London dispersion forces and dipole–dipole forces (no hydrogen bonding, because H is not bonded to O, N, or F)"
      ],
      "model": [
-      "<b>Ethanol:</b> London dispersion forces (all molecules), dipole–dipole attractions (polar C–O and O–H bonds in a bent, polar molecule), and hydrogen bonding (a hydrogen covalently bonded to the very electronegative oxygen is attracted to a lone pair on oxygen of a neighboring molecule). <b>Dimethyl ether:</b> London dispersion forces and dipole–dipole attractions only; its hydrogens are bonded to carbon, not to O, N, or F, so it cannot form hydrogen bonds with itself."
+      "<b>Ethanol:</b> London dispersion forces (all molecules), dipole–dipole attractions (polar C–O and O–H bonds in a bent, polar molecule), and hydrogen bonding (a hydrogen covalently bonded to the very electronegative oxygen is attracted to a lone pair on oxygen of a neighboring molecule).",
+      "<b>Dimethyl ether:</b> London dispersion forces and dipole–dipole attractions only; its hydrogens are bonded to carbon, not to O, N, or F, so it cannot form hydrogen bonds with itself."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "In terms of the relative strengths of the intermolecular forces, explain why ethanol has a much higher boiling point than dimethyl ether.",
+     "tip": "Boiling ethanol does not break its covalent bonds. The difference in boiling point comes from the intermolecular forces.",
      "rubric": [
       "For indicating that the two molecules have similar molar masses and therefore similar dispersion forces, so the difference is due to hydrogen bonding in ethanol",
       "For explaining that hydrogen bonds are stronger than the other forces present in dimethyl ether, so more energy (a higher temperature) is needed to overcome the attractions between ethanol molecules and vaporize the liquid"
      ],
      "model": [
-      "The molar masses are essentially the same, so the London dispersion forces are of similar strength in both liquids. The important difference is that ethanol molecules form hydrogen bonds with each other, which are much stronger than the dipole–dipole and dispersion forces that hold dimethyl ether molecules together. More energy must be supplied to separate ethanol molecules from the liquid, so ethanol must be heated to a much higher temperature (78 °C) before its vapor pressure equals atmospheric pressure."
+      "The molar masses are essentially the same, so the London dispersion forces are of similar strength in both liquids. The important difference is that ethanol molecules form hydrogen bonds with each other, which are much stronger than the dipole–dipole and dispersion forces that hold dimethyl ether molecules together.",
+      "More energy must be supplied to separate ethanol molecules from the liquid, so ethanol must be heated to a much higher temperature (78 °C) before its vapor pressure equals atmospheric pressure."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Intermolecular forces and properties of liquids"
   },
   {
    "id": "5",
@@ -315,22 +330,26 @@ const EXAM = {
       "For a correct electron configuration, 1<i>s</i><sup>2</sup>2<i>s</i><sup>2</sup>2<i>p</i><sup>6</sup>3<i>s</i><sup>2</sup>3<i>p</i><sup>4</sup> (consistent with the peak heights: 2, 2, 6, 2, 4)"
      ],
      "model": [
-      "The relative peak heights give the numbers of electrons in each subshell: 2 + 2 + 6 + 2 + 4 = 16 electrons. A neutral atom with 16 electrons has 16 protons, so element X is <b>sulfur</b>. Reading from the highest binding energy (the 1<i>s</i> electrons, closest to the nucleus) to the lowest, the peaks correspond to 1<i>s</i><sup>2</sup>, 2<i>s</i><sup>2</sup>, 2<i>p</i><sup>6</sup>, 3<i>s</i><sup>2</sup>, 3<i>p</i><sup>4</sup>: the configuration is <b>1<i>s</i><sup>2</sup>2<i>s</i><sup>2</sup>2<i>p</i><sup>6</sup>3<i>s</i><sup>2</sup>3<i>p</i><sup>4</sup></b>."
+      "The relative peak heights give the numbers of electrons in each subshell: 2 + 2 + 6 + 2 + 4 = 16 electrons. A neutral atom with 16 electrons has 16 protons, so element X is <b>sulfur</b>.",
+      "Reading from the highest binding energy (the 1<i>s</i> electrons, closest to the nucleus) to the lowest, the peaks correspond to 1<i>s</i><sup>2</sup>, 2<i>s</i><sup>2</sup>, 2<i>p</i><sup>6</sup>, 3<i>s</i><sup>2</sup>, 3<i>p</i><sup>4</sup>: the configuration is <b>1<i>s</i><sup>2</sup>2<i>s</i><sup>2</sup>2<i>p</i><sup>6</sup>3<i>s</i><sup>2</sup>3<i>p</i><sup>4</sup></b>."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "Explain, in terms of electron shielding and distance from the nucleus, why the 3<i>s</i> peak has a higher binding energy (2.19 MJ/mol) than the 3<i>p</i> peak (1.00 MJ/mol), even though both subshells are in the third energy level.",
+     "tip": "Name shielding and penetration (effective nuclear charge). Simply saying “3<i>s</i> is closer” without the reason is incomplete.",
      "rubric": [
       "For explaining that a 3<i>s</i> electron penetrates closer to the nucleus (has a higher probability of being near the nucleus) than a 3<i>p</i> electron, so it is shielded less by the inner electrons and experiences a larger effective nuclear charge",
       "For concluding that the stronger attraction (Coulomb's law) means that more energy is needed to remove a 3<i>s</i> electron than a 3<i>p</i> electron"
      ],
      "model": [
-      "Both subshells are in the third shell, but a 3<i>s</i> electron has a greater probability of being found close to the nucleus (it penetrates through the inner shells), so it is shielded less by the 1<i>s</i>, 2<i>s</i>, and 2<i>p</i> electrons and experiences a larger effective nuclear charge. By Coulomb's law the attraction between the nucleus and the 3<i>s</i> electrons is stronger, so more energy is needed to remove them: the 3<i>s</i> binding energy is higher than the 3<i>p</i> binding energy."
+      "Both subshells are in the third shell, but a 3<i>s</i> electron has a greater probability of being found close to the nucleus (it penetrates through the inner shells), so it is shielded less by the 1<i>s</i>, 2<i>s</i>, and 2<i>p</i> electrons and experiences a larger effective nuclear charge.",
+      "By Coulomb's law the attraction between the nucleus and the 3<i>s</i> electrons is stronger, so more energy is needed to remove them: the 3<i>s</i> binding energy is higher than the 3<i>p</i> binding energy."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 1 — Atomic structure and properties (photoelectron spectroscopy)"
   },
   {
    "id": "6",
@@ -355,16 +374,19 @@ const EXAM = {
     {
      "id": "B",
      "label": "Part B",
-     "prompt": "In a second experiment, the student collects the O<sub>2</sub>(<i>g</i>) over water. The total pressure of the gas in the collection vessel is 1.00 atm, and the vapor pressure of water at 298 K is 0.031 atm. A student who mistakenly uses 1.00 atm as the pressure of the O<sub>2</sub> in a calculation of the moles of O<sub>2</sub> collected will obtain a value that is too high, too low, or correct. Explain.",
+     "prompt": "In a second experiment, the student collects the O<sub>2</sub>(<i>g</i>) over water. The total pressure of the gas in the collection vessel is 1.00 atm, and the vapor pressure of water at 298 K is 0.031 atm. A student calculates the moles of O<sub>2</sub> collected by mistakenly using 1.00 atm as the pressure of the O<sub>2</sub>. Will the calculated number of moles be too high, too low, or correct? Explain.",
+     "tip": "Water vapor adds its own partial pressure, so the O<sub>2</sub> pressure is <em>less</em> than the total pressure. Using the total pressure overestimates the moles of O<sub>2</sub>.",
      "rubric": [
       "For indicating that the calculated moles will be too high",
       "For explaining that the gas contains water vapor, so the partial pressure of O<sub>2</sub> is only 1.00 − 0.031 = 0.97 atm; using a larger pressure in <i>n</i> = <i>PV</i>/<i>RT</i> gives too many moles"
      ],
      "model": [
-      "The calculated value will be <b>too high</b>. The gas in the vessel is a mixture of O<sub>2</sub> and water vapor, so by Dalton's law the partial pressure of O<sub>2</sub> is 1.00 atm − 0.031 atm = 0.97 atm. In <i>n</i> = <i>PV</i>/<i>RT</i> with the same <i>V</i> and <i>T</i>, using 1.00 atm instead of 0.97 atm overestimates the moles of O<sub>2</sub> by about 3%."
+      "The calculated value will be <b>too high</b>. The gas in the vessel is a mixture of O<sub>2</sub> and water vapor, so by Dalton's law the partial pressure of O<sub>2</sub> is 1.00 atm − 0.031 atm = 0.97 atm.",
+      "In <i>n</i> = <i>PV</i>/<i>RT</i> with the same <i>V</i> and <i>T</i>, using 1.00 atm instead of 0.97 atm overestimates the moles of O<sub>2</sub> by about 3%."
      ]
     }
-   ]
+   ],
+   "topic": "Units 3 and 4 — Gases and stoichiometry"
   },
   {
    "id": "7",
@@ -378,6 +400,7 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Calculate the value of Δ<i>G</i>° for the reaction at 298 K, in kJ/mol<sub>rxn</sub>. Is the reaction thermodynamically favorable at 298 K? Justify your answer. Show your work.",
+     "tip": "Convert Δ<i>S</i>° from J/(mol·K) to kJ/(mol·K) before combining it with Δ<i>H</i>° in kJ.",
      "rubric": [
       "For the correct calculation, Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° = 57.2 kJ − (298 K)(0.1758 kJ/K) ≈ +4.8 kJ/mol (the unit conversion of Δ<i>S</i>° to kJ is essential)",
       "For indicating that the reaction is not thermodynamically favorable at 298 K because Δ<i>G</i>° is positive"
@@ -395,10 +418,12 @@ const EXAM = {
       "For explaining that Δ<i>S</i>° is positive (more moles of gas) and Δ<i>H</i>° is positive, so the −<i>T</i>Δ<i>S</i>° term becomes more negative as <i>T</i> increases until it outweighs the positive Δ<i>H</i>°"
      ],
      "model": [
-      "The reaction becomes favorable when Δ<i>G</i>° < 0, i.e., when <i>T</i>Δ<i>S</i>° > Δ<i>H</i>°. At the crossover, <i>T</i> = Δ<i>H</i>°/Δ<i>S</i>° = (57,200 J/mol)/(175.8 J/(mol·K)) = <b>325 K</b>; above about 325 K (52 °C), the forward reaction is favorable. The reaction is endothermic (Δ<i>H</i>° > 0, which opposes it), but one mole of gas becomes two (Δ<i>S</i>° > 0, which favors it). Raising the temperature increases the importance of the entropy term, −<i>T</i>Δ<i>S</i>°, until it outweighs the enthalpy term."
+      "The reaction becomes favorable when Δ<i>G</i>° < 0, i.e., when <i>T</i>Δ<i>S</i>° > Δ<i>H</i>°. At the crossover, <i>T</i> = Δ<i>H</i>°/Δ<i>S</i>° = (57,200 J/mol)/(175.8 J/(mol·K)) = <b>325 K</b>; above about 325 K (52 °C), the forward reaction is favorable.",
+      "The reaction is endothermic (Δ<i>H</i>° > 0, which opposes it), but one mole of gas becomes two (Δ<i>S</i>° > 0, which favors it). Raising the temperature increases the importance of the entropy term, −<i>T</i>Δ<i>S</i>°, until it outweighs the enthalpy term."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Thermodynamics (free energy)"
   }
  ]
 };

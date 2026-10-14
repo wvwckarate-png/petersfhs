@@ -14,7 +14,7 @@ const EXAM = {
    ],
    "figures": [
     {
-     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><text x=\"70\" y=\"16\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">Energy (eV)</text><line x1=\"110\" y1=\"266.53\" x2=\"230\" y2=\"266.53\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"270.53\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 1</text><text x=\"240\" y=\"270.53\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">-13.6 eV</text><line x1=\"110\" y1=\"94.74\" x2=\"230\" y2=\"94.74\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"98.74\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 2</text><text x=\"240\" y=\"98.74\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">-3.4 eV</text><line x1=\"110\" y1=\"62.91\" x2=\"230\" y2=\"62.91\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"66.91\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 3</text><text x=\"240\" y=\"66.91\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">-1.51 eV</text><line x1=\"110\" y1=\"37.47\" x2=\"230\" y2=\"37.47\" stroke=\"#9AA096\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/><text x=\"240\" y=\"41.47\" text-anchor=\"start\" font-size=\"12\" font-weight=\"400\" fill=\"#767F73\">0 eV (ionized)</text></svg>",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><text x=\"70\" y=\"16\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">Energy (eV)</text><line x1=\"110\" y1=\"266.53\" x2=\"230\" y2=\"266.53\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"270.53\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 1</text><text x=\"240\" y=\"270.53\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">−13.6 eV</text><line x1=\"110\" y1=\"94.74\" x2=\"230\" y2=\"94.74\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"98.74\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 2</text><text x=\"240\" y=\"98.74\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">−3.4 eV</text><line x1=\"110\" y1=\"62.91\" x2=\"230\" y2=\"62.91\" stroke=\"#2E332E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"100\" y=\"66.91\" text-anchor=\"end\" font-size=\"13\" font-weight=\"700\" fill=\"#2E332E\">n = 3</text><text x=\"240\" y=\"66.91\" text-anchor=\"start\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">−1.51 eV</text><line x1=\"110\" y1=\"37.47\" x2=\"230\" y2=\"37.47\" stroke=\"#9AA096\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/><text x=\"240\" y=\"41.47\" text-anchor=\"start\" font-size=\"12\" font-weight=\"400\" fill=\"#767F73\">0 eV (ionized)</text></svg>",
      "alt": "An energy level diagram for a hydrogen-like atom: the n equals 1 level at negative 13.6 electron volts, the n equals 2 level at negative 3.40 electron volts, the n equals 3 level at negative 1.51 electron volts, and a dashed line at 0 electron volts for the ionized atom.",
      "caption": "Figure 1",
      "maxWidth": 440
@@ -51,6 +51,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Light of frequency <i>f</i> is incident on a metal surface with work function φ, and photoelectrons are emitted. Derive an expression for the stopping potential <i>V</i><sub>s</sub> — the smallest potential difference that stops even the most energetic photoelectrons. Express your answer in terms of <i>f</i>, φ, <i>e</i>, and physical constants, as appropriate.",
+     "tip": "When the stopping potential is in volts, the maximum kinetic energy in eV has the same numerical value (<i>K</i><sub>max</sub> = <i>eV</i><sub>s</sub>). Keep joules and electron-volts straight.",
      "rubric": [
       "For starting with the photoelectric effect equation, <i>K</i><sub>max</sub> = <i>hf</i> − φ, and relating the maximum kinetic energy to the stopping potential by <i>K</i><sub>max</sub> = <i>eV</i><sub>s</sub>",
       "For a correct final expression, <i>V</i><sub>s</sub> = (<i>hf</i> − φ)/<i>e</i>"
@@ -68,10 +69,12 @@ const EXAM = {
       "For reasoning that diffraction and interference patterns of bright and dark regions are characteristic of waves, and that the electron's de Broglie wavelength (about 0.1 nm) is comparable to the spacing of atoms in the crystal"
      ],
      "model": [
-      "The ring pattern supports a <b>wave</b> model. Bright and dark rings arise from constructive and destructive interference of waves that scatter from the regularly spaced atoms of the crystal — a pattern that a stream of simple classical particles would not produce. For electrons accelerated through 100 V, λ = <i>h</i>/√(2<i>me</i>Δ<i>V</i>) ≈ 0.12 nm, similar to the spacing between atoms in a crystal, which is exactly the condition needed for noticeable diffraction. (Electrons are still detected one at a time at particular points, so electrons show both wave and particle behavior.)"
+      "The ring pattern supports a <b>wave</b> model. Bright and dark rings arise from constructive and destructive interference of waves that scatter from the regularly spaced atoms of the crystal — a pattern that a stream of simple classical particles would not produce.",
+      "For electrons accelerated through 100 V, λ = <i>h</i>/√(2<i>me</i>Δ<i>V</i>) ≈ 0.12 nm, similar to the spacing between atoms in a crystal, which is exactly the condition needed for noticeable diffraction. (Electrons are still detected one at a time at particular points, so electrons show both wave and particle behavior.)"
      ]
     }
-   ]
+   ],
+   "topic": "Unit 15 — Modern physics (energy levels, photons, matter waves)"
   },
   {
    "id": "2",
@@ -131,7 +134,8 @@ const EXAM = {
       "For a correct speed of about 7.6 × 10<sup>4</sup> m/s"
      ],
      "model": [
-      "The force on the positive proton is in the direction of the field (+<i>x</i>), and the field is uniform, so the proton moves along +<i>x</i> with a constant acceleration, speeding up. By conservation of energy, the kinetic energy gained equals the electric potential energy lost: ½<i>mv</i><sup>2</sup> = <i>e</i>Δ<i>V</i> = (1.60 × 10<sup>−19</sup> C)(30 V) = 4.8 × 10<sup>−18</sup> J. So <i>v</i> = √(2(4.8 × 10<sup>−18</sup> J)/(1.67 × 10<sup>−27</sup> kg)) ≈ <b>7.6 × 10<sup>4</sup> m/s</b>."
+      "The force on the positive proton is in the direction of the field (+<i>x</i>), and the field is uniform, so the proton moves along +<i>x</i> with a constant acceleration, speeding up. By conservation of energy, the kinetic energy gained equals the electric potential energy lost: ½<i>mv</i><sup>2</sup> = <i>e</i>Δ<i>V</i> = (1.60 × 10<sup>−19</sup> C)(30 V) = 4.8 × 10<sup>−18</sup> J.",
+      "So <i>v</i> = √(2(4.8 × 10<sup>−18</sup> J)/(1.67 × 10<sup>−27</sup> kg)) ≈ <b>7.6 × 10<sup>4</sup> m/s</b>."
      ]
     },
     {
@@ -158,15 +162,18 @@ const EXAM = {
      "id": "E",
      "label": "Part E",
      "prompt": "An electron is released from rest at the 10 V equipotential line. Indicate the direction in which the electron moves, and indicate whether its kinetic energy increases, decreases, or stays the same as it moves. Justify your answer.",
+     "tip": "A negative charge moves <em>opposite</em> to the field, toward higher potential. The electron and the proton gain kinetic energy in opposite directions.",
      "rubric": [
       "For indicating that the electron moves in the −<i>x</i> direction (toward higher potential)",
       "For indicating that its kinetic energy increases, with reasoning that the force on a negative charge is opposite to the field, so the electric force does positive work, and the electron's electric potential energy (<i>U</i> = −<i>eV</i>) decreases as it moves to higher potential"
      ],
      "model": [
-      "The electron has a negative charge, so the electric force on it is opposite to the field (−<i>x</i>). It starts from rest and moves toward the 20 V and 30 V lines, that is, toward higher potential. The force and displacement are in the same direction, so the electric force does positive work and the electron's <b>kinetic energy increases</b>. Equivalently, the electron's potential energy <i>U</i> = −<i>eV</i> decreases as <i>V</i> increases, and the lost potential energy becomes kinetic energy."
+      "The electron has a negative charge, so the electric force on it is opposite to the field (−<i>x</i>). It starts from rest and moves toward the 20 V and 30 V lines, that is, toward higher potential.",
+      "The force and displacement are in the same direction, so the electric force does positive work and the electron's <b>kinetic energy increases</b>. Equivalently, the electron's potential energy <i>U</i> = −<i>eV</i> decreases as <i>V</i> increases, and the lost potential energy becomes kinetic energy."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 10 — Electric force, field, and potential (equipotential lines)"
   },
   {
    "id": "3",
@@ -224,7 +231,8 @@ const EXAM = {
       "For indicating how the procedure reduces the percent uncertainty (the ruler's uncertainty is a smaller fraction of the larger distance)"
      ],
      "model": [
-      "Measure the distance from the center of the first bright fringe to the center of, say, the eleventh bright fringe (ten spacings) with a ruler or tape, then divide by 10 to get Δ<i>y</i>. The uncertainty in reading the ruler is about the same whether the distance is 5 mm or 50 mm, so measuring across many fringes makes it a much smaller fraction of the measured length; dividing by 10 divides the absolute uncertainty by 10 as well."
+      "Measure the distance from the center of the first bright fringe to the center of, say, the eleventh bright fringe (ten spacings) with a ruler or tape, then divide by 10 to get Δ<i>y</i>.",
+      "The uncertainty in reading the ruler is about the same whether the distance is 5 mm or 50 mm, so measuring across many fringes makes it a much smaller fraction of the measured length; dividing by 10 divides the absolute uncertainty by 10 as well."
      ]
     },
     {
@@ -243,6 +251,7 @@ const EXAM = {
      "id": "B (ii)",
      "label": "Part B (ii)",
      "prompt": "The student draws a best-fit line through the data. The line passes through the points (0.40 m, 1.0 mm) and (2.40 m, 6.0 mm). Use the line to determine λ. Show your work.",
+     "tip": "Once both lengths are in the same unit, the slope is a pure number. Convert the slit separation to meters before multiplying: λ = (slope)<i>d</i>.",
      "rubric": [
       "For a correct slope calculation: (6.0 mm − 1.0 mm)/(2.40 m − 0.40 m) = 2.5 mm/m = 2.5 × 10<sup>−3</sup> (dimensionless)",
       "For setting the slope equal to λ/<i>d</i> and solving λ = (slope)<i>d</i>",
@@ -272,10 +281,12 @@ const EXAM = {
       "For explaining that the fringe positions are small compared with <i>L</i> (so the angle θ is small), meaning sin θ ≈ tan θ ≈ θ"
      ],
      "model": [
-      "The fringes are only a few millimeters apart while the screen is about a meter or more away, so the angles to the bright fringes are very small (well under a degree). For small angles sin θ ≈ tan θ ≈ θ (in radians), so the condition for bright fringes, <i>d</i> sin θ = <i>m</i>λ, can be written with tan θ = <i>y</i>/<i>L</i>, giving the linear relationship Δ<i>y</i> = λ<i>L</i>/<i>d</i>."
+      "The fringes are only a few millimeters apart while the screen is about a meter or more away, so the angles to the bright fringes are very small (well under a degree).",
+      "For small angles sin θ ≈ tan θ ≈ θ (in radians), so the condition for bright fringes, <i>d</i> sin θ = <i>m</i>λ, can be written with tan θ = <i>y</i>/<i>L</i>, giving the linear relationship Δ<i>y</i> = λ<i>L</i>/<i>d</i>."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 14 — Waves, sound, and physical optics (double-slit interference)"
   },
   {
    "id": "4",
@@ -302,7 +313,8 @@ const EXAM = {
       "For reasoning (Lenz's law) that the inward magnetic flux through the loop is increasing, so the induced current creates a magnetic field out of the page to oppose the change, which corresponds to a counterclockwise current"
      ],
      "model": [
-      "The current is <b>counterclockwise</b>. As the loop enters, the magnetic flux through it directed into the page is increasing. By Lenz's law the induced current opposes the increase by producing its own magnetic field out of the page inside the loop. By the right-hand rule, a field out of the page at the center of a loop requires a counterclockwise current."
+      "The current is <b>counterclockwise</b>. As the loop enters, the magnetic flux through it directed into the page is increasing. By Lenz's law the induced current opposes the increase by producing its own magnetic field out of the page inside the loop.",
+      "By the right-hand rule, a field out of the page at the center of a loop requires a counterclockwise current."
      ]
     },
     {
@@ -321,12 +333,15 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Calculate the magnitude of the external force that must be applied to the loop to keep it moving at constant speed while it enters the field, and state the direction of this force. Justify the direction.",
+     "tip": "The <em>magnetic</em> force on the loop opposes its motion, so the <em>applied</em> force must point in the direction of motion. Don't mix the two forces up.",
      "rubric": [
       "For a correct magnitude, <i>F</i> = <i>I</i>ℓ<i>B</i> = (0.24 A)(0.20 m)(0.30 T) ≈ 1.4 × 10<sup>−2</sup> N",
       "For indicating that the applied force is directed to the right (the direction of motion) because the magnetic force on the current in the leading side of the loop is to the left, opposing the motion (Lenz's law)"
      ],
      "model": [
-      "Only the side of the loop that is inside the field carries a current in the field and feels a net magnetic force: <i>F</i><sub>B</sub> = <i>I</i>ℓ<i>B</i> = (0.24 A)(0.20 m)(0.30 T) = 0.0144 N ≈ <b>1.4 × 10<sup>−2</sup> N</b>. This force is directed to the left, opposing the loop's motion (as Lenz's law requires), so to keep the loop at constant velocity the external force must be equal in magnitude and directed to the <b>right</b>. As a check, the mechanical power supplied, <i>Fv</i> = 0.0288 W, equals the electrical power dissipated, <i>I</i><sup>2</sup><i>R</i> = (0.24 A)<sup>2</sup>(0.50 Ω) = 0.0288 W."
+      "Only the side of the loop that is inside the field carries a current in the field and feels a net magnetic force: <i>F</i><sub>B</sub> = <i>I</i>ℓ<i>B</i> = (0.24 A)(0.20 m)(0.30 T) = 0.0144 N ≈ <b>1.4 × 10<sup>−2</sup> N</b>.",
+      "This force is directed to the left, opposing the loop's motion (as Lenz's law requires), so to keep the loop at constant velocity the external force must be equal in magnitude and directed to the <b>right</b>.",
+      "As a check, the mechanical power supplied, <i>Fv</i> = 0.0288 W, equals the electrical power dissipated, <i>I</i><sup>2</sup><i>R</i> = (0.24 A)<sup>2</sup>(0.50 Ω) = 0.0288 W."
      ]
     },
     {
@@ -338,10 +353,12 @@ const EXAM = {
       "For reasoning that the magnetic flux through the loop is constant (the field is uniform and the area in the field no longer changes), so there is no induced emf"
      ],
      "model": [
-      "The induced current is <b>zero</b>. Once the whole loop is in the uniform field, the flux through it, Φ = <i>BA</i>, does not change as the loop moves, so there is no induced emf (equivalently, the emfs in the two opposite sides moving through the field cancel around the loop). With no current there is also no magnetic force, so the external force needed to maintain constant speed drops to zero."
+      "The induced current is <b>zero</b>. Once the whole loop is in the uniform field, the flux through it, Φ = <i>BA</i>, does not change as the loop moves, so there is no induced emf (equivalently, the emfs in the two opposite sides moving through the field cancel around the loop).",
+      "With no current there is also no magnetic force, so the external force needed to maintain constant speed drops to zero."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 12 — Magnetism and electromagnetic induction (Faraday's and Lenz's laws)"
   }
  ]
 };

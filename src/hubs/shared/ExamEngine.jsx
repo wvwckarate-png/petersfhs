@@ -96,7 +96,7 @@ function Figure({ fig, S }) {
             </tbody>
           </table>
         </div>
-        {fig.caption && <figcaption style={S.figCaption}>{fig.caption}</figcaption>}
+        {fig.caption && <figcaption style={S.figCaption}><RichText text={fig.caption} /></figcaption>}
       </figure>
     );
   }
@@ -109,7 +109,7 @@ function Figure({ fig, S }) {
         style={{ maxWidth: fig.maxWidth || 560, ...(fig.minWidth ? { "--fig-min": fig.minWidth + "px" } : {}) }}
         dangerouslySetInnerHTML={{ __html: fig.svg }}
       />
-      {fig.caption && <figcaption style={S.figCaption}>{fig.caption}</figcaption>}
+      {fig.caption && <figcaption style={S.figCaption}><RichText text={fig.caption} /></figcaption>}
     </figure>
   );
 }

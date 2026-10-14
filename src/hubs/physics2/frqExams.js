@@ -15,4 +15,7 @@ const FRQ_FORMAT = {
 // Sample first, then the four full exams.
 const FRQ_EXAMS = [SAMPLE, EXAM_1, EXAM_2, EXAM_3, EXAM_4];
 
-export { FRQ_FORMAT, FRQ_EXAMS };
+// Symbols offered in the toolbar above the response boxes (typing × ² Δ λ → is awkward on most keyboards).
+const FRQ_SYMBOLS = ["×", "÷", "−", "±", "≈", "≠", "≤", "≥", "→", "√", "°", "²", "³", "⁻", "¹", "⁰", "₀", "₁", "₂", "Δ", "λ", "μ", "π", "θ", "Ω", "ε", "φ", "ρ", "ω", "α", "β", "γ", "τ", "ℓ"];
+
+export { FRQ_FORMAT, FRQ_EXAMS, FRQ_SYMBOLS };

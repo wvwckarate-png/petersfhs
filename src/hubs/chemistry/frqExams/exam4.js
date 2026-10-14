@@ -28,6 +28,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the molar solubility of Ag<sub>2</sub>CrO<sub>4</sub> in pure water at 25 °C. Show your work.",
+     "tip": "[Ag<sup>+</sup>] = 2<i>s</i> and it is squared in <i>K</i><sub>sp</sub>, so <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup>, not <i>s</i><sup>2</sup>.",
      "rubric": [
       "For letting <i>s</i> = the molar solubility so that [CrO<sub>4</sub><sup>2−</sup>] = <i>s</i> and [Ag<sup>+</sup>] = 2<i>s</i>",
       "For the correct substitution, <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup>",
@@ -46,7 +47,8 @@ const EXAM = {
       "For the correct value, <i>s</i> ≈ 1.7 × 10<sup>−6</sup> <i>M</i>, which is smaller than in pure water"
      ],
      "model": [
-      "The CrO<sub>4</sub><sup>2−</sup> from K<sub>2</sub>CrO<sub>4</sub> is a common ion. Because <i>s</i> is very small, [CrO<sub>4</sub><sup>2−</sup>] ≈ 0.10 M. Then 1.1 × 10<sup>−12</sup> = (2<i>s</i>)<sup>2</sup>(0.10) = 0.40<i>s</i><sup>2</sup>, so <i>s</i><sup>2</sup> = 2.75 × 10<sup>−12</sup> and <i>s</i> = <b>1.7 × 10<sup>−6</sup> M</b>. This is about 40 times smaller than the solubility in pure water (the common ion effect), and it is small compared with 0.10 M, so the approximation is valid."
+      "The CrO<sub>4</sub><sup>2−</sup> from K<sub>2</sub>CrO<sub>4</sub> is a common ion. Because <i>s</i> is very small, [CrO<sub>4</sub><sup>2−</sup>] ≈ 0.10 M. Then 1.1 × 10<sup>−12</sup> = (2<i>s</i>)<sup>2</sup>(0.10) = 0.40<i>s</i><sup>2</sup>, so <i>s</i><sup>2</sup> = 2.75 × 10<sup>−12</sup> and <i>s</i> = <b>1.7 × 10<sup>−6</sup> M</b>.",
+      "This is about 40 times smaller than the solubility in pure water (the common ion effect), and it is small compared with 0.10 M, so the approximation is valid."
      ]
     },
     {
@@ -70,10 +72,12 @@ const EXAM = {
       "For explaining that this makes <i>Q</i> < <i>K</i><sub>sp</sub>, so the dissolution equilibrium shifts toward the products and more solid dissolves"
      ],
      "model": [
-      "Ammonia is a Lewis base that binds strongly to Ag<sup>+</sup>: Ag<sup>+</sup>(<i>aq</i>) + 2 NH<sub>3</sub>(<i>aq</i>) ⇌ Ag(NH<sub>3</sub>)<sub>2</sub><sup>+</sup>(<i>aq</i>). This removes free Ag<sup>+</sup> ions from the solution, so the reaction quotient for the dissolution, <i>Q</i> = [Ag<sup>+</sup>]<sup>2</sup>[CrO<sub>4</sub><sup>2−</sup>], becomes less than <i>K</i><sub>sp</sub>. By Le Châtelier's principle, the equilibrium Ag<sub>2</sub>CrO<sub>4</sub>(<i>s</i>) ⇌ 2 Ag<sup>+</sup> + CrO<sub>4</sub><sup>2−</sup> shifts to the right, and the solid dissolves."
+      "Ammonia is a Lewis base that binds strongly to Ag<sup>+</sup>: Ag<sup>+</sup>(<i>aq</i>) + 2 NH<sub>3</sub>(<i>aq</i>) ⇌ Ag(NH<sub>3</sub>)<sub>2</sub><sup>+</sup>(<i>aq</i>). This removes free Ag<sup>+</sup> ions from the solution, so the reaction quotient for the dissolution, <i>Q</i> = [Ag<sup>+</sup>]<sup>2</sup>[CrO<sub>4</sub><sup>2−</sup>], becomes less than <i>K</i><sub>sp</sub>.",
+      "By Le Châtelier's principle, the equilibrium Ag<sub>2</sub>CrO<sub>4</sub>(<i>s</i>) ⇌ 2 Ag<sup>+</sup> + CrO<sub>4</sub><sup>2−</sup> shifts to the right, and the solid dissolves."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Equilibrium (solubility product and the common-ion effect)"
   },
   {
    "id": "2",
@@ -120,12 +124,14 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Determine the order of the reaction with respect to NO<sub>2</sub>. Justify your answer with a calculation using the data in Table 1.",
+     "tip": "A second-order reaction gives a straight line for 1/[A] versus time. A straight line for ln[A] versus time means first order.",
      "rubric": [
       "For a valid analysis of the data, such as calculating 1/[NO<sub>2</sub>] at each time (100, 154, 208, 262, 316 M<sup>−1</sup>) or ln[NO<sub>2</sub>] at each time",
       "For concluding that the reaction is second order, because 1/[NO<sub>2</sub>] increases by a constant amount (54 M<sup>−1</sup> per 100 s), i.e., it is linear in time, whereas ln[NO<sub>2</sub>] does not"
      ],
      "model": [
-      "For a second-order reaction a plot of 1/[A] versus time is linear. Calculating 1/[NO<sub>2</sub>]: 100, 154, 208, 262, 316 M<sup>−1</sup> at 0, 100, 200, 300, 400 s. The differences are 54 M<sup>−1</sup> in every 100 s interval, so 1/[NO<sub>2</sub>] is linear in time and the reaction is <b>second order</b> in NO<sub>2</sub>. (For first order, ln[NO<sub>2</sub>] would be linear: the successive half-lives increase, 185 s, 370 s, …, which is not first-order behavior.)"
+      "For a second-order reaction a plot of 1/[A] versus time is linear. Calculating 1/[NO<sub>2</sub>]: 100, 154, 208, 262, 316 M<sup>−1</sup> at 0, 100, 200, 300, 400 s. The differences are 54 M<sup>−1</sup> in every 100 s interval, so 1/[NO<sub>2</sub>] is linear in time and the reaction is <b>second order</b> in NO<sub>2</sub>.",
+      "(For first order, ln[NO<sub>2</sub>] would be linear: the successive half-lives increase, 185 s, 370 s, …, which is not first-order behavior.)"
      ]
     },
     {
@@ -149,7 +155,7 @@ const EXAM = {
       "For the correct value, about 185 s (1.9 × 10<sup>2</sup> s)"
      ],
      "model": [
-      "For a second-order reaction, <i>t</i><sub>1/2</sub> = 1/(<i>k</i>[A]<sub>0</sub>) = 1/[(0.54 M<sup>−1</sup>s<sup>−1</sup>)(0.0100 M)] = <b>185 s</b>. (The half-life of a second-order reaction depends on the initial concentration: it doubles each time the concentration is halved.)"
+      "For a second-order reaction, <i>t</i><sub>1/2</sub> = 1/(<i>k</i>[A]<sub>0</sub>) = 1/[(0.54 M<sup>−1</sup>s<sup>−1</sup>)(0.0100 M)] = <b>185 s</b> (about 1.9 × 10<sup>2</sup> s). (The half-life of a second-order reaction depends on the initial concentration: it doubles each time the concentration is halved.)"
      ]
     },
     {
@@ -161,7 +167,8 @@ const EXAM = {
       "For identifying NO<sub>3</sub> as the intermediate (formed in step 1 and consumed in step 2), and showing that the steps add to the overall equation 2 NO<sub>2</sub> → 2 NO + O<sub>2</sub>"
      ],
      "model": [
-      "The rate of the overall reaction is determined by the slow step, step 1, an elementary bimolecular step between two NO<sub>2</sub> molecules, whose rate law is rate = <i>k</i>[NO<sub>2</sub>]<sup>2</sup>. This is exactly the experimental rate law (second order in NO<sub>2</sub>). The <b>intermediate is NO<sub>3</sub></b>: it is produced in step 1 and consumed in step 2, so it does not appear in the overall reaction. Adding the steps gives 2 NO<sub>2</sub> → 2 NO + O<sub>2</sub>."
+      "The rate of the overall reaction is determined by the slow step, step 1, an elementary bimolecular step between two NO<sub>2</sub> molecules, whose rate law is rate = <i>k</i>[NO<sub>2</sub>]<sup>2</sup>. This is exactly the experimental rate law (second order in NO<sub>2</sub>).",
+      "The <b>intermediate is NO<sub>3</sub></b>: it is produced in step 1 and consumed in step 2, so it does not appear in the overall reaction. Adding the steps gives 2 NO<sub>2</sub> → 2 NO + O<sub>2</sub>."
      ]
     },
     {
@@ -176,7 +183,8 @@ const EXAM = {
       "The line would have the same intercept (1/0.0100 = 100 M<sup>−1</sup>) but a <b>steeper slope</b>. The slope of the graph is the rate constant <i>k</i>, and <i>k</i> increases with temperature: at a higher temperature a greater fraction of the molecules have enough energy to overcome the activation energy, and molecules collide more often, so the reaction is faster and 1/[NO<sub>2</sub>] rises more quickly."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Kinetics (second-order reactions and mechanisms)"
   },
   {
    "id": "3",
@@ -190,6 +198,7 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Use the bond energies to estimate Δ<i>H</i>° for the combustion of one mole of CH<sub>4</sub>(<i>g</i>). Show your work.",
+     "tip": "With bond energies, Δ<i>H</i> = (bonds broken) − (bonds formed). Reversing this gives the wrong sign.",
      "rubric": [
       "For a correct count of the bonds broken (4 C–H and 2 O=O, total 2648 kJ) and the bonds formed (2 C=O and 4 O–H, total 3450 kJ)",
       "For the correct result, Δ<i>H</i>° = Σ(bonds broken) − Σ(bonds formed) = −802 kJ/mol"
@@ -231,7 +240,8 @@ const EXAM = {
       "For explaining that, with Δ<i>S</i>° ≈ 0, Δ<i>G</i>° ≈ Δ<i>H</i>° is large and negative at any ordinary temperature, so the reaction is thermodynamically favorable at all temperatures of practical interest"
      ],
      "model": [
-      "The reactants contain 1 + 2 = 3 mol of gas and the products contain 1 + 2 = 3 mol of gas, so the change in the number of gas molecules, and therefore the disorder, is small: Δ<i>S</i>° is <b>close to zero</b>. Then Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° is dominated by Δ<i>H</i>°, which is about −802 kJ/mol. The term <i>T</i>Δ<i>S</i>° stays small even at high temperatures, so Δ<i>G</i>° is negative at every temperature of practical interest: the reaction is thermodynamically favorable at all of them."
+      "The reactants contain 1 + 2 = 3 mol of gas and the products contain 1 + 2 = 3 mol of gas, so the change in the number of gas molecules, and therefore the disorder, is small: Δ<i>S</i>° is <b>close to zero</b>.",
+      "Then Δ<i>G</i>° = Δ<i>H</i>° − <i>T</i>Δ<i>S</i>° is dominated by Δ<i>H</i>°, which is about −802 kJ/mol. The term <i>T</i>Δ<i>S</i>° stays small even at high temperatures, so Δ<i>G</i>° is negative at every temperature of practical interest: the reaction is thermodynamically favorable at all of them."
      ]
     },
     {
@@ -243,10 +253,12 @@ const EXAM = {
       "For explaining that the reaction has a large activation energy (strong C–H and O=O bonds must be broken), so at room temperature almost no collisions have enough energy, and the spark supplies the energy to start the reaction (which then releases enough energy to continue)"
      ],
      "model": [
-      "Thermodynamics (Δ<i>G</i>° < 0) tells us that the reaction can proceed spontaneously, but not how fast. Kinetics governs the rate: before CH<sub>4</sub> and O<sub>2</sub> can form the products, strong bonds (C–H and O=O) must be broken, which requires a large activation energy. At room temperature essentially no collisions between molecules have that much energy, so the rate is negligible. The spark provides local energy to get some molecules over the barrier; the energy released by those reactions then supplies the energy for more molecules to react, and the reaction sustains itself."
+      "Thermodynamics (Δ<i>G</i>° < 0) tells us that the reaction can proceed spontaneously, but not how fast. Kinetics governs the rate: before CH<sub>4</sub> and O<sub>2</sub> can form the products, strong bonds (C–H and O=O) must be broken, which requires a large activation energy. At room temperature essentially no collisions between molecules have that much energy, so the rate is negligible.",
+      "The spark provides local energy to get some molecules over the barrier; the energy released by those reactions then supplies the energy for more molecules to react, and the reaction sustains itself."
      ]
     }
-   ]
+   ],
+   "topic": "Units 6 and 9 — Thermochemistry and thermodynamics (bond energies and free energy)"
   },
   {
    "id": "4",
@@ -301,15 +313,18 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "The first ionization energy of aluminum (578 kJ/mol) is lower than that of magnesium (738 kJ/mol), even though aluminum has a greater nuclear charge. Explain this observation in terms of electron configurations.",
+     "tip": "Compare the subshells: aluminum's outermost electron is in 3<i>p</i> and magnesium's is in 3<i>s</i>. Don't argue from the number of protons alone.",
      "rubric": [
       "For indicating that the outermost electron of aluminum is in a 3<i>p</i> subshell, whereas that of magnesium is in a 3<i>s</i> subshell",
       "For explaining that a 3<i>p</i> electron is, on average, farther from the nucleus and is shielded by the 3<i>s</i> electrons, so it is held less strongly and is easier to remove despite the greater nuclear charge"
      ],
      "model": [
-      "Magnesium's outer electrons are 3<i>s</i><sup>2</sup>, but aluminum's outermost electron is in a 3<i>p</i> orbital (3<i>s</i><sup>2</sup>3<i>p</i><sup>1</sup>). A 3<i>p</i> electron has a higher energy and, on average, is farther from the nucleus than a 3<i>s</i> electron, and it is partly shielded by the 3<i>s</i> electrons. These effects outweigh the extra proton in aluminum, so the 3<i>p</i> electron is held less tightly and less energy is required to remove it."
+      "Magnesium's outer electrons are 3<i>s</i><sup>2</sup>, but aluminum's outermost electron is in a 3<i>p</i> orbital (3<i>s</i><sup>2</sup>3<i>p</i><sup>1</sup>). A 3<i>p</i> electron has a higher energy and, on average, is farther from the nucleus than a 3<i>s</i> electron, and it is partly shielded by the 3<i>s</i> electrons.",
+      "These effects outweigh the extra proton in aluminum, so the 3<i>p</i> electron is held less tightly and less energy is required to remove it."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 1 — Atomic structure and periodic trends (ionization energy)"
   },
   {
    "id": "5",
@@ -328,13 +343,14 @@ const EXAM = {
       "For the correct volume, about 0.517 L, using <i>V</i> = <i>nRT</i>/<i>P</i> with <i>P</i> = 740/760 = 0.974 atm and <i>T</i> = 298 K"
      ],
      "model": [
-      "Moles of Mg = 0.500 g/24.305 g/mol = 0.0206 mol, and the equation gives 1 mol H<sub>2</sub> per mol Mg. <i>V</i> = <i>nRT</i>/<i>P</i> = (0.0206 mol)(0.08206 L·atm/(mol·K))(298.15 K)/(740/760 atm) = <b>0.517 L</b>."
+      "Moles of Mg = 0.500 g/24.305 g/mol = 0.0206 mol, and the equation gives 1 mol H<sub>2</sub> per mol Mg. <i>V</i> = <i>nRT</i>/<i>P</i> = (0.0206 mol)(0.08206 L·atm/(mol·K))(298.15 K)/(740/760 = 0.974 atm) = <b>0.517 L</b>."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the percent yield of H<sub>2</sub>(<i>g</i>) for the experiment. Show your work.",
+     "tip": "Percent yield is actual ÷ theoretical × 100, never the reverse.",
      "rubric": [
       "For dividing the measured volume by the theoretical volume and multiplying by 100",
       "For the correct value, about 93.8%"
@@ -343,7 +359,8 @@ const EXAM = {
       "Percent yield = (actual yield/theoretical yield)(100). Both volumes are measured at the same temperature and pressure, so they can be compared directly: (0.485 L / 0.517 L)(100) = <b>93.8%</b>. A yield below 100% is expected because some gas can be lost or left in the tubing, or the magnesium may not react completely."
      ]
     }
-   ]
+   ],
+   "topic": "Units 3 and 4 — Gases and stoichiometry (percent yield)"
   },
   {
    "id": "6",
@@ -362,22 +379,26 @@ const EXAM = {
       "For explaining that ethane has a single bond (one shared pair), ethene a double bond (two pairs), and ethyne a triple bond (three pairs), and that more shared pairs pull the nuclei closer together (a shorter bond) with a stronger attraction (a stronger bond)"
      ],
      "model": [
-      "Ethane has a C–C single bond (1 shared pair), ethene has a C=C double bond (2 shared pairs), and ethyne has a C≡C triple bond (3 shared pairs). The greater the number of shared electron pairs, the stronger the attraction between the carbon nuclei and the shared electrons, which pulls the nuclei closer together and makes the bond harder to break. So the bond length order is ethane (longest) > ethene > ethyne (shortest), and the bond strength order is ethane (weakest) < ethene < ethyne (strongest)."
+      "Ethane has a C–C single bond (1 shared pair), ethene has a C=C double bond (2 shared pairs), and ethyne has a C≡C triple bond (3 shared pairs). The greater the number of shared electron pairs, the stronger the attraction between the carbon nuclei and the shared electrons, which pulls the nuclei closer together and makes the bond harder to break.",
+      "So the bond length order is ethane (longest) > ethene > ethyne (shortest), and the bond strength order is ethane (weakest) < ethene < ethyne (strongest)."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "Describe the types of bonds (sigma and pi) in the C–C triple bond of ethyne, and identify the hybridization of the carbon atoms.",
+     "tip": "The first bond between two atoms is always a sigma bond. Extra bonds in a double or triple bond are pi bonds.",
      "rubric": [
       "For indicating that the triple bond consists of one sigma bond and two pi bonds",
       "For identifying the carbon atoms as <i>sp</i> hybridized (two electron domains, a linear geometry with 180° bond angles)"
      ],
      "model": [
-      "The C≡C triple bond in ethyne consists of <b>one sigma bond</b> (head-on overlap of <i>sp</i> hybrid orbitals) and <b>two pi bonds</b> (sideways overlap of the two remaining unhybridized <i>p</i> orbitals on each carbon). Each carbon has two electron domains (one bond to H and one to the other C), so it is <b><i>sp</i> hybridized</b>, and the molecule is linear."
+      "The C≡C triple bond in ethyne consists of <b>one sigma bond</b> (head-on overlap of <i>sp</i> hybrid orbitals) and <b>two pi bonds</b> (sideways overlap of the two remaining unhybridized <i>p</i> orbitals on each carbon).",
+      "Each carbon has two electron domains (one bond to H and one to the other C), so it is <b><i>sp</i> hybridized</b>, and the molecule is linear (180° bond angles)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 2 — Bonding (bond order and hybridization)"
   },
   {
    "id": "7",
@@ -391,6 +412,7 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Calculate the pH of the solution. Show your work.",
+     "tip": "Each formula unit of Ba(OH)<sub>2</sub> releases <em>two</em> OH<sup>−</sup> ions, so [OH<sup>−</sup>] is twice the concentration of the base.",
      "rubric": [
       "For correctly determining that [OH<sup>−</sup>] = 2(0.0050) = 0.010 <i>M</i>, since each formula unit releases two hydroxide ions",
       "For the correct pH of 12.00"
@@ -411,7 +433,8 @@ const EXAM = {
       "The solution is diluted by a factor of 10: [OH<sup>−</sup>] = (0.010 M)(10.0 mL/100.0 mL) = 1.0 × 10<sup>−3</sup> M, so pOH = 3.00 and pH = <b>11.00</b>. (Each tenfold dilution of a strong base lowers the pH by 1.)"
      ]
     }
-   ]
+   ],
+   "topic": "Unit 8 — Acids and bases (strong bases and dilution)"
   }
  ]
 };

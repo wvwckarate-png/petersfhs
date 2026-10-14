@@ -12,6 +12,32 @@ const ex = mod.default;
 const problems = [], notes = [];
 const FORMATS = { physics2: { points: 40 }, chemistry: { points: 46 }, biology: { points: 34 } };
 
+
+// Break a long model response into short paragraphs (2-3 sentences each) so it is easy to scan.
+const plain = (t) => t.replace(/<[^>]+>/g, "");
+const wc = (t) => plain(t).split(/\s+/).filter(Boolean).length;
+const balanced = (t) => ["b", "i", "sub", "sup", "em", "strong"].every((tag) => (t.match(new RegExp(`<${tag}>`, "g")) || []).length === (t.match(new RegExp(`</${tag}>`, "g")) || []).length);
+function paragraphs(model) {
+  return [model].flat().flatMap((t) => {
+    if (wc(t) < 55) return [t];
+    const prot = t.replace(/(e\.g\.|i\.e\.|vs\.|approx\.|et al\.)/g, (m) => m.replace(/\./g, "§"));
+    const raw = prot.split(/(?<=[.!?]\)?)\s+(?=[A-ZΔ(<])/).map((x) => x.replace(/§/g, "."));
+    // re-join pieces that would leave an unbalanced tag
+    const sents = [];
+    for (const piece of raw) {
+      if (sents.length && !balanced(sents[sents.length - 1])) sents[sents.length - 1] += " " + piece; else sents.push(piece);
+    }
+    const out = [];
+    let cur = "";
+    for (const sent of sents) {
+      cur = cur ? cur + " " + sent : sent;
+      if (wc(cur) >= 32) { out.push(cur); cur = ""; }
+    }
+    if (cur) { if (out.length && wc(cur) < 14) out[out.length - 1] += " " + cur; else out.push(cur); }
+    return out;
+  });
+}
+
 const ok = (c, m) => { if (!c) problems.push(m); };
 const textOf = (v) => (Array.isArray(v) ? v.join(" ") : v || "");
 function checkText(where, t) {
@@ -52,7 +78,7 @@ ex.questions.forEach((q) => {
     const mw = textOf(p.model).split(/\s+/).filter(Boolean).length;
     ok(mw >= 8, `${pw}: model response too short (${mw} words)`);
     words += mw + textOf(p.prompt).split(/\s+/).length;
-    checkText(pw + " prompt", p.prompt); checkText(pw + " lead", p.lead); checkText(pw + " model", p.model); checkText(pw + " note", p.note);
+    checkText(pw + " prompt", p.prompt); if (p.tip !== undefined) { ok(typeof p.tip === "string" && p.tip.length > 20, `${pw}: tip too short`); checkText(pw + " tip", p.tip); } checkText(pw + " lead", p.lead); checkText(pw + " model", p.model); checkText(pw + " note", p.note);
     checkFigs(pw, p.figures); checkFigs(pw + " model", p.modelFigures); figs += (p.figures || []).length + (p.modelFigures || []).length;
   });
   if (q.points != null) ok(q.points === qpts, `${w}: declared ${q.points} points but rubric sums to ${qpts}`);
@@ -69,6 +95,9 @@ ex.questions.forEach((q) => console.log(`  Q${q.id} ${q.kind}: ${q.points} pts, 
 if (problems.length) { console.log("PROBLEMS:\n" + problems.join("\n")); process.exitCode = 1; }
 else {
   fs.mkdirSync(SRC, { recursive: true });
+  if (ex.topics) { ok(ex.topics.length === ex.questions.length, "topics length"); ex.questions.forEach((q, i) => { q.topic = ex.topics[i]; }); }
+  ex.questions.forEach((q) => q.parts.forEach((p) => { p.model = paragraphs(p.model); }));
+  delete ex.topics;
   // Use a true minus sign for negative numbers in text (computed values come out with a hyphen); leave SVG markup alone.
   const fixMinus = (t) => t.replace(/(^|[\s(=,;])-(?=\d)/g, "$1−");
   const clean = JSON.parse(JSON.stringify(ex, (k, v) => (k === "points" && typeof v === "number" ? undefined : (typeof v === "string" && k !== "svg" ? fixMinus(v) : v))));

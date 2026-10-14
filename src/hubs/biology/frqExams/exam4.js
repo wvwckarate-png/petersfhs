@@ -77,19 +77,21 @@ const EXAM = {
       "For justifying that the beads, which do not respire, show any change in gas volume caused by physical factors such as temperature or pressure changes, so this change can be used as a control to correct the other results"
      ],
      "model": [
-      "Glass beads are not alive, so they do not consume O<sub>2</sub>. Any change in gas volume in that vial is due to physical changes in the apparatus (small changes in the temperature of the water bath or in atmospheric pressure). It is a control: the biological results can be corrected for this background change, and it shows that the decrease in the other vials is caused by the seeds."
+      "Glass beads are not alive, so they do not consume O<sub>2</sub>. Any change in gas volume in that vial is due to physical changes in the apparatus (small changes in the temperature of the water bath or in atmospheric pressure).",
+      "It is a control: the biological results can be corrected for this background change, and it shows that the decrease in the other vials is caused by the seeds."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "Calculate the average rate of O<sub>2</sub> consumption, in mL per minute, over the 20 minutes for the germinating peas and for the dry peas. Show your work.",
+     "tip": "Divide the volume of O<sub>2</sub> consumed by the time, and compare the germinating and dry peas numerically, not just in words.",
      "rubric": [
       "For a correct rate for the germinating peas: 0.49 mL/20 min = 0.0245 mL/min (about 0.025)",
       "For a correct rate for the dry peas: 0.03 mL/20 min = 0.0015 mL/min"
      ],
      "model": [
-      "Rate = volume of O<sub>2</sub> consumed / time. Germinating peas: 0.49 mL/20 min = <b>0.0245 mL/min</b>. Dry peas: 0.03 mL/20 min = <b>0.0015 mL/min</b>. The germinating peas consumed O<sub>2</sub> about 16 times as fast as the dry peas."
+      "Rate = volume of O<sub>2</sub> consumed / time. Germinating peas: 0.49 mL/20 min = <b>0.0245 mL/min</b> (about 0.025). Dry peas: 0.03 mL/20 min = <b>0.0015 mL/min</b>. The germinating peas consumed O<sub>2</sub> about 16 times as fast as the dry peas."
      ]
     },
     {
@@ -101,7 +103,8 @@ const EXAM = {
       "For explaining that dry seeds are dormant, with very low metabolic activity, so they use very little O<sub>2</sub>"
      ],
      "model": [
-      "Germination is a period of rapid growth and cell division that needs a large supply of ATP. The germinating peas break down stored food (starch and lipids) and carry out aerobic cellular respiration at a high rate, so they consume O<sub>2</sub> quickly. Dry peas are dormant: they have little water, their enzymes are barely active, and their metabolic rate is very low, so they consume very little O<sub>2</sub>."
+      "Germination is a period of rapid growth and cell division that needs a large supply of ATP. The germinating peas break down stored food (starch and lipids) and carry out aerobic cellular respiration at a high rate, so they consume O<sub>2</sub> quickly.",
+      "Dry peas are dormant: they have little water, their enzymes are barely active, and their metabolic rate is very low, so they consume very little O<sub>2</sub>."
      ]
     },
     {
@@ -113,7 +116,8 @@ const EXAM = {
       "For justifying that the enzymes of cellular respiration are less active at lower temperatures (molecules have less kinetic energy and fewer successful collisions), so the rate of the metabolic reactions, and of O<sub>2</sub> consumption, decreases"
      ],
      "model": [
-      "The rate of O<sub>2</sub> consumption would be <b>lower</b>. Cellular respiration is a series of enzyme-catalyzed reactions. At a lower temperature the molecules have less kinetic energy, so enzymes and substrates collide less often and with less energy, and the reactions are slower. Less ATP is produced per minute, and less O<sub>2</sub> is used by the electron transport chain."
+      "The rate of O<sub>2</sub> consumption would be <b>lower</b>. Cellular respiration is a series of enzyme-catalyzed reactions. At a lower temperature the molecules have less kinetic energy, so enzymes and substrates collide less often and with less energy, and the reactions are slower.",
+      "Less ATP is produced per minute, and less O<sub>2</sub> is used by the electron transport chain."
      ]
     },
     {
@@ -127,7 +131,8 @@ const EXAM = {
       "O<sub>2</sub> is used at the end of the electron transport chain, which is in the inner membrane of the <b>mitochondria</b>. It is the final electron acceptor: it accepts electrons and combines with H<sup>+</sup> to form water, which allows the chain to keep running and the proton gradient to drive ATP synthesis."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Cellular energetics (cellular respiration)"
   },
   {
    "id": "2",
@@ -214,13 +219,15 @@ const EXAM = {
       "For explaining that the resistant bacteria survived and reproduced more and passed the resistance gene to their offspring, so the frequency of the resistance allele increased in the population over generations"
      ],
      "model": [
-      "There was heritable variation in the population: a few bacteria had a mutation that conferred resistance. The antibiotic acted as a selective pressure: susceptible cells died, while resistant cells survived and reproduced (differential reproductive success). Because the resistance gene is inherited by their offspring, each generation contained a higher proportion of resistant cells, so the allele frequency changed over time. This is natural selection."
+      "There was heritable variation in the population: a few bacteria had a mutation that conferred resistance. The antibiotic acted as a selective pressure: susceptible cells died, while resistant cells survived and reproduced (differential reproductive success).",
+      "Because the resistance gene is inherited by their offspring, each generation contained a higher proportion of resistant cells, so the allele frequency changed over time. This is natural selection."
      ]
     },
     {
      "id": "D",
      "label": "Part D",
      "prompt": "Calculate the percent change in the percentage of resistant bacteria between generation 10 and generation 15. Show your work.",
+     "tip": "Percent change is based on the <em>starting</em> value (6%), not on 100%.",
      "rubric": [
       "For a correct calculation: [(35 − 6)/6] × 100 = 483% (an increase of about 480%)"
      ],
@@ -248,10 +255,12 @@ const EXAM = {
       "For describing a valid mechanism of horizontal gene transfer, such as conjugation (transfer of a plasmid through a pilus between two cells), transformation (uptake of DNA from the environment), or transduction (transfer by a virus)"
      ],
      "model": [
-      "In <b>conjugation</b>, one bacterium transfers a copy of a plasmid that carries the resistance gene to another bacterium through a connection called a pilus. (Transformation, in which a cell takes up DNA from its surroundings, and transduction, in which a virus carries DNA from one bacterium to another, are other acceptable mechanisms.) This is horizontal gene transfer, and it can spread resistance quickly, even between different species."
+      "In <b>conjugation</b>, one bacterium transfers a copy of a plasmid that carries the resistance gene to another bacterium through a connection called a pilus. (Transformation, in which a cell takes up DNA from its surroundings, and transduction, in which a virus carries DNA from one bacterium to another, are other acceptable mechanisms.)",
+      "This is horizontal gene transfer, and it can spread resistance quickly, even between different species."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Natural selection (antibiotic resistance)"
   },
   {
    "id": "3",
@@ -298,14 +307,17 @@ const EXAM = {
      "id": "D",
      "label": "Part D",
      "prompt": "Justify the prediction using the metabolic pathways of yeast.",
+     "tip": "Yeast cannot ferment lactose easily because they lack the enzyme lactase, not because lactose is “too big.”",
      "rubric": [
       "For justifying that glucose can directly enter glycolysis and be fermented, producing ATP and CO<sub>2</sub>, whereas yeast lack the enzyme lactase to break lactose (a disaccharide) into glucose and galactose, so they cannot easily use lactose"
      ],
      "model": [
-      "Glucose is the starting molecule for glycolysis, so yeast can break it down and ferment the pyruvate to ethanol and CO<sub>2</sub>. Lactose is a disaccharide of glucose and galactose, and most yeast do not make lactase, the enzyme needed to hydrolyze it. Without that enzyme they cannot get glucose from lactose, so little fermentation and little CO<sub>2</sub> occurs."
+      "Glucose is the starting molecule for glycolysis, so yeast can break it down and ferment the pyruvate to ethanol and CO<sub>2</sub>. Lactose is a disaccharide of glucose and galactose, and most yeast do not make lactase, the enzyme needed to hydrolyze it.",
+      "Without that enzyme they cannot get glucose from lactose, so little fermentation and little CO<sub>2</sub> occurs."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Cellular energetics (fermentation)"
   },
   {
    "id": "4",
@@ -334,13 +346,15 @@ const EXAM = {
       "For explaining that water is polar: the oxygen is partially negative and the hydrogens are partially positive, so the hydrogen of one water molecule is attracted to the oxygen of another"
      ],
      "model": [
-      "In a water molecule, the oxygen atom is more electronegative than the hydrogen atoms and pulls the shared electrons toward it, so oxygen has a partial negative charge and each hydrogen has a partial positive charge (a polar molecule). The partially positive hydrogen of one water molecule is attracted to the partially negative oxygen of a neighboring molecule, forming a hydrogen bond."
+      "In a water molecule, the oxygen atom is more electronegative than the hydrogen atoms and pulls the shared electrons toward it, so oxygen has a partial negative charge and each hydrogen has a partial positive charge (a polar molecule).",
+      "The partially positive hydrogen of one water molecule is attracted to the partially negative oxygen of a neighboring molecule, forming a hydrogen bond."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "Two samples of double-stranded DNA of the same length are heated slowly. Sample 1 is 30% guanine and cytosine (GC), and sample 2 is 60% GC. Predict which sample requires a higher temperature to separate the two strands, and justify your prediction.",
+     "tip": "G–C pairs have three hydrogen bonds and A–T pairs have two. The higher GC content means more bonds to break.",
      "rubric": [
       "For predicting that sample 2 (60% GC) requires the higher temperature",
       "For justifying that G–C base pairs have three hydrogen bonds, whereas A–T base pairs have two, so a DNA molecule with more GC pairs has more hydrogen bonds and requires more energy to separate the strands"
@@ -349,7 +363,8 @@ const EXAM = {
       "Sample 2, with <b>60% GC</b>, would need the higher temperature. Each G–C pair is held together by three hydrogen bonds, and each A–T pair by only two. The DNA with a higher percentage of GC pairs has more hydrogen bonds per unit length, so more thermal energy is needed to break them and to separate (denature) the two strands."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 1 — Chemistry of life (hydrogen bonding and DNA)"
   },
   {
    "id": "5",
@@ -441,6 +456,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "A student claims that the frog is more closely related to the lizard than to the shark. Do you agree or disagree with the claim? Justify your answer using the cladogram and the data in Table 1.",
+     "tip": "Read relationships from the branching order (recent common ancestors), not from how close two names sit on the page.",
      "rubric": [
       "For agreeing with the claim (the frog is more closely related to the lizard)",
       "For justifying that the frog and the lizard share a more recent common ancestor (which had four limbs) that the shark does not share, as shown by the position of the branches and by the shared trait of four limbs"
@@ -449,7 +465,8 @@ const EXAM = {
       "I <b>agree</b>. On the cladogram, the frog and the lizard branch from a more recent common ancestor than the common ancestor that they share with the shark. They also share a derived trait, four limbs (Table 1), that the shark does not have, which indicates that this trait evolved in the ancestor of the frog, the lizard, and the mouse after the shark's lineage branched off."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Evolution (cladograms)"
   },
   {
    "id": "6",
@@ -485,15 +502,18 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Predict how the estimate would be affected if the paint made the marked beetles more likely to be eaten by predators during the week, and justify your prediction.",
+     "tip": "If marked beetles are removed, fewer are recaptured, which <em>raises</em> the estimate. The denominator gets smaller.",
      "rubric": [
       "For predicting that the estimate would be too high",
       "For justifying that fewer marked beetles would survive to be recaptured, so the proportion of marked beetles in the second sample would be lower than in the population, making the population appear larger"
      ],
      "model": [
-      "The estimate would be <b>too high</b>. If marked beetles are eaten more often, fewer of them are left to be recaptured, so the fraction of marked beetles in the second sample is smaller than it should be. In the calculation <i>N</i> = (marked × second sample)/(recaptured), a smaller number of recaptured beetles in the denominator gives a larger value of <i>N</i>."
+      "The estimate would be <b>too high</b>. If marked beetles are eaten more often, fewer of them are left to be recaptured, so the fraction of marked beetles in the second sample is smaller than it should be.",
+      "In the calculation <i>N</i> = (marked × second sample)/(recaptured), a smaller number of recaptured beetles in the denominator gives a larger value of <i>N</i>."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 8 — Ecology (population estimates)"
   }
  ]
 };

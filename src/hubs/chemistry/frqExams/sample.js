@@ -56,13 +56,15 @@ const EXAM = {
       "For indicating that the pH is 7 (at 25 °C), because the solution contains only Na<sup>+</sup> and Cl<sup>−</sup>, ions of a strong base and a strong acid that do not react with water"
      ],
      "model": [
-      "The pH at the equivalence point is <b>7.0</b> at 25 °C. At the equivalence point the H<sup>+</sup> from the acid and the OH<sup>−</sup> from the base have completely reacted to form water, leaving a solution of NaCl. Na<sup>+</sup> (the conjugate acid of a strong base) and Cl<sup>−</sup> (the conjugate base of a strong acid) do not hydrolyze, so the solution is neutral."
+      "The pH at the equivalence point is <b>7.0</b> at 25 °C. At the equivalence point the H<sup>+</sup> from the acid and the OH<sup>−</sup> from the base have completely reacted to form water, leaving a solution of NaCl.",
+      "Na<sup>+</sup> (the conjugate acid of a strong base) and Cl<sup>−</sup> (the conjugate base of a strong acid) do not hydrolyze, so the solution is neutral."
      ]
     },
     {
      "id": "E",
      "label": "Part E",
      "prompt": "Calculate the pH of the mixture after a total of 35.00 mL of NaOH(<i>aq</i>) has been added. Show your work.",
+     "tip": "After the equivalence point the pH comes from the excess OH<sup>−</sup> divided by the <em>total</em> volume (60.00 mL), not by the volume of NaOH alone.",
      "rubric": [
       "For correctly determining the excess OH<sup>−</sup>: (35.00 − 31.40 mL)(0.100 <i>M</i>) = 3.6 × 10<sup>−4</sup> mol in a total volume of 60.00 mL",
       "For the correct pH, about 11.78 (pOH = 2.22)"
@@ -80,7 +82,8 @@ const EXAM = {
       "For reasoning that residual water dilutes the NaOH, so its actual concentration is less than 0.100 <i>M</i>, and more volume is needed to reach the endpoint; using 0.100 <i>M</i> in the calculation with this larger volume overestimates the moles of base and acid"
      ],
      "model": [
-      "The calculated molarity will be <b>too high</b>. The water left in the buret dilutes the NaOH, so its true concentration is lower than 0.100 M. More volume of this weaker base is needed to neutralize the acid, so the recorded volume is larger than it would have been. The calculation multiplies the (too large) volume by the (too large) assumed concentration of 0.100 M, which overestimates the moles of NaOH and therefore the moles and molarity of HCl."
+      "The calculated molarity will be <b>too high</b>. The water left in the buret dilutes the NaOH, so its true concentration is lower than 0.100 M. More volume of this weaker base is needed to neutralize the acid, so the recorded volume is larger than it would have been.",
+      "The calculation multiplies the (too large) volume by the (too large) assumed concentration of 0.100 M, which overestimates the moles of NaOH and therefore the moles and molarity of HCl."
      ]
     },
     {
@@ -94,7 +97,8 @@ const EXAM = {
       "Either bromothymol blue (pH range about 6.0–7.6, centered near the equivalence point at pH 7) or phenolphthalein (8.2–10.0) is suitable. For a strong acid titrated with a strong base, the pH changes from about 3 to 11 within a fraction of a drop of the equivalence point, so any indicator whose color change occurs in that steep region marks the endpoint to within experimental error."
      ]
     }
-   ]
+   ],
+   "topic": "Units 4 and 8 — Chemical reactions and acids and bases (titration)"
   },
   {
    "id": "2",
@@ -120,15 +124,18 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Explain why SiH<sub>4</sub> has a higher boiling point than CH<sub>4</sub>.",
+     "tip": "Boiling does not break the covalent bonds inside a molecule. It overcomes the <em>intermolecular</em> forces between molecules.",
      "rubric": [
       "For explaining that SiH<sub>4</sub> has more electrons and a larger, more polarizable electron cloud, so its instantaneous dipoles are larger and its London dispersion forces are stronger",
       "For concluding that more energy is needed to overcome the stronger attractions between SiH<sub>4</sub> molecules, so the boiling point is higher"
      ],
      "model": [
-      "SiH<sub>4</sub> has more electrons (18 vs. 10) and a larger electron cloud that is more easily distorted (more polarizable) than that of CH<sub>4</sub>. Larger temporary dipoles produce stronger London dispersion forces between SiH<sub>4</sub> molecules. More energy is therefore needed to separate the molecules into the gas phase, so SiH<sub>4</sub> must be heated to a higher temperature (161 K) than CH<sub>4</sub> (112 K) to boil."
+      "SiH<sub>4</sub> has more electrons (18 vs. 10) and a larger electron cloud that is more easily distorted (more polarizable) than that of CH<sub>4</sub>. Larger temporary dipoles produce stronger London dispersion forces between SiH<sub>4</sub> molecules.",
+      "More energy is therefore needed to separate the molecules into the gas phase, so SiH<sub>4</sub> must be heated to a higher temperature (161 K) than CH<sub>4</sub> (112 K) to boil."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Properties of substances and mixtures (intermolecular forces)"
   }
  ]
 };

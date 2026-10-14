@@ -17,3 +17,7 @@ representations 12, experimental design and analysis 10, qualitative/quantitativ
 Each hub has a sample exam (shorter) and four full exams. After rebuilding an exam, the hub's `frqExams.js` already imports it.
 
 Note: students' self-scoring check marks are saved by rubric position. If you reorder or add scoring points in an exam that someone has already used, tell them to reset that exam (or their check marks will line up with the wrong points).
+
+Optional fields (added in v5.2.0): an exam can list `topics: [...]` (one "Unit — topic" string per question, shown as "Topic to review" in the answer key),
+and a part can have `tip: "..."` (a "Common mistake" note shown with the model response). Long model responses are split into short paragraphs automatically
+by `buildfrq.mjs`. In figure labels, write subscripts as `d_{o}`; in captions use `<sub>`.

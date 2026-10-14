@@ -38,6 +38,7 @@ export default exam({
   title: "Exam 4",
   description: "A full-length, seven-question free-response exam: solubility and precipitation, second-order kinetics, bond energies, ionization energy, gas collection and percent yield, bonding, and strong bases.",
   minutes: 105,
+  topics: ["Unit 7 — Equilibrium (solubility product and the common-ion effect)", "Unit 5 — Kinetics (second-order reactions and mechanisms)", "Units 6 and 9 — Thermochemistry and thermodynamics (bond energies and free energy)", "Unit 1 — Atomic structure and periodic trends (ionization energy)", "Units 3 and 4 — Gases and stoichiometry (percent yield)", "Unit 2 — Bonding (bond order and hybridization)", "Unit 8 — Acids and bases (strong bases and dilution)"],
   questions: [
     Q("1", "Long Answer", 23,
       ["Silver chromate, Ag<sub>2</sub>CrO<sub>4</sub>, is a sparingly soluble ionic compound that dissolves according to the equation Ag<sub>2</sub>CrO<sub>4</sub>(<i>s</i>) ⇌ 2 Ag<sup>+</sup>(<i>aq</i>) + CrO<sub>4</sub><sup>2−</sup>(<i>aq</i>). At 25 °C, <i>K</i><sub>sp</sub> for Ag<sub>2</sub>CrO<sub>4</sub> is 1.1 × 10<sup>−12</sup>."],
@@ -50,7 +51,7 @@ export default exam({
           "For letting <i>s</i> = the molar solubility so that [CrO<sub>4</sub><sup>2−</sup>] = <i>s</i> and [Ag<sup>+</sup>] = 2<i>s</i>",
           "For the correct substitution, <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup>",
           "For the correct value, <i>s</i> ≈ 6.5 × 10<sup>−5</sup> <i>M</i>",
-        ], [`If <i>s</i> mol of Ag<sub>2</sub>CrO<sub>4</sub> dissolves per liter, then [CrO<sub>4</sub><sup>2−</sup>] = <i>s</i> and [Ag<sup>+</sup>] = 2<i>s</i>. <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup> = 1.1 × 10<sup>−12</sup>, so <i>s</i><sup>3</sup> = 2.75 × 10<sup>−13</sup> and <i>s</i> = <b>${(s1 * 1e5).toFixed(1)} × 10<sup>−5</sup> M</b>.`], { label: "Part B" }),
+        ], [`If <i>s</i> mol of Ag<sub>2</sub>CrO<sub>4</sub> dissolves per liter, then [CrO<sub>4</sub><sup>2−</sup>] = <i>s</i> and [Ag<sup>+</sup>] = 2<i>s</i>. <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup> = 1.1 × 10<sup>−12</sup>, so <i>s</i><sup>3</sup> = 2.75 × 10<sup>−13</sup> and <i>s</i> = <b>${(s1 * 1e5).toFixed(1)} × 10<sup>−5</sup> M</b>.`], { label: "Part B", tip: "[Ag<sup>+</sup>] = 2<i>s</i> and it is squared in <i>K</i><sub>sp</sub>, so <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(<i>s</i>) = 4<i>s</i><sup>3</sup>, not <i>s</i><sup>2</sup>." }),
         P("C", "Calculate the molar solubility of Ag<sub>2</sub>CrO<sub>4</sub> in 0.10 <i>M</i> K<sub>2</sub>CrO<sub>4</sub>(<i>aq</i>). Show your work, and state any approximation you make.", [
           "For a correct setup that includes the common ion: [Ag<sup>+</sup>] = 2<i>s</i> and [CrO<sub>4</sub><sup>2−</sup>] ≈ 0.10 <i>M</i> (the approximation that <i>s</i> is negligible compared with 0.10), so <i>K</i><sub>sp</sub> = (2<i>s</i>)<sup>2</sup>(0.10)",
           "For the correct value, <i>s</i> ≈ 1.7 × 10<sup>−6</sup> <i>M</i>, which is smaller than in pure water",
@@ -72,7 +73,7 @@ export default exam({
         P("A", "Determine the order of the reaction with respect to NO<sub>2</sub>. Justify your answer with a calculation using the data in Table 1.", [
           "For a valid analysis of the data, such as calculating 1/[NO<sub>2</sub>] at each time (100, 154, 208, 262, 316 M<sup>−1</sup>) or ln[NO<sub>2</sub>] at each time",
           "For concluding that the reaction is second order, because 1/[NO<sub>2</sub>] increases by a constant amount (54 M<sup>−1</sup> per 100 s), i.e., it is linear in time, whereas ln[NO<sub>2</sub>] does not",
-        ], [`For a second-order reaction a plot of 1/[A] versus time is linear. Calculating 1/[NO<sub>2</sub>]: ${inv.map((x) => Math.round(x)).join(", ")} M<sup>−1</sup> at 0, 100, 200, 300, 400 s. The differences are 54 M<sup>−1</sup> in every 100 s interval, so 1/[NO<sub>2</sub>] is linear in time and the reaction is <b>second order</b> in NO<sub>2</sub>. (For first order, ln[NO<sub>2</sub>] would be linear: the successive half-lives increase, 185 s, 370 s, …, which is not first-order behavior.)`], { label: "Part A" }),
+        ], [`For a second-order reaction a plot of 1/[A] versus time is linear. Calculating 1/[NO<sub>2</sub>]: ${inv.map((x) => Math.round(x)).join(", ")} M<sup>−1</sup> at 0, 100, 200, 300, 400 s. The differences are 54 M<sup>−1</sup> in every 100 s interval, so 1/[NO<sub>2</sub>] is linear in time and the reaction is <b>second order</b> in NO<sub>2</sub>. (For first order, ln[NO<sub>2</sub>] would be linear: the successive half-lives increase, 185 s, 370 s, …, which is not first-order behavior.)`], { label: "Part A", tip: "A second-order reaction gives a straight line for 1/[A] versus time. A straight line for ln[A] versus time means first order." }),
         P("B", "Calculate the value of the rate constant, <i>k</i>, including units. Show your work.", [
           "For using the slope of the 1/[NO<sub>2</sub>] versus time line, (316 − 100) M<sup>−1</sup>/(400 s)",
           "For the correct value with units, <i>k</i> = 0.54 M<sup>−1</sup>s<sup>−1</sup>",
@@ -80,7 +81,7 @@ export default exam({
         P("C", "Calculate the half-life of the reaction when the initial concentration of NO<sub>2</sub> is 0.0100 <i>M</i>. Show your work.", [
           "For using <i>t</i><sub>1/2</sub> = 1/(<i>k</i>[A]<sub>0</sub>) for a second-order reaction",
           "For the correct value, about 185 s (1.9 × 10<sup>2</sup> s)",
-        ], [`For a second-order reaction, <i>t</i><sub>1/2</sub> = 1/(<i>k</i>[A]<sub>0</sub>) = 1/[(0.54 M<sup>−1</sup>s<sup>−1</sup>)(0.0100 M)] = <b>${Math.round(thalf)} s</b>. (The half-life of a second-order reaction depends on the initial concentration: it doubles each time the concentration is halved.)`], { label: "Part C" }),
+        ], [`For a second-order reaction, <i>t</i><sub>1/2</sub> = 1/(<i>k</i>[A]<sub>0</sub>) = 1/[(0.54 M<sup>−1</sup>s<sup>−1</sup>)(0.0100 M)] = <b>${Math.round(thalf)} s</b> (about 1.9 × 10<sup>2</sup> s). (The half-life of a second-order reaction depends on the initial concentration: it doubles each time the concentration is halved.)`], { label: "Part C" }),
         P("D", "A proposed mechanism for the reaction is:<br>Step 1 (slow): NO<sub>2</sub> + NO<sub>2</sub> → NO<sub>3</sub> + NO<br>Step 2 (fast): NO<sub>3</sub> → NO + O<sub>2</sub><br>Explain how this mechanism is consistent with the experimental rate law, and identify the intermediate.".replace(/<br>/g, " "), [
           "For explaining that the slow step is rate-determining and involves two NO<sub>2</sub> molecules colliding, so its rate law is rate = <i>k</i>[NO<sub>2</sub>]<sup>2</sup>, consistent with second order",
           "For identifying NO<sub>3</sub> as the intermediate (formed in step 1 and consumed in step 2), and showing that the steps add to the overall equation 2 NO<sub>2</sub> → 2 NO + O<sub>2</sub>",
@@ -98,7 +99,7 @@ export default exam({
         P("A", "Use the bond energies to estimate Δ<i>H</i>° for the combustion of one mole of CH<sub>4</sub>(<i>g</i>). Show your work.", [
           "For a correct count of the bonds broken (4 C–H and 2 O=O, total 2648 kJ) and the bonds formed (2 C=O and 4 O–H, total 3450 kJ)",
           "For the correct result, Δ<i>H</i>° = Σ(bonds broken) − Σ(bonds formed) = −802 kJ/mol",
-        ], [`Bonds broken (energy absorbed): 4(413) + 2(498) = 1652 + 996 = ${broken} kJ. Bonds formed (energy released): 2(799) + 4(463) = 1598 + 1852 = ${formed} kJ. Δ<i>H</i>° = ${broken} − ${formed} = <b>${dHbond} kJ/mol</b>.`], { label: "Part A" }),
+        ], [`Bonds broken (energy absorbed): 4(413) + 2(498) = 1652 + 996 = ${broken} kJ. Bonds formed (energy released): 2(799) + 4(463) = 1598 + 1852 = ${formed} kJ. Δ<i>H</i>° = ${broken} − ${formed} = <b>${dHbond} kJ/mol</b>.`], { label: "Part A", tip: "With bond energies, Δ<i>H</i> = (bonds broken) − (bonds formed). Reversing this gives the wrong sign." }),
         P("B", "Calculate Δ<i>H</i>° for the same reaction using the standard enthalpies of formation, and compare the result with your answer to part A.", [
           "For the correct calculation, Δ<i>H</i>° = [(−393.5) + 2(−241.8)] − [(−74.8) + 2(0)] = −802.3 kJ/mol",
           "For a valid comparison: the values agree closely, with any small difference due to the fact that bond energies are averages over many different molecules",
@@ -128,7 +129,7 @@ export default exam({
         P("B", "The first ionization energy of aluminum (578 kJ/mol) is lower than that of magnesium (738 kJ/mol), even though aluminum has a greater nuclear charge. Explain this observation in terms of electron configurations.", [
           "For indicating that the outermost electron of aluminum is in a 3<i>p</i> subshell, whereas that of magnesium is in a 3<i>s</i> subshell",
           "For explaining that a 3<i>p</i> electron is, on average, farther from the nucleus and is shielded by the 3<i>s</i> electrons, so it is held less strongly and is easier to remove despite the greater nuclear charge",
-        ], ["Magnesium's outer electrons are 3<i>s</i><sup>2</sup>, but aluminum's outermost electron is in a 3<i>p</i> orbital (3<i>s</i><sup>2</sup>3<i>p</i><sup>1</sup>). A 3<i>p</i> electron has a higher energy and, on average, is farther from the nucleus than a 3<i>s</i> electron, and it is partly shielded by the 3<i>s</i> electrons. These effects outweigh the extra proton in aluminum, so the 3<i>p</i> electron is held less tightly and less energy is required to remove it."], { label: "Part B" }),
+        ], ["Magnesium's outer electrons are 3<i>s</i><sup>2</sup>, but aluminum's outermost electron is in a 3<i>p</i> orbital (3<i>s</i><sup>2</sup>3<i>p</i><sup>1</sup>). A 3<i>p</i> electron has a higher energy and, on average, is farther from the nucleus than a 3<i>s</i> electron, and it is partly shielded by the 3<i>s</i> electrons. These effects outweigh the extra proton in aluminum, so the 3<i>p</i> electron is held less tightly and less energy is required to remove it."], { label: "Part B", tip: "Compare the subshells: aluminum's outermost electron is in 3<i>p</i> and magnesium's is in 3<i>s</i>. Don't argue from the number of protons alone." }),
       ]),
 
     Q("5", "Short Answer", 9,
@@ -138,11 +139,11 @@ export default exam({
         P("A", "Calculate the theoretical volume of H<sub>2</sub>(<i>g</i>), in liters, that can be produced under the conditions of the experiment. Show your work.", [
           "For the correct number of moles of H<sub>2</sub> (0.500 g ÷ 24.305 g/mol = 0.0206 mol, 1:1 mole ratio with Mg)",
           "For the correct volume, about 0.517 L, using <i>V</i> = <i>nRT</i>/<i>P</i> with <i>P</i> = 740/760 = 0.974 atm and <i>T</i> = 298 K",
-        ], [`Moles of Mg = 0.500 g/24.305 g/mol = ${nH2.toFixed(4)} mol, and the equation gives 1 mol H<sub>2</sub> per mol Mg. <i>V</i> = <i>nRT</i>/<i>P</i> = (${nH2.toFixed(4)} mol)(0.08206 L·atm/(mol·K))(298.15 K)/(740/760 atm) = <b>${Vth.toFixed(3)} L</b>.`], { label: "Part A" }),
+        ], [`Moles of Mg = 0.500 g/24.305 g/mol = ${nH2.toFixed(4)} mol, and the equation gives 1 mol H<sub>2</sub> per mol Mg. <i>V</i> = <i>nRT</i>/<i>P</i> = (${nH2.toFixed(4)} mol)(0.08206 L·atm/(mol·K))(298.15 K)/(740/760 = 0.974 atm) = <b>${Vth.toFixed(3)} L</b>.`], { label: "Part A" }),
         P("B", "Calculate the percent yield of H<sub>2</sub>(<i>g</i>) for the experiment. Show your work.", [
           "For dividing the measured volume by the theoretical volume and multiplying by 100",
           "For the correct value, about 93.8%",
-        ], [`Percent yield = (actual yield/theoretical yield)(100). Both volumes are measured at the same temperature and pressure, so they can be compared directly: (0.485 L / ${Vth.toFixed(3)} L)(100) = <b>${pct.toFixed(1)}%</b>. A yield below 100% is expected because some gas can be lost or left in the tubing, or the magnesium may not react completely.`], { label: "Part B" }),
+        ], [`Percent yield = (actual yield/theoretical yield)(100). Both volumes are measured at the same temperature and pressure, so they can be compared directly: (0.485 L / ${Vth.toFixed(3)} L)(100) = <b>${pct.toFixed(1)}%</b>. A yield below 100% is expected because some gas can be lost or left in the tubing, or the magnesium may not react completely.`], { label: "Part B", tip: "Percent yield is actual ÷ theoretical × 100, never the reverse." }),
       ]),
 
     Q("6", "Short Answer", 9,
@@ -156,7 +157,7 @@ export default exam({
         P("B", "Describe the types of bonds (sigma and pi) in the C–C triple bond of ethyne, and identify the hybridization of the carbon atoms.", [
           "For indicating that the triple bond consists of one sigma bond and two pi bonds",
           "For identifying the carbon atoms as <i>sp</i> hybridized (two electron domains, a linear geometry with 180° bond angles)",
-        ], ["The C≡C triple bond in ethyne consists of <b>one sigma bond</b> (head-on overlap of <i>sp</i> hybrid orbitals) and <b>two pi bonds</b> (sideways overlap of the two remaining unhybridized <i>p</i> orbitals on each carbon). Each carbon has two electron domains (one bond to H and one to the other C), so it is <b><i>sp</i> hybridized</b>, and the molecule is linear."], { label: "Part B" }),
+        ], ["The C≡C triple bond in ethyne consists of <b>one sigma bond</b> (head-on overlap of <i>sp</i> hybrid orbitals) and <b>two pi bonds</b> (sideways overlap of the two remaining unhybridized <i>p</i> orbitals on each carbon). Each carbon has two electron domains (one bond to H and one to the other C), so it is <b><i>sp</i> hybridized</b>, and the molecule is linear (180° bond angles)."], { label: "Part B", tip: "The first bond between two atoms is always a sigma bond. Extra bonds in a double or triple bond are pi bonds." }),
       ]),
 
     Q("7", "Short Answer", 9,
@@ -166,7 +167,7 @@ export default exam({
         P("A", "Calculate the pH of the solution. Show your work.", [
           "For correctly determining that [OH<sup>−</sup>] = 2(0.0050) = 0.010 <i>M</i>, since each formula unit releases two hydroxide ions",
           "For the correct pH of 12.00",
-        ], [`Ba(OH)<sub>2</sub> is a strong base that dissociates completely: Ba(OH)<sub>2</sub> → Ba<sup>2+</sup> + 2 OH<sup>−</sup>. [OH<sup>−</sup>] = 2(0.0050 M) = 0.010 M, so pOH = 2.00 and pH = 14.00 − 2.00 = <b>${pH0.toFixed(2)}</b>.`], { label: "Part A" }),
+        ], [`Ba(OH)<sub>2</sub> is a strong base that dissociates completely: Ba(OH)<sub>2</sub> → Ba<sup>2+</sup> + 2 OH<sup>−</sup>. [OH<sup>−</sup>] = 2(0.0050 M) = 0.010 M, so pOH = 2.00 and pH = 14.00 − 2.00 = <b>${pH0.toFixed(2)}</b>.`], { label: "Part A", tip: "Each formula unit of Ba(OH)<sub>2</sub> releases <em>two</em> OH<sup>−</sup> ions, so [OH<sup>−</sup>] is twice the concentration of the base." }),
         P("B", "The student transfers 10.0 mL of the solution to a 100.0 mL volumetric flask and dilutes it to the mark with distilled water. Calculate the pH of the diluted solution. Show your work.", [
           "For the correct diluted concentration, [OH<sup>−</sup>] = (0.010 <i>M</i>)(10.0 mL/100.0 mL) = 1.0 × 10<sup>−3</sup> <i>M</i>",
           "For the correct pH of 11.00",

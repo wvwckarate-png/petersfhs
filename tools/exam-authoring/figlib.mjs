@@ -22,8 +22,10 @@ export const rect = (x, y, w, h, o = {}) =>
   `<rect x="${f(x)}" y="${f(y)}" width="${f(w)}" height="${f(h)}" fill="${o.fill || "none"}" stroke="${o.stroke || COL.ink}" stroke-width="${o.w ?? 1.6}"${o.rx ? ` rx="${o.rx}"` : ""}${o.dash ? ` stroke-dasharray="${o.dash}"` : ""}/>`;
 export const circle = (cx, cy, r, o = {}) =>
   `<circle cx="${f(cx)}" cy="${f(cy)}" r="${f(r)}" fill="${o.fill || "none"}" stroke="${o.stroke || COL.ink}" stroke-width="${o.w ?? 1.6}"${o.dash ? ` stroke-dasharray="${o.dash}"` : ""}/>`;
+// Subscripts: write x_{0} or d_{o} in a label and it is drawn as a true subscript.
+const sub = (t) => t.replace(/_\{([^}]*)\}/g, '<tspan baseline-shift="sub" font-size="75%">$1</tspan>');
 export const text = (x, y, s, o = {}) =>
-  `<text x="${f(x)}" y="${f(y)}" text-anchor="${o.anchor || "middle"}" font-size="${o.size || 13}" font-weight="${o.weight || 400}" fill="${o.fill || COL.ink}"${o.italic ? ' font-style="italic"' : ""}${o.rotate ? ` transform="rotate(${o.rotate} ${f(x)} ${f(y)})"` : ""}>${esc(s)}</text>`;
+  `<text x="${f(x)}" y="${f(y)}" text-anchor="${o.anchor || "middle"}" font-size="${o.size || 13}" font-weight="${o.weight || 400}" fill="${o.fill || COL.ink}"${o.italic ? ' font-style="italic"' : ""}${o.rotate ? ` transform="rotate(${o.rotate} ${f(x)} ${f(y)})"` : ""}>${sub(esc(s))}</text>`;
 export const path = (d, o = {}) =>
   `<path d="${d}" fill="${o.fill || "none"}" stroke="${o.stroke || COL.ink}" stroke-width="${o.w ?? 1.6}"${o.dash ? ` stroke-dasharray="${o.dash}"` : ""} stroke-linecap="round" stroke-linejoin="round"/>`;
 export const poly = (pts, o = {}) => path("M" + pts.map((p) => `${f(p[0])} ${f(p[1])}`).join("L") + (o.close ? "Z" : ""), o);
@@ -32,7 +34,7 @@ export const vec = (x1, y1, x2, y2, o = {}) => line(x1, y1, x2, y2, { arrow: tru
 
 // ---------- charts ----------
 function ticks(min, max, step) { const t = []; for (let v = min; v <= max + step * 1e-6; v += step) t.push(Math.round(v / step) * step); return t; }
-const fmt = (v) => (Math.abs(v) >= 1e4 || (Math.abs(v) < 1e-2 && v !== 0) ? v.toExponential(0).replace("e+", "×10^").replace("e-", "×10^-") : String(Math.round(v * 1000) / 1000));
+const fmt = (v) => (Math.abs(v) >= 1e4 || (Math.abs(v) < 1e-2 && v !== 0) ? v.toExponential(0).replace("e+", "×10^").replace("e-", "×10^-") : String(Math.round(v * 1000) / 1000)).replace(/^-/, "−");
 
 /** Line/scatter chart. series: [{name, pts:[[x,y]], color, dash, line:true, markers:true, label?}] */
 export function chart(o) {

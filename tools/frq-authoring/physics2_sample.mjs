@@ -22,7 +22,7 @@ const circuitFig = fig(circuitSeriesParallel({ V, R1, R2, R3 }),
 
 const pvFig = fig(pvSymbolic({
   states: [{ label: "A", x: 1, y: 2, dx: -16, dy: -10 }, { label: "B", x: 2, y: 2, dx: 10, dy: -10 }, { label: "C", x: 2, y: 1, dx: 12, dy: 6 }],
-  xTicks: [{ at: 1, label: "V₀" }, { at: 2, label: "2V₀" }], yTicks: [{ at: 1, label: "P₀/2" }, { at: 2, label: "P₀" }],
+  xTicks: [{ at: 1, label: "V_{0}" }, { at: 2, label: "2V_{0}" }], yTicks: [{ at: 1, label: "P_{0}/2" }, { at: 2, label: "P_{0}" }],
   xMax: 2.6, yMax: 2.6, dashes: [{ x1: 1, y1: 2, x2: 1, y2: 0 }, { x1: 0, y1: 2, x2: 1, y2: 2 }, { x1: 0, y1: 1, x2: 2, y2: 1 }, { x1: 2, y1: 2, x2: 2, y2: 0 }],
 }), "A pressure versus volume graph. Process A to B is a horizontal line at pressure P naught from volume V naught to 2 V naught. Process B to C is a vertical line down at volume 2 V naught from pressure P naught to P naught over 2.", { caption: "Figure 1", maxWidth: 440 });
 
@@ -32,6 +32,7 @@ export default exam({
   description: "A short two-question sample (18 points) so you can see how the FRQ exams work — one derivation question and one circuit question. Safe to try; reset it afterward and take the full exams fresh.",
   sample: true,
   minutes: 42,
+  topics: ["Unit 9 — Thermodynamics (first law, work, ideal gases)", "Unit 11 — Electric circuits (series and parallel resistors, power)"],
   questions: [
     Q("1", "Mathematical Routines", 22,
       ["A sample of <i>n</i> moles of a monatomic ideal gas is in a cylinder with a frictionless, movable piston. The gas starts in State A with pressure <i>P</i><sub>0</sub> and volume <i>V</i><sub>0</sub>. The gas then undergoes two processes, shown in Figure 1: first it expands at constant pressure to State B, where its volume is 2<i>V</i><sub>0</sub>. Then it is cooled at constant volume to State C, where its pressure is <i>P</i><sub>0</sub>/2."],
@@ -50,7 +51,7 @@ export default exam({
           "For starting with the first law of thermodynamics, Δ<i>U</i> = <i>Q</i> + <i>W</i> (with <i>W</i> the work done <em>on</em> the gas)",
           "For substituting <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub> (negative because the gas does work as it expands) and the result from part B",
           "For a correct final expression, <i>Q</i> = (5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub>",
-        ], ["The first law of thermodynamics is Δ<i>U</i> = <i>Q</i> + <i>W</i>, where <i>W</i> is the work done on the gas. The gas expands, so it does work and the work done on it is <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub>. Solving for the heat: <i>Q</i> = Δ<i>U</i> − <i>W</i> = (3/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub> − (−<i>P</i><sub>0</sub><i>V</i><sub>0</sub>) = <b>(5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub></b>. Energy flows into the gas: part of it raises the internal energy and part leaves the gas as work on the piston."], { label: "Part C" }),
+        ], ["The first law of thermodynamics is Δ<i>U</i> = <i>Q</i> + <i>W</i>, where <i>W</i> is the work done on the gas. The gas expands, so it does work and the work done on it is <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub>. Solving for the heat: <i>Q</i> = Δ<i>U</i> − <i>W</i> = (3/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub> − (−<i>P</i><sub>0</sub><i>V</i><sub>0</sub>) = <b>(5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub></b>. Energy flows into the gas: part of it raises the internal energy and part leaves the gas as work on the piston."], { label: "Part C", tip: "Using ΔU = <i>Q</i> + <i>W</i> with <i>W</i> as the work done <em>by</em> the gas gives the wrong sign. The gas expands, so the work done <em>on</em> it is negative, and <i>Q</i> ends up larger than Δ<i>U</i>." }),
         P("D", "During the process from B to C, indicate whether energy is transferred to the gas as heat, from the gas as heat, or whether no energy is transferred as heat. Justify your answer. Your justification may include expressions or equations but must include conceptual reasoning beyond algebraic solutions.", [
           "For indicating that energy is transferred from the gas (the gas loses energy as heat)",
           "For reasoning that the volume is constant so no work is done, and the pressure decreases, so the temperature (and internal energy) decreases; therefore Δ<i>U</i> < 0 and, with <i>W</i> = 0, <i>Q</i> must be negative",
@@ -75,7 +76,7 @@ export default exam({
         P("D", "With R<sub>3</sub> removed, indicate whether the power dissipated in R<sub>2</sub> increases, decreases, or remains the same. Justify your answer.", [
           "For indicating that the power dissipated in R<sub>2</sub> increases",
           "For reasoning that the smaller current in R<sub>1</sub> means a smaller potential difference across R<sub>1</sub>, so a larger share of the 12 V appears across R<sub>2</sub>, and <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> with <i>R</i> unchanged",
-        ], ["The power dissipated in R<sub>2</sub> <b>increases</b>. Even though the total current decreases, the potential difference across R<sub>1</sub> decreases (from 6.0 V to 4.8 V), so the potential difference across R<sub>2</sub> — the rest of the 12 V — increases (from 6.0 V to 7.2 V). Since R<sub>2</sub> is unchanged, <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> increases from 1.2 W to about 1.73 W. This shows that a quantity can rise in one part of a circuit while the total current falls."], { label: "Part D" }),
+        ], ["The power dissipated in R<sub>2</sub> <b>increases</b>. Even though the total current decreases, the potential difference across R<sub>1</sub> decreases (from 6.0 V to 4.8 V), so the potential difference across R<sub>2</sub> — the rest of the 12 V — increases (from 6.0 V to 7.2 V). Since R<sub>2</sub> is unchanged, <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> increases from 1.2 W to about 1.73 W. This shows that a quantity can rise in one part of a circuit while the total current falls."], { label: "Part D", tip: "Many students say the power in R<sub>2</sub> must fall because “the current went down.” Power in R<sub>2</sub> depends on the voltage across it (<i>P</i> = <i>V</i><sup>2</sup>/<i>R</i>), and that voltage goes up." }),
       ]),
   ],
 });

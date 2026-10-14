@@ -38,12 +38,14 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the standard cell potential, <i>E</i>°<sub>cell</sub>, and the standard free energy change, Δ<i>G</i>°, in kJ per mole of reaction for the cell reaction. Show your work. (1 faraday = 96,485 C/mol e<sup>−</sup>)",
+     "tip": "Do not multiply a half-reaction's potential by its coefficient. <i>E</i>°<sub>cell</sub> = 0.80 V − (−0.26 V) even though 2 Ag<sup>+</sup> react per Ni.",
      "rubric": [
       "For the correct cell potential: <i>E</i>°<sub>cell</sub> = 0.80 V − (−0.26 V) = +1.06 V (the silver half-reaction is not multiplied)",
       "For a correct Δ<i>G</i>° using Δ<i>G</i>° = −<i>nFE</i>° with <i>n</i> = 2: about −205 kJ/mol<sub>rxn</sub>"
      ],
      "model": [
-      "<i>E</i>°<sub>cell</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub> = 0.80 V − (−0.26 V) = <b>+1.06 V</b>. The balanced cell reaction, Ni(<i>s</i>) + 2 Ag<sup>+</sup>(<i>aq</i>) → Ni<sup>2+</sup>(<i>aq</i>) + 2 Ag(<i>s</i>), transfers <i>n</i> = 2 mol of electrons. Δ<i>G</i>° = −<i>nFE</i>° = −(2)(96,485 C/mol)(1.06 V) = −2.05 × 10<sup>5</sup> J/mol = <b>−205 kJ/mol<sub>rxn</sub></b>. The negative sign shows that the reaction is thermodynamically favorable."
+      "<i>E</i>°<sub>cell</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub> = 0.80 V − (−0.26 V) = <b>+1.06 V</b>. The balanced cell reaction, Ni(<i>s</i>) + 2 Ag<sup>+</sup>(<i>aq</i>) → Ni<sup>2+</sup>(<i>aq</i>) + 2 Ag(<i>s</i>), transfers <i>n</i> = 2 mol of electrons.",
+      "Δ<i>G</i>° = −<i>nFE</i>° = −(2)(96,485 C/mol)(1.06 V) = −2.05 × 10<sup>5</sup> J/mol = <b>−205 kJ/mol<sub>rxn</sub></b>. The negative sign shows that the reaction is thermodynamically favorable."
      ]
     },
     {
@@ -55,7 +57,8 @@ const EXAM = {
       "For a correct cell potential of about 0.94 V, which is less than the standard potential"
      ],
      "model": [
-      "The cell reaction is Ni + 2 Ag<sup>+</sup> → Ni<sup>2+</sup> + 2 Ag, so <i>Q</i> = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup> = 1.0/(0.010)<sup>2</sup> = 1.0 × 10<sup>4</sup>. <i>E</i> = 1.06 V − (0.0257 V/2) ln(1.0 × 10<sup>4</sup>) = 1.06 V − (0.01285)(9.21) = <b>0.94 V</b>. This is <b>less than</b> 1.06 V: lowering the concentration of a reactant makes <i>Q</i> larger than 1, so the reaction has less driving force."
+      "The cell reaction is Ni + 2 Ag<sup>+</sup> → Ni<sup>2+</sup> + 2 Ag, so <i>Q</i> = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup> = 1.0/(0.010)<sup>2</sup> = 1.0 × 10<sup>4</sup>. <i>E</i> = 1.06 V − (0.0257 V/2) ln(1.0 × 10<sup>4</sup>) = 1.06 V − (0.01285)(9.21) = <b>0.94 V</b>.",
+      "This is <b>less than</b> 1.06 V: lowering the concentration of a reactant makes <i>Q</i> larger than 1, so the reaction has less driving force."
      ]
     },
     {
@@ -67,7 +70,7 @@ const EXAM = {
       "For the correct mass of silver, about 1.01 g (1 mol Ag per mol of e<sup>−</sup>, 107.87 g/mol)"
      ],
      "model": [
-      "Charge = <i>It</i> = (0.500 A)(30.0 × 60 s) = 900 C. Moles of electrons = 900 C/96,485 C/mol = 9.33 × 10<sup>−3</sup> mol. Each mole of electrons deposits one mole of Ag (Ag<sup>+</sup> + e<sup>−</sup> → Ag), so mass = (9.33 × 10<sup>−3</sup> mol)(107.87 g/mol) = <b>1.01 g</b> of Ag."
+      "Charge = <i>It</i> = (0.500 A)(30.0 × 60 s) = (0.500 A)(1800 s) = 900 C. Moles of electrons = 900 C/96,485 C/mol = 9.33 × 10<sup>−3</sup> mol. Each mole of electrons deposits one mole of Ag (Ag<sup>+</sup> + e<sup>−</sup> → Ag), so mass = (9.33 × 10<sup>−3</sup> mol)(107.87 g/mol) = <b>1.01 g</b> of Ag."
      ]
     },
     {
@@ -79,10 +82,12 @@ const EXAM = {
       "For indicating that anions move toward the anode (the nickel half-cell, where positive Ni<sup>2+</sup> ions are being produced) and cations move toward the cathode (where Ag<sup>+</sup> ions are being removed)"
      ],
      "model": [
-      "As the cell operates, Ni<sup>2+</sup> ions accumulate in the anode compartment and Ag<sup>+</sup> ions are removed from the cathode compartment. Without a way to balance these charges, the anode solution would become positively charged and the cathode solution negatively charged, which would quickly stop the flow of electrons. The salt bridge completes the circuit with a flow of ions: <b>anions (such as NO<sub>3</sub><sup>−</sup>) move toward the nickel anode compartment</b> and <b>cations move toward the silver cathode compartment</b>, keeping both solutions electrically neutral."
+      "As the cell operates, Ni<sup>2+</sup> ions accumulate in the anode compartment and Ag<sup>+</sup> ions are removed from the cathode compartment. Without a way to balance these charges, the anode solution would become positively charged and the cathode solution negatively charged, which would quickly stop the flow of electrons.",
+      "The salt bridge completes the circuit with a flow of ions: <b>anions (such as NO<sub>3</sub><sup>−</sup>) move toward the nickel anode compartment</b> and <b>cations move toward the silver cathode compartment</b>, keeping both solutions electrically neutral."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Electrochemistry (galvanic cells)"
   },
   {
    "id": "2",
@@ -130,7 +135,8 @@ const EXAM = {
       "For explaining that the wavelength of maximum absorbance gives the greatest sensitivity (the largest change in absorbance for a given change in concentration) and the most reliable linear relationship"
      ],
      "model": [
-      "The Beer–Lambert law says that <i>A</i> = ε<i>bc</i>: for a fixed path length <i>b</i> and wavelength, absorbance is directly proportional to concentration, so a plot of absorbance against concentration for the standards is a straight line through the origin (here, slope 4.50 × 10<sup>3</sup> M<sup>−1</sup>). At the wavelength of maximum absorbance, ε is largest, so a small change in concentration produces the largest change in absorbance. That gives the best sensitivity and the smallest relative uncertainty."
+      "The Beer–Lambert law says that <i>A</i> = ε<i>bc</i>: for a fixed path length <i>b</i> and wavelength, absorbance is directly proportional to concentration, so a plot of absorbance against concentration for the standards is a straight line through the origin (here, slope 4.50 × 10<sup>3</sup> M<sup>−1</sup>).",
+      "At the wavelength of maximum absorbance, ε is largest, so a small change in concentration produces the largest change in absorbance. That gives the best sensitivity and the smallest relative uncertainty."
      ]
     },
     {
@@ -148,6 +154,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Calculate the equilibrium concentrations of Fe<sup>3+</sup>(<i>aq</i>) and SCN<sup>−</sup>(<i>aq</i>) in the mixture. Show your work.",
+     "tip": "Mixing equal volumes halves each concentration. The starting concentrations in the equilibrium table are 1.00 × 10<sup>−3</sup> <i>M</i>, not 2.00 × 10<sup>−3</sup> <i>M</i>.",
      "rubric": [
       "For correctly determining the initial concentrations after mixing (the volume doubles): 1.00 × 10<sup>−3</sup> <i>M</i> for each reactant",
       "For correct equilibrium concentrations, 9.52 × 10<sup>−4</sup> <i>M</i> for each, by subtracting 4.80 × 10<sup>−5</sup> <i>M</i> (the reaction uses Fe<sup>3+</sup> and SCN<sup>−</sup> in a 1:1:1 ratio)"
@@ -191,7 +198,8 @@ const EXAM = {
       "Light can be absorbed or scattered by the cuvette and the solvent as well as by the colored ion. Setting the absorbance of the blank to zero removes these contributions, so that the reading for the equilibrium mixture reflects only the absorbance of FeSCN<sup>2+</sup>, which is the quantity that is proportional to its concentration."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Equilibrium (spectrophotometry and K<sub>c</sub>)"
   },
   {
    "id": "3",
@@ -216,6 +224,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the mass of Na<sub>2</sub>CO<sub>3</sub> in the sample. Show your work.",
+     "tip": "Two moles of HCl react with each mole of Na<sub>2</sub>CO<sub>3</sub>. Forgetting the 2:1 ratio doubles the mass.",
      "rubric": [
       "For the correct number of moles of HCl: (0.02130 L)(0.500 mol/L) = 0.01065 mol",
       "For using the 2:1 mole ratio to obtain 0.005325 mol of Na<sub>2</sub>CO<sub>3</sub>",
@@ -258,10 +267,12 @@ const EXAM = {
       "For explaining that H<sub>2</sub>CO<sub>3</sub> ionizes slightly in water (H<sub>2</sub>CO<sub>3</sub> + H<sub>2</sub>O ⇌ HCO<sub>3</sub><sup>−</sup> + H<sub>3</sub>O<sup>+</sup>), producing H<sub>3</sub>O<sup>+</sup>, while Na<sup>+</sup> and Cl<sup>−</sup> do not react with water"
      ],
      "model": [
-      "The Na<sup>+</sup> and Cl<sup>−</sup> ions come from a strong base and a strong acid and have no effect on pH. However, the reaction produces CO<sub>2</sub>, which dissolves in the water as carbonic acid, H<sub>2</sub>CO<sub>3</sub>, a weak acid. It ionizes slightly: H<sub>2</sub>CO<sub>3</sub>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ HCO<sub>3</sub><sup>−</sup>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>), which makes the solution acidic (a pH of about 4 for a saturated CO<sub>2</sub> solution)."
+      "The Na<sup>+</sup> and Cl<sup>−</sup> ions come from a strong base and a strong acid and have no effect on pH. However, the reaction produces CO<sub>2</sub>, which dissolves in the water as carbonic acid, H<sub>2</sub>CO<sub>3</sub>, a weak acid.",
+      "It ionizes slightly: H<sub>2</sub>CO<sub>3</sub>(<i>aq</i>) + H<sub>2</sub>O(<i>l</i>) ⇌ HCO<sub>3</sub><sup>−</sup>(<i>aq</i>) + H<sub>3</sub>O<sup>+</sup>(<i>aq</i>), which makes the solution acidic (a pH of about 4 for a saturated CO<sub>2</sub> solution)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 4 — Chemical reactions (titration and stoichiometry)"
   },
   {
    "id": "4",
@@ -313,22 +324,25 @@ const EXAM = {
       "For justifying with a constant half-life: [A] falls from 0.800 <i>M</i> to 0.400 <i>M</i> in 200 s and from 0.400 <i>M</i> to 0.200 <i>M</i> in the next 200 s (or ln[A] versus time is linear)"
      ],
      "model": [
-      "The reaction is <b>first order</b> in A. The concentration is cut in half every 200 s: 0.800 M at 0 s, 0.400 M at 200 s, and 0.200 M at 400 s. A constant half-life that does not depend on the starting concentration is the signature of a first-order reaction. (A graph of ln[A] versus time would also be a straight line.)"
+      "The reaction is <b>first order</b> in A. The concentration is cut in half every 200 s: 0.800 M at 0 s, 0.400 M at 200 s, and 0.200 M at 400 s.",
+      "A constant half-life that does not depend on the starting concentration is the signature of a first-order reaction. (A graph of ln[A] versus time would also be a straight line.)"
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the value of the rate constant, <i>k</i>, for the reaction. Include units. Show your work.",
+     "tip": "For a first-order reaction <i>k</i> = ln 2/<i>t</i><sub>1/2</sub>, not 1/<i>t</i><sub>1/2</sub>.",
      "rubric": [
       "For using <i>t</i><sub>1/2</sub> = ln 2/<i>k</i> (or the integrated rate law ln[A]<sub>0</sub>/[A] = <i>kt</i>) with a correct value substituted",
       "For the correct value of <i>k</i> = 3.5 × 10<sup>−3</sup> s<sup>−1</sup> (with units of s<sup>−1</sup>)"
      ],
      "model": [
-      "For a first-order reaction, <i>k</i> = ln 2/<i>t</i><sub>1/2</sub> = 0.693/(200 s) = <b>3.47 × 10<sup>−3</sup> s<sup>−1</sup></b>. Check with the integrated rate law at <i>t</i> = 400 s: ln(0.800/0.200) = 1.386 = <i>k</i>(400 s), giving the same value."
+      "For a first-order reaction, <i>k</i> = ln 2/<i>t</i><sub>1/2</sub> = 0.693/(200 s) = <b>3.47 × 10<sup>−3</sup> s<sup>−1</sup></b> (about 3.5 × 10<sup>−3</sup> s<sup>−1</sup>). Check with the integrated rate law at <i>t</i> = 400 s: ln(0.800/0.200) = 1.386 = <i>k</i>(400 s), giving the same value."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Kinetics (integrated rate laws)"
   },
   {
    "id": "5",
@@ -355,22 +369,26 @@ const EXAM = {
       "For predicting a bent (angular) molecular geometry, justified by three electron domains (two bonds and one lone pair) around sulfur"
      ],
      "model": [
-      "The total number of valence electrons is 6 + 6 + 6 = 18. In the Lewis diagram sulfur is the central atom, with one double bond to one oxygen, one single bond to the other oxygen, one lone pair on sulfur, two lone pairs on the doubly bonded oxygen, and three lone pairs on the singly bonded oxygen. Sulfur has three electron domains (two bonding, one nonbonding), arranged in a trigonal planar electron geometry; the molecular geometry is therefore <b>bent</b>."
+      "The total number of valence electrons is 6 + 6 + 6 = 18. In the Lewis diagram sulfur is the central atom, with one double bond to one oxygen, one single bond to the other oxygen, one lone pair on sulfur, two lone pairs on the doubly bonded oxygen, and three lone pairs on the singly bonded oxygen.",
+      "Sulfur has three electron domains (two bonding, one nonbonding), arranged in a trigonal planar electron geometry; the molecular geometry is therefore <b>bent</b>."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "Explain, in terms of molecular geometry and bond polarity, why SO<sub>2</sub> is polar but CO<sub>2</sub> is nonpolar.",
+     "tip": "Bond dipoles cancel only when the geometry is symmetric. Naming polar bonds is not enough: tie the answer to linear versus bent.",
      "rubric": [
       "For explaining that both molecules have polar bonds (the central atom–oxygen bonds have a dipole toward oxygen)",
       "For explaining that CO<sub>2</sub> is linear, so the two bond dipoles point in opposite directions and cancel, whereas SO<sub>2</sub> is bent, so the bond dipoles do not cancel and the molecule has a net dipole moment"
      ],
      "model": [
-      "The S–O and C–O bonds are both polar, with oxygen (more electronegative) as the negative end. CO<sub>2</sub> has no lone pairs on carbon, so it is <b>linear</b>: the two equal bond dipoles point in opposite directions and cancel, so the molecule is nonpolar. SO<sub>2</sub> has a lone pair on sulfur and is <b>bent</b>: the two bond dipoles point partly in the same direction and add to give a net dipole moment pointing between the oxygen atoms, so the molecule is polar."
+      "The S–O and C–O bonds are both polar, with oxygen (more electronegative) as the negative end. CO<sub>2</sub> has no lone pairs on carbon, so it is <b>linear</b>: the two equal bond dipoles point in opposite directions and cancel, so the molecule is nonpolar.",
+      "SO<sub>2</sub> has a lone pair on sulfur and is <b>bent</b>: the two bond dipoles point partly in the same direction and add to give a net dipole moment pointing between the oxygen atoms, so the molecule is polar."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 2 — Molecular structure (Lewis diagrams, VSEPR, polarity)"
   },
   {
    "id": "6",
@@ -396,6 +414,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "When adding distilled water, the student accidentally fills the flask a little above the 250.0 mL mark. Is the concentration of the resulting solution greater than, less than, or equal to 0.100 <i>M</i>? Justify your answer.",
+     "tip": "Overfilling does not change the moles of NaCl; it spreads the same moles over a larger volume.",
      "rubric": [
       "For indicating that the concentration is less than 0.100 M",
       "For reasoning that the moles of NaCl are unchanged but the total volume is greater than 250.0 mL, so the concentration (moles ÷ volume) is smaller"
@@ -404,7 +423,8 @@ const EXAM = {
       "The concentration is <b>less than</b> 0.100 M. The amount of NaCl is fixed at 0.0250 mol by the 12.5 mL of stock solution that was transferred. If the final volume is larger than 250.0 mL, then <i>M</i> = (0.0250 mol)/(a volume greater than 0.2500 L), which is less than 0.100 M."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Solutions (molarity and dilution)"
   },
   {
    "id": "7",
@@ -421,13 +441,15 @@ const EXAM = {
      "id": "A",
      "label": "Part A",
      "prompt": "Use the information to calculate the standard enthalpy of formation of ethane, C<sub>2</sub>H<sub>6</sub>(<i>g</i>), for the reaction 2 C(<i>s</i>) + 3 H<sub>2</sub>(<i>g</i>) → C<sub>2</sub>H<sub>6</sub>(<i>g</i>). Show your work.",
+     "tip": "Reversing an equation changes the sign of Δ<i>H</i>; multiplying an equation multiplies Δ<i>H</i>. Track both changes for every equation.",
      "rubric": [
       "For reversing equation (3), which changes the sign of its Δ<i>H</i>° (+1560 kJ)",
       "For multiplying equation (1) by 2 and equation (2) by 3 (−787.0 kJ and −857.4 kJ)",
       "For the correct sum, Δ<i>H</i><sub>f</sub>° = −84.4 kJ/mol"
      ],
      "model": [
-      "Ethane must appear as a product, so reverse (3): 2 CO<sub>2</sub> + 3 H<sub>2</sub>O → C<sub>2</sub>H<sub>6</sub> + 7/2 O<sub>2</sub>, Δ<i>H</i> = +1560 kJ. The carbon is supplied by 2 × (1): 2 C + 2 O<sub>2</sub> → 2 CO<sub>2</sub>, Δ<i>H</i> = −787.0 kJ; the hydrogen is supplied by 3 × (2): 3 H<sub>2</sub> + 3/2 O<sub>2</sub> → 3 H<sub>2</sub>O, Δ<i>H</i> = −857.4 kJ. Adding the three equations, the CO<sub>2</sub>, H<sub>2</sub>O, and O<sub>2</sub> cancel, leaving 2 C + 3 H<sub>2</sub> → C<sub>2</sub>H<sub>6</sub>. Δ<i>H</i><sub>f</sub>° = +1560 − 787.0 − 857.4 = <b>-84.4 kJ/mol</b>."
+      "Ethane must appear as a product, so reverse (3): 2 CO<sub>2</sub> + 3 H<sub>2</sub>O → C<sub>2</sub>H<sub>6</sub> + 7/2 O<sub>2</sub>, Δ<i>H</i> = +1560 kJ. The carbon is supplied by 2 × (1): 2 C + 2 O<sub>2</sub> → 2 CO<sub>2</sub>, Δ<i>H</i> = −787.0 kJ; the hydrogen is supplied by 3 × (2): 3 H<sub>2</sub> + 3/2 O<sub>2</sub> → 3 H<sub>2</sub>O, Δ<i>H</i> = −857.4 kJ.",
+      "Adding the three equations, the CO<sub>2</sub>, H<sub>2</sub>O, and O<sub>2</sub> cancel, leaving 2 C + 3 H<sub>2</sub> → C<sub>2</sub>H<sub>6</sub>. Δ<i>H</i><sub>f</sub>° = +1560 − 787.0 − 857.4 = <b>-84.4 kJ/mol</b>."
      ]
     },
     {
@@ -441,7 +463,8 @@ const EXAM = {
       "The formation of ethane from its elements is <b>exothermic</b>, because Δ<i>H</i><sub>f</sub>° = −84.4 kJ/mol is negative: the products (the bonds in ethane) are lower in enthalpy than the reactants (graphite and H<sub>2</sub>), and energy is released to the surroundings."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 6 — Thermochemistry (Hess's law)"
   }
  ]
 };

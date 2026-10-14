@@ -34,13 +34,13 @@ const pvFig = fig(pvDiagram({
 { caption: "Figure 1" });
 
 const TV = fig(sketchAxes({
-  xLabel: "Volume V (L)", yLabel: "Temperature T (units of T_A)", xMax: 4, yMax: 3.6,
+  xLabel: "Volume V (L)", yLabel: "Temperature T (units of T_{A})", xMax: 4, yMax: 3.6,
   xTicks: [{ at: 1, label: "1.0" }, { at: 3, label: "3.0" }],
   yTicks: [{ at: 0.5, label: "0.5" }, { at: 1, label: "1.0" }, { at: 1.5, label: "1.5" }, { at: 3, label: "3.0" }],
   curves: [{ pts: TmodelPts, color: "#3F7A94" }],
   notes: [{ x: 0.82, y: 1.12, s: "A", anchor: "end" }, { x: 3.1, y: 3.05, s: "B" }, { x: 3.1, y: 1.5, s: "C" }, { x: 0.82, y: 0.5, s: "D", anchor: "end" }],
 }), "A graph of temperature versus volume for the cycle. A rises along a straight line toward the origin's direction to B at 3.0 liters and 3.0 times the temperature at A; B drops vertically to C at half of B's temperature; C goes along a straight line to D at 1.0 liter; D rises vertically back to A.",
-{ caption: "Model sketch (T in units of T_A): A (1, 1.0) → B (3, 3.0) → C (3, 1.5) → D (1, 0.5) → A. Both slanted segments lie on lines through the origin." });
+{ caption: "Model sketch (<i>T</i> in units of <i>T</i><sub>A</sub>): A (1, 1.0) → B (3, 3.0) → C (3, 1.5) → D (1, 0.5) → A. Both slanted segments lie on lines through the origin." });
 
 const decayTable = table(["Time <i>t</i> (min)", "Count rate <i>R</i> (counts/min)", "ln <i>R</i>"], ts.map((t, i) => [String(t), String(Rs[i]), lnR[i].toFixed(2)]), "Table 1. Count rates corrected for background.");
 
@@ -53,6 +53,7 @@ export default exam({
   title: "Exam 4",
   description: "A full-length, four-question free-response exam: a charged particle in a magnetic field, a thermodynamic cycle, radioactive decay, and total internal reflection.",
   minutes: 95,
+  topics: ["Unit 12 — Magnetism and electromagnetic induction (a charged particle in a magnetic field)", "Unit 9 — Thermodynamics (P–V cycles and the ideal gas law)", "Unit 15 — Modern physics (radioactive decay)", "Unit 13 — Geometric optics (refraction and total internal reflection)"],
   questions: [
     Q("1", "Mathematical Routines", 23,
       ["A particle of mass <i>m</i> and positive charge <i>q</i> is accelerated from rest through a potential difference <i>V</i>. It then enters, perpendicular to the field, a region of uniform magnetic field of magnitude <i>B</i> directed into the page, as shown in Figure 1. The particle follows a semicircular path of radius <i>R</i> in the region. Gravitational effects are negligible."],
@@ -66,7 +67,7 @@ export default exam({
           "For starting with Newton's second law with the magnetic force as the centripetal force, <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i> (or <i>F</i> = <i>qvB</i> sin 90° = <i>ma</i><sub>c</sub>)",
           "For solving for the radius, <i>R</i> = <i>mv</i>/(<i>qB</i>)",
           "For substituting the speed from part A to obtain <i>R</i> = (1/<i>B</i>)√(2<i>mV</i>/<i>q</i>)",
-        ], ["The magnetic force is perpendicular to the velocity, so it does no work and acts as the centripetal force: <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i>. Then <i>R</i> = <i>mv</i>/(<i>qB</i>). Substituting <i>v</i> = √(2<i>qV</i>/<i>m</i>): <i>R</i> = (<i>m</i>/(<i>qB</i>))√(2<i>qV</i>/<i>m</i>) = <b>(1/<i>B</i>)√(2<i>mV</i>/<i>q</i>)</b>."], { label: "Part B" }),
+        ], ["The magnetic force is perpendicular to the velocity, so it does no work and acts as the centripetal force: <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i>. Then <i>R</i> = <i>mv</i>/(<i>qB</i>). Substituting <i>v</i> = √(2<i>qV</i>/<i>m</i>): <i>R</i> = (<i>m</i>/(<i>qB</i>))√(2<i>qV</i>/<i>m</i>) = <b>(1/<i>B</i>)√(2<i>mV</i>/<i>q</i>)</b>."], { label: "Part B", tip: "The magnetic force does no work, so don't use an energy equation inside the field. It supplies the centripetal force: <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i>." }),
         P("C", "A second particle has the same charge <i>q</i> but twice the mass, 2<i>m</i>, and is accelerated through the same potential difference <i>V</i> and enters the same magnetic field. Derive the ratio <i>R</i><sub>2</sub>/<i>R</i><sub>1</sub> of the radius of the second particle's path to that of the first particle's path.", [
           "For using the result from part B to show that the radius is proportional to √<i>m</i> when <i>q</i>, <i>V</i>, and <i>B</i> are the same",
           "For setting up the ratio correctly: <i>R</i><sub>2</sub>/<i>R</i><sub>1</sub> = √(2<i>m</i>)/√<i>m</i>",
@@ -95,7 +96,7 @@ export default exam({
           "For a straight segment from A to B that increases in temperature with volume, and a vertical segment from B to C that lowers the temperature at constant volume",
           "For correct relative temperatures at the four states: A = 1.0, B = 3.0, C = 1.5, D = 0.5 (in units of <i>T</i><sub>A</sub>)",
           "For a segment from C to D that decreases in volume and temperature, a vertical segment from D back to A, and arrows indicating the direction A → B → C → D → A",
-        ], ["At constant pressure <i>T</i> = <i>PV</i>/<i>nR</i> is proportional to <i>V</i>, so processes AB and CD are straight lines through the origin of the <i>T</i>–<i>V</i> graph (A to B rises from 1.0 to 3.0 at higher pressure, and C to D falls from 1.5 to 0.5 at lower pressure). The constant-volume processes BC and DA are vertical segments (B to C drops from 3.0 to 1.5; D to A rises from 0.5 to 1.0). The cycle is traced A → B → C → D → A."], { label: "Part C", paper: true, modelFigures: [TV] }),
+        ], ["At constant pressure <i>T</i> = <i>PV</i>/<i>nR</i> is proportional to <i>V</i>, so processes AB and CD are straight lines through the origin of the <i>T</i>–<i>V</i> graph (A to B rises from 1.0 to 3.0 at higher pressure, and C to D falls from 1.5 to 0.5 at lower pressure). The constant-volume processes BC and DA are vertical segments (B to C drops from 3.0 to 1.5; D to A rises from 0.5 to 1.0). The cycle is traced A → B → C → D → A."], { label: "Part C", tip: "On a <i>T</i>–<i>V</i> graph, constant-pressure processes are straight lines through the origin and constant-volume processes are vertical. Re-drawing the <i>P</i>–<i>V</i> rectangle is the usual error.", paper: true, modelFigures: [TV] }),
         P("D", "Indicate at which state the root-mean-square speed of the gas atoms is greatest. Justify your answer.", [
           "For indicating state B",
           "For reasoning that <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>) increases with temperature, and state B has the highest temperature",
@@ -122,7 +123,7 @@ export default exam({
           "For a correct slope calculation: (4.95 − 6.68)/(10 min − 0 min) = −0.173 min<sup>−1</sup>",
           "For a correct decay constant of 0.173 min<sup>−1</sup> (the negative of the slope), with units",
           "For using <i>t</i><sub>1/2</sub> = ln 2/λ to obtain a half-life of about 4.0 min",
-        ], ["Slope = (4.95 − 6.68)/(10 min) = −0.173 min<sup>−1</sup>. Since the slope equals −λ, <b>λ = 0.173 min<sup>−1</sup></b>. The half-life is the time for <i>R</i> to fall to half: <i>t</i><sub>1/2</sub> = ln 2/λ = 0.693/(0.173 min<sup>−1</sup>) = <b>4.0 min</b>. (Check with the table: 800 counts/min falls to about 400 at <i>t</i> = 4 min.)"], { label: "Part B (ii)" }),
+        ], ["Slope = (4.95 − 6.68)/(10 min) = −0.173 min<sup>−1</sup>. Since the slope equals −λ, <b>λ = 0.173 min<sup>−1</sup></b>. The half-life is the time for <i>R</i> to fall to half: <i>t</i><sub>1/2</sub> = ln 2/λ = 0.693/(0.173 min<sup>−1</sup>) = <b>4.0 min</b>. (Check with the table: 800 counts/min falls to about 400 at <i>t</i> = 4 min.)"], { label: "Part B (ii)", tip: "Use the natural logarithm, ln, because the decay law uses <i>e</i><sup>−λ<i>t</i></sup>. The slope is −λ, so λ is positive." }),
         P("C", "The student repeats the experiment with a different isotope that has a half-life twice as long. Indicate whether the slope of the new line on a graph of ln <i>R</i> versus <i>t</i> has a greater magnitude, a smaller magnitude, or the same magnitude as the original slope, and justify your answer.", [
           "For indicating that the magnitude of the slope is smaller (half as large)",
           "For reasoning that the slope has magnitude λ = ln 2/<i>t</i><sub>1/2</sub>, so doubling the half-life halves λ (the isotope decays more slowly)",
@@ -143,7 +144,7 @@ export default exam({
         P("B", "With the glass surrounded by air, indicate whether the ray in Figure 1 is totally internally reflected at the boundary. Justify your answer.", [
           "For indicating that the ray is totally internally reflected",
           "For comparing the 50° angle of incidence to the critical angle of about 42° (the angle of incidence is greater, so Snell's law has no solution for the refracted angle)",
-        ], ["Yes, the ray is <b>totally internally reflected</b>. The angle of incidence, 50°, is greater than the critical angle, 41.8°. Then sin θ<sub>2</sub> = (1.50/1.00) sin 50° = 1.15, which is greater than 1 and cannot be the sine of any angle: no refracted ray exists, and all of the light is reflected back into the glass."], { label: "Part B" }),
+        ], ["Yes, the ray is <b>totally internally reflected</b>. The angle of incidence, 50°, is greater than the critical angle, 41.8°. Then sin θ<sub>2</sub> = (1.50/1.00) sin 50° = 1.15, which is greater than 1 and cannot be the sine of any angle: no refracted ray exists, and all of the light is reflected back into the glass."], { label: "Part B", tip: "Angles in Snell's law are measured from the normal, not from the surface. Compare the angle of incidence with the critical angle." }),
         P("C", "The glass block is now completely submerged in water, and the ray strikes the boundary at the same 50° angle. Indicate whether the ray is now totally internally reflected, and justify your answer with a calculation.", [
           "For calculating the new critical angle, sin θ<sub>c</sub> = 1.33/1.50, to obtain about 62°",
           "For indicating that the ray is no longer totally internally reflected (some of it refracts into the water), since 50° is less than the new critical angle",

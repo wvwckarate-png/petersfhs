@@ -15,7 +15,7 @@ const EXAM = {
    ],
    "figures": [
     {
-     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"70\" y1=\"264\" x2=\"412\" y2=\"264\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"24\" x2=\"70\" y2=\"264\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"201.54\" y1=\"264\" x2=\"201.54\" y2=\"269\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"201.54\" y=\"285\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">V₀</text><line x1=\"333.08\" y1=\"264\" x2=\"333.08\" y2=\"269\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"333.08\" y=\"285\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">2V₀</text><line x1=\"65\" y1=\"171.69\" x2=\"70\" y2=\"171.69\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"61\" y=\"176.69\" text-anchor=\"end\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">P₀/2</text><line x1=\"65\" y1=\"79.38\" x2=\"70\" y2=\"79.38\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"61\" y=\"84.38\" text-anchor=\"end\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">P₀</text><text x=\"241\" y=\"308\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Volume</text><text x=\"18\" y=\"144\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 18 144)\">Pressure</text><line x1=\"201.54\" y1=\"79.38\" x2=\"201.54\" y2=\"264\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"79.38\" x2=\"201.54\" y2=\"79.38\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"171.69\" x2=\"333.08\" y2=\"171.69\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"333.08\" y1=\"79.38\" x2=\"333.08\" y2=\"264\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"201.54\" y1=\"79.38\" x2=\"333.08\" y2=\"79.38\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"274.3,79.4 260.3,74.4 260.3,84.4\" fill=\"#3F7A94\"/><line x1=\"333.08\" y1=\"79.38\" x2=\"333.08\" y2=\"171.69\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"333.1,132.5 338.1,118.5 328.1,118.5\" fill=\"#3F7A94\"/><circle cx=\"201.54\" cy=\"79.38\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"185.54\" y=\"69.38\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">A</text><circle cx=\"333.08\" cy=\"79.38\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"343.08\" y=\"69.38\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">B</text><circle cx=\"333.08\" cy=\"171.69\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"345.08\" y=\"177.69\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">C</text></svg>",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"70\" y1=\"264\" x2=\"412\" y2=\"264\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"24\" x2=\"70\" y2=\"264\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"201.54\" y1=\"264\" x2=\"201.54\" y2=\"269\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"201.54\" y=\"285\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">V<tspan baseline-shift=\"sub\" font-size=\"75%\">0</tspan></text><line x1=\"333.08\" y1=\"264\" x2=\"333.08\" y2=\"269\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"333.08\" y=\"285\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">2V<tspan baseline-shift=\"sub\" font-size=\"75%\">0</tspan></text><line x1=\"65\" y1=\"171.69\" x2=\"70\" y2=\"171.69\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"61\" y=\"176.69\" text-anchor=\"end\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">P<tspan baseline-shift=\"sub\" font-size=\"75%\">0</tspan>/2</text><line x1=\"65\" y1=\"79.38\" x2=\"70\" y2=\"79.38\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"61\" y=\"84.38\" text-anchor=\"end\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">P<tspan baseline-shift=\"sub\" font-size=\"75%\">0</tspan></text><text x=\"241\" y=\"308\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Volume</text><text x=\"18\" y=\"144\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 18 144)\">Pressure</text><line x1=\"201.54\" y1=\"79.38\" x2=\"201.54\" y2=\"264\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"79.38\" x2=\"201.54\" y2=\"79.38\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"171.69\" x2=\"333.08\" y2=\"171.69\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"333.08\" y1=\"79.38\" x2=\"333.08\" y2=\"264\" stroke=\"#9AA096\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\"/><line x1=\"201.54\" y1=\"79.38\" x2=\"333.08\" y2=\"79.38\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"274.3,79.4 260.3,74.4 260.3,84.4\" fill=\"#3F7A94\"/><line x1=\"333.08\" y1=\"79.38\" x2=\"333.08\" y2=\"171.69\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"333.1,132.5 338.1,118.5 328.1,118.5\" fill=\"#3F7A94\"/><circle cx=\"201.54\" cy=\"79.38\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"185.54\" y=\"69.38\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">A</text><circle cx=\"333.08\" cy=\"79.38\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"343.08\" y=\"69.38\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">B</text><circle cx=\"333.08\" cy=\"171.69\" r=\"4.8\" fill=\"#2E332E\"/><text x=\"345.08\" y=\"177.69\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"800\" fill=\"#2E332E\">C</text></svg>",
      "alt": "A pressure versus volume graph. Process A to B is a horizontal line at pressure P naught from volume V naught to 2 V naught. Process B to C is a vertical line down at volume 2 V naught from pressure P naught to P naught over 2.",
      "caption": "Figure 1",
      "maxWidth": 440
@@ -51,13 +51,15 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Derive an expression for the energy <i>Q</i> transferred to the gas as heat during the process from A to B. Express your answer in terms of <i>P</i><sub>0</sub>, <i>V</i><sub>0</sub>, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.",
+     "tip": "Using ΔU = <i>Q</i> + <i>W</i> with <i>W</i> as the work done <em>by</em> the gas gives the wrong sign. The gas expands, so the work done <em>on</em> it is negative, and <i>Q</i> ends up larger than Δ<i>U</i>.",
      "rubric": [
       "For starting with the first law of thermodynamics, Δ<i>U</i> = <i>Q</i> + <i>W</i> (with <i>W</i> the work done <em>on</em> the gas)",
       "For substituting <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub> (negative because the gas does work as it expands) and the result from part B",
       "For a correct final expression, <i>Q</i> = (5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub>"
      ],
      "model": [
-      "The first law of thermodynamics is Δ<i>U</i> = <i>Q</i> + <i>W</i>, where <i>W</i> is the work done on the gas. The gas expands, so it does work and the work done on it is <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub>. Solving for the heat: <i>Q</i> = Δ<i>U</i> − <i>W</i> = (3/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub> − (−<i>P</i><sub>0</sub><i>V</i><sub>0</sub>) = <b>(5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub></b>. Energy flows into the gas: part of it raises the internal energy and part leaves the gas as work on the piston."
+      "The first law of thermodynamics is Δ<i>U</i> = <i>Q</i> + <i>W</i>, where <i>W</i> is the work done on the gas. The gas expands, so it does work and the work done on it is <i>W</i> = −<i>P</i><sub>0</sub><i>V</i><sub>0</sub>.",
+      "Solving for the heat: <i>Q</i> = Δ<i>U</i> − <i>W</i> = (3/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub> − (−<i>P</i><sub>0</sub><i>V</i><sub>0</sub>) = <b>(5/2)<i>P</i><sub>0</sub><i>V</i><sub>0</sub></b>. Energy flows into the gas: part of it raises the internal energy and part leaves the gas as work on the piston."
      ]
     },
     {
@@ -69,10 +71,12 @@ const EXAM = {
       "For reasoning that the volume is constant so no work is done, and the pressure decreases, so the temperature (and internal energy) decreases; therefore Δ<i>U</i> < 0 and, with <i>W</i> = 0, <i>Q</i> must be negative"
      ],
      "model": [
-      "Energy is transferred <b>from</b> the gas as heat. The volume does not change from B to C, so no work is done on or by the gas (<i>W</i> = 0). The pressure falls at constant volume, so by <i>PV</i> = <i>nRT</i> the temperature falls, and the internal energy of the ideal gas, which depends only on temperature, decreases (Δ<i>U</i> < 0). The first law gives Δ<i>U</i> = <i>Q</i> + 0, so <i>Q</i> is negative: the gas must give up energy to its surroundings as heat."
+      "Energy is transferred <b>from</b> the gas as heat. The volume does not change from B to C, so no work is done on or by the gas (<i>W</i> = 0). The pressure falls at constant volume, so by <i>PV</i> = <i>nRT</i> the temperature falls, and the internal energy of the ideal gas, which depends only on temperature, decreases (Δ<i>U</i> < 0).",
+      "The first law gives Δ<i>U</i> = <i>Q</i> + 0, so <i>Q</i> is negative: the gas must give up energy to its surroundings as heat."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Thermodynamics (first law, work, ideal gases)"
   },
   {
    "id": "2",
@@ -110,7 +114,8 @@ const EXAM = {
       "For a correct current of 0.20 A in R<sub>2</sub>, supported by the potential difference across the parallel combination (6.0 V, from (0.30 A)(20 Ω) or from 12 V − (0.30 A)(20 Ω))"
      ],
      "model": [
-      "R<sub>2</sub> and R<sub>3</sub> share the same potential difference. The current through R<sub>1</sub> is the full 0.30 A, so the voltage across R<sub>1</sub> is (0.30 A)(20 Ω) = 6.0 V and the voltage across the parallel combination is 12 V − 6.0 V = 6.0 V. Then <i>I</i><sub>2</sub> = 6.0 V / 30 Ω = <b>0.20 A</b> (the other 0.10 A goes through R<sub>3</sub>)."
+      "R<sub>2</sub> and R<sub>3</sub> share the same potential difference. The current through R<sub>1</sub> is the full 0.30 A, so the voltage across R<sub>1</sub> is (0.30 A)(20 Ω) = 6.0 V and the voltage across the parallel combination is 12 V − 6.0 V = 6.0 V.",
+      "Then <i>I</i><sub>2</sub> = 6.0 V / 30 Ω = <b>0.20 A</b> (the other 0.10 A goes through R<sub>3</sub>)."
      ]
     },
     {
@@ -122,22 +127,26 @@ const EXAM = {
       "For reasoning that removing a parallel branch increases the equivalent resistance of the circuit, so the total current (the current in R<sub>1</sub>) decreases, and <i>P</i> = <i>I</i><sup>2</sup><i>R</i> with <i>R</i> unchanged"
      ],
      "model": [
-      "The power dissipated in R<sub>1</sub> <b>decreases</b>. Removing R<sub>3</sub> takes away one of the two parallel paths, so the equivalent resistance of the circuit rises from 40 Ω to 50 Ω. With the battery emf fixed, the total current falls from 0.30 A to 0.24 A. All of that current passes through R<sub>1</sub>, and its resistance has not changed, so <i>P</i> = <i>I</i><sup>2</sup><i>R</i> drops from 1.8 W to about 1.15 W."
+      "The power dissipated in R<sub>1</sub> <b>decreases</b>. Removing R<sub>3</sub> takes away one of the two parallel paths, so the equivalent resistance of the circuit rises from 40 Ω to 50 Ω. With the battery emf fixed, the total current falls from 0.30 A to 0.24 A.",
+      "All of that current passes through R<sub>1</sub>, and its resistance has not changed, so <i>P</i> = <i>I</i><sup>2</sup><i>R</i> drops from 1.8 W to about 1.15 W."
      ]
     },
     {
      "id": "D",
      "label": "Part D",
      "prompt": "With R<sub>3</sub> removed, indicate whether the power dissipated in R<sub>2</sub> increases, decreases, or remains the same. Justify your answer.",
+     "tip": "Many students say the power in R<sub>2</sub> must fall because “the current went down.” Power in R<sub>2</sub> depends on the voltage across it (<i>P</i> = <i>V</i><sup>2</sup>/<i>R</i>), and that voltage goes up.",
      "rubric": [
       "For indicating that the power dissipated in R<sub>2</sub> increases",
       "For reasoning that the smaller current in R<sub>1</sub> means a smaller potential difference across R<sub>1</sub>, so a larger share of the 12 V appears across R<sub>2</sub>, and <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> with <i>R</i> unchanged"
      ],
      "model": [
-      "The power dissipated in R<sub>2</sub> <b>increases</b>. Even though the total current decreases, the potential difference across R<sub>1</sub> decreases (from 6.0 V to 4.8 V), so the potential difference across R<sub>2</sub> — the rest of the 12 V — increases (from 6.0 V to 7.2 V). Since R<sub>2</sub> is unchanged, <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> increases from 1.2 W to about 1.73 W. This shows that a quantity can rise in one part of a circuit while the total current falls."
+      "The power dissipated in R<sub>2</sub> <b>increases</b>. Even though the total current decreases, the potential difference across R<sub>1</sub> decreases (from 6.0 V to 4.8 V), so the potential difference across R<sub>2</sub> — the rest of the 12 V — increases (from 6.0 V to 7.2 V).",
+      "Since R<sub>2</sub> is unchanged, <i>P</i> = <i>V</i><sup>2</sup>/<i>R</i> increases from 1.2 W to about 1.73 W. This shows that a quantity can rise in one part of a circuit while the total current falls."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 11 — Electric circuits (series and parallel resistors, power)"
   }
  ]
 };

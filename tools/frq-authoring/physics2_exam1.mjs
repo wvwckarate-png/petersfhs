@@ -11,7 +11,7 @@ const do2 = 8.0;
 const di2 = (f * do2) / (do2 - f);              // -24 cm
 const m2 = -di2 / do2;                           // +3.0
 if (Math.abs(di1 - 20) > 1e-9 || Math.abs(di2 + 24) > 1e-9 || Math.abs(m2 - 3) > 1e-9) throw new Error("lens numbers");
-const curvePts = [15, 16, 18, 20, 24, 30, 40, 50, 60].map((d) => [d, (f * d) / (d - f)]);
+const curvePts = Array.from({ length: 46 }, (_, i) => 15 + i).map((d) => [d, (f * d) / (d - f)]);
 
 // ================= Q3: battery data =================
 const eps = 9.0, r = 1.5;
@@ -42,12 +42,12 @@ const lensModel = fig(lensRays({ f, dO: do1, h: ho }),
   { caption: "Model ray diagram (not to scale vertically): the image is real, inverted and smaller." });
 
 const graphModel = fig(sketchAxes({
-  xLabel: "Object distance d_o (cm)", yLabel: "Image distance d_i (cm)", xMax: 65, yMax: 65,
+  xLabel: "Object distance d_{o} (cm)", yLabel: "Image distance d_{i} (cm)", xMax: 65, yMax: 65,
   xTicks: [{ at: 15, label: "15" }, { at: 30, label: "30" }, { at: 45, label: "45" }, { at: 60, label: "60" }],
   yTicks: [{ at: 15, label: "15" }, { at: 30, label: "30" }, { at: 45, label: "45" }, { at: 60, label: "60" }],
   curves: [{ pts: curvePts }],
   notes: [{ x: 16, y: 61, s: "(15, 60)" }, { x: 47, y: 19.5, s: "(60, 15)" }],
-}), "A graph of image distance versus object distance. The curve starts at 60 centimeters when the object distance is 15 centimeters, decreases steeply at first and then gradually, and levels off toward about 15 centimeters at an object distance of 60 centimeters.", { caption: "Model graph: d_i decreases from 60 cm to 15 cm, concave up, approaching f = 12 cm for large d_o." });
+}), "A graph of image distance versus object distance. The curve starts at 60 centimeters when the object distance is 15 centimeters, decreases steeply at first and then gradually, and levels off toward about 15 centimeters at an object distance of 60 centimeters.", { caption: "Model graph: <i>d</i><sub>i</sub> decreases from 60 cm to 15 cm, concave up, approaching <i>f</i> = 12 cm for large <i>d</i><sub>o</sub>." });
 
 const dataTable = table(["Trial", "Current <i>I</i> (A)", "Terminal voltage <i>V</i> (V)"], Is.map((I, i) => [String(i + 1), I.toFixed(2), Vs[i].toFixed(2)]), "Table 1");
 
@@ -56,6 +56,7 @@ export default exam({
   title: "Exam 1",
   description: "A full-length, four-question free-response exam: electric field and potential, a lens, battery internal resistance, and kinetic theory.",
   minutes: 95,
+  topics: ["Unit 10 — Electric force, field, and potential", "Unit 13 — Geometric optics (thin lenses)", "Unit 11 — Electric circuits (emf and internal resistance)", "Unit 9 — Thermodynamics (kinetic theory of gases)"],
   questions: [
     Q("1", "Mathematical Routines", 23,
       ["Two small charged spheres are fixed on the <i>x</i>-axis, as shown in Figure 1. Sphere 1 has charge +2<i>Q</i> and is at <i>x</i> = 0. Sphere 2 has charge −<i>Q</i> and is at <i>x</i> = 3<i>d</i>. Point P is at <i>x</i> = <i>d</i> and point R is at <i>x</i> = 2<i>d</i>. The spheres are much smaller than <i>d</i>. Let <i>k</i> be the Coulomb constant, and take the electric potential to be zero infinitely far from the spheres."],
@@ -74,7 +75,7 @@ export default exam({
           "For a correct final expression, <i>V</i><sub>P</sub> = 2<i>kQ</i>/<i>d</i> − <i>kQ</i>/(2<i>d</i>) = 3<i>kQ</i>/(2<i>d</i>)",
         ], [
           "The potential of a point charge is <i>V</i> = <i>kq</i>/<i>r</i>, and the net potential is the algebraic sum of the potentials from each sphere (potential is a scalar, so the signs of the charges are included but there are no directions to combine). At P: <i>V</i><sub>P</sub> = <i>k</i>(2<i>Q</i>)/<i>d</i> + <i>k</i>(−<i>Q</i>)/(2<i>d</i>) = 2<i>kQ</i>/<i>d</i> − <i>kQ</i>/(2<i>d</i>) = <b>3<i>kQ</i>/(2<i>d</i>)</b>.",
-        ], { label: "Part B" }),
+        ], { label: "Part B", tip: "Electric potential is a scalar: add the potentials from the two charges with their signs, with no directions to combine. Adding them like vectors, or using 1/<i>r</i><sup>2</sup>, is the usual error." }),
         P("C", "A small particle of mass <i>m</i> and positive charge <i>q</i> is released from rest at point P and moves along the <i>x</i>-axis. Derive an expression for the speed <i>v</i> of the particle when it reaches point R. Express your answer in terms of <i>Q</i>, <i>q</i>, <i>m</i>, <i>d</i>, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.", [
           "For starting with conservation of energy, such as <i>K</i><sub>P</sub> + <i>qV</i><sub>P</sub> = <i>K</i><sub>R</sub> + <i>qV</i><sub>R</sub> (or Δ<i>K</i> = −<i>q</i>Δ<i>V</i>)",
           "For a correct potential at R: <i>V</i><sub>R</sub> = 2<i>kQ</i>/(2<i>d</i>) − <i>kQ</i>/<i>d</i> = 0",
@@ -119,7 +120,7 @@ export default exam({
           "For indicating that the image is upright and larger than the object (<i>m</i> = +3.0)",
         ], [
           `Now the object is inside the focal length (8.0 cm is less than 12 cm). 1/<i>d</i><sub>i</sub> = 1/<i>f</i> − 1/<i>d</i><sub>o</sub> = 1/12 − 1/8 = (2 − 3)/24 = −1/24 cm<sup>−1</sup>, so <i>d</i><sub>i</sub> = <b>−24 cm</b>. The negative sign means the image is <b>virtual</b>: it is on the same side of the lens as the object, and the refracted rays only appear to diverge from it. The magnification is <i>m</i> = −<i>d</i><sub>i</sub>/<i>d</i><sub>o</sub> = +3.0, so the image is <b>upright</b> and <b>three times as large</b> as the object — the lens is acting as a magnifying glass.`,
-        ], { label: "Part B" }),
+        ], { label: "Part B", tip: "Keep the sign of the image distance. A negative <i>d</i><sub>i</sub> means a virtual image on the same side of the lens as the object, and it also makes the magnification positive (upright)." }),
         P("C", "On a set of axes that you draw, sketch a graph of the image distance <i>d</i><sub>i</sub> as a function of the object distance <i>d</i><sub>o</sub> for object distances from 15 cm to 60 cm. Label the values of <i>d</i><sub>i</sub> at both ends of your curve.", [
           "For a curve that decreases as the object distance increases and is concave up (steep at first, flattening out)",
           "For correct end values: <i>d</i><sub>i</sub> = 60 cm at <i>d</i><sub>o</sub> = 15 cm and <i>d</i><sub>i</sub> = 15 cm at <i>d</i><sub>o</sub> = 60 cm",
@@ -150,7 +151,7 @@ export default exam({
           "For a correct emf of 9.0 V, from the vertical intercept or from substituting a point into <i>V</i> = ε − <i>Ir</i>",
         ], [
           "Slope = Δ<i>V</i>/Δ<i>I</i> = (4.8 V − 8.4 V)/(2.8 A − 0.40 A) = −3.6 V / 2.4 A = −1.5 V/A. Because the slope equals −<i>r</i>, the internal resistance is <b><i>r</i> = 1.5 Ω</b>. For the emf, use a point on the line in <i>V</i> = ε − <i>Ir</i>: ε = <i>V</i> + <i>Ir</i> = 8.4 V + (0.40 A)(1.5 Ω) = <b>9.0 V</b>. This is the value of the line where it crosses the vertical axis at <i>I</i> = 0.",
-        ], { label: "Part B (ii)" }),
+        ], { label: "Part B (ii)", tip: "The slope of <i>V</i> versus <i>I</i> is −<i>r</i>, so the internal resistance is the <em>magnitude</em> of the slope. Don't report <i>r</i> as a negative number, and don't use a measured data point instead of the line." }),
         P("C", "Describe one change to the procedure that would reduce the uncertainty in the student's results.", [
           "For a valid improvement, such as repeating each measurement several times and averaging; taking more trials over a wider range of currents; or keeping the switch closed only briefly (so the battery does not heat up or run down during the measurements)",
         ], [
@@ -179,7 +180,7 @@ export default exam({
           `For a correct ratio of about 3.2, obtained from the equal kinetic energies: <i>v</i><sub>He</sub>/<i>v</i><sub>Ar</sub> = √(<i>m</i><sub>Ar</sub>/<i>m</i><sub>He</sub>) = √(39.9/4.0)`,
         ], [
           `Because the average kinetic energy ½<i>mv</i><sup>2</sup> is the same for both and a helium atom is far less massive, helium atoms must move faster: <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>), so the speed varies as 1/√<i>m</i>. The ratio is <i>v</i><sub>He</sub>/<i>v</i><sub>Ar</sub> = √(<i>m</i><sub>Ar</sub>/<i>m</i><sub>He</sub>) = √(39.9/4.0) = <b>${sig(ratio, 2)}</b>. The helium atoms' rms speed is a little more than three times that of the argon atoms.`,
-        ], { label: "Part B" }),
+        ], { label: "Part B", tip: "Equal average kinetic energy does <em>not</em> mean equal speeds. For the same kinetic energy, the lighter atoms must move faster (<i>v</i> ∝ 1/√<i>m</i>)." }),
         P("C", "Calculate the rms speed of the helium atoms at 300 K. Show your work.", [
           "For using <i>v</i><sub>rms</sub> = √(3<i>k</i><sub>B</sub><i>T</i>/<i>m</i>) (or ½<i>m</i><i>v</i><sup>2</sup> = (3/2)<i>k</i><sub>B</sub><i>T</i>) with <i>m</i> = (4.0)(1.66 × 10<sup>−27</sup> kg)",
           "For a correct value of about 1.4 × 10<sup>3</sup> m/s",

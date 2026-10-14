@@ -97,12 +97,14 @@ const EXAM = {
      "id": "D",
      "label": "Part D",
      "prompt": "Explain why β-galactosidase activity in wild-type cells is much lower when glucose is present along with lactose (group 3) than when lactose is present without glucose (group 2).",
+     "tip": "Glucose <em>lowers</em> the level of cAMP (it does not raise it), so the activator protein cannot help RNA polymerase bind to the promoter even though the repressor has been released.",
      "rubric": [
       "For explaining that when glucose is present, cAMP levels are low",
       "For explaining that without cAMP the activator protein (CAP) cannot bind to the promoter to help RNA polymerase, so transcription of the operon is reduced even though the repressor is not bound, and the cells use glucose first"
      ],
      "model": [
-      "Glucose is the cell's preferred energy source. When it is present, the level of cAMP is low, so the cAMP-dependent activator protein (CAP) does not bind near the promoter and RNA polymerase binds poorly. Even though lactose has removed the repressor from the operator, transcription remains low (8 compared with 100), because the cell does not need to spend energy making enzymes to use lactose when glucose is available."
+      "Glucose is the cell's preferred energy source. When it is present, the level of cAMP is low, so the cAMP-dependent activator protein (CAP) does not bind near the promoter and RNA polymerase binds poorly.",
+      "Even though lactose has removed the repressor from the operator, transcription remains low (8 compared with 100), because the cell does not need to spend energy making enzymes to use lactose when glucose is available."
      ]
     },
     {
@@ -127,7 +129,8 @@ const EXAM = {
       "Making proteins requires a lot of ATP and amino acids. By transcribing the <i>lac</i> genes only when lactose is present (and the preferred sugar, glucose, is not), the bacteria avoid wasting resources on enzymes that they do not need, which gives them an advantage over cells that cannot regulate gene expression."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 6 — Gene expression and regulation (the <i>lac</i> operon)"
   },
   {
    "id": "2",
@@ -181,7 +184,7 @@ const EXAM = {
      "paper": true,
      "modelFigures": [
       {
-       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"266\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-5</text><line x1=\"64\" y1=\"221.67\" x2=\"496\" y2=\"221.67\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"225.67\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"181.33\" x2=\"496\" y2=\"181.33\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"185.33\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">5</text><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"145\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">10</text><line x1=\"64\" y1=\"100.67\" x2=\"496\" y2=\"100.67\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"104.67\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"64\" y1=\"60.33\" x2=\"496\" y2=\"60.33\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"64.33\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">20</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"64\" y1=\"262\" x2=\"64\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"118\" y1=\"262\" x2=\"118\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"118\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">100</text><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">200</text><line x1=\"226\" y1=\"262\" x2=\"226\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"226\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">300</text><line x1=\"280\" y1=\"262\" x2=\"280\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">400</text><line x1=\"334\" y1=\"262\" x2=\"334\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"334\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">500</text><line x1=\"388\" y1=\"262\" x2=\"388\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">600</text><line x1=\"442\" y1=\"262\" x2=\"442\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"442\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">700</text><line x1=\"496\" y1=\"262\" x2=\"496\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">800</text><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"310\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Light intensity (μmol photons m⁻² s⁻¹)</text><text x=\"16\" y=\"141\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 141)\">Net O₂ production (μL/min)</text><path d=\"M64 237.8L91 197.47L118 157.13L172 92.6L280 52.27L496 44.2\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"64\" cy=\"237.8\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"91\" cy=\"197.47\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"118\" cy=\"157.13\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"172\" cy=\"92.6\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"52.27\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"496\" cy=\"44.2\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"221.67\" x2=\"496\" y2=\"221.67\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/></svg>",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"266\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−5</text><line x1=\"64\" y1=\"221.67\" x2=\"496\" y2=\"221.67\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"225.67\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"181.33\" x2=\"496\" y2=\"181.33\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"185.33\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">5</text><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"145\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">10</text><line x1=\"64\" y1=\"100.67\" x2=\"496\" y2=\"100.67\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"104.67\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"64\" y1=\"60.33\" x2=\"496\" y2=\"60.33\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"64.33\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">20</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"64\" y1=\"262\" x2=\"64\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"118\" y1=\"262\" x2=\"118\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"118\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">100</text><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">200</text><line x1=\"226\" y1=\"262\" x2=\"226\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"226\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">300</text><line x1=\"280\" y1=\"262\" x2=\"280\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">400</text><line x1=\"334\" y1=\"262\" x2=\"334\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"334\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">500</text><line x1=\"388\" y1=\"262\" x2=\"388\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">600</text><line x1=\"442\" y1=\"262\" x2=\"442\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"442\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">700</text><line x1=\"496\" y1=\"262\" x2=\"496\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">800</text><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"310\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Light intensity (μmol photons m⁻² s⁻¹)</text><text x=\"16\" y=\"141\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 141)\">Net O₂ production (μL/min)</text><path d=\"M64 237.8L91 197.47L118 157.13L172 92.6L280 52.27L496 44.2\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"64\" cy=\"237.8\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"91\" cy=\"197.47\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"118\" cy=\"157.13\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"172\" cy=\"92.6\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"52.27\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"496\" cy=\"44.2\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"221.67\" x2=\"496\" y2=\"221.67\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/></svg>",
        "alt": "A graph of net oxygen production versus light intensity. The curve starts below zero at zero light, crosses zero near 20, rises steeply up to about 200 and then levels off near 22 microliters per minute above 400.",
        "caption": "Model graph: net O₂ production rises with light intensity, crosses 0 near 20 μmol m⁻² s⁻¹ (the light compensation point), and levels off at high light."
       }
@@ -202,7 +205,7 @@ const EXAM = {
       "For an estimate of about 20 μmol photons m<sup>−2</sup> s<sup>−1</sup> (accept 15–30), at which the net O<sub>2</sub> production is zero"
      ],
      "model": [
-      "The compensation point is where net O<sub>2</sub> production is zero, so photosynthesis produces exactly as much O<sub>2</sub> as respiration consumes. The data go from −2 at 0 to +3 at 50, so the line crosses zero at about 2/5 of the way: roughly <b>20 μmol photons m<sup>−2</sup> s<sup>−1</sup></b>."
+      "The compensation point is where net O<sub>2</sub> production is zero, so photosynthesis produces exactly as much O<sub>2</sub> as respiration consumes. The data go from −2 at 0 to +3 at 50, so the line crosses zero at about 2/5 of the way: roughly <b>20 μmol photons m<sup>−2</sup> s<sup>−1</sup></b> (an estimate from 15 to 30 is acceptable)."
      ]
     },
     {
@@ -214,13 +217,15 @@ const EXAM = {
       "For explaining that at high light intensity another factor becomes limiting (the concentration of CO<sub>2</sub>, the amount or rate of the enzymes of the Calvin cycle such as rubisco, or the number of reaction centers), so more light cannot increase the rate"
      ],
      "model": [
-      "Net O<sub>2</sub> production rises quickly as light increases from 0 to 200, increases slowly from 200 to 400, and is almost unchanged from 400 to 800 (21 vs. 22). At low light, the light-dependent reactions limit the rate, so more light means more ATP and NADPH and more O<sub>2</sub>. At high light, the light reactions are saturated and the rate is limited by something else, such as the CO<sub>2</sub> concentration (held constant here) or the capacity of the Calvin-cycle enzymes, so additional light does not increase the rate."
+      "Net O<sub>2</sub> production rises quickly as light increases from 0 to 200, increases slowly from 200 to 400, and is almost unchanged from 400 to 800 (21 vs. 22). At low light, the light-dependent reactions limit the rate, so more light means more ATP and NADPH and more O<sub>2</sub>.",
+      "At high light, the light reactions are saturated and the rate is limited by something else, such as the CO<sub>2</sub> concentration (held constant here) or the capacity of the Calvin-cycle enzymes, so additional light does not increase the rate."
      ]
     },
     {
      "id": "D",
      "label": "Part D",
      "prompt": "Calculate the rate of gross photosynthesis (total O<sub>2</sub> produced) at a light intensity of 200 μmol photons m<sup>−2</sup> s<sup>−1</sup>. Show your work.",
+     "tip": "Gross photosynthesis = net O<sub>2</sub> production + the O<sub>2</sub> used in respiration. Using the net value alone underestimates it.",
      "rubric": [
       "For a correct value of 18 μL/min: net O<sub>2</sub> production (16) plus the rate of O<sub>2</sub> consumption by respiration (2, from the value measured in the dark)"
      ],
@@ -237,7 +242,8 @@ const EXAM = {
       "For justifying that CO<sub>2</sub> is a substrate for carbon fixation in the Calvin cycle (catalyzed by rubisco), so at saturating light, more CO<sub>2</sub> allows a higher rate of the Calvin cycle and of photosynthesis"
      ],
      "model": [
-      "The net O<sub>2</sub> production would <b>increase</b>. At 800 μmol photons m<sup>−2</sup> s<sup>−1</sup> the light-dependent reactions are saturated, and CO<sub>2</sub> (the substrate for carbon fixation by rubisco in the Calvin cycle) is one of the factors that limits the rate. With more CO<sub>2</sub>, carbon fixation can proceed faster, so ATP and NADPH are used more rapidly and more O<sub>2</sub> is released from the light reactions."
+      "The net O<sub>2</sub> production would <b>increase</b>. At 800 μmol photons m<sup>−2</sup> s<sup>−1</sup> the light-dependent reactions are saturated, and CO<sub>2</sub> (the substrate for carbon fixation by rubisco in the Calvin cycle) is one of the factors that limits the rate.",
+      "With more CO<sub>2</sub>, carbon fixation can proceed faster, so ATP and NADPH are used more rapidly and more O<sub>2</sub> is released from the light reactions."
      ]
     },
     {
@@ -251,7 +257,8 @@ const EXAM = {
       "With no light there are no light-dependent reactions, so photosynthesis does not produce O<sub>2</sub>. The leaf cells continue to respire: aerobic cellular respiration in the mitochondria uses O<sub>2</sub> as the final electron acceptor of the electron transport chain, so O<sub>2</sub> is consumed and the net rate is negative (−2 μL/min)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Cellular energetics (photosynthesis and light)"
   },
   {
    "id": "3",
@@ -291,13 +298,15 @@ const EXAM = {
       "For describing a valid data set, such as measuring the beak depth of a large sample of finches before the drought and of the survivors after the drought (or comparing survivors and non-survivors), and comparing the means"
      ],
      "model": [
-      "The student should capture and measure the beak depth of a large random sample of finches before the drought, and measure the beak depth of the survivors after the drought (or of the finches that died compared with those that lived). The average beak depth of the survivors would be compared with the average before the drought, using the same measuring method."
+      "The student should capture and measure the beak depth of a large random sample of finches before the drought, and measure the beak depth of the survivors after the drought (or of the finches that died compared with those that lived).",
+      "The average beak depth of the survivors would be compared with the average before the drought, using the same measuring method."
      ]
     },
     {
      "id": "D",
      "label": "Part D",
      "prompt": "Explain what additional evidence is needed to show that the change in average beak depth will continue in the offspring of the survivors.",
+     "tip": "Selection can change the next generation only if the trait is <em>heritable</em>. Show that offspring resemble their parents.",
      "rubric": [
       "For explaining that beak depth must be heritable (genetically determined), which can be shown by measuring parents and offspring: the offspring of deep-beaked parents should also have deeper beaks than the offspring of shallow-beaked parents"
      ],
@@ -305,7 +314,8 @@ const EXAM = {
       "Natural selection can change a population over generations only if the trait is heritable. The student could measure the beak depths of parents and their offspring: if offspring tend to resemble their parents (deep-beaked parents have deep-beaked offspring), the variation has a genetic basis, and the next generation will have a greater average beak depth as a result of the selection."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Natural selection"
   },
   {
    "id": "4",
@@ -334,13 +344,15 @@ const EXAM = {
       "For explaining that without functional p53, cells with damaged DNA are not stopped at the checkpoint or eliminated, so they continue to divide and pass on mutations, which can accumulate and lead to uncontrolled cell division"
      ],
      "model": [
-      "Normally p53 detects DNA damage, halts the cell cycle so that the damage can be repaired, and triggers apoptosis if the damage is severe. If p53 is nonfunctional, cells with damaged DNA are not stopped or destroyed. They keep dividing and pass the damaged DNA to daughter cells, so mutations (including those that affect cell division) accumulate, which increases the chance that a cell will divide out of control and form a tumor."
+      "Normally p53 detects DNA damage, halts the cell cycle so that the damage can be repaired, and triggers apoptosis if the damage is severe. If p53 is nonfunctional, cells with damaged DNA are not stopped or destroyed.",
+      "They keep dividing and pass the damaged DNA to daughter cells, so mutations (including those that affect cell division) accumulate, which increases the chance that a cell will divide out of control and form a tumor."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "A mutation in the gene for a cyclin causes the cyclin protein to be produced at a high level and to remain active all the time. Predict the effect of this mutation on cell division, and justify your prediction.",
+     "tip": "A cyclin that is always active <em>speeds up</em> or removes the brakes on the cell cycle. It does not slow division.",
      "rubric": [
       "For predicting that the cells divide more rapidly or continuously (uncontrolled division)",
       "For justifying that active cyclin-CDK complexes drive the cell past checkpoints into the next phase of the cell cycle, so a constantly active cyclin would continually signal the cell to divide (this is an oncogene-type mutation)"
@@ -349,7 +361,8 @@ const EXAM = {
       "The cells would divide <b>more often or without control</b>. Cyclins bind to CDKs to form active complexes that phosphorylate target proteins and push the cell through the checkpoints. A cyclin that is always present and active would keep stimulating the cell to progress through the cell cycle even when the signals to stop are present, so the cells would divide uncontrollably, which can lead to a tumor."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 4 — The cell cycle and cancer"
   },
   {
    "id": "5",
@@ -381,11 +394,13 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Explain why the amount of energy available decreases at each higher trophic level.",
+     "tip": "Energy is not “used up”: most of it leaves each level as heat from cellular respiration.",
      "rubric": [
       "For explaining that organisms use much of the energy they obtain for cellular respiration and metabolism, which is lost as heat; some energy is also not eaten or digested (and is lost in waste), so only a small part is stored in biomass that is available to the next level"
      ],
      "model": [
-      "Only a small portion of the energy at each level is stored in new biomass that the next trophic level can eat. Much of the energy is used by the organisms in cellular respiration (and lost as heat, as required by the second law of thermodynamics), and some is not consumed or is excreted as waste. This loss at each transfer is the reason the pyramid gets narrower toward the top."
+      "Only a small portion of the energy at each level is stored in new biomass that the next trophic level can eat. Much of the energy is used by the organisms in cellular respiration (and lost as heat, as required by the second law of thermodynamics), and some is not consumed or is excreted as waste.",
+      "This loss at each transfer is the reason the pyramid gets narrower toward the top."
      ]
     },
     {
@@ -400,7 +415,8 @@ const EXAM = {
       "The tertiary consumers would <b>decrease</b>. All of the energy for the higher trophic levels comes from the producers. If the producers capture only half as much energy, then (at the same 10% transfer efficiency) each higher level would have about half as much energy, and the top level would only be able to support about half the biomass, so the population of tertiary consumers would decline."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 8 — Ecology (energy flow)"
   },
   {
    "id": "6",
@@ -469,6 +485,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Determine the degrees of freedom for this test, and use the critical value table (<i>p</i> = 0.05, df = 3: 7.81) to determine whether the null hypothesis should be rejected.",
+     "tip": "Failing to reject the null hypothesis does not <em>prove</em> the ratio. It means the data are consistent with it.",
      "rubric": [
       "For a correct degrees of freedom of 3 (the number of phenotype classes, 4, minus 1) and for comparing 0.47 with the critical value of 7.81, concluding that the null hypothesis is not rejected (the chi-square value is less than the critical value)"
      ],
@@ -487,7 +504,8 @@ const EXAM = {
       "The observed numbers are <b>consistent with the 9:3:3:1 ratio</b> expected from independent assortment of the two genes; the differences between the observed and expected counts are small enough to be explained by chance (random variation), so the data do not provide evidence against the hypothesis."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Heredity (chi-square analysis)"
   }
  ]
 };

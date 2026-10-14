@@ -15,6 +15,7 @@ export default exam({
   description: "A short two-question sample (14 points) so you can see how the FRQ exams work — one long acid–base titration question and one short intermolecular forces question. Safe to try; reset it afterward and take the full exams fresh.",
   sample: true,
   minutes: 32,
+  topics: ["Units 4 and 8 — Chemical reactions and acids and bases (titration)", "Unit 3 — Properties of substances and mixtures (intermolecular forces)"],
   questions: [
     Q("1", "Long Answer", 23,
       ["A student determines the concentration of a hydrochloric acid solution by titration. The student places 25.00 mL of the HCl(<i>aq</i>) in a flask, adds a few drops of indicator, and titrates it with 0.100 <i>M</i> NaOH(<i>aq</i>). The endpoint is reached after 31.40 mL of NaOH(<i>aq</i>) has been added."],
@@ -36,7 +37,7 @@ export default exam({
         P("E", "Calculate the pH of the mixture after a total of 35.00 mL of NaOH(<i>aq</i>) has been added. Show your work.", [
           "For correctly determining the excess OH<sup>−</sup>: (35.00 − 31.40 mL)(0.100 <i>M</i>) = 3.6 × 10<sup>−4</sup> mol in a total volume of 60.00 mL",
           "For the correct pH, about 11.78 (pOH = 2.22)",
-        ], [`The equivalence point was reached at 31.40 mL, so the excess NaOH is (35.00 − 31.40) mL = 3.60 mL: (0.00360 L)(0.100 M) = 3.60 × 10<sup>−4</sup> mol of OH<sup>−</sup>. The total volume is 25.00 + 35.00 = 60.00 mL, so [OH<sup>−</sup>] = (3.60 × 10<sup>−4</sup> mol)/(0.06000 L) = 6.0 × 10<sup>−3</sup> M. pOH = 2.22, so pH = 14.00 − 2.22 = <b>${pH35.toFixed(2)}</b>.`], { label: "Part E" }),
+        ], [`The equivalence point was reached at 31.40 mL, so the excess NaOH is (35.00 − 31.40) mL = 3.60 mL: (0.00360 L)(0.100 M) = 3.60 × 10<sup>−4</sup> mol of OH<sup>−</sup>. The total volume is 25.00 + 35.00 = 60.00 mL, so [OH<sup>−</sup>] = (3.60 × 10<sup>−4</sup> mol)/(0.06000 L) = 6.0 × 10<sup>−3</sup> M. pOH = 2.22, so pH = 14.00 − 2.22 = <b>${pH35.toFixed(2)}</b>.`], { label: "Part E", tip: "After the equivalence point the pH comes from the excess OH<sup>−</sup> divided by the <em>total</em> volume (60.00 mL), not by the volume of NaOH alone." }),
         P("F", "The student rinses the buret with distilled water, but not with the NaOH(<i>aq</i>), just before filling it with the 0.100 <i>M</i> NaOH(<i>aq</i>). Indicate whether the calculated molarity of the HCl(<i>aq</i>) will be too high, too low, or unaffected. Justify your answer.", [
           "For indicating that the calculated molarity will be too high",
           "For reasoning that residual water dilutes the NaOH, so its actual concentration is less than 0.100 <i>M</i>, and more volume is needed to reach the endpoint; using 0.100 <i>M</i> in the calculation with this larger volume overestimates the moles of base and acid",
@@ -56,7 +57,7 @@ export default exam({
         P("B", "Explain why SiH<sub>4</sub> has a higher boiling point than CH<sub>4</sub>.", [
           "For explaining that SiH<sub>4</sub> has more electrons and a larger, more polarizable electron cloud, so its instantaneous dipoles are larger and its London dispersion forces are stronger",
           "For concluding that more energy is needed to overcome the stronger attractions between SiH<sub>4</sub> molecules, so the boiling point is higher",
-        ], ["SiH<sub>4</sub> has more electrons (18 vs. 10) and a larger electron cloud that is more easily distorted (more polarizable) than that of CH<sub>4</sub>. Larger temporary dipoles produce stronger London dispersion forces between SiH<sub>4</sub> molecules. More energy is therefore needed to separate the molecules into the gas phase, so SiH<sub>4</sub> must be heated to a higher temperature (161 K) than CH<sub>4</sub> (112 K) to boil."], { label: "Part B" }),
+        ], ["SiH<sub>4</sub> has more electrons (18 vs. 10) and a larger electron cloud that is more easily distorted (more polarizable) than that of CH<sub>4</sub>. Larger temporary dipoles produce stronger London dispersion forces between SiH<sub>4</sub> molecules. More energy is therefore needed to separate the molecules into the gas phase, so SiH<sub>4</sub> must be heated to a higher temperature (161 K) than CH<sub>4</sub> (112 K) to boil."], { label: "Part B", tip: "Boiling does not break the covalent bonds inside a molecule. It overcomes the <em>intermolecular</em> forces between molecules." }),
       ]),
   ],
 });

@@ -50,6 +50,7 @@ export default exam({
   title: "Exam 2",
   description: "A full-length, seven-question free-response exam: a galvanic cell, equilibrium by spectrophotometry, a carbonate titration, first-order kinetics, molecular shape and polarity, dilution, and Hess's law.",
   minutes: 105,
+  topics: ["Unit 9 — Electrochemistry (galvanic cells)", "Unit 7 — Equilibrium (spectrophotometry and K<sub>c</sub>)", "Unit 4 — Chemical reactions (titration and stoichiometry)", "Unit 5 — Kinetics (integrated rate laws)", "Unit 2 — Molecular structure (Lewis diagrams, VSEPR, polarity)", "Unit 3 — Solutions (molarity and dilution)", "Unit 6 — Thermochemistry (Hess's law)"],
   questions: [
     Q("1", "Long Answer", 23,
       ["A galvanic cell is constructed from a nickel electrode in 1.0 <i>M</i> Ni(NO<sub>3</sub>)<sub>2</sub>(<i>aq</i>) and a silver electrode in 1.0 <i>M</i> AgNO<sub>3</sub>(<i>aq</i>), connected by a salt bridge and an external wire, as shown in Figure 1. The standard reduction potentials are:", "Ag<sup>+</sup>(<i>aq</i>) + e<sup>−</sup> → Ag(<i>s</i>)  <i>E</i>° = +0.80 V", "Ni<sup>2+</sup>(<i>aq</i>) + 2 e<sup>−</sup> → Ni(<i>s</i>)  <i>E</i>° = −0.26 V"],
@@ -62,7 +63,7 @@ export default exam({
         P("B", "Calculate the standard cell potential, <i>E</i>°<sub>cell</sub>, and the standard free energy change, Δ<i>G</i>°, in kJ per mole of reaction for the cell reaction. Show your work. (1 faraday = 96,485 C/mol e<sup>−</sup>)", [
           "For the correct cell potential: <i>E</i>°<sub>cell</sub> = 0.80 V − (−0.26 V) = +1.06 V (the silver half-reaction is not multiplied)",
           "For a correct Δ<i>G</i>° using Δ<i>G</i>° = −<i>nFE</i>° with <i>n</i> = 2: about −205 kJ/mol<sub>rxn</sub>",
-        ], [`<i>E</i>°<sub>cell</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub> = 0.80 V − (−0.26 V) = <b>+1.06 V</b>. The balanced cell reaction, Ni(<i>s</i>) + 2 Ag<sup>+</sup>(<i>aq</i>) → Ni<sup>2+</sup>(<i>aq</i>) + 2 Ag(<i>s</i>), transfers <i>n</i> = 2 mol of electrons. Δ<i>G</i>° = −<i>nFE</i>° = −(2)(96,485 C/mol)(1.06 V) = −2.05 × 10<sup>5</sup> J/mol = <b>−205 kJ/mol<sub>rxn</sub></b>. The negative sign shows that the reaction is thermodynamically favorable.`], { label: "Part B" }),
+        ], [`<i>E</i>°<sub>cell</sub> = <i>E</i>°<sub>cathode</sub> − <i>E</i>°<sub>anode</sub> = 0.80 V − (−0.26 V) = <b>+1.06 V</b>. The balanced cell reaction, Ni(<i>s</i>) + 2 Ag<sup>+</sup>(<i>aq</i>) → Ni<sup>2+</sup>(<i>aq</i>) + 2 Ag(<i>s</i>), transfers <i>n</i> = 2 mol of electrons. Δ<i>G</i>° = −<i>nFE</i>° = −(2)(96,485 C/mol)(1.06 V) = −2.05 × 10<sup>5</sup> J/mol = <b>−205 kJ/mol<sub>rxn</sub></b>. The negative sign shows that the reaction is thermodynamically favorable.`], { label: "Part B", tip: "Do not multiply a half-reaction's potential by its coefficient. <i>E</i>°<sub>cell</sub> = 0.80 V − (−0.26 V) even though 2 Ag<sup>+</sup> react per Ni." }),
         P("C", "The concentration of Ag<sup>+</sup>(<i>aq</i>) in the cathode compartment is lowered to 0.010 <i>M</i>, and [Ni<sup>2+</sup>] stays at 1.0 <i>M</i>. Calculate the cell potential at 298 K. Is the potential greater than, less than, or equal to the standard cell potential? Show your work. (<i>E</i> = <i>E</i>° − (0.0257 V/<i>n</i>) ln <i>Q</i> at 298 K)", [
           "For the correct reaction quotient, <i>Q</i> = [Ni<sup>2+</sup>]/[Ag<sup>+</sup>]<sup>2</sup> = 1.0/(0.010)<sup>2</sup> = 1.0 × 10<sup>4</sup>",
           "For a correct cell potential of about 0.94 V, which is less than the standard potential",
@@ -70,7 +71,7 @@ export default exam({
         P("D", "The cell operates for 30.0 minutes with a constant current of 0.500 A. Calculate the mass of silver that is deposited on the silver electrode. Show your work.", [
           "For the correct number of moles of electrons: (0.500 C/s)(1800 s)/(96,485 C/mol) = 9.33 × 10<sup>−3</sup> mol e<sup>−</sup>",
           "For the correct mass of silver, about 1.01 g (1 mol Ag per mol of e<sup>−</sup>, 107.87 g/mol)",
-        ], [`Charge = <i>It</i> = (0.500 A)(30.0 × 60 s) = 900 C. Moles of electrons = 900 C/96,485 C/mol = ${(molE * 1000).toFixed(2)} × 10<sup>−3</sup> mol. Each mole of electrons deposits one mole of Ag (Ag<sup>+</sup> + e<sup>−</sup> → Ag), so mass = (${(molE * 1000).toFixed(2)} × 10<sup>−3</sup> mol)(107.87 g/mol) = <b>${mAg.toFixed(2)} g</b> of Ag.`], { label: "Part D" }),
+        ], [`Charge = <i>It</i> = (0.500 A)(30.0 × 60 s) = (0.500 A)(1800 s) = 900 C. Moles of electrons = 900 C/96,485 C/mol = ${(molE * 1000).toFixed(2)} × 10<sup>−3</sup> mol. Each mole of electrons deposits one mole of Ag (Ag<sup>+</sup> + e<sup>−</sup> → Ag), so mass = (${(molE * 1000).toFixed(2)} × 10<sup>−3</sup> mol)(107.87 g/mol) = <b>${mAg.toFixed(2)} g</b> of Ag.`], { label: "Part D" }),
         P("E", "Describe the function of the salt bridge in the cell, including the direction in which anions move.", [
           "For explaining that the salt bridge allows ions to flow between the half-cells to maintain electrical neutrality (otherwise charge would build up and the current would stop)",
           "For indicating that anions move toward the anode (the nickel half-cell, where positive Ni<sup>2+</sup> ions are being produced) and cations move toward the cathode (where Ag<sup>+</sup> ions are being removed)",
@@ -91,7 +92,7 @@ export default exam({
         P("C", "Calculate the equilibrium concentrations of Fe<sup>3+</sup>(<i>aq</i>) and SCN<sup>−</sup>(<i>aq</i>) in the mixture. Show your work.", [
           "For correctly determining the initial concentrations after mixing (the volume doubles): 1.00 × 10<sup>−3</sup> <i>M</i> for each reactant",
           "For correct equilibrium concentrations, 9.52 × 10<sup>−4</sup> <i>M</i> for each, by subtracting 4.80 × 10<sup>−5</sup> <i>M</i> (the reaction uses Fe<sup>3+</sup> and SCN<sup>−</sup> in a 1:1:1 ratio)",
-        ], [`Mixing equal volumes halves each concentration: initial [Fe<sup>3+</sup>] = [SCN<sup>−</sup>] = (2.00 × 10<sup>−3</sup> M)(5.00 mL/10.00 mL) = 1.00 × 10<sup>−3</sup> M. The reaction forms 4.80 × 10<sup>−5</sup> M FeSCN<sup>2+</sup>, which uses an equal amount of each reactant: [Fe<sup>3+</sup>] = [SCN<sup>−</sup>] = 1.00 × 10<sup>−3</sup> − 4.80 × 10<sup>−5</sup> = <b>9.52 × 10<sup>−4</sup> M</b>.`], { label: "Part C" }),
+        ], [`Mixing equal volumes halves each concentration: initial [Fe<sup>3+</sup>] = [SCN<sup>−</sup>] = (2.00 × 10<sup>−3</sup> M)(5.00 mL/10.00 mL) = 1.00 × 10<sup>−3</sup> M. The reaction forms 4.80 × 10<sup>−5</sup> M FeSCN<sup>2+</sup>, which uses an equal amount of each reactant: [Fe<sup>3+</sup>] = [SCN<sup>−</sup>] = 1.00 × 10<sup>−3</sup> − 4.80 × 10<sup>−5</sup> = <b>9.52 × 10<sup>−4</sup> M</b>.`], { label: "Part C", tip: "Mixing equal volumes halves each concentration. The starting concentrations in the equilibrium table are 1.00 × 10<sup>−3</sup> <i>M</i>, not 2.00 × 10<sup>−3</sup> <i>M</i>." }),
         P("D", "Calculate the value of the equilibrium constant, <i>K</i><sub>c</sub>, for the reaction. Show your work.", [
           "For a correct expression, <i>K</i><sub>c</sub> = [FeSCN<sup>2+</sup>]/([Fe<sup>3+</sup>][SCN<sup>−</sup>]), with the values from parts B and C substituted",
           "For a correct value of about 53 (<i>K</i><sub>c</sub> is unitless in AP Chemistry; an answer with units M<sup>−1</sup> is also accepted)",
@@ -116,7 +117,7 @@ export default exam({
           "For the correct number of moles of HCl: (0.02130 L)(0.500 mol/L) = 0.01065 mol",
           "For using the 2:1 mole ratio to obtain 0.005325 mol of Na<sub>2</sub>CO<sub>3</sub>",
           "For the correct mass, about 0.564 g (0.005325 mol × 105.99 g/mol)",
-        ], [`Moles of HCl = (0.02130 L)(0.500 mol/L) = ${nHCl.toFixed(5)} mol. From the equation, 2 mol HCl react per 1 mol Na<sub>2</sub>CO<sub>3</sub>, so moles of Na<sub>2</sub>CO<sub>3</sub> = ${nHCl.toFixed(5)}/2 = ${nNa2CO3.toFixed(6)} mol. Mass = (${nNa2CO3.toFixed(6)} mol)(105.99 g/mol) = <b>${mNa2CO3.toFixed(3)} g</b>.`], { label: "Part B" }),
+        ], [`Moles of HCl = (0.02130 L)(0.500 mol/L) = ${nHCl.toFixed(5)} mol. From the equation, 2 mol HCl react per 1 mol Na<sub>2</sub>CO<sub>3</sub>, so moles of Na<sub>2</sub>CO<sub>3</sub> = ${nHCl.toFixed(5)}/2 = ${nNa2CO3.toFixed(6)} mol. Mass = (${nNa2CO3.toFixed(6)} mol)(105.99 g/mol) = <b>${mNa2CO3.toFixed(3)} g</b>.`], { label: "Part B", tip: "Two moles of HCl react with each mole of Na<sub>2</sub>CO<sub>3</sub>. Forgetting the 2:1 ratio doubles the mass." }),
         P("C", "Calculate the percent by mass of Na<sub>2</sub>CO<sub>3</sub> in the 1.250 g sample. Show your work.", [
           "For dividing the mass of Na<sub>2</sub>CO<sub>3</sub> by the mass of the sample and multiplying by 100",
           "For a correct value of about 45.2%",
@@ -142,7 +143,7 @@ export default exam({
         P("B", "Calculate the value of the rate constant, <i>k</i>, for the reaction. Include units. Show your work.", [
           "For using <i>t</i><sub>1/2</sub> = ln 2/<i>k</i> (or the integrated rate law ln[A]<sub>0</sub>/[A] = <i>kt</i>) with a correct value substituted",
           "For the correct value of <i>k</i> = 3.5 × 10<sup>−3</sup> s<sup>−1</sup> (with units of s<sup>−1</sup>)",
-        ], [`For a first-order reaction, <i>k</i> = ln 2/<i>t</i><sub>1/2</sub> = 0.693/(200 s) = <b>${(kfirst * 1000).toFixed(2)} × 10<sup>−3</sup> s<sup>−1</sup></b>. Check with the integrated rate law at <i>t</i> = 400 s: ln(0.800/0.200) = 1.386 = <i>k</i>(400 s), giving the same value.`], { label: "Part B" }),
+        ], [`For a first-order reaction, <i>k</i> = ln 2/<i>t</i><sub>1/2</sub> = 0.693/(200 s) = <b>${(kfirst * 1000).toFixed(2)} × 10<sup>−3</sup> s<sup>−1</sup></b> (about 3.5 × 10<sup>−3</sup> s<sup>−1</sup>). Check with the integrated rate law at <i>t</i> = 400 s: ln(0.800/0.200) = 1.386 = <i>k</i>(400 s), giving the same value.`], { label: "Part B", tip: "For a first-order reaction <i>k</i> = ln 2/<i>t</i><sub>1/2</sub>, not 1/<i>t</i><sub>1/2</sub>." }),
       ]),
 
     Q("5", "Short Answer", 9,
@@ -156,7 +157,7 @@ export default exam({
         P("B", "Explain, in terms of molecular geometry and bond polarity, why SO<sub>2</sub> is polar but CO<sub>2</sub> is nonpolar.", [
           "For explaining that both molecules have polar bonds (the central atom–oxygen bonds have a dipole toward oxygen)",
           "For explaining that CO<sub>2</sub> is linear, so the two bond dipoles point in opposite directions and cancel, whereas SO<sub>2</sub> is bent, so the bond dipoles do not cancel and the molecule has a net dipole moment",
-        ], ["The S–O and C–O bonds are both polar, with oxygen (more electronegative) as the negative end. CO<sub>2</sub> has no lone pairs on carbon, so it is <b>linear</b>: the two equal bond dipoles point in opposite directions and cancel, so the molecule is nonpolar. SO<sub>2</sub> has a lone pair on sulfur and is <b>bent</b>: the two bond dipoles point partly in the same direction and add to give a net dipole moment pointing between the oxygen atoms, so the molecule is polar."], { label: "Part B" }),
+        ], ["The S–O and C–O bonds are both polar, with oxygen (more electronegative) as the negative end. CO<sub>2</sub> has no lone pairs on carbon, so it is <b>linear</b>: the two equal bond dipoles point in opposite directions and cancel, so the molecule is nonpolar. SO<sub>2</sub> has a lone pair on sulfur and is <b>bent</b>: the two bond dipoles point partly in the same direction and add to give a net dipole moment pointing between the oxygen atoms, so the molecule is polar."], { label: "Part B", tip: "Bond dipoles cancel only when the geometry is symmetric. Naming polar bonds is not enough: tie the answer to linear versus bent." }),
       ]),
 
     Q("6", "Short Answer", 9,
@@ -170,7 +171,7 @@ export default exam({
         P("B", "When adding distilled water, the student accidentally fills the flask a little above the 250.0 mL mark. Is the concentration of the resulting solution greater than, less than, or equal to 0.100 <i>M</i>? Justify your answer.", [
           "For indicating that the concentration is less than 0.100 M",
           "For reasoning that the moles of NaCl are unchanged but the total volume is greater than 250.0 mL, so the concentration (moles ÷ volume) is smaller",
-        ], ["The concentration is <b>less than</b> 0.100 M. The amount of NaCl is fixed at 0.0250 mol by the 12.5 mL of stock solution that was transferred. If the final volume is larger than 250.0 mL, then <i>M</i> = (0.0250 mol)/(a volume greater than 0.2500 L), which is less than 0.100 M."], { label: "Part B" }),
+        ], ["The concentration is <b>less than</b> 0.100 M. The amount of NaCl is fixed at 0.0250 mol by the 12.5 mL of stock solution that was transferred. If the final volume is larger than 250.0 mL, then <i>M</i> = (0.0250 mol)/(a volume greater than 0.2500 L), which is less than 0.100 M."], { label: "Part B", tip: "Overfilling does not change the moles of NaCl; it spreads the same moles over a larger volume." }),
       ]),
 
     Q("7", "Short Answer", 9,
@@ -181,7 +182,7 @@ export default exam({
           "For reversing equation (3), which changes the sign of its Δ<i>H</i>° (+1560 kJ)",
           "For multiplying equation (1) by 2 and equation (2) by 3 (−787.0 kJ and −857.4 kJ)",
           "For the correct sum, Δ<i>H</i><sub>f</sub>° = −84.4 kJ/mol",
-        ], [`Ethane must appear as a product, so reverse (3): 2 CO<sub>2</sub> + 3 H<sub>2</sub>O → C<sub>2</sub>H<sub>6</sub> + 7/2 O<sub>2</sub>, Δ<i>H</i> = +1560 kJ. The carbon is supplied by 2 × (1): 2 C + 2 O<sub>2</sub> → 2 CO<sub>2</sub>, Δ<i>H</i> = −787.0 kJ; the hydrogen is supplied by 3 × (2): 3 H<sub>2</sub> + 3/2 O<sub>2</sub> → 3 H<sub>2</sub>O, Δ<i>H</i> = −857.4 kJ. Adding the three equations, the CO<sub>2</sub>, H<sub>2</sub>O, and O<sub>2</sub> cancel, leaving 2 C + 3 H<sub>2</sub> → C<sub>2</sub>H<sub>6</sub>. Δ<i>H</i><sub>f</sub>° = +1560 − 787.0 − 857.4 = <b>${dHf.toFixed(1)} kJ/mol</b>.`], { label: "Part A" }),
+        ], [`Ethane must appear as a product, so reverse (3): 2 CO<sub>2</sub> + 3 H<sub>2</sub>O → C<sub>2</sub>H<sub>6</sub> + 7/2 O<sub>2</sub>, Δ<i>H</i> = +1560 kJ. The carbon is supplied by 2 × (1): 2 C + 2 O<sub>2</sub> → 2 CO<sub>2</sub>, Δ<i>H</i> = −787.0 kJ; the hydrogen is supplied by 3 × (2): 3 H<sub>2</sub> + 3/2 O<sub>2</sub> → 3 H<sub>2</sub>O, Δ<i>H</i> = −857.4 kJ. Adding the three equations, the CO<sub>2</sub>, H<sub>2</sub>O, and O<sub>2</sub> cancel, leaving 2 C + 3 H<sub>2</sub> → C<sub>2</sub>H<sub>6</sub>. Δ<i>H</i><sub>f</sub>° = +1560 − 787.0 − 857.4 = <b>${dHf.toFixed(1)} kJ/mol</b>.`], { label: "Part A", tip: "Reversing an equation changes the sign of Δ<i>H</i>; multiplying an equation multiplies Δ<i>H</i>. Track both changes for every equation." }),
         P("B", "Is the formation of ethane from its elements an endothermic or an exothermic process? Justify your answer.", [
           "For indicating that the formation is exothermic, because Δ<i>H</i>° is negative (energy is released)",
         ], ["The formation of ethane from its elements is <b>exothermic</b>, because Δ<i>H</i><sub>f</sub>° = −84.4 kJ/mol is negative: the products (the bonds in ethane) are lower in enthalpy than the reactants (graphite and H<sub>2</sub>), and energy is released to the surroundings."], { label: "Part B" }),

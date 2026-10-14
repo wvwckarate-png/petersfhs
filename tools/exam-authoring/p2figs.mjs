@@ -178,7 +178,7 @@ export function energyLevels({ levels, arrows = [], W = 420, H = 300 }) {
   const mT = 24, mB = 20, Emin = Math.min(...levels.map((l) => l.E)) - 0.8, Emax = 0.8;
   const py = (E) => mT + ((Emax - E) / (Emax - Emin)) * (H - mT - mB);
   let b = text(70, 16, "Energy (eV)", { size: 12 });
-  levels.forEach((l) => { b += line(110, py(l.E), 230, py(l.E), { w: 2.4 }) + text(100, py(l.E) + 4, `n = ${l.n}`, { anchor: "end", size: 13, weight: 700 }) + text(240, py(l.E) + 4, `${l.E} eV`, { anchor: "start", size: 13 }); });
+  levels.forEach((l) => { b += line(110, py(l.E), 230, py(l.E), { w: 2.4 }) + text(100, py(l.E) + 4, `n = ${l.n}`, { anchor: "end", size: 13, weight: 700 }) + text(240, py(l.E) + 4, `${String(l.E).replace("-", "−")} eV`, { anchor: "start", size: 13 }); });
   b += line(110, py(0), 230, py(0), { stroke: COL.g, dash: "5 4", w: 1.4 }) + text(240, py(0) + 4, "0 eV (ionized)", { anchor: "start", size: 12, fill: COL.soft });
   arrows.forEach((a, i) => { b += vec(130 + i * 40, py(a.from), 130 + i * 40, py(a.to), { stroke: COL.b }); if (a.label) b += text(130 + i * 40 + 14, (py(a.from) + py(a.to)) / 2 + 4, a.label, { size: 13, weight: 800, fill: COL.b, anchor: "start" }); });
   return svg(W, H, b);

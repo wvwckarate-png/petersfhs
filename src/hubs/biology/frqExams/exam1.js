@@ -110,12 +110,14 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Based on the data in Table 1, describe the effect of increasing temperature on the activity of amylase, and explain why no starch digestion occurred at 70 °C.",
+     "tip": "Use numbers from the table to describe the trend, and call the loss of activity at 70 °C <em>denaturation</em> (the active site changes shape), not “the enzyme dies.”",
      "rubric": [
       "For describing that the rate of the reaction increases as temperature rises from 10 °C to an optimum near 37 °C (the digestion time decreases from 420 s to 60 s) and then decreases at higher temperatures (110 s at 50 °C)",
       "For explaining that at 70 °C the enzyme is denatured: high temperature disrupts the bonds that maintain the protein's three-dimensional shape, so the active site is no longer functional and the substrate cannot bind"
      ],
      "model": [
-      "Between 10 °C and 37 °C the digestion time falls from 420 s to 60 s, so the activity increases with temperature (molecules move faster and collide with the enzyme more often). The activity is greatest near 37 °C, and by 50 °C it is lower (110 s). At 70 °C there was no digestion: the high temperature <b>denatured</b> the amylase. The hydrogen bonds and other interactions that hold the protein in its specific shape were disrupted, so the active site changed shape and could no longer bind starch."
+      "Between 10 °C and 37 °C the digestion time falls from 420 s to 60 s, so the activity increases with temperature (molecules move faster and collide with the enzyme more often).",
+      "The activity is greatest near 37 °C, and by 50 °C it is lower (110 s). At 70 °C there was no digestion: the high temperature <b>denatured</b> the amylase. The hydrogen bonds and other interactions that hold the protein in its specific shape were disrupted, so the active site changed shape and could no longer bind starch."
      ]
     },
     {
@@ -127,7 +129,8 @@ const EXAM = {
       "For justifying that, like the result at pH 3, extreme acidity alters the charges on amino acid side chains and disrupts the enzyme's shape, so amylase (which has an optimum near pH 7) would be denatured/inactive"
      ],
      "model": [
-      "I predict <b>no digestion</b> within 600 s at pH 2. Table 2 shows that the time increases as the pH moves away from 7 (180 s at pH 9, 140 s at pH 5) and that there was no digestion at pH 3. At pH 2 the solution is even more acidic, so the excess H<sup>+</sup> would change the charge of the amino acid side chains, disrupt the ionic and hydrogen bonds that maintain the enzyme's tertiary structure, and deform the active site. Amylase is adapted to near-neutral conditions, unlike pepsin."
+      "I predict <b>no digestion</b> within 600 s at pH 2. Table 2 shows that the time increases as the pH moves away from 7 (180 s at pH 9, 140 s at pH 5) and that there was no digestion at pH 3.",
+      "At pH 2 the solution is even more acidic, so the excess H<sup>+</sup> would change the charge of the amino acid side chains, disrupt the ionic and hydrogen bonds that maintain the enzyme's tertiary structure, and deform the active site. Amylase is adapted to near-neutral conditions, unlike pepsin."
      ]
     },
     {
@@ -152,7 +155,8 @@ const EXAM = {
       "Percent decrease = [(original − new)/original] × 100 = [(420 s − 60 s)/420 s] × 100 = 360/420 × 100 = <b>85.7%</b> (about 86%). The reaction at 37 °C took only about one-seventh as long as at 10 °C."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Cellular energetics (enzymes: temperature and pH)"
   },
   {
    "id": "2",
@@ -208,7 +212,7 @@ const EXAM = {
      "paper": true,
      "modelFigures": [
       {
-       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"266\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-25</text><line x1=\"64\" y1=\"237.8\" x2=\"496\" y2=\"237.8\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"241.8\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-20</text><line x1=\"64\" y1=\"213.6\" x2=\"496\" y2=\"213.6\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"217.6\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-15</text><line x1=\"64\" y1=\"189.4\" x2=\"496\" y2=\"189.4\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"193.4\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-10</text><line x1=\"64\" y1=\"165.2\" x2=\"496\" y2=\"165.2\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"169.2\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-5</text><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"145\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"116.8\" x2=\"496\" y2=\"116.8\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"120.8\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">5</text><line x1=\"64\" y1=\"92.6\" x2=\"496\" y2=\"92.6\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"96.6\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">10</text><line x1=\"64\" y1=\"68.4\" x2=\"496\" y2=\"68.4\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"72.4\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"64\" y1=\"44.2\" x2=\"496\" y2=\"44.2\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"48.2\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">20</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"64\" y1=\"262\" x2=\"64\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.2</text><line x1=\"280\" y1=\"262\" x2=\"280\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.4</text><line x1=\"388\" y1=\"262\" x2=\"388\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.6</text><line x1=\"496\" y1=\"262\" x2=\"496\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.8</text><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"310\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Sucrose concentration (M)</text><text x=\"16\" y=\"141\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 141)\">Mean change in mass (%)</text><path d=\"M64 53.88L172 97.44L280 145.84L388 196.66L496 237.8\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"64\" cy=\"53.88\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"172\" cy=\"97.44\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"145.84\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"388\" cy=\"196.66\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"496\" cy=\"237.8\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/><circle cx=\"269.2\" cy=\"141\" r=\"4.5\" fill=\"#D2705A\" stroke=\"#D2705A\" stroke-width=\"1.6\"/><text x=\"280\" y=\"121.64\" text-anchor=\"start\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">≈ 0.38 M (isotonic)</text></svg>",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 320\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"266\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−25</text><line x1=\"64\" y1=\"237.8\" x2=\"496\" y2=\"237.8\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"241.8\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−20</text><line x1=\"64\" y1=\"213.6\" x2=\"496\" y2=\"213.6\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"217.6\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−15</text><line x1=\"64\" y1=\"189.4\" x2=\"496\" y2=\"189.4\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"193.4\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−10</text><line x1=\"64\" y1=\"165.2\" x2=\"496\" y2=\"165.2\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"169.2\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−5</text><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"145\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"116.8\" x2=\"496\" y2=\"116.8\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"120.8\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">5</text><line x1=\"64\" y1=\"92.6\" x2=\"496\" y2=\"92.6\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"96.6\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">10</text><line x1=\"64\" y1=\"68.4\" x2=\"496\" y2=\"68.4\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"72.4\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">15</text><line x1=\"64\" y1=\"44.2\" x2=\"496\" y2=\"44.2\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"48.2\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">20</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"64\" y1=\"262\" x2=\"64\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"172\" y1=\"262\" x2=\"172\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.2</text><line x1=\"280\" y1=\"262\" x2=\"280\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.4</text><line x1=\"388\" y1=\"262\" x2=\"388\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.6</text><line x1=\"496\" y1=\"262\" x2=\"496\" y2=\"267\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"281\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0.8</text><line x1=\"64\" y1=\"262\" x2=\"496\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"262\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"310\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Sucrose concentration (M)</text><text x=\"16\" y=\"141\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 141)\">Mean change in mass (%)</text><path d=\"M64 53.88L172 97.44L280 145.84L388 196.66L496 237.8\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"64\" cy=\"53.88\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"172\" cy=\"97.44\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"280\" cy=\"145.84\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"388\" cy=\"196.66\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><circle cx=\"496\" cy=\"237.8\" r=\"3.8\" fill=\"#3F7A94\" stroke=\"#3F7A94\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"141\" x2=\"496\" y2=\"141\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/><circle cx=\"269.2\" cy=\"141\" r=\"4.5\" fill=\"#D2705A\" stroke=\"#D2705A\" stroke-width=\"1.6\"/><text x=\"280\" y=\"121.64\" text-anchor=\"start\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">≈ 0.38 M (isotonic)</text></svg>",
        "alt": "A line graph of mean percent change in mass versus sucrose concentration. The points fall from plus 18 percent at 0.0 molar to minus 20 percent at 0.8 molar, crossing zero near 0.38 molar.",
        "caption": "Model graph: independent variable (sucrose molarity) on the horizontal axis with units, dependent variable (mean % change in mass) on the vertical axis, plotted points joined or fitted; the line crosses 0% near 0.38 M."
       }
@@ -218,7 +222,8 @@ const EXAM = {
       "For correctly plotting all five data points and connecting them with a line or best-fit line (error bars may be included)"
      ],
      "model": [
-      "Plot sucrose concentration (M, 0.0–0.8) on the horizontal axis and the mean percent change in mass (about −25 to +25) on the vertical axis, with equal intervals on each axis and units shown. Plot the five means (0.0, +18.0), (0.2, +9.0), (0.4, −1.0), (0.6, −11.5), (0.8, −20.0) and connect them with a line; error bars of ± SE may be added."
+      "Plot sucrose concentration (M, 0.0–0.8) on the horizontal axis and the mean percent change in mass (about −25 to +25) on the vertical axis, with equal intervals on each axis and units shown.",
+      "Plot the five means (0.0, +18.0), (0.2, +9.0), (0.4, −1.0), (0.6, −11.5), (0.8, −20.0) and connect them with a line; error bars of ± SE may be added."
      ]
     },
     {
@@ -229,19 +234,21 @@ const EXAM = {
       "For a value of about 0.35–0.40 M, read from the point where the line crosses 0% change (interpolated between 0.2 M and 0.4 M)"
      ],
      "model": [
-      "The line crosses 0% change between 0.2 M (+9.0%) and 0.4 M (−1.0%). Interpolating, the crossing is at 0.2 + (9.0/10.0)(0.2) ≈ <b>0.38 M</b>. At this concentration the potato tissue and the solution have the same water potential (they are isotonic)."
+      "The line crosses 0% change between 0.2 M (+9.0%) and 0.4 M (−1.0%). Interpolating, the crossing is at 0.2 + (9.0/10.0)(0.2) ≈ <b>0.38 M</b> (any value from about 0.35 to 0.40 M is acceptable). At this concentration the potato tissue and the solution have the same water potential (they are isotonic)."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "Using the concept of water potential, explain the change in mass of the potato cores (i) in the 0.0 M solution and (ii) in the 0.8 M solution.",
+     "tip": "Water moves toward the <em>lower water potential</em>. Phrases such as “toward the higher concentration of water” are not accepted.",
      "rubric": [
       "For explaining that in 0.0 M sucrose (pure water), the water potential of the solution is higher than that inside the cells, so water moves into the cells by osmosis and the cores gain mass",
       "For explaining that in 0.8 M sucrose, the solution has a lower water potential than the cells, so water moves out of the cells (toward the lower water potential) and the cores lose mass"
      ],
      "model": [
-      "Water moves by osmosis from a region of higher water potential to a region of lower water potential. (i) Pure water has the highest water potential (0), higher than that of the potato cells, which contain dissolved solutes, so water enters the cells and the mass increases by 18%. (ii) A 0.8 M sucrose solution has a very low (negative) solute potential, lower than that of the potato cells, so water leaves the cells and the mass decreases by about 20%."
+      "Water moves by osmosis from a region of higher water potential to a region of lower water potential. (i) Pure water has the highest water potential (0), higher than that of the potato cells, which contain dissolved solutes, so water enters the cells and the mass increases by 18%.",
+      "(ii) A 0.8 M sucrose solution has a very low (negative) solute potential, lower than that of the potato cells, so water leaves the cells and the mass decreases by about 20%."
      ]
     },
     {
@@ -252,7 +259,7 @@ const EXAM = {
       "For a correct final mass, about 3.72 g (4.20 g × (1 − 0.115) = 3.717 g)"
      ],
      "model": [
-      "The mean change was −11.5%, so the final mass = (4.20 g)(1 − 0.115) = 4.20 g − 0.483 g = <b>3.72 g</b>."
+      "The mean change was −11.5%, so the final mass = (4.20 g)(1 − 0.115) = 4.20 g − 0.483 g = <b>3.72 g</b> (3.717 g before rounding)."
      ]
     },
     {
@@ -264,7 +271,8 @@ const EXAM = {
       "For justifying that NaCl dissociates into two ions (Na<sup>+</sup> and Cl<sup>−</sup>) in solution, so each mole of NaCl provides about twice as many solute particles as a mole of sucrose, which does not dissociate; water potential depends on the number of dissolved particles"
      ],
      "model": [
-      "The no-net-change concentration would be <b>lower</b>, about 0.19 M. Water potential depends on the total concentration of dissolved particles. Sucrose stays as one particle per molecule, whereas each NaCl formula unit dissociates into two ions. Therefore a NaCl solution has about twice as many solute particles per liter as a sucrose solution of the same molarity, and only about half the molarity is needed to match the water potential of the potato cells."
+      "The no-net-change concentration would be <b>lower</b>, about 0.19 M. Water potential depends on the total concentration of dissolved particles. Sucrose stays as one particle per molecule, whereas each NaCl formula unit dissociates into two ions.",
+      "Therefore a NaCl solution has about twice as many solute particles per liter as a sucrose solution of the same molarity, and only about half the molarity is needed to match the water potential of the potato cells."
      ]
     },
     {
@@ -278,7 +286,8 @@ const EXAM = {
       "The solution on the surface of a core has a mass that is not part of the potato tissue. If it were not blotted off, the final mass would include this extra water and sugar, which would make the percent change in mass larger (less negative) than the true change caused by osmosis, so the data would not accurately reflect water movement into or out of the cells."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 2 — Cell structure and function (osmosis and water potential)"
   },
   {
    "id": "3",
@@ -325,6 +334,7 @@ const EXAM = {
      "id": "D",
      "label": "Part D",
      "prompt": "Justify the student's prediction using the absorption of light by photosynthetic pigments.",
+     "tip": "Green light is not “useless”: it is poorly absorbed. Say that chlorophyll absorbs red and blue light strongly and reflects green.",
      "rubric": [
       "For justifying that chlorophyll absorbs red (and blue) light strongly but reflects/transmits green light, so there is more light energy for the light reactions of photosynthesis in red light"
      ],
@@ -332,7 +342,8 @@ const EXAM = {
       "Chlorophyll <i>a</i> and <i>b</i> absorb red and blue wavelengths strongly, but they absorb green light poorly (they reflect it, which is why plants and algae look green). Under red light the algae capture much more light energy for the light-dependent reactions, so they make more ATP and NADPH for carbon fixation and grow faster than under green light."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 3 — Cellular energetics (photosynthesis and pigments)"
   },
   {
    "id": "4",
@@ -350,13 +361,15 @@ const EXAM = {
       "For describing that RNA polymerase binds to the promoter and synthesizes an mRNA strand complementary to the DNA template strand, using RNA nucleotides (with U pairing with A)"
      ],
      "model": [
-      "During transcription, RNA polymerase binds to the promoter, separates the DNA strands, and reads the template strand 3′ to 5′, adding complementary RNA nucleotides (A–U, G–C, T–A, C–G) to build the mRNA strand in the 5′ to 3′ direction. In eukaryotes, this primary transcript is then processed (5′ cap, poly-A tail, and removal of introns) before translation."
+      "During transcription, RNA polymerase binds to the promoter, separates the DNA strands, and reads the template strand 3′ to 5′, adding complementary RNA nucleotides (A–U, G–C, T–A, C–G) to build the mRNA strand in the 5′ to 3′ direction.",
+      "In eukaryotes, this primary transcript is then processed (5′ cap, poly-A tail, and removal of introns) before translation."
      ]
     },
     {
      "id": "B",
      "label": "Part B",
      "prompt": "A single-nucleotide substitution in the third position of a codon sometimes does not change the amino acid in the protein. Explain why.",
+     "tip": "Use the key term: the genetic code is <em>redundant</em> (degenerate). More than one codon can code for the same amino acid.",
      "rubric": [
       "For explaining that the genetic code is redundant (degenerate): more than one codon can specify the same amino acid, so some changes in the third base result in a codon for the same amino acid (a silent mutation)"
      ],
@@ -373,10 +386,12 @@ const EXAM = {
       "For justifying that translation ends at the stop codon, so the amino acids coded for by the rest of the sequence are not added, and the missing part (probably including functional domains) changes the protein's structure"
      ],
      "model": [
-      "The cell would produce a <b>truncated protein</b> that is likely nonfunctional. When the ribosome reaches the new stop codon, release factors cause translation to end, so the polypeptide contains only the amino acids coded before the mutation. Because the protein's function depends on its complete three-dimensional structure, the missing portion (which may include the active site or other domains) would usually prevent the protein from functioning."
+      "The cell would produce a <b>truncated protein</b> that is likely nonfunctional. When the ribosome reaches the new stop codon, release factors cause translation to end, so the polypeptide contains only the amino acids coded before the mutation.",
+      "Because the protein's function depends on its complete three-dimensional structure, the missing portion (which may include the active site or other domains) would usually prevent the protein from functioning."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 6 — Gene expression and regulation (transcription, translation, mutations)"
   },
   {
    "id": "5",
@@ -420,6 +435,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Determine the probability that the unaffected individual II-2 is a carrier of the recessive allele. Show your reasoning.",
+     "tip": "The answer is 2/3 because the <i>aa</i> outcome is removed from the possibilities for an unaffected child. A probability of 1/2 ignores that information.",
      "rubric": [
       "For the correct probability of 2/3, because both parents are <i>Aa</i> (the cross <i>Aa</i> × <i>Aa</i> produces 1/4 <i>AA</i>, 1/2 <i>Aa</i>, 1/4 <i>aa</i>), and II-2 is known to be unaffected, so the <i>aa</i> outcome is eliminated: (1/2)/(3/4) = 2/3"
      ],
@@ -427,7 +443,8 @@ const EXAM = {
       "Both parents are carriers (<i>Aa</i> × <i>Aa</i>), so the possible offspring are 1/4 <i>AA</i>, 2/4 <i>Aa</i>, and 1/4 <i>aa</i>. II-2 is unaffected, which eliminates <i>aa</i>. Among the remaining 3/4 of the offspring, 2/4 are carriers, so the probability that II-2 is a carrier is (2/4)/(3/4) = <b>2/3</b>."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 5 — Heredity (pedigrees)"
   },
   {
    "id": "6",
@@ -452,6 +469,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Calculate the number of beetles in the population that are heterozygous (<i>Gg</i>). Show your work.",
+     "tip": "2<i>pq</i> is a <em>frequency</em>. Multiply by the population size (500) to get the number of heterozygous beetles.",
      "rubric": [
       "For a correct number of heterozygotes: 2<i>pq</i> = 2(0.60)(0.40) = 0.48, and 0.48 × 500 = 240 beetles"
      ],
@@ -468,10 +486,12 @@ const EXAM = {
       "For predicting that the frequency of the <i>g</i> allele would decrease, because the green beetles (<i>gg</i>) would be removed (selected against) at a higher rate and would pass fewer <i>g</i> alleles to the next generation"
      ],
      "model": [
-      "One condition is that there is <b>no natural selection</b> (all genotypes survive and reproduce equally); others are random mating, a very large population, no mutation, and no migration. If birds preferentially ate green beetles, this would be natural selection against the <i>gg</i> genotype. Fewer green beetles would survive to reproduce, so fewer <i>g</i> alleles would be passed on, and the frequency of <i>g</i> would <b>decrease</b> over generations (although the allele would remain in the population in heterozygous <i>Gg</i> beetles)."
+      "One condition is that there is <b>no natural selection</b> (all genotypes survive and reproduce equally); others are random mating, a very large population, no mutation, and no migration. If birds preferentially ate green beetles, this would be natural selection against the <i>gg</i> genotype.",
+      "Fewer green beetles would survive to reproduce, so fewer <i>g</i> alleles would be passed on, and the frequency of <i>g</i> would <b>decrease</b> over generations (although the allele would remain in the population in heterozygous <i>Gg</i> beetles)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 7 — Natural selection (Hardy–Weinberg equilibrium)"
   }
  ]
 };

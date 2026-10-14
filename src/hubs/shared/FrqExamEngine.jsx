@@ -47,6 +47,18 @@ function selfScore(exam, checks) {
   return { got, perQ };
 }
 
+const DEFAULT_SYMBOLS = ["×", "÷", "−", "±", "≈", "≠", "≤", "≥", "→", "√", "°", "²", "³", "⁻", "Δ", "λ", "μ", "π", "θ"];
+
+/** Insert text at the cursor of the focused response box (keeps focus, and fires React's change handler). */
+function insertSymbol(ch) {
+  const el = document.activeElement;
+  if (!el || el.tagName !== "TEXTAREA" || !el.hasAttribute("data-frq")) return false;
+  const start = el.selectionStart ?? el.value.length, end = el.selectionEnd ?? start;
+  el.setRangeText(ch, start, end, "end");
+  el.dispatchEvent(new Event("input", { bubbles: true }));
+  return true;
+}
+
 /** Textarea that keeps its own text while typing and saves (debounced) to the exam record. */
 function ResponseBox({ value, onSave, F, rows = 6, label }) {
   const [v, setV] = useState(value || "");
@@ -87,6 +99,7 @@ function ResponseBox({ value, onSave, F, rows = 6, label }) {
         rows={rows}
         style={F.textarea}
         aria-label={label}
+        data-frq="1"
         placeholder="Write your response here. Show your reasoning and your work."
         spellCheck
       />
@@ -99,7 +112,7 @@ function Paras({ items, style }) {
   return asParas(items).map((t, i) => <p key={i} style={style}><RichText text={t} /></p>);
 }
 
-export default function FrqExamEngine({ hubKey, format, exams, colors, reference }) {
+export default function FrqExamEngine({ hubKey, format, exams, colors, reference, symbols }) {
   const STORE_KEY = `${hubKey}-frq-exams-v1`;
   const [store, setStore] = useState({});
   const [loaded, setLoaded] = useState(false);
@@ -110,6 +123,8 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
   const [refTab, setRefTab] = useState(0);
   const [revealed, setRevealed] = useState({}); // model responses shown in review, by part key
   const [timeUp, setTimeUp] = useState(false);
+  const [symHint, setSymHint] = useState(false);
+  const syms = symbols || DEFAULT_SYMBOLS;
 
   const storeRef = useRef(store);
   storeRef.current = store;
@@ -390,6 +405,26 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
           })}
         </div>
 
+        <div style={F.symBar} role="toolbar" aria-label="Insert a symbol into your response">
+          <span style={F.symLabel}>Symbols</span>
+          <div style={F.symRow}>
+            {syms.map((ch, i) => (
+              <button
+                key={i}
+                type="button"
+                style={F.symBtn}
+                onMouseDown={(e) => e.preventDefault()}
+                onTouchStart={(e) => e.preventDefault()}
+                onClick={() => { if (!insertSymbol(ch)) { setSymHint(true); setTimeout(() => setSymHint(false), 2200); } }}
+                aria-label={`Insert ${ch}`}
+              >
+                {ch}
+              </button>
+            ))}
+          </div>
+          {symHint && <span style={F.symHint}>Click in a response box first</span>}
+        </div>
+
         <div style={S.qPanel}>
           <div style={F.qHead}>
             <div style={S.qNum}>Question {qi + 1} <span style={S.qOf}>of {exam.questions.length}</span></div>
@@ -496,6 +531,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
             {q.kind && <span style={F.kindChip}>{q.kind}</span>}
             <span style={{ ...S.verdict, ...S.verdictOk }}>{sc.perQ[q.id]}/{questionPoints(q)} points</span>
           </div>
+          {q.topic && <div style={F.topic}><b>Topic to review:</b> {q.topic}</div>}
           <div style={F.prompt}>
             <Paras items={q.intro} style={F.introText} />
             {(q.figures || []).map((f, i) => <Figure key={i} fig={f} S={S} />)}
@@ -542,6 +578,7 @@ export default function FrqExamEngine({ hubKey, format, exams, colors, reference
                     <div style={F.modelLabel}>Model response <button style={F.hideBtn} onClick={() => setRevealed({ ...revealed, [rk]: false })}>Hide</button></div>
                     {model.map((t, i) => <p key={i} style={F.modelText}><RichText text={t} /></p>)}
                     {(p.modelFigures || []).map((f, i) => <Figure key={i} fig={f} S={S} />)}
+                    {p.tip && <div style={F.tip}><b style={F.tipLabel}>Common mistake</b> <RichText text={p.tip} /></div>}
                   </div>
                 )}
               </div>
@@ -705,6 +742,14 @@ function makeFrqStyles(C) {
     modelLabel: { fontFamily: mono, fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase", color: "#4C7A41", fontWeight: 600, marginBottom: 6, display: "flex", justifyContent: "space-between", alignItems: "center" },
     hideBtn: { background: "none", border: "none", color: "#4C7A41", textDecoration: "underline", cursor: "pointer", fontSize: 12.5, fontFamily: "'Nunito',sans-serif" },
     modelText: { fontSize: 15, lineHeight: 1.65, margin: "0 0 9px", color: "#26361F" },
+    symBar: { position: "sticky", top: 0, zIndex: 5, display: "flex", alignItems: "center", gap: 8, background: "#fff", border: "1px solid #ECEAE3", borderRadius: 12, padding: "6px 8px", margin: "0 0 12px", boxShadow: "0 2px 8px rgba(70,90,60,0.08)" },
+    symLabel: { fontFamily: mono, fontSize: 10.5, letterSpacing: "0.08em", textTransform: "uppercase", color: "#767F73", flexShrink: 0 },
+    symRow: { display: "flex", gap: 4, overflowX: "auto", flex: 1, paddingBottom: 2, scrollbarWidth: "thin" },
+    symBtn: { flexShrink: 0, minWidth: 36, height: 34, borderRadius: 8, border: "1px solid #E2E0D8", background: "#FBFAF6", color: "#2E332E", fontSize: 19, fontFamily: "'Nunito',sans-serif", fontWeight: 700, cursor: "pointer", padding: "0 6px" },
+    symHint: { fontSize: 12, color: "#9A6A1F", flexShrink: 0 },
+    topic: { background: "#F5F4EE", border: "1px solid #E7E4DA", borderRadius: 10, padding: "7px 12px", fontSize: 13.5, color: "#3C423A", margin: "8px 0 4px", lineHeight: 1.5 },
+    tip: { background: "#FFF6E3", border: "1.5px solid #EBCB93", borderRadius: 10, padding: "9px 12px", fontSize: 14, lineHeight: 1.55, color: "#5A4318", marginTop: 8 },
+    tipLabel: { fontFamily: "'Nunito',sans-serif", fontSize: 11.5, letterSpacing: "0.06em", textTransform: "uppercase", color: "#9A6A1F", marginRight: 6 },
     reflect: { borderTop: "2px dashed #E7E4DA", marginTop: 18, paddingTop: 6 },
     reflectHint: { fontSize: 13.5, color: "#5F675C", margin: "0 0 8px", lineHeight: 1.5 },
   };

@@ -37,6 +37,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "Derive an expression for the radius <i>R</i> of the particle's circular path in the magnetic field. Express your answer in terms of <i>q</i>, <i>m</i>, <i>V</i>, <i>B</i>, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.",
+     "tip": "The magnetic force does no work, so don't use an energy equation inside the field. It supplies the centripetal force: <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i>.",
      "rubric": [
       "For starting with Newton's second law with the magnetic force as the centripetal force, <i>qvB</i> = <i>mv</i><sup>2</sup>/<i>R</i> (or <i>F</i> = <i>qvB</i> sin 90° = <i>ma</i><sub>c</sub>)",
       "For solving for the radius, <i>R</i> = <i>mv</i>/(<i>qB</i>)",
@@ -68,10 +69,12 @@ const EXAM = {
       "For a justification using <i>F</i> = <i>q</i>v × B: with the velocity to the right and B into the page, the right-hand rule gives a force upward for a positive charge"
      ],
      "model": [
-      "The magnetic force on a positive charge is in the direction of v × B. Point the fingers of the right hand in the direction of the velocity (to the right), curl them toward the direction of the field (into the page): the thumb points toward the top of the page. The force is therefore <b>upward</b>, which agrees with the path curving upward in Figure 1."
+      "The magnetic force on a positive charge is in the direction of v × B. Point the fingers of the right hand in the direction of the velocity (to the right), curl them toward the direction of the field (into the page): the thumb points toward the top of the page.",
+      "The force is therefore <b>upward</b>, which agrees with the path curving upward in Figure 1."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 12 — Magnetism and electromagnetic induction (a charged particle in a magnetic field)"
   },
   {
    "id": "2",
@@ -110,19 +113,21 @@ const EXAM = {
       "For correct values of <i>PV</i> (or ratios of temperatures) at the four states, such as 200, 600, 300, 100 J (or <i>T</i><sub>B</sub> = 3<i>T</i><sub>A</sub>, <i>T</i><sub>C</sub> = 1.5<i>T</i><sub>A</sub>, <i>T</i><sub>D</sub> = 0.5<i>T</i><sub>A</sub>)"
      ],
      "model": [
-      "For a fixed amount of gas, <i>T</i> is proportional to <i>PV</i>. The products are: A: (200 kPa)(1.0 L) = 200 J; B: (200 kPa)(3.0 L) = 600 J; C: (100 kPa)(3.0 L) = 300 J; D: (100 kPa)(1.0 L) = 100 J. So <b><i>T</i><sub>B</sub> > <i>T</i><sub>C</sub> > <i>T</i><sub>A</sub> > <i>T</i><sub>D</sub></b>, with <i>T</i><sub>B</sub> = 3<i>T</i><sub>A</sub>, <i>T</i><sub>C</sub> = 1.5<i>T</i><sub>A</sub>, and <i>T</i><sub>D</sub> = 0.5<i>T</i><sub>A</sub>."
+      "For a fixed amount of gas, <i>T</i> is proportional to <i>PV</i>. The products are: A: (200 kPa)(1.0 L) = 200 J; B: (200 kPa)(3.0 L) = 600 J; C: (100 kPa)(3.0 L) = 300 J; D: (100 kPa)(1.0 L) = 100 J.",
+      "So <b><i>T</i><sub>B</sub> > <i>T</i><sub>C</sub> > <i>T</i><sub>A</sub> > <i>T</i><sub>D</sub></b>, with <i>T</i><sub>B</sub> = 3<i>T</i><sub>A</sub>, <i>T</i><sub>C</sub> = 1.5<i>T</i><sub>A</sub>, and <i>T</i><sub>D</sub> = 0.5<i>T</i><sub>A</sub>."
      ]
     },
     {
      "id": "C",
      "label": "Part C",
      "prompt": "On a set of axes that you draw, sketch the cycle as a graph of temperature <i>T</i> as a function of volume <i>V</i>. Take <i>T</i><sub>A</sub> as the unit of temperature, label the four states, and use arrows to show the direction of the cycle.",
+     "tip": "On a <i>T</i>–<i>V</i> graph, constant-pressure processes are straight lines through the origin and constant-volume processes are vertical. Re-drawing the <i>P</i>–<i>V</i> rectangle is the usual error.",
      "paper": true,
      "modelFigures": [
       {
-       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"66\" y1=\"248\" x2=\"396\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"66\" y1=\"22\" x2=\"66\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"148.5\" y1=\"248\" x2=\"148.5\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"148.5\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.0</text><line x1=\"313.5\" y1=\"248\" x2=\"313.5\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"313.5\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">3.0</text><line x1=\"61\" y1=\"216.61\" x2=\"66\" y2=\"216.61\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"221.61\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">0.5</text><line x1=\"61\" y1=\"185.22\" x2=\"66\" y2=\"185.22\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"190.22\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.0</text><line x1=\"61\" y1=\"153.83\" x2=\"66\" y2=\"153.83\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"158.83\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.5</text><line x1=\"61\" y1=\"59.67\" x2=\"66\" y2=\"59.67\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"64.67\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">3.0</text><text x=\"231\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Volume V (L)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 135)\">Temperature T (units of T_A)</text><path d=\"M148.5 185.22L313.5 59.67L313.5 153.83L148.5 216.61L148.5 185.22\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"133.65\" y=\"177.69\" text-anchor=\"end\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">A</text><text x=\"321.75\" y=\"56.53\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">B</text><text x=\"321.75\" y=\"153.83\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">C</text><text x=\"133.65\" y=\"216.61\" text-anchor=\"end\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">D</text></svg>",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"66\" y1=\"248\" x2=\"396\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"66\" y1=\"22\" x2=\"66\" y2=\"248\" stroke=\"#2E332E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"148.5\" y1=\"248\" x2=\"148.5\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"148.5\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.0</text><line x1=\"313.5\" y1=\"248\" x2=\"313.5\" y2=\"253\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"313.5\" y=\"268\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">3.0</text><line x1=\"61\" y1=\"216.61\" x2=\"66\" y2=\"216.61\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"221.61\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">0.5</text><line x1=\"61\" y1=\"185.22\" x2=\"66\" y2=\"185.22\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"190.22\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.0</text><line x1=\"61\" y1=\"153.83\" x2=\"66\" y2=\"153.83\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"158.83\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">1.5</text><line x1=\"61\" y1=\"59.67\" x2=\"66\" y2=\"59.67\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"57\" y=\"64.67\" text-anchor=\"end\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">3.0</text><text x=\"231\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\">Volume V (L)</text><text x=\"16\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 135)\">Temperature T (units of T<tspan baseline-shift=\"sub\" font-size=\"75%\">A</tspan>)</text><path d=\"M148.5 185.22L313.5 59.67L313.5 153.83L148.5 216.61L148.5 185.22\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"133.65\" y=\"177.69\" text-anchor=\"end\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">A</text><text x=\"321.75\" y=\"56.53\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">B</text><text x=\"321.75\" y=\"153.83\" text-anchor=\"start\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">C</text><text x=\"133.65\" y=\"216.61\" text-anchor=\"end\" font-size=\"12.5\" font-weight=\"400\" fill=\"#2E332E\">D</text></svg>",
        "alt": "A graph of temperature versus volume for the cycle. A rises along a straight line toward the origin's direction to B at 3.0 liters and 3.0 times the temperature at A; B drops vertically to C at half of B's temperature; C goes along a straight line to D at 1.0 liter; D rises vertically back to A.",
-       "caption": "Model sketch (T in units of T_A): A (1, 1.0) → B (3, 3.0) → C (3, 1.5) → D (1, 0.5) → A. Both slanted segments lie on lines through the origin."
+       "caption": "Model sketch (<i>T</i> in units of <i>T</i><sub>A</sub>): A (1, 1.0) → B (3, 3.0) → C (3, 1.5) → D (1, 0.5) → A. Both slanted segments lie on lines through the origin."
       }
      ],
      "rubric": [
@@ -131,7 +136,8 @@ const EXAM = {
       "For a segment from C to D that decreases in volume and temperature, a vertical segment from D back to A, and arrows indicating the direction A → B → C → D → A"
      ],
      "model": [
-      "At constant pressure <i>T</i> = <i>PV</i>/<i>nR</i> is proportional to <i>V</i>, so processes AB and CD are straight lines through the origin of the <i>T</i>–<i>V</i> graph (A to B rises from 1.0 to 3.0 at higher pressure, and C to D falls from 1.5 to 0.5 at lower pressure). The constant-volume processes BC and DA are vertical segments (B to C drops from 3.0 to 1.5; D to A rises from 0.5 to 1.0). The cycle is traced A → B → C → D → A."
+      "At constant pressure <i>T</i> = <i>PV</i>/<i>nR</i> is proportional to <i>V</i>, so processes AB and CD are straight lines through the origin of the <i>T</i>–<i>V</i> graph (A to B rises from 1.0 to 3.0 at higher pressure, and C to D falls from 1.5 to 0.5 at lower pressure).",
+      "The constant-volume processes BC and DA are vertical segments (B to C drops from 3.0 to 1.5; D to A rises from 0.5 to 1.0). The cycle is traced A → B → C → D → A."
      ]
     },
     {
@@ -155,10 +161,12 @@ const EXAM = {
       "For a correct result of 1000 J (1.0 × 10<sup>3</sup> J) of heat transferred to the gas"
      ],
      "model": [
-      "During AB: the work done by the gas is <i>P</i>Δ<i>V</i> = (2.0 × 10<sup>5</sup> Pa)(2.0 × 10<sup>−3</sup> m<sup>3</sup>) = 400 J. The internal energy of a monatomic ideal gas is <i>U</i> = (3/2)<i>nRT</i> = (3/2)<i>PV</i>, so Δ<i>U</i> = (3/2)(600 J − 200 J) = 600 J. The first law, Δ<i>U</i> = <i>Q</i> + <i>W</i> (with <i>W</i> = −400 J the work done on the gas), gives <i>Q</i> = 600 J + 400 J = <b>1000 J</b> transferred to the gas as heat. (Equivalently, <i>Q</i> = (5/2)<i>P</i>Δ<i>V</i> for a constant-pressure process of a monatomic gas.)"
+      "During AB: the work done by the gas is <i>P</i>Δ<i>V</i> = (2.0 × 10<sup>5</sup> Pa)(2.0 × 10<sup>−3</sup> m<sup>3</sup>) = 400 J. The internal energy of a monatomic ideal gas is <i>U</i> = (3/2)<i>nRT</i> = (3/2)<i>PV</i>, so Δ<i>U</i> = (3/2)(600 J − 200 J) = 600 J.",
+      "The first law, Δ<i>U</i> = <i>Q</i> + <i>W</i> (with <i>W</i> = −400 J the work done on the gas), gives <i>Q</i> = 600 J + 400 J = <b>1000 J</b> transferred to the gas as heat. (Equivalently, <i>Q</i> = (5/2)<i>P</i>Δ<i>V</i> for a constant-pressure process of a monatomic gas.)"
      ]
     }
-   ]
+   ],
+   "topic": "Unit 9 — Thermodynamics (P–V cycles and the ideal gas law)"
   },
   {
    "id": "3",
@@ -221,7 +229,8 @@ const EXAM = {
       "For explaining that without subtracting it, the count rate would not represent the sample alone and would not approach zero as the sample decays, which would distort the exponential decay analysis"
      ],
      "model": [
-      "Even with no sample, the detector counts radiation from cosmic rays, natural radioactive materials in the building, and so on. That background is present in every measurement, so the raw count rate is the sum of the sample's rate and the background rate. Subtracting the background leaves the count rate due to the sample alone, which is the quantity that decreases exponentially toward zero; an uncorrected rate would level off at the background value and give the wrong decay constant and half-life."
+      "Even with no sample, the detector counts radiation from cosmic rays, natural radioactive materials in the building, and so on. That background is present in every measurement, so the raw count rate is the sum of the sample's rate and the background rate.",
+      "Subtracting the background leaves the count rate due to the sample alone, which is the quantity that decreases exponentially toward zero; an uncorrected rate would level off at the background value and give the wrong decay constant and half-life."
      ]
     },
     {
@@ -240,6 +249,7 @@ const EXAM = {
      "id": "B (ii)",
      "label": "Part B (ii)",
      "prompt": "The student draws a best-fit line on the graph of ln <i>R</i> versus <i>t</i>. The line passes through the points (0 min, 6.68) and (10 min, 4.95). Use the line to determine the decay constant and the half-life of the isotope. Show your work.",
+     "tip": "Use the natural logarithm, ln, because the decay law uses <i>e</i><sup>−λ<i>t</i></sup>. The slope is −λ, so λ is positive.",
      "rubric": [
       "For a correct slope calculation: (4.95 − 6.68)/(10 min − 0 min) = −0.173 min<sup>−1</sup>",
       "For a correct decay constant of 0.173 min<sup>−1</sup> (the negative of the slope), with units",
@@ -269,10 +279,12 @@ const EXAM = {
       "For explaining that radioactive decay is a random process, so the counts fluctuate statistically about an average, and that counting for a longer interval gives more counts and a smaller relative (percent) fluctuation"
      ],
      "model": [
-      "Each nucleus decays at a random time, so the number of decays detected in a fixed interval varies randomly around its average value; the fluctuation is typically about √<i>N</i> for <i>N</i> counts. Counting for a longer time at each setting gives a larger <i>N</i>, so the fractional uncertainty √<i>N</i>/<i>N</i> = 1/√<i>N</i> is smaller and the points lie closer to the true exponential curve."
+      "Each nucleus decays at a random time, so the number of decays detected in a fixed interval varies randomly around its average value; the fluctuation is typically about √<i>N</i> for <i>N</i> counts.",
+      "Counting for a longer time at each setting gives a larger <i>N</i>, so the fractional uncertainty √<i>N</i>/<i>N</i> = 1/√<i>N</i> is smaller and the points lie closer to the true exponential curve."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 15 — Modern physics (radioactive decay)"
   },
   {
    "id": "4",
@@ -305,6 +317,7 @@ const EXAM = {
      "id": "B",
      "label": "Part B",
      "prompt": "With the glass surrounded by air, indicate whether the ray in Figure 1 is totally internally reflected at the boundary. Justify your answer.",
+     "tip": "Angles in Snell's law are measured from the normal, not from the surface. Compare the angle of incidence with the critical angle.",
      "rubric": [
       "For indicating that the ray is totally internally reflected",
       "For comparing the 50° angle of incidence to the critical angle of about 42° (the angle of incidence is greater, so Snell's law has no solution for the refracted angle)"
@@ -334,10 +347,12 @@ const EXAM = {
       "For indicating that the frequency stays the same (it is set by the source) and, with <i>v</i> = <i>f</i>λ, that the wavelength increases"
      ],
      "model": [
-      "The speed in glass is <i>v</i> = <i>c</i>/<i>n</i> = (3.0 × 10<sup>8</sup> m/s)/1.50 = 2.0 × 10<sup>8</sup> m/s, and in water it is (3.0 × 10<sup>8</sup> m/s)/1.33 = 2.26 × 10<sup>8</sup> m/s, so the speed <b>increases</b>. The <b>frequency stays the same</b> because it is determined by the source and the wave crests must arrive at the boundary and leave it at the same rate. Since <i>v</i> = <i>f</i>λ with <i>f</i> fixed, the <b>wavelength increases</b> in the same proportion as the speed."
+      "The speed in glass is <i>v</i> = <i>c</i>/<i>n</i> = (3.0 × 10<sup>8</sup> m/s)/1.50 = 2.0 × 10<sup>8</sup> m/s, and in water it is (3.0 × 10<sup>8</sup> m/s)/1.33 = 2.26 × 10<sup>8</sup> m/s, so the speed <b>increases</b>.",
+      "The <b>frequency stays the same</b> because it is determined by the source and the wave crests must arrive at the boundary and leave it at the same rate. Since <i>v</i> = <i>f</i>λ with <i>f</i> fixed, the <b>wavelength increases</b> in the same proportion as the speed."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 13 — Geometric optics (refraction and total internal reflection)"
   }
  ]
 };

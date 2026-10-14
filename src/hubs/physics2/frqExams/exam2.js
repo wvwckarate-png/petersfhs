@@ -50,13 +50,15 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "Derive an expression for the total energy lost from the capacitors between the end of Step 1 and the end of Step 2. Express your answer in terms of <i>C</i>, ε, and physical constants, as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.",
+     "tip": "Do not assume that the final energy equals the initial energy. Charge is conserved, but energy is not conserved <em>within the capacitors</em>; the difference is dissipated in the wires.",
      "rubric": [
       "For starting with the energy stored in a capacitor, <i>U</i> = ½<i>C</i>(Δ<i>V</i>)<sup>2</sup>",
       "For correct initial and final energies: <i>U</i><sub>i</sub> = ½<i>C</i>ε<sup>2</sup> and <i>U</i><sub>f</sub> = ½(3<i>C</i>)(ε/3)<sup>2</sup> = <i>C</i>ε<sup>2</sup>/6",
       "For a correct final expression for the energy lost, ⅓<i>C</i>ε<sup>2</sup>"
      ],
      "model": [
-      "The energy stored in a capacitor is <i>U</i> = ½<i>C</i>(Δ<i>V</i>)<sup>2</sup>. At the end of Step 1 the only capacitor has <i>U</i><sub>i</sub> = ½<i>C</i>ε<sup>2</sup>. At the end of Step 2 the two capacitors act as a combined capacitance 3<i>C</i> at potential difference ε/3, so <i>U</i><sub>f</sub> = ½(3<i>C</i>)(ε/3)<sup>2</sup> = (1/6)<i>C</i>ε<sup>2</sup>. The energy lost is <i>U</i><sub>i</sub> − <i>U</i><sub>f</sub> = (1/2 − 1/6)<i>C</i>ε<sup>2</sup> = <b>(1/3)<i>C</i>ε<sup>2</sup></b>, which is two-thirds of the original energy."
+      "The energy stored in a capacitor is <i>U</i> = ½<i>C</i>(Δ<i>V</i>)<sup>2</sup>. At the end of Step 1 the only capacitor has <i>U</i><sub>i</sub> = ½<i>C</i>ε<sup>2</sup>. At the end of Step 2 the two capacitors act as a combined capacitance 3<i>C</i> at potential difference ε/3, so <i>U</i><sub>f</sub> = ½(3<i>C</i>)(ε/3)<sup>2</sup> = (1/6)<i>C</i>ε<sup>2</sup>.",
+      "The energy lost is <i>U</i><sub>i</sub> − <i>U</i><sub>f</sub> = (1/2 − 1/6)<i>C</i>ε<sup>2</sup> = <b>(1/3)<i>C</i>ε<sup>2</sup></b>, which is two-thirds of the original energy."
      ]
     },
     {
@@ -68,10 +70,12 @@ const EXAM = {
       "For explaining that charge flowed through the wires (which have resistance) while the capacitors equalized their potential differences, so the moving charge did work against resistance, <i>P</i> = <i>I</i><sup>2</sup><i>R</i>"
      ],
      "model": [
-      "The missing energy was transferred out of the capacitors as thermal energy. When the capacitors are connected, charge flows from the first to the second until their potential differences are equal. This current passes through the wires, which have resistance, so energy is dissipated at the rate <i>I</i><sup>2</sup><i>R</i> and warms the wires (a small amount may also be radiated as electromagnetic waves). Energy is conserved overall: the 1/3 <i>C</i>ε<sup>2</sup> removed from the capacitors equals the thermal energy produced. Notice that this amount does not depend on how large the wire resistance is — a smaller resistance just makes the transfer faster."
+      "The missing energy was transferred out of the capacitors as thermal energy. When the capacitors are connected, charge flows from the first to the second until their potential differences are equal. This current passes through the wires, which have resistance, so energy is dissipated at the rate <i>I</i><sup>2</sup><i>R</i> and warms the wires (a small amount may also be radiated as electromagnetic waves).",
+      "Energy is conserved overall: the 1/3 <i>C</i>ε<sup>2</sup> removed from the capacitors equals the thermal energy produced. Notice that this amount does not depend on how large the wire resistance is — a smaller resistance just makes the transfer faster."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 11 — Electric circuits (capacitors)"
   },
   {
    "id": "2",
@@ -104,10 +108,11 @@ const EXAM = {
      "id": "A (ii)",
      "label": "Part A (ii)",
      "prompt": "Sketch a graph of the displacement <i>y</i> of the point on the string at <i>x</i> = 0 as a function of time <i>t</i>, for <i>t</i> = 0 to <i>t</i> = 0.050 s. Label the vertical axis with the amplitude and the horizontal axis with the times at which the displacement is zero or at its extreme values.",
+     "tip": "The first motion is downward. Sketching + sin(ω<i>t</i>) instead of − sin(ω<i>t</i>) is the usual mistake for a wave traveling in the +<i>x</i> direction.",
      "paper": true,
      "modelFigures": [
       {
-       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"242\" x2=\"496\" y2=\"242\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"246\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-3</text><line x1=\"64\" y1=\"205\" x2=\"496\" y2=\"205\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"209\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-2</text><line x1=\"64\" y1=\"168\" x2=\"496\" y2=\"168\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"172\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">-1</text><line x1=\"64\" y1=\"131\" x2=\"496\" y2=\"131\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"135\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"94\" x2=\"496\" y2=\"94\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"98\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">1</text><line x1=\"64\" y1=\"57\" x2=\"496\" y2=\"57\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"61\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">2</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">3</text><line x1=\"64\" y1=\"242\" x2=\"64\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"172\" y1=\"242\" x2=\"172\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">12.5</text><line x1=\"280\" y1=\"242\" x2=\"280\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"388\" y1=\"242\" x2=\"388\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">37.5</text><line x1=\"496\" y1=\"242\" x2=\"496\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">50</text><line x1=\"64\" y1=\"242\" x2=\"496\" y2=\"242\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"242\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"290\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Time t (ms)</text><text x=\"16\" y=\"131\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 131)\">Displacement y (cm)</text><path d=\"M64 131L74.8 142.58L85.6 153.87L96.4 164.6L107.2 174.5L118 183.33L128.8 190.87L139.6 196.93L150.4 201.38L161.2 204.09L172 205L182.8 204.09L193.6 201.38L204.4 196.93L215.2 190.87L226 183.33L236.8 174.5L247.6 164.6L258.4 153.87L269.2 142.58L280 131L290.8 119.42L301.6 108.13L312.4 97.4L323.2 87.5L334 78.67L344.8 71.13L355.6 65.07L366.4 60.62L377.2 57.91L388 57L398.8 57.91L409.6 60.62L420.4 65.07L431.2 71.13L442 78.67L452.8 87.5L463.6 97.4L474.4 108.13L485.2 119.42L496 131\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"64\" y1=\"131\" x2=\"496\" y2=\"131\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/></svg>",
+       "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 300\" font-family=\"Nunito, Arial, sans-serif\" font-size=\"13\" fill=\"#2E332E\"><line x1=\"64\" y1=\"242\" x2=\"496\" y2=\"242\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"246\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−3</text><line x1=\"64\" y1=\"205\" x2=\"496\" y2=\"205\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"209\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−2</text><line x1=\"64\" y1=\"168\" x2=\"496\" y2=\"168\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"172\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">−1</text><line x1=\"64\" y1=\"131\" x2=\"496\" y2=\"131\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"135\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"64\" y1=\"94\" x2=\"496\" y2=\"94\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"98\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">1</text><line x1=\"64\" y1=\"57\" x2=\"496\" y2=\"57\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"61\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">2</text><line x1=\"64\" y1=\"20\" x2=\"496\" y2=\"20\" stroke=\"#E6E4DC\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"56\" y=\"24\" text-anchor=\"end\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">3</text><line x1=\"64\" y1=\"242\" x2=\"64\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"64\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">0</text><line x1=\"172\" y1=\"242\" x2=\"172\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"172\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">12.5</text><line x1=\"280\" y1=\"242\" x2=\"280\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"280\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">25</text><line x1=\"388\" y1=\"242\" x2=\"388\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"388\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">37.5</text><line x1=\"496\" y1=\"242\" x2=\"496\" y2=\"247\" stroke=\"#2E332E\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"496\" y=\"261\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"400\" fill=\"#2E332E\">50</text><line x1=\"64\" y1=\"242\" x2=\"496\" y2=\"242\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"64\" y1=\"20\" x2=\"64\" y2=\"242\" stroke=\"#2E332E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"280\" y=\"290\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\">Time t (ms)</text><text x=\"16\" y=\"131\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"400\" fill=\"#2E332E\" transform=\"rotate(-90 16 131)\">Displacement y (cm)</text><path d=\"M64 131L74.8 142.58L85.6 153.87L96.4 164.6L107.2 174.5L118 183.33L128.8 190.87L139.6 196.93L150.4 201.38L161.2 204.09L172 205L182.8 204.09L193.6 201.38L204.4 196.93L215.2 190.87L226 183.33L236.8 174.5L247.6 164.6L258.4 153.87L269.2 142.58L280 131L290.8 119.42L301.6 108.13L312.4 97.4L323.2 87.5L334 78.67L344.8 71.13L355.6 65.07L366.4 60.62L377.2 57.91L388 57L398.8 57.91L409.6 60.62L420.4 65.07L431.2 71.13L442 78.67L452.8 87.5L463.6 97.4L474.4 108.13L485.2 119.42L496 131\" fill=\"none\" stroke=\"#3F7A94\" stroke-width=\"2.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"64\" y1=\"131\" x2=\"496\" y2=\"131\" stroke=\"#9AA096\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\" stroke-linecap=\"round\"/></svg>",
        "alt": "A graph of displacement versus time for the point on the string at x equals 0. The curve starts at zero, goes down to negative 2.0 centimeters at 12.5 milliseconds, returns to zero at 25 milliseconds, rises to positive 2.0 centimeters at 37.5 milliseconds, and returns to zero at 50 milliseconds, completing one cycle per 50 milliseconds.",
        "caption": "Model graph: one full cycle in 0.050 s, amplitude 2.0 cm, starting downward."
       }
@@ -118,7 +123,9 @@ const EXAM = {
       "For a curve that starts at <i>y</i> = 0 and first moves in the negative direction (to −2.0 cm at 0.0125 s), consistent with a wave moving in the +<i>x</i> direction"
      ],
      "model": [
-      "At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the pattern shifts to the right: the part of the (periodic) wave pattern that is just to the left of <i>x</i> = 0, which has a negative displacement, is about to arrive there. Equivalently, the snapshot has a positive slope at <i>x</i> = 0, and for a wave moving in +<i>x</i> the velocity of a point is <i>v</i><sub><i>y</i></sub> = −<i>v</i>(∂<i>y</i>/∂<i>x</i>), which is negative: the point at <i>x</i> = 0 moves down first. Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s."
+      "At time zero the point at <i>x</i> = 0 is at <i>y</i> = 0. The wave moves in the +<i>x</i> direction, so the pattern shifts to the right: the part of the (periodic) wave pattern that is just to the left of <i>x</i> = 0, which has a negative displacement, is about to arrive there.",
+      "Equivalently, the snapshot has a positive slope at <i>x</i> = 0, and for a wave moving in +<i>x</i> the velocity of a point is <i>v</i><sub><i>y</i></sub> = −<i>v</i>(∂<i>y</i>/∂<i>x</i>), which is negative: the point at <i>x</i> = 0 moves down first.",
+      "Its motion is sinusoidal with amplitude 2.0 cm and period 0.050 s: <i>y</i> = 0 at <i>t</i> = 0, −2.0 cm at 0.0125 s, 0 at 0.025 s, +2.0 cm at 0.0375 s, and 0 at 0.050 s."
      ]
     },
     {
@@ -163,10 +170,12 @@ const EXAM = {
       "For a correct result of 3 antinodes, <i>n</i> = 2<i>L</i>/λ = 2(1.20 m)/(0.80 m)"
      ],
      "model": [
-      "The wave speed on a string is <i>v</i> = √(<i>F</i><sub>T</sub>/μ), so quadrupling the tension doubles the speed: <i>v</i> = 2(8.0 m/s) = <b>16 m/s</b>. The frequency is fixed by the driver at 20 Hz, so λ = <i>v</i>/<i>f</i> = (16 m/s)/(20 Hz) = <b>0.80 m</b>. Then <i>n</i> = 2<i>L</i>/λ = 2(1.20 m)/(0.80 m) = <b>3</b>: the string now vibrates in its third harmonic with three antinodes (and four nodes)."
+      "The wave speed on a string is <i>v</i> = √(<i>F</i><sub>T</sub>/μ), so quadrupling the tension doubles the speed: <i>v</i> = 2(8.0 m/s) = <b>16 m/s</b>. The frequency is fixed by the driver at 20 Hz, so λ = <i>v</i>/<i>f</i> = (16 m/s)/(20 Hz) = <b>0.80 m</b>.",
+      "Then <i>n</i> = 2<i>L</i>/λ = 2(1.20 m)/(0.80 m) = <b>3</b>: the string now vibrates in its third harmonic with three antinodes (and four nodes)."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 14 — Waves, sound, and physical optics (waves on a string, standing waves)"
   },
   {
    "id": "3",
@@ -229,7 +238,8 @@ const EXAM = {
       "For indicating that, by Newton's third law, the wire exerts an equal-magnitude, opposite force on the magnet, which changes the force that the magnet exerts on the balance (so the balance reading changes by Δ<i>m</i> = <i>F</i>/<i>g</i>)"
      ],
      "model": [
-      "The magnetic field of the magnet exerts a force on the current-carrying wire, of magnitude <i>F</i> = <i>I</i>ℓ<i>B</i> (the wire is perpendicular to the field). The wire is fixed in place, but by Newton's third law the wire exerts a force of equal magnitude and opposite direction on the magnet. That force adds to (or subtracts from) the weight of the magnet that presses on the balance, so the balance reading changes by Δ<i>m</i> = <i>F</i>/<i>g</i> = <i>I</i>ℓ<i>B</i>/<i>g</i>."
+      "The magnetic field of the magnet exerts a force on the current-carrying wire, of magnitude <i>F</i> = <i>I</i>ℓ<i>B</i> (the wire is perpendicular to the field). The wire is fixed in place, but by Newton's third law the wire exerts a force of equal magnitude and opposite direction on the magnet.",
+      "That force adds to (or subtracts from) the weight of the magnet that presses on the balance, so the balance reading changes by Δ<i>m</i> = <i>F</i>/<i>g</i> = <i>I</i>ℓ<i>B</i>/<i>g</i>."
      ]
     },
     {
@@ -248,13 +258,15 @@ const EXAM = {
      "id": "B (ii)",
      "label": "Part B (ii)",
      "prompt": "The student draws a best-fit line for the data. The line passes through the points (0.50 A, 0.82 g) and (3.00 A, 4.92 g). Use the line to determine <i>B</i>. Show your work.",
+     "tip": "Convert grams to kilograms before using <i>g</i> = 9.8 m/s<sup>2</sup>. Leaving the slope in g/A makes <i>B</i> come out 1000 times too large.",
      "rubric": [
       "For a correct calculation of the slope in consistent units: (4.92 g − 0.82 g)/(3.00 A − 0.50 A) = 1.64 g/A = 1.64 × 10<sup>−3</sup> kg/A",
       "For setting the slope equal to ℓ<i>B</i>/<i>g</i> and solving: <i>B</i> = (slope)<i>g</i>/ℓ",
       "For a correct value of <i>B</i> ≈ 0.20 T"
      ],
      "model": [
-      "Slope = Δ(Δ<i>m</i>)/Δ<i>I</i> = (4.92 g − 0.82 g)/(3.00 A − 0.50 A) = 1.64 g/A = 1.64 × 10<sup>−3</sup> kg/A. Because slope = ℓ<i>B</i>/<i>g</i>, <i>B</i> = (slope)(<i>g</i>)/ℓ = (1.64 × 10<sup>−3</sup> kg/A)(9.8 m/s<sup>2</sup>)/(0.080 m) = <b>0.20 T</b>. (The conversion from grams to kilograms is essential: leaving the slope in g/A would give a value 1000 times too large.)"
+      "Slope = Δ(Δ<i>m</i>)/Δ<i>I</i> = (4.92 g − 0.82 g)/(3.00 A − 0.50 A) = 1.64 g/A = 1.64 × 10<sup>−3</sup> kg/A. Because slope = ℓ<i>B</i>/<i>g</i>, <i>B</i> = (slope)(<i>g</i>)/ℓ = (1.64 × 10<sup>−3</sup> kg/A)(9.8 m/s<sup>2</sup>)/(0.080 m) = <b>0.20 T</b>.",
+      "(The conversion from grams to kilograms is essential: leaving the slope in g/A would give a value 1000 times too large.)"
      ]
     },
     {
@@ -280,7 +292,8 @@ const EXAM = {
       "The student could repeat each current setting several times and average the balance readings, which reduces random reading errors, and could extend the data to a wider range of currents so that the best-fit slope is better determined. Re-zeroing the balance (with the current off) before each trial removes drift."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 12 — Magnetism and electromagnetic induction (magnetic force on a wire)"
   },
   {
    "id": "4",
@@ -318,6 +331,7 @@ const EXAM = {
      "id": "C",
      "label": "Part C",
      "prompt": "The intensity of the 400 nm light is doubled without changing its wavelength. Indicate how the photocurrent and the maximum kinetic energy of the emitted electrons each change. Justify your answers.",
+     "tip": "Intensity changes <em>how many</em> electrons are emitted (the photocurrent), not how much kinetic energy each one has. Maximum kinetic energy depends only on the frequency.",
      "rubric": [
       "For indicating that the photocurrent (number of electrons emitted per second) doubles because twice as many photons arrive per second and each photon can eject at most one electron",
       "For indicating that the maximum kinetic energy is unchanged, because it depends on the photon energy (the frequency), not on the number of photons"
@@ -335,10 +349,12 @@ const EXAM = {
       "For predicting that no electrons are emitted, because the photon energy is less than the 2.3 eV work function — however large the intensity"
      ],
      "model": [
-      "The 600 nm photons have energy <i>E</i> = (1240 eV·nm)/(600 nm) ≈ 2.07 eV, which is less than the work function of 2.3 eV. An electron absorbs only one photon at a time, so no single photon can supply the energy needed to free an electron, and <b>no electrons are emitted</b>. Increasing the intensity only brings more photons, each with too little energy, so it cannot help. This is why the classical wave model fails: it predicted that enough intensity would eventually eject electrons."
+      "The 600 nm photons have energy <i>E</i> = (1240 eV·nm)/(600 nm) ≈ 2.07 eV (about 2.1 eV), which is less than the work function of 2.3 eV. An electron absorbs only one photon at a time, so no single photon can supply the energy needed to free an electron, and <b>no electrons are emitted</b>.",
+      "Increasing the intensity only brings more photons, each with too little energy, so it cannot help. This is why the classical wave model fails: it predicted that enough intensity would eventually eject electrons."
      ]
     }
-   ]
+   ],
+   "topic": "Unit 15 — Modern physics (photoelectric effect)"
   }
  ]
 };
