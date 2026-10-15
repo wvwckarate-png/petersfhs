@@ -211,7 +211,7 @@ const QUESTIONS = {
         "Heavier isotopes are attracted to the detector more strongly."
       ],
       "correct": 2,
-      "explanation": "The magnetic force bends charged particles into a curved path, and for a fixed force, greater mass means greater inertia and therefore less curvature (F = ma: a larger mass needs more force to achieve the same acceleration/curving). Choice (a) has the physics backward: for the same charge, a heavier isotope has a smaller charge-to-mass ratio, not a greater one — and a smaller charge-to-mass ratio is exactly what produces less deflection, so this choice describes the right direction of the real cause but mislabels which quantity increases. Choice (c) is wrong because velocity is given as fixed ('same charge and velocity'), so isotopes aren't traveling at different speeds in this setup, and even if they were, magnetic fields don't get 'outrun' in the way implied. Choice (d) misattributes the effect to an attraction to the detector, but the detector plays no role in determining the curvature — the path is shaped entirely by the magnetic force acting during flight, before any particle reaches the detector."
+      "explanation": "The magnetic force bends charged particles into a curved path, and for a fixed force, greater mass means greater inertia and therefore less curvature (F = ma: a larger mass needs more force to achieve the same acceleration/curving). Choice (B) has the physics backward: for the same charge, a heavier isotope has a smaller charge-to-mass ratio, not a greater one — and a smaller charge-to-mass ratio is exactly what produces less deflection, so this choice describes the right direction of the real cause but mislabels which quantity increases. Choice (A) is wrong because velocity is given as fixed ('same charge and velocity'), so isotopes aren't traveling at different speeds in this setup, and even if they were, magnetic fields don't get 'outrun' in the way implied. Choice (D) misattributes the effect to an attraction to the detector, but the detector plays no role in determining the curvature — the path is shaped entirely by the magnetic force acting during flight, before any particle reaches the detector."
     },
     {
       "id": "1-12",
@@ -237,7 +237,7 @@ const QUESTIONS = {
         "It has two isotopes of equal abundance."
       ],
       "correct": 1,
-      "explanation": "A single peak means every detected atom of the element has the same mass — the element is monoisotopic (essentially one naturally occurring isotope, like aluminum or fluorine) — so its average atomic mass equals that one peak's mass directly. Choice (a) is wrong because the calculation here is actually trivial, not impossible: with only one mass value to weight, there's nothing to average. Choice (b) is wrong because two isotopes of equal abundance would still show up as two separate peaks (at their two different masses), not one. Choice (d) doesn't follow at all — being monoisotopic has nothing to do with being a noble gas; monoisotopic elements are scattered across the periodic table (F, Na, Al, P are common examples), and this data alone gives no information about reactivity or group number."
+      "explanation": "A single peak means every detected atom of the element has the same mass — the element is monoisotopic (essentially one naturally occurring isotope, like aluminum or fluorine) — so its average atomic mass equals that one peak's mass directly. Choice (C) is wrong because the calculation here is actually trivial, not impossible: with only one mass value to weight, there's nothing to average. Choice (D) is wrong because two isotopes of equal abundance would still show up as two separate peaks (at their two different masses), not one. Choice (A) doesn't follow at all — being monoisotopic has nothing to do with being a noble gas; monoisotopic elements are scattered across the periodic table (F, Na, Al, P are common examples), and this data alone gives no information about reactivity or group number."
     },
     {
       "id": "1-14",
@@ -250,7 +250,7 @@ const QUESTIONS = {
         "B-11, because the average (10.81) is closer to 11.01 than to 10.01"
       ],
       "correct": 3,
-      "explanation": "A weighted average is always pulled closer to whichever value has the larger weight. Since 10.81 is much closer to 11.01 than to 10.01, B-11 must be the more abundant isotope (in reality, B-11 is about 80% abundant). Choice (a) gets the reverse-reasoning backward: it correctly notices the average sits closer to one value but assigns the higher abundance to the wrong isotope. Choice (c) misreads the numbers — 10.81 is not close to the true midpoint of 10.01 and 11.01, which would be 10.51; being off-center is exactly what signals unequal abundance in the first place. Choice (d) invokes a rule that doesn't exist in general — there's no principle that lighter isotopes are always more abundant (many elements, boron included, have their heavier isotope as the majority one); abundance has to be read from the actual average, not assumed from mass alone."
+      "explanation": "A weighted average is always pulled closer to whichever value has the larger weight. Since 10.81 is much closer to 11.01 than to 10.01, B-11 must be the more abundant isotope (in reality, B-11 is about 80% abundant). Choice (B) gets the reverse-reasoning backward: it correctly notices the average sits closer to one value but assigns the higher abundance to the wrong isotope. Choice (A) misreads the numbers — 10.81 is not close to the true midpoint of 10.01 and 11.01, which would be 10.51; being off-center is exactly what signals unequal abundance in the first place. Choice (C) invokes a rule that doesn't exist in general — there's no principle that lighter isotopes are always more abundant (many elements, boron included, have their heavier isotope as the majority one); abundance has to be read from the actual average, not assumed from mass alone."
     },
     {
       "id": "1-15",
@@ -263,7 +263,7 @@ const QUESTIONS = {
         "They have the same number of protons and neutrons but different numbers of electrons."
       ],
       "correct": 0,
-      "explanation": "Isotopes are defined by having the same atomic number (same number of protons, which is what makes them the same element) but different numbers of neutrons, giving them different mass numbers. Choice (a) actually describes isotones — different elements that happen to share a neutron count — which is essentially the reverse of what defines isotopes. Choice (c) describes ions (same protons and neutrons, different electrons), a completely different concept tied to charge, not to nuclear composition. Choice (d) is self-contradictory for isotopes of 'the same element': different atomic numbers would mean different elements entirely, and it also gets isotopes' actual hallmark backward — they share atomic number but differ in mass number, not the other way around."
+      "explanation": "Isotopes are defined by having the same atomic number (same number of protons, which is what makes them the same element) but different numbers of neutrons, giving them different mass numbers. Choice (C) actually describes isotones — different elements that happen to share a neutron count — which is essentially the reverse of what defines isotopes. Choice (D) describes ions (same protons and neutrons, different electrons), a completely different concept tied to charge, not to nuclear composition. Choice (B) is self-contradictory for isotopes of 'the same element': different atomic numbers would mean different elements entirely, and it also gets isotopes' actual hallmark backward — they share atomic number but differ in mass number, not the other way around."
     },
     {
       "id": "1-16",
@@ -393,7 +393,7 @@ const QUESTIONS = {
         "A mixture's proportions can vary; a compound has a fixed ratio."
       ],
       "correct": 3,
-      "explanation": "Compounds are held together by chemical bonds in a fixed, definite ratio of atoms (water is always exactly 2 H : 1 O), while mixtures are just physical combinations whose relative proportions can vary from sample to sample (saltwater can be dilute or concentrated and still be 'saltwater'). Choice (b) has the definitions completely reversed, assigning the fixed ratio to mixtures and the variable ratio to compounds. Choice (a) is false as a general distinguishing feature — a mixture can easily contain several elements (like brass, a mixture of copper and zinc) or even zero elements if it's a mixture of compounds; 'one element' has nothing to do with what makes something a mixture. Choice (d) is also false: many mixtures absolutely can be separated by physical means (filtration, distillation, evaporation), and in fact physical separability is one of the hallmarks that distinguishes a mixture from a compound, not something mixtures lack."
+      "explanation": "Compounds are held together by chemical bonds in a fixed, definite ratio of atoms (water is always exactly 2 H : 1 O), while mixtures are just physical combinations whose relative proportions can vary from sample to sample (saltwater can be dilute or concentrated and still be 'saltwater'). Choice (A) has the definitions completely reversed, assigning the fixed ratio to mixtures and the variable ratio to compounds. Choice (C) is false as a general distinguishing feature — a mixture can easily contain several elements (like brass, a mixture of copper and zinc) or even zero elements if it's a mixture of compounds; 'one element' has nothing to do with what makes something a mixture. Choice (B) is also false: many mixtures absolutely can be separated by physical means (filtration, distillation, evaporation), and in fact physical separability is one of the hallmarks that distinguishes a mixture from a compound, not something mixtures lack."
     },
     {
       "id": "1-26",
@@ -445,7 +445,7 @@ const QUESTIONS = {
         "It's consistent with a mixture, whose makeup can vary."
       ],
       "correct": 3,
-      "explanation": "Because mixtures don't have a fixed composition, two samples described as 'the same mixture' can absolutely have different relative proportions — that's precisely what defines a mixture rather than a compound. Choice (a) is wrong because there's no chemical reason NaOH and NaCl can't be physically combined; nothing about their properties prevents mixing, and the scenario describes exactly that happening. Choice (b) misapplies the vocabulary: if these were 'different compounds,' each would need its own fixed formula and fixed composition, but the problem describes the same two substances (NaOH and NaCl) present in different relative amounts — that's a mixture concept, not a 'different compound' situation. Choice (d) wrongly assumes only one composition can be correct, as if this were a compound with one fixed formula — but there's nothing experimentally inconsistent about a mixture varying from batch to batch; no error needs to be invoked."
+      "explanation": "Because mixtures don't have a fixed composition, two samples described as 'the same mixture' can absolutely have different relative proportions — that's precisely what defines a mixture rather than a compound. Choice (B) is wrong because there's no chemical reason NaOH and NaCl can't be physically combined; nothing about their properties prevents mixing, and the scenario describes exactly that happening. Choice (C) misapplies the vocabulary: if these were 'different compounds,' each would need its own fixed formula and fixed composition, but the problem describes the same two substances (NaOH and NaCl) present in different relative amounts — that's a mixture concept, not a 'different compound' situation. Choice (A) wrongly assumes only one composition can be correct, as if this were a compound with one fixed formula — but there's nothing experimentally inconsistent about a mixture varying from batch to batch; no error needs to be invoked."
     },
     {
       "id": "1-30",
@@ -458,7 +458,7 @@ const QUESTIONS = {
         "It is mostly Fe₂O₃, since 35.0% is closer to Fe₂O₃'s oxygen percentage."
       ],
       "correct": 3,
-      "explanation": "The mixture's overall oxygen percentage is a weighted average of its two components' oxygen percentages. Since 35.0% is numerically closer to Fe₂O₃'s 30.06% than to Al₂O₃'s 47.08%, the mixture must be mostly Fe₂O₃ by mass — the same 'weighted average sits closer to the more abundant component' logic used for isotope abundance. Choice (c) applies that same reverse-reasoning skill but reads the number line backward, claiming 35.0% is closer to 47.08% when in fact |35.0 − 30.06| = 4.94 is smaller than |35.0 − 47.08| = 12.08. Choice (b) (exactly 50/50) would only be correct if 35.0% were the simple midpoint of 30.06% and 47.08% (which is 38.57%, not 35.0%) — the actual value isn't at the midpoint, so an even split isn't consistent with the data. Choice (a) is wrong because there is, in fact, enough information here: knowing each pure component's oxygen percentage and the mixture's overall oxygen percentage is exactly what's needed to at least qualitatively (and, with an equation, quantitatively) determine the mixture's composition."
+      "explanation": "The mixture's overall oxygen percentage is a weighted average of its two components' oxygen percentages. Since 35.0% is numerically closer to Fe₂O₃'s 30.06% than to Al₂O₃'s 47.08%, the mixture must be mostly Fe₂O₃ by mass — the same 'weighted average sits closer to the more abundant component' logic used for isotope abundance. Choice (A) applies that same reverse-reasoning skill but reads the number line backward, claiming 35.0% is closer to 47.08% when in fact |35.0 − 30.06| = 4.94 is smaller than |35.0 − 47.08| = 12.08. Choice (C) (exactly 50/50) would only be correct if 35.0% were the simple midpoint of 30.06% and 47.08% (which is 38.57%, not 35.0%) — the actual value isn't at the midpoint, so an even split isn't consistent with the data. Choice (B) is wrong because there is, in fact, enough information here: knowing each pure component's oxygen percentage and the mixture's overall oxygen percentage is exactly what's needed to at least qualitatively (and, with an equation, quantitatively) determine the mixture's composition."
     },
     {
       "id": "1-31",
@@ -641,7 +641,7 @@ const QUESTIONS = {
         "The electron is farther from the nucleus, on average."
       ],
       "correct": 2,
-      "explanation": "Binding energy measures how tightly an electron is held; the more tightly bound (harder to remove), the more energy is needed to eject it, and the farther left that peak appears. Core electrons, being closest to the nucleus and least shielded from its full charge, are the most tightly bound and produce the leftmost, highest-binding-energy peaks. Choice (a), being part of a completely filled subshell, doesn't by itself determine how far left a peak sits — valence subshells (like 2p⁶ in neon) can be completely filled too, yet still show up as relatively low-binding-energy, rightward peaks; it's proximity to the nucleus, not 'filled-ness,' that drives binding energy. Choice (b), being more shielded, would push a peak the opposite direction — more shielding from other electrons weakens the nucleus's effective pull, making the electron easier to remove and shifting its peak to the right (lower binding energy), not the left. Choice (c), being farther from the nucleus, also produces the opposite effect — electrons farther out are held less tightly (lower binding energy) and appear farther right, the reverse of what's being asked."
+      "explanation": "Binding energy measures how tightly an electron is held; the more tightly bound (harder to remove), the more energy is needed to eject it, and the farther left that peak appears. Core electrons, being closest to the nucleus and least shielded from its full charge, are the most tightly bound and produce the leftmost, highest-binding-energy peaks. Choice (A), being part of a completely filled subshell, doesn't by itself determine how far left a peak sits — valence subshells (like 2p⁶ in neon) can be completely filled too, yet still show up as relatively low-binding-energy, rightward peaks; it's proximity to the nucleus, not 'filled-ness,' that drives binding energy. Choice (B), being more shielded, would push a peak the opposite direction — more shielding from other electrons weakens the nucleus's effective pull, making the electron easier to remove and shifting its peak to the right (lower binding energy), not the left. Choice (D), being farther from the nucleus, also produces the opposite effect — electrons farther out are held less tightly (lower binding energy) and appear farther right, the reverse of what's being asked."
     },
     {
       "id": "1-45",
@@ -667,7 +667,7 @@ const QUESTIONS = {
         "2p electrons have a different charge than 2s electrons."
       ],
       "correct": 1,
-      "explanation": "Within the same principal energy level, s orbitals penetrate closer to the nucleus than p orbitals, so 2s electrons spend more time near the nucleus and are held more tightly (higher binding energy); 2p electrons are farther out on average and experience some shielding from the 2s electrons, making them easier to remove (lower binding energy, a peak farther right). Choice (b) confuses the number of electrons a subshell can hold with how tightly those electrons are bound — a subshell having more electron 'slots' (2p can hold 6 vs. 2s's 2) says nothing directly about the binding energy of any individual electron in it. Choice (c) is simply factually wrong: 2s and 2p electrons carry the same charge (−1e, like all electrons); charge doesn't vary by subshell. Choice (d) is contradicted by the fact that this s-before-p binding energy ordering is a consistent, general pattern across essentially all multi-electron atoms, arising from orbital penetration and shielding — it isn't something that varies unpredictably element to element."
+      "explanation": "Within the same principal energy level, s orbitals penetrate closer to the nucleus than p orbitals, so 2s electrons spend more time near the nucleus and are held more tightly (higher binding energy); 2p electrons are farther out on average and experience some shielding from the 2s electrons, making them easier to remove (lower binding energy, a peak farther right). Choice (C) confuses the number of electrons a subshell can hold with how tightly those electrons are bound — a subshell having more electron 'slots' (2p can hold 6 vs. 2s's 2) says nothing directly about the binding energy of any individual electron in it. Choice (D) is simply factually wrong: 2s and 2p electrons carry the same charge (−1e, like all electrons); charge doesn't vary by subshell. Choice (A) is contradicted by the fact that this s-before-p binding energy ordering is a consistent, general pattern across essentially all multi-electron atoms, arising from orbital penetration and shielding — it isn't something that varies unpredictably element to element."
     },
     {
       "id": "1-47",
@@ -745,7 +745,7 @@ const QUESTIONS = {
         "Atomic radius increases, making electrons easier to remove."
       ],
       "correct": 1,
-      "explanation": "Across a period, electrons are added to the same outermost shell, so core-electron shielding barely changes while the number of protons (nuclear charge) steadily increases, raising the effective nuclear charge on the valence electrons and making them harder to remove — hence increasing ionization energy. Choice (a) has the shielding trend backward: shielding from core electrons stays roughly constant across a period (since no new inner shells are added), it doesn't increase — if it did increase enough to offset the added protons, ionization energy wouldn't rise at all. Choice (b) is simply false for a single period: the number of electron shells (the principal quantum number of the valence shell) stays the same all the way across a period; only the number of protons and valence electrons changes, not the shell count. Choice (d) is backward as well: atomic radius actually decreases across a period (due to the same rising effective nuclear charge), which pulls electrons in closer and makes them harder, not easier, to remove."
+      "explanation": "Across a period, electrons are added to the same outermost shell, so core-electron shielding barely changes while the number of protons (nuclear charge) steadily increases, raising the effective nuclear charge on the valence electrons and making them harder to remove — hence increasing ionization energy. Choice (A) has the shielding trend backward: shielding from core electrons stays roughly constant across a period (since no new inner shells are added), it doesn't increase — if it did increase enough to offset the added protons, ionization energy wouldn't rise at all. Choice (C) is simply false for a single period: the number of electron shells (the principal quantum number of the valence shell) stays the same all the way across a period; only the number of protons and valence electrons changes, not the shell count. Choice (D) is backward as well: atomic radius actually decreases across a period (due to the same rising effective nuclear charge), which pulls electrons in closer and makes them harder, not easier, to remove."
     },
     {
       "id": "1-53",
@@ -771,7 +771,7 @@ const QUESTIONS = {
         "Alkali metals do not have a measurable second ionization energy."
       ],
       "correct": 2,
-      "explanation": "After the single valence electron is removed, the alkali metal cation has a completely filled, noble-gas-like core. The next electron removed comes from that stable, tightly-held inner shell — much closer to the nucleus and far less shielded — requiring dramatically more energy. Choice (a) is backward: the cation being 'neutral' doesn't even make sense (it's positively charged, not neutral), and more importantly, the second electron isn't more strongly attracted because of some vague neutrality — it's more strongly attracted because it now comes from a much closer, less-shielded inner shell. Choice (b) is false — alkali metals absolutely have measurable (and well-documented) second ionization energies; they're just dramatically larger than the first, not undefined or unmeasurable. Choice (c) contradicts the very phenomenon the question is about: successive ionization energies are not roughly equal in general — the huge jump between IE₁ and IE₂ for alkali metals is the textbook example of just how unequal they can be, precisely because the second electron comes from a completely different (core) shell."
+      "explanation": "After the single valence electron is removed, the alkali metal cation has a completely filled, noble-gas-like core. The next electron removed comes from that stable, tightly-held inner shell — much closer to the nucleus and far less shielded — requiring dramatically more energy. Choice (A) is backward: the cation being 'neutral' doesn't even make sense (it's positively charged, not neutral), and more importantly, the second electron isn't more strongly attracted because of some vague neutrality — it's more strongly attracted because it now comes from a much closer, less-shielded inner shell. Choice (D) is false — alkali metals absolutely have measurable (and well-documented) second ionization energies; they're just dramatically larger than the first, not undefined or unmeasurable. Choice (B) contradicts the very phenomenon the question is about: successive ionization energies are not roughly equal in general — the huge jump between IE₁ and IE₂ for alkali metals is the textbook example of just how unequal they can be, precisely because the second electron comes from a completely different (core) shell."
     },
     {
       "id": "1-55",
@@ -1061,7 +1061,7 @@ const QUESTIONS = {
         "ΔEN has no relationship to bond type; only atomic size determines bond type."
       ],
       "correct": 0,
-      "explanation": "At ΔEN = 0 (identical atoms), electrons are shared exactly equally: nonpolar covalent. As ΔEN grows, sharing becomes increasingly unequal: polar covalent. At very large ΔEN (typically metal + nonmetal), electron transfer essentially occurs rather than sharing: ionic. Option (b) is wrong because ΔEN is in fact the central variable used to classify bond type, not an irrelevant one. Option (c) reverses the correct order, incorrectly placing ionic bonding at low ΔEN and nonpolar/polar covalent at higher ΔEN. Option (d) is wrong because it denies ΔEN any role at all — while metal/nonmetal identity is correlated with ΔEN, it's the electronegativity difference itself, not a categorical metal/nonmetal label, that actually drives the classification."
+      "explanation": "At ΔEN = 0 (identical atoms), electrons are shared exactly equally: nonpolar covalent. As ΔEN grows, sharing becomes increasingly unequal: polar covalent. At very large ΔEN (typically metal + nonmetal), electron transfer essentially occurs rather than sharing: ionic. Option (B) is wrong because ΔEN is in fact the central variable used to classify bond type, not an irrelevant one. Option (C) reverses the correct order, incorrectly placing ionic bonding at low ΔEN and nonpolar/polar covalent at higher ΔEN. Option (D) is wrong because it denies ΔEN any role at all — while metal/nonmetal identity is correlated with ΔEN, it's the electronegativity difference itself, not a categorical metal/nonmetal label, that actually drives the classification."
     },
     {
       "id": "2-9",
@@ -1074,7 +1074,7 @@ const QUESTIONS = {
         "Diamond is a 3D network of sp³ bonds; graphite is sp² sheets that slide past each other."
       ],
       "correct": 3,
-      "explanation": "Both are allotropes of pure carbon (same element, same valence electron count per atom), so composition alone can't explain the difference — structure does. Diamond's every carbon is sp³ hybridized, forming a rigid, 3D tetrahedral network of strong covalent bonds in all directions, making it extremely hard. Graphite's carbons are sp² hybridized in flat hexagonal sheets, with one delocalized electron per carbon free to move within a sheet (giving conductivity along the sheet) while the sheets themselves are held together only by weak forces, letting them slide past each other easily. Option (a) is wrong because both forms have exactly 4 valence electrons per carbon — that's not what differs. Option (c) is wrong because carbon-carbon bonds can't be ionic (ΔEN = 0 between identical atoms); diamond is purely covalent. Option (d) is wrong because it's actually reversed in spirit — graphite's in-plane bonding is covalent (with delocalized π electrons enabling conduction along the sheets), not true metallic bonding, while diamond is also entirely covalent, not exclusively so in a way that distinguishes it from graphite."
+      "explanation": "Both are allotropes of pure carbon (same element, same valence electron count per atom), so composition alone can't explain the difference — structure does. Diamond's every carbon is sp³ hybridized, forming a rigid, 3D tetrahedral network of strong covalent bonds in all directions, making it extremely hard. Graphite's carbons are sp² hybridized in flat hexagonal sheets, with one delocalized electron per carbon free to move within a sheet (giving conductivity along the sheet) while the sheets themselves are held together only by weak forces, letting them slide past each other easily. Option (B) is wrong because both forms have exactly 4 valence electrons per carbon — that's not what differs. Option (C) is wrong because carbon-carbon bonds can't be ionic (ΔEN = 0 between identical atoms); diamond is purely covalent. Option (A) is wrong because it's actually reversed in spirit — graphite's in-plane bonding is covalent (with delocalized π electrons enabling conduction along the sheets), not true metallic bonding, while diamond is also entirely covalent, not exclusively so in a way that distinguishes it from graphite."
     },
     {
       "id": "2-10",
@@ -1126,7 +1126,7 @@ const QUESTIONS = {
         "Bond length and bond strength are unrelated properties of a bond."
       ],
       "correct": 1,
-      "explanation": "Shorter bond length is a direct signal of higher bond order in this kind of comparison, and higher bond order corresponds to a stronger bond. N₂'s triple bond is indeed one of the strongest bonds known in chemistry, consistent with its short bond length. Option (a) reverses the true relationship — shorter bonds are stronger, not weaker. Option (c) is wrong because bond length and bond strength are directly related here through bond order, not unrelated. Option (d) is wrong because both bonds involve nitrogen, but they have different bond orders (triple vs. single), and it's the bond order — not merely which element is present — that determines strength."
+      "explanation": "Shorter bond length is a direct signal of higher bond order in this kind of comparison, and higher bond order corresponds to a stronger bond. N₂'s triple bond is indeed one of the strongest bonds known in chemistry, consistent with its short bond length. Option (A) reverses the true relationship — shorter bonds are stronger, not weaker. Option (D) is wrong because bond length and bond strength are directly related here through bond order, not unrelated. Option (C) is wrong because both bonds involve nitrogen, but they have different bond orders (triple vs. single), and it's the bond order — not merely which element is present — that determines strength."
     },
     {
       "id": "2-14",
@@ -1139,7 +1139,7 @@ const QUESTIONS = {
         "Distance between the two nuclei"
       ],
       "correct": 1,
-      "explanation": "A bond-formation potential energy diagram plots potential energy (y-axis) against internuclear distance (x-axis), showing energy decreasing as atoms approach, reaching a minimum at the bond length, then rising sharply if atoms get closer still. Option (a) mistakes the x-axis (distance) for the y-axis. Option (b) is wrong because total mass isn't graphed on this diagram at all — it's irrelevant to the potential energy curve. Option (d) confuses potential energy with kinetic energy; this diagram tracks the potential energy of the interacting system, not how fast the atoms are moving."
+      "explanation": "A bond-formation potential energy diagram plots potential energy (y-axis) against internuclear distance (x-axis), showing energy decreasing as atoms approach, reaching a minimum at the bond length, then rising sharply if atoms get closer still. Option (D) mistakes the x-axis (distance) for the y-axis. Option (A) is wrong because total mass isn't graphed on this diagram at all — it's irrelevant to the potential energy curve. Option (C) confuses potential energy with kinetic energy; this diagram tracks the potential energy of the interacting system, not how fast the atoms are moving."
     },
     {
       "id": "2-15",
@@ -1152,7 +1152,7 @@ const QUESTIONS = {
         "The C-O bond is likely shorter, since it has the higher bond energy."
       ],
       "correct": 3,
-      "explanation": "Within reasonable comparisons, higher bond energy correlates with shorter bond length — a stronger, tighter bond holds atoms closer together. Since C-O has a somewhat higher bond energy than C-C, it's reasonable to expect a somewhat shorter bond length as well (this also aligns with oxygen's smaller atomic radius compared to carbon, an independent confirming factor). Option (a) is wrong because bond energy does provide meaningful information about relative length in comparisons like this. Option (b) reverses the relationship: C-C, having the lower bond energy, should be the longer bond, not the shorter one. Option (d) is wrong because both being single bonds (same bond order) doesn't make them the same length — different elements still have different sizes and bond-energy values, which affect length."
+      "explanation": "Within reasonable comparisons, higher bond energy correlates with shorter bond length — a stronger, tighter bond holds atoms closer together. Since C-O has a somewhat higher bond energy than C-C, it's reasonable to expect a somewhat shorter bond length as well (this also aligns with oxygen's smaller atomic radius compared to carbon, an independent confirming factor). Option (B) is wrong because bond energy does provide meaningful information about relative length in comparisons like this. Option (C) reverses the relationship: C-C, having the lower bond energy, should be the longer bond, not the shorter one. Option (A) is wrong because both being single bonds (same bond order) doesn't make them the same length — different elements still have different sizes and bond-energy values, which affect length."
     },
     {
       "id": "2-16",
@@ -1165,7 +1165,7 @@ const QUESTIONS = {
         "O₂ < O₃ < single bond"
       ],
       "correct": 3,
-      "explanation": "O₂ has a bond order of 2 (double bond), ozone's O-O bonds each have an averaged bond order of 1.5 due to resonance, and a hypothetical single bond has bond order 1. Higher bond order means shorter bond length, so ranking from shortest to longest by decreasing bond order: O₂ (order 2) < O₃ (order 1.5) < single bond (order 1). Option (a) misorders O₃ and the single bond, placing the lower-bond-order single bond as shorter than the higher-bond-order O₃. Option (c) incorrectly puts O₃ as shortest, even though O₂'s bond order (2) is higher than O₃'s (1.5), so O₂ must be shorter. Option (d) fully inverts the relationship, treating the lowest bond order (single bond) as shortest and the highest (O₂) as longest."
+      "explanation": "O₂ has a bond order of 2 (double bond), ozone's O-O bonds each have an averaged bond order of 1.5 due to resonance, and a hypothetical single bond has bond order 1. Higher bond order means shorter bond length, so ranking from shortest to longest by decreasing bond order: O₂ (order 2) < O₃ (order 1.5) < single bond (order 1). Option (A) misorders O₃ and the single bond, placing the lower-bond-order single bond as shorter than the higher-bond-order O₃. Option (C) incorrectly puts O₃ as shortest, even though O₂'s bond order (2) is higher than O₃'s (1.5), so O₂ must be shorter. Option (B) fully inverts the relationship, treating the lowest bond order (single bond) as shortest and the highest (O₂) as longest."
     },
     {
       "id": "2-17",
@@ -1178,7 +1178,7 @@ const QUESTIONS = {
         "There is no real difference in the energy needed to break these two bond types."
       ],
       "correct": 0,
-      "explanation": "Each additional shared electron pair adds more electron density between the two nuclei, increasing the overall electrostatic attraction holding the bonded atoms together. A triple bond's three shared pairs create a deeper potential energy well (and a shorter, stronger bond) than a double bond's two pairs, so more energy input is required to overcome that stronger attraction. Option (b) is wrong because atomic size isn't what differs between a triple and double bond between the same two elements — the atoms are identical, only the number of shared pairs changes. Option (c) is actually backwards: triple bonds are shorter than double bonds, not longer, and the reasoning about 'stretching' isn't how bond dissociation energy is determined. Option (d) simply denies a real, well-established energy difference between bond orders."
+      "explanation": "Each additional shared electron pair adds more electron density between the two nuclei, increasing the overall electrostatic attraction holding the bonded atoms together. A triple bond's three shared pairs create a deeper potential energy well (and a shorter, stronger bond) than a double bond's two pairs, so more energy input is required to overcome that stronger attraction. Option (C) is wrong because atomic size isn't what differs between a triple and double bond between the same two elements — the atoms are identical, only the number of shared pairs changes. Option (B) is actually backwards: triple bonds are shorter than double bonds, not longer, and the reasoning about 'stretching' isn't how bond dissociation energy is determined. Option (D) simply denies a real, well-established energy difference between bond orders."
     },
     {
       "id": "2-18",
@@ -1191,7 +1191,7 @@ const QUESTIONS = {
         "Approximately 950 kJ/mol, since longer bonds are always stronger"
       ],
       "correct": 0,
-      "explanation": "Since XZ's bond is noticeably longer than XY's (1.42 Å vs. 1.20 Å), this pattern strongly suggests XZ has a lower bond order (likely a double or single bond compared to XY's likely triple bond) and correspondingly weaker overall attraction. This should translate to a substantially lower bond energy — a value in the 350–400 kJ/mol range is a reasonable estimate. Option (a) inverts the true relationship: longer bonds are weaker, not stronger, so ~950 kJ/mol (even higher than XY's own bond energy) is exactly backwards. Option (b) denies any relationship between bond length and bond energy at all, contradicting the well-established inverse correlation used throughout this unit. Option (d) is wrong because, while an exact value can't be calculated without more data, a reasonable qualitative estimate absolutely can be made from the observed trend.",
+      "explanation": "Since XZ's bond is noticeably longer than XY's (1.42 Å vs. 1.20 Å), this pattern strongly suggests XZ has a lower bond order (likely a double or single bond compared to XY's likely triple bond) and correspondingly weaker overall attraction. This should translate to a substantially lower bond energy — a value in the 350–400 kJ/mol range is a reasonable estimate. Option (D) inverts the true relationship: longer bonds are weaker, not stronger, so ~950 kJ/mol (even higher than XY's own bond energy) is exactly backwards. Option (B) denies any relationship between bond length and bond energy at all, contradicting the well-established inverse correlation used throughout this unit. Option (C) is wrong because, while an exact value can't be calculated without more data, a reasonable qualitative estimate absolutely can be made from the observed trend.",
       "stretch": true
     },
     {
@@ -1205,7 +1205,7 @@ const QUESTIONS = {
         "Strong electrostatic attractions throughout the lattice must all be overcome to melt it."
       ],
       "correct": 3,
-      "explanation": "Melting an ionic solid means disrupting the ordered lattice held together by electrostatic attraction between every neighboring pair of oppositely-charged ions, not just a single bond — this 'many strong attractions at once' situation requires a large energy input to overcome throughout the whole structure. Option (a) is wrong because ionic bonds involve electron transfer, not sharing — there are no shared electrons to separate. Option (c) is wrong because ionic solids aren't necessarily made of heavy atoms (LiF, for example, is light but still has a high melting point); atomic mass isn't the relevant factor. Option (d) reverses cause and effect — conductivity (which only occurs once melted or dissolved) doesn't require or explain the high melting point; the lattice's electrostatic strength does."
+      "explanation": "Melting an ionic solid means disrupting the ordered lattice held together by electrostatic attraction between every neighboring pair of oppositely-charged ions, not just a single bond — this 'many strong attractions at once' situation requires a large energy input to overcome throughout the whole structure. Option (B) is wrong because ionic bonds involve electron transfer, not sharing — there are no shared electrons to separate. Option (A) is wrong because ionic solids aren't necessarily made of heavy atoms (LiF, for example, is light but still has a high melting point); atomic mass isn't the relevant factor. Option (C) reverses cause and effect — conductivity (which only occurs once melted or dissolved) doesn't require or explain the high melting point; the lattice's electrostatic strength does."
     },
     {
       "id": "2-20",
@@ -1218,7 +1218,7 @@ const QUESTIONS = {
         "Ionic solids have a mobile, delocalized electron sea that simply cannot redistribute under stress."
       ],
       "correct": 2,
-      "explanation": "A small shift in an ionic lattice brings ions of the same charge into direct proximity, and the resulting strong electrostatic repulsion causes the crystal to fracture along that plane rather than deform smoothly. Option (b) is wrong because ionic bonds are actually quite strong (evidenced by high melting points), not weak — the brittleness comes from repulsion upon shifting, not from weak bonding. Option (c) describes metals, not ionic solids — ionic solids don't have a delocalized electron sea at all, so there's nothing to 'redistribute.' Option (d) is wrong because ionic solids do have a highly regular, repeating lattice structure; that regularity is exactly what makes the same-charge-ion-alignment mechanism possible when the lattice shifts."
+      "explanation": "A small shift in an ionic lattice brings ions of the same charge into direct proximity, and the resulting strong electrostatic repulsion causes the crystal to fracture along that plane rather than deform smoothly. Option (B) is wrong because ionic bonds are actually quite strong (evidenced by high melting points), not weak — the brittleness comes from repulsion upon shifting, not from weak bonding. Option (D) describes metals, not ionic solids — ionic solids don't have a delocalized electron sea at all, so there's nothing to 'redistribute.' Option (A) is wrong because ionic solids do have a highly regular, repeating lattice structure; that regularity is exactly what makes the same-charge-ion-alignment mechanism possible when the lattice shifts."
     },
     {
       "id": "2-21",
@@ -1231,7 +1231,7 @@ const QUESTIONS = {
         "Solid NaCl has no charged particles present anywhere in its structure."
       ],
       "correct": 2,
-      "explanation": "Conductivity requires mobile charge carriers. In solid NaCl, Na⁺ and Cl⁻ ions are locked into fixed lattice positions and cannot move to carry current. Melting breaks down the rigid lattice structure, freeing the ions to move and conduct electricity. Option (b) is wrong because NaCl is ionic, not metallic — it has no free electrons in either state; conduction here is via moving ions, not electrons. Option (c) is wrong because solid NaCl absolutely does contain charged particles (Na⁺ and Cl⁻); they're simply immobile, not absent. Option (d) is wrong because melting doesn't change NaCl's bonding type — it remains an ionic compound throughout, just with its lattice disrupted enough to free the ions."
+      "explanation": "Conductivity requires mobile charge carriers. In solid NaCl, Na⁺ and Cl⁻ ions are locked into fixed lattice positions and cannot move to carry current. Melting breaks down the rigid lattice structure, freeing the ions to move and conduct electricity. Option (B) is wrong because NaCl is ionic, not metallic — it has no free electrons in either state; conduction here is via moving ions, not electrons. Option (D) is wrong because solid NaCl absolutely does contain charged particles (Na⁺ and Cl⁻); they're simply immobile, not absent. Option (A) is wrong because melting doesn't change NaCl's bonding type — it remains an ionic compound throughout, just with its lattice disrupted enough to free the ions."
     },
     {
       "id": "2-22",
@@ -1244,7 +1244,7 @@ const QUESTIONS = {
         "Increasing the atomic mass of the ions without changing charge or radius"
       ],
       "correct": 2,
-      "explanation": "Lattice energy follows a Coulomb's-law-type relationship: it's proportional to the product of the ionic charges and inversely proportional to the distance between ion centers. Increasing charge has a large, direct effect on that product, which is why compounds with 2+/2− ion pairs (like MgO) have dramatically higher lattice energies than 1+/1− pairs (like NaCl) even at similar ionic radii. Option (a) is wrong because increasing radius while holding charge constant actually decreases lattice energy (greater separation weakens the attraction) — the opposite of what's asked. Option (c) is wrong because the number of ions in a formula unit isn't a direct factor in the simple pairwise Coulombic lattice energy relationship. Option (d) is wrong because atomic mass has no role in electrostatic lattice energy at all — that's an inertial/gravitational property, irrelevant to Coulomb's law."
+      "explanation": "Lattice energy follows a Coulomb's-law-type relationship: it's proportional to the product of the ionic charges and inversely proportional to the distance between ion centers. Increasing charge has a large, direct effect on that product, which is why compounds with 2+/2− ion pairs (like MgO) have dramatically higher lattice energies than 1+/1− pairs (like NaCl) even at similar ionic radii. Option (B) is wrong because increasing radius while holding charge constant actually decreases lattice energy (greater separation weakens the attraction) — the opposite of what's asked. Option (A) is wrong because the number of ions in a formula unit isn't a direct factor in the simple pairwise Coulombic lattice energy relationship. Option (D) is wrong because atomic mass has no role in electrostatic lattice energy at all — that's an inertial/gravitational property, irrelevant to Coulomb's law."
     },
     {
       "id": "2-23",
@@ -1257,7 +1257,7 @@ const QUESTIONS = {
         "NaCl > NaF > NaBr"
       ],
       "correct": 1,
-      "explanation": "All three compounds share the same cation (Na⁺) and the same ionic charges (1+/1−), so lattice energy depends only on ionic radius here — smaller ions pack closer together, giving stronger Coulombic attraction. Anion radius increases down Group 17 (F⁻ < Cl⁻ < Br⁻), so lattice energy decreases in that order: NaF (highest) > NaCl > NaBr (lowest). Option (a) is wrong because equal lattice energies would require equal ion sizes, but the anions here differ noticeably in radius. Option (c) incorrectly ranks NaCl above NaF, when F⁻ is actually the smallest anion and should give the highest lattice energy of the three. Option (d) fully inverts the correct order, treating the largest anion (Br⁻) as giving the strongest attraction when a larger ionic radius actually weakens it."
+      "explanation": "All three compounds share the same cation (Na⁺) and the same ionic charges (1+/1−), so lattice energy depends only on ionic radius here — smaller ions pack closer together, giving stronger Coulombic attraction. Anion radius increases down Group 17 (F⁻ < Cl⁻ < Br⁻), so lattice energy decreases in that order: NaF (highest) > NaCl > NaBr (lowest). Option (A) is wrong because equal lattice energies would require equal ion sizes, but the anions here differ noticeably in radius. Option (D) incorrectly ranks NaCl above NaF, when F⁻ is actually the smallest anion and should give the highest lattice energy of the three. Option (C) fully inverts the correct order, treating the largest anion (Br⁻) as giving the strongest attraction when a larger ionic radius actually weakens it."
     },
     {
       "id": "2-24",
@@ -1270,7 +1270,7 @@ const QUESTIONS = {
         "Yes, but only because calcium is a heavier element than potassium."
       ],
       "correct": 2,
-      "explanation": "Lattice energy is proportional to the product of ionic charges, so doubling both charges (from 1+/1− to 2+/2−) roughly quadruples the Coulombic attraction, a far bigger effect than any modest radius difference. This is exactly why CaO has a much higher melting point (2613°C) than KF (858°C), despite the ions being in a similar size range. Option (a) is wrong because similar radii don't force identical lattice energies — charge has an independent (and here dominant) effect that the radius similarity doesn't override. Option (b) misattributes the difference to atomic mass, which plays no role in electrostatic lattice energy; any correlation with calcium being heavier is coincidental, not causal. Option (d) incorrectly claims charge has no role at all, directly contradicted by the charge-product relationship that explains the real melting point data."
+      "explanation": "Lattice energy is proportional to the product of ionic charges, so doubling both charges (from 1+/1− to 2+/2−) roughly quadruples the Coulombic attraction, a far bigger effect than any modest radius difference. This is exactly why CaO has a much higher melting point (2613°C) than KF (858°C), despite the ions being in a similar size range. Option (B) is wrong because similar radii don't force identical lattice energies — charge has an independent (and here dominant) effect that the radius similarity doesn't override. Option (D) misattributes the difference to atomic mass, which plays no role in electrostatic lattice energy; any correlation with calcium being heavier is coincidental, not causal. Option (A) incorrectly claims charge has no role at all, directly contradicted by the charge-product relationship that explains the real melting point data."
     },
     {
       "id": "2-25",
@@ -1283,7 +1283,7 @@ const QUESTIONS = {
         "It dissolves readily in water at room temperature."
       ],
       "correct": 2,
-      "explanation": "This specific pattern — no conductivity as a solid, but conductivity once dissolved — is a direct signature of mobile ions being released into solution, which only happens for ionic compounds. Option (a) is wrong because dissolving alone isn't diagnostic — many molecular compounds (like sugar) dissolve in water without producing ions or conducting electricity. Option (b) is wrong because plenty of molecular solids (ice, sugar, etc.) are also solid at room temperature; this doesn't distinguish bonding type. Option (c) is wrong because color arises from electronic transitions unrelated to bond type — both ionic compounds (like colored transition-metal salts) and molecular compounds can be colored or colorless."
+      "explanation": "This specific pattern — no conductivity as a solid, but conductivity once dissolved — is a direct signature of mobile ions being released into solution, which only happens for ionic compounds. Option (D) is wrong because dissolving alone isn't diagnostic — many molecular compounds (like sugar) dissolve in water without producing ions or conducting electricity. Option (A) is wrong because plenty of molecular solids (ice, sugar, etc.) are also solid at room temperature; this doesn't distinguish bonding type. Option (B) is wrong because color arises from electronic transitions unrelated to bond type — both ionic compounds (like colored transition-metal salts) and molecular compounds can be colored or colorless."
     },
     {
       "id": "2-26",
@@ -1296,7 +1296,7 @@ const QUESTIONS = {
         "Ionic compounds boil and melt at exactly the same temperature."
       ],
       "correct": 2,
-      "explanation": "Melting only requires enough disruption of the lattice to allow ions to move past each other while still remaining close together (liquid phase); boiling requires fully separating individual ions into a gas phase, breaking essentially all remaining electrostatic attraction — an even larger energy requirement. Option (b) is wrong because ionic compounds absolutely do have measurable (typically very high) boiling points. Option (c) contradicts the entire premise connecting bonding type to physical properties throughout this unit. Option (d) is wrong because boiling always requires additional energy beyond melting — ionic compounds do not boil at the same temperature they melt."
+      "explanation": "Melting only requires enough disruption of the lattice to allow ions to move past each other while still remaining close together (liquid phase); boiling requires fully separating individual ions into a gas phase, breaking essentially all remaining electrostatic attraction — an even larger energy requirement. Option (B) is wrong because ionic compounds absolutely do have measurable (typically very high) boiling points. Option (A) contradicts the entire premise connecting bonding type to physical properties throughout this unit. Option (D) is wrong because boiling always requires additional energy beyond melting — ionic compounds do not boil at the same temperature they melt."
     },
     {
       "id": "2-27",
@@ -1309,7 +1309,7 @@ const QUESTIONS = {
         "Lattice energy depends on the difference between cation and anion radii, not their sum."
       ],
       "correct": 1,
-      "explanation": "Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r_cation + r_anion) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (b) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (c) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (d) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
+      "explanation": "Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r_cation + r_anion) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (D) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (A) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (C) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
     },
     {
       "id": "2-28",
@@ -1322,7 +1322,7 @@ const QUESTIONS = {
         "The protons located in each metal nucleus"
       ],
       "correct": 1,
-      "explanation": "In metallic bonding, each metal atom contributes its valence electrons to a shared, mobile pool (the 'sea') that surrounds a lattice of positive metal cations. Option (a) is wrong because the entire atom doesn't delocalize — only the valence electrons detach into the sea, while the atomic cores (nucleus plus core electrons) stay fixed in lattice positions. Option (b) is wrong because core electrons remain tightly bound to their own nucleus; they're not the electrons responsible for metallic bonding. Option (c) is wrong because protons never move or delocalize at all — nuclei stay fixed in place, so this option confuses subatomic particles with the actual mobile species (valence electrons)."
+      "explanation": "In metallic bonding, each metal atom contributes its valence electrons to a shared, mobile pool (the 'sea') that surrounds a lattice of positive metal cations. Option (A) is wrong because the entire atom doesn't delocalize — only the valence electrons detach into the sea, while the atomic cores (nucleus plus core electrons) stay fixed in lattice positions. Option (C) is wrong because core electrons remain tightly bound to their own nucleus; they're not the electrons responsible for metallic bonding. Option (D) is wrong because protons never move or delocalize at all — nuclei stay fixed in place, so this option confuses subatomic particles with the actual mobile species (valence electrons)."
     },
     {
       "id": "2-29",
@@ -1335,7 +1335,7 @@ const QUESTIONS = {
         "Metal atoms are generally smaller than the ions in ionic compounds."
       ],
       "correct": 1,
-      "explanation": "Ionic solids need their lattice to break down (melting or dissolving) before their ions can move and carry current. Metals don't have this restriction — their delocalized electrons are already mobile in the solid state itself. Option (b) is wrong because atomic/ionic size isn't the mechanism behind conductivity; smaller particles don't automatically conduct electricity. Option (c) is wrong because proton count (nuclear charge) is unrelated to conductivity — that's a property of the nucleus, not of mobile charge carriers. Option (d) is wrong because most metals are actually solids at room temperature (mercury being the notable exception), and being liquid wouldn't explain the conductivity mechanism anyway."
+      "explanation": "Ionic solids need their lattice to break down (melting or dissolving) before their ions can move and carry current. Metals don't have this restriction — their delocalized electrons are already mobile in the solid state itself. Option (D) is wrong because atomic/ionic size isn't the mechanism behind conductivity; smaller particles don't automatically conduct electricity. Option (C) is wrong because proton count (nuclear charge) is unrelated to conductivity — that's a property of the nucleus, not of mobile charge carriers. Option (A) is wrong because most metals are actually solids at room temperature (mercury being the notable exception), and being liquid wouldn't explain the conductivity mechanism anyway."
     },
     {
       "id": "2-30",
@@ -1348,7 +1348,7 @@ const QUESTIONS = {
         "Ions of opposite electrical charge"
       ],
       "correct": 2,
-      "explanation": "In a substitutional alloy, atoms of one metal directly take the place of atoms of the other within the same crystal lattice structure — this only works smoothly if the two atoms are similar enough in size that the lattice geometry isn't badly distorted. Option (a) is wrong because metal atoms in an alloy aren't charged ions; 'opposite charges' describes ionic bonding, not the metal-metal mixing seen in alloys. Option (b) is wrong because very different atomic radii actually favor an interstitial alloy instead, where smaller atoms fit into gaps rather than substituting — the opposite of what's needed here. Option (d) is wrong because identical melting points aren't required (or particularly relevant) to whether atoms can geometrically substitute for each other."
+      "explanation": "In a substitutional alloy, atoms of one metal directly take the place of atoms of the other within the same crystal lattice structure — this only works smoothly if the two atoms are similar enough in size that the lattice geometry isn't badly distorted. Option (D) is wrong because metal atoms in an alloy aren't charged ions; 'opposite charges' describes ionic bonding, not the metal-metal mixing seen in alloys. Option (B) is wrong because very different atomic radii actually favor an interstitial alloy instead, where smaller atoms fit into gaps rather than substituting — the opposite of what's needed here. Option (A) is wrong because identical melting points aren't required (or particularly relevant) to whether atoms can geometrically substitute for each other."
     },
     {
       "id": "2-31",
@@ -1361,7 +1361,7 @@ const QUESTIONS = {
         "The carbon atoms replace iron atoms directly in the lattice."
       ],
       "correct": 1,
-      "explanation": "Carbon atoms are much smaller than iron atoms, so rather than substituting for iron atoms in the lattice, they squeeze into the interstitial spaces (gaps) between the iron atoms. Option (b) is wrong because steel does have a regular structure — it's iron's crystal lattice with carbon fit into the gaps, not a disordered arrangement. Option (c) is wrong because carbon and iron don't form a separate ionic compound in steel; they aren't ions at all, and steel remains a metallic alloy. Option (d) directly describes the opposite type of alloy (substitutional, where atoms replace each other) rather than interstitial (where atoms fit into gaps), so it mismatches the term being defined."
+      "explanation": "Carbon atoms are much smaller than iron atoms, so rather than substituting for iron atoms in the lattice, they squeeze into the interstitial spaces (gaps) between the iron atoms. Option (C) is wrong because steel does have a regular structure — it's iron's crystal lattice with carbon fit into the gaps, not a disordered arrangement. Option (A) is wrong because carbon and iron don't form a separate ionic compound in steel; they aren't ions at all, and steel remains a metallic alloy. Option (D) directly describes the opposite type of alloy (substitutional, where atoms replace each other) rather than interstitial (where atoms fit into gaps), so it mismatches the term being defined."
     },
     {
       "id": "2-32",
@@ -1374,7 +1374,7 @@ const QUESTIONS = {
         "Adding carbon has no measurable effect on iron's mechanical properties."
       ],
       "correct": 1,
-      "explanation": "Pure metal malleability relies on layers of metal cations being able to slide past each other smoothly, with the electron sea simply flowing to accommodate the new arrangement. Interstitial carbon atoms sit in the gaps between iron atoms and physically interfere with that sliding motion, making the alloy harder and more resistant to deformation. Option (a) is wrong because carbon atoms don't replace or interact with the delocalized electrons directly — they physically occupy interstitial spaces in the lattice, unrelated to the electron sea itself. Option (c) is wrong because steel and pure iron have well-documented, quite different mechanical properties — the effect is far from negligible. Option (d) is wrong because steel remains held together by metallic bonding at its core; it isn't ionic — the carbon just mechanically interferes with layer sliding."
+      "explanation": "Pure metal malleability relies on layers of metal cations being able to slide past each other smoothly, with the electron sea simply flowing to accommodate the new arrangement. Interstitial carbon atoms sit in the gaps between iron atoms and physically interfere with that sliding motion, making the alloy harder and more resistant to deformation. Option (C) is wrong because carbon atoms don't replace or interact with the delocalized electrons directly — they physically occupy interstitial spaces in the lattice, unrelated to the electron sea itself. Option (D) is wrong because steel and pure iron have well-documented, quite different mechanical properties — the effect is far from negligible. Option (A) is wrong because steel remains held together by metallic bonding at its core; it isn't ionic — the carbon just mechanically interferes with layer sliding."
     },
     {
       "id": "2-33",
@@ -1400,7 +1400,7 @@ const QUESTIONS = {
         "Alloys are actually pure elements, not mixtures at all."
       ],
       "correct": 0,
-      "explanation": "An alloy is fundamentally a mixture (metal atoms physically combined, whether substitutionally or interstitially) rather than a chemical compound held together in a fixed stoichiometric ratio — this connects back to the mixture-vs-compound distinction from Unit 1. Option (a) is wrong because metal atoms absolutely do bond to each other in an alloy via metallic bonding; that's what holds the alloy together in the first place. Option (b) is wrong because the statement in the stem is true, not false — alloy composition genuinely can vary continuously, which is exactly why different grades of steel or brass exist. Option (d) is wrong because alloys are explicitly not pure elements; they combine two or more different metals (or a metal and a nonmetal, for interstitial alloys)."
+      "explanation": "An alloy is fundamentally a mixture (metal atoms physically combined, whether substitutionally or interstitially) rather than a chemical compound held together in a fixed stoichiometric ratio — this connects back to the mixture-vs-compound distinction from Unit 1. Option (C) is wrong because metal atoms absolutely do bond to each other in an alloy via metallic bonding; that's what holds the alloy together in the first place. Option (B) is wrong because the statement in the stem is true, not false — alloy composition genuinely can vary continuously, which is exactly why different grades of steel or brass exist. Option (D) is wrong because alloys are explicitly not pure elements; they combine two or more different metals (or a metal and a nonmetal, for interstitial alloys)."
     },
     {
       "id": "2-35",
@@ -1413,7 +1413,7 @@ const QUESTIONS = {
         "Metallic bonds are always stronger than ionic bonds, in every compound."
       ],
       "correct": 0,
-      "explanation": "Metallic bonding does involve real attractive forces (between the positive metal cations and the delocalized electron sea) strong enough to require substantial energy to overcome, giving metals generally high melting points — but this attraction is typically less concentrated and directional than the strong electrostatic pull in an ionic lattice, which is why many ionic compounds have even higher melting points than most metals. Option (a) is wrong because atomic mass alone doesn't determine melting point — bonding strength (electron count, radius) does, as shown by metals of similar mass having very different melting points. Option (c) is wrong because metallic bonds are not always stronger than ionic bonds; this directly contradicts the premise of the question, which states metals are generally lower-melting than ionic compounds. Option (d) is wrong because metals clearly do have significant bonding forces, evidenced by their being solids (often high-melting ones) at room temperature."
+      "explanation": "Metallic bonding does involve real attractive forces (between the positive metal cations and the delocalized electron sea) strong enough to require substantial energy to overcome, giving metals generally high melting points — but this attraction is typically less concentrated and directional than the strong electrostatic pull in an ionic lattice, which is why many ionic compounds have even higher melting points than most metals. Option (C) is wrong because atomic mass alone doesn't determine melting point — bonding strength (electron count, radius) does, as shown by metals of similar mass having very different melting points. Option (D) is wrong because metallic bonds are not always stronger than ionic bonds; this directly contradicts the premise of the question, which states metals are generally lower-melting than ionic compounds. Option (B) is wrong because metals clearly do have significant bonding forces, evidenced by their being solids (often high-melting ones) at room temperature."
     },
     {
       "id": "2-36",
@@ -1426,7 +1426,7 @@ const QUESTIONS = {
         "Tungsten is held together by ionic bonds, unlike metallic sodium."
       ],
       "correct": 0,
-      "explanation": "Metallic bond strength (and thus melting point) increases with the number of delocalized valence electrons per atom and decreases with atomic radius. Tungsten (a transition metal with several delocalized d and s electrons and a relatively small, dense atomic radius) has dramatically stronger metallic bonding than sodium (only 1 valence electron and a large atomic radius). Option (a) is wrong because both metals are held together by metallic bonding, as the question states — neither is ionic. Option (c) reverses the actual comparison: sodium has fewer valence electrons (1) than tungsten (several d and s electrons available for delocalization), not more. Option (d) is wrong because the huge melting point difference is fully explainable by differences in valence electron count and atomic radius — it isn't due to some unrelated, unexplained factor.",
+      "explanation": "Metallic bond strength (and thus melting point) increases with the number of delocalized valence electrons per atom and decreases with atomic radius. Tungsten (a transition metal with several delocalized d and s electrons and a relatively small, dense atomic radius) has dramatically stronger metallic bonding than sodium (only 1 valence electron and a large atomic radius). Option (D) is wrong because both metals are held together by metallic bonding, as the question states — neither is ionic. Option (C) reverses the actual comparison: sodium has fewer valence electrons (1) than tungsten (several d and s electrons available for delocalization), not more. Option (B) is wrong because the huge melting point difference is fully explainable by differences in valence electron count and atomic radius — it isn't due to some unrelated, unexplained factor.",
       "stretch": true
     },
     {
@@ -1505,7 +1505,7 @@ const QUESTIONS = {
         "H≡C-N, with 2 lone pairs on N"
       ],
       "correct": 1,
-      "explanation": "Total valence electrons: H(1) + C(4) + N(5) = 10. Hydrogen can only form 1 bond (never central), so carbon is central, bonded to both H and N; giving carbon and nitrogen each an octet requires a triple bond between C and N, with one lone pair left on nitrogen: H-C≡N. Option (a), H-N≡C, makes nitrogen — not carbon — the atom bonded to both H and the triple-bonded partner; but that gives nitrogen 4 total bonds (1 to H + a triple to C), which exceeds a neutral nitrogen's normal bonding capacity and produces a formal charge of +1 on nitrogen (with −1 on carbon) rather than the all-zero formal charges of the correct structure — an unfavorable, higher-energy arrangement. Option (c), H≡C-N, puts a triple bond directly on hydrogen, which is impossible: hydrogen has only one valence electron and one orbital, so it can never form more than a single bond. Option (d) adds a second hydrogen atom that doesn't exist in the molecular formula HCN (which has only one H), so it isn't even a valid structure for this molecule."
+      "explanation": "Total valence electrons: H(1) + C(4) + N(5) = 10. Hydrogen can only form 1 bond (never central), so carbon is central, bonded to both H and N; giving carbon and nitrogen each an octet requires a triple bond between C and N, with one lone pair left on nitrogen: H-C≡N. Option (C), H-N≡C, makes nitrogen — not carbon — the atom bonded to both H and the triple-bonded partner; but that gives nitrogen 4 total bonds (1 to H + a triple to C), which exceeds a neutral nitrogen's normal bonding capacity and produces a formal charge of +1 on nitrogen (with −1 on carbon) rather than the all-zero formal charges of the correct structure — an unfavorable, higher-energy arrangement. Option (D), H≡C-N, puts a triple bond directly on hydrogen, which is impossible: hydrogen has only one valence electron and one orbital, so it can never form more than a single bond. Option (A) adds a second hydrogen atom that doesn't exist in the molecular formula HCN (which has only one H), so it isn't even a valid structure for this molecule."
     },
     {
       "id": "2-43",
@@ -1544,7 +1544,7 @@ const QUESTIONS = {
         "sp³, 2 lone pairs, bent molecular geometry"
       ],
       "correct": 2,
-      "explanation": "Xenon has 8 valence electrons; forming 2 single bonds to fluorine uses 2 electrons, leaving 6 electrons (3 lone pairs) on Xe. That's 5 total electron groups, giving sp³d hybridization and a trigonal bipyramidal electron geometry, but with all 3 lone pairs equatorial, the two fluorines end up linear. Option (b) (sp³, 2 lone pairs, bent) actually describes water's electron arrangement (4 total electron groups), not Xe's 5. Option (c) (sp³d², 4 lone pairs, square planar) describes XeF₄'s arrangement (6 total electron groups), which has too many electron groups and lone pairs for XeF₂. Option (d) (sp, 0 lone pairs, linear) ignores Xe's 3 lone pairs entirely — that profile would only be correct for a central atom with no lone pairs at all, like Be in a hypothetical BeF₂."
+      "explanation": "Xenon has 8 valence electrons; forming 2 single bonds to fluorine uses 2 electrons, leaving 6 electrons (3 lone pairs) on Xe. That's 5 total electron groups, giving sp³d hybridization and a trigonal bipyramidal electron geometry, but with all 3 lone pairs equatorial, the two fluorines end up linear. Option (D) (sp³, 2 lone pairs, bent) actually describes water's electron arrangement (4 total electron groups), not Xe's 5. Option (A) (sp³d², 4 lone pairs, square planar) describes XeF₄'s arrangement (6 total electron groups), which has too many electron groups and lone pairs for XeF₂. Option (B) (sp, 0 lone pairs, linear) ignores Xe's 3 lone pairs entirely — that profile would only be correct for a central atom with no lone pairs at all, like Be in a hypothetical BeF₂."
     },
     {
       "id": "2-46",
@@ -1557,7 +1557,7 @@ const QUESTIONS = {
         "XeF₄ does not actually have any central atom at all."
       ],
       "correct": 2,
-      "explanation": "Xenon has 8 valence electrons (a full octet as a noble gas), and forming 4 single bonds to fluorine only uses 4 of those 8 electrons. The remaining 4 electrons must be placed as 2 lone pairs on xenon, giving an expanded 12-electron count consistent with square planar geometry. Option (b) is wrong because xenon absolutely can (and does) bond to fluorine — XeF₄ is a real, well-characterized compound, so a blanket denial is false. Option (c) is wrong because the original 0-lone-pair structure leaves 4 of xenon's 8 valence electrons completely unaccounted for, violating conservation of electrons — it is not correct as drawn. Option (d) is wrong because XeF₄ clearly does have a central atom (Xe), with the 4 fluorines bonded around it."
+      "explanation": "Xenon has 8 valence electrons (a full octet as a noble gas), and forming 4 single bonds to fluorine only uses 4 of those 8 electrons. The remaining 4 electrons must be placed as 2 lone pairs on xenon, giving an expanded 12-electron count consistent with square planar geometry. Option (A) is wrong because xenon absolutely can (and does) bond to fluorine — XeF₄ is a real, well-characterized compound, so a blanket denial is false. Option (B) is wrong because the original 0-lone-pair structure leaves 4 of xenon's 8 valence electrons completely unaccounted for, violating conservation of electrons — it is not correct as drawn. Option (D) is wrong because XeF₄ clearly does have a central atom (Xe), with the 4 fluorines bonded around it."
     },
     {
       "id": "2-47",
@@ -1583,7 +1583,7 @@ const QUESTIONS = {
         "Only one resonance structure is ever really correct; the others are purely hypothetical models."
       ],
       "correct": 0,
-      "explanation": "Resonance structures aren't different states the molecule switches between — they're different, incomplete attempts to represent one real, blended structure using the limitations of a single Lewis diagram. In NO₃⁻, all three N-O bonds are experimentally identical in length, intermediate between a single and double bond, exactly as the hybrid concept predicts. Option (b) is wrong because resonance is not the molecule physically flipping back and forth — it's a static, single structure that a 2D Lewis diagram just can't capture in one drawing. Option (c) is wrong because resonance structures depict the same molecule with the same atoms and connectivity, differing only in electron placement on paper. Option (d) is wrong because all valid resonance structures contribute to the real hybrid — it isn't a matter of picking one correct structure and discarding the rest."
+      "explanation": "Resonance structures aren't different states the molecule switches between — they're different, incomplete attempts to represent one real, blended structure using the limitations of a single Lewis diagram. In NO₃⁻, all three N-O bonds are experimentally identical in length, intermediate between a single and double bond, exactly as the hybrid concept predicts. Option (B) is wrong because resonance is not the molecule physically flipping back and forth — it's a static, single structure that a 2D Lewis diagram just can't capture in one drawing. Option (C) is wrong because resonance structures depict the same molecule with the same atoms and connectivity, differing only in electron placement on paper. Option (D) is wrong because all valid resonance structures contribute to the real hybrid — it isn't a matter of picking one correct structure and discarding the rest."
     },
     {
       "id": "2-49",
@@ -1596,7 +1596,7 @@ const QUESTIONS = {
         "A small negative formal charge sits on the most electronegative atom, with 0 charge elsewhere."
       ],
       "correct": 0,
-      "explanation": "The best Lewis structures minimize formal charge magnitudes overall and place any negative formal charge on the more electronegative atom. A structure with a positive charge on the most electronegative atom works directly against that atom's natural tendency to attract electrons, making this the least favorable arrangement. Option (a) (all zero) is actually the most favorable pattern, not the least. Option (b) (small negative charge on the most electronegative atom) is a perfectly reasonable, often favored structure — not a poor one. Option (d) (a single small negative formal charge on a terminal atom, balancing an ion's overall charge) is likewise a normal and often necessary arrangement, not particularly unfavorable, so neither of these fits 'least favorable' the way option (c) does."
+      "explanation": "The best Lewis structures minimize formal charge magnitudes overall and place any negative formal charge on the more electronegative atom. A structure with a positive charge on the most electronegative atom works directly against that atom's natural tendency to attract electrons, making this the least favorable arrangement. Option (C) (all zero) is actually the most favorable pattern, not the least. Option (D) (small negative charge on the most electronegative atom) is a perfectly reasonable, often favored structure — not a poor one. Option (B) (a single small negative formal charge on a terminal atom, balancing an ion's overall charge) is likewise a normal and often necessary arrangement, not particularly unfavorable, so neither of these fits 'least favorable' the way option (A) does."
     },
     {
       "id": "2-50",
@@ -1622,7 +1622,7 @@ const QUESTIONS = {
         "Neither structure is valid if formal charges differ between them."
       ],
       "correct": 1,
-      "explanation": "All else being equal, a Lewis structure with formal charges of zero everywhere is generally more stable (and a more significant contributor to the resonance hybrid) than one with nonzero formal charges, since minimizing charge separation typically corresponds to lower potential energy. Option (b) is wrong because contribution isn't always exactly equal — structures with lower formal charge magnitude generally dominate more; this is a case-dependent judgment, not a blanket rule of equality. Option (c) is wrong because structures with differing formal charges can both still be valid resonance contributors (Structure B here is still valid, just a minor one) — differing formal charges alone don't invalidate a structure. Option (d) is wrong because nonzero formal charges are not a requirement for valid resonance; Structure A, with all-zero formal charges, is a perfectly valid (and dominant) contributor."
+      "explanation": "All else being equal, a Lewis structure with formal charges of zero everywhere is generally more stable (and a more significant contributor to the resonance hybrid) than one with nonzero formal charges, since minimizing charge separation typically corresponds to lower potential energy. Option (C) is wrong because contribution isn't always exactly equal — structures with lower formal charge magnitude generally dominate more; this is a case-dependent judgment, not a blanket rule of equality. Option (D) is wrong because structures with differing formal charges can both still be valid resonance contributors (Structure B here is still valid, just a minor one) — differing formal charges alone don't invalidate a structure. Option (A) is wrong because nonzero formal charges are not a requirement for valid resonance; Structure A, with all-zero formal charges, is a perfectly valid (and dominant) contributor."
     },
     {
       "id": "2-52",
@@ -1635,7 +1635,7 @@ const QUESTIONS = {
         "Formal charge has no bearing on which resonance structure to draw for SO₄²⁻."
       ],
       "correct": 2,
-      "explanation": "The all-single-bond structure for SO₄²⁻ does satisfy the total charge and electron count, but places relatively high formal charges (S: +2, each O: −1) on the atoms; introducing S=O double bonds lowers these magnitudes but requires sulfur to exceed a standard octet. Option (a) is wrong because there is a genuine, well-documented tradeoff between minimizing formal charge and requiring an expanded octet — it isn't a free choice. Option (c) is wrong because the all-single-bond structure is a valid Lewis structure (correct electron count and correct total charge); it's simply less favorable by formal charge criteria, not invalid. Option (d) is wrong because formal charge is explicitly the criterion being used here to weigh one resonance structure against another, so claiming it has no bearing directly contradicts the premise of the question."
+      "explanation": "The all-single-bond structure for SO₄²⁻ does satisfy the total charge and electron count, but places relatively high formal charges (S: +2, each O: −1) on the atoms; introducing S=O double bonds lowers these magnitudes but requires sulfur to exceed a standard octet. Option (A) is wrong because there is a genuine, well-documented tradeoff between minimizing formal charge and requiring an expanded octet — it isn't a free choice. Option (B) is wrong because the all-single-bond structure is a valid Lewis structure (correct electron count and correct total charge); it's simply less favorable by formal charge criteria, not invalid. Option (D) is wrong because formal charge is explicitly the criterion being used here to weigh one resonance structure against another, so claiming it has no bearing directly contradicts the premise of the question."
     },
     {
       "id": "2-53",
@@ -1661,7 +1661,7 @@ const QUESTIONS = {
         "Ozone fails to satisfy the octet rule under any possible Lewis structure."
       ],
       "correct": 1,
-      "explanation": "Any single Lewis structure for ozone necessarily shows one O-O bond as a double bond and the other as a single bond — but real, experimental measurements show both O-O bonds are identical in length, roughly halfway between a single and double bond. Averaging two equivalent Lewis structures correctly captures this observed symmetry that neither individual structure can represent alone. Option (b) is wrong because ozone does satisfy the octet rule just fine in each individual resonance structure — every atom has a complete octet; the issue is which single structure to draw, not an octet violation. Option (c) is wrong because ozone absolutely has valid Lewis structures — in fact, two equivalent ones that need to be considered together. Option (d) is wrong because resonance is a general phenomenon that applies to covalent species too (as also seen with nitrate and formate); it is not restricted to ionic compounds."
+      "explanation": "Any single Lewis structure for ozone necessarily shows one O-O bond as a double bond and the other as a single bond — but real, experimental measurements show both O-O bonds are identical in length, roughly halfway between a single and double bond. Averaging two equivalent Lewis structures correctly captures this observed symmetry that neither individual structure can represent alone. Option (D) is wrong because ozone does satisfy the octet rule just fine in each individual resonance structure — every atom has a complete octet; the issue is which single structure to draw, not an octet violation. Option (A) is wrong because ozone absolutely has valid Lewis structures — in fact, two equivalent ones that need to be considered together. Option (C) is wrong because resonance is a general phenomenon that applies to covalent species too (as also seen with nitrate and formate); it is not restricted to ionic compounds."
     },
     {
       "id": "2-55",
@@ -1674,7 +1674,7 @@ const QUESTIONS = {
         "Both C-O bonds will be identical, with intermediate bond lengths and a bond order of 1.5 each."
       ],
       "correct": 3,
-      "explanation": "Because the two resonance structures of formate are equivalent to each other (related simply by swapping which oxygen carries the double bond, with identical formal charges in both), they contribute equally to the true resonance hybrid. This predicts — and experiment confirms — that both C-O bonds are identical, each with a bond order of 1.5 and identical, intermediate bond lengths. Option (b) is wrong because a full double bond on one oxygen and a full single bond on the other is exactly the (incomplete) picture that any single resonance structure alone would suggest — the hybrid concept specifically corrects this oversimplification. Option (c) is wrong because both resonance structures of formate are valid and contribute equally, given their formal-charge equivalence; dismissing one as invalid ignores that symmetry. Option (d) is wrong because the comparison can absolutely be made using the resonance/formal-charge symmetry argument — 'cannot be compared' sidesteps the actual reasoning available here.",
+      "explanation": "Because the two resonance structures of formate are equivalent to each other (related simply by swapping which oxygen carries the double bond, with identical formal charges in both), they contribute equally to the true resonance hybrid. This predicts — and experiment confirms — that both C-O bonds are identical, each with a bond order of 1.5 and identical, intermediate bond lengths. Option (A) is wrong because a full double bond on one oxygen and a full single bond on the other is exactly the (incomplete) picture that any single resonance structure alone would suggest — the hybrid concept specifically corrects this oversimplification. Option (C) is wrong because both resonance structures of formate are valid and contribute equally, given their formal-charge equivalence; dismissing one as invalid ignores that symmetry. Option (B) is wrong because the comparison can absolutely be made using the resonance/formal-charge symmetry argument — 'cannot be compared' sidesteps the actual reasoning available here.",
       "stretch": true
     },
     {
@@ -1727,7 +1727,7 @@ const QUESTIONS = {
         "Nitrogen is simply a smaller atom than carbon is."
       ],
       "correct": 2,
-      "explanation": "Both NH₃ and CH₄ have 4 total electron groups (tetrahedral electron geometry), but NH₃ has one lone pair replacing one of CH₄'s bonding pairs. Lone pairs are held closer to the central atom's nucleus and occupy more angular space, exerting greater repulsion on neighboring electron groups than a bonding pair would, compressing the observed bond angle. Option (a) is wrong because atomic size differences between N and C aren't the mechanism causing this angle change — it's about lone pair vs. bonding pair repulsion, not atomic radius. Option (c) is wrong because both molecules actually have the same total number of electron groups (4); the difference is how many of those groups are lone pairs versus bonding pairs. Option (d) is wrong because the angles are measurably, well-documented as different (107° vs. 109.5°), not identical."
+      "explanation": "Both NH₃ and CH₄ have 4 total electron groups (tetrahedral electron geometry), but NH₃ has one lone pair replacing one of CH₄'s bonding pairs. Lone pairs are held closer to the central atom's nucleus and occupy more angular space, exerting greater repulsion on neighboring electron groups than a bonding pair would, compressing the observed bond angle. Option (D) is wrong because atomic size differences between N and C aren't the mechanism causing this angle change — it's about lone pair vs. bonding pair repulsion, not atomic radius. Option (A) is wrong because both molecules actually have the same total number of electron groups (4); the difference is how many of those groups are lone pairs versus bonding pairs. Option (B) is wrong because the angles are measurably, well-documented as different (107° vs. 109.5°), not identical."
     },
     {
       "id": "2-60",
@@ -1740,7 +1740,7 @@ const QUESTIONS = {
         "Electron geometry: trigonal bipyramidal; molecular geometry: trigonal pyramidal"
       ],
       "correct": 2,
-      "explanation": "With 5 total electron groups (3 bonding + 2 lone pairs), the electron geometry is trigonal bipyramidal (sp³d hybridization). The two lone pairs preferentially occupy equatorial positions, leaving the 3 bonded fluorines in a T-shaped molecular geometry. Option (a) (tetrahedral/bent) describes a central atom with only 4 total electron groups (like water), not ClF₃'s 5. Option (b) (octahedral/square planar) describes 6 total electron groups (4 bonding + 2 lone pairs, as in XeF₄), not ClF₃'s 5. Option (d) correctly identifies the trigonal bipyramidal electron geometry but pairs it with 'trigonal pyramidal' molecular geometry, which actually describes a different lone-pair arrangement (3 bonding + 1 lone pair in a tetrahedral electron geometry, as in NH₃) — not the T-shaped result that comes from ClF₃'s 3 bonding + 2 lone pairs in a trigonal bipyramidal arrangement."
+      "explanation": "With 5 total electron groups (3 bonding + 2 lone pairs), the electron geometry is trigonal bipyramidal (sp³d hybridization). The two lone pairs preferentially occupy equatorial positions, leaving the 3 bonded fluorines in a T-shaped molecular geometry. Option (B) (tetrahedral/bent) describes a central atom with only 4 total electron groups (like water), not ClF₃'s 5. Option (A) (octahedral/square planar) describes 6 total electron groups (4 bonding + 2 lone pairs, as in XeF₄), not ClF₃'s 5. Option (D) correctly identifies the trigonal bipyramidal electron geometry but pairs it with 'trigonal pyramidal' molecular geometry, which actually describes a different lone-pair arrangement (3 bonding + 1 lone pair in a tetrahedral electron geometry, as in NH₃) — not the T-shaped result that comes from ClF₃'s 3 bonding + 2 lone pairs in a trigonal bipyramidal arrangement."
     },
     {
       "id": "2-61",
@@ -1753,7 +1753,7 @@ const QUESTIONS = {
         "There is no real preference at all; lone pair placement is essentially random."
       ],
       "correct": 0,
-      "explanation": "In a trigonal bipyramidal arrangement, axial positions have 3 close 90° neighbors while equatorial positions only have 2, and since repulsion is strongest at smaller angles, placing lone pairs equatorially minimizes the number of strong 90°-type repulsions overall. Option (b) is wrong because axial and equatorial positions are actually the same distance from the central nucleus — this is about angular neighbor arrangement, not radial distance from the atom. Option (c) is wrong because there is a clear, well-documented preference (equatorial placement), not a random one. Option (d) is wrong because formal charge has nothing to do with equatorial versus axial site selection — this is purely a matter of minimizing electron-pair repulsion, unrelated to charge bookkeeping."
+      "explanation": "In a trigonal bipyramidal arrangement, axial positions have 3 close 90° neighbors while equatorial positions only have 2, and since repulsion is strongest at smaller angles, placing lone pairs equatorially minimizes the number of strong 90°-type repulsions overall. Option (B) is wrong because axial and equatorial positions are actually the same distance from the central nucleus — this is about angular neighbor arrangement, not radial distance from the atom. Option (D) is wrong because there is a clear, well-documented preference (equatorial placement), not a random one. Option (C) is wrong because formal charge has nothing to do with equatorial versus axial site selection — this is purely a matter of minimizing electron-pair repulsion, unrelated to charge bookkeeping."
     },
     {
       "id": "2-62",
@@ -1805,7 +1805,7 @@ const QUESTIONS = {
         "The two lone pairs sit opposite each other, leaving fluorines symmetric so bond dipoles cancel."
       ],
       "correct": 3,
-      "explanation": "With 6 total electron groups (4 bonding + 2 lone pairs), the electron geometry is octahedral. To minimize repulsion, the 2 lone pairs occupy positions directly across from each other (180° apart), leaving the 4 fluorine atoms in a perfectly symmetric square planar molecular geometry, so the four individual (genuinely polar) Xe-F bond dipoles cancel exactly in pairs, giving zero net dipole. Option (b) is wrong because lone pairs absolutely do affect molecular polarity — they determine the molecular geometry, which is precisely what governs whether bond dipoles cancel. Option (c) is wrong because Xe and F do not have identical electronegativity; real, nonzero bond dipoles exist within each Xe-F bond, they just cancel overall due to symmetry. Option (d) is wrong because the premise (that XeF₄ is nonpolar) is experimentally correct, so denying it contradicts well-established fact.",
+      "explanation": "With 6 total electron groups (4 bonding + 2 lone pairs), the electron geometry is octahedral. To minimize repulsion, the 2 lone pairs occupy positions directly across from each other (180° apart), leaving the 4 fluorine atoms in a perfectly symmetric square planar molecular geometry, so the four individual (genuinely polar) Xe-F bond dipoles cancel exactly in pairs, giving zero net dipole. Option (B) is wrong because lone pairs absolutely do affect molecular polarity — they determine the molecular geometry, which is precisely what governs whether bond dipoles cancel. Option (C) is wrong because Xe and F do not have identical electronegativity; real, nonzero bond dipoles exist within each Xe-F bond, they just cancel overall due to symmetry. Option (A) is wrong because the premise (that XeF₄ is nonpolar) is experimentally correct, so denying it contradicts well-established fact.",
       "stretch": true
     },
     {
@@ -1819,7 +1819,7 @@ const QUESTIONS = {
         "4σ and 1π"
       ],
       "correct": 2,
-      "explanation": "Every bond, regardless of how many lines it's drawn with, contributes exactly one σ bond, and only the bonds beyond the first line of a multiple bond contribute π bonds. Ethylene has 5 total bonds: 4 C-H single bonds (each 1σ, so 4σ total) plus 1 C=C double bond (1σ + 1π). Adding the σ bonds: 4 (from C-H) + 1 (from C=C) = 5σ. Adding the π bonds: 0 (from C-H, single bonds have none) + 1 (from C=C) = 1π. So ethylene has 5σ and 1π bonds overall — (a) undercounts the σ bonds by leaving out one of the C-H bonds, (c) overcounts the π bonds by treating the double bond as contributing 2π instead of 1, and (d) incorrectly ignores the π bond of the double bond entirely."
+      "explanation": "Every bond, regardless of how many lines it's drawn with, contributes exactly one σ bond, and only the bonds beyond the first line of a multiple bond contribute π bonds. Ethylene has 5 total bonds: 4 C-H single bonds (each 1σ, so 4σ total) plus 1 C=C double bond (1σ + 1π). Adding the σ bonds: 4 (from C-H) + 1 (from C=C) = 5σ. Adding the π bonds: 0 (from C-H, single bonds have none) + 1 (from C=C) = 1π. So ethylene has 5σ and 1π bonds overall — (D) undercounts the σ bonds by leaving out one of the C-H bonds, (A) overcounts the π bonds by treating the double bond as contributing 2π instead of 1, and (B) incorrectly ignores the π bond of the double bond entirely."
     },
     {
       "id": "2-77",
@@ -1832,7 +1832,7 @@ const QUESTIONS = {
         "3σ and 2π"
       ],
       "correct": 3,
-      "explanation": "Acetylene has 3 total bonds: 2 C-H single bonds (each contributing 1σ, so 2σ total) plus 1 C≡C triple bond, which contributes exactly 1σ + 2π (a triple bond is always 1σ plus 2 extra π bonds beyond the first line). Adding the σ bonds: 2 (from C-H) + 1 (from C≡C) = 3σ. Adding the π bonds: 0 (from C-H) + 2 (from C≡C) = 2π. So acetylene has 3σ and 2π bonds overall. (a) is wrong because it ignores that a triple bond contains any π bonds at all. (b) is wrong because it undercounts the σ bonds — every one of the 3 total bonds (including the triple bond) contributes exactly one σ bond, giving 3σ, not 2σ. (d) is wrong because it miscounts the triple bond as contributing 3π instead of 2."
+      "explanation": "Acetylene has 3 total bonds: 2 C-H single bonds (each contributing 1σ, so 2σ total) plus 1 C≡C triple bond, which contributes exactly 1σ + 2π (a triple bond is always 1σ plus 2 extra π bonds beyond the first line). Adding the σ bonds: 2 (from C-H) + 1 (from C≡C) = 3σ. Adding the π bonds: 0 (from C-H) + 2 (from C≡C) = 2π. So acetylene has 3σ and 2π bonds overall. (C) is wrong because it ignores that a triple bond contains any π bonds at all. (A) is wrong because it undercounts the σ bonds — every one of the 3 total bonds (including the triple bond) contributes exactly one σ bond, giving 3σ, not 2σ. (B) is wrong because it miscounts the triple bond as contributing 3π instead of 2."
     },
     {
       "id": "2-78",
@@ -1845,7 +1845,7 @@ const QUESTIONS = {
         "2σ and 1π"
       ],
       "correct": 0,
-      "explanation": "Formaldehyde has 3 total bonds between atoms: 2 C-H single bonds (each 1σ, so 2σ total) plus 1 C=O double bond (1σ + 1π). Lone pairs on oxygen aren't bonds at all, so they don't add to either count. Adding the σ bonds: 2 (from C-H) + 1 (from C=O) = 3σ. Adding the π bonds: 0 (from C-H) + 1 (from C=O) = 1π. So formaldehyde has 3σ and 1π bonds overall. (b) is wrong because it ignores the π bond that the C=O double bond contributes. (c) is wrong because it undercounts the σ bonds, missing one of the two C-H bonds. (d) is wrong because it overcounts the π bonds, treating the double bond as if it were a triple bond (1σ + 2π) instead of a double bond (1σ + 1π)."
+      "explanation": "Formaldehyde has 3 total bonds between atoms: 2 C-H single bonds (each 1σ, so 2σ total) plus 1 C=O double bond (1σ + 1π). Lone pairs on oxygen aren't bonds at all, so they don't add to either count. Adding the σ bonds: 2 (from C-H) + 1 (from C=O) = 3σ. Adding the π bonds: 0 (from C-H) + 1 (from C=O) = 1π. So formaldehyde has 3σ and 1π bonds overall. (B) is wrong because it ignores the π bond that the C=O double bond contributes. (C) is wrong because it undercounts the σ bonds, missing one of the two C-H bonds. (D) is wrong because it overcounts the π bonds, treating the double bond as if it were a triple bond (1σ + 2π) instead of a double bond (1σ + 1π)."
     }
   ],
   "3": [
@@ -3167,7 +3167,7 @@ const QUESTIONS = {
         "4, 6, 2"
       ],
       "correct": 2,
-      "explanation": "Balance Al: 4 Al needed for 2 Al₂O₃. Balance O: 2 Al₂O₃ has 6 O total, requiring 3 O₂. Final: 4Al + 3O₂ → 2Al₂O₃ (Al: 4=4; O: 6=6). (b) 4,6,2 keeps Al balanced but doubles the O₂ needed (12 O supplied vs. only 6 required). (c) 2,3,1 balances Al (2=2) but leaves O unbalanced (6 supplied vs. 3 needed) — it's just half of the correct set applied inconsistently. (d) 1,1,1 fails on both elements (1 Al vs. 2, 2 O vs. 3) and isn't balanced at all."
+      "explanation": "Balance Al: 4 Al needed for 2 Al₂O₃. Balance O: 2 Al₂O₃ has 6 O total, requiring 3 O₂. Final: 4Al + 3O₂ → 2Al₂O₃ (Al: 4=4; O: 6=6). (D) 4,6,2 keeps Al balanced but doubles the O₂ needed (12 O supplied vs. only 6 required). (A) 2,3,1 balances Al (2=2) but leaves O unbalanced (6 supplied vs. 3 needed) — it's just half of the correct set applied inconsistently. (B) 1,1,1 fails on both elements (1 Al vs. 2, 2 O vs. 3) and isn't balanced at all."
     },
     {
       "id": "4-2",
@@ -3180,7 +3180,7 @@ const QUESTIONS = {
         "1, 13, 4, 5"
       ],
       "correct": 1,
-      "explanation": "Balance C: 2 C₄H₁₀ → 8 CO₂ (8 C each side). Balance H: 2 C₄H₁₀ (20 H) → 10 H₂O (20 H). Balance O: 8 CO₂ (16 O) + 10 H₂O (10 O) = 26 O, requiring 13 O₂. Final: 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. (a)'s leading set 1,6,4,5 balances C and H but leaves O short (12 supplied vs. 13 needed) — the '2,13,8,10' tacked onto the answer text doesn't make the listed 1,6,4,5 set itself balanced. (c) 1,13,4,5 balances C and H but supplies far too much O₂ (26 O vs. the 17 actually needed for that scale). (d) 2,6,8,5 balances C and O but not H (20 H from C₄H₁₀ vs. only 10 H delivered by 5 H₂O)."
+      "explanation": "Balance C: 2 C₄H₁₀ → 8 CO₂ (8 C each side). Balance H: 2 C₄H₁₀ (20 H) → 10 H₂O (20 H). Balance O: 8 CO₂ (16 O) + 10 H₂O (10 O) = 26 O, requiring 13 O₂. Final: 2C₄H₁₀ + 13O₂ → 8CO₂ + 10H₂O. (A)'s leading set 1,6,4,5 balances C and H but leaves O short (12 supplied vs. 13 needed) — the '2,13,8,10' tacked onto the answer text doesn't make the listed 1,6,4,5 set itself balanced. (D) 1,13,4,5 balances C and H but supplies far too much O₂ (26 O vs. the 17 actually needed for that scale). (C) 2,6,8,5 balances C and O but not H (20 H from C₄H₁₀ vs. only 10 H delivered by 5 H₂O)."
     },
     {
       "id": "4-3",
@@ -3193,7 +3193,7 @@ const QUESTIONS = {
         "Only coefficients can be changed to balance an equation, not subscripts."
       ],
       "correct": 3,
-      "explanation": "Only coefficients — the multipliers placed in front of whole formulas — can be changed; they preserve each compound's identity while adjusting relative amounts. (a) is wrong because changing a subscript changes what the substance actually is (H₂O → H₂O₂ turns water into hydrogen peroxide, a different compound with different properties), which would misrepresent the reaction rather than balance it. (c) is wrong because conservation of atoms applies to every reaction, not just gas-phase ones. (d) is wrong because balancing conserves atoms of each element, not the total count of molecules — a reaction can and often does have different numbers of molecules on each side even when perfectly balanced."
+      "explanation": "Only coefficients — the multipliers placed in front of whole formulas — can be changed; they preserve each compound's identity while adjusting relative amounts. (A) is wrong because changing a subscript changes what the substance actually is (H₂O → H₂O₂ turns water into hydrogen peroxide, a different compound with different properties), which would misrepresent the reaction rather than balance it. (B) is wrong because conservation of atoms applies to every reaction, not just gas-phase ones. (C) is wrong because balancing conserves atoms of each element, not the total count of molecules — a reaction can and often does have different numbers of molecules on each side even when perfectly balanced."
     },
     {
       "id": "4-4",
@@ -3206,7 +3206,7 @@ const QUESTIONS = {
         "2, 3, 1"
       ],
       "correct": 2,
-      "explanation": "Balance Fe: 4 Fe for 2 Fe₂O₃. Balance O: 2 Fe₂O₃ has 6 O, requiring 3 O₂. Final: 4Fe + 3O₂ → 2Fe₂O₃ (Fe: 4=4; O: 6=6). (b) 2,3,1 balances Fe (2=2) but not O (6 supplied vs. only 3 needed). (c) 1,1,1 balances neither Fe (1 vs. 2) nor O (2 vs. 3). (d) 4,6,2 balances Fe (4=4) but doubles the required O₂ (12 O supplied vs. 6 needed)."
+      "explanation": "Balance Fe: 4 Fe for 2 Fe₂O₃. Balance O: 2 Fe₂O₃ has 6 O, requiring 3 O₂. Final: 4Fe + 3O₂ → 2Fe₂O₃ (Fe: 4=4; O: 6=6). (D) 2,3,1 balances Fe (2=2) but not O (6 supplied vs. only 3 needed). (A) 1,1,1 balances neither Fe (1 vs. 2) nor O (2 vs. 3). (B) 4,6,2 balances Fe (4=4) but doubles the required O₂ (12 O supplied vs. 6 needed)."
     },
     {
       "id": "4-5",
@@ -3219,7 +3219,7 @@ const QUESTIONS = {
         "The number of molecules on each side"
       ],
       "correct": 2,
-      "explanation": "Balancing reflects conservation of mass at the atomic level: the number of atoms of each specific element must match on both sides, which in turn guarantees total mass is conserved. (a) is too narrow — atom counts must balance for solids and liquids too, not just gas-phase species, and 'moles of gas' isn't even the conserved quantity for those. (b) is wrong because physical state isn't a conservation requirement at all — a reactant can be a gas and a product a solid. (c) is wrong because the total number of molecules is not required to match (e.g., two reactant molecules can combine into one product molecule); it's atoms per element, not molecule count, that's fixed."
+      "explanation": "Balancing reflects conservation of mass at the atomic level: the number of atoms of each specific element must match on both sides, which in turn guarantees total mass is conserved. (B) is too narrow — atom counts must balance for solids and liquids too, not just gas-phase species, and 'moles of gas' isn't even the conserved quantity for those. (A) is wrong because physical state isn't a conservation requirement at all — a reactant can be a gas and a product a solid. (D) is wrong because the total number of molecules is not required to match (e.g., two reactant molecules can combine into one product molecule); it's atoms per element, not molecule count, that's fixed."
     },
     {
       "id": "4-6",
@@ -3232,7 +3232,7 @@ const QUESTIONS = {
         "4, 5, 2"
       ],
       "correct": 0,
-      "explanation": "Balance P: 1 P₄ gives 4 P, requiring 2 P₂O₅ (2×2=4 P). Balance O: 2 P₂O₅ has 10 O, requiring 5 O₂. Final, lowest whole-number equation: P₄ + 5O₂ → 2P₂O₅, i.e., 1, 5, 2. (a) 1,10,4 balances P poorly (4 P vs. 4×2=8 P from 4 P₂O₅) and massively overshoots O (20 O supplied vs. 20 needed for that scale — actually the P mismatch alone rules it out). (c) 4,5,2 gives 16 P from P₄ but only 4 P worth of product, a 4:1 P mismatch. (d) 2,5,4 conserves P (8=8) but not O (10 supplied vs. 20 needed for 4 P₂O₅)."
+      "explanation": "Balance P: 1 P₄ gives 4 P, requiring 2 P₂O₅ (2×2=4 P). Balance O: 2 P₂O₅ has 10 O, requiring 5 O₂. Final, lowest whole-number equation: P₄ + 5O₂ → 2P₂O₅, i.e., 1, 5, 2. (B) 1,10,4 balances P poorly (4 P vs. 4×2=8 P from 4 P₂O₅) and massively overshoots O (20 O supplied vs. 20 needed for that scale — actually the P mismatch alone rules it out). (D) 4,5,2 gives 16 P from P₄ but only 4 P worth of product, a 4:1 P mismatch. (C) 2,5,4 conserves P (8=8) but not O (10 supplied vs. 20 needed for 4 P₂O₅)."
     },
     {
       "id": "4-7",
@@ -3245,7 +3245,7 @@ const QUESTIONS = {
         "2, 15, 14, 6"
       ],
       "correct": 3,
-      "explanation": "C₆H₅COOH is C₇H₆O₂: 7 C, 6 H, and 2 O already in the molecule (this extra oxygen source is what makes this harder than a typical combustion). Doubling to clear fractions: 2 C₇H₆O₂ needs 14 CO₂ (14 C) and 6 H₂O (12 H); total O required = 14×2 + 6 = 34, minus the 2×2=4 O already supplied by the acid itself, leaves 30 O from O₂, i.e. 15 O₂. Final: 2C₆H₅COOH + 15O₂ → 14CO₂ + 6H₂O. (b) 1,7,7,3 gets C and H right for one molecule but is short one oxygen atom overall (16 O supplied by 1 acid + 7 O₂ vs. 17 needed for 7 CO₂ + 3 H₂O) — the fractional O₂ coefficient (7.5) can't be rounded down. (c) 2,7,14,3 keeps C balanced but halves the H₂O needed (12 H available from 2 acid molecules requires 6 H₂O, not 3). (d) 1,15,7,3 correctly balances C and H for one molecule but pairs it with the O₂ coefficient meant for the doubled equation, supplying far more O (32) than the 17 actually required."
+      "explanation": "C₆H₅COOH is C₇H₆O₂: 7 C, 6 H, and 2 O already in the molecule (this extra oxygen source is what makes this harder than a typical combustion). Doubling to clear fractions: 2 C₇H₆O₂ needs 14 CO₂ (14 C) and 6 H₂O (12 H); total O required = 14×2 + 6 = 34, minus the 2×2=4 O already supplied by the acid itself, leaves 30 O from O₂, i.e. 15 O₂. Final: 2C₆H₅COOH + 15O₂ → 14CO₂ + 6H₂O. (C) 1,7,7,3 gets C and H right for one molecule but is short one oxygen atom overall (16 O supplied by 1 acid + 7 O₂ vs. 17 needed for 7 CO₂ + 3 H₂O) — the fractional O₂ coefficient (7.5) can't be rounded down. (A) 2,7,14,3 keeps C balanced but halves the H₂O needed (12 H available from 2 acid molecules requires 6 H₂O, not 3). (B) 1,15,7,3 correctly balances C and H for one molecule but pairs it with the O₂ coefficient meant for the doubled equation, supplying far more O (32) than the 17 actually required."
     },
     {
       "id": "4-8",
@@ -3258,7 +3258,7 @@ const QUESTIONS = {
         "Pure liquid water"
       ],
       "correct": 1,
-      "explanation": "Only strong electrolytes — soluble ionic compounds, strong acids, and strong bases — dissociate essentially completely in solution, so only they're split into separate ions. (a) Pure liquid water is not written as ions because it is overwhelmingly molecular (its self-ionization is negligible), not because of any solubility issue. (c) A weak acid stays intact because it only partially ionizes — writing it as free ions would overstate how much actually dissociates. (d) An insoluble precipitate is written as a single solid formula because, being insoluble, it isn't present as free ions in solution at all — it's undissolved, not merely 'not split.'"
+      "explanation": "Only strong electrolytes — soluble ionic compounds, strong acids, and strong bases — dissociate essentially completely in solution, so only they're split into separate ions. (D) Pure liquid water is not written as ions because it is overwhelmingly molecular (its self-ionization is negligible), not because of any solubility issue. (C) A weak acid stays intact because it only partially ionizes — writing it as free ions would overstate how much actually dissociates. (A) An insoluble precipitate is written as a single solid formula because, being insoluble, it isn't present as free ions in solution at all — it's undissolved, not merely 'not split.'"
     },
     {
       "id": "4-9",
@@ -3271,7 +3271,7 @@ const QUESTIONS = {
         "2Na⁺(aq) + 2Cl⁻(aq) → 2NaCl(aq)"
       ],
       "correct": 2,
-      "explanation": "After splitting all soluble species into ions, Na⁺ and Cl⁻ appear unchanged on both sides (spectators) and cancel, leaving only the ions that combine to form the precipitate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (a) 2Na⁺ + 2Cl⁻ → 2NaCl(aq) misrepresents the chemistry — NaCl is already fully dissociated in solution, so this 'reaction' doesn't actually occur; it just shows spectators re-forming an intact formula, which never happens while they stay dissolved. (b) is the correct complete ionic equation, but the spectators (Na⁺, Cl⁻) haven't been cancelled yet, so it is not the net ionic equation being asked for. (d) is the correct molecular equation, but molecular equations don't show ions at all and so can't be a net ionic equation."
+      "explanation": "After splitting all soluble species into ions, Na⁺ and Cl⁻ appear unchanged on both sides (spectators) and cancel, leaving only the ions that combine to form the precipitate: Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (D) 2Na⁺ + 2Cl⁻ → 2NaCl(aq) misrepresents the chemistry — NaCl is already fully dissociated in solution, so this 'reaction' doesn't actually occur; it just shows spectators re-forming an intact formula, which never happens while they stay dissolved. (A) is the correct complete ionic equation, but the spectators (Na⁺, Cl⁻) haven't been cancelled yet, so it is not the net ionic equation being asked for. (B) is the correct molecular equation, but molecular equations don't show ions at all and so can't be a net ionic equation."
     },
     {
       "id": "4-10",
@@ -3284,7 +3284,7 @@ const QUESTIONS = {
         "H⁺ and OH⁻"
       ],
       "correct": 2,
-      "explanation": "Splitting into ions: 2H⁺ + 2Cl⁻ + Ca²⁺ + 2OH⁻ → Ca²⁺ + 2Cl⁻ + 2H₂O(l). Ca²⁺ and Cl⁻ appear identically on both sides without reacting, making them the spectators. (a) H⁺ and OH⁻ are wrong — these are the ions that actually combine to form water, the opposite of spectators. (c) 'Only Ca²⁺' is incomplete since Cl⁻ is equally unchanged and must also be classified as a spectator. (d) is wrong because there clearly are two spectator ions once the equation is split; this reaction is a textbook neutralization with H⁺ and OH⁻ as the only reacting species."
+      "explanation": "Splitting into ions: 2H⁺ + 2Cl⁻ + Ca²⁺ + 2OH⁻ → Ca²⁺ + 2Cl⁻ + 2H₂O(l). Ca²⁺ and Cl⁻ appear identically on both sides without reacting, making them the spectators. (D) H⁺ and OH⁻ are wrong — these are the ions that actually combine to form water, the opposite of spectators. (A) 'Only Ca²⁺' is incomplete since Cl⁻ is equally unchanged and must also be classified as a spectator. (B) is wrong because there clearly are two spectator ions once the equation is split; this reaction is a textbook neutralization with H⁺ and OH⁻ as the only reacting species."
     },
     {
       "id": "4-11",
@@ -3297,7 +3297,7 @@ const QUESTIONS = {
         "PbCl₂ and NaNO₃"
       ],
       "correct": 2,
-      "explanation": "The net equation needs a soluble lead source (for Pb²⁺) and a soluble chloride source (for Cl⁻): Pb(NO₃)₂ (soluble, supplies Pb²⁺) and NaCl (soluble, supplies Cl⁻) mix to precipitate PbCl₂, with Na⁺ and NO₃⁻ as spectators. (b) NaCl and KNO₃ contain no lead source at all, so Pb²⁺ can't appear in the products. (c) Pb(NO₃)₂ and KNO₃ contain no chloride source, so Cl⁻ can't appear. (d) listing PbCl₂ itself as a reactant doesn't fit — PbCl₂ is the insoluble product being formed, not something dissolved and available as free Pb²⁺ and Cl⁻ ions beforehand."
+      "explanation": "The net equation needs a soluble lead source (for Pb²⁺) and a soluble chloride source (for Cl⁻): Pb(NO₃)₂ (soluble, supplies Pb²⁺) and NaCl (soluble, supplies Cl⁻) mix to precipitate PbCl₂, with Na⁺ and NO₃⁻ as spectators. (A) NaCl and KNO₃ contain no lead source at all, so Pb²⁺ can't appear in the products. (B) Pb(NO₃)₂ and KNO₃ contain no chloride source, so Cl⁻ can't appear. (D) listing PbCl₂ itself as a reactant doesn't fit — PbCl₂ is the insoluble product being formed, not something dissolved and available as free Pb²⁺ and Cl⁻ ions beforehand."
     },
     {
       "id": "4-12",
@@ -3310,7 +3310,7 @@ const QUESTIONS = {
         "It only partially dissociates into ions in aqueous solution."
       ],
       "correct": 3,
-      "explanation": "Weak acids only partially ionize — most of the compound stays in molecular form at equilibrium — so writing it as fully dissociated ions (as done for strong electrolytes) would overstate its actual dissociation. (a) is wrong: acetic acid is soluble/miscible in water, it just doesn't ionize much; solubility and degree of ionization are separate properties. (b) is wrong: weak acids absolutely do participate in reactions, they simply don't dissociate completely while doing so. (d) is wrong: CH₃COOH clearly contains hydrogen atoms (four of them), so that's not the reason it's kept intact."
+      "explanation": "Weak acids only partially ionize — most of the compound stays in molecular form at equilibrium — so writing it as fully dissociated ions (as done for strong electrolytes) would overstate its actual dissociation. (A) is wrong: acetic acid is soluble/miscible in water, it just doesn't ionize much; solubility and degree of ionization are separate properties. (B) is wrong: weak acids absolutely do participate in reactions, they simply don't dissociate completely while doing so. (C) is wrong: CH₃COOH clearly contains hydrogen atoms (four of them), so that's not the reason it's kept intact."
     },
     {
       "id": "4-13",
@@ -3323,7 +3323,7 @@ const QUESTIONS = {
         "BaCl₂(aq) + Na₂SO₄(aq)"
       ],
       "correct": 2,
-      "explanation": "Checking solubility rules: a possible swap between K⁺/NO₃⁻ and Na⁺/Cl⁻ would give NaNO₃ and KCl, both soluble — no precipitate forms, so every ion stays dissolved and is a spectator, leaving nothing to write as a net ionic equation. (a) BaCl₂ + Na₂SO₄ forms insoluble BaSO₄ (sulfates are insoluble with Ba²⁺). (c) Pb(NO₃)₂ + KI forms insoluble PbI₂ (most iodides are soluble, but Pb²⁺ is a named exception). (d) NaCl + AgNO₃ forms insoluble AgCl (most chlorides are soluble, but Ag⁺ is a named exception). All three of these produce a real precipitate and thus do have a meaningful net ionic equation."
+      "explanation": "Checking solubility rules: a possible swap between K⁺/NO₃⁻ and Na⁺/Cl⁻ would give NaNO₃ and KCl, both soluble — no precipitate forms, so every ion stays dissolved and is a spectator, leaving nothing to write as a net ionic equation. (D) BaCl₂ + Na₂SO₄ forms insoluble BaSO₄ (sulfates are insoluble with Ba²⁺). (B) Pb(NO₃)₂ + KI forms insoluble PbI₂ (most iodides are soluble, but Pb²⁺ is a named exception). (A) NaCl + AgNO₃ forms insoluble AgCl (most chlorides are soluble, but Ag⁺ is a named exception). All three of these produce a real precipitate and thus do have a meaningful net ionic equation."
     },
     {
       "id": "4-14",
@@ -3336,7 +3336,7 @@ const QUESTIONS = {
         "This indicates a balancing error."
       ],
       "correct": 1,
-      "explanation": "An ion appearing identically — same species, same physical state, same coefficient — on both sides of a complete ionic equation is, by definition, a spectator: it underwent no chemical change and cancels out to reach the net ionic equation. (a) is wrong: this pattern is expected and normal for spectators, not a sign of a mistake. (b) is wrong: if the ion is truly unchanged (same formula, same state, same amount), it was NOT transformed — that's the opposite of what 'unchanged' means. (c) is wrong: appearing unchanged on both sides has no bearing on limiting-reactant status, which is a stoichiometric amount-based concept, not an identity-based one."
+      "explanation": "An ion appearing identically — same species, same physical state, same coefficient — on both sides of a complete ionic equation is, by definition, a spectator: it underwent no chemical change and cancels out to reach the net ionic equation. (D) is wrong: this pattern is expected and normal for spectators, not a sign of a mistake. (A) is wrong: if the ion is truly unchanged (same formula, same state, same amount), it was NOT transformed — that's the opposite of what 'unchanged' means. (C) is wrong: appearing unchanged on both sides has no bearing on limiting-reactant status, which is a stoichiometric amount-based concept, not an identity-based one."
     },
     {
       "id": "4-15",
@@ -3349,7 +3349,7 @@ const QUESTIONS = {
         "Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s)"
       ],
       "correct": 3,
-      "explanation": "Both reactants are soluble; testing a double-replacement swap gives NH₄⁺ + NO₃⁻ → soluble NH₄NO₃ and Ba²⁺ + SO₄²⁻ → insoluble BaSO₄ (sulfates are insoluble with Ba²⁺, one of the standard exceptions). Cancelling the spectators (NH₄⁺, NO₃⁻) leaves Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (a) and (c) both show NH₄⁺ and NO₃⁻ 'reacting' to re-form intact NH₄NO₃(aq) — but this compound is soluble and stays fully dissociated in solution, so this recombination never actually happens; these ions are spectators, not reactants. (d) is the correct molecular equation, but it hasn't been converted to ionic form and spectators haven't been removed, so it isn't the net ionic equation."
+      "explanation": "Both reactants are soluble; testing a double-replacement swap gives NH₄⁺ + NO₃⁻ → soluble NH₄NO₃ and Ba²⁺ + SO₄²⁻ → insoluble BaSO₄ (sulfates are insoluble with Ba²⁺, one of the standard exceptions). Cancelling the spectators (NH₄⁺, NO₃⁻) leaves Ba²⁺(aq) + SO₄²⁻(aq) → BaSO₄(s). (A) and (B) both show NH₄⁺ and NO₃⁻ 'reacting' to re-form intact NH₄NO₃(aq) — but this compound is soluble and stays fully dissociated in solution, so this recombination never actually happens; these ions are spectators, not reactants. (C) is the correct molecular equation, but it hasn't been converted to ionic form and spectators haven't been removed, so it isn't the net ionic equation."
     },
     {
       "id": "4-16",
@@ -3362,7 +3362,7 @@ const QUESTIONS = {
         "6X + 6Y → 6XY"
       ],
       "correct": 0,
-      "explanation": "6 X and 6 Y combine in a 1:1 ratio to form 6 XY with nothing left over; dividing every coefficient by 6 gives the simplest whole-number ratio, X + Y → XY. (b) 2X + Y → X₂Y implies a 2:1 X:Y ratio and a different product formula (X₂Y, not XY), which doesn't match what the diagram shows. (c) X + 2Y → XY₂ implies a 1:2 ratio and product XY₂, also inconsistent with the observed 1:1:1 outcome. (d) 6X + 6Y → 6XY correctly describes the diagram's raw numbers but is not in lowest terms — a properly balanced equation is always reduced to its simplest whole-number ratio, which is 1:1:1, not 6:6:6."
+      "explanation": "6 X and 6 Y combine in a 1:1 ratio to form 6 XY with nothing left over; dividing every coefficient by 6 gives the simplest whole-number ratio, X + Y → XY. (B) 2X + Y → X₂Y implies a 2:1 X:Y ratio and a different product formula (X₂Y, not XY), which doesn't match what the diagram shows. (C) X + 2Y → XY₂ implies a 1:2 ratio and product XY₂, also inconsistent with the observed 1:1:1 outcome. (D) 6X + 6Y → 6XY correctly describes the diagram's raw numbers but is not in lowest terms — a properly balanced equation is always reduced to its simplest whole-number ratio, which is 1:1:1, not 6:6:6."
     },
     {
       "id": "4-17",
@@ -3375,7 +3375,7 @@ const QUESTIONS = {
         "No, because there are too many A atoms shown."
       ],
       "correct": 0,
-      "explanation": "Every atom must be conserved: forming 8 AB₂ requires 16 B atoms (2 per AB₂), but only 4 B₂ molecules (8 B atoms) were provided — not enough B to form the stated product, so the diagram violates conservation of atoms. (b) is wrong because it ignores this exact shortfall; a diagram that doesn't conserve atoms can't be a valid representation regardless of how it looks. (c) is wrong because the A count is actually fine (8 A₂ supplies 16 A atoms, more than the 8 needed) — the problem is specifically a B shortage, not an A excess. (d) is wrong because 'being limiting' never excuses violating atom conservation for the other reactant; even a limiting reactant's product must still be consistent with how much of every other reactant is actually present."
+      "explanation": "Every atom must be conserved: forming 8 AB₂ requires 16 B atoms (2 per AB₂), but only 4 B₂ molecules (8 B atoms) were provided — not enough B to form the stated product, so the diagram violates conservation of atoms. (C) is wrong because it ignores this exact shortfall; a diagram that doesn't conserve atoms can't be a valid representation regardless of how it looks. (D) is wrong because the A count is actually fine (8 A₂ supplies 16 A atoms, more than the 8 needed) — the problem is specifically a B shortage, not an A excess. (B) is wrong because 'being limiting' never excuses violating atom conservation for the other reactant; even a limiting reactant's product must still be consistent with how much of every other reactant is actually present."
     },
     {
       "id": "4-18",
@@ -3388,7 +3388,7 @@ const QUESTIONS = {
         "The total mass of all substances"
       ],
       "correct": 0,
-      "explanation": "The total number of individual particles can change during a reaction (e.g., two reactant molecules combining into one product molecule), even though atoms of each element, total mass, and total charge are always conserved. (a), (b), and (d) are each incorrect answers to 'what is NOT conserved' because all three of those quantities — atom counts, mass, and charge — are in fact always conserved in a chemical reaction; the only one of the four options that can legitimately differ before and after is the raw count of distinct particles."
+      "explanation": "The total number of individual particles can change during a reaction (e.g., two reactant molecules combining into one product molecule), even though atoms of each element, total mass, and total charge are always conserved. (B), (C), and (D) are each incorrect answers to 'what is NOT conserved' because all three of those quantities — atom counts, mass, and charge — are in fact always conserved in a chemical reaction; the only one of the four options that can legitimately differ before and after is the raw count of distinct particles."
     },
     {
       "id": "4-19",
@@ -3401,7 +3401,7 @@ const QUESTIONS = {
         "6 AC and 1 B₂"
       ],
       "correct": 0,
-      "explanation": "Using the given ratio 1 A₂B : 2 C : 2 AC : 0.5 B₂ and scaling by 3 (since 3 A₂B matches 6 C at exactly a 1:2 ratio): 3×2 AC = 6 AC and 3×0.5 B₂ = 1.5 B₂. (b) 6 AC and 3 B₂ doubles the B₂ yield, as if the ratio were 1 B₂ per A₂B instead of 0.5. (c) 3 AC and 3 B₂ uses the wrong AC scaling (matching A₂B's own coefficient, 3, instead of doubling it per the 2 AC per A₂B ratio) and also overstates B₂. (d) 6 AC and 1 B₂ gets AC right but rounds the B₂ amount to a whole number (1) rather than correctly scaling 0.5×3 = 1.5, which is not the same value."
+      "explanation": "Using the given ratio 1 A₂B : 2 C : 2 AC : 0.5 B₂ and scaling by 3 (since 3 A₂B matches 6 C at exactly a 1:2 ratio): 3×2 AC = 6 AC and 3×0.5 B₂ = 1.5 B₂. (B) 6 AC and 3 B₂ doubles the B₂ yield, as if the ratio were 1 B₂ per A₂B instead of 0.5. (C) 3 AC and 3 B₂ uses the wrong AC scaling (matching A₂B's own coefficient, 3, instead of doubling it per the 2 AC per A₂B ratio) and also overstates B₂. (D) 6 AC and 1 B₂ gets AC right but rounds the B₂ amount to a whole number (1) rather than correctly scaling 0.5×3 = 1.5, which is not the same value."
     },
     {
       "id": "4-20",
@@ -3414,7 +3414,7 @@ const QUESTIONS = {
         "The same molecules persist through a physical change; a chemical change forms new molecules with different bonding."
       ],
       "correct": 3,
-      "explanation": "In a physical change (like melting), the same individual molecules are present before and after, just rearranged in space or phase, with no change in which atoms are bonded to which; a chemical change shows genuinely new molecules with different atom connectivity. (a) is wrong — physical changes absolutely can be shown in a particulate diagram (the same molecules, just spaced or arranged differently). (c) is wrong — atom totals are always conserved in both physical and chemical changes, so 'fewer atoms after' is never actually true and isn't a distinguishing feature anyway. (d) is wrong because connectivity (which atoms bond to which) is exactly the visual cue that distinguishes the two: unchanged connectivity signals physical change, changed connectivity signals chemical change."
+      "explanation": "In a physical change (like melting), the same individual molecules are present before and after, just rearranged in space or phase, with no change in which atoms are bonded to which; a chemical change shows genuinely new molecules with different atom connectivity. (C) is wrong — physical changes absolutely can be shown in a particulate diagram (the same molecules, just spaced or arranged differently). (A) is wrong — atom totals are always conserved in both physical and chemical changes, so 'fewer atoms after' is never actually true and isn't a distinguishing feature anyway. (B) is wrong because connectivity (which atoms bond to which) is exactly the visual cue that distinguishes the two: unchanged connectivity signals physical change, changed connectivity signals chemical change."
     },
     {
       "id": "4-21",
@@ -3427,7 +3427,7 @@ const QUESTIONS = {
         "An isomerization: the atoms rearrange into a different structural isomer"
       ],
       "correct": 3,
-      "explanation": "X and Y share the identical molecular formula but are described as different substances, meaning the atoms have simply rearranged into a different bonding pattern — this is isomerization, a chemical change with no atoms gained, lost, or exchanged with another reactant. (a) 'a chemical reaction producing a new compound' is too vague to be the best answer here: it doesn't capture the defining and unusual feature of this scenario, that the molecular formula stays exactly the same while only the internal structure changes. (c) is wrong because a physical phase change never alters bonding connectivity or produces a structurally distinct substance — X and Y here have different structures, not just different phases. (d) is wrong because formulas do NOT have to change for a reaction to be valid — isomerization is a legitimate, formula-preserving type of chemical change."
+      "explanation": "X and Y share the identical molecular formula but are described as different substances, meaning the atoms have simply rearranged into a different bonding pattern — this is isomerization, a chemical change with no atoms gained, lost, or exchanged with another reactant. (A) 'a chemical reaction producing a new compound' is too vague to be the best answer here: it doesn't capture the defining and unusual feature of this scenario, that the molecular formula stays exactly the same while only the internal structure changes. (B) is wrong because a physical phase change never alters bonding connectivity or produces a structurally distinct substance — X and Y here have different structures, not just different phases. (C) is wrong because formulas do NOT have to change for a reaction to be valid — isomerization is a legitimate, formula-preserving type of chemical change."
     },
     {
       "id": "4-22",
@@ -3440,7 +3440,7 @@ const QUESTIONS = {
         "2X₂ + 3Y₂ → 2XY₃; Y₂ is limiting; max 8 XY₃"
       ],
       "correct": 0,
-      "explanation": "Forming XY₃ from X₂ and Y₂ (1 X₂ → 2 X, needing 2 XY₃'s worth of X; 3 Y₂ → 6 Y, matching 2 XY₃'s worth of 3 Y each) balances as X₂ + 3Y₂ → 2XY₃. Dividing given amounts by coefficients: X₂: 6/1 = 6; Y₂: 12/3 = 4 — the smaller value means Y₂ is limiting, giving max XY₃ = 4×2 = 8, with 6−4 = 2 mol X₂ left over. (a) 2X₂ + 3Y₂ → 2XY₃ isn't even balanced (4 X atoms on the left vs. 2 in the products), so its downstream numbers can't be trusted. (b) uses the correctly balanced equation but its stated conclusion ('X₂ is limiting; max 4 XY₃') is self-contradictory and numerically wrong — its own parenthetical admits Y₂ is actually limiting, and the correct maximum from 12 mol Y₂ is 8 XY₃, not 4. (d) correctly balances the equation but wrongly calls X₂ limiting and computes 12 XY₃ as if all 6 mol X₂ reacted, ignoring that only 12 mol Y₂ is available (which supports at most 4 mol X₂ worth of reaction).",
+      "explanation": "Forming XY₃ from X₂ and Y₂ (1 X₂ → 2 X, needing 2 XY₃'s worth of X; 3 Y₂ → 6 Y, matching 2 XY₃'s worth of 3 Y each) balances as X₂ + 3Y₂ → 2XY₃. Dividing given amounts by coefficients: X₂: 6/1 = 6; Y₂: 12/3 = 4 — the smaller value means Y₂ is limiting, giving max XY₃ = 4×2 = 8, with 6−4 = 2 mol X₂ left over. (D) 2X₂ + 3Y₂ → 2XY₃ isn't even balanced (4 X atoms on the left vs. 2 in the products), so its downstream numbers can't be trusted. (C) uses the correctly balanced equation but its stated conclusion ('X₂ is limiting; max 4 XY₃') is self-contradictory and numerically wrong — its own parenthetical admits Y₂ is actually limiting, and the correct maximum from 12 mol Y₂ is 8 XY₃, not 4. (B) correctly balances the equation but wrongly calls X₂ limiting and computes 12 XY₃ as if all 6 mol X₂ reacted, ignoring that only 12 mol Y₂ is available (which supports at most 4 mol X₂ worth of reaction).",
       "stretch": true
     },
     {
@@ -3454,7 +3454,7 @@ const QUESTIONS = {
         "Burning of wood"
       ],
       "correct": 1,
-      "explanation": "Melting ice converts H₂O from solid to liquid — same substance, same formula and bonding, just a different phase, so it's physical. (a) Rusting of iron forms a new substance (iron oxide) with different chemical properties — a genuine chemical change. (b) Burning wood breaks down cellulose and produces new substances (CO₂, H₂O, ash) — chemical. (d) Digestion chemically breaks down food molecules into different smaller molecules via enzymatic reactions — chemical. None of these three can be reversed by a simple phase change back to the starting material, unlike melting ice."
+      "explanation": "Melting ice converts H₂O from solid to liquid — same substance, same formula and bonding, just a different phase, so it's physical. (A) Rusting of iron forms a new substance (iron oxide) with different chemical properties — a genuine chemical change. (D) Burning wood breaks down cellulose and produces new substances (CO₂, H₂O, ash) — chemical. (C) Digestion chemically breaks down food molecules into different smaller molecules via enzymatic reactions — chemical. None of these three can be reversed by a simple phase change back to the starting material, unlike melting ice."
     },
     {
       "id": "4-24",
@@ -3467,7 +3467,7 @@ const QUESTIONS = {
         "The substance's color visibly changed during the process."
       ],
       "correct": 2,
-      "explanation": "Gas forming from mixing two liquids, with boiling ruled out and the gas confirmed to be a new substance, strongly indicates new chemical bonds formed — a clear chemical change. (a) A physical state change alone (melting, boiling, freezing) is, by definition, purely physical — no new substance forms. (b) Temperature change alone is weak evidence because many purely physical processes (like some dissolving processes) absorb or release heat without forming any new substance. (c) Color change alone is similarly weak, since dilution or certain physical/optical effects can also shift color without any new substance appearing — none of these three rules out a purely physical explanation the way confirmed new-gas formation does."
+      "explanation": "Gas forming from mixing two liquids, with boiling ruled out and the gas confirmed to be a new substance, strongly indicates new chemical bonds formed — a clear chemical change. (A) A physical state change alone (melting, boiling, freezing) is, by definition, purely physical — no new substance forms. (B) Temperature change alone is weak evidence because many purely physical processes (like some dissolving processes) absorb or release heat without forming any new substance. (D) Color change alone is similarly weak, since dilution or certain physical/optical effects can also shift color without any new substance appearing — none of these three rules out a purely physical explanation the way confirmed new-gas formation does."
     },
     {
       "id": "4-25",
@@ -3480,7 +3480,7 @@ const QUESTIONS = {
         "Chemical — the metal reacts with the acid to form H₂ gas and a dissolved salt."
       ],
       "correct": 3,
-      "explanation": "Metal reacting with acid (e.g., Zn + 2HCl → ZnCl₂ + H₂) involves genuine electron transfer (a redox reaction), producing new substances — H₂ gas and a dissolved metal salt — with entirely different chemical properties than the starting materials, so it's chemical. (a) is wrong: gas formation is not 'always' physical — here it results from a reaction, not a phase change. (b) is wrong and misreads the scenario: the metal itself isn't vaporizing into gas; the bubbles are H₂ gas newly formed from H⁺ ions, while the metal instead dissolves into solution as ions. (c) is wrong: there's plenty of information here (a reactive metal, an acid, and gas evolution) to recognize this as the classic metal + acid redox pattern without needing more detail."
+      "explanation": "Metal reacting with acid (e.g., Zn + 2HCl → ZnCl₂ + H₂) involves genuine electron transfer (a redox reaction), producing new substances — H₂ gas and a dissolved metal salt — with entirely different chemical properties than the starting materials, so it's chemical. (A) is wrong: gas formation is not 'always' physical — here it results from a reaction, not a phase change. (B) is wrong and misreads the scenario: the metal itself isn't vaporizing into gas; the bubbles are H₂ gas newly formed from H⁺ ions, while the metal instead dissolves into solution as ions. (C) is wrong: there's plenty of information here (a reactive metal, an acid, and gas evolution) to recognize this as the classic metal + acid redox pattern without needing more detail."
     },
     {
       "id": "4-26",
@@ -3493,7 +3493,7 @@ const QUESTIONS = {
         "Physical — evaporating the water recovers the original NaCl unchanged."
       ],
       "correct": 3,
-      "explanation": "Although NaCl separates into hydrated Na⁺ and Cl⁻ ions upon dissolving, no new chemical substance forms — the ions retain their identity, and evaporating the water recovers the exact same NaCl, which is the hallmark of a physical change. (a) is wrong: 'saltwater' isn't a new chemical substance, just a mixture/solution of the same ions and water. (c) is wrong: the Na⁺ and Cl⁻ ions weren't newly created by dissolving — they already existed as ions held together in the solid ionic lattice; dissolving just separates and hydrates ions that were already there. (d) is wrong: dissolving is in fact a standard, well-established example of a physical change, not an invalid or undefined category."
+      "explanation": "Although NaCl separates into hydrated Na⁺ and Cl⁻ ions upon dissolving, no new chemical substance forms — the ions retain their identity, and evaporating the water recovers the exact same NaCl, which is the hallmark of a physical change. (B) is wrong: 'saltwater' isn't a new chemical substance, just a mixture/solution of the same ions and water. (A) is wrong: the Na⁺ and Cl⁻ ions weren't newly created by dissolving — they already existed as ions held together in the solid ionic lattice; dissolving just separates and hydrates ions that were already there. (C) is wrong: dissolving is in fact a standard, well-established example of a physical change, not an invalid or undefined category."
     },
     {
       "id": "4-27",
@@ -3506,7 +3506,7 @@ const QUESTIONS = {
         "Color change by itself never indicates that a chemical change has occurred."
       ],
       "correct": 1,
-      "explanation": "Some purely physical processes — such as diluting a colored solution or certain phase transitions affecting how light interacts with a substance — can produce an apparent color change without any new substance forming, so color change alone isn't conclusive proof of a chemical change. (a) overgeneralizes in one direction: color change certainly CAN indicate a chemical change, it just isn't reliable proof by itself. (b) overgeneralizes in the opposite direction, incorrectly claiming color change is never chemical, which is equally false. (c) is simply incorrect — color is a real, commonly used observable property in chemistry, so that isn't the reason color change is unreliable evidence."
+      "explanation": "Some purely physical processes — such as diluting a colored solution or certain phase transitions affecting how light interacts with a substance — can produce an apparent color change without any new substance forming, so color change alone isn't conclusive proof of a chemical change. (A) overgeneralizes in one direction: color change certainly CAN indicate a chemical change, it just isn't reliable proof by itself. (D) overgeneralizes in the opposite direction, incorrectly claiming color change is never chemical, which is equally false. (C) is simply incorrect — color is a real, commonly used observable property in chemistry, so that isn't the reason color change is unreliable evidence."
     },
     {
       "id": "4-28",
@@ -3519,7 +3519,7 @@ const QUESTIONS = {
         "Boiling water"
       ],
       "correct": 2,
-      "explanation": "Silver tarnishing involves silver reacting with sulfur-containing compounds in air to form Ag₂S, a genuinely new substance with different properties (color, reactivity) than pure silver — a clear chemical change. (a) Crushing chalk only reduces particle size; it's still the same CaCO₃, a physical change. (b) Boiling water is a phase change (liquid to gas); the substance is still H₂O, physical. (d) Dissolving sugar in tea disperses sucrose molecules into solution without altering their structure; evaporating the water would recover the same sugar, so it's physical too."
+      "explanation": "Silver tarnishing involves silver reacting with sulfur-containing compounds in air to form Ag₂S, a genuinely new substance with different properties (color, reactivity) than pure silver — a clear chemical change. (A) Crushing chalk only reduces particle size; it's still the same CaCO₃, a physical change. (D) Boiling water is a phase change (liquid to gas); the substance is still H₂O, physical. (B) Dissolving sugar in tea disperses sucrose molecules into solution without altering their structure; evaporating the water would recover the same sugar, so it's physical too."
     },
     {
       "id": "4-29",
@@ -3532,7 +3532,7 @@ const QUESTIONS = {
         "Formation of a gas with a distinctly different smell than either starting reactant"
       ],
       "correct": 2,
-      "explanation": "Temperature change alone is the weakest standalone evidence because many purely physical processes (like dissolving certain salts, which can be endothermic or exothermic with no new chemical substance forming) also produce a measurable temperature change. (a) A genuinely new odor consistent with a new compound is comparatively strong evidence, since odor differences usually trace to differences in molecular structure. (b) A precipitate forming from two clear, previously homogeneous solutions strongly suggests a new insoluble compound has formed — this is a classic, fairly reliable chemical-change signal. (c) A gas with a distinctly different smell than either starting reactant likewise points to new bonds having formed, making it stronger evidence than a bare temperature shift."
+      "explanation": "Temperature change alone is the weakest standalone evidence because many purely physical processes (like dissolving certain salts, which can be endothermic or exothermic with no new chemical substance forming) also produce a measurable temperature change. (B) A genuinely new odor consistent with a new compound is comparatively strong evidence, since odor differences usually trace to differences in molecular structure. (A) A precipitate forming from two clear, previously homogeneous solutions strongly suggests a new insoluble compound has formed — this is a classic, fairly reliable chemical-change signal. (D) A gas with a distinctly different smell than either starting reactant likewise points to new bonds having formed, making it stronger evidence than a bare temperature shift."
     },
     {
       "id": "4-30",
@@ -3545,7 +3545,7 @@ const QUESTIONS = {
         "1.25 mol"
       ],
       "correct": 1,
-      "explanation": "The mole ratio between H₂ and H₂O is 2:2, which reduces to 1:1, so 5.00 mol H₂ produces 5.00 mol H₂O directly. (a) 2.50 mol would result from mistakenly halving (as if the ratio were 1:2 instead of 1:1). (b) 1.25 mol compounds that same halving error further, dividing twice instead of once. (d) 10.0 mol would result from doubling instead (as if the ratio were 2:1), the opposite mistake — none of these apply the actual 1:1 ratio the balanced equation gives."
+      "explanation": "The mole ratio between H₂ and H₂O is 2:2, which reduces to 1:1, so 5.00 mol H₂ produces 5.00 mol H₂O directly. (A) 2.50 mol would result from mistakenly halving (as if the ratio were 1:2 instead of 1:1). (D) 1.25 mol compounds that same halving error further, dividing twice instead of once. (C) 10.0 mol would result from doubling instead (as if the ratio were 2:1), the opposite mistake — none of these apply the actual 1:1 ratio the balanced equation gives."
     },
     {
       "id": "4-31",
@@ -3558,7 +3558,7 @@ const QUESTIONS = {
         "12.0 mol"
       ],
       "correct": 3,
-      "explanation": "Using the 1 N₂ : 3 H₂ mole ratio: 4.00 mol N₂ × (3 mol H₂ / 1 mol N₂) = 12.0 mol H₂. (a) 4.00 mol simply restates the given N₂ amount, as if the ratio were 1:1 and no conversion were needed. (b) 8.00 mol would come from using a 2:1 ratio instead of the actual 3:1 (4.00×2). (d) 1.33 mol inverts the ratio (dividing by 3 instead of multiplying), which would be the moles of N₂ needed per mole of H₂, not the other way around."
+      "explanation": "Using the 1 N₂ : 3 H₂ mole ratio: 4.00 mol N₂ × (3 mol H₂ / 1 mol N₂) = 12.0 mol H₂. (A) 4.00 mol simply restates the given N₂ amount, as if the ratio were 1:1 and no conversion were needed. (C) 8.00 mol would come from using a 2:1 ratio instead of the actual 3:1 (4.00×2). (B) 1.33 mol inverts the ratio (dividing by 3 instead of multiplying), which would be the moles of N₂ needed per mole of H₂, not the other way around."
     },
     {
       "id": "4-32",
@@ -3571,7 +3571,7 @@ const QUESTIONS = {
         "Mg"
       ],
       "correct": 1,
-      "explanation": "Dividing each amount by its coefficient: Mg: 3.00/2 = 1.50; O₂: 1.00/1 = 1.00. The smaller value (O₂) identifies O₂ as limiting — there's more Mg available (1.50 'units') than O₂ can support (1.00 'unit'). (a) Mg is wrong precisely because it's in excess, not limiting — it has the larger normalized value. (c) 'Neither, used up exactly' is wrong because the normalized values (1.50 vs. 1.00) aren't equal, meaning Mg will have leftover once all the O₂ is consumed. (d) 'Cannot be determined' is wrong — the given mole amounts and balanced equation are exactly what's needed to identify the limiting reactant."
+      "explanation": "Dividing each amount by its coefficient: Mg: 3.00/2 = 1.50; O₂: 1.00/1 = 1.00. The smaller value (O₂) identifies O₂ as limiting — there's more Mg available (1.50 'units') than O₂ can support (1.00 'unit'). (D) Mg is wrong precisely because it's in excess, not limiting — it has the larger normalized value. (C) 'Neither, used up exactly' is wrong because the normalized values (1.50 vs. 1.00) aren't equal, meaning Mg will have leftover once all the O₂ is consumed. (A) 'Cannot be determined' is wrong — the given mole amounts and balanced equation are exactly what's needed to identify the limiting reactant."
     },
     {
       "id": "4-33",
@@ -3584,7 +3584,7 @@ const QUESTIONS = {
         "21.3%"
       ],
       "correct": 2,
-      "explanation": "% yield = (actual/theoretical) × 100 = (21.3/25.0) × 100 = 85.2%. (a) 117% comes from inverting the fraction (theoretical/actual × 100 = 25.0/21.3 × 100), which is backwards. (b) 21.3% just restates the actual yield as if it were already a percentage, without dividing by the theoretical yield at all. (d) 25.0% does the same with the theoretical yield, ignoring the actual yield entirely — neither of these performs the required division."
+      "explanation": "% yield = (actual/theoretical) × 100 = (21.3/25.0) × 100 = 85.2%. (B) 117% comes from inverting the fraction (theoretical/actual × 100 = 25.0/21.3 × 100), which is backwards. (D) 21.3% just restates the actual yield as if it were already a percentage, without dividing by the theoretical yield at all. (A) 25.0% does the same with the theoretical yield, ignoring the actual yield entirely — neither of these performs the required division."
     },
     {
       "id": "4-34",
@@ -3597,7 +3597,7 @@ const QUESTIONS = {
         "39.6 g"
       ],
       "correct": 2,
-      "explanation": "Moles Al = 4.00/26.98 = 0.1483 mol. The Al:AlCl₃ ratio is 2:2, i.e. 1:1, so moles AlCl₃ = 0.1483 mol, giving mass = 0.1483 × 133.34 = 19.8 g. (b) 39.6 g is double the correct value, consistent with mistakenly doubling the AlCl₃ moles relative to Al (e.g., treating the ratio as 1 Al : 2 AlCl₃ instead of the actual 1:1). (c) 4.94 g is exactly the AlCl₃-to-Al molar mass ratio (133.34/26.98) with no scaling for the actual 4.00 g of Al given — effectively the answer you'd get for only 1.00 g of Al, not 4.00 g. (d) 9.90 g is half the correct value, consistent with using a 2 Al : 1 AlCl₃ ratio (halving) instead of the correct 1:1."
+      "explanation": "Moles Al = 4.00/26.98 = 0.1483 mol. The Al:AlCl₃ ratio is 2:2, i.e. 1:1, so moles AlCl₃ = 0.1483 mol, giving mass = 0.1483 × 133.34 = 19.8 g. (D) 39.6 g is double the correct value, consistent with mistakenly doubling the AlCl₃ moles relative to Al (e.g., treating the ratio as 1 Al : 2 AlCl₃ instead of the actual 1:1). (A) 4.94 g is exactly the AlCl₃-to-Al molar mass ratio (133.34/26.98) with no scaling for the actual 4.00 g of Al given — effectively the answer you'd get for only 1.00 g of Al, not 4.00 g. (B) 9.90 g is half the correct value, consistent with using a 2 Al : 1 AlCl₃ ratio (halving) instead of the correct 1:1."
     },
     {
       "id": "4-35",
@@ -3610,7 +3610,7 @@ const QUESTIONS = {
         "3.00 mol"
       ],
       "correct": 0,
-      "explanation": "Using the 2 C₂H₆ : 7 O₂ mole ratio: 3.00 mol C₂H₆ × (7 mol O₂ / 2 mol C₂H₆) = 10.5 mol O₂. (a) 21.0 mol comes from using a 7:1 ratio instead of 7:2 — i.e., forgetting to divide by C₂H₆'s coefficient of 2 (3.00×7). (c) 7.00 mol simply copies the O₂ coefficient itself, as though only 1 mol of C₂H₆ were reacting rather than the given 3.00 mol. (d) 3.00 mol just restates the given moles of C₂H₆ with no stoichiometric conversion applied at all."
+      "explanation": "Using the 2 C₂H₆ : 7 O₂ mole ratio: 3.00 mol C₂H₆ × (7 mol O₂ / 2 mol C₂H₆) = 10.5 mol O₂. (C) 21.0 mol comes from using a 7:1 ratio instead of 7:2 — i.e., forgetting to divide by C₂H₆'s coefficient of 2 (3.00×7). (B) 7.00 mol simply copies the O₂ coefficient itself, as though only 1 mol of C₂H₆ were reacting rather than the given 3.00 mol. (D) 3.00 mol just restates the given moles of C₂H₆ with no stoichiometric conversion applied at all."
     },
     {
       "id": "4-36",
@@ -3623,7 +3623,7 @@ const QUESTIONS = {
         "5.00 mol"
       ],
       "correct": 1,
-      "explanation": "Check limiting reactant: A: 2.00/1 = 2.00; B: 5.00/2 = 2.50. A is limiting (smaller value), so 2.00 mol A × (3 mol C / 1 mol A) = 6.00 mol C. (b) 4.00 mol would come from misapplying the A:C ratio as 1:2 instead of the actual 1:3. (c) 5.00 mol just restates the given moles of B, ignoring stoichiometry and the fact that B is in excess, not the reactant that sets the yield. (d) 7.50 mol comes from incorrectly treating B (which is actually in excess) as the limiting reactant and applying the 2 B : 3 C ratio to all 5.00 mol of it (5.00 × 3/2)."
+      "explanation": "Check limiting reactant: A: 2.00/1 = 2.00; B: 5.00/2 = 2.50. A is limiting (smaller value), so 2.00 mol A × (3 mol C / 1 mol A) = 6.00 mol C. (A) 4.00 mol would come from misapplying the A:C ratio as 1:2 instead of the actual 1:3. (D) 5.00 mol just restates the given moles of B, ignoring stoichiometry and the fact that B is in excess, not the reactant that sets the yield. (C) 7.50 mol comes from incorrectly treating B (which is actually in excess) as the limiting reactant and applying the 2 B : 3 C ratio to all 5.00 mol of it (5.00 × 3/2)."
     },
     {
       "id": "4-37",
@@ -3636,7 +3636,7 @@ const QUESTIONS = {
         "Theoretical yield calculations always overestimate the amount of reactant that was actually available."
       ],
       "correct": 2,
-      "explanation": "Theoretical yield assumes a perfect reaction — complete conversion with no losses — but real reactions involve side reactions that consume reactant into unwanted products, reactions that don't go to full completion, and physical product loss during transfers, filtration, or purification, all pushing actual yield below the theoretical maximum. (a) is wrong: theoretical yield is a correct stoichiometric calculation from the amount of reactant actually available, not an overestimate of how much reactant there is. (c) is wrong: 100% yield essentially never happens in practice, even for a correctly performed reaction, due to the inevitable losses described above. (d) is wrong: the shortfall is a real physical/chemical outcome of doing the reaction, not a result of the actual yield being 'calculated incorrectly.'"
+      "explanation": "Theoretical yield assumes a perfect reaction — complete conversion with no losses — but real reactions involve side reactions that consume reactant into unwanted products, reactions that don't go to full completion, and physical product loss during transfers, filtration, or purification, all pushing actual yield below the theoretical maximum. (D) is wrong: theoretical yield is a correct stoichiometric calculation from the amount of reactant actually available, not an overestimate of how much reactant there is. (B) is wrong: 100% yield essentially never happens in practice, even for a correctly performed reaction, due to the inevitable losses described above. (A) is wrong: the shortfall is a real physical/chemical outcome of doing the reaction, not a result of the actual yield being 'calculated incorrectly.'"
     },
     {
       "id": "4-38",
@@ -3649,7 +3649,7 @@ const QUESTIONS = {
         "16.8 L"
       ],
       "correct": 3,
-      "explanation": "Mole ratio KClO₃:O₂ is 2:3, so moles O₂ = 0.500 × (3/2) = 0.750 mol, and volume at STP = 0.750 × 22.4 = 16.8 L. (a) 22.4 L corresponds to 1.00 mol O₂, as if the ratio were 2:1 (O₂ = 2×KClO₃) instead of the correct 3:2. (c) 8.40 L corresponds to about 0.375 mol O₂, roughly half the correct amount — consistent with applying an extra, unwarranted division by 2 somewhere in the ratio. (d) 11.2 L corresponds to exactly 0.500 mol O₂, as if a 1:1 KClO₃:O₂ ratio were used instead of the actual 2:3 ratio from the balanced equation."
+      "explanation": "Mole ratio KClO₃:O₂ is 2:3, so moles O₂ = 0.500 × (3/2) = 0.750 mol, and volume at STP = 0.750 × 22.4 = 16.8 L. (A) 22.4 L corresponds to 1.00 mol O₂, as if the ratio were 2:1 (O₂ = 2×KClO₃) instead of the correct 3:2. (C) 8.40 L corresponds to about 0.375 mol O₂, roughly half the correct amount — consistent with applying an extra, unwarranted division by 2 somewhere in the ratio. (B) 11.2 L corresponds to exactly 0.500 mol O₂, as if a 1:1 KClO₃:O₂ ratio were used instead of the actual 2:3 ratio from the balanced equation."
     },
     {
       "id": "4-39",
@@ -3662,7 +3662,7 @@ const QUESTIONS = {
         "H₂SO₄ is limiting; 56.8 g Na₂SO₄"
       ],
       "correct": 3,
-      "explanation": "Moles NaOH = 40.0/40.00 = 1.000 mol; moles H₂SO₄ = 39.2/98.09 = 0.400 mol. Dividing by coefficients: NaOH 1.000/2 = 0.500; H₂SO₄ 0.400/1 = 0.400. Since 0.400 < 0.500, H₂SO₄ is limiting, and by the 1:1 H₂SO₄:Na₂SO₄ ratio, moles Na₂SO₄ = 0.400 mol, mass = 0.400 × 142.05 = 56.8 g. (b) NaOH limiting; 71.0 g wrongly picks NaOH as limiting (using the larger normalized value instead of the smaller) and then correctly applies the 2:1 NaOH:Na₂SO₄ ratio to all 1.000 mol NaOH (0.500 mol × 142.05 = 71.0 g) — consistent method, wrong reactant. (c) NaOH limiting; 56.8 g is internally inconsistent: it names the wrong limiting reactant (NaOH) yet reports the mass that actually corresponds to correctly identifying H₂SO₄ as limiting, so the reasoning and the number don't match. (d) H₂SO₄ limiting; 71.0 g correctly identifies the limiting reactant but then uses the wrong amount in the final ratio (arriving at the NaOH-based 71.0 g figure instead of carrying H₂SO₄'s own 0.400 mol through the 1:1 ratio).",
+      "explanation": "Moles NaOH = 40.0/40.00 = 1.000 mol; moles H₂SO₄ = 39.2/98.09 = 0.400 mol. Dividing by coefficients: NaOH 1.000/2 = 0.500; H₂SO₄ 0.400/1 = 0.400. Since 0.400 < 0.500, H₂SO₄ is limiting, and by the 1:1 H₂SO₄:Na₂SO₄ ratio, moles Na₂SO₄ = 0.400 mol, mass = 0.400 × 142.05 = 56.8 g. (B) NaOH limiting; 71.0 g wrongly picks NaOH as limiting (using the larger normalized value instead of the smaller) and then correctly applies the 2:1 NaOH:Na₂SO₄ ratio to all 1.000 mol NaOH (0.500 mol × 142.05 = 71.0 g) — consistent method, wrong reactant. (C) NaOH limiting; 56.8 g is internally inconsistent: it names the wrong limiting reactant (NaOH) yet reports the mass that actually corresponds to correctly identifying H₂SO₄ as limiting, so the reasoning and the number don't match. (A) H₂SO₄ limiting; 71.0 g correctly identifies the limiting reactant but then uses the wrong amount in the final ratio (arriving at the NaOH-based 71.0 g figure instead of carrying H₂SO₄'s own 0.400 mol through the 1:1 ratio).",
       "stretch": true
     },
     {
@@ -3676,7 +3676,7 @@ const QUESTIONS = {
         "The point where acid and base moles match the balanced equation's ratio."
       ],
       "correct": 3,
-      "explanation": "The equivalence point is defined stoichiometrically: moles of acid and base have reacted in exactly the ratio the balanced equation requires, with neither in excess. (a) is wrong because the indicator's color change (the 'endpoint') is only an experimental approximation of the equivalence point, not its definition, and doesn't always land exactly on it. (c) is wrong because pH = 7 at equivalence only holds for a strong acid–strong base titration specifically; weak acid/base titrations have equivalence points above or below 7. (d) is wrong because equal volumes have no general significance — what matters is that the moles react in the correct stoichiometric ratio, which depends on concentration and stoichiometry, not raw volume equality."
+      "explanation": "The equivalence point is defined stoichiometrically: moles of acid and base have reacted in exactly the ratio the balanced equation requires, with neither in excess. (B) is wrong because the indicator's color change (the 'endpoint') is only an experimental approximation of the equivalence point, not its definition, and doesn't always land exactly on it. (C) is wrong because pH = 7 at equivalence only holds for a strong acid–strong base titration specifically; weak acid/base titrations have equivalence points above or below 7. (A) is wrong because equal volumes have no general significance — what matters is that the moles react in the correct stoichiometric ratio, which depends on concentration and stoichiometry, not raw volume equality."
     },
     {
       "id": "4-41",
@@ -3689,7 +3689,7 @@ const QUESTIONS = {
         "22.5 mL"
       ],
       "correct": 1,
-      "explanation": "Moles HCl = 0.200 × 0.0300 = 6.00×10⁻³ mol. Since HCl + NaOH → NaCl + H₂O is 1:1, moles NaOH needed = 6.00×10⁻³ mol, so volume = 6.00×10⁻³ / 0.150 = 0.0400 L = 40.0 mL. (a) 30.0 mL simply restates the HCl volume, ignoring that the two solutions have different concentrations. (c) 20.0 mL would result from mistakenly halving the needed moles, as though a 2:1 (diprotic-style) ratio applied to this 1:1 HCl/NaOH reaction. (d) 22.5 mL comes from inverting the concentration ratio (30.0 × 0.150/0.200 instead of 30.0 × 0.200/0.150), swapping which molarity belongs in the numerator."
+      "explanation": "Moles HCl = 0.200 × 0.0300 = 6.00×10⁻³ mol. Since HCl + NaOH → NaCl + H₂O is 1:1, moles NaOH needed = 6.00×10⁻³ mol, so volume = 6.00×10⁻³ / 0.150 = 0.0400 L = 40.0 mL. (C) 30.0 mL simply restates the HCl volume, ignoring that the two solutions have different concentrations. (A) 20.0 mL would result from mistakenly halving the needed moles, as though a 2:1 (diprotic-style) ratio applied to this 1:1 HCl/NaOH reaction. (D) 22.5 mL comes from inverting the concentration ratio (30.0 × 0.150/0.200 instead of 30.0 × 0.200/0.150), swapping which molarity belongs in the numerator."
     },
     {
       "id": "4-42",
@@ -3702,7 +3702,7 @@ const QUESTIONS = {
         "0.210 M"
       ],
       "correct": 3,
-      "explanation": "Moles NaOH = 0.250 × 0.0420 = 0.01050 mol. Since the ratio is 2 NaOH : 1 H₂SO₄, moles H₂SO₄ = 0.01050/2 = 5.250×10⁻³ mol, and concentration = 5.250×10⁻³/0.0250 = 0.210 M. (b) 0.420 M results from ignoring the 2:1 mole ratio entirely (treating NaOH and H₂SO₄ as reacting 1:1), which doubles the apparent concentration. (c) 0.0525 M and (d) 0.105 M are both scaled down from the correct value by an extra, unwarranted factor of roughly 2–4 — consistent with over-applying a division (e.g., halving twice, or using an incorrect volume) rather than the single, correct 2:1 stoichiometric division."
+      "explanation": "Moles NaOH = 0.250 × 0.0420 = 0.01050 mol. Since the ratio is 2 NaOH : 1 H₂SO₄, moles H₂SO₄ = 0.01050/2 = 5.250×10⁻³ mol, and concentration = 5.250×10⁻³/0.0250 = 0.210 M. (A) 0.420 M results from ignoring the 2:1 mole ratio entirely (treating NaOH and H₂SO₄ as reacting 1:1), which doubles the apparent concentration. (C) 0.0525 M and (B) 0.105 M are both scaled down from the correct value by an extra, unwarranted factor of roughly 2–4 — consistent with over-applying a division (e.g., halving twice, or using an incorrect volume) rather than the single, correct 2:1 stoichiometric division."
     },
     {
       "id": "4-43",
@@ -3715,7 +3715,7 @@ const QUESTIONS = {
         "Mole ratios only matter for redox reactions, not acid-base reactions."
       ],
       "correct": 0,
-      "explanation": "Many acid-base reactions aren't simple 1:1 (e.g., a diprotic acid like H₂SO₄ needs a 1:2 ratio with a monoprotic base), so applying the balanced equation's actual mole ratio is essential; assuming moles of acid simply equal moles of base by default gives a wrong concentration whenever the ratio isn't 1:1. (b) is wrong — mole ratios are always needed to correctly relate moles of titrant to moles of analyte, even in the simplest 1:1 cases. (c) is wrong — titration calculations are fundamentally stoichiometry problems. (d) is wrong — mole ratios matter for any reaction with non-1:1 stoichiometry, acid-base titrations very much included, not just redox reactions."
+      "explanation": "Many acid-base reactions aren't simple 1:1 (e.g., a diprotic acid like H₂SO₄ needs a 1:2 ratio with a monoprotic base), so applying the balanced equation's actual mole ratio is essential; assuming moles of acid simply equal moles of base by default gives a wrong concentration whenever the ratio isn't 1:1. (B) is wrong — mole ratios are always needed to correctly relate moles of titrant to moles of analyte, even in the simplest 1:1 cases. (C) is wrong — titration calculations are fundamentally stoichiometry problems. (D) is wrong — mole ratios matter for any reaction with non-1:1 stoichiometry, acid-base titrations very much included, not just redox reactions."
     },
     {
       "id": "4-44",
@@ -3728,7 +3728,7 @@ const QUESTIONS = {
         "To signal, via a color change, that the titration's endpoint has been reached."
       ],
       "correct": 3,
-      "explanation": "An indicator visually signals — typically via a color change — that the endpoint, an experimental approximation of the equivalence point, has been reached, telling the experimenter when to stop adding titrant. (a) is wrong: indicators are added in trace amounts and don't affect the titrant's concentration. (b) is wrong: an indicator doesn't consume or neutralize the titrant — if it did, it would interfere with the very stoichiometry the titration is measuring. (c) is wrong: indicators are used in such minute quantities that they don't meaningfully shift the solution's pH; their entire function is to report the pH visually, not alter it."
+      "explanation": "An indicator visually signals — typically via a color change — that the endpoint, an experimental approximation of the equivalence point, has been reached, telling the experimenter when to stop adding titrant. (C) is wrong: indicators are added in trace amounts and don't affect the titrant's concentration. (B) is wrong: an indicator doesn't consume or neutralize the titrant — if it did, it would interfere with the very stoichiometry the titration is measuring. (A) is wrong: indicators are used in such minute quantities that they don't meaningfully shift the solution's pH; their entire function is to report the pH visually, not alter it."
     },
     {
       "id": "4-45",
@@ -3741,7 +3741,7 @@ const QUESTIONS = {
         "0.0562 M"
       ],
       "correct": 1,
-      "explanation": "Moles HCl = 0.100 × 0.03560 = 3.560×10⁻³ mol. Since NaOH + HCl → NaCl + H₂O is 1:1, moles NaOH = 3.560×10⁻³ mol, so concentration = 3.560×10⁻³/0.02000 = 0.178 M. (b) 0.0562 M results from swapping which volume and molarity belong together — e.g., computing (0.100 × 0.02000)/0.03560 instead of (0.100 × 0.03560)/0.02000, mixing up the known and unknown quantities in M₁V₁ = M₂V₂. (c) 0.356 M is exactly double the correct value, consistent with dividing by the wrong (halved) volume. (d) 0.200 M is close to but not equal to the correct answer, consistent with a rounding slip (e.g., treating 35.60 mL as roughly 40 mL) rather than using the precise titration volume given."
+      "explanation": "Moles HCl = 0.100 × 0.03560 = 3.560×10⁻³ mol. Since NaOH + HCl → NaCl + H₂O is 1:1, moles NaOH = 3.560×10⁻³ mol, so concentration = 3.560×10⁻³/0.02000 = 0.178 M. (D) 0.0562 M results from swapping which volume and molarity belong together — e.g., computing (0.100 × 0.02000)/0.03560 instead of (0.100 × 0.03560)/0.02000, mixing up the known and unknown quantities in M₁V₁ = M₂V₂. (C) 0.356 M is exactly double the correct value, consistent with dividing by the wrong (halved) volume. (A) 0.200 M is close to but not equal to the correct answer, consistent with a rounding slip (e.g., treating 35.60 mL as roughly 40 mL) rather than using the precise titration volume given."
     },
     {
       "id": "4-46",
@@ -3754,7 +3754,7 @@ const QUESTIONS = {
         "234 g/mol"
       ],
       "correct": 1,
-      "explanation": "Moles NaOH = 0.150 × 0.02840 = 4.260×10⁻³ mol; since the acid is monoprotic, it reacts 1:1 with NaOH, so moles of acid = 4.260×10⁻³ mol, and molar mass = 0.500/4.260×10⁻³ = 117 g/mol. (a) 4.26 g/mol is simply the moles of NaOH (4.260×10⁻³, misread as if it were already the molar mass) reported without ever dividing into the 0.500 g sample mass — a units mix-up, not a real calculation. (c) 234 g/mol results from treating the acid as diprotic (halving the moles of acid to 2.130×10⁻³, doubling the resulting molar mass), which contradicts the stem's statement that it's monoprotic. (d) 58.7 g/mol is the opposite error — doubling the moles of acid (8.520×10⁻³), as if 2 mol of acid reacted per 1 mol NaOH instead of the correct 1:1 ratio, which halves the molar mass.",
+      "explanation": "Moles NaOH = 0.150 × 0.02840 = 4.260×10⁻³ mol; since the acid is monoprotic, it reacts 1:1 with NaOH, so moles of acid = 4.260×10⁻³ mol, and molar mass = 0.500/4.260×10⁻³ = 117 g/mol. (C) 4.26 g/mol is simply the moles of NaOH (4.260×10⁻³, misread as if it were already the molar mass) reported without ever dividing into the 0.500 g sample mass — a units mix-up, not a real calculation. (D) 234 g/mol results from treating the acid as diprotic (halving the moles of acid to 2.130×10⁻³, doubling the resulting molar mass), which contradicts the stem's statement that it's monoprotic. (A) 58.7 g/mol is the opposite error — doubling the moles of acid (8.520×10⁻³), as if 2 mol of acid reacted per 1 mol NaOH instead of the correct 1:1 ratio, which halves the molar mass.",
       "stretch": true
     },
     {
@@ -3768,7 +3768,7 @@ const QUESTIONS = {
         "Single replacement"
       ],
       "correct": 2,
-      "explanation": "A single compound (H₂O₂) breaks down into two simpler products (H₂O and O₂) — the defining pattern of decomposition, AB → A + B. (a) Synthesis is wrong — that pattern combines multiple substances into one, the opposite of what's happening here. (c) Single replacement is wrong — that requires a free element displacing another element within a compound; there's no free element as a reactant here at all. (d) Double replacement is wrong — that requires two compounds trading parts; here there's only one reactant total."
+      "explanation": "A single compound (H₂O₂) breaks down into two simpler products (H₂O and O₂) — the defining pattern of decomposition, AB → A + B. (B) Synthesis is wrong — that pattern combines multiple substances into one, the opposite of what's happening here. (D) Single replacement is wrong — that requires a free element displacing another element within a compound; there's no free element as a reactant here at all. (A) Double replacement is wrong — that requires two compounds trading parts; here there's only one reactant total."
     },
     {
       "id": "4-48",
@@ -3781,7 +3781,7 @@ const QUESTIONS = {
         "Double replacement"
       ],
       "correct": 2,
-      "explanation": "An uncombined element (Zn) replaces another element (Cu) within a compound — the defining pattern of single replacement, A + BC → AC + B, driven by zinc being more reactive than copper. (a) Synthesis is wrong — no simple combination of substances into one product occurs; instead, an exchange happens. (b) Decomposition is wrong — a single compound isn't breaking into multiple products; instead, an element and a compound are reacting together. (d) Double replacement is wrong — that requires two compounds swapping ions; here only one compound (CuSO₄) and one free element (Zn) react, not two compounds."
+      "explanation": "An uncombined element (Zn) replaces another element (Cu) within a compound — the defining pattern of single replacement, A + BC → AC + B, driven by zinc being more reactive than copper. (B) Synthesis is wrong — no simple combination of substances into one product occurs; instead, an exchange happens. (A) Decomposition is wrong — a single compound isn't breaking into multiple products; instead, an element and a compound are reacting together. (D) Double replacement is wrong — that requires two compounds swapping ions; here only one compound (CuSO₄) and one free element (Zn) react, not two compounds."
     },
     {
       "id": "4-49",
@@ -3794,7 +3794,7 @@ const QUESTIONS = {
         "Single replacement"
       ],
       "correct": 0,
-      "explanation": "Two ionic compounds exchange partners (cations swap anions) — the defining pattern of double replacement, AB + CD → AD + CB, here producing insoluble AgCl as the precipitate. (a) Synthesis is wrong — two compounds aren't combining into a single product; they're exchanging ions to form two new compounds. (b) Single replacement is wrong — that requires one reactant to be a free element displacing another element; both reactants here are compounds, with no free element involved. (d) Combustion is wrong — there's no hydrocarbon reacting with O₂ to form CO₂ and H₂O, which is the defining combustion pattern."
+      "explanation": "Two ionic compounds exchange partners (cations swap anions) — the defining pattern of double replacement, AB + CD → AD + CB, here producing insoluble AgCl as the precipitate. (C) Synthesis is wrong — two compounds aren't combining into a single product; they're exchanging ions to form two new compounds. (D) Single replacement is wrong — that requires one reactant to be a free element displacing another element; both reactants here are compounds, with no free element involved. (B) Combustion is wrong — there's no hydrocarbon reacting with O₂ to form CO₂ and H₂O, which is the defining combustion pattern."
     },
     {
       "id": "4-50",
@@ -3807,7 +3807,7 @@ const QUESTIONS = {
         "Decomposition"
       ],
       "correct": 0,
-      "explanation": "Two simpler substances (Mg and O₂) combine to form one product (MgO) — the defining pattern of synthesis, A + B → AB. (b) Decomposition is wrong — that's one substance splitting into multiple products, the reverse of what happens here. (c) Single replacement is wrong — no element is displacing another element within a compound; both reactants are simply combining. (d) is wrong to exclude synthesis: while this reaction does resemble combustion (a metal burning in oxygen), its fundamental A + B → AB pattern is exactly what defines synthesis, so ruling out synthesis in favor of combustion 'only' misclassifies it — it's correctly described as synthesis."
+      "explanation": "Two simpler substances (Mg and O₂) combine to form one product (MgO) — the defining pattern of synthesis, A + B → AB. (D) Decomposition is wrong — that's one substance splitting into multiple products, the reverse of what happens here. (C) Single replacement is wrong — no element is displacing another element within a compound; both reactants are simply combining. (B) is wrong to exclude synthesis: while this reaction does resemble combustion (a metal burning in oxygen), its fundamental A + B → AB pattern is exactly what defines synthesis, so ruling out synthesis in favor of combustion 'only' misclassifies it — it's correctly described as synthesis."
     },
     {
       "id": "4-51",
@@ -3820,7 +3820,7 @@ const QUESTIONS = {
         "Hydrocarbon + O₂ → CO₂ + H₂O"
       ],
       "correct": 3,
-      "explanation": "Combustion of any hydrocarbon (containing only C and H) with sufficient O₂ produces CO₂ and H₂O as the standard complete-combustion products, regardless of which specific hydrocarbon is burned (only coefficients change). (a) Hydrocarbon + H₂O → alcohol describes a hydration reaction, not combustion — it doesn't involve O₂ or produce CO₂/H₂O. (b) Hydrocarbon → C + H₂ describes thermal decomposition/pyrolysis, which involves no oxygen at all, the opposite of combustion. (c) Hydrocarbon + acid → salt + H₂ describes a metal-acid reaction pattern, not a hydrocarbon reaction — hydrocarbons don't typically react with acids this way."
+      "explanation": "Combustion of any hydrocarbon (containing only C and H) with sufficient O₂ produces CO₂ and H₂O as the standard complete-combustion products, regardless of which specific hydrocarbon is burned (only coefficients change). (C) Hydrocarbon + H₂O → alcohol describes a hydration reaction, not combustion — it doesn't involve O₂ or produce CO₂/H₂O. (A) Hydrocarbon → C + H₂ describes thermal decomposition/pyrolysis, which involves no oxygen at all, the opposite of combustion. (B) Hydrocarbon + acid → salt + H₂ describes a metal-acid reaction pattern, not a hydrocarbon reaction — hydrocarbons don't typically react with acids this way."
     },
     {
       "id": "4-52",
@@ -3833,7 +3833,7 @@ const QUESTIONS = {
         "NaClBr + Na"
       ],
       "correct": 0,
-      "explanation": "Chlorine, more reactive than bromine (halogen reactivity decreases going down the group), displaces Br⁻ from NaBr, forming NaCl and elemental Br₂: Cl₂ + 2NaBr → 2NaCl + Br₂. (b) NaCl₂ + NaBr is chemically impossible as written — sodium is always +1, so it can't form NaCl₂ (which would require Cl to have an unusual combined charge), and the equation as given isn't even balanced. (c) 'No reaction' is wrong because Cl₂ is indeed reactive enough to displace Br⁻ from NaBr; a reaction does proceed. (d) NaClBr + Na doesn't correspond to any real product-formation pathway here — it would require Na⁺ being reduced to free Na, but nothing in this reaction reduces sodium; Cl₂ oxidizes Br⁻, it doesn't touch Na⁺ at all."
+      "explanation": "Chlorine, more reactive than bromine (halogen reactivity decreases going down the group), displaces Br⁻ from NaBr, forming NaCl and elemental Br₂: Cl₂ + 2NaBr → 2NaCl + Br₂. (B) NaCl₂ + NaBr is chemically impossible as written — sodium is always +1, so it can't form NaCl₂ (which would require Cl to have an unusual combined charge), and the equation as given isn't even balanced. (C) 'No reaction' is wrong because Cl₂ is indeed reactive enough to displace Br⁻ from NaBr; a reaction does proceed. (D) NaClBr + Na doesn't correspond to any real product-formation pathway here — it would require Na⁺ being reduced to free Na, but nothing in this reaction reduces sodium; Cl₂ oxidizes Br⁻, it doesn't touch Na⁺ at all."
     },
     {
       "id": "4-53",
@@ -3846,7 +3846,7 @@ const QUESTIONS = {
         "CaCO₃ → CaO + CO₂"
       ],
       "correct": 3,
-      "explanation": "Calcium carbonate breaking down into calcium oxide and carbon dioxide when heated is a classic decomposition reaction: one compound splitting into two simpler products. (a) H₂ + Cl₂ → 2HCl is synthesis — two elements combining into one compound, the reverse pattern. (c) AgNO₃ + KCl → AgCl + KNO₃ is double replacement — two compounds trading ions, not one compound breaking apart. (d) Fe + S → FeS is synthesis — two elements combining into a single compound, not a compound decomposing."
+      "explanation": "Calcium carbonate breaking down into calcium oxide and carbon dioxide when heated is a classic decomposition reaction: one compound splitting into two simpler products. (C) H₂ + Cl₂ → 2HCl is synthesis — two elements combining into one compound, the reverse pattern. (A) AgNO₃ + KCl → AgCl + KNO₃ is double replacement — two compounds trading ions, not one compound breaking apart. (B) Fe + S → FeS is synthesis — two elements combining into a single compound, not a compound decomposing."
     },
     {
       "id": "4-54",
@@ -3859,7 +3859,7 @@ const QUESTIONS = {
         "Acid + Base → Salt + Water (molecular form only)"
       ],
       "correct": 2,
-      "explanation": "Because both the strong acid and strong base fully dissociate, and the resulting salt is generally soluble, the acid's anion and the base's cation are always spectators and cancel, leaving the universal net ionic equation H⁺(aq) + OH⁻(aq) → H₂O(l). (a) reverses the process — this is water's own (extremely limited) autoionization equilibrium, not the forward neutralization reaction being described. (c) shows the molecular (not net ionic) equation and doesn't reflect that spectator ions have been removed, so it isn't what's being asked for. (d) is wrong precisely because the net ionic equation is universal — it's the same H⁺ + OH⁻ → H₂O for every strong acid–strong base pair, since whatever salt forms is left behind as spectators regardless of its identity."
+      "explanation": "Because both the strong acid and strong base fully dissociate, and the resulting salt is generally soluble, the acid's anion and the base's cation are always spectators and cancel, leaving the universal net ionic equation H⁺(aq) + OH⁻(aq) → H₂O(l). (A) reverses the process — this is water's own (extremely limited) autoionization equilibrium, not the forward neutralization reaction being described. (D) shows the molecular (not net ionic) equation and doesn't reflect that spectator ions have been removed, so it isn't what's being asked for. (B) is wrong precisely because the net ionic equation is universal — it's the same H⁺ + OH⁻ → H₂O for every strong acid–strong base pair, since whatever salt forms is left behind as spectators regardless of its identity."
     },
     {
       "id": "4-55",
@@ -3872,7 +3872,7 @@ const QUESTIONS = {
         "3, 1, 1, 3"
       ],
       "correct": 0,
-      "explanation": "H₃PO₄ has 3 acidic hydrogens, needing 3 NaOH (one OH⁻ per H⁺); this produces 1 Na₃PO₄ (using all 3 Na⁺) and 3 H₂O. Final: H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O, i.e. 1,3,1,3. (b) 1,1,1,1 leaves the acid only partially neutralized — only 1 of the 3 acidic H's is accounted for, and Na₃PO₄ needs 3 Na⁺, not the 1 supplied. (c) 3,1,1,3 way overshoots the acid (3 H₃PO₄ would need 9 NaOH, not 1) and undershoots the base needed for even 1 Na₃PO₄. (d) 1,3,3,1 can't work — a single H₃PO₄ can only supply 1 phosphate, not enough to form 3 Na₃PO₄ (which alone would require 3 P and 9 Na⁺, far more than what's provided)."
+      "explanation": "H₃PO₄ has 3 acidic hydrogens, needing 3 NaOH (one OH⁻ per H⁺); this produces 1 Na₃PO₄ (using all 3 Na⁺) and 3 H₂O. Final: H₃PO₄ + 3NaOH → Na₃PO₄ + 3H₂O, i.e. 1,3,1,3. (C) 1,1,1,1 leaves the acid only partially neutralized — only 1 of the 3 acidic H's is accounted for, and Na₃PO₄ needs 3 Na⁺, not the 1 supplied. (D) 3,1,1,3 way overshoots the acid (3 H₃PO₄ would need 9 NaOH, not 1) and undershoots the base needed for even 1 Na₃PO₄. (B) 1,3,3,1 can't work — a single H₃PO₄ can only supply 1 phosphate, not enough to form 3 Na₃PO₄ (which alone would require 3 P and 9 Na⁺, far more than what's provided)."
     },
     {
       "id": "4-56",
@@ -3885,7 +3885,7 @@ const QUESTIONS = {
         "A salt and water"
       ],
       "correct": 3,
-      "explanation": "A neutralization reaction between an acid and a base generally produces a salt (from the acid's anion and base's cation) and water (from H⁺ combining with OH⁻). (a) An oxide and hydrogen gas describes a different reaction type entirely (not the standard acid-base pattern). (c) 'Two new acids' doesn't reflect real acid-base chemistry — an acid and a base react to neutralize each other, not to generate more acids. (d) 'A precipitate only' is wrong because water is always a product of neutralization, and most neutralizations don't even produce a precipitate at all — a precipitate only forms in the specific cases where the resulting salt happens to be insoluble, which isn't the general case."
+      "explanation": "A neutralization reaction between an acid and a base generally produces a salt (from the acid's anion and base's cation) and water (from H⁺ combining with OH⁻). (C) An oxide and hydrogen gas describes a different reaction type entirely (not the standard acid-base pattern). (A) 'Two new acids' doesn't reflect real acid-base chemistry — an acid and a base react to neutralize each other, not to generate more acids. (B) 'A precipitate only' is wrong because water is always a product of neutralization, and most neutralizations don't even produce a precipitate at all — a precipitate only forms in the specific cases where the resulting salt happens to be insoluble, which isn't the general case."
     },
     {
       "id": "4-57",
@@ -3898,7 +3898,7 @@ const QUESTIONS = {
         "0.5 moles"
       ],
       "correct": 0,
-      "explanation": "'Diprotic' means each H₂SO₄ molecule has two acidic hydrogens available, so 1 mole of H₂SO₄ provides up to 2 moles of H⁺ upon complete neutralization — this is exactly why H₂SO₄ needs a 1:2 ratio with a monoprotic base. (a) 0.5 moles is backwards — it doesn't correspond to any real 'protic' classification. (b) 3 moles would describe a triprotic acid like H₃PO₄, not a diprotic one. (d) 1 mole is what a monoprotic acid (like HCl) would provide, not a diprotic one."
+      "explanation": "'Diprotic' means each H₂SO₄ molecule has two acidic hydrogens available, so 1 mole of H₂SO₄ provides up to 2 moles of H⁺ upon complete neutralization — this is exactly why H₂SO₄ needs a 1:2 ratio with a monoprotic base. (D) 0.5 moles is backwards — it doesn't correspond to any real 'protic' classification. (C) 3 moles would describe a triprotic acid like H₃PO₄, not a diprotic one. (B) 1 mole is what a monoprotic acid (like HCl) would provide, not a diprotic one."
     },
     {
       "id": "4-58",
@@ -3911,7 +3911,7 @@ const QUESTIONS = {
         "K₂Br and H₂O"
       ],
       "correct": 1,
-      "explanation": "H⁺ from HBr combines with OH⁻ from KOH to form H₂O, while K⁺ and Br⁻ combine to form the salt KBr: HBr + KOH → KBr + H₂O. (a) KH and BrOH pair the ions incorrectly — K⁺ should pair with Br⁻ (forming the salt) and H⁺ with OH⁻ (forming water), not this scrambled combination, which also doesn't reflect any real neutralization mechanism. (c) KBr and H₂ is wrong because H₂ gas is the product of a metal reacting with an acid (a redox reaction), not of an acid-base neutralization, which produces water instead. (d) K₂Br has the wrong formula — K⁺ is +1 and Br⁻ is −1, so the neutral salt must be KBr (1:1), not K₂Br, which would require Br to carry a −2 charge."
+      "explanation": "H⁺ from HBr combines with OH⁻ from KOH to form H₂O, while K⁺ and Br⁻ combine to form the salt KBr: HBr + KOH → KBr + H₂O. (C) KH and BrOH pair the ions incorrectly — K⁺ should pair with Br⁻ (forming the salt) and H⁺ with OH⁻ (forming water), not this scrambled combination, which also doesn't reflect any real neutralization mechanism. (A) KBr and H₂ is wrong because H₂ gas is the product of a metal reacting with an acid (a redox reaction), not of an acid-base neutralization, which produces water instead. (D) K₂Br has the wrong formula — K⁺ is +1 and Br⁻ is −1, so the neutral salt must be KBr (1:1), not K₂Br, which would require Br to carry a −2 charge."
     },
     {
       "id": "4-59",
@@ -3924,7 +3924,7 @@ const QUESTIONS = {
         "The salt formed never actually exists in solution."
       ],
       "correct": 2,
-      "explanation": "Since the acid and base are both strong and the resulting salt is generally soluble, the salt's ions (the acid's original anion, the base's original cation) stay dissolved and unchanged — true spectators — while only H⁺ and OH⁻ actually combine to form water, which is why the net ionic equation is universal regardless of the specific acid/base used. (a) is wrong — the salt's ions absolutely do exist in solution; that's precisely why they're spectators rather than absent. (b) is wrong — net ionic equations do show the real product formed (water here); they just omit species that don't change. (d) is wrong — many salts, including the ones formed from strong acid–strong base neutralizations, are in fact soluble; that solubility is exactly why their ions remain dissolved as spectators rather than precipitating out."
+      "explanation": "Since the acid and base are both strong and the resulting salt is generally soluble, the salt's ions (the acid's original anion, the base's original cation) stay dissolved and unchanged — true spectators — while only H⁺ and OH⁻ actually combine to form water, which is why the net ionic equation is universal regardless of the specific acid/base used. (D) is wrong — the salt's ions absolutely do exist in solution; that's precisely why they're spectators rather than absent. (A) is wrong — net ionic equations do show the real product formed (water here); they just omit species that don't change. (B) is wrong — many salts, including the ones formed from strong acid–strong base neutralizations, are in fact soluble; that solubility is exactly why their ions remain dissolved as spectators rather than precipitating out."
     },
     {
       "id": "4-60",
@@ -3937,7 +3937,7 @@ const QUESTIONS = {
         "2HCl + Ca(OH)₂ → CaCl₂ + H₂O₂"
       ],
       "correct": 1,
-      "explanation": "Ca(OH)₂ provides 2 OH⁻ per formula unit, requiring 2 HCl (each providing 1 H⁺) for complete neutralization: 2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O (Ca: 1=1, Cl: 2=2, O: 2=2, H: 4=4). (a) 1:1 HCl leaves the equation unbalanced — only 1 Cl⁻ is supplied, but CaCl₂ requires 2, and only 1 of the 2 OH⁻ from Ca(OH)₂ gets neutralized. (b) 'CaCl' is not a valid formula — calcium is always +2 and chloride is −1, so the correct 1:2 charge-balanced salt is CaCl₂, not CaCl. (d) H₂O₂ (hydrogen peroxide) is the wrong product — acid-base neutralization produces ordinary water (H₂O), not peroxide, which is an entirely different compound."
+      "explanation": "Ca(OH)₂ provides 2 OH⁻ per formula unit, requiring 2 HCl (each providing 1 H⁺) for complete neutralization: 2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O (Ca: 1=1, Cl: 2=2, O: 2=2, H: 4=4). (A) 1:1 HCl leaves the equation unbalanced — only 1 Cl⁻ is supplied, but CaCl₂ requires 2, and only 1 of the 2 OH⁻ from Ca(OH)₂ gets neutralized. (C) 'CaCl' is not a valid formula — calcium is always +2 and chloride is −1, so the correct 1:2 charge-balanced salt is CaCl₂, not CaCl. (D) H₂O₂ (hydrogen peroxide) is the wrong product — acid-base neutralization produces ordinary water (H₂O), not peroxide, which is an entirely different compound."
     },
     {
       "id": "4-61",
@@ -3950,7 +3950,7 @@ const QUESTIONS = {
         "+4"
       ],
       "correct": 1,
-      "explanation": "Oxygen is almost always −2 in compounds (4 × −2 = −8 total); since the ion's overall charge is −2, S + (−8) = −2, so S = +6. (a) −2 is oxygen's oxidation state, not sulfur's — a mix-up of which atom is being assigned. (c) +4 would be sulfur's oxidation state in a species with fewer oxygens, like sulfite (SO₃²⁻: S + (−6) = −2 → S = +4), not in sulfate with its 4 oxygens. (d) +2 is too low to balance the −8 contribution from four oxygen atoms against the ion's overall −2 charge."
+      "explanation": "Oxygen is almost always −2 in compounds (4 × −2 = −8 total); since the ion's overall charge is −2, S + (−8) = −2, so S = +6. (C) −2 is oxygen's oxidation state, not sulfur's — a mix-up of which atom is being assigned. (D) +4 would be sulfur's oxidation state in a species with fewer oxygens, like sulfite (SO₃²⁻: S + (−6) = −2 → S = +4), not in sulfate with its 4 oxygens. (A) +2 is too low to balance the −8 contribution from four oxygen atoms against the ion's overall −2 charge."
     },
     {
       "id": "4-62",
@@ -3963,7 +3963,7 @@ const QUESTIONS = {
         "Na, since it gains electrons"
       ],
       "correct": 1,
-      "explanation": "Sodium's oxidation number rises from 0 (elemental Na) to +1 (in NaCl) — an increase, meaning loss of electrons, the definition of oxidation. (a) is wrong on both the direction and the identity: Na loses electrons here, it doesn't gain them. (b) misassigns the species — chlorine's oxidation number decreases from 0 to −1 (a decrease, meaning reduction), not an increase, so chlorine is reduced, not oxidized. (c) is wrong because both species do change oxidation state (Na: 0→+1, Cl: 0→-1); this is a textbook redox reaction, not one with no oxidation-state change."
+      "explanation": "Sodium's oxidation number rises from 0 (elemental Na) to +1 (in NaCl) — an increase, meaning loss of electrons, the definition of oxidation. (D) is wrong on both the direction and the identity: Na loses electrons here, it doesn't gain them. (C) misassigns the species — chlorine's oxidation number decreases from 0 to −1 (a decrease, meaning reduction), not an increase, so chlorine is reduced, not oxidized. (A) is wrong because both species do change oxidation state (Na: 0→+1, Cl: 0→-1); this is a textbook redox reaction, not one with no oxidation-state change."
     },
     {
       "id": "4-63",
@@ -3976,7 +3976,7 @@ const QUESTIONS = {
         "H₂, because it is a product"
       ],
       "correct": 1,
-      "explanation": "The reducing agent is the species that gets oxidized (loses electrons) and thereby causes another species to be reduced; Mg goes from 0 to +2 (oxidized), donating the 2 electrons that reduce H⁺ to H₂, making Mg the reducing agent even though it's the one being oxidized. (b) H⁺ is wrong — H⁺ is reduced (+1 → 0 in H₂, gaining an electron), which makes it the oxidizing agent, not the reducing agent. (c) Cl⁻ is wrong — chloride is a spectator ion here, staying at −1 throughout and never changing oxidation state, so it's neither oxidized, reduced, nor an 'agent' of either process. (d) H₂ is wrong reasoning — being a product doesn't determine reducing-agent status; H₂ is actually the species that resulted from being reduced, the opposite of a reducing agent."
+      "explanation": "The reducing agent is the species that gets oxidized (loses electrons) and thereby causes another species to be reduced; Mg goes from 0 to +2 (oxidized), donating the 2 electrons that reduce H⁺ to H₂, making Mg the reducing agent even though it's the one being oxidized. (C) H⁺ is wrong — H⁺ is reduced (+1 → 0 in H₂, gaining an electron), which makes it the oxidizing agent, not the reducing agent. (A) Cl⁻ is wrong — chloride is a spectator ion here, staying at −1 throughout and never changing oxidation state, so it's neither oxidized, reduced, nor an 'agent' of either process. (D) H₂ is wrong reasoning — being a product doesn't determine reducing-agent status; H₂ is actually the species that resulted from being reduced, the opposite of a reducing agent."
     },
     {
       "id": "4-64",
@@ -3989,7 +3989,7 @@ const QUESTIONS = {
         "+12"
       ],
       "correct": 2,
-      "explanation": "Oxygen is −2 (7 × −2 = −14 total); the overall ion charge is −2, so 2Cr + (−14) = −2, meaning 2Cr = +12 and each Cr = +6. (a) +7 doesn't correctly balance this ion's charge against the −14 from oxygen — it belongs to a different pattern (like Mn in MnO₄⁻), not Cr in Cr₂O₇²⁻. (c) +3 is far too low to offset −14 down to an overall charge of −2; that's the oxidation state of Cr in species like Cr³⁺ or Cr₂O₃, not dichromate. (d) +12 is the combined oxidation number contribution of both chromium atoms together, but forgets the final step of dividing by the 2 Cr atoms present to get the oxidation number of each individual Cr."
+      "explanation": "Oxygen is −2 (7 × −2 = −14 total); the overall ion charge is −2, so 2Cr + (−14) = −2, meaning 2Cr = +12 and each Cr = +6. (A) +7 doesn't correctly balance this ion's charge against the −14 from oxygen — it belongs to a different pattern (like Mn in MnO₄⁻), not Cr in Cr₂O₇²⁻. (B) +3 is far too low to offset −14 down to an overall charge of −2; that's the oxidation state of Cr in species like Cr³⁺ or Cr₂O₃, not dichromate. (D) +12 is the combined oxidation number contribution of both chromium atoms together, but forgets the final step of dividing by the 2 Cr atoms present to get the oxidation number of each individual Cr."
     },
     {
       "id": "4-65",
@@ -4002,7 +4002,7 @@ const QUESTIONS = {
         "Because this particular reaction does not actually involve any redox chemistry taking place at all."
       ],
       "correct": 1,
-      "explanation": "Disproportionation occurs when a single element, starting at one oxidation state, ends up in two different products at two different oxidation states — one higher (oxidized) and one lower (reduced). Here, Cl₂ (0) becomes both Cl⁻ in NaCl (reduced to −1) and Cl in NaClO₃ (oxidized to +5), with chlorine serving as both the oxidized and reduced species. (a) is wrong — sodium's oxidation state doesn't change here (it stays +1 throughout, as a spectator-like ion), and it's chlorine, not sodium, that undergoes the oxidation-state changes. (b) is wrong — this reaction clearly does involve redox chemistry, since chlorine's oxidation state changes in two different directions. (c) is wrong and directly contradicted by the reaction — far from being unreactive, chlorine is the only element whose oxidation state changes at all, making it the sole species undergoing any redox chemistry here.",
+      "explanation": "Disproportionation occurs when a single element, starting at one oxidation state, ends up in two different products at two different oxidation states — one higher (oxidized) and one lower (reduced). Here, Cl₂ (0) becomes both Cl⁻ in NaCl (reduced to −1) and Cl in NaClO₃ (oxidized to +5), with chlorine serving as both the oxidized and reduced species. (C) is wrong — sodium's oxidation state doesn't change here (it stays +1 throughout, as a spectator-like ion), and it's chlorine, not sodium, that undergoes the oxidation-state changes. (D) is wrong — this reaction clearly does involve redox chemistry, since chlorine's oxidation state changes in two different directions. (A) is wrong and directly contradicted by the reaction — far from being unreactive, chlorine is the only element whose oxidation state changes at all, making it the sole species undergoing any redox chemistry here.",
       "stretch": true
     },
     {
@@ -4016,7 +4016,7 @@ const QUESTIONS = {
         "2MnO₄⁻ + 5C₂O₄²⁻ + 8H⁺ → 2Mn²⁺ + 10CO₂ + 4H₂O"
       ],
       "correct": 0,
-      "explanation": "Reduction half-reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5 electrons gained per Mn). Oxidation half-reaction: C₂O₄²⁻ → 2CO₂ + 2e⁻ (2 electrons lost per oxalate). Matching electron counts requires multiplying the reduction half-reaction by 2 and the oxidation half-reaction by 5, giving 10 electrons on each side: 2MnO₄⁻ + 16H⁺ + 10e⁻ → 2Mn²⁺ + 8H₂O and 5C₂O₄²⁻ → 10CO₂ + 10e⁻. Adding and cancelling the 10 electrons gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O — every atom (Mn: 2=2, C: 10=10, O: 28=28, H: 16=16) and the overall charge (+4 on each side) check out. (a) uses a 1:1 MnO₄⁻:C₂O₄²⁻ ratio instead of the required 2:5 needed to match the 5e⁻-vs-2e⁻ electron counts — its atoms happen to balance at this smaller scale, but the charge doesn't (left side is +5, right side is +2), exposing the uncorrected electron mismatch. (c) keeps the correct 2:5 MnO₄⁻:C₂O₄²⁻ ratio but only adds 8H⁺ and 4H₂O instead of 16H⁺ and 8H₂O — not enough oxygen and hydrogen to balance the two reduction half-reactions once they're scaled up (28 O needed on the left vs. only 24 accounted for on the right), an unbalanced O/H error. (d) swaps the coefficients (5 MnO₄⁻ and 2 C₂O₄²⁻ instead of 2 and 5) — the wrong stoichiometric ratio entirely, which fails to conserve oxygen (28 O on the left vs. only 16 O on the right) even though Mn, C, and H each superficially look balanced."
+      "explanation": "Reduction half-reaction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5 electrons gained per Mn). Oxidation half-reaction: C₂O₄²⁻ → 2CO₂ + 2e⁻ (2 electrons lost per oxalate). Matching electron counts requires multiplying the reduction half-reaction by 2 and the oxidation half-reaction by 5, giving 10 electrons on each side: 2MnO₄⁻ + 16H⁺ + 10e⁻ → 2Mn²⁺ + 8H₂O and 5C₂O₄²⁻ → 10CO₂ + 10e⁻. Adding and cancelling the 10 electrons gives 2MnO₄⁻ + 5C₂O₄²⁻ + 16H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O — every atom (Mn: 2=2, C: 10=10, O: 28=28, H: 16=16) and the overall charge (+4 on each side) check out. (C) uses a 1:1 MnO₄⁻:C₂O₄²⁻ ratio instead of the required 2:5 needed to match the 5e⁻-vs-2e⁻ electron counts — its atoms happen to balance at this smaller scale, but the charge doesn't (left side is +5, right side is +2), exposing the uncorrected electron mismatch. (D) keeps the correct 2:5 MnO₄⁻:C₂O₄²⁻ ratio but only adds 8H⁺ and 4H₂O instead of 16H⁺ and 8H₂O — not enough oxygen and hydrogen to balance the two reduction half-reactions once they're scaled up (28 O needed on the left vs. only 24 accounted for on the right), an unbalanced O/H error. (B) swaps the coefficients (5 MnO₄⁻ and 2 C₂O₄²⁻ instead of 2 and 5) — the wrong stoichiometric ratio entirely, which fails to conserve oxygen (28 O on the left vs. only 16 O on the right) even though Mn, C, and H each superficially look balanced."
     }
   ],
   "5": [

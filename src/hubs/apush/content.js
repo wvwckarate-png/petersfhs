@@ -2689,7 +2689,7 @@ const QUESTIONS = {
         "Jefferson delayed the purchase for over a decade until Congress passed a specific constitutional amendment."
       ],
       "correct": 0,
-      "explanation": "Jefferson had built his identity opposing Hamilton's loose construction, yet relied on that same expansive reading to complete the purchase. A is false — no such amendment was passed or needed; B is false, as Jefferson (not Hamilton) led the negotiation; D reverses history: Jefferson opposed, rather than supported, loose construction throughout his career until this reversal."
+      "explanation": "Jefferson had built his identity opposing Hamilton's loose construction, yet relied on that same expansive reading to complete the purchase. D is false — no such amendment was passed or needed; C is false, as Jefferson (not Hamilton) led the negotiation; B reverses history: Jefferson opposed, rather than supported, loose construction throughout his career until this reversal."
     },
     {
       "id": "4-4",
@@ -2702,7 +2702,7 @@ const QUESTIONS = {
         "The constitutionality of Jefferson's 1803 purchase of the Louisiana Territory from France."
       ],
       "correct": 0,
-      "explanation": "Marbury v. Madison (1803) established judicial review, a landmark precedent for the judicial branch. A and D describe unrelated later questions never actually ruled on in this case; B refers to a real later dispute (McCulloch v. Maryland, 1819) decided in a separate case."
+      "explanation": "Marbury v. Madison (1803) established judicial review, a landmark precedent for the judicial branch. C and D describe unrelated later questions never actually ruled on in this case; B refers to a real later dispute (McCulloch v. Maryland, 1819) decided in a separate case."
     },
     {
       "id": "4-5",
@@ -2728,7 +2728,7 @@ const QUESTIONS = {
         "It applied only to the single 1803 case and set no lasting precedent for later rulings."
       ],
       "correct": 1,
-      "explanation": "Judicial review, though nowhere explicit in the Constitution's text, became a foundational and continuously relied-upon precedent. A and D are false — the principle was never confined to one case nor overturned; Congress in fact has no direct mechanism to overturn a constitutional ruling by simple vote, contrary to B."
+      "explanation": "Judicial review, though nowhere explicit in the Constitution's text, became a foundational and continuously relied-upon precedent. C and D are false — the principle was never confined to one case nor overturned; Congress in fact has no direct mechanism to overturn a constitutional ruling by simple vote, contrary to A."
     },
     {
       "id": "4-7",
@@ -2741,7 +2741,7 @@ const QUESTIONS = {
         "The argument is inaccurate — the Louisiana Purchase shows Jefferson departing from his stated principles."
       ],
       "correct": 3,
-      "explanation": "The Louisiana Purchase shows Jefferson abandoning his strict-constructionist principles when practical benefits outweighed ideological consistency. A mischaracterizes Marbury (which was about judicial review, not federal territorial power); C ignores the Purchase entirely; D is false — ample documentary evidence, including Jefferson's own correspondence, survives."
+      "explanation": "The Louisiana Purchase shows Jefferson abandoning his strict-constructionist principles when practical benefits outweighed ideological consistency. B mischaracterizes Marbury (which was about judicial review, not federal territorial power); C ignores the Purchase entirely; A is false — ample documentary evidence, including Jefferson's own correspondence, survives."
     },
     {
       "id": "4-8",

@@ -118,7 +118,7 @@ const QUESTIONS = {
           "To argue that the city's public bus system should be shut down given how unreliable it has become."
         ],
         "correct": 2,
-        "explanation": "The speaker names the purpose directly: funding for the twelve missing drivers needed to restore the schedule “already promised to this city.” A is wrong because the speaker never faults the route's original creation, only its current understaffing. C is wrong because the speaker relies on the bus system rather than rejecting it. D is wrong because the speaker explicitly rules this out: “I am not here tonight to ask this council for...a subway extension.”"
+        "explanation": "The speaker names the purpose directly: funding for the twelve missing drivers needed to restore the schedule “already promised to this city.” B is wrong because the speaker never faults the route's original creation, only its current understaffing. D is wrong because the speaker relies on the bus system rather than rejecting it. A is wrong because the speaker explicitly rules this out: “I am not here tonight to ask this council for...a subway extension.”"
       },
       {
         "id": "1-2",
@@ -131,7 +131,7 @@ const QUESTIONS = {
           "To narrow the request to a specific, modest scope, distinguishing it from a larger ask."
         ],
         "correct": 3,
-        "explanation": "By naming and rejecting the bigger asks (a new line, a subway extension) before naming the actual request, the speaker narrows the scope to something modest and concrete — twelve drivers — which is easier for a council to grant. B and D are wrong because the sentence sharpens the request rather than derailing or muddying it. A is wrong because the sentence is about the request's scope, not a judgment on past council decisions."
+        "explanation": "By naming and rejecting the bigger asks (a new line, a subway extension) before naming the actual request, the speaker narrows the scope to something modest and concrete — twelve drivers — which is easier for a council to grant. A and B are wrong because the sentence sharpens the request rather than derailing or muddying it. C is wrong because the sentence is about the request's scope, not a judgment on past council decisions."
       },
       {
         "id": "1-3",
@@ -144,7 +144,7 @@ const QUESTIONS = {
           "That the audience has no real stake or interest in transit policy."
         ],
         "correct": 0,
-        "explanation": "A specific, countable figure like ‘late...nine times’ is the kind of concrete evidence a speaker reaches for when abstract claims (‘service has declined’) alone seem unlikely to move a listener — implying the audience needs that vividness to be persuaded. A is wrong because a fully persuaded audience wouldn't need this kind of supporting evidence at all. B underrates the detail: it is chosen deliberately, not decorative. D is wrong because the entire speech assumes the council has a stake in the outcome, or there would be no reason to address them."
+        "explanation": "A specific, countable figure like ‘late...nine times’ is the kind of concrete evidence a speaker reaches for when abstract claims (‘service has declined’) alone seem unlikely to move a listener — implying the audience needs that vividness to be persuaded. C is wrong because a fully persuaded audience wouldn't need this kind of supporting evidence at all. B underrates the detail: it is chosen deliberately, not decorative. D is wrong because the entire speech assumes the council has a stake in the outcome, or there would be no reason to address them."
       },
       {
         "id": "1-4",
@@ -157,7 +157,7 @@ const QUESTIONS = {
           "No identifiable rhetorical appeal is present in this phrase."
         ],
         "correct": 0,
-        "explanation": "The gap the phrase draws — between what was promised ‘on paper’ and what actually happens ‘in practice’ — is designed to make the audience feel the frustration of a broken promise, which is pathos. A is wrong because the speaker cites no credentials here, only lived frustration. C understates the line's clear emotional charge. D is wrong because the phrase contains no number or statistic; the earlier frequency comparison, not this line, is the logos-based moment."
+        "explanation": "The gap the phrase draws — between what was promised ‘on paper’ and what actually happens ‘in practice’ — is designed to make the audience feel the frustration of a broken promise, which is pathos. B is wrong because the speaker cites no credentials here, only lived frustration. D understates the line's clear emotional charge. C is wrong because the phrase contains no number or statistic; the earlier frequency comparison, not this line, is the logos-based moment."
       },
       {
         "id": "1-5",
@@ -170,7 +170,7 @@ const QUESTIONS = {
           "A general criticism of people who choose to own cars."
         ],
         "correct": 1,
-        "explanation": "Opening with why she moved to the city — specifically because she wouldn't need a car — establishes that the speaker is not a distant critic but someone directly and personally affected, a form of ethos built from lived experience rather than professional expertise. A is wrong because this detail is precisely about her own standing to speak. B misreads the line as a judgment on car owners, which it isn't. D is wrong because no statistic appears in this detail."
+        "explanation": "Opening with why she moved to the city — specifically because she wouldn't need a car — establishes that the speaker is not a distant critic but someone directly and personally affected, a form of ethos built from lived experience rather than professional expertise. C is wrong because this detail is precisely about her own standing to speak. D misreads the line as a judgment on car owners, which it isn't. A is wrong because no statistic appears in this detail."
       },
       {
         "id": "1-6",
@@ -183,7 +183,7 @@ const QUESTIONS = {
           "Angrily confrontational."
         ],
         "correct": 1,
-        "explanation": "The speaker names genuine frustration (‘late...nine times’) but frames her request modestly and specifically (‘I am not here to ask...I am asking’), which reads as measured rather than heated. A overstates the register: there is no confrontation or accusation aimed at the council. B is wrong because the speech is openly personal and invested, not detached. C is wrong because nothing in the passage suggests the outcome is settled or being celebrated."
+        "explanation": "The speaker names genuine frustration (‘late...nine times’) but frames her request modestly and specifically (‘I am not here to ask...I am asking’), which reads as measured rather than heated. D overstates the register: there is no confrontation or accusation aimed at the council. C is wrong because the speech is openly personal and invested, not detached. A is wrong because nothing in the passage suggests the outcome is settled or being celebrated."
       },
       {
         "id": "1-7",
@@ -209,7 +209,7 @@ const QUESTIONS = {
           "To give a concrete, measurable comparison that makes the decline specific rather than vague."
         ],
         "correct": 3,
-        "explanation": "Naming both the old frequency and the new one turns a vague claim (‘service has gotten worse’) into something exact and verifiable, which is a logos-based strengthening of the argument. A misreads the comparison: the twelve-minute schedule is presented as the standard being lost, not a prior problem. B overstates the detail as excessive when it is a single, tightly relevant comparison. D understates its clear persuasive function."
+        "explanation": "Naming both the old frequency and the new one turns a vague claim (‘service has gotten worse’) into something exact and verifiable, which is a logos-based strengthening of the argument. B misreads the comparison: the twelve-minute schedule is presented as the standard being lost, not a prior problem. C overstates the detail as excessive when it is a single, tightly relevant comparison. A understates its clear persuasive function."
       },
       {
         "id": "2-1",
@@ -222,7 +222,7 @@ const QUESTIONS = {
           "That feeling what 'wrong' is like is a necessary step toward recognizing 'right.'"
         ],
         "correct": 3,
-        "explanation": "The instructor's line — ‘Now you know what wrong feels like. That's the only way you'll recognize right’ — states directly that failure is a necessary step toward eventual success, which the writer confirms she came to understand. A contradicts the passage's clear point. B misreads a comment the writer calls correct and formative, not discouraging. D is unsupported; the passage is about effort and repetition, not innate talent."
+        "explanation": "The instructor's line — ‘Now you know what wrong feels like. That's the only way you'll recognize right’ — states directly that failure is a necessary step toward eventual success, which the writer confirms she came to understand. C contradicts the passage's clear point. B misreads a comment the writer calls correct and formative, not discouraging. A is unsupported; the passage is about effort and repetition, not innate talent."
       },
       {
         "id": "2-2",
@@ -235,7 +235,7 @@ const QUESTIONS = {
           "A direct quotation attributed to a credentialed source."
         ],
         "correct": 1,
-        "explanation": "Describing the weld as looking ‘ashamed of itself’ personifies the failed attempt, using vivid, self-mocking imagery to convey incompetence memorably. B and D are wrong because this comparison is the writer's own figurative language, not a citation or quotation from anyone else. C is wrong because no statistic appears anywhere in this comparison."
+        "explanation": "Describing the weld as looking ‘ashamed of itself’ personifies the failed attempt, using vivid, self-mocking imagery to convey incompetence memorably. A and D are wrong because this comparison is the writer's own figurative language, not a citation or quotation from anyone else. C is wrong because no statistic appears anywhere in this comparison."
       },
       {
         "id": "2-3",
@@ -248,7 +248,7 @@ const QUESTIONS = {
           "It shifts the passage's focus away from welding entirely."
         ],
         "correct": 2,
-        "explanation": "Establishing that the instructor has been welding ‘since before I was born’ gives her a lifetime of authority, so when she finally speaks, her brief remark carries the weight of expertise rather than a stranger's opinion. A misreads long experience as a liability rather than a credential. C understates a detail placed specifically to build trust in her judgment. D is wrong because this detail stays squarely on the subject of welding expertise."
+        "explanation": "Establishing that the instructor has been welding ‘since before I was born’ gives her a lifetime of authority, so when she finally speaks, her brief remark carries the weight of expertise rather than a stranger's opinion. B misreads long experience as a liability rather than a credential. A understates a detail placed specifically to build trust in her judgment. D is wrong because this detail stays squarely on the subject of welding expertise."
       },
       {
         "id": "2-4",
@@ -261,7 +261,7 @@ const QUESTIONS = {
           "It has no real effect on the passage's persuasive strategy."
         ],
         "correct": 0,
-        "explanation": "Admitting she ‘assumed, wrongly’ that welding would come easily makes the writer's later insight feel earned through honest self-correction rather than simply asserted. A understates a deliberate, credibility-building admission. B misreads the sequence: the admission sets up, rather than contradicts, the later point about failure's value. C overgeneralizes a single wrong assumption about one specific skill into a claim about all physical work."
+        "explanation": "Admitting she ‘assumed, wrongly’ that welding would come easily makes the writer's later insight feel earned through honest self-correction rather than simply asserted. D understates a deliberate, credibility-building admission. B misreads the sequence: the admission sets up, rather than contradicts, the later point about failure's value. C overgeneralizes a single wrong assumption about one specific skill into a claim about all physical work."
       },
       {
         "id": "2-5",
@@ -274,7 +274,7 @@ const QUESTIONS = {
           "Angry and confrontational toward the instructor."
         ],
         "correct": 2,
-        "explanation": "The writer looks back on a humbling experience with eventual understanding and respect for the lesson it taught, which is reflective and quietly appreciative rather than heated or flat. B is wrong because nothing in the passage expresses anger toward the instructor, who is portrayed with respect. C understates the writer's clear personal engagement with the memory. D is wrong because the writer explicitly comes to value, not resent, the difficulty."
+        "explanation": "The writer looks back on a humbling experience with eventual understanding and respect for the lesson it taught, which is reflective and quietly appreciative rather than heated or flat. D is wrong because nothing in the passage expresses anger toward the instructor, who is portrayed with respect. B understates the writer's clear personal engagement with the memory. A is wrong because the writer explicitly comes to value, not resent, the difficulty."
       },
       {
         "id": "2-6",
@@ -287,7 +287,7 @@ const QUESTIONS = {
           "To introduce an entirely new, unrelated topic at the essay's close."
         ],
         "correct": 0,
-        "explanation": "Noting that full understanding took ‘another forty hours’ extends the essay's theme that learning happens gradually through continued effort, not in an instant. A is wrong because the delay confirms, rather than undermines, the truth of the instructor's comment. B is wrong because the sentence stays on the same subject — learning to weld. D misreads a statement about the writer's own gradual understanding as a complaint about the instructor's pacing."
+        "explanation": "Noting that full understanding took ‘another forty hours’ extends the essay's theme that learning happens gradually through continued effort, not in an instant. B is wrong because the delay confirms, rather than undermines, the truth of the instructor's comment. D is wrong because the sentence stays on the same subject — learning to weld. C misreads a statement about the writer's own gradual understanding as a complaint about the instructor's pacing."
       },
       {
         "id": "2-7",
@@ -300,7 +300,7 @@ const QUESTIONS = {
           "To persuade readers to pursue welding as a career."
         ],
         "correct": 1,
-        "explanation": "The essay's real work is reflecting on what the writer learned from failing repeatedly — that experiencing ‘wrong’ is how you eventually recognize ‘right’ — not teaching welding technique or making a case for the trade. A is wrong because technical instruction is never the essay's focus. B is unsupported; the training itself is portrayed positively through the instructor. C overreaches: the essay draws a personal lesson, not a recruitment pitch."
+        "explanation": "The essay's real work is reflecting on what the writer learned from failing repeatedly — that experiencing ‘wrong’ is how you eventually recognize ‘right’ — not teaching welding technique or making a case for the trade. C is wrong because technical instruction is never the essay's focus. A is unsupported; the training itself is portrayed positively through the instructor. D overreaches: the essay draws a personal lesson, not a recruitment pitch."
       },
       {
         "id": "3-1",
@@ -313,7 +313,7 @@ const QUESTIONS = {
           "Uncertain odds are not the same as certain failure, and partial success still shows possibility."
         ],
         "correct": 3,
-        "explanation": "The writer distinguishes ‘not proof the reef survives’ from ‘proof it is still possible’ — citing the new fish generation as evidence that possibility remains, even without guaranteed success. B is wrong because the writer states a clear position throughout. C overstates the writer's carefully hedged claim, which never promises certainty. D directly contradicts the writer's continued commitment to the work despite acknowledging the odds."
+        "explanation": "The writer distinguishes ‘not proof the reef survives’ from ‘proof it is still possible’ — citing the new fish generation as evidence that possibility remains, even without guaranteed success. B is wrong because the writer states a clear position throughout. A overstates the writer's carefully hedged claim, which never promises certainty. C directly contradicts the writer's continued commitment to the work despite acknowledging the odds."
       },
       {
         "id": "3-2",
@@ -326,7 +326,7 @@ const QUESTIONS = {
           "Ethos, relying solely on professional credentials."
         ],
         "correct": 1,
-        "explanation": "Describing the reef turning ‘the color of bone’ evokes death and loss through vivid image rather than data, which is pathos. A is wrong because no number or statistic appears in this specific phrase. C is wrong because this image draws on figurative language, not the writer's credentials. D understates a clearly emotionally charged comparison."
+        "explanation": "Describing the reef turning ‘the color of bone’ evokes death and loss through vivid image rather than data, which is pathos. C is wrong because no number or statistic appears in this specific phrase. D is wrong because this image draws on figurative language, not the writer's credentials. A understates a clearly emotionally charged comparison."
       },
       {
         "id": "3-3",
@@ -339,7 +339,7 @@ const QUESTIONS = {
           "By fully agreeing with the criticism and abandoning the argument, which overstates how completely the writer accepts the counterargument."
         ],
         "correct": 2,
-        "explanation": "The writer grants ‘they may be right about the odds’ — a real concession — before pivoting to argue that uncertain odds differ from certain failure, which is a direct, reasoned response rather than avoidance or agreement. A overstates the concession as total surrender, which the following sentences contradict. C and D are wrong because the writer names the counterargument specifically and answers it, rather than skipping past it or attacking those who raise it."
+        "explanation": "The writer grants ‘they may be right about the odds’ — a real concession — before pivoting to argue that uncertain odds differ from certain failure, which is a direct, reasoned response rather than avoidance or agreement. D overstates the concession as total surrender, which the following sentences contradict. A and B are wrong because the writer names the counterargument specifically and answers it, rather than skipping past it or attacking those who raise it."
       },
       {
         "id": "3-4",
@@ -352,7 +352,7 @@ const QUESTIONS = {
           "It functions as a statistic offered as logical support, though the passage cites no number in this specific phrase."
         ],
         "correct": 0,
-        "explanation": "Naming ‘nine seasons transplanting coral fragments’ establishes direct, sustained, hands-on experience with the exact work under discussion, which builds ethos grounded in practice rather than secondhand knowledge. A dismisses a detail chosen specifically to establish authority. B misreads a credential as an emotional appeal. C is wrong because a count of seasons is a credential, not a statistic offered as evidence for a claim."
+        "explanation": "Naming ‘nine seasons transplanting coral fragments’ establishes direct, sustained, hands-on experience with the exact work under discussion, which builds ethos grounded in practice rather than secondhand knowledge. C dismisses a detail chosen specifically to establish authority. B misreads a credential as an emotional appeal. D is wrong because a count of seasons is a credential, not a statistic offered as evidence for a claim."
       },
       {
         "id": "3-5",
@@ -365,7 +365,7 @@ const QUESTIONS = {
           "Angrily dismissive of critics of the work."
         ],
         "correct": 0,
-        "explanation": "By distinguishing ‘proof the reef survives’ from ‘proof it is still possible,’ the writer makes a precise, honest qualification while still conveying real hope. A is wrong because nothing here addresses critics with hostility. B overstates the writer's carefully hedged claim as overconfidence, which the qualification directly avoids. C is wrong because the passage ends on possibility, not despair."
+        "explanation": "By distinguishing ‘proof the reef survives’ from ‘proof it is still possible,’ the writer makes a precise, honest qualification while still conveying real hope. D is wrong because nothing here addresses critics with hostility. B overstates the writer's carefully hedged claim as overconfidence, which the qualification directly avoids. C is wrong because the passage ends on possibility, not despair."
       },
       {
         "id": "3-6",
@@ -378,7 +378,7 @@ const QUESTIONS = {
           "It is a grammatical error the writer should have corrected."
         ],
         "correct": 1,
-        "explanation": "Standing out against the passage's longer, more complex sentences, this short line's directness gives real weight to the concession, making the pivot that follows feel earned rather than defensive. A overstates the sentence as surrender; the writer pivots to a counterpoint immediately after. B understates a deliberately placed rhetorical beat. D misreads intentional sentence variation as an error."
+        "explanation": "Standing out against the passage's longer, more complex sentences, this short line's directness gives real weight to the concession, making the pivot that follows feel earned rather than defensive. C overstates the sentence as surrender; the writer pivots to a counterpoint immediately after. A understates a deliberately placed rhetorical beat. D misreads intentional sentence variation as an error."
       },
       {
         "id": "4-1",
@@ -391,7 +391,7 @@ const QUESTIONS = {
           "The algorithm genuinely understands each user's individual taste."
         ],
         "correct": 2,
-        "explanation": "The writer states plainly that the system knows only ‘what people statistically similar to you clicked,’ not why any individual likes what they like — correlation standing in for understanding. A is wrong because the writer's claim is explicit and specific. B is the position the writer directly argues against. C overstates the critique; the writer calls the accuracy ‘impressive,’ not worthless."
+        "explanation": "The writer states plainly that the system knows only ‘what people statistically similar to you clicked,’ not why any individual likes what they like — correlation standing in for understanding. A is wrong because the writer's claim is explicit and specific. D is the position the writer directly argues against. B overstates the critique; the writer calls the accuracy ‘impressive,’ not worthless."
       },
       {
         "id": "4-2",
@@ -404,7 +404,7 @@ const QUESTIONS = {
           "The writer raises no specific objection to this particular word choice."
         ],
         "correct": 1,
-        "explanation": "The writer's objection is precise: ‘understanding’ implies knowing why someone likes something, while the system only identifies statistical patterns — a real, and meaningfully lesser, capability. A is the opposite of the writer's stated view. C understates an objection the writer states directly and repeats. D is wrong because the word choice is used correctly; the objection is conceptual, not grammatical."
+        "explanation": "The writer's objection is precise: ‘understanding’ implies knowing why someone likes something, while the system only identifies statistical patterns — a real, and meaningfully lesser, capability. A is the opposite of the writer's stated view. D understates an objection the writer states directly and repeats. C is wrong because the word choice is used correctly; the objection is conceptual, not grammatical."
       },
       {
         "id": "4-3",
@@ -417,7 +417,7 @@ const QUESTIONS = {
           "The writer believes this question has already been fully answered by industry."
         ],
         "correct": 1,
-        "explanation": "Noting that asking ‘why’ is ‘harder, more expensive’ and unrewarded points to a business incentive, not merely a technical ceiling, as the real reason these systems stay correlation-based. A understates a clause placed deliberately as the essay's closing point. B is the opposite of what the clause argues. D is wrong because the writer frames the question as unasked, not answered."
+        "explanation": "Noting that asking ‘why’ is ‘harder, more expensive’ and unrewarded points to a business incentive, not merely a technical ceiling, as the real reason these systems stay correlation-based. C understates a clause placed deliberately as the essay's closing point. A is the opposite of what the clause argues. D is wrong because the writer frames the question as unasked, not answered."
       },
       {
         "id": "4-4",
@@ -430,7 +430,7 @@ const QUESTIONS = {
           "Enthusiastically promotional toward these systems."
         ],
         "correct": 0,
-        "explanation": "The writer carefully distinguishes correlation from understanding and questions industry incentives without resorting to alarm or open hostility, which reads as skeptical and analytical. A overstates the writer's measured tone as panic. C is the opposite of the writer's clearly critical stance. D understates the writer's evident, if restrained, skepticism throughout."
+        "explanation": "The writer carefully distinguishes correlation from understanding and questions industry incentives without resorting to alarm or open hostility, which reads as skeptical and analytical. C overstates the writer's measured tone as panic. D is the opposite of the writer's clearly critical stance. B understates the writer's evident, if restrained, skepticism throughout."
       },
       {
         "id": "4-5",
@@ -443,7 +443,7 @@ const QUESTIONS = {
           "It credits a real strength while signaling the writer's underlying discomfort."
         ],
         "correct": 3,
-        "explanation": "Pairing ‘impressive’ with ‘unsettling’ lets the writer credit the system's genuine accuracy while still flagging discomfort with it, in a single compact phrase. A understates a deliberately double-edged word choice. C misreads ‘impressive’ as criticism when it's a real concession. D ignores ‘unsettling,’ which keeps the praise from being uncomplicated."
+        "explanation": "Pairing ‘impressive’ with ‘unsettling’ lets the writer credit the system's genuine accuracy while still flagging discomfort with it, in a single compact phrase. C understates a deliberately double-edged word choice. B misreads ‘impressive’ as criticism when it's a real concession. A ignores ‘unsettling,’ which keeps the praise from being uncomplicated."
       },
       {
         "id": "5-1",
@@ -456,7 +456,7 @@ const QUESTIONS = {
           "Full, unqualified support for the proposal exactly as written, a reading the writer's opening concession about testing's limits contradicts."
         ],
         "correct": 2,
-        "explanation": "The writer opposes this particular proposal specifically because it removes the only comparable measure available ‘without offering any replacement,’ while conceding testing has real limitations. A is the opposite of the writer's stated position. B is wrong because the writer takes a clear, specific stance. D overstates the writer's view; testing critics are called ‘not wrong,’ and reform is never ruled out, only this proposal."
+        "explanation": "The writer opposes this particular proposal specifically because it removes the only comparable measure available ‘without offering any replacement,’ while conceding testing has real limitations. D is the opposite of the writer's stated position. B is wrong because the writer takes a clear, specific stance. A overstates the writer's view; testing critics are called ‘not wrong,’ and reform is never ruled out, only this proposal."
       },
       {
         "id": "5-2",
@@ -469,7 +469,7 @@ const QUESTIONS = {
           "To build credibility by acknowledging a genuine point before a targeted objection."
         ],
         "correct": 3,
-        "explanation": "Granting that critics ‘are not wrong’ makes the writer look fair-minded before she narrows in on a specific objection, which makes that objection land as more credible by contrast. A is wrong because the concession clarifies, rather than obscures, the writer's eventual position. B understates a strategically placed opening move. D overstates the concession as total agreement, which the rest of the passage directly contradicts."
+        "explanation": "Granting that critics ‘are not wrong’ makes the writer look fair-minded before she narrows in on a specific objection, which makes that objection land as more credible by contrast. B is wrong because the concession clarifies, rather than obscures, the writer's eventual position. A understates a strategically placed opening move. C overstates the concession as total agreement, which the rest of the passage directly contradicts."
       },
       {
         "id": "5-3",
@@ -482,7 +482,7 @@ const QUESTIONS = {
           "It noticeably softens the writer's position at the essay's end."
         ],
         "correct": 1,
-        "explanation": "‘Asks us to call that progress’ turns the missing replacement into a pointed, quotable indictment, closing the essay on its sharpest note. B understates a deliberately crafted final line. C is the opposite effect; the line sharpens, not softens, the objection. D is wrong because the sentence restates the passage's central point about the missing replacement, not a new one."
+        "explanation": "‘Asks us to call that progress’ turns the missing replacement into a pointed, quotable indictment, closing the essay on its sharpest note. C understates a deliberately crafted final line. D is the opposite effect; the line sharpens, not softens, the objection. A is wrong because the sentence restates the passage's central point about the missing replacement, not a new one."
       },
       {
         "id": "5-4",
@@ -495,7 +495,7 @@ const QUESTIONS = {
           "An appeal to the writer's own personal credentials."
         ],
         "correct": 1,
-        "explanation": "Naming testing as ‘the only externally comparable measure we currently have’ grounds the objection in a specific, practical consequence — losing comparability — rather than feeling, which is logos. B understates a phrase that states the essay's central stake directly. C is wrong because the claim is factual and reasoned, not emotional. D is wrong because no personal credential appears in this phrase."
+        "explanation": "Naming testing as ‘the only externally comparable measure we currently have’ grounds the objection in a specific, practical consequence — losing comparability — rather than feeling, which is logos. C understates a phrase that states the essay's central stake directly. A is wrong because the claim is factual and reasoned, not emotional. D is wrong because no personal credential appears in this phrase."
       },
       {
         "id": "5-5",
@@ -508,7 +508,7 @@ const QUESTIONS = {
           "Angrily dismissive of every critic of standardized testing."
         ],
         "correct": 0,
-        "explanation": "The writer concedes critics' valid points while remaining firm about this one proposal's flaw, which is measured rather than dismissive or indifferent. A is wrong because the writer explicitly agrees critics ‘are not wrong.’ B overstates support for current testing, which the writer never defends as ideal. D is wrong given the writer's clearly stated, specific objection."
+        "explanation": "The writer concedes critics' valid points while remaining firm about this one proposal's flaw, which is measured rather than dismissive or indifferent. D is wrong because the writer explicitly agrees critics ‘are not wrong.’ C overstates support for current testing, which the writer never defends as ideal. B is wrong given the writer's clearly stated, specific objection."
       },
       {
         "id": "5-6",
@@ -521,7 +521,7 @@ const QUESTIONS = {
           "To persuade the school board to reject this proposal unless it includes a replacement measure."
         ],
         "correct": 3,
-        "explanation": "The writer's specific goal is persuading the board to reject this particular proposal unless a replacement comparable measure is added — not a blanket defense of testing or a call to scrap accountability. A understates the passage's clearly persuasive, argumentative purpose. C overstates the writer's position; only this proposal, not accountability generally, is opposed. D contradicts the writer's opening concession that testing has real limitations."
+        "explanation": "The writer's specific goal is persuading the board to reject this particular proposal unless a replacement comparable measure is added — not a blanket defense of testing or a call to scrap accountability. B understates the passage's clearly persuasive, argumentative purpose. C overstates the writer's position; only this proposal, not accountability generally, is opposed. A contradicts the writer's opening concession that testing has real limitations."
       },
       {
         "id": "2-8",
@@ -534,7 +534,7 @@ const QUESTIONS = {
           "It contradicts the instructor's established credibility in the passage."
         ],
         "correct": 1,
-        "explanation": "Watching in silence through a third failure before finally speaking suggests the instructor's comment was deliberate and specifically earned by what she observed, not a stock phrase she repeats to every student — which gives it more weight for the writer. A understates a detail placed to build that exact weight. B misreads patient observation as disengagement. D is wrong because the pause reinforces, rather than undercuts, her established authority."
+        "explanation": "Watching in silence through a third failure before finally speaking suggests the instructor's comment was deliberate and specifically earned by what she observed, not a stock phrase she repeats to every student — which gives it more weight for the writer. C understates a detail placed to build that exact weight. A misreads patient observation as disengagement. D is wrong because the pause reinforces, rather than undercuts, her established authority."
       },
       {
         "id": "3-7",
@@ -547,7 +547,7 @@ const QUESTIONS = {
           "It offers a precise scientific measurement with no persuasive function."
         ],
         "correct": 2,
-        "explanation": "Comparing the reef's age to nations rather than years translates an abstract fact into something a general reader can feel, not just calculate, which is pathos-driven imagery rather than precise measurement. A misreads a figurative comparison as a scientific figure. B is wrong because nothing later in the passage conflicts with this claim about the reef's age. D understates how this detail reinforces the stakes of the restoration argument."
+        "explanation": "Comparing the reef's age to nations rather than years translates an abstract fact into something a general reader can feel, not just calculate, which is pathos-driven imagery rather than precise measurement. D misreads a figurative comparison as a scientific figure. A is wrong because nothing later in the passage conflicts with this claim about the reef's age. B understates how this detail reinforces the stakes of the restoration argument."
       },
       {
         "id": "3-8",
@@ -560,7 +560,7 @@ const QUESTIONS = {
           "Shorter sentences are always objectively superior regardless of context."
         ],
         "correct": 1,
-        "explanation": "Ending with two brief, parallel sentences — ‘That is not proof...It is proof...’ — creates a compact, deliberate contrast that reinforces the passage's carefully qualified hope more sharply than a longer conclusion would. A dismisses a clearly deliberate stylistic choice as running out of material. B understates the structure's clear connection to the passage's central idea. D overgeneralizes a choice that works here into a universal writing rule, which the passage doesn't claim."
+        "explanation": "Ending with two brief, parallel sentences — ‘That is not proof...It is proof...’ — creates a compact, deliberate contrast that reinforces the passage's carefully qualified hope more sharply than a longer conclusion would. A dismisses a clearly deliberate stylistic choice as running out of material. C understates the structure's clear connection to the passage's central idea. D overgeneralizes a choice that works here into a universal writing rule, which the passage doesn't claim."
       },
       {
         "id": "4-6",
@@ -573,7 +573,7 @@ const QUESTIONS = {
           "It reveals that the writer believes recommendations are essentially random."
         ],
         "correct": 2,
-        "explanation": "‘Statistically similar to you’ marks the system's method as inference from a group, not knowledge of the individual — the exact distinction the writer's broader critique depends on. B is wrong because the writer describes the method as patterned and effective, not random. C is unsupported; the writer critiques how the data is interpreted, not its volume. D understates a phrase central to the passage's core distinction."
+        "explanation": "‘Statistically similar to you’ marks the system's method as inference from a group, not knowledge of the individual — the exact distinction the writer's broader critique depends on. D is wrong because the writer describes the method as patterned and effective, not random. A is unsupported; the writer critiques how the data is interpreted, not its volume. B understates a phrase central to the passage's core distinction."
       },
       {
         "id": "4-7",
@@ -586,7 +586,7 @@ const QUESTIONS = {
           "They indicate uncertainty about how to spell the word."
         ],
         "correct": 1,
-        "explanation": "Placing ‘understanding’ in quotes marks it as a contested term the writer doesn't fully accept as applied to these systems, distancing her own precise usage from looser popular usage. A understates a deliberate signal of skepticism. B misreads a rhetorical device as a spelling concern. C is wrong because no specific source is being quoted here."
+        "explanation": "Placing ‘understanding’ in quotes marks it as a contested term the writer doesn't fully accept as applied to these systems, distancing her own precise usage from looser popular usage. A understates a deliberate signal of skepticism. D misreads a rhetorical device as a spelling concern. C is wrong because no specific source is being quoted here."
       },
       {
         "id": "4-8",
@@ -599,7 +599,7 @@ const QUESTIONS = {
           "It shifts the essay from a purely technical critique to an institutional, economic one."
         ],
         "correct": 3,
-        "explanation": "Naming the missing incentive to ask ‘why’ broadens the essay's final point from how the algorithm works to why companies built it this way — an economic and institutional turn. B is wrong because this clause extends, rather than drops, the essay's argument. C is the opposite direction of the actual shift, away from technical detail. D understates a clause that draws directly on the passage's earlier discussion of correlation versus understanding."
+        "explanation": "Naming the missing incentive to ask ‘why’ broadens the essay's final point from how the algorithm works to why companies built it this way — an economic and institutional turn. A is wrong because this clause extends, rather than drops, the essay's argument. C is the opposite direction of the actual shift, away from technical detail. B understates a clause that draws directly on the passage's earlier discussion of correlation versus understanding."
       }
     ],
     "draftPassages": [
@@ -628,7 +628,7 @@ const QUESTIONS = {
           "Community gardens are good for neighborhoods everywhere, without engaging this specific proposal's site or audience at all."
         ],
         "correct": 2,
-        "explanation": "This revision names the specific site and specific local need, replacing a generic claim true of any neighborhood with one tailored to this proposal and audience. A is wrong because it stays generic, never mentioning this specific site or need. C is simply the unrevised, still-vague original sentence. D is wrong because a historical fact about gardens generally does nothing to support this specific proposal."
+        "explanation": "This revision names the specific site and specific local need, replacing a generic claim true of any neighborhood with one tailored to this proposal and audience. D is wrong because it stays generic, never mentioning this specific site or need. B is simply the unrevised, still-vague original sentence. A is wrong because a historical fact about gardens generally does nothing to support this specific proposal."
       },
       {
         "id": "1w-2",
@@ -641,7 +641,7 @@ const QUESTIONS = {
           "Sentence [2], which describes the physical plan for the lot rather than naming a specific worry."
         ],
         "correct": 2,
-        "explanation": "Sentence [3] explicitly names the audience's likely objection — calling it ‘a fair question that deserves a direct answer’ — which is precisely how a writer addresses an anticipated counterargument. B describes the plan itself but doesn't name a concern. C and D are wrong because neither the opening claim nor the closing line engages the stated cost/upkeep worry directly."
+        "explanation": "Sentence [3] explicitly names the audience's likely objection — calling it ‘a fair question that deserves a direct answer’ — which is precisely how a writer addresses an anticipated counterargument. D describes the plan itself but doesn't name a concern. A and B are wrong because neither the opening claim nor the closing line engages the stated cost/upkeep worry directly."
       },
       {
         "id": "1w-3",
@@ -654,7 +654,7 @@ const QUESTIONS = {
           "It is grammatically incorrect as written."
         ],
         "correct": 1,
-        "explanation": "After the specific, budget-grounded case built in sentences [2]-[4], the vague closer ‘Gardens are nice’ drops the essay's momentum and specificity right at the end. A is wrong because the sentence is grammatically fine. B is wrong because the sentence doesn't contradict anything; it merely fails to reinforce what came before. D is wrong because the sentence is actually too short and simple, not too complex."
+        "explanation": "After the specific, budget-grounded case built in sentences [2]-[4], the vague closer ‘Gardens are nice’ drops the essay's momentum and specificity right at the end. D is wrong because the sentence is grammatically fine. A is wrong because the sentence doesn't contradict anything; it merely fails to reinforce what came before. C is wrong because the sentence is actually too short and simple, not too complex."
       },
       {
         "id": "1w-4",
@@ -667,7 +667,7 @@ const QUESTIONS = {
           "Gardens are nice."
         ],
         "correct": 2,
-        "explanation": "This revision closes by echoing the essay's actual persuasive work — answering the audience's stated concerns with a concrete plan — rather than trailing off vaguely. A is wrong because it signals closure without reinforcing any argument. C overgeneralizes into unrelated advice for readers rather than restating the proposal's case. D is the original, unrevised weak line."
+        "explanation": "This revision closes by echoing the essay's actual persuasive work — answering the audience's stated concerns with a concrete plan — rather than trailing off vaguely. A is wrong because it signals closure without reinforcing any argument. B overgeneralizes into unrelated advice for readers rather than restating the proposal's case. D is the original, unrevised weak line."
       },
       {
         "id": "1w-5",
@@ -680,7 +680,7 @@ const QUESTIONS = {
           "Reverse their order with no other change, leaving the connection between the two sentences just as unclear as before."
         ],
         "correct": 0,
-        "explanation": "A transition such as ‘Fortunately’ or ‘In response’ explicitly marks [4] as the answer to the concern raised in [3], clarifying the question-answer relationship for the reader. A is wrong because reordering alone doesn't clarify the relationship and disrupts the concern-then-answer logic. B leaves the connection unstated. D is wrong because deleting [3] removes the concern the essay needs [4] to answer."
+        "explanation": "A transition such as ‘Fortunately’ or ‘In response’ explicitly marks [4] as the answer to the concern raised in [3], clarifying the question-answer relationship for the reader. D is wrong because reordering alone doesn't clarify the relationship and disrupts the concern-then-answer logic. C leaves the connection unstated. B is wrong because deleting [3] removes the concern the essay needs [4] to answer."
       },
       {
         "id": "1w-6",
@@ -693,7 +693,7 @@ const QUESTIONS = {
           "It would have no effect on the essay's persuasive strength either way, though this understates how directly a concrete figure serves this exact concern."
         ],
         "correct": 1,
-        "explanation": "Because the stated audience's concern is cost specifically, a concrete dollar figure gives the logos-based answer even more force than the current general reference to a grant. A and D are wrong because nothing about this audience or essay suggests numbers are unwelcome; the essay already uses specific plan details effectively. C understates how directly a concrete figure would serve this audience's stated concern."
+        "explanation": "Because the stated audience's concern is cost specifically, a concrete dollar figure gives the logos-based answer even more force than the current general reference to a grant. A and C are wrong because nothing about this audience or essay suggests numbers are unwelcome; the essay already uses specific plan details effectively. D understates how directly a concrete figure would serve this audience's stated concern."
       },
       {
         "id": "1w-7",
@@ -706,7 +706,7 @@ const QUESTIONS = {
           "A sentence repeating information already given in [2]."
         ],
         "correct": 2,
-        "explanation": "A bridging sentence, such as one noting that turning the lot into a shared resource ‘raises practical questions,’ signals the shift from describing the plan to anticipating objections, improving the essay's flow. A introduces irrelevant content unrelated to this proposal. B adds no new information. D understates a real organizational gap between description and counterargument."
+        "explanation": "A bridging sentence, such as one noting that turning the lot into a shared resource ‘raises practical questions,’ signals the shift from describing the plan to anticipating objections, improving the essay's flow. B introduces irrelevant content unrelated to this proposal. D adds no new information. A understates a real organizational gap between description and counterargument."
       },
       {
         "id": "1w-8",
@@ -719,7 +719,7 @@ const QUESTIONS = {
           "Sentence [3], which names the audience's concern directly."
         ],
         "correct": 1,
-        "explanation": "Sentence [1]'s generic claim (‘Community gardens have many benefits’) does nothing to address the audience's specific worry about upkeep and cost, unlike [3] and [4], which speak to it directly. B is wrong because [3] and [4] are the sentences doing that work, not [1]. C and D are wrong because both of those sentences engage the cost concern specifically, unlike [1]."
+        "explanation": "Sentence [1]'s generic claim (‘Community gardens have many benefits’) does nothing to address the audience's specific worry about upkeep and cost, unlike [3] and [4], which speak to it directly. A is wrong because [3] and [4] are the sentences doing that work, not [1]. C and D are wrong because both of those sentences engage the cost concern specifically, unlike [1]."
       },
       {
         "id": "1w-9",
@@ -732,7 +732,7 @@ const QUESTIONS = {
           "Removing all specific budget information to keep the essay shorter."
         ],
         "correct": 1,
-        "explanation": "The draft's strongest sentences ([2]-[4]) already use specific, concrete detail; extending that same specificity to the vague opening and closing would make the whole essay consistently persuasive. A misreads the task; the audience is fixed by the assignment, not something to revise. B would worsen, not fix, the essay's actual weakness. C would remove exactly the kind of detail that makes [4] effective."
+        "explanation": "The draft's strongest sentences ([2]-[4]) already use specific, concrete detail; extending that same specificity to the vague opening and closing would make the whole essay consistently persuasive. C misreads the task; the audience is fixed by the assignment, not something to revise. A would worsen, not fix, the essay's actual weakness. D would remove exactly the kind of detail that makes [4] effective."
       },
       {
         "id": "1w-10",
@@ -745,7 +745,7 @@ const QUESTIONS = {
           "It uses more sophisticated vocabulary, which is inherently more persuasive."
         ],
         "correct": 2,
-        "explanation": "Naming the funding source and its already-approved status gives the audience something concrete and checkable, directly answering their stated cost worry, unlike the vague ‘tools will be provided.’ B and D are wrong because length and vocabulary aren't what make this version stronger; its specificity and verifiability are. C understates a real difference in persuasive strength between a vague assurance and a documented one."
+        "explanation": "Naming the funding source and its already-approved status gives the audience something concrete and checkable, directly answering their stated cost worry, unlike the vague ‘tools will be provided.’ A and D are wrong because length and vocabulary aren't what make this version stronger; its specificity and verifiability are. B understates a real difference in persuasive strength between a vague assurance and a documented one."
       },
       {
         "id": "2w-1",
@@ -758,7 +758,7 @@ const QUESTIONS = {
           "It uses vocabulary too advanced for a workplace newsletter."
         ],
         "correct": 0,
-        "explanation": "‘No matter the cost’ is an extreme, one-sided claim that breaks from the essay's stated goal of presenting ‘a balanced view,’ unlike the more measured sentences around it. A is wrong because sentence length isn't the issue; the problem is the claim's one-sidedness. C is wrong because the vocabulary here is plain, not advanced. D is wrong because the sentence is grammatically correct."
+        "explanation": "‘No matter the cost’ is an extreme, one-sided claim that breaks from the essay's stated goal of presenting ‘a balanced view,’ unlike the more measured sentences around it. B is wrong because sentence length isn't the issue; the problem is the claim's one-sidedness. D is wrong because the vocabulary here is plain, not advanced. C is wrong because the sentence is grammatically correct."
       },
       {
         "id": "2w-2",
@@ -771,7 +771,7 @@ const QUESTIONS = {
           "It should be noted that this is a bad thing that companies need to fix immediately no matter the cost."
         ],
         "correct": 1,
-        "explanation": "This revision names the downside as a tradeoff while explicitly linking back to remote work's other benefits, restoring the balanced framing the essay's stated purpose requires. B is the original, unrevised extreme sentence. C proposes an equally one-sided solution in the opposite direction. D denies the very downside the essay just described, creating a new inconsistency."
+        "explanation": "This revision names the downside as a tradeoff while explicitly linking back to remote work's other benefits, restoring the balanced framing the essay's stated purpose requires. D is the original, unrevised extreme sentence. C proposes an equally one-sided solution in the opposite direction. A denies the very downside the essay just described, creating a new inconsistency."
       },
       {
         "id": "2w-3",
@@ -784,7 +784,7 @@ const QUESTIONS = {
           "It introduces an entirely unrelated new topic."
         ],
         "correct": 0,
-        "explanation": "Proposing ‘scheduled, informal virtual time’ directly answers the collaboration concern named in [3]-[4], keeping the essay solution-oriented rather than just listing a problem. A and C are wrong because [5] responds directly to, rather than ignoring or conflicting with, the concern just raised. D is wrong because [5] stays on the same topic — recreating lost informal contact."
+        "explanation": "Proposing ‘scheduled, informal virtual time’ directly answers the collaboration concern named in [3]-[4], keeping the essay solution-oriented rather than just listing a problem. B and C are wrong because [5] responds directly to, rather than ignoring or conflicting with, the concern just raised. D is wrong because [5] stays on the same topic — recreating lost informal contact."
       },
       {
         "id": "2w-4",
@@ -797,7 +797,7 @@ const QUESTIONS = {
           "Add a comma after 'However' and set off the appositive with dashes for clarity."
         ],
         "correct": 3,
-        "explanation": "The original sentence is missing a comma after ‘However,’ which briefly misreads as if ‘informal’ modifies ‘hallway conversations.’ Adding the comma and using dashes around the appositive clarifies that ‘However’ is a transition, not a modifier. A changes the sentence's meaning by making ‘however informal’ its own clause. B repeats the same uncorrected ambiguity. C is wrong because the sentence does have a punctuation problem affecting clarity."
+        "explanation": "The original sentence is missing a comma after ‘However,’ which briefly misreads as if ‘informal’ modifies ‘hallway conversations.’ Adding the comma and using dashes around the appositive clarifies that ‘However’ is a transition, not a modifier. A changes the sentence's meaning by making ‘however informal’ its own clause. C repeats the same uncorrected ambiguity. B is wrong because the sentence does have a punctuation problem affecting clarity."
       },
       {
         "id": "2w-5",
@@ -810,7 +810,7 @@ const QUESTIONS = {
           "Sentence [2], considered without any accompanying counterpoint."
         ],
         "correct": 1,
-        "explanation": "Sentence [1] acknowledges that remote work has changed collaboration ‘not always in ways that are easy to measure’ without yet committing to a one-sided judgment, setting up the nuanced discussion that follows. B is wrong because [4], in its original form, is the essay's clearest departure from balance. C overlooks [1], which models the essay's intended tone. D is wrong because [2] alone, isolated from its counterpoint in [3], wouldn't demonstrate balance."
+        "explanation": "Sentence [1] acknowledges that remote work has changed collaboration ‘not always in ways that are easy to measure’ without yet committing to a one-sided judgment, setting up the nuanced discussion that follows. A is wrong because [4], in its original form, is the essay's clearest departure from balance. C overlooks [1], which models the essay's intended tone. D is wrong because [2] alone, isolated from its counterpoint in [3], wouldn't demonstrate balance."
       },
       {
         "id": "2w-6",
@@ -836,7 +836,7 @@ const QUESTIONS = {
           "A brief, plain-language reference such as 'according to several recent workplace surveys.'"
         ],
         "correct": 3,
-        "explanation": "A brief, plain-language attribution fits a general workplace newsletter's register, adding some evidentiary support without academic density that would feel out of place. B and C would mismatch the publication's accessible, non-technical register with dense academic material. D leaves a supportable claim without any grounding at all, which weakens rather than strengthens it."
+        "explanation": "A brief, plain-language attribution fits a general workplace newsletter's register, adding some evidentiary support without academic density that would feel out of place. B and C would mismatch the publication's accessible, non-technical register with dense academic material. A leaves a supportable claim without any grounding at all, which weakens rather than strengthens it."
       },
       {
         "id": "2w-8",
@@ -849,7 +849,7 @@ const QUESTIONS = {
           "It would make the essay's tone more extreme and one-sided."
         ],
         "correct": 2,
-        "explanation": "Revising [4] to remove its extreme framing brings that sentence in line with the careful, two-sided tone established elsewhere, making the whole essay's tone more consistent. A is wrong because a revised sentence of similar length wouldn't meaningfully shorten the essay. C is the opposite of the revision's actual effect. D understates a real, essay-wide tonal improvement from fixing the one clear outlier sentence."
+        "explanation": "Revising [4] to remove its extreme framing brings that sentence in line with the careful, two-sided tone established elsewhere, making the whole essay's tone more consistent. A is wrong because a revised sentence of similar length wouldn't meaningfully shorten the essay. D is the opposite of the revision's actual effect. B understates a real, essay-wide tonal improvement from fixing the one clear outlier sentence."
       },
       {
         "id": "2w-9",
@@ -862,7 +862,7 @@ const QUESTIONS = {
           "Sentence [3] restates sentence [2] with no new information added."
         ],
         "correct": 0,
-        "explanation": "Sentence [2] describes steady or improved productivity on independent tasks, while [3] describes a loss in informal collaboration — two different, contrasting effects of remote work. A and C both misread [3] as repeating [2], when it introduces a genuinely different, opposing effect. D understates a clear logical link (contrast) between the two sentences."
+        "explanation": "Sentence [2] describes steady or improved productivity on independent tasks, while [3] describes a loss in informal collaboration — two different, contrasting effects of remote work. B and D both misread [3] as repeating [2], when it introduces a genuinely different, opposing effect. C understates a clear logical link (contrast) between the two sentences."
       },
       {
         "id": "2w-10",
@@ -875,7 +875,7 @@ const QUESTIONS = {
           "Making every sentence as short as possible regardless of content."
         ],
         "correct": 2,
-        "explanation": "Since the essay's stated goal is balance, the guiding revision principle should be consistency with the measured approach already established, correcting the one sentence ([4]) that breaks from it. A and B propose stylistic changes unrelated to the essay's actual problem. D would remove exactly the kind of concrete example ([2]) that currently works well in the draft."
+        "explanation": "Since the essay's stated goal is balance, the guiding revision principle should be consistency with the measured approach already established, correcting the one sentence ([4]) that breaks from it. A and D propose stylistic changes unrelated to the essay's actual problem. B would remove exactly the kind of concrete example ([2]) that currently works well in the draft."
       },
       {
         "id": "2w-11",
@@ -888,7 +888,7 @@ const QUESTIONS = {
           "Yes, since sentence [1] provides no useful framing for the reader."
         ],
         "correct": 1,
-        "explanation": "Sentence [1] orients the reader with the essay's balanced, exploratory framing (‘not always in ways that are easy to measure’) before the specific evidence in [2]-[3] arrives; cutting it would make the opening feel abrupt. B understates [1]'s clear framing function. C overlooks the real loss of context a reader would experience. D overgeneralizes a claim about length that this essay's purpose doesn't support."
+        "explanation": "Sentence [1] orients the reader with the essay's balanced, exploratory framing (‘not always in ways that are easy to measure’) before the specific evidence in [2]-[3] arrives; cutting it would make the opening feel abrupt. A understates [1]'s clear framing function. D overlooks the real loss of context a reader would experience. C overgeneralizes a claim about length that this essay's purpose doesn't support."
       },
       {
         "id": "2w-12",
@@ -901,7 +901,7 @@ const QUESTIONS = {
           "Changing the essay's topic to something unrelated to remote work."
         ],
         "correct": 1,
-        "explanation": "Sentence [4] is the clearest, most significant departure from the balanced, measured approach the rest of the draft establishes, so fixing it is the single most important revision. A and B propose changes disconnected from the essay's actual weakness. D abandons the assignment entirely rather than addressing the one real problem in the draft."
+        "explanation": "Sentence [4] is the clearest, most significant departure from the balanced, measured approach the rest of the draft establishes, so fixing it is the single most important revision. A and C propose changes disconnected from the essay's actual weakness. D abandons the assignment entirely rather than addressing the one real problem in the draft."
       },
       {
         "id": "1w-11",
@@ -914,7 +914,7 @@ const QUESTIONS = {
           "No preview sentence is ever appropriate in persuasive writing, overstating a general writing rule this exam does not actually test."
         ],
         "correct": 1,
-        "explanation": "This option previews the essay's two-part structure — the site's potential, then residents' concerns — orienting the reader to what follows. A repeats the same vague language the essay needs to move away from. B overstates a general writing rule that this exam doesn't test. D introduces content with no connection to the proposal at all."
+        "explanation": "This option previews the essay's two-part structure — the site's potential, then residents' concerns — orienting the reader to what follows. A repeats the same vague language the essay needs to move away from. D overstates a general writing rule that this exam doesn't test. C introduces content with no connection to the proposal at all."
       },
       {
         "id": "1w-12",
@@ -927,7 +927,7 @@ const QUESTIONS = {
           "Removing the street name to make the essay more general, removing exactly the specific detail this draft's weaker sentences most need."
         ],
         "correct": 2,
-        "explanation": "Sentence [2] already names the street, the lot's current unused status, and the plot count — exactly the level of concrete detail the rest of the essay should aim for, so no revision is needed. A would remove useful specificity rather than add it. B replaces existing specific detail with a vaguer restatement. C introduces content irrelevant to this proposal's own site."
+        "explanation": "Sentence [2] already names the street, the lot's current unused status, and the plot count — exactly the level of concrete detail the rest of the essay should aim for, so no revision is needed. D would remove useful specificity rather than add it. A replaces existing specific detail with a vaguer restatement. B introduces content irrelevant to this proposal's own site."
       },
       {
         "id": "2w-13",
@@ -940,7 +940,7 @@ const QUESTIONS = {
           "It would have no effect on the essay's credibility either way."
         ],
         "correct": 0,
-        "explanation": "An unsupported, invented-sounding figure like ‘a 15% decline’ risks undermining the essay's careful, measured credibility unless it's actually sourced, so adding it isn't automatically an improvement. A understates a real risk to the essay's tone. C overstates specificity as always beneficial regardless of sourcing. D overstates the newsletter's register as excluding numbers altogether, when a properly attributed figure (as in [2w-7]) can work well there."
+        "explanation": "An unsupported, invented-sounding figure like ‘a 15% decline’ risks undermining the essay's careful, measured credibility unless it's actually sourced, so adding it isn't automatically an improvement. D understates a real risk to the essay's tone. B overstates specificity as always beneficial regardless of sourcing. C overstates the newsletter's register as excluding numbers altogether, when a properly attributed figure (as in [2w-7]) can work well there."
       },
       {
         "id": "2w-14",
@@ -953,7 +953,7 @@ const QUESTIONS = {
           "As with most workplace changes, the best path likely combines genuine benefits with solutions to genuine tradeoffs."
         ],
         "correct": 3,
-        "explanation": "This addition names both benefits and tradeoffs in the same closing sentence, echoing the essay's overall balanced approach as a fitting final note. B adds nothing of substance and doesn't reinforce the essay's argument. C overstates a general rule the exam doesn't test. D is a one-sided claim that would reintroduce the same imbalance the essay has just worked to correct."
+        "explanation": "This addition names both benefits and tradeoffs in the same closing sentence, echoing the essay's overall balanced approach as a fitting final note. C adds nothing of substance and doesn't reinforce the essay's argument. B overstates a general rule the exam doesn't test. A is a one-sided claim that would reintroduce the same imbalance the essay has just worked to correct."
       },
       {
         "id": "1w-13",
@@ -966,7 +966,7 @@ const QUESTIONS = {
           "These sentences ignore the stated audience's concerns entirely."
         ],
         "correct": 0,
-        "explanation": "Sentences [3]-[4] name and answer the exact concern — upkeep and cost — the stated audience is described as holding, which makes them the essay's central persuasive work. A and C understate or misdescribe sentences built specifically around that audience's concern. B is wrong because nothing in [3]-[4] conflicts with the essay's case for the garden; they strengthen it."
+        "explanation": "Sentences [3]-[4] name and answer the exact concern — upkeep and cost — the stated audience is described as holding, which makes them the essay's central persuasive work. C and D understate or misdescribe sentences built specifically around that audience's concern. B is wrong because nothing in [3]-[4] conflicts with the essay's case for the garden; they strengthen it."
       }
     ]
   },

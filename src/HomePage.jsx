@@ -85,7 +85,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v5.4.3</footer>
+        <footer style={styles.footer}>v5.4.4</footer>
       </div>
 
       <style>{`
