@@ -552,7 +552,7 @@ const EXAM_4_QUESTIONS = [
       }
     ],
     "choices": [
-      "A straight line along the tangent to the circle at the point where the string broke",
+      "A straight line tangent to the circle at the break point",
       "A straight line directly away from the center of the circle",
       "A curved path that continues around the circle",
       "A straight line directly toward the center of the circle"

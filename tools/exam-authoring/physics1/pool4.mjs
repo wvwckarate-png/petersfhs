@@ -37,7 +37,7 @@ export default [
     "A force changes an object's motion only when it acts on that object. The student speeds up because the wall pushes on the student (the third-law partner of the student's push on the wall). The force the student exerts on the wall acts on the wall, not on the student."),
   M(2,
     "A ball attached to a string is swung in a horizontal circle at constant speed. The string suddenly breaks. Ignoring gravity and friction, which path does the ball take immediately afterward?",
-    ["A straight line along the tangent to the circle at the point where the string broke",
+    ["A straight line tangent to the circle at the break point",
      "A straight line directly away from the center of the circle",
      "A curved path that continues around the circle",
      "A straight line directly toward the center of the circle"],
