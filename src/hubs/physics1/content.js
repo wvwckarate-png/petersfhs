@@ -328,9 +328,9 @@ const QUESTIONS = {
       "stem": "Can an object have a nonzero acceleration while its velocity is momentarily zero?",
       "choices": [
         "Yes — the peak of a ball thrown straight up is a classic example.",
-        "Only if the object is also changing direction at that instant.",
-        "No, if velocity is zero, acceleration must also be zero.",
-        "No, this would violate the definition of acceleration."
+        "Only if the object is also changing direction at that instant, as at the top of a throw.",
+        "No, if velocity is zero, acceleration must also be zero at that same instant.",
+        "No, this would violate the definition of acceleration as the rate of change of velocity."
       ],
       "correct": 0,
       "explanation": "Velocity and acceleration are independent quantities. At the very top of a vertical throw, velocity is momentarily zero, but gravity (acceleration) is still acting at that same instant — this is one of the most frequently tested conceptual points in the whole unit."
@@ -497,9 +497,9 @@ const QUESTIONS = {
       "stem": "Which type of graph would you use to find an object's displacement over a given time interval, without needing any equations?",
       "choices": [
         "Velocity-time graph, by finding the area under the curve",
-        "None of these graphs can give displacement directly",
-        "Acceleration-time graph, by reading the slope",
-        "Position-time graph, by reading a single value"
+        "None of these graphs can give displacement directly, only speed and acceleration.",
+        "Acceleration-time graph, by reading the slope of the curve at any instant",
+        "Position-time graph, by reading a single value from the vertical axis"
       ],
       "correct": 0,
       "explanation": "The area under a v-t graph gives displacement directly — this is one of the two central slope/area relationships in the unit, and it works regardless of whether acceleration is constant or changing, as long as you can compute (or estimate) the area."
@@ -995,9 +995,9 @@ const QUESTIONS = {
       "stem": "Which of these is NOT a legitimate force to include on a free-body diagram?",
       "choices": [
         "A 'force of momentum' carrying the object forward",
-        "Gravity, pulling the object downward.",
-        "Normal force from a supporting surface",
-        "Tension from an attached string"
+        "Gravity, pulling the object downward on it, as always",
+        "Normal force from a supporting surface under it, as always",
+        "Tension from an attached string pulling it along, as always"
       ],
       "correct": 0,
       "explanation": "There is no such thing as a 'force of momentum' — momentum is a property of a moving object, not a force acting on it. Gravity, normal force, and tension are all genuine forces with real physical sources; choice A is a common but invented misconception."
@@ -1241,9 +1241,9 @@ const QUESTIONS = {
       "topic": "2.4 Newton's Third Law",
       "stem": "A book rests on a table. Gravity pulls the book down with a force F<sub>g</sub>. What is the genuine Third Law reaction pair to this specific force?",
       "choices": [
-        "The normal force the table exerts on the book.",
-        "The force the book exerts on the table.",
-        "There is no reaction pair for gravity.",
+        "The normal force the table exerts on the book, upward.",
+        "The force the book exerts on the table, downward.",
+        "There is no reaction pair for gravity at all, since it acts alone.",
         "The book's own gravitational pull on the Earth, upward."
       ],
       "correct": 3,
@@ -1280,10 +1280,10 @@ const QUESTIONS = {
       "topic": "2.4 Newton's Third Law",
       "stem": "Can the two forces in a Newton's Third Law pair ever appear together on the same free-body diagram, and cancel each other out?",
       "choices": [
-        "Only when the two objects have equal mass.",
+        "Only when the two objects have equal mass, and then only briefly.",
         "No — the two forces always act on different objects.",
-        "Yes, they commonly cancel on a single FBD.",
-        "Only for contact forces, never for gravity."
+        "Yes, they commonly cancel on a single free-body diagram.",
+        "Only for contact forces, never for gravity or other long-range forces."
       ],
       "correct": 1,
       "explanation": "By definition, a Third Law pair consists of two forces acting on two DIFFERENT objects. A single object's free-body diagram only ever shows forces acting on that one object, so a genuine Third Law partner force can never appear on the same diagram as its pair — they physically can't cancel each other there."
@@ -1345,10 +1345,10 @@ const QUESTIONS = {
       "topic": "2.5 Gravity and Weight",
       "stem": "As an object moves to a much higher altitude above Earth's surface, its weight decreases. What causes this decrease?",
       "choices": [
-        "Air resistance reduces the object's effective weight.",
-        "The object's mass decreases with altitude.",
+        "Air resistance reduces the object's effective weight as it rises through the atmosphere.",
+        "The object's mass decreases with altitude, since fewer atoms are attracted.",
         "The local gravitational field g decreases with altitude.",
-        "Weight doesn't actually change with altitude."
+        "Weight doesn't actually change with altitude, since mass stays the same."
       ],
       "correct": 2,
       "explanation": "Weight decreases with altitude specifically because g (the local gravitational field strength) weakens with increasing distance from Earth's center — the object's mass never changes at all; only the strength of the gravitational pull on it does."
@@ -1450,9 +1450,9 @@ const QUESTIONS = {
       "stem": "A block rests on a frictionless incline tilted at angle θ above horizontal. How does the normal force compare to the block's weight, mg?",
       "choices": [
         "F_N is always less than mg, and decreases further as θ increases.",
-        "F_N is always exactly zero on any incline.",
-        "F_N is always greater than mg on an incline.",
-        "F_N is always equal to mg, regardless of the incline's angle."
+        "F_N is always exactly zero on any incline, since the surface is tilted away.",
+        "F_N is always greater than mg on an incline, since the surface pushes up harder.",
+        "F_N is always equal to mg, regardless of the incline's angle or the object's mass."
       ],
       "correct": 0,
       "explanation": "On an incline, only the perpendicular component of gravity (mg·cosθ) needs to be balanced by the normal force, and cosθ < 1 for any nonzero angle. As θ increases, cosθ shrinks further, making F_N progressively smaller relative to mg."
@@ -1501,10 +1501,10 @@ const QUESTIONS = {
       "topic": "2.7 Friction",
       "stem": "A 10 kg box sits at rest on a floor with μ_s = 0.40. A horizontal push of 35 N is applied. Does the box start to slide?",
       "choices": [
-        "Yes, since 35 N is a large force.",
+        "Yes, since 35 N is a large force compared with the weight of a typical box.",
         "Yes, since any applied force exceeding zero causes sliding.",
         "No — the maximum static friction (39.2 N) exceeds the 35 N push.",
-        "Cannot be determined without knowing μ_k."
+        "Cannot be determined without knowing μ_k, the coefficient of kinetic friction."
       ],
       "correct": 2,
       "explanation": "Maximum static friction is μ_s·F_N = (0.40)(10×9.8) = (0.40)(98) = 39.2 N. Since the applied 35 N push is less than this maximum, static friction can simply match the push (at 35 N) and keep the box in equilibrium — it never needs to reach its maximum, so the box doesn't move."
@@ -1579,9 +1579,9 @@ const QUESTIONS = {
       "topic": "2.8 Spring Force",
       "stem": "A spring is compressed from its natural length. In which direction does the spring push?",
       "choices": [
-        "Perpendicular to the compression.",
-        "A compressed spring exerts no force.",
-        "In the same direction as the compression.",
+        "Perpendicular to the compression, sideways to the spring's axis.",
+        "A compressed spring exerts no force on anything it touches.",
+        "In the same direction as the compression, further inward.",
         "Opposite the compression, back toward natural length."
       ],
       "correct": 3,
@@ -1737,10 +1737,10 @@ const QUESTIONS = {
       "topic": "2.9 Ramps, Pulleys, Multi-Body Systems",
       "stem": "In a two-mass Atwood machine, explain why the rope's tension is less than the heavier mass's weight but more than the lighter mass's weight.",
       "choices": [
-        "Tension must be less than the heavier weight but more than the lighter weight.",
-        "Tension always exactly equals the average of the two weights.",
-        "Tension always equals the heavier mass's weight exactly.",
-        "Tension is unrelated to either mass's weight."
+        "Tension must be less than the heavier weight but more than the lighter one.",
+        "Tension always exactly equals the average of the two weights, whatever the masses.",
+        "Tension always equals the heavier mass's weight exactly, whatever the lighter mass.",
+        "Tension is unrelated to either mass's weight, depending only on the string."
       ],
       "correct": 0,
       "explanation": "If tension equaled the heavier mass's full weight, that mass wouldn't accelerate at all — but it does, since it's not perfectly balanced. Tension must be somewhat less than its weight to allow a net downward force on it, and somewhat more than the lighter mass's weight to provide the net upward force needed to accelerate that mass upward too."
@@ -2065,9 +2065,9 @@ const QUESTIONS = {
       "topic": "3.3 Gravitational and Elastic PE",
       "stem": "A student measures an object's gravitational PE using the ground as the reference (h=0), while another student uses a tabletop 1 m above the ground as their reference. Do they agree on the object's CHANGE in PE as it moves from the tabletop to the ground?",
       "choices": [
-        "Only if the object has zero mass.",
-        "No, since they used different reference points.",
-        "Only if they both use the ground as the reference.",
+        "Only if the object has zero mass, so that no gravitational energy exists.",
+        "No, since they used different reference points for the zero of potential energy.",
+        "Only if they both use the ground as the reference point for the height.",
         "Yes, since ΔPE doesn't depend on the reference point."
       ],
       "correct": 3,
@@ -2300,9 +2300,9 @@ const QUESTIONS = {
       "stem": "Why doesn't the specific shape of a frictionless path (straight ramp vs. curved slide, for instance) affect the final speed at the bottom, for a given height drop?",
       "choices": [
         "Because gravity is conservative, so its work depends only on height.",
-        "Because friction always cancels out any path-dependence.",
-        "Because speed only depends on time, not on force.",
-        "Path shape actually does affect final speed in every case."
+        "Because friction always cancels out any path-dependence on the slope.",
+        "Because speed only depends on time, not on force or on height lost.",
+        "Path shape actually does affect final speed in every case without exception."
       ],
       "correct": 0,
       "explanation": "Gravity is a conservative force — the work it does (and therefore the change in kinetic energy, given no friction) depends only on the net vertical height dropped, not the specific route taken to get there. This is precisely why energy methods can skip over path details that kinematics would require tracking explicitly."
@@ -2614,10 +2614,10 @@ const QUESTIONS = {
       "topic": "4.1 Momentum",
       "stem": "Which statement correctly describes momentum?",
       "choices": [
-        "A scalar quantity depending only on speed.",
+        "A scalar quantity depending only on speed, with no direction attached to it.",
         "A vector quantity combining mass and velocity.",
-        "A scalar quantity equal to force times time.",
-        "A vector quantity that depends only on mass."
+        "A scalar quantity equal to force times time, with no direction attached to it.",
+        "A vector quantity that depends only on mass, with no role for velocity."
       ],
       "correct": 1,
       "explanation": "Momentum, p = mv, is a vector quantity — it has both a magnitude and a direction, inherited directly from the velocity vector, and scaled by the object's mass."
@@ -2926,7 +2926,7 @@ const QUESTIONS = {
       "topic": "4.3 Conservation of Momentum",
       "stem": "Two carts collide on a track that has significant friction with the ground. Is momentum of the two-cart system still exactly conserved during the collision?",
       "choices": [
-        "Yes, always, regardless of friction.",
+        "Yes, always, regardless of friction, since momentum is a conserved quantity in every case.",
         "Momentum conservation only applies to frictionless systems in all cases.",
         "No, momentum is never conserved when friction is present anywhere in the system.",
         "No — momentum conservation requires friction to be negligible during the collision."
@@ -2953,9 +2953,9 @@ const QUESTIONS = {
       "stem": "In a collision between two objects, is it possible for momentum to be conserved while kinetic energy is not?",
       "choices": [
         "Yes — this describes exactly what happens in an inelastic collision.",
-        "No, this would violate conservation of energy entirely.",
-        "No — if momentum is conserved, kinetic energy must be too.",
-        "Only if the objects have equal mass."
+        "No, this would violate conservation of energy entirely, in any collision.",
+        "No — if momentum is conserved, kinetic energy must be conserved too.",
+        "Only if the objects have equal mass and equal speed before the collision."
       ],
       "correct": 0,
       "explanation": "This is precisely the definition of an inelastic collision: momentum remains conserved (as it always does for an isolated system), while kinetic energy is NOT conserved, some of it converting into heat, sound, or deformation. The two conservation laws are independent of each other."
@@ -3069,8 +3069,8 @@ const QUESTIONS = {
       "topic": "4.4 Elastic Collisions",
       "stem": "How can you verify, using calculated before-and-after values, whether a given collision was actually elastic?",
       "choices": [
-        "Check whether momentum was conserved.",
-        "Check whether the objects have equal mass.",
+        "Check whether momentum was conserved, since it always is in a collision.",
+        "Check whether the objects have equal mass, since that decides whether it is elastic.",
         "Check whether total kinetic energy before equals total kinetic energy after.",
         "Check whether the objects moved in the same direction after colliding."
       ],
@@ -3082,10 +3082,10 @@ const QUESTIONS = {
       "topic": "4.4 Elastic Collisions",
       "stem": "A 2.0 kg object moving at 6.0 m/s collides with an identical stationary 2.0 kg object; afterward, the first object is at rest and the second moves at 6.0 m/s. Verify this is consistent with an elastic collision by comparing kinetic energy before and after.",
       "choices": [
-        "KE cannot be determined without more information.",
+        "KE cannot be determined without more information about the masses.",
         "KE_before = 36 J; KE_after = 36 J — consistent with elastic.",
-        "KE_before = 36 J; KE_after = 18 J — not elastic.",
-        "KE_before = 18 J; KE_after = 36 J — not possible."
+        "KE_before = 36 J; KE_after = 18 J — not elastic, energy was lost.",
+        "KE_before = 18 J; KE_after = 36 J — not possible without outside work."
       ],
       "correct": 1,
       "explanation": "KE_before = ½(2.0)(6.0)² = 36 J. KE_after = ½(2.0)(0)² + ½(2.0)(6.0)² = 0 + 36 = 36 J. Since KE_before = KE_after, this collision is indeed consistent with being perfectly elastic."
@@ -3108,9 +3108,9 @@ const QUESTIONS = {
       "topic": "4.4 Elastic Collisions",
       "stem": "A very light ball collides elastically with a much heavier, stationary object (like a wall). Describe what happens, approximately, to the ball and to the heavy object.",
       "choices": [
-        "The ball stops completely; the heavy object moves away quickly.",
+        "The ball stops completely; the heavy object moves away quickly from the point of impact.",
         "The ball rebounds at nearly its original speed; the heavy object barely moves.",
-        "Both objects move off at half the ball's original speed.",
+        "Both objects move off at half the ball's original speed, in the same direction.",
         "The ball and the heavy object end up moving at the same final velocity."
       ],
       "correct": 1,
@@ -3134,10 +3134,10 @@ const QUESTIONS = {
       "topic": "4.4 Elastic Collisions",
       "stem": "In an elastic collision where a moving object strikes an identical stationary object, is it possible for the two objects to have the same nonzero final velocity?",
       "choices": [
-        "Yes, but only for very slow collisions.",
-        "Yes, this is the typical elastic outcome.",
+        "Yes, but only for very slow collisions between two objects of equal mass.",
+        "Yes, this is the typical elastic outcome for any pair of colliding objects.",
         "No — equal masses swap velocities fully, not evenly.",
-        "This can only be determined with specific numbers."
+        "This can only be determined with specific numbers for the masses and speeds."
       ],
       "correct": 2,
       "explanation": "If both objects had the same final velocity after an equal-mass elastic collision, that would actually describe a perfectly INELASTIC collision (they'd effectively be moving together) — which doesn't conserve kinetic energy for a moving-object-hits-stationary-object setup. The correct elastic result for equal masses is a full swap, not a shared final velocity."
@@ -3215,7 +3215,7 @@ const QUESTIONS = {
         "Yes — momentum is conserved for any isolated collision, elastic or inelastic.",
         "No, momentum is only conserved in elastic collisions.",
         "Only if the collision is perfectly inelastic, not partially inelastic.",
-        "Only if the objects have equal mass."
+        "Only if the objects have equal mass, and then only for an elastic collision."
       ],
       "correct": 0,
       "explanation": "Momentum conservation depends only on the system being isolated (no net external force) — it doesn't require the collision to be elastic. Momentum is conserved in elastic, inelastic, and perfectly inelastic collisions alike."
@@ -3355,10 +3355,10 @@ const QUESTIONS = {
       "topic": "4.6 Center of Mass",
       "stem": "A firework shell is launched and follows a parabolic path. Partway through its flight, it explodes into many fragments. How does the center of mass of the fragments move after the explosion?",
       "choices": [
-        "It falls straight down immediately.",
-        "Its motion becomes completely unpredictable.",
+        "It falls straight down immediately after the release of the part.",
+        "Its motion becomes completely unpredictable after the explosion occurs.",
         "It continues along the same parabolic path as before.",
-        "It stops moving entirely."
+        "It stops moving entirely at the moment the explosion takes place."
       ],
       "correct": 2,
       "explanation": "The explosive forces are entirely internal to the system of fragments, and internal forces can never change the system's total momentum. Since the center of mass's motion is tied directly to total momentum, it continues along the exact same path (still just gravity acting on it) that the unexploded shell would have followed."
@@ -3407,9 +3407,9 @@ const QUESTIONS = {
       "topic": "4.6 Center of Mass",
       "stem": "A stationary object at rest suddenly explodes into several fragments flying outward in different directions. What happens to the velocity of the system's center of mass immediately after the explosion?",
       "choices": [
-        "It moves in the direction of the largest fragment.",
-        "It moves in a random direction.",
-        "It moves at the average speed of all the fragments.",
+        "It moves in the direction of the largest fragment, at its speed.",
+        "It moves in a random direction, at a random speed, after it.",
+        "It moves at the average speed of all the fragments, in some direction.",
         "It remains at rest (zero velocity), exactly as before the explosion."
       ],
       "correct": 3,
@@ -3433,9 +3433,9 @@ const QUESTIONS = {
       "topic": "4.6 Center of Mass",
       "stem": "Why does an isolated system's center of mass move at constant velocity, even during an internal collision between objects in that system?",
       "choices": [
-        "Because collisions always conserve kinetic energy.",
+        "Because collisions always conserve kinetic energy as well as momentum.",
         "Because the center of mass is unaffected by any forces whatsoever.",
-        "This is only true for elastic collisions, not inelastic ones.",
+        "This is only true for elastic collisions, not for inelastic ones at all.",
         "Because internal forces cancel in pairs, so total momentum stays constant."
       ],
       "correct": 3,
@@ -3696,9 +3696,9 @@ const QUESTIONS = {
       "topic": "5.2 Torque",
       "stem": "Two forces are applied to the same rigid rod: one creates a torque tending to rotate it counterclockwise, and the other tends to rotate it clockwise. How should these two torques be combined to find the net torque?",
       "choices": [
-        "Their magnitudes simply add together.",
+        "Their magnitudes simply add together, whatever the directions of the two torques.",
         "Give one direction a positive sign, the other negative, then add.",
-        "Multiply the two torques together.",
+        "Multiply the two torques together to find the single net torque on the object.",
         "Only the larger torque matters; the smaller one is ignored."
       ],
       "correct": 1,
@@ -3735,10 +3735,10 @@ const QUESTIONS = {
       "topic": "5.3 Moment of Inertia",
       "stem": "Which of the following best describes the moment of inertia, I?",
       "choices": [
-        "A measure of the torque an object can produce.",
+        "A measure of the torque an object can produce when a force is applied to it.",
         "How an object's mass is distributed relative to the rotation axis.",
         "A measure of an object's total mass, unrelated to rotation.",
-        "A measure of an object's angular velocity."
+        "A measure of an object's angular velocity at a particular moment in time."
       ],
       "correct": 1,
       "explanation": "Moment of inertia is the rotational analog of mass — it captures not just how much mass an object has, but specifically how that mass is distributed relative to the rotation axis, which directly determines how much the object resists changes to its angular motion."
@@ -3904,10 +3904,10 @@ const QUESTIONS = {
       "topic": "5.4 Newton's Second Law for Rotation",
       "stem": "In the rotational version of Newton's Second Law, τ=Iα, what role does moment of inertia play, analogous to Unit 2's F=ma?",
       "choices": [
-        "The role of linear acceleration.",
-        "Moment of inertia has no analog in F=ma.",
+        "The role of linear acceleration, in the rotational equation.",
+        "Moment of inertia has no analog in F = ma, which is linear only.",
         "The role of mass, resisting change in motion.",
-        "The role of force, not mass."
+        "The role of force, not mass, in the rotational equation."
       ],
       "correct": 2,
       "explanation": "Moment of inertia I plays the exact same structural role that mass m plays in F=ma: it's the property of the object that determines how much a given 'push' (torque, or force) actually changes its motion (angular acceleration, or acceleration)."
@@ -4086,10 +4086,10 @@ const QUESTIONS = {
       "topic": "5.5 Static Equilibrium",
       "stem": "Why is it often strategically useful to choose the pivot point at the location of an unknown force when solving a torque equilibrium problem?",
       "choices": [
-        "There is no strategic advantage to this choice.",
-        "It changes the physical location of the unknown force.",
+        "There is no strategic advantage to this choice of pivot location at all.",
+        "It changes the physical location of the unknown force on the object.",
         "It makes that force's own torque zero, removing it from the equation.",
-        "It makes all forces in the problem automatically balanced."
+        "It makes all forces in the problem automatically balanced, with no work."
       ],
       "correct": 2,
       "explanation": "Any force applied exactly at the chosen pivot point has a lever arm of zero about that point, so its torque contribution is automatically zero — this conveniently removes that unknown force entirely from the torque equation, often leaving just one remaining unknown to solve for directly."
@@ -4114,7 +4114,7 @@ const QUESTIONS = {
       "choices": [
         "Yes, equilibrium means no significant forces are present.",
         "No, the forces and torques sum to zero; they're still present.",
-        "Yes, but only if the frame is symmetric.",
+        "Yes, but only if the frame is symmetric about its center of mass and balanced.",
         "No, equilibrium is impossible if any forces are present."
       ],
       "correct": 1,
@@ -4138,10 +4138,10 @@ const QUESTIONS = {
       "topic": "5.5 Static Equilibrium",
       "stem": "In a torque equilibrium problem with an unknown force acting at some location, why might choosing the pivot AT that exact location be a better strategy than choosing an arbitrary pivot elsewhere?",
       "choices": [
-        "It makes the unknown force larger.",
+        "It makes the unknown force larger, which simplifies the algebra.",
         "It makes that unknown force's torque zero, simplifying the algebra.",
-        "It has no strategic benefit over any other pivot choice.",
-        "It changes the physics of the problem."
+        "It has no strategic benefit over any other pivot choice at all.",
+        "It changes the physics of the problem, in a way that helps the solver."
       ],
       "correct": 1,
       "explanation": "Since the torque contributed by a force depends on its lever arm distance from the pivot, placing the pivot exactly where that unknown force acts makes its lever arm (and therefore its torque contribution) zero — removing an unknown from the equation and often making the remaining algebra dramatically simpler."
@@ -4268,10 +4268,10 @@ const QUESTIONS = {
       "topic": "5.6 Rolling Motion",
       "stem": "Explain the key physical distinction between an object 'rolling without slipping' and an object that is purely 'sliding' across a surface.",
       "choices": [
-        "Rolling objects have zero angular velocity; sliding objects have nonzero angular velocity.",
-        "Rolling objects experience no friction; sliding objects always experience kinetic friction.",
+        "Rolling objects have zero angular velocity; sliding objects have nonzero angular velocity, always.",
+        "Rolling objects experience no friction; sliding objects always experience kinetic friction, always.",
         "Rolling has zero contact-point velocity (static friction); sliding has relative motion (kinetic friction).",
-        "There is no meaningful physical distinction between the two."
+        "There is no meaningful physical distinction between the two kinds of motion of an object."
       ],
       "correct": 2,
       "explanation": "The defining physical distinction is whether there's relative sliding motion at the contact point. Rolling without slipping has zero relative velocity there (governed by static friction, up to its maximum); genuine sliding involves ongoing relative motion at the contact surface (governed by kinetic friction)."
@@ -4296,9 +4296,9 @@ const QUESTIONS = {
       "stem": "Stretch — beyond typical AP difficulty: A solid sphere and a hoop, both of the same mass and radius, are released from rest at the top of the same incline and roll without slipping. Which one reaches the bottom with a greater linear (center-of-mass) acceleration, and conceptually why?",
       "choices": [
         "The comparison depends entirely on the incline's angle, with no general answer.",
-        "The hoop, since it has a larger moment of inertia and so gains more speed.",
-        "Both have identical accelerations, since they have the same mass and radius.",
-        "The solid sphere, since its smaller moment of inertia leaves more torque to accelerate its center of mass."
+        "The hoop, since it has a larger moment of inertia and so gains more speed at the bottom.",
+        "Both have identical accelerations, since they have the same mass and radius and start together.",
+        "The solid sphere, since its smaller moment of inertia leaves more energy for its center-of-mass motion."
       ],
       "correct": 3,
       "explanation": "For a rolling object, gravity's torque about the contact point has to produce BOTH linear acceleration of the center of mass AND angular acceleration of the spin — and objects with a larger moment of inertia (like the hoop, I=MR², versus the sphere's I=(2/5)MR²) require more of that available 'torque budget' just to spin up, leaving less left over to accelerate the center of mass forward. This is exactly why, in a race down a ramp, a solid sphere reliably beats a hoop of the same mass and radius — a relationship this unit sets up conceptually, and which Unit 6 makes fully quantitative using rotational kinetic energy."
@@ -4583,9 +4583,9 @@ const QUESTIONS = {
       "topic": "6.2 Angular Momentum",
       "stem": "A particle moves in a straight line, never actually orbiting anything. Can it still have nonzero angular momentum about some chosen point not on its path?",
       "choices": [
-        "No, angular momentum requires actual circular motion about a point.",
-        "Yes, but only if the particle is accelerating along its path.",
-        "No, only rigid rotating objects can have angular momentum.",
+        "No, angular momentum requires actual circular motion about a point in space.",
+        "Yes, but only if the particle is accelerating along its path at that time.",
+        "No, only rigid rotating objects can have angular momentum about any point.",
         "Yes — it depends on momentum and perpendicular distance, not the path's shape."
       ],
       "correct": 3,
@@ -4674,10 +4674,10 @@ const QUESTIONS = {
       "topic": "6.2 Angular Momentum",
       "stem": "Under what condition does an object's angular momentum remain unchanged over time?",
       "choices": [
-        "Whenever its moment of inertia is constant.",
+        "Whenever its moment of inertia is constant, whatever torque is applied to it.",
         "Whenever the net torque acting on it is zero.",
-        "Whenever its angular velocity is constant.",
-        "Angular momentum always changes over time."
+        "Whenever its angular velocity is constant, whatever torque is applied to it.",
+        "Angular momentum always changes over time, whatever torque is applied to it."
       ],
       "correct": 1,
       "explanation": "Since τ_net=ΔL/Δt, a zero net torque means zero change in angular momentum — this is the condition for angular momentum to stay exactly constant, setting up the conservation law explored fully in the next section."
@@ -4818,9 +4818,9 @@ const QUESTIONS = {
       "stem": "When a spinning skater pulls her arms in, is her rotational kinetic energy conserved along with her angular momentum?",
       "choices": [
         "No — angular momentum is conserved, but kinetic energy increases.",
-        "No, both decrease.",
+        "No, both decrease as the skater pulls in her arms and spins faster.",
         "Angular momentum decreases while kinetic energy stays the same.",
-        "Yes, both are always conserved together."
+        "Yes, both are always conserved together in any change to the spin."
       ],
       "correct": 0,
       "explanation": "This is a critical distinction: angular momentum conservation depends only on zero external torque, which holds here. But kinetic energy is NOT automatically conserved — the skater's muscles do real work pulling her arms inward against the effective outward pull of her spin, adding kinetic energy to the system."
@@ -4844,8 +4844,8 @@ const QUESTIONS = {
       "stem": "Where does the extra kinetic energy come from when a skater pulls her arms in to spin faster?",
       "choices": [
         "From the real muscular work she does pulling her arms inward.",
-        "From the ice surface she's spinning on.",
-        "From a decrease in her angular momentum.",
+        "From the ice surface she's spinning on, which pushes her around as she turns.",
+        "From a decrease in her angular momentum as she pulls her arms inward.",
         "It appears from nowhere, violating energy conservation."
       ],
       "correct": 0,
@@ -4973,9 +4973,9 @@ const QUESTIONS = {
       "topic": "6.4 Total KE of Rolling Objects",
       "stem": "For an object rolling without slipping, why can you substitute ω=v/r into the rotational KE term when computing total kinetic energy?",
       "choices": [
-        "This substitution is only a rough approximation that works when friction is small.",
-        "Because rolling without slipping guarantees v_cm = rω, letting you express ω entirely in terms of v (or vice versa).",
-        "It's an arbitrary simplification with no physical justification, used only for convenience.",
+        "This substitution is only a rough approximation that works when friction is small, and fails otherwise.",
+        "Because rolling without slipping guarantees v_cm = rω, so ω can be expressed in terms of v (or vice versa).",
+        "It's an arbitrary simplification with no physical justification, used only for convenience here and there.",
         "This substitution works for any rotating object, slipping or not, at any speed."
       ],
       "correct": 1,
@@ -5171,10 +5171,10 @@ const QUESTIONS = {
       "topic": "7.1 SHM Basics",
       "stem": "At the point of maximum displacement in SHM, what are the values of velocity and acceleration?",
       "choices": [
-        "Both velocity and acceleration are zero.",
+        "Both velocity and acceleration are zero at that point in the cycle.",
         "Velocity is zero; acceleration is at its maximum magnitude.",
-        "Both velocity and acceleration are at their maximum.",
-        "Velocity is maximum; acceleration is zero."
+        "Both velocity and acceleration are at their maximum at that point.",
+        "Velocity is maximum; acceleration is zero at that point in the cycle."
       ],
       "correct": 1,
       "explanation": "At maximum displacement, the object has momentarily stopped to reverse direction, so velocity is zero — but the restoring force (and therefore acceleration) is at its greatest magnitude there, since it's proportional to the (maximum) displacement."
@@ -5250,9 +5250,9 @@ const QUESTIONS = {
       "stem": "What shape does a graph of position vs. time take for an object undergoing ideal SHM?",
       "choices": [
         "A sinusoidal (sine or cosine) curve.",
-        "A straight line.",
-        "An exponential decay curve.",
-        "A parabola."
+        "A straight line with a constant slope, over time.",
+        "An exponential decay curve that falls toward zero.",
+        "A parabola opening upward on the graph, over time."
       ],
       "correct": 0,
       "explanation": "SHM position as a function of time follows a sinusoidal pattern — a smooth, repeating wave shape (sine or cosine), a direct mathematical consequence of the restoring-force-proportional-to-displacement condition."
@@ -5613,9 +5613,9 @@ const QUESTIONS = {
       "topic": "7.3 The Simple Pendulum",
       "stem": "Under what condition is the standard pendulum period formula, T=2π√(L/g), an accurate description of the motion?",
       "choices": [
-        "Only for pendulums longer than 2 meters.",
-        "For any swing angle, no matter how large.",
-        "Only on planets with g greater than Earth's.",
+        "Only for pendulums longer than 2 meters, whatever the swing angle used.",
+        "For any swing angle, no matter how large, if the string stays taut.",
+        "Only on planets with g greater than Earth's, whatever the swing angle.",
         "Only for small swing angles (roughly under 15°)."
       ],
       "correct": 3,
@@ -5756,10 +5756,10 @@ const QUESTIONS = {
       "topic": "7.3 The Simple Pendulum",
       "stem": "Is a pendulum's motion exactly simple harmonic, or only approximately so?",
       "choices": [
-        "Never SHM under any circumstances.",
+        "Never SHM under any circumstances, since the restoring force is not linear.",
         "Only approximately SHM, and only for small angles.",
-        "Exactly SHM, for any swing angle.",
-        "Exactly SHM, but only for very long pendulums."
+        "Exactly SHM, for any swing angle, as the restoring force is always linear.",
+        "Exactly SHM, but only for very long pendulums, at any swing angle."
       ],
       "correct": 1,
       "explanation": "A pendulum's motion is only approximately simple harmonic, and that approximation is only good for small angles — a genuinely important distinction from an ideal spring, whose restoring force follows F=−kx exactly, with no small-angle caveat needed."
@@ -5809,9 +5809,9 @@ const QUESTIONS = {
       "stem": "How does total mechanical energy behave throughout an ideal (frictionless) SHM cycle?",
       "choices": [
         "It stays constant, trading between kinetic and potential.",
-        "It continuously decreases.",
-        "It continuously increases.",
-        "It oscillates between positive and negative values."
+        "It continuously decreases over each cycle of the oscillation, even without friction.",
+        "It continuously increases over each cycle of the oscillation, even without a driver.",
+        "It oscillates between positive and negative values over each cycle."
       ],
       "correct": 0,
       "explanation": "Total mechanical energy remains exactly constant throughout an ideal SHM cycle, with kinetic and potential energy continuously trading off against each other while their sum stays fixed — the same conservation principle from Unit 3, applied to oscillatory motion."
@@ -5821,10 +5821,10 @@ const QUESTIONS = {
       "topic": "7.4 Energy in SHM",
       "stem": "At the point of maximum displacement in SHM, find the kinetic energy and potential energy.",
       "choices": [
-        "KE is maximum; PE is zero.",
-        "Both KE and PE are at their maximum.",
+        "KE is maximum; PE is zero at the center of the motion.",
+        "Both KE and PE are at their maximum at the same instant.",
         "KE is zero; PE equals the total energy.",
-        "Both KE and PE are zero."
+        "Both KE and PE are zero at the extreme of the motion."
       ],
       "correct": 2,
       "explanation": "At maximum displacement, velocity is zero, so kinetic energy is zero — meaning all of the system's total mechanical energy is, at that instant, in the form of potential energy."
@@ -5834,10 +5834,10 @@ const QUESTIONS = {
       "topic": "7.4 Energy in SHM",
       "stem": "At the equilibrium position in SHM, find the kinetic energy and potential energy.",
       "choices": [
-        "Both KE and PE are zero.",
+        "Both KE and PE are zero at the center of the motion.",
         "KE equals the total energy; PE is zero.",
-        "Both KE and PE are at their maximum.",
-        "KE is zero; PE is maximum."
+        "Both KE and PE are at their maximum at the same instant.",
+        "KE is zero; PE is maximum at the extreme of the motion."
       ],
       "correct": 1,
       "explanation": "At equilibrium, displacement is zero, so potential energy (whether elastic, ½kx², or gravitational) is zero — meaning all the system's total mechanical energy is, at that instant, kinetic."
@@ -5899,10 +5899,10 @@ const QUESTIONS = {
       "topic": "7.4 Energy in SHM",
       "stem": "Is it physically possible for kinetic energy to be negative at some point during SHM?",
       "choices": [
-        "Yes, whenever potential energy exceeds the total energy.",
+        "Yes, whenever potential energy exceeds the total energy of the system.",
         "No — kinetic energy depends on velocity squared, never negative.",
-        "Only for very large amplitudes.",
-        "Yes, at the extremes of the motion."
+        "Only for very large amplitudes of oscillation, never for small ones.",
+        "Yes, at the extremes of the motion, where the speed is zero."
       ],
       "correct": 1,
       "explanation": "Since KE=½mv², and v² is always non-negative for any real velocity, kinetic energy can never physically be negative — this is a useful check on any calculation, in SHM or otherwise, echoing the same principle from Unit 3."
@@ -5992,7 +5992,7 @@ const QUESTIONS = {
       "stem": "Stretch — beyond typical AP difficulty: Show that the two expressions for total SHM energy, E=½mv_max² and E=½kA², are mathematically equivalent, using the relationships v_max=Aω and ω²=k/m.",
       "choices": [
         "They are equivalent only when the amplitude equals exactly 1 meter.",
-        "They are equivalent: ½mv_max² = ½m(Aω)² = ½mA²(k/m) = ½kA², since the mass cancels algebraically.",
+        "They are equivalent: ½mv_max² = ½m(Aω)² = ½mA²(k/m) = ½kA², as the mass cancels.",
         "They are only approximately equal, differing by a factor related to amplitude.",
         "The two expressions describe different physical quantities and are not meant to be equal."
       ],
@@ -6047,8 +6047,8 @@ const QUESTIONS = {
       "choices": [
         "A vector, with the same direction as the force producing it.",
         "A scalar — it has magnitude but no inherent direction of its own.",
-        "Neither a vector nor a scalar.",
-        "It depends on the type of fluid."
+        "Neither a vector nor a scalar, since it acts in every direction at once.",
+        "It depends on the type of fluid, being a vector for liquids only."
       ],
       "correct": 1,
       "explanation": "Pressure is a scalar quantity. While the force a fluid exerts on a specific surface acts perpendicular to that surface, the pressure VALUE itself carries no direction — it's the same number in every direction at a given point in the fluid."
@@ -6084,9 +6084,9 @@ const QUESTIONS = {
       "topic": "8.1 Density and Pressure",
       "stem": "Explain why snowshoes prevent a person from sinking into soft snow, in terms of pressure.",
       "choices": [
-        "Snowshoes reduce the person's weight.",
-        "Snowshoes work by melting the snow beneath them.",
-        "Snowshoes increase the force applied to the snow.",
+        "Snowshoes reduce the person's weight on the snow, by supporting it.",
+        "Snowshoes work by melting the snow beneath them as the person walks.",
+        "Snowshoes increase the force applied to the snow, which holds it firm.",
         "They spread the weight over a larger area, lowering the pressure."
       ],
       "correct": 3,
@@ -6163,9 +6163,9 @@ const QUESTIONS = {
       "stem": "Why does pressure increase with depth in a fluid?",
       "choices": [
         "Because deeper points support more fluid weight above them.",
-        "Pressure does not actually increase with depth.",
-        "Because fluids become denser at greater depth.",
-        "Because temperature increases with depth."
+        "Pressure does not actually increase with depth in a fluid at rest.",
+        "Because fluids become denser at greater depth, in every case.",
+        "Because temperature increases with depth, which raises the pressure."
       ],
       "correct": 0,
       "explanation": "The physical origin of the P=P0+ρgh relationship is exactly this: at any depth h, the fluid there has to support the weight of the entire column of fluid sitting above it — deeper points support more weight, hence more pressure."
@@ -6449,9 +6449,9 @@ const QUESTIONS = {
       "stem": "What determines the magnitude of the buoyant force on a submerged object?",
       "choices": [
         "The weight of the fluid displaced by the object.",
-        "The object's own weight.",
-        "The depth at which the object is submerged.",
-        "The object's own density."
+        "The object's own weight, regardless of the fluid in which it sits.",
+        "The depth at which the object is submerged in the fluid.",
+        "The object's own density, regardless of the fluid in which it sits."
       ],
       "correct": 0,
       "explanation": "Archimedes' Principle states that buoyant force equals the WEIGHT OF THE DISPLACED FLUID, not any property of the submerged object itself (its own weight, density, or the depth it's at)."
@@ -6475,8 +6475,8 @@ const QUESTIONS = {
       "stem": "What condition must hold for an object to float at a stable, constant depth in a fluid?",
       "choices": [
         "The buoyant force must exactly equal the object's weight.",
-        "The fluid's density must be zero.",
-        "The object must be fully submerged.",
+        "The fluid's density must be zero for the object to float.",
+        "The object must be fully submerged below the fluid's surface.",
         "The object's density must exceed the fluid's density."
       ],
       "correct": 0,
@@ -6565,9 +6565,9 @@ const QUESTIONS = {
       "topic": "8.4 Buoyancy",
       "stem": "Why do objects appear to weigh less when submerged underwater, as measured by a scale?",
       "choices": [
-        "Gravity is weaker underwater.",
-        "This is an optical illusion with no real physical basis.",
-        "Water absorbs some of the object's mass.",
+        "Gravity is weaker underwater, so the object weighs less there.",
+        "This is an optical illusion with no real physical basis at all, caused by refraction in the water.",
+        "Water absorbs some of the object's mass, making it lighter.",
         "The buoyant force acts upward, partially supporting the object's weight."
       ],
       "correct": 3,
@@ -6579,9 +6579,9 @@ const QUESTIONS = {
       "stem": "What does the continuity equation, A1v1=A2v2, physically represent?",
       "choices": [
         "Conservation of mass (or volume) for a flowing incompressible fluid.",
-        "Conservation of momentum for a flowing fluid in a pipe.",
-        "Conservation of energy for a flowing fluid in a pipe.",
-        "A statement that fluid speed is always constant in a pipe."
+        "Conservation of momentum for a flowing fluid in a pipe of changing width.",
+        "Conservation of energy for a flowing fluid in a pipe of changing width.",
+        "A statement that fluid speed is always constant in a pipe of changing width."
       ],
       "correct": 0,
       "explanation": "The continuity equation is a direct statement of mass conservation: for an incompressible fluid with no leaks or branches, the volume flowing past any cross-section of the pipe per second must be the same everywhere along that pipe."
@@ -6825,9 +6825,9 @@ const QUESTIONS = {
       "topic": "8.6 Bernoulli's Equation",
       "stem": "Explain, using Bernoulli's equation, why fluid pressure is lower in a narrow section of horizontal pipe where the fluid moves faster.",
       "choices": [
-        "Narrow pipes have less fluid, so there's less pressure to measure.",
-        "This effect only occurs in vertical pipes, not horizontal ones.",
-        "The narrow section physically blocks pressure from reaching that point.",
+        "Narrow pipes have less fluid, so there's less pressure to measure in them at all.",
+        "This effect only occurs in vertical pipes, not horizontal ones, because of gravity.",
+        "The narrow section physically blocks pressure from reaching that point in the pipe.",
         "The ½ρv² term rises with speed, so pressure must fall to keep the sum constant."
       ],
       "correct": 3,

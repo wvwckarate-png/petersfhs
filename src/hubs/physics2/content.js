@@ -885,10 +885,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "A gas undergoes a reversible isothermal expansion, absorbing heat Q from a thermal reservoir at temperature T while doing work on its surroundings. Compare the entropy change of the gas to the entropy change of the reservoir.",
       "choices": [
-        "The gas loses entropy while the reservoir gains even more.",
+        "The gas loses entropy while the reservoir gains even more than the gas lost.",
         "Equal magnitude, opposite sign — a reversible process's signature.",
-        "Entropy isn't defined at all for reversible processes.",
-        "The gas gains more entropy than the reservoir loses."
+        "Entropy isn't defined at all for reversible processes, only for irreversible ones.",
+        "The gas gains more entropy than the reservoir loses, so the total rises."
       ],
       "correct": 1,
       "explanation": "For an idealized reversible process, the total entropy change of the universe (gas plus reservoir) is exactly zero — the defining feature of reversibility — so whatever entropy the gas gains, the reservoir loses an equal amount. Choice D describes a net entropy increase, which is the hallmark of an IRREVERSIBLE process, not the idealized reversible case described here. Choice A makes the same type of error in the opposite direction, still implying a net entropy increase rather than the exact cancellation reversibility requires. Choice C is incorrect because entropy is defined for essentially any process, reversible or not; what's special about a reversible process is that its total change is exactly zero, not that entropy becomes undefined."
@@ -2338,9 +2338,9 @@ const QUESTIONS = {
       "topic": "11.5 Compound DC Circuits",
       "stem": "A circuit has two batteries and several resistors arranged in a network with multiple independent loops, too complex to reduce with simple series/parallel rules alone. What tools are needed to solve for all the currents?",
       "choices": [
-        "The capacitor equations from Unit 10.",
-        "Ohm's Law alone, applied repeatedly.",
-        "Only the power equations P = IV and P = I²R.",
+        "The capacitor equations from Unit 10, applied to each branch.",
+        "Ohm's Law alone, applied repeatedly to each separate resistor.",
+        "Only the power equations P = IV and P = I²R, for each element.",
         "Kirchhoff's Loop rule and junction rule, used together."
       ],
       "correct": 3,
@@ -2458,10 +2458,10 @@ const QUESTIONS = {
       "topic": "11.6 Kirchhoff's Loop Rule",
       "stem": "A loop contains a battery and a single resistor. A student mistakenly treats the resistor's voltage drop as a voltage RISE instead when applying the loop rule. What would the resulting (incorrect) equation predict?",
       "choices": [
-        "It would still give the correct current, since only magnitude matters.",
-        "It would give a current exactly twice the correct value.",
-        "It would give a negative value for the current, incorrectly suggesting the wrong direction.",
-        "It would produce no solvable equation at all."
+        "It would still give the correct current, since only magnitude matters in the loop rule at all.",
+        "It would give a current exactly twice the correct value for the loop.",
+        "It would give a negative value for the current, wrongly suggesting the opposite direction.",
+        "It would produce no solvable equation at all, so no current could be found."
       ],
       "correct": 2,
       "explanation": "A negative current: the correct equation 𝓔 − IR = 0 gives I = 𝓔/R, but flipping the sign gives 𝓔 + IR = 0, solving to I = −𝓔/R — same magnitude, wrong sign, misread as the wrong direction. \"Still correct\" wrongly assumes sign errors are harmless as long as you take the magnitude at the end, ignoring that the sign is what tells you the current's direction. \"Twice the correct value\" mistakes what a sign flip does to the answer, when it actually preserves magnitude and only flips the sign. \"No solvable equation\" is incorrect — the flipped equation is still perfectly solvable, it just gives a physically misleading (backwards) answer rather than no answer at all."
@@ -3718,10 +3718,10 @@ const QUESTIONS = {
       "topic": "13.2 Images Formed by Mirrors",
       "stem": "Explain why a convex mirror ALWAYS produces a virtual image, regardless of where the object is placed.",
       "choices": [
-        "Because the object distance is always greater than f for a convex mirror.",
-        "This is simply a rule to memorize, with no underlying mathematical reason.",
-        "Because convex mirrors don't actually reflect light.",
-        "Because f is always negative for a convex mirror, so 1/s<sub>i</sub> always comes out negative."
+        "Because the object distance is always greater than f for a convex mirror, in every case.",
+        "This is simply a rule to memorize, with no underlying mathematical reason behind it at all.",
+        "Because convex mirrors don't actually reflect light but only scatter it, so no image forms.",
+        "Because f is always negative for a convex mirror, so 1/si comes out negative."
       ],
       "correct": 3,
       "explanation": "It's guaranteed by the mirror equation itself. Since f is always negative for a convex mirror, 1/sᵢ = 1/f − 1/sₒ is negative minus a positive quantity — always negative, for any positive object distance — and a negative sᵢ always means virtual. This matches the physical picture: convex mirrors spread reflected rays apart rather than converging them to a real point. 'Convex mirrors don't actually reflect light' is simply false — they reflect just as much light as any mirror, just divergently. 'The object distance is always greater than f' is beside the point: the virtual-image guarantee holds for every object distance, not because of any particular so-vs-f relationship. 'This is simply a rule to memorize' dismisses a result that actually follows directly and unavoidably from the mirror equation."
@@ -3758,12 +3758,12 @@ const QUESTIONS = {
       "stem": "For a concave mirror, a ray traveling through the center of curvature reflects in which direction?",
       "choices": [
         "Straight back along its own incoming path",
-        "Perpendicular to its incoming path",
-        "Through the focal point",
-        "Parallel to the principal axis"
+        "Perpendicular to its incoming path, after the reflection",
+        "Through the focal point, on the far side of the mirror",
+        "Parallel to the principal axis, after the reflection"
       ],
       "correct": 0,
-      "explanation": "Straight back along its own path. A ray through the center of curvature strikes the mirror's surface exactly perpendicular to that curved surface (0° incidence), so by the law of reflection it retraces its own path exactly. 'Parallel to the principal axis' is the reverse of a DIFFERENT principal ray (the one entering parallel to the axis, which then reflects through f). 'Through the focal point' names the rule for yet another principal ray, not this one. 'Perpendicular to its incoming path' invents a 90° deflection that has no basis in this geometry."
+      "explanation": "Straight back along its own path. A ray through the center of curvature strikes the mirror's surface exactly perpendicular to that curved surface (0° incidence), so by the law of reflection it retraces its own path exactly. 'Parallel to the principal axis, after the reflection' is the reverse of a DIFFERENT principal ray (the one entering parallel to the axis, which then reflects through f). 'Through the focal point, on the far side of the mirror' names the rule for yet another principal ray, not this one. 'Perpendicular to its incoming path, after the reflection' invents a 90° deflection that has no basis in this geometry."
     },
     {
       "id": "13-22",
@@ -3978,10 +3978,10 @@ const QUESTIONS = {
       "topic": "13.3 Refraction",
       "stem": "Light inside glass (n = 1.5, critical angle ≈ 41.8° for a glass-air boundary) strikes that boundary at 45° from inside the glass. Describe what happens.",
       "choices": [
-        "The light refracts out into the air as normal, just at a large angle.",
+        "The light refracts out into the air as normal, just at a large angle from the normal.",
         "Total internal reflection occurs — 100% of the light reflects back into the glass.",
-        "The light is completely absorbed at the boundary.",
-        "The light splits evenly between refracting out and reflecting back."
+        "The light is completely absorbed at the boundary, with none reflected or refracted.",
+        "The light splits evenly between refracting out and reflecting back into the glass."
       ],
       "correct": 1,
       "explanation": "Total internal reflection. Since 45° exceeds the critical angle of 41.8° for this glass-air boundary, no refracted ray can exist — all the light reflects back into the glass. 'The light refracts out into the air as normal' ignores that the angle has exceeded the critical angle, past which refraction becomes impossible. 'The light splits evenly between refracting and reflecting' describes ordinary partial reflection below the critical angle, not what happens once TIR kicks in. 'The light is completely absorbed' is wrong — TIR means the light is entirely reflected, not absorbed; none of its energy is lost at the boundary."
@@ -4030,10 +4030,10 @@ const QUESTIONS = {
       "topic": "13.3 Refraction",
       "stem": "A swimming pool appears shallower than it actually is when viewed from above the water's surface. Explain this using refraction.",
       "choices": [
-        "Water absorbs some light, making the bottom appear closer than it really is to viewers.",
-        "This is simply an optical illusion, unrelated to any refraction effect of the water.",
+        "Water absorbs some light, making the bottom appear closer than it really is to viewers above the pool.",
+        "This is simply an optical illusion, unrelated to any refraction effect of the water, and arises in the brain.",
         "Light from the pool bottom refracts away from the normal exiting into air, making the bottom look closer.",
-        "The pool bottom is actually reflecting a virtual image of itself back up to the eye."
+        "The pool bottom is actually reflecting a virtual image of itself back up to the eye from the surface."
       ],
       "correct": 2,
       "explanation": "Refraction plus our brain's assumption of straight-line light travel. Light from the pool bottom refracts away from the normal as it exits water into air; since our visual system assumes light travels in perfectly straight lines, tracing the refracted ray backward (rather than its actual bent path) places the apparent source closer to the surface than the real bottom. 'Water absorbs some light, making the bottom appear closer' misattributes the effect to absorption, which dims the image but has nothing to do with its apparent depth. 'The pool bottom is reflecting a virtual image of itself' invents an unrelated reflection mechanism instead of refraction. 'This is an optical illusion unrelated to refraction' denies the very refraction effect the question is testing."
@@ -4084,9 +4084,9 @@ const QUESTIONS = {
       "stem": "Light enters a glass prism (n = 1.5) from air, striking the first face at 30° incidence. It then travels inside the glass and strikes a second face at 50°, attempting to exit back into air. Find the refraction angle at the first face, and determine whether total internal reflection occurs at the second face.",
       "choices": [
         "19.5° at the first face; yes, TIR occurs at the second face (50° exceeds the ≈41.8° critical angle).",
-        "19.5° at the first face; no, the light refracts out normally at the second face.",
-        "45° at the first face; yes, TIR occurs at the second face.",
-        "30° at the first face (no bending); no TIR at the second face."
+        "19.5° at the first face; no, the light refracts out normally at the second face, bending away from the normal.",
+        "45° at the first face; yes, TIR occurs at the second face, since the angle there is large enough.",
+        "30° at the first face (no bending); no TIR at the second face, since the light meets it head on."
       ],
       "correct": 0,
       "explanation": "19.5° at the first face; TIR occurs at the second. First: sinθ₂ = (1.00/1.5)(sin 30°) = (0.667)(0.5) ≈ 0.333, giving θ₂ ≈ 19.5°. Second: the critical angle for a glass-to-air boundary with n = 1.5 is sin⁻¹(1.00/1.5) ≈ 41.8°; since the ray strikes this face at 50°, well beyond that critical angle, total internal reflection occurs and none of the light exits. The '19.5°... no TIR' choice gets the first-face refraction right but wrongly concludes no TIR, ignoring that 50° exceeds the 41.8° critical angle. The '45°... yes, TIR' choice gets the correct TIR conclusion but the wrong first-face angle — 45° doesn't come from applying Snell's Law to this geometry at all. 'No bending at the first face' incorrectly assumes light passes straight through without refracting on entering the glass, and, as a consequence, also wrongly denies TIR at the second face."
@@ -4187,13 +4187,13 @@ const QUESTIONS = {
       "topic": "13.4 Images Formed by Lenses",
       "stem": "Explain why a diverging lens ALWAYS produces a virtual image, regardless of object distance.",
       "choices": [
-        "This is an arbitrary rule with no underlying mathematical basis.",
-        "Diverging lenses actually don't refract light at all, physically.",
-        "Because f is always negative for a diverging lens, so 1/s<sub>i</sub> always comes out negative.",
-        "Because the object is always placed beyond 2f for a diverging lens."
+        "This is an arbitrary rule with no underlying mathematical basis, adopted only by convention for the equation.",
+        "Diverging lenses actually don't refract light at all, physically, and only appear to spread rays out.",
+        "Because f is always negative for a diverging lens, so 1/si comes out negative.",
+        "Because the object is always placed beyond 2f for a diverging lens, whatever the object distance used."
       ],
       "correct": 2,
-      "explanation": "It's guaranteed by the lens equation itself — the exact parallel to the convex-mirror case. With f always negative, 1/sᵢ = 1/f − 1/sₒ is always negative for any positive object distance, so sᵢ always comes out negative (virtual). This matches the physical picture: a diverging lens spreads parallel rays apart rather than converging them anywhere real. 'Diverging lenses actually don't refract light at all' is simply false — they refract light just as much as any lens, just divergently. 'The object is always placed beyond 2f' is beside the point — the virtual-image guarantee holds for every object distance. 'This is an arbitrary rule with no underlying mathematical basis' dismisses a result that follows directly and unavoidably from the lens equation."
+      "explanation": "It's guaranteed by the lens equation itself — the exact parallel to the convex-mirror case. With f always negative, 1/sᵢ = 1/f − 1/sₒ is always negative for any positive object distance, so sᵢ always comes out negative (virtual). This matches the physical picture: a diverging lens spreads parallel rays apart rather than converging them anywhere real. 'Diverging lenses actually don't refract light at all' is simply false — they refract light just as much as any lens, just divergently. 'The object is always placed beyond 2f' is beside the point — the virtual-image guarantee holds for every object distance. 'This is an arbitrary rule with no underlying mathematical basis, adopted only by convention for the equation' dismisses a result that follows directly and unavoidably from the lens equation."
     },
     {
       "id": "13-55",
@@ -4213,13 +4213,13 @@ const QUESTIONS = {
       "topic": "13.4 Images Formed by Lenses",
       "stem": "For a converging lens, a ray traveling parallel to the axis refracts through which point after passing through the lens?",
       "choices": [
-        "The exact geometric center of the lens itself",
+        "The exact geometric center of the lens itself, without bending",
         "The far focal point, on the side opposite the entering ray",
         "The near focal point, same side as the entering ray",
-        "It continues parallel forever, never converging"
+        "It continues parallel forever, never converging after the lens"
       ],
       "correct": 1,
-      "explanation": "The far focal point, on the side opposite the entering ray. A parallel incoming ray always bends to pass through the focal point on the far side of a converging lens — the direct lens analog of the concave mirror's equivalent rule. 'The near focal point, same side as the entering ray' swaps in the wrong focal point; the parallel-ray rule specifically involves the FAR one. 'The exact geometric center of the lens itself' names the reference point for a different principal ray (the undeviated-through-the-center rule), not this one. 'It continues parallel forever, never converging' contradicts the entire defining behavior of a converging lens, whose whole purpose is to bend parallel rays toward a focus."
+      "explanation": "The far focal point, on the side opposite the entering ray. A parallel incoming ray always bends to pass through the focal point on the far side of a converging lens — the direct lens analog of the concave mirror's equivalent rule. 'The near focal point, same side as the entering ray' swaps in the wrong focal point; the parallel-ray rule specifically involves the FAR one. 'The exact geometric center of the lens itself, without bending' names the reference point for a different principal ray (the undeviated-through-the-center rule), not this one. 'It continues parallel forever, never converging after the lens' contradicts the entire defining behavior of a converging lens, whose whole purpose is to bend parallel rays toward a focus."
     },
     {
       "id": "13-57",
@@ -4330,10 +4330,10 @@ const QUESTIONS = {
       "topic": "13.4 Images Formed by Lenses",
       "stem": "Compare the reasoning behind the 'ray through the center' rule for a mirror (center of curvature) versus a lens (center of the lens itself). Are they the same underlying rule?",
       "choices": [
-        "Yes, both rely on the ray reflecting straight back on itself along its original path.",
-        "Yes, both effects rely on the lens or mirror being infinitely thin in that spot.",
+        "Yes, both rely on the ray reflecting straight back on itself along its original path, in the same way.",
+        "Yes, both effects rely on the lens or mirror being infinitely thin in that spot, for the ray to pass.",
         "No — the mirror relies on perpendicular incidence at the curved surface; the lens acts locally like flat glass.",
-        "No — only the mirror has a valid 'through the center' rule; lenses have no equivalent."
+        "No — only the mirror has a valid 'through the center' rule; lenses have no equivalent rule at all."
       ],
       "correct": 2,
       "explanation": "They're different rules that happen to look similar. For a mirror, a ray through the center of curvature hits the curved surface exactly perpendicular (0° incidence), reflecting straight back. For a lens, a ray through the lens's own center passes through undeviated because the lens behaves like a flat, parallel-faced piece of glass at that exact spot, with entry and exit refractions canceling. Both give an easy straight-through-or-straight-back ray, but for genuinely different physical reasons. 'Yes, both rely on the ray reflecting straight back on itself' is only true for the mirror — the lens ray doesn't reflect at all, it passes straight through. 'Yes, both rely on the lens or mirror being infinitely thin' invents an unrelated 'infinitely thin' requirement; the mirror rule depends on perpendicular incidence at a curved surface, not thinness. 'Only the mirror has a valid rule; lenses have no equivalent' incorrectly denies that lenses have their own distinct (if differently-reasoned) center rule."
@@ -4345,10 +4345,10 @@ const QUESTIONS = {
       "topic": "14.1 Wave Basics",
       "stem": "In a transverse wave, how does the medium's oscillation relate to the wave's direction of travel?",
       "choices": [
-        "It depends on the wave's amplitude",
+        "It depends on the wave's amplitude and on its frequency",
         "Perpendicular to the direction of travel",
-        "Parallel to the direction of travel",
-        "There is no fixed relationship"
+        "Parallel to the direction of travel of the wave",
+        "There is no fixed relationship between the two directions"
       ],
       "correct": 1,
       "explanation": "Perpendicular — waves on a string and light are classic transverse waves, oscillating at 90° to travel. 'Parallel' describes a longitudinal wave like sound instead. 'No fixed relationship' is wrong because every wave type has a definite, unchanging geometric relationship between oscillation and travel direction. 'Depends on amplitude' confuses amplitude (how far the medium moves) with the fixed direction it moves in, which amplitude never affects."
@@ -4631,10 +4631,10 @@ const QUESTIONS = {
       "topic": "14.4 EM Waves",
       "stem": "Compare the photon energy of a gamma ray to that of a radio wave.",
       "choices": [
-        "Radio wave photons have much higher energy, since they have longer wavelengths",
+        "Radio wave photons have much higher energy, since they have longer wavelengths and so carry more energy each",
         "Gamma ray photons have far higher energy, since E = hf and gamma rays have far higher frequency",
-        "Photon energy can't be compared without knowing wave amplitude",
-        "They have equal photon energy, since both travel at speed c"
+        "Photon energy can't be compared without knowing wave amplitude, since energy depends on the intensity of each wave",
+        "They have equal photon energy, since both travel at speed c in a vacuum and so have the same energy"
       ],
       "correct": 1,
       "explanation": "Since E = hf, and gamma rays sit at the extreme high-frequency end of the spectrum while radio waves sit at the low-frequency end, gamma ray photons carry vastly more energy — this is why gamma rays damage tissue while radio waves are essentially harmless. 'Radio waves higher energy' backwards-links longer wavelength to higher energy, when longer wavelength means lower frequency and thus lower energy. 'Equal energy' wrongly conflates the shared speed c with photon energy, which depends on frequency, not speed. 'Cannot be compared' is wrong since photon energy depends on frequency, not amplitude."
@@ -4892,10 +4892,10 @@ const QUESTIONS = {
       "topic": "14.6 Interference & Standing Waves",
       "stem": "Two identical, in-phase speakers are positioned so a listener is exactly half a wavelength farther from one speaker than the other. Describe what the listener hears at that point.",
       "choices": [
-        "Sound at normal volume, unaffected by the second speaker.",
-        "Sound significantly louder than from either speaker alone.",
+        "Sound at normal volume, unaffected by the second speaker at all.",
+        "Sound significantly louder than from either speaker alone, by constructive effects.",
         "Sound much quieter, or even near-silent, due to destructive interference.",
-        "A pure tone shifted to a different frequency."
+        "A pure tone shifted to a different frequency, higher in pitch."
       ],
       "correct": 2,
       "explanation": "A path difference of half a wavelength satisfies the destructive interference condition exactly, so the waves arrive out of phase and largely cancel — the same principle behind active noise-canceling headphones. 'Significantly louder' describes the equidistant, constructive case instead. 'Normal volume, unaffected' wrongly assumes the second speaker has no interference effect at all. 'Shifted to a different frequency' confuses interference (which changes amplitude/loudness) with an effect like the Doppler shift, which changes frequency — path difference does neither to frequency."
@@ -4906,9 +4906,9 @@ const QUESTIONS = {
       "stem": "A wave passes through an opening much LARGER than its wavelength. Describe the resulting diffraction.",
       "choices": [
         "Minimal spreading; the wave travels mostly straight through.",
-        "The wave's frequency changes upon passing through.",
-        "Significant — the wave spreads out substantially.",
-        "The wave is completely blocked by the opening."
+        "The wave's frequency changes upon passing through the opening.",
+        "Significant — the wave spreads out substantially past the opening.",
+        "The wave is completely blocked by the opening, and none passes."
       ],
       "correct": 0,
       "explanation": "When the opening is much larger than the wavelength, the wave passes through with little bending around the edges, producing a comparatively sharp-edged pattern. 'Significant spreading' describes the opposite case, where the opening is comparable to or smaller than the wavelength. 'Completely blocked' is wrong — a large opening lets the wave through freely. 'Frequency changes' is wrong because diffraction bends a wave's path, it doesn't alter its frequency."
@@ -4919,9 +4919,9 @@ const QUESTIONS = {
       "stem": "A wave passes through an opening comparable in size to (or smaller than) its wavelength. Describe the resulting diffraction.",
       "choices": [
         "Significant — the wave spreads out substantially, bending around the opening's edges.",
-        "Minimal — the wave travels mostly straight through with little spreading.",
-        "The wave's speed changes upon passing through.",
-        "The wave is completely blocked."
+        "Minimal — the wave travels mostly straight through with little spreading beyond the opening.",
+        "The wave's speed changes upon passing through, becoming slower beyond the opening.",
+        "The wave is completely blocked by the opening, and none passes through at all."
       ],
       "correct": 0,
       "explanation": "When the wavelength is comparable to (or larger than) the opening, the wave bends and spreads noticeably, with the opening effectively acting like a new point source. 'Minimal spreading' describes the opposite case of a much-larger opening instead. 'Completely blocked' is wrong — the wave still passes through, just spread widely rather than blocked. 'Speed changes' is wrong since diffraction affects a wave's direction of spread, not its propagation speed through the same medium."
@@ -4970,10 +4970,10 @@ const QUESTIONS = {
       "topic": "14.7 Diffraction",
       "stem": "A radio wave (wavelength ≈ 1 m) and a light wave (wavelength ≈ 500 nm) both encounter an obstacle 10 cm wide. Which diffracts more around this obstacle?",
       "choices": [
-        "Both diffract equally, since they're both EM waves",
+        "Both diffract equally, since they're both EM waves of the same kind",
         "The radio wave, whose wavelength is much larger relative to the obstacle",
-        "Neither diffracts, since the obstacle is opaque to both",
-        "The light wave, since it has a much higher frequency"
+        "Neither diffracts, since the obstacle is opaque to both kinds of wave",
+        "The light wave, since it has a much higher frequency than the radio wave"
       ],
       "correct": 1,
       "explanation": "The radio wave's 1 m wavelength is comparable to (even larger than) the 10 cm obstacle, causing substantial bending around it, while the light wave's 500 nm wavelength is far smaller, producing a sharp shadow with negligible bending. 'The light wave, due to higher frequency' wrongly ties diffraction to frequency rather than to wavelength relative to obstacle size. 'Both diffract equally, since both are EM waves' ignores that diffraction depends on wavelength-to-obstacle ratio, not on being electromagnetic. 'Neither diffracts, obstacle is opaque to both' misapplies opacity — diffraction is about bending around an obstacle's edges, which doesn't require the obstacle to be transparent."
@@ -5035,10 +5035,10 @@ const QUESTIONS = {
       "topic": "14.8 Double-Slit & Diffraction Gratings",
       "stem": "At the exact center of a double-slit interference pattern (m = 0), what is true about the light arriving there from each slit?",
       "choices": [
-        "The two waves have traveled paths differing by exactly half a wavelength.",
-        "The two waves arrive completely out of phase.",
-        "Only light from one of the two slits reaches this point.",
-        "The two waves have traveled exactly equal path lengths, arriving perfectly in phase."
+        "The two waves have traveled paths differing by exactly half a wavelength, arriving opposite.",
+        "The two waves arrive completely out of phase, canceling each other out here.",
+        "Only light from one of the two slits reaches this point on the screen.",
+        "The two waves have traveled equal path lengths, arriving perfectly in phase."
       ],
       "correct": 3,
       "explanation": "The central bright fringe sits at the point of zero path difference — equidistant from both slits — which is why it's typically the brightest fringe in the whole pattern. 'Half a wavelength path difference' describes a destructive, dark point instead, not the central maximum. 'Only light from one slit reaches this point' is wrong — light from both slits reaches every point on the screen; it's the phase relationship that differs. 'Completely out of phase' is the opposite of the actual, perfectly-in-phase condition at the center."
@@ -5127,9 +5127,9 @@ const QUESTIONS = {
       "topic": "14.9 Thin Film Interference",
       "stem": "A thin oil film (n = 1.4) floats on water (n = 1.33), with air (n = 1.0) above. Determine whether each reflecting surface — the top (air-to-oil) and bottom (oil-to-water) — involves a phase shift.",
       "choices": [
-        "Both surfaces shift, since both are reflections.",
-        "Only the bottom surface shifts, not the top.",
-        "Neither surface shifts, since oil sits between two other media.",
+        "Both surfaces shift, since both are reflections from a boundary with another medium.",
+        "Only the bottom surface shifts, not the top, since the bottom has the higher index.",
+        "Neither surface shifts, since oil sits between two other media and so cancels it.",
         "Only the top surface shifts (higher index); the bottom does not (lower index)."
       ],
       "correct": 3,
@@ -5416,10 +5416,10 @@ const QUESTIONS = {
       "topic": "15.2 The Bohr Model",
       "stem": "If an atom's electron is already in its highest possible bound energy level, can it absorb another photon and remain bound to the atom?",
       "choices": [
-        "No further bound-to-bound jump is possible, but a high-enough-energy photon could ionize it entirely.",
-        "This depends only on the photon's exact wavelength, never its total energy.",
-        "Yes, it can always absorb any incoming photon and remain bound to the atom.",
-        "No, the electron can never absorb another photon under any circumstances at all."
+        "No further bound-to-bound jump is possible, but a high-energy photon could ionize it entirely.",
+        "This depends only on the photon's exact wavelength, never its total energy, in any case.",
+        "Yes, it can always absorb any incoming photon and remain bound to the atom, whatever its energy.",
+        "No, the electron can never absorb another photon under any circumstances at all, at any energy."
       ],
       "correct": 0,
       "explanation": "No further bound transition, but ionization is possible. With no higher bound level available, the electron can't make another bound-to-bound jump — but a sufficiently energetic photon can still be absorbed if it provides enough energy to fully eject the electron from the atom (ionization), a qualitatively different process from a simple level-to-level transition. \"Yes, it can always absorb any photon and stay bound\" ignores that there's no higher bound level left to jump to. \"No, never again under any circumstances\" wrongly rules out ionization entirely. \"Depends only on wavelength, not energy\" is a false distinction, since wavelength and energy describe the same photon property (E = hc/λ) and always move together."
@@ -5481,9 +5481,9 @@ const QUESTIONS = {
       "topic": "15.3 Emission and Absorption Spectra",
       "stem": "Why does each element produce a unique spectral 'fingerprint' of specific wavelengths?",
       "choices": [
-        "Different elements absorb different amounts of ambient heat from their surroundings.",
-        "Each element simply has a different natural color, unrelated to its atomic structure.",
-        "This is purely a labeling convention among scientists, not a real physical distinction.",
+        "Different elements absorb different amounts of ambient heat from their surroundings, which sets their color.",
+        "Each element simply has a different natural color, unrelated to its atomic structure or its energy levels.",
+        "This is purely a labeling convention among scientists, not a real physical distinction between the elements.",
         "Each element has a unique set of quantized electron energy levels, giving it distinct photon wavelengths."
       ],
       "correct": 3,
@@ -5507,10 +5507,10 @@ const QUESTIONS = {
       "topic": "15.3 Emission and Absorption Spectra",
       "stem": "If an atom had continuously variable (non-quantized) energy levels instead of discrete ones, what would its emission spectrum look like?",
       "choices": [
-        "No spectrum at all — such an atom couldn't emit any light whatsoever.",
-        "Identical to the actual sharp-line spectrum that real atoms produce.",
+        "No spectrum at all — such an atom couldn't emit any light whatsoever, at any wavelength.",
+        "Identical to the actual sharp-line spectrum that real atoms produce, with the same lines.",
         "A continuous spectrum — a smooth rainbow of all wavelengths, not distinct lines.",
-        "A spectrum containing only a single, super-intense spectral line."
+        "A spectrum containing only a single, super-intense spectral line at the longest wavelength."
       ],
       "correct": 2,
       "explanation": "A continuous, smooth spectrum. If energy levels could take any value rather than being restricted to discrete steps, electrons could emit photons of any energy at all, producing a smooth rainbow rather than distinct lines — the sharp-line spectra we actually observe are direct evidence that energy levels really are quantized. \"Identical to the actual sharp-line spectrum\" contradicts the premise, since real atoms DO have discrete levels while this question asks about a hypothetical continuous case. \"No spectrum at all\" is wrong — the atom could still emit light, just at any energy rather than only certain ones. \"A single super-intense line\" misunderstands that a continuous range of possible energies would spread emission across all wavelengths, not concentrate it into one."
@@ -5521,10 +5521,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "For the same element, emission and absorption spectra show lines at the same wavelengths — but why might their RELATIVE intensities differ, even though the line positions match exactly?",
       "choices": [
-        "Different starting populations make the same transitions occur at different relative frequencies, giving different intensities.",
-        "They never actually differ in intensity at all — this premise is simply false for real spectra.",
-        "Absorption spectra are always uniformly dimmer than emission spectra, by some fixed factor in every case.",
-        "Intensity differences are purely due to instrument calibration errors, not real physics at the atomic level."
+        "Different starting populations make the same transitions occur at different relative frequencies.",
+        "They never actually differ in intensity at all — this premise is simply false for real spectra and lines.",
+        "Absorption spectra are always uniformly dimmer than emission spectra, by some fixed factor in every case studied.",
+        "Intensity differences are purely due to instrument calibration errors, not real physics at the atomic level at all."
       ],
       "correct": 0,
       "explanation": "Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact. This distinction between line POSITION and line INTENSITY goes beyond the core wavelength-matching fact this section usually emphasizes."
@@ -5573,10 +5573,10 @@ const QUESTIONS = {
       "topic": "15.4 Blackbody Radiation",
       "stem": "Why was blackbody radiation historically difficult to explain using classical (non-quantum) physics?",
       "choices": [
-        "Classical predictions had radiated intensity increasing without bound at short wavelengths — not what's observed.",
-        "Classical physics couldn't account for any temperature dependence in radiation whatsoever.",
-        "This was never actually a real problem for classical physics at all.",
-        "Classical physics predicted no radiation at all from any object, regardless of temperature."
+        "Classical predictions had radiated intensity increasing without bound at short wavelengths.",
+        "Classical physics couldn't account for any temperature dependence in radiation whatsoever, at any wavelength.",
+        "This was never actually a real problem for classical physics at all, which explained all the data well.",
+        "Classical physics predicted no radiation at all from any object, regardless of temperature or material."
       ],
       "correct": 0,
       "explanation": "The 'ultraviolet catastrophe.' Classical physics, treating energy as continuously variable, predicted intensity should keep increasing without limit at short wavelengths — a prediction wildly at odds with real measurements. Planck's proposal that energy is emitted and absorbed only in discrete chunks (quanta, hf) resolved this contradiction and matched the observed spectrum, marking the historical birth of quantum theory. \"Predicted no radiation at all\" gets the failure backwards — the actual problem was predicting *too much* radiation at short wavelengths, not none. \"Couldn't account for temperature dependence\" is wrong — classical theory did include temperature; its failure was specifically in the short-wavelength behavior. \"Never actually a problem\" denies the well-documented historical crisis that motivated quantum theory in the first place."
@@ -5861,10 +5861,10 @@ const QUESTIONS = {
       "topic": "15.7 Fission, Fusion & Decay",
       "stem": "Explain why BOTH nuclear fission (splitting heavy nuclei) and nuclear fusion (combining light nuclei) release energy, despite being essentially opposite processes.",
       "choices": [
-        "Both release energy, but for entirely unrelated reasons that simply happen to coincide.",
-        "Fission releases energy, but fusion actually requires a large net energy input overall.",
-        "Only fission actually releases energy; the premise about fusion releasing energy is incorrect.",
-        "Both processes move nuclei toward more tightly bound configurations, releasing the mass difference as energy."
+        "Both release energy, but for entirely unrelated reasons that simply happen to coincide in outcome.",
+        "Fission releases energy, but fusion actually requires a large net energy input overall, in all cases.",
+        "Only fission actually releases energy; the premise about fusion releasing energy is incorrect, and fusion absorbs it.",
+        "Both processes move nuclei toward more tightly bound configurations, releasing the mass difference."
       ],
       "correct": 3,
       "explanation": "Both move toward greater stability. Heavy nuclei become more stable by splitting into medium-sized pieces; light nuclei become more stable by combining into medium-sized nuclei — in both cases, the resulting products are more tightly bound (have less total mass) than the starting materials, and that mass difference converts to released energy via E = mc², regardless of which direction the process runs. Choice B contradicts the premise; fusion of light nuclei (like hydrogen) is exothermic and releases net energy, not requiring net input. Choice C denies the well-established fact that stellar fusion (as in the Sun) releases enormous energy. Choice A wrongly treats the two processes' energy release as coincidental, when they in fact share the same underlying cause: movement toward tighter nuclear binding."
@@ -5940,10 +5940,10 @@ const QUESTIONS = {
       "topic": "15.7 Fission, Fusion & Decay",
       "stem": "Why do fusion reactions require extremely high temperatures, unlike most fission reactions (which can be triggered by a single low-energy neutron)?",
       "choices": [
-        "Fusion reactions are actually far easier to trigger than fission, contrary to the premise.",
+        "Fusion reactions are actually far easier to trigger than fission, contrary to the premise of the question.",
         "Fusion requires overcoming electric repulsion between two positive nuclei; fission's neutron faces no such barrier.",
-        "Fusion only works with radioactive isotopes, which need heat to become unstable first.",
-        "High temperature is needed simply to supply the mass that later gets converted to energy."
+        "Fusion only works with radioactive isotopes, which need heat to become unstable first, and then fuse.",
+        "High temperature is needed simply to supply the mass that later gets converted to energy in the reaction."
       ],
       "correct": 1,
       "explanation": "Overcoming Coulomb repulsion. Fusing two nuclei requires bringing two positively charged objects close enough for the short-range strong nuclear force to take over — but their electric repulsion strongly resists this approach. Extremely high temperatures give nuclei enough kinetic energy to overcome that repulsion. Fission, by contrast, is triggered by an electrically neutral neutron, which faces no repulsive barrier and can approach a nucleus freely at any temperature. Choice A contradicts the premise and physical reality — fusion needs extreme conditions precisely because it's hard, not easy, to initiate. Choice D confuses supplying kinetic energy to overcome repulsion with supplying the mass-energy that gets converted; the mass involved in fusion's energy release comes from the nuclei themselves, not from the added heat. Choice C is wrong because fusion fuel (such as ordinary hydrogen) need not be radioactive at all."
@@ -6018,10 +6018,10 @@ const QUESTIONS = {
       "topic": "15.8 Types of Radioactive Decay",
       "stem": "In beta-plus decay, a proton transforms into a neutron, emitting a positron. Using conservation of charge, explain why this is consistent.",
       "choices": [
-        "This process actually violates charge conservation, which is why it's rare.",
+        "This process actually violates charge conservation, which is why it is rare in nature and in the laboratory.",
         "Total charge before (+1, proton) equals total charge after (0 neutron plus +1 positron = +1).",
-        "The positron actually carries negative charge, exactly balancing the proton.",
-        "Charge is not conserved in this process at all, which is impossible."
+        "The positron actually carries negative charge, exactly balancing the proton, so the net charge is zero.",
+        "Charge is not conserved in this process at all, which is impossible according to every known law."
       ],
       "correct": 1,
       "explanation": "Charge balances exactly. A proton (charge +1) becomes a neutron (charge 0) plus an emitted positron (charge +1, since a positron is the positively-charged antimatter counterpart of an electron); the products' total charge, 0 + 1 = +1, exactly matches the starting charge. Choice A is incorrect — beta-plus decay also always conserves charge exactly, as shown above. Choice C has the positron's charge backwards; it is positive, not negative. Choice D is wrong because beta-plus decay does NOT violate charge conservation — it occurs precisely because charge balances exactly, not in spite of some violation."

@@ -167,7 +167,7 @@ const QUESTIONS = {
       "choices": [
         "Because losing a free service can force costly artificial replacement, revealing hidden economic value.",
         "They are considered to carry no real economic relevance whatsoever, being purely symbolic.",
-        "Because ecosystem services are commonly believed to exist only within tropical world regions.",
+        "Because ecosystem services exist only within tropical world regions.",
         "Because ecosystem services always cost more than any artificial engineered alternative available."
       ],
       "correct": 0,
@@ -412,9 +412,9 @@ const QUESTIONS = {
       "topic": "1.3 Aquatic Biomes",
       "stem": "Which of the following best describes the aphotic zone?",
       "choices": [
-        "A zone with abundant sunlight supporting extensive photosynthesis.",
-        "The shallow zone nearest to shore.",
-        "A zone found only in freshwater lakes, never in the ocean.",
+        "A zone with abundant sunlight supporting extensive photosynthesis near the surface.",
+        "The shallow zone nearest to shore, where the water is warmest and clearest.",
+        "A zone found only in freshwater lakes, never in the ocean, below the littoral.",
         "A deeper zone of water with insufficient light for photosynthesis to occur."
       ],
       "correct": 3,
@@ -1350,10 +1350,10 @@ const QUESTIONS = {
       "topic": "2.2 The Importance of Biodiversity",
       "stem": "Which of the following best explains why biodiversity loss is often described as reducing an ecosystem's 'resilience'?",
       "choices": [
-        "Biodiversity loss always increases resilience by simplifying the ecosystem.",
-        "Greater biodiversity gives an ecosystem more backup options to draw on when a disturbance occurs.",
+        "Biodiversity loss always increases resilience by simplifying the ecosystem for the species that remain.",
+        "Greater biodiversity gives an ecosystem more backup options to draw on after a disturbance.",
         "Biodiversity has no relationship to how ecosystems respond to disturbance.",
-        "Resilience only depends on an ecosystem's total land area, not its biodiversity."
+        "Resilience only depends on an ecosystem's total land area, not its biodiversity, which is unrelated."
       ],
       "correct": 1,
       "explanation": "Higher biodiversity (genetic, species, or ecosystem level) generally provides more backup options for an ecosystem to draw on when facing a new stressor, improving its ability to absorb disturbance and recover. Choice C denies this well-established relationship. Choice D substitutes an unrelated factor (land area) for biodiversity. Choice A reverses the relationship entirely — losing biodiversity removes backup options and reduces resilience, it doesn't increase it."
@@ -3239,10 +3239,10 @@ const QUESTIONS = {
       "topic": "4.1 Plate Tectonics",
       "stem": "What is the 'Ring of Fire'?",
       "choices": [
-        "A seasonal weather pattern said to develop over the Atlantic Ocean in late summer",
+        "A seasonal weather pattern that develops over the Atlantic Ocean in late summer",
         "A term for the hottest, outermost layer of Earth's atmosphere above the thermosphere",
         "A horseshoe-shaped Pacific zone with many earthquakes and volcanoes, matching plate boundaries",
-        "An informal synonym some are said to use for the equator and its tropical belt"
+        "An informal synonym some use for the equator and its tropical belt"
       ],
       "correct": 2,
       "explanation": "The Ring of Fire is the horseshoe-shaped zone around the Pacific basin where a large share of the world's earthquakes and volcanoes cluster, corresponding to convergent boundaries surrounding the Pacific Plate. It is not an Atlantic weather pattern — it is a geological feature, not a meteorological one. It is unrelated to the equator, which is a line of latitude, not a tectonic feature. And it has nothing to do with atmospheric layers such as the thermosphere; 'Ring of Fire' refers to Earth's crust, not its atmosphere."
@@ -3267,8 +3267,8 @@ const QUESTIONS = {
       "choices": [
         "None of these boundary types describe the San Andreas Fault",
         "Transform, since the plates slide horizontally past each other",
-        "Divergent, since the plates there are said to be pulling apart",
-        "Convergent, since the plates there are said to be colliding head-on"
+        "Divergent, since the plates there are pulling apart",
+        "Convergent, since the plates there are colliding head-on"
       ],
       "correct": 1,
       "explanation": "The San Andreas Fault is a classic transform boundary, where the Pacific and North American Plates slide horizontally past each other, producing earthquakes without major associated volcanism. It is not convergent, since the plates are not colliding or subducting there. It is not divergent, since the plates are not pulling apart or creating new crust. And since transform correctly describes it, 'none of these' is incorrect."
@@ -3291,9 +3291,9 @@ const QUESTIONS = {
       "topic": "4.1 Plate Tectonics",
       "stem": "Why is it not coincidental that most of the world's earthquakes and volcanoes cluster along plate boundaries?",
       "choices": [
-        "Plate boundaries are said to have no meaningful relationship to geological hazards",
-        "The clustering is said to be coincidental, with no identifiable underlying cause",
-        "Earthquakes and volcanoes are said to occur independently of plate tectonics",
+        "Plate boundaries have no meaningful relationship to geological hazards in any region of the world",
+        "The clustering is coincidental, with no identifiable underlying cause in the structure of the crust",
+        "Earthquakes and volcanoes occur independently of plate tectonics, in places chosen by chance alone",
         "Boundary stress, friction, and magma movement directly cause most seismic and volcanic activity"
       ],
       "correct": 3,
@@ -3356,10 +3356,10 @@ const QUESTIONS = {
       "topic": "4.2 Atmosphere Layers",
       "stem": "Which two gases make up the vast majority of Earth's atmosphere by volume?",
       "choices": [
-        "Oxygen and carbon dioxide, said to be the two most abundant gases",
+        "Oxygen and carbon dioxide, the two most abundant gases in the atmosphere together",
         "Nitrogen and oxygen, together making up roughly 99% of the atmosphere",
-        "Nitrogen and carbon dioxide, said to be the two most abundant gases",
-        "Argon and oxygen, sometimes said to be the two most abundant atmospheric gases"
+        "Nitrogen and carbon dioxide, the two most abundant gases in the atmosphere together",
+        "Argon and oxygen, the two most abundant atmospheric gases in the lower atmosphere"
       ],
       "correct": 1,
       "explanation": "Nitrogen (about 78%) and oxygen (about 21%) together make up roughly 99% of Earth's atmosphere by volume. Argon is only a trace gas (about 1%), so pairing it with oxygen overstates its abundance. Carbon dioxide is present in even smaller trace amounts, so both options pairing it with nitrogen or oxygen mistake a trace gas for one of the two dominant ones."
@@ -3369,9 +3369,9 @@ const QUESTIONS = {
       "topic": "4.2 Atmosphere Layers",
       "stem": "Approximately what percentage of the atmosphere does carbon dioxide make up?",
       "choices": [
-        "About 78%, the share said to actually be held by nitrogen",
-        "About 5%, said to be a small but noticeable share of the atmosphere",
-        "About 21%, the share said to actually be held by oxygen",
+        "About 78%, the share held by nitrogen",
+        "About 5%, a small but noticeable share of the atmosphere",
+        "About 21%, the share held by oxygen",
         "Less than 0.05%, a trace gas despite its outsized climate role"
       ],
       "correct": 3,
@@ -3382,10 +3382,10 @@ const QUESTIONS = {
       "topic": "4.2 Atmosphere Layers",
       "stem": "Why does CO2 play such a significant role in climate despite its very low atmospheric abundance?",
       "choices": [
-        "Because atmospheric importance is said to always correlate directly with a gas's abundance",
-        "CO2 is said to have no meaningful significance for Earth's climate at all",
-        "CO2's significance comes from absorbing and re-radiating infrared energy, not from its abundance",
-        "Because CO2 is said to actually be the single most abundant gas in the whole atmosphere"
+        "Because atmospheric importance always correlates directly with a gas's abundance in the atmosphere",
+        "CO2 has no meaningful significance for Earth's climate at all, being only a trace gas",
+        "CO2's significance comes from absorbing and re-radiating infrared energy, not its abundance",
+        "Because CO2 is actually the single most abundant gas in the whole atmosphere by volume"
       ],
       "correct": 2,
       "explanation": "CO2's climate significance comes from its molecular properties — its ability to absorb and re-radiate infrared energy — not from how abundant it is, showing that atmospheric importance doesn't necessarily track with abundance. Claiming importance always correlates with abundance is exactly the assumption this question disproves. CO2 is not the most abundant gas; nitrogen and oxygen vastly exceed it. And dismissing CO2 as insignificant contradicts its well-established, measurable role in the greenhouse effect."
@@ -3421,9 +3421,9 @@ const QUESTIONS = {
       "topic": "4.3 Global Wind Patterns",
       "stem": "What is the fundamental cause of global wind patterns?",
       "choices": [
-        "Volcanic eruptions, which release gases into the atmosphere worldwide",
-        "The Coriolis effect acting alone, with no other contributing cause at all",
-        "Ocean currents, said to act as the sole driver of all wind patterns",
+        "Volcanic eruptions, which release gases into the atmosphere worldwide and so drive the winds",
+        "The Coriolis effect acting alone, with no other contributing cause at all in the atmosphere",
+        "Ocean currents, acting as the sole driver of all wind patterns across the globe's surface",
         "Uneven solar heating, which creates the pressure differences that drive air movement"
       ],
       "correct": 3,
@@ -3437,7 +3437,7 @@ const QUESTIONS = {
         "The fundamental cause of all air movement on Earth, according to this option",
         "Another name that some mistakenly say simply means uneven solar heating",
         "A rotation-caused force that deflects the path of moving air and ocean currents",
-        "A term said to have no accepted meaning within atmospheric science"
+        "A term with no accepted meaning within atmospheric science"
       ],
       "correct": 2,
       "explanation": "The Coriolis effect is a deflecting force caused by Earth's rotation that bends the path of moving air and ocean currents, though it does not itself start that motion. It is a well-established, precisely defined concept in atmospheric science, not a meaningless term. It is not the fundamental cause of air movement — that role belongs to pressure differences from uneven solar heating. And it is a distinct phenomenon from uneven solar heating, not simply another name for it."
@@ -3473,10 +3473,10 @@ const QUESTIONS = {
       "topic": "4.3 Global Wind Patterns",
       "stem": "Is the Coriolis effect the fundamental cause of global wind patterns, or a secondary, deflecting influence?",
       "choices": [
-        "The Coriolis effect is said to apply only to ocean currents, never to air",
+        "The Coriolis effect applies only to ocean currents, never to air moving above the surface",
         "It is a secondary influence; pressure differences from uneven heating are the fundamental cause",
-        "It is said to be the fundamental, original cause of all global air movement",
-        "The Coriolis effect and uneven heating are said to be entirely unrelated phenomena"
+        "It is the fundamental, original cause of all global air movement, with heating a minor factor",
+        "The Coriolis effect and uneven heating are entirely unrelated phenomena in the atmosphere"
       ],
       "correct": 1,
       "explanation": "The Coriolis effect is a secondary, deflecting influence, bending air that is already moving due to pressure differences created by uneven solar heating — it does not create that initial movement itself. Calling it the fundamental, original cause reverses the actual relationship between the two forces. The two are not unrelated; the Coriolis effect acts directly on the air set in motion by uneven heating. And it applies to moving air just as much as to ocean currents, not exclusively to one or the other."
@@ -3486,10 +3486,10 @@ const QUESTIONS = {
       "topic": "4.3 Global Wind Patterns",
       "stem": "What are Hadley cells?",
       "choices": [
-        "Circulation cells located near the poles rather than near the equator",
-        "A term said to have no established meaning in atmospheric circulation",
+        "Circulation cells located near the poles rather than near the equator, where the air sinks",
+        "A term with no established meaning in atmospheric circulation, used only in oceanography",
         "Equatorial cells where warm air rises, moves poleward aloft, then cools and sinks",
-        "A type of ocean current said to be unrelated to atmospheric circulation"
+        "A type of ocean current unrelated to atmospheric circulation, found in the deep sea"
       ],
       "correct": 2,
       "explanation": "Hadley cells are the circulation cells nearest the equator, where warm air rises from intense equatorial heating, travels poleward at high altitude, cools, and sinks at a lower latitude. The term is well-established in atmospheric science, not meaningless. They are located near the equator, not near the poles — that's a different circulation cell entirely (the polar cell). And Hadley cells are atmospheric circulation features, not ocean currents."
@@ -3512,10 +3512,10 @@ const QUESTIONS = {
       "topic": "4.3 Global Wind Patterns",
       "stem": "Why do global wind patterns follow curved, diagonal paths rather than simple straight lines directly from high-pressure to low-pressure zones?",
       "choices": [
-        "The Coriolis effect deflects pressure-driven air, bending its path into curved, diagonal patterns",
-        "Wind patterns are said to always follow perfectly straight lines, with no curvature",
-        "Curved paths are said to only occur very close to the poles, not elsewhere",
-        "Curved wind paths are said to have no scientific explanation and remain a mystery"
+        "The Coriolis effect deflects pressure-driven air, bending its path into curved patterns",
+        "Wind patterns always follow perfectly straight lines, with no curvature at any latitude",
+        "Curved paths only occur very close to the poles, not elsewhere on the rotating Earth",
+        "Curved wind paths have no scientific explanation and remain an unsolved mystery to scientists"
       ],
       "correct": 0,
       "explanation": "Pressure differences from uneven solar heating initially drive air from high to low pressure, but the Coriolis effect deflects this movement, bending the observed path into curved, diagonal patterns like the trade winds and westerlies. This bending isn't confined to the poles — it occurs at essentially every latitude where air moves. It is also not scientifically unexplained; the Coriolis effect is a well-understood mechanism. And real wind patterns are demonstrably not straight lines, which is the very observation this question asks students to explain."
@@ -3538,10 +3538,10 @@ const QUESTIONS = {
       "topic": "4.4 Solar Intensity and Seasons",
       "stem": "Why does sunlight striking the equator deliver more intense heating than sunlight striking polar regions?",
       "choices": [
-        "Solar intensity is said to have no relationship to the angle at which sunlight strikes a surface",
-        "The equator is said to be located physically closer to the sun than the poles are",
-        "Direct equatorial sunlight concentrates energy over a smaller area than the same energy spread obliquely at the poles",
-        "The equator is said to receive more total hours of daylight than the poles every day of the year"
+        "Solar intensity has no relationship to the angle at which sunlight strikes a surface of the Earth",
+        "The equator is located physically closer to the sun than the poles are, so it is hotter",
+        "Direct equatorial sunlight concentrates energy over a smaller area than the same energy spread obliquely",
+        "The equator receives more total hours of daylight than the poles every day of the year, throughout the year"
       ],
       "correct": 2,
       "explanation": "The key factor is sunlight angle, not distance — direct, near-perpendicular sunlight at the equator concentrates energy over a smaller area, while the same amount of sunlight spreads over a larger area at the poles due to its oblique angle. Earth's size is negligible compared to the Earth-sun distance, so the equator is not meaningfully closer to the sun than the poles. Solar intensity is, in fact, strongly determined by strike angle, contrary to that option. And daylight hours actually vary by season and latitude — poles get 24-hour daylight in their summer — so equal daily hours is not the explanation either."
@@ -3552,7 +3552,7 @@ const QUESTIONS = {
       "stem": "What is the primary cause of Earth's seasons?",
       "choices": [
         "Earth's varying distance from the sun as it moves through its yearly orbit",
-        "Random atmospheric fluctuations said to have no predictable underlying cause",
+        "Random atmospheric fluctuations with no predictable underlying cause",
         "Changes in the sun's total energy output over the course of a year",
         "Earth's axial tilt, approximately 23.5 degrees relative to its orbital plane"
       ],
@@ -3565,7 +3565,7 @@ const QUESTIONS = {
       "stem": "Is Earth actually closer to the sun during Northern Hemisphere summer or Northern Hemisphere winter?",
       "choices": [
         "Earth is closer to the sun during Northern Hemisphere summer months",
-        "Earth's distance from the sun is said to never change at all throughout the year",
+        "Earth's distance from the sun never changes at all throughout the year",
         "Earth is actually slightly closer to the sun during Northern Hemisphere winter",
         "Earth's distance from the sun has no established connection to the seasons"
       ],
@@ -3590,10 +3590,10 @@ const QUESTIONS = {
       "topic": "4.4 Solar Intensity and Seasons",
       "stem": "How does the biome distribution pattern described in Unit 1 connect to this section's discussion of solar intensity and latitude?",
       "choices": [
-        "There is said to be no meaningful connection between these two topics",
-        "Biomes are said to be distributed randomly, with no relationship to latitude",
-        "The equator-to-pole temperature gradient is a primary factor shaping biome distribution by latitude",
-        "Biome distribution is said to be entirely unrelated to temperature or solar intensity"
+        "There is no meaningful connection between these two topics in the study of global ecology",
+        "Biomes are distributed randomly, with no relationship to latitude, temperature, or rainfall",
+        "The equator-to-pole temperature gradient is a primary factor shaping biome distribution",
+        "Biome distribution is entirely unrelated to temperature or solar intensity at any location"
       ],
       "correct": 2,
       "explanation": "The equator-to-pole temperature gradient, driven directly by the sunlight angle and intensity differences covered in this section, is one of the two primary climate factors (with precipitation) shaping where terrestrial biomes occur. Biome distribution is strongly tied to temperature, not unrelated to it. Biome placement follows a predictable latitudinal pattern, not a random one — that's exactly why tropical rainforests, deserts, and tundra occur at characteristic latitudes. And this connection between solar-driven temperature gradients and biome placement is precisely the meaningful link the question asks students to draw."
@@ -3642,10 +3642,10 @@ const QUESTIONS = {
       "topic": "4.4 Solar Intensity and Seasons",
       "stem": "A student claims that summer is warmer than winter because Earth is closer to the sun in summer. Evaluate this claim.",
       "choices": [
-        "This claim cannot be evaluated without more information about the student's location",
-        "This claim is accurate and is said to fully explain why summer is warmer than winter",
-        "This claim is accurate, but is said to hold only for the Southern Hemisphere",
-        "This is inaccurate — seasons come from axial tilt, and Earth is actually closer to the sun in Northern winter"
+        "This claim cannot be evaluated without more information about the student's location and the date",
+        "This claim is accurate and fully explains why summer is warmer than winter in both hemispheres",
+        "This claim is accurate, but holds only for the Southern Hemisphere, where distance matters more",
+        "This is inaccurate — seasons come from axial tilt, and Earth is closer to the sun in Northern winter"
       ],
       "correct": 3,
       "explanation": "This is a common misconception worth directly correcting: Earth's distance from the sun changes very little over the year and is not the cause of seasons — axial tilt is — and Earth is actually slightly closer to the sun during Northern Hemisphere winter, the opposite of what the claim assumes. The claim is not accurate; it inverts the real relationship. It can be evaluated with the physics already established in this section, regardless of location. And the claim isn't rescued by restricting it to the Southern Hemisphere either, since Earth's distance from the sun is the same for both hemispheres at any given moment — it's axial tilt, which differs by hemisphere, that actually explains the pattern."
@@ -3681,10 +3681,10 @@ const QUESTIONS = {
       "topic": "4.5 Soil Formation and Composition",
       "stem": "Which soil horizon consists of weathered parent rock material that has not yet fully broken down into soil?",
       "choices": [
-        "A horizon, the humus-rich topsoil at the surface",
-        "B horizon, the mineral-accumulating subsoil below it",
+        "A horizon, the humus-rich topsoil at the surface, mixed with mineral particles",
+        "B horizon, the mineral-accumulating subsoil below the topsoil, rich in clays",
         "C horizon, weathered parent rock not yet fully broken into soil",
-        "O horizon, the surface organic litter layer above it all"
+        "O horizon, the surface organic litter layer above it all, of leaves and debris"
       ],
       "correct": 2,
       "explanation": "The C horizon consists of weathered parent rock, an intermediate stage between solid bedrock and the fully-formed soil layers above it. The A horizon is well-developed, humus-rich topsoil, not partially weathered rock. The B horizon is subsoil enriched with leached minerals, also more developed than the C horizon. And the O horizon is organic surface litter, entirely distinct from the mineral, rock-derived material that defines the C horizon."
@@ -3694,10 +3694,10 @@ const QUESTIONS = {
       "topic": "4.5 Soil Formation and Composition",
       "stem": "Why is topsoil generally treated as a non-renewable resource, despite soil formation being an ongoing natural process?",
       "choices": [
-        "Soil forms extremely slowly compared to how fast erosion can strip it away, making it effectively unrecoverable",
-        "Because topsoil formation and erosion are said to always occur at exactly the same rate",
-        "Because topsoil is said to have little practical importance to agriculture or ecosystems",
-        "Because soil is said to never actually form naturally under any circumstances"
+        "Soil forms extremely slowly compared to how fast erosion can strip it away, so it is unrecoverable",
+        "Because topsoil formation and erosion always occur at exactly the same rate in every landscape",
+        "Because topsoil has little practical importance to agriculture or ecosystems in most regions",
+        "Because soil never actually forms naturally under any circumstances, even over long periods"
       ],
       "correct": 0,
       "explanation": "The dramatic mismatch between slow topsoil formation and much faster potential erosion, especially where human activity accelerates it, means lost topsoil is effectively unrecoverable on any human-relevant timescale, so it's treated as non-renewable for policy purposes. Formation and erosion do not occur at the same rate — if they did, topsoil loss wouldn't be a meaningful concern at all. Topsoil is, in fact, critical to agricultural productivity and ecosystem function, not unimportant. And soil formation is a real, ongoing natural process; the issue is its slow pace relative to erosion, not its nonexistence."
@@ -3733,10 +3733,10 @@ const QUESTIONS = {
       "topic": "4.5 Soil Formation and Composition",
       "stem": "What is the O horizon of soil?",
       "choices": [
-        "A layer said to be found only in desert soils, absent elsewhere",
-        "Simply another name for the A horizon found beneath it",
+        "A layer found only in desert soils, absent elsewhere, rich in mineral salts",
+        "Simply another name for the A horizon found beneath it, with the same properties",
         "The surface layer of organic litter, like leaves and decomposing material",
-        "The deepest, unweathered bedrock layer far below the surface"
+        "The deepest, unweathered bedrock layer far below the surface of the soil profile"
       ],
       "correct": 2,
       "explanation": "The O horizon is the uppermost soil layer, made up of organic litter like fallen leaves and decomposing plant material, sitting above the A horizon. It is not exclusive to deserts — in fact, it's typically thin or absent in arid regions with sparse vegetation and better developed in forested or grassland soils. It is distinct from, not synonymous with, the A horizon, which is the mineral-humus layer beneath it. And it is the opposite of bedrock, which is deep, unweathered rock rather than surface organic material."
@@ -3759,10 +3759,10 @@ const QUESTIONS = {
       "topic": "4.5 Soil Formation and Composition",
       "stem": "Why does sandy soil generally retain fewer nutrients than clay soil?",
       "choices": [
-        "Nutrient retention is said to have no meaningful relationship to soil particle size",
-        "Sandy soil is said to actually retain more nutrients than clay soil in most cases",
+        "Nutrient retention has no meaningful relationship to soil particle size in any soil type",
+        "Sandy soil actually retains more nutrients than clay soil in most cases, because of its pores",
         "Sand's larger particles create bigger pores, letting water and nutrients drain through quickly",
-        "Sand and clay are said to have essentially identical nutrient retention properties"
+        "Sand and clay have essentially identical nutrient retention properties, despite their particle sizes"
       ],
       "correct": 2,
       "explanation": "Sand particles are relatively large, creating bigger pore spaces that allow water and its dissolved nutrients to drain through quickly rather than being retained, unlike clay's much smaller, tightly-packed particles. Particle size is in fact strongly linked to nutrient retention, since it directly determines pore size and drainage speed. Clay, not sand, is the one that generally retains more nutrients, due to its smaller particles and greater surface area. And sand and clay differ substantially in structure and retention behavior, not just in name."
@@ -3786,9 +3786,9 @@ const QUESTIONS = {
       "stem": "Which type of mining is generally cheaper and safer for workers, but causes greater surface habitat destruction?",
       "choices": [
         "Surface mining, including strip mining, mountaintop removal, and open-pit methods",
-        "Subsurface, or underground, mining conducted beneath the surface",
-        "Both types are said to be essentially identical in cost and habitat impact",
-        "Neither type of mining is said to carry any environmental impact at all"
+        "Subsurface, or underground, mining conducted beneath the surface in tunnels and shafts",
+        "Both types are essentially identical in cost and habitat impact, with only minor differences",
+        "Neither type of mining carries any environmental impact at all, whether on land or water"
       ],
       "correct": 0,
       "explanation": "Surface mining methods — strip mining, mountaintop removal, open-pit mining — are generally cheaper and safer for workers than subsurface mining, but cause significantly greater destruction of surface habitat. The two methods are not identical; they differ sharply in both cost and habitat impact, which is the entire basis of the tradeoff. Neither type is impact-free — both carry real environmental consequences, just of different kinds. And subsurface mining is the method associated with less surface destruction but greater danger, the reverse of what this question describes."
@@ -3824,9 +3824,9 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "Besides lowering pH, what other significant harm does acid mine drainage often cause?",
       "choices": [
-        "It is said to cause no significant harm beyond lowering pH",
-        "It is said to generally increase the fertility of nearby soil",
-        "It is said to affect only air quality, never water quality",
+        "It causes no significant harm beyond lowering pH, which affects only a small area",
+        "It generally increases the fertility of nearby soil by adding dissolved minerals and nutrients",
+        "It affects only air quality, never water quality, because the drainage evaporates quickly",
         "It can mobilize toxic heavy metals into nearby streams and groundwater"
       ],
       "correct": 3,
@@ -3837,9 +3837,9 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "Does acid mine drainage typically stop as soon as a mine closes and operations end?",
       "choices": [
-        "Yes, acid mine drainage is said to always stop immediately once operations end",
-        "Yes, but only for surface mines, never for subsurface mines",
-        "Acid mine drainage is said to never actually occur once a mine has closed",
+        "Yes, acid mine drainage always stops immediately once operations end and the pumps are shut off",
+        "Yes, but only for surface mines, never for subsurface mines, which keep draining for decades",
+        "Acid mine drainage never actually occurs once a mine has closed and its workings have been sealed",
         "No — sulfide minerals keep reacting for decades unless treated or the site is reclaimed"
       ],
       "correct": 3,
@@ -3850,10 +3850,10 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "What is 'mine reclamation'?",
       "choices": [
-        "Restoring a mining site's land contours, soil, and vegetation after mining operations end",
-        "A legal term said to have no real connection to environmental restoration",
-        "Simply another term for acid mine drainage itself",
-        "The process of extracting additional minerals from an already-mined site"
+        "Restoring a mining site's land contours, soil, and vegetation after mining ends",
+        "A legal term with no real connection to environmental restoration of a mined site",
+        "Simply another term for acid mine drainage itself, flowing from the closed workings",
+        "The process of extracting additional minerals from an already-mined site using new methods"
       ],
       "correct": 0,
       "explanation": "Mine reclamation refers to restoring a mining site's land contours, soil, and vegetation after operations conclude, an important part of modern mining regulation aimed at reducing long-term impacts. It is a distinct concept from acid mine drainage, which is a pollution problem, not a restoration process. It is closely tied to environmental restoration, not disconnected from it — that is its entire purpose. And it refers to restoring the land, not to further mineral extraction from the site."
@@ -3863,9 +3863,9 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "Which of the following best illustrates the core tradeoff between surface and subsurface mining?",
       "choices": [
-        "Subsurface mining is said to always be superior, with no real tradeoffs at all for workers or land",
-        "There is said to be no meaningful difference between the two mining methods in cost or damage",
-        "Surface mining is said to always be superior, with no real tradeoffs at all for land or ecosystems",
+        "Subsurface mining is always superior, with no real tradeoffs at all for workers or land or cost",
+        "There is no meaningful difference between the two mining methods in cost, safety, or environmental damage",
+        "Surface mining is always superior, with no real tradeoffs at all for land or ecosystems or neighbors",
         "Surface mining is cheaper and safer but more destructive; subsurface is safer for the surface but costlier"
       ],
       "correct": 3,
@@ -3877,9 +3877,9 @@ const QUESTIONS = {
       "stem": "Why might a mining company choose surface mining methods despite the greater habitat destruction involved?",
       "choices": [
         "Its lower cost and greater worker safety may outweigh habitat concerns where regulation is weak",
-        "Surface mining is said to never actually cause any meaningful habitat destruction at all",
-        "Surface mining is said to always be illegal, so this scenario could not realistically occur",
-        "Companies are said to never factor cost or worker safety into their choice of mining method"
+        "Surface mining never actually causes any meaningful habitat destruction at all, since land is restored",
+        "Surface mining is always illegal, so this scenario could not realistically occur in any country",
+        "Companies never factor cost or worker safety into their choice of mining method at all"
       ],
       "correct": 0,
       "explanation": "Surface mining's lower cost and greater worker safety are real, tangible advantages that companies may weigh heavily, particularly without strong regulatory or economic incentives favoring the pricier, more dangerous subsurface alternative. Cost and safety are, in fact, central factors in real mining decisions, not ones companies ignore. Surface mining does cause meaningful habitat destruction, which is exactly the tradeoff this question is asking students to weigh. And surface mining is legal in many jurisdictions under regulation, not universally banned."
@@ -3928,10 +3928,10 @@ const QUESTIONS = {
       "topic": "4.7 El Niño–Southern Oscillation",
       "stem": "What effect does El Niño have on the upwelling of cold, nutrient-rich water along the South American coast?",
       "choices": [
-        "Upwelling is said to only occur during El Niño events, never at other times",
+        "Upwelling only occurs during El Niño events, never at other times of the year in the Pacific",
         "Weakened trade winds no longer drive upwelling effectively, so it is suppressed",
-        "El Niño is said to significantly increase upwelling along this particular coast",
-        "El Niño is said to have no measurable effect on coastal upwelling at all"
+        "El Niño significantly increases upwelling along this particular coast by strengthening the trade winds",
+        "El Niño has no measurable effect on coastal upwelling at all, in any season or any region"
       ],
       "correct": 1,
       "explanation": "El Niño suppresses the normal upwelling of cold, nutrient-rich water along the South American coast, since the weakened trade winds that normally drive it are disrupted. El Niño does have a clear, measurable effect on upwelling — suppression, not indifference. Increased upwelling instead describes La Niña conditions, the opposite phase. And upwelling occurs regularly under normal and La Niña conditions too; it isn't unique to El Niño events."
@@ -3941,10 +3941,10 @@ const QUESTIONS = {
       "topic": "4.7 El Niño–Southern Oscillation",
       "stem": "Why does suppressed upwelling during El Niño typically harm fisheries off the South American coast?",
       "choices": [
-        "Suppressed upwelling is said to actually boost fish populations in this region",
-        "Upwelled nutrients fuel productivity at the base of the food web; without them, fish populations decline",
-        "Fisheries in this region are said to not depend on ocean nutrients in any meaningful way",
-        "Upwelling is said to have no real connection to fishery productivity in this region"
+        "Suppressed upwelling actually boosts fish populations in this region by warming the surface water",
+        "Upwelled nutrients fuel productivity at the base of the food web; without them, fish decline",
+        "Fisheries in this region do not depend on ocean nutrients in any meaningful way at all",
+        "Upwelling has no real connection to fishery productivity in this region or any other coastal region"
       ],
       "correct": 1,
       "explanation": "Upwelled cold water carries deep-ocean nutrients that fuel high productivity at the base of the local marine food web; when El Niño suppresses this upwelling, that nutrient supply is cut off and productivity — along with dependent fish populations — declines. Upwelling and fishery productivity are in fact closely linked, which is why suppressing it has real economic consequences. Suppressed upwelling reduces, rather than boosts, fish populations, since it starves the food web of nutrients. And these fisheries are notably nutrient-dependent, which is precisely why El Niño years are associated with fishery declines."
@@ -3967,10 +3967,10 @@ const QUESTIONS = {
       "topic": "4.7 El Niño–Southern Oscillation",
       "stem": "Are El Niño's weather effects confined only to the Pacific Ocean region itself?",
       "choices": [
-        "Yes, but only for countries that directly border the Pacific Ocean",
-        "El Niño is said to have no measurable weather effects anywhere on Earth",
+        "Yes, but only for countries that directly border the Pacific Ocean on either of its coasts",
+        "El Niño has no measurable weather effects anywhere on Earth, even in the tropical Pacific",
         "No — ENSO shifts global circulation enough to alter weather in many distant regions",
-        "Yes, El Niño's effects are said to be entirely limited to the immediate Pacific area"
+        "Yes, El Niño's effects are entirely limited to the immediate Pacific area and its coastal waters"
       ],
       "correct": 2,
       "explanation": "ENSO events shift atmospheric circulation broadly enough to affect temperature and precipitation across many regions well beyond the Pacific, sometimes bringing drought to normally wet regions and heavy rain to normally dry ones in trackable patterns. The effects reach well beyond nations bordering the Pacific — inland and even other-continent regions are affected too. El Niño's effects are measurable and well-documented, not absent. And confining the effects to the immediate Pacific area understates the genuinely global reach ENSO has on weather patterns."
@@ -3996,7 +3996,7 @@ const QUESTIONS = {
         "La Niña, since strengthened trade winds drive enhanced upwelling",
         "ENSO has no established relationship to fishery productivity",
         "This scenario could not occur under either ENSO phase at all",
-        "El Niño, since it is said to typically bring the strongest upwelling"
+        "El Niño, since it typically brings the strongest upwelling"
       ],
       "correct": 0,
       "explanation": "Strong upwelling of nutrient-rich water, driving increased fishery productivity, is characteristic of La Niña's strengthened trade winds and enhanced upwelling. El Niño instead suppresses upwelling and typically harms, rather than boosts, fishery productivity in this region. The scenario is realistic and well-documented during La Niña years, not impossible. And ENSO's phases have a clear, direct link to fishery output through their effect on upwelling, contrary to that option."
@@ -4007,8 +4007,8 @@ const QUESTIONS = {
       "stem": "Which of the following best describes ENSO as a broader category of phenomenon?",
       "choices": [
         "A permanent, unchanging state of the Pacific Ocean's surface",
-        "A term said to describe only Atlantic Ocean weather patterns",
-        "A single, one-time historical weather event said to have no recurring pattern",
+        "A term describing only Atlantic Ocean weather patterns",
+        "A single, one-time historical weather event with no recurring pattern",
         "A recurring climate cycle alternating warm El Niño and cool La Niña phases"
       ],
       "correct": 3,
@@ -4019,10 +4019,10 @@ const QUESTIONS = {
       "topic": "4.7 El Niño–Southern Oscillation",
       "stem": "Stretch — beyond typical AP difficulty: Explain how the mechanism behind El Niño's suppression of South American upwelling is conceptually similar to how weakened trade winds allow warm water to redistribute across the Pacific, and connect this to the broader Section 4.3 concept that pressure-driven air movement is the fundamental cause of large-scale circulation patterns, with other forces acting as secondary modifiers.",
       "choices": [
-        "A change in wind strength directly reshapes downstream ocean processes, linking 4.3's wind concepts to ENSO impacts",
-        "Trade wind strength is said to have no relationship to ocean surface water distribution",
-        "ENSO is said to be caused entirely by plate tectonics, unrelated to wind",
-        "El Niño and global wind patterns are said to be entirely unrelated phenomena"
+        "A change in wind strength directly reshapes downstream ocean processes, linking wind concepts to ENSO",
+        "Trade wind strength has no relationship to ocean surface water distribution anywhere in the Pacific basin",
+        "ENSO is caused entirely by plate tectonics, unrelated to wind, and occurs at fixed intervals",
+        "El Niño and global wind patterns are entirely unrelated phenomena in the climate system as a whole"
       ],
       "correct": 0,
       "explanation": "Section 4.3 establishes that wind patterns like the trade winds are driven by pressure differences from uneven solar heating, modified by the Coriolis effect. Section 4.7 shows a real-world consequence of that same wind system: when trade wind strength varies, weakening in El Niño and strengthening in La Niña, the resulting change in wind-driven surface currents directly alters where warm water pools and where upwelling occurs. Plate tectonics operates on a completely different timescale and mechanism, and does not drive ENSO. El Niño and global wind patterns are directly linked, not unrelated, since weakened trade winds are the defining feature of El Niño. And trade wind strength is precisely what governs surface water distribution across the Pacific, making that relationship central rather than absent."
@@ -4032,10 +4032,10 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "What primarily drives surface ocean currents?",
       "choices": [
-        "Plate tectonic movement, said to act as the sole driving mechanism",
+        "Plate tectonic movement, acting as the sole driving mechanism of all surface currents",
         "Wind, blowing across the ocean surface and dragging the water along with it",
         "Density differences arising from ocean temperature and salinity",
-        "Lunar gravitational pull, said to act as the sole driving mechanism"
+        "Lunar gravitational pull, acting as the sole driving mechanism of all surface currents"
       ],
       "correct": 1,
       "explanation": "Surface ocean currents are driven primarily by wind, which blows across the ocean surface and drags the water along with it, directly connecting to Section 4.3's wind content. Density differences from temperature and salinity instead drive deep ocean (thermohaline) circulation, not surface currents. Plate movement is far too slow and localized to drive ocean surface circulation. And lunar gravity drives tides, a distinct phenomenon from the persistent, wind-driven surface currents described here."
@@ -4058,10 +4058,10 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "What does the term 'thermohaline' refer to?",
       "choices": [
-        "Another, less precise term for surface ocean currents",
+        "Another, less precise term for surface ocean currents driven by the prevailing winds",
         "Temperature and salinity, the two factors driving deep ocean circulation",
-        "Wind speed and direction, measured over the open ocean",
-        "A measure of atmospheric pressure, taken at sea level"
+        "Wind speed and direction, measured over the open ocean by ships and satellites",
+        "A measure of atmospheric pressure, taken at sea level by weather stations"
       ],
       "correct": 1,
       "explanation": "'Thermohaline' combines 'thermo' (temperature) and 'haline' (salinity), the two factors whose combined effect on water density drives deep ocean circulation. It is not a measure of atmospheric pressure, which is a separate meteorological concept. It does not refer to wind speed or direction, which govern surface currents rather than deep ones. And it is distinct from surface currents, which are driven by wind rather than by density differences."
@@ -4071,10 +4071,10 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "Why is Western Europe's climate notably milder than eastern North American regions at a similar latitude?",
       "choices": [
-        "This climate difference has no established scientific explanation among climate researchers",
-        "Western Europe is located at a much lower latitude than eastern North America",
-        "Western Europe receives essentially no winter weather of any kind, because it is so far south",
-        "A warm Gulf Stream / North Atlantic Current carries tropical heat toward Western Europe, moderating its climate"
+        "This climate difference has no established scientific explanation among climate researchers, who are baffled",
+        "Western Europe is located at a much lower latitude than eastern North America, so it is warmer",
+        "Western Europe receives essentially no winter weather of any kind, because it is so far south of Canada",
+        "A warm Gulf Stream / North Atlantic Current carries tropical heat to Western Europe, moderating its climate"
       ],
       "correct": 3,
       "explanation": "A warm surface current, part of the Gulf Stream and North Atlantic Current system, carries significant tropical heat toward Western Europe, moderating its climate relative to eastern North American locations at similar latitude that lack this direct warm-current influence. The difference has a clear, well-established oceanographic explanation, not an unknown one. Western Europe and eastern North America sit at genuinely comparable latitudes, so latitude difference isn't the explanation. And Western Europe does experience winter weather — its climate is milder, not winterless."
@@ -4084,7 +4084,7 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "What is the 'rain shadow effect'?",
       "choices": [
-        "A phenomenon that is said to occur only in polar regions",
+        "A phenomenon that occurs only in polar regions",
         "Another, less common term for thermohaline circulation",
         "A phenomenon in which mountains have no measurable effect on precipitation patterns",
         "Moist air releases most of its moisture on the windward side, leaving the leeward side drier"
@@ -4110,10 +4110,10 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "A desert exists immediately adjacent to a mountain range, relatively close to a moisture-rich coastline. What is the most likely explanation for this desert's location?",
       "choices": [
-        "The desert's location is said to have no meaningful relationship to the nearby mountain range",
-        "The rain shadow effect: mountains force moist air to drop most of its moisture windward, leaving the leeward side drier",
-        "This scenario is said to be essentially impossible and could not realistically occur",
-        "Deserts are said to form only very far from any coastline, never near one"
+        "The desert's location has no meaningful relationship to the nearby mountain range or to the prevailing winds",
+        "The rain shadow effect: mountains force moist air to drop its moisture windward, leaving the leeward side drier",
+        "This scenario is essentially impossible and could not realistically occur anywhere on Earth's land surface",
+        "Deserts form only very far from any coastline, never near one, because moisture reaches only coasts"
       ],
       "correct": 1,
       "explanation": "This is a classic rain shadow scenario — the mountain range, not distance from the ocean, is the key factor, since the mountains force incoming moist air to release its moisture before reaching the leeward side where the desert forms. The scenario is not only possible but a well-documented real-world pattern seen in deserts worldwide. The mountain range is, in fact, the direct cause of the desert's location, not unrelated to it. And this scenario itself shows deserts can form close to a coastline when a mountain range intervenes, contradicting that option."
@@ -4123,10 +4123,10 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "Stretch — beyond typical AP difficulty: Explain why a disruption to thermohaline circulation (such as a large influx of fresh water from melting ice sheets diluting the salinity of sinking water in the North Atlantic) could have climate effects extending far beyond the immediate ocean region, connecting to this unit's broader themes.",
       "choices": [
-        "Freshwater influx dilutes salinity in the North Atlantic's deep-sinking zone",
-        "A regional disruption to thermohaline circulation is said to only ever affect that same region",
-        "Thermohaline circulation is said to have no relationship to climate outside the immediate ocean region",
-        "Because thermohaline circulation is one connected global belt, disrupting sinking in one region could slow the whole system"
+        "Freshwater influx dilutes salinity in the North Atlantic's deep-sinking zone and so weakens the sinking",
+        "A regional disruption to thermohaline circulation only ever affects that same region, and no other ocean basin",
+        "Thermohaline circulation has no relationship to climate outside the immediate ocean region where it occurs",
+        "Because thermohaline circulation is one connected global belt, disrupting sinking in one region could slow the system"
       ],
       "correct": 3,
       "explanation": "Because deep water sinking in one location, like the North Atlantic, is the driving engine for a single connected global circulation system, disrupting that sinking (for instance, through freshwater dilution reducing salinity and density) could slow or reroute the entire system, with consequences for regions dependent on it, such as Western Europe's mild climate. Thermohaline circulation is, in fact, directly governed by salinity — that's what the 'haline' in the name refers to — so it is not independent of freshwater influx. Far from being confined to its immediate region, this circulation's global, conveyor-belt structure is exactly what allows a localized disruption to propagate worldwide. And a regional disruption's effects are not confined locally, precisely because the system is one interconnected loop rather than isolated regional currents."
@@ -4150,9 +4150,9 @@ const QUESTIONS = {
       "stem": "Why do many of the world's major deserts (such as the Sahara) form near 30°N and 30°S latitude?",
       "choices": [
         "Descending, dry air at the Hadley/Ferrel cell boundary creates persistent high pressure there",
-        "These latitudes are said to never receive any rainfall under any circumstances",
-        "These latitudes are said to always be the farthest possible distance from any ocean",
-        "This is said to be a coincidence with no underlying atmospheric explanation"
+        "These latitudes never receive any rainfall under any circumstances, whatever the season or the coast",
+        "These latitudes are always the farthest possible distance from any ocean, on every continent",
+        "This is a coincidence with no underlying atmospheric explanation, since deserts form anywhere at random"
       ],
       "correct": 0,
       "explanation": "Air that rises and loses its moisture at the equator descends at about 30°N/S as dry, warm air, creating persistent high pressure and arid conditions — a direct atmospheric explanation for the global desert belt at this latitude. This pattern is not coincidental; it follows predictably from Hadley cell circulation. These latitudes do occasionally receive some rainfall — the pattern is one of persistent low precipitation, not absolute zero. And desert formation here is explained by descending dry air, not by distance from the ocean, which varies considerably among deserts at this latitude."
@@ -4188,9 +4188,9 @@ const QUESTIONS = {
       "topic": "4.9 Watersheds and Drainage Basins",
       "stem": "What determines the boundaries of a watershed?",
       "choices": [
-        "State and national political borders drawn on a map",
-        "The location of dams and reservoirs built within the region",
-        "Watersheds are said to have no defined boundaries at all",
+        "State and national political borders drawn on a map by surveyors and legislators",
+        "The location of dams and reservoirs built within the region by the water authorities",
+        "Watersheds have no defined boundaries at all, since water flows in all directions",
         "Topography — ridgelines direct water toward one drainage basin or another"
       ],
       "correct": 3,
@@ -4202,9 +4202,9 @@ const QUESTIONS = {
       "stem": "A factory releases pollutants into a stream located far upstream, near the headwaters of a large watershed. What is the most likely consequence for communities located far downstream within that same watershed?",
       "choices": [
         "Downstream water quality is directly affected, since the watershed drains into one connected system",
-        "Downstream communities are affected only if the pollution crosses a political border",
-        "None — pollution released upstream is said to have no effect on downstream water quality",
-        "The pollutants are said to be fully neutralized long before reaching any downstream location"
+        "Downstream communities are affected only if the pollution crosses a political border into their territory",
+        "None — pollution released upstream has no effect on downstream water quality, which is purely local",
+        "The pollutants are fully neutralized long before reaching any downstream location, by natural filtering"
       ],
       "correct": 0,
       "explanation": "Because an entire watershed drains into a common body of water, pollution released anywhere within it, even far upstream, can directly affect water quality throughout the downstream system. Upstream pollution can and does travel downstream through the connected water system, so 'no effect' misstates the basic hydrology. Political borders are irrelevant to whether pollution travels downstream, since water flow follows topography, not jurisdiction. And pollutants are not reliably neutralized by distance alone; many persist and travel significant distances downstream."
@@ -4215,9 +4215,9 @@ const QUESTIONS = {
       "stem": "Two towns sit on opposite sides of a mountain ridge but within the same country. Are they necessarily part of the same watershed?",
       "choices": [
         "Not necessarily — ridgelines can split two towns into different watersheds",
-        "Watersheds are said to be defined only by distance from the coast, not by topography",
-        "Yes, all towns within the same country are said to automatically share one national watershed",
-        "Yes, since they belong to the same country and are therefore said to share a watershed"
+        "Watersheds are defined only by distance from the coast, not by topography",
+        "Yes, all towns within the same country automatically share one national watershed",
+        "Yes, since they belong to the same country and therefore share a watershed"
       ],
       "correct": 0,
       "explanation": "Watershed boundaries are set by topography, not political borders, so a ridgeline can separate two towns into entirely different drainage basins even though they belong to the same country. Sharing a country does not guarantee sharing a watershed, since national borders and topographic divides rarely align exactly. Watersheds are defined by topography, not by coastal distance, so that option misidentifies the determining factor. And a single country typically contains many separate watersheds, not one unified national watershed."
@@ -4227,10 +4227,10 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "In-situ leaching mining extracts minerals such as uranium or copper by which method?",
       "choices": [
-        "Digging a large open pit and hauling the ore to the surface with heavy machinery",
-        "Removing the entire mountaintop to directly expose the ore body",
-        "Pumping a chemical solution underground to dissolve the mineral, then pumping the solution back to the surface",
-        "Tunneling underground and manually extracting solid ore with workers present at the deposit"
+        "Digging a large open pit and hauling the ore to the surface with heavy machinery and trucks",
+        "Removing the entire mountaintop to directly expose the ore body, then dumping the rubble in valleys",
+        "Pumping a chemical solution underground to dissolve the mineral, then bringing it back to the surface",
+        "Tunneling underground and manually extracting solid ore with workers present at the deposit itself"
       ],
       "correct": 2,
       "explanation": "In-situ leaching extracts minerals by pumping a chemical solution directly into an underground deposit to dissolve the target mineral in place, then pumping the resulting solution back to the surface for processing. Mountaintop removal instead physically excavates the surface, a very different, more disruptive surface mining technique. Open-pit mining also physically hauls ore to the surface, unlike in-situ leaching's chemical, non-excavation approach. And traditional underground tunneling puts workers directly at the ore face, whereas in-situ leaching avoids placing workers at the deposit at all."
@@ -4242,7 +4242,7 @@ const QUESTIONS = {
       "choices": [
         "Large-scale deforestation of the land surrounding the mine site",
         "Groundwater contamination if the leaching solution migrates beyond the ore zone",
-        "In-situ leaching is said to carry essentially no environmental risk of any kind",
+        "In-situ leaching carries essentially no environmental risk of any kind",
         "Mountaintop removal and the resulting permanent loss of surface habitat"
       ],
       "correct": 1,
@@ -5191,9 +5191,9 @@ const QUESTIONS = {
       "topic": "5.7 Invasive Species and Overfishing",
       "stem": "As wild fish stocks decline from overfishing, aquaculture (fish farming) has expanded as an alternative source of seafood. What is a genuine environmental tradeoff of aquaculture?",
       "choices": [
-        "Aquaculture eliminates the need for any regulation of wild fishing practices.",
-        "Aquaculture always directly increases the size of wild fish populations.",
-        "Aquaculture has essentially zero environmental impact of any kind.",
+        "Aquaculture eliminates the need for any regulation of wild fishing practices in coastal waters.",
+        "Aquaculture always directly increases the size of wild fish populations in nearby waters.",
+        "Aquaculture has essentially zero environmental impact of any kind on coasts or ecosystems.",
         "It eases pressure on wild stocks but brings its own waste, disease, and feed tradeoffs."
       ],
       "correct": 3,
@@ -5427,9 +5427,9 @@ const QUESTIONS = {
       "topic": "6.2 Fossil Fuels",
       "stem": "What is 'hydraulic fracturing' (fracking)?",
       "choices": [
-        "A method of generating electricity from ocean waves.",
-        "A method for storing nuclear waste deep underground.",
-        "A synonym for the process of refining crude oil.",
+        "A method of generating electricity from ocean waves using floating buoys.",
+        "A method for storing nuclear waste deep underground in sealed geologic vaults.",
+        "A synonym for the process of refining crude oil into gasoline and diesel.",
         "High-pressure fluid injected into shale to release gas and oil."
       ],
       "correct": 3,
@@ -5609,10 +5609,10 @@ const QUESTIONS = {
       "topic": "6.3 Nuclear Power",
       "stem": "Why is nuclear waste's long hazardous lifespan a genuinely significant management challenge?",
       "choices": [
-        "Nuclear waste has no relationship to long-term storage planning.",
+        "Nuclear waste has no relationship to long-term storage planning or to site selection at all.",
         "Some waste stays hazardous for thousands of years, requiring secure long-term storage.",
-        "Nuclear waste is not actually hazardous in any way whatsoever.",
-        "Nuclear waste becomes completely safe within a few days."
+        "Nuclear waste is not actually hazardous in any way whatsoever, even to people nearby.",
+        "Nuclear waste becomes completely safe within a few days of being removed from the reactor."
       ],
       "correct": 1,
       "explanation": "Some nuclear waste remains radioactive and hazardous for thousands of years — a timescale far beyond typical human institutional planning horizons — making secure, long-term storage a genuinely difficult, unresolved challenge. Claiming no relationship to storage planning contradicts this core issue. Claiming waste becomes safe within days badly understates radioactive decay timescales for long-lived isotopes. And claiming it isn't hazardous at all contradicts basic nuclear physics and public health guidance."
@@ -5635,9 +5635,9 @@ const QUESTIONS = {
       "topic": "6.4 Solar and Wind Energy",
       "stem": "What is the central shared challenge facing both solar and wind power?",
       "choices": [
-        "Neither source can generate any meaningful amount of electricity.",
-        "Both sources produce significant direct carbon emissions.",
-        "Both sources require mining large quantities of uranium fuel.",
+        "Neither source can generate any meaningful amount of electricity for a grid of any size.",
+        "Both sources produce significant direct carbon emissions while they generate their electricity.",
+        "Both sources require mining large quantities of uranium fuel to operate their turbines.",
         "Intermittency — neither generates constantly, so backup storage is needed."
       ],
       "correct": 3,
@@ -5792,9 +5792,9 @@ const QUESTIONS = {
       "stem": "What is the major geographic limitation on geothermal power's viability?",
       "choices": [
         "Viable only where underground heat is accessible, often near plate boundaries.",
-        "Geothermal power has no relationship to geography or geology.",
-        "Geothermal power can be deployed anywhere with no geographic limits.",
-        "Geothermal power can only be deployed in desert regions."
+        "Geothermal power has no relationship to geography or geology, and can be built on any site.",
+        "Geothermal power can be deployed anywhere with no geographic limits on where the heat is found.",
+        "Geothermal power can only be deployed in desert regions, where the ground is hottest."
       ],
       "correct": 0,
       "explanation": "Geothermal power's major limitation is geographic — it's only practically viable where sufficient accessible underground heat exists, typically near tectonic plate boundaries, connecting to Unit 4's plate tectonics content. Restricting viability to deserts specifically is incorrect; the limiting factor is geothermal activity, not aridity. Claiming no geographic relationship contradicts the core limitation. And claiming it can be deployed anywhere ignores this well-documented geographic constraint."
@@ -6130,9 +6130,9 @@ const QUESTIONS = {
       "stem": "What does EROI (Energy Return on Investment) measure?",
       "choices": [
         "Usable energy obtained, divided by the energy invested.",
-        "The total land area required by an energy source.",
-        "The total cost in dollars of an energy source.",
-        "The total carbon emissions of an energy source."
+        "The total land area required by an energy source for its fuel and equipment.",
+        "The total cost in dollars of an energy source over its operating lifetime.",
+        "The total carbon emissions of an energy source over its operating lifetime."
       ],
       "correct": 0,
       "explanation": "EROI measures the ratio of usable energy a source produces to the energy required to obtain it — extraction, processing, and delivery — a net energy benefit measure distinct from land area, dollar cost, or carbon emissions, each of which is a separate, unrelated metric."
@@ -6272,10 +6272,10 @@ const QUESTIONS = {
       "topic": "6.2 Fossil Fuels",
       "stem": "Which environmental risk is specifically associated with oil extraction and transport, but not with coal or piped natural gas?",
       "choices": [
-        "Sulfur dioxide emissions released during combustion.",
-        "Induced seismicity from underground mining collapse.",
+        "Sulfur dioxide emissions released during combustion of coal in power plants.",
+        "Induced seismicity from underground mining collapse beneath the nearby towns.",
         "Spills from offshore drilling or tanker and pipeline failures.",
-        "Indoor air pollution from household fuel burning."
+        "Indoor air pollution from household fuel burning in poorly ventilated homes."
       ],
       "correct": 2,
       "explanation": "Oil extraction and transport carries a distinct risk not shared by coal or piped natural gas: oil spills. Events like the 2010 Deepwater Horizon offshore drilling accident and the 1989 Exxon Valdez tanker spill released large volumes of crude oil into marine and terrestrial ecosystems. Induced seismicity is a fracking-related risk, not specific to oil spills. Sulfur dioxide emissions are a coal-combustion concern. And indoor air pollution from household fuel burning relates to biomass/fuelwood use, not oil extraction and transport."
@@ -6651,10 +6651,10 @@ const QUESTIONS = {
       "topic": "7.4 Acid Rain",
       "stem": "Which two primary pollutants react with atmospheric water vapor to form acid rain?",
       "choices": [
-        "Ozone and argon, both naturally inert in this context.",
-        "Carbon dioxide and oxygen, the products of combustion.",
+        "Ozone and argon, both naturally inert in this context and unrelated to acid rain.",
+        "Carbon dioxide and oxygen, the products of complete combustion of any fuel.",
         "Sulfur dioxide (SO2) and nitrogen oxides (NOx), from fossil fuel combustion.",
-        "Methane and nitrogen gas, common atmospheric constituents."
+        "Methane and nitrogen gas, common atmospheric constituents with no link to acidity."
       ],
       "correct": 2,
       "explanation": "SO2 and NOx, primarily from fossil fuel combustion (especially coal), react with atmospheric water vapor to form sulfuric and nitric acid, which fall as acid rain. Ozone and argon, methane and nitrogen gas, and CO2/oxygen are all unrelated to this specific acid-forming chemistry, even though several are common atmospheric or combustion-related gases."
@@ -6690,10 +6690,10 @@ const QUESTIONS = {
       "topic": "7.4 Acid Rain",
       "stem": "Which building material is particularly vulnerable to acid rain-related corrosion?",
       "choices": [
-        "Plastic, a synthetic material largely inert to acidic precipitation.",
+        "Plastic, a synthetic material largely inert to acidic precipitation of this kind.",
         "Limestone and marble, due to their calcium carbonate composition and reactivity.",
-        "Aluminum, which is relatively resistant compared to carbonate stone.",
-        "Stainless steel, which resists most forms of chemical corrosion."
+        "Aluminum, which is relatively resistant compared to carbonate stone in this setting.",
+        "Stainless steel, which resists most forms of chemical corrosion in outdoor use."
       ],
       "correct": 1,
       "explanation": "Limestone and marble are made of calcium carbonate, which reacts chemically with acidic precipitation, causing significant surface erosion -- a well-documented effect on historic buildings and monuments. Stainless steel, plastic, and aluminum are all comparatively resistant to this specific carbonate-dissolving reaction."
@@ -6885,10 +6885,10 @@ const QUESTIONS = {
       "topic": "7.6 Reducing Air Pollution",
       "stem": "What is the primary U.S. federal law regulating air pollution?",
       "choices": [
-        "The Endangered Species Act, which governs species protection.",
-        "The Safe Drinking Water Act, which governs water, not air.",
+        "The Endangered Species Act, which governs species protection and critical habitat.",
+        "The Safe Drinking Water Act, which governs water supplies, not air quality.",
         "The Clean Air Act, the principal U.S. federal law regulating air pollution.",
-        "The Clean Water Act, which governs water, not air."
+        "The Clean Water Act, which governs surface water pollution, not air quality."
       ],
       "correct": 2,
       "explanation": "The Clean Air Act is the primary U.S. federal law regulating air pollution, establishing air quality standards and regulating emissions from stationary and mobile sources. The Safe Drinking Water Act and Clean Water Act instead govern water quality, and the Endangered Species Act governs species protection -- none targets air pollution directly."
@@ -6989,10 +6989,10 @@ const QUESTIONS = {
       "topic": "7.6 Reducing Air Pollution",
       "stem": "Which criteria pollutant, established under NAAQS, is a secondary pollutant rather than a primary one?",
       "choices": [
-        "Particulate matter, which is primary in most cases.",
-        "Sulfur dioxide, emitted directly from coal combustion.",
+        "Particulate matter, which is a primary pollutant in most cases of combustion.",
+        "Sulfur dioxide, emitted directly from coal combustion at power plants.",
         "Ground-level ozone, formed secondarily rather than emitted directly.",
-        "Carbon monoxide, emitted directly from combustion sources."
+        "Carbon monoxide, emitted directly from combustion sources such as engines."
       ],
       "correct": 2,
       "explanation": "Ground-level ozone is the NAAQS criteria pollutant that is secondary, formed through atmospheric reactions rather than direct emission -- unlike SO2, CO, and particulate matter, which are generally primary pollutants emitted straight from their sources."
@@ -7041,10 +7041,10 @@ const QUESTIONS = {
       "topic": "7.1 Primary and Secondary Pollutants",
       "stem": "Which of the following pollutants would be classified as primary if traced directly to a diesel truck's exhaust pipe?",
       "choices": [
-        "Peroxyacetyl nitrate (PAN), a secondary pollutant.",
-        "None of the truck's exhaust components qualify as primary pollutants.",
+        "Peroxyacetyl nitrate (PAN), a secondary pollutant formed in sunlight in the air.",
+        "None of the truck's exhaust components qualify as primary pollutants of any kind.",
         "Nitrogen oxides and particulate matter, both released directly from the tailpipe.",
-        "Ground-level ozone, a secondary pollutant formed later."
+        "Ground-level ozone, a secondary pollutant formed later from other exhaust gases."
       ],
       "correct": 2,
       "explanation": "Nitrogen oxides and particulate matter emitted directly from the truck's exhaust are primary pollutants, coming straight from an identifiable source. Ozone and PAN, by contrast, are secondary pollutants that form later through atmospheric reactions, and since NOx and PM do qualify, 'none of these' is incorrect."
@@ -7119,9 +7119,9 @@ const QUESTIONS = {
       "topic": "7.4 Acid Rain",
       "stem": "Besides rain itself, in what other forms can acid deposition occur?",
       "choices": [
-        "Only as a gas, never in any particulate or liquid form.",
-        "Acid deposition never occurs in any solid or gaseous form.",
-        "Only as liquid rain, with no other forms being possible.",
+        "Only as a gas, never in any particulate or liquid form, as in acid rain.",
+        "Acid deposition never occurs in any solid or gaseous form, only as rain.",
+        "Only as liquid rain, with no other forms being possible in any weather.",
         "Acid snow, fog, and the dry deposition of acidic particles onto surfaces."
       ],
       "correct": 3,
@@ -7293,7 +7293,7 @@ const QUESTIONS = {
         "Issuing a single NPDES discharge permit for one specific outfall pipe.",
         "Broader land management policies, such as buffer strips or fertilizer incentives.",
         "Concluding nonpoint source pollution cannot be addressed through any policy approach.",
-        "Ignoring the runoff problem entirely, since it supposedly cannot be regulated at all."
+        "Ignoring the runoff problem entirely, since it cannot be regulated at all."
       ],
       "correct": 1,
       "explanation": "Because nonpoint source pollution lacks a single site to permit, broader land management policies—such as required vegetated buffer strips or incentives affecting many farms' fertilizer practices—are more effective than single-source permitting. Choice A describes the point-source permitting approach, which doesn't fit diffuse agricultural runoff. Choices C and D both wrongly assume nonpoint pollution is unmanageable; it can be addressed, just through different regulatory tools than point sources use."
@@ -8501,10 +8501,10 @@ const QUESTIONS = {
       "topic": "9.4 Sea Level Rise and Extreme Weather",
       "stem": "Does melting Arctic sea ice significantly contribute to sea level rise?",
       "choices": [
-        "Yes, but only during winter months when ice extent is greatest across the polar regions.",
-        "No, because sea ice does not actually melt under any conditions, even in warm summers.",
-        "No -- floating sea ice already displaces its own mass of water, so melting it does not significantly add to sea level.",
-        "Yes, melting sea ice is the primary driver of observed sea level rise around the world."
+        "Yes, but only during winter months when ice extent is greatest across the polar regions and the Arctic.",
+        "No, because sea ice does not actually melt under any conditions, even in warm summers and warm seas.",
+        "No -- floating sea ice already displaces its own mass of water, so melting it adds little to sea level.",
+        "Yes, melting sea ice is the primary driver of observed sea level rise around the world and its coasts."
       ],
       "correct": 2,
       "explanation": "Melting sea ice does not significantly contribute to sea level rise, since floating ice already displaces a volume of water equal to its own mass -- similar to an ice cube melting in a full glass without causing an overflow. Sea ice does melt (that claim is false), it is not the primary driver (thermal expansion and land ice melt are), and this holds regardless of season."
@@ -8631,9 +8631,9 @@ const QUESTIONS = {
       "topic": "9.5 Ocean Warming and Acidification",
       "stem": "What causes ocean acidification?",
       "choices": [
-        "Oceans absorbing excess heat trapped by the enhanced greenhouse effect.",
-        "A decrease in dissolved oxygen levels within the water column.",
-        "Volcanic activity along mid-ocean ridges releasing acidic compounds.",
+        "Oceans absorbing excess heat trapped by the enhanced greenhouse effect over the decades.",
+        "A decrease in dissolved oxygen levels within the water column due to warmer water.",
+        "Volcanic activity along mid-ocean ridges releasing acidic compounds into the sea.",
         "Oceans directly absorbing atmospheric CO2, forming carbonic acid that lowers pH."
       ],
       "correct": 3,
@@ -8800,10 +8800,10 @@ const QUESTIONS = {
       "topic": "9.6 Climate Change Impacts on Species and Biodiversity",
       "stem": "How can climate change favor invasive species over native specialists?",
       "choices": [
-        "Climate change always eliminates all invasive species from a region entirely and permanently.",
-        "Invasive species are never meaningfully affected by shifting climate conditions of any kind.",
-        "Changing conditions can create favorable conditions that a generalist or invasive species can exploit better than a specialist.",
-        "Climate change has no established relationship to invasive species dynamics in any region."
+        "Climate change always eliminates all invasive species from a region entirely and permanently, in every ecosystem.",
+        "Invasive species are never meaningfully affected by shifting climate conditions of any kind, anywhere on Earth.",
+        "Changing conditions can create favorable conditions that an invasive generalist can exploit better than a specialist.",
+        "Climate change has no established relationship to invasive species dynamics in any region of the world's ecosystems."
       ],
       "correct": 2,
       "explanation": "As climate conditions shift, newly favorable conditions in a region may be better exploited by a generalist or invasive species than by a narrowly adapted native specialist, potentially giving invasive species a competitive edge. Climate change does affect invasive species dynamics (contrary to two of the options), and it does not uniformly eliminate invasive species; it can just as easily favor them. Note: invasive species is introduced in Unit 5 (5.7) and revisited here in the context of climate change -- see Section 9.6 of the guide for the general mechanism (lack of natural predators/controls, rapid reproduction) independent of climate change."
@@ -8852,10 +8852,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "What was the Kyoto Protocol (1997)?",
       "choices": [
-        "An agreement specifically addressing stratospheric ozone depletion and chlorofluorocarbons.",
-        "A domestic U.S. law protecting endangered species within national borders and waters.",
-        "The first major international treaty to set binding greenhouse gas reduction targets, for developed countries.",
-        "An agreement regulating international trade in endangered species and their products."
+        "An agreement specifically addressing stratospheric ozone depletion and chlorofluorocarbons, signed in 1987.",
+        "A domestic U.S. law protecting endangered species within national borders and waters, passed in 1973.",
+        "The first major international treaty to set binding greenhouse gas reduction targets, for developed nations.",
+        "An agreement regulating international trade in endangered species and their products, signed in 1973."
       ],
       "correct": 2,
       "explanation": "The Kyoto Protocol (1997) was the first major international treaty to set binding greenhouse gas emission reduction targets, specifically for developed (industrialized) countries, a required document for this course. It is international rather than domestic, it addresses greenhouse gases rather than ozone (that is the Montreal Protocol's role), and it targets emissions rather than species trade (that is CITES's role)."
@@ -8865,10 +8865,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "Did the Kyoto Protocol face greater or lesser challenges with participation and enforcement compared to the Montreal Protocol?",
       "choices": [
-        "Neither treaty faced any meaningful challenges with participation or enforcement in practice.",
-        "Greater challenges -- the Kyoto Protocol's binding targets faced more participation and enforcement difficulties than the Montreal Protocol.",
-        "Both treaties faced identical levels of challenge, with no meaningful difference between them.",
-        "Lesser challenges -- the Kyoto Protocol was in fact even more widely successful than the Montreal Protocol."
+        "Neither treaty faced any meaningful challenges with participation or enforcement in practice, as both succeeded.",
+        "Greater challenges -- the Kyoto Protocol's binding targets faced more participation and enforcement difficulties.",
+        "Both treaties faced identical levels of challenge, with no meaningful difference between them in any respect.",
+        "Lesser challenges -- the Kyoto Protocol was in fact even more widely successful than the Montreal Protocol overall."
       ],
       "correct": 1,
       "explanation": "The Kyoto Protocol faced greater challenges with participation and enforcement than the Montreal Protocol, illustrating that climate mitigation has generally proven a more complex international coordination challenge than ozone protection, given the broader range of economic sectors and countries involved. Both treaties did face real challenges (not none), Kyoto's difficulties were greater rather than lesser, and the two treaties' outcomes were meaningfully different, not identical."
@@ -8878,10 +8878,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "What does CITES specifically regulate?",
       "choices": [
-        "Greenhouse gas emissions from industrial and energy sectors.",
-        "Domestic U.S. habitat protection for endangered species.",
+        "Greenhouse gas emissions from industrial and energy sectors across the participating nations.",
+        "Domestic U.S. habitat protection for endangered species within the national borders.",
         "International trade in endangered species and products derived from them.",
-        "Stratospheric ozone-depleting substances such as CFCs."
+        "Stratospheric ozone-depleting substances such as CFCs, halons, and other industrial chemicals."
       ],
       "correct": 2,
       "explanation": "CITES (Convention on International Trade in Endangered Species) specifically regulates international trade in endangered species and their derived products, aiming to prevent trade from driving further population decline. Greenhouse gas emissions fall under the Kyoto Protocol, ozone-depleting substances fall under the Montreal Protocol, and domestic U.S. habitat protection falls under the Endangered Species Act."
@@ -8930,10 +8930,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "Is CITES the same as the Endangered Species Act?",
       "choices": [
-        "Yes, these are simply two different names for the same underlying legislation.",
-        "Yes, both pieces of legislation address only greenhouse gas emissions.",
+        "Yes, these are simply two different names for the same underlying legislation, one used abroad.",
+        "Yes, both pieces of legislation address only greenhouse gas emissions and climate change policy.",
         "No -- CITES regulates trade, while the Endangered Species Act provides broader domestic protection.",
-        "No, because only one of these two pieces of legislation actually exists in practice."
+        "No, because only one of these two pieces of legislation actually exists in practice today."
       ],
       "correct": 2,
       "explanation": "CITES and the Endangered Species Act are two distinct required pieces of legislation addressing biodiversity protection through genuinely different mechanisms -- CITES targets international trade specifically, while the Endangered Species Act provides broader domestic protection including habitat provisions. Both do exist as real, separate laws, and neither one addresses greenhouse gas emissions at all."

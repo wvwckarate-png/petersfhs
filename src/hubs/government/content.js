@@ -268,9 +268,9 @@ const QUESTIONS = {
       "stem": "Which phrase from the Declaration of Independence is most closely associated with the concept of natural, unalienable rights?",
       "choices": [
         "'Life, Liberty and the pursuit of Happiness'",
-        "'We the People'",
-        "'necessary and proper'",
-        "'advice and consent'"
+        "'We the People of the United States'",
+        "'necessary and proper' for carrying into execution",
+        "'advice and consent' of the Senate required"
       ],
       "correct": 0,
       "explanation": "'Life, Liberty and the pursuit of Happiness' is the Declaration's specific articulation of the natural, unalienable rights it claims belong to all people by nature. ('We the People' opens the Constitution; 'necessary and proper' and 'advice and consent' are constitutional clauses.)"
@@ -319,10 +319,10 @@ const QUESTIONS = {
       "topic": "1.3 Articles of Confederation",
       "stem": "Which of the following was NOT a weakness of the Articles of Confederation?",
       "choices": [
-        "No national judiciary to resolve disputes.",
+        "No national judiciary to resolve disputes between states.",
         "A bicameral legislature based partly on population.",
-        "No national executive branch to enforce laws.",
-        "No power for the national government to tax."
+        "No national executive branch to enforce laws passed by Congress.",
+        "No power for the national government to tax citizens directly."
       ],
       "correct": 1,
       "explanation": "A bicameral legislature with one house apportioned by population is a feature of the Constitution (the House of Representatives), created precisely to fix the Articles' weaknesses — not a weakness of the Articles itself, which instead gave every state a single vote regardless of size. Choices A, C, and D are genuine Articles weaknesses: no national judiciary, no taxing power, and no national executive."
@@ -359,9 +359,9 @@ const QUESTIONS = {
       "stem": "How did the Constitution address the Articles of Confederation's lack of a national judiciary?",
       "choices": [
         "By creating a federal court system with authority to resolve disputes.",
-        "By requiring Congress to resolve all legal disputes directly.",
-        "By giving state courts exclusive authority over all disputes.",
-        "By eliminating courts entirely."
+        "By requiring Congress to resolve all legal disputes directly, case by case, by passing special laws.",
+        "By giving state courts exclusive authority over all disputes, with no national courts above them.",
+        "By eliminating courts entirely and leaving disputes to the legislature or to the people themselves."
       ],
       "correct": 0,
       "explanation": "The Constitution created Article III, establishing a federal judiciary with authority to resolve disputes — directly addressing the Articles' complete lack of any national court system."
@@ -579,10 +579,10 @@ const QUESTIONS = {
       "topic": "1.5 Separation of Powers",
       "stem": "Congress passes a bill; the president vetoes it; Congress then musters a 2/3 vote in both chambers to override the veto. What does this sequence illustrate?",
       "choices": [
-        "A violation of the separation of powers doctrine.",
-        "The judicial branch checking the legislative branch's actions.",
+        "A violation of the separation of powers doctrine by one of the branches, which would be unconstitutional.",
+        "The judicial branch checking the legislative branch's actions through a ruling on a statute.",
         "The veto checking Congress, followed by Congress's override checking back.",
-        "A single, one-directional check with no counter-check available."
+        "A single, one-directional check with no counter-check available to the branch that was checked."
       ],
       "correct": 2,
       "explanation": "This sequence is checks and balances working exactly as designed — first the executive checks the legislature (the veto), then the legislature checks back (the override) — the kind of mutual, competing check Madison describes in Federalist No. 51. It doesn't violate separation of powers, which is precisely what makes such checks possible (ruling out A); no court is involved (ruling out C); and because the legislature does check back via the override, it isn't a single check without a counter-check (ruling out D)."
@@ -605,10 +605,10 @@ const QUESTIONS = {
       "topic": "1.5 Separation of Powers",
       "stem": "Which of the following is an example of Congress checking the judicial branch?",
       "choices": [
-        "A federal court ruling an act of Congress unconstitutional.",
-        "The president vetoing a bill passed by Congress.",
+        "A federal court ruling an act of Congress unconstitutional and striking down the law as invalid.",
+        "The president vetoing a bill passed by Congress, returning it unsigned with objections stated.",
         "Senate confirmation and Congress's power to impeach federal judges.",
-        "The president issuing an executive order unilaterally."
+        "The president issuing an executive order unilaterally, without any approval by Congress or the courts."
       ],
       "correct": 2,
       "explanation": "Congress checks the judicial branch mainly through the Senate's confirmation power over judicial nominees and Congress's constitutional power to impeach and remove federal judges. Choice A is the judiciary checking the legislature (the reverse direction), and choices B and D are executive actions that don't involve Congress checking the courts at all."
@@ -618,10 +618,10 @@ const QUESTIONS = {
       "topic": "1.5 Separation of Powers",
       "stem": "What phrase does Madison use in Federalist No. 51 to summarize the logic of checks and balances?",
       "choices": [
-        "'Necessary and proper'",
-        "'We the People'",
+        "'Necessary and proper' for carrying out powers",
+        "'We the People' in order to form a more perfect Union",
         "'Ambition must be made to counteract ambition'",
-        "'A more perfect Union'"
+        "'A more perfect Union' and secure the blessings of liberty"
       ],
       "correct": 2,
       "explanation": "'Ambition must be made to counteract ambition' is Madison's famous summary in Federalist No. 51 of the logic behind checks and balances — rather than relying on virtue, the system harnesses each branch's own self-interested ambition to check the others."
@@ -632,9 +632,9 @@ const QUESTIONS = {
       "stem": "A question asks you to 'identify a specific check' one branch holds over another. Which of the following would be a fully correct answer?",
       "choices": [
         "'The president can veto Congress's legislation.'",
-        "'The government has checks and balances.'",
-        "'The Constitution separates powers.'",
-        "'There are three branches of government.'"
+        "'The government has checks and balances among its parts.'",
+        "'The Constitution separates powers among the branches.'",
+        "'There are three branches of government in the republic.'"
       ],
       "correct": 0,
       "explanation": "A fully correct answer names an actual tool one branch uses against another — like the veto — rather than a vague restatement that checks and balances exist (ruling out A), that powers are separated (ruling out B), or that three branches exist (ruling out C). Those three are all true but don't answer what was actually asked: a SPECIFIC check."
@@ -944,9 +944,9 @@ const QUESTIONS = {
       "topic": "1.1 Ideals and Types of Democracy",
       "stem": "How does the Gettysburg Address relate to the Declaration of Independence?",
       "choices": [
-        "It has no direct thematic connection to the Declaration.",
-        "It establishes new legal institutions the Declaration lacked.",
-        "It formally repeals the Declaration's claims about natural rights.",
+        "It has no direct thematic connection to the Declaration or to the founding era's ideals at all.",
+        "It establishes new legal institutions the Declaration lacked, such as a national court system for the nation.",
+        "It formally repeals the Declaration's claims about natural rights and replaces them with a new doctrine.",
         "It reasserts the Declaration's equality principle in the context of the Civil War."
       ],
       "correct": 3,
@@ -1102,9 +1102,9 @@ const QUESTIONS = {
       "topic": "2.2 Congressional Behavior and Representation",
       "stem": "Are Baker v. Carr and Shaw v. Reno addressing the same underlying constitutional concern about redistricting?",
       "choices": [
-        "No, neither case involves redistricting at all.",
-        "Yes, both cases are exclusively about racial gerrymandering.",
-        "Yes, both cases are about population equality between districts.",
+        "No, neither case involves redistricting at all, since both concern other questions of the election laws.",
+        "Yes, both cases are exclusively about racial gerrymandering, and neither addresses population or size.",
+        "Yes, both cases are about population equality between districts, and neither concerns race in drawing lines.",
         "No — one addresses population equality, the other race-based districting."
       ],
       "correct": 3,
@@ -1128,10 +1128,10 @@ const QUESTIONS = {
       "topic": "2.2 Congressional Behavior and Representation",
       "stem": "What does the 'politico' model of representation describe?",
       "choices": [
-        "A representative who never considers constituent opinion.",
-        "A representative who always acts as a trustee.",
+        "A representative who never considers constituent opinion at any point in making a decision.",
+        "A representative who always acts as a trustee, using their own judgment above constituent opinion.",
         "A representative who blends trustee and delegate approaches by issue.",
-        "A representative who always acts as a delegate."
+        "A representative who always acts as a delegate, following constituent opinion in every single vote."
       ],
       "correct": 2,
       "explanation": "The politico model describes a blended approach: a representative might act as a delegate on high-salience issues where constituents have strong, clear preferences, and as a trustee on more technical or lower-visibility issues where their own judgment plays a larger role. Choice A is wrong because politicos do weigh constituent opinion, just not exclusively; choices B and D each describe a pure single model (trustee or delegate) rather than the blend that defines politico."
@@ -1155,9 +1155,9 @@ const QUESTIONS = {
       "stem": "Prior to Baker v. Carr, how had federal courts generally treated redistricting disputes?",
       "choices": [
         "As a 'political question' outside the proper scope of judicial review.",
-        "As matters requiring a constitutional amendment to resolve.",
-        "As ordinary cases subject to full judicial review.",
-        "As exclusively criminal matters."
+        "As matters requiring a constitutional amendment to resolve, rather than any court's ruling on the case.",
+        "As ordinary cases subject to full judicial review, like any other dispute brought before a federal court.",
+        "As exclusively criminal matters, handled by prosecutors rather than by the federal courts in a civil suit."
       ],
       "correct": 0,
       "explanation": "Before Baker v. Carr, federal courts had generally treated redistricting disputes as 'political questions' — matters better left to the legislative and executive branches, outside the judiciary's proper role. Baker v. Carr changed this by ruling such cases were indeed justiciable."
@@ -1180,10 +1180,10 @@ const QUESTIONS = {
       "topic": "2.3 The Presidency",
       "stem": "According to Federalist No. 70, why did Hamilton argue for a single president rather than an executive council?",
       "choices": [
-        "A single executive requires no Senate confirmation.",
+        "A single executive requires no Senate confirmation to take office or to name the officials who serve under him.",
         "A single executive provides greater 'energy' — decisiveness and accountability.",
-        "A single executive is easier to remove from office.",
-        "Hamilton actually opposed a single executive in Federalist No. 70."
+        "A single executive is easier to remove from office than a council would be, through a simple vote.",
+        "Hamilton actually opposed a single executive in Federalist No. 70, preferring a council of several members."
       ],
       "correct": 1,
       "explanation": "Hamilton argued that a single executive provides 'energy in the executive' — the decisiveness and speed needed especially during a crisis — along with clearer accountability, since blame cannot be diffused across multiple officials the way it could with a council. Choice C is wrong because Federalist No. 70 does not argue removal ease as the rationale; choice D is wrong because Hamilton explicitly favored a single executive; choice A is wrong because Senate confirmation of the president is not the issue Federalist No. 70 addresses."
@@ -1336,10 +1336,10 @@ const QUESTIONS = {
       "topic": "2.4 Checks on Presidential Power",
       "stem": "The Senate refuses to confirm a president's nominee for a cabinet position. What formal check is being exercised?",
       "choices": [
-        "The president's own veto power",
+        "The president's own veto power over acts of Congress",
         "The Senate's advice-and-consent confirmation power",
-        "Impeachment by the House of Representatives",
-        "Judicial review by the federal courts"
+        "Impeachment by the House of Representatives alone",
+        "Judicial review by the federal courts of the land"
       ],
       "correct": 1,
       "explanation": "This is the Senate exercising its constitutional 'advice and consent' role over presidential appointments — the president nominates, but the Senate's confirmation is required before an appointment is finalized. Choice D is wrong because judicial review involves courts assessing constitutionality, not confirming nominees; choice A is wrong because the veto applies to legislation, not nominations; choice C is wrong because impeachment targets removing an official, not blocking a nomination."
@@ -1440,10 +1440,10 @@ const QUESTIONS = {
       "topic": "2.5 Judicial Branch Structure & Judicial Review",
       "stem": "What function do U.S. Courts of Appeals (Circuit Courts) primarily serve?",
       "choices": [
-        "Conducting new trials with new evidence.",
+        "Conducting new trials with new evidence and with witnesses called anew before the appellate panel.",
         "Reviewing district court decisions for legal errors, without holding new trials.",
-        "Hearing only cases involving the president directly.",
-        "Serving as the final, unappealable level of the federal court system."
+        "Hearing only cases involving the president directly, or those that concern the executive branch alone.",
+        "Serving as the final, unappealable level of the federal court system, above even the Supreme Court."
       ],
       "correct": 1,
       "explanation": "U.S. Courts of Appeals review district court decisions specifically for legal errors — they do not conduct new trials, hear new evidence, or call new witnesses; their role is appellate review of how the law was applied below."
@@ -1453,10 +1453,10 @@ const QUESTIONS = {
       "topic": "2.5 Judicial Branch Structure & Judicial Review",
       "stem": "Why is judicial review considered significant, given that it isn't explicitly stated in the Constitution's text?",
       "choices": [
-        "It only applies to state governments, not the federal government.",
+        "It only applies to state governments, not the federal government, which is bound by other rules.",
         "It established the judiciary as a genuine, independent check on the other branches.",
-        "It isn't significant, since it lacks explicit constitutional grounding.",
-        "It was later explicitly added to the Constitution by amendment."
+        "It isn't significant, since it lacks explicit constitutional grounding in the text of Article III itself.",
+        "It was later explicitly added to the Constitution by amendment, which confirmed the principle formally."
       ],
       "correct": 1,
       "explanation": "Despite not being explicitly written into the Constitution, judicial review — established through Marshall's reasoning in Marbury v. Madison — has become foundational to the judiciary's role as a genuine, independent check on the legislative and executive branches. Choice D is wrong because no amendment ever codified judicial review; choice A is wrong because it applies to federal as well as state action; choice C is wrong because the question's premise is that it is significant despite lacking explicit text, not that it isn't."
@@ -1479,10 +1479,10 @@ const QUESTIONS = {
       "topic": "2.5 Judicial Branch Structure & Judicial Review",
       "stem": "What did the narrow, original dispute in Marbury v. Madison actually concern?",
       "choices": [
-        "Whether public school prayer was constitutional.",
+        "Whether public school prayer was constitutional under the First Amendment's religion clauses.",
         "Whether Marbury was entitled to receive his judicial commission.",
-        "Whether Congress could regulate interstate commerce.",
-        "Whether a state could tax a federally-chartered bank."
+        "Whether Congress could regulate interstate commerce in a case about steamboats on a river.",
+        "Whether a state could tax a federally-chartered bank operating within its borders."
       ],
       "correct": 1,
       "explanation": "The immediate, narrow dispute in Marbury v. Madison concerned whether William Marbury was entitled to receive a judicial commission he had been promised — a relatively minor dispute that Chief Justice Marshall used as the occasion to establish the far more consequential principle of judicial review. Choice D describes McCulloch v. Maryland; choice C describes Commerce Clause cases like Gibbons v. Ogden; choice A describes Engel v. Vitale — none are the actual dispute in Marbury."
@@ -1557,10 +1557,10 @@ const QUESTIONS = {
       "topic": "2.6 Judicial Decision-Making and Legitimacy",
       "stem": "What tool does Congress retain over the structure of the federal judiciary, despite judges' lifetime tenure?",
       "choices": [
-        "No structural authority over the judiciary at all.",
-        "The power to personally select which cases the Supreme Court hears.",
+        "No structural authority over the judiciary at all, since the courts are wholly independent of Congress.",
+        "The power to personally select which cases the Supreme Court hears, with the Court having no say in the matter.",
         "Authority to structure the courts, such as justice numbers or lower-court jurisdiction.",
-        "The power to directly reverse any specific ruling by a simple majority vote."
+        "The power to directly reverse any specific ruling by a simple majority vote of both houses of Congress."
       ],
       "correct": 2,
       "explanation": "While Congress cannot remove a judge simply for disagreeing with a ruling, it does retain some structural authority over the federal judiciary — including the ability to set the number of Supreme Court justices and to define the jurisdiction of lower federal courts. Choice D is wrong because Congress cannot directly reverse a specific ruling by vote; choice B is wrong because the Court itself, not Congress, chooses its own docket; choice A understates Congress's real, if limited, structural role."
@@ -1571,9 +1571,9 @@ const QUESTIONS = {
       "stem": "Why might frequent, unpredictable overturning of legal precedent damage judicial legitimacy?",
       "choices": [
         "It would undermine the perception that the law is stable and predictable.",
-        "It would have no effect on legitimacy at all.",
-        "It would automatically trigger a constitutional amendment.",
-        "It would immediately remove all sitting justices from office."
+        "It would have no effect on legitimacy at all, since courts need not follow earlier rulings.",
+        "It would automatically trigger a constitutional amendment, ratified by the states within a year.",
+        "It would immediately remove all sitting justices from office, by operation of the Constitution."
       ],
       "correct": 0,
       "explanation": "Stare decisis supports legitimacy specifically by making legal outcomes predictable and consistent — frequent, unpredictable reversals of precedent would undermine that stability, risking a public perception that rulings reflect the personal preferences of whichever justices currently sit on the Court rather than durable legal principle. Choice C is wrong because no amendment process is automatically triggered; choice D is wrong because overturning precedent does not remove justices; choice B directly contradicts the premise the question is asking about."
@@ -1597,9 +1597,9 @@ const QUESTIONS = {
       "stem": "What is 'rule-making,' as exercised by federal bureaucratic agencies?",
       "choices": [
         "The quasi-legislative process by which agencies issue binding regulations.",
-        "The process by which Congress passes new statutes.",
-        "The process by which the president issues executive orders.",
-        "The process by which the Supreme Court issues rulings."
+        "The process by which Congress passes new statutes through both houses and the president.",
+        "The process by which the president issues executive orders to direct the executive branch.",
+        "The process by which the Supreme Court issues rulings on cases that come before it."
       ],
       "correct": 0,
       "explanation": "Rule-making is the process by which bureaucratic agencies issue detailed, legally binding regulations that implement and flesh out the specifics of broader, often vaguely-worded statutes passed by Congress. Choice B describes ordinary lawmaking, not agency action; choice C describes an entirely separate presidential tool; choice D describes judicial rulings, not agency regulation."
@@ -1622,9 +1622,9 @@ const QUESTIONS = {
       "topic": "2.7 The Federal Bureaucracy",
       "stem": "Why is the federal bureaucracy sometimes informally described as a 'fourth branch' of government?",
       "choices": [
-        "Because the Constitution explicitly names it as a fourth branch.",
-        "Because it has the power to pass its own constitutional amendments.",
-        "Because it operates completely independently of all three constitutional branches.",
+        "Because the Constitution explicitly names it as a fourth branch, with powers set out in Article IV.",
+        "Because it has the power to pass its own constitutional amendments without the states' approval.",
+        "Because it operates completely independently of all three constitutional branches, answering to none of them.",
         "Because it exercises substantial practical policy influence despite not being a formal branch."
       ],
       "correct": 3,
@@ -1688,9 +1688,9 @@ const QUESTIONS = {
       "stem": "Which of the following best describes a government corporation, as a type of federal bureaucratic entity?",
       "choices": [
         "A federal entity that operates like a business while remaining part of government.",
-        "A private business entirely unconnected to government.",
-        "A synonym for a cabinet-level department.",
-        "A category that does not actually exist within the federal bureaucracy."
+        "A private business entirely unconnected to government and owned solely by shareholders.",
+        "A synonym for a cabinet-level department, headed by a secretary appointed by the president.",
+        "A category that does not actually exist within the federal bureaucracy, despite the name."
       ],
       "correct": 0,
       "explanation": "Government corporations are federal entities structured to operate somewhat like businesses (often providing a specific commercial-style service) while remaining part of the broader government bureaucracy — a distinct organizational type alongside cabinet departments and independent regulatory agencies. Choice B is wrong because government corporations remain part of government, unlike private business; choice D is wrong because they are a real, recognized bureaucratic category; choice C is wrong because they are organizationally distinct from cabinet departments."
@@ -1700,10 +1700,10 @@ const QUESTIONS = {
       "topic": "2.8 Policy-Making Across the Branches",
       "stem": "In the typical sequence of federal policy-making, what generally happens immediately after Congress passes a bill and the president signs it?",
       "choices": [
-        "The bill is sent back to committee for further debate.",
-        "The bill becomes a constitutional amendment.",
+        "The bill is sent back to committee for further debate before it can take effect as a law.",
+        "The bill becomes a constitutional amendment once the president has signed it into law.",
         "A relevant executive agency may begin rule-making to implement it.",
-        "The Supreme Court automatically reviews the law."
+        "The Supreme Court automatically reviews the law for its constitutionality before it takes effect."
       ],
       "correct": 2,
       "explanation": "After a bill is signed into law, a relevant executive branch agency often engages in rule-making — writing detailed regulations that flesh out and implement the law's broader statutory goals — before the policy is actually enforced on the ground. Choice D is wrong because judicial review is not automatic; it happens only if a case is brought; choice A is wrong because a signed law does not return to committee; choice B is wrong because ordinary statutes never become constitutional amendments."
@@ -1833,10 +1833,10 @@ const QUESTIONS = {
       "topic": "3.1 Bill of Rights and Incorporation",
       "stem": "What did Gideon v. Wainwright (1963) establish?",
       "choices": [
-        "A right to remain silent during questioning",
+        "A right to remain silent during questioning by police",
         "That states must provide counsel to poor defendants",
-        "A right to a jury trial in civil cases",
-        "That the 2nd Amendment applies to the states"
+        "A right to a jury trial in civil cases of any kind",
+        "That the 2nd Amendment applies to the states and cities"
       ],
       "correct": 1,
       "explanation": "Gideon v. Wainwright incorporated the 6th Amendment right to counsel, requiring states to provide a public defender to criminal defendants who cannot afford an attorney. The 2nd Amendment incorporation came later in McDonald v. Chicago; the case did not involve civil jury trials, and the right to remain silent (Miranda) is a separate 5th Amendment doctrine."
@@ -1911,10 +1911,10 @@ const QUESTIONS = {
       "topic": "3.1 Bill of Rights and Incorporation",
       "stem": "Before selective incorporation, could a state government have restricted a right protected by the Bill of Rights without violating the U.S. Constitution?",
       "choices": [
-        "No, because the 10th Amendment prohibited this.",
+        "No, because the 10th Amendment prohibited this in every case.",
         "Yes — it originally restricted only the federal government.",
-        "No, states were always bound from 1791 onward.",
-        "Yes, but only during a declared wartime emergency."
+        "No, states were always bound from 1791 onward by the Bill of Rights.",
+        "Yes, but only during a declared wartime emergency or in times of crisis."
       ],
       "correct": 1,
       "explanation": "Before incorporation, a state restricting a right later found to be incorporated did not violate the federal Bill of Rights directly, since it originally bound only the federal government (though the state's own constitution might have provided separate protection). The 10th Amendment addresses reserved powers, not this question; there was no wartime exception; and states were not bound from ratification in 1791 — that is the very premise selective incorporation later changed."
@@ -1937,9 +1937,9 @@ const QUESTIONS = {
       "topic": "3.2 Freedom of Religion",
       "stem": "What did Wisconsin v. Yoder (1972) rule regarding Amish families and compulsory education laws?",
       "choices": [
-        "That all children must attend public school through age 18.",
-        "That religious objections can never exempt anyone from any law.",
-        "That the case involved the Establishment Clause, not Free Exercise.",
+        "That all children must attend public school through age 18, with no religious exceptions allowed.",
+        "That religious objections can never exempt anyone from any law, however burdensome it may be.",
+        "That the case involved the Establishment Clause, not Free Exercise, since it concerned state support of religion.",
         "That Amish parents could not be compelled to school children past 8th grade."
       ],
       "correct": 3,
@@ -2055,9 +2055,9 @@ const QUESTIONS = {
       "stem": "What was the factual context of Schenck v. United States?",
       "choices": [
         "A man distributing leaflets urging resistance to the WWI draft.",
-        "A student wearing an armband to protest a war.",
-        "A newspaper publishing classified government documents.",
-        "A school district sponsoring a daily prayer."
+        "A student wearing an armband to protest a war at his school.",
+        "A newspaper publishing classified government documents about a war.",
+        "A school district sponsoring a daily prayer for its students."
       ],
       "correct": 0,
       "explanation": "Schenck v. United States arose from a conviction under the Espionage Act for distributing leaflets urging resistance to the WWI draft; the Court upheld the conviction, establishing the 'clear and present danger' standard. Option C describes New York Times Co. v. United States; option D describes Engel v. Vitale; option B describes Tinker v. Des Moines."
@@ -2184,10 +2184,10 @@ const QUESTIONS = {
       "topic": "3.4 Freedom of the Press",
       "stem": "What was the factual context of New York Times Co. v. United States (1971)?",
       "choices": [
-        "A school district officially sponsoring student prayer.",
+        "A school district officially sponsoring student prayer at its events.",
         "A student wearing an armband to protest a war at school.",
         "The government trying to block publication of classified war documents.",
-        "A state completely banning handgun ownership."
+        "A state completely banning handgun ownership for every resident."
       ],
       "correct": 2,
       "explanation": "New York Times Co. v. United States — the 'Pentagon Papers' case — involved the government seeking a court injunction to block newspapers from publishing classified Vietnam War documents. Option D describes McDonald v. Chicago; option A describes Engel v. Vitale; option B describes Tinker v. Des Moines."
@@ -2262,10 +2262,10 @@ const QUESTIONS = {
       "topic": "3.4 Freedom of the Press",
       "stem": "Which required case is most closely associated with the phrase 'Pentagon Papers'?",
       "choices": [
-        "Engel v. Vitale",
+        "Engel v. Vitale (1962), on school prayer",
         "New York Times Co. v. United States",
-        "Tinker v. Des Moines",
-        "Schenck v. United States"
+        "Tinker v. Des Moines (1969), on student speech",
+        "Schenck v. United States (1919), on wartime speech"
       ],
       "correct": 1,
       "explanation": "New York Times Co. v. United States is commonly known as the 'Pentagon Papers' case, referring to the classified Vietnam War-related documents the government sought unsuccessfully to block from publication."
@@ -2301,10 +2301,10 @@ const QUESTIONS = {
       "topic": "3.5 Due Process and Right to Privacy",
       "stem": "What did Roe v. Wade (1973) originally hold?",
       "choices": [
-        "That the right to privacy has no constitutional basis.",
-        "That states have unlimited authority to regulate abortion.",
+        "That the right to privacy has no constitutional basis whatsoever, in any amendment.",
+        "That states have unlimited authority to regulate abortion in any way they choose.",
         "That the right to privacy extended to a woman's decision to have an abortion.",
-        "That the right to privacy was created by a constitutional amendment."
+        "That the right to privacy was created by a constitutional amendment ratified in the 1960s."
       ],
       "correct": 2,
       "explanation": "Roe v. Wade held that the right to privacy, derived from the 14th Amendment's Due Process Clause, extended to a woman's decision to have an abortion, within a framework balancing that right against state interests as pregnancy progressed. Option A contradicts the holding directly; option B is wrong because Roe limited, rather than left unlimited, state regulatory authority; option D is inaccurate since the right to privacy is judicially implied, not amendment-created."
@@ -2379,10 +2379,10 @@ const QUESTIONS = {
       "topic": "3.5 Due Process and Right to Privacy",
       "stem": "Which case directly overturned Roe v. Wade?",
       "choices": [
-        "Citizens United v. FEC (2010)",
+        "Citizens United v. FEC (2010), on campaign finance",
         "Dobbs v. Jackson Women's Health Organization (2022)",
-        "McDonald v. Chicago (2010)",
-        "Brown v. Board of Education (1954)"
+        "McDonald v. Chicago (2010), on the Second Amendment",
+        "Brown v. Board of Education (1954), on school segregation"
       ],
       "correct": 1,
       "explanation": "Dobbs v. Jackson Women's Health Organization (2022) directly overturned Roe v. Wade, holding the Constitution does not confer a right to abortion. Citizens United concerns campaign finance, Brown concerns school segregation, and McDonald concerns 2nd Amendment incorporation — none touches Roe."
@@ -2471,9 +2471,9 @@ const QUESTIONS = {
       "stem": "Is 'Letter from a Birmingham Jail' a legal ruling or a philosophical/moral argument?",
       "choices": [
         "A philosophical and moral argument, not a court ruling.",
-        "A constitutional amendment.",
-        "A binding legal ruling issued by a federal court.",
-        "An act of Congress."
+        "A constitutional amendment ratified by the states and signed into law.",
+        "A binding legal ruling issued by a federal court in a case.",
+        "An act of Congress signed by the president into law."
       ],
       "correct": 0,
       "explanation": "'Letter from a Birmingham Jail' is a philosophical and moral argument written by King, justifying civil disobedience against unjust laws — it is not a legal ruling, statute, or any form of binding legal authority, and should not be confused with a court case."
@@ -2483,10 +2483,10 @@ const QUESTIONS = {
       "topic": "3.6 14th Amendment and Civil Rights",
       "stem": "According to King's argument, what must someone do for their act of lawbreaking to count as legitimate civil disobedience?",
       "choices": [
-        "Break as many laws as possible simultaneously.",
-        "Break the law secretly and avoid any legal consequence.",
+        "Break as many laws as possible simultaneously, to overwhelm the authorities.",
+        "Break the law secretly and avoid any legal consequence for the act.",
         "Break the law openly, nonviolently, and accept the legal penalty.",
-        "Only break laws that carry no criminal penalty."
+        "Only break laws that carry no criminal penalty of any kind."
       ],
       "correct": 2,
       "explanation": "King argues legitimate civil disobedience requires breaking an unjust law openly and nonviolently while willingly accepting whatever legal penalty follows — that acceptance is what shows respect for the rule of law even while resisting a specific unjust provision. Options A, B, and D each describe something closer to evasion or lawlessness, which King explicitly distinguishes from principled civil disobedience."
@@ -3059,9 +3059,9 @@ const QUESTIONS = {
       "stem": "A poll's 'margin of error' communicates what about the poll's results?",
       "choices": [
         "A measure of the poll's likely precision relative to the true value.",
-        "The percentage of respondents who identify as undecided.",
-        "The total cost of conducting the poll.",
-        "The number of respondents who refused to answer."
+        "The percentage of respondents who identify as undecided in the poll.",
+        "The total cost of conducting the poll, including interviewers' pay.",
+        "The number of respondents who refused to answer the questions asked."
       ],
       "correct": 0,
       "explanation": "Margin of error indicates the poll's likely precision — a smaller margin means the reported result is more likely close to the true population value, assuming proper random sampling. Option D confuses it with the non-response rate. Option C confuses it with polling cost, an unrelated concept. Option B confuses it with the share of undecided respondents, a separate statistic."
@@ -3085,9 +3085,9 @@ const QUESTIONS = {
       "stem": "What is a 'push poll'?",
       "choices": [
         "A poll designed to shape opinion under the guise of measuring it.",
-        "A type of exit poll conducted only on election day.",
-        "A poll with an unusually large sample size.",
-        "A poll conducted exclusively by academic researchers."
+        "A type of exit poll conducted only on election day outside polling places.",
+        "A poll with an unusually large sample size drawn from the whole nation.",
+        "A poll conducted exclusively by academic researchers at universities."
       ],
       "correct": 0,
       "explanation": "A push poll is designed to influence respondents' opinions — often through biased or misleading question wording — while appearing to simply measure existing opinion. Option D wrongly restricts push polls to academic research, when they're typically a campaign tactic. Option C confuses it with sample size, an unrelated feature. Option B wrongly conflates it with exit polling, a legitimate, separate polling method."
@@ -3137,9 +3137,9 @@ const QUESTIONS = {
       "stem": "Why is it important to evaluate a poll's methodology rather than simply accepting its headline result?",
       "choices": [
         "A result is only meaningful if the sampling method and question design were sound.",
-        "Methodology has no bearing on whether a poll's results are trustworthy.",
-        "All polls use identical methodology, so evaluation is unnecessary.",
-        "Only government-conducted polls require methodological evaluation."
+        "Methodology has no bearing on whether a poll's results are trustworthy or accurate.",
+        "All polls use identical methodology, so evaluation is unnecessary for any of them.",
+        "Only government-conducted polls require methodological evaluation by readers."
       ],
       "correct": 0,
       "explanation": "A poll's headline result is only as trustworthy as its underlying methodology — sampling method, sample size, and question wording all affect whether a result can be reasonably generalized. Option B wrongly claims methodology is irrelevant. Option C is false — polling methodologies vary widely in quality. Option D wrongly restricts the need for evaluation to government polls only."
@@ -3162,10 +3162,10 @@ const QUESTIONS = {
       "topic": "4.3 Public Opinion Polling",
       "stem": "In a scientifically conducted poll, does a reported margin of error of plus-or-minus 3 percentage points guarantee the true population value falls within that exact range?",
       "choices": [
-        "Yes, but only for polls conducted during a presidential election year.",
+        "Yes, but only for polls conducted during a presidential election year, and not otherwise.",
         "It reflects a stated confidence level, commonly 95%, not an absolute guarantee.",
-        "Yes, with absolute certainty.",
-        "No, margin of error has no relationship to confidence at all."
+        "Yes, with absolute certainty, so the true value must lie within the stated interval.",
+        "No, margin of error has no relationship to confidence at all, and is only a rough guess."
       ],
       "correct": 1,
       "explanation": "Margin of error is typically reported alongside a confidence level (commonly 95%) — it indicates a strong statistical likelihood, not an absolute guarantee, that the true value falls within the stated range. Option C wrongly claims absolute certainty. Option D wrongly denies any link to confidence levels. Option A wrongly restricts this statistical property to presidential election years."
@@ -3253,10 +3253,10 @@ const QUESTIONS = {
       "topic": "4.4 Liberal and Conservative Ideology",
       "stem": "Which issue area would MOST reliably distinguish a typically liberal from a typically conservative position, according to this unit's framework?",
       "choices": [
-        "Geographic region of residence, considered alone.",
+        "Geographic region of residence, considered alone as a predictor.",
         "Preferred level of government regulation of the economy.",
-        "Preferred color scheme for campaign materials.",
-        "Preference for a specific sports team."
+        "Preferred color scheme for campaign materials and yard signs.",
+        "Preference for a specific sports team in the local league."
       ],
       "correct": 1,
       "explanation": "Preferred level of government regulation and economic intervention is one of the most reliable, defining distinctions between typically liberal and typically conservative positions. Options A, C, and D (region, sports preference, and campaign color choice) are not meaningful ideological indicators at all."
@@ -3553,10 +3553,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A state legislature debates how to reduce traffic congestion. One faction proposes a government-built and operated public transit expansion; another proposes tax incentives for employers who allow remote work; a third proposes congestion pricing (tolls that rise during peak hours) set by a government agency. Analyze which of these three approaches best fits a purely market-based ideological logic, and which best fits a direct-intervention logic.",
       "choices": [
-        "All three approaches are ideologically identical with no meaningful distinction.",
-        "Congestion pricing is identical to a direct government mandate with no market element at all.",
+        "All three approaches are ideologically identical with no meaningful distinction among them at all.",
+        "Congestion pricing is identical to a direct government mandate with no market element at all in it.",
         "Transit expansion is direct intervention; incentives are market-based; congestion pricing hybridizes both.",
-        "None of these three approaches has any ideological content."
+        "None of these three approaches has any ideological content, as each is a purely technical choice."
       ],
       "correct": 2,
       "explanation": "This scenario rewards recognizing that policy methods don't always sort into a clean two-category system: the public transit expansion is direct government provision (liberal-leaning); the tax incentive is market-based (conservative-leaning); congestion pricing is a genuine hybrid — using government authority to set a price signal (a form of intervention) to influence, rather than mandate, private behavior (a market-oriented mechanism). Option B wrongly claims congestion pricing has no market element, ignoring its price-signal mechanism. Option D wrongly claims none of these methods carry ideological content. Option A wrongly claims all three are ideologically identical, collapsing a meaningful distinction. Recognizing that some real-world policies blend both ideological logics is a more advanced synthesis than the unit's core examples require."
@@ -3579,10 +3579,10 @@ const QUESTIONS = {
       "topic": "4.4 Liberal and Conservative Ideology",
       "stem": "A voter supports expanding environmental regulations on industry while also supporting reduced government spending on social welfare programs. How would this combination best be characterized?",
       "choices": [
-        "A perfectly standard, fully consistent liberal position with no mixing.",
-        "A perfectly standard, fully consistent conservative position with no mixing.",
+        "A perfectly standard, fully consistent liberal position with no mixing of other views in it.",
+        "A perfectly standard, fully consistent conservative position with no mixing of other views in it.",
         "A mix of a liberal-leaning regulatory stance and a conservative-leaning spending stance.",
-        "An ideologically meaningless combination with no analytical value."
+        "An ideologically meaningless combination with no analytical value to students of politics."
       ],
       "correct": 2,
       "explanation": "Supporting environmental regulation (typically liberal) while opposing expanded social welfare spending (typically conservative) mixes elements of both standard clusters — another example of how real individual views don't always sort neatly into a single ideological package. Options A and B both wrongly claim full ideological consistency in one direction, ignoring the mixed positions described. Option D wrongly claims the combination has no analytical value, when it's a textbook example of ideological mixing."
@@ -3659,9 +3659,9 @@ const QUESTIONS = {
       "stem": "According to Adam Smith's The Wealth of Nations, what mechanism explains how individuals pursuing their own self-interest in a competitive market tend to produce broadly beneficial outcomes for society?",
       "choices": [
         "The invisible hand of self-interest channeled through market competition.",
-        "Labor unions negotiating wages on behalf of all workers.",
-        "Direct government planning of prices and production levels.",
-        "Voluntary charitable giving by successful business owners."
+        "Labor unions negotiating wages on behalf of all workers in an industry.",
+        "Direct government planning of prices and production levels in the economy.",
+        "Voluntary charitable giving by successful business owners to the poor."
       ],
       "correct": 0,
       "explanation": "Smith's \"invisible hand\" describes how individuals pursuing self-interest within a competitive market, without centralized direction, tend to produce outcomes that benefit society broadly. Government planning (option C) is the opposite of Smith's argument. Charitable giving (option D) and union negotiation (option B) are real economic phenomena but are not the mechanism Smith identifies as producing broadly beneficial outcomes from self-interested competition."
@@ -3671,10 +3671,10 @@ const QUESTIONS = {
       "topic": "4.1 Political Culture and Core Values",
       "stem": "Why does AP Gov treat The Wealth of Nations as a Foundational Document for this unit rather than simply as outside reading on economics?",
       "choices": [
-        "It was written by a sitting member of the Continental Congress.",
+        "It was written by a sitting member of the Continental Congress during the Revolution.",
         "It is the canonical source for free enterprise as a core American political value.",
-        "It directly outlines the structure of the U.S. federal government.",
-        "It was cited in the majority opinion of a landmark Supreme Court case."
+        "It directly outlines the structure of the U.S. federal government and its branches.",
+        "It was cited in the majority opinion of a landmark Supreme Court case on commerce."
       ],
       "correct": 1,
       "explanation": "The document earns its place in this unit specifically because it is the evidentiary source AP Gov cites for free enterprise as one of the core American political values, alongside liberty, equality, individualism, and self-government — not because of its general economic content. Smith was not a member of the Continental Congress (option A), the book does not describe U.S. governmental structure (option C), and its Foundational Document status here does not rest on a specific Court citation (option D)."
@@ -3684,10 +3684,10 @@ const QUESTIONS = {
       "topic": "4.1 Political Culture and Core Values",
       "stem": "The free enterprise value Adam Smith's argument supports reappears later in this unit as which of the following?",
       "choices": [
-        "A defining feature of the populist tradition's trade policy.",
-        "The basis for greater government regulation of the economy.",
+        "A defining feature of the populist tradition's trade policy toward foreign imports.",
+        "The basis for greater government regulation of the economy as a whole.",
         "The economic core of conservative ideology favoring less regulation.",
-        "The main justification for expanding the social safety net."
+        "The main justification for expanding the social safety net to more families."
       ],
       "correct": 2,
       "explanation": "Free enterprise, grounded in Smith's argument for limited government and market competition, resurfaces in 4.4–4.6 as the economic core of conservative ideology — favoring less government regulation and greater reliance on free markets. Expanding the safety net (option D) and favoring more regulation (option B) describe positions more typically associated with liberal ideology, the opposite pole. Populist trade policy (option A) is a distinct strand covered elsewhere in 4.4 and is not the direct continuation of Smith's free-enterprise argument."
@@ -3829,9 +3829,9 @@ const QUESTIONS = {
       "topic": "5.2 Voter Turnout",
       "stem": "A state requires voters to register 30 days before an election, with no same-day registration option. What effect does this requirement likely have on turnout?",
       "choices": [
-        "It likely increases turnout, giving voters time to prepare.",
-        "It only affects turnout in presidential election years.",
-        "It has no effect on turnout whatsoever.",
+        "It likely increases turnout, giving voters time to prepare and to register.",
+        "It only affects turnout in presidential election years, and not in midterm races.",
+        "It has no effect on turnout whatsoever, in any election or in any state.",
         "It likely decreases turnout, due to the added registration barrier."
       ],
       "correct": 3,
@@ -4258,9 +4258,9 @@ const QUESTIONS = {
       "topic": "5.6 Interest Groups",
       "stem": "Which of the following is an example of an interest group using litigation to influence policy?",
       "choices": [
-        "Organizing a voter registration drive.",
-        "Running a television advertisement.",
-        "Directly lobbying a member of Congress.",
+        "Organizing a voter registration drive in a neighborhood.",
+        "Running a television advertisement during an election.",
+        "Directly lobbying a member of Congress in an office visit.",
         "Filing an amicus brief in a Supreme Court case."
       ],
       "correct": 3,

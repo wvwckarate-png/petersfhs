@@ -1120,7 +1120,7 @@ const QUESTIONS = {
       "topic": "2.2 Intramolecular Force and Potential Energy",
       "stem": "The bond length in N₂ (triple bond) is shorter than in N₂H₄ (single bond between nitrogens). What does this indicate about their relative bond strengths?",
       "choices": [
-        "N₂'s N-N bond is actually weaker, since shorter bonds are supposedly always weaker.",
+        "N₂'s N-N bond is actually weaker, since shorter bonds are always weaker.",
         "N₂'s bond is stronger — shorter bonds mean higher bond order.",
         "Both bonds have identical strength since both involve nitrogen.",
         "Bond length and bond strength are unrelated properties of a bond."
@@ -1316,10 +1316,10 @@ const QUESTIONS = {
       "topic": "2.4 Structure of Metals and Alloys",
       "stem": "In the electron sea model of metallic bonding, what is delocalized?",
       "choices": [
-        "The entire neutral metal atom, nucleus included",
+        "The entire neutral metal atom, nucleus included, held in place",
         "The valence electrons, shared among many metal cations",
-        "Only the inner core electrons near each nucleus",
-        "The protons located in each metal nucleus"
+        "Only the inner core electrons near each nucleus, held in place",
+        "The protons located in each metal nucleus, free to move about"
       ],
       "correct": 1,
       "explanation": "In metallic bonding, each metal atom contributes its valence electrons to a shared, mobile pool (the 'sea') that surrounds a lattice of positive metal cations. Option (A) is wrong because the entire atom doesn't delocalize — only the valence electrons detach into the sea, while the atomic cores (nucleus plus core electrons) stay fixed in lattice positions. Option (C) is wrong because core electrons remain tightly bound to their own nucleus; they're not the electrons responsible for metallic bonding. Option (D) is wrong because protons never move or delocalize at all — nuclei stay fixed in place, so this option confuses subatomic particles with the actual mobile species (valence electrons)."
@@ -1629,10 +1629,10 @@ const QUESTIONS = {
       "topic": "2.6 Resonance and Formal Charge",
       "stem": "In SO₄²⁻, formal charge calculations can be used to justify structures with S=O double bonds (reducing formal charge on oxygen) over an all-single-bond structure. What is the tradeoff in choosing the all-single-bond structure instead?",
       "choices": [
-        "There is no tradeoff; the all-single-bond structure is always preferred.",
-        "The all-single-bond structure is not a valid Lewis structure at all.",
+        "There is no tradeoff; the all-single-bond structure is always preferred, since it obeys the octet rule.",
+        "The all-single-bond structure is not a valid Lewis structure at all, since sulfur cannot bond that way.",
         "It gives sulfur +2 and oxygens −1 each; double bonds lower these but need an expanded octet.",
-        "Formal charge has no bearing on which resonance structure to draw for SO₄²⁻."
+        "Formal charge has no bearing on which resonance structure to draw for SO₄²⁻ or for any other ion."
       ],
       "correct": 2,
       "explanation": "The all-single-bond structure for SO₄²⁻ does satisfy the total charge and electron count, but places relatively high formal charges (S: +2, each O: −1) on the atoms; introducing S=O double bonds lowers these magnitudes but requires sulfur to exceed a standard octet. Option (A) is wrong because there is a genuine, well-documented tradeoff between minimizing formal charge and requiring an expanded octet — it isn't a free choice. Option (B) is wrong because the all-single-bond structure is a valid Lewis structure (correct electron count and correct total charge); it's simply less favorable by formal charge criteria, not invalid. Option (D) is wrong because formal charge is explicitly the criterion being used here to weigh one resonance structure against another, so claiming it has no bearing directly contradicts the premise of the question."
@@ -1721,10 +1721,10 @@ const QUESTIONS = {
       "topic": "2.7 VSEPR and Hybridization",
       "stem": "Which best explains why the bond angle in NH₃ (about 107°) is smaller than the bond angle in CH₄ (109.5°)?",
       "choices": [
-        "NH₃ has fewer total electron groups around it than CH₄ does.",
-        "There is no real difference; the two bond angles are identical.",
+        "NH₃ has fewer total electron groups around it than CH₄ does, which shrinks the angle.",
+        "There is no real difference; the two bond angles are identical in the two molecules.",
         "The lone pair repels bonding pairs more than a bond would, compressing the angle.",
-        "Nitrogen is simply a smaller atom than carbon is."
+        "Nitrogen is simply a smaller atom than carbon is, so its bonds sit closer together."
       ],
       "correct": 2,
       "explanation": "Both NH₃ and CH₄ have 4 total electron groups (tetrahedral electron geometry), but NH₃ has one lone pair replacing one of CH₄'s bonding pairs. Lone pairs are held closer to the central atom's nucleus and occupy more angular space, exerting greater repulsion on neighboring electron groups than a bonding pair would, compressing the observed bond angle. Option (D) is wrong because atomic size differences between N and C aren't the mechanism causing this angle change — it's about lone pair vs. bonding pair repulsion, not atomic radius. Option (A) is wrong because both molecules actually have the same total number of electron groups (4); the difference is how many of those groups are lone pairs versus bonding pairs. Option (B) is wrong because the angles are measurably, well-documented as different (107° vs. 109.5°), not identical."
@@ -2231,10 +2231,10 @@ const QUESTIONS = {
       "topic": "3.4 Ideal Gas Law",
       "stem": "Two gas samples, A and B, occupy the same volume at the same temperature and pressure. What must be true about them?",
       "choices": [
-        "They must have exactly the same total mass.",
+        "They must have exactly the same total mass, whatever the gas.",
         "They must have the same number of moles, regardless of identity.",
-        "They must have exactly the same overall density.",
-        "They must be exactly the same identical gas."
+        "They must have exactly the same overall density, whatever the gas.",
+        "They must be exactly the same identical gas, in each container."
       ],
       "correct": 1,
       "explanation": "This is Avogadro's Law, a direct consequence of PV = nRT: at the same P, V, and T, n must be identical regardless of which gas is present. Choice A (same mass) is wrong because mass = n × M, and different gases have different molar masses even with the same mole count. Choice C (same density) is wrong for the same reason—density (d = PM/RT) also depends on molar mass, which can differ between gases. Choice D (must be the same gas) isn't required at all; Avogadro's Law works for any two different gases as long as P, V, and T match."
@@ -2361,10 +2361,10 @@ const QUESTIONS = {
       "topic": "3.5 KMT",
       "stem": "Which best describes the distribution of molecular speeds within a single gas sample at a fixed temperature?",
       "choices": [
-        "Speed distribution is essentially impossible to describe or model.",
-        "All particles in the sample move at exactly identical speed.",
+        "Speed distribution is essentially impossible to describe or model, even with statistics.",
+        "All particles in the sample move at exactly identical speed at a given temperature.",
         "Particles have a range of speeds near the average (Maxwell-Boltzmann distribution).",
-        "Half the particles are stationary and half move at maximum speed."
+        "Half the particles are stationary and half move at the maximum speed at any time."
       ],
       "correct": 2,
       "explanation": "Even within a single gas sample at one fixed temperature, individual particles have a range of speeds due to random collisions constantly redistributing kinetic energy—this range is described by the Maxwell-Boltzmann distribution, with most particles clustered near the average speed but a tail extending to both higher and lower speeds. Choice D (half stationary, half at maximum speed) describes a two-state system that doesn't reflect how gas particle speeds are actually distributed. Choice B (all particles identical speed) contradicts the random, collision-driven nature of particle motion that KMT describes. Choice A is simply false—this distribution is well characterized mathematically and experimentally, not indescribable."
@@ -2635,10 +2635,10 @@ const QUESTIONS = {
       "topic": "3.8 Representations",
       "stem": "Which correctly describes what happens to molarity when a solution is diluted with additional solvent (no solute added or removed)?",
       "choices": [
-        "Molarity increases, simply since the volume increases.",
-        "Molarity becomes completely undefined after dilution.",
+        "Molarity increases, simply since the volume increases after adding solvent.",
+        "Molarity becomes completely undefined after dilution of the solution.",
         "Molarity decreases, since moles spread through a larger volume.",
-        "Molarity stays exactly the same, unaffected."
+        "Molarity stays exactly the same, unaffected by the added solvent."
       ],
       "correct": 2,
       "explanation": "Dilution adds solvent (increasing total volume) while the number of moles of solute stays fixed. Since M = mol/L, keeping the numerator constant while increasing the denominator necessarily decreases molarity—this is the entire basis of M1V1 = M2V2. Choice A has the relationship backwards: it treats increasing volume as if it increased concentration, when more solvent for the same amount of solute always dilutes, not concentrates. Choice D ignores that adding solvent changes the mol/L ratio at all. Choice B is simply false—diluted solutions still have a well-defined, calculable molarity; it's just lower than before."
@@ -2689,9 +2689,9 @@ const QUESTIONS = {
       "stem": "Paper chromatography is used to separate two dissolved dyes with different colors. What property allows this separation?",
       "choices": [
         "Different affinity for the paper vs. the solvent (mobile phase)",
-        "Different densities of the dissolved dye particles",
-        "Different particle sizes of the dyes only",
-        "Different boiling points of the two dissolved dyes"
+        "Different densities of the dissolved dye particles in the solvent",
+        "Different particle sizes of the dyes only, with no other effect",
+        "Different boiling points of the two dissolved dyes in the solvent"
       ],
       "correct": 0,
       "explanation": "In chromatography, components separate based on how strongly they interact with the stationary phase (the paper) compared to the mobile phase (the solvent moving through it); a dye more strongly attracted to the paper moves more slowly and travels a shorter distance than one more attracted to the moving solvent. Choice C (particle size only) isn't the operating principle for dissolved dyes, which are molecular and don't meaningfully differ in 'particle size' the way chromatography separation requires. Choice B (density) plays no role in how far a spot travels up chromatography paper. Choice D (boiling point) is the relevant property for distillation, not chromatography, which works on dissolved (not vaporized) components."
@@ -2714,10 +2714,10 @@ const QUESTIONS = {
       "topic": "3.9 Separation",
       "stem": "Recrystallization is used to purify a solid by exploiting which property?",
       "choices": [
-        "The solid's electrical conductivity as a solid",
+        "The solid's electrical conductivity as a solid at room temperature",
         "The solid's solubility, which shifts a lot with temperature",
-        "The solid's boiling point when it is heated",
-        "The solid's color or general visible appearance"
+        "The solid's boiling point when it is heated in an open flask",
+        "The solid's color or general visible appearance in the beaker"
       ],
       "correct": 1,
       "explanation": "Recrystallization dissolves an impure solid in hot solvent (where solubility is high), then slowly cools the solution so the desired solid selectively crystallizes back out in purer form, while impurities (present in smaller amounts) tend to remain dissolved rather than reaching their own saturation point—exploiting the temperature-dependence of solubility. Choice A (electrical conductivity) and choice D (color) aren't the properties recrystallization relies on; a solid could be purified by recrystallization regardless of whether it conducts or what color it is. Choice C (boiling point) is the property exploited by distillation, not recrystallization, which works with a solid dissolving and re-forming, not vaporizing."
@@ -2818,10 +2818,10 @@ const QUESTIONS = {
       "topic": "3.10 Solubility",
       "stem": "Which best explains why solubility depends on IMF matching between solute and solvent, as covered in section 3.7?",
       "choices": [
-        "Solubility depends only on temperature, and never on IMFs whatsoever.",
+        "Solubility depends only on temperature, and never on IMFs whatsoever, in any solvent or mixture at all.",
         "New attractions must be comparable in strength to the ones they replace, for good solubility.",
-        "Only ionic solutes have solubility considerations that are tied to IMFs at all.",
-        "Solubility and IMF matching are completely unrelated concepts entirely."
+        "Only ionic solutes have solubility considerations that are tied to IMFs at all, in water or elsewhere.",
+        "Solubility and IMF matching are completely unrelated concepts entirely, in every solvent and for every solute."
       ],
       "correct": 1,
       "explanation": "Dissolution requires breaking solute-solute and solvent-solvent attractions and replacing them with new solute-solvent attractions; the more comparable in strength these new attractions are to what's being broken, the more soluble the substance will be—this is the energetic basis behind 'like dissolves like,' and it's exactly what this choice states. Choice C is wrong because IMF matching governs solubility for molecular (covalent) solutes just as much as ionic ones—nonpolar-in-nonpolar and hydrogen-bonding-in-hydrogen-bonding cases follow the same principle, not just ion-dipole cases. Choice A ignores IMFs entirely and overstates temperature's role; while temperature does affect solubility, it isn't the only factor, and the stem specifically asks about the IMF-based explanation. Choice D directly denies the well-established connection between solubility and IMF compatibility that underlies the entire 'like dissolves like' principle."
@@ -2988,10 +2988,10 @@ const QUESTIONS = {
       "topic": "3.12 Photons",
       "stem": "Why do different elements produce different, characteristic atomic emission spectra?",
       "choices": [
-        "All elements actually produce completely identical emission spectra.",
+        "All elements actually produce completely identical emission spectra, so the lines cannot identify an element.",
         "Each element has a unique arrangement of energy levels, giving unique emitted wavelengths.",
-        "Emission spectra are randomly generated and provide no useful information.",
-        "Emission spectra depend only on temperature, not on element identity."
+        "Emission spectra are randomly generated and provide no useful information about the element that emitted them.",
+        "Emission spectra depend only on temperature, not on element identity, so all elements look alike when heated."
       ],
       "correct": 1,
       "explanation": "Each element has a unique arrangement and spacing of electron energy levels (due to its distinct number of protons and electrons), producing a unique set of possible transition energies and therefore a unique set of emitted photon wavelengths—a spectral 'fingerprint,' which is exactly what this choice states. Choice A is factually false; different elements produce visibly and measurably different emission spectra, which is exactly what makes elemental identification by spectroscopy possible. Choice D ignores that spectra are fundamentally set by an element's electronic structure, not primarily by temperature (temperature affects how strongly lines appear, not which wavelengths are possible). Choice C is false—emission spectra are highly reproducible and informative, forming the basis of a widely used identification technique, not random noise."
@@ -3213,10 +3213,10 @@ const QUESTIONS = {
       "topic": "4.1 Introduction for Reactions",
       "stem": "In a correctly balanced chemical equation, what must be conserved?",
       "choices": [
-        "The physical states of matter only",
-        "The number of moles of gas only",
+        "The physical states of matter only, on each side",
+        "The number of moles of gas only, on each side",
         "The atoms of each element and the total mass",
-        "The number of molecules on each side"
+        "The number of molecules on each side of the equation"
       ],
       "correct": 2,
       "explanation": "Balancing reflects conservation of mass at the atomic level: the number of atoms of each specific element must match on both sides, which in turn guarantees total mass is conserved. (B) is too narrow — atom counts must balance for solids and liquids too, not just gas-phase species, and 'moles of gas' isn't even the conserved quantity for those. (A) is wrong because physical state isn't a conservation requirement at all — a reactant can be a gas and a product a solid. (D) is wrong because the total number of molecules is not required to match (e.g., two reactant molecules can combine into one product molecule); it's atoms per element, not molecule count, that's fixed."
@@ -4795,10 +4795,10 @@ const QUESTIONS = {
       "topic": "5.10 Multistep Energy Profile",
       "stem": "Stretch — beyond typical AP difficulty: A multistep reaction energy diagram shows an overall exothermic reaction (products lower than reactants), but the second of three humps is the tallest AND corresponds to a step that is itself endothermic (that valley-to-peak-to-next-valley segment shows a net energy increase). Is this scenario possible?",
       "choices": [
-        "No — if the overall reaction is exothermic, every individual step must also be exothermic.",
-        "No — the rate-determining step must always be the most exothermic step.",
+        "No — if the overall reaction is exothermic, every individual step must also be exothermic, with no exceptions at all.",
+        "No — the rate-determining step must always be the most exothermic step, since it sets the pace of the whole reaction.",
         "Yes — individual steps can be endo- or exothermic independently, as long as they sum to the correct overall ΔH.",
-        "Yes, but only if the reaction has exactly two steps."
+        "Yes, but only if the reaction has exactly two steps, one releasing heat and the other absorbing it in equal amount."
       ],
       "correct": 2,
       "explanation": "The overall ΔH is simply the sum of the ΔH values of each individual elementary step. It's entirely possible (and common) for some steps to be endothermic and others exothermic, as long as they combine algebraically to the correct overall (here, exothermic) ΔH — there's no rule requiring every step to individually share the overall reaction's sign, and the rate-determining step is identified by activation energy, not by its own thermicity. Choice D wrongly restricts the principle to two-step reactions specifically — no such limitation exists; the same reasoning holds for any number of steps. Choice B invents an unfounded rule tying the RDS to being 'the most exothermic step,' when the RDS is identified purely by barrier height. Choice A states the exact misconception this question is testing against — individual step thermicity need not match the overall reaction's sign, only the algebraic sum must.",
@@ -6562,9 +6562,9 @@ const QUESTIONS = {
       "stem": "CaF₂ has Ksp = 3.9 × 10⁻¹¹. Set up (but do not necessarily solve) the correct expression for molar solubility s.",
       "choices": [
         "Ksp = s × (2s)² = 4s³ = 3.9 × 10⁻¹¹",
-        "Ksp = 2s = 3.9 × 10⁻¹¹",
-        "Ksp = (2s)² = 3.9 × 10⁻¹¹",
-        "Ksp = s² = 3.9 × 10⁻¹¹"
+        "Ksp = 2s × s = 2s² = 3.9 × 10⁻¹¹",
+        "Ksp = (2s)² = 4s² = 3.9 × 10⁻¹¹",
+        "Ksp = s × s = s² = 3.9 × 10⁻¹¹"
       ],
       "correct": 0,
       "explanation": "CaF₂ ⇌ Ca²⁺ + 2F⁻. If s = molar solubility, then [Ca²⁺]=s and [F⁻]=2s (twice as much fluoride dissolves per formula unit, matching the coefficient of 2). Ksp = [Ca²⁺][F⁻]² = (s)(2s)² = s × 4s² = 4s³. Choice D (Ksp = s²) treats CaF₂ as if it dissociated 1:1, completely ignoring that each formula unit releases two fluoride ions. Choice B (Ksp = 2s) isn't even an exponentiated expression — it drops the [Ca²⁺] term and doesn't square the fluoride concentration at all. Choice C (Ksp = (2s)²) correctly squares the fluoride term but omits the [Ca²⁺] = s factor entirely, leaving out one of the two ions in the dissolution equilibrium."
@@ -6666,9 +6666,9 @@ const QUESTIONS = {
       "stem": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at equilibrium in a container, an inert gas (e.g., Ar) is added while the total pressure is held constant, allowing the container to expand. What happens to the equilibrium position?",
       "choices": [
         "Shifts toward reactants, the side with more moles of gas, due to the effective dilution.",
-        "No shift occurs, since inert gases never affect any equilibrium.",
-        "Shifts toward NH₃, the side with fewer moles of gas, since pressure increased.",
-        "K itself changes, since adding any gas changes the equilibrium constant."
+        "No shift occurs, since inert gases never affect any equilibrium at constant volume or constant pressure.",
+        "Shifts toward NH₃, the side with fewer moles of gas, since pressure increased at constant temperature.",
+        "K itself changes, since adding any gas changes the equilibrium constant at the given temperature."
       ],
       "correct": 0,
       "explanation": "Holding total pressure constant while adding inert gas forces the container's volume to expand, which dilutes every reacting species exactly as a direct volume increase would. This favors the side with more total moles of gas — reactants (1 + 3 = 4 mol) over products (2 mol) — so the equilibrium shifts backward, toward reactants. Choice B is wrong because it ignores the constant-pressure condition here; an inert gas added at constant VOLUME indeed causes no shift (since no reacting species' concentration changes), but that is a different scenario from the constant-pressure case described in this question. Choice C applies the volume-decrease rule instead of the volume-increase rule that actually applies when the container expands. Choice D is wrong because only temperature changes K's numerical value; this disturbance only shifts the equilibrium position, leaving K unchanged."
@@ -7462,10 +7462,10 @@ const QUESTIONS = {
       "topic": "8.10 Titrations Deep Dive",
       "stem": "A titration curve for a weak acid titrated with a strong base shows a relatively flat region before the equivalence point, followed by a steep rise near equivalence. What does the flat region represent?",
       "choices": [
-        "The region where no reaction is occurring at all.",
+        "The region where no reaction is occurring at all, near the start.",
         "The buffer region (weak acid + conjugate base present).",
-        "The point where the titration is complete.",
-        "A region unrelated to buffering."
+        "The point where the titration is complete, at the equivalence point.",
+        "A region unrelated to buffering, since it lies after equivalence."
       ],
       "correct": 1,
       "explanation": "As base is added before equivalence, a mixture of remaining weak acid and newly formed conjugate base accumulates — this mixture is itself a buffer, and its resistance to pH change is what makes this region of the curve appear flat. \"The point where the titration is complete\" (choice C) is wrong — this flat region occurs mid-titration, well before the equivalence point, not at completion. \"A region unrelated to buffering\" (choice D) directly contradicts the correct mechanism. \"The region where no reaction is occurring at all\" (choice A) is false — the neutralization reaction (weak acid + OH⁻ → conjugate base + water) is actively occurring throughout; it's just that the resulting buffer mixture absorbs the pH impact."
@@ -7475,9 +7475,9 @@ const QUESTIONS = {
       "topic": "8.10 Titrations Deep Dive",
       "stem": "A titration curve shows a very steep, nearly vertical rise in pH right around the equivalence point. What does the STEEPNESS of this rise generally indicate?",
       "choices": [
-        "The titration has actually failed at this point.",
-        "The steepness has no chemical significance.",
-        "The reaction is now proceeding in reverse.",
+        "The titration has actually failed at this point, and must be redone.",
+        "The steepness has no chemical significance, and is only a graph effect.",
+        "The reaction is now proceeding in reverse, back toward reactants.",
         "A small added volume of titrant causes a large pH change."
       ],
       "correct": 3,
@@ -7999,10 +7999,10 @@ const QUESTIONS = {
       "topic": "9.6 Coupled Reactions",
       "stem": "Two reactions are coupled: Reaction A (ΔG = +20 kJ) and Reaction B (ΔG = +15 kJ). What is the overall ΔG, and is this coupling strategy successful?",
       "choices": [
-        "−5 kJ; the coupling is successful.",
-        "−35 kJ; the coupling is successful.",
+        "−5 kJ; the coupling is successful and favorable overall.",
+        "−35 kJ; the coupling is successful and favorable overall.",
         "+35 kJ; not successful, still unfavorable.",
-        "+5 kJ; the coupling is successful."
+        "+5 kJ; the coupling is successful and favorable overall."
       ],
       "correct": 2,
       "explanation": "ΔG(overall)=20+15=+35 kJ, still positive/unfavorable — coupling two unfavorable reactions just produces an even more unfavorable overall process. ‘−35 kJ; the coupling is successful’ and ‘−5 kJ; the coupling is successful’ both incorrectly compute a negative sum from two positive ΔG values, which is mathematically impossible when adding two positive numbers. ‘+5 kJ; the coupling is successful’ gets the sign right but the magnitude wrong (an arithmetic slip), and also wrongly calls a still-positive ΔG 'successful' — a positive overall ΔG always means the coupling failed to make the process favorable."
