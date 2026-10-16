@@ -2065,10 +2065,10 @@ const QUESTIONS = {
       "topic": "11.3 Resistance & Ohm's Law",
       "stem": "Which single change to a wire, by itself, would leave its resistance unchanged?",
       "choices": [
-        "Doubling the resistivity only.",
-        "Doubling both the length and the cross-sectional area simultaneously.",
-        "Halving the cross-sectional area only.",
-        "Doubling the length only."
+        "Doubling the resistivity only, with length and area unchanged.",
+        "Doubling both the length and the cross-sectional area.",
+        "Halving the cross-sectional area only, with length unchanged.",
+        "Doubling the length only, with area and resistivity unchanged."
       ],
       "correct": 1,
       "explanation": "Doubling both length and area together, since R = ρ(2ℓ)/(2A) = ρℓ/A = R — the two factors of 2 cancel. \"Doubling the length only\" changes only the numerator, doubling R on its own. \"Doubling the resistivity only\" also changes only the numerator, again doubling R. \"Halving the cross-sectional area only\" changes only the denominator, doubling R as well — each of these single changes, unlike the paired change, leaves nothing to cancel it out."
@@ -2431,10 +2431,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "In the same opposing-battery loop (12 V and 6.0 V opposing, 3.0 Ω resistor, current 2.0 A), find the power delivered by the 12 V battery and the power absorbed by the 6.0 V battery.",
       "choices": [
-        "18 W delivered; 18 W absorbed.",
+        "18 W delivered by the 12 V battery; 18 W absorbed by the 6.0 V battery.",
         "24 W delivered by the 12 V battery; 12 W absorbed by the 6.0 V battery.",
-        "6.0 W delivered; 3.0 W absorbed.",
-        "12 W delivered; 24 W absorbed."
+        "6.0 W delivered by the 12 V battery; 3.0 W absorbed by the 6.0 V battery.",
+        "12 W delivered by the 12 V battery; 24 W absorbed by the 6.0 V battery."
       ],
       "correct": 1,
       "explanation": "24 W delivered; 12 W absorbed, from P = IV applied to each battery: (2.0)(12) = 24 W delivered by the stronger battery, and (2.0)(6.0) = 12 W absorbed by the weaker one as it's charged backward. \"12 W delivered; 24 W absorbed\" swaps which battery is which, treating the weaker 6.0 V source as if it were doing the delivering. \"6.0 W delivered; 3.0 W absorbed\" comes from using half the actual current (1.0 A instead of 2.0 A) in the power calculation. \"18 W delivered; 18 W absorbed\" comes from averaging the two batteries' voltages instead of applying P = IV separately to each one."
@@ -2536,10 +2536,10 @@ const QUESTIONS = {
       "topic": "11.7 Kirchhoff's Junction Rule",
       "stem": "In a parallel circuit, is it possible for the current through one branch to be larger than the total current supplied by the battery?",
       "choices": [
-        "Yes, if the branch contains a capacitor.",
-        "No — the junction rule guarantees no single branch can exceed the total current.",
-        "Yes, if that branch has very low resistance.",
-        "It depends on whether the battery is ideal."
+        "Yes, if the branch contains a capacitor that is charging at that moment.",
+        "No — the junction rule guarantees no single branch exceeds the total current.",
+        "Yes, if that branch has very low resistance compared with the others.",
+        "It depends on whether the battery is ideal or has some internal resistance."
       ],
       "correct": 1,
       "explanation": "No: by the junction rule, the sum of all branch currents equals the total current entering the parallel section, so no single branch can exceed that total. \"Yes, if very low resistance\" mistakenly assumes a low-resistance branch could somehow draw more current than what's actually supplied, rather than just a larger share of it. \"Yes, if the branch contains a capacitor\" incorrectly imagines a capacitor could inject extra current into a branch beyond what the junction rule allows. \"Depends on whether the battery is ideal\" misidentifies the source of the constraint — the junction rule (charge conservation) holds regardless of the battery's internal resistance or idealness."
@@ -3835,9 +3835,9 @@ const QUESTIONS = {
       "topic": "13.2 Images Formed by Mirrors",
       "stem": "What is the key difference in ray-tracing between a concave and a convex mirror?",
       "choices": [
-        "Concave mirrors don't have a focal point at all.",
-        "Convex mirrors require four principal rays instead of three.",
-        "There is no meaningful difference between the two mirror types.",
+        "Concave mirrors don't have a focal point at all, only convex mirrors do.",
+        "Convex mirrors require four principal rays instead of the three used for concave mirrors.",
+        "There is no meaningful difference between the two mirror types in how they form images.",
         "Concave mirrors converge rays to real points; convex mirrors only diverge them from virtual points."
       ],
       "correct": 3,
@@ -4030,10 +4030,10 @@ const QUESTIONS = {
       "topic": "13.3 Refraction",
       "stem": "A swimming pool appears shallower than it actually is when viewed from above the water's surface. Explain this using refraction.",
       "choices": [
-        "Water absorbs some light, making the bottom appear closer.",
-        "This is simply an optical illusion, unrelated to any refraction effect.",
-        "Light from the pool bottom refracts away from the normal exiting into air, making the bottom look closer than it is.",
-        "The pool bottom is actually reflecting a virtual image of itself."
+        "Water absorbs some light, making the bottom appear closer than it really is to viewers.",
+        "This is simply an optical illusion, unrelated to any refraction effect of the water.",
+        "Light from the pool bottom refracts away from the normal exiting into air, making the bottom look closer.",
+        "The pool bottom is actually reflecting a virtual image of itself back up to the eye."
       ],
       "correct": 2,
       "explanation": "Refraction plus our brain's assumption of straight-line light travel. Light from the pool bottom refracts away from the normal as it exits water into air; since our visual system assumes light travels in perfectly straight lines, tracing the refracted ray backward (rather than its actual bent path) places the apparent source closer to the surface than the real bottom. 'Water absorbs some light, making the bottom appear closer' misattributes the effect to absorption, which dims the image but has nothing to do with its apparent depth. 'The pool bottom is reflecting a virtual image of itself' invents an unrelated reflection mechanism instead of refraction. 'This is an optical illusion unrelated to refraction' denies the very refraction effect the question is testing."
@@ -4330,9 +4330,9 @@ const QUESTIONS = {
       "topic": "13.4 Images Formed by Lenses",
       "stem": "Compare the reasoning behind the 'ray through the center' rule for a mirror (center of curvature) versus a lens (center of the lens itself). Are they the same underlying rule?",
       "choices": [
-        "Yes, both rely on the ray reflecting straight back on itself.",
+        "Yes, both rely on the ray reflecting straight back on itself along its original path.",
         "Yes, both effects rely on the lens or mirror being infinitely thin in that spot.",
-        "No — the mirror relies on perpendicular incidence at the curved surface; the lens relies on acting locally like flat glass.",
+        "No — the mirror relies on perpendicular incidence at the curved surface; the lens acts locally like flat glass.",
         "No — only the mirror has a valid 'through the center' rule; lenses have no equivalent."
       ],
       "correct": 2,
@@ -5521,10 +5521,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "For the same element, emission and absorption spectra show lines at the same wavelengths — but why might their RELATIVE intensities differ, even though the line positions match exactly?",
       "choices": [
-        "Different starting populations mean the same transitions occur with different relative frequencies, producing different intensities.",
-        "They never actually differ in intensity at all — this premise is simply false.",
-        "Absorption spectra are always uniformly dimmer than emission spectra, by some fixed factor.",
-        "Intensity differences are purely due to instrument calibration errors, not real physics."
+        "Different starting populations make the same transitions occur at different relative frequencies, giving different intensities.",
+        "They never actually differ in intensity at all — this premise is simply false for real spectra.",
+        "Absorption spectra are always uniformly dimmer than emission spectra, by some fixed factor in every case.",
+        "Intensity differences are purely due to instrument calibration errors, not real physics at the atomic level."
       ],
       "correct": 0,
       "explanation": "Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact. This distinction between line POSITION and line INTENSITY goes beyond the core wavelength-matching fact this section usually emphasizes."
@@ -5626,9 +5626,9 @@ const QUESTIONS = {
       "topic": "15.5 Photoelectric Effect",
       "stem": "The same metal (work function 3.0 eV) is now struck by light of energy 2.0 eV. Describe what happens.",
       "choices": [
-        "K<sub>max</sub> = −1.0 eV, per the standard photoelectric equation.",
-        "K<sub>max</sub> = 1.0 eV, with fewer electrons ejected than usual.",
-        "K<sub>max</sub> = 2.0 eV, exactly equal to the photon energy itself.",
+        "Kmax = −1.0 eV, per the standard photoelectric equation applied to this photon energy.",
+        "Kmax = 1.0 eV, with fewer electrons ejected than usual because of the lower photon energy.",
+        "Kmax = 2.0 eV, exactly equal to the photon energy itself, since no energy goes to the work function.",
         "No electrons are ejected at all, since photon energy is below the work function."
       ],
       "correct": 3,
@@ -6005,10 +6005,10 @@ const QUESTIONS = {
       "topic": "15.8 Types of Radioactive Decay",
       "stem": "In beta-minus decay, a neutron transforms into a proton, emitting an electron. Using conservation of charge, explain why this transformation is consistent.",
       "choices": [
-        "The electron carries no charge, so charge is trivially conserved.",
+        "The electron carries no charge, so charge is trivially conserved in the decay.",
         "Total charge before (0, neutron) equals total charge after (+1 proton, −1 electron = 0).",
-        "The neutron's charge simply disappears during the transformation.",
-        "Charge is not actually conserved at all in beta-minus decay."
+        "The neutron's charge simply disappears during the transformation into the products.",
+        "Charge is not actually conserved at all in beta-minus decay, unlike mass number."
       ],
       "correct": 1,
       "explanation": "Charge balances exactly. A neutral neutron (charge 0) becomes a proton (charge +1) plus an emitted electron (charge −1); adding the products' charges together, +1 + (−1) = 0, exactly matching the starting charge — conservation of charge holds throughout. Choice D is incorrect — beta-minus decay always obeys charge conservation exactly, as shown above. Choice C is wrong because charge cannot simply vanish; it must be accounted for in the reaction's products. Choice A is wrong because the electron's −1 charge is essential to balancing the equation — treating the electron as chargeless would make the two sides fail to match."
@@ -6070,10 +6070,10 @@ const QUESTIONS = {
       "topic": "15.8 Types of Radioactive Decay",
       "stem": "Which conservation laws must be satisfied in every type of nuclear decay (alpha, beta-minus, beta-plus, and gamma)?",
       "choices": [
-        "No conservation laws apply to nuclear decay; it is fundamentally random.",
-        "Only conservation of mass number, with nothing else required.",
-        "Only conservation of charge, with mass number free to vary.",
-        "Conservation of mass number, atomic number (charge), energy, and momentum — all four, universally."
+        "No conservation laws apply to nuclear decay; it is fundamentally random in every respect.",
+        "Only conservation of mass number, with nothing else required of the decay products.",
+        "Only conservation of charge, with mass number free to vary from one decay to the next.",
+        "Conservation of mass number, atomic number (charge), energy, and momentum — all four."
       ],
       "correct": 3,
       "explanation": "All four, in every case. Mass number (total nucleons) and atomic number (total charge) must balance on both sides of every nuclear equation, exactly like balancing a chemical equation — and energy and momentum, the same fundamental conservation laws from mechanics, apply universally to nuclear decay processes as well, governing the kinetic energies and directions of the emitted particles. \"Only mass number\" and \"only charge\" each ignore that the other three quantities must also balance in every decay. \"No conservation laws apply, it is fundamentally random\" confuses randomness in WHEN a given nucleus decays with the conservation laws governing WHAT is produced when it does — those laws are strictly enforced in every single decay event."

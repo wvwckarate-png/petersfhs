@@ -1040,7 +1040,7 @@ const QUESTIONS = {
         "Smooth ER, which handles lipid synthesis",
         "The nucleus, where the DNA and transcription machinery reside",
         "The lysosome, which handles intracellular digestion",
-        "The mitochondrion, which handles aerobic respiration, which houses the enzymes of the electron transport chain"
+        "The mitochondrion, which handles aerobic respiration and houses the enzymes of the electron transport chain"
       ],
       "correct": 1,
       "explanation": "Transcription happens in the nucleus because that's where the DNA and the transcription enzymes are housed. Smooth ER (choice A), lysosomes (choice C), and mitochondria (choice D) are each correctly described for their own jobs, but none of them contains the cell's DNA or performs transcription."
@@ -1155,10 +1155,10 @@ const QUESTIONS = {
       "topic": "2.2 Cell Size and SA:V",
       "stem": "Why can't a single cell simply keep growing larger indefinitely to meet an organism's increasing size needs?",
       "choices": [
-        "As a cell grows, its SA:V ratio decreases, eventually making the surface area too small relative to volume to support adequate exchange of nutrients, gases, and waste",
-        "DNA physically cannot exist inside a cell past a certain size",
-        "Larger cells inevitably become toxic to the organism, overwhelming the organism's tissues and causing organ failure",
-        "Cells are physically incapable of growing at all once formed"
+        "As a cell grows, its SA:V ratio falls until surface area is too small to support adequate exchange of nutrients, gases, and waste",
+        "DNA physically cannot exist inside a cell once it grows past a certain critical size",
+        "Larger cells inevitably become toxic to the organism, damaging the surrounding tissues and organs",
+        "Cells are physically incapable of growing at all once they have formed in the body"
       ],
       "correct": 0,
       "explanation": "Past a certain size, a cell's membrane surface area becomes too small relative to its internal volume to keep pace with metabolic exchange demands — the central reason organisms grow by adding cell number (division), not by growing single cells indefinitely. Choice D is factually false (cells do grow, just with limits), choice C invents an unrelated toxicity claim, and choice B wrongly ties the limit to DNA rather than to surface-area-to-volume exchange capacity."
@@ -1339,9 +1339,9 @@ const QUESTIONS = {
       "stem": "Which molecules can typically cross the plasma membrane directly through the lipid bilayer without requiring a transport protein?",
       "choices": [
         "Large proteins, regardless of their overall molecular size or shape",
-        "Sodium and potassium ions",
+        "Sodium and potassium ions, because their charge is attracted to the bilayer",
         "Small nonpolar molecules like O2 and CO2, and to a lesser extent small polar molecules like water",
-        "Glucose and amino acids"
+        "Glucose and amino acids, because they are small enough to slip between phospholipids"
       ],
       "correct": 2,
       "explanation": "Small nonpolar molecules like O2 and CO2 diffuse directly through the hydrophobic bilayer interior easily, and small polar water molecules can cross directly too, though more slowly. Choice B's ions are charged and repelled by the hydrophobic interior, choice A's large proteins are far too big to pass through the bilayer, and choice D's glucose and amino acids are polar and sized such that all three require specific transport proteins rather than crossing directly."
@@ -1391,10 +1391,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A membrane protein is found to have a stretch of amino acids with predominantly nonpolar R-groups embedded within the bilayer, flanked by stretches with predominantly polar/charged R-groups on either side facing the aqueous cytoplasm and extracellular fluid. Which conclusion about this protein's structure is best supported?",
       "choices": [
-        "Consistent with a transmembrane protein: the nonpolar segment spans the hydrophobic bilayer interior while the polar/charged segments interact favorably with the aqueous environments on either side",
-        "Possible only in prokaryotic cell membranes, not eukaryotic ones",
-        "Indicates the protein sits entirely outside the membrane",
-        "Indicates the protein has no functional role within the membrane, since a protein with no defined R-group pattern cannot fold correctly"
+        "Consistent with a transmembrane protein: the nonpolar segment spans the hydrophobic interior, polar segments face the aqueous sides",
+        "Possible only in prokaryotic cell membranes, and never found in eukaryotic cell membranes",
+        "Indicates the protein sits entirely outside the membrane, in the extracellular fluid",
+        "Indicates the protein has no functional role within the membrane and is simply a structural scaffold"
       ],
       "correct": 0,
       "explanation": "Nonpolar R-groups are energetically favorable within the hydrophobic bilayer interior, while polar/charged R-groups are favorable in the watery environments on either side — this nonpolar-flanked-by-polar pattern is exactly how biologists identify likely transmembrane regions from sequence data. Choice D draws an unsupported conclusion about function from structure alone, choice B has no chemical basis (bilayer chemistry doesn't differ between domains of life in this respect), and choice C contradicts the described pattern, which specifically places part of the protein within the membrane."
@@ -1417,10 +1417,10 @@ const QUESTIONS = {
       "topic": "2.3 The Plasma Membrane",
       "stem": "Which statement accurately compares the permeability of the plasma membrane to charged ions (like Na⁺) versus small nonpolar gases (like O2)?",
       "choices": [
-        "Charged ions generally cannot cross the hydrophobic bilayer interior directly and need transport proteins, while small nonpolar gases can diffuse directly through the bilayer",
-        "Charged ions cross the lipid bilayer directly more easily than nonpolar gases",
-        "Neither ions nor gases can ever cross the plasma membrane under any circumstances, regardless of their size, charge, or polarity",
-        "Both cross the membrane with identical ease"
+        "Charged ions need transport proteins to cross the hydrophobic bilayer, while small nonpolar gases can diffuse directly through it",
+        "Charged ions cross the lipid bilayer directly more easily than small nonpolar gases do",
+        "Neither ions nor gases can cross the plasma membrane under any circumstances, whatever their size or charge",
+        "Both ions and gases cross the membrane with identical ease, since the bilayer does not discriminate"
       ],
       "correct": 0,
       "explanation": "Charged ions are strongly repelled by the hydrophobic bilayer interior and need channel or carrier proteins to cross, while small nonpolar gases like O2 dissolve into and diffuse through the hydrophobic interior with relative ease. Choice C is contradicted by both known routes of crossing, choice D ignores the sharp permeability difference between charged and nonpolar species, and choice B states the comparison exactly backwards."
@@ -1430,10 +1430,10 @@ const QUESTIONS = {
       "topic": "2.3 The Plasma Membrane",
       "stem": "A drug is designed to bind to a receptor protein on a cell's exterior surface. Which type of membrane protein is this drug most likely targeting?",
       "choices": [
-        "A structural phospholipid making up the bilayer itself",
+        "A structural phospholipid making up the bilayer itself rather than a protein",
         "An integral membrane protein with a receptor function, exposed on the extracellular surface",
-        "Cholesterol, embedded in the bilayer's hydrophobic interior",
-        "A protein located exclusively in the nuclear membrane"
+        "Cholesterol, embedded in the bilayer's hydrophobic interior to adjust fluidity",
+        "A protein located exclusively in the nuclear membrane, facing the nucleoplasm"
       ],
       "correct": 1,
       "explanation": "Receptor proteins that bind external signaling molecules like many drugs are typically integral membrane proteins with a portion exposed on the extracellular surface, letting them detect molecules approaching from outside. Choice A's phospholipids and choice C's cholesterol are structural lipid components, not receptor proteins, and choice D points to the wrong membrane entirely — the nuclear envelope, not the plasma membrane, where the drug in this scenario is acting."
@@ -1443,7 +1443,7 @@ const QUESTIONS = {
       "topic": "2.3 The Plasma Membrane",
       "stem": "Which of the following would most directly disrupt the overall structural integrity of a phospholipid bilayer?",
       "choices": [
-        "Introducing a solvent that disrupts the hydrophobic interactions between the fatty acid tails",
+        "Introducing a solvent that disrupts the hydrophobic interactions between fatty acid tails",
         "Adding cholesterol in normal physiological amounts to the membrane",
         "Removing all glycoproteins from the outer surface of the membrane",
         "Slightly raising the glucose concentration outside the cell"
@@ -1456,10 +1456,10 @@ const QUESTIONS = {
       "topic": "2.4 Passive Transport",
       "stem": "Which statement accurately defines passive transport?",
       "choices": [
-        "Movement that always requires vesicle formation",
+        "Movement of a substance that always requires the formation of a vesicle from the membrane",
         "Movement of a substance against its concentration gradient, requiring ATP",
         "Movement of a substance across a membrane down its concentration gradient, requiring no cellular energy input",
-        "Movement that occurs only through active pumping proteins"
+        "Movement of a substance that occurs only through active pumping proteins in the membrane"
       ],
       "correct": 2,
       "explanation": "Passive transport is defined by movement down the concentration gradient (high to low) with no cellular energy input, covering simple diffusion, facilitated diffusion, and osmosis. Choice B describes active pumps, which use the opposite mechanism (movement against the gradient, powered by ATP), choice A wrongly makes vesicle formation a requirement when most passive transport involves no vesicles at all, and choice D describes active transport, the defining opposite of the passive process being asked about."
@@ -2634,10 +2634,10 @@ const QUESTIONS = {
       "topic": "3.4 Cellular Respiration",
       "stem": "Approximately how many total stages make up the full process of aerobic cellular respiration, from glucose to the electron transport chain?",
       "choices": [
-        "Six separate and distinct stages",
-        "Two — just glycolysis and the Krebs cycle",
-        "Four stages: glycolysis, pyruvate oxidation, Krebs cycle, ETC",
-        "One single, undivided continuous process"
+        "Six separate and distinct stages, each occurring in a different organelle",
+        "Two stages — just glycolysis and the Krebs cycle, with nothing else",
+        "Four stages: glycolysis, pyruvate oxidation, Krebs cycle, and the ETC",
+        "One single, undivided continuous process with no distinct stages"
       ],
       "correct": 2,
       "explanation": "Correct: aerobic cellular respiration is organized into four sequential stages — glycolysis (cytoplasm), pyruvate oxidation (mitochondrial matrix), the Krebs cycle (mitochondrial matrix), and the electron transport chain paired with chemiosmosis (inner mitochondrial membrane) — each stage feeding products forward into the next. (B) is wrong because it omits both pyruvate oxidation and the electron transport chain, two distinct stages with their own locations and functions. (D) is wrong because respiration is clearly organized into separable stages, each occurring in a different cellular location and producing distinct intermediate products, rather than proceeding as one undifferentiated process. (A) is wrong because it overcounts the number of stages — the standard four-stage breakdown doesn't split further into six separate stages."
@@ -2688,9 +2688,9 @@ const QUESTIONS = {
       "stem": "Stretch — beyond typical AP difficulty: A plant is exposed to a herbicide that specifically blocks electron flow at a particular point within the light-dependent reactions' electron transport chain, preventing electrons from reaching NADP+. Predict the effect on both O2 production and Calvin cycle activity, and explain whether these two effects would occur on the same or different timescales.",
       "choices": [
         "O2 release might briefly continue since water-splitting is early, while NADPH output drops almost immediately",
-        "Neither process has any connection to electron transport chain function",
-        "O2 production would increase while Calvin cycle activity stayed exactly the same",
-        "Both effects would stop instantly and at exactly the same moment"
+        "Neither process has any connection to electron transport chain function in the thylakoid membrane",
+        "O2 production would increase while Calvin cycle activity stayed exactly the same as before",
+        "Both effects would stop instantly and at exactly the same moment in the chloroplast"
       ],
       "correct": 0,
       "explanation": "Correct: water-splitting (which releases O2) occurs near the START of the electron transport chain, replacing electrons chlorophyll loses, while NADPH formation happens at the END of the chain, when electrons finally reach NADP+ — if the block occurs partway through, water-splitting and O2 release could plausibly continue briefly using residual capacity in the early chain, even as electrons downstream can no longer reach NADP+, so NADPH production (and the Calvin cycle, which depends on it) would be disrupted almost immediately, while O2 production might lag slightly before also declining as the system backs up. (D) is wrong because it ignores the different positions of water-splitting (early in the chain) and NADPH formation (at the chain's end) relative to where the block occurs — these two effects aren't necessarily simultaneous. (C) is wrong because blocking downstream electron flow provides no mechanism for INCREASING O2 production, and Calvin cycle activity would be disrupted (via lost NADPH supply), not left unchanged. (B) is wrong because both processes are directly tied to specific points within the same electron transport chain — water-splitting near its start and NADPH formation at its end — making them very much connected to ETC function."
@@ -3002,10 +3002,10 @@ const QUESTIONS = {
       "topic": "4.4 Cell Cycle Regulation and Checkpoints",
       "stem": "Cyclins and cyclin-dependent kinases (CDKs) are central to cell cycle regulation. Which best describes their general functional relationship?",
       "choices": [
-        "Cyclins bind and activate CDKs, and specific cyclin-CDK combinations reaching required activity drive progression through specific checkpoints",
-        "Cyclins and CDKs are simply two different names referring to the exact same molecule",
-        "Cyclins and CDKs function completely independently, with no interaction between them",
-        "CDKs regulate cyclin levels"
+        "Cyclins bind and activate CDKs, and specific cyclin-CDK pairs reaching required activity drive progression past checkpoints",
+        "Cyclins and CDKs are simply two different names for the exact same molecule in the cell",
+        "Cyclins and CDKs function completely independently of each other, with no interaction between them",
+        "CDKs regulate cyclin levels, while cyclins play no role in the checkpoints at all, ever"
       ],
       "correct": 0,
       "explanation": "Cyclins must bind CDKs to activate them, and it's specific cyclin-CDK pairings reaching sufficient levels that push the cell past particular checkpoints, making choice A correct. Choice C is wrong because cyclins and CDKs work together, not independently — CDKs are inactive without their cyclin partner. Choice D is wrong because it reverses the relationship: cyclins activate CDKs, not the other way around. Choice B is wrong because they are distinct molecule types — a regulatory protein and an enzyme — not synonyms."
@@ -3028,10 +3028,10 @@ const QUESTIONS = {
       "topic": "4.4 Cell Cycle Regulation and Checkpoints",
       "stem": "Which best explains why cell cycle checkpoints are considered essential for preventing serious cellular dysfunction?",
       "choices": [
-        "Checkpoints exist only to slow cell division down, with no other functional benefit",
-        "Checkpoints are relevant only in prokaryotic cells, not in eukaryotic ones",
+        "Checkpoints exist only to slow cell division down, with no other functional benefit to the cell",
+        "Checkpoints are relevant only in prokaryotic cells and play no part in eukaryotic cells",
         "Checkpoints have no real functional importance and exist only as an evolutionary accident",
-        "Checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation and abnormal chromosome numbers"
+        "Checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation"
       ],
       "correct": 3,
       "explanation": "Checkpoints act as quality control, stopping cells with damage or incomplete processes from dividing and thereby limiting mutation spread and abnormal chromosome counts, making choice D correct. Choice C is wrong because checkpoints have a clear, essential protective function, not an incidental one. Choice A is wrong because slowing division is a side effect, not the actual functional purpose, which is quality control. Choice B is wrong because checkpoints are a defining feature of eukaryotic cell cycle regulation, not a prokaryotic one — prokaryotes lack this checkpoint system."
@@ -3185,10 +3185,10 @@ const QUESTIONS = {
       "topic": "4.4 Cell Cycle Regulation and Checkpoints",
       "stem": "Which best summarizes the overall function of the cell cycle's checkpoint system as a whole?",
       "choices": [
-        "Checkpoints serve no meaningful regulatory function within the cell cycle",
+        "Checkpoints serve no meaningful regulatory function within the cell cycle at any stage",
         "To ensure the cell divides as quickly as possible, regardless of underlying conditions",
-        "To evaluate internal and external conditions at key points, halting the cycle if problems are detected, protecting daughter cell integrity",
-        "To eliminate the cell's normal need for DNA replication before division"
+        "To evaluate internal and external conditions at key points, halting the cycle if problems are detected",
+        "To remove the cell's normal need for DNA replication before it divides"
       ],
       "correct": 2,
       "explanation": "The checkpoint system's overall job is evaluating conditions and pausing the cycle when problems arise, protecting the resulting daughter cells, making choice C correct. Choice B is wrong because checkpoints exist to ensure correctness, sometimes slowing division, not to maximize speed regardless of conditions. Choice D is wrong because DNA replication remains a required step that checkpoints monitor, not eliminate. Choice A is wrong because checkpoints are a well-established, essential regulatory system, not a functionless one."
@@ -3198,10 +3198,10 @@ const QUESTIONS = {
       "topic": "4.5 Cancer and Cell Cycle Dysregulation",
       "stem": "Which statement accurately reflects the relationship between proto-oncogenes, tumor suppressor genes, and normal healthy cells?",
       "choices": [
-        "Proto-oncogenes and tumor suppressor genes are found only in cancer cells, not healthy ones",
-        "Both proto-oncogenes and tumor suppressor genes are present and functioning normally in healthy cells, performing important regulatory roles",
-        "Only proto-oncogenes are present in genuinely healthy, non-cancerous cells",
-        "Only tumor suppressor genes are present in genuinely healthy, non-cancerous cells"
+        "Proto-oncogenes and tumor suppressor genes are found only in cancer cells, never in healthy cells",
+        "Both proto-oncogenes and tumor suppressor genes are present and functioning normally in healthy cells",
+        "Only proto-oncogenes are present in genuinely healthy, non-cancerous cells of the body",
+        "Only tumor suppressor genes are present in genuinely healthy, non-cancerous cells of the body"
       ],
       "correct": 1,
       "explanation": "Both gene categories are normal, functioning parts of healthy cells with important regulatory roles, making choice B correct. Choice A is wrong because these genes are present in every normal cell, not exclusively in cancer cells — it's their mutation, not their presence, that matters for cancer. Choice C is wrong because proto-oncogenes are equally present and functioning in healthy cells. Choice D is wrong because tumor suppressor genes are likewise present and functioning in healthy cells."
@@ -3263,10 +3263,10 @@ const QUESTIONS = {
       "topic": "4.5 Cancer and Cell Cycle Dysregulation",
       "stem": "Which best describes apoptosis and its relevance to cell cycle regulation?",
       "choices": [
-        "A process that is functionally identical to mitosis in every respect",
-        "A process that occurs only within cancer cells, never in healthy tissue",
+        "A process that is functionally identical to mitosis in every respect, including its outcome",
+        "A process that occurs only within cancer cells and never in healthy tissue",
         "An uncontrolled, accidental form of cell death that is unrelated to cell cycle regulation",
-        "A programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair, safeguarding against propagating that damage"
+        "A programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair"
       ],
       "correct": 3,
       "explanation": "Apoptosis is a controlled, programmed process triggered as a safeguard against severe, unrepairable DNA damage, making choice D correct. Choice C is wrong because apoptosis is tightly regulated and intentional, not accidental or uncontrolled. Choice B is wrong because apoptosis is a normal process occurring throughout healthy tissue, not confined to cancer cells. Choice A is wrong because apoptosis eliminates a cell entirely, while mitosis produces two new living daughter cells — they are fundamentally different processes."
@@ -3344,7 +3344,7 @@ const QUESTIONS = {
         "There is no meaningful biological difference between paracrine and endocrine signaling at all",
         "Endocrine signals only ever affect the specific cell that originally released them",
         "Paracrine signals travel only short distances without entering the bloodstream, while endocrine signals are carried through it",
-        "Paracrine signals are simply weaker chemical versions of endocrine signals"
+        "Paracrine signals are simply weaker chemical versions of endocrine signals in the same pathway"
       ],
       "correct": 2,
       "explanation": "The core difference is the delivery route: paracrine signals diffuse locally without entering the bloodstream, while endocrine signals are released into the bloodstream for long-range travel, making choice C correct. Choice D is wrong because the distinction is about delivery distance, not signal strength or potency. Choice A is wrong because these two signaling types are meaningfully distinct in range and mechanism. Choice B is wrong because affecting only the releasing cell describes autocrine signaling, not endocrine."
@@ -3393,10 +3393,10 @@ const QUESTIONS = {
       "topic": "4.5 Cancer and Cell Cycle Dysregulation",
       "stem": "Which of the following mutation combinations would be most strongly associated with cancer development, based on the two-hit concept discussed in this unit?",
       "choices": [
-        "A single, isolated gain-of-function mutation in a proto-oncogene, with all other regulatory genes fully functional",
+        "A single, isolated gain-of-function mutation in a proto-oncogene, with all regulatory genes still functional",
         "The complete absence of any mutations within the cell lineage in question",
-        "A gain-of-function mutation in a proto-oncogene combined with a loss-of-function mutation disabling a relevant tumor suppressor gene, within the same lineage",
-        "Two separate loss-of-function mutations occurring in two completely unrelated, non-regulatory genes"
+        "A gain-of-function mutation in a proto-oncogene together with a loss-of-function mutation in a relevant tumor suppressor gene",
+        "Two separate loss-of-function mutations in two unrelated, non-regulatory genes"
       ],
       "correct": 2,
       "explanation": "The two-hit concept centers on combining an abnormal drive to divide with a disabled safeguard within the same cell lineage, making choice C correct. Choice A is wrong because a single isolated mutation, with other safeguards intact, is generally insufficient to drive cancer on its own. Choice D is wrong because mutations in unrelated, non-regulatory genes don't provide the combination of division drive and lost safeguard that cancer typically requires. Choice B is wrong because the complete absence of mutations would not be associated with cancer development at all."
@@ -3406,9 +3406,9 @@ const QUESTIONS = {
       "topic": "4.1 Cell Signaling Basics",
       "stem": "Which of the following best distinguishes a membrane-bound receptor's mechanism of action from an intracellular receptor's mechanism?",
       "choices": [
-        "Intracellular receptors always produce a faster cellular response than membrane-bound receptors do",
-        "Membrane-bound receptors are found exclusively in prokaryotic cells, never in eukaryotic cells",
-        "A membrane-bound receptor signals from the surface without the ligand entering; an intracellular receptor binds a ligand that has entered the cell",
+        "Intracellular receptors always produce a faster response than membrane-bound receptors do",
+        "Membrane-bound receptors are found only in prokaryotic cells and never in eukaryotic cells",
+        "A membrane-bound receptor signals from the surface; an intracellular receptor binds a ligand that has entered the cell",
         "There is no meaningful mechanistic difference between these two types of receptors"
       ],
       "correct": 2,
@@ -3432,7 +3432,7 @@ const QUESTIONS = {
       "topic": "4.3 The Cell Cycle",
       "stem": "Which best describes the relationship between interphase and mitosis in terms of relative duration for a typical actively dividing cell?",
       "choices": [
-        "Interphase (G1, S, and G2 combined) typically takes up the vast majority of total cell cycle time, with mitosis comparatively brief",
+        "Interphase (G1, S, and G2 combined) takes up the vast majority of total cell cycle time, with mitosis comparatively brief",
         "There is no consistent relationship between interphase and mitosis durations across cell types",
         "Interphase and mitosis are always precisely equal to one another in duration",
         "Mitosis typically takes up the vast majority of the total cell cycle's overall duration"
@@ -4402,7 +4402,7 @@ const QUESTIONS = {
       "stem": "Stretch — beyond typical AP difficulty: Turner syndrome in humans results from monosomy of a sex chromosome, producing an individual with only a single X chromosome (genotype XO) rather than the typical XX or XY. Explain why this particular monosomy is compatible with survival, unlike most autosomal monosomies, which are typically not.",
       "choices": [
         "Autosomal monosomy is, in general, always just as completely survivable as this sex-chromosome monosomy",
-        "Turner syndrome individuals are not actually missing any genetic material at all, despite carrying only a single X chromosome",
+        "Turner syndrome individuals are not actually missing any genetic material at all, despite carrying a single X chromosome",
         "X-inactivation already silences one X in typical XX cells, so losing the second X is a smaller dosage loss than losing an autosome",
         "Sex chromosomes contain no genes that are relevant to survival or development"
       ],
@@ -4586,10 +4586,10 @@ const QUESTIONS = {
       "topic": "6.2 Transcription",
       "stem": "Which of the following occurs during the elongation stage of transcription?",
       "choices": [
-        "RNA polymerase binding the promoter region of the gene",
-        "Removal of introns from the newly made transcript",
+        "RNA polymerase binding the promoter region at the start of the gene",
+        "Removal of introns from the newly made pre-mRNA transcript",
         "RNA polymerase moving along the template, synthesizing complementary mRNA",
-        "Release of the completed transcript from the template"
+        "Release of the completed transcript from the DNA template"
       ],
       "correct": 2,
       "explanation": "During elongation, RNA polymerase actively travels along the template strand, extending the growing mRNA. Promoter binding (A) is the initiation step that precedes elongation. Transcript release (D) is termination, the step that follows elongation. Intron removal (B) is RNA processing that happens after the transcript is made, not during the act of synthesizing it."
@@ -4677,8 +4677,8 @@ const QUESTIONS = {
       "topic": "6.3 Translation",
       "stem": "Which of the following best explains why the near-universality of the genetic code across nearly all known organisms is considered strong evidence for a shared evolutionary origin of life?",
       "choices": [
-        "It shows only that the genetic code keeps changing constantly over time",
-        "Independent origins give no reason to expect the same arbitrary codon assignments to appear identically in unrelated lineages",
+        "It shows only that the genetic code keeps changing constantly over evolutionary time",
+        "Independent origins give no reason to expect the same arbitrary codon assignments to appear in unrelated lineages",
         "It carries no evolutionary significance and is just a biochemical coincidence",
         "It proves every organism sharing this code has an identical genome sequence"
       ],
@@ -5277,10 +5277,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A researcher discovers a small RNA molecule (a microRNA) that binds to a complementary sequence within a specific mRNA molecule's untranslated region, marking that mRNA for degradation before it can be translated. Explain how this represents a distinct regulatory mechanism from the DNA methylation and transcription factor mechanisms discussed elsewhere in this unit, in terms of WHERE in the gene expression process it acts.",
       "choices": [
-        "This mechanism bears no relationship to gene expression regulation whatsoever",
-        "This mechanism affects only DNA replication, and not gene expression at all",
+        "This mechanism bears no relationship to gene expression regulation of any kind",
+        "This mechanism affects only DNA replication and does not affect gene expression at all",
         "This mechanism acts post-transcriptionally, controlling mRNA stability after transcription but before translation",
-        "This mechanism acts at exactly the same stage as DNA methylation does"
+        "This mechanism acts at exactly the same stage of expression as DNA methylation does"
       ],
       "correct": 2,
       "explanation": "Because this microRNA acts on already-produced mRNA, marking it for degradation before translation, it represents post-transcriptional regulation — mechanistically and temporally distinct from DNA methylation (acting earlier, at the chromatin level before transcription even begins) and transcription factors (acting during transcription initiation itself). Choice D incorrectly places it at the same stage as methylation, when it actually acts much later in the pathway, on mRNA rather than on chromatin. Choice A dismisses a clearly defined regulatory role. Choice B misplaces the mechanism into DNA replication, an unrelated process that this microRNA doesn't act on at all."
@@ -5396,10 +5396,10 @@ const QUESTIONS = {
       "topic": "7.2 Mechanisms of Natural Selection",
       "stem": "Which of the following is required for natural selection to occur within a population?",
       "choices": [
-        "The population must be completely isolated geographically",
-        "All individuals must be genetically identical",
+        "The population must be completely isolated geographically from all other populations",
+        "All individuals in the population must be genetically identical to one another",
         "Heritable variation must exist, and that variation must affect survival or reproductive success",
-        "Mutation must never occur"
+        "Mutation must never occur in the population during the period of selection"
       ],
       "correct": 2,
       "explanation": "Natural selection requires heritable variation that affects differential survival or reproduction (fitness), with advantageous variants passed on more often. Option B is backwards: genetic identity would remove the variation selection needs to act on. Option A confuses speciation mechanisms (like allopatric speciation) with the requirements for selection itself. Option D is wrong because mutation is a primary source of the heritable variation that fuels selection, not something that must be absent."
@@ -5449,10 +5449,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A trait's phenotype is influenced by both genetics and environment (a common scenario for many real traits). Explain why natural selection acting on this phenotype would be expected to be LESS effective at shifting allele frequencies compared to a phenotype determined entirely by genetics.",
       "choices": [
-        "Since some phenotypic variation is environmental rather than genetic, selecting for phenotype doesn't perfectly correlate with selecting for particular alleles",
-        "Environmental influence has no effect on selection's efficiency, which contradicts the premise that environmentally influenced phenotypes don't perfectly track genotype",
-        "Environmental influence always makes selection more effective, not less",
-        "Genetics and environment cannot both influence the same trait"
+        "Since some phenotypic variation is environmental, selecting for phenotype doesn't perfectly correlate with selecting for particular alleles",
+        "Environmental influence has no effect on selection's efficiency, since phenotypes always track genotypes",
+        "Environmental influence always makes selection more effective, not less, because it adds useful variation",
+        "Genetics and environment cannot both influence the same trait, so one must always be absent"
       ],
       "correct": 0,
       "explanation": "When environment substantially contributes to phenotype, an individual's observed trait doesn't perfectly reflect its underlying genotype — some individuals with favorable phenotypes (due to environment) may not carry favorable alleles, and vice versa. Since selection can only 'see' and act on phenotype directly, some selection pressure is effectively wasted on non-heritable, environmentally caused variation, diluting how efficiently allele frequencies shift compared to a scenario where phenotype and genotype align perfectly. This is closely related to the real concept of heritability in evolutionary biology, and it's why options B and C — which claim environmental influence has no effect or actually helps — get the direction backwards, and why option D's premise (that a trait can't be shaped by both) is simply false."
@@ -5593,10 +5593,10 @@ const QUESTIONS = {
       "topic": "7.4 Speciation",
       "stem": "Which of the following describes a prezygotic reproductive barrier?",
       "choices": [
-        "Two species that breed at different times of year, preventing mating from occurring at all",
-        "Reduced survival of hybrid offspring after birth",
+        "Two species that breed at different times of year, so mating never occurs",
+        "Reduced survival of hybrid offspring after they are born",
         "A hybrid embryo that fails to develop properly after fertilization",
-        "A hybrid offspring that is produced but is sterile"
+        "A hybrid offspring that is produced but is sterile as an adult"
       ],
       "correct": 0,
       "explanation": "A prezygotic barrier prevents mating or fertilization from occurring in the first place — temporal isolation (breeding at different times) is a classic example. Options B, C, and D all describe events that happen AFTER fertilization has already taken place (a produced-but-sterile hybrid, a failed embryo, and reduced offspring survival), making each of them postzygotic rather than prezygotic barriers."
@@ -5645,10 +5645,10 @@ const QUESTIONS = {
       "topic": "7.4 Speciation",
       "stem": "Which best distinguishes allopatric from sympatric speciation?",
       "choices": [
-        "Allopatric speciation only occurs in plants",
-        "Allopatric speciation requires geographic separation; sympatric speciation occurs without geographic separation",
-        "There is no meaningful difference between the two",
-        "Sympatric speciation always occurs faster than allopatric speciation"
+        "Allopatric speciation occurs only in plants, while sympatric speciation occurs only in animals",
+        "Allopatric speciation requires geographic separation; sympatric speciation occurs without it",
+        "There is no meaningful difference between the two types of speciation",
+        "Sympatric speciation always occurs faster than allopatric speciation does"
       ],
       "correct": 1,
       "explanation": "The core distinguishing feature is the presence or absence of geographic separation: allopatric speciation requires a physical geographic barrier preventing gene flow, while sympatric speciation occurs without such separation, through mechanisms like polyploidy, strong disruptive selection, or behavioral/temporal isolation within a shared area. Option D mistakenly treats speed as the defining difference. Option A reverses which type of speciation is especially associated with plants (that's sympatric speciation via polyploidy). Option C denies that any meaningful difference exists, which the geographic-separation criterion directly contradicts."
@@ -5671,10 +5671,10 @@ const QUESTIONS = {
       "topic": "7.5 Phylogeny",
       "stem": "On a phylogenetic tree, what does a branch point (node) represent?",
       "choices": [
-        "A random point with no biological meaning",
-        "The exact current population size of a species",
+        "A random point on the diagram with no biological meaning for the species",
+        "The exact current population size of a species shown at the tips",
         "A common ancestor shared by all lineages branching off from that point",
-        "The extinction of a species"
+        "The extinction of a species at the end of one lineage"
       ],
       "correct": 2,
       "explanation": "Each node (branch point) on a phylogenetic tree represents a common ancestor shared by all the descendant lineages branching off from that specific point — the fundamental unit of information a phylogenetic tree conveys. Option B confuses a node with a population-size statistic, which trees don't depict. Option A wrongly treats node placement as arbitrary, when it's determined by actual evolutionary evidence. Option D confuses a divergence event (branching into new lineages) with an extinction event (a lineage ending)."
@@ -5724,7 +5724,7 @@ const QUESTIONS = {
       "stem": "A student examines a phylogenetic tree and concludes that two species drawn adjacent to each other, side by side, must be very closely related. Evaluate this conclusion.",
       "choices": [
         "Phylogenetic trees cannot be used to draw any conclusions about relatedness",
-        "The conclusion is well-supported, since visual adjacency always indicates close relatedness — though branches can actually be rotated around any node without changing the tree's meaning, making adjacency alone uninformative",
+        "The conclusion is well-supported, since visual adjacency on the tree always indicates close relatedness",
         "The conclusion is correct only for plant species",
         "The conclusion is not necessarily well-supported; visual left-right adjacency on a tree diagram does not by itself indicate relatedness"
       ],
@@ -5752,7 +5752,7 @@ const QUESTIONS = {
         "An organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation, relative to other individuals in the population",
         "An organism's lifespan alone, regardless of reproduction",
         "An organism's physical strength or speed alone, which may influence fitness indirectly but isn't itself how fitness is defined",
-        "An organism's size compared to other members of its species, which alone doesn't determine fitness unless it actually translates into greater reproductive success"
+        "An organism's size compared to other members of its species in the population"
       ],
       "correct": 0,
       "explanation": "In evolutionary biology, 'fitness' specifically refers to an organism's relative reproductive success — how many viable, fertile offspring it contributes to the next generation compared to other individuals — not simply physical traits like strength, speed, or size, or even lifespan considered in isolation from reproductive outcome. Options B, C, and D each describe a trait that might correlate with fitness in some cases, but none of them define fitness itself, which is fundamentally about reproductive contribution to the next generation."
@@ -5788,10 +5788,10 @@ const QUESTIONS = {
       "topic": "7.5 Phylogeny",
       "stem": "Which of the following would provide the strongest evidence that two species are closely related, based on the principles discussed in this unit?",
       "choices": [
-        "Both species happen to be similar in overall body size, which can converge independently and is a weak, potentially misleading indicator",
-        "Both species were discovered in the same calendar year",
-        "Both species live on the same continent",
-        "Both species have very similar DNA sequences for multiple genes, and share a recent common ancestor on a phylogenetic tree constructed from that data"
+        "Both species happen to be similar in overall body size and general appearance to human observers",
+        "Both species were discovered in the same calendar year by the same group of researchers",
+        "Both species live on the same continent and in the same general kind of habitat",
+        "Both species have very similar DNA sequences for multiple genes and share a recent common ancestor on a phylogenetic tree"
       ],
       "correct": 3,
       "explanation": "High DNA sequence similarity across multiple genes, combined with a recent shared common ancestor on a properly constructed phylogenetic tree, together represent strong, converging molecular and analytical evidence of close relatedness — much stronger than superficial factors like shared geography (C), similar body size (A), or coincidental discovery timing (B), none of which directly indicate evolutionary relatedness."
@@ -5801,10 +5801,10 @@ const QUESTIONS = {
       "topic": "7.1 Evidence for Evolution",
       "stem": "Which of the following would be the best example of a 'transitional form' documented in the fossil record?",
       "choices": [
-        "A fossil showing no relationship to any other known species",
-        "A fossil showing a combination of characteristics intermediate between an ancestral group and a more derived (modern) group, such as fossils showing features intermediate between fish and early tetrapods",
-        "A fossil of a modern human, who isn't a transitional form between an older and newer group but a currently living endpoint",
-        "A fossil that is chemically identical to a living organism today"
+        "A fossil showing no relationship to any other known species, either living or extinct, in any lineage",
+        "A fossil showing characteristics intermediate between an ancestral group and a more derived group, such as fish and early tetrapods",
+        "A fossil of a modern human, which shows the features of living people and nothing intermediate",
+        "A fossil that is chemically identical to a living organism of today, down to its molecules"
       ],
       "correct": 1,
       "explanation": "Transitional fossils show a combination of characteristics intermediate between an ancestral group and a more derived group, documenting gradual evolutionary change — fossils showing features intermediate between fish and early tetrapods (four-limbed land vertebrates) are a well-known example. Option C misidentifies a modern endpoint species as transitional. Option A gets the concept backwards, since showing relationships to both groups is exactly what makes a fossil transitional. Option D substitutes an irrelevant criterion (chemical identity) for the actual defining feature (intermediate anatomy)."
@@ -5816,8 +5816,8 @@ const QUESTIONS = {
       "choices": [
         "A population where only average-sized individuals survive to reproduce, favoring the intermediate phenotype",
         "A population where the largest individuals consistently outcompete all others, favoring one extreme only",
-        "A population showing no variation in beak size at all, leaving nothing for any form of selection, disruptive included, to act on",
-        "A population of birds where both very small-beaked and very large-beaked individuals have a feeding advantage over intermediate-beaked individuals, due to two distinct available food sources"
+        "A population showing no variation in beak size at all, leaving nothing for selection to act on",
+        "Birds where both very small-beaked and very large-beaked individuals feed better than intermediate ones, due to two food sources"
       ],
       "correct": 3,
       "explanation": "Disruptive selection is specifically characterized by BOTH extreme phenotypes being favored over the intermediate — a population where two distinct food sources favor both very small and very large beaks (each specialized for a different food source), while intermediate beaks are disadvantaged at both, is a textbook disruptive selection scenario. Option A instead favors the intermediate (stabilizing selection). Option B favors only one extreme (directional selection). Option C describes a population with no variation, meaning no selection pattern could act at all."
@@ -5827,10 +5827,10 @@ const QUESTIONS = {
       "topic": "7.3 Population Genetics",
       "stem": "Which of the following would violate the 'random mating' condition required for Hardy-Weinberg equilibrium?",
       "choices": [
-        "The complete absence of mutation, which satisfies the separate 'no mutation' condition, unrelated to how mates are chosen",
-        "Individuals mating completely randomly with respect to the trait in question",
-        "Individuals preferentially choosing mates with a similar phenotype for a particular trait (assortative mating)",
-        "A very large population size, which satisfies a different HW condition — avoiding genetic drift — and has no bearing on random mating"
+        "The complete absence of mutation in the population over many generations of breeding",
+        "Individuals mating completely randomly with respect to the trait in question in every generation",
+        "Individuals preferentially choosing mates with a similar phenotype for a trait (assortative mating)",
+        "A very large population size that avoids the effects of genetic drift over many generations"
       ],
       "correct": 2,
       "explanation": "Assortative mating — individuals preferentially choosing mates based on similarity for a particular trait, rather than mating completely at random with respect to that trait — directly violates the random mating condition, and can shift genotype frequencies away from Hardy-Weinberg predictions, even without changing overall allele frequencies. Option B actually describes the condition being met, not violated. Options A and D each describe a different, unrelated HW condition (population size and mutation, respectively) being satisfied."
@@ -5866,9 +5866,9 @@ const QUESTIONS = {
       "topic": "7.1 Evidence for Evolution",
       "stem": "Which best explains why the nearly universal genetic code (covered in Unit 6) is also considered evidence for evolution?",
       "choices": [
-        "It only applies to organisms that were discovered after the year 2000",
-        "It has no relationship to any evidence for evolution",
-        "It proves that evolution does not occur in nature",
+        "It only applies to organisms that were discovered after the year 2000 by modern researchers",
+        "It has no relationship to any evidence for evolution in living organisms",
+        "It proves that evolution does not occur in nature at any scale",
         "Nearly all organisms share the same arbitrary codon assignments, suggesting the code arose once in a common ancestor"
       ],
       "correct": 3,
@@ -5880,7 +5880,7 @@ const QUESTIONS = {
       "stem": "Sexual selection, a specific form of natural selection related to mate choice, can sometimes favor traits that appear to reduce an individual's direct survival (such as elaborate, conspicuous plumage that could attract predators). Which best explains why such traits can still be favored by selection overall?",
       "choices": [
         "Sexual selection only operates in plants and not in animals",
-        "Sexual selection has no relationship to natural selection at all",
+        "Sexual selection has no relationship to natural selection at all, and acts independently of fitness",
         "If increased mating success outweighs the survival cost, the trait can still increase overall fitness",
         "Traits that reduce survival can never be favored under any circumstances"
       ],
@@ -5906,8 +5906,8 @@ const QUESTIONS = {
       "stem": "Which of the following would most directly support the conclusion that speciation between two previously connected populations is now complete (not just in progress)?",
       "choices": [
         "When brought back into contact, the populations cannot mate successfully or produce viable, fertile offspring",
-        "The two populations currently have identical geographic ranges and overlap fully",
-        "The two populations remain in the same geographic location as they always were",
+        "The two populations currently have identical geographic ranges and overlap fully with one another",
+        "The two populations remain in the same geographic location as they have always been",
         "The two populations show no genetic differences whatsoever between them"
       ],
       "correct": 0,
@@ -5931,10 +5931,10 @@ const QUESTIONS = {
       "topic": "7.2 Mechanisms of Natural Selection",
       "stem": "Which of the following best distinguishes artificial selection from natural selection?",
       "choices": [
-        "Artificial selection and natural selection are identical processes with no meaningful differences",
-        "Artificial selection involves humans deliberately choosing which individuals reproduce based on desired traits, while natural selection results from differential survival/reproduction driven by the natural environment, without deliberate human choice",
-        "Artificial selection cannot produce any observable changes in a population",
-        "Natural selection only occurs in artificial (laboratory) settings, which reverses the terms: natural selection occurs in nature, while artificial selection is the human-directed process"
+        "Artificial selection and natural selection are identical processes with no meaningful differences between them",
+        "Artificial selection involves humans deliberately choosing which individuals reproduce, while natural selection reflects differential survival in the natural environment",
+        "Artificial selection cannot produce any observable changes in a population over many generations",
+        "Natural selection is the process in which humans choose which individuals reproduce, while artificial selection occurs only in the wild"
       ],
       "correct": 1,
       "explanation": "Artificial selection involves humans deliberately selecting which individuals reproduce based on desired traits (as in selective breeding of crops or livestock), while natural selection is an unguided process resulting from differential survival and reproduction driven by the natural environment — both share the same fundamental mechanism (differential reproductive success), but differ in what's driving the selection pressure. Option A denies any meaningful difference despite the clear distinction in what drives each process. Option D reverses the terms entirely. Option C contradicts well-documented results of artificial selection, like modern crop varieties and dog breeds."
@@ -5958,8 +5958,8 @@ const QUESTIONS = {
       "stem": "Which of the following would be considered a form of gene flow, and how would it relate to the process of allopatric speciation?",
       "choices": [
         "Individuals migrating between separated populations and interbreeding, which could counteract divergence",
-        "Natural selection favoring a particular phenotype within one population",
-        "A mutation occurring spontaneously within a single population over time",
+        "Natural selection favoring a particular phenotype within one population over many generations",
+        "A mutation occurring spontaneously within a single population over a long period of time",
         "Genetic drift within an isolated population over many generations"
       ],
       "correct": 0,
@@ -6009,10 +6009,10 @@ const QUESTIONS = {
       "topic": "7.3 Population Genetics",
       "stem": "Which of the following scenarios would most directly represent a violation of the 'no gene flow' condition required for Hardy-Weinberg equilibrium?",
       "choices": [
-        "A population mating entirely randomly, which satisfies the separate random-mating condition, unrelated to migration between populations",
-        "New individuals regularly migrating into a population and successfully interbreeding, introducing new alleles or shifting existing allele frequencies",
-        "A population experiencing no mutation, which satisfies a separate condition — the absence of mutation — unrelated to migration",
-        "A population that is completely isolated with no immigration or emigration"
+        "A population mating entirely randomly with respect to the trait in question over many generations",
+        "New individuals regularly migrating into a population and interbreeding, shifting existing allele frequencies",
+        "A population experiencing no new mutations over many generations of breeding in its habitat",
+        "A population that is completely isolated with no immigration or emigration over its history"
       ],
       "correct": 1,
       "explanation": "Gene flow specifically refers to the movement of alleles between populations, typically via migration and interbreeding — new individuals regularly migrating into a population and interbreeding would directly violate the 'no gene flow' condition, potentially introducing new alleles or shifting allele frequencies away from Hardy-Weinberg predictions. Option D describes the condition being satisfied, not violated. Options A and C each describe a different HW condition (mutation, random mating) being met, unrelated to migration."
@@ -6087,9 +6087,9 @@ const QUESTIONS = {
       "topic": "7.4 Speciation",
       "stem": "Which of the following would be the best description of the overall relationship between reproductive isolation and the biological species concept?",
       "choices": [
-        "Reproductive isolation is only relevant to plant species and not to animals",
-        "All organisms belong to the same species regardless of their ability to interbreed",
-        "The biological species concept has no relationship to reproductive isolation between groups",
+        "Reproductive isolation is only relevant to plant species and has no bearing on animals at all",
+        "All organisms belong to the same species regardless of their ability to interbreed with one another",
+        "The biological species concept has no relationship to reproductive isolation between groups of organisms",
         "A species is a group that can interbreed and produce viable, fertile offspring, so reproductive isolation is the key criterion"
       ],
       "correct": 3,
@@ -6100,10 +6100,10 @@ const QUESTIONS = {
       "topic": "7.5 Phylogeny",
       "stem": "Which of the following would be an appropriate use of a phylogenetic tree in a public health context?",
       "choices": [
-        "Determining an individual patient's personal medical history",
-        "Phylogenetic trees have no practical applications outside of basic biology classrooms",
-        "Tracking the evolutionary relationships among different viral strains during an outbreak to understand transmission patterns and identify the likely source of infection",
-        "Predicting weather patterns, which relies on meteorological data entirely unrelated to evolutionary relationships"
+        "Determining an individual patient's personal medical history from a single blood sample",
+        "Phylogenetic trees have no practical applications outside of basic biology classrooms and textbooks",
+        "Tracking the evolutionary relationships among viral strains during an outbreak to understand transmission and identify the likely source",
+        "Predicting weather patterns, which relies on meteorological data and not on evolutionary relationships"
       ],
       "correct": 2,
       "explanation": "Phylogenetic analysis is genuinely and widely used in public health and epidemiology — tracking evolutionary relationships among viral or bacterial strains during an outbreak (based on genetic sequence data) can reveal transmission patterns, help identify the likely source of an outbreak, and inform public health responses. Option B wrongly dismisses this real-world application. Options A and D each substitute an unrelated data type (personal medical records, weather data) that a phylogenetic tree doesn't provide."
@@ -6114,9 +6114,9 @@ const QUESTIONS = {
       "stem": "Which of the following best explains why finding a shared, unusual genetic sequence error (a specific type of mutation with no functional purpose) in the exact same location in the genomes of two different species would be considered particularly strong evidence of shared ancestry?",
       "choices": [
         "All genetic errors are identical across all species regardless of how closely related they are",
-        "This evidence would suggest that the two species are not related at all",
-        "A specific, non-functional error shared at the same location is unlikely to arise independently, so inheritance from a common ancestor is more probable",
-        "This type of evidence has no bearing on evolutionary relationships between species"
+        "This evidence would suggest that the two species are not related at all to each other in any way",
+        "A specific, non-functional error shared at the same location is unlikely to arise independently, so common ancestry is likely",
+        "This type of evidence has no bearing on evolutionary relationships between the species at all"
       ],
       "correct": 2,
       "explanation": "A specific, non-functional genetic sequence error found in the exact same location in two different species is highly unlikely to have arisen independently, by pure chance, in both lineages separately — inheritance of that shared error from a common ancestor (who originally acquired the mutation, then passed it to both descendant lineages) is a far more probable and parsimonious explanation, making this a particularly powerful form of molecular evidence. Option D dismisses evidence that's actually significant. Option A wrongly claims all errors are identical everywhere, when it's the specific sharing that matters. Option B draws the opposite conclusion from the one the evidence supports."
@@ -6127,9 +6127,9 @@ const QUESTIONS = {
       "stem": "Which of the following would be the most accurate way to describe the outcome of natural selection over many generations, in terms of a population's overall adaptation to its environment?",
       "choices": [
         "Natural selection has no effect on how well adapted a population is to its environment over time",
-        "Selection increases helpful traits under current conditions, but adaptation is limited by available variation and is never perfect or permanent",
-        "Natural selection only operates for a single generation and then stops permanently",
-        "Natural selection produces organisms perfectly adapted to every aspect of their environment"
+        "Selection increases helpful traits under current conditions, but adaptation is limited by available variation and is never perfect",
+        "Natural selection only operates for a single generation and then stops permanently afterward, ending adaptation",
+        "Natural selection produces organisms perfectly adapted to every aspect of their environment, leaving no flaws"
       ],
       "correct": 1,
       "explanation": "While natural selection does tend to increase the frequency of traits that improve reproductive success under current conditions, this process is constrained by the genetic variation actually available in a population, doesn't produce theoretically 'perfect' adaptation, and doesn't guarantee permanent adaptation if environmental conditions change in the future — it's an ongoing, environment-dependent process, not a one-time optimization toward a fixed ideal. Option D overstates selection's power toward perfection. Option A wrongly denies selection has any adaptive effect. Option C wrongly limits selection to a single generation, when it operates continuously as long as its requirements are met."
@@ -6139,8 +6139,8 @@ const QUESTIONS = {
       "topic": "7.3 Population Genetics",
       "stem": "Which of the following best describes why Hardy-Weinberg equilibrium, despite rarely being perfectly met by any real population, remains a genuinely useful concept in evolutionary biology?",
       "choices": [
-        "It can only be applied to organisms grown under laboratory conditions",
-        "It proves that evolution never actually occurs in nature",
+        "It can only be applied to organisms grown under controlled laboratory conditions",
+        "It proves that evolution never actually occurs in nature, since populations stay in equilibrium",
         "It serves as a null-hypothesis baseline against which real genotype frequencies can be compared to detect evolutionary forces",
         "It has no practical use since no real population perfectly meets its conditions"
       ],
@@ -6153,10 +6153,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A researcher studies a ring species — a chain of neighboring populations distributed around a geographic barrier (such as a mountain range or large body of water), where each neighboring population can successfully interbreed with its immediate neighbors, but the two populations at the far ends of the ring (where the ring finally closes and they come into contact) cannot successfully interbreed with each other. Explain why this scenario poses an interesting challenge for applying the biological species concept.",
       "choices": [
-        "Ring species occur in only a single species and have no broader conceptual implications",
+        "Ring species occur in only a single species and have no broader conceptual implications at all",
         "This scenario does not actually pose any challenge to the biological species concept",
         "Because the species concept is binary, a ring species is ambiguous: neighbors interbreed, yet the end populations cannot",
-        "Ring species prove that speciation never actually occurs in nature"
+        "Ring species prove that speciation never actually occurs in nature at any scale"
       ],
       "correct": 2,
       "explanation": "This is a genuinely sophisticated extension that illustrates a real limitation of the biological species concept as typically taught: ring species demonstrate that reproductive compatibility isn't necessarily a simple, transitive property (if A can breed with B, and B can breed with C, that doesn't guarantee A can breed with C) across a continuously connected chain of populations. This creates real difficulty applying a strict same-species/different-species binary to the ring as a whole, since the answer depends entirely on which specific pairs of populations you happen to compare — illustrating that speciation is often a gradual, continuous process without perfectly sharp boundaries, rather than the clean binary the simplified species concept suggests. Option B denies this well-documented challenge. Option D draws the wrong conclusion (that speciation never occurs) from a scenario that actually illustrates speciation-in-progress. Option A wrongly minimizes the conceptual implications to a single isolated case."
@@ -6259,10 +6259,10 @@ const QUESTIONS = {
       "topic": "8.2 Community Ecology",
       "stem": "A barnacle attaches to a whale's skin, gaining a place to live and access to nutrient-rich water as the whale swims, without providing any noticeable benefit or harm to the whale itself. This interaction is classified as:",
       "choices": [
-        "Predation, with the whale consumed as prey",
+        "Predation, with the whale consumed as prey by the barnacle that attaches to it",
         "Commensalism, since the barnacle benefits with no noticeable effect on the whale",
-        "Parasitism, harming the whale while benefiting the barnacle",
-        "Mutualism, benefiting both the barnacle and the whale"
+        "Parasitism, harming the whale while benefiting the barnacle that feeds from it",
+        "Mutualism, benefiting both the barnacle and the whale that carries it"
       ],
       "correct": 1,
       "explanation": "Commensalism describes a (+/0) interaction: the barnacle benefits from a place to live and nutrient-rich water, while the whale experiences no significant benefit or harm. Choice D wrongly assumes the whale also benefits, but no such benefit is described. Choice C wrongly assumes the whale is harmed, but the scenario explicitly states no noticeable harm occurs. Choice A misapplies predation, which requires one organism being consumed as food; the barnacle merely attaches, it doesn't eat the whale."
@@ -6272,9 +6272,9 @@ const QUESTIONS = {
       "topic": "8.2 Community Ecology",
       "stem": "Two species of birds in the same habitat both rely heavily on the same limited insect food source, and the presence of each species reduces the food available to the other. This interaction is classified as:",
       "choices": [
-        "Commensalism, benefiting one species with no effect on the other",
-        "Mutualism, benefiting both bird species",
-        "Predation, with one bird species consuming the other",
+        "Commensalism, benefiting one species with no effect on the other species at all",
+        "Mutualism, benefiting both bird species through their shared use of the resource",
+        "Predation, with one bird species hunting and consuming the other species",
         "Competition, since both species are negatively affected by the shared, limited resource"
       ],
       "correct": 3,
@@ -6286,9 +6286,9 @@ const QUESTIONS = {
       "stem": "Which best distinguishes predation from parasitism?",
       "choices": [
         "Predation and parasitism are identical interactions that simply use different names",
-        "Predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host without immediately killing it",
-        "Parasitism always causes immediate death",
-        "Predation occurs only between plant species, unlike parasitism"
+        "Predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host",
+        "Parasitism always causes immediate death of the host organism",
+        "Predation occurs only between plant species, unlike parasitism, which occurs between animals"
       ],
       "correct": 1,
       "explanation": "The key distinction is timescale and outcome: predation generally kills prey relatively quickly in a single direct interaction, while parasitism typically involves an extended relationship with a living host, often without killing it immediately or at all. Choice A ignores this real distinction between the two interaction types. Choice C reverses the actual pattern — parasites typically avoid quickly killing their host, since that would end their food source, while predators typically do cause prompt death. Choice D wrongly restricts predation to plants, when it occurs across animal, plant, and other kingdoms."
@@ -6299,9 +6299,9 @@ const QUESTIONS = {
       "stem": "A keystone species is best defined as:",
       "choices": [
         "A species whose ecological impact is disproportionately large relative to its own abundance",
-        "The most numerous species present in an ecosystem",
-        "A species found only in aquatic ecosystems, never on land",
-        "A species with no ecological interactions with any other species"
+        "The most numerous species present in an ecosystem at a given time",
+        "A species found only in aquatic ecosystems and never on land",
+        "A species with no ecological interactions with any other species in its community"
       ],
       "correct": 0,
       "explanation": "A keystone species has a disproportionately large ecological impact relative to its numerical abundance; removing it can trigger dramatic, cascading community-wide changes even though the species itself may not be especially numerous. Choice B describes the opposite pattern — abundance, not disproportionate impact, which is a different (and often unrelated) property. Choice C wrongly restricts the concept to one habitat type, when keystone species occur in terrestrial, freshwater, and marine ecosystems alike. Choice D contradicts the very definition, since a keystone species' impact comes precisely from its ecological interactions with others."
@@ -6311,9 +6311,9 @@ const QUESTIONS = {
       "topic": "8.2 Community Ecology",
       "stem": "Removing a keystone predator from an ecosystem often results in which chain of events?",
       "choices": [
-        "All other species in the ecosystem remain completely unaffected",
-        "No noticeable change occurs anywhere in the ecosystem",
-        "Prey increases unchecked, raising pressure on what it consumes and potentially rippling through multiple trophic levels",
+        "All other species in the ecosystem remain completely unaffected by the change",
+        "No noticeable change occurs anywhere in the ecosystem after the predator is removed",
+        "Prey increases unchecked, raising pressure on what it consumes and rippling through multiple trophic levels",
         "The predator's prey population immediately goes extinct as a direct result"
       ],
       "correct": 2,
@@ -6402,7 +6402,7 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Which best describes a fundamental difference between how energy and matter move through an ecosystem?",
       "choices": [
-        "Energy flows one-way and is ultimately lost as heat; matter is continuously recycled between organisms and the environment",
+        "Energy flows one way and is lost as heat; matter is continuously recycled between organisms and the environment",
         "Both energy and matter flow in one direction and are ultimately lost from the ecosystem",
         "Both energy and matter are continuously recycled with no loss whatsoever",
         "There is no meaningful difference in how energy and matter move through ecosystems"
@@ -6441,10 +6441,10 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Why is nitrogen often a limiting nutrient for plant growth, despite making up roughly 78% of Earth's atmosphere?",
       "choices": [
-        "N2 is chemically unusable by plants directly, and requires nitrogen-fixing bacteria to convert it first",
+        "N2 is chemically unusable by plants directly and requires nitrogen-fixing bacteria to convert it first",
         "Plants can absorb atmospheric N2 directly with no bacterial assistance",
-        "Nitrogen is actually extremely rare in Earth's atmosphere",
-        "Plants have no biological use for nitrogen at all"
+        "Nitrogen is actually extremely rare in Earth's atmosphere, making it scarce for plants",
+        "Plants have no biological use for nitrogen at all, since it is not part of any molecule"
       ],
       "correct": 0,
       "explanation": "Despite N2's atmospheric abundance, its stable triple bond makes it directly unusable by plants, which depend on nitrogen-fixing bacteria to convert it into usable forms first; since this conversion can be a bottleneck, nitrogen often limits plant growth. Choice D is factually wrong — plants require nitrogen for proteins, nucleic acids, and other essential molecules. Choice C contradicts nitrogen's well-established ~78% share of the atmosphere. Choice B ignores the chemical barrier (the triple bond) that specifically prevents plants from using N2 without bacterial help."
@@ -6454,9 +6454,9 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Human combustion of fossil fuels primarily affects which biogeochemical cycle, and how?",
       "choices": [
-        "Fossil fuel combustion has no relationship to any biogeochemical cycle",
-        "The water cycle, by directly creating new water molecules",
-        "The nitrogen cycle, by fixing atmospheric nitrogen into usable forms",
+        "Fossil fuel combustion has no relationship to any biogeochemical cycle in the atmosphere",
+        "The water cycle, by directly creating new water molecules in the atmosphere",
+        "The nitrogen cycle, by fixing atmospheric nitrogen into usable forms for plants",
         "The carbon cycle, by releasing ancient, buried carbon back into the atmosphere faster than natural cycling would"
       ],
       "correct": 3,
@@ -6467,10 +6467,10 @@ const QUESTIONS = {
       "topic": "8.5 Biodiversity and Stability",
       "stem": "Which best explains why higher biodiversity generally increases an ecosystem's resilience to disturbance?",
       "choices": [
-        "Higher biodiversity always makes ecosystems measurably less stable",
-        "Higher biodiversity only matters within aquatic ecosystems, not on land",
+        "Higher biodiversity always makes ecosystems measurably less stable over time",
+        "Higher biodiversity only matters within aquatic ecosystems and not on land",
         "Higher biodiversity has no meaningful relationship to ecosystem resilience",
-        "Functional redundancy from overlapping species roles lets others maintain function if one species declines"
+        "Functional redundancy from overlapping species roles lets others maintain function if one declines"
       ],
       "correct": 3,
       "explanation": "Functional redundancy — multiple species performing overlapping ecological roles — means that if one species declines, others can often maintain overall ecosystem function, making high-biodiversity ecosystems generally more resilient than low-diversity ones, where losing a species with a unique role could leave that function unfilled. Choice C denies this well-documented relationship. Choice A states the reverse of the actual pattern. Choice B wrongly restricts a relationship that applies broadly across terrestrial and aquatic ecosystems alike."
@@ -6585,10 +6585,10 @@ const QUESTIONS = {
       "topic": "8.2 Community Ecology",
       "stem": "Which of the following would be the most direct evidence that a particular species functions as a keystone species in its ecosystem?",
       "choices": [
-        "Removing the species triggers disproportionately large, cascading community changes despite its modest abundance",
-        "The species is found in multiple different ecosystems around the world",
-        "The species has no interactions with any other species in the ecosystem",
-        "The species is the most numerous organism present in the ecosystem"
+        "Removing the species triggers disproportionately large, cascading changes despite its modest abundance",
+        "The species is found in multiple different ecosystems around the world and is widespread",
+        "The species has no interactions with any other species in the ecosystem it lives in",
+        "The species is the most numerous organism present in the ecosystem by a wide margin"
       ],
       "correct": 0,
       "explanation": "The defining evidence for keystone species status is the disproportionate impact of removal relative to the species' own abundance — observing that removal triggers large, cascading community changes despite modest numbers is the clearest experimental signature of a true keystone species. Choice D describes numerical abundance, which is unrelated to (and often opposite from) keystone status. Choice C contradicts the concept entirely, since keystone impact depends on ecological interactions with other species. Choice B describes geographic range, which says nothing about a species' ecological impact within any one ecosystem."
@@ -6624,10 +6624,10 @@ const QUESTIONS = {
       "topic": "8.5 Biodiversity and Stability",
       "stem": "Which of the following would be the most scientifically sound approach for evaluating the specific ecological impact of introducing a particular invasive species to a new ecosystem?",
       "choices": [
-        "Relying entirely on anecdotal reports with no systematic data collection",
-        "Only examining the invasive species' own population size, with no other data",
-        "Assuming impact without collecting any supporting data",
-        "Comparing measurable ecosystem characteristics before and after introduction, ideally with an uninvaded control ecosystem"
+        "Relying entirely on anecdotal reports from residents with no systematic data collection at all",
+        "Only examining the invasive species' own population size over time, with no other data",
+        "Assuming impact without collecting any supporting data from the ecosystem before or after",
+        "Comparing measurable ecosystem characteristics before and after introduction, ideally with an uninvaded control"
       ],
       "correct": 3,
       "explanation": "A scientifically sound evaluation requires systematic before/after comparison of relevant ecosystem characteristics (native populations, resource availability, community structure), ideally alongside a comparable control ecosystem lacking the invasive species, enabling reliable conclusions about actual ecological impact. Choice A and choice C both skip the data collection needed to draw any reliable conclusion, relying on assumption or anecdote instead. Choice B narrows the investigation to only the invasive species itself, missing the native-species and ecosystem-level data actually needed to assess its impact on others."
@@ -6663,10 +6663,10 @@ const QUESTIONS = {
       "topic": "8.3 Energy Flow",
       "stem": "Which best explains why herbivore biomass is generally much smaller than producer (plant) biomass within a given ecosystem?",
       "choices": [
-        "There is no meaningful relationship between trophic level and biomass",
-        "Herbivores reproduce much more slowly than plants in all cases",
+        "There is no meaningful relationship between trophic level and biomass in any ecosystem",
+        "Herbivores reproduce much more slowly than plants in all cases, which limits their biomass",
         "Only about 10% of energy transfers from the producer to the herbivore level, supporting much less biomass there",
-        "Herbivores are always physically larger than plants in general"
+        "Herbivores are always physically larger than the plants that they eat"
       ],
       "correct": 2,
       "explanation": "Since only about 10% of the energy available at the producer level typically transfers to and supports the primary consumer (herbivore) level, correspondingly much less biomass can be sustainably supported at the herbivore level than at the much larger producer-level energy pool. Choice D describes body size, an unrelated property that doesn't determine total biomass across a population. Choice B describes reproductive rate, which isn't the mechanism driving the biomass difference here. Choice A denies the well-documented energy-biomass relationship the 10% rule explains."
@@ -6676,10 +6676,10 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Which of the following best describes denitrification, a key process within the nitrogen cycle?",
       "choices": [
-        "The conversion of atmospheric N2 into usable forms like ammonia",
-        "A process with no relationship to the nitrogen cycle whatsoever",
-        "The complete, permanent removal of all nitrogen from an ecosystem",
-        "The conversion of nitrogen compounds like nitrate back into atmospheric N2 gas, by specific bacteria"
+        "The conversion of atmospheric N2 into usable forms like ammonia by specific bacteria",
+        "A process with no relationship to the nitrogen cycle whatsoever, occurring only in rocks",
+        "The complete, permanent removal of all nitrogen from an ecosystem by decomposers",
+        "The conversion of nitrogen compounds like nitrate back into atmospheric N2 gas by specific bacteria"
       ],
       "correct": 3,
       "explanation": "Denitrification, performed by specific bacteria, converts nitrogen compounds (like nitrate) back into atmospheric N2 gas, completing the nitrogen cycle by returning fixed nitrogen to its original atmospheric form, balancing the fixation process. Choice A describes nitrogen fixation, the reverse process that converts N2 into usable forms rather than back into gas. Choice C overstates denitrification's effect; it converts nitrogen back to a gaseous form rather than eliminating it from the ecosystem permanently. Choice B denies denitrification's well-established, central role in the nitrogen cycle."
@@ -6689,10 +6689,10 @@ const QUESTIONS = {
       "topic": "8.5 Biodiversity and Stability",
       "stem": "Which of the following best describes how climate change contributes to biodiversity loss, according to well-documented ecological mechanisms?",
       "choices": [
-        "Climate change always increases biodiversity uniformly across all ecosystems",
-        "Climate change has no meaningful relationship to biodiversity",
-        "Climate change alters temperature and precipitation faster than many species can adapt to, disrupting habitats and interactions",
-        "Climate change affects only a single species worldwide"
+        "Climate change always increases biodiversity uniformly across all ecosystems on every continent",
+        "Climate change has no meaningful relationship to biodiversity in any ecosystem on Earth",
+        "Climate change alters temperature and precipitation faster than many species can adapt, disrupting habitats",
+        "Climate change affects only a single species worldwide and no others"
       ],
       "correct": 2,
       "explanation": "Climate change alters environmental conditions at a pace that often exceeds many species' ability to adapt or migrate, disrupting habitats, resource availability, and species interactions (like timing mismatches between co-evolved species such as a pollinator and its plant) — a well-documented contributor to biodiversity loss. Choice B denies a well-established, significant ecological relationship. Choice D wrongly limits an effect that impacts species broadly across ecosystems worldwide. Choice A claims the opposite of the documented trend, which is generally biodiversity loss, not uniform gain."
@@ -6716,8 +6716,8 @@ const QUESTIONS = {
       "stem": "Which of the following would be the best example of interspecific competition (competition between two different species) rather than intraspecific competition (competition within the same species)?",
       "choices": [
         "A deer population competing with an elk population for the same grazing area and food",
-        "Two species engaged in a mutualistic relationship",
-        "A single organism competing with itself over resources",
+        "Two species engaged in a mutualistic relationship, each benefiting from the other",
+        "A single organism competing with itself over resources within its own body",
         "Two individual robins competing for the same nesting territory"
       ],
       "correct": 0,
@@ -6741,10 +6741,10 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Which of the following best explains why biogeochemical cycles are essential for the long-term sustainability of life on Earth?",
       "choices": [
-        "Biogeochemical cycles have no meaningful relationship to life's sustainability",
-        "Since Earth's supply of essential elements is essentially fixed, they must be recycled to remain available for ongoing biological use",
-        "Biogeochemical cycles only matter for a single generation of organisms",
-        "New atoms of carbon and nitrogen are constantly created to replace used ones"
+        "Biogeochemical cycles have no meaningful relationship to the long-term sustainability of life",
+        "Since Earth's supply of essential elements is essentially fixed, they must be recycled for ongoing biological use",
+        "Biogeochemical cycles only matter for a single generation of organisms before they stop",
+        "New atoms of carbon and nitrogen are constantly created to replace the ones that organisms use"
       ],
       "correct": 1,
       "explanation": "Because Earth's total supply of elements like carbon and nitrogen is essentially fixed, these elements must be continuously recycled between organisms and the abiotic environment to remain available across countless generations; without this recycling, essential elements would eventually become locked away and unavailable. Choice A denies this well-established ecological necessity. Choice D incorrectly claims new atoms are created, when recycling — not creation — is what actually maintains element availability. Choice C wrongly limits the cycles' importance to one generation, when their function is precisely long-term sustainability across many generations."
@@ -6767,9 +6767,9 @@ const QUESTIONS = {
       "topic": "8.1 Population Ecology",
       "stem": "Which of the following scenarios would be the best real-world example of a population initially exhibiting exponential-like growth?",
       "choices": [
-        "A population experiencing severe, ongoing resource limitation",
+        "A population experiencing severe, ongoing resource limitation across many generations",
         "A population that has been stable at its carrying capacity for many generations",
-        "A small invasive population newly introduced to an environment with abundant resources and no established predators",
+        "A small invasive population newly introduced to an environment with abundant resources and no predators",
         "A population with an extremely high death rate and very low birth rate"
       ],
       "correct": 2,
@@ -6780,10 +6780,10 @@ const QUESTIONS = {
       "topic": "8.2 Community Ecology",
       "stem": "Which of the following would be the most direct way to experimentally test whether a suspected species is truly a keystone species in a given ecosystem?",
       "choices": [
-        "Removing the species (or comparing similar areas with/without it) and measuring changes in community structure",
-        "Simply counting the total number of individuals of that species present",
-        "Assuming keystone status without any supporting evidence or data",
-        "Measuring only the physical size of individuals of the species"
+        "Removing the species (or comparing similar areas with and without it) and measuring community changes",
+        "Simply counting the total number of individuals of that species present in the area",
+        "Assuming keystone status without collecting any supporting evidence or data",
+        "Measuring only the physical size of individuals of the species in the area"
       ],
       "correct": 0,
       "explanation": "The most direct experimental test involves removing the species (or comparing similar areas with and without it naturally present) and measuring the resulting changes in community structure and function — disproportionately large changes relative to abundance support keystone classification, exactly how species like sea otters in kelp forests have been scientifically confirmed. Choice B measures abundance, which is unrelated to (and often opposite from) keystone status. Choice D measures body size, a trait uninformative about ecological impact. Choice C skips evidence entirely, the opposite of a scientific test."
@@ -6806,10 +6806,10 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Which of the following would most directly increase atmospheric CO2 concentration, disrupting the normal balance of the carbon cycle?",
       "choices": [
-        "Decreased human population with no other accompanying changes",
+        "Decreased human population with no other accompanying changes to the environment or its energy use",
         "Large-scale deforestation combined with increased fossil fuel combustion, cutting uptake while raising release",
-        "Increased photosynthesis by a large forest",
-        "Increased ocean absorption of atmospheric CO2 with no other accompanying changes"
+        "Increased photosynthesis by a large forest, which removes CO2 from the air",
+        "Increased ocean absorption of atmospheric CO2 with no other accompanying changes to the carbon cycle"
       ],
       "correct": 1,
       "explanation": "Deforestation reduces the total photosynthetic capacity available to remove CO2, while fossil fuel combustion simultaneously releases previously sequestered carbon; together these compound to significantly raise atmospheric CO2 and disrupt the carbon cycle's balance. Choice C describes a process that would lower, not raise, atmospheric CO2 by removing more of it. Choice A describes a change without a clear direct mechanism for increasing CO2. Choice D describes increased CO2 removal by oceans, which would lower atmospheric concentration rather than raise it."
@@ -6859,9 +6859,9 @@ const QUESTIONS = {
       "stem": "Which of the following organisms plays an essential role in returning energy-containing organic matter from dead organisms back into a form usable by producers and other organisms in the ecosystem?",
       "choices": [
         "Decomposers have no meaningful ecological role in nutrient cycling",
-        "Producers exclusively",
+        "Producers exclusively, since only they return nutrients to the soil",
         "Decomposers, which break down dead organic matter and release nutrients back into the ecosystem",
-        "Tertiary consumers exclusively"
+        "Tertiary consumers exclusively, since they sit at the top of the food chain"
       ],
       "correct": 2,
       "explanation": "Decomposers, such as many fungi and bacteria, break down dead organic matter from all trophic levels, releasing nutrients back into forms producers and other organisms can use again, closing the loop for nutrient (though not energy) cycling. Choice B describes producers, which capture energy from sunlight rather than recycle matter from dead organisms. Choice D describes tertiary consumers, positioned at a high trophic level with no special role in breaking down dead matter. Choice A denies decomposers' well-established, essential ecological function."
@@ -6884,10 +6884,10 @@ const QUESTIONS = {
       "topic": "8.5 Biodiversity and Stability",
       "stem": "Which of the following would provide the most direct evidence supporting the specific hypothesis that biodiversity loss reduces ecosystem resilience?",
       "choices": [
-        "A study measuring only rainfall patterns with no biodiversity data collected",
+        "A study measuring only rainfall patterns with no biodiversity data collected at all",
         "A study finding no relationship whatsoever between species richness and recovery time",
-        "A study finding reduced-richness ecosystems recover more slowly or less completely than higher-richness ones after a standardized disturbance",
-        "A study conducted without any disturbance or recovery measurement at all"
+        "A study finding reduced-richness ecosystems recover more slowly after a standardized disturbance",
+        "A study conducted without any disturbance or recovery measurement of any kind"
       ],
       "correct": 2,
       "explanation": "A well-designed study directly testing this hypothesis would experimentally manipulate species richness and compare recovery outcomes following a standardized disturbance; finding that reduced-diversity ecosystems recover more slowly or less completely provides direct, controlled evidence supporting the biodiversity-resilience relationship. Choice B would actually contradict, not support, the hypothesis being tested. Choice A collects irrelevant data, omitting the biodiversity measurements the hypothesis is actually about. Choice D lacks the disturbance-and-recovery measurement that is essential to testing resilience at all."
@@ -6936,7 +6936,7 @@ const QUESTIONS = {
       "topic": "8.4 Biogeochemical Cycles",
       "stem": "Which of the following would be the most accurate description of how carbon moves from a living organism back into the abiotic environment?",
       "choices": [
-        "Carbon can never leave a living organism once it has been incorporated",
+        "Carbon can never leave a living organism once it has been incorporated into its tissues",
         "Carbon only leaves an organism through being eaten by a predator",
         "Carbon cycling has no relationship to living organisms whatsoever",
         "Carbon is released as CO2 through cellular respiration during life, or through decomposition after death"
@@ -6962,9 +6962,9 @@ const QUESTIONS = {
       "topic": "8.1 Population Ecology",
       "stem": "Which of the following best describes 'r' (the intrinsic/per capita growth rate) in population ecology equations?",
       "choices": [
-        "The environment's carrying capacity",
+        "The environment's carrying capacity, the maximum population size it can support",
         "The average per-individual contribution to growth, the difference between per capita birth and death rates",
-        "The total population size present at any given time",
+        "The total population size present at any given time in the ecosystem",
         "A constant that never varies between species or environmental conditions"
       ],
       "correct": 1,
@@ -6988,10 +6988,10 @@ const QUESTIONS = {
       "topic": "8.3 Energy Flow",
       "stem": "Which of the following best explains why apex (top) predators generally exist at relatively low population densities compared to species at lower trophic levels within the same ecosystem?",
       "choices": [
-        "Apex predators require no energy to survive",
+        "Apex predators require no energy to survive, since they eat only rarely",
         "Apex predators always choose to have small populations by preference",
         "Cumulative energy loss across trophic transfers leaves little energy to support a large apex predator population",
-        "Apex predators have no meaningful relationship to energy availability"
+        "Apex predators have no meaningful relationship to energy availability in an ecosystem"
       ],
       "correct": 2,
       "explanation": "Since apex predators occupy a relatively high trophic level, and substantial energy (roughly 90%) is lost at each of the several transfers required to reach that level, comparatively little total energy remains to support their population — this fundamental energy limitation explains their generally low population densities. Choice D denies the well-established energetic constraint the 10% rule describes. Choice B attributes an active preference to what is actually an energetic limitation beyond any organism's control. Choice A is factually false — all organisms, including apex predators, require energy to survive."
@@ -7002,10 +7002,10 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A researcher proposes that ecosystem resilience depends not just on overall SPECIES RICHNESS (total number of species), but also on FUNCTIONAL DIVERSITY (the range of distinct ecological roles those species collectively perform). Explain why two ecosystems with identical species richness could still have very different levels of actual resilience, based on this distinction.",
       "choices": [
-        "An ecosystem with functionally redundant species can have lower resilience than one with equal richness but wider functional diversity",
-        "More species always automatically means more distinct ecological roles, with no exceptions",
-        "Functional diversity has no relationship to resilience whatsoever",
-        "Species richness and functional diversity are always identical, making this scenario impossible"
+        "An ecosystem with functionally redundant species can be less resilient than one with equal richness but wider functional diversity",
+        "More species always automatically means more distinct ecological roles, with no exceptions at all",
+        "Functional diversity has no relationship to resilience whatsoever in any ecosystem studied",
+        "Species richness and functional diversity are always identical, so this scenario is impossible in practice"
       ],
       "correct": 0,
       "explanation": "An ecosystem can have high species richness while still having low functional diversity if many species perform very similar roles (redundant within a narrow category) while other functions are covered by only one or few species; losing that one unique-function species could still cause significant disruption despite high overall richness. This shows it's the diversity of functional roles, not raw species count, that most directly determines resilience to losing any particular species. Choice D wrongly asserts the two concepts are identical, denying the very distinction the question is testing. Choice C denies a real, well-reasoned ecological relationship. Choice B assumes a one-to-one mapping between species count and functional roles that the scenario explicitly shows can break down."

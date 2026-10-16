@@ -2379,10 +2379,10 @@ const QUESTIONS = {
       "topic": "3.5 Due Process and Right to Privacy",
       "stem": "Which case directly overturned Roe v. Wade?",
       "choices": [
-        "Citizens United v. FEC",
+        "Citizens United v. FEC (2010)",
         "Dobbs v. Jackson Women's Health Organization (2022)",
-        "McDonald v. Chicago",
-        "Brown v. Board of Education"
+        "McDonald v. Chicago (2010)",
+        "Brown v. Board of Education (1954)"
       ],
       "correct": 1,
       "explanation": "Dobbs v. Jackson Women's Health Organization (2022) directly overturned Roe v. Wade, holding the Constitution does not confer a right to abortion. Citizens United concerns campaign finance, Brown concerns school segregation, and McDonald concerns 2nd Amendment incorporation — none touches Roe."

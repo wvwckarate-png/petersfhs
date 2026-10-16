@@ -1272,8 +1272,8 @@ const QUESTIONS = {
       "topic": "2.2 The Importance of Biodiversity",
       "stem": "What defines a 'keystone species'?",
       "choices": [
-        "The most abundant species in an ecosystem, according to standard theory.",
-        "A species found in only one specific location, according to standard theory.",
+        "The most abundant species in an ecosystem.",
+        "A species found in only one specific location.",
         "A species used by scientists as a biological indicator of pollution levels in an ecosystem.",
         "A species with an outsized ecological effect relative to its abundance."
       ],
@@ -1364,7 +1364,7 @@ const QUESTIONS = {
       "stem": "An intensively bred agricultural crop variety has very low genetic diversity across the vast majority of fields growing it. Why might this pose a significant risk?",
       "choices": [
         "Low genetic diversity in a crop has essentially no bearing on its practical agricultural risk, overall.",
-        "Low genetic diversity always increases crop yield with no downsides, according to standard theory.",
+        "Low genetic diversity always increases crop yield with no downsides.",
         "A disease or pest suited to that genetic variety could devastate crops across the whole region.",
         "This scenario describes ecosystem diversity, not genetic diversity, and is therefore irrelevant to disease risk."
       ],
@@ -1417,7 +1417,7 @@ const QUESTIONS = {
       "choices": [
         "Larger islands support fewer species than smaller ones, due to increased interspecies competition.",
         "Larger islands support more species, since more resources lower local extinction rates.",
-        "Island size has no effect on predicted species richness, according to standard theory.",
+        "Island size has no effect on predicted species richness.",
         "Only very small islands can support any species at all."
       ],
       "correct": 1,
@@ -1480,7 +1480,7 @@ const QUESTIONS = {
       "topic": "2.3 Island Biogeography",
       "stem": "Why do smaller habitat islands tend to have higher local extinction rates than larger ones?",
       "choices": [
-        "Smaller islands are always located farther from any mainland, according to standard theory.",
+        "Smaller islands are always located farther from any mainland.",
         "Smaller islands always have significantly more predators present than larger islands do.",
         "Smaller islands offer less habitat, supporting smaller, more vulnerable populations.",
         "Island size has no relationship to extinction rate."
@@ -1533,9 +1533,9 @@ const QUESTIONS = {
       "stem": "A small, remote island and a large island near the mainland are compared. Which is predicted to reach equilibrium species richness FASTER, and which is predicted to have the HIGHER equilibrium value?",
       "choices": [
         "The large, near-mainland island reaches equilibrium faster and also ends up with the higher value.",
-        "Equilibrium speed and value cannot be predicted by this theory, according to standard theory.",
+        "Equilibrium speed and value cannot be predicted by this theory.",
         "Small and remote equilibrates faster; large and near-mainland reaches a higher final value.",
-        "Both islands reach equilibrium at exactly the same rate and value, according to standard theory."
+        "Both islands reach equilibrium at exactly the same rate and value."
       ],
       "correct": 2,
       "explanation": "A small, remote island, with fewer niches to fill and slower immigration, reaches its (lower) equilibrium richness relatively quickly, while a large island near the mainland takes longer to fill its greater number of available niches but ultimately supports a much higher equilibrium richness. Choice D ignores how size and distance affect both speed and final value. Choice A incorrectly attributes both faster speed AND higher value to the same island — in reality, the traits that speed up equilibrium (small, remote) are the opposite of the traits that raise its value (large, close). Choice B denies that the theory makes any prediction, when in fact it predicts both dimensions clearly."
@@ -1584,7 +1584,7 @@ const QUESTIONS = {
       "topic": "2.4 Ecological Tolerance and Adaptations",
       "stem": "Is a species with a NARROW range of tolerance for a key environmental factor generally more or less vulnerable to environmental change than a species with a WIDE range of tolerance?",
       "choices": [
-        "Vulnerability is unrelated to the width of a species' tolerance range, according to standard theory.",
+        "Vulnerability is unrelated to the width of a species' tolerance range.",
         "Equally vulnerable, since tolerance range has no bearing on vulnerability, under normal conditions.",
         "More vulnerable, since even a modest shift could push conditions beyond its survivable range.",
         "Less vulnerable, since a narrow tolerance range always indicates a more superior, specialized adaptation."
@@ -1714,7 +1714,7 @@ const QUESTIONS = {
       "topic": "2.5 Natural Disruptions to Ecosystems",
       "stem": "Why can a policy of total fire suppression in a naturally fire-adapted ecosystem eventually backfire?",
       "choices": [
-        "Fire suppression has no long-term consequences of any kind, according to standard theory.",
+        "Fire suppression has no long-term consequences of any kind.",
         "Fire-adapted ecosystems cannot experience any negative consequences whatsoever from fire suppression policies.",
         "Suppressing fire lets fuel accumulate beyond natural levels, causing eventually more severe fires.",
         "Fire suppression always reduces fire severity indefinitely with no downsides, under normal conditions."
@@ -1832,9 +1832,9 @@ const QUESTIONS = {
       "stem": "What distinguishes primary succession from secondary succession?",
       "choices": [
         "There is no meaningful or scientifically established distinction between these two types of succession.",
-        "Secondary succession only occurs in aquatic ecosystems, according to standard theory.",
+        "Secondary succession only occurs in aquatic ecosystems.",
         "Primary succession starts on bare rock with no soil; secondary starts where soil exists.",
-        "Primary succession is always faster than secondary succession, according to standard theory."
+        "Primary succession is always faster than secondary succession."
       ],
       "correct": 2,
       "explanation": "Primary succession begins on bare rock or substrate entirely lacking soil (after a volcanic eruption or glacial retreat); secondary succession begins on an already-disturbed area retaining existing soil (after a fire or farmland abandonment). Choice D reverses the actual speed relationship — primary succession is slower, not faster, since soil must form from scratch. Choice A denies a fundamental, well-established distinction. Choice B fabricates an aquatic-only restriction with no basis."
@@ -1846,8 +1846,8 @@ const QUESTIONS = {
       "choices": [
         "Primary succession must build soil from scratch; secondary starts with soil already present.",
         "Secondary succession always and exclusively occurs in colder climates, which slows the whole process.",
-        "Primary succession only involves animal species, never plants, according to standard theory.",
-        "Primary succession has no relationship to soil formation, according to standard theory."
+        "Primary succession only involves animal species, never plants.",
+        "Primary succession has no relationship to soil formation."
       ],
       "correct": 0,
       "explanation": "Primary succession must start from bare rock with no soil, requiring pioneer species to slowly begin soil formation before later species can establish — a step secondary succession skips, since usable soil (and often a seed bank) is already present. Choice C fabricates a taxonomic restriction unrelated to the actual distinction. Choice D denies the central role soil formation plays in primary succession's slow pace. Choice B introduces an unrelated variable (climate) not actually responsible for the speed difference."
@@ -1924,7 +1924,7 @@ const QUESTIONS = {
       "choices": [
         "No succession will occur following a forest fire.",
         "Primary succession, proceeding at exactly the same pace as succession after a volcanic eruption would.",
-        "The pace of succession cannot be compared between these two scenarios, according to standard theory.",
+        "The pace of succession cannot be compared between these two scenarios.",
         "Secondary succession, proceeding considerably faster than primary succession, since soil remains."
       ],
       "correct": 3,
@@ -2159,7 +2159,7 @@ const QUESTIONS = {
         "The flaw: adaptation isn't an intentional individual choice, but natural selection on existing variation.",
         "There is absolutely no flaw here; individual organisms can consciously develop new adaptations within their own lifetime.",
         "The flaw is that moths cannot have heritable traits at all.",
-        "The flaw is that soot could not possibly affect moth coloration in any way, according to standard theory."
+        "The flaw is that soot could not possibly affect moth coloration in any way."
       ],
       "correct": 0,
       "explanation": "This is the classic misconception this unit warns against: adaptation happens at the population level over generations, through natural selection acting on pre-existing trait variation (some moths already darker), not individuals purposefully changing during their lifetime. Choice B endorses the flawed premise itself, rather than identifying it as an error. Choice D misidentifies the flaw — soot genuinely can and does affect selection pressure on moth coloration (the classic peppered moth example); the error is in the mechanism proposed, not the soot's relevance. Choice C also misidentifies the flaw; moths clearly can have heritable coloration traits, which is precisely what makes natural selection possible in this example."
@@ -3239,10 +3239,10 @@ const QUESTIONS = {
       "topic": "4.1 Plate Tectonics",
       "stem": "What is the 'Ring of Fire'?",
       "choices": [
-        "A seasonal weather pattern said to develop over the Atlantic Ocean",
-        "A term for the hottest, outermost layer of Earth's atmosphere",
-        "A horseshoe-shaped Pacific zone with many earthquakes and volcanoes, matching convergent plate boundaries",
-        "An informal synonym some are said to use for the equator"
+        "A seasonal weather pattern said to develop over the Atlantic Ocean in late summer",
+        "A term for the hottest, outermost layer of Earth's atmosphere above the thermosphere",
+        "A horseshoe-shaped Pacific zone with many earthquakes and volcanoes, matching plate boundaries",
+        "An informal synonym some are said to use for the equator and its tropical belt"
       ],
       "correct": 2,
       "explanation": "The Ring of Fire is the horseshoe-shaped zone around the Pacific basin where a large share of the world's earthquakes and volcanoes cluster, corresponding to convergent boundaries surrounding the Pacific Plate. It is not an Atlantic weather pattern — it is a geological feature, not a meteorological one. It is unrelated to the equator, which is a line of latitude, not a tectonic feature. And it has nothing to do with atmospheric layers such as the thermosphere; 'Ring of Fire' refers to Earth's crust, not its atmosphere."
@@ -3863,9 +3863,9 @@ const QUESTIONS = {
       "topic": "4.6 Mining and Mineral Resources",
       "stem": "Which of the following best illustrates the core tradeoff between surface and subsurface mining?",
       "choices": [
-        "Subsurface mining is said to always be superior, with no real tradeoffs at all",
-        "There is said to be no meaningful difference between the two mining methods",
-        "Surface mining is said to always be superior, with no real tradeoffs at all",
+        "Subsurface mining is said to always be superior, with no real tradeoffs at all for workers or land",
+        "There is said to be no meaningful difference between the two mining methods in cost or damage",
+        "Surface mining is said to always be superior, with no real tradeoffs at all for land or ecosystems",
         "Surface mining is cheaper and safer but more destructive; subsurface is safer for the surface but costlier"
       ],
       "correct": 3,
@@ -4071,9 +4071,9 @@ const QUESTIONS = {
       "topic": "4.8 Ocean Currents and Rain Shadow",
       "stem": "Why is Western Europe's climate notably milder than eastern North American regions at a similar latitude?",
       "choices": [
-        "This climate difference has no established scientific explanation",
+        "This climate difference has no established scientific explanation among climate researchers",
         "Western Europe is located at a much lower latitude than eastern North America",
-        "Western Europe receives essentially no winter weather of any kind",
+        "Western Europe receives essentially no winter weather of any kind, because it is so far south",
         "A warm Gulf Stream / North Atlantic Current carries tropical heat toward Western Europe, moderating its climate"
       ],
       "correct": 3,
@@ -6508,10 +6508,10 @@ const QUESTIONS = {
       "topic": "7.2 Photochemical Smog",
       "stem": "Which of the following is a key visible/harmful component of photochemical smog, formed as a secondary pollutant?",
       "choices": [
-        "Nitrogen gas, an inert component of the atmosphere.",
-        "Water vapor, a normal atmospheric constituent.",
-        "Ground-level ozone, the smog component formed via reaction in sunlight.",
-        "Stratospheric ozone, found in the upper atmosphere."
+        "Nitrogen gas, an inert component of the atmosphere found everywhere at ground level.",
+        "Water vapor, a normal atmospheric constituent that varies with local humidity and weather.",
+        "Ground-level ozone, the smog component formed by reactions in sunlight.",
+        "Stratospheric ozone, found in the upper atmosphere where it absorbs ultraviolet light."
       ],
       "correct": 2,
       "explanation": "Ground-level ozone is the key harmful, secondary-pollutant component of photochemical smog, formed via the NOx-VOC reaction in sunlight. Nitrogen gas and water vapor are inert or benign atmospheric constituents unrelated to smog, and stratospheric ozone is a distinct, beneficial layer in the upper atmosphere rather than a smog component."
@@ -6664,9 +6664,9 @@ const QUESTIONS = {
       "topic": "7.4 Acid Rain",
       "stem": "What is the approximate pH of normal, unpolluted rainfall?",
       "choices": [
-        "9.0, which would be slightly basic.",
-        "2.0, which would be strongly acidic.",
-        "7.0, which would be perfectly neutral.",
+        "9.0, which would be slightly basic and well above the natural value.",
+        "2.0, which would be strongly acidic, like a strong industrial acid.",
+        "7.0, which would be perfectly neutral, like pure water free of any CO2.",
         "5.6, slightly acidic due to dissolved atmospheric CO2."
       ],
       "correct": 3,
@@ -6820,10 +6820,10 @@ const QUESTIONS = {
       "topic": "7.5 Indoor Air Pollution",
       "stem": "Which indoor pollutant is produced by faulty combustion appliances and is dangerous partly because it is odorless?",
       "choices": [
-        "VOCs, released from paints and solvents.",
-        "Carbon monoxide, produced by faulty combustion appliances like furnaces.",
-        "Asbestos, from disturbed older building materials.",
-        "Radon, a naturally occurring radioactive gas."
+        "VOCs, released from paints, solvents, and some household cleaning products.",
+        "Carbon monoxide, produced by faulty combustion appliances.",
+        "Asbestos, from disturbed older building materials such as insulation.",
+        "Radon, a naturally occurring radioactive gas that seeps up from soil and rock."
       ],
       "correct": 1,
       "explanation": "Carbon monoxide, produced by faulty combustion appliances like a malfunctioning furnace, is especially dangerous because it is odorless, giving no natural warning even at fatal concentrations. VOCs, radon, and asbestos are all real indoor hazards, but none is specifically tied to faulty combustion appliances the way CO is."
@@ -6898,10 +6898,10 @@ const QUESTIONS = {
       "topic": "7.6 Reducing Air Pollution",
       "stem": "What does 'NAAQS' stand for, as established under the Clean Air Act?",
       "choices": [
-        "North American Air Quality Survey, a term not actually used.",
+        "North American Air Quality Survey, covering the continent's air monitoring.",
         "National Ambient Air Quality Standards, covering the criteria pollutants.",
-        "National Automobile Air Quality System, a term not actually used.",
-        "National Acid Rain Quality Standards, a term not actually used."
+        "National Automobile Air Quality System, covering vehicle emission testing.",
+        "National Acid Rain Quality Standards, covering rainfall chemistry only."
       ],
       "correct": 1,
       "explanation": "NAAQS stands for National Ambient Air Quality Standards, established under the Clean Air Act for criteria pollutants including SO2, NOx, CO, particulate matter, and ground-level ozone. The other expansions describe plausible-sounding but nonexistent programs -- NAAQS is not specific to acid rain, a North American survey, or automobiles alone."
@@ -8501,10 +8501,10 @@ const QUESTIONS = {
       "topic": "9.4 Sea Level Rise and Extreme Weather",
       "stem": "Does melting Arctic sea ice significantly contribute to sea level rise?",
       "choices": [
-        "Yes, but only during winter months when ice extent is greatest.",
-        "No, because sea ice does not actually melt under any conditions.",
-        "No -- floating sea ice already displaces a volume of water equal to its own mass, so its melting does not significantly add to sea level.",
-        "Yes, melting sea ice is the primary driver of observed sea level rise."
+        "Yes, but only during winter months when ice extent is greatest across the polar regions.",
+        "No, because sea ice does not actually melt under any conditions, even in warm summers.",
+        "No -- floating sea ice already displaces its own mass of water, so melting it does not significantly add to sea level.",
+        "Yes, melting sea ice is the primary driver of observed sea level rise around the world."
       ],
       "correct": 2,
       "explanation": "Melting sea ice does not significantly contribute to sea level rise, since floating ice already displaces a volume of water equal to its own mass -- similar to an ice cube melting in a full glass without causing an overflow. Sea ice does melt (that claim is false), it is not the primary driver (thermal expansion and land ice melt are), and this holds regardless of season."
@@ -8748,10 +8748,10 @@ const QUESTIONS = {
       "topic": "9.6 Climate Change Impacts on Species and Biodiversity",
       "stem": "What is a 'phenological mismatch'?",
       "choices": [
-        "A mismatch in physical appearance or coloration between two related species.",
-        "A mismatch between the timing of a species' seasonal behaviors and the timing of food availability or dependent species.",
-        "Another name for a geographic range shift toward the poles.",
-        "A term with no established connection to climate change biology."
+        "A mismatch in physical appearance or coloration between two related species of animals.",
+        "A mismatch between the timing of a species' seasonal behaviors and the timing of food availability.",
+        "Another name for a geographic range shift toward the poles as temperatures rise.",
+        "A term with no established connection to climate change biology or to species interactions."
       ],
       "correct": 1,
       "explanation": "A phenological mismatch occurs when the timing of a species' seasonal behaviors (migration, breeding, flowering) falls out of sync with the timing of food availability or a dependent species, since different species may respond to changing conditions at different rates. It is directly tied to climate change, it concerns TIMING rather than appearance, and it is a distinct concept from a range shift, which concerns WHERE a species lives, not when it acts."
@@ -8800,10 +8800,10 @@ const QUESTIONS = {
       "topic": "9.6 Climate Change Impacts on Species and Biodiversity",
       "stem": "How can climate change favor invasive species over native specialists?",
       "choices": [
-        "Climate change always eliminates all invasive species from a region entirely.",
-        "Invasive species are never meaningfully affected by shifting climate conditions.",
-        "Changing conditions can create newly favorable conditions that a generalist or invasive species is better positioned to exploit than a narrowly adapted native specialist.",
-        "Climate change has no established relationship to invasive species dynamics."
+        "Climate change always eliminates all invasive species from a region entirely and permanently.",
+        "Invasive species are never meaningfully affected by shifting climate conditions of any kind.",
+        "Changing conditions can create favorable conditions that a generalist or invasive species can exploit better than a specialist.",
+        "Climate change has no established relationship to invasive species dynamics in any region."
       ],
       "correct": 2,
       "explanation": "As climate conditions shift, newly favorable conditions in a region may be better exploited by a generalist or invasive species than by a narrowly adapted native specialist, potentially giving invasive species a competitive edge. Climate change does affect invasive species dynamics (contrary to two of the options), and it does not uniformly eliminate invasive species; it can just as easily favor them. Note: invasive species is introduced in Unit 5 (5.7) and revisited here in the context of climate change -- see Section 9.6 of the guide for the general mechanism (lack of natural predators/controls, rapid reproduction) independent of climate change."
@@ -8852,10 +8852,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "What was the Kyoto Protocol (1997)?",
       "choices": [
-        "An agreement specifically addressing stratospheric ozone depletion.",
-        "A domestic U.S. law protecting endangered species within national borders.",
-        "The first major international treaty to set binding greenhouse gas emission reduction targets, specifically for developed countries.",
-        "An agreement regulating international trade in endangered species and products."
+        "An agreement specifically addressing stratospheric ozone depletion and chlorofluorocarbons.",
+        "A domestic U.S. law protecting endangered species within national borders and waters.",
+        "The first major international treaty to set binding greenhouse gas reduction targets, for developed countries.",
+        "An agreement regulating international trade in endangered species and their products."
       ],
       "correct": 2,
       "explanation": "The Kyoto Protocol (1997) was the first major international treaty to set binding greenhouse gas emission reduction targets, specifically for developed (industrialized) countries, a required document for this course. It is international rather than domestic, it addresses greenhouse gases rather than ozone (that is the Montreal Protocol's role), and it targets emissions rather than species trade (that is CITES's role)."
@@ -8865,10 +8865,10 @@ const QUESTIONS = {
       "topic": "9.7 International Agreements",
       "stem": "Did the Kyoto Protocol face greater or lesser challenges with participation and enforcement compared to the Montreal Protocol?",
       "choices": [
-        "Neither treaty faced any meaningful challenges with participation or enforcement.",
-        "Greater challenges -- the Kyoto Protocol's binding targets faced more significant participation and enforcement difficulties than the Montreal Protocol's CFC phase-out.",
+        "Neither treaty faced any meaningful challenges with participation or enforcement in practice.",
+        "Greater challenges -- the Kyoto Protocol's binding targets faced more participation and enforcement difficulties than the Montreal Protocol.",
         "Both treaties faced identical levels of challenge, with no meaningful difference between them.",
-        "Lesser challenges -- the Kyoto Protocol was in fact even more successful than the Montreal Protocol."
+        "Lesser challenges -- the Kyoto Protocol was in fact even more widely successful than the Montreal Protocol."
       ],
       "correct": 1,
       "explanation": "The Kyoto Protocol faced greater challenges with participation and enforcement than the Montreal Protocol, illustrating that climate mitigation has generally proven a more complex international coordination challenge than ozone protection, given the broader range of economic sectors and countries involved. Both treaties did face real challenges (not none), Kyoto's difficulties were greater rather than lesser, and the two treaties' outcomes were meaningfully different, not identical."

@@ -1329,10 +1329,10 @@ const QUESTIONS = {
       "topic": "2.4 Structure of Metals and Alloys",
       "stem": "Which best explains why metals are good conductors of electricity as solids, unlike ionic solids?",
       "choices": [
-        "Metals exist as liquids at room temperature, unlike ionic solids.",
-        "Metals have a delocalized electron sea that's already mobile in the solid, unlike ionic solids.",
-        "Metals simply contain more protons per atom than nonmetals do.",
-        "Metal atoms are generally smaller than the ions in ionic compounds."
+        "Metals exist as liquids at room temperature, unlike ionic solids, which are always solid.",
+        "Metals have a delocalized electron sea that's mobile even in the solid, unlike ionic solids.",
+        "Metals simply contain more protons per atom than nonmetals do, which makes them conduct.",
+        "Metal atoms are generally smaller than the ions found in ionic compounds, so they conduct."
       ],
       "correct": 1,
       "explanation": "Ionic solids need their lattice to break down (melting or dissolving) before their ions can move and carry current. Metals don't have this restriction — their delocalized electrons are already mobile in the solid state itself. Option (D) is wrong because atomic/ionic size isn't the mechanism behind conductivity; smaller particles don't automatically conduct electricity. Option (C) is wrong because proton count (nuclear charge) is unrelated to conductivity — that's a property of the nucleus, not of mobile charge carriers. Option (A) is wrong because most metals are actually solids at room temperature (mercury being the notable exception), and being liquid wouldn't explain the conductivity mechanism anyway."
@@ -1342,10 +1342,10 @@ const QUESTIONS = {
       "topic": "2.4 Structure of Metals and Alloys",
       "stem": "A substitutional alloy (like brass, Cu and Zn) forms most easily when the two metal atoms involved have:",
       "choices": [
-        "Identical melting points, and nothing else",
-        "Very different atomic radii from each other",
+        "Identical melting points, and nothing else in common between them",
+        "Very different atomic radii from each other, which keeps them separate",
         "Similar atomic radii, so the atoms can substitute for each other",
-        "Ions of opposite electrical charge"
+        "Ions of opposite electrical charge that attract each other strongly"
       ],
       "correct": 2,
       "explanation": "In a substitutional alloy, atoms of one metal directly take the place of atoms of the other within the same crystal lattice structure — this only works smoothly if the two atoms are similar enough in size that the lattice geometry isn't badly distorted. Option (D) is wrong because metal atoms in an alloy aren't charged ions; 'opposite charges' describes ionic bonding, not the metal-metal mixing seen in alloys. Option (B) is wrong because very different atomic radii actually favor an interstitial alloy instead, where smaller atoms fit into gaps rather than substituting — the opposite of what's needed here. Option (A) is wrong because identical melting points aren't required (or particularly relevant) to whether atoms can geometrically substitute for each other."

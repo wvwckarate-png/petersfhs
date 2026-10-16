@@ -489,10 +489,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What does the writer's phrase 'the only externally comparable measure we currently have' primarily function as?",
         "choices": [
-          "An emotional appeal carrying no logical content.",
+          "An emotional appeal carrying no logical content or evidence of any kind.",
           "A logos-based claim establishing the concrete stakes of removing testing without replacement.",
-          "A claim with no real connection to the passage's central argument.",
-          "An appeal to the writer's own personal credentials."
+          "A claim with no real connection to the passage's central argument or its purpose.",
+          "An appeal to the writer's own personal credentials rather than to evidence."
         ],
         "correct": 1,
         "explanation": "Naming testing as ‘the only externally comparable measure we currently have’ grounds the objection in a specific, practical consequence — losing comparability — rather than feeling, which is logos. C understates a phrase that states the essay's central stake directly. A is wrong because the claim is factual and reasoned, not emotional. D is wrong because no personal credential appears in this phrase."
@@ -661,10 +661,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which revision of sentence [5] would most effectively conclude this essay, given its stated audience and purpose?",
         "choices": [
-          "This concludes my proposal.",
-          "Everyone should garden more often.",
-          "In short, this proposal directly answers residents' concerns with a concrete funding plan already in place.",
-          "Gardens are nice."
+          "This concludes my proposal, and I thank the committee for its time and attention.",
+          "Everyone should garden more often, because gardening is healthy and fun for people.",
+          "In short, this proposal answers residents' concerns with a concrete funding plan already in place.",
+          "Gardens are nice, and many people enjoy having them in their neighborhoods."
         ],
         "correct": 2,
         "explanation": "This revision closes by echoing the essay's actual persuasive work — answering the audience's stated concerns with a concrete plan — rather than trailing off vaguely. A is wrong because it signals closure without reinforcing any argument. B overgeneralizes into unrelated advice for readers rather than restating the proposal's case. D is the original, unrevised weak line."
@@ -869,10 +869,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Considering the essay's stated purpose and audience, which revision goal should guide further editing of this draft?",
         "choices": [
-          "Adding as much technical jargon as possible to sound authoritative.",
-          "Removing all specific examples to keep the essay more general.",
+          "Adding as much technical jargon as possible so the essay sounds authoritative to readers.",
+          "Removing all specific examples from the essay to keep its claims more general overall.",
           "Keeping every claim as measured as [1]-[3] and [5], fixing departures like the original [4].",
-          "Making every sentence as short as possible regardless of content."
+          "Making every sentence as short as possible regardless of what content it must carry."
         ],
         "correct": 2,
         "explanation": "Since the essay's stated goal is balance, the guiding revision principle should be consistency with the measured approach already established, correcting the one sentence ([4]) that breaks from it. A and D propose stylistic changes unrelated to the essay's actual problem. B would remove exactly the kind of concrete example ([2]) that currently works well in the draft."
@@ -947,10 +947,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which of the following, if added as a new final sentence after [5], would best reinforce the essay's overall balanced purpose?",
         "choices": [
-          "Remote work is obviously superior to office work in every way.",
-          "No further sentence is ever needed at the end of any essay.",
-          "This essay has now ended.",
-          "As with most workplace changes, the best path likely combines genuine benefits with solutions to genuine tradeoffs."
+          "Remote work is obviously superior to office work in every way, for every kind of employee.",
+          "No further sentence is ever needed at the end of any essay, since the body says everything.",
+          "This essay has now ended, so the reader may stop reading and move on to something else.",
+          "As with most workplace changes, the best path likely combines genuine benefits with solutions to real tradeoffs."
         ],
         "correct": 3,
         "explanation": "This addition names both benefits and tradeoffs in the same closing sentence, echoing the essay's overall balanced approach as a fitting final note. C adds nothing of substance and doesn't reinforce the essay's argument. B overstates a general rule the exam doesn't test. A is a one-sided claim that would reintroduce the same imbalance the essay has just worked to correct."
@@ -961,9 +961,9 @@ const QUESTIONS = {
         "stem": "Considering the full draft, which best characterizes the overall relationship between sentences [3]-[4] and the essay's stated audience?",
         "choices": [
           "These sentences directly answer the audience's stated concern, making them the essay's persuasive core.",
-          "These sentences contradict the essay's main argument.",
-          "These sentences are irrelevant filler unrelated to the essay's purpose.",
-          "These sentences ignore the stated audience's concerns entirely."
+          "These sentences contradict the essay's main argument and weaken its overall persuasive force.",
+          "These sentences are irrelevant filler unrelated to the essay's purpose or its intended audience.",
+          "These sentences ignore the stated audience's concerns entirely and speak only to the writer."
         ],
         "correct": 0,
         "explanation": "Sentences [3]-[4] name and answer the exact concern — upkeep and cost — the stated audience is described as holding, which makes them the essay's central persuasive work. C and D understate or misdescribe sentences built specifically around that audience's concern. B is wrong because nothing in [3]-[4] conflicts with the essay's case for the garden; they strengthen it."
@@ -1916,10 +1916,10 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "How does this passage's own rhetorical choices affect the writer's ethos?",
         "choices": [
-          "The passage builds ethos by citing multiple named historians and primary-source experts throughout.",
-          "The dismissive, confident tone reads as fair-minded engagement, strengthening the writer's credibility.",
-          "The sweeping dismissal ('either an apologist... or simply hasn't bothered') and explicit refusal to engage objections likely undermine the writer's own credibility, regardless of whether the underlying position is correct.",
-          "The passage's tone is neutral enough that a reader's assessment of credibility is unaffected either way — an appealing-sounding claim, but one the passage's specific wording does not actually support."
+          "The passage builds ethos by citing multiple named historians and primary-source experts throughout its argument.",
+          "The dismissive, confident tone reads as fair-minded engagement, which strengthens the writer's credibility with readers.",
+          "The sweeping dismissal ('either an apologist... or simply hasn't bothered') and refusal to engage objections likely undermine the writer's credibility.",
+          "The passage's tone is neutral enough that a reader's assessment of credibility is unaffected either way it is read."
         ],
         "correct": 2,
         "explanation": "The sweeping dismissal ('either an apologist... or simply hasn't bothered') and the explicit refusal to 'walk through their objections one by one' likely undermine the writer's own credibility, regardless of whether the underlying position is correct — a reader may reasonably wonder whether a position that can't withstand direct engagement is as strong as claimed. The passage cites no named expert or source at all, so it cannot be building ethos through borrowed authority. Nor does its tone read as fair-minded engagement: declaring objections not worth 'dignifying' is the opposite of careful, even-handed treatment. And the claim of no effect on ethos ignores that dismissiveness this blunt does not pass unnoticed by a careful reader."
@@ -1942,10 +1942,10 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "Why might the passage's refusal to 'walk through their objections one by one' be considered a missed opportunity for the writer, from a pure persuasive-strategy standpoint?",
         "choices": [
-          "The passage already thoroughly addresses every specific objection raised by opponents — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "Direct engagement with objections typically builds ethos by showing confidence and fair-mindedness — an opportunity this passage skips.",
-          "Refusing to engage counterarguments always strengthens an argument.",
-          "Addressing counterarguments never carries persuasive value."
+          "The passage already thoroughly addresses every specific objection raised by opponents of the position.",
+          "Direct engagement with objections typically builds ethos by showing confidence and fair-mindedness — a chance the passage skips.",
+          "Refusing to engage counterarguments always strengthens an argument by projecting total confidence.",
+          "Addressing counterarguments never carries persuasive value, since it only gives opponents extra attention."
         ],
         "correct": 1,
         "explanation": "Directly and specifically addressing counterarguments — rather than dismissing them collectively as this passage does — typically strengthens ethos by demonstrating confidence and fair-mindedness, an opportunity the passage explicitly declines by refusing to 'walk through their objections one by one.' The claim that counterargument has no persuasive value gets the general principle backwards. The claim that refusal 'always' strengthens an argument overstates a case-specific possibility into a universal rule the passage itself undermines. And the passage does not address any objection in detail — it explicitly refuses to — so the option claiming thorough engagement misdescribes the text."
@@ -1969,7 +1969,7 @@ const QUESTIONS = {
         "stem": "What is the rhetorical function of the phrase 'We are not sharing this account to assign blame to any individual dispatcher'?",
         "choices": [
           "It preemptively frames the account as about systemic accountability rather than individual blame, building fair-minded ethos.",
-          "It introduces an unrelated topic — internal dispatcher staffing policy — that the rest of the passage does not return to — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "It introduces an unrelated topic — internal dispatcher staffing policy — that the rest of the passage does not return to.",
           "It has no rhetorical function.",
           "It contradicts the passage's central argument by shifting responsibility away from the county."
         ],
@@ -1994,7 +1994,7 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "What type of reasoning does this passage's first three sentences use?",
         "choices": [
-          "Inductive reasoning, generalizing from several observed schools that adopted uniform policies — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "Inductive reasoning, generalizing from several observed schools that adopted uniform policies.",
           "No identifiable reasoning structure is present.",
           "Deductive reasoning: a general premise about distraction leads through a specific case to a conclusion.",
           "Purely emotional appeal with no logical structure."
@@ -2007,10 +2007,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Is this passage's deductive argument necessarily SOUND, even if its logical structure is valid?",
         "choices": [
-          "Soundness and validity are identical concepts with no meaningful distinction.",
+          "Soundness and validity are identical concepts with no meaningful distinction between them.",
           "Not necessarily — soundness also requires the general premise itself to be true, which the passage never establishes.",
-          "No, because the argument's logical structure is actually invalid to begin with.",
-          "Yes, valid logical structure always guarantees a sound, correct conclusion."
+          "No, because the argument's logical structure is actually invalid to begin with, regardless of its premises.",
+          "Yes, valid logical structure always guarantees a sound, correct conclusion whatever the premises say."
         ],
         "correct": 1,
         "explanation": "Validity (the conclusion following from the premises) doesn't guarantee soundness — soundness additionally requires the premises to be true, and this passage never independently establishes that 'any policy that reduces distraction improves focus' is actually correct. Validity and soundness are related but distinct concepts, so collapsing them into one is wrong. Valid structure does not 'always' guarantee a sound conclusion — that is the entire point of the false-premise trap this unit's Section 3.3 describes. And the argument's structure is, in fact, valid; the flaw lies in an unverified premise, not invalid logic."
@@ -2020,10 +2020,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "How does the passage address counterexamples (schools where uniforms showed no focus improvement)?",
         "choices": [
-          "By ignoring the counterexamples entirely.",
-          "By attributing them to inconsistent enforcement — an explanation that itself needs more evidence to be convincing.",
-          "By acknowledging the counterexamples fully undermine the argument — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "By arguing the counterexamples don't actually exist."
+          "By ignoring the counterexamples entirely and moving straight to the conclusion.",
+          "By attributing them to inconsistent enforcement — an explanation that itself needs more evidence.",
+          "By acknowledging that the counterexamples fully undermine the argument as stated.",
+          "By arguing that the counterexamples don't actually exist in the places discussed."
         ],
         "correct": 1,
         "explanation": "The passage attributes counterexamples to inconsistent enforcement, which preserves its general premise, but this explanation is asserted without supporting evidence — so while it does engage the counterexamples (ruling out 'ignoring' and 'don't actually exist'), it doesn't fully resolve whether the premise itself is true (ruling out the option that the counterexamples 'fully undermine' the argument, since the passage offers a response, however unsupported, rather than simply conceding)."
@@ -2033,10 +2033,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What rhetorical technique dominates the passage's first three sentences?",
         "choices": [
-          "Parallel structure, repeating 'She coached through...' across the three sentences.",
-          "A cited statistic",
-          "Direct quotation from a named source",
-          "Deductive reasoning"
+          "Parallel structure, repeating 'She coached through...' across three sentences.",
+          "A cited statistic drawn from a named research study",
+          "Direct quotation from a named source, set in quotation marks",
+          "Deductive reasoning from a general premise to a specific case"
         ],
         "correct": 0,
         "explanation": "The passage uses parallel structure across its first three sentences, each opening 'She coached through...' — a repeated grammatical pattern that builds cumulative rhetorical force. No statistic appears in these sentences; the structure is repetitive and cumulative rather than a general-premise-to-conclusion argument, ruling out deductive reasoning; and no source is quoted by name anywhere in the passage, ruling out direct quotation."
@@ -2047,7 +2047,7 @@ const QUESTIONS = {
         "stem": "What effect does this parallel structure achieve?",
         "choices": [
           "It has no particular rhetorical effect.",
-          "It suggests the three hardships described were actually a single event recurring under different names — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "It suggests the three hardships described were actually a single event recurring under different names.",
           "It weakens the passage's overall argument.",
           "It builds a cumulative sense of sustained difficulty across the three distinct hardships, letting readers feel the accumulation."
         ],
@@ -2059,10 +2059,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What is the rhetorical effect of the short sentence 'Thirty-one years.' following the passage's longer sentences?",
         "choices": [
-          "It contradicts the passage's earlier claims.",
-          "It has no particular effect on the passage.",
+          "It contradicts the passage's earlier claims about what she accomplished.",
+          "It has no particular effect on the passage as a whole or on its emphasis.",
           "Its brevity creates emphasis through contrast with the longer sentences before it.",
-          "It introduces confusion about the timeline discussed."
+          "It introduces confusion about the timeline discussed in the passage's opening."
         ],
         "correct": 2,
         "explanation": "This short sentence's brevity creates emphasis through contrast with the passage's longer preceding sentences — the sudden shift in rhythm gives the concluding fact concentrated weight. It doesn't contradict anything stated earlier (the three hardships and the thirty-one-year span are consistent), and rather than introducing timeline confusion, it clarifies the span the preceding sentences have been building toward."
@@ -2072,10 +2072,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What does the final sentence ('One decision, made new again every single day') suggest about the passage's underlying claim regarding persistence?",
         "choices": [
-          "It suggests persistence is a single decision made once and never revisited — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "It contradicts the passage's central argument about the coach's dedication.",
+          "It suggests persistence is a single decision made once and never revisited afterward.",
+          "It contradicts the passage's central argument about the coach's dedication to her players.",
           "It reframes persistence as a choice renewed daily, deepening the tribute's point about sustained commitment.",
-          "It has no relationship to the passage's central theme."
+          "It has no relationship to the passage's central theme or to the coach's example."
         ],
         "correct": 2,
         "explanation": "This final sentence reframes persistence as a repeated, renewed daily choice rather than a single static decision — deepening the tribute's central point about sustained commitment. This is nearly the opposite of the 'made once and never revisited' reading (the phrase 'made new again every single day' explicitly rejects that), it reinforces rather than contradicts the earlier claims about dedication, and it is directly connected to, not disconnected from, the passage's central theme of persistence."
@@ -2085,10 +2085,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What is the connotative difference between 'strategic consolidation' and 'absorption' as used in this passage?",
         "choices": [
-          "'Consolidation' connotes a deliberate, mutual process; 'absorption' connotes the smaller firm being subsumed.",
-          "'Absorption' connotes a more positive outcome than 'strategic consolidation.'",
-          "The two terms have identical connotations with no meaningful difference.",
-          "Neither term carries any connotation beyond its literal meaning."
+          "'Consolidation' connotes a deliberate, mutual process; 'absorption' suggests the smaller firm being subsumed.",
+          "'Absorption' connotes a more positive and balanced outcome than 'strategic consolidation.'",
+          "The two terms have identical connotations with no meaningful difference between them in tone.",
+          "Neither term carries any connotation beyond its literal dictionary meaning in the passage."
         ],
         "correct": 0,
         "explanation": "'Strategic consolidation' connotes a deliberate, mutually beneficial, jointly planned process, while 'absorption' connotes the smaller entity being subsumed or dissolved into the larger one — a more one-directional, less equal implication despite both terms potentially describing the same literal event. The two terms are far from identical, 'absorption' reads as more negative, not more positive, than 'consolidation,' and both words plainly carry connotation beyond their shared literal meaning of combining companies."
@@ -2101,7 +2101,7 @@ const QUESTIONS = {
           "This attribution has no rhetorical significance.",
           "Attributing the pointed term to sources lets the writer present a contrasting view while staying reportorial.",
           "The writer is quoting the company's own official language.",
-          "The attribution suggests the writer disagrees with the employees' characterization — an appealing-sounding claim, but one the passage's specific wording does not actually support."
+          "The attribution suggests the writer disagrees with the employees' characterization."
         ],
         "correct": 1,
         "explanation": "By attributing the more pointed term to sources rather than the writer's own voice, the writer can present a genuinely contrasting perspective against the company's 'consolidation' framing while maintaining a neutral, reportorial ethos — a common journalistic technique. It isn't the company's language being quoted (the company's term is 'consolidation,' the opposite word); nothing in the passage signals the writer disagrees with the employees; and the choice of whom to attribute a loaded word to is a meaningful rhetorical decision, not an insignificant one."
@@ -2124,10 +2124,10 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "What is the connotative effect of the phrase 'apologist for the past' used to describe opponents in this passage?",
         "choices": [
-          "The phrase has a purely technical, legal meaning with no emotional coloring — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "The phrase connotes admiration for opponents' historical knowledge.",
-          "'Apologist' connotes defending something indefensible, casting opponents unfavorably before their arguments are heard.",
-          "The phrase is entirely neutral with no connotation."
+          "The phrase has a purely technical, legal meaning with no emotional coloring in context.",
+          "The phrase connotes admiration for opponents' historical knowledge and careful research.",
+          "'Apologist' connotes defending something indefensible, casting opponents unfavorably in advance.",
+          "The phrase is entirely neutral, with no connotation beyond its literal dictionary meaning."
         ],
         "correct": 2,
         "explanation": "'Apologist' carries a strongly negative connotation — typically describing someone who defends something indefensible or shameful — casting opponents in an unflattering light before any of their specific arguments are examined. It doesn't connote admiration; it is far from neutral; and it carries no technical or legal meaning here — it's a loaded characterization, not a term of art."
@@ -2150,10 +2150,10 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "What claim type is the passage's opening statistical statement ('Average evacuation notification time... eleven minutes longer than the county's own stated response standard')?",
         "choices": [
-          "A claim of fact — a specific, measurable statement compared against a stated standard.",
-          "A claim of policy",
-          "A claim of value with no factual content",
-          "Not a claim of any kind"
+          "A claim of fact — a measurable statement compared against a stated standard.",
+          "A claim of policy that recommends a specific course of action to take",
+          "A claim of value that rests on opinion with no factual content",
+          "Not a claim of any kind, only a neutral description of events"
         ],
         "correct": 0,
         "explanation": "This is a claim of fact — a specific, verifiable statement about measured notification times compared against a stated standard, presented as objectively true rather than as a value judgment or a policy recommendation. It contains no evaluative language ('good,' 'should') that would make it a claim of value, it doesn't recommend any specific action (ruling out claim of policy), and it plainly asserts something the passage treats as true, so it is a claim rather than a non-claim."
@@ -2176,7 +2176,7 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Which specific word in the passage's general premise ('Any policy that reduces distraction improves classroom focus') deserves the most scrutiny, and why?",
         "choices": [
-          "'Distraction' deserves no scrutiny since it is a purely objective, uncontested term — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "'Distraction' deserves no scrutiny since it is a purely objective, uncontested term.",
           "No word in this premise deserves any scrutiny; it is self-evidently true.",
           "'Classroom' deserves scrutiny because the premise doesn't apply to classrooms.",
           "'Any' — its unqualified universal scope is a strong claim the passage never supports."
@@ -2202,10 +2202,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What is the cumulative effect of listing three specific, distinct hardships (losing seasons, facility loss, budget cuts) rather than one general statement about difficulty?",
         "choices": [
-          "The specificity of three distinct hardships makes the persistence claim more concrete and credible than a vague statement would.",
-          "The three hardships listed are actually identical to each other.",
-          "Listing three hardships weakens the tribute by making it seem exaggerated.",
-          "Listing three specific hardships has no effect different from one general statement — an appealing-sounding claim, but one the passage's specific wording does not actually support."
+          "The specificity of three distinct hardships makes the persistence claim more concrete and credible than a vague statement.",
+          "The three hardships listed are actually identical to each other, just described differently.",
+          "Listing three hardships weakens the tribute by making it seem exaggerated to readers.",
+          "Listing three specific hardships has no effect different from one general statement."
         ],
         "correct": 0,
         "explanation": "The specificity and accumulation of three genuinely distinct hardships (losing seasons, facility loss, budget cuts) makes the claim of sustained persistence more concrete and credible than a vague general assertion would, giving the tribute evidentiary weight beyond simple praise. Specificity here builds rather than weakens credibility; the three hardships are different in kind, not identical; and specific detail does carry more persuasive weight than a vague generality."
@@ -2215,10 +2215,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Is the writer's own diction throughout this passage (outside of the directly attributed employee quote) predominantly neutral, or does it carry its own subtle connotative bias?",
         "choices": [
-          "The passage contains no diction choices worth analyzing.",
-          "The writer's diction is overwhelmingly positive throughout regarding the merger.",
-          "The writer's diction is entirely neutral throughout with no discernible bias.",
-          "Largely measured and reportorial, though words like 'quietly folded' and 'dissolved' still carry subtle negative connotation."
+          "The passage contains no diction choices worth analyzing, since it is plain factual reporting.",
+          "The writer's diction is overwhelmingly positive throughout regarding the merger and its effects.",
+          "The writer's diction is entirely neutral throughout with no discernible bias in any word choice.",
+          "Largely measured and reportorial, though 'quietly folded' and 'dissolved' still carry subtle negative connotation."
         ],
         "correct": 3,
         "explanation": "The writer's diction is largely measured and reportorial, but even in relaying the employee perspective, word choices like 'quietly folded' and 'dissolved' carry subtle negative connotation worth noting even when technically attributed to a source's viewpoint. It isn't 'overwhelmingly positive' — nothing in the passage praises the merger; the diction is specific enough to be worth analyzing; and 'entirely neutral' overstates the case given those loaded verbs."
@@ -2228,10 +2228,10 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "Considering this passage as a whole, which best summarizes its central rhetorical weakness according to this unit's framework?",
         "choices": [
-          "It contains too much specific evidence.",
-          "It uses too many neutral, unbiased terms — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "It relies on assertion and dismissal of opponents rather than demonstrated engagement with evidence.",
-          "Its sentences are too short throughout."
+          "It contains too much specific evidence, which overwhelms the reader's ability to follow.",
+          "It uses too many neutral, unbiased terms, which makes the writer sound uncommitted.",
+          "It relies on assertion and dismissal of opponents rather than engagement with evidence.",
+          "Its sentences are too short throughout, which makes the whole passage feel choppy."
         ],
         "correct": 2,
         "explanation": "The passage's central rhetorical weakness is relying on assertion and dismissive characterization rather than demonstrated engagement with evidence and counterarguments — a pattern that undermines the writer's ethos regardless of whether the underlying position has merit. The passage actually contains very little specific evidence, contradicting the option claiming there's too much; sentence length varies and isn't uniformly short; and its diction is notably loaded ('apologist'), not overly neutral."
@@ -2241,10 +2241,10 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "How do this passage's syntax choices (a long opening sentence with embedded statistical detail, followed by a more narrative second sentence) support its overall persuasive strategy?",
         "choices": [
-          "The data-dense opening sentence establishes credibility before the second sentence shifts to human-scale narrative.",
-          "The syntax choices have no relationship to the passage's strategy.",
-          "The syntax choices actively undermine the passage's credibility.",
-          "Both sentences use identical syntax with no meaningful variation."
+          "The data-dense opening sentence establishes credibility before the second shifts to human-scale narrative.",
+          "The syntax choices have no relationship to the passage's overall strategy or to its purpose.",
+          "The syntax choices actively undermine the passage's credibility with its intended audience.",
+          "Both sentences use identical syntax with no meaningful variation between them at all."
         ],
         "correct": 0,
         "explanation": "The initial long, data-dense sentence establishes analytical credibility before the second sentence shifts to more narrative, human-scale detail — mirroring the passage's broader strategy of grounding emotional appeal in prior established evidence. Far from having no relationship or undermining credibility, this syntax choice actively supports the passage's persuasive strategy, and the two sentences are structurally quite different, not identical."
@@ -2254,10 +2254,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Considering this passage as a whole, what would most strengthen its deductive argument's persuasive force?",
         "choices": [
-          "Making the passage's sentences significantly shorter.",
-          "Removing all specific evidence from the passage entirely — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "The passage's argument cannot be strengthened in any way.",
-          "Providing independent support for the general premise rather than merely asserting and defending it."
+          "Making the passage's sentences significantly shorter and more direct throughout.",
+          "Removing all specific evidence from the passage entirely to simplify the argument.",
+          "The passage's argument cannot be strengthened in any way, as it is already complete.",
+          "Providing independent support for the general premise rather than merely asserting it."
         ],
         "correct": 3,
         "explanation": "The passage's deductive argument would be most strengthened by providing independent support for its general premise (rather than simply asserting it and defending it against counterexamples with an unsupported secondary claim), since valid logical structure alone doesn't establish that premise as true. Removing evidence or shortening sentences wouldn't address the actual gap, and the claim that the argument 'cannot be strengthened in any way' ignores this clear, specific fix."
@@ -2267,10 +2267,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "How does this passage's overall structure (three parallel hardships, then a short-sentence pivot, then a final reframing) build toward its concluding claim about persistence?",
         "choices": [
-          "The structure actively contradicts the passage's concluding claim.",
-          "The structure has no relationship to the passage's concluding claim.",
-          "The passage has no discernible structure.",
-          "Each element builds cumulatively — hardships establish evidence, the short sentence adds emphasis, the ending deepens the claim."
+          "The structure actively contradicts the passage's concluding claim by pulling in another direction.",
+          "The structure has no relationship to the passage's concluding claim or to its supporting evidence.",
+          "The passage has no discernible structure, since its sentences could appear in any order.",
+          "Each element builds cumulatively — hardships supply evidence, the short sentence adds emphasis, the ending deepens the claim."
         ],
         "correct": 3,
         "explanation": "Each structural element builds cumulatively toward the concluding claim — the parallel hardships establish evidence of sustained difficulty, the short sentence delivers the concluding fact with emphasis, and the final reframing deepens the interpretation — together constructing, rather than simply asserting, the passage's claim about persistence. This is the opposite of having no relationship, contradicting the claim, or lacking discernible structure altogether."
@@ -2280,10 +2280,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Considering the passage as a whole, how do its connotation choices (in both the writer's voice and the attributed employee quote) work together to build its central point of uncertainty about the merger's true nature?",
         "choices": [
-          "The passage takes no position of any kind on the merger's likely outcome.",
-          "The connotation choices work against each other with no coherent effect.",
-          "The competing framings (company's 'consolidation,' employees' 'absorption') and the writer's loaded diction together tilt the reader toward skepticism.",
-          "All parties in the passage use identical, perfectly neutral language throughout — an appealing-sounding claim, but one the passage's specific wording does not actually support."
+          "The passage takes no position of any kind on the merger's likely outcome, its effects, or its fairness to workers.",
+          "The connotation choices work against each other, with no coherent effect on the reader's overall view of the merger.",
+          "The competing framings ('consolidation' vs. 'absorption') and the writer's loaded diction together tilt the reader toward skepticism.",
+          "All parties in the passage use identical, perfectly neutral language throughout, with no contrast between them at all."
         ],
         "correct": 2,
         "explanation": "These connotation choices work together to construct a passage that formally withholds a final verdict while still tilting the reader toward skepticism about the official 'consolidation' framing — connotation doing persuasive work even within an ostensibly balanced structure. The language is far from identical or neutral across sources; the choices reinforce rather than cancel each other; and 'no position at all' misses the subtle skeptical lean the diction creates."
@@ -2306,9 +2306,9 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Which of the following would most directly strengthen this passage's argument without changing its fundamental deductive structure?",
         "choices": [
-          "Removing all mention of counterexamples.",
-          "Removing the general premise entirely.",
-          "Making the passage significantly more emotionally charged — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "Removing all mention of counterexamples from the passage to avoid the objection.",
+          "Removing the general premise entirely so that nothing remains to be challenged.",
+          "Making the passage significantly more emotionally charged to persuade the reader.",
           "Adding cited evidence, such as a study, establishing the general premise is actually true."
         ],
         "correct": 3,
@@ -2332,7 +2332,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Which best summarizes this unit's overall lesson as illustrated across all five passages studied?",
         "choices": [
-          "That all persuasive writing uses identical techniques regardless of genre or purpose — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
+          "That all persuasive writing uses identical techniques regardless of genre or purpose.",
           "That ethos, pathos, logos, syntax, and diction are interconnected tools, not a checklist of separate labels.",
           "That only logos matters in genuinely persuasive writing.",
           "That style and content are always in direct conflict with each other."
@@ -2345,10 +2345,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Which best describes the overall relationship between this unit's Section 3.3 (deductive/inductive reasoning) and Unit 2's Section 2.3 (line of reasoning)?",
         "choices": [
-          "They operate at different scales — deductive/inductive describes single logical moves; line of reasoning describes the whole sequence.",
-          "Inductive reasoning makes a genuine line of reasoning impossible to construct.",
-          "Line of reasoning is simply another name for deductive reasoning with no meaningful distinction.",
-          "The two concepts are entirely unrelated to each other."
+          "They operate at different scales — deductive/inductive describes single logical moves; line of reasoning, the whole sequence.",
+          "Inductive reasoning makes a genuine line of reasoning impossible to construct in any argument.",
+          "Line of reasoning is simply another name for deductive reasoning with no meaningful distinction between them.",
+          "The two concepts are entirely unrelated to each other, and neither bears on how arguments are built."
         ],
         "correct": 0,
         "explanation": "Deductive and inductive reasoning describe HOW individual claims logically connect to conclusions at the level of a single argumentative move, while 'line of reasoning' (Unit 2) describes how a whole sequence of such moves builds cumulatively across an entire essay — related concepts operating at different scales, both worth keeping distinct. They are not synonyms; inductive reasoning is fully compatible with a coherent line of reasoning, not an obstacle to one; and the two concepts are clearly related, not unrelated, since a line of reasoning is built from individual reasoning moves like these."
@@ -2358,10 +2358,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "Considering this passage alongside the letter analyzed in Unit 1 (the bakery owner's announcement), what shared rhetorical strategy do both texts use in their concluding lines?",
         "choices": [
-          "Neither passage has any particular concluding strategy.",
-          "Both passages avoid any form of emphasis in their concluding lines — an appealing-sounding claim, but one the passage's specific wording does not actually support.",
-          "Both passages end with a direct statistic and nothing else.",
-          "Both use a short, distinct final statement to deliver their core claim with concentrated emphasis after longer material."
+          "Neither passage has any particular concluding strategy, since both simply stop writing.",
+          "Both passages avoid any form of emphasis in their concluding lines, staying uniformly flat.",
+          "Both passages end with a direct statistic and nothing else, leaving the reader to infer.",
+          "Both use a short, distinct final statement to deliver their core claim with concentrated emphasis."
         ],
         "correct": 3,
         "explanation": "Both passages use a short, syntactically distinct final statement — this passage's 'One decision, made new again every single day' and the bakery letter's central contrast — to deliver their core interpretive claim with concentrated emphasis after longer supporting material, connecting this unit's syntax analysis back to Unit 1. Neither ending is a bare statistic; both actively use emphasis rather than avoiding it; and both clearly have a deliberate concluding strategy."
@@ -2371,10 +2371,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Which best summarizes how a reader applying this unit's full toolkit (ethos, pathos, logos, syntax, diction) would most productively approach this passage on a first read?",
         "choices": [
-          "Assume the passage's connotation has no relationship to its argument.",
+          "Assume the passage's connotation has no relationship to its argument, its evidence, or its claims.",
           "Note claim types, evidence, connotation, and syntax together as interconnected observations, not a checklist.",
-          "Ignore all specific word choices and focus only on the passage's general topic.",
-          "Focus exclusively on identifying grammatical errors."
+          "Ignore all specific word choices and focus only on the passage's general topic and its title.",
+          "Focus exclusively on identifying grammatical errors and ignore everything else about the passage."
         ],
         "correct": 1,
         "explanation": "A productive first read applies this unit's full toolkit as interconnected observations building ONE coherent reading — noting claim types, evidence, connotation, and syntax together, rather than treating each as an isolated checklist item, exactly the integrated approach this unit's closing questions have modeled. Ignoring word choice or focusing only on grammar would miss exactly the kind of analysis this unit trains, and assuming connotation is irrelevant to argument contradicts the entire premise of Section 3.5."
@@ -2400,10 +2400,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Sentence [2] ('This change is necessary.') is weak in its current form primarily because it:",
         "choices": [
-          "Is grammatically incorrect.",
-          "Is too long for this document's intended audience — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "Contradicts the passage's later sentences.",
-          "It states a bare value claim with no support, ahead of the evidence that actually justifies it."
+          "Is grammatically incorrect in a way that makes the sentence hard to understand.",
+          "Is too long for this document's intended audience, who want a brief summary.",
+          "Contradicts the passage's later sentences, which argue for the opposite position.",
+          "It states a bare value claim with no support, ahead of the evidence that justifies it."
         ],
         "correct": 3,
         "explanation": "Sentence [2] states a bare claim of value ('necessary') with no supporting reasoning attached directly to it — the actual justification arrives afterward in sentences [3]-[4], leaving [2] as an unsupported assertion in its current position rather than a claim connected to evidence. It doesn't contradict anything that follows; at two words, it is far too short to be a length problem; and it is grammatically fine — the weakness is structural placement, not grammar."
@@ -2413,10 +2413,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which revision of sentence [2] would better integrate it with the evidence that follows?",
         "choices": [
-          "This change addresses a specific, measurable problem: contamination rates undermining the system's effectiveness.",
-          "This change is necessary.",
-          "We hope residents will support this change.",
-          "Recycling is generally a good idea."
+          "This change addresses a specific, measurable problem: contamination rates undermining the system.",
+          "This change is necessary, so residents ought to accept it without further explanation.",
+          "We hope that all residents will support this change and help make our city greener.",
+          "Recycling is generally a good idea, and most people agree that it helps the planet."
         ],
         "correct": 0,
         "explanation": "This revision previews the SPECIFIC problem (contamination rates) that sentences [3]-[4] go on to document, integrating the claim with its supporting evidence rather than leaving it as an isolated, unsupported assertion. The other options either add no specificity ('we hope,' 'generally a good idea') or simply repeat the original bare assertion without connecting it to what follows."
@@ -2426,10 +2426,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "What is the rhetorical effect of describing the current contamination outcome as 'a costly and frustrating outcome for a system residents reasonably believed was working as intended' in sentence [3]?",
         "choices": [
-          "It has no particular rhetorical effect.",
-          "It blames residents directly for the contamination problem — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "It validates residents' reasonable prior belief rather than implying fault, building goodwill before asking for more effort.",
-          "It contradicts the sentence's own factual claim."
+          "It has no particular rhetorical effect on how the passage is received by residents.",
+          "It blames residents directly for the contamination problem and the costs it creates.",
+          "It validates residents' reasonable belief rather than implying fault, building goodwill before asking more.",
+          "It contradicts the sentence's own factual claim about residents' recycling habits."
         ],
         "correct": 2,
         "explanation": "This phrasing validates residents' reasonable prior assumption (that single-stream recycling was working) rather than implying fault or carelessness on their part — a goodwill-building, ethos-conscious choice before the statement asks residents to accept additional effort. This is close to the opposite of blaming residents; the phrasing is doing clear rhetorical work, not none; and nothing about it is self-contradictory — it's consistent with the sentence's own factual claim about contamination rates."
@@ -2439,10 +2439,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best describes the relationship between sentences [3] and [4]?",
         "choices": [
-          "There is no logical relationship between these two sentences.",
-          "[3] establishes the problem; [4] provides comparative evidence the solution addresses it, extending the reasoning.",
-          "They are redundant, repeating identical information.",
-          "Sentence [4] contradicts sentence [3]."
+          "There is no logical relationship between these two sentences, which address separate topics.",
+          "[3] establishes the problem; [4] provides comparative evidence the solution addresses it.",
+          "They are redundant, repeating identical information in slightly different words.",
+          "Sentence [4] contradicts sentence [3] and undercuts the point it makes."
         ],
         "correct": 1,
         "explanation": "Sentence [3] establishes the specific problem (contamination-driven landfill redirection); sentence [4] extends the line of reasoning by providing comparative evidence that the proposed solution specifically addresses that exact problem — a genuine argumentative step, not a repetition. The two sentences report different facts, so they aren't redundant or contradictory, and they clearly build on each other rather than standing unrelated."
@@ -2452,10 +2452,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "What is the rhetorical function of the two short, parallel sentences concluding the passage ('We understand this adds a small amount of daily effort. We believe that effort is now justified...')?",
         "choices": [
-          "They introduce an entirely new, unrelated topic — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "They have no particular rhetorical function.",
-          "Their parallel structure and directness give a concise closing that ties the cost to the justification already established.",
-          "They contradict the passage's central argument."
+          "They introduce an entirely new, unrelated topic at the very end of the document.",
+          "They have no particular rhetorical function, serving only to end the document.",
+          "Their parallel structure and directness give a concise closing that ties the cost to the justification.",
+          "They contradict the passage's central argument about the recycling program's value."
         ],
         "correct": 2,
         "explanation": "These two short, parallel sentences provide a concise, balanced closing — acknowledging the real cost to residents (goodwill-building ethos) while directly connecting that cost back to the evidence-based justification established in [3]-[4], tying the statement's argument together. They reinforce rather than contradict the document's argument, and 'daily effort' is not a new topic — it's the direct consequence of the change being explained throughout."
@@ -2465,10 +2465,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Would replacing 'redirected to landfills' in sentence [3] with the more severe-sounding 'wasted, dumped, and lost forever' improve this document's effectiveness?",
         "choices": [
-          "Yes, because the more severe language is more factually accurate.",
-          "It would have no effect on the document's tone or effectiveness.",
-          "No — the measured phrasing better fits this document's calm, evidence-based purpose than the more dramatic alternative.",
-          "Yes, more dramatic language always improves persuasive writing."
+          "Yes, because the more severe language is more factually accurate than measured phrasing.",
+          "It would have no effect on the document's tone or its effectiveness with readers.",
+          "No — the measured phrasing better fits this document's calm, evidence-based purpose.",
+          "Yes, more dramatic language always improves persuasive writing in any situation."
         ],
         "correct": 2,
         "explanation": "The more measured phrasing is more consistent with this document's calm, evidence-based, informational purpose — the more dramatic alternative ('wasted, dumped, and lost forever') risks reading as manipulative pathos rather than legitimate informational communication, potentially undermining rather than strengthening this specific document's credibility. The severe language isn't more factually accurate — both phrasings describe the same landfill outcome — the change would clearly affect tone, and 'more dramatic always improves' overgeneralizes a claim this document's genre doesn't support."
@@ -2478,10 +2478,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What is the primary rhetorical effect of sentence [1]'s structure, with its extended qualifying clause ('and never once, in any interview I could find...')?",
         "choices": [
-          "The careful, qualified structure enacts the writer's own thorough research, building ethos before the essay's interpretive claims begin.",
-          "It contradicts the essay's later claims.",
-          "It is grammatically incorrect and should be shortened — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "It has no particular rhetorical effect."
+          "The careful, qualified structure enacts the writer's research, building ethos before the interpretive claims begin.",
+          "It contradicts the essay's later claims, which are far more confident and direct in tone.",
+          "It is grammatically incorrect and should be shortened to make the point more clearly to readers.",
+          "It has no particular rhetorical effect on how the essay is received by readers."
         ],
         "correct": 0,
         "explanation": "The extended, carefully qualified sentence structure ('in any interview I could find') enacts the writer's own thorough research process through its very form — building ethos through demonstrated diligence and precision before the essay moves into its more interpretive, argumentative claims. It sets up rather than contradicts the essay's later claims, it is grammatically sound despite its length, and its careful qualification is doing deliberate rhetorical work, not none."
@@ -2491,10 +2491,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What is the effect of the short sentence [2] ('Some critics called this a limitation.') immediately following the longer sentence [1]?",
         "choices": [
-          "It fully agrees with and reinforces sentence [1]'s claims.",
-          "Its brevity contrasts with [1]'s length, isolating the critical framing for scrutiny before the essay pivots against it.",
-          "It has no particular rhetorical effect.",
-          "It introduces an entirely unrelated topic."
+          "It fully agrees with and reinforces sentence [1]'s claims throughout the paragraph.",
+          "Its brevity contrasts with [1]'s length, isolating the critical framing before the essay pivots against it.",
+          "It has no particular rhetorical effect on how the paragraph is read overall.",
+          "It introduces an entirely unrelated topic that the essay never returns to later."
         ],
         "correct": 1,
         "explanation": "This short sentence's brevity, following the much longer sentence [1], isolates the critical framing ('a limitation') for scrutiny — setting it up cleanly to be directly challenged and complicated in the sentences that immediately follow. It doesn't simply reinforce sentence [1] (it introduces the critics' contrary view), it's doing clear structural work rather than none, and 'limitation' is directly related to, not unrelated to, the essay's subject."
@@ -2504,10 +2504,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Sentence [3] contains a stylistic choice ('the opposite thing entirely dressed up to look like a limitation') that primarily functions to:",
         "choices": [
-          "Introduce a factual error into the essay.",
+          "Introduce a factual error into the essay so that readers will question the author.",
           "Reframe and reverse the critics' characterization from [2], turning the labeled weakness into a strength.",
-          "Concede that the critics were correct.",
-          "Simply restate sentence [2] with no new content — a plausible-sounding claim, but one this draft's specific wording does not actually support."
+          "Concede that the critics were correct and drop the essay's original claim.",
+          "Simply restate sentence [2] with no new content, repeating the critics' point."
         ],
         "correct": 1,
         "explanation": "This phrase directly reframes and reverses the critics' characterization from sentence [2] — turning what was labeled a 'limitation' into its 'opposite,' a deliberate interpretive move central to the essay's argumentative purpose. It introduces no factual error, it is not a restatement (it actively contradicts sentence [2]'s framing), and it does the opposite of conceding — it directly challenges the critics' view."
@@ -2517,10 +2517,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What does sentence [4]'s distinction between 'staying put' and 'mistaking motion for insight' primarily accomplish?",
         "choices": [
-          "It introduces evidence unrelated to the essay's topic.",
-          "It supplies the reasoning connecting the reframing to a specific claim about why staying could be a strength.",
-          "It contradicts the essay's central argument.",
-          "It has no particular rhetorical purpose."
+          "It introduces evidence unrelated to the essay's topic, shifting the focus elsewhere.",
+          "It supplies the reasoning connecting the reframing to a claim about why staying could be a strength.",
+          "It contradicts the essay's central argument by returning to the critics' view.",
+          "It has no particular rhetorical purpose beyond adding length to the paragraph."
         ],
         "correct": 1,
         "explanation": "This distinction provides the underlying REASONING connecting the writer's reframing to a specific justification — explaining WHY staying in one place could be a strength (deeper seeing versus mistaking motion for insight) rather than simply asserting the reversal without support, strengthening the essay's line of reasoning. It supports rather than contradicts the essay's argument, it clearly has rhetorical purpose, and it's directly on-topic, not unrelated."
@@ -2530,10 +2530,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What is the rhetorical effect of the essay's final two sentences ('She stayed. That was the whole method.')?",
         "choices": [
-          "Their extreme brevity creates a memorable, aphoristic closing that distills the essay's whole argument.",
-          "They contradict everything argued earlier in the essay.",
-          "They introduce an entirely new argument not previously discussed — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "They have no particular rhetorical effect."
+          "Their extreme brevity creates a memorable, aphoristic closing that distills the essay's argument.",
+          "They contradict everything argued earlier in the essay and reverse its conclusion.",
+          "They introduce an entirely new argument not previously discussed in the essay.",
+          "They have no particular rhetorical effect on the essay's ending or its emphasis."
         ],
         "correct": 0,
         "explanation": "These extremely brief closing sentences, following the essay's longer preceding sentences, create a memorable, aphoristic conclusion that distills the entire essay's reframing argument into a compact, quotable final statement — a deliberate, effective syntactic choice for an essay's ending. They complete rather than contradict the essay's argument, and they restate — in condensed form — the argument already built, rather than introducing anything new."
@@ -2543,10 +2543,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "If the writer wanted to add a sentence with connotation-rich diction reinforcing the essay's positive reframing of the author's choice to stay in one place, which option would be most effective?",
         "choices": [
-          "She never left her hometown, which some found strange.",
-          "Staying in one place is a common choice for many authors.",
-          "She lived in one place for a long time.",
-          "She rooted herself, deliberately, in twenty miles of ground most writers would have called too small to matter."
+          "She never left her hometown, which some of her readers found rather strange.",
+          "Staying in one place is a common choice for many authors, and she was no different.",
+          "She lived in one place for a long time, which shaped her writing in some ways.",
+          "She rooted herself, deliberately, in twenty miles of ground most writers would have called too small."
         ],
         "correct": 3,
         "explanation": "'Rooted herself, deliberately' carries strong positive connotation (intentional, grounded, growth-oriented) directly reinforcing the essay's reframing argument, unlike the more neutral or even mildly negative alternatives, which don't actively support the essay's specific interpretive claim. 'A common choice' and 'lived in one place' are flatly neutral, doing no reframing work, and 'which some found strange' actively works against the essay's positive reframing rather than supporting it."
@@ -2556,10 +2556,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering the document as a whole, which revision principle would most improve its overall persuasive coherence?",
         "choices": [
-          "Adding significantly more emotional language throughout.",
+          "Adding significantly more emotional language throughout to make the document feel urgent.",
           "Connecting sentence [2]'s claim explicitly to the evidence that follows, rather than leaving it isolated.",
-          "Removing all comparative data from other cities.",
-          "Making every sentence as short as possible regardless of content — a plausible-sounding claim, but one this draft's specific wording does not actually support."
+          "Removing all comparative data from other cities to keep the focus on this one.",
+          "Making every sentence as short as possible regardless of what it needs to say."
         ],
         "correct": 1,
         "explanation": "The most improving revision principle is connecting sentence [2]'s bare claim explicitly to its supporting evidence — since this is the draft's clearest instance of a conclusion stated before (rather than integrated with) its justification, a pattern this unit's ethos and evidence discussions both flag as a common weakness. Uniform short sentences, added emotional language, and removing the comparative data would each undercut, rather than fix, this document's actual strengths."
@@ -2569,10 +2569,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Considering the essay as a whole, what does its overall syntax pattern (long, qualifying sentences building to short, aphoristic ones) suggest about the writer's rhetorical strategy?",
         "choices": [
-          "The pattern has no rhetorical significance and should be revised for consistency.",
-          "The pattern is accidental and has no relationship to the essay's meaning.",
-          "It mirrors the essay's own argument — patient, qualifying sentences distilled into confident, short conclusions.",
-          "The pattern contradicts the essay's central argument."
+          "The pattern has no rhetorical significance and should be revised for consistency across the essay.",
+          "The pattern is accidental and has no relationship to the essay's meaning or its central argument.",
+          "It mirrors the essay's argument — patient, qualifying sentences distilled into confident, short conclusions.",
+          "The pattern contradicts the essay's central argument about slow, careful work and patient writing."
         ],
         "correct": 2,
         "explanation": "This syntax pattern mirrors the essay's own argument in its very form — careful, patient, qualifying consideration (longer sentences) eventually distilled into simple, confident conclusions (short sentences) — enacting through structure the same value (patient attentiveness over hasty motion) the essay explicitly assigns to its subject. Far from insignificant, accidental, or contradictory, this pattern is a deliberate reinforcement of the essay's own thesis."
@@ -2582,10 +2582,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "If sentence [2] were revised to 'This change is necessary, and here is exactly why,' would this improve the draft's coherence?",
         "choices": [
-          "No, because explicit transitional signals are never appropriate in persuasive writing — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "Yes, but only because it makes the sentence longer.",
-          "No, this addition would have no effect on the draft.",
-          "Yes — it explicitly signals that supporting evidence is coming, integrating the claim with the evidence better than the original abrupt assertion."
+          "No, because explicit transitional signals are never appropriate in persuasive writing of any kind.",
+          "Yes, but only because it makes the sentence longer and more formal in tone.",
+          "No, this addition would have no effect on the draft, since the sentence is already clear.",
+          "Yes — it signals that supporting evidence is coming, integrating the claim with the evidence better than the abrupt original."
         ],
         "correct": 3,
         "explanation": "This addition explicitly signals to the reader that supporting evidence is about to follow — better integrating the claim with its evidence in [3]-[4] than the original abrupt, unconnected assertion, improving the passage's overall coherence and line of reasoning. Transitional signals are a standard, appropriate tool in persuasive writing, not something 'never appropriate'; the improvement is about signaling function, not mere length; and the change clearly does have an effect on the draft's coherence."
@@ -2595,10 +2595,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which word choice in sentence [3] carries connotation worth analyzing: 'contamination' or a more neutral alternative like 'mixing'?",
         "choices": [
-          "'Contamination' connotes impurity and corruption, conveying seriousness that a neutral word like 'mixing' would not.",
-          "'Contamination' is a purely technical term with no emotional coloring whatsoever.",
-          "'Mixing' would carry identical connotation to 'contamination.'",
-          "Neither term carries any connotation."
+          "'Contamination' connotes impurity and corruption, conveying seriousness that a neutral word like 'mixing' lacks.",
+          "'Contamination' is a purely technical term with no emotional coloring whatsoever in this context.",
+          "'Mixing' would carry an identical connotation to 'contamination,' so the word choice does not matter.",
+          "Neither term carries any connotation, since both are simply literal descriptions of the same event."
         ],
         "correct": 0,
         "explanation": "'Contamination' carries a strongly negative connotation of impurity or corruption, appropriately conveying the seriousness of the recycling problem — a more neutral term like 'mixing' would understate the issue's severity and wouldn't justify the policy change as effectively. It is not purely technical or emotionally neutral; it is not identical in connotation to 'mixing'; and it plainly does carry connotation."
@@ -2608,10 +2608,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Does this document's overall syntax (a mix of longer explanatory sentences and shorter direct ones) serve its stated informational purpose well?",
         "choices": [
-          "No, because public announcements should never use varied sentence length — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "No, all sentences should be uniform in length regardless of content.",
-          "Yes — longer sentences carry the explanatory detail, while shorter sentences deliver key takeaways with appropriate directness.",
-          "The document's syntax has no relationship to its effectiveness."
+          "No, because public announcements should never use varied sentence length of any kind.",
+          "No, all sentences should be uniform in length regardless of content or purpose.",
+          "Yes — longer sentences carry the explanatory detail, while shorter sentences deliver key takeaways directly.",
+          "The document's syntax has no relationship to its effectiveness with the audience it addresses."
         ],
         "correct": 2,
         "explanation": "This syntax mix serves the document's purpose well — longer sentences carry necessary explanatory detail and evidence, while shorter concluding sentences deliver key takeaways with directness appropriate for a public-facing informational announcement. Syntax clearly does relate to effectiveness here, and the claims that public announcements should never vary sentence length, or that all sentences should be uniform, both contradict this unit's broader point that varied length is a deliberate, useful rhetorical tool."
@@ -2621,10 +2621,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which revision would most strengthen sentence [4]'s persuasive power through more precise diction?",
         "choices": [
-          "Sorted collection is the only possible solution to this problem.",
-          "Sorted collection might possibly help with some recycling issues in certain cases.",
-          "Sorted collection is generally considered a good practice by most experts.",
-          "Sorted collection, based on outcomes in comparable cities, typically reduces contamination-driven landfill redirection to under ten percent."
+          "Sorted collection is the only possible solution to this problem, and nothing else would work.",
+          "Sorted collection might possibly help with some recycling issues in certain cases or places.",
+          "Sorted collection is generally considered a good practice by most experts in waste management.",
+          "Sorted collection, based on outcomes in comparable cities, typically reduces landfill redirection to under ten percent."
         ],
         "correct": 3,
         "explanation": "The original sentence, with its specific comparative data ('under ten percent,' 'comparable cities'), is already the most precise and persuasive option — the alternatives replace this precision with vague hedging ('might possibly'), unsupported appeal to general opinion ('most experts'), or unsupported absolutism ('the only possible solution'), each a weaker choice than the specific figure already in the draft."
@@ -2636,7 +2636,7 @@ const QUESTIONS = {
         "choices": [
           "No, because 'stayed' is always the stronger word choice in any context.",
           "Yes — 'rooted herself' connotes intentional growth that 'stayed' alone would understate.",
-          "No, the two words are perfectly interchangeable with no difference in effect — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
+          "No, the two words are perfectly interchangeable with no difference in effect.",
           "Yes, but only because 'rooted herself' is a longer phrase."
         ],
         "correct": 1,
@@ -2647,10 +2647,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What is the effect of the essay's title choice being a tribute rather than a purely biographical summary, based on the diction and syntax patterns identified throughout the draft?",
         "choices": [
-          "A purely biographical summary would have used identical diction and syntax choices.",
-          "The tribute framing is reinforced by the essay's connotation-rich diction and emphatic closing syntax, both suited to persuasive tribute writing.",
-          "The essay's diction and syntax actually undermine its tribute purpose.",
-          "The tribute framing has no relationship to the essay's diction or syntax choices."
+          "A purely biographical summary would have used identical diction and syntax choices throughout.",
+          "The tribute framing is reinforced by the essay's connotation-rich diction and emphatic closing syntax.",
+          "The essay's diction and syntax actually undermine its tribute purpose and weaken its framing.",
+          "The tribute framing has no relationship to the essay's diction or syntax choices at all."
         ],
         "correct": 1,
         "explanation": "The tribute framing is consistent with and reinforced by the essay's connotation-rich diction (like 'rooted herself') and emphatic, aphoristic closing syntax — both choices appropriate to persuasive tribute writing rather than neutral biography. Far from undermining its purpose, these choices support it; a purely biographical summary would likely use flatter, less connotative language, not identical choices; and the framing and stylistic choices are clearly connected, not unrelated."
@@ -2660,10 +2660,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "If a peer reviewer suggested removing all of the essay's short sentences to make it 'more sophisticated,' would this be sound revision advice?",
         "choices": [
-          "Yes, because short sentences are never appropriate in tribute writing — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "Yes, longer sentences are always more sophisticated and effective.",
-          "This question cannot be answered without more information.",
-          "No — the short sentences serve a deliberate function (emphasis, memorable closing) this unit identifies as a legitimate strategy, not a flaw."
+          "Yes, because short sentences are never appropriate in tribute writing of any kind or length.",
+          "Yes, longer sentences are always more sophisticated and effective than shorter ones are.",
+          "This question cannot be answered without more information about the essay's intended audience.",
+          "No — the short sentences serve a deliberate function (emphasis, memorable closing) this unit identifies as legitimate."
         ],
         "correct": 3,
         "explanation": "This would NOT be sound advice — the short sentences serve a specific, deliberate rhetorical function (emphasis through contrast with the longer sentences, memorable aphoristic closing), consistent with this unit's point that sentence length is a meaningful rhetorical CHOICE, not simply a marker of unsophisticated writing. The question has a clear, answerable verdict given this unit's framework; length alone doesn't determine sophistication; and short sentences are demonstrably appropriate here, contrary to the claim that they never belong in tribute writing."
@@ -2673,9 +2673,9 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which of the following best describes the overall relationship between this document's ethos-building choices and its evidence?",
         "choices": [
-          "The document's ethos-building choices actively undermine its evidence.",
-          "The document contains no ethos-building choices of any kind.",
-          "The document builds ethos partly through its evidence — citing specific, sourced data itself signals a careful, fact-based approach.",
+          "The document's ethos-building choices actively undermine its evidence and weaken its overall case.",
+          "The document contains no ethos-building choices of any kind, relying only on bare assertion.",
+          "The document builds ethos partly through its evidence — citing specific, sourced data signals a fact-based approach.",
           "The document's ethos-building choices and its evidence are entirely unrelated to each other."
         ],
         "correct": 2,
@@ -2686,10 +2686,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which of the following best explains why the essay avoids stating its central reframing claim (staying as strength, not limitation) in the very first sentence?",
         "choices": [
-          "The essay never actually states its central claim anywhere.",
-          "The essay's structure is disorganized and should be revised to lead with the thesis — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "The essay has no particular structural strategy.",
-          "Establishing the factual context and conventional critical view first builds a more persuasive contrast than asserting the reframing upfront."
+          "The essay never actually states its central claim anywhere, leaving readers to guess it.",
+          "The essay's structure is disorganized and should be revised to lead with the thesis.",
+          "The essay has no particular structural strategy, since its paragraphs could appear in any order.",
+          "Establishing the factual context and conventional view first builds a more persuasive contrast than asserting upfront."
         ],
         "correct": 3,
         "explanation": "By first establishing factual context and the conventional critical view before introducing its reframing, the essay builds a more persuasive CONTRAST than if it simply asserted its interpretation upfront — letting the reader first see the 'limitation' framing before watching the essay dismantle it, a deliberate structural choice. This is a clear, purposeful strategy, not disorganization; and the essay does eventually state its central claim explicitly in sentences [3]-[5]."
@@ -2699,8 +2699,8 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering this document's overall persuasive strategy, which best describes how ethos, evidence, and syntax work together?",
         "choices": [
-          "Sourced evidence builds ethos, that evidence forms a clear line of reasoning, and syntax delivers the conclusions with directness.",
-          "The three elements actively work against each other in this document.",
+          "Sourced evidence builds ethos, that evidence forms a clear line of reasoning, and syntax delivers conclusions directly.",
+          "The three elements actively work against each other in this document, weakening its overall effect.",
           "Only evidence matters; ethos and syntax are irrelevant to this document's effectiveness.",
           "These three elements work in complete isolation from each other with no interaction."
         ],
@@ -2712,10 +2712,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which of the following best captures the single most important lesson this draft exercise illustrates about rhetorical analysis?",
         "choices": [
-          "That short sentences are always superior to long sentences.",
-          "That connotation has no relationship to argumentative effectiveness.",
-          "That tribute essays should never use factual, biographical information — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "That syntax, diction, and structure work as a unified strategy — analyzing one element alone gives an incomplete picture."
+          "That short sentences are always superior to long sentences in every kind of persuasive writing.",
+          "That connotation has no relationship to argumentative effectiveness in any kind of writing.",
+          "That tribute essays should never use factual, biographical information about their subjects.",
+          "That syntax, diction, and structure work as a unified strategy — analyzing one alone gives an incomplete picture."
         ],
         "correct": 3,
         "explanation": "The single most important lesson is that syntax, diction, and argumentative structure work together as a UNIFIED rhetorical strategy — analyzing any one element in isolation provides an incomplete picture of how a passage actually achieves its full persuasive effect, the central integrating idea this unit has built toward. Short sentences aren't universally superior; tribute essays clearly do use factual/biographical detail, as this very essay does; and connotation plainly does relate to argumentative effectiveness throughout this unit's examples."
@@ -2738,7 +2738,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which of the following best describes how this unit's concepts of syntax and connotation combine in analyzing a single passage's overall effect?",
         "choices": [
-          "Only connotation matters for rhetorical analysis; syntax is purely a grammatical concern with no persuasive function — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
+          "Only connotation matters for rhetorical analysis; syntax is purely a grammatical concern with no persuasive function.",
           "Syntax and connotation are unrelated concepts that should never be analyzed together.",
           "Only syntax matters for rhetorical analysis; connotation is purely a matter of personal writing style.",
           "A passage's full effect typically emerges from BOTH structural and word-level choices working together."
@@ -2751,10 +2751,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best describes the relationship between this document's specific numerical evidence and its overall syntax choices?",
         "choices": [
-          "Numbers sit inside longer explanatory sentences for context, while shorter sentences deliver conclusions without needing more support.",
-          "The document contains no numerical evidence of any kind.",
-          "All of the document's sentences are identical in length and structure.",
-          "The numerical evidence and syntax choices are entirely unrelated to each other."
+          "Numbers sit inside longer explanatory sentences for context, while shorter sentences deliver conclusions.",
+          "The document contains no numerical evidence of any kind, relying only on general claims.",
+          "All of the document's sentences are identical in length and structure from start to finish.",
+          "The numerical evidence and syntax choices are entirely unrelated to each other in this document."
         ],
         "correct": 0,
         "explanation": "The document pairs specific numerical evidence with longer, explanatory sentences that provide necessary context, while shorter sentences deliver conclusions that don't require further numerical support — a deliberate matching of evidence type to appropriate syntax choice throughout the document. Sentence length clearly varies rather than staying uniform; the document does contain numerical evidence (a third of material, under ten percent); and the pairing between evidence type and syntax is deliberate, not unrelated."
@@ -2764,10 +2764,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Overall, which of the following best explains why this essay's reframing argument (staying as strength) is more persuasive than if it had simply stated 'staying in one place is good' as its opening claim?",
         "choices": [
-          "Building the case through the critical view and context first lets the essay earn its conclusion rather than simply assert it.",
-          "A bare opening assertion would have been equally effective for this specific essay — a plausible-sounding claim, but one this draft's specific wording does not actually support.",
-          "It would be equally persuasive either way, since the content is identical.",
-          "The essay never actually explains why staying is good; it just repeats the claim."
+          "Building the case through the critical view and context first lets the essay earn its conclusion.",
+          "A bare opening assertion would have been equally effective for this specific essay and audience.",
+          "It would be equally persuasive either way, since the content is identical in both versions.",
+          "The essay never actually explains why staying is good; it just repeats the claim in new words."
         ],
         "correct": 0,
         "explanation": "By first establishing the conventional critical view and factual context, then building a reasoned case through connected sentences rather than opening with a bare assertion, the essay EARNS its conclusion — directly consistent with this unit's and the broader course's emphasis on demonstrated line of reasoning over simple assertion. A bare opening assertion would not be equally effective, since it would skip the persuasive contrast the essay builds; the content and presentation are not equivalent despite covering the same facts; and the essay does explain its reasoning (sentence [4]), rather than merely repeating the claim."
@@ -2818,26 +2818,26 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "Which classical structural element is most clearly present in this passage's final sentence?",
         "choices": [
-          "Introduction",
-          "Narration",
-          "This passage contains no refutation of any kind.",
+          "Introduction, establishing the topic and the writer's position",
+          "Narration, giving background context before the claims begin",
+          "This passage contains no refutation of any kind, only the writer's claims.",
           "A form of refutation, addressing a likely objection about emergency delays."
         ],
         "correct": 3,
-        "explanation": "The final sentence preemptively addresses a likely objection (that the ordinance could delay urgent safety work) — a form of refutation, heading off a probable counterargument before it can be raised against the proposal. In full: A form of refutation, preemptively addressing a likely objection about emergency work being delayed. The other choices are wrong: “Introduction” names a different classical structural element than the one actually performed here; “Narration” names a different classical structural element than the one actually performed here; “This passage contains no refutation of any kind.” describes something the passage does not do."
+        "explanation": "The final sentence preemptively addresses a likely objection (that the ordinance could delay urgent safety work) — a form of refutation, heading off a probable counterargument before it can be raised against the proposal. In full: A form of refutation, preemptively addressing a likely objection about emergency work being delayed. The other choices are wrong: “Introduction, establishing the topic and the writer's position” names a different classical structural element than the one actually performed here; “Narration, giving background context before the claims begin” names a different classical structural element than the one actually performed here; “This passage contains no refutation of any kind, only the writer's claims” describes something the passage does not do."
       },
       {
         "id": "1-2",
         "passageId": "P1",
         "stem": "What organizational pattern does this passage primarily use?",
         "choices": [
-          "The passage uses no identifiable organizational pattern",
-          "Chronological narrative",
-          "Compare/contrast between two policies",
-          "Problem/solution: an issue (unrestricted hours) and a specific remedy (restricted hours)."
+          "The passage uses no identifiable organizational pattern in how it presents its points",
+          "Chronological narrative, ordering events in the sequence they happened",
+          "Compare/contrast between two competing policies, point by point",
+          "Problem/solution: an issue (unrestricted hours) with a remedy (restricted hours)."
         ],
         "correct": 3,
-        "explanation": "This passage uses a problem/solution structure — identifying a specific issue (unrestricted construction hours and their documented health effects) and proposing a specific remedy (restricted hours, with a built-in exception addressing a likely objection). In full: Problem/solution — identifying an issue (unrestricted hours) and proposing a specific remedy (restricted hours with an exception). The other choices are wrong: “The passage uses no identifiable organizational pattern” wrongly claims the feature is entirely absent when it clearly is present; “Compare/contrast between two policies” misidentifies the organizational pattern — no two options are being weighed against each other here; “Chronological narrative” misidentifies the organizational pattern — nothing in the passage turns on a time sequence."
+        "explanation": "This passage uses a problem/solution structure — identifying a specific issue (unrestricted construction hours and their documented health effects) and proposing a specific remedy (restricted hours, with a built-in exception addressing a likely objection). In full: Problem/solution — identifying an issue (unrestricted hours) and proposing a specific remedy (restricted hours with an exception). The other choices are wrong: “The passage uses no identifiable organizational pattern in how it presents its points” wrongly claims the feature is entirely absent when it clearly is present; “Compare/contrast between two competing policies, point by point” misidentifies the organizational pattern — no two options are being weighed against each other here; “Chronological narrative, ordering events in the sequence they happened” misidentifies the organizational pattern — nothing in the passage turns on a time sequence."
       },
       {
         "id": "1-3",
@@ -2870,13 +2870,13 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "What specific evidence does the passage's rebuttal rely on?",
         "choices": [
-          "No specific evidence is provided in the rebuttal.",
+          "No specific evidence is provided anywhere in the rebuttal itself.",
           "Named verification systems and comparative fraud-rate data across states.",
-          "An appeal to authority with no supporting data.",
-          "A single anecdote with no broader context."
+          "An appeal to an unnamed authority with no supporting data behind it.",
+          "A single anecdote with no broader context or supporting figures."
         ],
         "correct": 1,
-        "explanation": "The rebuttal relies on specific evidence — named verification systems and comparative fraud-rate data across states with expanded mail-in access — grounding the response in concrete, checkable specifics rather than a general reassurance. In full: Specific systems (signature verification, ballot tracking) and comparative fraud-rate data across states that have expanded mail-in access. The other choices are wrong: “No specific evidence is provided in the rebuttal.” wrongly claims the feature is entirely absent when it clearly is present; “An appeal to authority with no supporting data.” misdescribes the type of evidence actually cited; “A single anecdote with no broader context.” misdescribes the type of evidence actually cited."
+        "explanation": "The rebuttal relies on specific evidence — named verification systems and comparative fraud-rate data across states with expanded mail-in access — grounding the response in concrete, checkable specifics rather than a general reassurance. In full: Specific systems (signature verification, ballot tracking) and comparative fraud-rate data across states that have expanded mail-in access. The other choices are wrong: “No specific evidence is provided anywhere in the rebuttal itself” wrongly claims the feature is entirely absent when it clearly is present; “An appeal to an unnamed authority with no supporting data behind it” misdescribes the type of evidence actually cited; “A single anecdote with no broader context or supporting figures” misdescribes the type of evidence actually cited."
       },
       {
         "id": "2-3",
@@ -2884,12 +2884,12 @@ const QUESTIONS = {
         "stem": "What is the rhetorical effect of the short, parallel concluding sentences ('The security concern is legitimate to raise. It has also already been substantially addressed...')?",
         "choices": [
           "Their brevity and parallelism summarize the concession-and-rebuttal structure.",
-          "They introduce a completely new, unrelated argument.",
-          "They have no particular rhetorical effect.",
-          "They contradict the passage's earlier argument."
+          "They introduce a completely new, unrelated argument at the end.",
+          "They have no particular rhetorical effect on the passage as a whole.",
+          "They contradict the passage's earlier argument about the proposal."
         ],
         "correct": 0,
-        "explanation": "These short, parallel sentences deliver a concise, balanced summary of the passage's concession-and-rebuttal structure — reinforcing, through their very brevity and parallelism, that both the concern's legitimacy and its resolution are being treated with equal seriousness. In full: Their brevity and parallel structure deliver a concise, balanced summary of the concession-and-rebuttal structure, reinforcing that both the concern's legitimacy and its resolution are being taken seriously. The other choices are wrong: “They have no particular rhetorical effect.” wrongly claims the feature is entirely absent when it clearly is present; “They introduce a completely new, unrelated argument.” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning; “They contradict the passage's earlier argument.” mischaracterizes the relationship as contradictory when it is not."
+        "explanation": "These short, parallel sentences deliver a concise, balanced summary of the passage's concession-and-rebuttal structure — reinforcing, through their very brevity and parallelism, that both the concern's legitimacy and its resolution are being treated with equal seriousness. In full: Their brevity and parallel structure deliver a concise, balanced summary of the concession-and-rebuttal structure, reinforcing that both the concern's legitimacy and its resolution are being taken seriously. The other choices are wrong: “They have no particular rhetorical effect on the passage as a whole” wrongly claims the feature is entirely absent when it clearly is present; “They introduce a completely new, unrelated argument at the end” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning; “They contradict the passage's earlier argument about the proposal” mischaracterizes the relationship as contradictory when it is not."
       },
       {
         "id": "3-1",
@@ -2974,13 +2974,13 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What organizational pattern does this passage primarily use?",
         "choices": [
-          "Chronological narrative of ER visits",
-          "Compare/contrast between two hospitals",
-          "Cause/effect combined with problem/solution: diagnosing routing, then proposing a fix.",
-          "The passage uses no identifiable organizational pattern"
+          "Chronological narrative of ER visits, told in order of occurrence",
+          "Compare/contrast between two hospitals and their routing practices",
+          "Cause/effect with problem/solution: diagnosing routing, then proposing a fix.",
+          "The passage uses no identifiable organizational pattern in its presentation"
         ],
         "correct": 2,
-        "explanation": "This passage combines cause/effect (diagnosing routing, not capacity, as the actual cause) with problem/solution (proposing patient education and triage guidance as the targeted remedy) — a blended structure matching the claim's actual logical shape. In full: Cause/effect and problem/solution combined — diagnosing the actual cause of a problem (routing) before proposing a targeted remedy. The other choices are wrong: “The passage uses no identifiable organizational pattern” wrongly claims the feature is entirely absent when it clearly is present; “Chronological narrative of ER visits” misidentifies the organizational pattern — nothing in the passage turns on a time sequence; “Compare/contrast between two hospitals” misidentifies the organizational pattern — no two options are being weighed against each other here."
+        "explanation": "This passage combines cause/effect (diagnosing routing, not capacity, as the actual cause) with problem/solution (proposing patient education and triage guidance as the targeted remedy) — a blended structure matching the claim's actual logical shape. In full: Cause/effect and problem/solution combined — diagnosing the actual cause of a problem (routing) before proposing a targeted remedy. The other choices are wrong: “The passage uses no identifiable organizational pattern in its presentation” wrongly claims the feature is entirely absent when it clearly is present; “Chronological narrative of ER visits, told in order of occurrence” misidentifies the organizational pattern — nothing in the passage turns on a time sequence; “Compare/contrast between two hospitals and their routing practices” misidentifies the organizational pattern — no two options are being weighed against each other here."
       },
       {
         "id": "5-2",
@@ -3013,26 +3013,26 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "What does the passage's comparison to 'the majority of comparable municipalities' primarily accomplish?",
         "choices": [
-          "It has no rhetorical function.",
-          "It introduces an entirely unrelated argument.",
+          "It has no rhetorical function within the passage's argument.",
+          "It introduces an entirely unrelated argument to the passage.",
           "A comparative logos appeal framing the proposal as mainstream, not extreme.",
-          "It contradicts the passage's earlier claims."
+          "It contradicts the passage's earlier claims about the proposal."
         ],
         "correct": 2,
-        "explanation": "This comparison uses a comparative logos-based appeal, framing the proposal as a reasonable, mainstream approach already adopted elsewhere — implicitly countering any impression that the ordinance is extreme or unprecedented. In full: It uses a comparative logos-based appeal, suggesting the proposal is a reasonable, mainstream approach rather than an extreme or unusual one. The other choices are wrong: “It has no rhetorical function.” wrongly claims the feature is entirely absent when it clearly is present; “It contradicts the passage's earlier claims.” mischaracterizes the relationship as contradictory when it is not; “It introduces an entirely unrelated argument.” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning."
+        "explanation": "This comparison uses a comparative logos-based appeal, framing the proposal as a reasonable, mainstream approach already adopted elsewhere — implicitly countering any impression that the ordinance is extreme or unprecedented. In full: It uses a comparative logos-based appeal, suggesting the proposal is a reasonable, mainstream approach rather than an extreme or unusual one. The other choices are wrong: “It has no rhetorical function within the passage's argument” wrongly claims the feature is entirely absent when it clearly is present; “It contradicts the passage's earlier claims about the proposal” mischaracterizes the relationship as contradictory when it is not; “It introduces an entirely unrelated argument to the passage” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning."
       },
       {
         "id": "1-5",
         "passageId": "P1",
         "stem": "Which classical structural element does this passage's opening sentence (describing current construction hours) primarily serve?",
         "choices": [
-          "Refutation",
-          "This sentence serves no structural function",
+          "Refutation, answering an objection the opposing side might raise",
+          "This sentence serves no structural function anywhere in the passage",
           "Narration — establishing background context before the argument's claims.",
-          "Conclusion"
+          "Conclusion, closing the argument with a final appeal to readers"
         ],
         "correct": 2,
-        "explanation": "The opening sentence serves narration — establishing necessary background context (current unrestricted hours) that the reader needs before the passage's argument and evidence can be fully understood. In full: Narration — establishing necessary background context before the argument's claims are presented. The other choices are wrong: “Conclusion” names a different classical structural element than the one actually performed here; “Refutation” names a different classical structural element than the one actually performed here; “This sentence serves no structural function” describes something the passage does not do."
+        "explanation": "The opening sentence serves narration — establishing necessary background context (current unrestricted hours) that the reader needs before the passage's argument and evidence can be fully understood. In full: Narration — establishing necessary background context before the argument's claims are presented. The other choices are wrong: “Conclusion, closing the argument with a final appeal to readers” names a different classical structural element than the one actually performed here; “Refutation, answering an objection the opposing side might raise” names a different classical structural element than the one actually performed here; “This sentence serves no structural function anywhere in the passage” describes something the passage does not do."
       },
       {
         "id": "1-6",
@@ -3052,13 +3052,13 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "What claim type is the passage's central assertion regarding fraud rates ('the documented fraud rate in these states remains a fraction of a percent')?",
         "choices": [
-          "A claim of policy",
-          "A claim of value with no factual content",
-          "Not a claim of any kind",
+          "A claim of policy that recommends a specific course of action",
+          "A claim of value resting only on opinion, with no factual content",
+          "Not a claim of any kind, only a neutral description of events",
           "A claim of fact offered as evidence for the passage's policy argument."
         ],
         "correct": 3,
-        "explanation": "This is a claim of fact — a specific, verifiable statement about documented fraud rates — offered as evidence directly supporting the passage's broader claim of policy (that mail-in voting expansion is a sound approach). In full: A claim of fact, offered as evidence supporting the passage's broader policy argument. The other choices are wrong: “Not a claim of any kind” wrongly claims the feature is entirely absent when it clearly is present; “A claim of value with no factual content” misclassifies the claim type; “A claim of policy” misclassifies the claim type."
+        "explanation": "This is a claim of fact — a specific, verifiable statement about documented fraud rates — offered as evidence directly supporting the passage's broader claim of policy (that mail-in voting expansion is a sound approach). In full: A claim of fact, offered as evidence supporting the passage's broader policy argument. The other choices are wrong: “Not a claim of any kind, only a neutral description of events” wrongly claims the feature is entirely absent when it clearly is present; “A claim of value resting only on opinion, with no factual content” misclassifies the claim type; “A claim of policy that recommends a specific course of action” misclassifies the claim type."
       },
       {
         "id": "2-5",
@@ -3130,13 +3130,13 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What claim type is the passage's central diagnostic claim ('the primary driver' is a routing problem, not capacity)?",
         "choices": [
-          "Not a claim of any kind",
-          "A claim of value with no factual content",
-          "A claim of policy",
+          "Not a claim of any kind, only a neutral description of events",
+          "A claim of value resting only on opinion, with no factual content",
+          "A claim of policy that recommends a specific course of action",
           "A claim of fact — a causal diagnosis that supports the policy recommendation."
         ],
         "correct": 3,
-        "explanation": "This is a claim of fact — a specific causal diagnosis presented as objectively established through the described intake data review — which then serves as the factual foundation for the passage's subsequent policy recommendation. In full: A claim of fact — a causal diagnosis presented as objectively true based on intake data review, which then supports the passage's subsequent policy recommendation. The other choices are wrong: “Not a claim of any kind” wrongly claims the feature is entirely absent when it clearly is present; “A claim of policy” misclassifies the claim type; “A claim of value with no factual content” misclassifies the claim type."
+        "explanation": "This is a claim of fact — a specific causal diagnosis presented as objectively established through the described intake data review — which then serves as the factual foundation for the passage's subsequent policy recommendation. In full: A claim of fact — a causal diagnosis presented as objectively true based on intake data review, which then supports the passage's subsequent policy recommendation. The other choices are wrong: “Not a claim of any kind, only a neutral description of events” wrongly claims the feature is entirely absent when it clearly is present; “A claim of policy that recommends a specific course of action” misclassifies the claim type; “A claim of value resting only on opinion, with no factual content” misclassifies the claim type."
       },
       {
         "id": "1-8",
@@ -3195,13 +3195,13 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "If this passage were revised to also address the potential cost/timeline counterargument (identified in an earlier question as currently unaddressed), which structural element would this addition most directly strengthen?",
         "choices": [
-          "Introduction",
-          "This addition would not strengthen any structural element.",
-          "Refutation — engaging a second plausible objection beyond the one already addressed.",
-          "Narration"
+          "Introduction, establishing the topic and the writer's position",
+          "This addition would not strengthen any structural element of the passage.",
+          "Refutation — engaging a second plausible objection beyond the one addressed.",
+          "Narration, giving background context before the claims begin"
         ],
         "correct": 2,
-        "explanation": "This addition would most directly strengthen refutation — engaging a second plausible objection (cost/timeline) beyond the one already addressed (emergency work), more fully and comprehensively completing this structural job per Section 4.1's framework. In full: Refutation — since this addition would engage a second plausible objection beyond the one already addressed, more fully completing this structural job. The other choices are wrong: “This addition would not strengthen any structural element.” does not match what the passage/sentence actually does here; “Narration” names a different classical structural element than the one actually performed here; “Introduction” names a different classical structural element than the one actually performed here."
+        "explanation": "This addition would most directly strengthen refutation — engaging a second plausible objection (cost/timeline) beyond the one already addressed (emergency work), more fully and comprehensively completing this structural job per Section 4.1's framework. In full: Refutation — since this addition would engage a second plausible objection beyond the one already addressed, more fully completing this structural job. The other choices are wrong: “This addition would not strengthen any structural element of the passage” does not match what the passage/sentence actually does here; “Narration, giving background context before the claims begin” names a different classical structural element than the one actually performed here; “Introduction, establishing the topic and the writer's position” names a different classical structural element than the one actually performed here."
       },
       {
         "id": "3-7",
@@ -3209,12 +3209,12 @@ const QUESTIONS = {
         "stem": "Considering this unit's cumulative lessons, which single revision would most improve this passage's overall argument quality?",
         "choices": [
           "Calibrating the overclaimed language and acknowledging an alternative explanation together.",
-          "Adding more absolute, unqualified language throughout.",
-          "Removing the specific number of students studied.",
-          "Making the passage significantly shorter with no other changes."
+          "Adding more absolute, unqualified language throughout the entire passage.",
+          "Removing the specific number of students studied from the passage.",
+          "Making the passage significantly shorter with no other changes to it at all."
         ],
         "correct": 0,
-        "explanation": "Simultaneously calibrating the overclaimed language and acknowledging at least one plausible alternative explanation would most improve this passage — addressing both this unit's central lessons (claim calibration and counterargument engagement) together, rather than fixing only one issue in isolation. In full: Simultaneously calibrating the overclaimed language AND acknowledging at least one plausible alternative explanation for the pilot's results — addressing both this unit's claim-calibration and counterargument-engagement lessons together. The other choices are wrong: “Making the passage significantly shorter with no other changes.” does not match what the passage/sentence actually does here; “Removing the specific number of students studied.” is not supported by the passage's actual wording or structure; “Adding more absolute, unqualified language throughout.” recommends the opposite of this unit's calibration lesson, which favors matching confidence to evidence, not removing evidence or overclaiming further."
+        "explanation": "Simultaneously calibrating the overclaimed language and acknowledging at least one plausible alternative explanation would most improve this passage — addressing both this unit's central lessons (claim calibration and counterargument engagement) together, rather than fixing only one issue in isolation. In full: Simultaneously calibrating the overclaimed language AND acknowledging at least one plausible alternative explanation for the pilot's results — addressing both this unit's claim-calibration and counterargument-engagement lessons together. The other choices are wrong: “Making the passage significantly shorter with no other changes to it at all” does not match what the passage/sentence actually does here; “Removing the specific number of students studied from the passage” is not supported by the passage's actual wording or structure; “Adding more absolute, unqualified language throughout the entire passage” recommends the opposite of this unit's calibration lesson, which favors matching confidence to evidence, not removing evidence or overclaiming further."
       },
       {
         "id": "4-7",
@@ -3247,13 +3247,13 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Considering the passage's final sentence about hiring staff treating 'a symptom' rather than the cause, which best names the reasoning pattern being applied?",
         "choices": [
-          "Ad hominem",
-          "False dichotomy",
-          "Hasty generalization",
+          "Ad hominem, attacking the person making the argument",
+          "False dichotomy, presenting only two options when more exist",
+          "Hasty generalization, drawing a broad conclusion from thin evidence",
           "A cause/effect distinction testing whether a solution fixes the actual cause."
         ],
         "correct": 3,
-        "explanation": "This applies a cause/effect distinction specifically to evaluate a proposed solution's likely effectiveness — testing whether the alternative (more staff) addresses the actual root cause (routing) or merely a surface symptom, a reasoning pattern directly useful for evaluating any proposed solution against a correctly diagnosed cause. In full: A cause/effect distinction applied specifically to evaluate a proposed solution's likely effectiveness — testing whether it addresses the root cause or only a surface manifestation of it. The other choices are wrong: “Hasty generalization” names a different reasoning pattern than the one actually being applied here; “False dichotomy” names a different reasoning pattern than the one actually being applied here; “Ad hominem” names a different reasoning pattern than the one actually being applied here."
+        "explanation": "This applies a cause/effect distinction specifically to evaluate a proposed solution's likely effectiveness — testing whether the alternative (more staff) addresses the actual root cause (routing) or merely a surface symptom, a reasoning pattern directly useful for evaluating any proposed solution against a correctly diagnosed cause. In full: A cause/effect distinction applied specifically to evaluate a proposed solution's likely effectiveness — testing whether it addresses the root cause or only a surface manifestation of it. The other choices are wrong: “Hasty generalization, drawing a broad conclusion from thin evidence” names a different reasoning pattern than the one actually being applied here; “False dichotomy, presenting only two options when more exist” names a different reasoning pattern than the one actually being applied here; “Ad hominem, attacking the person making the argument” names a different reasoning pattern than the one actually being applied here."
       }
     ],
     "draftPassages": [
@@ -3276,13 +3276,13 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Sentence [1] is problematic for this letter's stated audience and purpose primarily because it:",
         "choices": [
-          "An ad hominem-adjacent attack on supporters' character rather than the proposal's substance.",
-          "Is grammatically incorrect.",
-          "Contains too much specific evidence.",
-          "Is too short compared to surrounding sentences."
+          "An ad hominem-adjacent attack on supporters' character rather than on the proposal's substance.",
+          "Is grammatically incorrect in a way that makes the sentence hard for readers to follow.",
+          "Contains too much specific evidence for a single sentence in a short letter.",
+          "Is too short compared to the surrounding sentences, which makes it feel abrupt."
         ],
         "correct": 0,
-        "explanation": "Sentence [1] attacks supporters' character rather than engaging the proposal's substance — an ad hominem-adjacent move likely to undermine the writer's ethos with board members, who may reasonably expect substantive engagement rather than character attacks. In full: Uses an ad hominem-adjacent attack on supporters' character ('clearly doesn't care') rather than engaging the substance of the proposal, likely undermining the writer's ethos with board members. The other choices are wrong: “Is grammatically incorrect.” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play; “Contains too much specific evidence.” is not supported by the passage's actual wording or structure; “Is too short compared to surrounding sentences.” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play."
+        "explanation": "Sentence [1] attacks supporters' character rather than engaging the proposal's substance — an ad hominem-adjacent move likely to undermine the writer's ethos with board members, who may reasonably expect substantive engagement rather than character attacks. In full: Uses an ad hominem-adjacent attack on supporters' character ('clearly doesn't care') rather than engaging the substance of the proposal, likely undermining the writer's ethos with board members. The other choices are wrong: “Is grammatically incorrect in a way that makes the sentence hard for readers to follow” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play; “Contains too much specific evidence for a single sentence in a short letter” is not supported by the passage's actual wording or structure; “Is too short compared to the surrounding sentences, which makes it feel abrupt” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play."
       },
       {
         "id": "1w-2",
@@ -3315,13 +3315,13 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "What organizational pattern does sentence [4]'s proposal best fit?",
         "choices": [
-          "No organizational pattern is present",
+          "No organizational pattern is present; the sentences simply follow one another",
           "Problem/solution — a specific alternative (phased implementation) for the cost problem.",
-          "Compare/contrast between two cities",
-          "Chronological narrative"
+          "Compare/contrast between two cities and their approaches to the same problem",
+          "Chronological narrative, told in the order in which the events took place"
         ],
         "correct": 1,
-        "explanation": "Sentence [4] proposes a problem/solution structure — a specific alternative (phased implementation) addressing the specific problem (rapid cost increase relative to wage growth) established in sentence [2], while still accommodating the authority's stated need. In full: Problem/solution — proposing a specific alternative (phased implementation) addressing the specific problem (rapid, disruptive cost increase) established earlier. The other choices are wrong: “No organizational pattern is present” does not match what the passage/sentence actually does here; “Chronological narrative” misidentifies the organizational pattern — nothing in the passage turns on a time sequence; “Compare/contrast between two cities” misidentifies the organizational pattern — no two options are being weighed against each other here."
+        "explanation": "Sentence [4] proposes a problem/solution structure — a specific alternative (phased implementation) addressing the specific problem (rapid cost increase relative to wage growth) established in sentence [2], while still accommodating the authority's stated need. In full: Problem/solution — proposing a specific alternative (phased implementation) addressing the specific problem (rapid, disruptive cost increase) established earlier. The other choices are wrong: “No organizational pattern is present; the sentences simply follow one another” does not match what the passage/sentence actually does here; “Chronological narrative, told in the order in which the events took place” misidentifies the organizational pattern — nothing in the passage turns on a time sequence; “Compare/contrast between two cities and their approaches to the same problem” misidentifies the organizational pattern — no two options are being weighed against each other here."
       },
       {
         "id": "1w-5",
@@ -3341,26 +3341,26 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which addition, if inserted after sentence [2], would most strengthen the letter's evidentiary case using this unit's principles?",
         "choices": [
-          "An attack on a specific board member's character.",
-          "A digression into an unrelated transportation topic.",
-          "A vague statement that 'many people are upset about this.'",
+          "An attack on a specific board member's character rather than on the board's decision.",
+          "A digression into an unrelated transportation topic that the letter never returns to.",
+          "A vague statement that 'many people are upset about this' without any further detail.",
           "A specific example making the wage-versus-toll disparity's budget impact concrete."
         ],
         "correct": 3,
-        "explanation": "A specific example illustrating the concrete budget impact would strengthen the letter's evidentiary case by making the abstract wage-versus-toll disparity tangible and specific — consistent with this course's repeated emphasis on specific, concrete evidence over vague generalization. In full: A specific example illustrating the concrete impact of the wage-gap-versus-toll-increase disparity on a representative commuter's monthly budget. The other choices are wrong: “A digression into an unrelated transportation topic.” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning; “A vague statement that 'many people are upset about this.'” is not supported by the passage's actual wording or structure; “An attack on a specific board member's character.” describes something the passage does not do."
+        "explanation": "A specific example illustrating the concrete budget impact would strengthen the letter's evidentiary case by making the abstract wage-versus-toll disparity tangible and specific — consistent with this course's repeated emphasis on specific, concrete evidence over vague generalization. In full: A specific example illustrating the concrete impact of the wage-gap-versus-toll-increase disparity on a representative commuter's monthly budget. The other choices are wrong: “A digression into an unrelated transportation topic that the letter never returns to” wrongly treats the material as unrelated or new when it directly continues the passage's existing line of reasoning; “A vague statement that 'many people are upset about this' without any further detail” is not supported by the passage's actual wording or structure; “An attack on a specific board member's character rather than on the board's decision” describes something the passage does not do."
       },
       {
         "id": "2w-1",
         "passageId": "D2",
         "stem": "Sentence [2] is problematic primarily because it:",
         "choices": [
-          "Is grammatically incorrect.",
-          "Contradicts sentence [1] directly.",
-          "Contains too much specific citation.",
+          "Is grammatically incorrect in a way that makes the sentence hard to follow.",
+          "Contradicts sentence [1] directly, reversing the point the essay just made.",
+          "Contains too much specific citation for a single sentence in a short essay.",
           "It overclaims dramatically beyond what circadian-rhythm research can support."
         ],
         "correct": 3,
-        "explanation": "Sentence [2] dramatically overclaims — research about circadian rhythms and alertness cannot logically 'prove conclusively' that every academic problem a district faces would be solved by this one policy change, a sweeping claim far exceeding what the cited evidence type could ever establish. In full: Overclaims dramatically beyond what the cited research can support — sleep research about circadian rhythms cannot logically 'prove conclusively' that EVERY academic problem would be solved by one policy change. The other choices are wrong: “Contradicts sentence [1] directly.” mischaracterizes the relationship as contradictory when it is not; “Contains too much specific citation.” is not supported by the passage's actual wording or structure; “Is grammatically incorrect.” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play."
+        "explanation": "Sentence [2] dramatically overclaims — research about circadian rhythms and alertness cannot logically 'prove conclusively' that every academic problem a district faces would be solved by this one policy change, a sweeping claim far exceeding what the cited evidence type could ever establish. In full: Overclaims dramatically beyond what the cited research can support — sleep research about circadian rhythms cannot logically 'prove conclusively' that EVERY academic problem would be solved by one policy change. The other choices are wrong: “Contradicts sentence [1] directly, reversing the point the essay just made” mischaracterizes the relationship as contradictory when it is not; “Contains too much specific citation for a single sentence in a short essay” is not supported by the passage's actual wording or structure; “Is grammatically incorrect in a way that makes the sentence hard to follow” misdiagnoses the issue as a surface-level (length/grammar) problem rather than the substantive one actually at play."
       },
       {
         "id": "2w-2",
@@ -3381,12 +3381,12 @@ const QUESTIONS = {
         "stem": "What is the function of sentence [3]'s qualification ('though effects on standardized test scores varied more across different studies')?",
         "choices": [
           "It models appropriately qualified claiming about one specific outcome measure.",
-          "It should be removed to make the essay more persuasive.",
-          "It contradicts the essay's overall argument.",
-          "It has no relationship to the essay's argument."
+          "It should be removed to make the essay more persuasive and more direct in tone.",
+          "It contradicts the essay's overall argument and pulls the reader in another direction.",
+          "It has no relationship to the essay's argument and could appear in any other essay."
         ],
         "correct": 0,
-        "explanation": "This qualification models appropriately calibrated claiming — acknowledging genuine variation in one specific outcome measure (test scores) rather than overclaiming uniform positive effects across every possible metric, strengthening rather than weakening the essay's overall credibility. In full: It models appropriately qualified claiming — acknowledging genuine variation in one specific outcome measure rather than claiming uniform positive effects across every possible metric. The other choices are wrong: “It should be removed to make the essay more persuasive.” does not match what the passage/sentence actually does here; “It has no relationship to the essay's argument.” wrongly claims the feature is entirely absent when it clearly is present; “It contradicts the essay's overall argument.” mischaracterizes the relationship as contradictory when it is not."
+        "explanation": "This qualification models appropriately calibrated claiming — acknowledging genuine variation in one specific outcome measure (test scores) rather than overclaiming uniform positive effects across every possible metric, strengthening rather than weakening the essay's overall credibility. In full: It models appropriately qualified claiming — acknowledging genuine variation in one specific outcome measure rather than claiming uniform positive effects across every possible metric. The other choices are wrong: “It should be removed to make the essay more persuasive and more direct in tone” does not match what the passage/sentence actually does here; “It has no relationship to the essay's argument and could appear in any other essay” wrongly claims the feature is entirely absent when it clearly is present; “It contradicts the essay's overall argument and pulls the reader in another direction” mischaracterizes the relationship as contradictory when it is not."
       },
       {
         "id": "2w-4",
@@ -3419,13 +3419,13 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What organizational pattern does this essay, taken as a whole (excluding the flawed sentence [2]), best fit?",
         "choices": [
-          "No organizational pattern is present",
-          "Compare/contrast between two different schools",
-          "Chronological narrative",
+          "No organizational pattern is present; the sentences simply follow one another",
+          "Compare/contrast between two different schools and their scheduling practices",
+          "Chronological narrative, told in the order in which the events took place",
           "Cause/effect, combined with refutation of a likely logistics-based counterargument."
         ],
         "correct": 3,
-        "explanation": "This essay, in its well-constructed portions, follows a cause/effect structure — establishing a biological cause and its documented effects, combined with refutation addressing a likely counterargument (scheduling logistics) — a structure well-matched to the claim's actual logical shape. In full: Cause/effect — establishing a biological cause (circadian shift) and its documented effects (attendance, alertness), combined with refutation of a likely logistics-based counterargument. The other choices are wrong: “Compare/contrast between two different schools” misidentifies the organizational pattern — no two options are being weighed against each other here; “No organizational pattern is present” is not supported by the passage's actual wording or structure; “Chronological narrative” misidentifies the organizational pattern — nothing in the passage turns on a time sequence."
+        "explanation": "This essay, in its well-constructed portions, follows a cause/effect structure — establishing a biological cause and its documented effects, combined with refutation addressing a likely counterargument (scheduling logistics) — a structure well-matched to the claim's actual logical shape. In full: Cause/effect — establishing a biological cause (circadian shift) and its documented effects (attendance, alertness), combined with refutation of a likely logistics-based counterargument. The other choices are wrong: “Compare/contrast between two different schools and their scheduling practices” misidentifies the organizational pattern — no two options are being weighed against each other here; “No organizational pattern is present; the sentences simply follow one another” is not supported by the passage's actual wording or structure; “Chronological narrative, told in the order in which the events took place” misidentifies the organizational pattern — nothing in the passage turns on a time sequence."
       },
       {
         "id": "1w-7",
@@ -3523,13 +3523,13 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering the letter as a whole, which best describes its use of the classical argument structure covered in Section 4.1?",
         "choices": [
-          "The letter's structure actively works against classical argument principles.",
-          "Sentence [1] performs none of the five classical jobs; true narration is missing from the letter entirely.",
-          "The letter only uses introduction and conclusion, with nothing else.",
-          "The letter uses none of the five classical structural elements."
+          "The letter's structure actively works against classical argument principles throughout.",
+          "Sentence [1] performs none of the five classical jobs; true narration is missing from the letter.",
+          "The letter only uses introduction and conclusion, with nothing else in between them.",
+          "The letter uses none of the five classical structural elements anywhere in its sentences."
         ],
         "correct": 1,
-        "explanation": "Sentence [1] (‘This toll increase is a terrible idea and anyone who supports it clearly doesn't care about working commuters’) is pure editorializing and an ad hominem-adjacent attack — it provides no background/context and so performs none of the five classical jobs, including narration. Sentence [2] supplies confirmation with evidence; sentence [3] names the opposing justification; sentence [4] functions as both refutation and conclusion — meaning narration/exordium is missing from the letter altogether, and there is no true introduction either. This matches how 1w-1, 1w-7, 1w-13, and 1w-15 elsewhere in this unit characterize the same sentence as an ad hominem-adjacent attack, never as narration. The other choices are wrong: “The letter uses none of the five classical structural elements.” overstates the gap — confirmation, the opposing-justification acknowledgment, and refutation/conclusion are all present; only narration and a true introduction are missing; “The letter only uses introduction and conclusion, with nothing else.” misidentifies which elements are present — the letter actually lacks an introduction and has no separate conclusion beyond sentence [4]'s dual role; “The letter's structure actively works against classical argument principles.” overstates the flaw — sentences [2]-[4] are well-constructed; only the opening sentence is a genuine structural failure."
+        "explanation": "Sentence [1] (‘This toll increase is a terrible idea and anyone who supports it clearly doesn't care about working commuters’) is pure editorializing and an ad hominem-adjacent attack — it provides no background/context and so performs none of the five classical jobs, including narration. Sentence [2] supplies confirmation with evidence; sentence [3] names the opposing justification; sentence [4] functions as both refutation and conclusion — meaning narration/exordium is missing from the letter altogether, and there is no true introduction either. This matches how 1w-1, 1w-7, 1w-13, and 1w-15 elsewhere in this unit characterize the same sentence as an ad hominem-adjacent attack, never as narration. The other choices are wrong: “The letter uses none of the five classical structural elements anywhere in its sentences” overstates the gap — confirmation, the opposing-justification acknowledgment, and refutation/conclusion are all present; only narration and a true introduction are missing; “The letter only uses introduction and conclusion, with nothing else in between them” misidentifies which elements are present — the letter actually lacks an introduction and has no separate conclusion beyond sentence [4]'s dual role; “The letter's structure actively works against classical argument principles throughout” overstates the flaw — sentences [2]-[4] are well-constructed; only the opening sentence is a genuine structural failure."
       },
       {
         "id": "2w-10",
@@ -3549,13 +3549,13 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Overall, which revision principle would be most valuable to apply across BOTH draft passages studied in this unit (D1 and D2)?",
         "choices": [
-          "Both drafts should remove all specific evidence.",
-          "Both drafts require complete rewrites from scratch.",
+          "Both drafts should remove all specific evidence to avoid any risk of overclaiming.",
+          "Both drafts require complete rewrites from scratch, since neither argument can be saved.",
           "Isolating and fixing the single sentence that departs from an otherwise calibrated argument.",
-          "Neither draft requires any revision of any kind."
+          "Neither draft requires any revision of any kind, since both are already well calibrated."
         ],
         "correct": 2,
-        "explanation": "In both drafts, isolating and revising or removing the single sentence that departs from an otherwise well-constructed, appropriately calibrated argument is the highest-value revision — a consistent, transferable diagnostic pattern worth recognizing across genuinely different draft topics and purposes. In full: In both drafts, isolating and either revising or removing the single sentence that departs from an otherwise well-constructed, appropriately calibrated argument (D1's original sentence [1]; D2's sentence [2]) is the single highest-value revision — a consistent pattern worth recognizing across different draft topics. The other choices are wrong: “Both drafts require complete rewrites from scratch.” does not match what the passage/sentence actually does here; “Neither draft requires any revision of any kind.” is not supported by the passage's actual wording or structure; “Both drafts should remove all specific evidence.” recommends the opposite of this unit's calibration lesson, which favors matching confidence to evidence, not removing evidence or overclaiming further."
+        "explanation": "In both drafts, isolating and revising or removing the single sentence that departs from an otherwise well-constructed, appropriately calibrated argument is the highest-value revision — a consistent, transferable diagnostic pattern worth recognizing across genuinely different draft topics and purposes. In full: In both drafts, isolating and either revising or removing the single sentence that departs from an otherwise well-constructed, appropriately calibrated argument (D1's original sentence [1]; D2's sentence [2]) is the single highest-value revision — a consistent pattern worth recognizing across different draft topics. The other choices are wrong: “Both drafts require complete rewrites from scratch, since neither argument can be saved” does not match what the passage/sentence actually does here; “Neither draft requires any revision of any kind, since both are already well calibrated” is not supported by the passage's actual wording or structure; “Both drafts should remove all specific evidence to avoid any risk of overclaiming” recommends the opposite of this unit's calibration lesson, which favors matching confidence to evidence, not removing evidence or overclaiming further."
       },
       {
         "id": "2w-11",
@@ -3666,13 +3666,13 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which best describes the overall function sentence [4] serves in this essay's five-job structural coverage, per Section 4.1's framework?",
         "choices": [
-          "It serves no structural function.",
-          "It serves as narration only.",
+          "It serves no structural function in the essay and could simply be cut.",
+          "It serves as narration only, giving background without making any claim.",
           "Refutation — fairly engaging a likely opposing consideration (logistics).",
-          "It contradicts the essay's introduction."
+          "It contradicts the essay's introduction and undermines the thesis it set up."
         ],
         "correct": 2,
-        "explanation": "Sentence [4] serves as refutation within Section 4.1's five-job framework — directly and fairly engaging a likely opposing consideration (scheduling logistics) rather than leaving this structural job undone, completing coverage the essay would otherwise lack. In full: It serves as refutation — directly and fairly engaging a likely opposing consideration (logistics) rather than leaving this job undone, completing a structural element the essay would otherwise lack. The other choices are wrong: “It serves no structural function.” does not match what the passage/sentence actually does here; “It serves as narration only.” is not supported by the passage's actual wording or structure; “It contradicts the essay's introduction.” mischaracterizes the relationship as contradictory when it is not."
+        "explanation": "Sentence [4] serves as refutation within Section 4.1's five-job framework — directly and fairly engaging a likely opposing consideration (scheduling logistics) rather than leaving this structural job undone, completing coverage the essay would otherwise lack. In full: It serves as refutation — directly and fairly engaging a likely opposing consideration (logistics) rather than leaving this job undone, completing a structural element the essay would otherwise lack. The other choices are wrong: “It serves no structural function in the essay and could simply be cut” does not match what the passage/sentence actually does here; “It serves as narration only, giving background without making any claim” is not supported by the passage's actual wording or structure; “It contradicts the essay's introduction and undermines the thesis it set up” mischaracterizes the relationship as contradictory when it is not."
       }
     ]
   },
@@ -3733,7 +3733,7 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "How might a strong synthesis essay use Source 2 in relation to Source 1, rather than simply citing them in separate paragraphs?",
         "choices": [
-          "Leave Source 2 out entirely, since it complicates rather than supports the thesis, a common misreading of what the source actually says.",
+          "Leave Source 2 out entirely, since it complicates rather than supports the thesis.",
           "Present both sources as making the identical claim that start times don't matter much.",
           "Use Source 2 to acknowledge the cost counterargument, then explain why the benefits justify it.",
           "Rely on Source 2 alone, since its cost data is more concrete than Source 1's findings."
@@ -3746,7 +3746,7 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "Which of the following is the SMOOTHEST, most specific source attribution for information drawn from Source 1?",
         "choices": [
-          "Sources say that start times matter quite a bit for how students do in school, an assumption the source's specific wording does not really support.",
+          "Sources say that start times matter quite a bit for how students do in school.",
           "There's research out there suggesting some connection between schedules and outcomes.",
           "Source 1 basically says something about sleep and how it affects teenagers generally.",
           "As Source 1's review of a dozen studies shows, delaying start times raised attendance measurably."
@@ -3762,7 +3762,7 @@ const QUESTIONS = {
           "They directly contradict each other about whether public art increases foot traffic downtown.",
           "They make essentially the identical claim about how the city should prioritize its budget.",
           "They're complementary — Source 3 addresses an economic benefit, Source 4 a separate budget tradeoff.",
-          "Neither source makes a claim relevant to the public art funding debate at all, which sounds plausible but overstates the source's actual claim."
+          "Neither source makes a claim relevant to the public art funding debate at all."
         ],
         "correct": 2,
         "explanation": "Source 3 and Source 4 discuss different dimensions of the issue rather than disputing the same fact, so a synthesis essay can use both without resolving a contradiction. Choice A is wrong because neither source disputes the other's specific claim — they simply aren't talking about the same thing. Choices B and D mischaracterize the sources as irrelevant or identical, when in fact each makes a distinct, genuinely relevant claim."
@@ -3788,7 +3788,7 @@ const QUESTIONS = {
           "A single anecdote from one business owner near an art installation.",
           "Statistical evidence from foot-traffic sensors across six installation sites.",
           "Expert testimony from an economist, offered without any supporting data.",
-          "No evidence of any kind; the claim is asserted without support, even though the source's exact language points elsewhere."
+          "No evidence of any kind; the claim is asserted without support."
         ],
         "correct": 1,
         "explanation": "Source 3 cites foot-traffic sensor data gathered across six sites, which is statistical/comparative evidence, not a single anecdote (choice A), unsupported assertion (choice D), or expert opinion without data (choice C) — the 12 percent figure comes from measured, comparative sensor readings."
@@ -3799,7 +3799,7 @@ const QUESTIONS = {
         "stem": "Do Source 5 and Source 6 directly conflict, or do they address different dimensions of remote work productivity?",
         "choices": [
           "They address different dimensions — Source 5 covers individual tasks, Source 6 covers collaboration.",
-          "Neither source actually addresses productivity in any way, a conclusion the passage never actually states outright.",
+          "Neither source actually addresses productivity in any way, so no comparison can be made.",
           "They directly and completely contradict each other on the identical claim.",
           "They make identical claims that apply equally to every type of work."
         ],
@@ -3813,7 +3813,7 @@ const QUESTIONS = {
         "choices": [
           "By claiming both sources are unreliable and should be disregarded entirely.",
           "By arguing productivity effects depend on task type — individual versus collaborative work.",
-          "By citing only Source 5's finding and leaving Source 6 out of the essay, though a careful re-read of the source complicates this.",
+          "By citing only Source 5's finding and leaving Source 6 out of the essay.",
           "By arguing the two sources have no meaningful relationship worth exploring."
         ],
         "correct": 1,
@@ -3837,7 +3837,7 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What is the relationship between Source 7 and Source 8, and how might a strong synthesis essay handle it?",
         "choices": [
-          "The two sources make identical claims and require no further synthesis, which many students pick when skimming rather than reading closely.",
+          "The two sources make identical claims and require no further synthesis.",
           "Source 7 shows a benefit while Source 8 raises a staffing constraint worth acknowledging.",
           "Source 8 fully contradicts and invalidates the transfer-rate data Source 7 reports.",
           "Neither source is actually relevant to community college transfer policy."
@@ -3851,7 +3851,7 @@ const QUESTIONS = {
         "stem": "What evidence type does Source 7 provide?",
         "choices": [
           "Statistical evidence comparing transfer rates of participants to non-participants.",
-          "No evidence of any kind; the claim is simply asserted, a claim that goes beyond what the evidence here actually shows.",
+          "No evidence of any kind; the claim is simply asserted.",
           "Expert opinion offered with no supporting data behind it.",
           "A single anecdote describing one student's transfer experience."
         ],
@@ -3863,7 +3863,7 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "If a student's synthesis essay only cited Source 7 and never mentioned Source 8, despite both being provided in the source set, what risk does this create?",
         "choices": [
-          "Source 8 is irrelevant to this topic and should always be left out, overlooking the specific limits the source itself places on this point.",
+          "Source 8 is irrelevant to this topic and should always be left out.",
           "No risk at all; citing fewer sources is generally the stronger approach.",
           "This approach is guaranteed to earn the essay's highest possible score.",
           "The risk of appearing to selectively avoid a source that complicates the argument."
@@ -3889,7 +3889,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What claim type is Source 9's central finding?",
         "choices": [
-          "Not a claim of any recognizable kind, just background description, a reasonable-sounding guess rather than something the text supports.",
+          "Not a claim of any recognizable kind, just background description.",
           "A claim of value, expressing an opinion about which neighborhoods deserve trees.",
           "A claim of fact — a measured temperature difference tied to canopy coverage levels.",
           "A claim of policy, recommending that cities expand their canopy coverage."
@@ -3903,7 +3903,7 @@ const QUESTIONS = {
         "stem": "Which is the more sophisticated synthesis of these two sources into a single thesis?",
         "choices": [
           "Tree planting should never be attempted at all, given its ongoing maintenance costs.",
-          "Tree planting is simply good and needs no further consideration or funding plan, a common misreading of what the source actually says.",
+          "Tree planting is simply good and needs no further consideration or funding plan.",
           "The two sources have no meaningful relationship worth combining into one thesis.",
           "Cooling benefits require sustained, funded maintenance, so canopy programs need multi-year funding."
         ],
@@ -3917,7 +3917,7 @@ const QUESTIONS = {
         "choices": [
           "Neither source becomes any more or less central under this revised thesis.",
           "Source 2 becomes more central, since the thesis directly depends on its cost and timeline data.",
-          "Both sources become completely irrelevant under this more specific thesis, an assumption the source's specific wording does not really support.",
+          "Both sources become completely irrelevant under this more specific thesis.",
           "Source 1 becomes entirely irrelevant once the thesis adds this funding condition."
         ],
         "correct": 1,
@@ -3944,7 +3944,7 @@ const QUESTIONS = {
           "Counterargument/complication, since it raises a competing budget priority to address.",
           "The single most important piece of evidence for this specific pro-funding thesis.",
           "Completely irrelevant background information the essay can safely ignore.",
-          "Direct supporting evidence for the thesis, with no complication attached, which sounds plausible but overstates the source's actual claim."
+          "Direct supporting evidence for the thesis, with no complication attached."
         ],
         "correct": 0,
         "explanation": "For a pro-funding thesis, Source 4's deferred-maintenance figure is a competing priority the essay must acknowledge, making it a counterargument/complication rather than direct support (choice D) or the essay's most important evidence (choice B). Choice C wrongly treats a directly relevant source as background noise."
@@ -3956,7 +3956,7 @@ const QUESTIONS = {
         "choices": [
           "A counterargument that the task-dependent thesis would need to directly rebut.",
           "Direct supporting evidence for one half of the task-dependent thesis's distinction.",
-          "Completely irrelevant to any thesis this essay could plausibly argue, even though the source's exact language points elsewhere.",
+          "Completely irrelevant to any thesis this essay could plausibly argue.",
           "A source that directly contradicts the thesis being argued in this essay."
         ],
         "correct": 1,
@@ -3980,7 +3980,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Which reading-period functional label best fits Source 10, given the synthesized 'fund as multi-year commitments' thesis modeled earlier?",
         "choices": [
-          "A pure counterargument requiring rebuttal, and nothing more than that, a conclusion the passage never actually states outright.",
+          "A pure counterargument requiring rebuttal, and nothing more than that.",
           "A source that should be excluded entirely, regardless of which thesis is chosen.",
           "A source with no clear function relative to this particular synthesized thesis.",
           "Both evidence and context — it directly justifies why the multi-year framing matters."
@@ -4032,7 +4032,7 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What is the most sophisticated synthesized thesis these two sources could support together?",
         "choices": [
-          "Transfer advising programs have no measurable effect on transfer rates whatsoever, though a careful re-read of the source complicates this.",
+          "Transfer advising programs have no measurable effect on transfer rates whatsoever.",
           "Community colleges should eliminate all of their existing student support services.",
           "A strong benefit exists, but expansion needs a funding plan addressing Source 8's tradeoff.",
           "Transfer advising programs should never be implemented anywhere, under any circumstances."
@@ -4048,7 +4048,7 @@ const QUESTIONS = {
           "Source 10 describes a benefit that occurs entirely before Source 9's finding takes effect.",
           "Source 9 describes an established benefit; Source 10 describes the investment period required first.",
           "Both sources describe the exact same, simultaneous moment in a tree's growth.",
-          "The two sources describe no temporal relationship of any kind to each other, which many students pick when skimming rather than reading closely."
+          "The two sources describe no temporal relationship of any kind to each other."
         ],
         "correct": 1,
         "explanation": "Source 9's cooling effect comes from mature canopy, while Source 10 describes the maintenance period needed to get there — a genuine before/after relationship. Choice A reverses this relationship. Choices C and D both deny a real temporal connection that the sources clearly establish."
@@ -4059,7 +4059,7 @@ const QUESTIONS = {
         "stem": "If a synthesis essay's thesis is 'districts should delay start times only if they budget adequately for transportation restructuring,' which source functions primarily as a CONDITION on the other's recommendation?",
         "choices": [
           "Both sources are entirely unrelated to this specific conditional thesis.",
-          "Neither source functions as a condition on the other in any sense, a claim that goes beyond what the evidence here actually shows.",
+          "Neither source functions as a condition on the other in any sense.",
           "Source 2 functions as a condition — Source 1's benefits should only be pursued alongside its budgeting.",
           "Source 1 functions as a condition on Source 2, with no other relationship between them."
         ],
@@ -4103,7 +4103,7 @@ const QUESTIONS = {
           "It is too short a passage to meaningfully evaluate for this weakness.",
           "It exhibits source-by-source summary — a sequential tour with no writer's claim yet.",
           "It demonstrates genuine synthesis at a fairly high level of skill.",
-          "It contains no reference to any sources at all in its sentences, overlooking the specific limits the source itself places on this point."
+          "It contains no reference to any sources at all in its sentences."
         ],
         "correct": 1,
         "explanation": "Sentences [1]-[3] preview each source in turn, and sentence [4] confirms this plan ('examine each of these sources') — the exact source-by-source summary pattern Section 5.1's opening skillbox warns against. Choice C is the opposite of what the draft shows. Choice D is false; sentences [1]-[3] name three sources directly. Choice A is a dodge — the passage is plenty long enough to diagnose."
@@ -4114,7 +4114,7 @@ const QUESTIONS = {
         "stem": "What is the central problem with sentence [5] ('Libraries face many important decisions about resource allocation')?",
         "choices": [
           "It contains too much specific evidence for a single opening sentence to hold.",
-          "It directly contradicts the sources mentioned earlier in the paragraph, a reasonable-sounding guess rather than something the text supports.",
+          "It directly contradicts the sources mentioned earlier in the paragraph.",
           "It is grammatically incorrect, which is the sentence's central problem here.",
           "It's a vague, generic statement that fails to state the writer's own specific claim."
         ],
@@ -4127,7 +4127,7 @@ const QUESTIONS = {
         "stem": "Which revision would transform this opening into genuine synthesis, per this unit's Section 5.1 model?",
         "choices": [
           "As physical circulation declines, budgets still tied to historical usage likely underinvest in e-books.",
-          "Libraries face many important decisions about resource allocation, a common misreading of what the source actually says.",
+          "Libraries face many important decisions about resource allocation.",
           "This essay will examine each of these sources to understand library funding.",
           "Source A discusses e-book lending statistics. Source B discusses circulation trends."
         ],
@@ -4153,7 +4153,7 @@ const QUESTIONS = {
         "stem": "Which best explains why sentence [4] ('This essay will examine each of these sources') is a particularly clear diagnostic signal of the source-by-source summary problem?",
         "choices": [
           "It suggests the essay will end up well-organized around the writer's own thesis.",
-          "It has no real diagnostic value for identifying this particular weakness, an assumption the source's specific wording does not really support.",
+          "It has no real diagnostic value for identifying this particular weakness.",
           "It explicitly announces a source-by-source structure, confirming the summary problem.",
           "It is actually unrelated to how the essay's paragraphs will end up organized."
         ],
@@ -4165,10 +4165,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Sentence [3] ('Both of these things seem true based on the sources provided') represents which specific missed opportunity, per this unit's Section 5.4?",
         "choices": [
-          "It fully and sophisticatedly synthesizes the paragraph's conflicting information, even though the source's exact language points elsewhere.",
-          "It acknowledges conflicting information exists but stops short of actually synthesizing it into a precise claim.",
-          "It has no relationship to synthesis at all, which sounds plausible but overstates the source's actual claim.",
-          "It contains a factual error about what the underlying sources report."
+          "It fully and sophisticatedly synthesizes the paragraph's conflicting information into one claim.",
+          "It acknowledges conflicting information exists but stops short of synthesizing it into a precise claim.",
+          "It has no relationship to synthesis at all and could be cut without any loss.",
+          "It contains a factual error about what the underlying sources actually report."
         ],
         "correct": 1,
         "explanation": "Sentence [3] notices that both source types seem valid but doesn't take the further step of combining them into a more precise claim — the missed opportunity Section 5.4 identifies. Choice A claims the opposite of what actually happens. Choices C and D both mischaracterize the sentence; it's directly about synthesis and contains no factual error, just an incomplete one."
@@ -4180,7 +4180,7 @@ const QUESTIONS = {
         "choices": [
           "Subsidies are either entirely good or entirely bad, and this essay will now decide which.",
           "Both of these things seem true based on the sources provided, so it's complicated.",
-          "No further discussion of subsidies is needed beyond what's already been said, a conclusion the passage never actually states outright.",
+          "No further discussion of subsidies is needed beyond what's already been said.",
           "Restructure subsidies to phase down as costs fall, preserving benefits while addressing expense."
         ],
         "correct": 3,
@@ -4207,7 +4207,7 @@ const QUESTIONS = {
           "Some sources say subsidies help adoption; other sources say they're expensive.",
           "Source F's data shows subsidies sped adoption by three years versus unsubsidized markets.",
           "This topic has been discussed by quite a number of different sources over time.",
-          "Sources discuss subsidies in various different ways throughout the literature, though a careful re-read of the source complicates this."
+          "Sources discuss subsidies in various different ways throughout the literature."
         ],
         "correct": 1,
         "explanation": "This revision names a specific source and a precise, quantified finding, matching the attribution standard from Section 5.3. Choices A and C both keep the vague 'sources' language the revision is supposed to fix. Choice D is simply the original draft's weak sentence repeated unchanged."
@@ -4220,7 +4220,7 @@ const QUESTIONS = {
           "Adding more hedging language throughout the paragraph's existing sentences.",
           "Making the paragraph shorter, with no other substantive changes made.",
           "Naming specific sources AND replacing the 'it's complicated' ending with a synthesized claim.",
-          "Removing every mention of any source from the paragraph entirely, which many students pick when skimming rather than reading closely."
+          "Removing every mention of any source from the paragraph entirely."
         ],
         "correct": 2,
         "explanation": "The paragraph has two distinct weaknesses — vague attribution and an unsynthesized conclusion — so the most valuable fix addresses both at once. Choice D would remove necessary evidence entirely. Choice A would add more of the very vagueness that's already a problem. Choice B addresses length, not the actual substantive weaknesses."
@@ -4230,7 +4230,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Overall, which best captures the core lesson both draft passages in this unit (D1 and D2) illustrate about synthesis essay weaknesses?",
         "choices": [
-          "That synthesis essays should avoid referencing any sources whatsoever, a claim that goes beyond what the evidence here actually shows.",
+          "That synthesis essays should avoid referencing any sources whatsoever.",
           "That all synthesis essays are equally weak, no matter how they're structured.",
           "That sources should always be quoted directly instead of ever being paraphrased.",
           "That both weaknesses stem from presenting source information without the writer's argument shaping it."
@@ -4256,7 +4256,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "If a student ran out of time and had to submit an essay resembling this draft's original structure, how would this likely affect their Evidence and Commentary score specifically?",
         "choices": [
-          "It would have no effect on this score category whatsoever, overlooking the specific limits the source itself places on this point.",
+          "It would have no effect on this score category whatsoever.",
           "This issue would only affect Sophistication, never Evidence and Commentary.",
           "It would likely score in the lower bands of Evidence and Commentary specifically.",
           "It would automatically earn full credit, regardless of the essay's structure."
@@ -4269,7 +4269,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which best summarizes the overall lesson connecting this unit's two draft exercises to the broader Synthesis essay task?",
         "choices": [
-          "That sources should never be cited by name anywhere in a synthesis essay, a reasonable-sounding guess rather than something the text supports.",
+          "That sources should never be cited by name anywhere in a synthesis essay.",
           "That synthesis requires no skill beyond ordinary, general writing ability.",
           "That synthesis requires transforming source information into the writer's own, more precise argument.",
           "That synthesis essays should avoid ever taking a clear, defensible position."
@@ -4283,7 +4283,7 @@ const QUESTIONS = {
         "stem": "Which of the following revised versions of sentence [4] would best signal genuine synthesis rather than a source tour, if the writer keeps some version of this transitional sentence?",
         "choices": [
           "This essay will show why continued proportional funding misallocates resources from patron demand.",
-          "This essay will examine each of these sources to understand library funding, a common misreading of what the source actually says.",
+          "This essay will examine each of these sources to understand library funding.",
           "This essay contains three sources about libraries and their various services.",
           "The following paragraphs discuss library topics that matter to the community."
         ],
@@ -4308,7 +4308,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best explains why simply reordering sentences [1]-[3] (without changing their content) would NOT fix this draft's core problem?",
         "choices": [
-          "Reordering is actually the only fix this particular draft needs to work, an assumption the source's specific wording does not really support.",
+          "Reordering is actually the only fix this particular draft needs to work.",
           "The sentences are already in their ideal order and shouldn't be touched at all.",
           "Reordering these three sentences would fully fix the draft's problem on its own.",
           "Each sentence only announces a topic without asserting a claim, regardless of order."
@@ -4321,7 +4321,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "How does this draft's weakness connect to Unit 2's Section 2.5 concept of 'evidence dumping'?",
         "choices": [
-          "There is no meaningful connection between these two different unit concepts, which sounds plausible but overstates the source's actual claim.",
+          "There is no meaningful connection between these two different unit concepts.",
           "This draft actually demonstrates excellent, well-developed commentary throughout.",
           "This draft is a source-level version of evidence dumping — topics with no connecting commentary.",
           "Evidence dumping only ever applies to numerical statistics, not source citations."
@@ -4336,7 +4336,7 @@ const QUESTIONS = {
         "choices": [
           "Some sources say subsidies help renewable adoption in various regions.",
           "Source F's market analysis found subsidized regions adopted solar nearly twice as fast.",
-          "Sources exist that discuss this general topic in some depth, even though the source's exact language points elsewhere.",
+          "Sources exist that discuss this general topic in some depth.",
           "Many people have opinions about subsidies, though views vary considerably."
         ],
         "correct": 1,
@@ -4362,7 +4362,7 @@ const QUESTIONS = {
         "choices": [
           "This paragraph's conclusion has no bearing on the essay's overall structure.",
           "There is no risk at all; vague conclusions are always fine in body paragraphs.",
-          "This vague conclusion actually strengthens the essay's overall structure, a conclusion the passage never actually states outright.",
+          "This vague conclusion actually strengthens the essay's overall structure.",
           "It risks leaving the essay without a clear claim for later paragraphs to build on."
         ],
         "correct": 3,
@@ -4373,7 +4373,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best describes how the revised opening (from an earlier question) would need to shape the essay's SUBSEQUENT paragraph structure, per this unit's overall lesson?",
         "choices": [
-          "The essay should abandon its thesis entirely after just the opening paragraph, though a careful re-read of the source complicates this.",
+          "The essay should abandon its thesis entirely after just the opening paragraph.",
           "Subsequent paragraphs would not need to reference any sources at all going forward.",
           "Paragraphs organized around the writer's sub-claims, pulling in relevant sources as needed.",
           "Subsequent paragraphs should still be organized strictly one source per paragraph."
@@ -4386,9 +4386,9 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which best describes the single biggest structural change needed to transform this paragraph from summary into genuine synthesis?",
         "choices": [
-          "Removing all references to any source from the paragraph entirely, which many students pick when skimming rather than reading closely.",
-          "Making the paragraph longer without changing anything else about it.",
-          "Replacing the passive 'it's complicated' framing with an active synthesis explaining how findings fit together.",
+          "Removing all references to any source from the paragraph entirely to simplify it.",
+          "Making the paragraph longer without changing anything else about its content.",
+          "Replacing the passive 'it's complicated' framing with an active synthesis of how the findings fit together.",
           "Changing the paragraph's topic to something unrelated to energy subsidies."
         ],
         "correct": 2,
@@ -4438,7 +4438,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which best describes how a well-synthesized version of this paragraph would likely need to handle attribution differently from the original draft?",
         "choices": [
-          "Attribution would become entirely unnecessary once a paragraph is well-synthesized, a claim that goes beyond what the evidence here actually shows.",
+          "Attribution would become entirely unnecessary once a paragraph is well-synthesized.",
           "Attribution should become vaguer, which tends to sound more authoritative to readers.",
           "Attribution should become MORE specific, naming particular sources for each half of the claim.",
           "Attribution requirements have no real relationship to how synthesized a conclusion is."
@@ -4453,7 +4453,7 @@ const QUESTIONS = {
         "choices": [
           "A transformation from source-announcement structure to thesis-driven use of sources as evidence.",
           "A transformation that only changes sentence length, with no real structural change.",
-          "No meaningful transformation is actually possible for a draft like this one, overlooking the specific limits the source itself places on this point.",
+          "No meaningful transformation is actually possible for a draft like this one.",
           "A transformation that removes every source reference from the essay entirely."
         ],
         "correct": 0,
@@ -4465,7 +4465,7 @@ const QUESTIONS = {
         "stem": "Sentences [1]-[3] all share the same structural weakness. What is it?",
         "choices": [
           "They are too specific and detailed for an opening paragraph to include.",
-          "They directly contradict each other's claims about library usage, a reasonable-sounding guess rather than something the text supports.",
+          "They directly contradict each other's claims about library usage.",
           "They are each grammatically incorrect in a similar, identifiable way.",
           "Each announces a source's general topic without stating a finding or connecting it to a claim."
         ],
@@ -4493,7 +4493,7 @@ const QUESTIONS = {
           "It avoids taking any actual defensible position, retreating into an unfalsifiable observation.",
           "It directly contradicts the two sources cited earlier in the paragraph.",
           "It is actually too specific and detailed to work as a thesis statement.",
-          "It is grammatically incorrect in a way that undermines its meaning, a common misreading of what the source actually says."
+          "It is grammatically incorrect in a way that undermines its meaning."
         ],
         "correct": 0,
         "explanation": "'Reasonable people can disagree' applies to nearly any contested topic and commits to nothing specific, failing the Thesis requirement for a defensible claim. Choice C misdiagnoses vagueness as excess specificity. Choices B and D both misidentify problems (grammar, contradiction) that aren't actually present."
@@ -4516,7 +4516,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering this draft holistically, which single sentence, if revised first, would most improve the paragraph's overall direction?",
         "choices": [
-          "None of the sentences in this paragraph actually require any revision, an assumption the source's specific wording does not really support.",
+          "None of the sentences in this paragraph actually require any revision.",
           "Sentence [5], since a strong thesis would give the earlier sentences a clear purpose.",
           "Only the paragraph's sentence order is a problem; no wording needs to change.",
           "Sentence [2] alone would need revision, with nothing else requiring a change."
@@ -4531,7 +4531,7 @@ const QUESTIONS = {
         "choices": [
           "It reveals the sources directly contradict each other with no possible reconciliation.",
           "It has no real relationship to the paragraph's stage of synthesis development.",
-          "It reveals the paragraph has already achieved a complete, genuine synthesis, which sounds plausible but overstates the source's actual claim.",
+          "It reveals the paragraph has already achieved a complete, genuine synthesis.",
           "It shows the writer correctly noticing both source types are valid — a necessary first step, not yet synthesis."
         ],
         "correct": 3,
@@ -4558,7 +4558,7 @@ const QUESTIONS = {
           "That shorter paragraphs are always preferable to longer ones, regardless of content.",
           "That synthesis essays should avoid citing any specific source content whatsoever.",
           "That using sources as evidence for a specific claim, not just naming or noting them, is the actual tested skill.",
-          "That synthesis essays should never take any clear, defensible position at all, even though the source's exact language points elsewhere."
+          "That synthesis essays should never take any clear, defensible position at all."
         ],
         "correct": 2,
         "explanation": "Both drafts point to the same transferable lesson: genuinely using sources as evidence for a defensible claim, not simply announcing or acknowledging them, is what this task tests. The other three choices all state something closer to the opposite of what the drafts demonstrate."
@@ -4569,7 +4569,7 @@ const QUESTIONS = {
         "stem": "If a peer reviewer suggested sentence [1] and [2] should simply be deleted to shorten the paragraph, would this be sound advice?",
         "choices": [
           "Yes, because synthesis paragraphs should never reference more than one source category.",
-          "Yes, both sentences add nothing of value and should simply be cut, a conclusion the passage never actually states outright.",
+          "Yes, both sentences add nothing of value and should simply be cut.",
           "No — they correctly name the source categories; the problem is they're never developed with evidence.",
           "No, but only because the paragraph is already too short to shorten any further."
         ],
@@ -4650,7 +4650,7 @@ const QUESTIONS = {
         "choices": [
           "Epistrophe — each clause ends with the same repeated word.",
           "A chain-linked repetition (cost→name→mine) reinforced by polysyndeton's repeated 'and.'",
-          "Antithesis — the cost and the name are framed as contrasting opposites (a claim the passage itself doesn't back up).",
+          "Antithesis — the cost and the name are framed as contrasting opposites.",
           "Asyndeton — the clauses are joined with no conjunctions at all."
         ],
         "correct": 1,
@@ -4663,7 +4663,7 @@ const QUESTIONS = {
         "choices": [
           "Yes — a cumulative version would state the reaction immediately, losing the suspended tension.",
           "No, because sentence type is a grammatical label with no bearing on a passage's meaning.",
-          "No — periodic and cumulative versions of a sentence always carry identical rhetorical weight (a claim the passage itself doesn't back up).",
+          "No — periodic and cumulative versions of a sentence always carry identical rhetorical weight.",
           "Yes, but only because the cumulative rewrite would use noticeably fewer words."
         ],
         "correct": 0,
@@ -4740,7 +4740,7 @@ const QUESTIONS = {
         "stem": "What is the effect of the fourth sentence breaking from the established anaphoric pattern?",
         "choices": [
           "The break is a grammatical slip the writer should have caught and corrected.",
-          "The break has no rhetorical effect; readers barely notice a shift in phrasing (a claim the passage itself doesn't back up).",
+          "The break has no rhetorical effect; readers barely notice a shift in phrasing.",
           "Breaking the anaphoric pattern creates emphasis, marking the passage's turning point.",
           "The break undermines the passage's argument by seeming to change the topic."
         ],
@@ -4765,7 +4765,7 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "Why might the speaker have chosen anaphora rather than simply listing items with commas?",
         "choices": [
-          "A comma-separated list would have built the same rhetorical weight more efficiently (a claim the passage itself doesn't back up).",
+          "A comma-separated list would have built the same rhetorical weight more efficiently.",
           "There's no meaningful difference; commas and anaphora achieve identical effects.",
           "Anaphora was simply the first phrasing that came to the speaker's mind.",
           "Anaphora gives each funded item its own sentence and emphasis, building cumulative weight."
@@ -4805,7 +4805,7 @@ const QUESTIONS = {
         "stem": "What is the rhetorical effect of shifting from asyndeton (sentence 1) to polysyndeton (sentence 2)?",
         "choices": [
           "The shift signals a grammatical error rather than a deliberate rhetorical choice.",
-          "Both sentences rely on the identical technique, so there's no real shift to explain (a claim the passage itself doesn't back up).",
+          "Both sentences rely on the identical technique, so there's no real shift to explain.",
           "The shift is a stylistic inconsistency the writer should have smoothed over.",
           "The shift mirrors the passage's own shift — from breathless chaos to considered reflection."
         ],
@@ -4832,7 +4832,7 @@ const QUESTIONS = {
         "choices": [
           "Plain, concrete, sensory vocabulary suited to a firsthand account of physical work.",
           "Dense corporate jargon more suited to a business memo than a memoir.",
-          "Archaic, poetic vocabulary evoking an older, more ornate style of writing (a claim the passage itself doesn't back up).",
+          "Archaic, poetic vocabulary evoking an older, more ornate style of writing.",
           "Highly formal, academic vocabulary throughout the entire passage."
         ],
         "correct": 0,
@@ -4843,7 +4843,7 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Considering this passage holistically, how do its two contrasting conjunction techniques work with its consistent plain diction?",
         "choices": [
-          "The two conjunction techniques actively undercut the passage's otherwise plain diction (a claim the passage itself doesn't back up).",
+          "The two conjunction techniques actively undercut the passage's otherwise plain diction.",
           "Only the diction matters here; the conjunction techniques add nothing.",
           "Contrasting pacing techniques let the passage shift rhythm without shifting its diction register.",
           "The passage's diction actually varies considerably from sentence to sentence."
@@ -4871,7 +4871,7 @@ const QUESTIONS = {
         "choices": [
           "“Three divisions” — a phrase that conceals how many employees work in each division.",
           "“12 percent” — a precise statistic, and therefore not itself a form of euphemism.",
-          "“Effective the first of next month” — vague phrasing that obscures the layoffs' exact start date (a claim the passage itself doesn't back up).",
+          "“Effective the first of next month” — vague phrasing that obscures the layoffs' exact start date.",
           "“Q3 strategic realignment initiative” — branding language dressing the layoff up as a planned strategic move."
         ],
         "correct": 3,
@@ -4896,7 +4896,7 @@ const QUESTIONS = {
         "stem": "How does this passage's register shift connect to the concept of ethos covered elsewhere in this course?",
         "choices": [
           "By dropping corporate euphemism for plain language, the writer builds ethos through honesty.",
-          "Ethos depends on formal, technical language, so the plain-language shift can't build it (a claim the passage itself doesn't back up).",
+          "Ethos depends on formal, technical language, so the plain-language shift can't build it.",
           "The shift damages the writer's ethos by making the memo read as unprofessional.",
           "It doesn't connect; register shifts are a syntax concept with no bearing on ethos."
         ],
@@ -4921,7 +4921,7 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What is the effect of the short, simple sentences following the register shift?",
         "choices": [
-          "These sentences echo the same dense, formal syntax as the passage's opening sentence (a claim the passage itself doesn't back up).",
+          "These sentences echo the same dense, formal syntax as the passage's opening sentence.",
           "These sentences have no particular rhetorical effect on the passage's meaning.",
           "Their brevity, contrasting the dense opening, reinforces the register shift's meaning.",
           "These short sentences actually contradict the passage's overall message."
@@ -4949,7 +4949,7 @@ const QUESTIONS = {
         "choices": [
           "The shift is stylistic only and carries no real significance for the passage's meaning.",
           "The shift suggests two different people contributed to writing this passage.",
-          "The shift reveals the writer privately disagrees with management's decision to lay people off (a claim the passage itself doesn't back up).",
+          "The shift reveals the writer privately disagrees with management's decision to lay people off.",
           "The shift enacts the writer's own recognition that corporate language fails to convey the truth."
         ],
         "correct": 3,
@@ -4975,7 +4975,7 @@ const QUESTIONS = {
         "choices": [
           "All four items — fire, flood, repairs, permit — share the identical diction register.",
           "The mundane, bureaucratic permit contrasts ironically with the dramatic rejected causes.",
-          "The permit is actually described in more dramatic language than the fire or the flood (a claim the passage itself doesn't back up).",
+          "The permit is actually described in more dramatic language than the fire or the flood.",
           "There is no real diction contrast at work anywhere in this passage."
         ],
         "correct": 1,
@@ -5026,7 +5026,7 @@ const QUESTIONS = {
         "stem": "Considering all five passages studied in this unit together, which best describes their shared pedagogical purpose?",
         "choices": [
           "To show that syntax and diction analysis applies only to persuasive public speeches.",
-          "To show that all five passages rely on identical techniques applied in an identical way (a claim the passage itself doesn't back up).",
+          "To show that all five passages rely on identical techniques applied in an identical way.",
           "To show how one shared toolkit of techniques produces different effects across varied passages.",
           "To demonstrate that a single specific technique matters most for strong writing overall."
         ],
@@ -5055,7 +5055,7 @@ const QUESTIONS = {
         "stem": "The speaker wants sentence [5] to land with maximum emphasis as the speech's conclusion. Which revision best achieves this using techniques from this unit?",
         "choices": [
           "This building has done many valuable things for the neighborhood over many years.",
-          "So does everything this building has done for this neighborhood these thirty-seven years (a claim the passage itself doesn't back up).",
+          "So does everything this building has done for this neighborhood these thirty-seven years.",
           "The building matters, and closing it would be a serious mistake worth reconsidering.",
           "So did after-school care. So did senior lunches. So did shelter, twice. Thirty-seven years of that."
         ],
@@ -5069,7 +5069,7 @@ const QUESTIONS = {
         "choices": [
           "Yes — polysyndeton would slow the list, giving each service its own weighted emphasis.",
           "No, because polysyndeton is never an appropriate choice in persuasive public speech.",
-          "Yes, but only because it would make sentence [2] noticeably shorter to deliver aloud (a claim the passage itself doesn't back up).",
+          "Yes, but only because it would make sentence [2] noticeably shorter to deliver aloud.",
           "No, polysyndeton would add nothing measurable to this particular sentence's effect."
         ],
         "correct": 0,
@@ -5080,7 +5080,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Sentences [3] and [4] ('Closing it would save... That number matters.') use short, direct sentences. Is this an effective choice given the speech's overall goal?",
         "choices": [
-          "No, sentences [3] and [4] should be merged into one longer, more elaborate sentence (a claim the passage itself doesn't back up).",
+          "No, sentences [3] and [4] should be merged into one longer, more elaborate sentence.",
           "Yes — the short sentences honestly concede the cost, making the later pivot more credible.",
           "No, because short sentences are never an effective choice in persuasive speech.",
           "Yes, but only because short sentences are always inherently superior to long ones."
@@ -5108,7 +5108,7 @@ const QUESTIONS = {
         "choices": [
           "Converting the entire speech into one single, continuous periodic sentence.",
           "Replacing the flat sentence [2] and thin closing [5] with schemes that build emphasis.",
-          "Making every sentence in the speech identical in length and grammatical structure (a claim the passage itself doesn't back up).",
+          "Making every sentence in the speech identical in length and grammatical structure.",
           "Stripping every specific number and date out of the speech entirely."
         ],
         "correct": 1,
@@ -5122,7 +5122,7 @@ const QUESTIONS = {
           "Yes — a parallel antithesis structure would sharpen the contrast between the two careers.",
           "No, antithesis has no meaningful application to this particular opening.",
           "No, antithesis is a technique that should never appear in personal essays.",
-          "Yes, but only because combining the sentences would shorten the passage overall (a claim the passage itself doesn't back up)."
+          "Yes, but only because combining the sentences would shorten the passage overall."
         ],
         "correct": 0,
         "explanation": "A parallel antithesis structure — e.g., 'I spent nine years being an accountant and one year finally becoming a baker' — would sharpen the contrast between the two career phases more effectively than two separate flat sentences, directly applying this unit's antithesis technique to an opening built around exactly the kind of clear, structured contrast antithesis is designed to convey. Antithesis is clearly relevant here (contra B), fits personal essays fine (contra C), and the benefit is sharper contrast, not just brevity (contra D)."
@@ -5135,7 +5135,7 @@ const QUESTIONS = {
           "This sentence doesn't actually contain any identifiable structure at all.",
           "Yes — cumulative structure fits this sentence's direct, conversational answer well.",
           "No, cumulative sentence structure is never appropriate in a personal essay.",
-          "No, this particular sentence should instead be converted to periodic structure (a claim the passage itself doesn't back up)."
+          "No, this particular sentence should instead be converted to periodic structure."
         ],
         "correct": 1,
         "explanation": "Cumulative structure fits this explanatory, conversational sentence well — it delivers the core answer ('good at accounting and terrible at loving it') immediately, then adds refining detail, appropriate for the essay's direct register rather than the suspended tension periodic structure would create. Cumulative sentences work fine in personal essays (contra C), periodic structure would actually undercut this sentence's conversational directness (contra D), and the sentence clearly has identifiable structure (contra A)."
@@ -5145,7 +5145,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What is the diction register established across sentences [1]-[4], and does sentence [5] shift from it?",
         "choices": [
-          "Sentences [1]-[4] rely on dense financial jargon that [5] then abruptly drops (a claim the passage itself doesn't back up).",
+          "Sentences [1]-[4] rely on dense financial jargon that [5] then abruptly drops.",
           "No consistent diction register is discernible anywhere in this passage.",
           "Sentences [1]-[4] set a plain, conversational register that [5] simply continues.",
           "Sentence [5] shifts sharply into a highly formal, academic register."
@@ -5172,7 +5172,7 @@ const QUESTIONS = {
         "stem": "Considering this draft as a whole, what is its primary opportunity for improvement using this unit's specific toolkit?",
         "choices": [
           "Converting the whole essay into formal, technical language throughout.",
-          "This draft has no real opportunities for improvement using this unit's toolkit (a claim the passage itself doesn't back up).",
+          "This draft has no real opportunities for improvement using this unit's toolkit.",
           "Adding varied, deliberate syntax (periodic, antithesis) at key moments without losing its tone.",
           "Stripping out every personal, conversational element from the essay entirely."
         ],
@@ -5185,7 +5185,7 @@ const QUESTIONS = {
         "stem": "If the speaker wanted to add epistrophe for emphasis, repeating a word at the END of successive clauses about the community center's impact, which option best demonstrates this technique?",
         "choices": [
           "No form of epistrophe is achievable within the constraints of a short speech.",
-          "This building matters to families. This building matters to seniors. This building matters to everyone (a claim the passage itself doesn't back up).",
+          "This building matters to families. This building matters to seniors. This building matters to everyone.",
           "The building is old. The building is useful. The building should stay open.",
           "Families depended on this building. Seniors depended on this building. Storm victims depended on this building."
         ],
@@ -5200,7 +5200,7 @@ const QUESTIONS = {
           "This building has quietly existed in the neighborhood for a very long time now.",
           "This community center opened in 1987.",
           "This building has cost the city money since 1987 — and given the neighborhood far more.",
-          "The community center sits at the center of this particular neighborhood's daily life (a claim the passage itself doesn't back up)."
+          "The community center sits at the center of this particular neighborhood's daily life."
         ],
         "correct": 2,
         "explanation": "This revision uses antithesis — parallel structure ('cost the city money... given this neighborhood... [far more than] money') contrasting two different kinds of value in mirrored grammatical form, setting up the cost-versus-worth argument the speech ultimately makes. Choice B is simply the unrevised original sentence, with no antithesis at all; choices A and D restate the same fact without any contrasting parallel structure."
@@ -5212,7 +5212,7 @@ const QUESTIONS = {
         "choices": [
           "Asyndeton can never be applied to any list containing four items or fewer.",
           "Minimal — this list is short enough that asyndeton's speed effect barely registers here.",
-          "No, asyndeton would have absolutely no effect on this sentence whatsoever (a claim the passage itself doesn't back up).",
+          "No, asyndeton would have absolutely no effect on this sentence whatsoever.",
           "Yes, it would completely reverse the sentence's meaning into its opposite."
         ],
         "correct": 1,
@@ -5275,10 +5275,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which revision of sentence [3] ('People ask why a lot.') would most effectively use a periodic structure to build toward the essay's central explanation?",
         "choices": [
-          "No periodic structure would fit naturally into this particular sentence.",
+          "No periodic structure would fit naturally into this particular sentence or its meaning.",
           "Three accumulating 'after' clauses delaying the honest answer: 'good at accounting, terrible at loving it.'",
-          "Why did I change careers? That's a fair question worth asking directly.",
-          "People ask why a lot."
+          "Why did I change careers? That's a fair question worth asking directly of anyone.",
+          "People ask why a lot, and I have never really found a good answer to give."
         ],
         "correct": 1,
         "explanation": "This revision builds genuine periodic structure — three accumulating 'after' clauses — delaying the main clause and its explanation, creating rhetorical build-up before the essay's key explanatory payoff, consistent with this unit's periodic sentence technique. Choice D is simply the unrevised original with no added structure; choice C rephrases as a question without any delay or buildup; and periodic structure clearly can work here (contra A)."
@@ -6518,9 +6518,9 @@ const QUESTIONS = {
         "stem": "What is the practical policy implication of taking Source 4's critique seriously, beyond simply noting the statistical caveat?",
         "choices": [
           "No practical policy implication follows from a purely statistical critique like this one.",
-          "It implies watch programs should be eliminated immediately in every neighborhood.",
-          "It suggests investigating whether the effect holds in neighborhoods with different income and homeownership profiles before expanding.",
-          "It implies the police department's entire report should be treated as fraudulent."
+          "It implies watch programs should be eliminated immediately in every neighborhood across the entire city.",
+          "It suggests investigating whether the effect holds in neighborhoods with different income and homeownership before expanding.",
+          "It implies the police department's entire report should be treated as fraudulent and discarded."
         ],
         "correct": 2,
         "explanation": "Taking Source 4 seriously suggests a specific, actionable step: testing whether the burglary-reduction effect holds across different neighborhood profiles before expanding watch programs city-wide based on the observed correlation. Choice B overreacts — Source 4 questions the causal claim, not the programs' entire value. Choice D misreads a causal critique as an accusation of fraud. Choice A is wrong because Source 4's critique translates directly into a concrete research and policy step."
@@ -6543,10 +6543,10 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "What would a sophisticated synthesis of these two sources conclude?",
         "choices": [
-          "The two sources address unrelated questions with no meaningful relationship.",
+          "The two sources address unrelated questions with no meaningful relationship between them.",
           "Watch programs definitely have no effect whatsoever on burglary rates in any neighborhood.",
-          "The correlation may be partly explained by neighborhood characteristics, so causal claims should be appropriately qualified.",
-          "Source 3's report should be disregarded entirely as worthless."
+          "The correlation may be partly explained by neighborhood characteristics, so causal claims should be qualified.",
+          "Source 3's report should be disregarded entirely as worthless, since it comes from the police."
         ],
         "correct": 2,
         "explanation": "A sophisticated synthesis qualifies rather than discards Source 3's finding: the correlation may be partly or wholly explained by confounding neighborhood characteristics, so causal claims about watch-program effectiveness need appropriate caveats. Choice D overreacts to a causal critique by discarding the data itself. Choice A ignores that Source 4 directly analyzes Source 3's same statistics. Choice B overstates Source 4's finding into a certainty it doesn't claim."
@@ -6686,10 +6686,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "A student reading period note says: 'Source 1 - urban context, Source 2 - contradicts w/ rural context, likely explained by different labor markets.' What synthesis skill does this note demonstrate?",
         "choices": [
-          "This note demonstrates no particular skill; it is simply a plain summary.",
-          "This note demonstrates the Section 8.2 skill of investigating WHY sources conflict, not just recording disagreement.",
-          "This note demonstrates the specific weakness of overreliance on a single source.",
-          "This note demonstrates poor reading comprehension of the source material."
+          "This note demonstrates no particular skill; it is simply a plain summary of what each source says.",
+          "This note demonstrates the Section 8.2 skill of investigating WHY sources conflict, not just recording it.",
+          "This note demonstrates the specific weakness of overreliance on a single source of information.",
+          "This note demonstrates poor reading comprehension of the source material it summarizes."
         ],
         "correct": 1,
         "explanation": "The note demonstrates Section 8.2's investigating-conflict skill: rather than just recording that urban and rural results differ, it proposes a specific likely explanation (different labor markets) during the reading period itself. Choice D mischaracterizes an analytical note as a comprehension error. Choice A undersells the note's analytical content. Choice C misapplies a different unit concept (Section 8.4) that isn't relevant to this note."
@@ -6738,10 +6738,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "What verifiability strength do both Source 7 and Source 8 share, despite their different findings?",
         "choices": [
-          "Neither source provides any verifiability at all.",
-          "Verifiability only applies when two sources' findings ultimately agree with each other.",
-          "Both sources specify sample sizes and matched-control methodology, giving each finding enough detail for independent scrutiny, regardless of how their specific numeric conclusions ultimately compare to one another.",
-          "Only Source 7 has any verifiability; Source 8 provides none."
+          "Neither source provides any verifiability at all, since neither describes how its data were gathered or checked by others.",
+          "Verifiability only applies when two sources' findings ultimately agree with each other on the main numeric result being reported.",
+          "Both sources specify sample sizes and matched-control methodology, giving each finding enough detail for independent scrutiny whatever their conclusions.",
+          "Only Source 7 has any verifiability; Source 8 provides none, because it gives no details about its sample or method."
         ],
         "correct": 2,
         "explanation": "Both sources specify their sample sizes and matched-control-group methodology, giving each finding sufficient methodological detail for independent scrutiny, regardless of whether their conclusions ultimately agree. Choice A and D both ignore that the passage gives comparable methodological detail for both studies. Choice B wrongly ties verifiability to agreement between sources, when it's actually a property of how much detail a single source discloses."
@@ -6751,10 +6751,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Do Source 9 and Source 10 directly conflict with each other?",
         "choices": [
-          "The two sources have no meaningful relationship to each other at all.",
-          "Yes, Source 10's budget analysis proves Source 9's ridership data is false.",
-          "No, since they address different aspects of the same policy: ridership impact versus funding sustainability, when in fact neither source presents any numeric ridership figures that actually conflict.",
-          "Yes, they make completely incompatible factual claims about ridership numbers."
+          "The two sources have no meaningful relationship to each other at all, so they cannot be compared in any useful way.",
+          "Yes, Source 10's budget analysis proves Source 9's ridership data is false, since the budget cannot possibly support it.",
+          "No, since they address different aspects of the same policy -- ridership impact versus funding sustainability -- and neither presents conflicting figures.",
+          "Yes, they make completely incompatible factual claims about ridership numbers that cannot both be true at once."
         ],
         "correct": 2,
         "explanation": "These sources don't directly conflict; they address different aspects of the same policy, so a sophisticated synthesis would use both together rather than forcing a false conflict. Choice A ignores that both sources concern the same fare-free pilot. Choices B and D both invent a factual dispute the passage never describes — Source 10 addresses funding, not ridership figures."
@@ -6777,10 +6777,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "What expertise dimension distinguishes Source 10's analysis from Source 9's ridership report?",
         "choices": [
-          "Only Source 9 has any expertise worth noting in this comparison.",
-          "Both sources have identical expertise, with no meaningful distinction between them.",
-          "Source 10 has no relevant expertise of any kind for this topic.",
-          "Source 10 brings budget-analysis expertise focused on funding sustainability, complementing Source 9's ridership-tracking expertise, two genuinely different analytical skill sets neither source could substitute for the other."
+          "Only Source 9 has any expertise worth noting in this comparison, since Source 10 is only a budget report with no analysis behind it.",
+          "Both sources have identical expertise, with no meaningful distinction between them in kind, focus, or method.",
+          "Source 10 has no relevant expertise of any kind for this topic, since budgets are unrelated to ridership.",
+          "Source 10's budget-analysis expertise on funding complements Source 9's ridership-tracking expertise; neither could substitute for the other."
         ],
         "correct": 3,
         "explanation": "Source 10 brings specific budget-analysis expertise focused on funding sustainability, complementing rather than duplicating Source 9's operational ridership-tracking expertise — two genuinely different analytical dimensions. Choice A and C both ignore Source 10's clearly stated budget-analysis background. Choice B flattens a meaningful distinction the passage draws between operational and financial expertise."
@@ -6790,10 +6790,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Considering all five source sets studied in this unit together, what shared lesson do they illustrate about institutional versus independent sources?",
         "choices": [
-          "Institutional sources should always be trusted completely, and independent sources always distrusted.",
-          "This unit's five source sets illustrate no shared pattern of any kind.",
-          "Institutional sources provide useful data alongside a clear interest, while independent sources add scrutiny or new dimensions, a pattern this unit's structure of pairing institutional and independent sources repeatedly reinforces.",
-          "Independent sources are always more accurate than institutional sources across every source set."
+          "Institutional sources should always be trusted completely, and independent sources should always be distrusted as biased.",
+          "This unit's five source sets illustrate no shared pattern of any kind in how sources relate to one another.",
+          "Institutional sources give useful data but carry a clear interest; independent sources add scrutiny or new dimensions.",
+          "Independent sources are always more accurate than institutional sources across every source set in the unit."
         ],
         "correct": 2,
         "explanation": "Across all five source sets, institutional sources provide genuine, useful data alongside a clear institutional interest, while independent or complementary sources add scrutiny or additional dimensions — illustrating that productive synthesis uses both types together. Choice A treats one source type as inherently more trustworthy, which the unit repeatedly warns against. Choice B ignores the clear repeated pattern across the five sets. Choice D overstates the pattern into a blanket accuracy claim the unit never makes."
@@ -6803,10 +6803,10 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "Applying the four-dimension framework from Section 8.1, how would you assess Source 1's currency?",
         "choices": [
-          "Currency can never be meaningfully assessed for a manufacturer-published report.",
-          "Currency is unclear, since neither source states when testing occurred relative to the device's current version, since neither source specifies exactly when its underlying testing was actually conducted.",
+          "Currency can never be meaningfully assessed for a manufacturer-published report of any kind.",
+          "Currency is unclear, since neither source specifies when its underlying testing was conducted relative to the device's current version.",
           "Source 1's currency is automatically guaranteed, since manufacturers always test their newest hardware.",
-          "Currency is identical to verifiability, so it requires no separate assessment."
+          "Currency is identical to verifiability, so it requires no separate assessment from that criterion."
         ],
         "correct": 1,
         "explanation": "Currency depends on timing details neither source specifies — whether the tested device matches the version currently sold — so a careful reader should flag this as an open question. Choice A overstates the claim; currency can often be assessed when dates are given, they simply aren't here. Choice C assumes a fact not in evidence. Choice D collapses two of the framework's four distinct dimensions into one, which the unit treats separately."
@@ -6816,10 +6816,10 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "Which best describes how a synthesis essay should characterize the relationship between Source 3 and Source 4, given this unit's Section 8.2 framework?",
         "choices": [
-          "As two sources with no meaningful analytical relationship to each other.",
-          "As two sources addressing the same correlation from different angles, one reporting it and one investigating an alternative cause.",
-          "As sources that must both be eliminated from any argument, since they disagree.",
-          "As sources that flatly contradict each other with no possible reconciliation."
+          "As two sources with no meaningful analytical relationship to each other or to the question.",
+          "As two sources addressing the same correlation from different angles, one reporting it and one investigating another cause.",
+          "As sources that must both be eliminated from any argument, since they disagree with each other.",
+          "As sources that flatly contradict each other with no possible reconciliation between them."
         ],
         "correct": 1,
         "explanation": "Source 3 reports a correlation; Source 4 investigates a specific alternative causal explanation for that same correlation — a relationship of complication and refinement, not flat contradiction. Choice D overstates the disagreement as irreconcilable when Source 4 actually builds directly on Source 3's data. Choice C wrongly assumes disagreement requires discarding both sources. Choice A ignores that Source 4 is a direct response to Source 3's specific claim."
@@ -6830,9 +6830,9 @@ const QUESTIONS = {
         "stem": "Applying the 'remove the strongest source' logic from Section 8.4 to an essay ARGUING FOR the toll lane project, which source's removal would most damage that specific argument?",
         "choices": [
           "Removing Source 6 would most damage a pro-project argument, since it supplies the project's central justification.",
-          "Neither source's removal would meaningfully affect a pro-project argument.",
-          "Both sources are equally unimportant to an essay arguing for the project.",
-          "Removing Source 5 would most damage a pro-project argument, since it supplies the core congestion-benefit evidence, the specific projected benefit a pro-project essay would otherwise have no other source to draw on."
+          "Neither source's removal would meaningfully affect a pro-project argument, since both are equally minor.",
+          "Both sources are equally unimportant to an essay arguing for the project, so either could be dropped.",
+          "Removing Source 5 would most damage a pro-project argument, since it supplies the core congestion-benefit evidence the essay would otherwise lack."
         ],
         "correct": 3,
         "explanation": "Removing Source 5 would most damage a pro-project argument, since it provides the essay's primary evidence for the claimed congestion benefit that justifies the project in the first place — making it that argument's single most load-bearing source. Choices B and C both wrongly claim neither source matters. Choice A reverses the roles; Source 6 supplies the equity objection a pro-project essay would need to address, not its central justification."
@@ -6842,10 +6842,10 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "Which organizational approach, per Section 8.3, would best structure an essay using both Source 7 and Source 8 productively?",
         "choices": [
-          "Citing both sources without stating any specific claim they're meant to support.",
-          "Ignoring one of the two sources entirely to avoid addressing their different findings.",
-          "A paragraph built around the claim that effectiveness depends on labor market context, using both studies' results as evidence for it, rather than presenting each study's findings as a separate, disconnected summary.",
-          "One paragraph summarizing Source 7, followed by a separate, disconnected paragraph summarizing Source 8."
+          "Citing both sources in one paragraph without ever stating a specific claim they are meant to support.",
+          "Ignoring one of the two sources entirely to avoid having to address their different findings or methods.",
+          "A paragraph built around the claim that effectiveness depends on labor market context, using both studies as evidence rather than summarizing each.",
+          "One paragraph summarizing Source 7, followed by a separate, disconnected paragraph summarizing Source 8's findings."
         ],
         "correct": 2,
         "explanation": "Organizing around a specific unifying claim — that effectiveness depends on labor market context — and using both sources' different findings as evidence for that single claim exemplifies genuine idea-based organization, turning an apparent conflict into the argument's substance. Choice A cites without a governing claim, which Section 8.3 identifies as weak. Choice B discards relevant evidence. Choice D is the source-by-source pattern this unit specifically trains students to avoid."
@@ -6855,10 +6855,10 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Which best describes the overall relationship among ridership impact, equity impact, and funding sustainability across Source 9 and Source 10?",
         "choices": [
-          "These three considerations are entirely unrelated to one another.",
-          "Ridership and equity data actually contradict each other within Source 9 itself.",
-          "Source 9 establishes ridership and equity benefits, while Source 10 establishes the funding constraint needed to sustain them, two positive findings that only become a sustainable policy once the funding question is resolved.",
-          "Only funding sustainability matters; ridership and equity are irrelevant considerations."
+          "These three considerations are entirely unrelated to one another, so they should be treated as separate topics in any essay.",
+          "Ridership and equity data actually contradict each other within Source 9 itself, which undermines all of that source's findings.",
+          "Source 9 establishes ridership and equity benefits and Source 10 the funding constraint; the benefits become sustainable only once funding is resolved.",
+          "Only funding sustainability matters; ridership and equity are irrelevant considerations to the policy question at hand."
         ],
         "correct": 2,
         "explanation": "Source 9 establishes two positive dimensions that make the policy appealing, while Source 10 establishes a practical funding constraint that must be addressed for that appeal to become sustainable — three considerations a strong synthesis weighs together. Choice B invents an internal contradiction the passage doesn't describe. Choice D arbitrarily discards two of the three relevant considerations. Choice A ignores how directly the funding question depends on the benefits already established."
@@ -6894,10 +6894,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "If an essay used only Source 6 and ignored Source 5 entirely, what would be lost?",
         "choices": [
-          "Source 5 contains no information relevant to this topic at all.",
-          "The essay would lose the projected congestion-benefit data explaining why the project was proposed in the first place, the very data explaining why the state proposed the project in the first place.",
-          "Using only Source 6 would make the essay more balanced than using both sources.",
-          "Nothing would be lost; Source 6 alone tells the complete story on its own."
+          "Source 5 contains no information relevant to this topic at all, so nothing in the essay would change.",
+          "The essay would lose the projected congestion-benefit data that explains why the state proposed the project in the first place.",
+          "Using only Source 6 would make the essay more balanced than using both sources together would.",
+          "Nothing would be lost; Source 6 alone tells the complete story on its own, without Source 5."
         ],
         "correct": 1,
         "explanation": "Using only Source 6 would lose the specific projected-benefit data explaining why the project was proposed, presenting only the objection without the countervailing case it's actually responding to. Choice A and D both ignore Source 5's substantive, distinct contribution. Choice C gets it backward — omitting the case the objection responds to makes an essay less balanced, not more."
@@ -6933,10 +6933,10 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Which of the following best represents a genuinely synthesized thesis, rather than a thesis favoring just one source?",
         "choices": [
-          "The project's benefits justify proceeding, provided the equity concerns Source 6 raises are addressed through specific provisions, rather than simply endorsing one source's position over the other's.",
-          "The project is a bad idea simply because Source 6 says so.",
-          "The project's outcome should be decided by chance, since the two sources disagree.",
-          "The project is a good idea simply because Source 5 says so."
+          "The project's benefits justify proceeding, provided the equity concerns Source 6 raises are addressed through specific provisions.",
+          "The project is a bad idea simply because Source 6 says so, and Source 5's evidence about benefits can be set aside.",
+          "The project's outcome should be decided by chance, since the two sources disagree and neither can be trusted.",
+          "The project is a good idea simply because Source 5 says so, and Source 6's equity concerns can be set aside."
         ],
         "correct": 0,
         "explanation": "This thesis genuinely synthesizes both sources: it accepts Source 5's documented benefit while directly incorporating Source 6's equity concern into a specific, actionable condition, rather than deferring to either source alone. Choices B and D each rely on a single source's authority rather than genuine synthesis. Choice C treats disagreement as unresolvable rather than as something a thesis can productively reconcile."
@@ -6962,10 +6962,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "What structural weakness do sentences [1]-[3] share?",
         "choices": [
-          "They are far too specific and detailed for a synthesis paragraph.",
+          "They are far too specific and detailed for a synthesis paragraph to include.",
           "They organize around individual SOURCES rather than around one developing IDEA connecting them.",
-          "They directly contradict each other's specific claims.",
-          "They contain grammatical errors that obscure their meaning."
+          "They directly contradict each other's specific claims about the same findings.",
+          "They contain grammatical errors that obscure their meaning for the reader."
         ],
         "correct": 1,
         "explanation": "Sentences [1]-[3] organize around individual sources rather than developing ideas — each sentence simply announces a different source's topic, exactly the source-by-source weakness Section 8.3 identifies as weaker than idea-based organization. Choice C is wrong; the sentences don't conflict, they simply sit side by side. Choice A is backward — the sentences are actually too vague and general to be criticized as overly specific. Choice D is unsupported by the actual text."
@@ -6988,10 +6988,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Sentence [4] ('All three sources suggest telehealth is beneficial') exhibits which specific weakness?",
         "choices": [
-          "It is a vague, generic conclusion that never specifies what benefit each source actually demonstrates.",
-          "It directly contradicts the claims made in sentences [1] through [3].",
-          "It provides far too much specific, granular detail for a summary sentence.",
-          "It is grammatically incorrect and difficult for a reader to parse."
+          "It is a vague, generic conclusion that never specifies what benefit each source demonstrates.",
+          "It directly contradicts the claims made in sentences [1] through [3] of the paragraph.",
+          "It provides far too much specific, granular detail for a summary sentence to carry.",
+          "It is grammatically incorrect and difficult for a reader to parse on first reading."
         ],
         "correct": 0,
         "explanation": "This sentence offers a vague, generic conclusion without specifying what SPECIFIC benefit each source demonstrates or how those benefits connect to the essay's actual policy argument — evidence dumping toward a conclusion rather than genuine synthesis. Choice C is the opposite problem from what's actually present. Choice B misreads the sentence, which summarizes rather than contradicts the prior claims. Choice D is unsupported by the actual wording."
@@ -7001,10 +7001,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "What specific weakness does this paragraph exhibit, despite citing what appears to be strong evidence?",
         "choices": [
-          "The paragraph relies almost entirely on a single study, with 'other research' never actually cited or used.",
-          "The paragraph has no weaknesses of any kind worth revising.",
-          "The single study cited is methodologically flawed in its design.",
-          "The paragraph cites too many different sources for a single body paragraph."
+          "The paragraph relies almost entirely on a single study, with 'other research' never actually cited.",
+          "The paragraph has no weaknesses of any kind worth revising before it is submitted.",
+          "The single study cited is methodologically flawed in its design and its sampling.",
+          "The paragraph cites too many different sources for a single body paragraph to handle."
         ],
         "correct": 0,
         "explanation": "This paragraph relies almost entirely on one study, with sentence [3]'s vague gesture at 'other research' never actually developed into substantive use — exactly the overreliance pattern Section 8.4 warns against. Choice B is the opposite of the actual problem. Choice C isn't supported by the passage, which doesn't critique the study's design. Choice D ignores the clear diagnostic failure the paragraph exhibits."
@@ -7027,9 +7027,9 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which revision would best address this paragraph's overreliance weakness?",
         "choices": [
-          "Removing all citations and relying on unsupported assertion instead.",
-          "Adding a fourth, equally vague reference to more unspecified research.",
-          "Removing sentence [3] entirely, leaving no replacement in its place.",
+          "Removing all citations and relying on unsupported assertion instead of evidence.",
+          "Adding a fourth, equally vague reference to more unspecified research on the topic.",
+          "Removing sentence [3] entirely, leaving no replacement in its place at all.",
           "Replacing the vague gesture with specific findings from a genuinely different, named second source."
         ],
         "correct": 3,
@@ -7040,10 +7040,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "If the writer wanted to add a sentence acknowledging a potential conflict between Source B and Source C, which addition would best demonstrate the Section 8.2 skill of investigating disagreement?",
         "choices": [
-          "Removing Source C entirely so no possible tension can arise.",
-          "A sentence stating only that the two sources disagree, without further explanation.",
-          "A sentence flatly claiming Source B's satisfaction data is simply wrong.",
-          "A sentence noting that Source B's ratings come from routine visits while Source C's data centers on complex referrals, a difference that could explain any apparent tension."
+          "Removing Source C entirely so that no possible tension between the sources can arise.",
+          "A sentence stating only that the two sources disagree, without any further explanation of why.",
+          "A sentence flatly claiming Source B's satisfaction data is simply wrong and should be ignored.",
+          "A sentence noting that Source B's ratings come from routine visits while Source C's data centers on complex referrals."
         ],
         "correct": 3,
         "explanation": "Noting that Source B's high ratings come from routine visits while Source C's access data concerns more complex referral cases investigates a specific likely explanation for any apparent tension — exactly the Section 8.2 skill of identifying WHY sources might diverge. Choice A dismisses a source rather than investigating the disagreement. Choice C avoids the analysis entirely by discarding evidence. Choice B records disagreement without the investigative step the skill requires."
@@ -7053,10 +7053,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Applying Section 8.3's idea-based organization principle, how could this paragraph be restructured around a developing claim rather than around the single study's findings alone?",
         "choices": [
-          "Opening with the specific policy question, then addressing it through two connected, multi-sourced evidentiary threads.",
-          "Removing the specific policy question from the paragraph entirely.",
-          "Citing the exact same single study four additional times throughout the paragraph.",
-          "Keeping the paragraph organized exactly as it is currently written."
+          "Opening with the specific policy question, then addressing it through two connected, multi-sourced threads.",
+          "Removing the specific policy question from the paragraph entirely to make it shorter.",
+          "Citing the exact same single study four additional times throughout the paragraph for emphasis.",
+          "Keeping the paragraph organized exactly as it is currently written, with no changes."
         ],
         "correct": 0,
         "explanation": "Opening with the specific policy question and addressing it through two clearly connected threads, each drawing on multiple sources, applies Section 8.3's idea-based organization instead of simply reporting one study's sequential findings. Choice C increases reliance on the single source rather than reducing it. Choice D ignores the paragraph's demonstrated weaknesses. Choice B removes the very question the paragraph needs to organize around."
@@ -7066,10 +7066,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering this draft holistically, which single revision would most improve its adherence to this unit's core synthesis principles?",
         "choices": [
-          "Making the paragraph significantly shorter with less specific supporting content.",
-          "Removing all source citations from the paragraph entirely.",
-          "Adding five more sources, each given the same one-sentence announcement treatment.",
-          "Restructuring around a specific developing claim, with each source contributing distinct, substantive support to it."
+          "Making the paragraph significantly shorter, with less specific supporting content in it.",
+          "Removing all source citations from the paragraph entirely to make it read more smoothly.",
+          "Adding five more sources, each given the same one-sentence announcement treatment as before.",
+          "Restructuring around a specific developing claim, with each source contributing distinct support to it."
         ],
         "correct": 3,
         "explanation": "Restructuring around a specific developing claim — with each source contributing distinct, substantive support rather than its own disconnected announcement — addresses both the organizational weakness (Section 8.3) and the vague-conclusion weakness at once. Choice B removes needed evidence. Choice A addresses length, not the actual structural problem. Choice C multiplies the existing weakness rather than correcting it."
@@ -7157,7 +7157,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Considering this unit as a whole, what is the single most important question a writer should ask before finalizing any synthesis paragraph?",
         "choices": [
-          "Citing the exact same single study four additional times for emphasis.",
+          "Citing the exact same single study four additional times for emphasis and repetition.",
           "Opening with the specific policy question, addressed through two connected parts each drawing on multiple sources.",
           "Removing the specific policy question the paragraph is meant to address entirely.",
           "This paragraph should remain organized exactly as it is currently structured."
@@ -7248,10 +7248,10 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "As a final check on this unit's overall content: which single question would most efficiently diagnose BOTH drafts' core problems simultaneously?",
         "choices": [
-          "For each claim, is there genuine support from more than one source that would survive removing any single one?",
-          "Does this paragraph use sophisticated, elevated vocabulary throughout?",
-          "How many total words does this particular paragraph contain?",
-          "Does this paragraph avoid citing any sources at all?"
+          "For each claim, is there genuine support from more than one source that would survive losing any one?",
+          "Does this paragraph use sophisticated, elevated vocabulary throughout its sentences?",
+          "How many total words does this particular paragraph contain, counting its citations?",
+          "Does this paragraph avoid citing any sources at all, relying only on its own claims?"
         ],
         "correct": 0,
         "explanation": "This single diagnostic question efficiently catches both drafts' core problems — D1's source-announcement-without-claim weakness and D2's single-source overreliance — unifying the unit's separate diagnostic tools into one reusable check. Choices B and C focus on surface features irrelevant to synthesis quality. Choice D misapplies the lesson; the goal is genuine multi-source use, not avoiding citation altogether."
@@ -7261,10 +7261,10 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which best summarizes this unit's central, unifying message across all five sections?",
         "choices": [
-          "That synthesis essays should avoid taking any clear position on the prompt.",
-          "That genuine synthesis requires critical evaluation, investigating conflicts, idea-based organization, and avoiding overreliance together.",
-          "That citing sources is unnecessary in genuinely strong argumentative writing.",
-          "That only one of the unit's five sections actually matters for exam success."
+          "That synthesis essays should avoid taking any clear position on the prompt they are given.",
+          "That genuine synthesis requires evaluation, investigating conflicts, idea-based organization, and avoiding overreliance.",
+          "That citing sources is unnecessary in genuinely strong argumentative writing of any kind.",
+          "That only one of the unit's five sections actually matters for exam success on the essay."
         ],
         "correct": 1,
         "explanation": "This unit's central message is that genuine synthesis requires evaluating sources critically, investigating conflicts, organizing around ideas, and avoiding single-source overreliance — a coherent, interconnected skill set, not five separate, unrelated rules. Choice A contradicts the unit's entire premise. Choice D wrongly dismisses four of the five sections as irrelevant. Choice C misreads a unit about strengthening arguments as one discouraging them."
@@ -7274,7 +7274,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best explains why this unit's skills matter beyond the specific synthesis essay format tested on the exam?",
         "choices": [
-          "These skills are useful only for standardized testing contexts specifically.",
+          "These skills are useful only for standardized testing contexts specifically, and nowhere else.",
           "These skills become irrelevant immediately once the exam itself is completed.",
           "These skills have no application beyond this one specific exam essay format.",
           "Evaluating credibility, organizing ideas, and avoiding overreliance are general research and reasoning skills."
@@ -7383,7 +7383,7 @@ const QUESTIONS = {
           "It identifies a specific rhetorical sequence and its precise effect.",
           "It is noticeably shorter than the other four statements.",
           "It avoids taking any specific position on the passage.",
-          "It restates the passage's general topic without adding a claim in this specific case."
+          "It restates the passage's general topic without adding a claim."
         ],
         "correct": 0,
         "explanation": "Statement 5 identifies a specific rhetorical sequence (vulnerable admission, then statistics) and makes a specific claim about that sequence's effect (making a recommendation feel earned) — both defensible and previewing a clear line of reasoning. It does not avoid taking a position (that's its strength, not a weakness like choice C implies); its length relative to the others is incidental, not the reason it works (choice B); and it goes well beyond restating the topic — it makes an actual claim about how the passage works (choice D)."
@@ -7395,7 +7395,7 @@ const QUESTIONS = {
         "choices": [
           "Finishing the synthesis essay early, with time left over.",
           "Rushing the final two body paragraphs of the argument essay.",
-          "Spending too much time on the synthesis essay's planning phase based on what the passage actually states.",
+          "Spending too much time on the synthesis essay's planning phase.",
           "Never previewing the rhetorical analysis passage during the reading period."
         ],
         "correct": 3,
@@ -7432,7 +7432,7 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "In Scenario A, which answer choice should be selected?",
         "choices": [
-          "The choice describing the metaphor's effect on pacing, since it's accurate given the details provided here.",
+          "The choice describing the metaphor's effect on pacing, since it's accurate.",
           "The choice addressing the metaphor's effect on tone, as the question asked.",
           "Neither answer choice should be selected in this scenario.",
           "Either choice is equally correct, since both are accurate statements."
@@ -7447,7 +7447,7 @@ const QUESTIONS = {
         "choices": [
           "Neither answer choice adequately addresses this question.",
           "The choice naming the specific institutional interest, as the question asked.",
-          "Both choices are equally responsive to what the question asked as far as the passage indicates.",
+          "Both choices are equally responsive to what the question asked.",
           "The choice describing the source's general topic area."
         ],
         "correct": 1,
@@ -7473,7 +7473,7 @@ const QUESTIONS = {
         "choices": [
           "Always choose whichever answer choice is listed first.",
           "These three scenarios share no underlying strategic principle.",
-          "Always choose whichever available answer choice is the longest under these particular circumstances.",
+          "Always choose whichever available answer choice is the longest.",
           "Always re-check the question stem against your final answer choice."
         ],
         "correct": 3,
@@ -7486,7 +7486,7 @@ const QUESTIONS = {
         "choices": [
           "It names techniques without ever explaining their specific effect here.",
           "It contains no rhetorical vocabulary at all.",
-          "It contains no weakness and would earn full credit as written according to the scenario described.",
+          "It contains no weakness and would earn full credit as written.",
           "It focuses too narrowly on a single rhetorical technique."
         ],
         "correct": 0,
@@ -7499,7 +7499,7 @@ const QUESTIONS = {
         "choices": [
           "It provides too much specific, well-cited evidence.",
           "It hedges into vagueness after presenting only generic, uncited claims.",
-          "It takes too strong and specific a position for a timed essay in this specific case.",
+          "It takes too strong and specific a position for a timed essay.",
           "It contains no weakness and would earn full credit as written."
         ],
         "correct": 1,
@@ -7513,7 +7513,7 @@ const QUESTIONS = {
           "It relies entirely on one source across three consecutive paragraphs.",
           "It provides no specific evidence at all in any paragraph.",
           "It contains no weakness and would earn full credit as written.",
-          "It cites too many different sources across its three paragraphs based on what the passage actually states."
+          "It cites too many different sources across its three paragraphs."
         ],
         "correct": 0,
         "explanation": "Excerpt 3 relies entirely on a single source across three consecutive paragraphs, exactly the single-source overreliance pattern Unit 8's Section 8.4 diagnostic test is designed to catch — since this essay's synthesis argument would collapse entirely without that one source. It is not flawless, so choice C is wrong; its problem is too few sources, the opposite of too many (choice D); and it does cite specific evidence from its one source — the issue is the source's narrowness, not an absence of evidence (choice B)."
@@ -7524,7 +7524,7 @@ const QUESTIONS = {
         "stem": "Which of these three excerpts would most benefit from simply adding a second, different source, without any other changes?",
         "choices": [
           "Excerpt 2, since it already uses multiple sources effectively.",
-          "None of the three excerpts would benefit from this specific change given the details provided here.",
+          "None of the three excerpts would benefit from this specific change.",
           "Excerpt 3, since a second, substantively-used source addresses its weakness directly.",
           "Excerpt 1, since it discusses too few rhetorical techniques."
         ],
@@ -7537,7 +7537,7 @@ const QUESTIONS = {
         "stem": "Considering all three excerpts together, what shared lesson do they illustrate about this course's recurring weaknesses?",
         "choices": [
           "These three weaknesses only appear in isolation, never together.",
-          "These weaknesses cannot be diagnosed without direct teacher feedback as far as the passage indicates.",
+          "These weaknesses cannot be diagnosed without direct teacher feedback.",
           "All three excerpts are equally strong and require no revision.",
           "These are specific, nameable, diagnosable patterns, not vague 'weak writing.'"
         ],
@@ -7552,7 +7552,7 @@ const QUESTIONS = {
           "That MCQ pacing left too little time for the section's final questions.",
           "That guessing quickly is always the optimal multiple-choice strategy.",
           "That the student ran out of relevant content knowledge, not time.",
-          "That the final five questions were significantly harder than the rest under these particular circumstances."
+          "That the final five questions were significantly harder than the rest."
         ],
         "correct": 0,
         "explanation": "That the student's MCQ pacing left insufficient time for the final questions, suggesting a need to practice the roughly-one-minute-per-question pacing this unit's Section 9.1 recommends, rather than a content knowledge gap. Nothing in the reflection indicates the final questions were unusually hard, contradicting choice D; rushed guessing is a symptom of a pacing problem, not an endorsement of it as a strategy, contradicting choice B; and the pattern described (running out of time, not knowledge) is a pacing issue rather than a knowledge gap, contradicting choice C."
@@ -7588,7 +7588,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Given three weeks remaining and this specific diagnostic information, what would be the most efficient use of the student's remaining practice time?",
         "choices": [
-          "Avoiding all further full-length practice attempts to prevent fatigue according to the scenario described.",
+          "Avoiding all further full-length practice attempts to prevent fatigue.",
           "Targeted practice on MCQ pacing and late-essay thesis fatigue specifically.",
           "Restudying every unit in this course uniformly from the beginning.",
           "Focusing exclusively on content review with no further timed practice."
@@ -7603,7 +7603,7 @@ const QUESTIONS = {
         "choices": [
           "Statements 1 and 3 both fail to take a specific, arguable position.",
           "Statements 1 and 5 fail for the same underlying reason.",
-          "No two of the five statements share any underlying weakness in this specific case.",
+          "No two of the five statements share any underlying weakness.",
           "Statements 2 and 4 fail for the same underlying reason."
         ],
         "correct": 0,
@@ -7615,7 +7615,7 @@ const QUESTIONS = {
         "stem": "Which of the five statements would be the fastest to revise into a strong thesis, and why?",
         "choices": [
           "Statement 1, since topic announcements need no further revision.",
-          "Statement 3, since every hedged statement is equally easy to fix based on what the passage actually states.",
+          "Statement 3, since every hedged statement is equally easy to fix.",
           "Statement 4, since its 'it depends' already implies a claim to specify.",
           "None of the five statements could be revised quickly."
         ],
@@ -7628,7 +7628,7 @@ const QUESTIONS = {
         "stem": "If this student had previewed all three prompts in the first 5 minutes of the reading period before spending the remaining 10 minutes on synthesis sources specifically, would this likely have been a better use of time than what actually happened?",
         "choices": [
           "No — this would have been a worse use of the reading period.",
-          "No — previewing multiple prompts always wastes more time than it saves given the details provided here.",
+          "No — previewing multiple prompts always wastes more time than it saves.",
           "Yes — it would preserve most synthesis reading time while previewing the rest.",
           "There's no way to know whether this alternative approach would help."
         ],
@@ -7641,7 +7641,7 @@ const QUESTIONS = {
         "stem": "Which best describes why this passage uses three separate scenarios rather than just one to illustrate the same underlying strategic principle?",
         "choices": [
           "The three scenarios actually illustrate three unrelated principles.",
-          "Three scenarios provide no additional benefit compared to just one as far as the passage indicates.",
+          "Three scenarios provide no additional benefit compared to just one.",
           "Different question types show this principle applies broadly, not narrowly.",
           "Three scenarios were included only to make the passage longer."
         ],
@@ -7666,7 +7666,7 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "What does this case study suggest about the relationship between planning time and total essay quality, based on the contrast between the synthesis and rhetorical analysis essays?",
         "choices": [
-          "Planning time only matters for synthesis essays, not other essay types under these particular circumstances.",
+          "Planning time only matters for synthesis essays, not other essay types.",
           "More planning time always guarantees a perfect essay outcome.",
           "Preparation correlates with stronger outcomes, though one case can't prove causation.",
           "Planning time has no relationship to essay quality in this case study."
@@ -7679,7 +7679,7 @@ const QUESTIONS = {
         "passageId": "P3",
         "stem": "Would this passage's lesson also apply to a question with more than two remaining answer choices, not just the two described in each scenario?",
         "choices": [
-          "No — this principle becomes irrelevant once more than two choices remain according to the scenario described.",
+          "No — this principle becomes irrelevant once more than two choices remain.",
           "No — this principle only applies when exactly two choices remain.",
           "Yes — the principle concerns the relationship between a choice and the question.",
           "This question can't be answered based on the passage's content."
@@ -7693,7 +7693,7 @@ const QUESTIONS = {
         "stem": "Which of the three excerpts in P4 shares its diagnosed weakness with Statement 1 from the P1 thesis diagnostic set?",
         "choices": [
           "Excerpt 1 — both name or announce something without a substantive claim.",
-          "None of the three excerpts shares any weakness with Statement 1 in this specific case.",
+          "None of the three excerpts shares any weakness with Statement 1.",
           "Excerpt 2 shares Statement 1's specific weakness.",
           "Excerpt 3 shares Statement 1's specific weakness."
         ],
@@ -7719,7 +7719,7 @@ const QUESTIONS = {
         "stem": "If a sixth thesis statement read 'Some readers might find this passage's message compelling,' what specific weakness would it share with statements already in this set?",
         "choices": [
           "It would share Statement 3's weakness of reporting a reaction, not a claim.",
-          "It would share Statement 5's strength, not any statement's weakness based on what the passage actually states.",
+          "It would share Statement 5's strength, not any statement's weakness.",
           "It would share no weakness with any statement already in the set.",
           "It would be uniquely strong, unlike anything else in the set."
         ],
@@ -7747,7 +7747,7 @@ const QUESTIONS = {
           "The two passages teach entirely unrelated lessons about this exam.",
           "This exam has no consistent underlying design principles at all.",
           "This exam consistently rewards specificity over generality throughout.",
-          "Specificity only matters for multiple-choice questions, not essays given the details provided here."
+          "Specificity only matters for multiple-choice questions, not essays."
         ],
         "correct": 2,
         "explanation": "That this exam consistently rewards SPECIFICITY over generality — whether in a thesis statement (P1) or in selecting the most precisely responsive multiple-choice answer (P3) — suggesting specificity is a unifying value across the entire exam, not just one isolated skill tested in one section. The two passages converge on this exact shared lesson, contradicting choice A; a clear, consistent pattern does emerge across both passages, contradicting choice B; and P1's thesis material shows specificity mattering in essays too, contradicting choice D."
@@ -7759,7 +7759,7 @@ const QUESTIONS = {
         "choices": [
           "They are only useful for synthesis-essay practice specifically.",
           "They show 'weak writing' is several distinct, separately-diagnosable patterns.",
-          "They demonstrate that all writing weaknesses are fundamentally identical as far as the passage indicates.",
+          "They demonstrate that all writing weaknesses are fundamentally identical.",
           "They provide no additional value studied together versus separately."
         ],
         "correct": 1,
@@ -7770,7 +7770,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Final synthesis question: considering this entire unit's five passages together, what is the single most important transferable skill they collectively model?",
         "choices": [
-          "That every specific problem requires memorizing a unique, separate solution under these particular circumstances.",
+          "That every specific problem requires memorizing a unique, separate solution.",
           "That timed practice should always be avoided in favor of untimed practice.",
           "That precise, structured self-diagnosis is the necessary first step to improvement.",
           "That only one of these five passages actually matters for exam success."
@@ -7783,7 +7783,7 @@ const QUESTIONS = {
         "passageId": "P1",
         "stem": "As a closing question for this diagnostic set: which single revision principle, applied consistently, would fix the core weakness in BOTH Statement 1 and Statement 3, despite their superficially different problems?",
         "choices": [
-          "Make both statements significantly longer without changing their content according to the scenario described.",
+          "Make both statements significantly longer without changing their content.",
           "Replace the vague statement with the writer's own specific, arguable claim.",
           "Remove all specific content so both statements read identically.",
           "No single principle could fix both statements at once."
@@ -7799,7 +7799,7 @@ const QUESTIONS = {
           "The student finishing the multiple-choice section faster than before.",
           "Any change in outcome at all, regardless of which essay improved.",
           "The rhetorical analysis essay showing more development and a complete ending.",
-          "The synthesis essay improving further, since it was already the strongest in this specific case."
+          "The synthesis essay improving further, since it was already the strongest."
         ],
         "correct": 2,
         "explanation": "The rhetorical analysis essay showing improved development and a complete conclusion would specifically confirm the fix worked, since that was the essay most directly harmed by the original reading-period allocation problem — a specific, measurable outcome connected directly to the specific fix attempted. MCQ pacing is unrelated to this particular fix (choice A); 'any change' doesn't verify that the targeted problem itself improved (choice B); and further gains in the already-strong synthesis essay wouldn't confirm this specific fix, since that essay wasn't the one harmed (choice D)."
@@ -7811,7 +7811,7 @@ const QUESTIONS = {
         "choices": [
           "Scenario A, about tone versus pacing specifically.",
           "Scenario B's principle — the same strategy applies to any specific dimension.",
-          "None of the three scenarios would help with a currency-focused question based on what the passage actually states.",
+          "None of the three scenarios would help with a currency-focused question.",
           "Scenario C, about audience and purpose specifically."
         ],
         "correct": 1,
@@ -7822,7 +7822,7 @@ const QUESTIONS = {
         "passageId": "P4",
         "stem": "If a fourth excerpt were added showing a strong thesis, well-developed paragraphs, explained techniques, AND multiple substantively-used sources, what would this addition contribute to the set?",
         "choices": [
-          "Nothing — a strong example provides no diagnostic value on its own given the details provided here.",
+          "Nothing — a strong example provides no diagnostic value on its own.",
           "It would only be useful for synthesis-essay practice specifically.",
           "It would contradict the other three excerpts' diagnosed lessons.",
           "A positive contrast showing what the absence of these weaknesses looks like."
@@ -7835,7 +7835,7 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Considering this unit's full arc, which of this course's earlier units would be most directly relevant for this student to revisit given their specific rhetorical analysis essay weakness ('only identified two techniques and didn't get to a real conclusion')?",
         "choices": [
-          "No earlier unit would be relevant to this specific weakness as far as the passage indicates.",
+          "No earlier unit would be relevant to this specific weakness.",
           "Unit 4, on argument structure and counterargument.",
           "Unit 5, on synthesis writing with multiple sources.",
           "Units 6 and 7, on advanced technique analysis across a full passage."
@@ -7861,7 +7861,7 @@ const QUESTIONS = {
         "passageId": "P2",
         "stem": "Considering everything this passage illustrates, what is the single most important habit for reading-period time allocation across all three prompts?",
         "choices": [
-          "Spend the entire reading period on whichever essay feels most comfortable under these particular circumstances.",
+          "Spend the entire reading period on whichever essay feels most comfortable.",
           "Preview all three prompts briefly before committing extended time to any one.",
           "Skip the reading period whenever time during it feels short.",
           "Spend identical time on each prompt regardless of its format."
@@ -7875,7 +7875,7 @@ const QUESTIONS = {
         "stem": "Final synthesis question: what does this passage, combined with the rest of this unit's content, suggest about the relationship between content knowledge and exam-day strategy?",
         "choices": [
           "Content knowledge alone is always sufficient for strong performance.",
-          "Content knowledge and exam strategy are entirely unrelated concerns according to the scenario described.",
+          "Content knowledge and exam strategy are entirely unrelated concerns.",
           "Exam-day strategy matters more than content knowledge in every case.",
           "Content knowledge is necessary, but strategy converts it into correct answers."
         ],
@@ -7930,7 +7930,7 @@ const QUESTIONS = {
         "stem": "What specific weakness do all four sentences in this rushed conclusion share?",
         "choices": [
           "They are too specific and detailed for a proper conclusion.",
-          "They directly contradict claims made in the essay's body paragraphs in this specific case.",
+          "They directly contradict claims made in the essay's body paragraphs.",
           "Each sentence is generic and never references the essay's own argument.",
           "They are grammatically incorrect throughout."
         ],
@@ -7945,7 +7945,7 @@ const QUESTIONS = {
           "Leaving the essay without any conclusion at all.",
           "Starting an entirely new body paragraph with the remaining time.",
           "Writing one specific sentence tying back to the actual thesis and evidence.",
-          "Writing exactly what was written is the optimal use of this time based on what the passage actually states."
+          "Writing exactly what was written is the optimal use of this time."
         ],
         "correct": 2,
         "explanation": "Writing a single, specific sentence that directly restates the essay's actual specific thesis and its strongest piece of evidence would likely earn more credit than four generic sentences. What was actually written is exactly the problem being diagnosed, not the optimal approach (choice D); no conclusion at all forfeits even the small credit a specific closing sentence could earn (choice A); and starting a new body paragraph with only 3 minutes left risks leaving it unfinished, which is worse than a brief, specific close (choice B)."
@@ -7957,7 +7957,7 @@ const QUESTIONS = {
         "choices": [
           "Problem [4], about the missing counterargument.",
           "Problem [2], about repeated body-paragraph content.",
-          "Problem [3], about unexplained rhetorical technique naming given the details provided here.",
+          "Problem [3], about unexplained rhetorical technique naming.",
           "Problem [1] — a thesis restating the prompt fails the Thesis point directly."
         ],
         "correct": 3,
@@ -7968,7 +7968,7 @@ const QUESTIONS = {
         "passageId": "D2",
         "stem": "Which of this student's four self-identified problems most directly affects the Evidence and Commentary score specifically?",
         "choices": [
-          "None of these four problems affect the Evidence and Commentary score as far as the passage indicates.",
+          "None of these four problems affect the Evidence and Commentary score.",
           "Only problem [4] affects the Evidence and Commentary score.",
           "Only problem [1] affects the Evidence and Commentary score.",
           "Problems [2] and [3] together — repeated content and unexplained naming."
@@ -7983,7 +7983,7 @@ const QUESTIONS = {
         "choices": [
           "Pairing every named technique with an explicit explanation of its effect.",
           "Memorizing additional rhetorical technique vocabulary terms.",
-          "Avoiding all rhetorical technique vocabulary entirely in future essays under these particular circumstances.",
+          "Avoiding all rhetorical technique vocabulary entirely in future essays.",
           "Focusing exclusively on handwriting neatness."
         ],
         "correct": 0,
@@ -7997,7 +7997,7 @@ const QUESTIONS = {
           "A rushed conclusion is always more costly than any other essay weakness.",
           "Both mistakes are equally costly, regardless of where they occur.",
           "The Thesis point is already earned early and isn't erased by a weak ending.",
-          "Neither the thesis nor the conclusion affects the essay's overall score according to the scenario described."
+          "Neither the thesis nor the conclusion affects the essay's overall score."
         ],
         "correct": 2,
         "explanation": "The Thesis point is worth 1 of 6 total points and is typically established early; a weak conclusion doesn't retroactively remove an already-earned Thesis point, while Evidence and Commentary (established throughout the body) is worth far more and is where rushing does the most damage. Position in the essay clearly does matter to cost, contradicting choice A; both the thesis and the conclusion do affect scoring, just to different degrees, contradicting choice D; and a rushed conclusion is specifically LESS costly than rushed body paragraphs, the opposite of choice B."
@@ -8010,7 +8010,7 @@ const QUESTIONS = {
           "Self-assessment of any kind isn't a productive use of study time.",
           "General feelings of satisfaction are always more accurate than assessment.",
           "It identifies specific, addressable problems rather than a vague impression.",
-          "Structured self-assessment offers no real advantage over a general feeling in this specific case."
+          "Structured self-assessment offers no real advantage over a general feeling."
         ],
         "correct": 2,
         "explanation": "Structured self-assessment identifies SPECIFIC, addressable problems (thesis type, paragraph repetition, unexplained technique naming) rather than a vague overall impression — specificity is what makes subsequent targeted practice possible, exactly this unit's Section 9.4 and 9.5 principle. This student's four specific findings show real added value over a vague impression, contradicting choice A; general feelings, being unspecific, are LESS reliable for guiding practice than structured findings, contradicting choice B; and this exact exercise demonstrates self-assessment's productive value, contradicting choice D."
@@ -8046,7 +8046,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Considering this course's full nine-unit arc, which best explains why a generic conclusion like this draft's is a particularly avoidable mistake at this late stage of preparation?",
         "choices": [
-          "Generic conclusions are actually the correct approach under time pressure based on what the passage actually states.",
+          "Generic conclusions are actually the correct approach under time pressure.",
           "This mistake shows the student hasn't learned any prior unit's content.",
           "This lapse is fixable with a quick checklist, not new content learning.",
           "This mistake isn't avoidable, regardless of the student's preparation level."
@@ -8061,7 +8061,7 @@ const QUESTIONS = {
         "choices": [
           "All four problems are equally impossible to catch during timed writing.",
           "Problem [1] — a quick 'could someone disagree' check right after the thesis.",
-          "Only problem [4] could plausibly be caught while writing, not the others given the details provided here.",
+          "Only problem [4] could plausibly be caught while writing, not the others.",
           "None of these problems could be caught during writing, only afterward."
         ],
         "correct": 1,
@@ -8074,7 +8074,7 @@ const QUESTIONS = {
         "choices": [
           "Only the P5 passage is actually relevant to this unit's content.",
           "Both show the same principle from different angles: real-time versus after-the-fact.",
-          "The two passages teach entirely unrelated lessons with no connection as far as the passage indicates.",
+          "The two passages teach entirely unrelated lessons with no connection.",
           "The two passages directly contradict each other's guidance."
         ],
         "correct": 1,
@@ -8098,7 +8098,7 @@ const QUESTIONS = {
         "passageId": "D1",
         "stem": "Which best explains why this draft passage was placed alongside the P4 checklist diagnostic set within the same unit?",
         "choices": [
-          "Both illustrate the exact same root cause with no meaningful distinction under these particular circumstances.",
+          "Both illustrate the exact same root cause with no meaningful distinction.",
           "This draft matters more than P4's excerpts and should be studied first.",
           "The two passages are unrelated and were placed together arbitrarily.",
           "One shows a time-pressure failure; the other shows knowledge-application failures."
@@ -8114,7 +8114,7 @@ const QUESTIONS = {
           "These concepts have moved from new vocabulary to fast, internalized tools.",
           "Nothing has changed; the concepts are understood identically to Unit 1.",
           "The concepts have become less important as the course has progressed.",
-          "Students are expected to forget earlier units' vocabulary by this point according to the scenario described."
+          "Students are expected to forget earlier units' vocabulary by this point."
         ],
         "correct": 0,
         "explanation": "By this point, these concepts have moved from being NEW VOCABULARY requiring explicit definition (as in Unit 1) to being FAMILIAR DIAGNOSTIC TOOLS a student can apply quickly to their own or others' writing — the same underlying concepts, but now operating as fast, internalized judgment rather than newly-learned rules. This student's fluent self-diagnosis shows real change has occurred, contradicting choice B; these concepts remain central to scoring, so they haven't become less important, contradicting choice C; and this exercise relies on the student retaining, not forgetting, this vocabulary, contradicting choice D."
@@ -8125,7 +8125,7 @@ const QUESTIONS = {
         "stem": "If a student wanted to practice specifically for the scenario this draft depicts (writing efficiently with very little time remaining), what would be the most realistic practice method?",
         "choices": [
           "Drilling rapid, specific 2-minute conclusions as a standalone exercise.",
-          "Only ever practicing essays with unlimited, generous time available in this specific case.",
+          "Only ever practicing essays with unlimited, generous time available.",
           "Memorizing one generic conclusion to reuse for every essay.",
           "Avoiding writing conclusions in practice essays entirely."
         ],
@@ -8140,7 +8140,7 @@ const QUESTIONS = {
           "The exercise is purely punitive and serves no constructive purpose.",
           "Building the standing habit of honest, structured self-assessment itself.",
           "The exercise applies only to synthesis essays specifically.",
-          "The exercise has no purpose beyond identifying this one essay's problems based on what the passage actually states."
+          "The exercise has no purpose beyond identifying this one essay's problems."
         ],
         "correct": 1,
         "explanation": "Beyond diagnosing this specific essay, the deeper purpose is building the STANDING HABIT of honest, structured self-assessment itself — a transferable skill useful for every future practice essay and, ultimately, for the actual exam's self-review time, not just a one-time fix for these four specific problems. This draft is a rhetorical analysis passage, not a synthesis essay, so the exercise isn't limited to synthesis, contradicting choice C; its transferable value extends well past this single essay, contradicting choice D; and its constructive, forward-looking framing is the opposite of punitive, contradicting choice A."
@@ -8165,7 +8165,7 @@ const QUESTIONS = {
         "choices": [
           "The item asking whether the essay addresses at least one counterargument.",
           "The checklist item about thesis specificity.",
-          "None of the five checklist items would apply to this specific problem given the details provided here.",
+          "None of the five checklist items would apply to this specific problem.",
           "The checklist item about line-of-reasoning development."
         ],
         "correct": 0,

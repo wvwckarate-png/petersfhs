@@ -1215,10 +1215,10 @@ const QUESTIONS = {
       "topic": "2.4 Newton's Third Law",
       "stem": "A hammer strikes a nail, driving it into wood. Identify the Third Law reaction pair to the force the hammer exerts on the nail.",
       "choices": [
-        "The hand exerts a force on the hammer.",
-        "The wood exerts a force on the nail.",
+        "The hand exerts a force on the hammer as it swings.",
+        "The wood exerts a force on the nail as it is driven in.",
         "The nail pushes back on the hammer with equal force.",
-        "Gravity acts on the hammer."
+        "Gravity acts on the hammer throughout the swing."
       ],
       "correct": 2,
       "explanation": "A Third Law pair always involves the same two objects, with the forces reversed: hammer-on-nail and nail-on-hammer are the pair. The wood-on-nail force, gravity, and the hand-on-hammer force are all separate, unrelated interactions."
@@ -3121,10 +3121,10 @@ const QUESTIONS = {
       "topic": "4.4 Elastic Collisions",
       "stem": "A 1.0 kg object moving at 6.0 m/s collides with a stationary 3.0 kg object. Afterward, the 1.0 kg object moves at −3.0 m/s and the 3.0 kg object moves at 3.0 m/s. Is this collision elastic?",
       "choices": [
-        "Cannot be determined without additional data.",
-        "No, since the first object reversed direction.",
+        "Cannot be determined without additional data about the masses and speeds.",
+        "No, since the first object reversed direction during the collision.",
         "Yes — kinetic energy before (18 J) equals kinetic energy after (18 J).",
-        "No, since momentum wasn't conserved."
+        "No, since momentum wasn't conserved during the collision."
       ],
       "correct": 2,
       "explanation": "Check momentum: before, p=(1.0)(6.0)=6.0 kg·m/s; after, p=(1.0)(−3.0)+(3.0)(3.0)=−3.0+9.0=6.0 kg·m/s — conserved. Check KE: before, ½(1.0)(6.0)²=18 J; after, ½(1.0)(3.0)²+½(3.0)(3.0)²=4.5+13.5=18 J — also conserved. Since both are conserved, this collision is indeed elastic."
@@ -4164,10 +4164,10 @@ const QUESTIONS = {
       "topic": "5.6 Rolling Motion",
       "stem": "What defines 'rolling without slipping'?",
       "choices": [
-        "The object's linear velocity is exactly zero.",
-        "The object experiences no friction of any kind.",
-        "The relation v_cm=rω holds, with no sliding at the contact point.",
-        "The object's angular velocity is exactly zero."
+        "The object's linear velocity is exactly zero at the contact point.",
+        "The object experiences no friction of any kind with the surface.",
+        "The relation v_cm = rω holds, with no sliding at the contact point.",
+        "The object's angular velocity is exactly zero at that instant."
       ],
       "correct": 2,
       "explanation": "Rolling without slipping is defined by the relationship v_cm=rω holding true, which physically means the contact point between the object and the ground has zero relative velocity — no sliding occurs there."
@@ -4295,8 +4295,8 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A solid sphere and a hoop, both of the same mass and radius, are released from rest at the top of the same incline and roll without slipping. Which one reaches the bottom with a greater linear (center-of-mass) acceleration, and conceptually why?",
       "choices": [
-        "The comparison depends entirely on the incline's angle.",
-        "The hoop, since it has a larger moment of inertia.",
+        "The comparison depends entirely on the incline's angle, with no general answer.",
+        "The hoop, since it has a larger moment of inertia and so gains more speed.",
         "Both have identical accelerations, since they have the same mass and radius.",
         "The solid sphere, since its smaller moment of inertia leaves more torque to accelerate its center of mass."
       ],
@@ -4583,9 +4583,9 @@ const QUESTIONS = {
       "topic": "6.2 Angular Momentum",
       "stem": "A particle moves in a straight line, never actually orbiting anything. Can it still have nonzero angular momentum about some chosen point not on its path?",
       "choices": [
-        "No, angular momentum requires actual circular motion.",
-        "Yes, but only if the particle is accelerating.",
-        "No, only rigid rotating objects have angular momentum.",
+        "No, angular momentum requires actual circular motion about a point.",
+        "Yes, but only if the particle is accelerating along its path.",
+        "No, only rigid rotating objects can have angular momentum.",
         "Yes — it depends on momentum and perpendicular distance, not the path's shape."
       ],
       "correct": 3,
@@ -4947,7 +4947,7 @@ const QUESTIONS = {
       "topic": "6.4 Total KE of Rolling Objects",
       "stem": "What is the correct expression for the total kinetic energy of an object rolling without slipping?",
       "choices": [
-        "KE_total = ½mv²  only",
+        "KE_total = ½mv² only",
         "KE_total = mv² + Iω²",
         "KE_total = ½Iω² only",
         "KE_total = ½mv² + ½Iω²"
@@ -4973,10 +4973,10 @@ const QUESTIONS = {
       "topic": "6.4 Total KE of Rolling Objects",
       "stem": "For an object rolling without slipping, why can you substitute ω=v/r into the rotational KE term when computing total kinetic energy?",
       "choices": [
-        "This substitution is only a rough approximation.",
-        "Because rolling without slipping specifically guarantees v_cm=rω, letting you express ω entirely in terms of v (or vice versa).",
-        "It's an arbitrary simplification with no physical justification.",
-        "This substitution works for any rotating object, slipping or not."
+        "This substitution is only a rough approximation that works when friction is small.",
+        "Because rolling without slipping guarantees v_cm = rω, letting you express ω entirely in terms of v (or vice versa).",
+        "It's an arbitrary simplification with no physical justification, used only for convenience.",
+        "This substitution works for any rotating object, slipping or not, at any speed."
       ],
       "correct": 1,
       "explanation": "The relationship v_cm=rω is the defining condition of rolling without slipping (from Unit 5) — it's not an approximation, but an exact consequence of the no-slipping condition, which lets you rewrite the rotational KE term entirely in terms of the object's linear speed v."
@@ -6292,9 +6292,9 @@ const QUESTIONS = {
       "topic": "8.3 Pascal's Principle",
       "stem": "What does Pascal's Principle state?",
       "choices": [
-        "Pressure only propagates downward through a fluid.",
-        "Fluids cannot transmit pressure changes at all.",
-        "Pressure decreases as it moves through a fluid.",
+        "Pressure only propagates downward through a fluid, never sideways.",
+        "Fluids cannot transmit pressure changes at all, whatever the container.",
+        "Pressure decreases as it moves through a fluid, falling with distance.",
         "Pressure applied to an enclosed fluid transmits undiminished throughout it."
       ],
       "correct": 3,
@@ -6318,10 +6318,10 @@ const QUESTIONS = {
       "topic": "8.3 Pascal's Principle",
       "stem": "A hydraulic system multiplies an input force dramatically at the output piston. Does this violate conservation of energy?",
       "choices": [
-        "Yes, hydraulic systems create energy from nothing.",
-        "No, because hydraulic fluids have negative mass.",
+        "Yes, hydraulic systems create energy from nothing at the output piston.",
+        "No, because hydraulic fluids have negative mass in the pistons.",
         "No — the output piston moves a smaller distance, so work in equals work out.",
-        "Yes, but only for very large area ratios."
+        "Yes, but only for very large area ratios between the two pistons."
       ],
       "correct": 2,
       "explanation": "Since the fluid is essentially incompressible, the volume displaced by the small piston must equal the volume received by the large piston — meaning the small piston travels a much larger distance for the large piston's smaller displacement. Work (force × distance) balances out exactly, preserving energy conservation."
@@ -6579,9 +6579,9 @@ const QUESTIONS = {
       "stem": "What does the continuity equation, A1v1=A2v2, physically represent?",
       "choices": [
         "Conservation of mass (or volume) for a flowing incompressible fluid.",
-        "Conservation of momentum for a flowing fluid.",
-        "Conservation of energy for a flowing fluid.",
-        "A statement that fluid speed is always constant."
+        "Conservation of momentum for a flowing fluid in a pipe.",
+        "Conservation of energy for a flowing fluid in a pipe.",
+        "A statement that fluid speed is always constant in a pipe."
       ],
       "correct": 0,
       "explanation": "The continuity equation is a direct statement of mass conservation: for an incompressible fluid with no leaks or branches, the volume flowing past any cross-section of the pipe per second must be the same everywhere along that pipe."
