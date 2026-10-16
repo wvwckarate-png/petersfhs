@@ -877,7 +877,7 @@ const QUESTIONS = {
         "Ice spontaneously forms from liquid water at room temperature."
       ],
       "correct": 0,
-      "explanation": "The first three choices all describe spontaneous decreases in entropy, forbidden by the second law for an isolated system, while mixed gases not spontaneously un-mixing is simply the normal, expected (entropy-consistent) behavior. Choice B directly violates the second law: heat only flows hot-to-cold spontaneously; forcing the reverse requires external work, as in a refrigerator. Choice C describes particles spontaneously becoming more confined without any energy input — a spontaneous entropy decrease, which the second law forbids. Choice D describes molecules spontaneously becoming more ordered (lower entropy) at room temperature with no external cooling process, which cannot happen spontaneously."
+      "explanation": "Choices B, C, and D all describe spontaneous decreases in entropy, forbidden by the second law for an isolated system, while mixed gases not spontaneously un-mixing is simply the normal, expected (entropy-consistent) behavior. Choice B directly violates the second law: heat only flows hot-to-cold spontaneously; forcing the reverse requires external work, as in a refrigerator. Choice C describes particles spontaneously becoming more confined without any energy input — a spontaneous entropy decrease, which the second law forbids. Choice D describes molecules spontaneously becoming more ordered (lower entropy) at room temperature with no external cooling process, which cannot happen spontaneously."
     },
     {
       "id": "9-64",
@@ -4377,7 +4377,7 @@ const QUESTIONS = {
         "Light and string waves are transverse; sound is longitudinal."
       ],
       "correct": 3,
-      "explanation": "Light and waves on a string are transverse (oscillation perpendicular to travel); sound is longitudinal (compression/rarefaction parallel to travel). 'All transverse' wrongly includes sound, which has no perpendicular oscillation. 'All longitudinal' wrongly includes light and string waves, which do not compress and expand. The last option swaps the correct classification, incorrectly making light longitudinal and sound transverse."
+      "explanation": "Light and waves on a string are transverse (oscillation perpendicular to travel); sound is longitudinal (compression/rarefaction parallel to travel). 'All transverse' wrongly includes sound, which has no perpendicular oscillation. 'All longitudinal' wrongly includes light and string waves, which do not compress and expand. Choice B swaps the correct classification, incorrectly making light longitudinal and sound transverse."
     },
     {
       "id": "14-4",

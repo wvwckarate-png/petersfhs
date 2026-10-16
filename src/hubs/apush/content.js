@@ -3537,7 +3537,7 @@ const QUESTIONS = {
         "A requirement that Congress alone decide slavery's status in every territory, with no local input permitted"
       ],
       "correct": 1,
-      "explanation": "Popular sovereignty let each territory's own settlers vote on whether to permit slavery. Choice 1 describes the OPPOSITE approach (congressional control), and choice 3 describes the Missouri Compromise's older fixed-line method that popular sovereignty replaced."
+      "explanation": "Popular sovereignty let each territory's own settlers vote on whether to permit slavery. Choice D describes the OPPOSITE approach (congressional control), and choice A describes the Missouri Compromise's older fixed-line method that popular sovereignty replaced."
     },
     {
       "id": "5-3",

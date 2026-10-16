@@ -6686,7 +6686,7 @@ const QUESTIONS = {
         "An electron donor"
       ],
       "correct": 1,
-      "explanation": "The Brønsted-Lowry definition defines a base as a proton acceptor. \"A proton donor\" (choice 2) is actually the Brønsted-Lowry definition of an ACID — it swaps the two roles. \"Produces OH⁻ in any solvent\" (choice 3) is the older, narrower Arrhenius definition, which requires water and an actual OH⁻ group and would wrongly exclude species like NH₃. \"Electron donor\" (choice 4) is the Lewis definition of a base — a different (broader, electron-pair-based) framework than Brønsted-Lowry's proton-based one, even though the two often overlap in practice."
+      "explanation": "The Brønsted-Lowry definition defines a base as a proton acceptor. \"A proton donor\" (choice A) is actually the Brønsted-Lowry definition of an ACID — it swaps the two roles. \"Produces OH⁻ in any solvent\" (choice C) is the older, narrower Arrhenius definition, which requires water and an actual OH⁻ group and would wrongly exclude species like NH₃. \"Electron donor\" (choice D) is the Lewis definition of a base — a different (broader, electron-pair-based) framework than Brønsted-Lowry's proton-based one, even though the two often overlap in practice."
     },
     {
       "id": "8-2",
@@ -6699,7 +6699,7 @@ const QUESTIONS = {
         "F⁻"
       ],
       "correct": 3,
-      "explanation": "F⁻ is HF's conjugate base, formed when HF donates its proton. H₃O⁺ (choice 1) is water's conjugate acid — it comes from H₂O gaining a proton, not from HF. \"HF itself\" (choice 2) can't be its own conjugate base; a conjugate base must differ from the parent acid by exactly one H⁺. H₂O (choice 4) is the base in this reaction, not a species derived from HF at all."
+      "explanation": "F⁻ is HF's conjugate base, formed when HF donates its proton. H₃O⁺ (choice B) is water's conjugate acid — it comes from H₂O gaining a proton, not from HF. \"HF itself\" (choice A) can't be its own conjugate base; a conjugate base must differ from the parent acid by exactly one H⁺. H₂O (choice C) is the base in this reaction, not a species derived from HF at all."
     },
     {
       "id": "8-3",
@@ -6712,7 +6712,7 @@ const QUESTIONS = {
         "NH₂⁻"
       ],
       "correct": 1,
-      "explanation": "A conjugate acid forms when a base gains a proton, so NH₃ + H⁺ → NH₄⁺. \"NH₃ has no conjugate acid\" (choice 2) is false — any species with a lone pair (like NH₃'s nitrogen) can accept a proton. NH₂⁻ (choice 3) is what you'd get if NH₃ LOST a proton, i.e., NH₃'s conjugate base, not its conjugate acid — the wrong direction. N₂H₄ (choice 4, hydrazine) is an unrelated molecule, not what results from adding a single H⁺ to NH₃."
+      "explanation": "A conjugate acid forms when a base gains a proton, so NH₃ + H⁺ → NH₄⁺. \"NH₃ has no conjugate acid\" (choice A) is false — any species with a lone pair (like NH₃'s nitrogen) can accept a proton. NH₂⁻ (choice D) is what you'd get if NH₃ LOST a proton, i.e., NH₃'s conjugate base, not its conjugate acid — the wrong direction. N₂H₄ (choice C, hydrazine) is an unrelated molecule, not what results from adding a single H⁺ to NH₃."
     },
     {
       "id": "8-4",
@@ -6725,7 +6725,7 @@ const QUESTIONS = {
         "Acid strength and conjugate base strength are completely unrelated."
       ],
       "correct": 2,
-      "explanation": "A stronger acid donates its proton more readily, leaving its conjugate base with very little pull for that proton back (a weak conjugate base); a weaker acid holds its proton more tightly, so its conjugate base retains more proton-grabbing ability (a stronger conjugate base) — strength within a pair is inversely related. \"Identical strength regardless of parent acid\" (choice 1) ignores this entire relationship. \"A stronger acid has a stronger conjugate base\" (choice 2) states the exact opposite of the true inverse relationship. \"Completely unrelated\" (choice 3) denies that any relationship exists at all, which contradicts the well-established conjugate pair principle."
+      "explanation": "A stronger acid donates its proton more readily, leaving its conjugate base with very little pull for that proton back (a weak conjugate base); a weaker acid holds its proton more tightly, so its conjugate base retains more proton-grabbing ability (a stronger conjugate base) — strength within a pair is inversely related. \"Identical strength regardless of parent acid\" (choice B) ignores this entire relationship. \"A stronger acid has a stronger conjugate base\" (choice A) states the exact opposite of the true inverse relationship. \"Completely unrelated\" (choice D) denies that any relationship exists at all, which contradicts the well-established conjugate pair principle."
     },
     {
       "id": "8-5",
@@ -6738,7 +6738,7 @@ const QUESTIONS = {
         "Neutral"
       ],
       "correct": 2,
-      "explanation": "Amphoteric describes a substance that can act as either acid or base depending on what it reacts with, which is exactly water's behavior. \"Neutral\" (choice 1) describes a pH value, not a reactive capability, and is a different concept entirely. \"Inert\" (choice 2) is essentially the opposite of amphoteric — it would mean water doesn't react as an acid or base at all. \"Polyprotic\" (choice 3) describes a substance that can donate more than one proton (like H₂SO₄), which is unrelated to being able to switch between acting as an acid and acting as a base."
+      "explanation": "Amphoteric describes a substance that can act as either acid or base depending on what it reacts with, which is exactly water's behavior. \"Neutral\" (choice D) describes a pH value, not a reactive capability, and is a different concept entirely. \"Inert\" (choice A) is essentially the opposite of amphoteric — it would mean water doesn't react as an acid or base at all. \"Polyprotic\" (choice B) describes a substance that can donate more than one proton (like H₂SO₄), which is unrelated to being able to switch between acting as an acid and acting as a base."
     },
     {
       "id": "8-6",
@@ -6751,7 +6751,7 @@ const QUESTIONS = {
         "Neither acid nor base"
       ],
       "correct": 0,
-      "explanation": "HCO₃⁻ gains a proton from water to become H₂CO₃, so it's acting as a base (proton acceptor) in this specific reaction. \"Neither acid nor base\" (choice 2) is wrong since a clear proton transfer is happening. \"Both acid and base simultaneously in this specific reaction\" (choice 3) confuses HCO₃⁻'s overall amphoteric nature (it CAN act as either, in different reactions) with what it's doing in this one particular reaction, where it plays only one role. \"Acid, donating a proton to water\" (choice 4) has the direction backwards — HCO₃⁻ is gaining, not donating, a proton here."
+      "explanation": "HCO₃⁻ gains a proton from water to become H₂CO₃, so it's acting as a base (proton acceptor) in this specific reaction. \"Neither acid nor base\" (choice D) is wrong since a clear proton transfer is happening. \"Both acid and base simultaneously in this specific reaction\" (choice C) confuses HCO₃⁻'s overall amphoteric nature (it CAN act as either, in different reactions) with what it's doing in this one particular reaction, where it plays only one role. \"Acid, donating a proton to water\" (choice B) has the direction backwards — HCO₃⁻ is gaining, not donating, a proton here."
     },
     {
       "id": "8-7",
@@ -6764,7 +6764,7 @@ const QUESTIONS = {
         "2.00"
       ],
       "correct": 3,
-      "explanation": "HCl is a strong acid, so it fully dissociates: [H⁺] = 0.0100 M, and pH = −log(0.0100) = 2.00. Choice 1 (1.00) is the pH you'd get for a ten-times-more-concentrated solution (0.100 M), an order-of-magnitude slip. Choice 2 (0.0100) is just the molarity itself, restated without ever taking the log. Choice 3 (12.00) comes from computing 14.00 − 2.00, as if 2.00 were a pOH that still needed converting to pH — but [H⁺] directly gives pH here, with no such conversion needed."
+      "explanation": "HCl is a strong acid, so it fully dissociates: [H⁺] = 0.0100 M, and pH = −log(0.0100) = 2.00. Choice C (1.00) is the pH you'd get for a ten-times-more-concentrated solution (0.100 M), an order-of-magnitude slip. Choice A (0.0100) is just the molarity itself, restated without ever taking the log. Choice B (12.00) comes from computing 14.00 − 2.00, as if 2.00 were a pOH that still needed converting to pH — but [H⁺] directly gives pH here, with no such conversion needed."
     },
     {
       "id": "8-8",
@@ -6777,7 +6777,7 @@ const QUESTIONS = {
         "9.00"
       ],
       "correct": 0,
-      "explanation": "NaOH is a strong base: [OH⁻] = 0.00500 M, so pOH = −log(0.00500) = 2.30, and pH = 14.00 − 2.30 = 11.70. Choice 1 (2.30) stops at the pOH value and reports it as if it were the pH, skipping the final 14.00 − pOH step. Choice 2 (9.00) and choice 4 (5.00) don't correspond to a correct path from these numbers — they reflect a decimal-place or sign slip somewhere in converting 0.00500 M to its log, rather than a genuine alternate (if flawed) calculation."
+      "explanation": "NaOH is a strong base: [OH⁻] = 0.00500 M, so pOH = −log(0.00500) = 2.30, and pH = 14.00 − 2.30 = 11.70. Choice B (2.30) stops at the pOH value and reports it as if it were the pH, skipping the final 14.00 − pOH step. Choice D (9.00) and choice C (5.00) don't correspond to a correct path from these numbers — they reflect a decimal-place or sign slip somewhere in converting 0.00500 M to its log, rather than a genuine alternate (if flawed) calculation."
     },
     {
       "id": "8-9",
@@ -6790,7 +6790,7 @@ const QUESTIONS = {
         "1.00 × 10⁻³·⁵⁰ M, non-numeric"
       ],
       "correct": 1,
-      "explanation": "[H⁺] = 10^(−pH) = 10^(−3.50) = 3.16 × 10⁻⁴ M. Choice 1 (\"1.00 × 10⁻³·⁵⁰ M, non-numeric\") just restates the exponent without ever evaluating the antilog into a usable decimal number. Choice 3 (3.50 × 10⁻³ M) mistakes the pH's own digits for the concentration's coefficient and exponent, skipping the actual 10^(−pH) calculation. Choice 4 (3.16 × 10⁻³ M) has the correct coefficient but the wrong power of ten — a common error from mishandling how the integer and decimal parts of the pH split into the exponent and mantissa of the antilog."
+      "explanation": "[H⁺] = 10^(−pH) = 10^(−3.50) = 3.16 × 10⁻⁴ M. Choice D (\"1.00 × 10⁻³·⁵⁰ M, non-numeric\") just restates the exponent without ever evaluating the antilog into a usable decimal number. Choice C (3.50 × 10⁻³ M) mistakes the pH's own digits for the concentration's coefficient and exponent, skipping the actual 10^(−pH) calculation. Choice A (3.16 × 10⁻³ M) has the correct coefficient but the wrong power of ten — a common error from mishandling how the integer and decimal parts of the pH split into the exponent and mantissa of the antilog."
     },
     {
       "id": "8-10",
@@ -6803,7 +6803,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 2,
-      "explanation": "Ba(OH)₂ releases 2 OH⁻ per formula unit, so [OH⁻] = 2 × 0.00250 = 0.00500 M, giving pOH = −log(0.00500) = 2.30 and pH = 14.00 − 2.30 = 11.70. Choice 1 (2.30) is that correct pOH, mistakenly given as the final answer without completing the last pH = 14.00 − pOH step. Choice 2 (2.60) and choice 3 (11.40) both come from forgetting the factor of 2 from Ba(OH)₂'s two hydroxides — using [OH⁻] = 0.00250 M directly gives pOH = 2.60 (choice 2) and, if that mistaken pOH is then converted, pH = 11.40 (choice 3)."
+      "explanation": "Ba(OH)₂ releases 2 OH⁻ per formula unit, so [OH⁻] = 2 × 0.00250 = 0.00500 M, giving pOH = −log(0.00500) = 2.30 and pH = 14.00 − 2.30 = 11.70. Choice B (2.30) is that correct pOH, mistakenly given as the final answer without completing the last pH = 14.00 − pOH step. Choice D (2.60) and choice A (11.40) both come from forgetting the factor of 2 from Ba(OH)₂'s two hydroxides — using [OH⁻] = 0.00250 M directly gives pOH = 2.60 (choice D) and, if that mistaken pOH is then converted, pH = 11.40 (choice A)."
     },
     {
       "id": "8-11",
@@ -6816,7 +6816,7 @@ const QUESTIONS = {
         "4.80"
       ],
       "correct": 2,
-      "explanation": "pH + pOH = 14.00 at 25°C, so pH = 14.00 − 4.80 = 9.20. Choice 2 (4.80) is just the given pOH restated as if it were the pH, without applying the 14.00 relationship at all. Choice 3 (14.00) is the SUM pH + pOH, not the pH by itself. Choice 4 (−4.80) simply negates the pOH value, which isn't a meaningful operation here and ignores the pH + pOH = 14.00 relationship entirely."
+      "explanation": "pH + pOH = 14.00 at 25°C, so pH = 14.00 − 4.80 = 9.20. Choice D (4.80) is just the given pOH restated as if it were the pH, without applying the 14.00 relationship at all. Choice B (14.00) is the SUM pH + pOH, not the pH by itself. Choice A (−4.80) simply negates the pOH value, which isn't a meaningful operation here and ignores the pH + pOH = 14.00 relationship entirely."
     },
     {
       "id": "8-12",
@@ -6829,7 +6829,7 @@ const QUESTIONS = {
         "pH = 3.0"
       ],
       "correct": 3,
-      "explanation": "Lower pH means higher [H⁺] and greater acidity, and pH = 3.0 is the lowest (most acidic) of the four values given. pH = 12.0 (choice 1) and pH = 9.0 (choice 4) are both well above 7, making them basic, not acidic — the opposite of what's asked. pH = 7.0 (choice 2) is neutral, neither acidic nor basic, and still higher (less acidic) than pH = 3.0."
+      "explanation": "Lower pH means higher [H⁺] and greater acidity, and pH = 3.0 is the lowest (most acidic) of the four values given. pH = 12.0 (choice C) and pH = 9.0 (choice A) are both well above 7, making them basic, not acidic — the opposite of what's asked. pH = 7.0 (choice B) is neutral, neither acidic nor basic, and still higher (less acidic) than pH = 3.0."
     },
     {
       "id": "8-13",
@@ -6842,7 +6842,7 @@ const QUESTIONS = {
         "It decreases by 1 unit."
       ],
       "correct": 0,
-      "explanation": "Original pH = −log(0.100) = 1.00; diluted pH = −log(0.0100) = 2.00, an increase of exactly 1 whole unit, since pH is a base-10 log scale and a 10-fold drop in [H⁺] shifts log₁₀ by exactly 1. Choice 1 (\"stays exactly the same\") ignores that diluting a strong acid measurably lowers [H⁺] and therefore raises pH. Choice 2 (\"decreases by 1 unit\") has the direction backwards — dilution lowers [H⁺], which raises (not lowers) pH. Choice 3 (\"increases by a factor of 10, not by 1 unit\") misunderstands the log scale itself: it correctly notes concentration drops by a factor of 10, but wrongly assumes pH must also change by that same factor of 10, rather than recognizing that a 10-fold concentration change corresponds to exactly a 1-unit change on the already-logarithmic pH scale."
+      "explanation": "Original pH = −log(0.100) = 1.00; diluted pH = −log(0.0100) = 2.00, an increase of exactly 1 whole unit, since pH is a base-10 log scale and a 10-fold drop in [H⁺] shifts log₁₀ by exactly 1. Choice C (\"stays exactly the same\") ignores that diluting a strong acid measurably lowers [H⁺] and therefore raises pH. Choice D (\"decreases by C unit\") has the direction backwards — dilution lowers [H⁺], which raises (not lowers) pH. Choice B (\"increases by a factor of 10, not by C unit\") misunderstands the log scale itself: it correctly notes concentration drops by a factor of 10, but wrongly assumes pH must also change by that same factor of 10, rather than recognizing that a 10-fold concentration change corresponds to exactly a 1-unit change on the already-logarithmic pH scale."
     },
     {
       "id": "8-14",
@@ -6855,7 +6855,7 @@ const QUESTIONS = {
         "Ka = 0.100/x²"
       ],
       "correct": 0,
-      "explanation": "For the ICE table HA ⇌ H⁺ + A⁻, both [H⁺] and [A⁻] equal x at equilibrium, and [HA] ≈ 0.100 − x ≈ 0.100 (simplifying assumption), giving Ka = x²/0.100. Choice 1 (Ka = x/0.100) forgets that the numerator is [H⁺][A⁻] = x·x = x², not just x. Choice 2 (Ka = 0.100/x²) has the concentration terms flipped — the initial concentration belongs in the denominator (representing HA), not the numerator. Choice 4 (Ka = x²/(0.100+x)) has the wrong sign in the denominator; HA's concentration DECREASES by x as the reaction proceeds forward, so it should be (0.100−x), not (0.100+x)."
+      "explanation": "For the ICE table HA ⇌ H⁺ + A⁻, both [H⁺] and [A⁻] equal x at equilibrium, and [HA] ≈ 0.100 − x ≈ 0.100 (simplifying assumption), giving Ka = x²/0.100. Choice C (Ka = x/0.100) forgets that the numerator is [H⁺][A⁻] = x·x = x², not just x. Choice D (Ka = 0.100/x²) has the concentration terms flipped — the initial concentration belongs in the denominator (representing HA), not the numerator. Choice B (Ka = x²/(0.100+x)) has the wrong sign in the denominator; HA's concentration DECREASES by x as the reaction proceeds forward, so it should be (0.100−x), not (0.100+x)."
     },
     {
       "id": "8-15",
@@ -6868,7 +6868,7 @@ const QUESTIONS = {
         "4.0 × 10⁻⁶ M"
       ],
       "correct": 2,
-      "explanation": "x² = (0.100)(4.0×10⁻⁶) = 4.0×10⁻⁷, so x = √(4.0×10⁻⁷) = 6.3×10⁻⁴ M, and 6.3×10⁻⁴/0.100 = 0.63% confirms the simplification was valid. Choice 1 (2.0×10⁻³ M) is √(4.0×10⁻⁶) — the square root of Ka alone, skipping the multiplication by the 0.100 M concentration. Choice 3 (4.0×10⁻⁶ M) is just Ka itself, restated without ever solving for x. Choice 4 (4.0×10⁻⁷ M) is x² (the unrounded product), reported without taking the final square root."
+      "explanation": "x² = (0.100)(4.0×10⁻⁶) = 4.0×10⁻⁷, so x = √(4.0×10⁻⁷) = 6.3×10⁻⁴ M, and 6.3×10⁻⁴/0.100 = 0.63% confirms the simplification was valid. Choice B (2.0×10⁻³ M) is √(4.0×10⁻⁶) — the square root of Ka alone, skipping the multiplication by the 0.100 M concentration. Choice D (4.0×10⁻⁶ M) is just Ka itself, restated without ever solving for x. Choice A (4.0×10⁻⁷ M) is x² (the unrounded product), reported without taking the final square root."
     },
     {
       "id": "8-16",
@@ -6881,7 +6881,7 @@ const QUESTIONS = {
         "5.2 × 10⁻³ M"
       ],
       "correct": 0,
-      "explanation": "Kb = x²/0.150 (simplifying assumption), so x² = (0.150)(1.8×10⁻⁵) = 2.7×10⁻⁶ and x = √(2.7×10⁻⁶) = 1.6×10⁻³ M = [OH⁻]. Choice 1 (1.8×10⁻⁵ M) is just Kb itself, never actually solved for x. Choice 2 (5.2×10⁻³ M) is consistent with a decimal-placement slip in the intermediate product (e.g., treating x² as 2.7×10⁻⁵ instead of 2.7×10⁻⁶ before taking the square root). Choice 3 (2.7×10⁻⁶ M) is x² reported directly, without taking the required square root to get x = [OH⁻]."
+      "explanation": "Kb = x²/0.150 (simplifying assumption), so x² = (0.150)(1.8×10⁻⁵) = 2.7×10⁻⁶ and x = √(2.7×10⁻⁶) = 1.6×10⁻³ M = [OH⁻]. Choice C (1.8×10⁻⁵ M) is just Kb itself, never actually solved for x. Choice D (5.2×10⁻³ M) is consistent with a decimal-placement slip in the intermediate product (e.g., treating x² as 2.7×10⁻⁵ instead of 2.7×10⁻⁶ before taking the square root). Choice B (2.7×10⁻⁶ M) is x² reported directly, without taking the required square root to get x = [OH⁻]."
     },
     {
       "id": "8-17",
@@ -6894,7 +6894,7 @@ const QUESTIONS = {
         "1.0 × 10⁻¹⁰"
       ],
       "correct": 3,
-      "explanation": "Ka × Kb = Kw, so Kb = Kw/Ka = (1.0×10⁻¹⁴)/(1.0×10⁻⁴) = 1.0×10⁻¹⁰. Choice 2 (1.0×10¹⁰) has a sign error in the exponent — positive instead of negative. Choice 3 (1.0×10⁻⁴) just restates the given Ka value instead of computing Kb at all. Choice 4 (1.0×10⁻¹⁸) comes from multiplying Ka × Kw instead of dividing Kw by Ka: (1.0×10⁻⁴)(1.0×10⁻¹⁴) = 1.0×10⁻¹⁸."
+      "explanation": "Ka × Kb = Kw, so Kb = Kw/Ka = (1.0×10⁻¹⁴)/(1.0×10⁻⁴) = 1.0×10⁻¹⁰. Choice C (1.0×10¹⁰) has a sign error in the exponent — positive instead of negative. Choice B (1.0×10⁻⁴) just restates the given Ka value instead of computing Kb at all. Choice A (1.0×10⁻¹⁸) comes from multiplying Ka × Kw instead of dividing Kw by Ka: (1.0×10⁻⁴)(1.0×10⁻¹⁴) = 1.0×10⁻¹⁸."
     },
     {
       "id": "8-18",
@@ -6907,7 +6907,7 @@ const QUESTIONS = {
         "It dissociates almost completely, like a strong acid."
       ],
       "correct": 0,
-      "explanation": "A small Ka means the equilibrium favors the undissociated (molecular) form, so only a small fraction of the acid ionizes. \"Ka provides no information about degree of dissociation\" (choice 2) is false — Ka is precisely the quantity that measures how far the dissociation equilibrium lies. \"Does not dissociate at all under any conditions\" (choice 3) is too extreme — a weak acid still dissociates somewhat (that's what a nonzero Ka means), just not completely. \"Dissociates almost completely\" (choice 4) describes strong acid behavior, the opposite of what a small Ka indicates."
+      "explanation": "A small Ka means the equilibrium favors the undissociated (molecular) form, so only a small fraction of the acid ionizes. \"Ka provides no information about degree of dissociation\" (choice C) is false — Ka is precisely the quantity that measures how far the dissociation equilibrium lies. \"Does not dissociate at all under any conditions\" (choice B) is too extreme — a weak acid still dissociates somewhat (that's what a nonzero Ka means), just not completely. \"Dissociates almost completely\" (choice D) describes strong acid behavior, the opposite of what a small Ka indicates."
     },
     {
       "id": "8-19",
@@ -6920,7 +6920,7 @@ const QUESTIONS = {
         "2.65"
       ],
       "correct": 2,
-      "explanation": "x² = (0.0500)(1.0×10⁻⁵) = 5.0×10⁻⁷, so x = √(5.0×10⁻⁷) = 7.07×10⁻⁴ M = [H⁺], and pH = −log(7.07×10⁻⁴) = 3.15. Choice 3 (5.00) is exactly the acid's pKa (−log(1.0×10⁻⁵) = 5.00) mistaken for the solution's actual pH — pKa is a fixed property of the acid, while pH also depends on the specific concentration used (0.0500 M here). Choices 1 (4.30) and 2 (2.65) don't match any correct calculation path from these numbers; they're consistent with arithmetic slips in the square-root or logarithm step (e.g., mishandling how −log(x²) relates to −log(x), or a decimal-place error when computing x²) rather than the correct x = √(Ka·C) followed by pH = −log(x)."
+      "explanation": "x² = (0.0500)(1.0×10⁻⁵) = 5.0×10⁻⁷, so x = √(5.0×10⁻⁷) = 7.07×10⁻⁴ M = [H⁺], and pH = −log(7.07×10⁻⁴) = 3.15. Choice A (5.00) is exactly the acid's pKa (−log(1.0×10⁻⁵) = 5.00) mistaken for the solution's actual pH — pKa is a fixed property of the acid, while pH also depends on the specific concentration used (0.0500 M here). Choices B (4.30) and D (2.65) don't match any correct calculation path from these numbers; they're consistent with arithmetic slips in the square-root or logarithm step (e.g., mishandling how −log(x²) relates to −log(x), or a decimal-place error when computing x²) rather than the correct x = √(Ka·C) followed by pH = −log(x)."
     },
     {
       "id": "8-20",
@@ -6933,7 +6933,7 @@ const QUESTIONS = {
         "Because all weak acids share identical Ka values regardless of identity."
       ],
       "correct": 1,
-      "explanation": "Because Ka (or Kb) is typically small, only a small fraction of the initial concentration dissociates, so x is genuinely small relative to a reasonably large starting concentration — this is exactly why the assumption often holds. \"The assumption is never valid and should never be used\" (choice 1) overstates the case — it's frequently valid, which is why it's used routinely (though it should always be checked). \"Concentration has no effect on validity\" (choice 2) is false — the assumption gets LESS valid as concentration gets smaller relative to Ka (a smaller reservoir makes x a bigger fraction of C). \"All weak acids have identical Ka values\" (choice 4) is simply untrue and irrelevant to why the assumption works."
+      "explanation": "Because Ka (or Kb) is typically small, only a small fraction of the initial concentration dissociates, so x is genuinely small relative to a reasonably large starting concentration — this is exactly why the assumption often holds. \"The assumption is never valid and should never be used\" (choice A) overstates the case — it's frequently valid, which is why it's used routinely (though it should always be checked). \"Concentration has no effect on validity\" (choice C) is false — the assumption gets LESS valid as concentration gets smaller relative to Ka (a smaller reservoir makes x a bigger fraction of C). \"All weak acids have identical Ka values\" (choice D) is simply untrue and irrelevant to why the assumption works."
     },
     {
       "id": "8-21",
@@ -6946,7 +6946,7 @@ const QUESTIONS = {
         "9.26"
       ],
       "correct": 2,
-      "explanation": "x² = (0.500)(1.8×10⁻⁵) = 9.0×10⁻⁶, x = √(9.0×10⁻⁶) = 3.0×10⁻³ M = [OH⁻], pOH = −log(3.0×10⁻³) = 2.52, and pH = 14.00 − 2.52 = 11.48. Choice 2 (2.52) is the correct pOH, reported before completing the final conversion to pH. Choice 3 (4.74) is −log(1.8×10⁻⁵), i.e., NH₃'s pKb — a fixed property of ammonia — mistaken for the actual pH of this particular 0.500 M solution. Choice 4 (9.26) is 14.00 − 4.74, i.e., the pKa of NH₄⁺ (ammonia's conjugate acid), which is again a generic constant, not the pH that accounts for this specific concentration."
+      "explanation": "x² = (0.500)(1.8×10⁻⁵) = 9.0×10⁻⁶, x = √(9.0×10⁻⁶) = 3.0×10⁻³ M = [OH⁻], pOH = −log(3.0×10⁻³) = 2.52, and pH = 14.00 − 2.52 = 11.48. Choice A (2.52) is the correct pOH, reported before completing the final conversion to pH. Choice B (4.74) is −log(1.8×10⁻⁵), i.e., NH₃'s pKb — a fixed property of ammonia — mistaken for the actual pH of this particular 0.500 M solution. Choice D (9.26) is 14.00 − 4.74, i.e., the pKa of NH₄⁺ (ammonia's conjugate acid), which is again a generic constant, not the pH that accounts for this specific concentration."
     },
     {
       "id": "8-22",
@@ -6959,7 +6959,7 @@ const QUESTIONS = {
         "x is more than about 5% of the initial concentration."
       ],
       "correct": 3,
-      "explanation": "The standard threshold is that x should stay under about 5% of the initial concentration; exceeding that means the approximation breaks down and the full quadratic must be used instead. \"The temperature is exactly 25°C\" (choice 1) has no bearing on whether the assumption holds. \"The Ka value is extremely small\" (choice 2) actually makes the assumption MORE likely to be valid (smaller Ka means less dissociation, so x stays small) — this reverses the correct logic. \"The initial concentration is very large\" (choice 3) also makes the assumption MORE valid, not less, since a large C relative to a fixed x keeps x's percentage small — again the opposite of a reason to reject the assumption."
+      "explanation": "The standard threshold is that x should stay under about 5% of the initial concentration; exceeding that means the approximation breaks down and the full quadratic must be used instead. \"The temperature is exactly 25°C\" (choice C) has no bearing on whether the assumption holds. \"The Ka value is extremely small\" (choice B) actually makes the assumption MORE likely to be valid (smaller Ka means less dissociation, so x stays small) — this reverses the correct logic. \"The initial concentration is very large\" (choice A) also makes the assumption MORE valid, not less, since a large C relative to a fixed x keeps x's percentage small — again the opposite of a reason to reject the assumption."
     },
     {
       "id": "8-23",
@@ -6972,7 +6972,7 @@ const QUESTIONS = {
         "Valid; [H⁺] = 3.16 × 10⁻³ M using the simplified approach"
       ],
       "correct": 0,
-      "explanation": "The simplified approach gives x² = (0.0100)(1.0×10⁻³) = 1.0×10⁻⁵, x = 3.16×10⁻³ M — but 3.16×10⁻³/0.0100 = 31.6%, far past the 5% threshold, so the assumption fails. Solving the full quadratic x² + (1.0×10⁻³)x − (1.0×10⁻³)(0.0100) = 0 gives x ≈ 2.70×10⁻³ M (about 27% of 0.0100 M, confirming the assumption indeed fails). Choice 1 (\"Valid; [H⁺] = 1.0×10⁻³ M exactly\") simply treats Ka as if it were [H⁺] directly, without doing any equilibrium math at all. Choice 2 (\"Not valid; cannot be solved without more data\") is wrong — the quadratic formula fully solves it with only the given Ka and concentration. Choice 3 (\"Valid; [H⁺] = 3.16×10⁻³ M using the simplified approach\") correctly computes the simplified-assumption answer but incorrectly accepts it as valid, when the 31.6% deviation clearly exceeds the 5% cutoff.",
+      "explanation": "The simplified approach gives x² = (0.0100)(1.0×10⁻³) = 1.0×10⁻⁵, x = 3.16×10⁻³ M — but 3.16×10⁻³/0.0100 = 31.6%, far past the 5% threshold, so the assumption fails. Solving the full quadratic x² + (1.0×10⁻³)x − (1.0×10⁻³)(0.0100) = 0 gives x ≈ 2.70×10⁻³ M (about 27% of 0.0100 M, confirming the assumption indeed fails). Choice B (\"Valid; [H⁺] = 1.0×10⁻³ M exactly\") simply treats Ka as if it were [H⁺] directly, without doing any equilibrium math at all. Choice C (\"Not valid; cannot be solved without more data\") is wrong — the quadratic formula fully solves it with only the given Ka and concentration. Choice D (\"Valid; [H⁺] = 3.16×10⁻³ M using the simplified approach\") correctly computes the simplified-assumption answer but incorrectly accepts it as valid, when the 31.6% deviation clearly exceeds the 5% cutoff.",
       "stretch": true
     },
     {
@@ -6986,7 +6986,7 @@ const QUESTIONS = {
         "Depends entirely on the specific acid and base used"
       ],
       "correct": 0,
-      "explanation": "In a strong acid-strong base titration, the equivalence-point salt's ions (from a strong acid's negligible conjugate base and a strong base's negligible conjugate acid) don't meaningfully react with water, leaving pH = 7.00 exactly. \"Always greater than 7.00\" (choice 1) describes a weak acid-strong base titration instead, where a genuine weak conjugate base is left behind. \"Always less than 7.00\" (choice 2) describes a weak base-strong acid titration instead, where a genuine weak conjugate acid is left behind. \"Depends entirely on the specific acid and base used\" (choice 3) is wrong for the strong-strong case specifically — because both spectator ions are essentially non-reactive with water regardless of identity, the equivalence point pH is always 7.00 here."
+      "explanation": "In a strong acid-strong base titration, the equivalence-point salt's ions (from a strong acid's negligible conjugate base and a strong base's negligible conjugate acid) don't meaningfully react with water, leaving pH = 7.00 exactly. \"Always greater than 7.00\" (choice C) describes a weak acid-strong base titration instead, where a genuine weak conjugate base is left behind. \"Always less than 7.00\" (choice B) describes a weak base-strong acid titration instead, where a genuine weak conjugate acid is left behind. \"Depends entirely on the specific acid and base used\" (choice D) is wrong for the strong-strong case specifically — because both spectator ions are essentially non-reactive with water regardless of identity, the equivalence point pH is always 7.00 here."
     },
     {
       "id": "8-25",
@@ -6999,7 +6999,7 @@ const QUESTIONS = {
         "Weak acids always produce a completely neutral equivalence point."
       ],
       "correct": 1,
-      "explanation": "At equivalence, all the weak acid has become its conjugate base, which — being a genuine (if weak) base — reacts with water to generate some OH⁻, pushing pH above 7. \"Strong bases always make every titration's equivalence point exactly pH 14\" (choice 1) is false; pH 14 would require an extreme, essentially undiluted [OH⁻] ≈ 1 M, not the mild basicity from a weak conjugate base. \"The equivalence point pH is unrelated to the identity of the acid or base used\" (choice 2) is directly contradicted by the reasoning the question itself is asking for. \"Weak acids always produce a completely neutral equivalence point\" (choice 4) describes the strong acid-strong base case, not the weak acid case this question is about."
+      "explanation": "At equivalence, all the weak acid has become its conjugate base, which — being a genuine (if weak) base — reacts with water to generate some OH⁻, pushing pH above 7. \"Strong bases always make every titration's equivalence point exactly pH 14\" (choice A) is false; pH 14 would require an extreme, essentially undiluted [OH⁻] ≈ 1 M, not the mild basicity from a weak conjugate base. \"The equivalence point pH is unrelated to the identity of the acid or base used\" (choice C) is directly contradicted by the reasoning the question itself is asking for. \"Weak acids always produce a completely neutral equivalence point\" (choice D) describes the strong acid-strong base case, not the weak acid case this question is about."
     },
     {
       "id": "8-26",
@@ -7012,7 +7012,7 @@ const QUESTIONS = {
         "It is always greater than 7, as with a weak-acid titration."
       ],
       "correct": 1,
-      "explanation": "At equivalence, the weak base has fully converted to its conjugate acid, which has genuine acidic character and produces some H⁺ in water, making pH < 7. \"Cannot be predicted without extensive calculation\" (choice 1) is false — the direction (acidic) is predictable directly from the chemistry, even without a full numeric calculation. \"Always exactly 7\" (choice 2) describes a strong acid-strong base titration, not a weak base-strong acid one. \"Always greater than 7\" (choice 3) has the direction backwards — that describes a weak ACID-strong base titration, the mirror-image scenario."
+      "explanation": "At equivalence, the weak base has fully converted to its conjugate acid, which has genuine acidic character and produces some H⁺ in water, making pH < 7. \"Cannot be predicted without extensive calculation\" (choice A) is false — the direction (acidic) is predictable directly from the chemistry, even without a full numeric calculation. \"Always exactly 7\" (choice C) describes a strong acid-strong base titration, not a weak base-strong acid one. \"Always greater than 7\" (choice D) has the direction backwards — that describes a weak ACID-strong base titration, the mirror-image scenario."
     },
     {
       "id": "8-27",
@@ -7025,7 +7025,7 @@ const QUESTIONS = {
         "50.0 mL"
       ],
       "correct": 2,
-      "explanation": "Moles HCl = (0.150)(0.0250 L) = 3.75×10⁻³ mol; since HCl + NaOH react 1:1, moles NaOH needed = 3.75×10⁻³ mol, and volume = (3.75×10⁻³ mol)/(0.100 M) = 0.0375 L = 37.5 mL. Choice 1 (16.7 mL) comes from putting the concentrations in the wrong positions of the ratio (effectively 25.0 × 0.100/0.150 instead of 25.0 × 0.150/0.100). Choice 2 (50.0 mL) is exactly double the correct volume, consistent with mistakenly assuming a 2:1 acid-to-base stoichiometry instead of the actual 1:1 reaction. Choice 3 (25.0 mL) simply reuses the acid's own volume, as if equal volumes were automatically enough for equivalence — ignoring that the two solutions have different concentrations."
+      "explanation": "Moles HCl = (0.150)(0.0250 L) = 3.75×10⁻³ mol; since HCl + NaOH react 1:1, moles NaOH needed = 3.75×10⁻³ mol, and volume = (3.75×10⁻³ mol)/(0.100 M) = 0.0375 L = 37.5 mL. Choice A (16.7 mL) comes from putting the concentrations in the wrong positions of the ratio (effectively 25.0 × 0.100/0.150 instead of 25.0 × 0.150/0.100). Choice D (50.0 mL) is exactly double the correct volume, consistent with mistakenly assuming a 2:1 acid-to-base stoichiometry instead of the actual 1:1 reaction. Choice B (25.0 mL) simply reuses the acid's own volume, as if equal volumes were automatically enough for equivalence — ignoring that the two solutions have different concentrations."
     },
     {
       "id": "8-28",
@@ -7038,7 +7038,7 @@ const QUESTIONS = {
         "Weak acids never actually reach a true equivalence point."
       ],
       "correct": 1,
-      "explanation": "A weak acid's conjugate base retains genuine (if modest) basicity, unlike a strong acid's conjugate base, which is essentially non-basic — this is exactly why the weak acid case shifts the equivalence point pH above 7 while the strong acid case doesn't. \"This is actually a false statement; all titrations have equivalence point pH = 7\" (choice 1) is directly contradicted by the weak acid-strong base case discussed in the previous questions. \"Only strong bases can be used in any titration\" (choice 3) is a nonsensical, unrelated claim. \"Weak acids never actually reach a true equivalence point\" (choice 4) is false — the equivalence point is defined purely by stoichiometry (moles acid = moles base added), which weak acids reach just as reliably as strong acids; they just arrive at a different pH."
+      "explanation": "A weak acid's conjugate base retains genuine (if modest) basicity, unlike a strong acid's conjugate base, which is essentially non-basic — this is exactly why the weak acid case shifts the equivalence point pH above 7 while the strong acid case doesn't. \"This is actually a false statement; all titrations have equivalence point pH = 7\" (choice C) is directly contradicted by the weak acid-strong base case discussed in the previous questions. \"Only strong bases can be used in any titration\" (choice A) is a nonsensical, unrelated claim. \"Weak acids never actually reach a true equivalence point\" (choice D) is false — the equivalence point is defined purely by stoichiometry (moles acid = moles base added), which weak acids reach just as reliably as strong acids; they just arrive at a different pH."
     },
     {
       "id": "8-29",
@@ -7051,7 +7051,7 @@ const QUESTIONS = {
         "HF"
       ],
       "correct": 0,
-      "explanation": "Among binary (H-X) acids in the same group, weaker H-X bonds (easier to break) mean stronger acids, and bond strength decreases down the group as atomic radius increases and orbital overlap weakens — making HI's bond the weakest and HI the strongest of these four. HCl (choice 1) and HBr (choice 3) sit in the correct trend order but are weaker acids than HI, not the strongest. HF (choice 4) is actually the WEAKEST binary acid of the four (smallest halogen, strongest, hardest-to-break H-F bond) — the opposite extreme from what the question asks for."
+      "explanation": "Among binary (H-X) acids in the same group, weaker H-X bonds (easier to break) mean stronger acids, and bond strength decreases down the group as atomic radius increases and orbital overlap weakens — making HI's bond the weakest and HI the strongest of these four. HCl (choice C) and HBr (choice B) sit in the correct trend order but are weaker acids than HI, not the strongest. HF (choice D) is actually the WEAKEST binary acid of the four (smallest halogen, strongest, hardest-to-break H-F bond) — the opposite extreme from what the question asks for."
     },
     {
       "id": "8-30",
@@ -7064,7 +7064,7 @@ const QUESTIONS = {
         "HClO"
       ],
       "correct": 3,
-      "explanation": "For oxyacids sharing the same structure but differing in central halogen, acid strength increases with the central atom's electronegativity, and since electronegativity falls down Group 17 (Cl > Br > I), HClO is the strongest of the three. HIO (choice 1) is actually the weakest, since iodine is the least electronegative of the three and withdraws the least electron density from the O-H bond. \"All have identical strength\" (choice 2) is false — the differing electronegativities of Cl, Br, and I directly produce different acid strengths. HBrO (choice 4) is intermediate in strength, weaker than HClO because bromine is less electronegative than chlorine."
+      "explanation": "For oxyacids sharing the same structure but differing in central halogen, acid strength increases with the central atom's electronegativity, and since electronegativity falls down Group 17 (Cl > Br > I), HClO is the strongest of the three. HIO (choice C) is actually the weakest, since iodine is the least electronegative of the three and withdraws the least electron density from the O-H bond. \"All have identical strength\" (choice A) is false — the differing electronegativities of Cl, Br, and I directly produce different acid strengths. HBrO (choice B) is intermediate in strength, weaker than HClO because bromine is less electronegative than chlorine."
     },
     {
       "id": "8-31",
@@ -7077,7 +7077,7 @@ const QUESTIONS = {
         "Acid strength cannot be meaningfully compared between these two compounds."
       ],
       "correct": 0,
-      "explanation": "H₂SO₄ has one more oxygen than H₂SO₃ (4 vs. 3), and each additional highly electronegative oxygen further withdraws electron density from the O-H bond and stabilizes the conjugate base through resonance, making H₂SO₄ the stronger acid (in fact, a strong acid, while H₂SO₃ is weak). \"H₂SO₃, because fewer oxygens means a stronger acid\" (choice 2) has the actual oxyacid trend exactly backwards — MORE oxygens increase acid strength, not fewer. \"Equally strong, since both contain sulfur\" (choice 3) ignores that the number of oxygens attached to that central atom, not just its identity, is what drives the comparison here. \"Acid strength cannot be compared between these two compounds\" (choice 4) is false — this is precisely the kind of comparison the same-central-atom, different-oxygen-count oxyacid trend is designed to make."
+      "explanation": "H₂SO₄ has one more oxygen than H₂SO₃ (4 vs. 3), and each additional highly electronegative oxygen further withdraws electron density from the O-H bond and stabilizes the conjugate base through resonance, making H₂SO₄ the stronger acid (in fact, a strong acid, while H₂SO₃ is weak). \"H₂SO₃, because fewer oxygens means a stronger acid\" (choice B) has the actual oxyacid trend exactly backwards — MORE oxygens increase acid strength, not fewer. \"Equally strong, since both contain sulfur\" (choice C) ignores that the number of oxygens attached to that central atom, not just its identity, is what drives the comparison here. \"Acid strength cannot be compared between these two compounds\" (choice D) is false — this is precisely the kind of comparison the same-central-atom, different-oxygen-count oxyacid trend is designed to make."
     },
     {
       "id": "8-32",
@@ -7090,7 +7090,7 @@ const QUESTIONS = {
         "Oxygen atoms have no meaningful electronic effect on acid strength at all."
       ],
       "correct": 1,
-      "explanation": "Additional electronegative oxygens withdraw electron density from the O-H bond (weakening/polarizing it) and help delocalize the conjugate base's negative charge, both of which favor greater acid strength. \"Oxygen atoms have no electronic effect on acid strength\" (choice 1) directly contradicts this electron-withdrawing/delocalization mechanism. \"More oxygen atoms make the molecule physically larger, which always increases acidity for unrelated reasons\" (choice 2) misattributes the effect to size rather than the actual electronic (inductive/resonance) cause. \"Additional oxygens decrease the molecule's overall polarity\" (choice 3) has it backwards — more oxygens INCREASE, not decrease, the O-H bond's polarity by pulling electron density away from it."
+      "explanation": "Additional electronegative oxygens withdraw electron density from the O-H bond (weakening/polarizing it) and help delocalize the conjugate base's negative charge, both of which favor greater acid strength. \"Oxygen atoms have no electronic effect on acid strength\" (choice D) directly contradicts this electron-withdrawing/delocalization mechanism. \"More oxygen atoms make the molecule physically larger, which always increases acidity for unrelated reasons\" (choice C) misattributes the effect to size rather than the actual electronic (inductive/resonance) cause. \"Additional oxygens decrease the molecule's overall polarity\" (choice A) has it backwards — more oxygens INCREASE, not decrease, the O-H bond's polarity by pulling electron density away from it."
     },
     {
       "id": "8-33",
@@ -7103,7 +7103,7 @@ const QUESTIONS = {
         "CCl₃COOH is actually the weaker acid of the two compounds."
       ],
       "correct": 1,
-      "explanation": "The three highly electronegative Cl atoms pull electron density through the molecule's bonding framework (an inductive effect), stabilizing the conjugate base's negative charge and making the O-H proton easier to release — this is why trichloroacetic acid (pKa ≈ 0.7) is dramatically stronger than acetic acid (pKa ≈ 4.74). \"CCl₃COOH is actually a weaker acid than CH₃COOH\" (choice 1) is factually backwards. \"CCl₃COOH has fewer oxygen atoms than CH₃COOH\" (choice 3) is also factually false — both compounds have the same two oxygens in the -COOH group; the difference is the three chlorines, not the oxygen count. \"Chlorine atoms have no electronic effect on nearby O-H bonds\" (choice 4) directly contradicts the inductive-effect mechanism that explains the strength difference."
+      "explanation": "The three highly electronegative Cl atoms pull electron density through the molecule's bonding framework (an inductive effect), stabilizing the conjugate base's negative charge and making the O-H proton easier to release — this is why trichloroacetic acid (pKa ≈ 0.7) is dramatically stronger than acetic acid (pKa ≈ 4.74). \"CCl₃COOH is actually a weaker acid than CH₃COOH\" (choice D) is factually backwards. \"CCl₃COOH has fewer oxygen atoms than CH₃COOH\" (choice A) is also factually false — both compounds have the same two oxygens in the -COOH group; the difference is the three chlorines, not the oxygen count. \"Chlorine atoms have no electronic effect on nearby O-H bonds\" (choice C) directly contradicts the inductive-effect mechanism that explains the strength difference."
     },
     {
       "id": "8-34",
@@ -7116,7 +7116,7 @@ const QUESTIONS = {
         "Binary acid strength cannot be compared across a period."
       ],
       "correct": 1,
-      "explanation": "Across a period, increasing electronegativity of X increases the H-X bond's polarity, making the proton easier to ionize even though bond strength itself doesn't vary as dramatically as it does down a group. \"Bond strength only, with no consideration of polarity\" (choice 1) describes the dominant factor for the GROUP trend (down a column), not the period trend this question specifically asks about. \"Binary acid strength cannot be compared across a period\" (choice 3) is false — the H₂O < HF comparison within Period 2 is a standard example of exactly this trend. \"Atomic radius of X only\" (choice 4) misidentifies the driver — radius changes relatively little across a period compared to electronegativity, which is the real cause of the polarity-based trend."
+      "explanation": "Across a period, increasing electronegativity of X increases the H-X bond's polarity, making the proton easier to ionize even though bond strength itself doesn't vary as dramatically as it does down a group. \"Bond strength only, with no consideration of polarity\" (choice C) describes the dominant factor for the GROUP trend (down a column), not the period trend this question specifically asks about. \"Binary acid strength cannot be compared across a period\" (choice D) is false — the H₂O < HF comparison within Period 2 is a standard example of exactly this trend. \"Atomic radius of X only\" (choice A) misidentifies the driver — radius changes relatively little across a period compared to electronegativity, which is the real cause of the polarity-based trend."
     },
     {
       "id": "8-35",
@@ -7129,7 +7129,7 @@ const QUESTIONS = {
         "Down a group, bond strength (tied to atomic size) dominates over electronegativity/polarity trends."
       ],
       "correct": 3,
-      "explanation": "Down a group, bond strength (which depends heavily on atomic size and orbital overlap) dominates over the electronegativity/polarity trend; fluorine's small size gives an unusually strong H-F bond that outweighs its high electronegativity, making HF a weak acid despite HCl, HBr, and HI (with weaker, more breakable bonds) all being strong. \"HF is weak simply because fluorine has the smallest atomic radius, with no other explanation needed\" (choice 2) is incomplete — small radius alone doesn't explain weak acidity unless it's tied to the resulting strong, hard-to-break bond, which is the actual mechanism. \"Electronegativity has no bearing on acid strength for any binary acid\" (choice 3) is false — electronegativity is exactly what drives the period-wise trend (question 8-34) and would predict HF should be strong, which is precisely the paradox this question resolves. \"This is a printing error; HF is actually a strong acid\" (choice 4) is false — HF (Ka ≈ 6.8×10⁻⁴) is a well-documented, genuine weak acid, not an error.",
+      "explanation": "Down a group, bond strength (which depends heavily on atomic size and orbital overlap) dominates over the electronegativity/polarity trend; fluorine's small size gives an unusually strong H-F bond that outweighs its high electronegativity, making HF a weak acid despite HCl, HBr, and HI (with weaker, more breakable bonds) all being strong. \"HF is weak simply because fluorine has the smallest atomic radius, with no other explanation needed\" (choice C) is incomplete — small radius alone doesn't explain weak acidity unless it's tied to the resulting strong, hard-to-break bond, which is the actual mechanism. \"Electronegativity has no bearing on acid strength for any binary acid\" (choice A) is false — electronegativity is exactly what drives the period-wise trend (question 8-34) and would predict HF should be strong, which is precisely the paradox this question resolves. \"This is a printing error; HF is actually a strong acid\" (choice B) is false — HF (Ka ≈ 6.8×10⁻⁴) is a well-documented, genuine weak acid, not an error.",
       "stretch": true
     },
     {
@@ -7143,7 +7143,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 3,
-      "explanation": "pKa = −log(Ka) = −log(2.5×10⁻³) = 2.60. Choice 1 (0.40) comes from computing only −log(2.5) and dropping the contribution from the ×10⁻³ part of Ka. Choice 2 (3.00) rounds Ka's mantissa away entirely, treating it as if Ka were exactly 1×10⁻³ instead of 2.5×10⁻³. Choice 3 (−2.60) has a sign error — it reports log(Ka) directly instead of −log(Ka), missing the negative sign that defines pKa."
+      "explanation": "pKa = −log(Ka) = −log(2.5×10⁻³) = 2.60. Choice B (0.40) comes from computing only −log(2.5) and dropping the contribution from the ×10⁻³ part of Ka. Choice A (3.00) rounds Ka's mantissa away entirely, treating it as if Ka were exactly 1×10⁻³ instead of 2.5×10⁻³. Choice C (−2.60) has a sign error — it reports log(Ka) directly instead of −log(Ka), missing the negative sign that defines pKa."
     },
     {
       "id": "8-37",
@@ -7156,7 +7156,7 @@ const QUESTIONS = {
         "5.0 × 10⁻⁹"
       ],
       "correct": 3,
-      "explanation": "Ka = 10^(−pKa) = 10^(−8.30) = 5.0×10⁻⁹. Choice 1 (3.16×10⁻⁹) has the right order of magnitude but the wrong mantissa, consistent with using the decimal 0.50 as if it corresponded to a different antilog value (10^(−0.5) = 0.316 rather than the correct 10^(−0.3) = 0.501). Choice 2 (1.3×10⁸) has a sign error in the exponent (positive instead of negative) along with a mismatched mantissa. Choice 3 (8.30) just restates the given pKa, without ever taking 10^(−pKa) to actually solve for Ka."
+      "explanation": "Ka = 10^(−pKa) = 10^(−8.30) = 5.0×10⁻⁹. Choice B (3.16×10⁻⁹) has the right order of magnitude but the wrong mantissa, consistent with using the decimal 0.50 as if it corresponded to a different antilog value (10^(−0.5) = 0.316 rather than the correct 10^(−0.3) = 0.501). Choice A (1.3×10⁸) has a sign error in the exponent (positive instead of negative) along with a mismatched mantissa. Choice C (8.30) just restates the given pKa, without ever taking 10^(−pKa) to actually solve for Ka."
     },
     {
       "id": "8-38",
@@ -7169,7 +7169,7 @@ const QUESTIONS = {
         "Acid A, since it has the smallest pKa."
       ],
       "correct": 3,
-      "explanation": "Smaller pKa means larger Ka means a stronger acid, and Acid A's pKa (2.1) is the smallest of the three, making it the strongest. \"Acid C, since it has the largest pKa number\" (choice 2) reverses the relationship — a larger pKa means a SMALLER Ka and a WEAKER acid, not a stronger one. \"Acid B, since it is in the middle\" (choice 3) isn't a chemically meaningful basis for comparison at all. \"All three acids are equally strong\" (choice 4) is directly contradicted by the three distinct pKa values given."
+      "explanation": "Smaller pKa means larger Ka means a stronger acid, and Acid A's pKa (2.1) is the smallest of the three, making it the strongest. \"Acid C, since it has the largest pKa number\" (choice C) reverses the relationship — a larger pKa means a SMALLER Ka and a WEAKER acid, not a stronger one. \"Acid B, since it is in the middle\" (choice A) isn't a chemically meaningful basis for comparison at all. \"All three acids are equally strong\" (choice B) is directly contradicted by the three distinct pKa values given."
     },
     {
       "id": "8-39",
@@ -7182,7 +7182,7 @@ const QUESTIONS = {
         "pKa and Ka are actually the exact same numerical value, just with different names."
       ],
       "correct": 2,
-      "explanation": "Ka values span many orders of magnitude, and the logarithmic pKa scale compresses this into small, easily compared numbers, just as pH does for [H⁺]. \"pKa can only be used for strong acids, never weak acids\" (choice 2) is backwards — Ka and pKa are specifically weak-acid equilibrium quantities; strong acids dissociate essentially completely and don't have a meaningful equilibrium Ka to convert. \"pKa and Ka are actually the exact same numerical value, just with different names\" (choice 3) is false — pKa is the negative log of Ka, a transformed and numerically different quantity. \"pKa has no practical advantage over using Ka directly\" (choice 4) contradicts the very reason pKa is used, namely the convenient compression of Ka's huge range."
+      "explanation": "Ka values span many orders of magnitude, and the logarithmic pKa scale compresses this into small, easily compared numbers, just as pH does for [H⁺]. \"pKa can only be used for strong acids, never weak acids\" (choice A) is backwards — Ka and pKa are specifically weak-acid equilibrium quantities; strong acids dissociate essentially completely and don't have a meaningful equilibrium Ka to convert. \"pKa and Ka are actually the exact same numerical value, just with different names\" (choice D) is false — pKa is the negative log of Ka, a transformed and numerically different quantity. \"pKa has no practical advantage over using Ka directly\" (choice B) contradicts the very reason pKa is used, namely the convenient compression of Ka's huge range."
     },
     {
       "id": "8-40",
@@ -7195,7 +7195,7 @@ const QUESTIONS = {
         "pH = 9.0"
       ],
       "correct": 0,
-      "explanation": "By Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]); when [HA] = [A⁻], the ratio is 1 and log(1) = 0, so pH = pKa = 4.5 exactly. \"pH = 7.0\" (choice 1) assumes neutral water pH regardless of the acid's actual pKa, ignoring the given information entirely. \"pH = 0\" (choice 2) is an extreme, chemically implausible value with no connection to this buffer scenario. \"pH = 9.0\" (choice 3) similarly isn't derived from any calculation using the given pKa = 4.5."
+      "explanation": "By Henderson-Hasselbalch, pH = pKa + log([A⁻]/[HA]); when [HA] = [A⁻], the ratio is 1 and log(1) = 0, so pH = pKa = 4.5 exactly. \"pH = 7.0\" (choice B) assumes neutral water pH regardless of the acid's actual pKa, ignoring the given information entirely. \"pH = 0\" (choice C) is an extreme, chemically implausible value with no connection to this buffer scenario. \"pH = 9.0\" (choice D) similarly isn't derived from any calculation using the given pKa = 4.5."
     },
     {
       "id": "8-41",
@@ -7208,7 +7208,7 @@ const QUESTIONS = {
         "There is no relationship between pKa and pKb"
       ],
       "correct": 1,
-      "explanation": "Since Ka × Kb = Kw, taking the negative log of both sides gives pKa + pKb = pKw = 14.00 at 25°C. \"There is no relationship between pKa and pKb\" (choice 2) directly contradicts this identity. \"pKa = pKb always, for any conjugate pair\" (choice 3) would only be true in the special case where both equal 7.00 (Ka = Kb); it's not true generally, since acids and their conjugate bases usually have very different strengths. \"pKa − pKb = 14.00\" (choice 4) uses the wrong operation — the relationship comes from a product (Ka × Kb) becoming a SUM of logs, not a difference."
+      "explanation": "Since Ka × Kb = Kw, taking the negative log of both sides gives pKa + pKb = pKw = 14.00 at 25°C. \"There is no relationship between pKa and pKb\" (choice D) directly contradicts this identity. \"pKa = pKb always, for any conjugate pair\" (choice C) would only be true in the special case where both equal 7.00 (Ka = Kb); it's not true generally, since acids and their conjugate bases usually have very different strengths. \"pKa − pKb = 14.00\" (choice A) uses the wrong operation — the relationship comes from a product (Ka × Kb) becoming a SUM of logs, not a difference."
     },
     {
       "id": "8-42",
@@ -7221,7 +7221,7 @@ const QUESTIONS = {
         "CH₃COOH and CH₃COONa"
       ],
       "correct": 3,
-      "explanation": "CH₃COOH (a weak acid) with CH₃COONa (its conjugate base, acetate) forms a genuine buffer pair. \"HCl and NaOH in exactly stoichiometric amounts\" (choice 1) fully neutralizes to a neutral NaCl solution with no leftover weak acid/base pair — no buffering capacity remains. \"HCl and NaCl\" (choice 2) pairs a fully-dissociated strong acid (no equilibrium reservoir to draw on) with an unrelated spectator salt, not a conjugate base. \"NaOH and NaCl\" (choice 4) similarly pairs a strong base with a spectator salt rather than its conjugate acid."
+      "explanation": "CH₃COOH (a weak acid) with CH₃COONa (its conjugate base, acetate) forms a genuine buffer pair. \"HCl and NaOH in exactly stoichiometric amounts\" (choice A) fully neutralizes to a neutral NaCl solution with no leftover weak acid/base pair — no buffering capacity remains. \"HCl and NaCl\" (choice B) pairs a fully-dissociated strong acid (no equilibrium reservoir to draw on) with an unrelated spectator salt, not a conjugate base. \"NaOH and NaCl\" (choice C) similarly pairs a strong base with a spectator salt rather than its conjugate acid."
     },
     {
       "id": "8-43",
@@ -7234,7 +7234,7 @@ const QUESTIONS = {
         "Buffers prevent any acid from ever being added to the solution."
       ],
       "correct": 2,
-      "explanation": "The conjugate base component reacts with added H⁺ (base + H⁺ → weak acid), consuming the added strong acid and converting it into more weak acid rather than letting it raise free [H⁺] sharply. \"Buffers chemically destroy any added acid instantly and completely\" (choice 2) overstates and mischaracterizes the process — it's an ordinary equilibrium-shifting reaction, not destruction. \"The buffer's weak acid component reacts with the added H⁺\" (choice 3) has the roles backwards — the weak acid has no lone pair or negative charge to accept another proton with; it's the conjugate BASE that neutralizes added acid. \"Buffers prevent any acid from ever being added to the solution\" (choice 4) misunderstands the mechanism entirely — buffers don't block addition, they chemically neutralize its effect after it's added."
+      "explanation": "The conjugate base component reacts with added H⁺ (base + H⁺ → weak acid), consuming the added strong acid and converting it into more weak acid rather than letting it raise free [H⁺] sharply. \"Buffers chemically destroy any added acid instantly and completely\" (choice B) overstates and mischaracterizes the process — it's an ordinary equilibrium-shifting reaction, not destruction. \"The buffer's weak acid component reacts with the added H⁺\" (choice A) has the roles backwards — the weak acid has no lone pair or negative charge to accept another proton with; it's the conjugate BASE that neutralizes added acid. \"Buffers prevent any acid from ever being added to the solution\" (choice D) misunderstands the mechanism entirely — buffers don't block addition, they chemically neutralize its effect after it's added."
     },
     {
       "id": "8-44",
@@ -7247,7 +7247,7 @@ const QUESTIONS = {
         "The buffer's conjugate base component reacts with the added OH⁻."
       ],
       "correct": 2,
-      "explanation": "The weak acid component reacts with added OH⁻ (weak acid + OH⁻ → conjugate base + H₂O), consuming the added strong base and converting it into more conjugate base plus water rather than letting free [OH⁻] spike. \"Buffers cannot resist added base, only added acid\" (choice 1) is false — resisting both directions is the defining feature of a buffer. \"Added base has no effect on a buffered solution whatsoever\" (choice 2) is also false — the base does react, it's just neutralized efficiently rather than having no effect at all. \"The buffer's conjugate base component reacts with the added OH⁻\" (choice 4) has the roles backwards — the conjugate base is already basic and has nothing productive to do with more OH⁻; it's the weak ACID component that consumes added base."
+      "explanation": "The weak acid component reacts with added OH⁻ (weak acid + OH⁻ → conjugate base + H₂O), consuming the added strong base and converting it into more conjugate base plus water rather than letting free [OH⁻] spike. \"Buffers cannot resist added base, only added acid\" (choice B) is false — resisting both directions is the defining feature of a buffer. \"Added base has no effect on a buffered solution whatsoever\" (choice A) is also false — the base does react, it's just neutralized efficiently rather than having no effect at all. \"The buffer's conjugate base component reacts with the added OH⁻\" (choice D) has the roles backwards — the conjugate base is already basic and has nothing productive to do with more OH⁻; it's the weak ACID component that consumes added base."
     },
     {
       "id": "8-45",
@@ -7260,7 +7260,7 @@ const QUESTIONS = {
         "A mixture of HF and NaF"
       ],
       "correct": 1,
-      "explanation": "A solution of only a strong acid has no reservoir of conjugate base to neutralize added base, and it can't resist added acid either (there's no buffering equilibrium at all) — strong acid/base solutions alone are never buffers. H₂CO₃/NaHCO₃ (choice 2), HF/NaF (choice 3), and NH₃/NH₄Cl (choice 4) are each a genuine weak acid (or base) paired with a significant reservoir of its conjugate partner, so all three do function as effective buffers, unlike the correct answer."
+      "explanation": "A solution of only a strong acid has no reservoir of conjugate base to neutralize added base, and it can't resist added acid either (there's no buffering equilibrium at all) — strong acid/base solutions alone are never buffers. H₂CO₃/NaHCO₃ (choice C), HF/NaF (choice D), and NH₃/NH₄Cl (choice A) are each a genuine weak acid (or base) paired with a significant reservoir of its conjugate partner, so all three do function as effective buffers, unlike the correct answer."
     },
     {
       "id": "8-46",
@@ -7273,7 +7273,7 @@ const QUESTIONS = {
         "NH₃ and NH₄Cl"
       ],
       "correct": 3,
-      "explanation": "NH₃ (a weak base) with NH₄Cl (providing NH₄⁺, its conjugate acid) is the classic weak-base-type buffer pair. \"NaOH and Na₂SO₄\" (choice 1) pairs a strong base with an unrelated spectator salt (from a strong acid), not a weak base/conjugate acid pair. \"CH₃COOH and CH₃COONa\" (choice 3) IS a valid buffer, but it's a weak-ACID-type pairing (acid plus its conjugate base), not the weak-base-type pairing the question specifically asks for. \"HCl and NaCl\" (choice 4) pairs a strong acid (not a weak base at all) with a spectator salt."
+      "explanation": "NH₃ (a weak base) with NH₄Cl (providing NH₄⁺, its conjugate acid) is the classic weak-base-type buffer pair. \"NaOH and Na₂SO₄\" (choice B) pairs a strong base with an unrelated spectator salt (from a strong acid), not a weak base/conjugate acid pair. \"CH₃COOH and CH₃COONa\" (choice A) IS a valid buffer, but it's a weak-ACID-type pairing (acid plus its conjugate base), not the weak-base-type pairing the question specifically asks for. \"HCl and NaCl\" (choice C) pairs a strong acid (not a weak base at all) with a spectator salt."
     },
     {
       "id": "8-47",
@@ -7286,7 +7286,7 @@ const QUESTIONS = {
         "A weak acid alone can already resist both added acid and added base equally well."
       ],
       "correct": 2,
-      "explanation": "A weak acid alone has no significant reservoir of its conjugate base to neutralize ADDED acid — that dedicated reservoir is exactly what the conjugate base component provides in a true buffer. \"Conjugate bases have no chemical function in a buffer\" (choice 1) directly contradicts the correct mechanism. \"A weak acid alone can already resist both added acid and added base equally well\" (choice 3) is false — without added conjugate base present, there's no dedicated species to consume incoming H⁺ efficiently. \"This dual-component requirement is unnecessary; any weak acid alone makes an effective buffer\" (choice 4) directly contradicts the premise and conclusion of the correct answer."
+      "explanation": "A weak acid alone has no significant reservoir of its conjugate base to neutralize ADDED acid — that dedicated reservoir is exactly what the conjugate base component provides in a true buffer. \"Conjugate bases have no chemical function in a buffer\" (choice A) directly contradicts the correct mechanism. \"A weak acid alone can already resist both added acid and added base equally well\" (choice D) is false — without added conjugate base present, there's no dedicated species to consume incoming H⁺ efficiently. \"This dual-component requirement is unnecessary; any weak acid alone makes an effective buffer\" (choice B) directly contradicts the premise and conclusion of the correct answer."
     },
     {
       "id": "8-48",
@@ -7299,7 +7299,7 @@ const QUESTIONS = {
         "1.0 M weak acid / 1.0 M conjugate base"
       ],
       "correct": 3,
-      "explanation": "Buffer capacity is maximized by both high absolute concentrations of both components AND a roughly equal (1:1) ratio between them; the 1.0 M/1.0 M option satisfies both conditions. The 0.10 M/0.010 M (choice 1) and 0.010 M/0.10 M (choice 2) options both have an unequal (10:1) ratio AND far lower absolute concentrations than 1.0 M, hurting capacity on both counts. The 0.010 M/0.010 M option (choice 3) has an ideal 1:1 ratio but very low absolute concentrations, giving it far less total reservoir than the 1.0 M/1.0 M buffer despite the good ratio."
+      "explanation": "Buffer capacity is maximized by both high absolute concentrations of both components AND a roughly equal (1:1) ratio between them; the 1.0 M/1.0 M option satisfies both conditions. The 0.10 M/0.010 M (choice C) and 0.010 M/0.10 M (choice A) options both have an unequal (10:1) ratio AND far lower absolute concentrations than 1.0 M, hurting capacity on both counts. The 0.010 M/0.010 M option (choice B) has an ideal 1:1 ratio but very low absolute concentrations, giving it far less total reservoir than the 1.0 M/1.0 M buffer despite the good ratio."
     },
     {
       "id": "8-49",
@@ -7312,7 +7312,7 @@ const QUESTIONS = {
         "Buffer Y, since lower concentrations always mean greater capacity."
       ],
       "correct": 2,
-      "explanation": "Higher absolute concentrations mean more weak acid and conjugate base available to consume before either is significantly depleted, even though both buffers share the same pH (since Henderson-Hasselbalch depends only on the ratio). \"Buffer Y, since lower concentrations always mean greater capacity\" (choice 1) has it backwards — less material on hand means LESS capacity, not more. \"Capacity cannot be determined from concentration alone\" (choice 3) is false — concentration (together with the ratio, which is given as equal here) is exactly what determines capacity. \"Both have identical capacity, since the ratio (and therefore the pH) is the same\" (choice 4) conflates pH (ratio-dependent) with capacity (concentration-dependent) — equal pH does not imply equal capacity."
+      "explanation": "Higher absolute concentrations mean more weak acid and conjugate base available to consume before either is significantly depleted, even though both buffers share the same pH (since Henderson-Hasselbalch depends only on the ratio). \"Buffer Y, since lower concentrations always mean greater capacity\" (choice D) has it backwards — less material on hand means LESS capacity, not more. \"Capacity cannot be determined from concentration alone\" (choice B) is false — concentration (together with the ratio, which is given as equal here) is exactly what determines capacity. \"Both have identical capacity, since the ratio (and therefore the pH) is the same\" (choice A) conflates pH (ratio-dependent) with capacity (concentration-dependent) — equal pH does not imply equal capacity."
     },
     {
       "id": "8-50",
@@ -7325,7 +7325,7 @@ const QUESTIONS = {
         "Buffer capacity always increases as the ratio becomes more unequal."
       ],
       "correct": 1,
-      "explanation": "Capacity is greatest near a 1:1 ratio and declines as the ratio skews, since the minority component becomes easy to fully deplete with only a modest addition of acid or base. \"A buffer's ratio has no meaningful upper or lower limit for effective functioning\" (choice 1) contradicts the very premise that effectiveness declines away from 1:1. \"Buffer capacity is completely unaffected by the ratio between components\" (choice 2) is directly contradicted by the correct mechanism. \"Buffer capacity always increases as the ratio becomes more unequal\" (choice 3) has the relationship exactly backwards."
+      "explanation": "Capacity is greatest near a 1:1 ratio and declines as the ratio skews, since the minority component becomes easy to fully deplete with only a modest addition of acid or base. \"A buffer's ratio has no meaningful upper or lower limit for effective functioning\" (choice C) contradicts the very premise that effectiveness declines away from 1:1. \"Buffer capacity is completely unaffected by the ratio between components\" (choice A) is directly contradicted by the correct mechanism. \"Buffer capacity always increases as the ratio becomes more unequal\" (choice D) has the relationship exactly backwards."
     },
     {
       "id": "8-51",
@@ -7338,7 +7338,7 @@ const QUESTIONS = {
         "Nothing measurable; capacity cannot be quantified."
       ],
       "correct": 0,
-      "explanation": "pH depends only on the RATIO of the two components (Henderson-Hasselbalch), while capacity depends on their absolute concentrations. \"The temperature of the solution only\" (choice 1) isn't the distinguishing factor between pH and capacity that this question is asking about. \"The exact same factor as pH (the ratio alone)\" (choice 2) directly contradicts the correct distinction — if true, pH and capacity would always change together, but two buffers with the same ratio (and thus same pH) can have very different capacities. \"Nothing measurable; capacity cannot be quantified\" (choice 3) is false — capacity is a well-defined, measurable quantity (how much acid/base a buffer can absorb before its pH shifts substantially)."
+      "explanation": "pH depends only on the RATIO of the two components (Henderson-Hasselbalch), while capacity depends on their absolute concentrations. \"The temperature of the solution only\" (choice B) isn't the distinguishing factor between pH and capacity that this question is asking about. \"The exact same factor as pH (the ratio alone)\" (choice C) directly contradicts the correct distinction — if true, pH and capacity would always change together, but two buffers with the same ratio (and thus same pH) can have very different capacities. \"Nothing measurable; capacity cannot be quantified\" (choice D) is false — capacity is a well-defined, measurable quantity (how much acid/base a buffer can absorb before its pH shifts substantially)."
     },
     {
       "id": "8-52",
@@ -7351,7 +7351,7 @@ const QUESTIONS = {
         "This scenario cannot be analyzed without knowing the exact Ka value."
       ],
       "correct": 1,
-      "explanation": "Added acid is neutralized specifically by the conjugate base component, and the 1:1 buffer has proportionally more conjugate base available (relative to the 9:1 buffer, where conjugate base is the minority species), so it shows a smaller pH change. \"Both buffers would show identical pH changes regardless of ratio\" (choice 1) contradicts the fact that buffer response depends on the amount of the relevant component available. \"This scenario cannot be analyzed without knowing the exact Ka value\" (choice 3) is unnecessary — the comparison here turns on relative amounts of conjugate base, not the specific Ka. \"The 9:1 buffer, since more weak acid always means better buffering against added acid specifically\" (choice 4) is backwards — more weak acid doesn't help against added acid at all; it's the conjugate base that neutralizes added acid, and the 9:1 buffer has proportionally less of it."
+      "explanation": "Added acid is neutralized specifically by the conjugate base component, and the 1:1 buffer has proportionally more conjugate base available (relative to the 9:1 buffer, where conjugate base is the minority species), so it shows a smaller pH change. \"Both buffers would show identical pH changes regardless of ratio\" (choice A) contradicts the fact that buffer response depends on the amount of the relevant component available. \"This scenario cannot be analyzed without knowing the exact Ka value\" (choice D) is unnecessary — the comparison here turns on relative amounts of conjugate base, not the specific Ka. \"The 9:1 buffer, since more weak acid always means better buffering against added acid specifically\" (choice C) is backwards — more weak acid doesn't help against added acid at all; it's the conjugate base that neutralizes added acid, and the 9:1 buffer has proportionally less of it."
     },
     {
       "id": "8-53",
@@ -7364,7 +7364,7 @@ const QUESTIONS = {
         "4.20"
       ],
       "correct": 3,
-      "explanation": "pH = pKa + log([base]/[acid]) = 4.20 + log(0.300/0.300) = 4.20 + log(1) = 4.20, since equal concentrations always give a ratio of 1 and log(1) = 0. Choice 2 (4.50) doesn't follow from log(1) = 0, which holds regardless of what the equal concentration value actually is — this reflects an arithmetic slip rather than a genuine alternate calculation. Choice 3 (8.40) looks like doubling pKa (4.20 × 2), an operation with no basis in the Henderson-Hasselbalch equation. Choice 4 (4.00) rounds pKa down without correctly applying log(0.300/0.300) = 0, which should leave pKa completely unchanged, not shifted."
+      "explanation": "pH = pKa + log([base]/[acid]) = 4.20 + log(0.300/0.300) = 4.20 + log(1) = 4.20, since equal concentrations always give a ratio of 1 and log(1) = 0. Choice B (4.50) doesn't follow from log(1) = 0, which holds regardless of what the equal concentration value actually is — this reflects an arithmetic slip rather than a genuine alternate calculation. Choice C (8.40) looks like doubling pKa (4.20 × 2), an operation with no basis in the Henderson-Hasselbalch equation. Choice A (4.00) rounds pKa down without correctly applying log(0.300/0.300) = 0, which should leave pKa completely unchanged, not shifted."
     },
     {
       "id": "8-54",
@@ -7377,7 +7377,7 @@ const QUESTIONS = {
         "5.50"
       ],
       "correct": 2,
-      "explanation": "pH = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Choice 2 (4.26) comes from subtracting the log term instead of adding it (4.74 − 0.477 = 4.26), effectively flipping the sign in Henderson-Hasselbalch. Choice 3 (5.50) doesn't match log(3.00) = 0.477 added to pKa, and appears to come from a different misapplication of the formula. Choice 4 (4.74) is just pKa restated, as if base and acid concentrations were equal, ignoring that the base here is three times the acid concentration."
+      "explanation": "pH = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Choice A (4.26) comes from subtracting the log term instead of adding it (4.74 − 0.477 = 4.26), effectively flipping the sign in Henderson-Hasselbalch. Choice D (5.50) doesn't match log(3.00) = 0.477 added to pKa, and appears to come from a different misapplication of the formula. Choice B (4.74) is just pKa restated, as if base and acid concentrations were equal, ignoring that the base here is three times the acid concentration."
     },
     {
       "id": "8-55",
@@ -7390,7 +7390,7 @@ const QUESTIONS = {
         "9.25"
       ],
       "correct": 2,
-      "explanation": "For this weak-base-type buffer, pH = 9.25 + log([base]/[acid]) = 9.25 + log(0.100/0.400) = 9.25 + log(0.250) = 9.25 − 0.602 = 8.65. Choice 1 (9.25) is just pKa restated, ignoring the unequal 4:1 concentration ratio entirely. Choice 2 (9.85) comes from inverting the ratio — using [conjugate acid]/[base] = 0.400/0.100 = 4 instead of [base]/[acid], giving 9.25 + log(4) = 9.25 + 0.602 = 9.85. Choice 3 (8.25) is close to correct but comes from rounding log(0.250) to a flat −1.00 rather than its actual value of −0.602."
+      "explanation": "For this weak-base-type buffer, pH = 9.25 + log([base]/[acid]) = 9.25 + log(0.100/0.400) = 9.25 + log(0.250) = 9.25 − 0.602 = 8.65. Choice D (9.25) is just pKa restated, ignoring the unequal 4:1 concentration ratio entirely. Choice A (9.85) comes from inverting the ratio — using [conjugate acid]/[base] = 0.400/0.100 = 4 instead of [base]/[acid], giving 9.25 + log(4) = 9.25 + 0.602 = 9.85. Choice B (8.25) is close to correct but comes from rounding log(0.250) to a flat −1.00 rather than its actual value of −0.602."
     },
     {
       "id": "8-56",
@@ -7403,7 +7403,7 @@ const QUESTIONS = {
         "1:10"
       ],
       "correct": 2,
-      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10^1.00 = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice 1 (1:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice 2 (1:1) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice 3 (100:1) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
+      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10^1.00 = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
     },
     {
       "id": "8-57",
@@ -7416,7 +7416,7 @@ const QUESTIONS = {
         "1:1"
       ],
       "correct": 1,
-      "explanation": "4.00 = 5.00 + log(ratio) → log(ratio) = −1.00 → ratio = 10^(−1.00) = 0.10, i.e., [base]/[acid] = 1:10 — more weak acid than conjugate base, since the target pH is below pKa. Choice 1 (10:1) is the inverted ratio, which would give pH = 6.00 (one unit above pKa), the mirror-image error. Choice 3 (1:1) would give pH = pKa = 5.00, not 4.00. Choice 4 (1:100) overcorrects by an extra order of magnitude, corresponding to pH = 3.00 (two units below pKa) rather than one."
+      "explanation": "4.00 = 5.00 + log(ratio) → log(ratio) = −1.00 → ratio = 10^(−1.00) = 0.10, i.e., [base]/[acid] = 1:10 — more weak acid than conjugate base, since the target pH is below pKa. Choice A (10:A) is the inverted ratio, which would give pH = 6.00 (one unit above pKa), the mirror-image error. Choice D (A:A) would give pH = pKa = 5.00, not 4.00. Choice C (A:100) overcorrects by an extra order of magnitude, corresponding to pH = 3.00 (two units below pKa) rather than one."
     },
     {
       "id": "8-58",
@@ -7429,7 +7429,7 @@ const QUESTIONS = {
         "4.94"
       ],
       "correct": 2,
-      "explanation": "With both species in the same 1.00 L, moles equal molarity directly: pH = 4.74 + log(0.250/0.400) = 4.74 + log(0.625) = 4.74 − 0.204 = 4.54. Choice 1 (4.74) is just pKa restated, ignoring that the moles of acid and base here aren't equal (0.400 mol acid vs. 0.250 mol base). Choice 2 (4.94) comes from inverting the ratio to [acid]/[base] = 0.400/0.250 = 1.6, giving 4.74 + log(1.6) = 4.74 + 0.204 = 4.94 — adding instead of subtracting the log term. Choice 3 (5.14) doesn't correspond to a consistent ratio calculation with these mole values and, notably, incorrectly pushes pH ABOVE pKa despite the base being the minority component, which should push pH below pKa, not above it."
+      "explanation": "With both species in the same 1.00 L, moles equal molarity directly: pH = 4.74 + log(0.250/0.400) = 4.74 + log(0.625) = 4.74 − 0.204 = 4.54. Choice B (4.74) is just pKa restated, ignoring that the moles of acid and base here aren't equal (0.400 mol acid vs. 0.250 mol base). Choice D (4.94) comes from inverting the ratio to [acid]/[base] = 0.400/0.250 = 1.6, giving 4.74 + log(1.6) = 4.74 + 0.204 = 4.94 — adding instead of subtracting the log term. Choice A (5.14) doesn't correspond to a consistent ratio calculation with these mole values and, notably, incorrectly pushes pH ABOVE pKa despite the base being the minority component, which should push pH below pKa, not above it."
     },
     {
       "id": "8-59",
@@ -7442,7 +7442,7 @@ const QUESTIONS = {
         "It is an entirely independent empirical formula unrelated to Ka."
       ],
       "correct": 2,
-      "explanation": "Starting from Ka = [H⁺][A⁻]/[HA], solving for [H⁺] and taking −log of both sides directly yields pH = pKa + log([A⁻]/[HA]) — Henderson-Hasselbalch is simply a rearrangement of the weak acid equilibrium expression. \"It is an entirely independent empirical formula unrelated to Ka\" (choice 1) and \"It has no mathematical connection to equilibrium concepts\" (choice 3) both directly contradict this derivation. \"It only applies to strong acids and bases\" (choice 4) is backwards — Henderson-Hasselbalch is specifically a tool for weak acid/base buffer systems; strong acids and bases dissociate essentially completely and don't have a meaningful HA/A⁻ equilibrium mixture to apply it to."
+      "explanation": "Starting from Ka = [H⁺][A⁻]/[HA], solving for [H⁺] and taking −log of both sides directly yields pH = pKa + log([A⁻]/[HA]) — Henderson-Hasselbalch is simply a rearrangement of the weak acid equilibrium expression. \"It is an entirely independent empirical formula unrelated to Ka\" (choice D) and \"It has no mathematical connection to equilibrium concepts\" (choice B) both directly contradict this derivation. \"It only applies to strong acids and bases\" (choice A) is backwards — Henderson-Hasselbalch is specifically a tool for weak acid/base buffer systems; strong acids and bases dissociate essentially completely and don't have a meaningful HA/A⁻ equilibrium mixture to apply it to."
     },
     {
       "id": "8-60",
@@ -7455,7 +7455,7 @@ const QUESTIONS = {
         "No reaction has occurred yet at this point."
       ],
       "correct": 0,
-      "explanation": "At half-equivalence, exactly half the original weak acid has reacted, so [weak acid] = [conjugate base], and Henderson-Hasselbalch gives pH = pKa + log(1) = pKa exactly. \"No reaction has occurred yet\" (choice 1) is false — by definition, half the acid has already reacted at this point. \"All of the weak acid has been converted to its conjugate base\" (choice 3) describes the FULL equivalence point, not the halfway point, where only half has reacted. \"pH = 7.00 exactly\" (choice 4) confuses this with the neutral strong acid-strong base equivalence point; a weak acid's half-equivalence pH equals its own pKa, which is generally not 7."
+      "explanation": "At half-equivalence, exactly half the original weak acid has reacted, so [weak acid] = [conjugate base], and Henderson-Hasselbalch gives pH = pKa + log(1) = pKa exactly. \"No reaction has occurred yet\" (choice D) is false — by definition, half the acid has already reacted at this point. \"All of the weak acid has been converted to its conjugate base\" (choice C) describes the FULL equivalence point, not the halfway point, where only half has reacted. \"pH = 7.00 exactly\" (choice B) confuses this with the neutral strong acid-strong base equivalence point; a weak acid's half-equivalence pH equals its own pKa, which is generally not 7."
     },
     {
       "id": "8-61",
@@ -7468,7 +7468,7 @@ const QUESTIONS = {
         "A region unrelated to buffering."
       ],
       "correct": 1,
-      "explanation": "As base is added before equivalence, a mixture of remaining weak acid and newly formed conjugate base accumulates — this mixture is itself a buffer, and its resistance to pH change is what makes this region of the curve appear flat. \"The point where the titration is complete\" (choice 1) is wrong — this flat region occurs mid-titration, well before the equivalence point, not at completion. \"A region unrelated to buffering\" (choice 2) directly contradicts the correct mechanism. \"The region where no reaction is occurring at all\" (choice 4) is false — the neutralization reaction (weak acid + OH⁻ → conjugate base + water) is actively occurring throughout; it's just that the resulting buffer mixture absorbs the pH impact."
+      "explanation": "As base is added before equivalence, a mixture of remaining weak acid and newly formed conjugate base accumulates — this mixture is itself a buffer, and its resistance to pH change is what makes this region of the curve appear flat. \"The point where the titration is complete\" (choice C) is wrong — this flat region occurs mid-titration, well before the equivalence point, not at completion. \"A region unrelated to buffering\" (choice D) directly contradicts the correct mechanism. \"The region where no reaction is occurring at all\" (choice A) is false — the neutralization reaction (weak acid + OH⁻ → conjugate base + water) is actively occurring throughout; it's just that the resulting buffer mixture absorbs the pH impact."
     },
     {
       "id": "8-62",
@@ -7481,7 +7481,7 @@ const QUESTIONS = {
         "A small added volume of titrant causes a large pH change."
       ],
       "correct": 3,
-      "explanation": "Near equivalence, the weak acid (or the component being consumed) is nearly used up, so the buffering system that kept pH changes gradual is essentially exhausted, and even a tiny additional volume of titrant causes a large pH swing. \"The reaction is now proceeding in reverse\" (choice 2) is false — the titration reaction continues in the same forward direction; the steepness reflects the buffer running out, not a reversal. \"The titration has actually failed at this point\" (choice 3) is false — this steep rise is the expected, normal signature of reaching the equivalence point, not a failure. \"The steepness has no chemical significance\" (choice 4) directly contradicts its actual role: it's precisely how the equivalence point is visually located on the curve."
+      "explanation": "Near equivalence, the weak acid (or the component being consumed) is nearly used up, so the buffering system that kept pH changes gradual is essentially exhausted, and even a tiny additional volume of titrant causes a large pH swing. \"The reaction is now proceeding in reverse\" (choice C) is false — the titration reaction continues in the same forward direction; the steepness reflects the buffer running out, not a reversal. \"The titration has actually failed at this point\" (choice A) is false — this steep rise is the expected, normal signature of reaching the equivalence point, not a failure. \"The steepness has no chemical significance\" (choice B) directly contradicts its actual role: it's precisely how the equivalence point is visually located on the curve."
     },
     {
       "id": "8-63",
@@ -7494,7 +7494,7 @@ const QUESTIONS = {
         "Always exactly equal to the equivalence point pH value."
       ],
       "correct": 1,
-      "explanation": "At the very start (no base added), the solution is simply the original weak acid in water, so its pH comes from a standard weak acid ICE table calculation (as in Unit 8.3), not from anything titration-specific yet. \"Always exactly 7.00\" (choice 1) is false — a weak acid solution is inherently acidic (pH < 7) due to its own dissociation, not neutral. \"Always equal to the equivalence point pH\" (choice 2) is false — the initial pH comes from the weak acid's own equilibrium, while the equivalence point pH comes from the resulting conjugate base's hydrolysis after complete neutralization; these are governed by different chemistry and generally differ. \"Cannot be determined under any circumstances\" (choice 4) is false — it's a completely standard, solvable calculation given Ka and the initial concentration."
+      "explanation": "At the very start (no base added), the solution is simply the original weak acid in water, so its pH comes from a standard weak acid ICE table calculation (as in Unit 8.3), not from anything titration-specific yet. \"Always exactly 7.00\" (choice C) is false — a weak acid solution is inherently acidic (pH < 7) due to its own dissociation, not neutral. \"Always equal to the equivalence point pH\" (choice D) is false — the initial pH comes from the weak acid's own equilibrium, while the equivalence point pH comes from the resulting conjugate base's hydrolysis after complete neutralization; these are governed by different chemistry and generally differ. \"Cannot be determined under any circumstances\" (choice A) is false — it's a completely standard, solvable calculation given Ka and the initial concentration."
     },
     {
       "id": "8-64",
@@ -7507,7 +7507,7 @@ const QUESTIONS = {
         "The unknown acid's equivalence point pH must also be 5.35."
       ],
       "correct": 0,
-      "explanation": "Since pH = pKa exactly at the half-equivalence point, observing pH = 5.35 there directly gives pKa = 5.35 and Ka = 10^(−5.35) = 4.47×10⁻⁶. \"The unknown acid's equivalence point pH must also be 5.35\" (choice 1) confuses the half-equivalence point (governed by the acid's own Ka, via Henderson-Hasselbalch) with the full equivalence point (governed by the conjugate base's hydrolysis, which is a different calculation and is generally above 7, not equal to pKa). \"The unknown acid is a strong acid\" (choice 2) is false — a strong acid dissociates essentially completely and doesn't display the gradual buffering region or a meaningful half-equivalence pH = pKa the way a weak acid does; observing this behavior is itself evidence the acid is weak. \"No information about the acid can be determined from this single data point\" (choice 3) is false — pH = pKa at half-equivalence is a direct, immediately usable relationship."
+      "explanation": "Since pH = pKa exactly at the half-equivalence point, observing pH = 5.35 there directly gives pKa = 5.35 and Ka = 10^(−5.35) = 4.47×10⁻⁶. \"The unknown acid's equivalence point pH must also be 5.35\" (choice D) confuses the half-equivalence point (governed by the acid's own Ka, via Henderson-Hasselbalch) with the full equivalence point (governed by the conjugate base's hydrolysis, which is a different calculation and is generally above 7, not equal to pKa). \"The unknown acid is a strong acid\" (choice B) is false — a strong acid dissociates essentially completely and doesn't display the gradual buffering region or a meaningful half-equivalence pH = pKa the way a weak acid does; observing this behavior is itself evidence the acid is weak. \"No information about the acid can be determined from this single data point\" (choice C) is false — pH = pKa at half-equivalence is a direct, immediately usable relationship."
     },
     {
       "id": "8-65",
@@ -7520,7 +7520,7 @@ const QUESTIONS = {
         "Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid."
       ],
       "correct": 1,
-      "explanation": "A diprotic acid loses its two acidic protons sequentially (governed by Ka₁, then the smaller Ka₂), producing two equivalence points and two half-equivalence points (one pair per acidic proton), revealing pKa₁ and pKa₂ respectively. \"Three equivalence points, since diprotic implies three distinct species\" (choice 1) overcounts — diprotic means two ionizable protons, which produces two equivalence points, not three. \"Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid\" (choice 2) undercounts — it ignores the second, generally weaker ionization step entirely. \"Diprotic acids cannot be titrated using standard methods\" (choice 4) is false — polyprotic titrations are routine and simply show additional equivalence/half-equivalence points compared to monoprotic acids.",
+      "explanation": "A diprotic acid loses its two acidic protons sequentially (governed by Ka₁, then the smaller Ka₂), producing two equivalence points and two half-equivalence points (one pair per acidic proton), revealing pKa₁ and pKa₂ respectively. \"Three equivalence points, since diprotic implies three distinct species\" (choice A) overcounts — diprotic means two ionizable protons, which produces two equivalence points, not three. \"Only one equivalence point and one half-equivalence point, exactly like a monoprotic acid\" (choice D) undercounts — it ignores the second, generally weaker ionization step entirely. \"Diprotic acids cannot be titrated using standard methods\" (choice C) is false — polyprotic titrations are routine and simply show additional equivalence/half-equivalence points compared to monoprotic acids.",
       "stretch": true
     },
     {
@@ -7534,7 +7534,7 @@ const QUESTIONS = {
         "pI = 6.05"
       ],
       "correct": 3,
-      "explanation": "For a simple amino acid, pI is the average of the two flanking pKa values: pI = (2.19 + 9.90)/2 = 6.05. Choice 1 (9.90) is just pKa₂ alone, ignoring pKa₁ entirely. Choice 2 (12.09) is the SUM of the two pKa values (2.19 + 9.90), not their average — the division by 2 was skipped. Choice 4 (2.19) is just pKa₁ alone, ignoring pKa₂ entirely."
+      "explanation": "For a simple amino acid, pI is the average of the two flanking pKa values: pI = (2.19 + 9.90)/2 = 6.05. Choice B (9.90) is just pKa₂ alone, ignoring pKa₁ entirely. Choice C (12.09) is the SUM of the two pKa values (2.19 + 9.90), not their average — the division by 2 was skipped. Choice A (2.19) is just pKa₁ alone, ignoring pKa₂ entirely."
     },
     {
       "id": "8-67",
@@ -7547,7 +7547,7 @@ const QUESTIONS = {
         "A net anion (−1), since pH is above pKa₁."
       ],
       "correct": 2,
-      "explanation": "At pH 7.00 (above pKa₁ = 2.30, below pKa₂ = 9.70), the carboxyl group has lost its proton (−COO⁻) while the amino group has not yet lost its proton (still −NH₃⁺); the two charges cancel to give a net-neutral zwitterion. \"A net anion (−1), since pH is above pKa₁\" (choice 1) accounts for the deprotonated carboxyl group correctly but ignores that the amino group is still protonated (+1) at this pH, which cancels that negative charge. \"Fully neutral with neither group ionized\" (choice 3) is wrong in the opposite way — at pH 7, well above pKa₁, the carboxyl group IS deprotonated, not still in its neutral −COOH form. \"A net cation (+1), since pH is below pKa₂\" (choice 4) accounts for the protonated amino group correctly but ignores that the carboxyl group has already lost its proton by this pH, which cancels that positive charge."
+      "explanation": "At pH 7.00 (above pKa₁ = 2.30, below pKa₂ = 9.70), the carboxyl group has lost its proton (−COO⁻) while the amino group has not yet lost its proton (still −NH₃⁺); the two charges cancel to give a net-neutral zwitterion. \"A net anion (−1), since pH is above pKa₁\" (choice D) accounts for the deprotonated carboxyl group correctly but ignores that the amino group is still protonated (+1) at this pH, which cancels that negative charge. \"Fully neutral with neither group ionized\" (choice B) is wrong in the opposite way — at pH 7, well above pKa₁, the carboxyl group IS deprotonated, not still in its neutral −COOH form. \"A net cation (+1), since pH is below pKa₂\" (choice A) accounts for the protonated amino group correctly but ignores that the carboxyl group has already lost its proton by this pH, which cancels that positive charge."
     },
     {
       "id": "8-76",
@@ -7560,7 +7560,7 @@ const QUESTIONS = {
         "Both curves must be weak acid-strong base titrations, since only weak acids produce titration curves at all."
       ],
       "correct": 0,
-      "explanation": "A weak acid-strong base titration produces a flat buffer-region plateau before equivalence because unreacted weak acid and its newly formed conjugate base coexist and resist pH change (per 8.7–8.9) — that's Curve X. A strong acid-strong base titration (Curve Y) has no weak acid/conjugate base pair at any point, so there is no buffering equilibrium to flatten the curve, and pH rises steeply and continuously from the start until equivalence. \"Curve Y is the weak acid case\" (choice 2) has the two curves backwards, and also misattributes Curve X's plateau to titrant addition rate rather than to buffering chemistry — the plateau is a chemical effect, not a matter of how fast base is added. \"Both curves must be weak acid-strong base titrations\" (choice 3) is false — strong acid-strong base titrations are common and produce a perfectly valid (if differently shaped) curve. \"The plateau appears simply because more titrant was added to that flask\" (choice 4) correctly identifies Curve X as the weak-acid case but gives the wrong reason — the plateau is caused by the buffering equilibrium of the weak acid/conjugate base mixture, not by the amount of titrant added."
+      "explanation": "A weak acid-strong base titration produces a flat buffer-region plateau before equivalence because unreacted weak acid and its newly formed conjugate base coexist and resist pH change (per 8.7–8.9) — that's Curve X. A strong acid-strong base titration (Curve Y) has no weak acid/conjugate base pair at any point, so there is no buffering equilibrium to flatten the curve, and pH rises steeply and continuously from the start until equivalence. \"Curve Y is the weak acid case\" (choice B) has the two curves backwards, and also misattributes Curve X's plateau to titrant addition rate rather than to buffering chemistry — the plateau is a chemical effect, not a matter of how fast base is added. \"Both curves must be weak acid-strong base titrations\" (choice D) is false — strong acid-strong base titrations are common and produce a perfectly valid (if differently shaped) curve. \"The plateau appears simply because more titrant was added to that flask\" (choice C) correctly identifies Curve X as the weak-acid case but gives the wrong reason — the plateau is caused by the buffering equilibrium of the weak acid/conjugate base mixture, not by the amount of titrant added."
     }
   ],
   "9": [

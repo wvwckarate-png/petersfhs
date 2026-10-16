@@ -2488,7 +2488,7 @@ const QUESTIONS = {
           "Passages 2 and 4, since both are formatted as drama."
         ],
         "correct": 2,
-        "explanation": "Passages 3 and 5 share the most similar approach — both using a character's specific, concrete experience (Petra watching Ilana handle uncertainty; Beatrix's unplanned extended stay) to reveal an internal shift not yet fully, consciously articulated. Passage 2 is not a family relationship, so the first option doesn't hold; sharing a drama format (Passages 2 and 4) is a formal similarity, not the specific self-understanding technique the question asks about; and the claim that no two passages share any technique is directly contradicted by the parallel this question is testing."
+        "explanation": "Passages 3 and 5 share the most similar approach — both using a character's specific, concrete experience (Petra watching Ilana handle uncertainty; Beatrix's unplanned extended stay) to reveal an internal shift not yet fully, consciously articulated. Passage 2 is not a family relationship, so choice A doesn't hold; sharing a drama format (Passages 2 and 4) is a formal similarity, not the specific self-understanding technique the question asks about; and the claim that no two passages share any technique is directly contradicted by the parallel this question is testing."
       },
       {
         "id": "1-10",
@@ -2657,7 +2657,7 @@ const QUESTIONS = {
           "Both foil relationships are framed identically as purely negative, unresolved conflicts."
         ],
         "correct": 1,
-        "explanation": "Passage 1's foil contrast (Tomas's action versus Renata's avoidance) remains largely observational and unresolved within the excerpt, while Passage 3's (Petra's planning versus Ilana's adaptability) is explicitly framed as producing mutual growth and reciprocal influence by the excerpt's end. Both passages clearly do contain genuine foil relationships, so the first option is wrong; Passage 3's foil relationship is collaborative rather than antagonistic; and the two are framed differently, not identically."
+        "explanation": "Passage 1's foil contrast (Tomas's action versus Renata's avoidance) remains largely observational and unresolved within the excerpt, while Passage 3's (Petra's planning versus Ilana's adaptability) is explicitly framed as producing mutual growth and reciprocal influence by the excerpt's end. Both passages clearly do contain genuine foil relationships, so choice C is wrong; Passage 3's foil relationship is collaborative rather than antagonistic; and the two are framed differently, not identically."
       },
       {
         "id": "4-12",
@@ -3714,7 +3714,7 @@ const QUESTIONS = {
           "The refrain is primarily a musical device, giving the poem rhythm without connecting meaningfully to its subject -- which the poem's details do not bear out."
         ],
         "correct": 2,
-        "explanation": "The refrain 'The house remembers rain against the glass' returns unchanged at the end of all four stanzas even as the surrounding lines shift -- the storm, what the house 'does not remember' about the silence, the speaker's return, and the final claim the house is 'perhaps, the only thing that does' remember. That constancy formally mirrors the house's mechanical retention against the human uncertainty ('which of us first,' 'not any norm we swore we'd keep') surrounding it. The refrain is not merely musical: its content, not just its sound, is thematically loaded, so option 2 undersells it. A repeated refrain is itself a fixed formal pattern -- the opposite of free verse -- so option 3 misdescribes it. And the speaker is precise about what the house forgets rather than vague about events, so option 4's 'confusion' reading isn't supported."
+        "explanation": "The refrain 'The house remembers rain against the glass' returns unchanged at the end of all four stanzas even as the surrounding lines shift -- the storm, what the house 'does not remember' about the silence, the speaker's return, and the final claim the house is 'perhaps, the only thing that does' remember. That constancy formally mirrors the house's mechanical retention against the human uncertainty ('which of us first,' 'not any norm we swore we'd keep') surrounding it. The refrain is not merely musical: its content, not just its sound, is thematically loaded, so option D undersells it. A repeated refrain is itself a fixed formal pattern -- the opposite of free verse -- so option B misdescribes it. And the speaker is precise about what the house forgets rather than vague about events, so option A's 'confusion' reading isn't supported."
       },
       {
         "id": "1-2",
@@ -3727,7 +3727,7 @@ const QUESTIONS = {
           "The speaker now returns to the house only as a visitor, standing 'outside the door' rather than living there."
         ],
         "correct": 3,
-        "explanation": "The third stanza has the speaker 'go back sometimes, stand outside the door, listening for something closer to the warm particular hush of who we used to be' -- language of visiting and listening from outside, not of current residence, which rules out option 2. 'Who we used to be' implies real prior intimacy with the space, not a single tour, ruling out option 3. Nothing in the poem mentions ownership or tenants, so option 4 is invented. The image instead establishes a former resident now kept at a physical and emotional remove, grounding the poem's abstract memory theme in a concrete present-tense action."
+        "explanation": "The third stanza has the speaker 'go back sometimes, stand outside the door, listening for something closer to the warm particular hush of who we used to be' -- language of visiting and listening from outside, not of current residence, which rules out option C. 'Who we used to be' implies real prior intimacy with the space, not a single tour, ruling out option A. Nothing in the poem mentions ownership or tenants, so option B is invented. The image instead establishes a former resident now kept at a physical and emotional remove, grounding the poem's abstract memory theme in a concrete present-tense action."
       },
       {
         "id": "1-3",
@@ -3740,7 +3740,7 @@ const QUESTIONS = {
           "It functions mainly as a formal transition into the poem's final refrain -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 2,
-        "explanation": "The final stanza's claim that the house is 'perhaps, the only thing that does' remember pointedly contrasts with 'not us, not what we broke, not any norm we swore we'd keep' -- explicitly ranking the house's retention above human memory and relationships, a melancholy asymmetry the refrain's repetition has been building toward. Option 1 misreads the line as self-doubt about facts, when the poem is confident about what it forgets. Option 2 imports a supernatural claim the poem never makes -- 'remembers' is figurative, not literal haunting. Option 4 is true but incomplete: the line does transition into the refrain, but its real work is thematic, not merely structural."
+        "explanation": "The final stanza's claim that the house is 'perhaps, the only thing that does' remember pointedly contrasts with 'not us, not what we broke, not any norm we swore we'd keep' -- explicitly ranking the house's retention above human memory and relationships, a melancholy asymmetry the refrain's repetition has been building toward. Option B misreads the line as self-doubt about facts, when the poem is confident about what it forgets. Option A imports a supernatural claim the poem never makes -- 'remembers' is figurative, not literal haunting. Option D is true but incomplete: the line does transition into the refrain, but its real work is thematic, not merely structural."
       },
       {
         "id": "1-4",
@@ -3753,7 +3753,7 @@ const QUESTIONS = {
           "Yes -- removing the refrain would eliminate the formal enactment of fixed memory that repetition itself provides."
         ],
         "correct": 3,
-        "explanation": "Removing the refrain would strip out the very mechanism -- literal, repeated recurrence -- that lets a reader experience something structurally like the house's own unchanging retention, not just be told about it once. Option 1 notes only a trivial length change and misses the structural loss. Option 2 wrongly assumes refrains are always decorative, contradicted by this unit's Key Idea about form mirroring content. Option 4 overstates the stanzas' independence: without the refrain's exact repetition, the 'sameness' the poem depends on for its effect disappears, since each stanza's other content actually varies."
+        "explanation": "Removing the refrain would strip out the very mechanism -- literal, repeated recurrence -- that lets a reader experience something structurally like the house's own unchanging retention, not just be told about it once. Option C notes only a trivial length change and misses the structural loss. Option B wrongly assumes refrains are always decorative, contradicted by this unit's Key Idea about form mirroring content. Option A overstates the stanzas' independence: without the refrain's exact repetition, the 'sameness' the poem depends on for its effect disappears, since each stanza's other content actually varies."
       },
       {
         "id": "1-5",
@@ -3766,7 +3766,7 @@ const QUESTIONS = {
           "A strict Shakespearean sonnet, since the poem develops a single sustained argument -- not what the poem's own language shows."
         ],
         "correct": 2,
-        "explanation": "Four-line stanzas that each close on the identical refrain line resemble a villanelle's refrain-based repetition, and that repetition specifically reinforces the poem's concern with fixed, unchanging memory -- exactly what Section 5.1 says matters more than exact classification. Option 1 denies a relationship that clearly exists. Option 2 ignores that end-rhyme is irrelevant to whether a poem has formal pattern; the refrain itself is a strong formal pattern, so 'free verse' misdescribes it. Option 4 is factually wrong: the poem has sixteen lines in four quatrains, not fourteen lines, and doesn't follow sonnet structure."
+        "explanation": "Four-line stanzas that each close on the identical refrain line resemble a villanelle's refrain-based repetition, and that repetition specifically reinforces the poem's concern with fixed, unchanging memory -- exactly what Section 5.1 says matters more than exact classification. Option A denies a relationship that clearly exists. Option B ignores that end-rhyme is irrelevant to whether a poem has formal pattern; the refrain itself is a strong formal pattern, so 'free verse' misdescribes it. Option D is factually wrong: the poem has sixteen lines in four quatrains, not fourteen lines, and doesn't follow sonnet structure."
       },
       {
         "id": "2-1",
@@ -3779,7 +3779,7 @@ const QUESTIONS = {
           "Literal dialogue between the speaker and another person actually present in the room -- which the poem's details do not bear out."
         ],
         "correct": 2,
-        "explanation": "The poem addresses 'you' throughout while that 'you' is an empty chair -- the definition of apostrophe, a direct address to something incapable of actually responding. Option 2 is factually wrong: no second person is present, only the chair. Option 3 misapplies dramatic irony, which requires a gap between reader and character knowledge; here reader and speaker both understand the situation identically. Option 4 is also factually wrong -- the poem never compares the chair to a different object using 'like' or 'as'; it addresses the chair itself directly."
+        "explanation": "The poem addresses 'you' throughout while that 'you' is an empty chair -- the definition of apostrophe, a direct address to something incapable of actually responding. Option D is factually wrong: no second person is present, only the chair. Option A misapplies dramatic irony, which requires a gap between reader and character knowledge; here reader and speaker both understand the situation identically. Option B is also factually wrong -- the poem never compares the chair to a different object using 'like' or 'as'; it addresses the chair itself directly."
       },
       {
         "id": "2-2",
@@ -3792,7 +3792,7 @@ const QUESTIONS = {
           "That the speaker has never experienced any real loss, and the chair is simply spare furniture -- which the poem's details do not bear out."
         ],
         "correct": 0,
-        "explanation": "The repeated ritual of setting a plate 'out of habit' and 'quietly' removing it before dinner, paired with direct address to the chair, points to grief that is ongoing and unresolved rather than either freshly raw or fully resolved -- an in-between state apostrophe makes addressable. Option 1 is directly contradicted by three years of ritual behavior implying real, sustained loss. Option 2 invents an intention the poem never states -- the speaker gives the chair no expiration date. Option 4 overstates resolution; the poem's final lines explicitly admit the speaker 'just haven't found the word for it yet,' the opposite of having moved past it."
+        "explanation": "The repeated ritual of setting a plate 'out of habit' and 'quietly' removing it before dinner, paired with direct address to the chair, points to grief that is ongoing and unresolved rather than either freshly raw or fully resolved -- an in-between state apostrophe makes addressable. Option D is directly contradicted by three years of ritual behavior implying real, sustained loss. Option B invents an intention the poem never states -- the speaker gives the chair no expiration date. Option C overstates resolution; the poem's final lines explicitly admit the speaker 'just haven't found the word for it yet,' the opposite of having moved past it."
       },
       {
         "id": "2-3",
@@ -3805,7 +3805,7 @@ const QUESTIONS = {
           "This line extends the apostrophe's personification (attributing patience) while 'thing I own' pointedly reminds the reader the chair is an object."
         ],
         "correct": 3,
-        "explanation": "'Patient' personifies the chair with a human quality, while 'thing I own' in the same sentence reasserts its status as mere property -- the poem holding both truths (addressed almost as a person, acknowledged as an object) at once. Option 1 gets the relationship backward: the line extends rather than undercuts the technique established earlier. Option 2 invents a regret about purchase the poem never mentions -- there's no reference to buying the chair at all. Option 4 misreads the tone; nothing in the line or its context signals humor, and it sits within the poem's consistently reflective, grief-laden register."
+        "explanation": "'Patient' personifies the chair with a human quality, while 'thing I own' in the same sentence reasserts its status as mere property -- the poem holding both truths (addressed almost as a person, acknowledged as an object) at once. Option A gets the relationship backward: the line extends rather than undercuts the technique established earlier. Option C invents a regret about purchase the poem never mentions -- there's no reference to buying the chair at all. Option B misreads the tone; nothing in the line or its context signals humor, and it sits within the poem's consistently reflective, grief-laden register."
       },
       {
         "id": "2-4",
@@ -3818,7 +3818,7 @@ const QUESTIONS = {
           "It suggests the speaker has decided grief can never be discussed by anyone at all -- which the poem's details do not bear out."
         ],
         "correct": 2,
-        "explanation": "'I just haven't found the word for it yet' explicitly frames the ending as an open, ongoing search rather than an arrival at understanding, consistent with the whole poem's stance of approaching rather than resolving its grief. Option 2 overgeneralizes a personal admission into a universal claim the line doesn't make. Option 3 finds a contradiction where there isn't one -- calling the chair patient and admitting the feeling is still unnamed are fully compatible. Option 4 states the literal opposite of what 'yet' signals: the search is unfinished, not completed."
+        "explanation": "'I just haven't found the word for it yet' explicitly frames the ending as an open, ongoing search rather than an arrival at understanding, consistent with the whole poem's stance of approaching rather than resolving its grief. Option D overgeneralizes a personal admission into a universal claim the line doesn't make. Option B finds a contradiction where there isn't one -- calling the chair patient and admitting the feeling is still unnamed are fully compatible. Option A states the literal opposite of what 'yet' signals: the search is unfinished, not completed."
       },
       {
         "id": "2-5",
@@ -3831,7 +3831,7 @@ const QUESTIONS = {
           "Passage 2 uses no figurative language at all, unlike Passage 1 -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "The two poems share related territory -- what persists after a relationship ends -- but reach it through genuinely different formal approaches: Passage 1's refrain-driven description versus Passage 2's sustained direct address. Option 1 flattens a real distinction the two poems' techniques clearly show. Option 2 is contradicted by Passage 2's own subject matter, which is centrally about absence and loss. Option 3 is factually wrong: personification of the chair throughout is itself figurative language."
+        "explanation": "The two poems share related territory -- what persists after a relationship ends -- but reach it through genuinely different formal approaches: Passage 1's refrain-driven description versus Passage 2's sustained direct address. Option B flattens a real distinction the two poems' techniques clearly show. Option C is contradicted by Passage 2's own subject matter, which is centrally about absence and loss. Option D is factually wrong: personification of the chair throughout is itself figurative language."
       },
       {
         "id": "3-1",
@@ -3844,7 +3844,7 @@ const QUESTIONS = {
           "No sustained conceit is actually present in this poem -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 1,
-        "explanation": "The poem opens with 'clear skies' as easy mornings and develops the weather vehicle through storm fronts, barometric pressure, and satellite imagery, all mapped onto the marriage -- the defining move of a conceit. Option 2 names a vehicle (a journey) the poem never actually uses. Option 3 denies the poem's most obvious formal feature, sustained across all four stanzas. Option 4 invents a competitive, win/lose framing nothing in the poem supports; the tone is cooperative throughout ('we have learned... to read each other's')."
+        "explanation": "The poem opens with 'clear skies' as easy mornings and develops the weather vehicle through storm fronts, barometric pressure, and satellite imagery, all mapped onto the marriage -- the defining move of a conceit. Option A names a vehicle (a journey) the poem never actually uses. Option D denies the poem's most obvious formal feature, sustained across all four stanzas. Option C invents a competitive, win/lose framing nothing in the poem supports; the tone is cooperative throughout ('we have learned... to read each other's')."
       },
       {
         "id": "3-2",
@@ -3857,7 +3857,7 @@ const QUESTIONS = {
           "The poem's points of correspondence contradict each other from stanza to stanza -- which the poem's details do not bear out."
         ],
         "correct": 2,
-        "explanation": "Each of the poem's four stanzas adds a new correspondence -- easy clear-sky days, storm fronts triggered by unapologized words, learned 'satellite' reading of each other, and finally valuing the unremarkable forecast -- exactly the multi-point development Section 5.3 identifies as a conceit's source of power. Option 1 finds contradiction where the points instead build cumulatively. Option 2 is factually wrong -- the weather comparison runs through all four stanzas, not just the first. Option 4 undercounts a conceit that develops through several distinct, separate points."
+        "explanation": "Each of the poem's four stanzas adds a new correspondence -- easy clear-sky days, storm fronts triggered by unapologized words, learned 'satellite' reading of each other, and finally valuing the unremarkable forecast -- exactly the multi-point development Section 5.3 identifies as a conceit's source of power. Option D finds contradiction where the points instead build cumulatively. Option A is factually wrong -- the weather comparison runs through all four stanzas, not just the first. Option B undercounts a conceit that develops through several distinct, separate points."
       },
       {
         "id": "3-3",
@@ -3870,7 +3870,7 @@ const QUESTIONS = {
           "It contradicts the poem's central conceit about marriage and weather -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 1,
-        "explanation": "'Barometric pressure of the whole kitchen dropping' takes an abstract meteorological term and locates it in a specific, lived-in domestic space, connecting the conceit's abstract vehicle to concrete daily experience. Option 1 dismisses a detail that does real figurative work within the established conceit. Option 3 takes the metaphor literally, missing that the poem is about marital tension, not actual indoor weather. Option 4 misreads an extension of the conceit as a break from it; the detail is fully consistent with the poem's established comparison."
+        "explanation": "'Barometric pressure of the whole kitchen dropping' takes an abstract meteorological term and locates it in a specific, lived-in domestic space, connecting the conceit's abstract vehicle to concrete daily experience. Option C dismisses a detail that does real figurative work within the established conceit. Option A takes the metaphor literally, missing that the poem is about marital tension, not actual indoor weather. Option D misreads an extension of the conceit as a break from it; the detail is fully consistent with the poem's established comparison."
       },
       {
         "id": "3-4",
@@ -3883,7 +3883,7 @@ const QUESTIONS = {
           "It suggests the relationship has grown boring and the speaker wants change -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "By distinguishing 'unremarkable' days from the earlier 'clear skies' (which the poem defines by contrast with storms), the final stanza pushes the conceit toward a subtler, hard-won insight: stability so complete it doesn't even register as good weather. Option 2 states the reverse of the stanza's explicit preference ('I have come to trust those most'). Option 3 misreads a natural extension of the conceit as a break from it. Option 4 misreads valued stability as unwanted boredom, which the affirmative, trusting tone of 'I have come to trust those most' directly contradicts."
+        "explanation": "By distinguishing 'unremarkable' days from the earlier 'clear skies' (which the poem defines by contrast with storms), the final stanza pushes the conceit toward a subtler, hard-won insight: stability so complete it doesn't even register as good weather. Option B states the reverse of the stanza's explicit preference ('I have come to trust those most'). Option C misreads a natural extension of the conceit as a break from it. Option D misreads valued stability as unwanted boredom, which the affirmative, trusting tone of 'I have come to trust those most' directly contradicts."
       },
       {
         "id": "3-5",
@@ -3896,7 +3896,7 @@ const QUESTIONS = {
           "Weather only relates to the negative, stormy aspects of a relationship, not the positive ones -- not what the poem's own language shows."
         ],
         "correct": 1,
-        "explanation": "Weather recurs, shifts unpredictably, and requires ongoing attention rather than one-time achievement -- qualities that match marriage's lived texture better than a destination-based vehicle like a journey would. Option 1 dismisses a choice the poem's own sustained, multi-point development treats as deliberate and apt. Option 3 denies a distinction the poem's specific correspondences (recurring, monitored, unpredictable) actually support. Option 4 is contradicted by the poem's explicit inclusion of 'clear skies' and unremarkable, positively-valued forecasts."
+        "explanation": "Weather recurs, shifts unpredictably, and requires ongoing attention rather than one-time achievement -- qualities that match marriage's lived texture better than a destination-based vehicle like a journey would. Option A dismisses a choice the poem's own sustained, multi-point development treats as deliberate and apt. Option C denies a distinction the poem's specific correspondences (recurring, monitored, unpredictable) actually support. Option D is contradicted by the poem's explicit inclusion of 'clear skies' and unremarkable, positively-valued forecasts."
       },
       {
         "id": "4-1",
@@ -3909,7 +3909,7 @@ const QUESTIONS = {
           "The poem's use of a strict, regular rhyme scheme -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 0,
-        "explanation": "The poem repeatedly raises and never settles whether the knocking is 'the wind' or the returning person, ending on explicit, named uncertainty rather than confusion from unclear language -- exactly the deliberate ambiguity Section 5.4 distinguishes from vagueness. Option 1 names a genuinely unspecified detail (location) that isn't the source of the poem's central ambiguity. Option 2 is factually wrong -- the poem has no consistent rhyme scheme. Option 4 is also factually wrong; the poem is written in first person about a 'you' referenced only occasionally, not sustained second-person address throughout."
+        "explanation": "The poem repeatedly raises and never settles whether the knocking is 'the wind' or the returning person, ending on explicit, named uncertainty rather than confusion from unclear language -- exactly the deliberate ambiguity Section 5.4 distinguishes from vagueness. Option C names a genuinely unspecified detail (location) that isn't the source of the poem's central ambiguity. Option D is factually wrong -- the poem has no consistent rhyme scheme. Option B is also factually wrong; the poem is written in first person about a 'you' referenced only occasionally, not sustained second-person address throughout."
       },
       {
         "id": "4-2",
@@ -3922,7 +3922,7 @@ const QUESTIONS = {
           "The poem only supports readings involving actual supernatural or ghostly visitation -- an overreading of a minor detail."
         ],
         "correct": 1,
-        "explanation": "The poem's own uncertainty -- between the specific, remembered knock-code and the mundane possibility of wind -- supports both a genuine-return reading and a self-constructed-narrative reading, each grounded in specific textual details. Option 1 overextends genuine ambiguity into an 'anything goes' claim the text-supported approach of Section 5.4 explicitly rejects. Option 3 narrows the readings to a supernatural frame the poem never actually asserts. Option 4 denies the very multiplicity the poem's own unresolved ending establishes."
+        "explanation": "The poem's own uncertainty -- between the specific, remembered knock-code and the mundane possibility of wind -- supports both a genuine-return reading and a self-constructed-narrative reading, each grounded in specific textual details. Option C overextends genuine ambiguity into an 'anything goes' claim the text-supported approach of Section 5.4 explicitly rejects. Option D narrows the readings to a supernatural frame the poem never actually asserts. Option A denies the very multiplicity the poem's own unresolved ending establishes."
       },
       {
         "id": "4-3",
@@ -3935,7 +3935,7 @@ const QUESTIONS = {
           "It resolves the poem's ambiguity by confirming the knocking is real -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 0,
-        "explanation": "The specific 'two short, one long' code raises the stakes of the genuine-return reading -- wind wouldn't reproduce a remembered pattern -- yet the poem still treats the situation as unresolved rather than settled, heightening rather than closing the ambiguity. Option 2 misreads heightened stakes as contradiction rather than coexistence with the wind explanation. Option 3 overstates the detail's effect; the poem explicitly continues to waver afterward rather than confirming anything. Option 4 dismisses a detail that is directly relevant to the central uncertainty."
+        "explanation": "The specific 'two short, one long' code raises the stakes of the genuine-return reading -- wind wouldn't reproduce a remembered pattern -- yet the poem still treats the situation as unresolved rather than settled, heightening rather than closing the ambiguity. Option B misreads heightened stakes as contradiction rather than coexistence with the wind explanation. Option D overstates the detail's effect; the poem explicitly continues to waver afterward rather than confirming anything. Option C dismisses a detail that is directly relevant to the central uncertainty."
       },
       {
         "id": "4-4",
@@ -3948,7 +3948,7 @@ const QUESTIONS = {
           "It suggests the speaker has definitively concluded no one was ever at the door -- a reading the poem's own specific details do not actually support."
         ],
         "correct": 0,
-        "explanation": "The final lines directly state the speaker's uncertainty about which fear ('a stranger' or discovering 'no one was ever there at all') is being protected against -- naming the ambiguity outright as the poem's closing move rather than resolving it. Option 1 misreads a stated uncertainty as a stated conclusion. Option 2 is contradicted by how consistently the poem has built toward exactly this unresolved ending throughout. Option 4 states the opposite of what the explicitly unresolved final lines accomplish."
+        "explanation": "The final lines directly state the speaker's uncertainty about which fear ('a stranger' or discovering 'no one was ever there at all') is being protected against -- naming the ambiguity outright as the poem's closing move rather than resolving it. Option D misreads a stated uncertainty as a stated conclusion. Option C is contradicted by how consistently the poem has built toward exactly this unresolved ending throughout. Option B states the opposite of what the explicitly unresolved final lines accomplish."
       },
       {
         "id": "4-5",
@@ -3961,7 +3961,7 @@ const QUESTIONS = {
           "No, because this poem actually has no valid readings at all -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "Because the poem's ambiguity is itself the point -- named directly in its own final lines -- analysis that settles on only one reading would miss the deliberate technique the poem is built around. Option 1 mistakes partial analysis for complete analysis. Option 3 asserts a general rule about all poems that this unit's Section 5.4 specifically argues against for deliberately ambiguous poems. Option 4 overcorrects into denying any valid reading exists, when the poem clearly supports at least two, well-grounded in its language."
+        "explanation": "Because the poem's ambiguity is itself the point -- named directly in its own final lines -- analysis that settles on only one reading would miss the deliberate technique the poem is built around. Option C mistakes partial analysis for complete analysis. Option B asserts a general rule about all poems that this unit's Section 5.4 specifically argues against for deliberately ambiguous poems. Option D overcorrects into denying any valid reading exists, when the poem clearly supports at least two, well-grounded in its language."
       },
       {
         "id": "5-1",
@@ -3974,7 +3974,7 @@ const QUESTIONS = {
           "An allusion to a specific contemporary news event -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 2,
-        "explanation": "The title 'Icarus, Revised' and details like the sun, the wax, and the fall directly invoke the Greek myth of Icarus, traditionally read as a warning about ambition. Option 1 denies an allusion the title and content both make explicit. Option 2 misidentifies the source as a battle, which nothing in the poem describes. Option 4 misidentifies the source as contemporary, when every detail (wax wings, the sun, flight) points to the ancient myth specifically."
+        "explanation": "The title 'Icarus, Revised' and details like the sun, the wax, and the fall directly invoke the Greek myth of Icarus, traditionally read as a warning about ambition. Option B denies an allusion the title and content both make explicit. Option A misidentifies the source as a battle, which nothing in the poem describes. Option D misidentifies the source as contemporary, when every detail (wax wings, the sun, flight) points to the ancient myth specifically."
       },
       {
         "id": "5-2",
@@ -3987,7 +3987,7 @@ const QUESTIONS = {
           "'Revised' signals that this poem will reinterpret or complicate the myth's traditional cautionary reading."
         ],
         "correct": 3,
-        "explanation": "'Revised' is a direct signal of reinterpretation, and the poem delivers on that signal by arguing the traditional moral overlooks the value of the flight itself. Option 1 states the opposite of what 'revised' announces -- a departure from, not a faithful retelling of, tradition. Option 3 denies a title-content relationship the poem's whole argument confirms. Option 4 mischaracterizes the poem's genuinely personal, reflective tone as scholarly analysis, which its conversational first-person voice doesn't support."
+        "explanation": "'Revised' is a direct signal of reinterpretation, and the poem delivers on that signal by arguing the traditional moral overlooks the value of the flight itself. Option C states the opposite of what 'revised' announces -- a departure from, not a faithful retelling of, tradition. Option A denies a title-content relationship the poem's whole argument confirms. Option B mischaracterizes the poem's genuinely personal, reflective tone as scholarly analysis, which its conversational first-person voice doesn't support."
       },
       {
         "id": "5-3",
@@ -4000,7 +4000,7 @@ const QUESTIONS = {
           "The poem fully endorses the traditional interpretation with no reconsideration at all -- an overreading of a minor detail."
         ],
         "correct": 0,
-        "explanation": "The poem's second stanza explicitly names what the traditional warning 'leaves out' -- the felt experience of flying -- and builds its whole argument around that omission. Option 1 invents a claim about engineering the poem never makes. Option 3 contradicts the title's own signal of revision and the poem's explicit critique of the traditional moral. Option 4 references Icarus's father, who never appears in this poem at all."
+        "explanation": "The poem's second stanza explicitly names what the traditional warning 'leaves out' -- the felt experience of flying -- and builds its whole argument around that omission. Option C invents a claim about engineering the poem never makes. Option D contradicts the title's own signal of revision and the poem's explicit critique of the traditional moral. Option B references Icarus's father, who never appears in this poem at all."
       },
       {
         "id": "5-4",
@@ -4013,7 +4013,7 @@ const QUESTIONS = {
           "This claim extends the allusion beyond Icarus specifically to a universal human condition."
         ],
         "correct": 3,
-        "explanation": "By claiming falling 'happens to everyone... whether or not they ever once, even briefly, flew,' the poem generalizes the myth's specific fall into a universal condition, supporting its argument that the risk of flying may be worth taking since the fall is coming regardless. Option 1 misses that this move revises, rather than simply repeats, the traditional warning. Option 3 states the opposite of the line's actual claim, which is that falling happens to everyone, ambitious or not. Option 4 misreads a culminating extension of the poem's argument as a break from it."
+        "explanation": "By claiming falling 'happens to everyone... whether or not they ever once, even briefly, flew,' the poem generalizes the myth's specific fall into a universal condition, supporting its argument that the risk of flying may be worth taking since the fall is coming regardless. Option C misses that this move revises, rather than simply repeats, the traditional warning. Option A states the opposite of the line's actual claim, which is that falling happens to everyone, ambitious or not. Option B misreads a culminating extension of the poem's argument as a break from it."
       },
       {
         "id": "5-5",
@@ -4026,7 +4026,7 @@ const QUESTIONS = {
           "Largely yes -- the poem provides enough context (wax melting, flying too close to the sun."
         ],
         "correct": 3,
-        "explanation": "The poem restates the key facts of the myth (wax melting, flying too close to the sun) and its traditional moral directly in its own lines, giving an unfamiliar reader enough to follow the argument -- consistent with Section 5.5's point that this exam doesn't require specialized outside expertise. Option 1 is contradicted by the title and content's clear dependence on the myth. Option 3 vastly overstates the background knowledge actually required. Option 4 ignores the substantial context the poem itself provides."
+        "explanation": "The poem restates the key facts of the myth (wax melting, flying too close to the sun) and its traditional moral directly in its own lines, giving an unfamiliar reader enough to follow the argument -- consistent with Section 5.5's point that this exam doesn't require specialized outside expertise. Option A is contradicted by the title and content's clear dependence on the myth. Option B vastly overstates the background knowledge actually required. Option C ignores the substantial context the poem itself provides."
       },
       {
         "id": "1-6",
@@ -4039,7 +4039,7 @@ const QUESTIONS = {
           "This transition marks the poem's only use of a rhymed couplet -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "The line 'particular hush of who we used to be' completes its thought right where the refrain resumes, so the search for a fading human feeling gives way, without a stanza break disrupting it, to the refrain's fixed claim -- form enacting the poem's argument that memory's unreliability contrasts with the house's persistence. Option 1 and option 2 both deny a connection this smooth transition clearly supports. Option 4 is a factual error: the poem has no rhyme scheme to speak of, let alone a rhymed couplet at this or any point."
+        "explanation": "The line 'particular hush of who we used to be' completes its thought right where the refrain resumes, so the search for a fading human feeling gives way, without a stanza break disrupting it, to the refrain's fixed claim -- form enacting the poem's argument that memory's unreliability contrasts with the house's persistence. Option B and option C both deny a connection this smooth transition clearly supports. Option D is a factual error: the poem has no rhyme scheme to speak of, let alone a rhymed couplet at this or any point."
       },
       {
         "id": "2-6",
@@ -4052,7 +4052,7 @@ const QUESTIONS = {
           "The title suggests the poem is a literal letter meant to be left on the chair -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 2,
-        "explanation": "'To the Empty Chair' uses the preposition 'To' the way a letter's addressee line would, announcing direct address before a single line of the poem's body appears -- the title performing the same apostrophic gesture the poem's content then sustains. Option 2 misses this clear framing function. Option 3 gets the relationship backward: the title is consistent with, not contradictory to, the poem's sustained second-person address. Option 4 overinterprets a conventional titling gesture as a literal claim about the poem's physical form, which nothing in the text supports."
+        "explanation": "'To the Empty Chair' uses the preposition 'To' the way a letter's addressee line would, announcing direct address before a single line of the poem's body appears -- the title performing the same apostrophic gesture the poem's content then sustains. Option A misses this clear framing function. Option B gets the relationship backward: the title is consistent with, not contradictory to, the poem's sustained second-person address. Option D overinterprets a conventional titling gesture as a literal claim about the poem's physical form, which nothing in the text supports."
       },
       {
         "id": "3-6",
@@ -4065,7 +4065,7 @@ const QUESTIONS = {
           "A strict, unbroken formal rhyme scheme -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 1,
-        "explanation": "Passage 3's whole four-stanza structure exists to develop the weather comparison, making extended conceit (Section 5.3) its central, load-bearing technique. Option 1 is wrong because the poem references no outside myth, text, or historical event. Option 3 is factually wrong -- the poem has no consistent rhyme scheme. Option 4 is wrong because the poem describes the marriage in first-person-plural narration rather than addressing an abstraction directly the way apostrophe requires."
+        "explanation": "Passage 3's whole four-stanza structure exists to develop the weather comparison, making extended conceit (Section 5.3) its central, load-bearing technique. Option C is wrong because the poem references no outside myth, text, or historical event. Option D is factually wrong -- the poem has no consistent rhyme scheme. Option A is wrong because the poem describes the marriage in first-person-plural narration rather than addressing an abstraction directly the way apostrophe requires."
       },
       {
         "id": "4-6",
@@ -4078,7 +4078,7 @@ const QUESTIONS = {
           "A strict, regular meter maintained consistently throughout the poem -- a reading the poem's own specific details do not actually support."
         ],
         "correct": 1,
-        "explanation": "Passage 4's entire effect rests on sustained, unresolved uncertainty, making deliberate ambiguity (Section 5.4) its clearest central technique. Option 1 is factually wrong -- the poem doesn't maintain a strict, regular meter. Option 3 is wrong because the poem makes no extended, elaborated comparison between two unlike things; it's a direct narrative account, not a conceit. Option 4 is wrong because the poem references no outside myth, text, or historical figure."
+        "explanation": "Passage 4's entire effect rests on sustained, unresolved uncertainty, making deliberate ambiguity (Section 5.4) its clearest central technique. Option D is factually wrong -- the poem doesn't maintain a strict, regular meter. Option C is wrong because the poem makes no extended, elaborated comparison between two unlike things; it's a direct narrative account, not a conceit. Option A is wrong because the poem references no outside myth, text, or historical figure."
       },
       {
         "id": "5-6",
@@ -4091,7 +4091,7 @@ const QUESTIONS = {
           "A single sustained conceit unrelated to any external reference -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 2,
-        "explanation": "Passage 5's argument only works because it engages the Icarus myth's traditional meaning and revises it, making allusion (Section 5.5) its clearest central technique. Option 2 is factually wrong -- the poem has no consistent rhyme scheme. Option 3 misdescribes the poem's central move: its comparison relies specifically on an external myth, which contradicts 'unrelated to any external reference.' Option 4 is wrong because the poem reflects on the myth in first person rather than directly addressing an abstraction."
+        "explanation": "Passage 5's argument only works because it engages the Icarus myth's traditional meaning and revises it, making allusion (Section 5.5) its clearest central technique. Option B is factually wrong -- the poem has no consistent rhyme scheme. Option D misdescribes the poem's central move: its comparison relies specifically on an external myth, which contradicts 'unrelated to any external reference.' Option A is wrong because the poem reflects on the myth in first person rather than directly addressing an abstraction."
       },
       {
         "id": "1-7",
@@ -4104,7 +4104,7 @@ const QUESTIONS = {
           "Poetic form -- specifically the refrain's structural relationship to the poem's concern with fixed, unchanging memory."
         ],
         "correct": 3,
-        "explanation": "Passage 1's entire structure organizes itself around the repeated refrain, making poetic form (Section 5.1) its central technique. Option 2 is wrong because the poem builds no extended, developed comparison between two unlike things -- it's literal description, not a conceit. Option 3 is wrong because the poem is quite direct about what the house does and doesn't remember; nothing about the central event is left genuinely uncertain the way Passage 4's knocking is. Option 4 is wrong because the poem references no outside text, myth, or figure at all."
+        "explanation": "Passage 1's entire structure organizes itself around the repeated refrain, making poetic form (Section 5.1) its central technique. Option A is wrong because the poem builds no extended, developed comparison between two unlike things -- it's literal description, not a conceit. Option B is wrong because the poem is quite direct about what the house does and doesn't remember; nothing about the central event is left genuinely uncertain the way Passage 4's knocking is. Option C is wrong because the poem references no outside text, myth, or figure at all."
       },
       {
         "id": "2-7",
@@ -4117,7 +4117,7 @@ const QUESTIONS = {
           "Apostrophe -- the poem's entire structure and effect depend on sustained direct address to an inanimate object."
         ],
         "correct": 3,
-        "explanation": "Passage 2's whole three-stanza structure is organized around addressing the chair directly, making apostrophe (Section 5.2) its clearest central technique. Option 2 is wrong because the poem references no outside myth, text, or historical figure. Option 3 is factually wrong -- the poem has no consistent rhyme scheme at all. Option 4 is wrong because the poem makes no extended comparison between the chair and something unlike it; the chair is addressed as itself, which is apostrophe, not conceit."
+        "explanation": "Passage 2's whole three-stanza structure is organized around addressing the chair directly, making apostrophe (Section 5.2) its clearest central technique. Option A is wrong because the poem references no outside myth, text, or historical figure. Option B is factually wrong -- the poem has no consistent rhyme scheme at all. Option C is wrong because the poem makes no extended comparison between the chair and something unlike it; the chair is addressed as itself, which is apostrophe, not conceit."
       },
       {
         "id": "1-8",
@@ -4130,7 +4130,7 @@ const QUESTIONS = {
           "'Remembers' personifies the house with a human, cognitive process, making its retention feel active rather than simple passive containment."
         ],
         "correct": 3,
-        "explanation": "Choosing 'remembers' over a neutral verb like 'contains' or 'holds' attributes an active, human cognitive process to an inanimate structure, reinforcing the poem's implicit comparison between the house's 'memory' and the more fallible human memory it's set against. Option 2 dismisses a word choice the poem repeats eight times as arbitrary, which its consistent, load-bearing use across the whole poem contradicts. Option 3 reads a literal supernatural claim into what is clearly figurative personification. Option 4 misreads a complement, not a contradiction: the house remembering rain while failing to hold 'why we stopped talking' is precisely the poem's point about selective, partial retention."
+        "explanation": "Choosing 'remembers' over a neutral verb like 'contains' or 'holds' attributes an active, human cognitive process to an inanimate structure, reinforcing the poem's implicit comparison between the house's 'memory' and the more fallible human memory it's set against. Option B dismisses a word choice the poem repeats eight times as arbitrary, which its consistent, load-bearing use across the whole poem contradicts. Option C reads a literal supernatural claim into what is clearly figurative personification. Option A misreads a complement, not a contradiction: the house remembering rain while failing to hold 'why we stopped talking' is precisely the poem's point about selective, partial retention."
       },
       {
         "id": "2-8",
@@ -4143,7 +4143,7 @@ const QUESTIONS = {
           "The structure moves from external ritual, through internal reasoning, to a final honest admission of incomplete understanding."
         ],
         "correct": 3,
-        "explanation": "Stanza one describes the plate-setting ritual, stanza two reasons through believing the chair 'can't actually be uncomfortable,' and stanza three ends on the admission of not yet having 'found the word' -- a clear arc from external behavior through internal rationalization to honest uncertainty. Option 2 denies real, traceable development the content clearly shows. Option 3 misreads compatibility as contradiction; the apostrophe continues consistently across all three stanzas. Option 4 dismisses a structural progression the poem's own content maps directly onto."
+        "explanation": "Stanza one describes the plate-setting ritual, stanza two reasons through believing the chair 'can't actually be uncomfortable,' and stanza three ends on the admission of not yet having 'found the word' -- a clear arc from external behavior through internal rationalization to honest uncertainty. Option C denies real, traceable development the content clearly shows. Option A misreads compatibility as contradiction; the apostrophe continues consistently across all three stanzas. Option B dismisses a structural progression the poem's own content maps directly onto."
       },
       {
         "id": "3-7",
@@ -4156,7 +4156,7 @@ const QUESTIONS = {
           "The plural framing directly contradicts the poem's central conceit -- a reading the poem's own specific details do not actually support."
         ],
         "correct": 2,
-        "explanation": "'We' and 'us' run throughout the poem ('we wake up,' 'we have learned... to read each other's'), presenting the relationship as co-created rather than one person observing or judging the other -- reinforcing the conceit's implication that both partners contribute to the marriage's 'weather.' Option 2 misreads a supportive framing choice as a contradiction of the conceit it actually reinforces. Option 3 dismisses a consistent, deliberate narrative choice running through every stanza. Option 4 overreads 'we' as necessarily implying more than two people, when it's standard usage for a couple."
+        "explanation": "'We' and 'us' run throughout the poem ('we wake up,' 'we have learned... to read each other's'), presenting the relationship as co-created rather than one person observing or judging the other -- reinforcing the conceit's implication that both partners contribute to the marriage's 'weather.' Option D misreads a supportive framing choice as a contradiction of the conceit it actually reinforces. Option A dismisses a consistent, deliberate narrative choice running through every stanza. Option B overreads 'we' as necessarily implying more than two people, when it's standard usage for a couple."
       },
       {
         "id": "4-7",
@@ -4169,7 +4169,7 @@ const QUESTIONS = {
           "The tense shift resolves the poem's central ambiguity definitively -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 1,
-        "explanation": "Moving from 'Someone knocked... I didn't answer' to 'Some nights the knocking comes back' extends a single incident into an ongoing pattern, showing the uncertainty isn't confined to one night but continues as an unresolved condition. Option 1 misreads a deliberate structural shift as an accidental error. Option 3 states the opposite effect; the shift deepens rather than resolves the ambiguity. Option 4 dismisses a shift that clearly changes the poem's temporal and thematic scope."
+        "explanation": "Moving from 'Someone knocked... I didn't answer' to 'Some nights the knocking comes back' extends a single incident into an ongoing pattern, showing the uncertainty isn't confined to one night but continues as an unresolved condition. Option A misreads a deliberate structural shift as an accidental error. Option D states the opposite effect; the shift deepens rather than resolves the ambiguity. Option C dismisses a shift that clearly changes the poem's temporal and thematic scope."
       },
       {
         "id": "5-7",
@@ -4182,7 +4182,7 @@ const QUESTIONS = {
           "This direct, conversational, self-aware tone creates distance from a purely academic engagement with the myth, framing the poem's revisionist argument as a genuine."
         ],
         "correct": 3,
-        "explanation": "'I think about this more than I probably should' is informal, self-aware, and personal, making the myth's revision feel like a lived preoccupation rather than a detached scholarly point. Option 1 misreads self-aware reflection as disapproval, when the tone instead signals genuine engagement. Option 2 dismisses a tonal choice that shapes how the whole argument lands. Option 3 finds contradiction where the conversational tone instead reinforces the poem's central, personally-stakes-raising argument about risk."
+        "explanation": "'I think about this more than I probably should' is informal, self-aware, and personal, making the myth's revision feel like a lived preoccupation rather than a detached scholarly point. Option C misreads self-aware reflection as disapproval, when the tone instead signals genuine engagement. Option A dismisses a tonal choice that shapes how the whole argument lands. Option B finds contradiction where the conversational tone instead reinforces the poem's central, personally-stakes-raising argument about risk."
       },
       {
         "id": "1-9",
@@ -4195,7 +4195,7 @@ const QUESTIONS = {
           "Physical spaces may retain sensory impressions more stably than human memory retains relationships."
         ],
         "correct": 3,
-        "explanation": "The poem's whole trajectory -- the house's exact, repeated retention set against 'not us, not what we broke, not any norm we swore we'd keep' -- builds toward exactly this asymmetry between stable physical persistence and fallible human memory. Option 2 overclaims a value judgment the poem never makes; the house's persistence is melancholy, not superior. Option 3 inverts the relationship: the house doesn't help the speaker remember anything, it simply retains its own separate, narrow record. Option 4 ignores that the whole poem is built on the comparison between the two."
+        "explanation": "The poem's whole trajectory -- the house's exact, repeated retention set against 'not us, not what we broke, not any norm we swore we'd keep' -- builds toward exactly this asymmetry between stable physical persistence and fallible human memory. Option A overclaims a value judgment the poem never makes; the house's persistence is melancholy, not superior. Option C inverts the relationship: the house doesn't help the speaker remember anything, it simply retains its own separate, narrow record. Option B ignores that the whole poem is built on the comparison between the two."
       },
       {
         "id": "2-9",
@@ -4208,7 +4208,7 @@ const QUESTIONS = {
           "That small, repeated rituals can provide a structured way of relating to loss without necessarily resolving it, serving an ongoing function even without full closure."
         ],
         "correct": 3,
-        "explanation": "The plate-setting-and-removal ritual persists for three years without resolving the speaker's grief, yet the poem never frames it as pointless -- it's presented sympathetically as a way of relating to loss that continues to serve a purpose. Option 1 overstates a negative judgment the poem doesn't make. Option 2 mischaracterizes a recognizable, sympathetically-portrayed coping behavior as pathological. Option 4 states the opposite of what three years of unresolved ritual demonstrates -- resolution never actually arrives."
+        "explanation": "The plate-setting-and-removal ritual persists for three years without resolving the speaker's grief, yet the poem never frames it as pointless -- it's presented sympathetically as a way of relating to loss that continues to serve a purpose. Option C overstates a negative judgment the poem doesn't make. Option B mischaracterizes a recognizable, sympathetically-portrayed coping behavior as pathological. Option A states the opposite of what three years of unresolved ritual demonstrates -- resolution never actually arrives."
       },
       {
         "id": "3-8",
@@ -4221,7 +4221,7 @@ const QUESTIONS = {
           "That long-term relationships inevitably become boring and unsatisfying -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 2,
-        "explanation": "'We have learned, over the years, to read each other's satellite imagery' and 'every kind of weather two people can have together' both frame accumulated shared history, storms included, as the source of a valuable, earned capacity to understand a partner. Option 1 is contradicted by the poem's inclusion of storm-front stanzas as a normal, even valuable, part of the relationship's history. Option 3 states the opposite of the poem's warmly affirmative final stanza. Option 4 mistakes the poem's figurative vehicle for a literal causal claim."
+        "explanation": "'We have learned, over the years, to read each other's satellite imagery' and 'every kind of weather two people can have together' both frame accumulated shared history, storms included, as the source of a valuable, earned capacity to understand a partner. Option A is contradicted by the poem's inclusion of storm-front stanzas as a normal, even valuable, part of the relationship's history. Option D states the opposite of the poem's warmly affirmative final stanza. Option B mistakes the poem's figurative vehicle for a literal causal claim."
       },
       {
         "id": "4-8",
@@ -4234,7 +4234,7 @@ const QUESTIONS = {
           "That uncertainty always has a simple, straightforward resolution readily available -- not what the poem's own language shows."
         ],
         "correct": 1,
-        "explanation": "The speaker's choice not to answer, repeated across the poem, and the final lines' framing of not-knowing as itself protective, together suggest that sustained uncertainty can function as self-protection against a more painful confirmed answer. Option 2 imposes a prescriptive judgment the poem itself never makes about what the speaker 'should' do. Option 3 overgeneralizes into a universal claim the poem, which portrays uncertainty as functional rather than simply harmful, doesn't support. Option 4 contradicts the poem's whole premise that this uncertainty persists precisely because no simple resolution is available or sought."
+        "explanation": "The speaker's choice not to answer, repeated across the poem, and the final lines' framing of not-knowing as itself protective, together suggest that sustained uncertainty can function as self-protection against a more painful confirmed answer. Option C imposes a prescriptive judgment the poem itself never makes about what the speaker 'should' do. Option A overgeneralizes into a universal claim the poem, which portrays uncertainty as functional rather than simply harmful, doesn't support. Option D contradicts the poem's whole premise that this uncertainty persists precisely because no simple resolution is available or sought."
       },
       {
         "id": "5-8",
@@ -4247,7 +4247,7 @@ const QUESTIONS = {
           "That the poem, through its revisionist reading of Icarus, argues meaningful experience may be worth pursuing even with foreknowledge of eventual loss."
         ],
         "correct": 3,
-        "explanation": "The poem's closing claim -- that falling happens 'whether or not they ever once, even briefly, flew' -- directly supports a considered, foreknowledge-based argument that the risk of flight may be worth its eventual cost. Option 1 understates a position the poem takes clearly and explicitly. Option 2 mischaracterizes the poem's careful, reflective tone ('knowing already, going in, exactly how it ends') as reckless. Option 3 states the opposite of the poem's actual, revisionist argument."
+        "explanation": "The poem's closing claim -- that falling happens 'whether or not they ever once, even briefly, flew' -- directly supports a considered, foreknowledge-based argument that the risk of flight may be worth its eventual cost. Option A understates a position the poem takes clearly and explicitly. Option C mischaracterizes the poem's careful, reflective tone ('knowing already, going in, exactly how it ends') as reckless. Option B states the opposite of the poem's actual, revisionist argument."
       },
       {
         "id": "1-10",
@@ -4260,7 +4260,7 @@ const QUESTIONS = {
           "Neither passage actually develops any distinct, identifiable formal technique -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 2,
-        "explanation": "The two poems share thematic territory (what remains after loss) but reach it through different formal choices: Passage 1's refrain-driven third-person description versus Passage 2's sustained apostrophe to the chair. Option 1 is factually wrong -- Passage 2 has no refrain at all. Option 2 denies techniques both poems clearly use. Option 4 is contradicted by Passage 2's entire subject, the empty chair, which is centrally about absence."
+        "explanation": "The two poems share thematic territory (what remains after loss) but reach it through different formal choices: Passage 1's refrain-driven third-person description versus Passage 2's sustained apostrophe to the chair. Option B is factually wrong -- Passage 2 has no refrain at all. Option D denies techniques both poems clearly use. Option A is contradicted by Passage 2's entire subject, the empty chair, which is centrally about absence."
       },
       {
         "id": "2-10",
@@ -4273,7 +4273,7 @@ const QUESTIONS = {
           "Both function as tangible focal points for loss, though the chair here is addressed directly through sustained apostrophe."
         ],
         "correct": 3,
-        "explanation": "Both objects give abstract grief a concrete focal point, but they work through different specific techniques: Passage 2 speaks directly to the chair, while Unit 2's picture frame was described and interpreted in the third person rather than addressed. Option 1 flattens that real distinction. Option 2 wrongly treats two different objects serving a similar function as literally interchangeable. Option 3 is contradicted by both objects' clear thematic centrality to loss in their respective poems."
+        "explanation": "Both objects give abstract grief a concrete focal point, but they work through different specific techniques: Passage 2 speaks directly to the chair, while Unit 2's picture frame was described and interpreted in the third person rather than addressed. Option A flattens that real distinction. Option B wrongly treats two different objects serving a similar function as literally interchangeable. Option C is contradicted by both objects' clear thematic centrality to loss in their respective poems."
       },
       {
         "id": "3-9",
@@ -4286,7 +4286,7 @@ const QUESTIONS = {
           "Both conceits compare marriage to vehicles with no shared underlying approach -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "Both the weather conceit here and the used-bookstore conceit from the worked example start from an initially unexpected comparison and then trace several specific correspondences rather than resting on the opening image alone -- the same underlying technique applied to different vehicles. Option 1 is factually wrong; both poems develop their comparisons at length. Option 2 confuses the shared underlying approach with a shared vehicle -- the worked example uses a bookstore, not weather. Option 4 denies the very shared approach the comparison asks about."
+        "explanation": "Both the weather conceit here and the used-bookstore conceit from the worked example start from an initially unexpected comparison and then trace several specific correspondences rather than resting on the opening image alone -- the same underlying technique applied to different vehicles. Option C is factually wrong; both poems develop their comparisons at length. Option B confuses the shared underlying approach with a shared vehicle -- the worked example uses a bookstore, not weather. Option D denies the very shared approach the comparison asks about."
       },
       {
         "id": "4-9",
@@ -4299,7 +4299,7 @@ const QUESTIONS = {
           "Neither poem actually takes any clear position on certainty or ambiguity -- a reading the poem's own specific details do not actually support."
         ],
         "correct": 0,
-        "explanation": "Passage 1's refrain states its central claim as unwavering fact each time it repeats, while Passage 4 explicitly and repeatedly refuses to settle its central question -- two opposite approaches to certainty within this unit's range of techniques. Option 1 denies a clear contrast both poems' language plainly establishes. Option 3 flattens a real, structurally significant difference. Option 4 reverses the actual relationship; Passage 1, not Passage 4, is the fixed, certain one."
+        "explanation": "Passage 1's refrain states its central claim as unwavering fact each time it repeats, while Passage 4 explicitly and repeatedly refuses to settle its central question -- two opposite approaches to certainty within this unit's range of techniques. Option D denies a clear contrast both poems' language plainly establishes. Option B flattens a real, structurally significant difference. Option C reverses the actual relationship; Passage 1, not Passage 4, is the fixed, certain one."
       },
       {
         "id": "5-9",
@@ -4312,7 +4312,7 @@ const QUESTIONS = {
           "Both passages require identical, highly specialized outside knowledge with no meaningful distinction -- not what the poem's own language shows."
         ],
         "correct": 2,
-        "explanation": "Both a conceit and an allusion ask readers to actively map an outside framework -- weather, or a myth -- onto the poem's own content, rather than simply receiving a directly stated meaning. Option 1 denies the active engagement both passages clearly require. Option 3 states the opposite of what tracing correspondences and imported meaning both demand. Option 4 wrongly equates the two passages' outside frameworks, which are genuinely different in kind (a general natural phenomenon versus a specific named myth)."
+        "explanation": "Both a conceit and an allusion ask readers to actively map an outside framework -- weather, or a myth -- onto the poem's own content, rather than simply receiving a directly stated meaning. Option A denies the active engagement both passages clearly require. Option B states the opposite of what tracing correspondences and imported meaning both demand. Option D wrongly equates the two passages' outside frameworks, which are genuinely different in kind (a general natural phenomenon versus a specific named myth)."
       },
       {
         "id": "1-11",
@@ -4325,7 +4325,7 @@ const QUESTIONS = {
           "The same diagnostic question Section 5.1 asks -- what does this structural choice contribute to meaning -- applies equally to irregular structure."
         ],
         "correct": 3,
-        "explanation": "Section 5.1's guidance is a transferable diagnostic question, not a rule limited to refrains: ask what a structural choice contributes to meaning, whether that choice is repetition or irregularity. An unpredictable stanza pattern could just as meaningfully enact instability as Passage 1's refrain enacts fixed memory. Option 1 wrongly treats irregularity as automatically meaningless. Option 3 and option 4 both narrow formal analysis to cases this unit's own 'Watch Out For This' box explicitly warns against -- precise classification or refrain-use isn't required for productive analysis."
+        "explanation": "Section 5.1's guidance is a transferable diagnostic question, not a rule limited to refrains: ask what a structural choice contributes to meaning, whether that choice is repetition or irregularity. An unpredictable stanza pattern could just as meaningfully enact instability as Passage 1's refrain enacts fixed memory. Option A wrongly treats irregularity as automatically meaningless. Option B and option C both narrow formal analysis to cases this unit's own 'Watch Out For This' box explicitly warns against -- precise classification or refrain-use isn't required for productive analysis."
       },
       {
         "id": "2-11",
@@ -4338,7 +4338,7 @@ const QUESTIONS = {
           "This unit simply repeats Unit 2's content using different specific poems -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 1,
-        "explanation": "This unit's items repeatedly rely on imagery, tone, and speaker analysis (Unit 2 skills) while layering on form, apostrophe, conceit, ambiguity, and allusion -- addition, not replacement. Option 1 is contradicted by how load-bearing those foundational skills remain throughout this unit's questions. Option 2 ignores the substantial new material this unit's five sections introduce. Option 4 wrongly severs this unit's techniques from the close-reading foundation they visibly depend on."
+        "explanation": "This unit's items repeatedly rely on imagery, tone, and speaker analysis (Unit 2 skills) while layering on form, apostrophe, conceit, ambiguity, and allusion -- addition, not replacement. Option A is contradicted by how load-bearing those foundational skills remain throughout this unit's questions. Option D ignores the substantial new material this unit's five sections introduce. Option C wrongly severs this unit's techniques from the close-reading foundation they visibly depend on."
       },
       {
         "id": "3-10",
@@ -4351,7 +4351,7 @@ const QUESTIONS = {
           "All five passages equally reward this specific skill, with no meaningful distinction among them -- which the poem's details do not bear out."
         ],
         "correct": 2,
-        "explanation": "Passage 3's central technique is precisely extended, multi-point correspondence, making it the strongest match for this specific reading skill. Option 1 flattens a real distinction; each passage's central technique rewards a different specific skill. Options 2 and 3 correctly note those passages' actual central techniques (ambiguity, form) but those techniques reward different skills than tracking extended correspondence, which is Passage 3's specific strength."
+        "explanation": "Passage 3's central technique is precisely extended, multi-point correspondence, making it the strongest match for this specific reading skill. Option D flattens a real distinction; each passage's central technique rewards a different specific skill. Options A and B correctly note those passages' actual central techniques (ambiguity, form) but those techniques reward different skills than tracking extended correspondence, which is Passage 3's specific strength."
       },
       {
         "id": "4-10",
@@ -4364,7 +4364,7 @@ const QUESTIONS = {
           "Unresolved content only appears in this course's poetry units, never in its fiction units -- which the poem's details do not bear out."
         ],
         "correct": 1,
-        "explanation": "Passage 2 ends without naming its feeling, Passage 4 ends on named uncertainty, and Passage 5 ends on an open question about risk's worth -- a shared thread of deliberate non-resolution across genuinely different techniques. Option 1 makes an unverifiable claim about this course's fiction units that this unit's own materials don't address. Option 3 directly contradicts multiple passages' explicitly open endings. Option 4 undercounts the pattern, since at least Passages 2 and 5 also withhold resolution."
+        "explanation": "Passage 2 ends without naming its feeling, Passage 4 ends on named uncertainty, and Passage 5 ends on an open question about risk's worth -- a shared thread of deliberate non-resolution across genuinely different techniques. Option D makes an unverifiable claim about this course's fiction units that this unit's own materials don't address. Option C directly contradicts multiple passages' explicitly open endings. Option A undercounts the pattern, since at least Passages 2 and 5 also withhold resolution."
       },
       {
         "id": "5-10",
@@ -4377,7 +4377,7 @@ const QUESTIONS = {
           "Fairy tale references cannot function as allusions under this unit's definition -- an overreading of a minor detail."
         ],
         "correct": 1,
-        "explanation": "Section 5.5's definition of allusion doesn't depend on the source being classical mythology specifically; a fairy tale reference works the same way, importing an association the poem then connects to its own concerns. Option 2 restricts allusion to a single tradition this unit's own general definition doesn't limit it to. Option 3 directly contradicts the flexible, source-agnostic definition of allusion this unit teaches. Option 4 overstates the depth of knowledge required, contradicted by Section 5.5's point about basic cultural familiarity being sufficient."
+        "explanation": "Section 5.5's definition of allusion doesn't depend on the source being classical mythology specifically; a fairy tale reference works the same way, importing an association the poem then connects to its own concerns. Option C restricts allusion to a single tradition this unit's own general definition doesn't limit it to. Option D directly contradicts the flexible, source-agnostic definition of allusion this unit teaches. Option A overstates the depth of knowledge required, contradicted by Section 5.5's point about basic cultural familiarity being sufficient."
       },
       {
         "id": "1-12",
@@ -4390,7 +4390,7 @@ const QUESTIONS = {
           "Adding this detail would completely invalidate the poem's entire existing premise -- which the poem's details do not bear out."
         ],
         "correct": 0,
-        "explanation": "A demolition stanza wouldn't break the poem's logic; it would extend it, since the refrain could shift to past tense ('the house remembered...') and become a further, sadder instance of the poem's own theme -- even physical persistence eventually fails. Option 2 overstates the disruption; nothing about demolition contradicts what the poem has already established about impermanence. Option 3 denies an effect that follows directly from the poem's existing logic. Option 4 wrongly assumes the refrain requires present tense to function; a shift to past tense would still perform meaningful structural work."
+        "explanation": "A demolition stanza wouldn't break the poem's logic; it would extend it, since the refrain could shift to past tense ('the house remembered...') and become a further, sadder instance of the poem's own theme -- even physical persistence eventually fails. Option D overstates the disruption; nothing about demolition contradicts what the poem has already established about impermanence. Option B denies an effect that follows directly from the poem's existing logic. Option C wrongly assumes the refrain requires present tense to function; a shift to past tense would still perform meaningful structural work."
       },
       {
         "id": "2-12",
@@ -4403,7 +4403,7 @@ const QUESTIONS = {
           "Apostrophe can only ever be directed at physical objects, never at abstractions -- not what the poem's own language shows."
         ],
         "correct": 2,
-        "explanation": "An abstraction like 'risk' has no shape, texture, or location the way a chair does, so a poem addressing it must invent its imagined presence purely through language, while a physical object's apostrophe can lean on the object's existing tangible qualities. Option 2 is contradicted by this unit's own worked example addressing 'Grief,' an abstraction. Option 3 denies a real, meaningful distinction in how the two kinds of address must work. Option 4 states the reverse error of option 2, also contradicted by the same worked example."
+        "explanation": "An abstraction like 'risk' has no shape, texture, or location the way a chair does, so a poem addressing it must invent its imagined presence purely through language, while a physical object's apostrophe can lean on the object's existing tangible qualities. Option B is contradicted by this unit's own worked example addressing 'Grief,' an abstraction. Option A denies a real, meaningful distinction in how the two kinds of address must work. Option D states the reverse error of option B, also contradicted by the same worked example."
       },
       {
         "id": "3-11",
@@ -4416,7 +4416,7 @@ const QUESTIONS = {
           "Poetic compression is unrelated to any of the five techniques this unit covers -- a reading the poem's own specific details do not actually support."
         ],
         "correct": 0,
-        "explanation": "Refrain, apostrophe, conceit, ambiguity, and allusion all let a poem import or generate meaning beyond its literal word count -- a marriage's history compressed into weather correspondences, a myth's whole cautionary tradition compressed into one allusion -- demonstrating compression across every passage in this unit. Option 2 denies a connection the unit's five techniques all actually serve. Option 3 understates the pattern, since all five passages, not just some, demonstrate it. Option 4 states the direct opposite of what the unit's passages collectively show."
+        "explanation": "Refrain, apostrophe, conceit, ambiguity, and allusion all let a poem import or generate meaning beyond its literal word count -- a marriage's history compressed into weather correspondences, a myth's whole cautionary tradition compressed into one allusion -- demonstrating compression across every passage in this unit. Option D denies a connection the unit's five techniques all actually serve. Option B understates the pattern, since all five passages, not just some, demonstrate it. Option C states the direct opposite of what the unit's passages collectively show."
       },
       {
         "id": "4-11",
@@ -4429,7 +4429,7 @@ const QUESTIONS = {
           "Skipping analysis of a new poem's structure to focus only on its literal, paraphrased content -- not what the poem's own language shows."
         ],
         "correct": 2,
-        "explanation": "A set of transferable diagnostic questions -- about form, address, comparison, ambiguity, and reference -- generalizes to any unfamiliar poem, unlike memorizing this unit's specific five poems. Option 1 confuses memorizing particular texts with developing a transferable skill. Option 3 wrongly assumes techniques are mutually exclusive, when Passage 3 itself was shown to combine form and conceit. Option 4 recommends abandoning exactly the structural attention this unit has been building throughout."
+        "explanation": "A set of transferable diagnostic questions -- about form, address, comparison, ambiguity, and reference -- generalizes to any unfamiliar poem, unlike memorizing this unit's specific five poems. Option B confuses memorizing particular texts with developing a transferable skill. Option A wrongly assumes techniques are mutually exclusive, when Passage 3 itself was shown to combine form and conceit. Option D recommends abandoning exactly the structural attention this unit has been building throughout."
       },
       {
         "id": "5-11",
@@ -4442,7 +4442,7 @@ const QUESTIONS = {
           "Passages 2 and 4, since both center on a speaker actively constructing and maintaining a specific narrative or ritual."
         ],
         "correct": 3,
-        "explanation": "Passage 2's insistence the chair 'can't actually be uncomfortable' and Passage 4's repeated 'I told myself it was the wind' both show a speaker actively constructing a self-protective narrative around difficult feelings. Option 2 names a shared setting (domestic) rather than a shared psychological concern, which is what the question actually asks about. Option 3 denies a connection the specific details of both poems clearly support. Option 4 groups two passages by shared technique (figurative comparison), not by this specific thematic concern about self-constructed narratives."
+        "explanation": "Passage 2's insistence the chair 'can't actually be uncomfortable' and Passage 4's repeated 'I told myself it was the wind' both show a speaker actively constructing a self-protective narrative around difficult feelings. Option A names a shared setting (domestic) rather than a shared psychological concern, which is what the question actually asks about. Option B denies a connection the specific details of both poems clearly support. Option C groups two passages by shared technique (figurative comparison), not by this specific thematic concern about self-constructed narratives."
       },
       {
         "id": "1-13",
@@ -4455,7 +4455,7 @@ const QUESTIONS = {
           "Basic figurative language identification, already covered extensively in Unit 2 -- which the poem's details do not bear out."
         ],
         "correct": 1,
-        "explanation": "Passage 1 specifically requires following one refrain line across four separated stanzas and connecting its unchanging repetition to a developing thematic argument -- a structural, multi-stanza skill Unit 2 didn't specifically demand. Options 1 through 3 name genuine Unit 2 skills, but the question asks what's NEW, and all three were already established before this unit; Passage 1 draws on them without adding anything beyond them the way option 4 does."
+        "explanation": "Passage 1 specifically requires following one refrain line across four separated stanzas and connecting its unchanging repetition to a developing thematic argument -- a structural, multi-stanza skill Unit 2 didn't specifically demand. Options A, C, and D name genuine Unit 2 skills, but the question asks what's NEW, and all three were already established before this unit; Passage 1 draws on them without adding anything beyond them the way option B does."
       },
       {
         "id": "2-13",
@@ -4468,7 +4468,7 @@ const QUESTIONS = {
           "Poetic form, since the scenario mainly concerns stanza structure -- a plausible-sounding claim that overlooks what the poem's language actually establishes."
         ],
         "correct": 0,
-        "explanation": "Addressing 'Time' directly as a listener matches Section 5.2's definition of apostrophe exactly, regardless of whether the addressee is Grief, a chair, or Time. Option 2 misidentifies the scenario, which involves direct address, not a sustained comparison between two unlike things. Option 3 is wrong because 'Time' personified is an abstract concept, not a historical figure or outside text. Option 4 misses the point entirely; the scenario as described says nothing about stanza structure."
+        "explanation": "Addressing 'Time' directly as a listener matches Section 5.2's definition of apostrophe exactly, regardless of whether the addressee is Grief, a chair, or Time. Option B misidentifies the scenario, which involves direct address, not a sustained comparison between two unlike things. Option C is wrong because 'Time' personified is an abstract concept, not a historical figure or outside text. Option D misses the point entirely; the scenario as described says nothing about stanza structure."
       },
       {
         "id": "3-12",
@@ -4481,7 +4481,7 @@ const QUESTIONS = {
           "Extended conceit -- developing an initially straightforward comparison (decision as maze) into increasingly specific, elaborated detail across several stanzas is precisely this technique."
         ],
         "correct": 3,
-        "explanation": "A decision-as-maze comparison developed with increasing specificity across several stanzas matches Section 5.3's definition of conceit exactly. Option 1 misidentifies the scenario, which involves comparison, not direct address to an abstraction. Option 2 misreads 'a difficult decision' as automatically meaning textual ambiguity, when the scenario describes a clear, sustained metaphor rather than genuine uncertainty about meaning. Option 3 is wrong because a maze used this way is a general comparison, not a reference to a specific outside myth or text."
+        "explanation": "A decision-as-maze comparison developed with increasing specificity across several stanzas matches Section 5.3's definition of conceit exactly. Option A misidentifies the scenario, which involves comparison, not direct address to an abstraction. Option C misreads 'a difficult decision' as automatically meaning textual ambiguity, when the scenario describes a clear, sustained metaphor rather than genuine uncertainty about meaning. Option B is wrong because a maze used this way is a general comparison, not a reference to a specific outside myth or text."
       },
       {
         "id": "4-12",
@@ -4494,7 +4494,7 @@ const QUESTIONS = {
           "Extended conceit, since this scenario involves a single sustained comparison -- an interpretation the poem's stated evidence contradicts rather than confirms."
         ],
         "correct": 2,
-        "explanation": "A poem that explicitly refuses to confirm between a literal-storm reading and a metaphorical-anger reading matches Section 5.4's definition of deliberate ambiguity precisely. Option 1 misidentifies the scenario, which involves an unresolved choice between readings, not direct address to a listener. Option 3 misreads the scenario as a single sustained comparison rather than two competing, unconfirmed interpretations. Option 4 misses the point entirely; nothing in the scenario concerns stanza structure."
+        "explanation": "A poem that explicitly refuses to confirm between a literal-storm reading and a metaphorical-anger reading matches Section 5.4's definition of deliberate ambiguity precisely. Option A misidentifies the scenario, which involves an unresolved choice between readings, not direct address to a listener. Option D misreads the scenario as a single sustained comparison rather than two competing, unconfirmed interpretations. Option B misses the point entirely; nothing in the scenario concerns stanza structure."
       },
       {
         "id": "5-12",
@@ -4507,7 +4507,7 @@ const QUESTIONS = {
           "This cyclical structure -- returning to each genre a second time with more advanced techniques."
         ],
         "correct": 3,
-        "explanation": "The course's return to poetry a second time (Poetry I in Unit 2, Poetry II here in Unit 5) with more advanced techniques mirrors a deliberate, cumulative design, also reinforcing that skills like close attention to structure transfer across genres. Option 1 is contradicted by the explicit 'II' naming and cumulative skill-building this unit itself demonstrates, extending Unit 2's foundation. Option 3 draws an unsupported value judgment from a structural, not evaluative, ordering choice. Option 4 denies the clear, repeating pattern (I/II/III across three genres) this course's full unit list displays."
+        "explanation": "The course's return to poetry a second time (Poetry I in Unit 2, Poetry II here in Unit 5) with more advanced techniques mirrors a deliberate, cumulative design, also reinforcing that skills like close attention to structure transfer across genres. Option A is contradicted by the explicit 'II' naming and cumulative skill-building this unit itself demonstrates, extending Unit 2's foundation. Option C draws an unsupported value judgment from a structural, not evaluative, ordering choice. Option B denies the clear, repeating pattern (I/II/III across three genres) this course's full unit list displays."
       },
       {
         "id": "1-14",
@@ -4520,7 +4520,7 @@ const QUESTIONS = {
           "Every poem must be sorted into exactly one of five named categories before analysis can begin -- not what the poem's own language shows."
         ],
         "correct": 0,
-        "explanation": "Across form, apostrophe, conceit, ambiguity, and allusion, this unit's shared lesson is that meaning-making decisions happen at the level of a poem's whole architecture, not only its individual lines -- exactly what stepping back to notice a refrain, a mode of address, or an extended comparison requires. Option 2 is a claim this unit never makes and its cross-passage comparison questions actively contradict. Option 3 elevates one of five equally-treated techniques above the others, which the unit's balanced treatment doesn't support. Option 4 misreads the five techniques as a rigid sorting system rather than a flexible set of tools, several of which this unit shows working together in a single poem."
+        "explanation": "Across form, apostrophe, conceit, ambiguity, and allusion, this unit's shared lesson is that meaning-making decisions happen at the level of a poem's whole architecture, not only its individual lines -- exactly what stepping back to notice a refrain, a mode of address, or an extended comparison requires. Option C is a claim this unit never makes and its cross-passage comparison questions actively contradict. Option B elevates one of five equally-treated techniques above the others, which the unit's balanced treatment doesn't support. Option D misreads the five techniques as a rigid sorting system rather than a flexible set of tools, several of which this unit shows working together in a single poem."
       },
       {
         "id": "2-14",
@@ -4533,7 +4533,7 @@ const QUESTIONS = {
           "Different subjects always require entirely different, non-overlapping analytical techniques -- an overreading of a minor detail."
         ],
         "correct": 2,
-        "explanation": "Applying the same five techniques (form, apostrophe, conceit, ambiguity, allusion) across a house, a chair, a marriage, a knock, and a myth demonstrates their portability -- they aren't tied to any single kind of poem or topic. Option 1 draws the wrong conclusion from variety; comparability is exactly what the shared techniques enable. Option 3 overgeneralizes -- different subjects here are analyzed with overlapping, shared tools, not entirely separate ones. Option 4 dismisses a deliberate curricular design choice the unit's structure clearly supports."
+        "explanation": "Applying the same five techniques (form, apostrophe, conceit, ambiguity, allusion) across a house, a chair, a marriage, a knock, and a myth demonstrates their portability -- they aren't tied to any single kind of poem or topic. Option B draws the wrong conclusion from variety; comparability is exactly what the shared techniques enable. Option D overgeneralizes -- different subjects here are analyzed with overlapping, shared tools, not entirely separate ones. Option A dismisses a deliberate curricular design choice the unit's structure clearly supports."
       },
       {
         "id": "3-13",
@@ -4546,7 +4546,7 @@ const QUESTIONS = {
           "Passage 3 best combines techniques: its extended conceit is sustained through consistent structural regularity across four parallel stanzas."
         ],
         "correct": 3,
-        "explanation": "Passage 3 pairs its extended conceit with a consistent four-stanza structural regularity (a formal choice in its own right), making it the strongest candidate for combining multiple techniques from this unit. Options 1 and 2 correctly identify each passage's dominant technique but understate how single-technique-focused those passages actually are compared to Passage 3's layered use of both form and conceit. Option 4 denies a combination Passage 3's own structure and content plainly demonstrate."
+        "explanation": "Passage 3 pairs its extended conceit with a consistent four-stanza structural regularity (a formal choice in its own right), making it the strongest candidate for combining multiple techniques from this unit. Options A and C correctly identify each passage's dominant technique but understate how single-technique-focused those passages actually are compared to Passage 3's layered use of both form and conceit. Option B denies a combination Passage 3's own structure and content plainly demonstrate."
       }
     ]
   },
@@ -6372,7 +6372,7 @@ const QUESTIONS = {
           "The volta occurs at 'until,' pivoting from the opening catalog of achieved acceptance to the involuntary habit that follows."
         ],
         "correct": 3,
-        "explanation": "The turn happens at 'until,' which pivots the poem from the first stanza's confident catalog of acceptance ('made my peace,' 'built anyway') into the involuntary window-waiting that complicates it — precisely the located, single-word signal this unit's Section 8.1 asks readers to find. Choice 0 mistakes the poem's opening claim for its turn: 'I have made my peace' is the stable position the volta later complicates, not the pivot itself. Choice 1 is wrong because the poem clearly does turn — the second stanza only makes sense as a response to the first. Choice 3 mistakes the poem's closing image for the volta; 'hiding' extends the complication 'until' already introduced, and the poem stays ambiguous rather than reversing into outright doubt."
+        "explanation": "The turn happens at 'until,' which pivots the poem from the first stanza's confident catalog of acceptance ('made my peace,' 'built anyway') into the involuntary window-waiting that complicates it — precisely the located, single-word signal this unit's Section 8.1 asks readers to find. Choice B mistakes the poem's opening claim for its turn: 'I have made my peace' is the stable position the volta later complicates, not the pivot itself. Choice C is wrong because the poem clearly does turn — the second stanza only makes sense as a response to the first. Choice A mistakes the poem's closing image for the volta; 'hiding' extends the complication 'until' already introduced, and the poem stays ambiguous rather than reversing into outright doubt."
       },
       {
         "id": "1-2",
@@ -6385,7 +6385,7 @@ const QUESTIONS = {
           "Before the volta, the poem describes waiting by the window; after it, the poem describes having achieved full peace."
         ],
         "correct": 0,
-        "explanation": "Before 'until,' the poem catalogs confident, achieved acceptance ('made my peace,' 'built anyway'); after it, the involuntary habit of waiting by the window complicates that acceptance without canceling it, since the poem never retracts the earlier claim. Choice 0 has the sequence backwards — the window-waiting is what the volta introduces, not what precedes it. Choice 1 misses that the volta does real interpretive work: the poem moves from stated confidence to a coexisting, unresolved exception. Choice 2 overstates the shift as full reversal; the poem insists the peace was genuine ('the rest of the answer is true'), so this is complication, not negation."
+        "explanation": "Before 'until,' the poem catalogs confident, achieved acceptance ('made my peace,' 'built anyway'); after it, the involuntary habit of waiting by the window complicates that acceptance without canceling it, since the poem never retracts the earlier claim. Choice D has the sequence backwards — the window-waiting is what the volta introduces, not what precedes it. Choice C misses that the volta does real interpretive work: the poem moves from stated confidence to a coexisting, unresolved exception. Choice B overstates the shift as full reversal; the poem insists the peace was genuine ('the rest of the answer is true'), so this is complication, not negation."
       },
       {
         "id": "1-3",
@@ -6398,7 +6398,7 @@ const QUESTIONS = {
           "This stanza reverses the volta, returning the poem to the simple, uncomplicated peace of the opening stanza."
         ],
         "correct": 2,
-        "explanation": "The third stanza doesn't just repeat the window-waiting; it adds a new layer — the speaker's difficulty telling others about it without undoing the larger true narrative of peace ('I just haven't found a way to explain the window... without it sounding like the peace was never really peace at all'). This shows a volta's complication can keep developing across stanzas rather than resolving in one line. Choice 1 wrongly treats this as a second, separate turn rather than a continuation of the first. Choice 2 ignores the clear thematic and syntactic connection to the window image already introduced. Choice 3 has the direction backwards: this stanza deepens the complication rather than resolving back into simple peace."
+        "explanation": "The third stanza doesn't just repeat the window-waiting; it adds a new layer — the speaker's difficulty telling others about it without undoing the larger true narrative of peace ('I just haven't found a way to explain the window... without it sounding like the peace was never really peace at all'). This shows a volta's complication can keep developing across stanzas rather than resolving in one line. Choice B wrongly treats this as a second, separate turn rather than a continuation of the first. Choice A ignores the clear thematic and syntactic connection to the window image already introduced. Choice D has the direction backwards: this stanza deepens the complication rather than resolving back into simple peace."
       },
       {
         "id": "1-4",
@@ -6411,7 +6411,7 @@ const QUESTIONS = {
           "This ending contradicts the poem's earlier established volta by denying that any window-waiting ever occurred."
         ],
         "correct": 1,
-        "explanation": "'Its own kind of progress, or might just be a better kind of hiding' offers both readings and endorses neither, leaving the speaker's coping mechanism deliberately uncategorized — consistent with this course's recurring interest in meaningful ambiguity. Choice 0 picks one side of the 'or' as if it were the poem's verdict, when the line's whole structure withholds a verdict. Choice 1 misreads the ending as contradiction; it builds directly on the earlier volta rather than denying it. Choice 2 claims a resolution the language explicitly refuses to provide, since 'might' twice signals continued uncertainty rather than closure."
+        "explanation": "'Its own kind of progress, or might just be a better kind of hiding' offers both readings and endorses neither, leaving the speaker's coping mechanism deliberately uncategorized — consistent with this course's recurring interest in meaningful ambiguity. Choice A picks one side of the 'or' as if it were the poem's verdict, when the line's whole structure withholds a verdict. Choice D misreads the ending as contradiction; it builds directly on the earlier volta rather than denying it. Choice C claims a resolution the language explicitly refuses to provide, since 'might' twice signals continued uncertainty rather than closure."
       },
       {
         "id": "1-5",
@@ -6424,7 +6424,7 @@ const QUESTIONS = {
           "Only the study guide's own example actually contains a genuine volta; this fuller poem does not."
         ],
         "correct": 0,
-        "explanation": "Both texts turn on 'until,' shifting from confident acceptance to the involuntary habit of watching for the streetlights — because this poem is the guide's own Section 8.1 example, with two additional stanzas added to develop that turn's implications further. Choice 0 is factually wrong since the identical volta language appears in both. Choice 1 denies a similarity that is, in fact, word-for-word. Choice 3 overstates the relationship in the other direction — the poems share their opening material but are not literally identical, since this version adds two stanzas the shorter guide excerpt doesn't include."
+        "explanation": "Both texts turn on 'until,' shifting from confident acceptance to the involuntary habit of watching for the streetlights — because this poem is the guide's own Section 8.1 example, with two additional stanzas added to develop that turn's implications further. Choice D is factually wrong since the identical volta language appears in both. Choice B denies a similarity that is, in fact, word-for-word. Choice C overstates the relationship in the other direction — the poems share their opening material but are not literally identical, since this version adds two stanzas the shorter guide excerpt doesn't include."
       },
       {
         "id": "2-1",
@@ -6437,7 +6437,7 @@ const QUESTIONS = {
           "Synecdoche, using specific body parts ('back,' 'hands') to represent the father's overall physical toll from labor."
         ],
         "correct": 3,
-        "explanation": "The poem uses synecdoche, letting specific body parts stand in for the father's overall physical health and capacity, with each part tied to a particular kind of labor-related toll — exactly the technique this unit's Section 8.2 defines and models. Choice 1 misidentifies the technique; the poem describes the father in third person rather than addressing him directly, so apostrophe doesn't apply. Choice 2 finds a specific historical reference the poem never makes; the factory and machines are generalized rather than tied to a named event. Choice 3 misses the clear figurative substitution built into 'took my father's back' and 'his hands.'"
+        "explanation": "The poem uses synecdoche, letting specific body parts stand in for the father's overall physical health and capacity, with each part tied to a particular kind of labor-related toll — exactly the technique this unit's Section 8.2 defines and models. Choice C misidentifies the technique; the poem describes the father in third person rather than addressing him directly, so apostrophe doesn't apply. Choice B finds a specific historical reference the poem never makes; the factory and machines are generalized rather than tied to a named event. Choice A misses the clear figurative substitution built into 'took my father's back' and 'his hands.'"
       },
       {
         "id": "2-2",
@@ -6450,7 +6450,7 @@ const QUESTIONS = {
           "'Back' and 'hands' were chosen to describe the father's emotional rather than physical toll from his labor."
         ],
         "correct": 1,
-        "explanation": "'Back' (load-bearing strain) and 'hands' (manual dexterity) each name a concrete, function-specific cost of factory labor, grounding an abstract toll in physical particulars rather than a vaguer claim about declining 'health' — exactly the interpretive weight Section 8.2 asks readers to give specific figurative choices. Choice 1 is factually wrong; the poem isn't rhymed, so rhyme can't explain the word choice. Choice 2 misreads the imagery as emotional when it is explicitly physical and embodied. Choice 3 denies a distinction the poem actively draws by choosing concrete body parts over an abstract synonym."
+        "explanation": "'Back' (load-bearing strain) and 'hands' (manual dexterity) each name a concrete, function-specific cost of factory labor, grounding an abstract toll in physical particulars rather than a vaguer claim about declining 'health' — exactly the interpretive weight Section 8.2 asks readers to give specific figurative choices. Choice C is factually wrong; the poem isn't rhymed, so rhyme can't explain the word choice. Choice D misreads the imagery as emotional when it is explicitly physical and embodied. Choice A denies a distinction the poem actively draws by choosing concrete body parts over an abstract synonym."
       },
       {
         "id": "2-3",
@@ -6463,7 +6463,7 @@ const QUESTIONS = {
           "This line suggests the father's health actually improved somewhat by the time he reached age seventy."
         ],
         "correct": 2,
-        "explanation": "'Whatever was left of him' moves beyond the earlier itemized parts (back, hands) toward something closer to totalizing loss, suggesting the toll had grown too large for the poem's own earlier, more precise synecdoche to fully capture — a culminating intensification of the technique. Choice 0 misreads this as contradiction rather than development; the line still uses figurative substitution, just a broader kind. Choice 1 misses the genuine escalation from named parts to an unnamed remainder. Choice 2 reverses the clear trajectory of decline the whole poem establishes."
+        "explanation": "'Whatever was left of him' moves beyond the earlier itemized parts (back, hands) toward something closer to totalizing loss, suggesting the toll had grown too large for the poem's own earlier, more precise synecdoche to fully capture — a culminating intensification of the technique. Choice A misreads this as contradiction rather than development; the line still uses figurative substitution, just a broader kind. Choice B misses the genuine escalation from named parts to an unnamed remainder. Choice D reverses the clear trajectory of decline the whole poem establishes."
       },
       {
         "id": "2-4",
@@ -6476,7 +6476,7 @@ const QUESTIONS = {
           "This stanza contradicts the poem's central concern with the father's physical toll by shifting its focus entirely onto the family's financial situation instead."
         ],
         "correct": 1,
-        "explanation": "The father insists it was 'a good job... more than a lot of men... could say' while the poem notes he 'never once' named the toll directly, creating a gap between his stated perspective and the poem's more critical framing — similar to the authorial distance this course's earlier fiction units cover, now appearing in verse. Choice 0 claims the opposite of what the text shows, since his silence about the toll is the stanza's whole point. Choice 1 misses that this stanza directly develops the poem's central concern rather than departing from it. Choice 2 overstates his obliviousness; he lived the toll, he simply didn't name it as such."
+        "explanation": "The father insists it was 'a good job... more than a lot of men... could say' while the poem notes he 'never once' named the toll directly, creating a gap between his stated perspective and the poem's more critical framing — similar to the authorial distance this course's earlier fiction units cover, now appearing in verse. Choice A claims the opposite of what the text shows, since his silence about the toll is the stanza's whole point. Choice D misses that this stanza directly develops the poem's central concern rather than departing from it. Choice C overstates his obliviousness; he lived the toll, he simply didn't name it as such."
       },
       {
         "id": "2-5",
@@ -6489,7 +6489,7 @@ const QUESTIONS = {
           "This detail has no particular significance beyond a literal description of where the speaker happens to keep old footwear near the back door."
         ],
         "correct": 1,
-        "explanation": "The boots' visible wear ('scuffed pale,' 'laces replaced') becomes a tangible, present-tense reminder of the father's accumulated toll, extending the poem's figurative body-part imagery into one final, concrete inherited object — connecting this unit's synecdoche technique to symbol concepts from earlier units. Choice 0 misses that the boots continue, rather than abandon, the poem's pattern of embodying toll in physical detail. Choice 1 undersells a detail the poem clearly weights with significance through its specific, worn imagery. Choice 2 reads a plan into the poem that the text never states or implies."
+        "explanation": "The boots' visible wear ('scuffed pale,' 'laces replaced') becomes a tangible, present-tense reminder of the father's accumulated toll, extending the poem's figurative body-part imagery into one final, concrete inherited object — connecting this unit's synecdoche technique to symbol concepts from earlier units. Choice A misses that the boots continue, rather than abandon, the poem's pattern of embodying toll in physical detail. Choice D undersells a detail the poem clearly weights with significance through its specific, worn imagery. Choice C reads a plan into the poem that the text never states or implies."
       },
       {
         "id": "3-1",
@@ -6502,7 +6502,7 @@ const QUESTIONS = {
           "The identical opening phrase and an evolving relationship to that prognosis track a developing emotional arc across the sequence."
         ],
         "correct": 3,
-        "explanation": "The identical opening phrase ('The doctor said six months') paired with a shifting relationship to that prognosis — skeptical disbelief (I), surprised validation (II), settled gratitude (III) — tracks a developing emotional arc where each section's meaning depends on its position relative to the others, exactly Section 8.3's cumulative structure. Choice 0 denies the clear thread the repeated phrase creates across sections. Choice 1 wrongly discounts the first two sections, which establish the disbelief and validation the third section's gratitude depends on. Choice 2 misses the real development in tone and stance beneath the repeated surface phrase."
+        "explanation": "The identical opening phrase ('The doctor said six months') paired with a shifting relationship to that prognosis — skeptical disbelief (I), surprised validation (II), settled gratitude (III) — tracks a developing emotional arc where each section's meaning depends on its position relative to the others, exactly Section 8.3's cumulative structure. Choice B denies the clear thread the repeated phrase creates across sections. Choice A wrongly discounts the first two sections, which establish the disbelief and validation the third section's gratitude depends on. Choice C misses the real development in tone and stance beneath the repeated surface phrase."
       },
       {
         "id": "3-2",
@@ -6515,7 +6515,7 @@ const QUESTIONS = {
           "This repetition has no particular structural or thematic function within the poem's overall design."
         ],
         "correct": 1,
-        "explanation": "The repeated phrase functions like a refrain, giving each section a stable anchor against which its evolving emotional content can be measured — the same fact recurring while the family's relationship to it visibly develops, connecting this unit's sequence technique to Unit 5's refrain coverage. Choice 0 misreads a structural repetition as a literal, repeated real-world event the poem never claims. Choice 1 denies the clear organizing function the repetition performs across the three sections. Choice 2 misunderstands the relationship between repetition and time passing; the phrase recurs precisely because years have passed since it was first said."
+        "explanation": "The repeated phrase functions like a refrain, giving each section a stable anchor against which its evolving emotional content can be measured — the same fact recurring while the family's relationship to it visibly develops, connecting this unit's sequence technique to Unit 5's refrain coverage. Choice C misreads a structural repetition as a literal, repeated real-world event the poem never claims. Choice D denies the clear organizing function the repetition performs across the three sections. Choice A misunderstands the relationship between repetition and time passing; the phrase recurs precisely because years have passed since it was first said."
       },
       {
         "id": "3-3",
@@ -6528,7 +6528,7 @@ const QUESTIONS = {
           "This detail suggests the doctor's original six-month prognosis was inaccurate or mistaken from the very start, since the family ultimately lived so far beyond it."
         ],
         "correct": 2,
-        "explanation": "'Stopped counting somewhere around year two' marks a specific, traceable shift within the sequence — from actively tracking survival against a skeptical baseline (I–II) to a point where counting becomes unnecessary, the sequence's final stage where anxious tracking yields to settled gratitude. Choice 1 reads a factual claim about the prognosis's accuracy into a detail that's really about the family's emotional relationship to time. Choice 2 misreads continuity as contradiction; disbelief and eventual gratitude are sequential stages, not conflicting claims. Choice 3 mistakes gratitude and settled ease for indifference, which the poem's warm final tone doesn't support."
+        "explanation": "'Stopped counting somewhere around year two' marks a specific, traceable shift within the sequence — from actively tracking survival against a skeptical baseline (I–II) to a point where counting becomes unnecessary, the sequence's final stage where anxious tracking yields to settled gratitude. Choice D reads a factual claim about the prognosis's accuracy into a detail that's really about the family's emotional relationship to time. Choice A misreads continuity as contradiction; disbelief and eventual gratitude are sequential stages, not conflicting claims. Choice B mistakes gratitude and settled ease for indifference, which the poem's warm final tone doesn't support."
       },
       {
         "id": "3-4",
@@ -6541,7 +6541,7 @@ const QUESTIONS = {
           "Yes, Section III supplies complete, self-sufficient meaning with no real dependence on the earlier two sections."
         ],
         "correct": 0,
-        "explanation": "Section III's 'gratitude outrunning the need to keep score' depends on the reader having witnessed the earlier disbelief (I) and validation (II); without that trajectory, the specific, earned nature of this gratitude would be considerably less clear — exactly why Section 8.3 emphasizes reading sequences cumulatively. Choice 0 avoids the question the poem's own structure clearly answers. Choice 2 states the opposite of how poetic sequence works, since cumulative dependence is the technique's defining feature. Choice 3 overstates Section III's independence from the context the earlier sections establish."
+        "explanation": "Section III's 'gratitude outrunning the need to keep score' depends on the reader having witnessed the earlier disbelief (I) and validation (II); without that trajectory, the specific, earned nature of this gratitude would be considerably less clear — exactly why Section 8.3 emphasizes reading sequences cumulatively. Choice C avoids the question the poem's own structure clearly answers. Choice B states the opposite of how poetic sequence works, since cumulative dependence is the technique's defining feature. Choice D overstates Section III's independence from the context the earlier sections establish."
       },
       {
         "id": "3-5",
@@ -6554,7 +6554,7 @@ const QUESTIONS = {
           "Subplot and poetic sequence are functionally identical techniques operating in different genres."
         ],
         "correct": 2,
-        "explanation": "Both a subplot read against a main plot and one sequence section read against another require actively comparing related but distinct elements to generate meaning no single element supplies alone — the same underlying principle of comparative reading applied to different structures, the connection Section 8.3 draws to Unit 6. Choice 0 overstates the similarity; the techniques operate in different structures (prose plot lines versus numbered poem sections) even while sharing a principle. Choice 1 denies that both actually demand comparison. Choice 3 denies the genuine shared principle the guide explicitly connects."
+        "explanation": "Both a subplot read against a main plot and one sequence section read against another require actively comparing related but distinct elements to generate meaning no single element supplies alone — the same underlying principle of comparative reading applied to different structures, the connection Section 8.3 draws to Unit 6. Choice D overstates the similarity; the techniques operate in different structures (prose plot lines versus numbered poem sections) even while sharing a principle. Choice B denies that both actually demand comparison. Choice A denies the genuine shared principle the guide explicitly connects."
       },
       {
         "id": "4-1",
@@ -6567,7 +6567,7 @@ const QUESTIONS = {
           "No ironic tension exists between form and content here; the poem's cheerful rhythm simply reflects the speaker's own attempt to stay optimistic despite the loss."
         ],
         "correct": 0,
-        "explanation": "The opening stanza's cheerful rhythm and rhyme, applied to describing catastrophic personal loss, create a jarring mismatch between how the lines sound (bright, musical) and what they describe (devastating loss), with the surrounding cheerful imagery continuing obliviously — the specifically poetic form of irony Section 8.4 addresses, extending Unit 4's fiction-based irony into poetry. Choice 0 asserts the opposite of the clear tension the stanza sets up. Choice 2 similarly denies a mismatch the poem's own bright/dark contrast makes explicit. Choice 3 is factually wrong; the stanza has a clear, consistent rhyme and rhythm pattern."
+        "explanation": "The opening stanza's cheerful rhythm and rhyme, applied to describing catastrophic personal loss, create a jarring mismatch between how the lines sound (bright, musical) and what they describe (devastating loss), with the surrounding cheerful imagery continuing obliviously — the specifically poetic form of irony Section 8.4 addresses, extending Unit 4's fiction-based irony into poetry. Choice D asserts the opposite of the clear tension the stanza sets up. Choice B similarly denies a mismatch the poem's own bright/dark contrast makes explicit. Choice C is factually wrong; the stanza has a clear, consistent rhyme and rhythm pattern."
       },
       {
         "id": "4-2",
@@ -6580,7 +6580,7 @@ const QUESTIONS = {
           "This language has no particular ironic significance beyond simply describing ordinary office correspondence."
         ],
         "correct": 0,
-        "explanation": "The pleasant, softened institutional phrasing ('restructuring,' 'valued contributions') stands in stark, ironic contrast to its actual devastating meaning — the speaker's job loss — the gap between polite corporate register and harsh reality generating the poem's central ironic tension. Choice 0 misreads euphemistic softening as literal good news, which the poem's broader context (the 'Congratulations' title itself being ironic) rules out. Choice 2 gets the relationship backwards; this language actually reinforces, rather than contradicts, the title's irony. Choice 3 undersells language the poem clearly weights as central to its meaning."
+        "explanation": "The pleasant, softened institutional phrasing ('restructuring,' 'valued contributions') stands in stark, ironic contrast to its actual devastating meaning — the speaker's job loss — the gap between polite corporate register and harsh reality generating the poem's central ironic tension. Choice B misreads euphemistic softening as literal good news, which the poem's broader context (the 'Congratulations' title itself being ironic) rules out. Choice C gets the relationship backwards; this language actually reinforces, rather than contradicts, the title's irony. Choice D undersells language the poem clearly weights as central to its meaning."
       },
       {
         "id": "4-3",
@@ -6593,7 +6593,7 @@ const QUESTIONS = {
           "This detail has no particular significance beyond a passing description of the letter's typography."
         ],
         "correct": 1,
-        "explanation": "The letter's font being 'almost precisely' the same as an earlier, good-news letter reveals the institution's cheerful presentation as entirely indifferent to actual content — the same tone serving opposite purposes, emphasizing institutional indifference to human impact. Choice 1 invents an unreliability the text never signals; the detail reads as a pointed observation, not confusion. Choice 2 misreads sameness of tone as warmth, when the poem frames it as coldly impersonal instead. Choice 3 undersells a detail the poem specifically highlights to deepen its irony."
+        "explanation": "The letter's font being 'almost precisely' the same as an earlier, good-news letter reveals the institution's cheerful presentation as entirely indifferent to actual content — the same tone serving opposite purposes, emphasizing institutional indifference to human impact. Choice A invents an unreliability the text never signals; the detail reads as a pointed observation, not confusion. Choice C misreads sameness of tone as warmth, when the poem frames it as coldly impersonal instead. Choice D undersells a detail the poem specifically highlights to deepen its irony."
       },
       {
         "id": "4-4",
@@ -6606,7 +6606,7 @@ const QUESTIONS = {
           "The title suggests the speaker is being sincerely congratulated for some genuine, unstated accomplishment."
         ],
         "correct": 2,
-        "explanation": "'Congratulations' typically signals positive news, creating immediate ironic tension with the poem's actual content — devastating job loss — the title functioning as a compressed instance of the same form-content mismatch developed throughout, irony operating even at the paratextual level. Choice 0 misreads a consistency as contradiction; the title's irony and the letter's euphemism work the same way, reinforcing rather than opposing each other. Choice 2 takes the title at face value, missing the poem's whole ironic strategy. Choice 3 denies the very relationship the title's placement is designed to establish."
+        "explanation": "'Congratulations' typically signals positive news, creating immediate ironic tension with the poem's actual content — devastating job loss — the title functioning as a compressed instance of the same form-content mismatch developed throughout, irony operating even at the paratextual level. Choice B misreads a consistency as contradiction; the title's irony and the letter's euphemism work the same way, reinforcing rather than opposing each other. Choice D takes the title at face value, missing the poem's whole ironic strategy. Choice A denies the very relationship the title's placement is designed to establish."
       },
       {
         "id": "4-5",
@@ -6619,7 +6619,7 @@ const QUESTIONS = {
           "This poem is the study guide's own worked example extended with two further stanzas developing the same irony."
         ],
         "correct": 3,
-        "explanation": "Both texts apply bright, cheerful sound patterns to devastating content — because this poem's opening stanza is the guide's own Section 8.4 worked example, extended with two additional stanzas developing the irony through specific corporate-language detail. Choice 0 draws a distinction the shared text doesn't support, since both examples rely on the same form-content mismatch rather than different irony types. Choice 2 is factually wrong, since the identical opening lines appear in both. Choice 3 denies the clear, word-for-word overlap between the two texts."
+        "explanation": "Both texts apply bright, cheerful sound patterns to devastating content — because this poem's opening stanza is the guide's own Section 8.4 worked example, extended with two additional stanzas developing the irony through specific corporate-language detail. Choice B draws a distinction the shared text doesn't support, since both examples rely on the same form-content mismatch rather than different irony types. Choice A is factually wrong, since the identical opening lines appear in both. Choice C denies the clear, word-for-word overlap between the two texts."
       },
       {
         "id": "5-1",
@@ -6632,7 +6632,7 @@ const QUESTIONS = {
           "Only a single technique, irony, is present in this poem, with no other combined technique alongside it."
         ],
         "correct": 0,
-        "explanation": "The poem combines synecdoche/metonymy ('Sunday shoes,' 'the roads' representing the mill's economic influence), a volta (marked by 'until the day the bank's letter arrived'), and irony (the letter's cheerful register applied to the mill's devastating closure) — exactly the kind of combined poem Section 8.5 prepares readers to analyze. Choice 1 misreads the poem's continuous stanzas as the unit's distinct, titled sequence structure, which this poem doesn't actually use. Choice 2 names only one of the three techniques the poem clearly demonstrates. Choice 3 denies a combination the poem's structure and language make explicit throughout."
+        "explanation": "The poem combines synecdoche/metonymy ('Sunday shoes,' 'the roads' representing the mill's economic influence), a volta (marked by 'until the day the bank's letter arrived'), and irony (the letter's cheerful register applied to the mill's devastating closure) — exactly the kind of combined poem Section 8.5 prepares readers to analyze. Choice B misreads the poem's continuous stanzas as the unit's distinct, titled sequence structure, which this poem doesn't actually use. Choice D names only one of the three techniques the poem clearly demonstrates. Choice C denies a combination the poem's structure and language make explicit throughout."
       },
       {
         "id": "5-2",
@@ -6645,7 +6645,7 @@ const QUESTIONS = {
           "The volta occurs at the poem's very first line, since 'they said' already signals the skeptical distance the rest of the poem goes on to develop."
         ],
         "correct": 2,
-        "explanation": "The turn happens at the bank letter's arrival, shifting from a confident catalog of the mill's sustaining influence (bread, work, shoes, roads) to its abrupt, institutionally delivered termination — a precisely located turn, exactly what Section 8.1 asks readers to identify. Choice 1 denies a clear structural pivot the poem's own 'until' explicitly marks. Choice 2 misplaces the turn before any established position exists to complicate. Choice 3 misplaces the turn too late; the plaque appears well after the actual turning point, extending its aftermath rather than causing it."
+        "explanation": "The turn happens at the bank letter's arrival, shifting from a confident catalog of the mill's sustaining influence (bread, work, shoes, roads) to its abrupt, institutionally delivered termination — a precisely located turn, exactly what Section 8.1 asks readers to identify. Choice A denies a clear structural pivot the poem's own 'until' explicitly marks. Choice D misplaces the turn before any established position exists to complicate. Choice B misplaces the turn too late; the plaque appears well after the actual turning point, extending its aftermath rather than causing it."
       },
       {
         "id": "5-3",
@@ -6658,7 +6658,7 @@ const QUESTIONS = {
           "The letter is described using angry, hostile language that directly contradicts the poem's otherwise calm tone."
         ],
         "correct": 2,
-        "explanation": "The letter's cheerful, formal register ('brief and bright as a Christmas card,' 'wishing... well, sincerely') stands in stark contrast to its devastating content — the mill's closure — corporate pleasantry deployed for genuinely destructive news, exactly the poetic irony Section 8.4's own worked example demonstrates. Choice 0 denies the verbal component (the letter's actual cheerful wording) that's central to this irony. Choice 1 misdescribes the letter's tone, which the poem explicitly frames as pleasant rather than hostile. Choice 3 denies an irony the poem's language makes unmistakable."
+        "explanation": "The letter's cheerful, formal register ('brief and bright as a Christmas card,' 'wishing... well, sincerely') stands in stark contrast to its devastating content — the mill's closure — corporate pleasantry deployed for genuinely destructive news, exactly the poetic irony Section 8.4's own worked example demonstrates. Choice A denies the verbal component (the letter's actual cheerful wording) that's central to this irony. Choice D misdescribes the letter's tone, which the poem explicitly frames as pleasant rather than hostile. Choice B denies an irony the poem's language makes unmistakable."
       },
       {
         "id": "5-4",
@@ -6671,7 +6671,7 @@ const QUESTIONS = {
           "This detail extends the poem's irony into its final image, as the physical town itself speaks the truth the plaque avoids."
         ],
         "correct": 3,
-        "explanation": "The plaque's euphemistic avoidance ('legacy' instead of 'closed') mirrors the bank letter's earlier cheerfulness, while the poem's closing claim that 'the whole town... says that part for free' suggests the omission fools no one — the physical reality itself speaking the truth institutional language avoids. Choice 0 misreads continuity as contradiction; the plaque's euphemism extends, rather than departs from, the poem's established irony. Choice 1 undersells a detail the poem clearly weights as a culminating image. Choice 3 contradicts the poem's explicit claim that the mill closed and was never reopened."
+        "explanation": "The plaque's euphemistic avoidance ('legacy' instead of 'closed') mirrors the bank letter's earlier cheerfulness, while the poem's closing claim that 'the whole town... says that part for free' suggests the omission fools no one — the physical reality itself speaking the truth institutional language avoids. Choice C misreads continuity as contradiction; the plaque's euphemism extends, rather than departs from, the poem's established irony. Choice B undersells a detail the poem clearly weights as a culminating image. Choice A contradicts the poem's explicit claim that the mill closed and was never reopened."
       },
       {
         "id": "5-5",
@@ -6684,7 +6684,7 @@ const QUESTIONS = {
           "Only the study guide's own example actually combines multiple techniques; this fuller poem relies on just one."
         ],
         "correct": 0,
-        "explanation": "This poem is the guide's own Section 8.5 worked example, extended with two additional stanzas developing the aftermath (the kept roads, the school, the plaque) beyond the original example's focus on the closure announcement — showing how combined techniques can develop across a fuller poem. Choice 1 is factually wrong, since this poem itself demonstrates the same combination the guide's example does. Choice 2 denies the clear, word-for-word overlap in their opening stanzas. Choice 3 similarly denies that overlap, mistaking shared material for coincidental similarity in subject alone."
+        "explanation": "This poem is the guide's own Section 8.5 worked example, extended with two additional stanzas developing the aftermath (the kept roads, the school, the plaque) beyond the original example's focus on the closure announcement — showing how combined techniques can develop across a fuller poem. Choice D is factually wrong, since this poem itself demonstrates the same combination the guide's example does. Choice C denies the clear, word-for-word overlap in their opening stanzas. Choice B similarly denies that overlap, mistaking shared material for coincidental similarity in subject alone."
       },
       {
         "id": "1-6",
@@ -6697,7 +6697,7 @@ const QUESTIONS = {
           "A multi-part poetic sequence, since the poem's three stanzas could be read as sequential, numbered sections."
         ],
         "correct": 0,
-        "explanation": "Passage 1's entire structure depends on the significant turn marked by 'until' — the opening catalog of acceptance exists specifically to be complicated by the window-waiting that follows, making Section 8.1's volta the most directly applicable lens. Choice 1 overreaches: the closet and window are concrete details grounding the poem's imagery, not a sustained substitution of part for whole in the way this unit's synecdoche examples use body parts or shoes. Choice 2 misapplies irony; nothing suggests a gap between the poem's plain tone and its content, since the plain language matches the plain, unresolved feeling it describes. Choice 3 mistakes ordinary stanza breaks for the numbered, titled sections (I, II, III) that define this unit's sequence technique."
+        "explanation": "Passage 1's entire structure depends on the significant turn marked by 'until' — the opening catalog of acceptance exists specifically to be complicated by the window-waiting that follows, making Section 8.1's volta the most directly applicable lens. Choice B overreaches: the closet and window are concrete details grounding the poem's imagery, not a sustained substitution of part for whole in the way this unit's synecdoche examples use body parts or shoes. Choice C misapplies irony; nothing suggests a gap between the poem's plain tone and its content, since the plain language matches the plain, unresolved feeling it describes. Choice D mistakes ordinary stanza breaks for the numbered, titled sections (I, II, III) that define this unit's sequence technique."
       },
       {
         "id": "2-6",
@@ -6710,7 +6710,7 @@ const QUESTIONS = {
           "A multi-part poetic sequence, since the poem's three stanzas trace the father's decline across the separate, clearly marked life stages of fifty, sixty, and seventy."
         ],
         "correct": 2,
-        "explanation": "Passage 2 relies most heavily on synecdoche — specific body parts representing overall physical toll — making Section 8.2 the most directly applicable lens for this passage's central technique. Choice 0 misapplies volta; the poem develops its single claim steadily rather than pivoting at one marked turn. Choice 1 misapplies irony; the plain diction matches the plain subject rather than creating a form-content mismatch. Choice 2 misapplies sequence, which requires distinct numbered or titled sections building cumulative meaning, not stanzas tracing one continuous idea."
+        "explanation": "Passage 2 relies most heavily on synecdoche — specific body parts representing overall physical toll — making Section 8.2 the most directly applicable lens for this passage's central technique. Choice B misapplies volta; the poem develops its single claim steadily rather than pivoting at one marked turn. Choice A misapplies irony; the plain diction matches the plain subject rather than creating a form-content mismatch. Choice D misapplies sequence, which requires distinct numbered or titled sections building cumulative meaning, not stanzas tracing one continuous idea."
       },
       {
         "id": "3-6",
@@ -6723,7 +6723,7 @@ const QUESTIONS = {
           "Synecdoche/metonymy, since the poem could be read as using 'six months' to stand in for the family's entire ordeal."
         ],
         "correct": 1,
-        "explanation": "Passage 3 relies most heavily on poetic sequence — cumulative meaning building across three numbered, temporally sequential sections — making Section 8.3 the most directly applicable lens. Choice 0 stretches synecdoche onto a phrase that functions as a structural refrain, not a figurative substitution of part for whole. Choice 1 misapplies volta, since the poem's development is distributed across three sections rather than pivoting at one single marked turn. Choice 3 misapplies irony, since the plain language matches rather than clashes with the poem's restrained emotional content."
+        "explanation": "Passage 3 relies most heavily on poetic sequence — cumulative meaning building across three numbered, temporally sequential sections — making Section 8.3 the most directly applicable lens. Choice D stretches synecdoche onto a phrase that functions as a structural refrain, not a figurative substitution of part for whole. Choice C misapplies volta, since the poem's development is distributed across three sections rather than pivoting at one single marked turn. Choice A misapplies irony, since the plain language matches rather than clashes with the poem's restrained emotional content."
       },
       {
         "id": "4-6",
@@ -6736,7 +6736,7 @@ const QUESTIONS = {
           "Synecdoche/metonymy, since specific corporate phrases like 'restructuring' could be read as standing in for the company's entire institutional culture."
         ],
         "correct": 1,
-        "explanation": "Passage 4 relies most heavily on irony — the mismatch between cheerful form and devastating content — making Section 8.4 the most directly applicable lens. Choice 0 stretches synecdoche onto phrases that function as verbal irony rather than a part standing for a whole. Choice 1 misapplies sequence, which requires distinct numbered sections building cumulative meaning, not ordinary chronological stanzas. Choice 2 misapplies volta; the poem sustains one continuous ironic tone throughout rather than pivoting at a single located turn."
+        "explanation": "Passage 4 relies most heavily on irony — the mismatch between cheerful form and devastating content — making Section 8.4 the most directly applicable lens. Choice D stretches synecdoche onto phrases that function as verbal irony rather than a part standing for a whole. Choice A misapplies sequence, which requires distinct numbered sections building cumulative meaning, not ordinary chronological stanzas. Choice C misapplies volta; the poem sustains one continuous ironic tone throughout rather than pivoting at a single located turn."
       },
       {
         "id": "5-6",
@@ -6749,7 +6749,7 @@ const QUESTIONS = {
           "Synthesis of multiple techniques, since the passage explicitly combines synecdoche, volta, and irony simultaneously."
         ],
         "correct": 3,
-        "explanation": "Passage 5 relies most heavily on synthesis — combining synecdoche, volta, and irony simultaneously — making Section 8.5 the most directly applicable lens for this passage's genuinely complex technique. Choice 0 misapplies sequence; the poem's stanzas develop one continuous scenario rather than functioning as the distinct, titled sections this unit's sequence technique requires. Choice 2 denies a combination the poem's structure clearly demonstrates. Choice 3 isolates one technique while ignoring the clearly marked volta and synecdoche also present."
+        "explanation": "Passage 5 relies most heavily on synthesis — combining synecdoche, volta, and irony simultaneously — making Section 8.5 the most directly applicable lens for this passage's genuinely complex technique. Choice C misapplies sequence; the poem's stanzas develop one continuous scenario rather than functioning as the distinct, titled sections this unit's sequence technique requires. Choice B denies a combination the poem's structure clearly demonstrates. Choice A isolates one technique while ignoring the clearly marked volta and synecdoche also present."
       },
       {
         "id": "1-7",
@@ -6762,7 +6762,7 @@ const QUESTIONS = {
           "The continued grammatical flow across the stanza break mirrors the poem's own content about an ongoing, unresolved process."
         ],
         "correct": 3,
-        "explanation": "The sentence carries grammatically and thematically from the volta's complication into the further complication about explaining it to others, so the structural continuity across the stanza break mirrors an ongoing, still-developing difficulty rather than a single contained realization — connecting this unit's volta coverage to Unit 2's earlier enjambment material. Choice 0 is factually wrong; the second-to-third stanza transition specifically continues a sentence across the break. Choice 2 is too narrow — the poem's flow crosses stanza boundaries, not just line boundaries within a stanza. Choice 3 misreads the effect as accidental discontinuity when the continuity actively reinforces, rather than fights, the poem's content."
+        "explanation": "The sentence carries grammatically and thematically from the volta's complication into the further complication about explaining it to others, so the structural continuity across the stanza break mirrors an ongoing, still-developing difficulty rather than a single contained realization — connecting this unit's volta coverage to Unit 2's earlier enjambment material. Choice C is factually wrong; the second-to-third stanza transition specifically continues a sentence across the break. Choice A is too narrow — the poem's flow crosses stanza boundaries, not just line boundaries within a stanza. Choice B misreads the effect as accidental discontinuity when the continuity actively reinforces, rather than fights, the poem's content."
       },
       {
         "id": "2-7",
@@ -6775,7 +6775,7 @@ const QUESTIONS = {
           "The plain diction directly contradicts and undercuts the poem's use of synecdoche, since figurative language typically requires more elevated, ornate phrasing to register as such."
         ],
         "correct": 2,
-        "explanation": "The plain diction matches the working-class subject and the father's own plainness ('called it a good job'), creating stylistic consistency between the poem's language and the world and character it describes. Choice 0 mistakes simplicity for a lack of seriousness, when the plainness actually reinforces the poem's emotional weight. Choice 1 similarly conflates plain style with absent feeling, which the poem's carefully chosen imagery contradicts. Choice 2 finds tension where there is consonance; the plain diction and the plain, concrete synecdoche reinforce rather than undercut each other."
+        "explanation": "The plain diction matches the working-class subject and the father's own plainness ('called it a good job'), creating stylistic consistency between the poem's language and the world and character it describes. Choice A mistakes simplicity for a lack of seriousness, when the plainness actually reinforces the poem's emotional weight. Choice B similarly conflates plain style with absent feeling, which the poem's carefully chosen imagery contradicts. Choice D finds tension where there is consonance; the plain diction and the plain, concrete synecdoche reinforce rather than undercut each other."
       },
       {
         "id": "3-7",
@@ -6788,7 +6788,7 @@ const QUESTIONS = {
           "The final section's length contradicts the pattern the poem's earlier two sections had established."
         ],
         "correct": 0,
-        "explanation": "The final section's expansion, after two more compact earlier sections, mirrors both the longer time period it covers (years, not just the initial prognosis) and the more developed, settled emotion it conveys — form subtly reinforcing the sequence's cumulative content. Choice 1 mislabels a deliberate expansion as a broken pattern, when growing length is itself part of the design. Choice 2 mistakes intentional structural variation for carelessness. Choice 3 denies a relationship the poem's content and form clearly support."
+        "explanation": "The final section's expansion, after two more compact earlier sections, mirrors both the longer time period it covers (years, not just the initial prognosis) and the more developed, settled emotion it conveys — form subtly reinforcing the sequence's cumulative content. Choice D mislabels a deliberate expansion as a broken pattern, when growing length is itself part of the design. Choice B mistakes intentional structural variation for carelessness. Choice C denies a relationship the poem's content and form clearly support."
       },
       {
         "id": "4-7",
@@ -6801,7 +6801,7 @@ const QUESTIONS = {
           "This traditional rhyme scheme applied to modern corporate content adds another layer of ironic mismatch to the poem."
         ],
         "correct": 3,
-        "explanation": "Pairing an old, dignified poetic convention with contemporary corporate euphemism extends the poem's central form-content irony into its very choice of traditional verse structure — an additional layer of tension between how the poem sounds and what it describes. Choice 1 misreads reinforcement as contradiction; the formal scheme deepens rather than fights the poem's irony. Choice 2 mistakes a formal, old-fashioned technique for a literal historical setting the poem's content (restructuring letters) clearly rules out. Choice 3 undersells a relationship the poem's consistent ABAB pattern actively supports."
+        "explanation": "Pairing an old, dignified poetic convention with contemporary corporate euphemism extends the poem's central form-content irony into its very choice of traditional verse structure — an additional layer of tension between how the poem sounds and what it describes. Choice B misreads reinforcement as contradiction; the formal scheme deepens rather than fights the poem's irony. Choice A mistakes a formal, old-fashioned technique for a literal historical setting the poem's content (restructuring letters) clearly rules out. Choice C undersells a relationship the poem's consistent ABAB pattern actively supports."
       },
       {
         "id": "5-7",
@@ -6814,7 +6814,7 @@ const QUESTIONS = {
           "This shift suggests the mill has actually reopened and is once again operating within the town."
         ],
         "correct": 1,
-        "explanation": "The shift into present-tense, ongoing consequence — children still walking the roads, windows still graying — extends the poem's irony and synecdoche beyond a single past moment, showing loss accumulating in the present and deepening the poem's temporal scope beyond the initial volta. Choice 0 contradicts the poem's plaque and graying-windows imagery, which confirm the mill remains closed. Choice 1 denies a clear continuation of the poem's established techniques into its final stanzas. Choice 2 misreads development as contradiction; the shift builds on, rather than undoes, the earlier established pattern."
+        "explanation": "The shift into present-tense, ongoing consequence — children still walking the roads, windows still graying — extends the poem's irony and synecdoche beyond a single past moment, showing loss accumulating in the present and deepening the poem's temporal scope beyond the initial volta. Choice D contradicts the poem's plaque and graying-windows imagery, which confirm the mill remains closed. Choice A denies a clear continuation of the poem's established techniques into its final stanzas. Choice C misreads development as contradiction; the shift builds on, rather than undoes, the earlier established pattern."
       },
       {
         "id": "1-8",
@@ -6827,7 +6827,7 @@ const QUESTIONS = {
           "That a person can hold genuine acceptance of a loss while still carrying an involuntary exception to that acceptance."
         ],
         "correct": 3,
-        "explanation": "The poem insists the acceptance is real ('the rest of the answer is true') while also showing it coexists with an involuntary exception, suggesting resolution isn't necessarily total and that seemingly contradictory emotional states can both be genuinely true at once. Choice 0 overstates the poem's skepticism; nothing suggests the acceptance is merely performed, only that it isn't complete. Choice 1 asserts the opposite of what the poem shows, since the whole volta exists to complicate any claim that stated acceptance equals total resolution. Choice 2 misses that the poem does take a position — it's just a nuanced one about partial, coexisting truths rather than a simple yes-or-no."
+        "explanation": "The poem insists the acceptance is real ('the rest of the answer is true') while also showing it coexists with an involuntary exception, suggesting resolution isn't necessarily total and that seemingly contradictory emotional states can both be genuinely true at once. Choice A overstates the poem's skepticism; nothing suggests the acceptance is merely performed, only that it isn't complete. Choice B asserts the opposite of what the poem shows, since the whole volta exists to complicate any claim that stated acceptance equals total resolution. Choice C misses that the poem does take a position — it's just a nuanced one about partial, coexisting truths rather than a simple yes-or-no."
       },
       {
         "id": "2-8",
@@ -6840,7 +6840,7 @@ const QUESTIONS = {
           "That the true cost of labor can go unnamed by the person who bore it, with fuller acknowledgment falling to the next generation."
         ],
         "correct": 3,
-        "explanation": "The father calls it simply 'a good job,' leaving the fuller acknowledgment of its cost to the speaker, who must piece together and articulate what the parent never fully expressed — a thematically rich claim about intergenerational memory. Choice 1 claims the opposite of what the poem shows, since the father's silence, not open discussion, drives the poem's central tension. Choice 2 misses that the poem does take a clear position through its whole structure of revealing what the father left unsaid. Choice 3 contradicts the poem's entire premise, which is built around real, accumulating physical cost."
+        "explanation": "The father calls it simply 'a good job,' leaving the fuller acknowledgment of its cost to the speaker, who must piece together and articulate what the parent never fully expressed — a thematically rich claim about intergenerational memory. Choice A claims the opposite of what the poem shows, since the father's silence, not open discussion, drives the poem's central tension. Choice B misses that the poem does take a clear position through its whole structure of revealing what the father left unsaid. Choice C contradicts the poem's entire premise, which is built around real, accumulating physical cost."
       },
       {
         "id": "3-8",
@@ -6853,7 +6853,7 @@ const QUESTIONS = {
           "That active counting can reflect anxious uncertainty, and abandoning it can itself mark a shift toward settled gratitude."
         ],
         "correct": 3,
-        "explanation": "Actively counting survival time can reflect an anxious, uncertain relationship to an outcome, while abandoning that counting can itself mark a meaningful emotional shift toward settled acceptance — the cessation of measurement becoming significant precisely because of what it replaces. Choice 1 contradicts the text directly, which states they 'stopped counting.' Choice 2 asserts the opposite of the poem's arc, where counting's abandonment, not its continuation, signals emotional progress. Choice 3 misses the clear, specific claim the poem's final section makes about counting and gratitude."
+        "explanation": "Actively counting survival time can reflect an anxious, uncertain relationship to an outcome, while abandoning that counting can itself mark a meaningful emotional shift toward settled acceptance — the cessation of measurement becoming significant precisely because of what it replaces. Choice B contradicts the text directly, which states they 'stopped counting.' Choice A asserts the opposite of the poem's arc, where counting's abandonment, not its continuation, signals emotional progress. Choice C misses the clear, specific claim the poem's final section makes about counting and gratitude."
       },
       {
         "id": "4-8",
@@ -6866,7 +6866,7 @@ const QUESTIONS = {
           "That the poem takes no clear position on institutional communication's capacity for genuine human acknowledgment."
         ],
         "correct": 0,
-        "explanation": "The letter's unchanging formulaic cheerfulness, regardless of whether it delivers good or devastating news, suggests such communication is oriented more toward maintaining institutional tone than toward genuinely acknowledging human impact. Choice 0 misses the clear critical position the poem's repeated font and language details build toward. Choice 2 claims the opposite of the poem's central complaint, which is precisely that institutional language fails at genuine acknowledgment. Choice 3 introduces unreliability the poem gives no indication of; the speaker's account reads as a direct, credible report."
+        "explanation": "The letter's unchanging formulaic cheerfulness, regardless of whether it delivers good or devastating news, suggests such communication is oriented more toward maintaining institutional tone than toward genuinely acknowledging human impact. Choice D misses the clear critical position the poem's repeated font and language details build toward. Choice C claims the opposite of the poem's central complaint, which is precisely that institutional language fails at genuine acknowledgment. Choice B introduces unreliability the poem gives no indication of; the speaker's account reads as a direct, credible report."
       },
       {
         "id": "5-8",
@@ -6879,7 +6879,7 @@ const QUESTIONS = {
           "That institutional euphemism always successfully obscures the underlying reality from everyone it affects."
         ],
         "correct": 1,
-        "explanation": "Institutional language can carefully avoid certain words ('closed'), but the lived, physical reality — graying windows, a plaque needing to compensate with 'legacy' — makes the avoided truth apparent regardless, suggesting euphemism can control official language while failing to control the visible facts a community actually experiences. Choice 0 overstates euphemism's power, which the poem's closing lines explicitly undercut. Choice 1 claims a success the poem never asserts; the town's roads and windows tell a different story than the plaque. Choice 2 misses the clear position the poem's final stanza takes."
+        "explanation": "Institutional language can carefully avoid certain words ('closed'), but the lived, physical reality — graying windows, a plaque needing to compensate with 'legacy' — makes the avoided truth apparent regardless, suggesting euphemism can control official language while failing to control the visible facts a community actually experiences. Choice D overstates euphemism's power, which the poem's closing lines explicitly undercut. Choice A claims a success the poem never asserts; the town's roads and windows tell a different story than the plaque. Choice C misses the clear position the poem's final stanza takes."
       },
       {
         "id": "1-9",
@@ -6892,7 +6892,7 @@ const QUESTIONS = {
           "Passage 4 relies on a volta structurally identical to Passage 1's, applied to a different subject."
         ],
         "correct": 0,
-        "explanation": "Passage 1's volta reveals the speaker's own involuntary habit, which they consciously withhold from others ('I've stopped mentioning this part'), while Passage 4's irony exposes an institution's calculated use of cheerful language to soften harsh news — one concealment personal and largely unconscious in origin, the other deliberate and institutional. Choice 1 ignores that both poems explicitly foreground concealment as a theme. Choice 2 collapses a meaningful distinction the two poems draw between personal and institutional concealment. Choice 3 misidentifies Passage 4's technique, which the unit classifies as irony (Section 8.4), not a volta."
+        "explanation": "Passage 1's volta reveals the speaker's own involuntary habit, which they consciously withhold from others ('I've stopped mentioning this part'), while Passage 4's irony exposes an institution's calculated use of cheerful language to soften harsh news — one concealment personal and largely unconscious in origin, the other deliberate and institutional. Choice B ignores that both poems explicitly foreground concealment as a theme. Choice C collapses a meaningful distinction the two poems draw between personal and institutional concealment. Choice D misidentifies Passage 4's technique, which the unit classifies as irony (Section 8.4), not a volta."
       },
       {
         "id": "2-9",
@@ -6905,7 +6905,7 @@ const QUESTIONS = {
           "Only one of the two poems actually uses any meaningful figurative compression in its imagery."
         ],
         "correct": 1,
-        "explanation": "Passage 2's body parts and Passage 5's 'Sunday shoes' and 'roads' both use concrete, specific parts to stand for a larger abstract whole — a father's physical toll, a mill's economic influence — demonstrating Section 8.2's principle applied to genuinely different subjects. Choice 0 is factually wrong, since both poems clearly use figurative compression. Choice 1 denies a real structural parallel the two poems share despite different content. Choice 3 overstates the similarity; the specific images differ even as the underlying technique matches."
+        "explanation": "Passage 2's body parts and Passage 5's 'Sunday shoes' and 'roads' both use concrete, specific parts to stand for a larger abstract whole — a father's physical toll, a mill's economic influence — demonstrating Section 8.2's principle applied to genuinely different subjects. Choice D is factually wrong, since both poems clearly use figurative compression. Choice C denies a real structural parallel the two poems share despite different content. Choice A overstates the similarity; the specific images differ even as the underlying technique matches."
       },
       {
         "id": "3-9",
@@ -6918,7 +6918,7 @@ const QUESTIONS = {
           "Poetic sequence, since numbered sections building cumulative, reframing meaning is precisely this unit's Section 8.3 pattern."
         ],
         "correct": 3,
-        "explanation": "Numbered sections that build cumulative meaning — and reframe earlier sections once later ones arrive — is exactly Section 8.3's pattern, regardless of the specific organizing device (a prognosis, or seasons). Choice 0 misapplies volta, a single located turn, to a technique built on multiple sections accumulating meaning together. Choice 2 misapplies synecdoche, which substitutes a part for a whole rather than describing sections unfolding over time. Choice 3 misapplies irony without any indicated mismatch between the poem's form and its content."
+        "explanation": "Numbered sections that build cumulative meaning — and reframe earlier sections once later ones arrive — is exactly Section 8.3's pattern, regardless of the specific organizing device (a prognosis, or seasons). Choice C misapplies volta, a single located turn, to a technique built on multiple sections accumulating meaning together. Choice B misapplies synecdoche, which substitutes a part for a whole rather than describing sections unfolding over time. Choice A misapplies irony without any indicated mismatch between the poem's form and its content."
       },
       {
         "id": "4-9",
@@ -6931,7 +6931,7 @@ const QUESTIONS = {
           "Synecdoche, since a natural disaster's aftermath could theoretically be represented by specific, concrete details."
         ],
         "correct": 1,
-        "explanation": "A cheerful, upbeat formal pattern applied to devastating content is exactly Section 8.4's pattern, regardless of the specific devastating content — job loss or natural disaster. Choice 0 misapplies sequence, which requires distinct labeled sections, not simply a description of aftermath. Choice 1 misapplies volta, a located turn in stance or argument, to a scenario that's really about sustained tonal mismatch. Choice 2 misapplies synecdoche, a part-for-whole substitution, when the scenario centers on the relationship between form and content, not on a representative detail."
+        "explanation": "A cheerful, upbeat formal pattern applied to devastating content is exactly Section 8.4's pattern, regardless of the specific devastating content — job loss or natural disaster. Choice C misapplies sequence, which requires distinct labeled sections, not simply a description of aftermath. Choice A misapplies volta, a located turn in stance or argument, to a scenario that's really about sustained tonal mismatch. Choice D misapplies synecdoche, a part-for-whole substitution, when the scenario centers on the relationship between form and content, not on a representative detail."
       },
       {
         "id": "5-9",
@@ -6944,7 +6944,7 @@ const QUESTIONS = {
           "Irony, since a specific piece of household furniture could theoretically generate ironic tension in a poem."
         ],
         "correct": 1,
-        "explanation": "A specific object ('the good chair') representing something larger and more abstract — a family's changing fortunes — is exactly Section 8.2's pattern, regardless of the specific object chosen as the vehicle. Choice 1 misapplies sequence, which requires distinct labeled sections rather than a single recurring image spanning generations. Choice 2 misapplies volta, a located structural turn, to a scenario centered on sustained figurative substitution instead. Choice 3 misapplies irony without any indicated mismatch between the poem's form and its content."
+        "explanation": "A specific object ('the good chair') representing something larger and more abstract — a family's changing fortunes — is exactly Section 8.2's pattern, regardless of the specific object chosen as the vehicle. Choice C misapplies sequence, which requires distinct labeled sections rather than a single recurring image spanning generations. Choice A misapplies volta, a located structural turn, to a scenario centered on sustained figurative substitution instead. Choice D misapplies irony without any indicated mismatch between the poem's form and its content."
       },
       {
         "id": "1-10",
@@ -6957,7 +6957,7 @@ const QUESTIONS = {
           "Units 2 and 5's foundational and intermediate skills become irrelevant once this unit's more advanced techniques appear."
         ],
         "correct": 1,
-        "explanation": "This unit sharpens earlier techniques into more advanced forms — Unit 2's tonal shift becomes this unit's precisely-located volta, Unit 5's extended conceit relates to this unit's more compressed synecdoche/metonymy — while adding genuinely new material (sequence, poetry-specific irony), the cumulative sophistication this course's structure builds toward. Choice 0 gets the relationship backwards; earlier skills remain the foundation this unit refines rather than discards. Choice 1 understates the unit's actual advances in precision and scope. Choice 3 overstates the unit's novelty, ignoring the clear continuity with Units 2 and 5 that the guide itself draws."
+        "explanation": "This unit sharpens earlier techniques into more advanced forms — Unit 2's tonal shift becomes this unit's precisely-located volta, Unit 5's extended conceit relates to this unit's more compressed synecdoche/metonymy — while adding genuinely new material (sequence, poetry-specific irony), the cumulative sophistication this course's structure builds toward. Choice D gets the relationship backwards; earlier skills remain the foundation this unit refines rather than discards. Choice C understates the unit's actual advances in precision and scope. Choice A overstates the unit's novelty, ignoring the clear continuity with Units 2 and 5 that the guide itself draws."
       },
       {
         "id": "2-10",
@@ -6970,7 +6970,7 @@ const QUESTIONS = {
           "The five poems demonstrate that only large-scale, historical subjects can carry genuine literary significance, since purely personal or domestic detail rarely rewards close analysis."
         ],
         "correct": 1,
-        "explanation": "Passages 2 and 5 in particular ground large-scale economic forces — industrial labor's toll, a mill's closure — in specific personal detail (a father's hands, a pair of work boots, Sunday shoes), showing literature's capacity to make big forces legible through small, human-centered images. Choice 0 disconnects personal detail from technique when synecdoche is precisely how these poems achieve that connection. Choice 1 states the reverse of what the passages demonstrate, since small-scale detail is exactly what carries their larger significance. Choice 2 undersells how widely this pattern actually extends across the unit's poems."
+        "explanation": "Passages 2 and 5 in particular ground large-scale economic forces — industrial labor's toll, a mill's closure — in specific personal detail (a father's hands, a pair of work boots, Sunday shoes), showing literature's capacity to make big forces legible through small, human-centered images. Choice A disconnects personal detail from technique when synecdoche is precisely how these poems achieve that connection. Choice D states the reverse of what the passages demonstrate, since small-scale detail is exactly what carries their larger significance. Choice C undersells how widely this pattern actually extends across the unit's poems."
       },
       {
         "id": "3-10",
@@ -6983,7 +6983,7 @@ const QUESTIONS = {
           "Passage 4, since its central technique relies primarily on a single, sustained ironic mismatch within one poem."
         ],
         "correct": 1,
-        "explanation": "Passage 3's technique depends entirely on comparing its three numbered sections against one another — precisely the cross-section comparative reading this question describes, distinct from the single-poem close reading the other passages primarily require. Choice 1 overstates the similarity across all five poems, flattening a real distinction in how each is structured. Choice 2 misidentifies Passage 4, whose irony unfolds within one continuous poem rather than across separate sections. Choice 3 similarly misidentifies Passage 2, whose synecdoche likewise develops within a single continuous poem."
+        "explanation": "Passage 3's technique depends entirely on comparing its three numbered sections against one another — precisely the cross-section comparative reading this question describes, distinct from the single-poem close reading the other passages primarily require. Choice C overstates the similarity across all five poems, flattening a real distinction in how each is structured. Choice D misidentifies Passage 4, whose irony unfolds within one continuous poem rather than across separate sections. Choice A similarly misidentifies Passage 2, whose synecdoche likewise develops within a single continuous poem."
       },
       {
         "id": "4-10",
@@ -6996,7 +6996,7 @@ const QUESTIONS = {
           "Passages 2 and 5, since both poems trace how large-scale economic systems exact costs on individuals and communities."
         ],
         "correct": 3,
-        "explanation": "Passages 2 and 5 both explore how large-scale economic systems — factory labor, a mill's closure — exact costs on individuals and communities, grounding that broader concern in specific, personal, concrete detail in each case. Choice 0 misidentifies the shared concern, since Passages 1 and 3 focus on personal loss and illness rather than institutional or economic forces. Choice 1 denies a clear thematic pairing the poems' content supports. Choice 3 misattributes technique; Passage 4 relies on irony, not a volta, as established elsewhere in this unit's questions."
+        "explanation": "Passages 2 and 5 both explore how large-scale economic systems — factory labor, a mill's closure — exact costs on individuals and communities, grounding that broader concern in specific, personal, concrete detail in each case. Choice A misidentifies the shared concern, since Passages 1 and 3 focus on personal loss and illness rather than institutional or economic forces. Choice C denies a clear thematic pairing the poems' content supports. Choice B misattributes technique; Passage 4 relies on irony, not a volta, as established elsewhere in this unit's questions."
       },
       {
         "id": "5-10",
@@ -7009,7 +7009,7 @@ const QUESTIONS = {
           "That every complex poem must ultimately be reduced to exactly one of this unit's five specifically named techniques."
         ],
         "correct": 2,
-        "explanation": "Sophisticated poems frequently locate meaning at the level of overall structure and figurative compression — where a turn happens, what a substituted image represents, how sections relate, where sound and sense diverge — as much as in individual images, and the most demanding poems require noticing several such choices operating together. Choice 0 wrongly forces every poem into a single-technique box, which Passage 5 itself disproves. Choice 1 introduces a length-based claim the unit never makes. Choice 3 wrongly limits multi-technique reading to poems that announce it, when this unit's own passages show the skill must be applied without such labels."
+        "explanation": "Sophisticated poems frequently locate meaning at the level of overall structure and figurative compression — where a turn happens, what a substituted image represents, how sections relate, where sound and sense diverge — as much as in individual images, and the most demanding poems require noticing several such choices operating together. Choice D wrongly forces every poem into a single-technique box, which Passage 5 itself disproves. Choice A introduces a length-based claim the unit never makes. Choice B wrongly limits multi-technique reading to poems that announce it, when this unit's own passages show the skill must be applied without such labels."
       },
       {
         "id": "1-11",
@@ -7022,7 +7022,7 @@ const QUESTIONS = {
           "This unit removes the concept of tonal shift from consideration entirely, replacing Unit 2's broader idea with the narrower, more specific concept of the volta."
         ],
         "correct": 2,
-        "explanation": "Where Unit 2 introduced tonal shift broadly, this unit adds the more technical skill of precisely locating the turn's signal (a word like 'until') and connects that turn to its classical association with sonnet structure — a sharper, more specific version of the same underlying idea. Choice 0 misdescribes the relationship as replacement rather than refinement. Choice 1 misses the genuine addition of precision and formal context the guide introduces. Choice 3 wrongly narrows the technique to sonnets only; Passage 1 itself demonstrates a volta in a non-sonnet poem, showing the concept generalizes."
+        "explanation": "Where Unit 2 introduced tonal shift broadly, this unit adds the more technical skill of precisely locating the turn's signal (a word like 'until') and connects that turn to its classical association with sonnet structure — a sharper, more specific version of the same underlying idea. Choice D misdescribes the relationship as replacement rather than refinement. Choice B misses the genuine addition of precision and formal context the guide introduces. Choice A wrongly narrows the technique to sonnets only; Passage 1 itself demonstrates a volta in a non-sonnet poem, showing the concept generalizes."
       },
       {
         "id": "2-11",
@@ -7035,7 +7035,7 @@ const QUESTIONS = {
           "Memorizing each specific technique name covered across all three poetry units in isolation from the others."
         ],
         "correct": 0,
-        "explanation": "The most beneficial habit is approaching any exam poem with the full cumulative toolkit — foundational elements, intermediate techniques, and this unit's advanced ones — remaining alert to genuine combination rather than forcing a poem into one category. Choice 0 wrongly assumes single-technique poems are the norm, when this unit's own Passage 5 demonstrates otherwise. Choice 2 confuses rote naming with the applied skill of recognizing techniques in unfamiliar poems. Choice 3 wrongly discards foundational skills that remain necessary even when advanced techniques are also present."
+        "explanation": "The most beneficial habit is approaching any exam poem with the full cumulative toolkit — foundational elements, intermediate techniques, and this unit's advanced ones — remaining alert to genuine combination rather than forcing a poem into one category. Choice B wrongly assumes single-technique poems are the norm, when this unit's own Passage 5 demonstrates otherwise. Choice D confuses rote naming with the applied skill of recognizing techniques in unfamiliar poems. Choice C wrongly discards foundational skills that remain necessary even when advanced techniques are also present."
       },
       {
         "id": "3-11",
@@ -7048,7 +7048,7 @@ const QUESTIONS = {
           "This technique requires exactly three sections in every case, no more and no fewer, to function as a genuine sequence."
         ],
         "correct": 1,
-        "explanation": "Section 8.3's approach — considering how each section builds on, complicates, or reframes the others — applies directly regardless of whether sections are numbered, titled by year, or otherwise labeled, since the labeling method is a surface detail rather than the technique's essential structural principle. Choice 0 wrongly fixes the technique to a specific section count this unit's example happens to use. Choice 2 and choice 3 both wrongly treat the roman-numeral format as essential, when Section 8.3's underlying logic — cumulative, comparative meaning across sections — doesn't depend on how those sections are labeled."
+        "explanation": "Section 8.3's approach — considering how each section builds on, complicates, or reframes the others — applies directly regardless of whether sections are numbered, titled by year, or otherwise labeled, since the labeling method is a surface detail rather than the technique's essential structural principle. Choice D wrongly fixes the technique to a specific section count this unit's example happens to use. Choice A and choice C both wrongly treat the roman-numeral format as essential, when Section 8.3's underlying logic — cumulative, comparative meaning across sections — doesn't depend on how those sections are labeled."
       },
       {
         "id": "4-11",
@@ -7061,7 +7061,7 @@ const QUESTIONS = {
           "Irony, since a gentle, soothing formal pattern applied to painful content is precisely this unit's form-content mismatch."
         ],
         "correct": 3,
-        "explanation": "A soothing formal pattern (a lullaby's meter) applied to painful content is exactly Section 8.4's pattern, regardless of the specific gentle form used. Choice 0 misapplies volta, a located turn in stance, to a scenario centered on sustained tonal mismatch rather than a shift. Choice 1 misapplies sequence, which requires distinct labeled sections rather than one continuous scenario. Choice 2 misapplies synecdoche, a part-for-whole substitution, when the scenario is fundamentally about the relationship between a poem's sound and its meaning."
+        "explanation": "A soothing formal pattern (a lullaby's meter) applied to painful content is exactly Section 8.4's pattern, regardless of the specific gentle form used. Choice B misapplies volta, a located turn in stance, to a scenario centered on sustained tonal mismatch rather than a shift. Choice C misapplies sequence, which requires distinct labeled sections rather than one continuous scenario. Choice A misapplies synecdoche, a part-for-whole substitution, when the scenario is fundamentally about the relationship between a poem's sound and its meaning."
       },
       {
         "id": "5-11",
@@ -7074,7 +7074,7 @@ const QUESTIONS = {
           "No poem in this unit's practice set combines more than one single technique at any point in its text."
         ],
         "correct": 2,
-        "explanation": "Passage 5 is explicitly designed to demonstrate this unit's synthesis principle, combining synecdoche, volta, and irony within one poem, making it the clearest candidate for greatest technique combination among the unit's five poems. Choice 0 correctly identifies Passage 1's primary technique but wrongly implies no other passage combines more, when Passage 5 clearly does. Choice 1 makes the same kind of error regarding Passage 2's single primary technique. Choice 2 denies a combination this unit's own Section 8.5 explicitly builds Passage 5 to demonstrate."
+        "explanation": "Passage 5 is explicitly designed to demonstrate this unit's synthesis principle, combining synecdoche, volta, and irony within one poem, making it the clearest candidate for greatest technique combination among the unit's five poems. Choice B correctly identifies Passage 1's primary technique but wrongly implies no other passage combines more, when Passage 5 clearly does. Choice A makes the same kind of error regarding Passage 2's single primary technique. Choice D denies a combination this unit's own Section 8.5 explicitly builds Passage 5 to demonstrate."
       },
       {
         "id": "1-12",
@@ -7087,7 +7087,7 @@ const QUESTIONS = {
           "Volta, since a final section undermining an established earlier argument is precisely this unit's Section 8.1 pattern."
         ],
         "correct": 3,
-        "explanation": "A final section that undermines or complicates an argument built across preceding lines is exactly this unit's Section 8.1 volta pattern, and the scenario's sonnet form makes this especially fitting given the volta's classical association with that structure. Choice 1 misapplies irony, which concerns a gap between form/tone and content, not a structural turn in argument. Choice 2 misapplies sequence, which requires distinct numbered or titled sections building cumulative meaning, not a single continuous sonnet. Choice 3 misapplies synecdoche, which substitutes a specific part for a whole rather than describing a shift in an argument's direction."
+        "explanation": "A final section that undermines or complicates an argument built across preceding lines is exactly this unit's Section 8.1 volta pattern, and the scenario's sonnet form makes this especially fitting given the volta's classical association with that structure. Choice A misapplies irony, which concerns a gap between form/tone and content, not a structural turn in argument. Choice C misapplies sequence, which requires distinct numbered or titled sections building cumulative meaning, not a single continuous sonnet. Choice B misapplies synecdoche, which substitutes a specific part for a whole rather than describing a shift in an argument's direction."
       },
       {
         "id": "2-12",
@@ -7100,7 +7100,7 @@ const QUESTIONS = {
           "Poetic sequence, since a recurring word appearing across a poem could theoretically organize it into numbered stages."
         ],
         "correct": 2,
-        "explanation": "A specific place or object ('the mine') standing in for a whole town's identity and economy is exactly Section 8.2's pattern, regardless of whether the vehicle is a mill, a mine, or a factory. Choice 1 misapplies irony, which requires a form-content mismatch, not simply a recurring word. Choice 2 misapplies volta, which marks a shift in argument or stance, not the introduction of a repeated image. Choice 3 misapplies sequence, which requires distinct numbered or titled sections, not mere repetition of one word across a continuous poem."
+        "explanation": "A specific place or object ('the mine') standing in for a whole town's identity and economy is exactly Section 8.2's pattern, regardless of whether the vehicle is a mill, a mine, or a factory. Choice B misapplies irony, which requires a form-content mismatch, not simply a recurring word. Choice A misapplies volta, which marks a shift in argument or stance, not the introduction of a repeated image. Choice D misapplies sequence, which requires distinct numbered or titled sections, not mere repetition of one word across a continuous poem."
       },
       {
         "id": "4-12",
@@ -7113,7 +7113,7 @@ const QUESTIONS = {
           "Irony, since a repeated phrase recurring across a poem's separate sections could theoretically generate ironic tension purely through its own repetition."
         ],
         "correct": 0,
-        "explanation": "Numbered sections that build cumulative meaning through repetition-with-variation across sections is exactly Section 8.3's pattern, regardless of the specific phrase or timespan involved. Choice 0 wrongly equates sequence with volta; a volta is one shift within a continuous poem, not an ongoing structural pattern built across separate labeled sections. Choice 1 misapplies irony without any indicated mismatch between form and content. Choice 2 misapplies synecdoche, a part-for-whole substitution, to a scenario that's really about structure unfolding across sections."
+        "explanation": "Numbered sections that build cumulative meaning through repetition-with-variation across sections is exactly Section 8.3's pattern, regardless of the specific phrase or timespan involved. Choice B wrongly equates sequence with volta; a volta is one shift within a continuous poem, not an ongoing structural pattern built across separate labeled sections. Choice D misapplies irony without any indicated mismatch between form and content. Choice C misapplies synecdoche, a part-for-whole substitution, to a scenario that's really about structure unfolding across sections."
       },
       {
         "id": "5-12",
@@ -7126,7 +7126,7 @@ const QUESTIONS = {
           "Passage 4, which relies on irony alone, with no sequence structure present anywhere in its stanzas."
         ],
         "correct": 1,
-        "explanation": "Passage 3 combines poetic sequence and irony directly: its three numbered sections build cumulative meaning through the repeated 'the doctor said six months,' while the sustained gap between that prediction and the family's much longer lived reality creates situational irony throughout, making it the clearest example of these two techniques working together. Choice 0 and choice 1 each correctly name one technique present in Passages 1 or 4 but miss that neither passage combines it with sequence the way Passage 3 does. Choice 2 denies a combination the poem's own structure and content clearly demonstrate."
+        "explanation": "Passage 3 combines poetic sequence and irony directly: its three numbered sections build cumulative meaning through the repeated 'the doctor said six months,' while the sustained gap between that prediction and the family's much longer lived reality creates situational irony throughout, making it the clearest example of these two techniques working together. Choice A and choice D each correctly name one technique present in Passages 1 or 4 but miss that neither passage combines it with sequence the way Passage 3 does. Choice C denies a combination the poem's own structure and content clearly demonstrate."
       },
       {
         "id": "3-12",
@@ -7139,7 +7139,7 @@ const QUESTIONS = {
           "The ordering is essentially arbitrary, reflecting no particular pedagogical sequencing choice by the unit's designers."
         ],
         "correct": 2,
-        "explanation": "Ending with Passage 5's explicit multi-technique combination lets students first practice each individual technique somewhat separately (Passages 1–4, each emphasizing one central technique) before the full synthesis challenge — the same scaffolding Unit 7 used for short fiction, now applied to poetry. Choice 0 misreads placement as a judgment of importance rather than a deliberate difficulty progression. Choice 1 denies the clear pedagogical logic the parallel to Unit 7 demonstrates. Choice 2 substitutes an unstated biographical claim for the structural reasoning the unit's own design actually reflects."
+        "explanation": "Ending with Passage 5's explicit multi-technique combination lets students first practice each individual technique somewhat separately (Passages 1–4, each emphasizing one central technique) before the full synthesis challenge — the same scaffolding Unit 7 used for short fiction, now applied to poetry. Choice A misreads placement as a judgment of importance rather than a deliberate difficulty progression. Choice D denies the clear pedagogical logic the parallel to Unit 7 demonstrates. Choice B substitutes an unstated biographical claim for the structural reasoning the unit's own design actually reflects."
       },
       {
         "id": "1-13",
@@ -7152,7 +7152,7 @@ const QUESTIONS = {
           "The ability to recite this final unit's five technique names, without necessarily applying them to new poems."
         ],
         "correct": 2,
-        "explanation": "Across Units 2, 5, and 8, a strong reader accumulates foundational skills (sentence sense, imagery, sound, metaphor, speaker/tone), intermediate techniques (form, apostrophe, conceit, ambiguity, allusion), and this unit's advanced, often-combined techniques (volta, synecdoche/metonymy, sequence, poetic irony) — a full, layered toolkit rather than a narrow one. Choice 0 wrongly discards the earlier units' skills, which this unit explicitly builds on rather than replaces. Choice 2 confuses naming techniques with the deeper skill of applying them to unfamiliar poems. Choice 3 wrongly limits the payoff to memorized poems rather than a transferable analytical approach."
+        "explanation": "Across Units 2, 5, and 8, a strong reader accumulates foundational skills (sentence sense, imagery, sound, metaphor, speaker/tone), intermediate techniques (form, apostrophe, conceit, ambiguity, allusion), and this unit's advanced, often-combined techniques (volta, synecdoche/metonymy, sequence, poetic irony) — a full, layered toolkit rather than a narrow one. Choice B wrongly discards the earlier units' skills, which this unit explicitly builds on rather than replaces. Choice D confuses naming techniques with the deeper skill of applying them to unfamiliar poems. Choice A wrongly limits the payoff to memorized poems rather than a transferable analytical approach."
       },
       {
         "id": "2-13",
@@ -7165,7 +7165,7 @@ const QUESTIONS = {
           "Synecdoche substitutes a part for a whole briefly, while conceit develops an extended comparison across multiple lines or stanzas."
         ],
         "correct": 3,
-        "explanation": "Synecdoche substitutes a specific part for a whole in a brief, compressed move — a word or short phrase — while conceit develops an extended comparison across multiple lines with several elaborated points of correspondence, different scales of figurative development within the course's broader coverage. Choice 0 wrongly denies conceit's status as figurative substitution, which it clearly is, just on a larger scale. Choice 2 collapses a real distinction in scale and development between the two techniques. Choice 3 similarly denies a meaningful difference the guide's own definitions draw."
+        "explanation": "Synecdoche substitutes a specific part for a whole in a brief, compressed move — a word or short phrase — while conceit develops an extended comparison across multiple lines with several elaborated points of correspondence, different scales of figurative development within the course's broader coverage. Choice B wrongly denies conceit's status as figurative substitution, which it clearly is, just on a larger scale. Choice A collapses a real distinction in scale and development between the two techniques. Choice C similarly denies a meaningful difference the guide's own definitions draw."
       },
       {
         "id": "3-13",
@@ -7178,7 +7178,7 @@ const QUESTIONS = {
           "Memorizing the five specific poems covered in this unit's own practice set for direct recall on the exam."
         ],
         "correct": 1,
-        "explanation": "Checking any new poem for a located turn (volta), compressed figurative substitution (synecdoche/metonymy), multi-part cumulative structure (sequence), and tension between sound/form and content (irony) as a flexible diagnostic — rather than assuming one predetermined technique — is the habit most likely to transfer to unfamiliar poems. Choice 1 abandons structural analysis entirely, which this unit's own poems show is often where meaning concentrates. Choice 2 wrongly assumes single-technique poems are the norm, contradicted by Passage 5. Choice 3 confuses memorizing this unit's specific poems with the transferable skill the question actually asks about."
+        "explanation": "Checking any new poem for a located turn (volta), compressed figurative substitution (synecdoche/metonymy), multi-part cumulative structure (sequence), and tension between sound/form and content (irony) as a flexible diagnostic — rather than assuming one predetermined technique — is the habit most likely to transfer to unfamiliar poems. Choice C abandons structural analysis entirely, which this unit's own poems show is often where meaning concentrates. Choice A wrongly assumes single-technique poems are the norm, contradicted by Passage 5. Choice D confuses memorizing this unit's specific poems with the transferable skill the question actually asks about."
       },
       {
         "id": "4-13",
@@ -7191,7 +7191,7 @@ const QUESTIONS = {
           "It serves primarily as a simpler, easier poem included mainly to close out the unit on a gentle note."
         ],
         "correct": 0,
-        "explanation": "Passage 5's mill town poem is written to combine this unit's most distinctive techniques (synecdoche, volta, irony) within one text, modeling in miniature the synthesis-aware reading this course has built toward, completing the combined-technique demands the poetry sequence has progressively required. Choice 0 misreads deliberate complexity as simplicity; the poem is, if anything, the unit's most demanding text. Choice 1 denies the clear technical and thematic threads connecting it to the unit's earlier poems. Choice 2 understates a role the unit's own Section 8.5 explicitly assigns to this specific poem."
+        "explanation": "Passage 5's mill town poem is written to combine this unit's most distinctive techniques (synecdoche, volta, irony) within one text, modeling in miniature the synthesis-aware reading this course has built toward, completing the combined-technique demands the poetry sequence has progressively required. Choice D misreads deliberate complexity as simplicity; the poem is, if anything, the unit's most demanding text. Choice C denies the clear technical and thematic threads connecting it to the unit's earlier poems. Choice B understates a role the unit's own Section 8.5 explicitly assigns to this specific poem."
       },
       {
         "id": "5-13",
@@ -7204,7 +7204,7 @@ const QUESTIONS = {
           "That Unit 9 will require entirely new skills with no meaningful connection to anything covered in Units 1 through 8, given how different long fiction and drama are from poetry."
         ],
         "correct": 2,
-        "explanation": "Following the pattern of Units 7 and 8, Unit 9 will likely combine foundational, intermediate, and advanced techniques from across the course's full arc — meaning the flexible, combination-aware approach this unit and Unit 7 have modeled should transfer directly to whatever techniques Unit 9 introduces. Choice 0 wrongly assumes no pattern exists to extrapolate from, when Units 7 and 8's shared structure provides exactly that basis. Choice 2 overstates Unit 9's novelty, ignoring the clear cumulative pattern the course has followed. Choice 3 arbitrarily privileges one earlier unit with no textual or structural basis for doing so."
+        "explanation": "Following the pattern of Units 7 and 8, Unit 9 will likely combine foundational, intermediate, and advanced techniques from across the course's full arc — meaning the flexible, combination-aware approach this unit and Unit 7 have modeled should transfer directly to whatever techniques Unit 9 introduces. Choice B wrongly assumes no pattern exists to extrapolate from, when Units 7 and 8's shared structure provides exactly that basis. Choice D overstates Unit 9's novelty, ignoring the clear cumulative pattern the course has followed. Choice A arbitrarily privileges one earlier unit with no textual or structural basis for doing so."
       }
     ]
   },

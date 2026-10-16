@@ -1043,7 +1043,7 @@ const QUESTIONS = {
         "No — cloture requires 60 votes, more than a simple majority."
       ],
       "correct": 3,
-      "explanation": "Ending debate (invoking cloture) generally requires 60 votes, not a simple majority — this higher threshold is exactly why the filibuster can block bills with majority but sub-60-vote support. Choice 0 is wrong because a bare majority cannot force a final vote against a filibuster; choice 1 is wrong because revenue bills face the same cloture rule, with no special carve-out; choice 3 is wrong because 60 votes is well short of unanimous consent, which is not required."
+      "explanation": "Ending debate (invoking cloture) generally requires 60 votes, not a simple majority — this higher threshold is exactly why the filibuster can block bills with majority but sub-60-vote support. Choice B is wrong because a bare majority cannot force a final vote against a filibuster; choice C is wrong because revenue bills face the same cloture rule, with no special carve-out; choice A is wrong because 60 votes is well short of unanimous consent, which is not required."
     },
     {
       "id": "2-8",
@@ -1056,7 +1056,7 @@ const QUESTIONS = {
         "To ensure both chambers would always reach identical votes on legislation."
       ],
       "correct": 2,
-      "explanation": "The two-chamber structure reflects the Great Compromise (Connecticut Compromise) at the Constitutional Convention, balancing larger states' preference for population-based representation (the House) against smaller states' preference for equal state representation (the Senate). Choice 0 is wrong because both chambers were created together in the original Constitution; choice 1 is wrong because the differing structures serve a real representational purpose, not mere redundancy; choice 3 is wrong because the chambers were designed to check each other, not to vote identically."
+      "explanation": "The two-chamber structure reflects the Great Compromise (Connecticut Compromise) at the Constitutional Convention, balancing larger states' preference for population-based representation (the House) against smaller states' preference for equal state representation (the Senate). Choice A is wrong because both chambers were created together in the original Constitution; choice B is wrong because the differing structures serve a real representational purpose, not mere redundancy; choice D is wrong because the chambers were designed to check each other, not to vote identically."
     },
     {
       "id": "2-9",
@@ -1082,7 +1082,7 @@ const QUESTIONS = {
         "That congressional districts must always follow county lines."
       ],
       "correct": 2,
-      "explanation": "Baker v. Carr made redistricting cases justiciable (previously treated as a 'political question' outside judicial review) and established the 'one person, one vote' principle, requiring districts within a state to have roughly equal populations. Choice 1 is wrong because racial gerrymandering is addressed by later cases like Shaw v. Reno, not Baker; choice 2 is wrong because the Court never imposed a county-line requirement; choice 3 is wrong because the Senate's equal representation by state is set by the Constitution itself and was not affected by this ruling."
+      "explanation": "Baker v. Carr made redistricting cases justiciable (previously treated as a 'political question' outside judicial review) and established the 'one person, one vote' principle, requiring districts within a state to have roughly equal populations. Choice A is wrong because racial gerrymandering is addressed by later cases like Shaw v. Reno, not Baker; choice D is wrong because the Court never imposed a county-line requirement; choice B is wrong because the Senate's equal representation by state is set by the Constitution itself and was not affected by this ruling."
     },
     {
       "id": "2-11",
@@ -1095,7 +1095,7 @@ const QUESTIONS = {
         "That race-predominant districting triggers strict scrutiny."
       ],
       "correct": 3,
-      "explanation": "Shaw v. Reno addressed racial gerrymandering specifically, ruling that districts drawn with race as the predominant factor are subject to strict judicial scrutiny and may violate the Equal Protection Clause. Choice 0 is wrong because the Court has not held that all partisan gerrymandering is unconstitutional; choice 2 is wrong because states retain the responsibility to draw districts, just under constitutional limits; choice 3 restates Baker v. Carr's population-equality holding, a separate issue from Shaw's race-based concern."
+      "explanation": "Shaw v. Reno addressed racial gerrymandering specifically, ruling that districts drawn with race as the predominant factor are subject to strict judicial scrutiny and may violate the Equal Protection Clause. Choice A is wrong because the Court has not held that all partisan gerrymandering is unconstitutional; choice C is wrong because states retain the responsibility to draw districts, just under constitutional limits; choice B restates Baker v. Carr's population-equality holding, a separate issue from Shaw's race-based concern."
     },
     {
       "id": "2-12",
@@ -1108,7 +1108,7 @@ const QUESTIONS = {
         "No — one addresses population equality, the other race-based districting."
       ],
       "correct": 3,
-      "explanation": "These two cases address genuinely different redistricting problems: Baker v. Carr is about ensuring roughly equal population across districts, while Shaw v. Reno is about limiting how much race can predominate in how district lines are drawn. Choice 0 is wrong because only Shaw concerns race; choice 2 is wrong because only Baker concerns population equality; choice 3 is wrong because both cases are squarely about redistricting."
+      "explanation": "These two cases address genuinely different redistricting problems: Baker v. Carr is about ensuring roughly equal population across districts, while Shaw v. Reno is about limiting how much race can predominate in how district lines are drawn. Choice B is wrong because only Shaw concerns race; choice C is wrong because only Baker concerns population equality; choice A is wrong because both cases are squarely about redistricting."
     },
     {
       "id": "2-13",
@@ -1134,7 +1134,7 @@ const QUESTIONS = {
         "A representative who always acts as a delegate."
       ],
       "correct": 2,
-      "explanation": "The politico model describes a blended approach: a representative might act as a delegate on high-salience issues where constituents have strong, clear preferences, and as a trustee on more technical or lower-visibility issues where their own judgment plays a larger role. Choice 0 is wrong because politicos do weigh constituent opinion, just not exclusively; choices 1 and 3 each describe a pure single model (trustee or delegate) rather than the blend that defines politico."
+      "explanation": "The politico model describes a blended approach: a representative might act as a delegate on high-salience issues where constituents have strong, clear preferences, and as a trustee on more technical or lower-visibility issues where their own judgment plays a larger role. Choice A is wrong because politicos do weigh constituent opinion, just not exclusively; choices B and D each describe a pure single model (trustee or delegate) rather than the blend that defines politico."
     },
     {
       "id": "2-15",
@@ -1186,7 +1186,7 @@ const QUESTIONS = {
         "Hamilton actually opposed a single executive in Federalist No. 70."
       ],
       "correct": 1,
-      "explanation": "Hamilton argued that a single executive provides 'energy in the executive' — the decisiveness and speed needed especially during a crisis — along with clearer accountability, since blame cannot be diffused across multiple officials the way it could with a council. Choice 1 is wrong because Federalist No. 70 does not argue removal ease as the rationale; choice 2 is wrong because Hamilton explicitly favored a single executive; choice 3 is wrong because Senate confirmation of the president is not the issue Federalist No. 70 addresses."
+      "explanation": "Hamilton argued that a single executive provides 'energy in the executive' — the decisiveness and speed needed especially during a crisis — along with clearer accountability, since blame cannot be diffused across multiple officials the way it could with a council. Choice C is wrong because Federalist No. 70 does not argue removal ease as the rationale; choice D is wrong because Hamilton explicitly favored a single executive; choice A is wrong because Senate confirmation of the president is not the issue Federalist No. 70 addresses."
     },
     {
       "id": "2-19",
@@ -1212,7 +1212,7 @@ const QUESTIONS = {
         "Holding a private meeting with congressional leaders."
       ],
       "correct": 0,
-      "explanation": "'Going public' describes a president's strategy of appealing directly to the public — through speeches, media appearances, and other means — to build public pressure that might, in turn, influence Congress or other actors to support the president's policy goals. Choice 1 is wrong because it describes a leak or disclosure, not a public appeal; choice 2 is wrong because resigning ends a president's ability to pursue any policy goal; choice 3 is wrong because it describes a private, not public, strategy — the opposite of 'going public.'"
+      "explanation": "'Going public' describes a president's strategy of appealing directly to the public — through speeches, media appearances, and other means — to build public pressure that might, in turn, influence Congress or other actors to support the president's policy goals. Choice C is wrong because it describes a leak or disclosure, not a public appeal; choice B is wrong because resigning ends a president's ability to pursue any policy goal; choice D is wrong because it describes a private, not public, strategy — the opposite of 'going public.'"
     },
     {
       "id": "2-21",
@@ -1238,7 +1238,7 @@ const QUESTIONS = {
         "No, executive orders can only be reversed by Congress."
       ],
       "correct": 0,
-      "explanation": "Because executive orders rest on informal, more contested constitutional authority rather than explicit statutory backing, they are comparatively fragile — a subsequent president can generally reverse a predecessor's executive order simply by issuing a new one. Choice 0 is wrong because executive orders are not permanent; choice 1 is wrong because Congress is not the only actor that can undo one — a president can do it directly; choice 3 is wrong because reversal requires nothing as demanding as a constitutional amendment."
+      "explanation": "Because executive orders rest on informal, more contested constitutional authority rather than explicit statutory backing, they are comparatively fragile — a subsequent president can generally reverse a predecessor's executive order simply by issuing a new one. Choice B is wrong because executive orders are not permanent; choice D is wrong because Congress is not the only actor that can undo one — a president can do it directly; choice C is wrong because reversal requires nothing as demanding as a constitutional amendment."
     },
     {
       "id": "2-23",
@@ -1251,7 +1251,7 @@ const QUESTIONS = {
         "Presidential power has steadily and continuously decreased since the founding."
       ],
       "correct": 1,
-      "explanation": "The general historical trend has been toward an expanded presidency, with informal powers (executive orders, executive agreements, going public, and others) developing well beyond the comparatively limited and specific formal powers Article II explicitly grants. Choice 0 is wrong because it reverses the actual trend; choice 2 is wrong because power has generally grown, not shrunk; choice 3 is wrong because the presidency has changed substantially through informal practice since 1789."
+      "explanation": "The general historical trend has been toward an expanded presidency, with informal powers (executive orders, executive agreements, going public, and others) developing well beyond the comparatively limited and specific formal powers Article II explicitly grants. Choice D is wrong because it reverses the actual trend; choice C is wrong because power has generally grown, not shrunk; choice A is wrong because the presidency has changed substantially through informal practice since 1789."
     },
     {
       "id": "2-24",
@@ -1303,7 +1303,7 @@ const QUESTIONS = {
         "Yes, impeachment alone removes a president from office."
       ],
       "correct": 1,
-      "explanation": "Impeachment by the House is only the first of two required steps — it's a formal accusation, not a removal. Removal requires the Senate to separately hold a trial and vote to convict by a 2/3 supermajority. Choice 1 is wrong because impeachment alone does not remove anyone; choice 2 is wrong because conviction requires 2/3, not unanimity; choice 3 is wrong because impeachment does have real legal effect — it triggers the Senate trial process."
+      "explanation": "Impeachment by the House is only the first of two required steps — it's a formal accusation, not a removal. Removal requires the Senate to separately hold a trial and vote to convict by a 2/3 supermajority. Choice D is wrong because impeachment alone does not remove anyone; choice C is wrong because conviction requires 2/3, not unanimity; choice A is wrong because impeachment does have real legal effect — it triggers the Senate trial process."
     },
     {
       "id": "2-28",
@@ -1342,7 +1342,7 @@ const QUESTIONS = {
         "Judicial review by the federal courts"
       ],
       "correct": 1,
-      "explanation": "This is the Senate exercising its constitutional 'advice and consent' role over presidential appointments — the president nominates, but the Senate's confirmation is required before an appointment is finalized. Choice 1 is wrong because judicial review involves courts assessing constitutionality, not confirming nominees; choice 2 is wrong because the veto applies to legislation, not nominations; choice 3 is wrong because impeachment targets removing an official, not blocking a nomination."
+      "explanation": "This is the Senate exercising its constitutional 'advice and consent' role over presidential appointments — the president nominates, but the Senate's confirmation is required before an appointment is finalized. Choice D is wrong because judicial review involves courts assessing constitutionality, not confirming nominees; choice A is wrong because the veto applies to legislation, not nominations; choice C is wrong because impeachment targets removing an official, not blocking a nomination."
     },
     {
       "id": "2-31",
@@ -1355,7 +1355,7 @@ const QUESTIONS = {
         "Senate confirmation of one nominee"
       ],
       "correct": 1,
-      "explanation": "While the power of the purse is a formal constitutional power, its practical leverage comes from its ongoing, pervasive nature — nearly every executive branch program depends on continued congressional funding, giving Congress persistent influence over presidential action well beyond any single up-or-down vote. Choices 0, 1, and 2 are each single, discrete formal votes rather than the sustained, recurring leverage the question asks about."
+      "explanation": "While the power of the purse is a formal constitutional power, its practical leverage comes from its ongoing, pervasive nature — nearly every executive branch program depends on continued congressional funding, giving Congress persistent influence over presidential action well beyond any single up-or-down vote. Choices A, C, and D are each single, discrete formal votes rather than the sustained, recurring leverage the question asks about."
     },
     {
       "id": "2-32",
@@ -1368,7 +1368,7 @@ const QUESTIONS = {
         "The power of the purse over funding."
       ],
       "correct": 2,
-      "explanation": "This illustrates how the mere threat of a veto can shape legislation before it's ever formally passed — Congress adjusting a bill in anticipation of a veto is a good example of a formal power's informal, anticipatory influence. Choice 0 is wrong because no court is involved; choice 1 is wrong because no funding or appropriations issue is at stake; choice 3 is wrong because no veto was actually cast — the bill was changed before final passage, precisely to avoid one."
+      "explanation": "This illustrates how the mere threat of a veto can shape legislation before it's ever formally passed — Congress adjusting a bill in anticipation of a veto is a good example of a formal power's informal, anticipatory influence. Choice B is wrong because no court is involved; choice D is wrong because no funding or appropriations issue is at stake; choice A is wrong because no veto was actually cast — the bill was changed before final passage, precisely to avoid one."
     },
     {
       "id": "2-33",
@@ -1381,7 +1381,7 @@ const QUESTIONS = {
         "Judicial review of laws and executive acts"
       ],
       "correct": 3,
-      "explanation": "Marbury v. Madison established judicial review — a power not explicitly stated in the Constitution's text, but reasoned by Chief Justice Marshall to be inherent in the judiciary's role of interpreting the supreme law of the land. Choice 1 is wrong because the power of the purse belongs to Congress, not the courts; choice 2 is wrong because that principle comes from Baker v. Carr; choice 3 is wrong because that clause was central to McCulloch v. Maryland, not Marbury."
+      "explanation": "Marbury v. Madison established judicial review — a power not explicitly stated in the Constitution's text, but reasoned by Chief Justice Marshall to be inherent in the judiciary's role of interpreting the supreme law of the land. Choice B is wrong because the power of the purse belongs to Congress, not the courts; choice C is wrong because that principle comes from Baker v. Carr; choice A is wrong because that clause was central to McCulloch v. Maryland, not Marbury."
     },
     {
       "id": "2-34",
@@ -1407,7 +1407,7 @@ const QUESTIONS = {
         "An executive order issued by the president."
       ],
       "correct": 2,
-      "explanation": "A writ of certiorari is a formal petition asking the Supreme Court to review and hear a case — the Court's primary mechanism for exercising its mostly discretionary jurisdiction over which cases it actually chooses to hear. Choice 1 is wrong because it describes a congressional, not judicial, tool; choice 2 is wrong because it describes an executive action unrelated to the Court's docket; choice 3 is wrong because it describes the impeachment process, not case review."
+      "explanation": "A writ of certiorari is a formal petition asking the Supreme Court to review and hear a case — the Court's primary mechanism for exercising its mostly discretionary jurisdiction over which cases it actually chooses to hear. Choice B is wrong because it describes a congressional, not judicial, tool; choice D is wrong because it describes an executive action unrelated to the Court's docket; choice A is wrong because it describes the impeachment process, not case review."
     },
     {
       "id": "2-36",
@@ -1420,7 +1420,7 @@ const QUESTIONS = {
         "Only two sitting justices"
       ],
       "correct": 1,
-      "explanation": "Under the 'rule of four,' at least four of the nine justices must agree to grant certiorari for the Supreme Court to hear a case — notably less than a majority of the full Court. Choice 0 is wrong because unanimity is not required; choice 1 is wrong because two is below the actual threshold; choice 3 is wrong because five (a majority) is more than the rule actually requires."
+      "explanation": "Under the 'rule of four,' at least four of the nine justices must agree to grant certiorari for the Supreme Court to hear a case — notably less than a majority of the full Court. Choice A is wrong because unanimity is not required; choice D is wrong because two is below the actual threshold; choice C is wrong because five (a majority) is more than the rule actually requires."
     },
     {
       "id": "2-37",
@@ -1433,7 +1433,7 @@ const QUESTIONS = {
         "No, its discretionary docket takes only a small fraction."
       ],
       "correct": 3,
-      "explanation": "The Supreme Court's jurisdiction is mostly discretionary — it grants certiorari for only a small fraction of the petitions it receives each year, leaving the vast majority of lower court rulings as the final word. Choice 0 is wrong because the Court is not obligated to hear nearly all cases; choice 1 is wrong because the Court also takes some non-constitutional cases, and its selectivity isn't limited to that category; choice 2 is wrong because the Court does grant certiorari regularly, just selectively."
+      "explanation": "The Supreme Court's jurisdiction is mostly discretionary — it grants certiorari for only a small fraction of the petitions it receives each year, leaving the vast majority of lower court rulings as the final word. Choice C is wrong because the Court is not obligated to hear nearly all cases; choice B is wrong because the Court also takes some non-constitutional cases, and its selectivity isn't limited to that category; choice A is wrong because the Court does grant certiorari regularly, just selectively."
     },
     {
       "id": "2-38",
@@ -1459,7 +1459,7 @@ const QUESTIONS = {
         "It was later explicitly added to the Constitution by amendment."
       ],
       "correct": 1,
-      "explanation": "Despite not being explicitly written into the Constitution, judicial review — established through Marshall's reasoning in Marbury v. Madison — has become foundational to the judiciary's role as a genuine, independent check on the legislative and executive branches. Choice 0 is wrong because no amendment ever codified judicial review; choice 1 is wrong because it applies to federal as well as state action; choice 2 is wrong because the question's premise is that it is significant despite lacking explicit text, not that it isn't."
+      "explanation": "Despite not being explicitly written into the Constitution, judicial review — established through Marshall's reasoning in Marbury v. Madison — has become foundational to the judiciary's role as a genuine, independent check on the legislative and executive branches. Choice D is wrong because no amendment ever codified judicial review; choice A is wrong because it applies to federal as well as state action; choice C is wrong because the question's premise is that it is significant despite lacking explicit text, not that it isn't."
     },
     {
       "id": "2-40",
@@ -1485,7 +1485,7 @@ const QUESTIONS = {
         "Whether a state could tax a federally-chartered bank."
       ],
       "correct": 1,
-      "explanation": "The immediate, narrow dispute in Marbury v. Madison concerned whether William Marbury was entitled to receive a judicial commission he had been promised — a relatively minor dispute that Chief Justice Marshall used as the occasion to establish the far more consequential principle of judicial review. Choice 1 describes McCulloch v. Maryland; choice 2 describes Commerce Clause cases like Gibbons v. Ogden; choice 3 describes Engel v. Vitale — none are the actual dispute in Marbury."
+      "explanation": "The immediate, narrow dispute in Marbury v. Madison concerned whether William Marbury was entitled to receive a judicial commission he had been promised — a relatively minor dispute that Chief Justice Marshall used as the occasion to establish the far more consequential principle of judicial review. Choice D describes McCulloch v. Maryland; choice C describes Commerce Clause cases like Gibbons v. Ogden; choice A describes Engel v. Vitale — none are the actual dispute in Marbury."
     },
     {
       "id": "2-42",
@@ -1498,7 +1498,7 @@ const QUESTIONS = {
         "The requirement that Supreme Court justices serve fixed 10-year terms."
       ],
       "correct": 1,
-      "explanation": "Stare decisis ('to stand by things decided') is the principle that courts generally adhere to established precedent from prior rulings, promoting legal predictability and stability rather than treating each new case as a completely fresh question. Choice 0 is wrong because justices serve during good behavior, not fixed 10-year terms; choice 1 is wrong because Supreme Court decisions need not be unanimous; choice 2 is wrong because Congress has no direct mechanism to override a judicial ruling this way."
+      "explanation": "Stare decisis ('to stand by things decided') is the principle that courts generally adhere to established precedent from prior rulings, promoting legal predictability and stability rather than treating each new case as a completely fresh question. Choice D is wrong because justices serve during good behavior, not fixed 10-year terms; choice A is wrong because Supreme Court decisions need not be unanimous; choice C is wrong because Congress has no direct mechanism to override a judicial ruling this way."
     },
     {
       "id": "2-43",
@@ -1511,7 +1511,7 @@ const QUESTIONS = {
         "To ensure judges never issue controversial rulings."
       ],
       "correct": 2,
-      "explanation": "Lifetime tenure is specifically designed to insulate federal judges from short-term political pressure, allowing them to rule based on legal judgment rather than fear of losing their position due to an unpopular decision. Choice 1 is wrong because insulation from pressure does not guarantee uncontroversial rulings; choice 2 is wrong because lifetime tenure applies to judges specifically, not all officials; choice 3 is wrong because lifetime tenure makes removal harder, not easier."
+      "explanation": "Lifetime tenure is specifically designed to insulate federal judges from short-term political pressure, allowing them to rule based on legal judgment rather than fear of losing their position due to an unpopular decision. Choice D is wrong because insulation from pressure does not guarantee uncontroversial rulings; choice B is wrong because lifetime tenure applies to judges specifically, not all officials; choice A is wrong because lifetime tenure makes removal harder, not easier."
     },
     {
       "id": "2-44",
@@ -1524,7 +1524,7 @@ const QUESTIONS = {
         "Yes, but only Supreme Court justices are subject to any check."
       ],
       "correct": 1,
-      "explanation": "Lifetime tenure protects judges from removal over the content of their rulings, but it does not make them immune from all checks — Congress retains the power to impeach and remove federal judges for serious misconduct, just as it can with the president. Choice 1 is wrong because an unpopular ruling alone is not grounds for removal; choice 2 is wrong because removal for misconduct remains possible; choice 3 is wrong because the impeachment check applies to federal judges generally, not just Supreme Court justices."
+      "explanation": "Lifetime tenure protects judges from removal over the content of their rulings, but it does not make them immune from all checks — Congress retains the power to impeach and remove federal judges for serious misconduct, just as it can with the president. Choice A is wrong because an unpopular ruling alone is not grounds for removal; choice C is wrong because removal for misconduct remains possible; choice D is wrong because the impeachment check applies to federal judges generally, not just Supreme Court justices."
     },
     {
       "id": "2-45",
@@ -1537,7 +1537,7 @@ const QUESTIONS = {
         "Because the judiciary is not a genuine branch of government."
       ],
       "correct": 2,
-      "explanation": "As Hamilton noted in Federalist No. 78, the judiciary lacks 'the sword' (direct enforcement power, unlike the executive) and 'the purse' (funding control, unlike the legislature) — its rulings only become effective if the other branches and the public choose to comply with them. Choice 1 reverses the actual relationship; choice 2 is wrong because the judiciary is a full constitutional branch; choice 3 is wrong because judicial rulings are legally binding, even though their enforcement depends on others' compliance."
+      "explanation": "As Hamilton noted in Federalist No. 78, the judiciary lacks 'the sword' (direct enforcement power, unlike the executive) and 'the purse' (funding control, unlike the legislature) — its rulings only become effective if the other branches and the public choose to comply with them. Choice B reverses the actual relationship; choice D is wrong because the judiciary is a full constitutional branch; choice A is wrong because judicial rulings are legally binding, even though their enforcement depends on others' compliance."
     },
     {
       "id": "2-46",
@@ -1550,7 +1550,7 @@ const QUESTIONS = {
         "No, only Congress can overturn a Supreme Court precedent."
       ],
       "correct": 1,
-      "explanation": "The Supreme Court does sometimes overturn its own precedent, but this is understood as a notable, closely scrutinized exception to the norm — precisely because stare decisis plays such a central role in maintaining the judiciary's perceived legitimacy. Choice 0 is wrong because overturning precedent is rare, not routine; choice 1 is wrong because stare decisis is a norm, not a constitutional bar; choice 3 is wrong because Congress cannot overturn a Supreme Court precedent — only the Court itself (or a constitutional amendment) can."
+      "explanation": "The Supreme Court does sometimes overturn its own precedent, but this is understood as a notable, closely scrutinized exception to the norm — precisely because stare decisis plays such a central role in maintaining the judiciary's perceived legitimacy. Choice A is wrong because overturning precedent is rare, not routine; choice C is wrong because stare decisis is a norm, not a constitutional bar; choice D is wrong because Congress cannot overturn a Supreme Court precedent — only the Court itself (or a constitutional amendment) can."
     },
     {
       "id": "2-47",
@@ -1563,7 +1563,7 @@ const QUESTIONS = {
         "The power to directly reverse any specific ruling by a simple majority vote."
       ],
       "correct": 2,
-      "explanation": "While Congress cannot remove a judge simply for disagreeing with a ruling, it does retain some structural authority over the federal judiciary — including the ability to set the number of Supreme Court justices and to define the jurisdiction of lower federal courts. Choice 0 is wrong because Congress cannot directly reverse a specific ruling by vote; choice 2 is wrong because the Court itself, not Congress, chooses its own docket; choice 3 understates Congress's real, if limited, structural role."
+      "explanation": "While Congress cannot remove a judge simply for disagreeing with a ruling, it does retain some structural authority over the federal judiciary — including the ability to set the number of Supreme Court justices and to define the jurisdiction of lower federal courts. Choice D is wrong because Congress cannot directly reverse a specific ruling by vote; choice B is wrong because the Court itself, not Congress, chooses its own docket; choice A understates Congress's real, if limited, structural role."
     },
     {
       "id": "2-48",
@@ -1576,7 +1576,7 @@ const QUESTIONS = {
         "It would immediately remove all sitting justices from office."
       ],
       "correct": 0,
-      "explanation": "Stare decisis supports legitimacy specifically by making legal outcomes predictable and consistent — frequent, unpredictable reversals of precedent would undermine that stability, risking a public perception that rulings reflect the personal preferences of whichever justices currently sit on the Court rather than durable legal principle. Choice 0 is wrong because no amendment process is automatically triggered; choice 1 is wrong because overturning precedent does not remove justices; choice 3 directly contradicts the premise the question is asking about."
+      "explanation": "Stare decisis supports legitimacy specifically by making legal outcomes predictable and consistent — frequent, unpredictable reversals of precedent would undermine that stability, risking a public perception that rulings reflect the personal preferences of whichever justices currently sit on the Court rather than durable legal principle. Choice C is wrong because no amendment process is automatically triggered; choice D is wrong because overturning precedent does not remove justices; choice B directly contradicts the premise the question is asking about."
     },
     {
       "id": "2-49",
@@ -1589,7 +1589,7 @@ const QUESTIONS = {
         "The requirement that judges never agree with each other."
       ],
       "correct": 0,
-      "explanation": "Judicial independence refers to the judiciary's capacity to make rulings based on legal reasoning rather than being swayed by short-term political pressure, public opinion, or fear of electoral consequences — supported structurally by lifetime tenure. Choice 0 is wrong because independence does not mean total isolation from the other branches; choice 2 is wrong because the judiciary does not control its own funding, Congress does; choice 3 is wrong because judicial independence has nothing to do with justices agreeing or disagreeing with one another."
+      "explanation": "Judicial independence refers to the judiciary's capacity to make rulings based on legal reasoning rather than being swayed by short-term political pressure, public opinion, or fear of electoral consequences — supported structurally by lifetime tenure. Choice C is wrong because independence does not mean total isolation from the other branches; choice B is wrong because the judiciary does not control its own funding, Congress does; choice D is wrong because judicial independence has nothing to do with justices agreeing or disagreeing with one another."
     },
     {
       "id": "2-50",
@@ -1602,7 +1602,7 @@ const QUESTIONS = {
         "The process by which the Supreme Court issues rulings."
       ],
       "correct": 0,
-      "explanation": "Rule-making is the process by which bureaucratic agencies issue detailed, legally binding regulations that implement and flesh out the specifics of broader, often vaguely-worded statutes passed by Congress. Choice 0 describes ordinary lawmaking, not agency action; choice 1 describes an entirely separate presidential tool; choice 2 describes judicial rulings, not agency regulation."
+      "explanation": "Rule-making is the process by which bureaucratic agencies issue detailed, legally binding regulations that implement and flesh out the specifics of broader, often vaguely-worded statutes passed by Congress. Choice B describes ordinary lawmaking, not agency action; choice C describes an entirely separate presidential tool; choice D describes judicial rulings, not agency regulation."
     },
     {
       "id": "2-51",
@@ -1628,7 +1628,7 @@ const QUESTIONS = {
         "Because it exercises substantial practical policy influence despite not being a formal branch."
       ],
       "correct": 3,
-      "explanation": "The 'fourth branch' label is informal, not constitutional — it reflects the bureaucracy's substantial practical influence over how laws actually function, through both implementation and its quasi-legislative rule-making authority, despite not being an explicitly named branch. Choice 0 is wrong because the bureaucracy operates within, and is overseen by, the other three branches; choice 2 is wrong because the Constitution names only three branches; choice 3 is wrong because agencies have no amendment power whatsoever."
+      "explanation": "The 'fourth branch' label is informal, not constitutional — it reflects the bureaucracy's substantial practical influence over how laws actually function, through both implementation and its quasi-legislative rule-making authority, despite not being an explicitly named branch. Choice C is wrong because the bureaucracy operates within, and is overseen by, the other three branches; choice A is wrong because the Constitution names only three branches; choice B is wrong because agencies have no amendment power whatsoever."
     },
     {
       "id": "2-53",
@@ -1654,7 +1654,7 @@ const QUESTIONS = {
         "No, only the president oversees bureaucratic agencies."
       ],
       "correct": 1,
-      "explanation": "Congress retains meaningful oversight authority over the bureaucracy even after passing a law — including holding oversight hearings, and, if it disagrees with an agency's implementation choices, revising the underlying statute to more explicitly constrain the agency's discretion. Choice 1 is wrong because Congress's role continues after passage; choice 2 is wrong because Congress, not just the president, retains oversight; choice 3 is wrong because ordinary legislation, not a constitutional amendment, is enough to redirect an agency."
+      "explanation": "Congress retains meaningful oversight authority over the bureaucracy even after passing a law — including holding oversight hearings, and, if it disagrees with an agency's implementation choices, revising the underlying statute to more explicitly constrain the agency's discretion. Choice C is wrong because Congress's role continues after passage; choice D is wrong because Congress, not just the president, retains oversight; choice A is wrong because ordinary legislation, not a constitutional amendment, is enough to redirect an agency."
     },
     {
       "id": "2-55",
@@ -1667,7 +1667,7 @@ const QUESTIONS = {
         "Staff processing applications under a rule."
       ],
       "correct": 3,
-      "explanation": "Implementation refers to the bureaucracy's core function of actually carrying out and enforcing laws and regulations in specific, individual cases — distinct from rule-making, which is the quasi-legislative process of writing the detailed regulations in the first place. Choice 0 describes judicial review; choice 1 describes ordinary legislating; choice 2 describes rule-making itself, the very function the question distinguishes implementation from."
+      "explanation": "Implementation refers to the bureaucracy's core function of actually carrying out and enforcing laws and regulations in specific, individual cases — distinct from rule-making, which is the quasi-legislative process of writing the detailed regulations in the first place. Choice A describes judicial review; choice C describes ordinary legislating; choice B describes rule-making itself, the very function the question distinguishes implementation from."
     },
     {
       "id": "2-56",
@@ -1680,7 +1680,7 @@ const QUESTIONS = {
         "Because bureaucratic rule-making has no real effect on policy outcomes."
       ],
       "correct": 0,
-      "explanation": "Since bureaucratic rule-making effectively delegates substantial practical policymaking authority to unelected agency officials — who are not directly accountable to voters the way legislators are — it raises genuine questions about democratic accountability, even though Congress retains oversight. Choice 0 is wrong because rules do not automatically expire; choice 1 is wrong because rule-making is a much lower bar than amending the Constitution; choice 2 is wrong because rule-making has substantial, not negligible, real-world policy effects."
+      "explanation": "Since bureaucratic rule-making effectively delegates substantial practical policymaking authority to unelected agency officials — who are not directly accountable to voters the way legislators are — it raises genuine questions about democratic accountability, even though Congress retains oversight. Choice B is wrong because rules do not automatically expire; choice C is wrong because rule-making is a much lower bar than amending the Constitution; choice D is wrong because rule-making has substantial, not negligible, real-world policy effects."
     },
     {
       "id": "2-57",
@@ -1693,7 +1693,7 @@ const QUESTIONS = {
         "A category that does not actually exist within the federal bureaucracy."
       ],
       "correct": 0,
-      "explanation": "Government corporations are federal entities structured to operate somewhat like businesses (often providing a specific commercial-style service) while remaining part of the broader government bureaucracy — a distinct organizational type alongside cabinet departments and independent regulatory agencies. Choice 0 is wrong because government corporations remain part of government, unlike private business; choice 1 is wrong because they are a real, recognized bureaucratic category; choice 3 is wrong because they are organizationally distinct from cabinet departments."
+      "explanation": "Government corporations are federal entities structured to operate somewhat like businesses (often providing a specific commercial-style service) while remaining part of the broader government bureaucracy — a distinct organizational type alongside cabinet departments and independent regulatory agencies. Choice B is wrong because government corporations remain part of government, unlike private business; choice D is wrong because they are a real, recognized bureaucratic category; choice C is wrong because they are organizationally distinct from cabinet departments."
     },
     {
       "id": "2-58",
@@ -1706,7 +1706,7 @@ const QUESTIONS = {
         "The Supreme Court automatically reviews the law."
       ],
       "correct": 2,
-      "explanation": "After a bill is signed into law, a relevant executive branch agency often engages in rule-making — writing detailed regulations that flesh out and implement the law's broader statutory goals — before the policy is actually enforced on the ground. Choice 0 is wrong because judicial review is not automatic; it happens only if a case is brought; choice 1 is wrong because a signed law does not return to committee; choice 3 is wrong because ordinary statutes never become constitutional amendments."
+      "explanation": "After a bill is signed into law, a relevant executive branch agency often engages in rule-making — writing detailed regulations that flesh out and implement the law's broader statutory goals — before the policy is actually enforced on the ground. Choice D is wrong because judicial review is not automatic; it happens only if a case is brought; choice A is wrong because a signed law does not return to committee; choice B is wrong because ordinary statutes never become constitutional amendments."
     },
     {
       "id": "2-59",
@@ -1719,7 +1719,7 @@ const QUESTIONS = {
         "At multiple points, once a law is legally challenged."
       ],
       "correct": 3,
-      "explanation": "The judicial branch typically becomes involved when an affected party challenges a law or its implementing regulations in court, arguing the government exceeded its statutory or constitutional authority — this can happen at various points after a policy has been enacted or a regulation issued. Choice 0 is wrong because courts act on legal challenges, not presidential requests; choice 1 directly contradicts the judiciary's real role in policy-making; choice 3 is wrong because judicial involvement typically comes after, not before, a bill exists."
+      "explanation": "The judicial branch typically becomes involved when an affected party challenges a law or its implementing regulations in court, arguing the government exceeded its statutory or constitutional authority — this can happen at various points after a policy has been enacted or a regulation issued. Choice B is wrong because courts act on legal challenges, not presidential requests; choice C directly contradicts the judiciary's real role in policy-making; choice A is wrong because judicial involvement typically comes after, not before, a bill exists."
     },
     {
       "id": "2-60",
@@ -1732,7 +1732,7 @@ const QUESTIONS = {
         "Because only one branch of government has any role in policy-making."
       ],
       "correct": 0,
-      "explanation": "The multi-branch, multi-stage nature of American policy-making — legislative passage, executive approval, bureaucratic implementation, and potential judicial review — creates numerous points where different institutions can reshape or block a given policy, generally producing a slower, more incremental process. Choice 0 is wrong because the American system is not generally fast and decisive; choice 1 is wrong because multiple branches are involved, not just one; choice 3 is wrong because no such constitutional delay requirement exists."
+      "explanation": "The multi-branch, multi-stage nature of American policy-making — legislative passage, executive approval, bureaucratic implementation, and potential judicial review — creates numerous points where different institutions can reshape or block a given policy, generally producing a slower, more incremental process. Choice C is wrong because the American system is not generally fast and decisive; choice D is wrong because multiple branches are involved, not just one; choice B is wrong because no such constitutional delay requirement exists."
     },
     {
       "id": "2-61",
@@ -1758,7 +1758,7 @@ const QUESTIONS = {
         "The Supreme Court writing a new law directly."
       ],
       "correct": 1,
-      "explanation": "This sequence — legislative passage, executive approval and bureaucratic implementation (both part of the executive branch), and judicial review of a resulting legal challenge — illustrates the full, multi-branch policy-making process. Choice 0 is wrong because courts interpret and apply law, they don't write it directly; choice 1 is wrong because it involves only Congress, leaving out the executive and judiciary; choice 2 is wrong for the same reason in reverse, involving only the president."
+      "explanation": "This sequence — legislative passage, executive approval and bureaucratic implementation (both part of the executive branch), and judicial review of a resulting legal challenge — illustrates the full, multi-branch policy-making process. Choice D is wrong because courts interpret and apply law, they don't write it directly; choice C is wrong because it involves only Congress, leaving out the executive and judiciary; choice A is wrong for the same reason in reverse, involving only the president."
     },
     {
       "id": "2-63",
@@ -1771,7 +1771,7 @@ const QUESTIONS = {
         "Committees only become relevant after a bill has already been signed into law."
       ],
       "correct": 1,
-      "explanation": "Congressional committees do much of the substantive work of shaping legislation — holding hearings, gathering expert testimony, and revising bill language — often significantly influencing (or entirely blocking) a bill's content and prospects long before it would ever reach a floor vote. Choice 1 directly contradicts committees' substantial real influence; choice 2 is wrong because judicial review belongs to the courts, not congressional committees; choice 3 is wrong because committees matter earliest, before a bill is signed, not after."
+      "explanation": "Congressional committees do much of the substantive work of shaping legislation — holding hearings, gathering expert testimony, and revising bill language — often significantly influencing (or entirely blocking) a bill's content and prospects long before it would ever reach a floor vote. Choice A directly contradicts committees' substantial real influence; choice C is wrong because judicial review belongs to the courts, not congressional committees; choice D is wrong because committees matter earliest, before a bill is signed, not after."
     },
     {
       "id": "2-64",
@@ -1784,7 +1784,7 @@ const QUESTIONS = {
         "Congress would be required to amend the Constitution."
       ],
       "correct": 1,
-      "explanation": "If Congress supports a regulation's goal but a court finds the agency lacked sufficient statutory authority to issue it, Congress retains the ability to pass new legislation explicitly granting that authority. Choice 0 is wrong because Congress does have a clear path to respond; choice 2 is wrong because ordinary legislation, not a constitutional amendment, suffices; choice 3 is wrong because Congress cannot directly overturn a judicial ruling by simple vote — it can only change the underlying law."
+      "explanation": "If Congress supports a regulation's goal but a court finds the agency lacked sufficient statutory authority to issue it, Congress retains the ability to pass new legislation explicitly granting that authority. Choice A is wrong because Congress does have a clear path to respond; choice D is wrong because ordinary legislation, not a constitutional amendment, suffices; choice C is wrong because Congress cannot directly overturn a judicial ruling by simple vote — it can only change the underlying law."
     },
     {
       "id": "2-65",
@@ -1798,7 +1798,7 @@ const QUESTIONS = {
         "This scenario only involves the legislative branch, with no connection to other institutions."
       ],
       "correct": 2,
-      "explanation": "This scenario is a genuine synthesis of the unit's core ideas: Congress's broadly-worded statute exemplifies how legislative language often leaves considerable interpretive gaps; the agency's regulation is a direct exercise of rule-making, filling in those gaps with binding specifics; and the business's court challenge invokes judicial review, since courts have the authority to determine whether an agency's regulation genuinely falls within the authority Congress actually granted. Choice 0 is wrong because courts clearly do have this reviewing authority; choice 1 is wrong because the scenario also involves the bureaucracy and courts, not just Congress; choice 2 is wrong because the scenario centers on Congress, an agency, and a court, not the president."
+      "explanation": "This scenario is a genuine synthesis of the unit's core ideas: Congress's broadly-worded statute exemplifies how legislative language often leaves considerable interpretive gaps; the agency's regulation is a direct exercise of rule-making, filling in those gaps with binding specifics; and the business's court challenge invokes judicial review, since courts have the authority to determine whether an agency's regulation genuinely falls within the authority Congress actually granted. Choice B is wrong because courts clearly do have this reviewing authority; choice D is wrong because the scenario also involves the bureaucracy and courts, not just Congress; choice A is wrong because the scenario centers on Congress, an agency, and a court, not the president."
     }
   ],
   "3": [
@@ -2778,7 +2778,7 @@ const QUESTIONS = {
         "Equality of opportunity vs. outcome"
       ],
       "correct": 3,
-      "explanation": "This illustrates the distinction between equality of opportunity (equal starting conditions, minimal government interference) and equality of outcome (more equal actual results, often requiring more active intervention) — two different applications of the same core value. Federalism vs. unitary government (option 0) and civil liberties vs. civil rights (option 2) are unrelated structural/legal distinctions. Liberty vs. individualism (option 3) pairs two related but distinct values, not the opportunity/outcome distinction this scenario describes."
+      "explanation": "This illustrates the distinction between equality of opportunity (equal starting conditions, minimal government interference) and equality of outcome (more equal actual results, often requiring more active intervention) — two different applications of the same core value. Federalism vs. unitary government (option B) and civil liberties vs. civil rights (option C) are unrelated structural/legal distinctions. Liberty vs. individualism (option A) pairs two related but distinct values, not the opportunity/outcome distinction this scenario describes."
     },
     {
       "id": "4-3",
@@ -2804,7 +2804,7 @@ const QUESTIONS = {
         "Yes, most political disagreement is about whether these values matter at all."
       ],
       "correct": 0,
-      "explanation": "Most Americans broadly share liberty and equality as core values; real political disagreement is typically about how to balance and apply them in specific policies, not whether they matter. Option 0 is wrong because these values are central to ongoing policy debates, not irrelevant. Option 1 is wrong because disagreement isn't limited to equality — Americans also debate how to balance liberty in specific cases. Option 3 is wrong because most disagreement concerns application and balance, not whether the values themselves matter at all."
+      "explanation": "Most Americans broadly share liberty and equality as core values; real political disagreement is typically about how to balance and apply them in specific policies, not whether they matter. Option C is wrong because these values are central to ongoing policy debates, not irrelevant. Option B is wrong because disagreement isn't limited to equality — Americans also debate how to balance liberty in specific cases. Option D is wrong because most disagreement concerns application and balance, not whether the values themselves matter at all."
     },
     {
       "id": "4-5",
@@ -2843,7 +2843,7 @@ const QUESTIONS = {
         "A preference for personal responsibility and self-reliance over government dependence."
       ],
       "correct": 3,
-      "explanation": "Individualism emphasizes personal responsibility and self-reliance rather than dependence on government or community provision. Option 0 describes a government-controlled economy, the opposite of individualism. Option 1 describes collectivism, also the opposite. Option 3 describes political apathy, unrelated to individualism, which is compatible with active civic participation."
+      "explanation": "Individualism emphasizes personal responsibility and self-reliance rather than dependence on government or community provision. Option C describes a government-controlled economy, the opposite of individualism. Option B describes collectivism, also the opposite. Option A describes political apathy, unrelated to individualism, which is compatible with active civic participation."
     },
     {
       "id": "4-8",
@@ -2856,7 +2856,7 @@ const QUESTIONS = {
         "Political socialization vs. public opinion"
       ],
       "correct": 2,
-      "explanation": "Affirmative action debates classically center on equality of opportunity vs. equality of outcome — should policy focus on removing barriers to equal starting conditions, or actively work toward more equal outcomes across groups. Political socialization vs. public opinion (option 0) and judicial review vs. checks and balances (option 1) are unrelated governmental-structure concepts, not core-values tensions. Individual liberty vs. federalism (option 3) pairs a value with a structural principle and isn't the primary tension this debate raises."
+      "explanation": "Affirmative action debates classically center on equality of opportunity vs. equality of outcome — should policy focus on removing barriers to equal starting conditions, or actively work toward more equal outcomes across groups. Political socialization vs. public opinion (option D) and judicial review vs. checks and balances (option A) are unrelated governmental-structure concepts, not core-values tensions. Individual liberty vs. federalism (option B) pairs a value with a structural principle and isn't the primary tension this debate raises."
     },
     {
       "id": "4-9",
@@ -2869,7 +2869,7 @@ const QUESTIONS = {
         "Individualism"
       ],
       "correct": 0,
-      "explanation": "This argument directly invokes liberty — freedom from government interference in economic decision-making. Self-government (option 0) concerns political participation and consent, not economic freedom. Individualism (option 2) is related but distinct, emphasizing personal responsibility rather than freedom from regulation specifically. Equality (option 3) concerns fairness of treatment or outcomes, not freedom from interference."
+      "explanation": "This argument directly invokes liberty — freedom from government interference in economic decision-making. Self-government (option C) concerns political participation and consent, not economic freedom. Individualism (option D) is related but distinct, emphasizing personal responsibility rather than freedom from regulation specifically. Equality (option B) concerns fairness of treatment or outcomes, not freedom from interference."
     },
     {
       "id": "4-10",
@@ -2882,7 +2882,7 @@ const QUESTIONS = {
         "No, core values never influence policy design at all."
       ],
       "correct": 2,
-      "explanation": "Disagreement over a specific policy doesn't necessarily mean the two sides reject each other's core values — it often reflects differing judgments about how to balance genuinely shared values like liberty and equality. Option 0 is wrong because core values clearly do shape policy design. Option 1 overstates the case — policy disputes are usually about balancing shared values, not a fundamental values clash every time. Option 3 is wrong because this balancing dynamic applies across issue areas, not economic policy alone."
+      "explanation": "Disagreement over a specific policy doesn't necessarily mean the two sides reject each other's core values — it often reflects differing judgments about how to balance genuinely shared values like liberty and equality. Option D is wrong because core values clearly do shape policy design. Option B overstates the case — policy disputes are usually about balancing shared values, not a fundamental values clash every time. Option A is wrong because this balancing dynamic applies across issue areas, not economic policy alone."
     },
     {
       "id": "4-11",
@@ -2921,7 +2921,7 @@ const QUESTIONS = {
         "The process by which political parties recruit new candidates."
       ],
       "correct": 2,
-      "explanation": "Political socialization is the lifelong process by which individuals develop and refine political beliefs, values, and attitudes, shaped by agents like family, school, peers, religion, and media. Option 0 confuses it with a legislative procedure. Option 1 confuses it with candidate recruitment, a party function. Option 3 confuses it with the separate process of enacting laws."
+      "explanation": "Political socialization is the lifelong process by which individuals develop and refine political beliefs, values, and attitudes, shaped by agents like family, school, peers, religion, and media. Option B confuses it with a legislative procedure. Option D confuses it with candidate recruitment, a party function. Option A confuses it with the separate process of enacting laws."
     },
     {
       "id": "4-14",
@@ -2934,7 +2934,7 @@ const QUESTIONS = {
         "No — it continues via peers, media, and life events."
       ],
       "correct": 3,
-      "explanation": "Political socialization continues throughout adulthood — while early family influence is particularly strong, peers, media, and major life or historical events continue to shape political views well beyond childhood. Option 0 wrongly limits ongoing influence to religion alone. Option 2 wrongly limits it to party identification only. Option 3 is wrong because political beliefs are not fixed by adulthood — socialization remains an ongoing process."
+      "explanation": "Political socialization continues throughout adulthood — while early family influence is particularly strong, peers, media, and major life or historical events continue to shape political views well beyond childhood. Option C wrongly limits ongoing influence to religion alone. Option B wrongly limits it to party identification only. Option A is wrong because political beliefs are not fixed by adulthood — socialization remains an ongoing process."
     },
     {
       "id": "4-15",
@@ -2999,7 +2999,7 @@ const QUESTIONS = {
         "Yes, but only for individuals over age 50."
       ],
       "correct": 2,
-      "explanation": "While family is the strongest single influence among standard socialization agents, its effect isn't absolute — other agents (peers, media, major life events) and personal experience can and do shift individuals' political views over time. Option 0 overstates family's influence as unchangeable. Option 2 wrongly denies family has any influence at all. Option 3 arbitrarily restricts this dynamic to people over 50, with no basis in the underlying concept."
+      "explanation": "While family is the strongest single influence among standard socialization agents, its effect isn't absolute — other agents (peers, media, major life events) and personal experience can and do shift individuals' political views over time. Option A overstates family's influence as unchangeable. Option B wrongly denies family has any influence at all. Option D arbitrarily restricts this dynamic to people over 50, with no basis in the underlying concept."
     },
     {
       "id": "4-20",
@@ -3038,7 +3038,7 @@ const QUESTIONS = {
         "Schools are actually the dominant influence on party identification, not family."
       ],
       "correct": 2,
-      "explanation": "Party identification tends to form relatively early in life and remain durable afterward, and family is the dominant socializing influence during that especially formative period — which is why its effect on party ID specifically is so strong. Option 1 is wrong because party ID is clearly shaped by socialization, not random. Option 2 is wrong because family's influence extends well beyond foreign policy to party identification itself. Option 3 is wrong because research consistently shows family, not schools, is the dominant influence on party ID."
+      "explanation": "Party identification tends to form relatively early in life and remain durable afterward, and family is the dominant socializing influence during that especially formative period — which is why its effect on party ID specifically is so strong. Option A is wrong because party ID is clearly shaped by socialization, not random. Option B is wrong because family's influence extends well beyond foreign policy to party identification itself. Option D is wrong because research consistently shows family, not schools, is the dominant influence on party ID."
     },
     {
       "id": "4-23",
@@ -3051,7 +3051,7 @@ const QUESTIONS = {
         "Selecting respondents based on their known political views."
       ],
       "correct": 0,
-      "explanation": "Random sampling gives every member of the target population a roughly equal chance of being included — this is what makes a poll's results potentially generalizable. Option 1 describes a self-selected (non-random) sample, prone to bias. Option 2 describes a deliberately biased, non-random selection method. Option 3 confuses sample size with sampling method — a large sample chosen without randomization is still unrepresentative."
+      "explanation": "Random sampling gives every member of the target population a roughly equal chance of being included — this is what makes a poll's results potentially generalizable. Option C describes a self-selected (non-random) sample, prone to bias. Option D describes a deliberately biased, non-random selection method. Option B confuses sample size with sampling method — a large sample chosen without randomization is still unrepresentative."
     },
     {
       "id": "4-24",
@@ -3064,7 +3064,7 @@ const QUESTIONS = {
         "The number of respondents who refused to answer."
       ],
       "correct": 0,
-      "explanation": "Margin of error indicates the poll's likely precision — a smaller margin means the reported result is more likely close to the true population value, assuming proper random sampling. Option 1 confuses it with the non-response rate. Option 2 confuses it with polling cost, an unrelated concept. Option 3 confuses it with the share of undecided respondents, a separate statistic."
+      "explanation": "Margin of error indicates the poll's likely precision — a smaller margin means the reported result is more likely close to the true population value, assuming proper random sampling. Option D confuses it with the non-response rate. Option C confuses it with polling cost, an unrelated concept. Option B confuses it with the share of undecided respondents, a separate statistic."
     },
     {
       "id": "4-25",
@@ -3077,7 +3077,7 @@ const QUESTIONS = {
         "Yes, a sufficiently large sample size always corrects for sampling bias."
       ],
       "correct": 2,
-      "explanation": "Sample size and sampling method are separate issues — a large sample drawn through a non-random (e.g., self-selected) method remains systematically unrepresentative, no matter how many respondents it includes. Option 1 is wrong because the effect of non-random sampling doesn't depend on topic. Options 2 and 3 both wrongly claim sample size alone can fix a broken (non-random) sampling method."
+      "explanation": "Sample size and sampling method are separate issues — a large sample drawn through a non-random (e.g., self-selected) method remains systematically unrepresentative, no matter how many respondents it includes. Option B is wrong because the effect of non-random sampling doesn't depend on topic. Options A and D both wrongly claim sample size alone can fix a broken (non-random) sampling method."
     },
     {
       "id": "4-26",
@@ -3090,7 +3090,7 @@ const QUESTIONS = {
         "A poll conducted exclusively by academic researchers."
       ],
       "correct": 0,
-      "explanation": "A push poll is designed to influence respondents' opinions — often through biased or misleading question wording — while appearing to simply measure existing opinion. Option 0 wrongly restricts push polls to academic research, when they're typically a campaign tactic. Option 2 confuses it with sample size, an unrelated feature. Option 3 wrongly conflates it with exit polling, a legitimate, separate polling method."
+      "explanation": "A push poll is designed to influence respondents' opinions — often through biased or misleading question wording — while appearing to simply measure existing opinion. Option D wrongly restricts push polls to academic research, when they're typically a campaign tactic. Option C confuses it with sample size, an unrelated feature. Option B wrongly conflates it with exit polling, a legitimate, separate polling method."
     },
     {
       "id": "4-27",
@@ -3103,7 +3103,7 @@ const QUESTIONS = {
         "Only the order of answer choices matters, never the wording of the question itself."
       ],
       "correct": 0,
-      "explanation": "Question-wording effects are well documented — even subtle phrasing differences can trigger different associations, framing, or emotional responses, meaningfully shifting results despite the same underlying issue. Option 0 wrongly claims only answer-choice order matters, ignoring question wording itself. Option 1 incorrectly limits the effect to polls outside the U.S. Option 2 flatly denies a well-established phenomenon."
+      "explanation": "Question-wording effects are well documented — even subtle phrasing differences can trigger different associations, framing, or emotional responses, meaningfully shifting results despite the same underlying issue. Option D wrongly claims only answer-choice order matters, ignoring question wording itself. Option B incorrectly limits the effect to polls outside the U.S. Option C flatly denies a well-established phenomenon."
     },
     {
       "id": "4-28",
@@ -3116,7 +3116,7 @@ const QUESTIONS = {
         "Neither poll can ever be considered reliable under any circumstances."
       ],
       "correct": 2,
-      "explanation": "The smaller but properly randomly sampled poll is more reliable for generalizing to the broader population than the larger but self-selected online poll — sampling method matters more than raw sample size for generalizability. Option 1 wrongly claims method doesn't matter. Option 2 wrongly assumes size alone determines reliability. Option 3 overstates the case — properly conducted random-sample polls can be reliable."
+      "explanation": "The smaller but properly randomly sampled poll is more reliable for generalizing to the broader population than the larger but self-selected online poll — sampling method matters more than raw sample size for generalizability. Option A wrongly claims method doesn't matter. Option B wrongly assumes size alone determines reliability. Option D overstates the case — properly conducted random-sample polls can be reliable."
     },
     {
       "id": "4-29",
@@ -3142,7 +3142,7 @@ const QUESTIONS = {
         "Only government-conducted polls require methodological evaluation."
       ],
       "correct": 0,
-      "explanation": "A poll's headline result is only as trustworthy as its underlying methodology — sampling method, sample size, and question wording all affect whether a result can be reasonably generalized. Option 0 wrongly claims methodology is irrelevant. Option 1 is false — polling methodologies vary widely in quality. Option 3 wrongly restricts the need for evaluation to government polls only."
+      "explanation": "A poll's headline result is only as trustworthy as its underlying methodology — sampling method, sample size, and question wording all affect whether a result can be reasonably generalized. Option B wrongly claims methodology is irrelevant. Option C is false — polling methodologies vary widely in quality. Option D wrongly restricts the need for evaluation to government polls only."
     },
     {
       "id": "4-31",
@@ -3155,7 +3155,7 @@ const QUESTIONS = {
         "An example of proper random sampling."
       ],
       "correct": 1,
-      "explanation": "This question uses emotionally loaded, leading language ('hardworking families,' 'reckless overspending') rather than neutral phrasing — a hallmark of a push poll designed to shape opinion, not measure it accurately. Option 0 misidentifies the flaw as being about margin of error, an unrelated statistic. Option 1 wrongly calls this neutral, when the language is clearly loaded. Option 2 wrongly calls this proper sampling, a different methodological issue entirely."
+      "explanation": "This question uses emotionally loaded, leading language ('hardworking families,' 'reckless overspending') rather than neutral phrasing — a hallmark of a push poll designed to shape opinion, not measure it accurately. Option A misidentifies the flaw as being about margin of error, an unrelated statistic. Option C wrongly calls this neutral, when the language is clearly loaded. Option D wrongly calls this proper sampling, a different methodological issue entirely."
     },
     {
       "id": "4-32",
@@ -3168,7 +3168,7 @@ const QUESTIONS = {
         "No, margin of error has no relationship to confidence at all."
       ],
       "correct": 1,
-      "explanation": "Margin of error is typically reported alongside a confidence level (commonly 95%) — it indicates a strong statistical likelihood, not an absolute guarantee, that the true value falls within the stated range. Option 0 wrongly claims absolute certainty. Option 2 wrongly denies any link to confidence levels. Option 3 wrongly restricts this statistical property to presidential election years."
+      "explanation": "Margin of error is typically reported alongside a confidence level (commonly 95%) — it indicates a strong statistical likelihood, not an absolute guarantee, that the true value falls within the stated range. Option C wrongly claims absolute certainty. Option D wrongly denies any link to confidence levels. Option A wrongly restricts this statistical property to presidential election years."
     },
     {
       "id": "4-33",
@@ -3181,7 +3181,7 @@ const QUESTIONS = {
         "Complete elimination of all private markets."
       ],
       "correct": 1,
-      "explanation": "A typically conservative economic position favors less regulation and greater reliance on free markets. Option 0 describes a far more extreme command-economy position not typical of mainstream conservatism. Option 2 describes an unrealistic elimination of markets entirely. Option 3 describes the more interventionist position typically associated with liberal, not conservative, ideology."
+      "explanation": "A typically conservative economic position favors less regulation and greater reliance on free markets. Option A describes a far more extreme command-economy position not typical of mainstream conservatism. Option D describes an unrealistic elimination of markets entirely. Option C describes the more interventionist position typically associated with liberal, not conservative, ideology."
     },
     {
       "id": "4-34",
@@ -3194,7 +3194,7 @@ const QUESTIONS = {
         "Opposition to any government spending of any kind."
       ],
       "correct": 1,
-      "explanation": "A typically liberal position favors larger, more expansive government-funded programs, reflecting a view that government should play an active role in social welfare. Option 0 describes the more limited-government position typically associated with conservatism. Options 2 and 3 describe extreme anti-tax/anti-spending positions not representative of mainstream liberal or conservative views."
+      "explanation": "A typically liberal position favors larger, more expansive government-funded programs, reflecting a view that government should play an active role in social welfare. Option A describes the more limited-government position typically associated with conservatism. Options C and D describe extreme anti-tax/anti-spending positions not representative of mainstream liberal or conservative views."
     },
     {
       "id": "4-35",
@@ -3207,7 +3207,7 @@ const QUESTIONS = {
         "Minimal government intervention in both the economy and personal life."
       ],
       "correct": 3,
-      "explanation": "A libertarian typically favors minimal government intervention in both the economy and personal/social life — a distinctive combination drawing from both standard ideological clusters. Options 0 and 3 each describe a mixed position that pairs intervention in only one sphere, not the minimal-intervention-in-both pattern that defines libertarianism. Option 1 describes the opposite extreme — maximum intervention in both spheres."
+      "explanation": "A libertarian typically favors minimal government intervention in both the economy and personal/social life — a distinctive combination drawing from both standard ideological clusters. Options A and B each describe a mixed position that pairs intervention in only one sphere, not the minimal-intervention-in-both pattern that defines libertarianism. Option C describes the opposite extreme — maximum intervention in both spheres."
     },
     {
       "id": "4-36",
@@ -3220,7 +3220,7 @@ const QUESTIONS = {
         "A purely standard conservative position"
       ],
       "correct": 2,
-      "explanation": "This mixed combination — minimal business regulation paired with trade protectionism to shield workers from foreign competition — reflects the populist tradition, which can combine positions not found in a single standard ideological package (here, less domestic regulation with suspicion of concentrated economic power, in this case foreign competitors). Option 0 (federalism) concerns the division of power between national and state government, not this issue-position combination. Options 2 and 3 are wrong because 'pure' liberalism or conservatism each follows one standard package consistently, not this economically mixed pattern."
+      "explanation": "This mixed combination — minimal business regulation paired with trade protectionism to shield workers from foreign competition — reflects the populist tradition, which can combine positions not found in a single standard ideological package (here, less domestic regulation with suspicion of concentrated economic power, in this case foreign competitors). Option B (federalism) concerns the division of power between national and state government, not this issue-position combination. Options A and D are wrong because 'pure' liberalism or conservatism each follows one standard package consistently, not this economically mixed pattern."
     },
     {
       "id": "4-37",
@@ -3233,7 +3233,7 @@ const QUESTIONS = {
         "No, because these terms have no meaningful content at all."
       ],
       "correct": 1,
-      "explanation": "The general pattern each label reflects (views on government's role, and on social change vs. tradition) is relatively stable, but the specific policy positions associated with each label can and do shift over time as the political landscape evolves. Option 0 wrongly claims totally fixed content. Option 1 wrongly denies the terms have any meaningful content. Option 2 incorrectly claims the Constitution defines these labels — it does not."
+      "explanation": "The general pattern each label reflects (views on government's role, and on social change vs. tradition) is relatively stable, but the specific policy positions associated with each label can and do shift over time as the political landscape evolves. Option C wrongly claims totally fixed content. Option D wrongly denies the terms have any meaningful content. Option A incorrectly claims the Constitution defines these labels — it does not."
     },
     {
       "id": "4-38",
@@ -3246,7 +3246,7 @@ const QUESTIONS = {
         "This combination is logically impossible and could never occur."
       ],
       "correct": 0,
-      "explanation": "This combination — socially traditional but economically interventionist — mixes elements typically associated with different standard ideological clusters, illustrating that real individuals don't always fit cleanly into a single ideological box. Option 1 is wrong because favoring active economic regulation isn't a standard conservative position. Option 2 is wrong because this combination is logically possible and does occur among real voters. Option 3 is wrong because libertarians favor minimal, not active, government intervention in the economy."
+      "explanation": "This combination — socially traditional but economically interventionist — mixes elements typically associated with different standard ideological clusters, illustrating that real individuals don't always fit cleanly into a single ideological box. Option B is wrong because favoring active economic regulation isn't a standard conservative position. Option D is wrong because this combination is logically possible and does occur among real voters. Option C is wrong because libertarians favor minimal, not active, government intervention in the economy."
     },
     {
       "id": "4-39",
@@ -3259,7 +3259,7 @@ const QUESTIONS = {
         "Preference for a specific sports team."
       ],
       "correct": 1,
-      "explanation": "Preferred level of government regulation and economic intervention is one of the most reliable, defining distinctions between typically liberal and typically conservative positions. Options 0, 1, and 3 (region, sports preference, and campaign color choice) are not meaningful ideological indicators at all."
+      "explanation": "Preferred level of government regulation and economic intervention is one of the most reliable, defining distinctions between typically liberal and typically conservative positions. Options A, C, and D (region, sports preference, and campaign color choice) are not meaningful ideological indicators at all."
     },
     {
       "id": "4-40",
@@ -3272,7 +3272,7 @@ const QUESTIONS = {
         "No — ideology predicts general tendencies, but individuals can diverge."
       ],
       "correct": 3,
-      "explanation": "Ideology is a genuinely useful predictor of general tendencies and clusters of related positions, but it doesn't guarantee perfect predictability for every individual on every issue — real people sometimes diverge, as illustrated by libertarian and populist combinations. Option 0 overstates ideology's predictive power as absolute. Option 2 arbitrarily restricts predictive value to economic policy alone. Option 3 wrongly denies ideology has any predictive value."
+      "explanation": "Ideology is a genuinely useful predictor of general tendencies and clusters of related positions, but it doesn't guarantee perfect predictability for every individual on every issue — real people sometimes diverge, as illustrated by libertarian and populist combinations. Option C overstates ideology's predictive power as absolute. Option A arbitrarily restricts predictive value to economic policy alone. Option B wrongly denies ideology has any predictive value."
     },
     {
       "id": "4-41",
@@ -3298,7 +3298,7 @@ const QUESTIONS = {
         "This combination is impossible to analyze using any ideological framework."
       ],
       "correct": 0,
-      "explanation": "Supporting corporate regulation (typically liberal) while opposing welfare expansion (typically conservative) mixes elements from both standard clusters, showing that real political platforms don't always sort into a single package. Option 0 is wrong because this platform isn't purely liberal — opposing welfare expansion is a conservative-leaning position. Option 2 wrongly claims the platform can't be analyzed. Option 3 is wrong because this platform isn't purely conservative — supporting corporate regulation is a liberal-leaning position."
+      "explanation": "Supporting corporate regulation (typically liberal) while opposing welfare expansion (typically conservative) mixes elements from both standard clusters, showing that real political platforms don't always sort into a single package. Option B is wrong because this platform isn't purely liberal — opposing welfare expansion is a conservative-leaning position. Option D wrongly claims the platform can't be analyzed. Option C is wrong because this platform isn't purely conservative — supporting corporate regulation is a liberal-leaning position."
     },
     {
       "id": "4-43",
@@ -3337,7 +3337,7 @@ const QUESTIONS = {
         "No, because political parties have no internal structure at all."
       ],
       "correct": 1,
-      "explanation": "Neither major party is perfectly ideologically uniform — both are broad coalitions containing genuine internal diversity, including more centrist and more ideologically extreme factions. Option 0 is wrong because parties do have internal structure. Option 1 wrongly restricts uniformity to the Democratic Party alone. Option 2 wrongly claims total uniformity for both parties, contrary to well-documented intra-party diversity."
+      "explanation": "Neither major party is perfectly ideologically uniform — both are broad coalitions containing genuine internal diversity, including more centrist and more ideologically extreme factions. Option D is wrong because parties do have internal structure. Option A wrongly restricts uniformity to the Democratic Party alone. Option C wrongly claims total uniformity for both parties, contrary to well-documented intra-party diversity."
     },
     {
       "id": "4-46",
@@ -3363,7 +3363,7 @@ const QUESTIONS = {
         "It doesn't matter at all; all party members always vote identically."
       ],
       "correct": 1,
-      "explanation": "Internal ideological diversity within parties means that knowing a legislator's party affiliation gives a strong but imperfect prediction of their views — individual members can and do diverge from their party's general platform on specific issues. Option 0 overstates the point — parties do have real ideological identities despite internal diversity. Option 1 wrongly restricts this dynamic to third parties only. Option 3 wrongly claims perfect voting uniformity, contrary to observed legislative behavior."
+      "explanation": "Internal ideological diversity within parties means that knowing a legislator's party affiliation gives a strong but imperfect prediction of their views — individual members can and do diverge from their party's general platform on specific issues. Option C overstates the point — parties do have real ideological identities despite internal diversity. Option A wrongly restricts this dynamic to third parties only. Option D wrongly claims perfect voting uniformity, contrary to observed legislative behavior."
     },
     {
       "id": "4-48",
@@ -3389,7 +3389,7 @@ const QUESTIONS = {
         "Party and ideology are completely unrelated concepts."
       ],
       "correct": 1,
-      "explanation": "The two major parties generally organize their platforms around one of the two dominant ideological clusters (liberal or conservative), but the fit is genuinely imperfect given each party's internal diversity. Option 0 wrongly claims no relationship at all. Option 1 wrongly claims a perfect, identical relationship. Option 3 wrongly restricts ideological identity to third parties, ignoring the clear ideological leanings of the two major parties."
+      "explanation": "The two major parties generally organize their platforms around one of the two dominant ideological clusters (liberal or conservative), but the fit is genuinely imperfect given each party's internal diversity. Option D wrongly claims no relationship at all. Option C wrongly claims a perfect, identical relationship. Option A wrongly restricts ideological identity to third parties, ignoring the clear ideological leanings of the two major parties."
     },
     {
       "id": "4-50",
@@ -3402,7 +3402,7 @@ const QUESTIONS = {
         "That party platforms are legally binding on every individual member."
       ],
       "correct": 2,
-      "explanation": "This illustrates that parties are broad coalitions rather than perfectly uniform ideological blocs — individual members can and do hold views that diverge somewhat from their party's general platform. Option 0 wrongly claims platforms are legally binding on individuals. Option 1 wrongly concludes the person must not be a party member. Option 3 wrongly claims parties have no internal diversity, contrary to the scenario described."
+      "explanation": "This illustrates that parties are broad coalitions rather than perfectly uniform ideological blocs — individual members can and do hold views that diverge somewhat from their party's general platform. Option D wrongly claims platforms are legally binding on individuals. Option A wrongly concludes the person must not be a party member. Option B wrongly claims parties have no internal diversity, contrary to the scenario described."
     },
     {
       "id": "4-51",
@@ -3428,7 +3428,7 @@ const QUESTIONS = {
         "This phenomenon has never actually occurred in American political history."
       ],
       "correct": 0,
-      "explanation": "Since parties are broad coalitions of factions with different priorities, shifts in those factions' relative influence over time can lead a party's platform to evolve on specific issues, even while its overall ideological orientation stays comparatively stable. Option 1 wrongly claims a legal mandate to change platforms every four years — no such requirement exists. Option 2 wrongly claims platforms are permanently fixed, contrary to observed historical shifts. Option 3 wrongly denies this phenomenon has ever occurred."
+      "explanation": "Since parties are broad coalitions of factions with different priorities, shifts in those factions' relative influence over time can lead a party's platform to evolve on specific issues, even while its overall ideological orientation stays comparatively stable. Option B wrongly claims a legal mandate to change platforms every four years — no such requirement exists. Option C wrongly claims platforms are permanently fixed, contrary to observed historical shifts. Option D wrongly denies this phenomenon has ever occurred."
     },
     {
       "id": "4-53",
@@ -3441,7 +3441,7 @@ const QUESTIONS = {
         "That these two lawmakers must belong to the same political party."
       ],
       "correct": 2,
-      "explanation": "This scenario illustrates that ideological disagreement is often about the appropriate method of addressing a shared policy goal (poverty reduction), not necessarily about whether the goal itself deserves attention. Option 0 wrongly claims ideology has no bearing on policy design. Option 2 wrongly assumes shared policy goals imply shared party membership — lawmakers from different parties can agree a problem matters. Option 3 wrongly claims ideology only affects whether government acts, ignoring its role in shaping how it acts."
+      "explanation": "This scenario illustrates that ideological disagreement is often about the appropriate method of addressing a shared policy goal (poverty reduction), not necessarily about whether the goal itself deserves attention. Option A wrongly claims ideology has no bearing on policy design. Option D wrongly assumes shared policy goals imply shared party membership — lawmakers from different parties can agree a problem matters. Option B wrongly claims ideology only affects whether government acts, ignoring its role in shaping how it acts."
     },
     {
       "id": "4-54",
@@ -3454,7 +3454,7 @@ const QUESTIONS = {
         "A typically liberal preference for direct intervention and mandates."
       ],
       "correct": 3,
-      "explanation": "Strict government-mandated limits reflect a typically liberal preference for direct government intervention and mandated compliance, in contrast to a more market-based conservative approach. Option 0 wrongly claims this position has no ideological content. Option 2 wrongly attributes it exclusively to third parties. Option 3 mischaracterizes it as the conservative, market-based approach — the opposite of what this scenario describes."
+      "explanation": "Strict government-mandated limits reflect a typically liberal preference for direct government intervention and mandated compliance, in contrast to a more market-based conservative approach. Option C wrongly claims this position has no ideological content. Option A wrongly attributes it exclusively to third parties. Option B mischaracterizes it as the conservative, market-based approach — the opposite of what this scenario describes."
     },
     {
       "id": "4-55",
@@ -3467,7 +3467,7 @@ const QUESTIONS = {
         "A position with no ideological content at all."
       ],
       "correct": 2,
-      "explanation": "Market-based incentives (tax credits rewarding voluntary action) reflect a typically conservative preference for private choice and market mechanisms over direct mandate. Option 0 mischaracterizes this as the liberal, direct-mandate approach — the opposite of what's described. Option 1 is factually wrong; market-based incentive programs like this have been used repeatedly in U.S. policy. Option 3 wrongly claims the approach has no ideological content."
+      "explanation": "Market-based incentives (tax credits rewarding voluntary action) reflect a typically conservative preference for private choice and market mechanisms over direct mandate. Option A mischaracterizes this as the liberal, direct-mandate approach — the opposite of what's described. Option B is factually wrong; market-based incentive programs like this have been used repeatedly in U.S. policy. Option D wrongly claims the approach has no ideological content."
     },
     {
       "id": "4-56",
@@ -3480,7 +3480,7 @@ const QUESTIONS = {
         "Ideology only matters for foreign policy issues."
       ],
       "correct": 1,
-      "explanation": "Ideology shapes policy debates on two levels: whether government should address an issue at all, and — often more significantly — how it should act, meaning the specific method chosen. Option 0 wrongly denies ideology has any real policy influence. Option 1 wrongly restricts its relevance to foreign policy alone. Option 2 captures only half the picture, ignoring ideology's role in shaping method."
+      "explanation": "Ideology shapes policy debates on two levels: whether government should address an issue at all, and — often more significantly — how it should act, meaning the specific method chosen. Option C wrongly denies ideology has any real policy influence. Option D wrongly restricts its relevance to foreign policy alone. Option A captures only half the picture, ignoring ideology's role in shaping method."
     },
     {
       "id": "4-57",
@@ -3493,7 +3493,7 @@ const QUESTIONS = {
         "Both proposals belong to the exact same political party's platform."
       ],
       "correct": 1,
-      "explanation": "Despite reflecting different ideological approaches (direct government provision vs. market-based incentive), both proposals share the same underlying goal — helping low-income families — illustrating that ideological disagreement is often about method, not the legitimacy of the goal. Option 0 wrongly claims the proposals are identical in every respect, ignoring their different methods. Option 1 is factually irrelevant — the proposals' party origin isn't given or relevant to this comparison. Option 3 wrongly claims neither addresses a real goal, when both clearly target the same one."
+      "explanation": "Despite reflecting different ideological approaches (direct government provision vs. market-based incentive), both proposals share the same underlying goal — helping low-income families — illustrating that ideological disagreement is often about method, not the legitimacy of the goal. Option A wrongly claims the proposals are identical in every respect, ignoring their different methods. Option D is factually irrelevant — the proposals' party origin isn't given or relevant to this comparison. Option C wrongly claims neither addresses a real goal, when both clearly target the same one."
     },
     {
       "id": "4-58",
@@ -3506,7 +3506,7 @@ const QUESTIONS = {
         "Many debates involve agreement on the problem but disagreement on the mechanism."
       ],
       "correct": 3,
-      "explanation": "Framing debates purely as 'should government act or not' oversimplifies many real disputes, where both sides may agree a problem deserves attention but hold genuinely different ideological views about the best mechanism. Option 1 wrongly claims government methods are legally fixed and undebatable. Option 2 wrongly claims same-party policymakers never disagree on method, contrary to real intra-party diversity. Option 3 wrongly denies method disagreements ever occur."
+      "explanation": "Framing debates purely as 'should government act or not' oversimplifies many real disputes, where both sides may agree a problem deserves attention but hold genuinely different ideological views about the best mechanism. Option C wrongly claims government methods are legally fixed and undebatable. Option A wrongly claims same-party policymakers never disagree on method, contrary to real intra-party diversity. Option B wrongly denies method disagreements ever occur."
     },
     {
       "id": "4-59",
@@ -3519,7 +3519,7 @@ const QUESTIONS = {
         "Neither approach has any ideological content."
       ],
       "correct": 0,
-      "explanation": "Direct government-funded scholarships reflect the typically liberal preference for direct government provision, while tax deductions reflect the typically conservative preference for using the tax code and market incentives — the same underlying goal, different ideological methods. Options 1 and 2 wrongly deny any ideological content or distinction. Option 3 reverses the correct pairing."
+      "explanation": "Direct government-funded scholarships reflect the typically liberal preference for direct government provision, while tax deductions reflect the typically conservative preference for using the tax code and market incentives — the same underlying goal, different ideological methods. Options B and D wrongly deny any ideological content or distinction. Option C reverses the correct pairing."
     },
     {
       "id": "4-60",
@@ -3532,7 +3532,7 @@ const QUESTIONS = {
         "A court ruling on an unrelated constitutional question."
       ],
       "correct": 2,
-      "explanation": "This example shows agreement on the underlying issue (climate change requires a response) while illustrating genuine ideological disagreement specifically about implementation — the choice between direct regulation and market-based pricing as the method. Option 0 illustrates disagreement about the underlying problem itself, not implementation. Option 1 shows no policy response at all, not a method debate. Option 2 is unrelated to climate policy implementation entirely."
+      "explanation": "This example shows agreement on the underlying issue (climate change requires a response) while illustrating genuine ideological disagreement specifically about implementation — the choice between direct regulation and market-based pricing as the method. Option A illustrates disagreement about the underlying problem itself, not implementation. Option B shows no policy response at all, not a method debate. Option D is unrelated to climate policy implementation entirely."
     },
     {
       "id": "4-61",
@@ -3545,7 +3545,7 @@ const QUESTIONS = {
         "Accurately analyzing a policy debate, not oversimplifying it."
       ],
       "correct": 3,
-      "explanation": "This goals-versus-methods distinction is most directly useful for accurately characterizing and analyzing a described policy debate on the exam — recognizing that many disputes reflect agreement on the problem paired with disagreement about method, rather than assuming disagreement always means denying the problem exists. Options 0, 1, and 2 (margin of error, Unit 3 court cases, and Constitutional text) are unrelated skills from other parts of the course."
+      "explanation": "This goals-versus-methods distinction is most directly useful for accurately characterizing and analyzing a described policy debate on the exam — recognizing that many disputes reflect agreement on the problem paired with disagreement about method, rather than assuming disagreement always means denying the problem exists. Options A, B, and C (margin of error, Unit 3 court cases, and Constitutional text) are unrelated skills from other parts of the course."
     },
     {
       "id": "4-62",
@@ -3559,7 +3559,7 @@ const QUESTIONS = {
         "None of these three approaches has any ideological content."
       ],
       "correct": 2,
-      "explanation": "This scenario rewards recognizing that policy methods don't always sort into a clean two-category system: the public transit expansion is direct government provision (liberal-leaning); the tax incentive is market-based (conservative-leaning); congestion pricing is a genuine hybrid — using government authority to set a price signal (a form of intervention) to influence, rather than mandate, private behavior (a market-oriented mechanism). Option 0 wrongly claims congestion pricing has no market element, ignoring its price-signal mechanism. Option 1 wrongly claims none of these methods carry ideological content. Option 2 wrongly claims all three are ideologically identical, collapsing a meaningful distinction. Recognizing that some real-world policies blend both ideological logics is a more advanced synthesis than the unit's core examples require."
+      "explanation": "This scenario rewards recognizing that policy methods don't always sort into a clean two-category system: the public transit expansion is direct government provision (liberal-leaning); the tax incentive is market-based (conservative-leaning); congestion pricing is a genuine hybrid — using government authority to set a price signal (a form of intervention) to influence, rather than mandate, private behavior (a market-oriented mechanism). Option B wrongly claims congestion pricing has no market element, ignoring its price-signal mechanism. Option D wrongly claims none of these methods carry ideological content. Option A wrongly claims all three are ideologically identical, collapsing a meaningful distinction. Recognizing that some real-world policies blend both ideological logics is a more advanced synthesis than the unit's core examples require."
     },
     {
       "id": "4-63",
@@ -3572,7 +3572,7 @@ const QUESTIONS = {
         "Only registered voters are legally allowed to be polled."
       ],
       "correct": 2,
-      "explanation": "Screening for 'likely voters' (using criteria like past voting history or stated intent) produces a narrower subgroup that may differ systematically from the full registered voter population — a methodological choice affecting what population results can be generalized to. Option 0 is factually wrong; unregistered individuals can legally be polled. Option 1 wrongly claims the two groups always produce identical results. Option 3 wrongly restricts this methodological distinction to non-election years."
+      "explanation": "Screening for 'likely voters' (using criteria like past voting history or stated intent) produces a narrower subgroup that may differ systematically from the full registered voter population — a methodological choice affecting what population results can be generalized to. Option D is factually wrong; unregistered individuals can legally be polled. Option A wrongly claims the two groups always produce identical results. Option B wrongly restricts this methodological distinction to non-election years."
     },
     {
       "id": "4-64",
@@ -3585,7 +3585,7 @@ const QUESTIONS = {
         "An ideologically meaningless combination with no analytical value."
       ],
       "correct": 2,
-      "explanation": "Supporting environmental regulation (typically liberal) while opposing expanded social welfare spending (typically conservative) mixes elements of both standard clusters — another example of how real individual views don't always sort neatly into a single ideological package. Options 0 and 3 both wrongly claim full ideological consistency in one direction, ignoring the mixed positions described. Option 1 wrongly claims the combination has no analytical value, when it's a textbook example of ideological mixing."
+      "explanation": "Supporting environmental regulation (typically liberal) while opposing expanded social welfare spending (typically conservative) mixes elements of both standard clusters — another example of how real individual views don't always sort neatly into a single ideological package. Options A and B both wrongly claim full ideological consistency in one direction, ignoring the mixed positions described. Option D wrongly claims the combination has no analytical value, when it's a textbook example of ideological mixing."
     },
     {
       "id": "4-65",
@@ -3599,7 +3599,7 @@ const QUESTIONS = {
         "This observation contradicts the coalition model of parties and suggests parties are perfectly ideologically uniform."
       ],
       "correct": 2,
-      "explanation": "This scenario illustrates the 'parties as broad coalitions' concept: a faction diverging on one specific issue (trade policy) while remaining aligned on most others reflects the genuine internal diversity coalitions contain — and such shifting factional influence over time is the mechanism through which a party's platform can gradually evolve on specific issues, even while its overall ideological identity stays comparatively stable. Option 0 overstates the case — divergence on one issue doesn't mean leaving the party. Option 1 wrongly claims this observation is irrelevant to political science, when it's a core illustration of coalition theory. Option 2 wrongly claims it contradicts the coalition model — it's actually a textbook confirmation of it."
+      "explanation": "This scenario illustrates the 'parties as broad coalitions' concept: a faction diverging on one specific issue (trade policy) while remaining aligned on most others reflects the genuine internal diversity coalitions contain — and such shifting factional influence over time is the mechanism through which a party's platform can gradually evolve on specific issues, even while its overall ideological identity stays comparatively stable. Option B overstates the case — divergence on one issue doesn't mean leaving the party. Option A wrongly claims this observation is irrelevant to political science, when it's a core illustration of coalition theory. Option D wrongly claims it contradicts the coalition model — it's actually a textbook confirmation of it."
     },
     {
       "id": "4-66",
@@ -3612,7 +3612,7 @@ const QUESTIONS = {
         "The margin of error reported for the poll was calculated incorrectly."
       ],
       "correct": 2,
-      "explanation": "A poll's statistical validity concerns whether its sample was properly drawn and its results correctly reported for that moment — it doesn't guarantee accurate prediction of a future event, since opinion can shift, turnout can diverge from projections, and non-response bias can occur even in a well-conducted random sample. Option 0 wrongly assumes only self-selected samples can miss an outcome. Option 1 is an unsupported guess about a calculation error not indicated in the scenario. Option 2 overreaches by declaring all polling inherently unscientific, contrary to what a properly randomized sample actually establishes."
+      "explanation": "A poll's statistical validity concerns whether its sample was properly drawn and its results correctly reported for that moment — it doesn't guarantee accurate prediction of a future event, since opinion can shift, turnout can diverge from projections, and non-response bias can occur even in a well-conducted random sample. Option A wrongly assumes only self-selected samples can miss an outcome. Option D is an unsupported guess about a calculation error not indicated in the scenario. Option B overreaches by declaring all polling inherently unscientific, contrary to what a properly randomized sample actually establishes."
     },
     {
       "id": "4-67",
@@ -3625,7 +3625,7 @@ const QUESTIONS = {
         "Push polling, which means the poll's results cannot be trusted."
       ],
       "correct": 2,
-      "explanation": "Officials tend to be most responsive to public opinion on high-salience issues the public actively tracks and votes on, and least responsive on low-salience or technical issues — exactly the pattern described. Option 0 references the exclusionary rule, a criminal-procedure concept from Unit 3 unrelated to public opinion responsiveness. Option 2 wrongly claims push polling invalidates these results, when nothing here indicates biased question wording. Option 3 references the free rider problem, an unrelated collective-action concept."
+      "explanation": "Officials tend to be most responsive to public opinion on high-salience issues the public actively tracks and votes on, and least responsive on low-salience or technical issues — exactly the pattern described. Option A references the exclusionary rule, a criminal-procedure concept from Unit 3 unrelated to public opinion responsiveness. Option D wrongly claims push polling invalidates these results, when nothing here indicates biased question wording. Option B references the free rider problem, an unrelated collective-action concept."
     },
     {
       "id": "4-68",
@@ -3638,7 +3638,7 @@ const QUESTIONS = {
         "The watchdog function — media investigating and exposing government wrongdoing."
       ],
       "correct": 2,
-      "explanation": "Agenda-setting describes media's power to shape which issues the public considers important and salient — distinct from directly shaping what opinion the public holds on those issues. Coverage that raises an issue's perceived importance without changing minds is a textbook example of agenda-setting. Option 0 (watchdog function) concerns exposing wrongdoing, not perceived issue importance. Option 1 (horse-race journalism) concerns campaign-coverage framing, not issue salience. Option 3 (selective exposure) concerns individuals choosing like-minded media, not media's influence on perceived importance."
+      "explanation": "Agenda-setting describes media's power to shape which issues the public considers important and salient — distinct from directly shaping what opinion the public holds on those issues. Coverage that raises an issue's perceived importance without changing minds is a textbook example of agenda-setting. Option D (watchdog function) concerns exposing wrongdoing, not perceived issue importance. Option B (horse-race journalism) concerns campaign-coverage framing, not issue salience. Option A (selective exposure) concerns individuals choosing like-minded media, not media's influence on perceived importance."
     },
     {
       "id": "4-69",
@@ -3651,7 +3651,7 @@ const QUESTIONS = {
         "The original poll must have used a non-random sample, since a random sample would guarantee opinion never changes."
       ],
       "correct": 1,
-      "explanation": "A properly conducted poll measures opinion as it existed at the time it was taken — it is a snapshot, not a permanent prediction. Opinion genuinely shifting in response to later events does not retroactively invalidate the original poll's methodology or accuracy at the time it was conducted. Option 1 wrongly claims random samples guarantee opinion never changes — no sampling method can freeze future opinion. Option 2 overreaches by declaring polling inherently invalid. Option 3 incorrectly blames the margin of error, which measures sampling precision, not opinion stability over time."
+      "explanation": "A properly conducted poll measures opinion as it existed at the time it was taken — it is a snapshot, not a permanent prediction. Opinion genuinely shifting in response to later events does not retroactively invalidate the original poll's methodology or accuracy at the time it was conducted. Option D wrongly claims random samples guarantee opinion never changes — no sampling method can freeze future opinion. Option C overreaches by declaring polling inherently invalid. Option A incorrectly blames the margin of error, which measures sampling precision, not opinion stability over time."
     },
     {
       "id": "4-70",
@@ -3664,7 +3664,7 @@ const QUESTIONS = {
         "Voluntary charitable giving by successful business owners."
       ],
       "correct": 0,
-      "explanation": "Smith's \"invisible hand\" describes how individuals pursuing self-interest within a competitive market, without centralized direction, tend to produce outcomes that benefit society broadly. Government planning (option 1) is the opposite of Smith's argument. Charitable giving (option 2) and union negotiation (option 3) are real economic phenomena but are not the mechanism Smith identifies as producing broadly beneficial outcomes from self-interested competition."
+      "explanation": "Smith's \"invisible hand\" describes how individuals pursuing self-interest within a competitive market, without centralized direction, tend to produce outcomes that benefit society broadly. Government planning (option C) is the opposite of Smith's argument. Charitable giving (option D) and union negotiation (option B) are real economic phenomena but are not the mechanism Smith identifies as producing broadly beneficial outcomes from self-interested competition."
     },
     {
       "id": "4-71",
@@ -3677,7 +3677,7 @@ const QUESTIONS = {
         "It was cited in the majority opinion of a landmark Supreme Court case."
       ],
       "correct": 1,
-      "explanation": "The document earns its place in this unit specifically because it is the evidentiary source AP Gov cites for free enterprise as one of the core American political values, alongside liberty, equality, individualism, and self-government — not because of its general economic content. Smith was not a member of the Continental Congress (option 1), the book does not describe U.S. governmental structure (option 2), and its Foundational Document status here does not rest on a specific Court citation (option 3)."
+      "explanation": "The document earns its place in this unit specifically because it is the evidentiary source AP Gov cites for free enterprise as one of the core American political values, alongside liberty, equality, individualism, and self-government — not because of its general economic content. Smith was not a member of the Continental Congress (option A), the book does not describe U.S. governmental structure (option C), and its Foundational Document status here does not rest on a specific Court citation (option D)."
     },
     {
       "id": "4-72",
@@ -3690,7 +3690,7 @@ const QUESTIONS = {
         "The main justification for expanding the social safety net."
       ],
       "correct": 2,
-      "explanation": "Free enterprise, grounded in Smith's argument for limited government and market competition, resurfaces in 4.4–4.6 as the economic core of conservative ideology — favoring less government regulation and greater reliance on free markets. Expanding the safety net (option 1) and favoring more regulation (option 3) describe positions more typically associated with liberal ideology, the opposite pole. Populist trade policy (option 2) is a distinct strand covered elsewhere in 4.4 and is not the direct continuation of Smith's free-enterprise argument."
+      "explanation": "Free enterprise, grounded in Smith's argument for limited government and market competition, resurfaces in 4.4–4.6 as the economic core of conservative ideology — favoring less government regulation and greater reliance on free markets. Expanding the safety net (option D) and favoring more regulation (option B) describe positions more typically associated with liberal ideology, the opposite pole. Populist trade policy (option A) is a distinct strand covered elsewhere in 4.4 and is not the direct continuation of Smith's free-enterprise argument."
     }
   ],
   "5": [
@@ -3848,7 +3848,7 @@ const QUESTIONS = {
         "More competitive races typically see higher turnout."
       ],
       "correct": 3,
-      "explanation": "More competitive races typically drive higher turnout, since voters perceive their individual vote as more likely to meaningfully affect the outcome — a close race raises the perceived stakes of participating. Turnout occurs in both competitive and uncompetitive races, so the first option is false; the third option states the opposite of the documented relationship; and the claim of 'no established relationship' ignores consistent research findings on this point."
+      "explanation": "More competitive races typically drive higher turnout, since voters perceive their individual vote as more likely to meaningfully affect the outcome — a close race raises the perceived stakes of participating. Turnout occurs in both competitive and uncompetitive races, so choice B is false; choice C states the opposite of the documented relationship; and the claim of 'no established relationship' ignores consistent research findings on this point."
     },
     {
       "id": "5-13",

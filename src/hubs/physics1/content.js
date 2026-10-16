@@ -1000,7 +1000,7 @@ const QUESTIONS = {
         "Tension from an attached string"
       ],
       "correct": 0,
-      "explanation": "There is no such thing as a 'force of momentum' — momentum is a property of a moving object, not a force acting on it. Gravity, normal force, and tension are all genuine forces with real physical sources; the fourth option is a common but invented misconception."
+      "explanation": "There is no such thing as a 'force of momentum' — momentum is a property of a moving object, not a force acting on it. Gravity, normal force, and tension are all genuine forces with real physical sources; choice A is a common but invented misconception."
     },
     {
       "id": "2-8",

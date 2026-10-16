@@ -236,7 +236,7 @@ const QUESTIONS = {
         "Because most nutrients are held in living biomass rather than in the soil."
       ],
       "correct": 3,
-      "explanation": "Since rapid decomposition keeps nutrients cycling through living biomass rather than accumulating in tropical soil, removing the trees leaves nutrient-poor soil unable to sustain intensive farming for long. Rainfall is actually abundant in rainforests, not scarce. Tropical soil is warm, not cold — temperature isn't the limiting issue. And the soil is nutrient-POOR, not nutrient-rich, which is the opposite of what the last option claims."
+      "explanation": "Since rapid decomposition keeps nutrients cycling through living biomass rather than accumulating in tropical soil, removing the trees leaves nutrient-poor soil unable to sustain intensive farming for long. Rainfall is actually abundant in rainforests, not scarce. Tropical soil is warm, not cold — temperature isn't the limiting issue. And the soil is nutrient-POOR, not nutrient-rich, which is the opposite of what choice C claims."
     },
     {
       "id": "1-14",
@@ -470,7 +470,7 @@ const QUESTIONS = {
         "In practice, there is no meaningful difference at all between these two general aquifer types."
       ],
       "correct": 1,
-      "explanation": "A confined aquifer sits beneath an impermeable rock layer, which slows recharge but protects it from surface contamination; an unconfined aquifer lacks that layer, recharging faster but remaining more vulnerable to pollution. Both are still groundwater, so the first option is wrong; an aquifer isn't necessarily a literal open cavern; and the two types differ meaningfully in both recharge rate and pollution vulnerability."
+      "explanation": "A confined aquifer sits beneath an impermeable rock layer, which slows recharge but protects it from surface contamination; an unconfined aquifer lacks that layer, recharging faster but remaining more vulnerable to pollution. Both are still groundwater, so choice A is wrong; an aquifer isn't necessarily a literal open cavern; and the two types differ meaningfully in both recharge rate and pollution vulnerability."
     },
     {
       "id": "1-32",
@@ -483,7 +483,7 @@ const QUESTIONS = {
         "Because cities are, in general, always built at a lower elevation than surrounding areas."
       ],
       "correct": 1,
-      "explanation": "Impervious surfaces (pavement, buildings) reduce infiltration and increase runoff, sending more water into streams and rivers more quickly and raising flood risk — without requiring any change in total precipitation. Cities aren't inherently lower in elevation, urbanization clearly does affect flooding (contrary to the third option), and urban areas don't necessarily receive more total rainfall than rural ones — the flooding increase comes from surface changes, not rainfall changes."
+      "explanation": "Impervious surfaces (pavement, buildings) reduce infiltration and increase runoff, sending more water into streams and rivers more quickly and raising flood risk — without requiring any change in total precipitation. Cities aren't inherently lower in elevation, urbanization clearly does affect flooding (contrary to choice A), and urban areas don't necessarily receive more total rainfall than rural ones — the flooding increase comes from surface changes, not rainfall changes."
     },
     {
       "id": "1-33",
@@ -561,7 +561,7 @@ const QUESTIONS = {
         "It only affects the nitrogen cycle, never the carbon cycle at all."
       ],
       "correct": 1,
-      "explanation": "Burning fossil fuels releases carbon stored underground for millions of years, adding it back into the active atmospheric carbon cycle faster than natural processes like photosynthesis can remove it — the central driver of the enhanced greenhouse effect. It ADDS carbon rather than removing it, it is squarely a carbon-cycle process (not a nitrogen-cycle one), and it clearly does affect atmospheric carbon levels, contrary to the last option."
+      "explanation": "Burning fossil fuels releases carbon stored underground for millions of years, adding it back into the active atmospheric carbon cycle faster than natural processes like photosynthesis can remove it — the central driver of the enhanced greenhouse effect. It ADDS carbon rather than removing it, it is squarely a carbon-cycle process (not a nitrogen-cycle one), and it clearly does affect atmospheric carbon levels, contrary to choice C."
     },
     {
       "id": "1-39",
@@ -730,7 +730,7 @@ const QUESTIONS = {
         "This outcome suggests the lake had no aquatic life prior to the fertilizer runoff."
       ],
       "correct": 1,
-      "explanation": "A dramatic productivity surge after added phosphorus strongly suggests phosphorus was previously the limiting nutrient — removing that cap allowed algal growth to increase sharply. This clearly shows a strong relationship to algal growth (not none), it shows phosphorus was previously in SHORT supply (not excess, since excess wouldn't produce a bloom from more of the same nutrient), and lakes virtually always have some pre-existing aquatic life before a pollution event, so the last option is implausible."
+      "explanation": "A dramatic productivity surge after added phosphorus strongly suggests phosphorus was previously the limiting nutrient — removing that cap allowed algal growth to increase sharply. This clearly shows a strong relationship to algal growth (not none), it shows phosphorus was previously in SHORT supply (not excess, since excess wouldn't produce a bloom from more of the same nutrient), and lakes virtually always have some pre-existing aquatic life before a pollution event, so choice D is implausible."
     },
     {
       "id": "1-52",
@@ -2307,7 +2307,7 @@ const QUESTIONS = {
         "Specialist — coyote (wide diet, many habitats)"
       ],
       "correct": 0,
-      "explanation": "The koala, with its near-total dependence on eucalyptus, is a classic real-world specialist. Labeling the coyote — a broad-diet, multi-habitat species — as a specialist reverses the pairing, and labeling the koala a generalist does the same in the opposite direction; both species types clearly do apply to real organisms, so the last option is also incorrect."
+      "explanation": "The koala, with its near-total dependence on eucalyptus, is a classic real-world specialist. Labeling the coyote — a broad-diet, multi-habitat species — as a specialist reverses the pairing, and labeling the koala a generalist does the same in the opposite direction; both species types clearly do apply to real organisms, so choice B is also incorrect."
     },
     {
       "id": "3-10",
@@ -2541,7 +2541,7 @@ const QUESTIONS = {
         "Density-independent factors are actually the primary mechanism behind this slowdown, not density-dependent factors at all."
       ],
       "correct": 1,
-      "explanation": "The logistic model's slowdown as N approaches K reflects density-dependent factors intensifying with population density — density-independent factors, by definition, act regardless of population size and so can't explain WHY growth specifically slows near carrying capacity. Both factor types clearly do relate to the model, so the first two options are wrong, and it is density-dependent, not density-independent, factors that supply this mechanism."
+      "explanation": "The logistic model's slowdown as N approaches K reflects density-dependent factors intensifying with population density — density-independent factors, by definition, act regardless of population size and so can't explain WHY growth specifically slows near carrying capacity. Both factor types clearly do relate to the model, so choices A and C are wrong, and it is density-dependent, not density-independent, factors that supply this mechanism."
     },
     {
       "id": "3-28",
@@ -2632,7 +2632,7 @@ const QUESTIONS = {
         "Yes, but only for animal species, not plants."
       ],
       "correct": 2,
-      "explanation": "r-selected and K-selected are better understood as two ends of a continuum rather than two strictly separate, mutually exclusive categories — many real species display a mix of traits from both rather than a pure textbook example of either extreme. The two strategies are clearly distinct, not the same, so the first option is wrong; the continuum framework applies to plants as well as animals, not animals exclusively; and because most species fall somewhere along the spectrum, not every species fits neatly into one pure category."
+      "explanation": "r-selected and K-selected are better understood as two ends of a continuum rather than two strictly separate, mutually exclusive categories — many real species display a mix of traits from both rather than a pure textbook example of either extreme. The two strategies are clearly distinct, not the same, so choice B is wrong; the continuum framework applies to plants as well as animals, not animals exclusively; and because most species fall somewhere along the spectrum, not every species fits neatly into one pure category."
     },
     {
       "id": "3-35",
@@ -2762,7 +2762,7 @@ const QUESTIONS = {
         "Countries never attempt to influence their birth rate through policy."
       ],
       "correct": 1,
-      "explanation": "While current population momentum (from the existing wide-based age structure) guarantees some continued growth in the near term regardless of policy, reducing birth rates today shapes the age structure of future generations, gradually reducing that momentum over a longer time horizon — a country's growth trajectory decades out is still meaningfully shaped by policies enacted today, even though near-term growth is largely already 'locked in.' Current age structure clearly does bear on future size, since that's the whole basis of momentum; such policies do have real long-term effects; and countries frequently do pursue birth-rate policy, contrary to the last option."
+      "explanation": "While current population momentum (from the existing wide-based age structure) guarantees some continued growth in the near term regardless of policy, reducing birth rates today shapes the age structure of future generations, gradually reducing that momentum over a longer time horizon — a country's growth trajectory decades out is still meaningfully shaped by policies enacted today, even though near-term growth is largely already 'locked in.' Current age structure clearly does bear on future size, since that's the whole basis of momentum; such policies do have real long-term effects; and countries frequently do pursue birth-rate policy, contrary to choice D."
     },
     {
       "id": "3-45",
@@ -3178,7 +3178,7 @@ const QUESTIONS = {
         "Migration has no effect on either country's total population size."
       ],
       "correct": 0,
-      "explanation": "Because TFR, CBR, and CDR only capture natural increase, two countries with identical values for those metrics can still have very different overall growth rates once net migration is factored in — Country Q's net immigration adds to its natural increase, while Country P's net emigration subtracts from its natural increase, so their overall growth diverges despite identical natural-increase inputs. Identical TFR/CBR/CDR therefore does not guarantee identical overall growth; emigration reduces, not increases, a country's overall growth; and migration clearly does affect total population size, contrary to the third option."
+      "explanation": "Because TFR, CBR, and CDR only capture natural increase, two countries with identical values for those metrics can still have very different overall growth rates once net migration is factored in — Country Q's net immigration adds to its natural increase, while Country P's net emigration subtracts from its natural increase, so their overall growth diverges despite identical natural-increase inputs. Identical TFR/CBR/CDR therefore does not guarantee identical overall growth; emigration reduces, not increases, a country's overall growth; and migration clearly does affect total population size, contrary to choice D."
     }
   ],
   "4": [
@@ -4534,7 +4534,7 @@ const QUESTIONS = {
         "Another term used interchangeably with biomagnification, with no meaningful distinction between them."
       ],
       "correct": 0,
-      "explanation": "Bioaccumulation is the buildup of a substance, such as a persistent pesticide, within a single organism's tissue over time, occurring when uptake outpaces elimination. It is not a pest-control technique, and it is distinct from biomagnification: bioaccumulation happens within one organism, while the trophic-level concentration increase (the fourth option) describes biomagnification instead."
+      "explanation": "Bioaccumulation is the buildup of a substance, such as a persistent pesticide, within a single organism's tissue over time, occurring when uptake outpaces elimination. It is not a pest-control technique, and it is distinct from biomagnification: bioaccumulation happens within one organism, while the trophic-level concentration increase (choice C) describes biomagnification instead."
     },
     {
       "id": "5-20",
@@ -4547,7 +4547,7 @@ const QUESTIONS = {
         "A farming technique specifically used to increase overall crop yields."
       ],
       "correct": 0,
-      "explanation": "Biomagnification describes the increasing concentration of a persistent substance, such as certain pesticides, at each successive trophic level, since predators consume many contaminated prey and concentrate the substance further with each step up the food chain. It has nothing to do with crop yield techniques, and it is distinct from bioaccumulation, which is the single-organism buildup process described in the fourth option."
+      "explanation": "Biomagnification describes the increasing concentration of a persistent substance, such as certain pesticides, at each successive trophic level, since predators consume many contaminated prey and concentrate the substance further with each step up the food chain. It has nothing to do with crop yield techniques, and it is distinct from bioaccumulation, which is the single-organism buildup process described in choice C."
     },
     {
       "id": "5-21",
@@ -5368,7 +5368,7 @@ const QUESTIONS = {
         "Nuclear — renewable; Geothermal — nonrenewable"
       ],
       "correct": 0,
-      "explanation": "Wind is renewable (continuously replenished) and natural gas is nonrenewable (a finite fossil fuel), making this the only accurate pairing. Option 0 reverses both classifications (solar is renewable, coal is nonrenewable). Option 2 also reverses both (oil is nonrenewable, hydroelectric is renewable). Option 3 misclassifies both as well (nuclear is nonrenewable due to finite uranium; geothermal is renewable)."
+      "explanation": "Wind is renewable (continuously replenished) and natural gas is nonrenewable (a finite fossil fuel), making this the only accurate pairing. Option C reverses both classifications (solar is renewable, coal is nonrenewable). Option B also reverses both (oil is nonrenewable, hydroelectric is renewable). Option D misclassifies both as well (nuclear is nonrenewable due to finite uranium; geothermal is renewable)."
     },
     {
       "id": "6-8",
@@ -5745,7 +5745,7 @@ const QUESTIONS = {
         "Wind — bird and bat mortality; Solar — land use for large installations"
       ],
       "correct": 3,
-      "explanation": "Wind is specifically associated with bird and bat mortality from turbine blades; solar is specifically associated with land use for large installations (though distributed rooftop generation can mitigate this). Option 1 swaps these associations incorrectly. Option 2 denies any meaningful distinction, which ignores these well-documented, source-specific concerns. Option 3 denies either source has a specific consideration at all, also incorrect."
+      "explanation": "Wind is specifically associated with bird and bat mortality from turbine blades; solar is specifically associated with land use for large installations (though distributed rooftop generation can mitigate this). Option A swaps these associations incorrectly. Option C denies any meaningful distinction, which ignores these well-documented, source-specific concerns. Option B denies either source has a specific consideration at all, also incorrect."
     },
     {
       "id": "6-37",
@@ -5875,7 +5875,7 @@ const QUESTIONS = {
         "Hydroelectric's limit is habitat disruption; geothermal's is heat access."
       ],
       "correct": 3,
-      "explanation": "Hydroelectric power's main limitation centers on habitat and community disruption from dam construction and reservoir flooding, while geothermal's main limitation is geographic — needing access to sufficient underground heat, typically near plate boundaries. Option 0 swaps these two limitations. Option 1 denies any distinction, which ignores their genuinely different constraints. Option 3 denies either has a significant limitation, contradicted by both documented issues."
+      "explanation": "Hydroelectric power's main limitation centers on habitat and community disruption from dam construction and reservoir flooding, while geothermal's main limitation is geographic — needing access to sufficient underground heat, typically near plate boundaries. Option C swaps these two limitations. Option B denies any distinction, which ignores their genuinely different constraints. Option A denies either has a significant limitation, contradicted by both documented issues."
     },
     {
       "id": "6-47",
@@ -6304,7 +6304,7 @@ const QUESTIONS = {
         "The moderator carries heat to generate steam; the coolant absorbs neutrons to stop the reaction."
       ],
       "correct": 1,
-      "explanation": "The moderator (often water) slows the neutrons released by fission so they can sustain the chain reaction efficiently, while the coolant (typically water) carries the heat produced by fission away from the core to generate the steam that drives the turbine — two distinct components with two distinct functions, alongside the control rods that regulate reaction rate. Option 1 swaps these two functions. Option 2 denies any distinction, which is incorrect — moderator and coolant serve different purposes even when both happen to be water. Option 3 misattributes both functions to the wrong components entirely — neither stores spent fuel nor directly regulates fission rate (that's the control rods' job)."
+      "explanation": "The moderator (often water) slows the neutrons released by fission so they can sustain the chain reaction efficiently, while the coolant (typically water) carries the heat produced by fission away from the core to generate the steam that drives the turbine — two distinct components with two distinct functions, alongside the control rods that regulate reaction rate. Option D swaps these two functions. Option A denies any distinction, which is incorrect — moderator and coolant serve different purposes even when both happen to be water. Option C misattributes both functions to the wrong components entirely — neither stores spent fuel nor directly regulates fission rate (that's the control rods' job)."
     }
   ],
   "7": [
@@ -8611,7 +8611,7 @@ const QUESTIONS = {
         "Sea ice loss has no relationship to any other climate process, so removing it changes nothing else in the model."
       ],
       "correct": 2,
-      "explanation": "This question tests whether students can distinguish a direct effect from an indirect pathway: while sea ice melting should not be directly counted as a sea-level-rise contributor, its loss still reduces albedo (more solar absorption), which can accelerate the regional warming that drives thermal expansion and land ice melt, the two mechanisms that DO matter directly. So sea ice loss is not irrelevant to the model (as the first two options wrongly claim), and simply subtracting its direct contribution without accounting for this indirect pathway, as the fourth option assumes, could understate long-term risk rather than correctly reduce it."
+      "explanation": "This question tests whether students can distinguish a direct effect from an indirect pathway: while sea ice melting should not be directly counted as a sea-level-rise contributor, its loss still reduces albedo (more solar absorption), which can accelerate the regional warming that drives thermal expansion and land ice melt, the two mechanisms that DO matter directly. So sea ice loss is not irrelevant to the model (as choices B and D wrongly claim), and simply subtracting its direct contribution without accounting for this indirect pathway, as choice A assumes, could understate long-term risk rather than correctly reduce it."
     },
     {
       "id": "9-38",

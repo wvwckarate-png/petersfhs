@@ -1569,7 +1569,7 @@ const QUESTIONS = {
           "Sentence [2], citing incident reports for this intersection."
         ],
         "correct": 3,
-        "explanation": "Sentence [2] cites sourced, documented incident reports tied to this exact intersection — the strongest, most specific evidence in the draft. Sentence [1] is the vague generalization the letter needs to move past, sentence [4] is an unsupported value claim, and the draft clearly does contain specific evidence, contrary to the last option."
+        "explanation": "Sentence [2] cites sourced, documented incident reports tied to this exact intersection — the strongest, most specific evidence in the draft. Sentence [1] is the vague generalization the letter needs to move past, sentence [4] is an unsupported value claim, and the draft clearly does contain specific evidence, contrary to choice B."
       },
       {
         "id": "1w-8",
@@ -2143,7 +2143,7 @@ const QUESTIONS = {
           "It reinforces the passage's overconfident pattern — asserting clarity without demonstrating it."
         ],
         "correct": 3,
-        "explanation": "This repeated short-sentence assertion of 'clarity' reinforces the same overconfident, dismissive pattern identified elsewhere in the passage — repetition asserts certainty without actually demonstrating it through specific evidence or engagement with objections. It is not a neutral or disconnected stylistic flourish; it echoes the same dismissiveness driving the passage's other choices, and it certainly doesn't build credibility through mere repetition, as the first option implies."
+        "explanation": "This repeated short-sentence assertion of 'clarity' reinforces the same overconfident, dismissive pattern identified elsewhere in the passage — repetition asserts certainty without actually demonstrating it through specific evidence or engagement with objections. It is not a neutral or disconnected stylistic flourish; it echoes the same dismissiveness driving the passage's other choices, and it certainly doesn't build credibility through mere repetition, as choice C implies."
       },
       {
         "id": "2-4",
@@ -5543,7 +5543,7 @@ const QUESTIONS = {
           "It only grows longer in length, without adding new meaning."
         ],
         "correct": 1,
-        "explanation": "The metaphor progresses through three distinct stages -- healthy flow, the specific accumulating cause ('one reasonable brick at a time'), and the resulting diagnosis ('a lake -- still water, going nowhere') -- each adding new argumentative content, not just extending the same image (ruling out option 2) or switching images (ruling out option 3, since the river/dam/lake figure runs through the whole passage)."
+        "explanation": "The metaphor progresses through three distinct stages -- healthy flow, the specific accumulating cause ('one reasonable brick at a time'), and the resulting diagnosis ('a lake -- still water, going nowhere') -- each adding new argumentative content, not just extending the same image (ruling out option A) or switching images (ruling out option C, since the river/dam/lake figure runs through the whole passage)."
       },
       {
         "id": "1-3",
@@ -5556,7 +5556,7 @@ const QUESTIONS = {
           "It contradicts the passage's central river-and-dam metaphor entirely."
         ],
         "correct": 2,
-        "explanation": "This line explains the causal mechanism directly supporting 'one reasonable brick at a time': each approval seemed fine on its own, yet their accumulation dammed the river. That supports rather than contradicts the metaphor (ruling out option 0), plainly matters to the argument (ruling out option 2), and locates the problem in cumulative effect, not individual unreasonableness (ruling out option 3)."
+        "explanation": "This line explains the causal mechanism directly supporting 'one reasonable brick at a time': each approval seemed fine on its own, yet their accumulation dammed the river. That supports rather than contradicts the metaphor (ruling out option D), plainly matters to the argument (ruling out option A), and locates the problem in cumulative effect, not individual unreasonableness (ruling out option B)."
       },
       {
         "id": "1-4",
@@ -5569,7 +5569,7 @@ const QUESTIONS = {
           "The question contradicts the passage's central argument."
         ],
         "correct": 2,
-        "explanation": "Ending on 'are we managing risk, or are we just watching the water rise...' asks board members to reach the conclusion themselves, appropriate for an internal reflective memo. This is a deliberate rhetorical choice, not an absence of effect (ruling out option 0) or position (ruling out option 2), and it reinforces rather than undercuts the passage's argument (ruling out option 1)."
+        "explanation": "Ending on 'are we managing risk, or are we just watching the water rise...' asks board members to reach the conclusion themselves, appropriate for an internal reflective memo. This is a deliberate rhetorical choice, not an absence of effect (ruling out option A) or position (ruling out option B), and it reinforces rather than undercuts the passage's argument (ruling out option D)."
       },
       {
         "id": "2-1",
@@ -5595,7 +5595,7 @@ const QUESTIONS = {
           "A logical fallacy drawn from faulty premises about corporate intent."
         ],
         "correct": 2,
-        "explanation": "'It fits... does not... fit' is parallel grammatical structure setting corporate headlines against affected kitchens -- antithesis, not a fallacy (ruling out option 1) or an unrelated metaphor (ruling out option 2, since there's no sustained comparison here), and its careful construction is a deliberate technique, not a bare fact (ruling out option 3)."
+        "explanation": "'It fits... does not... fit' is parallel grammatical structure setting corporate headlines against affected kitchens -- antithesis, not a fallacy (ruling out option D) or an unrelated metaphor (ruling out option A, since there's no sustained comparison here), and its careful construction is a deliberate technique, not a bare fact (ruling out option B)."
       },
       {
         "id": "2-3",
@@ -5608,7 +5608,7 @@ const QUESTIONS = {
           "The tone indicates the writer secretly approves of the company's decision."
         ],
         "correct": 0,
-        "explanation": "By stating the wage-cutting motive flatly rather than editorializing, the editorial lets readers draw the damning conclusion themselves -- a technique that often intensifies rather than minimizes impact (ruling out option 2) and signals critique, not approval (ruling out option 1); the restraint is a deliberate choice, not an absence of effect (ruling out option 3)."
+        "explanation": "By stating the wage-cutting motive flatly rather than editorializing, the editorial lets readers draw the damning conclusion themselves -- a technique that often intensifies rather than minimizes impact (ruling out option C) and signals critique, not approval (ruling out option D); the restraint is a deliberate choice, not an absence of effect (ruling out option B)."
       },
       {
         "id": "2-4",
@@ -5621,7 +5621,7 @@ const QUESTIONS = {
           "It turns the abstract job-loss statistic into one concrete, human image."
         ],
         "correct": 3,
-        "explanation": "'Kitchens' converts '600 jobs' into a felt, domestic image of homes affected -- reinforcing, not contradicting, the earlier statistic (ruling out option 0), and the number stays consistent throughout (ruling out option 2). This is a deliberate rhetorical move, not decoration (ruling out option 3)."
+        "explanation": "'Kitchens' converts '600 jobs' into a felt, domestic image of homes affected -- reinforcing, not contradicting, the earlier statistic (ruling out option B), and the number stays consistent throughout (ruling out option A). This is a deliberate rhetorical move, not decoration (ruling out option C)."
       },
       {
         "id": "2-6",
@@ -5634,7 +5634,7 @@ const QUESTIONS = {
           "This detail carries no particular rhetorical effect on the reader at all."
         ],
         "correct": 1,
-        "explanation": "The exact distance supplies the concrete substance ('eight hundred miles south... paid considerably less') that the press release's vague phrase 'strategic realignment' omits -- a deliberate contrast, not a mirroring of any data-driven corporate language, since the only quoted corporate phrase contains no statistics at all. This detail reinforces the passage's critique (ruling out option 0), carries no approval (ruling out option 1), and is far from inert (ruling out option 3)."
+        "explanation": "The exact distance supplies the concrete substance ('eight hundred miles south... paid considerably less') that the press release's vague phrase 'strategic realignment' omits -- a deliberate contrast, not a mirroring of any data-driven corporate language, since the only quoted corporate phrase contains no statistics at all. This detail reinforces the passage's critique (ruling out option C), carries no approval (ruling out option A), and is far from inert (ruling out option D)."
       },
       {
         "id": "3-1",
@@ -5647,7 +5647,7 @@ const QUESTIONS = {
           "Personal/narrative, then analytical/statistical, then direct/imperative."
         ],
         "correct": 3,
-        "explanation": "The speech moves from the grandmother's story, to broadband-gap data, to a direct call to action -- three genuinely distinct registers, not merely escalating formality (ruling out option 0), a comedic frame (ruling out option 1), or a single unchanging register (ruling out option 2)."
+        "explanation": "The speech moves from the grandmother's story, to broadband-gap data, to a direct call to action -- three genuinely distinct registers, not merely escalating formality (ruling out option C), a comedic frame (ruling out option A), or a single unchanging register (ruling out option B)."
       },
       {
         "id": "3-2",
@@ -5660,7 +5660,7 @@ const QUESTIONS = {
           "It actually contradicts the passage's central argument about access."
         ],
         "correct": 2,
-        "explanation": "'The data confirms what her Tuesdays already told me' explicitly frames the coming statistics as confirming, not introducing, a separate topic -- so it plainly does transition (ruling out option 1), supports rather than contradicts the argument (ruling out option 2), and stays on the same subject (ruling out option 3)."
+        "explanation": "'The data confirms what her Tuesdays already told me' explicitly frames the coming statistics as confirming, not introducing, a separate topic -- so it plainly does transition (ruling out option B), supports rather than contradicts the argument (ruling out option D), and stays on the same subject (ruling out option A)."
       },
       {
         "id": "3-3",
@@ -5673,7 +5673,7 @@ const QUESTIONS = {
           "A logical fallacy built on a flawed comparison of initiatives."
         ],
         "correct": 1,
-        "explanation": "The parallel 'Stop calling... Start calling...' commands are antithesis plus direct imperative -- not a fallacy (ruling out option 0), not a sustained figurative comparison (ruling out option 1), and clearly not understatement, since the language is direct and forceful (ruling out option 2)."
+        "explanation": "The parallel 'Stop calling... Start calling...' commands are antithesis plus direct imperative -- not a fallacy (ruling out option D), not a sustained figurative comparison (ruling out option A), and clearly not understatement, since the language is direct and forceful (ruling out option C)."
       },
       {
         "id": "3-4",
@@ -5686,7 +5686,7 @@ const QUESTIONS = {
           "It has no particular function within the passage's larger argument."
         ],
         "correct": 2,
-        "explanation": "The statistic moves the argument from one family's story to a documented statewide pattern, confirming rather than contradicting the anecdote (ruling out option 1) and clearly carrying argumentative weight (ruling out options 0 and 3)."
+        "explanation": "The statistic moves the argument from one family's story to a documented statewide pattern, confirming rather than contradicting the anecdote (ruling out option A) and clearly carrying argumentative weight (ruling out options B and D)."
       },
       {
         "id": "3-5",
@@ -5699,7 +5699,7 @@ const QUESTIONS = {
           "This detail carries no rhetorical significance in the speech at all."
         ],
         "correct": 2,
-        "explanation": "By showing three initiatives barely moved the number, the speech forecloses the objection that more of the same would eventually work -- the opposite of suggesting success (ruling out option 1) -- and this detail is consistent with, not contradictory to, the opening anecdote (ruling out option 2), and clearly matters to the argument (ruling out option 0)."
+        "explanation": "By showing three initiatives barely moved the number, the speech forecloses the objection that more of the same would eventually work -- the opposite of suggesting success (ruling out option A) -- and this detail is consistent with, not contradictory to, the opening anecdote (ruling out option B), and clearly matters to the argument (ruling out option D)."
       },
       {
         "id": "3-6",
@@ -5712,7 +5712,7 @@ const QUESTIONS = {
           "This passage uses a completely different structure with no stages at all."
         ],
         "correct": 2,
-        "explanation": "Both passages share the full three-stage arc, not just one stage (ruling out option 2) or none (ruling out option 3), demonstrating a reusable structural pattern rather than the absence of structure (ruling out option 1)."
+        "explanation": "Both passages share the full three-stage arc, not just one stage (ruling out option B) or none (ruling out option A), demonstrating a reusable structural pattern rather than the absence of structure (ruling out option D)."
       },
       {
         "id": "4-1",
@@ -5725,7 +5725,7 @@ const QUESTIONS = {
           "Providing a personal anecdote unrelated to the policy question at hand."
         ],
         "correct": 2,
-        "explanation": "Paragraph 1 sets up the proposed change and states critics' concern, without yet responding -- so it isn't the final recommendation (ruling out option 1) or resolving evidence (ruling out option 2), and it's policy context, not personal anecdote (ruling out option 0)."
+        "explanation": "Paragraph 1 sets up the proposed change and states critics' concern, without yet responding -- so it isn't the final recommendation (ruling out option A) or resolving evidence (ruling out option B), and it's policy context, not personal anecdote (ruling out option D)."
       },
       {
         "id": "4-2",
@@ -5738,7 +5738,7 @@ const QUESTIONS = {
           "It engages Paragraph 1's concern and uses mixed evidence to justify a pilot."
         ],
         "correct": 3,
-        "explanation": "Paragraph 2 directly answers the concern with specific (and genuinely mixed) district data, then recommends piloting rather than full adoption -- engagement, not repetition (ruling out option 1), avoidance (ruling out option 2), or dismissal (ruling out option 3)."
+        "explanation": "Paragraph 2 directly answers the concern with specific (and genuinely mixed) district data, then recommends piloting rather than full adoption -- engagement, not repetition (ruling out option B), avoidance (ruling out option A), or dismissal (ruling out option C)."
       },
       {
         "id": "4-3",
@@ -5751,7 +5751,7 @@ const QUESTIONS = {
           "It has no particular rhetorical significance in this section of the report."
         ],
         "correct": 1,
-        "explanation": "Admitting mixed results, rather than citing only favorable data, makes the eventual moderate recommendation feel earned rather than predetermined -- this builds credibility rather than undermining it (ruling out option 1), and it's consistent with, not contrary to, the final recommendation (ruling out option 3); the choice is deliberate, not insignificant (ruling out option 0)."
+        "explanation": "Admitting mixed results, rather than citing only favorable data, makes the eventual moderate recommendation feel earned rather than predetermined -- this builds credibility rather than undermining it (ruling out option C), and it's consistent with, not contrary to, the final recommendation (ruling out option A); the choice is deliberate, not insignificant (ruling out option D)."
       },
       {
         "id": "4-4",
@@ -5764,7 +5764,7 @@ const QUESTIONS = {
           "The recommendation ignores the evidence presented just before it entirely."
         ],
         "correct": 1,
-        "explanation": "Since declines were attributed to inconsistent implementation rather than the integration model itself, piloting with 'robust implementation support' addresses exactly that variable -- a precise match to the evidence (ruling out options 0 and 1), not a call for immediate full adoption (ruling out option 3)."
+        "explanation": "Since declines were attributed to inconsistent implementation rather than the integration model itself, piloting with 'robust implementation support' addresses exactly that variable -- a precise match to the evidence (ruling out options C and D), not a call for immediate full adoption (ruling out option A)."
       },
       {
         "id": "4-5",
@@ -5777,7 +5777,7 @@ const QUESTIONS = {
           "It would miss the rebuttal-and-resolution structure connecting the paragraphs."
         ],
         "correct": 3,
-        "explanation": "The excerpt's real work is in how Paragraph 2 answers Paragraph 1's named concern; analyzing each in isolation loses that connective structure. The paragraphs aren't identical (ruling out option 1) or unrelated (ruling out option 2), and relational analysis reveals more, not less, than isolated reading (ruling out option 3)."
+        "explanation": "The excerpt's real work is in how Paragraph 2 answers Paragraph 1's named concern; analyzing each in isolation loses that connective structure. The paragraphs aren't identical (ruling out option B) or unrelated (ruling out option C), and relational analysis reveals more, not less, than isolated reading (ruling out option A)."
       },
       {
         "id": "5-1",
@@ -5790,7 +5790,7 @@ const QUESTIONS = {
           "That the writer, in fact, never actually returned to the house at all."
         ],
         "correct": 2,
-        "explanation": "The passage's opening irony is memory versus reality -- 'a cathedral' against 'just a room' -- the house is smaller, not larger, than remembered (ruling out option 0); the writer clearly did return (ruling out option 1); and the water stains are explicitly old, not new (ruling out option 3)."
+        "explanation": "The passage's opening irony is memory versus reality -- 'a cathedral' against 'just a room' -- the house is smaller, not larger, than remembered (ruling out option A); the writer clearly did return (ruling out option D); and the water stains are explicitly old, not new (ruling out option B)."
       },
       {
         "id": "5-2",
@@ -5803,7 +5803,7 @@ const QUESTIONS = {
           "No shift occurs; both paragraphs maintain an identical tone throughout."
         ],
         "correct": 0,
-        "explanation": "Paragraph 1 registers the room's physical smallness; paragraph 2 processes what that discovery means -- a real shift (ruling out option 1), but not toward technical language (ruling out option 2), and the kitchen/cathedral image carries into paragraph 2 rather than disappearing (ruling out option 3)."
+        "explanation": "Paragraph 1 registers the room's physical smallness; paragraph 2 processes what that discovery means -- a real shift (ruling out option D), but not toward technical language (ruling out option C), and the kitchen/cathedral image carries into paragraph 2 rather than disappearing (ruling out option B)."
       },
       {
         "id": "5-3",
@@ -5816,7 +5816,7 @@ const QUESTIONS = {
           "It has no particular rhetorical effect on the passage's closing tone."
         ],
         "correct": 1,
-        "explanation": "The line keeps the ending honest rather than tidily resolved, acknowledging emotional acceptance may not be permanent -- it complicates rather than negates the passage's earlier meaning (ruling out option 1) or topic (ruling out option 0), and it's a deliberate closing move, not a neutral aside (ruling out option 3)."
+        "explanation": "The line keeps the ending honest rather than tidily resolved, acknowledging emotional acceptance may not be permanent -- it complicates rather than negates the passage's earlier meaning (ruling out option A) or topic (ruling out option C), and it's a deliberate closing move, not a neutral aside (ruling out option D)."
       },
       {
         "id": "5-4",
@@ -5829,7 +5829,7 @@ const QUESTIONS = {
           "They only appear in the second paragraph, not in the first one."
         ],
         "correct": 2,
-        "explanation": "The stains 'were there when we lived here and are... still exactly where I left them,' anchoring memory and present reality as the same place -- mentioned in paragraph 1, so they don't appear only later (ruling out option 0), and they support rather than contradict the room's smallness (ruling out option 3); their significance goes beyond mere detail (ruling out option 1)."
+        "explanation": "The stains 'were there when we lived here and are... still exactly where I left them,' anchoring memory and present reality as the same place -- mentioned in paragraph 1, so they don't appear only later (ruling out option D), and they support rather than contradict the room's smallness (ruling out option A); their significance goes beyond mere detail (ruling out option B)."
       },
       {
         "id": "5-5",
@@ -5842,7 +5842,7 @@ const QUESTIONS = {
           "'Cathedral' connotes sacredness, so memory inflated the space emotionally too."
         ],
         "correct": 3,
-        "explanation": "'Cathedral' carries connotations of reverence beyond scale, unlike a neutral size word (ruling out options 0 and 1), and it's consistent with, not contradicted by, the later reveal that it's 'just a room' -- that's the whole irony, not a contradiction (ruling out option 2)."
+        "explanation": "'Cathedral' carries connotations of reverence beyond scale, unlike a neutral size word (ruling out options A and C), and it's consistent with, not contradicted by, the later reveal that it's 'just a room' -- that's the whole irony, not a contradiction (ruling out option B)."
       },
       {
         "id": "5-6",
@@ -5855,7 +5855,7 @@ const QUESTIONS = {
           "These two techniques cannot coexist within the same passage at all."
         ],
         "correct": 0,
-        "explanation": "'By dinner' is both understated in tone and the moment the register shifts from solemn to wry -- showing the techniques working together, not as mutually exclusive (ruling out option 1), contradictory (ruling out option 2), or singular (ruling out option 3)."
+        "explanation": "'By dinner' is both understated in tone and the moment the register shifts from solemn to wry -- showing the techniques working together, not as mutually exclusive (ruling out option D), contradictory (ruling out option C), or singular (ruling out option B)."
       },
       {
         "id": "5-7",
@@ -5868,7 +5868,7 @@ const QUESTIONS = {
           "The paragraph break actually contradicts the passage's overall meaning, oddly enough."
         ],
         "correct": 1,
-        "explanation": "The break gives form to the writer's own pause between noticing the room's size and making sense of it -- a structural choice with real function (ruling out option 1) that isn't redundant (ruling out option 0) or self-contradictory (ruling out option 3)."
+        "explanation": "The break gives form to the writer's own pause between noticing the room's size and making sense of it -- a structural choice with real function (ruling out option C) that isn't redundant (ruling out option A) or self-contradictory (ruling out option D)."
       },
       {
         "id": "1-5",
@@ -5881,7 +5881,7 @@ const QUESTIONS = {
           "The claim of value is that dams are inherently beneficial infrastructure."
         ],
         "correct": 1,
-        "explanation": "By framing 'managing risk' against 'watching the water rise,' the metaphor implies active governance should be chosen over passive accumulation of caution -- a real value claim (ruling out option 1), not a literal endorsement of dams (ruling out option 2) or a detour into environmental policy (ruling out option 3), since the dam is figurative throughout."
+        "explanation": "By framing 'managing risk' against 'watching the water rise,' the metaphor implies active governance should be chosen over passive accumulation of caution -- a real value claim (ruling out option C), not a literal endorsement of dams (ruling out option D) or a detour into environmental policy (ruling out option A), since the dam is figurative throughout."
       },
       {
         "id": "2-5",
@@ -5894,7 +5894,7 @@ const QUESTIONS = {
           "Only the concrete detail matters; irony and diction add nothing meaningful."
         ],
         "correct": 1,
-        "explanation": "The ironic gap between euphemism and reality, the editorial's own restrained diction, and the concrete 'six hundred kitchens' detail combine so the techniques themselves carry the argument -- a coordinated, not independent (ruling out option 0) or contradictory (ruling out option 2), effect, and diction and irony clearly matter alongside detail (ruling out option 1)."
+        "explanation": "The ironic gap between euphemism and reality, the editorial's own restrained diction, and the concrete 'six hundred kitchens' detail combine so the techniques themselves carry the argument -- a coordinated, not independent (ruling out option A) or contradictory (ruling out option C), effect, and diction and irony clearly matter alongside detail (ruling out option D)."
       },
       {
         "id": "1-6",
@@ -5907,7 +5907,7 @@ const QUESTIONS = {
           "Yes, but only because the metaphor version happens to be longer."
         ],
         "correct": 2,
-        "explanation": "The river/dam/lake metaphor dramatizes exactly how decline happens gradually and with good intentions, an effect flat statement (e.g. 'the organization has become bureaucratic') would lose. This is about vividness and memorability, not mere word count (ruling out option 2), and metaphor clearly isn't interchangeable with direct statement here (ruling out options 0 and 1)."
+        "explanation": "The river/dam/lake metaphor dramatizes exactly how decline happens gradually and with good intentions, an effect flat statement (e.g. 'the organization has become bureaucratic') would lose. This is about vividness and memorability, not mere word count (ruling out option D), and metaphor clearly isn't interchangeable with direct statement here (ruling out options A and B)."
       },
       {
         "id": "2-7",
@@ -5920,7 +5920,7 @@ const QUESTIONS = {
           "This avoidance suggests the writer has no strong opinion on the matter at all."
         ],
         "correct": 0,
-        "explanation": "By letting irony and concrete detail carry the argument instead of open emotional appeal, the editorial reads as measured and credible rather than weakened (ruling out option 1) -- there is in fact no sustained first-person emotional language here (ruling out option 2), and restraint doesn't equal indifference; the critique is clear throughout (ruling out option 3)."
+        "explanation": "By letting irony and concrete detail carry the argument instead of open emotional appeal, the editorial reads as measured and credible rather than weakened (ruling out option C) -- there is in fact no sustained first-person emotional language here (ruling out option B), and restraint doesn't equal indifference; the critique is clear throughout (ruling out option D)."
       },
       {
         "id": "3-7",
@@ -5933,7 +5933,7 @@ const QUESTIONS = {
           "It would lose its concluding momentum, leaving its implication unstated."
         ],
         "correct": 3,
-        "explanation": "Without 'stop calling these initiatives... fund the actual infrastructure,' the speech would document a problem without demanding a remedy -- a real loss, not an improvement (ruling out option 1), and the ending is clearly connected to, not separate from (ruling out option 2), or negligible to (ruling out option 3), the speech's overall argument."
+        "explanation": "Without 'stop calling these initiatives... fund the actual infrastructure,' the speech would document a problem without demanding a remedy -- a real loss, not an improvement (ruling out option C), and the ending is clearly connected to, not separate from (ruling out option B), or negligible to (ruling out option A), the speech's overall argument."
       },
       {
         "id": "4-6",
@@ -5946,7 +5946,7 @@ const QUESTIONS = {
           "A measured, evidence-citing register appropriate for an official document."
         ],
         "correct": 3,
-        "explanation": "The excerpt stays measured and evidence-based even while taking a real concern seriously -- never becoming angry (ruling out option 1), casual (ruling out option 2), or personally emotional (ruling out option 3), consistent with an official report's genre expectations."
+        "explanation": "The excerpt stays measured and evidence-based even while taking a real concern seriously -- never becoming angry (ruling out option A), casual (ruling out option C), or personally emotional (ruling out option B), consistent with an official report's genre expectations."
       },
       {
         "id": "5-8",
@@ -5959,7 +5959,7 @@ const QUESTIONS = {
           "Yes -- the reflection on why it matters does work flat statement would not."
         ],
         "correct": 3,
-        "explanation": "The passage's reflection transforms a simple observation into a meditation on memory and acceptance -- a substantive difference, not merely a matter of length (ruling out option 0), and reflection clearly adds meaning here (ruling out options 1 and 3)."
+        "explanation": "The passage's reflection transforms a simple observation into a meditation on memory and acceptance -- a substantive difference, not merely a matter of length (ruling out option C), and reflection clearly adds meaning here (ruling out options A and B)."
       }
     ],
     "draftPassages": [
@@ -5988,7 +5988,7 @@ const QUESTIONS = {
           "They have no relationship to the rest of the draft that follows."
         ],
         "correct": 1,
-        "explanation": "Calling a thirty-minute extension 'progress' sarcastically sets a critical tone before sentence [3]'s data arrives -- hardly neutral (ruling out option 1) or supportive of the city's framing (ruling out option 3), and clearly connected to what follows (ruling out option 0)."
+        "explanation": "Calling a thirty-minute extension 'progress' sarcastically sets a critical tone before sentence [3]'s data arrives -- hardly neutral (ruling out option A) or supportive of the city's framing (ruling out option C), and clearly connected to what follows (ruling out option D)."
       },
       {
         "id": "1w-2",
@@ -6001,7 +6001,7 @@ const QUESTIONS = {
           "The data is entirely unrelated to the opening's content and tone somehow."
         ],
         "correct": 2,
-        "explanation": "The 34-percent foot-traffic decline gives the opening's irony concrete support rather than contradicting it (ruling out option 0) or merely repeating it (ruling out option 2); it's a clear, connected escalation, not an unrelated aside (ruling out option 1)."
+        "explanation": "The 34-percent foot-traffic decline gives the opening's irony concrete support rather than contradicting it (ruling out option B) or merely repeating it (ruling out option A); it's a clear, connected escalation, not an unrelated aside (ruling out option D)."
       },
       {
         "id": "1w-3",
@@ -6014,7 +6014,7 @@ const QUESTIONS = {
           "They set the proposed solution against its own history of repeated failure."
         ],
         "correct": 3,
-        "explanation": "Noting four past marketing campaigns right before proposing a fifth sets up [6]'s pointed conclusion -- the opposite of endorsement (ruling out option 0); it extends, rather than contradicts (ruling out option 2) or departs from (ruling out option 1), the draft's data-driven argument."
+        "explanation": "Noting four past marketing campaigns right before proposing a fifth sets up [6]'s pointed conclusion -- the opposite of endorsement (ruling out option C); it extends, rather than contradicts (ruling out option B) or departs from (ruling out option A), the draft's data-driven argument."
       },
       {
         "id": "1w-4",
@@ -6027,7 +6027,7 @@ const QUESTIONS = {
           "Dry understatement, compressing four failures into just 'the fifth.'"
         ],
         "correct": 3,
-        "explanation": "'Perhaps' hedges what's actually pointed criticism, and 'the fifth' quietly references four prior failures -- irony, not a literal statement (ruling out option 2) or fallacy (ruling out option 0); there's no sustained comparison here, so it isn't metaphor (ruling out option 1)."
+        "explanation": "'Perhaps' hedges what's actually pointed criticism, and 'the fifth' quietly references four prior failures -- irony, not a literal statement (ruling out option B) or fallacy (ruling out option C); there's no sustained comparison here, so it isn't metaphor (ruling out option A)."
       },
       {
         "id": "1w-5",
@@ -6040,7 +6040,7 @@ const QUESTIONS = {
           "The draft's six sentences appear in a random, unconnected order."
         ],
         "correct": 1,
-        "explanation": "The draft moves deliberately from tone to evidence to conclusion, mirroring this unit's structural framework -- not mere repetition (ruling out option 0) or randomness (ruling out option 3), and it clearly has discernible structure (ruling out option 1)."
+        "explanation": "The draft moves deliberately from tone to evidence to conclusion, mirroring this unit's structural framework -- not mere repetition (ruling out option A) or randomness (ruling out option D), and it clearly has discernible structure (ruling out option C)."
       },
       {
         "id": "2w-1",
@@ -6053,7 +6053,7 @@ const QUESTIONS = {
           "It actually contradicts the rest of the surrounding paragraph."
         ],
         "correct": 0,
-        "explanation": "'Either brave or foolish, usually in the same sentence' keeps both readings open rather than resolving them (ruling out option 3), consistent with the rest of the paragraph rather than contradicting it (ruling out option 1), and clearly purposeful (ruling out option 2)."
+        "explanation": "'Either brave or foolish, usually in the same sentence' keeps both readings open rather than resolving them (ruling out option B), consistent with the rest of the paragraph rather than contradicting it (ruling out option D), and clearly purposeful (ruling out option C)."
       },
       {
         "id": "2w-2",
@@ -6066,7 +6066,7 @@ const QUESTIONS = {
           "A logical fallacy about how neural pathways actually form."
         ],
         "correct": 0,
-        "explanation": "'Built, paved, and reluctant to make room for a new road' is sustained figurative comparison, not literal description (ruling out option 1) or an undeveloped statement (ruling out option 2), and it functions as explanation, not fallacy (ruling out option 0)."
+        "explanation": "'Built, paved, and reluctant to make room for a new road' is sustained figurative comparison, not literal description (ruling out option C) or an undeveloped statement (ruling out option B), and it functions as explanation, not fallacy (ruling out option D)."
       },
       {
         "id": "2w-3",
@@ -6079,7 +6079,7 @@ const QUESTIONS = {
           "Asyndeton, the deliberate omission of conjunctions between parallel clauses here."
         ],
         "correct": 2,
-        "explanation": "'I am not writing this... I am writing this...' repeats structure (anaphora) while contrasting 'easy' against 'possible' (antithesis) -- more than understatement alone (ruling out option 2), and not the omission-of-conjunctions pattern of asyndeton (ruling out option 3) or a fallacy (ruling out option 0)."
+        "explanation": "'I am not writing this... I am writing this...' repeats structure (anaphora) while contrasting 'easy' against 'possible' (antithesis) -- more than understatement alone (ruling out option B), and not the omission-of-conjunctions pattern of asyndeton (ruling out option D) or a fallacy (ruling out option A)."
       },
       {
         "id": "2w-4",
@@ -6092,7 +6092,7 @@ const QUESTIONS = {
           "The draft's structure actively works against its own stated purpose."
         ],
         "correct": 0,
-        "explanation": "The draft moves through three distinct stages toward its 'possible, not easy' insight -- clearly structured (ruling out option 1), not repetitive (ruling out option 2), and working toward, not against, its purpose (ruling out option 0)."
+        "explanation": "The draft moves through three distinct stages toward its 'possible, not easy' insight -- clearly structured (ruling out option B), not repetitive (ruling out option C), and working toward, not against, its purpose (ruling out option D)."
       },
       {
         "id": "1w-6",
@@ -6105,7 +6105,7 @@ const QUESTIONS = {
           "A patient/vital-signs metaphor developed with new detail at each mention."
         ],
         "correct": 3,
-        "explanation": "Section 7.1 favors metaphors that accumulate meaning across mentions, unlike a single-use image (ruling out option 3) or scattered, unrelated ones (ruling out option 0); data-driven writing can still use figurative language effectively (ruling out option 2)."
+        "explanation": "Section 7.1 favors metaphors that accumulate meaning across mentions, unlike a single-use image (ruling out option B) or scattered, unrelated ones (ruling out option C); data-driven writing can still use figurative language effectively (ruling out option A)."
       },
       {
         "id": "1w-7",
@@ -6118,7 +6118,7 @@ const QUESTIONS = {
           "We desperately need to completely overhaul our entire approach immediately."
         ],
         "correct": 0,
-        "explanation": "The original already understates a pointed critique through 'perhaps'; the alternatives either state the opposite point (ruling out option 1) or replace restraint with overt urgency (ruling out options 2 and 3), losing the technique's effect."
+        "explanation": "The original already understates a pointed critique through 'perhaps'; the alternatives either state the opposite point (ruling out option C) or replace restraint with overt urgency (ruling out options B and D), losing the technique's effect."
       },
       {
         "id": "1w-8",
@@ -6131,7 +6131,7 @@ const QUESTIONS = {
           "It depends on execution; overused irony risks diminishing returns."
         ],
         "correct": 3,
-        "explanation": "Section 7.2 notes irony works partly because writers trust readers to see the gap without over-signaling it, so more isn't automatically better (ruling out option 3) or without effect (ruling out option 1); this is a matter of degree and craft, not an absolute rule against repetition (ruling out option 2)."
+        "explanation": "Section 7.2 notes irony works partly because writers trust readers to see the gap without over-signaling it, so more isn't automatically better (ruling out option B) or without effect (ruling out option A); this is a matter of degree and craft, not an absolute rule against repetition (ruling out option C)."
       },
       {
         "id": "1w-9",
@@ -6144,7 +6144,7 @@ const QUESTIONS = {
           "The writer should pick two or three techniques and develop those thoroughly."
         ],
         "correct": 3,
-        "explanation": "Section 7.5 favors focused depth over exhaustive coverage -- the opposite of piling on every technique (ruling out option 1) or removing them all (ruling out option 2); selection clearly matters here (ruling out option 0)."
+        "explanation": "Section 7.5 favors focused depth over exhaustive coverage -- the opposite of piling on every technique (ruling out option B) or removing them all (ruling out option A); selection clearly matters here (ruling out option C)."
       },
       {
         "id": "2w-5",
@@ -6157,7 +6157,7 @@ const QUESTIONS = {
           "A wry aside about cheerful app notifications on her least great days."
         ],
         "correct": 3,
-        "explanation": "This addition extends the essay's already wry, reflective voice, unlike an angry outburst (ruling out option 2) or unrelated statistic (ruling out option 1) that would clash with it; the goal is adding consistent irony, not removing humor (ruling out option 0)."
+        "explanation": "This addition extends the essay's already wry, reflective voice, unlike an angry outburst (ruling out option A) or unrelated statistic (ruling out option B) that would clash with it; the goal is adding consistent irony, not removing humor (ruling out option C)."
       },
       {
         "id": "2w-6",
@@ -6170,7 +6170,7 @@ const QUESTIONS = {
           "The two sentences are unrelated and could be reordered with no effect."
         ],
         "correct": 0,
-        "explanation": "Sentence [4] applies [3]'s pathway-formation logic to adults, extending rather than contradicting it (ruling out option 0) or merely repeating it (ruling out option 3); the two are closely connected, not interchangeable (ruling out option 1)."
+        "explanation": "Sentence [4] applies [3]'s pathway-formation logic to adults, extending rather than contradicting it (ruling out option B) or merely repeating it (ruling out option C); the two are closely connected, not interchangeable (ruling out option D)."
       },
       {
         "id": "1w-10",
@@ -6183,7 +6183,7 @@ const QUESTIONS = {
           "Removing all of the draft's specific data and statistics entirely."
         ],
         "correct": 1,
-        "explanation": "Building out the implicit medical comparison would add real figurative sophistication, unlike removing the data that grounds the argument (ruling out option 1), adding unrelated content (ruling out option 2), or flattening sentence variety (ruling out option 0)."
+        "explanation": "Building out the implicit medical comparison would add real figurative sophistication, unlike removing the data that grounds the argument (ruling out option D), adding unrelated content (ruling out option A), or flattening sentence variety (ruling out option C)."
       },
       {
         "id": "2w-7",
@@ -6196,7 +6196,7 @@ const QUESTIONS = {
           "The alternative, generic phrasing is actually the stronger, more sophisticated choice."
         ],
         "correct": 0,
-        "explanation": "'Easy' versus 'possible' reframes the essay's whole takeaway with precision the generic phrasing lacks -- a real difference in sophistication (ruling out option 1), and clearly the antithesis, not the cliche, is stronger (ruling out option 3); both options are, however, connected to the essay's argument, contrary to option 0."
+        "explanation": "'Easy' versus 'possible' reframes the essay's whole takeaway with precision the generic phrasing lacks -- a real difference in sophistication (ruling out option B), and clearly the antithesis, not the cliche, is stronger (ruling out option D); both options are, however, connected to the essay's argument, contrary to option C."
       },
       {
         "id": "1w-11",
@@ -6209,7 +6209,7 @@ const QUESTIONS = {
           "Advanced technique should never be applied to drafts about serious topics."
         ],
         "correct": 0,
-        "explanation": "Both exercises show technique selection depends on the specific draft's own purpose and voice -- the opposite of a mechanical, one-size-fits-all approach (ruling out options 1 and 3); nothing suggests technique is off-limits for serious topics (ruling out option 2)."
+        "explanation": "Both exercises show technique selection depends on the specific draft's own purpose and voice -- the opposite of a mechanical, one-size-fits-all approach (ruling out options B and C); nothing suggests technique is off-limits for serious topics (ruling out option D)."
       },
       {
         "id": "2w-8",
@@ -6222,7 +6222,7 @@ const QUESTIONS = {
           "Both units focus exclusively on grammar correction, with no rhetorical component."
         ],
         "correct": 1,
-        "explanation": "This unit builds on Unit 6's sentence-level work by adding whole-passage structural tracking -- a real distinction (ruling out option 2), and a progression forward, not backward (ruling out option 3); neither unit is limited to grammar (ruling out option 0)."
+        "explanation": "This unit builds on Unit 6's sentence-level work by adding whole-passage structural tracking -- a real distinction (ruling out option A), and a progression forward, not backward (ruling out option C); neither unit is limited to grammar (ruling out option D)."
       },
       {
         "id": "1w-12",
@@ -6235,7 +6235,7 @@ const QUESTIONS = {
           "It requires connecting multiple techniques, not just spotting one alone."
         ],
         "correct": 3,
-        "explanation": "This unit builds a synthesis and prioritization skill beyond isolated technique-spotting -- it doesn't discard earlier techniques (ruling out option 2) or merely repeat them (ruling out option 1), and it is meaningfully different from foundational, single-sentence recognition (ruling out option 0)."
+        "explanation": "This unit builds a synthesis and prioritization skill beyond isolated technique-spotting -- it doesn't discard earlier techniques (ruling out option A) or merely repeat them (ruling out option C), and it is meaningfully different from foundational, single-sentence recognition (ruling out option B)."
       },
       {
         "id": "1w-13",
@@ -6248,7 +6248,7 @@ const QUESTIONS = {
           "The placement is arbitrary, with no real rhetorical logic behind it."
         ],
         "correct": 2,
-        "explanation": "Establishing skepticism before the data shapes how that data gets read -- a deliberate sequencing choice (ruling out option 1), and one that clearly does affect interpretation (ruling out option 0); nothing suggests reversing the order would work better (ruling out option 3)."
+        "explanation": "Establishing skepticism before the data shapes how that data gets read -- a deliberate sequencing choice (ruling out option D), and one that clearly does affect interpretation (ruling out option B); nothing suggests reversing the order would work better (ruling out option A)."
       },
       {
         "id": "2w-9",
@@ -6261,7 +6261,7 @@ const QUESTIONS = {
           "A sentence stating simply 'It was difficult,' with no elaboration."
         ],
         "correct": 0,
-        "explanation": "This option develops the established road imagery with new specific detail, consistent with this unit's principle of accumulating meaning across mentions -- unlike abandoning the metaphor (ruling out option 0), introducing an unrelated image (ruling out option 2), or flattening it into bare statement (ruling out option 3)."
+        "explanation": "This option develops the established road imagery with new specific detail, consistent with this unit's principle of accumulating meaning across mentions -- unlike abandoning the metaphor (ruling out option C), introducing an unrelated image (ruling out option B), or flattening it into bare statement (ruling out option D)."
       },
       {
         "id": "1w-14",
@@ -6274,7 +6274,7 @@ const QUESTIONS = {
           "The draft should never be divided into multiple paragraphs under any circumstances."
         ],
         "correct": 1,
-        "explanation": "Splitting by the draft's three actual rhetorical stages gives each its own space -- not an arbitrary choice (ruling out option 2), and paragraph breaks clearly can track rhetorical function (ruling out option 1); nothing rules out paragraphing altogether (ruling out option 3)."
+        "explanation": "Splitting by the draft's three actual rhetorical stages gives each its own space -- not an arbitrary choice (ruling out option A), and paragraph breaks clearly can track rhetorical function (ruling out option C); nothing rules out paragraphing altogether (ruling out option D)."
       },
       {
         "id": "2w-10",
@@ -6287,7 +6287,7 @@ const QUESTIONS = {
           "Draft revision exercises are purely optional bonus content, unrelated to the exam."
         ],
         "correct": 1,
-        "explanation": "Writing with a technique tests understanding more thoroughly than merely recognizing it in someone else's work -- directly relevant to the analytical focus (ruling out option 2) and to the exam's own writing questions (ruling out option 3), not optional bonus content (ruling out option 0)."
+        "explanation": "Writing with a technique tests understanding more thoroughly than merely recognizing it in someone else's work -- directly relevant to the analytical focus (ruling out option A) and to the exam's own writing questions (ruling out option C), not optional bonus content (ruling out option D)."
       },
       {
         "id": "1w-15",
@@ -6300,7 +6300,7 @@ const QUESTIONS = {
           "Applying every single technique from every unit to every sentence encountered."
         ],
         "correct": 0,
-        "explanation": "This unit consistently favors prioritized, arc-focused analysis over exhaustive cataloguing (ruling out option 3) or rote memorization without application (ruling out option 1); it does not recommend avoiding figurative language (ruling out option 2)."
+        "explanation": "This unit consistently favors prioritized, arc-focused analysis over exhaustive cataloguing (ruling out option D) or rote memorization without application (ruling out option B); it does not recommend avoiding figurative language (ruling out option C)."
       },
       {
         "id": "2w-11",
@@ -6313,7 +6313,7 @@ const QUESTIONS = {
           "There is no meaningful difference between the two options."
         ],
         "correct": 1,
-        "explanation": "Flattening the line would erase the deliberate ambiguity ('brave or foolish') central to the essay's voice -- a real loss, not a neutral change (ruling out option 2), and factual statement isn't automatically preferable here (ruling out option 1); nothing suggests the line is inaccurate (ruling out option 3)."
+        "explanation": "Flattening the line would erase the deliberate ambiguity ('brave or foolish') central to the essay's voice -- a real loss, not a neutral change (ruling out option D), and factual statement isn't automatically preferable here (ruling out option C); nothing suggests the line is inaccurate (ruling out option A)."
       },
       {
         "id": "1w-16",
@@ -6326,7 +6326,7 @@ const QUESTIONS = {
           "Each unit simply repeats the exact same content with different examples used."
         ],
         "correct": 0,
-        "explanation": "The course builds cumulatively toward integrated analysis, not declining relevance (ruling out option 1) or repetition (ruling out option 3); the units are clearly connected, not isolated (ruling out option 0)."
+        "explanation": "The course builds cumulatively toward integrated analysis, not declining relevance (ruling out option C) or repetition (ruling out option D); the units are clearly connected, not isolated (ruling out option B)."
       },
       {
         "id": "2w-12",
@@ -6339,7 +6339,7 @@ const QUESTIONS = {
           "How many rhetorical devices can I identify regardless of their significance?"
         ],
         "correct": 0,
-        "explanation": "Mapping the arc first makes later, more detailed questions easier to answer -- word count (ruling out option 1) and grammatical complexity (ruling out option 3) are not the priority this unit teaches, and undifferentiated device-spotting (ruling out option 2) is exactly the habit this unit steers students away from."
+        "explanation": "Mapping the arc first makes later, more detailed questions easier to answer -- word count (ruling out option B) and grammatical complexity (ruling out option C) are not the priority this unit teaches, and undifferentiated device-spotting (ruling out option D) is exactly the habit this unit steers students away from."
       },
       {
         "id": "1w-17",
@@ -6352,7 +6352,7 @@ const QUESTIONS = {
           "There is no pedagogical reason for this pairing of exercises at all."
         ],
         "correct": 0,
-        "explanation": "The pairing matches the exam's own two-part structure, with each skill reinforcing the other -- not a case of one mattering more than the other (ruling out options 2 and 3), and the pairing clearly serves a purpose (ruling out option 1)."
+        "explanation": "The pairing matches the exam's own two-part structure, with each skill reinforcing the other -- not a case of one mattering more than the other (ruling out options B and C), and the pairing clearly serves a purpose (ruling out option D)."
       },
       {
         "id": "2w-13",
@@ -6365,7 +6365,7 @@ const QUESTIONS = {
           "Memorizing technique names without ever applying the underlying judgment."
         ],
         "correct": 0,
-        "explanation": "This question applies equally to analyzing others' writing and improving one's own -- unlike avoiding figurative language altogether (ruling out option 0), naming techniques without judgment (ruling out option 1), or writing long sentences regardless of purpose (ruling out option 3)."
+        "explanation": "This question applies equally to analyzing others' writing and improving one's own -- unlike avoiding figurative language altogether (ruling out option B), naming techniques without judgment (ruling out option D), or writing long sentences regardless of purpose (ruling out option C)."
       },
       {
         "id": "1w-18",
@@ -6378,7 +6378,7 @@ const QUESTIONS = {
           "Time constraints have no real relationship to essay planning strategy at all."
         ],
         "correct": 2,
-        "explanation": "Given 40 minutes, focused selection is a practical necessity, not a license to write minimally (ruling out option 0) or an irrelevant consideration (ruling out option 3); attempting exhaustive coverage would work against the time limit, not with it (ruling out option 2)."
+        "explanation": "Given 40 minutes, focused selection is a practical necessity, not a license to write minimally (ruling out option B) or an irrelevant consideration (ruling out option D); attempting exhaustive coverage would work against the time limit, not with it (ruling out option A)."
       }
     ]
   },
@@ -7372,8 +7372,8 @@ const QUESTIONS = {
           "No — it names no specific factor, so it commits to no position.",
           "Yes — acknowledging complexity is always sufficient for a strong thesis."
         ],
-        "correct": 0,
-        "explanation": "No — while genuine complexity can be part of a strong thesis, simply stating 'it depends' with no further specificity about WHAT it depends on fails to commit to any position a reader could evaluate or disagree with. Complexity alone doesn't earn the point (choice 1 overclaims); and unlike Statement 2's specific 'but only if' condition, Statement 4 names no particular factor, so it is not qualified in the same defensible way (choice 2) — it is a hedge, not a conditional claim."
+        "correct": 2,
+        "explanation": "No — while genuine complexity can be part of a strong thesis, simply stating 'it depends' with no further specificity about WHAT it depends on fails to commit to any position a reader could evaluate or disagree with. Complexity alone doesn't earn the point (choice D overclaims); and unlike Statement 2's specific 'but only if' condition, Statement 4 names no particular factor, so it is not qualified in the same defensible way (choice A) — it is a hedge, not a conditional claim."
       },
       {
         "id": "1-5",
@@ -7386,7 +7386,7 @@ const QUESTIONS = {
           "It restates the passage's general topic without adding a claim in this specific case."
         ],
         "correct": 0,
-        "explanation": "Statement 5 identifies a specific rhetorical sequence (vulnerable admission, then statistics) and makes a specific claim about that sequence's effect (making a recommendation feel earned) — both defensible and previewing a clear line of reasoning. It does not avoid taking a position (that's its strength, not a weakness like choice 1 implies); its length relative to the others is incidental, not the reason it works (choice 2); and it goes well beyond restating the topic — it makes an actual claim about how the passage works (choice 3)."
+        "explanation": "Statement 5 identifies a specific rhetorical sequence (vulnerable admission, then statistics) and makes a specific claim about that sequence's effect (making a recommendation feel earned) — both defensible and previewing a clear line of reasoning. It does not avoid taking a position (that's its strength, not a weakness like choice C implies); its length relative to the others is incidental, not the reason it works (choice B); and it goes well beyond restating the topic — it makes an actual claim about how the passage works (choice D)."
       },
       {
         "id": "2-1",
@@ -7399,7 +7399,7 @@ const QUESTIONS = {
           "Never previewing the rhetorical analysis passage during the reading period."
         ],
         "correct": 3,
-        "explanation": "The most significant error was not previewing the rhetorical analysis passage during the reading period — this forced first-time reading and annotation into the essay's actual writing time, directly causing the rushed, incomplete rhetorical analysis essay that followed. The synthesis essay's planning time was not excessive; it correlated with a stronger outcome (ruling out choice 0), and finishing early with time to spare is a good sign, not an error (choice 1); the passage describes a rushed argument essay only as background, not as the most significant error described (choice 2)."
+        "explanation": "The most significant error was not previewing the rhetorical analysis passage during the reading period — this forced first-time reading and annotation into the essay's actual writing time, directly causing the rushed, incomplete rhetorical analysis essay that followed. The synthesis essay's planning time was not excessive; it correlated with a stronger outcome (ruling out choice C), and finishing early with time to spare is a good sign, not an error (choice A); the passage describes a rushed argument essay only as background, not as the most significant error described (choice B)."
       },
       {
         "id": "2-2",
@@ -7412,7 +7412,7 @@ const QUESTIONS = {
           "Skipping the reading period entirely to save time for writing."
         ],
         "correct": 0,
-        "explanation": "Distributing reading-period time across all three prompts — even a quick skim of the rhetorical analysis passage and argument prompt — would have prevented the costly first-time reading that consumed essay-writing time later. Spending the whole period on one prompt is exactly what caused the problem, not the correct approach (choice 0); the reading period exists for all three essays, not just one (choice 1); and skipping it entirely would make the imbalance worse, not better (choice 3)."
+        "explanation": "Distributing reading-period time across all three prompts — even a quick skim of the rhetorical analysis passage and argument prompt — would have prevented the costly first-time reading that consumed essay-writing time later. Spending the whole period on one prompt is exactly what caused the problem, not the correct approach (choice C); the reading period exists for all three essays, not just one (choice B); and skipping it entirely would make the imbalance worse, not better (choice D)."
       },
       {
         "id": "2-3",
@@ -7425,7 +7425,7 @@ const QUESTIONS = {
           "No — this planning time should have been eliminated entirely."
         ],
         "correct": 2,
-        "explanation": "Yes — this planning time appears well spent: the essay finished with time remaining for review, suggesting the upfront investment paid off in writing efficiency, a useful contrast to the rhetorical analysis essay's costly lack of any preparatory reading time. Planning time clearly wasn't wasteful here, contradicting choices 0 and 2; and the case study does give enough information to draw this conclusion, since the outcome (finishing with time to spare) is stated directly (against choice 3)."
+        "explanation": "Yes — this planning time appears well spent: the essay finished with time remaining for review, suggesting the upfront investment paid off in writing efficiency, a useful contrast to the rhetorical analysis essay's costly lack of any preparatory reading time. Planning time clearly wasn't wasteful here, contradicting choices B and D; and the case study does give enough information to draw this conclusion, since the outcome (finishing with time to spare) is stated directly (against choice A)."
       },
       {
         "id": "3-1",
@@ -7438,7 +7438,7 @@ const QUESTIONS = {
           "Either choice is equally correct, since both are accurate statements."
         ],
         "correct": 1,
-        "explanation": "The choice specifically addressing the metaphor's effect on tone should be selected, since that is precisely what the question asked, even though the pacing-focused choice may also be a true statement about the passage. One choice must be selected here, so 'neither' is wrong (choice 0); the two choices are not equally responsive, since only one actually answers the question posed (choice 2); and being factually accurate about pacing doesn't make that choice the right answer if the question asked about tone (choice 3) — accuracy alone isn't enough."
+        "explanation": "The choice specifically addressing the metaphor's effect on tone should be selected, since that is precisely what the question asked, even though the pacing-focused choice may also be a true statement about the passage. One choice must be selected here, so 'neither' is wrong (choice C); the two choices are not equally responsive, since only one actually answers the question posed (choice D); and being factually accurate about pacing doesn't make that choice the right answer if the question asked about tone (choice A) — accuracy alone isn't enough."
       },
       {
         "id": "3-2",
@@ -7451,7 +7451,7 @@ const QUESTIONS = {
           "The choice describing the source's general topic area."
         ],
         "correct": 1,
-        "explanation": "The choice specifically naming the institutional interest should be selected, since that is precisely what the question asked — the general-topic choice may be accurate but fails to address the specific dimension the question is testing. One choice does adequately address the question, so choice 0 is wrong; the two choices are not equally responsive, since only one targets the specific institutional-interest dimension asked about (choice 1); and a general-topic description, however accurate, doesn't answer a question about a specific evaluative dimension (choice 3)."
+        "explanation": "The choice specifically naming the institutional interest should be selected, since that is precisely what the question asked — the general-topic choice may be accurate but fails to address the specific dimension the question is testing. One choice does adequately address the question, so choice A is wrong; the two choices are not equally responsive, since only one targets the specific institutional-interest dimension asked about (choice C); and a general-topic description, however accurate, doesn't answer a question about a specific evaluative dimension (choice D)."
       },
       {
         "id": "3-3",
@@ -7464,7 +7464,7 @@ const QUESTIONS = {
           "Both choices are equally valid regardless of the question's specific focus."
         ],
         "correct": 0,
-        "explanation": "The choice specifically addressing effectiveness for the stated audience and purpose should be selected — this exam's writing questions specifically test audience/purpose-fit, not generic writing quality. The scenario gives enough information to evaluate both choices directly, so choice 1 is wrong; the two choices are not equally valid, since only one targets audience and purpose specifically (choice 2); and a general writing-quality judgment doesn't answer a question that specifically asks about audience/purpose fit (choice 3)."
+        "explanation": "The choice specifically addressing effectiveness for the stated audience and purpose should be selected — this exam's writing questions specifically test audience/purpose-fit, not generic writing quality. The scenario gives enough information to evaluate both choices directly, so choice C is wrong; the two choices are not equally valid, since only one targets audience and purpose specifically (choice D); and a general writing-quality judgment doesn't answer a question that specifically asks about audience/purpose fit (choice B)."
       },
       {
         "id": "3-4",
@@ -7477,7 +7477,7 @@ const QUESTIONS = {
           "Always re-check the question stem against your final answer choice."
         ],
         "correct": 3,
-        "explanation": "All three scenarios illustrate the same strategic principle — always re-check the exact question stem against your final choice, since wrong answers frequently exploit the gap between 'generally true' and 'specifically responsive to this exact question.' The correct choice's position varies across the three scenarios, so answer order is not the principle (choice 0); the scenarios clearly share this one unifying lesson, contradicting choice 2; and choice length has no bearing on correctness on the actual exam, unlike in this specific practice set's structure (choice 3)."
+        "explanation": "All three scenarios illustrate the same strategic principle — always re-check the exact question stem against your final choice, since wrong answers frequently exploit the gap between 'generally true' and 'specifically responsive to this exact question.' The correct choice's position varies across the three scenarios, so answer order is not the principle (choice A); the scenarios clearly share this one unifying lesson, contradicting choice B; and choice length has no bearing on correctness on the actual exam, unlike in this specific practice set's structure (choice C)."
       },
       {
         "id": "4-1",
@@ -7490,7 +7490,7 @@ const QUESTIONS = {
           "It focuses too narrowly on a single rhetorical technique."
         ],
         "correct": 0,
-        "explanation": "Excerpt 1 names techniques (ethos, pathos, logos, diction, syntax) without ever explaining their specific effect in this particular passage — labeling without commentary, exactly the pattern this course has repeatedly flagged as evidence dumping. It is not credit-worthy as written, so choice 0 is wrong; it actually names several techniques by name, so it doesn't lack vocabulary (choice 1); and its problem is the opposite of narrow focus — it lists many techniques but develops none of them (choice 3)."
+        "explanation": "Excerpt 1 names techniques (ethos, pathos, logos, diction, syntax) without ever explaining their specific effect in this particular passage — labeling without commentary, exactly the pattern this course has repeatedly flagged as evidence dumping. It is not credit-worthy as written, so choice C is wrong; it actually names several techniques by name, so it doesn't lack vocabulary (choice B); and its problem is the opposite of narrow focus — it lists many techniques but develops none of them (choice D)."
       },
       {
         "id": "4-2",
@@ -7503,7 +7503,7 @@ const QUESTIONS = {
           "It contains no weakness and would earn full credit as written."
         ],
         "correct": 1,
-        "explanation": "Excerpt 2 hedges into vagueness with 'there are many different opinions on this topic' after presenting only two generic, uncited claims — failing to take a specific position or cite genuine evidence, exactly the thesis pitfall this unit's Section 9.2 catalogued. It does the opposite of overcommitting to a position, so choice 0 is wrong; it offers too little specific evidence, not too much, so choice 1 is wrong; and its vague, uncited claims are exactly why it would not earn full credit (choice 3)."
+        "explanation": "Excerpt 2 hedges into vagueness with 'there are many different opinions on this topic' after presenting only two generic, uncited claims — failing to take a specific position or cite genuine evidence, exactly the thesis pitfall this unit's Section 9.2 catalogued. It does the opposite of overcommitting to a position, so choice C is wrong; it offers too little specific evidence, not too much, so choice A is wrong; and its vague, uncited claims are exactly why it would not earn full credit (choice D)."
       },
       {
         "id": "4-3",
@@ -7516,7 +7516,7 @@ const QUESTIONS = {
           "It cites too many different sources across its three paragraphs based on what the passage actually states."
         ],
         "correct": 0,
-        "explanation": "Excerpt 3 relies entirely on a single source across three consecutive paragraphs, exactly the single-source overreliance pattern Unit 8's Section 8.4 diagnostic test is designed to catch — since this essay's synthesis argument would collapse entirely without that one source. It is not flawless, so choice 0 is wrong; its problem is too few sources, the opposite of too many (choice 2); and it does cite specific evidence from its one source — the issue is the source's narrowness, not an absence of evidence (choice 3)."
+        "explanation": "Excerpt 3 relies entirely on a single source across three consecutive paragraphs, exactly the single-source overreliance pattern Unit 8's Section 8.4 diagnostic test is designed to catch — since this essay's synthesis argument would collapse entirely without that one source. It is not flawless, so choice C is wrong; its problem is too few sources, the opposite of too many (choice D); and it does cite specific evidence from its one source — the issue is the source's narrowness, not an absence of evidence (choice B)."
       },
       {
         "id": "4-4",
@@ -7529,7 +7529,7 @@ const QUESTIONS = {
           "Excerpt 1, since it discusses too few rhetorical techniques."
         ],
         "correct": 2,
-        "explanation": "Excerpt 3, since its core problem is specifically single-source overreliance — a second substantively-used source would directly address this specific diagnosed weakness. Excerpt 2's problem is vague, uncited claims, not source variety, so adding a source wouldn't fix it and it doesn't already use multiple sources well (choice 0); a clear beneficiary does exist, contradicting choice 1; and Excerpt 1's problem is unexplained technique naming, which a second source would not fix — it actually discusses several techniques already, just without commentary (choice 3)."
+        "explanation": "Excerpt 3, since its core problem is specifically single-source overreliance — a second substantively-used source would directly address this specific diagnosed weakness. Excerpt 2's problem is vague, uncited claims, not source variety, so adding a source wouldn't fix it and it doesn't already use multiple sources well (choice A); a clear beneficiary does exist, contradicting choice B; and Excerpt 1's problem is unexplained technique naming, which a second source would not fix — it actually discusses several techniques already, just without commentary (choice D)."
       },
       {
         "id": "4-5",
@@ -7542,7 +7542,7 @@ const QUESTIONS = {
           "These are specific, nameable, diagnosable patterns, not vague 'weak writing.'"
         ],
         "correct": 3,
-        "explanation": "That the most commonly recurring weaknesses across this entire course — unexplained technique naming, vague/hedged theses, and single-source overreliance — are specific, nameable, and diagnosable patterns, not vague general 'weak writing,' making them addressable through targeted practice. Each excerpt clearly does need revision, contradicting choice 1; nothing suggests these three patterns can't co-occur in one student's writing, contradicting choice 2; and this very exercise shows students can self-diagnose these patterns without a teacher present, contradicting choice 3."
+        "explanation": "That the most commonly recurring weaknesses across this entire course — unexplained technique naming, vague/hedged theses, and single-source overreliance — are specific, nameable, and diagnosable patterns, not vague general 'weak writing,' making them addressable through targeted practice. Each excerpt clearly does need revision, contradicting choice C; nothing suggests these three patterns can't co-occur in one student's writing, contradicting choice A; and this very exercise shows students can self-diagnose these patterns without a teacher present, contradicting choice B."
       },
       {
         "id": "5-1",
@@ -7555,7 +7555,7 @@ const QUESTIONS = {
           "That the final five questions were significantly harder than the rest under these particular circumstances."
         ],
         "correct": 0,
-        "explanation": "That the student's MCQ pacing left insufficient time for the final questions, suggesting a need to practice the roughly-one-minute-per-question pacing this unit's Section 9.1 recommends, rather than a content knowledge gap. Nothing in the reflection indicates the final questions were unusually hard, contradicting choice 0; rushed guessing is a symptom of a pacing problem, not an endorsement of it as a strategy, contradicting choice 1; and the pattern described (running out of time, not knowledge) is a pacing issue rather than a knowledge gap, contradicting choice 3."
+        "explanation": "That the student's MCQ pacing left insufficient time for the final questions, suggesting a need to practice the roughly-one-minute-per-question pacing this unit's Section 9.1 recommends, rather than a content knowledge gap. Nothing in the reflection indicates the final questions were unusually hard, contradicting choice D; rushed guessing is a symptom of a pacing problem, not an endorsement of it as a strategy, contradicting choice B; and the pattern described (running out of time, not knowledge) is a pacing issue rather than a knowledge gap, contradicting choice C."
       },
       {
         "id": "5-2",
@@ -7568,7 +7568,7 @@ const QUESTIONS = {
           "That essay order on the actual exam should be changed for all students."
         ],
         "correct": 0,
-        "explanation": "That fatigue and/or time mismanagement accumulated across the exam session, consistent with this unit's Section 9.5 point that full-length practice reveals fatigue-related decline that shorter, isolated practice sessions cannot. This is one student's specific case, not evidence about essay difficulty for all students, contradicting choice 0; the strong synthesis essay directly shows the student does have real synthesis skill, contradicting choice 1; and nothing here supports restructuring the exam's fixed essay order for everyone, contradicting choice 2."
+        "explanation": "That fatigue and/or time mismanagement accumulated across the exam session, consistent with this unit's Section 9.5 point that full-length practice reveals fatigue-related decline that shorter, isolated practice sessions cannot. This is one student's specific case, not evidence about essay difficulty for all students, contradicting choice C; the strong synthesis essay directly shows the student does have real synthesis skill, contradicting choice B; and nothing here supports restructuring the exam's fixed essay order for everyone, contradicting choice D."
       },
       {
         "id": "5-3",
@@ -7581,7 +7581,7 @@ const QUESTIONS = {
           "Mental fatigue caused a previously-demonstrated skill to break down."
         ],
         "correct": 3,
-        "explanation": "Mental fatigue causing a previously-understood skill (writing a specific, defensible thesis, presumably demonstrated more successfully in the earlier synthesis essay) to break down under accumulated exam pressure — reinforcing this unit's opening point that weak habits surface first under pressure. The stronger synthesis-essay thesis shows the skill has been learned, contradicting choice 1; that same evidence contradicts a fundamental knowledge gap explanation (choice 2); and nothing in the reflection frames this vague thesis as a deliberate choice rather than a lapse under pressure (choice 3)."
+        "explanation": "Mental fatigue causing a previously-understood skill (writing a specific, defensible thesis, presumably demonstrated more successfully in the earlier synthesis essay) to break down under accumulated exam pressure — reinforcing this unit's opening point that weak habits surface first under pressure. The stronger synthesis-essay thesis shows the skill has been learned, contradicting choice C; that same evidence contradicts a fundamental knowledge gap explanation (choice A); and nothing in the reflection frames this vague thesis as a deliberate choice rather than a lapse under pressure (choice B)."
       },
       {
         "id": "5-4",
@@ -7594,7 +7594,7 @@ const QUESTIONS = {
           "Focusing exclusively on content review with no further timed practice."
         ],
         "correct": 1,
-        "explanation": "Targeted practice specifically on MCQ pacing and on writing consistently strong theses under later-essay fatigue conditions (perhaps by deliberately practicing the argument essay LAST in future timed sessions) — directly addressing the two specific weaknesses this single practice attempt revealed. Avoiding further full-length practice would remove the very tool that reveals and lets the student verify these fixes, contradicting choice 1; uniform re-study ignores the specific, already-identified weaknesses (choice 2); and content review alone wouldn't address pacing or fatigue, which are strategy and stamina issues, not knowledge gaps (choice 3)."
+        "explanation": "Targeted practice specifically on MCQ pacing and on writing consistently strong theses under later-essay fatigue conditions (perhaps by deliberately practicing the argument essay LAST in future timed sessions) — directly addressing the two specific weaknesses this single practice attempt revealed. Avoiding further full-length practice would remove the very tool that reveals and lets the student verify these fixes, contradicting choice A; uniform re-study ignores the specific, already-identified weaknesses (choice C); and content review alone wouldn't address pacing or fatigue, which are strategy and stamina issues, not knowledge gaps (choice D)."
       },
       {
         "id": "1-6",
@@ -7607,7 +7607,7 @@ const QUESTIONS = {
           "Statements 2 and 4 fail for the same underlying reason."
         ],
         "correct": 0,
-        "explanation": "Statements 1 and 3 share the same underlying weakness — both fail to take a specific, arguable position, Statement 1 by announcing a topic instead of a claim, and Statement 3 by hedging into an unfalsifiable generality. They fail in different surface ways but the same core problem. Statement 5 is the set's strongest thesis, so it shares no weakness with Statement 1 (ruling out choice 0); some pairs clearly do share a weakness, so 'no two' is false (choice 2); and Statements 2 and 4 differ sharply — 2 is a strong qualified claim while 4 is an empty hedge — so they don't share a weakness (choice 3)."
+        "explanation": "Statements 1 and 3 share the same underlying weakness — both fail to take a specific, arguable position, Statement 1 by announcing a topic instead of a claim, and Statement 3 by hedging into an unfalsifiable generality. They fail in different surface ways but the same core problem. Statement 5 is the set's strongest thesis, so it shares no weakness with Statement 1 (ruling out choice B); some pairs clearly do share a weakness, so 'no two' is false (choice C); and Statements 2 and 4 differ sharply — 2 is a strong qualified claim while 4 is an empty hedge — so they don't share a weakness (choice D)."
       },
       {
         "id": "1-7",
@@ -7620,7 +7620,7 @@ const QUESTIONS = {
           "None of the five statements could be revised quickly."
         ],
         "correct": 2,
-        "explanation": "Statement 4 would likely be fastest to revise, since 'it depends' already implies an underlying specific claim (dependent on some particular factor) that simply needs to be made explicit — a smaller revision than statements that lack any specific content to build from at all. Some revision is always needed, so 'none' is wrong (choice 0); a topic announcement still requires building an actual claim from nothing, so it is not already fine (choice 2); and hedges vary in how much specific content lurks underneath them, so they aren't uniformly quick to fix (choice 3)."
+        "explanation": "Statement 4 would likely be fastest to revise, since 'it depends' already implies an underlying specific claim (dependent on some particular factor) that simply needs to be made explicit — a smaller revision than statements that lack any specific content to build from at all. Some revision is always needed, so 'none' is wrong (choice D); a topic announcement still requires building an actual claim from nothing, so it is not already fine (choice A); and hedges vary in how much specific content lurks underneath them, so they aren't uniformly quick to fix (choice B)."
       },
       {
         "id": "2-4",
@@ -7633,7 +7633,7 @@ const QUESTIONS = {
           "There's no way to know whether this alternative approach would help."
         ],
         "correct": 2,
-        "explanation": "Yes — this approach would have preserved most of the deep synthesis-source reading time while still providing the rhetorical analysis passage preview that this unit's Section 9.1 recommends, likely preventing the costly first-time reading that happened during actual essay-writing time. It would improve, not worsen, the outcome (against choice 1); the case study gives enough detail to reason about the likely effect, so 'impossible to determine' is too strong (choice 2); and a brief preview costs only a few minutes against a much larger later cost, so it is not a net time loss (choice 3)."
+        "explanation": "Yes — this approach would have preserved most of the deep synthesis-source reading time while still providing the rhetorical analysis passage preview that this unit's Section 9.1 recommends, likely preventing the costly first-time reading that happened during actual essay-writing time. It would improve, not worsen, the outcome (against choice A); the case study gives enough detail to reason about the likely effect, so 'impossible to determine' is too strong (choice D); and a brief preview costs only a few minutes against a much larger later cost, so it is not a net time loss (choice B)."
       },
       {
         "id": "3-5",
@@ -7646,7 +7646,7 @@ const QUESTIONS = {
           "Three scenarios were included only to make the passage longer."
         ],
         "correct": 2,
-        "explanation": "Multiple scenarios across different question types (tone, institutional interest, audience/purpose) demonstrate that this single strategic principle applies broadly across the exam's varied question types, not just one narrow category — reinforcing that this is a general exam-taking skill, not a topic-specific one. Repetition across genuinely different contexts does add real value here, contradicting choice 0; the added length serves this demonstrative purpose, not padding (choice 2); and all three scenarios converge on one shared principle, not three separate ones (choice 3)."
+        "explanation": "Multiple scenarios across different question types (tone, institutional interest, audience/purpose) demonstrate that this single strategic principle applies broadly across the exam's varied question types, not just one narrow category — reinforcing that this is a general exam-taking skill, not a topic-specific one. Repetition across genuinely different contexts does add real value here, contradicting choice B; the added length serves this demonstrative purpose, not padding (choice D); and all three scenarios converge on one shared principle, not three separate ones (choice A)."
       },
       {
         "id": "1-8",
@@ -7659,7 +7659,7 @@ const QUESTIONS = {
           "Strong theses across essay types must always be extremely short."
         ],
         "correct": 0,
-        "explanation": "Both demonstrate that a strong thesis — whether for an argument essay (Statement 2's conditional policy claim) or a rhetorical analysis essay (Statement 5's specific technique-and-effect claim) — always previews a specific, traceable line of reasoning the rest of the essay can develop, regardless of essay type. They plainly do share this characteristic (against choice 0); neither statement's strength depends on brevity (choice 1); and Statement 2 shows qualifying language can strengthen, not disqualify, a thesis (choice 2)."
+        "explanation": "Both demonstrate that a strong thesis — whether for an argument essay (Statement 2's conditional policy claim) or a rhetorical analysis essay (Statement 5's specific technique-and-effect claim) — always previews a specific, traceable line of reasoning the rest of the essay can develop, regardless of essay type. They plainly do share this characteristic (against choice B); neither statement's strength depends on brevity (choice D); and Statement 2 shows qualifying language can strengthen, not disqualify, a thesis (choice C)."
       },
       {
         "id": "2-5",
@@ -7672,7 +7672,7 @@ const QUESTIONS = {
           "Planning time has no relationship to essay quality in this case study."
         ],
         "correct": 2,
-        "explanation": "Adequate upfront preparation (whether reading-period preview or dedicated planning minutes) appears to correlate with stronger essay outcomes in this case study, while its absence correlates with the weaker, unfinished rhetorical analysis essay — though a single case study cannot definitively prove causation. The case study's logic applies to preparation generally, not only to synthesis (against choice 0); no case study can guarantee perfection, so choice 1 overclaims; and a clear relationship is visible in the contrasting outcomes, contradicting choice 2."
+        "explanation": "Adequate upfront preparation (whether reading-period preview or dedicated planning minutes) appears to correlate with stronger essay outcomes in this case study, while its absence correlates with the weaker, unfinished rhetorical analysis essay — though a single case study cannot definitively prove causation. The case study's logic applies to preparation generally, not only to synthesis (against choice A); no case study can guarantee perfection, so choice B overclaims; and a clear relationship is visible in the contrasting outcomes, contradicting choice D."
       },
       {
         "id": "3-6",
@@ -7685,7 +7685,7 @@ const QUESTIONS = {
           "This question can't be answered based on the passage's content."
         ],
         "correct": 2,
-        "explanation": "Yes — the underlying principle (checking specific responsiveness to the exact question asked, not just general accuracy) applies regardless of how many answer choices remain under consideration, since the core skill is about the RELATIONSHIP between a choice and the question, not the number of choices being compared. The principle doesn't depend on exactly two options remaining, so choices 1 and 2 are both too narrow; and the passage's stated principle transfers cleanly to this related situation, so it can in fact be answered (against choice 3)."
+        "explanation": "Yes — the underlying principle (checking specific responsiveness to the exact question asked, not just general accuracy) applies regardless of how many answer choices remain under consideration, since the core skill is about the RELATIONSHIP between a choice and the question, not the number of choices being compared. The principle doesn't depend on exactly two options remaining, so choices A and B are both too narrow; and the passage's stated principle transfers cleanly to this related situation, so it can in fact be answered (against choice D)."
       },
       {
         "id": "4-6",
@@ -7698,7 +7698,7 @@ const QUESTIONS = {
           "Excerpt 3 shares Statement 1's specific weakness."
         ],
         "correct": 0,
-        "explanation": "Excerpt 1 shares Statement 1's core weakness — both name or announce something (rhetorical techniques in Excerpt 1, an essay's topic in Statement 1) without ever making the specific, substantive claim actually required. A shared weakness does exist, contradicting choice 0; Excerpt 2's problem is a vague, uncited hedge rather than mere unexplained naming, a closer match to Statement 3 than Statement 1 (choice 2); and Excerpt 3's problem, single-source overreliance, is a structurally different issue with no real parallel in the P1 thesis set (choice 3)."
+        "explanation": "Excerpt 1 shares Statement 1's core weakness — both name or announce something (rhetorical techniques in Excerpt 1, an essay's topic in Statement 1) without ever making the specific, substantive claim actually required. A shared weakness does exist, contradicting choice B; Excerpt 2's problem is a vague, uncited hedge rather than mere unexplained naming, a closer match to Statement 3 than Statement 1 (choice C); and Excerpt 3's problem, single-source overreliance, is a structurally different issue with no real parallel in the P1 thesis set (choice D)."
       },
       {
         "id": "5-5",
@@ -7711,7 +7711,7 @@ const QUESTIONS = {
           "The fact that the argument essay was written last, chronologically."
         ],
         "correct": 0,
-        "explanation": "The specific contrast with the earlier, stronger synthesis essay thesis — since the same underlying thesis-writing skill was successfully demonstrated earlier in the same session, its absence later is better explained by accumulated fatigue than by a fundamental knowledge gap. The reflection does provide enough evidence to distinguish the two explanations, contradicting choice 0; a self-reported feeling is suggestive but weaker evidence than a demonstrated skill actually disappearing (choice 1); and being written last is necessary context but doesn't by itself rule out a knowledge gap the way the direct skill contrast does (choice 2)."
+        "explanation": "The specific contrast with the earlier, stronger synthesis essay thesis — since the same underlying thesis-writing skill was successfully demonstrated earlier in the same session, its absence later is better explained by accumulated fatigue than by a fundamental knowledge gap. The reflection does provide enough evidence to distinguish the two explanations, contradicting choice B; a self-reported feeling is suggestive but weaker evidence than a demonstrated skill actually disappearing (choice C); and being written last is necessary context but doesn't by itself rule out a knowledge gap the way the direct skill contrast does (choice D)."
       },
       {
         "id": "1-9",
@@ -7724,7 +7724,7 @@ const QUESTIONS = {
           "It would be uniquely strong, unlike anything else in the set."
         ],
         "correct": 0,
-        "explanation": "This hypothetical statement would share Statement 3's core weakness — describing a possible reader reaction rather than making the writer's own specific, arguable claim about the passage, another form of failing to commit to an actual position. It resembles Statement 3's vagueness, not Statement 5's precision (ruling out choice 0); it is not a uniquely strong outlier (choice 1); and it clearly does share an existing weakness, so 'shares no weakness' is false (choice 3)."
+        "explanation": "This hypothetical statement would share Statement 3's core weakness — describing a possible reader reaction rather than making the writer's own specific, arguable claim about the passage, another form of failing to commit to an actual position. It resembles Statement 3's vagueness, not Statement 5's precision (ruling out choice B); it is not a uniquely strong outlier (choice D); and it clearly does share an existing weakness, so 'shares no weakness' is false (choice C)."
       },
       {
         "id": "2-6",
@@ -7737,7 +7737,7 @@ const QUESTIONS = {
           "Skipping the reading-period preview entirely for all three essays."
         ],
         "correct": 1,
-        "explanation": "Roughly 2-3 minutes previewing the rhetorical analysis and argument prompts each (enough to know the general topic and begin mental preparation), with the remaining 9-11 minutes on the synthesis sources, which genuinely require the most upfront reading given their multiple-source format. A rigid equal split ignores that synthesis needs more time (choice 0); doing exactly what the student actually did is what caused the problem this passage diagnoses (choice 1); and skipping the preview entirely is the opposite of the fix this unit recommends (choice 2)."
+        "explanation": "Roughly 2-3 minutes previewing the rhetorical analysis and argument prompts each (enough to know the general topic and begin mental preparation), with the remaining 9-11 minutes on the synthesis sources, which genuinely require the most upfront reading given their multiple-source format. A rigid equal split ignores that synthesis needs more time (choice A); doing exactly what the student actually did is what caused the problem this passage diagnoses (choice C); and skipping the preview entirely is the opposite of the fix this unit recommends (choice D)."
       },
       {
         "id": "3-7",
@@ -7750,7 +7750,7 @@ const QUESTIONS = {
           "Specificity only matters for multiple-choice questions, not essays given the details provided here."
         ],
         "correct": 2,
-        "explanation": "That this exam consistently rewards SPECIFICITY over generality — whether in a thesis statement (P1) or in selecting the most precisely responsive multiple-choice answer (P3) — suggesting specificity is a unifying value across the entire exam, not just one isolated skill tested in one section. The two passages converge on this exact shared lesson, contradicting choice 1; a clear, consistent pattern does emerge across both passages, contradicting choice 2; and P1's thesis material shows specificity mattering in essays too, contradicting choice 3."
+        "explanation": "That this exam consistently rewards SPECIFICITY over generality — whether in a thesis statement (P1) or in selecting the most precisely responsive multiple-choice answer (P3) — suggesting specificity is a unifying value across the entire exam, not just one isolated skill tested in one section. The two passages converge on this exact shared lesson, contradicting choice A; a clear, consistent pattern does emerge across both passages, contradicting choice B; and P1's thesis material shows specificity mattering in essays too, contradicting choice D."
       },
       {
         "id": "4-7",
@@ -7763,7 +7763,7 @@ const QUESTIONS = {
           "They provide no additional value studied together versus separately."
         ],
         "correct": 1,
-        "explanation": "Studied together, they demonstrate that 'weak writing' is not one single problem but several genuinely distinct, separately-diagnosable patterns (unexplained naming, vague hedging, single-source overreliance) — reinforcing that effective self-diagnosis requires distinguishing WHICH specific pattern is present, not just recognizing that 'something is wrong.' Studying them as a set is precisely what reveals this contrast, contradicting choice 0; the three patterns are shown to be distinct, not identical, contradicting choice 1; and Excerpt 1's naming problem and Excerpt 2's hedging problem apply well beyond synthesis writing (choice 3)."
+        "explanation": "Studied together, they demonstrate that 'weak writing' is not one single problem but several genuinely distinct, separately-diagnosable patterns (unexplained naming, vague hedging, single-source overreliance) — reinforcing that effective self-diagnosis requires distinguishing WHICH specific pattern is present, not just recognizing that 'something is wrong.' Studying them as a set is precisely what reveals this contrast, contradicting choice D; the three patterns are shown to be distinct, not identical, contradicting choice C; and Excerpt 1's naming problem and Excerpt 2's hedging problem apply well beyond synthesis writing (choice A)."
       },
       {
         "id": "5-6",
@@ -7776,7 +7776,7 @@ const QUESTIONS = {
           "That only one of these five passages actually matters for exam success."
         ],
         "correct": 2,
-        "explanation": "That precise, structured self-diagnosis — accurately naming a specific weakness rather than feeling vaguely dissatisfied — is the necessary first step before any targeted improvement can happen, a skill this unit's five passages model repeatedly across different specific contexts (thesis quality, time management, multiple-choice strategy, checklist application, full-practice reflection). The five passages instead show a small set of transferable principles, not a unique fix per problem, contradicting choice 1; all five passages contribute distinct lessons, contradicting choice 2; and Section 9.5 argues for MORE timed practice, not avoiding it, contradicting choice 3."
+        "explanation": "That precise, structured self-diagnosis — accurately naming a specific weakness rather than feeling vaguely dissatisfied — is the necessary first step before any targeted improvement can happen, a skill this unit's five passages model repeatedly across different specific contexts (thesis quality, time management, multiple-choice strategy, checklist application, full-practice reflection). The five passages instead show a small set of transferable principles, not a unique fix per problem, contradicting choice A; all five passages contribute distinct lessons, contradicting choice D; and Section 9.5 argues for MORE timed practice, not avoiding it, contradicting choice B."
       },
       {
         "id": "1-10",
@@ -7789,7 +7789,7 @@ const QUESTIONS = {
           "No single principle could fix both statements at once."
         ],
         "correct": 1,
-        "explanation": "In both cases, replacing a vague, general statement (an announced topic, or an unfalsifiable hedge) with the writer's own SPECIFIC, arguable claim about the actual subject matter is the same underlying fix, even though the two statements fail in superficially different ways. Removing content would make both statements worse, not better (choice 1); a shared fix clearly exists, contradicting choice 2; and length alone doesn't address either statement's actual problem, which is a lack of a specific claim, not a lack of words (choice 3)."
+        "explanation": "In both cases, replacing a vague, general statement (an announced topic, or an unfalsifiable hedge) with the writer's own SPECIFIC, arguable claim about the actual subject matter is the same underlying fix, even though the two statements fail in superficially different ways. Removing content would make both statements worse, not better (choice C); a shared fix clearly exists, contradicting choice D; and length alone doesn't address either statement's actual problem, which is a lack of a specific claim, not a lack of words (choice A)."
       },
       {
         "id": "2-7",
@@ -7802,7 +7802,7 @@ const QUESTIONS = {
           "The synthesis essay improving further, since it was already the strongest in this specific case."
         ],
         "correct": 2,
-        "explanation": "The rhetorical analysis essay showing improved development and a complete conclusion would specifically confirm the fix worked, since that was the essay most directly harmed by the original reading-period allocation problem — a specific, measurable outcome connected directly to the specific fix attempted. MCQ pacing is unrelated to this particular fix (choice 0); 'any change' doesn't verify that the targeted problem itself improved (choice 1); and further gains in the already-strong synthesis essay wouldn't confirm this specific fix, since that essay wasn't the one harmed (choice 2)."
+        "explanation": "The rhetorical analysis essay showing improved development and a complete conclusion would specifically confirm the fix worked, since that was the essay most directly harmed by the original reading-period allocation problem — a specific, measurable outcome connected directly to the specific fix attempted. MCQ pacing is unrelated to this particular fix (choice A); 'any change' doesn't verify that the targeted problem itself improved (choice B); and further gains in the already-strong synthesis essay wouldn't confirm this specific fix, since that essay wasn't the one harmed (choice D)."
       },
       {
         "id": "3-8",
@@ -7815,7 +7815,7 @@ const QUESTIONS = {
           "Scenario C, about audience and purpose specifically."
         ],
         "correct": 1,
-        "explanation": "Scenario B's underlying principle — since currency, like institutional interest, is a SPECIFIC dimension a question might ask about, and the same strategy (choosing the specifically-responsive option over a generally-true one) would apply directly. Scenario C targets audience/purpose specifically, a different named dimension than currency (choice 0); the passage's shared principle does transfer to a currency question, contradicting choice 2; and Scenario A targets tone specifically, also a different dimension than currency (choice 3) — B's parallel structure to a 'which specific dimension' question is what makes it the closest match."
+        "explanation": "Scenario B's underlying principle — since currency, like institutional interest, is a SPECIFIC dimension a question might ask about, and the same strategy (choosing the specifically-responsive option over a generally-true one) would apply directly. Scenario C targets audience/purpose specifically, a different named dimension than currency (choice D); the passage's shared principle does transfer to a currency question, contradicting choice C; and Scenario A targets tone specifically, also a different dimension than currency (choice A) — B's parallel structure to a 'which specific dimension' question is what makes it the closest match."
       },
       {
         "id": "4-8",
@@ -7828,7 +7828,7 @@ const QUESTIONS = {
           "A positive contrast showing what the absence of these weaknesses looks like."
         ],
         "correct": 3,
-        "explanation": "A positive contrast case — showing what the ABSENCE of all three diagnosed weaknesses actually looks like in practice, giving students a concrete target to compare their own writing against, not just three examples of what to avoid. It would complement, not contradict, the other three excerpts' lessons (choice 0); a strong exemplar has clear diagnostic value as a comparison target, contradicting choice 1; and since it would combine strong theses, evidence, and sourcing, its usefulness would extend well beyond synthesis writing alone (choice 3)."
+        "explanation": "A positive contrast case — showing what the ABSENCE of all three diagnosed weaknesses actually looks like in practice, giving students a concrete target to compare their own writing against, not just three examples of what to avoid. It would complement, not contradict, the other three excerpts' lessons (choice C); a strong exemplar has clear diagnostic value as a comparison target, contradicting choice A; and since it would combine strong theses, evidence, and sourcing, its usefulness would extend well beyond synthesis writing alone (choice B)."
       },
       {
         "id": "5-7",
@@ -7841,7 +7841,7 @@ const QUESTIONS = {
           "Units 6 and 7, on advanced technique analysis across a full passage."
         ],
         "correct": 3,
-        "explanation": "Units 6 and 7 specifically, since they cover the advanced syntax/diction toolkit and complex, multi-technique passage analysis most directly relevant to identifying and developing MORE than two techniques within available time. This weakness is directly tied to specific earlier course content, contradicting choice 1; Unit 4's counterargument focus addresses argument essays, not the rhetorical analysis technique-identification gap described here (choice 2); and Unit 5's synthesis-with-sources focus is also unrelated to identifying more rhetorical techniques in a single passage (choice 3)."
+        "explanation": "Units 6 and 7 specifically, since they cover the advanced syntax/diction toolkit and complex, multi-technique passage analysis most directly relevant to identifying and developing MORE than two techniques within available time. This weakness is directly tied to specific earlier course content, contradicting choice A; Unit 4's counterargument focus addresses argument essays, not the rhetorical analysis technique-identification gap described here (choice B); and Unit 5's synthesis-with-sources focus is also unrelated to identifying more rhetorical techniques in a single passage (choice C)."
       },
       {
         "id": "1-11",
@@ -7853,8 +7853,8 @@ const QUESTIONS = {
           "Thesis-writing is no longer worth practicing this close to the exam.",
           "Thesis-writing should be replaced by other skills this late in preparation."
         ],
-        "correct": 3,
-        "explanation": "This diagnostic set's placement suggests that even after extensive practice across eight units, rapid, accurate THESIS DIAGNOSIS — quickly recognizing why a given thesis works or doesn't — remains a high-value, exam-relevant skill worth deliberate final review, since the Thesis point's specific, nameable pitfalls recur predictably across different prompts and essay types. The set's presence in this review unit contradicts both 'replace' (choice 0) and 'no longer worth practicing' (choice 3); and its direct tie to the graded Thesis point contradicts 'no bearing on performance' (choice 2)."
+        "correct": 0,
+        "explanation": "This diagnostic set's placement suggests that even after extensive practice across eight units, rapid, accurate THESIS DIAGNOSIS — quickly recognizing why a given thesis works or doesn't — remains a high-value, exam-relevant skill worth deliberate final review, since the Thesis point's specific, nameable pitfalls recur predictably across different prompts and essay types. The set's presence in this review unit contradicts both 'replace' (choice D) and 'no longer worth practicing' (choice C); and its direct tie to the graded Thesis point contradicts 'no bearing on performance' (choice B)."
       },
       {
         "id": "2-8",
@@ -7867,7 +7867,7 @@ const QUESTIONS = {
           "Spend identical time on each prompt regardless of its format."
         ],
         "correct": 1,
-        "explanation": "The single most important habit is distributing at least a brief preview across ALL three prompts before committing extended time to any one — ensuring no essay is forced into costly first-time reading during its writing time, while still allowing proportionally more time for genuinely more reading-intensive prompts like synthesis. Favoring comfort over coverage is exactly what caused the original problem (choice 0); a rigid equal split ignores real differences between prompt formats (choice 2); and skipping the period under time pressure removes the very safeguard this passage recommends (choice 3)."
+        "explanation": "The single most important habit is distributing at least a brief preview across ALL three prompts before committing extended time to any one — ensuring no essay is forced into costly first-time reading during its writing time, while still allowing proportionally more time for genuinely more reading-intensive prompts like synthesis. Favoring comfort over coverage is exactly what caused the original problem (choice A); a rigid equal split ignores real differences between prompt formats (choice D); and skipping the period under time pressure removes the very safeguard this passage recommends (choice C)."
       },
       {
         "id": "3-9",
@@ -7880,7 +7880,7 @@ const QUESTIONS = {
           "Content knowledge is necessary, but strategy converts it into correct answers."
         ],
         "correct": 3,
-        "explanation": "That strong content knowledge (knowing what a technique's effect actually is, knowing what institutional interest means) is necessary but not sufficient — strategic exam-day habits like re-checking the exact question stem are what actually convert that content knowledge into correctly-answered questions under real testing conditions. The two are shown working together, not as unrelated concerns (choice 0); P2's rhetorical analysis case study shows knowledge alone isn't sufficient without strategy (choice 2); and this passage doesn't claim strategy always outweighs knowledge — both are needed (choice 3)."
+        "explanation": "That strong content knowledge (knowing what a technique's effect actually is, knowing what institutional interest means) is necessary but not sufficient — strategic exam-day habits like re-checking the exact question stem are what actually convert that content knowledge into correctly-answered questions under real testing conditions. The two are shown working together, not as unrelated concerns (choice B); P2's rhetorical analysis case study shows knowledge alone isn't sufficient without strategy (choice A); and this passage doesn't claim strategy always outweighs knowledge — both are needed (choice C)."
       },
       {
         "id": "4-9",
@@ -7893,7 +7893,7 @@ const QUESTIONS = {
           "Nothing has remained constant across this entire course."
         ],
         "correct": 2,
-        "explanation": "The core method has remained constant throughout: presenting flawed or developing writing, asking students to diagnose the SPECIFIC weakness present, and then asking students to identify or generate a targeted fix — the same diagnostic-then-corrective structure, just applied to increasingly sophisticated content across nine units. Something clearly has stayed constant, contradicting choice 0; nothing in this practice set suggests declining rigor — if anything the diagnoses get more layered (choice 2); and Unit 1's own draft-based practice already used this same structure, contradicting choice 3."
+        "explanation": "The core method has remained constant throughout: presenting flawed or developing writing, asking students to diagnose the SPECIFIC weakness present, and then asking students to identify or generate a targeted fix — the same diagnostic-then-corrective structure, just applied to increasingly sophisticated content across nine units. Something clearly has stayed constant, contradicting choice D; nothing in this practice set suggests declining rigor — if anything the diagnoses get more layered (choice B); and Unit 1's own draft-based practice already used this same structure, contradicting choice A."
       },
       {
         "id": "5-8",
@@ -7906,7 +7906,7 @@ const QUESTIONS = {
           "Reread all nine units' content pages in full, one final time, before anything else."
         ],
         "correct": 0,
-        "explanation": "Apply this unit's Section 9.5 guidance directly: complete a full-length, timed practice exam if one hasn't already been attempted, honestly diagnose whatever SPECIFIC weaknesses it reveals using this course's full toolkit, and target remaining practice time at those specific, identified gaps rather than generic review. A full re-read of all nine units is exactly the unfocused, non-targeted review this unit argues against (choice 0); stopping practice entirely wastes remaining preparation time (choice 2); and avoiding timed practice removes the only tool that reliably reveals fatigue- and pacing-related weaknesses (choice 3)."
+        "explanation": "Apply this unit's Section 9.5 guidance directly: complete a full-length, timed practice exam if one hasn't already been attempted, honestly diagnose whatever SPECIFIC weaknesses it reveals using this course's full toolkit, and target remaining practice time at those specific, identified gaps rather than generic review. A full re-read of all nine units is exactly the unfocused, non-targeted review this unit argues against (choice D); stopping practice entirely wastes remaining preparation time (choice C); and avoiding timed practice removes the only tool that reliably reveals fatigue- and pacing-related weaknesses (choice B)."
       }
     ],
     "draftPassages": [
@@ -7935,7 +7935,7 @@ const QUESTIONS = {
           "They are grammatically incorrect throughout."
         ],
         "correct": 2,
-        "explanation": "Each sentence is generic and could apply to virtually any essay on any topic — none references the essay's actual specific thesis, evidence, or argument, exactly the content-free filler pattern that time pressure produces. The sentences are grammatically fine; their problem is content, not correctness (choice 1); nothing in the draft shows outright contradiction with the body paragraphs, just a failure to connect to them (choice 2); and the opposite is true — the sentences are too vague and generic, not too specific (choice 3)."
+        "explanation": "Each sentence is generic and could apply to virtually any essay on any topic — none references the essay's actual specific thesis, evidence, or argument, exactly the content-free filler pattern that time pressure produces. The sentences are grammatically fine; their problem is content, not correctness (choice D); nothing in the draft shows outright contradiction with the body paragraphs, just a failure to connect to them (choice B); and the opposite is true — the sentences are too vague and generic, not too specific (choice A)."
       },
       {
         "id": "1w-2",
@@ -7948,7 +7948,7 @@ const QUESTIONS = {
           "Writing exactly what was written is the optimal use of this time based on what the passage actually states."
         ],
         "correct": 2,
-        "explanation": "Writing a single, specific sentence that directly restates the essay's actual specific thesis and its strongest piece of evidence would likely earn more credit than four generic sentences. What was actually written is exactly the problem being diagnosed, not the optimal approach (choice 0); no conclusion at all forfeits even the small credit a specific closing sentence could earn (choice 2); and starting a new body paragraph with only 3 minutes left risks leaving it unfinished, which is worse than a brief, specific close (choice 3)."
+        "explanation": "Writing a single, specific sentence that directly restates the essay's actual specific thesis and its strongest piece of evidence would likely earn more credit than four generic sentences. What was actually written is exactly the problem being diagnosed, not the optimal approach (choice D); no conclusion at all forfeits even the small credit a specific closing sentence could earn (choice A); and starting a new body paragraph with only 3 minutes left risks leaving it unfinished, which is worse than a brief, specific close (choice B)."
       },
       {
         "id": "2w-1",
@@ -7961,7 +7961,7 @@ const QUESTIONS = {
           "Problem [1] — a thesis restating the prompt fails the Thesis point directly."
         ],
         "correct": 3,
-        "explanation": "Problem [1] most directly affects the Thesis point — a thesis restating the prompt rather than taking a position directly fails this exam's Thesis point requirement. Problem [3] affects Evidence and Commentary, not the Thesis point specifically, contradicting choice 0; Problem [2]'s repeated content also affects Evidence and Commentary rather than the Thesis line itself, contradicting choice 2; and Problem [4]'s missing counterargument is a sophistication concern, not the specific requirement the Thesis point tests (choice 3)."
+        "explanation": "Problem [1] most directly affects the Thesis point — a thesis restating the prompt rather than taking a position directly fails this exam's Thesis point requirement. Problem [3] affects Evidence and Commentary, not the Thesis point specifically, contradicting choice C; Problem [2]'s repeated content also affects Evidence and Commentary rather than the Thesis line itself, contradicting choice B; and Problem [4]'s missing counterargument is a sophistication concern, not the specific requirement the Thesis point tests (choice A)."
       },
       {
         "id": "2w-2",
@@ -7974,7 +7974,7 @@ const QUESTIONS = {
           "Problems [2] and [3] together — repeated content and unexplained naming."
         ],
         "correct": 3,
-        "explanation": "Problems [2] and [3] both affect Evidence and Commentary — repeated content and unexplained technique naming are both patterns weakening this heavily-weighted rubric row. Problem [4] (missing counterargument) is more a sophistication issue than a direct Evidence and Commentary weakness, contradicting choice 1; Problem [1] affects the Thesis point specifically, not Evidence and Commentary, contradicting choice 2; and at least two of the four problems clearly do affect this score, contradicting choice 3."
+        "explanation": "Problems [2] and [3] both affect Evidence and Commentary — repeated content and unexplained technique naming are both patterns weakening this heavily-weighted rubric row. Problem [4] (missing counterargument) is more a sophistication issue than a direct Evidence and Commentary weakness, contradicting choice B; Problem [1] affects the Thesis point specifically, not Evidence and Commentary, contradicting choice C; and at least two of the four problems clearly do affect this score, contradicting choice A."
       },
       {
         "id": "2w-3",
@@ -7987,7 +7987,7 @@ const QUESTIONS = {
           "Focusing exclusively on handwriting neatness."
         ],
         "correct": 0,
-        "explanation": "Practicing the specific habit of pairing every named technique with an explicit explanation of its effect, since this gap appeared despite the student clearly knowing relevant vocabulary — a habit gap, not a knowledge gap. Handwriting has no bearing on this diagnosed content weakness, contradicting choice 1; the student already demonstrates adequate vocabulary, so more memorization wouldn't fix the actual gap, contradicting choice 2; and avoiding technique vocabulary entirely would remove content the essay needs, making the essay worse, not better (choice 3)."
+        "explanation": "Practicing the specific habit of pairing every named technique with an explicit explanation of its effect, since this gap appeared despite the student clearly knowing relevant vocabulary — a habit gap, not a knowledge gap. Handwriting has no bearing on this diagnosed content weakness, contradicting choice D; the student already demonstrates adequate vocabulary, so more memorization wouldn't fix the actual gap, contradicting choice B; and avoiding technique vocabulary entirely would remove content the essay needs, making the essay worse, not better (choice C)."
       },
       {
         "id": "1w-3",
@@ -8000,7 +8000,7 @@ const QUESTIONS = {
           "Neither the thesis nor the conclusion affects the essay's overall score according to the scenario described."
         ],
         "correct": 2,
-        "explanation": "The Thesis point is worth 1 of 6 total points and is typically established early; a weak conclusion doesn't retroactively remove an already-earned Thesis point, while Evidence and Commentary (established throughout the body) is worth far more and is where rushing does the most damage. Position in the essay clearly does matter to cost, contradicting choice 0; both the thesis and the conclusion do affect scoring, just to different degrees, contradicting choice 2; and a rushed conclusion is specifically LESS costly than rushed body paragraphs, the opposite of choice 3."
+        "explanation": "The Thesis point is worth 1 of 6 total points and is typically established early; a weak conclusion doesn't retroactively remove an already-earned Thesis point, while Evidence and Commentary (established throughout the body) is worth far more and is where rushing does the most damage. Position in the essay clearly does matter to cost, contradicting choice A; both the thesis and the conclusion do affect scoring, just to different degrees, contradicting choice D; and a rushed conclusion is specifically LESS costly than rushed body paragraphs, the opposite of choice B."
       },
       {
         "id": "2w-4",
@@ -8013,7 +8013,7 @@ const QUESTIONS = {
           "Structured self-assessment offers no real advantage over a general feeling in this specific case."
         ],
         "correct": 2,
-        "explanation": "Structured self-assessment identifies SPECIFIC, addressable problems (thesis type, paragraph repetition, unexplained technique naming) rather than a vague overall impression — specificity is what makes subsequent targeted practice possible, exactly this unit's Section 9.4 and 9.5 principle. This student's four specific findings show real added value over a vague impression, contradicting choice 0; general feelings, being unspecific, are LESS reliable for guiding practice than structured findings, contradicting choice 2; and this exact exercise demonstrates self-assessment's productive value, contradicting choice 3."
+        "explanation": "Structured self-assessment identifies SPECIFIC, addressable problems (thesis type, paragraph repetition, unexplained technique naming) rather than a vague overall impression — specificity is what makes subsequent targeted practice possible, exactly this unit's Section 9.4 and 9.5 principle. This student's four specific findings show real added value over a vague impression, contradicting choice A; general feelings, being unspecific, are LESS reliable for guiding practice than structured findings, contradicting choice B; and this exact exercise demonstrates self-assessment's productive value, contradicting choice D."
       },
       {
         "id": "1w-4",
@@ -8026,7 +8026,7 @@ const QUESTIONS = {
           "All students perform identically under time pressure, regardless of prep."
         ],
         "correct": 2,
-        "explanation": "That time pressure tends to expose whichever specific habits haven't yet become sufficiently automatic — generic filler language when planning breaks down (D1), or specific known-but-unapplied weaknesses like unexplained technique naming (D2) — reinforcing this unit's opening point that weak habits surface first under pressure. Both drafts show real, meaningful quality effects, contradicting choice 0; D2's problems occur throughout the essay, not just in a conclusion, contradicting choice 1; and the two drafts show different specific failure patterns, showing preparation clearly does shape the outcome, contradicting choice 2."
+        "explanation": "That time pressure tends to expose whichever specific habits haven't yet become sufficiently automatic — generic filler language when planning breaks down (D1), or specific known-but-unapplied weaknesses like unexplained technique naming (D2) — reinforcing this unit's opening point that weak habits surface first under pressure. Both drafts show real, meaningful quality effects, contradicting choice A; D2's problems occur throughout the essay, not just in a conclusion, contradicting choice B; and the two drafts show different specific failure patterns, showing preparation clearly does shape the outcome, contradicting choice D."
       },
       {
         "id": "2w-5",
@@ -8039,7 +8039,7 @@ const QUESTIONS = {
           "All four problems are equally unimportant and none deserve priority."
         ],
         "correct": 2,
-        "explanation": "Problem [1], the thesis weakness, since a thesis that fails to earn its point undermines the reader's ability to evaluate everything that follows, and thesis-writing is a skill practicable in isolation relatively quickly compared to the other three issues. Complexity (Problem [4]) matters but isn't automatically the top priority given the other, more foundational issue present, contradicting choice 0; Problem [2] is not described as the most time-consuming to fix, and even if it were, that wouldn't make it the top priority, contradicting choice 2; and the problems clearly differ in urgency, contradicting choice 3."
+        "explanation": "Problem [1], the thesis weakness, since a thesis that fails to earn its point undermines the reader's ability to evaluate everything that follows, and thesis-writing is a skill practicable in isolation relatively quickly compared to the other three issues. Complexity (Problem [4]) matters but isn't automatically the top priority given the other, more foundational issue present, contradicting choice A; Problem [2] is not described as the most time-consuming to fix, and even if it were, that wouldn't make it the top priority, contradicting choice B; and the problems clearly differ in urgency, contradicting choice D."
       },
       {
         "id": "1w-5",
@@ -8052,7 +8052,7 @@ const QUESTIONS = {
           "This mistake isn't avoidable, regardless of the student's preparation level."
         ],
         "correct": 3,
-        "explanation": "By this point, the student has practiced writing specific, connected commentary throughout eight units — the generic conclusion represents a temporary lapse under time pressure, not a genuine skill gap, making it fixable through a quick, specific mental checklist rather than requiring new content learning. The draft reflects a momentary lapse, not an absence of prior learning, contradicting choice 0; generic filler is exactly what this unit identifies as a mistake to avoid, not a correct approach (choice 2); and a rehearsed checklist habit specifically can prevent this lapse, contradicting choice 3's claim that it's unavoidable."
+        "explanation": "By this point, the student has practiced writing specific, connected commentary throughout eight units — the generic conclusion represents a temporary lapse under time pressure, not a genuine skill gap, making it fixable through a quick, specific mental checklist rather than requiring new content learning. The draft reflects a momentary lapse, not an absence of prior learning, contradicting choice B; generic filler is exactly what this unit identifies as a mistake to avoid, not a correct approach (choice A); and a rehearsed checklist habit specifically can prevent this lapse, contradicting choice C's claim that it's unavoidable."
       },
       {
         "id": "2w-6",
@@ -8065,7 +8065,7 @@ const QUESTIONS = {
           "None of these problems could be caught during writing, only afterward."
         ],
         "correct": 1,
-        "explanation": "Problem [1] (thesis restating the prompt) is exactly the kind of issue a quick 'could someone disagree with this' checklist question — run immediately after drafting the thesis — could catch and fix in the moment, before the flawed thesis shapes the rest of the essay. Problem [1] specifically CAN be caught in real time, contradicting choice 0; Problem [4] isn't uniquely catchable while the others aren't — a rehearsed checklist item could catch Problem [1] just as readily, contradicting choice 1; and choice 2 directly contradicts the mid-essay checklist principle this unit teaches."
+        "explanation": "Problem [1] (thesis restating the prompt) is exactly the kind of issue a quick 'could someone disagree with this' checklist question — run immediately after drafting the thesis — could catch and fix in the moment, before the flawed thesis shapes the rest of the essay. Problem [1] specifically CAN be caught in real time, contradicting choice A; Problem [4] isn't uniquely catchable while the others aren't — a rehearsed checklist item could catch Problem [1] just as readily, contradicting choice C; and choice D directly contradicts the mid-essay checklist principle this unit teaches."
       },
       {
         "id": "1w-6",
@@ -8078,7 +8078,7 @@ const QUESTIONS = {
           "The two passages directly contradict each other's guidance."
         ],
         "correct": 1,
-        "explanation": "Both illustrate the same underlying principle from different angles — this draft shows what a real-time checklist failure looks like on the page, while the P5 reflection shows a student diagnosing similar failures after the fact — together modeling the full cycle of catching a weakness in the moment or through structured after-the-fact reflection. D1 is directly relevant too, not just P5, contradicting choice 1; the two passages clearly connect through this shared principle, contradicting choice 2; and nothing in either passage's guidance conflicts with the other, contradicting choice 3."
+        "explanation": "Both illustrate the same underlying principle from different angles — this draft shows what a real-time checklist failure looks like on the page, while the P5 reflection shows a student diagnosing similar failures after the fact — together modeling the full cycle of catching a weakness in the moment or through structured after-the-fact reflection. D1 is directly relevant too, not just P5, contradicting choice A; the two passages clearly connect through this shared principle, contradicting choice C; and nothing in either passage's guidance conflicts with the other, contradicting choice D."
       },
       {
         "id": "2w-7",
@@ -8091,7 +8091,7 @@ const QUESTIONS = {
           "Writing the longest possible essay, regardless of content quality."
         ],
         "correct": 2,
-        "explanation": "The habit of running a brief, rehearsed self-check after drafting a thesis and after each body paragraph — asking 'is this specific enough, and does it connect back to my actual claim' — since this single habit, consistently applied, would have caught three of this student's four identified problems. Memorizing every technique wouldn't have caught this student's actual problems, which were habit gaps, not vocabulary gaps, contradicting choice 0; essay length isn't what this student's reflection identifies as the issue, contradicting choice 1; and generic praise is exactly the kind of vague, unspecific content this course teaches students to avoid, contradicting choice 2."
+        "explanation": "The habit of running a brief, rehearsed self-check after drafting a thesis and after each body paragraph — asking 'is this specific enough, and does it connect back to my actual claim' — since this single habit, consistently applied, would have caught three of this student's four identified problems. Memorizing every technique wouldn't have caught this student's actual problems, which were habit gaps, not vocabulary gaps, contradicting choice B; essay length isn't what this student's reflection identifies as the issue, contradicting choice D; and generic praise is exactly the kind of vague, unspecific content this course teaches students to avoid, contradicting choice A."
       },
       {
         "id": "1w-7",
@@ -8104,7 +8104,7 @@ const QUESTIONS = {
           "One shows a time-pressure failure; the other shows knowledge-application failures."
         ],
         "correct": 3,
-        "explanation": "This draft demonstrates a TIME-PRESSURE-induced failure (generic filler under rushing), while P4's excerpts demonstrate KNOWLEDGE-APPLICATION failures (unexplained naming, vague hedging, overreliance) — together illustrating that essay weaknesses can stem from genuinely different root causes requiring different fixes. Their pairing serves this specific instructional contrast, not arbitrary placement, contradicting choice 0; the two sets of examples reflect meaningfully different root causes, contradicting choice 1; and nothing in the unit ranks this draft above P4's excerpts in importance, contradicting choice 2."
+        "explanation": "This draft demonstrates a TIME-PRESSURE-induced failure (generic filler under rushing), while P4's excerpts demonstrate KNOWLEDGE-APPLICATION failures (unexplained naming, vague hedging, overreliance) — together illustrating that essay weaknesses can stem from genuinely different root causes requiring different fixes. Their pairing serves this specific instructional contrast, not arbitrary placement, contradicting choice C; the two sets of examples reflect meaningfully different root causes, contradicting choice A; and nothing in the unit ranks this draft above P4's excerpts in importance, contradicting choice B."
       },
       {
         "id": "2w-8",
@@ -8117,7 +8117,7 @@ const QUESTIONS = {
           "Students are expected to forget earlier units' vocabulary by this point according to the scenario described."
         ],
         "correct": 0,
-        "explanation": "By this point, these concepts have moved from being NEW VOCABULARY requiring explicit definition (as in Unit 1) to being FAMILIAR DIAGNOSTIC TOOLS a student can apply quickly to their own or others' writing — the same underlying concepts, but now operating as fast, internalized judgment rather than newly-learned rules. This student's fluent self-diagnosis shows real change has occurred, contradicting choice 0; these concepts remain central to scoring, so they haven't become less important, contradicting choice 2; and this exercise relies on the student retaining, not forgetting, this vocabulary, contradicting choice 3."
+        "explanation": "By this point, these concepts have moved from being NEW VOCABULARY requiring explicit definition (as in Unit 1) to being FAMILIAR DIAGNOSTIC TOOLS a student can apply quickly to their own or others' writing — the same underlying concepts, but now operating as fast, internalized judgment rather than newly-learned rules. This student's fluent self-diagnosis shows real change has occurred, contradicting choice B; these concepts remain central to scoring, so they haven't become less important, contradicting choice C; and this exercise relies on the student retaining, not forgetting, this vocabulary, contradicting choice D."
       },
       {
         "id": "1w-8",
@@ -8130,7 +8130,7 @@ const QUESTIONS = {
           "Avoiding writing conclusions in practice essays entirely."
         ],
         "correct": 0,
-        "explanation": "Deliberately practicing writing strong, specific conclusions in under 2 minutes as a standalone drill, separate from full-essay practice — building the specific sub-skill of rapid, content-specific closing under severe time constraint. Skipping conclusions in practice would leave this exact weakness unpracticed, contradicting choice 0; only ever practicing under generous time conditions would never rehearse this specific scenario, contradicting choice 2; and a memorized generic conclusion is exactly the content-free filler pattern this draft illustrates as a problem, not a fix (choice 3)."
+        "explanation": "Deliberately practicing writing strong, specific conclusions in under 2 minutes as a standalone drill, separate from full-essay practice — building the specific sub-skill of rapid, content-specific closing under severe time constraint. Skipping conclusions in practice would leave this exact weakness unpracticed, contradicting choice D; only ever practicing under generous time conditions would never rehearse this specific scenario, contradicting choice B; and a memorized generic conclusion is exactly the content-free filler pattern this draft illustrates as a problem, not a fix (choice C)."
       },
       {
         "id": "2w-9",
@@ -8143,7 +8143,7 @@ const QUESTIONS = {
           "The exercise has no purpose beyond identifying this one essay's problems based on what the passage actually states."
         ],
         "correct": 1,
-        "explanation": "Beyond diagnosing this specific essay, the deeper purpose is building the STANDING HABIT of honest, structured self-assessment itself — a transferable skill useful for every future practice essay and, ultimately, for the actual exam's self-review time, not just a one-time fix for these four specific problems. This draft is a rhetorical analysis passage, not a synthesis essay, so the exercise isn't limited to synthesis, contradicting choice 0; its transferable value extends well past this single essay, contradicting choice 1; and its constructive, forward-looking framing is the opposite of punitive, contradicting choice 3."
+        "explanation": "Beyond diagnosing this specific essay, the deeper purpose is building the STANDING HABIT of honest, structured self-assessment itself — a transferable skill useful for every future practice essay and, ultimately, for the actual exam's self-review time, not just a one-time fix for these four specific problems. This draft is a rhetorical analysis passage, not a synthesis essay, so the exercise isn't limited to synthesis, contradicting choice C; its transferable value extends well past this single essay, contradicting choice D; and its constructive, forward-looking framing is the opposite of punitive, contradicting choice A."
       },
       {
         "id": "1w-9",
@@ -8156,7 +8156,7 @@ const QUESTIONS = {
           "These two weaknesses are entirely unrelated to each other."
         ],
         "correct": 2,
-        "explanation": "Both are downstream consequences of time running short — this draft's generic conclusion and P2's unfinished rhetorical analysis essay both illustrate what happens when a specific essay's available writing time is compressed below what's needed, reinforcing that time management (Section 9.1) and writing quality are directly linked, not separate concerns. Both scenarios clearly involve genuine time pressure, contradicting choice 0; P2's example involves a rhetorical analysis essay, not a synthesis essay, contradicting choice 2; and the two weaknesses share this clear causal link, contradicting choice 3."
+        "explanation": "Both are downstream consequences of time running short — this draft's generic conclusion and P2's unfinished rhetorical analysis essay both illustrate what happens when a specific essay's available writing time is compressed below what's needed, reinforcing that time management (Section 9.1) and writing quality are directly linked, not separate concerns. Both scenarios clearly involve genuine time pressure, contradicting choice A; P2's example involves a rhetorical analysis essay, not a synthesis essay, contradicting choice B; and the two weaknesses share this clear causal link, contradicting choice D."
       },
       {
         "id": "2w-10",
@@ -8169,7 +8169,7 @@ const QUESTIONS = {
           "The checklist item about line-of-reasoning development."
         ],
         "correct": 0,
-        "explanation": "The item asking whether the essay addresses at least one counterargument or complication, however briefly — a direct match to problem [4], showing how a rehearsed, general checklist item can catch a wide range of specific instances of the same underlying gap. The thesis-specificity item maps onto Problem [1], not Problem [4], contradicting choice 0; a clear, direct match does exist among the five items, contradicting choice 1; and the line-of-reasoning item maps more closely onto Problem [2]'s repeated content than onto the missing counterargument, contradicting choice 3."
+        "explanation": "The item asking whether the essay addresses at least one counterargument or complication, however briefly — a direct match to problem [4], showing how a rehearsed, general checklist item can catch a wide range of specific instances of the same underlying gap. The thesis-specificity item maps onto Problem [1], not Problem [4], contradicting choice B; a clear, direct match does exist among the five items, contradicting choice C; and the line-of-reasoning item maps more closely onto Problem [2]'s repeated content than onto the missing counterargument, contradicting choice D."
       },
       {
         "id": "1w-10",
@@ -8181,8 +8181,8 @@ const QUESTIONS = {
           "A set of passages focused exclusively on synthesis-essay writing.",
           "A random assortment of unrelated exam tips with no coherent structure."
         ],
-        "correct": 2,
-        "explanation": "A structured progression moving from diagnosing THESIS quality (P1), to TIME MANAGEMENT (P2), to MULTIPLE-CHOICE STRATEGY (P3), to CHECKLIST-BASED SELF-DIAGNOSIS (P4, D1, D2), to FULL-PRACTICE INTEGRATION (P5) — mirroring this unit's own five-section structure and modeling the exact self-review process a student should internalize. The set is clearly connected to and mirrors this unit's content, contradicting choice 0; a deliberate, coherent structure is exactly what's present, contradicting choice 1; and the passages span rhetorical analysis, argument, and revision contexts, not synthesis alone, contradicting choice 3."
+        "correct": 0,
+        "explanation": "A structured progression moving from diagnosing THESIS quality (P1), to TIME MANAGEMENT (P2), to MULTIPLE-CHOICE STRATEGY (P3), to CHECKLIST-BASED SELF-DIAGNOSIS (P4, D1, D2), to FULL-PRACTICE INTEGRATION (P5) — mirroring this unit's own five-section structure and modeling the exact self-review process a student should internalize. The set is clearly connected to and mirrors this unit's content, contradicting choice B; a deliberate, coherent structure is exactly what's present, contradicting choice D; and the passages span rhetorical analysis, argument, and revision contexts, not synthesis alone, contradicting choice C."
       }
     ]
   }
