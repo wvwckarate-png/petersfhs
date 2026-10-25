@@ -34,6 +34,9 @@ export default {
       id: "s22", num: "2.2", title: "The Skull",
       blocks: [
         { p: "The skull has <strong>22 bones</strong>: 8 cranial bones that enclose the brain and 14 facial bones, plus the six tiny middle-ear ossicles and the hyoid. Most skull bones are joined by immovable <strong>sutures</strong>; the mandible is the only freely movable skull bone." },
+        { fig: { src: "/anatomy/g188.png", alt: "Skull, lateral view: The skull from the side, with cranial and facial bones and sutures labelled.", caption: "Skull, lateral view.", credit: "Source: Gray's Anatomy (1918), Fig. 188, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray188.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g190.png", alt: "Skull, anterior view: The skull from the front, showing the major bones and foramina.", caption: "Skull, anterior view.", credit: "Source: Gray's Anatomy (1918), Fig. 190, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray190.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g194.png", alt: "Sagittal section of the skull: Median section through the skull showing the nasal bones, ethmoid, sphenoid, vomer, and palatine bone.", caption: "Sagittal section of the skull.", credit: "Source: Gray's Anatomy (1918), Fig. 194, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray194.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Cranial bone", "Notable features"], [
           ["Frontal (1)", "Forehead and roof of the orbits; frontal sinuses"],
           ["Parietal (2)", "Sides and roof of the cranium"],
@@ -61,6 +64,8 @@ export default {
       id: "s23", num: "2.3", title: "The Vertebral Column",
       blocks: [
         { p: "The vertebral column has 7 cervical, 12 thoracic, and 5 lumbar vertebrae, plus the fused sacrum (5) and coccyx (3–5). A typical vertebra has a <strong>body</strong> (weight bearing), a <strong>vertebral arch</strong> (pedicles and laminae) enclosing the vertebral foramen, a <strong>spinous process</strong>, two <strong>transverse processes</strong>, and <strong>articular processes</strong> with facets." },
+        { fig: { src: "/anatomy/g86.png", alt: "Atlas (C1): First cervical vertebra viewed from above.", caption: "Atlas (C1).", credit: "Source: Gray's Anatomy (1918), Fig. 86, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray86.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g88.png", alt: "Axis (C2): Second cervical vertebra, with the odontoid process (dens) that the atlas rotates around.", caption: "Axis (C2).", credit: "Source: Gray's Anatomy (1918), Fig. 88, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray88.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Region", "Distinguishing features"], [
           ["Cervical", "Small body; transverse foramina for the vertebral arteries; bifid (split) spinous process (C2–C6); C1 (atlas) has no body; C2 (axis) has the dens (odontoid process); C7 (vertebra prominens) has a long spinous process you can feel"],
           ["Thoracic", "Heart-shaped body with costal facets for the ribs; long, downward-pointing spinous process"],

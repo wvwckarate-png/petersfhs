@@ -10,6 +10,7 @@ export default {
       id: "s121", num: "12.1", title: "The Urinary System",
       blocks: [
         { p: "The <strong>kidneys</strong> are bean-shaped, retroperitoneal organs lying on each side of the vertebral column between roughly T12 and L3, with the right kidney slightly lower because of the liver. Each is wrapped in a fibrous <strong>capsule</strong>, surrounded by perirenal fat, and sits within <strong>renal fascia</strong>. The <strong>adrenal glands</strong> sit atop them." },
+        { fig: { src: "/anatomy/g1121.png", alt: "Posterior abdominal wall: Kidneys, aorta, inferior vena cava, and their branches.", caption: "Posterior abdominal wall.", credit: "Source: Gray's Anatomy (1918), Fig. 1121, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1121.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Kidney region", "Description"], [
           ["Renal cortex", "Outer layer containing the glomeruli and convoluted tubules"],
           ["Renal medulla", "Inner region of renal pyramids containing loops of Henle and collecting ducts"],
@@ -66,6 +67,7 @@ export default {
           ["Mammary glands", "Milk production under prolactin; ejection under oxytocin"],
         ]),
         { p: "The <strong>menstrual cycle</strong> runs about 28 days. In the <strong>follicular phase</strong>, FSH stimulates follicle growth and rising estrogen rebuilds the endometrium. A surge of LH triggers <strong>ovulation</strong> (about day 14). In the <strong>luteal phase</strong>, the corpus luteum secretes progesterone to maintain the endometrium; if there is no pregnancy, the corpus luteum degenerates, hormone levels drop, and the endometrium is shed (<strong>menstruation</strong>). Pregnancy lasts about 40 weeks, divided into three trimesters." },
+        { fig: { src: "/anatomy/g1166.png", alt: "Sagittal section of the female pelvis: Bladder, uterus, vagina, rectum, and symphysis.", caption: "Sagittal section of the female pelvis.", credit: "Source: Gray's Anatomy (1918), Fig. 1166, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1166.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { key: "<strong>Sperm travel</strong>: seminiferous tubules → epididymis → ductus deferens → ejaculatory duct → prostatic urethra → membranous urethra → spongy (penile) urethra. A mnemonic is 'SEVEN UP': <strong>S</strong>eminiferous tubules, <strong>E</strong>pididymis, <strong>V</strong>as deferens, <strong>E</strong>jaculatory duct, <strong>N</strong>othing (skip), <strong>U</strong>rethra, <strong>P</strong>enis." },
         { recap: [
           "Name the male and female reproductive structures and functions.",

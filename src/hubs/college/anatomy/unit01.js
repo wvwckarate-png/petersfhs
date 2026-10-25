@@ -81,6 +81,7 @@ export default {
       id: "s14", num: "1.4", title: "The Integumentary System",
       blocks: [
         { p: "The skin is the body's largest organ, covering about 1.5–2 square meters in an adult. It protects against abrasion, microbes, and ultraviolet light, prevents water loss, regulates temperature, senses touch, and makes vitamin D." },
+        { fig: { src: "/anatomy/g944.png", alt: "Section of the skin: Layers of the skin: epidermis strata, dermis, hair follicle, sebaceous gland, and arrector pili muscle.", caption: "Section of the skin.", credit: "Source: Gray's Anatomy (1918), Fig. 944, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray944.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Layer", "Description", "Key structures"], [
           ["Epidermis", "Outer layer; stratified squamous keratinized epithelium; avascular", "Keratinocytes, melanocytes (pigment), Langerhans cells (immune), Merkel cells (touch)"],
           ["Dermis", "Dense irregular connective tissue; vascular", "Collagen and elastic fibers, blood vessels, nerve endings, hair follicles, sweat and sebaceous glands"],

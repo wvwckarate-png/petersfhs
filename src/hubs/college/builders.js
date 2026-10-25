@@ -55,6 +55,7 @@ export function buildQuestions(unitId, tuples) {
 
 function renderBlock(b) {
   if (b.p) return `  <p>${b.p}</p>`;
+  if (b.fig) return `  <figure class="wp-fig">\n    <img src="${b.fig.src}" alt="${esc(b.fig.alt)}" loading="lazy" />\n    <figcaption><strong>${b.fig.caption}</strong> <span class="wp-credit">${b.fig.credit}</span></figcaption>\n  </figure>`;
   if (b.table) {
     const head = b.table.headers.map((h) => `<th>${h}</th>`).join("");
     const rows = b.table.rows.map((r) => `<tr>${r.map((c) => `<td>${c}</td>`).join("")}</tr>`).join("\n      ");

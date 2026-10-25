@@ -10,6 +10,7 @@ export default {
       id: "s111", num: "11.1", title: "The Respiratory Tract",
       blocks: [
         { p: "Air enters through the <strong>nose</strong> (warmed, humidified, filtered by hairs and mucus), passes the <strong>pharynx</strong> (nasopharynx, oropharynx, laryngopharynx), and enters the <strong>larynx</strong>, protected by the <strong>epiglottis</strong> during swallowing. The larynx holds the <strong>vocal cords</strong> and is built of cartilages: the large <strong>thyroid cartilage</strong> (Adam's apple), the ring-shaped <strong>cricoid cartilage</strong>, and the paired arytenoids. Below it the <strong>trachea</strong> runs about 12 cm, held open by 16–20 C-shaped rings of hyaline cartilage whose open back faces the esophagus, letting food bulge through. The trachea divides at the <strong>carina</strong> (about T4–T5) into the right and left <strong>main bronchi</strong>." },
+        { fig: { src: "/anatomy/g962.png", alt: "Bronchi and lungs: Trachea, bronchi, and lobes of the lungs.", caption: "Bronchi and lungs.", credit: "Source: Gray's Anatomy (1918), Fig. 962, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray962.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Feature", "Right lung", "Left lung"], [
           ["Lobes", "Three (superior, middle, inferior)", "Two (superior, inferior)"],
           ["Fissures", "Horizontal and oblique", "Oblique only"],
@@ -61,6 +62,8 @@ export default {
           ["Pancreas", "Retroperitoneal; exocrine acini (digestive enzymes and bicarbonate via the pancreatic duct) and endocrine islets (insulin, glucagon)"],
         ]),
         { p: "The <strong>peritoneum</strong> organizes the abdominal contents. The <strong>mesentery</strong> suspends the small intestine and carries its vessels and nerves. The <strong>greater omentum</strong> hangs from the stomach like an apron and can wall off infection (earning the nickname 'the policeman of the abdomen'). Organs behind the peritoneum are <strong>retroperitoneal</strong> (kidneys, pancreas, duodenum's second and third parts, ascending and descending colon)." },
+        { fig: { src: "/anatomy/g1050.png", alt: "Interior of the stomach: Fundus, curvatures, pyloric portion, pyloric valve, and duodenum.", caption: "Interior of the stomach.", credit: "Source: Gray's Anatomy (1918), Fig. 1050, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1050.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g1056.png", alt: "Duodenum, pancreas, and related organs: Pancreas, duodenum, kidneys, spleen, diaphragm, and the great vessels.", caption: "Duodenum, pancreas, and related organs.", credit: "Source: Gray's Anatomy (1918), Fig. 1056, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1056.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The <strong>common bile duct</strong> and the main pancreatic duct usually join before entering the duodenum, so a gallstone lodged at the ampulla can block both bile and pancreatic juice. That is why gallstones are a leading cause of <strong>pancreatitis</strong>." },
         { recap: [
           "Compare the duodenum, jejunum, and ileum.",

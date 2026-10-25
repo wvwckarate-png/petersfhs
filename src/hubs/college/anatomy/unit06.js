@@ -46,6 +46,8 @@ export default {
           ["Splenius, semispinalis, suboccipitals", "Extend and rotate the head and neck", "Cervical nerves"],
         ]),
         { p: "The <strong>facial muscles</strong> insert on skin, not bone, which is why they produce expression; they are all supplied by the facial nerve (CN VII), so a facial nerve lesion (Bell's palsy) droops half the face. The <strong>muscles of mastication</strong> are supplied by the mandibular branch of the trigeminal nerve (CN V3). The <strong>SCM</strong> is a landmark that divides the neck into an anterior and a posterior triangle, and the common carotid artery and the internal jugular vein run deep to its anterior border, where the pulse can be felt." },
+        { fig: { src: "/anatomy/g378.png", alt: "Muscles of the head, face, and neck: Superficial muscles of facial expression and the neck.", caption: "Muscles of the head, face, and neck.", credit: "Source: Gray's Anatomy (1918), Fig. 378, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray378.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g385.png", alt: "Muscles of the neck, lateral view: Sternocleidomastoid, scalenes, hyoid muscles, and trapezius.", caption: "Muscles of the neck, lateral view.", credit: "Source: Gray's Anatomy (1918), Fig. 385, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray385.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The SCM rotates the head to the <em>opposite</em> side, so a right SCM turns your face to the left. A torticollis (wry neck) with a tight right SCM tilts the head to the right and rotates the face to the left." },
         { recap: [
           "Identify the main facial, mastication, and neck muscles and their nerves.",
@@ -85,6 +87,7 @@ export default {
           ["Posterior abdominal wall", "Quadratus lumborum, psoas major", "Lateral flexion of the trunk; hip flexion (psoas)"],
         ]),
         { p: "The <strong>erector spinae</strong> is the great extensor of the spine, and it is placed under constant tension when you stand or bend forward. The <strong>thoracolumbar fascia</strong> is the broad sheet that connects the latissimus dorsi, gluteus maximus, and the abdominal wall to the spine and pelvis, linking the upper limb with the opposite lower limb in walking and throwing. The <strong>triangle of auscultation</strong> and the <strong>lumbar triangle</strong> are gaps in the back muscles that are used to listen to the lungs and can be sites of herniation." },
+        { fig: { src: "/anatomy/g409.png", alt: "Muscles of the back: Trapezius, latissimus dorsi, rhomboids, levator scapulae, and deeper muscles.", caption: "Muscles of the back.", credit: "Source: Gray's Anatomy (1918), Fig. 409, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray409.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { recap: [
           "Name the layers of back muscles and their actions.",
           "Explain the role of the erector spinae and the thoracolumbar fascia.",

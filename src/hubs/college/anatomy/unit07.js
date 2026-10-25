@@ -39,6 +39,8 @@ export default {
           ["Posterior forearm, deep", "Supinator, abductor pollicis longus, extensor pollicis longus and brevis, extensor indicis", "Supinate; move the thumb; extend the index finger", "Deep branch of the radial (posterior interosseous)"],
         ]),
         { p: "Two simple rules help here. <strong>Flexors are anterior, extensors are posterior</strong>, and the flexors arise mostly from the <strong>medial epicondyle</strong> (common flexor origin) while the extensors arise mostly from the <strong>lateral epicondyle</strong> (common extensor origin). That is why golfer's elbow (medial) and tennis elbow (lateral) affect these different muscle groups." },
+        { fig: { src: "/anatomy/g418.png", alt: "Superficial extensor muscles of the forearm: Posterior forearm muscles that extend the wrist and fingers.", caption: "Superficial extensor muscles of the forearm.", credit: "Source: Gray's Anatomy (1918), Fig. 418, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray418.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g419.png", alt: "Deep extensor muscles of the forearm: Supinator, abductor pollicis longus, extensor pollicis longus and brevis, and extensor indicis.", caption: "Deep extensor muscles of the forearm.", credit: "Source: Gray's Anatomy (1918), Fig. 419, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray419.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { key: "<strong>Nerve territory shortcut:</strong> the <em>musculocutaneous</em> nerve supplies the arm flexors, the <em>radial</em> nerve supplies everything that extends (the entire back of the arm and forearm), the <em>median</em> nerve supplies most forearm flexors, and the <em>ulnar</em> nerve supplies the flexor carpi ulnaris, the medial half of the flexor digitorum profundus, and most of the small hand muscles." },
         { recap: [
           "Name the muscles of each compartment and their actions.",
@@ -71,6 +73,7 @@ export default {
       id: "s74", num: "7.4", title: "Upper-Limb Nerves, Plexus, and Clinical Tests",
       blocks: [
         { p: "The <strong>brachial plexus</strong> arises from the ventral rami of C5–T1 and is organized as <strong>roots, trunks, divisions, cords, and branches</strong> ('Real Teenagers Drink Cold Beer'). The three <strong>trunks</strong> are upper (C5–C6), middle (C7), and lower (C8–T1). The three <strong>cords</strong> are named relative to the axillary artery: lateral, medial, and posterior." },
+        { fig: { src: "/anatomy/g807.png", alt: "Plan of the brachial plexus: Roots, cords, and major branches (C5–T1).", caption: "Plan of the brachial plexus.", credit: "Source: Gray's Anatomy (1918), Fig. 807, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray807.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Cord", "Major branches"], [
           ["Lateral", "Musculocutaneous, lateral root of the median, lateral pectoral"],
           ["Medial", "Ulnar, medial root of the median, medial pectoral, medial cutaneous nerves"],

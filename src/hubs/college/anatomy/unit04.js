@@ -10,6 +10,7 @@ export default {
       id: "s41", num: "4.1", title: "The Pelvic Girdle and Pelvis",
       blocks: [
         { p: "The <strong>pelvic girdle</strong> is two <strong>hip bones</strong> (os coxae), each fused from the <strong>ilium</strong>, <strong>ischium</strong>, and <strong>pubis</strong>. They join each other at the <strong>pubic symphysis</strong> in front and the <strong>sacrum</strong> behind at the <strong>sacroiliac joints</strong>. The pelvis (the girdle plus the sacrum and coccyx) transfers body weight from the spine to the legs and protects the pelvic organs." },
+        { fig: { src: "/anatomy/g241.png", alt: "Male pelvis: Ilium, ischium, pubis, sacrum, and pubic arch.", caption: "Male pelvis.", credit: "Source: Gray's Anatomy (1918), Fig. 241, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray241.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Part", "Landmarks"], [
           ["Ilium", "Iliac crest (top rim; the 'hip' you can feel), anterior superior iliac spine (ASIS), posterior superior iliac spine (PSIS), iliac fossa, greater sciatic notch"],
           ["Ischium", "Ischial tuberosity (you sit on it; hamstring origin), ischial spine, lesser sciatic notch"],
@@ -35,6 +36,7 @@ export default {
       id: "s42", num: "4.2", title: "The Femur and Patella",
       blocks: [
         { p: "The <strong>femur</strong> is the longest, heaviest, and strongest bone in the body. Its angled <strong>neck</strong> lets the legs swing but is also the weakest point." },
+        { fig: { src: "/anatomy/g244.png", alt: "Right femur, anterior surface: Head, neck, greater trochanter, epicondyles, and condyles with muscle attachments.", caption: "Right femur, anterior surface.", credit: "Source: Gray's Anatomy (1918), Fig. 244, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray244.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Femur landmark", "Description"], [
           ["Head", "Round; fits into the acetabulum; the fovea capitis marks the attachment of the ligamentum teres"],
           ["Neck", "Narrow region; common fracture site in the elderly"],
@@ -60,6 +62,7 @@ export default {
       id: "s43", num: "4.3", title: "The Tibia, Fibula, and Foot",
       blocks: [
         { p: "The <strong>tibia</strong> (shinbone) is the weight-bearing bone of the leg. Its <strong>medial and lateral condyles</strong> form the tibial plateau, the <strong>tibial tuberosity</strong> is where the patellar ligament inserts, and the <strong>anterior border</strong> (the shin) lies just beneath the skin. The <strong>medial malleolus</strong> forms the inside bump of the ankle. The <strong>fibula</strong> is slender and carries almost no weight, but it anchors muscles, and its distal end forms the <strong>lateral malleolus</strong>, which stabilizes the ankle. The two bones are joined by an interosseous membrane." },
+        { fig: { src: "/anatomy/g268.png", alt: "Bones of the right foot, dorsal surface: Tarsals (calcaneus, talus, navicular, cuboid, cuneiforms), metatarsals, and phalanges.", caption: "Bones of the right foot, dorsal surface.", credit: "Source: Gray's Anatomy (1918), Fig. 268, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray268.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Foot region", "Bones"], [
           ["Tarsals (7)", "Talus, calcaneus, navicular, cuboid, medial, intermediate, and lateral cuneiforms"],
           ["Metatarsals (5)", "I–V from the big toe; base, shaft, head"],

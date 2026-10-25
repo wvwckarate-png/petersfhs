@@ -79,6 +79,11 @@ const EXTRA_CSS = `
   .wp-table td em{color:#8A6500; font-style:normal; font-weight:700;}
   @media (max-width:520px){ .wp-table{font-size:13.5px;} .wp-table th, .wp-table td{padding:8px 10px;} .wp-table td:first-child{white-space:normal;} }
   .mt-card{perspective:1200px;}
+  .wp-fig{margin:22px auto; max-width:640px; background:#fff; border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:var(--shadow); text-align:center;}
+  .wp-fig img{max-width:100%; max-height:520px; width:auto; height:auto; border-radius:8px; background:#fff;}
+  .wp-fig figcaption{margin-top:10px; font-size:13.5px; color:#2E332E; line-height:1.5; text-align:left;}
+  .wp-fig .wp-credit{display:block; margin-top:4px; font-size:11.5px; color:#8A8F86;}
+  .wp-fig .wp-credit a{color:#5A6B80;}
 `;
 
 function shuffled(arr) {

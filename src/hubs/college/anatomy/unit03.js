@@ -10,6 +10,7 @@ export default {
       id: "s31", num: "3.1", title: "The Pectoral Girdle",
       blocks: [
         { p: "The <strong>pectoral (shoulder) girdle</strong> consists of the <strong>clavicle</strong> and the <strong>scapula</strong> on each side. It attaches the upper limb to the axial skeleton at only one place, the <strong>sternoclavicular joint</strong>, which is the reason the shoulder is so mobile." },
+        { fig: { src: "/anatomy/g202.png", alt: "Left scapula, anterior surface: Subscapular fossa, glenoid cavity, coracoid process, and acromion with attachments marked.", caption: "Left scapula, anterior surface.", credit: "Source: Gray's Anatomy (1918), Fig. 202, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray202.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Bone", "Landmark", "Significance"], [
           ["Clavicle", "Sternal end, acromial end, S-shaped shaft", "Braces the shoulder away from the trunk; most commonly fractured bone (middle third); fracture often after a fall on the shoulder"],
           ["Scapula", "Spine", "Prominent ridge on the posterior surface; divides supraspinous and infraspinous fossae"],
@@ -44,6 +45,8 @@ export default {
           ["Olecranon fossa", "Posterior depression that receives the olecranon in extension"],
         ]),
         { p: "The <strong>ulna</strong> is the medial forearm bone (little finger side) and forms the main elbow hinge with the humerus. Its landmarks are the <strong>olecranon</strong> (the point of the elbow), the <strong>trochlear notch</strong> (which grips the trochlea), the <strong>coronoid process</strong>, the <strong>radial notch</strong>, and the <strong>styloid process</strong> at the wrist. The <strong>radius</strong> is the lateral forearm bone (thumb side), with a <strong>head</strong> that pivots against the ulna and the capitulum, a <strong>radial tuberosity</strong> (biceps insertion), and a <strong>styloid process</strong> at the wrist. The radius broadens at the wrist, forming most of the wrist joint." },
+        { fig: { src: "/anatomy/g207.png", alt: "Left humerus, anterior view: Head, anatomical and surgical neck, tubercles, intertubercular groove, epicondyles, and muscle attachments.", caption: "Left humerus, anterior view.", credit: "Source: Gray's Anatomy (1918), Fig. 207, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray207.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g213.png", alt: "Bones of the left forearm, anterior view: Ulna and radius with olecranon, radial tuberosity, styloid processes, and muscle attachments.", caption: "Bones of the left forearm, anterior view.", credit: "Source: Gray's Anatomy (1918), Fig. 213, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray213.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "A memory device: the <strong>radius</strong> is on the thumb (<strong>r</strong>adial) side and the <strong>ulna</strong> is on the pinky side. The radius moves around the ulna in pronation (the bones cross like an X) and uncross in supination." },
         { p: "A <strong>Colles' fracture</strong> is a break of the distal radius, usually from a fall on an outstretched hand, with a characteristic 'dinner fork' deformity. A <strong>supracondylar fracture</strong> of the distal humerus is common in children and can injure the brachial artery or median nerve." },
         { recap: [
@@ -57,6 +60,7 @@ export default {
       id: "s33", num: "3.3", title: "The Wrist and Hand",
       blocks: [
         { p: "The wrist has eight <strong>carpal bones</strong> in two rows, the hand has five <strong>metacarpals</strong>, and the fingers have <strong>14 phalanges</strong> (two in the thumb, three in each finger)." },
+        { fig: { src: "/anatomy/g219.png", alt: "Bones of the left hand, volar surface: Carpals, metacarpals, and phalanges with muscle attachments.", caption: "Bones of the left hand, volar surface.", credit: "Source: Gray's Anatomy (1918), Fig. 219, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray219.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Row", "Bones (lateral to medial)"], [
           ["Proximal", "Scaphoid, lunate, triquetrum, pisiform"],
           ["Distal", "Trapezium, trapezoid, capitate, hamate"],

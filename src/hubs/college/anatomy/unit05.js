@@ -10,6 +10,7 @@ export default {
       id: "s51", num: "5.1", title: "Classification and the Synovial Joint",
       blocks: [
         { p: "Joints (articulations) are classified by structure. <strong>Fibrous</strong> joints are held by dense connective tissue (sutures of the skull, the syndesmosis between tibia and fibula, and gomphoses that hold teeth in sockets). <strong>Cartilaginous</strong> joints are held by cartilage: <em>synchondroses</em> (hyaline cartilage, such as growth plates and the first rib) and <em>symphyses</em> (fibrocartilage, such as the pubic symphysis and intervertebral discs). <strong>Synovial</strong> joints are the free-moving ones." },
+        { fig: { src: "/anatomy/g300.png", alt: "A synovial joint: Synovial stratum, articular cartilage, articular disk, and fibrous stratum.", caption: "A synovial joint.", credit: "Source: Gray's Anatomy (1918), Fig. 300, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray300.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Synovial joint part", "Description and role"], [
           ["Articular cartilage", "Hyaline cartilage covering the bone ends; reduces friction"],
           ["Joint (articular) capsule", "Outer fibrous layer for strength; inner synovial membrane that secretes fluid"],
@@ -40,6 +41,7 @@ export default {
           ["Wrist (radiocarpal)", "Palmar and dorsal radiocarpal ligaments, collateral ligaments", "Scaphoid and lunate articulate with the radius; the triangular fibrocartilage complex (TFCC) cushions the ulnar side"],
         ]),
         { p: "<strong>Bursae</strong> of the shoulder include the subacromial bursa, which sits above the supraspinatus tendon and can be pinched in impingement. At the elbow, the olecranon bursa can swell with fluid after repeated pressure (student's elbow)." },
+        { fig: { src: "/anatomy/g326.png", alt: "The left shoulder and acromioclavicular joints: Coraco-clavicular, coraco-acromial, and coraco-humeral ligaments and the joint capsule.", caption: "The left shoulder and acromioclavicular joints.", credit: "Source: Gray's Anatomy (1918), Fig. 326, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray326.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { recap: [
           "List the ligaments of the shoulder, elbow, and wrist.",
           "Explain the role of the annular ligament and the subacromial bursa.",
@@ -57,6 +59,8 @@ export default {
           ["Syndesmosis", "Anterior and posterior inferior tibiofibular ligaments and interosseous membrane", "High ankle sprains"],
         ]),
         { p: "The <strong>knee ligaments</strong> have a logic. The <strong>ACL</strong> runs from the anterior tibia to the posterior-lateral femur, so it prevents the tibia from sliding forward. The <strong>PCL</strong> does the reverse. The <strong>MCL</strong> blends with the medial meniscus (so a medial meniscus tear often accompanies an MCL injury), while the <strong>LCL</strong> is separate from the lateral meniscus. Bursae around the knee include the prepatellar bursa (housemaid's knee) and the infrapatellar bursa (clergyman's knee)." },
+        { fig: { src: "/anatomy/g339.png", alt: "Right hip joint from the front: Iliofemoral, pubocapsular ligaments, and landmarks of the pelvis and femur.", caption: "Right hip joint from the front.", credit: "Source: Gray's Anatomy (1918), Fig. 339, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray339.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/g348.png", alt: "Left knee joint from behind: Cruciate and collateral ligaments and the menisci.", caption: "Left knee joint from behind.", credit: "Source: Gray's Anatomy (1918), Fig. 348, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray348.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The <strong>deltoid ligament</strong> in the ankle is on the <em>medial</em> side and is very strong, which is why medial ankle sprains are rare. Do not confuse it with the deltoid <em>muscle</em> of the shoulder." },
         { recap: [
           "List the ligaments of the hip, knee, and ankle.",
