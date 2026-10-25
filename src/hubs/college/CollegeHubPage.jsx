@@ -2,15 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { COURSES, FOUNDATION_COURSES, NAVY, NAVY_PALE, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
-
-function CourseIcon({ color }) {
-  return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-      <path d="M12 6.5C12 6.5 9.2 4.5 4 4.5V17.5C9.2 17.5 12 19.5 12 19.5C12 19.5 14.8 17.5 20 17.5V4.5C14.8 4.5 12 6.5 12 6.5Z" stroke={color} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>
-      <path d="M12 6.5V19.5" stroke={color} strokeWidth="1.6" strokeLinecap="round"/>
-    </svg>
-  );
-}
+import CourseIcon from "./CourseIcon";
 
 export default function CollegeHubPage() {
   return (
@@ -27,7 +19,7 @@ export default function CollegeHubPage() {
           const hasContent = Boolean(COURSE_PAGES[c.id]);
           return (
             <Link key={c.id} to={`/college/${c.id}`} style={styles.card} className="college-card">
-              <div style={styles.iconBadge}><CourseIcon color={NAVY} /></div>
+              <div style={styles.iconBadge}><CourseIcon id={c.id} size={28} /></div>
               <div style={styles.cardText}>
                 <div style={styles.cardName}>{c.name}</div>
                 <div style={styles.cardCode}>{c.code}</div>
@@ -43,7 +35,7 @@ export default function CollegeHubPage() {
       <div style={styles.grid}>
         {FOUNDATION_COURSES.map((c) => (
           <Link key={c.id} to={c.apPath} style={{ ...styles.card, ...styles.apCard }} className="college-card">
-            <div style={{ ...styles.iconBadge, background: "#FFF6D9" }}><CourseIcon color={GOLD_DEEP} /></div>
+            <div style={{ ...styles.iconBadge, background: "#FFF6D9" }}><CourseIcon id={c.id} size={28} /></div>
             <div style={styles.cardText}>
               <div style={styles.cardName}>{c.name}</div>
               <div style={styles.cardCode}>{c.code}</div>
@@ -80,7 +72,7 @@ const styles = {
   grid: { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 16, maxWidth: 780, margin: "0 auto 36px" },
   card: { background: "white", borderRadius: 18, padding: "18px 20px", boxShadow: "0 4px 14px rgba(0,40,85,0.08)", display: "flex", alignItems: "center", gap: 14, textDecoration: "none", borderTop: `4px solid ${NAVY}` },
   apCard: { borderTop: `4px solid ${GOLD}` },
-  iconBadge: { width: 44, height: 44, borderRadius: 14, background: NAVY_PALE, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
+  iconBadge: { width: 50, height: 50, borderRadius: 14, background: NAVY_PALE, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
   cardText: { minWidth: 0 },
   cardName: { fontSize: 16.5, fontWeight: 800, color: NAVY, lineHeight: 1.25 },
   cardCode: { fontSize: 12.5, fontWeight: 700, color: GOLD_DEEP, marginTop: 3, letterSpacing: "0.03em" },

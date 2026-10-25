@@ -10,4 +10,8 @@
 //
 // Each course page should use the same shared pieces as the AP subjects
 // (useSectionProgress, ExamEngine, RichText) so progress and practice look and work the same.
-export const COURSE_PAGES = {};
+import { lazy } from "react";
+
+export const COURSE_PAGES = {
+  "medical-terminology": lazy(() => import("./medterm/MedTermPage")),
+};

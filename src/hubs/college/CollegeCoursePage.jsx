@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import NotFoundPage from "../../NotFoundPage";
 import { findCourse, NAVY, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
+import CourseIcon from "./CourseIcon";
 
 export default function CollegeCoursePage() {
   const { courseId } = useParams();
@@ -21,6 +22,7 @@ export default function CollegeCoursePage() {
   return (
     <div style={styles.page}>
       <div style={styles.header}>
+        <div style={styles.iconWrap}><CourseIcon id={course.id} size={40} /></div>
         <h1 style={styles.title}>{course.name} <span style={styles.code}>— {course.code}</span></h1>
         <div style={styles.titleBar} />
       </div>
@@ -38,6 +40,7 @@ export default function CollegeCoursePage() {
 const styles = {
   page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "'Nunito', 'Manrope', sans-serif", padding: "40px 24px", boxSizing: "border-box" },
   header: { textAlign: "center", margin: "24px 0 32px" },
+  iconWrap: { width: 64, height: 64, borderRadius: 20, background: "#E6EBF3", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 14px" },
   title: { fontSize: 30, fontWeight: 800, color: NAVY, margin: 0 },
   code: { color: GOLD_DEEP, fontWeight: 700, whiteSpace: "nowrap" },
   titleBar: { width: 64, height: 4, borderRadius: 2, background: GOLD, margin: "12px auto 0" },
