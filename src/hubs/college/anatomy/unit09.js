@@ -67,6 +67,7 @@ export default {
       id: "s93", num: "9.3", title: "Spinal Cord and Spinal Nerves",
       blocks: [
         { p: "The <strong>spinal cord</strong> runs from the foramen magnum to about L1–L2 (the <strong>conus medullaris</strong>) and is protected by the vertebral column and meninges. It is shorter than the vertebral canal, so lumbar and sacral nerve roots run down as the <strong>cauda equina</strong>. In cross-section it has a butterfly-shaped <strong>gray matter</strong> (cell bodies: dorsal horn for sensory, ventral horn for motor, lateral horn in the thoracic and upper lumbar cord for sympathetic neurons) surrounded by <strong>white matter</strong> (tracts)." },
+        { fig: { src: "/anatomy/os-derm.png", alt: "Dermatomes, front and back: Dermatome maps of the female and male body from the front and back, with spinal levels labelled.", caption: "Dermatomes, front and back.", credit: "Source: Goran tek-en, CC BY-SA 4.0, via <a href='https://commons.wikimedia.org/wiki/File:Dermatomes_labeled,_female-male_front-back_3d-shaded.svg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Tract", "Direction", "Carries"], [
           ["Dorsal column–medial lemniscus", "Ascending", "Fine touch, vibration, proprioception; crosses in the medulla"],
           ["Spinothalamic", "Ascending", "Pain and temperature; crosses in the cord"],
