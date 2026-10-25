@@ -20,24 +20,16 @@ export const COURSES = [
   { id: "organic-chemistry-1", kind: "new", name: "Organic Chemistry 1", code: "CHEM 233", description: "Structure, bonding, and reactions of carbon compounds." },
   { id: "organic-chemistry-2", kind: "new", name: "Organic Chemistry 2", code: "CHEM 234", description: "Further reactions, synthesis, and spectroscopy." },
   // Remaining courses on the plan of study. Placeholders until content is built ("Coming soon").
-  { id: "exph-101", section: "exph", kind: "new", name: "Introduction to Exercise Physiology", code: "EXPH 101", description: "Orientation to the field of exercise physiology." },
   { id: "strength-conditioning", section: "exph", kind: "new", name: "Strength/Conditioning Methods", code: "EXPH 369", description: "Training methods for strength, power, and conditioning." },
-  { id: "writing-exercise-science", section: "exph", kind: "new", name: "Writing for Exercise Science", code: "EXPH 370", description: "Scientific writing for exercise science." },
   { id: "advanced-physiology-1", section: "exph", kind: "new", name: "Advanced Physiology of Exercise 1", code: "EXPH 386", description: "Advanced study of the body's response to exercise." },
   { id: "advanced-physiology-2", section: "exph", kind: "new", name: "Advanced Physiology of Exercise 2", code: "EXPH 387", description: "Continuation of advanced exercise physiology." },
   { id: "motor-learning", section: "exph", kind: "new", name: "Motor Learning & Control", code: "EXPH 425", description: "How movement skills are learned and controlled." },
   { id: "pathophysiology", section: "exph", kind: "new", name: "Pathophysiology", code: "EXPH 460", description: "How disease disrupts normal physiology." },
   { id: "exercise-is-medicine", section: "exph", kind: "new", name: "Exercise is Medicine", code: "EXPH 461", description: "Exercise as prevention and treatment." },
-  { id: "industry-organization", section: "exph", kind: "new", name: "Industry Organization in Exercise Physiology", code: "EXPH 475", description: "How the exercise physiology profession is organized." },
-  { id: "professional-development", section: "exph", kind: "new", name: "Professional Development for Exercise Physiologists", code: "EXPH 477", description: "Preparing for a career in exercise physiology." },
   { id: "biochemistry", section: "support", kind: "new", name: "Introduction to Human Biochemistry", code: "BMM 339", description: "The chemistry of the molecules and pathways of the body." },
   { id: "cell-molecular-biology", section: "support", kind: "new", name: "Cellular and Molecular Biology", code: "BIOL 219", description: "Cell structure, genes, and molecular processes." },
-  { id: "microbiology", section: "support", kind: "new", name: "General Microbiology", code: "AEM 341", description: "Microorganisms and their roles in health and disease." },
   { id: "genetics", section: "support", kind: "new", name: "Principles of Genetics", code: "GEN 371", description: "Inheritance, genes, and variation." },
   { id: "statistics", section: "support", kind: "new", name: "Elementary Statistical Inference", code: "STAT 211", description: "Statistics for interpreting data and research." },
-  { id: "intro-psychology", section: "support", kind: "new", name: "Introduction to Psychology", code: "PSYC 101", description: "The science of behavior and mind." },
-  { id: "human-development", section: "support", kind: "new", name: "Introduction to Human Development", code: "PSYC 241", description: "Human development across the lifespan." },
-  { id: "college-algebra", section: "support", kind: "new", name: "Algebra with Applications", code: "MATH 124", description: "Algebra skills used in the sciences." },
 ];
 
 export const FOUNDATION_COURSES = [
