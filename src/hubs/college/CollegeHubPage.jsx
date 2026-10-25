@@ -13,22 +13,30 @@ export default function CollegeHubPage() {
         <p style={styles.subtitle}>Get a head start on your college courses, at your own pace.</p>
       </div>
 
-      <h2 style={styles.sectionTitle}>Courses</h2>
-      <div style={styles.grid}>
-        {COURSES.map((c) => {
-          const hasContent = Boolean(COURSE_PAGES[c.id]);
-          return (
-            <Link key={c.id} to={`/college/${c.id}`} style={styles.card} className="college-card">
-              <div style={styles.iconBadge}><CourseIcon id={c.id} size={28} /></div>
-              <div style={styles.cardText}>
-                <div style={styles.cardName}>{c.name}</div>
-                <div style={styles.cardCode}>{c.code}</div>
-                {!hasContent && <div style={styles.soon}>Coming soon</div>}
-              </div>
-            </Link>
-          );
-        })}
-      </div>
+      {[
+        ["Courses", (c) => !c.section],
+        ["More Exercise Physiology courses", (c) => c.section === "exph"],
+        ["Science and supporting courses", (c) => c.section === "support"],
+      ].map(([title, test]) => (
+        <React.Fragment key={title}>
+          <h2 style={styles.sectionTitle}>{title}</h2>
+          <div style={styles.grid}>
+            {COURSES.filter(test).map((c) => {
+              const hasContent = Boolean(COURSE_PAGES[c.id]);
+              return (
+                <Link key={c.id} to={`/college/${c.id}`} style={styles.card} className="college-card">
+                  <div style={styles.iconBadge}><CourseIcon id={c.id} size={28} /></div>
+                  <div style={styles.cardText}>
+                    <div style={styles.cardName}>{c.name}</div>
+                    <div style={styles.cardCode}>{c.code}</div>
+                    {!hasContent && <div style={styles.soon}>Coming soon</div>}
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </React.Fragment>
+      ))}
 
       <h2 style={styles.sectionTitle}>Foundation courses</h2>
       <p style={styles.sectionNote}>These are covered in the AP Hub. Tap one to open it there.</p>
@@ -74,7 +82,7 @@ const styles = {
   apCard: { borderTop: `4px solid ${GOLD}` },
   iconBadge: { width: 50, height: 50, borderRadius: 14, background: NAVY_PALE, display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 },
   cardText: { minWidth: 0 },
-  cardName: { fontSize: 16.5, fontWeight: 800, color: NAVY, lineHeight: 1.25 },
+  cardName: { overflowWrap: "anywhere", fontSize: 16.5, fontWeight: 800, color: NAVY, lineHeight: 1.25 },
   cardCode: { fontSize: 12.5, fontWeight: 700, color: GOLD_DEEP, marginTop: 3, letterSpacing: "0.03em" },
   soon: { fontSize: 11.5, color: "#9AA096", marginTop: 5, fontWeight: 600 },
   apTag: { fontSize: 12, color: "#767F73", marginTop: 5, fontWeight: 600 },

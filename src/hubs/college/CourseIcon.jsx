@@ -107,6 +107,33 @@ export default function CourseIcon({ id, color = "#002855", accent = "#EAAA00", 
       </svg>
     );
   }
+  if (id === "statistics") {
+    return (
+      <svg {...c}>
+        <path d="M4 20H20" {...stroke} />
+        <path d="M7 20V13M12 20V6M17 20V10" {...stroke} />
+        <path d="M5 9L10 5L14 8L19 3.5" stroke={accent} strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+      </svg>
+    );
+  }
+  if (id === "cell-molecular-biology" || id === "biochemistry" || id === "genetics" || id === "microbiology") {
+    return (
+      <svg {...c}>
+        <circle cx="12" cy="12" r="8" {...stroke} />
+        <circle cx="12" cy="12" r="3" stroke={accent} strokeWidth="1.8" fill={accent} fillOpacity="0.35" />
+        <circle cx="8" cy="9" r="0.9" fill={color} />
+        <circle cx="16" cy="15" r="0.9" fill={color} />
+      </svg>
+    );
+  }
+  if (id === "intro-psychology" || id === "human-development") {
+    return (
+      <svg {...c}>
+        <path d="M5 6.5C5 5.4 5.9 4.5 7 4.5H17C18.1 4.5 19 5.4 19 6.5V13C19 14.1 18.1 15 17 15H11L7 19V15C5.9 15 5 14.1 5 13V6.5Z" {...stroke} />
+        <path d="M9 9.7H15" stroke={accent} strokeWidth="1.8" strokeLinecap="round" />
+      </svg>
+    );
+  }
   // Fallback: open book
   return (
     <svg {...c}>
