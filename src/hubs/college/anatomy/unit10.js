@@ -10,6 +10,7 @@ export default {
       id: "s101", num: "10.1", title: "Anatomy of the Heart",
       blocks: [
         { p: "The heart is about the size of a fist and lies in the <strong>mediastinum</strong>, tilted so that the <strong>apex</strong> points to the left and downward (about the fifth intercostal space at the mid-clavicular line, where the heartbeat is best felt, the <em>point of maximal impulse</em>). It is surrounded by the <strong>pericardium</strong>: a tough outer fibrous layer and an inner serous sac (parietal and visceral layers, the latter also called the <strong>epicardium</strong>) with a thin film of fluid between them. The heart wall has three layers: <strong>epicardium</strong>, <strong>myocardium</strong> (the muscle), and <strong>endocardium</strong> (the lining)." },
+        { fig: { src: "/anatomy/os-cond.jpg", alt: "Conduction system of the heart: SA node, AV node, bundle of His, bundle branches, and Purkinje fibers.", caption: "Conduction system of the heart.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:2018_Conduction_System_of_Heart.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g498.png", alt: "Internal structure of the heart: Chambers, valves, papillary muscles, and the septa.", caption: "Internal structure of the heart.", credit: "Source: Gray's Anatomy (1918), Fig. 498, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray498.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g970.png", alt: "Front view of the heart and lungs: Great vessels, arch of the aorta, pulmonary artery, atria, and ventricles in relation to the lungs.", caption: "Front view of the heart and lungs.", credit: "Source: Gray's Anatomy (1918), Fig. 970, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray970.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Chamber", "Receives from", "Sends to", "Notes"], [
@@ -32,6 +33,7 @@ export default {
       id: "s102", num: "10.2", title: "The Major Arteries",
       blocks: [
         { p: "The <strong>aorta</strong> leaves the left ventricle and arches over the left bronchus before descending. Its parts are the ascending aorta (coronary arteries), the aortic arch, the thoracic aorta, and the abdominal aorta (which divides into the common iliac arteries at about L4)." },
+        { fig: { src: "/anatomy/os-art.jpg", alt: "Major systemic arteries: Aortic arch branches, abdominal aortic branches, and arteries of the limbs.", caption: "Major systemic arteries.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:2120_Major_Systemic_Artery.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Aortic arch branch", "Supplies"], [
           ["Brachiocephalic trunk (right only)", "Divides into the right common carotid and right subclavian arteries"],
           ["Left common carotid artery", "Left side of the head and neck"],
@@ -57,6 +59,7 @@ export default {
       id: "s103", num: "10.3", title: "The Major Veins and Portal Systems",
       blocks: [
         { p: "Veins generally run beside arteries and carry the same names, but there are crucial differences. Veins have thinner walls, valves, and (in the limbs) a deep and a superficial system. All systemic venous blood returns to the right atrium by the <strong>superior vena cava (SVC)</strong>, formed by the two brachiocephalic veins, and the <strong>inferior vena cava (IVC)</strong>, formed by the two common iliac veins." },
+        { fig: { src: "/anatomy/os-vein.jpg", alt: "Major systemic veins: Superior and inferior vena cava and their major tributaries.", caption: "Major systemic veins.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:2131_Major_Systematic_Veins.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Region", "Major veins"], [
           ["Head and neck", "Internal jugular (main drainage of the brain), external jugular, dural venous sinuses"],
           ["Upper limb", "Deep: radial, ulnar, brachial, axillary; superficial: cephalic, basilic, median cubital"],

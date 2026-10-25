@@ -10,6 +10,7 @@ export default {
       id: "s121", num: "12.1", title: "The Urinary System",
       blocks: [
         { p: "The <strong>kidneys</strong> are bean-shaped, retroperitoneal organs lying on each side of the vertebral column between roughly T12 and L3, with the right kidney slightly lower because of the liver. Each is wrapped in a fibrous <strong>capsule</strong>, surrounded by perirenal fat, and sits within <strong>renal fascia</strong>. The <strong>adrenal glands</strong> sit atop them." },
+        { fig: { src: "/anatomy/os-kid.jpg", alt: "Position of the kidneys: Kidneys, ureters, liver, and 12th rib in relation to the vertebral column.", caption: "Position of the kidneys.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:2608_Kidney_Position_in_Abdomen.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g1121.png", alt: "Posterior abdominal wall: Kidneys, aorta, inferior vena cava, and their branches.", caption: "Posterior abdominal wall.", credit: "Source: Gray's Anatomy (1918), Fig. 1121, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1121.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Kidney region", "Description"], [
           ["Renal cortex", "Outer layer containing the glomeruli and convoluted tubules"],

@@ -64,6 +64,7 @@ export default {
       id: "s23", num: "2.3", title: "The Vertebral Column",
       blocks: [
         { p: "The vertebral column has 7 cervical, 12 thoracic, and 5 lumbar vertebrae, plus the fused sacrum (5) and coccyx (3–5). A typical vertebra has a <strong>body</strong> (weight bearing), a <strong>vertebral arch</strong> (pedicles and laminae) enclosing the vertebral foramen, a <strong>spinous process</strong>, two <strong>transverse processes</strong>, and <strong>articular processes</strong> with facets." },
+        { fig: { src: "/anatomy/os-vert.jpg", alt: "The vertebral column: Cervical, thoracic, lumbar, and sacrococcygeal regions and curves.", caption: "The vertebral column.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:715_Vertebral_Column.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g86.png", alt: "Atlas (C1): First cervical vertebra viewed from above.", caption: "Atlas (C1).", credit: "Source: Gray's Anatomy (1918), Fig. 86, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray86.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g88.png", alt: "Axis (C2): Second cervical vertebra, with the odontoid process (dens) that the atlas rotates around.", caption: "Axis (C2).", credit: "Source: Gray's Anatomy (1918), Fig. 88, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray88.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Region", "Distinguishing features"], [
@@ -86,6 +87,7 @@ export default {
       id: "s24", num: "2.4", title: "The Thoracic Cage",
       blocks: [
         { p: "The thoracic cage protects the heart and lungs and moves with every breath. It is made of the <strong>sternum</strong>, <strong>12 pairs of ribs</strong>, the costal cartilages, and the 12 thoracic vertebrae." },
+        { fig: { src: "/anatomy/os-axial.jpg", alt: "Axial and appendicular skeleton: Anterior and posterior views with the axial skeleton and appendicular skeleton colour-coded and the thoracic cage, sternum, and ribs labelled.", caption: "Axial and appendicular skeleton.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:701_Axial_Skeleton-01.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Part", "Description"], [
           ["Sternum", "Manubrium (top; articulates with the clavicles and first ribs), body, and xiphoid process (bottom, cartilage that ossifies with age)"],
           ["True ribs (1–7)", "Attach directly to the sternum by their own costal cartilage"],

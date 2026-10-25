@@ -10,6 +10,9 @@ export default {
       id: "s11", num: "1.1", title: "Regions, Cavities, and Membranes",
       blocks: [
         { p: "The body has two broad divisions. The <strong>axial</strong> region includes the head, neck, and trunk. The <strong>appendicular</strong> region includes the limbs and the girdles that attach them. For orientation, the trunk is divided into the thorax (chest), abdomen, and pelvis, and each of those has its own named subregions that clinicians use constantly." },
+        { fig: { src: "/anatomy/os-dir.jpg", alt: "Directional terms: Superior, inferior, anterior, posterior, medial, lateral, proximal, and distal shown on the human body.", caption: "Directional terms.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:Directional_Terms.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/os-planes.jpg", alt: "Planes of the body: The sagittal, frontal (coronal), and transverse planes.", caption: "Planes of the body.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 4.0), via <a href='https://commons.wikimedia.org/wiki/File:Planes_of_Body_labeled.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/os-cav.jpg", alt: "Body cavities: Dorsal (cranial and vertebral) and ventral (thoracic and abdominopelvic) cavities in lateral and anterior views.", caption: "Body cavities.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 4.0), via <a href='https://commons.wikimedia.org/wiki/File:Dorsal_Ventral_Body_Cavities.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Cavity", "Location", "Main contents"], [
           ["Cranial cavity", "Inside the skull", "Brain"],
           ["Vertebral (spinal) canal", "Inside the vertebral column", "Spinal cord"],
@@ -81,6 +84,8 @@ export default {
       id: "s14", num: "1.4", title: "The Integumentary System",
       blocks: [
         { p: "The skin is the body's largest organ, covering about 1.5–2 square meters in an adult. It protects against abrasion, microbes, and ultraviolet light, prevents water loss, regulates temperature, senses touch, and makes vitamin D." },
+        { fig: { src: "/anatomy/os-epi.jpg", alt: "Layers of the epidermis: Stratum basale, spinosum, granulosum, lucidum, and corneum in thick skin.", caption: "Layers of the epidermis.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:502_Layers_of_epidermis.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        { fig: { src: "/anatomy/os-derm.jpg", alt: "Layers of the dermis: Papillary and reticular layers of the dermis.", caption: "Layers of the dermis.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:506_Layers_of_the_Dermis.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g944.png", alt: "Section of the skin: Layers of the skin: epidermis strata, dermis, hair follicle, sebaceous gland, and arrector pili muscle.", caption: "Section of the skin.", credit: "Source: Gray's Anatomy (1918), Fig. 944, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray944.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Layer", "Description", "Key structures"], [
           ["Epidermis", "Outer layer; stratified squamous keratinized epithelium; avascular", "Keratinocytes, melanocytes (pigment), Langerhans cells (immune), Merkel cells (touch)"],

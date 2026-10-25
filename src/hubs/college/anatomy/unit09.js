@@ -39,6 +39,7 @@ export default {
       id: "s92", num: "9.2", title: "Blood Supply and the Cranial Nerves",
       blocks: [
         { p: "The brain receives about 15–20% of the cardiac output through two pairs of arteries: the <strong>internal carotid arteries</strong> (anterior circulation) and the <strong>vertebral arteries</strong> (which join to form the <strong>basilar artery</strong>, the posterior circulation). They connect in the <strong>circle of Willis</strong>, a ring of anastomoses at the base of the brain that provides a backup route if one vessel is blocked. A <strong>stroke</strong> is either ischemic (blocked vessel, about 85%) or hemorrhagic (ruptured vessel). The middle cerebral artery is most often affected, producing contralateral weakness and sensory loss in the face and arm and (on the left) aphasia." },
+        { fig: { src: "/anatomy/os-cn.jpg", alt: "The cranial nerves: Inferior view of the brain with cranial nerves I–XII labelled.", caption: "The cranial nerves.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 4.0), via <a href='https://commons.wikimedia.org/wiki/File:1320_The_Cranial_Nerves.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["CN", "Name", "Type", "Function"], [
           ["I", "Olfactory", "Sensory", "Smell"],
           ["II", "Optic", "Sensory", "Vision"],

@@ -10,6 +10,7 @@ export default {
       id: "s41", num: "4.1", title: "The Pelvic Girdle and Pelvis",
       blocks: [
         { p: "The <strong>pelvic girdle</strong> is two <strong>hip bones</strong> (os coxae), each fused from the <strong>ilium</strong>, <strong>ischium</strong>, and <strong>pubis</strong>. They join each other at the <strong>pubic symphysis</strong> in front and the <strong>sacrum</strong> behind at the <strong>sacroiliac joints</strong>. The pelvis (the girdle plus the sacrum and coccyx) transfers body weight from the spine to the legs and protects the pelvic organs." },
+        { fig: { src: "/anatomy/os-pelv.jpg", alt: "Male and female pelvic girdle: Comparison of the male and female pelvis.", caption: "Male and female pelvic girdle.", credit: "Source: OpenStax Anatomy and Physiology (CC BY 3.0), via <a href='https://commons.wikimedia.org/wiki/File:809_Male_Female_Pelvic_Girdle.jpg' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g241.png", alt: "Male pelvis: Ilium, ischium, pubis, sacrum, and pubic arch.", caption: "Male pelvis.", credit: "Source: Gray's Anatomy (1918), Fig. 241, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray241.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         T(["Part", "Landmarks"], [
           ["Ilium", "Iliac crest (top rim; the 'hip' you can feel), anterior superior iliac spine (ASIS), posterior superior iliac spine (PSIS), iliac fossa, greater sciatic notch"],
