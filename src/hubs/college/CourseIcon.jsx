@@ -54,12 +54,12 @@ export default function CourseIcon({ id, color = "#002855", accent = "#EAAA00", 
     );
   }
   if (id === "exercise-nutrition") {
-    // apple
+    // apple with a bite out of the right side
     return (
       <svg {...c}>
-        <path d="M12 8.2C10.5 7 7 7 5.7 10C4.4 13 6 19 8.5 20C10 20.5 11 19.8 12 19.8C13 19.8 14 20.5 15.5 20C18 19 19.6 13 18.3 10C17 7 13.5 7 12 8.2Z" {...stroke} />
-        <path d="M12 8.2C12 6.5 12.8 5 14.5 4" {...stroke} />
-        <path d="M12.8 5.9C13.6 4.9 15 4.6 16.2 5.2C15.6 6.3 14.2 6.6 12.8 5.9Z" stroke={accent} strokeWidth="1.5" strokeLinejoin="round" fill={accent} fillOpacity="0.35" />
+        <path d="M12 8.4C10.2 7 6.8 7 5.6 10C4.4 13 5.8 18.8 8.3 20.1C9.8 20.9 10.8 20 12 20C13.2 20 14.2 20.9 15.7 20.1C17.1 19.4 18.2 17.8 18.7 16.2A2.7 2.7 0 0 1 17.8 10.6C16.8 7.6 13.8 7 12 8.4Z" {...stroke} />
+        <path d="M12 8.4C12 6.6 12.8 5 14.4 4" {...stroke} />
+        <path d="M12.9 6C13.7 4.9 15.2 4.6 16.4 5.2C15.8 6.4 14.3 6.7 12.9 6Z" stroke={accent} strokeWidth="1.5" strokeLinejoin="round" fill={accent} fillOpacity="0.35" />
       </svg>
     );
   }
