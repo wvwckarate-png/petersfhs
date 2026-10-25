@@ -726,12 +726,12 @@ export default function CourseHubTemplate({ course, content }) {
 // ---------- Styles ----------
 
 const F = {
-  card: { width: "100%", minHeight: 260, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 12, textAlign: "center", background: "#FFFFFF", border: "1px solid #ECEAE3", borderTop: "5px solid #EAAA00", borderRadius: 20, padding: "34px 28px", boxShadow: "0 4px 14px rgba(0,40,85,0.08)", cursor: "pointer", position: "relative", fontFamily: "inherit", color: "#2E332E" },
+  card: { width: "100%", maxWidth: 460, margin: "0 auto", minHeight: 300, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 12, textAlign: "center", background: "#FFFFFF", border: "1px solid #ECEAE3", borderTop: "5px solid #EAAA00", borderRadius: 20, padding: "34px 28px", boxShadow: "0 4px 14px rgba(0,40,85,0.08)", cursor: "pointer", position: "relative", fontFamily: "inherit", color: "#2E332E" },
   cardBack: { background: "#E6EBF3", borderTop: "5px solid #002855" },
   cardSide: { fontFamily: "'IBM Plex Mono',monospace", fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: "#8A6500", fontWeight: 700 },
   cardTerm: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 30, color: "#002855", lineHeight: 1.2 },
-  cardMeaning: { fontFamily: "'Manrope',sans-serif", fontWeight: 700, fontSize: 21, color: "#2E332E", lineHeight: 1.4, maxWidth: 520 },
-  cardNote: { fontSize: 14.5, color: "#5A6B80", maxWidth: 520, lineHeight: 1.5 },
+  cardMeaning: { fontFamily: "'Manrope',sans-serif", fontWeight: 700, fontSize: 20, color: "#2E332E", lineHeight: 1.4, maxWidth: 380 },
+  cardNote: { fontSize: 14.5, color: "#5A6B80", maxWidth: 380, lineHeight: 1.5 },
   cardHint: { fontSize: 12, color: "#9AA096", marginTop: 6 },
   knownBadge: { position: "absolute", top: 14, right: 16, fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 11.5, background: "#E1EEDD", color: "#3D6B34", borderRadius: 100, padding: "4px 10px" },
   actions: { display: "flex", gap: 12, justifyContent: "center", marginTop: 18, flexWrap: "wrap" },
