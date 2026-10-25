@@ -20,12 +20,9 @@ export const COURSES = [
   { id: "organic-chemistry-1", kind: "new", name: "Organic Chemistry 1", code: "CHEM 233", description: "Structure, bonding, and reactions of carbon compounds." },
   { id: "organic-chemistry-2", kind: "new", name: "Organic Chemistry 2", code: "CHEM 234", description: "Further reactions, synthesis, and spectroscopy." },
   // Remaining courses on the plan of study. Placeholders until content is built ("Coming soon").
-  { id: "strength-conditioning", section: "exph", kind: "new", name: "Strength/Conditioning Methods", code: "EXPH 369", description: "Training methods for strength, power, and conditioning." },
   { id: "advanced-physiology-1", section: "exph", kind: "new", name: "Advanced Physiology of Exercise 1", code: "EXPH 386", description: "Advanced study of the body's response to exercise." },
   { id: "advanced-physiology-2", section: "exph", kind: "new", name: "Advanced Physiology of Exercise 2", code: "EXPH 387", description: "Continuation of advanced exercise physiology." },
-  { id: "motor-learning", section: "exph", kind: "new", name: "Motor Learning & Control", code: "EXPH 425", description: "How movement skills are learned and controlled." },
   { id: "pathophysiology", section: "exph", kind: "new", name: "Pathophysiology", code: "EXPH 460", description: "How disease disrupts normal physiology." },
-  { id: "exercise-is-medicine", section: "exph", kind: "new", name: "Exercise is Medicine", code: "EXPH 461", description: "Exercise as prevention and treatment." },
   { id: "biochemistry", section: "support", kind: "new", name: "Introduction to Human Biochemistry", code: "BMM 339", description: "The chemistry of the molecules and pathways of the body." },
   { id: "cell-molecular-biology", section: "support", kind: "new", name: "Cellular and Molecular Biology", code: "BIOL 219", description: "Cell structure, genes, and molecular processes." },
   { id: "genetics", section: "support", kind: "new", name: "Principles of Genetics", code: "GEN 371", description: "Inheritance, genes, and variation." },
