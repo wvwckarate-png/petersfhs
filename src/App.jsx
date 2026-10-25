@@ -13,6 +13,8 @@ const EnvSciencePage = lazy(() => import("./hubs/apes/EnvSciencePage"));
 const UsHistoryPage = lazy(() => import("./hubs/apush/USHistoryPage"));
 const EnglishLangPage = lazy(() => import("./hubs/englang/EnglishLangPage"));
 const EngLitPage = lazy(() => import("./hubs/aplit/EngLitPage"));
+const CollegeHubPage = lazy(() => import("./hubs/college/CollegeHubPage"));
+const CollegeCoursePage = lazy(() => import("./hubs/college/CollegeCoursePage"));
 const SatHubPage = lazy(() => import("./hubs/sat/SatHubPage"));
 const VocabPage = lazy(() => import("./hubs/sat/vocab/VocabPage"));
 const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"));
@@ -34,6 +36,8 @@ export default function App() {
         <Route path="/ap/ushistory" element={<UsHistoryPage />} />
         <Route path="/ap/englang" element={<EnglishLangPage />} />
         <Route path="/ap/englit" element={<EngLitPage />} />
+        <Route path="/college" element={<CollegeHubPage />} />
+        <Route path="/college/:courseId" element={<CollegeCoursePage />} />
         <Route path="/sat" element={<SatHubPage />} />
         <Route path="/sat/vocab" element={<VocabPage />} />
         <Route path="/sat/vocab-questions" element={<QuestionBankPage />} />

@@ -18,6 +18,14 @@ const hubs = [
     colorDeep: "#2A2350",
     colorPale: "#EFEDFA",
   },
+  {
+    path: "/college",
+    name: "College Hub",
+    description: "Get a head start on college courses at your own pace.",
+    color: "#EAAA00",
+    colorDeep: "#002855",
+    colorPale: "#E6EBF3",
+  },
 ];
 
 function HubIcon({ path, color }) {
@@ -38,6 +46,15 @@ function HubIcon({ path, color }) {
         <path d="M3.5 9.5H20.5" stroke={color} strokeWidth="1.7" strokeLinecap="round"/>
         <path d="M4.5 9.5V18.5M8.5 9.5V18.5M12 9.5V18.5M15.5 9.5V18.5M19.5 9.5V18.5" stroke={color} strokeWidth="1.5" strokeLinecap="round" opacity="0.6"/>
         <path d="M3 19.5H21" stroke={color} strokeWidth="1.9" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (path === "/college") {
+    return (
+      <svg {...common}>
+        <path d="M12 4L22 9L12 14L2 9L12 4Z" stroke={color} strokeWidth="1.7" strokeLinejoin="round"/>
+        <path d="M6 11.5V16C6 16 8.5 19 12 19C15.5 19 18 16 18 16V11.5" stroke={color} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M22 9V15" stroke={color} strokeWidth="1.7" strokeLinecap="round"/>
       </svg>
     );
   }
@@ -85,7 +102,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v5.5.3</footer>
+        <footer style={styles.footer}>v5.6.0</footer>
       </div>
 
       <style>{`
