@@ -14,4 +14,10 @@ import { lazy } from "react";
 
 export const COURSE_PAGES = {
   "medical-terminology": lazy(() => import("./medterm/MedTermPage")),
+  "elementary-physiology": lazy(() => import("./physiology/PhysiologyPage")),
+  "kinesiology": lazy(() => import("./kinesiology/KinesiologyPage")),
+  "anatomy": lazy(() => import("./anatomy/AnatomyPage")),
+  "exercise-nutrition": lazy(() => import("./nutrition/NutritionPage")),
+  "organic-chemistry-1": lazy(() => import("./orgchem1/OrgChem1Page")),
+  "organic-chemistry-2": lazy(() => import("./orgchem2/OrgChem2Page")),
 };
