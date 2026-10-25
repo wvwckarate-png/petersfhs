@@ -30,11 +30,16 @@ export default function CourseIcon({ id, color = "#002855", accent = "#EAAA00", 
     );
   }
   if (id === "anatomy") {
-    // long bone
+    // cartoon long bone: cream fill, tan shading along the lower edge, navy outline
+    const d = "M7.97 10.4H16.03A2.4 2.4 0 1 1 19.73 12A2.4 2.4 0 1 1 16.03 13.6H7.97A2.4 2.4 0 1 1 4.27 12A2.4 2.4 0 1 1 7.97 10.4Z";
     return (
       <svg {...c}>
-        <path d="M7.2 3.8C5.6 3.3 4.2 4.6 4.6 6C3.4 6.4 3 8 4 8.9C4.6 9.4 5.4 9.5 6.1 9.2L14.8 17.9C14.5 18.6 14.6 19.4 15.1 20C16 21 17.6 20.6 18 19.4C19.4 19.8 20.7 18.4 20.2 17C21 16.4 21.1 15.1 20.2 14.2C19.6 13.6 18.8 13.5 18.1 13.8L9.4 5.1C9.7 4.4 9.6 3.6 9.1 3.1C8.6 2.6 7.9 3.6 7.2 3.8Z" {...stroke} />
-        <path d="M10.2 13.8L12.4 11.6" stroke={accent} strokeWidth="1.8" strokeLinecap="round" />
+        <clipPath id="college-bone-clip"><path d={d} /></clipPath>
+        <g transform="translate(12 12) rotate(-45) scale(1.2) translate(-12 -12)">
+          <path d={d} fill="#F3E3C3" />
+          <rect x="0" y="12.5" width="24" height="6" fill="#D9BC8C" clipPath="url(#college-bone-clip)" />
+          <path d={d} stroke={color} strokeWidth="1.2" strokeLinejoin="round" />
+        </g>
       </svg>
     );
   }
@@ -59,14 +64,16 @@ export default function CourseIcon({ id, color = "#002855", accent = "#EAAA00", 
     );
   }
   if (id === "organic-chemistry-1" || id === "organic-chemistry-2") {
-    // benzene ring with the course number in the upper right
+    // benzene ring (alternating double bonds) with the course number in the upper right
     const n = id.endsWith("2") ? "2" : "1";
     return (
       <svg {...c}>
-        <path d="M10.2 7.4L15.8 10.6V17L10.2 20.2L4.6 17V10.6L10.2 7.4Z" {...stroke} />
-        <path d="M10.2 10.1L13.5 12V15.6L10.2 17.5L6.9 15.6V12L10.2 10.1Z" stroke={color} strokeWidth="1.2" strokeLinejoin="round" opacity="0.45" />
-        <circle cx="17.8" cy="6.2" r="5.2" fill={accent} />
-        <text x="17.8" y="9" textAnchor="middle" fontSize="8.4" fontWeight="800" fontFamily="'Manrope', 'Nunito', sans-serif" fill={color}>{n}</text>
+        <path d="M10 6.8L16.41 10.5V17.9L10 21.6L3.59 17.9V10.5Z" {...stroke} />
+        <path d="M14.62 12.28V16.12" {...stroke} />
+        <path d="M9.35 19.16L6.03 17.23" {...stroke} />
+        <path d="M6.03 11.17L9.35 9.24" {...stroke} />
+        <circle cx="19.4" cy="4.8" r="4.4" fill={accent} />
+        <text x="19.4" y="7.4" textAnchor="middle" fontSize="7.4" fontWeight="800" fontFamily="'Manrope', 'Nunito', sans-serif" fill={color}>{n}</text>
       </svg>
     );
   }
