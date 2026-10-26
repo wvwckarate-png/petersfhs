@@ -16,7 +16,7 @@ const lines2 = (t) => { if (t.length <= 12 || !t.includes(" ")) return [t]; cons
 export function KeysRing({ keys }) {
   const [a, b, c] = keys;
   const P = [[200, 52], [275, 181], [125, 181]];
-  const label = { fill: "#ECE6D8", fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 18, textAnchor: "middle" };
+  const label = { fill: "#ECE6D8", fontFamily: "'Manrope',sans-serif", fontWeight: 700, fontSize: 18, textAnchor: "middle" };
   const text = (t, x, y) => lines2(t).map((ln, i) => <text key={t + i} x={x} y={y + i * 21} {...label}>{ln}</text>);
   return (
     <svg viewBox="0 0 400 260" width="100%" style={{ maxWidth: 380 }} role="img" aria-label={`Three keys: ${keys.join(", ")}`}>
@@ -40,7 +40,7 @@ export function SystemDiagram({ nodes }) {
     return (
       <g key={i}>
         <path d={`M${s[0]} ${s[1]}L${e[0]} ${e[1]}`} stroke="#D8472E" strokeWidth="3" strokeLinecap="round" markerEnd="url(#jjarr)" />
-        <text x={(s[0] + e[0]) / 2 + nx * 15} y={(s[1] + e[1]) / 2 + ny * 15 + 5} textAnchor="middle" fill="#7FB0F0" fontFamily="'Nunito',sans-serif" fontWeight="800" fontSize="17">{i + 1}</text>
+        <text x={(s[0] + e[0]) / 2 + nx * 15} y={(s[1] + e[1]) / 2 + ny * 15 + 5} textAnchor="middle" fill="#7FB0F0" fontFamily="'Manrope',sans-serif" fontWeight="800" fontSize="17">{i + 1}</text>
       </g>
     );
   };
@@ -56,7 +56,7 @@ export function SystemDiagram({ nodes }) {
         return (
           <g key={n.label}>
             <circle cx={x} cy={y} r={R} fill={NODE_FILL[i]} stroke="#ECE6D8" strokeWidth="1.6" />
-            {lines.map((ln, k) => <text key={k} x={x} y={y + 5 + (k - (lines.length - 1) / 2) * 14} textAnchor="middle" fill="#fff" fontFamily="'Nunito',sans-serif" fontWeight="700" fontSize={ln.length > 8 ? 11 : 13}>{ln}</text>)}
+            {lines.map((ln, k) => <text key={k} x={x} y={y + 5 + (k - (lines.length - 1) / 2) * 14} textAnchor="middle" fill="#fff" fontFamily="'Manrope',sans-serif" fontWeight="700" fontSize={ln.length > 8 ? 11 : 13}>{ln}</text>)}
           </g>
         );
       })}
