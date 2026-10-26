@@ -114,6 +114,40 @@ function shuffled(arr) {
   return a;
 }
 
+// Card example: structures sit in a centered row (with →, vs, and similar connectors between them); the words go below.
+const EX_TOKEN = /\{\{(mol|rxn|svg):([\s\S]+?)\}\}/g;
+const EX_CONNECTOR = /^\s*(vs\.?|→|↔|⇌|\+|>|≫|\/|,)?\s*$/;
+function CardExample({ text, structs, RichText }) {
+  const figs = [], words = [];
+  let last = 0, m, pendingConn = "";
+  EX_TOKEN.lastIndex = 0;
+  const pushText = (t) => {
+    if (!t) return;
+    if (figs.length && EX_CONNECTOR.test(t)) { if (t.trim()) pendingConn = t.trim(); return; }
+    words.push(t);
+  };
+  while ((m = EX_TOKEN.exec(text))) {
+    pushText(text.slice(last, m.index));
+    if (figs.length && pendingConn) figs.push({ conn: pendingConn });
+    pendingConn = "";
+    figs.push({ svg: structs?.[`${m[1]}:${m[2]}`] });
+    last = m.index + m[0].length;
+  }
+  pushText(text.slice(last));
+  return (
+    <>
+      {figs.length > 0 && (
+        <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: 6, margin: "2px 0 8px" }}>
+          {figs.map((f, i) => f.conn
+            ? <span key={i} style={{ color: "#8A6500", fontWeight: 800, fontSize: 16 }}>{f.conn}</span>
+            : f.svg ? <span key={i} className="mol-inline" dangerouslySetInnerHTML={{ __html: f.svg }} /> : <span key={i} className="mol-missing">[structure]</span>)}
+        </div>
+      )}
+      {words.length > 0 && <div><RichText text={words.join("").replace(/\s+/g, " ").trim()} /></div>}
+    </>
+  );
+}
+
 export default function CourseHubTemplate({ course, content }) {
   const { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS, STRUCTS } = content;
   const RichText = useMemo(() => function RichText(props) { return <StructText text={props.text} structs={STRUCTS} />; }, [STRUCTS]);
@@ -457,6 +491,7 @@ export default function CourseHubTemplate({ course, content }) {
                       <div style={F.cardSide}>{flipped ? "Meaning" : "Term"}</div>
                       <div style={flipped ? F.cardMeaning : F.cardTerm}><RichText text={flipped ? card.meaning : card.term} /></div>
                       {flipped && card.note && <div style={F.cardNote}>{card.note}</div>}
+                      {flipped && card.ex && <div style={F.cardEx}><div style={F.cardExLabel}>Example</div><CardExample text={card.ex} structs={STRUCTS} RichText={RichText} /></div>}
                       <div style={F.cardHint}>{flipped ? "Tap to flip back" : "Tap to reveal the meaning"}</div>
                       {mark === "know" && <div style={F.knownBadge}>✓ known</div>}
                     </button>
@@ -758,6 +793,8 @@ const F = {
   cardTerm: { fontFamily: "'Manrope',sans-serif", fontWeight: 800, fontSize: 30, color: "#002855", lineHeight: 1.2 },
   cardMeaning: { fontFamily: "'Manrope',sans-serif", fontWeight: 700, fontSize: 20, color: "#2E332E", lineHeight: 1.4, maxWidth: 380 },
   cardNote: { fontSize: 14.5, color: "#5A6B80", maxWidth: 380, lineHeight: 1.5 },
+  cardEx: { width: "100%", maxWidth: 400, textAlign: "center", background: "#FFFFFF", border: "1px solid #D5DEEC", borderRadius: 14, padding: "10px 14px 12px", fontSize: 14, color: "#2E332E", lineHeight: 1.5, fontFamily: "'Nunito',sans-serif", fontWeight: 600 },
+  cardExLabel: { fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: "#8A6500", fontWeight: 800, marginBottom: 4, fontFamily: "'IBM Plex Mono',monospace" },
   cardHint: { fontSize: 12, color: "#9AA096", marginTop: 6 },
   knownBadge: { position: "absolute", top: 14, right: 16, fontFamily: "'Nunito',sans-serif", fontWeight: 800, fontSize: 11.5, background: "#E1EEDD", color: "#3D6B34", borderRadius: 100, padding: "4px 10px" },
   actions: { display: "flex", gap: 12, justifyContent: "center", marginTop: 18, flexWrap: "wrap" },

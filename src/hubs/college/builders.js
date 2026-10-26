@@ -143,7 +143,7 @@ export function buildCourseContent(courseLabel, units, structs = {}) {
     const qs = buildQuestions(u.id, u.questions);
     UNITS.push({ id: u.id, name: u.name, tag: `${u.cards.length} cards` });
     QUESTIONS[u.id] = qs;
-    FLASHCARDS[u.id] = u.cards.map(([term, meaning, note]) => (note ? { term, meaning, note } : { term, meaning }));
+    FLASHCARDS[u.id] = u.cards.map(([term, meaning, note, ex]) => ({ term, meaning, ...(note ? { note } : {}), ...(ex ? { ex } : {}) }));
     STUDY_CONTENT[u.id] = expandStructs(buildStudyHtml(courseLabel, u, qs.length), structs);
   });
   return { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS, STRUCTS: structs };
