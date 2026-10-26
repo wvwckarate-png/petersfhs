@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import { COURSES, FOUNDATION_COURSES, NAVY, NAVY_PALE, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
 import CourseIcon from "./CourseIcon";
+import BrandLogo from "../../components/BrandLogo";
 
 export default function CollegeHubPage() {
   return (
     <div style={styles.page}>
+      <div style={{ textAlign: "center", marginBottom: 4 }}><BrandLogo height={72} /></div>
       <div style={styles.header}>
         <h1 style={styles.title}>College Hub</h1>
         <div style={styles.titleBar} />

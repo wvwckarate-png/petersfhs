@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { C, CSS } from "./theme";
+import BrandLogo from "../../components/BrandLogo";
+import { CSS } from "./theme";
 import { SankakuMark } from "./Mark";
 import { useStore } from "./store";
 import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, ProgressView, RulesView } from "./views";
@@ -50,7 +50,7 @@ export default function JiuJitsuPage() {
           <nav className="jj-nav" aria-label="Jiu-Jitsu hub">
             {NAV.map(([h, n]) => <a key={h} href={h} className={activeKey === h ? "on" : ""}>{n}</a>)}
           </nav>
-          <Link to="/" style={{ color: C.muted, fontSize: 13, fontWeight: 700 }}>← Home</Link>
+          <BrandLogo height={40} invert />
         </div>
         <div className="jj-belt" aria-hidden="true" />
       </header>

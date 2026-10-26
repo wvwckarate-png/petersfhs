@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { storage } from "../../../lib/storage";
 import { Link } from "react-router-dom";
 import { DIFFICULTIES, DECKS, QUESTIONS } from "./content";
+import BrandLogo from "../../../components/BrandLogo";
 
 const PROGRESS_KEY = "vocab-question-progress-v1";
 const NAV_KEY = "vocab-question-nav-v1";
@@ -116,6 +117,7 @@ export default function QuestionBankPage() {
       <div style={S.topbar}>
         <div style={S.topbarInner}>
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M3 9.5L12 4L21 9.5" stroke="#2A2350" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" fill="none"/>

@@ -4,6 +4,7 @@ import NotFoundPage from "../../NotFoundPage";
 import { findCourse, NAVY, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
 import CourseIcon from "./CourseIcon";
+import BrandLogo from "../../components/BrandLogo";
 
 export default function CollegeCoursePage() {
   const { courseId } = useParams();
@@ -21,6 +22,7 @@ export default function CollegeCoursePage() {
 
   return (
     <div style={styles.page}>
+      <div style={{ textAlign: "center", marginBottom: 4 }}><BrandLogo height={72} /></div>
       <div style={styles.header}>
         <div style={styles.iconWrap}><CourseIcon id={course.id} size={40} /></div>
         <h1 style={styles.title}>{course.name} <span style={styles.code}>— {course.code}</span></h1>

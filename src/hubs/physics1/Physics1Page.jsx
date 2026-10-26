@@ -8,6 +8,7 @@ import { EXAM_FORMAT, EXAMS } from "./exams";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import ExamScoresCard from "../shared/ExamScoresCard";
+import BrandLogo from "../../components/BrandLogo";
 
 const PHYSICS1_COLORS = {
   sage: "#7BA3B8", sageDeep: "#4F7A8F", sagePale: "#E5EFF3", sagePill: "#CCE1EA",
@@ -228,6 +229,7 @@ export default function Physics1Page() {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M3 21V3" stroke="#4F7A8F" strokeWidth="1.8" strokeLinecap="round"/>

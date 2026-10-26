@@ -5,6 +5,7 @@ import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import BrandLogo from "../../components/BrandLogo";
 
 const USHISTORY_COLORS = {
   sage: "#A8434B", sageDeep: "#7A2E34", sagePale: "#F5E6E7", sagePill: "#EBC9CB",
@@ -213,6 +214,7 @@ export default function UsHistoryPage() {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M6 3V21" stroke="#7A2E34" strokeWidth="1.8" strokeLinecap="round"/>

@@ -5,6 +5,7 @@ import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import BrandLogo from "../../components/BrandLogo";
 
 const ENVSCI_COLORS = {
   sage: "#6B8F5E", sageDeep: "#4A6B3F", sagePale: "#E7EFE4", sagePill: "#D0E0C9",
@@ -213,6 +214,7 @@ export default function EnvSciencePage() {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M12 3L17 11H14L18 17H6L10 11H7L12 3Z" stroke="#4A6B3F" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>

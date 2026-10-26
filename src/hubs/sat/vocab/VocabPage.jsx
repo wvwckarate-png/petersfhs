@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { storage } from "../../../lib/storage";
 import { Link } from "react-router-dom";
 import { DIFFICULTIES, DECKS, WORDS } from "./content";
+import BrandLogo from "../../../components/BrandLogo";
 
 const PROGRESS_KEY = "vocab-word-progress-v1";
 const NAV_KEY = "vocab-last-nav-v1";
@@ -219,6 +220,7 @@ export default function VocabPage() {
       <div style={S.topbar}>
         <div style={S.topbarInner}>
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M6 3.5H16.5C17.3 3.5 18 4.2 18 5V19.5C18 20.3 17.3 21 16.5 21H6C5.4 21 5 20.6 5 20V5C5 4.2 5.4 3.5 6 3.5Z" stroke="#2A2350" strokeWidth="1.6" strokeLinejoin="round"/>

@@ -9,6 +9,7 @@ import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import ExamScoresCard from "../shared/ExamScoresCard";
 import FRQ_META from "./frqMeta";
+import BrandLogo from "../../components/BrandLogo";
 
 const FrqExamsView = lazy(() => import("./FrqExamsView"));
 
@@ -242,6 +243,7 @@ export default function BiologyPage() {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M19 5C19 5 19.5 13 13.5 18C8.5 22 4 19.5 4 19.5C4 19.5 3 13.5 8 9C12.5 5 19 5 19 5Z" stroke="#6B5A80" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/>

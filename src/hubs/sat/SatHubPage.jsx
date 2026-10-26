@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import BrandLogo from "../../components/BrandLogo";
 
 const subjects = [
   { id: "vocab", name: "SAT Vocabulary Flash Cards", color: "#3D3470", ready: true },
@@ -36,6 +37,7 @@ function SubjectIcon({ id, color }) {
 export default function SatHubPage() {
   return (
     <div style={styles.page}>
+      <div style={{ textAlign: "center", marginBottom: 4 }}><BrandLogo height={72} /></div>
       <div style={styles.header}>
         <h1 style={styles.title}>SAT Hub</h1>
         <p style={styles.subtitle}>Choose a subject to start studying.</p>

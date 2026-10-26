@@ -5,6 +5,7 @@ import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import BrandLogo from "../../components/BrandLogo";
 
 const ENGLIT_COLORS = {
   sage: "#3E5C8A", sageDeep: "#2E4568", sagePale: "#E9EDF5", sagePill: "#D6DFEE",
@@ -218,6 +219,7 @@ export default function EngLitPage() {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                 <path d="M3.5 19.5V4.5H8.5V19.5H3.5Z" stroke="#2E4568" strokeWidth="1.6" strokeLinejoin="round"/>

@@ -16,6 +16,7 @@ import StructText from "./StructText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import CourseIcon from "./CourseIcon";
+import BrandLogo from "../../components/BrandLogo";
 
 const COLLEGE_COLORS = {
   sage: "#002855", sageDeep: "#002855", sagePale: "#E6EBF3", sagePill: "#D5DEEC",
@@ -304,6 +305,7 @@ export default function CourseHubTemplate({ course, content }) {
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
           <div style={S.logoRow}>
+            <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <CourseIcon id={course.id} size={24} />
             </div>
