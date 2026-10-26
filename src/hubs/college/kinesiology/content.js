@@ -1,4 +1,5 @@
 import { buildCourseContent } from "../builders";
+import STRUCTS from "./structures.generated";
 import unit01 from "./unit01";
 import unit02 from "./unit02";
 import unit03 from "./unit03";
@@ -27,4 +28,4 @@ export const KIN_CONTENT = buildCourseContent("Kinesiology", [
   unit11,
   unit12,
   unit13,
-]);
+], STRUCTS);

@@ -302,7 +302,99 @@ function cnmr({ opts: o, flags }) {
   return wrap(W, H, out, opts.label || "13C NMR spectrum");
 }
 
+
+// ---------- generic line plot, bar chart, lever, and sarcomere (physiology, kinesiology, nutrition) ----------
+// plot; size=440x260; x=Time (ms); y=Membrane potential (mV); xlim=0:5; ylim=-90:60; xticks=0,1,2; yticks=-70,0
+//   line=0,-70 1,-70 1.2,35 2,-80 | #C0392B | name | dash      (smooth curve through data points; style parts are optional)
+//   hline=-55 Threshold | #888      vline=1.2 Peak      dot=1.2,35      text=2.5,10 label | start|middle|end      band=1,2 Label | #fde8a0
+// bars; size=440x260; y=Percent of energy; data=Carbs:55:#2E6BC6, Fat:30:#C99700, Protein:15:#C0392B
+// lever; class=1|2|3      sarcomere; relaxed|contracted
+const NAVY = "#002855", PLOT_COL = ["#C0392B", "#002855", "#2E7D32", "#C99700", "#7A3FB8", "#E67E22"];
+function multi(spec) { return spec.split(";").map((s) => s.trim()).filter(Boolean).map((s) => { const i = s.indexOf("="); return i < 0 ? [s, ""] : [s.slice(0, i).trim(), s.slice(i + 1).trim()]; }); }
+function smooth(pts) {
+  if (pts.length < 3) return pts.map((p, i) => `${i ? "L" : "M"} ${f(p[0])} ${f(p[1])}`).join(" ");
+  let d = `M ${f(pts[0][0])} ${f(pts[0][1])}`;
+  for (let i = 0; i < pts.length - 1; i++) {
+    const p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
+    const c1 = [p1[0] + (p2[0] - p0[0]) / 6, p1[1] + (p2[1] - p0[1]) / 6], c2 = [p2[0] - (p3[0] - p1[0]) / 6, p2[1] - (p3[1] - p1[1]) / 6];
+    d += ` C ${f(c1[0])} ${f(c1[1])}, ${f(c2[0])} ${f(c2[1])}, ${f(p2[0])} ${f(p2[1])}`;
+  }
+  return d;
+}
+function plot(spec) {
+  const items = multi(spec).slice(1), o = {}; items.forEach(([k, v]) => { if (!(k in o)) o[k] = v; });
+  const [W, H] = (o.size || "440x260").split("x").map(Number), L = 54, R = 16, T = 16, B = 44;
+  const [x0, x1] = (o.xlim || "0:10").split(":").map(Number), [y0, y1] = (o.ylim || "0:100").split(":").map(Number);
+  const px = (x) => L + ((x - x0) / (x1 - x0)) * (W - L - R), py = (y) => H - B - ((y - y0) / (y1 - y0)) * (H - T - B);
+  let out = "", ci = 0;
+  const ticks = (list, axis) => (list || "").split(",").filter(Boolean).map(Number).map((v) => axis === "x"
+    ? line(px(v), H - B, px(v), H - B + 4, 1.2) + text(px(v), H - B + 16, String(v), { size: 11 })
+    : line(L - 4, py(v), L, py(v), 1.2) + text(L - 7, py(v) + 4, String(v), { size: 11, anchor: "end" })).join("");
+  items.forEach(([k, v]) => {
+    const [main, style = "", extra = "", extra2 = ""] = v.split("|").map((x) => x.trim());
+    if (k === "band") { const [a, b, ...lab] = main.replace(",", " ").split(/\s+/); out += `<rect x="${f(px(+a))}" y="${T}" width="${f(px(+b) - px(+a))}" height="${H - B - T}" fill="${style || "#FFF1C9"}" opacity=".7"/>` + (lab.length ? text((px(+a) + px(+b)) / 2, T + 13, lab.join(" "), { size: 11, weight: "bold" }) : ""); }
+  });
+  out += `<rect x="${L}" y="${T}" width="${W - L - R}" height="${H - B - T}" fill="none"/>` + line(L, T, L, H - B, 1.6) + line(L, H - B, W - R, H - B, 1.6) + ticks(o.xticks, "x") + ticks(o.yticks, "y");
+  if (!o.xticks) out += text(L, H - B + 16, String(x0), { size: 11 }) + text(W - R, H - B + 16, String(x1), { size: 11, anchor: "end" });
+  if (!o.yticks) out += text(L - 7, H - B + 4, String(y0), { size: 11, anchor: "end" }) + text(L - 7, T + 8, String(y1), { size: 11, anchor: "end" });
+  out += text((L + W - R) / 2, H - 6, o.x || "", { size: 12 }) + text(13, (T + H - B) / 2, o.y || "", { size: 12 }).replace("<text", `<text transform="rotate(-90 13 ${(T + H - B) / 2})"`);
+  items.forEach(([k, v]) => {
+    const [main, style = "", extra = "", extra2 = ""] = v.split("|").map((x) => x.trim());
+    if (k === "hline") { const [yv, ...lab] = main.split(/\s+/); out += `<line x1="${L}" y1="${f(py(+yv))}" x2="${W - R}" y2="${f(py(+yv))}" stroke="${style || "#888"}" stroke-width="1.2" stroke-dasharray="5 4"/>` + text(W - R - 2, py(+yv) - 4, lab.join(" "), { size: 11, anchor: "end", fill: style || "#555" }); }
+    else if (k === "vline") { const [xv, ...lab] = main.split(/\s+/); out += `<line x1="${f(px(+xv))}" y1="${T}" x2="${f(px(+xv))}" y2="${H - B}" stroke="${style || "#888"}" stroke-width="1.2" stroke-dasharray="5 4"/>` + text(px(+xv) + 3, T + 11, lab.join(" "), { size: 11, anchor: "start", fill: style || "#555" }); }
+    else if (k === "line") {
+      const pts = main.split(/\s+/).map((p) => p.split(",").map(Number)).map(([a, b]) => [px(a), py(b)]), col = style || PLOT_COL[ci++ % PLOT_COL.length];
+      out += `<path d="${smooth(pts)}" fill="none" stroke="${col}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"${extra2 === "dash" || extra === "dash" ? ' stroke-dasharray="6 4"' : ""}/>`;
+      if (extra && extra !== "dash") { const last = pts[pts.length - 1]; out += text(Math.min(last[0] - 2, W - R - 2), last[1] - 7, extra, { size: 11.5, anchor: "end", weight: "bold", fill: col }); }
+    } else if (k === "dot") { const [a, b] = main.split(",").map(Number); out += `<circle cx="${f(px(a))}" cy="${f(py(b))}" r="4.5" fill="${style || "#C0392B"}"/>`; }
+    else if (k === "text") { const m = main.match(/^([-\d.]+),([-\d.]+)\s+(.*)$/); if (m) out += text(px(+m[1]), py(+m[2]), m[3], { size: 11.5, anchor: style || "middle", weight: "bold", fill: extra || INK }); }
+  });
+  return wrap(W, H, out, o.title || "Graph");
+}
+function bars(spec) {
+  const o = Object.fromEntries(multi(spec).slice(1)), [W, H] = (o.size || "440x260").split("x").map(Number), L = 54, R = 16, T = 22, B = 56;
+  const data = (o.data || "").split(",").map((d) => d.trim().split(":")), max = +(o.max || Math.max(...data.map((d) => +d[1])) * 1.15);
+  const bw = (W - L - R) / data.length;
+  let out = line(L, T, L, H - B, 1.6) + line(L, H - B, W - R, H - B, 1.6) + text(13, (T + H - B) / 2, o.y || "", { size: 12 }).replace("<text", `<text transform="rotate(-90 13 ${(T + H - B) / 2})"`);
+  data.forEach(([lab, val, col], i) => {
+    const h = (+val / max) * (H - T - B), x = L + i * bw + bw * 0.18, w = bw * 0.64;
+    out += `<rect x="${f(x)}" y="${f(H - B - h)}" width="${f(w)}" height="${f(h)}" rx="4" fill="${col || PLOT_COL[i % PLOT_COL.length]}"/>` + text(x + w / 2, H - B - h - 5, val + (o.unit || ""), { size: 11.5, weight: "bold" }) + text(x + w / 2, H - B + 15, lab.split("/")[0], { size: 11.5 }) + (lab.includes("/") ? text(x + w / 2, H - B + 29, lab.split("/")[1], { size: 11 }) : "");
+  });
+  return wrap(W, H, out, o.title || "Bar chart");
+}
+function lever(spec) {
+  const cls = +(multi(spec).find(([k]) => k === "class") || [0, "1"])[1], W = 420, H = 200, by = 112;
+  const FUL = (x) => `<polygon points="${x - 14},${by + 38} ${x + 14},${by + 38} ${x},${by + 6}" fill="${NAVY}"/>` + text(x, by + 56, "Fulcrum", { size: 11.5, weight: "bold" });
+  const down = (x, label, col) => `<line x1="${x}" y1="${by - 56}" x2="${x}" y2="${by - 10}" stroke="${col}" stroke-width="3.4"/><polygon points="${x - 7},${by - 14} ${x + 7},${by - 14} ${x},${by - 2}" fill="${col}"/>` + text(x, by - 62, label, { size: 12, weight: "bold", fill: col });
+  const up = (x, label, col) => `<line x1="${x}" y1="${by + 56}" x2="${x}" y2="${by + 10}" stroke="${col}" stroke-width="3.4"/><polygon points="${x - 7},${by + 14} ${x + 7},${by + 14} ${x},${by + 2}" fill="${col}"/>` + text(x, by + 72, label, { size: 12, weight: "bold", fill: col });
+  const beam = `<rect x="40" y="${by - 6}" width="340" height="12" rx="6" fill="#8D6E4B"/>`, E = "#C0392B", Ld = "#2E6BC6";
+  let body, name, ex;
+  if (cls === 1) { body = FUL(210) + down(80, "Load", Ld) + down(340, "Effort", E); name = "Class 1: fulcrum in the middle"; ex = "seesaw · neck extension (nodding the head)"; }
+  else if (cls === 2) { body = FUL(60) + down(190, "Load", Ld) + up(340, "Effort", E); name = "Class 2: load in the middle"; ex = "wheelbarrow · calf raise (standing on your toes)"; }
+  else { body = FUL(60) + down(340, "Load", Ld) + up(190, "Effort", E); name = "Class 3: effort in the middle"; ex = "tweezers · biceps curl (most muscles in the body)"; }
+  return wrap(W, H, beam + body + text(W / 2, 18, name, { size: 13, weight: "bold" }) + text(W / 2, 35, ex, { size: 11.5, fill: "#555" }), name);
+}
+function sarcomere(spec) {
+  const contracted = /contracted/.test(spec), W = 430, H = 230, y = 92;
+  const zL = contracted ? 90 : 50, zR = contracted ? 340 : 380, mid = (zL + zR) / 2, thick = contracted ? 140 : 160;
+  let out = "";
+  const thin = (x1, x2, yy) => `<line x1="${x1}" y1="${yy}" x2="${x2}" y2="${yy}" stroke="#C0392B" stroke-width="3" stroke-linecap="round"/>`;
+  for (const dy of [-28, -14, 14, 28]) { out += thin(zL, contracted ? mid + 38 : zL + 105, y + dy) + thin(zR, contracted ? mid - 38 : zR - 105, y + dy); }
+  for (const dy of [-21, 0, 21]) out += `<line x1="${mid - thick / 2}" y1="${y + dy}" x2="${mid + thick / 2}" y2="${y + dy}" stroke="${NAVY}" stroke-width="7" stroke-linecap="round"/>`;
+  out += `<line x1="${zL}" y1="${y - 46}" x2="${zL}" y2="${y + 46}" stroke="#333" stroke-width="4"/><line x1="${zR}" y1="${y - 46}" x2="${zR}" y2="${y + 46}" stroke="#333" stroke-width="4"/>`;
+  out += text(zL, y - 54, "Z line", { size: 11.5, weight: "bold" }) + text(zR, y - 54, "Z line", { size: 11.5, weight: "bold" }) + text(mid, y - 54, "M line", { size: 11.5, weight: "bold" });
+  const br = (a, b, label, yy) => `<path d="M ${a} ${yy} v 6 H ${b} v -6" fill="none" stroke="#555" stroke-width="1.4"/>` + text((a + b) / 2, yy + 20, label, { size: 11.5 });
+  out += br(mid - thick / 2, mid + thick / 2, "A band (thick filaments)", y + 56);
+  out += br(zL, mid - thick / 2, "I band", y + 82) + br(mid + thick / 2, zR, "I band", y + 82);
+  out += text(W / 2, 16, contracted ? "Contracted: filaments slide, the sarcomere shortens" : "Relaxed sarcomere", { size: 13, weight: "bold" }) + text(mid, y + 4, "", {}) + text(W / 2, H - 6, "red = thin filaments (actin) · navy = thick filaments (myosin)", { size: 11, fill: "#555" });
+  return wrap(W, H, out, "Sarcomere");
+}
+
 export function handSvg(spec) {
+  if (/^\s*plot\b/.test(spec)) return plot(spec);
+  if (/^\s*bars\b/.test(spec)) return bars(spec);
+  if (/^\s*lever\b/.test(spec)) return lever(spec);
+  if (/^\s*sarcomere\b/.test(spec)) return sarcomere(spec);
   const p = parse(spec);
   const fn = { chair, newman, fischer, haworth, energy, ir, ms, nmr, cnmr }[p.type];
   if (!fn) throw new Error("unknown svg type: " + p.type);

@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "structures": "node --import ./scripts/ext-hook.mjs scripts/build-structures.mjs orgchem1 orgchem2"
+    "structures": "node --import ./scripts/ext-hook.mjs scripts/build-structures.mjs orgchem1 orgchem2 physiology kinesiology nutrition"
   },
   "dependencies": {
     "react": "^19.2.7",

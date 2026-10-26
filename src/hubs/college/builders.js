@@ -53,10 +53,18 @@ export function buildQuestions(unitId, tuples) {
   });
 }
 
-const STRUCT_TOKEN = /\{\{(mol|rxn|svg):([\s\S]+?)\}\}/g;
+import { FIGS } from "./figures";
+import { wpHtml } from "./wordparts";
+
+const STRUCT_TOKEN = /\{\{(mol|rxn|svg|fig|wp):([\s\S]+?)\}\}/g;
+export const figCredit = (f) => `Source: ${f.author || "Wikimedia Commons"} (${f.license}), via <a href='${f.page}' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>.`;
 /** Replace {{mol:...}} / {{rxn:...}} tokens in HTML with their pre-rendered SVG. */
 export function expandStructs(html, structs) {
-  return html.replace(STRUCT_TOKEN, (all, kind, spec) => structs?.[`${kind}:${spec}`] || `<span class="mol-missing">[structure missing]</span>`);
+  return html.replace(STRUCT_TOKEN, (all, kind, spec) => {
+    if (kind === "wp") return wpHtml(spec);
+    if (kind === "fig") { const f = FIGS[spec]; return f ? `<img class="inline-fig" src="${f.src}" alt="${esc(f.alt)}" loading="lazy" />` : `<span class="mol-missing">[figure missing]</span>`; }
+    return structs?.[`${kind}:${spec}`] || `<span class="mol-missing">[structure missing]</span>`;
+  });
 }
 
 function renderBlock(b) {
@@ -65,6 +73,7 @@ function renderBlock(b) {
   if (b.svg) return `  <figure class="mol-fig">{{svg:${b.svg}}}${b.caption ? `<figcaption>${b.caption}</figcaption>` : ""}</figure>`;
   if (b.rxn) return `  <figure class="mol-fig">{{rxn:${b.rxn}}}${b.caption ? `<figcaption>${b.caption}</figcaption>` : ""}</figure>`;
   if (b.mols) return `  <div class="mol-row">${b.mols.map(([smi, name, note]) => `<figure>{{${smi.startsWith("svg:") ? smi : `mol:${smi}`}}}<figcaption>${name}${note ? `<span>${note}</span>` : ""}</figcaption></figure>`).join("")}</div>`;
+  if (b.figId) { const f = FIGS[b.figId]; return f ? `  <figure class="wp-fig">\n    <a href="${f.src}" target="_blank" rel="noopener noreferrer" title="Open full size"><img src="${f.src}" alt="${esc(f.alt)}" loading="lazy" /></a>\n    <figcaption><strong>${b.caption || ""}</strong> <span class="wp-credit">${figCredit(f)}</span></figcaption>\n  </figure>` : ""; }
   if (b.fig) return `  <figure class="wp-fig">\n    <a href="${b.fig.src}" target="_blank" rel="noopener noreferrer" title="Open full size"><img src="${b.fig.src}" alt="${esc(b.fig.alt)}" loading="lazy" /></a>\n    <figcaption><strong>${b.fig.caption}</strong> <span class="wp-credit">${b.fig.credit}</span></figcaption>\n  </figure>`;
   if (b.table) {
     const head = b.table.headers.map((h) => `<th>${h}</th>`).join("");

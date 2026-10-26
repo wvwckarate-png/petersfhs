@@ -12,7 +12,8 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { storage } from "../../lib/storage";
-import StructText from "./StructText";
+import StructText, { WordParts } from "./StructText";
+import { FIGS } from "./figures";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import CourseIcon from "./CourseIcon";
@@ -88,6 +89,17 @@ const EXTRA_CSS = `
   .mt-card{perspective:1200px;}
   .mol{max-width:100%; height:auto; vertical-align:middle;}
   .mol text{font-family:'Nunito','Manrope',sans-serif;}
+  .inline-fig{max-width:100%; max-height:260px; height:auto; border-radius:8px; vertical-align:middle; background:#fff;}
+  .card-fig{max-width:100%; max-height:280px; width:auto; height:auto; border-radius:8px; background:#fff; display:block;}
+  .wp-chips{display:inline-flex; flex-wrap:wrap; align-items:stretch; justify-content:center; gap:4px; margin:4px 0;}
+  .wp-plus{align-self:center; color:#8A6500; font-weight:800;}
+  .wp-chip{display:inline-flex; flex-direction:column; align-items:center; padding:5px 10px 6px; border-radius:10px; border:1.5px solid; min-width:54px; line-height:1.25;}
+  .wp-chip b{font-family:'Manrope',sans-serif; font-size:15px;}
+  .wp-chip b i{font-style:normal; opacity:.55; font-weight:600;}
+  .wp-chip small{font-size:11.5px; font-weight:700; opacity:.85;}
+  .wp-chip.prefix{background:#E6EBF3; border-color:#7C93B8; color:#002855;}
+  .wp-chip.root{background:#E8F1E4; border-color:#7FA874; color:#244A1C;}
+  .wp-chip.suffix{background:#FFF1C9; border-color:#E0B03A; color:#6A4A00;}
   .mol-inline{display:inline-block; vertical-align:middle; margin:2px 4px; line-height:0;}
   .wp-table td .mol-inline, .wp-table td .mol{margin:2px 6px 2px 0;}
   .mol-fig{margin:20px auto; max-width:640px; background:#fff; border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:var(--shadow); text-align:center;}
@@ -115,7 +127,7 @@ function shuffled(arr) {
 }
 
 // Card example: structures sit in a centered row (with →, vs, and similar connectors between them); the words go below.
-const EX_TOKEN = /\{\{(mol|rxn|svg):([\s\S]+?)\}\}/g;
+const EX_TOKEN = /\{\{(mol|rxn|svg|fig|wp):([\s\S]+?)\}\}/g;
 const EX_CONNECTOR = /^\s*(vs\.?|→|↔|⇌|\+|>|≫|\/|,)?\s*$/;
 function CardExample({ text, structs, RichText }) {
   const figs = [], words = [];
@@ -130,7 +142,9 @@ function CardExample({ text, structs, RichText }) {
     pushText(text.slice(last, m.index));
     if (figs.length && pendingConn) figs.push({ conn: pendingConn });
     pendingConn = "";
-    figs.push({ svg: structs?.[`${m[1]}:${m[2]}`] });
+    if (m[1] === "wp") figs.push({ wp: m[2] });
+    else if (m[1] === "fig") figs.push({ fig: FIGS[m[2]] });
+    else figs.push({ svg: structs?.[`${m[1]}:${m[2]}`] });
     last = m.index + m[0].length;
   }
   pushText(text.slice(last));
@@ -140,10 +154,17 @@ function CardExample({ text, structs, RichText }) {
         <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", justifyContent: "center", gap: 6, margin: "2px 0 8px" }}>
           {figs.map((f, i) => f.conn
             ? <span key={i} style={{ color: "#8A6500", fontWeight: 800, fontSize: 16 }}>{f.conn}</span>
+            : f.wp ? <WordParts key={i} spec={f.wp} />
+            : f.fig ? <img key={i} className="card-fig" src={f.fig.src} alt={f.fig.alt} loading="lazy" />
             : f.svg ? <span key={i} className="mol-inline" dangerouslySetInnerHTML={{ __html: f.svg }} /> : <span key={i} className="mol-missing">[structure]</span>)}
         </div>
       )}
       {words.length > 0 && <div><RichText text={words.join("").replace(/\s+/g, " ").trim()} /></div>}
+      {figs.filter((f) => f.fig).map((f, i) => (
+        <div key={i} style={{ marginTop: 6, fontSize: 10.5, color: "#767F73", fontWeight: 500 }}>
+          Image: {f.fig.author || "Wikimedia Commons"} ({f.fig.license}), <a href={f.fig.page} target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }} onClick={(e) => e.stopPropagation()}>Wikimedia Commons</a>
+        </div>
+      ))}
     </>
   );
 }
