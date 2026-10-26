@@ -330,11 +330,11 @@ export function PlanView() {
 /* ---------- Timer view ---------- */
 export function TimerView() {
   return (
-    <div>
+    <div className="jj-center" style={{ textAlign: "center" }}>
       <div className="jj-eyebrow">Rounds</div>
       <h1 style={{ fontSize: 44 }}>Round timer</h1>
-      <p className="jj-muted">Tap a preset or choose the round length, rest, and number of rounds (or infinite). Use it for drilling rounds, positional sparring, or class-style rounds.</p>
-      <div style={{ maxWidth: 520, marginTop: 14 }}><Timer work={300} rest={60} rounds={5} /></div>
+      <p className="jj-muted" style={{ maxWidth: 560, margin: "10px auto 0" }}>Tap a preset or choose the round length, rest, and number of rounds (or infinite). Use it for drilling rounds, positional sparring, or class-style rounds.</p>
+      <div style={{ maxWidth: 520, margin: "18px auto 0" }}><Timer work={300} rest={60} rounds={5} /></div>
     </div>
   );
 }

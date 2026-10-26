@@ -30,6 +30,7 @@ export const CSS = `
 .jj-card{ background:${C.panel}; border:1px solid ${C.line}; border-radius:16px; padding:18px 20px; }
 .jj-h2{ font-size:26px; margin-bottom:12px; }
 .jj h1::after,.jj-h2::after{ content:""; display:block; width:84px; height:6px; margin-top:7px; background:linear-gradient(90deg,#F4F1EA 0 18%,#2E6BC6 0 38%,#7A3FB8 0 58%,#7B4A2A 0 78%,#D8472E 0 100%); clip-path:polygon(0 30%,10% 0,55% 18%,100% 38%,100% 62%,60% 82%,12% 100%,0 70%); opacity:.9; }
+.jj-center h1::after{ margin-left:auto; margin-right:auto; }
 .jj-hero{ position:relative; overflow:hidden; background:linear-gradient(135deg,${C.panel} 0%,#1b1613 100%); padding:28px 26px; }
 .jj-hero-enso{ position:absolute; right:-40px; top:50%; width:340px; height:340px; transform:translateY(-50%); opacity:.9; pointer-events:none; }
 @media (max-width:720px){ .jj-hero-enso{ width:240px; height:240px; right:-70px; opacity:.45; } }
