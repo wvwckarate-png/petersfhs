@@ -1,7 +1,8 @@
 import React, { useMemo, useState } from "react";
 import { C, BELT_BG, BELT_FG, BELT_TEXT } from "./theme";
 import { POSITIONS, FAMILIES, TIERS, ESCAPES, byId, SYSTEMS, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, QUESTIONS, CARDS } from "./data";
-import { KeysTriangle, SystemDiagram, TriangleMark } from "./Mark";
+import { KeysRing, SystemDiagram } from "./Mark";
+import { Enso, StatusRing } from "./Enso";
 import Pyramid from "./Pyramid";
 import Timer from "./Timer";
 import { STATUS, PEOPLE } from "./store";
@@ -9,7 +10,6 @@ import { STATUS, PEOPLE } from "./store";
 const posLink = (id) => `#/position/${id}`;
 const roleLabel = { top: "Top", bottom: "Bottom", neutral: "Standing" };
 const Tag = ({ role }) => <span className={`jj-tag ${role}`}>{roleLabel[role]}</span>;
-const dots = (n) => "●".repeat(n) + "○".repeat(4 - n);
 
 function List({ items }) {
   return <ul className="jj-list">{items.map((t, i) => <li key={i}>{t}</li>)}</ul>;
@@ -21,7 +21,7 @@ function PosChip({ id, store }) {
   const s = store.getStatus(id);
   return (
     <a className="jj-chip" href={posLink(id)} title={`${p.name} · ${STATUS[s]}`}>
-      <span style={{ color: BELT_TEXT[s], fontSize: 11, letterSpacing: 1 }}>{dots(s)}</span>
+      <StatusRing status={s} size={17} />
       {p.name}
     </a>
   );
@@ -34,27 +34,27 @@ export function MapView({ store }) {
   const today = useMemo(() => POSITIONS[Math.floor(Date.now() / 86400000) % POSITIONS.length], []);
   return (
     <div>
-      <div className="jj-card" style={{ display: "flex", gap: 22, alignItems: "center", flexWrap: "wrap", background: `linear-gradient(135deg, ${C.panel} 0%, #221816 100%)` }}>
-        <TriangleMark size={84} />
-        <div style={{ flex: 1, minWidth: 240 }}>
+      <div className="jj-card jj-hero">
+        <div className="jj-hero-enso" aria-hidden="true"><Enso size="100%" seed={11} /></div>
+        <div style={{ position: "relative", maxWidth: 560 }}>
           <div className="jj-eyebrow">A systems approach</div>
-          <h1 style={{ fontSize: 44, lineHeight: 1 }}>Position before submission</h1>
-          <p className="jj-muted" style={{ margin: "10px 0 0", maxWidth: 560 }}>Every position has the same shape: what you want, how you hold it, what you attack, how you escape, and what goes wrong. Learn the position, then the moves fall out of it. Tap a tier below to see where the positions fit.</p>
+          <h1 style={{ fontSize: 46, lineHeight: 1.02 }}>Position before submission</h1>
+          <p className="jj-muted" style={{ margin: "14px 0 0" }}>Every position has the same shape: what you want, how you hold it, what you attack, how you escape, and what goes wrong. Learn the position, then the moves fall out of it. Tap a ring below to see where the positions fit.</p>
         </div>
       </div>
 
       <div className="jj-split" style={{ marginTop: 14, alignItems: "start" }}>
         <div className="jj-card">
-          <div className="jj-eyebrow">The climb</div>
+          <div className="jj-eyebrow">The path inward</div>
           <h2 className="jj-h2">Positional hierarchy</h2>
           <Pyramid selected={tier} onSelect={setTier} />
-          <p className="jj-muted" style={{ fontSize: 14, margin: "10px 0 0" }}>Move up the pyramid: each tier is a better position than the one below it. When you're under pressure, the escape moves climb back down toward the base.</p>
+          <p className="jj-muted" style={{ fontSize: 14, margin: "10px 0 0" }}>Start on the outside ring and work inward: each ring is a better position than the one outside it. When you're under pressure, the escape moves take you back out toward the edge.</p>
         </div>
         <div className="jj-grid">
           <div className="jj-card">
-            <div className="jj-eyebrow">{t ? t.note : "Pick a tier"}</div>
-            <h2 className="jj-h2">{t ? t.name : "Tap the pyramid"}</h2>
-            {t ? <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>{t.ids.map((id) => <PosChip key={id} id={id} store={store} />)}</div> : <p className="jj-muted" style={{ margin: 0 }}>Choose any tier to see its positions. The dots on each chip show your progress, one per belt color: ○○○○ not yet up to ●●●● could teach it.</p>}
+            <div className="jj-eyebrow">{t ? t.note : "Pick a ring"}</div>
+            <h2 className="jj-h2">{t ? t.name : "Tap a ring"}</h2>
+            {t ? <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>{t.ids.map((id) => <PosChip key={id} id={id} store={store} />)}</div> : <p className="jj-muted" style={{ margin: 0 }}>Choose any ring to see its positions. The ring on each chip fills as you progress, in belt colors: empty is not yet, a full black ring with a red edge is could teach it.</p>}
           </div>
           <div className="jj-card">
             <div className="jj-eyebrow">Under pressure</div>
@@ -118,7 +118,7 @@ export function PositionsView({ store }) {
             <div className="jj-grid" style={{ gridTemplateColumns: "repeat(auto-fill,minmax(250px,1fr))" }}>
               {list.map((p) => (
                 <a key={p.id} className="jj-card" href={posLink(p.id)} style={{ display: "block" }}>
-                  <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "center" }}><Tag role={p.role} /><span style={{ color: BELT_TEXT[store.getStatus(p.id)], letterSpacing: 2, fontSize: 12 }}>{dots(store.getStatus(p.id))}</span></div>
+                  <div style={{ display: "flex", justifyContent: "space-between", gap: 8, alignItems: "center" }}><Tag role={p.role} /><StatusRing status={store.getStatus(p.id)} size={20} /></div>
                   <div className="display" style={{ fontSize: 24, fontWeight: 700, margin: "8px 0 4px" }}>{p.name}</div>
                   <div className="jj-muted" style={{ fontSize: 14.5 }}>{p.keys.join(" · ")}</div>
                 </a>
@@ -156,7 +156,7 @@ export function PositionView({ id, store }) {
             {STATUS.map((n, i) => <button key={n} className={`jj-btn ${s === i ? "" : "ghost"}`} style={{ padding: "6px 12px", fontSize: 13.5 }} onClick={() => store.setStatus(p.id, i)}>{n}</button>)}
           </div>
         </div>
-        <div><KeysTriangle keys={p.keys} /></div>
+        <div><KeysRing keys={p.keys} /></div>
       </div>
 
       <Section title="Goals"><List items={p.goals} /></Section>
@@ -370,7 +370,7 @@ export function QuizView() {
     return (
       <div className="jj-card" style={{ maxWidth: 620 }}>
         <div className="jj-eyebrow">Finished</div>
-        <h1 style={{ fontSize: 44 }}>{run.score} / {run.qs.length}</h1>
+        <div style={{ position: "relative", width: 200, height: 200, margin: "6px auto" }}><Enso size={200} progress={run.score / run.qs.length} seed={17} /><div className="display" style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 54, fontWeight: 800 }}>{run.score}/{run.qs.length}</div></div>
         {run.missed.length > 0 && <><h2 className="jj-h2">Review</h2>{run.missed.map((m, i) => <div key={i} style={{ margin: "10px 0" }}><strong>{m.stem}</strong><div style={{ color: C.blueLight }}>✓ {m.correct}</div><div className="jj-muted" style={{ fontSize: 14.5 }}>{m.ex}</div></div>)}</>}
         <button className="jj-btn" onClick={() => setRun(null)}>Again</button>
       </div>
@@ -426,7 +426,7 @@ export function ProgressView({ store }) {
       <div className="jj-eyebrow">{store.person}</div>
       <h1 style={{ fontSize: 44 }}>Progress</h1>
       <div className="jj-card" style={{ display: "flex", gap: 20, flexWrap: "wrap", marginBottom: 14 }}>
-        {STATUS.map((n, i) => <div key={n}><div className="display" style={{ fontSize: 40, fontWeight: 800, color: BELT_TEXT[i] }}>{counts[i]}</div><div className="jj-muted" style={{ fontSize: 13 }}>{n}</div></div>)}
+        {STATUS.map((n, i) => <div key={n} style={{ textAlign: "center" }}><StatusRing status={i} size={34} /><div className="display" style={{ fontSize: 36, fontWeight: 800, color: BELT_TEXT[i], lineHeight: 1.1 }}>{counts[i]}</div><div className="jj-muted" style={{ fontSize: 13 }}>{n}</div></div>)}
         <div style={{ marginLeft: "auto", alignSelf: "center" }} className="jj-muted">of {total} positions</div>
       </div>
       <p className="jj-muted">Tap a position's status to move it up: not yet → learning → drilled → hits live. Progress is saved on this device for each person.</p>
@@ -435,7 +435,7 @@ export function ProgressView({ store }) {
           <h2 className="jj-h2">{f.name}</h2>
           {POSITIONS.filter((p) => p.family === f.id).map((p) => (
             <div key={p.id} style={{ display: "flex", alignItems: "center", gap: 10, padding: "8px 0", borderBottom: `1px solid ${C.line}` }}>
-              <a href={posLink(p.id)} style={{ flex: 1, fontWeight: 700 }}>{p.name}</a>
+              <StatusRing status={store.getStatus(p.id)} size={22} /><a href={posLink(p.id)} style={{ flex: 1, fontWeight: 700 }}>{p.name}</a>
               <Tag role={p.role} />
               <button className="jj-btn ghost" style={{ minWidth: 110, padding: "6px 10px", color: BELT_TEXT[store.getStatus(p.id)], borderColor: BELT_BG[store.getStatus(p.id)] }} onClick={() => store.cycle(p.id)}>{STATUS[store.getStatus(p.id)]}</button>
             </div>

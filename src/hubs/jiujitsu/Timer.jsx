@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import { C } from "./theme";
+import { Enso, BELT_STOPS, WATER_STOPS, DUSK_STOPS } from "./Enso";
 
 const fmt = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 const ROUND_CHOICES = [120, 180, 240, 300, 360, 480];
@@ -100,13 +101,20 @@ export default function Timer({ work: w0 = 180, rest: r0 = 30, rounds: n0 = 3, c
   const running = phase === "ready" || phase === "work" || phase === "rest";
   const color = phase === "rest" ? C.blueLight : phase === "ready" ? C.purpleLight : phase === "done" ? C.white : C.red;
   const label = phase === "idle" ? "Ready" : phase === "ready" ? "Get ready" : phase === "done" ? "Finished" : phase === "rest" ? `Rest · next is round ${round + 1}` : `Round ${round} of ${rounds === 0 ? "∞" : rounds}`;
+  const phaseTotal = phase === "ready" ? 10 : phase === "rest" ? rest : work;
+  const ringFrac = phase === "idle" || phase === "done" ? 1 : Math.max(0, Math.min(1, left / (phaseTotal || 1)));
   const pickWork = (v) => { setWork(v); if (!running) setLeft(v); };
   const total = rounds === 0 ? "∞" : fmt(rounds * work + (rounds - 1) * rest);
 
   return (
     <div className="jj-card" style={{ textAlign: "center", borderColor: running ? color : C.line }}>
       <div className="jj-eyebrow" style={{ color }}>{label}{paused ? " · paused" : ""}</div>
-      <div className="display" style={{ fontSize: compact ? 72 : 120, fontWeight: 800, lineHeight: 1, color, fontVariantNumeric: "tabular-nums", margin: "4px 0" }}>{fmt(left)}</div>
+      <div style={{ position: "relative", width: "100%", maxWidth: compact ? 230 : 340, aspectRatio: "1", margin: "0 auto" }}>
+        <Enso size="100%" radius={40} thickness={13} progress={ringFrac} stops={phase === "rest" ? WATER_STOPS : phase === "ready" ? DUSK_STOPS : BELT_STOPS} seed={phase === "rest" ? 4 : 11} splatter={phase !== "work"} />
+        <div style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+          <div className="display" style={{ fontSize: compact ? 40 : 62, fontWeight: 800, lineHeight: 1, color: phase === "idle" || phase === "done" ? C.text : color, fontVariantNumeric: "tabular-nums" }}>{fmt(left)}</div>
+        </div>
+      </div>
       {(running || phase === "done") && <div className="jj-muted" style={{ fontSize: 13 }}>Time on the mat {fmt(elapsed)}</div>}
       <div style={{ display: "flex", justifyContent: "center", gap: 10, margin: "14px 0", flexWrap: "wrap" }}>
         {!running ? <button className="jj-btn" style={{ minWidth: 130, fontSize: 17 }} onClick={start}>{phase === "done" ? "Run again" : "Start"}</button> : (

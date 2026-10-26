@@ -1,63 +1,57 @@
 import React from "react";
+import { Enso, InkRing } from "./Enso";
 
-// The hub's mark: a triangle (the triangle choke, the three-point base of control) with an inner triangle and three nodes.
-export function TriangleMark({ size = 30, color = "#D8472E", inner = "#ECE6D8" }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 48 48" fill="none" aria-hidden="true">
-      <path d="M24 5L44 41H4L24 5Z" stroke={color} strokeWidth="3" strokeLinejoin="round" />
-      <path d="M24 18L35 37H13L24 18Z" stroke={inner} strokeWidth="2" strokeLinejoin="round" opacity="0.85" />
-      <circle cx="24" cy="5" r="3.6" fill="#3B7DD8" stroke="#F4F1EA" strokeWidth="1" />
-      <circle cx="44" cy="41" r="3.6" fill="#8B52CF" stroke="#F4F1EA" strokeWidth="1" />
-      <circle cx="4" cy="41" r="3.6" fill="#8A5A38" stroke="#F4F1EA" strokeWidth="1" />
-    </svg>
-  );
+const BELT_DOTS = ["#3B7DD8", "#8B52CF", "#8A5A38"];
+const PAGE_BELT = ["#2E6BC6", "#7A3FB8", "#7B4A2A"];
+
+// The hub's mark: the ensō, painted through the belt colors.
+export function EnsoMark({ size = 36 }) {
+  return <Enso size={size} bristles={60} points={50} seed={11} splatter={false} />;
 }
 
-// Three keys at the three corners of a triangle: the "keys to the position" for every position page.
-export function KeysTriangle({ keys }) {
+// Three keys placed around an ink ring: the "keys to the position" on every position page.
+export function KeysRing({ keys }) {
   const [a, b, c] = keys;
+  const P = [[200, 42], [261, 147], [139, 147]];
+  const label = { fill: "#ECE6D8", fontFamily: "'Shippori Mincho',serif", fontWeight: 700, fontSize: 18 };
   return (
-    <svg viewBox="0 0 300 220" width="100%" style={{ maxWidth: 320 }} role="img" aria-label={`Three keys: ${keys.join(", ")}`}>
-      <path d="M150 34L262 184H38L150 34Z" stroke="#D8472E" strokeWidth="2.6" strokeLinejoin="round" fill="rgba(216,71,46,0.07)" />
-      <path d="M150 78L222 174H78L150 78Z" stroke="#9AA3AE" strokeWidth="1.2" strokeDasharray="4 5" fill="none" />
-      {[[150, 34, "#3B7DD8"], [262, 184, "#8B52CF"], [38, 184, "#8A5A38"]].map(([x, y, f], i) => <circle key={i} cx={x} cy={y} r="7.5" fill={f} stroke="#F4F1EA" strokeWidth="1.4" />)}
-      <text x="150" y="20" textAnchor="middle" fill="#ECE6D8" fontFamily="'Barlow Condensed',sans-serif" fontWeight="700" fontSize="19" letterSpacing="1">{a}</text>
-      <text x="262" y="208" textAnchor="end" fill="#ECE6D8" fontFamily="'Barlow Condensed',sans-serif" fontWeight="700" fontSize="19" letterSpacing="1">{b}</text>
-      <text x="38" y="208" textAnchor="start" fill="#ECE6D8" fontFamily="'Barlow Condensed',sans-serif" fontWeight="700" fontSize="19" letterSpacing="1">{c}</text>
+    <svg viewBox="0 0 400 230" width="100%" style={{ maxWidth: 380 }} role="img" aria-label={`Three keys: ${keys.join(", ")}`}>
+      <InkRing x={100} y={10} size={200} seed={21} />
+      {P.map(([x, y], i) => <circle key={i} cx={x} cy={y} r="8" fill={BELT_DOTS[i]} stroke="#F4F1EA" strokeWidth="1.5" />)}
+      <text x="200" y="26" textAnchor="middle" {...label}>{a}</text>
+      <text x="277" y="172" textAnchor="start" {...label}>{b}</text>
+      <text x="123" y="172" textAnchor="end" {...label}>{c}</text>
     </svg>
   );
 }
 
-// Three moves that answer each other: a triangle of nodes with an arrow for each "if they do this, go there".
+// Three moves that answer each other, set around one ring: follow the numbered arrows clockwise.
 export function SystemDiagram({ nodes }) {
-  const P = [[160, 38], [286, 232], [34, 232]];
-  const arrow = (from, to, i) => {
-    const [x1, y1] = P[from], [x2, y2] = P[to];
-    const dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy);
-    const ux = dx / len, uy = dy / len, off = 34;
-    const sx = x1 + ux * off, sy = y1 + uy * off, ex = x2 - ux * off, ey = y2 - uy * off;
-    const px = -uy * 10, py = ux * 10;
+  const cx = 160, cy = 150, R = 100;
+  const ang = [-90, 30, 150];
+  const at = (deg, r = R) => [cx + r * Math.cos((deg * Math.PI) / 180), cy + r * Math.sin((deg * Math.PI) / 180)];
+  const arc = (a0, a1, i) => {
+    const [x0, y0] = at(a0), [x1, y1] = at(a1), [mx, my] = at((a0 + a1) / 2, R + 22);
     return (
       <g key={i}>
-        <path d={`M${sx + px} ${sy + py}L${ex + px} ${ey + py}`} stroke="#D8472E" strokeWidth="2.4" markerEnd="url(#jjarr)" />
-        <text x={(sx + ex) / 2 + px * 2.2} y={(sy + ey) / 2 + py * 2.2 + 4} textAnchor="middle" fill="#7FB0F0" fontFamily="'Barlow Condensed',sans-serif" fontWeight="800" fontSize="15">{i + 1}</text>
+        <path d={`M${x0} ${y0}A${R} ${R} 0 0 1 ${x1} ${y1}`} fill="none" stroke="#D8472E" strokeWidth="3" strokeLinecap="round" markerEnd="url(#jjarr)" />
+        <text x={mx} y={my + 5} textAnchor="middle" fill="#7FB0F0" fontFamily="'Shippori Mincho',serif" fontWeight="800" fontSize="17">{i + 1}</text>
       </g>
     );
   };
   return (
-    <svg viewBox="0 0 320 270" width="100%" style={{ maxWidth: 340 }} role="img" aria-label={`A triangle of ${nodes.map((n) => n.label).join(", ")}`}>
-      <defs><marker id="jjarr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#D8472E" /></marker></defs>
-      <path d="M160 38L286 232H34L160 38Z" fill="rgba(216,71,46,0.05)" stroke="#2A313A" strokeWidth="1.5" />
-      {arrow(0, 1, 0)}{arrow(1, 2, 1)}{arrow(2, 0, 2)}
+    <svg viewBox="0 0 320 300" width="100%" style={{ maxWidth: 340 }} role="img" aria-label={`A cycle of ${nodes.map((n) => n.label).join(", ")}`}>
+      <defs><marker id="jjarr" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#D8472E" /></marker></defs>
+      <InkRing x={cx - 106} y={cy - 106} size={212} seed={9} />
+      {arc(ang[0] + 25, ang[1] - 25, 0)}{arc(ang[1] + 25, ang[2] - 25, 1)}{arc(ang[2] + 25, ang[0] + 360 - 25, 2)}
       {nodes.map((n, i) => {
+        const [x, y] = at(ang[i]);
         const words = n.label.split(" ");
         const lines = words.length > 1 && n.label.length > 9 ? [words.slice(0, Math.ceil(words.length / 2)).join(" "), words.slice(Math.ceil(words.length / 2)).join(" ")] : [n.label];
         return (
           <g key={n.label}>
-            <circle cx={P[i][0]} cy={P[i][1]} r="32" fill={["#2E6BC6", "#7A3FB8", "#7B4A2A"][i]} stroke="#ECE6D8" strokeWidth="1.6" />
-            {lines.map((ln, k) => (
-              <text key={k} x={P[i][0]} y={P[i][1] + 5 + (k - (lines.length - 1) / 2) * 14} textAnchor="middle" fill="#ECE6D8" fontFamily="'Barlow Condensed',sans-serif" fontWeight="700" fontSize="14" letterSpacing=".4">{ln}</text>
-            ))}
+            <circle cx={x} cy={y} r="31" fill={PAGE_BELT[i]} stroke="#ECE6D8" strokeWidth="1.6" />
+            {lines.map((ln, k) => <text key={k} x={x} y={y + 5 + (k - (lines.length - 1) / 2) * 14} textAnchor="middle" fill="#fff" fontFamily="'Shippori Mincho',serif" fontWeight="700" fontSize={ln.length > 8 ? 11 : 13}>{ln}</text>)}
           </g>
         );
       })}

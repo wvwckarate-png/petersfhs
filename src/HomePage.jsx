@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Enso } from "./hubs/jiujitsu/Enso";
 
 const hubs = [
   {
@@ -67,15 +68,7 @@ function HubIcon({ path, color }) {
     );
   }
   if (path === "/jiujitsu") {
-    return (
-      <svg {...common}>
-        <path d="M12 3L21.5 20H2.5L12 3Z" stroke={color} strokeWidth="1.8" strokeLinejoin="round"/>
-        <path d="M12 9.5L17 18H7L12 9.5Z" stroke={color} strokeWidth="1.4" strokeLinejoin="round" opacity="0.6"/>
-        <circle cx="12" cy="3" r="1.6" fill="#D8472E"/>
-        <circle cx="21.5" cy="20" r="1.6" fill="#D8472E"/>
-        <circle cx="2.5" cy="20" r="1.6" fill="#D8472E"/>
-      </svg>
-    );
+    return <Enso size={34} bristles={46} points={40} seed={11} splatter={false} stops={[[0, "#2E6BC6"], [0.3, "#7A3FB8"], [0.6, "#7B4A2A"], [0.85, "#07080A"], [1, "#D8472E"]]} />;
   }
   return null;
 }
@@ -121,7 +114,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v7.1.0</footer>
+        <footer style={styles.footer}>v7.2.0</footer>
       </div>
 
       <style>{`
