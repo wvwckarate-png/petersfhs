@@ -50,7 +50,10 @@ export default function JiuJitsuPage() {
           <nav className="jj-nav" aria-label="Jiu-Jitsu hub">
             {NAV.map(([h, n]) => <a key={h} href={h} className={activeKey === h ? "on" : ""}>{n}</a>)}
           </nav>
-          <BrandLogo height={40} invert />
+          <div className="jj-logos" style={{ display: "flex", alignItems: "center", gap: 14, flexShrink: 0 }}>
+            <BrandLogo height={40} invert divider />
+            <img src="/images/proform-logo.png" alt="Pro Form Martial Arts" style={{ height: 40, width: "auto", display: "block", mixBlendMode: "screen" }} />
+          </div>
         </div>
         <div className="jj-belt" aria-hidden="true" />
       </header>

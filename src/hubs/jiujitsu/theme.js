@@ -63,7 +63,7 @@ export const CSS = `
 .jj-tier-label{ flex:1; display:flex; flex-direction:column; justify-content:center; padding:0 0 0 16px; }
 .jj-poshead{ display:grid; grid-template-columns:1fr 360px; gap:18px; align-items:center; }
 .jj-split{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
-@media (max-width:720px){ .jj-poshead{ grid-template-columns:1fr; } .jj-split{ grid-template-columns:1fr; } .jj-top-in{ gap:8px 12px; } .jj-brand{ flex:1; } .jj-nav{ order:3; flex-basis:100%; } }
+@media (max-width:720px){ .jj-poshead{ grid-template-columns:1fr; } .jj-split{ grid-template-columns:1fr; } .jj-top-in{ gap:8px 12px; } .jj-brand{ flex:1; white-space:nowrap; } .jj-logos img{ height:30px !important; } .jj-nav{ order:3; flex-basis:100%; } }
 .jj-sec summary{ cursor:pointer; list-style:none; font-family:'Manrope',sans-serif; font-size:19px; font-weight:700; padding:2px 0; }
 .jj-sec summary::-webkit-details-marker{ display:none; }
 .jj-sec summary::after{ content:"+"; float:right; color:${C.red}; }
