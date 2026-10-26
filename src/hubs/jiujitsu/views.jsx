@@ -333,8 +333,8 @@ export function TimerView() {
     <div>
       <div className="jj-eyebrow">Rounds</div>
       <h1 style={{ fontSize: 44 }}>Round timer</h1>
-      <p className="jj-muted">Set the round length, rest, and number of rounds. It beeps at the start of each round and counts down the last seconds.</p>
-      <div style={{ maxWidth: 520 }}><Timer work={180} rest={30} rounds={4} /></div>
+      <p className="jj-muted">Tap a preset or choose the round length, rest, and number of rounds (or infinite). Use it for drilling rounds, positional sparring, or class-style rounds.</p>
+      <div style={{ maxWidth: 520, marginTop: 14 }}><Timer work={300} rest={60} rounds={5} /></div>
     </div>
   );
 }
