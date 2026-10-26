@@ -8,9 +8,8 @@ import BrandLogo from "../../components/BrandLogo";
 export default function CollegeHubPage() {
   return (
     <div style={styles.page}>
-      <div style={{ textAlign: "center", marginBottom: 4 }}><BrandLogo height={72} /></div>
       <div style={styles.header}>
-        <h1 style={styles.title}>College Hub</h1>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap" }}><BrandLogo height={56} divider /><h1 style={styles.title}>College Hub</h1></div>
         <div style={styles.titleBar} />
         <p style={styles.subtitle}>Get a head start on your college courses, at your own pace.</p>
       </div>

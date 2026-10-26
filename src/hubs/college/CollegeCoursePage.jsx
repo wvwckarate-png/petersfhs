@@ -22,10 +22,9 @@ export default function CollegeCoursePage() {
 
   return (
     <div style={styles.page}>
-      <div style={{ textAlign: "center", marginBottom: 4 }}><BrandLogo height={72} /></div>
       <div style={styles.header}>
         <div style={styles.iconWrap}><CourseIcon id={course.id} size={40} /></div>
-        <h1 style={styles.title}>{course.name} <span style={styles.code}>— {course.code}</span></h1>
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap" }}><BrandLogo height={56} divider /><h1 style={styles.title}>{course.name} <span style={styles.code}>— {course.code}</span></h1></div>
         <div style={styles.titleBar} />
       </div>
       <div style={styles.box}>
