@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 8,
   name: "Alkenes: Structure and Electrophilic Addition",
+  companion: {"ocsl": "Addition Reactions", "khan": "Alkenes and alkynes (electrophilic addition)", "note": "OCSL's addition chapter covers every reaction of this unit and the next. Use this unit's mechanisms to check your arrow pushing."},
   intro: "The carbon–carbon double bond is the most generous functional group in organic chemistry. Its pi electrons sit exposed above and below the molecule, ready to be donated to anything that wants them, and nearly every reaction of an alkene is the pi bond reaching out to an electrophile. Master the simple logic here (electrons attack electrophiles, and the more stable carbocation wins) and a whole chapter of reactions collapses into one pattern.",
   sections: [
     {

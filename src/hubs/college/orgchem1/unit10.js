@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 10,
   name: "Alkynes",
+  companion: {"ocsl": "Addition Reactions (alkynes) · Synthesis", "khan": "Alkenes and alkynes (alkynes)", "note": "Alkynes reuse alkene logic with two extra twists: acidity of the terminal C–H and the tautomerization of enols."},
   intro: "If an alkene is a generous functional group, an alkyne is a double dose of the same idea: two pi bonds in a rod-straight, compact package. Alkynes react much like alkenes, only twice, and they bring one unique talent of their own: the C–H on a terminal alkyne is acidic enough to remove, which turns it into a carbon nucleophile that can build bigger molecules. That one trick, making a new carbon–carbon bond, is among the most valuable in all of synthesis.",
   sections: [
     {

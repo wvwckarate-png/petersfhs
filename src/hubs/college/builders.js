@@ -99,6 +99,15 @@ export function buildStudyHtml(courseLabel, unit, qCount) {
   </div>
 </div>
 
+${unit.companion ? `<div class="companion">
+  <div class="companion-label">Study this unit alongside</div>
+  <div class="companion-grid">
+    <div><span class="companion-src">Organic Chemistry as a Second Language</span><span class="companion-ref">${unit.companion.ocsl}</span></div>
+    <div><span class="companion-src">Khan Academy</span><span class="companion-ref">${unit.companion.khan}</span></div>
+  </div>
+  ${unit.companion.note ? `<p class="companion-note">${unit.companion.note}</p>` : ""}
+</div>
+` : ""}
 <div class="toc">
   <div class="toc-label">Jump to a section</div>
   <ol>

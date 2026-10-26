@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 8,
   name: "Amines",
+  companion: {"ocsl": "Amines", "khan": "Amines", "note": "Basicity (aniline vs alkylamines) and the Gabriel, azide, and diazonium routes are the staples of OCSL's amine chapter."},
   intro: "Nitrogen is the quiet workhorse of biochemistry. It carries the lone pair that makes amines basic and nucleophilic, and it sits in the neurotransmitters that carry your thoughts, the amino acids that build your muscles, the bases that spell your genes, and most of the drugs in a pharmacy. Where oxygen compounds are about carbonyls and alcohols, nitrogen compounds are about that one lone pair and what it is willing to do.",
   sections: [
     {

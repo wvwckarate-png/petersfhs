@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 10,
   name: "Amino Acids, Peptides, and Proteins",
+  companion: {"ocsl": "Not in OCSL: this is the biochemistry bridge", "khan": "Biomolecules (amino acids and proteins)", "note": "Learn the 20 side chains as six families, and then use Khan's biomolecules videos for protein structure."},
   intro: "Proteins do almost everything in your body: they contract your muscles, carry your oxygen, catalyze your metabolism, and defend you from infection. Yet every protein is built from the same twenty small molecules joined by the same amide bond. This unit is where the organic chemistry of amines, carboxylic acids, and stereochemistry meets biochemistry head-on, and the same ideas you have already learned explain how a protein is built, how it folds, and why it breaks.",
   sections: [
     {

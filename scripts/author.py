@@ -80,3 +80,5 @@ def repl_line(c,u,contains,new):
 def SVG(spec, caption=None): return _j({"svg": spec, **({"caption": caption} if caption else {})}) + ","
 def S(spec): return "{{svg:" + spec + "}}"
 def NEW(rot, fr="CH₃,H,H", bk="CH₃,H,H"): return f"newman; front={fr}; back={bk}; rot={rot}"
+def TBL(headers, rows): return "T(" + _j(headers) + ", " + _j(rows) + "),"
+def W(label, q, a): return _j({"worked": {"label": label, "q": q, "a": a}}) + ","

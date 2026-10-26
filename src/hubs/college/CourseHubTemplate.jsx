@@ -71,6 +71,12 @@ function ModeIcon({ id, size = 16 }) {
 
 // Extra study-guide styles: word-part tables and callouts specific to the College Hub.
 const EXTRA_CSS = `
+  .companion{background:#fff; border:1px solid var(--border); border-left:5px solid #EAAA00; border-radius:14px; padding:16px 20px; margin:18px 0;}
+  .companion-label{font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.1em; text-transform:uppercase; color:#8a6a00; margin-bottom:10px;}
+  .companion-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px 24px;}
+  .companion-src{display:block; font-size:12.5px; color:#767F73; font-weight:700;}
+  .companion-ref{display:block; font-size:15px; color:#002855; font-weight:700; line-height:1.4;}
+  .companion-note{margin:12px 0 0; font-size:14.5px; color:#2E332E;}
   .wp-table{width:100%; border-collapse:separate; border-spacing:0; margin:20px 0; font-size:14.5px; border-radius:16px; overflow:hidden; box-shadow:var(--shadow);}
   .wp-table th{background:#002855; color:#fff; text-align:left; padding:10px 14px; font-family:'Nunito',sans-serif; font-weight:700; font-size:12px; letter-spacing:0.03em;}
   .wp-table td{padding:9px 14px; background:#fff; border-bottom:1px solid var(--border); vertical-align:top;}

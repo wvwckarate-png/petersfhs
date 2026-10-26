@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 3,
   name: "Alkanes, Nomenclature, and Conformations",
+  companion: {"ocsl": "Nomenclature · Conformations", "khan": "Alkanes, cycloalkanes, and functional groups", "note": "Naming is a skill you build by repetition: do OCSL's nomenclature problems and the new section 3.5 here, which extends naming beyond alkanes to the functional-group priority list."},
   intro: "Alkanes are the quiet relatives in the organic family: all carbon and hydrogen, all single bonds, and almost no reactivity. They are also the skeleton of everything else, from fatty acids to steroids, so learning to name them and to picture their three-dimensional shapes pays off for the entire course. Nomenclature is the bookkeeping that lets two chemists on opposite sides of the world draw the same molecule from the same name, and conformation is the reason the same molecule can look quite different from one moment to the next.",
   sections: [
     {
@@ -114,6 +115,16 @@ export default {
         ] },
       ],
     },
+    {
+      id: "s35", num: "3.5", title: "Naming Beyond Alkanes: The Functional-Group Priority List",
+      blocks: [
+        {"p": "Once molecules carry functional groups, the name is built around the <strong>highest-priority group</strong>. Find it, make it the suffix, and number the chain so that group gets the lowest possible number. Everything else becomes a prefix, in alphabetical order."},
+        T(["Priority", "Group", "Suffix (if highest)", "Prefix (if not highest)"], [["1 (highest)", "Carboxylic acid", "-oic acid", "carboxy-"], ["2", "Ester", "-oate", "alkoxycarbonyl-"], ["3", "Amide", "-amide", "amido-"], ["4", "Nitrile", "-nitrile", "cyano-"], ["5", "Aldehyde", "-al", "oxo- / formyl-"], ["6", "Ketone", "-one", "oxo-"], ["7", "Alcohol", "-ol", "hydroxy-"], ["8", "Amine", "-amine", "amino-"], ["9", "Alkene / alkyne", "-ene / -yne", "(in the parent chain)"], ["10 (lowest)", "Halides, ethers, alkyl", "(never a suffix)", "fluoro-, chloro-, bromo-, iodo-, alkoxy-, alkyl-"]]),
+        {"mols": [["CC(O)CC(=O)O", "3-Hydroxybutanoic acid", "the acid wins; OH becomes 'hydroxy'"], ["CC(N)CC(=O)C", "4-Aminopentan-2-one", "the ketone wins; NH₂ becomes 'amino'"], ["CC=CC(O)C", "Pent-3-en-2-ol", "the alcohol wins and gets the lowest number; then the alkene"], ["CC(C)=CC(C)C", "2,4-Dimethylpent-2-ene", "the double bond gets the lowest number"], ["CC(=O)CCCC", "Hexan-2-one", "the carbonyl gets the lowest number"]]},
+        {"mols": [["Cc1ccccc1O", "2-Methylphenol", "phenol is the parent; o-cresol"], ["C1CCC(CC1)C(=O)O", "Cyclohexanecarboxylic acid", "a ring bearing the acid: 'carboxylic acid' suffix"], ["BrC1CCCCC1Cl", "1-Bromo-2-chlorocyclohexane", "alphabetical order decides who is number 1 when ties remain"], ["CCOC(=O)C", "Ethyl ethanoate", "ester: the alkyl group of the alcohol part comes first"]]},
+        {"trap": "Number the chain so the <strong>highest-priority group</strong> has the lowest number, even if that gives the substituents higher numbers. Only when the principal group has the same locant in both directions do the alkene, then the substituents, break the tie. Alphabetize prefixes ignoring <em>di-, tri-,</em> and <em>tert-</em>."},
+      ],
+    },
   ],
   practice: [
     ["Name (CH₃)₂CHCH₂CH₃.", "<strong>2-methylbutane</strong>."],
@@ -174,6 +185,10 @@ export default {
     ["{{svg:chair; 1eq=CH₃}}", "Equatorial methyl on a chair", "The stable arrangement."],
     ["{{svg:chair; 1ax=CH₃}}", "Axial methyl on a chair", "1,3-Diaxial strain, +1.7 kcal/mol."],
     ["{{mol:C1CCCCC1}}", "Cyclohexane", "The chair is essentially strain-free."],
+    ["Functional-group priority (high to low)", "Acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine > alkene > alkyne > halide/ether/alkyl"],
+    ["{{mol:CC(O)CC(=O)O}}", "3-Hydroxybutanoic acid", "Acid is the suffix, OH is a prefix."],
+    ["{{mol:CC=CC(O)C}}", "Pent-3-en-2-ol", "Alcohol outranks alkene."],
+    ["{{mol:BrC1CCCCC1Cl}}", "1-Bromo-2-chlorocyclohexane", "Alphabetical order assigns the lowest number."],
   ],
   questions: [
     ["Nomenclature", "The IUPAC name of CH₃CH(CH₃)CH₂CH₃ is:", ["2-Methylbutane", "3-Methylbutane", "Isopentane only", "2-Ethylpropane"], "The longest chain has four carbons with a methyl on carbon 2."],
@@ -209,5 +224,13 @@ export default {
     ["Cyclohexane", "trans-1,4-Dimethylcyclohexane is most stable in which chair?", ["{{svg:chair; 1eq=CH₃; 4eq=CH₃}}", "{{svg:chair; 1ax=CH₃; 4ax=CH₃; flip}}", "{{svg:chair; 1ax=CH₃; 4eq=CH₃}}", "{{svg:chair; 1eq=CH₃; 4ax=CH₃}}"], "The diequatorial chair avoids all 1,3-diaxial interactions for both methyls. After a ring flip both become axial, which costs about 3.4 kcal/mol."],
     ["Cyclohexane", "A tert-butyl group on a chair, {{svg:chair; 1eq=t-Bu}}, strongly prefers the equatorial position because:", ["Axial t-Bu suffers severe 1,3-diaxial steric strain from its three methyls", "The equatorial position has more s character", "t-Bu is electron withdrawing", "Axial bonds are shorter than equatorial bonds"], "The axial tert-butyl group clashes with the axial hydrogens on C3 and C5, costing about 5 kcal/mol, so the ring is effectively locked."],
     ["Cyclohexane", "Which cycloalkane has the greatest angle strain? {{mol:C1CC1}} {{mol:C1CCC1}} {{mol:C1CCCC1}} {{mol:C1CCCCC1}}", ["Cyclopropane", "Cyclobutane", "Cyclopentane", "Cyclohexane"], "Cyclopropane's 60° internal angles are far from the tetrahedral 109.5°. A chair cyclohexane has essentially no angle strain."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:CC(O)CC(=O)O}}?", ["3-Hydroxybutanoic acid", "3-Hydroxybutanal", "1-Carboxybutan-3-ol", "Butan-3-ol-1-oic acid"], "The carboxylic acid has the highest priority and takes the suffix. The OH becomes a hydroxy prefix at C3."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:CC=CC(O)C}}?", ["Pent-3-en-2-ol", "Pent-2-en-4-ol", "4-Hydroxypent-2-ene", "Pent-3-en-2-one"], "The alcohol outranks the alkene, so the chain is numbered from the end nearest the OH. The double bond is then at C3."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:CC(N)CC(=O)C}}?", ["4-Aminopentan-2-one", "2-Aminopentan-4-one", "4-Aminopentanal", "2-Amino-4-pentanol"], "Ketone outranks amine, so -one is the suffix at the lowest number (C2) and the amine is an amino prefix at C4."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:BrC1CCCCC1Cl}}?", ["1-Bromo-2-chlorocyclohexane", "1-Chloro-2-bromocyclohexane", "2-Bromo-1-chlorocyclohexane", "1,2-Bromochlorocyclohexane"], "Both substituents are at positions 1 and 2, and alphabetical order puts bromo before chloro, so bromine gets number 1."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:CC(C)=CC(C)C}}?", ["2,4-Dimethylpent-2-ene", "2,4-Dimethylpent-3-ene", "2,4,4-Trimethylbutene", "Isohexene"], "Number from the end that gives the double bond the lowest locant (C2). The methyls are then at C2 and C4."],
+    ["Nomenclature", "What is the IUPAC name of {{mol:Cc1ccccc1O}}?", ["2-Methylphenol", "Methylbenzenol", "3-Methylphenol", "2-Hydroxytoluene as the IUPAC name"], "The OH is attached to C1 of the ring (phenol), and the methyl is on the adjacent carbon, C2."],
+    ["Nomenclature", "Which functional group has the highest priority in naming {{mol:OCC(=O)O}}?", ["The carboxylic acid", "The alcohol", "They tie", "Neither: the longest chain decides"], "Carboxylic acids outrank alcohols, so the compound is hydroxyethanoic acid (glycolic acid) and the OH is only a prefix."],
+    ["Nomenclature", "In IUPAC names, which suffix signals an aldehyde?", ["-al", "-one", "-ol", "-oate"], "Aldehydes end in -al (ethanal, propanal), ketones in -one, alcohols in -ol, and esters in -oate."],
   ],
 };

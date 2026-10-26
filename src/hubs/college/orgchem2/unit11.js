@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 11,
   name: "Lipids, Nucleic Acids, and Steroids",
+  companion: {"ocsl": "Not in OCSL: this is the biochemistry bridge", "khan": "Biomolecules (lipids and nucleic acids)", "note": "Steroids, nucleotides, and ATP are the molecules you will see again in biochemistry and exercise physiology."},
   intro: "Two molecular families remain, and between them they store your energy, build your membranes, and write your genetic code. Lipids are defined not by a functional group but by a behavior: they dissolve in oil and not in water. Nucleic acids are the opposite, polymers of nitrogen heterocycles, sugars, and phosphates that carry information. Both are built from the reactions you already know, esters, amides, acetals, and aromatic rings, and both make the connection between organic chemistry and the body feel complete.",
   sections: [
     {

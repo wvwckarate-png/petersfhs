@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 5,
   name: "How Organic Reactions Work",
+  companion: {"ocsl": "Mechanisms (the four arrow-pushing steps)", "khan": "Substitution and elimination reactions (introduction to mechanisms)", "note": "This unit is the grammar of the whole course. OCSL's mechanisms chapter teaches the four elementary ionic steps; section 5.5 puts them side by side."},
   intro: "Before memorizing a single named reaction, learn the grammar that all of them share. Every organic reaction is bonds breaking and forming, and every one can be described by two questions: will it go (thermodynamics) and how fast (kinetics). The good news is that a handful of ideas, curved arrows, energy diagrams, and carbocation stability, will explain 90% of what comes in the next several units. This is the unit where organic chemistry stops being a list and starts being a language.",
   sections: [
     {
@@ -105,6 +106,18 @@ export default {
         ] },
       ],
     },
+    {
+      id: "s55", num: "5.5", title: "The Four Elementary Steps of Ionic Mechanisms",
+      blocks: [
+        {"p": "Every ionic mechanism in organic chemistry, however long, is built from <strong>four elementary steps</strong>. When you meet a new reaction, chop it into these pieces and the arrows write themselves."},
+        T(["Step", "What the arrows do", "Where you see it"], [["1. Nucleophilic attack", "a lone pair or π bond forms a bond to an electrophile", "SN2, capture of a carbocation, carbonyl addition"], ["2. Loss of a leaving group", "a bond breaks and both electrons go to the leaving group", "SN1, E1, formation of a carbocation"], ["3. Proton transfer", "a base uses a lone pair to take H⁺ from an acid", "every acid-catalyzed or base-catalyzed step"], ["4. Rearrangement", "a carbocation shifts H or alkyl with its electrons", "hydride and methyl shifts"]]),
+        {"rxn": "C[C+](C)C + [OH-] >> CC(C)(C)O | 1. nucleophilic attack", "caption": "A nucleophile (hydroxide's lone pair) attacks an electrophilic carbocation and forms a new σ bond."},
+        {"rxn": "CC(C)(C)[OH2+] >> C[C+](C)C + O | 2. loss of a leaving group", "caption": "The C–O bond breaks and both electrons go to oxygen, which leaves as neutral water."},
+        {"rxn": "CC[OH2+] + O >> CCO + [OH3+] | 3. proton transfer", "caption": "Water uses a lone pair to remove H⁺ from the protonated alcohol."},
+        {"rxn": "C[CH+]C(C)C >> CC[C+](C)C | 4. rearrangement", "caption": "A hydride shifts to the neighboring cationic carbon, converting a secondary cation to a tertiary one."},
+        {"key": "<strong>Mechanism checks:</strong> every arrow starts at a lone pair or bond and ends at an atom or between two atoms; charges balance in each step; carbocations do not appear in strongly basic conditions, and strong bases and nucleophiles do not appear in strongly acidic ones. Use them to catch a wrong mechanism."},
+      ],
+    },
   ],
   practice: [
     ["Is a reaction with ΔG° = −5 kcal/mol fast or slow?", "ΔG° says it is favorable but says <strong>nothing about the rate</strong>, which depends on the activation energy."],
@@ -164,6 +177,9 @@ export default {
     ["{{mol:[OH-]}}", "Hydroxide", "Poor leaving group; strong base and nucleophile."],
     ["{{svg:energy; twostep}}", "Two-step reaction energy diagram", "One intermediate; the higher peak is rate-determining."],
     ["{{svg:energy; exo}}", "Exergonic one-step diagram", "Products below reactants; one transition state."],
+    ["The four elementary ionic steps", "Nucleophilic attack · loss of a leaving group · proton transfer · carbocation rearrangement"],
+    ["{{rxn:C[C+](C)C + [OH-] >> CC(C)(C)O}}", "Nucleophilic attack on a carbocation", "A lone pair forms a new bond."],
+    ["{{rxn:CC[OH2+] + O >> CCO + [OH3+]}}", "Proton transfer", "A base removes H⁺ from an acid."],
   ],
   questions: [
     ["Thermodynamics", "A reaction with a negative ΔG° is:", ["Thermodynamically favorable", "Always fast", "Always very slow", "At equilibrium already"], "The sign gives direction, not speed."],
@@ -196,5 +212,11 @@ export default {
     ["Energy diagrams", "In {{svg:energy; twostep}}, which step is rate-determining?", ["The first step, which has the higher peak", "The second step, since it forms the product", "Both equally", "The step with the lower activation energy"], "The slowest step is the one that passes over the highest barrier, here the first transition state."],
     ["Thermodynamics", "In the equilibrium {{rxn:CC(=O)O + CCO <=> CC(=O)OCC + O}}, how can the yield of ester be increased?", ["Remove water or add excess ethanol", "Add more water", "Lower the temperature to freeze the ester", "Add a catalyst to lower Ea only for the forward reaction"], "Le Châtelier's principle: removing a product or adding more of a reactant shifts the equilibrium to the right. A catalyst changes the rate but not the position of equilibrium."],
     ["Nucleophiles and electrophiles", "Which carbon in {{mol:CC(=O)C}} is the electrophilic site?", ["The carbonyl carbon", "The CH₃ carbons", "The oxygen", "All three carbons equally"], "The C=O bond is polarized toward oxygen, leaving a partial positive charge on carbon, which nucleophiles attack."],
+    ["Mechanism steps", "Which elementary step is this? {{rxn:C[CH+]C + [Br-] >> CC(C)Br}}", ["Nucleophilic attack", "Loss of a leaving group", "Proton transfer", "Rearrangement"], "Bromide's lone pair attacks the electrophilic carbocation to form a new C–Br bond."],
+    ["Mechanism steps", "Which elementary step is this? {{rxn:CC(C)(C)Cl >> C[C+](C)C + [Cl-]}}", ["Loss of a leaving group", "Nucleophilic attack", "Proton transfer", "Rearrangement"], "The C–Cl bond breaks and both electrons stay with chlorine, creating a carbocation and chloride."],
+    ["Mechanism steps", "Which elementary step is this? {{rxn:CC(=O)O + N >> CC(=O)[O-] + [NH4+]}}", ["Proton transfer", "Nucleophilic attack", "Loss of a leaving group", "Rearrangement"], "Ammonia uses its lone pair to take H⁺ from acetic acid. No carbon bonds are made or broken."],
+    ["Mechanism steps", "Which elementary step is this? {{rxn:C[CH+]C(C)C >> CC[C+](C)C}}", ["Rearrangement (a 1,2-hydride shift)", "Nucleophilic attack", "Proton transfer", "Loss of a leaving group"], "A hydrogen moves with its bonding pair to the adjacent cationic carbon, giving a more stable tertiary carbocation."],
+    ["Mechanism steps", "Which of these is NOT one of the four elementary ionic steps?", ["A carbocation reacting with a free radical", "Nucleophilic attack", "Proton transfer", "Loss of a leaving group"], "Ionic mechanisms are built from attack, loss of a leaving group, proton transfer, and rearrangement. Radical steps use fishhook arrows and belong to a different mechanism type."],
+    ["Mechanism steps", "Which sequence of elementary steps describes the SN1 reaction of tert-butyl bromide in water?", ["Loss of a leaving group, nucleophilic attack, proton transfer", "Nucleophilic attack, loss of a leaving group", "Proton transfer, rearrangement, attack", "Loss of a leaving group only"], "Bromide leaves to make the carbocation, water attacks the cation, and a second water molecule removes H⁺ from the oxonium ion."],
   ],
 };

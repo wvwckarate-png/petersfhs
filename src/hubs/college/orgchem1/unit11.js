@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 11,
   name: "Alcohols, Ethers, Epoxides, and Thiols",
+  companion: {"ocsl": "Alcohols", "khan": "Alcohols, ethers, epoxides, and sulfides", "note": "OCSL's alcohols chapter organizes everything around 'what does the OH become?'. Use section 11.2's reaction list as your checklist."},
   intro: "Alcohols are the great hub of organic chemistry: they can be made from alkenes, halides, and carbonyls, and they can be turned into halides, alkenes, ketones, and acids. They are also all around your body, from the glucose in your blood to the cholesterol in your cell membranes to the ethanol in a pint of beer. In this unit we learn how to name them, how to make them, and how to turn one into another, and we pay a little attention to their quieter cousins, ethers and thiols.",
   sections: [
     {
@@ -78,6 +79,9 @@ export default {
         {"rxn": "CC1CO1 + C[O-] >> COCC(C)O | NaOCH₃, CH₃OH (basic)", "caption": "<strong>Under basic conditions</strong> the nucleophile attacks the <em>less hindered</em> carbon of the epoxide in an SN2 reaction, with inversion."},
         {"rxn": "CC1CO1 + CO >> COC(C)CO | H₂SO₄, CH₃OH (acidic)", "caption": "<strong>Under acidic conditions</strong> the protonated epoxide has SN1-like character, and the nucleophile attacks the <em>more substituted</em> carbon, which bears more positive charge."},
         {"rxn": "CCS + SCC >> CCSSCC | mild oxidation (I₂ or O₂)", "caption": "Thiols are easily oxidized to disulfides. In proteins this reaction links two cysteine residues and stabilizes tertiary structure."},
+        {"mols": [["CSC", "Dimethyl sulfide", "a thioether (sulfide)"], ["CS(C)=O", "DMSO", "a sulfoxide"], ["CS(C)(=O)=O", "Dimethyl sulfone", "a sulfone"], ["C[S+](CC[C@H](N)C(=O)O)C[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1O", "S-Adenosylmethionine (SAM)", "the cell's methyl donor: a sulfonium ion"]]},
+        {"rxn": "CSC + CBr >> C[S+](C)C + [Br-] | SN2", "caption": "<strong>Sulfides are excellent nucleophiles</strong> (sulfur is large and polarizable) and react with alkyl halides to form sulfonium salts. A sulfonium ion is a great leaving group, so SAM transfers its methyl group to nucleophiles in the cell by SN2."},
+        {"rxn": "CSC >> CS(C)=O | H₂O₂, 1 equiv", "caption": "Sulfides oxidize easily to sulfoxides, and to sulfones with excess oxidant. Alcohols and ethers do not do this."},
         { recap: [
           "Describe the properties and synthesis of ethers.",
           "Open epoxides under acidic and basic conditions and predict the site of attack.",
@@ -168,6 +172,8 @@ export default {
     ["{{mol:CCSSCC}}", "Disulfide", "S–S bond from oxidizing two thiols; links cysteines in proteins."],
     ["{{mol:CC(O)C(=O)O}}", "Lactic acid (lactate)", "Reduced form of pyruvate; made by lactate dehydrogenase."],
     ["{{mol:CC(=O)C(=O)O}}", "Pyruvic acid (pyruvate)", "End product of glycolysis."],
+    ["{{mol:CSC}}", "Sulfide (thioether)", "Good nucleophile; oxidizes to sulfoxide and sulfone."],
+    ["{{mol:C[S+](C)C}}", "Sulfonium ion", "S-alkylated sulfide; excellent leaving group (as in SAM)."],
   ],
   questions: [
     ["Nomenclature", "The name of CH₃CH₂CH(OH)CH₃ is:", ["2-Butanol", "1-Butanol", "2-Propanol", "Butanal"], "The OH is on carbon 2 of a four-carbon chain."],
@@ -202,5 +208,7 @@ export default {
     ["Thiols", "Mild oxidation of {{mol:CCS}} gives:", ["{{mol:CCSSCC}}", "{{mol:CCS(=O)(=O)O}}", "{{mol:CCO}}", "{{mol:CC=S}}"], "Two thiols couple to form a disulfide (S–S) bond, the same linkage that joins cysteine residues in proteins."],
     ["Biological", "Lactate dehydrogenase interconverts {{mol:CC(O)C(=O)O}} and {{mol:CC(=O)C(=O)O}}. Going from left to right is:", ["An oxidation of a secondary alcohol to a ketone", "A reduction of a ketone to an alcohol", "A dehydration", "A hydrolysis"], "Loss of the carbinol hydrogen and the OH hydrogen forms a C=O, which is oxidation. NAD⁺ is the hydride acceptor."],
     ["Biological", "Alcohol dehydrogenase converts ethanol into:", ["Acetaldehyde, {{mol:CC=O}}", "Acetic acid, {{mol:CC(=O)O}}", "Ethyl acetate, {{mol:CC(=O)OCC}}", "Ethylene, {{mol:C=C}}"], "This is a primary alcohol oxidized to an aldehyde. A second enzyme then oxidizes the aldehyde to acetic acid."],
+    ["Sulfides", "What does {{mol:CSC}} form with CH₃Br?", ["{{mol:C[S+](C)C}}", "{{mol:CSC}}", "{{mol:CS(C)=O}}", "{{mol:CCS}}"], "Sulfur is a good nucleophile and is alkylated by SN2 to give the trimethylsulfonium ion."],
+    ["Sulfides", "The biological methyl donor SAM works because the sulfonium group is:", ["An excellent leaving group in SN2 reactions", "A strong base", "A radical initiator", "A poor leaving group"], "A positively charged sulfur pulls electrons strongly, so the S–CH₃ bond is easily attacked by a nucleophile, which then picks up the methyl group."],
   ],
 };

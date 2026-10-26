@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 5,
   name: "Aldehydes and Ketones",
+  companion: {"ocsl": "Ketones and Aldehydes", "khan": "Aldehydes and ketones", "note": "This is the first of the carbonyl units: nucleophilic addition to C=O. Work OCSL's chapter in order: Grignard, hydrates and acetals, imines, Wittig."},
   intro: "The carbonyl group, a carbon doubly bonded to oxygen, is the most important functional group in biological chemistry. It appears in every sugar, every fat, every protein backbone, and every step of your energy metabolism. The reason is simple: oxygen pulls electrons away from carbon, leaving the carbonyl carbon positive and begging for a nucleophile. Nearly everything an aldehyde or ketone does is a variation on that single event, and once you see it, the next several units are really the same reaction in different costumes.",
   sections: [
     {

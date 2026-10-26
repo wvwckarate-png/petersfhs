@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 6,
   name: "Alkyl Halides and Nucleophilic Substitution",
+  companion: {"ocsl": "Substitution Reactions", "khan": "Substitution and elimination reactions (SN1 and SN2)", "note": "Pair OCSL's substitution chapter with this unit and learn the SN1/SN2 comparison table cold. It is the most-tested table of the semester."},
   intro: "Meet the first real reactions of the course, and the workhorses of synthesis. An alkyl halide is a carbon skeleton with a halogen attached, and a halogen is a very good leaving group sitting on a very electrophilic carbon. Swap it for a nucleophile and you can build an alcohol, an ether, an amine, a nitrile, or a new carbon–carbon bond. There are two ways the swap can happen, SN2 and SN1, and deciding between them is the most important skill in this unit.",
   sections: [
     {

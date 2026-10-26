@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 6,
   name: "Carboxylic Acids and Their Derivatives",
+  companion: {"ocsl": "Carboxylic Acid Derivatives", "khan": "Carboxylic acids and derivatives", "note": "The unit is one mechanism (addition–elimination) applied to five derivatives. Memorize the reactivity ladder first."},
   intro: "Every protein is held together by amide bonds, every fat is built from ester bonds, and the energy currency of your cells, ATP, is an anhydride. These are the carboxylic acid derivatives, a family of functional groups that all share one carbonyl and one theme: a nucleophile attacks, a tetrahedral intermediate forms, and a leaving group departs. That two-step sequence, nucleophilic acyl substitution, is the engine behind digestion, protein synthesis, drug metabolism, and the soap in your shower.",
   sections: [
     {

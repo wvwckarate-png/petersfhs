@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 9,
   name: "Alkenes: Addition, Oxidation, and Reduction",
+  companion: {"ocsl": "Addition Reactions · Synthesis", "khan": "Alkenes and alkynes (hydroboration, epoxidation, ozonolysis)", "note": "Learn the alkene reagent map in section 9.4 and then practice working backward from products in section 9.5."},
   intro: "The electrophilic additions gave us Markovnikov products. This unit is about the opposite and the complementary: reactions that go anti-Markovnikov, reactions that add to the same face, reactions that cut the double bond in two, and reactions that reduce it to a plain single bond. Together with the last unit, they turn a single functional group into a Swiss Army knife, and the secret is simply to remember what each reagent does to regiochemistry and stereochemistry.",
   sections: [
     {
@@ -108,6 +109,17 @@ export default {
         ] },
       ],
     },
+    {
+      id: "s95", num: "9.5", title: "Thinking Backwards: Retrosynthesis",
+      blocks: [
+        {"p": "<strong>Synthesis problems</strong> give you a starting material and a target and ask for the reagents in between. The reliable method is to work <em>backward</em> from the target, one step at a time, until you reach something you started with."},
+        T(["Step", "Question to ask"], [["1", "Compare the carbon skeletons. Does the product have more carbons than the starting material? (If so, you need a C–C bond forming step such as acetylide alkylation.)"], ["2", "Compare the functional groups. What is the target's functional group and what reaction makes it?"], ["3", "Work backward one step at a time: which precursor, with which reagents, gives the target?"], ["4", "Check regiochemistry and stereochemistry at every step (Markovnikov or anti-Markovnikov, syn or anti, cis or trans)."]]),
+        {"worked": {"label": "Worked Example 1", "q": "Convert 1-butene into 2-butanone.", "a": "Work backward: 2-butanone is a ketone, made by oxidizing the secondary alcohol 2-butanol. 2-Butanol comes from Markovnikov hydration of 1-butene. {{rxn:C=CCC >> CC(O)CC | H₂O, H₂SO₄ (or 1) Hg(OAc)₂, H₂O; 2) NaBH₄)}} {{rxn:CC(O)CC >> CC(=O)CC | PCC or CrO₃, H₂SO₄}}"}},
+        {"worked": {"label": "Worked Example 2", "q": "Convert 1-pentyne into pentanal.", "a": "The target is an aldehyde at the terminal carbon, so you need <em>anti-Markovnikov</em> hydration of the alkyne: hydroboration–oxidation. {{rxn:C#CCCC >> CCCCC=O | 1) Sia₂BH; 2) H₂O₂, NaOH}} (Acid-catalyzed hydration would give 2-pentanone instead.)"}},
+        {"worked": {"label": "Worked Example 3", "q": "Convert 2-bromopropane into propyne.", "a": "A triple bond is made by two eliminations from a dibromide, and a dibromide comes from an alkene. {{rxn:CC(C)Br >> C=CC | NaOEt (E2)}} {{rxn:C=CC >> CC(Br)CBr | Br₂}} {{rxn:CC(Br)CBr >> C#CC | excess NaNH₂, then H₂O}}"}},
+        {"key": "Every synthesis reduces to a small set of moves: <strong>change a functional group</strong> (addition, elimination, substitution, oxidation, reduction) or <strong>change the carbon skeleton</strong> (acetylide alkylation, cyanide SN2, Grignard). If you can name the move, you can write the reagents."},
+      ],
+    },
   ],
   practice: [
     ["What is the product of 1-hexene + (1) BH₃·THF, (2) H₂O₂/NaOH?", "<strong>1-Hexanol</strong> (anti-Markovnikov alcohol)."],
@@ -164,6 +176,8 @@ export default {
     ["{{mol:C1CCC2OC2C1}}", "Cyclohexene oxide", "An epoxide made from cyclohexene + mCPBA."],
     ["{{mol:CC1CO1}}", "Propylene oxide (methyloxirane)", "Epoxide of propene."],
     ["{{mol:O=CCCCCC=O}}", "Hexanedial", "Ozonolysis product of cyclohexene (reductive workup)."],
+    ["Retrosynthesis strategy", "1. Compare skeletons. 2. Identify the functional group change. 3. Work backward step by step. 4. Check regio- and stereochemistry."],
+    ["Hydration of a terminal alkyne: ketone or aldehyde?", "H₂SO₄/HgSO₄ gives the methyl ketone; hydroboration–oxidation gives the aldehyde."],
   ],
   questions: [
     ["Hydroboration", "Hydroboration–oxidation of a terminal alkene gives:", ["A primary alcohol", "A secondary alcohol", "An alkyl halide", "A ketone"], "OH ends up on the less substituted carbon."],
@@ -197,5 +211,10 @@ export default {
     ["Ozonolysis", "Treatment of {{mol:CC(C)=CC}} with hot KMnO₄ gives:", ["{{mol:CC(C)=O}} and {{mol:CC(=O)O}}", "{{mol:CC(C)=O}} and {{mol:CC=O}}", "{{mol:CC(C)C(C)O}}", "No reaction"], "Strong oxidizing conditions oxidize any aldehyde formed to a carboxylic acid, so the monosubstituted end becomes acetic acid."],
     ["Planning", "What reagent converts {{mol:CC=C}} into {{mol:CC(C)Br}}?", ["HBr", "HBr with peroxides", "Br₂", "1) BH₃; 2) HBr"], "Plain HBr adds in the Markovnikov sense. Adding peroxides would reverse the regiochemistry to give the 1-bromo compound."],
     ["Planning", "What reagent converts {{mol:CC=C}} into {{mol:CC1CO1}}?", ["mCPBA", "Br₂, H₂O", "H₂, Pd/C", "1) O₃; 2) (CH₃)₂S"], "Peroxy acids such as mCPBA transfer an oxygen atom to alkenes to give epoxides."],
+    ["Synthesis", "Which sequence converts {{mol:C=CCC}} into {{mol:CC(=O)CC}}?", ["1) H₂O, H₂SO₄; 2) PCC", "1) BH₃; 2) H₂O₂, NaOH; 3) PCC", "1) HBr; 2) NaOH", "1) O₃; 2) (CH₃)₂S"], "Markovnikov hydration puts OH on C2, giving 2-butanol, and PCC oxidizes the secondary alcohol to the ketone. Hydroboration would give 1-butanol and then butanal."],
+    ["Synthesis", "Which sequence converts {{mol:C#CCCC}} into {{mol:CCCCC=O}}?", ["1) Sia₂BH; 2) H₂O₂, NaOH", "H₂SO₄, HgSO₄, H₂O", "H₂, Lindlar", "1) NaNH₂; 2) CH₃Br"], "Hydroboration–oxidation of a terminal alkyne is anti-Markovnikov and gives the aldehyde. Mercury-catalyzed hydration is Markovnikov and gives the methyl ketone."],
+    ["Synthesis", "Which sequence converts {{mol:CC(C)Br}} into {{mol:C#CC}}?", ["1) NaOEt; 2) Br₂; 3) excess NaNH₂", "1) NaNH₂; 2) CH₃Br", "1) H₂, Pd/C; 2) Br₂", "1) HBr; 2) Mg"], "Eliminate to propene, add bromine to make the vicinal dibromide, and then eliminate twice to form the triple bond."],
+    ["Synthesis", "Which of these products CANNOT be made from cyclohexene {{mol:C1=CCCCC1}} in a single step?", ["{{mol:OC1CCCCC1C}}", "{{mol:Br[C@H]1CCCC[C@@H]1Br}}", "{{mol:C1CCC2OC2C1}}", "{{mol:C1CCCCC1}}"], "Cyclohexene has no extra carbon, so a methyl group cannot be installed by simple addition. Bromination, epoxidation, and hydrogenation all work in one step."],
+    ["Synthesis", "When a target has more carbons than the starting alkyne, which step is likely required?", ["Alkylation of an acetylide or another C–C bond-forming reaction", "Catalytic hydrogenation", "Ozonolysis", "Epoxidation"], "Skeleton-extending moves, such as an acetylide attacking an alkyl halide, are the only way to add carbons here. Hydrogenation, ozonolysis, and epoxidation keep or decrease the carbon count."],
   ],
 };

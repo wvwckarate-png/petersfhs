@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 9,
   name: "Carbohydrates",
+  companion: {"ocsl": "Not in OCSL: this is the biochemistry bridge", "khan": "Biomolecules (carbohydrates)", "note": "The books stop before biomolecules. Use Khan's biomolecules videos for the vocabulary, and the labelled structures here to learn what each sugar looks like."},
   intro: "Sugars are polyhydroxy aldehydes and ketones, and almost everything you learned about alcohols and carbonyls shows up in them at the same time. They are the fuel for your brain and muscles, the stored energy in your liver, the fiber in your diet, and the sweet taste that launched a thousand cereals. Carbohydrate chemistry looks like a mountain of drawings, but it is just the same few reactions, hemiacetal formation, acetal formation, oxidation, and reduction, performed on molecules with many stereocenters.",
   sections: [
     {

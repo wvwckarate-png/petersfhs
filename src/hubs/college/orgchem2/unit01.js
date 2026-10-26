@@ -4,7 +4,8 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 1,
   name: "Nuclear Magnetic Resonance Spectroscopy",
-  intro: "If infrared spectroscopy tells you which functional groups are present, NMR tells you how the whole molecule is put together. It is the technique chemists use to determine structures, and the same physics, under a different name, is how an MRI scanner looks inside a knee or a brain without a single X-ray. An NMR spectrum looks intimidating at first, but it is really a map with four kinds of information: how many signals, where they sit, how big they are, and how they split. Learn those four and an unknown molecule starts to talk.",
+  companion: {"ocsl": "IR and NMR spectroscopy (6th edition)", "khan": "Spectroscopy (NMR)", "note": "Learn NMR in a fixed order: count signals, then read each signal's shift, integration, and splitting. The spectra here are labelled so you can check each step."},
+  intro: "If infrared spectroscopy tells you which functional groups are present, NMR tells you how the whole molecule is put together. It is the technique chemists use to determine structures, and the same physics, under a different name, is how an MRI scanner looks inside a knee or a brain without a single X-ray. An NMR spectrum looks intimidating at first, but it is really a map with four kinds of information: how many signals, where they sit, how big they are, and how they split. Learn those four and an unknown molecule starts to talk. Each unit opens with a 'Study this unit alongside' box naming the matching chapters of Organic Chemistry as a Second Language and the Khan Academy topics. A good loop is: read the OCSL chapter, watch the Khan topic, then use this guide's drills, structures, flashcards, and MCQs to test yourself.",
   sections: [
     {
       id: "s11", num: "1.1", title: "The Physics and the Four Pieces of Information",

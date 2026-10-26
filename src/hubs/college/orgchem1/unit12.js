@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 12,
   name: "Radical Reactions, Infrared Spectroscopy, and Mass Spectrometry",
+  companion: {"ocsl": "Radical reactions (where your edition includes them) · Synthesis", "khan": "Spectroscopy (IR and mass spectrometry)", "note": "IR and MS are where the semester's structure skills get applied. Practice with the spectra in 12.3 and 12.4 and then with Khan's IR practice."},
   intro: "To close out the first semester, two very different topics that share a theme: seeing what molecules are doing when you cannot see them. Radicals are the short-lived, unpaired-electron species behind combustion, aging, and the antioxidant aisle at the supermarket. Spectroscopy is the toolkit chemists use to identify an unknown molecule in minutes, by shining energy at it and reading the response. Both of them turn up again in physiology, medicine, and drug testing.",
   sections: [
     {

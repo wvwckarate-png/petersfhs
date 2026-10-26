@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 2,
   name: "Acids and Bases",
+  companion: {"ocsl": "Acid–Base Reactions (the ARIO method)", "khan": "Resonance and acid-base chemistry", "note": "OCSL's ARIO method is the same one used in section 2.3. Work its problems, then use the new step-by-step ranking procedure in section 2.5."},
   intro: "If organic chemistry has one master key, it is acid–base chemistry. Nearly every reaction in the course is, at heart, a transfer of a proton or a sharing of an electron pair, and the same idea that explains why vinegar is sour explains why an enzyme can work at body temperature. Learn to rank acidity and you will be able to predict which way a reaction goes before you draw a single arrow.",
   sections: [
     {
@@ -108,6 +109,17 @@ export default {
         ] },
       ],
     },
+    {
+      id: "s25", num: "2.5", title: "Ranking Acidity: A Step-by-Step Procedure",
+      blocks: [
+        {"p": "Exams love the question 'which is more acidic?' and there is one reliable way to answer it. <strong>Always compare the conjugate bases</strong>: the more stable the conjugate base, the stronger the acid."},
+        T(["Step", "What to do"], [["1", "Draw the conjugate base of each acid (remove the proton you think is acidic)."], ["2", "<strong>A</strong>tom: compare the atoms bearing the charge. Across a period, more electronegative is better (O⁻ over N⁻ over C⁻). Down a group, larger is better (S⁻ over O⁻, I⁻ over F⁻)."], ["3", "<strong>R</strong>esonance: if the charge is delocalized onto other atoms, the base is far more stable."], ["4", "<strong>I</strong>nduction: electron-withdrawing atoms nearby (F, Cl, C=O, NO₂) stabilize the charge, and the effect fades with distance."], ["5", "<strong>O</strong>rbital: charge in an orbital with more s character is more stable (sp > sp² > sp³)."]]),
+        {"rxn": "CCS >> CC[S-] | thiol: larger atom spreads the charge", "caption": "Compare ethanol and ethanethiol. Both lose H⁺ from an atom in the same group, but sulfur is much larger than oxygen, so thiolate spreads its charge over a larger volume. Ethanethiol (pKa about 10.5) is more acidic than ethanol (pKa 16) even though oxygen is more electronegative: the <em>Atom</em> rule goes by size down a group."},
+        {"mols": [["COc1ccc(cc1)C(=O)O", "4-Methoxybenzoic acid", "pKa 4.5 · OCH₃ donates by resonance: less acidic"], ["OC(=O)c1ccccc1", "Benzoic acid", "pKa 4.2 · reference"], ["OC(=O)c1ccc(cc1)[N+](=O)[O-]", "4-Nitrobenzoic acid", "pKa 3.4 · NO₂ withdraws: more acidic"]]},
+        {"mols": [["CCC(=O)O", "Propanoic acid", "pKa 4.9"], ["FCC(=O)O", "Fluoroacetic acid", "pKa 2.6: F on the α carbon"], ["FCCC(=O)O", "3-Fluoropropanoic acid", "pKa 4.0: F one carbon farther away has a smaller effect"]]},
+        {"key": "When two factors disagree, use this order of importance: <strong>Atom</strong> (or the type of atom bearing the charge) first when the atoms differ, and <strong>Resonance</strong> beats Induction. If the charge sits on the <em>same</em> kind of atom in both bases, go straight to Resonance, then Induction, then Orbital."},
+      ],
+    },
   ],
   practice: [
     ["Which is the stronger acid: acetic acid (pKa 4.8) or phenol (pKa 10)? Why?", "<strong>Acetic acid</strong>: its lower pKa reflects a more stable conjugate base (the acetate charge is delocalized over two oxygens, and phenoxide's over a ring)."],
@@ -167,6 +179,10 @@ export default {
     ["{{mol:CC[O-]}}", "Ethoxide, the conjugate base of ethanol", "A strong base; used in E2 and aldol chemistry."],
     ["{{mol:[NH2-]}}", "Amide ion, conjugate base of ammonia (pKa 38)", "NaNH₂ deprotonates terminal alkynes."],
     ["{{mol:[NH3+]CC(=O)[O-]}}", "Glycine zwitterion", "The dominant form of an amino acid near pH 7."],
+    ["ARIO order", "Atom, Resonance, Induction, Orbital: compare the conjugate bases in this order"],
+    ["Rule for comparing acidity", "Always compare the stability of the conjugate bases: more stable base = stronger acid"],
+    ["{{mol:CCS}}", "Ethanethiol, pKa ≈ 10.5", "More acidic than ethanol (16): S is larger."],
+    ["{{mol:OC(=O)c1ccc(cc1)[N+](=O)[O-]}}", "4-Nitrobenzoic acid, pKa 3.4", "EWG makes the acid stronger."],
   ],
   questions: [
     ["Definitions", "A Brønsted–Lowry acid is a:", ["Proton donor", "Proton acceptor", "Electron-pair donor", "Neutron donor"], "A Lewis acid is an electron-pair acceptor."],
@@ -199,5 +215,11 @@ export default {
     ["Resonance and acidity", "Why is phenol {{mol:Oc1ccccc1}} more acidic than cyclohexanol?", ["The phenoxide anion is stabilized by delocalization of its charge into the ring", "Phenol has a stronger O–H bond", "The ring donates electrons to oxygen", "Phenol is larger, so the H is farther away"], "Delocalizing the negative charge into the ortho and para carbons stabilizes the conjugate base. Cyclohexoxide has no resonance."],
     ["Lewis acids and bases", "In {{rxn:FB(F)F + N(C)(C)C >> F[B-](F)(F)[N+](C)(C)C}}, which species is the Lewis base?", ["Trimethylamine, because its lone pair forms the new bond", "Boron trifluoride, because it has fluorines", "Both are Lewis bases", "Neither, since no proton transferred"], "The nitrogen lone pair is donated into the empty p orbital on boron. The donor is the Lewis base and the acceptor is the Lewis acid."],
     ["Biological acid–base", "At physiological pH (7.4), what is the dominant form of the amino acid glycine?", ["{{mol:[NH3+]CC(=O)[O-]}}", "{{mol:NCC(=O)O}}", "{{mol:[NH3+]CC(=O)O}}", "{{mol:NCC(=O)[O-]}}"], "At pH 7.4 the carboxylic acid (pKa 2.3) has lost its proton and the ammonium (pKa 9.6) has kept its proton, giving the zwitterion."],
+    ["Ranking acidity", "Which compound is the stronger acid, {{mol:CCS}} or {{mol:CCO}}?", ["{{mol:CCS}}, because S⁻ is larger and spreads its charge better", "{{mol:CCO}}, because oxygen is more electronegative", "{{mol:CCO}}, because oxygen is smaller", "They are equally acidic"], "Going down a group, acidity increases with the size of the atom that bears the negative charge. This effect outweighs electronegativity when comparing atoms in the same column."],
+    ["Ranking acidity", "Which of these four carboxylic acids is the strongest?", ["{{mol:OC(=O)c1ccc(cc1)[N+](=O)[O-]}}", "{{mol:OC(=O)c1ccccc1}}", "{{mol:COc1ccc(cc1)C(=O)O}}", "{{mol:CC(=O)O}}"], "The nitro group is electron-withdrawing and stabilizes the carboxylate through the ring, so 4-nitrobenzoic acid (pKa 3.4) beats benzoic acid (4.2) and 4-methoxybenzoic acid (4.5)."],
+    ["Ranking acidity", "In {{mol:OC(=O)c1ccc(O)cc1}}, which proton is the most acidic?", ["The carboxylic acid O–H", "The phenol O–H", "An aromatic C–H", "All are equally acidic"], "Compare the conjugate bases: carboxylate delocalizes its charge over two oxygens, while phenoxide spreads its charge into the ring. The carboxylate is better, so the COOH proton (pKa about 4.5) is far more acidic than the phenol (about 9.3)."],
+    ["Ranking acidity", "Which is the stronger acid?", ["{{mol:FCC(=O)O}}", "{{mol:CCC(=O)O}}", "{{mol:FCCC(=O)O}}", "{{mol:CC(=O)O}}"], "Fluorine on the α carbon is closest to the carboxylate, so its inductive stabilization is strongest. Moving it one carbon farther away weakens the effect, and having no fluorine gives the weakest acid."],
+    ["Ranking acidity", "Which C–H bond is the most acidic?", ["{{mol:C#C}}", "{{mol:C=C}}", "{{mol:CC}}", "{{mol:C1CCCCC1}}"], "The carbanion left after deprotonating ethyne sits in an sp orbital, which has 50% s character and holds the charge closest to the nucleus. Ethene (sp², 33%) and alkanes (sp³, 25%) are far weaker acids."],
+    ["Ranking acidity", "Which anion is the weakest base?", ["{{mol:CC(=O)[O-]}}", "{{mol:CC[O-]}}", "{{mol:[OH-]}}", "{{mol:[NH2-]}}"], "The weakest base is the conjugate base of the strongest acid. Acetic acid (pKa 4.8) is a far stronger acid than ethanol (16), water (15.7), or ammonia (38), so acetate is the most stable and least basic."],
   ],
 };

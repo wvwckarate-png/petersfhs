@@ -4,7 +4,8 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 1,
   name: "Structure and Bonding in Organic Molecules",
-  intro: "Organic chemistry has a reputation, and the reputation is mostly unfair. It is not a course about memorizing ten thousand reactions. It is a course about where electrons are and where they want to go, and almost everything follows from that. Carbon, the star of the show, makes four bonds and builds everything from methane to DNA, and your body is mostly carbon chemistry whether you like it or not. We start with the rules of the stage: how atoms bond, how molecules are shaped, and why shape and polarity control behavior.",
+  companion: {"ocsl": "Bond-Line Drawings · Resonance · Geometry", "khan": "Structure and bonding · Resonance (in Resonance and acid-base chemistry)", "note": "Do OCSL's bond-line drawing and resonance chapters first. They teach the two skills every later chapter assumes: reading a skeletal structure and pushing electrons with curved arrows. Then use sections 1.6 and 1.7 here to drill them."},
+  intro: "Organic chemistry has a reputation, and the reputation is mostly unfair. It is not a course about memorizing ten thousand reactions. It is a course about where electrons are and where they want to go, and almost everything follows from that. Carbon, the star of the show, makes four bonds and builds everything from methane to DNA, and your body is mostly carbon chemistry whether you like it or not. We start with the rules of the stage: how atoms bond, how molecules are shaped, and why shape and polarity control behavior. Each unit opens with a 'Study this unit alongside' box naming the matching chapters of Organic Chemistry as a Second Language and the Khan Academy topics. A good loop is: read the OCSL chapter, watch the Khan topic, then use this guide's drills, structures, flashcards, and MCQs to test yourself.",
   sections: [
     {
       id: "s11", num: "1.1", title: "Atoms, Electrons, and Lewis Structures",
@@ -112,6 +113,28 @@ export default {
         { recap: ["Recognize all the major functional groups from a line-angle structure.", "Separate look-alike pairs: ester/ether, ketone/aldehyde, amide/amine."] },
       ],
     },
+    {
+      id: "s16", num: "1.6", title: "Resonance: Five Arrow-Pushing Patterns",
+      blocks: [
+        {"p": "Resonance questions on exams look endless, but nearly all of them are built from <strong>five patterns</strong>. Learn to spot each one, and drawing resonance structures becomes mechanical. In every pattern the electrons move toward a charge or an electronegative atom, and <strong>atoms never move</strong>."},
+        {"rxn": "[O-]C=C <-> O=C[CH2-] | Pattern 1: a lone pair next to a π bond", "caption": "The lone pair on the oxygen becomes a new π bond to carbon, and the old π bond moves onto the far carbon as a lone pair. This is the pattern of every enolate, enol ether, and phenoxide."},
+        {"rxn": "CO[CH2+] <-> C[O+]=C | Pattern 2: a lone pair next to a positive charge", "caption": "The lone pair forms a π bond to the electron-poor carbon. Both forms are valid, but the right-hand structure is the major contributor because every atom has a full octet."},
+        {"rxn": "C=C[CH2+] <-> [CH2+]C=C | Pattern 3: a π bond next to a positive charge", "caption": "The π bond slides over to fill the empty p orbital and leaves the charge at the other end. Allyl and benzyl cations and radicals follow this pattern."},
+        {"rxn": "CC(C)=O <-> C[C+](C)[O-] | Pattern 4: a π bond between two atoms of different electronegativity", "caption": "The π electrons of a carbonyl move onto the more electronegative oxygen. The charge-separated form is a minor contributor but explains why the carbonyl carbon is electrophilic."},
+        {"mols": [["c1ccccc1", "Pattern 5: π bonds in a ring", "each of the three π bonds shifts one position; all six C–C bonds are identical"], ["O=C1C=CC=CC1", "A cyclic dienone", "π bonds in a ring conjugated with C=O pass the charge around the ring"]]},
+        {"key": "<strong>The rules:</strong> (1) only π electrons and lone pairs move, never σ bonds; (2) the atoms stay where they are; (3) the net charge never changes; (4) second-row atoms (C, N, O, F) can never exceed an octet. The <em>best</em> contributor has the most filled octets, the fewest charges, and negative charge on the more electronegative atom."},
+        {"trap": "A curved arrow always starts at <strong>electrons</strong> (a lone pair or the middle of a bond) and ends where those electrons <strong>end up</strong> (an atom, to make a lone pair, or between two atoms, to make a bond). An arrow that starts on an atom with no lone pair is a mistake, and so is a pushed arrow that gives carbon five bonds."},
+      ],
+    },
+    {
+      id: "s17", num: "1.7", title: "Bond-Line Drawing Drills",
+      blocks: [
+        {"p": "A <strong>bond-line (skeletal) structure</strong> shows only the carbon skeleton and heteroatoms. Every vertex or line end is a carbon, every carbon makes four bonds, and the hydrogens on carbon are implied. Count the missing hydrogens as <strong>4 minus the number of bonds drawn</strong>."},
+        T(["Condensed formula", "Bond-line", "Formula"], [["CH₃CH₂CH(CH₃)CH₂OH", "{{mol:CCC(C)CO}}", "C₅H₁₂O"], ["(CH₃)₂CHCH₂CH₃", "{{mol:CC(C)CC}}", "C₅H₁₂"], ["CH₃COCH₂CH₃", "{{mol:CC(=O)CC}}", "C₄H₈O"], ["CH₃CH₂CO₂H", "{{mol:CCC(=O)O}}", "C₃H₆O₂"], ["(CH₃)₃COH", "{{mol:CC(C)(C)O}}", "C₄H₁₀O"], ["CH₂=CHCH₂Br", "{{mol:C=CCBr}}", "C₃H₅Br"]]),
+        {"mols": [["CC(C)CC(C)(C)C", "C₈H₁₈", "8 carbons: count the vertices and ends, then add the hydrogens"], ["CCC(=O)OC", "C₄H₈O₂", "an ester: the carbonyl carbon has no hydrogens"], ["C1CCC(CC1)C(=O)O", "C₇H₁₂O₂", "the ring carbons each have two hydrogens"]]},
+        {"key": "<strong>Degrees of unsaturation</strong> connects a molecular formula to a drawing. Each ring or π bond subtracts two hydrogens from the saturated formula CₙH₂ₙ₊₂. When you see a formula, ask how many rings and π bonds it needs; when you draw, count them to check."},
+      ],
+    },
   ],
   practice: [
     ["What is the hybridization of each carbon in propene (CH₃–CH=CH₂)?", "The methyl carbon is <strong>sp³</strong>; the two alkene carbons are <strong>sp²</strong>."],
@@ -174,6 +197,14 @@ export default {
     ["{{mol:CCS}}", "Thiol", "C–SH. The sulfur analogue of an alcohol."],
     ["{{mol:c1ccccc1}}", "Benzene / arene", "Aromatic ring."],
     ["{{mol:CBr}}", "Alkyl halide", "C–X, where X is F, Cl, Br, or I."],
+    ["Resonance pattern 1", "A lone pair next to a π bond (enolates, phenoxides)"],
+    ["Resonance pattern 2", "A lone pair next to a positive charge (oxocarbenium)"],
+    ["Resonance pattern 3", "A π bond next to a positive charge (allyl, benzyl cations)"],
+    ["Resonance pattern 4", "A π bond between atoms of different electronegativity (C=O)"],
+    ["Resonance pattern 5", "π bonds in a ring (benzene, conjugated rings)"],
+    ["Rules for resonance", "Move only lone pairs and π bonds; never move atoms or break σ bonds; octet rule holds for C, N, O, F."],
+    ["{{rxn:CC(C)=O <-> C[C+](C)[O-]}}", "Carbonyl resonance: the minor form has C⁺ and O⁻", "Why the C=O carbon is electrophilic."],
+    ["Hydrogens on a bond-line carbon", "4 minus the number of bonds drawn"],
   ],
   questions: [
     ["Bonding", "How many bonds does a neutral carbon atom usually form?", ["Four", "Two", "Three", "Five"], "Carbon has four valence electrons, so it forms four bonds to complete an octet."],
@@ -207,5 +238,15 @@ export default {
     ["Polarity", "Which molecule has the highest boiling point? {{mol:CCCC=O}} {{mol:CCCCO}} {{mol:CCCCC}}", ["1-Butanol", "Butanal", "Pentane", "All three boil at the same temperature"], "Only the alcohol can hydrogen bond to itself, the strongest of the forces available here, so it needs the most heat to separate."],
     ["Resonance", "The two structures {{mol:CC(=O)[O-]}} and {{mol:CC([O-])=O}} are:", ["Resonance contributors of the same ion", "Constitutional isomers", "Two different compounds in equilibrium", "Conformers"], "They have the same atoms in the same places and differ only in where the electrons are drawn, which is the definition of resonance."],
     ["Resonance", "Which description of the acetate ion {{mol:CC(=O)[O-]}} is correct?", ["Each C–O bond is between a single and a double bond in length", "One C–O is a double bond and the other a single bond, flipping rapidly", "The negative charge sits only on the oxygen with the single bond", "The ion has a carbocation"], "Resonance delocalizes the charge over both oxygens, so the bonds are identical, not flipping between two forms."],
+    ["Resonance", "Which pair are resonance structures of each other?", ["{{mol:CC(=O)[O-]}} and {{mol:CC([O-])=O}}", "{{mol:CC(=O)C}} and {{mol:C=C(C)O}}", "{{mol:CCO}} and {{mol:COC}}", "{{mol:C=CC}} and {{mol:C1CC1}}"], "Resonance structures differ only in the position of electrons. The ketone and its enol have different hydrogen positions (they are tautomers), the alcohol and ether are constitutional isomers, and propene and cyclopropane have different bonding altogether."],
+    ["Resonance", "Which structure is the major resonance contributor of the methoxymethyl cation?", ["{{mol:C[O+]=C}}", "{{mol:CO[CH2+]}}", "They contribute equally", "Neither is a valid structure"], "The oxocarbenium form has an octet on every atom, which makes it the better contributor even though it places a positive charge on the more electronegative atom."],
+    ["Resonance", "Which resonance form of the simple enolate ion is the major contributor?", ["{{mol:[O-]C=C}}", "{{mol:O=C[CH2-]}}", "They contribute equally", "Neither contributes"], "Negative charge belongs on the more electronegative atom, oxygen, which is also what the formation of the strong C=O bond would suggest for the neutral reaction."],
+    ["Resonance", "How many significant resonance structures does the allyl cation {{mol:C=C[CH2+]}} have?", ["Two", "One", "Three", "Four"], "The positive charge can be at either terminal carbon. The central carbon never bears the charge, since that would require breaking a π bond."],
+    ["Resonance", "Which of these ions has NO significant resonance structures?", ["{{mol:C[CH2+]}}", "{{mol:C=C[CH2+]}}", "{{mol:CC(=O)[O-]}}", "{{mol:[O-]c1ccccc1}}"], "The ethyl cation has no π bond or lone pair next to the charge, so no electrons can move. The others each match one of the five patterns."],
+    ["Resonance", "Which type of electron movement is NEVER allowed in drawing resonance structures?", ["Breaking a σ bond", "Moving a lone pair into a π bond", "Moving a π bond onto an adjacent atom", "Moving a π bond toward a positive charge"], "Resonance moves only lone pairs and π bonds. Breaking a σ bond would rearrange the atoms, which makes a different compound."],
+    ["Bond-line", "What is the molecular formula of {{mol:CC(C)CC(C)(C)C}}?", ["C₈H₁₈", "C₈H₁₆", "C₈H₂₀", "C₇H₁₆"], "Eight carbons, fully saturated and acyclic, so 2n + 2 = 18 hydrogens."],
+    ["Bond-line", "What is the molecular formula of {{mol:CCC(=O)OC}}?", ["C₄H₈O₂", "C₄H₁₀O₂", "C₄H₆O₂", "C₃H₆O₂"], "Count four carbons and two oxygens. The C=O supplies one degree of unsaturation, so 2×4 + 2 − 2 = 8 hydrogens."],
+    ["Bond-line", "How many hydrogens are bonded to the ring carbons of {{mol:C1CCC(CC1)C(=O)O}}?", ["Eleven", "Twelve", "Ten", "Nine"], "Five ring carbons are CH₂ (10 H), and the sixth ring carbon bears the carboxyl group and one H, giving 11. The carboxyl carbon has none."],
+    ["Bond-line", "How many degrees of unsaturation does {{mol:C=CC1CCCC1}} have?", ["Two (one C=C and one ring)", "One", "Three", "Zero"], "The formula is C₇H₁₂, and the saturated acyclic C₇ would be C₇H₁₆. Missing four hydrogens means two degrees of unsaturation."],
   ],
 };

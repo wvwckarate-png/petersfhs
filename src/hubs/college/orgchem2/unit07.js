@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 7,
   name: "Enolates and Alpha-Carbon Chemistry",
+  companion: {"ocsl": "Enols and Enolates", "khan": "Alpha-carbon chemistry", "note": "OCSL's enolate chapter builds from alpha-hydrogen acidity to aldol and Claisen. Here the same ladder ends in biochemistry."},
   intro: "So far the carbonyl carbon has played the electrophile. This unit flips the script: the carbon next to the carbonyl, the alpha carbon, becomes a nucleophile. Remove an alpha hydrogen with a base and you create an enolate, a carbon nucleophile that can attack another carbonyl and build a new carbon–carbon bond. That single move, the aldol reaction and its relatives, is how chemists build large molecules from small ones, and it is exactly how your cells build glucose, fatty acids, and cholesterol.",
   sections: [
     {

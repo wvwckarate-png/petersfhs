@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 4,
   name: "Stereochemistry",
+  companion: {"ocsl": "Configurations", "khan": "Stereochemistry", "note": "Do OCSL's configurations chapter for the R/S method and Fischer projections, and watch Khan's CIP-priority videos. Then verify your assignments against the labelled structures here."},
   intro: "Your hands are the same in every way except one: you cannot superimpose them. That single idea, handedness, runs through organic chemistry and through biology, because your enzymes, receptors, and sugars are all handed too, and a mirror-image molecule can taste different, smell different, or act as a different drug altogether. Stereochemistry is the study of three-dimensional structure, and it rewards careful, slow, patient drawing more than anything else in the course.",
   sections: [
     {

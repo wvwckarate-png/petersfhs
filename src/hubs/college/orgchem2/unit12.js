@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 12,
   name: "The Organic Chemistry of Metabolism",
+  companion: {"ocsl": "Not in OCSL: this is the biochemistry bridge", "khan": "Biomolecules and metabolism", "note": "This unit re-reads glycolysis, the citric acid cycle, and β-oxidation as sequences of reactions you already know."},
   intro: "This is the payoff unit. Every metabolic pathway you will memorize in exercise physiology and biochemistry is, step by step, a sequence of reactions you have already learned: SN2 at phosphorus, aldol and retro-aldol, enolate chemistry, hydration and dehydration, oxidation and reduction by hydride transfer, decarboxylation. Biochemistry is organic chemistry with an enzyme holding the flask. Once you can see the mechanisms, glycolysis and the citric acid cycle stop being lists to memorize and become stories that make sense.",
   sections: [
     {

@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 3,
   name: "Aromaticity and Benzene",
+  companion: {"ocsl": "Aromatic compounds (aromaticity)", "khan": "Aromatic compounds", "note": "Aromaticity is a checklist (cyclic, planar, conjugated, 4n + 2). Practice it on the rings in section 3.2."},
   intro: "Benzene looks like a hexagon with three double bonds, but it refuses to act like an alkene: it will not decolorize bromine, it does not add HBr, and it clings to its ring through harsh conditions. The reason is aromaticity, an extra stability that comes from a cloud of six pi electrons delocalized around a ring. This one idea explains the stability of benzene, the pharmacology of half the drugs in the pharmacy, and the very structure of DNA's bases, and it sets up the substitution chemistry of the next unit.",
   sections: [
     {

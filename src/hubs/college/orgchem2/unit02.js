@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 2,
   name: "Conjugation, Dienes, and the Diels–Alder Reaction",
+  companion: {"ocsl": "The Skills You Need (resonance review) · Intro to Ionic Mechanisms", "khan": "Conjugated systems and pericyclic reactions", "note": "Review OCSL's resonance patterns in Orgo 1 section 1.6 before starting: conjugation is resonance applied to dienes."},
   intro: "When double bonds sit next to each other, separated by a single bond, their pi electrons stop acting like individual bonds and start acting like a team. That teamwork, called conjugation, makes molecules more stable, gives them color, and opens up new reactions. It explains why carrots are orange, why your retina can detect light, and how chemists build six-membered rings in a single step. This unit is the bridge from the alkenes you know to the aromatic compounds that are coming next.",
   sections: [
     {

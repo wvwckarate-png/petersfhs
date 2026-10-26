@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 4,
   name: "Electrophilic Aromatic Substitution",
+  companion: {"ocsl": "Electrophilic Aromatic Substitution · Nucleophilic Aromatic Substitution", "khan": "Aromatic compounds (substitution reactions)", "note": "OCSL gives each of EAS and NAS its own chapter. Section 4.5 here adds the NAS material (SNAr and benzyne)."},
   intro: "An aromatic ring does not give up its stability easily. When a strong electrophile arrives, the ring does not add it and lose aromaticity; it swaps one of its hydrogens for the new group and keeps its stability. That swap, electrophilic aromatic substitution, is how chemists install nitro groups, halogens, sulfonic acids, and alkyl and acyl groups on a ring, and it is how many drugs, dyes, and plastics are made. The mechanism is the same every time, and only the electrophile changes.",
   sections: [
     {
@@ -107,6 +108,18 @@ export default {
         ] },
       ],
     },
+    {
+      id: "s45", num: "4.5", title: "Nucleophilic Aromatic Substitution",
+      blocks: [
+        {"p": "Benzene is electron-rich, so it normally reacts with electrophiles. But when the ring carries <strong>strong electron-withdrawing groups</strong> and a good leaving group, a <em>nucleophile</em> can replace the leaving group. Two different mechanisms exist, and Orgo books give each its own section."},
+        {"rxn": "Clc1ccc(cc1)[N+](=O)[O-] + [OH-] >> Oc1ccc(cc1)[N+](=O)[O-] + [Cl-] | heat (SNAr)", "caption": "<strong>SNAr (addition–elimination).</strong> The nucleophile attacks the carbon bearing the leaving group, forming an anionic intermediate, and then the leaving group departs to restore aromaticity. The nitro group must be <em>ortho or para</em> to the leaving group so that it can accept the negative charge."},
+        {"mols": [["OC1(Cl)C=CC(=[N+]([O-])[O-])C=C1", "Meisenheimer complex", "the anionic intermediate of SNAr: the charge sits on the nitro group (resonance)"], ["Clc1cccc([N+](=O)[O-])c1", "m-Chloronitrobenzene", "nitro meta to Cl: charge cannot reach it, so there is no SNAr"]]},
+        {"key": "SNAr is the <em>reverse</em> of the EAS pattern: <strong>electron-withdrawing groups activate, ortho and para to the leaving group</strong>. The reactivity order of halides is F > Cl > Br > I, the opposite of SN2, because the slow step is the nucleophile's attack, which is helped by the most electronegative halogen."},
+        {"rxn": "Fc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-] + NC >> CNc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-] + F | Sanger's reagent (2,4-dinitrofluorobenzene)", "caption": "<strong>Sanger's reagent</strong> labels the free N-terminal amino group of a peptide by SNAr. After hydrolysis of the peptide bonds, the labeled N-terminal residue can be identified."},
+        {"rxn": "Clc1ccccc1 >> C1#CC=CC=C1 | NaNH₂ (elimination)", "caption": "<strong>The benzyne mechanism.</strong> Without any activating groups, a very strong base such as amide ion removes a proton ortho to the halogen and the halide leaves, giving a highly strained 'benzyne' with a formal triple bond in the ring."},
+        {"rxn": "C1#CC=CC=C1 + [NH2-] >> Nc1ccccc1 | then NH₃ (protonation)", "caption": "The nucleophile adds to either carbon of the benzyne triple bond, and protonation gives the substituted benzene. With an unsymmetrical benzyne, two regioisomers can form."},
+      ],
+    },
   ],
   practice: [
     ["What is the electrophile in the nitration of benzene?", "The <strong>nitronium ion, NO₂⁺</strong>, formed from HNO₃ and H₂SO₄."],
@@ -164,6 +177,10 @@ export default {
     ["{{mol:O=Cc1ccccc1}}", "–CHO: deactivator, meta", "Carbonyl substituents are meta directors."],
     ["{{rxn:CCCC(=O)c1ccccc1 >> CCCCc1ccccc1 | Zn(Hg), HCl}}", "Acylate–reduce route", "Gives a straight-chain alkylbenzene."],
     ["{{rxn:c1ccccc1 + CCCCl >> CC(C)c1ccccc1 | AlCl₃}}", "Friedel–Crafts alkylation rearranges", "1° cation → 2° cation."],
+    ["{{mol:OC1(Cl)C=CC(=[N+]([O-])[O-])C=C1}}", "Meisenheimer complex", "Anionic intermediate in SNAr; charge delocalized onto the nitro group."],
+    ["{{mol:C1#CC=CC=C1}}", "Benzyne", "Strained intermediate from a halobenzene and NaNH₂."],
+    ["{{mol:Fc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]}}", "Sanger's reagent", "2,4-Dinitrofluorobenzene: labels N-termini by SNAr."],
+    ["SNAr requirements", "A good leaving group plus strong electron-withdrawing groups ortho or para to it."],
   ],
   questions: [
     ["Mechanism", "The first step of EAS is:", ["Attack of the ring on the electrophile", "Loss of a proton", "Formation of a radical", "Addition of two groups across the ring"], "In the slow first step the ring's pi electrons attack the electrophile, forming the resonance-stabilized arenium ion and temporarily breaking aromaticity."],
@@ -198,5 +215,11 @@ export default {
     ["Regiochemistry", "The major products of nitrating {{mol:Cc1ccccc1}} are:", ["{{mol:Cc1ccc([N+](=O)[O-])cc1}} and {{mol:Cc1ccccc1[N+](=O)[O-]}}", "{{mol:Cc1cccc([N+](=O)[O-])c1}} only", "{{mol:Cc1cccc([N+](=O)[O-])c1}} and {{mol:Cc1ccc([N+](=O)[O-])cc1}}", "{{mol:[O-][N+](=O)CC1=CC=CC=C1}}"], "Methyl is an ortho/para director. The meta product is only a few percent."],
     ["Synthesis", "Which sequence converts toluene into m-nitrobenzoic acid, {{mol:OC(=O)c1cccc([N+](=O)[O-])c1}}?", ["1) KMnO₄, heat; 2) HNO₃, H₂SO₄", "1) HNO₃, H₂SO₄; 2) KMnO₄, heat", "1) Br₂, FeBr₃; 2) KMnO₄", "1) NBS; 2) HNO₃"], "Oxidize first to make the meta-directing COOH, and then nitrate. Reversing the order would put the nitro group para to the CH₃ instead."],
     ["Synthesis", "Which sequence converts toluene into p-nitrobenzoic acid?", ["1) HNO₃, H₂SO₄; 2) KMnO₄, heat", "1) KMnO₄, heat; 2) HNO₃, H₂SO₄", "1) Zn(Hg), HCl; 2) HNO₃", "1) NBS; 2) NaOH"], "Nitrate while the CH₃ is still an ortho/para director, separate the para isomer, and then oxidize the methyl to COOH."],
+    ["Nucleophilic aromatic substitution", "Which compound undergoes SNAr with hydroxide most readily?", ["{{mol:Clc1ccc(cc1)[N+](=O)[O-]}}", "{{mol:Clc1ccccc1}}", "{{mol:Clc1cccc(c1)[N+](=O)[O-]}}", "{{mol:Cc1ccc(Cl)cc1}}"], "The nitro group is para to the chlorine, so it can stabilize the Meisenheimer intermediate by resonance. The meta isomer cannot, and the unactivated or methyl-substituted rings are not electron-poor enough."],
+    ["Nucleophilic aromatic substitution", "In the SNAr reaction, what is the intermediate? {{mol:OC1(Cl)C=CC(=[N+]([O-])[O-])C=C1}}", ["A resonance-stabilized anion called a Meisenheimer complex", "A carbocation (arenium ion)", "A benzyne", "A free radical"], "The nucleophile adds to the ring and the resulting negative charge is delocalized onto the ortho and para positions, including the nitro group."],
+    ["Nucleophilic aromatic substitution", "Which halogen is the best leaving group in SNAr?", ["{{mol:Fc1ccccc1[N+](=O)[O-]}}", "{{mol:Clc1ccccc1[N+](=O)[O-]}}", "{{mol:Brc1ccccc1[N+](=O)[O-]}}", "{{mol:Ic1ccccc1[N+](=O)[O-]}}"], "The slow step is the nucleophile's attack on the ring, and the most electronegative halogen makes that carbon the most electrophilic. The order is F > Cl > Br > I, the reverse of SN2."],
+    ["Nucleophilic aromatic substitution", "The benzyne mechanism requires:", ["A very strong base such as NaNH₂ and a halobenzene", "An ortho or para nitro group", "A Lewis acid catalyst", "A radical initiator"], "Amide ion removes a proton next to the halogen, and loss of halide gives the strained benzyne. No activating group is needed."],
+    ["Nucleophilic aromatic substitution", "What does Sanger's reagent {{mol:Fc1ccc(cc1[N+](=O)[O-])[N+](=O)[O-]}} do to a peptide?", ["Labels the N-terminal amino group by SNAr", "Cleaves every peptide bond", "Oxidizes cysteine residues", "Reduces disulfide bonds"], "The terminal amine is a nucleophile that replaces fluoride on the activated ring, tagging that residue with a stable dinitrophenyl group."],
+    ["Nucleophilic aromatic substitution", "Which statement correctly contrasts EAS and SNAr?", ["EAS is promoted by electron-donating groups; SNAr is promoted by electron-withdrawing groups", "Both are promoted by electron-donating groups", "EAS requires a nucleophile; SNAr requires an electrophile", "They follow the same mechanism with different reagents"], "In EAS the ring is the nucleophile, and in SNAr the ring is the electrophile, so the substituent effects are opposite."],
   ],
 };

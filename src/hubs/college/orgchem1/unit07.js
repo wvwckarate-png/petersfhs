@@ -4,6 +4,7 @@ const T = (headers, rows) => ({ table: { headers, rows } });
 export default {
   id: 7,
   name: "Elimination Reactions and Substitution versus Elimination",
+  companion: {"ocsl": "Elimination Reactions · the SN1/SN2/E1/E2 decision", "khan": "Substitution and elimination reactions (E1 and E2)", "note": "OCSL's elimination chapter ends with the flow chart for choosing among the four mechanisms: build your own from section 7.3."},
   intro: "Every substitution reaction has a rebellious twin. When a nucleophile attacks carbon, a base can instead pluck off a neighboring proton and push out the leaving group, forming a double bond. That is elimination, and in the real flask it competes with substitution all the time. Predicting which one wins is the central skill of this unit, and it is a perfect test of whether you understand the previous two.",
   sections: [
     {
