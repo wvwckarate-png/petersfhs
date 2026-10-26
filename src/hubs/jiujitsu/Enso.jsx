@@ -3,10 +3,10 @@ import React, { useId, useMemo } from "react";
 // One dry-brush painter, two shapes: the ensō (circle) and the sankaku (triangle), both painted through the belt colors
 // (white, blue, purple, brown, black) and closing in red. The brush is many bristles: arcs at slightly different offsets
 // that run out at different lengths, so the stroke is heavy where it starts, thins, and breaks into streaks where it ends.
-export const BELT_STOPS = [[0, "#F4F1EA"], [0.16, "#2E6BC6"], [0.34, "#7A3FB8"], [0.52, "#8B5A38"], [0.68, "#030304"], [0.83, "#030304"], [0.89, "#C8341C"], [1, "#F04A28"]];
+export const BELT_STOPS = [[0, "#F4F1EA"], [0.16, "#2E6BC6"], [0.34, "#7A3FB8"], [0.5, "#8B5A38"], [0.62, "#030304"], [0.72, "#030304"], [0.87, "#C8341C"], [1, "#F04A28"]];
 export const WATER_STOPS = [[0, "#BFD9FA"], [0.5, "#2E6BC6"], [1, "#1B3F7A"]];
 export const DUSK_STOPS = [[0, "#E4D3F7"], [0.5, "#7A3FB8"], [1, "#3B1F66"]];
-export const LIGHT_BG_STOPS = [[0, "#2E6BC6"], [0.3, "#7A3FB8"], [0.52, "#7B4A2A"], [0.7, "#050507"], [0.84, "#050507"], [0.9, "#C8341C"], [1, "#F04A28"]];
+export const LIGHT_BG_STOPS = [[0, "#2E6BC6"], [0.3, "#7A3FB8"], [0.52, "#7B4A2A"], [0.64, "#050507"], [0.72, "#050507"], [0.87, "#C8341C"], [1, "#F04A28"]];
 
 const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
 function colorAt(stops, t) {
@@ -52,37 +52,45 @@ function triangleShape({ radius, sweepFrac, drift }) {
 
 function buildBristles({ n, points, seed, width, curve }) {
   const rand = rng(seed), out = [];
+  // Toward the tail the stroke steps down in width in stages, like a brush lifting off the paper.
+  const STEPS = [[0.9, 0.72], [0.96, 0.46]];
   for (let k = 0; k < n; k++) {
     const u0 = (k + 0.5) / n, u = 0.5 + Math.sign(u0 - 0.5) * Math.pow(Math.abs(2 * u0 - 1), 0.8) / 2, e = Math.abs(2 * u - 1), off0 = (u - 0.5) * width * 1.12; // spread beyond the body so the edges feather
     const t0 = rand() * 0.012;
-    // The stroke narrows to ~45% of its width by the end, so the red tail keeps body and still frays into streaks.
+    // The ends are staggered: the middle bristles trail off anywhere between 84% and the very tip, the edge bristles stop sooner,
+    // and some give out early as dry streaks. Nothing stops at the same place, so there is no flat cut.
     const tFull = Math.pow(Math.max(0.0001, (1 - e * 0.95) / 0.55), 1 / 1.4);
-    let t1 = Math.min(1, Math.max(0.45, tFull + (rand() - 0.4) * 0.12));
-    if (rand() < 0.12) t1 = 0.55 + rand() * 0.35; // dry streaks that give out early
-    const wob = rand() * 6.28, amp = 0.25 + rand() * 0.5;
-    let d = "", gap = 0, pen = false;
-    for (let i = 0; i <= points; i++) {
-      const t = t0 + ((t1 - t0) * i) / points;
-      if (gap > 0) { gap--; pen = false; continue; }
-      if (t > 0.5 && rand() < 0.03 + (t - 0.5) * 0.16) { gap = 2 + Math.floor(rand() * 4); pen = false; continue; } // the brush runs dry
-      const [x, y] = curve(t, off0 + (rand() - 0.5) * 0.16 + Math.sin(t * 9 + wob) * amp * 0.45);
-      d += `${pen ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`;
-      pen = true;
+    let t1 = e < 0.5 ? 0.88 + Math.pow(rand(), 0.6) * 0.12 : Math.min(0.97, Math.max(0.45, tFull * (0.86 + rand() * 0.12)));
+    if (rand() < 0.14) t1 = 0.52 + rand() * 0.36;
+    const wob = rand() * 6.28, amp = 0.25 + rand() * 0.5, base = (width / n) * (2.0 + rand() * 1.8), o = 0.72 + rand() * 0.28;
+    const cuts = [t0, ...STEPS.map(([c]) => c).filter((c) => c < t1 - 0.01), t1];
+    for (let c = 0; c < cuts.length - 1; c++) {
+      const ta = cuts[c], tb = cuts[c + 1], mult = c === 0 ? 1 : STEPS[c - 1][1];
+      const pts = Math.max(5, Math.round((points * (tb - ta)) / (t1 - t0 || 1)));
+      let d = "", gap = 0, pen = false;
+      for (let i = 0; i <= pts; i++) {
+        const t = ta + ((tb - ta) * i) / pts;
+        if (gap > 0) { gap--; pen = false; continue; }
+        if (t > 0.5 && rand() < 0.03 + (t - 0.5) * 0.2) { gap = 2 + Math.floor(rand() * 4); pen = false; continue; } // the brush runs dry
+        const [x, y] = curve(t, off0 + (rand() - 0.5) * 0.16 + Math.sin(t * 9 + wob) * amp * 0.45);
+        d += `${pen ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`;
+        pen = true;
+      }
+      if (d) out.push({ d, t0: ta, t1: tb, w: base * mult, o: o * (c ? 0.9 : 1) });
     }
-    out.push({ d, t0, t1, w: (width / n) * (2.0 + rand() * 1.8), o: 0.72 + rand() * 0.28 });
   }
   return out;
 }
 
 // The solid body of the stroke: overlapping round-capped segments that narrow slightly, then taper where the ink runs thin.
-function buildCore({ curve, thickness, seed, segs = 16 }) {
-  const rand = rng(seed + 7), out = [], END = 0.84;
+function buildCore({ curve, thickness, seed, segs = 20 }) {
+  const rand = rng(seed + 7), out = [], END = 0.94;
   for (let i = 0; i < segs; i++) {
     const ta = (i / segs) * END, tb = Math.min(END, ((i + 1.6) / segs) * END), mid = (ta + tb) / 2;
-    const prof = mid < 0.6 ? 1 - 0.1 * mid : 0.94 - (mid - 0.6) * 2.1;
+    const prof = mid < 0.55 ? 1 - 0.1 * mid : 0.945 - (mid - 0.55) * 1.95; // narrows steadily toward a fine point
     let d = "";
     for (let k = 0; k <= 8; k++) { const t = ta + ((tb - ta) * k) / 8, [x, y] = curve(t, (rand() - 0.5) * 0.9); d += `${k ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`; }
-    out.push({ d, ta, tb, w: thickness * Math.max(0.3, prof) * (i === 0 ? 0.9 : 0.74 + rand() * 0.07) });
+    out.push({ d, ta, tb, w: thickness * Math.max(0.12, prof) * (i === 0 ? 0.9 : 0.74 + rand() * 0.07) });
   }
   return out;
 }
