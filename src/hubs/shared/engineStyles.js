@@ -48,6 +48,8 @@ export function getEngineCSS(colors = {}) {
         position:sticky !important; top:18px !important;
       }
       .mobile-only-flex{ display:none !important; }
+      /* The unit list is taller than a laptop viewport: a sticky copy would pin it, hide its lower units, and make the wheel over it feel dead. Let it scroll with the page instead. */
+      .app-sidebar{ overflow:visible !important; align-self:start; }
       .desktop-only-label{ display:block !important; margin-bottom:10px; }
       main{ flex:1; min-width:0; }
 
@@ -60,6 +62,10 @@ export function getEngineCSS(colors = {}) {
       .btn-hover:hover{ filter:brightness(0.95); cursor:pointer; }
       details.solution summary:hover{ background:var(--sky-pale) !important; }
       .answer-key summary:hover{ opacity:0.8; }
+    }
+
+    @media (min-width: 900px) and (max-height: 1100px){
+      .app-sidebar{ position:static !important; }
     }
 
     @media (min-width: 1300px){
