@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Enso } from "./hubs/jiujitsu/Enso";
+import { EnsoMark } from "./hubs/jiujitsu/Mark";
+import { LIGHT_BG_STOPS } from "./hubs/jiujitsu/Enso";
 
 const hubs = [
   {
@@ -68,7 +69,7 @@ function HubIcon({ path, color }) {
     );
   }
   if (path === "/jiujitsu") {
-    return <Enso size={34} bristles={46} points={40} seed={11} splatter={false} stops={[[0, "#2E6BC6"], [0.3, "#7A3FB8"], [0.6, "#7B4A2A"], [0.85, "#07080A"], [1, "#D8472E"]]} />;
+    return <EnsoMark size={36} stops={LIGHT_BG_STOPS} />;
   }
   return null;
 }
@@ -114,7 +115,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v7.2.0</footer>
+        <footer style={styles.footer}>v7.3.0</footer>
       </div>
 
       <style>{`

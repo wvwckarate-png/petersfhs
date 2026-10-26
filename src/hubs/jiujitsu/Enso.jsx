@@ -1,12 +1,12 @@
 import React, { useId, useMemo } from "react";
 
-// The ensō: one dry-brush circle, painted white → blue → purple → brown → black, closing in red.
-// The brush is built from many bristles (arcs of slightly different radius that run out at different lengths),
-// so the stroke is heavy where it starts, thins, and breaks into streaks where it ends.
-export const BELT_STOPS = [[0, "#F4F1EA"], [0.2, "#2E6BC6"], [0.42, "#7A3FB8"], [0.64, "#7B4A2A"], [0.84, "#07080A"], [1, "#D8472E"]];
+// One dry-brush painter, two shapes: the ensō (circle) and the sankaku (triangle), both painted through the belt colors
+// (white, blue, purple, brown, black) and closing in red. The brush is many bristles: arcs at slightly different offsets
+// that run out at different lengths, so the stroke is heavy where it starts, thins, and breaks into streaks where it ends.
+export const BELT_STOPS = [[0, "#F4F1EA"], [0.16, "#2E6BC6"], [0.34, "#7A3FB8"], [0.52, "#8B5A38"], [0.68, "#030304"], [0.83, "#030304"], [0.89, "#C8341C"], [1, "#F04A28"]];
 export const WATER_STOPS = [[0, "#BFD9FA"], [0.5, "#2E6BC6"], [1, "#1B3F7A"]];
 export const DUSK_STOPS = [[0, "#E4D3F7"], [0.5, "#7A3FB8"], [1, "#3B1F66"]];
-export const FIRE_STOPS = [[0, "#F4F1EA"], [0.45, "#E8643C"], [1, "#D8472E"]];
+export const LIGHT_BG_STOPS = [[0, "#2E6BC6"], [0.3, "#7A3FB8"], [0.52, "#7B4A2A"], [0.7, "#050507"], [0.84, "#050507"], [0.9, "#C8341C"], [1, "#F04A28"]];
 
 const hex = (c) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
 function colorAt(stops, t) {
@@ -19,57 +19,80 @@ function colorAt(stops, t) {
   }
   return stops[stops.length - 1][1];
 }
-function rng(seed) { // small deterministic PRNG so every ensō with the same seed looks identical
+function rng(seed) { // deterministic, so every brush with the same seed looks identical
   let a = seed >>> 0;
   return () => { a |= 0; a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; };
 }
 
-const CX = 50, CY = 50;
-const pt = (r, deg) => { const a = (deg * Math.PI) / 180; return [CX + r * Math.cos(a), CY + r * Math.sin(a)]; };
+// ---- shapes: each gives curve(t, off) -> [x, y] (t along the stroke, off across it), the wedge center, and the wedge start/sweep ----
+function circleShape({ radius, start, sweep, drift }) {
+  const rad = (d) => (d * Math.PI) / 180;
+  return { cx: 50, cy: 50, a0: start, sweep, curve: (t, off) => { const r = radius + off - drift * t, a = rad(start + t * sweep); return [50 + r * Math.cos(a), 50 + r * Math.sin(a)]; } };
+}
+function triangleShape({ radius, sweepFrac, drift }) {
+  // A rounded equilateral triangle traced clockwise from the lower-left corner. `radius` is the circumradius of the centerline.
+  const cx = 50, cy = 56, rc = 7, rho = radius - rc * 2; // inner triangle circumradius; the stroke centerline is offset by rc
+  const ang = [150, 270, 30]; // lower-left, top, lower-right (degrees, SVG, clockwise)
+  const V = ang.map((d) => [cx + rho * Math.cos((d * Math.PI) / 180), cy + rho * Math.sin((d * Math.PI) / 180)]);
+  const side = rho * Math.sqrt(3), arcLen = (rc * 2 * Math.PI) / 3, seg = side + arcLen, total = seg * 3;
+  const normAng = (k) => { const a = V[k], b = V[(k + 1) % 3], mx = (a[0] + b[0]) / 2 - cx, my = (a[1] + b[1]) / 2 - cy; return Math.atan2(my, mx); };
+  const curve = (t, off) => {
+    const d = Math.min(1, t) * sweepFrac * total, k = Math.min(2, Math.floor(d / seg)), s = d - k * seg;
+    const a = V[k], b = V[(k + 1) % 3];
+    if (s <= side) {
+      const u = s / side, n = normAng(k), r = rc + off - drift * t;
+      return [a[0] + (b[0] - a[0]) * u + r * Math.cos(n), a[1] + (b[1] - a[1]) * u + r * Math.sin(n)];
+    }
+    const th = normAng(k) + ((s - side) / arcLen) * ((2 * Math.PI) / 3), r = rc + off - drift * t;
+    return [b[0] + r * Math.cos(th), b[1] + r * Math.sin(th)];
+  };
+  const [sx, sy] = curve(0, 0);
+  return { cx, cy, a0: (Math.atan2(sy - cy, sx - cx) * 180) / Math.PI, sweep: sweepFrac * 360, curve };
+}
 
-function buildBristles({ n, points, seed, radius, width, start, sweep, drift }) {
+function buildBristles({ n, points, seed, width, curve }) {
   const rand = rng(seed), out = [];
   for (let k = 0; k < n; k++) {
-    const u = (k + 0.5) / n, e = Math.abs(2 * u - 1);
-    const r0 = radius + (u - 0.5) * width;
+    const u = (k + 0.5) / n, e = Math.abs(2 * u - 1), off0 = (u - 0.5) * width;
     const t0 = rand() * 0.012;
-    let tFull = Math.pow(Math.max(0.0001, (1 - e * 0.94) / 0.8), 1 / 1.2);
-    let t1 = Math.min(1, Math.max(0.42, tFull + (rand() - 0.4) * 0.14));
-    if (rand() < 0.14) t1 = 0.5 + rand() * 0.35; // dry streaks that give out early
-    if (e < 0.55 && rand() < 0.55) t1 = Math.min(1, t1 + 0.12);
+    // The stroke narrows to ~45% of its width by the end, so the red tail keeps body and still frays into streaks.
+    const tFull = Math.pow(Math.max(0.0001, (1 - e * 0.95) / 0.55), 1 / 1.4);
+    let t1 = Math.min(1, Math.max(0.45, tFull + (rand() - 0.4) * 0.12));
+    if (rand() < 0.12) t1 = 0.55 + rand() * 0.35; // dry streaks that give out early
     const wob = rand() * 6.28, amp = 0.25 + rand() * 0.5;
     let d = "", gap = 0, pen = false;
     for (let i = 0; i <= points; i++) {
       const t = t0 + ((t1 - t0) * i) / points;
       if (gap > 0) { gap--; pen = false; continue; }
-      if (t > 0.42 && rand() < 0.035 + (t - 0.42) * 0.22) { gap = 2 + Math.floor(rand() * 5); pen = false; continue; } // the brush runs dry
-      const r = r0 + (rand() - 0.5) * 0.16 - drift * t + Math.sin(t * 9 + wob) * amp * 0.45; // drifts inward like a hand
-      const [x, y] = pt(r, start + t * sweep);
+      if (t > 0.5 && rand() < 0.03 + (t - 0.5) * 0.16) { gap = 2 + Math.floor(rand() * 4); pen = false; continue; } // the brush runs dry
+      const [x, y] = curve(t, off0 + (rand() - 0.5) * 0.16 + Math.sin(t * 9 + wob) * amp * 0.45);
       d += `${pen ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`;
       pen = true;
     }
-    out.push({ d, t0, t1, w: (width / n) * (2.0 + rand() * 1.8), o: 0.7 + rand() * 0.3 });
+    out.push({ d, t0, t1, w: (width / n) * (2.0 + rand() * 1.8), o: 0.72 + rand() * 0.28 });
   }
   return out;
 }
 
-export function Enso({ size = 120, progress = 1, stops = BELT_STOPS, bristles = 110, points = 90, seed = 11, thickness = 17, radius = 35.5, start = 108, sweep = 326, drift = 2.6, splatter = true, style, title, x, y }) {
+export function Brush({ shape = "circle", size = 120, progress = 1, stops = BELT_STOPS, bristles = 110, points = 90, seed = 11, thickness = 17, radius, start = 108, sweep = 326, drift = 2.6, splatter = true, style, title, x, y }) {
   const uid = useId().replace(/:/g, "");
-  const data = useMemo(() => buildBristles({ n: bristles, points, seed, radius, width: thickness, start, sweep, drift }), [bristles, points, seed, radius, thickness, start, sweep, drift]);
+  const tri = shape === "triangle";
+  const geo = useMemo(() => (tri ? triangleShape({ radius: radius ?? 40, sweepFrac: sweep / 360 > 0.99 ? 0.93 : sweep / 360, drift: drift * 0.5 }) : circleShape({ radius: radius ?? 35.5, start, sweep, drift })), [tri, radius, start, sweep, drift]);
+  const data = useMemo(() => buildBristles({ n: bristles, points, seed, width: thickness, curve: geo.curve }), [bristles, points, seed, thickness, geo]);
   const wedges = useMemo(() => {
-    const W = 120, list = [];
+    const W = 140, pad = 10, list = [], span = geo.sweep + pad * 2; // pad: bristles at the ends sit a little outside the nominal angle
     for (let j = 0; j < W; j++) {
-      const a0 = start + (j / W) * sweep - 0.4, a1 = start + ((j + 1) / W) * sweep + 0.4;
-      const [x0, y0] = pt(60, a0), [x1, y1] = pt(60, a1);
-      list.push({ d: `M${CX} ${CY}L${x0.toFixed(2)} ${y0.toFixed(2)}L${x1.toFixed(2)} ${y1.toFixed(2)}Z`, c: colorAt(stops, (j + 0.5) / W) });
+      const a0 = geo.a0 - pad + (j / W) * span - 0.4, a1 = geo.a0 - pad + ((j + 1) / W) * span + 0.4, p = (a) => [geo.cx + 70 * Math.cos((a * Math.PI) / 180), geo.cy + 70 * Math.sin((a * Math.PI) / 180)];
+      const [x0, y0] = p(a0), [x1, y1] = p(a1), t = Math.max(0, Math.min(1, ((j + 0.5) / W * span - pad) / geo.sweep));
+      list.push({ d: `M${geo.cx} ${geo.cy}L${x0.toFixed(2)} ${y0.toFixed(2)}L${x1.toFixed(2)} ${y1.toFixed(2)}Z`, c: colorAt(stops, t) });
     }
     return list;
-  }, [stops, start, sweep]);
+  }, [stops, geo]);
   const dots = useMemo(() => {
     const r = rng(seed + 99), arr = [];
-    for (let i = 0; i < 9; i++) { const t = 0.86 + r() * 0.14, [px, py] = pt(radius + (r() - 0.5) * thickness * 2.2, start + t * sweep + r() * 8); arr.push({ px, py, s: 0.35 + r() * 0.8, t }); }
+    for (let i = 0; i < 11; i++) { const t = 0.84 + r() * 0.16, [px, py] = geo.curve(t, (r() - 0.4) * thickness * 2.4); arr.push({ px: px + (r() - 0.3) * 4, py: py + (r() - 0.3) * 4, s: 0.4 + r() * 0.95, t }); }
     return arr;
-  }, [seed, radius, thickness, start, sweep]);
+  }, [seed, thickness, geo]);
   const p = Math.max(0, Math.min(1, progress));
   const vis = (b) => Math.max(0, Math.min(1, (p - b.t0) / (b.t1 - b.t0 || 1)));
   return (
@@ -82,30 +105,32 @@ export function Enso({ size = 120, progress = 1, stops = BELT_STOPS, bristles = 
           </g>
         </mask>
       </defs>
-      <g stroke="#9AA3AE" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="0.28">
-        {data.map((b, i) => <path key={i} d={b.d} pathLength="1" strokeWidth={b.w * 1.9} strokeOpacity={b.o * 0.5} strokeDasharray={`${vis(b)} 2`} />)}
+      {/* a pale rim under the ink so the black and the red stay readable on a dark page */}
+      <g stroke="#C9D0DA" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="0.4">
+        {data.map((b, i) => <path key={i} d={b.d} pathLength="1" strokeWidth={b.w * 1.9} strokeOpacity={b.o * 0.55} strokeDasharray={`${vis(b)} 2`} />)}
       </g>
-      <g mask={`url(#m${uid})`}>
-                {wedges.map((w, i) => <path key={i} d={w.d} fill={w.c} />)}
-      </g>
-      {splatter && p > 0.97 && dots.map((d, i) => <circle key={i} cx={d.px} cy={d.py} r={d.s} fill={colorAt(stops, d.t)} opacity="0.9" />)}
+      <g mask={`url(#m${uid})`}>{wedges.map((w, i) => <path key={i} d={w.d} fill={w.c} />)}</g>
+      {splatter && p > 0.97 && dots.map((d, i) => <circle key={i} cx={d.px} cy={d.py} r={d.s} fill={colorAt(stops, d.t)} stroke="#C9D0DA" strokeOpacity="0.4" strokeWidth="0.25" />)}
     </svg>
   );
 }
 
-// A quiet, thin ring with a brush-like edge for diagrams.
-export function InkRing({ size = 100, stops = BELT_STOPS, seed = 5, ...rest }) {
-  return <Enso size={size} stops={stops} bristles={26} points={50} thickness={3.2} radius={40} seed={seed} splatter={false} {...rest} />;
+export const Enso = (props) => <Brush shape="circle" {...props} />;
+export const Sankaku = (props) => <Brush shape="triangle" {...props} />;
+
+// A quiet, thin ring or triangle with a brush-like edge for diagrams.
+export function InkRing({ size = 100, shape = "circle", seed = 5, ...rest }) {
+  return <Brush shape={shape} size={size} bristles={26} points={50} thickness={3.2} radius={shape === "triangle" ? 40 : 40} seed={seed} splatter={false} {...rest} />;
 }
 
 // Progress mark for a position (0..4): the ring fills in with the belt colors.
-const BELT = ["#F4F1EA", "#2E6BC6", "#7A3FB8", "#7B4A2A", "#07080A"];
+const BELT = ["#F4F1EA", "#2E6BC6", "#7A3FB8", "#8B5A38", "#030304"];
 export function StatusRing({ status = 0, size = 18 }) {
   const f = status / 4, C = 2 * Math.PI * 14;
   return (
     <svg width={size} height={size} viewBox="0 0 36 36" aria-hidden="true">
-      <circle cx="18" cy="18" r="14" fill={status === 4 ? "#07080A" : "none"} stroke="#3A414C" strokeWidth="4" />
-      {status > 0 && <circle cx="18" cy="18" r="14" fill="none" stroke={status === 4 ? "#D8472E" : BELT[status]} strokeWidth="4.6" strokeLinecap="round" strokeDasharray={`${C * (status === 4 ? 1 : f)} ${C}`} transform="rotate(100 18 18)" />}
+      <circle cx="18" cy="18" r="14" fill={status === 4 ? "#030304" : "none"} stroke="#3A414C" strokeWidth="4" />
+      {status > 0 && <circle cx="18" cy="18" r="14" fill="none" stroke={status === 4 ? "#F04A28" : BELT[status]} strokeWidth="4.6" strokeLinecap="round" strokeDasharray={`${C * (status === 4 ? 1 : f)} ${C}`} transform="rotate(100 18 18)" />}
       {status === 4 && <circle cx="18" cy="18" r="14" fill="none" stroke="#F4F1EA" strokeWidth="1" opacity="0.7" />}
     </svg>
   );
