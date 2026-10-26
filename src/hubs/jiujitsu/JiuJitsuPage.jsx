@@ -3,9 +3,9 @@ import BrandLogo from "../../components/BrandLogo";
 import { CSS } from "./theme";
 import { SankakuMark } from "./Mark";
 import { useStore } from "./store";
-import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, ProgressView, RulesView } from "./views";
+import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, ProgressView, ReferenceView } from "./views";
 
-const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Drills"], ["#/plan", "Session"], ["#/cycle", "8 weeks"], ["#/timer", "Timer"], ["#/progress", "Progress"], ["#/rules", "Rules"]];
+const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Drills"], ["#/plan", "Session"], ["#/cycle", "8 weeks"], ["#/timer", "Timer"], ["#/progress", "Progress"], ["#/reference", "Reference"]];
 
 function useHashRoute() {
   const read = () => (window.location.hash || "#/").split("?")[0];
@@ -31,9 +31,9 @@ export default function JiuJitsuPage() {
   else if (route === "#/cycle") view = <CycleView />;
   else if (route === "#/timer") view = <TimerView />;
   else if (route === "#/progress") view = <ProgressView store={store} />;
-  else if (route === "#/rules") view = <RulesView />;
+  else if (route === "#/reference" || route === "#/rules") view = <ReferenceView />;
   else view = <MapView store={store} />;
-  const activeKey = posMatch ? "#/positions" : route;
+  const activeKey = posMatch ? "#/positions" : route === "#/rules" ? "#/reference" : route;
 
   useEffect(() => {
     document.title = "Jiu-Jitsu Hub · Peters Family Homeschool";

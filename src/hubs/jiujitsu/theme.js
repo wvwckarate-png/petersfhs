@@ -67,7 +67,33 @@ export const CSS = `
 .jj-sec summary{ cursor:pointer; list-style:none; font-family:'Manrope',sans-serif; font-size:19px; font-weight:700; padding:2px 0; }
 .jj-sec summary::-webkit-details-marker{ display:none; }
 .jj-sec summary::after{ content:"+"; float:right; color:${C.red}; }
-.jj-sec[open] summary::after{ content:"–"; }
+.jj-sec[open] > summary::after{ content:"–"; }
+.jj-sec{ margin-top:12px; }
+.jj-sec summary{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; padding-right:28px; position:relative; }
+.jj-sec summary::after{ position:absolute; right:0; top:0; float:none; }
+.jj-sec-hint{ font-family:'Nunito',sans-serif; font-weight:600; font-size:13.5px; color:${C.muted}; }
+.jj-sec-body{ margin-top:10px; line-height:1.65; }
+.jj-sec-body p{ margin:10px 0; }
+.jj-sec.nested{ background:${C.panel2}; padding:12px 16px; }
+.jj-sec.nested summary{ font-size:17px; }
+.jj-h3{ font-size:17px; margin:18px 0 4px; color:${C.blueLight}; }
+.jj-btn{ background:${C.panel2}; border:1px solid ${C.line}; color:${C.text}; border-radius:999px; padding:7px 14px; font-weight:700; font-size:13.5px; }
+.jj-btn:hover{ border-color:${C.red}; }
+.jj-people{ display:grid; grid-template-columns:repeat(auto-fill,minmax(190px,1fr)); gap:14px; margin:14px 0; }
+.jj-person{ margin:0; background:${C.panel}; border:1px solid ${C.line}; border-radius:14px; overflow:hidden; }
+.jj-person img{ display:block; width:100%; aspect-ratio:4/5; object-fit:cover; object-position:50% 20%; background:#000; }
+.jj-person figcaption{ padding:10px 12px 12px; font-size:14px; line-height:1.4; }
+.jj-credit{ display:block; margin-top:6px; font-size:11.5px; color:${C.muted}; text-decoration:underline !important; text-underline-offset:2px; }
+.jj-timeline{ margin:0; }
+.jj-timeline > div{ display:grid; grid-template-columns:84px 1fr; gap:12px; padding:6px 0; border-top:1px solid ${C.line}; }
+.jj-timeline > div:first-child{ border-top:0; }
+.jj-timeline dt{ font-family:'Manrope',sans-serif; font-weight:800; color:${C.red}; }
+.jj-timeline dd{ margin:0; }
+.jj-gloss{ margin:12px 0 0; columns:300px; column-gap:28px; font-size:14px; line-height:1.4; }
+.jj-gloss > div{ break-inside:avoid; padding:5px 0; border-bottom:1px solid ${C.line}; }
+.jj-gloss dt{ display:inline; font-weight:800; }
+.jj-gloss dt::after{ content:" – "; font-weight:400; color:${C.muted}; }
+.jj-gloss dd{ display:inline; margin:0; color:${C.muted}; }
 .jj-opt{ display:block; width:100%; text-align:left; padding:12px 14px; margin:8px 0; border-radius:10px; border:1px solid ${C.line}; background:${C.panel2}; font-size:15.5px; }
 .jj-opt:hover{ border-color:${C.red}; }
 .jj-opt.right{ border-color:${C.blueLight}; background:rgba(46,107,198,.2); }

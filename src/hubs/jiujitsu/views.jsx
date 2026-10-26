@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { C, BELT_BG, BELT_FG, BELT_TEXT } from "./theme";
-import { POSITIONS, FAMILIES, TIERS, ESCAPES, FINISHES, byId, SYSTEMS, CURRICULUM, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, GLOSSARY } from "./data";
+import { POSITIONS, FAMILIES, TIERS, ESCAPES, FINISHES, byId, SYSTEMS, CURRICULUM, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, GLOSSARY, HISTORY, TIMELINE, PEOPLE, SITE_PHOTO } from "./data";
 import { KeysRing, SystemDiagram } from "./Mark";
 import { Enso, StatusRing } from "./Enso";
 import Pyramid from "./Pyramid";
@@ -436,41 +436,95 @@ export function ProgressView({ store }) {
   );
 }
 
-/* ---------- Principles & rules ---------- */
-export function RulesView() {
+/* ---------- Reference: principles, rules, history, glossary ---------- */
+function Sec({ id, title, hint, open, setOpen, children, nested }) {
+  return (
+    <details className={`jj-card jj-sec${nested ? " nested" : ""}`} open={!!open[id]} onToggle={(e) => { const v = e.currentTarget.open; setOpen((o) => (o[id] === v ? o : { ...o, [id]: v })); }}>
+      <summary>{title}{hint && <span className="jj-sec-hint">{hint}</span>}</summary>
+      <div className="jj-sec-body">{children}</div>
+    </details>
+  );
+}
+
+function Person({ p }) {
+  return (
+    <figure className="jj-person">
+      <img src={`/images/bjj-history/${p.img}`} alt={p.alt} loading="lazy" />
+      <figcaption>
+        <strong>{p.name}</strong>{p.years && <span className="jj-muted"> · {p.years}</span>}
+        <div className="jj-muted">{p.role}</div>
+        <a className="jj-credit" href={p.src} target="_blank" rel="noopener noreferrer">{p.credit}</a>
+      </figcaption>
+    </figure>
+  );
+}
+
+function HistoryBlock({ b }) {
+  if (b.p) return <p>{b.p}</p>;
+  if (b.h) return <h3 className="jj-h3">{b.h}</h3>;
+  if (b.list) return <List items={b.list} />;
+  if (b.people) return <div className="jj-people">{b.people.map((id) => <Person key={id} p={PEOPLE.find((x) => x.id === id)} />)}</div>;
+  if (b.site) return <div className="jj-people"><Person p={{ ...SITE_PHOTO, name: "The Kodokan", years: "", role: "Judo's home in Tokyo" }} /></div>;
+  return null;
+}
+
+const REF_IDS = ["principles", "rules", "history", ...HISTORY.map((h) => h.id), "people", "timeline", "glossary"];
+
+export function ReferenceView() {
+  const [open, setOpen] = useState({ principles: true });
+  const setAll = (v) => setOpen(Object.fromEntries(REF_IDS.map((k) => [k, v])));
+  const allPeople = PEOPLE.filter((p) => p.id !== "helio52");
   return (
     <div>
       <div className="jj-eyebrow">Foundations</div>
-      <h1 style={{ fontSize: 44 }}>Principles & mat rules</h1>
-      <div className="jj-split" style={{ alignItems: "start", marginTop: 12 }}>
-        <div className="jj-card">
-          <h2 className="jj-h2">Principles</h2>
-          {PRINCIPLES.map((p) => <div key={p.title} style={{ margin: "10px 0" }}><strong style={{ color: C.blueLight }}>{p.title}.</strong> {p.text}</div>)}
-        </div>
-        <div className="jj-card" style={{ borderColor: C.red }}>
-          <h2 className="jj-h2" style={{ color: "#ff8f7a" }}>Home mat rules</h2>
-          <List items={RULES} />
-          <p className="jj-muted" style={{ fontSize: 14, marginBottom: 0 }}>This hub is a study companion. Follow your coach's rules at the gym first, and ask them about anything you're unsure about.</p>
-        </div>
+      <h1 style={{ fontSize: 44 }}>Reference</h1>
+      <p className="jj-muted" style={{ marginTop: 10, maxWidth: 640 }}>Principles, mat rules, the history of jiu-jitsu, and a glossary. Tap a section to open it.</p>
+      <div style={{ display: "flex", gap: 8, margin: "12px 0 4px" }}>
+        <button className="jj-btn" onClick={() => setAll(true)}>Expand all</button>
+        <button className="jj-btn" onClick={() => setAll(false)}>Collapse all</button>
       </div>
-      <Glossary />
+
+      <Sec id="principles" title="Principles" hint="How to think on the mat" open={open} setOpen={setOpen}>
+        {PRINCIPLES.map((p) => <div key={p.title} style={{ margin: "10px 0" }}><strong style={{ color: C.blueLight }}>{p.title}.</strong> {p.text}</div>)}
+      </Sec>
+
+      <Sec id="rules" title="Home mat rules" hint="Safety first" open={open} setOpen={setOpen}>
+        <List items={RULES} />
+        <p className="jj-muted" style={{ fontSize: 14, marginBottom: 0 }}>This hub is a study companion. Follow your coach's rules at the gym first, and ask them about anything you're unsure about.</p>
+      </Sec>
+
+      <Sec id="history" title="History of jiu-jitsu" hint="From samurai to the UFC and your own mat" open={open} setOpen={setOpen}>
+        <p className="jj-muted" style={{ marginTop: 0 }}>Brazilian jiu-jitsu grew out of Japanese judo and jujutsu, was reshaped by the Gracie family in Brazil, and spread to America. Open each part below. Photos are from Wikimedia Commons (public domain or CC0); tap a credit to see the original.</p>
+        {HISTORY.map((h) => (
+          <Sec key={h.id} id={h.id} title={h.title} hint={h.summary} open={open} setOpen={setOpen} nested>
+            {h.blocks.map((b, i) => <HistoryBlock key={i} b={b} />)}
+          </Sec>
+        ))}
+        <Sec id="people" title="Key figures" hint="Faces behind the story" open={open} setOpen={setOpen} nested>
+          <div className="jj-people">{allPeople.map((p) => <Person key={p.id} p={p} />)}</div>
+        </Sec>
+        <Sec id="timeline" title="Timeline at a glance" hint="Fifteen dates" open={open} setOpen={setOpen} nested>
+          <dl className="jj-timeline">{TIMELINE.map(([y, t]) => <div key={y}><dt>{y}</dt><dd>{t}</dd></div>)}</dl>
+        </Sec>
+      </Sec>
+
+      <Sec id="glossary" title="Glossary" hint={`${GLOSSARY.length} plain-language terms`} open={open} setOpen={setOpen}>
+        <Glossary />
+      </Sec>
     </div>
   );
 }
 
-/* ---------- Glossary ---------- */
 function Glossary() {
   const [q, setQ] = useState("");
   const term = q.trim().toLowerCase();
   const list = GLOSSARY.filter(([t, m]) => !term || `${t} ${m}`.toLowerCase().includes(term));
   return (
-    <div style={{ marginTop: 22 }}>
-      <div className="jj-eyebrow">Plain-language terms</div>
-      <h2 className="jj-h2">Glossary</h2>
+    <div>
       <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search the glossary" aria-label="Search the glossary" className="jj-search" />
-      <div className="jj-grid" style={{ marginTop: 12, gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))" }}>
-        {list.map(([t, m]) => <div key={t} className="jj-card"><strong>{t}</strong><div className="jj-muted" style={{ fontSize: 14.5 }}>{m}</div></div>)}
-      </div>
+      <dl className="jj-gloss">
+        {list.map(([t, m]) => <div key={t}><dt>{t}</dt><dd>{m}</dd></div>)}
+      </dl>
       {list.length === 0 && <p className="jj-muted">No matches.</p>}
     </div>
   );

@@ -1,4 +1,4 @@
-// Plain-language definitions shown on the Rules page.
+// Plain-language definitions shown on the Reference page.
 export const GLOSSARY = [
   ["Closed guard", "Your legs locked around their waist; you control posture and distance."],
   ["Open guard", "Legs not locked: feet and hands push, pull, and sweep."],

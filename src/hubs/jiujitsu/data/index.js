@@ -43,3 +43,4 @@ export { FOUR_QUESTIONS, PRINCIPLES, RULES } from "./principles";
 export { CURRICULUM } from "./curriculum";
 export { SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER } from "./drills";
 export { GLOSSARY } from "./glossary";
+export { HISTORY, TIMELINE, PEOPLE, SITE_PHOTO } from "./history";
