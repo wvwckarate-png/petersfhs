@@ -391,11 +391,13 @@ export function CycleView() {
 /* ---------- Timer view ---------- */
 export function TimerView() {
   return (
-    <div className="jj-center" style={{ textAlign: "center" }}>
-      <div className="jj-eyebrow">Rounds</div>
-      <h1 style={{ fontSize: 44 }}>Round timer</h1>
-      <p className="jj-muted" style={{ maxWidth: 560, margin: "10px auto 0" }}>Tap a preset or choose the round length, rest, and number of rounds (or infinite). Use it for drilling rounds, positional sparring, or class-style rounds.</p>
-      <div style={{ maxWidth: 520, margin: "18px auto 0" }}><Timer work={300} rest={60} rounds={5} /></div>
+    <div className="jj-center jj-compact" style={{ textAlign: "center" }}>
+      <h1 style={{ fontSize: 30 }}>Round timer</h1>
+      <div style={{ maxWidth: 860, margin: "10px auto 0" }}><Timer work={300} rest={60} rounds={5} /></div>
+      <details style={{ maxWidth: 640, margin: "10px auto 0", fontSize: 14 }} className="jj-muted">
+        <summary style={{ cursor: "pointer", fontWeight: 700 }}>Show it on a TV or an Apple TV</summary>
+        <p style={{ margin: "8px 0 0" }}>Tap Full screen for a big ring and clock that fill the display. To show it on an Apple TV, mirror this screen with AirPlay (Screen Mirroring on an iPhone or iPad, or the AirPlay menu on a Mac) and it will fill the TV. The sound plays on the device you are using.</p>
+      </details>
     </div>
   );
 }
