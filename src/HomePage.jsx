@@ -26,6 +26,14 @@ const hubs = [
     colorDeep: "#002855",
     colorPale: "#E6EBF3",
   },
+  {
+    path: "/jiujitsu",
+    name: "Jiu-Jitsu Hub",
+    description: "Positions, systems, drills, and situational sparring plans for training at home.",
+    color: "#D8472E",
+    colorDeep: "#1B1F24",
+    colorPale: "#F6E6E1",
+  },
 ];
 
 function HubIcon({ path, color }) {
@@ -55,6 +63,17 @@ function HubIcon({ path, color }) {
         <path d="M12 4L22 9L12 14L2 9L12 4Z" stroke={color} strokeWidth="1.7" strokeLinejoin="round"/>
         <path d="M6 11.5V16C6 16 8.5 19 12 19C15.5 19 18 16 18 16V11.5" stroke={color} strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"/>
         <path d="M22 9V15" stroke={color} strokeWidth="1.7" strokeLinecap="round"/>
+      </svg>
+    );
+  }
+  if (path === "/jiujitsu") {
+    return (
+      <svg {...common}>
+        <path d="M12 3L21.5 20H2.5L12 3Z" stroke={color} strokeWidth="1.8" strokeLinejoin="round"/>
+        <path d="M12 9.5L17 18H7L12 9.5Z" stroke={color} strokeWidth="1.4" strokeLinejoin="round" opacity="0.6"/>
+        <circle cx="12" cy="3" r="1.6" fill="#D8472E"/>
+        <circle cx="21.5" cy="20" r="1.6" fill="#D8472E"/>
+        <circle cx="2.5" cy="20" r="1.6" fill="#D8472E"/>
       </svg>
     );
   }
@@ -102,7 +121,7 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v6.6.0</footer>
+        <footer style={styles.footer}>v7.0.0</footer>
       </div>
 
       <style>{`

@@ -1,0 +1,33 @@
+// Mount from both sides.
+export const MOUNT = [
+  {
+    id: "mount-top", name: "Mount (Top)", family: "mount", role: "top",
+    keys: ["Hips heavy", "Knees tight", "Control the arms"],
+    one: "You're sitting on their chest or stomach with your knees on both sides. It's one of the most dominant positions, because they can't hit or sweep you easily and you have many attacks.",
+    goals: ["Settle low and heavy so their bridges don't throw you.", "Keep your knees tight against their ribs.", "Isolate an arm for a submission, or climb to high mount."],
+    controls: ["Knees: squeezed against their ribs; feet tucked under their legs (hooks) or on the floor.", "Hips: heavy, weight sitting on their belly.", "Hands: posted on the mat or on their collar and sleeve; head low or high depending on the attack.", "Eyes on their shoulders, ready to follow."],
+    moves: [["Americana", "Pin their wrist to the mat, put your other hand under their elbow, and bring their hand toward their hip."], ["S-mount armbar", "Walk your knee up to their head, spin your leg over their face and fall back with their arm between your knees."], ["Arm triangle", "Trap their arm against their head with your shoulder, walk your hips around, and squeeze."], ["Cross collar choke (gi)", "Grip deep into both collars and cross your wrists as you pull."], ["Technical mount to back", "If they turn to their side, put your hook in and take the back."]],
+    defense: ["They bridge. Widen your knees and drop your hips.", "They shrimp (hip escape). Keep your knees tight and follow with your hips.", "They push your hands or knees. Don't reach: let them push and move your hips.", "They grab your arms. Pull your hips back and switch your grips."],
+    mistakes: ["Sitting too high on their chest (high mount) without a plan: they bridge.", "Letting your knees come off their ribs.", "Leaning forward with your head down: you'll be bridged.", "Attacking the arm before settling the hips."],
+    gi: ["Use the collars for control and a choke.", "Keep your own collar tucked and away from their hands."],
+    nogi: ["Use an overhook or head control.", "Stay lower and heavier because there are no sleeves."],
+    solo: ["Mount balance: sit in a squat on a pillow and hold 30 seconds.", "Hip-heavy push-ups: 3 sets of 8."],
+    partner: ["Hold the mount for 30 seconds while partner only bridges.", "Armbar drill: S-mount to armbar 6 slow reps each side.", "Transition: side control → mount → side control."],
+    spar: { start: "Top: mounted, hips settled. Bottom: elbows tight.", topGoal: "Hold, then submit.", bottomGoal: "Escape to guard or reverse.", cues: ["Bottom partner holds still.", "Bottom partner can bridge once.", "Bottom partner escapes freely."] },
+  },
+  {
+    id: "mount-bottom", name: "Mount (Bottom Escape)", family: "mount", role: "bottom",
+    keys: ["Elbows in", "Bridge", "Shrimp"],
+    one: "They're sitting on your chest. You protect your arms and neck, then bridge or shrimp to escape.",
+    goals: ["Protect your neck and keep your elbows tight.", "Create space with a bridge or shrimp.", "Reverse them or recover guard."],
+    controls: ["Elbows: tight to your ribs, with your hands near your chest.", "Feet: planted flat on the floor near your butt.", "Hips: ready to bridge or shrimp.", "Chin: tucked down."],
+    moves: [["Trap-and-roll (upa)", "Trap one of their arms and the foot on the same side, bridge over that shoulder, and roll them over."], ["Elbow-knee escape", "Frame on their hip, shrimp out, slide your knee inside, and recover guard."], ["Bridge and shrimp combo", "Bridge to create space, then shrimp as they settle back down."], ["Get to your side", "Turn to your side so they can't flatten your hips."]],
+    defense: ["If they go high on your chest, bridge and take the elbow-knee escape.", "If they grab your wrists for an armbar, curl your arms in and roll toward the arm.", "If they go for a choke, keep your chin tucked.", "If they stay heavy, use small bridges and shrimps to create space."],
+    mistakes: ["Pushing on their chest with straight arms: you'll get armbarred.", "Bridging without trapping an arm and foot.", "Giving up your elbows.", "Panicking and using big bridges that tire you out."],
+    gi: ["Grab their sleeve before bridging.", "Use their knee to hold in the escape."],
+    nogi: ["Use their wrist and hip for control.", "Tight elbows matter even more."],
+    solo: ["Bridge: 3 sets of 10 slow bridges lifting the hips high.", "Shrimp: 3 sets of 10 each side."],
+    partner: ["Upa drill: 10 reps each side with partner sitting still.", "Elbow-knee escape: partner holds mount; you shrimp and recover guard 8 times each side.", "Combo: bridge, then shrimp, then guard."],
+    spar: { start: "Bottom: mounted, elbows tight. Top: settled in mount.", topGoal: "Hold the mount.", bottomGoal: "Reverse or recover guard.", cues: ["Top partner holds with light weight.", "Top partner follows your hips.", "Top partner presses and attacks freely."] },
+  },
+];

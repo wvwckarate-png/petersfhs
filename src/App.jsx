@@ -15,6 +15,7 @@ const EnglishLangPage = lazy(() => import("./hubs/englang/EnglishLangPage"));
 const EngLitPage = lazy(() => import("./hubs/aplit/EngLitPage"));
 const CollegeHubPage = lazy(() => import("./hubs/college/CollegeHubPage"));
 const CollegeCoursePage = lazy(() => import("./hubs/college/CollegeCoursePage"));
+const JiuJitsuPage = lazy(() => import("./hubs/jiujitsu/JiuJitsuPage"));
 const SatHubPage = lazy(() => import("./hubs/sat/SatHubPage"));
 const VocabPage = lazy(() => import("./hubs/sat/vocab/VocabPage"));
 const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"));
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/ap/englit" element={<EngLitPage />} />
         <Route path="/college" element={<CollegeHubPage />} />
         <Route path="/college/:courseId" element={<CollegeCoursePage />} />
+        <Route path="/jiujitsu" element={<JiuJitsuPage />} />
         <Route path="/sat" element={<SatHubPage />} />
         <Route path="/sat/vocab" element={<VocabPage />} />
         <Route path="/sat/vocab-questions" element={<QuestionBankPage />} />
