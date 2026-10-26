@@ -22,8 +22,8 @@ for (const [unit, list] of Object.entries(byUnit)) {
     let plain = "", map = [], inTag = false;
     for (let i = 0; i < html.length; i++) { const ch = html[i]; if (ch === "<") inTag = true; if (!inTag) { plain += ch; map.push(i); } if (ch === ">") inTag = false; }
     const first = plain.indexOf(ins.anchor);
-    if (first < 0) throw new Error(`anchor not found for ${ins.id}: ${ins.anchor.slice(0, 50)}`);
-    if (plain.indexOf(ins.anchor, first + 1) >= 0) throw new Error(`anchor not unique for ${ins.id}: ${ins.anchor.slice(0, 50)}`);
+    if (first < 0) { if (process.env.CHECK) { console.error(`NOT FOUND ${ins.id}`); continue; } throw new Error(`anchor not found for ${ins.id}: ${ins.anchor.slice(0, 50)}`); }
+    if (plain.indexOf(ins.anchor, first + 1) >= 0) { if (process.env.CHECK) { console.error(`NOT UNIQUE ${ins.id}`); continue; } throw new Error(`anchor not unique for ${ins.id}: ${ins.anchor.slice(0, 50)}`); }
     const htmlPos = map[first + ins.anchor.length - 1];
     let end = html.indexOf("\n\n", htmlPos);
     if (end < 0) end = html.length;
@@ -32,5 +32,5 @@ for (const [unit, list] of Object.entries(byUnit)) {
   }
   src = src.replace(re, (all, a, b, c) => a + JSON.stringify(html) + c);
 }
-fs.writeFileSync(file, src);
+if (!process.env.CHECK) fs.writeFileSync(file, src);
 console.log(`${hub}: ${done} diagrams inserted/updated`);
