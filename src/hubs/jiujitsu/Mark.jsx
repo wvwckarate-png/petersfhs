@@ -15,14 +15,15 @@ const lines2 = (t) => { if (t.length <= 12 || !t.includes(" ")) return [t]; cons
 // The three keys at the three corners of a brush triangle: the "keys to the position" on every position page.
 export function KeysRing({ keys }) {
   const [a, b, c] = keys;
-  const P = [[200, 52], [275, 181], [125, 181]];
+  const P = [[200, 74], [275, 203], [125, 203]];
   const label = { fill: "#ECE6D8", fontFamily: "'Manrope',sans-serif", fontWeight: 700, fontSize: 18, textAnchor: "middle" };
-  const text = (t, x, y) => lines2(t).map((ln, i) => <text key={t + i} x={x} y={y + i * 21} {...label}>{ln}</text>);
+  const text = (t, x, last) => { const ls = lines2(t); return ls.map((ln, i) => <text key={t + i} x={x} y={last - (ls.length - 1 - i) * 21} {...label}>{ln}</text>); };
+  const textDown = (t, x, first) => lines2(t).map((ln, i) => <text key={t + i} x={x} y={first + i * 21} {...label}>{ln}</text>);
   return (
-    <svg viewBox="0 0 400 260" width="100%" style={{ maxWidth: 380 }} role="img" aria-label={`Three keys: ${keys.join(", ")}`}>
-      <Sankaku x={100} y={26} size={200} bristles={70} points={60} thickness={9} radius={50} seed={21} splatter={false} />
+    <svg viewBox="0 0 400 270" width="100%" style={{ maxWidth: 380 }} role="img" aria-label={`Three keys: ${keys.join(", ")}`}>
+      <Sankaku x={100} y={50} size={200} bristles={70} points={60} thickness={9} radius={50} seed={21} splatter={false} />
       {P.map(([x, y], i) => <circle key={i} cx={x} cy={y} r="8" fill={BELT_DOTS[i]} stroke="#F4F1EA" strokeWidth="1.5" />)}
-      {text(a, 200, 20)}{text(b, 275, 218)}{text(c, 125, 218)}
+      {text(a, 200, 50)}{textDown(b, 275, 242)}{textDown(c, 125, 242)}
     </svg>
   );
 }

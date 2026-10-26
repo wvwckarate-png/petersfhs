@@ -15,12 +15,18 @@ function write(v) {
 export function useStore() {
   const [state, setState] = useState(() => {
     const s = read();
-    return { person: PEOPLE.includes(s.person) ? s.person : PEOPLE[0], progress: s.progress || {} };
+    return { person: PEOPLE.includes(s.person) ? s.person : PEOPLE[0], progress: s.progress || {}, quiz: s.quiz || {} };
   });
   const commit = useCallback((next) => { write(next); setState(next); }, []);
   const setPerson = (person) => commit({ ...state, person });
   const getStatus = (id, person = state.person) => state.progress[person]?.[id] || 0;
   const setStatus = (id, n) => commit({ ...state, progress: { ...state.progress, [state.person]: { ...(state.progress[state.person] || {}), [id]: n } } });
+  const bestKey = (topic, n) => `${state.person}|${topic}|${n}`;
+  const getBest = (topic, n) => (state.quiz[bestKey(topic, n)] ? `${state.quiz[bestKey(topic, n)]}/${n}` : "");
+  const recordQuiz = (topic, n, score, total) => {
+    const key = bestKey(topic, n);
+    if (total === n && score > (state.quiz[key] || 0)) commit({ ...state, quiz: { ...state.quiz, [key]: score } });
+  };
   const cycle = (id) => setStatus(id, (getStatus(id) + 1) % STATUS.length);
-  return { ...state, setPerson, getStatus, cycle, setStatus };
+  return { ...state, setPerson, getStatus, cycle, setStatus, getBest, recordQuiz };
 }

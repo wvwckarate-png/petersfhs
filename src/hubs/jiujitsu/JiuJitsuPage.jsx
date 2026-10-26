@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { C, CSS } from "./theme";
 import { SankakuMark } from "./Mark";
 import { useStore, PEOPLE } from "./store";
-import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, TimerView, QuizView, CardsView, ProgressView, RulesView } from "./views";
+import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, QuizView, CardsView, ProgressView, RulesView } from "./views";
 
-const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Solo drills"], ["#/plan", "Session"], ["#/timer", "Timer"], ["#/quiz", "Quiz"], ["#/cards", "Cards"], ["#/progress", "Progress"], ["#/rules", "Rules"]];
+const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Drills"], ["#/plan", "Session"], ["#/cycle", "8 weeks"], ["#/timer", "Timer"], ["#/quiz", "Quiz"], ["#/cards", "Cards"], ["#/progress", "Progress"], ["#/rules", "Rules"]];
 
 function useHashRoute() {
   const read = () => (window.location.hash || "#/").split("?")[0];
@@ -28,8 +28,9 @@ export default function JiuJitsuPage() {
   else if (route === "#/systems") view = <SystemsView />;
   else if (route === "#/drills") view = <DrillsView />;
   else if (route.startsWith("#/plan")) view = <PlanView key={window.location.hash} />;
+  else if (route === "#/cycle") view = <CycleView />;
   else if (route === "#/timer") view = <TimerView />;
-  else if (route === "#/quiz") view = <QuizView />;
+  else if (route === "#/quiz") view = <QuizView store={store} />;
   else if (route === "#/cards") view = <CardsView />;
   else if (route === "#/progress") view = <ProgressView store={store} />;
   else if (route === "#/rules") view = <RulesView />;
@@ -44,6 +45,7 @@ export default function JiuJitsuPage() {
   return (
     <div className="jj">
       <style>{CSS}</style>
+      <a className="jj-skip" href="#jj-main" onClick={(e) => { e.preventDefault(); document.getElementById("jj-main")?.focus(); }}>Skip to content</a>
       <header className="jj-top">
         <div className="jj-top-in">
           <a className="jj-brand" href="#/"><SankakuMark size={34} /> Jiu-Jitsu</a>
@@ -57,7 +59,7 @@ export default function JiuJitsuPage() {
         </div>
         <div className="jj-belt" aria-hidden="true" />
       </header>
-      <main className="jj-wrap">{view}</main>
+      <main className="jj-wrap" id="jj-main" tabIndex={-1} style={{ outline: "none" }}>{view}</main>
     </div>
   );
 }

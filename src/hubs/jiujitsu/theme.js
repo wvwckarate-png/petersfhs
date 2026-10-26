@@ -48,6 +48,7 @@ export const CSS = `
 .jj-tag{ display:inline-block; font-size:11.5px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; padding:2px 8px; border-radius:6px; background:${C.panel2}; color:${C.muted}; }
 .jj-tag.top{ background:rgba(216,71,46,.16); color:#ff8f7a; }
 .jj-tag.bottom{ background:rgba(76,134,216,.18); color:#8db8f0; }
+.jj-tag.sub{ background:rgba(139,82,207,.2); color:#c9a6f2; }
 .jj-tag.neutral{ background:rgba(244,241,234,.14); color:${C.white}; }
 .jj-tier{ display:flex; align-items:stretch; width:100%; padding:0; background:transparent; border:0; text-align:left; }
 .jj-tier svg{ display:block; }
@@ -64,5 +65,9 @@ export const CSS = `
 .jj-opt.right{ border-color:${C.blueLight}; background:rgba(46,107,198,.2); }
 .jj-opt.wrong{ border-color:${C.red}; background:rgba(216,71,46,.14); }
 .jj input[type=range]{ accent-color:${C.red}; }
+.jj-search{ width:100%; max-width:520px; background:${C.panel2}; border:1px solid ${C.line}; color:${C.text}; border-radius:10px; padding:10px 14px; font-family:inherit; font-size:16px; }
+.jj :focus-visible{ outline:2px solid ${C.blueLight}; outline-offset:2px; border-radius:6px; }
+.jj-skip{ position:absolute; left:-999px; top:8px; background:${C.red}; color:#fff; padding:8px 14px; border-radius:8px; font-weight:800; z-index:50; }
+.jj-skip:focus{ left:8px; }
 .jj select, .jj input[type=number]{ background:${C.panel2}; border:1px solid ${C.line}; color:${C.text}; border-radius:8px; padding:8px 10px; font-family:inherit; font-size:15px; }
 `;

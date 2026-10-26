@@ -56,4 +56,28 @@ export const SYSTEMS = [
     tips: ["Don't rush the pass: control first.", "Keep your chest low as you step.", "Settle for three seconds before moving on."],
     drill: "Partner holds an open guard and gives light resistance. Pass, pin, and reset 10 times.",
   },
+  {
+    id: "half-guard-system", name: "Half Guard Triangle", from: "half-guard",
+    intro: "From half guard on the bottom, the knee shield, the underhook, and the old-school sweep keep you from being flattened and always give you a next move.",
+    nodes: [{ label: "Knee shield", sub: "frame at their chest or hip" }, { label: "Underhook", sub: "get on your side" }, { label: "Old-school sweep", sub: "roll them over the trapped leg" }],
+    edges: [["They push the knee shield down and flatten you", "Fight for the underhook and get on your side."], ["You have the underhook and they stay heavy on you", "Grab behind their knee and finish the old-school sweep."], ["They post a leg wide or recover their base", "Re-frame with the knee shield and start again."]],
+    tips: ["Never lie flat on your back.", "Win the underhook before you reach for a sweep.", "Keep your chin tucked so a crossface can't turn your head."],
+    drill: "Partner starts in top half guard with a crossface. You earn the underhook, sweep, or recover guard in 2-minute rounds, then switch.",
+  },
+  {
+    id: "shot-chain", name: "Takedown Chain", from: "single-leg",
+    intro: "Takedowns work best as a chain. When they defend one shot, the defense gives you the next one.",
+    nodes: [{ label: "Single leg", sub: "trap one leg" }, { label: "Double leg", sub: "drive through both legs" }, { label: "Front headlock", sub: "sprawl, snap, and go behind" }],
+    edges: [["They hop away or whizzer the single leg", "Switch to the double leg and drive through."], ["They sprawl on the double leg", "Snap their head down into a front headlock and go behind."], ["They stand up and turn out of the headlock", "Drop to a single leg again."]],
+    tips: ["Keep your head tight to their ribs, never low in front of their hips.", "Change levels before every shot.", "Land in a controlled position and never throw from a height at home."],
+    drill: "Partner gives one defense per round (hop, sprawl, or turn). Respond with the right shot. 6 rounds of 2 minutes, then switch.",
+  },
+  {
+    id: "turtle-system", name: "Turtle Escape Triangle", from: "turtle-bottom",
+    intro: "From turtle you have three ways to come out: sit out and turn in, roll over your shoulder, or stand up. Each one answers a different thing the top person does.",
+    nodes: [{ label: "Sit-out", sub: "slide a leg through and turn" }, { label: "Granby roll", sub: "roll to face them" }, { label: "Stand up", sub: "post and come to your feet" }],
+    edges: [["They follow your hips tightly as you sit out", "Roll over your shoulder with a Granby roll."], ["They flatten you or chase the roll", "Post a hand and stand up to your base."], ["They wrap your waist as you stand", "Sit out and turn to face them."]],
+    tips: ["Keep your elbows tight to your knees until the moment you move.", "Move before they get both hooks.", "Finish by facing them with your feet between you."],
+    drill: "Partner starts behind you in turtle with a seatbelt and no hooks. Escape using the system, then add hooks gradually.",
+  },
 ];
