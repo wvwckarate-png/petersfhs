@@ -20,6 +20,8 @@ const SatHubPage = lazy(() => import("./hubs/sat/SatHubPage"));
 const VocabPage = lazy(() => import("./hubs/sat/vocab/VocabPage"));
 const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"));
 
+import VersionBadge from "./components/VersionBadge";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -47,6 +49,7 @@ export default function App() {
       </Routes>
       </Suspense>
       </ErrorBoundary>
+      <VersionBadge />
     </BrowserRouter>
   );
 }

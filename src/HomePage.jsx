@@ -115,7 +115,6 @@ export default function HomePage() {
           ))}
         </div>
 
-        <footer style={styles.footer}>v7.9.1</footer>
       </div>
 
       <style>{`
@@ -219,5 +218,4 @@ const styles = {
   cardDesc: { fontSize: 14.5, color: "#767F73", lineHeight: 1.55, maxWidth: 220 },
   cardArrow: { fontFamily: "'Nunito', sans-serif", fontWeight: 800, fontSize: 13.5, marginTop: 18 },
 
-  footer: { textAlign: "center", marginTop: 60, fontSize: 11.5, color: "#C4C0C0", fontFamily: "'IBM Plex Mono', monospace", letterSpacing: "0.05em" },
 };
