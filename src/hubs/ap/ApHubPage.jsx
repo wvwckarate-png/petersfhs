@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BrandLogo from "../../components/BrandLogo";
+import HubTopBar from "../../components/HubTopBar";
 
 const subjects = [
   { id: "physics1", name: "AP Physics 1", color: "#7BA3B8", ready: true },
@@ -95,9 +95,9 @@ function SubjectIcon({ id, color }) {
 export default function ApHubPage() {
   return (
     <div style={styles.page}>
+      <HubTopBar title="AP Hub" titleColor="#2E332E" tagColor="#767F73" border="#ECEAE3" pillBg="#EEF1EC" pillColor="#4A5A47" />
       <div style={styles.header}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap" }}><BrandLogo height={56} divider /><h1 style={styles.title}>AP Hub</h1></div>
-        <p style={styles.subtitle}>Choose a subject to start studying.</p>
+                <p style={styles.subtitle}>Choose a subject to start studying.</p>
       </div>
       <div style={styles.grid}>
         {subjects.map((s) => (
@@ -122,7 +122,7 @@ export default function ApHubPage() {
 
 const styles = {
   page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "sans-serif", padding: "40px 24px", boxSizing: "border-box" },
-  header: { textAlign: "center", margin: "24px 0 40px" },
+  header: { textAlign: "center", margin: "0 0 32px" },
   title: { fontSize: 32, fontWeight: 800, color: "#2E332E", margin: 0 },
   subtitle: { color: "#767F73", marginTop: 8 },
   grid: { display: "flex", justifyContent: "center", gap: 16, flexWrap: "wrap", maxWidth: 760, margin: "0 auto" },

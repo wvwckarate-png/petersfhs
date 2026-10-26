@@ -3,15 +3,14 @@ import { Link } from "react-router-dom";
 import { COURSES, FOUNDATION_COURSES, NAVY, NAVY_PALE, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
 import CourseIcon from "./CourseIcon";
-import BrandLogo from "../../components/BrandLogo";
+import HubTopBar from "../../components/HubTopBar";
 
 export default function CollegeHubPage() {
   return (
     <div style={styles.page}>
+      <HubTopBar title="College Hub" titleColor={NAVY} tagColor="#767F73" border="#ECEAE3" pillBg={NAVY_PALE} pillColor={NAVY} />
       <div style={styles.header}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap" }}><BrandLogo height={56} divider /><h1 style={styles.title}>College Hub</h1></div>
-        <div style={styles.titleBar} />
-        <p style={styles.subtitle}>Get a head start on your college courses, at your own pace.</p>
+                <p style={styles.subtitle}>Get a head start on your college courses, at your own pace.</p>
       </div>
 
       {[
@@ -72,7 +71,7 @@ export default function CollegeHubPage() {
 
 const styles = {
   page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "'Nunito', 'Manrope', sans-serif", padding: "40px 24px", boxSizing: "border-box" },
-  header: { textAlign: "center", margin: "24px 0 36px" },
+  header: { textAlign: "center", margin: "0 0 32px" },
   title: { fontSize: 32, fontWeight: 800, color: NAVY, margin: 0 },
   titleBar: { width: 64, height: 4, borderRadius: 2, background: GOLD, margin: "12px auto 0" },
   subtitle: { color: "#767F73", marginTop: 14 },

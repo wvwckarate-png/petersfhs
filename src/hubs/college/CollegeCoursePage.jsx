@@ -1,10 +1,10 @@
 import React, { Suspense } from "react";
 import { Link, useParams } from "react-router-dom";
 import NotFoundPage from "../../NotFoundPage";
-import { findCourse, NAVY, GOLD, GOLD_DEEP } from "./courses";
+import { findCourse, NAVY, NAVY_PALE, GOLD, GOLD_DEEP } from "./courses";
 import { COURSE_PAGES } from "./courseContent";
 import CourseIcon from "./CourseIcon";
-import BrandLogo from "../../components/BrandLogo";
+import HubTopBar from "../../components/HubTopBar";
 
 export default function CollegeCoursePage() {
   const { courseId } = useParams();
@@ -22,11 +22,7 @@ export default function CollegeCoursePage() {
 
   return (
     <div style={styles.page}>
-      <div style={styles.header}>
-        <div style={styles.iconWrap}><CourseIcon id={course.id} size={40} /></div>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16, flexWrap: "wrap" }}><BrandLogo height={56} divider /><h1 style={styles.title}>{course.name} <span style={styles.code}>— {course.code}</span></h1></div>
-        <div style={styles.titleBar} />
-      </div>
+      <HubTopBar title={`${course.name} — ${course.code}`} tag="College Hub · Peters Family Homeschool" icon={<CourseIcon id={course.id} size={24} />} titleColor={NAVY} tagColor="#767F73" border="#ECEAE3" pillBg={NAVY_PALE} pillColor={NAVY} backTo="/college" backLabel="← College Hub" />
       <div style={styles.box}>
         <div style={styles.boxTitle}>Coming soon</div>
         <p style={styles.boxText}>
