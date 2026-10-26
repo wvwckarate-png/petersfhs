@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import BrandLogo from "../../components/BrandLogo";
 import { CSS } from "./theme";
 import { SankakuMark } from "./Mark";
@@ -52,7 +53,9 @@ export default function JiuJitsuPage() {
           </nav>
           <div className="jj-logos" style={{ display: "flex", alignItems: "center", gap: 14, flexShrink: 0 }}>
             <BrandLogo height={40} invert divider />
-            <img src="/images/proform-logo.png" alt="Pro Form Martial Arts" style={{ height: 40, width: "auto", display: "block", mixBlendMode: "screen" }} />
+            <Link to="/" aria-label="Pro Form Martial Arts: back to the main page" title="Back to the main page" style={{ display: "inline-flex" }}>
+              <img src="/images/proform-logo.png" alt="Pro Form Martial Arts" style={{ height: 40, width: "auto", display: "block", mixBlendMode: "screen" }} />
+            </Link>
           </div>
         </div>
         <div className="jj-belt" aria-hidden="true" />
