@@ -2785,5 +2785,54 @@ export const FIGS = {
   "license": "CC BY 3.0",
   "author": "OpenStax College",
   "page": "https://commons.wikimedia.org/wiki/File:916_Hip_Joint.jpg"
+ },
+ "male-repro": {
+  "src": "/college-figs/male-repro.jpg",
+  "alt": "Figure 28 01 01",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_01_01.jpg"
+ },
+ "testis": {
+  "src": "/college-figs/testis.jpg",
+  "alt": "Figure 28 01 03.JPG",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_01_03.JPG"
+ },
+ "spermatogenesis": {
+  "src": "/college-figs/spermatogenesis.jpg",
+  "alt": "Figure 28 01 04",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_01_04.jpg"
+ },
+ "female-repro": {
+  "src": "/college-figs/female-repro.jpg",
+  "alt": "Figure 28 02 01.JPG",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_02_01.JPG"
+ },
+ "oogenesis": {
+  "src": "/college-figs/oogenesis.jpg",
+  "alt": "Figure 28 02 03.JPG",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_02_03.JPG"
+ },
+ "uterine-tube-ovary": {
+  "src": "/college-figs/uterine-tube-ovary.jpg",
+  "alt": "Figure 28 02 06.JPG",
+  "license": "CC BY 3.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_02_06.JPG"
+ },
+ "menstrual-cycle": {
+  "src": "/college-figs/menstrual-cycle.jpg",
+  "alt": "Figure 28 02 07",
+  "license": "CC BY 4.0",
+  "author": "OpenStax College",
+  "page": "https://commons.wikimedia.org/wiki/File:Figure_28_02_07.jpg"
  }
 };

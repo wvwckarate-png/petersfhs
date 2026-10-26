@@ -22,6 +22,12 @@ export default {
         { p: "<strong>Valves</strong> are passive flaps that open and close with pressure changes. The atrioventricular (AV) valves (tricuspid on the right, mitral/bicuspid on the left) are anchored by <strong>chordae tendineae</strong> to <strong>papillary muscles</strong>, which keep them from flipping backward. The semilunar valves (pulmonary and aortic) have three cusps each and no chordae. Valves are best heard at specific surface sites, which do not match their anatomical positions: aortic (right second intercostal space), pulmonary (left second), tricuspid (left lower sternal border), and mitral (fifth intercostal space, mid-clavicular line)." },
         { p: "The heart muscle is fed by the <strong>coronary arteries</strong>, which arise from the aorta just above the aortic valve. The <strong>left coronary artery</strong> divides into the <strong>left anterior descending (LAD)</strong> and the <strong>circumflex</strong> arteries. The <strong>right coronary artery</strong> supplies the right atrium, right ventricle, and (in most people) the inferior wall and the SA and AV nodes. Blood drains by the <strong>cardiac veins</strong> into the <strong>coronary sinus</strong>, which empties into the right atrium." },
         { key: "The <strong>LAD</strong> is nicknamed 'the widow-maker' because blockage causes a large anterior myocardial infarction. It supplies the front of the left ventricle and most of the interventricular septum." },
+        // visuals:begin s101
+        { figId: "heart-internal", caption: "Internal anatomy of the heart." },
+        { figId: "heart-valves", caption: "The heart valves." },
+        { figId: "chordae", caption: "Chordae tendineae and papillary muscles." },
+        { figId: "heart-surface", caption: "The coronary vessels on the surface of the heart." },
+        // visuals:end s101
         { recap: [
           "Describe the layers of the pericardium and heart wall.",
           "Trace blood through chambers and valves and locate the valves' auscultation sites.",
@@ -49,6 +55,9 @@ export default {
         ]),
         { p: "The <strong>common carotid</strong> divides at about the level of the thyroid cartilage into the <strong>external carotid</strong> (face and scalp) and <strong>internal carotid</strong> (brain), and the <strong>carotid sinus</strong> and <strong>carotid body</strong> at this bifurcation sense pressure and blood gases. A <strong>carotid pulse</strong> is felt along the anterior border of the sternocleidomastoid. Limb arteries follow the names you learned in the limb units (subclavian → axillary → brachial → radial and ulnar; external iliac → femoral → popliteal → anterior and posterior tibial)." },
         { trap: "The <strong>right and left</strong> sides are not symmetrical at the top of the aortic arch: only the right side has a brachiocephalic trunk. The left common carotid and left subclavian arteries come off the arch separately." },
+        // visuals:begin s102
+        { figId: "major-arteries", caption: "Major systemic arteries." },
+        // visuals:end s102
         { recap: [
           "List the aortic arch branches and the major abdominal aortic branches with levels.",
           "Trace the arteries of the head, limbs, and abdomen.",
@@ -69,6 +78,10 @@ export default {
         ]),
         { p: "The <strong>hepatic portal system</strong> is a special arrangement: veins from the digestive tract (the superior and inferior mesenteric and splenic veins) join to form the <strong>hepatic portal vein</strong>, which carries nutrient-rich blood to the liver for processing before it reaches the heart. <strong>Portal hypertension</strong> (from cirrhosis) causes blood to back up and find alternate routes: esophageal varices, hemorrhoids, and a 'caput medusae' around the umbilicus." },
         { p: "<strong>Fetal circulation</strong> has three shunts that close after birth: the <strong>foramen ovale</strong> (right atrium to left atrium, becomes the fossa ovalis), the <strong>ductus arteriosus</strong> (pulmonary trunk to aorta, becomes the ligamentum arteriosum), and the <strong>ductus venosus</strong> (bypasses the liver, becomes the ligamentum venosum). The <strong>umbilical vein</strong> carries oxygenated blood to the fetus and the two <strong>umbilical arteries</strong> carry deoxygenated blood away." },
+        // visuals:begin s103
+        { figId: "major-veins", caption: "Major systemic veins." },
+        { figId: "portal-system", caption: "The hepatic portal system." },
+        // visuals:end s103
         { recap: [
           "List the major veins of each region and the formation of the vena cavae.",
           "Describe the hepatic portal system and portal hypertension.",
@@ -91,6 +104,12 @@ export default {
           ["Tonsils, Peyer's patches, appendix", "Mucosa-associated lymphoid tissue (MALT)"],
         ]),
         { p: "Lymph nodes often swell in response to infection and cancer cells commonly spread through lymphatics, so the nodes draining a tumor are examined and sometimes removed (<strong>sentinel node biopsy</strong>). <strong>Lymphedema</strong> is swelling from damaged or blocked lymphatics, as after axillary node removal for breast cancer. The spleen is the organ most easily ruptured in abdominal trauma (lying under the left lower ribs), and a ruptured spleen causes rapid internal bleeding." },
+        // visuals:begin s104
+        { figId: "lymphatic", caption: "The lymphatic system." },
+        { figId: "lymph-node", caption: "A lymph node." },
+        { figId: "spleen", caption: "The spleen." },
+        { figId: "thymus", caption: "The thymus." },
+        // visuals:end s104
         { recap: [
           "State the three functions of the lymphatic system.",
           "Locate the thoracic and right lymphatic ducts and their drainage areas.",

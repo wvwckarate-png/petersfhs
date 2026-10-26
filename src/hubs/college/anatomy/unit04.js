@@ -26,6 +26,10 @@ export default {
           ["Sacrum", "Shorter and wider", "Longer and narrower"],
         ]),
         { key: "<strong>The ASIS and the ischial tuberosity</strong> are two of the most clinically useful palpable landmarks: the ASIS is the origin of the sartorius and tensor fasciae latae, and the ischial tuberosity is the origin of the hamstrings. Avulsion fractures at these sites occur in adolescent athletes when a growth plate gives way to a powerful muscle pull." },
+        // visuals:begin s41
+        { figId: "hip-bone", caption: "The hip bone." },
+        { figId: "pelvis-sex", caption: "Male and female pelvic girdles." },
+        // visuals:end s41
         { recap: [
           "Identify the three bones of the hip bone and their landmarks.",
           "Compare the female and male pelvis.",
@@ -52,6 +56,10 @@ export default {
         { p: "The <strong>patella</strong> is the largest sesamoid bone, embedded in the quadriceps tendon. Its posterior surface is covered with the thickest articular cartilage in the body. The quadriceps tendon continues below it as the <strong>patellar ligament</strong>, which inserts on the <strong>tibial tuberosity</strong>." },
         { p: "The femoral shaft angles inward from hip to knee, so the knees sit closer to the midline than the hips (the <strong>Q-angle</strong> is the angle between the quadriceps' line of pull and the patellar tendon). The angle is typically larger in women because of the wider pelvis, which is one reason patellofemoral problems are more common in women." },
         { trap: "A femoral <strong>neck</strong> fracture and an <strong>intertrochanteric</strong> fracture are different. Neck fractures risk the blood supply to the femoral head (medial circumflex femoral artery) and often need replacement, while intertrochanteric fractures lie outside the joint capsule and have a better blood supply." },
+        // visuals:begin s42
+        { figId: "femur", caption: "The femur and patella." },
+        { figId: "q-angle", caption: "The Q-angle." },
+        // visuals:end s42
         { recap: [
           "List the key landmarks of the femur and their attachments.",
           "Describe the patella and the Q-angle.",
@@ -71,6 +79,10 @@ export default {
         ]),
         { p: "The <strong>talus</strong> transmits the body's weight from the tibia to the foot, and the <strong>calcaneus</strong> (heel bone) is the largest tarsal and the attachment of the Achilles tendon. The foot has three <strong>arches</strong> (medial longitudinal, lateral longitudinal, and transverse) that spread the load and act as springs. The fifth metatarsal has a prominent base (tuberosity), which is a common site of avulsion fracture in ankle sprains (the fibularis brevis pulls on it) and of Jones fractures." },
         { key: "<strong>Weight transfer:</strong> body weight passes from the spine to the sacrum, then through the sacroiliac joints and pelvis to the femur, tibia, talus, and then splits: about half goes to the calcaneus (heel) and half spreads forward across the metatarsal heads, especially the first." },
+        // visuals:begin s43
+        { figId: "tibia-fibula", caption: "The tibia and fibula." },
+        { figId: "foot-bones", caption: "The bones of the foot." },
+        // visuals:end s43
         { recap: [
           "Identify the landmarks of the tibia and fibula.",
           "List the tarsal bones and describe the arches of the foot.",
@@ -91,6 +103,10 @@ export default {
           ["Superior gluteal", "Gluteus medius and minimus, tensor fasciae latae", "Trendelenburg sign"],
         ]),
         { p: "The main arterial supply is the <strong>femoral artery</strong> (continuing from the external iliac artery under the inguinal ligament), which gives off the <strong>deep femoral</strong> branch, then becomes the <strong>popliteal artery</strong> behind the knee. The popliteal divides into the <strong>anterior and posterior tibial arteries</strong>. Pulses can be felt at the femoral (groin), popliteal (behind the knee), posterior tibial (behind the medial malleolus), and dorsalis pedis (top of the foot) positions. Deep veins accompany the arteries, and the <strong>great saphenous vein</strong> (the longest vein in the body) runs along the medial leg and thigh and is used for bypass surgery." },
+        // visuals:begin s44
+        { figId: "major-arteries", caption: "Major arteries." },
+        { figId: "major-veins", caption: "Major veins." },
+        // visuals:end s44
         { recap: [
           "Name the major nerves of the lower limb and their territories.",
           "Trace the arterial supply and list the pulse points.",

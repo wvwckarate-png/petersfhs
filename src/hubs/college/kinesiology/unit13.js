@@ -25,6 +25,10 @@ export default {
           ["Walking speed", "Step length × cadence", "About 1.2–1.4 m/s"],
         ]),
         { key: "<strong>Walking is an inverted pendulum</strong>: the body vaults over a stiff stance leg, converting kinetic energy to potential energy and back, which recycles energy. Running is more like a bouncing ball (spring-mass), with tendons storing and returning energy. The change from walking to running happens at about 2 m/s because the pendulum no longer pays off." },
+        // visuals:begin s131
+        { svg: "plot; title=Vertical GRF in walking (one stance); x=% of stance; y=Force (body weights); xlim=0:100; ylim=0:1.4; xticks=0,25,50,75,100; yticks=0,1; line=0,0 10,1.1 25,0.85 50,0.8 75,1.1 90,0.6 100,0 | #C0392B", caption: "Walking: the vertical ground reaction force has two peaks (loading and push-off)." },
+        { figId: "leg-muscles", caption: "The calf muscles push off; the tibialis anterior lowers the foot at heel strike." },
+        // visuals:end s131
         { recap: [
           "Define the gait cycle, stance and swing phases, and double support.",
           "Describe the major events and muscle actions in walking.",
@@ -46,6 +50,10 @@ export default {
         { p: "<strong>Speed = stride length × stride frequency</strong>. Beginners improve speed by increasing stride length, while elite sprinters increase speed mostly by pushing hard against the ground (high force relative to body weight) in a very short contact time. Excessive overstriding (landing with the foot far in front of the body) raises the braking force and the loading on the knee, and a slightly higher cadence is a reasonable way to reduce it." },
         { p: "The <strong>running economy</strong> (the oxygen cost at a given speed) depends on elastic energy return, body size, stride, footwear, and training. Economy differs surprisingly between runners with the same VO₂ max, and it is one reason East African distance runners with long, slender lower legs (low moment of inertia of the swinging leg) and efficient tendons perform so well." },
         { worked: { label: "Worked Example 1", q: "A runner covers 5 m/s with a stride length of 2.5 m. What is the stride frequency, and what happens if she takes 5% shorter strides at the same frequency?", a: "Speed = stride length × stride frequency, so frequency = 5 ÷ 2.5 = <strong>2 strides/s</strong> (120 per minute, or 240 steps/min counting each foot). A 5% shorter stride at the same frequency gives 2.375 m × 2 = <strong>4.75 m/s</strong>, which is 5% slower. To hold pace, she must increase frequency." } },
+        // visuals:begin s132
+        { svg: "plot; title=Vertical GRF in running (one stance); x=Time (s); y=Force (body weights); xlim=0:0.3; ylim=0:3.5; xticks=0,0.1,0.2,0.3; yticks=0,1,2,3; line=0,0 0.03,2.2 0.06,1.8 0.12,2.7 0.2,1.2 0.25,0 0.3,0 | #C0392B", caption: "Running: a flight phase, and one peak of 2–3 body weights through each stance." },
+        { figId: "foot-muscles", caption: "The arch and plantar fascia store and return elastic energy." },
+        // visuals:end s132
         { recap: [
           "List how running differs from walking.",
           "Use speed = stride length × stride frequency.",
@@ -65,6 +73,10 @@ export default {
         ]),
         { p: "<strong>Why depth matters</strong>: deeper squats require greater ankle, knee, and hip range and recruit more glute and adductor activity. Anatomy varies: hip socket depth and femoral angles mean one person's perfect squat stance is another person's pinch. A stance width and toe angle that is comfortable at depth is the right one." },
         { skill: { label: "Skill: Read the Bar Path", text: "In a barbell squat or deadlift, the efficient path is a vertical line over the mid-foot. If the bar drifts forward, the moment arm from the load to the hip or knee grows, and the lift gets harder. Coaches look for the bar to travel straight up and down." } },
+        // visuals:begin s133
+        { figId: "gluteal-muscles", caption: "The hip hinge and squat load the hip extensors (gluteus maximus) and the quadriceps." },
+        { figId: "knee-joint", caption: "Keep the knees tracking over the toes in a squat or lunge." },
+        // visuals:end s133
         { recap: [
           "Describe the squat, hinge, and lunge patterns and the muscles used.",
           "Explain why anatomical variation affects squat technique.",
@@ -80,6 +92,10 @@ export default {
         { p: "<strong>Landing</strong> is the reverse of jumping and requires the same joints to act eccentrically as brakes. Safe landings use a soft, three-joint strategy (hips, knees, and ankles all flexing), a wide-enough stance, and knees tracking over the toes, so the force is shared across muscles and the stopping time is longer. Stiff, upright landings and knee valgus raise the force and the risk of ACL injury." },
         { p: "<strong>Overhead throwing</strong> follows a <strong>proximal-to-distal sequence</strong>: the legs and hips begin, then the trunk rotates, then the upper arm, the forearm, and finally the hand, each segment accelerating in turn as the previous one decelerates. This transfers momentum from large, slow segments to small, fast ones, and the hand ends with the highest speed. A break in the chain (for example, a stiff trunk) forces the arm to do more, and the shoulder and elbow get injured." },
         { key: "Almost every skilled athletic movement follows the same two rules: a <strong>stable base</strong> and a <strong>proximal-to-distal sequence</strong>. Force starts at the ground and flows up through the legs, trunk, and limbs, which is why strong legs and a strong core make throwers, hitters, and swimmers better." },
+        // visuals:begin s134
+        { figId: "knee-injury", caption: "Landing with the knees collapsing inward (valgus) increases ACL strain." },
+        { figId: "humerus-muscles", caption: "Throwing: energy flows from the legs and trunk up through the shoulder and arm (the kinetic chain)." },
+        // visuals:end s134
         { recap: [
           "Apply h = v²/2g to a jump.",
           "Describe safe landing strategy.",
@@ -100,6 +116,9 @@ export default {
         ]),
         { p: "<strong>Injury prevention</strong> rests on a few well-supported ideas: increase training load gradually (the so-called 10% rules are rough guides, with the acute-to-chronic workload ratio as a refined version), strengthen eccentrically, train balance and landing mechanics, rebuild fully before returning to sport, and sleep and recover. A single test almost never predicts an injury, because injuries come from many interacting factors, which is why careful clinicians combine tests, history, and judgment." },
         { key: "The unifying idea of kinesiology is that the body is a system of <strong>levers (bones), motors (muscles), and sensors (the nervous system)</strong> obeying Newton's laws. If you can name the joint, plane, muscle, and torque, you can analyze nearly any movement." },
+        // visuals:begin s135
+        { figId: "q-angle", caption: "Alignment screens (Q angle, genu valgum) and functional tests help to spot injury risk." },
+        // visuals:end s135
         { recap: [
           "Ask what, why, and what-to-change about a movement.",
           "Describe common screening tools and their limits.",

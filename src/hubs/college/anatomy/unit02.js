@@ -23,6 +23,12 @@ export default {
         { p: "<strong>Bone growth</strong> in length occurs at the <strong>epiphyseal (growth) plate</strong>, a layer of hyaline cartilage between the epiphysis and diaphysis that is replaced by bone as it grows. At the end of puberty the plates ossify and close, and growth in height ends. Growth in width and thickness occurs by <strong>appositional growth</strong> from the periosteum. Fractures of growth plates in children are serious because they can disturb later growth." },
         { p: "<strong>Remodeling</strong> is lifelong: osteoclasts remove old bone while osteoblasts lay down new bone. <strong>Wolff's law</strong> says that bone adapts to the loads under which it is placed, so weight-bearing exercise strengthens bone, while immobilization, bed rest, and spaceflight weaken it. Bone also serves as the body's calcium bank, under the control of PTH, calcitonin, and vitamin D. Peak bone mass is reached in the late twenties, which makes youth a chance to bank bone for later life." },
         { key: "<strong>Intramembranous ossification</strong> forms flat bones (skull, clavicle) directly from connective tissue. <strong>Endochondral ossification</strong> forms most of the skeleton, first as a hyaline cartilage model that is replaced by bone." },
+        // visuals:begin s21
+        { figId: "long-bone", caption: "Anatomy of a long bone." },
+        { figId: "compact-bone", caption: "Compact bone: the osteon." },
+        { figId: "spongy-bone", caption: "Spongy (cancellous) bone." },
+        { figId: "growth-plate", caption: "Longitudinal bone growth at the epiphyseal plate." },
+        // visuals:end s21
         { recap: [
           "Distinguish compact from spongy bone and name the cells of bone tissue.",
           "Describe how bones grow in length and width and when growth ends.",
@@ -53,6 +59,11 @@ export default {
         ]),
         { p: "The <strong>facial bones</strong> are the maxillae (2), zygomatic (2), nasal (2), lacrimal (2), palatine (2), inferior nasal conchae (2), vomer (1), and mandible (1). The <strong>paranasal sinuses</strong> (frontal, maxillary, ethmoid, sphenoid) are air-filled spaces that lighten the skull and warm incoming air; they drain into the nose and become painful when inflamed. In infants, <strong>fontanelles</strong> ('soft spots') allow the skull to compress during birth and the brain to grow; the anterior fontanelle closes at about 18–24 months." },
         { trap: "The <strong>hyoid</strong> is the one bone that articulates with no other bone; it floats, held by muscles and ligaments, and anchors the tongue. A fractured hyoid in a trauma patient is a clue to strangulation." },
+        // visuals:begin s22
+        { figId: "skull-front", caption: "The skull from the front." },
+        { figId: "skull-base", caption: "The cranial base." },
+        { figId: "sinuses", caption: "The paranasal sinuses." },
+        // visuals:end s22
         { recap: [
           "Name the 8 cranial bones and the main features of each.",
           "Locate the four major sutures.",
@@ -76,6 +87,11 @@ export default {
         ]),
         { p: "Between vertebrae, the <strong>intervertebral foramina</strong> let the spinal nerves exit. The spinal cord ends around L1–L2, so lumbar punctures are done lower (L3–L4 or L4–L5), where there are only nerve roots floating in cerebrospinal fluid (the <strong>cauda equina</strong>). The ligaments that bind the spine include the <strong>anterior and posterior longitudinal ligaments</strong> (along the vertebral bodies), the <strong>ligamentum flavum</strong> (between laminae), and the <strong>supraspinous ligament</strong> (along the spinous processes)." },
         { key: "<strong>Why lumbar puncture is safe at L3–L4:</strong> the adult spinal cord stops at L1–L2, but the subarachnoid space continues to S2. Below L2, a needle meets only the floating cauda equina, which tends to slide out of the way." },
+        // visuals:begin s23
+        { figId: "vertebral-column", caption: "The curves of the vertebral column." },
+        { figId: "vertebra", caption: "A typical vertebra." },
+        { figId: "sacrum", caption: "The sacrum and coccyx." },
+        // visuals:end s23
         { recap: [
           "Identify the parts of a typical vertebra.",
           "Distinguish cervical, thoracic, and lumbar vertebrae and the special features of C1, C2, and C7.",
@@ -96,6 +112,9 @@ export default {
         ]),
         { p: "A typical rib has a head (articulates with the vertebral bodies), a neck, a tubercle (articulates with the transverse process), and a body with a <strong>costal groove</strong> along its lower edge that shelters the intercostal vein, artery, and nerve (<strong>VAN</strong>, top to bottom). A chest tube or needle is placed just above a rib to avoid damaging those vessels." },
         { p: "Surface landmarks help locate deeper structures. The <strong>sternal angle</strong> (the joint between the manubrium and the sternal body) lies at the level of the second rib, the T4–T5 intervertebral disc, the carina of the trachea, and the aortic arch. It is the starting point for counting ribs when listening to the lungs or the heart." },
+        // visuals:begin s24
+        { figId: "rib-cage", caption: "The thoracic cage." },
+        // visuals:end s24
         { recap: [
           "Name the parts of the sternum and classify the ribs.",
           "Explain the costal groove and the VAN arrangement.",

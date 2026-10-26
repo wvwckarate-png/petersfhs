@@ -18,6 +18,9 @@ export default {
         ] } },
         { p: "One <strong>radian</strong> is the angle at which the arc length equals the radius, about 57.3°. A full circle is 2π radians (360°). The link between the two worlds is <strong>v = ω × r</strong>: a point farther from the axis moves faster for the same angular velocity. That is why the hand of a rotating arm moves faster than the elbow, and why a longer bat produces a higher bat-tip speed." },
         { worked: { label: "Worked Example 1", q: "A tennis racket is rotated at 20 rad/s about the shoulder, and the ball contact point is 0.9 m from the axis. What is the linear speed of the contact point?", a: "v = ω × r = 20 × 0.9 = <strong>18 m/s</strong>, about 40 mph. The speed of the racket head is the product of how fast the arm rotates and how long the lever is." } },
+        // visuals:begin s61
+        { figId: "body-movements", caption: "Angular motion: segments rotate about joint axes; points farther from the axis move faster (v = ω × r)." },
+        // visuals:end s61
         { recap: [
           "Map linear variables to their angular counterparts.",
           "Convert between degrees and radians in concept.",
@@ -58,6 +61,9 @@ export default {
         ] } },
         { p: "A body is stable when the <strong>line of gravity falls within the base of support</strong>. Stability increases with (1) a <strong>larger base of support</strong>, (2) a <strong>lower COM</strong>, (3) a <strong>greater mass</strong> (more force is needed to move it), and (4) a COM positioned over the center of the base. That is why wrestlers and linemen crouch with their feet wide, and why a sprinter in the blocks, who wants to <em>lose</em> stability to start running, raises the hips and narrows the base." },
         { p: "<strong>Balance control</strong> is a sensory and motor task. The brain integrates vision, the vestibular system, and proprioception, then adjusts muscles. In standing, small ankle corrections (the <strong>ankle strategy</strong>) handle small sways, a hip strategy handles larger ones, and a stepping strategy catches a big disturbance. Aging, injury, and certain medications degrade these systems, which is why balance training reduces falls in older adults." },
+        // visuals:begin s63
+        { figId: "directional", caption: "In anatomical position, the center of mass of an adult lies at about 55–57% of standing height." },
+        // visuals:end s63
         { recap: [
           "Define center of mass and explain that it can lie outside the body.",
           "List the factors that increase stability.",
@@ -77,6 +83,9 @@ export default {
         ] } },
         { p: "<strong>Buoyancy</strong> follows Archimedes' principle. Body density decides who floats: fat is less dense than water, bone and muscle more dense, so body composition predicts floating ability. Underwater weighing uses exactly this principle to estimate body fat." },
         { key: "Drafting works because the leader breaks the air and leaves a low-pressure wake. A cyclist riding behind another can save roughly 30–40% of their effort, which is why professional teams rotate the leader." },
+        // visuals:begin s64
+        { svg: "plot; title=Drag vs. speed; x=Speed (km/h); y=Drag (relative); xlim=0:60; ylim=0:100; xticks=0,10,20,30,40,50,60; yticks=0; line=0,0 10,3 20,11 30,25 40,44 50,69 60,100 | #C0392B", caption: "Drag rises with the square of speed: doubling speed quadruples drag." },
+        // visuals:end s64
         { recap: [
           "Explain why drag increases with the square of speed.",
           "Name and describe drag, lift, Magnus force, and buoyancy.",

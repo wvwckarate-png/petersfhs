@@ -17,6 +17,11 @@ export default {
         { p: "Blood follows a fixed path through the heart. Blood that has returned from the body enters the <strong>right atrium</strong>, passes through the tricuspid valve into the <strong>right ventricle</strong>, and is pumped through the pulmonary valve into the <strong>pulmonary artery</strong> toward the lungs. Oxygenated blood returns through the pulmonary veins to the <strong>left atrium</strong>, passes through the mitral valve to the <strong>left ventricle</strong>, and is pumped through the aortic valve into the <strong>aorta</strong> and out to the body." },
         { key: "<strong>Arteries</strong> carry blood <em>away</em> from the heart, and <strong>veins</strong> carry blood <em>toward</em> the heart. Most arteries carry oxygenated blood, but the <em>pulmonary</em> artery carries oxygen-poor blood to the lungs, and the <em>pulmonary</em> veins carry oxygen-rich blood back to the heart." },
         { trap: "Arteries are not defined by carrying oxygenated blood. They are defined by <strong>direction</strong>: away from the heart. That is why the pulmonary artery is an artery even though it carries deoxygenated blood." },
+        // visuals:begin s71
+        { figId: "heart-internal", caption: "The four chambers and valves of the heart." },
+        { figId: "blood-flow-heart", caption: "Blood flow through the heart: body → right atrium → right ventricle → lungs → left atrium → left ventricle → aorta." },
+        { figId: "heart-wall", caption: "The three layers of the heart wall: endocardium, myocardium, epicardium (and the pericardium around it)." },
+        // visuals:end s71
         { recap: [
           "Name the four chambers and the four valves of the heart.",
           "Trace the path of blood through the heart.",
@@ -45,6 +50,14 @@ export default {
           ["steth/o", "chest", "<em>stethoscope</em>, instrument to listen to the chest"],
         ] } },
         { trap: "A <strong>thrombus</strong> is a blood clot that stays where it formed, while an <strong>embolus</strong> is a clot (or other mass) that <em>travels</em> through the bloodstream. A pulmonary embolism is usually a clot from the leg veins that has traveled to the lungs." },
+        // visuals:begin s72
+        { p: "{{wp:cardi/o=heart|-megaly=enlargement}} <strong>Cardiomegaly</strong>" },
+        { p: "{{wp:angi/o=vessel|-graphy=process of recording}} <strong>Angiography</strong>" },
+        { p: "{{wp:phleb/o=vein|-otomy=incision}} <strong>Phlebotomy</strong>" },
+        { p: "{{wp:thromb/o=clot|-osis=abnormal condition}} <strong>Thrombosis</strong>" },
+        { p: "{{wp:ather/o=fatty plaque|-sclerosis=hardening}} <strong>Atherosclerosis</strong>" },
+        { p: "{{wp:isch/o=to hold back|-emia=blood condition}} <strong>Ischemia</strong>" },
+        // visuals:end s72
         { recap: [
           "Recall the roots for heart, vessel, artery, vein, valve, clot, and plaque.",
           "Distinguish a thrombus from an embolus.",
@@ -71,6 +84,11 @@ export default {
         { p: "<strong>Blood pressure</strong> is written as two numbers: <strong>systolic over diastolic</strong>, for example 120/80 mm Hg. The systolic number is the pressure while the ventricles contract. The diastolic number is the pressure while the heart relaxes between beats. A normal adult value is about 120/80 mm Hg." },
         { key: "Heart rate is measured as a <strong>pulse</strong>, the pressure wave felt in an artery (often the radial artery at the wrist). <strong>Cardiac output</strong> is the volume of blood the heart pumps per minute, and it equals <strong>heart rate × stroke volume</strong>. Exercise raises cardiac output mainly by raising both of these." },
         { worked: { label: "Worked Example 1", q: "A person at rest has a heart rate of 72 beats per minute and a stroke volume of 70 mL per beat. What is the cardiac output?", a: "Cardiac output = heart rate × stroke volume = 72 × 70 mL = 5,040 mL per minute, or about <strong>5 L/min</strong>. This is close to the average resting cardiac output of an adult." } },
+        // visuals:begin s73
+        { figId: "heart-conduction", caption: "The conduction system: SA node, AV node, bundle branches, Purkinje fibers." },
+        { figId: "ecg", caption: "An ECG: P wave, QRS complex, and T wave." },
+        { figId: "bp-measure", caption: "Measuring blood pressure with a sphygmomanometer." },
+        // visuals:end s73
         { recap: [
           "Explain the path of the electrical signal, starting at the SA node.",
           "Distinguish bradycardia, tachycardia, and arrhythmia.",
@@ -100,6 +118,10 @@ export default {
           ["Cerebrovascular accident (CVA, stroke)", "Interruption of blood flow to part of the brain"],
         ] } },
         { trap: "<strong>Myocardial infarction</strong> (a heart attack) is not the same as <strong>cardiac arrest</strong>. In an MI a blocked artery starves part of the heart muscle of blood. In cardiac arrest the heart stops pumping effectively. An MI can cause cardiac arrest, but they are different events." },
+        // visuals:begin s74
+        { figId: "coronary-occlusion", caption: "Atherosclerosis and myocardial infarction: a blocked coronary artery." },
+        { figId: "varicose-vein", caption: "Varicose veins." },
+        // visuals:end s74
         { recap: [
           "Define atherosclerosis, CAD, angina, MI, and CHF.",
           "Distinguish a heart attack from cardiac arrest.",
@@ -125,6 +147,10 @@ export default {
           ["Lipid panel", "Blood test measuring cholesterol and triglycerides"],
         ] } },
         { key: "The <strong>stress test</strong> is especially relevant to exercise physiology. It records the ECG, heart rate, and blood pressure while the patient exercises at increasing intensity, to reveal problems that do not show at rest." },
+        // visuals:begin s75
+        { figId: "ecg-electrodes", caption: "ECG electrode placement." },
+        { figId: "stethoscope", caption: "Auscultation: stethoscope placement over the heart valves." },
+        // visuals:end s75
         { recap: [
           "Distinguish an ECG, a stress test, and an echocardiogram.",
           "Explain angioplasty, a stent, and CABG.",

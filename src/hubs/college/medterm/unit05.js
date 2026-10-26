@@ -27,6 +27,11 @@ export default {
           ["Cancellous (spongy) bone", "Porous inner bone that holds red marrow"],
         ] } },
         { key: "<strong>Periosteum</strong> is the membrane around (<em>peri-</em>) the bone (<em>oste/o</em>). Bone-forming cells are <strong>osteoblasts</strong>, bone-resorbing cells are <strong>osteoclasts</strong>, and mature bone cells are <strong>osteocytes</strong>." },
+        // visuals:begin s51
+        { figId: "long-bone", caption: "A long bone: diaphysis, epiphyses, periosteum, medullary cavity, and articular cartilage." },
+        { figId: "bone-cells", caption: "Bone cells: osteoblasts build, osteocytes maintain, osteoclasts resorb." },
+        { figId: "bone-class", caption: "Types of bone: long, short, flat, and irregular." },
+        // visuals:end s51
         { recap: [
           "Name the two divisions of the skeleton and the types of bone.",
           "Identify the diaphysis, epiphysis, metaphysis, periosteum, and medullary cavity.",
@@ -58,6 +63,14 @@ export default {
           ["dactyl/o", "fingers or toes", "<em>polydactyly</em>, extra fingers or toes"],
         ] } },
         { trap: "<strong>Myel/o</strong> has two meanings: bone marrow <em>and</em> the spinal cord. In a bone term such as <em>osteomyelitis</em> it means marrow, but in <em>myelogram</em> it refers to the spinal cord. Use the rest of the term to decide." },
+        // visuals:begin s52
+        { p: "{{wp:oste/o=bone|-porosis=porous condition}} <strong>Osteoporosis</strong>" },
+        { p: "{{wp:arthr/o=joint|-plasty=surgical repair}} <strong>Arthroplasty</strong>" },
+        { p: "{{wp:chondr/o=cartilage|-malacia=softening}} <strong>Chondromalacia</strong>" },
+        { p: "{{wp:spondyl/o=vertebra|-itis=inflammation}} <strong>Spondylitis</strong>" },
+        { p: "{{wp:crani/o=skull|-otomy=incision}} <strong>Craniotomy</strong>" },
+        { p: "{{wp:inter-=between|cost/o=rib|-al=pertaining to}} <strong>Intercostal</strong>" },
+        // visuals:end s52
         { recap: [
           "Recall the roots for bone, joint, cartilage, vertebra, rib, and skull.",
           "Explain the two meanings of myel/o.",
@@ -87,6 +100,12 @@ export default {
         ] } },
         { key: "C1 and C2 have special names: <strong>atlas</strong> (C1) holds up the skull and <strong>axis</strong> (C2) allows the head to rotate. A <em>vertebra</em> has a body, a spinous process, transverse processes, and a vertebral foramen through which the spinal cord passes." },
         { skill: { label: "Skill: Which Bone Is Proximal?", text: "In the forearm the <strong>radius</strong> is on the thumb (lateral) side and the <strong>ulna</strong> is on the pinky (medial) side. In the lower leg the <strong>tibia</strong> is the large medial weight-bearing shin bone and the <strong>fibula</strong> is the thin lateral bone. Directional terms from Unit 3 make these easy to remember." } },
+        // visuals:begin s53
+        { figId: "axial", caption: "The axial skeleton (skull, vertebral column, ribs, sternum)." },
+        { figId: "appendicular", caption: "The appendicular skeleton (limbs and girdles)." },
+        { figId: "vertebral-column", caption: "The vertebral column: cervical, thoracic, lumbar, sacral, and coccygeal regions." },
+        { figId: "cervical", caption: "The atlas (C1) and axis (C2)." },
+        // visuals:end s53
         { recap: [
           "List the five regions of the vertebral column and how many vertebrae each one has.",
           "Name the bones of the upper and lower limbs.",
@@ -115,6 +134,10 @@ export default {
           ["Compression", "Vertebra collapses (often from osteoporosis)"],
         ] } },
         { trap: "<strong>Ligaments</strong> connect <em>bone to bone</em>, while <strong>tendons</strong> connect <em>muscle to bone</em>. A <em>sprain</em> is an injury to a ligament, and a <em>strain</em> is an injury to a muscle or tendon." },
+        // visuals:begin s54
+        { figId: "synovial-joint", caption: "A synovial joint with its capsule, fluid, and cartilage." },
+        { figId: "fractures", caption: "Types of fractures: closed, open, comminuted, spiral, and more." },
+        // visuals:end s54
         { recap: [
           "Classify joints by amount of movement.",
           "List the parts of a synovial joint and give a function for each.",
@@ -150,6 +173,11 @@ export default {
           ["Open reduction (ORIF)", "Surgery to realign and fix a broken bone with hardware"],
         ] } },
         { worked: { label: "Worked Example 1", q: "A postmenopausal woman has a DEXA scan showing low bone density. Which condition does this suggest?", a: "<strong>Osteoporosis</strong>: oste (bone) + por (passage or pore) + -osis (abnormal condition). Bone loses density and becomes porous. DEXA is the standard bone density test, and weight-bearing exercise is a key way to protect bone." } },
+        // visuals:begin s55
+        { figId: "abnormal-curves", caption: "Scoliosis, kyphosis, and lordosis." },
+        { figId: "osteoporosis-spine", caption: "Osteoporosis of the spine." },
+        { figId: "hip-oa", caption: "Osteoarthritis of the hip." },
+        // visuals:end s55
         { recap: [
           "Distinguish osteoarthritis from rheumatoid arthritis and gout.",
           "Define scoliosis, kyphosis, and lordosis.",

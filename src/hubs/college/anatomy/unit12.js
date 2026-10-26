@@ -22,6 +22,11 @@ export default {
         ]),
         { p: "Each kidney contains about a million <strong>nephrons</strong>. Blood reaches them from the <strong>renal artery</strong> (a branch of the abdominal aorta), which gives rise to segmental, interlobar, arcuate, and interlobular arteries, then the afferent arteriole and the glomerulus. The two <strong>ureters</strong> carry urine down to the <strong>bladder</strong> by peristalsis; they pass under the uterine artery (in women) or the ductus deferens (in men), and kidney stones tend to lodge at three narrow points: the ureteropelvic junction, the pelvic brim, and the ureterovesical junction. The <strong>bladder</strong> is lined by transitional epithelium and has a smooth muscle wall (the <strong>detrusor</strong>). The <strong>internal urethral sphincter</strong> (smooth muscle, involuntary) and the <strong>external urethral sphincter</strong> (skeletal muscle, voluntary) control the flow. The <strong>male urethra</strong> is about 20 cm long and carries both urine and semen; the <strong>female urethra</strong> is only about 4 cm long, which explains why urinary tract infections are more common in women." },
         { key: "<strong>Micturition</strong> is a reflex that the cortex can override. Stretch of the bladder wall triggers sacral parasympathetic fibers (S2–S4) to contract the detrusor and relax the internal sphincter, while the cortex keeps the external sphincter contracted until an appropriate time." },
+        // visuals:begin s121
+        { figId: "kidney", caption: "The kidney." },
+        { figId: "bladder", caption: "The bladder and urethra." },
+        { figId: "ureter", caption: "The ureter." },
+        // visuals:end s121
         { recap: [
           "Locate the kidneys and describe their regions.",
           "Trace the path of urine and identify the sites where stones lodge.",
@@ -43,6 +48,11 @@ export default {
           ["Gonads", "Pelvis or scrotum", "Ovaries and testes"],
         ]),
         { p: "The <strong>pituitary</strong> lies just below the optic chiasm, so a pituitary tumor that grows upward compresses the chiasm and produces <strong>bitemporal hemianopia</strong> (loss of the outer visual fields in both eyes, the so-called 'tunnel vision'). The <strong>recurrent laryngeal nerves</strong> run behind the thyroid, so thyroid surgery can injure them and cause hoarseness. The <strong>adrenal cortex</strong> has three zones (<strong>glomerulosa, fasciculata, reticularis</strong>, from outside in), remembered by 'GFR: salt, sugar, sex, the deeper you go, the sweeter it gets': mineralocorticoids (aldosterone), glucocorticoids (cortisol), and androgens." },
+        // visuals:begin s122
+        { figId: "endocrine", caption: "The endocrine glands." },
+        { figId: "adrenal", caption: "The adrenal gland." },
+        { figId: "parathyroid", caption: "The parathyroid glands." },
+        // visuals:end s122
         { recap: [
           "Locate each endocrine gland and describe its structure.",
           "Explain bitemporal hemianopia with a pituitary tumor.",
@@ -70,6 +80,12 @@ export default {
         { p: "The <strong>menstrual cycle</strong> runs about 28 days. In the <strong>follicular phase</strong>, FSH stimulates follicle growth and rising estrogen rebuilds the endometrium. A surge of LH triggers <strong>ovulation</strong> (about day 14). In the <strong>luteal phase</strong>, the corpus luteum secretes progesterone to maintain the endometrium; if there is no pregnancy, the corpus luteum degenerates, hormone levels drop, and the endometrium is shed (<strong>menstruation</strong>). Pregnancy lasts about 40 weeks, divided into three trimesters." },
         { fig: { src: "/anatomy/g1166.png", alt: "Sagittal section of the female pelvis: Bladder, uterus, vagina, rectum, and symphysis.", caption: "Sagittal section of the female pelvis.", credit: "Source: Gray's Anatomy (1918), Fig. 1166, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1166.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { key: "<strong>Sperm travel</strong>: seminiferous tubules → epididymis → ductus deferens → ejaculatory duct → prostatic urethra → membranous urethra → spongy (penile) urethra. A mnemonic is 'SEVEN UP': <strong>S</strong>eminiferous tubules, <strong>E</strong>pididymis, <strong>V</strong>as deferens, <strong>E</strong>jaculatory duct, <strong>N</strong>othing (skip), <strong>U</strong>rethra, <strong>P</strong>enis." },
+        // visuals:begin s123
+        { figId: "male-repro", caption: "The male reproductive system." },
+        { figId: "testis", caption: "The testis." },
+        { figId: "female-repro", caption: "The female reproductive system." },
+        { figId: "menstrual-cycle", caption: "The menstrual cycle." },
+        // visuals:end s123
         { recap: [
           "Name the male and female reproductive structures and functions.",
           "Describe the phases of the menstrual cycle.",
@@ -104,6 +120,10 @@ export default {
           ["Dorsalis pedis", "Dorsalis pedis", "Top of the foot"],
         ]),
         { skill: { label: "Skill: Palpate in a Fixed Order", text: "Stand beside a partner and find the <strong>sternal angle</strong>, slide to the side to find the second rib, then count down to locate the fifth intercostal space at the mid-clavicular line, where the heart's apex beat can be felt. Learning to count ribs from a fixed landmark is the basis of cardiac and lung examination." } },
+        // visuals:begin s124
+        { figId: "rib-cage", caption: "Landmarks: sternal angle, jugular notch, xiphoid." },
+        { figId: "major-arteries", caption: "Pulse points." },
+        // visuals:end s124
         { recap: [
           "Locate and explain the significance of the key surface landmarks.",
           "Name the major pulse points and where each is felt.",
@@ -139,19 +159,19 @@ export default {
     ["Zona fasciculata", "Cortisol", null, "{{fig:adrenal}} The middle (and thickest) layer: cortisol (the 'sugar')."],
     ["Zona reticularis", "Androgens", null, "{{fig:adrenal}} The inner layer: androgens (the 'sex'): 'GFR: salt, sugar, sex'."],
     ["Bitemporal hemianopia", "Pituitary tumor pressing on the optic chiasm", null, "{{fig:rods-cones}} A pituitary tumor presses on the optic chiasm and cuts the crossing nasal fibers: the loss of both outer (temporal) visual fields."],
-    ["Seminiferous tubules", "Sperm production", null, "{{fig:fertilization}} Coiled tubes in the testis where spermatogenesis takes place (the male reproductive system figure shows the testis and ducts)."],
-    ["Leydig cells", "Make testosterone", null, "Interstitial cells between the seminiferous tubules: they make testosterone in response to LH."],
-    ["Epididymis", "Sperm maturation and storage", null, "A comma-shaped coiled tube on the back of the testis, where sperm mature (about 12 days) and are stored."],
-    ["Ductus deferens", "Carries sperm; cut in a vasectomy", null, "The muscular tube (about 45 cm) that carries sperm from the epididymis through the inguinal canal to the ejaculatory duct: cut in a vasectomy."],
-    ["Prostate", "Produces part of the seminal fluid", null, "A walnut-sized gland below the bladder surrounding the urethra: adds about 30% of the seminal fluid; enlargement (BPH) obstructs urine flow."],
-    ["Ovary", "Produces oocytes and hormones", null, "{{fig:fertilization}} The almond-sized female gonad: follicles mature here, and the ovary releases an oocyte each cycle."],
-    ["Fallopian tube", "Site of fertilization", null, "{{fig:fertilization}} The uterine tube picks up the oocyte (the fimbriae) and fertilization usually occurs in the ampulla; an ectopic pregnancy usually implants here."],
-    ["Endometrium", "Inner lining of the uterus; shed in menstruation", null, "{{fig:implantation}} The inner lining: its functional layer builds up in each cycle and is shed in menstruation."],
-    ["Myometrium", "Smooth muscle of the uterus", null, "The thick smooth muscle layer of the uterus: contracts in labor (oxytocin) and in menstrual cramping."],
-    ["Cervix", "Lower part of the uterus", null, "The narrow lower end of the uterus that projects into the vagina; the Pap smear samples its surface cells."],
-    ["Follicular phase", "FSH; follicle growth; rising estrogen", null, "{{fig:pituitary-hormones}} Days 1–14: FSH makes a follicle grow, and rising estrogen thickens the endometrium."],
-    ["Ovulation", "LH surge; around day 14", null, "{{fig:pituitary-hormones}} Around day 14, an LH surge ruptures the dominant follicle and releases the oocyte."],
-    ["Luteal phase", "Corpus luteum secretes progesterone", null, "{{fig:pituitary-hormones}} Days 15–28: the corpus luteum secretes progesterone (and estrogen) to maintain the endometrium; without pregnancy it degenerates and menstruation begins."],
+    ["Seminiferous tubules", "Sperm production", null, "{{fig:spermatogenesis}} Coiled tubes in the testis where spermatogenesis takes place (the male reproductive system figure shows the testis and ducts)."],
+    ["Leydig cells", "Make testosterone", null, "{{fig:spermatogenesis}} Interstitial cells between the seminiferous tubules: they make testosterone in response to LH."],
+    ["Epididymis", "Sperm maturation and storage", null, "{{fig:testis}} A comma-shaped coiled tube on the back of the testis, where sperm mature (about 12 days) and are stored."],
+    ["Ductus deferens", "Carries sperm; cut in a vasectomy", null, "{{fig:male-repro}} The muscular tube (about 45 cm) that carries sperm from the epididymis through the inguinal canal to the ejaculatory duct: cut in a vasectomy."],
+    ["Prostate", "Produces part of the seminal fluid", null, "{{fig:male-repro}} A walnut-sized gland below the bladder surrounding the urethra: adds about 30% of the seminal fluid; enlargement (BPH) obstructs urine flow."],
+    ["Ovary", "Produces oocytes and hormones", null, "{{fig:female-repro}} The almond-sized female gonad: follicles mature here, and the ovary releases an oocyte each cycle."],
+    ["Fallopian tube", "Site of fertilization", null, "{{fig:female-repro}} The uterine tube picks up the oocyte (the fimbriae) and fertilization usually occurs in the ampulla; an ectopic pregnancy usually implants here."],
+    ["Endometrium", "Inner lining of the uterus; shed in menstruation", null, "{{fig:menstrual-cycle}} The inner lining: its functional layer builds up in each cycle and is shed in menstruation."],
+    ["Myometrium", "Smooth muscle of the uterus", null, "{{fig:female-repro}} The thick smooth muscle layer of the uterus: contracts in labor (oxytocin) and in menstrual cramping."],
+    ["Cervix", "Lower part of the uterus", null, "{{fig:female-repro}} The narrow lower end of the uterus that projects into the vagina; the Pap smear samples its surface cells."],
+    ["Follicular phase", "FSH; follicle growth; rising estrogen", null, "{{fig:menstrual-cycle}} Days 1–14: FSH makes a follicle grow, and rising estrogen thickens the endometrium."],
+    ["Ovulation", "LH surge; around day 14", null, "{{fig:menstrual-cycle}} Around day 14, an LH surge ruptures the dominant follicle and releases the oocyte."],
+    ["Luteal phase", "Corpus luteum secretes progesterone", null, "{{fig:menstrual-cycle}} Days 15–28: the corpus luteum secretes progesterone (and estrogen) to maintain the endometrium; without pregnancy it degenerates and menstruation begins."],
     ["Sternal angle", "Second rib; T4–T5; carina", null, "{{fig:rib-cage}} A palpable ridge at the 2nd rib, at the T4–T5 level: also the level of the carina and the aortic arch."],
     ["Jugular notch", "Top of the sternum; T2–T3", null, "{{fig:rib-cage}} The dip at the top of the manubrium (T2–T3 level), between the two clavicle heads."],
     ["Xiphoid process", "Level of T9", null, "{{fig:rib-cage}} At about the T9 level: the bottom of the sternum."],

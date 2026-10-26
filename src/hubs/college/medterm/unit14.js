@@ -122,6 +122,10 @@ export default {
           ["Troponin", "Protein released when the heart muscle is damaged"],
           ["CK", "Creatine kinase; rises with muscle or heart damage"],
         ] } },
+        // visuals:begin s144
+        { figId: "planes", caption: "CT and MRI produce images in transverse, sagittal, and coronal planes." },
+        { figId: "bp-measure", caption: "Vital signs include blood pressure." },
+        // visuals:end s144
         { recap: [
           "Choose an imaging test appropriate for bone, soft tissue, or a pregnancy.",
           "Say what a CBC, lipid panel, HbA1c, and troponin measure.",
@@ -148,6 +152,10 @@ export default {
           ["Warm-up / cool-down", "Gradual increase / gradual decrease of exercise intensity"],
         ] } },
         { key: "<strong>Concentric</strong> and <strong>eccentric</strong> describe what the muscle is doing while it works. In a bicep curl, lifting the weight is concentric (the biceps shortens) and lowering it slowly is eccentric (the biceps lengthens while under load)." },
+        // visuals:begin s145
+        { figId: "spirometry", caption: "Spirometry and VO₂ max testing in exercise physiology." },
+        { figId: "contraction-types", caption: "Concentric, eccentric, and isometric contractions." },
+        // visuals:end s145
         { recap: [
           "Define VO₂ max, MET, RPE, and HRmax.",
           "Distinguish concentric, eccentric, and isometric contractions.",

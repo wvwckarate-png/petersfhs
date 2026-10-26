@@ -18,6 +18,9 @@ export default {
           ["Organism", "The whole person, who is somehow still standing"],
         ] } },
         { key: "Physiology is organized by <strong>levels of organization</strong>, from atoms to the whole organism. Disease and dysfunction usually begin at one level and reveal themselves at a higher one: a single mutated protein (molecular) can cause a failing organ (organ)." },
+        // visuals:begin s11
+        { figId: "levels-org", caption: "Levels of organization from atoms to the whole organism: physiology asks how each level works and how they cooperate." },
+        // visuals:end s11
         { recap: [
           "Define physiology and contrast it with anatomy.",
           "Explain what 'structure–function relationship' means and give an example.",
@@ -45,6 +48,9 @@ export default {
           ["Arterial PO₂ / PCO₂", "About 100 mmHg / 40 mmHg"],
         ] } },
         { trap: "Homeostasis does <strong>not</strong> mean a variable is frozen at one value. It means the variable is kept within a <em>range</em> around a <strong>set point</strong>. Body temperature rises and falls a little over a day, and blood glucose jumps after a meal. The goal is a stable <em>average</em> with small, controlled swings, not a perfectly flat line." },
+        // visuals:begin s12
+        { figId: "fluid-compartments", caption: "Body water in two main compartments: intracellular fluid (inside cells, about 25 of 42 L) and extracellular fluid (plasma plus interstitial fluid, about 17 L)." },
+        // visuals:end s12
         { recap: [
           "Explain why the extracellular fluid is called the internal environment.",
           "Give the approximate split of body water between ICF and ECF.",
@@ -67,6 +73,10 @@ export default {
         { key: "<strong>Negative feedback</strong> stabilizes; <strong>positive feedback</strong> amplifies toward an end point. Do not confuse 'negative' with 'bad.' A negative feedback loop is the reason you are not currently a puddle." },
         { worked: { label: "Worked Example 1", q: "During a workout your core temperature rises. Trace the negative feedback loop that brings it back down.", a: "<strong>Stimulus:</strong> rising core temperature. <strong>Sensor:</strong> thermoreceptors in the hypothalamus and skin. <strong>Control center:</strong> the hypothalamus compares the signal with its set point (about 37 °C). <strong>Effectors:</strong> sweat glands increase sweat production (evaporation removes heat) and skin arterioles dilate (more warm blood flows near the surface so heat radiates away). Temperature falls toward the set point, and the response fades. Because the response <em>opposes</em> the stimulus, this is negative feedback." } },
         { skill: { label: "Skill: Classify the Loop", text: "Ask one question: <em>does the response push the variable back toward where it started, or farther away?</em> Back toward the start is negative feedback. Farther away is positive feedback. Do not ask whether the outcome seems good or bad." } },
+        // visuals:begin s13
+        { figId: "neg-feedback", caption: "A negative feedback loop: a change (stimulus) is detected by a sensor, compared with the set point by an integrating center, and corrected by an effector, which reverses the change." },
+        { figId: "thermoregulation", caption: "Temperature control as a worked example: the hypothalamus compares blood temperature to its set point and triggers sweating or shivering." },
+        // visuals:end s13
         { recap: [
           "Name and order the four components of a feedback loop.",
           "Distinguish negative from positive feedback with an example of each.",
@@ -89,6 +99,10 @@ export default {
           ["Acclimatization", "Adjustment to a changed environment over days to weeks (such as altitude)"],
         ] } },
         { trap: "<strong>Acclimatization</strong> and <strong>adaptation</strong> are not the same. Acclimatization is a reversible physiological adjustment within one person's lifetime, such as producing more red blood cells at altitude. Evolutionary adaptation is a genetic change in a population over many generations." },
+        // visuals:begin s14
+        { figId: "pos-feedback", caption: "Positive feedback in labor: pressure on the cervix → oxytocin → stronger contractions → more pressure, until the baby is born. Positive feedback amplifies rather than stabilizes." },
+        { figId: "clotting", caption: "Blood clotting is a positive feedback cascade that ends when the wound is sealed." },
+        // visuals:end s14
         { recap: [
           "Explain feedforward control and give an example.",
           "Describe why set points can shift (circadian rhythm, exercise, fever).",
@@ -109,6 +123,12 @@ export default {
         { p: "<strong>Proteins</strong> deserve special respect because almost everything that happens in physiology is a protein doing something: channels open, enzymes catalyze, receptors bind. A protein's three-dimensional shape determines its function, and that shape depends on pH and temperature. This is the molecular reason homeostasis exists. Let blood pH wander too far and the proteins stop working." },
         { p: "An <strong>acid</strong> donates hydrogen ions (H⁺) and a <strong>base</strong> accepts them. pH is the negative logarithm of the H⁺ concentration, so each whole pH unit is a <em>tenfold</em> change. Blood at pH 7.4 versus 7.0 is not a small difference; it is a roughly 2.5-fold change in H⁺ and a medical emergency." },
         { key: "A protein's <strong>shape is its function</strong>, and shape is sensitive to temperature and pH. That sensitivity is the biochemical reason the body defends a narrow temperature and pH range." },
+        // visuals:begin s15
+        { figId: "water-hbond", caption: "Water's polarity lets it form hydrogen bonds: the reason sugars and ions dissolve (hydrophilic) while fats do not (hydrophobic)." },
+        { figId: "ph-scale", caption: "The pH scale: each unit is a ten-fold change in H⁺. Blood is held between 7.35 and 7.45." },
+        { figId: "monosaccharides", caption: "Carbohydrate building blocks: glucose, fructose, and galactose." },
+        { figId: "amino-acid", caption: "A protein building block: an amino acid has an amino group, a carboxyl group, and a variable side chain." },
+        // visuals:end s15
         { recap: [
           "Explain polarity and why water dissolves ions but not fats.",
           "List the four macromolecule classes with their building blocks and one role each.",

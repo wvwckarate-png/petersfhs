@@ -19,6 +19,11 @@ export default {
         ] } },
         { p: "The <strong>lungs</strong> are covered by the <strong>pleura</strong>. The right lung has three lobes and the left lung has two, because the heart takes up space on the left. The <strong>diaphragm</strong> is the main muscle of breathing. When it contracts it flattens and pulls air in (<strong>inspiration</strong>, inhalation); when it relaxes, air flows out (<strong>expiration</strong>, exhalation)." },
         { key: "Gas exchange happens in the <strong>alveoli</strong>. Oxygen crosses the thin alveolar wall into the capillary blood, and carbon dioxide crosses the other way to be exhaled. Everything else in the respiratory tract is there to deliver air to this point." },
+        // visuals:begin s81
+        { figId: "resp-organs", caption: "The respiratory tract from nose to alveoli." },
+        { figId: "larynx", caption: "The larynx with the epiglottis." },
+        { figId: "alveoli", caption: "Alveoli: gas exchange." },
+        // visuals:end s81
         { recap: [
           "List the structures air passes through from the nose to the alveoli.",
           "Explain the roles of the diaphragm, pleura, and alveoli.",
@@ -48,6 +53,13 @@ export default {
         ] } },
         { skill: { label: "Skill: The -pnea Family", text: "The suffix <strong>-pnea</strong> means breathing, and a prefix tells you the kind: <em>a-pnea</em> (without breathing), <em>dys-pnea</em> (difficult breathing), <em>tachy-pnea</em> (rapid breathing), <em>brady-pnea</em> (slow breathing), <em>eu-pnea</em> (normal breathing), and <em>ortho-pnea</em> (breathing that is only comfortable upright)." } },
         { trap: "<strong>Hypoxia</strong> and <strong>hypoxemia</strong> are close but different. <em>Hypoxia</em> is low oxygen in the <em>tissues</em>, and <em>hypoxemia</em> is low oxygen in the <em>blood</em>. Likewise <em>hypercapnia</em> is too much carbon dioxide in the blood." },
+        // visuals:begin s82
+        { p: "{{wp:rhin/o=nose|-plasty=surgical repair}} <strong>Rhinoplasty</strong>" },
+        { p: "{{wp:bronch/o=bronchus|-scopy=visual exam}} <strong>Bronchoscopy</strong>" },
+        { p: "{{wp:pleur/o=pleura|-itis=inflammation}} <strong>Pleuritis</strong>" },
+        { p: "{{wp:thorac/o=chest|-centesis=puncture to remove fluid}} <strong>Thoracentesis</strong>" },
+        { p: "{{wp:spir/o=breathing|-metry=measurement}} <strong>Spirometry</strong>" },
+        // visuals:end s82
         { recap: [
           "Recall the roots for nose, throat, trachea, bronchus, lung, pleura, and chest.",
           "Build the -pnea terms with their prefixes.",
@@ -71,6 +83,9 @@ export default {
         ] } },
         { worked: { label: "Worked Example 1", q: "At rest a person takes 12 breaths per minute with a tidal volume of 500 mL. What is the minute ventilation?", a: "Minute ventilation = tidal volume × respiratory rate = 500 mL × 12 = 6,000 mL, or <strong>6 L/min</strong>. During heavy exercise both rate and volume rise, so minute ventilation can increase many times." } },
         { key: "<strong>Pulse oximetry</strong> estimates the percent of hemoglobin carrying oxygen (SpO₂) using a clip on the finger. Healthy values are about 95 to 100 percent. <strong>Arterial blood gases (ABGs)</strong> measure oxygen, carbon dioxide, and pH directly from an artery." },
+        // visuals:begin s83
+        { figId: "spirometry", caption: "Lung volumes and capacities: tidal volume, vital capacity, residual volume." },
+        // visuals:end s83
         { recap: [
           "Define tidal volume, vital capacity, residual volume, and total lung capacity.",
           "Calculate minute ventilation.",
@@ -100,6 +115,10 @@ export default {
         ] } },
         { p: "Common symptoms and signs include <strong>dyspnea</strong> (shortness of breath), <strong>wheezing</strong> (high-pitched whistling), <strong>rales (crackles)</strong>, <strong>cough</strong>, <strong>hemoptysis</strong> (coughing up blood), <strong>sputum</strong> (material coughed up), and <strong>cyanosis</strong>." },
         { trap: "<strong>Pneumothorax</strong> (air in the pleural space) and <strong>pleural effusion</strong> (fluid in the pleural space) both compress the lung, but the contents are different. <em>Pneum/o</em> is air and <em>-thorax</em> is chest; <em>effusion</em> means fluid pouring out." },
+        // visuals:begin s84
+        { figId: "pleura", caption: "Pneumothorax and pleural effusion." },
+        { p: "{{wp:pneum/o=air|-thorax=chest}} <strong>Pneumothorax</strong>: air in the chest (pleural space)." },
+        // visuals:end s84
         { recap: [
           "Distinguish asthma, emphysema, chronic bronchitis, and COPD.",
           "Distinguish pneumothorax from pleural effusion.",
@@ -126,6 +145,9 @@ export default {
           ["VO₂ max", "Maximum rate of oxygen use during intense exercise"],
         ] } },
         { key: "<strong>VO₂ max</strong> is a core measure in exercise physiology. It is the highest rate at which the body can take in and use oxygen during maximal exercise, and it is the main marker of aerobic fitness." },
+        // visuals:begin s85
+        { figId: "lungs", caption: "The lungs: right (three lobes) and left (two lobes)." },
+        // visuals:end s85
         { recap: [
           "Define spirometry, pulse oximetry, and an ABG.",
           "Distinguish lobectomy from pneumonectomy and tracheostomy from intubation.",

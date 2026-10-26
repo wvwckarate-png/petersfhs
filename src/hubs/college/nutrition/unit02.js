@@ -19,6 +19,11 @@ export default {
         ]),
         { p: "<strong>Dietary fiber</strong> is a carbohydrate we cannot digest. Recommended intakes are about 25 g/day for women and 38 g/day for men (14 g per 1,000 kcal). Fiber slows gastric emptying, blunts blood glucose spikes, feeds gut bacteria that produce short-chain fatty acids, and lowers the risk of cardiovascular disease and type 2 diabetes. Athletes sometimes cut fiber right before an event to reduce gut trouble." },
         { key: "<strong>Added sugars</strong> should stay below 10% of energy (the WHO suggests aiming even lower, about 5%). Sugars naturally in fruit and milk are packaged with fiber, vitamins, and protein, while added sugars supply energy without these companions. For athletes during exercise, though, simple sugars are a tool." },
+        // visuals:begin s21
+        { mols: [["OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O", "Glucose", "blood sugar"], ["C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)O", "Fructose", "fruit sugar"], ["OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@H]1O", "Galactose", "milk sugar part"]] },
+        { mols: [["C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@]2([C@H]([C@@H]([C@H](O2)CO)O)O)CO)O)O)O)O", "Sucrose", "glucose + fructose"], ["C([C@@H]1[C@@H]([C@@H]([C@H]([C@@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O", "Lactose", "galactose + glucose"], ["C([C@@H]1[C@H]([C@@H]([C@H]([C@H](O1)O[C@@H]2[C@H](OC([C@@H]([C@H]2O)O)O)CO)O)O)O)O", "Maltose", "glucose + glucose"]] },
+        { figId: "polysaccharides", caption: "Three important polysaccharides: starch, glycogen, and cellulose." },
+        // visuals:end s21
         { recap: [
           "Classify carbohydrates as mono-, di-, and polysaccharides with examples.",
           "Explain the roles and recommended intake of fiber.",
@@ -38,6 +43,11 @@ export default {
           ["High", "70 or above", "White bread, glucose, sports drinks, baked potato, corn flakes"],
         ]),
         { trap: "A high GI is not automatically 'bad.' During and just after hard exercise, high-GI carbohydrate is useful because it is absorbed quickly and restores muscle glycogen fast. The GI matters most for everyday blood sugar control, particularly in people with diabetes or insulin resistance." },
+        // visuals:begin s22
+        { figId: "carb-digestion", caption: "Carbohydrate digestion and absorption." },
+        { figId: "glucose-regulation", caption: "Insulin and glucagon regulate blood glucose." },
+        { svg: "plot; title=Blood glucose after 50 g carbohydrate; x=Minutes after eating; y=Blood glucose (mg/dL); xlim=0:120; ylim=70:180; xticks=0,30,60,90,120; yticks=90,140; line=0,90 15,130 30,165 60,125 90,95 120,90 | #C0392B | High GI (white bread); line=0,90 30,110 60,125 90,115 120,95 | #2E7D32 | Low GI (lentils)", caption: "Glycemic index: a high-GI food raises blood glucose quickly and sharply; a low-GI food produces a slower, lower rise." },
+        // visuals:end s22
         { recap: [
           "Trace carbohydrate digestion and absorption and name the transporters.",
           "Describe the hormonal control of blood glucose.",
@@ -57,6 +67,10 @@ export default {
         { p: "Each gram of glycogen is stored with about <strong>3 g of water</strong>, which is why a low-carbohydrate diet causes a rapid early weight drop (mostly water) and why carbohydrate loading adds a kilogram or two to body weight. <strong>Glycogen supercompensation</strong> ('carbo-loading') can raise muscle glycogen to 150–200% of normal by tapering training and eating 8–12 g of carbohydrate per kg of body weight for 36–48 hours before an event lasting longer than about 90 minutes." },
         { worked: { label: "Worked Example 1", q: "A 70 kg runner carbohydrate-loads at 10 g/kg/day. How many grams and kilocalories of carbohydrate is that?", a: "70 kg × 10 g/kg = <strong>700 g</strong> of carbohydrate per day. At 4 kcal/g, that is <strong>2,800 kcal</strong> from carbohydrate alone. Most athletes find it easier to reach by including more liquids, low-fiber foods, and lower fat, and by eating several times a day." } },
         { key: "<strong>Glycogen resynthesis</strong> is fastest in the first 30–60 minutes after exercise and when about 1.0–1.2 g of carbohydrate per kg of body weight per hour is consumed for the first four hours. Adding protein helps when carbohydrate intake is below optimal or when recovery time is short." },
+        // visuals:begin s23
+        { svg: "bars; title=Glycogen stores; y=grams; data=Muscle:400:#C0392B, Liver:90:#2E6BC6, Blood glucose:5:#2E7D32; max=450", caption: "Muscle glycogen (about 400 g) fuels only the muscle that stores it; liver glycogen (about 90 g) maintains blood glucose." },
+        { svg: "plot; title=Muscle glycogen during a marathon; x=Time (min); y=Glycogen (% of start); xlim=0:240; ylim=0:100; xticks=0,60,120,180,240; yticks=0,50,100; line=0,100 60,70 120,38 160,12 180,4 | #C0392B; band=150,200 The wall | #FDE8A0", caption: "Glycogen depletion produces 'the wall' near the end of a long run." },
+        // visuals:end s23
         { recap: [
           "State the sizes and roles of muscle glycogen, liver glycogen, and blood glucose.",
           "Explain why glycogen limits endurance and why water weight changes with glycogen.",
@@ -76,6 +90,9 @@ export default {
         { p: "<strong>During exercise</strong>, the evidence is direct: for sessions under about 45 minutes, carbohydrate is not needed (a mouth rinse may help). For 1–2.5 hours, 30–60 g/h helps. For longer events, up to <strong>90 g/h</strong> of mixed carbohydrates (glucose plus fructose in about a 2:1 ratio, which uses two intestinal transporters) can improve performance. Gut tolerance can be trained, and trying race-day foods in training is the rule." },
         { p: "<strong>Low-carbohydrate approaches</strong> exist in athletic circles. 'Train low' strategies (deliberately training with low glycogen on some days) can enhance mitochondrial signaling, but they do not clearly improve race performance, and very-low-carbohydrate ketogenic diets reduce the ability to perform high-intensity work. They are not a default choice for athletes who perform high-intensity efforts." },
         { skill: { label: "Skill: Turn g/kg into Food", text: "Convert targets into real foods: a cup of cooked rice has about 45 g carbohydrate, a medium banana about 27 g, a slice of bread about 15 g, a sports drink (500 mL) about 30 g, and a cup of cooked pasta about 40 g. A 70 kg athlete in a moderate-training day aiming for 6 g/kg needs about 420 g, which is a lot of rice." } },
+        // visuals:begin s24
+        { svg: "bars; title=Carbohydrate needs (g/kg/day); y=g/kg/day; data=Light training:4:#2E6BC6, Moderate:6:#C99700, Heavy:8:#E67E22, Very heavy:10:#C0392B; max=12", caption: "Daily carbohydrate recommendations rise with training load." },
+        // visuals:end s24
         { recap: [
           "Match carbohydrate targets to training load.",
           "State carbohydrate recommendations during exercise by duration.",

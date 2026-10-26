@@ -25,6 +25,12 @@ export default {
           ["semin/i", "semen", "<em>seminal</em>"],
         ] } },
         { p: "Common conditions include <strong>benign prostatic hyperplasia (BPH)</strong>, <strong>prostate cancer</strong>, <strong>testicular cancer</strong>, <strong>cryptorchidism</strong> (undescended testis), <strong>erectile dysfunction</strong>, <strong>varicocele</strong> (enlarged veins in the scrotum), and <strong>hydrocele</strong> (fluid around the testis). A <strong>PSA</strong> blood test screens for prostate disease." },
+        // visuals:begin s131
+        { figId: "male-repro", caption: "The male reproductive system." },
+        { figId: "testis", caption: "The testis and epididymis." },
+        { p: "{{wp:orchi/o=testis|-ectomy=surgical removal}} <strong>Orchiectomy</strong>" },
+        { p: "{{wp:prostat/o=prostate|-itis=inflammation}} <strong>Prostatitis</strong>" },
+        // visuals:end s131
         { recap: [
           "Name the structures sperm pass through on the way out of the body.",
           "Recall the roots for testis, prostate, and vas deferens.",
@@ -57,6 +63,13 @@ export default {
         ] } },
         { p: "The <strong>menstrual cycle</strong> lasts about 28 days and is driven by hormones: the follicle matures, <strong>ovulation</strong> releases the egg around mid-cycle, and if there is no pregnancy the lining of the uterus is shed as <strong>menses</strong>. <strong>Menopause</strong> is the end of menstruation, usually around age 50." },
         { trap: "<strong>Hyster/o</strong>, <strong>metr/o</strong>, and <strong>uter/o</strong> all mean uterus, and <strong>oophor/o</strong> and <strong>ovari/o</strong> both mean ovary. Do not confuse <strong>salping/o</strong> (tube) with <strong>pharyng/o</strong> or <strong>sinus/o</strong>." },
+        // visuals:begin s132
+        { figId: "female-repro", caption: "The female reproductive system." },
+        { figId: "menstrual-cycle", caption: "The menstrual cycle." },
+        { p: "{{wp:hyster/o=uterus|-ectomy=surgical removal}} <strong>Hysterectomy</strong>" },
+        { p: "{{wp:salping/o=fallopian tube|-itis=inflammation}} <strong>Salpingitis</strong>" },
+        { p: "{{wp:oophor/o=ovary|-ectomy=surgical removal}} <strong>Oophorectomy</strong>" },
+        // visuals:end s132
         { recap: [
           "Name the female reproductive structures and the role of each.",
           "Recall the roots for uterus, ovary, tube, breast, and cervix.",
@@ -91,6 +104,12 @@ export default {
           ["Apgar score", "Quick assessment of a newborn at 1 and 5 minutes"],
         ] } },
         { worked: { label: "Worked Example 1", q: "A woman has had three pregnancies and two births. What are her gravida and para?", a: "<strong>Gravida 3</strong> (three pregnancies), <strong>para 2</strong> (two births). The pregnancy that did not end in a birth could be a miscarriage, an abortion, or a current pregnancy." } },
+        // visuals:begin s133
+        { figId: "placenta", caption: "The placenta." },
+        { figId: "fetal-circulation", caption: "Fetal circulation." },
+        { figId: "uterus-growth", caption: "Growth of the uterus during pregnancy." },
+        { figId: "childbirth", caption: "The stages of childbirth." },
+        // visuals:end s133
         { recap: [
           "Distinguish zygote, embryo, and fetus.",
           "Explain gravida and para.",
@@ -125,6 +144,11 @@ export default {
           ["Vasectomy", "Cutting of the vas deferens for male sterilization"],
           ["Tubal ligation", "Tying or cutting the fallopian tubes for female sterilization"],
         ] } },
+        // visuals:begin s134
+        { p: "{{wp:mast/o=breast|-ectomy=surgical removal}} <strong>Mastectomy</strong>" },
+        { p: "{{wp:mamm/o=breast|-graphy=process of recording}} <strong>Mammography</strong>" },
+        { p: "{{wp:crypt/o=hidden|orchid/o=testis|-ism=condition}} <strong>Cryptorchidism</strong>" },
+        // visuals:end s134
         { recap: [
           "Distinguish endometriosis, fibroids, and an ovarian cyst.",
           "Define a Pap smear, a mammogram, and a PSA test.",
@@ -141,14 +165,14 @@ export default {
     ["Define antepartum, intrapartum, and postpartum.", "Before birth, during birth, and after birth."],
   ],
   cards: [
-    ["Testis", "Male gonad; makes sperm and testosterone", null, "The male gonad, in the scrotum: makes sperm and testosterone. {{wp:orchi/o=testis|-itis=inflammation}} Orchitis."],
-    ["Epididymis", "Coiled tube where sperm mature", null, "A coiled tube on the back of each testis where sperm mature and are stored."],
-    ["Vas deferens", "Tube that carries sperm toward the urethra", null, "The tube that carries sperm from the epididymis toward the urethra: cut in a vasectomy."],
-    ["Prostate", "Gland that adds fluid to semen", null, "The gland below the bladder that adds fluid to semen; it surrounds the urethra, so enlargement slows urine flow."],
-    ["Ovary", "Female gonad; makes eggs, estrogen, and progesterone", null, "The female gonad: releases an egg each cycle and makes estrogen and progesterone."],
-    ["Fallopian tube", "Tube that carries the egg to the uterus", null, "{{fig:fertilization}} The tube that carries the egg toward the uterus; fertilization usually occurs here."],
-    ["Uterus", "Organ where the fetus develops", null, "{{fig:uterus-growth}} The muscular organ where the fetus develops: it grows from a pear-sized organ to fill the abdomen in pregnancy."],
-    ["Cervix", "Lower, narrow part of the uterus", null, "The narrow lower part of the uterus, opening into the vagina; it dilates during labor."],
+    ["Testis", "Male gonad; makes sperm and testosterone", null, "{{fig:testis}} The male gonad, in the scrotum: makes sperm and testosterone. {{wp:orchi/o=testis|-itis=inflammation}} Orchitis."],
+    ["Epididymis", "Coiled tube where sperm mature", null, "{{fig:testis}} A coiled tube on the back of each testis where sperm mature and are stored."],
+    ["Vas deferens", "Tube that carries sperm toward the urethra", null, "{{fig:male-repro}} The tube that carries sperm from the epididymis toward the urethra: cut in a vasectomy."],
+    ["Prostate", "Gland that adds fluid to semen", null, "{{fig:male-repro}} The gland below the bladder that adds fluid to semen; it surrounds the urethra, so enlargement slows urine flow."],
+    ["Ovary", "Female gonad; makes eggs, estrogen, and progesterone", null, "{{fig:female-repro}} The female gonad: releases an egg each cycle and makes estrogen and progesterone."],
+    ["Fallopian tube", "Tube that carries the egg to the uterus", null, "{{fig:uterine-tube-ovary}} The tube that carries the egg toward the uterus; fertilization usually occurs here."],
+    ["Uterus", "Organ where the fetus develops", null, "{{fig:female-repro}} The muscular organ where the fetus develops: it grows from a pear-sized organ to fill the abdomen in pregnancy."],
+    ["Cervix", "Lower, narrow part of the uterus", null, "{{fig:female-repro}} The narrow lower part of the uterus, opening into the vagina; it dilates during labor."],
     ["Endometrium", "Inner lining of the uterus", null, "{{fig:implantation}} The inner lining of the uterus: it thickens each cycle and receives the embryo (implantation)."],
     ["orchi/o", "Testis", null, "{{wp:orchi/o=testis|-ectomy=surgical removal}} Orchiectomy: removal of a testis."],
     ["prostat/o", "Prostate", null, "{{wp:prostat/o=prostate|-itis=inflammation}} Prostatitis: inflammation of the prostate."],
@@ -157,9 +181,9 @@ export default {
     ["hyster/o", "Uterus", null, "{{wp:hyster/o=uterus|-ectomy=surgical removal}} Hysterectomy: removal of the uterus."],
     ["mast/o", "Breast", null, "{{wp:mast/o=breast|-ectomy=surgical removal}} Mastectomy: removal of a breast. {{wp:mast/o=breast|-itis=inflammation}} Mastitis."],
     ["gynec/o", "Woman, female", null, "{{wp:gynec/o=woman|-logy=study of}} Gynecology: the study of the female reproductive system."],
-    ["Menarche", "First menstrual period", null, "{{wp:men/o=menstruation|-arche=beginning}} The first menstrual period (typically around age 12–13)."],
+    ["Menarche", "First menstrual period", null, "{{fig:menstrual-cycle}} {{wp:men/o=menstruation|-arche=beginning}} The first menstrual period (typically around age 12–13)."],
     ["Menopause", "End of menstruation", null, "{{wp:men/o=menstruation|-pause=stopping}} The end of menstruation (usually around age 50, when it has been 12 months since the last period)."],
-    ["Ovulation", "Release of an egg from the ovary", null, "{{fig:fertilization}} Ovulation: an egg is released from the ovary around day 14 of a 28-day cycle."],
+    ["Ovulation", "Release of an egg from the ovary", null, "{{fig:menstrual-cycle}} Ovulation: an egg is released from the ovary around day 14 of a 28-day cycle."],
     ["Amenorrhea", "Absence of menstruation", null, "{{wp:a-=without|men/o=menstruation|-rrhea=flow}} Absence of menstruation (it can come from pregnancy, low energy availability in athletes, or hormonal problems)."],
     ["Dysmenorrhea", "Painful menstruation", null, "{{wp:dys-=painful|men/o=menstruation|-rrhea=flow}} Painful menstruation (cramps)."],
     ["Menorrhagia", "Excessive menstrual bleeding", null, "{{wp:men/o=menstruation|-rrhagia=bursting forth}} Excessive menstrual bleeding."],

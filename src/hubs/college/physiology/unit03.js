@@ -17,6 +17,9 @@ export default {
           ["Metabolism", "The sum of all chemical reactions in the body"],
         ] } },
         { key: "ATP is not stored in bulk. It is <strong>made on demand</strong>, and the rate of ATP production is matched to the rate of ATP use. The three muscle energy systems you will meet in exercise physiology are simply three ways of making ATP at different speeds." },
+        // visuals:begin s31
+        { figId: "atp-structure", caption: "ATP: adenine, ribose, and three phosphates: the last two bonds hold the energy released when ATP is hydrolyzed." },
+        // visuals:end s31
         { recap: [
           "Explain why ATP is the cell's energy currency.",
           "Distinguish catabolism from anabolism.",
@@ -40,6 +43,10 @@ export default {
         ] } },
         { p: "<strong>Allosteric regulation</strong> and <strong>feedback inhibition</strong> let the cell steer metabolism. When the end product of a pathway accumulates, it often binds the first enzyme and shuts the pathway down: negative feedback, once again, but at the molecular level. Many reactions are also controlled by <strong>covalent modification</strong> (usually phosphorylation) that switches an enzyme on or off." },
         { trap: "An enzyme is <strong>not used up</strong> in a reaction. If a question asks what happens to the enzyme, the answer is that it emerges unchanged and ready for the next substrate. It is the substrate that is converted." },
+        // visuals:begin s32
+        { figId: "enzyme-steps", caption: "An enzymatic reaction: the substrate binds the active site, is converted to product, and the enzyme is released unchanged." },
+        { svg: "plot; title=Enzymes lower the activation energy; x=Reaction progress; y=Energy; xlim=0:10; ylim=0:100; xticks=0; yticks=0; line=0,30 2,30 4,92 6,40 8,15 10,15 | #888 | Uncatalyzed | dash; line=0,30 2,30 4,62 6,38 8,15 10,15 | #C0392B | Enzyme", caption: "The enzyme lowers the activation energy; the energy of the reactants and products is unchanged." },
+        // visuals:end s32
         { recap: [
           "Explain how enzymes speed reactions and why they are specific.",
           "Predict the effect of temperature, pH, and substrate concentration on rate.",
@@ -62,6 +69,12 @@ export default {
         { key: "Roughly <strong>30–32 ATP</strong> per glucose in total, and about <strong>90%</strong> of it comes from oxidative phosphorylation. Oxygen is not used to <em>make</em> ATP directly; it is the terminal electron acceptor that keeps the chain moving." },
         { p: "When oxygen is limited and the cell cannot oxidize NADH fast enough, pyruvate is reduced to <strong>lactate</strong> by lactate dehydrogenase. This regenerates NAD⁺ so glycolysis can continue, and it is the basis of anaerobic glycolysis in hard exercise. The lactate can be carried to the liver and converted back to glucose (the <strong>Cori cycle</strong>) or oxidized by other muscle fibers and the heart." },
         { trap: "Lactate is <strong>not</strong> a waste product that causes muscle soreness. It is a fuel shuttle. The burning feeling in hard exercise comes largely from the hydrogen ions released by ATP hydrolysis and glycolysis, not from lactate itself, and soreness a day or two later is from muscle damage." },
+        // visuals:begin s33
+        { figId: "glycolysis", caption: "Glycolysis: glucose (6 C) → 2 pyruvate (3 C), net 2 ATP and 2 NADH." },
+        { figId: "krebs", caption: "The Krebs cycle oxidizes acetyl-CoA to CO₂, making NADH, FADH₂, and GTP." },
+        { figId: "etc", caption: "The electron transport chain pumps H⁺, and ATP synthase makes ATP from the H⁺ flow (chemiosmosis)." },
+        { svg: "bars; title=ATP per glucose; y=ATP made; data=Glycolysis/(net):2:#2E6BC6, Krebs cycle/(GTP):2:#C99700, Electron/transport:26:#C0392B; max=30", caption: "About 30–32 ATP from one glucose: most from oxidative phosphorylation." },
+        // visuals:end s33
         { recap: [
           "Give the location, oxygen requirement, and ATP yield of each stage of glucose catabolism.",
           "Explain chemiosmosis and the role of oxygen.",
@@ -79,6 +92,12 @@ export default {
         ] } },
         { p: "Between meals the liver breaks down its <strong>glycogen</strong> (glycogenolysis) to keep blood glucose steady. The liver stores about 100 g of glycogen and muscle stores around 400 g. Once liver glycogen runs low, the liver makes new glucose from lactate, glycerol, and amino acids (<strong>gluconeogenesis</strong>). In prolonged fasting, the liver converts fatty acids into <strong>ketone bodies</strong>, which the brain can use as a partial replacement for glucose." },
         { key: "The brain normally runs on glucose and cannot use fatty acids directly. That is why blood glucose is so tightly defended, and why <strong>hypoglycemia</strong> causes confusion first and dangerous symptoms soon after." },
+        // visuals:begin s34
+        { figId: "fatty-acid-breakdown", caption: "Beta-oxidation cuts fatty acids two carbons at a time into acetyl-CoA." },
+        { figId: "absorptive", caption: "The fed (absorptive) state: insulin promotes storage of glucose as glycogen and fat." },
+        { figId: "postabsorptive", caption: "The fasted (postabsorptive) state: glucagon promotes release: glycogenolysis, lipolysis, and gluconeogenesis." },
+        { figId: "ketogenesis", caption: "In prolonged fasting, the liver turns acetyl-CoA into ketone bodies." },
+        // visuals:end s34
         { recap: [
           "Compare ATP yield and oxygen requirement for fat and glucose.",
           "Contrast fed and fasted states and the hormones that dominate each.",
@@ -102,6 +121,9 @@ export default {
           ["Oxidative", "Carbohydrates, fats, (little protein)", "Minutes to hours", "Yes"],
         ] } },
         { worked: { label: "Worked Example 1", q: "Why does a marathoner switch between fuels as pace changes?", a: "At a slow pace, oxygen supply meets demand, so slow-twitch fibers use mostly <strong>fat oxidation</strong>, saving carbohydrate. As pace rises, oxygen delivery cannot keep up with ATP demand, so the body leans more on <strong>carbohydrate</strong> (glycolysis plus oxidation) because glucose gives more ATP per unit of oxygen than fat. At the highest intensities, anaerobic glycolysis supplements oxidative ATP. This is why glycogen depletion ('hitting the wall') ends a long, fast run." } },
+        // visuals:begin s35
+        { svg: "plot; title=Energy systems over time; x=Seconds of maximal effort; y=Contribution (%); xlim=0:180; ylim=0:100; xticks=0,10,30,60,120,180; line=0,100 5,95 10,55 20,25 40,8 180,2 | #C0392B | Phosphagen; line=0,0 10,35 30,60 60,45 100,28 180,18 | #2E6BC6 | Glycolysis; line=0,0 10,10 30,30 60,55 100,72 180,80 | #2E7D32 | Oxidative", caption: "The three energy systems overlap: the phosphagen system dominates the first seconds, glycolysis the next minute or two, and oxidative metabolism beyond." },
+        // visuals:end s35
         { recap: [
           "Define BMR and list the major components of daily energy expenditure.",
           "Describe the three energy systems and when each dominates.",

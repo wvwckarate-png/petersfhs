@@ -56,6 +56,11 @@ export default {
           ["Blood", "Cells in a fluid matrix (plasma)", "Vessels"],
         ]),
         { trap: "Cartilage is <strong>avascular</strong>, and tendons and ligaments have poor blood supply. They are not 'dead' tissue, but they heal slowly because nutrients arrive by diffusion. This single fact explains much of sports-medicine rehabilitation." },
+        // visuals:begin s12
+        { figId: "epithelium", caption: "Epithelial tissue types." },
+        { figId: "connective", caption: "Connective tissue types." },
+        { figId: "cartilage-types", caption: "Hyaline, fibrous, and elastic cartilage." },
+        // visuals:end s12
         { recap: [
           "Classify epithelia by layers and cell shape and give a location for each.",
           "Compare the main types of connective tissue and their examples.",
@@ -74,6 +79,10 @@ export default {
         { p: "<strong>Nervous tissue</strong> consists of <strong>neurons</strong> (which conduct electrical signals) and <strong>neuroglia</strong> (which support them). A neuron has dendrites, a cell body, and an axon; glial cells include astrocytes, oligodendrocytes, Schwann cells, and microglia (covered in more depth in the physiology unit on the nervous system)." },
         { p: "Tissue membranes combine epithelium and connective tissue. <strong>Mucous membranes</strong> line passages open to the outside (digestive, respiratory, urinary). <strong>Serous membranes</strong> line closed cavities. The <strong>cutaneous membrane</strong> is the skin. <strong>Synovial membranes</strong> line joint cavities and make lubricating fluid." },
         { key: "<strong>Fascia</strong> is a continuous sheet of connective tissue wrapping muscles, nerves, vessels, and organs. Fascia compartments in the forearm and leg matter clinically: swelling or bleeding inside a tight compartment can crush the muscle and nerves inside it (<strong>compartment syndrome</strong>), which is a surgical emergency." },
+        // visuals:begin s13
+        { figId: "muscle-types", caption: "Skeletal, cardiac, and smooth muscle." },
+        { figId: "neuron-tissue", caption: "Nervous tissue: a neuron." },
+        // visuals:end s13
         { recap: [
           "Compare skeletal, cardiac, and smooth muscle tissue.",
           "Name the four types of membranes.",
@@ -102,6 +111,10 @@ export default {
           ["Nails", "Keratin plates protecting fingertips"],
         ]),
         { p: "<strong>Burns</strong> are classified by depth. First-degree burns affect only the epidermis (redness, such as a mild sunburn). Second-degree burns reach the dermis (blisters, severe pain). Third-degree (full-thickness) burns destroy the epidermis and dermis, and because the nerve endings are destroyed the burn itself may be painless. The 'rule of nines' estimates the percentage of the body surface burned." },
+        // visuals:begin s14
+        { figId: "skin", caption: "The structure of the skin." },
+        { figId: "epidermis", caption: "The layers of the epidermis." },
+        // visuals:end s14
         { recap: [
           "List the three layers of the skin and their tissues.",
           "Name the layers of the epidermis in order.",

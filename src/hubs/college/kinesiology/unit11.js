@@ -18,6 +18,10 @@ export default {
         { p: "<strong>Ligaments</strong> hold the ankle together. The <strong>lateral ligaments</strong> (anterior talofibular, calcaneofibular, posterior talofibular) are thinner and are the ones that tear in an inversion sprain. The <strong>deltoid ligament</strong> on the medial side is thick and strong, so medial sprains are rare. The <strong>syndesmosis</strong> (tibiofibular ligaments above the ankle) can be injured in a 'high ankle sprain,' which heals more slowly." },
         { p: "The foot has <strong>arches</strong> that give it springiness and shock absorption. The <strong>medial longitudinal arch</strong> is the highest, the <strong>lateral longitudinal arch</strong> is flatter, and the <strong>transverse arch</strong> runs across the midfoot. The arches are supported by bone shape, ligaments (the spring ligament), the <strong>plantar fascia</strong>, and the foot's intrinsic and extrinsic muscles (tibialis posterior is the key dynamic supporter)." },
         { key: "The <strong>windlass mechanism</strong>: when the big toe extends at push-off, it winds the plantar fascia around the head of the first metatarsal like a winch, tightening it and raising the arch. That turns the foot from a flexible shock absorber at landing into a rigid lever at push-off." },
+        // visuals:begin s111
+        { figId: "ankle-joints", caption: "The ankle: talocrural and subtalar joints with their ligaments." },
+        { figId: "foot-bones", caption: "The tarsals, metatarsals, and phalanges; the medial longitudinal arch." },
+        // visuals:end s111
         { recap: [
           "Name the regions and joints of the ankle and foot.",
           "Identify the ligaments at risk in an inversion sprain and in a high ankle sprain.",
@@ -37,6 +41,10 @@ export default {
         { p: "The calf is a power plant. The <strong>gastrocnemius</strong> (fast fibers, crosses the knee) is best when the knee is straight, and the <strong>soleus</strong> (mostly slow fibers, single joint) is the endurance workhorse that does the most work with the knee bent. During walking and running the soleus is the main plantarflexor at mid-stance, and it can bear forces of several times body weight. The two share the <strong>Achilles tendon</strong>, the thickest and strongest tendon in the body, which stores and returns elastic energy in running." },
         { p: "The <strong>tibialis anterior</strong> lowers the foot to the ground at heel strike (eccentric control) and lifts the toes through swing, which is why a drop foot (from a peroneal nerve injury) makes the toes drag and the person lift the knee high to compensate (<strong>steppage gait</strong>)." },
         { trap: "Calf stretches for <strong>soleus</strong> require a <em>bent</em> knee; for <strong>gastrocnemius</strong>, a <em>straight</em> knee. If the knee is bent, the gastrocnemius is slack, so the stretch lands on the soleus." },
+        // visuals:begin s112
+        { figId: "leg-muscles", caption: "The calf muscles (gastrocnemius, soleus), tibialis anterior, tibialis posterior, and the fibularis muscles." },
+        { figId: "foot-muscles", caption: "Intrinsic muscles of the foot and the plantar fascia." },
+        // visuals:end s112
         { recap: [
           "Match lower-leg muscles to their actions.",
           "Differentiate gastrocnemius and soleus function.",
@@ -55,6 +63,10 @@ export default {
         ]),
         { p: "<strong>Footwear</strong> is a debated topic. Cushioned shoes can reduce impact peaks, minimalist shoes encourage a forefoot or midfoot strike and strengthen intrinsic foot muscles, but they shift stress to the calf and Achilles. The evidence suggests that comfort is a better guide to shoe selection than elaborate pronation categories, and that changes in footwear or running form should be gradual." },
         { key: "<strong>Foot strike pattern</strong> (rearfoot, midfoot, forefoot) changes how loads are distributed: rearfoot striking produces a distinct impact transient and higher loading at the knee, while forefoot striking raises loading at the ankle and Achilles. Neither is universally better, and most distance runners are rearfoot strikers." },
+        // visuals:begin s113
+        { figId: "inversion-eversion", caption: "Pronation and supination of the foot involve inversion/eversion with dorsiflexion/plantarflexion." },
+        { figId: "dorsi-plantar", caption: "Dorsiflexion and plantarflexion." },
+        // visuals:end s113
         { recap: [
           "Describe pronation and supination during the stance phase.",
           "Compare flat and high-arched feet and their typical injuries.",
@@ -78,6 +90,10 @@ export default {
         ]),
         { worked: { label: "Worked Example 1", q: "A runner who tripled mileage in two weeks develops focal pain on the shin that worsens with each impact and persists at rest. What are two possible diagnoses and which is more concerning?", a: "Medial tibial stress syndrome (shin splints) causes diffuse pain that tends to warm up with activity. <strong>A tibial stress fracture</strong> causes focal tenderness, pain that worsens with impact, and pain at rest or at night. The second is more concerning because continued loading can complete the fracture. A rapid increase in training load is the classic cause of both." } },
         { p: "<strong>Rehabilitation principles</strong> apply across these injuries: calm the symptoms, restore mobility, rebuild strength (calf, foot intrinsics, hip), retrain balance and proprioception, and return to sport in graded steps. After a lateral ankle sprain, balance training and bracing reduce the chance of a repeat sprain, which is common." },
+        // visuals:begin s114
+        { figId: "ankle-joints", caption: "The anterior talofibular ligament is the one most often sprained in an inversion injury." },
+        { figId: "tibia-fibula", caption: "The syndesmosis between the tibia and fibula: a high ankle sprain." },
+        // visuals:end s114
         { recap: [
           "Describe the mechanisms of lateral and high ankle sprains.",
           "Distinguish Achilles tendinopathy from rupture and shin splints from a stress fracture.",

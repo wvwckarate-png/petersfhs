@@ -20,6 +20,12 @@ export default {
         { p: "The right main bronchus is wider, shorter, and more vertical than the left, so inhaled foreign objects and aspirated material most often end up in the <strong>right lung</strong>, usually the right lower lobe. The bronchi divide repeatedly (about 23 generations): lobar bronchi, segmental bronchi, bronchioles, terminal bronchioles, respiratory bronchioles, alveolar ducts, and <strong>alveoli</strong>. The alveolar wall has <strong>type I cells</strong> (thin, gas exchange) and <strong>type II cells</strong> (secrete surfactant), and about 300 million alveoli give a surface area of roughly 70 m²." },
         { p: "Each lung is enclosed by the <strong>pleura</strong>: the <strong>visceral pleura</strong> clings to the lung and the <strong>parietal pleura</strong> lines the thoracic wall and diaphragm. The potential space between them is the <strong>pleural cavity</strong>. <strong>Pleural effusion</strong> (fluid) and <strong>pneumothorax</strong> (air) are collections in this space. The <strong>hilum</strong> is the entry point for the bronchus, pulmonary vessels, and nerves." },
         { key: "Because the trachea divides at the carina and the right bronchus is more vertical, an <strong>endotracheal tube</strong> pushed too far usually enters the right main bronchus, ventilating only the right lung. Checking for equal breath sounds on both sides is routine for this reason." },
+        // visuals:begin s111
+        { figId: "resp-organs", caption: "The respiratory system." },
+        { figId: "larynx", caption: "The larynx." },
+        { figId: "trachea", caption: "The trachea." },
+        { figId: "lungs", caption: "The lungs." },
+        // visuals:end s111
         { recap: [
           "Trace the path of air from the nose to the alveoli.",
           "Compare the right and left lungs and bronchi.",
@@ -38,6 +44,12 @@ export default {
           ["Stomach", "Cardia, fundus, body, pylorus; rugae (folds); greater and lesser curvatures; three muscle layers (oblique, circular, longitudinal); pyloric sphincter controls emptying"],
         ]),
         { p: "The stomach's mucosal cells include <strong>mucous cells</strong> (protective mucus), <strong>parietal cells</strong> (HCl and intrinsic factor), <strong>chief cells</strong> (pepsinogen), and <strong>G cells</strong> (gastrin). The blood supply to the stomach comes from branches of the celiac trunk (left and right gastric, gastro-omental, splenic arteries). A <strong>hiatal hernia</strong> occurs when part of the stomach pushes up through the esophageal hiatus of the diaphragm, often causing reflux." },
+        // visuals:begin s112
+        { figId: "mouth", caption: "The mouth." },
+        { figId: "salivary", caption: "The salivary glands." },
+        { figId: "esophagus", caption: "The esophagus." },
+        { figId: "stomach", caption: "The stomach." },
+        // visuals:end s112
         { recap: [
           "List the four layers of the GI tract wall.",
           "Describe the parts of the mouth, esophagus, and stomach.",
@@ -65,6 +77,12 @@ export default {
         { fig: { src: "/anatomy/g1050.png", alt: "Interior of the stomach: Fundus, curvatures, pyloric portion, pyloric valve, and duodenum.", caption: "Interior of the stomach.", credit: "Source: Gray's Anatomy (1918), Fig. 1050, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1050.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g1056.png", alt: "Duodenum, pancreas, and related organs: Pancreas, duodenum, kidneys, spleen, diaphragm, and the great vessels.", caption: "Duodenum, pancreas, and related organs.", credit: "Source: Gray's Anatomy (1918), Fig. 1056, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray1056.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The <strong>common bile duct</strong> and the main pancreatic duct usually join before entering the duodenum, so a gallstone lodged at the ampulla can block both bile and pancreatic juice. That is why gallstones are a leading cause of <strong>pancreatitis</strong>." },
+        // visuals:begin s113
+        { figId: "small-intestine", caption: "The small intestine." },
+        { figId: "large-intestine", caption: "The large intestine." },
+        { figId: "accessory-organs", caption: "The liver, gallbladder, and pancreas." },
+        { figId: "peritoneum", caption: "The peritoneum and mesentery." },
+        // visuals:end s113
         { recap: [
           "Compare the duodenum, jejunum, and ileum.",
           "Describe the parts of the colon and the features of the large intestine.",
@@ -86,6 +104,10 @@ export default {
         ]),
         { p: "<strong>McBurney's point</strong> (about one-third of the way from the right ASIS to the umbilicus) is the classic site of tenderness in appendicitis. <strong>Murphy's sign</strong> (pain and inspiratory arrest when the examiner presses under the right costal margin) suggests cholecystitis. <strong>Referred pain</strong> occurs because visceral and somatic afferents converge on the same spinal segments: gallbladder pain can radiate to the right shoulder tip (irritation of the diaphragm and the phrenic nerve, C3–C5)." },
         { key: "Visceral pain is vague, dull, and midline because the organs have bilateral, segmental innervation. Once the parietal peritoneum is irritated, the pain becomes sharp and localized, so the migration of appendicitis pain from the navel to the right lower quadrant is the transition from visceral to parietal pain." },
+        // visuals:begin s114
+        { figId: "quadrants", caption: "Abdominal quadrants." },
+        { figId: "referred-pain", caption: "Referred pain." },
+        // visuals:end s114
         { recap: [
           "Associate abdominal pain locations with likely organs.",
           "Describe McBurney's point and Murphy's sign.",

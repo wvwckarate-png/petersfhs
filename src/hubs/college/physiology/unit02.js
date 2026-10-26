@@ -17,6 +17,10 @@ export default {
         ] } },
         { p: "This is the <strong>fluid mosaic model</strong>: the membrane behaves like a fluid in which proteins float and move around like a mosaic of tiles that never stay in one place." },
         { key: "The lipid bilayer is <strong>permeable to small, nonpolar, lipid-soluble molecules</strong> (O₂, CO₂, steroid hormones, fatty acids) and <strong>impermeable to ions and large polar molecules</strong> (Na⁺, K⁺, glucose, proteins). Anything the cell needs that cannot slip through the lipid needs a protein to carry it through." },
+        // visuals:begin s21
+        { figId: "membrane", caption: "The phospholipid bilayer: hydrophilic heads face the water on both sides, hydrophobic tails form the interior." },
+        { figId: "membrane-components", caption: "The fluid mosaic: proteins, cholesterol, and carbohydrates float in the lipid sea." },
+        // visuals:end s21
         { recap: [
           "Describe the phospholipid bilayer and explain why it assembles spontaneously in water.",
           "Identify the roles of cholesterol, integral proteins, and glycoproteins.",
@@ -37,6 +41,12 @@ export default {
         { p: "Facilitated diffusion shows <strong>saturation</strong>: because there is a finite number of carrier proteins, the transport rate rises with concentration and then plateaus at a maximum (T<sub>max</sub>), just like a line of customers served by a fixed number of cashiers. Simple diffusion never saturates; its rate keeps climbing with the gradient." },
         { p: "<strong>Fick's law</strong> sums up the factors that speed diffusion: a bigger concentration gradient, a larger surface area, higher permeability (lipid solubility, small size), and a <em>shorter</em> distance all increase the rate. This explains why alveoli are one cell thick and why edema, which lengthens the diffusion distance, makes it harder to oxygenate tissues." },
         { trap: "Facilitated diffusion is <strong>passive</strong> even though it uses a protein. Using a protein does not mean using energy. The test is the direction of movement: down the gradient with no ATP is passive; against the gradient needs energy." },
+        // visuals:begin s22
+        { figId: "simple-diffusion", caption: "Simple diffusion: small nonpolar molecules cross the bilayer directly, down their gradient." },
+        { figId: "carrier-diffusion", caption: "Facilitated diffusion by a carrier protein, which can be saturated." },
+        { figId: "channel-diffusion", caption: "Facilitated diffusion through a channel protein." },
+        { svg: "plot; title=Carrier transport saturates; x=Solute concentration; y=Transport rate; xlim=0:10; ylim=0:110; line=0,0 1,40 2,64 4,84 7,95 10,98 | #C0392B | Carrier; line=0,0 5,50 10,100 | #888 | Simple diffusion | dash; hline=100 Vmax (carriers full) | #C0392B", caption: "Saturation: carrier-mediated transport levels off at Vmax, while simple diffusion rises in a straight line." },
+        // visuals:end s22
         { recap: [
           "Define passive transport and give four examples.",
           "Explain why carrier-mediated transport saturates but simple diffusion does not.",
@@ -56,6 +66,10 @@ export default {
         ] } },
         { trap: "A solution can be <strong>isosmotic but not isotonic</strong>. A 300 mOsm/L urea solution has the same osmolarity as plasma, but urea slips freely across the membrane, so water follows it in and the cell swells: that solution is hypotonic. Tonicity depends on <em>non-penetrating</em> solutes only." },
         { worked: { label: "Worked Example 1", q: "A red blood cell is placed in a solution of 150 mM NaCl (the plasma osmolarity is about 300 mOsm/L). What happens?", a: "NaCl dissociates into two particles, so 150 mM NaCl provides about 300 mOsm/L, the same as plasma. Na⁺ and Cl⁻ are effectively non-penetrating on this timescale, so the solution is <strong>isotonic</strong> and there is no net water movement. The cell keeps its volume. This is why saline for intravenous use is made at about 0.9%." } },
+        // visuals:begin s23
+        { figId: "osmosis", caption: "Osmosis: water crosses a selectively permeable membrane toward the higher solute concentration." },
+        { figId: "tonicity", caption: "Red blood cells in hypotonic, isotonic, and hypertonic solutions swell, stay the same, or shrink (crenate)." },
+        // visuals:end s23
         { recap: [
           "Define osmosis, osmolarity, and tonicity and contrast osmolarity with tonicity.",
           "Predict the effect of isotonic, hypotonic, and hypertonic solutions on a cell.",
@@ -75,6 +89,11 @@ export default {
         ] } },
         { key: "The Na⁺/K⁺ pump makes Na⁺ high <strong>outside</strong> and K⁺ high <strong>inside</strong> the cell. Every Na⁺-driven cotransporter spends that stored Na⁺ gradient to import glucose, amino acids, or other nutrients. Without the pump, the whole currency system collapses." },
         { p: "<strong>Vesicular transport</strong> handles bulk cargo. <em>Endocytosis</em> brings material in (phagocytosis for particles, pinocytosis for fluid, receptor-mediated endocytosis for specific ligands such as cholesterol-carrying LDL). <em>Exocytosis</em> exports cargo, such as hormones, neurotransmitters, and digestive enzymes, by fusing a vesicle with the membrane." },
+        // visuals:begin s24
+        { figId: "nak-pump", caption: "The Na⁺/K⁺-ATPase: 3 Na⁺ out and 2 K⁺ in for each ATP used, against both gradients." },
+        { figId: "endocytosis", caption: "Endocytosis: the membrane pinches in to bring in particles (phagocytosis), fluid (pinocytosis), or specific cargo (receptor-mediated)." },
+        { figId: "exocytosis", caption: "Exocytosis: vesicles fuse with the membrane and release their contents." },
+        // visuals:end s24
         { recap: [
           "Distinguish primary from secondary active transport.",
           "State the stoichiometry of the Na⁺/K⁺ pump and its effect on ion distribution.",
@@ -97,6 +116,12 @@ export default {
           ["Cytoskeleton", "Microfilaments, intermediate filaments, microtubules", "Cell shape, transport, muscle contraction (actin)"],
         ] } },
         { skill: { label: "Skill: Match the Organelle to the Tissue", text: "Ask what a cell <em>does</em>, then predict which organelle it is packed with. Heart and endurance muscle burn ATP constantly, so they are loaded with mitochondria. Pancreatic cells secrete enzymes, so they are packed with rough ER and Golgi. Liver cells detoxify, so they are rich in smooth ER." } },
+        // visuals:begin s25
+        { figId: "animal-cell", caption: "An animal cell and its organelles." },
+        { figId: "mitochondrion", caption: "The mitochondrion: the folded inner membrane (cristae) carries the electron transport chain." },
+        { figId: "er", caption: "Rough ER (with ribosomes) and smooth ER (without)." },
+        { figId: "golgi", caption: "The Golgi apparatus modifies and packages proteins into vesicles." },
+        // visuals:end s25
         { recap: [
           "Pair each organelle with its primary function.",
           "Predict which organelles are abundant in a cell given its job.",

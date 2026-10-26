@@ -21,6 +21,11 @@ export default {
           ["Pineal", "Melatonin", "Sleep-wake cycle"],
         ] } },
         { key: "The <strong>pituitary</strong> is called the master gland because many of its hormones control other glands, but the pituitary itself is directed by the <strong>hypothalamus</strong>. A <em>negative feedback loop</em> keeps hormone levels in range: when a hormone level rises high enough, it shuts off its own release." },
+        // visuals:begin s101
+        { figId: "endocrine", caption: "The endocrine glands." },
+        { figId: "hypothalamus-pituitary", caption: "The hypothalamus and pituitary." },
+        { figId: "adrenal", caption: "The adrenal gland." },
+        // visuals:end s101
         { recap: [
           "Distinguish endocrine from exocrine glands.",
           "Match each gland to its main hormones and actions.",
@@ -48,6 +53,13 @@ export default {
         ] } },
         { p: "Two suffixes are especially useful here. <strong>-tropin</strong> (or <em>-trophic</em>) means stimulating, and <strong>-emia</strong> names a substance in the blood. <strong>Polydipsia</strong> (excessive thirst), <strong>polyuria</strong> (excessive urination), and <strong>polyphagia</strong> (excessive hunger) are the classic three signs of uncontrolled diabetes mellitus." },
         { trap: "<strong>Gluc/o</strong> and <strong>glyc/o</strong> both relate to sugar. <em>Glycemia</em> refers to the level of sugar in the blood, while <em>glucose</em> is the sugar itself and <em>glycogen</em> is the stored form of glucose in the liver and muscle." },
+        // visuals:begin s102
+        { p: "{{wp:thyr/o=thyroid|-itis=inflammation}} <strong>Thyroiditis</strong>" },
+        { p: "{{wp:pancreat/o=pancreas|-itis=inflammation}} <strong>Pancreatitis</strong>" },
+        { p: "{{wp:adren/o=adrenal gland|-ectomy=surgical removal}} <strong>Adrenalectomy</strong>" },
+        { p: "{{wp:hyper-=excessive|kali/o=potassium|-emia=blood condition}} <strong>Hyperkalemia</strong>" },
+        { p: "{{wp:hypo-=below|natr/o=sodium|-emia=blood condition}} <strong>Hyponatremia</strong>" },
+        // visuals:end s102
         { recap: [
           "Recall the roots for thyroid, adrenal, pancreas, pituitary, and sugar.",
           "Explain the three classic signs of diabetes (the three p's).",
@@ -75,6 +87,13 @@ export default {
         ] } },
         { worked: { label: "Worked Example 1", q: "A patient reports excessive thirst, frequent urination, and constant hunger, with a high fasting glucose. What do the three symptoms suggest?", a: "<strong>Polydipsia</strong> (thirst), <strong>polyuria</strong> (urination), and <strong>polyphagia</strong> (hunger) together with <strong>hyperglycemia</strong> suggest <strong>diabetes mellitus</strong>. Extra glucose spills into the urine and pulls water with it, causing the thirst and urination." } },
         { trap: "<strong>Diabetes mellitus</strong> and <strong>diabetes insipidus</strong> share the word diabetes (meaning <em>to pass through</em>) but are unrelated. <em>Mellitus</em> means sweet (sugar in the urine), and <em>insipidus</em> means tasteless (dilute urine)." },
+        // visuals:begin s103
+        { figId: "glucose-regulation", caption: "Insulin and glucagon regulate blood glucose." },
+        { figId: "pancreas", caption: "The pancreas and the islets of Langerhans." },
+        { p: "{{wp:poly-=many|dips/o=thirst|-ia=condition}} <strong>Polydipsia</strong>" },
+        { p: "{{wp:poly-=many|-uria=urine}} <strong>Polyuria</strong>" },
+        { p: "{{wp:poly-=many|-phagia=eating}} <strong>Polyphagia</strong>" },
+        // visuals:end s103
         { recap: [
           "Explain what insulin and glucagon each do.",
           "Distinguish type 1 from type 2 diabetes mellitus and from diabetes insipidus.",
@@ -99,6 +118,10 @@ export default {
         ] } },
         { key: "Match the prefix to the condition: <strong>hyper-</strong> means too much hormone and <strong>hypo-</strong> means too little. <em>Hyperthyroidism</em> speeds the body up (rapid heart rate, heat intolerance, weight loss), and <em>hypothyroidism</em> slows it down (fatigue, cold intolerance, weight gain)." },
         { trap: "<strong>Cushing syndrome</strong> is too <em>much</em> cortisol, and <strong>Addison disease</strong> is too <em>little</em>. A memory aid: <em>Cushing</em> sounds like <em>cushioned</em> (a rounded, puffy appearance)." },
+        // visuals:begin s104
+        { figId: "goiter", caption: "A goiter." },
+        { figId: "posterior-pituitary", caption: "The posterior pituitary releases ADH and oxytocin." },
+        // visuals:end s104
         { recap: [
           "Distinguish hyper- and hypothyroidism by symptoms.",
           "Distinguish Cushing syndrome from Addison disease.",
@@ -120,6 +143,9 @@ export default {
           ["ADH and aldosterone", "Conserve water and sodium during sweating"],
         ] } },
         { key: "During exercise, <strong>insulin falls and glucagon rises</strong>. This keeps blood glucose from dropping, because working muscle takes up glucose even with little insulin." },
+        // visuals:begin s105
+        { figId: "glucose-regulation", caption: "Exercise lowers blood glucose without more insulin: muscle contraction moves GLUT4 to the surface." },
+        // visuals:end s105
         { recap: [
           "Explain which hormones rise and which fall during exercise.",
           "Connect epinephrine to heart rate and fuel mobilization.",

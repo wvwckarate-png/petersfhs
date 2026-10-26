@@ -28,6 +28,15 @@ export default {
         { fig: { src: "/anatomy/g728.png", alt: "Lobes of the cerebrum, lateral view: Frontal, parietal, temporal, and occipital lobes with the central and lateral fissures.", caption: "Lobes of the cerebrum, lateral view.", credit: "Source: Gray's Anatomy (1918), Fig. 728, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray728.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g727.png", alt: "Medial surface of the cerebral hemisphere: Corpus callosum, cingulate gyrus, and related structures.", caption: "Medial surface of the cerebral hemisphere.", credit: "Source: Gray's Anatomy (1918), Fig. 727, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray727.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { p: "CSF is made by the <strong>choroid plexus</strong> in the four <strong>ventricles</strong> (two lateral, the third, and the fourth), flows through the ventricular system and the central canal and subarachnoid space, and is reabsorbed into the venous sinuses through the <strong>arachnoid granulations</strong>. Blocked flow causes <strong>hydrocephalus</strong>." },
+        // visuals:begin s91
+        { figId: "cerebrum", caption: "The cerebrum." },
+        { figId: "cortex-lobes", caption: "The lobes of the cerebral cortex." },
+        { figId: "diencephalon", caption: "The diencephalon." },
+        { figId: "basal-nuclei", caption: "The basal nuclei." },
+        { figId: "cerebellum", caption: "The cerebellum." },
+        { figId: "meninges", caption: "The meninges." },
+        { figId: "csf", caption: "CSF circulation." },
+        // visuals:end s91
         { recap: [
           "Name the major brain regions and key functional cortical areas.",
           "List the meninges and explain the types of intracranial hemorrhage.",
@@ -56,6 +65,10 @@ export default {
         ]),
         { key: "A classic mnemonic for the cranial nerves in order is <em>'Oh Oh Oh, To Touch And Feel Very Good Velvet, Ah Heaven.'</em> For sensory (S), motor (M), or both (B): <em>'Some Say Marry Money, But My Brother Says Big Brains Matter More.'</em>" },
         { trap: "The <strong>vagus nerve (X)</strong> is the longest cranial nerve and supplies parasympathetic fibers to most of the thoracic and abdominal organs (heart, lungs, and gut down to the left colic flexure). It slows the heart, and it is a favorite of the clinical vignette." },
+        // visuals:begin s92
+        { figId: "circle-willis", caption: "The circle of Willis." },
+        { figId: "cranial-nerves", caption: "The cranial nerves." },
+        // visuals:end s92
         { recap: [
           "Describe the blood supply to the brain and the circle of Willis.",
           "List the 12 cranial nerves with type and function.",
@@ -82,6 +95,12 @@ export default {
           ["Sacral", "L4–S4", "Sciatic (tibial and common fibular), gluteal, pudendal"],
         ]),
         { p: "<strong>Dermatomes</strong> are skin areas supplied by a single spinal nerve. Useful landmarks: <strong>C6</strong> thumb, <strong>C7</strong> middle finger, <strong>C8</strong> little finger, <strong>T4</strong> nipple line, <strong>T10</strong> umbilicus, <strong>L4</strong> medial leg and the knee, <strong>L5</strong> top of the foot and big toe, <strong>S1</strong> lateral foot and little toe. Testing dermatomes and myotomes localizes a lesion to a spinal level." },
+        // visuals:begin s93
+        { figId: "nerve-structure", caption: "Structure of a nerve." },
+        { figId: "spinal-plexuses", caption: "Spinal nerve plexuses." },
+        { figId: "ascending-pathways", caption: "Ascending pathways." },
+        { figId: "corticospinal", caption: "The corticospinal tract." },
+        // visuals:end s93
         { recap: [
           "Describe the structure of the spinal cord and the main ascending and descending tracts.",
           "List the plexuses with their roots and major nerves.",
@@ -102,6 +121,10 @@ export default {
         ]),
         { p: "The sympathetic <strong>chain ganglia</strong> lie on both sides of the vertebral column, and the white and gray <strong>rami communicantes</strong> link them to the spinal nerves. Fibers can synapse in the chain at the same level, travel up or down the chain, or pass through to the <strong>prevertebral ganglia</strong> (celiac, superior mesenteric, inferior mesenteric) via the splanchnic nerves. The <strong>adrenal medulla</strong> is innervated directly by preganglionic sympathetic fibers and behaves like a large modified ganglion that releases epinephrine into the blood." },
         { key: "The <strong>vagus nerve</strong> carries about 75% of all parasympathetic fibers. The sacral parasympathetic outflow (S2–S4 pelvic splanchnic nerves) supplies the lower colon, bladder, and reproductive organs, and is why spinal cord injuries cause bladder, bowel, and sexual dysfunction." },
+        // visuals:begin s94
+        { figId: "sympathetic", caption: "The sympathetic division." },
+        { figId: "parasympathetic", caption: "The parasympathetic division." },
+        // visuals:end s94
         { recap: [
           "Contrast the anatomy of the sympathetic and parasympathetic divisions.",
           "Describe the chain and prevertebral ganglia.",

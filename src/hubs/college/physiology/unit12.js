@@ -24,6 +24,13 @@ export default {
         ] } },
         { p: "The <strong>glomerular filtration rate (GFR)</strong> is about <strong>125 mL/min</strong>, or 180 L/day. That is the entire plasma volume (about 3 L) filtered roughly 60 times a day, yet you make only about 1.5 L of urine a day, so more than 99% of the filtrate is reabsorbed. The filtration barrier lets water, ions, glucose, and small molecules through but blocks blood cells and large proteins; protein in the urine (<strong>proteinuria</strong>) signals that the barrier is damaged." },
         { key: "<strong>Autoregulation</strong> keeps GFR steady when arterial pressure varies between roughly 80 and 180 mmHg, by adjusting afferent arteriole diameter (myogenic response and tubuloglomerular feedback). That is why your kidneys do not stop working every time you stand up." },
+        // visuals:begin s121
+        { figId: "kidney", caption: "The kidney: cortex, medulla, pyramids, calyces, and pelvis." },
+        { figId: "nephron-flow", caption: "The nephron and its blood supply." },
+        { figId: "glomerulus", caption: "The glomerulus and Bowman's capsule: filtration." },
+        { figId: "net-filtration", caption: "Net filtration pressure: glomerular pressure minus capsular and osmotic pressures." },
+        { figId: "jga", caption: "The juxtaglomerular apparatus regulates GFR and renin release." },
+        // visuals:end s121
         { recap: [
           "Name the segments of the nephron and the main job of each.",
           "Define filtration, reabsorption, secretion, and excretion.",
@@ -43,6 +50,13 @@ export default {
         ] } },
         { p: "<strong>Aldosterone</strong> acts on the collecting duct and DCT to retain Na⁺ (and water) and excrete K⁺. It is released by <strong>angiotensin II</strong> (the RAAS) and directly by high plasma K⁺. Loop diuretics (furosemide) block Na⁺–K⁺–2Cl⁻ transport in the thick ascending limb, which is why they are so powerful." },
         { trap: "ADH controls <strong>water</strong>; aldosterone controls <strong>sodium</strong>. They often work together, but ADH changes the <em>concentration</em> of the blood (osmolarity) while aldosterone changes its <em>volume</em> (sodium content). Keep them separate." },
+        // visuals:begin s122
+        { figId: "tubule-transport", caption: "Reabsorption and secretion along the nephron." },
+        { figId: "pct", caption: "The proximal tubule reabsorbs most of the filtrate." },
+        { figId: "adh", caption: "ADH inserts aquaporin-2 in the collecting duct." },
+        { figId: "aquaporin", caption: "An aquaporin water channel." },
+        { svg: "plot; title=Renal handling of glucose; x=Plasma glucose (mg/dL); y=mg/min; xlim=0:500; ylim=0:700; xticks=0,100,200,300,400,500; yticks=0; line=0,0 500,625 | #888 | Filtered | dash; line=0,0 180,225 300,375 500,375 | #2E6BC6 | Reabsorbed; line=0,0 180,0 200,0 300,0 500,250 | #C0392B | Excreted; vline=180 Threshold ≈ 180 | #002855", caption: "Glucose is fully reabsorbed until the carriers saturate (the renal threshold); above it, glucose appears in the urine." },
+        // visuals:end s122
         { recap: [
           "Explain why glucose appears in the urine in uncontrolled diabetes.",
           "Describe how ADH concentrates urine.",
@@ -62,6 +76,12 @@ export default {
           ["Bicarbonate (HCO₃⁻)", "22–28 mmol/L", "Main blood buffer"],
         ] } },
         { p: "<strong>Hyponatremia</strong> (low Na⁺) is a risk for endurance athletes who drink large volumes of plain water over many hours; the dilution of plasma sodium causes brain swelling, confusion, and seizures. <strong>Dehydration</strong> of even 2% of body weight impairs performance, and larger losses reduce plasma volume, stroke volume, and the ability to dissipate heat." },
+        // visuals:begin s123
+        { figId: "water-distribution", caption: "Distribution of water between the intracellular and extracellular fluid." },
+        { figId: "thirst", caption: "The thirst response." },
+        { figId: "raas-kidney", caption: "Renin–angiotensin–aldosterone and the kidney." },
+        { figId: "aldosterone-loop", caption: "Aldosterone feedback and sodium balance." },
+        // visuals:end s123
         { recap: [
           "Describe how osmolarity, thirst, and ADH are linked.",
           "State normal plasma values for Na⁺, K⁺, and HCO₃⁻.",
@@ -82,6 +102,12 @@ export default {
         ] } },
         { skill: { label: "Skill: Read the Gas", text: "Look at pH first (acidosis or alkalosis?). Then ask which variable moved in the <em>same direction</em> as the pH problem: if pH is low and PCO₂ is high, the problem is respiratory; if pH is low and HCO₃⁻ is low, the problem is metabolic. Compensation moves the <em>other</em> variable the same way to bring the ratio back." } },
         { key: "<strong>Kussmaul breathing</strong> (deep, rapid breaths) in diabetic ketoacidosis is the lungs compensating for metabolic acidosis by blowing off CO₂. Vomiting loses stomach acid, causing metabolic alkalosis, and severe diarrhea loses bicarbonate, causing metabolic acidosis." },
+        // visuals:begin s124
+        { figId: "ph-scale", caption: "The pH scale." },
+        { figId: "resp-acid-base", caption: "Respiratory regulation of blood pH." },
+        { figId: "bicarb-kidney", caption: "The kidney conserves bicarbonate and excretes H⁺." },
+        { figId: "acidosis-alkalosis", caption: "Symptoms of acidosis and alkalosis." },
+        // visuals:end s124
         { recap: [
           "State the normal blood pH and the three defense layers.",
           "Classify acid–base disorders by pH, PCO₂, and HCO₃⁻.",
@@ -100,6 +126,10 @@ export default {
           ["Urinary tract infection", "Bacterial infection, more common in women because of a shorter urethra"],
         ] } },
         { p: "Creatinine, a breakdown product of muscle, is used to estimate GFR; because it comes from muscle, a very muscular person can have a normal-for-them but 'high' creatinine. During exercise, renal blood flow falls and transient proteinuria or blood in the urine can occur after very hard or prolonged efforts. Severe muscle breakdown (rhabdomyolysis) can clog the tubules with myoglobin and injure the kidney." },
+        // visuals:begin s125
+        { figId: "ureter", caption: "Kidney stones can block the ureter." },
+        { figId: "urine-color", caption: "Urine color is a rough hydration guide." },
+        // visuals:end s125
         { recap: [
           "Describe common kidney disorders and their causes.",
           "Explain why creatinine estimates GFR and why muscle mass matters.",

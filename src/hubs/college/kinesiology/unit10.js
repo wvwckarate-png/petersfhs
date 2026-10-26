@@ -20,6 +20,11 @@ export default {
         ]),
         { p: "The <strong>menisci</strong> are poorly vascularized except at the outer edge, which is why tears in the inner (white) zone do not heal, while outer (red) zone tears can. The medial meniscus is attached to the MCL, making it more vulnerable when the MCL is injured." },
         { key: "Cruciate ligament names come from where they attach to the tibia: <strong>anterior</strong> cruciate attaches at the front of the tibia and resists forward tibial translation; <strong>posterior</strong> cruciate attaches at the back and resists backward translation." },
+        // visuals:begin s101
+        { figId: "knee-joint", caption: "The knee: femoral condyles, tibial plateau, menisci, and ligaments." },
+        { figId: "femur", caption: "The femur and patella." },
+        { figId: "q-angle", caption: "The Q angle between the quadriceps' line of pull and the patellar tendon." },
+        // visuals:end s101
         { recap: [
           "Describe the tibiofemoral and patellofemoral joints.",
           "State the function of each of the four main ligaments and of the menisci.",
@@ -39,6 +44,10 @@ export default {
         { p: "The <strong>quadriceps</strong> are the great extensors. Their angle of pull on the patella tends to drag it laterally, and the <strong>vastus medialis oblique (VMO)</strong> and the shape of the femoral groove help keep it tracking properly. The hamstrings are the primary <em>dynamic</em> protection of the ACL because they pull the tibia backward, so a strong hamstring-to-quadriceps ratio is protective." },
         { p: "<strong>The terminal 'screw-home' mechanism</strong>: in the last 20° of extension, the tibia externally rotates on the femur, locking the knee for efficient standing with little muscle effort. The <strong>popliteus</strong> 'unlocks' the knee by internally rotating the tibia to begin flexion." },
         { p: "<strong>Open versus closed chain</strong> matters for knee loading. In an open-chain leg extension (foot free), force on the ACL is highest near full extension, while in a closed-chain squat (foot fixed), the quadriceps and hamstrings co-contract and the loads on the ACL are lower. That is why closed-chain exercises are favored for early rehabilitation after ACL surgery." },
+        // visuals:begin s102
+        { figId: "muscles-ant-post", caption: "The quadriceps extend the knee and the hamstrings flex it." },
+        { figId: "leg-muscles", caption: "The popliteus unlocks the knee." },
+        // visuals:end s102
         { recap: [
           "Match knee movements with prime movers.",
           "Explain the role of the VMO and the hamstrings.",
@@ -60,6 +69,9 @@ export default {
         { p: "<strong>Knee valgus</strong>, the inward collapse of the knee during landing or squatting (also seen as 'knock knees'), increases ACL strain and is a risk factor for noncontact ACL injury, especially in female athletes who tend to land with greater valgus and less knee flexion. Neuromuscular training programs that teach athletes to land softly with bent knees and aligned hips have reduced ACL injuries by roughly half in some studies." },
         { skill: { label: "Skill: Spot the Valgus", text: "Watch a landing or squat from the front. If the knee drifts inward past the big toe, look up the chain: weak hip abductors and external rotators, limited ankle dorsiflexion, or poor control are the usual causes. Cues like 'knees over toes' and 'spread the floor' target the hip." } },
         { key: "Moving the knee past the toes in a squat is <strong>not</strong> inherently dangerous. It increases knee torque but reduces hip and low back torque, and most healthy people need it for deep movements such as stair climbing. The goal is balanced loading, not avoidance." },
+        // visuals:begin s103
+        { svg: "bars; title=Knee loads (× body weight); y=× body weight; data=Standing:0.5:#2E6BC6, Walking:2.5:#C99700, Stairs/(patellofemoral):3:#C99700, Deep squat:7:#C0392B; max=8", caption: "Approximate knee joint forces: they rise steeply with deeper flexion and activity." },
+        // visuals:end s103
         { recap: [
           "Describe tibiofemoral and patellofemoral forces during common activities.",
           "Explain knee valgus and why it raises ACL injury risk.",
@@ -83,6 +95,10 @@ export default {
           ["Iliotibial band syndrome", "Repetitive flexion and extension in runners", "Lateral knee pain"],
         ]),
         { trap: "The ACL is rarely injured by a direct hit. Most ACL tears occur without contact, during a quick stop, cut, or awkward landing. That is why prevention is built around landing mechanics and neuromuscular control rather than protective gear." },
+        // visuals:begin s104
+        { figId: "knee-injury", caption: "ACL and PCL injuries and the meniscus: the 'unhappy triad' injures the ACL, MCL, and medial meniscus." },
+        { figId: "tibia-fibula", caption: "Osgood–Schlatter disease: the tibial tuberosity." },
+        // visuals:end s104
         { recap: [
           "Describe the mechanism and signs of ACL, MCL, PCL, and meniscus injuries.",
           "Distinguish patellofemoral pain syndrome from patellar tendinopathy.",

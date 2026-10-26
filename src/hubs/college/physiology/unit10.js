@@ -20,6 +20,12 @@ export default {
           ["Blood viscosity", "Thicker blood (high hematocrit), higher resistance"],
         ] } },
         { key: "Total <strong>cross-sectional area</strong> is greatest in the capillaries, so blood velocity is <em>slowest</em> there. That is a good design: slow flow gives time for exchange. The aorta, though narrow in total area, carries blood the fastest." },
+        // visuals:begin s101
+        { figId: "artery-vein", caption: "Arteries are thick-walled and elastic; veins are thinner and have valves." },
+        { figId: "capillary-types", caption: "Continuous, fenestrated, and sinusoidal capillaries." },
+        { figId: "capillary-exchange", caption: "Capillary exchange: hydrostatic pressure pushes fluid out, and osmotic pressure pulls it back." },
+        { figId: "vein-pump", caption: "The skeletal muscle pump pushes venous blood toward the heart." },
+        // visuals:end s101
         { recap: [
           "Describe the structure and role of each vessel type.",
           "State F = ΔP/R and explain why radius dominates resistance.",
@@ -45,6 +51,11 @@ export default {
           ["ANP (atrial natriuretic peptide)", "Released when the atria are stretched; promotes Na⁺ and water loss; lowers pressure"],
         ] } },
         { trap: "Pressure is <strong>not</strong> the same as flow. A patient can have a normal pressure while cardiac output is low, if resistance has risen to compensate. Always ask which variable moved." },
+        // visuals:begin s102
+        { figId: "bp-graph", caption: "Arterial pressure through the cardiac cycle: systolic, diastolic, pulse pressure, and MAP." },
+        { figId: "bp-measure", caption: "Measuring blood pressure with a cuff and stethoscope." },
+        { figId: "bp-relationships", caption: "Pressure falls along the vascular tree from the aorta to the vena cava." },
+        // visuals:end s102
         { recap: [
           "Define systolic, diastolic, pulse pressure, and MAP, and compute MAP.",
           "Trace the baroreceptor reflex after a fall in pressure.",
@@ -66,6 +77,11 @@ export default {
           ["Skin", "About 5%", "Rises for cooling, then falls at maximal effort"],
         ] } },
         { p: "During exercise, <strong>sympathetic vasoconstriction</strong> shuts down blood flow to the gut and kidneys while <strong>local metabolic vasodilation</strong> opens the muscle vessels, redistributing a much larger cardiac output. The <strong>skeletal muscle pump</strong> (contraction squeezes veins, valves keep blood moving toward the heart) and the <strong>respiratory pump</strong> increase venous return. Mean arterial pressure rises modestly (systolic rises; diastolic stays near constant or falls slightly) even though total peripheral resistance falls." },
+        // visuals:begin s103
+        { figId: "baroreflex", caption: "The baroreceptor reflex adjusts heart rate and vessel tone to keep blood pressure steady." },
+        { figId: "raas-pathway", caption: "The renin–angiotensin–aldosterone system raises blood pressure and volume." },
+        { figId: "blood-distribution", caption: "Distribution of cardiac output at rest: the muscles' share rises greatly in exercise." },
+        // visuals:end s103
         { recap: [
           "Explain active hyperemia and autoregulation.",
           "Describe how blood flow is redistributed during exercise.",
@@ -92,6 +108,13 @@ export default {
           ["Hemorrhagic", "Blood loss"],
         ] } },
         { p: "<strong>Hemostasis</strong> stops bleeding in three steps: <strong>vascular spasm</strong>, a <strong>platelet plug</strong>, and the <strong>coagulation cascade</strong>, which converts fibrinogen to fibrin to form a stable clot. Vitamin K is needed to make several clotting factors, and warfarin works by blocking its action. Aspirin inhibits platelet aggregation." },
+        // visuals:begin s104
+        { figId: "blood-composition", caption: "Blood: plasma, the buffy coat (white cells and platelets), and red cells (the hematocrit)." },
+        { figId: "hemopoiesis", caption: "All blood cells arise from bone marrow stem cells." },
+        { figId: "hemoglobin", caption: "Hemoglobin: four globin chains, each with an iron-containing heme." },
+        { figId: "clotting", caption: "Hemostasis: platelet plug and fibrin clot." },
+        { figId: "abo", caption: "ABO blood groups." },
+        // visuals:end s104
         { recap: [
           "List the components of blood and the function of each.",
           "Define hematocrit and explain the control of erythropoiesis.",
@@ -112,6 +135,12 @@ export default {
           ["Memory cells", "Provide faster, stronger responses on re-exposure"],
         ] } },
         { p: "<strong>Vaccines</strong> work by creating memory cells without the disease. The cardinal signs of <strong>inflammation</strong> are redness, heat, swelling, and pain (and loss of function). Very hard exercise sits at an interesting boundary: moderate regular exercise tends to enhance immune function, while very heavy exertion without recovery can briefly suppress it (the 'open window' idea)." },
+        // visuals:begin s105
+        { figId: "inflammation", caption: "The inflammatory response (innate immunity)." },
+        { figId: "antibody", caption: "An antibody: two heavy and two light chains with antigen-binding tips." },
+        { figId: "clonal-selection", caption: "Clonal selection of B cells." },
+        { figId: "antibody-response", caption: "Primary and secondary antibody responses: the basis of vaccines." },
+        // visuals:end s105
         { recap: [
           "Contrast innate and adaptive immunity.",
           "Match immune cells with their roles.",

@@ -19,6 +19,10 @@ export default {
         { p: "A receptor tells the brain four things: the <strong>modality</strong> (what kind of stimulus, set by <em>which pathway</em> is activated, the 'labeled line' principle), the <strong>location</strong> (which receptive field), the <strong>intensity</strong> (firing frequency and number of receptors recruited), and the <strong>duration</strong>." },
         { p: "<strong>Adaptation</strong> is the decline of firing during a constant stimulus. <strong>Phasic receptors</strong> adapt quickly and report <em>changes</em> (the feel of your shirt vanishes within minutes). <strong>Tonic receptors</strong> adapt slowly or not at all and report ongoing conditions (pain, joint position, blood pressure)." },
         { trap: "Pain receptors adapt very little by design. If your body stopped reporting a burn after a few seconds, you would simply keep your hand on the stove." },
+        // visuals:begin s61
+        { figId: "receptor-types", caption: "Sensory receptors by type of stimulus." },
+        { svg: "plot; title=Phasic receptor (adapts); x=Time during stimulus; y=Firing rate; xlim=0:10; ylim=0:100; xticks=0; yticks=0; line=0,0 0.5,95 2,40 4,10 10,0 | #C0392B | Phasic; line=0,0 0.5,90 2,80 6,72 10,70 | #002855 | Tonic", caption: "Phasic receptors adapt quickly and signal change; tonic receptors keep firing and signal ongoing conditions." },
+        // visuals:end s61
         { recap: [
           "Define sensory transduction and receptor potential.",
           "List the receptor types and what each detects.",
@@ -38,6 +42,10 @@ export default {
         { p: "<strong>Nociceptors</strong> trigger two kinds of pain. <strong>Fast pain</strong> is sharp, well-localized, and carried by myelinated A-delta fibers. <strong>Slow pain</strong> is dull, aching, poorly localized, and carried by unmyelinated C fibers. <strong>Referred pain</strong> occurs when visceral pain is felt at a distant skin location because both inputs converge on the same spinal neurons; the classic example is heart pain felt in the left arm and jaw." },
         { p: "Pain is modulated, not just transmitted. The <strong>gate control theory</strong> says that touch input can inhibit pain transmission in the spinal cord, which is why rubbing a bumped elbow helps. <strong>Endorphins</strong> released in descending pathways inhibit pain signals, and opioid drugs mimic them." },
         { key: "Which fibers carry what: <strong>fast pain</strong> uses myelinated A-delta fibers; <strong>slow pain</strong> uses unmyelinated C fibers. Myelin and diameter explain the speed difference, and that is why you feel a sharp sting <em>first</em>, then the throb." },
+        // visuals:begin s62
+        { figId: "ascending-pathways", caption: "Ascending pathways: the dorsal columns carry fine touch and proprioception; the spinothalamic tract carries pain and temperature." },
+        { figId: "referred-pain", caption: "Referred pain: visceral pain felt at a distant skin site." },
+        // visuals:end s62
         { recap: [
           "Contrast the dorsal column and spinothalamic pathways.",
           "Explain referred pain and give an example.",
@@ -62,6 +70,11 @@ export default {
         { p: "Phototransduction is wonderfully backward. In the dark, photoreceptors are <em>depolarized</em> and continuously release glutamate. Light activates the visual pigment (rhodopsin in rods), which triggers a G protein cascade that <em>closes</em> Na⁺ channels, hyperpolarizing the cell and <em>reducing</em> glutamate release. The signal then passes from photoreceptors to bipolar cells to ganglion cells, whose axons form the <strong>optic nerve</strong>. Vitamin A is needed to make the pigment, which is why deficiency causes night blindness." },
         { p: "Cones come in three types (roughly blue, green, and red sensitive); color is computed by comparing their outputs. <strong>Red–green color blindness</strong> results from a missing or altered cone pigment gene on the X chromosome, so it is much more common in males." },
         { p: "At the <strong>optic chiasm</strong> fibers from the nasal half of each retina cross, so the right visual cortex receives the <em>left</em> visual field from both eyes. Damage to the optic nerve before the chiasm blinds one eye; damage after it removes half the visual field in both eyes." },
+        // visuals:begin s63
+        { figId: "eye", caption: "The eye: the cornea and lens focus light on the retina; the fovea gives the sharpest vision." },
+        { figId: "rods-cones", caption: "Rods (dim light) and cones (color and detail) in the retina." },
+        { figId: "pupil", caption: "The iris and pupil: autonomic control of pupil size." },
+        // visuals:end s63
         { recap: [
           "Trace the path of light and explain accommodation.",
           "Compare myopia, hyperopia, presbyopia, and astigmatism.",
@@ -81,6 +94,12 @@ export default {
         ] } },
         { p: "The <strong>vestibular apparatus</strong> detects balance. The <strong>semicircular canals</strong> sense rotation (angular acceleration) and the <strong>utricle and saccule</strong> sense linear acceleration and head position relative to gravity, again using hair cells. Spinning and then stopping leaves the fluid in the canals still moving, and the resulting mismatch with vision produces dizziness." },
         { trap: "Hair cells in the human cochlea do <strong>not</strong> regenerate. Noise-induced hearing loss is permanent, so the earbud volume you pick today is the hearing you get at 50." },
+        // visuals:begin s64
+        { figId: "ear", caption: "The outer, middle, and inner ear: the ossicles pass vibrations from the eardrum to the cochlea." },
+        { figId: "cochlea", caption: "The cochlea: pressure waves move the basilar membrane." },
+        { figId: "hair-cell", caption: "Hair cells in the organ of Corti convert bending into an electrical signal." },
+        { figId: "semicircular", caption: "The semicircular canals and the otolith organs detect head rotation and linear acceleration." },
+        // visuals:end s64
         { recap: [
           "Trace sound from the pinna to the auditory nerve.",
           "Explain how pitch and loudness are coded.",
@@ -95,6 +114,10 @@ export default {
         { p: "Taste and smell are chemical senses. <strong>Taste buds</strong> contain receptor cells for five basic tastes: <strong>sweet, sour, salty, bitter, and umami</strong> (savory). Sour is detected through H⁺, and salty through Na⁺ entering the cell; sweet, bitter, and umami use G protein–coupled receptors. Bitter is the most numerous receptor family, a likely evolutionary alarm for toxins." },
         { p: "<strong>Olfaction</strong> uses roughly 400 types of olfactory receptors on neurons in the nasal epithelium. Axons pass through the cribriform plate to the olfactory bulb. Smell is unusual: its information reaches the cortex and the limbic system <strong>without relaying through the thalamus</strong>, which helps explain why odors trigger such vivid memories and emotions. Olfactory neurons are among the few neurons that regenerate throughout life." },
         { key: "What we call 'flavor' is mostly smell. Pinch your nose while eating jelly beans, and you can taste only sweetness; let go, and the cherry arrives. This is why food seems bland when you have a cold." },
+        // visuals:begin s65
+        { figId: "tongue", caption: "The tongue and the taste buds." },
+        { figId: "olfaction", caption: "Olfaction: odor molecules bind receptors in the olfactory epithelium; signals go to the olfactory bulb and cortex." },
+        // visuals:end s65
         { recap: [
           "List the five basic tastes and how they are detected.",
           "Describe the olfactory pathway and why smell evokes memory.",

@@ -28,6 +28,10 @@ export default {
         ]),
         { worked: { label: "Worked Example 1", q: "An athlete is 1.80 m tall and weighs 90 kg. What is the BMI, and why might it mislead?", a: "BMI = 90 ÷ (1.80)² = 90 ÷ 3.24 = <strong>27.8</strong>, in the 'overweight' category. If the athlete is a lean, muscular rugby player with 12% body fat, BMI misclassifies them because it cannot separate muscle from fat. Body composition measurement (skinfolds, DEXA) and waist circumference give a better picture." } },
         { key: "<strong>Where fat is stored matters</strong>. Visceral (abdominal) fat around the organs is strongly linked to insulin resistance, hypertension, and cardiovascular disease, while subcutaneous fat in the hips and thighs carries less risk. Waist circumference and waist-to-height ratio (aim for under 0.5) capture it better than BMI." },
+        // visuals:begin s101
+        { svg: "bars; title=BMI categories; y=BMI; data=Underweight (<18.5):18:#C99700, Normal (18.5–24.9):22:#2E7D32, Overweight (25–29.9):27:#E67E22, Obesity (≥30):33:#C0392B; max=38", caption: "BMI categories: weight (kg) ÷ height² (m²)." },
+        { figId: "osteoporosis-spine", caption: "DEXA measures bone density as well as fat and lean mass." },
+        // visuals:end s101
         { recap: [
           "List the methods of measuring body composition and their limits.",
           "Calculate BMI and interpret categories.",
@@ -51,6 +55,9 @@ export default {
         { p: "<strong>Weight gain</strong> or muscle building needs a modest surplus of about 250–500 kcal/day (more is stored as fat), progressive resistance training, protein of 1.6–2.2 g/kg, and patience: a lean gain of 0.25–0.5 kg per week for beginners and less as training experience grows. Energy-dense foods (nuts, oils, smoothies, dried fruit) help people with high energy needs." },
         { p: "<strong>Weight-loss maintenance</strong> is the harder phase: people who keep weight off tend to eat regular meals including breakfast, self-weigh often, stay physically active (about 200–300 minutes per week), and keep a consistent eating pattern. The body defends its weight through hormones and adaptive thermogenesis, so planning for maintenance matters as much as the initial loss." },
         { trap: "Spot reduction is a myth. Doing sit-ups does not selectively burn belly fat; fat is mobilized from all over the body based on genetics and hormones. Exercise improves health and aids weight management, but diet changes usually drive most of the energy deficit." },
+        // visuals:begin s102
+        { svg: "plot; title=Energy balance and weight; x=Weeks; y=Weight change (kg); xlim=0:12; ylim=-6:6; xticks=0,4,8,12; yticks=-4,0,4; line=0,0 4,-1.8 8,-3.2 12,-4.1 | #2E7D32 | −500 kcal/day; line=0,0 4,1.8 8,3.6 12,5.4 | #C0392B | +500 kcal/day; hline=0 Weight stable | #888", caption: "A moderate daily deficit or surplus changes weight slowly and steadily." },
+        // visuals:end s102
         { recap: [
           "State a safe weight-loss rate and key strategies.",
           "Describe a plan for gaining lean mass.",
@@ -75,6 +82,10 @@ export default {
           ["Performance", "Poor training adaptation, slow recovery, injury, fatigue"],
         ]),
         { key: "<strong>Loss of a regular menstrual cycle is not a sign of 'training hard'.</strong> It is a warning that energy intake is too low for the energy demands. Amenorrhea (absence of periods for three months or more) in athletes needs medical evaluation, and bone loss may not fully reverse." },
+        // visuals:begin s103
+        { svg: "bars; title=Energy availability (kcal/kg FFM/day); y=kcal/kg FFM/day; data=Optimal:45:#2E7D32, Threshold:30:#C99700, Example athlete:22:#C0392B; max=50", caption: "Energy availability below about 30 kcal/kg FFM/day risks RED-S." },
+        { figId: "osteoporosis-spine", caption: "Low energy availability leads to low bone density and stress fractures." },
+        // visuals:end s103
         { recap: [
           "Calculate energy availability and state the thresholds.",
           "Define RED-S and the older female athlete triad.",
@@ -96,6 +107,9 @@ export default {
         { p: "<strong>Warning signs</strong> include preoccupation with weight and food, rigid rituals, avoiding team meals, frequent trips to the bathroom after eating, repeated stress fractures, menstrual changes, mood changes, and performance decline despite increased training. The approach is a <strong>team</strong>: a sports dietitian, physician, and mental health professional, with coaches trained to avoid weight-focused comments. Early treatment improves outcomes." },
         { p: "<strong>Weight-class sports</strong> bring a related risk: <strong>rapid weight cutting</strong> by fluid and food restriction, saunas, diuretics, or sweating. Dehydration of 3–5% (or more) in the final days reduces strength and endurance, impairs thermoregulation, and has led to deaths in wrestlers. Healthy practices include setting a weight class based on a measured minimum healthy weight (with body fat not below about 5% in males and 12% in females in most sport guidelines), losing weight gradually over weeks to months, and limiting acute weight cuts to a small percentage with proper rehydration time." },
         { skill: { label: "Skill: Respond to a Concern", text: "If you suspect an athlete is struggling, speak privately, use 'I' statements about specific observations (such as 'I've noticed you are skipping meals and seem tired'), avoid commenting on weight or shape, listen, and help them reach a qualified professional. Do not try to diagnose or to solve it alone." } },
+        // visuals:begin s104
+        { figId: "fracture-repair", caption: "Repeated stress fractures and menstrual changes are warning signs of RED-S." },
+        // visuals:end s104
         { recap: [
           "Describe anorexia, bulimia, binge eating disorder, orthorexia, and muscle dysmorphia.",
           "List warning signs in athletes and the team-based approach.",

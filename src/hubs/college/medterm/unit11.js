@@ -38,6 +38,14 @@ export default {
           ["pancreat/o", "pancreas", "<em>pancreatitis</em>"],
         ] } },
         { trap: "<strong>Enter/o</strong> means the small intestine, and <strong>col/o</strong> means the colon (large intestine). A <em>colectomy</em> removes part of the colon; <em>enteritis</em> is inflammation of the small intestine." },
+        // visuals:begin s111
+        { figId: "digestive", caption: "The digestive tract." },
+        { figId: "esophagus", caption: "The esophagus." },
+        { figId: "stomach", caption: "The stomach." },
+        { figId: "small-intestine", caption: "The small intestine: duodenum, jejunum, ileum." },
+        { figId: "large-intestine", caption: "The large intestine (colon)." },
+        { figId: "accessory-organs", caption: "The liver, gallbladder, and pancreas." },
+        // visuals:end s111
         { recap: [
           "Name the organs of the GI tract in order and the accessory organs.",
           "Recall the roots for mouth, stomach, small intestine, colon, rectum, liver, and gallbladder.",
@@ -77,6 +85,12 @@ export default {
           ["Colostomy", "Artificial opening from the colon to the abdominal wall"],
           ["Liver function tests (LFTs)", "Blood tests that reflect liver health"],
         ] } },
+        // visuals:begin s112
+        { p: "{{wp:gastr/o=stomach|-itis=inflammation}} <strong>Gastritis</strong>" },
+        { p: "{{wp:chol/e=bile|lith/o=stone|-iasis=condition}} <strong>Cholelithiasis</strong>" },
+        { p: "{{wp:col/o=colon|-scopy=visual exam}} <strong>Colonoscopy</strong>" },
+        { p: "{{wp:append/o=appendix|-itis=inflammation}} <strong>Appendicitis</strong>" },
+        // visuals:end s112
         { recap: [
           "Distinguish GERD, peptic ulcer, and gastritis.",
           "Distinguish Crohn disease from ulcerative colitis.",
@@ -103,6 +117,9 @@ export default {
           ["Obesity", "Excess body fat that raises health risk"],
         ] } },
         { key: "<strong>Anabolism</strong> builds tissue (muscle protein synthesis) and uses energy, while <strong>catabolism</strong> breaks molecules down and releases energy. Exercise is mostly a catabolic event, and recovery is when anabolism rebuilds." },
+        // visuals:begin s113
+        { figId: "anabolic-catabolic", caption: "Metabolism: catabolism releases energy; anabolism builds molecules." },
+        // visuals:end s113
         { recap: [
           "Distinguish anabolism from catabolism.",
           "Define glycogen, BMR, and BMI.",
@@ -140,6 +157,11 @@ export default {
           ["Urgency / frequency", "Strong need to void; frequent voiding"],
         ] } },
         { trap: "The <strong>ureters</strong> carry urine from the kidneys to the bladder (two of them), while the <strong>urethra</strong> carries urine from the bladder out of the body (one). The names differ by only one letter, so check the spelling before you answer." },
+        // visuals:begin s114
+        { figId: "kidney", caption: "The kidney." },
+        { figId: "nephron-flow", caption: "The nephron." },
+        { figId: "bladder", caption: "The bladder and urethra." },
+        // visuals:end s114
         { recap: [
           "Trace the path of urine from the kidney out of the body.",
           "Recall the roots for kidney, bladder, ureter, and urethra.",
@@ -173,6 +195,13 @@ export default {
           ["Kidney transplant", "Surgical placement of a donor kidney"],
         ] } },
         { worked: { label: "Worked Example 1", q: "A patient has burning with urination, urinary frequency, and cloudy urine. What are the likely diagnosis and the term for the burning?", a: "These findings suggest a <strong>urinary tract infection</strong>, often <strong>cystitis</strong> when it involves the bladder. Burning or painful urination is <strong>dysuria</strong>, and cloudy urine can signal <strong>pyuria</strong>." } },
+        // visuals:begin s115
+        { p: "{{wp:pyel/o=renal pelvis|nephr/o=kidney|-itis=inflammation}} <strong>Pyelonephritis</strong>" },
+        { p: "{{wp:hemat/o=blood|-uria=urine}} <strong>Hematuria</strong>" },
+        { p: "{{wp:dys-=painful|-uria=urination}} <strong>Dysuria</strong>" },
+        { p: "{{wp:cyst/o=bladder|-itis=inflammation}} <strong>Cystitis</strong>" },
+        { figId: "ureter", caption: "Kidney stones in the ureter." },
+        // visuals:end s115
         { recap: [
           "Distinguish cystitis from pyelonephritis.",
           "Explain what BUN, creatinine, and GFR show about kidney function.",

@@ -18,6 +18,13 @@ export default {
         ] } },
         { p: "<strong>Valves</strong> are passive: they open and close because of pressure differences, never because of muscle. The first heart sound, <strong>'lub' (S1)</strong>, is the closing of the AV valves at the start of ventricular contraction. The second, <strong>'dub' (S2)</strong>, is the closing of the semilunar valves at the start of relaxation. A <strong>murmur</strong> is an abnormal sound from a leaky (regurgitant) or narrowed (stenotic) valve." },
         { p: "The heart muscle itself is fed by the <strong>coronary arteries</strong>. Most coronary flow occurs during <em>diastole</em>, because the contracting ventricle squeezes its own vessels shut in systole. A blocked coronary artery produces <strong>myocardial infarction (heart attack)</strong>." },
+        // visuals:begin s91
+        { figId: "blood-flow-heart", caption: "Blood flow through the heart and the two circuits." },
+        { figId: "heart-valves", caption: "The four heart valves." },
+        { figId: "heart-internal", caption: "The internal anatomy of the heart." },
+        { figId: "heart-wall", caption: "The layers of the heart wall." },
+        { figId: "coronary-occlusion", caption: "The coronary arteries; a blockage causes a heart attack." },
+        // visuals:end s91
         { recap: [
           "Trace blood through the heart, naming each valve.",
           "Explain why the left ventricle is thicker.",
@@ -45,6 +52,13 @@ export default {
           ["T wave", "Ventricular repolarization"],
         ] } },
         { key: "An <strong>ECG</strong> records the <em>electrical</em> activity of the heart from the body surface, not the mechanical pumping. Common patterns: a missing P wave suggests <strong>atrial fibrillation</strong>; a widened QRS suggests conduction delay in the ventricles; ST elevation suggests <strong>myocardial infarction</strong>; tall peaked T waves suggest <strong>hyperkalemia</strong>." },
+        // visuals:begin s92
+        { figId: "heart-conduction", caption: "The conduction system: SA node, AV node, bundle branches, and Purkinje fibers." },
+        { svg: "plot; title=SA node pacemaker potential; x=Time (ms); y=Membrane potential (mV); xlim=0:800; ylim=-70:30; xticks=0,400,800; yticks=-60,-40,0,20; line=0,-60 100,-58 250,-52 350,-45 400,-40 440,-10 470,15 540,0 600,-30 650,-58 700,-60 760,-52 800,-45 | #C0392B; hline=-40 Threshold | #2E7D32", caption: "Pacemaker cells drift slowly to threshold with no stable resting potential." },
+        { svg: "plot; title=Ventricular action potential; x=Time (ms); y=Membrane potential (mV); xlim=0:400; ylim=-100:50; xticks=0,100,200,300,400; yticks=-90,0,30; line=0,-90 5,-90 10,30 40,25 100,20 200,15 250,0 300,-60 340,-90 400,-90 | #C0392B; band=40,250 Plateau (Ca²⁺ in) | #FFF1C9", caption: "The plateau (Ca²⁺ entry) keeps the ventricle contracting for about 200 ms." },
+        { svg: "plot; title=ECG (one heartbeat); x=Time (s); y=Voltage (mV); xlim=0:0.8; ylim=-0.5:1.5; xticks=0,0.2,0.4,0.6,0.8; yticks=0,1; line=0,0 0.05,0 0.1,0.15 0.15,0 0.2,0 0.25,-0.1 0.28,1.2 0.31,-0.3 0.36,0 0.5,0 0.55,0.3 0.62,0 0.8,0 | #C0392B; text=0.1,0.3 P | middle; text=0.28,1.35 QRS | middle; text=0.55,0.45 T | middle", caption: "The ECG: P wave (atrial depolarization), QRS complex (ventricular depolarization), T wave (ventricular repolarization)." },
+        { figId: "ecg-electrodes", caption: "Standard ECG electrode placement." },
+        // visuals:end s92
         { recap: [
           "Order the conduction pathway of the heart.",
           "Explain why the cardiac action potential has a plateau.",
@@ -64,6 +78,11 @@ export default {
         ] } },
         { p: "Three numbers describe the volume story. <strong>End-diastolic volume (EDV)</strong> is the volume in the ventricle when it is full (about 120–130 mL). <strong>End-systolic volume (ESV)</strong> is what remains after contraction (about 50–60 mL). <strong>Stroke volume (SV)</strong> is the difference: SV = EDV − ESV, about 70 mL. The <strong>ejection fraction (EF)</strong> is SV/EDV, normally about 55–70%. A low EF signals a weak pump." },
         { worked: { label: "Worked Example 1", q: "A ventricle has an EDV of 140 mL and an ESV of 56 mL. Find the stroke volume and ejection fraction.", a: "SV = EDV − ESV = 140 − 56 = <strong>84 mL</strong>. EF = SV ÷ EDV = 84 ÷ 140 = <strong>0.60, or 60%</strong>. This is a normal ejection fraction." } },
+        // visuals:begin s93
+        { figId: "heart-sounds", caption: "The cardiac cycle with the ECG and heart sounds S1 and S2." },
+        { figId: "flow-relaxed", caption: "Diastole: the ventricles fill." },
+        { figId: "flow-contracted", caption: "Systole: the ventricles eject blood." },
+        // visuals:end s93
         { recap: [
           "Describe the four phases of the cardiac cycle with valve states.",
           "Calculate stroke volume and ejection fraction.",
@@ -90,6 +109,11 @@ export default {
         { p: "<strong>During exercise</strong>, HR rises mainly through withdrawal of vagal tone and then sympathetic activation. SV rises through increased preload (the muscle pump and venoconstriction increase venous return) and increased contractility, and it plateaus at about 40–60% of maximal effort in untrained people, which means that beyond that point further increases in CO come mainly from heart rate. <strong>Maximum heart rate</strong> is about 220 minus age (a rough estimate), and it does not rise with training." },
         { p: "Endurance training lowers resting and submaximal heart rate (higher vagal tone) and increases <strong>stroke volume</strong>, because training enlarges the ventricular chamber and raises plasma volume. That is why a trained athlete may have a resting heart rate in the 40s: each beat does more work." },
         { trap: "Endurance training raises <strong>maximal cardiac output</strong> because of a higher stroke volume, <em>not</em> a higher maximal heart rate. Max HR is set by age and is unchanged or slightly lower with training." },
+        // visuals:begin s94
+        { figId: "cardiac-output-factors", caption: "Cardiac output = heart rate × stroke volume, and the factors that affect each." },
+        { figId: "stroke-volume", caption: "Preload, contractility, and afterload determine stroke volume." },
+        { svg: "plot; title=Frank–Starling law; x=End-diastolic volume (preload); y=Stroke volume; xlim=0:10; ylim=0:100; xticks=0; yticks=0; line=0,5 2,30 4,55 6,75 8,88 10,92 | #C0392B | Rest; line=0,12 2,45 4,72 6,92 8,100 10,104 | #002855 | Exercise", caption: "More filling gives a stronger contraction; sympathetic stimulation raises the whole curve." },
+        // visuals:end s94
         { recap: [
           "Calculate cardiac output and describe how HR and SV are controlled.",
           "State and explain the Frank–Starling law.",
@@ -110,6 +134,10 @@ export default {
           ["Hypertrophic cardiomyopathy", "Genetic thickening of the septum", "A leading cause of sudden death in young athletes"],
         ] } },
         { p: "Athletes often develop the <strong>athlete's heart</strong>: enlarged chambers and thicker walls with a low resting heart rate. It is a normal, benign adaptation, and clinicians distinguish it from pathologic hypertrophy by function and reversibility." },
+        // visuals:begin s95
+        { figId: "congenital-defects", caption: "Congenital heart defects." },
+        { figId: "coronary-occlusion", caption: "A blocked coronary artery starves heart muscle: myocardial infarction." },
+        // visuals:end s95
         { recap: [
           "Describe major cardiac disorders and their mechanisms.",
           "Distinguish athlete's heart from pathologic hypertrophy.",

@@ -19,6 +19,12 @@ export default {
         { p: "Between adjacent vertebral bodies sits an <strong>intervertebral disc</strong>: a tough outer ring (<strong>annulus fibrosus</strong>) surrounding a gel-like center (<strong>nucleus pulposus</strong>). Discs act as shock absorbers and allow movement between vertebrae. The nucleus is about 80% water in young adults and dries out with age, so people really do get shorter during the day (up to about 1–2 cm, regained overnight) and with age." },
         { p: "Small <strong>facet (zygapophyseal) joints</strong> at the back of each vertebra guide and limit movement. Their orientation determines the direction of motion: lumbar facets face sideways, which allows flexion and extension but resists rotation, while thoracic facets allow more rotation." },
         { key: "<strong>Posterior bulge of a disc</strong>: forward bending (flexion), especially under load, squeezes the nucleus backward toward the spinal canal, which is why herniations most often occur in the <strong>posterolateral</strong> direction at L4–L5 and L5–S1, and why repeated loaded flexion is a risk factor for disc injury." },
+        // visuals:begin s121
+        { figId: "vertebral-column", caption: "The curves of the vertebral column: cervical lordosis, thoracic kyphosis, lumbar lordosis, and the sacrum." },
+        { figId: "vertebra", caption: "A typical vertebra: body, arch, and processes." },
+        { figId: "disk", caption: "The intervertebral disc: annulus fibrosus and nucleus pulposus." },
+        { figId: "herniated-disk", caption: "A herniated disc presses on a nerve root." },
+        // visuals:end s121
         { recap: [
           "Count the vertebrae by region and name the four spinal curves.",
           "Describe regional differences in spinal movement.",
@@ -41,6 +47,11 @@ export default {
         { p: "The <strong>core</strong> is the group of muscles that stabilizes the spine and pelvis, a cylinder with the diaphragm as the roof, the pelvic floor as the base, the abdominals in front, the spinal muscles behind, and the obliques around the sides. Its primary job is <strong>stability, not movement</strong>: it keeps the spine rigid so that force can pass efficiently between the legs and the arms. A sprinter or a thrower with a weak core wastes power." },
         { p: "<strong>Intra-abdominal pressure</strong> (from a breath hold and abdominal bracing, the Valsalva maneuver) stiffens the trunk and unloads the spine in heavy lifts, which is why powerlifters brace before a squat. The cost is a spike in blood pressure, so people with cardiovascular disease should be careful with it." },
         { trap: "Sit-ups are not the best way to train the core for stability. They train the rectus abdominis as a flexor, with substantial disc loading. Exercises such as planks, side planks, and bird-dogs train the trunk to <strong>resist</strong> motion, which is closer to what the core does in sport and daily life." },
+        // visuals:begin s122
+        { figId: "abdominal-muscles", caption: "The abdominal muscles: rectus abdominis, obliques, and transversus abdominis." },
+        { figId: "back-muscles", caption: "The erector spinae, multifidus, and thoracolumbar fascia." },
+        { figId: "diaphragm", caption: "The diaphragm and intra-abdominal pressure stiffen the trunk." },
+        // visuals:end s122
         { recap: [
           "List the muscle groups of the trunk and their actions.",
           "Define the core and explain why its main job is stability.",
@@ -63,6 +74,9 @@ export default {
         { p: "The research on posture and pain is humbler than many people think. Studies often find weak or inconsistent links between posture and pain, and variation in alignment is normal. The best posture is the <em>next</em> posture: changing positions regularly, and building the strength and endurance to hold a variety of positions comfortably, matters more than any ideal curve." },
         { p: "<strong>Lifting mechanics</strong>: keep the load close (to shorten the resistance arm), keep the spine in a neutral position, use the hips and knees, and avoid twisting while loaded. Bending the spine under load increases the compressive and shear forces on the discs. That said, spines are strong and adaptable, and brief, occasional flexion is not dangerous. Gradual exposure and conditioning makes the back more, not less, resilient." },
         { worked: { label: "Worked Example 1", q: "Why does holding a 10 kg box close to the chest put less load on the low back than holding it at arm's length?", a: "The box's weight acts at a distance from the lumbar spine. Torque equals force times the perpendicular distance, so holding it at arm's length increases the moment arm (perhaps 0.5 m instead of 0.15 m) and the erector spinae must create more torque. The compressive force on the discs rises accordingly. Keeping the load close shortens the lever." } },
+        // visuals:begin s123
+        { figId: "abnormal-curves", caption: "Postural deviations: scoliosis, kyphosis, and lordosis." },
+        // visuals:end s123
         { recap: [
           "Describe ideal static alignment and common postural deviations.",
           "Evaluate the evidence linking posture to pain.",
@@ -85,6 +99,10 @@ export default {
           ["Cauda equina syndrome", "Compression of the lumbar nerve roots", "Emergency: saddle numbness, bladder or bowel changes, bilateral leg weakness"],
         ]),
         { key: "<strong>Red flags</strong> in back pain (fever, unexplained weight loss, history of cancer, severe trauma, progressive neurologic deficits, and bladder or bowel changes) require urgent medical evaluation. Most back pain has no red flags and gets better with activity, reassurance, and graded exercise." },
+        // visuals:begin s124
+        { figId: "herniated-disk", caption: "Disc herniation, sciatica, and spinal stenosis." },
+        { figId: "lumbar", caption: "Spondylolysis and spondylolisthesis in the lumbar spine." },
+        // visuals:end s124
         { recap: [
           "Describe common back conditions and their features.",
           "Explain why stenosis hurts when walking and eases when bending forward.",

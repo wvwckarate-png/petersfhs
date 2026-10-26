@@ -19,6 +19,12 @@ export default {
         ]),
         { p: "<strong>Essential fatty acids</strong> are those the body cannot make: <strong>linoleic acid</strong> (omega-6) and <strong>alpha-linolenic acid</strong> (omega-3). The body can convert ALA to EPA and DHA only inefficiently, so eating fatty fish (about two servings per week) is a more reliable way to get them. Deficiency is rare but causes dry skin and poor wound healing." },
         { key: "<strong>Replace, don't just remove.</strong> The cardiovascular benefit of lowering saturated fat depends on what replaces it: unsaturated fats (olive oil, nuts, fish) help, while replacing it with refined carbohydrate does not." },
+        // visuals:begin s31
+        { mols: [["CCCCCCCCCCCCCCCC(=O)O", "Palmitic acid", "saturated (no double bonds)"], ["CCCCCCCC/C=C\\CCCCCCCC(=O)O", "Oleic acid", "monounsaturated (cis)"], ["CCCCC/C=C\\C/C=C\\CCCCCCCC(=O)O", "Linoleic acid", "omega-6"], ["CC/C=C\\C/C=C\\C/C=C\\CCCCCCCC(=O)O", "α-Linolenic acid", "omega-3"], ["CCCCCCCC/C=C/CCCCCCCC(=O)O", "Elaidic acid", "trans fat"]] },
+        { figId: "triglycerides", caption: "A triglyceride: glycerol with three fatty acids." },
+        { figId: "other-lipids", caption: "Phospholipids, cholesterol, and other lipids." },
+        { mol: "C[C@H](CCCC(C)C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C", caption: "Cholesterol: a sterol with four fused rings." },
+        // visuals:end s31
         { recap: [
           "Distinguish saturated, monounsaturated, polyunsaturated, and trans fats with food examples.",
           "Name the essential fatty acids and their sources.",
@@ -44,6 +50,11 @@ export default {
         ]),
         { p: "<strong>Dietary cholesterol</strong> has a smaller effect on blood cholesterol than saturated and trans fats for most people, because the liver compensates by making less. The liver makes about 1,000 mg per day itself. Soluble fiber, plant sterols, and unsaturated fat lower LDL, and <strong>regular aerobic exercise</strong> raises HDL modestly and lowers triglycerides. <strong>Statins</strong> lower LDL by blocking cholesterol synthesis in the liver." },
         { trap: "HDL is not a nutrient you can eat. 'Good' and 'bad' cholesterol are the same molecule in different carriers: it is the lipoprotein particle, and where it ends up, that matters." },
+        // visuals:begin s32
+        { figId: "lipid-absorption", caption: "Fat digestion and absorption: bile salts, micelles, chylomicrons, and the lacteal." },
+        { figId: "chylomicron", caption: "A chylomicron: triglycerides, cholesterol, and other lipids." },
+        { figId: "lipid-metabolism", caption: "Lipoprotein metabolism: LDL delivers cholesterol; HDL returns it." },
+        // visuals:end s32
         { recap: [
           "Trace fat digestion and absorption through chylomicrons.",
           "Compare the roles of LDL and HDL and state desirable blood lipid levels.",
@@ -65,6 +76,11 @@ export default {
         { p: "<strong>Endurance training</strong> shifts the crossover toward fat: more mitochondria, more capillaries, more fat-handling enzymes, and a higher ability to oxidize fat at a given pace, so glycogen is spared. Women generally oxidize slightly more fat than men during exercise. A fasted state increases fat oxidation, but studies have not shown that fasted training improves performance or fat loss over fed training when total energy is matched." },
         { worked: { label: "Worked Example 1", q: "A person runs for one hour burning 600 kcal, with 50% from fat. How many grams of fat were used?", a: "Fat energy = 0.5 × 600 = 300 kcal. At 9 kcal per gram, that is 300 ÷ 9 ≈ <strong>33 g of fat</strong>, about one third of an ounce. This is why exercise alone makes a smaller dent in body fat than many people hope: a kilogram of fat is about 7,700 kcal." } },
         { key: "<strong>Fat oxidation needs oxygen.</strong> It cannot happen without the mitochondria and aerobic conditions, and it releases energy more slowly than carbohydrate, which is why the body switches to carbohydrate as intensity rises and the demand for ATP outpaces what fat can supply." },
+        // visuals:begin s33
+        { figId: "fatty-acid-breakdown", caption: "Beta-oxidation of fatty acids." },
+        { svg: "plot; title=Fat oxidation vs. intensity; x=Exercise intensity (% VO₂ max); y=Fat oxidation (g/min); xlim=0:100; ylim=0:0.8; xticks=0,25,50,75,100; yticks=0,0.4; line=0,0.1 20,0.35 45,0.6 60,0.55 75,0.3 90,0.08 100,0.02 | #C0392B; vline=60 Fat max | #002855", caption: "Fat oxidation peaks at moderate intensity and falls as intensity rises." },
+        { svg: "bars; title=Energy stores in a lean 70 kg adult (kcal); y=kcal; data=Fat:60000:#C99700, Muscle protein:25000:#C0392B, Muscle glycogen:1600:#2E6BC6, Liver glycogen:360:#7A3FB8; max=65000", caption: "Even a lean person carries tens of thousands of kcal of fat but only about 2,000 kcal of carbohydrate." },
+        // visuals:end s33
         { recap: [
           "Trace fat from adipose tissue to beta-oxidation in muscle.",
           "Describe the relationship between exercise intensity and fuel use.",
@@ -85,6 +101,9 @@ export default {
         { p: "Fats help athletes by supplying essential fatty acids, fat-soluble vitamins (A, D, E, K), and energy density for those with high energy needs. Athletes rarely benefit from very low-fat diets (below about 20% of energy), which can lower testosterone and fat-soluble vitamin absorption." },
         { p: "<strong>High-fat and ketogenic diets</strong> (under about 50 g of carbohydrate per day) shift the body to rely on fat and ketone bodies. They can reduce body weight and improve blood glucose in some people with obesity and type 2 diabetes. For athletes, studies show that keto-adaptation increases fat oxidation but does not improve endurance performance and may impair high-intensity efforts because pyruvate dehydrogenase activity is reduced and the energy cost of the same speed is higher. <strong>Fat loading</strong> before an event does not improve performance either." },
         { skill: { label: "Skill: Read a Fat Label", text: "On a nutrition label, look at <strong>saturated fat</strong> and <strong>trans fat</strong> first; 5% of the Daily Value or less per serving is low and 20% or more is high. A food can claim '0 g trans fat' if it has under 0.5 g per serving, so checking the ingredient list for 'partially hydrogenated oils' catches the rest." } },
+        // visuals:begin s34
+        { mols: [["CC(=O)CC(=O)O", "Acetoacetate", "ketone body"], ["CC(O)CC(=O)O", "β-Hydroxybutyrate", "ketone body"]] },
+        // visuals:end s34
         { recap: [
           "State dietary fat guidelines.",
           "Explain why very low-fat diets are not ideal for athletes.",

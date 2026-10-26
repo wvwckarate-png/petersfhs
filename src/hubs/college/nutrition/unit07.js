@@ -19,6 +19,11 @@ export default {
         { p: "The body regulates water through <strong>thirst</strong> (triggered when plasma osmolarity rises by 1–2% or blood volume falls), <strong>ADH</strong> (vasopressin, which makes the kidneys retain water), and <strong>aldosterone</strong> (sodium and water retention). Urine color is a rough guide: pale straw is adequate, dark yellow suggests dehydration. Morning body weight is a more specific measure of day-to-day hydration." },
         { p: "The <strong>Adequate Intake</strong> for total water (from all drinks and foods) is about <strong>3.7 L/day for men and 2.7 L/day for women</strong>. About 20% typically comes from food (fruits, vegetables, soups). Coffee and tea count toward total fluid despite the mild diuretic effect of caffeine, since habitual users adapt." },
         { key: "<strong>Hydration status</strong> can be checked by body weight change, urine color, and urine specific gravity. A drop of more than 2% of body weight during exercise (1.5 kg for a 75 kg athlete) indicates meaningful fluid loss and is linked to impaired performance, especially in the heat." },
+        // visuals:begin s71
+        { figId: "water-distribution", caption: "Body water distribution: intracellular and extracellular fluid." },
+        { figId: "thirst", caption: "The thirst response." },
+        { figId: "adh", caption: "ADH tells the kidneys to retain water." },
+        // visuals:end s71
         { recap: [
           "State the body water percentages and the compartments.",
           "List sources and losses of water.",
@@ -39,6 +44,11 @@ export default {
         { p: "Dehydration reduces plasma volume, which cuts stroke volume and raises heart rate (<strong>cardiovascular drift</strong>) while limiting blood flow to the skin, so core temperature rises faster. Each additional percent of body weight lost raises heart rate by roughly 3–5 beats per minute and core temperature by about 0.15–0.25 °C at the same effort." },
         { worked: { label: "Worked Example 1", q: "An athlete weighs 70.0 kg before a run and 68.6 kg after, and drank 0.5 L during the run. How much did they sweat, and what percentage of body weight was lost?", a: "Weight loss = 70.0 − 68.6 = 1.4 kg, which is about 1.4 L of net fluid loss. Sweat = net loss + fluid drunk = 1.4 + 0.5 = <strong>1.9 L</strong> (assuming no urine). Percentage lost = 1.4 ÷ 70.0 = <strong>2%</strong>. Drinking about 1.5 L for each kilogram lost helps restore balance after exercise because some will be lost in urine." } },
         { trap: "More is not better. Drinking far beyond sweat loss does not enhance performance and can produce <strong>exercise-associated hyponatremia</strong>, especially in slower runners in long events who drink large amounts of plain water. 'Drink to thirst' works for most situations; planned drinking works when sweat loss is high and thirst is not a reliable guide." },
+        // visuals:begin s72
+        { svg: "plot; title=Dehydration and heart rate; x=Body weight lost (%); y=Heart rate increase (bpm); xlim=0:5; ylim=0:25; xticks=0,1,2,3,4,5; yticks=0,10,20; line=0,0 1,4 2,9 3,14 4,19 5,24 | #C0392B", caption: "Each 1% of body weight lost raises the heart rate by about 3–5 bpm at the same workload." },
+        { figId: "urine-color", caption: "Urine color is a quick hydration guide." },
+        { svg: "bars; title=Sweat rate (L/h); y=L per hour; data=Cool walk:0.3:#2E6BC6, Moderate run:1.0:#C99700, Hot marathon:2.0:#C0392B, Elite heat:3.0:#7A3FB8; max=3.4", caption: "Sweat rates vary from 0.3 to 3 L per hour." },
+        // visuals:end s72
         { recap: [
           "Describe sweat composition and typical sweat rates.",
           "State the effects of progressive dehydration on performance.",
@@ -57,6 +67,10 @@ export default {
         { p: "<strong>Sports drinks</strong> contain carbohydrate (6–8%), sodium (about 10–25 mmol/L), and sometimes potassium. Sodium helps absorption of glucose and water through SGLT1 and drives thirst, and carbohydrate supplies fuel in events over an hour. Water is adequate for exercise under an hour. Hypotonic and isotonic drinks empty faster from the stomach than very concentrated drinks (over about 10% carbohydrate), which can slow fluid delivery and cause gut distress." },
         { p: "Other drinks have their own place. <strong>Milk</strong> is an effective recovery drink because it contains protein, carbohydrate, and sodium. <strong>Caffeinated drinks</strong> contribute to hydration for habitual users. <strong>Alcohol</strong> impairs rehydration and recovery. <strong>Energy drinks</strong> combine caffeine and sugar and are not hydration drinks." },
         { skill: { label: "Skill: Build a Personal Hydration Plan", text: "Weigh yourself (nude or in dry clothing) before and after a typical workout in the same conditions, record fluid drunk and any bathroom use, and calculate the sweat rate in L/h. Then aim to drink about enough to keep the loss under 2%, and add sodium if sessions run long or you are a salty sweater." } },
+        // visuals:begin s73
+        { figId: "carb-digestion", caption: "Sodium and glucose are absorbed together by SGLT1, and water follows." },
+        { svg: "bars; title=Carbohydrate in drinks (%); y=% carbohydrate; data=Water:0:#2E6BC6, Sports drink:6:#2E7D32, Fruit juice:11:#C99700, Soda:11:#C0392B; max=13; unit=%", caption: "A 6–8% carbohydrate solution is absorbed quickly; stronger solutions slow gastric emptying." },
+        // visuals:end s73
         { recap: [
           "Give pre-, during-, and post-exercise hydration guidelines.",
           "Describe the composition and rationale of sports drinks.",
@@ -76,6 +90,10 @@ export default {
         { p: "<strong>Heat acclimatization</strong> over 7–14 days of exercise in the heat produces earlier and more sweating, lower sweat sodium, expanded plasma volume, a lower heart rate, and a lower core temperature at the same effort. Risk factors for heat illness include humidity, low fitness, poor sleep, illness or fever, certain drugs (stimulants, antihistamines), and a sudden change in climate. The <strong>wet bulb globe temperature (WBGT)</strong> index combines temperature, humidity, radiant heat, and wind to set safe activity limits." },
         { p: "<strong>Cold</strong> brings its own problems. Shivering uses carbohydrate, and cold-induced diuresis can dehydrate people who do not feel thirsty. Layering clothing, keeping dry, and eating enough energy are the basic precautions." },
         { key: "<strong>Cool first, transport second</strong>: exertional heat stroke becomes more dangerous the longer the core temperature stays high, so rapid cooling on site (cold-water immersion) is the highest-value intervention." },
+        // visuals:begin s74
+        { figId: "thermoregulation", caption: "The hypothalamus regulates body temperature." },
+        { figId: "skin-thermoreg", caption: "Skin blood flow and sweating release heat." },
+        // visuals:end s74
         { recap: [
           "Differentiate heat cramps, heat exhaustion, and heat stroke and name the treatment.",
           "Describe heat acclimatization and risk factors.",

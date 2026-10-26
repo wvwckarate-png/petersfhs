@@ -16,6 +16,9 @@ export default {
         { p: "Two things make torque larger: more force, or a longer moment arm. The key word in the definition of the moment arm is <strong>perpendicular</strong>. It is the shortest distance from the axis to the force's line of action, not the length of the bone. A force that points straight toward or away from a joint's axis has a moment arm of zero and produces no rotation." },
         { worked: { label: "Worked Example 1", q: "A person holds a 100 N weight in the hand with the forearm horizontal. The weight is 0.35 m from the elbow joint. What torque does the weight produce at the elbow?", a: "T = F × d = 100 N × 0.35 m = <strong>35 N·m</strong>. To hold the forearm still, the elbow flexors must produce an equal and opposite torque of 35 N·m. If the biceps attaches 0.04 m from the elbow axis, it must pull with F = T ÷ d = 35 ÷ 0.04 = <strong>875 N</strong>, nearly nine times the weight." } },
         { key: "<strong>Muscle moment arms are short</strong> (a few centimeters) and external moment arms are long (tens of centimeters), so muscles must produce forces many times larger than the loads they move. This is also why joints bear very large compressive forces during simple tasks." },
+        // visuals:begin s41
+        { svg: "lever; class=3", caption: "A force acts at a distance from the axis: torque = force × moment arm." },
+        // visuals:end s41
         { recap: [
           "Define force, moment arm, and torque.",
           "Calculate torque from force and moment arm.",
@@ -35,6 +38,11 @@ export default {
         { p: "A handy memory trick is <strong>'FRE 123'</strong>: for classes 1, 2, 3, the middle element is Fulcrum, Resistance, Effort. A wheelbarrow is a second-class lever (load in the middle), a seesaw is first class, and a fishing rod is third class." },
         { key: "<strong>Third-class levers dominate the human body.</strong> They sacrifice force for speed and range of motion. A small contraction of the biceps moves the hand through a big arc quickly, which is excellent for throwing and awful for lifting a refrigerator." },
         { trap: "Mechanical advantage is not 'good' or 'bad.' A lever with MA below 1 needs more force, but it provides greater speed and range at the end of the lever. The body trades strength for speed because speed and range are usually what matter in daily movement and sport." },
+        // visuals:begin s42
+        { svg: "lever; class=1", caption: "First class: the fulcrum is between the effort and the resistance." },
+        { svg: "lever; class=2", caption: "Second class: the resistance is between the fulcrum and the effort." },
+        { svg: "lever; class=3", caption: "Third class: the effort is between the fulcrum and the resistance (most muscles)." },
+        // visuals:end s42
         { recap: [
           "Identify the three lever classes by the position of the fulcrum, effort, and resistance.",
           "Give a body example of each class.",
@@ -55,6 +63,9 @@ export default {
           ["Longer implement", "Higher end speed but more difficult to swing"],
         ] } },
         { p: "A muscle's moment arm is not constant. The biceps has its largest moment arm near 90° of elbow flexion, so it is mechanically strongest in the middle of the range. This varying moment arm, together with the length–tension relationship, creates the <strong>strength curve</strong> of an exercise." },
+        // visuals:begin s43
+        { figId: "humerus-muscles", caption: "The biceps inserts close to the elbow (a short effort arm), so it works at a mechanical disadvantage but gives speed and range at the hand." },
+        // visuals:end s43
         { recap: [
           "Calculate mechanical advantage and the force needed to balance a load.",
           "Explain how implement length affects speed and difficulty.",
@@ -74,6 +85,9 @@ export default {
         ] } },
         { skill: { label: "Skill: Find the Hardest Point", text: "In a free-weight exercise, gravity always pulls straight down. The weight is hardest where the horizontal distance between the weight and the joint is largest, because that is where the resistance moment arm is longest. In a biceps curl, that point is when the forearm is horizontal (about 90°)." } },
         { key: "Bodyweight exercises and barbell lifts are really torque problems. To make an exercise harder without adding weight, <strong>lengthen the moment arm</strong>: hold the weight farther from the joint, or extend the lever." },
+        // visuals:begin s44
+        { svg: "plot; title=Strength curve (biceps curl); x=Elbow angle (°); y=Torque (N·m); xlim=0:150; ylim=0:90; xticks=0,30,60,90,120,150; yticks=0; line=10,25 30,50 60,75 90,80 120,70 140,45 | #C0392B", caption: "The strength curve: a muscle's torque varies through the range of motion." },
+        // visuals:end s44
         { recap: [
           "State the conditions for static equilibrium.",
           "Use torque to compare the difficulty of exercise variations.",

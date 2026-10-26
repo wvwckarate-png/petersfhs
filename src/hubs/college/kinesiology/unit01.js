@@ -22,6 +22,9 @@ export default {
           ["Ipsilateral / contralateral", "Same side / opposite side", "Right hand and right foot are ipsilateral"],
         ] } },
         { key: "<strong>Proximal and distal</strong> apply to limbs and tubes; <strong>superior and inferior</strong> apply to the trunk. When someone says 'the thigh is proximal to the shin,' they are describing position relative to where the limb attaches to the body." },
+        // visuals:begin s11
+        { figId: "directional", caption: "Directional terms in anatomical position: superior/inferior, anterior/posterior, medial/lateral, proximal/distal." },
+        // visuals:end s11
         { recap: [
           "Describe anatomical position and why it is the reference for all terms.",
           "Use directional terms correctly, including proximal, distal, medial, and lateral.",
@@ -45,6 +48,9 @@ export default {
         ] } },
         { trap: "Students often assume a movement in the sagittal plane happens around a sagittal axis. It does not. A movement in the sagittal plane turns around the <strong>mediolateral</strong> axis, because the axis must be perpendicular to the plane. Say it out loud: a biceps curl happens <em>in</em> the sagittal plane <em>around</em> a mediolateral axis." },
         { worked: { label: "Worked Example 1", q: "Name the plane and axis for a jumping jack's arm movement.", a: "The arms rise out to the sides, which is <strong>abduction</strong>. Abduction happens in the <strong>frontal plane</strong>, around the <strong>anteroposterior axis</strong> that runs front to back through the shoulder joint." } },
+        // visuals:begin s12
+        { figId: "planes", caption: "The three cardinal planes: sagittal, frontal (coronal), and transverse. Each movement happens in a plane around an axis." },
+        // visuals:end s12
         { recap: [
           "Name the three cardinal planes and the movements that occur in each.",
           "Match each plane with its perpendicular axis.",
@@ -69,6 +75,14 @@ export default {
         { p: "A set of special terms applies to particular joints. The ankle uses <strong>dorsiflexion</strong> (toes up toward the shin) and <strong>plantarflexion</strong> (toes pointing down, like pressing a gas pedal). The forearm uses <strong>supination</strong> (palm up or forward) and <strong>pronation</strong> (palm down or backward). The foot uses <strong>inversion</strong> (sole turning inward) and <strong>eversion</strong> (sole turning outward). The shoulder blade uses <strong>elevation, depression, protraction</strong> (spreading apart), and <strong>retraction</strong> (squeezing together). The thumb uses <strong>opposition</strong>, which lets you touch it to each fingertip and is why you can hold a pen." },
         { key: "<strong>Circumduction</strong> is a combination of flexion, abduction, extension, and adduction in sequence, so the distal end of a segment traces a cone. The shoulder and hip, which are ball-and-socket joints, circumduct beautifully." },
         { skill: { label: "Skill: Name That Motion", text: "Ask three questions in order: <em>which joint?</em> <em>which plane?</em> <em>which direction relative to anatomical position?</em> A person lowering into a squat flexes the hips and knees and dorsiflexes the ankles, all in the sagittal plane." } },
+        // visuals:begin s13
+        { figId: "flexion-extension", caption: "Flexion and extension happen in the sagittal plane." },
+        { figId: "abduction-adduction", caption: "Abduction, adduction, and circumduction happen in the frontal plane (and around it)." },
+        { figId: "body-movements", caption: "Rotation and other movements in the transverse plane." },
+        { figId: "pronation-supination", caption: "Pronation and supination of the forearm." },
+        { figId: "dorsi-plantar", caption: "Dorsiflexion and plantarflexion of the ankle." },
+        { figId: "inversion-eversion", caption: "Inversion and eversion of the foot." },
+        // visuals:end s13
         { recap: [
           "Define flexion, extension, abduction, adduction, and rotation.",
           "Use the special terms for the ankle, forearm, foot, and scapula.",
@@ -90,6 +104,9 @@ export default {
         { p: "<strong>Linear motion</strong> (translation) moves every part of an object the same distance in the same direction. <strong>Angular motion</strong> (rotation) turns an object around a fixed axis. <strong>General motion</strong> is a combination. Almost all human movement is general motion: the trunk travels forward (linear) while the limbs swing around joints (angular)." },
         { p: "Qualitative analysis describes quality of movement without numbers (does the knee collapse inward on landing?); <strong>quantitative analysis</strong> measures it with video, force plates, and sensors. A good clinician or coach does both." },
         { key: "A single movement can be analyzed at three levels: the <strong>whole body</strong> (center of mass path), the <strong>segment</strong> (thigh angle), and the <strong>joint</strong> (knee flexion moment). Learning which level to use for which question is half of biomechanics." },
+        // visuals:begin s14
+        { svg: "plot; title=Vertical GRF in running (one stance); x=Time (s); y=Force (body weights); xlim=0:0.3; ylim=0:3.5; xticks=0,0.1,0.2,0.3; yticks=0,1,2,3; line=0,0 0.03,2.2 0.06,1.8 0.12,2.7 0.2,1.2 0.25,0 0.3,0 | #C0392B", caption: "Kinetics: forces that cause motion. A runner's vertical ground reaction force peaks at 2–3 body weights." },
+        // visuals:end s14
         { recap: [
           "Differentiate kinematics from kinetics.",
           "Distinguish linear, angular, and general motion.",

@@ -23,6 +23,12 @@ export default {
         ]),
         { p: "<strong>Synovial joint types</strong> follow the shape of the surfaces: plane (gliding), hinge, pivot, condyloid, saddle, and ball-and-socket. A good test of joint design is to match the movement to the shape: a hinge (elbow) moves in one plane, a ball-and-socket (hip) in all three." },
         { key: "Mobility and stability pull in opposite directions in joint design. <strong>The shoulder</strong> sacrifices stability for mobility (shallow socket, loose capsule). <strong>The hip</strong> favors stability (deep socket, strong ligaments). <strong>The knee</strong> relies on ligaments and muscles because the bone shapes barely fit." },
+        // visuals:begin s51
+        { figId: "synovial-joint", caption: "A synovial joint." },
+        { figId: "synovial-types", caption: "Types of synovial joints." },
+        { figId: "fibrous-joints", caption: "Fibrous joints." },
+        { figId: "cartilaginous-joints", caption: "Cartilaginous joints." },
+        // visuals:end s51
         { recap: [
           "Classify joints as fibrous, cartilaginous, or synovial with examples.",
           "Name the parts of a synovial joint and their functions.",
@@ -42,6 +48,10 @@ export default {
         ]),
         { p: "<strong>Bursae</strong> of the shoulder include the subacromial bursa, which sits above the supraspinatus tendon and can be pinched in impingement. At the elbow, the olecranon bursa can swell with fluid after repeated pressure (student's elbow)." },
         { fig: { src: "/anatomy/g326.png", alt: "The left shoulder and acromioclavicular joints: Coraco-clavicular, coraco-acromial, and coraco-humeral ligaments and the joint capsule.", caption: "The left shoulder and acromioclavicular joints.", credit: "Source: Gray's Anatomy (1918), Fig. 326, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray326.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        // visuals:begin s52
+        { figId: "shoulder-joint", caption: "The shoulder joint." },
+        { figId: "elbow-joint", caption: "The elbow joint." },
+        // visuals:end s52
         { recap: [
           "List the ligaments of the shoulder, elbow, and wrist.",
           "Explain the role of the annular ligament and the subacromial bursa.",
@@ -62,6 +72,11 @@ export default {
         { fig: { src: "/anatomy/g339.png", alt: "Right hip joint from the front: Iliofemoral, pubocapsular ligaments, and landmarks of the pelvis and femur.", caption: "Right hip joint from the front.", credit: "Source: Gray's Anatomy (1918), Fig. 339, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray339.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g348.png", alt: "Left knee joint from behind: Cruciate and collateral ligaments and the menisci.", caption: "Left knee joint from behind.", credit: "Source: Gray's Anatomy (1918), Fig. 348, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray348.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The <strong>deltoid ligament</strong> in the ankle is on the <em>medial</em> side and is very strong, which is why medial ankle sprains are rare. Do not confuse it with the deltoid <em>muscle</em> of the shoulder." },
+        // visuals:begin s53
+        { figId: "hip-joint", caption: "The hip joint." },
+        { figId: "knee-joint", caption: "The knee joint." },
+        { figId: "ankle-joints", caption: "The ankle and foot joints." },
+        // visuals:end s53
         { recap: [
           "List the ligaments of the hip, knee, and ankle.",
           "Explain the direction in which each cruciate ligament resists tibial movement.",
@@ -83,6 +98,11 @@ export default {
           ["Meniscal tear", "Tear in the knee's fibrocartilage"],
           ["Septic arthritis", "Joint infection; an emergency"],
         ]),
+        // visuals:begin s54
+        { figId: "tmj", caption: "The temporomandibular joint." },
+        { figId: "hip-oa", caption: "Osteoarthritis of the hip." },
+        { figId: "herniated-disk", caption: "A herniated disc." },
+        // visuals:end s54
         { recap: [
           "Name the key ligaments of the spine.",
           "Describe the TMJ and its disc.",

@@ -22,6 +22,10 @@ export default {
         { p: "<strong>Fascicle arrangements</strong> determine force and range: parallel, convergent, pennate (unipennate, bipennate, multipennate), and circular (sphincter). Connective tissue wraps each level: epimysium (muscle), perimysium (fascicle), endomysium (fiber)." },
         { p: "The <strong>nerve supply</strong> of muscles follows the nerve roots. Each muscle is supplied by one or more spinal levels, and a lesion at a given level produces a predictable weakness (a <em>myotome</em>) and numbness (a <em>dermatome</em>). A useful set of myotomes: <strong>C5</strong> shoulder abduction, <strong>C6</strong> elbow flexion and wrist extension, <strong>C7</strong> elbow extension, <strong>C8</strong> finger flexion, <strong>T1</strong> finger abduction, <strong>L2</strong> hip flexion, <strong>L3</strong> knee extension, <strong>L4</strong> ankle dorsiflexion, <strong>L5</strong> big toe extension, <strong>S1</strong> plantarflexion." },
         { key: "<strong>Antagonistic pairs</strong> are anatomically arranged around joints: flexors on one side and extensors on the other, abductors and adductors on opposite sides. If you know where a muscle sits relative to a joint's axis, you can predict its action." },
+        // visuals:begin s61
+        { figId: "muscles-ant-post", caption: "Superficial muscles, front and back." },
+        { figId: "muscle-names", caption: "How muscles are named." },
+        // visuals:end s61
         { recap: [
           "Define origin, insertion, belly, and action.",
           "Decode muscle names using shape, size, location, fibers, heads, attachments, and action.",
@@ -49,6 +53,11 @@ export default {
         { fig: { src: "/anatomy/g378.png", alt: "Muscles of the head, face, and neck: Superficial muscles of facial expression and the neck.", caption: "Muscles of the head, face, and neck.", credit: "Source: Gray's Anatomy (1918), Fig. 378, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray378.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g385.png", alt: "Muscles of the neck, lateral view: Sternocleidomastoid, scalenes, hyoid muscles, and trapezius.", caption: "Muscles of the neck, lateral view.", credit: "Source: Gray's Anatomy (1918), Fig. 385, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray385.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "The SCM rotates the head to the <em>opposite</em> side, so a right SCM turns your face to the left. A torticollis (wry neck) with a tight right SCM tilts the head to the right and rotates the face to the left." },
+        // visuals:begin s62
+        { figId: "facial-muscles", caption: "Muscles of facial expression." },
+        { figId: "jaw-muscles", caption: "Muscles of the jaw." },
+        { figId: "neck-muscles", caption: "Muscles of the neck." },
+        // visuals:end s62
         { recap: [
           "Identify the main facial, mastication, and neck muscles and their nerves.",
           "Explain the SCM's action and its relation to the neck triangles.",
@@ -69,6 +78,11 @@ export default {
         ]),
         { p: "The three flat abdominal muscles form a layered, <em>plywood</em> arrangement with fibers running in different directions, which makes the abdominal wall strong. Their aponeuroses form the <strong>linea alba</strong>, a midline fibrous seam. A weakness in the abdominal wall lets organs bulge out as a <strong>hernia</strong>: <em>inguinal</em> hernias (in the groin, through or beside the inguinal canal) are the most common, <em>femoral</em> hernias (below the inguinal ligament) are more common in women, and <em>umbilical</em> hernias occur at the navel." },
         { key: "The <strong>inguinal canal</strong> is an oblique passage through the lower abdominal wall. In males it carries the spermatic cord, and in females the round ligament of the uterus. An <em>indirect</em> inguinal hernia travels down the canal itself (through the deep inguinal ring), while a <em>direct</em> hernia pushes through a weak spot in the back wall of the canal." },
+        // visuals:begin s63
+        { figId: "thorax-muscles", caption: "Muscles of the thorax." },
+        { figId: "abdominal-muscles", caption: "Muscles of the abdominal wall." },
+        { figId: "diaphragm", caption: "The diaphragm." },
+        // visuals:end s63
         { recap: [
           "List the muscles of respiration and the abdominal wall with their actions.",
           "Describe the layered arrangement of the abdominal muscles.",
@@ -88,6 +102,9 @@ export default {
         ]),
         { p: "The <strong>erector spinae</strong> is the great extensor of the spine, and it is placed under constant tension when you stand or bend forward. The <strong>thoracolumbar fascia</strong> is the broad sheet that connects the latissimus dorsi, gluteus maximus, and the abdominal wall to the spine and pelvis, linking the upper limb with the opposite lower limb in walking and throwing. The <strong>triangle of auscultation</strong> and the <strong>lumbar triangle</strong> are gaps in the back muscles that are used to listen to the lungs and can be sites of herniation." },
         { fig: { src: "/anatomy/g409.png", alt: "Muscles of the back: Trapezius, latissimus dorsi, rhomboids, levator scapulae, and deeper muscles.", caption: "Muscles of the back.", credit: "Source: Gray's Anatomy (1918), Fig. 409, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray409.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
+        // visuals:begin s64
+        { figId: "back-muscles", caption: "Muscles of the back." },
+        // visuals:end s64
         { recap: [
           "Name the layers of back muscles and their actions.",
           "Explain the role of the erector spinae and the thoracolumbar fascia.",

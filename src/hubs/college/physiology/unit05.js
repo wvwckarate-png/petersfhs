@@ -19,6 +19,9 @@ export default {
         ] } },
         { key: "<strong>Calcium</strong> is the trigger for release. No Ca²⁺ entry, no neurotransmitter, no signal. This is why botulinum toxin (Botox), which blocks vesicle fusion, causes paralysis: the muscle never gets the message." },
         { p: "<strong>Electrical synapses</strong> (gap junctions) also exist. They pass ions directly between cells, are very fast, and are found in cardiac muscle and some brain regions. Chemical synapses are slower but allow modulation, which is where most of the interesting neuroscience lives." },
+        // visuals:begin s51
+        { figId: "synapse", caption: "The chemical synapse: Ca²⁺ entry triggers vesicle fusion, neurotransmitter crosses the cleft and binds receptors on the postsynaptic cell." },
+        // visuals:end s51
         { recap: [
           "Order the events of chemical synaptic transmission.",
           "Explain the role of Ca²⁺ in neurotransmitter release.",
@@ -37,6 +40,10 @@ export default {
         { p: "A single neuron can receive thousands of inputs. The hillock acts as an accountant, adding everything up. <strong>Spatial summation</strong> adds inputs arriving at different locations at the same time. <strong>Temporal summation</strong> adds inputs arriving at the same location in rapid succession. If the total reaches threshold, the neuron fires." },
         { p: "<strong>Presynaptic inhibition</strong> and <strong>facilitation</strong> modify how much transmitter a terminal releases. <strong>Synaptic plasticity</strong>, the strengthening or weakening of synapses with use, underlies learning and memory. <strong>Long-term potentiation (LTP)</strong> is a persistent strengthening of a synapse after repeated stimulation and is a leading cellular model of memory." },
         { trap: "Neurotransmitters are not 'excitatory' or 'inhibitory' by nature; the <strong>receptor</strong> decides. Acetylcholine excites skeletal muscle (nicotinic receptors) but slows the heart (muscarinic receptors). Same chemical, opposite outcomes." },
+        // visuals:begin s52
+        { svg: "plot; title=EPSP and IPSP; x=Time (ms); y=Membrane potential (mV); xlim=0:20; ylim=-80:-50; yticks=-70,-55; line=0,-70 2,-70 4,-66 7,-65 12,-68 16,-70 20,-70 | #C0392B | EPSP; line=0,-70 2,-70 4,-73 7,-74 12,-72 16,-70 20,-70 | #002855 | IPSP; hline=-55 Threshold | #2E7D32", caption: "An EPSP moves the membrane toward threshold; an IPSP moves it away." },
+        { figId: "ps-summation", caption: "Temporal and spatial summation of postsynaptic potentials at the axon hillock." },
+        // visuals:end s52
         { recap: [
           "Compare EPSPs and IPSPs and their ionic basis.",
           "Distinguish spatial from temporal summation.",
@@ -59,6 +66,11 @@ export default {
         ] } },
         { p: "Receptors come in two flavors. <strong>Ionotropic receptors</strong> are ligand-gated ion channels: fast, short-lived effects (nicotinic ACh receptor). <strong>Metabotropic receptors</strong> are G protein–coupled receptors that trigger second-messenger cascades: slower, longer-lasting, and amplified." },
         { p: "Transmitters must be cleared so signals stay crisp. ACh is broken down by <strong>acetylcholinesterase</strong>. Monoamines (dopamine, norepinephrine, serotonin) are largely taken back up by the terminal. Drugs that block these steps (nerve agents inhibit acetylcholinesterase; SSRIs block serotonin reuptake) prolong the transmitter's action." },
+        // visuals:begin s53
+        { mols: [["CC(=O)OCC[N+](C)(C)C", "Acetylcholine", "neuromuscular junction and parasympathetic nerves"], ["NCCc1ccc(O)c(O)c1", "Dopamine", "movement and reward"], ["NCCc1c[nH]c2ccc(O)cc12", "Serotonin", "mood, sleep, appetite"], ["N[C@@H](CCC(=O)O)C(=O)O", "Glutamate", "main excitatory transmitter"], ["NCCCC(=O)O", "GABA", "main inhibitory transmitter"]] },
+        { figId: "ligand-gated", caption: "An ionotropic (ligand-gated) receptor: the transmitter opens the channel directly." },
+        { figId: "water-hormone", caption: "A metabotropic (G protein-coupled) receptor works through second messengers." },
+        // visuals:end s53
         { recap: [
           "Match major neurotransmitters with their roles and clinical links.",
           "Contrast ionotropic and metabotropic receptors.",
@@ -82,6 +94,16 @@ export default {
         { p: "The cortex has four lobes: <strong>frontal</strong> (planning, personality, motor cortex), <strong>parietal</strong> (somatosensory cortex), <strong>temporal</strong> (hearing, memory, language comprehension), and <strong>occipital</strong> (vision). The <strong>primary motor cortex</strong> in the frontal lobe and the <strong>primary somatosensory cortex</strong> in the parietal lobe both contain a distorted map of the body in which areas with fine control or fine sensation (hands, lips) take far more space than the back." },
         { p: "The <strong>spinal cord</strong> carries ascending sensory tracts up and descending motor tracts down, and it also handles <strong>reflexes</strong> without involving the brain. In a reflex arc a sensory neuron synapses in the cord, often via an interneuron, and a motor neuron fires. The knee-jerk (patellar) reflex is a <strong>monosynaptic stretch reflex</strong>: stretching the quadriceps tendon activates muscle spindles, whose sensory neurons synapse directly onto the motor neuron of the same muscle." },
         { key: "The brain is protected by the skull, three <strong>meninges</strong> (dura, arachnoid, pia), <strong>cerebrospinal fluid (CSF)</strong>, and the <strong>blood–brain barrier</strong>, whose tight junctions keep most blood-borne substances out. Lipid-soluble molecules (alcohol, caffeine, anesthetics) cross easily, which is why they work on the brain." },
+        // visuals:begin s54
+        { figId: "nervous-overview", caption: "The divisions of the nervous system." },
+        { figId: "cortex-lobes", caption: "The four lobes of the cerebral cortex: frontal, parietal, temporal, and occipital." },
+        { figId: "diencephalon", caption: "The diencephalon: thalamus and hypothalamus." },
+        { figId: "brainstem", caption: "The brainstem: midbrain, pons, and medulla." },
+        { figId: "cerebellum", caption: "The cerebellum coordinates movement and balance." },
+        { figId: "meninges", caption: "The three meninges: dura, arachnoid, and pia mater." },
+        { figId: "csf", caption: "Cerebrospinal fluid is made in the ventricles and circulates around the brain and cord." },
+        { figId: "reflexes", caption: "A reflex arc: receptor, sensory neuron, integrating center, motor neuron, effector." },
+        // visuals:end s54
         { recap: [
           "List the major brain regions and their functions.",
           "Identify the four cortical lobes and what each does.",
@@ -111,6 +133,10 @@ export default {
         { p: "The <strong>adrenal medulla</strong> is essentially a modified sympathetic ganglion. Stimulated by preganglionic ACh, it releases <strong>epinephrine</strong> (about 80%) and norepinephrine into the blood, giving a body-wide sympathetic surge that lasts longer than direct neural stimulation. Many organs receive <em>dual innervation</em>, and the balance (<strong>autonomic tone</strong>) sets the resting state. At rest the heart is under parasympathetic (vagal) tone, which is why a resting heart rate (about 70) is lower than the heart's intrinsic rate (about 100)." },
         { trap: "Sympathetic is <strong>not</strong> 'fight or flight only.' It also maintains vascular tone at all times, and most blood vessels have only sympathetic innervation. Parasympathetic is not just 'rest and digest' either; it includes the pupillary constriction and bladder emptying you do when you are not resting at all." },
         { worked: { label: "Worked Example 1", q: "A student is startled by a loud noise in the library. Predict the autonomic changes.", a: "The sympathetic division fires and the adrenal medulla releases epinephrine. <strong>Heart rate and contractility rise</strong>, <strong>pupils dilate</strong>, <strong>bronchioles dilate</strong>, blood is shunted to skeletal muscle, <strong>digestion slows</strong>, and sweat glands activate. Within seconds the parasympathetic division restores resting tone." } },
+        // visuals:begin s55
+        { figId: "sympathetic", caption: "The sympathetic division: short preganglionic and long postganglionic fibers; fight or flight." },
+        { figId: "parasympathetic", caption: "The parasympathetic division: long preganglionic and short postganglionic fibers; rest and digest." },
+        // visuals:end s55
         { recap: [
           "Contrast the structure and transmitters of the sympathetic and parasympathetic pathways.",
           "Predict the organ effects of each division.",

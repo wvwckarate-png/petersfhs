@@ -22,6 +22,10 @@ export default {
           ["Scapula", "Medial (vertebral) and lateral borders; inferior angle", "Attachments for the rhomboids and serratus anterior; teres major attaches at the inferior angle"],
         ]),
         { key: "<strong>Scapular landmarks as a map of the rotator cuff</strong>: supraspinatus lies in the supraspinous fossa (above the spine), infraspinatus in the infraspinous fossa (below the spine), subscapularis on the front surface, and teres minor on the lateral border." },
+        // visuals:begin s31
+        { figId: "pectoral-girdle", caption: "The pectoral girdle." },
+        { figId: "scapula", caption: "The scapula." },
+        // visuals:end s31
         { recap: [
           "Name the bones of the pectoral girdle and its single bony attachment to the trunk.",
           "Identify the major landmarks of the scapula and the muscles that attach to them.",
@@ -49,6 +53,10 @@ export default {
         { fig: { src: "/anatomy/g213.png", alt: "Bones of the left forearm, anterior view: Ulna and radius with olecranon, radial tuberosity, styloid processes, and muscle attachments.", caption: "Bones of the left forearm, anterior view.", credit: "Source: Gray's Anatomy (1918), Fig. 213, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray213.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { trap: "A memory device: the <strong>radius</strong> is on the thumb (<strong>r</strong>adial) side and the <strong>ulna</strong> is on the pinky side. The radius moves around the ulna in pronation (the bones cross like an X) and uncross in supination." },
         { p: "A <strong>Colles' fracture</strong> is a break of the distal radius, usually from a fall on an outstretched hand, with a characteristic 'dinner fork' deformity. A <strong>supracondylar fracture</strong> of the distal humerus is common in children and can injure the brachial artery or median nerve." },
+        // visuals:begin s32
+        { figId: "humerus", caption: "The humerus and elbow." },
+        { figId: "ulna-radius", caption: "The ulna and radius." },
+        // visuals:end s32
         { recap: [
           "Name the major landmarks of the humerus and their significance.",
           "Distinguish the radius from the ulna and list their landmarks.",
@@ -72,6 +80,10 @@ export default {
           ["Joints", "Carpometacarpal (CMC), metacarpophalangeal (MCP), proximal interphalangeal (PIP), distal interphalangeal (DIP)"],
         ]),
         { key: "The <strong>first carpometacarpal joint</strong> (thumb base) is a saddle joint with a great range of motion. It allows <strong>opposition</strong>, and wears out in many people with age (thumb arthritis)." },
+        // visuals:begin s33
+        { figId: "hand-bones", caption: "The wrist and hand." },
+        { figId: "carpal-tunnel", caption: "The carpal tunnel." },
+        // visuals:end s33
         { recap: [
           "Name the eight carpal bones in order.",
           "Describe the carpal tunnel and its contents.",
@@ -91,6 +103,9 @@ export default {
           ["Distal radius or carpal tunnel region", "Median nerve", "Numbness of the thumb, index, and middle fingers; weak thumb opposition"],
         ]),
         { p: "The <strong>brachial plexus</strong> (the network of nerves from C5–T1) supplies the arm, and its terminal branches are the musculocutaneous, axillary, radial, median, and ulnar nerves. A useful map: the radial nerve extends (triceps, wrist and finger extensors), the musculocutaneous nerve flexes the elbow (biceps, brachialis), and the median and ulnar nerves flex the wrist and fingers." },
+        // visuals:begin s34
+        { figId: "spinal-plexuses", caption: "The brachial plexus and other nerve plexuses." },
+        // visuals:end s34
         { recap: [
           "Pair fracture sites with the nerves at risk.",
           "Name the terminal branches of the brachial plexus and their general territories.",

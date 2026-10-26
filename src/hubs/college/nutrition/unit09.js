@@ -19,6 +19,9 @@ export default {
         { p: "<strong>Fat, fiber, and large amounts of protein</strong> delay gastric emptying and can cause discomfort, so they are limited close to exercise. <strong>Individual tolerance</strong> varies widely, and practice in training matters. Caffeine (3–6 mg/kg about 60 minutes before) is a separate topic." },
         { p: "Does a high-GI snack right before exercise harm performance? Some people experience <strong>rebound hypoglycemia</strong>, a drop in blood glucose after an insulin spike in the first 15–30 minutes of exercise, but studies suggest that it rarely impairs performance, and most athletes tolerate pre-exercise carbohydrate well. People who are sensitive can choose lower-GI snacks or eat within 5–10 minutes of starting." },
         { key: "<strong>Fasted training</strong> (exercising after an overnight fast) increases fat oxidation, but studies have not shown that it improves fat loss or endurance performance, and it can make high-intensity sessions feel harder. It is a choice, not a requirement, and should not become chronic energy restriction." },
+        // visuals:begin s91
+        { svg: "plot; title=Blood glucose before exercise; x=Minutes after exercise starts; y=Blood glucose (mg/dL); xlim=0:60; ylim=50:150; xticks=0,15,30,45,60; yticks=70,100; line=0,140 10,95 20,72 30,70 45,78 60,88 | #C0392B; hline=70 Low | #888", caption: "Rebound hypoglycemia: a sugary snack just before exercise can cause a dip in blood glucose." },
+        // visuals:end s91
         { recap: [
           "Describe the goals and options for pre-exercise eating at different times.",
           "Explain why fat and fiber are limited close to exercise.",
@@ -39,6 +42,9 @@ export default {
           ["Sodium in long events", "300–600 mg per hour depending on sweat; more for salty sweaters"],
         ]),
         { p: "<strong>Race-day rules</strong>: nothing new on race day, eat at planned intervals before you feel hungry (every 15–20 minutes), match fluids to sweat loss, and have a plan for gels, chews, drinks, and real food. Gut training (practicing high carbohydrate intakes in training) improves tolerance, and so does reducing caffeine and fiber on the day." },
+        // visuals:begin s92
+        { svg: "bars; title=Carbohydrate during exercise (g/h); y=g per hour; data=Under 45 min:0:#888, 1–2.5 h:45:#2E6BC6, Over 2.5 h:90:#C0392B; max=100", caption: "Carbohydrate intake during exercise rises with the duration of the event." },
+        // visuals:end s92
         { recap: [
           "State the modern carbohydrate-loading protocol.",
           "Give carbohydrate intake recommendations by duration of event.",
@@ -59,6 +65,10 @@ export default {
         ]),
         { p: "The <strong>anabolic window</strong> is wider than once believed. For people training once per day, total daily protein and energy matter much more than the minute of consumption. But a prompt meal helps when two sessions occur close together, when training is fasted, or when daily protein is low. <strong>Chocolate milk</strong> has been studied as a convenient recovery drink: it has a carbohydrate-to-protein ratio of about 3–4:1, plus fluid and sodium." },
         { trap: "'Recovery shakes' are not mandatory. A normal meal with carbohydrate, protein, and fluid works just as well, and total daily intake across several days is what determines how well you adapt." },
+        // visuals:begin s93
+        { svg: "bars; title=Refuel (g carbohydrate per hour, 70 kg); y=g per hour; data=First 4 h:80:#2E7D32; max=100", caption: "Refuel at 1.0–1.2 g/kg/h for the first 4 hours after hard exercise." },
+        { figId: "carb-digestion", caption: "Carbohydrate and sodium are absorbed together." },
+        // visuals:end s93
         { recap: [
           "List the four R's of recovery nutrition.",
           "Give carbohydrate, protein, and fluid recommendations for recovery.",
@@ -81,6 +91,10 @@ export default {
         ]),
         { p: "<strong>Gastrointestinal complaints</strong> affect many endurance athletes: reduced blood flow to the gut, mechanical jostling, dehydration, high-concentration drinks, and pre-race nerves all contribute. Strategies include reducing fiber, fat, and caffeine before racing, trying <strong>low-FODMAP</strong> approaches under guidance, avoiding NSAIDs, and training the gut with gradually higher carbohydrate intakes during exercise." },
         { skill: { label: "Skill: Write a Fueling Plan", text: "Pick the longest session of the week. Decide the pre-session meal and timing, the carbohydrate and fluid per hour, the sodium plan, and the post-session meal. Test it in training, adjust, and write it down. Athletes who write plans make fewer race-day mistakes." } },
+        // visuals:begin s94
+        { figId: "gastric-phases", caption: "Gastric emptying and phases of digestion influence how soon after eating you can exercise." },
+        { figId: "segmentation", caption: "Gut movement and blood flow to the gut during exercise." },
+        // visuals:end s94
         { recap: [
           "Plan a full day of eating for a training athlete.",
           "Identify causes and strategies for exercise-related GI problems.",

@@ -18,6 +18,11 @@ export default {
         { p: "The <strong>phosphagen system</strong> regenerates ATP using phosphocreatine (PCr) in a single enzymatic step catalyzed by creatine kinase: PCr + ADP → creatine + ATP. Phosphocreatine stores about 15–20 mmol/kg wet muscle, enough for about 6–10 seconds of maximal effort, and they replenish within 3–5 minutes of recovery. <strong>Creatine supplementation</strong> raises muscle PCr stores by 10–40% and is one of the best-supported performance supplements (see the supplements unit)." },
         { p: "<strong>Anaerobic glycolysis</strong> converts glucose to pyruvate and then to lactate, producing 2 ATP per glucose from blood glucose (3 from glycogen) with no oxygen needed. It is fast but inefficient, and it generates H⁺ that contribute to the burning sensation and fatigue. The <strong>oxidative system</strong> extracts about 30–32 ATP per glucose and far more from fat, with oxygen as the final electron acceptor, and it delivers the energy for nearly all endurance events." },
         { key: "<strong>All three systems are always running</strong>; what changes is the proportion. In a 400 m sprint (about 50 seconds) roughly half of the ATP is aerobic and the rest anaerobic; in a 5 km run, more than 90% is aerobic." },
+        // visuals:begin s81
+        { svg: "plot; title=Energy systems over time; x=Seconds of maximal effort; y=Contribution (%); xlim=0:180; ylim=0:100; xticks=0,10,30,60,120,180; line=0,100 5,95 10,55 20,25 40,8 180,2 | #C0392B | Phosphagen; line=0,0 10,35 30,60 60,45 100,28 180,18 | #2E6BC6 | Glycolysis; line=0,0 10,10 30,30 60,55 100,72 180,80 | #2E7D32 | Oxidative", caption: "The three energy systems and how their contributions change over time." },
+        { figId: "muscle-metabolism", caption: "Muscle metabolism: phosphocreatine, glycolysis, and oxidative phosphorylation." },
+        { figId: "cell-respiration", caption: "Cellular respiration in the mitochondrion." },
+        // visuals:end s81
         { recap: [
           "Name the three energy systems with fuels, durations, and oxygen needs.",
           "Explain how the phosphagen system works and the role of creatine.",
@@ -46,6 +51,9 @@ export default {
           ["Sex", "Women oxidize slightly more fat and less carbohydrate and protein at the same relative intensity"],
         ]),
         { trap: "The so-called 'fat-burning zone' on cardio machines is misleading. Lower intensity burns a higher <em>percentage</em> of fat, but higher intensity burns more total calories, and often more fat in absolute terms, during and after the session. Total energy balance over days matters more than the fuel mix during a workout." },
+        // visuals:begin s82
+        { svg: "plot; title=Fuel use vs. intensity; x=Exercise intensity (% VO₂ max); y=Share of energy (%); xlim=0:100; ylim=0:100; xticks=0,25,50,65,75,100; yticks=0,50,100; line=0,45 25,55 50,60 65,70 85,88 100,97 | #2E6BC6 | Carbohydrate; line=0,55 25,45 50,40 65,30 85,12 100,3 | #C99700 | Fat; vline=65 Crossover ≈ 65% | #888", caption: "The crossover concept: as intensity rises, carbohydrate supplies a larger and larger share of energy." },
+        // visuals:end s82
         { recap: [
           "Describe fuel use across intensity levels.",
           "Explain how duration and glycogen depletion change fuel use.",
@@ -65,6 +73,9 @@ export default {
         { p: "<strong>Lactate</strong> is not the cause of fatigue. It is a fuel and a signal, shuttled to other muscle fibers, the heart, and the liver. The burning sensation comes mainly from the accumulation of H⁺ and other metabolites. Buffers such as <strong>sodium bicarbonate</strong> and <strong>beta-alanine</strong> (which raises muscle carnosine) can help in high-intensity events lasting about 1–10 minutes." },
         { p: "<strong>Central fatigue</strong> may involve the brain's response to metabolic signals, such as rising serotonin in prolonged exercise, hypoglycemia, and heat. Carbohydrate intake during exercise helps the brain as well as muscle, and even <strong>mouth-rinsing</strong> with carbohydrate (without swallowing) can improve performance in efforts around an hour by activating reward centers." },
         { worked: { label: "Worked Example 1", q: "A cyclist rides at about 75% VO₂max and uses about 1,000 kcal/h. She has about 1,800 kcal of muscle and liver glycogen at the start. Estimate how long until glycogen is critically low if 70% of energy comes from carbohydrate.", a: "Carbohydrate use ≈ 0.70 × 1,000 = 700 kcal/h. Time = 1,800 ÷ 700 ≈ <strong>2.6 hours</strong> in theory, but performance falls sooner because liver and muscle stores cannot be fully emptied and the pace cannot be sustained at very low glycogen. Eating about 60 g of carbohydrate (240 kcal) each hour reduces the glycogen drain and extends the time to exhaustion." } },
+        // visuals:begin s83
+        { svg: "plot; title=Muscle glycogen during a marathon; x=Time (min); y=Glycogen (% of start); xlim=0:240; ylim=0:100; xticks=0,60,120,180,240; yticks=0,50,100; line=0,100 60,70 120,38 160,12 180,4 | #C0392B", caption: "Glycogen depletion is a main cause of fatigue in prolonged exercise." },
+        // visuals:end s83
         { recap: [
           "Match event types with their dominant fatigue causes.",
           "Explain that lactate is not the cause of fatigue and name buffering supplements.",
@@ -84,6 +95,9 @@ export default {
           ["Strength and hypertrophy training", "Phosphagen and glycolytic", "Protein 1.6–2.2 g/kg, energy surplus, carbohydrate for training quality, creatine"],
         ]),
         { skill: { label: "Skill: Match the System", text: "To advise an athlete, ask: <em>how long and how hard is the event, and how often are efforts repeated?</em> Under 10 seconds means phosphagen, so creatine and total training energy matter most. Two minutes of all-out effort means buffering and glycolysis. Over an hour means carbohydrate, fluids, and sodium. Intermittent sports ask for everything and benefit from planned refueling." } },
+        // visuals:begin s84
+        { svg: "bars; title=Energy contribution by event; y=% aerobic; data=100 m:5:#C0392B, 400 m:45:#E67E22, 5 km:92:#2E7D32, Marathon:99:#2E7D32; max=105; unit=%", caption: "Approximate aerobic share of energy by event: it rises with the duration." },
+        // visuals:end s84
         { recap: [
           "Match energy systems and nutrition priorities to different sport types.",
           "Use event duration and intensity to guide fueling advice.",

@@ -22,6 +22,9 @@ export default {
           ["Isokinetic", "Changes at a constant speed", "Machine sets velocity", "Dynamometer testing"],
         ] } },
         { key: "<strong>Eccentric contractions absorb energy</strong> (they act like brakes) and <strong>concentric contractions produce energy</strong> (they act like engines). Running downhill is brake work for the quadriceps, and a lot of sore legs come from that." },
+        // visuals:begin s31
+        { figId: "contraction-types", caption: "Isometric, concentric, and eccentric contractions." },
+        // visuals:end s31
         { recap: [
           "Define agonist, antagonist, synergist, and stabilizer.",
           "Explain reciprocal inhibition and co-contraction.",
@@ -43,6 +46,11 @@ export default {
         { p: "The <strong>length–tension relationship</strong> says that isometric force depends on sarcomere length: it peaks at a mid-range length where actin and myosin overlap best and falls at very short and very long lengths. Real muscles also benefit from <strong>passive tension</strong> from stretched connective tissue at long lengths, which adds to the active force." },
         { p: "The <strong>force–velocity relationship</strong>: the faster a muscle shortens (concentric), the less force it can produce. At zero velocity (isometric) force is higher, and in an eccentric contraction (lengthening) force is highest of all. That is why you can lower a weight you cannot lift and why the heaviest loads in training are often eccentric." },
         { worked: { label: "Worked Example 1", q: "Why can you lower a heavy weight slowly that you cannot lift?", a: "In an eccentric contraction, cross-bridges are forcibly stretched and the muscle can resist a larger load than it can lift concentrically. Passive elements also contribute. Thus the muscle's eccentric strength is substantially greater than its concentric strength, so it can control a weight that is too heavy to raise." } },
+        // visuals:begin s32
+        { svg: "plot; title=Length–tension relationship; x=Sarcomere length (μm); y=Active force (% of max); xlim=1.2:4.2; ylim=0:110; xticks=1.6,2.0,2.2,3.6; yticks=0,50,100; line=1.3,0 1.6,50 2.0,100 2.2,100 2.6,85 3.0,50 3.6,0 | #C0392B; band=2.0,2.2 Optimal | #E4F1E0", caption: "Length–tension relationship: active force peaks near the resting length of the sarcomere." },
+        { svg: "plot; title=Force–velocity relationship; x=Velocity (eccentric ← 0 → concentric); y=Force (% of isometric); xlim=-10:10; ylim=0:180; xticks=0; yticks=0,100; line=-10,165 -5,150 -1,125 0,100 2,80 5,45 8,15 10,0 | #C0392B; vline=0 Isometric | #888", caption: "Force–velocity relationship: force falls as shortening speed rises; eccentric force is higher than isometric." },
+        { figId: "muscles-ant-post", caption: "Muscles of the body (anterior and posterior views): parallel, pennate, and convergent architectures." },
+        // visuals:end s32
         { recap: [
           "Compare parallel and pennate architecture.",
           "Explain PCSA and fiber length.",
@@ -62,6 +70,9 @@ export default {
         { p: "The catch is the <strong>coupling time</strong>: the pause between the eccentric and concentric phases must be brief. If you sink into the bottom of a squat and wait for two seconds, the stored elastic energy dissipates as heat and the benefit disappears. This is the logic behind <strong>plyometric</strong> training, and it explains why a bouncing run on an elastic tendon (such as the Achilles) costs far less energy than a muscle doing all the work." },
         { key: "SSC is the reason elite sprinters, kangaroos, and cheerful toddlers on pogo sticks are efficient. The Achilles tendon can return roughly 35% of the energy of a running stride, making each step cheaper." },
         { trap: "The SSC is not the stretch reflex alone. It is the combination of elastic recoil, reflex potentiation, and preactivation. Questions that give only one of these answers are usually incomplete." },
+        // visuals:begin s33
+        { figId: "leg-muscles", caption: "The calf muscles and the Achilles tendon store and return elastic energy in the stretch–shortening cycle." },
+        // visuals:end s33
         { recap: [
           "Define the stretch–shortening cycle and name its contributors.",
           "Explain why a long pause between eccentric and concentric phases reduces the benefit.",
@@ -78,6 +89,10 @@ export default {
           ["Left-to-right limb strength", "Within about 10–15%; larger gaps raise injury concern"],
           ["External-to-internal rotation (shoulder)", "External rotators about 66–75% as strong as internal rotators"],
         ] } },
+        // visuals:begin s34
+        { figId: "gluteal-muscles", caption: "Hip flexors and extensors: tight iliopsoas and weak glutes are part of lower crossed syndrome." },
+        { figId: "back-muscles", caption: "Upper crossed syndrome: tight upper trapezius and weak deep neck flexors and lower trapezius." },
+        // visuals:end s34
         { recap: [
           "Give examples of two-joint muscles and explain how they transfer energy.",
           "Describe muscle imbalance and common strength ratios.",

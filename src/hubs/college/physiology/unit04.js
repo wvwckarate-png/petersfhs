@@ -24,6 +24,10 @@ export default {
         ] } },
         { p: "Neurons are classified by function. <strong>Sensory (afferent)</strong> neurons carry information <em>toward</em> the CNS. <strong>Motor (efferent)</strong> neurons carry commands <em>away</em> from it. <strong>Interneurons</strong> lie entirely within the CNS and connect the two; the vast majority of the neurons in your brain are interneurons." },
         { key: "A good memory trick: <strong>A</strong>fferent = <strong>A</strong>rrives at the CNS; <strong>E</strong>fferent = <strong>E</strong>xits the CNS." },
+        // visuals:begin s41
+        { figId: "neuron-shapes", caption: "Neurons have dendrites (input), a soma, and an axon (output); the shapes vary with the job." },
+        { figId: "glia", caption: "The glial cells of the CNS: astrocytes, oligodendrocytes, microglia, and ependymal cells." },
+        // visuals:end s41
         { recap: [
           "Name the regions of a neuron and give each a function.",
           "Match each glial cell type with its role.",
@@ -49,6 +53,10 @@ export default {
         ] } },
         { key: "<strong>Each ion pulls the membrane potential toward its own equilibrium potential</strong>, and the more permeable the membrane is to that ion, the harder it pulls. At rest K⁺ wins, so the RMP is near −70 mV. During an action potential Na⁺ takes over, so the potential swings toward +60 mV." },
         { trap: "The Na⁺/K⁺ pump is <strong>not</strong> the main cause of the resting potential. Pumps set up the concentration gradients; the potential itself comes mostly from K⁺ leaking out through open channels. Poisoning the pump does not collapse the RMP instantly; it dies down gradually as the gradients run down." },
+        // visuals:begin s42
+        { figId: "resting-potential", caption: "The resting membrane potential: K⁺ leak channels and the Na⁺/K⁺ pump keep the inside about −70 mV." },
+        { figId: "membrane-channels", caption: "Leak, ligand-gated, mechanically gated, and voltage-gated channels." },
+        // visuals:end s42
         { recap: [
           "State the approximate resting potential and its main ionic cause.",
           "Define equilibrium potential and give values for K⁺ and Na⁺.",
@@ -78,6 +86,11 @@ export default {
         ] } },
         { key: "The upswing of the action potential is a <strong>positive feedback</strong> loop: depolarization opens Na⁺ channels, which causes more depolarization. It stops because Na⁺ channels <strong>inactivate</strong> on their own and K⁺ channels open to restore the negative interior." },
         { p: "Only a tiny number of ions cross during each action potential, so the concentration gradients barely change. The Na⁺/K⁺ pump restores them slowly over time; this is why a neuron can fire thousands of times before the pump needs to catch up." },
+        // visuals:begin s43
+        { svg: "plot; title=Action potential; x=Time (ms); y=Membrane potential (mV); xlim=0:6; ylim=-90:60; yticks=-70,-55,0,30; xticks=0,1,2,3,4,5,6; line=0,-70 0.6,-70 0.9,-60 1.15,-40 1.4,20 1.75,35 2.1,10 2.5,-50 3,-80 3.6,-76 4.5,-71 6,-70 | #C0392B; hline=-55 Threshold | #2E7D32; hline=-70 Resting | #888; band=0.6,1.75 Depolarization | #FDE8A0; band=1.75,3 Repolarization | #D6E6F7; band=3,4.8 Hyperpolarization | #E4F1E0", caption: "The action potential: depolarization (Na⁺ in), repolarization (K⁺ out), and hyperpolarization." },
+        { figId: "voltage-gated", caption: "Voltage-gated Na⁺ and K⁺ channels open and close in sequence to shape the spike." },
+        { figId: "graded-potentials", caption: "Graded potentials vary in size and fade with distance; action potentials are all-or-none." },
+        // visuals:end s43
         { recap: [
           "Compare graded and action potentials in at least four ways.",
           "Order the phases of an action potential and name the ion movements.",
@@ -98,6 +111,10 @@ export default {
         ] } },
         { p: "Diseases of myelin make the point. In <strong>multiple sclerosis (MS)</strong> the immune system attacks CNS myelin, slowing or blocking conduction. In <strong>Guillain–Barré syndrome</strong> the PNS myelin is attacked, producing ascending weakness." },
         { trap: "Faster conduction in a myelinated axon does <strong>not</strong> mean a bigger action potential. All action potentials are the same size. Myelin changes the <em>speed</em> and the energy cost, not the amplitude." },
+        // visuals:begin s44
+        { svg: "plot; title=Action potential; x=Time (ms); y=Membrane potential (mV); xlim=0:6; ylim=-90:60; yticks=-70,-55,0,30; xticks=0,1,2,3,4,5,6; line=0,-70 0.6,-70 0.9,-60 1.15,-40 1.4,20 1.75,35 2.1,10 2.5,-50 3,-80 3.6,-76 4.5,-71 6,-70 | #C0392B; hline=-55 Threshold | #2E7D32; hline=-70 Resting | #888; band=0.9,2.3 Absolute refractory | #F5D0CC; band=2.3,4 Relative refractory | #FFF1C9", caption: "The refractory periods: during the absolute period no stimulus can trigger a new spike; during the relative period only a stronger one can." },
+        { figId: "myelin", caption: "Myelin and the nodes of Ranvier: the action potential jumps node to node (saltatory conduction)." },
+        // visuals:end s44
         { recap: [
           "Distinguish the absolute and relative refractory periods and explain their consequences.",
           "Explain how stimulus intensity is coded.",
@@ -115,6 +132,9 @@ export default {
           ["Tetraethylammonium", "Blocks voltage-gated K⁺ channels", "Prolongs the action potential"],
         ] } },
         { worked: { label: "Worked Example 1", q: "Why does lidocaine stop pain but leave a person conscious and breathing normally?", a: "Lidocaine blocks voltage-gated Na⁺ channels in the axons it reaches. Without Na⁺ entry, the upswing of the action potential cannot happen, so pain signals from that region never reach the CNS. Because it is injected locally, only nearby neurons are affected. The brain and the nerves controlling breathing are untouched." } },
+        // visuals:begin s45
+        { svg: "plot; title=Frequency coding; x=Stimulus intensity; y=Action potentials per second; xlim=0:10; ylim=0:120; xticks=0; yticks=0; line=0,5 1,12 3,45 5,75 8,100 10,108 | #C0392B", caption: "Stimulus intensity is coded by firing frequency, not by spike size." },
+        // visuals:end s45
         { recap: [
           "Predict how a change in extracellular K⁺ alters membrane potential.",
           "Explain the mechanism of local anesthetics and tetrodotoxin.",

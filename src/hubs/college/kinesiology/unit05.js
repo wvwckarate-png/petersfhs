@@ -21,6 +21,9 @@ export default {
         { worked: { label: "Worked Example 1", q: "A runner goes once around a 400 m track in 80 s and finishes where she started. Find her average speed and average velocity.", a: "Average speed = 400 m ÷ 80 s = <strong>5 m/s</strong>. Her displacement is zero because she ended where she started, so her average velocity is <strong>0 m/s</strong>. Speed is about how much ground was covered; velocity is about where she ended up." } },
         { p: "For constant acceleration, three equations connect the variables: <strong>v = v₀ + at</strong>, <strong>d = v₀t + ½at²</strong>, and <strong>v² = v₀² + 2ad</strong>. In free fall near Earth, acceleration is <strong>g = 9.81 m/s²</strong> downward, regardless of mass (in the absence of air resistance). A ball and a bowling pin dropped together hit the ground together." },
         { key: "At the peak of a jump, vertical <strong>velocity is zero</strong>, but vertical <strong>acceleration is still 9.81 m/s² downward</strong>. Velocity zero does not mean acceleration zero." },
+        // visuals:begin s51
+        { svg: "plot; title=Sprint velocity; x=Time (s); y=Velocity (m/s); xlim=0:10; ylim=0:12; xticks=0,2,4,6,8,10; yticks=0,5,10; line=0,0 1,4 2,6.5 4,8.8 6,9.8 8,10.2 10,10.1 | #C0392B", caption: "Velocity is the slope of position; acceleration is the slope of velocity: a sprinter accelerates quickly and then reaches a nearly constant top speed." },
+        // visuals:end s51
         { recap: [
           "Differentiate scalars from vectors and give examples.",
           "Calculate speed, velocity, and acceleration.",
@@ -39,6 +42,10 @@ export default {
         ] } },
         { p: "In the real world, release height is usually above landing height for throws and shot put (so the best angle is a bit under 45°), and below for a long jump (the center of mass leaves the ground at the takeoff height and lands lower, but athletes cannot produce speed and angle independently, so the best long jumpers take off at about 18–22°). The best angle in sport is a trade-off between the angle that is geometrically ideal and the one the athlete can produce speed at." },
         { key: "Once an athlete is in the air, <strong>nothing they do changes the path of the center of mass</strong>. They can rotate and rearrange body parts, but the trajectory was set at takeoff. This is why takeoff mechanics decide the outcome of a jump." },
+        // visuals:begin s52
+        { svg: "plot; title=Projectile path; x=Horizontal distance (m); y=Height (m); xlim=0:20; ylim=0:7; xticks=0,5,10,15,20; yticks=0; line=0,0 3,3.5 5,5 7,5.9 10,6.2 13,5.9 15,5 17,3.5 20,0 | #C0392B", caption: "A projectile follows a symmetric parabola (ignoring air resistance)." },
+        { svg: "plot; title=Range vs. release angle; x=Release angle (°); y=Range (% of max); xlim=0:90; ylim=0:110; xticks=0,15,30,45,60,75,90; yticks=0,100; line=0,0 15,50 30,87 45,100 60,87 75,50 90,0 | #C0392B; vline=45 45° | #002855", caption: "With equal release and landing heights, 45° gives the longest range." },
+        // visuals:end s52
         { recap: [
           "State that horizontal and vertical motions are independent.",
           "List the factors that determine range and the ideal angle at equal heights.",
@@ -57,6 +64,9 @@ export default {
         { p: "<strong>Inertia</strong> is the resistance of a body to a change in its motion, and it is proportional to <strong>mass</strong>. Mass (kilograms) is an amount of matter and is the same everywhere; weight (newtons) is the force of gravity on that mass: <strong>W = m × g</strong>. A 70 kg person weighs 70 × 9.81 ≈ 687 N on Earth." },
         { p: "The Third Law has a subtlety that surprises beginners. The action and reaction forces <em>act on different bodies</em>, so they never cancel each other. When you jump, the ground does not 'push back less.' The ground force acts on you, and your push acts on the ground. You accelerate because the ground's force on you is larger than your weight." },
         { trap: "Newton's Third Law pairs are on <strong>different objects</strong>. If both forces were on the same object, they would cancel, and nothing could ever accelerate." },
+        // visuals:begin s53
+        { figId: "pressures", caption: "Newton's third law: when the lungs push air out, the air pushes back; in running, the ground pushes you forward as you push it back." },
+        // visuals:end s53
         { recap: [
           "State each of Newton's laws with an example.",
           "Distinguish mass from weight and calculate weight.",
@@ -79,6 +89,10 @@ export default {
         { worked: { label: "Worked Example 1", q: "A 70 kg person lands and stops with a velocity change of 4 m/s. Compare the average force if the stop takes 0.1 s on a stiff landing versus 0.4 s on a soft, bent-knee landing.", a: "Impulse needed = m × Δv = 70 × 4 = 280 N·s. Stiff landing: F = 280 ÷ 0.1 = <strong>2,800 N</strong> (about 4 times body weight). Soft landing: F = 280 ÷ 0.4 = <strong>700 N</strong> (about 1 body weight). Quadrupling the stopping time cuts the average force to a quarter. Bending your knees is not an etiquette: it is physics." } },
         { key: "<strong>Increase the time to reduce the force</strong> (catching a ball with a giving arm, landing with knee and hip flexion, padded mats). <strong>Increase the force or time to raise the impulse</strong> when you want to produce speed (a longer, stronger push in a sprint start or a jump)." },
         { p: "<strong>Friction</strong> is the force that resists sliding. Its maximum is <strong>f<sub>max</sub> = μ × N</strong>, where μ is the coefficient of friction and N is the normal (perpendicular) force. Walking depends on friction between shoe and surface; if friction is too low (ice), the foot slips, and if it is too high (a cleat stuck in turf), the foot cannot rotate and the knee takes the torque." },
+        // visuals:begin s54
+        { svg: "plot; title=Vertical GRF in running (one stance); x=Time (s); y=Force (body weights); xlim=0:0.3; ylim=0:3.5; xticks=0,0.1,0.2,0.3; yticks=0,1,2,3; line=0,0 0.03,2.2 0.06,1.8 0.12,2.7 0.2,1.2 0.25,0 0.3,0 | #C0392B", caption: "Ground reaction force in running: an impact peak followed by an active push-off peak." },
+        { svg: "plot; title=Vertical GRF in walking (one stance); x=% of stance; y=Force (body weights); xlim=0:100; ylim=0:1.4; xticks=0,25,50,75,100; yticks=0,1; line=0,0 10,1.1 25,0.85 50,0.8 75,1.1 90,0.6 100,0 | #C0392B", caption: "Walking GRF has two humps (heel strike and push-off) and stays near 1.1 body weights." },
+        // visuals:end s54
         { recap: [
           "Describe how GRF varies in standing, walking, running, and landing.",
           "Define momentum and impulse and apply F × t = m × Δv.",
@@ -100,6 +114,10 @@ export default {
         { p: "The <strong>work–energy theorem</strong> says that the net work done on a body equals its change in kinetic energy. Energy is conserved: PE converts to KE as you fall and back as you rise, with some lost as heat. Human muscles are only about 25% efficient, so most of the energy you burn becomes heat." },
         { worked: { label: "Worked Example 2", q: "A 75 kg athlete raises their center of mass by 0.5 m in a jump in 0.25 s of pushing. What is the minimal work and average power?", a: "Work = m × g × h = 75 × 9.81 × 0.5 ≈ <strong>368 J</strong>. Power = 368 ÷ 0.25 ≈ <strong>1,470 W</strong>. Peak power in a jump is larger than this average. This is one reason vertical jump testing is a good power test." } },
         { key: "Power matters in sport because speed and force trade off. Peak power is produced at moderate loads and moderate velocities (roughly one-third of maximum force and one-third of maximum velocity), which is why the best power training often uses loads that are not heavy or very light." },
+        // visuals:begin s55
+        { svg: "plot; title=Power–load relationship; x=Load (% of max force); y=Power (% of max); xlim=0:100; ylim=0:110; xticks=0,33,67,100; yticks=0,100; line=0,0 15,50 33,100 50,90 70,60 100,0 | #C0392B; vline=33 ≈ 1/3 max force | #002855", caption: "Power (force × velocity) peaks at about one-third of maximal force and velocity." },
+        { svg: "bars; title=Where the energy goes; y=% of energy; data=Mechanical work:25:#2E6BC6, Heat:75:#C0392B; max=100; unit=%", caption: "Muscles are about 25% efficient: most chemical energy becomes heat." },
+        // visuals:end s55
         { recap: [
           "Calculate work, kinetic energy, potential energy, and power.",
           "State the work–energy theorem and energy conservation.",

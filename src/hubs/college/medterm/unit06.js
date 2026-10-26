@@ -26,6 +26,13 @@ export default {
           ["tax/o", "order, coordination", "<em>ataxia</em>, lack of coordination"],
         ] } },
         { key: "<strong>Kinesi/o</strong> means movement, and the suffix <strong>-kinesia</strong> (or -kinesis) names a type of movement. <em>Bradykinesia</em> is slow movement, <em>hyperkinesia</em> is excessive movement, and <em>dyskinesia</em> is abnormal or difficult movement." },
+        // visuals:begin s61
+        { figId: "muscle-types", caption: "Skeletal, smooth, and cardiac muscle." },
+        { p: "{{wp:my/o=muscle|-algia=pain}} <strong>Myalgia</strong>" },
+        { p: "{{wp:tend/o=tendon|-itis=inflammation}} <strong>Tendinitis</strong>" },
+        { p: "{{wp:fasci/o=fascia|-itis=inflammation}} <strong>Fasciitis</strong>" },
+        { p: "{{wp:rhabd/o=rod-shaped|my/o=muscle|-lysis=breakdown}} <strong>Rhabdomyolysis</strong>" },
+        // visuals:end s61
         { recap: [
           "Distinguish skeletal, smooth, and cardiac muscle by control and location.",
           "Recall the roots my/o, fasci/o, ten/o, and kinesi/o.",
@@ -56,6 +63,13 @@ export default {
         ] } },
         { skill: { label: "Skill: Link the Movement to the Plane", text: "Flexion and extension happen in the <strong>sagittal plane</strong>. Abduction and adduction happen in the <strong>coronal plane</strong>. Rotation happens in the <strong>transverse plane</strong>. If you can name the plane, you can usually name the movement." } },
         { trap: "<strong>Supination</strong> and <strong>pronation</strong> are reversed in the mind of many beginners. A helpful anchor: you can hold a bowl of <em>soup</em> in a <em>supinated</em> (palm-up) hand." },
+        // visuals:begin s62
+        { figId: "flexion-extension", caption: "Flexion and extension." },
+        { figId: "abduction-adduction", caption: "Abduction, adduction, and circumduction." },
+        { figId: "pronation-supination", caption: "Pronation and supination." },
+        { figId: "dorsi-plantar", caption: "Dorsiflexion and plantar flexion." },
+        { figId: "inversion-eversion", caption: "Inversion and eversion." },
+        // visuals:end s62
         { recap: [
           "Define flexion, extension, abduction, adduction, rotation, and circumduction.",
           "Distinguish supination from pronation and dorsiflexion from plantar flexion.",
@@ -83,6 +97,10 @@ export default {
         ] } },
         { key: "The word parts in the names are clues. <strong>Biceps</strong> (two heads), <strong>triceps</strong> (three heads), and <strong>quadriceps</strong> (four heads) tell you how many heads each muscle has. <strong>Brachii</strong> refers to the arm, <strong>femoris</strong> to the thigh, <strong>rectus</strong> means straight, and <strong>oblique</strong> means slanted." },
         { p: "Every muscle has an <strong>origin</strong>, the attachment to the bone that stays fixed, and an <strong>insertion</strong>, the attachment to the bone that moves. The muscle that does the primary work is the <strong>agonist</strong> (prime mover), and the muscle that opposes it is the <strong>antagonist</strong>. When the biceps flexes the elbow, the biceps is the agonist and the triceps is the antagonist." },
+        // visuals:begin s63
+        { figId: "muscles-ant-post", caption: "Major muscles, front and back." },
+        { figId: "muscle-names", caption: "Muscles are named for location, shape, action, number of heads, and direction of fibers." },
+        // visuals:end s63
         { recap: [
           "Match the major muscles to their location and action.",
           "Decode muscle names using number of heads, shape, and location.",
@@ -113,6 +131,11 @@ export default {
         ] } },
         { worked: { label: "Worked Example 1", q: "A patient finishes a heavy workout, then develops severe muscle pain and dark brown urine. Which condition is a concern?", a: "<strong>Rhabdomyolysis</strong>: rhabd/o (striated) + my/o (muscle) + -lysis (breakdown). Damaged muscle fibers release myoglobin, which can darken the urine and injure the kidneys. It needs prompt medical attention." } },
         { trap: "<strong>Paresis</strong> means <em>weakness</em> while <strong>plegia</strong> means <em>paralysis</em> (loss of movement). <em>Hemiparesis</em> is weakness of half the body, and <em>hemiplegia</em> is paralysis of half the body." },
+        // visuals:begin s64
+        { figId: "atrophy", caption: "Atrophy: muscle fibers shrink." },
+        { figId: "hypertrophy", caption: "Hypertrophy: muscle fibers enlarge." },
+        { figId: "knee-injury", caption: "A sprain injures a ligament; a strain injures a muscle or tendon." },
+        // visuals:end s64
         { recap: [
           "Distinguish atrophy from hypertrophy and a strain from a sprain.",
           "Define myalgia, myositis, tendinitis, spasm, and contracture.",
@@ -136,6 +159,10 @@ export default {
           ["Myoplasty", "Surgical repair of muscle"],
         ] } },
         { key: "<strong>ROM</strong> can be <em>active</em> (the patient moves the joint using their own muscles) or <em>passive</em> (someone else moves the joint). Clinicians measure it with a <strong>goniometer</strong> and record it in degrees." },
+        // visuals:begin s65
+        { p: "{{wp:electr/o=electricity|my/o=muscle|-graphy=process of recording}} <strong>Electromyography</strong>: a record of the electrical activity of muscle." },
+        { p: "{{wp:goni/o=angle|-meter=instrument}} <strong>Goniometer</strong>: an instrument that measures joint angles." },
+        // visuals:end s65
         { recap: [
           "Explain what an EMG and a CK test show.",
           "Define range of motion and the instrument used to measure it.",

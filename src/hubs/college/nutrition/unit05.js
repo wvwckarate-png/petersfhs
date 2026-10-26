@@ -19,6 +19,9 @@ export default {
         ]),
         { p: "<strong>Dietary Reference Intakes (DRIs)</strong> set the standards. The <strong>EAR</strong> (estimated average requirement) meets the needs of half of a group; the <strong>RDA</strong> (recommended dietary allowance) meets the needs of nearly everyone (about 97–98%); the <strong>AI</strong> (adequate intake) is used when evidence is weaker; and the <strong>UL</strong> (tolerable upper intake level) is the highest intake unlikely to cause harm." },
         { key: "<strong>Bioavailability</strong> matters: the amount absorbed may differ greatly from the amount in the food. Iron, calcium, and vitamin B12 are well-known cases where absorption depends on the food form, other foods in the meal, and the person's gut." },
+        // visuals:begin s51
+        { svg: "bars; title=Dietary Reference Intakes; y=Relative level; data=EAR:50:#C99700, RDA:65:#2E6BC6, UL:100:#C0392B; max=110", caption: "DRIs: the EAR meets the needs of half the group, the RDA covers nearly everyone, and the UL is the highest intake unlikely to cause harm." },
+        // visuals:end s51
         { recap: [
           "Distinguish water-soluble from fat-soluble vitamins in absorption, storage, and toxicity.",
           "Define EAR, RDA, AI, and UL.",
@@ -43,6 +46,11 @@ export default {
         ]),
         { p: "<strong>Folate</strong> is crucial early in pregnancy: women who could become pregnant should take <strong>400 μg/day</strong> of folic acid to cut the risk of neural tube defects. <strong>Vegans</strong> must take a reliable source of B12 because it occurs naturally only in animal foods. Older adults often absorb B12 poorly because of reduced stomach acid, so fortified foods or supplements are advised." },
         { trap: "A 'B-complex' pill does not give you energy unless you are deficient. The vitamins help release the energy from food; they are not fuel themselves, in the same way that spark plugs do not provide gasoline." },
+        // visuals:begin s52
+        { mols: [["Cc1ncc(C[n+]2csc(CCO)c2C)c(N)n1", "Thiamin (B₁)", "carbohydrate metabolism"], ["CC1=CC2=C(C=C1C)N(C3=NC(=O)NC(=O)C3=N2)CC(C(C(CO)O)O)O", "Riboflavin (B₂)", "FAD"], ["NC(=O)c1cccnc1", "Niacin (B₃)", "NAD⁺"], ["CC(C)(CO)[C@@H](O)C(=O)NCCC(=O)O", "Pantothenic acid (B₅)", "coenzyme A"]] },
+        { mols: [["Cc1ncc(CO)c(CO)c1O", "Pyridoxine (B₆)", "amino acid metabolism"], ["O=C(O)CCCC[C@@H]1SC[C@@H]2NC(=O)N[C@H]12", "Biotin (B₇)", "carboxylation"], ["Nc1nc2ncc(CNc3ccc(cc3)C(=O)N[C@@H](CCC(=O)O)C(=O)O)nc2c(=O)[nH]1", "Folate (B₉)", "DNA synthesis"], ["OC[C@H](O)[C@H]1OC(=O)C(O)=C1O", "Vitamin C", "collagen, antioxidant"]] },
+        { figId: "hdn", caption: "Anemia from B₁₂ or folate deficiency: large immature red cells (megaloblastic anemia)." },
+        // visuals:end s52
         { recap: [
           "Match each B vitamin and vitamin C with its role and deficiency disease.",
           "State folate recommendations for women of childbearing age.",
@@ -61,6 +69,10 @@ export default {
         ]),
         { p: "<strong>Vitamin D</strong> deserves a special place for athletes. The skin makes it when exposed to UVB, so deficiency is common in winter, at northern latitudes, in people with darker skin, and in those who stay indoors. Low vitamin D is associated with stress fractures, poor muscle function, and infections. The RDA is 600 IU (15 μg) for most adults (800 IU after age 70), and many clinicians treat deficiency (blood 25-hydroxyvitamin D below 20 ng/mL) with supplements, with the UL set at 4,000 IU/day." },
         { key: "<strong>Antioxidant supplements</strong> (vitamins C and E) can blunt some training adaptations when taken in large doses. A varied diet of fruits and vegetables provides antioxidants without that risk, and large trials of high-dose antioxidant pills have not shown reduced disease." },
+        // visuals:begin s53
+        { mols: [["CC1=C(/C=C/C(/C)=C/C=C/C(/C)=C/CO)C(C)(C)CCC1", "Retinol (vitamin A)", "vision, epithelium"], ["C[C@H](CCCC(C)C)[C@H]1CC[C@@H]\\2[C@@]1(CCC/C2=C\\C=C/3\\C[C@H](CCC3=C)O)C", "Vitamin D₃", "calcium absorption"], ["Cc1c(C)c2c(c(C)c1O)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2", "Vitamin E", "membrane antioxidant"], ["CC1=C(CC=C(C)CCCC(C)CCCC(C)CCCC(C)C)C(=O)c2ccccc2C1=O", "Vitamin K₁", "clotting"]] },
+        { figId: "bone-vitd", caption: "Vitamin D synthesis: UV-B in skin, then liver and kidney activation." },
+        // visuals:end s53
         { recap: [
           "List the functions, deficiency diseases, and toxicity risks of vitamins A, D, E, and K.",
           "Explain why vitamin D deficiency is common and relevant to athletes.",
@@ -81,6 +93,9 @@ export default {
         ]),
         { p: "A <strong>multivitamin</strong> can fill in small gaps but does not make a poor diet good, and it provides no extra performance in people who are replete. The risk of supplements includes exceeding the UL (especially for fat-soluble vitamins), contamination with banned substances in products sold as sports supplements, and drug interactions. Look for third-party testing (such as NSF Certified for Sport or Informed Sport) if you compete in drug-tested sport." },
         { skill: { label: "Skill: Food First", text: "Before reaching for a pill, ask what the food pattern is missing. Fortified cereals and milk provide vitamin D and B12, a few servings of fruits and vegetables supply folate and vitamin C, and eating the rainbow typically supplies the full list. Supplements are for diagnosed deficiency, a restricted diet, or a defined life stage." } },
+        // visuals:begin s54
+        { svg: "bars; title=Vitamin D (IU/day); y=IU per day; data=RDA (adults):600:#2E6BC6, RDA (over 70):800:#2E6BC6, UL:4000:#C0392B; max=4400", caption: "Vitamin D intake: the RDA and the upper limit." },
+        // visuals:end s54
         { recap: [
           "Identify athletes at risk of vitamin deficiencies.",
           "Evaluate multivitamins and third-party testing.",

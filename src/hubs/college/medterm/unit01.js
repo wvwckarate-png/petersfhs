@@ -17,6 +17,9 @@ export default {
         { p: "A word root with its combining vowel attached is called a <strong>combining form</strong>. Dictionaries and textbooks usually write it with a slash, such as <strong>gastr/o</strong>. The slash is only a study aid; it is never part of the actual word." },
         { key: "Think of a medical term as a short sentence. The <strong>suffix</strong> is the action or condition, the <strong>root</strong> is the body part it happens to, and a <strong>prefix</strong>, when there is one, adds detail. <em>Peri/card/itis</em> reads as: <em>around the heart, inflammation</em>." },
         { trap: "The combining vowel is <strong>not</strong> a separate part of speech and has no meaning of its own. It is only there to make a term easier to pronounce. Do not look up the <em>o</em> in a definition." },
+        // visuals:begin s11
+        { p: "{{wp:peri-=around|card=heart|-itis=inflammation}} <strong>Pericarditis</strong> = inflammation around the heart. Blue = prefix, green = word root, gold = suffix." },
+        // visuals:end s11
         { recap: [
           "Name the four word parts and say what each one does.",
           "Explain the difference between a word root and a combining form.",
@@ -36,6 +39,10 @@ export default {
         { key: "Look at the <strong>first letter of whatever comes next</strong>. A consonant after the root means you need the combining vowel. A vowel after the root means you drop it. The one exception is between two roots, where the combining vowel stays no matter what." },
         { worked: { label: "Worked Example 1", q: "Build a term meaning <em>inflammation of the liver</em> from <strong>hepat/o</strong> (liver) and <strong>-itis</strong> (inflammation).", a: "The suffix <em>-itis</em> begins with a vowel (<em>i</em>), so the combining vowel is dropped: <strong>hepat</strong> + <strong>itis</strong> = <strong>hepatitis</strong>. If the suffix had begun with a consonant, for example <em>-megaly</em> (enlargement), the combining vowel would stay: <strong>hepatomegaly</strong>." } },
         { trap: "Students often keep the combining vowel before every suffix and write <em>hepatoitis</em>. A combining vowel is only needed before a suffix that begins with a <strong>consonant</strong>." },
+        // visuals:begin s12
+        { p: "{{wp:gastr/o=stomach|enter/o=small intestine|-itis=inflammation}} <strong>Gastroenteritis</strong>: the combining vowel <em>o</em> is kept between two roots (gastr/o + enter/o), and before the suffix <em>-itis</em> it is dropped only if the suffix begins with a vowel (here -itis does, so enter/o + -itis → enteritis)." },
+        { p: "{{wp:arthr/o=joint|-scopy=visual exam}} <strong>Arthroscopy</strong>: the suffix <em>-scopy</em> begins with a consonant, so the combining vowel stays (arthr/o + -scopy)." },
+        // visuals:end s12
         { recap: [
           "State the rule for keeping or dropping the combining vowel before a suffix.",
           "Explain why the combining vowel stays between two roots.",
@@ -57,6 +64,11 @@ export default {
         { skill: { label: "Skill: Suffix First", text: "Always start with the <strong>end</strong> of the word and then work back to the front. In <em>hepatomegaly</em> the suffix <em>-megaly</em> (enlargement) tells you what is happening, and the root <em>hepat</em> (liver) tells you where. Reading the suffix first almost always gives you the right sentence structure." } },
         { worked: { label: "Worked Example 2", q: "Define <strong>nephrolithiasis</strong> given nephr/o = kidney, lith/o = stone, and -iasis = condition.", a: "Divide: <strong>nephr / o / lith / iasis</strong>. Suffix first: <em>-iasis</em> = condition or presence of. Then the roots: <em>nephr</em> = kidney, <em>lith</em> = stone. Result: <strong>the condition of having stones in the kidney</strong> (kidney stones)." } },
         { p: "Some terms are built from two or more roots and have no prefix at all. Others have a prefix but only one root. Either way, the same order works." },
+        // visuals:begin s13
+        { p: "{{wp:hyper-=excessive|glyc/o=sugar|-emia=blood condition}} <strong>Hyperglycemia</strong>: read the suffix first, then the prefix, then the root: 'blood condition of excessive sugar'." },
+        { p: "{{wp:my/o=muscle|cardi/o=heart|-pathy=disease}} <strong>Myocardiopathy</strong>: 'disease of heart muscle'." },
+        { p: "{{wp:electr/o=electricity|cardi/o=heart|-gram=record}} <strong>Electrocardiogram</strong>: 'a record of the heart's electricity'." },
+        // visuals:end s13
         { recap: [
           "List the steps for dividing and defining an unfamiliar term.",
           "Explain why you begin with the suffix.",
@@ -84,6 +96,14 @@ export default {
         ] } },
         { key: "Two roots can mean the same thing. <em>Nephr/o</em> and <em>ren/o</em> both mean kidney, and <em>pulmon/o</em> and <em>pneum/o</em> both mean lung. Many body parts have a <strong>Greek</strong> root and a <strong>Latin</strong> root, and you will see both in practice." },
         { trap: "<em>Cyst/o</em> is the root for bladder, but it can also mean a sac of fluid. In urinary terms such as <em>cystitis</em>, it means the bladder. Use the rest of the term to decide which meaning applies." },
+        // visuals:begin s14
+        { p: "{{wp:cardi/o=heart|-logy=study of}} <strong>Cardiology</strong>" },
+        { p: "{{wp:gastr/o=stomach|-itis=inflammation}} <strong>Gastritis</strong>" },
+        { p: "{{wp:hepat/o=liver|-megaly=enlargement}} <strong>Hepatomegaly</strong>" },
+        { p: "{{wp:nephr/o=kidney|-ectomy=surgical removal}} <strong>Nephrectomy</strong>" },
+        { p: "{{wp:neur/o=nerve|-algia=pain}} <strong>Neuralgia</strong>" },
+        { figId: "levels-org", caption: "Many roots name an organ or organ system: cardi/o (heart), gastr/o (stomach), hepat/o (liver), nephr/o (kidney), neur/o (nerve), pulmon/o (lung), oste/o (bone)." },
+        // visuals:end s14
         { recap: [
           "Recall the roots for heart, stomach, liver, kidney, lung, nerve, bone, joint, muscle, skin, and head.",
           "Explain why some body parts have two roots.",
@@ -110,6 +130,14 @@ export default {
         ] } },
         { p: "Notice how a handful of suffixes carry most of the meaning. <em>-itis</em> turns almost any root into an inflammation, and <em>-ology</em> turns almost any root into a field of study. Combine the roots in this unit with the suffixes in the next unit and you can already read hundreds of terms." },
         { key: "<strong>Enter/o</strong> means the <em>small intestine</em>, and <strong>col/o</strong> means the <em>colon</em>. In many textbooks <em>enter/o</em> is used loosely for the intestines in general, but the careful meaning is the small intestine." },
+        // visuals:begin s15
+        { p: "{{wp:erythr/o=red|cyt/o=cell}} <strong>Erythrocyte</strong>: red cell" },
+        { p: "{{wp:leuk/o=white|cyt/o=cell}} <strong>Leukocyte</strong>: white cell" },
+        { p: "{{wp:angi/o=vessel|-plasty=surgical repair}} <strong>Angioplasty</strong>: repair of a vessel" },
+        { p: "{{wp:ophthalm/o=eye|-logy=study of}} <strong>Ophthalmology</strong>" },
+        { p: "{{wp:ot/o=ear|-itis=inflammation}} <strong>Otitis</strong>" },
+        { figId: "blood-composition", caption: "Hem/o (blood) and cyt/o (cell): blood is plasma plus red cells, white cells, and platelets." },
+        // visuals:end s15
         { recap: [
           "Recall the roots for cell, tissue, blood, vessel, eye, ear, nose, intestines, fat, stone, and disease.",
           "Distinguish enter/o from col/o.",
@@ -143,6 +171,9 @@ export default {
           ["g before e, i, or y", "<em>j</em>", "gestation"],
         ] } },
         { trap: "Do not confuse plurals by trying the English <em>-s</em> ending. The plural of <em>bronchus</em> is <em>bronchi</em>, not <em>bronchuses</em>, and the plural of <em>diagnosis</em> is <em>diagnoses</em>." },
+        // visuals:begin s16
+        { figId: "vertebral-column", caption: "Plural endings: vertebra → vertebrae; the vertebral column shows several vertebrae (and the root vertebr/o)." },
+        // visuals:end s16
         { recap: [
           "State the plural for singular endings -a, -ex/-ix, -is, -on, -um, and -us.",
           "Explain the silent letters in pneumonia, psychiatry, and gnathic.",

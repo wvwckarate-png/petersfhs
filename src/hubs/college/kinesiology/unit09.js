@@ -20,6 +20,11 @@ export default {
         ]),
         { p: "The hip also has a <strong>neck-shaft angle</strong> and a twist, called <strong>femoral anteversion</strong>, that influences how the foot points. Excess anteversion causes a toe-in posture; too little produces a toe-out gait. A fall that fractures the <strong>femoral neck</strong> is especially serious in older adults because the blood supply to the femoral head is fragile, so these fractures often require surgery." },
         { key: "The <strong>ilium, ischium, and pubis</strong> fuse into the single hip bone (os coxae) by adulthood and meet in the <strong>acetabulum</strong>. A good memory trick: the ilium is the wing you put your hands on, the ischium is what you sit on, and the pubis is at the front." },
+        // visuals:begin s91
+        { figId: "hip-bone", caption: "The hip bone: ilium, ischium, and pubis meet at the acetabulum." },
+        { figId: "hip-joint", caption: "The hip joint: a deep ball-and-socket joint with a labrum and strong ligaments." },
+        { figId: "femur", caption: "The femur: head, neck, and trochanters; the neck angle is about 125°." },
+        // visuals:end s91
         { recap: [
           "Describe the bones, socket, and ligaments of the hip joint.",
           "Explain why the hip is more stable than the shoulder.",
@@ -42,6 +47,10 @@ export default {
         { p: "The <strong>gluteus medius</strong> and <strong>minimus</strong> abduct the hip, but their most important job is as <em>stabilizers of the pelvis</em> during walking and running. When you stand on one leg, the gluteus medius on the stance side keeps the opposite side of the pelvis from dropping. If it is weak, the pelvis drops on the swing side (a <strong>Trendelenburg sign</strong>), or the trunk leans over the stance leg to compensate (<strong>compensated Trendelenburg gait</strong>)." },
         { p: "The <strong>iliopsoas</strong> (psoas major and iliacus) is the strongest hip flexor, and it connects the lumbar spine to the femur, so a tight iliopsoas pulls the lumbar spine into extension and the pelvis into anterior tilt. The <strong>hamstrings</strong> (biceps femoris, semitendinosus, semimembranosus) extend the hip and flex the knee, and they are among the most frequently strained muscles in sport." },
         { trap: "The gluteus medius is an <strong>abductor</strong> in an open chain (lifting the leg out to the side), but a <strong>pelvic stabilizer</strong> in a closed chain (single-leg stance). Always ask which end of the muscle is fixed." },
+        // visuals:begin s92
+        { figId: "gluteal-muscles", caption: "The gluteal muscles, tensor fasciae latae, piriformis, and the deep rotators." },
+        { figId: "muscles-ant-post", caption: "The hip flexors (iliopsoas, rectus femoris), adductors, and hamstrings." },
+        // visuals:end s92
         { recap: [
           "Match hip movements with prime movers.",
           "Explain the role of the gluteus medius in single-leg stance and the Trendelenburg sign.",
@@ -61,6 +70,11 @@ export default {
         ]),
         { p: "<strong>Lumbopelvic rhythm</strong> is the coordinated movement of the pelvis and lumbar spine. Bending forward, the first part of the motion is spinal flexion and the remainder is anterior pelvic rotation over the femoral heads (hip flexion), so a stiff hamstring or a tight hip limits the forward bend and pushes the load onto the low back. In a deadlift or a squat, the hip hinge teaches the body to use the hips for the motion and keep the spine neutral under load." },
         { key: "The <strong>hip hinge</strong> is the pattern of bending at the hips with a neutral spine, driven by hip flexion and extension. It is one of the most important movement patterns for both injury prevention and athletic strength." },
+        // visuals:begin s93
+        { figId: "pelvis", caption: "The pelvis: the sacroiliac joints and the pubic symphysis." },
+        { figId: "pelvic-ligaments", caption: "The ligaments of the pelvis." },
+        { figId: "pelvis-sex", caption: "The female pelvis (right) is wider, with a larger subpubic angle." },
+        // visuals:end s93
         { recap: [
           "Describe anterior and posterior pelvic tilt and the muscles responsible.",
           "Explain lumbopelvic rhythm and the hip hinge.",
@@ -82,6 +96,9 @@ export default {
           ["Piriformis syndrome", "Tight piriformis irritates the sciatic nerve", "Buttock pain, sometimes radiating down the leg"],
         ]),
         { p: "Most hamstring strains occur in the late swing phase of sprinting, when the muscle is lengthening eccentrically at high speed to slow the leg before foot strike. The best prevention is eccentric strengthening, such as the Nordic hamstring curl, which has strong evidence for reducing strain rates." },
+        // visuals:begin s94
+        { figId: "hip-oa", caption: "Hip osteoarthritis: joint-space narrowing and bone spurs." },
+        // visuals:end s94
         { recap: [
           "List common hip and groin injuries and their mechanisms.",
           "Explain why hamstring strains occur in late swing and how to prevent them.",

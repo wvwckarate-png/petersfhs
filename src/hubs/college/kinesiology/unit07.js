@@ -16,6 +16,11 @@ export default {
         ] } },
         { p: "The glenoid fossa is shallow, like a golf ball on a tee, so the humeral head is only partly covered. The <strong>glenoid labrum</strong> deepens the socket, and the capsule and ligaments (glenohumeral ligaments, coracohumeral ligament) reinforce it, but the main stabilizers are muscles. The shoulder gives up stability for mobility, and its injuries reflect that deal." },
         { key: "<strong>Scapulohumeral rhythm</strong>: when you raise the arm overhead, about 180° of motion is shared between the glenohumeral joint (about 120°) and the scapula's upward rotation (about 60°), a ratio of roughly <strong>2:1</strong>. If the scapula doesn't rotate, the arm gets stuck at about 90–120° and the structures beneath the acromion get pinched." },
+        // visuals:begin s71
+        { figId: "pectoral-girdle", caption: "The pectoral girdle: clavicle and scapula attach the arm to the trunk at the sternoclavicular joint." },
+        { figId: "scapula", caption: "The scapula: acromion, coracoid, glenoid, and the scapular spine." },
+        { figId: "shoulder-joint", caption: "The glenohumeral joint with its labrum, capsule, and ligaments." },
+        // visuals:end s71
         { recap: [
           "Name the bones and four articulations of the shoulder complex.",
           "Explain why the glenohumeral joint is mobile but unstable.",
@@ -45,6 +50,11 @@ export default {
           ["<strong>S</strong>ubscapularis", "Internal rotation", "Largest cuff muscle; anterior stabilizer"],
         ] } },
         { trap: "The rotator cuff does not do the heavy lifting of shoulder movement. Its job is to <strong>steer and stabilize</strong> the humeral head against the pull of the big muscles (deltoid and pectoralis) that would otherwise drive it upward or forward out of the socket. Cuff weakness is a stability problem first and a power problem second." },
+        // visuals:begin s72
+        { figId: "humerus-muscles", caption: "Rotator cuff and deltoid, teres major, and latissimus dorsi." },
+        { figId: "pectoral-muscles", caption: "Serratus anterior, pectoralis minor, and pectoralis major." },
+        { figId: "back-muscles", caption: "Trapezius, rhomboids, levator scapulae, and latissimus dorsi." },
+        // visuals:end s72
         { recap: [
           "Match scapular and glenohumeral muscles with their actions.",
           "Recall the rotator cuff muscles using SITS and give the action of each.",
@@ -65,6 +75,10 @@ export default {
         ] } },
         { p: "<strong>The bench press</strong>: horizontal adduction and elbow extension with the scapula stabilized against the bench. Prime movers are the pectoralis major, anterior deltoid, and triceps. <strong>The pull-up</strong>: shoulder extension and adduction with scapular depression and downward rotation, by the latissimus dorsi, teres major, lower trapezius, and biceps. <strong>The overhead press</strong>: shoulder flexion and abduction with strong scapular upward rotation by the trapezius and serratus anterior." },
         { skill: { label: "Skill: Check the Scapula", text: "When assessing a shoulder, always look at the scapula first. If the shoulder blade does not glide smoothly (<strong>scapular dyskinesis</strong>) the arm cannot move normally, and the rotator cuff and biceps tendon work harder. Many shoulder complaints improve by training the lower trapezius and serratus anterior." } },
+        // visuals:begin s73
+        { figId: "flexion-extension", caption: "Shoulder flexion and extension." },
+        { figId: "abduction-adduction", caption: "Abduction: the scapula rotates upward about 1° for every 2° of humeral motion (scapulohumeral rhythm)." },
+        // visuals:end s73
         { recap: [
           "State normal ranges and prime movers for shoulder movements.",
           "Analyze the bench press, pull-up, and overhead press.",
@@ -85,6 +99,10 @@ export default {
           ["Adhesive capsulitis (frozen shoulder)", "Capsule thickens and stiffens", "Progressive loss of range, often in people 40–60; worse in diabetes"],
         ] } },
         { p: "Prevention follows from biomechanics: strengthen the rotator cuff and scapular stabilizers, keep the posterior capsule and thoracic spine mobile, avoid repetitive overhead loading without recovery, and teach throwers to use their legs and trunk so the arm does not have to produce the whole throw. The <strong>kinetic chain</strong> concept matters: in a pitch, about half of the energy comes from the legs and trunk, and the arm acts as the final link." },
+        // visuals:begin s74
+        { figId: "shoulder-joint", caption: "Impingement, rotator cuff tears, and anterior dislocation (and the Bankart lesion)." },
+        { figId: "pectoral-girdle", caption: "AC separation and clavicle fractures." },
+        // visuals:end s74
         { recap: [
           "Describe impingement, rotator cuff tears, dislocations, and frozen shoulder.",
           "List prevention strategies based on biomechanics.",

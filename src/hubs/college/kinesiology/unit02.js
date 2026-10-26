@@ -23,6 +23,11 @@ export default {
           ["Plane (gliding)", "Sliding; little movement", "Intercarpal and intertarsal joints; acromioclavicular joint"],
         ] } },
         { key: "<strong>Degrees of freedom</strong> are the number of independent directions a joint can move. A hinge has one, a condyloid two, and a ball-and-socket three. The more freedom, the less intrinsic stability, so mobile joints rely on muscle and ligament for protection." },
+        // visuals:begin s21
+        { figId: "fibrous-joints", caption: "Fibrous joints (synarthroses): sutures, syndesmoses, gomphoses." },
+        { figId: "cartilaginous-joints", caption: "Cartilaginous joints (amphiarthroses)." },
+        { figId: "synovial-types", caption: "The six types of synovial joints: hinge, pivot, ball-and-socket, condyloid, saddle, and plane." },
+        // visuals:end s21
         { recap: [
           "Classify joints as fibrous, cartilaginous, or synovial and give an example of each.",
           "Match each synovial joint type with its movement and an example.",
@@ -49,6 +54,11 @@ export default {
           ["Grade III", "Complete rupture; joint unstable"],
         ] } },
         { trap: "Ligaments are not meant to stretch. A ligament that has been stretched past its limit stays longer than before and no longer holds the joint tight. That is why a repeatedly sprained ankle keeps rolling: the passive restraint is permanently looser, and strength and balance training must take over its job." },
+        // visuals:begin s22
+        { figId: "synovial-joint", caption: "A synovial joint: capsule, synovial membrane, fluid, and articular cartilage." },
+        { figId: "bursa", caption: "A bursa reduces friction between tendon and bone." },
+        { figId: "knee-joint", caption: "The knee: menisci, cruciate ligaments, and collateral ligaments." },
+        // visuals:end s22
         { recap: [
           "Differentiate ligaments, tendons, cartilage, menisci, and capsules.",
           "Distinguish a sprain from a strain and a dislocation from a subluxation.",
@@ -76,6 +86,9 @@ export default {
         ] } },
         { p: "<strong>Flexibility</strong> is the available ROM at a joint or group of joints. <strong>Static stretching</strong> holds a position, <strong>dynamic stretching</strong> moves through the ROM, and <strong>PNF</strong> (proprioceptive neuromuscular facilitation) alternates contraction and stretch, using reflexes to relax the muscle. Research suggests that long static stretching immediately before maximal power events can slightly reduce performance, while dynamic stretching in a warm-up does not, and regular stretching over weeks increases ROM mainly by increasing stretch tolerance." },
         { key: "<strong>Passive insufficiency</strong> occurs when a two-joint muscle is stretched over both joints at once and limits motion (tight hamstrings blocking a toe touch with straight knees). <strong>Active insufficiency</strong> occurs when a two-joint muscle shortens over both joints and cannot generate force (you cannot make a strong fist with the wrist fully flexed)." },
+        // visuals:begin s23
+        { figId: "body-movements", caption: "Range of motion is measured in degrees with a goniometer." },
+        // visuals:end s23
         { recap: [
           "Define ROM and distinguish active from passive ROM.",
           "Compare static, dynamic, and PNF stretching.",
@@ -96,6 +109,10 @@ export default {
         ] } },
         { key: "A useful clinical idea is the <strong>joint-by-joint approach</strong>: joints alternate between needing mobility (ankle, hip, thoracic spine) and stability (knee, lumbar spine, scapulothoracic). When a joint that needs mobility becomes stiff, the neighboring stability joint is often forced to move too much, and that is where the pain appears. The theory is a helpful teaching tool even though its evidence is still being evaluated." },
         { worked: { label: "Worked Example 1", q: "A runner with stiff ankles (limited dorsiflexion) develops knee pain. Offer a biomechanical explanation.", a: "The tibia cannot translate forward over the foot, so the body finds the missing motion elsewhere: the knee may drift inward (valgus), the foot may over-pronate, or the heel may lift early. These compensations increase stress on the knee. Restoring ankle mobility lets the work return to the joint designed to do it." } },
+        // visuals:begin s24
+        { figId: "shoulder-joint", caption: "The shoulder is highly mobile (shallow socket) and needs muscles to stabilize." },
+        { figId: "hip-joint", caption: "The hip is stable (deep socket) and has less mobility." },
+        // visuals:end s24
         { recap: [
           "List the four sources of joint stability.",
           "Contrast the mobility and stability of the shoulder, hip, and knee.",

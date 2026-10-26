@@ -19,6 +19,9 @@ export default {
         ]),
         { p: "Athletes subject to drug testing should use only products that carry <strong>third-party certification</strong> (such as NSF Certified for Sport or Informed Sport), which test for banned substances. The <strong>World Anti-Doping Agency (WADA)</strong> maintains the Prohibited List, updated annually, covering anabolic agents, hormones, stimulants, diuretics, and masking agents, with some substances prohibited only in competition." },
         { key: "Use the <strong>Australian Institute of Sport (AIS) supplement framework</strong> or the IOC consensus statement as a guide: <em>Group A</em> supplements have strong evidence (sports foods, caffeine, creatine, beta-alanine, bicarbonate, nitrate, vitamin D and iron when deficient). Most others lack convincing support." },
+        // visuals:begin s111
+        { mol: "CN(CC(=O)O)C(=N)N", caption: "Creatine: the most researched sports supplement." },
+        // visuals:end s111
         { recap: [
           "Explain how supplements are regulated and the associated risks.",
           "Describe third-party certification and the WADA Prohibited List.",
@@ -39,6 +42,9 @@ export default {
         ]),
         { p: "<strong>Creatine</strong> is the most researched legal performance supplement. It is not a steroid, and it is a natural compound found in meat and made in the liver and kidneys. The kidney-damage worry has not held up in healthy people, though people with kidney disease should avoid it. Roughly 20–30% of people are 'non-responders', typically those who already have high muscle stores (such as heavy meat-eaters), while vegetarians, who start lower, usually respond more." },
         { worked: { label: "Worked Example 1", q: "A 70 kg athlete wants to use caffeine at 4 mg/kg before a race. How much is that? How does it compare with coffee?", a: "70 × 4 = <strong>280 mg</strong> of caffeine. A typical brewed coffee has about 80–100 mg per 240 mL (8 oz), so this is about 3 cups; but strength varies widely, so anhydrous caffeine or a known-dose product is easier to measure. Practice in training, because too much can cause jitters and GI upset." } },
+        // visuals:begin s112
+        { mols: [["CN(CC(=O)O)C(=N)N", "Creatine", "phosphocreatine"], ["Cn1cnc2c1c(=O)n(C)c(=O)n2C", "Caffeine", "blocks adenosine"], ["NCCC(=O)O", "β-Alanine", "carnosine"], ["OC(=O)[O-]", "Bicarbonate", "buffer"], ["[O-][N+](=O)[O-]", "Nitrate", "beetroot juice"]] },
+        // visuals:end s112
         { recap: [
           "Describe the evidence, dose, and side effects for creatine, caffeine, bicarbonate, beta-alanine, and nitrate.",
           "Explain why creatine is considered safe and how responses vary.",
@@ -63,6 +69,9 @@ export default {
         ]),
         { p: "<strong>Anabolic steroids</strong>, <strong>growth hormone</strong>, <strong>EPO</strong>, <strong>stimulant drugs</strong>, and <strong>SARMs</strong> are not supplements; they are banned in sport and carry serious health risks. Anabolic steroids cause suppression of natural testosterone, testicular atrophy, infertility, acne, liver damage, cardiac enlargement, adverse lipid changes, psychiatric effects, and in women virilization. Products marketed as 'prohormones' or SARMs are frequent sources of positive doping tests and health harms." },
         { trap: "'Natural' does not mean safe or permitted. Stimulants such as DMAA and ephedra were sold as herbal products and caused deaths. If a product promises dramatic results with no effort, assume there is either no effect or a hidden drug." },
+        // visuals:begin s113
+        { mols: [["CC(C)(O)CC(=O)O", "HMB", "leucine metabolite"], ["NC(=O)CC[C@H](N)C(=O)O", "Glutamine", "no benefit in healthy athletes"], ["C[N+](C)(C)C[C@H](O)CC(=O)[O-]", "Carnitine", "does not raise fat burning"]] },
+        // visuals:end s113
         { recap: [
           "Evaluate common supplements with limited evidence.",
           "Distinguish supplements from banned drugs and list steroid risks.",
@@ -84,6 +93,9 @@ export default {
         ]),
         { skill: { label: "Skill: The Supplement Conversation", text: "Ask the athlete what they take, why, and how much. Check the label against the evidence. Recommend food first, point to certified products if a supplement is justified, trial it in training (not on race day), and refer to a sports dietitian or physician when needed. Document what was agreed." } },
         { key: "<strong>Placebo effects are real</strong>: belief that a product works can improve performance a little. That can make small, safe, cheap supplements worth using for some athletes, but never at the expense of health, anti-doping rules, or the basics of sleep, training, and diet." },
+        // visuals:begin s114
+        { mol: "C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@@H]2O)CCC4=CC(=O)CC[C@]34C", caption: "Testosterone: anabolic steroids are synthetic derivatives (banned in sport)." },
+        // visuals:end s114
         { recap: [
           "Use a systematic framework to evaluate a supplement claim.",
           "List red flags in marketing.",

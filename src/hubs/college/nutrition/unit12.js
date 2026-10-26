@@ -19,6 +19,9 @@ export default {
         ]),
         { p: "<strong>Food labels</strong> in the US show serving size, calories, macronutrients, and key nutrients as a <strong>% Daily Value (%DV)</strong> based on a 2,000 kcal diet. A rule of thumb: <strong>5% DV or less is low and 20% DV or more is high</strong>. Aim for high %DV of fiber, vitamin D, calcium, iron, and potassium, and low %DV of saturated fat, sodium, and added sugars. The ingredient list is ordered by weight, so what comes first is the most abundant." },
         { worked: { label: "Worked Example 1", q: "A cereal serving has 140 kcal, 3 g fiber, and 12 g added sugar. The %DV for fiber is 11% and added sugar is 24%. What is your assessment?", a: "Fiber at 11% is moderate, but added sugar at 24% DV is <strong>high</strong> (20% or more). It supplies a lot of added sugar for a single serving, so for everyday breakfast a lower-sugar, higher-fiber cereal is better. Remember also that the stated serving size may be smaller than what you actually pour." } },
+        // visuals:begin s121
+        { figId: "myplate", caption: "MyPlate: half the plate fruits and vegetables, plus grains, protein, and dairy." },
+        // visuals:end s121
         { recap: [
           "Describe the main themes of the Dietary Guidelines and MyPlate.",
           "Read a food label using %DV and the 5/20 rule.",
@@ -39,6 +42,9 @@ export default {
         { p: "All self-reported methods share a well-known problem: <strong>underreporting</strong>, especially among people who are overweight, women, and people who are dieting or weight-conscious. Studies using doubly labeled water show that people often underreport intake by 10–30%. Good practice is to use more than one method, to use multiple days that include weekends, and to treat the results as estimates." },
         { p: "Once intake is collected, it is analyzed with nutrient databases (such as the USDA FoodData Central) and compared with <strong>DRIs</strong>. The <strong>Healthy Eating Index</strong> scores the overall quality of the diet from 0 to 100. A thorough nutrition assessment is <strong>ABCD</strong>: <strong>A</strong>nthropometric (weight, height, body composition), <strong>B</strong>iochemical (blood tests), <strong>C</strong>linical (signs, symptoms, medical history), and <strong>D</strong>ietary (intake)." },
         { key: "A single measurement is a snapshot, and trends tell the story. For an athlete, combine dietary assessment with training load, body composition, blood markers (hemoglobin, ferritin, vitamin D), and how they feel and perform." },
+        // visuals:begin s122
+        { svg: "bars; title=Self-reported vs measured energy intake; y=kcal; data=Measured:2600:#2E6BC6, Reported:2100:#C0392B; max=3000", caption: "Illustration of underreporting: people often report 10–45% less than they actually eat." },
+        // visuals:end s122
         { recap: [
           "Compare 24-hour recall, food records, and FFQs.",
           "Explain underreporting and how to reduce its effects.",
@@ -57,6 +63,10 @@ export default {
           ["Older adults (65+)", "Higher protein per meal (anabolic resistance), vitamin D, calcium, B12; hydration (reduced thirst); resistance training; maintain energy intake"],
         ]),
         { p: "<strong>Aging</strong> brings <strong>sarcopenia</strong> (loss of muscle mass and strength), <strong>osteoporosis</strong>, reduced appetite and thirst, lower stomach acid (reducing B12 absorption), and reduced skin synthesis of vitamin D. Resistance training plus adequate protein (at least 1.0–1.2 g/kg, spread across meals) and sufficient vitamin D and calcium are the foundations of healthy aging. Master athletes should pay particular attention to protein, hydration, and recovery." },
+        // visuals:begin s123
+        { figId: "bone-age", caption: "Bone mass across life: calcium needs peak in adolescence." },
+        { figId: "tissue-repair", caption: "Sarcopenia and tissue repair in older adults." },
+        // visuals:end s123
         { recap: [
           "List nutrition priorities for children and adolescents and why supplements are discouraged.",
           "Describe changes in older adults and strategies to counter sarcopenia and osteoporosis.",
@@ -79,6 +89,10 @@ export default {
         { p: "<strong>Exercise and diabetes</strong> deserves special mention for exercise professionals. In type 1 diabetes, exercise can lower glucose quickly (risk of hypoglycemia, sometimes many hours later), and insulin doses, carbohydrate intake, and monitoring must be adjusted. Very high glucose with ketones is a reason to hold off on exercise. Always know the signs of hypoglycemia (shakiness, sweating, confusion, hunger) and treat it with about 15 g of fast-acting carbohydrate, then recheck." },
         { skill: { label: "Skill: Treat Hypoglycemia (the 15–15 Rule)", text: "If a person with diabetes shows signs of low blood glucose and is conscious, give about <strong>15 g of fast-acting carbohydrate</strong> (glucose tablets, juice, or regular soda), wait 15 minutes, check again, and repeat if still low. If they are unconscious or cannot swallow, call emergency services." } },
         { key: "A practical truth runs through the course: the best nutrition plan is the one the person can <strong>actually follow</strong>, built on whole foods, adequate energy, enough protein, carbohydrates matched to training, steady hydration, and tested strategies. Everything else is refinement." },
+        // visuals:begin s124
+        { figId: "fetal-circulation", caption: "Pregnancy raises needs for folate, iron, and energy." },
+        { figId: "si-histology", caption: "Celiac disease damages the villi of the small intestine." },
+        // visuals:end s124
         { recap: [
           "List the nutrients to monitor in vegetarian and vegan athletes.",
           "State nutrition needs in pregnancy, diabetes, hypertension, and celiac disease.",

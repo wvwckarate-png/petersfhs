@@ -20,6 +20,13 @@ export default {
           ["Elastic recoil", "Tendency to return to resting size; lost in emphysema"],
           ["Airway resistance", "Mainly in the larger airways; raised in asthma and COPD"],
         ] } },
+        // visuals:begin s111
+        { figId: "resp-organs", caption: "The respiratory system." },
+        { figId: "alveoli", caption: "Alveoli: thin walls surrounded by capillaries." },
+        { figId: "boyle", caption: "Boyle's law: pressure and volume are inversely related." },
+        { figId: "pressures", caption: "Intrapulmonary and intrapleural pressures during breathing." },
+        { figId: "inspiration-expiration", caption: "Inspiration and expiration." },
+        // visuals:end s111
         { recap: [
           "List the structures of the airway and identify the dead space.",
           "Explain how pressure changes drive inspiration and expiration.",
@@ -42,6 +49,10 @@ export default {
         { worked: { label: "Worked Example 1", q: "Person A breathes 500 mL at 12 breaths/min. Person B breathes 250 mL at 24 breaths/min. Compare minute and alveolar ventilation (dead space 150 mL).", a: "Minute ventilation is <strong>6 L/min for both</strong>. Alveolar ventilation: A = (500 − 150) × 12 = <strong>4.2 L/min</strong>; B = (250 − 150) × 24 = <strong>2.4 L/min</strong>. Shallow, rapid breathing wastes much of each breath on dead space, so deep slow breaths ventilate the alveoli better." } },
         { trap: "Residual volume cannot be measured by simple spirometry because the air never leaves the lungs. Likewise, <strong>total lung capacity</strong> and <strong>functional residual capacity</strong> need other methods (helium dilution or body plethysmography)." },
         { p: "Diseases show up in the volumes. <strong>Obstructive</strong> diseases (asthma, COPD) trap air, so <strong>FEV₁/FVC is reduced</strong> (the person cannot blow air out fast). <strong>Restrictive</strong> diseases (pulmonary fibrosis, obesity, scoliosis) limit expansion, so volumes are small but FEV₁/FVC is normal or high." },
+        // visuals:begin s112
+        { figId: "spirometry", caption: "Lung volumes and capacities from a spirometer tracing." },
+        { svg: "plot; title=Forced exhalation (volume–time); x=Time (s); y=Volume exhaled (L); xlim=0:6; ylim=0:5; xticks=0,1,2,3,4,5,6; yticks=0,1,2,3,4; line=0,0 0.3,2 1,3.4 2,3.9 4,4 6,4 | #002855 | Normal; line=0,0 0.5,0.8 1,1.4 2,2.2 3,2.9 4,3.3 6,3.7 | #C0392B | Obstructive; vline=1 1 second | #888", caption: "FEV₁: in obstructive disease, less air leaves in the first second." },
+        // visuals:end s112
         { recap: [
           "Define each lung volume and capacity.",
           "Calculate minute and alveolar ventilation.",
@@ -66,6 +77,11 @@ export default {
           ["Left shift", "Lower CO₂, H⁺, temperature; fetal hemoglobin", "Hemoglobin holds O₂ more tightly"],
         ] } },
         { p: "<strong>Carbon dioxide transport</strong>: about 70% as <strong>bicarbonate</strong> (HCO₃⁻) formed in red cells by carbonic anhydrase (CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻), about 20–25% bound to hemoglobin (carbamino compounds), and about 5–10% dissolved. <strong>Carbon monoxide</strong> is dangerous because it binds hemoglobin about 200 times more tightly than O₂ and shifts the curve left; the blood can be full of CO and still be red, with the person starved of oxygen." },
+        // visuals:begin s113
+        { figId: "partial-pressure", caption: "Partial pressures drive gas exchange: each gas moves down its own gradient." },
+        { svg: "plot; title=Oxygen–hemoglobin dissociation; x=PO₂ (mmHg); y=Hb saturation (%); xlim=0:100; ylim=0:100; xticks=0,20,40,60,80,100; yticks=0,50,75,98; line=0,0 10,12 20,35 30,57 40,75 50,86 60,92 80,96 100,98 | #C0392B | Normal; line=0,0 10,8 20,22 30,42 40,60 50,74 60,84 80,93 100,96 | #E67E22 | Right shift | dash; line=0,0 10,22 20,55 30,80 40,90 50,95 60,97 100,99 | #2E7D32 | Left shift | dash; vline=40 Tissues | #002855; vline=100 Lungs | #002855", caption: "The oxygen–hemoglobin dissociation curve, and its shifts with CO₂, H⁺, temperature, and 2,3-BPG (right) or the opposite (left)." },
+        { figId: "fetal-hemoglobin", caption: "Fetal hemoglobin has a higher O₂ affinity than adult hemoglobin." },
+        // visuals:end s113
         { recap: [
           "State the partial pressures of O₂ and CO₂ in alveoli, arterial blood, and venous blood.",
           "Explain the shape of the O₂–Hb curve and factors that shift it.",
@@ -83,6 +99,9 @@ export default {
         ] } },
         { key: "In healthy people, <strong>CO₂</strong> (via H⁺) is the main driver of ventilation, not low oxygen. Hyperventilating blows off CO₂ and makes you lightheaded; breathing into a bag raises PCO₂ and settles the urge to breathe. Low O₂ becomes a major driver only below about 60 mmHg." },
         { p: "<strong>During exercise</strong> ventilation rises in proportion to metabolic rate, from 6 to over 100 L/min in trained athletes, even though arterial PO₂ and PCO₂ barely change. Therefore, exercise hyperpnea cannot be explained by blood gases alone; it is driven by <em>feedforward</em> signals from the motor cortex, input from receptors in muscles and joints, and fine tuning by chemoreceptors. At high intensities past the lactate or ventilatory threshold, ventilation rises disproportionately to buffer the extra H⁺ (CO₂ is blown off)." },
+        // visuals:begin s114
+        { figId: "respiratory-centers", caption: "The respiratory centers in the medulla and pons, with input from chemoreceptors." },
+        // visuals:end s114
         { recap: [
           "Locate the brainstem centers that set respiratory rhythm.",
           "Contrast central and peripheral chemoreceptors.",
@@ -103,6 +122,10 @@ export default {
         ] } },
         { p: "<strong>Ventilation–perfusion (V/Q) matching</strong> is the principle behind many lung diseases. Gas exchange is most efficient when ventilation (air) and perfusion (blood) match. In a blocked airway, perfusion without ventilation causes low O₂ (<strong>shunt</strong>); in a blocked vessel, ventilation without perfusion wastes air (<strong>dead space</strong>). The lung also protects itself by constricting vessels to poorly ventilated areas (<strong>hypoxic pulmonary vasoconstriction</strong>), unlike systemic vessels, which dilate in hypoxia." },
         { trap: "Hypoxia constricts <em>pulmonary</em> vessels (to redirect blood to well-ventilated alveoli) but dilates <em>systemic</em> vessels (to bring more blood to starved tissue). The same stimulus gives opposite responses because the jobs differ." },
+        // visuals:begin s115
+        { figId: "pleura", caption: "Pneumothorax and pleural effusion affect the pleural space." },
+        { figId: "lung-tissue", caption: "Lung tissue: normal alveoli." },
+        // visuals:end s115
         { recap: [
           "Compare asthma, COPD, and fibrosis.",
           "Explain V/Q matching and hypoxic pulmonary vasoconstriction.",

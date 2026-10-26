@@ -24,6 +24,14 @@ export default {
         ] } },
         { key: "<strong>Hypo-</strong> and <strong>hyper-</strong> are opposites that look alike. <em>Hypo-</em> means below or deficient (hypoglycemia is low blood sugar), and <em>hyper-</em> means above or excessive (hyperglycemia is high blood sugar). Sound out the middle of the word and the right one is easy to pick." },
         { trap: "<strong>Hypo-</strong> and <strong>hyper-</strong> are among the most commonly mixed-up prefixes in medicine, and the mistake can change a diagnosis completely. When you write or read a term, check the middle of the word against the meaning you expect." },
+        // visuals:begin s21
+        { p: "{{wp:peri-=around|card=heart|-itis=inflammation}} <strong>Pericarditis</strong>" },
+        { p: "{{wp:endo-=within|card=heart|-itis=inflammation}} <strong>Endocarditis</strong>" },
+        { p: "{{wp:epi-=above|gastr/o=stomach|-ic=pertaining to}} <strong>Epigastric</strong>" },
+        { p: "{{wp:intra-=within|ven/o=vein|-ous=pertaining to}} <strong>Intravenous</strong>" },
+        { p: "{{wp:trans-=across|derm/o=skin|-al=pertaining to}} <strong>Transdermal</strong>" },
+        { figId: "directional", caption: "Directional prefixes (supra-, infra-, ante-, post-, peri-, endo-, epi-, trans-) match directional terms." },
+        // visuals:end s21
         { recap: [
           "Recall prefixes that mean before, after, around, within, above, below, between, and across.",
           "Distinguish hypo- from hyper-.",
@@ -53,6 +61,14 @@ export default {
         ] } },
         { skill: { label: "Skill: Opposites Come in Pairs", text: "Many prefixes come as opposites: <em>brady-</em> / <em>tachy-</em>, <em>macro-</em> / <em>micro-</em>, <em>hyper-</em> / <em>hypo-</em>, <em>eu-</em> / <em>dys-</em>. Learn them as pairs and you halve the number of things to memorize." } },
         { worked: { label: "Worked Example 1", q: "A patient has a resting heart rate of 48 beats per minute. Which term best describes this?", a: "A heart rate that is too slow is <strong>bradycardia</strong>: <em>brady-</em> (slow) + <em>cardi</em> (heart) + <em>-a</em> (condition). A fast heart rate would be <em>tachycardia</em>. Note that trained athletes often have a low resting heart rate without any disease." } },
+        // visuals:begin s22
+        { p: "{{wp:hypo-=below|glyc/o=sugar|-emia=blood condition}} <strong>Hypoglycemia</strong>" },
+        { p: "{{wp:hyper-=above|glyc/o=sugar|-emia=blood condition}} <strong>Hyperglycemia</strong>" },
+        { p: "{{wp:brady-=slow|-cardia=heart condition}} <strong>Bradycardia</strong>" },
+        { p: "{{wp:tachy-=fast|-cardia=heart condition}} <strong>Tachycardia</strong>" },
+        { p: "{{wp:poly-=many|-uria=urine}} <strong>Polyuria</strong>" },
+        { p: "{{wp:hemi-=half|-plegia=paralysis}} <strong>Hemiplegia</strong>" },
+        // visuals:end s22
         { recap: [
           "Recall prefixes that mean one, two, three, four, many, large, and small.",
           "Pair brady- with tachy- and dys- with eu-.",
@@ -79,6 +95,14 @@ export default {
           ["-sclerosis", "hardening", "<em>arteriosclerosis</em>, hardening of the arteries"],
         ] } },
         { trap: "<strong>-oma</strong> means a tumor or mass, but it does not always mean cancer. A <em>lipoma</em> is a benign fatty tumor. Words for malignant tumors usually include <em>carcin/o</em> (a cancer of epithelial tissue) or <em>sarc/o</em> (a cancer of connective tissue)." },
+        // visuals:begin s23
+        { p: "{{wp:arthr/o=joint|-itis=inflammation}} <strong>Arthritis</strong>" },
+        { p: "{{wp:my/o=muscle|-pathy=disease}} <strong>Myopathy</strong>" },
+        { p: "{{wp:lip/o=fat|-oma=tumor}} <strong>Lipoma</strong>" },
+        { p: "{{wp:leuk/o=white|-penia=deficiency}} <strong>Leukopenia</strong>" },
+        { p: "{{wp:oste/o=bone|-malacia=softening}} <strong>Osteomalacia</strong>" },
+        { p: "{{wp:arteri/o=artery|-sclerosis=hardening}} <strong>Arteriosclerosis</strong>" },
+        // visuals:end s23
         { recap: [
           "Recall suffixes for inflammation, abnormal condition, disease, tumor, pain, deficiency, enlargement, softening, and hardening.",
           "Explain that -oma means tumor, not necessarily cancer.",
@@ -108,6 +132,15 @@ export default {
         { key: "<strong>-ectomy</strong> takes something <em>out</em>, <strong>-otomy</strong> makes a cut <em>into</em>, and <strong>-ostomy</strong> makes a <em>new opening</em>. A <em>gastrotomy</em> opens the stomach, a <em>gastrectomy</em> removes (part of) the stomach, and a <em>gastrostomy</em> creates a permanent opening, for example for a feeding tube." },
         { worked: { label: "Worked Example 2", q: "What is the difference between an <em>-ectomy</em>, an <em>-otomy</em>, and an <em>-ostomy</em> of the same organ?", a: "All three are surgical, but only <strong>-ectomy</strong> removes something. <strong>-otomy</strong> is a cut made into the organ, and the cut is closed again. <strong>-ostomy</strong> creates a new, lasting opening between an organ and the surface of the body." } },
         { trap: "<strong>-gram</strong>, <strong>-graph</strong>, and <strong>-graphy</strong> are easy to blur. The <em>-gram</em> is the record or image, the <em>-graph</em> is the instrument, and <em>-graphy</em> is the process of recording." },
+        // visuals:begin s24
+        { p: "{{wp:append/o=appendix|-ectomy=surgical removal}} <strong>Appendectomy</strong>" },
+        { p: "{{wp:trache/o=trachea|-otomy=incision}} <strong>Tracheotomy</strong>" },
+        { p: "{{wp:col/o=colon|-ostomy=artificial opening}} <strong>Colostomy</strong>" },
+        { p: "{{wp:rhin/o=nose|-plasty=surgical repair}} <strong>Rhinoplasty</strong>" },
+        { p: "{{wp:thorac/o=chest|-centesis=puncture to remove fluid}} <strong>Thoracentesis</strong>" },
+        { p: "{{wp:arthr/o=joint|-scopy=visual exam}} <strong>Arthroscopy</strong>" },
+        { p: "{{wp:electr/o=electricity|cardi/o=heart|-gram=record}} <strong>Electrocardiogram</strong>" },
+        // visuals:end s24
         { recap: [
           "Distinguish -ectomy, -otomy, and -ostomy.",
           "Recall suffixes for repair, fixation, suturing, puncture, viewing, recording, and measurement.",
@@ -134,6 +167,13 @@ export default {
         ] } },
         { p: "The adjective suffixes (<em>-ic, -al, -ous, -ary</em>) all mean <em>pertaining to</em>. They turn a noun-like root into a descriptive word: <em>renal</em> (pertaining to the kidney), <em>cardiac</em> (pertaining to the heart), <em>arterial</em> (pertaining to an artery)." },
         { trap: "<strong>Hypertrophy</strong> and <strong>hyperplasia</strong> both describe growth, but they are not the same. <em>-trophy</em> refers to increased <em>cell size</em> (a trained muscle fiber enlarges), while <em>-plasia</em> refers to an increase in the <em>number</em> of cells." },
+        // visuals:begin s25
+        { p: "{{wp:rhin/o=nose|-rrhea=flow}} <strong>Rhinorrhea</strong>" },
+        { p: "{{wp:hem/o=blood|-rrhage=bursting forth}} <strong>Hemorrhage</strong>" },
+        { p: "{{wp:pylor/o=pylorus|-stenosis=narrowing}} <strong>Pyloric stenosis</strong>" },
+        { p: "{{wp:hyper-=excessive|-trophy=development}} <strong>Hypertrophy</strong>" },
+        { p: "{{wp:dys-=difficult|-phagia=swallowing}} <strong>Dysphagia</strong>" },
+        // visuals:end s25
         { recap: [
           "Recall suffixes for flow, excessive flow, drooping, narrowing, swallowing, and fear.",
           "Distinguish hypertrophy from hyperplasia.",

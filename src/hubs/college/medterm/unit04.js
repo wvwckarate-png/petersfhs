@@ -15,6 +15,12 @@ export default {
         ] } },
         { p: "The skin also includes <strong>accessory structures</strong>: hair, nails, and glands. <strong>Sudoriferous (sweat) glands</strong> cool the body, and <strong>sebaceous (oil) glands</strong> release sebum, an oily secretion that lubricates the skin and hair." },
         { key: "The root <strong>kerat/o</strong> means <em>hard</em> or <em>horny</em> (the tough protein in skin, hair, and nails) <strong>and</strong> also refers to the cornea of the eye. <strong>Melan/o</strong> means black or dark, the pigment melanin that gives skin its color and helps shield it from ultraviolet light." },
+        // visuals:begin s41
+        { figId: "skin", caption: "The layers of the skin: epidermis, dermis, and hypodermis, with hair follicles and glands." },
+        { figId: "epidermis", caption: "The layers of the epidermis, from the stratum basale to the stratum corneum." },
+        { figId: "hair-follicle", caption: "A hair follicle with its sebaceous gland." },
+        { figId: "nails", caption: "The nail." },
+        // visuals:end s41
         { recap: [
           "Name the three layers of the skin and explain how each name describes its position.",
           "Distinguish sudoriferous glands from sebaceous glands.",
@@ -42,6 +48,15 @@ export default {
           ["pil/o", "hair", "<em>pilonidal</em>, nest of hair"],
         ] } },
         { skill: { label: "Skill: Color Roots", text: "Several roots are colors: <strong>erythr/o</strong> (red), <strong>cyan/o</strong> (blue), <strong>leuk/o</strong> (white), <strong>melan/o</strong> (black), <strong>xanth/o</strong> (yellow), and <strong>chlor/o</strong> (green). Together with <em>-derma</em> (skin) or <em>-cyte</em> (cell) they describe skin and blood colors in a single word." } },
+        // visuals:begin s42
+        { p: "{{wp:dermat/o=skin|-itis=inflammation}} <strong>Dermatitis</strong>" },
+        { p: "{{wp:onych/o=nail|myc/o=fungus|-osis=condition}} <strong>Onychomycosis</strong>" },
+        { p: "{{wp:hidr/o=sweat|aden/o=gland|-itis=inflammation}} <strong>Hidradenitis</strong>" },
+        { p: "{{wp:xer/o=dry|-derma=skin}} <strong>Xeroderma</strong>" },
+        { p: "{{wp:erythr/o=red|-derma=skin}} <strong>Erythroderma</strong>" },
+        { p: "{{wp:leuk/o=white|-derma=skin}} <strong>Leukoderma</strong>" },
+        { p: "{{wp:cyan/o=blue|-osis=abnormal condition}} <strong>Cyanosis</strong>" },
+        // visuals:end s42
         { recap: [
           "Recall roots for skin, hard, black, dry, oil, sweat, nail, and hair.",
           "Recall the color roots erythr/o, cyan/o, leuk/o, and melan/o.",
@@ -68,6 +83,10 @@ export default {
         ] } },
         { p: "Several words describe color or surface changes that a clinician notices on a first look: <strong>erythema</strong> (redness), <strong>pallor</strong> (paleness), <strong>cyanosis</strong> (a bluish tint from low oxygen), <strong>jaundice</strong> (yellow skin from excess bilirubin), <strong>pruritus</strong> (itching), and <strong>diaphoresis</strong> (profuse sweating)." },
         { trap: "<strong>Vesicle</strong> and <strong>bulla</strong> are both blisters, and <strong>macule</strong> and <strong>papule</strong> are both small spots. The difference is <em>size and texture</em>: a macule is flat, a papule is raised; a vesicle is under 1 cm, a bulla is over 1 cm." },
+        // visuals:begin s43
+        { figId: "burns", caption: "Degrees of burns: first, second (blisters), and third (full thickness)." },
+        { figId: "acne", caption: "Acne: blocked follicles become papules and pustules." },
+        // visuals:end s43
         { recap: [
           "Distinguish macule, papule, vesicle, bulla, pustule, and nodule.",
           "Define erythema, pallor, cyanosis, jaundice, pruritus, and diaphoresis.",
@@ -94,6 +113,12 @@ export default {
         { p: "<strong>Skin cancer</strong> comes in three main forms. <em>Basal cell carcinoma</em> is the most common and grows slowly. <em>Squamous cell carcinoma</em> can spread if untreated. <em>Melanoma</em> is the most dangerous because it arises from pigment-producing cells and can spread quickly. The <strong>ABCDE rule</strong> helps recognize melanoma: <em>Asymmetry, Border irregularity, Color variation, Diameter greater than 6 mm, Evolving</em>." },
         { p: "<strong>Burns</strong> are classified by depth. A <em>first-degree</em> burn affects only the epidermis (red, painful). A <em>second-degree</em> burn extends into the dermis (blisters). A <em>third-degree</em> burn destroys the full thickness of the skin and may involve the tissue below, and the area may be numb because nerve endings are destroyed." },
         { worked: { label: "Worked Example 1", q: "A patient has a flat brown mole that has recently grown, has an uneven border, and has two different shades. What condition should the clinician be most concerned about?", a: "These features (<strong>border irregularity, color variation, and change over time</strong>) match the ABCDE criteria for <strong>melanoma</strong>. The patient should be evaluated promptly because early detection greatly improves outcomes." } },
+        // visuals:begin s44
+        { figId: "melanoma", caption: "Melanoma: an asymmetric pigmented lesion with irregular borders and color." },
+        { figId: "bcc", caption: "Basal cell carcinoma." },
+        { figId: "scc", caption: "Squamous cell carcinoma." },
+        { figId: "eczema", caption: "Eczema (atopic dermatitis)." },
+        // visuals:end s44
         { recap: [
           "Distinguish dermatitis, psoriasis, urticaria, cellulitis, and an abscess.",
           "Name the three types of skin cancer and apply the ABCDE rule.",
@@ -117,6 +142,9 @@ export default {
           ["Subcutaneous", "Under the skin (such as an insulin injection)"],
         ] } },
         { key: "Injection routes use the prefixes you already know: <strong>intra-dermal</strong> (within the skin), <strong>sub-cutaneous</strong> (under the skin), and <strong>trans-dermal</strong> (through the skin, as with a patch). Intramuscular and intravenous follow the same pattern." },
+        // visuals:begin s45
+        { figId: "tissue-repair", caption: "Wound healing: debridement removes dead tissue so healthy tissue can repair." },
+        // visuals:end s45
         { recap: [
           "Define biopsy, debridement, graft, and incision and drainage.",
           "Distinguish intradermal, subcutaneous, and transdermal.",

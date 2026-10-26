@@ -23,6 +23,14 @@ export default {
         ] } },
         { p: "The brain and spinal cord are protected by the skull and vertebrae and wrapped in three membranes called the <strong>meninges</strong> (<em>dura mater, arachnoid mater, pia mater</em>). <strong>Cerebrospinal fluid (CSF)</strong> cushions them." },
         { key: "<strong>Afferent</strong> nerves <em>arrive</em> at the CNS (sensory), and <strong>efferent</strong> nerves <em>exit</em> it (motor). A <em>reflex arc</em> loops sensory input through the spinal cord to a motor output without waiting for the brain." },
+        // visuals:begin s91
+        { figId: "nervous-overview", caption: "The CNS and PNS." },
+        { figId: "neuron-shapes", caption: "The neuron." },
+        { figId: "meninges", caption: "The meninges." },
+        { figId: "brainstem", caption: "The brainstem." },
+        { figId: "cerebellum", caption: "The cerebellum." },
+        { figId: "cortex-lobes", caption: "The lobes of the cerebral cortex." },
+        // visuals:end s91
         { recap: [
           "Distinguish the CNS from the PNS and the somatic from the autonomic division.",
           "Describe a neuron and a synapse.",
@@ -53,6 +61,13 @@ export default {
         ] } },
         { p: "Words for loss of movement identify which parts of the body are affected: <strong>hemiplegia</strong> (one side), <strong>paraplegia</strong> (both legs and often the lower trunk), and <strong>quadriplegia</strong> (tetraplegia; all four limbs)." },
         { trap: "<strong>Anesthesia</strong> (without sensation) and <strong>analgesia</strong> (without pain) are not the same. An analgesic such as acetaminophen relieves pain but leaves other sensation. An anesthetic blocks sensation, and sometimes consciousness, so that surgery can be done." },
+        // visuals:begin s92
+        { p: "{{wp:neur/o=nerve|-logy=study of}} <strong>Neurology</strong>" },
+        { p: "{{wp:encephal/o=brain|-itis=inflammation}} <strong>Encephalitis</strong>" },
+        { p: "{{wp:mening/o=meninges|-itis=inflammation}} <strong>Meningitis</strong>" },
+        { p: "{{wp:hemi-=half|-plegia=paralysis}} <strong>Hemiplegia</strong>" },
+        { p: "{{wp:an-=without|-esthesia=sensation}} <strong>Anesthesia</strong>" },
+        // visuals:end s92
         { recap: [
           "Recall the roots for nerve, brain, meninges, spinal cord, and mind.",
           "Distinguish hemiplegia, paraplegia, and quadriplegia.",
@@ -81,6 +96,11 @@ export default {
           ["Carpal tunnel syndrome", "Compression of the median nerve at the wrist"],
         ] } },
         { worked: { label: "Worked Example 1", q: "A patient suddenly has weakness on the right side of the body and slurred speech. What term describes the weakness, and what is the likely cause?", a: "Weakness on one side is <strong>hemiparesis</strong> (hemi- half + -paresis weakness). With sudden onset and slurred speech (dysarthria), the likely cause is a <strong>cerebrovascular accident (stroke)</strong>, which needs emergency care." } },
+        // visuals:begin s93
+        { figId: "stroke", caption: "A hemorrhagic stroke." },
+        { figId: "basal-nuclei", caption: "The basal nuclei (Parkinson disease damages them)." },
+        { figId: "myelin", caption: "Myelin (damaged in multiple sclerosis)." },
+        // visuals:end s93
         { recap: [
           "Distinguish a CVA from a TIA.",
           "Define meningitis, encephalitis, epilepsy, and concussion.",
@@ -121,6 +141,10 @@ export default {
           ["Deafness", "Partial or complete loss of hearing"],
         ] } },
         { trap: "<strong>Myopia</strong> and <strong>hyperopia</strong> are easy to reverse. <em>Myopia</em> is <strong>nearsightedness</strong> (you can see near but not far). <em>Hyperopia</em> is <strong>farsightedness</strong> (you can see far but not near). <em>Hyper-</em> here means beyond, not excessive vision." },
+        // visuals:begin s94
+        { figId: "eye", caption: "The eye." },
+        { figId: "ear", caption: "The ear." },
+        // visuals:end s94
         { recap: [
           "Recall the roots for eye, retina, cornea, ear, and eardrum.",
           "Distinguish myopia, hyperopia, astigmatism, and presbyopia.",
@@ -146,6 +170,9 @@ export default {
           ["Otoscopy", "Examination of the ear with an otoscope"],
         ] } },
         { key: "Glasgow Coma Scale (GCS) scores a patient's responsiveness by eye opening, verbal response, and motor response. Scores range from <strong>3 to 15</strong>, and a lower score means a more serious level of impairment." },
+        // visuals:begin s95
+        { figId: "csf", caption: "A lumbar puncture collects CSF from the space around the spinal cord." },
+        // visuals:end s95
         { recap: [
           "Distinguish an EEG from an EMG.",
           "Explain what a lumbar puncture is used for.",

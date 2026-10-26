@@ -18,6 +18,11 @@ export default {
         ]),
         { p: "Protein quality is measured by <strong>digestibility</strong> and amino acid pattern. The modern scores are <strong>PDCAAS</strong> (protein digestibility-corrected amino acid score, maximum 1.0) and <strong>DIAAS</strong>. Egg, milk (whey and casein), and soy score at or near the top; wheat and many other plant proteins are lower. Plant-based athletes can meet all needs by eating a variety of proteins across the day (they do not need to be combined at the same meal)." },
         { key: "<strong>Whey</strong> is rapidly digested and rich in leucine, which makes it ideal around exercise. <strong>Casein</strong> forms a gel in the stomach and digests slowly, giving a long, steady supply of amino acids (a common choice before sleep)." },
+        // visuals:begin s41
+        { figId: "amino-acid", caption: "Every amino acid has an amino group, a carboxyl group, and a side chain." },
+        { mols: [["CC(C)C[C@H](N)C(=O)O", "Leucine", "BCAA"], ["CC[C@H](C)[C@H](N)C(=O)O", "Isoleucine", "BCAA"], ["CC(C)[C@H](N)C(=O)O", "Valine", "BCAA"]] },
+        { svg: "bars; title=Protein quality (PDCAAS); y=Score; data=Whey/casein/egg/soy:1.0:#2E7D32, Beef:0.92:#2E7D32, Pea:0.82:#C99700, Lentils:0.52:#C99700, Wheat gluten:0.25:#C0392B; max=1.1", caption: "Protein quality: PDCAAS compares digestibility and the limiting amino acid." },
+        // visuals:end s41
         { recap: [
           "List the nine essential amino acids and define conditionally essential.",
           "Explain protein quality, PDCAAS, and complementary proteins.",
@@ -36,6 +41,12 @@ export default {
           ["Negative", "Loss exceeds intake: net protein loss", "Starvation, severe illness, inadequate protein or energy"],
         ]),
         { trap: "Eating extra protein does not build muscle on its own. Muscle growth needs a <strong>training stimulus</strong> plus enough amino acids plus enough total energy. Surplus protein is oxidized for energy or converted to fat, and the nitrogen is excreted." },
+        // visuals:begin s42
+        { figId: "peptide-bond", caption: "A peptide bond joins two amino acids." },
+        { figId: "protein-digestion", caption: "Protein digestion: pepsin, trypsin, and brush-border peptidases." },
+        { figId: "urea-cycle", caption: "The urea cycle converts ammonia to urea." },
+        { mol: "NC(N)=O", caption: "Urea: the main nitrogen waste." },
+        // visuals:end s42
         { recap: [
           "Trace protein digestion and absorption.",
           "Explain deamination, urea, and nitrogen balance.",
@@ -58,6 +69,9 @@ export default {
         { p: "<strong>Muscle protein synthesis (MPS)</strong> rises after a meal containing protein (especially leucine) and after resistance exercise, and it stays elevated for 24–48 hours after a training session. <strong>Muscle protein breakdown</strong> rises after exercise and falls with insulin. Muscle grows when, over time, synthesis exceeds breakdown (net positive protein balance), and training makes the muscle more sensitive to the stimulus." },
         { p: "Older adults show <strong>anabolic resistance</strong>: a given dose of protein stimulates less MPS than in the young, so they benefit from a higher dose per meal (about 0.4–0.6 g/kg) and from resistance training. Protein is also satiating and has a high thermic effect, which makes higher intakes useful for managing body weight while preserving lean mass." },
         { key: "<strong>Spreading protein evenly</strong> across meals (about every 3–5 hours, with about 0.3–0.4 g/kg per meal) tends to give more total MPS across the day than eating most of it at dinner. A pre-sleep dose (30–40 g of casein) can support overnight recovery." },
+        // visuals:begin s43
+        { svg: "plot; title=MPS after a lifting session; x=Hours after training; y=MPS (× resting); xlim=0:48; ylim=0.8:3.5; xticks=0,12,24,36,48; yticks=1,2,3; line=0,1 3,2.3 8,2.9 16,2.4 24,1.8 36,1.3 48,1 | #C0392B; hline=1 Resting | #888", caption: "Muscle protein synthesis rises after resistance exercise and stays elevated for 24–48 hours." },
+        // visuals:end s43
         { recap: [
           "Give protein recommendations for the sedentary, endurance, and strength-training populations.",
           "Describe how MPS responds to protein intake and resistance exercise.",
@@ -81,6 +95,9 @@ export default {
         { p: "<strong>Supplements</strong> are convenient but not magical: whole foods supply the same amino acids with extra nutrients. Whey, casein, soy, and pea are the main powders. <strong>Individual BCAA supplements</strong> add little if total protein is adequate. <strong>Creatine</strong> and <strong>HMB</strong> are separate topics covered later." },
         { p: "<strong>Safety</strong>: in healthy people with normal kidney function, high protein intakes (up to about 2 g/kg and probably higher) have not been shown to harm the kidneys or bones. People with existing <strong>chronic kidney disease</strong> must limit protein under medical guidance because the kidney excretes the nitrogen load. Extremely high intakes can displace carbohydrate and fiber, raise cost, and offer no further benefit." },
         { skill: { label: "Skill: Build a Protein Day", text: "For a 70 kg athlete aiming at 1.6 g/kg (112 g): breakfast with three eggs and yogurt (about 30 g), lunch with chicken and rice (about 35 g), a snack of cottage cheese (about 20 g), and dinner with fish and lentils (about 35 g). Four feedings of 20–40 g each reach the target without any powder." } },
+        // visuals:begin s44
+        { svg: "bars; title=Protein (g); y=g of protein; data=Chicken/100 g:30:#C0392B, Greek yogurt/200 g:19:#2E6BC6, Lentils/1 cup:18:#2E7D32, Whey/1 scoop:23:#7A3FB8, Egg/1 large:6:#C99700; max=34", caption: "Protein content of common foods." },
+        // visuals:end s44
         { recap: [
           "Estimate protein in common foods.",
           "Evaluate protein supplements.",

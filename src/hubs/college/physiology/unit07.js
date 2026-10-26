@@ -15,6 +15,12 @@ export default {
         ] } },
         { p: "Water-soluble hormones cannot cross the membrane, so they bind a surface receptor and trigger a <strong>second messenger</strong> system (for example, cAMP) that amplifies the signal. Lipid-soluble hormones slip across the membrane, bind receptors in the cytoplasm or nucleus, and change <strong>gene transcription</strong>, which is why steroid hormones take hours to act but last longer." },
         { key: "Hormone effects depend on three things: the hormone's <strong>concentration</strong>, the number of <strong>receptors</strong> on the target (up-regulation or down-regulation), and the <strong>affinity</strong> of the receptor. Chronically high hormone levels often down-regulate receptors, which is how <em>insulin resistance</em> develops." },
+        // visuals:begin s71
+        { figId: "endocrine", caption: "The major endocrine glands." },
+        { figId: "hormone-structures", caption: "Amine, peptide, and steroid hormone structures." },
+        { figId: "water-hormone", caption: "Water-soluble hormones act through surface receptors and second messengers." },
+        { figId: "lipid-hormone", caption: "Lipid-soluble hormones cross the membrane and change gene expression." },
+        // visuals:end s71
         { recap: [
           "Define hormone, target cell, and receptor.",
           "Contrast peptide and steroid hormones in solubility, receptor location, and speed.",
@@ -39,6 +45,11 @@ export default {
         ] } },
         { p: "Most anterior pituitary hormones are controlled by <strong>long-loop negative feedback</strong>. The hypothalamus releases TRH, which releases TSH, which releases thyroid hormone, which inhibits both TSH and TRH. The same pattern governs the cortisol axis (CRH → ACTH → cortisol) and the gonadal axes." },
         { trap: "<strong>Posterior pituitary hormones are not made in the pituitary.</strong> ADH and oxytocin are synthesized by hypothalamic neurons and merely stored and released from the posterior lobe." },
+        // visuals:begin s72
+        { figId: "hypothalamus-pituitary", caption: "The hypothalamus controls the posterior pituitary by nerve fibers and the anterior pituitary by portal blood vessels." },
+        { figId: "pituitary-hormones", caption: "The major pituitary hormones and their targets." },
+        { figId: "neg-feedback-endo", caption: "Negative feedback in the hypothalamic–pituitary axis." },
+        // visuals:end s72
         { recap: [
           "Contrast the neural and vascular links between the hypothalamus and the two pituitary lobes.",
           "Name the anterior pituitary hormones and their targets.",
@@ -62,6 +73,11 @@ export default {
           ["Calcitriol (active vitamin D)", "Kidney (activated)", "Raises: increases intestinal absorption"],
         ] } },
         { key: "<strong>PTH is the main calcium regulator.</strong> When blood Ca²⁺ falls, PTH rises, bone releases calcium, the kidneys keep it, and vitamin D activation boosts gut absorption. Low calcium makes nerves hyperexcitable, producing tetany, spasms, and tingling." },
+        // visuals:begin s73
+        { figId: "goiter", caption: "A goiter: enlarged thyroid, often from iodine deficiency." },
+        { figId: "parathyroid", caption: "The four parathyroid glands, behind the thyroid." },
+        { figId: "pth-calcium", caption: "PTH, calcitonin, and vitamin D regulate blood calcium." },
+        // visuals:end s73
         { recap: [
           "Describe the actions of thyroid hormones and the effects of hypo- and hyperthyroidism.",
           "Explain how PTH, calcitonin, and vitamin D regulate calcium.",
@@ -84,6 +100,10 @@ export default {
           ["Addison's disease", "Adrenal cortex failure (often autoimmune)", "Fatigue, low blood pressure, low glucose, skin darkening"],
         ] } },
         { trap: "Epinephrine and cortisol are both 'stress hormones,' but they operate on different clocks. Epinephrine acts within <em>seconds</em> (nerve-driven, from the medulla). Cortisol acts over <em>hours to days</em> (hormone-driven, from the cortex)." },
+        // visuals:begin s74
+        { figId: "adrenal", caption: "The adrenal cortex (aldosterone, cortisol, androgens) and the medulla (epinephrine)." },
+        { mols: [["C[C@]12CCC(=O)C=C1CC[C@@H]3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@]4(C(=O)CO)O)C)O", "Cortisol", "a steroid"], ["CNC[C@H](O)c1ccc(O)c(O)c1", "Epinephrine", "an amine"]] },
+        // visuals:end s74
         { recap: [
           "List the adrenal zones and the hormone from each.",
           "Contrast the effects and timing of epinephrine and cortisol.",
@@ -109,6 +129,10 @@ export default {
         ] } },
         { p: "<strong>Exercise improves glucose control</strong>. Contracting muscle takes up glucose through a route that does not need insulin (contraction itself moves GLUT4 to the membrane), and regular training increases insulin sensitivity. This is why exercise is a first-line treatment for type 2 diabetes." },
         { key: "Untreated diabetes produces high glucose (<strong>hyperglycemia</strong>), glucose in the urine, and water loss from osmotic diuresis (thirst, frequent urination). Lack of insulin forces fat breakdown and ketone production, which can become life-threatening <strong>diabetic ketoacidosis</strong>." },
+        // visuals:begin s75
+        { figId: "pancreas", caption: "The islets of Langerhans in the pancreas (alpha cells: glucagon; beta cells: insulin)." },
+        { figId: "glucose-regulation", caption: "Insulin and glucagon keep blood glucose in a narrow range." },
+        // visuals:end s75
         { recap: [
           "Compare insulin and glucagon in source, trigger, and action.",
           "Distinguish type 1 from type 2 diabetes.",

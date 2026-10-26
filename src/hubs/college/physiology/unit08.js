@@ -27,6 +27,11 @@ export default {
           ["M line", "Center of the sarcomere"],
         ] } },
         { key: "In a contraction, the <strong>A band stays the same length</strong> while the <strong>I band and H zone shrink</strong>. The filaments themselves do not get shorter: they slide past each other, which is the sliding filament theory." },
+        // visuals:begin s81
+        { figId: "muscle-types", caption: "Skeletal, cardiac, and smooth muscle." },
+        { figId: "muscle-fiber", caption: "Skeletal muscle organization: muscle, fascicle, fiber, myofibril, sarcomere." },
+        { svg: "sarcomere; relaxed", caption: "The sarcomere at rest: Z lines, thin (actin) and thick (myosin) filaments, A and I bands." },
+        // visuals:end s81
         { recap: [
           "Compare skeletal, cardiac, and smooth muscle.",
           "Name the connective tissue layers of a muscle.",
@@ -57,6 +62,13 @@ export default {
         ] } },
         { key: "<strong>ATP is needed to <em>release</em> the cross-bridge, not just to power it.</strong> This is why <strong>rigor mortis</strong> sets in after death: ATP runs out, myosin cannot detach, and the muscles stiffen until proteins eventually break down." },
         { trap: "Calcium does not directly bind myosin or actin. It binds <strong>troponin</strong>, which moves tropomyosin out of the way. In smooth muscle, the system is different: Ca²⁺ binds <strong>calmodulin</strong> instead, which activates myosin light-chain kinase." },
+        // visuals:begin s82
+        { figId: "nmj", caption: "The neuromuscular junction: ACh from the motor neuron binds receptors on the motor end plate." },
+        { figId: "t-tubule", caption: "T-tubules carry the action potential to the sarcoplasmic reticulum, which releases Ca²⁺." },
+        { figId: "sarcomere", caption: "Ca²⁺ binds troponin, tropomyosin moves aside, and myosin heads bind actin." },
+        { figId: "contraction", caption: "The cross-bridge cycle: attach, power stroke, detach, re-cock." },
+        { svg: "sarcomere; contracted", caption: "In contraction the thin filaments slide inward: the I band and H zone shrink, but the A band does not." },
+        // visuals:end s82
         { recap: [
           "Trace the steps from a motor neuron action potential to cross-bridge formation.",
           "Describe the four phases of the cross-bridge cycle.",
@@ -81,6 +93,12 @@ export default {
           ["Isotonic eccentric", "Lengthens while generating force", "Lowering the dumbbell slowly"],
         ] } },
         { trap: "Eccentric contractions generate the <strong>highest forces</strong> and the <strong>most muscle damage</strong>. That is why running downhill or lowering weights slowly causes the worst delayed-onset muscle soreness." },
+        // visuals:begin s83
+        { figId: "twitch", caption: "A single twitch." },
+        { figId: "summation", caption: "Wave summation and tetanus: at high frequency, twitches fuse." },
+        { figId: "length-tension", caption: "The length–tension relationship: force is greatest near the resting sarcomere length." },
+        { figId: "contraction-types", caption: "Isometric, concentric, and eccentric contractions." },
+        // visuals:end s83
         { recap: [
           "Explain wave summation and tetanus.",
           "Define a motor unit and the size principle.",
@@ -104,6 +122,11 @@ export default {
         { p: "Training changes fibers. <strong>Endurance training</strong> raises mitochondrial density, capillary density, and oxidative enzymes, and increases VO₂ max, with little change in fiber size. <strong>Resistance training</strong> produces <strong>hypertrophy</strong> (larger fibers from more myofibrils), primarily in type II fibers, and strong early gains come from <strong>neural adaptation</strong> (better recruitment and synchronization) before any size change." },
         { p: "<strong>Fatigue</strong> has many causes, and the culprit depends on the task: depletion of phosphocreatine and glycogen, accumulation of P<sub>i</sub> and H⁺, impaired Ca²⁺ release, and central (nervous system) factors. Lactate is not the villain." },
         { worked: { label: "Worked Example 1", q: "Why do the first few weeks of a strength program raise strength much more than muscle size?", a: "Early gains are largely <strong>neural</strong>: the nervous system learns to recruit more motor units, fire them faster, and coordinate agonists and antagonists better. Muscle protein accumulates more slowly, so visible hypertrophy generally follows over weeks to months." } },
+        // visuals:begin s84
+        { figId: "hypertrophy", caption: "Hypertrophy: training enlarges muscle fibers." },
+        { figId: "atrophy", caption: "Atrophy: disuse shrinks muscle fibers." },
+        { figId: "muscle-metabolism", caption: "Muscle metabolism: creatine phosphate, glycolysis, and oxidative metabolism supply ATP." },
+        // visuals:end s84
         { recap: [
           "Compare the three fiber types.",
           "Contrast the adaptations to endurance and resistance training.",
@@ -122,6 +145,10 @@ export default {
           ["Delayed-onset muscle soreness", "Microdamage and inflammation 24–72 h after unfamiliar eccentric work"],
           ["Muscle cramp", "Involuntary sustained contraction; multiple causes, including fatigue-driven nerve hyperexcitability"],
         ] } },
+        // visuals:begin s85
+        { figId: "smooth-muscle", caption: "Smooth muscle: spindle-shaped cells with a single nucleus." },
+        { figId: "motor-units", caption: "Single-unit smooth muscle contracts as a unit through gap junctions." },
+        // visuals:end s85
         { recap: [
           "Compare smooth muscle contraction with skeletal muscle contraction.",
           "Describe the mechanism of myasthenia gravis and muscular dystrophy.",

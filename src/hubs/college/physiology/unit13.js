@@ -16,6 +16,12 @@ export default {
           ["GIP", "Duodenum", "Glucose and fat", "Stimulates insulin release (incretin effect)"],
         ] } },
         { p: "Digestion is divided into the <strong>cephalic phase</strong> (before food arrives: sight, smell, and thought of food, via the vagus), the <strong>gastric phase</strong> (food in the stomach), and the <strong>intestinal phase</strong> (chyme entering the duodenum, which both continues digestion and shuts down the stomach, a negative feedback loop)." },
+        // visuals:begin s131
+        { figId: "digestive", caption: "The components of the digestive system." },
+        { figId: "gi-layers", caption: "The four layers of the GI wall: mucosa, submucosa, muscularis externa, and serosa." },
+        { figId: "peristalsis", caption: "Peristalsis moves contents forward." },
+        { figId: "segmentation", caption: "Segmentation mixes contents." },
+        // visuals:end s131
         { recap: [
           "List the layers of the GI wall and the role of the enteric nervous system.",
           "Match each GI hormone with its source, trigger, and action.",
@@ -41,6 +47,13 @@ export default {
           ["Fat", "Bile emulsifies; pancreatic lipase", "Fatty acids and monoglycerides"],
           ["Nucleic acids", "Nucleases", "Nucleotides"],
         ] } },
+        // visuals:begin s132
+        { figId: "salivary", caption: "The salivary glands." },
+        { figId: "stomach", caption: "The stomach and its cell types." },
+        { figId: "gastric-phases", caption: "The cephalic, gastric, and intestinal phases of gastric secretion." },
+        { figId: "small-intestine", caption: "The small intestine." },
+        { figId: "si-histology", caption: "Villi and microvilli multiply the absorptive area." },
+        // visuals:end s132
         { recap: [
           "Describe the digestive role of each organ.",
           "Explain how the stomach protects itself and what causes most ulcers.",
@@ -64,6 +77,16 @@ export default {
         ] } },
         { key: "Fat absorption differs from everything else: fat is repackaged into <strong>chylomicrons</strong> that are too big for capillaries, so they travel through the <strong>lymphatic system</strong> before reaching the blood. Carbohydrate and protein go straight to the liver by the portal vein." },
         { p: "<strong>Exercise and digestion:</strong> during hard exercise, sympathetic vasoconstriction cuts GI blood flow, so large meals right before exercise feel terrible and some endurance athletes get GI distress. After a meal, fluid absorption in the gut is the practical limit on how fast you can rehydrate, which is why sports drinks contain sodium and glucose, which are absorbed together by SGLT1 and pull water along." },
+        // visuals:begin s133
+        { figId: "accessory-organs", caption: "The liver, gallbladder, and pancreas." },
+        { figId: "liver", caption: "A liver lobule." },
+        { figId: "gallbladder", caption: "The gallbladder and bile ducts." },
+        { figId: "pancreas-exocrine", caption: "Exocrine and endocrine pancreas." },
+        { figId: "lipid-absorption", caption: "Fat absorption: micelles, chylomicrons, and the lacteal." },
+        { figId: "protein-digestion", caption: "Protein digestion." },
+        { figId: "carb-digestion", caption: "Carbohydrate digestion and absorption." },
+        { figId: "portal-system", caption: "The hepatic portal system." },
+        // visuals:end s133
         { recap: [
           "Describe the liver's major functions and the first-pass effect.",
           "Explain how bile aids fat digestion and why chylomicrons use the lymph.",
@@ -86,6 +109,10 @@ export default {
           ["Cirrhosis", "Scarring of the liver; portal hypertension and failure"],
         ] } },
         { trap: "Celiac disease is an <strong>autoimmune</strong> disease, not an allergy or simple intolerance. Lactose intolerance is an enzyme deficiency. Mixing these up is a classic clinical-vignette trap." },
+        // visuals:begin s134
+        { figId: "large-intestine", caption: "The large intestine." },
+        { figId: "esophagus", caption: "The esophagus and the lower esophageal sphincter (GERD)." },
+        // visuals:end s134
         { recap: [
           "Describe the functions of the colon and gut microbiome.",
           "Distinguish celiac disease from lactose intolerance.",
@@ -109,6 +136,11 @@ export default {
         ] } },
         { p: "<strong>Heat acclimatization</strong> takes about 1–2 weeks of exercise in the heat and produces earlier and more dilute sweating, expanded plasma volume, and lower heart rate at a given workload. In the cold, the response reverses: skin vasoconstriction, <strong>shivering thermogenesis</strong>, and non-shivering heat production from brown fat." },
         { trap: "Heat stroke is defined by <strong>mental status change</strong>, not by whether the person is still sweating. Many exertional heat stroke victims are still sweating profusely." },
+        // visuals:begin s135
+        { figId: "thermoregulation", caption: "The hypothalamus controls thermoregulation." },
+        { figId: "skin-thermoreg", caption: "Skin blood flow and sweating control heat loss." },
+        { svg: "bars; title=Where the energy goes; y=% of energy; data=Mechanical work:25:#2E6BC6, Heat:75:#C0392B; max=100; unit=%", caption: "Muscles are about 25% efficient: most of the energy becomes heat that must be removed." },
+        // visuals:end s135
         { recap: [
           "List the routes of heat loss and the one that works in hot air.",
           "Explain cardiovascular drift.",

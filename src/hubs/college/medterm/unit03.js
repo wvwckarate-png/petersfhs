@@ -18,6 +18,10 @@ export default {
         ] } },
         { p: "There are four basic tissue types. <strong>Epithelial</strong> tissue covers surfaces and lines cavities. <strong>Connective</strong> tissue supports and connects (bone, blood, fat, tendons). <strong>Muscle</strong> tissue contracts to produce movement. <strong>Nervous</strong> tissue carries electrical signals." },
         { key: "The order from small to large is <strong>cell → tissue → organ → system → organism</strong>. If a question asks which is larger, a system always contains organs, and an organ always contains tissues." },
+        // visuals:begin s31
+        { figId: "levels-org", caption: "Levels of organization: chemical, cellular, tissue, organ, organ system, organism." },
+        { figId: "tissue-types", caption: "The four tissue types: epithelial, connective, muscle, and nervous." },
+        // visuals:end s31
         { recap: [
           "Put the levels of organization in order from smallest to largest.",
           "Name the four basic tissue types and give a function for each.",
@@ -45,6 +49,9 @@ export default {
         ] } },
         { p: "Two position words describe a person lying down. <strong>Supine</strong> means lying face up (on the back). <strong>Prone</strong> means lying face down (on the stomach)." },
         { trap: "<strong>Proximal</strong> and <strong>distal</strong> are used mainly for the limbs and for tubes such as the intestine or a blood vessel. For the trunk, use superior and inferior instead. Also, <em>supine</em> and <em>prone</em> are easy to reverse: a way to remember is that you can hold a bowl of <em>soup</em> in a <em>supine</em> position (face up)." },
+        // visuals:begin s32
+        { figId: "directional", caption: "Directional terms: superior/inferior, anterior/posterior, medial/lateral, proximal/distal, superficial/deep." },
+        // visuals:end s32
         { recap: [
           "Describe the anatomical position.",
           "Pair the directional terms into opposites.",
@@ -64,6 +71,9 @@ export default {
         ] } },
         { key: "A <strong>sagittal</strong> plane runs front-to-back and separates <em>left from right</em>. A <strong>coronal</strong> plane runs side-to-side and separates <em>front from back</em>. A <strong>transverse</strong> plane runs across and separates <em>top from bottom</em>." },
         { skill: { label: "Skill: Match the Plane to the Movement", text: "In kinesiology the same planes describe how joints move. Movements like flexion and extension happen in the <strong>sagittal plane</strong> (forward and back, like a bicep curl). Abduction and adduction happen in the <strong>coronal plane</strong> (out to the side). Rotation happens in the <strong>transverse plane</strong> (twisting)." } },
+        // visuals:begin s33
+        { figId: "planes", caption: "The sagittal, frontal (coronal), and transverse planes." },
+        // visuals:end s33
         { recap: [
           "Name the three planes and say what each one divides.",
           "Tell a midsagittal plane from other sagittal planes.",
@@ -82,6 +92,10 @@ export default {
         { p: "The thoracic cavity is separated from the abdominopelvic cavity by the <strong>diaphragm</strong>, the dome-shaped muscle of breathing. The thoracic cavity also contains the <strong>mediastinum</strong>, the central space that holds the heart, great vessels, trachea, and esophagus. The abdominopelvic cavity can be divided into an upper <em>abdominal cavity</em> and a lower <em>pelvic cavity</em>." },
         { p: "Serous membranes line these cavities and cover the organs. The <strong>pleura</strong> surrounds the lungs, the <strong>pericardium</strong> surrounds the heart, and the <strong>peritoneum</strong> lines the abdominal cavity and covers its organs." },
         { trap: "The abdominopelvic cavity is <strong>ventral</strong>, not dorsal. Remember that the dorsal cavity is the one near the back and holds the central nervous system, while the ventral cavity holds almost everything else." },
+        // visuals:begin s34
+        { figId: "cavities", caption: "The dorsal (cranial and spinal) and ventral (thoracic and abdominopelvic) body cavities." },
+        { figId: "serous", caption: "Serous membranes: parietal and visceral layers with a fluid-filled space." },
+        // visuals:end s34
         { recap: [
           "Name the two main cavities and their subdivisions.",
           "Match organs to the cavity that holds them.",
@@ -101,6 +115,9 @@ export default {
         ] } },
         { p: "A more detailed system uses nine regions: <strong>right hypochondriac, epigastric, left hypochondriac</strong> across the top; <strong>right lumbar, umbilical, left lumbar</strong> through the middle; and <strong>right iliac (inguinal), hypogastric (pubic), left iliac (inguinal)</strong> across the bottom." },
         { worked: { label: "Worked Example 1", q: "A patient has tenderness in the right lower quadrant. Which organ is most likely involved?", a: "The classic organ in the RLQ is the <strong>appendix</strong>. RLQ pain that starts around the navel and moves to the right lower abdomen is a textbook sign of <strong>appendicitis</strong>." } },
+        // visuals:begin s35
+        { figId: "quadrants", caption: "The four abdominal quadrants (RUQ, LUQ, RLQ, LLQ) and the nine regions." },
+        // visuals:end s35
         { recap: [
           "Name the four abdominal quadrants and one organ in each.",
           "Name the nine abdominopelvic regions.",
@@ -126,6 +143,10 @@ export default {
           ["Palmar", "Palm of the hand", "palm/o"],
         ] } },
         { p: "The body also has <strong>eleven organ systems</strong>: integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic/immune, respiratory, digestive, urinary, and reproductive. The rest of this course takes them one at a time." },
+        // visuals:begin s36
+        { figId: "appendicular", caption: "Body regions: the appendicular region (limbs) and the axial region (head, neck, trunk)." },
+        { figId: "axial", caption: "The axial skeleton." },
+        // visuals:end s36
         { recap: [
           "Name the body regions and their root words.",
           "List the eleven organ systems.",

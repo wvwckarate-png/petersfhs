@@ -19,6 +19,10 @@ export default {
         ]),
         { p: "The <strong>sciatic nerve</strong> usually leaves the pelvis below the piriformis through the greater sciatic foramen, which is why a tight or spasming piriformis can irritate it (piriformis syndrome). The safe place for an intramuscular injection is the <strong>upper outer quadrant of the buttock</strong>, away from the sciatic nerve, or increasingly the ventrogluteal site (over the gluteus medius and minimus), which has no major nerves or vessels." },
         { key: "<strong>The Trendelenburg sign</strong> tests the superior gluteal nerve and the gluteus medius. When the patient stands on one leg, the pelvis should rise on the opposite side. If it drops instead, the gluteus medius on the stance side is weak or its nerve is damaged." },
+        // visuals:begin s81
+        { figId: "gluteal-muscles", caption: "Gluteal muscles that move the femur." },
+        { figId: "pelvic-floor", caption: "The pelvic floor muscles." },
+        // visuals:end s81
         { recap: [
           "Name the gluteal and hip muscles with their innervation.",
           "Explain the safe site for intramuscular injections.",
@@ -38,6 +42,9 @@ export default {
         { fig: { src: "/anatomy/g432.png", alt: "Transverse section of the thigh: Anterior, medial, and posterior compartments with muscles, femur, vessels, and nerves.", caption: "Transverse section of the thigh.", credit: "Source: Gray's Anatomy (1918), Fig. 432, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray432.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { p: "The <strong>femoral triangle</strong> (bounded by the inguinal ligament, the sartorius, and the adductor longus) contains, from lateral to medial, the femoral <strong>N</strong>erve, <strong>A</strong>rtery, <strong>V</strong>ein, and <strong>E</strong>mpty space with lymphatics (<strong>NAVEL</strong>). The femoral pulse is felt here, and it is the site of cardiac catheterization. The <strong>adductor canal</strong> carries the femoral vessels down the thigh to the popliteal fossa." },
         { trap: "The <strong>adductor magnus</strong> has two parts supplied by two nerves: the adductor part by the obturator nerve and the hamstring part by the sciatic (tibial) nerve. It is the only thigh muscle with a dual supply, which makes it a favorite exam question." },
+        // visuals:begin s82
+        { figId: "muscles-ant-post", caption: "The muscles of the thigh." },
+        // visuals:end s82
         { recap: [
           "Name the muscles of the three thigh compartments and their nerves.",
           "Identify the sartorius and the VMO.",
@@ -58,6 +65,10 @@ export default {
         { fig: { src: "/anatomy/g441.png", alt: "Tendons around the ankle, lateral view: Tibialis anterior, extensor digitorum longus, peroneal tendons, and the retinacula.", caption: "Tendons around the ankle, lateral view.", credit: "Source: Gray's Anatomy (1918), Fig. 441, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray441.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { p: "<strong>Intrinsic foot muscles</strong> lie in four layers on the plantar surface and support the arches and move the toes. The <strong>plantar fascia</strong> (aponeurosis) spans from the calcaneus to the metatarsal heads and is the structure inflamed in plantar fasciitis. The <strong>tibialis posterior</strong> is the major dynamic supporter of the medial longitudinal arch, and its failure leads to an acquired flat foot." },
         { key: "<strong>Foot drop</strong> can come from a lesion of the common fibular nerve (or L5 root, or deep fibular nerve), which weakens the dorsiflexors and evertors. The person lifts the knee higher in swing to clear the toes (a steppage gait), and the foot may slap down at heel strike." },
+        // visuals:begin s83
+        { figId: "leg-muscles", caption: "Muscles of the leg that move the foot and toes." },
+        { figId: "foot-muscles", caption: "Intrinsic muscles of the foot." },
+        // visuals:end s83
         { recap: [
           "Name the compartments of the leg with their muscles and nerves.",
           "Describe compartment syndrome and its warning sign.",
@@ -79,6 +90,9 @@ export default {
         ]),
         { p: "Arterial supply begins with the <strong>external iliac artery</strong>, which becomes the <strong>femoral artery</strong> at the inguinal ligament. The <strong>profunda femoris</strong> (deep femoral) is the main supply to the thigh muscles. The femoral artery becomes the <strong>popliteal artery</strong> behind the knee, then divides into the <strong>anterior tibial</strong> (continuing as the <strong>dorsalis pedis</strong>) and the <strong>posterior tibial</strong> (felt behind the medial malleolus). Veins include the <strong>great saphenous</strong> (medial, empties into the femoral vein in the groin) and <strong>small saphenous</strong> (posterior, empties into the popliteal vein)." },
         { p: "<strong>Venous return</strong> from the legs works against gravity through valves and the calf muscle pump. Failure of the valves allows blood to pool, producing <strong>varicose veins</strong> and chronic venous insufficiency. Immobility (long flights, bed rest) increases the risk of a <strong>deep vein thrombosis (DVT)</strong>, which can send a clot to the lungs (pulmonary embolism), so the calf pump is a cardiovascular as well as an orthopedic structure." },
+        // visuals:begin s84
+        { figId: "varicose-vein", caption: "Varicose veins." },
+        // visuals:end s84
         { recap: [
           "List the nerves of the lower limb with roots and injuries.",
           "Trace the arterial supply from the external iliac to the foot.",

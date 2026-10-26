@@ -17,6 +17,12 @@ export default {
         { p: "The <strong>brachialis</strong> is the workhorse of elbow flexion: it lies under the biceps, attaches only to the ulna, and acts no matter whether the forearm is pronated or supinated. The <strong>biceps</strong> is a two-joint muscle (shoulder and elbow) and a powerful supinator, which is why it is strongest with a supinated grip. The <strong>brachioradialis</strong> works best with a neutral (thumbs-up) grip, as in a hammer curl." },
         { p: "The ligaments matter, too. The <strong>ulnar collateral ligament (UCL)</strong> resists valgus stress on the medial elbow and is stressed in every overhand throw; UCL reconstruction ('Tommy John surgery') is a famous baseball procedure. The <strong>radial collateral</strong> ligament resists varus stress on the lateral side." },
         { key: "Forearm rotation is easy to forget: <strong>supination turns the palm up</strong> and <strong>pronation turns it down</strong>. The radius rotates around a nearly fixed ulna, crossing over it during pronation, so the two bones are parallel in supination and crossed in pronation." },
+        // visuals:begin s81
+        { figId: "elbow-joint", caption: "The elbow: humeroulnar and humeroradial joints, with the annular and collateral ligaments." },
+        { figId: "ulna-radius", caption: "The radius rotates around the ulna in pronation and supination." },
+        { figId: "forearm-muscles", caption: "Forearm flexors, extensors, pronators, and supinators." },
+        { figId: "pronation-supination", caption: "Pronation (palm down) and supination (palm up)." },
+        // visuals:end s81
         { recap: [
           "Name the three joints of the elbow complex and their movements.",
           "Match elbow and forearm movements with their prime movers.",
@@ -46,6 +52,11 @@ export default {
           ["Hook grip", "Fingers flex without the thumb", "Carrying a suitcase handle"],
         ] } },
         { key: "<strong>Wrist position changes grip strength.</strong> A slightly extended wrist (about 15–30°) gives the strongest grip because the finger flexors work at an ideal length. A flexed wrist weakens grip by causing active insufficiency of the finger flexors." },
+        // visuals:begin s82
+        { figId: "hand-bones", caption: "The carpal bones, metacarpals, and phalanges." },
+        { figId: "carpal-tunnel", caption: "The carpal tunnel: the median nerve and nine flexor tendons pass under the flexor retinaculum." },
+        { figId: "hand-muscles", caption: "Intrinsic muscles of the hand: thenar, hypothenar, lumbricals, and interossei." },
+        // visuals:end s82
         { recap: [
           "Name the carpal bones and the one most often fractured.",
           "Identify wrist movements and their prime movers.",
@@ -67,6 +78,9 @@ export default {
         ] } },
         { p: "<strong>Tendinopathy</strong> in the elbow is better described as degenerative than inflammatory, so the best treatment is progressive loading (especially eccentric and heavy slow resistance work) rather than anti-inflammatory medication alone." },
         { trap: "'Tennis elbow' is by far more common in people who do not play tennis. It is an overuse condition of the wrist extensors, and a computer mouse or a screwdriver can cause it as easily as a backhand." },
+        // visuals:begin s83
+        { figId: "forearm-muscles", caption: "Tennis elbow (lateral epicondylitis) and golfer's elbow (medial epicondylitis) are tendon overuse conditions at the common extensor and flexor origins." },
+        // visuals:end s83
         { recap: [
           "Distinguish lateral from medial epicondylitis.",
           "Describe carpal tunnel syndrome and its symptoms.",

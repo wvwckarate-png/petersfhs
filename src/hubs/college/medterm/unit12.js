@@ -21,6 +21,12 @@ export default {
           ["Basophil", "Release histamine in inflammation and allergy"],
         ] } },
         { key: "<strong>Hemoglobin</strong> is the iron-containing protein in red blood cells that binds oxygen. <strong>Hematocrit</strong> is the percentage of blood volume made up of red blood cells. Both rise with training at altitude and fall in anemia." },
+        // visuals:begin s121
+        { figId: "blood-composition", caption: "Components of blood: plasma, red cells, white cells, platelets." },
+        { figId: "rbc-shape", caption: "Red blood cells." },
+        { figId: "granulocytes", caption: "White blood cells (granulocytes)." },
+        { figId: "platelets", caption: "Platelets." },
+        // visuals:end s121
         { recap: [
           "Name the formed elements of blood and give a function for each.",
           "Name the five types of white blood cell and one role for each.",
@@ -58,6 +64,13 @@ export default {
           ["Hemostasis", "Stopping of bleeding"],
         ] } },
         { trap: "<strong>-penia</strong> means a <em>deficiency</em> (too few), and <strong>-cytosis</strong> means an <em>increase</em> (too many). <em>Leukopenia</em> is too few white cells, and <em>leukocytosis</em> is too many." },
+        // visuals:begin s122
+        { p: "{{wp:erythr/o=red|-poiesis=formation}} <strong>Erythropoiesis</strong>" },
+        { p: "{{wp:leuk/o=white|-emia=blood condition}} <strong>Leukemia</strong>" },
+        { p: "{{wp:thromb/o=clot|cyt/o=cell|-penia=deficiency}} <strong>Thrombocytopenia</strong>" },
+        { p: "{{wp:an-=without|-emia=blood condition}} <strong>Anemia</strong>" },
+        { p: "{{wp:poly-=many|cyt/o=cell|-emia=blood condition}} <strong>Polycythemia</strong>" },
+        // visuals:end s122
         { recap: [
           "Recall the roots for blood, red, white, clot, lymph, and spleen.",
           "Distinguish -penia from -cytosis.",
@@ -89,6 +102,10 @@ export default {
           ["Phlebotomy / venipuncture", "Drawing blood from a vein"],
         ] } },
         { worked: { label: "Worked Example 1", q: "A lab report shows a very high white blood cell count and a fever. What terms describe the finding, and what is the likely cause?", a: "An increased white blood cell count is <strong>leukocytosis</strong> (leuk/o white + cyt cell + -osis increase). With a fever it suggests <strong>infection</strong>, although very high counts can also occur in <strong>leukemia</strong>, so further testing may be needed." } },
+        // visuals:begin s123
+        { figId: "sickle-cells", caption: "Sickle cell disease." },
+        { figId: "clotting", caption: "Blood clotting." },
+        // visuals:end s123
         { recap: [
           "Distinguish anemia from polycythemia and leukemia from lymphoma.",
           "Explain what a CBC and a differential show.",
@@ -119,6 +136,13 @@ export default {
           ["Lymphadenopathy", "Disease or enlargement of lymph nodes"],
         ] } },
         { key: "<strong>Autoimmune</strong> diseases include type 1 diabetes, rheumatoid arthritis, multiple sclerosis, and lupus. In each one the immune system mistakes part of the body for a threat." },
+        // visuals:begin s124
+        { figId: "lymphatic", caption: "The lymphatic system." },
+        { figId: "lymph-node", caption: "A lymph node." },
+        { figId: "spleen", caption: "The spleen." },
+        { figId: "thymus", caption: "The thymus." },
+        { figId: "antibody", caption: "An antibody." },
+        // visuals:end s124
         { recap: [
           "List the parts of the lymphatic system and one function of each.",
           "Distinguish an antigen from an antibody.",

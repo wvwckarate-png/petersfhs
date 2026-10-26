@@ -17,6 +17,11 @@ export default {
         ]),
         { p: "<strong>Bone mass</strong> accumulates through the teens and twenties, peaks at about 25–30, and then slowly declines. Adequate calcium, vitamin D, weight-bearing exercise, protein, and energy in the growth years bank bone for later life. <strong>Osteoporosis</strong> is the loss of bone density that makes fractures likely, particularly in postmenopausal women. Some athletes, particularly female distance runners, dancers, and gymnasts, develop low bone density from low energy availability and menstrual disruption (see the unit on weight management)." },
         { key: "<strong>Calcium absorption</strong> is about 30% of what is eaten, helped by vitamin D, and best in doses of 500 mg or less at a time. Oxalates (spinach) and phytates (whole grains) bind calcium and reduce absorption; calcium in dairy, fortified foods, and low-oxalate greens (kale, bok choy) is well absorbed." },
+        // visuals:begin s61
+        { figId: "bone-class", caption: "Bone is the body's calcium reservoir (99% of calcium)." },
+        { svg: "plot; title=Bone mass across life; x=Age (years); y=Bone mass (relative); xlim=0:90; ylim=0:100; xticks=0,20,30,50,70,90; yticks=0; line=0,10 10,40 20,85 30,100 45,98 55,88 70,68 90,50 | #C0392B; vline=30 Peak ≈ 25–30 | #002855", caption: "Peak bone mass is reached at about 25–30; what you build early determines your reserve." },
+        { figId: "osteoporosis-spine", caption: "Osteoporosis: vertebrae can collapse." },
+        // visuals:end s61
         { recap: [
           "State the roles, RDAs, and sources of calcium, phosphorus, and magnesium.",
           "Explain how bone mass builds and why weight-bearing exercise matters.",
@@ -35,6 +40,9 @@ export default {
         { p: "A salt-heavy, potassium-poor diet is linked to <strong>hypertension</strong>. The <strong>DASH diet</strong> (rich in fruit, vegetables, low-fat dairy, whole grains, and low in sodium) can lower systolic blood pressure by several mmHg, and reduced sodium adds to the effect. Most people consume well over 3,000 mg of sodium daily." },
         { p: "<strong>Athletes</strong> lose sodium in sweat, typically 0.5–1.0 g per liter of sweat but with great individual variation (some are 'salty sweaters' with white residue on clothes and skin). Heavy sweaters in long events may need sodium replacement, which also helps retain fluid and reduces the risk of <strong>hyponatremia</strong> (low blood sodium) caused by drinking excessive plain water. For most short workouts, normal food covers the losses." },
         { trap: "'Electrolyte' drinks are not required for most workouts under about an hour. Plain water and a meal replace what is lost, and sweating out a gram of sodium is a small share of the daily sodium most people already eat." },
+        // visuals:begin s62
+        { svg: "bars; title=Sodium and potassium (mg/day); y=mg/day; data=Sodium limit:2300:#C0392B, Typical intake:3400:#E67E22, Potassium AI (men):3400:#2E7D32, Potassium AI (women):2600:#2E7D32; max=3800", caption: "Sodium: typical intake is above the limit; potassium: typical intake is below the target." },
+        // visuals:end s62
         { recap: [
           "Describe the roles and recommended intakes of sodium and potassium.",
           "Explain the DASH diet and its effect on blood pressure.",
@@ -56,6 +64,11 @@ export default {
         ]),
         { p: "<strong>Iron</strong> deserves the most attention in sport. Heme iron is absorbed at about 15–35%, non-heme iron at about 2–20%, and absorption of non-heme iron <strong>rises with vitamin C</strong> and meat, and <strong>falls with phytates, polyphenols (tea and coffee), and calcium</strong>. Endurance athletes lose iron through sweat, gastrointestinal bleeding, foot-strike hemolysis, and (in women) menstruation. Female athletes, adolescent athletes, vegetarians, and distance runners are most at risk. Iron deficiency (low ferritin) can reduce performance even before anemia appears." },
         { key: "<strong>Do not supplement iron without testing.</strong> Iron overload (hemochromatosis) is dangerous, and extra iron causes constipation and nausea. A blood test for hemoglobin and <strong>ferritin</strong> (the storage protein) tells whether a supplement is needed, and a clinician should guide the dose." },
+        // visuals:begin s63
+        { figId: "hemoglobin", caption: "Iron sits in heme at the center of each hemoglobin chain." },
+        { figId: "goiter", caption: "Iodine deficiency causes a goiter." },
+        { figId: "rbc-shape", caption: "Iron-deficiency anemia: small, pale red cells." },
+        // visuals:end s63
         { recap: [
           "Describe the roles and RDAs of iron, zinc, and iodine.",
           "Explain heme and non-heme iron absorption and enhancers and inhibitors.",
@@ -75,6 +88,10 @@ export default {
         ]),
         { p: "Evidence for performance benefit from mineral supplements in people who are not deficient is weak. <strong>Magnesium</strong> supplements have mixed evidence for cramps. <strong>Zinc</strong> lozenges may shorten colds slightly if started early, but long-term high doses cause copper deficiency. <strong>Calcium and vitamin D together</strong> have the best evidence for bone health in older adults. The principle is the same as with vitamins: correct a documented shortfall and otherwise eat a varied diet." },
         { worked: { label: "Worked Example 1", q: "A vegetarian female runner has fatigue, a low ferritin, and eats fortified cereal and spinach. How can she improve her iron status?", a: "She should have her ferritin and hemoglobin confirmed by a clinician and supplement if indicated. To improve absorption she can eat non-heme sources (beans, lentils, fortified cereal) <strong>with vitamin C</strong> (citrus, peppers, strawberries), drink tea and coffee <strong>away from meals</strong>, and separate calcium supplements from iron-rich meals. Spinach is a poor iron source because oxalates bind its iron." } },
+        // visuals:begin s64
+        { figId: "bone-vitd", caption: "Vitamin D and calcium work together for bone mineralization." },
+        { figId: "fracture-repair", caption: "Stress fractures and the stages of bone repair." },
+        // visuals:end s64
         { recap: [
           "List mineral concerns, at-risk groups, and strategies.",
           "Evaluate mineral supplements in athletes who are not deficient.",

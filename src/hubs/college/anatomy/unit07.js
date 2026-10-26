@@ -21,6 +21,10 @@ export default {
           ["Serratus anterior", "Outer surface of ribs 1–8", "Medial border of the scapula", "Protracts and upwardly rotates the scapula", "Long thoracic"],
         ]),
         { p: "A useful trick for the rotator cuff is the <strong>SITS</strong> acronym (supraspinatus, infraspinatus, teres minor, subscapularis) and their three insertions on the greater tubercle plus one on the lesser tubercle. The <strong>long thoracic nerve</strong> is the only nerve to the serratus anterior and runs along the lateral chest wall, where it can be injured in breast and axillary surgery, causing a winged scapula. The <strong>axillary nerve</strong> wraps around the surgical neck of the humerus and is injured in fractures there or in anterior dislocations." },
+        // visuals:begin s71
+        { figId: "humerus-muscles", caption: "Muscles that move the humerus." },
+        { figId: "pectoral-muscles", caption: "Muscles that position the pectoral girdle." },
+        // visuals:end s71
         { recap: [
           "Give the origin, insertion, action, and nerve for the main shoulder muscles.",
           "Explain winged scapula and axillary nerve injury.",
@@ -42,6 +46,9 @@ export default {
         { fig: { src: "/anatomy/g418.png", alt: "Superficial extensor muscles of the forearm: Posterior forearm muscles that extend the wrist and fingers.", caption: "Superficial extensor muscles of the forearm.", credit: "Source: Gray's Anatomy (1918), Fig. 418, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray418.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { fig: { src: "/anatomy/g419.png", alt: "Deep extensor muscles of the forearm: Supinator, abductor pollicis longus, extensor pollicis longus and brevis, and extensor indicis.", caption: "Deep extensor muscles of the forearm.", credit: "Source: Gray's Anatomy (1918), Fig. 419, public domain, via <a href='https://commons.wikimedia.org/wiki/File:Gray419.png' target='_blank' rel='noopener noreferrer'>Wikimedia Commons</a>." } },
         { key: "<strong>Nerve territory shortcut:</strong> the <em>musculocutaneous</em> nerve supplies the arm flexors, the <em>radial</em> nerve supplies everything that extends (the entire back of the arm and forearm), the <em>median</em> nerve supplies most forearm flexors, and the <em>ulnar</em> nerve supplies the flexor carpi ulnaris, the medial half of the flexor digitorum profundus, and most of the small hand muscles." },
+        // visuals:begin s72
+        { figId: "forearm-muscles", caption: "Muscles that move the forearm." },
+        // visuals:end s72
         { recap: [
           "Name the muscles of each compartment and their actions.",
           "State the nerve supply for each compartment.",
@@ -62,6 +69,9 @@ export default {
         { p: "A mnemonic to remember the interossei: <strong>DAB</strong> and <strong>PAD</strong>. <em>Dorsal</em> interossei <em>ab</em>duct, and <em>palmar</em> interossei <em>ad</em>duct the fingers. For the nerves: the <strong>median nerve</strong> supplies the <em>LOAF</em> muscles (lateral two lumbricals, opponens pollicis, abductor pollicis brevis, flexor pollicis brevis), and the <strong>ulnar nerve</strong> supplies almost all the rest." },
         { p: "<strong>Hand deformities</strong> help localize nerve lesions. <em>Ape hand</em> (loss of thumb opposition, a flat thenar eminence) suggests a median nerve lesion, as in severe carpal tunnel syndrome. <em>Claw hand</em> (hyperextended MCP and flexed IP joints in the ring and little fingers) suggests an ulnar nerve lesion. <em>Wrist drop</em> suggests a radial nerve lesion. <em>Hand of benediction</em> (inability to flex the index and middle fingers when making a fist) suggests a proximal median nerve lesion." },
         { trap: "Do not confuse the <strong>ulnar paradox</strong>: a <em>higher</em> ulnar lesion gives <em>less</em> clawing than a lower one, because the medial half of the flexor digitorum profundus is also paralyzed and cannot flex the fingers as strongly." },
+        // visuals:begin s73
+        { figId: "hand-muscles", caption: "Intrinsic muscles of the hand." },
+        // visuals:end s73
         { recap: [
           "List the intrinsic hand muscle groups and their nerve supply.",
           "Use DAB/PAD and LOAF to recall actions and innervation.",
@@ -87,6 +97,9 @@ export default {
           ["Long thoracic injury", "Mastectomy or axillary surgery", "Winged scapula"],
         ]),
         { p: "The main arterial supply is the <strong>subclavian artery</strong>, which becomes the <strong>axillary artery</strong> at the first rib, the <strong>brachial artery</strong> in the arm (the site for taking blood pressure), and divides at the elbow into the <strong>radial</strong> and <strong>ulnar</strong> arteries. The radial pulse at the wrist is the one commonly taken. The superficial veins, the <strong>cephalic</strong> (lateral), <strong>basilic</strong> (medial), and <strong>median cubital</strong> (connecting them at the elbow) are the classic sites for venipuncture." },
+        // visuals:begin s74
+        { figId: "spinal-plexuses", caption: "Spinal nerve plexuses." },
+        // visuals:end s74
         { recap: [
           "Outline the brachial plexus from roots to branches.",
           "Name the injuries to the plexus and their appearance.",

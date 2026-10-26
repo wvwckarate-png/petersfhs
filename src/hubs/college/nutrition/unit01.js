@@ -19,6 +19,9 @@ export default {
         { p: "These <strong>Atwater factors</strong> let you convert grams on a label to calories. A candy bar with 30 g carbohydrate, 5 g protein, and 12 g fat has about (30 × 4) + (5 × 4) + (12 × 9) = 120 + 20 + 108 = <strong>248 kcal</strong>. Fat's energy density explains why a tablespoon of oil (about 120 kcal) is a heavier contribution than a whole apple (about 95 kcal)." },
         { worked: { label: "Worked Example 1", q: "A serving of granola lists 40 g carbohydrate, 8 g protein, and 15 g fat. How many kcal? What percentage comes from fat?", a: "Carbohydrate: 40 × 4 = 160 kcal. Protein: 8 × 4 = 32 kcal. Fat: 15 × 9 = 135 kcal. Total = <strong>327 kcal</strong>. Fat percentage = 135 ÷ 327 = <strong>about 41%</strong>. Notice that fat is only 15 of the 63 total grams (24% by weight), but contributes 41% of the energy." } },
         { key: "The <strong>Acceptable Macronutrient Distribution Ranges (AMDR)</strong> for adults are 45–65% of energy from carbohydrate, 20–35% from fat, and 10–35% from protein. Athletes often sit toward the high end of carbohydrate and their protein needs are expressed per kilogram of body weight rather than as a percentage." },
+        // visuals:begin s11
+        { svg: "bars; title=Energy per gram; y=kcal per gram; data=Carbohydrate:4:#2E6BC6, Protein:4:#C0392B, Fat:9:#C99700, Alcohol:7:#7A3FB8", caption: "Energy per gram (Atwater factors): fat has more than twice the energy of carbohydrate or protein." },
+        // visuals:end s11
         { recap: [
           "Convert between kcal and kJ and state the Atwater factors.",
           "Calculate the energy content and macronutrient percentages of a food.",
@@ -40,6 +43,9 @@ export default {
         { p: "Common equations estimate RMR. The <strong>Mifflin–St Jeor</strong> equation is widely used: for men, RMR = (10 × weight in kg) + (6.25 × height in cm) − (5 × age) + 5; for women, the same with −161 at the end. Multiply the result by an activity factor (about 1.2 for sedentary, up to 1.9 or more for very active people) to estimate TDEE." },
         { worked: { label: "Worked Example 2", q: "Estimate the RMR of a 20-year-old man who weighs 75 kg and is 180 cm tall.", a: "RMR = (10 × 75) + (6.25 × 180) − (5 × 20) + 5 = 750 + 1,125 − 100 + 5 = <strong>1,780 kcal/day</strong>. With a moderate activity factor of 1.55, TDEE is about 1,780 × 1.55 ≈ <strong>2,760 kcal/day</strong>." } },
         { trap: "NEAT is the swing factor. Two people with the same weight and the same workout can differ by several hundred kcal a day in total expenditure because one fidgets, paces, and stands and the other sits. Most 'slow metabolism' stories turn out to be differences in NEAT, intake, or both." },
+        // visuals:begin s12
+        { svg: "bars; title=Components of daily energy expenditure; y=Typical kcal; data=RMR:1800:#2E6BC6, TEF:250:#C99700, NEAT:400:#7A3FB8, Exercise:500:#C0392B; max=2000", caption: "TDEE = RMR + thermic effect of food + NEAT + exercise (an example for an active adult)." },
+        // visuals:end s12
         { recap: [
           "List the four components of TDEE and their approximate shares.",
           "Explain what determines RMR.",
@@ -59,6 +65,9 @@ export default {
         ]),
         { p: "The <strong>law of thermodynamics</strong> is not the problem. Energy balance explains why weight changes, but it does not explain <em>why</em> a person eats more or less. Appetite is regulated by hormones (<strong>leptin</strong> from fat cells, <strong>ghrelin</strong> from the stomach, insulin, and peptides from the gut), by the brain's reward systems, by sleep, stress, food environment, and habit. This is why diets fail through biology as often as through willpower." },
         { key: "<strong>Adaptive thermogenesis</strong> means the body lowers its energy expenditure by more than expected from the lost weight when intake is cut, and appetite hormones push in the other direction. It is a major reason weight loss slows and maintenance is hard." },
+        // visuals:begin s13
+        { svg: "plot; title=Energy balance and weight; x=Weeks; y=Weight change (kg); xlim=0:12; ylim=-6:6; xticks=0,4,8,12; yticks=-4,0,4; line=0,0 4,-1.8 8,-3.2 12,-4.1 | #2E7D32 | −500 kcal/day; line=0,0 4,1.8 8,3.6 12,5.4 | #C0392B | +500 kcal/day; hline=0 Weight stable | #888", caption: "A 500 kcal daily deficit or surplus changes weight by about 0.45 kg a week at first, and the rate slows as expenditure adapts." },
+        // visuals:end s13
         { recap: [
           "Define positive and negative energy balance.",
           "Explain why the 7,700 kcal per kg rule is only approximate.",
@@ -79,6 +88,9 @@ export default {
         ]),
         { p: "<strong>Indirect calorimetry</strong> also gives the <strong>respiratory exchange ratio (RER = VCO₂ ÷ VO₂)</strong>, which reveals the mix of fuels being oxidized. An RER of about <strong>0.70</strong> means almost pure fat oxidation, about <strong>1.00</strong> means pure carbohydrate, and values in between show a mixture. At rest the RER is about 0.80–0.85. During very intense exercise it can exceed 1.0 because CO₂ from bicarbonate buffering of lactic acid is also blown off." },
         { worked: { label: "Worked Example 3", q: "A person has VO₂ = 2.0 L/min and VCO₂ = 1.8 L/min during steady cycling. Find the RER and the approximate energy cost per minute.", a: "RER = 1.8 ÷ 2.0 = <strong>0.90</strong>, suggesting a mixture of mostly carbohydrate with some fat. With about 4.9 kcal per liter of O₂, energy cost ≈ 2.0 × 4.9 ≈ <strong>9.8 kcal/min</strong>." } },
+        // visuals:begin s14
+        { svg: "plot; title=RER and fuel use; x=Exercise intensity (% VO₂ max); y=RER; xlim=0:100; ylim=0.65:1.05; xticks=0,25,50,75,100; yticks=0.7,0.85,1.0; line=0,0.82 25,0.84 50,0.88 75,0.95 100,1.02 | #C0392B; hline=0.7 Fat only | #888; hline=1.0 Carbohydrate only | #888", caption: "The respiratory exchange ratio (VCO₂ ÷ VO₂) rises from about 0.7 for pure fat toward 1.0 for pure carbohydrate as exercise intensity rises." },
+        // visuals:end s14
         { recap: [
           "Compare direct calorimetry, indirect calorimetry, and doubly labeled water.",
           "Explain RER and what values of 0.70 and 1.00 mean.",
