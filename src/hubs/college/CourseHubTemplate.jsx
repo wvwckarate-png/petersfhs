@@ -12,7 +12,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { storage } from "../../lib/storage";
-import RichText from "../shared/RichText";
+import StructText from "./StructText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import CourseIcon from "./CourseIcon";
@@ -79,6 +79,18 @@ const EXTRA_CSS = `
   .wp-table td em{color:#8A6500; font-style:normal; font-weight:700;}
   @media (max-width:520px){ .wp-table{font-size:13.5px;} .wp-table th, .wp-table td{padding:8px 10px;} .wp-table td:first-child{white-space:normal;} }
   .mt-card{perspective:1200px;}
+  .mol{max-width:100%; height:auto; vertical-align:middle;}
+  .mol text{font-family:'Nunito','Manrope',sans-serif;}
+  .mol-inline{display:inline-block; vertical-align:middle; margin:2px 4px; line-height:0;}
+  .wp-table td .mol-inline, .wp-table td .mol{margin:2px 6px 2px 0;}
+  .mol-fig{margin:20px auto; max-width:640px; background:#fff; border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:var(--shadow); text-align:center;}
+  .mol-fig figcaption{margin-top:8px; font-size:13.5px; color:#2E332E; line-height:1.5;}
+  .mol-fig .mol{max-width:100%;}
+  .mol-row{display:flex; flex-wrap:wrap; gap:12px; justify-content:center; margin:20px 0;}
+  .mol-row figure{margin:0; background:#fff; border:1px solid var(--border); border-radius:14px; padding:10px 12px 8px; box-shadow:var(--shadow); text-align:center; min-width:120px;}
+  .mol-row figcaption{margin-top:6px; font-size:12.5px; color:#2E332E; font-weight:700; line-height:1.3;}
+  .mol-row figcaption span{display:block; font-weight:500; color:#6B7280; font-size:11.5px;}
+  .mol-missing{color:#B42318; font-size:12px;}
   .wp-fig{margin:22px auto; max-width:640px; background:#fff; border:1px solid var(--border); border-radius:16px; padding:14px; box-shadow:var(--shadow); text-align:center;}
   .wp-fig img{max-width:100%; max-height:520px; width:auto; height:auto; border-radius:8px; background:#fff;}
   .wp-fig figcaption{margin-top:10px; font-size:13.5px; color:#2E332E; line-height:1.5; text-align:left;}
@@ -96,7 +108,8 @@ function shuffled(arr) {
 }
 
 export default function CourseHubTemplate({ course, content }) {
-  const { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS } = content;
+  const { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS, STRUCTS } = content;
+  const RichText = useMemo(() => function RichText(props) { return <StructText text={props.text} structs={STRUCTS} />; }, [STRUCTS]);
   const hubKey = `college-${course.id}`;
   const MCQ_STORAGE_KEY = `${hubKey}-mcq-progress-v1`;
   const NAV_STORAGE_KEY = `${hubKey}-last-nav-v1`;
@@ -434,7 +447,7 @@ export default function CourseHubTemplate({ course, content }) {
 
                     <button style={{ ...F.card, ...(flipped ? F.cardBack : {}) }} onClick={() => setFlipped(!flipped)} aria-label={flipped ? "Show term" : "Show meaning"}>
                       <div style={F.cardSide}>{flipped ? "Meaning" : "Term"}</div>
-                      <div style={flipped ? F.cardMeaning : F.cardTerm}>{flipped ? card.meaning : card.term}</div>
+                      <div style={flipped ? F.cardMeaning : F.cardTerm}><RichText text={flipped ? card.meaning : card.term} /></div>
                       {flipped && card.note && <div style={F.cardNote}>{card.note}</div>}
                       <div style={F.cardHint}>{flipped ? "Tap to flip back" : "Tap to reveal the meaning"}</div>
                       {mark === "know" && <div style={F.knownBadge}>✓ known</div>}

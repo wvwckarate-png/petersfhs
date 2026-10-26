@@ -53,8 +53,18 @@ export function buildQuestions(unitId, tuples) {
   });
 }
 
+const STRUCT_TOKEN = /\{\{(mol|rxn|svg):([\s\S]+?)\}\}/g;
+/** Replace {{mol:...}} / {{rxn:...}} tokens in HTML with their pre-rendered SVG. */
+export function expandStructs(html, structs) {
+  return html.replace(STRUCT_TOKEN, (all, kind, spec) => structs?.[`${kind}:${spec}`] || `<span class="mol-missing">[structure missing]</span>`);
+}
+
 function renderBlock(b) {
   if (b.p) return `  <p>${b.p}</p>`;
+  if (b.mol) return `  <figure class="mol-fig">{{mol:${b.mol}}}${b.caption ? `<figcaption>${b.caption}</figcaption>` : ""}</figure>`;
+  if (b.svg) return `  <figure class="mol-fig">{{svg:${b.svg}}}${b.caption ? `<figcaption>${b.caption}</figcaption>` : ""}</figure>`;
+  if (b.rxn) return `  <figure class="mol-fig">{{rxn:${b.rxn}}}${b.caption ? `<figcaption>${b.caption}</figcaption>` : ""}</figure>`;
+  if (b.mols) return `  <div class="mol-row">${b.mols.map(([smi, name, note]) => `<figure>{{${smi.startsWith("svg:") ? smi : `mol:${smi}`}}}<figcaption>${name}${note ? `<span>${note}</span>` : ""}</figcaption></figure>`).join("")}</div>`;
   if (b.fig) return `  <figure class="wp-fig">\n    <a href="${b.fig.src}" target="_blank" rel="noopener noreferrer" title="Open full size"><img src="${b.fig.src}" alt="${esc(b.fig.alt)}" loading="lazy" /></a>\n    <figcaption><strong>${b.fig.caption}</strong> <span class="wp-credit">${b.fig.credit}</span></figcaption>\n  </figure>`;
   if (b.table) {
     const head = b.table.headers.map((h) => `<th>${h}</th>`).join("");
@@ -118,14 +128,14 @@ ${answers}
 }
 
 /** Assemble the content bundle the generic course page expects. */
-export function buildCourseContent(courseLabel, units) {
+export function buildCourseContent(courseLabel, units, structs = {}) {
   const UNITS = [], STUDY_CONTENT = {}, QUESTIONS = {}, FLASHCARDS = {};
   units.forEach((u) => {
     const qs = buildQuestions(u.id, u.questions);
     UNITS.push({ id: u.id, name: u.name, tag: `${u.cards.length} cards` });
     QUESTIONS[u.id] = qs;
     FLASHCARDS[u.id] = u.cards.map(([term, meaning, note]) => (note ? { term, meaning, note } : { term, meaning }));
-    STUDY_CONTENT[u.id] = buildStudyHtml(courseLabel, u, qs.length);
+    STUDY_CONTENT[u.id] = expandStructs(buildStudyHtml(courseLabel, u, qs.length), structs);
   });
-  return { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS };
+  return { UNITS, STUDY_CONTENT, QUESTIONS, FLASHCARDS, STRUCTS: structs };
 }

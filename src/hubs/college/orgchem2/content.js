@@ -1,4 +1,5 @@
 import { buildCourseContent } from "../builders";
+import STRUCTS from "./structures.generated";
 import unit01 from "./unit01";
 import unit02 from "./unit02";
 import unit03 from "./unit03";
@@ -25,4 +26,4 @@ export const ORGO2_CONTENT = buildCourseContent("Organic Chemistry 2", [
   unit10,
   unit11,
   unit12,
-]);
+], STRUCTS);
