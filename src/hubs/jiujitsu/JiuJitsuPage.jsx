@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { C, CSS } from "./theme";
-import { EnsoMark } from "./Mark";
+import { SankakuMark } from "./Mark";
 import { useStore, PEOPLE } from "./store";
 import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, TimerView, QuizView, CardsView, ProgressView, RulesView } from "./views";
 
@@ -46,7 +46,7 @@ export default function JiuJitsuPage() {
       <style>{CSS}</style>
       <header className="jj-top">
         <div className="jj-top-in">
-          <a className="jj-brand" href="#/"><EnsoMark size={38} /> Jiu-Jitsu</a>
+          <a className="jj-brand" href="#/"><SankakuMark size={34} /> Jiu-Jitsu</a>
           <nav className="jj-nav" aria-label="Jiu-Jitsu hub">
             {NAV.map(([h, n]) => <a key={h} href={h} className={activeKey === h ? "on" : ""}>{n}</a>)}
           </nav>

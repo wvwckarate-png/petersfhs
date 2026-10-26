@@ -53,7 +53,7 @@ function triangleShape({ radius, sweepFrac, drift }) {
 function buildBristles({ n, points, seed, width, curve }) {
   const rand = rng(seed), out = [];
   for (let k = 0; k < n; k++) {
-    const u = (k + 0.5) / n, e = Math.abs(2 * u - 1), off0 = (u - 0.5) * width;
+    const u0 = (k + 0.5) / n, u = 0.5 + Math.sign(u0 - 0.5) * Math.pow(Math.abs(2 * u0 - 1), 0.8) / 2, e = Math.abs(2 * u - 1), off0 = (u - 0.5) * width * 1.12; // spread beyond the body so the edges feather
     const t0 = rand() * 0.012;
     // The stroke narrows to ~45% of its width by the end, so the red tail keeps body and still frays into streaks.
     const tFull = Math.pow(Math.max(0.0001, (1 - e * 0.95) / 0.55), 1 / 1.4);
@@ -74,13 +74,39 @@ function buildBristles({ n, points, seed, width, curve }) {
   return out;
 }
 
-export function Brush({ shape = "circle", size = 120, progress = 1, stops = BELT_STOPS, bristles = 110, points = 90, seed = 11, thickness = 17, radius, start = 108, sweep = 326, drift = 2.6, splatter = true, style, title, x, y }) {
+// The solid body of the stroke: overlapping round-capped segments that narrow slightly, then taper where the ink runs thin.
+function buildCore({ curve, thickness, seed, segs = 16 }) {
+  const rand = rng(seed + 7), out = [], END = 0.84;
+  for (let i = 0; i < segs; i++) {
+    const ta = (i / segs) * END, tb = Math.min(END, ((i + 1.6) / segs) * END), mid = (ta + tb) / 2;
+    const prof = mid < 0.6 ? 1 - 0.1 * mid : 0.94 - (mid - 0.6) * 2.1;
+    let d = "";
+    for (let k = 0; k <= 8; k++) { const t = ta + ((tb - ta) * k) / 8, [x, y] = curve(t, (rand() - 0.5) * 0.9); d += `${k ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`; }
+    out.push({ d, ta, tb, w: thickness * Math.max(0.3, prof) * (i === 0 ? 0.9 : 0.74 + rand() * 0.07) });
+  }
+  return out;
+}
+// Thin gaps cut through the body where the brush skipped: more of them toward the dry end.
+function buildScratches({ curve, thickness, seed, n }) {
+  const rand = rng(seed + 31), out = [];
+  for (let i = 0; i < n; i++) {
+    const u = (rand() - 0.5) * 0.8, ts = 0.22 + rand() * 0.62, te = Math.min(0.98, ts + 0.05 + rand() * 0.16);
+    let d = "";
+    for (let k = 0; k <= 14; k++) { const t = ts + ((te - ts) * k) / 14, [x, y] = curve(t, u * thickness * 0.7 + Math.sin(t * 20 + i) * 0.12); d += `${k ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`; }
+    out.push({ d, w: Math.max(0.1, thickness * (0.008 + rand() * 0.022)), o: 0.7 + rand() * 0.3 });
+  }
+  return out;
+}
+
+export function Brush({ shape = "circle", size = 120, progress = 1, stops = BELT_STOPS, bristles = 150, points = 90, seed = 11, thickness = 19, radius, start = 108, sweep = 326, drift = 2.6, splatter = true, style, title, x, y }) {
   const uid = useId().replace(/:/g, "");
   const tri = shape === "triangle";
   const geo = useMemo(() => (tri ? triangleShape({ radius: radius ?? 40, sweepFrac: sweep / 360 > 0.99 ? 0.93 : sweep / 360, drift: drift * 0.5 }) : circleShape({ radius: radius ?? 35.5, start, sweep, drift })), [tri, radius, start, sweep, drift]);
   const data = useMemo(() => buildBristles({ n: bristles, points, seed, width: thickness, curve: geo.curve }), [bristles, points, seed, thickness, geo]);
+  const core = useMemo(() => buildCore({ curve: geo.curve, thickness, seed }), [geo, thickness, seed]);
+  const scratches = useMemo(() => buildScratches({ curve: geo.curve, thickness, seed, n: Math.round(bristles / 12) }), [geo, thickness, seed, bristles]);
   const wedges = useMemo(() => {
-    const W = 140, pad = 10, list = [], span = geo.sweep + pad * 2; // pad: bristles at the ends sit a little outside the nominal angle
+    const W = 140, pad = 18, list = [], span = geo.sweep + pad * 2; // pad: bristles at the ends sit a little outside the nominal angle
     for (let j = 0; j < W; j++) {
       const a0 = geo.a0 - pad + (j / W) * span - 0.4, a1 = geo.a0 - pad + ((j + 1) / W) * span + 0.4, p = (a) => [geo.cx + 70 * Math.cos((a * Math.PI) / 180), geo.cy + 70 * Math.sin((a * Math.PI) / 180)];
       const [x0, y0] = p(a0), [x1, y1] = p(a1), t = Math.max(0, Math.min(1, ((j + 0.5) / W * span - pad) / geo.sweep));
@@ -94,20 +120,31 @@ export function Brush({ shape = "circle", size = 120, progress = 1, stops = BELT
     return arr;
   }, [seed, thickness, geo]);
   const p = Math.max(0, Math.min(1, progress));
+  const segVis = (c) => Math.max(0, Math.min(1, (p - c.ta) / (c.tb - c.ta || 1)));
   const vis = (b) => Math.max(0, Math.min(1, (p - b.t0) / (b.t1 - b.t0 || 1)));
   return (
     <svg x={x} y={y} width={size} height={size} viewBox="0 0 100 100" style={style} role={title ? "img" : undefined} aria-label={title} aria-hidden={title ? undefined : true}>
       <defs>
+        <mask id={`r${uid}`} maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
+          <rect width="100" height="100" fill="white" />
+          <g stroke="black" fill="none" strokeLinecap="round">{scratches.map((c, i) => <path key={i} d={c.d} strokeWidth={c.w * 1.4} />)}</g>
+        </mask>
         <mask id={`m${uid}`} maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
           <rect width="100" height="100" fill="black" />
           <g stroke="white" fill="none" strokeLinecap="round" strokeLinejoin="round">
-            {data.map((b, i) => <path key={i} d={b.d} pathLength="1" strokeWidth={b.w} strokeOpacity={b.o} strokeDasharray={`${vis(b)} 2`} />)}
+            {core.map((c, i) => segVis(c) > 0.002 && <path key={`c${i}`} d={c.d} pathLength="1" strokeWidth={c.w} strokeDasharray={`${segVis(c)} 2`} />)}
+            {data.map((b, i) => vis(b) > 0.002 && <path key={i} d={b.d} pathLength="1" strokeWidth={b.w} strokeOpacity={b.o} strokeDasharray={`${vis(b)} 2`} />)}
+          </g>
+          <g stroke="black" fill="none" strokeLinecap="round">
+            {scratches.map((c, i) => <path key={`s${i}`} d={c.d} strokeWidth={c.w} strokeOpacity={c.o} />)}
           </g>
         </mask>
       </defs>
-      {/* a pale rim under the ink so the black and the red stay readable on a dark page */}
-      <g stroke="#C9D0DA" fill="none" strokeLinecap="round" strokeLinejoin="round" opacity="0.4">
-        {data.map((b, i) => <path key={i} d={b.d} pathLength="1" strokeWidth={b.w * 1.9} strokeOpacity={b.o * 0.55} strokeDasharray={`${vis(b)} 2`} />)}
+      {/* a pale rim under the ink so the black and the red stay readable on a dark page; the scratches cut through it too */}
+      <g mask={`url(#r${uid})`}>
+        <g stroke="#C9D0DA" fill="none" strokeLinecap="butt" strokeLinejoin="round" opacity="0.38">
+          {core.map((c, i) => segVis(c) > 0.002 && <path key={`c${i}`} d={c.d} pathLength="1" strokeWidth={c.w * 1.14} strokeDasharray={`${segVis(c)} 2`} />)}
+        </g>
       </g>
       <g mask={`url(#m${uid})`}>{wedges.map((w, i) => <path key={i} d={w.d} fill={w.c} />)}</g>
       {splatter && p > 0.97 && dots.map((d, i) => <circle key={i} cx={d.px} cy={d.py} r={d.s} fill={colorAt(stops, d.t)} stroke="#C9D0DA" strokeOpacity="0.4" strokeWidth="0.25" />)}

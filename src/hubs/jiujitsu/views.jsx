@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import { C, BELT_BG, BELT_FG, BELT_TEXT } from "./theme";
 import { POSITIONS, FAMILIES, TIERS, ESCAPES, byId, SYSTEMS, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, QUESTIONS, CARDS } from "./data";
 import { KeysRing, SystemDiagram } from "./Mark";
-import { Enso, Sankaku, StatusRing } from "./Enso";
+import { Enso, StatusRing } from "./Enso";
 import Pyramid from "./Pyramid";
 import Timer from "./Timer";
 import { STATUS, PEOPLE } from "./store";
@@ -35,7 +35,7 @@ export function MapView({ store }) {
   return (
     <div>
       <div className="jj-card jj-hero">
-        <div className="jj-hero-enso" aria-hidden="true"><svg viewBox="0 0 100 100" width="100%" height="100%"><Enso x={0} y={0} size={100} seed={11} /><Sankaku x={26} y={27} size={48} seed={4} thickness={14} bristles={70} points={50} radius={46} splatter={false} /></svg></div>
+        <div className="jj-hero-enso" aria-hidden="true"><Enso size="100%" seed={11} /></div>
         <div style={{ position: "relative", maxWidth: 560 }}>
           <div className="jj-eyebrow">A systems approach</div>
           <h1 style={{ fontSize: 46, lineHeight: 1.02 }}>Position before submission</h1>
@@ -381,7 +381,7 @@ export function QuizView() {
   return (
     <div className="jj-card" style={{ maxWidth: 680 }}>
       <div className="jj-eyebrow">{q.t} · {run.i + 1} of {run.qs.length}</div>
-      <h2 className="jj-h2" style={{ textTransform: "none", fontFamily: "Nunito", fontSize: 21, letterSpacing: 0 }}>{q.stem}</h2>
+      <h2 className="jj-h2" style={{ textTransform: "none", fontFamily: "'Nunito',sans-serif", fontSize: 21, letterSpacing: 0 }}>{q.stem}</h2>
       {q.choices.map((c) => <button key={c} className={`jj-opt ${run.picked ? (c === q.correct ? "right" : c === run.picked ? "wrong" : "") : ""}`} onClick={() => pick(c)}>{c}</button>)}
       {run.picked && <><p style={{ color: C.muted }}>{q.ex}</p><button className="jj-btn" onClick={() => setRun({ ...run, i: run.i + 1, picked: null })}>{run.i + 1 === run.qs.length ? "See results" : "Next"}</button></>}
     </div>
