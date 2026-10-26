@@ -25,7 +25,6 @@ export const CSS = `
 .jj-nav a{ padding:7px 9px; border-radius:8px; font-weight:700; font-size:13.5px; color:${C.muted}; white-space:nowrap; }
 .jj-nav a:hover{ background:${C.panel2}; color:${C.text}; }
 .jj-nav a.on{ background:${C.red}; color:#fff; }
-.jj-who{ background:${C.panel2}; border:1px solid ${C.line}; color:${C.text}; border-radius:8px; padding:6px 10px; font-weight:700; }
 .jj-wrap{ max-width:1100px; margin:0 auto; padding:22px 18px 60px; }
 .jj-card{ background:${C.panel}; border:1px solid ${C.line}; border-radius:16px; padding:18px 20px; }
 .jj-h2{ font-size:26px; margin-bottom:12px; }

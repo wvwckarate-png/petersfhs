@@ -1,11 +1,11 @@
 import React, { useMemo, useState } from "react";
 import { C, BELT_BG, BELT_FG, BELT_TEXT } from "./theme";
-import { POSITIONS, FAMILIES, TIERS, ESCAPES, FINISHES, byId, SYSTEMS, CURRICULUM, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, QUESTIONS, CARDS, generatedQuestions, positionCards } from "./data";
+import { POSITIONS, FAMILIES, TIERS, ESCAPES, FINISHES, byId, SYSTEMS, CURRICULUM, FOUR_QUESTIONS, PRINCIPLES, RULES, SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER, GLOSSARY } from "./data";
 import { KeysRing, SystemDiagram } from "./Mark";
 import { Enso, StatusRing } from "./Enso";
 import Pyramid from "./Pyramid";
 import Timer from "./Timer";
-import { STATUS, PEOPLE } from "./store";
+import { STATUS } from "./store";
 
 const posLink = (id) => `#/position/${id}`;
 const roleLabel = { top: "Top", bottom: "Bottom", neutral: "Standing", sub: "Submission" };
@@ -177,7 +177,7 @@ export function PositionView({ id, store }) {
           <h1 style={{ fontSize: 46, lineHeight: 1.02, margin: "6px 0 8px" }}>{p.name}</h1>
           <p style={{ margin: 0, fontSize: 17 }}>{p.one}</p>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 14, alignItems: "center" }}>
-            <span className="jj-muted" style={{ fontSize: 13, fontWeight: 800 }}>{store.person}:</span>
+            <span className="jj-muted" style={{ fontSize: 13, fontWeight: 800 }}>Your progress:</span>
             {STATUS.map((n, i) => <button key={n} className={`jj-btn ${s === i ? "" : "ghost"}`} style={{ padding: "6px 12px", fontSize: 13.5 }} onClick={() => store.setStatus(p.id, i)}>{n}</button>)}
           </div>
         </div>
@@ -402,124 +402,6 @@ export function TimerView() {
   );
 }
 
-/* ---------- Quiz ---------- */
-const shuffle = (a) => { const b = [...a]; for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
-const QUIZ_TOPICS = ["All", ...Array.from(new Set([...QUESTIONS.map((q) => q[0]), "Position keys", "Moves from positions", "Mistakes", "Good habits"]))];
-
-export function QuizView({ store }) {
-  const [topic, setTopic] = useState("All");
-  const [count, setCount] = useState(10);
-  const [run, setRun] = useState(null); // { qs, i, picked, score, missed }
-  const build = (pool) => pool.map(([t, stem, ch, ex]) => ({ t, stem, ex, correct: ch[0], choices: shuffle(ch) }));
-  const start = (custom) => {
-    const pool = custom || [...QUESTIONS, ...generatedQuestions()].filter((q) => topic === "All" || q[0] === topic);
-    const qs = build(shuffle(pool).slice(0, count));
-    setRun({ qs, i: 0, picked: null, score: 0, missed: [], retry: !!custom });
-  };
-  const best = store.getBest(topic, count);
-  if (!run) {
-    return (
-      <div>
-        <div className="jj-eyebrow">Check yourself</div>
-        <h1 style={{ fontSize: 44 }}>Quiz</h1>
-        <div className="jj-card" style={{ maxWidth: 560, marginTop: 10 }}>
-          <div style={{ display: "flex", gap: 14, flexWrap: "wrap" }}>
-            <label style={{ fontWeight: 800, color: C.muted, fontSize: 13 }}>Topic<br />
-              <select value={topic} onChange={(e) => setTopic(e.target.value)} style={{ marginTop: 4 }}>{QUIZ_TOPICS.map((t) => <option key={t}>{t}</option>)}</select>
-            </label>
-            <label style={{ fontWeight: 800, color: C.muted, fontSize: 13 }}>Questions<br />
-              <select value={count} onChange={(e) => setCount(+e.target.value)} style={{ marginTop: 4 }}>{[10, 20, 30].map((n) => <option key={n} value={n}>{n}</option>)}</select>
-            </label>
-          </div>
-          <p className="jj-muted">{QUESTIONS.length} written questions plus questions built from the position library, so each quiz is different.{best ? ` ${store.person}'s best for this setting: ${best}.` : ""}</p>
-          <button className="jj-btn" onClick={() => start()}>Start</button>
-        </div>
-      </div>
-    );
-  }
-  if (run.i >= run.qs.length) {
-    const pct = run.score / run.qs.length;
-    return (
-      <div className="jj-card jj-center" style={{ maxWidth: 640, textAlign: "center" }}>
-        <div className="jj-eyebrow">Finished · {store.person}</div>
-        <div style={{ position: "relative", width: 200, height: 200, margin: "6px auto" }}><div style={{ position: "absolute", inset: 0, opacity: 0.16 }}><Enso size={200} progress={1} seed={17} stops={[[0, "#9AA3AE"], [1, "#9AA3AE"]]} splatter={false} /></div>{pct > 0.03 && <Enso size={200} progress={pct} seed={17} />}<div className="display" style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 54, fontWeight: 800 }}>{run.score}/{run.qs.length}</div></div>
-        <p className="jj-muted">{pct >= 0.9 ? "Excellent. Try a harder topic or more questions." : pct >= 0.7 ? "Solid. Review the misses below." : "Good start. Read the missed answers, then try again."}</p>
-        {run.missed.length > 0 && <div style={{ textAlign: "left" }}><h2 className="jj-h2">Review</h2>{run.missed.map((m, i) => <div key={i} style={{ margin: "10px 0" }}><strong>{m.stem}</strong><div style={{ color: C.blueLight }}>✓ {m.correct}</div><div className="jj-muted" style={{ fontSize: 14.5 }}>{m.ex}</div></div>)}</div>}
-        <div style={{ display: "flex", gap: 8, justifyContent: "center", flexWrap: "wrap", marginTop: 12 }}>
-          <button className="jj-btn" onClick={() => setRun(null)}>Again</button>
-          {run.missed.length > 0 && <button className="jj-btn ghost" onClick={() => start(run.missed.map((m) => [m.t, m.stem, [m.correct, ...m.choices.filter((c) => c !== m.correct)], m.ex]))}>Retry the ones I missed</button>}
-        </div>
-      </div>
-    );
-  }
-  const q = run.qs[run.i];
-  const pick = (c) => {
-    if (run.picked) return;
-    const ok = c === q.correct, next = { ...run, picked: c, score: run.score + (ok ? 1 : 0), missed: ok ? run.missed : [...run.missed, q] };
-    setRun(next);
-    if (run.i + 1 === run.qs.length && !run.retry) store.recordQuiz(topic, count, next.score, run.qs.length);
-  };
-  return (
-    <div className="jj-card" style={{ maxWidth: 680 }}>
-      <div className="jj-eyebrow">{q.t} · {run.i + 1} of {run.qs.length}</div>
-      <h2 className="jj-h2" style={{ textTransform: "none", fontFamily: "'Nunito',sans-serif", fontSize: 21, letterSpacing: 0, fontWeight: 800 }}>{q.stem}</h2>
-      {q.choices.map((c) => <button key={c} className={`jj-opt ${run.picked ? (c === q.correct ? "right" : c === run.picked ? "wrong" : "") : ""}`} onClick={() => pick(c)} disabled={!!run.picked && c !== q.correct && c !== run.picked}>{c}</button>)}
-      {run.picked && <><p style={{ color: C.muted }}>{q.ex}</p><button className="jj-btn" onClick={() => setRun({ ...run, i: run.i + 1, picked: null })}>{run.i + 1 === run.qs.length ? "See results" : "Next"}</button></>}
-    </div>
-  );
-}
-
-/* ---------- Flashcards and glossary ---------- */
-export function CardsView() {
-  const lib = useMemo(() => positionCards(), []);
-  const decks = { Terms: CARDS, Positions: lib.names, "Three keys": lib.keys };
-  const [deckName, setDeckName] = useState("Terms");
-  const [mode, setMode] = useState("flip");
-  const [q, setQ] = useState("");
-  const [seed, setSeed] = useState(0);
-  const deck = useMemo(() => (seed ? shuffle(decks[deckName]) : decks[deckName]), [deckName, seed]); // eslint-disable-line react-hooks/exhaustive-deps
-  const [i, setI] = useState(0);
-  const [flip, setFlip] = useState(false);
-  const card = deck[i % deck.length];
-  const next = (d = 1) => { setFlip(false); setI((x) => (x + d + deck.length) % deck.length); };
-  const term = q.trim().toLowerCase();
-  const list = decks[deckName].filter(([t, m]) => !term || `${t} ${m}`.toLowerCase().includes(term));
-  return (
-    <div>
-      <div className="jj-eyebrow">Vocabulary</div>
-      <h1 style={{ fontSize: 44 }}>Flashcards</h1>
-      <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "10px 0" }}>
-        {Object.keys(decks).map((n) => <button key={n} className={`jj-btn ${deckName === n ? "" : "ghost"}`} onClick={() => { setDeckName(n); setI(0); setFlip(false); }}>{n} ({decks[n].length})</button>)}
-        <span style={{ flex: 1 }} />
-        {[["flip", "Flip cards"], ["list", "Glossary list"]].map(([k, n]) => <button key={k} className={`jj-btn ${mode === k ? "" : "ghost"}`} onClick={() => setMode(k)}>{n}</button>)}
-      </div>
-      {mode === "flip" ? (
-        <div style={{ maxWidth: 520 }}>
-          <button onClick={() => setFlip(!flip)} className="jj-card" style={{ width: "100%", minHeight: 220, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", textAlign: "center", borderTop: `4px solid ${C.red}` }} aria-label={flip ? "Show the term" : "Show the meaning"}>
-            <div className="jj-eyebrow">{flip ? "Meaning" : "Term"}</div>
-            {flip ? <div style={{ fontSize: 19, marginTop: 8 }}>{card[1]}</div> : <div className="display" style={{ fontSize: 36, fontWeight: 800, marginTop: 8 }}>{card[0]}</div>}
-            <div className="jj-muted" style={{ fontSize: 13, marginTop: 14 }}>Tap to {flip ? "flip back" : "reveal"}</div>
-          </button>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 12 }}>
-            <button className="jj-btn ghost" onClick={() => next(-1)}>← Back</button>
-            <span className="jj-muted">{(i % deck.length) + 1} of {deck.length}</span>
-            <button className="jj-btn" onClick={() => next(1)}>Next →</button>
-          </div>
-          <button className="jj-btn ghost" style={{ marginTop: 12 }} onClick={() => { setSeed((s) => s + 1); setI(0); setFlip(false); }}>Shuffle</button>
-        </div>
-      ) : (
-        <div>
-          <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search the glossary" aria-label="Search the glossary" className="jj-search" />
-          <div className="jj-grid" style={{ marginTop: 12, gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))" }}>
-            {list.map(([t, m]) => <div key={t} className="jj-card"><strong>{t}</strong><div className="jj-muted" style={{ fontSize: 14.5 }}>{m}</div></div>)}
-          </div>
-          {list.length === 0 && <p className="jj-muted">No matches.</p>}
-        </div>
-      )}
-    </div>
-  );
-}
-
 /* ---------- Progress ---------- */
 export function ProgressView({ store }) {
   const total = POSITIONS.length;
@@ -528,7 +410,7 @@ export function ProgressView({ store }) {
   const points = counts.reduce((s, n, i) => s + n * i, 0), pct = points / (total * 4);
   return (
     <div>
-      <div className="jj-eyebrow">{store.person}</div>
+      <div className="jj-eyebrow">Your progress</div>
       <h1 style={{ fontSize: 44 }}>Progress</h1>
       <div className="jj-card" style={{ display: "flex", gap: 24, flexWrap: "wrap", margin: "10px 0 14px", alignItems: "center" }}>
         <div style={{ position: "relative", width: 130, height: 130 }}><div style={{ position: "absolute", inset: 0, opacity: 0.16 }}><Enso size={130} progress={1} seed={13} stops={[[0, "#9AA3AE"], [1, "#9AA3AE"]]} splatter={false} /></div>{pct > 0.03 && <Enso size={130} progress={pct} seed={13} />}<div className="display" style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 28, fontWeight: 800 }}>{Math.round(pct * 100)}%</div></div>
@@ -537,7 +419,7 @@ export function ProgressView({ store }) {
         </div>
         <div className="jj-muted" style={{ marginLeft: "auto" }}>of {total} positions</div>
       </div>
-      <p className="jj-muted">Tap a position's status to move it up: not yet → learning → drilled → hits live → could teach it. Progress is saved on this device for each person.</p>
+      <p className="jj-muted">Tap a position's status to move it up: not yet → learning → drilled → hits live → could teach it. Progress is saved on this device.</p>
       {FAMILIES.map((f) => (
         <div key={f.id} style={{ margin: "16px 0" }}>
           <h2 className="jj-h2">{f.name}</h2>
@@ -571,7 +453,25 @@ export function RulesView() {
           <p className="jj-muted" style={{ fontSize: 14, marginBottom: 0 }}>This hub is a study companion. Follow your coach's rules at the gym first, and ask them about anything you're unsure about.</p>
         </div>
       </div>
+      <Glossary />
     </div>
   );
 }
-export { PEOPLE };
+
+/* ---------- Glossary ---------- */
+function Glossary() {
+  const [q, setQ] = useState("");
+  const term = q.trim().toLowerCase();
+  const list = GLOSSARY.filter(([t, m]) => !term || `${t} ${m}`.toLowerCase().includes(term));
+  return (
+    <div style={{ marginTop: 22 }}>
+      <div className="jj-eyebrow">Plain-language terms</div>
+      <h2 className="jj-h2">Glossary</h2>
+      <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search the glossary" aria-label="Search the glossary" className="jj-search" />
+      <div className="jj-grid" style={{ marginTop: 12, gridTemplateColumns: "repeat(auto-fill,minmax(280px,1fr))" }}>
+        {list.map(([t, m]) => <div key={t} className="jj-card"><strong>{t}</strong><div className="jj-muted" style={{ fontSize: 14.5 }}>{m}</div></div>)}
+      </div>
+      {list.length === 0 && <p className="jj-muted">No matches.</p>}
+    </div>
+  );
+}

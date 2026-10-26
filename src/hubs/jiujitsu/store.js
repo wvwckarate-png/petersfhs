@@ -1,32 +1,28 @@
 import { useCallback, useState } from "react";
 
-const KEY = "petersfhs:jj:v1";
-export const PEOPLE = ["Matthew", "Michael", "Brynne", "Mom", "Dad"];
+const KEY = "petersfhs:jj:v2", OLD_KEY = "petersfhs:jj:v1";
 export const STATUS = ["Not yet", "Learning", "Drilled", "Hits live", "Could teach it"];
 
 function read() {
-  try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; }
+  try {
+    const cur = JSON.parse(localStorage.getItem(KEY));
+    if (cur) return cur;
+    // v7.7 dropped the per-person selector: carry over whoever was selected before.
+    const old = JSON.parse(localStorage.getItem(OLD_KEY));
+    if (old?.progress) return { progress: old.progress[old.person] || Object.values(old.progress)[0] || {} };
+  } catch { /* fall through to an empty record */ }
+  return {};
 }
 function write(v) {
   try { localStorage.setItem(KEY, JSON.stringify(v)); } catch { /* private mode: progress simply won't persist */ }
 }
 
-// Progress per person: { person, progress: { Matthew: { "closed-guard": 2 } } }
+// Progress on this device: { progress: { "closed-guard": 2 } }
 export function useStore() {
-  const [state, setState] = useState(() => {
-    const s = read();
-    return { person: PEOPLE.includes(s.person) ? s.person : PEOPLE[0], progress: s.progress || {}, quiz: s.quiz || {} };
-  });
+  const [state, setState] = useState(() => ({ progress: read().progress || {} }));
   const commit = useCallback((next) => { write(next); setState(next); }, []);
-  const setPerson = (person) => commit({ ...state, person });
-  const getStatus = (id, person = state.person) => state.progress[person]?.[id] || 0;
-  const setStatus = (id, n) => commit({ ...state, progress: { ...state.progress, [state.person]: { ...(state.progress[state.person] || {}), [id]: n } } });
-  const bestKey = (topic, n) => `${state.person}|${topic}|${n}`;
-  const getBest = (topic, n) => (state.quiz[bestKey(topic, n)] ? `${state.quiz[bestKey(topic, n)]}/${n}` : "");
-  const recordQuiz = (topic, n, score, total) => {
-    const key = bestKey(topic, n);
-    if (total === n && score > (state.quiz[key] || 0)) commit({ ...state, quiz: { ...state.quiz, [key]: score } });
-  };
+  const getStatus = (id) => state.progress[id] || 0;
+  const setStatus = (id, n) => commit({ progress: { ...state.progress, [id]: n } });
   const cycle = (id) => setStatus(id, (getStatus(id) + 1) % STATUS.length);
-  return { ...state, setPerson, getStatus, cycle, setStatus, getBest, recordQuiz };
+  return { ...state, getStatus, setStatus, cycle };
 }

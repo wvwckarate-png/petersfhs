@@ -1,8 +1,5 @@
-import { MANUAL } from "./quiz-manual";
-
-export const QUESTIONS = MANUAL;
-
-export const CARDS = [
+// Plain-language definitions shown on the Rules page.
+export const GLOSSARY = [
   ["Closed guard", "Your legs locked around their waist; you control posture and distance."],
   ["Open guard", "Legs not locked: feet and hands push, pull, and sweep."],
   ["Butterfly guard", "Sitting guard with your feet inside their thighs; underhooks and lift."],

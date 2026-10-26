@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { C, CSS } from "./theme";
 import { SankakuMark } from "./Mark";
-import { useStore, PEOPLE } from "./store";
-import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, QuizView, CardsView, ProgressView, RulesView } from "./views";
+import { useStore } from "./store";
+import { MapView, PositionsView, PositionView, SystemsView, DrillsView, PlanView, CycleView, TimerView, ProgressView, RulesView } from "./views";
 
-const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Drills"], ["#/plan", "Session"], ["#/cycle", "8 weeks"], ["#/timer", "Timer"], ["#/quiz", "Quiz"], ["#/cards", "Cards"], ["#/progress", "Progress"], ["#/rules", "Rules"]];
+const NAV = [["#/", "Map"], ["#/positions", "Positions"], ["#/systems", "Systems"], ["#/drills", "Drills"], ["#/plan", "Session"], ["#/cycle", "8 weeks"], ["#/timer", "Timer"], ["#/progress", "Progress"], ["#/rules", "Rules"]];
 
 function useHashRoute() {
   const read = () => (window.location.hash || "#/").split("?")[0];
@@ -30,8 +30,6 @@ export default function JiuJitsuPage() {
   else if (route.startsWith("#/plan")) view = <PlanView key={window.location.hash} />;
   else if (route === "#/cycle") view = <CycleView />;
   else if (route === "#/timer") view = <TimerView />;
-  else if (route === "#/quiz") view = <QuizView store={store} />;
-  else if (route === "#/cards") view = <CardsView />;
   else if (route === "#/progress") view = <ProgressView store={store} />;
   else if (route === "#/rules") view = <RulesView />;
   else view = <MapView store={store} />;
@@ -52,9 +50,6 @@ export default function JiuJitsuPage() {
           <nav className="jj-nav" aria-label="Jiu-Jitsu hub">
             {NAV.map(([h, n]) => <a key={h} href={h} className={activeKey === h ? "on" : ""}>{n}</a>)}
           </nav>
-          <select className="jj-who" value={store.person} onChange={(e) => store.setPerson(e.target.value)} aria-label="Who is training">
-            {PEOPLE.map((n) => <option key={n}>{n}</option>)}
-          </select>
           <Link to="/" style={{ color: C.muted, fontSize: 13, fontWeight: 700 }}>← Home</Link>
         </div>
         <div className="jj-belt" aria-hidden="true" />

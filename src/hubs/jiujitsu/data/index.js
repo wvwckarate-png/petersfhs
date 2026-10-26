@@ -42,5 +42,4 @@ export { SYSTEMS } from "./systems";
 export { FOUR_QUESTIONS, PRINCIPLES, RULES } from "./principles";
 export { CURRICULUM } from "./curriculum";
 export { SOLO_DRILLS, WARMUPS, RESISTANCE_LADDER } from "./drills";
-export { QUESTIONS, CARDS } from "./quiz";
-export { generatedQuestions, positionCards } from "./questions";
+export { GLOSSARY } from "./glossary";
