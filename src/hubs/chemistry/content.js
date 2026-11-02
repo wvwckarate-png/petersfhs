@@ -5304,7 +5304,7 @@ const QUESTIONS = {
     {
       "id": "6-32",
       "topic": "6.5 Phase Change Energy",
-      "stem": "How many kJ are released when 72.08 g of water freezes? (ΔH(fus) = 6.01 kJ/mol, molar mass 18.02 g/mol)",
+      "stem": "What is the enthalpy change (q, from the system's point of view) when 72.08 g of water freezes? (ΔH(fus) = 6.01 kJ/mol, molar mass 18.02 g/mol)",
       "choices": [
         "6.01 kJ",
         "24.0 kJ",
@@ -5312,7 +5312,7 @@ const QUESTIONS = {
         "12.0 kJ"
       ],
       "correct": 2,
-      "explanation": "n = 72.08/18.02 = 4.00 mol; freezing is the reverse of melting, so ΔH(freezing) = −ΔH(fus) = −6.01 kJ/mol, giving q = 4.00 × (−6.01) = −24.0 kJ. \"24.0 kJ\" has the right magnitude but the wrong sign — it treats freezing as if it absorbed heat the way melting does, rather than releasing it. \"12.0 kJ\" is half the correct magnitude, as if only 2.00 mol (half the actual amount) were used. \"6.01 kJ\" is just the molar ΔH(fus) value itself, forgetting to multiply by the 4.00 mol actually present."
+      "explanation": "n = 72.08/18.02 = 4.00 mol; freezing is the reverse of melting, so ΔH(freezing) = −ΔH(fus) = −6.01 kJ/mol, giving q = 4.00 × (−6.01) = −24.0 kJ. The negative sign means 24.0 kJ of heat is released to the surroundings. \"24.0 kJ\" has the right magnitude but the wrong sign for an enthalpy change — it treats freezing as if it absorbed heat the way melting does, rather than releasing it. \"12.0 kJ\" is half the correct magnitude, as if only 2.00 mol (half the actual amount) were used. \"6.01 kJ\" is just the molar ΔH(fus) value itself, forgetting to multiply by the 4.00 mol actually present."
     },
     {
       "id": "6-33",
