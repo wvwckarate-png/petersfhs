@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { storage } from "../../lib/storage";
+import { logAttempt } from "../../lib/cloud";
 import RichText from "./RichText";
 
 /*
@@ -232,8 +233,13 @@ export default function ExamEngine({ hubKey, format, exams, units, colors, refer
       setModal(null);
       setReportFilter("missed");
       setView({ type: "report", examId });
+      // one row per answered question, for the student's answer history
+      const exam = exams.find((e) => e.id === examId);
+      if (exam) scoreExam(exam, prev.answers || {}).items.forEach((it) => {
+        if (it.answered) logAttempt({ hub: hubKey, kind: "exam", item: `${examId}:${it.q.id}`, unit: String(it.q.unit ?? ""), chosen: typeof it.given === "number" ? it.given : null, correct: it.ok });
+      });
     },
-    [commit]
+    [commit, exams, hubKey]
   );
 
   function resetExam(examId) {

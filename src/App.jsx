@@ -21,6 +21,7 @@ const VocabPage = lazy(() => import("./hubs/sat/vocab/VocabPage"));
 const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"));
 
 import VersionBadge from "./components/VersionBadge";
+import ProfileChip from "./components/ProfileChip";
 
 export default function App() {
   return (
@@ -50,6 +51,7 @@ export default function App() {
       </Suspense>
       </ErrorBoundary>
       <VersionBadge />
+      <ProfileChip />
     </BrowserRouter>
   );
 }

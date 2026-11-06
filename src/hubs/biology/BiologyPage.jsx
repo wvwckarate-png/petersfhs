@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo, useCallback, lazy, Suspense } from "react";
 import { storage } from "../../lib/storage";
+import { logAttempt } from "../../lib/cloud";
 import { Link } from "react-router-dom";
 import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
@@ -178,6 +179,7 @@ export default function BiologyPage() {
     const next = { ...answered, [q.id]: { selected: idx, correct: idx === q.correct, ts: Date.now() } };
     setAnswered(next);
     persistAnswers(next);
+    logAttempt({ hub: "biology", kind: "mcq", item: q.id, unit: String(unitId), chosen: idx, correct: idx === q.correct });
   }
 
   async function resetProgress(scopeUnitId) {
