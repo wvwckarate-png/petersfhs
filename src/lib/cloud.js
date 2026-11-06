@@ -75,6 +75,13 @@ export async function signIn(profileId, pin) {
   setSession({ id: r.id, name: r.name, token: r.token });
   return r;
 }
+// Change the display name (the PIN is checked again on the server). Progress and everything saved stays attached.
+export async function renameProfile(newName, pin) {
+  const s = getSession();
+  const r = await authed("pfhs_rename_profile", { p_pin: pin, p_new_name: newName });
+  setSession({ ...s, name: r.name });
+  return r;
+}
 export async function signOut() {
   const s = getSession();
   if (s && !s.expired) { try { await flush(); } catch { /* keep going */ } try { await rpc("pfhs_logout", { p_token: s.token }); } catch { /* token expires on its own */ } }

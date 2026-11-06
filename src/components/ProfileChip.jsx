@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
-  getSession, onSession, onSync, getSyncState, listProfiles, createProfile, signIn, signOut,
+  getSession, onSession, onSync, getSyncState, listProfiles, createProfile, signIn, signOut, renameProfile,
   syncDown, flush, legacyEntries, legacyAvailable, legacySkipped, skipLegacy, importLegacy, downloadBackup,
 } from "../lib/cloud";
 
@@ -25,7 +25,7 @@ export default function ProfileChip() {
   const [session, setSession] = useState(getSession());
   const [sync, setSync] = useState(getSyncState());
   const [open, setOpen] = useState(false);
-  const [mode, setMode] = useState("pick"); // pick | pin | create | welcome
+  const [mode, setMode] = useState("pick"); // pick | pin | create | welcome | rename
   const [profiles, setProfiles] = useState(null);
   const [picked, setPicked] = useState(null);
   const [pin, setPin] = useState("");
@@ -84,6 +84,16 @@ export default function ProfileChip() {
     try { await createProfile(name.trim(), pin, code.trim()); setPin(""); setPin2(""); await finishAuth(); }
     catch (err) { setError(err.message); setBusy(false); }
   }
+  async function doRename(e) {
+    e.preventDefault(); setError("");
+    const nn = name.trim();
+    if (!nn) { setError("Type the new name."); return; }
+    if (nn.toLowerCase() === (session.name || "").toLowerCase() && nn === session.name) { setError("That's already your name."); return; }
+    setBusy(true);
+    try { await renameProfile(nn, pin); setPin(""); setName(""); setMode("welcome"); setImportMsg(`Your name is now ${nn}.`); }
+    catch (err) { setError(err.message); }
+    setBusy(false);
+  }
   async function doImport() {
     setBusy(true); setError("");
     try { const r = await importLegacy(); setImportMsg(`Saved ${r.imported} item${r.imported === 1 ? "" : "s"} from this device to ${session.name}'s profile.`); }
@@ -116,7 +126,7 @@ export default function ProfileChip() {
           style={{ position: "fixed", inset: 0, zIndex: 100, background: "rgba(20,24,20,.5)", display: "flex", alignItems: "center", justifyContent: "center", padding: 16 }}>
           <div onClick={(e) => e.stopPropagation()} style={{ ...card, width: "100%", maxWidth: 380, padding: 22, maxHeight: "90vh", overflow: "auto" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 14 }}>
-              <h2 style={{ margin: 0, fontSize: 18 }}>{mode === "welcome" ? `Hi, ${session?.name}` : mode === "create" ? "New student profile" : "Who's studying?"}</h2>
+              <h2 style={{ margin: 0, fontSize: 18 }}>{mode === "welcome" ? `Hi, ${session?.name}` : mode === "rename" ? "Change your name" : mode === "create" ? "New student profile" : "Who's studying?"}</h2>
               <button onClick={close} aria-label="Close" style={{ ...btn(false), padding: "4px 10px" }}>✕</button>
             </div>
 
@@ -159,6 +169,18 @@ export default function ProfileChip() {
               </form>
             )}
 
+            {mode === "rename" && session && (
+              <form onSubmit={doRename} style={{ display: "grid", gap: 10 }}>
+                <p style={{ margin: 0, fontSize: 13.5, color: MUTED }}>Pick a new name for your profile. All your saved progress stays with you. Enter your PIN to confirm.</p>
+                <input autoFocus value={name} onChange={(e) => setName(e.target.value)} placeholder={`New name (now: ${session.name})`} maxLength={40} style={input} aria-label="New name" />
+                <input type="password" inputMode="numeric" autoComplete="current-password" maxLength={8} value={pin} onChange={(e) => setPin(e.target.value.replace(/\D/g, ""))} placeholder="Your PIN" style={input} aria-label="PIN" />
+                <div style={{ display: "flex", gap: 8 }}>
+                  <button type="button" style={btn(false)} onClick={() => { setError(""); setPin(""); setName(""); setMode("welcome"); }}>Cancel</button>
+                  <button type="submit" disabled={busy || !name.trim() || pin.length < 4} style={{ ...btn(true), flex: 1, opacity: busy || !name.trim() || pin.length < 4 ? 0.6 : 1 }}>{busy ? "Saving…" : "Change name"}</button>
+                </div>
+              </form>
+            )}
+
             {mode === "welcome" && session && (
               <div style={{ display: "grid", gap: 12 }}>
                 <div style={{ fontSize: 13.5, color: MUTED }}>{statusText(sync, session)}</div>
@@ -186,6 +208,7 @@ export default function ProfileChip() {
 
                 <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
                   <button style={btn(false)} onClick={() => flush().then(() => syncDown()).catch(() => {})}>Save now</button>
+                  <button style={btn(false)} onClick={() => { setError(""); setImportMsg(""); setPin(""); setName(""); setMode("rename"); }}>Change name</button>
                   <button style={btn(false)} onClick={downloadBackup} title="Download everything saved on this device as a file">Download backup</button>
                   <button style={btn(false)} disabled={busy} onClick={doSignOut}>Sign out</button>
                 </div>
