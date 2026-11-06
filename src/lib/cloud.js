@@ -133,7 +133,7 @@ export function flush(opts = {}) {
 // Pull the server copy down. Newer wins per key; anything changed on this device and not yet saved is kept.
 export async function syncDown() {
   const s = getSession();
-  if (!s || s.expired) return { changed: 0 };
+  if (!s || s.expired) return { changed: 0, serverCount: 0 };
   const server = await authed("pfhs_get_all");
   const meta = readMeta(), dirty = new Set(dirtyKeys());
   let changed = 0;
@@ -157,7 +157,7 @@ export async function syncDown() {
   }
   if (missing.length) { const d = new Set(dirtyKeys()); missing.forEach((k) => d.add(k)); writeDirty([...d]); await flush(); }
   setState({ status: "saved", error: "", lastSync: Date.now() });
-  return { changed };
+  return { changed, serverCount: Object.keys(server || {}).length };
 }
 
 // ---- this device's pre-existing progress (saved before profiles existed) ----
@@ -172,21 +172,30 @@ export function legacyEntries() {
   }
   return out;
 }
-export const legacyImported = () => lsGet(`${prefix()}__imported`) === "1";
-export const markLegacyImported = () => lsSet(`${prefix()}__imported`, "1");
+// The first profile to take this device's pre-existing progress owns it; nobody else is offered it (a sibling signing
+// in later on the same device must not receive someone else's answers). Stored outside BASE so it is never uploaded.
+const CLAIM_KEY = "pfhs-legacy-claimed";
+export const legacyClaimedBy = () => lsGet(CLAIM_KEY);
+export const legacyImported = () => { const s = getSession(); return !!s && lsGet(CLAIM_KEY) === s.id; };
+export const legacyAvailable = () => !lsGet(CLAIM_KEY) && legacyEntries().length > 0;
+const claimLegacy = () => { const s = getSession(); if (s) lsSet(CLAIM_KEY, s.id); };
+const SKIP_KEY = "pfhs-legacy-skipped"; // "No thanks" at the offer: stays available as a small button, never nags
+export const legacySkipped = () => lsGet(SKIP_KEY) === "1";
+export const skipLegacy = () => lsSet(SKIP_KEY, "1");
 
 // Copy this device's saved progress into the signed-in profile. Never overwrites what the profile already has,
 // never modifies or deletes the original device data (it stays as a backup).
 export async function importLegacy() {
   const s = getSession();
   if (!s || s.expired) throw new Error("Please sign in first.");
+  if (lsGet(CLAIM_KEY) && lsGet(CLAIM_KEY) !== s.id) throw new Error("This device's saved progress already belongs to another profile.");
   const server = await authed("pfhs_get_all");
   const items = legacyEntries().filter((e) => !(e.key in (server || {})) && lsGet(prefix() + e.key) === null);
   const d = new Set(dirtyKeys());
   for (const e of items) { lsSet(prefix() + e.key, e.value); touchMeta(e.key); d.add(e.key); }
   writeDirty([...d]);
   await flush();
-  markLegacyImported();
+  claimLegacy();
   return { imported: items.length, skipped: legacyEntries().length - items.length };
 }
 

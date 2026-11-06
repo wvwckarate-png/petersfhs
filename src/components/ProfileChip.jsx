@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   getSession, onSession, onSync, getSyncState, listProfiles, createProfile, signIn, signOut,
-  syncDown, flush, legacyEntries, legacyImported, markLegacyImported, importLegacy, downloadBackup,
+  syncDown, flush, legacyEntries, legacyAvailable, legacySkipped, skipLegacy, importLegacy, downloadBackup,
 } from "../lib/cloud";
 
 // Small "Sign in" pill (bottom-left) + panel. Kids pick a name and enter a PIN; first-time setup needs the family code.
@@ -40,7 +40,7 @@ export default function ProfileChip() {
   useEffect(() => onSync(setSync), []);
 
   const legacyCount = useMemo(() => (open ? legacyEntries().length : 0), [open, session]);
-  const canImport = !!session && !session.expired && legacyCount > 0 && !legacyImported();
+  const canImport = !!session && !session.expired && legacyCount > 0 && legacyAvailable();
 
   function reset() { setPin(""); setPin2(""); setCode(""); setName(""); setError(""); setPicked(null); }
 
@@ -54,9 +54,21 @@ export default function ProfileChip() {
   function close() { setOpen(false); reset(); }
 
   async function finishAuth() {
-    // Pull whatever this profile already has, then either offer the device import or just reload to show it.
-    try { await syncDown(); } catch { /* the page will retry in the background */ }
-    if (legacyEntries().length > 0 && !legacyImported()) { setMode("welcome"); setBusy(false); return; }
+    // Pull whatever this profile already has. A brand-new profile on a device that already holds saved progress
+    // takes it automatically (after saving a backup file); otherwise offer it, or just reload to show the profile.
+    let serverCount = 0;
+    try { ({ serverCount } = await syncDown()); } catch { /* the page will retry in the background */ }
+    if (legacyAvailable()) {
+      if (serverCount === 0) {
+        try {
+          downloadBackup();
+          const r = await importLegacy();
+          setImportMsg(`Brought over your progress: ${r.imported} item${r.imported === 1 ? "" : "s"} from this device are now saved to ${getSession()?.name}'s profile. A backup file was also downloaded.`);
+          setMode("welcome"); setBusy(false); return;
+        } catch (err) { setError(err.message); }
+      }
+      setMode("welcome"); setBusy(false); return;
+    }
     window.location.reload();
   }
   async function doSignIn(e) {
@@ -78,7 +90,11 @@ export default function ProfileChip() {
     catch (err) { setError(err.message); }
     setBusy(false);
   }
-  function skipImport() { markLegacyImported(); window.location.reload(); }
+  function skipImport() { skipLegacy(); window.location.reload(); }
+  async function doImportLater() {
+    if (!window.confirm(`Save this device's saved progress to ${session.name}'s profile? Only do this if the progress on this device is yours.`)) return;
+    await doImport();
+  }
   async function doSignOut() {
     setBusy(true);
     await signOut();
@@ -147,7 +163,7 @@ export default function ProfileChip() {
               <div style={{ display: "grid", gap: 12 }}>
                 <div style={{ fontSize: 13.5, color: MUTED }}>{statusText(sync, session)}</div>
 
-                {canImport && !importMsg && (
+                {canImport && !importMsg && !legacySkipped() && (
                   <div style={{ background: "#FBF6E6", border: "1px solid #EADBA0", borderRadius: 12, padding: 14 }}>
                     <b style={{ fontSize: 14 }}>Save this device's progress to your profile?</b>
                     <p style={{ margin: "6px 0 10px", fontSize: 13.5, color: INK }}>
@@ -158,6 +174,9 @@ export default function ProfileChip() {
                       <button style={btn(false)} disabled={busy} onClick={skipImport}>No, start fresh</button>
                     </div>
                   </div>
+                )}
+                {canImport && !importMsg && legacySkipped() && (
+                  <button style={btn(false)} disabled={busy} onClick={doImportLater}>Import this device's saved progress…</button>
                 )}
                 {importMsg && (
                   <div style={{ background: "#EAF5E8", border: "1px solid #BFE0BA", borderRadius: 12, padding: 12, fontSize: 13.5 }}>{importMsg}
