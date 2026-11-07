@@ -118,7 +118,7 @@ const QUESTIONS = {
           "To argue that the city's public bus system should be shut down given how unreliable it has become."
         ],
         "correct": 2,
-        "explanation": "The speaker names the purpose directly: funding for the twelve missing drivers needed to restore the schedule “already promised to this city.” B is wrong because the speaker never faults the route's original creation, only its current understaffing. D is wrong because the speaker relies on the bus system rather than rejecting it. A is wrong because the speaker explicitly rules this out: “I am not here tonight to ask this council for...a subway extension.”"
+        "explanation": "Correct: (C) fund twelve more drivers. Specific purpose means the exact action the speaker wants, not the general topic. The speaker states it in the last sentence: 'I am asking you to fund the twelve drivers this system is short, so that the buses already promised to this city might actually arrive when they are supposed to.' The clue words in the stem, 'specific purpose,' point to that concrete request, and the whole speech (the 14 bus slowing from every twelve minutes to every forty) builds toward it.\n\n(A) is wrong because the speaker says outright 'I am not here tonight to ask this council for a new bus line, or a subway extension.'\n(B) is wrong because the passage never criticizes the creation of route 14; it only complains that the route now runs too rarely.\n(D) is wrong because the speaker depends on the buses and wants them funded properly, not shut down."
       },
       {
         "id": "1-2",
@@ -131,7 +131,7 @@ const QUESTIONS = {
           "To narrow the request to a specific, modest scope, distinguishing it from a larger ask."
         ],
         "correct": 3,
-        "explanation": "By naming and rejecting the bigger asks (a new line, a subway extension) before naming the actual request, the speaker narrows the scope to something modest and concrete — twelve drivers — which is easier for a council to grant. A and B are wrong because the sentence sharpens the request rather than derailing or muddying it. C is wrong because the sentence is about the request's scope, not a judgment on past council decisions."
+        "explanation": "Correct: (D) narrows the request to a modest, specific scope. A rhetorical function is the job a sentence does within an argument. Here the speaker first lists bigger things she is not asking for ('a new bus line, or a subway extension, or anything so ambitious') and then names the real request: 'fund the twelve drivers.' Setting the large asks aside makes the actual one look small and easy to grant, which is exactly narrowing the scope and distinguishing it from a larger ask.\n\n(A) is wrong because the sentence makes the request clearer, ending with a precise number of drivers rather than leaving the audience unsure.\n(B) is wrong because the drivers shortage is the very subject of the sentence, so it cannot shift to an unrelated topic.\n(C) is wrong because the sentence is about how large the request is, and it contains no criticism of the council's past funding decisions."
       },
       {
         "id": "1-3",
@@ -144,7 +144,7 @@ const QUESTIONS = {
           "That the audience has no real stake or interest in transit policy."
         ],
         "correct": 0,
-        "explanation": "A specific, countable figure like ‘late...nine times’ is the kind of concrete evidence a speaker reaches for when abstract claims (‘service has declined’) alone seem unlikely to move a listener — implying the audience needs that vividness to be persuaded. C is wrong because a fully persuaded audience wouldn't need this kind of supporting evidence at all. B underrates the detail: it is chosen deliberately, not decorative. D is wrong because the entire speech assumes the council has a stake in the outcome, or there would be no reason to address them."
+        "explanation": "Correct: (A) the audience needs vivid, quantifiable evidence. An inference about audience asks what the writer's choices assume about listeners. The speaker could have said only that service is worse, but instead gives a countable fact: 'I have been late to my shift nine times this year alone.' A concrete number is what a speaker offers when she expects abstract claims of decline to be easy to dismiss, so she assumes the council must be shown, not merely told.\n\n(B) is wrong because the detail does real persuasive work, turning the schedule problem into measurable harm to her job.\n(C) is wrong because an audience that already agreed would not need evidence, and the speaker is asking for a funding decision it has not yet made.\n(D) is wrong because she addresses 'this council,' which controls the budget, so the speech assumes the audience has a real stake in transit policy."
       },
       {
         "id": "1-4",
@@ -157,7 +157,7 @@ const QUESTIONS = {
           "No identifiable rhetorical appeal is present in this phrase; it is purely informational and neutral."
         ],
         "correct": 0,
-        "explanation": "The gap the phrase draws — between what was promised ‘on paper’ and what actually happens ‘in practice’ — is designed to make the audience feel the frustration of a broken promise, which is pathos. B is wrong because the speaker cites no credentials here, only lived frustration. D understates the line's clear emotional charge. C is wrong because the phrase contains no number or statistic; the earlier frequency comparison, not this line, is the logos-based moment."
+        "explanation": "Correct: (A) pathos, through the contrast between promise and reality. Pathos is an appeal to emotion, ethos to credibility, and logos to logic and evidence. The phrase 'the schedule I depend on no longer exists in practice, only on paper' sets a promised schedule against the speaker's lived experience of waiting, and that gap makes the listener feel the frustration of a broken promise. The word 'depend' adds a personal, emotional weight.\n\n(B) is wrong because the phrase offers no professional credentials or claimed expertise, only a rider's experience.\n(C) is wrong because the line contains no statistic or report; the only numbers in the passage, such as the twelve-minute and forty-minute intervals, appear elsewhere.\n(D) is wrong because the contrast of 'practice' against 'paper' is plainly emotionally charged, so the phrase is not neutral and does contain an appeal."
       },
       {
         "id": "1-5",
@@ -170,7 +170,7 @@ const QUESTIONS = {
           "A general criticism of people who choose to own cars."
         ],
         "correct": 1,
-        "explanation": "Opening with why she moved to the city — specifically because she wouldn't need a car — establishes that the speaker is not a distant critic but someone directly and personally affected, a form of ethos built from lived experience rather than professional expertise. C is wrong because this detail is precisely about her own standing to speak. D misreads the line as a judgment on car owners, which it isn't. A is wrong because no statistic appears in this detail."
+        "explanation": "Correct: (B) the speaker's personal stake and firsthand credibility. Ethos is the credibility a speaker builds, and lived experience is one way to build it. The opening, 'I moved to this city eleven years ago because I could not afford a car and was told, correctly, that I would not need one,' shows that she has relied on the bus system for over a decade and is directly affected by its decline. That gives her standing to speak about the number 14 bus and shows she has a personal stake in the outcome.\n\n(A) is wrong because the detail contains no statistic or logical evidence; 'eleven years' is a biographical fact, not support for a claim.\n(C) is wrong because the detail is precisely about her own standing to speak, which is credibility.\n(D) is wrong because the speaker never criticizes car owners; she explains only that she could not afford a car herself."
       },
       {
         "id": "1-6",
@@ -183,7 +183,7 @@ const QUESTIONS = {
           "Angrily confrontational."
         ],
         "correct": 1,
-        "explanation": "The speaker names genuine frustration (‘late...nine times’) but frames her request modestly and specifically (‘I am not here to ask...I am asking’), which reads as measured rather than heated. D overstates the register: there is no confrontation or accusation aimed at the council. C is wrong because the speech is openly personal and invested, not detached. A is wrong because nothing in the passage suggests the outcome is settled or being celebrated."
+        "explanation": "Correct: (B) reasonably measured despite real personal frustration. Tone is the writer's attitude toward the subject, shown through word choice. The speaker admits genuine frustration, 'I have been late to my shift nine times this year alone,' yet she speaks calmly and courteously, saying she is not asking for 'anything so ambitious' and merely requesting twelve drivers. Real feeling combined with restraint makes measured the most precise label.\n\n(A) is wrong because nothing suggests the outcome is secured; she is still pleading for funding, and the service has gotten worse, not better.\n(C) is wrong because a speaker who describes being late to work nine times and says the schedule 'no longer exists in practice' is plainly invested, not indifferent.\n(D) is wrong because she makes no accusation against the council and offers a modest request, so the tone does not rise to angry confrontation."
       },
       {
         "id": "1-7",
@@ -235,7 +235,7 @@ const QUESTIONS = {
           "A direct quotation attributed to a credentialed source."
         ],
         "correct": 1,
-        "explanation": "Describing the weld as looking ‘ashamed of itself’ personifies the failed attempt, using vivid, self-mocking imagery to convey incompetence memorably. A and D are wrong because this comparison is the writer's own figurative language, not a citation or quotation from anyone else. C is wrong because no statistic appears anywhere in this comparison."
+        "explanation": "Correct: (B) vivid, self-deprecating figurative language. Figurative language uses comparison and imagery rather than literal statement, and personification gives human feelings to a nonhuman thing. The writer says his first attempts looked 'less like a bead of molten metal and more like a child's drawing of one,' and calls them 'lumpy, uneven, ashamed of itself.' Giving the weld the feeling of shame is personification, and mocking his own work makes it self-deprecating. The stem names this comparison as the technique.\n\n(A) is wrong because no outside expert is cited in the comparison; it is the writer's own image.\n(C) is wrong because no statistic or failure rate appears anywhere in the phrase, so the comparison cannot be a statistical appeal.\n(D) is wrong because the only quotation in the passage comes from the instructor later, and the child's-drawing comparison is not a quotation from anyone."
       },
       {
         "id": "2-3",
@@ -274,7 +274,7 @@ const QUESTIONS = {
           "Angry and confrontational toward the instructor."
         ],
         "correct": 2,
-        "explanation": "The writer looks back on a humbling experience with eventual understanding and respect for the lesson it taught, which is reflective and quietly appreciative rather than heated or flat. D is wrong because nothing in the passage expresses anger toward the instructor, who is portrayed with respect. B understates the writer's clear personal engagement with the memory. A is wrong because the writer explicitly comes to value, not resent, the difficulty."
+        "explanation": "Correct: (C) reflective and quietly appreciative. Tone is the attitude a writer takes, and here the narrator looks back on an old struggle with understanding. The instructor's remark, 'Now you know what wrong feels like. That's the only way you'll recognize right,' is treated as wisdom, and the writer concludes 'She was correct, though it took another forty hours before I understood exactly how correct.' Looking back and valuing the lesson is reflective and appreciative.\n\n(A) is wrong because the writer does not resent the difficulty; he comes to see it as necessary for learning.\n(B) is wrong because personal feeling is clear in phrases like 'humble me' and 'ashamed of itself,' so the passage is not neutral.\n(D) is wrong because the instructor is described with respect, and nothing shows anger or confrontation toward her."
       },
       {
         "id": "2-6",
@@ -287,7 +287,7 @@ const QUESTIONS = {
           "To introduce an entirely new, unrelated topic at the essay's close."
         ],
         "correct": 0,
-        "explanation": "Noting that full understanding took ‘another forty hours’ extends the essay's theme that learning happens gradually through continued effort, not in an instant. B is wrong because the delay confirms, rather than undermines, the truth of the instructor's comment. D is wrong because the sentence stays on the same subject — learning to weld. C misreads a statement about the writer's own gradual understanding as a complaint about the instructor's pacing."
+        "explanation": "Correct: (A) extends the reflective arc, showing understanding as gradual. A sentence's function is what it adds to the passage's development. The last sentence says 'She was correct, though it took another forty hours before I understood exactly how correct.' The phrase 'another forty hours' shows that grasping the instructor's advice came slowly, through more practice, which continues the essay's idea of learning through repeated failure.\n\n(B) is wrong because the sentence begins 'She was correct,' so it confirms the instructor's credibility rather than undercutting it.\n(C) is wrong because the delay is about the writer's own slow understanding, not a complaint that the instructor explained too slowly; she is never blamed.\n(D) is wrong because the sentence remains on the subject of learning to weld and her remark, so it introduces no new unrelated topic."
       },
       {
         "id": "2-7",
@@ -300,7 +300,7 @@ const QUESTIONS = {
           "To persuade readers to pursue welding as a career."
         ],
         "correct": 1,
-        "explanation": "The essay's real work is reflecting on what the writer learned from failing repeatedly — that experiencing ‘wrong’ is how you eventually recognize ‘right’ — not teaching welding technique or making a case for the trade. C is wrong because technical instruction is never the essay's focus. A is unsupported; the training itself is portrayed positively through the instructor. D overreaches: the essay draws a personal lesson, not a recruitment pitch."
+        "explanation": "Correct: (B) to reflect on how failure is a necessary part of skill acquisition. Purpose is what the writer wants the passage to accomplish. The writer describes failed attempts, then quotes the instructor: 'Now you know what wrong feels like. That's the only way you'll recognize right when it finally shows up.' The essay is organized around that insight, that failing teaches you to recognize success, which is a reflection on failure as part of learning. The stem asks for the most precise purpose, so a topic summary is not enough.\n\n(A) is wrong because training is not criticized; the instructor gives useful advice and the writer values it.\n(C) is wrong because the passage teaches no techniques or equipment, and its only subject is the personal lesson from struggling.\n(D) is wrong because the writer never urges readers to take up welding as a career; he shares a personal lesson."
       },
       {
         "id": "3-1",
@@ -313,7 +313,7 @@ const QUESTIONS = {
           "Uncertain odds are not the same as certain failure, and partial success still shows possibility."
         ],
         "correct": 3,
-        "explanation": "The writer distinguishes ‘not proof the reef survives’ from ‘proof it is still possible’ — citing the new fish generation as evidence that possibility remains, even without guaranteed success. B is wrong because the writer states a clear position throughout. A overstates the writer's carefully hedged claim, which never promises certainty. C directly contradicts the writer's continued commitment to the work despite acknowledging the odds."
+        "explanation": "Correct: (D) uncertain odds are not certain failure, and partial success shows possibility. A central argument is the main claim the writer defends. The writer grants that colleagues 'may be right about the odds,' then answers 'But odds are not the same as certainty,' and points to fish living on fragments placed three years ago as evidence. The closing lines, 'That is not proof the reef survives. It is proof it is still possible for it to,' state the claim exactly.\n\n(A) is wrong because the writer says the work is 'not proof the reef survives,' which refuses to promise success.\n(B) is wrong because the writer takes a clear position, that restoration is still worthwhile because success remains possible.\n(C) is wrong because after nine seasons of work the writer continues it and argues for it, not for abandoning it."
       },
       {
         "id": "3-2",
@@ -326,7 +326,7 @@ const QUESTIONS = {
           "Ethos, relying solely on professional credentials."
         ],
         "correct": 1,
-        "explanation": "Describing the reef turning ‘the color of bone’ evokes death and loss through vivid image rather than data, which is pathos. C is wrong because no number or statistic appears in this specific phrase. D is wrong because this image draws on figurative language, not the writer's credentials. A understates a clearly emotionally charged comparison."
+        "explanation": "Correct: (B) pathos, through vivid mortality-evoking imagery. Pathos appeals to emotion, and imagery of death is a common way to do it. The writer asks how 'a number alone could convey what it means to watch a living structure older than most nations turn the color of bone.' The image of bleached coral as bone suggests death and loss, and the phrase sets itself against the cold percentages mentioned in the same sentence.\n\n(A) is wrong because the phrase is strongly emotional and figurative, so some appeal is clearly present.\n(C) is wrong because the phrase actually criticizes relying on numbers alone and contains no statistical measurement of its own.\n(D) is wrong because this sentence says nothing about the writer's qualifications; the credentials appear in the next sentence with the nine seasons, and the image here is not about credentials."
       },
       {
         "id": "3-3",
@@ -352,7 +352,7 @@ const QUESTIONS = {
           "It functions as a statistic offered as logical support, though the passage cites no number in this specific phrase."
         ],
         "correct": 0,
-        "explanation": "Naming ‘nine seasons transplanting coral fragments’ establishes direct, sustained, hands-on experience with the exact work under discussion, which builds ethos grounded in practice rather than secondhand knowledge. C dismisses a detail chosen specifically to establish authority. B misreads a credential as an emotional appeal. D is wrong because a count of seasons is a credential, not a statistic offered as evidence for a claim."
+        "explanation": "Correct: (A) it establishes firsthand, sustained experience. Ethos is a writer's credibility, often built by showing direct experience. The writer says 'I have spent nine seasons transplanting coral fragments onto degraded reef,' which tells readers that the writer has done this exact work for years rather than commenting from a distance. That experience makes later claims, such as having watched fragments 'host their first generation of resident fish,' more believable.\n\n(B) is wrong because the detail mainly shows qualification, not feeling, so it is not an emotional appeal.\n(C) is wrong because a detail that establishes authority to speak on the topic serves a clear rhetorical function and is not filler.\n(D) is wrong because a count of seasons describes the writer's background and does not serve as numerical evidence supporting a claim about the reef."
       },
       {
         "id": "3-5",
@@ -365,7 +365,7 @@ const QUESTIONS = {
           "Angrily dismissive of critics of the work."
         ],
         "correct": 0,
-        "explanation": "By distinguishing ‘proof the reef survives’ from ‘proof it is still possible,’ the writer makes a precise, honest qualification while still conveying real hope. D is wrong because nothing here addresses critics with hostility. B overstates the writer's carefully hedged claim as overconfidence, which the qualification directly avoids. C is wrong because the passage ends on possibility, not despair."
+        "explanation": "Correct: (A) carefully qualified, yet genuinely hopeful. The final lines, 'That is not proof the reef survives. It is proof it is still possible for it to,' first deny a strong claim and then assert a smaller, honest one. The careful limit shows qualification, while the assertion that survival remains possible shows hope. The stem asks for the tone of these two sentences specifically.\n\n(B) is wrong because the writer explicitly refuses to claim survival is proven, so there is no false optimism or overstated odds.\n(C) is wrong because ending on the reef being 'still possible' expresses hope, not despair, since the closing words 'still possible' point forward to something that can happen.\n(D) is wrong because neither sentence addresses the colleagues who doubt the work; they simply state what the evidence shows, with no hostility or dismissal."
       },
       {
         "id": "3-6",
@@ -391,7 +391,7 @@ const QUESTIONS = {
           "The algorithm genuinely understands each user's individual taste."
         ],
         "correct": 2,
-        "explanation": "The writer states plainly that the system knows only ‘what people statistically similar to you clicked,’ not why any individual likes what they like — correlation standing in for understanding. A is wrong because the writer's claim is explicit and specific. D is the position the writer directly argues against. B overstates the critique; the writer calls the accuracy ‘impressive,’ not worthless."
+        "explanation": "Correct: (C) the systems rely on correlation among similar users, not genuine understanding. A central claim is the main point the writer argues. The writer says the algorithm 'knows what you clicked, and what people statistically similar to you clicked afterward,' and that it 'does not know why you liked what you liked, only that you did,' calling this correlation. The stem asks about the central claim, and this is repeated through the passage.\n\n(A) is wrong because the writer states a specific claim about how the systems work, namely correlation instead of understanding.\n(B) is wrong because the writer grants 'impressive if unsettling accuracy,' so the systems are not said to provide no value.\n(D) is wrong because the writer explicitly resists describing the algorithm as 'understanding' our taste, which is the opposite of this claim."
       },
       {
         "id": "4-2",
@@ -404,7 +404,7 @@ const QUESTIONS = {
           "The writer raises no specific objection to this particular word choice."
         ],
         "correct": 1,
-        "explanation": "The writer's objection is precise: ‘understanding’ implies knowing why someone likes something, while the system only identifies statistical patterns — a real, and meaningfully lesser, capability. A is the opposite of the writer's stated view. D understates an objection the writer states directly and repeats. C is wrong because the word choice is used correctly; the objection is conceptual, not grammatical."
+        "explanation": "Correct: (B) 'understanding' implies knowing why, which the system only mimics with correlation. The writer writes that we should resist saying the algorithm 'understands' our taste, 'since understanding implies something the system does not do: it does not know why you liked what you liked, only that you did.' The objection is about meaning: the word promises knowledge of reasons, while the system only detects patterns. The stem's word 'specifically' points to this reasoning.\n\n(A) is wrong because the writer says the system does not understand and only tracks clicks, the reverse of perfect understanding.\n(C) is wrong because the objection concerns what the word implies, not grammar; the writer never says the word is grammatically misused.\n(D) is wrong because the writer gives a direct reason for rejecting the word, introduced by 'since.'"
       },
       {
         "id": "4-3",
@@ -417,7 +417,7 @@ const QUESTIONS = {
           "The writer believes this question has already been fully answered by industry."
         ],
         "correct": 1,
-        "explanation": "Noting that asking ‘why’ is ‘harder, more expensive’ and unrewarded points to a business incentive, not merely a technical ceiling, as the real reason these systems stay correlation-based. C understates a clause placed deliberately as the essay's closing point. A is the opposite of what the clause argues. D is wrong because the writer frames the question as unasked, not answered."
+        "explanation": "Correct: (B) the writer points to an economic incentive, not just a technical limitation. The final clause says the correlation 'has proven profitable enough that no one building these systems has much incentive to ask the harder, more expensive question of why.' The words 'profitable,' 'incentive,' and 'more expensive' all describe money and motivation, which means the systems stay shallow because of business reasons, not only because the technology cannot do better.\n\n(A) is wrong because the clause is full of economic wording, so the limitation is not treated as purely technical.\n(C) is wrong because the clause explains why the systems never move from correlation to understanding, which connects directly to the main argument.\n(D) is wrong because the clause says no one has an incentive to ask the question, meaning it remains unasked, not answered."
       },
       {
         "id": "4-4",
@@ -430,7 +430,7 @@ const QUESTIONS = {
           "Enthusiastically promotional toward these systems."
         ],
         "correct": 0,
-        "explanation": "The writer carefully distinguishes correlation from understanding and questions industry incentives without resorting to alarm or open hostility, which reads as skeptical and analytical. C overstates the writer's measured tone as panic. D is the opposite of the writer's clearly critical stance. B understates the writer's evident, if restrained, skepticism throughout."
+        "explanation": "Correct: (A) skeptically analytical, without becoming overtly hostile. The writer analyzes how the system works, 'It knows what you clicked,' and questions the term 'understanding' and the industry's motives, which is skeptical. Yet the writer concedes 'impressive if unsettling accuracy' and never attacks anyone, so the tone stays controlled.\n\n(B) is wrong because the writer clearly signals an attitude by urging us to 'resist the temptation' to use a flattering word.\n(C) is wrong because there is no alarmist language or predictions of disaster; the writer simply points out limits.\n(D) is wrong because the passage criticizes the claim of understanding and the lack of incentive to ask why, which is far from promotion of these systems."
       },
       {
         "id": "4-5",
@@ -456,7 +456,7 @@ const QUESTIONS = {
           "Full, unqualified support for the proposal exactly as written, a reading the writer's opening concession about testing's limits contradicts."
         ],
         "correct": 2,
-        "explanation": "The writer opposes this particular proposal specifically because it removes the only comparable measure available ‘without offering any replacement,’ while conceding testing has real limitations. D is the opposite of the writer's stated position. B is wrong because the writer takes a clear, specific stance. A overstates the writer's view; testing critics are called ‘not wrong,’ and reform is never ruled out, only this proposal."
+        "explanation": "Correct: (C) opposition to this specific proposal because it offers no replacement measure. A position is the stance the writer takes on an issue. The writer says the proposal 'eliminates the only externally comparable measure we currently have' and that 'This proposal offers no replacement. It offers only its absence.' The stem's word 'specific' matches the narrow objection to this proposal rather than to reform in general.\n\n(A) is wrong because the writer says 'Replace the test, by all means, if a better tool exists,' which allows reform.\n(B) is wrong because the writer states a clear stance against the proposal, repeatedly calling the proposal flawed because it 'offers no replacement'.\n(D) is wrong because the writer opposes the proposal; the opening concession that critics 'are not wrong' about the exam's limits does not mean support for it."
       },
       {
         "id": "5-2",
@@ -469,7 +469,7 @@ const QUESTIONS = {
           "To build credibility by acknowledging a genuine point before a targeted objection."
         ],
         "correct": 3,
-        "explanation": "Granting that critics ‘are not wrong’ makes the writer look fair-minded before she narrows in on a specific objection, which makes that objection land as more credible by contrast. B is wrong because the concession clarifies, rather than obscures, the writer's eventual position. A understates a strategically placed opening move. C overstates the concession as total agreement, which the rest of the passage directly contradicts."
+        "explanation": "Correct: (D) to build credibility by acknowledging a genuine point before a targeted objection. A concession admits a point to the other side, and it often makes a writer seem fair. The writer begins 'Critics of standardized testing are not wrong that a single morning's exam cannot capture the full measure of a student's capability,' and then turns with 'But' to the specific objection about the proposal. Appearing reasonable first makes the objection more believable.\n\n(A) is wrong because the concession has the clear purpose of establishing fairness before the objection.\n(B) is wrong because the writer states the position plainly right afterward, so readers are not confused.\n(C) is wrong because the writer says 'I do not intend to argue otherwise' only about the limits of testing and then opposes the proposal, so there is no total agreement."
       },
       {
         "id": "5-3",
@@ -482,7 +482,7 @@ const QUESTIONS = {
           "It noticeably softens the writer's position at the essay's end, conceding ground to the opposing view."
         ],
         "correct": 1,
-        "explanation": "‘Asks us to call that progress’ turns the missing replacement into a pointed, quotable indictment, closing the essay on its sharpest note. C understates a deliberately crafted final line. D is the opposite effect; the line sharpens, not softens, the objection. A is wrong because the sentence restates the passage's central point about the missing replacement, not a new one."
+        "explanation": "Correct: (B) its ironic phrasing delivers a memorable final judgment. Irony says something that points to the opposite of its surface sense. The proposal 'offers only its absence, and asks us to call that progress,' which mocks the claim that removing something with nothing in its place is an improvement. Ending on a short, sharp sentence gives the essay a quotable final verdict.\n\n(A) is wrong because the sentence restates the central point about the missing replacement, not a new argument.\n(C) is wrong because the closing line is the sharpest summary of the objection, so cutting it would lose the essay's final impact.\n(D) is wrong because the sentence hardens the writer's position and concedes nothing to the proposal's supporters."
       },
       {
         "id": "5-4",
@@ -495,7 +495,7 @@ const QUESTIONS = {
           "An appeal to the writer's own personal credentials rather than to evidence."
         ],
         "correct": 1,
-        "explanation": "Naming testing as ‘the only externally comparable measure we currently have’ grounds the objection in a specific, practical consequence — losing comparability — rather than feeling, which is logos. C understates a phrase that states the essay's central stake directly. A is wrong because the claim is factual and reasoned, not emotional. D is wrong because no personal credential appears in this phrase."
+        "explanation": "Correct: (B) a logos-based claim establishing the concrete stakes of removing testing. Logos is an appeal to reason and evidence. The writer says the proposal 'eliminates the only externally comparable measure we currently have for identifying which schools in this district are actually closing achievement gaps.' This is a reasoned claim about a practical consequence, losing the ability to compare schools, which defines what is at stake.\n\n(A) is wrong because the phrase is a factual, reasoned claim and not an emotional appeal.\n(C) is wrong because it states the central stake of the whole objection, so it is closely connected to the argument.\n(D) is wrong because no personal credential or experience of the writer is mentioned in the phrase."
       },
       {
         "id": "5-5",
@@ -508,7 +508,7 @@ const QUESTIONS = {
           "Angrily dismissive of every critic of standardized testing."
         ],
         "correct": 0,
-        "explanation": "The writer concedes critics' valid points while remaining firm about this one proposal's flaw, which is measured rather than dismissive or indifferent. D is wrong because the writer explicitly agrees critics ‘are not wrong.’ C overstates support for current testing, which the writer never defends as ideal. B is wrong given the writer's clearly stated, specific objection."
+        "explanation": "Correct: (A) measured and concessive, yet firm on its specific objection. A concessive tone grants points to the other side. The writer says critics 'are not wrong' and 'Replace the test, by all means, if a better tool exists,' which is measured, but then insists the proposal 'offers no replacement,' which is firm.\n\n(B) is wrong because the writer takes a definite and clearly argued stance on the proposal and cares about how it is resolved.\n(C) is wrong because the writer never says testing is ideal, and in fact agrees that one exam 'cannot capture the full measure of a student's capability.'\n(D) is wrong because the writer explicitly says critics 'are not wrong' on their main point, which cannot be angry dismissal."
       },
       {
         "id": "5-6",
@@ -547,7 +547,7 @@ const QUESTIONS = {
           "It offers a precise scientific measurement with no persuasive function."
         ],
         "correct": 2,
-        "explanation": "Comparing the reef's age to nations rather than years translates an abstract fact into something a general reader can feel, not just calculate, which is pathos-driven imagery rather than precise measurement. D misreads a figurative comparison as a scientific figure. A is wrong because nothing later in the passage conflicts with this claim about the reef's age. B understates how this detail reinforces the stakes of the restoration argument."
+        "explanation": "Correct: (C) a striking comparison that makes the reef's age emotionally graspable. A comparison turns an abstract fact into a familiar one. The writer calls the reef 'a living structure older than most nations,' which lets readers feel how old and valuable it is better than a number of years would. That heightens the loss of watching it turn 'the color of bone.'\n\n(A) is wrong because nothing later in the passage conflicts with the claim of the reef's age; it supports the stakes of the argument.\n(B) is wrong because the age underlines why the reef matters, so the phrase is tied to the case for restoration.\n(D) is wrong because 'older than most nations' is a figurative comparison rather than a precise scientific measurement, and it works persuasively, not by exact data."
       },
       {
         "id": "3-8",
@@ -573,7 +573,7 @@ const QUESTIONS = {
           "It reveals that the writer believes recommendations are essentially random, with no link to a user's past behavior."
         ],
         "correct": 2,
-        "explanation": "‘Statistically similar to you’ marks the system's method as inference from a group, not knowledge of the individual — the exact distinction the writer's broader critique depends on. D is wrong because the writer describes the method as patterned and effective, not random. A is unsupported; the writer critiques how the data is interpreted, not its volume. B understates a phrase central to the passage's core distinction."
+        "explanation": "Correct: (C) it reveals the distinction between group-based inference and true individual understanding. The phrase appears in 'what people statistically similar to you clicked afterward.' The word 'statistically' and the group of 'people' show that the system reasons from other people's behavior, not from knowing you as an individual. That is the heart of the writer's critique that the algorithm 'does not know you.'\n\n(A) is wrong because the writer discusses how the data is interpreted and never suggests the algorithm should collect less data.\n(B) is wrong because the phrase sets up the contrast between correlation and understanding, which is the central argument.\n(D) is wrong because the writer says the method works with 'impressive if unsettling accuracy' and links recommendations to what you clicked, which is not random."
       },
       {
         "id": "4-7",
@@ -586,7 +586,7 @@ const QUESTIONS = {
           "They indicate uncertainty about how to spell the word."
         ],
         "correct": 1,
-        "explanation": "Placing ‘understanding’ in quotes marks it as a contested term the writer doesn't fully accept as applied to these systems, distancing her own precise usage from looser popular usage. A understates a deliberate signal of skepticism. D misreads a rhetorical device as a spelling concern. C is wrong because no specific source is being quoted here."
+        "explanation": "Correct: (B) they signal that the writer considers the term misleading as applied to these systems. Scare quotes put a word in quotation marks to show distance from it. The writer says we should resist describing the algorithm's work as the algorithm 'understanding' our taste, and then explains that 'understanding implies something the system does not do.' The quotes mark the word as one the writer does not accept.\n\n(A) is wrong because the quotation marks clearly carry meaning, flagging doubt about the word, since a writer who puts a word in quotes is deliberately pointing at it.\n(C) is wrong because no person or source is named or quoted in the passage, so the marks are not citing anyone.\n(D) is wrong because nothing suggests spelling doubt; the word is spelled normally and later discussed as a concept."
       },
       {
         "id": "4-8",
@@ -599,7 +599,7 @@ const QUESTIONS = {
           "It shifts the essay from a purely technical critique to an institutional, economic one."
         ],
         "correct": 3,
-        "explanation": "Naming the missing incentive to ask ‘why’ broadens the essay's final point from how the algorithm works to why companies built it this way — an economic and institutional turn. A is wrong because this clause extends, rather than drops, the essay's argument. C is the opposite direction of the actual shift, away from technical detail. B understates a clause that draws directly on the passage's earlier discussion of correlation versus understanding."
+        "explanation": "Correct: (D) it shifts the essay from a technical critique to an institutional, economic one. The clause says that 'no one building these systems has much incentive to ask the harder, more expensive question of why.' Until then the passage explained how the algorithm works, using clicks and similar users; the closing clause turns to the people and companies building it and their financial reasons. The stem's phrase 'shift the essay's focus' asks for this change.\n\n(A) is wrong because the clause extends the argument by explaining why the system stays shallow, so it does not abandon anything.\n(B) is wrong because the clause builds on the earlier contrast of correlation against 'why.', so the final clause is clearly tied to the passage.\n(C) is wrong because the shift runs away from technical detail toward incentives and expense, not toward a code-level critique."
       }
     ],
     "draftPassages": [
@@ -628,7 +628,7 @@ const QUESTIONS = {
           "Community gardens are good for neighborhoods everywhere, without engaging this specific proposal's site or audience at all."
         ],
         "correct": 2,
-        "explanation": "This revision names the specific site and specific local need, replacing a generic claim true of any neighborhood with one tailored to this proposal and audience. D is wrong because it stays generic, never mentioning this specific site or need. B is simply the unrevised, still-vague original sentence. A is wrong because a historical fact about gardens generally does nothing to support this specific proposal."
+        "explanation": "Correct: (C) This proposal would turn an unused Fifth Street lot into growing space this neighborhood lacks. In a revision question, you must decide what the sentence has to do in the draft. Sentence [1], 'Community gardens have many benefits,' opens a persuasive proposal, so it should name this proposal's specific site and need rather than make a claim true of any garden. Choice C does that by naming the 'Fifth Street' lot, which sentence [2] describes as 'currently used for nothing,' and by tying it to local need, so it matches both the purpose and the audience of residents.\n\n(A) is wrong because a fact about gardens existing for thousands of years is historical background that does nothing to support this particular proposal.\n(B) is wrong because it simply repeats the original vague sentence without any revision, so it would leave the opening just as generic as before.\n(D) is wrong because it stays generic about neighborhoods everywhere and never engages the specific site or audience."
       },
       {
         "id": "1w-2",
@@ -641,7 +641,7 @@ const QUESTIONS = {
           "Sentence [2], which describes the physical plan for the lot rather than naming a specific worry."
         ],
         "correct": 2,
-        "explanation": "Sentence [3] explicitly names the audience's likely objection — calling it ‘a fair question that deserves a direct answer’ — which is precisely how a writer addresses an anticipated counterargument. D describes the plan itself but doesn't name a concern. A and B are wrong because neither the opening claim nor the closing line engages the stated cost/upkeep worry directly."
+        "explanation": "Correct: (C) Sentence [3]. A counterargument is an objection that opponents or skeptical readers are likely to raise, and a writer answers it by naming it fairly. Sentence [3] says 'Some residents worry about who will pay for water access and basic tools, and this is a fair question that deserves a direct answer, not a dismissal.' That names the audience's cost and upkeep worry and promises a response, which is exactly addressing a counterargument.\n\n(A) is wrong because sentence [5], 'Gardens are nice,' is a vague closing line and never mentions the worry about cost or upkeep.\n(B) is wrong because sentence [1] is a generic opening claim about benefits and names no concern.\n(D) is wrong because sentence [2] describes the lot and the twenty plots, which is the plan, and it does not state any specific objection that residents might raise."
       },
       {
         "id": "1w-3",
@@ -654,7 +654,7 @@ const QUESTIONS = {
           "It is grammatically incorrect as written."
         ],
         "correct": 1,
-        "explanation": "After the specific, budget-grounded case built in sentences [2]-[4], the vague closer ‘Gardens are nice’ drops the essay's momentum and specificity right at the end. D is wrong because the sentence is grammatically fine. A is wrong because the sentence doesn't contradict anything; it merely fails to reinforce what came before. C is wrong because the sentence is actually too short and simple, not too complex."
+        "explanation": "Correct: (B) its vague, generic language undercuts the specific case the essay has built. Specificity is the use of concrete detail, and a conclusion should support the argument that came before it. Sentences [2] through [4] give a site, twenty plots, 'water access through existing municipal infrastructure,' and a shed 'funded by a one-time grant already approved by the county extension office.' Then 'Gardens are nice.' ends the essay on a bland statement that gives none of that detail, so the final impression is weak.\n\n(A) is wrong because the sentence is positive about gardens and so does not contradict the essay's argument about the garden's value.\n(C) is wrong because the sentence is only three words long, so it is too short and simple, not too long and complex.\n(D) is wrong because 'Gardens are nice.' is a complete, grammatical sentence, so the sentence has no grammar error that could be the cause of its weakness."
       },
       {
         "id": "1w-4",
@@ -667,7 +667,7 @@ const QUESTIONS = {
           "Gardens are nice, and many people enjoy having them in their neighborhoods."
         ],
         "correct": 2,
-        "explanation": "This revision closes by echoing the essay's actual persuasive work — answering the audience's stated concerns with a concrete plan — rather than trailing off vaguely. A is wrong because it signals closure without reinforcing any argument. B overgeneralizes into unrelated advice for readers rather than restating the proposal's case. D is the original, unrevised weak line."
+        "explanation": "Correct: (C) In short, this proposal answers residents' concerns with a concrete funding plan already in place. A conclusion in a persuasive draft should reinforce the main case for the stated audience, and the draft's real persuasive work is answering the worry about cost: sentence [3] raises 'who will pay for water access and basic tools,' and sentence [4] provides the funding. Choice C summarizes that answer and the phrase 'In short' marks it as a closing statement.\n\n(A) is wrong because thanking the committee signals that the essay is over without restating or reinforcing any argument, and the draft names no committee.\n(B) is wrong because it drifts into general advice that everyone should garden, which is unrelated to this proposal and its audience.\n(D) is wrong because it is essentially the original weak line, still vague and generic, so it would leave the conclusion exactly as weak as before the revision."
       },
       {
         "id": "1w-5",
@@ -680,7 +680,7 @@ const QUESTIONS = {
           "Reverse their order with no other change, leaving the connection between the two sentences just as unclear as before."
         ],
         "correct": 0,
-        "explanation": "A transition such as ‘Fortunately’ or ‘In response’ explicitly marks [4] as the answer to the concern raised in [3], clarifying the question-answer relationship for the reader. D is wrong because reordering alone doesn't clarify the relationship and disrupts the concern-then-answer logic. C leaves the connection unstated. B is wrong because deleting [3] removes the concern the essay needs [4] to answer."
+        "explanation": "Correct: (A) Add a transition like 'Fortunately,' to signal that [4] answers the concern in [3]. Sentence [3] raises a worry, 'who will pay for water access and basic tools,' and sentence [4] says 'The attached budget proposal covers water access.' Right now nothing marks the second sentence as the answer to the first, so a transition word such as 'Fortunately' makes the question-and-answer relationship clear and improves logical flow.\n\n(B) is wrong because deleting [3] would remove the concern that [4] exists to answer, leaving the funding detail without context.\n(C) is wrong because leaving them unchanged keeps the connection implied rather than clarified, which is the problem the question asks to improve.\n(D) is wrong because reversing them puts the answer before the worry and does nothing to explain how the two sentences are related, so the link stays as unclear as before."
       },
       {
         "id": "1w-6",
@@ -693,7 +693,7 @@ const QUESTIONS = {
           "It would have no effect on the essay's persuasive strength either way, though this understates how directly a concrete figure serves this exact concern."
         ],
         "correct": 1,
-        "explanation": "Because the stated audience's concern is cost specifically, a concrete dollar figure gives the logos-based answer even more force than the current general reference to a grant. A and C are wrong because nothing about this audience or essay suggests numbers are unwelcome; the essay already uses specific plan details effectively. D understates how directly a concrete figure would serve this audience's stated concern."
+        "explanation": "Correct: (B) yes, since the audience's concern is specifically cost, a concrete figure strengthens that response. Logos is the appeal to reason and evidence, and the strongest evidence answers the exact worry. Sentence [3] states that residents worry about 'who will pay,' and sentence [4] mentions only 'a one-time grant already approved by the county extension office.' Adding the exact dollar amount would let residents see the real cost covered, making the answer more specific and checkable.\n\n(A) is wrong because the draft already uses specifics like 'twenty individual plots,' and nothing suggests numbers should be avoided.\n(C) is wrong because a dollar figure is clear and would not confuse readers who are worried about money.\n(D) is wrong because a concrete figure plainly changes how persuasive a response to a cost concern is, so the addition would matter."
       },
       {
         "id": "1w-7",
@@ -719,7 +719,7 @@ const QUESTIONS = {
           "Sentence [3], which names the audience's concern directly."
         ],
         "correct": 1,
-        "explanation": "Sentence [1]'s generic claim (‘Community gardens have many benefits’) does nothing to address the audience's specific worry about upkeep and cost, unlike [3] and [4], which speak to it directly. A is wrong because [3] and [4] are the sentences doing that work, not [1]. C and D are wrong because both of those sentences engage the cost concern specifically, unlike [1]."
+        "explanation": "Correct: (B) Sentence [1], in its current vague, generic form. The question asks which sentence does the least work toward the audience's concern about upkeep and cost. 'Community gardens have many benefits' says nothing about who pays or who maintains the garden; it is a general claim that could open any garden essay. By contrast, sentence [3] names the concern and sentence [4] explains funding for 'water access' and 'tool storage.'\n\n(A) is wrong because sentence [4] details the funding plan and so does a lot to address the cost concern.\n(C) is wrong because the option claims [3] and [4] both address the concern, which is true, but the question asks for the sentence doing the least work, and that is not them.\n(D) is wrong because sentence [3] states 'Some residents worry about who will pay,' naming the concern directly."
       },
       {
         "id": "1w-9",
@@ -745,7 +745,7 @@ const QUESTIONS = {
           "It uses more sophisticated vocabulary, which is inherently more persuasive."
         ],
         "correct": 2,
-        "explanation": "Naming the funding source and its already-approved status gives the audience something concrete and checkable, directly answering their stated cost worry, unlike the vague ‘tools will be provided.’ A and D are wrong because length and vocabulary aren't what make this version stronger; its specificity and verifiability are. B understates a real difference in persuasive strength between a vague assurance and a documented one."
+        "explanation": "Correct: (C) the specific funding source and approval status offer concrete, verifiable support. Specific evidence names who, what, and whether it has been done, so readers can check it. The phrase 'a single secured shed funded by a one-time grant already approved by the county extension office' tells readers the type of storage, that the money is a one-time grant, and that it has already been approved by a named body. Residents worried about 'who will pay' get a documented answer, while 'tools will be provided' is only a promise.\n\n(A) is wrong because length alone does not make a sentence persuasive; its detail does, and the sentence is persuasive because of its concrete detail.\n(B) is wrong because a documented, verifiable source is clearly more convincing than a vague promise, so the two are not equally effective.\n(D) is wrong because the persuasiveness comes from concrete facts and not from sophisticated vocabulary, and the plain words 'secured shed' and 'approved' carry the force."
       },
       {
         "id": "2w-1",
@@ -758,7 +758,7 @@ const QUESTIONS = {
           "It uses vocabulary too advanced for a workplace newsletter."
         ],
         "correct": 0,
-        "explanation": "‘No matter the cost’ is an extreme, one-sided claim that breaks from the essay's stated goal of presenting ‘a balanced view,’ unlike the more measured sentences around it. B is wrong because sentence length isn't the issue; the problem is the claim's one-sidedness. D is wrong because the vocabulary here is plain, not advanced. C is wrong because the sentence is grammatically correct."
+        "explanation": "Correct: (A) it abandons the essay's stated balanced approach for an extreme, one-sided claim. Tone consistency means a sentence should fit the stance of the rest of the draft, and this essay aims at a balanced view for a general workplace newsletter. Sentence [4] says 'this is a bad thing that companies need to fix immediately no matter the cost,' and the phrase 'no matter the cost' is absolute, while sentences [2], [3], and [5] weigh benefits and drawbacks and call for 'a more measured approach.'\n\n(B) is wrong because the sentence's length is not the issue; the problem is the extreme content of its claim.\n(C) is wrong because the sentence is grammatically correct, with no error to fix, so grammar is not what makes it inconsistent with the essay.\n(D) is wrong because its vocabulary is plain and simple, so the register is not too advanced for a newsletter."
       },
       {
         "id": "2w-2",
@@ -771,7 +771,7 @@ const QUESTIONS = {
           "It should be noted that this is a bad thing that companies need to fix immediately no matter the cost."
         ],
         "correct": 1,
-        "explanation": "This revision names the downside as a tradeoff while explicitly linking back to remote work's other benefits, restoring the balanced framing the essay's stated purpose requires. D is the original, unrevised extreme sentence. C proposes an equally one-sided solution in the opposite direction. A denies the very downside the essay just described, creating a new inconsistency."
+        "explanation": "Correct: (B) this represents a genuine tradeoff worth acknowledging, alongside remote work's other benefits. The revised sentence must restore balance, and a tradeoff is a situation in which gaining one thing costs another. Sentence [3] says informal 'hallway conversations' 'happen far less often,' and sentence [2] says productivity on independent tasks stayed 'steady or even improved.' Calling the loss a tradeoff acknowledges both sides and keeps the draft in line with its measured conclusion in [5].\n\n(A) is wrong because claiming remote work has no downsides contradicts sentence [3], which just described a real loss.\n(C) is wrong because ending all remote work is another extreme position, just as one-sided as the original.\n(D) is wrong because it is the original sentence, with its extreme phrase 'no matter the cost,' left unchanged."
       },
       {
         "id": "2w-3",
@@ -784,7 +784,7 @@ const QUESTIONS = {
           "It introduces an entirely unrelated new topic."
         ],
         "correct": 0,
-        "explanation": "Proposing ‘scheduled, informal virtual time’ directly answers the collaboration concern named in [3]-[4], keeping the essay solution-oriented rather than just listing a problem. B and C are wrong because [5] responds directly to, rather than ignoring or conflicting with, the concern just raised. D is wrong because [5] stays on the same topic — recreating lost informal contact."
+        "explanation": "Correct: (A) it proposes a practical response to the concern raised in [3] and [4]. Sentence [3] explains that spontaneous hallway talk 'happen far less often' without a shared office, and sentence [4] calls that a problem. Sentence [5] then offers 'scheduled, informal virtual time specifically designed to recreate some of what unplanned in-person contact used to provide,' which is a concrete way to address the loss. The stem's phrase 'in relation to the concern' points to this problem-and-solution link.\n\n(B) is wrong because sentence [5] mentions the unplanned in-person contact that sentence [3] described, so it does not ignore the concern.\n(C) is wrong because it responds to the concern and agrees there is something to fix, so it does not contradict anything.\n(D) is wrong because it stays on the same topic, recreating informal contact, so it does not introduce an unrelated subject."
       },
       {
         "id": "2w-4",
@@ -810,7 +810,7 @@ const QUESTIONS = {
           "Sentence [2], considered without any accompanying counterpoint."
         ],
         "correct": 1,
-        "explanation": "Sentence [1] acknowledges that remote work has changed collaboration ‘not always in ways that are easy to measure’ without yet committing to a one-sided judgment, setting up the nuanced discussion that follows. A is wrong because [4], in its original form, is the essay's clearest departure from balance. C overlooks [1], which models the essay's intended tone. D is wrong because [2] alone, isolated from its counterpoint in [3], wouldn't demonstrate balance."
+        "explanation": "Correct: (B) sentence [1], which acknowledges change without taking a one-sided position. A balanced sentence recognizes complexity without committing to one side. Sentence [1] says remote work 'has changed how teams collaborate, and not always in ways that are easy to measure,' which neither praises nor condemns it and sets up the weighing that follows.\n\n(A) is wrong because the original sentence [4] is the most extreme in the draft, with its 'no matter the cost.'\n(C) is wrong because the claim that no sentence achieves balance overlooks sentence [1], which models the essay's tone.\n(D) is wrong because sentence [2], 'Some studies show productivity has remained steady or even improved,' presents only the positive side when read alone, and only [3] supplies the counterpoint, so it does not by itself show balance."
       },
       {
         "id": "2w-6",
@@ -836,7 +836,7 @@ const QUESTIONS = {
           "A brief, plain-language reference such as 'according to several recent workplace surveys.'"
         ],
         "correct": 3,
-        "explanation": "A brief, plain-language attribution fits a general workplace newsletter's register, adding some evidentiary support without academic density that would feel out of place. B and C would mismatch the publication's accessible, non-technical register with dense academic material. A leaves a supportable claim without any grounding at all, which weakens rather than strengthens it."
+        "explanation": "Correct: (D) a brief, plain-language reference such as 'according to several recent workplace surveys.' Register is the level of formality and technicality suited to an audience, and the essay is for a general workplace newsletter. Sentence [2] says 'Some studies show productivity has remained steady or even improved,' a claim that is vague about its source. A short attribution adds support in terms an ordinary reader can follow without weighing the piece down.\n\n(A) is wrong because leaving the claim unsupported keeps it vague, and the question asks how to strengthen it.\n(B) is wrong because a long digression into statistical methodology would be far too technical for a general newsletter and would interrupt the essay.\n(C) is wrong because a dense citation of a study's full methodology is academic and would feel out of place in a short newsletter essay."
       },
       {
         "id": "2w-8",
@@ -849,7 +849,7 @@ const QUESTIONS = {
           "It would make the essay's tone more extreme and one-sided, since every claim would read as certain."
         ],
         "correct": 2,
-        "explanation": "Revising [4] to remove its extreme framing brings that sentence in line with the careful, two-sided tone established elsewhere, making the whole essay's tone more consistent. A is wrong because a revised sentence of similar length wouldn't meaningfully shorten the essay. D is the opposite of the revision's actual effect. B understates a real, essay-wide tonal improvement from fixing the one clear outlier sentence."
+        "explanation": "Correct: (C) it would make the essay's tone more consistently measured and balanced. The essay's stated aim is a balanced view, and its sentences [1], [2], [3], and [5] are measured, with phrases like 'not always in ways that are easy to measure' and 'A more measured approach.' Sentence [4], with 'no matter the cost,' is the one sentence that breaks that tone. Revising it to describe a tradeoff removes the outlier and makes the whole essay consistent.\n\n(A) is wrong because the revision swaps one sentence for another of similar size, so it would not noticeably shorten the essay.\n(B) is wrong because tone depends on more than word choice, including how extreme a claim is, and fixing the outlier clearly changes the essay's overall effect.\n(D) is wrong because the revision removes extreme framing, so it produces the opposite of a more one-sided tone."
       },
       {
         "id": "2w-9",
@@ -862,7 +862,7 @@ const QUESTIONS = {
           "Sentence [3] restates sentence [2] with no new information added."
         ],
         "correct": 0,
-        "explanation": "Sentence [2] describes steady or improved productivity on independent tasks, while [3] describes a loss in informal collaboration — two different, contrasting effects of remote work. B and D both misread [3] as repeating [2], when it introduces a genuinely different, opposing effect. C understates a clear logical link (contrast) between the two sentences."
+        "explanation": "Correct: (A) they present a contrast: one kind of work benefits, another kind suffers. A contrast sets two ideas against each other, often signaled by a word such as 'However.' Sentence [2] says productivity on tasks completed independently 'has remained steady or even improved,' while sentence [3] begins 'However informal hallway conversations' 'happen far less often.' One effect is positive and the other negative, so the second pushes back against the first.\n\n(B) is wrong because sentence [3] adds a different, opposing effect on collaboration rather than repeating the claim about productivity.\n(C) is wrong because the word 'However' creates a clear logical relationship, namely contrast, so the two sentences are clearly connected by contrast.\n(D) is wrong because sentence [3] adds new information about lost informal conversation, so it is not a restatement of [2]."
       },
       {
         "id": "2w-10",
@@ -875,7 +875,7 @@ const QUESTIONS = {
           "Making every sentence as short as possible regardless of what content it must carry."
         ],
         "correct": 2,
-        "explanation": "Since the essay's stated goal is balance, the guiding revision principle should be consistency with the measured approach already established, correcting the one sentence ([4]) that breaks from it. A and D propose stylistic changes unrelated to the essay's actual problem. B would remove exactly the kind of concrete example ([2]) that currently works well in the draft."
+        "explanation": "Correct: (C) keeping every claim as measured as [1]-[3] and [5], fixing departures like the original [4]. Revision goals should follow the essay's stated purpose, and this draft aims at a balanced view for a general workplace newsletter. Sentences [1] to [3] and [5] present both benefit and drawback and recommend 'a more measured approach,' while sentence [4], 'no matter the cost,' departs from that. The guiding goal is therefore to keep every claim consistently measured.\n\n(A) is wrong because adding technical jargon would clash with a general newsletter and would not fix the draft's real problem.\n(B) is wrong because removing specific examples would delete useful evidence such as the productivity point in [2] and make the claims vaguer.\n(D) is wrong because making every sentence as short as possible ignores content and does not address the tonal inconsistency."
       },
       {
         "id": "2w-11",
@@ -901,7 +901,7 @@ const QUESTIONS = {
           "Changing the essay's topic to something unrelated to remote work."
         ],
         "correct": 1,
-        "explanation": "Sentence [4] is the clearest, most significant departure from the balanced, measured approach the rest of the draft establishes, so fixing it is the single most important revision. A and C propose changes disconnected from the essay's actual weakness. D abandons the assignment entirely rather than addressing the one real problem in the draft."
+        "explanation": "Correct: (B) bringing sentence [4] into alignment with the balanced tone established elsewhere. The most important revision is the one that fixes the biggest mismatch between the draft and its purpose. The draft is meant to be balanced, and sentences [1], [2], [3], and [5] weigh both sides, but sentence [4] asserts 'this is a bad thing that companies need to fix immediately no matter the cost,' an extreme demand. Correcting that single sentence resolves the draft's central flaw.\n\n(A) is wrong because adding more sentences of any kind would lengthen the essay without fixing sentence [4], the actual weak point.\n(C) is wrong because removing all evidence would make the essay vaguer and would not repair the tone problem.\n(D) is wrong because changing the topic away from remote work abandons the assignment rather than revising the draft."
       },
       {
         "id": "1w-11",
@@ -953,7 +953,7 @@ const QUESTIONS = {
           "As with most workplace changes, the best path likely combines real benefits with solutions to tradeoffs."
         ],
         "correct": 3,
-        "explanation": "This addition names both benefits and tradeoffs in the same closing sentence, echoing the essay's overall balanced approach as a fitting final note. C adds nothing of substance and doesn't reinforce the essay's argument. B overstates a general rule the exam doesn't test. A is a one-sided claim that would reintroduce the same imbalance the essay has just worked to correct."
+        "explanation": "Correct: (D) as with most workplace changes, the best path likely combines real benefits with solutions to tradeoffs. A closing sentence should reinforce the essay's overall purpose, which is a balanced view. The draft credits remote work with steady productivity in [2], notes lost 'hallway conversations' in [3], and proposes 'scheduled, informal virtual time' in [5]. This final sentence names benefits and tradeoffs together and points to solutions, which echoes that balanced approach.\n\n(A) is wrong because declaring remote work 'obviously superior' in every way is one-sided and would bring back the imbalance the draft just corrected.\n(B) is wrong because it adds no content to the essay and makes a sweeping claim about all essays that does not reinforce the argument.\n(C) is wrong because telling the reader to stop reading adds no substance and does not support the essay's balanced purpose."
       },
       {
         "id": "1w-13",
@@ -966,7 +966,7 @@ const QUESTIONS = {
           "These sentences ignore the stated audience's concerns entirely and speak only to the writer."
         ],
         "correct": 0,
-        "explanation": "Sentences [3]-[4] name and answer the exact concern — upkeep and cost — the stated audience is described as holding, which makes them the essay's central persuasive work. C and D understate or misdescribe sentences built specifically around that audience's concern. B is wrong because nothing in [3]-[4] conflicts with the essay's case for the garden; they strengthen it."
+        "explanation": "Correct: (A) these sentences directly answer the audience's stated concern, making them the persuasive core. A persuasive essay is built around the objection its audience is most likely to hold, and here that objection is upkeep and cost. Sentence [3] says 'Some residents worry about who will pay for water access and basic tools,' and sentence [4] answers with 'water access through existing municipal infrastructure at minimal added cost' and a shed paid by an approved grant. Raising a fair question and then supplying the plan is the essay's strongest argument.\n\n(B) is wrong because nothing in these sentences conflicts with the case for the garden; they support it by removing a reason to oppose it.\n(C) is wrong because they are not filler; they respond to the exact audience described, since they answer the concern raised in the draft.\n(D) is wrong because they speak to residents' worries, not only to the writer, with 'a fair question that deserves a direct answer.'"
       }
     ]
   },
@@ -1332,7 +1332,7 @@ const QUESTIONS = {
           "Purely anecdotal evidence about one student's individual experience."
         ],
         "correct": 0,
-        "explanation": "“Comparable districts… showed measurable gains” is comparative data across districts, offered to support a causal claim about what restoring funding does — not a single expert's opinion, not an unsupported claim, and not one anecdote about an individual student."
+        "explanation": "Correct: (A) comparative data from similar districts, supporting a causal claim. Evidence types include statistics, expert testimony, anecdote, and comparison, and a comparison uses a similar case to suggest what would happen here. The memo says 'Students in comparable districts with restored arts funding showed measurable gains in reported school engagement and reduced disciplinary incidents within two years.' The words 'comparable districts' mark a comparison, and the claim that restoring funding led to gains is causal.\n\n(B) is wrong because no single named authority or expert is quoted anywhere in the passage.\n(C) is wrong because the sentence plainly cites results from other districts as support, so evidence is present.\n(D) is wrong because the passage describes groups of students across districts, not one student's individual story."
       },
       {
         "id": "4-6",
@@ -1449,7 +1449,7 @@ const QUESTIONS = {
           "Expert testimony from an outside consultant."
         ],
         "correct": 0,
-        "explanation": "“68 percent of staff report preferring…” is a quantified finding from an employee survey — statistical survey evidence, the first of the memo's three combined evidence types. It isn't drawn from past precedent, isn't about a single employee, and cites no outside expert."
+        "explanation": "Correct: (A) statistical survey evidence. Statistical evidence expresses findings as numbers drawn from a sample, and survey evidence comes from asking people questions. The memo opens 'Employee surveys show that 68 percent of staff report preferring at least some remote work flexibility,' so the figure is a percentage from an employee survey. The stem asks what type the '68 percent' figure is, and the words 'surveys' and 'percent' answer it.\n\n(B) is wrong because the figure reports current preferences and does not refer to an earlier company policy or precedent.\n(C) is wrong because 68 percent of staff covers many employees, not one person's experience, so it is not anecdotal evidence.\n(D) is wrong because no outside consultant is named or quoted in that sentence; the data come from the company's own staff."
       },
       {
         "id": "5-8",
@@ -3726,7 +3726,7 @@ const QUESTIONS = {
           "A claim of fact — measurable attendance and discipline changes tied to delayed start times."
         ],
         "correct": 3,
-        "explanation": "Source 1 reports measured, specific outcomes (3-5% attendance gains, fewer disciplinary incidents), which is a claim of fact rather than an opinion (choice A) or a direct policy recommendation (choice C) — the source describes what happened, not what should happen. Choice B is wrong because the source clearly does provide usable evidence; a claim of fact can still support a broader policy argument, which is exactly how a synthesis essay would use it."
+        "explanation": "Correct: (D) a claim of fact, with measurable attendance and discipline changes tied to delayed start times. A claim of fact says something can be verified as true or false, a claim of value judges worth, and a claim of policy says what should be done. Source 1 reports that districts that delayed start times by 30 minutes or more 'saw average attendance improve by 3 to 5 percent and reported disciplinary incidents decline modestly.' Those are measured results, so the source describes what happened and gives evidence a student could use for a policy thesis.\n\n(A) is wrong because the source does not simply say delaying is good; it reports numbers and effects.\n(B) is wrong because a researcher's data on attendance and discipline is directly usable evidence for a thesis about school start times.\n(C) is wrong because the source never tells districts what they must do; it only reports outcomes."
       },
       {
         "id": "1-2",
@@ -3739,7 +3739,7 @@ const QUESTIONS = {
           "Rely on Source 2 alone, since its cost data is more concrete than Source 1's findings."
         ],
         "correct": 2,
-        "explanation": "The strongest move synthesizes the two sources rather than treating them separately: Source 2's cost and timeline data becomes a genuine counterargument the essay addresses head-on, then argues the benefits Source 1 documents are worth that cost (or proposes managing it). Choice B misreads the sources as agreeing when they address different issues entirely. Choices A and D both drop one source altogether, which is exactly the selective-citation problem Section 5.4 warns against — a strong essay engages every relevant source, not just the convenient one."
+        "explanation": "Correct: (C) use Source 2 to acknowledge the cost counterargument, then explain why the benefits justify it. Synthesis means combining sources into one argument and not just reporting them one after another. Source 1 shows benefits, attendance up 3 to 5 percent, while Source 2 warns of 'bus route restructuring costs, which in three case studies ranged from $200,000 to $650,000' and a '6-to-9-month implementation timeline.' A strong essay admits that cost and then argues why the documented benefits are worth it, which makes the two sources work together.\n\n(A) is wrong because leaving Source 2 out ignores a real objection and makes the argument look one-sided.\n(B) is wrong because the sources do not make the same claim; neither says start times don't matter, and one reports benefits while the other reports costs.\n(D) is wrong because relying on Source 2 alone drops the benefits that justify the thesis."
       },
       {
         "id": "1-3",
@@ -3765,7 +3765,7 @@ const QUESTIONS = {
           "Neither source makes a claim relevant to the public art funding debate at all."
         ],
         "correct": 2,
-        "explanation": "Source 3 and Source 4 discuss different dimensions of the issue rather than disputing the same fact, so a synthesis essay can use both without resolving a contradiction. Choice A is wrong because neither source disputes the other's specific claim — they simply aren't talking about the same thing. Choices B and D mischaracterize the sources as irrelevant or identical, when in fact each makes a distinct, genuinely relevant claim."
+        "explanation": "Correct: (C) they are complementary: Source 3 addresses an economic benefit, Source 4 a separate budget tradeoff. Complementary claims address different dimensions of an issue, while conflicting claims dispute the same fact. Source 3 reports that neighborhoods with public art saw foot traffic to small businesses rise by an average of 12 percent, and Source 4 states that public art 'competes directly against infrastructure maintenance backlogs' and notes a '$40 million deferred maintenance gap.' One is about a benefit of art and the other about the budget cost of choosing it, so both can be true.\n\n(A) is wrong because Source 4 never denies that foot traffic increases; it does not address foot traffic.\n(B) is wrong because the two make different claims, one about benefits and one about trade-offs.\n(D) is wrong because both bear directly on whether the city should fund public art, so neither source is irrelevant to the funding debate."
       },
       {
         "id": "2-2",
@@ -3778,7 +3778,7 @@ const QUESTIONS = {
           "Left out of the essay entirely, since it doesn't support the thesis being argued."
         ],
         "correct": 2,
-        "explanation": "The strongest approach treats Source 4 as a real concession — acknowledging the budget tradeoff it raises — and then explains, potentially using Source 3's foot-traffic data, why the benefit still justifies the cost. Choices A and B both misrepresent what Source 4 actually says, which damages an essay's credibility. Choice D simply omits a relevant, complicating source, risking the appearance of avoidance that Section 5.4 warns against."
+        "explanation": "Correct: (C) cited as a genuine concession, then answered using Source 3's economic benefit data. A concession acknowledges a fair point from the other side, and a rebuttal then answers it. Source 4 says public art 'represents discretionary spending that competes directly against infrastructure maintenance backlogs' with a '$40 million deferred maintenance gap.' A student arguing that art funding should continue can admit this budget pressure and then use Source 3's finding that foot traffic to nearby small businesses rose by 12 percent to argue the spending pays off.\n\n(A) is wrong because Source 4 does not support increasing art funding and describing it that way would misrepresent it.\n(B) is wrong because using Source 4 to argue the opposite of what it says would distort the source.\n(D) is wrong because leaving out a relevant opposing source makes the essay look as if it is avoiding the strongest objection."
       },
       {
         "id": "2-3",
@@ -3791,7 +3791,7 @@ const QUESTIONS = {
           "No evidence of any kind; the claim is asserted without support."
         ],
         "correct": 1,
-        "explanation": "Source 3 cites foot-traffic sensor data gathered across six sites, which is statistical/comparative evidence, not a single anecdote (choice A), unsupported assertion (choice D), or expert opinion without data (choice C) — the 12 percent figure comes from measured, comparative sensor readings."
+        "explanation": "Correct: (B) statistical evidence from foot-traffic sensors across six installation sites. Statistical evidence is quantified data collected systematically. Source 3 says neighborhoods with public art 'saw measurable increases in foot traffic to nearby small businesses, averaging 12 percent over the following year, based on foot-traffic sensor data across six installation sites.' The average percentage, the sensors, and the multiple sites show data gathered from measurement.\n\n(A) is wrong because the source draws on sensor data from six sites and not on a single business owner's story.\n(C) is wrong because the source is a city economic development report and cites measured data and not an economist's unsupported opinion.\n(D) is wrong because the claim is supported with a stated figure and a stated data source, so evidence is clearly present."
       },
       {
         "id": "3-1",
@@ -3804,7 +3804,7 @@ const QUESTIONS = {
           "They make identical claims that apply equally to every type of work."
         ],
         "correct": 0,
-        "explanation": "Source 5 measures individual task completion while Source 6 measures cross-team collaborative work — two different dimensions of productivity that can both be true at once, so this isn't a genuine contradiction (choice C) or identical claims (choice D). Choice B is simply inaccurate; both sources explicitly discuss productivity."
+        "explanation": "Correct: (A) they address different dimensions: Source 5 covers individual tasks, Source 6 covers collaboration. Two sources conflict only if they dispute the same claim about the same thing. Source 5 says remote employees 'completed individual project milestones at a rate comparable to, and in some measured cases slightly faster than' office peers, while Source 6 says 'cross-team collaborative projects' showed 'measurably longer completion times' in fully remote teams. Source 6 even grants that 'individual task metrics may hold steady,' so both can be true.\n\n(B) is wrong because both sources discuss productivity, in the form of milestones and completion times.\n(C) is wrong because they measure different kinds of work and neither denies the other's finding, so they do not directly contradict.\n(D) is wrong because one reports individual work holding steady and the other reports slower team projects, which are not identical claims."
       },
       {
         "id": "3-2",
@@ -3817,7 +3817,7 @@ const QUESTIONS = {
           "By arguing the two sources have no meaningful relationship worth exploring in the essay at all."
         ],
         "correct": 1,
-        "explanation": "Synthesizing both findings into a task-type-dependent thesis is more precise than either source alone supports, and more sophisticated than a blanket 'remote work helps' or 'hurts' claim. Choice A denies a real relationship that does exist. Choice C drops a relevant, complicating source rather than engaging it. Choice D dismisses solid evidence from both sources without justification."
+        "explanation": "Correct: (B) by arguing productivity effects depend on task type, individual versus collaborative work. A nuanced synthesis thesis combines sources into a claim neither makes alone. Source 5 finds remote employees completing 'individual project milestones' as fast as in-office peers, while Source 6 finds 'cross-team collaborative projects' took 'measurably longer' in fully remote teams. A thesis that effects depend on task type uses both findings and is more precise than a blanket claim that remote work helps or hurts.\n\n(A) is wrong because both sources rest on data such as project-tracking software across four departments, and discarding them gives the essay no evidence.\n(C) is wrong because dropping Source 6 avoids the complication rather than engaging it, and it would weaken the essay.\n(D) is wrong because the sources are clearly related, since they measure different dimensions of the same topic, and a good essay explores that."
       },
       {
         "id": "3-3",
@@ -3843,7 +3843,7 @@ const QUESTIONS = {
           "Neither source is actually relevant to community college transfer policy."
         ],
         "correct": 1,
-        "explanation": "Source 7's benefit and Source 8's constraint are compatible rather than contradictory — a strong essay would acknowledge both and perhaps propose a resource-conscious implementation. Choice C overstates Source 8's role; it complicates rather than invalidates Source 7's data. Choices A and D simply misdescribe the sources' relevance and relationship."
+        "explanation": "Correct: (B) Source 7 shows a benefit while Source 8 raises a staffing constraint worth acknowledging. Sources are compatible when one gives a benefit and the other a cost or limit, and a strong synthesis acknowledges both. Source 7 reports a 58 percent transfer rate for students in formal advising, compared with 31 percent for others. Source 8 notes that such programs 'require dedicated staff time our chronically underfunded institutions often cannot spare,' creating 'a genuine tradeoff.' An essay can accept the benefit and plan for the staffing cost.\n\n(A) is wrong because the sources make different claims, one about outcomes and one about resources.\n(C) is wrong because Source 8 does not dispute the transfer data; it only describes the burden of providing the program.\n(D) is wrong because both sources are about transfer advising programs at community colleges, so neither source is irrelevant to transfer policy."
       },
       {
         "id": "4-2",
@@ -3856,7 +3856,7 @@ const QUESTIONS = {
           "A single anecdote describing one student's transfer experience after taking part in the program."
         ],
         "correct": 0,
-        "explanation": "Source 7 reports a specific comparison (58% vs. 31%) tracked across a state system, which is statistical/comparative evidence — not unsupported opinion (C), an unsupported assertion (B), or a lone anecdote (D)."
+        "explanation": "Correct: (A) statistical evidence comparing transfer rates of participants to non-participants. Statistical evidence reports quantified results from many cases, and a comparison sets two groups side by side. Source 7 says students who completed a formal transfer advising program 'transferred to four-year institutions at a rate of 58 percent, compared to 31 percent among students who did not participate,' with data 'tracked across the state system.' The two percentages and the large tracked group make this a statistical comparison.\n\n(B) is wrong because the claim is backed with specific percentages and a named data source, a state higher education board report.\n(C) is wrong because the passage presents tracked data and not a program counselor's opinion, and no counselor or program staff member is quoted.\n(D) is wrong because the percentages describe many students, not one student's story, and the report tracks the whole state system rather than a single case."
       },
       {
         "id": "4-3",
@@ -3869,7 +3869,7 @@ const QUESTIONS = {
           "The risk of appearing to selectively avoid a source that complicates the argument."
         ],
         "correct": 3,
-        "explanation": "Omitting a genuinely relevant, complicating source risks looking like selective avoidance to an attentive reader, which Section 5.4 identifies as a credibility risk. Choice B is backwards — using fewer sources isn't inherently better. Choice A mischaracterizes Source 8 as irrelevant when it's directly on-topic. Choice C is simply false; omitting a relevant counterpoint does not guarantee a high score."
+        "explanation": "Correct: (D) the risk of appearing to selectively avoid a source that complicates the argument. A synthesis essay is expected to engage the source set, including sources that raise problems for the thesis. Source 7 shows a transfer-rate benefit of 58 percent versus 31 percent, while Source 8 raises 'a genuine tradeoff' about staff time and underfunding. An essay that mentions only the favorable source may look as if it is hiding the complication and so loses credibility.\n\n(A) is wrong because Source 8 is directly on topic, since it concerns the cost of the same advising programs.\n(B) is wrong because citing fewer sources does not make the essay stronger when a relevant source is left out.\n(C) is wrong because omitting a relevant counterpoint guarantees nothing and often lowers the essay's persuasiveness."
       },
       {
         "id": "5-1",
@@ -3882,7 +3882,7 @@ const QUESTIONS = {
           "Argue that Source 10 proves tree planting provides no real benefit at all."
         ],
         "correct": 0,
-        "explanation": "Source 10's maintenance requirements explain what it actually takes to achieve the cooling benefit Source 9 documents, producing a more complete argument. Choice D overstates Source 10's claim — it discusses cost, not the absence of benefit. Choice C treats two distinct claims as identical. Choice B drops a genuinely relevant source rather than engaging its complication."
+        "explanation": "Correct: (A) use Source 10 to acknowledge the maintenance cost behind Source 9's cooling benefit. Source 9 reports that neighborhoods with canopy coverage above 30 percent had summer surface temperatures 'lower' by '4 to 6 degrees Fahrenheit' compared with those below 15 percent. Source 10 explains that new trees need 'an average of five years of active maintenance' and that first-year mortality can reach 20 percent without funding. Linking them shows what it takes to achieve the benefit, which yields a fuller argument than treating them as separate topics.\n\n(B) is wrong because Source 10 is relevant to planting trees, since it describes what planting requires, and leaving it out ignores a real complication.\n(C) is wrong because the sources make different claims, one about cooling and one about upkeep.\n(D) is wrong because Source 10 discusses cost and survival, not an absence of benefit, since it says nothing to deny Source 9's cooling result."
       },
       {
         "id": "5-2",
@@ -3895,7 +3895,7 @@ const QUESTIONS = {
           "A claim of policy, recommending that cities expand their canopy coverage."
         ],
         "correct": 2,
-        "explanation": "Source 9 reports a specific, measured temperature difference from satellite imaging data, which is a claim of fact — not an opinion (B), a policy recommendation (D), or a non-claim (A)."
+        "explanation": "Correct: (C) a claim of fact: a measured temperature difference tied to canopy coverage levels. A claim of fact can be checked against evidence, whereas a claim of value judges worth and a claim of policy recommends action. Source 9 says neighborhoods with coverage above 30 percent 'recorded average summer surface temperatures 4 to 6 degrees Fahrenheit lower' than those with coverage below 15 percent, 'based on satellite thermal imaging across twenty study sites.' That is a measured finding.\n\n(A) is wrong because the source makes a definite measured claim and is not mere background.\n(B) is wrong because it does not express opinions about which neighborhoods deserve trees, and the source gives no verdict on where trees should be placed.\n(D) is wrong because Source 9 does not recommend that cities expand canopy; it only reports temperature differences."
       },
       {
         "id": "5-3",
@@ -3908,7 +3908,7 @@ const QUESTIONS = {
           "Cooling benefits require sustained, funded maintenance, so canopy programs need multi-year funding."
         ],
         "correct": 3,
-        "explanation": "This thesis combines Source 9's benefit with Source 10's maintenance requirement into a specific, actionable funding implication — more sophisticated than either source alone. Choice B ignores Source 10's cost information entirely. Choice C denies a genuine, useful relationship between the sources. Choice A overreacts to Source 10, treating a maintenance requirement as a reason to abandon the program rather than fund it properly."
+        "explanation": "Correct: (D) cooling benefits require sustained, funded maintenance, so canopy programs need multi-year funding. A sophisticated thesis combines the sources into one actionable claim. Source 9 shows a cooling benefit of 4 to 6 degrees Fahrenheit, and Source 10 says new trees need 'an average of five years of active maintenance' and that first-year mortality can reach 20 percent 'in areas without consistent maintenance funding.' Together they imply that benefits depend on funding over several years.\n\n(A) is wrong because it treats the maintenance requirement as a reason to give up, though Source 9 shows a real benefit worth funding.\n(B) is wrong because it ignores Source 10's cost and mortality details, and a thesis that skips maintenance would not be a synthesis of the two sources.\n(C) is wrong because the sources are closely related, as one describes the benefit and the other what it takes to get there."
       },
       {
         "id": "1-4",
@@ -3921,7 +3921,7 @@ const QUESTIONS = {
           "Source 1 becomes entirely irrelevant once the thesis adds this funding condition to its claim."
         ],
         "correct": 1,
-        "explanation": "Once the thesis makes funding a precondition, Source 2's cost and timeline figures stop being a mere counterargument and become core supporting evidence for the thesis's specific structure. Choice D is wrong because Source 1's benefit data is still needed to justify delaying at all. Choices A and C both ignore how a more specific thesis reshapes which sources matter most."
+        "explanation": "Correct: (B) Source 2 becomes more central, since the thesis depends on its cost and timeline data. A thesis that delays start times only if transportation restructuring is funded in advance makes cost the key condition. Source 2 supplies those details: 'bus route restructuring costs' ranging 'from $200,000 to $650,000' and 'a typical 6-to-9-month implementation timeline.' The essay now needs that data to explain what advance funding means, so Source 2 moves from side counterargument to core support.\n\n(A) is wrong because the conditional thesis changes which source carries more of the argument, so the sources' importance does change.\n(C) is wrong because both sources remain useful; one supplies the benefits and the other the cost condition.\n(D) is wrong because Source 1's attendance gains of 3 to 5 percent are still needed to explain why delaying is worth doing at all."
       },
       {
         "id": "1-5",
@@ -3934,7 +3934,7 @@ const QUESTIONS = {
           "The single most important piece of evidence this essay would need to use."
         ],
         "correct": 1,
-        "explanation": "For a simple pro-delay thesis, Source 2 raises a practical challenge (cost, timeline) that must be acknowledged rather than evidence that directly supports delaying — making it a counterargument/complication per Section 5.5's sorting approach. Choice C wrongly dismisses a genuinely relevant source. Choices A and D both misclassify Source 2 as supporting evidence when it actually complicates the thesis."
+        "explanation": "Correct: (B) counterargument or complication, since it raises a practical cost challenge to delay. When sorting sources during the reading period, a student labels each by how it functions for the thesis: support, counterargument, or background. The thesis says districts should delay start times, but Source 2 tells districts to 'budget for bus route restructuring costs' of up to $650,000 and a 6-to-9-month timeline. That is a practical obstacle to the thesis, so it complicates it.\n\n(A) is wrong because Source 2 gives reasons for caution and does not support delaying without complication.\n(C) is wrong because the source is highly relevant to implementing a delay and should be used.\n(D) is wrong because the most important supporting evidence would be Source 1's attendance and discipline results, not a source about cost."
       },
       {
         "id": "2-4",
@@ -3947,7 +3947,7 @@ const QUESTIONS = {
           "Direct supporting evidence for the thesis, with no complication attached."
         ],
         "correct": 0,
-        "explanation": "For a pro-funding thesis, Source 4's deferred-maintenance figure is a competing priority the essay must acknowledge, making it a counterargument/complication rather than direct support (choice D) or the essay's most important evidence (choice B). Choice C wrongly treats a directly relevant source as background noise."
+        "explanation": "Correct: (A) counterargument or complication, since it raises a competing budget priority to address. A functional label describes what a source does for the thesis. Source 4 says public art 'competes directly against infrastructure maintenance backlogs; this city currently has an estimated $40 million deferred maintenance gap in road and sidewalk repair alone.' For a thesis to increase art funding, that is an opposing consideration the essay must acknowledge and answer.\n\n(B) is wrong because the source argues against prioritizing art spending, so it cannot be the strongest evidence for a pro-funding thesis.\n(C) is wrong because the source addresses the exact funding decision at stake and cannot be safely ignored.\n(D) is wrong because Source 4 emphasizes a competing need and does not directly support increasing art funding."
       },
       {
         "id": "3-4",
@@ -3960,7 +3960,7 @@ const QUESTIONS = {
           "A source that directly contradicts the thesis being argued in this essay."
         ],
         "correct": 1,
-        "explanation": "Source 5's individual-task finding directly supports one half of a task-dependent thesis (individual vs. collaborative), making it supporting evidence rather than a counterargument to rebut (A) or a contradiction (D). Choice C is simply inaccurate given how directly Source 5 bears on this specific thesis."
+        "explanation": "Correct: (B) direct supporting evidence for one half of the task-dependent thesis's distinction. A functional label tells how a source works for the thesis. A task-dependent policy thesis claims remote work affects individual and collaborative tasks differently. Source 5 supplies the individual half: remote employees completed 'individual project milestones at a rate comparable to, and in some measured cases slightly faster than, fully in-office peers.'\n\n(A) is wrong because Source 5 does not argue against a task-dependent thesis; it supports the individual-work side.\n(C) is wrong because the source bears directly on the thesis's central distinction, since Source 5 supplies the individual-task half of the distinction.\n(D) is wrong because Source 5 does not contradict the thesis, as Source 6 grants that individual metrics may hold steady and the two fit together."
       },
       {
         "id": "4-4",
@@ -3973,7 +3973,7 @@ const QUESTIONS = {
           "Counterargument/complication, since it raises a resource constraint to address."
         ],
         "correct": 3,
-        "explanation": "For a pro-expansion thesis, Source 8's staffing concern is a genuine constraint the essay must acknowledge, making it a counterargument/complication rather than supporting evidence (choices A and B) or irrelevant background (choice C)."
+        "explanation": "Correct: (D) counterargument or complication, since it raises a resource constraint to address. A thesis arguing that community colleges should expand transfer advising programs needs to face objections, and Source 8 supplies one: advising programs 'require dedicated staff time our chronically underfunded institutions often cannot spare without cutting other student support services.' That is a practical limit on expansion that the essay must acknowledge and answer.\n\n(A) is wrong because the source describes a tradeoff and does not directly support the thesis without complication.\n(B) is wrong because the most important supporting evidence would be Source 7's 58 percent versus 31 percent transfer rates.\n(C) is wrong because the source is directly relevant, as it concerns the cost of expanding the very programs under discussion."
       },
       {
         "id": "5-4",
@@ -3986,7 +3986,7 @@ const QUESTIONS = {
           "Both evidence and context — it directly justifies why the multi-year framing matters."
         ],
         "correct": 3,
-        "explanation": "Under the multi-year-commitment thesis, Source 10 does double duty: it's evidence for the thesis's claim and context explaining why that specific framing is necessary. Choice B wrongly excludes a source central to this thesis. Choice C denies a function that clearly exists here. Choice A undersells Source 10 — it supports the thesis rather than only opposing it."
+        "explanation": "Correct: (D) both evidence and context, since it directly justifies why the multi-year framing matters. A source can do several jobs for a thesis. A thesis that urban tree programs should be funded as multi-year commitments needs support for the need for sustained funding, and Source 10 provides it: trees need 'an average of five years of active maintenance' and 'first-year mortality rates' reach '20 percent in areas without consistent maintenance funding.' That is evidence for the claim and context for why a long timeline matters.\n\n(A) is wrong because the source supports the thesis rather than only opposing it, so it is not a pure counterargument.\n(B) is wrong because the source is central to this thesis, so excluding it would remove its main justification.\n(C) is wrong because Source 10's five-year maintenance period maps directly onto a multi-year funding thesis."
       },
       {
         "id": "1-6",
@@ -3999,7 +3999,7 @@ const QUESTIONS = {
           "No thesis on this topic could ever rely on just a single source."
         ],
         "correct": 1,
-        "explanation": "A thesis narrowly about attendance benefits could rely almost entirely on Source 1 alone, requiring little genuine synthesis. Choice C, by contrast, explicitly needs both sources to weigh benefits against costs. Choice D overgeneralizes; some narrow theses genuinely can lean on one source. Choice A misdescribes the topic — a bus-cost-only thesis would lean mainly on Source 2, not both equally."
+        "explanation": "Correct: (B) a thesis focused only on whether delayed start times improve attendance. Synthesis work is the effort of combining several sources, and a narrow thesis needs fewer of them. Source 1 reports that districts that delayed start times 'saw average attendance improve by 3 to 5 percent,' which answers an attendance-only question without needing Source 2's bus route costs.\n\n(A) is wrong because a thesis about bus route costs would rely mainly on Source 2, whose figures run 'from $200,000 to $650,000,' and not both sources equally.\n(C) is wrong because weighing benefits against implementation costs needs Source 1 for the benefits and Source 2 for the costs, so it requires the most synthesis.\n(D) is wrong because it overgeneralizes; as shown, a narrow thesis can lean mostly on one source."
       },
       {
         "id": "2-5",
@@ -4012,7 +4012,7 @@ const QUESTIONS = {
           "The estimated $40 million deferred maintenance gap in road and sidewalk repair."
         ],
         "correct": 3,
-        "explanation": "Source 4 grounds its competing-priorities argument in the specific $40 million maintenance-gap figure. Choice B confuses Source 4's evidence with Source 3's separate foot-traffic statistic. Choice C describes evidence Source 4 doesn't contain. Choice A is simply false — Source 4 does cite a specific number."
+        "explanation": "Correct: (D) the estimated $40 million deferred maintenance gap in road and sidewalk repair. Competing priorities means two needs draw from one limited budget. Source 4 supports that framing with a specific number: 'this city currently has an estimated $40 million deferred maintenance gap in road and sidewalk repair alone.' The size of the gap shows that road repair needs compete with public art for money.\n\n(A) is wrong because Source 4 includes this numerical figure, which is its $40 million estimate for the deferred maintenance gap in road repair.\n(B) is wrong because the 12 percent foot-traffic figure comes from Source 3, which reports benefits of art and not the competing budget need.\n(C) is wrong because Source 4 describes no survey of residents; it relies on a maintenance cost estimate."
       },
       {
         "id": "3-5",
@@ -4025,7 +4025,7 @@ const QUESTIONS = {
           "No, because neither source actually discusses productivity in any way."
         ],
         "correct": 1,
-        "explanation": "The sources establish a specific distinction — individual work holds steady, collaborative work slows — that a blanket 'no effect at all' thesis erases. Choice A overstates the sources' disagreement as total contradiction. Choice C wrongly claims accuracy for an oversimplified thesis. Choice D is factually wrong; both sources are specifically about productivity."
+        "explanation": "Correct: (B) no, because it flattens a real distinction between largely unaffected individual work and slower team work. Accurately representing sources means not overstating or erasing their findings. Source 5 reports individual milestones 'comparable to' office peers, but Source 6 reports 'measurably longer completion times' for 'cross-team collaborative projects' in fully remote configurations. A thesis of 'no effect of any kind' contradicts Source 6 and erases the difference.\n\n(A) is wrong because Source 6 does not contradict Source 5 on every point; it concedes that 'individual task metrics may hold steady.'\n(C) is wrong because the thesis ignores the slower collaborative results in Source 6, so it is not accurate.\n(D) is wrong because both sources discuss productivity, through project milestones and completion times, so the claim that neither discusses productivity is false."
       },
       {
         "id": "4-5",
@@ -4038,7 +4038,7 @@ const QUESTIONS = {
           "Transfer advising programs should never be implemented anywhere, under any circumstances."
         ],
         "correct": 2,
-        "explanation": "This thesis genuinely synthesizes both sources — the measurable benefit (Source 7) and the funding constraint (Source 8) — into one claim with a proposed solution. Choice B ignores Source 7's clear benefit. Choice A directly contradicts Source 7's data. Choice D goes well beyond anything either source actually supports."
+        "explanation": "Correct: (C) a strong benefit exists, but expansion needs a funding plan addressing Source 8's tradeoff. A synthesized thesis uses both sources to make one claim that neither supports alone. Source 7 gives the benefit, 58 percent transfer for advised students against 31 percent, and Source 8 says the programs 'require dedicated staff time' that underfunded colleges cannot spare, creating 'a genuine tradeoff.' A thesis that expansion is valuable but needs funding combines these.\n\n(A) is wrong because Source 7's 58 versus 31 percent comparison directly shows a measurable effect.\n(B) is wrong because neither source suggests eliminating existing student supports; Source 8 warns against cutting them.\n(D) is wrong because Source 7's benefit does not support banning the programs, and Source 8 calls them a tradeoff, not a failure."
       },
       {
         "id": "5-5",
@@ -4051,7 +4051,7 @@ const QUESTIONS = {
           "The two sources describe no temporal relationship of any kind to each other."
         ],
         "correct": 1,
-        "explanation": "Source 9's cooling effect comes from mature canopy, while Source 10 describes the maintenance period needed to get there — a genuine before/after relationship. Choice A reverses this relationship. Choices C and D both deny a real temporal connection that the sources clearly establish."
+        "explanation": "Correct: (B) Source 9 describes an established benefit, while Source 10 describes the investment period required first. Timeframe relationships ask which source describes what comes before and after. Source 9 describes neighborhoods with mature canopy already cooler by '4 to 6 degrees Fahrenheit.' Source 10 says new trees need 'an average of five years of active maintenance' before they can 'survive without intervention.' The maintenance period comes first, and the cooling benefit follows.\n\n(A) is wrong because it reverses the order; the maintenance in Source 10 comes before the established benefit in Source 9.\n(C) is wrong because the sources describe different stages, newly planted trees versus established canopy, so they cannot describe the same simultaneous moment.\n(D) is wrong because the sources have a clear before-and-after link, which is why the essay can connect them."
       },
       {
         "id": "1-7",
@@ -4064,7 +4064,7 @@ const QUESTIONS = {
           "Source 1 functions as a condition on Source 2, with no other relationship between them in the thesis."
         ],
         "correct": 2,
-        "explanation": "This thesis explicitly conditions the benefit Source 1 documents on the budgeting Source 2 describes, making Source 2 a condition on Source 1's recommendation. Choice D reverses this relationship. Choices A and B both deny a relationship the thesis explicitly establishes."
+        "explanation": "Correct: (C) Source 2 functions as a condition, because Source 1's benefits should only be pursued alongside its budgeting. A conditional thesis says one action should happen only if another does. The thesis says districts should delay start times 'only if they budget adequately for transportation restructuring,' so the benefits in Source 1, such as attendance improving 3 to 5 percent, are tied to the budgeting that Source 2 describes with its restructuring costs and timeline. Thus Source 2 sets the condition for acting on Source 1.\n\n(A) is wrong because both sources are directly related to the thesis, since the thesis depends on the relationship between them.\n(B) is wrong because the thesis explicitly links the two sources, with Source 2's costs conditioning the recommendation drawn from Source 1.\n(D) is wrong because it reverses the relationship; Source 1's benefits are not what limits Source 2's budgeting."
       },
       {
         "id": "2-6",
@@ -4077,7 +4077,7 @@ const QUESTIONS = {
           "Statistical/comparative evidence establishing the scale of the budget gap."
         ],
         "correct": 3,
-        "explanation": "The $40 million figure is a specific, quantified data point establishing scale, making it statistical evidence — not absent (A), undocumented opinion (B), or a lone anecdote (C)."
+        "explanation": "Correct: (D) statistical or comparative evidence establishing the scale of the budget gap. Statistical evidence is a quantified fact used to show size or frequency. Source 4 states 'this city currently has an estimated $40 million deferred maintenance gap in road and sidewalk repair alone.' The dollar figure measures how large the competing need is, which makes it numerical evidence of scale.\n\n(A) is wrong because the source does include a specific figure, so evidence is present, because it gives a dollar amount, so the claim is not unsupported.\n(B) is wrong because the figure is a number about the city's maintenance gap and not just an expert's opinion without data.\n(C) is wrong because the source cites a citywide estimate from a budget watchdog group and does not report one business owner's account."
       }
     ],
     "draftPassages": [
@@ -4106,7 +4106,7 @@ const QUESTIONS = {
           "It contains no reference to any sources at all in its sentences, relying on the writer's opinions."
         ],
         "correct": 1,
-        "explanation": "Sentences [1]-[3] preview each source in turn, and sentence [4] confirms this plan ('examine each of these sources') — the exact source-by-source summary pattern Section 5.1's opening skillbox warns against. Choice C is the opposite of what the draft shows. Choice D is false; sentences [1]-[3] name three sources directly. Choice A is a dodge — the passage is plenty long enough to diagnose."
+        "explanation": "Correct: (B) source-by-source summary, a sequential tour with no writer's claim yet. In a synthesis essay, the writer must combine sources to support the writer's own argument, whereas a source-by-source summary only reports each source in turn. The draft opens with 'Source A discusses e-book lending statistics. Source B discusses physical book circulation trends. Source C discusses library budget constraints,' and then promises 'This essay will examine each of these sources.' Nothing states a position, so the opening only lists sources.\n\n(A) is wrong because the five sentences are enough to diagnose the weakness, so it is not too short to evaluate.\n(C) is wrong because the draft never weaves the sources into an argument; it names them one at a time.\n(D) is wrong because sentences [1] through [3] explicitly name Source A, Source B, and Source C."
       },
       {
         "id": "1w-2",
@@ -4119,7 +4119,7 @@ const QUESTIONS = {
           "It's a vague, generic statement that fails to state the writer's own specific claim."
         ],
         "correct": 3,
-        "explanation": "Sentence [5] could open almost any library-funding essay — it commits to nothing specific, which is why it fails as a thesis. Choice A misdiagnoses the problem as excess detail when the actual issue is a lack of it. Choice C is a grammar objection that doesn't apply here. Choice B is inaccurate; the sentence doesn't contradict anything, it simply says nothing specific."
+        "explanation": "Correct: (D) it's a vague, generic statement that fails to state the writer's own specific claim. A thesis must take a position that can be argued, and sentence [5] says only 'Libraries face many important decisions about resource allocation,' which could introduce nearly any essay about libraries. It names no stance about e-books, physical circulation, or budgets, so the introduction never tells readers what the writer will argue.\n\n(A) is wrong because the sentence contains no specific evidence at all, so too much detail is not the problem.\n(B) is wrong because the sentence does not contradict the sources; it is a general remark that is compatible with anything.\n(C) is wrong because the sentence is grammatically correct, so the problem is its vagueness and not its grammar."
       },
       {
         "id": "1w-3",
@@ -4145,7 +4145,7 @@ const QUESTIONS = {
           "Woven in wherever relevant to the writer's argument — not necessarily in original order."
         ],
         "correct": 3,
-        "explanation": "With a genuine thesis in place, sources get pulled in as evidence wherever the argument needs them, potentially reordered or split across paragraphs — not confined to one isolated paragraph each. Choice C wrongly assumes fewer sources are usable now. Choice A describes the very structure the revision is meant to fix. Choice B is inaccurate; the sources are still needed, just organized differently."
+        "explanation": "Correct: (D) woven in wherever relevant to the writer's argument, not necessarily in original order. Once a draft has a real thesis, the thesis organizes the essay, and sources serve as evidence for its points. The original plan, 'This essay will examine each of these sources,' gave each of Source A, Source B, and Source C its own turn. A revised essay with an argument about library funding would use e-book statistics, circulation trends, or budget constraints wherever they support a point, even splitting a source across paragraphs.\n\n(A) is wrong because one paragraph per source in the same order is the structure the revision is meant to fix.\n(B) is wrong because sources remain the essay's evidence even after a thesis is added, though they may be reordered or split across paragraphs.\n(C) is wrong because nothing in the new thesis limits the essay to a single source, and several sources can still support it."
       },
       {
         "id": "1w-5",
@@ -4158,7 +4158,7 @@ const QUESTIONS = {
           "It is actually unrelated to how the essay's paragraphs will end up organized."
         ],
         "correct": 2,
-        "explanation": "Sentence [4] states outright that the essay will 'examine each of these sources,' directly confirming the source-by-source plan rather than merely hinting at it. Choice D denies a connection the sentence explicitly states. Choice A is the opposite of what the sentence signals. Choice B dismisses a sentence that is, in fact, the clearest diagnostic clue in the draft."
+        "explanation": "Correct: (C) it explicitly announces a source-by-source structure, confirming the summary problem. A diagnostic signal is a clue showing which weakness a draft has. Sentence [4] says 'This essay will examine each of these sources to understand library funding,' and the words 'each of these sources' state that the essay will go through them one by one. Together with sentences [1] through [3], which list Source A, Source B, and Source C, it confirms a tour of sources.\n\n(A) is wrong because the sentence announces no thesis of the writer's own, so it does not suggest an essay organized around one.\n(B) is wrong because it is the clearest clue in the draft to this exact weakness.\n(D) is wrong because the sentence states how the essay will be organized, namely by examining each source in turn."
       },
       {
         "id": "2w-1",
@@ -4171,7 +4171,7 @@ const QUESTIONS = {
           "It contains a factual error about what the underlying sources actually report."
         ],
         "correct": 1,
-        "explanation": "Sentence [3] notices that both source types seem valid but doesn't take the further step of combining them into a more precise claim — the missed opportunity Section 5.4 identifies. Choice A claims the opposite of what actually happens. Choices C and D both mischaracterize the sentence; it's directly about synthesis and contains no factual error, just an incomplete one."
+        "explanation": "Correct: (B) it acknowledges conflicting information exists but stops short of synthesizing it into a precise claim. Synthesis means combining differing sources into a new, more precise claim of the writer's own. Sentence [1] says 'Some sources say subsidies help renewable adoption,' sentence [2] says 'Other sources say subsidies are expensive,' and sentence [3] only observes 'Both of these things seem true based on the sources provided.' The writer notices the tension but does not resolve it into an argument about what to do.\n\n(A) is wrong because the sentence does not merge the information into one claim; it just says both seem true.\n(C) is wrong because the sentence is exactly where the paragraph should begin synthesizing, so it relates directly to synthesis.\n(D) is wrong because the sentence reports no specific facts about the sources, so it contains no factual error."
       },
       {
         "id": "2w-2",
@@ -4184,7 +4184,7 @@ const QUESTIONS = {
           "Restructure subsidies to phase down as costs fall, preserving benefits while addressing expense."
         ],
         "correct": 3,
-        "explanation": "This revision resolves the tension between 'helps adoption' and 'expensive' into one specific, actionable claim, rather than restating the draft's original non-conclusion. Choice A forces a false either/or the sources don't require. Choice C avoids the task entirely. Choice B is simply the original draft's unsynthesized sentence, restated."
+        "explanation": "Correct: (D) restructure subsidies to phase down as costs fall, preserving benefits while addressing expense. A synthesized claim takes the two source findings, subsidies help adoption and subsidies are expensive, and joins them into one specific position. Choice D does this by keeping the benefit and addressing the cost through a phase-down. The draft's sentence [4], 'subsidies are complicated and reasonable people can disagree,' commits to nothing, so the revision must supply an actionable claim.\n\n(A) is wrong because it forces a choice between entirely good and entirely bad, which neither of the draft's two source findings requires.\n(B) is wrong because it repeats sentence [3] and adds only the vague phrase 'it's complicated,' with no synthesis.\n(C) is wrong because declaring that no discussion is needed avoids the task of resolving the tension."
       },
       {
         "id": "2w-3",
@@ -4197,7 +4197,7 @@ const QUESTIONS = {
           "This attribution is already appropriately smooth and specific as written, naming each source clearly."
         ],
         "correct": 0,
-        "explanation": "'Some sources... other sources' never names which sources support which claim — exactly the weak pattern Section 5.3 flags. Choice C is the opposite problem from what's actually present. Choice B is inaccurate; the paragraph does attempt attribution, just vaguely. Choice D wrongly credits the paragraph with a specificity it lacks."
+        "explanation": "Correct: (A) it uses vague, collective attribution without specifying which sources support what. Good attribution names the source behind each claim so readers can judge the evidence. The paragraph says 'Some sources say subsidies help renewable adoption' and 'Other sources say subsidies are expensive,' yet it never identifies which source says which. The reader cannot tell who is supporting each claim.\n\n(B) is wrong because the paragraph does attempt attribution, since it repeatedly refers to what sources say, but only vaguely.\n(C) is wrong because the attribution is the opposite of too specific; it names nothing, because no source is named at all in the paragraph.\n(D) is wrong because phrases like 'Some sources' and 'Other sources' are not clear naming of any source, so the attribution is not specific."
       },
       {
         "id": "2w-4",
@@ -4210,7 +4210,7 @@ const QUESTIONS = {
           "Sources discuss subsidies in various different ways throughout the literature on clean energy adoption."
         ],
         "correct": 1,
-        "explanation": "This revision names a specific source and a precise, quantified finding, matching the attribution standard from Section 5.3. Choices A and C both keep the vague 'sources' language the revision is supposed to fix. Choice D is simply the original draft's weak sentence repeated unchanged."
+        "explanation": "Correct: (B) Source F's data shows subsidies sped adoption by three years versus unsubsidized markets. Specific attribution names a particular source and states what it found. Choice B turns the draft's vague sentence [1], 'Some sources say subsidies help renewable adoption,' into a named source with a concrete result, so readers know who said it and how much.\n\n(A) is wrong because it keeps the same vague 'some sources' and 'other sources' wording, only adding a few words about the public budget.\n(C) is wrong because it says the topic has been discussed by 'quite a number of different sources,' which names nothing.\n(D) is wrong because it says sources discuss subsidies 'in various different ways,' which is just as vague as the draft's original wording."
       },
       {
         "id": "2w-5",
@@ -4223,7 +4223,7 @@ const QUESTIONS = {
           "Removing every mention of any source from the paragraph entirely to keep the writer's voice alone."
         ],
         "correct": 2,
-        "explanation": "The paragraph has two distinct weaknesses — vague attribution and an unsynthesized conclusion — so the most valuable fix addresses both at once. Choice D would remove necessary evidence entirely. Choice A would add more of the very vagueness that's already a problem. Choice B addresses length, not the actual substantive weaknesses."
+        "explanation": "Correct: (C) naming specific sources and replacing the 'it's complicated' ending with a synthesized claim. This paragraph has two distinct weaknesses: it says only 'Some sources' and 'Other sources' without naming any, and it ends with 'subsidies are complicated and reasonable people can disagree,' which takes no position. The best single revision addresses both, giving named evidence and a precise claim joining the two sides.\n\n(A) is wrong because adding more hedging would increase the vagueness that already weakens the paragraph.\n(B) is wrong because making the paragraph shorter changes length and leaves the attribution and conclusion problems untouched.\n(D) is wrong because removing every source would eliminate the evidence a synthesis essay requires and leave only unsupported opinion."
       },
       {
         "id": "1w-6",
@@ -4236,7 +4236,7 @@ const QUESTIONS = {
           "That both weaknesses stem from presenting source information without the writer's argument shaping it."
         ],
         "correct": 3,
-        "explanation": "D1's source-tour and D2's vague conclusion are different symptoms of the same underlying failure: source content presented without the writer's own argument actively combining it into something more precise. Choice A overgeneralizes into an unsupported claim. Choices B and C both misstate lessons the drafts never actually teach."
+        "explanation": "Correct: (D) that both weaknesses stem from presenting source information without the writer's argument shaping it. In D1 the writer lists what Source A, Source B, and Source C each discuss, and in D2 the writer reports 'Some sources say' and 'Other sources say' and then concludes only that 'reasonable people can disagree.' In both drafts the source material is presented, but the writer's own claim never organizes or combines it. That shared problem is what the lesson about synthesis weaknesses points to.\n\n(A) is wrong because the drafts do not teach that sources should be avoided; synthesis requires using them to support an argument.\n(B) is wrong because the two drafts show specific, fixable problems and do not imply all essays are equally weak.\n(C) is wrong because neither draft concerns quoting versus paraphrasing, because the drafts focus on how sources are used to build a claim, not on how they are quoted."
       },
       {
         "id": "2w-6",
@@ -4249,7 +4249,7 @@ const QUESTIONS = {
           "Qualifying language and this sentence serve entirely unrelated purposes in persuasive and synthesis writing."
         ],
         "correct": 1,
-        "explanation": "Genuine qualifying (Unit 4, 4.3) narrows or hedges an actual position; 'reasonable people can disagree' commits to no position to qualify in the first place — it's evasion, not calibration. Choice A wrongly equates two different moves. Choice D denies a real, useful comparison. Choice C overpraises a sentence that fails the very standard it's being compared to."
+        "explanation": "Correct: (B) qualifying calibrates a specific claim's confidence, while sentence [4] avoids making any claim at all. Qualifying a claim means limiting it with words like 'often' or 'in most cases' so it is accurate while still asserting something. Sentence [4], 'Therefore, subsidies are complicated and reasonable people can disagree about them,' asserts no position that could be qualified; it simply steps away from the question. Genuine qualifying keeps a position, and this sentence gives it up.\n\n(A) is wrong because the two moves differ: one narrows a real position, and the other avoids having one.\n(C) is wrong because the sentence fails the standard of calibrated qualification and is not a stronger example.\n(D) is wrong because the comparison is meaningful, since both involve how confident a writer sounds."
       },
       {
         "id": "1w-7",
@@ -4262,7 +4262,7 @@ const QUESTIONS = {
           "It would automatically earn full credit, regardless of the essay's structure."
         ],
         "correct": 2,
-        "explanation": "Summarizing sources individually without an organizing claim fails to show the sustained reasoning and specific commentary Evidence and Commentary rewards, so it would likely score low there. Choice B contradicts how this rubric category is actually scored. Choices A and D both wrongly exempt Evidence and Commentary from a structural problem that directly affects it."
+        "explanation": "Correct: (C) it would likely score in the lower bands of Evidence and Commentary specifically. In the rubric, the Evidence and Commentary category rewards selecting evidence and explaining how it supports the writer's line of reasoning. An essay structured like the draft, with 'Source A discusses e-book lending statistics' and 'This essay will examine each of these sources,' summarizes sources without connecting them to a claim, so there is little commentary building an argument. That pattern would likely earn a lower score in this category.\n\n(A) is wrong because the structure of the essay directly affects how well evidence and commentary support a claim.\n(B) is wrong because a lack of an organizing claim affects Evidence and Commentary as well as other categories.\n(D) is wrong because full credit is never automatic, and a summary-only structure lacks the reasoning that the category rewards."
       },
       {
         "id": "2w-7",
@@ -4275,7 +4275,7 @@ const QUESTIONS = {
           "That synthesis essays should avoid ever taking a clear, defensible position on the question they address."
         ],
         "correct": 2,
-        "explanation": "Both exercises point to the same underlying lesson — actively transforming source material into the writer's own more precise claim, whether through thesis-driven organization (D1) or resolved source conflict (D2). The other three choices state the opposite of what this unit actually teaches."
+        "explanation": "Correct: (C) that synthesis requires transforming source information into the writer's own, more precise argument. Across both draft exercises, the fixes follow one pattern. In D1 the writer lists what Source A, Source B, and Source C discuss, so a thesis must organize them. In D2 the writer says only 'Both of these things seem true,' so the sources must be combined into a precise claim. In each case, source information is turned into the writer's argument.\n\n(A) is wrong because the unit asks for specific named sources, as in the revision to cite 'Source F,' not for dropping citations.\n(B) is wrong because the drafts show that synthesis needs specific skills beyond ordinary writing, such as combining conflicting evidence.\n(D) is wrong because the exercises encourage a clear position, replacing 'reasonable people can disagree' with a precise claim."
       },
       {
         "id": "1w-8",
@@ -4288,7 +4288,7 @@ const QUESTIONS = {
           "The following paragraphs discuss library topics that matter to the community in many ways."
         ],
         "correct": 0,
-        "explanation": "This revision previews the writer's own specific claim about misallocation, not a source-by-source tour. Choices B and D are still vague topic announcements. Choice C is simply the original draft's problem sentence, unchanged."
+        "explanation": "Correct: (A) this essay will show why continued proportional funding misallocates resources from patron demand. A revised transition sentence signals synthesis when it previews the writer's own specific claim instead of announcing a tour of sources. The original sentence [4], 'This essay will examine each of these sources to understand library funding,' only promises to go through sources one at a time. Choice A states an arguable position about funding and resource allocation, which the sources can then support.\n\n(B) is wrong because it is the original draft's sentence with a few extra words, still announcing an examination of each source.\n(C) is wrong because it only states that the essay has three sources and takes no position.\n(D) is wrong because it is a vague topic announcement and says only that the paragraphs discuss library topics in many ways."
       },
       {
         "id": "1w-9",
@@ -4301,7 +4301,7 @@ const QUESTIONS = {
           "Yes — Section 5.1 explicitly allows a source to serve different purposes in different paragraphs."
         ],
         "correct": 3,
-        "explanation": "Section 5.1 specifically notes sources can appear in multiple paragraphs for different purposes, since organization follows the writer's argument, not a one-source-per-paragraph rule. Choices A and C both invent restrictions the unit never states. Choice B imposes an unnecessary condition that has nothing to do with whether reuse is appropriate."
+        "explanation": "Correct: (D) yes, because Section 5.1 allows a source to serve different purposes in different paragraphs. In synthesis, organization follows the writer's argument and not a rule of one paragraph per source. If Source B, which discusses physical book circulation trends, supports one point in one paragraph and a different point elsewhere, citing it twice is appropriate. This is also why the revised essay should not treat each source as a separate block, as the draft does when it says it will 'examine each of these sources.'\n\n(A) is wrong because no rule limits a source to a single citation in a synthesis essay.\n(B) is wrong because reuse does not depend on Source B being the only source in the essay.\n(C) is wrong because citing the same source more than once is not plagiarism when it is properly attributed."
       },
       {
         "id": "1w-10",
@@ -4314,7 +4314,7 @@ const QUESTIONS = {
           "Each sentence only announces a topic without asserting a claim, regardless of order."
         ],
         "correct": 3,
-        "explanation": "The core issue is what each sentence does (announce, not argue), not the sequence they appear in — reordering three announcement sentences leaves three announcement sentences. Choices A and C both wrongly treat reordering as sufficient. Choice B avoids the question by denying any problem exists."
+        "explanation": "Correct: (D) each sentence only announces a topic without asserting a claim, regardless of order. The draft's problem is what its sentences do and not where they sit. Sentences [1] through [3] say what each source 'discusses,' as in 'Source C discusses library budget constraints,' and none argues anything. Placing them in a different order still leaves three topic announcements with no thesis.\n\n(A) is wrong because reordering cannot supply the missing claim, so it does not fix the draft.\n(B) is wrong because the issue is not about order, and the draft does have a problem with its content.\n(C) is wrong because even a new order would give a sequence of source descriptions with no argument, so the problem would remain."
       },
       {
         "id": "1w-11",
@@ -4327,7 +4327,7 @@ const QUESTIONS = {
           "Evidence dumping only ever applies to numerical statistics, not source citations in a synthesis essay."
         ],
         "correct": 2,
-        "explanation": "Mentioning each source's topic without commentary tying it to a claim is the same failure Unit 2 identified at the level of individual evidence, now happening at the level of whole sources. Choice A denies a real, direct parallel. Choice D invents a restriction Unit 2 never states. Choice B is the opposite of what the draft actually shows."
+        "explanation": "Correct: (C) this draft is a source-level version of evidence dumping, with topics and no connecting commentary. Evidence dumping is presenting evidence without explaining how it supports a claim. The draft lists three sources, 'Source A discusses e-book lending statistics,' 'Source B discusses physical book circulation trends,' and 'Source C discusses library budget constraints,' and gives no commentary linking them to a point. The same failure that appears with single pieces of evidence appears here with whole sources.\n\n(A) is wrong because the two concepts are directly parallel, with missing commentary in both, since both fail to explain how evidence supports a claim.\n(B) is wrong because the draft shows no developed commentary; it consists of announcements about the sources.\n(D) is wrong because evidence dumping applies to any evidence, not only to numerical statistics, and the draft applies the same idea to whole sources."
       },
       {
         "id": "2w-8",
@@ -4340,7 +4340,7 @@ const QUESTIONS = {
           "Many people have opinions about subsidies, though views vary considerably from region to region."
         ],
         "correct": 1,
-        "explanation": "This choice names a specific source and gives a precise, comparative finding, matching Section 5.3's attribution standard. The other three all keep some version of the vague 'sources say/exist' phrasing the revision is meant to eliminate."
+        "explanation": "Correct: (B) Source F's market analysis found subsidized regions adopted solar nearly twice as fast. Attribution is specific when it names a particular source and reports what it found. The draft's sentence [1] says only 'Some sources say subsidies help renewable adoption,' so the reader cannot tell who said it or how much subsidies helped. Choice B names Source F, identifies its method as a market analysis, and gives a comparative finding, which is far more useful as evidence.\n\n(A) is wrong because it keeps the vague 'some sources say' wording and only adds the unsupported remark that the effect varies by region.\n(C) is wrong because 'Sources exist that discuss this general topic' names no source and states no finding.\n(D) is wrong because 'Many people have opinions about subsidies' does not cite any source or result, and opinions are not evidence."
       },
       {
         "id": "2w-9",
@@ -4353,7 +4353,7 @@ const QUESTIONS = {
           "This paragraph already fully meets that standard in its current form, with no revision needed at all."
         ],
         "correct": 2,
-        "explanation": "Unit 4's principle — engage the strongest, most specific version of an idea rather than a vague gesture at it — applies here too: cite each source's actual numbers rather than 'some sources say.' Choice A denies a real parallel. Choice D wrongly credits the current draft with specificity it lacks. Choice B narrows the principle further than the unit actually does."
+        "explanation": "Correct: (C) like engaging a counterargument's strongest form, this paragraph should engage sources' specific claims. The strongest plausible version standard asks a writer to deal with the most specific, best form of an idea instead of waving at it. The paragraph's 'Some sources say subsidies help renewable adoption' and 'Other sources say subsidies are expensive' are vague gestures and not specific claims from named sources. Applying the same standard means citing what each source actually found and working with it.\n\n(A) is wrong because the two ideas are clearly parallel, both calling for specific engagement over vague reference.\n(B) is wrong because the standard of engaging the specific, strongest form of an idea can apply to sources as well as to opposing arguments.\n(D) is wrong because the paragraph, with its 'some sources' wording and its non-conclusion about reasonable disagreement, does not meet that standard."
       },
       {
         "id": "2w-10",
@@ -4366,7 +4366,7 @@ const QUESTIONS = {
           "It risks leaving the essay without a clear claim for later paragraphs to build on."
         ],
         "correct": 3,
-        "explanation": "'It's complicated' commits to nothing specific for later paragraphs or the conclusion to develop, which is a real structural risk. Choice A states the opposite of the actual effect. Choices B and C both dismiss a risk that clearly follows from having no actionable claim."
+        "explanation": "Correct: (D) it risks leaving the essay without a clear claim for later paragraphs to build on. A body paragraph's conclusion should state a point that the rest of the essay can develop. Sentence [4], 'Therefore, subsidies are complicated and reasonable people can disagree about them,' commits to nothing, and sentence [5], 'This essay will now move to the next point,' just moves on. If this is the only body paragraph on the topic, later paragraphs and the conclusion have no position to extend, so the argument stalls.\n\n(A) is wrong because a paragraph's conclusion directly affects the essay's overall argument and structure, and later paragraphs depend on it.\n(B) is wrong because vague conclusions are not always fine, and this one leaves the argument without a claim.\n(C) is wrong because a conclusion that takes no position weakens the structure, so it cannot be strengthening it."
       },
       {
         "id": "1w-12",
@@ -4379,7 +4379,7 @@ const QUESTIONS = {
           "Subsequent paragraphs should still be organized strictly one source per paragraph."
         ],
         "correct": 2,
-        "explanation": "Genuine thesis-driven organization means paragraphs follow the writer's sub-claims, pulling in whichever sources are relevant to each — not the source list's original order. Choice D describes exactly the structure being replaced. Choices A and B both misdescribe what a thesis-driven revision would actually require."
+        "explanation": "Correct: (C) paragraphs organized around the writer's sub-claims, pulling in relevant sources as needed. A thesis-driven essay is built from the writer's argument, and each body paragraph develops one part of it, using whichever sources support that part. The original draft planned to 'examine each of these sources,' which gives Source A, Source B, and Source C one block each. With a real thesis in the opening, the later paragraphs should follow the writer's own points, so a single source may appear in several of them.\n\n(A) is wrong because the thesis is the essay's guide, so abandoning it after the opening would leave the later paragraphs aimless.\n(B) is wrong because the body paragraphs still need sources as evidence for the sub-claims, and without them the sub-claims would be unsupported assertions.\n(D) is wrong because strict one-source-per-paragraph organization is the structure the revision is meant to replace."
       },
       {
         "id": "2w-11",
@@ -4392,7 +4392,7 @@ const QUESTIONS = {
           "Changing the paragraph's topic to something unrelated to energy subsidies, to avoid the conflict."
         ],
         "correct": 2,
-        "explanation": "The core fix is an active move — explaining how the two findings actually fit together into one claim — not simply cutting content (A), padding length (B), or changing the topic (D), none of which address the actual synthesis failure."
+        "explanation": "Correct: (C) replacing the passive 'it's complicated' framing with an active synthesis of how the findings fit. Synthesis means combining differing findings into the writer's own precise claim. The paragraph says 'Some sources say subsidies help renewable adoption' and 'Other sources say subsidies are expensive,' then ends with 'subsidies are complicated and reasonable people can disagree about them.' The biggest change is to explain how benefit and cost fit together in one position, such as a way to keep the benefits while limiting the expense.\n\n(A) is wrong because removing all references to sources would delete the evidence the paragraph needs.\n(B) is wrong because adding length without changing content leaves the same lack of synthesis, so the paragraph would stay a summary.\n(D) is wrong because changing the topic avoids the conflict instead of resolving it, which is what synthesis requires."
       },
       {
         "id": "1w-13",
@@ -4405,7 +4405,7 @@ const QUESTIONS = {
           "Direct, central supporting evidence for the core claim about demand-supply misalignment."
         ],
         "correct": 1,
-        "explanation": "Source C's budget information helps explain why reallocation matters or is difficult, but Sources A and B more directly drive the core demand-supply claim — making Source C secondary context. Choices A and D overstate Source C's centrality. Choice C wrongly excludes a source that's still relevant, just less central."
+        "explanation": "Correct: (B) likely context or a secondary point, complementing rather than driving the core claim. In the reading-period sorting strategy, each source gets a label for its function, such as central evidence, context, or counterpoint. The revised thesis says proportional funding misallocates toward declining formats, which is a claim about demand and supply, and that is driven mainly by Source A's e-book lending statistics and Source B's physical circulation trends. Source C, which discusses 'library budget constraints,' helps explain why reallocation matters or is hard, so it is context.\n\n(A) is wrong because Source C is not the main driver of a thesis about demand.\n(C) is wrong because the budget information is still relevant and should not be excluded, although it plays a less central role than Sources A and B.\n(D) is wrong because the central support for the demand-supply claim comes from Sources A and B, not from Source C."
       },
       {
         "id": "2w-12",
@@ -4418,7 +4418,7 @@ const QUESTIONS = {
           "They represent two different failure modes: no thesis at all (D1) versus unresolved tension (D2)."
         ],
         "correct": 3,
-        "explanation": "D1 never organizes around a thesis at all, while D2 has a thesis-adjacent structure but fails to resolve the tension it notices — two genuinely distinct ways synthesis can fail. Choice C collapses a real distinction. Choice B wrongly claims D2 has no weakness. Choice A denies the deliberate contrast the two drafts are clearly designed to illustrate."
+        "explanation": "Correct: (D) they represent two different failure modes: no thesis at all (D1) versus unresolved tension (D2). The first draft opens with 'Source A discusses e-book lending statistics' and promises to 'examine each of these sources,' so it never states an argument. The second draft does notice that 'Both of these things seem true' but ends with 'reasonable people can disagree,' so it spots a tension without resolving it. Pairing them shows two distinct ways synthesis fails.\n\n(A) is wrong because pairing contrasting weaknesses is a deliberate teaching choice that gives readers two examples.\n(B) is wrong because D2 is not excellent; its conclusion takes no position and its attribution is vague.\n(C) is wrong because the weaknesses differ in kind, since one lacks a thesis and the other has an unresolved tension."
       },
       {
         "id": "1w-14",
@@ -4431,7 +4431,7 @@ const QUESTIONS = {
           "Restating each source's general topic once more at the essay's very end."
         ],
         "correct": 3,
-        "explanation": "Restating source topics in announcement style would reintroduce the exact source-by-source pattern the revision worked to eliminate, making it the least helpful addition. Choices A, B, and C are all genuinely valuable additions that reinforce the thesis-driven structure rather than undermining it."
+        "explanation": "Correct: (D) restating each source's general topic once more at the essay's very end. After the revision, the essay should use the sources as evidence for the writer's thesis, and any addition that goes back to announcing topics, like the draft's 'Source B discusses physical book circulation trends,' would bring back the source-by-source pattern. A conclusion that merely repeats what each source covers adds no reasoning.\n\n(A) is wrong because commentary explaining why a statistic matters strengthens the connection to the thesis.\n(B) is wrong because a genuine concession about a limitation shows depth and improves credibility, so a concession would help the essay and not weaken it.\n(C) is wrong because a transition connecting evidence from one source to a claim from another is the synthesis work the essay needs. All three are useful, so the restatement is the least helpful."
       },
       {
         "id": "2w-13",
@@ -4444,7 +4444,7 @@ const QUESTIONS = {
           "Attribution requirements have no real relationship to how synthesized a conclusion is."
         ],
         "correct": 2,
-        "explanation": "A precise, synthesized conclusion needs correspondingly precise, named evidence behind each of its parts, so attribution should get more specific, not less. Choice B recommends the opposite of sound practice. Choices A and D both deny a real, direct relationship between synthesis quality and attribution precision."
+        "explanation": "Correct: (C) attribution should become more specific, naming particular sources for each half of the claim. Attribution is identifying who provides each piece of evidence. The original paragraph uses 'Some sources say' and 'Other sources say,' so the reader cannot tell which source supports benefit and which supports cost. A synthesized conclusion combines those two sides, and each side should be backed by a named source so the claim rests on identifiable evidence.\n\n(A) is wrong because even a well-synthesized paragraph needs attribution to show where its evidence comes from.\n(B) is wrong because vaguer attribution weakens credibility and makes claims harder to check, which would make the claim look less trustworthy.\n(D) is wrong because precise attribution and a precise synthesized claim support each other, so they are related."
       },
       {
         "id": "1w-15",
@@ -4457,7 +4457,7 @@ const QUESTIONS = {
           "A transformation that removes every source reference from the essay entirely, leaving the claims alone."
         ],
         "correct": 0,
-        "explanation": "The exercise models moving from listing what sources discuss to weaving them in as evidence for the writer's own specific claim — a structural change, not merely a stylistic one. Choice D misstates the goal; sources remain, just used differently. Choice C denies the transformation the exercise clearly demonstrates. Choice B understates the change as cosmetic when it's fundamentally structural."
+        "explanation": "Correct: (A) a transformation from source-announcement structure to thesis-driven use of sources as evidence. The original draft lists what each source discusses, 'Source A discusses e-book lending statistics' and so on, and ends with a vague sentence [5], 'Libraries face many important decisions about resource allocation.' The full revision supplies a specific thesis and then uses the sources as evidence to support it. That is a change in structure and purpose, from announcing sources to arguing with them.\n\n(B) is wrong because the change is not about sentence length; it concerns how the essay is organized.\n(C) is wrong because the draft is plainly incomplete as an argument, with no thesis, and the exercise exists to show how it can be improved.\n(D) is wrong because the revision keeps the sources and uses them differently, as evidence for a claim."
       },
       {
         "id": "1w-16",
@@ -4470,7 +4470,7 @@ const QUESTIONS = {
           "Each announces a source's general topic without stating a finding or connecting it to a claim."
         ],
         "correct": 3,
-        "explanation": "Sentences [1]-[3] each name a topic ('discusses e-book lending statistics') without a specific finding or argumentative connection — describing sources rather than using them. Choice C misdiagnoses a content problem as a grammar one. Choice B is inaccurate; the sentences don't conflict, they simply don't argue anything. Choice A gets the actual problem backwards — the sentences are too vague, not too detailed."
+        "explanation": "Correct: (D) each announces a source's general topic without stating a finding or connecting it to a claim. Sentences [1] through [3] follow the same pattern: 'Source A discusses e-book lending statistics,' 'Source B discusses physical book circulation trends,' and 'Source C discusses library budget constraints.' Each names what the source is about but not what it found or why it matters, so none works as evidence for an argument.\n\n(A) is wrong because the sentences are too vague, not too detailed, and are not too specific for an opening.\n(B) is wrong because the sentences do not make competing claims; they do not argue anything.\n(C) is wrong because the sentences are grammatically sound, so the problem lies in their content and not in their grammar."
       },
       {
         "id": "1w-17",
@@ -4483,7 +4483,7 @@ const QUESTIONS = {
           "Source A's 40 percent rise in e-book lending justifies reconsidering the budget ratio."
         ],
         "correct": 3,
-        "explanation": "This revision cites a specific figure (40 percent) and connects it to an argumentative claim about budget ratios — genuine evidence use. Choices A, B, and C all remain vague topic gestures without a specific finding tied to an argument."
+        "explanation": "Correct: (D) Source A's 40 percent rise in e-book lending justifies reconsidering the budget ratio. Evidence use means stating a specific finding from a source and tying it to a claim. The draft's sentence [1], 'Source A discusses e-book lending statistics,' says only what the source is about. Choice D gives a concrete figure and connects it to an argument about how the library budget should be divided, which turns an announcement into evidence.\n\n(A) is wrong because it offers a vague observation that e-books exist, with no named source or specific finding.\n(B) is wrong because it only says Source A is important and worth discussing, which is another announcement.\n(C) is wrong because it repeats the problem, saying the source discusses statistics 'without stating any particular finding.'"
       },
       {
         "id": "2w-14",
@@ -4496,7 +4496,7 @@ const QUESTIONS = {
           "It is grammatically incorrect in a way that undermines its meaning and confuses the paragraph."
         ],
         "correct": 0,
-        "explanation": "'Reasonable people can disagree' applies to nearly any contested topic and commits to nothing specific, failing the Thesis requirement for a defensible claim. Choice C misdiagnoses vagueness as excess specificity. Choices B and D both misidentify problems (grammar, contradiction) that aren't actually present."
+        "explanation": "Correct: (A) it avoids taking any actual defensible position, retreating into an unfalsifiable observation. A thesis must make a claim that someone could argue for or against. Sentence [4] says 'Therefore, subsidies are complicated and reasonable people can disagree about them,' which could be said about almost any contested topic and commits to nothing about what should happen with subsidies. Nobody could prove it wrong, so it does not function as a thesis.\n\n(B) is wrong because the sentence does not conflict with the earlier sentences about subsidies helping adoption and being expensive; it is consistent with them but empty.\n(C) is wrong because the sentence is too vague and not too specific, so excess detail is not the problem with a sentence this general.\n(D) is wrong because the sentence is grammatically correct, so its meaning is clear, just uncommitted."
       },
       {
         "id": "2w-15",
@@ -4509,7 +4509,7 @@ const QUESTIONS = {
           "Therefore, subsidies are complicated and reasonable people can disagree about them."
         ],
         "correct": 0,
-        "explanation": "This revision commits to a specific, defensible structural solution that synthesizes both concerns (benefit and cost) into one claim. Choice D is simply the original draft's non-thesis, unchanged. Choices B and C both avoid stating any actual position at all."
+        "explanation": "Correct: (A) subsidies should scale down over a fixed timeline as adoption costs fall. A thesis is a defensible claim that can be argued. This revision combines the paragraph's two source findings, that subsidies help renewable adoption and that they are expensive, by recommending that they decline over time, so the benefit is kept while the expense is managed. That is specific enough to support or dispute.\n\n(B) is wrong because saying subsidies should never be discussed again takes no real position on the findings and is not supported by either.\n(C) is wrong because it is a transition, like sentence [5], and states no claim at all.\n(D) is wrong because it is the original sentence [4], 'subsidies are complicated and reasonable people can disagree about them,' which is the non-thesis the question asks to fix."
       },
       {
         "id": "1w-18",
@@ -4522,7 +4522,7 @@ const QUESTIONS = {
           "Sentence [2] alone would need revision, with nothing else requiring a change."
         ],
         "correct": 1,
-        "explanation": "Revising sentence [5] into a real thesis first would give sentences [1]-[3] something specific to serve once they're also revised, making it the highest-leverage fix. Choice A denies any problem exists. Choice D understates the scope of needed revision. Choice C wrongly reduces the fix to reordering alone."
+        "explanation": "Correct: (B) sentence [5], since a strong thesis would give the earlier sentences a clear purpose. Sentence [5], 'Libraries face many important decisions about resource allocation,' is where a thesis normally belongs, and right now it is generic. Once it states a specific claim, the writer can revise sentences [1] through [3], which currently only say what each source 'discusses,' so that each supports that claim. Fixing the thesis first gives the whole paragraph direction.\n\n(A) is wrong because the paragraph clearly needs revision, since it has no argument, because sentence [5] is generic and sentences [1] through [3] only announce topics.\n(C) is wrong because the problem is the wording and content of the sentences, not just their order.\n(D) is wrong because revising sentence [2] alone would leave the other topic announcements and the missing thesis untouched."
       },
       {
         "id": "2w-16",
@@ -4535,7 +4535,7 @@ const QUESTIONS = {
           "It shows the writer correctly noticing both source types are valid — a necessary first step, not yet synthesis."
         ],
         "correct": 3,
-        "explanation": "Noticing that both sides have merit is a genuine first step toward synthesis, even though the paragraph hasn't yet combined them into an argument. Choice C overstates the paragraph's progress. Choice A mischaracterizes the sources as irreconcilable when they're simply not yet combined. Choice B denies a relationship the sentence clearly has to synthesis."
+        "explanation": "Correct: (D) it shows the writer correctly noticing both source types are valid, a necessary first step, not yet synthesis. Synthesis starts with recognizing what each source offers and ends with combining them into a new claim. Sentence [3], 'Both of these things seem true based on the sources provided,' acknowledges the benefit from sentence [1] and the expense from sentence [2], but the paragraph then concludes only that 'subsidies are complicated.' The writer has not yet merged the findings into a position.\n\n(A) is wrong because the writer says both things seem true, so the sources are not presented as irreconcilable.\n(B) is wrong because the sentence plainly relates to synthesis, and the paragraph's synthesis is not complete.\n(C) is wrong because a complete synthesis would state a precise combined claim, which the paragraph never does."
       },
       {
         "id": "1w-19",
@@ -4548,7 +4548,7 @@ const QUESTIONS = {
           "Both drafts demonstrate exactly the identical stage of synthesis failure, with no difference between them."
         ],
         "correct": 2,
-        "explanation": "D2 has moved past D1's simple announcement problem to actually noticing source tension, but still stalls before resolving it — a later-stage failure. Choices A and B both judge 'advancement' by irrelevant surface features (source count, sentence length). Choice D denies a real, meaningful difference between the two drafts."
+        "explanation": "Correct: (C) D2 is more advanced; it notices a tension but still fails to resolve it into a claim. D1 is at an earlier stage: it just lists what 'Source A,' 'Source B,' and 'Source C' discuss and promises to 'examine each of these sources.' D2 goes further by recognizing that 'Some sources say subsidies help' and 'Other sources say subsidies are expensive' and that 'Both of these things seem true,' yet it stalls at 'reasonable people can disagree.' Seeing the tension is later-stage progress that still falls short.\n\n(A) is wrong because sentence length has nothing to do with the stage of synthesis failure.\n(B) is wrong because the number of sources cited is not a measure of how advanced the failure is.\n(D) is wrong because the drafts fail at different stages, one before any claim and one after noticing a conflict."
       },
       {
         "id": "2w-17",
@@ -4561,7 +4561,7 @@ const QUESTIONS = {
           "That synthesis essays should never take any clear, defensible position at all on the topic at hand."
         ],
         "correct": 2,
-        "explanation": "Both drafts point to the same transferable lesson: genuinely using sources as evidence for a defensible claim, not simply announcing or acknowledging them, is what this task tests. The other three choices all state something closer to the opposite of what the drafts demonstrate."
+        "explanation": "Correct: (C) that using sources as evidence for a specific claim, not just naming them, is the actual tested skill. Both drafts fail because source information appears without an argument. D1 says 'Source A discusses e-book lending statistics' and promises to examine each source, and D2 says 'Some sources say' and 'Other sources say' and then concludes 'reasonable people can disagree.' In each, the sources are named but never used to prove a specific claim, which is what synthesis requires.\n\n(A) is wrong because neither draft's fix concerns paragraph length, since both drafts are short and the lesson is about using sources for a claim, not about how long a paragraph is.\n(B) is wrong because the revisions add specific source content, such as a named source and a figure, instead of removing it.\n(D) is wrong because the revisions replace the non-position in D2 with a clear, defensible claim, so taking a position is encouraged."
       },
       {
         "id": "2w-18",
@@ -4574,7 +4574,7 @@ const QUESTIONS = {
           "No, but only because the paragraph is already too short to shorten any further without losing sense."
         ],
         "correct": 2,
-        "explanation": "Sentences [1] and [2] correctly identify the two relevant source categories; the actual fix is developing them with specific evidence and a claim, not deleting them. Choice A wrongly treats correctly-scoped sentences as worthless. Choice B gives an unrelated reason. Choice D invents a rule the unit never states."
+        "explanation": "Correct: (C) no; they correctly name the source categories, but the problem is that they are never developed with evidence. Sentence [1], 'Some sources say subsidies help renewable adoption,' and sentence [2], 'Other sources say subsidies are expensive,' set out the two sides of the issue, which a synthesis paragraph needs. What is missing is specific, named evidence and a claim joining them, so deleting these sentences would remove the paragraph's actual content. The right fix is to develop them.\n\n(A) is wrong because no rule limits a synthesis paragraph to a single source category, and this one needs both.\n(B) is wrong because the sentences supply the two findings the paragraph is about, so they add value.\n(D) is wrong because the reason for keeping them is that they set up the argument, not that the paragraph is too short."
       }
     ]
   },
@@ -4758,7 +4758,7 @@ const QUESTIONS = {
           "A formal, archaic register that sounds out of place in modern public speech."
         ],
         "correct": 0,
-        "explanation": "The passage maintains a direct, plain-spoken, pointed public register throughout — no register shift occurs here, unlike Passage 4. It avoids both the dense technical jargon (B) and an intimate confessional voice (C), and it reads as contemporary rather than archaic (D) — appropriate, accessible language for a public audience."
+        "explanation": "Correct: (A) a direct, plain-spoken public register, fitting a council member's public statement. Diction register is the level of formality and style of word choice. The passage uses short, ordinary words: 'We fund the stadium renovation. We fund the downtown parking structure.' It ends with the blunt contrast 'Ask what this city can build for visitors who stay three days a year.' These are clear, accessible phrases suited to speaking to the public.\n\n(B) is wrong because the passage has no budget line-items or procedural jargon, only simple descriptions like 'a leaking roof.'\n(C) is wrong because the speaker addresses the public and makes a civic argument and not a private, confessional one.\n(D) is wrong because nothing sounds archaic; 'apparently' and 'again, for the fourth year running' are modern conversational phrasing."
       },
       {
         "id": "2-6",
@@ -4771,7 +4771,7 @@ const QUESTIONS = {
           "Anaphora gives each funded item its own sentence and emphasis, building cumulative weight."
         ],
         "correct": 3,
-        "explanation": "Anaphora's repeated sentence-initial structure gives each funded item its own full sentence and weight, building cumulative rhetorical force that a compressed, comma-separated list would flatten. This is a deliberate choice, not an accident (C); a list would compress rather than build weight (A is thus wrong, and B collapses a real distinction the passage's structure depends on)."
+        "explanation": "Correct: (D) anaphora gives each funded item its own sentence and emphasis, building cumulative weight. Anaphora is the repetition of the same words at the start of successive sentences. The speaker writes 'We fund the stadium renovation. We fund the downtown parking structure. We fund the tourism marketing campaign,' so each project gets its own full sentence and the repeated 'We fund' piles up before the turn to 'What we do not fund.' That build-up sets up the contrast with the library. A comma list would run the items together and flatten that effect.\n\n(A) is wrong because a comma-separated list would compress the items and produce less weight, not the same weight.\n(B) is wrong because the two forms produce different effects; the repeated sentence openings create rhythm that a list lacks.\n(C) is wrong because the structure is clearly deliberate, building toward the sentence about the library with the leaking roof."
       },
       {
         "id": "3-1",
@@ -4914,7 +4914,7 @@ const QUESTIONS = {
           "'Workforce optimization'"
         ],
         "correct": 3,
-        "explanation": "'Workforce optimization' is the specific corporate euphemism used before the register shift — abstract corporate language standing in for the direct, human reality the writer states plainly afterward. Choice C is the writer's later plain statement of the same fact, not the euphemism; choice A is invented text that doesn't appear in the passage; and choice B is simply false — the opening sentence is saturated with euphemistic phrasing."
+        "explanation": "Correct: (D) 'workforce optimization.' A euphemism is a mild, abstract phrase used in place of a harsh or direct one. The memo's first sentence says 'the organization will be implementing a workforce optimization affecting approximately 12 percent of current headcount,' and the register shift comes with 'Look, I'm not going to pretend that sentence means anything.' Calling layoffs 'workforce optimization' hides the human reality that the writer states plainly later: 'Some of you are losing your jobs.'\n\n(A) is wrong because 'A difficult day for our company' appears nowhere in the passage; the answer must come from the actual text.\n(B) is wrong because the opening sentence is full of corporate abstractions such as 'strategic realignment initiative' and 'headcount.'\n(C) is wrong because 'Some of you are losing your jobs' is the writer's plain, direct statement after the shift, which is the opposite of a euphemism."
       },
       {
         "id": "4-5a",
@@ -5060,7 +5060,7 @@ const QUESTIONS = {
           "So did after-school care. So did senior lunches. So did shelter, twice. Thirty-seven years of that."
         ],
         "correct": 3,
-        "explanation": "This revision uses anaphora ('So did... So did... So did...') building momentum toward the short, emphatic closing fragment 'Thirty-seven years of that' — far more memorable than a single flat sentence, directly applying this unit's schemes to strengthen the speech's intended close. Choice A states an opinion without any technique; choice C is vague summary rather than concrete, accumulating detail; and choice B keeps the original's flat, unemphatic phrasing without building any rhythm."
+        "explanation": "Correct: (D) So did after-school care. So did senior lunches. So did shelter, twice. Thirty-seven years of that. Anaphora is repeating the same opening words in successive sentences, and a short fragment at the end adds a final punch. Sentence [5] in the draft reads 'So does everything this building has done for this neighborhood for thirty-seven years,' which is a flat, general line. Choice D turns the specifics from sentence [2], 'after-school programs, senior lunches' and 'emergency shelter during two major storms,' into a repeated 'So did' pattern that builds momentum and ends on 'Thirty-seven years of that.'\n\n(A) is wrong because it gives a vague opinion without technique or concrete detail, so it would not give the speech the emphasis it needs at its close.\n(B) is wrong because it only rewords the original's flat phrasing without adding rhythm or emphasis.\n(C) is wrong because it is a general summary that says closing would be a mistake without any accumulating detail."
       },
       {
         "id": "1w-2",
@@ -5203,7 +5203,7 @@ const QUESTIONS = {
           "The community center sits at the center of this particular neighborhood's daily life."
         ],
         "correct": 2,
-        "explanation": "This revision uses antithesis — parallel structure ('cost the city money... given this neighborhood... [far more than] money') contrasting two different kinds of value in mirrored grammatical form, setting up the cost-versus-worth argument the speech ultimately makes. Choice B is simply the unrevised original sentence, with no antithesis at all; choices A and D restate the same fact without any contrasting parallel structure."
+        "explanation": "Correct: (C) This building has cost the city money since 1987 and given the neighborhood far more. Antithesis places contrasting ideas in parallel grammatical form. Choice C sets 'cost the city money' against 'given the neighborhood far more,' two kinds of value in mirrored structure, and it keeps the 1987 date from the original sentence [1]. That sets up the later conflict between sentence [3], the $340,000 savings, and sentence [5], what the building has meant for thirty-seven years.\n\n(A) is wrong because it states that the building has existed a long time without any contrasting parallel structure.\n(B) is wrong because it is the original sentence, 'This community center opened in 1987,' which has no antithesis at all.\n(D) is wrong because it only describes the center's place in daily life, with no contrast between two ideas."
       },
       {
         "id": "1w-8",
@@ -5281,7 +5281,7 @@ const QUESTIONS = {
           "People ask why a lot, and I have never really found a good answer to give them or to myself."
         ],
         "correct": 1,
-        "explanation": "This revision builds genuine periodic structure — three accumulating 'after' clauses — delaying the main clause and its explanation, creating rhetorical build-up before the essay's key explanatory payoff, consistent with this unit's periodic sentence technique. Choice D is simply the unrevised original with no added structure; choice C rephrases as a question without any delay or buildup; and periodic structure clearly can work here (contra A)."
+        "explanation": "Correct: (B) three accumulating 'after' clauses delaying the honest answer. A periodic sentence withholds its main point until the end, building suspense through a series of preceding clauses. Sentence [5] gives the key explanation, 'I was good at accounting and terrible at loving it,' so a revised sentence [3] can set up that answer by stacking clauses and delaying the main statement. Choice B does this, and the delay builds toward the explanation the essay delivers next.\n\n(A) is wrong because a periodic structure can fit the sentence, and the question asks which revision uses one.\n(C) is wrong because turning the sentence into a question does not delay a main clause or build suspense.\n(D) is wrong because it merely adds a trailing comment to the original 'People ask why a lot,' with no accumulating clauses or delayed main point."
       },
       {
         "id": "2w-9",
@@ -5307,7 +5307,7 @@ const QUESTIONS = {
           "$340,000 is a considerable sum for any city's annual operating budget."
         ],
         "correct": 2,
-        "explanation": "This revision sets up antithesis by explicitly contrasting what closing 'saves' against what it 'loses,' using parallel grammatical framing that primes the reader for the value-based argument the speech goes on to make. Choice B is simply the unrevised original with no antithesis; choices A and D restate the cost without setting up any contrasting structure."
+        "explanation": "Correct: (C) Closing it saves $340,000 and loses what the rest of this speech tries to name. Antithesis pairs opposing ideas in parallel form, and here the draft's sentence [3] states the financial argument, 'Closing it would save the city an estimated $340,000 annually,' while sentence [5] states the value claim, 'So does everything this building has done for this neighborhood.' Choice C sets 'saves' against 'loses' in matching grammar, so the reader sees cost against worth, preparing for sentence [5].\n\n(A) is wrong because it only calls the savings significant and offers no opposing element or parallel structure.\n(B) is wrong because it is the original sentence, which states the savings with no contrast.\n(D) is wrong because it remarks only that the sum is considerable, again without any contrasting idea."
       },
       {
         "id": "1w-12",
