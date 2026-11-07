@@ -1153,7 +1153,7 @@ const QUESTIONS = {
         "opposite; the same"
       ],
       "correct": 3,
-      "explanation": "Correct: opposite; the same. In induction the rod never touches the object. The rod's field pushes like charges away, the ground carries them off, and the object ends up with the opposite sign to the rod. In conduction the rod touches the object and charge transfers directly, so both end up with the same sign.\n\n(A) is wrong because it says induction gives the same sign, which it never does.\n(B) is wrong because it says conduction gives opposite sign, but a touching transfer leaves the same sign.\n(C) is wrong because it reverses both relationships."
+      "explanation": "Correct: (D) opposite; the same. In induction the rod never touches the object. The rod's field pushes like charges away or toward the far side, a ground connection lets charge flow off or onto the object, and after the ground is removed the object is left with a net charge of the opposite sign to the rod. In conduction the rod touches the object and charge transfers directly, so both end up with the same sign.\n\n(A) is wrong because it says induction gives the same sign as the rod, but induction always leaves the object oppositely charged, since the rod repels like charges away to the ground.\n(B) is wrong because it says conduction gives the opposite sign, but touching lets charge move from the rod onto the object and so leaves it with the same sign as the rod.\n(C) is wrong because it reverses both relationships, giving induction the same sign and conduction the opposite sign, so neither blank is correct."
     },
     {
       "id": "10-20",
@@ -1244,7 +1244,7 @@ const QUESTIONS = {
         "Lines point straight from +Q to −Q only, with no curvature."
       ],
       "correct": 2,
-      "explanation": "Correct: lines emanate from +Q and curve around to terminate on −Q. Field lines show the direction of the force on a positive test charge, so they start on positive charges and end on negative ones. For a dipole they leave +Q, spread and curve through the space around, and come into −Q, with the lines crowded between the charges where the field is strongest.\n\n(A) is wrong because it reverses the start and end.\n(B) is wrong because electrostatic field lines begin and end on charges and do not form closed loops.\n(D) is wrong because only the line along the axis is straight, while most lines curve."
+      "explanation": "Correct: (C) Lines emanate from +Q and curve around to terminate on -Q. Field lines show the direction of the force on a positive test charge, so they start on positive charges and end on negative ones. For a dipole they leave +Q, spread and curve through the space around, and come into -Q, with the lines crowded between the charges where the field is strongest.\n\n(A) is wrong because it reverses the start and end, since lines must leave the positive charge and enter the negative charge.\n(B) is wrong because electrostatic field lines begin and end on charges and do not form closed loops, as closed loops would require a non-conservative electric field.\n(D) is wrong because only the line along the axis between the charges is straight, while most lines leave at an angle and curve around to reach the negative charge."
     },
     {
       "id": "10-27",
@@ -1296,7 +1296,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 1,
-      "explanation": "Correct: 8kQ/L<sup>2</sup>. The midpoint is L/2 from each charge, so each charge alone gives E = kQ/(L/2)<sup>2</sup> = 4kQ/L<sup>2</sup>. The field from +Q points away from it and the field from −Q points toward it, which is the same direction at the midpoint, so they add: 4kQ/L<sup>2</sup> + 4kQ/L<sup>2</sup> = 8kQ/L<sup>2</sup>.\n\n(A) is wrong because it counts only one charge's contribution.\n(C) is wrong because kQ/L<sup>2</sup> uses the full length L instead of the half-distance L/2.\n(D) is wrong because zero would be right only for two equal like charges, not for +Q and −Q."
+      "explanation": "Correct: (B) 8kQ/L<sup>2</sup>. The midpoint is L/2 from each charge, so each charge alone gives E = kQ/(L/2)<sup>2</sup> = 4kQ/L<sup>2</sup>. The field from +Q points away from it and the field from -Q points toward it, which is the same direction at the midpoint, so they add: 4kQ/L<sup>2</sup> + 4kQ/L<sup>2</sup> = 8kQ/L<sup>2</sup>. The opposite signs are the clue that the contributions reinforce.\n\n(A) is wrong because 4kQ/L<sup>2</sup> counts only one charge's contribution, when both charges contribute fields in the same direction.\n(C) is wrong because kQ/L<sup>2</sup> uses the full length L as the distance for one charge, instead of the half-distance L/2 for each, and it also omits the second charge.\n(D) is wrong because zero would result only for two equal like charges, whose fields cancel at the midpoint, and not for +Q and -Q, whose fields add."
     },
     {
       "id": "10-31",
@@ -1348,7 +1348,7 @@ const QUESTIONS = {
         "3kQ²/d"
       ],
       "correct": 3,
-      "explanation": "Correct: 3kQ<sup>2</sup>/d. The total potential energy of a set of point charges is the sum over every distinct pair, with each pair counted once. Three charges give three pairs, and every pair is separated by d with charges Q and Q, so each contributes kQ<sup>2</sup>/d. Total U = 3kQ<sup>2</sup>/d, positive because the charges are alike.\n\n(A) is wrong because 6kQ<sup>2</sup>/d counts each pair twice, once from each charge's point of view.\n(B) is wrong because kQ<sup>2</sup>/d counts only one pair.\n(C) is wrong because 2kQ<sup>2</sup>/d counts only two of the three pairs."
+      "explanation": "Correct: (D) 3kQ<sup>2</sup>/d. The total potential energy of a set of point charges is the sum over every distinct pair, with each pair counted once. Three charges give three pairs, and every pair is separated by d with charges Q and Q, so each contributes kQ<sup>2</sup>/d. Total U = 3kQ<sup>2</sup>/d, positive because the charges are alike and work was needed to assemble them.\n\n(A) is wrong because 6kQ<sup>2</sup>/d counts each pair twice, once from each charge's point of view, which double-counts the energy.\n(B) is wrong because kQ<sup>2</sup>/d counts only one pair, when the triangle has three pairs of charges.\n(C) is wrong because 2kQ<sup>2</sup>/d counts only two of the three pairs, leaving out the interaction between the third pair of corners."
     },
     {
       "id": "10-35",
@@ -1479,7 +1479,7 @@ const QUESTIONS = {
         "Concentric cylinders around the charge."
       ],
       "correct": 0,
-      "explanation": "Correct: concentric spheres centered on the charge. The potential of a point charge is V = kQ/r, which depends only on the distance r from the charge. All points with the same r have the same V, and the set of points a fixed distance from one point is a sphere. Different values of V give spheres of different radii, all sharing the same center.\n\n(B) is wrong because every charge distribution has equipotential surfaces.\n(C) is wrong because planes are the equipotentials of a uniform field, such as between parallel plates.\n(D) is wrong because cylinders are the equipotentials of a long line of charge."
+      "explanation": "Correct: (A) Concentric spheres centered on the charge. The potential of a point charge is V = kQ/r, which depends only on the distance r from the charge. All points with the same r have the same V, and the set of points at a fixed distance from one point is a sphere. Different values of V give spheres of different radii, all sharing the same center, and the field lines cross them at right angles.\n\n(B) is wrong because every charge distribution has equipotential surfaces, since the potential has a value at every point in space.\n(C) is wrong because flat planes are the equipotentials of a uniform field, such as between parallel plates, and not of a point charge.\n(D) is wrong because cylinders are the equipotentials of a long line of charge, where the potential depends on the distance from the line and not from a single point."
     },
     {
       "id": "10-45",
@@ -1492,7 +1492,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "Correct: it is cut in half. For a uniform field between parallel plates, E = ΔV/d. With ΔV held fixed and d doubled, E' = ΔV/(2d) = E/2. The same potential drop spread over a longer gap means a weaker field.\n\n(A) is wrong because doubling would require halving d.\n(B) is wrong because 4 would need a squared dependence, which does not appear in E = ΔV/d.\n(D) is wrong because the field depends directly on d at a fixed voltage."
+      "explanation": "Correct: (C) It is cut in half. For a uniform field between parallel plates, E = ΔV/d, so the field equals the potential difference divided by the separation. With the potential difference held fixed by the battery and the separation doubled, E' = ΔV/(2d) = E/2. The same potential drop spread over a longer gap means a weaker field.\n\n(A) is wrong because doubling the field would require halving the separation, whereas the separation here is doubled and so the field decreases.\n(B) is wrong because a factor of 4 would need a squared dependence on d, which does not appear in the relationship between field, voltage, and separation.\n(D) is wrong because at a fixed voltage the field depends inversely on the separation, so changing d must change E."
     },
     {
       "id": "10-46",
@@ -1583,7 +1583,7 @@ const QUESTIONS = {
         "C > A > B"
       ],
       "correct": 2,
-      "explanation": "Correct: C > B > A. The energy stored is U = ½CΔV<sup>2</sup>, linear in C and quadratic in ΔV. Take U<sub>A</sub> = ½C(ΔV)<sup>2</sup> as the unit. Capacitor B has twice the C, so U<sub>B</sub> = 2U<sub>A</sub>. Capacitor C has twice the voltage, so U<sub>C</sub> = ½C(2ΔV)<sup>2</sup> = 4U<sub>A</sub>. Ranking: C (4) > B (2) > A (1).\n\n(A) is wrong because it reverses the order.\n(B) is wrong because it ranks B above C, treating doubling C as stronger than doubling ΔV, when ΔV is squared.\n(D) is wrong because it puts B below A, but B has twice the capacitance and therefore twice the energy."
+      "explanation": "Correct: (C) C > B > A. The energy stored is U = (1/2)C(ΔV)<sup>2</sup>, linear in C and quadratic in voltage. Take the energy of capacitor A as the unit. Capacitor B has twice the capacitance, so its energy is 2 times that of A. Capacitor C has twice the voltage, so its energy is (1/2)C(2ΔV)<sup>2</sup> = 4 times that of A. Ranking: C (4) > B (2) > A (1).\n\n(A) is wrong because it reverses the order, putting A first when A has the smallest energy of the three.\n(B) is wrong because it ranks B above C, treating doubling the capacitance as stronger than doubling the voltage, when voltage is squared and gives a factor of 4 versus 2.\n(D) is wrong because it puts B below A, but B has twice the capacitance and therefore twice the energy of A at the same voltage."
     },
     {
       "id": "10-53",
@@ -1596,7 +1596,7 @@ const QUESTIONS = {
         "0.4 μF"
       ],
       "correct": 2,
-      "explanation": "Correct: 10 μF. Filling the gap with a dielectric multiplies the capacitance by κ: C = κC<sub>0</sub>. C = (5.0)(2.0 μF) = 10 μF.\n\n(A) is wrong because 50 μF is ten times too large, a decimal slip after multiplying.\n(B) is wrong because 2.5 μF comes from dividing κ by C<sub>0</sub> (5.0/2.0), the wrong operation.\n(D) is wrong because 0.4 μF comes from dividing C<sub>0</sub> by κ, which would lower the capacitance, but a dielectric raises it."
+      "explanation": "Correct: (C) 10 μF. Filling the gap completely with a dielectric multiplies the capacitance by the dielectric constant: C = κC<sub>0</sub>. Here C = (5.0)(2.0 μF) = 10 μF. The dielectric raises the capacitance because it reduces the effective field between the plates, so more charge can be stored at the same voltage.\n\n(A) is wrong because 50 μF is five times too large, and the multiplication 5.0 x 2.0 correctly gives 10 μF.\n(B) is wrong because 2.5 μF is what dividing 5.0 by 2.0 gives, which is the wrong operation; the correct method multiplies and gives 10 μF.\n(D) is wrong because 0.4 μF comes from dividing 2.0 by 5.0, which would lower the capacitance, but a dielectric raises it, giving 10 μF."
     },
     {
       "id": "10-54",
@@ -1715,7 +1715,7 @@ const QUESTIONS = {
         "E ∝ 1/r²; V ∝ 1/r; U ∝ 1/r"
       ],
       "correct": 3,
-      "explanation": "Correct: E ∝ 1/r<sup>2</sup>; V ∝ 1/r; U ∝ 1/r. Coulomb's law gives the field of a point charge E = kQ/r<sup>2</sup>, which falls as the inverse square. Potential is the energy per unit charge, found by integrating the field, so V = kQ/r falls only as 1/r. The potential energy of a test charge q is U = qV = kQq/r, so it also falls as 1/r since q is a constant.\n\n(A) is wrong because V is 1/r, not 1/r<sup>2</sup>.\n(B) is wrong because E is not 1/r, and V and U do not fall as 1/r<sup>2</sup>.\n(C) is wrong because only E is inverse-square; V and U fall more slowly."
+      "explanation": "Correct: (D) E ∝ 1/r<sup>2</sup>; V ∝ 1/r; U ∝ 1/r. Coulomb's law gives the field of a point charge E = kQ/r<sup>2</sup>, which falls as the inverse square. Potential is the energy per unit charge, found by integrating the field, so V = kQ/r falls only as 1/r. The potential energy of a test charge q is U = qV = kQq/r, so it also falls as 1/r since q is constant. Only the field is inverse-square.\n\n(A) is wrong because it gives V an inverse-square dependence, but integrating the 1/r<sup>2</sup> field gives a potential that falls as 1/r.\n(B) is wrong because E is not proportional to 1/r and V and U do not fall as 1/r<sup>2</sup>, so all three entries are mismatched.\n(C) is wrong because only E is inverse-square; V and U fall more slowly, as 1/r."
     },
     {
       "id": "10-63",
@@ -1755,7 +1755,7 @@ const QUESTIONS = {
         "V at B is higher; work is negative."
       ],
       "correct": 2,
-      "explanation": "Electric field always points from higher potential toward lower potential; moving in the direction the field points (+x, from A to B) means moving toward lower potential, so V at B is lower. A positive charge moving to lower potential is moving 'downhill,' so the field does positive work on it — together giving Choice C. Choices B and D both wrongly claim potential increases in the field's own direction, when field direction is defined as pointing from high to low potential. Choice A gets the potential comparison right but wrongly claims negative work, missing that motion toward lower potential is energetically favorable for a positive charge."
+      "explanation": "Correct: (C) V at B is lower; work is positive. Electric field points from higher potential toward lower potential, and moving in the direction the field points (+x, from A to B) means moving toward lower potential, so V at B is lower. The field pushes a positive charge along the field direction, so the force and displacement point the same way and the field does positive work, equal to q times the potential drop. The stem places B along the field from A, which fixes both answers.\n\n(A) is wrong because it gets the potential comparison right but claims negative work, while motion in the direction of the force on a positive charge is positive work.\n(B) is wrong because it claims the potential rises along the field direction, when the field is defined as pointing from high to low potential.\n(D) is wrong because it claims the potential rises and the work is negative, which gets both parts reversed."
     },
     {
       "id": "10-66",
@@ -2201,7 +2201,7 @@ const QUESTIONS = {
         "12.5 A and 9.6 Ω"
       ],
       "correct": 3,
-      "explanation": "12.5 A and 9.6 Ω, from I = P/V = 1500/120 ≈ 12.5 A, then R = V/I = 120/12.5 ≈ 9.6 Ω. \"1500 A and 0.08 Ω\" mistakes the power rating itself for the current, then derives a tiny resistance to compensate. \"0.08 A and 1500 Ω\" inverts the current calculation (V/P instead of P/V), which then propagates into an inflated resistance. \"12.5 A and 120 Ω\" gets the current right but then just restates the given voltage as the resistance instead of computing R = V/I."
+      "explanation": "Correct: (D) 12.5 A and 9.6 Ω. For an electric device, power P = IV, so the current is I = P/V = 1500 W / 120 V = 12.5 A. The resistance then follows from Ohm's law, R = V/I = 120 V / 12.5 A = 9.6 Ω. As a check, P = V<sup>2</sup>/R = 14400/9.6 = 1500 W. A heater with a high power rating draws a large current through a low resistance.\n\n(A) is wrong because 0.08 A is V/P = 120/1500, which inverts the current formula, and the matching 1500 Ω is then 120/0.08, whereas the correct values are 12.5 A and 9.6 Ω.\n(B) is wrong because 12.5 A is correct for the current but 120 Ω merely repeats the voltage, and 120 V across 120 Ω would draw only 1 A.\n(C) is wrong because 1500 A treats the power in watts as if it were the current, and the matching 0.08 Ω is 120/1500, whereas the correct current is 12.5 A."
     },
     {
       "id": "11-34",
@@ -2594,7 +2594,7 @@ const QUESTIONS = {
         "3.0 μC"
       ],
       "correct": 0,
-      "explanation": "48 μC, from Q = CΔV = (4.0×10⁻⁶)(12), using the full battery voltage since the capacitor is fully charged at t → ∞. 3.0 μC comes from inverting the ratio (dividing 12 by 4.0 instead of multiplying). 33 μC is 4.0/12 = 0.33 with a decimal slip, so it also divides instead of multiplying. 480 μC comes from a factor-of-10 slip in the capacitance's decimal exponent (treating 4.0 μF as if it were 40 μF)."
+      "explanation": "Correct: (A) 48 μC. A long time after the switch closes, the capacitor is fully charged and no current flows, so the voltage across the capacitor equals the battery voltage of 12 V. The final charge is Q = CΔV = (4.0 x 10<sup>-6</sup> F)(12 V) = 4.8 x 10<sup>-5</sup> C = 48 μC. The resistor affects only how fast the capacitor charges and does not change the final charge.\n\n(B) is wrong because 480 μC is ten times too large, and the correct product of 4.0 μF and 12 V is 48 μC.\n(C) is wrong because 33 μC does not come from the product of capacitance and voltage; the correct method of multiplying 4.0 μF by 12 V gives 48 μC.\n(D) is wrong because 3.0 μC is what dividing 12 by 4.0 gives, which uses the wrong operation, whereas multiplying gives 48 μC."
     },
     {
       "id": "11-64",
@@ -2620,7 +2620,7 @@ const QUESTIONS = {
         "Initial current is unchanged; final charge decreases."
       ],
       "correct": 1,
-      "explanation": "Initial current decreases; final charge is unchanged. At t = 0 the capacitor acts like a wire, so I<sub>initial</sub> = 𝓔/R falls as R grows, but Q<sub>final</sub> = CΔV depends only on C and battery voltage, not on R at all — resistance only changes how fast charging happens, never how much charge results. \"Initial current increases\" reverses the direct effect of R on I = 𝓔/R. \"Final charge decreases\" wrongly assumes resistance affects the ultimate charge stored, when Q<sub>final</sub>'s formula doesn't include R at all. \"Initial current unchanged\" wrongly assumes the initial instant is somehow independent of R, when R is exactly what sets that first-instant current."
+      "explanation": "Correct: (B) Initial current decreases; final charge is unchanged. At t = 0 the uncharged capacitor acts like a wire, so the initial current is the battery emf divided by R, which falls as R grows. The final charge Q = CΔV depends only on the capacitance and the battery voltage, not on R at all, because resistance changes only how fast charging happens and never how much charge results.\n\n(A) is wrong because it says the final charge decreases, which wrongly assumes resistance affects the charge stored, when the final charge formula contains no R.\n(C) is wrong because it says the initial current increases, which reverses the effect of resistance, since a larger R in I = emf/R gives a smaller current.\n(D) is wrong because it says the initial current is unchanged, but R is exactly what sets the current at the first instant, and it also says the final charge decreases, which is false."
     }
   ],
   "12": [
@@ -2778,7 +2778,7 @@ const QUESTIONS = {
         "Upward"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Downward. For a positive charge, x̂ × (−ẑ) = +ŷ gives upward. The electron is negative, so the force reverses to downward.\n\n(A) is wrong because to the right lies along the velocity, and F must be perpendicular to v.\n(B) is wrong for the same reason; left is antiparallel to v.\n(D) is wrong because upward is the positive-charge result with the flip for the electron's negative sign forgotten."
+      "explanation": "Correct: (C) Downward. The magnetic force on a moving charge is F = qv x B, which is perpendicular to both the velocity and the field. For a positive charge moving along +x through a field into the page (-z), x-hat cross (-z-hat) gives +y-hat, which is upward. The electron has negative charge, so the force reverses and points downward. The right-hand rule gives the direction for a positive charge and must be flipped for an electron.\n\n(A) is wrong because to the right lies along the velocity, and the magnetic force must be perpendicular to the velocity, so it can never point along the motion.\n(B) is wrong because left is antiparallel to the velocity of the electron and so cannot be perpendicular to it as the magnetic force must be.\n(D) is wrong because upward is the result for a positive charge, and it forgets the reversal required by the electron's negative sign."
     },
     {
       "id": "12-13",
@@ -2948,7 +2948,7 @@ const QUESTIONS = {
         "r₁/9"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) r₁/3. From r = mv/(qB) with m, v and q fixed, r is proportional to 1/B. Tripling B to 3B₁ gives r = r₁/3.\n\n(B) 3r₁ is wrong because it treats r as directly proportional to B.\n(C) 9r₁ is wrong because it both inverts the dependence and squares the factor.\n(D) r₁/9 is wrong because it squares the factor 3, but r depends on 1/B to the first power, not 1/B²."
+      "explanation": "Correct: (A) r<sub>1</sub>/3. A charged particle in a magnetic field moves in a circle because the magnetic force provides the centripetal force, so qvB = mv<sup>2</sup>/r, which gives r = mv/(qB). With mass, speed, and charge fixed, the radius is inversely proportional to the field strength. Tripling the field to 3B<sub>1</sub> therefore divides the radius by 3, giving r<sub>1</sub>/3. A stronger field bends the path more sharply.\n\n(B) is wrong because 3r<sub>1</sub> treats the radius as directly proportional to the field, but r = mv/(qB) puts B in the denominator.\n(C) is wrong because 9r<sub>1</sub> would require the radius to grow with the square of the field factor, and the true dependence is inverse and first-power, giving r<sub>1</sub>/3.\n(D) is wrong because r<sub>1</sub>/9 would need an inverse-square dependence on B, whereas the radius depends on 1/B to the first power."
     },
     {
       "id": "12-26",
@@ -2975,7 +2975,7 @@ const QUESTIONS = {
         "6.0 N"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.60 N. For a wire perpendicular to the field, F = BIL sin 90° = BIL = (0.30 T)(5.0 A)(0.40 m) = 0.60 N.\n\n(B) 1.5 N is wrong because it is 2.5 times too large; it matches using L = 1.0 m, so the 0.40 m length was misread or dropped.\n(C) 0.15 N is wrong because it is one quarter of the correct value, which would come from an arithmetic slip such as dividing the product by 4 or misplacing a decimal.\n(D) 6.0 N is wrong because it is 10 times too large, a decimal-place slip in one of the three factors."
+      "explanation": "Correct: (A) 0.60 N. The magnetic force on a straight wire carrying current I and length L in a field B is F = BIL sin(theta), where theta is the angle between the wire and the field. For a wire perpendicular to the field, sin 90 degrees = 1, so F = BIL = (0.30 T)(5.0 A)(0.40 m) = 0.60 N. The stem gives the current, length, and field and says the wire is perpendicular, so no angle factor is needed.\n\n(B) is wrong because 1.5 N is what results from using a length of 1.0 m instead of 0.40 m, and the given length 0.40 m produces 0.60 N.\n(C) is wrong because 0.15 N is what a length of 0.10 m would give, but the stem states 0.40 m, and the correct product is 0.60 N.\n(D) is wrong because 6.0 N is ten times the correct value, which the product 0.30 x 5.0 x 0.40 does not support."
     },
     {
       "id": "12-28",
@@ -3014,7 +3014,7 @@ const QUESTIONS = {
         "It is cut to one-fourth."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It is cut in half. For a long straight wire B = μ₀I/(2πr), so B is proportional to 1/r. Doubling r gives B → B/2.\n\n(A) is wrong because it says B grows with distance, but the field weakens as you move away.\n(C) is wrong because it both inverts the trend and uses a squared law.\n(D) is wrong because it applies an inverse-square (1/r²) law like a point charge's electric field; a long line source falls off only as 1/r."
+      "explanation": "Correct: (B) It is cut in half. For a long straight wire the magnetic field at distance r is B = μ<sub>0</sub>I/(2πr), so B is inversely proportional to the distance r with current fixed. Doubling r therefore gives B' = μ<sub>0</sub>I/(2π(2r)) = B/2. This 1/r dependence arises because the source is a long line and not a point.\n\n(A) is wrong because it says the field grows with distance, but the field weakens as you move away from the wire since r is in the denominator.\n(C) is wrong because quadrupling the field would require a distance one-half as large, and moving farther away cannot strengthen the field.\n(D) is wrong because one-fourth would follow an inverse-square (1/r<sup>2</sup>) law like the electric field of a point charge, but a long line source falls off only as 1/r, giving one-half."
     },
     {
       "id": "12-31",
@@ -3027,7 +3027,7 @@ const QUESTIONS = {
         "It increases ninefold."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It triples. B = μ₀I/(2πr) is directly proportional to I, so with r fixed, tripling I triples B.\n\n(A) is wrong because it makes B inversely related to current, but more current produces a stronger field.\n(B) is wrong because current is the source of the field and the value of I appears in the formula.\n(D) is wrong because it squares the factor, as if B depended on I²; the dependence is linear."
+      "explanation": "Correct: (C) It triples. For a long straight wire the field is B = μ<sub>0</sub>I/(2πr), which is directly proportional to the current I when the distance r is fixed. Tripling the current therefore multiplies the field by 3. The current is the source of the magnetic field, so more current always means a stronger field at the same point.\n\n(A) is wrong because it makes the field inversely related to current, but more current produces a stronger field and so the field cannot fall to one-third.\n(B) is wrong because current is the source of the field and I appears in the numerator of the formula, so changing I changes B.\n(D) is wrong because ninefold would need B to depend on I squared, but the dependence is linear, so tripling I gives a factor of 3 and not 9."
     },
     {
       "id": "12-32",
@@ -3136,7 +3136,7 @@ const QUESTIONS = {
     {
       "id": "12-40",
       "topic": "12.3 Current-Carrying Wires",
-      "stem": "Compare how quickly the magnetic field weakens with distance for (a) a single point charge's electric field, versus (b) a long, straight current-carrying wire's magnetic field.",
+      "stem": "Compare how quickly the field weakens with distance for (a) a single point charge's electric field, versus (b) a long, straight current-carrying wire's magnetic field.",
       "choices": [
         "The point charge's field falls off as 1/r; the wire's field falls off as 1/r².",
         "1/r² for the point charge (inverse-square); the wire's is gentler, at 1/r.",
@@ -3144,7 +3144,7 @@ const QUESTIONS = {
         "Both fall off as 1/r."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 1/r² for the point charge (inverse-square); the wire's is gentler, at 1/r. A point charge's electric field is E = kq/r², so doubling r cuts E to one-fourth. A long straight wire has B = μ₀I/(2πr), so doubling r only halves B, because the source is a line rather than a point.\n\n(A) is wrong because it swaps the two laws.\n(C) is wrong because it applies the inverse-square law to the wire as well, although the wire's field falls off as 1/r.\n(D) is wrong because it applies the 1/r law to the point charge, but Coulomb's law is inverse-square."
+      "explanation": "Correct: (B) 1/r<sup>2</sup> for the point charge (inverse-square); the wire's is gentler, at 1/r. A point charge's electric field is E = kq/r<sup>2</sup>, so doubling r cuts E to one-fourth. A long straight wire has B = μ<sub>0</sub>I/(2πr), so doubling r only halves B, because the source is a line rather than a point and the field spreads over a circle and not a sphere. The comparison asks which falls off faster, and the point charge does.\n\n(A) is wrong because it swaps the two laws, giving the point charge a 1/r dependence and the wire a 1/r<sup>2</sup> dependence.\n(C) is wrong because it applies the inverse-square law to the wire as well, although the wire's field falls off as 1/r.\n(D) is wrong because it applies the 1/r law to the point charge, but Coulomb's law is inverse-square."
     },
     {
       "id": "12-41",
@@ -3224,7 +3224,7 @@ const QUESTIONS = {
         "0.013 Wb"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.0075 Wb. Φ = BA cosθ = (0.50 T)(0.030 m²)(cos 60°) = 0.015 × 0.50 = 0.0075 Wb, half the maximum flux.\n\n(B) 0.015 Wb is wrong because it is the maximum BA with no angle factor applied, as if θ were 0°.\n(C) 0.026 Wb is wrong because it exceeds the maximum possible BA = 0.015 Wb, so it cannot be a valid flux; it is a doubling of the sin 60° mix-up.\n(D) 0.013 Wb is wrong because it uses sin 60° ≈ 0.866 in place of cos 60° = 0.5."
+      "explanation": "Correct: (A) 0.0075 Wb. Magnetic flux through a loop is Φ = BA cos(theta), where theta is the angle between the field and the loop's normal. Here Φ = (0.50 T)(0.030 m<sup>2</sup>)(cos 60 degrees) = 0.015 x 0.50 = 0.0075 Wb, which is half the maximum flux. The stem specifies the angle with the normal, so the cosine applies directly.\n\n(B) is wrong because 0.015 Wb is the maximum value BA with no angle factor applied, which would be the flux at theta = 0 degrees.\n(C) is wrong because 0.026 Wb exceeds the maximum possible flux BA = 0.015 Wb, so it cannot be a valid flux for any angle.\n(D) is wrong because 0.013 Wb comes from multiplying by sin 60 degrees, about 0.866, instead of cos 60 degrees = 0.5, which gives 0.0075 Wb."
     },
     {
       "id": "12-47",
@@ -3380,7 +3380,7 @@ const QUESTIONS = {
         "0.48 V"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 1.9 V. Motional EMF for a rod moving perpendicular to the field is EMF = BLv = (0.40 T)(0.60 m)(8.0 m/s) = 1.92 V ≈ 1.9 V.\n\n(A) 4.8 V is wrong because it is 2.5 times too large, as if B were 1.0 T (the product 1.0 × 0.60 × 8.0).\n(C) 19 V is wrong because it is 10 times too large, a decimal-place slip.\n(D) 0.48 V is wrong because it is four times too small, as if v were 2.0 m/s instead of 8.0 m/s."
+      "explanation": "Correct: (B) 1.9 V. The motional EMF across a rod moving perpendicular to a magnetic field is EMF = BLv, where L is the rod length and v is its speed. Here EMF = (0.40 T)(0.60 m)(8.0 m/s) = 1.92 V, which rounds to 1.9 V. The stem says the motion is perpendicular to the field, so the full product applies with no angle factor.\n\n(A) is wrong because 4.8 V is what a field of 1.0 T would give, but the stem gives 0.40 T and the product is 1.92 V.\n(C) is wrong because 19 V is ten times the value the product BLv = 1.92 V gives.\n(D) is wrong because 0.48 V is what a speed of 2.0 m/s would give, whereas the stem states 8.0 m/s, which produces 1.9 V."
     },
     {
       "id": "12-59",
@@ -3393,7 +3393,7 @@ const QUESTIONS = {
         "BLv/2"
       ],
       "correct": 0,
-      "explanation": "Zero. Motional EMF assumes velocity is perpendicular to the field. If velocity is parallel to B instead, the force on individual charges within the rod (F = qv × B) is zero, since v and B point the same way — with no force pushing charge toward either end, no EMF builds up. Choice C assumes the standard perpendicular formula applies regardless of orientation, ignoring that BLv is derived specifically for the perpendicular case. Choice D (BLv/2) invents a factor as if the angle were 30° (sin30° = 0.5) rather than the 0° parallel case actually described. Choice B wrongly suggests more information is needed, when the parallel geometry alone is already sufficient to determine the EMF is zero."
+      "explanation": "Correct: (A) Zero. Motional EMF arises because the magnetic force F = qv x B pushes charges along the rod, separating them until an electric field balances the force. The standard result BLv assumes the velocity is perpendicular to the field. If the velocity is parallel to B, then v x B = 0, so the force on the charges within the rod is zero, no charge is pushed toward either end, and no EMF builds up. The stem's word parallel gives the answer directly.\n\n(B) is wrong because the parallel geometry already determines the answer: the cross product vanishes, so no additional information is needed.\n(C) is wrong because BLv is derived for the perpendicular case, and applying it to parallel motion ignores the angle between velocity and field.\n(D) is wrong because BLv/2 invents a factor that would correspond to an angle of 30 degrees, and the parallel case has an angle of 0 degrees, giving zero."
     },
     {
       "id": "12-60",
@@ -3406,7 +3406,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) It doubles. Motional EMF is EMF = BLv, directly proportional to v when B and L are fixed. Doubling v doubles the EMF.\n\n(A) is wrong because it treats EMF as inversely related to speed.\n(B) is wrong because speed is a direct factor in the formula.\n(D) is wrong because it assumes EMF ∝ v², but the dependence is linear."
+      "explanation": "Correct: (C) It doubles. Motional EMF for a rod moving perpendicular to a field is EMF = BLv, which is directly proportional to the speed v when B and L are fixed. Doubling v therefore doubles the EMF, since each charge in the rod experiences a magnetic force proportional to speed. The stem keeps length and field unchanged, so speed is the only variable.\n\n(A) is wrong because halving the EMF would require the EMF to be inversely related to speed, but speed appears in the numerator of the formula.\n(B) is wrong because speed is a direct factor in BLv, so changing it must change the EMF.\n(D) is wrong because quadrupling would require the EMF to depend on v squared, but the dependence is linear, so doubling v gives a factor of 2 and not 4."
     },
     {
       "id": "12-61",
@@ -3446,7 +3446,7 @@ const QUESTIONS = {
         "0.012 Wb"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.024 Wb. The area is A = (0.15 m)(0.20 m) = 0.030 m². With B perpendicular to the loop, θ = 0° and Φ = BA = (0.80 T)(0.030 m²) = 0.024 Wb.\n\n(B) 0.24 Wb is wrong because it is 10 times too large, a misplaced decimal.\n(C) 0.048 Wb is wrong because it doubles the correct answer.\n(D) 0.012 Wb is wrong because it halves the correct answer, as if a factor of 1/2 (such as cos 60°) were applied."
+      "explanation": "Correct: (A) 0.024 Wb. The flux through a loop is Φ = BA cos(theta). The area is A = (0.15 m)(0.20 m) = 0.030 m<sup>2</sup>. Because the field is perpendicular to the loop, it is parallel to the normal, so theta = 0 degrees and cos(theta) = 1. Then Φ = BA = (0.80 T)(0.030 m<sup>2</sup>) = 0.024 Wb.\n\n(B) is wrong because 0.24 Wb is ten times too large, and it does not follow from the product of 0.80 T and 0.030 m<sup>2</sup>.\n(C) is wrong because 0.048 Wb is double the correct answer, and it would need the area to be 0.060 m<sup>2</sup>, which does not match the given dimensions.\n(D) is wrong because 0.012 Wb is half the correct answer, as if a factor of cos 60 degrees were applied, but the field is perpendicular to the loop, so there is no angle reduction."
     },
     {
       "id": "12-64",
@@ -3472,7 +3472,7 @@ const QUESTIONS = {
         "0.40 A"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.40 A. An induced EMF drives current like a battery, so Ohm's law applies: I = EMF/R = 2.0 V/5.0 Ω = 0.40 A.\n\n(A) 2.5 A is wrong because it inverts the ratio, computing R/EMF.\n(B) 10 A is wrong because it multiplies EMF by R instead of dividing.\n(C) 0.10 A is wrong because it divides by a resistance four times too large (20 Ω rather than 5.0 Ω)."
+      "explanation": "Correct: (D) 0.40 A. An induced EMF drives current in a closed loop just like a battery of that voltage, so Ohm's law applies: I = EMF/R = 2.0 V / 5.0 Ω = 0.40 A. The stem gives the loop resistance and the induced EMF, so the current follows directly from their ratio.\n\n(A) is wrong because 2.5 A is 5.0/2.0, which inverts the ratio and computes R divided by EMF, but the correct method divides the EMF by R and gives 0.40 A.\n(B) is wrong because 10 A is 2.0 x 5.0, which multiplies EMF by R instead of dividing, and the correct division gives 0.40 A.\n(C) is wrong because 0.10 A is 2.0/20, which uses a resistance four times larger than the 5.0 Ω given, and the correct current is 0.40 A."
     },
     {
       "id": "12-66",
@@ -4416,7 +4416,7 @@ const QUESTIONS = {
         "A and B travel at equal speed."
       ],
       "correct": 3,
-      "explanation": "Speed is set by the medium's properties, not frequency, so A and B travel equally fast; their wavelengths differ instead to account for the frequency difference. The 'A twice as fast' and 'B twice as fast' options both wrongly assume frequency changes speed. 'Cannot be determined' is wrong because speed here needs no wavelength information at all — it's fixed by the shared medium alone."
+      "explanation": "Correct: (D) A and B travel at equal speed. The speed of a wave is set by the properties of the medium, such as tension and density for a string or temperature for sound in air, and not by the source frequency. Since both waves travel through the same medium, they have the same speed. From v = f times wavelength, if A has twice the frequency of B at the same speed, its wavelength must be half as large.\n\n(A) is wrong because it says B is twice as fast as A, which wrongly assumes that a lower frequency raises the speed, when the wavelength simply adjusts.\n(B) is wrong because no wavelength information is needed, as the speed is fixed by the shared medium alone.\n(C) is wrong because it says A is twice as fast, which wrongly assumes that a higher frequency increases the speed, when it only shortens the wavelength."
     },
     {
       "id": "14-7",
@@ -4624,7 +4624,7 @@ const QUESTIONS = {
         "The electric and magnetic fields are parallel to each other but perpendicular to the direction of travel."
       ],
       "correct": 2,
-      "explanation": "The oscillating E field, oscillating B field, and propagation direction are all at right angles to one another. 'All point the same direction' ignores that E and B are themselves transverse, perpendicular oscillations. 'E and B parallel to each other' incorrectly pairs them up, when E and B are perpendicular to each other, not aligned. 'E perpendicular, B parallel to travel' wrongly makes B a longitudinal component when it's transverse just like E."
+      "explanation": "Correct: (C) All three are mutually perpendicular to each other. An electromagnetic wave is transverse: the oscillating electric field, the oscillating magnetic field, and the direction of propagation are at right angles to one another. If E points along y and B along z, the wave travels along the direction of E cross B, which is x. This orthogonal arrangement follows from Maxwell's equations, in which a changing E field generates B and a changing B field generates E.\n\n(A) is wrong because it makes the magnetic field parallel to the direction of travel, but B is a transverse oscillation just as E is.\n(B) is wrong because it says all three point the same way, ignoring that E and B are themselves perpendicular to each other and to the travel direction.\n(D) is wrong because it pairs E and B as parallel, when they are perpendicular to each other, not aligned."
     },
     {
       "id": "14-23",
@@ -5253,7 +5253,7 @@ const QUESTIONS = {
         "4.0 eV"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.0 eV. With hc = 1240 eV·nm, a photon's energy is E = hc/λ. For λ = 620 nm, E = 1240/620 = 2.0 eV.\n\n(B) 8.0 eV is wrong because it would need a wavelength of 155 nm; 1240/620 is only 2.0.\n(C) 0.5 eV is wrong because it inverts the ratio, computing 620/1240.\n(D) 4.0 eV is wrong because it is double the correct value, as if the wavelength were 310 nm."
+      "explanation": "Correct: (A) 2.0 eV. A photon's energy is E = hc/wavelength. With hc = 1240 eV nm and a wavelength of 620 nm, E = 1240/620 = 2.0 eV. A longer wavelength means a lower energy, and 620 nm is orange-red visible light, which has a photon energy near 2 eV. The stem gives hc in convenient units so the quotient gives eV directly.\n\n(B) is wrong because 8.0 eV would need a wavelength of 155 nm, while 1240 divided by 620 gives only 2.0 eV.\n(C) is wrong because 0.5 eV is 620/1240, which inverts the ratio, but the energy is inversely proportional to wavelength and the correct quotient is 2.0 eV.\n(D) is wrong because 4.0 eV would need a wavelength of 310 nm, double the correct energy, whereas 620 nm gives 2.0 eV."
     },
     {
       "id": "15-3",
@@ -5357,7 +5357,7 @@ const QUESTIONS = {
         "1.0 eV"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 6.0 eV. The photon energy equals the level difference, E = E<sub>2</sub> − E<sub>1</sub> = (−2.0) − (−8.0) = 6.0 eV.\n\n(B) 7.0 eV is wrong because it is the n=3 to n=1 gap, a different transition.\n(C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) rather than subtracting the two levels in question.\n(D) 1.0 eV is wrong because it is the n=3 to n=2 gap (−1.0 − (−2.0)), not the n=2 to n=1 gap."
+      "explanation": "Correct: (A) 6.0 eV. When an atom drops from a higher level to a lower one, it emits a photon whose energy equals the difference between the two levels. For the n = 2 to n = 1 transition, E = E<sub>2</sub> - E<sub>1</sub> = (-2.0 eV) - (-8.0 eV) = 6.0 eV. The stem gives the three level energies, so only the two levels of this transition are used.\n\n(B) is wrong because 7.0 eV is the n = 3 to n = 1 gap, (-1.0) - (-8.0), which is a different transition from the one asked.\n(C) is wrong because 9.0 eV adds the magnitudes of the n = 1 and n = 3 levels, 8.0 + 1.0, instead of subtracting the two levels in this transition, which gives 6.0 eV.\n(D) is wrong because 1.0 eV is the n = 3 to n = 2 gap, (-1.0) - (-2.0), and not the n = 2 to n = 1 gap."
     },
     {
       "id": "15-11",
@@ -5880,7 +5880,7 @@ const QUESTIONS = {
         "19 MeV"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV.\n\n(A) 190 MeV is wrong because it is ten times too large, a decimal slip.\n(B) 0.019 MeV is wrong because it is 19 with the decimal shifted three places.\n(C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
+      "explanation": "Correct: (D) 19 MeV. The energy released in a nuclear process equals the mass defect times c<sup>2</sup>, and with masses in atomic mass units the conversion factor is 931 MeV per u. So E = (0.020 u)(931 MeV/u) = 18.62 MeV, which rounds to about 19 MeV. The stem gives the conversion factor in MeV/c<sup>2</sup>, so multiplying directly produces MeV.\n\n(A) is wrong because 190 MeV is ten times larger than the product 0.020 x 931 = 18.6 MeV.\n(B) is wrong because 0.019 MeV is 19 MeV divided by one thousand, and it does not come from multiplying 0.020 by 931.\n(C) is wrong because 1.9 MeV is one tenth of the correct value, since 0.020 x 931 is 18.6 MeV and not 1.86 MeV."
     },
     {
       "id": "15-51",
