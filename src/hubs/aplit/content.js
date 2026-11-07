@@ -1856,13 +1856,13 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "The line 'The third stair still creaks' relies primarily on which sound device?",
         "choices": [
-          "Consonance — the repeated 'st' and 'k' sounds across 'third,' 'stair,' 'creaks.'",
+          "Consonance — the repeated 'st' and 'k' sounds across 'stair,' 'still,' 'creaks.'",
           "Onomatopoeia, since every word in the line imitates the sound of a stair creaking.",
           "End rhyme, since 'stair' and 'creaks' rhyme with each other.",
           "A strict metrical pattern of alternating stressed and unstressed syllables."
         ],
         "correct": 0,
-        "explanation": "The line's repeated consonant sounds — the 'st' cluster in 'third,' 'stair,' and 'still,' echoed by the hard 'c/k' in 'creaks' — are consonance reinforced by alliteration, a sound device this free-verse poem uses deliberately even without a regular meter or rhyme scheme, consistent with this unit's Section 2.3 point that free verse still involves deliberate sound craft. (C) is wrong because 'stair' and 'creaks' don't actually rhyme. (B) overstates onomatopoeia; only 'creaks' arguably imitates its sound, not the whole line. (D) is inaccurate since the poem, like the rest of this unit's set, is written in free verse without a countable metrical pattern."
+        "explanation": "The line's repeated consonant sounds — the 'st' cluster in 'stair' and 'still,' echoed by the hard 'c/k' in 'creaks' — are consonance reinforced by alliteration, a sound device this free-verse poem uses deliberately even without a regular meter or rhyme scheme, consistent with this unit's Section 2.3 point that free verse still involves deliberate sound craft. (C) is wrong because 'stair' and 'creaks' don't actually rhyme. (B) overstates onomatopoeia; only 'creaks' arguably imitates its sound, not the whole line. (D) is inaccurate since the poem, like the rest of this unit's set, is written in free verse without a countable metrical pattern."
       }
     ]
   },
@@ -2958,7 +2958,7 @@ const QUESTIONS = {
           "The motif of checking the doors, moving from unconscious ritual, to anxious repetition after a nearby break-in, to relaxed routine."
         ],
         "correct": 3,
-        "explanation": "Correct: (D) the motif of checking the doors, moving from unconscious ritual to anxious repetition after a nearby break-in to relaxed routine. A motif is a repeated element that develops across a work. In the beginning Marguerite checks the doors \"in that order\"; in the middle she checks \"four times instead of the usual once\"; at the end she checks \"in whatever order her hands happen to move,\" a \"wordless comfort.\" The same act appears at each stage with changing meaning.\n\n(A) is wrong because a motif is clearly present in the repeated door checking, since the repeated door checking is plainly a motif that appears and changes across all three excerpts.\n(B) is wrong because the passage mentions one break-in but tracks no crime statistics and follows Marguerite's private ritual.\n(C) is wrong because the grandmother appears only in the first excerpt and is not referenced at all three stages."
+        "explanation": "Correct: (D) the motif of checking the doors, moving from unconscious ritual to anxious repetition after a nearby break-in to relaxed routine. A motif is a repeated element that develops across a work. In the beginning Marguerite checks the doors \"in that order\"; in the middle she checks \"four times instead of the usual once\"; at the end she checks in \"whatever order her hands happen to move,\" a \"wordless comfort.\" The same act appears at each stage with changing meaning.\n\n(A) is wrong because a motif is clearly present in the repeated door checking, since the repeated door checking is plainly a motif that appears and changes across all three excerpts.\n(B) is wrong because the passage mentions one break-in but tracks no crime statistics and follows Marguerite's private ritual.\n(C) is wrong because the grandmother appears only in the first excerpt and is not referenced at all three stages."
       },
       {
         "id": "3-2",
@@ -3244,7 +3244,7 @@ const QUESTIONS = {
           "Motif, since the passage's entire structure depends on tracking the door-checking ritual's development across three separate stages."
         ],
         "correct": 3,
-        "explanation": "Correct: (D) motif, since the passage's entire structure depends on tracking the door-checking ritual's development across three separate stages. A motif is a repeated element whose meaning develops. The beginning shows the three-door check \"in that order,\" the middle shows \"four times instead of the usual once,\" and the ending shows her checking \"in whatever order her hands happen to move.\" The passage is labeled by stage because the repeated act changes.\n\n(A) is wrong because the passage has no gap between Marguerite's self-understanding and the text's view; she is not shown as self-deluded.\n(B) is wrong because no outcome contradicts expectation; the break-in leads to anxiety, which is expected.\n(C) is wrong because the passage stays in her home and contrasts times, not two different settings."
+        "explanation": "Correct: (D) motif, since the passage's entire structure depends on tracking the door-checking ritual's development across three separate stages. A motif is a repeated element whose meaning develops. The beginning shows the three-door check \"in that order,\" the middle shows \"four times instead of the usual once,\" and the ending shows her checking in \"whatever order her hands happen to move.\" The passage is labeled by stage because the repeated act changes.\n\n(A) is wrong because the passage has no gap between Marguerite's self-understanding and the text's view; she is not shown as self-deluded.\n(B) is wrong because no outcome contradicts expectation; the break-in leads to anxiety, which is expected.\n(C) is wrong because the passage stays in her home and contrasts times, not two different settings."
       },
       {
         "id": "4-7",
@@ -3309,7 +3309,7 @@ const QUESTIONS = {
           "The title has no discernible relationship to anything the passage actually describes or develops, and could be replaced by any other word."
         ],
         "correct": 0,
-        "explanation": "Correct: (A) 'Inventory' evokes careful, itemized counting that fits the passage's checking, while suggesting psychological stocktaking. A title can connect to a motif and add a figurative layer. Marguerite checks \"front, back, basement, in that order,\" and later checks four times, so the ritual resembles taking inventory of her house's locks. By the end she has \"stopped counting,\" and the repeated checking also suggests taking stock of her sense of safety.\n\n(B) is wrong because the door-checking behavior is itemized and counted, which matches the idea of an inventory instead of contradicting it.\n(C) is wrong because the passage is set in Marguerite's home and has no retail business.\n(D) is wrong because the title relates closely to the counting and checking in the passage, and another word would lose that resonance."
+        "explanation": "Correct: (A) 'Inventory' evokes careful, itemized counting that fits the passage's checking, while suggesting psychological stocktaking. A title can connect to a motif and add a figurative layer. Marguerite checks the front, back, and basement doors \"in that order,\" and later checks four times, so the ritual resembles taking inventory of her house's locks. By the end she has \"stopped counting,\" and the repeated checking also suggests taking stock of her sense of safety.\n\n(B) is wrong because the door-checking behavior is itemized and counted, which matches the idea of an inventory instead of contradicting it.\n(C) is wrong because the passage is set in Marguerite's home and has no retail business.\n(D) is wrong because the title relates closely to the counting and checking in the passage, and another word would lose that resonance."
       },
       {
         "id": "4-8",
@@ -4023,7 +4023,7 @@ const QUESTIONS = {
           "The poem's meaning is completely unrelated to the Icarus myth despite its title.",
           "The poem requires graduate-level classical studies training to understand at all.",
           "No, the poem provides no context at all and would be completely incomprehensible without prior knowledge.",
-          "Largely yes -- the poem provides enough context (wax melting, flying too close to the sun."
+          "Largely yes -- the poem provides enough context (wax melting, flying too close to the sun) to follow its argument."
         ],
         "correct": 3,
         "explanation": "The poem restates the key facts of the myth (wax melting, flying too close to the sun) and its traditional moral directly in its own lines, giving an unfamiliar reader enough to follow the argument -- consistent with Section 5.5's point that this exam doesn't require specialized outside expertise. Option A is contradicted by the title and content's clear dependence on the myth. Option B vastly overstates the background knowledge actually required. Option C ignores the substantial context the poem itself provides."
@@ -5941,7 +5941,7 @@ const QUESTIONS = {
           "That the narrator ultimately rejected the lesson the aunt was trying to offer."
         ],
         "correct": 1,
-        "explanation": "B is correct: the aunt doesn't simply tell the narrator \"safety isn't guaranteed\" — she tells a specific, embodied story that carries that truth, suggesting narrative itself can be a more effective vehicle for certain kinds of wisdom than direct instruction. C overstates the case and is contradicted by the passage's own emphasis on purposeful shaping (\"the true enough part\" logic from the unit's worked example applies here too); the story is filtered by the aunt's present purpose, not delivered as raw, unfiltered fact. A is the opposite of what the passage shows, which is a successful transmission. D has no support in the text; the narrator's closing reflection (\"I understand it a little better now\") shows the lesson landing, not being rejected."
+        "explanation": "B is correct: the aunt doesn't simply tell the narrator that \"leaving safely doesn't guarantee arriving safely\" — she tells a specific, embodied story that carries that truth, suggesting narrative itself can be a more effective vehicle for certain kinds of wisdom than direct instruction. C overstates the case and is contradicted by the passage's own emphasis on purposeful shaping (\"the true enough part\" logic from the unit's worked example applies here too); the story is filtered by the aunt's present purpose, not delivered as raw, unfiltered fact. A is the opposite of what the passage shows, which is a successful transmission. D has no support in the text; the narrator's closing reflection (\"I understand it a little better now\") shows the lesson landing, not being rejected."
       },
       {
         "id": "2-8",
@@ -6754,7 +6754,7 @@ const QUESTIONS = {
       {
         "id": "1-7",
         "passageId": "P1",
-        "stem": "What is the effect of this poem's enjambment across its stanza breaks, particularly between the second and third stanzas?",
+        "stem": "What is the effect of this poem's enjambment across its stanza breaks, particularly between the third and fourth stanzas?",
         "choices": [
           "This poem uses enjambment only within single stanzas, never crossing an actual stanza break at any point.",
           "The enjambment here works against the poem's established emotional content, creating an unintended discontinuity.",
@@ -6762,7 +6762,7 @@ const QUESTIONS = {
           "The continued grammatical flow across the stanza break mirrors the poem's own content about an ongoing, unresolved process."
         ],
         "correct": 3,
-        "explanation": "The sentence carries grammatically and thematically from the volta's complication into the further complication about explaining it to others, so the structural continuity across the stanza break mirrors an ongoing, still-developing difficulty rather than a single contained realization — connecting this unit's volta coverage to Unit 2's earlier enjambment material. Choice C is factually wrong; the second-to-third stanza transition specifically continues a sentence across the break. Choice A is too narrow — the poem's flow crosses stanza boundaries, not just line boundaries within a stanza. Choice B misreads the effect as accidental discontinuity when the continuity actively reinforces, rather than fights, the poem's content."
+        "explanation": "The sentence carries grammatically and thematically from the difficulty of explaining the exception to others (\"...the peace was never really peace at all —\") into the further complication (\"which isn't quite right either\"), so the structural continuity across the stanza break mirrors an ongoing, still-developing difficulty rather than a single contained realization — connecting this unit's volta coverage to Unit 2's earlier enjambment material. Choice C is factually wrong; the third-to-fourth stanza transition specifically continues a sentence across the break. Choice A is too narrow — the poem's flow crosses stanza boundaries, not just line boundaries within a stanza. Choice B misreads the effect as accidental discontinuity when the continuity actively reinforces, rather than fights, the poem's content."
       },
       {
         "id": "2-7",
@@ -7889,13 +7889,13 @@ const QUESTIONS = {
         "passageId": "P5",
         "stem": "Final application question: which of this unit's five techniques would be most useful for analyzing a hypothetical new play where the audience knows a character's spouse is planning to leave, information the character themselves doesn't yet have, sustained across the play's entire second act?",
         "choices": [
-          "Only some of this unit's five passages, in fact, actually require extended scale for their technique.",
-          "Extended scale, in fact, has no real bearing on any of the five techniques this unit covers.",
-          "Each passage shows a truth that specifically requires extended scale — accumulation, time, reflection.",
-          "The five passages mainly show that longer works are just longer short stories with no new capability."
+          "A deliberately ambiguous ending, since a marriage could in theory end without full resolution.",
+          "Layered unreliability, since a spouse could in theory offer multiple conflicting accounts.",
+          "Sustained dramatic irony, since the audience's knowledge of the spouse's plan colors every scene of the second act.",
+          "An evolving foil relationship, since spouses could in theory develop contrast over time."
         ],
         "correct": 2,
-        "explanation": "Each passage demonstrates a truth specifically requiring extended scale to reveal — accumulated dramatic irony, character evolution over years, a relationship's genuine uncertainty sustained past a single scene, distortion compounding across retellings, and understanding arriving only after extended reflection — collectively showing what becomes possible only when a text has enough space and time to develop. Choice A undersells the pattern, since all five passages specifically hinge on extended scale, not just some. Choice B directly contradicts the unifying principle the question asks about. Choice D denies the genuinely different capabilities (accumulation, compounding, delayed recognition) the passages actually demonstrate."
+        "explanation": "Correct: (C) Sustained dramatic irony, since the audience's knowledge of the spouse's plan colors every scene of the second act. Dramatic irony is a gap between what the audience knows and what a character knows. The stem gives both halves directly: the audience 'knows a character's spouse is planning to leave,' and this is 'information the character themselves doesn't yet have.' The clue word 'sustained' matters too, because the gap lasts across 'the play's entire second act,' so every ordinary conversation between the couple carries a double meaning.\n\n(A) is wrong because an ambiguous ending concerns an unresolved conclusion, while this effect runs through the middle of the play regardless of how it ends.\n(B) is wrong because layered unreliability needs several imperfect tellers, and this scenario has a single layer in which the audience simply knows a fact.\n(D) is wrong because a foil relationship needs a contrast between two characters that illuminates them, and the scenario describes a gap in knowledge, not a contrast."
       },
       {
         "id": "1-11",
@@ -7972,8 +7972,8 @@ const QUESTIONS = {
           "An evolving foil relationship, since a minor character could in theory develop contrast with another.",
           "Sustained dramatic irony, since reader knowledge here colors earlier scenes involving that character."
         ],
-        "correct": 0,
-        "explanation": "Sustained dramatic irony is the best fit here: a specific piece of reader knowledge coloring the experience of earlier or surrounding scenes involving a particular character is precisely Section 9.1's pattern, regardless of whether the specific knowledge concerns betrayal (as in Passage 1) or a character's later importance. Choice A misapplies ambiguous-ending logic to a mid-work knowledge effect that has nothing to do with an unresolved conclusion. Choice B stretches 'multiple accounts' onto a scenario that describes only one narrative layer, not compounding retellings. Choice C reaches for a foil-relationship label where no second contrasting character or evolving contrast is actually described."
+        "correct": 3,
+        "explanation": "Correct: (D) Sustained dramatic irony, since reader knowledge here colors earlier scenes involving that character. Dramatic irony is a gap between what the reader knows and what the characters know, and in a long work that gap can last for many scenes, which is this unit's idea of sustained irony. The clue words are 'learn in Chapter Two' and 'coloring every earlier appearance': one piece of early knowledge changes how each scene with that character reads, whether it concerns a betrayal or a character's later importance.\n\n(A) is wrong because an ambiguous ending concerns an unresolved conclusion, while this effect happens in the middle of the book and has nothing to do with how it ends.\n(B) is wrong because layered unreliability needs several imperfect tellers, and the scenario describes one narrative layer with no compounding retellings.\n(C) is wrong because a foil relationship needs a second character whose contrast illuminates the first, and the scenario describes no such pair or changing contrast."
       },
       {
         "id": "2-12",
