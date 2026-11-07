@@ -2903,7 +2903,7 @@ const QUESTIONS = {
         "2.68 × 10⁻⁶ m"
       ],
       "correct": 0,
-      "explanation": "Correct: 497 nm. Solve E = hc / wavelength for the wavelength: wavelength = hc / E = (6.626 x 10<sup>-34</sup> J s)(3.00 x 10<sup>8</sup> m/s) / (4.00 x 10<sup>-19</sup> J) = 4.97 x 10<sup>-7</sup> m. Convert to nanometers (1 m = 10<sup>9</sup> nm): 4.97 x 10<sup>-7</sup> m = 497 nm. That is in the visible region (blue-green), which makes sense for a photon with an energy of about 4 x 10<sup>-19</sup> J.\n\n(B) is wrong because 1.66 x 10<sup>-27</sup> m is far too small to be a wavelength of visible-range energy; it comes from an algebra or unit error.\n(C) is wrong because 4.97 x 10<sup>-7</sup> nm has the correct digits but the wrong unit: that number is in meters, not nanometers.\n(D) is wrong because 2.68 x 10<sup>-6</sup> m results from inverting the formula (E divided by hc)."
+      "explanation": "Correct: 497 nm. Solve E = hc / wavelength for the wavelength: wavelength = hc / E = (6.626 x 10<sup>-34</sup> J s)(3.00 x 10<sup>8</sup> m/s) / (4.00 x 10<sup>-19</sup> J) = 4.97 x 10<sup>-7</sup> m. Convert to nanometers (1 m = 10<sup>9</sup> nm): 4.97 x 10<sup>-7</sup> m = 497 nm. That is in the visible region (blue-green), which makes sense for a photon with an energy of about 4 x 10<sup>-19</sup> J.\n\n(B) is wrong because 1.66 x 10<sup>-27</sup> m is far too small to be a wavelength of visible-range energy; it comes from an algebra or unit error.\n(C) is wrong because 4.97 x 10<sup>-7</sup> nm has the correct digits but the wrong unit: that number is in meters, not nanometers.\n(D) is wrong because 2.68 x 10<sup>-6</sup> m is far too long for a photon of this energy (it would be infrared). The wavelength is hc/E; flipping E and hc gives a wavenumber in m<sup>-1</sup>, not a wavelength."
     },
     {
       "id": "3-82",
@@ -3047,7 +3047,7 @@ const QUESTIONS = {
         "0.0600"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication. (A) and (B) are wrong because they are far from the product of the three given numbers: absorbance is found by multiplying epsilon, b, and c, and dividing instead of multiplying gives values that do not have the correct units."
+      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication. (A) and (B) are wrong because they are nowhere near the product 2.00 x 10<sup>3</sup> x 1.00 x 3.00 x 10<sup>-4</sup>; absorbance is found by multiplying epsilon, b, and c."
     },
     {
       "id": "3-93",
@@ -4305,7 +4305,7 @@ const QUESTIONS = {
         "10.0 s"
       ],
       "correct": 1,
-      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here. (D) and (A) are wrong because they are about ten times too small, which is the result of an arithmetic or decimal-place error in the product k[A]<sub>0</sub> = 0.0100."
+      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here. (D) is wrong because 10.0 s uses k[A]<sub>0</sub> = 0.100 instead of 0.0100. (A) is wrong because 6.93 s comes from 0.693/0.100, mixing the first-order formula with that same slip."
     },
     {
       "id": "5-25",
@@ -4880,7 +4880,7 @@ const QUESTIONS = {
         "≈ 2.08 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "Correct: ≈ 57.0 kJ/mol. Use the two-point Arrhenius equation: ln(k<sub>2</sub>/k<sub>1</sub>) = -(E<sub>a</sub>/R)(1/T<sub>2</sub> - 1/T<sub>1</sub>). Step 1: k<sub>2</sub>/k<sub>1</sub> = 3.60 x 10<sup>-3</sup> / 4.50 x 10<sup>-4</sup> = 8.00, and ln(8.00) = 2.079. Step 2: 1/330 - 1/300 = 0.0030303 - 0.0033333 = -3.03 x 10<sup>-4</sup> K<sup>-1</sup>. Step 3: solve for E<sub>a</sub> = (2.079)(8.314 J/mol K) / (3.03 x 10<sup>-4</sup>) = 5.70 x 10<sup>4</sup> J/mol = 57.0 kJ/mol. Be sure to use R in J (8.314) and convert to kJ at the end.\n\n(A) is wrong because it is ten times too large, a decimal slip in the conversion.\n(D) is wrong because 2.08 is just ln(k<sub>2</sub>/k<sub>1</sub>), not yet multiplied by R and divided by the temperature term.\n(B) is wrong because 8.29 is close to the value of R, which is not the activation energy."
+      "explanation": "Correct: ≈ 57.0 kJ/mol. Use the two-point Arrhenius equation: ln(k<sub>2</sub>/k<sub>1</sub>) = -(E<sub>a</sub>/R)(1/T<sub>2</sub> - 1/T<sub>1</sub>). Step 1: k<sub>2</sub>/k<sub>1</sub> = 3.60 x 10<sup>-3</sup> / 4.50 x 10<sup>-4</sup> = 8.00, and ln(8.00) = 2.079. Step 2: 1/330 - 1/300 = 0.0030303 - 0.0033333 = -3.03 x 10<sup>-4</sup> K<sup>-1</sup>. Step 3: solve for E<sub>a</sub> = (2.079)(8.314 J/mol K) / (3.03 x 10<sup>-4</sup>) = 5.70 x 10<sup>4</sup> J/mol = 57.0 kJ/mol. Be sure to use R in J (8.314) and convert to kJ at the end.\n\n(A) is wrong because 620 kJ/mol is about eleven times too large, as if a power of ten were lost in the 1/T difference or the J to kJ conversion.\n(D) is wrong because 2.08 is just ln(k<sub>2</sub>/k<sub>1</sub>), not yet multiplied by R and divided by the temperature term.\n(B) is wrong because 8.29 is close to the value of R, which is not the activation energy."
     },
     {
       "id": "5-75",
@@ -6580,7 +6580,7 @@ const QUESTIONS = {
         "7.48 × 10⁻⁵ M"
       ],
       "correct": 2,
-      "explanation": "Correct: 1.11 x 10<sup>-4</sup> M. Mg(OH)<sub>2</sub> ⇌ Mg<sup>2+</sup> + 2OH<sup>-</sup>. With molar solubility s: [Mg<sup>2+</sup>] = s and [OH<sup>-</sup>] = 2s. K<sub>sp</sub> = (s)(2s)<sup>2</sup> = 4s<sup>3</sup> = 5.6 x 10<sup>-12</sup>. Then s<sup>3</sup> = 1.4 x 10<sup>-12</sup>, and s = (1.4 x 10<sup>-12</sup>)<sup>1/3</sup> = 1.11 x 10<sup>-4</sup> M.\n\n(A) is wrong because it just repeats K<sub>sp</sub>.\n(B) is wrong because it treats the salt as 1:1 (s = √K<sub>sp</sub>).\n(D) is wrong because it comes from a mistake with the factor of 4 when taking the cube root."
+      "explanation": "Correct: 1.11 x 10<sup>-4</sup> M (about 1.1 x 10<sup>-4</sup> M). Mg(OH)<sub>2</sub> ⇌ Mg<sup>2+</sup> + 2OH<sup>-</sup>. With molar solubility s: [Mg<sup>2+</sup>] = s and [OH<sup>-</sup>] = 2s. K<sub>sp</sub> = (s)(2s)<sup>2</sup> = 4s<sup>3</sup> = 5.6 x 10<sup>-12</sup>. Then s<sup>3</sup> = 1.4 x 10<sup>-12</sup>, and s = (1.4 x 10<sup>-12</sup>)<sup>1/3</sup> = 1.11 x 10<sup>-4</sup> M.\n\n(A) is wrong because it just repeats K<sub>sp</sub>.\n(B) is wrong because it treats the salt as 1:1 (s = √K<sub>sp</sub>).\n(D) is wrong because it comes from an arithmetic slip in the cube root; 4s<sup>3</sup> = K<sub>sp</sub> gives s of about 1.1 x 10<sup>-4</sup> M."
     },
     {
       "id": "7-64",
@@ -7025,7 +7025,7 @@ const QUESTIONS = {
         "50.0 mL"
       ],
       "correct": 2,
-      "explanation": "Correct: 37.5 mL. At the equivalence point, moles of acid = moles of base for a 1:1 reaction (HCl + NaOH gives NaCl + H<sub>2</sub>O). Moles HCl = M x V = (0.150 mol/L)(0.0250 L) = 3.75 x 10<sup>-3</sup> mol. Moles NaOH needed = 3.75 x 10<sup>-3</sup> mol. Volume NaOH = moles/M = (3.75 x 10<sup>-3</sup> mol)/(0.100 mol/L) = 0.0375 L = 37.5 mL. Shortcut for 1:1: M<sub>a</sub>V<sub>a</sub> = M<sub>b</sub>V<sub>b</sub>. Since the NaOH is less concentrated than the HCl, you need MORE volume than 25.0 mL, which is a good check.\n\n(B) is wrong because equal volumes would work only if the concentrations were equal.\n(A) is wrong because it puts the concentrations upside down.\n(D) is wrong because it doubles the answer, as if the stoichiometry were 2:1."
+      "explanation": "Correct: 37.5 mL. At the equivalence point, moles of acid = moles of base for a 1:1 reaction (HCl + NaOH gives NaCl + H<sub>2</sub>O). Moles HCl = M x V = (0.150 mol/L)(0.0250 L) = 3.75 x 10<sup>-3</sup> mol. Moles NaOH needed = 3.75 x 10<sup>-3</sup> mol. Volume NaOH = moles/M = (3.75 x 10<sup>-3</sup> mol)/(0.100 mol/L) = 0.0375 L = 37.5 mL. Shortcut for 1:1: M<sub>a</sub>V<sub>a</sub> = M<sub>b</sub>V<sub>b</sub>. Since the NaOH is less concentrated than the HCl, you need MORE volume than 25.0 mL, which is a good check.\n\n(B) is wrong because equal volumes would work only if the concentrations were equal.\n(A) is wrong because it puts the concentrations upside down.\n(D) is wrong because 50.0 mL is just twice the acid volume (25.0 x 2), as if the stoichiometry were 2:1 and the concentrations did not matter."
     },
     {
       "id": "8-28",

@@ -1531,7 +1531,7 @@ const QUESTIONS = {
         "0.25 μF"
       ],
       "correct": 2,
-      "explanation": "Correct: 4.0 μF. Capacitance is defined as C = Q/ΔV, the charge stored per volt. C = (2.0 x 10<sup>-4</sup> C)/(50 V) = 4.0 x 10<sup>-6</sup> F = 4.0 μF.\n\n(A) is wrong because 25 μF is 50/2, which divides the voltage by the coefficient 2.0 and ignores the power of ten on the charge.\n(B) is wrong because 100 μF is 50 x 2.0, which multiplies the numbers instead of dividing the charge by the voltage.\n(D) is wrong because 0.25 μF comes from inverting the ratio to ΔV/Q instead of Q/ΔV."
+      "explanation": "Correct: 4.0 μF. Capacitance is defined as C = Q/ΔV, the charge stored per volt. C = (2.0 x 10<sup>-4</sup> C)/(50 V) = 4.0 x 10<sup>-6</sup> F = 4.0 μF.\n\n(A) is wrong because 25 μF is 50/2, which divides the voltage by the coefficient 2.0 and ignores the power of ten on the charge.\n(B) is wrong because 100 μF is 50 x 2.0, which multiplies the numbers instead of dividing the charge by the voltage.\n(D) is wrong because 0.25 μF is 1/4.0 with the units dropped; the correct ratio is Q/ΔV, which gives 4.0 μF."
     },
     {
       "id": "10-49",
@@ -1544,7 +1544,7 @@ const QUESTIONS = {
         "3.0 × 10⁻² J"
       ],
       "correct": 3,
-      "explanation": "Correct: 3.0 x 10<sup>-2</sup> J. The energy stored in a capacitor is U = ½CΔV<sup>2</sup>. U = ½(6.0 x 10<sup>-6</sup> F)(100 V)<sup>2</sup> = ½(6.0 x 10<sup>-6</sup>)(10<sup>4</sup>) = 3.0 x 10<sup>-2</sup> J = 0.030 J.\n\n(A) is wrong because 3.0 x 10<sup>-4</sup> J uses ½CΔV with ΔV not squared.\n(B) is wrong because 6.0 x 10<sup>-3</sup> J is not the result of any single correct step; dropping the ½ would give 6.0 x 10<sup>-2</sup> J, so this is a power-of-ten slip.\n(C) is wrong because 6.0 x 10<sup>-1</sup> J is ten times too large, from a decimal-place slip after squaring the voltage."
+      "explanation": "Correct: 3.0 x 10<sup>-2</sup> J. The energy stored in a capacitor is U = ½CΔV<sup>2</sup>. U = ½(6.0 x 10<sup>-6</sup> F)(100 V)<sup>2</sup> = ½(6.0 x 10<sup>-6</sup>)(10<sup>4</sup>) = 3.0 x 10<sup>-2</sup> J = 0.030 J.\n\n(A) is wrong because 3.0 x 10<sup>-4</sup> J uses ½CΔV with ΔV not squared.\n(B) is wrong because 6.0 x 10<sup>-3</sup> J is not the result of any single correct step; dropping the ½ would give 6.0 x 10<sup>-2</sup> J, so this is a power-of-ten slip.\n(C) is wrong because 6.0 x 10<sup>-1</sup> J is 20 times the correct value, a power-of-ten slip on top of dropping the ½."
     },
     {
       "id": "10-50",
@@ -1822,7 +1822,7 @@ const QUESTIONS = {
         "120 C"
       ],
       "correct": 2,
-      "explanation": "Q = 60 C. Convert first: 2.0 min = 120 s, then Q = It = (0.50)(120) = 60 C. 1.0 C comes from forgetting to convert minutes to seconds and using Q = It = (0.50)(2.0) directly. 30 C comes from using 60 s for the conversion but then dividing by 2 somewhere (or treating current as 0.25 A). 120 C comes from converting minutes to seconds correctly but then forgetting to multiply by the 0.50 A current, using only the time in seconds."
+      "explanation": "Q = 60 C. Convert first: 2.0 min = 120 s, then Q = It = (0.50)(120) = 60 C. 1.0 C comes from forgetting to convert minutes to seconds and using Q = It = (0.50)(2.0) directly. 30 C uses only 60 s, treating 2.0 minutes as 1.0 minute. 120 C comes from converting minutes to seconds correctly but then forgetting to multiply by the 0.50 A current, using only the time in seconds."
     },
     {
       "id": "11-5",
@@ -1979,7 +1979,7 @@ const QUESTIONS = {
         "4R"
       ],
       "correct": 1,
-      "explanation": "R/4, since area sits in the denominator of R = ρℓ/A, so quadrupling A cuts resistance to one-fourth. \"R/2\" undershoots by treating the area increase as if it only doubled the resistance's inverse, perhaps confusing area with diameter (which would need to double, not quadruple, to produce that result). \"2R\" and \"4R\" both invert the relationship entirely, treating an area increase as increasing resistance rather than decreasing it."
+      "explanation": "R/4, since area sits in the denominator of R = ρℓ/A, so quadrupling A cuts resistance to one-fourth. \"R/2\" is what you would get from only doubling the area, not quadrupling it. \"2R\" and \"4R\" both invert the relationship entirely, treating an area increase as increasing resistance rather than decreasing it."
     },
     {
       "id": "11-17",
@@ -2005,7 +2005,7 @@ const QUESTIONS = {
         "32 Ω"
       ],
       "correct": 1,
-      "explanation": "R = 20 Ω, from R = V/I = 8.0/0.40. 3.2 Ω comes from multiplying V and I together instead of dividing. 5.0 Ω comes from inverting the ratio (0.40/8.0 misapplied, or computing I/V and mislabeling units). 32 Ω comes from multiplying by 4 somewhere, e.g. treating 0.40 A as 0.25 A's reciprocal incorrectly."
+      "explanation": "R = 20 Ω, from R = V/I = 8.0/0.40. 3.2 Ω comes from multiplying V and I together instead of dividing. 5.0 Ω and 32 Ω do not come from any single correct step; inverting the ratio gives I/V = 0.050, not 5.0. The correct operation is V divided by I."
     },
     {
       "id": "11-19",
@@ -2110,7 +2110,7 @@ const QUESTIONS = {
         "24 W"
       ],
       "correct": 2,
-      "explanation": "P = 6.0 W, from P = IV = (0.50)(12). 1.5 W comes from an extra unintended division, perhaps mistaking 0.50 A for a value that needs to be squared and combined incorrectly. 12 W comes from ignoring the current and restating the voltage. 24 W comes from dividing V by I instead of multiplying (12/0.50)."
+      "explanation": "P = 6.0 W, from P = IV = (0.50)(12). 1.5 W does not follow from P = IV; it is four times too small. 12 W comes from ignoring the current and restating the voltage. 24 W comes from dividing V by I instead of multiplying (12/0.50)."
     },
     {
       "id": "11-27",
@@ -2123,7 +2123,7 @@ const QUESTIONS = {
         "40 W"
       ],
       "correct": 1,
-      "explanation": "P = 4.0 W, from P = V²/R = 400/100. 0.2 W comes from dividing R by V instead of V² by R. 2.0 W comes from forgetting to square the voltage, computing V/R instead (20/100 × 10 misapplied). 40 W comes from treating the formula as P = VR/something or mishandling the exponent, roughly doubling the correct value."
+      "explanation": "P = 4.0 W, from P = V²/R = 400/100. 0.2 W is V/R = 20/100, which is the current in amps, not a power. 2.0 W does not come from any correct step; it is a factor of 2 too small. 40 W is ten times too large (it is what V²/R would give if R were 10 Ω)."
     },
     {
       "id": "11-28",
@@ -2175,7 +2175,7 @@ const QUESTIONS = {
         "15 W"
       ],
       "correct": 1,
-      "explanation": "30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R_total drops to half of one bulb's rated power. \"15 W\" over-applies the reduction, perhaps squaring the halving effect instead of applying it once. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
+      "explanation": "30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R_total drops to half of one bulb's rated power. \"15 W\" is the power of each bulb alone (each has 60 V across 240 Ω), not the total for the pair. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
     },
     {
       "id": "11-32",
@@ -2214,7 +2214,7 @@ const QUESTIONS = {
         "6.7 Ω"
       ],
       "correct": 0,
-      "explanation": "20 Ω, since series resistances simply add: 4.0 + 6.0 + 10. 0.05 Ω comes from mistakenly applying the parallel reciprocal formula (1/R = 1/4.0 + 1/6.0 + 1/10) to a series circuit. 6.7 Ω comes from a similar parallel-formula mix-up but inverting only partway through. 240 Ω comes from multiplying the three resistances together instead of adding them."
+      "explanation": "20 Ω, since series resistances simply add: 4.0 + 6.0 + 10. 0.05 Ω is 1/20, the reciprocal of the series sum. 6.7 Ω is 20/3, the sum divided by the number of resistors (an average). Neither is a parallel result either (the parallel formula would give about 1.9 Ω, and it does not apply to a series circuit anyway). 240 Ω comes from multiplying the three resistances together instead of adding them."
     },
     {
       "id": "11-35",
@@ -2331,7 +2331,7 @@ const QUESTIONS = {
         "3.0 A"
       ],
       "correct": 3,
-      "explanation": "3.0 A: each parallel branch has the full 24 V across it, so I = V/R = 24/8.0 = 3.0 A directly. \"1.0 A\" comes from mistakenly using the 24 Ω resistor's value in the denominator (24/24) instead of the 8.0 Ω one being asked about. \"4.0 A\" comes from first computing the equivalent resistance and then dividing incorrectly, or applying total current formulas where a single-branch calculation was needed. \"6.0 A\" comes from computing the total current supplied by the battery (using R_p = 6.0 Ω, 24/6.0 = 4.0 A misapplied) rather than the current through just the 8.0 Ω branch."
+      "explanation": "3.0 A: each parallel branch has the full 24 V across it, so I = V/R = 24/8.0 = 3.0 A directly. \"1.0 A\" comes from using the 24 Ω resistor's value in the denominator (24/24) instead of the 8.0 Ω one being asked about. \"4.0 A\" is the total battery current (24 V / 6.0 Ω equivalent resistance), not the current in the 8.0 Ω branch. \"6.0 A\" is just the equivalent resistance, 6.0 Ω, reported as if it were a current."
     },
     {
       "id": "11-44",
@@ -2423,7 +2423,7 @@ const QUESTIONS = {
         "0.5 A"
       ],
       "correct": 1,
-      "explanation": "2.0 A: opposing EMFs subtract, giving a net EMF of 12 − 6.0 = 6.0 V, then I = 6.0/3.0 = 2.0 A. \"0.5 A\" comes from inverting the final division (3.0/6.0). \"3.0 A\" comes from mistakenly adding the two EMFs instead of subtracting them, then dividing by the wrong combination, or from skipping the subtraction and just dividing the larger EMF alone incorrectly. \"6.0 A\" comes from adding the two EMFs (12 + 6.0 misapplied) and treating that combined value as the current-producing net voltage without properly dividing by resistance."
+      "explanation": "2.0 A: opposing EMFs subtract, giving a net EMF of 12 − 6.0 = 6.0 V, then I = 6.0/3.0 = 2.0 A. \"0.5 A\" comes from inverting the final division (3.0/6.0). \"3.0 A\" does not come from a single standard step; the larger EMF alone would give 12/3.0 = 4.0 A. \"6.0 A\" comes from adding the two EMFs instead of subtracting them: (12 + 6.0)/3.0 = 6.0 A."
     },
     {
       "id": "11-51",
@@ -2437,7 +2437,7 @@ const QUESTIONS = {
         "12 W delivered by the 12 V battery; 24 W absorbed by the 6.0 V battery."
       ],
       "correct": 1,
-      "explanation": "24 W delivered; 12 W absorbed, from P = IV applied to each battery: (2.0)(12) = 24 W delivered by the stronger battery, and (2.0)(6.0) = 12 W absorbed by the weaker one as it's charged backward. \"12 W delivered; 24 W absorbed\" swaps which battery is which, treating the weaker 6.0 V source as if it were doing the delivering. \"6.0 W delivered; 3.0 W absorbed\" comes from using half the actual current (1.0 A instead of 2.0 A) in the power calculation. \"18 W delivered; 18 W absorbed\" comes from averaging the two batteries' voltages instead of applying P = IV separately to each one."
+      "explanation": "24 W delivered; 12 W absorbed, from P = IV applied to each battery: (2.0)(12) = 24 W delivered by the stronger battery, and (2.0)(6.0) = 12 W absorbed by the weaker one as it's charged backward. \"12 W delivered; 24 W absorbed\" swaps which battery is which, treating the weaker 6.0 V source as if it were doing the delivering. \"6.0 W delivered; 3.0 W absorbed\" corresponds to a current of 0.50 A, only one quarter of the true 2.0 A. \"18 W delivered; 18 W absorbed\" comes from averaging the two batteries' voltages instead of applying P = IV separately to each one."
     },
     {
       "id": "11-52",
@@ -2594,7 +2594,7 @@ const QUESTIONS = {
         "3.0 μC"
       ],
       "correct": 0,
-      "explanation": "48 μC, from Q = CΔV = (4.0×10⁻⁶)(12), using the full battery voltage since the capacitor is fully charged at t → ∞. 3.0 μC comes from inverting the ratio (dividing 12 by 4.0 instead of multiplying). 33 μC comes from a similar inversion with a rounding artifact (roughly 4.0/12 expressed in different units). 480 μC comes from a factor-of-10 slip in the capacitance's decimal exponent (treating 4.0 μF as if it were 40 μF)."
+      "explanation": "48 μC, from Q = CΔV = (4.0×10⁻⁶)(12), using the full battery voltage since the capacitor is fully charged at t → ∞. 3.0 μC comes from inverting the ratio (dividing 12 by 4.0 instead of multiplying). 33 μC is 4.0/12 = 0.33 with a decimal slip, so it also divides instead of multiplying. 480 μC comes from a factor-of-10 slip in the capacitance's decimal exponent (treating 4.0 μF as if it were 40 μF)."
     },
     {
       "id": "11-64",
@@ -3001,7 +3001,7 @@ const QUESTIONS = {
         "1.6 × 10⁻⁴ T"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.6 × 10⁻⁵ T. For a long straight wire B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(8.0 A)/(2π × 0.10 m). The π cancels and 4/2 = 2, leaving B = (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T. (B) 1.6×10⁻³ T is wrong because it is 100 times too large, from botching the 10⁻⁷ exponent. (C) 1.6×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 1.0 m. (D) 1.6×10⁻⁴ T is wrong because it is a factor of 10 too large, from multiplying by 0.10 instead of dividing."
+      "explanation": "Correct: (A) 1.6 × 10⁻⁵ T. For a long straight wire B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(8.0 A)/(2π × 0.10 m). The π cancels and 4/2 = 2, leaving B = (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T. (B) 1.6×10⁻³ T is wrong because it is 100 times too large, from botching the 10⁻⁷ exponent. (C) 1.6×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 1.0 m. (D) 1.6×10⁻⁴ T is wrong because it is a factor of 10 too large, a misplaced decimal."
     },
     {
       "id": "12-30",
@@ -4710,13 +4710,13 @@ const QUESTIONS = {
       "topic": "14.5 Doppler Effect",
       "stem": "A source emits sound at 400 Hz while moving TOWARD a stationary observer at 30 m/s (sound speed 340 m/s). Find the observed frequency.",
       "choices": [
-        "367 Hz",
+        "368 Hz",
         "400 Hz",
         "439 Hz",
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v − v_source) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 367 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz comes from applying the approaching-observer formula's plus-in-numerator form to the source's speed instead of the correct minus-in-denominator form."
+      "explanation": "f' = f·v/(v − v_source) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 368 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz does not come from any correct Doppler step; it overstates the shift. The correct source-motion form is v/(v − v<sub>source</sub>)."
     },
     {
       "id": "14-30",
@@ -4729,7 +4729,7 @@ const QUESTIONS = {
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v + v_source) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz comes from misapplying an observer-motion form of the equation to this source-motion scenario."
+      "explanation": "f' = f·v/(v + v_source) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz does not come from any correct Doppler step; it has the wrong direction and size of shift for a receding source."
     },
     {
       "id": "14-31",
@@ -4742,7 +4742,7 @@ const QUESTIONS = {
         "471 Hz"
       ],
       "correct": 1,
-      "explanation": "f' = f(v + v_observer)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz comes from misapplying a source-motion denominator form to this observer-motion scenario."
+      "explanation": "f' = f(v + v_observer)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz does not come from any correct step; the shift from a 20 m/s observer is only about +29 Hz."
     },
     {
       "id": "14-32",
@@ -4989,7 +4989,7 @@ const QUESTIONS = {
         "0.26°"
       ],
       "correct": 3,
-      "explanation": "dsinθ = mλ gives sinθ = (1)(450×10⁻⁹)/(0.10×10⁻³) = 4.5×10⁻³, so θ = sin⁻¹(4.5×10⁻³) ≈ 0.26°. 0.13° comes from a factor-of-2 slip (halving the correct ratio). 0.52° comes from doubling the correct ratio, effectively using m = 2 instead of m = 1. 1.0° is an order-of-magnitude overestimate from a decimal-place error in the ratio."
+      "explanation": "dsinθ = mλ gives sinθ = (1)(450×10⁻⁹)/(0.10×10⁻³) = 4.5×10⁻³, so θ = sin⁻¹(4.5×10⁻³) ≈ 0.26°. 0.13° comes from a factor-of-2 slip (halving the correct ratio). 0.52° comes from doubling the correct ratio, effectively using m = 2 instead of m = 1. 1.0° is about four times too large and does not come from a correct step (it would need m = 4)."
     },
     {
       "id": "14-51",
@@ -5002,7 +5002,7 @@ const QUESTIONS = {
         "0.26°"
       ],
       "correct": 2,
-      "explanation": "sinθ = mλ/d = (2)(450×10⁻⁹)/(0.10×10⁻³) = 9.0×10⁻³, giving θ ≈ 0.52° — almost exactly double the m = 1 angle from the previous question, since sinθ scales directly with m at these small angles. 0.26° mistakenly reuses the m = 1 angle without accounting for m = 2. 0.78° comes from using m = 3 instead of m = 2. 1.0° comes from a decimal-place slip in computing the ratio."
+      "explanation": "sinθ = mλ/d = (2)(450×10⁻⁹)/(0.10×10⁻³) = 9.0×10⁻³, giving θ ≈ 0.52° — almost exactly double the m = 1 angle from the previous question, since sinθ scales directly with m at these small angles. 0.26° mistakenly reuses the m = 1 angle without accounting for m = 2. 0.78° comes from using m = 3 instead of m = 2. 1.0° corresponds to about m = 4, not m = 2."
     },
     {
       "id": "14-52",
@@ -5054,7 +5054,7 @@ const QUESTIONS = {
         "690 nm"
       ],
       "correct": 3,
-      "explanation": "λ = dsinθ/m = (8.0×10⁻⁶)(sin 15°)/3 = (8.0×10⁻⁶)(0.259)/3 ≈ 6.9×10⁻⁷ m = 690 nm. 230 nm comes from dividing by m twice (an extra unintended factor of 3). 1400 nm comes from forgetting to divide by m at all. 2100 nm comes from multiplying by m instead of dividing by it."
+      "explanation": "λ = dsinθ/m = (8.0×10⁻⁶)(sin 15°)/3 = (8.0×10⁻⁶)(0.259)/3 ≈ 6.9×10⁻⁷ m = 690 nm. 2100 nm forgets to divide by m at all (it is just d sin θ). 230 nm divides by m twice (an extra factor of 3). 1400 nm is twice the correct value and does not follow from the equation."
     },
     {
       "id": "14-56",
@@ -5081,7 +5081,7 @@ const QUESTIONS = {
         "Yes, but from different parts of the SAME slit interfering, not two separate slits."
       ],
       "correct": 3,
-      "explanation": "Single-slit diffraction produces its own bright/dark pattern from many secondary wavelets across the SAME single opening interfering with each other, distinct from double-slit interference between light emerging from two physically separate slits. 'Cause is identical, two separate slits' wrongly imports the double-slit mechanism into a setup that only has one opening. 'Uniform brightness, no fringe pattern' is factually wrong — single-slit diffraction does produce a distinct central maximum with dimmer side fringes. 'Only for wavelength longer than the slit width' invents an unnecessary restriction — single-slit diffraction fringes occur across a range of wavelength-to-width ratios, not only that extreme case. This distinction — 'diffraction pattern' from self-interference within one opening versus 'interference pattern' from two distinct sources — is more nuanced than the core dsinθ = mλ relationship this section usually emphasizes."
+      "explanation": "Single-slit diffraction produces its own bright/dark pattern from many secondary wavelets across the SAME single opening interfering with each other, distinct from double-slit interference between light emerging from two physically separate slits. 'Cause is identical, two separate slits' wrongly imports the double-slit mechanism into a setup that only has one opening. 'Uniform brightness, no fringe pattern' is factually wrong — single-slit diffraction does produce a distinct central maximum with dimmer side fringes. 'Only for wavelength longer than the slit width' invents an unnecessary restriction — single-slit diffraction fringes occur across a range of wavelength-to-width ratios, not only that extreme case."
     },
     {
       "id": "14-58",
@@ -5173,7 +5173,7 @@ const QUESTIONS = {
         "70 nm"
       ],
       "correct": 2,
-      "explanation": "First convert to the wavelength inside the film: λ_film = λ_vacuum/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ_film with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm comes from skipping the index conversion and using 500 nm directly with an extra arithmetic slip. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ_film itself for the answer, skipping the mismatched-condition calculation entirely."
+      "explanation": "First convert to the wavelength inside the film: λ_film = λ_vacuum/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ_film with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm does not come from any correct step; skipping the index conversion and using 500 nm directly would give 125 nm. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ_film itself for the answer, skipping the mismatched-condition calculation entirely."
     },
     {
       "id": "14-65",
@@ -5527,7 +5527,7 @@ const QUESTIONS = {
         "Intensity differences are purely due to instrument calibration errors, not real physics at the atomic level at all."
       ],
       "correct": 0,
-      "explanation": "Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact. This distinction between line POSITION and line INTENSITY goes beyond the core wavelength-matching fact this section usually emphasizes."
+      "explanation": "Different starting populations across energy levels. Wavelength position is set purely by the energy GAP between levels, which is identical either way — but how BRIGHT each line appears depends on how many atoms are actually undergoing that specific transition, which depends on which levels are populated in the first place (often requiring specific temperature or excitation conditions for emission, versus starting purely from the ground state for absorption). \"They never actually differ\" directly contradicts the premise of the question. \"Uniformly dimmer by a fixed factor\" assumes a simple constant ratio rather than the real, transition-by-transition dependence on level populations. \"Purely instrument calibration error\" wrongly dismisses a genuine physical effect as a measurement artifact."
     },
     {
       "id": "15-24",
@@ -5606,7 +5606,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ_peak ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one. This specific inverse proportionality (rather than just the general 'hotter means shorter wavelength' direction) is a more precise, quantitative relationship than what's typically expected on the AP2 exam, which usually stays at the qualitative level."
+      "explanation": "It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ_peak ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one."
     },
     {
       "id": "15-30",
@@ -5815,7 +5815,7 @@ const QUESTIONS = {
         "90°"
       ],
       "correct": 1,
-      "explanation": "180° — direct backward scattering. This is the most 'head-on' type of collision possible, analogous to how a direct head-on collision in ordinary mechanics transfers more momentum and energy than a glancing one. At 0° there is essentially no deflection and thus minimal momentum/energy transfer to the electron. At 90°, the interaction is more of a glancing hit — some transfer occurs, but less than a full head-on collision. \"Energy transfer is the same at every angle\" contradicts the real angle dependence of the Compton formula, where the wavelength shift (and hence energy transfer) scales with (1 − cos θ), which is maximized exactly at θ = 180°. Extending the collision analogy to reason about how scattering ANGLE affects energy transfer efficiency is a step beyond the core 'photon loses energy, wavelength increases' fact this section typically emphasizes."
+      "explanation": "180° — direct backward scattering. This is the most 'head-on' type of collision possible, analogous to how a direct head-on collision in ordinary mechanics transfers more momentum and energy than a glancing one. At 0° there is essentially no deflection and thus minimal momentum/energy transfer to the electron. At 90°, the interaction is more of a glancing hit — some transfer occurs, but less than a full head-on collision. \"Energy transfer is the same at every angle\" contradicts the real angle dependence of the Compton formula, where the wavelength shift (and hence energy transfer) scales with (1 − cos θ), which is maximized exactly at θ = 180°."
     },
     {
       "id": "15-46",
@@ -5828,7 +5828,7 @@ const QUESTIONS = {
         "9.0 × 10¹⁶ J"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 9.0 × 10<sup>13</sup> J. Mass-energy equivalence gives E = mc<sup>2</sup>. With m = 1.0 × 10<sup>-3</sup> kg and c = 3.0 × 10<sup>8</sup> m/s, E = (1.0 × 10<sup>-3</sup>)(9.0 × 10<sup>16</sup>) = 9.0 × 10<sup>13</sup> J. (A) 2.7 × 10<sup>25</sup> J is wrong because it cubes c instead of squaring it. (B) 3.0 × 10<sup>7</sup> J is wrong because it uses mc (a single power of c) instead of mc<sup>2</sup>. (D) 9.0 × 10<sup>16</sup> J is wrong because it forgets to multiply by the mass of 0.0010 kg, giving only c<sup>2</sup>."
+      "explanation": "Correct: (C) 9.0 × 10<sup>13</sup> J. Mass-energy equivalence gives E = mc<sup>2</sup>. With m = 1.0 × 10<sup>-3</sup> kg and c = 3.0 × 10<sup>8</sup> m/s, E = (1.0 × 10<sup>-3</sup>)(9.0 × 10<sup>16</sup>) = 9.0 × 10<sup>13</sup> J. (A) 2.7 × 10<sup>25</sup> J is wrong because it is c<sup>3</sup> with the mass left out. (B) 3.0 × 10<sup>7</sup> J is wrong because it does not follow from mc (which is 3.0 × 10<sup>5</sup> J) and is just a wrong power of ten; the formula needs c squared. (D) 9.0 × 10<sup>16</sup> J is wrong because it forgets to multiply by the mass of 0.0010 kg, giving only c<sup>2</sup>."
     },
     {
       "id": "15-47",
@@ -5880,7 +5880,7 @@ const QUESTIONS = {
         "19 MeV"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV. (A) 190 MeV is wrong because it is ten times too large, a decimal slip. (B) 0.019 MeV is wrong because the decimal is shifted three places, as if dividing by 931 rather than multiplying. (C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
+      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV. (A) 190 MeV is wrong because it is ten times too large, a decimal slip. (B) 0.019 MeV is wrong because it is 19 with the decimal shifted three places. (C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
     },
     {
       "id": "15-51",
