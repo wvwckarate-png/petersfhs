@@ -104,7 +104,7 @@ const QUESTIONS = {
         "It is only a valid application of elite theory if the officials involved were installed undemocratically."
       ],
       "correct": 1,
-      "explanation": "Elite theory is a descriptive model about where influence concentrates — it doesn't itself allege wrongdoing. A city's politics can be well explained by elite theory through entirely legal, transparent means (long tenure, resources, relationships) without any bribery or other illegal conduct, ruling out A, which wrongly equates the claim with an accusation of crime. It also doesn't require the officials be illegitimate or undemocratically installed to apply (ruling out D), and one model explaining a city's politics doesn't preclude another model, like pluralism, from also applying elsewhere (ruling out C)."
+      "explanation": "Correct: (B) A descriptive claim about where influence concentrates, not an accusation of illegality. Elite theory is an explanatory model: it holds that a small, well-resourced group (here, developers and longtime officials) shapes policy no matter which candidates win. The journalist points to a pattern of outcomes, and such influence can arise entirely legally through money, expertise, tenure and relationships. The stem's clue is that the group 'consistently shapes outcomes regardless of which candidates win,' which describes concentration of influence, not rule-breaking.\n\n(A) is wrong because it equates a description of influence with an allegation of bribery or crime, which the theory does not require.\n(C) is wrong because models are not mutually exclusive; pluralism can still help explain other issues or arenas in the same city.\n(D) is wrong because elite theory applies to legitimately elected or appointed officials too; no undemocratic installation is needed."
     },
     {
       "id": "1-6",
@@ -130,7 +130,7 @@ const QUESTIONS = {
         "That it overstates how evenly matched interest groups are."
       ],
       "correct": 3,
-      "explanation": "A standard criticism of pluralism is that it can overstate how evenly matched competing interest groups actually are — some groups have far more funding, membership, or access than others, making pluralism's picture of balanced competition too rosy. The other choices misstate the theory itself: pluralism assumes many groups exist and compete (ruling out B and C), and it describes open, competitive systems generally, not something limited to authoritarian governments (ruling out A)."
+      "explanation": "Correct: (D) That it overstates how evenly matched interest groups are. Pluralist theory says political power is spread among many competing groups, so no single group dominates and policy emerges from bargaining. Critics respond that groups differ greatly in money, membership size, organization and access to officials, so competition is often far from balanced. That unevenness is the standard criticism, and it is the idea elite theory builds on.\n\n(A) is wrong because pluralism describes open, competitive systems like the United States, not authoritarian ones.\n(B) is wrong because pluralism depends on interest groups existing in large numbers, so it cannot deny them.\n(C) is wrong because the theory assumes many groups, not just one; a single group would be the opposite of pluralism."
     },
     {
       "id": "1-8",
@@ -169,7 +169,7 @@ const QUESTIONS = {
         "They originate from acts of Congress."
       ],
       "correct": 1,
-      "explanation": "The Declaration's Enlightenment natural-rights philosophy holds that rights like life, liberty, and the pursuit of happiness belong to people inherently and independent of government — government exists to secure them, not create them. This rules out choices that make rights something government hands out (C, D) or restricts to a subset of citizens like voters (A)."
+      "explanation": "Correct: (B) They exist inherently, simply by virtue of being human. The Declaration reflects Enlightenment natural-rights thinking (John Locke): people are 'endowed by their Creator with certain unalienable rights' such as life, liberty and the pursuit of happiness. Because the rights come before government, they cannot be legitimately taken away, and government's job is to secure them ('to secure these rights, Governments are instituted'). The word 'unalienable' is the clue that rights are not conditional gifts.\n\n(A) is wrong because rights do not depend on voting or participation.\n(C) is wrong because a right granted by the government could be removed by it, which is the opposite of natural rights.\n(D) is wrong because Congress did not exist when the Declaration was written, and acts of Congress create statutory rights, not natural ones."
     },
     {
       "id": "1-11",
@@ -195,7 +195,7 @@ const QUESTIONS = {
         "The people retain the right to alter or abolish that government."
       ],
       "correct": 3,
-      "explanation": "Social contract theory, as expressed in the Declaration, holds that government's legitimacy rests on the consent of the governed — when government becomes destructive of the rights it exists to protect, the people retain the right to alter or abolish it and establish new government. This is an active political right of the people themselves, not something that happens automatically (ruling out B), that only courts can invoke (ruling out C), or that is foreclosed entirely once a government exists (ruling out A)."
+      "explanation": "Correct: (D) The people retain the right to alter or abolish that government. The Declaration states that governments derive 'their just powers from the consent of the governed,' and that 'whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it.' This is the core of social contract theory: if the ruler breaks the bargain by violating the rights it exists to protect, the people may withdraw consent and form a new government. The right belongs to the people themselves.\n\n(A) is wrong because the Declaration says the opposite: governments can be legitimately challenged.\n(B) is wrong because governments do not dissolve automatically; people must act.\n(C) is wrong because the Declaration gives this right to the people, not exclusively to courts, which did not exist as an American national institution at the time."
     },
     {
       "id": "1-13",
@@ -208,7 +208,7 @@ const QUESTIONS = {
         "The Declaration of Independence applies only to matters of foreign policy, not domestic legal disputes."
       ],
       "correct": 0,
-      "explanation": "The Declaration has never functioned as binding law — it is a statement of political philosophy and grievances justifying separation from Britain; the Constitution, not the Declaration, is the nation's legal governing framework. The Declaration was never repealed and remains historically significant (ruling out C), was never limited to foreign policy (ruling out D), and was never legally binding in the first place, so no later ruling needed to 'supersede' it (ruling out B)."
+      "explanation": "Correct: (A) The Declaration is a political and philosophical statement, not a legal governing framework. The Declaration explains why the colonies were separating from Britain, using natural-rights philosophy and a list of grievances. It creates no offices, powers, rights enforceable in court or rules of decision; the Constitution and the laws made under it are what courts apply. So a court would treat the Declaration as persuasive history and philosophy, not binding authority.\n\n(B) is wrong because no ruling has 'superseded' the Declaration, and it remains valid as a historical and philosophical source (it was never law to be superseded).\n(C) is wrong because the Constitution did not repeal it; the Declaration is still a foundational historical document.\n(D) is wrong because its content is not limited to foreign policy; it addresses government legitimacy and rights generally."
     },
     {
       "id": "1-14",
@@ -221,7 +221,7 @@ const QUESTIONS = {
         "To establish new taxes on the colonies."
       ],
       "correct": 0,
-      "explanation": "The grievance list functions as evidence: it documents specific ways the King's government violated its obligations under the social contract, justifying the colonists' decision to withdraw consent and separate. The other choices describe purposes the Declaration never serves — it neither entertains readers, imposes new taxes, nor structures a legislature (that structural work belongs to the Constitution)."
+      "explanation": "Correct: (A) To show the King broke the social contract. After stating that governments rest on consent and may be altered when they become destructive, the Declaration needs to prove that the King's government met that standard. The list of grievances (taxation without consent, quartering troops, dissolving legislatures and so on) is the evidence for that argument: a 'long train of abuses' showing a pattern of tyranny that justifies separation.\n\n(B) is wrong because the list is argument and evidence, not entertainment.\n(C) is wrong because creating a bicameral legislature is the work of the Constitution (1787), not the Declaration.\n(D) is wrong because the Declaration protests taxes imposed without colonial consent; it does not set up any."
     },
     {
       "id": "1-15",
@@ -260,7 +260,7 @@ const QUESTIONS = {
         "Rights and government have no meaningful relationship to one another."
       ],
       "correct": 1,
-      "explanation": "This restates the Declaration's core natural-rights philosophy: rights precede government and belong to individuals by nature, and government's legitimate role is to secure — not create or freely revoke (ruling out C) — those rights. The Declaration also doesn't treat rights as belonging only to officials (ruling out A) or as unrelated to government altogether (ruling out D), since securing rights is precisely government's stated purpose."
+      "explanation": "Correct: (B) Rights exist independent of government, which exists to secure them. Locke's natural-rights theory, adopted in the Declaration, says rights are 'unalienable' and precede government; people form governments 'to secure these rights.' The government therefore has a protective role and loses legitimacy if it destroys rights. The clue is the phrase 'to secure these rights,' which makes government the guardian, not the source.\n\n(A) is wrong because natural rights belong to all people ('all men are created equal'), not just officials.\n(C) is wrong because it describes the view that government creates rights, which would let it revoke them and contradicts the term 'unalienable.'\n(D) is wrong because the Declaration ties government's very purpose to securing rights, so the two are closely related."
     },
     {
       "id": "1-18",
@@ -286,7 +286,7 @@ const QUESTIONS = {
         "Through voluntary contributions requested from the states."
       ],
       "correct": 3,
-      "explanation": "The Articles gave the national government no independent taxing power — it could only request funds from the states and had no way to compel payment, leaving it chronically underfunded when states fell short (as they often did). The other choices each describe a taxing power (income tax, tariffs, direct taxation) that the national government under the Articles simply did not have."
+      "explanation": "Correct: (D) Through voluntary contributions requested from the states. Under the Articles of Confederation (ratified 1781), Congress could request money from the states (requisitions) but could not tax individuals or compel payment. States often paid only part of what was requested, leaving the national government short of funds to pay war debts and run basic operations. The clue 'primarily fund' points to the requisition system.\n\n(A) is wrong because Congress had no power of direct taxation on citizens.\n(B) is wrong because Congress could not levy tariffs; states controlled their own import duties, and attempts to give Congress an impost failed because they required unanimous consent.\n(C) is wrong because a national income tax did not exist until after the 16th Amendment (1913)."
     },
     {
       "id": "1-20",
@@ -312,7 +312,7 @@ const QUESTIONS = {
         "The success of the Articles of Confederation's taxation system."
       ],
       "correct": 1,
-      "explanation": "Shays' Rebellion is significant because the national government under the Articles had no standing army and no reliable way to fund one, so it could not respond — the uprising was put down by a privately funded state militia instead, exposing the Articles' core weaknesses. This is the opposite of choices A and D, which wrongly describe the national government as capable and well-funded, and the responding militia was raised privately, not under direct federal command (ruling out C)."
+      "explanation": "Correct: (B) The national government's inability to respond to internal unrest. In 1786-87, Massachusetts farmers led by Daniel Shays rebelled against debt collection and foreclosures. The Confederation Congress had no standing army and no reliable funds because states ignored requisitions, so it could not help; Massachusetts relied on a privately financed militia. The event convinced many leaders that the Articles were too weak and helped lead to the Constitutional Convention.\n\n(A) is wrong because it states the opposite: the national government could not suppress the rebellion.\n(C) is wrong because the militia that acted was state-level and privately funded, not under federal command.\n(D) is wrong because the Articles' taxation system (voluntary requisitions) was a failure, and that weakness fed the unrest and the national inability to respond."
     },
     {
       "id": "1-22",
@@ -338,7 +338,7 @@ const QUESTIONS = {
         "It concentrated too much power in a strong national government."
       ],
       "correct": 1,
-      "explanation": "The Articles' central design flaw was the opposite of over-centralization: fearing monarchy, the framers deliberately created a weak national government, and that government proved too weak to handle basic tasks like taxation, defense, and interstate commerce. This rules out choice D (too much power, not too little), and the Articles neither eliminated state governments (A) nor created a monarchy (C) — if anything, it under-empowered the center relative to the states."
+      "explanation": "Correct: (B) It created a national government too weak to function. Fearing the kind of centralized power they had just fought, the framers of the Articles gave Congress one vote per state, no executive, no national courts, no power to tax or regulate commerce, and required 9 of 13 states to pass major laws and unanimity to amend. As a result, the government could not pay debts, raise an army or settle interstate trade disputes effectively.\n\n(A) is wrong because state governments remained strong, indeed dominant, under the Articles.\n(C) is wrong because there was no executive of any kind, let alone a king.\n(D) is wrong because it reverses the problem; the flaw was too little national power, not too much."
     },
     {
       "id": "1-24",
@@ -377,7 +377,7 @@ const QUESTIONS = {
         "Most of the Constitution's structure directly responds to Articles weaknesses."
       ],
       "correct": 3,
-      "explanation": "The Constitution's major structural choices — a taxing power, a national executive, a national judiciary, an easier amendment process, a population-based House — are best read as direct, deliberate fixes for specific, identifiable failures of the Articles. That relationship is why the two documents are far from unrelated (ruling out A) or near-copies of each other (ruling out B), and the Articles were of course replaced, not left as the current governing document (ruling out C)."
+      "explanation": "Correct: (D) Most of the Constitution's structure directly responds to Articles weaknesses. Because the Articles lacked a taxing power, an executive, national courts, power over interstate commerce and an achievable amendment process, the Constitution supplied them: Congress can tax and regulate commerce (Article I), a president (Article II), federal courts (Article III), and amendment by 3/4 of states rather than unanimity (Article V). Knowing the problem explains the design choice.\n\n(A) is wrong because the documents are closely connected, since the second was written to fix the first.\n(B) is wrong because the Constitution is very different from the Articles; it created three branches and a government acting on individuals.\n(C) is wrong because the Constitution replaced the Articles when it was ratified (1788)."
     },
     {
       "id": "1-27",
@@ -416,7 +416,7 @@ const QUESTIONS = {
         "Ban all political organizations."
       ],
       "correct": 1,
-      "explanation": "Madison explicitly rejects eliminating the causes of factions — which he says would require destroying liberty itself (ruling out A) — in favor of controlling their effects by enlarging and diversifying the republic, since a wider range of competing interests makes it harder for any one faction to dominate. He never proposes banning organizations (D) or handing power to a single faction (C), which would make the problem worse, not better."
+      "explanation": "Correct: (B) Control factions' effects by extending the republic's size and diversity. In Federalist No. 10, Madison defines a faction as a group, whether a majority or a minority, united by a passion or interest opposed to the rights of others or the community's good. He says the causes of faction are rooted in human nature and liberty, so they cannot be removed, but their effects can be controlled. A large republic with many varied interests makes it hard for any one faction to form a majority and oppress others, and representation filters public views.\n\n(A) is wrong because removing the causes would mean destroying liberty, a cure Madison calls worse than the disease.\n(C) is wrong because letting one faction rule would be exactly the danger he warns of.\n(D) is wrong because banning all political organizations would also destroy liberty, and he never proposes it."
     },
     {
       "id": "1-30",
@@ -429,7 +429,7 @@ const QUESTIONS = {
         "Because a large republic could not have a written constitution."
       ],
       "correct": 1,
-      "explanation": "Brutus No. 1 argues that as a republic's size and population grow, elected representatives become increasingly distant from ordinary citizens, weakening accountability and responsiveness. Brutus never claims a large republic would abolish elections (A), eliminate state governments outright (C), or preclude a written constitution (D) — his objection is specifically about representative accountability at scale."
+      "explanation": "Correct: (B) Because representatives would grow too distant and unaccountable to the people. Brutus No. 1 (an Anti-Federalist essay) argues that republican government works only in a small territory where citizens know their representatives and share similar interests. In a large nation, representatives would be few relative to the population, unfamiliar to their voters and hard to hold accountable, so power would drift toward a distant elite. This is the opposite of Madison's view in Federalist No. 10.\n\n(A) is wrong because Brutus does not say large republics lack elections.\n(C) is wrong because his worry was that the national government would swallow state power gradually, not eliminate states 'immediately.'\n(D) is wrong because Brutus never argues that a large republic cannot have a written constitution; he was criticizing this written one."
     },
     {
       "id": "1-31",
@@ -442,7 +442,7 @@ const QUESTIONS = {
         "Whether the United States should have a written constitution at all."
       ],
       "correct": 0,
-      "explanation": "The two documents' central disagreement is about republic size: Madison (Federalist No. 10) argues a large, diverse republic controls factional danger, while Brutus (Brutus No. 1) argues a small republic keeps representatives accountable and better protects liberty. Neither document disputes having a written constitution (D), addresses presidential election method (C), or questions whether states retain governing power (B) — those simply aren't the terms of their debate."
+      "explanation": "Correct: (A) Whether a large or small republic best protects liberty. Madison (Federalist No. 10) argues a large, diverse republic prevents any one faction from dominating, while Brutus No. 1 argues that a large republic separates representatives from the people and endangers liberty, which only a small republic can protect. Both essays are about the proper size of a republic.\n\n(B) is wrong because neither argues that states should have no power; Brutus actually wanted stronger states.\n(C) is wrong because the direct election of the president is not discussed in either essay.\n(D) is wrong because both writers accept a written constitution; they differ on whether this one's design is wise."
     },
     {
       "id": "1-32",
@@ -455,7 +455,7 @@ const QUESTIONS = {
         "No — eliminating them would require destroying liberty itself."
       ],
       "correct": 3,
-      "explanation": "Madison argues eliminating factions is neither viable nor desirable, since factions form naturally whenever people are free to think and act differently — removing them would mean removing liberty itself. This rules out both 'yes' answers (A and B), which wrongly treat elimination as achievable and desirable, and choice C, which denies factions exist at all despite Madison treating them as an inevitable feature of free societies."
+      "explanation": "Correct: (D) No, because eliminating them would require destroying liberty itself. Madison writes that there are two ways to remove the causes of faction: destroy liberty, or give everyone the same opinions and interests. The first is a remedy worse than the disease, and the second is impossible because people naturally differ in opinions, wealth and talents. So factions are inevitable in a free society, and the task is to control their effects.\n\n(A) is wrong because Madison rejects elimination as both undesirable and impossible.\n(B) is wrong because he never suggests using a national military to remove factions.\n(C) is wrong because he insists factions exist in all free societies; the argument assumes they do."
     },
     {
       "id": "1-33",
@@ -468,7 +468,7 @@ const QUESTIONS = {
         "Federalist No. 10's argument does not scale to national government at all."
       ],
       "correct": 1,
-      "explanation": "This directly applies Madison's Federalist No. 10 logic: expanding scale increases the diversity of competing interests, making it structurally harder for any single faction — like one dominant local industry — to assemble a controlling majority, since it must now compete against many more rivals. National governments still have factions (ruling out A) and don't 'ban' single-industry influence by rule (ruling out B); rather, Madison's argument is precisely that it DOES scale to the national level (ruling out D)."
+      "explanation": "Correct: (B) A larger, more diverse republic makes one dominant faction less likely. In Federalist No. 10, Madison argues that when a republic is extended, it includes more parties and interests, so it is harder for a majority with a common motive to form and act together. In a small town one industry can easily become the majority interest; across a whole nation, many industries, regions and interests compete and must form coalitions, so none easily dominates. The stem asks you to apply 'Federalist No. 10's logic' to scale.\n\n(A) is wrong because national governments do not automatically ban any type of influence; the protection comes from competition among many interests.\n(C) is wrong because Madison assumes factions exist at every level.\n(D) is wrong because scaling up to the national level is precisely his point."
     },
     {
       "id": "1-34",
@@ -494,7 +494,7 @@ const QUESTIONS = {
         "That the new national government was too powerful and distant."
       ],
       "correct": 3,
-      "explanation": "A central Anti-Federalist concern, reflected in documents like Brutus No. 1, was that the proposed Constitution created too strong and too distant a national government, endangering both individual liberty and state authority — the opposite of choice B, which mistakenly describes their worry as a government that was too weak. The Constitution did include a president (ruling out A) and an amendment process (ruling out C), so neither was ever a live concern."
+      "explanation": "Correct: (D) That the new national government was too powerful and distant. Anti-Federalists such as Brutus feared that a strong central government, with broad taxing, military and 'necessary and proper' powers, would overwhelm the states and threaten individual liberty, and that it lacked a bill of rights. They preferred a small republic with power closer to the people.\n\n(A) is wrong because the Constitution does create a president (Article II).\n(B) is wrong because that was the Articles' flaw, and it is closer to what Federalists said was needed.\n(C) is wrong because Article V provides an amendment process, so it was not a concern."
     },
     {
       "id": "1-36",
@@ -507,7 +507,7 @@ const QUESTIONS = {
         "Federalists, who wanted a stronger national government."
       ],
       "correct": 2,
-      "explanation": "The Bill of Rights is widely understood as a concession to Anti-Federalists, who worried the original Constitution lacked explicit, enumerated protections for individual liberties; the promise of a bill of rights helped secure ratification. Federalists generally saw the Bill of Rights as less necessary given the government's limited, enumerated powers (ruling out B), foreign governments played no role in this domestic debate (ruling out C), and Anti-Federalists clearly did raise rights concerns, contrary to D."
+      "explanation": "Correct: (C) Anti-Federalists, who feared missing rights protections. Anti-Federalists objected that the Constitution did not list protections such as freedom of speech, religion and trial by jury against the new national government. To win ratification in states such as Massachusetts and Virginia, Federalists promised to add amendments, and Madison drafted the Bill of Rights, ratified in 1791. The stem asks which group's concerns it answered, which is the group that demanded rights protections.\n\n(A) is wrong because foreign governments and trade agreements had no role in this domestic debate.\n(B) is wrong because Anti-Federalists clearly raised individual-rights concerns.\n(D) is wrong because Federalists wanted a stronger national government and many initially thought a bill of rights unnecessary because the government had only enumerated powers."
     },
     {
       "id": "1-37",
@@ -533,7 +533,7 @@ const QUESTIONS = {
         "Because Madison believed all government officials were inherently corrupt."
       ],
       "correct": 0,
-      "explanation": "Madison's famous Federalist No. 51 argument is that because government is run by imperfect people, relying solely on virtue is insufficient — a system of checks that harnesses each branch's own institutional ambition to counteract the others provides a more dependable safeguard. This isn't because officials are inherently corrupt (ruling out A, an overstatement Madison doesn't make) or because virtue is irrelevant (ruling out D, since Madison still values it, just not as a sole safeguard); and the Constitution plainly does build in such mechanisms (ruling out C)."
+      "explanation": "Correct: (A) Because ambition counteracting ambition is a more reliable safeguard than virtue alone. In Federalist No. 51 Madison writes, 'If men were angels, no government would be necessary,' and says the great difficulty is to enable government to control the governed and then oblige it to control itself. His solution is to give each branch the means and motive to resist the others: 'Ambition must be made to counteract ambition.' This does not dismiss virtue; it recognizes that structure is more dependable than hoping for good character.\n\n(B) is wrong because Madison does not call virtue irrelevant; he says it is an insufficient sole safeguard.\n(C) is wrong because the Constitution does contain checks, such as the veto and impeachment.\n(D) is wrong because he assumes people are imperfect and self-interested, not that all officials are inherently corrupt."
     },
     {
       "id": "1-39",
@@ -546,7 +546,7 @@ const QUESTIONS = {
         "One divides the branches; the other supplies the tools between them."
       ],
       "correct": 3,
-      "explanation": "Separation of powers describes the structural division of government into three branches, each with a primary function; checks and balances describes the specific tools — like the veto, judicial review, or confirmation power — that let each branch limit the others. They are related but distinct (ruling out C), separation of powers applies to all three branches, not just the legislature (ruling out B), and checks and balances is a feature of the federal system, not something limited to the states (ruling out D)."
+      "explanation": "Correct: (D) One divides the branches; the other supplies the tools between them. Separation of powers assigns different functions to three branches: Congress makes laws, the president executes them, and courts interpret them. Checks and balances are the specific powers that let each branch limit the others, such as the veto, Senate confirmation, impeachment and judicial review. So one is the structure and the other is the set of tools that enforces it.\n\n(A) is wrong because checks and balances is a feature of the national government (and of state governments too), not just states.\n(B) is wrong because they are related but not identical ideas.\n(C) is wrong because separation of powers covers all three branches, not only the legislature."
     },
     {
       "id": "1-40",
@@ -559,7 +559,7 @@ const QUESTIONS = {
         "The executive branch checking the judicial branch."
       ],
       "correct": 2,
-      "explanation": "This is the legislative branch — specifically the Senate's 'advice and consent' role under Article II — checking the executive branch's power to appoint federal judges; the president cannot seat a judge without Senate approval. It is not the judicial branch checking anyone (ruling out D), the executive checking the judiciary (ruling out B), and it isn't Congress checking a court's rulings, since no ruling has yet occurred at the confirmation stage (ruling out C)."
+      "explanation": "Correct: (C) The legislative branch checking the executive's appointment power. Under Article II, Section 2, the president nominates federal judges 'by and with the Advice and Consent of the Senate,' and a majority of senators must vote to confirm. The Senate, part of the legislative branch, is limiting the executive's power to appoint, so the check runs from legislature to executive.\n\n(A) is wrong because no judicial ruling is being checked at the confirmation stage; the nominee is not yet a judge.\n(B) is wrong because the judicial branch is not acting; only the Senate votes.\n(D) is wrong because the executive is the branch being checked here, not the checker, and the subject is the Senate's vote."
     },
     {
       "id": "1-41",
@@ -585,7 +585,7 @@ const QUESTIONS = {
         "A single, one-directional check with no counter-check available to the branch that was checked."
       ],
       "correct": 2,
-      "explanation": "This sequence is checks and balances working exactly as designed — first the executive checks the legislature (the veto), then the legislature checks back (the override) — the kind of mutual, competing check Madison describes in Federalist No. 51. It doesn't violate separation of powers, which is precisely what makes such checks possible (ruling out A); no court is involved (ruling out C); and because the legislature does check back via the override, it isn't a single check without a counter-check (ruling out D)."
+      "explanation": "Correct: (C) The veto checking Congress, followed by Congress's override checking back. The president's veto (Article I, Section 7) is an executive check on the legislature. Congress can answer with a vote of two-thirds in both the House and the Senate to override, a legislative check on the executive. This back-and-forth shows power being balanced, as Madison intended in Federalist No. 51.\n\n(A) is wrong because each branch is using a power the Constitution gives it, so nothing is unconstitutional.\n(B) is wrong because no court ruling or judicial action is involved.\n(D) is wrong because the override is a counter-check available to Congress, so the check is not one-directional."
     },
     {
       "id": "1-43",
@@ -637,7 +637,7 @@ const QUESTIONS = {
         "'There are three branches of government in the republic.'"
       ],
       "correct": 0,
-      "explanation": "A fully correct answer names an actual tool one branch uses against another — like the veto — rather than a vague restatement that checks and balances exist (ruling out A), that powers are separated (ruling out B), or that three branches exist (ruling out C). Those three are all true but don't answer what was actually asked: a SPECIFIC check."
+      "explanation": "Correct: (A) 'The president can veto Congress's legislation.' The prompt asks for a specific check, meaning a named power by which one branch limits another. The veto is exactly that.\n\n(B) is wrong because it only says that checks and balances exist, without naming a power or the branches involved.\n(C) is wrong because it restates separation of powers, which is a structure, not a particular check.\n(D) is wrong because it just states that there are three branches, which is true but not a check."
     },
     {
       "id": "1-47",
@@ -676,7 +676,7 @@ const QUESTIONS = {
         "Because banks are exempt from all taxation everywhere."
       ],
       "correct": 0,
-      "explanation": "The second half of McCulloch rests on the Supremacy Clause: since the national bank was a legitimate exercise of federal power, Maryland's tax on it threatened to undermine valid federal law and was therefore unconstitutional. The bank's ownership is irrelevant to the holding (ruling out A), banks are not exempt from taxation generally — only this federal institution, on these grounds (ruling out C) — and Maryland retained its general taxing power, just not the power to tax this federal entity (ruling out D)."
+      "explanation": "Correct: (A) Because the Supremacy Clause bars conflicting state action. In McCulloch v. Maryland (1819), the Court first held that Congress could charter the bank under the Necessary and Proper Clause (implied powers). It then held that Maryland could not tax it, because the Supremacy Clause (Article VI) makes valid federal law supreme over state law and 'the power to tax involves the power to destroy,' so a state could not undermine a federal institution. Chief Justice Marshall wrote the opinion.\n\n(B) is wrong because the bank's ownership was not the basis of the holding.\n(C) is wrong because Maryland does have general taxing power; the ruling barred only this tax on a federal institution.\n(D) is wrong because banks are not exempt from taxation generally; the immunity came from the bank's federal status."
     },
     {
       "id": "1-50",
@@ -767,7 +767,7 @@ const QUESTIONS = {
         "Categorical grants provide broader discretion to states; block grants are narrowly restricted."
       ],
       "correct": 2,
-      "explanation": "Categorical grants are tightly restricted to a specific, narrowly defined purpose with detailed conditions attached, while block grants fund a broader purpose and give states considerably more discretion over spending — the reverse of choice D. The two grant types are meaningfully different (ruling out B), and neither is restricted to national defense specifically (ruling out A)."
+      "explanation": "Correct: (C) Categorical grants carry narrow, detailed conditions; block grants give broader, flexible funding. A categorical grant funds a specific purpose and comes with strict rules about how the money may be used. A block grant gives money for a broad area, such as public health or social services, and states decide the details. Compare the amount of discretion left to the state.\n\n(A) is wrong because block grants cover many policy areas, not only national defense.\n(B) is wrong because the difference is real and affects state discretion.\n(D) is wrong because it reverses the two: the categorical grant is the more restrictive one."
     },
     {
       "id": "1-57",
@@ -780,7 +780,7 @@ const QUESTIONS = {
         "A reserved power exercised solely by the state."
       ],
       "correct": 1,
-      "explanation": "This is a categorical grant used as a fiscal-federalism tool: the federal government cannot directly set a state's drinking age (a reserved power), but it can condition highway funding on states adopting the desired policy, creating strong financial pressure to comply. It isn't an unfunded mandate, since no direct legal requirement is imposed and the state can decline the money (ruling out B); it isn't Congress directly exercising a reserved state power (ruling out C); and it doesn't rest on the Supremacy Clause, which addresses conflicts between valid federal and state law, not funding conditions (ruling out D)."
+      "explanation": "Correct: (B) A categorical grant tied to a policy condition. Congress cannot directly set a state's drinking age (a power reserved to the states by the 10th Amendment), but it can attach conditions to money it gives: in South Dakota v. Dole (1987) the Court upheld withholding a small share of federal highway funds from states with a drinking age under 21. The money is given for a specific purpose (highways) with a policy condition, so it is a conditional categorical grant.\n\n(A) is wrong because an unfunded mandate is a requirement with no money attached, and here a state can decline the funding and the condition.\n(C) is wrong because the Supremacy Clause settles conflicts between valid federal and state laws, and no federal law dictates the age.\n(D) is wrong because the state is not acting alone; the federal government is influencing the choice through funding."
     },
     {
       "id": "1-58",
@@ -793,7 +793,7 @@ const QUESTIONS = {
         "A federal requirement accompanied by full federal funding to cover compliance costs."
       ],
       "correct": 2,
-      "explanation": "An unfunded mandate is a federal requirement states must comply with, without federal funding to cover the compliance costs — the opposite of choice D, which describes a FUNDED mandate. It is not a grant at all, so it isn't optional the way a grant can be (ruling out A), and it runs in the wrong direction from choice B, which describes the federal government funding a state law rather than a state complying with a federal one."
+      "explanation": "Correct: (C) A federal requirement imposed on states with no funding to cover its costs. The term has two parts: the federal government requires states or localities to do something, and it does not pay for the compliance costs, so the states must cover them from their own budgets.\n\n(A) is wrong because grants are optional offers of money, not mandates.\n(B) is wrong because it points the funding in the wrong direction; a state law funded by the federal government is not a mandate on states.\n(D) is wrong because a requirement with full funding is a funded mandate, which is the opposite of 'unfunded.'"
     },
     {
       "id": "1-59",
@@ -806,7 +806,7 @@ const QUESTIONS = {
         "That the Commerce Clause gives Congress unlimited regulatory authority over any activity."
       ],
       "correct": 1,
-      "explanation": "Lopez was significant precisely because the Court limited federal power, ruling that a federal law banning guns near schools exceeded Congress's Commerce Clause authority since gun possession near a school lacked a substantial connection to interstate commerce — the opposite of choice D, which claims unlimited authority. The Commerce Clause itself was not struck down, only this particular application (ruling out A), and its reach extends well beyond interstate travel alone (ruling out C)."
+      "explanation": "Correct: (B) That the Commerce Clause has limits and doesn't reach weakly-connected activities. In United States v. Lopez (1995), the Court struck down the Gun-Free School Zones Act of 1990 because possessing a gun near a school is not economic activity and has no substantial effect on interstate commerce. It was the first time in about 60 years that the Court limited Congress's Commerce Clause power, and it reinforced federalism by protecting state authority.\n\n(A) is wrong because the Court struck down one statute, not the clause.\n(C) is wrong because the clause covers much more than interstate travel, including activities that substantially affect interstate commerce.\n(D) is wrong because it states the opposite: the Court said Congress's power is not unlimited."
     },
     {
       "id": "1-60",
@@ -819,7 +819,7 @@ const QUESTIONS = {
         "Ratification of the 16th Amendment, which gave Congress the power to levy an income tax."
       ],
       "correct": 1,
-      "explanation": "Lopez (1995) is the genuine counterexample: the Court struck down a federal law (banning guns near schools) as exceeding Congress's Commerce Clause authority, shifting power back toward the states rather than expanding federal power. The New Deal's agency expansion (C), McCulloch's implied-powers holding (A), and the 16th Amendment's income tax power (D) are all instances of federal power GROWING, not contracting — a student must recognize that these three fit the historian's pattern before Lopez stands out as the one that breaks it."
+      "explanation": "Correct: (B) United States v. Lopez, striking down a federal law as beyond Commerce Clause power. The historian says federal power has grown continuously 'with no exceptions,' so you need an example where federal power was cut back. In Lopez (1995) the Court held that Congress exceeded its Commerce Clause power, limiting federal authority.\n\n(A) is wrong because McCulloch (1819) expanded federal power by upholding implied powers.\n(C) is wrong because the New Deal expanded federal regulation, which fits the historian's claim.\n(D) is wrong because the 16th Amendment (1913) gave Congress income-tax power, which is also an expansion."
     },
     {
       "id": "1-61",
@@ -832,7 +832,7 @@ const QUESTIONS = {
         "States automatically receive categorical grants regardless of their preferences."
       ],
       "correct": 1,
-      "explanation": "Since categorical grants carry specific conditions, a state may judge that complying — adopting a policy it opposes, for instance — isn't worth the money, and decline the grant; states retain that option even though the financial pressure to accept can be significant. This rules out A, since declining is legally available, not prohibited; B, since states must actually apply for and accept grants, they aren't automatic; and D, since categorical grants are specifically defined by having such conditions attached."
+      "explanation": "Correct: (B) The state may object to the funding's attached policy conditions. Categorical grants are offered for specific purposes with strings attached, and accepting them is voluntary. A state may decide that the conditions, such as required standards or matching funds, are not worth the money, or conflict with its own policy preferences.\n\n(A) is wrong because states are not prohibited from declining federal funds; the offer is voluntary.\n(C) is wrong because conditions are the defining feature of categorical grants.\n(D) is wrong because states must apply for and accept grants; they do not receive them automatically."
     },
     {
       "id": "1-62",
@@ -871,7 +871,7 @@ const QUESTIONS = {
         "A categorical grant with narrow, specific conditions."
       ],
       "correct": 3,
-      "explanation": "Categorical grants are, by definition, narrowly restricted to a specific purpose with detailed conditions — giving states far less discretion than a block grant (broader purpose, more flexibility, choice A), unrestricted revenue sharing (choice C), or a grant with no conditions at all (choice B), all of which leave the state considerably freer to decide how to spend the money."
+      "explanation": "Correct: (D) A categorical grant with narrow, specific conditions. Discretion is the freedom to decide how money is spent. Categorical grants restrict funds to a defined purpose with detailed rules, leaving states the least flexibility.\n\n(A) is wrong because block grants cover a broad area, such as public health, and let states choose how to spend within it, so the state has more discretion.\n(B) is wrong because a grant with no conditions leaves the most discretion.\n(C) is wrong because unrestricted revenue sharing lets states spend on nearly anything."
     },
     {
       "id": "1-65",
@@ -885,7 +885,7 @@ const QUESTIONS = {
         "Both tools are functionally identical in how they constrain state choices."
       ],
       "correct": 0,
-      "explanation": "A categorical grant is fundamentally an incentive — the state retains a real, if often financially painful, option to decline both the money and its attached conditions. An unfunded mandate is a legal obligation: the state must comply with the federal requirement regardless of whether it wants to, and regardless of whether any funding comes with it — a structurally more direct constraint on state autonomy than a grant's conditional incentive. This is the reverse of choice C, which swaps which tool is optional; and since the two tools plainly differ this way, they are neither functionally identical (ruling out D) nor without real effect on state behavior (ruling out B)."
+      "explanation": "Correct: (A) The categorical grant offers a choice; the mandate imposes an obligation regardless. A categorical grant is an incentive: a state that dislikes the curriculum condition can decline the money and avoid the condition (as upheld for conditional spending in South Dakota v. Dole). An unfunded mandate is a legal duty, so the state must provide the special education services whether or not it receives federal funds to cover the cost. The key structural difference is optional versus compulsory.\n\n(B) is wrong because both clearly affect state budgets and policy.\n(C) is wrong because it reverses which tool is optional.\n(D) is wrong because one is a voluntary condition and the other is a binding requirement, so their constraints differ."
     },
     {
       "id": "1-66",
@@ -898,7 +898,7 @@ const QUESTIONS = {
         "A composition of both national and federal elements."
       ],
       "correct": 3,
-      "explanation": "Madison's central claim in Federalist No. 39 is that the Constitution is \"neither a national nor a federal Constitution, but a composition of both\" — a deliberate hybrid, not a purely national system (ruling out A), not a confederation leaving states with all authority (ruling out C), and not framed as a temporary step toward full consolidation (ruling out D)."
+      "explanation": "Correct: (D) A composition of both national and federal elements. In Federalist No. 39, Madison examines the foundation, sources of power, operation and amendment of the Constitution and concludes it is 'neither a national nor a federal Constitution, but a composition of both.' Some features, like ratification by states and equal state representation in the Senate, are federal; others, like government acting directly on individuals, are national.\n\n(A) is wrong because Madison does not describe it as temporary.\n(B) is wrong because states do not retain all authority; the national government has its own powers.\n(C) is wrong because it is not purely national; it preserves state governments and their roles."
     },
     {
       "id": "1-67",
@@ -911,7 +911,7 @@ const QUESTIONS = {
         "The Supremacy Clause's priority over conflicting state law."
       ],
       "correct": 1,
-      "explanation": "Madison points to ratification proceeding state-by-state, through conventions of the people acting in their separate state capacities, as a federal feature of the Constitution. Acting directly on individuals, federal supremacy over state law, and expansive implied powers are the kinds of features Madison instead treats as evidence of the Constitution's national character."
+      "explanation": "Correct: (B) Ratification by the people acting through separate state conventions. In Federalist No. 39 Madison says ratification was not an act of one national majority; it was done by the people of each state acting as distinct political societies, so it is a federal feature.\n\n(A) is wrong because implied powers expand national authority and are not Madison's evidence of federal character.\n(C) is wrong because the national government's power to act directly on individuals is a national feature (unlike the Articles, which acted on states).\n(D) is wrong because the Supremacy Clause makes national law supreme over state law, which is national, not federal."
     },
     {
       "id": "1-68",
@@ -937,7 +937,7 @@ const QUESTIONS = {
         "Popular sovereignty."
       ],
       "correct": 3,
-      "explanation": "\"Of the people, by the people, for the people\" is a definition of popular sovereignty — the idea that governing authority originates with and belongs to ordinary citizens. It does not describe how power is divided among branches (separation of powers), between national and state governments (federalism), or a court's power to review laws (judicial review)."
+      "explanation": "Correct: (D) Popular sovereignty. Popular sovereignty is the principle that government's authority comes from the people and is exercised by and for them. In the Gettysburg Address (1863), Lincoln's phrase 'of the people, by the people, for the people' says that government belongs to the people, is run by the people and serves the people.\n\n(A) is wrong because federalism concerns the division of power between national and state governments.\n(B) is wrong because judicial review is the power of courts to strike down unconstitutional laws.\n(C) is wrong because separation of powers divides authority among the three branches, which the phrase does not address."
     },
     {
       "id": "1-70",
@@ -950,7 +950,7 @@ const QUESTIONS = {
         "It reasserts the Declaration's equality principle in the context of the Civil War."
       ],
       "correct": 3,
-      "explanation": "Lincoln frames the nation as \"dedicated to the proposition that all men are created equal,\" directly reasserting the Declaration of Independence's equality principle during a moment when the Union's commitment to it was being tested. Neither document repeals the other's claims, and like the Declaration, the Gettysburg Address creates no legal institutions."
+      "explanation": "Correct: (D) It reasserts the Declaration's equality principle in the context of the Civil War. Lincoln opens by saying the nation was 'conceived in Liberty, and dedicated to the proposition that all men are created equal,' echoing the Declaration of Independence's 'all men are created equal.' He frames the Civil War as a test of whether a nation based on that idea can last.\n\n(A) is wrong because the address deliberately builds on the founding ideals, beginning with 'four score and seven years ago' (1776).\n(B) is wrong because the address is a short speech and creates no legal institutions, courts or otherwise.\n(C) is wrong because the address affirms, not repeals, the Declaration's principles."
     }
   ],
   "2": [
@@ -1485,7 +1485,7 @@ const QUESTIONS = {
         "Whether a state could tax a federally-chartered bank operating within its borders."
       ],
       "correct": 1,
-      "explanation": "The immediate, narrow dispute in Marbury v. Madison concerned whether William Marbury was entitled to receive a judicial commission he had been promised — a relatively minor dispute that Chief Justice Marshall used as the occasion to establish the far more consequential principle of judicial review. Choice D describes McCulloch v. Maryland; choice C describes Commerce Clause cases like Gibbons v. Ogden; choice A describes Engel v. Vitale — none are the actual dispute in Marbury."
+      "explanation": "Correct: (B) Whether Marbury was entitled to receive his judicial commission. William Marbury was appointed a justice of the peace by President John Adams in the last hours of his term, but Secretary of State James Madison, under the new president Jefferson, withheld the signed commission. Marbury asked the Supreme Court for a writ of mandamus ordering Madison to deliver it. The narrow question was whether he had a right to the commission and whether the Court could order it. Chief Justice Marshall (1803) concluded that Marbury had a right to it but that the part of the Judiciary Act of 1789 giving the Court power to issue such a writ was unconstitutional, which established judicial review.\n\n(A) is wrong because school prayer was the issue in Engel v. Vitale (1962).\n(C) is wrong because steamboats and interstate commerce were the subject of Gibbons v. Ogden (1824).\n(D) is wrong because a state tax on a federally chartered bank was McCulloch v. Maryland (1819)."
     },
     {
       "id": "2-42",
@@ -1745,7 +1745,7 @@ const QUESTIONS = {
         "The executive branch alone"
       ],
       "correct": 1,
-      "explanation": "This kind of dispute — over whether an agency's regulation exceeded the authority granted to it by the underlying statute — is resolved by the judicial branch, which has the authority to review and potentially strike down regulations found to exceed an agency's legitimate statutory or constitutional authority."
+      "explanation": "Correct: (B) The judicial branch. A business claiming that an agency's regulation goes beyond the authority Congress gave it is raising a legal question about the statute's meaning and limits. Courts resolve disputes over whether executive agencies stayed within their statutory and constitutional bounds, using judicial review of agency action (federal courts can set aside regulations found to be unauthorized). The stem's clue is 'sues,' which brings the question to the courts, and 'exceeded its statutory authority,' which is a question of law.\n\n(A) is wrong because Congress wrote the law but does not decide individual legal disputes over how it is applied (it could pass a new statute, but that does not resolve this lawsuit).\n(C) is wrong because the bureaucracy is the party being challenged and cannot be the final judge of its own authority.\n(D) is wrong because the executive branch includes the agency being sued, so it cannot resolve the dispute alone."
     },
     {
       "id": "2-62",
@@ -1798,7 +1798,7 @@ const QUESTIONS = {
         "This scenario only involves the legislative branch, with no connection to other institutions."
       ],
       "correct": 2,
-      "explanation": "This scenario is a genuine synthesis of the unit's core ideas: Congress's broadly-worded statute exemplifies how legislative language often leaves considerable interpretive gaps; the agency's regulation is a direct exercise of rule-making, filling in those gaps with binding specifics; and the business's court challenge invokes judicial review, since courts have the authority to determine whether an agency's regulation genuinely falls within the authority Congress actually granted. Choice B is wrong because courts clearly do have this reviewing authority; choice D is wrong because the scenario also involves the bureaucracy and courts, not just Congress; choice A is wrong because the scenario centers on Congress, an agency, and a court, not the president."
+      "explanation": "Correct: (C) This scenario connects congressional lawmaking, bureaucratic rule-making, and judicial review. Congress passes a statute written in broad terms ('unfair market practices'), delegating the details to an agency. The agency, part of the executive branch, fills in the gaps through rule-making, issuing a regulation that has the force of law. The business then sues, and the court uses judicial review to decide whether the regulation is within what the statute authorizes, including whether the delegation is too vague. All three institutions are involved.\n\n(A) is wrong because the facts involve Congress's statute and the courts as well as the agency, and the president is not the focus.\n(B) is wrong because courts do have authority to review agency regulations.\n(D) is wrong because the agency and the court are plainly involved, so it is not only about the legislature."
     }
   ],
   "3": [
@@ -1826,7 +1826,7 @@ const QUESTIONS = {
         "The Due Process Clause"
       ],
       "correct": 3,
-      "explanation": "The 14th Amendment's Due Process Clause is the vehicle courts have used to apply specific Bill of Rights protections to the states, one right at a time. The 10th Amendment reserves undelegated powers to the states rather than incorporating rights; the Establishment Clause and Commerce Clause are substantive provisions, not incorporation mechanisms."
+      "explanation": "Correct: (D) The Due Process Clause. The Bill of Rights originally limited only the national government. After the 14th Amendment (1868) said no state may 'deprive any person of life, liberty, or property, without due process of law,' the Supreme Court read 'liberty' to include most Bill of Rights protections, applying them to the states one at a time. That doctrine is selective incorporation. The clue in the stem is 'vehicle,' meaning the clause the Court uses to carry rights down to the states.\n\n(A) is wrong because the Commerce Clause gives Congress power over trade and has nothing to do with applying individual rights to the states.\n(B) is wrong because the 10th Amendment reserves powers to the states and people; it is a source of state authority, not of incorporation.\n(C) is wrong because the Establishment Clause is one of the rights that was incorporated (Everson v. Board of Education, 1947), not the vehicle that incorporates."
     },
     {
       "id": "3-3",
@@ -1839,7 +1839,7 @@ const QUESTIONS = {
         "That the 2nd Amendment applies to the states and cities"
       ],
       "correct": 1,
-      "explanation": "Gideon v. Wainwright incorporated the 6th Amendment right to counsel, requiring states to provide a public defender to criminal defendants who cannot afford an attorney. The 2nd Amendment incorporation came later in McDonald v. Chicago; the case did not involve civil jury trials, and the right to remain silent (Miranda) is a separate 5th Amendment doctrine."
+      "explanation": "Correct: (B) That states must provide counsel to poor defendants. In Gideon v. Wainwright (1963), Clarence Earl Gideon was convicted of a Florida felony after being denied a lawyer because he could not afford one. The Court unanimously held that the 6th Amendment right to counsel is a fundamental right applying to the states through the 14th Amendment's Due Process Clause, so states must appoint counsel for indigent defendants in serious criminal cases.\n\n(A) is wrong because the right to remain silent comes from the 5th Amendment and was applied to police questioning in Miranda v. Arizona (1966).\n(C) is wrong because jury trials in civil cases fall under the 7th Amendment, which Gideon did not address.\n(D) is wrong because incorporating the 2nd Amendment was McDonald v. Chicago (2010)."
     },
     {
       "id": "3-4",
@@ -1852,7 +1852,7 @@ const QUESTIONS = {
         "That the right to bear arms applies nowhere in the U.S."
       ],
       "correct": 1,
-      "explanation": "McDonald v. Chicago incorporated the 2nd Amendment via the 14th Amendment's Due Process Clause, holding that it applies to state and local governments and striking down Chicago's handgun ban. The other options each state the opposite of, or something unrelated to, that holding — the ruling expanded rather than eliminated the right, and said nothing about federal licensing."
+      "explanation": "Correct: (B) That the 2nd Amendment applies to state and local governments. District of Columbia v. Heller (2008) held that the 2nd Amendment protects an individual right to keep a handgun at home, but D.C. is federal territory. In McDonald v. Chicago (2010), the Court held 5-4 that this right is fundamental and incorporated through the 14th Amendment's Due Process Clause, so Chicago's handgun ban was invalid.\n\n(A) is wrong because the case concerned a city ban, not a federal licensing requirement.\n(C) is wrong because the Court limited, not authorized, a total ban on handguns in the home.\n(D) is wrong because the ruling extended the right to the states and cities; it did not eliminate it."
     },
     {
       "id": "3-5",
@@ -1865,7 +1865,7 @@ const QUESTIONS = {
         "Yes, because the 10th Amendment automatically incorporates every right."
       ],
       "correct": 0,
-      "explanation": "Selective incorporation is exactly that — selective: each right needs its own court ruling applying it to the states, with no automatic blanket rule. Option C is false because the Bill of Rights originally bound only the federal government; option D misstates the 10th Amendment, which reserves power rather than incorporating rights; option B is false since cases like Gideon and McDonald show incorporation has repeatedly occurred."
+      "explanation": "Correct: (A) No, because incorporation happens one right at a time, not as a single blanket rule. The Bill of Rights was written to restrict only the federal government (Barron v. Baltimore, 1833). Beginning in the early 1900s, the Court has asked, right by right, whether a protection is fundamental to the American scheme of ordered liberty; if so, it is applied to the states through the 14th Amendment. Most provisions are now incorporated, but each needed its own ruling.\n\n(B) is wrong because many rights have been incorporated, for example counsel (Gideon) and the 2nd Amendment (McDonald).\n(C) is wrong because the Bill of Rights did not originally bind states.\n(D) is wrong because the 10th Amendment reserves powers to the states; it does not incorporate rights, and the 14th Amendment is the vehicle."
     },
     {
       "id": "3-6",
@@ -1904,7 +1904,7 @@ const QUESTIONS = {
         "A single ruling that incorporated the whole Bill of Rights at once."
       ],
       "correct": 1,
-      "explanation": "Selective incorporation proceeds gradually, right by right, through individual Supreme Court rulings using the 14th Amendment's Due Process Clause. It has occurred repeatedly (ruling out option A), was never done in one sweeping ruling (option D), and the 14th Amendment itself (ratified 1868) did not automatically incorporate every right — courts had to apply it case by case over the following century (option C)."
+      "explanation": "Correct: (B) A gradual, case-by-case incorporation of rights via the 14th Amendment. Selective incorporation is the process in which the Supreme Court, through separate cases over many decades (for example Gitlow in 1925, Mapp in 1961, Gideon in 1963, McDonald in 2010), has applied particular Bill of Rights guarantees to the states using the Due Process Clause of the 14th Amendment. The word 'selective' signals that rights are chosen individually.\n\n(A) is wrong because it has occurred many times.\n(C) is wrong because the 14th Amendment (1868) did not itself list incorporated rights; the Court worked it out later.\n(D) is wrong because no single ruling incorporated the entire Bill of Rights, and some provisions, such as the 3rd Amendment and the grand jury clause, are not incorporated."
     },
     {
       "id": "3-9",
@@ -1917,7 +1917,7 @@ const QUESTIONS = {
         "Yes, but only during a declared wartime emergency or in times of crisis."
       ],
       "correct": 1,
-      "explanation": "Before incorporation, a state restricting a right later found to be incorporated did not violate the federal Bill of Rights directly, since it originally bound only the federal government (though the state's own constitution might have provided separate protection). The 10th Amendment addresses reserved powers, not this question; there was no wartime exception; and states were not bound from ratification in 1791 — that is the very premise selective incorporation later changed."
+      "explanation": "Correct: (B) Yes, because the Bill of Rights originally restricted only the federal government. In Barron v. Baltimore (1833), Chief Justice Marshall held that the Bill of Rights limits the national government, not the states. A state could therefore restrict a right such as speech or counsel without violating the U.S. Constitution, though it might violate its own state constitution. That changed only as the Court incorporated rights through the 14th Amendment (ratified 1868).\n\n(A) is wrong because the 10th Amendment does not bar this; it reserves powers to the states.\n(C) is wrong because states were not bound by the Bill of Rights from 1791.\n(D) is wrong because there was no wartime exception; the original Bill of Rights simply did not apply to the states at all."
     },
     {
       "id": "3-10",
@@ -1930,7 +1930,7 @@ const QUESTIONS = {
         "That voluntary school-sponsored prayer is constitutional."
       ],
       "correct": 0,
-      "explanation": "Engel v. Vitale held that even a voluntary, nondenominational, school-sponsored prayer violates the Establishment Clause — the government's official sponsorship was itself the problem, regardless of whether students could opt out. It did not require prayer (the opposite of option B), it did not uphold voluntary sponsored prayer (option D), and it squarely was a First Amendment case (ruling out option C)."
+      "explanation": "Correct: (A) That school-sponsored prayer violates the Establishment Clause. In Engel v. Vitale (1962), New York's Board of Regents wrote a short, nondenominational prayer for students to recite each day. The Court ruled 6-1 that having a government body compose and sponsor an official prayer in public schools violates the 1st Amendment's Establishment Clause, applied to the states through the 14th Amendment. The key idea is that the government itself cannot write or promote religious exercises.\n\n(B) is wrong because the ruling did not require prayer; it restricted state-sponsored prayer.\n(C) is wrong because the case was decided on the First Amendment.\n(D) is wrong because the prayer in Engel was voluntary and the Court still held it unconstitutional."
     },
     {
       "id": "3-11",
@@ -1943,7 +1943,7 @@ const QUESTIONS = {
         "That Amish parents could not be compelled to school children past 8th grade."
       ],
       "correct": 3,
-      "explanation": "Wisconsin v. Yoder ruled for the Amish families, finding the compulsory-education law substantially burdened their sincere religious practice and that the state's interest did not outweigh that burden here. It did not impose a universal schooling mandate (option A is the opposite result); it was a Free Exercise case, not an Establishment Clause case (option C); and its holding was narrow to these facts, not a categorical exemption for all religious objections everywhere (option B overstates it)."
+      "explanation": "Correct: (D) That Amish parents could not be compelled to school children past 8th grade. Wisconsin required school attendance until age 16, but Amish parents said high school would expose their children to values contrary to their faith and way of life. In Wisconsin v. Yoder (1972), the Court unanimously held that the state's interest in compulsory education was not strong enough to override the Amish families' sincere religious practice under the Free Exercise Clause. The ruling rested on the particular long-established nature of Amish life.\n\n(A) is wrong because the Court allowed an exemption, the opposite of a no-exception mandate.\n(B) is wrong because the decision was narrow and did not hold that religious objections excuse people from all laws.\n(C) is wrong because the claim was about the Free Exercise Clause (a burden on religious practice), not state support of religion."
     },
     {
       "id": "3-12",
@@ -1982,7 +1982,7 @@ const QUESTIONS = {
         "Yes, but only for students younger than age ten."
       ],
       "correct": 0,
-      "explanation": "The Court specifically rejected the argument that voluntary participation cured the Establishment Clause problem — the government's sponsorship and endorsement of the prayer was itself unconstitutional, independent of whether any student was compelled to join in. Option C states the opposite of the holding; option B is false since the voluntariness argument was directly addressed and rejected; option D invents an age distinction the case never drew."
+      "explanation": "Correct: (A) No, because government sponsorship of the prayer was the violation. In Engel v. Vitale (1962), the state argued that the Regents' prayer was nondenominational and that students could be excused. The Court ruled that the Establishment Clause prohibits the government from composing and officially sponsoring prayer, whether or not anyone is forced to join. The harm is state endorsement of religion, so voluntariness does not cure it.\n\n(B) is wrong because voluntary participation was raised and rejected as a defense.\n(C) is wrong because it states the opposite of the holding.\n(D) is wrong because the Court drew no age distinction."
     },
     {
       "id": "3-15",
@@ -1995,7 +1995,7 @@ const QUESTIONS = {
         "The scenario differs too much from Engel v. Vitale to apply its reasoning."
       ],
       "correct": 1,
-      "explanation": "This scenario mirrors Engel's facts almost exactly — a school-composed, officially sponsored prayer with an opt-out — and would likely be found unconstitutional under that precedent, since Engel rejected both the nondenominational and voluntary-participation defenses raised in options A and C. Option D is wrong because Engel is precisely the controlling required case for this fact pattern."
+      "explanation": "Correct: (B) No, because this practice closely parallels Engel v. Vitale's facts. The district itself wrote an official prayer and has it read each morning, which is school sponsorship of religious exercise, the key fact in Engel v. Vitale (1962). The two defenses offered, that students may opt out and that the prayer is nondenominational, were the same defenses the Court rejected in Engel, where the Regents' prayer was both voluntary and nondenominational.\n\n(A) is wrong because voluntary participation does not remove the Establishment Clause violation.\n(C) is wrong because a prayer that favors no particular faith is still an official government religious exercise.\n(D) is wrong because the facts are nearly identical, so Engel applies directly."
     },
     {
       "id": "3-16",
@@ -2060,7 +2060,7 @@ const QUESTIONS = {
         "A school district sponsoring a daily prayer for its students."
       ],
       "correct": 0,
-      "explanation": "Schenck v. United States arose from a conviction under the Espionage Act for distributing leaflets urging resistance to the WWI draft; the Court upheld the conviction, establishing the 'clear and present danger' standard. Option C describes New York Times Co. v. United States; option D describes Engel v. Vitale; option B describes Tinker v. Des Moines."
+      "explanation": "Correct: (A) A man distributing leaflets urging resistance to the WWI draft. Charles Schenck, general secretary of the Socialist Party, mailed leaflets urging men to resist the draft and was convicted under the Espionage Act of 1917. In Schenck v. United States (1919), Justice Holmes wrote for a unanimous Court that speech is not protected when it creates a 'clear and present danger' of bringing about harms Congress may prevent, particularly in wartime.\n\n(B) is wrong because the armband protest was Tinker v. Des Moines (1969).\n(C) is wrong because publishing classified documents was New York Times Co. v. United States (1971).\n(D) is wrong because school-sponsored prayer was Engel v. Vitale (1962)."
     },
     {
       "id": "3-21",
@@ -2073,7 +2073,7 @@ const QUESTIONS = {
         "That students retain First Amendment rights at school, with limits."
       ],
       "correct": 3,
-      "explanation": "Tinker v. Des Moines held that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate,' while also allowing schools to restrict speech that would substantially disrupt the educational environment. Option A overstates the protection (there is an exception); option C is wrong because Tinker itself protected symbolic speech (the armbands); option B states the opposite of the holding."
+      "explanation": "Correct: (D) That students retain First Amendment rights at school, with limits. In Tinker v. Des Moines (1969), the Court held 7-2 that students do not 'shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.' Schools may restrict student expression only if it would materially and substantially disrupt school activities or invade the rights of others. So the rights exist but are limited by the school setting.\n\n(A) is wrong because the substantial-disruption exception means speech is not protected without exceptions.\n(B) is wrong because it states the opposite of the holding.\n(C) is wrong because the black armbands in Tinker were symbolic speech, and the Court protected them."
     },
     {
       "id": "3-22",
@@ -2086,7 +2086,7 @@ const QUESTIONS = {
         "A school district officially sponsoring a prayer."
       ],
       "correct": 0,
-      "explanation": "Tinker v. Des Moines involved students who wore black armbands as a silent, symbolic protest against the Vietnam War, which the Court found to be protected symbolic speech. Option C describes Gideon v. Wainwright; option D describes Engel v. Vitale; option B describes New York Times Co. v. United States."
+      "explanation": "Correct: (A) Students wearing black armbands to protest the war. In December 1965, John and Mary Beth Tinker and Christopher Eckhardt wore black armbands to their Des Moines schools to protest the Vietnam War and were suspended. The Supreme Court held in Tinker v. Des Moines (1969) that wearing the armbands was symbolic speech, close to 'pure speech,' protected by the 1st Amendment because it did not disrupt school activities.\n\n(B) is wrong because publishing classified documents was New York Times Co. v. United States.\n(C) is wrong because denial of counsel at trial was Gideon v. Wainwright.\n(D) is wrong because school-sponsored prayer was Engel v. Vitale."
     },
     {
       "id": "3-23",
@@ -2099,7 +2099,7 @@ const QUESTIONS = {
         "Whenever any student or staff member merely disagrees with it."
       ],
       "correct": 0,
-      "explanation": "Tinker's standard limits restriction to speech that would cause a substantial disruption to the educational environment or infringe on others' rights — a comparatively high bar. Option C is wrong because political topics alone don't trigger restriction; option B overstates protection, since the substantial-disruption exception exists; option D is wrong because mere disagreement or discomfort does not meet Tinker's threshold."
+      "explanation": "Correct: (A) Only when speech would substantially disrupt school activities. Tinker v. Des Moines (1969) set the standard that school officials may restrict student expression only if they can show it would materially and substantially interfere with school operations or invade the rights of others. A school cannot suppress speech just because it is unpopular or controversial.\n\n(B) is wrong because the Tinker standard allows restriction when substantial disruption occurs, so speech is not unrestricted.\n(C) is wrong because political topics are not themselves grounds to restrict; the armbands in Tinker were political and were protected.\n(D) is wrong because mere disagreement or discomfort does not reach the level of substantial disruption."
     },
     {
       "id": "3-24",
@@ -2112,7 +2112,7 @@ const QUESTIONS = {
         "No — mere disagreement alone doesn't meet Tinker's standard."
       ],
       "correct": 3,
-      "explanation": "Since only disagreement occurred and no actual disruption resulted, this falls short of Tinker's 'substantial disruption' threshold, so the school likely could not constitutionally punish the student. Options B and C both treat disagreement or a speech's political content as sufficient grounds for punishment, which is exactly what Tinker rejects; option A is wrong because this is a textbook Tinker fact pattern."
+      "explanation": "Correct: (D) No, because mere disagreement alone doesn't meet Tinker's standard. Under Tinker v. Des Moines (1969), a school can punish student expression only if it materially and substantially disrupts school activities or invades others' rights. The facts say classmates disagreed but no class was disrupted, so the standard is not met. The Court said that a 'mere desire to avoid the discomfort and unpleasantness' of an unpopular viewpoint is not enough.\n\n(A) is wrong because this is a standard Tinker fact pattern about student expression.\n(B) is wrong because political speech is protected in schools unless it is disruptive; Tinker itself involved political protest.\n(C) is wrong because classmates' disagreement is not disruption."
     },
     {
       "id": "3-25",
@@ -2125,7 +2125,7 @@ const QUESTIONS = {
         "No, freedom of speech receives no constitutional protection."
       ],
       "correct": 2,
-      "explanation": "Freedom of speech is not absolute — cases like Schenck (the 'clear and present danger' test) and Tinker (the 'substantial disruption' standard for schools) show the frameworks courts use to decide when restriction is permissible. Option A overstates protection; option D understates it, since speech is a core protected right; option B wrongly limits the qualification to schools alone when limits exist in other contexts too (e.g., Schenck)."
+      "explanation": "Correct: (C) No, because courts apply various tests for restricting speech. The 1st Amendment protects speech strongly, but not without limits. Courts use different frameworks depending on context: Schenck's 'clear and present danger' test for speech threatening serious harm, Tinker's substantial-disruption test for students, and strict scrutiny for content-based government restrictions. The existence of those tests shows that speech is not absolute.\n\n(A) is wrong because not all speech is protected in all circumstances.\n(B) is wrong because limits are not confined to schools; for example, Schenck involved speech during wartime.\n(D) is wrong because speech receives strong constitutional protection."
     },
     {
       "id": "3-26",
@@ -2138,7 +2138,7 @@ const QUESTIONS = {
         "Neither case involves any First Amendment protections at all."
       ],
       "correct": 0,
-      "explanation": "Schenck's 'clear and present danger' test arose from wartime speech allegedly urging draft resistance; Tinker's 'substantial disruption' standard developed specifically for symbolic student speech in public schools — distinct contexts producing distinct tests. Option B ignores that distinction, option C swaps the two cases' actual facts, and option D is wrong since both are foundational First Amendment cases."
+      "explanation": "Correct: (A) Schenck addressed wartime speech; Tinker addressed symbolic speech in schools. Schenck v. United States (1919) involved leaflets urging resistance to the WWI draft, and the Court upheld the Espionage Act conviction under a 'clear and present danger' test. Tinker v. Des Moines (1969) involved black armbands worn in school to protest the Vietnam War, and the Court protected the speech because it did not substantially disrupt school activities. The two cases differ in setting, in who was speaking and in the result.\n\n(B) is wrong because they involve different facts and standards.\n(C) is wrong because it swaps the cases' facts.\n(D) is wrong because both are First Amendment cases."
     },
     {
       "id": "3-27",
@@ -2190,7 +2190,7 @@ const QUESTIONS = {
         "A state completely banning handgun ownership for every resident."
       ],
       "correct": 2,
-      "explanation": "New York Times Co. v. United States — the 'Pentagon Papers' case — involved the government seeking a court injunction to block newspapers from publishing classified Vietnam War documents. Option D describes McDonald v. Chicago; option A describes Engel v. Vitale; option B describes Tinker v. Des Moines."
+      "explanation": "Correct: (C) The government trying to block publication of classified war documents. In 1971, The New York Times and The Washington Post began publishing the Pentagon Papers, a classified Defense Department study of the Vietnam War. The Nixon administration sought court orders to stop publication, arguing national security. The case went to the Supreme Court within weeks.\n\n(A) is wrong because school-sponsored prayer was Engel v. Vitale.\n(B) is wrong because the student armband was Tinker v. Des Moines.\n(D) is wrong because a state handgun ban was McDonald v. Chicago."
     },
     {
       "id": "3-31",
@@ -2203,7 +2203,7 @@ const QUESTIONS = {
         "That the government failed to justify prior restraint, so publication could proceed."
       ],
       "correct": 3,
-      "explanation": "The Court ruled against the government, finding it had not met the heavy burden required to justify prior restraint, so publication could proceed — establishing a strong presumption against this kind of censorship. Options B and C both misstate the holding by giving the government (or denying the press) more power than the ruling actually did, and option A is wrong since this is a landmark First Amendment case."
+      "explanation": "Correct: (D) That the government failed to justify prior restraint, so publication could proceed. In New York Times Co. v. United States (1971), the Court ruled 6-3 in a brief per curiam opinion that any prior restraint on speech carries a 'heavy presumption against its constitutional validity,' and that the government had not carried the heavy burden of showing a justification. The newspapers were therefore free to publish.\n\n(A) is wrong because the case is a landmark 1st Amendment decision on freedom of the press.\n(B) is wrong because the Court rejected the government's request to block publication.\n(C) is wrong because the Court protected the press from this restraint."
     },
     {
       "id": "3-32",
@@ -2216,7 +2216,7 @@ const QUESTIONS = {
         "The ruling did not involve newspapers or any publication at all."
       ],
       "correct": 2,
-      "explanation": "The case's holding addresses only prior restraint — blocking publication in advance — and did not fully resolve whether other legal consequences might follow publication under separate legal theories. Option B overstates the ruling's effect (no such prosecution followed directly from it), and option A goes too far the other way by promising blanket immunity the ruling never provided."
+      "explanation": "Correct: (C) No, because the ruling addressed only prior restraint, not later consequences. The Court decided that the government could not stop publication in advance. Prior restraint (blocking before publication) is a different matter from punishing after publication. Some justices in separate opinions noted that the government might still be able to prosecute under laws such as the Espionage Act, and the Court did not decide that question.\n\n(A) is wrong because the ruling did not promise the newspapers immunity.\n(B) is wrong because the newspapers were not prosecuted as a result of this ruling.\n(D) is wrong because the case was entirely about newspapers and publication."
     },
     {
       "id": "3-33",
@@ -2229,7 +2229,7 @@ const QUESTIONS = {
         "There is no meaningful difference in how courts treat these two restrictions."
       ],
       "correct": 1,
-      "explanation": "Prior restraint is especially severe because it prevents the public from ever receiving the information in the first place — a complete, irreversible loss — while after-the-fact punishment at least allows the information to reach the public first. Options A and D both understate this real and well-established distinction, and option C is simply inaccurate: prior restraint doctrine applies most prominently to the press."
+      "explanation": "Correct: (B) Prior restraint keeps information from ever reaching the public at all. When a court or official blocks publication in advance, the public never gets the information or has the chance to evaluate it, and the speaker cannot even take the risk of publishing. After-the-fact punishment allows the speech to occur and be heard, with the speaker facing consequences later, and the speaker can defend the case in court. For that reason the Court treats prior restraints as presumptively unconstitutional (Near v. Minnesota, 1931; New York Times Co. v. United States, 1971).\n\n(A) is wrong because it reverses the doctrine.\n(C) is wrong because prior restraint doctrine is mainly applied to the press and other speakers, not just private individuals.\n(D) is wrong because courts do treat them differently."
     },
     {
       "id": "3-34",
@@ -2281,7 +2281,7 @@ const QUESTIONS = {
         "The president"
       ],
       "correct": 2,
-      "explanation": "The Supreme Court, exercising the judicial branch's authority, issued the ruling in New York Times Co. v. United States, deciding the government had failed to justify prior restraint and that the newspapers could proceed with publication. State legislatures, the president, and Congress played no role in that specific ruling — this was a judicial, not legislative or executive, decision."
+      "explanation": "Correct: (C) The Supreme Court. The newspapers went to the federal courts, and the Supreme Court decided New York Times Co. v. United States in June 1971, just days after oral argument, holding that the government could not stop publication. Deciding whether a government action violates the Constitution is a judicial function.\n\n(A) is wrong because Congress did not decide the dispute; it passed no law ending it.\n(B) is wrong because state legislatures were not involved in a federal case about federal classified documents.\n(D) is wrong because the president (Nixon) was on the other side, seeking to block publication."
     },
     {
       "id": "3-38",
@@ -2294,7 +2294,7 @@ const QUESTIONS = {
         "A type of procedure used only in criminal sentencing."
       ],
       "correct": 0,
-      "explanation": "Substantive due process is the doctrine by which courts read the Due Process Clause to protect certain fundamental rights not explicitly enumerated in the Constitution's text, such as the right to privacy — going beyond a purely procedural reading. Options C and D describe unrelated processes, and option B describes the opposite concept: procedural (not substantive) due process."
+      "explanation": "Correct: (A) A doctrine protecting fundamental rights not explicitly enumerated. Substantive due process holds that the Due Process Clauses of the 5th and 14th Amendments protect certain fundamental liberties (for example, privacy and marriage) from government interference, even if the Constitution does not list them, no matter what procedures the government uses. The word 'substantive' refers to the content of a law, not its process.\n\n(B) is wrong because protecting fair procedures describes procedural due process.\n(C) is wrong because confirming judicial nominees is a Senate power under Article II, not due process.\n(D) is wrong because due process applies far beyond criminal sentencing."
     },
     {
       "id": "3-39",
@@ -2307,7 +2307,7 @@ const QUESTIONS = {
         "That the right to privacy was created by a constitutional amendment ratified in the 1960s."
       ],
       "correct": 2,
-      "explanation": "Roe v. Wade held that the right to privacy, derived from the 14th Amendment's Due Process Clause, extended to a woman's decision to have an abortion, within a framework balancing that right against state interests as pregnancy progressed. Option A contradicts the holding directly; option B is wrong because Roe limited, rather than left unlimited, state regulatory authority; option D is inaccurate since the right to privacy is judicially implied, not amendment-created."
+      "explanation": "Correct: (C) That the right to privacy extended to a woman's decision to have an abortion. In Roe v. Wade (1973), the Court held 7-2 that the right to privacy, found in the liberty protected by the 14th Amendment's Due Process Clause (building on Griswold v. Connecticut, 1965), is broad enough to include a woman's decision to end a pregnancy. It set a trimester framework that gave the state increasing interests as pregnancy advanced.\n\n(A) is wrong because it denies the privacy basis the Court relied on.\n(B) is wrong because Roe limited, not expanded, state power to regulate abortion.\n(D) is wrong because no amendment created a privacy right; it was found by the Court through interpretation."
     },
     {
       "id": "3-40",
@@ -2320,7 +2320,7 @@ const QUESTIONS = {
         "Yes, but only in half of U.S. states."
       ],
       "correct": 1,
-      "explanation": "Dobbs v. Jackson Women's Health Organization (2022) overturned Roe, holding the Constitution does not confer a right to abortion and returning the issue to individual states. Options C and D both wrongly assume Roe still controls in some or all states; option A is factually wrong, since Dobbs was a Supreme Court ruling, not a constitutional amendment."
+      "explanation": "Correct: (B) No, because Dobbs (2022) overturned Roe and eliminated that right. In Dobbs v. Jackson Women's Health Organization (2022), the Supreme Court upheld Mississippi's 15-week abortion ban and overruled Roe v. Wade and Planned Parenthood v. Casey, holding that the Constitution does not confer a right to abortion and that the issue is returned to the states and their elected officials.\n\n(A) is wrong because a decision of the Court, not a constitutional amendment, overturned Roe.\n(C) is wrong because Roe is no longer in effect.\n(D) is wrong because Roe no longer controls in any state, so it is not half-effective."
     },
     {
       "id": "3-41",
@@ -2333,7 +2333,7 @@ const QUESTIONS = {
         "It is no longer relevant to the course in any way."
       ],
       "correct": 2,
-      "explanation": "Roe remains required because of its foundational significance to substantive due process and the right to privacy — understanding its reasoning matters even though a student should also know Dobbs later overturned it as controlling precedent. Option D contradicts that continuing relevance; option A is factually wrong since Roe is not current law; option B ignores Dobbs (2022)."
+      "explanation": "Correct: (C) It remains doctrinally significant, though no longer controlling law. Roe v. Wade is a required case because it illustrates how the Court recognized an unenumerated right to privacy through substantive due process, and students need to understand its reasoning to follow later developments such as Planned Parenthood v. Casey (1992) and Dobbs (2022). Being required for study does not make it current law.\n\n(A) is wrong because Roe was overruled by Dobbs and is not current governing law.\n(B) is wrong because Dobbs expressly overruled it.\n(D) is wrong because it is still relevant to understanding privacy and due process."
     },
     {
       "id": "3-42",
@@ -2346,7 +2346,7 @@ const QUESTIONS = {
         "In the text of the First Amendment's Free Exercise Clause"
       ],
       "correct": 0,
-      "explanation": "'Privacy' does not explicitly appear anywhere in the Constitution — it is an implied right, derived through substantive due process interpretation of the Due Process Clause and other provisions, not an enumerated textual right. Article III concerns the judiciary's structure, and neither the Due Process Clause nor the First Amendment uses the word 'privacy' itself, even though courts read privacy protection into them."
+      "explanation": "Correct: (A) Nowhere, because the word never appears in the Constitution's text. The Constitution contains no clause that says 'privacy.' The Court inferred a right to privacy from several provisions: in Griswold v. Connecticut (1965), Justice Douglas wrote that 'penumbras' of the 1st, 3rd, 4th and 5th Amendments create zones of privacy, and later cases tied it to the 14th Amendment's liberty.\n\n(B) is wrong because Article III sets up the federal courts and does not mention privacy.\n(C) is wrong because the Due Process Clause speaks of 'life, liberty, or property' and does not use the word, although courts read privacy into 'liberty.'\n(D) is wrong because the Free Exercise Clause protects religious practice and does not mention privacy."
     },
     {
       "id": "3-43",
@@ -2372,7 +2372,7 @@ const QUESTIONS = {
         "Religious freedom against public health."
       ],
       "correct": 2,
-      "explanation": "Roe's framework balanced a woman's right to privacy in the abortion decision against the state's legitimate interests, with that balance shifting as pregnancy progressed through different stages. The other options describe balancing tests from entirely different constitutional contexts (federalism, Free Exercise, and speech, respectively) not at issue in Roe."
+      "explanation": "Correct: (C) A woman's right to privacy against the state's interests. Roe v. Wade (1973) recognized a privacy right that includes the abortion decision and balanced it against the state's interests in protecting maternal health and potential life. The trimester framework allowed more regulation as pregnancy progressed: little in the first trimester, regulation for maternal health in the second, and the possibility of prohibition in the third, with exceptions.\n\n(A) is wrong because Roe was not about federalism in an unrelated area.\n(B) is wrong because speech and national security are balanced in cases like Schenck and the Pentagon Papers.\n(D) is wrong because religious freedom and public health is a different issue."
     },
     {
       "id": "3-45",
@@ -2450,7 +2450,7 @@ const QUESTIONS = {
         "Violently resist any law considered unjust."
       ],
       "correct": 2,
-      "explanation": "King argues individuals have a moral responsibility to disobey unjust laws openly and peacefully while willingly accepting the legal consequences — this combination of open disobedience and accepted punishment distinguishes legitimate civil disobedience from ordinary lawbreaking. Option A describes the patient, court-only approach King was arguing against; option D misrepresents his explicitly nonviolent philosophy; option B ignores his central claim that unjust laws warrant disobedience."
+      "explanation": "Correct: (C) Openly and peacefully disobey unjust laws, accepting the legal penalty. In his April 1963 letter, King says that 'one has a moral responsibility to disobey unjust laws,' but one must do so 'openly, lovingly' and 'with a willingness to accept the penalty.' By accepting punishment, a person shows the highest respect for law and appeals to the community's conscience. He draws on Augustine and Aquinas to argue that an unjust law is no law at all.\n\n(A) is wrong because King criticized the call to wait and said 'justice too long delayed is justice denied.'\n(B) is wrong because he argues that unjust laws need not be obeyed.\n(D) is wrong because King's strategy was explicitly nonviolent."
     },
     {
       "id": "3-51",
@@ -2463,7 +2463,7 @@ const QUESTIONS = {
         "Fellow clergy urging patience and gradual, court-based change."
       ],
       "correct": 3,
-      "explanation": "King wrote the letter responding directly to a group of fellow clergy who argued civil rights activists should wait patiently for gradual, court-based change rather than pursue direct action and civil disobedience. The letter was not addressed to the President, foreign governments, or federal judges, who play no role in its central argument."
+      "explanation": "Correct: (D) Fellow clergy urging patience and gradual, court-based change. King wrote the letter while jailed in Birmingham, Alabama, in April 1963, responding to 'A Call for Unity,' a public statement by eight white Alabama clergymen who called the demonstrations 'unwise and untimely' and urged activists to pursue change in the courts and through negotiation. King replied that the wait had already been too long.\n\n(A) is wrong because the letter was not directed at President Kennedy.\n(B) is wrong because foreign governments were not his audience.\n(C) is wrong because federal judges were not the critics he answered."
     },
     {
       "id": "3-52",
@@ -2489,7 +2489,7 @@ const QUESTIONS = {
         "Only break laws that carry no criminal penalty of any kind."
       ],
       "correct": 2,
-      "explanation": "King argues legitimate civil disobedience requires breaking an unjust law openly and nonviolently while willingly accepting whatever legal penalty follows — that acceptance is what shows respect for the rule of law even while resisting a specific unjust provision. Options A, B, and D each describe something closer to evasion or lawlessness, which King explicitly distinguishes from principled civil disobedience."
+      "explanation": "Correct: (C) Break the law openly, nonviolently, and accept the legal penalty. King lays out the steps of nonviolent direct action: collect facts, negotiate, self-purify, and act. For civil disobedience to be legitimate, the person must break the unjust law in the open (not secretly), nonviolently, and willingly accept the punishment, which shows respect for the rule of law.\n\n(A) is wrong because the aim is to protest a specific unjust law, not to overwhelm authorities.\n(B) is wrong because secrecy and avoiding consequences go against his idea of accepting punishment.\n(D) is wrong because breaking laws with no penalty would make no moral statement, and the point is to accept the penalty for violating an unjust law."
     },
     {
       "id": "3-54",
@@ -2515,7 +2515,7 @@ const QUESTIONS = {
         "The ruling did not address facility quality in any way."
       ],
       "correct": 1,
-      "explanation": "The Court's key reasoning was that the act of separation by race itself generates inherent inequality and harm, regardless of whether physical facilities were objectively comparable — moving beyond tangible comparison to the psychological and social harm of segregation itself. Option D is false since facility comparability was directly addressed; options A and C introduce cost and factual claims the Court's reasoning did not actually rely on."
+      "explanation": "Correct: (B) Racial separation itself created inherent inequality. In Brown v. Board of Education (1954), the Court unanimously held that even if physical facilities and other tangible factors were equal, segregating children by race in public schools generates a feeling of inferiority that can affect hearts and minds, so 'separate educational facilities are inherently unequal.' This violated the Equal Protection Clause of the 14th Amendment and overruled Plessy v. Ferguson (1896) as applied to schools.\n\n(A) is wrong because cost was not the reasoning.\n(C) is wrong because the Court assumed the tangible factors might be equal and did not rest on proving they were unequal everywhere.\n(D) is wrong because the Court did address facilities, saying equal facilities were not enough."
     },
     {
       "id": "3-56",
@@ -2528,7 +2528,7 @@ const QUESTIONS = {
         "The two are entirely unrelated historically and legally."
       ],
       "correct": 1,
-      "explanation": "Brown v. Board of Education is widely regarded as a foundational catalyst for the broader Civil Rights Movement, providing legal and moral momentum for the struggle against segregation that continued for years afterward. Option C is wrong because the Movement intensified, not ended, after Brown; options A and D both deny a connection that is well documented historically."
+      "explanation": "Correct: (B) Brown is widely seen as a catalyst for the Civil Rights Movement. The decision declared state-sponsored school segregation unconstitutional (1954), gave activists a legal and moral foundation, and sparked both resistance and organizing: the Montgomery bus boycott began the next year (1955), followed by the sit-ins, the Freedom Rides and the Civil Rights Act of 1964.\n\n(A) is wrong because, although earlier civil rights efforts such as NAACP litigation existed, they were connected to Brown, which was the culmination of that legal campaign.\n(C) is wrong because Brown did not end the movement; the movement continued for more than a decade.\n(D) is wrong because the two are closely related."
     },
     {
       "id": "3-57",
@@ -2541,7 +2541,7 @@ const QUESTIONS = {
         "The most demanding review, requiring a compelling interest and narrow tailoring."
       ],
       "correct": 3,
-      "explanation": "Strict scrutiny is the most demanding level of judicial review, applied to government actions that classify by race or burden certain fundamental rights; it requires a compelling government interest and narrow tailoring to achieve it. Option B describes rational basis review, essentially the opposite standard, and options A and C both wrongly confine strict scrutiny to contexts where it does not actually apply."
+      "explanation": "Correct: (D) The most demanding review, requiring a compelling interest and narrow tailoring. Strict scrutiny is the highest level of judicial review. Under it, the government must show that its law or action serves a compelling government interest and is narrowly tailored to achieve it (often with the least restrictive means). It applies to suspect classifications such as race and to laws burdening fundamental rights such as speech.\n\n(A) is wrong because it is not limited to economic regulations, which usually get the lenient rational basis test.\n(B) is wrong because the most lenient standard is rational basis, not strict scrutiny.\n(C) is wrong because it is not used exclusively in criminal sentencing; it is a tool for equal protection and fundamental rights claims."
     },
     {
       "id": "3-58",
@@ -2567,7 +2567,7 @@ const QUESTIONS = {
         "Different rights and actions raise different constitutional concerns."
       ],
       "correct": 3,
-      "explanation": "Courts vary the level of scrutiny because different government actions and rights claims raise genuinely different levels of constitutional concern — a racial classification, for instance, is treated with far more skepticism than most other regulations, reflecting historical and constitutional judgments about which distinctions are most dangerous. Options A, B, and C all deny that any principled distinction exists, which is inconsistent with the tiered-scrutiny framework itself."
+      "explanation": "Correct: (D) Different rights and actions raise different constitutional concerns. The Court uses tiers of scrutiny because some laws are more likely to reflect prejudice or to threaten fundamental freedoms than others. Race-based classifications and burdens on fundamental rights get strict scrutiny; sex-based classifications get intermediate scrutiny (important interest, substantially related means); most economic and social regulations get rational basis review, which requires only a legitimate interest and a rational relationship.\n\n(A) is wrong because scrutiny levels follow legal doctrine, not chance.\n(B) is wrong because the Constitution does not assign standards randomly; the Court developed the tiers through its decisions.\n(C) is wrong because courts do not use the same standard in all cases."
     },
     {
       "id": "3-60",
@@ -2580,7 +2580,7 @@ const QUESTIONS = {
         "Freedom of the press and freedom of speech"
       ],
       "correct": 0,
-      "explanation": "This scenario pits free exercise of religion (the group's right to gather for worship) against the government's interest in public order and safety (the health rationale) — a classic liberty-versus-order tension. The other pairings name doctrines or rights not actually in tension in this fact pattern: no Establishment or Equal Protection issue, no press/speech conflict, and no incorporation question is presented here."
+      "explanation": "Correct: (A) Free exercise of religion and public safety. The city restricts a religious group's gatherings, which burdens the 1st Amendment right to the free exercise of religion, and justifies the restriction with public health, a government interest in protecting public safety. Courts must weigh the group's right against the government's interest, which is the liberty versus order tension.\n\n(B) is wrong because judicial review and selective incorporation are legal doctrines, not competing interests in this scenario.\n(C) is wrong because no government sponsorship of religion (Establishment) or unequal treatment issue is described.\n(D) is wrong because the press and speech are not involved."
     },
     {
       "id": "3-61",
@@ -2593,7 +2593,7 @@ const QUESTIONS = {
         "Tinker's 'substantial disruption' standard"
       ],
       "correct": 3,
-      "explanation": "The 'substantial disruption' standard from Tinker v. Des Moines specifically governs restrictions on student speech in schools — a narrower, more particular standard than the general strict scrutiny framework, reflecting the school environment's unique context. Strict scrutiny governs different contexts (like racial classifications), Schenck's test arose in a different (wartime) setting, and option B is wrong since Tinker itself establishes a governing standard."
+      "explanation": "Correct: (D) Tinker's 'substantial disruption' standard. Tinker v. Des Moines (1969) created the standard specifically for student expression in public schools: officials may restrict it only if it would materially and substantially disrupt school activities or invade others' rights.\n\n(A) is wrong because strict scrutiny is the general standard for content-based speech restrictions and certain classifications, not the specific school-speech standard.\n(B) is wrong because constitutional standards do apply to student speech, namely Tinker.\n(C) is wrong because Schenck's 'clear and present danger' test arose in a wartime context and is not the school standard."
     },
     {
       "id": "3-62",
@@ -2606,7 +2606,7 @@ const QUESTIONS = {
         "The balancing of liberty and order is not a real feature of constitutional law."
       ],
       "correct": 1,
-      "explanation": "Neither individual liberties nor government interests automatically win — courts genuinely balance the two using tests like strict scrutiny, 'clear and present danger,' and Tinker's 'substantial disruption' standard, with outcomes depending on the facts and the strength of each side's claim. Option D denies this well-established feature of the doctrine, while options A and C each wrongly claim one side always prevails."
+      "explanation": "Correct: (B) No, because courts balance liberties against government interests case by case. Rights such as speech, religion and privacy are strongly protected but are not absolute, and the government has legitimate interests in safety and order. Courts weigh the two using tests such as strict scrutiny, 'clear and present danger,' and Tinker's substantial disruption standard, and the result depends on the facts.\n\n(A) is wrong because government interests do not always win; the 1st Amendment protected the newspapers in the Pentagon Papers case.\n(C) is wrong because liberties do not always prevail; Schenck upheld a restriction in wartime.\n(D) is wrong because balancing is a central feature of constitutional law."
     },
     {
       "id": "3-63",
@@ -2632,7 +2632,7 @@ const QUESTIONS = {
         "Civil liberties and civil rights are always absolute, never limited."
       ],
       "correct": 0,
-      "explanation": "A recurring theme of this unit is that civil liberties and civil rights are rarely absolute — they frequently come into tension with other legitimate government interests (order, safety, equality), and courts have developed standards like strict scrutiny, clear and present danger, and substantial disruption to resolve that tension case by case. Options B, C, and D each contradict a point the unit's cases repeatedly demonstrate."
+      "explanation": "Correct: (A) Liberties and rights often conflict with other interests, resolved case by case. The unit's cases show competing values: speech versus national security (Schenck, New York Times), religion versus state interests (Engel, Yoder), privacy versus state interests (Roe), and equality versus segregation (Brown). Courts decide these using different tests rather than a single rule.\n\n(B) is wrong because civil liberties (protections from government) and civil rights (guarantees of equal treatment) are related but distinct concepts.\n(C) is wrong because the Bill of Rights is central to modern constitutional law through incorporation.\n(D) is wrong because rights are not always absolute, as the cases show."
     },
     {
       "id": "3-65",
@@ -2646,7 +2646,7 @@ const QUESTIONS = {
         "The law is clearly constitutional under both cases, given unlimited school authority."
       ],
       "correct": 0,
-      "explanation": "Yoder's Free Exercise reasoning suggests a law substantially burdening sincere religious belief without accommodation is constitutionally suspect unless the government's interest is compelling enough to override it — here, compelling an act the students' religion prohibits. Tinker's recognition that students retain expressive rights at school, combined with the broader principle that compelled speech (being forced to express a message one doesn't hold) raises similar First Amendment concerns to restricted speech, supports the argument that forcing participation against sincere belief is constitutionally problematic. Option B wrongly limits Tinker to restricted (not compelled) speech; option C wrongly denies either case's relevance, when the scenario draws on both cases' underlying logic even though neither addresses these exact facts; option D overstates school authority, which neither case supports. Synthesizing two required cases' principles to reason through a new fact pattern is exactly the higher-order application skill the real exam rewards, beyond reciting each case's specific holding."
+      "explanation": "Correct: (A) It likely violates Free Exercise (Yoder) and compelled symbolic expression rights (Tinker). Yoder (1972) shows that when a law substantially burdens sincere religious practice, the state must have a very strong interest, and the state usually fails when a narrow exemption would not harm that interest. Tinker (1969) shows that students keep their First Amendment rights, including symbolic expression, at school. Forcing a student to salute and recite a pledge against their beliefs compels speech and burdens religion, with no showing of disruption. (The Court reached this result directly in West Virginia State Board of Education v. Barnette, 1943, which is not a required case but follows the same logic.)\n\n(B) is wrong because Tinker's principle about student expression rights also supports the argument against compelled speech.\n(C) is wrong because the scenario involves school policy and student expression.\n(D) is wrong because neither case gives schools unlimited authority."
     },
     {
       "id": "3-66",
@@ -2659,7 +2659,7 @@ const QUESTIONS = {
         "The anti-commandeering doctrine of federalism"
       ],
       "correct": 1,
-      "explanation": "The exclusionary rule, established in Mapp v. Ohio, bars the government from using evidence obtained through an unconstitutional search — here, one conducted without a warrant, probable cause, or consent — in violation of the 4th Amendment. Stare decisis concerns precedent generally, the anti-commandeering doctrine concerns federalism, and 'clear and present danger' concerns speech restrictions; none governs unlawfully seized evidence."
+      "explanation": "Correct: (B) The exclusionary rule, established in Mapp v. Ohio. The 4th Amendment bars unreasonable searches, and a search of a home without a warrant, probable cause or consent is unreasonable. In Mapp v. Ohio (1961), the Court held that evidence obtained through an unconstitutional search cannot be used in state courts, applying the exclusionary rule to the states through the 14th Amendment.\n\n(A) is wrong because stare decisis is the principle of following precedent and does not decide admissibility of evidence.\n(C) is wrong because 'clear and present danger' is a speech test (Schenck).\n(D) is wrong because anti-commandeering concerns federal power over state officials, not evidence."
     },
     {
       "id": "3-67",
@@ -2672,7 +2672,7 @@ const QUESTIONS = {
         "The 8th Amendment's protection against cruel and unusual punishment"
       ],
       "correct": 2,
-      "explanation": "The 5th Amendment's double jeopardy clause bars trying a person twice for the same offense once they have been acquitted (or convicted) by the same sovereign. The other amendments listed protect different rights (search and seizure, punishment, and trial speed, respectively) not implicated by this specific scenario."
+      "explanation": "Correct: (C) The 5th Amendment's protection against double jeopardy. The 5th Amendment says no person shall 'be subject for the same offence to be twice put in jeopardy of life or limb.' Once a defendant is acquitted, the same government cannot retry them for the same offense, so a second prosecution for the same conduct implicates double jeopardy.\n\n(A) is wrong because the 6th Amendment's speedy trial right concerns delay before a trial, and the facts say nothing about delay.\n(B) is wrong because the 4th Amendment covers searches and seizures.\n(D) is wrong because the 8th Amendment covers bail, fines and punishment."
     },
     {
       "id": "3-68",
@@ -2685,7 +2685,7 @@ const QUESTIONS = {
         "The 5th Amendment's protection against self-incrimination"
       ],
       "correct": 0,
-      "explanation": "The 6th Amendment guarantees a criminal defendant the right to confront (cross-examine and challenge) the witnesses testifying against them, alongside its other guarantees of a speedy, public trial before an impartial jury and the right to counsel (Gideon v. Wainwright). Denying that opportunity implicates this specific 6th Amendment right, not the other amendments listed."
+      "explanation": "Correct: (A) The 6th Amendment's right to confront witnesses. The 6th Amendment's Confrontation Clause gives the accused the right 'to be confronted with the witnesses against him,' which includes cross-examining them in court. Denying the defendant the chance to question witnesses testifying against them directly violates it.\n\n(B) is wrong because the 4th Amendment warrant requirement concerns searches and arrests.\n(C) is wrong because the 8th Amendment's excessive bail provision concerns pretrial release.\n(D) is wrong because the 5th Amendment's self-incrimination protection means a defendant cannot be compelled to testify, which is not the issue here."
     },
     {
       "id": "3-69",
@@ -2698,7 +2698,7 @@ const QUESTIONS = {
         "The Equal Protection Clause of the 14th Amendment"
       ],
       "correct": 2,
-      "explanation": "The 8th Amendment prohibits cruel and unusual punishment, which includes punishments grossly disproportionate to the underlying offense — the provision most directly at issue here. The other listed provisions address search and seizure, the process for bringing federal charges, and equal treatment under the law, none of which is the central issue in a disproportionate-punishment claim."
+      "explanation": "Correct: (C) The 8th Amendment's prohibition on cruel and unusual punishment. The 8th Amendment bars 'cruel and unusual punishments,' and the Supreme Court has held that this includes punishments that are grossly disproportionate to the crime. The stem's clue is a punishment disproportionate to the severity of the offense, a challenge to the sentence itself.\n\n(A) is wrong because the 5th Amendment's grand jury requirement concerns how serious federal charges are brought.\n(B) is wrong because the 4th Amendment concerns searches and seizures.\n(D) is wrong because the Equal Protection Clause is about unequal treatment of groups, not the severity of a sentence."
     },
     {
       "id": "3-70",
@@ -2711,7 +2711,7 @@ const QUESTIONS = {
         "Intermediate scrutiny — the state must show the classification serves an important government interest and is substantially related to achieving it."
       ],
       "correct": 3,
-      "explanation": "Sex/gender classifications receive intermediate scrutiny, the middle tier of the three-part equal protection framework (below strict scrutiny for race and above rational basis for most other classifications) — following the reasoning of Craig v. Boren, the standard case applying intermediate scrutiny to a nearly identical sex-based drinking-age law. The state must show an important (not merely legitimate, and not compelling) interest, achieved through means substantially related (not merely rationally related, and not narrowly tailored) to that interest."
+      "explanation": "Correct: (D) Intermediate scrutiny, because the state must show the classification serves an important government interest and is substantially related to achieving it. Under Craig v. Boren (1976), a classification based on sex must meet this middle tier. In Craig, Oklahoma allowed women to buy 3.2% beer at 18 but men only at 21, citing traffic statistics, and the Court held that the statistics were not strong enough to show a substantial relationship and struck down the law. The stem describes almost the same law.\n\n(A) is wrong because state laws are fully subject to the Equal Protection Clause of the 14th Amendment.\n(B) is wrong because strict scrutiny applies to race and national origin classifications and fundamental rights.\n(C) is wrong because rational basis is for ordinary classifications that do not involve suspect or quasi-suspect classes such as sex."
     },
     {
       "id": "3-71",
@@ -2737,7 +2737,7 @@ const QUESTIONS = {
         "Yes, but only in border states, not Confederate territory."
       ],
       "correct": 0,
-      "explanation": "The Proclamation freed enslaved people only in states, or parts of states, then in rebellion against the Union — it did not reach loyal border states like Kentucky or Maryland, or Confederate areas already under Union control. Nationwide abolition did not occur until the 13th Amendment in 1865."
+      "explanation": "Correct: (A) No, because it applied only to states or areas then in rebellion. President Lincoln issued the Emancipation Proclamation on January 1, 1863, as a war measure under his authority as commander in chief. It declared enslaved people free in areas under Confederate control, not in the loyal border states (Delaware, Kentucky, Maryland, Missouri) or in some Union-occupied Confederate areas. Slavery was abolished nationwide by the 13th Amendment, ratified in December 1865.\n\n(B) is wrong because the proclamation did declare freedom for enslaved people in rebelling areas and became real as Union armies advanced.\n(C) is wrong because it did not apply to all states.\n(D) is wrong because it reverses the scope, covering Confederate territory and not the border states."
     },
     {
       "id": "3-73",
@@ -2778,7 +2778,7 @@ const QUESTIONS = {
         "Equality of opportunity vs. outcome"
       ],
       "correct": 3,
-      "explanation": "This illustrates the distinction between equality of opportunity (equal starting conditions, minimal government interference) and equality of outcome (more equal actual results, often requiring more active intervention) — two different applications of the same core value. Federalism vs. unitary government (option B) and civil liberties vs. civil rights (option C) are unrelated structural/legal distinctions. Liberty vs. individualism (option A) pairs two related but distinct values, not the opportunity/outcome distinction this scenario describes."
+      "explanation": "Correct: (D) Equality of opportunity vs. outcome. Equality of opportunity means everyone gets a fair, equal starting point (access, rules, chances), while equality of outcome means the end results, such as income or representation, should be similar. The stem's clue words are \"equal starting conditions\" versus \"equal final results,\" which map directly onto those two ideas. Both camps invoke the same core value of equality but apply it differently.\n\n(A) is wrong because liberty and individualism are two separate values, not a split within equality.\n(B) is wrong because federalism vs. unitary government is about how power is divided between national and state governments.\n(C) is wrong because civil liberties (protections from government) vs. civil rights (protection from discrimination) is a legal distinction, not a split between starting points and results."
     },
     {
       "id": "4-3",
@@ -2804,7 +2804,7 @@ const QUESTIONS = {
         "Yes, most political disagreement is about whether these values matter at all."
       ],
       "correct": 0,
-      "explanation": "Most Americans broadly share liberty and equality as core values; real political disagreement is typically about how to balance and apply them in specific policies, not whether they matter. Option C is wrong because these values are central to ongoing policy debates, not irrelevant. Option B is wrong because disagreement isn't limited to equality — Americans also debate how to balance liberty in specific cases. Option D is wrong because most disagreement concerns application and balance, not whether the values themselves matter at all."
+      "explanation": "Correct: (A) No — most Americans share these values but disagree on how to balance them. Surveys and political-culture research show broad agreement that liberty and equality matter; the real disputes come when the two pull against each other, for example how much regulation or redistribution is acceptable. So disagreement is typically about priority and application, not about whether the values count. The stem asks about a fundamental disagreement over importance, and the evidence says that is not the usual case.\n\n(B) is wrong because liberty is not uniquely agreed upon, and equality is also widely endorsed; the disagreement is about balance for both.\n(C) is wrong because these values are central to many modern policy debates such as taxes, regulation, and rights.\n(D) is wrong because it claims people dispute whether the values matter at all, which overstates the split."
     },
     {
       "id": "4-5",
@@ -2843,7 +2843,7 @@ const QUESTIONS = {
         "A preference for personal responsibility and self-reliance over government dependence."
       ],
       "correct": 3,
-      "explanation": "Individualism emphasizes personal responsibility and self-reliance rather than dependence on government or community provision. Option C describes a government-controlled economy, the opposite of individualism. Option B describes collectivism, also the opposite. Option A describes political apathy, unrelated to individualism, which is compatible with active civic participation."
+      "explanation": "Correct: (D) A preference for personal responsibility and self-reliance over government dependence. Individualism is a core American political value holding that people should be responsible for their own success and make their own choices, with government playing a limited role in providing for them. It shows up in debates over welfare, health care, and regulation, where some argue people should rely on themselves rather than the state.\n\n(A) is wrong because individualism does not reject civic participation; individualists can vote, volunteer, and run for office.\n(B) is wrong because favoring collective, government-provided solutions describes the opposite orientation, sometimes called collectivism.\n(C) is wrong because government control of major economic decisions describes a command economy, which conflicts with individualism's emphasis on personal choice."
     },
     {
       "id": "4-8",
@@ -2856,7 +2856,7 @@ const QUESTIONS = {
         "Political socialization vs. public opinion"
       ],
       "correct": 2,
-      "explanation": "Affirmative action debates classically center on equality of opportunity vs. equality of outcome — should policy focus on removing barriers to equal starting conditions, or actively work toward more equal outcomes across groups. Political socialization vs. public opinion (option D) and judicial review vs. checks and balances (option A) are unrelated governmental-structure concepts, not core-values tensions. Individual liberty vs. federalism (option B) pairs a value with a structural principle and isn't the primary tension this debate raises."
+      "explanation": "Correct: (C) Equality of opportunity vs. equality of outcome. Affirmative action debates turn on whether fairness means removing barriers and giving everyone an equal chance to compete (opportunity), or taking steps aimed at more equal representation or results among groups (outcome). Supporters and critics both appeal to equality, but they define it differently. The stem asks for a value tension, and this is the pair of competing readings of the same value.\n\n(A) is wrong because judicial review and checks and balances are structural features of government, not a tension within a policy value.\n(B) is wrong because federalism is a structural principle about dividing power, so pairing it with liberty does not capture the core of this debate.\n(D) is wrong because political socialization (how beliefs form) and public opinion (what people believe) are related concepts, not opposing values."
     },
     {
       "id": "4-9",
@@ -2869,7 +2869,7 @@ const QUESTIONS = {
         "Individualism"
       ],
       "correct": 0,
-      "explanation": "This argument directly invokes liberty — freedom from government interference in economic decision-making. Self-government (option C) concerns political participation and consent, not economic freedom. Individualism (option D) is related but distinct, emphasizing personal responsibility rather than freedom from regulation specifically. Equality (option B) concerns fairness of treatment or outcomes, not freedom from interference."
+      "explanation": "Correct: (A) Liberty. Liberty is the value of freedom from government restraint, and the stem's clue words, \"unwarranted interference in personal economic decisions,\" describe exactly that: a claim that government should not restrict what a business owner chooses to do. Arguments for limited regulation or free markets typically rest on liberty.\n\n(B) is wrong because equality concerns equal treatment or opportunity, which is not what an interference complaint is about.\n(C) is wrong because self-government is the idea that citizens rule themselves through consent and participation, which is about political authority rather than economic freedom.\n(D) is wrong because individualism stresses personal responsibility and self-reliance; it is related, but the specific complaint about government interference points most directly to liberty."
     },
     {
       "id": "4-10",
@@ -2882,7 +2882,7 @@ const QUESTIONS = {
         "No, core values never influence policy design at all."
       ],
       "correct": 2,
-      "explanation": "Disagreement over a specific policy doesn't necessarily mean the two sides reject each other's core values — it often reflects differing judgments about how to balance genuinely shared values like liberty and equality. Option D is wrong because core values clearly do shape policy design. Option B overstates the case — policy disputes are usually about balancing shared values, not a fundamental values clash every time. Option A is wrong because this balancing dynamic applies across issue areas, not economic policy alone."
+      "explanation": "Correct: (C) Not necessarily — the sides may share values but differ on how to balance them. Most policy disputes involve people who agree that values like liberty, equality, and security matter but weigh them differently or disagree about which policy best achieves them. Two people can both value fairness yet disagree about whether a tax or a regulation delivers it. The stem's word \"necessarily\" signals that a blanket answer is wrong.\n\n(A) is wrong because the balancing dynamic is not limited to economic policy; it appears in civil liberties, immigration, and many other areas.\n(B) is wrong because \"always\" overstates the case; many disputes are about means rather than basic values.\n(D) is wrong because core values do shape policy design, so saying they never influence it is false."
     },
     {
       "id": "4-11",
@@ -2921,7 +2921,7 @@ const QUESTIONS = {
         "The process by which political parties recruit new candidates."
       ],
       "correct": 2,
-      "explanation": "Political socialization is the lifelong process by which individuals develop and refine political beliefs, values, and attitudes, shaped by agents like family, school, peers, religion, and media. Option B confuses it with a legislative procedure. Option D confuses it with candidate recruitment, a party function. Option A confuses it with the separate process of enacting laws."
+      "explanation": "Correct: (C) The lifelong process of developing political beliefs and values. Political socialization is how people acquire their political attitudes, party identification, and views of government, through agents such as family, school, peers, media, religion, and life events. The key idea is that it is ongoing and informal, not a formal procedure.\n\n(A) is wrong because the formal enactment of laws is the legislative process.\n(B) is wrong because socialization is not a legislative procedure at all; it is a social learning process.\n(D) is wrong because recruiting candidates is a function of political parties, which is separate from how citizens form their beliefs."
     },
     {
       "id": "4-14",
@@ -2934,7 +2934,7 @@ const QUESTIONS = {
         "No — it continues via peers, media, and life events."
       ],
       "correct": 3,
-      "explanation": "Political socialization continues throughout adulthood — while early family influence is particularly strong, peers, media, and major life or historical events continue to shape political views well beyond childhood. Option C wrongly limits ongoing influence to religion alone. Option B wrongly limits it to party identification only. Option A is wrong because political beliefs are not fixed by adulthood — socialization remains an ongoing process."
+      "explanation": "Correct: (D) No — it continues via peers, media, and life events. Political socialization starts in childhood, with family usually the strongest early influence, but adults keep updating their views through friends and coworkers, news and social media, and major events such as wars, recessions, or changes in personal circumstances. The stem asks whether it ends after childhood, and the evidence is that it does not.\n\n(A) is wrong because beliefs are not fully fixed by adulthood; many people change views over time.\n(B) is wrong because socialization applies to many political attitudes and not only party identification.\n(C) is wrong because religion is only one agent among many, and peers, media, and events also keep influencing adults."
     },
     {
       "id": "4-15",
@@ -2999,7 +2999,7 @@ const QUESTIONS = {
         "Yes, but only for individuals over age 50."
       ],
       "correct": 2,
-      "explanation": "While family is the strongest single influence among standard socialization agents, its effect isn't absolute — other agents (peers, media, major life events) and personal experience can and do shift individuals' political views over time. Option A overstates family's influence as unchangeable. Option B wrongly denies family has any influence at all. Option D arbitrarily restricts this dynamic to people over 50, with no basis in the underlying concept."
+      "explanation": "Correct: (C) No — family is influential but not absolute; other agents can shift views. Family is typically the strongest early agent of political socialization, especially for party identification, because children absorb the views of parents they live with. Still, schools, peers, media, and life events can change those views, and many people end up differing from their parents. The stem's words \"absolute and unchangeable\" make the claim too strong.\n\n(A) is wrong because it says family influence can never be altered, ignoring the many cases where views change.\n(B) is wrong because it denies family any meaningful influence, contradicting well-established research.\n(D) is wrong because age 50 has no connection to this concept and is an arbitrary cutoff."
     },
     {
       "id": "4-20",
@@ -3038,7 +3038,7 @@ const QUESTIONS = {
         "Schools are actually the dominant influence on party identification, not family."
       ],
       "correct": 2,
-      "explanation": "Party identification tends to form relatively early in life and remain durable afterward, and family is the dominant socializing influence during that especially formative period — which is why its effect on party ID specifically is so strong. Option A is wrong because party ID is clearly shaped by socialization, not random. Option B is wrong because family's influence extends well beyond foreign policy to party identification itself. Option D is wrong because research consistently shows family, not schools, is the dominant influence on party ID."
+      "explanation": "Correct: (C) Party ID forms early and durably, and family dominates during that formative period. Children typically learn party identification from parents, and once formed it tends to be stable through adulthood, which is why family is such a strong predictor of party ID compared with attitudes on specific issues that change more often. The stem asks why family is strong for party identification specifically, and timing plus durability is the explanation.\n\n(A) is wrong because party ID is not random; it is shaped by socialization.\n(B) is wrong because family influences party identification, not just foreign policy views.\n(D) is wrong because research finds family, not schools, as the dominant influence on party ID."
     },
     {
       "id": "4-23",
@@ -3051,7 +3051,7 @@ const QUESTIONS = {
         "Selecting respondents based on their known political views."
       ],
       "correct": 0,
-      "explanation": "Random sampling gives every member of the target population a roughly equal chance of being included — this is what makes a poll's results potentially generalizable. Option C describes a self-selected (non-random) sample, prone to bias. Option D describes a deliberately biased, non-random selection method. Option B confuses sample size with sampling method — a large sample chosen without randomization is still unrepresentative."
+      "explanation": "Correct: (A) A method giving every population member roughly equal chance of selection. Random sampling means respondents are chosen by chance, so the sample is likely to mirror the population and results can be generalized, with a calculable margin of error. The key idea is equal chance of selection, not a particular number of respondents.\n\n(B) is wrong because it confuses sample size with sampling method; a huge sample chosen non-randomly can still be biased.\n(C) is wrong because volunteers who respond through an online form are a self-selected sample, which is a classic source of bias.\n(D) is wrong because choosing people by their known political views is deliberate selection, the opposite of random."
     },
     {
       "id": "4-24",
@@ -3064,7 +3064,7 @@ const QUESTIONS = {
         "The number of respondents who refused to answer the questions asked."
       ],
       "correct": 0,
-      "explanation": "Margin of error indicates the poll's likely precision — a smaller margin means the reported result is more likely close to the true population value, assuming proper random sampling. Option D confuses it with the non-response rate. Option C confuses it with polling cost, an unrelated concept. Option B confuses it with the share of undecided respondents, a separate statistic."
+      "explanation": "Correct: (A) A measure of the poll's likely precision relative to the true value. The margin of error, such as plus or minus 3 percentage points, gives a range in which the true population value likely falls, assuming a random sample. A smaller margin means a more precise estimate, and it depends mainly on sample size.\n\n(B) is wrong because the share of undecided respondents is reported separately and is not the margin of error.\n(C) is wrong because poll cost has nothing to do with statistical precision.\n(D) is wrong because refusals relate to the response rate, a separate quality measure."
     },
     {
       "id": "4-25",
@@ -3077,7 +3077,7 @@ const QUESTIONS = {
         "Yes, a sufficiently large sample size always corrects for sampling bias."
       ],
       "correct": 2,
-      "explanation": "Sample size and sampling method are separate issues — a large sample drawn through a non-random (e.g., self-selected) method remains systematically unrepresentative, no matter how many respondents it includes. Option B is wrong because the effect of non-random sampling doesn't depend on topic. Options A and D both wrongly claim sample size alone can fix a broken (non-random) sampling method."
+      "explanation": "Correct: (C) No — a large, non-randomly drawn sample stays systematically unrepresentative. Bias from a flawed selection method does not shrink as more people are added; it just repeats the same distortion with more respondents. A famous example is the 1936 Literary Digest poll, which had millions of responses but wrongly predicted the election because its sample skewed toward wealthier people. The stem asks whether size can compensate for bad sampling, and the principle is that method matters more than size.\n\n(A) is wrong because no size threshold such as one million fixes a biased method.\n(B) is wrong because the problem does not depend on the topic.\n(D) is wrong because it says size always corrects bias, which is false."
     },
     {
       "id": "4-26",
@@ -3090,7 +3090,7 @@ const QUESTIONS = {
         "A poll conducted exclusively by academic researchers at universities."
       ],
       "correct": 0,
-      "explanation": "A push poll is designed to influence respondents' opinions — often through biased or misleading question wording — while appearing to simply measure existing opinion. Option D wrongly restricts push polls to academic research, when they're typically a campaign tactic. Option C confuses it with sample size, an unrelated feature. Option B wrongly conflates it with exit polling, a legitimate, separate polling method."
+      "explanation": "Correct: (A) A poll designed to shape opinion under the guise of measuring it. A push poll is a persuasion tactic, usually by campaigns, in which \"questions\" contain loaded or negative information about a candidate or issue so that respondents are influenced rather than measured. The clue is the pairing of persuasion with a survey format.\n\n(B) is wrong because an exit poll surveys voters leaving polling places on election day and is a legitimate measurement tool, not a push poll.\n(C) is wrong because a push poll is defined by its purpose, not by sample size.\n(D) is wrong because push polls are not tied to academic researchers; they are typically campaign tactics."
     },
     {
       "id": "4-27",
@@ -3103,7 +3103,7 @@ const QUESTIONS = {
         "Only the order of answer choices matters, never the wording of the question itself."
       ],
       "correct": 0,
-      "explanation": "Question-wording effects are well documented — even subtle phrasing differences can trigger different associations, framing, or emotional responses, meaningfully shifting results despite the same underlying issue. Option D wrongly claims only answer-choice order matters, ignoring question wording itself. Option B incorrectly limits the effect to polls outside the U.S. Option C flatly denies a well-established phenomenon."
+      "explanation": "Correct: (A) Different wording can trigger different associations or emotions in respondents. Question wording effects are well documented: loaded terms, framing, or emotionally charged phrases (for example \"estate tax\" versus \"death tax\") can shift answers even when the subject is the same. So pollsters aim for neutral phrasing.\n\n(B) is wrong because wording effects occur in polls everywhere, including the United States.\n(C) is wrong because it flatly denies a well-established finding.\n(D) is wrong because order of answer choices can matter, but saying only order matters ignores the effect of the question's own words."
     },
     {
       "id": "4-28",
@@ -3116,7 +3116,7 @@ const QUESTIONS = {
         "Neither poll can ever be considered reliable under any circumstances."
       ],
       "correct": 2,
-      "explanation": "The smaller but properly randomly sampled poll is more reliable for generalizing to the broader population than the larger but self-selected online poll — sampling method matters more than raw sample size for generalizability. Option A wrongly claims method doesn't matter. Option B wrongly assumes size alone determines reliability. Option D overstates the case — properly conducted random-sample polls can be reliable."
+      "explanation": "Correct: (C) The 800-person poll, due to its random sampling method. A random sample gives each person an equal chance of selection, so even 800 respondents can produce a result with a margin of error of about 3 to 4 points that generalizes to the population. The 50,000 volunteers who clicked a pop-up ad are self-selected, so they probably differ from the general public in ways that cannot be measured or corrected.\n\n(A) is wrong because methods differ greatly in reliability.\n(B) is wrong because size cannot fix selection bias.\n(D) is wrong because properly drawn random polls are generally reliable, so saying neither can ever be reliable is too extreme."
     },
     {
       "id": "4-29",
@@ -3142,7 +3142,7 @@ const QUESTIONS = {
         "Only government-conducted polls require methodological evaluation by readers."
       ],
       "correct": 0,
-      "explanation": "A poll's headline result is only as trustworthy as its underlying methodology — sampling method, sample size, and question wording all affect whether a result can be reasonably generalized. Option B wrongly claims methodology is irrelevant. Option C is false — polling methodologies vary widely in quality. Option D wrongly restricts the need for evaluation to government polls only."
+      "explanation": "Correct: (A) A result is only meaningful if the sampling method and question design were sound. A headline number such as \"60 percent support X\" depends on who was asked (random vs. self-selected sample), how many, how the question was worded, and the margin of error. Without those details a reader cannot tell if the number reflects the population.\n\n(B) is wrong because methodology directly affects accuracy.\n(C) is wrong because polls vary widely in quality; some are carefully random and some are not.\n(D) is wrong because every poll, whoever conducts it, should be evaluated for method, not just those conducted by government."
     },
     {
       "id": "4-31",
@@ -3155,7 +3155,7 @@ const QUESTIONS = {
         "An example of proper random sampling."
       ],
       "correct": 1,
-      "explanation": "This question uses emotionally loaded, leading language ('hardworking families,' 'reckless overspending') rather than neutral phrasing — a hallmark of a push poll designed to shape opinion, not measure it accurately. Option A misidentifies the flaw as being about margin of error, an unrelated statistic. Option C wrongly calls this neutral, when the language is clearly loaded. Option D wrongly calls this proper sampling, a different methodological issue entirely."
+      "explanation": "Correct: (B) Loaded, biased wording typical of a push poll. A neutral question describes the proposal and lets respondents judge it. This one embeds a verdict in the wording: \"hardworking families\" is a positive-sounding phrase and \"reckless government overspending\" is a negative one, so nearly anyone would agree. The stem's clue is the emotional, leading language in a campaign-released survey, which shapes opinion rather than measuring it.\n\n(A) is wrong because margin of error is a statistic about sampling precision and has nothing to do with how a question is worded.\n(C) is wrong because the question is anything but neutral.\n(D) is wrong because random sampling concerns who is surveyed, while the problem here is what is asked."
     },
     {
       "id": "4-32",
@@ -3168,7 +3168,7 @@ const QUESTIONS = {
         "No, margin of error has no relationship to confidence at all, and is only a rough guess."
       ],
       "correct": 1,
-      "explanation": "Margin of error is typically reported alongside a confidence level (commonly 95%) — it indicates a strong statistical likelihood, not an absolute guarantee, that the true value falls within the stated range. Option C wrongly claims absolute certainty. Option D wrongly denies any link to confidence levels. Option A wrongly restricts this statistical property to presidential election years."
+      "explanation": "Correct: (B) It reflects a stated confidence level, commonly 95%, not an absolute guarantee. A margin of error of plus or minus 3 points means that if the poll were repeated many times with random samples, about 95 percent of the resulting intervals would contain the true value. So there is still roughly a 5 percent chance that the true value lies outside the range. The word \"guarantee\" in the stem is the clue that the answer must be no.\n\n(A) is wrong because the statistical meaning does not depend on whether it is an election year.\n(C) is wrong because absolute certainty is not provided by sampling statistics.\n(D) is wrong because margin of error is directly tied to a confidence level and is a calculated figure, not a guess."
     },
     {
       "id": "4-33",
@@ -3181,7 +3181,7 @@ const QUESTIONS = {
         "Complete elimination of all private markets."
       ],
       "correct": 1,
-      "explanation": "A typically conservative economic position favors less regulation and greater reliance on free markets. Option A describes a far more extreme command-economy position not typical of mainstream conservatism. Option D describes an unrealistic elimination of markets entirely. Option C describes the more interventionist position typically associated with liberal, not conservative, ideology."
+      "explanation": "Correct: (B) Less regulation and greater reliance on free markets. In the standard U.S. framework, conservatives generally favor limited government in the economy, lower taxes, and market solutions, while liberals more often support regulation and government programs. The stem asks for a typically conservative economic position, and reliance on markets is the fit.\n\n(A) is wrong because government ownership of major industries is a socialist position, far from mainstream conservatism.\n(C) is wrong because using regulation to fix market failures is the typical liberal position.\n(D) is wrong because eliminating private markets altogether is an extreme position that conservatives, who defend private enterprise, would reject."
     },
     {
       "id": "4-34",
@@ -3194,7 +3194,7 @@ const QUESTIONS = {
         "Opposition to any government spending of any kind."
       ],
       "correct": 1,
-      "explanation": "A typically liberal position favors larger, more expansive government-funded programs, reflecting a view that government should play an active role in social welfare. Option A describes the more limited-government position typically associated with conservatism. Options C and D describe extreme anti-tax/anti-spending positions not representative of mainstream liberal or conservative views."
+      "explanation": "Correct: (B) Support for larger, more expansive government programs. In the standard framework, liberals tend to believe government should play an active role in addressing economic inequality and providing services such as health care, education, and assistance for those in need, which usually means more funding and larger programs.\n\n(A) is wrong because favoring a smaller, more limited government is the typical conservative position.\n(C) is wrong because eliminating all taxes would end the funding of any program, and is not a mainstream liberal or conservative view.\n(D) is wrong because opposing all government spending is an extreme anti-government position, not a liberal one."
     },
     {
       "id": "4-35",
@@ -3207,7 +3207,7 @@ const QUESTIONS = {
         "Minimal government intervention in both the economy and personal life."
       ],
       "correct": 3,
-      "explanation": "A libertarian typically favors minimal government intervention in both the economy and personal/social life — a distinctive combination drawing from both standard ideological clusters. Options A and B each describe a mixed position that pairs intervention in only one sphere, not the minimal-intervention-in-both pattern that defines libertarianism. Option C describes the opposite extreme — maximum intervention in both spheres."
+      "explanation": "Correct: (D) Minimal government intervention in both the economy and personal life. Libertarians put individual liberty first, so they favor free markets and low taxes like many conservatives, and also favor personal freedom in matters like drug use or lifestyle choices like many liberals. Their defining feature is limited government across both spheres.\n\n(A) is wrong because favoring economic intervention but not personal-life intervention is closer to a typical liberal pattern.\n(B) is wrong because favoring intervention in personal life but not the economy is closer to a typical conservative pattern.\n(C) is wrong because maximum intervention in both areas describes authoritarianism, the opposite of libertarianism."
     },
     {
       "id": "4-36",
@@ -3220,7 +3220,7 @@ const QUESTIONS = {
         "A purely standard conservative position"
       ],
       "correct": 2,
-      "explanation": "This mixed combination — minimal business regulation paired with trade protectionism to shield workers from foreign competition — reflects the populist tradition, which can combine positions not found in a single standard ideological package (here, less domestic regulation with suspicion of concentrated economic power, in this case foreign competitors). Option B (federalism) concerns the division of power between national and state government, not this issue-position combination. Options A and D are wrong because 'pure' liberalism or conservatism each follows one standard package consistently, not this economically mixed pattern."
+      "explanation": "Correct: (C) Populism, a mixed anti-elite tradition. Populism is not fixed to a single left-right package; it mixes positions on the theory that ordinary workers are being harmed by elites or outside forces. Here the politician wants light regulation of business but protection of workers from foreign competition through trade intervention, a combination that does not fit a standard one-cluster pattern.\n\n(A) is wrong because standard liberalism usually favors more business regulation.\n(B) is wrong because federalism concerns the division of power between national and state governments, not economic positions.\n(D) is wrong because standard conservatism usually backs free trade along with limited regulation, so the support for trade intervention to protect workers breaks from it."
     },
     {
       "id": "4-37",
@@ -3233,7 +3233,7 @@ const QUESTIONS = {
         "No, because these terms have no meaningful content at all."
       ],
       "correct": 1,
-      "explanation": "The general pattern each label reflects (views on government's role, and on social change vs. tradition) is relatively stable, but the specific policy positions associated with each label can and do shift over time as the political landscape evolves. Option C wrongly claims totally fixed content. Option D wrongly denies the terms have any meaningful content. Option A incorrectly claims the Constitution defines these labels — it does not."
+      "explanation": "Correct: (B) No — the general pattern is stable, but specifics shift over time. Liberal and conservative labels broadly reflect views about government's role and attitudes toward change versus tradition, but the particular issues attached to each label evolve as new debates arise; for example, positions on trade, civil rights, and federal power have moved between the camps across eras.\n\n(A) is wrong because the Constitution does not define political ideologies.\n(C) is wrong because it claims the policy content has never changed, which history contradicts.\n(D) is wrong because the terms do carry real, recognizable content even though specifics shift."
     },
     {
       "id": "4-38",
@@ -3246,7 +3246,7 @@ const QUESTIONS = {
         "This combination is logically impossible and could never occur."
       ],
       "correct": 0,
-      "explanation": "This combination — socially traditional but economically interventionist — mixes elements typically associated with different standard ideological clusters, illustrating that real individuals don't always fit cleanly into a single ideological box. Option B is wrong because favoring active economic regulation isn't a standard conservative position. Option D is wrong because this combination is logically possible and does occur among real voters. Option C is wrong because libertarians favor minimal, not active, government intervention in the economy."
+      "explanation": "Correct: (A) A mix of conservative-leaning social and liberal-leaning economic views. Favoring traditional social values is typically conservative, while favoring an active government role in economic regulation is typically liberal. The voter holds one position from each cluster, which shows that real people do not always fit one ideological package.\n\n(B) is wrong because a standard conservative favors less economic regulation, so this voter does not match.\n(C) is wrong because libertarians favor minimal intervention in the economy, the opposite of active regulation.\n(D) is wrong because such combinations are entirely possible and exist among many real voters."
     },
     {
       "id": "4-39",
@@ -3272,7 +3272,7 @@ const QUESTIONS = {
         "No — ideology predicts general tendencies, but individuals can diverge."
       ],
       "correct": 3,
-      "explanation": "Ideology is a genuinely useful predictor of general tendencies and clusters of related positions, but it doesn't guarantee perfect predictability for every individual on every issue — real people sometimes diverge, as illustrated by libertarian and populist combinations. Option C overstates ideology's predictive power as absolute. Option A arbitrarily restricts predictive value to economic policy alone. Option B wrongly denies ideology has any predictive value."
+      "explanation": "Correct: (D) No — ideology predicts general tendencies, but individuals can diverge. Knowing someone is conservative makes certain views more likely, such as support for limited government and lower taxes, but individuals may depart on specific issues because of personal experience, religion, region, or competing values. The phrase in the stem \"every single issue with total certainty\" signals that the claim is too strong.\n\n(A) is wrong because ideology is not perfectly predictive of economic views either, and the limit does not apply only to social policy.\n(B) is wrong because ideology does have predictive value for general tendencies.\n(C) is wrong because perfect prediction with no exceptions is false."
     },
     {
       "id": "4-41",
@@ -3298,7 +3298,7 @@ const QUESTIONS = {
         "This combination is impossible to analyze using any ideological framework."
       ],
       "correct": 0,
-      "explanation": "Supporting corporate regulation (typically liberal) while opposing welfare expansion (typically conservative) mixes elements from both standard clusters, showing that real political platforms don't always sort into a single package. Option B is wrong because this platform isn't purely liberal — opposing welfare expansion is a conservative-leaning position. Option D wrongly claims the platform can't be analyzed. Option C is wrong because this platform isn't purely conservative — supporting corporate regulation is a liberal-leaning position."
+      "explanation": "Correct: (A) A mix of positions from both standard ideological clusters. Supporting strong regulation of large corporations is typically a liberal-leaning economic position, while opposing expanded social welfare programs is typically conservative-leaning. A platform that takes one stance from each cluster is mixed, not consistent with a single standard package.\n\n(B) is wrong because a standard liberal platform would generally support, not oppose, expanding social welfare.\n(C) is wrong because a standard conservative platform would generally oppose heavy corporate regulation.\n(D) is wrong because the framework can analyze this platform; it simply shows it is a mix."
     },
     {
       "id": "4-43",
@@ -3337,7 +3337,7 @@ const QUESTIONS = {
         "No, because political parties have no internal structure at all."
       ],
       "correct": 1,
-      "explanation": "Neither major party is perfectly ideologically uniform — both are broad coalitions containing genuine internal diversity, including more centrist and more ideologically extreme factions. Option D is wrong because parties do have internal structure. Option A wrongly restricts uniformity to the Democratic Party alone. Option C wrongly claims total uniformity for both parties, contrary to well-documented intra-party diversity."
+      "explanation": "Correct: (B) No — both are broad coalitions with meaningful internal diversity. Each major party includes moderates and more ideologically committed factions, along with groups with different priorities, so members often differ on specific issues. This is a consequence of the two-party system, where each party must assemble a coalition large enough to win elections.\n\n(A) is wrong because the Democratic Party is no more uniform than the other party.\n(C) is wrong because members do not hold identical views on every issue.\n(D) is wrong because parties do have internal structure, such as leadership, committees, factions, and caucuses."
     },
     {
       "id": "4-46",
@@ -3363,7 +3363,7 @@ const QUESTIONS = {
         "It doesn't matter at all; all party members always vote identically."
       ],
       "correct": 1,
-      "explanation": "Internal ideological diversity within parties means that knowing a legislator's party affiliation gives a strong but imperfect prediction of their views — individual members can and do diverge from their party's general platform on specific issues. Option C overstates the point — parties do have real ideological identities despite internal diversity. Option A wrongly restricts this dynamic to third parties only. Option D wrongly claims perfect voting uniformity, contrary to observed legislative behavior."
+      "explanation": "Correct: (B) Party affiliation alone doesn't perfectly predict a member's position on every issue. Because each party contains moderates, regional differences, and ideological factions, a legislator can break with party leaders on certain votes, for example to reflect a district's preferences. Party is a strong but imperfect predictor of voting.\n\n(A) is wrong because the two major parties are the ones with the most diversity, being broad coalitions.\n(C) is wrong because diversity does not mean parties lack an ideological identity; they still have recognizable general orientations.\n(D) is wrong because members do not always vote identically, as party-line breaks do occur."
     },
     {
       "id": "4-48",
@@ -3389,7 +3389,7 @@ const QUESTIONS = {
         "Party and ideology are completely unrelated concepts."
       ],
       "correct": 1,
-      "explanation": "The two major parties generally organize their platforms around one of the two dominant ideological clusters (liberal or conservative), but the fit is genuinely imperfect given each party's internal diversity. Option D wrongly claims no relationship at all. Option C wrongly claims a perfect, identical relationship. Option A wrongly restricts ideological identity to third parties, ignoring the clear ideological leanings of the two major parties."
+      "explanation": "Correct: (B) Parties generally organize around one cluster, but the fit is imperfect. The Democratic and Republican parties are generally associated with liberal and conservative clusters respectively, which shapes their platforms, but because each is a broad coalition, many members do not match the cluster on every issue.\n\n(A) is wrong because the major parties also have clear ideological identities.\n(C) is wrong because party is an organization that competes in elections while ideology is a set of beliefs, so they are not identical concepts.\n(D) is wrong because the two are closely related even if not identical."
     },
     {
       "id": "4-50",
@@ -3402,7 +3402,7 @@ const QUESTIONS = {
         "That party platforms are legally binding on every individual member."
       ],
       "correct": 2,
-      "explanation": "This illustrates that parties are broad coalitions rather than perfectly uniform ideological blocs — individual members can and do hold views that diverge somewhat from their party's general platform. Option D wrongly claims platforms are legally binding on individuals. Option A wrongly concludes the person must not be a party member. Option B wrongly claims parties have no internal diversity, contrary to the scenario described."
+      "explanation": "Correct: (C) Parties are broad coalitions; members can diverge from its general alignment. A party platform states the party's general positions but does not require each member to agree on every issue. A centrist-leaning member of a party shows the range of views that exists inside a coalition built to win a majority.\n\n(A) is wrong because holding some different views does not remove someone from membership; party membership is typically a matter of registration or identification.\n(B) is wrong because the scenario is itself evidence of internal diversity.\n(D) is wrong because platforms are statements of intent and are not legally binding on individual members."
     },
     {
       "id": "4-51",
@@ -3415,7 +3415,7 @@ const QUESTIONS = {
         "Their geographic region of residence, considered alone."
       ],
       "correct": 2,
-      "explanation": "Party affiliation, ideological self-identification, and geographic region are all weaker single proxies for an individual's specific policy views than a detailed, direct survey of their views across multiple issue areas — because each of these single proxies masks real internal diversity within parties, ideological labels, and regions. Among these three weaker single proxies, relying on party affiliation ALONE (without any other information) is the least reliable, precisely because of the internal diversity within each party's coalition — but the key contrast this question tests is that any single proxy is less reliable than directly surveying actual views, not a fine-grained ranking among the proxies themselves."
+      "explanation": "Correct: (C) Their political party affiliation alone, without any other information. Party affiliation is a rough indicator because each party is a broad coalition with diverse members, so it fits individual views on specific policies least well among the single-factor choices offered. A detailed survey of actual views is the best predictor, and ideological self-identification is somewhat more specific than party alone. The question asks which is LEAST reliable, so look for the proxy that hides the most variation.\n\n(A) is wrong because directly surveying many policy areas is the most reliable method.\n(B) is wrong because ideological self-identification is imperfect but is more tied to policy views than party label alone.\n(D) is the closest alternative, since region alone is also a weak predictor, but this question is pointing at party because each party's internal diversity is so large."
     },
     {
       "id": "4-52",
@@ -3428,7 +3428,7 @@ const QUESTIONS = {
         "This phenomenon has never actually occurred in American political history."
       ],
       "correct": 0,
-      "explanation": "Since parties are broad coalitions of factions with different priorities, shifts in those factions' relative influence over time can lead a party's platform to evolve on specific issues, even while its overall ideological orientation stays comparatively stable. Option B wrongly claims a legal mandate to change platforms every four years — no such requirement exists. Option C wrongly claims platforms are permanently fixed, contrary to observed historical shifts. Option D wrongly denies this phenomenon has ever occurred."
+      "explanation": "Correct: (A) Shifting influence among the party's internal factions changes emphasized positions. Parties are coalitions of groups, such as business interests, activists, regional blocs, and demographic groups. When the balance of power among those groups changes, the party can adopt new emphasis or change positions on particular issues, even as its broad liberal or conservative orientation stays recognizable.\n\n(B) is wrong because no law requires parties to rewrite platforms every four years; parties adopt them at conventions as a matter of their own rules.\n(C) is wrong because platforms are not permanently fixed and have changed repeatedly.\n(D) is wrong because history includes many shifts in party positions on issues such as trade and the role of the federal government."
     },
     {
       "id": "4-53",
@@ -3441,7 +3441,7 @@ const QUESTIONS = {
         "That these two lawmakers must belong to the same political party."
       ],
       "correct": 2,
-      "explanation": "This scenario illustrates that ideological disagreement is often about the appropriate method of addressing a shared policy goal (poverty reduction), not necessarily about whether the goal itself deserves attention. Option A wrongly claims ideology has no bearing on policy design. Option D wrongly assumes shared policy goals imply shared party membership — lawmakers from different parties can agree a problem matters. Option B wrongly claims ideology only affects whether government acts, ignoring its role in shaping how it acts."
+      "explanation": "Correct: (C) That disagreement is often about the appropriate METHOD, not the goal itself. Both lawmakers accept that poverty needs government attention, so they share a goal; their dispute is over whether to use, for example, direct aid, tax incentives, job training, or other tools. Ideology shapes which tools seem best.\n\n(A) is wrong because ideology clearly influences how people design policy.\n(B) is wrong because it says ideology affects only whether government acts, but the scenario shows both agree to act and still differ on how.\n(D) is wrong because nothing in the stem says they share a party, and members of different parties can agree a problem exists."
     },
     {
       "id": "4-54",
@@ -3454,7 +3454,7 @@ const QUESTIONS = {
         "A typically liberal preference for direct intervention and mandates."
       ],
       "correct": 3,
-      "explanation": "Strict government-mandated limits reflect a typically liberal preference for direct government intervention and mandated compliance, in contrast to a more market-based conservative approach. Option C wrongly claims this position has no ideological content. Option A wrongly attributes it exclusively to third parties. Option B mischaracterizes it as the conservative, market-based approach — the opposite of what this scenario describes."
+      "explanation": "Correct: (D) A typically liberal preference for direct intervention and mandates. Strict, government-mandated emission limits are a command-and-control regulation: the government sets a required standard and enforces it. This fits the typical liberal tendency to use direct government action to address problems like pollution.\n\n(A) is wrong because this approach is not exclusive to third parties.\n(B) is wrong because market-based solutions, such as tax credits or tradable permits, are the typically conservative alternative, and the stem describes mandates instead.\n(C) is wrong because the choice of method between mandate and incentive is exactly where ideology shows up."
     },
     {
       "id": "4-55",
@@ -3467,7 +3467,7 @@ const QUESTIONS = {
         "A position with no ideological content at all."
       ],
       "correct": 2,
-      "explanation": "Market-based incentives (tax credits rewarding voluntary action) reflect a typically conservative preference for private choice and market mechanisms over direct mandate. Option A mischaracterizes this as the liberal, direct-mandate approach — the opposite of what's described. Option B is factually wrong; market-based incentive programs like this have been used repeatedly in U.S. policy. Option D wrongly claims the approach has no ideological content."
+      "explanation": "Correct: (C) A typically conservative preference for market-based incentives. Tax credits for voluntary emission cuts use rewards and private choice rather than requirements, which fits the typically conservative tendency to prefer market mechanisms and limit government mandates. The key words in the stem are \"credits\" and \"voluntarily.\"\n\n(A) is wrong because a direct mandate would require reductions rather than reward voluntary ones.\n(B) is wrong because incentives like these have been used in U.S. policy, such as energy tax credits.\n(D) is wrong because the preference for incentives versus mandates reflects an ideological tendency."
     },
     {
       "id": "4-56",
@@ -3480,7 +3480,7 @@ const QUESTIONS = {
         "Ideology only matters for foreign policy issues."
       ],
       "correct": 1,
-      "explanation": "Ideology shapes policy debates on two levels: whether government should address an issue at all, and — often more significantly — how it should act, meaning the specific method chosen. Option C wrongly denies ideology has any real policy influence. Option D wrongly restricts its relevance to foreign policy alone. Option A captures only half the picture, ignoring ideology's role in shaping method."
+      "explanation": "Correct: (B) Ideology shapes both whether government acts and, if so, how — the choice of method. Beliefs about the role of government affect whether people want government involved in an issue at all and, when they agree it should be, which tool they prefer, such as regulation, spending, or tax incentives. The unit stresses that many debates are about method.\n\n(A) is wrong because it captures only the question of whether to act and ignores the choice of method.\n(C) is wrong because ideology plainly influences policy design.\n(D) is wrong because ideology matters across domestic and foreign policy alike, not only foreign policy."
     },
     {
       "id": "4-57",
@@ -3493,7 +3493,7 @@ const QUESTIONS = {
         "Both proposals belong to the exact same political party's platform."
       ],
       "correct": 1,
-      "explanation": "Despite reflecting different ideological approaches (direct government provision vs. market-based incentive), both proposals share the same underlying goal — helping low-income families — illustrating that ideological disagreement is often about method, not the legitimacy of the goal. Option A wrongly claims the proposals are identical in every respect, ignoring their different methods. Option D is factually irrelevant — the proposals' party origin isn't given or relevant to this comparison. Option C wrongly claims neither addresses a real goal, when both clearly target the same one."
+      "explanation": "Correct: (B) Both share the same underlying goal despite differing methods. Both lawmakers want to improve the economic situation of low-income families. One uses direct government cash assistance and the other uses tax incentives to push employers to raise wages, which reflects different ideological preferences about the proper method.\n\n(A) is wrong because the proposals use very different tools, so they are not identical.\n(C) is wrong because both clearly address a real goal.\n(D) is wrong because nothing in the stem ties either proposal to a particular party's platform."
     },
     {
       "id": "4-58",
@@ -3506,7 +3506,7 @@ const QUESTIONS = {
         "Many debates involve agreement on the problem but disagreement on the mechanism."
       ],
       "correct": 3,
-      "explanation": "Framing debates purely as 'should government act or not' oversimplifies many real disputes, where both sides may agree a problem deserves attention but hold genuinely different ideological views about the best mechanism. Option C wrongly claims government methods are legally fixed and undebatable. Option A wrongly claims same-party policymakers never disagree on method, contrary to real intra-party diversity. Option B wrongly denies method disagreements ever occur."
+      "explanation": "Correct: (D) Many debates involve agreement on the problem but disagreement on the mechanism. Framing every dispute as \"act or don't act\" misses cases like poverty, pollution, or education, where nearly everyone agrees something should be done but they disagree about whether to use regulation, spending, tax incentives, or markets. Recognizing this gives a more accurate picture of the debate.\n\n(A) is wrong because members of the same party often disagree about methods, as parties are broad coalitions.\n(B) is wrong because disagreement about methods is common.\n(C) is wrong because the methods of government are open to debate and legislation."
     },
     {
       "id": "4-59",
@@ -3519,7 +3519,7 @@ const QUESTIONS = {
         "Neither approach has any ideological content."
       ],
       "correct": 0,
-      "explanation": "Direct government-funded scholarships reflect the typically liberal preference for direct government provision, while tax deductions reflect the typically conservative preference for using the tax code and market incentives — the same underlying goal, different ideological methods. Options B and D wrongly deny any ideological content or distinction. Option C reverses the correct pairing."
+      "explanation": "Correct: (A) Scholarships: liberal, direct-provision approach. Deductions: conservative, tax-incentive approach. Government-funded scholarships have the state directly provide money, which fits the typical liberal preference for direct government programs. Tuition deductions work through the tax code to reduce costs and rely on private decisions, which fits the typical conservative preference for lower taxes and incentives. Both aim to raise college attendance, so the difference is in method.\n\n(B) is wrong because the two methods differ in how much they rely on direct provision.\n(C) is wrong because it reverses the pairing.\n(D) is wrong because the choice of method reflects ideological tendencies."
     },
     {
       "id": "4-60",
@@ -3532,7 +3532,7 @@ const QUESTIONS = {
         "A court ruling on an unrelated constitutional question."
       ],
       "correct": 2,
-      "explanation": "This example shows agreement on the underlying issue (climate change requires a response) while illustrating genuine ideological disagreement specifically about implementation — the choice between direct regulation and market-based pricing as the method. Option A illustrates disagreement about the underlying problem itself, not implementation. Option B shows no policy response at all, not a method debate. Option D is unrelated to climate policy implementation entirely."
+      "explanation": "Correct: (C) Lawmakers agreeing on the problem but split on regulation vs. market pricing. Implementation means how a goal is carried out. Here the lawmakers accept that the problem exists and want to address it, but they differ over direct regulation versus a market tool like pricing, which is a dispute about method.\n\n(A) is wrong because disagreeing over whether climate change is occurring is a dispute about the problem itself, not about implementation.\n(B) is wrong because proposing no policy has no method to debate.\n(D) is wrong because an unrelated court ruling says nothing about ideology shaping implementation."
     },
     {
       "id": "4-61",
@@ -3545,7 +3545,7 @@ const QUESTIONS = {
         "Accurately analyzing a policy debate, not oversimplifying it."
       ],
       "correct": 3,
-      "explanation": "This goals-versus-methods distinction is most directly useful for accurately characterizing and analyzing a described policy debate on the exam — recognizing that many disputes reflect agreement on the problem paired with disagreement about method, rather than assuming disagreement always means denying the problem exists. Options A, B, and C (margin of error, Unit 3 court cases, and Constitutional text) are unrelated skills from other parts of the course."
+      "explanation": "Correct: (D) Accurately analyzing a policy debate, not oversimplifying it. When you can separate the goal from the method, you can recognize that two sides might share a goal but differ in how to reach it, instead of assuming one side opposes the goal. This is useful when analyzing a described debate or scenario.\n\n(A) is wrong because calculating margin of error is a statistics skill from polling.\n(B) is wrong because identifying Supreme Court cases is a separate content skill unrelated to the goal-method distinction.\n(C) is wrong because verbatim memorization of the Constitution is not what this distinction helps with."
     },
     {
       "id": "4-62",
@@ -3559,7 +3559,7 @@ const QUESTIONS = {
         "None of these three approaches has any ideological content, as each is a purely technical choice."
       ],
       "correct": 2,
-      "explanation": "This scenario rewards recognizing that policy methods don't always sort into a clean two-category system: the public transit expansion is direct government provision (liberal-leaning); the tax incentive is market-based (conservative-leaning); congestion pricing is a genuine hybrid — using government authority to set a price signal (a form of intervention) to influence, rather than mandate, private behavior (a market-oriented mechanism). Option B wrongly claims congestion pricing has no market element, ignoring its price-signal mechanism. Option D wrongly claims none of these methods carry ideological content. Option A wrongly claims all three are ideologically identical, collapsing a meaningful distinction. Recognizing that some real-world policies blend both ideological logics is a more advanced synthesis than the unit's core examples require."
+      "explanation": "Correct: (C) Transit expansion is direct intervention; incentives are market-based; congestion pricing hybridizes both. A government-built and operated transit system is direct provision. Tax incentives for employers who let people work remotely encourage private choices without requiring them, which is market-oriented. Congestion pricing uses a government agency to set tolls, which is government action, but it works by changing prices that drivers respond to, which is a market-style mechanism, so it blends both logics.\n\n(A) is wrong because the three tools differ in how much they depend on government control versus private choice.\n(B) is wrong because congestion pricing relies on a price signal and does not mandate behavior directly.\n(D) is wrong because the preference for these methods is tied to ideological tendencies."
     },
     {
       "id": "4-63",
@@ -3572,7 +3572,7 @@ const QUESTIONS = {
         "Only registered voters are legally allowed to be polled."
       ],
       "correct": 2,
-      "explanation": "Screening for 'likely voters' (using criteria like past voting history or stated intent) produces a narrower subgroup that may differ systematically from the full registered voter population — a methodological choice affecting what population results can be generalized to. Option D is factually wrong; unregistered individuals can legally be polled. Option A wrongly claims the two groups always produce identical results. Option B wrongly restricts this methodological distinction to non-election years."
+      "explanation": "Correct: (C) A narrower, screened subgroup that may differ from registered voters overall. Pollsters use \"likely voter\" screens, such as past voting records or stated intention to vote, to estimate who will actually turn out. That subgroup can differ from all registered voters in age, enthusiasm, or party leaning, so results may differ and the screen affects who the poll represents.\n\n(A) is wrong because the groups often produce different results.\n(B) is wrong because the distinction is most relevant to election-time polling.\n(D) is wrong because there is no legal limit that restricts polls to registered voters."
     },
     {
       "id": "4-64",
@@ -3585,7 +3585,7 @@ const QUESTIONS = {
         "An ideologically meaningless combination with no analytical value to students of politics."
       ],
       "correct": 2,
-      "explanation": "Supporting environmental regulation (typically liberal) while opposing expanded social welfare spending (typically conservative) mixes elements of both standard clusters — another example of how real individual views don't always sort neatly into a single ideological package. Options A and B both wrongly claim full ideological consistency in one direction, ignoring the mixed positions described. Option D wrongly claims the combination has no analytical value, when it's a textbook example of ideological mixing."
+      "explanation": "Correct: (C) A mix of a liberal-leaning regulatory stance and a conservative-leaning spending stance. Supporting expanded environmental regulation is typically a liberal position, while supporting reduced government spending on social welfare programs is typically conservative. One view from each cluster means this voter does not sort neatly into one package.\n\n(A) is wrong because a standard liberal would typically support, not cut, social welfare spending.\n(B) is wrong because a standard conservative would typically oppose expanded regulation of industry.\n(D) is wrong because mixed combinations like this are useful for understanding how real voters differ from ideological labels."
     },
     {
       "id": "4-65",
@@ -3599,7 +3599,7 @@ const QUESTIONS = {
         "This observation contradicts the coalition model of parties and suggests parties are perfectly ideologically uniform."
       ],
       "correct": 2,
-      "explanation": "This scenario illustrates the 'parties as broad coalitions' concept: a faction diverging on one specific issue (trade policy) while remaining aligned on most others reflects the genuine internal diversity coalitions contain — and such shifting factional influence over time is the mechanism through which a party's platform can gradually evolve on specific issues, even while its overall ideological identity stays comparatively stable. Option B overstates the case — divergence on one issue doesn't mean leaving the party. Option A wrongly claims this observation is irrelevant to political science, when it's a core illustration of coalition theory. Option D wrongly claims it contradicts the coalition model — it's actually a textbook confirmation of it."
+      "explanation": "Correct: (C) Consistent with coalition model: factions can diverge on one issue while staying aligned on others. A party is a coalition of groups that agree on enough issues to stay together, but they may split on specific issues such as trade. A faction that diverges on trade but aligns with the party elsewhere is the expected pattern, and shifts in faction strength can gradually change the party's platform.\n\n(A) is wrong because the observation is directly relevant to how parties are understood.\n(B) is wrong because a difference on one issue does not mean leaving the party.\n(D) is wrong because the observation shows internal diversity, which contradicts the idea of a perfectly uniform party."
     },
     {
       "id": "4-66",
@@ -3612,7 +3612,7 @@ const QUESTIONS = {
         "The margin of error reported for the poll was calculated incorrectly."
       ],
       "correct": 2,
-      "explanation": "A poll's statistical validity concerns whether its sample was properly drawn and its results correctly reported for that moment — it doesn't guarantee accurate prediction of a future event, since opinion can shift, turnout can diverge from projections, and non-response bias can occur even in a well-conducted random sample. Option A wrongly assumes only self-selected samples can miss an outcome. Option D is an unsupported guess about a calculation error not indicated in the scenario. Option B overreaches by declaring all polling inherently unscientific, contrary to what a properly randomized sample actually establishes."
+      "explanation": "Correct: (C) Statistical validity concerns sound methodology, not a guarantee of a later outcome. A poll measures opinion at the time it is taken, with a margin of error. Between the poll and election day, opinions can shift, undecided voters can break one way, and actual turnout may differ from who was projected to vote. So a well-run poll can still miss the final result without being unscientific.\n\n(A) is wrong because even random samples can differ from later outcomes, and nothing says the sample was self-selected.\n(B) is wrong because properly done random polls are scientific and informative.\n(D) is wrong because nothing in the stem suggests a calculation error; the gap can arise from timing and turnout."
     },
     {
       "id": "4-67",
@@ -3625,7 +3625,7 @@ const QUESTIONS = {
         "Push polling, which means the poll's results cannot be trusted."
       ],
       "correct": 2,
-      "explanation": "Officials tend to be most responsive to public opinion on high-salience issues the public actively tracks and votes on, and least responsive on low-salience or technical issues — exactly the pattern described. Option A references the exclusionary rule, a criminal-procedure concept from Unit 3 unrelated to public opinion responsiveness. Option D wrongly claims push polling invalidates these results, when nothing here indicates biased question wording. Option B references the free rider problem, an unrelated collective-action concept."
+      "explanation": "Correct: (C) Salience — officials respond more to high-salience issues than low-salience ones. Salience is how important and visible an issue is to the public. Officials tend to follow public opinion most when the issue is high-profile and voters may base their votes on it, and are freer to ignore majorities on obscure matters that receive little coverage. The stem's clue words are \"low-profile\" and \"receives little media coverage.\"\n\n(A) is wrong because the exclusionary rule concerns excluding illegally obtained evidence in criminal cases and has nothing to do with public opinion.\n(B) is wrong because the free rider problem is about people benefiting from collective goods without contributing, and it does not prevent all policy change.\n(D) is wrong because nothing suggests the poll used biased wording, and push polling is not the explanation here."
     },
     {
       "id": "4-68",
@@ -3638,7 +3638,7 @@ const QUESTIONS = {
         "The watchdog function — media investigating and exposing government wrongdoing."
       ],
       "correct": 2,
-      "explanation": "Agenda-setting describes media's power to shape which issues the public considers important and salient — distinct from directly shaping what opinion the public holds on those issues. Coverage that raises an issue's perceived importance without changing minds is a textbook example of agenda-setting. Option D (watchdog function) concerns exposing wrongdoing, not perceived issue importance. Option B (horse-race journalism) concerns campaign-coverage framing, not issue salience. Option A (selective exposure) concerns individuals choosing like-minded media, not media's influence on perceived importance."
+      "explanation": "Correct: (C) Agenda-setting — media shapes which issues seem important, not necessarily opinions held. Agenda-setting is the media's ability to influence what the public thinks about by giving some issues heavy coverage, even if it does not change what people think about them. The stem says coverage led people to name an issue as a top problem without changing opinions, which is this effect.\n\n(A) is wrong because selective exposure is about individuals choosing media that matches their views.\n(B) is wrong because horse-race journalism focuses on who is ahead in campaigns rather than issue importance.\n(D) is wrong because the watchdog function is about exposing wrongdoing."
     },
     {
       "id": "4-69",
@@ -3651,7 +3651,7 @@ const QUESTIONS = {
         "The original poll must have used a non-random sample, since a random sample would guarantee opinion never changes."
       ],
       "correct": 1,
-      "explanation": "A properly conducted poll measures opinion as it existed at the time it was taken — it is a snapshot, not a permanent prediction. Opinion genuinely shifting in response to later events does not retroactively invalidate the original poll's methodology or accuracy at the time it was conducted. Option D wrongly claims random samples guarantee opinion never changes — no sampling method can freeze future opinion. Option C overreaches by declaring polling inherently invalid. Option A incorrectly blames the margin of error, which measures sampling precision, not opinion stability over time."
+      "explanation": "Correct: (B) A valid snapshot at the time taken, not a permanent prediction of later opinion. A poll measures opinion at one moment, and opinion can change after events shift attention. The shift does not mean the first poll was wrong; it was accurate for its time.\n\n(A) is wrong because margin of error describes sampling precision, not future change.\n(C) is wrong because a later shift does not make polling invalid.\n(D) is wrong because no sampling method can freeze opinion, so the claim that random samples guarantee stable opinion is false."
     },
     {
       "id": "4-70",
@@ -3664,7 +3664,7 @@ const QUESTIONS = {
         "Voluntary charitable giving by successful business owners to the poor."
       ],
       "correct": 0,
-      "explanation": "Smith's \"invisible hand\" describes how individuals pursuing self-interest within a competitive market, without centralized direction, tend to produce outcomes that benefit society broadly. Government planning (option C) is the opposite of Smith's argument. Charitable giving (option D) and union negotiation (option B) are real economic phenomena but are not the mechanism Smith identifies as producing broadly beneficial outcomes from self-interested competition."
+      "explanation": "Correct: (A) The invisible hand of self-interest channeled through market competition. In The Wealth of Nations (1776), Adam Smith argued that when people pursue their own interests in a competitive market, prices and competition steer resources to what others want, so society benefits without central direction. The stem's clue is \"pursuing their own self-interest in a competitive market.\"\n\n(B) is wrong because unions negotiating wages is a separate labor-market arrangement and not Smith's mechanism.\n(C) is wrong because government planning of prices and production is the opposite of Smith's argument for market coordination.\n(D) is wrong because charitable giving is voluntary generosity and not the self-interest mechanism Smith describes."
     },
     {
       "id": "4-71",
@@ -3677,7 +3677,7 @@ const QUESTIONS = {
         "It was cited in the majority opinion of a landmark Supreme Court case on commerce."
       ],
       "correct": 1,
-      "explanation": "The document earns its place in this unit specifically because it is the evidentiary source AP Gov cites for free enterprise as one of the core American political values, alongside liberty, equality, individualism, and self-government — not because of its general economic content. Smith was not a member of the Continental Congress (option A), the book does not describe U.S. governmental structure (option C), and its Foundational Document status here does not rest on a specific Court citation (option D)."
+      "explanation": "Correct: (B) It is the canonical source for free enterprise as a core American political value. The AP course lists The Wealth of Nations as a Foundational Document in the political culture unit because it provides the classic argument for free enterprise and limited government interference in markets, one of the values that shape American political debates.\n\n(A) is wrong because Adam Smith was a Scottish economist and was not a member of the Continental Congress.\n(C) is wrong because the book is about economics, not the structure of the federal government.\n(D) is wrong because its place in the course is due to its ideas, not a citation in a Supreme Court majority opinion."
     },
     {
       "id": "4-72",
@@ -3690,7 +3690,7 @@ const QUESTIONS = {
         "The main justification for expanding the social safety net to more families."
       ],
       "correct": 2,
-      "explanation": "Free enterprise, grounded in Smith's argument for limited government and market competition, resurfaces in 4.4–4.6 as the economic core of conservative ideology — favoring less government regulation and greater reliance on free markets. Expanding the safety net (option D) and favoring more regulation (option B) describe positions more typically associated with liberal ideology, the opposite pole. Populist trade policy (option A) is a distinct strand covered elsewhere in 4.4 and is not the direct continuation of Smith's free-enterprise argument."
+      "explanation": "Correct: (C) The economic core of conservative ideology favoring less regulation. Smith's case for free markets and limited government interference reappears in the ideology section as the typical conservative preference for lower taxes, fewer regulations, and reliance on markets.\n\n(A) is wrong because populist trade policy, which can favor protecting workers from foreign imports, runs against Smith's free-trade logic rather than continuing it.\n(B) is wrong because greater regulation of the economy is the typical liberal position and the opposite of Smith's argument.\n(D) is wrong because expanding the social safety net is also a typical liberal position, not the conclusion of Smith's free enterprise argument."
     }
   ],
   "5": [
@@ -3783,7 +3783,7 @@ const QUESTIONS = {
         "No, because legal voting rights have never truly existed in the U.S."
       ],
       "correct": 1,
-      "explanation": "Legal eligibility (the formal right to vote) and actual voter turnout (whether someone exercises that right) are related but distinct — expanding legal rights doesn't automatically guarantee higher turnout among the newly eligible population. The other options fail: legal voting rights clearly do exist and have expanded over time (not 'never existed'); turnout is always well below 100%, so not every eligible citizen votes; and eligibility (a legal status) and turnout (actual behavior) are plainly not identical concepts."
+      "explanation": "Correct: (B) No — eligibility to vote and actual voter turnout are distinct. The legal right to vote is a status that grants permission to participate, while turnout measures how many eligible people actually cast ballots. Many eligible citizens do not vote because of busy schedules, registration hurdles, lack of interest, or other factors, so turnout is always below 100 percent.\n\n(A) is wrong because it treats the right and its use as identical.\n(C) is wrong because not every eligible citizen votes.\n(D) is wrong because legal voting rights do exist and have expanded through amendments and laws such as the 15th, 19th, 24th, and 26th Amendments."
     },
     {
       "id": "5-8",
@@ -3796,7 +3796,7 @@ const QUESTIONS = {
         "Durational residency requirements for voters"
       ],
       "correct": 1,
-      "explanation": "The Voting Rights Act of 1965 banned discriminatory practices like literacy tests and provided federal enforcement mechanisms to protect voting rights, particularly in areas with a history of racial discrimination in voting. Poll taxes were instead addressed by the 24th Amendment (1964); age restrictions were addressed by the 26th Amendment (1971); and durational residency requirements, while a real historical barrier, were not the VRA's primary target."
+      "explanation": "Correct: (B) Discriminatory tests, like literacy requirements. The Voting Rights Act of 1965 targeted practices that kept Black citizens from voting in the South, especially literacy tests, and added federal oversight such as preclearance of voting changes in jurisdictions with a history of discrimination.\n\n(A) is wrong because minimum voting age was lowered to 18 by the 26th Amendment (1971).\n(C) is wrong because poll taxes in federal elections were banned by the 24th Amendment (1964), and state elections later by Harper v. Virginia Board of Elections (1966).\n(D) is wrong because durational residency requirements were not the primary focus of the 1965 Act."
     },
     {
       "id": "5-9",
@@ -3809,7 +3809,7 @@ const QUESTIONS = {
         "Race, apart from socioeconomic status"
       ],
       "correct": 0,
-      "explanation": "Socioeconomic status — particularly education and income level — is consistently among the strongest predictors of voter turnout, with higher levels of each correlating with higher turnout rates. Race considered apart from socioeconomic status, regional location alone, and how long someone has been registered with a party are all real but comparatively weaker and less consistent predictors."
+      "explanation": "Correct: (A) Education and income level. Socioeconomic status is one of the most consistent predictors of turnout: people with more education and higher incomes vote at higher rates, because they tend to have more political information, resources, and a stronger sense that participation matters.\n\n(B) is wrong because length of party registration is not a leading predictor.\n(C) is wrong because region alone explains much less than socioeconomic status.\n(D) is wrong because differences by race are largely tied to socioeconomic status and barriers, so race apart from socioeconomic status is a weaker predictor."
     },
     {
       "id": "5-10",
@@ -3835,7 +3835,7 @@ const QUESTIONS = {
         "It likely decreases turnout, due to the added registration barrier."
       ],
       "correct": 3,
-      "explanation": "Advance registration deadlines function as a structural/administrative barrier — some eligible voters miss the deadline before fully engaging with an upcoming election, which tends to depress turnout somewhat compared to same-day registration options. The claim that it has 'no effect' ignores well-documented research on registration barriers; it is not limited to presidential years, since the same deadline applies to all elections in that state; and it decreases rather than increases turnout, since it adds friction rather than removing it."
+      "explanation": "Correct: (D) It likely decreases turnout, due to the added registration barrier. A 30-day deadline requires people to register well before they become engaged in the campaign, and many who decide late are shut out; turnout is generally higher in states with same-day registration. The stem's clue is \"no same-day registration option,\" which adds a step before voting.\n\n(A) is wrong because advance deadlines add a hurdle rather than helping voters prepare.\n(B) is wrong because the deadline applies to every election in the state, not just presidential years.\n(C) is wrong because research finds that registration requirements affect turnout."
     },
     {
       "id": "5-12",
@@ -3848,7 +3848,7 @@ const QUESTIONS = {
         "More competitive races typically see higher turnout."
       ],
       "correct": 3,
-      "explanation": "More competitive races typically drive higher turnout, since voters perceive their individual vote as more likely to meaningfully affect the outcome — a close race raises the perceived stakes of participating. Turnout occurs in both competitive and uncompetitive races, so choice B is false; choice C states the opposite of the documented relationship; and the claim of 'no established relationship' ignores consistent research findings on this point."
+      "explanation": "Correct: (D) More competitive races typically see higher turnout. When a race is close, voters feel that their vote could matter, and campaigns, parties, and the media spend more on mobilization and outreach, which raises participation. In lopsided races, voters may think the result is certain and stay home.\n\n(A) is wrong because research shows a consistent relationship.\n(B) is wrong because turnout happens in both competitive and uncompetitive races.\n(C) is wrong because it reverses the established relationship."
     },
     {
       "id": "5-13",
@@ -3861,7 +3861,7 @@ const QUESTIONS = {
         "No, turnout is entirely random and unpredictable."
       ],
       "correct": 1,
-      "explanation": "Voter turnout reflects a genuine mix of factors — individual-level characteristics (socioeconomic status, age, interest), structural barriers (registration requirements, election timing), and contextual factors (race competitiveness) — rather than any single uniform cause. It is not reducible to one cause, whether that claimed cause is unspecified or specifically 'apathy,' and it is not simply random, since these factors predict turnout patterns with real consistency."
+      "explanation": "Correct: (B) No — turnout reflects a mix of several interacting factors. Individual characteristics (education, income, age, interest), institutional rules (registration deadlines, early voting, election timing), and context (competitive races, mobilization efforts) all contribute. So no single cause explains low turnout.\n\n(A) is wrong because apathy is only one possible factor and does not explain it all.\n(C) is wrong because low turnout does not have exactly one cause.\n(D) is wrong because turnout follows patterns that can be predicted from these factors, so it is not random."
     },
     {
       "id": "5-14",
@@ -3887,7 +3887,7 @@ const QUESTIONS = {
         "This change only affects turnout in local elections."
       ],
       "correct": 2,
-      "explanation": "Extending early voting reduces the practical friction of voting — giving voters more flexible opportunities to fit voting into their schedule — which research generally associates with modestly increased turnout, similar to the effect of easing registration requirements. Turnout would not decrease from having more options, and there is no basis for 'forgetting' being more likely with more time; the change would have a measurable effect, not none; and nothing about early voting access is limited specifically to local elections."
+      "explanation": "Correct: (C) Turnout would likely increase, due to greater voting flexibility. Longer early voting gives people more choices about when to vote, which helps those with work, caregiving, or transportation constraints that make a single election day difficult. Easing the logistics of voting tends to modestly raise turnout.\n\n(A) is wrong because changes in voting access can affect participation.\n(B) is wrong because more time does not cause forgetting; it offers more opportunities.\n(D) is wrong because early voting rules in a state generally apply to many elections, not just local ones."
     },
     {
       "id": "5-16",
@@ -3900,7 +3900,7 @@ const QUESTIONS = {
         "There is no plausible explanation for this correlation."
       ],
       "correct": 2,
-      "explanation": "Higher socioeconomic status is generally associated with greater access to political information, more schedule flexibility to accommodate voting, and often a stronger sense of political efficacy (feeling that one's vote and participation genuinely matters) — factors that together help explain the strong, consistent correlation with turnout. This is a well-supported explanation, not an unexplainable correlation; voting is legally open to all eligible citizens regardless of wealth; and the correlation is well-documented, not disproven."
+      "explanation": "Correct: (C) Socioeconomic status affects access to information, flexibility, and efficacy. People with higher education and income tend to know more about candidates and the voting process, can more easily take time off or arrange transportation, and are more likely to feel that their participation matters (political efficacy). These advantages together help explain why socioeconomic status correlates strongly with turnout.\n\n(A) is wrong because voting is legally open to all eligible citizens regardless of wealth.\n(B) is wrong because the correlation is well documented.\n(D) is wrong because there are plausible, researched explanations."
     },
     {
       "id": "5-17",
@@ -3952,7 +3952,7 @@ const QUESTIONS = {
         "Yes, because they are legally required to act identically."
       ],
       "correct": 1,
-      "explanation": "The three faces of a party do not always act in perfect unison — a party's elected officials, its formal organizational leadership, and its rank-and-file voters can and sometimes do diverge on specific issues or priorities, despite sharing the same general party identity. They do not always agree completely, and there is no legal requirement that they act identically; at the same time, they are not 'entirely unrelated,' since all three share the same party label and broad coalition."
+      "explanation": "Correct: (B) No — the three faces can diverge on specific issues. The three faces are the party in the electorate (voters who identify with the party), the party organization (committees and leaders who run campaigns), and the party in government (officeholders). They share a label but have different incentives, so officeholders may respond to their districts while activists or organization leaders push other priorities.\n\n(A) is wrong because the faces are closely related through the shared party.\n(C) is wrong because they do not always agree on every issue.\n(D) is wrong because no law requires them to act identically."
     },
     {
       "id": "5-21",
@@ -3965,7 +3965,7 @@ const QUESTIONS = {
         "No — political parties are not mentioned in the Constitution."
       ],
       "correct": 3,
-      "explanation": "Political parties are not explicitly mentioned anywhere in the Constitution's text — they developed as an informal but essential linkage institution over the course of American political history, despite lacking any explicit constitutional foundation. No amendment establishes them, and no article of the original Constitution does either; and despite this constitutional silence, parties have obviously existed and shaped American politics since the early republic."
+      "explanation": "Correct: (D) No — political parties are not mentioned in the Constitution. The framers did not plan for parties, and George Washington and others warned against factions; parties emerged soon after ratification as informal groups organizing around Hamilton and Jefferson. They are linkage institutions created by practice and law, not by the constitutional text.\n\n(A) is wrong because no amendment establishes parties.\n(B) is wrong because parties have existed since the 1790s.\n(C) is wrong because no article of the Constitution establishes political parties."
     },
     {
       "id": "5-22",
@@ -3991,7 +3991,7 @@ const QUESTIONS = {
         "By structuring legislative leadership and committee assignments."
       ],
       "correct": 3,
-      "explanation": "Parties help organize government by structuring legislative leadership (such as choosing the Speaker of the House), committee assignments, and voting coalitions — providing an organizing structure for how a large, multi-member legislative body actually functions internally. Parties don't directly run bureaucratic agencies' daily operations, don't write judicial opinions (a function of independent judges), and don't eliminate elections — if anything, they exist to contest them."
+      "explanation": "Correct: (D) By structuring legislative leadership and committee assignments. In Congress, the majority party picks the Speaker of the House and committee chairs, organizes committees, and coordinates agendas and voting, so that a body of hundreds can function. This is how parties organize government.\n\n(A) is wrong because judges, not parties, write judicial opinions.\n(B) is wrong because parties compete in elections rather than eliminating them.\n(C) is wrong because the bureaucracy's day-to-day operations are run by executive agencies, not directly by parties."
     },
     {
       "id": "5-24",
@@ -4004,7 +4004,7 @@ const QUESTIONS = {
         "By removing voters' ability to evaluate government performance."
       ],
       "correct": 1,
-      "explanation": "Parties provide accountability by giving voters a relatively simplified label and choice, allowing them to reward or punish a party's overall governing performance at the ballot box, rather than requiring voters to individually evaluate every single candidate's specific record from scratch each election. This simplifies rather than removes voters' evaluative ability, preserves rather than eliminates distinctions between candidates, and has nothing to do with making elections uncontested."
+      "explanation": "Correct: (B) By giving voters a clear way to reward or punish a party. Because a party label stands for a general record and direction, voters can hold a party responsible at the polls for how government performed, for example by voting out the party in power when things go badly. This gives a simple accountability mechanism.\n\n(A) is wrong because accountability depends on contested elections.\n(C) is wrong because party labels help voters tell candidates apart.\n(D) is wrong because parties make it easier, not harder, for voters to evaluate performance."
     },
     {
       "id": "5-25",
@@ -4017,7 +4017,7 @@ const QUESTIONS = {
         "The process of redistricting congressional districts."
       ],
       "correct": 1,
-      "explanation": "Party realignment refers to a durable, lasting shift in which demographic or regional groups of voters support a given political party — often associated with a significant 'critical election' or period of political change. A slogan change is cosmetic and unrelated; a temporary polling swing is the opposite of 'durable'; and redistricting is a separate process governing district boundaries, not voter party allegiance."
+      "explanation": "Correct: (B) A durable shift in which voters support which party. Realignment occurs when major groups of voters change their party loyalties for a long period, often around a critical election, as in 1932 when many voters moved toward the Democratic coalition under the New Deal. The key word is durable.\n\n(A) is wrong because a temporary polling shift is not a lasting change in loyalties.\n(C) is wrong because a slogan change is cosmetic.\n(D) is wrong because redistricting redraws district lines and is unrelated to party loyalty shifts."
     },
     {
       "id": "5-26",
@@ -4030,7 +4030,7 @@ const QUESTIONS = {
         "A general weakening of attachment to either major party."
       ],
       "correct": 3,
-      "explanation": "Party dealignment refers to a general weakening of voters' attachment to political parties altogether — more voters identifying as independents, and existing partisans holding somewhat more flexible party loyalty than in earlier eras. It does not mean parties cease to exist, nor does it describe a platform reversal; and durable switching from one major party to the other describes realignment, a distinct concept."
+      "explanation": "Correct: (D) A general weakening of attachment to either major party. Dealignment means fewer voters identify strongly with a party, with more people calling themselves independents and more split-ticket voting. It is about declining loyalty, not switching sides.\n\n(A) is wrong because parties continue to exist.\n(B) is wrong because voters durably switching from one major party to the other is realignment.\n(C) is wrong because a reversal of a party's platform is a change in the party, not in voter attachment."
     },
     {
       "id": "5-27",
@@ -4043,7 +4043,7 @@ const QUESTIONS = {
         "Yes, these are identical concepts describing the same electoral phenomenon."
       ],
       "correct": 0,
-      "explanation": "Divided government describes the outcome of a SPECIFIC election (different parties controlling different branches), which is a distinct concept from realignment, which describes a longer-term, durable shift in which voter coalitions support which party. Divided government does not automatically signal realignment is underway; it has, in fact, occurred repeatedly in American history; and the two terms describe genuinely different phenomena, not the same one."
+      "explanation": "Correct: (A) No — divided government and realignment are distinct concepts. Divided government describes the result of an election in which different parties control the presidency and one or both chambers of Congress, and it can happen in a single election. Realignment is a long-lasting change in which groups support which party. Divided government does not mean voters have changed loyalties permanently.\n\n(B) is wrong because divided government has occurred often in American history.\n(C) is wrong because it does not always signal realignment.\n(D) is wrong because the two are different phenomena."
     },
     {
       "id": "5-28",
@@ -4056,7 +4056,7 @@ const QUESTIONS = {
         "Neither concept applies to this scenario"
       ],
       "correct": 1,
-      "explanation": "This scenario describes dealignment — a weakening of formal attachment to parties (more independents) without a durable switch in which party voters actually support (voting patterns stay stable), which would instead describe realignment. Realignment alone is wrong because voting patterns here don't durably shift parties; 'both' overstates the case, since only the weakening-attachment pattern is present; and 'neither' is wrong since dealignment is a clear fit."
+      "explanation": "Correct: (B) Dealignment — weakening party attachment. The scenario describes more voters who no longer identify strongly with either party and register as independents, while voting patterns stay stable. That is weaker attachment, not a switch of sides.\n\n(A) is wrong because realignment requires a durable shift in which party groups support, and the stem says voting patterns remain fairly stable.\n(C) is wrong because only the weakening of attachment is described, so the realignment label does not apply.\n(D) is wrong because dealignment clearly fits."
     },
     {
       "id": "5-29",
@@ -4069,7 +4069,7 @@ const QUESTIONS = {
         "Neither concept applies to this scenario"
       ],
       "correct": 1,
-      "explanation": "This scenario describes realignment — a durable switch in which party a specific group of voters supports, persisting over subsequent elections, rather than simply a weakening of attachment to parties generally (dealignment). 'Neither' is wrong since realignment plainly fits; dealignment is wrong because the group's attachment to a party isn't weakening, it's shifting between the two major parties; and the scenario explicitly involves major parties, not a third party."
+      "explanation": "Correct: (B) Realignment — a durable partisan switch. A specific group moving its support from one major party to the other over several elections and staying there is a lasting shift in coalitions, which is the definition of realignment. The clue words are \"durably shifts\" and \"continues to consistently favor the new party.\"\n\n(A) is wrong because the stem describes a move between the two major parties, not to a third party.\n(C) is wrong because dealignment means weaker attachment to parties, while this group has formed a new attachment.\n(D) is wrong because realignment clearly applies."
     },
     {
       "id": "5-30",
@@ -4082,7 +4082,7 @@ const QUESTIONS = {
         "An election tied to a significant, durable partisan shift."
       ],
       "correct": 3,
-      "explanation": "A critical election refers to an election, or period of closely related elections, associated with a significant and durable shift in party coalitions — often used to mark the starting point of a broader realignment. Lacking a majority winner, being overturned by a court, or simply being decided narrowly are all unrelated to the concept, which is specifically about a lasting change in voter coalitions, not the mechanics or margin of any single vote count."
+      "explanation": "Correct: (D) An election tied to a significant, durable partisan shift. A critical election is one in which voter coalitions change in a way that lasts for decades, such as 1932 (the New Deal coalition) or 1800 and 1860. It is used to mark the start of a realignment. The defining feature is the lasting shift, not how close or messy the vote was.\n\n(A) is wrong because a narrow margin alone does not make an election critical.\n(B) is wrong because failing to get a majority is a vote-count issue, not a realignment.\n(C) is wrong because a court overturning an election has no link to changing party coalitions."
     },
     {
       "id": "5-31",
@@ -4108,7 +4108,7 @@ const QUESTIONS = {
         "Because only one of the two concepts has ever actually occurred in American history."
       ],
       "correct": 2,
-      "explanation": "These are genuinely distinct patterns describing different phenomena — voters SWITCHING which party they support (realignment) versus voters becoming LESS attached to parties as a category (dealignment) — and correctly identifying which pattern a described scenario reflects is a specific, testable skill. Both patterns have occurred historically, so it isn't that only one exists; they are not synonyms; and the AP exam does test these concepts, including through scenario-based questions like this one."
+      "explanation": "Correct: (C) Because they describe genuinely different partisan patterns. Realignment is a durable shift in which party voter groups support, while dealignment is a decline in attachment to parties in general, with more independents. A scenario in a question will describe one or the other, and mixing them up leads to the wrong answer.\n\n(A) is wrong because the terms are not synonyms.\n(B) is wrong because the AP course expects students to know both and applies them to scenarios.\n(D) is wrong because both patterns have been discussed in American history; realignments around critical elections and dealignment in recent decades."
     },
     {
       "id": "5-33",
@@ -4134,7 +4134,7 @@ const QUESTIONS = {
         "Eliminating the need for voter turnout."
       ],
       "correct": 0,
-      "explanation": "The 'safety valve' function describes how third parties can raise issues the major parties initially neglect — sometimes with enough demonstrated voter interest that a major party later adopts a similar position into its own platform, even if the third party itself never wins the specific election. Third parties don't eliminate the need for turnout, don't prevent elections from happening, and are not guaranteed any seats regardless of how few votes they receive."
+      "explanation": "Correct: (A) Raising issues that major parties initially ignore. Third parties often bring attention to topics such as tariffs, free silver, or environmental concerns, and if the issue draws support, a major party may adopt it to attract those voters. This gives dissatisfied voters an outlet for their concerns within the system, which is the safety valve idea.\n\n(B) is wrong because third parties do not prevent elections.\n(C) is wrong because winner-take-all rules mean no party is guaranteed seats.\n(D) is wrong because third parties do not eliminate the need for turnout; they need voters like any party."
     },
     {
       "id": "5-35",
@@ -4147,7 +4147,7 @@ const QUESTIONS = {
         "Drawing votes from a similar major-party candidate."
       ],
       "correct": 3,
-      "explanation": "The 'spoiler' effect describes a scenario where a third-party candidate draws votes away from an ideologically similar major-party candidate, potentially changing which major-party candidate ultimately wins — even though the third-party candidate themselves has no realistic chance of winning. A spoiler candidate doesn't win outright, doesn't abolish the winner-take-all system, and doesn't disqualify other candidates from the race."
+      "explanation": "Correct: (D) Drawing votes from a similar major-party candidate. In winner-take-all plurality elections, a third-party candidate who is ideologically close to a major-party candidate can split the vote, so the other major-party candidate wins with a plurality even though most voters preferred the closer pair. The third-party candidate is called a spoiler.\n\n(A) is wrong because spoilers typically do not win.\n(B) is wrong because they do not eliminate the winner-take-all system.\n(C) is wrong because they do not make others ineligible."
     },
     {
       "id": "5-36",
@@ -4173,7 +4173,7 @@ const QUESTIONS = {
         "Yes, because only winning candidates can influence any policy outcome."
       ],
       "correct": 2,
-      "explanation": "Despite rarely winning outright, third parties can meaningfully shape American politics through the safety valve function (raising issues major parties later adopt) and the spoiler function (affecting the outcome between major-party candidates) — real political influence that doesn't require winning office directly. So it's wrong to say they have 'zero relevance' or that only winners shape policy; and it's also wrong that they win a guaranteed minimum, since most third-party candidates win no seats at all."
+      "explanation": "Correct: (C) No — third parties can meaningfully influence politics without office. They can raise issues that major parties later adopt (safety valve), and they can affect election outcomes by drawing votes away from one major-party candidate (spoiler effect). Examples include the Populists' influence on later reforms.\n\n(A) is wrong because third parties have influence even without winning.\n(B) is wrong because no minimum seats are guaranteed.\n(D) is wrong because policy can be influenced by those outside office, as the safety valve role shows."
     },
     {
       "id": "5-38",
@@ -4199,7 +4199,7 @@ const QUESTIONS = {
         "This scenario has no possible effect on the election's outcome."
       ],
       "correct": 2,
-      "explanation": "This is a classic spoiler scenario — the third-party candidate, by drawing votes primarily from supporters who might otherwise have voted for the ideologically closer major-party candidate, could plausibly affect which major-party candidate ultimately wins the seat. An 8% third-party showing does not itself win a plurality seat; it clearly can affect the outcome (that's the whole spoiler dynamic); and nothing about a close three-candidate race automatically triggers a new election."
+      "explanation": "Correct: (C) The candidate may 'spoil' the race for the closer rival. With 8 percent of the vote in a tight race, a third-party candidate who shares positions with one major-party candidate likely took votes mostly from that candidate. If the margin between the two major-party candidates is smaller than 8 points, the split could decide the winner.\n\n(A) is wrong because 8 percent will not win a plurality race that has two stronger candidates.\n(B) is wrong because plurality systems do not trigger a new election in this situation.\n(D) is wrong because the entire point of the spoiler effect is that it can change the outcome."
     },
     {
       "id": "5-40",
@@ -4212,7 +4212,7 @@ const QUESTIONS = {
         "Because supporting a likely-losing candidate 'wastes' their support."
       ],
       "correct": 3,
-      "explanation": "In a winner-take-all system, voters and donors often calculate that supporting a candidate unlikely to secure a plurality is strategically less effective than supporting a major-party candidate with a realistic chance of winning — a rational strategic response to the electoral system's structure, reinforcing the two-party pattern described by Duverger's Law. There is no law requiring major parties to receive all votes, third parties are legal, and third-party candidates do regularly appear on ballots (just with less success)."
+      "explanation": "Correct: (D) Because supporting a likely-losing candidate 'wastes' their support. In single-member, winner-take-all districts, only the top vote-getter wins, so voters and donors who want to affect the outcome tend to back whichever major-party candidate has a realistic chance, even if they prefer a third party. This strategic behavior reinforces the two-party system described by Duverger's Law.\n\n(A) is wrong because third-party candidates are listed on ballots, though sometimes with hurdles to qualify.\n(B) is wrong because third parties are legal.\n(C) is wrong because no law requires voters to support major parties."
     },
     {
       "id": "5-41",
@@ -4225,7 +4225,7 @@ const QUESTIONS = {
         "A voting bloc consisting of exactly three demographic groups."
       ],
       "correct": 2,
-      "explanation": "An iron triangle describes a durable, mutually reinforcing relationship between a bureaucratic agency, the congressional committee with jurisdiction over it, and an interest group with a direct stake in that policy area — each benefiting from the ongoing relationship, sharing a stake in a specific policy area. It is not a third-party coalition, has nothing to do with campaign finance calculations, and does not refer to demographic voting blocs."
+      "explanation": "Correct: (C) An alliance between an agency, a committee, and a group. An iron triangle is a stable, mutually beneficial relationship among a bureaucratic agency, the congressional committee that oversees it, and the interest group affected by the policy. The group provides support and information, the committee provides funding and favorable legislation, and the agency gets resources and political backing.\n\n(A) is wrong because it has nothing to do with calculating contribution limits.\n(B) is wrong because it is not a third-party coalition.\n(D) is wrong because it is not a voting bloc of three demographic groups."
     },
     {
       "id": "5-42",
@@ -4238,7 +4238,7 @@ const QUESTIONS = {
         "The tendency of interest groups to always win every policy fight."
       ],
       "correct": 2,
-      "explanation": "The free rider problem describes reduced individual incentive to personally contribute to a group's organizing efforts when the resulting benefit (like cleaner air, or a general economic improvement) would be broadly shared regardless of whether any specific individual actually contributes. There is no such legal transportation requirement; large diffuse groups are actually harder, not easier, to organize than small concentrated ones because of this very problem; and interest groups certainly don't win every fight."
+      "explanation": "Correct: (C) Reduced individual incentive to contribute when benefits are broadly shared. When a group's goal would benefit everyone whether or not they take part, such as cleaner air or lower consumer prices, each person can reason that their own effort is small and enjoy the benefit anyway. If many think that way, the group fails to organize.\n\n(A) is wrong because there is no such transportation requirement.\n(B) is wrong because the free rider problem makes large groups harder, not easier, to organize.\n(D) is wrong because interest groups do not always win."
     },
     {
       "id": "5-43",
@@ -4251,7 +4251,7 @@ const QUESTIONS = {
         "A large, diffuse-interest group is always easier to organize."
       ],
       "correct": 1,
-      "explanation": "A small group with a concentrated interest (like a specific industry facing a specific regulation) is generally easier to organize effectively than a large group with a diffuse interest, since concentrated stakes give each individual member a stronger incentive to contribute, while the free rider problem more severely affects large, diffuse-interest groups. So it is the small group, not the large diffuse one, that organizes more easily; the two are not equally easy; and size/concentration clearly does bear on organizational success."
+      "explanation": "Correct: (B) A small, concentrated-interest group is generally easier to organize. In a small group with a concentrated stake, each member gains a lot from the outcome, so each has strong reason to contribute, and it is easy to monitor who participates. In a large, diffuse group, benefits are spread thin and the free rider problem undermines participation.\n\n(A) is wrong because the two types differ in how easy they are to organize.\n(C) is wrong because size and concentration matter.\n(D) is wrong because large diffuse groups are not always easier to organize; usually they are harder."
     },
     {
       "id": "5-44",
@@ -4264,7 +4264,7 @@ const QUESTIONS = {
         "Filing an amicus brief in a Supreme Court case."
       ],
       "correct": 3,
-      "explanation": "Filing an amicus curiae ('friend of the court') brief is a form of litigation-based advocacy, allowing an interest group to present its perspective to a court considering a case relevant to the group's interests, without being a direct party to the lawsuit. Direct lobbying, advertising, and voter registration drives are all legitimate tactics too, but they represent lobbying, media, and grassroots-mobilization strategies rather than litigation."
+      "explanation": "Correct: (D) Filing an amicus brief in a Supreme Court case. Litigation as a tactic means using the courts, either by suing or by submitting an amicus curiae brief that gives a court the group's views on a case. The clue in the stem is \"litigation.\"\n\n(A) is wrong because a registration drive is grassroots mobilization.\n(B) is wrong because television ads are a media or electioneering tactic.\n(C) is wrong because meeting a member of Congress is direct lobbying."
     },
     {
       "id": "5-45",
@@ -4277,7 +4277,7 @@ const QUESTIONS = {
         "It connects directly to Unit 2's coverage of the federal bureaucracy."
       ],
       "correct": 3,
-      "explanation": "The iron triangle concept directly builds on Unit 2's discussion of the federal bureaucracy, illustrating how policy influence in a specific issue area often flows through a durable, specialized, mutually reinforcing relationship between an agency, a congressional committee, and an interest group, rather than through broad, general public pressure alone. It is not primarily about federalism (Unit 1) or civil liberties (Unit 3), and it is clearly connected to other course material, not isolated from it."
+      "explanation": "Correct: (D) It connects directly to Unit 2's coverage of the federal bureaucracy. An iron triangle includes a federal agency, so it links interest groups to bureaucracy and congressional committees, explaining how policy gets made in a specific area through a stable relationship among all three.\n\n(A) is wrong because it is not tied to federalism.\n(B) is wrong because it is not about civil liberties.\n(C) is wrong because the concept links several parts of the course, including Congress and the bureaucracy."
     },
     {
       "id": "5-46",
@@ -4290,7 +4290,7 @@ const QUESTIONS = {
         "Hiring a professional lobbyist to meet privately with a legislator."
       ],
       "correct": 2,
-      "explanation": "Organizing members to directly contact elected officials about a specific bill is a classic grassroots mobilization tactic — engaging the group's broader membership or public supporters directly, as opposed to more specialized tactics like litigation, direct lobbying, or campaign contributions. Hiring a lobbyist is direct/insider lobbying rather than grassroots activity, a campaign contribution is an electoral finance tactic, and a lawsuit is litigation-based advocacy — none of these mobilize the group's broader base."
+      "explanation": "Correct: (C) Organizing members to contact their elected representatives. Grassroots mobilization means activating ordinary members and supporters, through letter-writing campaigns, calls, or turnout, to put pressure on officials. The key is that it relies on the broader membership.\n\n(A) is wrong because a lawsuit is litigation.\n(B) is wrong because campaign contributions are electoral financial support.\n(D) is wrong because hiring a lobbyist to meet with a legislator is direct (insider) lobbying, not mass mobilization."
     },
     {
       "id": "5-47",
@@ -4303,7 +4303,7 @@ const QUESTIONS = {
         "No, because interest groups are explicitly established in the Constitution while parties are not."
       ],
       "correct": 0,
-      "explanation": "Interest groups and political parties are distinct linkage institutions — interest groups typically focus on advancing specific issues and generally do not run their own candidates under their own party label, while political parties exist specifically to contest and win elective office under a shared party identity. The Constitution actually establishes neither institution explicitly, so that reasoning is wrong; and the two terms are not interchangeable, nor do the two institutions perform identical functions."
+      "explanation": "Correct: (A) No — interest groups don't run their own candidates for office. Parties exist to nominate candidates under their label and win elections, while interest groups try to influence policy by lobbying, litigating, or backing candidates without fielding their own. That difference in function is why they are separate linkage institutions.\n\n(B) is wrong because their functions differ.\n(C) is wrong because the terms are not interchangeable.\n(D) is wrong because neither interest groups nor parties are established in the Constitution, although the First Amendment protects the right to petition and assemble."
     },
     {
       "id": "5-48",
@@ -4316,7 +4316,7 @@ const QUESTIONS = {
         "The iron triangle, which only applies to consumer groups."
       ],
       "correct": 2,
-      "explanation": "This asymmetry is a textbook illustration of the free rider problem: the industry's concentrated stake gives each company strong individual incentive to organize, while the much larger but diffuse consumer benefit gives each individual consumer comparatively weak incentive to personally contribute to organized opposition. Duverger's Law actually concerns elections, not interest groups (the reverse of what that option claims); selective incorporation concerns the Bill of Rights and states, not organizing; and iron triangles describe agency-committee-group alliances, not this specific organizing asymmetry."
+      "explanation": "Correct: (C) The free rider problem, affecting the diffuse consumer group more. A few companies each have a large stake, so each gains enough from the outcome to pay for lobbying. Millions of consumers each gain only a small amount, and each can benefit if others do the work, so few individuals choose to contribute. The stem's contrast of \"small number\" and \"much larger group\" signals concentrated versus diffuse interests.\n\n(A) is wrong because selective incorporation concerns applying the Bill of Rights to states.\n(B) is wrong because Duverger's Law is about elections and party systems.\n(D) is wrong because an iron triangle is an agency-committee-group relationship and does not apply only to consumers."
     },
     {
       "id": "5-49",
@@ -4329,7 +4329,7 @@ const QUESTIONS = {
         "That such spending is protected speech under the First Amendment."
       ],
       "correct": 3,
-      "explanation": "Citizens United ruled that government may not restrict independent political expenditures by corporations and unions, treating this spending as a form of protected political speech under the First Amendment. It did not set or preserve a fixed dollar cap, did not ban such spending (the opposite outcome), and applied equally to both corporations and unions, not unions alone."
+      "explanation": "Correct: (D) That such spending is protected speech under the First Amendment. In Citizens United v. FEC (2010), the Supreme Court held 5-4 that the government cannot restrict independent political expenditures by corporations and unions, since doing so would limit political speech. This opened the way for super PACs funded by large sums.\n\n(A) is wrong because the ruling applied to both corporations and unions.\n(B) is wrong because the Court did not set a dollar cap.\n(C) is wrong because it protected such spending rather than banning it."
     },
     {
       "id": "5-50",
@@ -4342,7 +4342,7 @@ const QUESTIONS = {
         "Yes, all direct contribution limits were eliminated by this ruling."
       ],
       "correct": 0,
-      "explanation": "This is one of the most commonly misstated facts about the case: Citizens United addressed independent expenditures specifically, not direct contributions to a candidate's own campaign — those direct contribution limits remain in place and were not affected by this ruling. So direct contribution limits were not eliminated, for individuals or corporations alike, and the case very much did address campaign finance — it simply addressed a different category of spending than direct contributions."
+      "explanation": "Correct: (A) No — Citizens United concerns independent expenditures only. The decision dealt with spending that is not coordinated with a candidate's campaign. Limits on direct contributions to candidates, set by the Federal Election Campaign Act and later laws, stayed in place. The stem emphasizes \"DIRECT\" contributions, the category the case did not change.\n\n(B) is wrong because the case was about campaign finance.\n(C) is wrong because direct contribution limits remained for everyone.\n(D) is wrong because direct limits were not eliminated."
     },
     {
       "id": "5-51",
@@ -4355,7 +4355,7 @@ const QUESTIONS = {
         "A direct contribution to a candidate's official campaign fund."
       ],
       "correct": 0,
-      "explanation": "An independent expenditure refers to political spending — such as an advertisement — that is not directly coordinated with a candidate's own campaign, which is exactly the category of spending Citizens United protected from government restriction. It is not a government subsidy, is the opposite of a direct campaign contribution (which by definition goes to the campaign itself), and is not any kind of tax."
+      "explanation": "Correct: (A) Spending not directly coordinated with a campaign. An independent expenditure is money spent to support or oppose a candidate, such as an ad, by a person or group acting without coordination with the candidate's campaign. These are the expenditures protected in Citizens United.\n\n(B) is wrong because a government subsidy to campaigns is public financing.\n(C) is wrong because it is not a tax.\n(D) is wrong because a direct contribution to a campaign fund is the opposite of independent spending and is subject to limits."
     },
     {
       "id": "5-52",
@@ -4381,7 +4381,7 @@ const QUESTIONS = {
         "No — coordinated spending does not qualify as an independent expenditure."
       ],
       "correct": 3,
-      "explanation": "Since this spending is directly coordinated with the candidate's campaign, it does NOT qualify as an independent expenditure under Citizens United's specific holding — coordinated spending remains subject to separate campaign finance rules and contribution limits, unlike genuinely independent spending. Citizens United did not ban corporate spending generally (the opposite is true); nonprofit status doesn't change the coordination analysis; and not all corporate spending is automatically protected — only spending that is genuinely independent of a campaign is."
+      "explanation": "Correct: (D) No — coordinated spending does not qualify as an independent expenditure. Independent means not coordinated with a candidate's campaign. When a corporation plans and funds an ad together with the candidate's staff, the spending is treated as an in-kind contribution to the campaign and is subject to contribution limits and the ban on corporate contributions to candidates. The stem's clue is \"coordinates directly with a candidate's campaign staff.\"\n\n(A) is wrong because nonprofit status does not remove the coordination problem.\n(B) is wrong because Citizens United did not ban corporate political spending; it protected independent spending.\n(C) is wrong because only spending that is genuinely independent is protected."
     },
     {
       "id": "5-54",
@@ -4394,7 +4394,7 @@ const QUESTIONS = {
         "Because the case has no bearing on any tested topic."
       ],
       "correct": 2,
-      "explanation": "Citizens United's precise holding — protecting independent expenditures specifically, while leaving direct contribution limits untouched — is one of the most commonly confused and misstated facts among AP Gov students, particularly the distinction between independent expenditures and direct contributions, making precision on this specific distinction especially valuable. The case is in fact a required Supreme Court case for this course, is directly tested, and was decided 5-4, not unanimously."
+      "explanation": "Correct: (C) Because it is one of the exam's most frequently misstated facts. Students often claim Citizens United lets corporations give unlimited money directly to candidates, or that it eliminated all limits, when the holding is narrower: independent expenditures by corporations and unions are protected speech, while direct contribution limits remain. Stating it precisely avoids that error.\n\n(A) is wrong because the decision was 5-4, with dissents.\n(B) is wrong because it is one of the required Supreme Court cases.\n(D) is wrong because it is directly tied to the campaign finance topics tested."
     },
     {
       "id": "5-55",
@@ -4407,7 +4407,7 @@ const QUESTIONS = {
         "A significant rise in outside, independent election spending."
       ],
       "correct": 3,
-      "explanation": "A genuine, well-documented consequence of Citizens United has been a significant increase in outside, independent spending on elections, facilitated in large part by the rise of Super PACs able to raise and spend unlimited funds on such expenditures. The ruling did not restrict spending to small donors, did not eliminate campaign spending (it increased it), and PACs continue to exist and operate after the decision, not been abolished."
+      "explanation": "Correct: (D) A significant rise in outside, independent election spending. After the 2010 decision, and the related SpeechNow.org v. FEC ruling, super PACs emerged that can raise and spend unlimited amounts, including from corporations and unions, as long as they do not coordinate with campaigns, which led to a large increase in outside spending.\n\n(A) is wrong because no rule limits funding to small donors.\n(B) is wrong because political action committees still exist.\n(C) is wrong because campaign spending increased rather than ended."
     },
     {
       "id": "5-56",
@@ -4420,7 +4420,7 @@ const QUESTIONS = {
         "State legislatures, collectively"
       ],
       "correct": 0,
-      "explanation": "Citizens United v. FEC was decided by the Supreme Court, part of the judicial branch — exercising judicial review over campaign finance regulations passed by Congress. Congress passed the underlying campaign finance law the case reviewed, but did not decide the case itself; state legislatures had no role in this federal ruling; and the president neither decides Supreme Court cases nor was a party to this one."
+      "explanation": "Correct: (A) The judicial branch. Citizens United v. FEC (2010) was decided by the U.S. Supreme Court, which uses judicial review to decide whether laws, here part of the Bipartisan Campaign Reform Act of 2002, violate the Constitution.\n\n(B) is wrong because Congress passed the law that was challenged but did not decide the case.\n(C) is wrong because the president does not decide Supreme Court cases.\n(D) is wrong because state legislatures had no role in this federal case."
     },
     {
       "id": "5-57",
@@ -4433,7 +4433,7 @@ const QUESTIONS = {
         "This statement is accurate, but only for the presidential election."
       ],
       "correct": 0,
-      "explanation": "This is precisely the common misstatement to avoid: Citizens United does not permit unlimited DIRECT contributions to a candidate's campaign — it specifically protects INDEPENDENT expenditures, a genuinely different category of campaign spending that remains legally distinct from direct candidate contributions. The statement is not accurate for congressional races, presidential races, or any race, since direct contribution limits apply consistently across election types and were untouched by this ruling."
+      "explanation": "Correct: (A) This statement is inaccurate — direct contributions remain limited. Citizens United protected independent expenditures, meaning spending not coordinated with a candidate. It did not remove limits on contributions given directly to a candidate's campaign, and federal law still bars corporations from contributing directly to federal candidates. The student's wording about direct contributions to a campaign fund is the common error.\n\n(B) is wrong because the statement is not accurate as written.\n(C) is wrong because direct limits apply in congressional races too.\n(D) is wrong because they apply in presidential races as well."
     },
     {
       "id": "5-58",
@@ -4446,7 +4446,7 @@ const QUESTIONS = {
         "Investigating and exposing government wrongdoing."
       ],
       "correct": 3,
-      "explanation": "The watchdog function refers to the media's role in investigating and exposing government wrongdoing or misconduct — holding officials and institutions accountable through independent scrutiny and reporting. This is distinct from producing entertainment programming, from directly enforcing laws (a role for law enforcement and courts, not the press), and from setting policy (a role for elected officials, not journalists)."
+      "explanation": "Correct: (D) Investigating and exposing government wrongdoing. The watchdog function means journalists scrutinize officials and institutions and report on corruption, abuse, or mistakes so the public can hold them accountable.\n\n(A) is wrong because enforcing law is done by law enforcement and courts, not the press.\n(B) is wrong because setting government policy is done by elected officials and agencies.\n(C) is wrong because the watchdog role involves news reporting, not only entertainment."
     },
     {
       "id": "5-59",
@@ -4459,7 +4459,7 @@ const QUESTIONS = {
         "Media directly telling citizens what specific opinion to hold on an issue."
       ],
       "correct": 1,
-      "explanation": "Agenda-setting specifically describes media's influence over which issues the public perceives as important or salient — a subtly different claim from media directly shaping which specific opinion people hold on an issue. Agenda-setting is precisely a claim about media influence, so 'no influence' is wrong; it concerns issue salience, not directly dictating opinions; and media coverage typically increases rather than eliminates public interest in the issues it covers."
+      "explanation": "Correct: (B) Media shaping which issues the public sees as important. Agenda-setting is the idea that, by choosing what to cover and how much, media influence what people think about, even if they do not tell people what to think.\n\n(A) is wrong because the concept is about a form of media influence.\n(C) is wrong because coverage tends to raise attention to issues rather than eliminate interest.\n(D) is wrong because telling people which opinion to hold describes direct persuasion, not agenda-setting."
     },
     {
       "id": "5-60",
@@ -4472,7 +4472,7 @@ const QUESTIONS = {
         "A required Supreme Court case regarding media."
       ],
       "correct": 0,
-      "explanation": "Horse-race journalism refers to media coverage that emphasizes the competitive, 'who's winning' dimension of a political campaign — polling numbers and campaign strategy — often at the expense of substantive discussion of candidates' actual policy positions. It is not a Supreme Court case, is essentially the opposite of in-depth policy analysis, and has nothing to do with media ownership rules."
+      "explanation": "Correct: (A) Coverage emphasizing who's 'winning' over policy substance. Horse-race journalism treats campaigns like a race, focusing on polls, fundraising, and strategy, rather than candidates' policy proposals. The metaphor is a clue: horse races are about who is ahead.\n\n(B) is wrong because it is not a rule about media ownership.\n(C) is wrong because in-depth policy analysis is the opposite of horse-race coverage.\n(D) is wrong because it is a type of coverage, not a court case."
     },
     {
       "id": "5-61",
@@ -4485,7 +4485,7 @@ const QUESTIONS = {
         "A ban on certain types of media content."
       ],
       "correct": 0,
-      "explanation": "Selective exposure describes individuals' tendency to seek out media sources and content that reinforce their existing political views, potentially deepening polarization by limiting exposure to alternative perspectives. It is not a turnout-measurement method, involves no government mandate to watch particular programming, and is not a content ban — it describes a voluntary consumption pattern by individuals."
+      "explanation": "Correct: (A) Seeking out media sources that reinforce existing views. Selective exposure is the tendency of people to choose news and commentary that fits their existing beliefs and to avoid opposing views, which can strengthen polarization. It is voluntary and individual.\n\n(B) is wrong because it is not a way to measure turnout.\n(C) is wrong because there is no government requirement to watch certain programs.\n(D) is wrong because it does not describe a ban on content."
     },
     {
       "id": "5-62",
@@ -4498,7 +4498,7 @@ const QUESTIONS = {
         "Yes, that is precisely what agenda-setting means."
       ],
       "correct": 1,
-      "explanation": "This is a precise and frequently tested distinction: agenda-setting is about shaping WHICH issues the public considers important (what to think ABOUT), not necessarily about directly determining WHAT specific opinion the public holds on those issues (what to think). So agenda-setting does NOT mean directly changing opinions; it does have a real relationship to public opinion formation (via salience), just not a direct one on the substance of opinions; and the concept applies across media platforms, not television alone."
+      "explanation": "Correct: (B) No — agenda-setting shapes issue importance, not opinions held. The idea is that media affect what issues people consider important (what to think about), not necessarily which side people take on them. The word \"directly\" in the stem signals that the answer is no.\n\n(A) is wrong because agenda-setting does not directly change opinions on any platform.\n(C) is wrong because it does relate to public opinion through the salience of issues.\n(D) is wrong because directly changing the opinion people hold is persuasion, not what agenda-setting means."
     },
     {
       "id": "5-63",
@@ -4538,7 +4538,7 @@ const QUESTIONS = {
         "This illustrates horse-race journalism, since it involves extensive media coverage."
       ],
       "correct": 0,
-      "explanation": "This scenario is specifically designed to isolate agenda-setting from direct opinion-shaping: the issue's perceived IMPORTANCE rose measurably (agenda-setting clearly occurred), while the public's actual DISTRIBUTION OF OPINION on the substantive question remained unchanged (no evidence of direct opinion-shaping). This demonstrates that these are genuinely separate, dissociable effects — media can successfully elevate an issue's salience without necessarily persuading the public toward any particular side of that issue, a more precise and advanced application of the agenda-setting concept than simply defining it in isolation. It is not horse-race journalism, since the scenario involves no polling/strategy framing; extensive coverage clearly did have a measurable effect (on salience), so 'no effect' is wrong; and while investigative coverage can serve a watchdog role, nothing here indicates the outlet was exposing wrongdoing, and the scenario's whole point is its connection to agenda-setting, not a lack of one."
+      "explanation": "Correct: (A) This illustrates agenda-setting rather than direct opinion-shaping — the two are separate effects. Coverage raised the issue's perceived importance, which is agenda-setting, but the public remained evenly divided on the policy question, so the outlet did not shift opinions on the substance. This separation shows that media can make an issue salient without persuading people to a particular side.\n\n(B) is wrong because the coverage clearly affected how important people rate the issue.\n(C) is wrong because nothing indicates the outlet exposed wrongdoing, so watchdog does not fit, and the scenario is specifically about agenda-setting.\n(D) is wrong because horse-race journalism is coverage of who is winning a contest, which is not described."
     },
     {
       "id": "5-66",
@@ -4551,7 +4551,7 @@ const QUESTIONS = {
         "435"
       ],
       "correct": 2,
-      "explanation": "270 electoral votes — a majority of the 538 total electors (435 House + 100 Senate + 3 for D.C.) — are needed to win the presidency outright. 218 is a House majority threshold, and 290 and 435 do not correspond to the relevant Electoral College thresholds."
+      "explanation": "Correct: (C) 270. The Electoral College has 538 electors: 435 for the House, 100 for the Senate, and 3 for Washington, D.C. (23rd Amendment). A majority of 538 is 270, so a candidate needs at least 270 electoral votes to win outright.\n\n(A) is wrong because 290 is not a constitutional threshold.\n(B) is wrong because 218 is a majority of the 435-member House, not the Electoral College.\n(D) is wrong because 435 is the number of House seats, not the number of electoral votes needed."
     },
     {
       "id": "5-67",
@@ -4564,7 +4564,7 @@ const QUESTIONS = {
         "The House chooses the President from the top three finishers, one vote per state."
       ],
       "correct": 3,
-      "explanation": "Under the 12th Amendment, if no candidate reaches an electoral-vote majority, the House of Representatives chooses the President from the top three electoral-vote finishers, with each state delegation casting a single vote (not one vote per representative). The Vice President has no tie-breaking role in this process; there is no re-vote by national popular election; and it is the Senate, not the House, that separately chooses the Vice President from the top two finishers, with each senator voting individually — the reverse of what that distractor describes."
+      "explanation": "Correct: (D) The House chooses the President from the top three finishers, one vote per state. Under the 12th Amendment, if no candidate has a majority of electors, the House selects the President from the top three electoral-vote finishers, with each state delegation casting one vote, and a majority of states (26) is required. This happened in 1824 with John Quincy Adams.\n\n(A) is wrong because the Senate chooses the Vice President, not the President, from the top two finishers, with one vote per senator.\n(B) is wrong because the Vice President has no role in breaking an Electoral College deadlock.\n(C) is wrong because the Constitution does not call for a new national popular vote."
     },
     {
       "id": "5-68",
@@ -4590,7 +4590,7 @@ const QUESTIONS = {
         "Yes, but only if the voter formally joins the party on election day itself."
       ],
       "correct": 1,
-      "explanation": "This describes a closed primary, in which only voters registered with that specific party may participate — an Independent voter would not be eligible in this system (though they could be in an open or semi-closed primary). There is no constitutional bar on Independents voting in primaries generally, since eligibility rules vary by state and primary type; not all primaries are open to any registered voter, since closed primaries like this one exist; and same-day party registration is not the mechanism described in this closed-primary scenario."
+      "explanation": "Correct: (B) No — this describes a closed primary, open only to registered party members. In a closed primary, only voters registered with that party may vote, so an Independent would be excluded. The stem's phrase \"only voters registered with a given party\" defines a closed primary.\n\n(A) is wrong because primaries vary by state and not all are open.\n(C) is wrong because no constitutional provision bars Independents from all primaries; states decide, and some open primaries allow them.\n(D) is wrong because the question describes a system in which registration with the party is required, and joining on election day is not the mechanism described."
     },
     {
       "id": "5-70",
@@ -4603,7 +4603,7 @@ const QUESTIONS = {
         "An example of vote dilution under Shaw v. Reno"
       ],
       "correct": 0,
-      "explanation": "This is a de facto barrier: the law is facially neutral (it does not legally single out any group), but it functions in practice to suppress turnout disproportionately among a specific group (lower-income voters less likely to hold the required ID). It is not a de jure barrier, since it does not explicitly deny any group the right to vote by its text; it does not violate the 15th Amendment's explicit text, since it does not mention race; and Shaw v. Reno concerns racial gerrymandering in redistricting, not voter-ID requirements."
+      "explanation": "Correct: (A) A de facto barrier to voting. De facto means in practice. The ID law makes no mention of race or income, so on its face it is neutral, but critics say its real-world effect is to reduce turnout among lower-income voters who are less likely to have the specific ID.\n\n(B) is wrong because a de jure barrier is one written into law that explicitly targets a group, such as a literacy test aimed at one race or an old poll tax.\n(C) is wrong because the 15th Amendment bans denial of the vote based on race, color, or previous servitude, and the law does not mention race.\n(D) is wrong because Shaw v. Reno (1993) concerned racial gerrymandering of districts, not ID requirements."
     }
   ]
 };
