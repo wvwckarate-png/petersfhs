@@ -104,7 +104,7 @@ const QUESTIONS = {
         "It is only a valid application of elite theory if the officials involved were installed undemocratically."
       ],
       "correct": 1,
-      "explanation": "Elite theory is a descriptive model about where influence concentrates — it doesn't itself allege wrongdoing. A city's politics can be well explained by elite theory through entirely legal, transparent means (long tenure, resources, relationships) without any bribery or other illegal conduct, ruling out D, which wrongly equates the claim with an accusation of crime. It also doesn't require the officials be illegitimate or undemocratically installed to apply (ruling out B), and one model explaining a city's politics doesn't preclude another model, like pluralism, from also applying elsewhere (ruling out A)."
+      "explanation": "Elite theory is a descriptive model about where influence concentrates — it doesn't itself allege wrongdoing. A city's politics can be well explained by elite theory through entirely legal, transparent means (long tenure, resources, relationships) without any bribery or other illegal conduct, ruling out A, which wrongly equates the claim with an accusation of crime. It also doesn't require the officials be illegitimate or undemocratically installed to apply (ruling out D), and one model explaining a city's politics doesn't preclude another model, like pluralism, from also applying elsewhere (ruling out C)."
     },
     {
       "id": "1-6",
@@ -130,7 +130,7 @@ const QUESTIONS = {
         "That it overstates how evenly matched interest groups are."
       ],
       "correct": 3,
-      "explanation": "A standard criticism of pluralism is that it can overstate how evenly matched competing interest groups actually are — some groups have far more funding, membership, or access than others, making pluralism's picture of balanced competition too rosy. The other choices misstate the theory itself: pluralism assumes many groups exist and compete (ruling out A and C), and it describes open, competitive systems generally, not something limited to authoritarian governments (ruling out B)."
+      "explanation": "A standard criticism of pluralism is that it can overstate how evenly matched competing interest groups actually are — some groups have far more funding, membership, or access than others, making pluralism's picture of balanced competition too rosy. The other choices misstate the theory itself: pluralism assumes many groups exist and compete (ruling out B and C), and it describes open, competitive systems generally, not something limited to authoritarian governments (ruling out A)."
     },
     {
       "id": "1-8",
@@ -195,7 +195,7 @@ const QUESTIONS = {
         "The people retain the right to alter or abolish that government."
       ],
       "correct": 3,
-      "explanation": "Social contract theory, as expressed in the Declaration, holds that government's legitimacy rests on the consent of the governed — when government becomes destructive of the rights it exists to protect, the people retain the right to alter or abolish it and establish new government. This is an active political right of the people themselves, not something that happens automatically (ruling out B), that only courts can invoke (ruling out C), or that is foreclosed entirely once a government exists (ruling out D)."
+      "explanation": "Social contract theory, as expressed in the Declaration, holds that government's legitimacy rests on the consent of the governed — when government becomes destructive of the rights it exists to protect, the people retain the right to alter or abolish it and establish new government. This is an active political right of the people themselves, not something that happens automatically (ruling out B), that only courts can invoke (ruling out C), or that is foreclosed entirely once a government exists (ruling out A)."
     },
     {
       "id": "1-13",
@@ -208,7 +208,7 @@ const QUESTIONS = {
         "The Declaration of Independence applies only to matters of foreign policy, not domestic legal disputes."
       ],
       "correct": 0,
-      "explanation": "The Declaration has never functioned as binding law — it is a statement of political philosophy and grievances justifying separation from Britain; the Constitution, not the Declaration, is the nation's legal governing framework. The Declaration was never repealed and remains historically significant (ruling out A), was never limited to foreign policy (ruling out B), and was never legally binding in the first place, so no later ruling needed to 'supersede' it (ruling out C)."
+      "explanation": "The Declaration has never functioned as binding law — it is a statement of political philosophy and grievances justifying separation from Britain; the Constitution, not the Declaration, is the nation's legal governing framework. The Declaration was never repealed and remains historically significant (ruling out C), was never limited to foreign policy (ruling out D), and was never legally binding in the first place, so no later ruling needed to 'supersede' it (ruling out B)."
     },
     {
       "id": "1-14",
@@ -260,7 +260,7 @@ const QUESTIONS = {
         "Rights and government have no meaningful relationship to one another."
       ],
       "correct": 1,
-      "explanation": "This restates the Declaration's core natural-rights philosophy: rights precede government and belong to individuals by nature, and government's legitimate role is to secure — not create or freely revoke (ruling out A) — those rights. The Declaration also doesn't treat rights as belonging only to officials (ruling out D) or as unrelated to government altogether (ruling out C), since securing rights is precisely government's stated purpose."
+      "explanation": "This restates the Declaration's core natural-rights philosophy: rights precede government and belong to individuals by nature, and government's legitimate role is to secure — not create or freely revoke (ruling out C) — those rights. The Declaration also doesn't treat rights as belonging only to officials (ruling out A) or as unrelated to government altogether (ruling out D), since securing rights is precisely government's stated purpose."
     },
     {
       "id": "1-18",
@@ -377,7 +377,7 @@ const QUESTIONS = {
         "Most of the Constitution's structure directly responds to Articles weaknesses."
       ],
       "correct": 3,
-      "explanation": "The Constitution's major structural choices — a taxing power, a national executive, a national judiciary, an easier amendment process, a population-based House — are best read as direct, deliberate fixes for specific, identifiable failures of the Articles. That relationship is why the two documents are far from unrelated (ruling out D) or near-copies of each other (ruling out C), and the Articles were of course replaced, not left as the current governing document (ruling out A)."
+      "explanation": "The Constitution's major structural choices — a taxing power, a national executive, a national judiciary, an easier amendment process, a population-based House — are best read as direct, deliberate fixes for specific, identifiable failures of the Articles. That relationship is why the two documents are far from unrelated (ruling out A) or near-copies of each other (ruling out B), and the Articles were of course replaced, not left as the current governing document (ruling out C)."
     },
     {
       "id": "1-27",
@@ -520,7 +520,7 @@ const QUESTIONS = {
         "Cincinnatus"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Publius. The Federalist Papers, 85 essays written in 1787 and 1788 to persuade New Yorkers to ratify the Constitution, were published under the single pseudonym Publius, though the authors were Alexander Hamilton, James Madison, and John Jay. Federalist No. 10 was written by Madison.\n\n(B) is wrong because Cato was a pen name used by Anti-Federalist writers in New York.\n(C) is wrong because Brutus was also an Anti-Federalist pen name, used for essays opposing ratification.\n(D) is wrong because Cincinnatus was a Roman figure invoked by George Washington and not the Federalist authors' pen name."
+      "explanation": "Correct: (A) Publius. The Federalist Papers, 85 essays written in 1787 and 1788 to persuade New Yorkers to ratify the Constitution, were published under the single pseudonym Publius, though the authors were Alexander Hamilton, James Madison, and John Jay. Federalist No. 10 was written by Madison.\n\n(B) is wrong because Cato was a pen name used by Anti-Federalist writers in New York.\n(C) is wrong because Brutus was also an Anti-Federalist pen name, used for essays opposing ratification.\n(D) is wrong because Cincinnatus was a Roman citizen-leader often compared to George Washington, not a pen name the Federalist authors used."
     },
     {
       "id": "1-38",
@@ -2895,7 +2895,7 @@ const QUESTIONS = {
         "A court issuing a ruling."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) A citizen voting in a local election. Self-government means the people rule themselves, with political power resting on their participation and consent. Voting is the most direct way citizens choose who governs and what policies are adopted, and a local election puts that power in the hands of residents. The clue words are \"in action,\" which signals citizen participation.\n\n(B) is wrong because a federal agency issuing a regulation is rule-making by unelected bureaucrats, though under delegated authority.\n(C) is wrong because a business setting its own prices expresses economic liberty in a market, not self-government.\n(D) is wrong because a court ruling is the judicial branch applying the law, and federal judges are appointed, not chosen by direct popular participation."
+      "explanation": "Correct: (A) A citizen voting in a local election. Self-government means the people rule themselves, with political power resting on their participation and consent. Voting is the most direct way citizens choose who governs and what policies are adopted, and a local election puts that power in the hands of residents. The clue words are \"in action,\" which signals citizen participation.\n\n(B) is wrong because a federal agency issuing a regulation is rule-making by appointed agency officials under authority delegated by Congress, not direct citizen participation.\n(C) is wrong because a business setting its own prices expresses economic liberty in a market, not self-government.\n(D) is wrong because a court ruling is the judicial branch applying the law, and federal judges are appointed, not chosen by direct popular participation."
     },
     {
       "id": "4-12",
@@ -4368,7 +4368,7 @@ const QUESTIONS = {
         "A congressional committee"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) A Super PAC. After Citizens United v. FEC (2010) held that independent political spending by corporations and unions is protected speech, and SpeechNow.org v. FEC (2010) applied that logic to groups, independent-expenditure-only committees, called Super PACs, arose. They can raise unlimited sums from individuals, corporations, and unions and spend them to support or oppose candidates, but they may not coordinate with a candidate's campaign. The clue words are \"unlimited funds on independent expenditures.\"\n\n(B) is wrong because traditional PACs have limits on contributions they can receive and give.\n(C) is wrong because a cabinet department is an executive agency.\n(D) is wrong because a congressional committee is a part of the legislature and is not a campaign spending group."
+      "explanation": "Correct: (A) A Super PAC. After Citizens United v. FEC (2010) held that independent political spending by corporations and unions is protected speech, and the D.C. Circuit's decision in SpeechNow.org v. FEC (2010) applied that logic to groups, independent-expenditure-only committees, called Super PACs, arose. They can raise unlimited sums from individuals, corporations, and unions and spend them to support or oppose candidates, but they may not coordinate with a candidate's campaign. The clue words are \"unlimited funds on independent expenditures.\"\n\n(B) is wrong because traditional PACs have limits on contributions they can receive and give.\n(C) is wrong because a cabinet department is an executive agency.\n(D) is wrong because a congressional committee is a part of the legislature and is not a campaign spending group."
     },
     {
       "id": "5-53",

@@ -86,7 +86,7 @@ const QUESTIONS = {
         "10 m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 10 m. Displacement is the change in position, Δx = x<sub>final</sub> − x<sub>initial</sub>, and it depends only on where the object starts and ends. Here Δx = 6.0 − (−4.0) = 6.0 + 4.0 = +10 m, and the positive sign means the net change is toward +x. The object crosses the origin, so the two parts of the trip (4.0 m to reach 0, then 6.0 m more) add.\n\n(A) is wrong because −2.0 m comes from simply adding the two coordinates, which has no physical meaning.\n(B) is wrong because 2.0 m results from subtracting the magnitudes (6.0 − 4.0), ignoring that the start is on the negative side of the origin.\n(C) is wrong because −10 m has the right size but the sign is reversed, which would come from computing x<sub>initial</sub> − x<sub>final</sub>."
+      "explanation": "Correct: (D) 10 m. Displacement is the change in position, Δx = x<sub>final</sub> − x<sub>initial</sub>, and it depends only on where the object starts and ends. Here Δx = 6.0 − (−4.0) = 6.0 + 4.0 = +10 m, and the positive sign means the net change is toward +x. The object crosses the origin, so the two parts of the trip (4.0 m to reach 0, then 6.0 m more) add.\n\n(A) is wrong because −2.0 m is the difference of the magnitudes taken in the wrong order (4.0 − 6.0); adding the two coordinates would give +2.0 m, and neither number is the change in position.\n(B) is wrong because 2.0 m results from subtracting the magnitudes (6.0 − 4.0), ignoring that the start is on the negative side of the origin.\n(C) is wrong because −10 m has the right size but the sign is reversed, which would come from computing x<sub>initial</sub> − x<sub>final</sub>."
     },
     {
       "id": "1-3",
@@ -255,7 +255,7 @@ const QUESTIONS = {
         "2.5 m/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0 m/s. Average velocity is net displacement divided by time, not distance divided by time. The object goes +20 m and then −20 m, so Δx = 20 + (−20) = 0 and v<sub>avg</sub> = 0 ÷ 8.0 s = 0 m/s. It ends exactly where it started, so the net change in position is zero even though it traveled 40 m.\n\n(B) is wrong because 10 m/s would be 20 m ÷ 2 s or some other unsupported combination, and ignores the cancellation of opposite displacements.\n(C) is wrong because 5.0 m/s is the average speed (40 m ÷ 8.0 s), which uses total distance rather than displacement.\n(D) is wrong because 2.5 m/s equals 20 m ÷ 8.0 s, using only one leg of the trip."
+      "explanation": "Correct: (A) 0 m/s. Average velocity is net displacement divided by time, not distance divided by time. The object goes +20 m and then −20 m, so Δx = 20 + (−20) = 0 and v<sub>avg</sub> = 0 ÷ 8.0 s = 0 m/s. It ends exactly where it started, so the net change in position is zero even though it traveled 40 m.\n\n(B) is wrong because 10 m/s does not follow from the data (even the full 40 m over 8.0 s is only 5.0 m/s), and it ignores the cancellation of the opposite displacements.\n(C) is wrong because 5.0 m/s is the average speed (40 m ÷ 8.0 s), which uses total distance rather than displacement.\n(D) is wrong because 2.5 m/s equals 20 m ÷ 8.0 s, using only one leg of the trip."
     },
     {
       "id": "1-16",
@@ -372,7 +372,7 @@ const QUESTIONS = {
         "500 m/s²"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 20 m/s². Average acceleration is Δv/Δt. Starting from rest, the velocity changes from 0 to 100 m/s, so Δv = 100 m/s, and a = 100 m/s ÷ 5.0 s = 20 m/s².\n\n(B) is wrong because 100 m/s² is the velocity change with no division by time.\n(C) is wrong because 5.0 m/s² results from dividing the time by something else or inverting the ratio incorrectly; it does not match Δv/Δt.\n(D) is wrong because 500 m/s² multiplies velocity by time instead of dividing."
+      "explanation": "Correct: (A) 20 m/s². Average acceleration is Δv/Δt. Starting from rest, the velocity changes from 0 to 100 m/s, so Δv = 100 m/s, and a = 100 m/s ÷ 5.0 s = 20 m/s².\n\n(B) is wrong because 100 m/s² is the velocity change with no division by time.\n(C) is wrong because 5.0 is just the time interval Δt reported as if it were an acceleration; it does not match Δv/Δt = 100/5.0.\n(D) is wrong because 500 m/s² multiplies velocity by time instead of dividing."
     },
     {
       "id": "1-25",
@@ -840,7 +840,7 @@ const QUESTIONS = {
         "Distance 0.83 m; height ≈ 1.76 m"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Distance 3.0 m; height ≈ 1.76 m. The two directions are analyzed separately. Horizontally there is no acceleration, so Δx = v<sub>x</sub>t = (5.0 m/s)(0.60 s) = 3.0 m. Vertically the ball leaves the table with zero vertical velocity, so the table height is Δy = ½gt² = ½(9.8)(0.60)² = ½(9.8)(0.36) ≈ 1.76 m.\n\n(A) is wrong because 2.94 m is ½gt (time not squared), though the distance is right.\n(B) is wrong because 8.3 m is 5.0 ÷ 0.60, dividing the speed by the time instead of multiplying, though the height is right.\n(D) is wrong because 0.83 m also results from dividing rather than multiplying in the horizontal calculation (it has the height right but the distance wrong)."
+      "explanation": "Correct: (C) Distance 3.0 m; height ≈ 1.76 m. The two directions are analyzed separately. Horizontally there is no acceleration, so Δx = v<sub>x</sub>t = (5.0 m/s)(0.60 s) = 3.0 m. Vertically the ball leaves the table with zero vertical velocity, so the table height is Δy = ½gt² = ½(9.8)(0.60)² = ½(9.8)(0.36) ≈ 1.76 m.\n\n(A) is wrong because 2.94 m is ½gt (time not squared), though the distance is right.\n(B) is wrong because 8.3 m is 5.0 ÷ 0.60, dividing the speed by the time instead of multiplying, though the height is right.\n(D) is wrong because 0.83 m is 5.0 ÷ 6.0, a decimal slip that treats 0.60 s as 6.0 s (it has the height right but the distance wrong)."
     },
     {
       "id": "1-61",
@@ -867,7 +867,7 @@ const QUESTIONS = {
         "90°, since that gives the highest possible vertical speed."
       ],
       "correct": 0,
-      "explanation": "Range depends on both how fast the projectile moves horizontally (favoring a small angle, more horizontal component) and how long it stays airborne (favoring a large angle, more vertical component, more hang time). These two effects trade off against each other, and for launch and landing at the same height, 45° balances them exactly, maximizing the product of horizontal speed and flight time. This qualitative 'why' reasoning, rather than simply quoting the 45°-is-optimal fact, is a notch past what most single MC questions on this topic ask directly."
+      "explanation": "Range depends on both how fast the projectile moves horizontally (favoring a small angle, more horizontal component) and how long it stays airborne (favoring a large angle, more vertical component, more hang time). These two effects trade off against each other, and for launch and landing at the same height, 45° balances them exactly, maximizing the product of horizontal speed and flight time."
     },
     {
       "id": "1-63",
@@ -1468,7 +1468,7 @@ const QUESTIONS = {
         "Greater than the person's normal weight."
       ],
       "correct": 1,
-      "explanation": "During free fall, a = g downward. Using F<sub>N</sub> = m(g−a) = m(g−g) = 0 — the floor exerts no force on the person at all, since both are accelerating downward at exactly the same rate. This is the same physical situation (though far more dangerous) as the weightlessness astronauts experience in orbit."
+      "explanation": "During free fall, a = g downward. Taking up as positive, F<sub>N</sub> − mg = ma with a = −g, so F<sub>N</sub> = m(g + a) = m(g − g) = 0 — the floor exerts no force on the person at all, since both are accelerating downward at exactly the same rate. This is the same physical situation (though far more dangerous) as the weightlessness astronauts experience in orbit."
     },
     {
       "id": "2-44",
@@ -1494,7 +1494,7 @@ const QUESTIONS = {
         "24.5 N"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 14.7 N. On a flat floor with no other vertical forces, F<sub>N</sub> = mg = (6.0)(9.8) = 58.8 N. Kinetic friction is f<sub>k</sub> = μ<sub>k</sub>F<sub>N</sub> = (0.25)(58.8) ≈ 14.7 N.\n\n(A) is wrong because 58.8 N is the normal force, not the friction; it forgets to multiply by μ<sub>k</sub>.\n(C) is wrong because 1.5 N is μ<sub>k</sub> × mass (0.25 × 6.0), skipping g.\n(D) is wrong because 24.5 N is not equal to (0.25)(58.8); it is 0.25 × 98 and results from a multiplication slip."
+      "explanation": "Correct: (B) 14.7 N. On a flat floor with no other vertical forces, F<sub>N</sub> = mg = (6.0)(9.8) = 58.8 N. Kinetic friction is f<sub>k</sub> = μ<sub>k</sub>F<sub>N</sub> = (0.25)(58.8) ≈ 14.7 N.\n\n(A) is wrong because 58.8 N is the normal force, not the friction; it forgets to multiply by μ<sub>k</sub>.\n(C) is wrong because 1.5 N is μ<sub>k</sub> × mass (0.25 × 6.0), skipping g.\n(D) is wrong because 24.5 N would need a normal force of 98 N (0.25 × 98), the weight of a 10 kg box, not the 6.0 kg box here."
     },
     {
       "id": "2-46",
@@ -1611,7 +1611,7 @@ const QUESTIONS = {
         "6.7 m"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 0.15 m. Hooke's law F = kx gives x = F/k = 12 N ÷ 80 N/m = 0.15 m. A stiff spring (large k) stretches only a small amount for a modest force.\n\n(A) is wrong because 960 m is F × k (12 × 80), multiplying rather than dividing, and it is physically absurd.\n(C) is wrong because 0.67 m is not F/k; it comes from an inverted-ratio slip.\n(D) is wrong because 6.7 m is the inverse ratio k/F = 80/12, which has units of 1/m... not a displacement."
+      "explanation": "Correct: (B) 0.15 m. Hooke's law F = kx gives x = F/k = 12 N ÷ 80 N/m = 0.15 m. A stiff spring (large k) stretches only a small amount for a modest force.\n\n(A) is wrong because 960 m is F × k (12 × 80), multiplying rather than dividing, and it is physically absurd.\n(C) is wrong because 0.67 m is the inverted ratio k/F = 80/12 ≈ 6.7 with the decimal point misplaced; F/k is 0.15 m.\n(D) is wrong because 6.7 m is the inverse ratio k/F = 80/12, which has units of 1/m... not a displacement."
     },
     {
       "id": "2-55",
@@ -1624,7 +1624,7 @@ const QUESTIONS = {
         "160 N"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 10 N. The magnitude of a spring force is F = kx, whether the spring is stretched or compressed: F = (40 N/m)(0.25 m) = 10 N.\n\n(A) is wrong because 0.16 N does not follow from F = kx and results from an arithmetic slip.\n(B) is wrong because 16 N does not follow from F = kx either; it is from 40 × 0.4.\n(D) is wrong because 160 N is k ÷ x = 40 ÷ 0.25, dividing instead of multiplying."
+      "explanation": "Correct: (C) 10 N. The magnitude of a spring force is F = kx, whether the spring is stretched or compressed: F = (40 N/m)(0.25 m) = 10 N.\n\n(A) is wrong because 0.16 N would require x = 0.0040 m; with x = 0.25 m, kx = 10 N.\n(B) is wrong because 16 N would require x = 0.40 m, not the 0.25 m given.\n(D) is wrong because 160 N is k ÷ x = 40 ÷ 0.25, dividing instead of multiplying."
     },
     {
       "id": "2-56",
@@ -1954,7 +1954,7 @@ const QUESTIONS = {
         "6.0 m/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 6.0 m/s. First find the initial kinetic energy: KE<sub>i</sub> = ½(2.0 kg)(3.0 m/s)² = 9.0 J. By the work-energy theorem, KE<sub>f</sub> = KE<sub>i</sub> + W<sub>net</sub> = 9.0 + 27 = 36 J. Then ½(2.0)v² = 36 gives v² = 36 and v = 6.0 m/s.\n\n(A) is wrong because 9.0 is the initial energy in joules, not a speed, or is the result of tripling the speed instead of solving for it.\n(B) is wrong because 3.0 m/s is the initial speed, which would mean no net work was done.\n(C) is wrong because 4.5 m/s does not follow from the energy balance; it comes from an error in the square-root step."
+      "explanation": "Correct: (D) 6.0 m/s. First find the initial kinetic energy: KE<sub>i</sub> = ½(2.0 kg)(3.0 m/s)² = 9.0 J. By the work-energy theorem, KE<sub>f</sub> = KE<sub>i</sub> + W<sub>net</sub> = 9.0 + 27 = 36 J. Then ½(2.0)v² = 36 gives v² = 36 and v = 6.0 m/s.\n\n(A) is wrong because 9.0 is the initial energy in joules, not a speed, or is the result of tripling the speed instead of solving for it.\n(B) is wrong because 3.0 m/s is the initial speed, which would mean no net work was done.\n(C) is wrong because 4.5 m/s would mean a final KE of only about 20 J (½·2.0·4.5²), not the 36 J the energy balance requires."
     },
     {
       "id": "3-16",
@@ -1993,7 +1993,7 @@ const QUESTIONS = {
         "12 m/s"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 3.5 m/s. Net work is the sum of the work from every force: W<sub>net</sub> = +50 J + (−20 J) = 30 J. The object starts at rest, so KE<sub>i</sub> = 0 and the work-energy theorem gives KE<sub>f</sub> = 30 J. Then ½(5.0 kg)v² = 30 J, so v² = 60/5.0 = 12 m²/s² and v = √12 ≈ 3.5 m/s.\n\n(A) is wrong because 6.0 m/s does not follow from a net work of 30 J; it comes from an algebra error.\n(C) is wrong because 2.4 m/s is also an algebra slip and does not match v² = 12.\n(D) is wrong because 12 is the value of v², and the square root was never taken."
+      "explanation": "Correct: (B) 3.5 m/s. Net work is the sum of the work from every force: W<sub>net</sub> = +50 J + (−20 J) = 30 J. The object starts at rest, so KE<sub>i</sub> = 0 and the work-energy theorem gives KE<sub>f</sub> = 30 J. Then ½(5.0 kg)v² = 30 J, so v² = 60/5.0 = 12 m²/s² and v = √12 ≈ 3.5 m/s.\n\n(A) is wrong because 6.0 m/s is W/m = 30/5.0, which skips both the factor of 2 and the square root in v = √(2W/m).\n(C) is wrong because 2.4 m/s is about √(W/m) = √6.0, which drops the factor of 2 and does not match v² = 12.\n(D) is wrong because 12 is the value of v², and the square root was never taken."
     },
     {
       "id": "3-19",
@@ -2006,7 +2006,7 @@ const QUESTIONS = {
         "9.0 m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 6.3 m/s. Start with the initial kinetic energy: KE<sub>i</sub> = ½(3.0 kg)(10 m/s)² = 150 J. Friction does −90 J of work, so by the work-energy theorem KE<sub>f</sub> = 150 − 90 = 60 J. Then ½(3.0)v² = 60 gives v² = 40 and v = √40 ≈ 6.3 m/s, which is less than 10 m/s as expected for negative work.\n\n(A) is wrong because 4.5 m/s does not come from the 60 J remaining.\n(B) is wrong because 7.7 m/s results from treating the 90 J of friction work as the final kinetic energy (v² = 60).\n(D) is wrong because 9.0 m/s ignores the energy balance and is an arithmetic slip."
+      "explanation": "Correct: (C) 6.3 m/s. Start with the initial kinetic energy: KE<sub>i</sub> = ½(3.0 kg)(10 m/s)² = 150 J. Friction does −90 J of work, so by the work-energy theorem KE<sub>f</sub> = 150 − 90 = 60 J. Then ½(3.0)v² = 60 gives v² = 40 and v = √40 ≈ 6.3 m/s, which is less than 10 m/s as expected for negative work.\n\n(A) is wrong because 4.5 m/s would leave only about 30 J of kinetic energy (½·3.0·4.5²), half of the 60 J that remains.\n(B) is wrong because 7.7 m/s results from treating the 90 J of friction work as the final kinetic energy (v² = 60).\n(D) is wrong because 9.0 m/s would leave about 122 J of kinetic energy (½·3.0·9.0²), far more than the 60 J that remains after friction."
     },
     {
       "id": "3-20",
@@ -2032,7 +2032,7 @@ const QUESTIONS = {
         "−20,000 J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) −200,000 J. The work-energy theorem gives W<sub>net</sub> = ΔKE = KE<sub>f</sub> − KE<sub>i</sub>. The initial energy is KE<sub>i</sub> = ½(1000 kg)(20 m/s)² = ½(1000)(400) = 200,000 J, and the car comes to a complete stop so KE<sub>f</sub> = 0. Thus W<sub>net</sub> = 0 − 200,000 = −200,000 J. The negative sign means the braking forces took energy out of the car.\n\n(B) is wrong because positive work would speed the car up.\n(C) is wrong because 20,000 J is mv/1 with no squaring or ½, and it has the wrong sign.\n(D) is wrong because −20,000 J has the right sign but the wrong size, from the same missing square and ½."
+      "explanation": "Correct: (A) −200,000 J. The work-energy theorem gives W<sub>net</sub> = ΔKE = KE<sub>f</sub> − KE<sub>i</sub>. The initial energy is KE<sub>i</sub> = ½(1000 kg)(20 m/s)² = ½(1000)(400) = 200,000 J, and the car comes to a complete stop so KE<sub>f</sub> = 0. Thus W<sub>net</sub> = 0 − 200,000 = −200,000 J. The negative sign means the braking forces took energy out of the car.\n\n(B) is wrong because positive work would speed the car up.\n(C) is wrong because 20,000 J is mv = (1000)(20), with no squaring or ½, and it has the wrong sign.\n(D) is wrong because −20,000 J has the right sign but the wrong size, from the same missing square and ½."
     },
     {
       "id": "3-22",
@@ -2435,7 +2435,7 @@ const QUESTIONS = {
         "36.0 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 16.2 J. Use the energy balance with a non-conservative force: KE<sub>i</sub> + PE<sub>i</sub> + W<sub>nc</sub> = KE<sub>f</sub> + PE<sub>f</sub>. The initial KE is ½(2.0)(6.0)² = 36 J. Rising 0.50 m raises the PE by mgh = (2.0)(9.8)(0.50) = 9.8 J, and friction does W<sub>nc</sub> = −10 J. So KE<sub>f</sub> = 36 − 9.8 − 10 = 16.2 J.\n\n(A) is wrong because 46.0 J adds the 10 J of friction work instead of subtracting it.\n(C) is wrong because 26.2 J subtracts only the 9.8 J gain in PE (or only friction's 10 J) and so misses one of the two losses.\n(D) is wrong because 36.0 J is the initial KE, as if the object had neither gained height nor lost energy to friction."
+      "explanation": "Correct: (B) 16.2 J. Use the energy balance with a non-conservative force: KE<sub>i</sub> + PE<sub>i</sub> + W<sub>nc</sub> = KE<sub>f</sub> + PE<sub>f</sub>. The initial KE is ½(2.0)(6.0)² = 36 J. Rising 0.50 m raises the PE by mgh = (2.0)(9.8)(0.50) = 9.8 J, and friction does W<sub>nc</sub> = −10 J. So KE<sub>f</sub> = 36 − 9.8 − 10 = 16.2 J.\n\n(A) is wrong because 46.0 J is 36 + 10: it adds friction's 10 J instead of subtracting it, and it also leaves out the 9.8 J gained as PE.\n(C) is wrong because 26.2 J is 36 − 9.8: it subtracts only the PE gain and misses friction's 10 J.\n(D) is wrong because 36.0 J is the initial KE, as if the object had neither gained height nor lost energy to friction."
     },
     {
       "id": "3-53",
@@ -2474,7 +2474,7 @@ const QUESTIONS = {
         "200 W"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 200 W. Average power is the rate of doing work, P = W/t. Here P = 1200 J / 6.0 s = 200 J/s = 200 W.\n\n(A) is wrong because 1206 W adds the work and time, which have different units and cannot be added.\n(B) is wrong because 7.2 W does not result from this division; it comes from a misplaced unit conversion.\n(C) is wrong because 7200 W multiplies the work by the time (1200 × 6.0), but that is not a power."
+      "explanation": "Correct: (D) 200 W. Average power is the rate of doing work, P = W/t. Here P = 1200 J / 6.0 s = 200 J/s = 200 W.\n\n(A) is wrong because 1206 W adds the work and time, which have different units and cannot be added.\n(B) is wrong because 7.2 W is (1200)(6.0)/1000, a product with a stray factor of 1/1000, rather than the quotient 1200/6.0.\n(C) is wrong because 7200 W multiplies the work by the time (1200 × 6.0), but that is not a power."
     },
     {
       "id": "3-56",
@@ -2513,7 +2513,7 @@ const QUESTIONS = {
         "50 s"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 20 s. Power is the rate of doing work, P = W/t, so t = W/P = 8000 J / 400 W = 20 s. Check the units: J divided by J/s gives s.\n\n(A) is wrong because 3,200,000 s multiplies W by P, but time requires dividing.\n(C) is wrong because 400 is the power in watts, not a time.\n(D) is wrong because 50 s does not result from 8000/400; it comes from an arithmetic slip."
+      "explanation": "Correct: (B) 20 s. Power is the rate of doing work, P = W/t, so t = W/P = 8000 J / 400 W = 20 s. Check the units: J divided by J/s gives s.\n\n(A) is wrong because 3,200,000 s multiplies W by P, but time requires dividing.\n(C) is wrong because 400 is the power in watts, not a time.\n(D) is wrong because 50 s is 400/8, which drops the three zeros from 8000 J; the correct quotient 8000/400 is 20 s."
     },
     {
       "id": "3-59",
@@ -2552,7 +2552,7 @@ const QUESTIONS = {
         "1500 W"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 1500 W. When the force is not parallel to the velocity, only the component along the velocity delivers power: P = Fv·cosθ. With cos60° = 0.50, P = (300 N)(10 m/s)(0.50) = 1500 W.\n\n(A) is wrong because 150 W is off by a factor of ten from the correct multiplication.\n(B) is wrong because 1732 W does not match the calculation; it is a miscalculation of the angle factor.\n(C) is wrong because 3000 W ignores the angle, treating all the force as parallel to the velocity."
+      "explanation": "Correct: (D) 1500 W. When the force is not parallel to the velocity, only the component along the velocity delivers power: P = Fv·cosθ. With cos60° = 0.50, P = (300 N)(10 m/s)(0.50) = 1500 W.\n\n(A) is wrong because 150 W is off by a factor of ten from the correct multiplication.\n(B) is wrong because 1732 W is (3000)(0.577), where 0.577 = tan30° = cos60°/sin60° rather than cos60° = 0.50.\n(C) is wrong because 3000 W ignores the angle, treating all the force as parallel to the velocity."
     },
     {
       "id": "3-62",
@@ -2763,7 +2763,7 @@ const QUESTIONS = {
         "40.25 N·s"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 10 N·s. Impulse is the force times the time it acts, J = FΔt, for a constant force. So J = (40 N)(0.25 s) = 10 N·s, which equals 10 kg·m/s.\n\n(A) is wrong because 160 is 40/0.25, dividing instead of multiplying.\n(C) is wrong because 0.16 is not the product; it comes from an arithmetic slip with the division.\n(D) is wrong because 40.25 adds the force to the time, which have different units."
+      "explanation": "Correct: (B) 10 N·s. Impulse is the force times the time it acts, J = FΔt, for a constant force. So J = (40 N)(0.25 s) = 10 N·s, which equals 10 kg·m/s.\n\n(A) is wrong because 160 is 40/0.25, dividing instead of multiplying.\n(C) is wrong because 0.16 is not 40 × 0.25 = 10; it looks like 40/0.25 = 160 with the decimal point shifted three places.\n(D) is wrong because 40.25 adds the force to the time, which have different units."
     },
     {
       "id": "4-13",
@@ -2919,7 +2919,7 @@ const QUESTIONS = {
         "10 m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 3.75 m/s. The carts stick together, so this is a perfectly inelastic collision with momentum conserved: m₁v₁ + m₂v₂ = (m₁ + m₂)v<sub>f</sub>. Substituting, (5.0)(6.0) + (3.0)(0) = (8.0)v<sub>f</sub>, so 30 = 8.0v<sub>f</sub> and v<sub>f</sub> = 3.75 m/s. The final speed must be below 6.0 m/s because the moving cart must now also push the extra 3.0 kg.\n\n(A) is wrong because 2.25 m/s does not result from 30 divided by the total mass.\n(B) is wrong because 6.0 m/s would mean the added mass did not slow the cart, violating momentum conservation.\n(D) is wrong because 10 m/s is 30/3.0, dividing by only the stationary cart's mass; it is also faster than the original speed."
+      "explanation": "Correct: (C) 3.75 m/s. The carts stick together, so this is a perfectly inelastic collision with momentum conserved: m₁v₁ + m₂v₂ = (m₁ + m₂)v<sub>f</sub>. Substituting, (5.0)(6.0) + (3.0)(0) = (8.0)v<sub>f</sub>, so 30 = 8.0v<sub>f</sub> and v<sub>f</sub> = 3.75 m/s. The final speed must be below 6.0 m/s because the moving cart must now also push the extra 3.0 kg.\n\n(A) is wrong because 2.25 m/s is (3.0)(6.0)/8.0, which uses the stationary cart's mass instead of the moving cart's in the momentum.\n(B) is wrong because 6.0 m/s would mean the added mass did not slow the cart, violating momentum conservation.\n(D) is wrong because 10 m/s is 30/3.0, dividing by only the stationary cart's mass; it is also faster than the original speed."
     },
     {
       "id": "4-25",
@@ -2971,7 +2971,7 @@ const QUESTIONS = {
         "4.0 m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 3.0 m/s. The objects stick together, so momentum conservation gives m₁v₁ + m₂v₂ = (m₁ + m₂)v<sub>f</sub>. Thus (3.0)(5.0) + (2.0)(0) = (5.0)v<sub>f</sub>, so 15 = 5.0v<sub>f</sub> and v<sub>f</sub> = 3.0 m/s. The combined speed is lower than 5.0 m/s because the same momentum is spread over more mass.\n\n(A) is wrong because 2.0 m/s does not come from 15/5.0.\n(B) is wrong because 5.0 m/s would mean the added mass did not slow the system, violating momentum conservation.\n(D) is wrong because 4.0 m/s would give a total momentum of 20 kg·m/s, more than the 15 present before."
+      "explanation": "Correct: (C) 3.0 m/s. The objects stick together, so momentum conservation gives m₁v₁ + m₂v₂ = (m₁ + m₂)v<sub>f</sub>. Thus (3.0)(5.0) + (2.0)(0) = (5.0)v<sub>f</sub>, so 15 = 5.0v<sub>f</sub> and v<sub>f</sub> = 3.0 m/s. The combined speed is lower than 5.0 m/s because the same momentum is spread over more mass.\n\n(A) is wrong because 2.0 m/s is (2.0)(5.0)/5.0, which uses the stationary object's mass instead of the moving object's in the momentum.\n(B) is wrong because 5.0 m/s would mean the added mass did not slow the system, violating momentum conservation.\n(D) is wrong because 4.0 m/s would give a total momentum of 20 kg·m/s, more than the 15 present before."
     },
     {
       "id": "4-29",
@@ -3088,7 +3088,7 @@ const QUESTIONS = {
         "KE_before = 18 J; KE_after = 36 J — not possible without outside work."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) KE<sub>before</sub> = 36 J; KE<sub>after</sub> = 36 J — consistent with elastic. Before the collision, only the first object moves: KE = ½(2.0)(6.0)² = ½(2.0)(36) = 36 J. After, the first is at rest and the second moves at 6.0 m/s: KE = 0 + ½(2.0)(6.0)² = 36 J. Equal kinetic energy before and after is the elastic test (momentum is also conserved: 12 kg·m/s both times).\n\n(A) is wrong because the masses are given (2.0 kg each).\n(C) is wrong because 18 J would come from using half the speed or the wrong mass, not from these numbers.\n(D) is wrong because KE before is 36 J, not 18 J, and energy does not increase."
+      "explanation": "Correct: (B) KE<sub>before</sub> = 36 J; KE<sub>after</sub> = 36 J — consistent with elastic. Before the collision, only the first object moves: KE = ½(2.0)(6.0)² = ½(2.0)(36) = 36 J. After, the first is at rest and the second moves at 6.0 m/s: KE = 0 + ½(2.0)(6.0)² = 36 J. Equal kinetic energy before and after is the elastic test (momentum is also conserved: 12 kg·m/s both times).\n\n(A) is wrong because the masses are given (2.0 kg each).\n(C) is wrong because 18 J would come from using half the mass (½(1.0)(6.0)²), not from these numbers; halving the speed would give 9 J.\n(D) is wrong because KE before is 36 J, not 18 J, and energy does not increase."
     },
     {
       "id": "4-38",
@@ -3494,7 +3494,7 @@ const QUESTIONS = {
         "0.5 rad/s²"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.0 rad/s². Angular acceleration is the change in angular velocity per unit time, α = Δω/Δt. The wheel goes from 2.0 to 10 rad/s, so Δω = 10 − 2.0 = 8.0 rad/s, and over 4.0 s that gives α = 8.0/4.0 = 2.0 rad/s². The units rad/s ÷ s = rad/s² confirm the setup.\n\n(B) is wrong because 8.0 is the change in ω and was never divided by the time.\n(C) is wrong because 3.0 does not come from any valid combination of these numbers (it looks like an average-style slip).\n(D) is wrong because 0.5 rad/s² flips the ratio to Δt/Δω."
+      "explanation": "Correct: (A) 2.0 rad/s². Angular acceleration is the change in angular velocity per unit time, α = Δω/Δt. The wheel goes from 2.0 to 10 rad/s, so Δω = 10 − 2.0 = 8.0 rad/s, and over 4.0 s that gives α = 8.0/4.0 = 2.0 rad/s². The units rad/s ÷ s = rad/s² confirm the setup.\n\n(B) is wrong because 8.0 is the change in ω and was never divided by the time.\n(C) is wrong because 3.0 comes from adding the two angular velocities (2.0 + 10 = 12) and dividing by 4.0 s, instead of subtracting them.\n(D) is wrong because 0.5 rad/s² flips the ratio to Δt/Δω."
     },
     {
       "id": "5-4",
@@ -3533,7 +3533,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It doubles. For a rigid object every point shares the same angular velocity ω, and linear speed is v = rω. With ω fixed, v is directly proportional to r, so doubling the distance from the axis doubles the speed. Physically, a point twice as far out must trace a circle twice as long in the same time per revolution.\n\n(A) is wrong because only ω, not v, is the same for all points.\n(B) is wrong because quadrupling would require v ∝ r², which is the pattern for centripetal acceleration at fixed ω, not for speed.\n(C) is wrong because it reverses the dependence, as if v ∝ 1/r."
+      "explanation": "Correct: (D) It doubles. For a rigid object every point shares the same angular velocity ω, and linear speed is v = rω. With ω fixed, v is directly proportional to r, so doubling the distance from the axis doubles the speed. Physically, a point twice as far out must trace a circle twice as long in the same time per revolution.\n\n(A) is wrong because only ω, not v, is the same for all points.\n(B) is wrong because quadrupling would require v ∝ r², but v = rω is only linear in r when ω is fixed.\n(C) is wrong because it reverses the dependence, as if v ∝ 1/r."
     },
     {
       "id": "5-7",
@@ -3663,7 +3663,7 @@ const QUESTIONS = {
         "15.3 N"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 50 N. The force is perpendicular to the arm, so sinθ = 1 and τ = rF. Solve for the force: F = τ/r = 15 N·m / 0.30 m = 50 N. A short lever arm demands a large force to supply a given torque.\n\n(B) is wrong because 4.5 N multiplies τ by r instead of dividing.\n(C) is wrong because 45 N comes from treating r as 1/3 m (rounding 0.30 too loosely); the exact quotient 15/0.30 is 50 N.\n(D) is wrong because 15.3 N adds the two numbers, which would not have consistent units."
+      "explanation": "Correct: (A) 50 N. The force is perpendicular to the arm, so sinθ = 1 and τ = rF. Solve for the force: F = τ/r = 15 N·m / 0.30 m = 50 N. A short lever arm demands a large force to supply a given torque.\n\n(B) is wrong because 4.5 N multiplies τ by r instead of dividing.\n(C) is wrong because 45 N is 15 × 3, multiplying the torque by a number instead of dividing it by 0.30.\n(D) is wrong because 15.3 N adds the two numbers, which would not have consistent units."
     },
     {
       "id": "5-17",
@@ -3923,7 +3923,7 @@ const QUESTIONS = {
         "50 rad/s²"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 25 rad/s². First find the moment of inertia of the solid disk, I = ½MR² = ½(2.0)(0.40)² = ½(2.0)(0.16) = 0.16 kg·m². Then α = τ/I = 4.0 / 0.16 = 25 rad/s². Both steps are needed because the problem gives mass and radius, not I.\n\n(A) is wrong because 6.25 comes from using an I four times too large (0.64), as if the mass were multiplied by R instead of R².\n(C) is wrong because 12.5 uses I = MR² = 0.32 (the hoop formula).\n(D) is wrong because 50 uses ½ twice (I = 0.08)."
+      "explanation": "Correct: (B) 25 rad/s². First find the moment of inertia of the solid disk, I = ½MR² = ½(2.0)(0.40)² = ½(2.0)(0.16) = 0.16 kg·m². Then α = τ/I = 4.0 / 0.16 = 25 rad/s². Both steps are needed because the problem gives mass and radius, not I.\n\n(A) is wrong because 6.25 comes from using an I four times too large (0.64 = 2MR², with a coefficient of 2 in place of ½), and 4.0/0.64 = 6.25.\n(C) is wrong because 12.5 uses I = MR² = 0.32 (the hoop formula).\n(D) is wrong because 50 uses ½ twice (I = 0.08)."
     },
     {
       "id": "5-37",
@@ -4131,7 +4131,7 @@ const QUESTIONS = {
         "8.0 N"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 50 N. For the lever to balance, the clockwise and counterclockwise torques about the pivot must be equal: (20 N)(0.50 m) = F(0.20 m). So F = 10/0.20 = 50 N. The shorter lever arm requires a larger force.\n\n(A) is wrong because 40 N does not follow from the torque balance (it comes from doubling the 20 N).\n(B) is wrong because 100 N multiplies by the arm ratio 5 incorrectly, using 20 × 0.50/0.10.\n(D) is wrong because 8.0 N inverts the ratio (20 × 0.20/0.50), which would be right only if the unknown force were on the longer arm."
+      "explanation": "Correct: (C) 50 N. For the lever to balance, the clockwise and counterclockwise torques about the pivot must be equal: (20 N)(0.50 m) = F(0.20 m). So F = 10/0.20 = 50 N. The shorter lever arm requires a larger force.\n\n(A) is wrong because 40 N does not follow from the torque balance (it comes from doubling the 20 N).\n(B) is wrong because 100 N is twice the correct value, as if the 0.20 m arm had been read as 0.10 m (10/0.10).\n(D) is wrong because 8.0 N inverts the ratio (20 × 0.20/0.50), which would be right only if the unknown force were on the longer arm."
     },
     {
       "id": "5-53",
@@ -4183,7 +4183,7 @@ const QUESTIONS = {
         "1.8 rad/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 20 rad/s. For rolling without slipping v<sub>cm</sub> = rω, so ω = v<sub>cm</sub>/r = 6.0 m/s / 0.30 m = 20 rad/s.\n\n(B) is wrong because 180 multiplies by 30 (as if r were 30 m) rather than dividing by 0.30.\n(C) is wrong because 6.3 comes from 2π, the number of radians in one turn, which is not part of this relation.\n(D) is wrong because 1.8 is v<sub>cm</sub> × r (6.0 × 0.30), which is multiplication in place of division."
+      "explanation": "Correct: (A) 20 rad/s. For rolling without slipping v<sub>cm</sub> = rω, so ω = v<sub>cm</sub>/r = 6.0 m/s / 0.30 m = 20 rad/s.\n\n(B) is wrong because 180 multiplies by 30 (as if r were 30 m) rather than dividing by 0.30.\n(C) is wrong because 6.3 adds the speed and the radius (6.0 + 0.30), which have different units; v = rω calls for dividing.\n(D) is wrong because 1.8 is v<sub>cm</sub> × r (6.0 × 0.30), which is multiplication in place of division."
     },
     {
       "id": "5-57",
@@ -4235,7 +4235,7 @@ const QUESTIONS = {
         "2.0 m/s²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2.0 m/s². For rolling without slipping, the center's linear acceleration is a<sub>cm</sub> = rα = (0.20 m)(10 rad/s²) = 2.0 m/s².\n\n(A) is wrong because 5.0 divides α by 2 instead of multiplying by r.\n(B) is wrong because 0.5 has no basis in a = rα and is a miscalculation of the product.\n(C) is wrong because 50 divides α by r (10/0.20), the inverted relation."
+      "explanation": "Correct: (D) 2.0 m/s². For rolling without slipping, the center's linear acceleration is a<sub>cm</sub> = rα = (0.20 m)(10 rad/s²) = 2.0 m/s².\n\n(A) is wrong because 5.0 divides α by 2 instead of multiplying by r.\n(B) is wrong because 0.5 is a decimal slip in the product (10 × 0.05 instead of 10 × 0.20).\n(C) is wrong because 50 divides α by r (10/0.20), the inverted relation."
     },
     {
       "id": "5-61",
@@ -4287,7 +4287,7 @@ const QUESTIONS = {
         "0.5 m/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.0 m/s. The wheel rolls without slipping, so at any instant v<sub>cm</sub> = rω. At t = 2.0 s, ω = 8.0 rad/s, so v<sub>cm</sub> = (0.25 m)(8.0 rad/s) = 2.0 m/s. The time is not needed beyond identifying the instant.\n\n(B) is wrong because 32 divides ω by r (8.0/0.25), the inverted relation.\n(C) is wrong because 4.0 is ω × t/... a product with the time (8.0/2.0), which is not part of the instantaneous relation.\n(D) is wrong because 0.5 is 0.25 × 2.0, using the time in place of ω."
+      "explanation": "Correct: (A) 2.0 m/s. The wheel rolls without slipping, so at any instant v<sub>cm</sub> = rω. At t = 2.0 s, ω = 8.0 rad/s, so v<sub>cm</sub> = (0.25 m)(8.0 rad/s) = 2.0 m/s. The time is not needed beyond identifying the instant.\n\n(B) is wrong because 32 divides ω by r (8.0/0.25), the inverted relation.\n(C) is wrong because 4.0 is ω/t (8.0/2.0), which is not part of the instantaneous relation v = rω.\n(D) is wrong because 0.5 is 0.25 × 2.0, using the time in place of ω."
     },
     {
       "id": "5-65",
@@ -4472,7 +4472,7 @@ const QUESTIONS = {
         "18 J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 12 J. A uniform rod about its center has I = (1/12)ML² = (1/12)(2.0)(3.0)² = (1/12)(2.0)(9.0) = 1.5 kg·m². Then KE<sub>rot</sub> = ½Iω² = ½(1.5)(4.0)² = ½(1.5)(16) = 12 J.\n\n(B) is wrong because 24 J leaves out the ½.\n(C) is wrong because 6.0 J comes from a rod I that is half as big (0.75).\n(D) is wrong because 18 J results from using a wrong coefficient for I (I = 2.25)."
+      "explanation": "Correct: (A) 12 J. A uniform rod about its center has I = (1/12)ML² = (1/12)(2.0)(3.0)² = (1/12)(2.0)(9.0) = 1.5 kg·m². Then KE<sub>rot</sub> = ½Iω² = ½(1.5)(4.0)² = ½(1.5)(16) = 12 J.\n\n(B) is wrong because 24 J leaves out the ½.\n(C) is wrong because 6.0 J comes from a rod I that is half as big (0.75).\n(D) is wrong because 18 J results from using I = 2.25 kg·m², which is ML²/8 instead of ML²/12."
     },
     {
       "id": "6-14",
@@ -4511,7 +4511,7 @@ const QUESTIONS = {
         "115.2 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 57.6 J. KE<sub>rot</sub> = ½Iω² = ½(0.80)(12)² = ½(0.80)(144) = 57.6 J.\n\n(A) is wrong because 38.4 J does not follow from the formula (it uses ω as 9.8 or a mis-squared value).\n(C) is wrong because 9.6 J is Iω, with ω not squared and no ½.\n(D) is wrong because 115.2 J is Iω², which omits the ½."
+      "explanation": "Correct: (B) 57.6 J. KE<sub>rot</sub> = ½Iω² = ½(0.80)(12)² = ½(0.80)(144) = 57.6 J.\n\n(A) is wrong because 38.4 J is Iω²/3 = (0.80)(144)/3, using a factor of ⅓ in place of ½.\n(C) is wrong because 9.6 J is Iω, with ω not squared and no ½.\n(D) is wrong because 115.2 J is Iω², which omits the ½."
     },
     {
       "id": "6-17",
@@ -4602,7 +4602,7 @@ const QUESTIONS = {
         "45 kg·m²/s"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 30 kg·m²/s. For a particle, L = mvr⊥ with r⊥ the perpendicular distance from the reference point to the line of motion. Here L = (2.0 kg)(5.0 m/s)(3.0 m) = 30 kg·m²/s. The stem gives the perpendicular distance, so no sinθ factor is needed.\n\n(A) is wrong because 15 is v × r (5.0 × 3.0), omitting the mass.\n(C) is wrong because 10 is mv (linear momentum), omitting the distance.\n(D) is wrong because 45 adds an extra factor of 1.5 and has no basis in mvr⊥."
+      "explanation": "Correct: (B) 30 kg·m²/s. For a particle, L = mvr⊥ with r⊥ the perpendicular distance from the reference point to the line of motion. Here L = (2.0 kg)(5.0 m/s)(3.0 m) = 30 kg·m²/s. The stem gives the perpendicular distance, so no sinθ factor is needed.\n\n(A) is wrong because 15 is v × r (5.0 × 3.0), omitting the mass.\n(C) is wrong because 10 is mv (linear momentum), omitting the distance.\n(D) is wrong because 45 is vr² (5.0 × 3.0²), which squares the distance and leaves out the mass."
     },
     {
       "id": "6-24",
@@ -4680,7 +4680,7 @@ const QUESTIONS = {
         "Angular momentum always changes over time, whatever torque is applied to it."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Whenever the net torque acting on it is zero. Since τ_net = ΔL/Δt, zero net torque means ΔL = 0 and L stays constant. This is the condition for conservation of angular momentum.\n\n(A) is wrong because constant I does not prevent L from changing; a torque changes ω and thus L.\n(C) is wrong because a constant ω does not cause constancy of L and torque can still be applied to a changing-I system; the actual condition is zero net torque, which is what keeps both L and ω steady.\n(D) is wrong because L is constant when net torque is zero."
+      "explanation": "Correct: (B) Whenever the net torque acting on it is zero. Since τ_net = ΔL/Δt, zero net torque means ΔL = 0 and L stays constant. This is the condition for conservation of angular momentum.\n\n(A) is wrong because constant I does not prevent L from changing; a torque changes ω and thus L.\n(C) is wrong because L = Iω, so a constant ω does not guarantee a constant L when I can change or a net torque acts; the actual condition is zero net external torque, which keeps L constant.\n(D) is wrong because L is constant when net torque is zero."
     },
     {
       "id": "6-30",
@@ -5122,7 +5122,7 @@ const QUESTIONS = {
         "3.6 m/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 4.0 m/s. Energy conservation with rolling: mgh = (3/4)mv² for a solid cylinder (½mv² translational plus ¼mv² rotational). The mass cancels, so v² = (4/3)gh = (4/3)(9.8)(1.25) ≈ 16.3, and v ≈ 4.0 m/s.\n\n(B) is wrong because 2.9 m/s comes from multiplying by 3/4 instead of dividing, which makes the cylinder too slow.\n(C) is wrong because 5.0 m/s is √(2gh), the frictionless sliding speed with no rotation.\n(D) is wrong because 3.6 m/s has no basis in this relation (it uses too large a rotational share)."
+      "explanation": "Correct: (A) 4.0 m/s. Energy conservation with rolling: mgh = (3/4)mv² for a solid cylinder (½mv² translational plus ¼mv² rotational). The mass cancels, so v² = (4/3)gh = (4/3)(9.8)(1.25) ≈ 16.3, and v ≈ 4.0 m/s.\n\n(B) is wrong because 2.9 m/s comes from v² = 0.7gh = 8.6 m²/s², multiplying gh by the sphere's 7/10 instead of dividing it by the cylinder's 3/4, which makes the cylinder too slow.\n(C) is wrong because 5.0 m/s is √(2gh), the frictionless sliding speed with no rotation.\n(D) is wrong because 3.6 m/s has no basis in this relation (it uses too large a rotational share)."
     },
     {
       "id": "6-64",
@@ -5268,7 +5268,7 @@ const QUESTIONS = {
         "5.0 m/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.5 m/s. Maximum speed occurs at equilibrium, where all the energy is kinetic, and is v<sub>max</sub> = Aω. Substituting A = 0.05 m and ω = 10 rad/s gives v<sub>max</sub> = (0.05)(10) = 0.5 m/s. Clue words: \"amplitude,\" \"angular frequency,\" \"maximum speed.\"\n\n(B) is wrong because 2.0 m/s is not obtained from any product or ratio of these values (it looks like an unrelated slip).\n(C) is wrong because 0.005 m/s divides by ω² or shifts a decimal incorrectly.\n(D) is wrong because 5.0 m/s misplaces a decimal point, as if A were 0.5 m."
+      "explanation": "Correct: (A) 0.5 m/s. Maximum speed occurs at equilibrium, where all the energy is kinetic, and is v<sub>max</sub> = Aω. Substituting A = 0.05 m and ω = 10 rad/s gives v<sub>max</sub> = (0.05)(10) = 0.5 m/s. Clue words: \"amplitude,\" \"angular frequency,\" \"maximum speed.\"\n\n(B) is wrong because 2.0 m/s is not obtained from any product or ratio of these values (it looks like an unrelated slip).\n(C) is wrong because 0.005 m/s is A/ω (0.05/10), dividing instead of multiplying.\n(D) is wrong because 5.0 m/s misplaces a decimal point, as if A were 0.5 m."
     },
     {
       "id": "7-10",
@@ -5632,7 +5632,7 @@ const QUESTIONS = {
         "8.82 m"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.23 m. Solve T = 2π√(L/g) for L: L = g(T/2π)². With T = 3.0 s, T/2π = 0.4775 s, squared is 0.228 s², and L = 9.8(0.228) ≈ 2.23 m. Clue words: \"period of 3.0 s,\" \"find its length.\"\n\n(B) is wrong because 4.47 m is double the correct value, as if using a half-period.\n(C) is wrong because 0.74 m is about a third of the correct value and does not come from the formula.\n(D) is wrong because 8.82 m is about four times too large, a result of mishandling the squared factor."
+      "explanation": "Correct: (A) 2.23 m. Solve T = 2π√(L/g) for L: L = g(T/2π)². With T = 3.0 s, T/2π = 0.4775 s, squared is 0.228 s², and L = 9.8(0.228) ≈ 2.23 m. Clue words: \"period of 3.0 s,\" \"find its length.\"\n\n(B) is wrong because 4.47 m is double the correct value, which comes from using 2π² in place of 4π² in L = gT²/(4π²).\n(C) is wrong because 0.74 m is about a third of the correct value; it comes from forgetting to square T (9.8 × 3.0/39.5).\n(D) is wrong because 8.82 m is about four times too large; it equals gT²/10, using about 10 in place of 4π² ≈ 39.5."
     },
     {
       "id": "7-38",
@@ -5775,7 +5775,7 @@ const QUESTIONS = {
         "12.4 m/s²"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 9.86 m/s². Solve T = 2π√(L/g) for g by squaring: g = 4π²L/T². With L = 0.80 m and T = 1.79 s: 4π²(0.80) = 31.58 and T² = 3.204 s², so g = 31.58/3.204 ≈ 9.86 m/s², close to the accepted 9.8 m/s². Clue words: \"experimental value for g.\"\n\n(A) is wrong because 10.6 does not follow from these measurements; it would need a period near 1.73 s.\n(C) is wrong because 8.9 would need a period near 1.88 s.\n(D) is wrong because 12.4 would need a much shorter period, about 1.60 s, so it reflects an algebra slip such as forgetting to square T."
+      "explanation": "Correct: (B) 9.86 m/s². Solve T = 2π√(L/g) for g by squaring: g = 4π²L/T². With L = 0.80 m and T = 1.79 s: 4π²(0.80) = 31.58 and T² = 3.204 s², so g = 31.58/3.204 ≈ 9.86 m/s², close to the accepted 9.8 m/s². Clue words: \"experimental value for g.\"\n\n(A) is wrong because 10.6 does not follow from these measurements; it would need a period near 1.73 s.\n(C) is wrong because 8.9 would need a period near 1.88 s.\n(D) is wrong because 12.4 would need a much shorter period, about 1.60 s, which is not the measured 1.79 s."
     },
     {
       "id": "7-49",
@@ -5879,7 +5879,7 @@ const QUESTIONS = {
         "4.47 m/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.41 m/s. First find the total energy: E = ½kA² = ½(300)(0.10)² = 1.5 J. At equilibrium this is all kinetic: ½mv<sub>max</sub>² = 1.5, so v<sub>max</sub>² = 2(1.5)/1.5 = 2.0 m²/s² and v<sub>max</sub> = √2.0 ≈ 1.41 m/s. Check: ω = √(k/m) = √200 = 14.1 rad/s, so Aω = 1.41 m/s.\n\n(B) is wrong because 2.0 is v² before taking the square root.\n(C) is wrong because 0.71 is half of 1.41, which comes from dropping the factor of 2 in v² = 2E/m.\n(D) is wrong because 4.47 does not follow from the correct steps and is much larger than Aω."
+      "explanation": "Correct: (A) 1.41 m/s. First find the total energy: E = ½kA² = ½(300)(0.10)² = 1.5 J. At equilibrium this is all kinetic: ½mv<sub>max</sub>² = 1.5, so v<sub>max</sub>² = 2(1.5)/1.5 = 2.0 m²/s² and v<sub>max</sub> = √2.0 ≈ 1.41 m/s. Check: ω = √(k/m) = √200 = 14.1 rad/s, so Aω = 1.41 m/s.\n\n(B) is wrong because 2.0 is v² before taking the square root.\n(C) is wrong because 0.71 is half of 1.41; it equals √(E/2m) = √0.5, dividing by 2m instead of using v² = 2E/m.\n(D) is wrong because 4.47 does not follow from the correct steps and is much larger than Aω."
     },
     {
       "id": "7-57",
@@ -5892,7 +5892,7 @@ const QUESTIONS = {
         "2.83 m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 1.13 m/s. Use energy conservation: KE = ½kA² − ½kx² = ½(400)(0.10² − 0.060²) = 200(0.0100 − 0.0036) = 200(0.0064) = 1.28 J. Then ½mv² = 1.28 gives v² = 2(1.28)/2.0 = 1.28, so v ≈ 1.13 m/s. Clue words: \"speed at a displacement of x = 0.060 m.\"\n\n(A) is wrong because 1.60 does not come from the energy difference (it ignores that part of the energy is still potential).\n(B) is wrong because 0.80 is an arithmetic slip from the correct sequence.\n(D) is wrong because 2.83 is double the maximum speed (1.41 m/s) and cannot exceed v<sub>max</sub> anyway."
+      "explanation": "Correct: (C) 1.13 m/s. Use energy conservation: KE = ½kA² − ½kx² = ½(400)(0.10² − 0.060²) = 200(0.0100 − 0.0036) = 200(0.0064) = 1.28 J. Then ½mv² = 1.28 gives v² = 2(1.28)/2.0 = 1.28, so v ≈ 1.13 m/s. Clue words: \"speed at a displacement of x = 0.060 m.\"\n\n(A) is wrong because 1.60 m/s comes from v² = 4KE/m = 2.56, a stray extra factor of 2 in v², and it is larger than the correct 1.13 m/s.\n(B) is wrong because 0.80 = √(KE/m) = √0.64, dropping the factor of 2 in v² = 2KE/m.\n(D) is wrong because 2.83 is double the maximum speed (1.41 m/s) and cannot exceed v<sub>max</sub> anyway."
     },
     {
       "id": "7-58",
@@ -6077,7 +6077,7 @@ const QUESTIONS = {
         "300 N"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 3000 N. Force is pressure times area: F = PA = (1.5×10⁵ Pa)(0.020 m²) = 3.0×10³ N = 3000 N. Clue words: \"resulting force,\" pressure and area given.\n\n(A) is wrong because 0.13 divides the area by the pressure (A/P) instead of multiplying.\n(C) is wrong because 7,500,000 divides pressure by area (P/A).\n(D) is wrong because 300 is a factor-of-ten slip in the multiplication."
+      "explanation": "Correct: (B) 3000 N. Force is pressure times area: F = PA = (1.5×10⁵ Pa)(0.020 m²) = 3.0×10³ N = 3000 N. Clue words: \"resulting force,\" pressure and area given.\n\n(A) is wrong because it divides instead of multiplying; A/P is only 1.3×10⁻⁷, so 0.13 comes from dividing 0.020 by 0.15 with the 10⁵ mishandled.\n(C) is wrong because 7,500,000 divides pressure by area (P/A).\n(D) is wrong because 300 is a factor-of-ten slip in the multiplication."
     },
     {
       "id": "8-7",
@@ -6103,7 +6103,7 @@ const QUESTIONS = {
         "2000 kg/m³; would sink"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2000 kg/m³; would sink. Density is ρ = m/V = 8.0 kg / 0.0040 m³ = 2000 kg/m³. An object sinks in a fluid if its density exceeds the fluid's; 2000 > 1000 kg/m³, so it sinks. Clue words: \"float or sink in water.\"\n\n(A) is wrong because 500 inverts the ratio (V/m scaled) and wrongly sinks anyway.\n(B) is wrong because the same slip gives 500 kg/m³, which would float but is not the actual density.\n(C) is wrong because the density is right but the conclusion is reversed; denser than water means it sinks."
+      "explanation": "Correct: (D) 2000 kg/m³; would sink. Density is ρ = m/V = 8.0 kg / 0.0040 m³ = 2000 kg/m³. An object sinks in a fluid if its density exceeds the fluid's; 2000 > 1000 kg/m³, so it sinks. Clue words: \"float or sink in water.\"\n\n(A) is wrong because 500 kg/m³ is only one quarter of the true m/V = 2000 kg/m³, and a density of 500 would float, so the choice also contradicts itself.\n(B) is wrong because the same slip gives 500 kg/m³, which would float but is not the actual density.\n(C) is wrong because the density is right but the conclusion is reversed; denser than water means it sinks."
     },
     {
       "id": "8-9",
@@ -6155,7 +6155,7 @@ const QUESTIONS = {
         "4.9×10⁴ Pa"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.49×10⁵ Pa. Total (absolute) pressure at depth h is P = P₀ + ρgh = 1.0×10⁵ + (1000)(9.8)(5.0) = 1.0×10⁵ + 49,000 = 1.49×10⁵ Pa. Clue words: \"total pressure,\" \"atmospheric pressure at the surface.\"\n\n(B) is wrong because 1.0×10⁵ Pa ignores the water's added pressure.\n(C) is wrong because 1.05×10⁵ misplaces the decimal in the 49,000 Pa fluid contribution (adding 5,000).\n(D) is wrong because 4.9×10⁴ is only the fluid contribution, leaving out atmospheric pressure."
+      "explanation": "Correct: (A) 1.49×10⁵ Pa. Total (absolute) pressure at depth h is P = P₀ + ρgh = 1.0×10⁵ + (1000)(9.8)(5.0) = 1.0×10⁵ + 49,000 = 1.49×10⁵ Pa. Clue words: \"total pressure,\" \"atmospheric pressure at the surface.\"\n\n(B) is wrong because 1.0×10⁵ Pa ignores the water's added pressure.\n(C) is wrong because 1.05×10⁵ adds only ρh = (1000)(5.0) = 5,000 Pa, leaving out g.\n(D) is wrong because 4.9×10⁴ is only the fluid contribution, leaving out atmospheric pressure."
     },
     {
       "id": "8-13",
@@ -6649,7 +6649,7 @@ const QUESTIONS = {
         "50 m³/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.05 m³/s. Volume flow rate is Q = Av = (0.010 m²)(5.0 m/s) = 0.05 m³/s. Clue words: \"volume flow rate.\"\n\n(B) is wrong because 0.002 divides A by v.\n(C) is wrong because 0.5 is a factor-of-ten slip.\n(D) is wrong because 50 is a factor of 1000 too large, as if dividing v by A."
+      "explanation": "Correct: (A) 0.05 m³/s. Volume flow rate is Q = Av = (0.010 m²)(5.0 m/s) = 0.05 m³/s. Clue words: \"volume flow rate.\"\n\n(B) is wrong because 0.002 divides A by v.\n(C) is wrong because 0.5 is a factor-of-ten slip.\n(D) is wrong because 50 m³/s is a factor of 1000 too large and has no valid origin; dividing v by A would give 500, not 50."
     },
     {
       "id": "8-51",
@@ -6766,7 +6766,7 @@ const QUESTIONS = {
         "4,000 Pa"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 16,000 Pa. For horizontal flow, the pressure drop is ΔP = ½ρ(v₂² − v₁²) = ½(1000)(36 − 4) = ½(1000)(32) = 16,000 Pa. Faster flow means lower pressure.\n\n(A) is wrong because 32,000 omits the factor of ½.\n(B) is wrong because 8,000 halves the correct answer a second time.\n(D) is wrong because 4,000 Pa is a quarter of the true drop, which comes from mishandling the squares of the speeds."
+      "explanation": "Correct: (C) 16,000 Pa. For horizontal flow, the pressure drop is ΔP = ½ρ(v₂² − v₁²) = ½(1000)(36 − 4) = ½(1000)(32) = 16,000 Pa. Faster flow means lower pressure.\n\n(A) is wrong because 32,000 omits the factor of ½.\n(B) is wrong because 8,000 halves the correct answer a second time.\n(D) is wrong because 4,000 Pa is a quarter of the true drop; it equals ρ(v₂ − v₁), subtracting the speeds instead of their squares and dropping the ½."
     },
     {
       "id": "8-60",

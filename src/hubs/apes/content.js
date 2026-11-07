@@ -1174,7 +1174,7 @@ const QUESTIONS = {
         "Community B has higher overall diversity, because dominance by one species increases diversity."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Community A has higher overall diversity, because of its much higher evenness. Species diversity combines two components: richness (the number of species) and evenness (how equally individuals are spread among them). Here richness is tied at 12, so evenness decides. Community A has individuals spread about equally, while Community B has one species making up 85% of individuals, leaving the other 11 species rare, so a random individual is almost always the same species. Higher evenness means higher diversity.\n\n(B) is wrong because equal richness does not mean equal diversity.\n(C) is wrong because the given information is enough to rank them.\n(D) is wrong because dominance by one species lowers evenness and so lowers diversity."
+      "explanation": "Correct: (A) Community A has higher overall diversity, because of its much higher evenness. Species diversity combines two components: richness (the number of species) and evenness (how equally individuals are spread among them). Here richness is tied at 12, so evenness decides. Community A has individuals spread about equally, while Community B has one species making up 85% of individuals, leaving the other 11 species rare, so a randomly chosen individual is the dominant species 85% of the time. Higher evenness means higher diversity.\n\n(B) is wrong because equal richness does not mean equal diversity.\n(C) is wrong because the given information is enough to rank them.\n(D) is wrong because dominance by one species lowers evenness and so lowers diversity."
     },
     {
       "id": "2-6",
@@ -1265,7 +1265,7 @@ const QUESTIONS = {
         "High genetic diversity guarantees that a population will never decline in size at all."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) A more genetically diverse population is more likely to include individuals suited to the new stressor. Genetic diversity is the variety of alleles within a population. When a new stressor appears, such as a disease, drought, or warming, some individuals may carry alleles that give resistance or tolerance. Those individuals survive and reproduce, so the population persists and adapts through natural selection. A genetically uniform population may have no such individuals and can be wiped out.\n\n(A) is wrong because the relationship is well established.\n(C) is wrong because genetic diversity matters in animals as well as plants.\n(D) is wrong because diversity improves odds but cannot guarantee that a population never declines."
+      "explanation": "Correct: (B) A more genetically diverse population is more likely to include individuals suited to the new stressor. Genetic diversity is the variety of alleles within a population. When a new stressor appears, such as a disease, drought, or warming, some individuals may carry alleles that give resistance or tolerance. Those individuals survive and reproduce, so the population persists and adapts through natural selection. A genetically uniform population may have no such individuals and can be wiped out.\n\n(A) is wrong because more alleles mean more chances that some individuals carry resistance or tolerance to a new stressor, so genetic diversity clearly affects resilience.\n(C) is wrong because genetic diversity matters in animals as well as plants.\n(D) is wrong because diversity improves odds but cannot guarantee that a population never declines."
     },
     {
       "id": "2-13",
@@ -1356,7 +1356,7 @@ const QUESTIONS = {
         "Resilience only depends on an ecosystem's total land area, not its biodiversity, which is unrelated."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Greater biodiversity gives an ecosystem more backup options to draw on after a disturbance. Resilience is the ability of an ecosystem to resist or recover from disturbance. In a diverse ecosystem, many species perform similar roles (functional redundancy), so if a drought, disease, or fire removes some species, others can fill in and maintain processes such as productivity and nutrient cycling. Losing biodiversity removes that insurance and lowers resilience.\n\n(A) is wrong because simplifying an ecosystem makes it more vulnerable, not less.\n(C) is wrong because the relationship is well documented.\n(D) is wrong because land area is not the factor that defines resilience in this context."
+      "explanation": "Correct: (B) Greater biodiversity gives an ecosystem more backup options to draw on after a disturbance. Resilience is the ability of an ecosystem to resist or recover from disturbance. In a diverse ecosystem, many species perform similar roles (functional redundancy), so if a drought, disease, or fire removes some species, others can fill in and maintain processes such as productivity and nutrient cycling. Losing biodiversity removes that insurance and lowers resilience.\n\n(A) is wrong because simplifying an ecosystem makes it more vulnerable, not less.\n(C) is wrong because diverse ecosystems have several species that perform similar roles, so they recover from drought, disease or fire better, which is a direct link between biodiversity and disturbance response.\n(D) is wrong because land area is not the factor that defines resilience in this context."
     },
     {
       "id": "2-20",
@@ -1629,7 +1629,7 @@ const QUESTIONS = {
         "Climate change has no relationship to any species' environmental tolerance."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It lets scientists predict which species are most likely to be pushed beyond their survivable range. Climate change shifts temperature, precipitation, and other factors. By comparing the expected conditions with each species' tolerance range, scientists can identify which species will exceed their limits, such as narrow-tolerance species like corals, cold-water fish, or alpine plants, and which are likely to cope, so conservation can be prioritized.\n\n(A) is wrong because this is a widely used prediction tool.\n(C) is wrong because tolerance ranges apply to all organisms, terrestrial and aquatic.\n(D) is wrong because climate change alters the environmental conditions that species tolerate, so the two are directly related."
+      "explanation": "Correct: (B) It lets scientists predict which species are most likely to be pushed beyond their survivable range. Climate change shifts temperature, precipitation, and other factors. By comparing the expected conditions with each species' tolerance range, scientists can identify which species will exceed their limits, such as narrow-tolerance species like corals, cold-water fish, or alpine plants, and which are likely to cope, so conservation can be prioritized.\n\n(A) is wrong because comparing projected temperature or rainfall with a species' tolerance limits shows which species will be pushed out of range, which is a practical use.\n(C) is wrong because tolerance ranges apply to all organisms, terrestrial and aquatic.\n(D) is wrong because climate change alters the environmental conditions that species tolerate, so the two are directly related."
     },
     {
       "id": "2-41",
@@ -1850,7 +1850,7 @@ const QUESTIONS = {
         "Primary succession has no relationship to soil formation."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Primary succession must build soil from scratch; secondary starts with soil already present. In primary succession, lichens and mosses weather rock and add organic matter over decades to centuries, creating a thin soil that can support grasses and then shrubs and trees. In secondary succession, soil, nutrients, a seed bank, and sometimes surviving roots are already there, so plants regrow in years to decades. The extra time needed for soil formation is why primary is slower.\n\n(B) is wrong because secondary succession occurs in all climates and climate is not the reason for the difference.\n(C) is wrong because primary succession begins with plant-like pioneers such as lichens and mosses.\n(D) is wrong because soil formation is central to primary succession."
+      "explanation": "Correct: (A) Primary succession must build soil from scratch; secondary starts with soil already present. In primary succession, lichens and mosses weather rock and add organic matter over decades to centuries, creating a thin soil that can support grasses and then shrubs and trees. In secondary succession, soil, nutrients, a seed bank, and sometimes surviving roots are already there, so plants regrow in years to decades. The extra time needed for soil formation is why primary is slower.\n\n(B) is wrong because secondary succession occurs in all climates and climate is not the reason for the difference.\n(C) is wrong because primary succession begins with photosynthetic pioneers such as lichens and mosses, so plants and other producers are involved from the start.\n(D) is wrong because soil formation is central to primary succession."
     },
     {
       "id": "2-58",
@@ -2905,7 +2905,7 @@ const QUESTIONS = {
         "35 years"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 50 years. Using the Rule of 70, doubling time ≈ 70 ÷ percent annual growth rate. For 1.4% growth, 70 ÷ 1.4 = 50 years. The decimal rate is entered as 1.4, not 0.014, because the rule is built on percentages.\n\n(B) is wrong because 100 years would need a 0.7% rate.\n(C) is wrong because 70 years would need a 1.0% rate, which is the result of forgetting to divide by the rate.\n(D) is wrong because 35 years is the doubling time for 2.0% growth, which is a higher rate than the one given."
+      "explanation": "Correct: (A) 50 years. Using the Rule of 70, doubling time ≈ 70 ÷ percent annual growth rate. For 1.4% growth, 70 ÷ 1.4 = 50 years. The decimal rate is entered as 1.4, not 0.014, because the rule is built on percentages.\n\n(B) is wrong because 100 years would need a 0.7% rate.\n(C) is wrong because 70 years would need a 1.0% rate (70 ÷ 1.0), and 70 is also what you get if you forget to divide by the rate.\n(D) is wrong because 35 years is the doubling time for 2.0% growth, which is a higher rate than the one given."
     },
     {
       "id": "3-56",
@@ -3087,7 +3087,7 @@ const QUESTIONS = {
         "120"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 120. IPAT is multiplicative: I = P × A × T. With the values given, P = 10 (million), A = 6, and T = 2, so I = 10 × 6 × 2 = 120 in relative impact units. The question asks for relative impact, so the units of P can be treated as 10 and no conversion is needed.\n\n(A) is wrong because 18 comes from adding the three values (10 + 6 + 2) instead of multiplying them.\n(B) is wrong because 60 is 10 × 6 and leaves out the technology factor.\n(C) is wrong because 200 does not follow from these values and may come from an arithmetic slip."
+      "explanation": "Correct: (D) 120. IPAT is multiplicative: I = P × A × T. With the values given, P = 10 (million), A = 6, and T = 2, so I = 10 × 6 × 2 = 120 in relative impact units. The question asks for relative impact, so the units of P can be treated as 10 and no conversion is needed.\n\n(A) is wrong because 18 comes from adding the three values (10 + 6 + 2) instead of multiplying them.\n(B) is wrong because 60 is 10 × 6 and leaves out the technology factor.\n(C) is wrong because 200 is not the product (10 × 6 × 2 = 120) or the sum (10 + 6 + 2 = 18) of the three values, so it is an arithmetic error."
     },
     {
       "id": "3-70",
@@ -7387,7 +7387,7 @@ const QUESTIONS = {
         "Eutrophication involves only nitrogen input, never any phosphorus input."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) because phosphorus is often the limiting nutrient in freshwater systems. A limiting nutrient is the resource in shortest supply that caps growth. In many lakes and rivers that nutrient is phosphorus, so adding phosphorus from detergents, fertilizer or sewage removes the cap and allows algae to grow explosively. The clue words are \"Unit 1\" and \"limiting nutrients.\"\n\n(A) is wrong because the link is direct.\n(B) is wrong because limiting nutrients apply to aquatic ecosystems as well as land ecosystems.\n(D) is wrong because phosphorus is a major driver, and nitrogen is also important, especially in marine systems."
+      "explanation": "Correct: (C) because phosphorus is often the limiting nutrient in freshwater systems. A limiting nutrient is the resource in shortest supply that caps growth. In many lakes and rivers that nutrient is phosphorus, so adding phosphorus from detergents, fertilizer or sewage removes the cap and allows algae to grow explosively. The clue words are \"Unit 1\" and \"limiting nutrients.\"\n\n(A) is wrong because a limiting nutrient (Unit 1) is exactly what eutrophication removes: adding the scarce nutrient, usually phosphorus in freshwater, lifts the cap on algal growth.\n(B) is wrong because limiting nutrients apply to aquatic ecosystems as well as land ecosystems.\n(D) is wrong because phosphorus is a major driver, and nitrogen is also important, especially in marine systems."
     },
     {
       "id": "8-16",
@@ -7491,7 +7491,7 @@ const QUESTIONS = {
         "Because POPs bioaccumulate, they biomagnify up food chains into predators."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) because POPs bioaccumulate, they biomagnify up food chains into predators. POPs are fat-soluble and not broken down, so they build up in an organism's tissue over its life. When a predator eats many contaminated prey, it takes in the stored POPs from all of them, so concentration rises at each trophic level. Top predators such as eagles or orcas carry the highest levels. The clue word is \"biomagnification.\"\n\n(A) is wrong because biomagnification mainly affects consumers, especially higher ones.\n(B) is wrong because the two topics are directly connected.\n(C) is wrong because biomagnification applies to persistent, fat-soluble chemicals like POPs and is not limited to gases."
+      "explanation": "Correct: (D) because POPs bioaccumulate, they biomagnify up food chains into predators. POPs are fat-soluble and not broken down, so they build up in an organism's tissue over its life. When a predator eats many contaminated prey, it takes in the stored POPs from all of them, so concentration rises at each trophic level. Top predators such as eagles or orcas carry the highest levels. The clue word is \"biomagnification.\"\n\n(A) is wrong because biomagnification mainly affects consumers, especially higher ones.\n(B) is wrong because POPs are fat-soluble and persistent, so they bioaccumulate and then biomagnify up food chains, which is the Unit 5 concept.\n(C) is wrong because biomagnification applies to persistent, fat-soluble chemicals like POPs and is not limited to gases."
     },
     {
       "id": "8-24",
@@ -7595,7 +7595,7 @@ const QUESTIONS = {
         "Thermal pollution has no relationship to species composition."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) by pushing species outside their temperature tolerance range. Each species has a range of temperatures for survival, and an optimum within it (Unit 2). When heated water raises temperature past that range, sensitive species, such as cold-water trout, suffer stress or die, while warm-tolerant species increase, so the community changes (Unit 5). The clue words are \"species composition\" and \"Unit 2.\"\n\n(A) is wrong because thermal change harms some species and favors others.\n(C) is wrong because temperature strongly shapes where species live.\n(D) is wrong because the connection is documented."
+      "explanation": "Correct: (B) by pushing species outside their temperature tolerance range. Each species has a range of temperatures for survival, and an optimum within it (Unit 2). When heated water raises temperature past that range, sensitive species, such as cold-water trout, suffer stress or die, while warm-tolerant species increase, so the community changes (Unit 5). The clue words are \"species composition\" and \"Unit 2.\"\n\n(A) is wrong because thermal change harms some species and favors others.\n(C) is wrong because temperature strongly shapes where species live.\n(D) is wrong because temperature changes which species stay within their tolerance range, so warmer water shifts the community toward heat-tolerant species."
     },
     {
       "id": "8-32",
@@ -7634,7 +7634,7 @@ const QUESTIONS = {
         "There is no relationship between thermal pollution and invasive species."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) a better-suited temperature tolerance could give an invasive species an advantage. If heating moves river temperature beyond what native, cold-adapted species tolerate, a warm-tolerant invader can survive, reproduce and outcompete them. The clue words are \"favor invasive species\" and \"in some cases.\"\n\n(A) is wrong because temperature is a major limiting factor for invasive species, too.\n(B) is wrong because thermal pollution does not remove invasives, and can help them.\n(D) is wrong because the link is well documented through tolerance ranges and competition."
+      "explanation": "Correct: (C) a better-suited temperature tolerance could give an invasive species an advantage. If heating moves river temperature beyond what native, cold-adapted species tolerate, a warm-tolerant invader can survive, reproduce and outcompete them. The clue words are \"favor invasive species\" and \"in some cases.\"\n\n(A) is wrong because temperature is a major limiting factor for invasive species, too.\n(B) is wrong because thermal pollution does not remove invasives, and can help them.\n(D) is wrong because warmer water can push cold-adapted natives past their tolerance limit while a warm-tolerant invader keeps growing, so thermal pollution can tilt competition toward invasives."
     },
     {
       "id": "8-35",
@@ -7751,7 +7751,7 @@ const QUESTIONS = {
         "The Delaney Clause"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) CERCLA (Superfund). The Comprehensive Environmental Response, Compensation, and Liability Act of 1980 lets the EPA clean up contaminated sites such as abandoned dumps and factories. It makes responsible parties liable, and where none can pay, a Superfund fund taxed on industry covers the cost. The clue words are \"already-contaminated sites\" and \"no responsible party remaining.\"\n\n(A) is wrong because RCRA governs ongoing hazardous waste management.\n(C) is wrong because the Safe Drinking Water Act sets standards for public drinking water.\n(D) is wrong because the Delaney Clause concerns carcinogenic food additives."
+      "explanation": "Correct: (B) CERCLA (Superfund). The Comprehensive Environmental Response, Compensation, and Liability Act of 1980 lets the EPA clean up contaminated sites such as abandoned dumps and factories. It makes responsible parties liable, and where none can pay, the Superfund trust fund (originally financed by taxes on the chemical and petroleum industries) covers the cost. The clue words are \"already-contaminated sites\" and \"no responsible party remaining.\"\n\n(A) is wrong because RCRA governs ongoing hazardous waste management.\n(C) is wrong because the Safe Drinking Water Act sets standards for public drinking water.\n(D) is wrong because the Delaney Clause concerns carcinogenic food additives."
     },
     {
       "id": "8-44",
@@ -8063,7 +8063,7 @@ const QUESTIONS = {
         "Cadmium"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) mercury. In the 1950s a chemical factory discharged methylmercury into Minamata Bay, Japan. It accumulated in plankton and fish, then magnified in higher predators, and people who ate the fish suffered severe neurological damage, known as Minamata disease. The clue words are \"Minamata Bay,\" \"neurological damage\" and \"biomagnification.\"\n\n(A) is wrong because lead is linked to pipes, paint and developmental harm in children.\n(C) is wrong because arsenic is linked to contaminated groundwater and cancer.\n(D) is wrong because cadmium is linked to kidney damage and is not the Minamata contaminant."
+      "explanation": "Correct: (B) mercury. A chemical factory discharged methylmercury into Minamata Bay, Japan, for decades, and the disease was recognized in the 1950s. It accumulated in plankton and fish, then magnified in higher predators, and people who ate the fish suffered severe neurological damage, known as Minamata disease. The clue words are \"Minamata Bay,\" \"neurological damage\" and \"biomagnification.\"\n\n(A) is wrong because lead is linked to pipes, paint and developmental harm in children.\n(C) is wrong because arsenic is linked to contaminated groundwater and cancer.\n(D) is wrong because cadmium is linked to kidney damage and is not the Minamata contaminant."
     },
     {
       "id": "8-68",
@@ -8115,7 +8115,7 @@ const QUESTIONS = {
         "Mercury"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) cadmium. Cadmium comes from mining, smelting, batteries and industrial runoff. It accumulates in the kidneys, causing kidney damage and bone weakening (itai-itai disease in Japan). The clue words are \"kidney damage\" and \"mining runoff.\"\n\n(A) is wrong because chromium is not the standard example for kidney damage in this context.\n(B) is wrong because lead is tied to neurological and developmental harm.\n(D) is wrong because mercury is tied to neurological damage and biomagnification."
+      "explanation": "Correct: (C) cadmium. Cadmium comes from mining, smelting, batteries and industrial runoff. It accumulates in the kidneys, causing kidney damage and bone weakening (itai-itai disease in Japan). The clue words are \"kidney damage\" and \"mining runoff.\"\n\n(A) is wrong because chromium is better known for lung cancer and skin irritation (hexavalent chromium), while cadmium is the classic kidney toxin from mining and industrial runoff.\n(B) is wrong because lead is tied to neurological and developmental harm.\n(D) is wrong because mercury is tied to neurological damage and biomagnification."
     },
     {
       "id": "8-72",
