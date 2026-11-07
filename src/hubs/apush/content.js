@@ -4372,7 +4372,7 @@ const QUESTIONS = {
         "Horizontal integration"
       ],
       "correct": 1,
-      "explanation": "Andrew Carnegie used vertical integration — controlling every stage of production, from raw material mines to shipping railroads — to dominate the steel industry."
+      "explanation": "Correct: (B) Vertical integration. Andrew Carnegie built Carnegie Steel in the 1870s to 1890s by buying the iron ore fields, coal and coke supplies, rail lines and lake ships that fed his mills, so every stage from raw material to finished steel sat inside one company. Combined with the Bessemer process, this control cut his costs below any rival's and let him dominate steel. The clue is a strategy for dominating an industry by controlling its whole supply chain.\n\n(A) is wrong because popular sovereignty was the 1850s doctrine letting territorial settlers vote on slavery, with no connection to business strategy.\n(C) is wrong because the spoils system was the political practice of handing government jobs to party loyalists, not a method for building an industrial empire.\n(D) is wrong because horizontal integration means absorbing competitors making the same product, which is the strategy the exam links to Rockefeller's Standard Oil instead."
     },
     {
       "id": "6-2",
@@ -4385,7 +4385,7 @@ const QUESTIONS = {
         "Horizontal integration"
       ],
       "correct": 3,
-      "explanation": "John D. Rockefeller used horizontal integration — buying out or merging with competing companies at the same stage of production — to dominate the oil industry through Standard Oil."
+      "explanation": "Correct: (D) Horizontal integration. John D. Rockefeller founded Standard Oil in 1870 and, through the 1870s, bought out or pressured competing refiners, often using railroad rebates, until the company controlled roughly 90 percent of American oil refining by the early 1880s. The Standard Oil Trust of 1882 organized that control, and the resulting monopoly power became a prime target of the Sherman Antitrust Act of 1890. The key clue is consolidation of rival firms in the same stage of production.\n\n(A) is wrong because the Dawes Act of 1887 broke up Native American reservation lands into individual allotments and has nothing to do with oil companies.\n(B) is wrong because the Bessemer process was a technique for making cheap steel from molten iron, not a way of organizing a business.\n(C) is wrong because vertical integration means owning successive stages from raw materials to sale, which the exam associates with Carnegie rather than Rockefeller."
     },
     {
       "id": "6-3",
@@ -4398,7 +4398,7 @@ const QUESTIONS = {
         "A federal law capping how large a single business could legally grow in the Gilded Age."
       ],
       "correct": 1,
-      "explanation": "Vertical integration means owning every stage of production, from raw material to finished, shipped product — eliminating dependence on outside suppliers. Choice C describes horizontal integration instead (buying same-stage rivals); choice D invents a regulatory law that didn't exist in this form; choice A wrongly treats vertical and horizontal integration as synonyms, when they describe different-stage vs. same-stage consolidation."
+      "explanation": "Correct: (B) Owning every stage of production, from raw materials to the finished, shipped product. Under vertical integration a company controls its entire supply chain, as Carnegie did by owning mines, coke ovens, railroads and mills, which removed middlemen's profits and guaranteed supplies. The phrase 'every stage' in the correct choice matches the word 'vertical,' which suggests moving up and down the chain from raw material to customer.\n\n(A) is wrong because horizontal and vertical integration are different strategies, one expanding across competitors and the other along the supply chain, so they cannot be exact synonyms.\n(C) is wrong because buying or merging with rivals who make the identical product is the definition of horizontal integration, as in Standard Oil's absorption of other refiners.\n(D) is wrong because no federal law capped business size; the Sherman Antitrust Act of 1890 barred monopolistic restraint of trade and was weakly enforced, and integration itself is a business strategy."
     },
     {
       "id": "6-4",
@@ -4411,7 +4411,7 @@ const QUESTIONS = {
         "Buying out or merging with competing companies at the SAME stage of production."
       ],
       "correct": 3,
-      "explanation": "Horizontal integration means buying out or merging with competitors at the same stage of production, as Rockefeller did with rival oil refiners. Choice C wrongly equates it with vertical integration; choice A describes vertical integration instead (different stages); choice B invents a specific federal law rather than describing the business strategy itself."
+      "explanation": "Correct: (D) Buying out or merging with competing companies at the SAME stage of production. Horizontal integration removes competition by combining firms that make the same product, which gives the combined firm control over prices. Rockefeller's Standard Oil absorbed rival refineries in this way during the 1870s and 1880s, and the later wave of trusts and mergers in the 1890s followed the same logic. The capitalized word SAME is the clue separating it from vertical integration.\n\n(A) is wrong because owning every stage from raw material to finished product is vertical integration, which Carnegie used in steel.\n(B) is wrong because the Sherman Antitrust Act of 1890 was the federal law aimed at breaking up trusts and monopolies, and horizontal integration was a business method, not a statute.\n(C) is wrong because the two terms describe different directions of growth, same-stage rivals versus the supply chain, so treating them as the exact same thing would blur an exam distinction."
     },
     {
       "id": "6-5",
@@ -4424,7 +4424,7 @@ const QUESTIONS = {
         "Horizontal integration"
       ],
       "correct": 3,
-      "explanation": "Buying out competing companies making the identical product at the same stage of production illustrates horizontal integration, Rockefeller's strategy in the oil industry."
+      "explanation": "Correct: (D) Horizontal integration. The stem describes a steel company buying other steel producers that make the identical product, meaning it is absorbing rivals at the same stage of production, which reduces competition and raises the buyer's market power. This is the pattern Standard Oil followed with refineries in the 1870s and 1880s. The clue words are 'identical product' and 'buys out,' which point to competitors rather than suppliers.\n\n(A) is wrong because vertical integration would involve buying suppliers or distributors at other stages, such as iron ore mines, coal fields or railroads, not firms making the same product.\n(B) is wrong because popular sovereignty was the pre-Civil War idea of letting territorial settlers vote on whether to permit slavery, a political doctrine.\n(C) is wrong because the Dawes Act of 1887 divided Native American reservation lands into individual plots and is unrelated to corporate mergers."
     },
     {
       "id": "6-6",
@@ -4437,7 +4437,7 @@ const QUESTIONS = {
         "The Dawes Act"
       ],
       "correct": 2,
-      "explanation": "The Bessemer process significantly reduced the cost of steel production, enabling faster and cheaper steel manufacturing central to the Second Industrial Revolution."
+      "explanation": "Correct: (C) The Bessemer process. Developed independently in the 1850s by Englishman Henry Bessemer and American William Kelly, it blasts air through molten pig iron to burn off impurities, turning iron into steel in minutes instead of days. By the 1870s Carnegie's mills used it to make steel cheap enough for rails, bridges, skyscrapers and machinery, which fueled railroad expansion and the Second Industrial Revolution. The clue is an innovation that reduced the cost of steel production.\n\n(A) is wrong because the spoils system was the political practice of rewarding party supporters with government jobs and did nothing to change how steel was made.\n(B) is wrong because popular sovereignty was the 1850s doctrine of letting territorial settlers decide the slavery question by vote, not a manufacturing technique.\n(D) is wrong because the Dawes Act of 1887 concerned allotment of Native American land and had no bearing on steel costs."
     },
     {
       "id": "6-7",
@@ -4450,7 +4450,7 @@ const QUESTIONS = {
         "Textile manufacturing"
       ],
       "correct": 2,
-      "explanation": "Railroads were the era's dominant big business, providing essential infrastructure connecting the national market and enabling the broader Second Industrial Revolution."
+      "explanation": "Correct: (C) Railroads. Railroads were the first giant American business and the infrastructure of the national market: track mileage multiplied after the Civil War, the first transcontinental line was completed at Promontory Summit in 1869, and the lines carried raw materials, finished goods, crops and passengers between regions. They also required huge capital and created modern corporate management, and their demand for steel, coal and timber stimulated other industries. The clue is 'essential infrastructure connecting the national market.'\n\n(A) is wrong because agriculture was a major sector but it depended on railroads to reach markets and did not itself provide the connecting infrastructure.\n(B) is wrong because banks financed industry and railroads, such as J. P. Morgan's firm, but the word 'exclusively' and the role of finance do not fit a description of physical infrastructure.\n(D) is wrong because textile manufacturing was an older industry, centered in New England mills since the early 1800s, that did not link regional markets together."
     },
     {
       "id": "6-8",
@@ -4463,7 +4463,7 @@ const QUESTIONS = {
         "There is no meaningful reason to ever distinguish these two related business strategies in an essay."
       ],
       "correct": 2,
-      "explanation": "This exam rewards correctly identifying which strategy a described scenario illustrates, based on whether a company acquires different production stages (vertical) or same-stage competitors (horizontal). Choice D wrongly denies a real, tested distinction; choices A and B each wrongly claim only one of the two strategies ever appears, when both are directly tested."
+      "explanation": "Correct: (C) This exam rewards correctly identifying which strategy a scenario illustrates — different stages vs. same-stage rivals. AP questions often describe a company, such as one that buys its own coal mines and railroads versus one that buys competing refineries, and expect the student to name vertical or horizontal integration and tie it to Carnegie or Rockefeller. Using the terms as synonyms for 'big business getting bigger' would lose that precision and the points that depend on it.\n\n(A) is wrong because both strategies appear in the Gilded Age material, and ignoring vertical integration would leave Carnegie's steel empire unexplained.\n(B) is wrong because horizontal integration is equally testable, since Rockefeller's Standard Oil monopoly is the standard example, so the claim that only vertical integration matters is false.\n(D) is wrong because the distinction is exactly what lets essays compare how Carnegie and Rockefeller built their empires, so saying there is no reason to distinguish them is mistaken."
     },
     {
       "id": "6-9",
@@ -4476,7 +4476,7 @@ const QUESTIONS = {
         "Genuine economic innovation and essential infrastructure-building, with no serious criticism."
       ],
       "correct": 0,
-      "explanation": "The 'robber baron' framing emphasizes ruthless, often exploitative business practices: crushing competitors and suppressing wages. Choice D describes the opposite 'captain of industry' framing; choice B narrows industrialists to philanthropy alone, ignoring their business conduct entirely; choice C is wrong because the framing reflects real, documented contemporary and historical criticism, not a groundless modern invention."
+      "explanation": "Correct: (A) Ruthless, often exploitative business practices — crushing competitors and suppressing wages. The 'robber baron' view, popularized by critics in the Gilded Age and later by historian Matthew Josephson in 1934, points to Rockefeller's secret railroad rebates and predatory pricing, Jay Gould's stock manipulation, and Carnegie and Frick's wage cuts and use of Pinkerton guards at Homestead in 1892. It frames industrialists as getting rich through unfair power over markets and workers. The clue words are 'framing' and 'ruthless.'\n\n(B) is wrong because purely philanthropic activity belongs to the opposite captain of industry view, and the robber baron label is defined by criticism of business practices.\n(C) is wrong because the term was used by critics in the late 1800s and rested on documented practices like rebates and wage cuts, so it was not a baseless modern invention.\n(D) is wrong because describing innovation and infrastructure with no criticism is the captain of industry framing, which robber baron argues against."
     },
     {
       "id": "6-10",
@@ -4489,7 +4489,7 @@ const QUESTIONS = {
         "A framing describing industrialists with no relationship to their business activity."
       ],
       "correct": 2,
-      "explanation": "'Captain of industry' emphasizes genuine economic innovation, essential infrastructure-building, and, for some industrialists, significant later philanthropy. Choice B misdirects the framing toward labor unions rather than industrialists; choice D is incoherent, since the framing is specifically about industrialists' business activity; choice A instead describes the opposing 'robber baron' framing."
+      "explanation": "Correct: (C) Genuine economic innovation, infrastructure-building, and, for some, later philanthropy. The 'captain of industry' view credits Gilded Age industrialists with building railroads, steel mills and oil refining on a national scale, lowering prices, creating jobs and driving growth, and with giving away fortunes afterward, such as Carnegie's more than 2,500 public libraries and Rockefeller's foundation. The clue is a positive framing built on innovation and later giving.\n\n(A) is wrong because describing purely exploitative practices with no redeeming quality is the robber baron interpretation, the contrasting historical framing.\n(B) is wrong because the term describes industrialists and their business achievements, not union organizing, which concerns the Knights of Labor and the AFL.\n(D) is wrong because the framing is directly about what these men did in business, such as innovation and building infrastructure, so saying it has no relationship to their business activity is false."
     },
     {
       "id": "6-11",
@@ -4502,7 +4502,7 @@ const QUESTIONS = {
         "That government should seize and equally redistribute all private wealth."
       ],
       "correct": 0,
-      "explanation": "Social Darwinism applied 'survival of the fittest' to society and economics, arguing competition naturally sorted the 'fittest' from the 'less fit' and justifying minimal government intervention. Choice B describes a form of labor control Social Darwinism never argued for; choices C and D describe active government intervention (redistribution, regulation) that is the opposite of the laissez-faire policy Social Darwinism actually justified."
+      "explanation": "Correct: (A) 'Survival of the fittest' applied to society, sorting the successful from the unsuccessful. Herbert Spencer, who coined the phrase, and Yale's William Graham Sumner borrowed from Darwin's On the Origin of Species (1859) to argue that competition naturally rewards the strong and clears out the weak in economic life. This gave wealthy industrialists a way to justify their success and the poverty of others as natural. The clue is the evolutionary phrase 'survival of the fittest.'\n\n(B) is wrong because union control of major industries is a labor or socialist idea, whereas Social Darwinists defended private ownership and opposed unions as interference with competition.\n(C) is wrong because heavy regulation and supervision of the economy runs against Social Darwinism, which supported laissez-faire government policy.\n(D) is wrong because seizing and equally redistributing wealth is a socialist or communist proposal, and Social Darwinists held that unequal outcomes were natural and should not be corrected by government."
     },
     {
       "id": "6-12",
@@ -4515,7 +4515,7 @@ const QUESTIONS = {
         "That the wealthy had a moral duty to avoid philanthropy and keep fortunes within the family."
       ],
       "correct": 1,
-      "explanation": "Carnegie's 'Gospel of Wealth' argued the wealthy earned fortunes legitimately but bore a moral duty to spend that wealth philanthropically for society's benefit, rather than simply passing it to heirs. Choice A wrongly makes government the actor rather than the individual wealthy person; choice C invents a criminal-poverty policy Carnegie never proposed; choice D reverses Carnegie's actual argument, which favored philanthropy over inheritance."
+      "explanation": "Correct: (B) That fortunes earned legitimately still carried a moral duty to be spent philanthropically. In his 1889 essay 'Wealth,' known as the Gospel of Wealth, Andrew Carnegie argued that the rich should act as stewards of their fortunes and use them during their lifetimes to benefit society through libraries, schools and universities, instead of leaving large sums to heirs. He later followed this by giving away most of his fortune. The clue is the title's moral emphasis on what the wealthy owe.\n\n(A) is wrong because Carnegie defended private fortunes and wanted individuals, not government, to decide how to spend them, so seizing and administering all wealth is the opposite of his view.\n(C) is wrong because he did not call for criminalizing poverty; he wanted the rich to help people improve themselves.\n(D) is wrong because he said dying rich was disgraceful and urged giving, so telling the wealthy to avoid philanthropy contradicts the essay."
     },
     {
       "id": "6-13",
@@ -4528,7 +4528,7 @@ const QUESTIONS = {
         "They describe the identical idea, just using two different historical names."
       ],
       "correct": 2,
-      "explanation": "Social Darwinism justified minimal intervention and indifference toward the poor as a natural competitive outcome, while the Gospel of Wealth argued the wealthy bore an active moral obligation to give back philanthropically — related but genuinely distinct positions. Choice B misstates Carnegie's own defense of legitimately earned wealth; choice A invents a legal mandate that never existed; choice D collapses a real, exam-tested distinction between the two ideas."
+      "explanation": "Correct: (C) Social Darwinism justified indifference to the poor; the Gospel of Wealth urged active giving back. Social Darwinists such as Spencer and Sumner held that inequality reflected natural competition and that charity or government relief interfered with it, while Carnegie's 1889 essay argued the successful had a duty to use their riches for public benefit. Both defended the economic order but drew different conclusions about obligations to others. The clue is the word 'differ' between a hands-off and a giving ethic.\n\n(A) is wrong because neither idea made philanthropy a legal requirement, and Social Darwinism actually discouraged charity to the poor.\n(B) is wrong because Carnegie accepted that wealth earned through business was legitimate and only urged how to use it, so the Gospel of Wealth did not reject accumulation.\n(D) is wrong because the two ideas reach different conclusions about helping others, so describing them as identical ignores that contrast."
     },
     {
       "id": "6-14",
@@ -4541,7 +4541,7 @@ const QUESTIONS = {
         "This historiographical debate carries no relevance for the AP exam."
       ],
       "correct": 2,
-      "explanation": "A strong essay avoids a single verdict because genuine evidence supports both framings: wage suppression and violent labor conflict support 'robber baron,' while efficient infrastructure-building and extensive philanthropy support 'captain of industry.' Choice A is false — Carnegie's business and philanthropic record is extensively documented; choice B wrongly assumes only one framing can be valid; choice D is incorrect since this exact debate is directly tested."
+      "explanation": "Correct: (C) Real evidence supports both framings — wage suppression and violence alongside philanthropy. Carnegie's steelworkers faced wage cuts and long hours, and in 1892 the Homestead lockout ended in a gun battle with Pinkerton guards, yet he also gave away about 350 million dollars and funded over 2,500 libraries. A strong AP essay weighs this evidence on both sides, as the question's wording about not 'forcing a single verdict' suggests.\n\n(A) is wrong because there are extensive records, including Carnegie's own writings, labor accounts of Homestead and records of his library gifts, so a lack of evidence is not the problem.\n(B) is wrong because the two characterizations are not mutually exclusive, and one man can be both ruthless in business and generous in giving.\n(D) is wrong because the robber baron versus captain of industry debate is a standard historiographical question for APUSH and often shows up in essays on the Gilded Age."
     },
     {
       "id": "6-15",
@@ -4554,7 +4554,7 @@ const QUESTIONS = {
         "Newton's laws of motion"
       ],
       "correct": 0,
-      "explanation": "Social Darwinism applied Charles Darwin's biological concept of 'survival of the fittest' to human society and economics, providing ideological justification for extreme wealth inequality."
+      "explanation": "Correct: (A) Darwin's 'survival of the fittest'. After Charles Darwin published On the Origin of Species in 1859, thinkers like Herbert Spencer applied the idea of natural selection to human societies and economies, arguing that competition would reward the strongest businesses and individuals. Spencer actually coined the phrase 'survival of the fittest,' and American writers like William Graham Sumner brought it into Gilded Age debates over wealth.\n\n(B) is wrong because mercantilism was an earlier theory in which governments built national wealth by controlling trade, and it is not what Social Darwinists applied to society.\n(C) is wrong because Einstein's theory of relativity was published in 1905, after the Gilded Age arguments over wealth had begun, and it is a physics theory unrelated to biology.\n(D) is wrong because Newton's laws of motion from 1687 describe how objects move, and they were not the source for the competition-based social theory the stem is asking about."
     },
     {
       "id": "6-16",
@@ -4567,7 +4567,7 @@ const QUESTIONS = {
         "Laissez-faire policy — minimal government interference in the economy."
       ],
       "correct": 3,
-      "explanation": "Social Darwinism tended to justify laissez-faire policy — minimal government interference in the economy — since economic competition was viewed as a natural, appropriate sorting mechanism that government intervention would improperly disrupt."
+      "explanation": "Correct: (D) Laissez-faire policy — minimal government interference in the economy. If wealth reflects natural fitness and competition, Social Darwinists argued, then government regulation, minimum protections or relief for the poor would only interfere with a natural process and protect the unfit. This logic supported low taxes, no regulation of business and the Supreme Court's reluctance to allow economic regulation in the Gilded Age. The clue is the policy implied by a survival-of-the-fittest economy.\n\n(A) is wrong because Social Darwinism had a clear policy implication, a hands-off government, and it was used to argue against regulation.\n(B) is wrong because extensive regulation and redistribution is what reformers like Populists and later Progressives wanted, and Social Darwinists opposed it.\n(C) is wrong because complete government ownership of industry is a socialist idea that conflicts with the Social Darwinist belief in private competition."
     },
     {
       "id": "6-17",
@@ -4580,7 +4580,7 @@ const QUESTIONS = {
         "A bombing that occurred at a Chicago labor rally in the 1880s, killing police officers."
       ],
       "correct": 0,
-      "explanation": "The Great Railroad Strike (1877) was the first major nationwide strike, met with federal troops deployed against strikers — an early instance of government power siding with business. Choice C contradicts the strike's own name and subject; choice D describes the later Haymarket Affair (1886); choice B describes the later Homestead Strike (1892)."
+      "explanation": "Correct: (A) The first major nationwide strike, met with federal troops deployed against strikers. In July 1877, after the Baltimore and Ohio Railroad cut wages during the depression that began in 1873, workers at Martinsburg, West Virginia, walked out, and the strike spread to cities like Pittsburgh and Chicago. Local militias proved unreliable, so President Rutherford B. Hayes sent federal troops, and dozens of people were killed. The name 'Great Railroad Strike' and the troop deployment are the clue words.\n\n(B) is wrong because the violent clash between Pinkerton guards and steelworkers at a Carnegie plant was the Homestead Strike of 1892, a separate event in Pennsylvania.\n(C) is wrong because railroad workers striking over wage cuts were exactly what the strike involved, so the name was not misleading.\n(D) is wrong because the bombing at a Chicago rally that killed police officers was the Haymarket Affair of 1886, nine years after this strike."
     },
     {
       "id": "6-18",
@@ -4593,7 +4593,7 @@ const QUESTIONS = {
         "A strike centered on Pullman-manufactured railroad sleeping cars and the company town nearby."
       ],
       "correct": 0,
-      "explanation": "The Haymarket Affair (1886) was a bombing at a Chicago labor rally that badly damaged public perception of the labor movement generally, despite unclear responsibility for the bombing itself. Choice B contradicts the event's actual violence and consequences; choice C describes the later Homestead Strike (1892); choice D describes the later Pullman Strike (1894)."
+      "explanation": "Correct: (A) A bombing at a Chicago labor rally that badly damaged the labor movement's public image. On May 4, 1886, a rally in Haymarket Square for the eight-hour day was ending when someone threw a bomb at police; seven officers eventually died, and police fire killed several civilians. Eight anarchists were convicted despite thin evidence, and the public began to link unions with foreign radicalism, which sent the Knights of Labor into decline. The clue is 'Chicago labor rally.'\n\n(B) is wrong because the rally ended in the bombing and the arrests that followed, which produced intense press coverage and lasting public hostility to the labor movement.\n(C) is wrong because violence between guards and strikers at a Carnegie-owned plant describes the Homestead Strike of 1892, six years after Haymarket.\n(D) is wrong because the strike over Pullman sleeping cars and the company town was the Pullman Strike of 1894, not Haymarket."
     },
     {
       "id": "6-19",
@@ -4606,7 +4606,7 @@ const QUESTIONS = {
         "A labor dispute entirely unconnected to the steel industry, fought among Chicago dockworkers."
       ],
       "correct": 0,
-      "explanation": "The Homestead Strike (1892) involved violent conflict at a Carnegie steel plant, where private Pinkerton security forces clashed violently with strikers. Choice D directly contradicts the strike's steel-industry setting; choice B describes strikes like 1877 or 1894 instead; choice C contradicts the strike's well-documented violence."
+      "explanation": "Correct: (A) Violent conflict at a Carnegie plant between hired Pinkerton guards and strikers. In 1892, at Carnegie Steel's Homestead, Pennsylvania, plant, manager Henry Clay Frick cut wages and locked out members of the Amalgamated Association of Iron and Steel Workers, and when about 300 Pinkerton detectives arrived by barge on July 6 a gun battle left several dead on both sides. The state militia then took over, and the union was broken. The clue is the Carnegie plant and Pinkertons.\n\n(B) is wrong because a nationwide railroad strike centered on sleeping-car workers was the Pullman Strike of 1894, which involved Eugene Debs and the American Railway Union.\n(C) is wrong because the Homestead conflict involved a lockout, a gun battle and a failed union, so it was not a calm negotiated settlement.\n(D) is wrong because Homestead was a steel dispute in Pennsylvania, not a dockworkers' fight in Chicago."
     },
     {
       "id": "6-20",
@@ -4619,7 +4619,7 @@ const QUESTIONS = {
         "A strike that took place before the earlier Great Railroad Strike of 1877, in the 1860s."
       ],
       "correct": 1,
-      "explanation": "The Pullman Strike (1894) was a nationwide railroad strike broken by federal troops deployed under a court injunction treating the strikers' actions as an illegal restraint on interstate commerce. Choice D reverses the actual chronology (1894 came after 1877); choice C describes the earlier Homestead Strike instead; choice A contradicts the strike's defining federal intervention."
+      "explanation": "Correct: (B) A nationwide railroad strike broken by federal troops acting under a court injunction. In 1894 George Pullman cut wages at his sleeping-car factory near Chicago without lowering rents in his company town, and Eugene Debs's American Railway Union responded by boycotting trains that carried Pullman cars. Attorney General Richard Olney obtained a federal injunction, President Grover Cleveland sent troops, and Debs was jailed, a decision upheld in In re Debs (1895). The clue is the national railroad strike.\n\n(A) is wrong because the federal government was deeply involved through the injunction, the troops and Debs's arrest, rather than leaving the sides to bargain.\n(C) is wrong because a violent clash confined to a Carnegie plant describes the 1892 Homestead Strike, not a nationwide railroad boycott.\n(D) is wrong because the Pullman Strike took place in 1894, seventeen years after the Great Railroad Strike of 1877, not in the 1860s."
     },
     {
       "id": "6-21",
@@ -4632,7 +4632,7 @@ const QUESTIONS = {
         "Government power consistently sided with striking workers over business owners."
       ],
       "correct": 1,
-      "explanation": "Comparing the Great Railroad Strike (1877) and Pullman Strike (1894) reveals a consistent pattern: federal power was repeatedly deployed on business's side, whether through troops or court injunctions. Choice A denies a well-documented, exam-relevant pattern; choice D reverses the actual, consistent direction of government intervention; choice C contradicts direct federal troop deployment in both strikes."
+      "explanation": "Correct: (B) Government power was repeatedly deployed on the side of business against labor. In 1877 President Hayes sent federal troops to put down the railroad strike, and in 1894 President Cleveland used a court injunction and troops to end the Pullman boycott and jail Eugene Debs. In both cases the strikers lost, which shows that federal and state authorities usually backed employers and property over workers in the Gilded Age. The stem asks for a recurring pattern in the two cases.\n\n(A) is wrong because both strikes involved government force and the same side of the dispute, which establishes a clear pattern.\n(C) is wrong because the federal government acted in both, with Hayes dispatching troops in 1877 and Cleveland obtaining an injunction in 1894.\n(D) is wrong because government power backed business in both cases, since troops and court orders ended the strikes rather than protecting workers' demands."
     },
     {
       "id": "6-22",
@@ -4645,7 +4645,7 @@ const QUESTIONS = {
         "Both organizations recruited from the exact same narrow pool of skilled industrial workers."
       ],
       "correct": 1,
-      "explanation": "The Knights of Labor pursued a broader strategy, including unskilled workers, women, and Black workers; the AFL under Samuel Gompers focused narrowly on skilled workers. Choice C denies both organizations' documented, deliberate recruitment strategies; choice A reverses which organization was actually broader; choice D contradicts the real contrast this exam tests directly."
+      "explanation": "Correct: (B) A broad Knights of Labor membership versus the AFL's narrower focus on skilled trades. The Knights of Labor, led in the 1880s by Terence Powderly, welcomed skilled and unskilled workers, women and Black workers, and aimed at broad reforms like the eight-hour day. The American Federation of Labor, founded in 1886 under Samuel Gompers, organized only skilled craft workers into national unions. The clue is the contrast between a broad and a narrow approach to membership.\n\n(A) is wrong because the AFL was the narrower organization of skilled workers and the Knights the broader one, so the stated reversal is incorrect.\n(C) is wrong because both had identifiable strategies, with the Knights seeking broad reform and the AFL focusing on craft unions and bargaining.\n(D) is wrong because the Knights recruited from a wide range of workers, including unskilled laborers, so the two did not draw from the same narrow skilled pool."
     },
     {
       "id": "6-23",
@@ -4658,7 +4658,7 @@ const QUESTIONS = {
         "A strategy centered on sweeping social reform rather than specific economic demands."
       ],
       "correct": 2,
-      "explanation": "The AFL's 'bread and butter' strategy pragmatically focused on concrete gains — wages, hours, working conditions — rather than broader social reform. Choice B wrongly detaches the label from the AFL's real organizing approach; choice A reverses the AFL's actual skilled-worker focus (the Knights of Labor organized unskilled workers); choice D describes the Knights of Labor's broader goals instead."
+      "explanation": "Correct: (C) A pragmatic focus on concrete gains — wages, hours, working conditions — over broad reform. Samuel Gompers's American Federation of Labor, founded in 1886, practiced 'pure and simple' unionism, bargaining with employers over pay, an eight-hour day and safety rather than seeking to remake the economy. Its craft unions of skilled workers used strikes and contracts, and this practical approach let the AFL survive when the Knights declined. The clue is 'bread and butter,' meaning everyday economic needs.\n\n(A) is wrong because the AFL organized skilled craft workers and mostly excluded the unskilled, which was a difference from the Knights of Labor.\n(B) is wrong because the phrase was a label for a real strategy of concentrating on wages and conditions, and it described how the AFL operated.\n(D) is wrong because sweeping social reform, such as cooperatives and political change, was the broader Knights of Labor agenda that the AFL deliberately avoided."
     },
     {
       "id": "6-24",
@@ -4671,7 +4671,7 @@ const QUESTIONS = {
         "Both organizations had identical durability"
       ],
       "correct": 2,
-      "explanation": "The AFL's narrower, more pragmatic 'bread and butter' strategy ultimately proved more durable than the Knights of Labor's broader but less focused strategy."
+      "explanation": "Correct: (C) The AFL's narrower, pragmatic strategy. After the Haymarket bombing in 1886 and a string of failed strikes, the Knights of Labor lost most of its membership by the 1890s, while Samuel Gompers's AFL kept growing by organizing skilled workers around wages and hours. The AFL became the main American labor federation into the twentieth century. The stem asks which strategy proved more durable.\n\n(A) is wrong because the AFL survived the whole period and became the dominant federation, so the claim that neither survived is false.\n(B) is wrong because the Knights' broad strategy collapsed after Haymarket and failed strikes such as the 1886 Southwest railroad strike, so it was not the more durable one.\n(D) is wrong because the two organizations had very different outcomes, with the Knights shrinking quickly and the AFL lasting, so identical durability cannot be right."
     },
     {
       "id": "6-25",
@@ -4684,7 +4684,7 @@ const QUESTIONS = {
         "Southern and eastern Europe"
       ],
       "correct": 1,
-      "explanation": "'Old Immigration' predominantly came from northern and western Europe, preceding the later shift toward 'New Immigration' from different regions."
+      "explanation": "Correct: (B) Northern and western Europe. Before the 1880s most immigrants to the United States came from Britain, Ireland, Germany and Scandinavia, and many were Protestant (although the Irish were largely Catholic). They had been arriving since the early 1800s, with large Irish and German waves in the 1840s and 1850s. The label 'Old' refers to this earlier, long-established stream.\n\n(A) is wrong because Latin America was not the main source of immigrants before the 1880s, and the word 'exclusively' makes the claim false.\n(C) is wrong because East Asia was a small source, mainly Chinese workers on the West Coast, so it was not the predominant origin of Old Immigration.\n(D) is wrong because southern and eastern Europe, including Italy, Poland and Russia, is where the New Immigration of the 1880s onward came from."
     },
     {
       "id": "6-26",
@@ -4697,7 +4697,7 @@ const QUESTIONS = {
         "Northern and western Europe exclusively, unchanged from earlier decades."
       ],
       "correct": 2,
-      "explanation": "'New Immigration' predominantly came from southern and eastern Europe (Italy, Russia, Poland), plus continued Chinese immigration. Choices A and B name regions that were not meaningful sources of Gilded Age immigration; choice D describes 'Old Immigration,' the earlier pattern New Immigration is contrasted against, not the new pattern itself."
+      "explanation": "Correct: (C) Southern and eastern Europe, plus continued Chinese immigration on the West Coast. Beginning in the 1880s, millions of Italians, Poles, Hungarians and Russian Jews arrived, pushed by poverty and persecution and pulled by industrial jobs in cities, while Chinese workers had been coming to California since the Gold Rush until the 1882 Exclusion Act. This shift is what historians call the New Immigration.\n\n(A) is wrong because Australia and New Zealand sent very few people to the United States, so they cannot be the almost exclusive source of a wave involving millions.\n(B) is wrong because Canada and Mexico were minor sources compared with the millions from southern and eastern Europe during this period.\n(D) is wrong because northern and western Europe was the source of the earlier Old Immigration, and the point of the New Immigration is that the sources changed."
     },
     {
       "id": "6-27",
@@ -4710,7 +4710,7 @@ const QUESTIONS = {
         "A government policy actively encouraging unrestricted, unlimited immigration."
       ],
       "correct": 2,
-      "explanation": "Nativism describes hostility toward immigrants, often grounded in religious prejudice (many New Immigrants were Catholic or Jewish) and ethnic/racial prejudice. Choice A confuses nativism with Native American land policy, an unrelated topic; choice B wrongly conflates it with the separate Populist movement; choice D describes the opposite of nativism's actual restrictionist impulse."
+      "explanation": "Correct: (C) Hostility toward immigrants, often grounded in religious and ethnic prejudice. Nativists argued that newcomers, especially Catholics, Jews and Asians, could not assimilate and threatened American jobs and culture. This fed the Chinese Exclusion Act of 1882, groups like the American Protective Association of the 1890s, and later literacy-test proposals and the quotas of the 1920s. The clue is the root 'native' in the sense of the existing native-born population.\n\n(A) is wrong because nativism is not a policy protecting Native American land rights; the Dawes Act of 1887, for example, actually took Native land.\n(B) is wrong because Populism was the farmers' political movement of the 1890s, a different topic from hostility to immigrants.\n(D) is wrong because nativists wanted to restrict immigration, so a policy of unlimited immigration is the opposite of the definition."
     },
     {
       "id": "6-28",
@@ -4723,7 +4723,7 @@ const QUESTIONS = {
         "Applied equally to every immigrant group, without singling out any one nationality."
       ],
       "correct": 1,
-      "explanation": "The Chinese Exclusion Act (1882) explicitly banned Chinese immigration, becoming the first major federal law restricting immigration by race or national origin. Choice C states the reverse of the law's actual restriction; choice A misattributes a citizenship grant the law never made; choice D contradicts the law's specifically race-targeted design, which singled out Chinese immigrants alone."
+      "explanation": "Correct: (B) Explicitly banned Chinese immigration — the first major federal law restricting by race. After anti-Chinese agitation in California, where white workers blamed Chinese laborers for low wages, Congress passed the Chinese Exclusion Act in 1882, suspending immigration of Chinese laborers for ten years and barring Chinese residents from naturalized citizenship. It was extended by the Geary Act in 1892 and made permanent in 1902. The clue is 'Exclusion.'\n\n(A) is wrong because the law denied Chinese immigrants the right to become naturalized citizens, so it did not grant them automatic citizenship.\n(C) is wrong because the law restricted rather than encouraged Chinese immigration, even though Chinese labor had helped build the transcontinental railroad in the 1860s.\n(D) is wrong because the act named a single nationality, the Chinese, and no other immigrant group faced such an explicit ban at the time."
     },
     {
       "id": "6-29",
@@ -4736,7 +4736,7 @@ const QUESTIONS = {
         "It was struck down by the courts almost immediately, leaving no lasting effect."
       ],
       "correct": 1,
-      "explanation": "The Chinese Exclusion Act set a significant precedent for federal immigration restriction on explicitly racial/ethnic grounds, which later, broader restrictive laws in the early twentieth century built directly upon. Choice A misstates the law's actual multi-decade duration and enforcement; choice C denies its well-documented precedent-setting role; choice D invents a one-year expiration the law did not have."
+      "explanation": "Correct: (B) It set a precedent for race-based federal restriction that later laws built upon. The 1882 act was the first major federal law to bar immigration by nationality, it was extended in 1892 and made permanent in 1902, and the Supreme Court upheld it in Chae Chan Ping v. United States (1889). Later laws, including the Immigration Act of 1924 with its national-origins quotas and its exclusion of most Asians, used the same approach until the Chinese exclusion was repealed in 1943. The stem asks for significance beyond the immediate effect.\n\n(A) is wrong because the law was set for ten years and then extended and made permanent, so it did not expire after one year.\n(C) is wrong because the act shaped later immigration policy, so saying it had no significance beyond its target ignores its role as a precedent.\n(D) is wrong because courts upheld the law rather than striking it down, as in the 1889 Chae Chan Ping decision."
     },
     {
       "id": "6-30",
@@ -4749,7 +4749,7 @@ const QUESTIONS = {
         "New Immigrants were entirely Protestant, matching the existing native-born population."
       ],
       "correct": 1,
-      "explanation": "Many New Immigrants were Catholic or Jewish, provoking hostility from a Protestant-majority native-born population — a significant religious dimension to Gilded Age nativism. Choice A denies a well-documented driver of nativist backlash; choices C and D both wrongly erase the actual religious diversity (Catholic, Jewish) that provoked this specific prejudice."
+      "explanation": "Correct: (B) Catholic and Jewish New Immigrants faced hostility from a Protestant-majority population. Many Italians, Poles and Hungarians were Catholic, and many Russian and eastern European newcomers were Jewish, which set them apart from the Protestant majority that had shaped American culture. Nativists saw them as loyal to the Pope or unable to assimilate, and anti-Catholic and antisemitic prejudice added to the push for immigration limits. The clue is 'religious factors.'\n\n(A) is wrong because immigrants arrived with strong religious identities, such as Catholic, Jewish and Orthodox, and religion was central to how they were viewed.\n(C) is wrong because religion was a major source of nativist hostility, as in the American Protective Association's anti-Catholic campaigns of the 1890s.\n(D) is wrong because many New Immigrants were Catholic, Jewish or Orthodox and not Protestant, which was a key difference from the majority."
     },
     {
       "id": "6-31",
@@ -4762,7 +4762,7 @@ const QUESTIONS = {
         "This distinction carries no real relevance for understanding Gilded Age nativism or immigration policy."
       ],
       "correct": 0,
-      "explanation": "Distinguishing Old from New Immigration matters because New Immigrants were viewed by many native-born Americans as more religiously, ethnically, and culturally different than earlier waves, fueling escalating, specific hostility. Choice C denies the documented intensification of nativism; choice B reverses which wave nativism actually targeted most intensely; choice D denies the distinction's direct relevance to explaining that hostility."
+      "explanation": "Correct: (A) New Immigrants were seen as more religiously, ethnically, and culturally different, fueling nativist hostility. Old Immigrants from Britain, Germany and Scandinavia were mostly Protestant and had been absorbed over decades, but the Italians, Poles, Russian Jews and Slavs arriving after 1880 were largely Catholic, Jewish or Orthodox, spoke unfamiliar languages and crowded into city neighborhoods. Nativists feared they could not assimilate, which drove calls for restriction.\n\n(B) is wrong because nativist hostility in the Gilded Age mainly targeted the New Immigrants of southern and eastern Europe and Asia, rather than the earlier groups.\n(C) is wrong because the two waves did not provoke the same level of hostility, since New Immigrants appeared more different from the Protestant majority.\n(D) is wrong because the distinction matters for explaining why nativism intensified, leading to the 1882 Chinese Exclusion Act and later quota laws."
     },
     {
       "id": "6-32",
@@ -4775,7 +4775,7 @@ const QUESTIONS = {
         "A shift from northern/western European toward southern/eastern European and Chinese immigration."
       ],
       "correct": 3,
-      "explanation": "This section describes a shift from predominantly northern/western European ('Old') immigration toward predominantly southern/eastern European and continued Chinese ('New') immigration, provoking intensified nativist backlash. Choice B denies a documented demographic shift; choice C misidentifies the actual source regions; choice A contradicts the continued, indeed dominant, role of European immigration throughout this shift."
+      "explanation": "Correct: (D) A shift from northern/western European toward southern/eastern European and Chinese immigration. Up to the 1870s most newcomers came from Britain, Ireland, Germany and Scandinavia, but from the 1880s large numbers came from Italy, Austria-Hungary, Russia and the Balkans, along with Chinese migrants on the West Coast until 1882. This change shaped the debate about assimilation and restriction.\n\n(A) is wrong because European immigration did not stop after the Civil War; it increased, with millions arriving from southern and eastern Europe between 1880 and 1920.\n(B) is wrong because immigration patterns changed in origin and in public reaction, so the claim that nothing shifted ignores the Old to New Immigration contrast.\n(C) is wrong because Latin America was not a main source of immigrants in this period, which was dominated by Europe and some Asian arrivals, not Latin American migration."
     },
     {
       "id": "6-33",
@@ -4788,7 +4788,7 @@ const QUESTIONS = {
         "Densely packed, often unsafe urban apartment buildings."
       ],
       "correct": 3,
-      "explanation": "Tenements were densely packed, often unsafe urban apartment buildings, a significant urban problem produced by rapid industrialization and immigration during this period."
+      "explanation": "Correct: (D) Densely packed, often unsafe urban apartment buildings. Tenements were multi-story apartment buildings that housed many immigrant families in small, dark rooms with poor ventilation and little plumbing, especially in New York's Lower East Side. Jacob Riis's photographs in How the Other Half Lives (1890) exposed their conditions and pushed later housing reform, such as New York's Tenement House Act of 1901.\n\n(A) is wrong because political machines such as Tammany Hall were organizations that traded services for votes, not types of buildings.\n(B) is wrong because large spacious suburban homes for the wealthy are the opposite of crowded urban tenement housing for working-class families.\n(C) is wrong because there were no such government-run assistance offices; immigrants often turned to political machines or ethnic mutual aid societies for help."
     },
     {
       "id": "6-34",
@@ -4801,7 +4801,7 @@ const QUESTIONS = {
         "A federal government agency in Washington."
       ],
       "correct": 1,
-      "explanation": "Tammany Hall was New York's most famous political machine, an organized (and often corrupt) urban political organization providing services to immigrant and working-class residents in exchange for political loyalty."
+      "explanation": "Correct: (B) New York's most famous political machine. Tammany Hall, the Democratic organization in New York City, grew powerful in the mid-1800s and reached notorious heights under William 'Boss' Tweed in the 1860s and early 1870s, when his ring stole millions from city projects like the courthouse until Thomas Nast's cartoons and the New York Times exposed it. It traded jobs and help for the votes of immigrants.\n\n(A) is wrong because the Populist Party was a national farmers' political organization founded in 1892, unrelated to New York City's Democratic machine.\n(C) is wrong because Tammany Hall was a political organization and not a union, and dockworkers' unions belonged to the labor movement.\n(D) is wrong because Tammany was a local party organization in New York and not an agency of the federal government in Washington."
     },
     {
       "id": "6-35",
@@ -4814,7 +4814,7 @@ const QUESTIONS = {
         "Exclusively formal, government-administered social services with no informal help."
       ],
       "correct": 1,
-      "explanation": "Political machines provided genuinely needed services — jobs, housing assistance, help navigating government bureaucracy — in exchange for reliable political loyalty and votes. Choice C denies the real, documented services machines provided; choice A narrows their assistance to finance alone, ignoring jobs and housing help; choice D wrongly attributes formal government services to what were actually informal machine networks."
+      "explanation": "Correct: (B) Jobs, housing help, and bureaucratic guidance, in exchange for political loyalty and votes. Machine ward bosses met new arrivals at the docks, found them jobs in city departments and construction, gave coal or food in hard times, and helped them with naturalization papers and city bureaucracy, and in return counted on their votes on election day. The clue is the word 'provide' and what residents gave back.\n\n(A) is wrong because machines offered much more than narrow loans, including jobs, food, coal, help with permits and legal trouble, so a claim of no other help is false.\n(C) is wrong because machines did provide real services, which is why immigrants backed them even though they were corrupt.\n(D) is wrong because machine help was largely informal, run through ward bosses and personal favors, rather than formal government-administered welfare, since cities then had few such programs."
     },
     {
       "id": "6-36",
@@ -4827,7 +4827,7 @@ const QUESTIONS = {
         "No — real services helped explain machines' durable support, alongside real corruption."
       ],
       "correct": 3,
-      "explanation": "It is not accurate to call machines purely corrupt with no benefit — the real services they provided help explain their durable popular support, alongside their acknowledged corruption and graft. Choice B denies the documented practical help machines gave immigrant families; choice A contradicts machines' central, well-documented role in immigrant communities; choice C denies well-documented corruption like that of Tammany's 'Boss' Tweed."
+      "explanation": "Correct: (D) No — real services helped explain machines' durable support, alongside real corruption. Machines like Tammany Hall under Boss Tweed engaged in kickbacks, padded contracts and vote fraud, but they also gave jobs, food, coal and legal help that city governments and reformers did not offer at the time. That is why immigrant voters supported them for decades. The stem asks whether they were 'purely corrupt,' and the best answer qualifies that.\n\n(A) is wrong because machines were corrupt, as the Tweed Ring's looting of New York City in the early 1870s showed, so denying any corruption is false.\n(B) is wrong because machines did provide meaningful benefits to many immigrants, such as jobs and assistance with naturalization and bureaucracy.\n(C) is wrong because machines were closely tied to immigrant communities, depending on their votes in exchange for services, so no relationship is a false claim."
     },
     {
       "id": "6-37",
@@ -4840,7 +4840,7 @@ const QUESTIONS = {
         "Excessive, more-than-adequate government capacity to manage this rapid urban growth."
       ],
       "correct": 2,
-      "explanation": "Inadequate sanitation and limited formal government capacity to manage rapid growth were significant urban problems, alongside tenement overcrowding, that political machines partially filled the resulting gap for. Choice A contradicts the well-documented population surge cities actually experienced; choices B and D both invert the real, well-documented shortfall in formal government capacity during this period."
+      "explanation": "Correct: (C) Inadequate sanitation, alongside limited government capacity to manage rapid growth. Between 1870 and 1900 American cities grew very fast, and water supply, sewage, garbage collection and fire protection lagged behind, so crowded tenement districts suffered outbreaks of typhoid, cholera and tuberculosis. City governments had small budgets and few agencies to cope, which left space for political machines. The clue is the problem 'alongside tenements.'\n\n(A) is wrong because governments did not produce comprehensive solutions at once; reforms such as sewer systems and housing laws came slowly, after crises and muckraking.\n(B) is wrong because urban populations grew enormously, with cities like Chicago and New York expanding by hundreds of thousands, so no growth is false.\n(D) is wrong because city government capacity was lacking rather than excessive, which is the reason informal machines supplied help in exchange for votes."
     },
     {
       "id": "6-38",
@@ -4853,7 +4853,7 @@ const QUESTIONS = {
         "Housing provided with no expectation of anything in return."
       ],
       "correct": 1,
-      "explanation": "The defining exchange was services (jobs, housing assistance, bureaucratic help) provided by machines in exchange for reliable political loyalty and votes from the immigrant communities they served."
+      "explanation": "Correct: (B) Services provided in exchange for reliable political loyalty and votes. Ward bosses helped immigrant families with jobs, food and navigating city rules, and in return expected the families' votes, which kept the machine in power and let it profit from city contracts. This trade of services for votes is the core relationship in the stem.\n\n(A) is wrong because machines did not exchange money for citizenship; they helped immigrants with naturalization and then relied on those new citizens to vote.\n(C) is wrong because it reverses the flow, since machines provided help and immigrants provided votes, not the other way around.\n(D) is wrong because machine help was not given without expectation; ward bosses counted on the loyal votes of the people they helped, and that expectation was the basis of machine power."
     },
     {
       "id": "6-39",
@@ -4866,7 +4866,7 @@ const QUESTIONS = {
         "Political machines had no meaningful connection to the process of urbanization at all."
       ],
       "correct": 2,
-      "explanation": "Political machines emerged because formal city government lacked capacity to manage rapid urban growth, leaving a genuine service gap that machines filled, however imperfectly. Choice D denies the direct, causal link between urbanization and machine politics; choice B misstates the actual historical timing, since urban machines grew alongside Gilded Age city growth; choice A contradicts the real, growing demand for informal political organization this growth produced."
+      "explanation": "Correct: (C) Formal city government lacked capacity for rapid growth, leaving a gap machines filled. As immigrants and rural migrants poured into cities between 1870 and 1900, municipal governments had few agencies and little money for housing, jobs or sanitation. Machines, run by bosses such as Tweed in New York, organized neighborhoods through ward leaders and gave practical help in exchange for votes, which let them control city contracts. The clue is the word 'specifically' linking machines to the pace of urbanization.\n\n(A) is wrong because rapid urbanization increased the need for organization and services, so it did not remove the need for political organizing.\n(B) is wrong because the large machines of the Gilded Age arose with the growth of big cities after the Civil War, so they did not exist for centuries before.\n(D) is wrong because machines were closely tied to urbanization, filling gaps left by overwhelmed city governments."
     },
     {
       "id": "6-40",
@@ -4879,7 +4879,7 @@ const QUESTIONS = {
         "Native American nations exclusively, a group the Freedmen's Bureau did not serve."
       ],
       "correct": 1,
-      "explanation": "Political machines served urban immigrant communities with practical assistance in a service gap; the Freedmen's Bureau (Period 5) similarly served formerly enslaved people seeking practical assistance during Reconstruction — a useful structural parallel. Choice D misidentifies the Bureau's actual clientele; choice C names a group the Bureau did not primarily serve; choice A misapplies the analogy to a wealthy group needing no such assistance."
+      "explanation": "Correct: (B) Formerly enslaved people seeking practical assistance during Reconstruction. Political machines gave urban immigrants jobs, food and guidance in exchange for votes, and the Freedmen's Bureau, created by Congress in March 1865, offered freed people schools, medical care and help with labor contracts. Both filled gaps in a time of rapid social change by providing practical help to a vulnerable group. The analogy asks who relied on the Bureau as immigrants relied on machines.\n\n(A) is wrong because wealthy industrialists were not the Bureau's clients, since it served freed people and poor Southerners and not business owners.\n(C) is wrong because the Bureau did not compensate southern planters for lost enslaved labor, and no such compensation was ever given after the Thirteenth Amendment.\n(D) is wrong because the Bureau's mission was to help freed people and refugees in the South, not to serve Native American nations, which were handled through the Bureau of Indian Affairs."
     },
     {
       "id": "6-41",
@@ -4892,7 +4892,7 @@ const QUESTIONS = {
         "Had no meaningful relationship to federal Native American land policy at all."
       ],
       "correct": 2,
-      "explanation": "The Dawes Act (1887) broke up communally held reservation land into individual allotments, pursuing forced assimilation rather than Period 4's relocation-based removal policy. Choice B misstates the Act's actual assimilationist land policy, not a citizenship grant; choice A describes Period 4's earlier Indian Removal policy, a genuinely different mechanism; choice D denies the Act's central, defining subject."
+      "explanation": "Correct: (C) Broke up communal reservation land into individual allotments, pursuing assimilation. The Dawes Severalty Act of 1887 divided tribal reservations into 160-acre plots for heads of households, granted citizenship to those who accepted allotments, and sold the remaining land to non-Native settlers. Reformers believed individual farming would assimilate Native people, replacing communal landholding. The clue is individual 'allotments.'\n\n(A) is wrong because forced relocation to new territory was the policy of the Indian Removal Act of 1830, which sent southeastern nations such as the Cherokee west on the Trail of Tears.\n(B) is wrong because the Dawes Act did not grant full, immediate political rights, since citizenship came only for allottees and full citizenship for all Native Americans came with the Indian Citizenship Act of 1924.\n(D) is wrong because the act was a major federal land policy that reshaped reservations."
     },
     {
       "id": "6-42",
@@ -4905,7 +4905,7 @@ const QUESTIONS = {
         "The Dawes Act had no meaningful relationship to land ownership at all."
       ],
       "correct": 1,
-      "explanation": "The Dawes Act resulted in a massive net loss of total Native American landholding, since 'surplus' reservation land not allotted to individuals was opened for sale to white settlers. Choice C understates the Act's severe, well-documented practical effect; choice A directly reverses the actual outcome; choice D contradicts the Act's central subject, which was specifically about restructuring land ownership."
+      "explanation": "Correct: (B) A massive net loss of Native landholding, as 'surplus' land was sold to white settlers. After the Dawes Act of 1887, reservation land left over after allotments was declared surplus and sold to settlers, and many individual allotments were lost through tax foreclosures, fraud or sale. Native landholding fell from about 138 million acres in 1887 to about 48 million acres by 1934, when the Indian Reorganization Act ended allotment.\n\n(A) is wrong because total Native landholding sharply declined rather than increased, losing about two-thirds of its acreage over the period.\n(C) is wrong because the change was dramatic rather than minor, since roughly ninety million acres passed out of Native hands.\n(D) is wrong because the Dawes Act directly reorganized land ownership by dividing reservations into individual plots, so saying it was unrelated to ownership is false."
     },
     {
       "id": "6-43",
@@ -4918,7 +4918,7 @@ const QUESTIONS = {
         "A significant Native American victory over Custer's forces."
       ],
       "correct": 3,
-      "explanation": "The Battle of Little Bighorn (1876) was a significant Native American victory over Custer's forces, part of continued armed conflict during this period."
+      "explanation": "Correct: (D) A significant Native American victory over Custer's forces. In June 1876, during the Great Sioux War sparked by the discovery of gold in the Black Hills, Lakota and Cheyenne warriors led by Sitting Bull and Crazy Horse destroyed Lieutenant Colonel George Armstrong Custer's detachment of the 7th Cavalry, killing over 200 soldiers. The army responded with more troops and forced the Lakota onto reservations within a year.\n\n(A) is wrong because the Populist Party was founded in 1892 at Omaha, sixteen years after the battle, and was a farmers' political movement.\n(B) is wrong because Native forces won the battle, and the army suffered a severe defeat even though it later prevailed in the war.\n(C) is wrong because the Dawes Act was signed in 1887, eleven years after Little Bighorn, and was a land policy law, not a battle."
     },
     {
       "id": "6-44",
@@ -4931,7 +4931,7 @@ const QUESTIONS = {
         "A peaceful negotiation between U.S. officials and Lakota leaders, without any violence at all."
       ],
       "correct": 2,
-      "explanation": "The Wounded Knee Massacre (1890) saw U.S. troops kill many Lakota Sioux, including women and children, generally marking the end of major armed Native resistance on the Plains. Choice B confuses this event with the unrelated 1887 Dawes Act; choice D contradicts the massacre's well-documented violence; choice A describes the earlier Little Bighorn (1876) instead, which was a Native victory."
+      "explanation": "Correct: (C) U.S. troops killed many Lakota Sioux, including women and children, largely ending major Plains resistance. On December 29, 1890, soldiers of the 7th Cavalry surrounded a Lakota camp at Wounded Knee Creek, South Dakota, while disarming it during tension over the Ghost Dance movement, and a shot led to the killing of roughly 250 Lakota, many of them women and children. It is generally treated as the end of major armed conflict between Plains nations and the United States.\n\n(A) is wrong because Wounded Knee was a massacre by U.S. troops, whereas a Native victory with the army withdrawing describes Little Bighorn in 1876.\n(B) is wrong because the Dawes Act was passed by Congress in 1887, three years before Wounded Knee, and was a land law and not a battle.\n(D) is wrong because the event was violent and not a peaceful negotiation, since hundreds of Lakota died."
     },
     {
       "id": "6-45",
@@ -4944,7 +4944,7 @@ const QUESTIONS = {
         "That Native Americans, rather than settlers, primarily defined the frontier experience."
       ],
       "correct": 0,
-      "explanation": "Turner's 1893 Frontier Thesis argued that the frontier's closing (declared by the Census Bureau in 1890) marked the end of a formative era of American character-building through westward expansion. Choice C denies the thesis's actual, influential argument; choice B contradicts the thesis's premise that the frontier had, in fact, closed; choice D reverses Turner's actual settler-centered framing, a limitation historians have since critiqued."
+      "explanation": "Correct: (A) That the frontier's closing marked the end of a formative era of American character-building. In his 1893 essay at the American Historical Association meeting in Chicago, Frederick Jackson Turner argued that the existence of free western land had shaped American democracy, individualism and optimism, and the 1890 census report that there was no longer a continuous frontier line meant that era had ended. The clue is 'closing' of the frontier.\n\n(B) is wrong because Turner argued the frontier had closed, not that expansion would continue indefinitely, and that closing raised the question of what would shape the nation next.\n(C) is wrong because he treated the closing as highly significant, calling it the end of the first period of American history.\n(D) is wrong because Turner centered on white settlers and their effects on American character, and critics later faulted him for neglecting Native Americans."
     },
     {
       "id": "6-46",
@@ -4957,7 +4957,7 @@ const QUESTIONS = {
         "As a Native American perspective specifically on the meaning of westward expansion."
       ],
       "correct": 0,
-      "explanation": "Turner's Frontier Thesis should be treated as a specific, influential historical interpretation and argument about the frontier's significance — not simply an objective, uncontested fact. Choice C denies the thesis's clear historical importance; choice D misattributes Turner's own, settler-centered viewpoint to Native Americans; choice B wrongly strips the thesis of its interpretive, contestable character."
+      "explanation": "Correct: (A) As a specific, influential historical interpretation, not an objective, uncontested fact. Turner's 1893 thesis shaped American historical writing for decades, but later historians criticized it for centering white male settlers while ignoring Native Americans, Mexicans, Chinese migrants and women, and for overstating the role of free land in forming democracy. The stem asks how to treat it, and the best answer is as an argument that can be challenged.\n\n(B) is wrong because the thesis is contested by historians and rests on interpretation rather than agreed geographic fact, as the 'New Western History' critique shows.\n(C) is wrong because the thesis is directly about American history, specifically how the frontier shaped national character and when its era ended.\n(D) is wrong because Turner wrote from the perspective of Anglo-American settlers, not Native Americans, whose experience his thesis largely left out."
     },
     {
       "id": "6-47",
@@ -4970,7 +4970,7 @@ const QUESTIONS = {
         "The Dawes Act relocated Native nations, while Indian Removal used land allotment."
       ],
       "correct": 0,
-      "explanation": "Indian Removal forcibly relocated Native nations to new territory, while the Dawes Act instead pursued assimilation through individual land allotment — a genuinely different mechanism, though both produced devastating consequences. Choice B denies this real, exam-tested distinction; choice D reverses which policy used which mechanism; choice C contradicts both policies' central, defining subject."
+      "explanation": "Correct: (A) Indian Removal forcibly relocated nations; the Dawes Act instead pursued land allotment. The Indian Removal Act of 1830 under Andrew Jackson led to forced marches such as the Cherokee Trail of Tears in 1838 to 1839, moving entire nations west of the Mississippi. The Dawes Act of 1887 instead kept nations on reservations but broke up communal land into 160-acre individual allotments to push assimilation. The stem asks for the difference in mechanism.\n\n(B) is wrong because the mechanisms differed, with one policy moving people to new lands and the other dividing reservation land into private plots.\n(C) is wrong because both policies were directly about Native American land, one removing nations from it and the other splitting it into allotments.\n(D) is wrong because it reverses the two policies, since the Dawes Act used allotment and Indian Removal used forced relocation."
     },
     {
       "id": "6-48",
@@ -4983,7 +4983,7 @@ const QUESTIONS = {
         "Despite a different mechanism, it caused massive land loss and cultural disruption."
       ],
       "correct": 3,
-      "explanation": "Despite its different, superficially benevolent-sounding mechanism, the Dawes Act produced devastating practical consequences — massive net loss of Native landholding and a direct assault on tribal cultural structures — much like Period 4's removal policy. Choice A ignores the Act's well-documented, harmful outcomes; choice B denies its severe practical effects; choice C erases the real mechanistic difference this section teaches."
+      "explanation": "Correct: (D) Despite a different mechanism, it caused massive land loss and cultural disruption. The Dawes Act of 1887 was presented by reformers as a way to help Native people become farmers and citizens, but it cut Native landholding from about 138 million acres to about 48 million by 1934, undermined tribal governments and communal life, and pressured families into unfamiliar farming and boarding schools. A less violent mechanism than removal did not mean a benevolent result.\n\n(A) is wrong because the act had huge consequences, including the loss of roughly ninety million acres and the weakening of tribal structures.\n(B) is wrong because the documented negative consequences, including land loss to speculators and fraud, show the claim of full benevolence is false.\n(C) is wrong because the Dawes Act and Indian Removal were different policies, passed in 1887 and 1830, with different mechanisms of allotment versus relocation."
     },
     {
       "id": "6-49",
@@ -4996,7 +4996,7 @@ const QUESTIONS = {
         "Falling crop prices and high, often exploitative railroad shipping rates."
       ],
       "correct": 3,
-      "explanation": "Falling crop prices (driven by increased agricultural competition) combined with high, often exploitative railroad shipping rates to create a painful economic squeeze driving farmer distress and organizing."
+      "explanation": "Correct: (D) Falling crop prices and high, often exploitative railroad shipping rates. After the Civil War, mechanized farming and expansion onto the Plains produced more wheat and cotton than markets could absorb, so prices fell steadily, while farmers also owed debts for land and equipment and had to pay railroads high rates, especially where only one line served them. These pressures pushed farmers into the Grange, the Farmers' Alliance and Populism.\n\n(A) is wrong because farmers faced real hardship in the same period of industrial growth, including mortgages, foreclosures and depressed prices.\n(B) is wrong because crop prices were falling and railroad rates were high, so the claim of rising prices and low rates is the reverse of reality.\n(C) is wrong because the stem asks about two pressures, and railroad rates and credit and debt were central complaints in farmers' protests, not just price declines."
     },
     {
       "id": "6-50",
@@ -5009,7 +5009,7 @@ const QUESTIONS = {
         "A labor union representing industrial rather than agricultural workers in big cities."
       ],
       "correct": 0,
-      "explanation": "The Farmers' Alliance was an organization through which farmers organized in response to economic distress, serving as a direct precursor to the 1892 founding of the Populist Party. Choice B wrongly makes it a federal agency rather than a grassroots farmer organization; choice D misapplies it to industrial rather than agricultural workers; choice C confuses it with the separate, urban political machine system."
+      "explanation": "Correct: (A) An organization through which farmers organized, a precursor to the Populist Party. The Farmers' Alliance began in Texas in the late 1870s and spread through the South and Plains in the 1880s, setting up cooperatives to buy supplies and sell crops, and promoting education and political action about railroads, credit and currency. Its leaders pushed the Omaha Platform and the People's Party of 1892. The clue is that it was a farmer-run organization.\n\n(B) is wrong because the Alliance was a private farmers' organization and not a government agency, and the federal government did not run farm subsidy programs until the 1930s.\n(C) is wrong because it was not a machine service; urban political machines served city immigrants, while the Alliance organized rural farmers.\n(D) is wrong because the Alliance represented farmers, not industrial workers, who were organized in groups such as the Knights of Labor and the AFL."
     },
     {
       "id": "6-51",
@@ -5022,7 +5022,7 @@ const QUESTIONS = {
         "1896"
       ],
       "correct": 2,
-      "explanation": "The Populist (People's) Party was founded in 1892, articulating its reform agenda in the Omaha Platform."
+      "explanation": "Correct: (C) 1892. Farmers' Alliance leaders and other reformers met at Omaha, Nebraska, in July 1892 to found the People's (Populist) Party, adopt the Omaha Platform and nominate James B. Weaver for president. Weaver won over one million popular votes and 22 electoral votes, a strong showing for a third party.\n\n(A) is wrong because 1898 was the year of the Spanish-American War, after the Populists had already merged their candidate into the Democratic ticket in 1896.\n(B) is wrong because 1877 was the year of the Great Railroad Strike and the Compromise of 1877 that ended Reconstruction, fifteen years before the party was formed.\n(D) is wrong because 1896 was the year the Populists endorsed William Jennings Bryan and lost their independent identity, not the year they were founded."
     },
     {
       "id": "6-52",
@@ -5035,7 +5035,7 @@ const QUESTIONS = {
         "Eliminating the use of currency in the American economy entirely."
       ],
       "correct": 2,
-      "explanation": "Free coinage of silver aimed to increase the money supply, raising prices and easing debt burdens for farmers struggling under falling crop prices. Choice A denies the demand's specific, well-defined economic goal; choice D mischaracterizes a monetary policy as currency abolition; choice B reverses the Populists' actual goal, since they wanted higher, not lower, prices."
+      "explanation": "Correct: (C) Increasing the money supply to raise prices and ease farmers' debt burdens. After the Coinage Act of 1873, which Populists called the 'Crime of 1873,' silver was no longer coined and the money supply tightened, so deflation lowered crop prices while debts stayed fixed. Free and unlimited coinage of silver would put more money in circulation, causing mild inflation that raised prices and made debts easier to repay. The clue is the demand's link to prices and debts.\n\n(A) is wrong because the demand had a clear economic goal of increasing the money supply and ending deflation, so it was not vague.\n(B) is wrong because reducing the money supply would lower prices further, worsening farmers' debt problems, which is the opposite of what they wanted.\n(D) is wrong because Populists wanted more coinage and currency, not the elimination of currency, which would have made trade and debt payment impossible."
     },
     {
       "id": "6-53",
@@ -5048,7 +5048,7 @@ const QUESTIONS = {
         "Direct election of U.S. Senators"
       ],
       "correct": 3,
-      "explanation": "Direct election of U.S. Senators was a demand in the Populist Party's Omaha Platform, alongside free silver coinage, a graduated income tax, and government ownership of railroads."
+      "explanation": "Correct: (D) Direct election of U.S. Senators. The 1892 Omaha Platform called for direct election of senators, then chosen by state legislatures, along with a graduated income tax, government ownership of railroads and telegraphs, free silver, a secret ballot and an eight-hour day. Many of these became law in the Progressive Era, including the Seventeenth Amendment in 1913. The clue is a reform to make government more democratic.\n\n(A) is wrong because the Populists demanded a graduated income tax, which would raise federal revenue, not an elimination of all federal taxation.\n(B) is wrong because the Populists wanted reforms within the constitutional system and did not propose returning to the weak government of the Articles of Confederation of 1781.\n(C) is wrong because the Populists wanted to make government more responsive, and none of their demands involved abolishing the presidency, which Weaver was running to hold."
     },
     {
       "id": "6-54",
@@ -5061,7 +5061,7 @@ const QUESTIONS = {
         "The Populist platform was, in truth, narrowly limited to farmer relief alone, with no other demands."
       ],
       "correct": 0,
-      "explanation": "The Omaha Platform's demands — direct election of senators, a graduated income tax, government railroad ownership — represented a genuinely broad, ambitious reform vision well beyond narrow farmer relief, several later achieved via Progressive Era amendments. Choice B misattributes an unrelated policy focus; choice D understates the platform's real scope; choice C denies the platform's well-documented, specific content."
+      "explanation": "Correct: (A) The Omaha Platform's demands reflected a broad vision of political and economic reform. Beyond currency and credit, the 1892 platform asked for a graduated income tax, direct election of senators, the secret ballot, an eight-hour day for workers and government ownership of railroads, telegraphs and telephones, aiming to check corporate power and widen democracy. The stem's wording 'NOT narrowly focused' points to this range of demands.\n\n(B) is wrong because the platform covered finance, railroads, taxes and democracy, and immigration restriction was only a small part of the Populists' concerns.\n(C) is wrong because the party adopted the Omaha Platform at its founding convention in July 1892, a detailed list of demands.\n(D) is wrong because the platform went beyond farm relief to include labor and political reforms, such as the eight-hour day and direct election of senators."
     },
     {
       "id": "6-55",
@@ -5074,7 +5074,7 @@ const QUESTIONS = {
         "With no competing shipping option, monopolies charged exploitative rates on thin margins."
       ],
       "correct": 3,
-      "explanation": "With no practical competing shipping option in many areas, railroad monopolies could charge farmers exploitative rates, cutting into already-thin profit margins as crop prices fell. Choice A directly reverses the documented, exploitative pricing pattern; choice B denies railroads' central, well-documented role in farmer distress; choice C contradicts farmers' actual dependence on rail shipping to reach markets."
+      "explanation": "Correct: (D) With no competing shipping option, monopolies charged exploitative rates on thin margins. Many farmers on the Plains depended on a single railroad to ship wheat to market, so the railroad could charge high rates, with higher charges on short hauls than long ones, and farmers' narrow profit margins were swallowed by these costs. Complaints led to the Granger laws, Munn v. Illinois (1877) and the Interstate Commerce Act of 1887.\n\n(A) is wrong because railroads charged high rates, not below-market ones, which is the farmers' main complaint against railroad monopolies.\n(B) is wrong because railroad monopoly power directly affected farmers' conditions by raising their shipping costs, which fed farmers' political movements.\n(C) is wrong because farmers depended on railroads to ship crops to eastern markets and ports, so they certainly needed their services."
     },
     {
       "id": "6-56",
@@ -5087,7 +5087,7 @@ const QUESTIONS = {
         "Government ownership of all farms"
       ],
       "correct": 0,
-      "explanation": "Government ownership of railroads was a demand in the Omaha Platform, directly responding to farmers' grievances about exploitative railroad monopoly shipping rates."
+      "explanation": "Correct: (A) Government ownership of railroads. The Omaha Platform argued that railroads, along with the telegraph and telephone, were so essential and so exploitative that they should be owned by the government, given the high shipping rates farmers paid to private monopolies. The clue is the stem's reference to a government ownership demand in a farmers' party platform.\n\n(B) is wrong because the platform did not call for government ownership of steel mills; it focused on railroads, telegraphs and telephones that served farmers directly.\n(C) is wrong because the platform did include a government ownership demand for railroads and communication lines, so the claim of no such demand is false.\n(D) is wrong because Populist farmers sought to keep their land, and the platform did not call for the government to own all farms, which would be an extreme form of collectivism they did not propose."
     },
     {
       "id": "6-57",
@@ -5100,7 +5100,7 @@ const QUESTIONS = {
         "Andrew Carnegie"
       ],
       "correct": 1,
-      "explanation": "Democratic candidate William Jennings Bryan delivered the famous 'Cross of Gold' speech in the 1896 election, passionately advocating free silver coinage."
+      "explanation": "Correct: (B) William Jennings Bryan. The 36-year-old Nebraskan delivered the speech at the Democratic National Convention in Chicago in July 1896, arguing for free coinage of silver and ending with the line 'You shall not crucify mankind upon a cross of gold.' It won him the Democratic nomination, which the Populists then also endorsed.\n\n(A) is wrong because Samuel Gompers was the leader of the American Federation of Labor and did not give the speech or run for president in 1896.\n(C) is wrong because William McKinley was the Republican candidate who defended the gold standard, so he was the speech's target, not its speaker.\n(D) is wrong because Andrew Carnegie was a steel industrialist and author of the Gospel of Wealth, and he had no role in the 1896 free silver debate."
     },
     {
       "id": "6-58",
@@ -5113,7 +5113,7 @@ const QUESTIONS = {
         "It caused the Populist Party to grow markedly stronger as an independent force in the next elections."
       ],
       "correct": 1,
-      "explanation": "Bryan's adoption of free silver effectively absorbed the Populist Party's core issue and much of its voting base into the Democratic Party, undermining Populist independent viability. Choice C denies the speech's direct, well-documented effect on the Populist movement; choice A misstates that free silver actually became more prominent, not less, after the speech; choice D reverses the movement's actual post-1896 decline."
+      "explanation": "Correct: (B) It absorbed the Populists' core free silver issue and much of their voting base into the Democrats. Bryan's July 1896 speech won the Democratic nomination on a free silver platform, and the Populists, who held their convention afterward, endorsed him rather than run their own candidate, though they chose a different vice presidential nominee. With McKinley's win, the Populist Party lost its independent identity and faded.\n\n(A) is wrong because free silver stayed central in the 1896 campaign, and the issue did not end until later gold discoveries and the Gold Standard Act of 1900.\n(C) is wrong because the speech was directly connected to the Populists, as it took over their signature issue.\n(D) is wrong because the party did not grow stronger afterward; it declined after 1896 and had little national influence by 1900."
     },
     {
       "id": "6-59",
@@ -5126,7 +5126,7 @@ const QUESTIONS = {
         "William McKinley"
       ],
       "correct": 3,
-      "explanation": "Republican William McKinley won the 1896 presidential election, running on a platform defending the gold standard and protective tariffs."
+      "explanation": "Correct: (D) William McKinley. The Republican from Ohio defeated Democrat William Jennings Bryan in the 1896 presidential election with a campaign led by manager Mark Hanna, who raised large sums from business, and carried the industrial Northeast and Midwest. He defended the gold standard and protective tariffs.\n\n(A) is wrong because Bryan lost the 1896 election, and he lost again in 1900 and 1908.\n(B) is wrong because Grover Cleveland, a Democrat, was the sitting president in 1896 but did not run, and his second term ended in March 1897.\n(C) is wrong because Andrew Carnegie was a steel magnate and philanthropist who never ran for the presidency."
     },
     {
       "id": "6-60",
@@ -5139,7 +5139,7 @@ const QUESTIONS = {
         "Exclusively voters from the southern United States."
       ],
       "correct": 1,
-      "explanation": "McKinley's winning coalition consisted of urban, industrial, and business interests defending the gold standard, against Bryan's rural/agrarian free-silver coalition. Choice A misattributes Populist voters to McKinley rather than largely to Bryan; choice C actually describes Bryan's coalition, not McKinley's; choice D narrows the coalition to one region, ignoring its real urban/industrial/business base."
+      "explanation": "Correct: (B) Urban, industrial, and business interests defending the gold standard. McKinley carried the Northeast and Midwest with the support of bankers, manufacturers and many urban workers who feared that inflation from free silver would hurt wages and savings. His campaign, run by Mark Hanna, raised far more money than Bryan's. The clue is the contrast with Bryan's free silver farmers.\n\n(A) is wrong because most Populist voters backed Bryan after the party endorsed him, so McKinley's coalition was not formed of Populist Party voters.\n(C) is wrong because rural, agrarian voters who wanted free silver mostly voted for Bryan, who won the South and much of the West.\n(D) is wrong because McKinley won most of the North and West, not the South, which supported Bryan."
     },
     {
       "id": "6-61",
@@ -5152,7 +5152,7 @@ const QUESTIONS = {
         "It had no lasting effect on American politics of any kind."
       ],
       "correct": 2,
-      "explanation": "The 1896 election is a critical realigning election because McKinley's victory durably reshaped the political coalition and party system, ushering in an extended period of Republican dominance rather than simply determining one term's winner. Choice A understates the election's clear national significance; choice B and choice D both deny the well-documented, multi-decade realignment that followed 1896."
+      "explanation": "Correct: (C) McKinley's win durably reshaped the political coalition, ushering in lasting Republican dominance. The 1896 contest tied the Republicans to urban, industrial and business voters in the North and Midwest and the Democrats to rural free-silver voters, and the Republicans held the presidency for most of the period from 1896 to 1932, with only Woodrow Wilson's two terms as an exception. That durable change in the party system is what makes it a realigning election.\n\n(A) is wrong because the election was national and shaped national politics, with the Republican hold on the presidency lasting decades.\n(B) is wrong because the next election in 1900 again gave McKinley a win over Bryan, so it was not reversed.\n(D) is wrong because the election had lasting effects on party coalitions and the end of Populism as an independent party."
     },
     {
       "id": "6-62",
@@ -5165,7 +5165,7 @@ const QUESTIONS = {
         "Yes, every Populist idea was permanently abandoned with no future influence."
       ],
       "correct": 0,
-      "explanation": "Populist ideas did not disappear entirely — direct election of senators and a graduated income tax, both Omaha Platform demands, were later achieved through constitutional amendments during the Progressive Era. Choice D overstates the movement's actual, lasting influence; choice C misstates the 1896 outcome, since McKinley, not a Populist-backed candidate, won; choice B denies the Omaha Platform's well-documented, specific content."
+      "explanation": "Correct: (A) No — direct election of senators and a graduated income tax later became amendments. The Sixteenth Amendment (1913) permitted a federal income tax, and the Seventeenth Amendment (1913) provided for direct election of senators, both of which had been Populist demands in the 1892 Omaha Platform. Progressives of the early 1900s also took up regulation of railroads and the secret ballot.\n\n(B) is wrong because the Populist Party had a detailed platform, the Omaha Platform of 1892, which listed specific ideas such as free silver and railroad ownership.\n(C) is wrong because the Populist Party did not win the 1896 election; William McKinley did, and the party had already endorsed Bryan.\n(D) is wrong because several Populist ideas, including an income tax and direct election of senators, were later adopted, so they did not fade away."
     },
     {
       "id": "6-63",
@@ -5178,7 +5178,7 @@ const QUESTIONS = {
         "The Populist Party, in truth, never actually ended in any meaningful sense."
       ],
       "correct": 1,
-      "explanation": "This distinction matters because the Populist PARTY's end as an independent political force is a different claim from the Populist MOVEMENT's longer-term ideological influence, since several ideas achieved lasting influence through later amendments even as the party declined. Choice C denies a real, exam-relevant distinction; choice D contradicts the party's well-documented decline after 1896; choice A denies the movement's own, later-realized influence."
+      "explanation": "Correct: (B) The party's political end differs from many of its ideas achieving lasting influence later. After backing William Jennings Bryan in 1896 and losing, the Populist Party lost its independent identity and disappeared as a national force by the early 1900s. Yet many of its proposals, such as the graduated income tax and direct election of senators, became constitutional amendments in 1913 and influenced Progressive reformers.\n\n(A) is wrong because the movement had a notable ideological influence, with its reform ideas appearing in Progressive Era laws.\n(C) is wrong because a meaningful distinction exists between the party's electoral collapse in 1896 and the later success of its ideas.\n(D) is wrong because the party did end as an independent organization after it fused with the Democrats in 1896."
     },
     {
       "id": "6-64",
@@ -5191,7 +5191,7 @@ const QUESTIONS = {
         "Government ownership of railroads and telegraphs"
       ],
       "correct": 2,
-      "explanation": "McKinley's campaign platform specifically defended the gold standard and protective tariffs, in direct contrast to Bryan's free silver advocacy."
+      "explanation": "Correct: (C) The gold standard and protective tariffs. McKinley and the Republicans in 1896 argued that tying the dollar to gold would keep money stable and protect savings, while high tariffs, like the McKinley Tariff of 1890, would protect American factories and jobs. This directly opposed Bryan's call for free coinage of silver.\n\n(A) is wrong because free silver coinage and cheaper credit for farmers was Bryan's and the Populists' position, the one McKinley opposed.\n(B) is wrong because direct election of senators and an income tax were Populist demands from the Omaha Platform, not parts of the Republican platform.\n(D) is wrong because government ownership of railroads and telegraphs was a Populist proposal that McKinley's pro-business campaign rejected."
     },
     {
       "id": "6-65",
@@ -5205,7 +5205,7 @@ const QUESTIONS = {
         "Railroad concentration that built industrial fortunes directly caused the exploitative shipping rates driving farmer distress."
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing that industrial consolidation (6.1-6.2) and agrarian organizing (6.7-6.8) are two ends of the same transformation: the railroad concentration that built industrial fortunes directly caused the exploitative shipping rates Section 6.7 identifies as driving farmer distress, tying the unit into one connected narrative. Choice A and choice B both deny this direct causal link; choice C ignores that farmers, not just urban workers, were a central group affected by industrial consolidation."
+      "explanation": "Correct: (D) Railroad concentration that built industrial fortunes directly caused the exploitative shipping rates driving farmer distress. The consolidation of railroads and industry in the Gilded Age, with figures like Carnegie and Rockefeller defended by Social Darwinism, gave concentrated capital strong power over markets. Farmers who depended on single railroads paid high shipping rates, and they organized in the Farmers' Alliance, wrote the Omaha Platform in 1892 and rallied behind Bryan in 1896, only to lose to McKinley's business coalition. The stem asks how both ends belong to one economic transformation.\n\n(A) is wrong because agrarian organizing and industrial consolidation were connected, since railroad rates and falling prices tied farm distress to industrial growth.\n(B) is wrong because the sections describe two sides of one economic change, so calling them separate and unrelated overlooks the railroad link.\n(C) is wrong because farmers were affected by industrial consolidation too, through railroad rates, credit and falling crop prices, so only urban workers being affected is false."
     }
   ],
   "7": [
