@@ -3020,7 +3020,7 @@ const QUESTIONS = {
         "The photoelectric effect proves light behaves only as a wave, never as a particle."
       ],
       "correct": 1,
-      "explanation": "The photoelectric effect showed that electron ejection depends on individual photon energy (tied to frequency/wavelength) exceeding a threshold value specific to the metal, not on the total intensity of the light. Choice D misreads the phenomenon—the photoelectric effect actually supports light's particle-like (photon) nature, not a wave-only interpretation; it's classic evidence against a purely wave-based model. Choice A is directly contradicted by the effect itself: below-threshold-energy light produces zero ejected electrons no matter how intense, since intensity alone can't substitute for insufficient individual photon energy. Choice C also misses this same key point—ejection depends critically on individual photon energy exceeding the threshold, not merely on intensity."
+      "explanation": "Correct: electron ejection needs each photon to carry a minimum threshold energy, regardless of intensity. In the photoelectric effect, light shining on a metal ejects electrons only if the light's frequency is above a threshold value that is characteristic of the metal. A wave model predicted that any frequency of light, if intense enough, would eventually give electrons enough energy. What was observed: light below the threshold frequency ejects NO electrons however intense it is, and light above the threshold ejects electrons immediately, even if it is dim. Brighter light above the threshold ejects MORE electrons, not faster ones. This fits a particle model: each photon has energy E = hf, and one photon gives its energy to one electron. The electron escapes only if hf is larger than the energy that holds it in the metal.\n\n(A) is wrong because below-threshold light of any intensity ejects no electrons.\n(C) is wrong because ejection depends on the energy of individual photons, not on the total intensity.\n(D) is wrong because the effect supports the particle nature of light; it could not be explained by waves alone."
     },
     {
       "id": "3-91",
@@ -3047,7 +3047,7 @@ const QUESTIONS = {
         "0.0600"
       ],
       "correct": 2,
-      "explanation": "A = εbc = (2.00 × 10<sup>3</sup>)(1.00)(3.00 × 10<sup>−4</sup>) = 0.600. Choice D (0.0600) is off by a factor of 10, consistent with a decimal-place slip in the concentration or ε value. Choice A (6.00 × 10<sup>−7</sup>) and choice B (1.50 × 10<sup>7</sup>) both reflect serious algebra errors—A looks like a badly mis-scaled multiplication, and B looks like a division was performed (e.g., ε/c or similar) instead of the correct multiplication of ε, b, and c together, since A must come out unitless and neither of these values is consistent with correctly multiplying the three given quantities."
+      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication. (A) and (B) are wrong because they are far from the product of the three given numbers: absorbance is found by multiplying epsilon, b, and c, and dividing instead of multiplying gives values that do not have the correct units."
     },
     {
       "id": "3-93",
@@ -3060,7 +3060,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 1,
-      "explanation": "Absorbance is directly proportional to concentration (A = εbc, linear at constant ε and b), so doubling concentration directly doubles absorbance. Choice C (stays the same) ignores that A depends on concentration at all when ε and b are fixed. Choice A (cut in half) inverts the direct relationship into an inverse one, which isn't how the Beer-Lambert equation works. Choice D (quadruples) overstates the effect, as if absorbance depended on concentration squared rather than concentration to the first power."
+      "explanation": "Correct: it doubles. In A = epsilon x b x c, absorbance is directly proportional to concentration when epsilon (how strongly the substance absorbs) and b (the path length) do not change. Twice as many absorbing particles in the path of the light means twice the absorbance. This straight-line relationship is why a graph of absorbance against concentration (a calibration curve) is a line through the origin.\n\n(A) is wrong because it treats the relationship as inverse, as if more solute meant less absorption.\n(C) is wrong because absorbance depends on concentration.\n(D) is wrong because it treats absorbance as depending on the square of the concentration, but the relationship is linear, to the first power."
     },
     {
       "id": "3-94",
@@ -3073,7 +3073,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 1,
-      "explanation": "Using the calibration line: 0.750 = 1500 × c, so c = 0.750/1500 = 5.00 × 10<sup>−4</sup> M. Choice D (0.500 M) results from forgetting to divide by the 1500 slope entirely (treating 0.750/1.5 as if the units already matched, without properly accounting for the full coefficient). Choice C (2.00 × 10<sup>3</sup> M) and choice A (1125 M) both result from inverting or misapplying the equation (e.g., multiplying instead of dividing, or computing 1500 × 0.750 or 1500/0.750-style errors), producing values far outside a physically reasonable dilute-solution concentration range for a calibration curve like this one."
+      "explanation": "Correct: 5.00 x 10<sup>-4</sup> M. A calibration curve is a line that relates absorbance to concentration for samples whose concentrations are known. Here the line is A = 1500c, so the slope (which equals epsilon x b) is 1500 L/mol. For the unknown, A = 0.750, so 0.750 = 1500 x c, and c = 0.750 / 1500 = 5.00 x 10<sup>-4</sup> M. Check that the result makes sense: a concentration of 0.0005 M is typical for a colored solution measured in a spectrometer, and the absorbance (0.750) is between 0 and about 1, where the law works well.\n\n(D) is wrong because 0.500 M results from not dividing by the full slope.\n(C) is wrong because 2.00 x 10<sup>3</sup> is 1500 divided by 0.750, which inverts the calculation.\n(A) is wrong because 1125 is 1500 x 0.750, which multiplies instead of dividing."
     },
     {
       "id": "3-95",
@@ -3086,7 +3086,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 1,
-      "explanation": "Absorbance is directly proportional to path length (A = εbc)—light traveling through twice the distance of absorbing solution encounters twice as many absorbing molecules along its path, doubling the measured absorbance. Choice A (becomes zero) has no basis in the linear A = εbc relationship. Choice C (stays the same) ignores that path length is one of the three directly multiplied factors in the equation. Choice D (cut in half) inverts the relationship, treating increasing path length as if it decreased the light-absorbing material encountered, when the opposite is true."
+      "explanation": "Correct: it doubles. Absorbance is directly proportional to the path length b in A = epsilon x b x c. If the light has to travel through twice as much solution, it passes twice as many absorbing particles, so twice as much light is absorbed (in terms of absorbance). This is why spectrometers use a cuvette with a standard path length (usually 1.00 cm).\n\n(D) is wrong because it reverses the relationship.\n(C) is wrong because path length is one of the three factors multiplied together in the equation.\n(A) is wrong because nothing in the equation makes absorbance zero when the path length is doubled."
     },
     {
       "id": "3-96",
@@ -3099,7 +3099,7 @@ const QUESTIONS = {
         "4:1"
       ],
       "correct": 2,
-      "explanation": "Since A ∝ c at constant ε and b, the ratio of absorbances directly equals the ratio of concentrations: 0.200/0.800 = 1/4, so the lower:higher concentration ratio is 1:4. Choice B (1:2) and choice A (1:16) both misapply the proportionality—1:2 understates how much smaller the lower concentration is relative to the higher one, while 1:16 (the square of the correct ratio) would only apply if absorbance depended on concentration squared, which it doesn't in the linear Beer-Lambert relationship. Choice D (4:1) inverts the ratio, listing it as higher:lower instead of the requested lower:higher."
+      "explanation": "Correct: 1:4. At the same wavelength and path length, epsilon and b are the same for both solutions, so absorbance is directly proportional to concentration, and the ratio of the absorbances equals the ratio of the concentrations: 0.200 / 0.800 = 1/4. The lower:higher concentration ratio is therefore 1:4 (the second solution is four times as concentrated).\n\n(A) is wrong because 1:16 would be the result if absorbance were proportional to the square of the concentration, which it is not.\n(B) is wrong because 1:2 would mean the absorbances differ by a factor of 2, not 4.\n(D) is wrong because 4:1 is the ratio written as higher:lower, but the question asks for lower:higher."
     },
     {
       "id": "3-97",
@@ -3138,7 +3138,7 @@ const QUESTIONS = {
         "A substance- and wavelength-specific absorption constant"
       ],
       "correct": 3,
-      "explanation": "Molar absorptivity is specific to both the particular substance being measured and the specific wavelength of light used—different substances (and the same substance at different wavelengths) have different ε values. Choice B is wrong because ε is emphatically not universal or identical across substances and wavelengths; that's precisely why it must be looked up or determined for each specific case. Choice C confuses ε (an optical absorption property) with pH (an unrelated measure of acidity)—the two concepts aren't connected. Choice A confuses ε with a volume-related quantity; ε has nothing to do with how much solution is present, only with how strongly that particular substance absorbs light at that wavelength."
+      "explanation": "Correct: a substance- and wavelength-specific absorption constant. Molar absorptivity (epsilon, in L/(mol cm)) tells how strongly one mole per liter of a particular substance absorbs light of a particular wavelength. A substance with a large epsilon absorbs light strongly and has an intense color, while one with a small epsilon absorbs weakly. Because epsilon changes with the wavelength, chemists usually measure at the wavelength of maximum absorption, where the measurement is most sensitive. It is the constant in A = epsilon x b x c.\n\n(B) is wrong because epsilon is not universal: it is different for each substance and wavelength.\n(C) is wrong because epsilon is an optical property and has nothing to do with the pH.\n(A) is wrong because epsilon is not a volume; it describes how strongly the substance absorbs light, whatever the volume."
     },
     {
       "id": "3-100",
@@ -4031,7 +4031,7 @@ const QUESTIONS = {
         "0.0800 M/s"
       ],
       "correct": 3,
-      "explanation": "Rate of B formation = 2 × rate of A disappearance = 2 × 0.0400 = 0.0800 M/s, matching the 1:2 stoichiometric ratio between A and B. Choice A (0.1600 M/s) doubles the ratio too many times, as if B's coefficient were 4 instead of 2. Choice B (0.0200 M/s) inverts the ratio — dividing by 2 instead of multiplying, as if A disappeared twice as fast as B forms. Choice C (0.0400 M/s) assumes A and B change at equal rates, ignoring the stoichiometry entirely."
+      "explanation": "Correct: 0.0800 M/s. For a general reaction, the rate is defined so that it is the same for every species: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, where a and b are the coefficients. For A -> 2B, the coefficient of B is twice that of A, so B forms twice as fast as A disappears: rate of B formation = 2 x 0.0400 M/s = 0.0800 M/s. A quick check: the species with the bigger coefficient changes faster.\n\n(A) is wrong because 0.1600 M/s doubles the factor twice, as if B's coefficient were 4.\n(B) is wrong because 0.0200 M/s divides by 2 instead of multiplying, so it makes B form more slowly than A disappears.\n(C) is wrong because 0.0400 M/s treats A and B as changing at the same rate, which ignores the stoichiometry."
     },
     {
       "id": "5-2",
@@ -4044,7 +4044,7 @@ const QUESTIONS = {
         "0.0300 M/s"
       ],
       "correct": 3,
-      "explanation": "Using the 2:1 ratio between H₂O₂ and O₂: rate of H₂O₂ disappearance = 2 × 0.0150 = 0.0300 M/s. Choice A (0.0075 M/s) inverts the ratio, dividing instead of multiplying by 2. Choice B (0.0150 M/s) treats H₂O₂ and O₂ as if they had equal coefficients (1:1), ignoring that H₂O₂'s coefficient is 2. Choice C (0.0450 M/s) overshoots with an unjustified 3:1 ratio that doesn't match either species' coefficient in this equation."
+      "explanation": "Correct: 0.0300 M/s. In 2H2O2 -> 2H2O + O2, two moles of H2O2 are used up for every one mole of O2 that forms, so H2O2 disappears twice as fast as O2 appears. Rate of H2O2 disappearance = 2 x 0.0150 M/s = 0.0300 M/s. Equivalent way: the overall rate = delta[O2]/delta t = -(1/2) delta[H2O2]/delta t.\n\n(A) is wrong because 0.0075 M/s divides by 2 instead of multiplying.\n(B) is wrong because 0.0150 M/s assumes a 1:1 ratio between H2O2 and O2, but the coefficients are 2 and 1.\n(C) is wrong because 0.0450 M/s would come from a 3:1 ratio, which does not match this equation."
     },
     {
       "id": "5-3",
@@ -4057,7 +4057,7 @@ const QUESTIONS = {
         "Species change concentration at different rates set by their coefficients."
       ],
       "correct": 3,
-      "explanation": "Different species change concentration at different relative rates set by their coefficients, so an unqualified 'rate' would be ambiguous unless that coefficient is specified or divided out — this is why the standard rate expression divides each species' rate of change by its own coefficient. Choice B is wrong because coefficients directly set each species' relative rate of change. Choice C would only hold if every species had a coefficient of 1, which isn't generally true. Choice A is a non sequitur — the ambiguity applies to species in any phase, not just gases."
+      "explanation": "Correct: species change concentration at different rates set by their coefficients. In N2 + 3H2 -> 2NH3, hydrogen is used up three times as fast as nitrogen, and ammonia forms twice as fast as nitrogen is used up. So 'the rate of the reaction' would be ambiguous unless you say which species you mean. To avoid that, the rate of reaction is defined by dividing each species' rate of change by its own coefficient: rate = -(1/a) delta[A]/delta t = (1/b) delta[B]/delta t, which gives one number for the reaction.\n\n(C) is wrong because species have the same rate of change only if all their coefficients are 1.\n(B) is wrong because coefficients do set the relative rates of change.\n(A) is wrong because the issue applies to species in any phase, not only gases."
     },
     {
       "id": "5-4",
@@ -4070,7 +4070,7 @@ const QUESTIONS = {
         "M/s (concentration per time)"
       ],
       "correct": 3,
-      "explanation": "Reaction rate measures how concentration changes per unit time, so its units are always concentration divided by time — commonly M/s, though other time units may be used. Choice A (M) is concentration alone, missing the time component. Choice C (s) is a time unit only, with no concentration change captured. Choice B (mol) confuses amount of substance with concentration and also leaves out time."
+      "explanation": "Correct: M/s (concentration per time). The rate of a reaction is how quickly a concentration changes: rate = delta[concentration] / delta time. Concentration is in mol/L (M), and time is usually in seconds, so the units are M/s (mol L<sup>-1</sup> s<sup>-1</sup>). Other time units can be used (M/min), but a rate always has concentration divided by time.\n\n(A) is wrong because M alone is a concentration and does not include how fast it changes.\n(C) is wrong because seconds are a unit of time only.\n(B) is wrong because moles is an amount of substance, not a concentration, and it does not include time."
     },
     {
       "id": "5-5",
@@ -4083,7 +4083,7 @@ const QUESTIONS = {
         "0.0300 M/s"
       ],
       "correct": 3,
-      "explanation": "Using the 3:1 ratio, rate of B formation = (1/3) × rate of A disappearance = (1/3)(0.0900) = 0.0300 M/s. B forms three times more slowly than A disappears, matching the coefficients. Choice A (0.0900 M/s) treats A and B as if they shared a 1:1 ratio, ignoring that 3 mol of A are consumed per 1 mol of B formed. Choice C (0.2700 M/s) inverts the ratio, multiplying by 3 instead of dividing. Choice B (0.0450 M/s) uses the wrong divisor (2 instead of 3), which doesn't match either species' actual coefficient."
+      "explanation": "Correct: 0.0300 M/s. For 3A -> B, three moles of A are consumed for each mole of B formed, so B forms at one-third the rate at which A disappears: rate of B formation = (1/3)(0.0900 M/s) = 0.0300 M/s. Check with the general rule: rate = -(1/3) delta[A]/delta t = delta[B]/delta t, and the species with the bigger coefficient (A) changes faster.\n\n(A) is wrong because 0.0900 M/s assumes a 1:1 ratio.\n(C) is wrong because 0.2700 M/s multiplies by 3 instead of dividing.\n(B) is wrong because 0.0450 M/s divides by 2, which is not a coefficient in this equation."
     },
     {
       "id": "5-6",
@@ -4096,7 +4096,7 @@ const QUESTIONS = {
         "It generally increases as the reaction proceeds."
       ],
       "correct": 2,
-      "explanation": "Since rate typically depends on reactant concentration (per the rate law), and reactant concentration decreases as a reaction proceeds toward completion, rate generally decreases over time as well — this is why concentration-vs-time graphs typically curve, becoming shallower as the reaction slows down. Choice A (constant) would only hold for a zero-order reaction, where rate doesn't depend on concentration at all — not the general case being asked about. Choice D (increases) describes the opposite trend, which isn't typical behavior for an ordinary reaction consuming reactant. Choice B overstates the uncertainty — for the vast majority of rate laws (positive order in reactants), a decreasing-rate trend is entirely predictable from the rate law itself."
+      "explanation": "Correct: it generally decreases, since reactant concentration decreases over time. The rate of most reactions depends on the concentrations of the reactants (the rate law). As the reaction proceeds, the reactants are used up, their concentrations fall, and the rate falls as well. That is why a graph of concentration against time is steepest at the start and gets flatter as time goes on (the slope is the rate).\n\n(A) is wrong because a constant rate is typical only of a zero-order reaction, where the rate does not depend on concentration.\n(D) is wrong because an increasing rate would be unusual for a reaction that consumes its reactants.\n(B) is wrong because for most reactions, the rate law predicts a decreasing rate."
     },
     {
       "id": "5-7",
@@ -4109,7 +4109,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 1,
-      "explanation": "Doubling [A] (0.10→0.20) causes rate to quadruple (0.0050→0.0200, factor of 4). Since 2ᵐ = 4, m = 2, so the reaction is second order in A. Choice C (order 3) would require an 8-fold rate increase (2³) upon doubling [A], but the data show only a 4-fold increase. Choice D (order 0) would mean rate is unaffected by [A], contradicted by the clear change observed. Choice A (order 1) would predict only a 2-fold rate increase upon doubling [A] — a common mistake of reading off the concentration-doubling factor itself rather than solving 2<sup>m</sup> = (rate factor)."
+      "explanation": "Correct: 2. Use the ratio method: compare two trials in which only one concentration changes. The concentration of A doubles (0.10 to 0.20), so the ratio of concentrations is 2. The rate goes from 0.0050 to 0.0200, a factor of 4. Since the rate changes by (concentration factor)^m, we have 2<sup>m</sup> = 4, so m = 2: the reaction is second order in A.\n\n(D) is wrong because zero order would mean no change in rate when A doubles.\n(A) is wrong because first order would double the rate (2<sup>1</sup> = 2), not quadruple it.\n(C) is wrong because third order would make the rate increase 8-fold (2<sup>3</sup> = 8), but only a 4-fold increase was observed."
     },
     {
       "id": "5-8",
@@ -4122,7 +4122,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 3,
-      "explanation": "A reactant with zero order doesn't affect rate at all, regardless of its concentration — mathematically, [A]⁰ = 1 for any concentration, so changing [A] has no effect on the rate expression. Choice C (order 2) would produce a 4-fold rate increase upon doubling [A], and choice B (order 1) would produce a 2-fold increase — both contradict the described 'no effect.' Choice A is wrong because this single observation is itself sufficient to identify zero order directly; no additional trials are needed to conclude it."
+      "explanation": "Correct: 0. The order with respect to a reactant is the exponent of its concentration in the rate law. If doubling the concentration has no effect on the rate, then the concentration does not appear in the rate expression, or equivalently its exponent is 0, because [A]<sup>0</sup> = 1 for any value of [A]. This happens, for example, when a catalyst surface or an enzyme is saturated, so adding more reactant does not speed up the reaction.\n\n(B) is wrong because first order would double the rate when the concentration doubles.\n(C) is wrong because second order would quadruple the rate.\n(A) is wrong because this single observation is enough to show that the order is 0."
     },
     {
       "id": "5-10",
@@ -4135,7 +4135,7 @@ const QUESTIONS = {
         "9"
       ],
       "correct": 1,
-      "explanation": "Rate scales as [A]² × [B]¹. Tripling [A] increases rate by 3² = 9. Doubling [B] increases rate by 2¹ = 2. Combined factor: 9 × 2 = 18. Choice D (9) correctly captures A²'s contribution (3² = 9) but omits B's contribution entirely, as if B were zero order. Choice A (6) treats both A and B as first order (3 × 2), ignoring that A must be squared. Choice C (3) accounts only for A's tripling as if it were first order, ignoring both the actual square on A and B's contribution altogether."
+      "explanation": "Correct: 18. For the rate law Rate = k[A]<sup>2</sup>[B], each concentration change affects the rate according to its exponent. Tripling [A] multiplies the rate by 3<sup>2</sup> = 9. Doubling [B] multiplies the rate by 2<sup>1</sup> = 2. Changes that happen together multiply: 9 x 2 = 18.\n\n(D) is wrong because 9 includes the effect of [A] but leaves out the effect of doubling [B].\n(A) is wrong because 6 treats both reactants as first order (3 x 2) and ignores that [A] is squared.\n(C) is wrong because 3 takes into account only the tripling of [A], without its square and without [B]."
     },
     {
       "id": "5-11",
@@ -4148,7 +4148,7 @@ const QUESTIONS = {
         "Balanced equations never contain enough information about atoms."
       ],
       "correct": 2,
-      "explanation": "Order reflects the reaction's actual (often multi-step) mechanism, which the overall balanced equation doesn't show, so order must be found experimentally (except for elementary reactions, where mechanism = the single written step). Choice D is a red herring — balanced equations fully account for atoms; the issue is they say nothing about mechanism or kinetics. Choice A is false as a blanket claim; order can be 0, fractional, or any positive integer. Choice B describes elementary reactions specifically, but this question concerns non-elementary (overall) reactions, where that shortcut doesn't apply — conflating the two is exactly the misconception being tested."
+      "explanation": "Correct: order reflects the mechanism, not the overall equation, so it must be found experimentally. The balanced equation shows the overall change but not the steps by which the reaction happens. A slow step in the mechanism usually determines the rate, so the exponents in the rate law come from experiments (such as the initial rates method), not from the coefficients. Example: 2N2O5 -> 4NO2 + O2 is first order in N2O5, not second order, even though the coefficient is 2. The exception is an elementary step, a single step that happens exactly as written, for which the exponents do equal the coefficients.\n\n(B) is wrong because that shortcut applies only to elementary reactions.\n(A) is wrong because orders can be 0, 1, 2, or fractional.\n(D) is wrong because a balanced equation does account for all the atoms; it just does not show the mechanism."
     },
     {
       "id": "5-12",
@@ -4161,7 +4161,7 @@ const QUESTIONS = {
         "6.0 × 10⁻⁵ M·s⁻¹"
       ],
       "correct": 2,
-      "explanation": "k = rate/[A] = 0.0030/0.050 = 0.060. For a first-order reaction, units of k are always s⁻¹ (or generally, 1/time), since Rate (M/s) = k × [A] (M) requires k to have units of 1/s to balance dimensionally. Choices B and D both carry M·s⁻¹-style units, which are the units expected for a zero-order k, not a first-order one — a units mismatch that flags an order confusion rather than a simple slip. Choice A keeps the correct s⁻¹ units but reflects an arithmetic error in the division itself."
+      "explanation": "Correct: 0.060 s<sup>-1</sup>. Solve the rate law Rate = k[A] for k: k = Rate / [A] = (0.0030 M/s) / (0.050 M) = 0.060 s<sup>-1</sup>. The units: M/s divided by M leaves 1/s. A good way to catch mistakes is to remember the units of k for each order: zero order is M/s, first order is s<sup>-1</sup>, and second order is M<sup>-1</sup> s<sup>-1</sup>. Because this rate law is first order, k must have units of s<sup>-1</sup>. (B) and (D) are wrong because their units (M s<sup>-1</sup>) are those of a zero-order rate constant, which shows a confusion about the order.\n\n(A) is wrong because it has the correct units but the division is wrong: 0.0030 / 0.050 is 0.060, not 0.0015."
     },
     {
       "id": "5-13",
@@ -4174,7 +4174,7 @@ const QUESTIONS = {
         "1"
       ],
       "correct": 1,
-      "explanation": "With [A] held constant, [B] triples (0.10→0.30) and rate increases by a factor of 9 (0.0080→0.0720). Since 3ⁿ = 9, n = 2, second order in B. Choice D (order 1) would predict only a 3-fold rate increase when [B] triples, not the 9-fold increase observed. Choice A (order 3) would require a 27-fold increase (3³). Choice C (order 0) would mean rate is unaffected by [B], contradicted by the clear increase seen."
+      "explanation": "Correct: 2. Use the ratio method for B with [A] held constant, so any change in the rate is because of B. [B] goes from 0.10 to 0.30, which is a factor of 3. The rate goes from 0.0080 to 0.0720, a factor of 9. The rate changes by (concentration factor)^n, so 3<sup>n</sup> = 9, and n = 2: second order in B.\n\n(D) is wrong because first order would triple the rate, not make it nine times as large.\n(A) is wrong because third order would increase the rate 27-fold (3<sup>3</sup>).\n(C) is wrong because zero order would mean no change in the rate when [B] triples, but the rate clearly increased."
     },
     {
       "id": "5-15",
@@ -4187,7 +4187,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 1,
-      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2<sup>1.5</sup> × 2<sup>0.5</sup> = 2^(1.5+0.5) = 2² = 4. Choice D (2) would follow only if the overall order were treated as 1 with a single doubled variable, ignoring the actual fractional exponents entirely. Choice C (2.83 ≈ 2<sup>1.5</sup>) correctly captures A's contribution but omits B's, as if B were zero order. Choice A (5.66 ≈ 2<sup>2.5</sup>) overcounts B's contribution, effectively treating B as first order (an extra factor of 2<sup>1</sup>) instead of half order (2<sup>0.5</sup>) — this shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
+      "explanation": "Correct: 4. For a rate law Rate = k[A]<sup>1.5</sup>[B]<sup>0.5</sup>, each concentration change affects the rate according to its exponent, and the effects multiply. Doubling [A] gives a factor of 2<sup>1.5</sup> = 2.83. Doubling [B] gives a factor of 2<sup>0.5</sup> = 1.41. Together: 2.83 x 1.41 = 4.0. A shortcut: when you change every concentration by the same factor, the rate changes by that factor raised to the overall order. The overall order here is 1.5 + 0.5 = 2, so doubling gives 2<sup>2</sup> = 4. Fractional exponents follow the same rules as whole-number exponents.\n\n(C) is wrong because 2.83 is the effect of doubling [A] alone.\n(A) is wrong because 5.66 is 2<sup>2.5</sup>, which treats [B] as first order instead of half order.\n(D) is wrong because 2 would apply only if the overall order were 1.",
       "stretch": true
     },
     {
@@ -4201,7 +4201,7 @@ const QUESTIONS = {
         "0.400 M"
       ],
       "correct": 2,
-      "explanation": "After 1 half-life (20.0 s): [A] = 0.400 M. After 2 half-lives (40.0 s total): [A] = 0.200 M — each half-life cuts the remaining concentration exactly in half, regardless of starting value, since this is a first-order process. Choice D (0.400 M) stops after only the first half-life instead of continuing on to the second one at 40.0 s. Choice A (0.100 M) applies an extra (third) halving, as if 40.0 s corresponded to three half-lives rather than two. Choice B (0.600 M) results from subtracting a fixed amount per half-life (as zero-order kinetics would) rather than correctly halving the remaining concentration each time — first-order decay removes a constant fraction, not a constant amount."
+      "explanation": "Correct: 0.200 M. In a first-order reaction, every half-life cuts the remaining concentration in half, no matter how much is left. After 20.0 s (1 half-life): 0.800 / 2 = 0.400 M. After 40.0 s (2 half-lives): 0.400 / 2 = 0.200 M. In general, [A] = [A]<sub>0</sub> x (1/2)<sup>n</sup>, where n is the number of half-lives: 40.0 s / 20.0 s = 2, so (1/2)<sup>2</sup> = 1/4 and 0.800 x 1/4 = 0.200 M.\n\n(D) is wrong because 0.400 M is the concentration after only one half-life.\n(A) is wrong because 0.100 M would be after three half-lives.\n(B) is wrong because 0.600 M comes from subtracting a fixed amount each time (like a zero-order reaction), but first-order decay removes a constant FRACTION, not a constant amount."
     },
     {
       "id": "5-17",
@@ -4214,7 +4214,7 @@ const QUESTIONS = {
         "ln[A] vs. time"
       ],
       "correct": 2,
-      "explanation": "The integrated rate law for second order is 1/[A] = kt + 1/[A]₀, which has the form of a straight line (y = mx + b) when 1/[A] is plotted against time, with slope k and y-intercept 1/[A]₀. Choice B ([A]² vs. time) isn't linear for any standard integrated rate law — it likely confuses the rate law's exponent (order 2) with the plotted axis variable itself. Choice A ([A] vs. time) is linear for a zero-order reaction, not second order. Choice D (ln[A] vs. time) is the diagnostic linear plot for a first-order reaction — a common mix-up between the first- and second-order integrated rate laws."
+      "explanation": "Correct: 1/[A] vs. time. Each reaction order has its own linear plot, from its integrated rate law. Zero order: [A] = -kt + [A]<sub>0</sub>, so a plot of [A] vs. time is a straight line with a slope of -k. First order: ln[A] = -kt + ln[A]<sub>0</sub>, so a plot of ln[A] vs. time is a straight line with a slope of -k. Second order: 1/[A] = kt + 1/[A]<sub>0</sub>, so a plot of 1/[A] vs. time is a straight line with a slope of +k. If you plot the data in each way, the one that gives a straight line tells you the order.\n\n(A) is wrong because [A] vs. time is the linear plot for zero order.\n(D) is wrong because ln[A] vs. time is the linear plot for first order.\n(B) is wrong because [A] squared vs. time is not the linear plot for any standard order."
     },
     {
       "id": "5-18",
@@ -4227,7 +4227,7 @@ const QUESTIONS = {
         "It increases as the reaction proceeds."
       ],
       "correct": 1,
-      "explanation": "For zero order, t½ = [A]₀/2k — since this formula depends on the concentration at the start of each half-life period, and concentration keeps decreasing, each successive half-life is shorter than the one before, unlike first-order's constant half-life. Choice D is the opposite of the actual trend. Choice C (constant half-life) is the defining property of a first-order reaction, not zero order — a common mix-up between the two. Choice A is false; zero-order reactions do have a well-defined half-life (given by the formula above), it simply isn't constant across the reaction."
+      "explanation": "Correct: it decreases steadily as the reaction proceeds. For a zero-order reaction, the half-life is t<sub>1/2</sub> = [A]<sub>0</sub> / 2k, which depends on the concentration at the START of the period being measured. As the reaction proceeds, the starting concentration for each new half-life is smaller, so each half-life is shorter than the last. Example: with k = 0.10 M/s, starting from 1.0 M the first half-life is 1.0 / 0.20 = 5.0 s; the next half-life starts from 0.50 M and is 0.50 / 0.20 = 2.5 s. By contrast, a first-order reaction has a constant half-life.\n\n(C) is wrong because a constant half-life is the signature of first order, not zero order.\n(D) is wrong because it states the opposite trend.\n(A) is wrong because zero-order reactions do have a half-life; it simply is not constant."
     },
     {
       "id": "5-19",
@@ -4240,7 +4240,7 @@ const QUESTIONS = {
         "19.8 min"
       ],
       "correct": 2,
-      "explanation": "Going from 0.500 M to 0.125 M represents exactly 2 half-lives (0.500 → 0.250 → 0.125). t½ = 0.693/k = 0.693/0.0350 = 19.8 min. Time for 2 half-lives = 2 × 19.8 = 39.6 min. Choice D (19.8 min) is just one half-life — it stops after the first halving (to 0.250 M) and forgets the second halving down to 0.125 M. Choice B (9.90 min) reflects an arithmetic slip in computing t½ itself (roughly half the correct half-life). Choice A (79.2 min) corresponds to four half-lives (all the way down to 0.03125 M), double-counting the number of halvings actually needed to reach 0.125 M."
+      "explanation": "Correct: 39.6 min. Method 1 (half-lives): going from 0.500 M to 0.125 M is two halvings (0.500, 0.250, 0.125). The half-life is t<sub>1/2</sub> = 0.693 / k = 0.693 / 0.0350 min<sup>-1</sup> = 19.8 min, so two half-lives take 2 x 19.8 = 39.6 min. Method 2 (integrated rate law): ln([A]<sub>0</sub>/[A]) = kt, so t = ln(0.500 / 0.125) / 0.0350 = ln(4) / 0.0350 = 1.386 / 0.0350 = 39.6 min. Both methods agree.\n\n(D) is wrong because 19.8 min is a single half-life.\n(B) is wrong because 9.90 min is half of one half-life.\n(A) is wrong because 79.2 min would be four half-lives."
     },
     {
       "id": "5-20",
@@ -4266,7 +4266,7 @@ const QUESTIONS = {
         "8"
       ],
       "correct": 1,
-      "explanation": "Each half-life cuts the remaining amount in half: 100% → 50% → 25% → 12.5%, which takes exactly 3 half-lives. This is a classic application connecting first-order kinetics directly to nuclear decay, since radioactive decay follows the exact same mathematical form. Choice A (4 half-lives) overshoots, bringing the sample down to 6.25%, past the 12.5% mark. Choice C (2 half-lives) only reaches 25%, not yet down to 12.5%. Choice D (8 half-lives) is a drastic overcount, reaching a tiny fraction of a percent."
+      "explanation": "Correct: 3. Each half-life cuts the amount in half, so the fraction left after n half-lives is (1/2)<sup>n</sup>. A sample at 12.5% is 1/8 of the original, and 1/8 = (1/2)<sup>3</sup>, so three half-lives have passed: 100% to 50% to 25% to 12.5%. Radioactive decay is first order, so it follows the same math as a first-order chemical reaction: the half-life stays the same regardless of the amount of sample.\n\n(A) is wrong because four half-lives would leave 6.25%.\n(C) is wrong because two half-lives would leave 25%.\n(D) is wrong because eight half-lives would leave less than 0.4%."
     },
     {
       "id": "5-22",
@@ -4279,7 +4279,7 @@ const QUESTIONS = {
         "A straight line with negative slope"
       ],
       "correct": 1,
-      "explanation": "First-order concentration decay follows [A] = [A]₀e^(−kt), an exponential decay function — starting steep and gradually flattening as concentration (and rate) decreases, asymptotically approaching but never mathematically reaching zero. Choice D describes the linear ln[A] vs. time plot, not the raw [A] vs. time curve — conflating the concentration graph with its linearized transform. Choice A (positive slope) would mean concentration is increasing over time, the opposite of what happens as A is consumed. Choice C (parabola) doesn't match the exponential mathematics of first-order decay at all."
+      "explanation": "Correct: an exponential decay curve. For a first-order reaction, [A] = [A]<sub>0</sub> e<sup>-kt</sup>. The concentration drops by the same fraction in each equal period of time (that is the constant half-life), so the graph is steepest at the start, when there is the most reactant and the rate is fastest, and gets flatter as the reactant is used up, approaching zero but never quite reaching it.\n\n(D) is wrong because a straight line with a negative slope is the graph of [A] vs. time for a zero-order reaction (and of ln[A] vs. time for first order).\n(A) is wrong because a line with a positive slope would mean the concentration is increasing, which does not happen for a reactant.\n(C) is wrong because the shape is not a parabola."
     },
     {
       "id": "5-23",
@@ -4292,7 +4292,7 @@ const QUESTIONS = {
         "0.300 M"
       ],
       "correct": 3,
-      "explanation": "Using the zero-order integrated rate law: [A] = −kt + [A]₀ = −(0.0200)(15.0) + 0.600 = −0.300 + 0.600 = 0.300 M. Choice B (0.600 M) is just the initial concentration — it fails to apply the −kt term at all, as if no time had passed. Choice A (0.450 M) subtracts only half of the actual amount consumed (0.150 M instead of 0.300 M), as if t were 7.5 s instead of 15.0 s. Choice C (0.150 M) overcorrects, subtracting roughly twice the amount actually consumed, as if t were 30.0 s instead of 15.0 s."
+      "explanation": "Correct: 0.300 M. For a zero-order reaction the integrated rate law is [A] = [A]<sub>0</sub> - kt. Substitute: [A] = 0.600 M - (0.0200 M/s)(15.0 s) = 0.600 - 0.300 = 0.300 M. The units work: k (M/s) times time (s) gives the concentration that was used up (M). A zero-order reaction loses the same amount of A in each second, so the graph of [A] vs. time is a straight line.\n\n(B) is wrong because 0.600 M is the starting concentration, with no reaction included.\n(A) is wrong because 0.450 M subtracts only half of the amount used up (it corresponds to 7.5 s).\n(C) is wrong because 0.150 M subtracts too much (it corresponds to 22.5 s)."
     },
     {
       "id": "5-24",
@@ -4305,7 +4305,7 @@ const QUESTIONS = {
         "10.0 s"
       ],
       "correct": 1,
-      "explanation": "For second order: t½ = 1/(k[A]₀) = 1/[(0.0400)(0.250)] = 1/0.0100 = 100 s. Choice C (17.3 s) comes from mistakenly applying the first-order half-life formula (0.693/k = 0.693/0.0400 ≈ 17.3 s) to a second-order reaction — but unlike first order, second-order half-life depends on [A]₀ and this shortcut doesn't apply. Choices D (10.0 s) and A (6.93 s) both underestimate by roughly an order of magnitude, consistent with a decimal-place or unit slip in computing the k[A]₀ product rather than correctly using 0.0400 × 0.250 = 0.0100."
+      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here. (D) and (A) are wrong because they are about ten times too small, which is the result of an arithmetic or decimal-place error in the product k[A]<sub>0</sub> = 0.0100."
     },
     {
       "id": "5-25",
@@ -4318,7 +4318,7 @@ const QUESTIONS = {
         "0.0289 min⁻¹"
       ],
       "correct": 1,
-      "explanation": "75% complete means 25% of the original concentration remains: [A]/[A]₀ = 0.25. Using the first-order integrated rate law: ln([A]/[A]₀) = −kt, so ln(0.25) = −k(24.0). ln(0.25) = −1.386, giving −1.386 = −k(24.0), so k = 1.386/24.0 = 0.0578 min⁻¹. Choice A (1.386 min⁻¹) stops mid-calculation, reporting the magnitude of ln(0.25) directly without ever dividing by the elapsed time. Choice C (0.116 min⁻¹) is double the correct value, consistent with dividing by 12.0 min instead of the full 24.0 min. Choice D (0.0289 min⁻¹) is half the correct value, consistent with a stray division-by-2 somewhere in the calculation (e.g., halving the final answer).",
+      "explanation": "Correct: 0.0578 min<sup>-1</sup>. If the reaction is 75% complete, 25% of the starting material is left, so [A]/[A]<sub>0</sub> = 0.25. Use the first-order integrated rate law: ln([A]/[A]<sub>0</sub>) = -kt. ln(0.25) = -1.386, so -1.386 = -k(24.0 min) and k = 1.386 / 24.0 = 0.0578 min<sup>-1</sup>. A check: 75% complete means two half-lives (100%, 50%, 25%), so the half-life is 24.0 / 2 = 12.0 min, and k = 0.693 / 12.0 = 0.0578 min<sup>-1</sup>, the same.\n\n(A) is wrong because 1.386 is the value of ln(4); it was not divided by the time.\n(C) is wrong because 0.116 is double the correct value.\n(D) is wrong because 0.0289 is half the correct value.",
       "stretch": true
     },
     {
@@ -4332,7 +4332,7 @@ const QUESTIONS = {
         "Rate = k[NO₂]²"
       ],
       "correct": 3,
-      "explanation": "Since this is stated to be an elementary reaction, the rate law's exponents directly match the reactant coefficients: Rate = k[NO₂]². Choice C (k[NO₂]) forgets to use NO₂'s coefficient of 2 as the rate-law exponent. Choice B (k[NO₂]²[NO][O₂]) incorrectly folds the products into the rate law — rate laws for elementary steps are written only from reactants. Choice A (k[NO]²[O₂]) uses the products' identities and coefficients instead of the reactant's, getting the whole rate law backwards."
+      "explanation": "Correct: Rate = k[NO<sub>2</sub>]<sup>2</sup>. For an elementary reaction, which happens in a single step exactly as written, the rate law can be written directly from the equation: each reactant's concentration is raised to the power of its coefficient. The reactant is 2NO<sub>2</sub>, so Rate = k[NO<sub>2</sub>]<sup>2</sup>. Products never appear in the rate law of an elementary step.\n\n(C) is wrong because it forgets the coefficient of 2 as the exponent.\n(B) is wrong because it includes the products NO and O<sub>2</sub> in the rate law.\n(A) is wrong because it is written with the products instead of the reactant."
     },
     {
       "id": "5-27",
@@ -4345,7 +4345,7 @@ const QUESTIONS = {
         "Two separate reactions occur simultaneously."
       ],
       "correct": 2,
-      "explanation": "Molecularity describes the number of reactant particles that come together in a single elementary step's collision event. Bimolecular specifically means exactly two particles (the same species or two different ones) collide and react in that step. Choice A confuses molecularity with the number of products formed — irrelevant here. Choice D describes an entirely different idea (parallel, separate reactions), not one step's molecularity. Choice B confuses 'bimolecular' with mechanism ambiguity, an unrelated concept."
+      "explanation": "Correct: two particles collide and react in one step. Molecularity is the number of reactant particles that come together in an elementary step. Unimolecular means one particle (for example, one molecule rearranging or breaking apart), bimolecular means two particles colliding, and termolecular means three, which is rare because three-way collisions are unlikely. Molecularity applies only to elementary steps, and for those it tells you the rate law: a bimolecular step A + B has Rate = k[A][B], and 2A has Rate = k[A]<sup>2</sup>.\n\n(A) is wrong because molecularity is about the reactants in a step, not the number of products.\n(D) is wrong because two separate reactions at the same time are parallel reactions, which is a different idea.\n(B) is wrong because molecularity has nothing to do with the number of possible mechanisms."
     },
     {
       "id": "5-28",
@@ -4371,7 +4371,7 @@ const QUESTIONS = {
         "Rate = k[A]; unimolecular"
       ],
       "correct": 3,
-      "explanation": "A single reactant particle (A) undergoes this elementary step alone — unimolecular. The rate law directly matches the coefficient of A (which is 1): Rate = k[A], first order. Choice A gets the molecularity right (unimolecular) but wrongly assigns zero order and a constant-only rate law, ignoring that a single A with coefficient 1 gives first-order dependence. Choice C uses the products B and C in the rate law instead of the reactant A, and misclassifies the step as bimolecular even though only one particle is actually reacting. Choice B incorrectly treats the single A particle as if two A particles were required (as in a genuine A + A step), giving second order and bimolecular character that don't apply here."
+      "explanation": "Correct: Rate = k[A]; unimolecular. An elementary reaction happens in one step exactly as written, so the rate law comes straight from the coefficients of the reactants. Here there is one reactant particle (A, coefficient 1), so Rate = k[A]<sup>1</sup>, which is first order. Molecularity is the number of reactant particles in the step: one particle makes it unimolecular. The products B and C never appear in the rate law of an elementary step.\n\n(A) is wrong because it gets unimolecular right but says zero order; a reaction with one A particle depends on [A] to the first power.\n(B) is wrong because it treats the step as if two A particles were needed (2A), which would give second order and bimolecular.\n(C) is wrong because it puts the products in the rate law and calls the step bimolecular, though only one particle reacts."
     },
     {
       "id": "5-30",
@@ -4397,7 +4397,7 @@ const QUESTIONS = {
         "An elementary reaction is always faster than an overall reaction."
       ],
       "correct": 2,
-      "explanation": "An elementary reaction is a genuine single-step molecular event (the actual collision/transformation), whereas an overall (net) reaction is the balanced equation summarizing the total change — which might result from one elementary step or many, added together. Choice D makes an unfounded speed claim; there's no general rule that elementary steps are always faster than overall reactions. Choice B simply denies any real distinction, which is factually wrong. Choice A invents an activation-energy relationship that doesn't generally hold between the two terms."
+      "explanation": "Correct: an elementary step occurs as written; an overall reaction may sum multiple steps. An elementary reaction is a single molecular event, such as one collision or one bond-breaking, and its coefficients tell you exactly how many particles take part. An overall (net) reaction is the balanced equation that shows the total change; it might be one elementary step or the sum of several, with intermediates canceling out. This is why you can write a rate law from the coefficients of an elementary step but NOT from the coefficients of an overall equation.\n\n(D) is wrong because there is no rule that elementary steps are faster than overall reactions.\n(A) is wrong because there is no general relationship between activation energy and whether a reaction is elementary or overall.\n(B) is wrong because the two terms mean different things."
     },
     {
       "id": "5-32",
@@ -4410,7 +4410,7 @@ const QUESTIONS = {
         "The colliding particles must have equal mass and equal charge."
       ],
       "correct": 0,
-      "explanation": "The collision model states that a successful (reaction-producing) collision requires both sufficient kinetic energy (enough to overcome the activation energy barrier) AND correct geometric orientation (so the reactive parts of the colliding molecules actually align) — missing either condition gives an unsuccessful, non-reactive collision. Choices B, C, and D each invent a requirement that isn't part of the collision model: mass/charge equality (D) and matching size (C) aren't collision-theory conditions, and reactions aren't restricted to occurring 'exactly at room temperature' (B) — successful collisions can occur at any temperature, as long as energy and orientation requirements are met."
+      "explanation": "Correct: the collision needs enough energy and correct orientation. The collision model says particles must meet two conditions to react. 1) Energy: the collision must have at least the activation energy, E<sub>a</sub>, so bonds can break. 2) Orientation: the reactive parts of the particles must be lined up so the right atoms can interact. If either is missing, the particles just bounce apart. This also explains why raising temperature speeds up reactions: more collisions have enough energy.\n\n(B) is wrong because reactions happen at many temperatures, not only room temperature.\n(C) is wrong because particles of different sizes react all the time.\n(D) is wrong because collisions between particles with different masses and charges are perfectly capable of reacting."
     },
     {
       "id": "5-34",
@@ -4449,7 +4449,7 @@ const QUESTIONS = {
         "The reaction must be zero order."
       ],
       "correct": 2,
-      "explanation": "Sufficient energy is necessary but not sufficient for a successful reaction — the colliding molecules must also be oriented correctly so the specific atoms/bonds involved can actually interact. A high-energy collision with poor orientation still fails to react. Choice A contradicts the given premise — the molecules already had more than enough energy, so 'too low temperature' can't explain this failure. Choice D is a non sequitur; reaction order describes concentration dependence across many trials, not why one specific collision failed. Choice B denies a well-established feature of the collision model — energy alone doesn't guarantee reaction."
+      "explanation": "Correct: the molecules had incorrect orientation for the reaction to occur. The collision model requires both enough energy AND the right orientation. The problem tells you the energy was more than enough, so the energy condition is already met. What is left is orientation: if the reactive atoms did not line up, the particles bounce apart even at high energy. Energy is necessary but not sufficient.\n\n(A) is wrong because the problem says the molecules had more than enough energy, so low temperature contradicts it.\n(B) is wrong because it says enough energy always guarantees a reaction, which ignores orientation.\n(D) is wrong because reaction order describes how the rate depends on concentration over many collisions; it cannot explain why one collision failed."
     },
     {
       "id": "5-37",
@@ -4488,7 +4488,7 @@ const QUESTIONS = {
         "The rate constant k"
       ],
       "correct": 1,
-      "explanation": "The activation energy for the forward reaction (Ea forward) is defined as the energy difference between the reactants' starting energy and the peak of the energy diagram (the transition state) — this is the barrier the forward reaction must overcome. Choice C (ΔH) is the energy difference between reactants and products, not between reactants and the transition state peak. Choice A (Ea reverse) is measured from the products' energy level up to the transition state, not from the reactants' side. Choice D (rate constant k) isn't a directly-read energy quantity on this diagram at all — it must be calculated separately (e.g., via the Arrhenius equation)."
+      "explanation": "Correct: Ea (forward). On a reaction energy diagram, the vertical distance from the reactants up to the peak (the transition state) is the energy barrier the reactants must climb, which is the forward activation energy. Remember the three distances: reactants to peak = E<sub>a</sub> (forward); products to peak = E<sub>a</sub> (reverse); reactants to products = ΔH.\n\n(A) is wrong because the reverse activation energy is measured from the products up to the peak.\n(C) is wrong because ΔH is the difference between the reactants and the products, not the peak.\n(D) is wrong because k is not an energy read from the diagram; it is calculated from E<sub>a</sub> and temperature using the Arrhenius equation."
     },
     {
       "id": "5-41",
@@ -4631,7 +4631,7 @@ const QUESTIONS = {
         "Rate = k[NO₂]"
       ],
       "correct": 0,
-      "explanation": "Since the rate-determining (slow) step is the FIRST step, and it involves no intermediates, the rate law can be written directly from that step's coefficients, exactly as if it were a standalone elementary reaction: Rate = k[NO₂][CO]. Choice B (k[NO][CO₂]) mistakenly uses the products of the slow step rather than its reactants. Choices C and D each use only one of the two reactants in this bimolecular slow step (dropping NO₂ or CO, respectively), when both species collide together in this single elementary step and so both must appear in the rate law."
+      "explanation": "Correct: Rate = k[NO<sub>2</sub>][CO]. When the slow (rate-determining) step is the FIRST step, its reactants are the original reactants, so the rate law is written directly from that step as if it were an elementary reaction: each reactant's concentration to the power of its coefficient. Step 1 has one NO<sub>2</sub> and one CO, so Rate = k[NO<sub>2</sub>][CO]. No intermediate shows up in the rate law here, so no substitution is needed.\n\n(B) is wrong because it uses the products of the slow step, NO and CO<sub>2</sub>, instead of the reactants. (C) and (D) are wrong because each leaves out one of the two reactants, but both particles collide in the slow step, so both must be in the rate law."
     },
     {
       "id": "5-54",
@@ -4762,7 +4762,7 @@ const QUESTIONS = {
         "Catalysts"
       ],
       "correct": 0,
-      "explanation": "Each valley between two energy humps represents a relatively stable (locally low-energy) species formed after one elementary step and consumed in the next — exactly the definition of an intermediate. Transition states are the peaks (humps), not the valleys. Choice C describes the peaks, not the valleys — the opposite diagram feature. Choice D conflates a single valley with a catalyst, which is instead identified by its consumed-then-regenerated pattern across the whole diagram, not by being a low point. Choice B (overall ΔH) is the net height difference between the very first reactant level and the very last product level, not any individual intermediate valley in between."
+      "explanation": "Correct: intermediates. On a multistep energy diagram, the peaks are transition states and the valleys between them are intermediates. An intermediate is a species made in one step and used up in a later step; it is a real, though short-lived, species that sits in a local energy minimum. Memory trick: peaks = transition states (unstable, cannot be isolated); valleys = intermediates.\n\n(C) is wrong because transition states are the peaks, the opposite feature.\n(B) is wrong because the overall ΔH is the net difference between the first reactants and the final products, not one valley.\n(D) is wrong because a catalyst is not a valley; it is identified by being used and then regenerated, so it does not appear in the overall equation."
     },
     {
       "id": "5-65",
@@ -4775,7 +4775,7 @@ const QUESTIONS = {
         "It's always the very first hump, regardless of height."
       ],
       "correct": 1,
-      "explanation": "The rate-determining step is, by definition, the slowest step, which corresponds to the largest activation energy barrier — visually, the tallest 'hump' on the energy diagram (measured from that step's own starting valley, not necessarily from the overall starting reactants). Choices A and D both arbitrarily fix the RDS's position regardless of the actual hump heights, which is false; its position in the sequence is irrelevant. Choice C gets the logic backwards: the RDS is the SLOWEST step, which corresponds to the HIGHEST activation energy barrier, not the lowest."
+      "explanation": "Correct: the step with the tallest energy hump. The rate-determining step is the slowest step, and the slowest step has the largest activation energy. On the diagram, that is the step whose peak is highest above its own starting valley (the energy the step must climb from where it begins). Position in the sequence does not matter; any step can be the slowest. (A) and (D) are wrong because they fix the rate-determining step as first or last no matter what the heights are.\n\n(C) is wrong because it reverses the logic: the lowest barrier is the fastest step, not the slowest."
     },
     {
       "id": "5-66",
@@ -4880,7 +4880,7 @@ const QUESTIONS = {
         "≈ 2.08 kJ/mol"
       ],
       "correct": 2,
-      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁). ln(3.60×10⁻³/4.50×10⁻⁴) = ln(8.00) = 2.079. (1/330 − 1/300) = (3.0303×10⁻³ − 3.3333×10⁻³) = −3.030×10⁻⁴ K⁻¹. So 2.079 = −(Ea/8.314)(−3.030×10⁻⁴), giving Ea = 2.079 × 8.314 / 3.030×10⁻⁴ ≈ 5.70×10⁴ J/mol ≈ 57.0 kJ/mol. Choice A (≈620 kJ/mol) is exactly 10× too large, consistent with a decimal-place slip in the final J-to-kJ conversion. Choice D (≈2.08 kJ/mol) is just the numerical value of ln(k₂/k₁) itself, mistaken for the final answer without ever multiplying by R or dividing by the ΔT term. Choice B (≈8.29 kJ/mol) is close to R (8.314) reported directly as if it were the answer, skipping the actual Arrhenius algebra."
+      "explanation": "Correct: ≈ 57.0 kJ/mol. Use the two-point Arrhenius equation: ln(k<sub>2</sub>/k<sub>1</sub>) = -(E<sub>a</sub>/R)(1/T<sub>2</sub> - 1/T<sub>1</sub>). Step 1: k<sub>2</sub>/k<sub>1</sub> = 3.60 x 10<sup>-3</sup> / 4.50 x 10<sup>-4</sup> = 8.00, and ln(8.00) = 2.079. Step 2: 1/330 - 1/300 = 0.0030303 - 0.0033333 = -3.03 x 10<sup>-4</sup> K<sup>-1</sup>. Step 3: solve for E<sub>a</sub> = (2.079)(8.314 J/mol K) / (3.03 x 10<sup>-4</sup>) = 5.70 x 10<sup>4</sup> J/mol = 57.0 kJ/mol. Be sure to use R in J (8.314) and convert to kJ at the end.\n\n(A) is wrong because it is ten times too large, a decimal slip in the conversion.\n(D) is wrong because 2.08 is just ln(k<sub>2</sub>/k<sub>1</sub>), not yet multiplied by R and divided by the temperature term.\n(B) is wrong because 8.29 is close to the value of R, which is not the activation energy."
     },
     {
       "id": "5-75",
@@ -5772,7 +5772,7 @@ const QUESTIONS = {
         "A dynamic state with forward and reverse reactions at equal rates."
       ],
       "correct": 3,
-      "explanation": "Equilibrium is dynamic — both forward and reverse reactions continue happening continuously, but at exactly equal rates, so there's no net change in any species' concentration over time, even though individual molecules keep reacting. Choice A is wrong because it describes a state where only the forward reaction runs, ignoring the reverse process that must also be occurring for equilibrium to exist. Choice C is wrong because all reactions completely stopping describes a dead system, not equilibrium — equilibrium requires ongoing activity that just happens to balance out. Choice B has the logic backwards: irreversible reactions run to completion and never establish a true equilibrium at all; it's specifically reversible reactions that reach equilibrium."
+      "explanation": "Correct: a dynamic state with forward and reverse reactions at equal rates. Chemical equilibrium is reached by a REVERSIBLE reaction when the forward rate equals the reverse rate. Both reactions keep going, so molecules are still reacting, but because the rates are equal the concentrations of every species stay constant. Key words: dynamic (still moving), equal rates (not equal amounts).\n\n(A) is wrong because the reverse reaction must also be occurring.\n(C) is wrong because the reactions have not stopped; they are balanced.\n(B) is wrong because irreversible reactions run to completion and never reach equilibrium; only reversible reactions do."
     },
     {
       "id": "7-2",
@@ -5785,7 +5785,7 @@ const QUESTIONS = {
         "They remain constant over time, but not necessarily equal."
       ],
       "correct": 3,
-      "explanation": "Equilibrium concentrations remain constant over time (since forward and reverse rates are equal), but there's no requirement that reactant and product concentrations be numerically equal to each other — that depends entirely on the value of K for that reaction. Choice C is wrong because oscillation would mean the rates keep swinging past each other, which contradicts the steady-state nature of equilibrium. Choice B is wrong because equilibrium concentrations are essentially never zero for both species (a zero concentration would mean no reverse or no forward reaction is even possible). Choice A is a common misconception: students often assume \"equilibrium\" means \"equal,\" but equal RATES, not equal concentrations, is the actual condition — [reactant] = [product] only happens to be true when K = 1."
+      "explanation": "Correct: they remain constant over time, but not necessarily equal. At equilibrium the forward and reverse RATES are equal, which makes each concentration stop changing. How much product versus reactant is present depends on K: if K is large there is mostly product, if K is small there is mostly reactant, and they are equal only in the special case where K = 1 (for a simple 1:1 reaction).\n\n(A) is wrong because it confuses equal rates with equal concentrations.\n(B) is wrong because both reactants and products are present at equilibrium; the reactions are still going.\n(C) is wrong because the concentrations settle at steady values and do not oscillate."
     },
     {
       "id": "7-3",
@@ -5798,7 +5798,7 @@ const QUESTIONS = {
         "Because concentrations keep changing visibly and measurably at the macroscopic scale."
       ],
       "correct": 1,
-      "explanation": "The word \"dynamic\" emphasizes that molecular-level activity (both forward and reverse reactions) never actually stops at equilibrium — it's only the observable, macroscopic concentrations that appear constant, because the two opposing processes exactly balance each other out. Choice C is wrong because equilibrium isn't fleeting; once reached, it can persist indefinitely as long as the system isn't disturbed. Choice A is wrong because equilibrium doesn't require any external energy input to be maintained — it's a natural balance point the system settles into. Choice D directly contradicts the definition of equilibrium, which requires macroscopic concentrations to stay constant, not visibly change."
+      "explanation": "Correct: because reactions continue at the molecular level though bulk concentrations look constant. 'Dynamic' means in motion. At equilibrium, individual molecules keep reacting in both directions, but the forward and reverse rates are equal, so for every molecule of product formed, another changes back. From the outside, nothing seems to change, which is what 'static' would mean, but inside the system there is constant activity.\n\n(C) is wrong because equilibrium can last indefinitely if the system is undisturbed.\n(A) is wrong because equilibrium does not need an outside energy input.\n(D) is wrong because at equilibrium the macroscopic concentrations do NOT change."
     },
     {
       "id": "7-4",
@@ -5811,7 +5811,7 @@ const QUESTIONS = {
         "Forward rate drops to exactly zero once equilibrium is reached."
       ],
       "correct": 1,
-      "explanation": "As the reaction proceeds, reactant concentration decreases (slowing the forward reaction) while product concentration increases (speeding up the reverse reaction) — these two trends continue until the rates become exactly equal, which is the defining condition of equilibrium. Choice D is wrong because the forward reaction never actually reaches zero rate at equilibrium; it keeps happening, just at the same rate as the reverse reaction. Choice A is wrong because the rates clearly must change as concentrations change — they can't be constant from the very start if the system starts with only reactants. Choice C describes exactly the opposite trend of what actually happens as the system approaches equilibrium."
+      "explanation": "Correct: the forward rate decreases while the reverse rate increases until they are equal. Rate depends on concentration. At the start there are only reactants, so the forward rate is at its highest and the reverse rate is zero (no product yet). As reactants are used up, the forward rate drops; as product builds up, the reverse rate rises. When the two rates meet, equilibrium is reached and the concentrations stop changing.\n\n(A) is wrong because the rates must change as the concentrations change.\n(C) is wrong because it states the opposite trends.\n(D) is wrong because at equilibrium the forward rate is equal to the reverse rate, not zero."
     },
     {
       "id": "7-5",
@@ -5837,7 +5837,7 @@ const QUESTIONS = {
         "Reversible reactions always favor products completely, no matter what value K has."
       ],
       "correct": 2,
-      "explanation": "Because both forward and reverse reactions can occur, a reversible reaction will move toward the same equilibrium state (the same K value at a given temperature) regardless of whether it starts with only reactants, only products, or some mixture of both. Choice B directly contradicts the definition of a reversible reaction — reversibility is exactly what allows a system to settle into equilibrium. Choice A describes an irreversible reaction, not a reversible one; by definition, reversible reactions can proceed in both directions. Choice D is false because how far a reaction favors products depends entirely on the specific value of K — a small K means the reaction favors reactants instead, so \"always favor products completely\" isn't generally true."
+      "explanation": "Correct: a reversible reaction can reach equilibrium from reactants, products, or a mix. Reversible means the reaction can go in both directions, so the same equilibrium state (same K at the same temperature) is reached whether you start with only reactants, only products, or any combination. The system shifts whichever way it needs to until Q = K.\n\n(A) is wrong because that describes an irreversible reaction.\n(B) is wrong because reversibility is what allows an equilibrium to form.\n(D) is wrong because whether products or reactants are favored depends on the size of K; a small K favors reactants."
     },
     {
       "id": "7-7",
@@ -5876,7 +5876,7 @@ const QUESTIONS = {
         "="
       ],
       "correct": 2,
-      "explanation": "The double-headed harpoon arrow (⇌) specifically denotes a reversible reaction, indicating that both forward and reverse processes can occur — this is distinct from a single forward arrow (→), which implies the reaction only proceeds in one direction (often treated as going essentially to completion). Choice A (≠) simply means \"not equal to\" and has no connection to reaction direction at all. Choice D (=) implies a static mathematical equality, not an ongoing chemical process with two competing directions, so it fails to capture the dynamic, reversible nature the question is asking about."
+      "explanation": "Correct: ⇌. The double arrow (⇌) shows a reversible reaction, one in which the forward and reverse reactions both occur, which is what allows an equilibrium to be reached. A single arrow (→) means the reaction goes in one direction only, essentially to completion.\n\n(A) is wrong because ≠ means 'not equal to' in math and has no meaning for reaction direction.\n(B) is wrong because → shows a one-way reaction.\n(D) is wrong because = is a mathematical equality symbol, not a way of writing a chemical process with two directions."
     },
     {
       "id": "7-10",
@@ -5889,7 +5889,7 @@ const QUESTIONS = {
         "K = [NO]²[O₂]/[NO₂]²"
       ],
       "correct": 2,
-      "explanation": "The equilibrium expression is products (raised to their coefficients) divided by reactants (raised to their coefficients): K = [NO₂]²/([NO]²[O₂]), correctly using the coefficient 2 for both NO and NO₂ as exponents. Choice A has the right orientation (products over reactants) but drops the exponents entirely, as if every species had a coefficient of 1. Choice B has the correct exponents but puts reactants over products — it's the reciprocal of the true K expression, which would actually represent K for the reverse reaction. Choice D makes the same orientation error as choice B (reactants over products) and also drops the exponents, compounding both mistakes at once."
+      "explanation": "Correct: K = [NO<sub>2</sub>]<sup>2</sup>/([NO]<sup>2</sup>[O<sub>2</sub>]). The equilibrium expression is K = [products]/[reactants], with each concentration raised to the power of its coefficient from the balanced equation. Products: 2NO<sub>2</sub> goes on top as [NO<sub>2</sub>]<sup>2</sup>. Reactants: 2NO and 1 O<sub>2</sub> go on the bottom as [NO]<sup>2</sup>[O<sub>2</sub>].\n\n(A) is wrong because it leaves out the exponents.\n(B) is wrong because it has the products on top but ignores the coefficient 2 on NO and on NO<sub>2</sub>.\n(D) is wrong because it has reactants over products and also leaves out the exponents, which gives a reciprocal expression."
     },
     {
       "id": "7-11",
@@ -5902,7 +5902,7 @@ const QUESTIONS = {
         "K = [CaCO₃]/([CaO][CO₂])"
       ],
       "correct": 1,
-      "explanation": "Pure solids are omitted from the equilibrium expression, since their \"concentration\" (better described as activity) doesn't meaningfully change regardless of how much solid is present. With CaCO₃(s) and CaO(s) both omitted, only the gas-phase CO₂ remains: K = [CO₂]. Choices A and C both mistakenly keep CaO in the expression as if it were a solute whose concentration varies — it's a solid and shouldn't appear at all. Choice D compounds that same error by also keeping CaCO₃ in the expression and inverting the ratio (reactant over products) besides."
+      "explanation": "Correct: K = [CO<sub>2</sub>]. Pure solids and pure liquids are left out of the equilibrium expression, because their concentration is essentially constant and does not change with the amount of solid present. Only gases and dissolved (aqueous) species appear. In this reaction CaCO<sub>3</sub> and CaO are both solids, so only CO<sub>2</sub>(g) is left: K = [CO<sub>2</sub>]. (A) and (C) are wrong because they include CaO, a solid.\n\n(D) is wrong because it includes both solids and has the ratio upside down (reactants over products)."
     },
     {
       "id": "7-12",
@@ -5915,7 +5915,7 @@ const QUESTIONS = {
         "Backward, toward reactants"
       ],
       "correct": 3,
-      "explanation": "Since Q (40.0) > K (25.0), there is currently too much product relative to the equilibrium ratio, so the reaction shifts backward (toward reactants), converting some product back to reactant, until Q decreases to match K. Choice B is wrong because Q ≠ K here, so the system is demonstrably not at equilibrium yet. Choice C is wrong because this is exactly the situation the Q vs. K comparison is designed to resolve — no extra information is needed. Choice A has the direction backwards: it applies the rule for when Q < K (shift forward) to a case where Q is actually greater than K."
+      "explanation": "Correct: backward, toward reactants. Compare Q (the reaction quotient, calculated from the CURRENT concentrations) to K. If Q < K, there is too little product, so the reaction shifts forward. If Q > K, there is too much product, so the reaction shifts backward. If Q = K, the system is at equilibrium. Here Q = 40.0 is greater than K = 25.0, so there is too much product, and the reaction shifts backward until Q falls to 25.0.\n\n(A) is wrong because it applies the Q < K rule.\n(B) is wrong because Q is not equal to K, so the system is not at equilibrium.\n(C) is wrong because Q and K are all you need."
     },
     {
       "id": "7-13",
@@ -5928,7 +5928,7 @@ const QUESTIONS = {
         "Q = 5.0 × 10⁻⁴; shifts backward (Q > K)"
       ],
       "correct": 3,
-      "explanation": "Q = [H₂]²[S₂]/[H₂S]² = (0.0500)²(0.0500)/(0.500)² = (0.00250)(0.0500)/0.250 = 1.25×10⁻⁴/0.250 = 5.0×10⁻⁴. Comparing to K = 1.0×10⁻⁶: since Q (5.0×10⁻⁴) > K (1.0×10⁻⁶), the reaction shifts backward, toward reactants, to decrease Q back down to K. Choice B reaches the same (correct) Q value but pairs it with the wrong shift rule, applying \"Q < K, shift forward\" to a case where Q is actually the larger number. Choices A and C both report Q = 5.0×10⁻³, off by a factor of 10 from the correct value (likely from a decimal-place slip while squaring [H₂]) — A then compounds that with the wrong shift direction, while C at least reaches the correct backward-shift conclusion despite the flawed Q."
+      "explanation": "Correct: Q = 5.0 x 10<sup>-4</sup>; shifts backward (Q > K). Write Q for 2H<sub>2</sub>S ⇌ 2H<sub>2</sub> + S<sub>2</sub>: Q = [H<sub>2</sub>]<sup>2</sup>[S<sub>2</sub>]/[H<sub>2</sub>S]<sup>2</sup>. Substitute: (0.0500)<sup>2</sup>(0.0500)/(0.500)<sup>2</sup> = (0.00250)(0.0500)/0.250 = 1.25 x 10<sup>-4</sup>/0.250 = 5.0 x 10<sup>-4</sup>. Compare to K = 1.0 x 10<sup>-6</sup>: Q is much larger than K, so there is too much product and the reaction shifts backward.\n\n(B) is wrong because it has the correct Q but the wrong direction; shifting forward applies only when Q < K. (A) and (C) are wrong because their Q = 5.0 x 10<sup>-3</sup> is ten times too large, a calculation slip."
     },
     {
       "id": "7-14",
@@ -5954,7 +5954,7 @@ const QUESTIONS = {
         "None of these would change Q"
       ],
       "correct": 0,
-      "explanation": "Adding more A directly and immediately changes the concentration value used in the Q expression, changing its calculated value away from K (making Q ≠ K momentarily, until the system shifts to restore equality). Choice B is wrong because a temperature change on its own doesn't instantaneously alter any concentration term that Q is built from — its main effect is on K itself (Unit 7.9), a separate mechanism from directly perturbing Q via concentration. Choice C is wrong because simply waiting, with no concentrations or conditions changed, leaves Q exactly where it was — if the system was at equilibrium, it stays there. Choice D is wrong because option A (adding A) clearly does change Q, so \"none of these\" can't be correct."
+      "explanation": "Correct: adding more A to the container. Q is calculated from the current concentrations, so anything that changes a concentration changes Q immediately. Adding A raises [A], the reactant on the bottom of Q, so Q drops below K and the system will shift forward.\n\n(B) is wrong because a temperature change does not alter the concentrations right away; it changes the value of K.\n(C) is wrong because nothing changes in a system at equilibrium as time passes.\n(D) is wrong because adding A does change Q."
     },
     {
       "id": "7-16",
@@ -5967,7 +5967,7 @@ const QUESTIONS = {
         "The system is currently far away from its equilibrium state."
       ],
       "correct": 2,
-      "explanation": "Q = K is, by definition, the equilibrium condition — when the reaction quotient (calculated from current concentrations) exactly matches the equilibrium constant, the system has no net tendency to shift in either direction, meaning it has reached equilibrium. Choice B is wrong because Q = K can occur at any point where the system happens to be balanced, including right after significant reaction has already occurred — it doesn't imply the reaction is brand new. Choice A is wrong because Q = K isn't some rare or impossible coincidence; it's literally what every reversible reaction settles into given enough time. Choice D is the opposite of correct: Q = K means the system is AT equilibrium, not far from it."
+      "explanation": "Correct: the system is at equilibrium; no net shift will occur. Q is the reaction quotient, calculated from the current concentrations, and K is its value at equilibrium. When Q = K, the system is at equilibrium: the forward and reverse rates are equal and there is no net change. This can happen at any point, including after a reaction has taken place.\n\n(A) is wrong because every reversible reaction reaches Q = K.\n(B) is wrong because Q = K does not mean the reaction has not started.\n(D) is wrong because Q = K means the system is AT equilibrium, not far from it."
     },
     {
       "id": "7-17",
@@ -5980,7 +5980,7 @@ const QUESTIONS = {
         "4.00"
       ],
       "correct": 0,
-      "explanation": "Q = [B][C]/[A]² = (1.00)(0.500)/(2.00)² = 0.500/4.00 = 0.125. Choice B (0.250) comes from forgetting to square [A], using [B][C]/[A] = 0.500/2.00 = 0.250 instead. Choice D (4.00) compounds that same error with an inverted expression: [A]/([B][C]) = 2.00/0.500 = 4.00. Choice C (8.00) correctly squares [A] but inverts the whole ratio (reactants over products instead of products over reactants): [A]²/([B][C]) = 4.00/0.500 = 8.00 — that would actually be Q for the reverse reaction, not the forward one asked about."
+      "explanation": "Correct: 0.125. Write Q for 2A ⇌ B + C as products over reactants, with exponents from the coefficients: Q = [B][C]/[A]<sup>2</sup>. Substitute: (1.00)(0.500)/(2.00)<sup>2</sup> = 0.500/4.00 = 0.125. The coefficient 2 on A is what makes it squared.\n\n(B) is wrong because it forgets to square [A]: 0.500/2.00 = 0.250.\n(D) is wrong because it forgets the square and inverts the ratio: 2.00/0.500 = 4.00.\n(C) is wrong because it squares [A] but inverts the ratio: 4.00/0.500 = 8.00, which would be Q for the reverse reaction."
     },
     {
       "id": "7-18",
@@ -6006,7 +6006,7 @@ const QUESTIONS = {
         "0.0125"
       ],
       "correct": 3,
-      "explanation": "K = [NO]²[Cl₂]/[NOCl]² = (0.100)²(0.0500)/(0.200)² = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Choice B (0.125) results from forgetting to square [NO], computing [NO][Cl₂]/[NOCl]² = (0.100)(0.0500)/0.0400 = 0.125 instead. Choices A (0.00625) and C (1.25) are off by a factor of 2 and 100 respectively from the correct value — both consistent with a decimal-placement or exponent slip while squaring the small numbers, rather than a conceptual misunderstanding of the expression's setup."
+      "explanation": "Correct: 0.0125. Write K for 2NOCl ⇌ 2NO + Cl<sub>2</sub>: K = [NO]<sup>2</sup>[Cl<sub>2</sub>]/[NOCl]<sup>2</sup>. Substitute: (0.100)<sup>2</sup>(0.0500)/(0.200)<sup>2</sup> = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Note that both NO and NOCl are squared because of their coefficients of 2.\n\n(B) is wrong because it does not square [NO]: (0.100)(0.0500)/0.0400 = 0.125. (A) and (C) are wrong because they are off from the correct value by arithmetic slips (a factor of 2 and a factor of 100)."
     },
     {
       "id": "7-20",
@@ -6019,7 +6019,7 @@ const QUESTIONS = {
         "0.500"
       ],
       "correct": 1,
-      "explanation": "K = [B]²/[A] = (0.800)²/0.400 = 0.640/0.400 = 1.60. Choice C (0.400) simply restates [A] itself rather than completing the K calculation at all. Choice A (2.00) comes from forgetting to square [B]: [B]/[A] = 0.800/0.400 = 2.00. Choice D (0.500) inverts that same unsquared ratio: [A]/[B] = 0.400/0.800 = 0.500 — combining both the missing-exponent error and an inverted numerator/denominator."
+      "explanation": "Correct: 1.60. For A ⇌ 2B, K = [B]<sup>2</sup>/[A], because the coefficient 2 on B becomes an exponent. Substitute: (0.800)<sup>2</sup>/0.400 = 0.640/0.400 = 1.60.\n\n(A) is wrong because it forgets to square [B]: 0.800/0.400 = 2.00.\n(D) is wrong because it inverts that unsquared ratio: 0.400/0.800 = 0.500.\n(C) is wrong because 0.400 is just [A] by itself and K was never calculated."
     },
     {
       "id": "7-21",
@@ -6032,7 +6032,7 @@ const QUESTIONS = {
         "1.20"
       ],
       "correct": 0,
-      "explanation": "Concentrations: [A] = 0.600/2.00 = 0.300 M, [B] = 0.400/2.00 = 0.200 M. K = [B]/[A] = 0.200/0.300 = 0.667. Choice B (1.50) is the reciprocal of the correct answer, coming from inverting the ratio to [A]/[B] instead of [B]/[A]. Choice D (1.20) doesn't correspond to a valid K expression at all — it looks like a mole-and-volume value mixed together incorrectly rather than a proper concentration ratio. Choice C (0.300) is just [A] itself, reported without ever forming the actual [B]/[A] ratio the K expression requires."
+      "explanation": "Correct: 0.667. K uses concentrations (mol/L), not moles, so first divide by the volume. [A] = 0.600 mol/2.00 L = 0.300 M; [B] = 0.400 mol/2.00 L = 0.200 M. For A ⇌ B, K = [B]/[A] = 0.200/0.300 = 0.667. (For this reaction the volume cancels, since the moles of gas are equal on both sides, but converting to concentration is still the correct habit.)\n\n(B) is wrong because it inverts the ratio ([A]/[B]) to get 1.50.\n(C) is wrong because 0.300 is just [A].\n(D) is wrong because 1.20 does not match any correct form of the K expression."
     },
     {
       "id": "7-22",
@@ -6045,7 +6045,7 @@ const QUESTIONS = {
         "0.00941"
       ],
       "correct": 0,
-      "explanation": "K = [PCl₃][Cl₂]/[PCl₅] = (0.0970)(0.0970)/0.0300 = 0.009409/0.0300 = 0.314. Choice D (0.00941) is just the numerator [PCl₃][Cl₂] = 0.009409 on its own, with the division by [PCl₅] never carried out. Choice B (3.18) is the reciprocal of the correct answer, [PCl₅]/([PCl₃][Cl₂]) = 1/0.314 — an inverted (reactant-over-product) expression. Choice C (0.0970) simply restates one of the given equilibrium concentrations rather than performing any calculation."
+      "explanation": "Correct: 0.314. Write K for PCl<sub>5</sub> ⇌ PCl<sub>3</sub> + Cl<sub>2</sub>: K = [PCl<sub>3</sub>][Cl<sub>2</sub>]/[PCl<sub>5</sub>]. Substitute: (0.0970)(0.0970)/0.0300 = 0.009409/0.0300 = 0.314. Be sure to do the division as the last step.\n\n(D) is wrong because 0.00941 is only the numerator; the division by [PCl<sub>5</sub>] was skipped.\n(B) is wrong because 3.18 is 1/0.314, from inverting the expression (reactants over products).\n(C) is wrong because 0.0970 is just one of the given concentrations."
     },
     {
       "id": "7-23",
@@ -6058,7 +6058,7 @@ const QUESTIONS = {
         "This distinction does not actually matter for calculating K correctly."
       ],
       "correct": 2,
-      "explanation": "K is specifically defined using the equilibrium expression evaluated at the point where the system has actually reached equilibrium; using initial (non-equilibrium) concentrations would give Q, not K. Choice A is false — initial and equilibrium concentrations are generally different, since the reaction proceeds from the initial state toward equilibrium (unless the system happened to start already at equilibrium, in which case no net reaction occurs at all). Choice B is false for the same reason: plugging in initial concentrations calculates Q at time zero, not the true K. Choice D dismisses a distinction that is actually essential to getting the right numerical value."
+      "explanation": "Correct: K is defined using equilibrium concentrations; initial values would give Q, not K. K is a constant for a given reaction at a given temperature, but only when the concentrations come from a system that is AT equilibrium. If you put non-equilibrium concentrations, such as the initial ones, into the same expression, you calculate Q, which tells you which way the reaction will shift but not the value of K.\n\n(A) is wrong because the initial and equilibrium concentrations are usually different, which is why the reaction proceeds.\n(B) is wrong because only equilibrium concentrations give K.\n(D) is wrong because the distinction is essential."
     },
     {
       "id": "7-24",
@@ -6085,7 +6085,7 @@ const QUESTIONS = {
         "The reaction is exactly balanced between reactants and products."
       ],
       "correct": 0,
-      "explanation": "An extremely large K value means the numerator (products) vastly outweighs the denominator (reactants) at equilibrium — this indicates the reaction strongly favors products, proceeding essentially to completion, with only a negligible amount of reactant remaining. Choice B is the exact opposite conclusion — a huge K favors products, not reactants. Choice D is wrong because \"exactly balanced\" describes K ≈ 1, not a K that's fifteen orders of magnitude greater than 1. Choice C is wrong because a large (or small) K value has nothing to do with whether equilibrium is reached — every reversible reaction reaches some equilibrium; K's magnitude just tells you where that equilibrium lies."
+      "explanation": "Correct: the reaction favors products, going essentially to completion. K = [products]/[reactants], so a huge K (4.2 x 10<sup>15</sup>) means the products are enormously larger than the reactants at equilibrium. Rules of thumb: K much greater than 1 favors products; K much less than 1 favors reactants; K near 1 has significant amounts of both.\n\n(B) is wrong because it is the opposite conclusion.\n(D) is wrong because 'balanced' would be K near 1.\n(C) is wrong because the size of K says where the equilibrium lies, not whether one exists."
     },
     {
       "id": "7-26",
@@ -6098,7 +6098,7 @@ const QUESTIONS = {
         "The reaction has roughly an equal mix of products and reactants at equilibrium."
       ],
       "correct": 2,
-      "explanation": "An extremely small K value means the denominator (reactants) vastly outweighs the numerator (products) at equilibrium — the forward reaction proceeds to only a negligible extent, strongly favoring reactants remaining largely unreacted. Choice D is wrong because a K this many orders of magnitude below 1 is nowhere close to an even mix — it signals overwhelming reactant dominance. Choice B is the opposite of correct — such a tiny K means products are strongly disfavored, not favored. Choice A is wrong because K values spanning many orders of magnitude, including extremely small or large ones, are entirely normal and physically valid for real reactions."
+      "explanation": "Correct: the reaction strongly favors reactants; the forward reaction barely proceeds. K = [products]/[reactants], so K = 3.5 x 10<sup>-12</sup>, much less than 1, means the reactants are far larger than the products at equilibrium. Almost no product forms.\n\n(B) is wrong because it is the opposite: a tiny K means products are disfavored.\n(D) is wrong because an equal mix would need K near 1.\n(A) is wrong because K values this small are common and physically valid."
     },
     {
       "id": "7-27",
@@ -6137,7 +6137,7 @@ const QUESTIONS = {
         "K = 2.0"
       ],
       "correct": 2,
-      "explanation": "A reaction with an enormously large K (like 5.0 × 10²⁵) has an equilibrium position so heavily favoring products that, practically speaking, the reaction can be treated as going to completion, with an immeasurably tiny amount of reactant remaining. Choice B (K = 1.0 × 10⁻²⁰) is the opposite extreme — an extremely tiny K means the reaction barely proceeds forward at all, favoring reactants almost completely, not products. Choices A and D (K = 0.50 and K = 2.0) are both close to 1, meaning meaningful amounts of both reactants and products coexist at equilibrium — neither is anywhere close to \"going to completion.\""
+      "explanation": "Correct: K = 5.0 x 10<sup>25</sup>. K = [products]/[reactants], so a huge K means that at equilibrium almost all of the material is product and only an immeasurably small amount of reactant remains. That is what 'goes essentially to completion' means. Rule of thumb: K greater than about 10<sup>3</sup> is product-favored; K less than about 10<sup>-3</sup> is reactant-favored; values near 1 leave significant amounts of both.\n\n(B) is wrong because K = 1.0 x 10<sup>-20</sup> is the opposite extreme: the reaction hardly goes forward. (A) and (D) are wrong because K = 0.50 and K = 2.0 are both near 1, so large amounts of both reactants and products are present."
     },
     {
       "id": "7-30",
@@ -6150,7 +6150,7 @@ const QUESTIONS = {
         "1.0"
       ],
       "correct": 2,
-      "explanation": "K for a reversed reaction is the reciprocal of the original: K(reverse) = 1/K(original) = 1/8.0 = 0.125. Choice D (1.0) would only be correct if the original K were already 1, since only 1 is its own reciprocal. Choice A (8.0) mistakenly treats the reverse reaction's K as identical to the forward one, ignoring that reversal is a specific mathematical operation (taking the reciprocal), not a no-op. Choice B (−8.0) is dimensionally impossible — equilibrium constants are ratios of concentrations raised to powers and are always positive, so a negative K can never be correct."
+      "explanation": "Correct: 0.125. When a reaction is reversed, the products and reactants trade places in the expression, so the new K is the reciprocal of the old one: K<sub>reverse</sub> = 1/K<sub>forward</sub> = 1/8.0 = 0.125. If the forward reaction strongly favors products (K = 8.0), the reverse reaction should disfavor them (K less than 1), which matches.\n\n(A) is wrong because it ignores the reversal.\n(D) is wrong because 1.0 would be right only if the original K were 1.\n(B) is wrong because K is a ratio of concentrations and can never be negative."
     },
     {
       "id": "7-31",
@@ -6163,7 +6163,7 @@ const QUESTIONS = {
         "8.0"
       ],
       "correct": 2,
-      "explanation": "Doubling all coefficients means squaring K: K(new) = K(original)² = (4.0)² = 16.0. Choice A (4.0) treats K as unaffected by the coefficient change, which ignores the exponent rule entirely. Choice B (2.0) and choice D (8.0) both apply a linear scaling instead (dividing or multiplying K by roughly the scale factor) rather than the correct squaring operation — coefficient scaling affects K multiplicatively through exponents, not through simple addition or multiplication by the scale factor."
+      "explanation": "Correct: 16.0. The rules for changing K: reversing a reaction takes the reciprocal; multiplying all coefficients by n raises K to the power n; adding reactions multiplies their K values. Going from A ⇌ 2B to 2A ⇌ 4B multiplies every coefficient by 2, so K<sub>new</sub> = (K<sub>old</sub>)<sup>2</sup> = (4.0)<sup>2</sup> = 16.0. You can see why from the expression: the original K = [B]<sup>2</sup>/[A] and the new one is [B]<sup>4</sup>/[A]<sup>2</sup>, which is the original squared.\n\n(A) is wrong because K does change with the coefficients. (B) and (D) are wrong because they scale K by simple division or multiplication instead of using an exponent."
     },
     {
       "id": "7-32",
@@ -6176,7 +6176,7 @@ const QUESTIONS = {
         "5.0"
       ],
       "correct": 1,
-      "explanation": "When reactions are added together (with B cancelling as an intermediate, exactly like a Hess's Law combination), the overall K is the product of the individual K values: K(overall) = K₁ × K₂ = 2.0 × 3.0 = 6.0. Choice C (0.667) comes from dividing K₂ by K₁ instead of multiplying. Choice A (1.5) comes from the reverse division, K₁/K₂. Choice D (5.0) comes from simply adding K₁ + K₂, treating K values like they combine additively (the way ΔG values do) rather than multiplicatively, which is the correct rule when equilibrium expressions themselves are being multiplied together upon addition of reaction steps."
+      "explanation": "Correct: 6.0. When two reactions are added to give a third (the B on the two sides cancels), the K of the new reaction is the PRODUCT of the individual K values: K = K<sub>1</sub> x K<sub>2</sub> = 2.0 x 3.0 = 6.0. You can check it with the expressions: K<sub>1</sub> = [B]/[A] and K<sub>2</sub> = [C]/[B]; multiplying them cancels [B] and leaves [C]/[A], the K of A ⇌ C.\n\n(D) is wrong because K values multiply when reactions are added; they do not add. (A) and (C) are wrong because they come from dividing the K values, which would be the rule for subtracting reactions."
     },
     {
       "id": "7-33",
@@ -6189,7 +6189,7 @@ const QUESTIONS = {
         "50"
       ],
       "correct": 0,
-      "explanation": "Halving all coefficients means taking the square root of K: K(new) = √K(original) = √25 = 5.0. This is the reverse operation of squaring K when doubling coefficients. Choice D (50) applies a linear doubling instead of a square root. Choice C (12.5) applies a linear halving (K/2) instead of a square root. Choice B (625) applies the opposite operation entirely — squaring K, which would be correct for doubling coefficients, not halving them."
+      "explanation": "Correct: 5.0. Multiplying all coefficients by a factor n raises K to the power n. Halving the coefficients means n = 1/2, which is the square root: K<sub>new</sub> = √25 = 5.0. Check with the expressions: the original K = [B]<sup>2</sup>/[A] = 25, and the new one is [B]/[A]<sup>1/2</sup>, which is the square root of the original.\n\n(B) is wrong because squaring K is the rule for doubling coefficients. (C) and (D) are wrong because they divide or multiply K by 2 instead of using an exponent."
     },
     {
       "id": "7-34",
@@ -6202,7 +6202,7 @@ const QUESTIONS = {
         "5.0"
       ],
       "correct": 3,
-      "explanation": "Adding (1) and (2) directly (B cancels as an intermediate) gives 2A ⇌ 2C. K(overall) = K₁ × K₂ = 10.0 × 0.50 = 5.0. Choice C (10.5) comes from adding K₁ + K₂ instead of multiplying, mistakenly treating K values as additive. Choice A (20.0) comes from dividing K₁/K₂ = 10.0/0.50 = 20.0 instead of multiplying. Choice B (0.05) comes from the reverse division, K₂/K₁ = 0.50/10.0 = 0.05 — both division errors mix up the correct combination rule for added reaction steps."
+      "explanation": "Correct: 5.0. Add the two reactions: 2A ⇌ B and B ⇌ 2C give 2A ⇌ 2C, with B canceling. When reactions are added, their K values multiply: K = K<sub>1</sub> x K<sub>2</sub> = 10.0 x 0.50 = 5.0. Check: K<sub>1</sub> = [B]/[A]<sup>2</sup> and K<sub>2</sub> = [C]<sup>2</sup>/[B], so the product is [C]<sup>2</sup>/[A]<sup>2</sup>, the K of the overall reaction.\n\n(C) is wrong because K values are not added. (A) and (B) are wrong because they come from dividing the K values (10.0/0.50 = 20.0 and 0.50/10.0 = 0.05), which is the rule for subtracting reactions, not adding them."
     },
     {
       "id": "7-35",
@@ -6228,7 +6228,7 @@ const QUESTIONS = {
         "[A] = 1.00, [B] = x"
       ],
       "correct": 2,
-      "explanation": "Since the reaction proceeds forward (A is consumed, B is formed) to reach equilibrium from these starting conditions, the ICE table shows A decreasing by x and B increasing by x: [A] = 1.00 − x, [B] = 0 + x = x. Choice B has the signs backwards, implying B is being consumed (−x) and A is increasing, which would only make sense if the reaction started with excess B and ran in reverse — not the case here. Choice D incorrectly leaves [A] completely unchanged, which would violate the requirement that whatever A is consumed must show up as B formed. Choice A swaps which species starts large and which starts at zero, contradicting the stated initial conditions ([A]₀ = 1.00 M, [B]₀ = 0)."
+      "explanation": "Correct: [A] = 1.00 - x, [B] = x. An ICE table tracks Initial, Change, and Equilibrium. Starting with only A, the reaction can only go forward, so A is used up (change = -x) and B is formed (change = +x). Equilibrium: [A] = 1.00 - x and [B] = 0 + x = x. The changes follow the coefficients (here 1:1).\n\n(B) is wrong because it has the signs reversed, which would mean starting with B.\n(D) is wrong because it leaves A unchanged, though any A that reacts must disappear as B appears.\n(A) is wrong because it swaps which species starts with 1.00 M."
     },
     {
       "id": "7-37",
@@ -6241,7 +6241,7 @@ const QUESTIONS = {
         "[A]=0.25 M, [B]=0.75 M"
       ],
       "correct": 1,
-      "explanation": "K = x/(1.00−x) = 4.0. Solving: x = 4.0(1.00−x) = 4.0 − 4.0x, so x + 4.0x = 4.0, giving 5.0x = 4.0, x = 0.80. Equilibrium: [A] = 1.00−0.80 = 0.20 M, [B] = 0.80 M. Choice A (0.50/0.50) would only be correct if K equaled exactly 1, not 4.0. Choice D (0.25/0.75) gives a ratio of 0.75/0.25 = 3, not 4, so it doesn't actually satisfy the given K. Choice C (0.80/0.20) swaps which value belongs to A and which to B — plugging those into K = [B]/[A] gives 0.20/0.80 = 0.25, the reciprocal of the correct K, showing the values were assigned to the wrong species."
+      "explanation": "Correct: [A] = 0.20 M, [B] = 0.80 M. From the ICE table, K = [B]/[A] = x/(1.00 - x) = 4.0. Solve: x = 4.0(1.00 - x) = 4.0 - 4.0x, so 5.0x = 4.0 and x = 0.80. Then [A] = 1.00 - 0.80 = 0.20 M and [B] = 0.80 M. Check: 0.80/0.20 = 4.0. Since K is greater than 1, product is favored, so [B] must be larger than [A].\n\n(A) is wrong because 0.50/0.50 would give K = 1.\n(D) is wrong because 0.75/0.25 gives K = 3.\n(C) is wrong because it has the values on the wrong species: 0.20/0.80 = 0.25, the reciprocal of K."
     },
     {
       "id": "7-38",
@@ -6254,7 +6254,7 @@ const QUESTIONS = {
         "Since K is small, assume x is negligible: (0.500−x) ≈ 0.500."
       ],
       "correct": 3,
-      "explanation": "When K is very small (here, 1.0 × 10⁻⁵) relative to a reasonably large initial concentration, very little reaction actually occurs to reach equilibrium, meaning x will be very small compared to 0.500 M — this justifies the standard simplifying assumption (0.500−x) ≈ 0.500. Choice B is overly cautious: always defaulting to the full quadratic ignores a legitimate, standard shortcut that saves significant algebra when it's valid. Choice A overstates the case — simplifying assumptions are a routine, well-justified technique in equilibrium problems when K is small enough. Choice C goes to the opposite extreme, assuming essentially complete conversion (x = [A]₀), which would only make sense for a very large K, not a tiny one like 1.0 × 10⁻⁵."
+      "explanation": "Correct: since K is small, assume x is negligible, so (0.500 - x) ≈ 0.500. When K is very small (1.0 x 10<sup>-5</sup>) and the starting concentration is fairly large, only a tiny amount reacts, so x is tiny compared with 0.500. Then 0.500 - x is practically 0.500, and the algebra turns into a simple square root instead of a quadratic. The standard check: x should be less than 5% of the starting concentration.\n\n(B) is wrong because the quadratic works, but it is an unnecessary amount of work when the approximation is valid.\n(A) is wrong because small-x approximations are a standard technique.\n(C) is wrong because x = 0.500 M would mean the reaction went to completion, which would take a huge K."
     },
     {
       "id": "7-39",
@@ -6267,7 +6267,7 @@ const QUESTIONS = {
         "1.0 × 10⁻⁵ M"
       ],
       "correct": 2,
-      "explanation": "Using the simplified K expression: K ≈ x²/0.500 = 1.0×10⁻⁵. Solving: x² = 0.500 × 1.0×10⁻⁵ = 5.0×10⁻⁶, so x = √(5.0×10⁻⁶) = 2.2×10⁻³ M. Checking: 2.2×10⁻³/0.500 = 0.45%, well under 5%, confirming the assumption was valid. Choice A (5.0×10⁻⁶) is x² itself, not x — the square root step was skipped. Choice D (1.0×10⁻⁵) simply restates K without doing any algebra with it. Choice B (0.500 M) treats x as if it equaled the entire initial concentration, which directly contradicts the small-x approximation the problem explicitly instructs you to use."
+      "explanation": "Correct: 2.2 x 10<sup>-3</sup> M. For A ⇌ B + C with [A]<sub>0</sub> = 0.500, the ICE table gives [A] = 0.500 - x, [B] = x, [C] = x. K = x<sup>2</sup>/(0.500 - x) ≈ x<sup>2</sup>/0.500 = 1.0 x 10<sup>-5</sup>. Then x<sup>2</sup> = (0.500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-6</sup>, and x = √(5.0 x 10<sup>-6</sup>) = 2.2 x 10<sup>-3</sup> M. Check: 2.2 x 10<sup>-3</sup>/0.500 = 0.45%, which is under 5%, so the approximation is valid.\n\n(A) is wrong because 5.0 x 10<sup>-6</sup> is x<sup>2</sup>; the square root was skipped.\n(D) is wrong because it is just K.\n(B) is wrong because it says the reaction went to completion, which contradicts the approximation."
     },
     {
       "id": "7-40",
@@ -6280,7 +6280,7 @@ const QUESTIONS = {
         "[A] = 0.800 − x, [B] = x"
       ],
       "correct": 2,
-      "explanation": "Since A has a coefficient of 2, its change is −2x (twice the change of B, which has coefficient 1): [A] = 0.800 − 2x, [B] = 0 + x = x. Choice A has the wrong sign for A — a reactant being consumed must decrease, not increase (+2x). Choice B swaps which species gets the doubled change, applying 2x to B instead of A even though A is the one with the coefficient of 2. Choice D uses a plain x for both species, ignoring A's coefficient of 2 entirely and treating the stoichiometry as if it were 1:1."
+      "explanation": "Correct: [A] = 0.800 - 2x, [B] = x. In an ICE table, the changes follow the coefficients of the balanced equation. For 2A ⇌ B, when x mol/L of B forms, twice as much A (2x) must be used up. So [A] = 0.800 - 2x and [B] = 0 + x. The K expression is then K = x/(0.800 - 2x)<sup>2</sup>.\n\n(A) is wrong because A is a reactant being consumed, so its change is negative.\n(B) is wrong because it puts the 2x on B instead of on A.\n(D) is wrong because it ignores the coefficient and treats the reaction as 1:1."
     },
     {
       "id": "7-41",
@@ -6346,7 +6346,7 @@ const QUESTIONS = {
         "2.0"
       ],
       "correct": 1,
-      "explanation": "Treating particle count directly as concentration (in a 1.00 L container): [A]=3, [B]=6. K = [B]²/[A] = 6²/3 = 36/3 = 12. Choice A (4.0) comes from squaring both A and B instead of just B: [B]²/[A]² = 36/9 = 4.0, which incorrectly applies an exponent of 2 to A even though A's coefficient is 1. Choice C (0.50) inverts the ratio without any exponent at all: [A]/[B] = 3/6 = 0.50. Choice D (2.0) forgets to square [B]: [B]/[A] = 6/3 = 2.0, using B's coefficient of 1 instead of its actual coefficient of 2."
+      "explanation": "Correct: 12. A particulate diagram of a 1.00 L container: the number of particles can be used as the concentration. [A] = 3 and [B] = 6. For A ⇌ 2B, K = [B]<sup>2</sup>/[A] = 6<sup>2</sup>/3 = 36/3 = 12. The coefficient 2 on B makes it an exponent.\n\n(A) is wrong because it squares A as well: 36/9 = 4.0.\n(D) is wrong because it does not square [B]: 6/3 = 2.0.\n(C) is wrong because it inverts the ratio and also skips the exponent: 3/6 = 0.50."
     },
     {
       "id": "7-46",
@@ -6385,7 +6385,7 @@ const QUESTIONS = {
         "Generally no — a large K still leaves a tiny amount of reactant remaining."
       ],
       "correct": 3,
-      "explanation": "Even with an extremely large K (strongly favoring products), true equilibrium technically still involves both forward and reverse reactions continuing — meaning some infinitesimally small amount of reactant remains, even if it's too small to be meaningfully depicted in a simplified particulate diagram. Choices A and C both claim reactant concentration reaches exactly zero, which would mean the reverse reaction has completely stopped — but equilibrium by definition requires the reverse reaction to still be occurring, however minor, so a truly zero reactant population is inconsistent with dynamic equilibrium. Choice B is wrong because whether reactant particles are visible in a diagram is fundamentally a consequence of K's magnitude (and the diagram's simplification), not something independent of K."
+      "explanation": "Correct: generally no; a large K still leaves a tiny amount of reactant remaining. Equilibrium is dynamic: both the forward and the reverse reactions keep occurring. With a huge K the equilibrium lies far to the product side, so the reactants are extremely small, but they are not exactly zero, since if they were zero the reverse reaction could not occur. A drawing with limited particles may show none because of its simplified scale, but in principle some are present. (A) and (C) are wrong because they say reactants must be exactly zero, which contradicts dynamic equilibrium.\n\n(B) is wrong because what you see depends on K, not just on how many particles are drawn."
     },
     {
       "id": "7-49",
@@ -6398,7 +6398,7 @@ const QUESTIONS = {
         "K must always be less than 1 in this case."
       ],
       "correct": 2,
-      "explanation": "For a simple A ⇌ B equilibrium (1:1 stoichiometry), if the particulate diagram shows equal numbers of A and B particles at the true equilibrium state, then K = [B]/[A] = (equal value)/(equal value) = 1 exactly. Choices A and D both assert K is greater than or less than 1, but equal particle counts for this 1:1 stoichiometry directly force the ratio — and therefore K — to be exactly 1, not merely above or below it. Choice B is wrong because equal counts for a 1:1 reaction is precisely the condition that does let you pin down K's value, rather than leaving it undetermined."
+      "explanation": "Correct: K must equal exactly 1, since [A] = [B] here. For A ⇌ B (1:1), K = [B]/[A]. If the diagram is at equilibrium and has equal numbers of A and B particles, the concentrations are equal and the ratio is 1. Be careful: this works because the stoichiometry is 1:1, with no exponents. For other reactions, equal particle numbers would not give K = 1. (A) and (D) are wrong because equal amounts give exactly 1, not more or less.\n\n(B) is wrong because equal counts for a 1:1 reaction do determine K."
     },
     {
       "id": "7-50",
@@ -6411,7 +6411,7 @@ const QUESTIONS = {
         "No shift occurs at all in response to removing the NH₃."
       ],
       "correct": 1,
-      "explanation": "Removing a product decreases its concentration below the equilibrium value, causing Q to become less than K momentarily — the system responds by shifting forward (producing more NH₃) to partially counteract this removal and restore Q = K. Choice A has the direction backwards: removing product pulls the reaction forward (to replace what was lost), not backward. Choice C is wrong because the reaction doesn't stop — it simply re-establishes a new equilibrium after shifting. Choice D is wrong because removing NH₃ is a genuine disturbance to the system (it directly changes a concentration in the Q expression), so a shift is guaranteed to occur, not avoided."
+      "explanation": "Correct: shifts forward, toward products, to replace the removed NH<sub>3</sub>. Le Chatelier's principle says that when a system at equilibrium is disturbed, it shifts to partially counteract the change. Removing a product lowers its concentration, so Q becomes smaller than K, and the reaction shifts forward to make more product until Q = K again. Memory aid: adding a substance shifts the reaction away from it; removing a substance shifts the reaction toward it.\n\n(A) is wrong because it has the direction reversed.\n(C) is wrong because the reaction does not stop; it reestablishes a new equilibrium.\n(D) is wrong because removing NH<sub>3</sub> changes Q, so a shift must occur."
     },
     {
       "id": "7-51",
@@ -6424,7 +6424,7 @@ const QUESTIONS = {
         "K decreases but the equilibrium position itself stays unchanged."
       ],
       "correct": 2,
-      "explanation": "Since this reaction is exothermic (forward direction releases heat), decreasing temperature effectively \"removes heat\" from the system — per Le Chatelier's Principle, the equilibrium shifts in the direction that produces more heat (the exothermic, forward direction) to partially counteract that removal, favoring products. Choice D is self-contradictory: if the equilibrium position (concentrations) doesn't change, K — which is calculated from those same concentrations — can't have changed either; a temperature-driven change in K always comes paired with a shift in position. Choice B has the direction backwards for an exothermic reaction under cooling — cooling favors the heat-releasing direction, which is forward here, not backward toward reactants. Choice A is false; temperature changes are one of the few disturbances that change K's actual numerical value, not just the position, so they very much do affect equilibrium."
+      "explanation": "Correct: shifts forward, toward products, the heat-releasing direction. An exothermic reaction releases heat, so heat acts like a product: 2SO<sub>2</sub> + O<sub>2</sub> ⇌ 2SO<sub>3</sub> + heat. Lowering the temperature removes heat, and the system shifts to make more heat, which is the forward direction. Unlike changes in concentration, a temperature change also changes the value of K: for an exothermic reaction, cooling increases K.\n\n(B) is wrong because it has the direction reversed (that is what heating would do).\n(A) is wrong because temperature changes do shift the equilibrium.\n(D) is wrong because a temperature change changes K and the equilibrium position together."
     },
     {
       "id": "7-52",
@@ -6476,7 +6476,7 @@ const QUESTIONS = {
         "Adding a catalyst to speed up the reaction"
       ],
       "correct": 2,
-      "explanation": "K is a function of temperature only. Adding more of a reactant enlarges the denominator of Q, pushing Q below K, so the equilibrium shifts forward to consume the added reactant and restore Q = K — the position moves, but K itself is unchanged. Choice B (adding an inert gas at constant volume) is wrong for this question because it changes neither K nor the position — since volume is constant, no reacting species' concentration or partial pressure changes at all, so there's no shift to speak of, unlike the reactant-addition case being asked about. Choice A (increasing temperature) is wrong because temperature is precisely the one variable that DOES change K's actual value, making it the opposite of what the question is looking for. Choice D (adding a catalyst) is wrong because a catalyst speeds up the forward and reverse reactions equally, changing neither K nor the equilibrium position — only how quickly that position is reached."
+      "explanation": "Correct: adding more of a reactant. K depends only on temperature. Adding a reactant raises its concentration, making Q smaller than K, so the reaction shifts forward until Q = K again; the position changes but K stays the same.\n\n(A) is wrong because changing the temperature is the one thing that changes the value of K.\n(B) is wrong because adding an inert gas at constant volume changes neither K nor the position, so it does not match the question's 'changes the position.'\n(D) is wrong because a catalyst speeds up the forward and reverse reactions equally, so it changes neither K nor the equilibrium position, only the time to reach it."
     },
     {
       "id": "7-56",
@@ -6554,7 +6554,7 @@ const QUESTIONS = {
         "Ksp = [Ca²⁺]³[PO₄³⁻]²"
       ],
       "correct": 3,
-      "explanation": "Following the standard equilibrium expression format (products raised to their coefficients, with the solid omitted): Ksp = [Ca²⁺]³[PO₄³⁻]², correctly using the coefficients 3 and 2 as exponents, not as multiplying factors. Choice B drops the exponents entirely, treating both coefficients as if they were 1. Choice C makes the classic coefficient mix-up, using the coefficients as multiplying factors (3× and 2×) instead of as exponents — a Ksp expression never multiplies a concentration by its coefficient. Choice A incorrectly includes the solid Ca₃(PO₄)₂ in the expression; like any pure solid, it's omitted because its activity doesn't change."
+      "explanation": "Correct: K<sub>sp</sub> = [Ca<sup>2+</sup>]<sup>3</sup>[PO<sub>4</sub><sup>3-</sup>]<sup>2</sup>. K<sub>sp</sub> is the equilibrium constant for dissolving a solid into ions. Write products only (the solid is left out), and raise each ion's concentration to the power of its coefficient: 3 Ca<sup>2+</sup> gives [Ca<sup>2+</sup>]<sup>3</sup> and 2 PO<sub>4</sub><sup>3-</sup> gives [PO<sub>4</sub><sup>3-</sup>]<sup>2</sup>. Coefficients become EXPONENTS, never multipliers.\n\n(B) is wrong because it leaves out the exponents.\n(C) is wrong because it multiplies by the coefficients instead of using them as exponents.\n(A) is wrong because it includes the solid, which is left out."
     },
     {
       "id": "7-62",
@@ -6567,7 +6567,7 @@ const QUESTIONS = {
         "Ksp = s × s = s² = 3.9 × 10⁻¹¹"
       ],
       "correct": 0,
-      "explanation": "CaF₂ ⇌ Ca²⁺ + 2F⁻. If s = molar solubility, then [Ca²⁺]=s and [F⁻]=2s (twice as much fluoride dissolves per formula unit, matching the coefficient of 2). Ksp = [Ca²⁺][F⁻]² = (s)(2s)² = s × 4s² = 4s³. Choice D (Ksp = s²) treats CaF₂ as if it dissociated 1:1, completely ignoring that each formula unit releases two fluoride ions. Choice B (Ksp = 2s) isn't even an exponentiated expression — it drops the [Ca²⁺] term and doesn't square the fluoride concentration at all. Choice C (Ksp = (2s)²) correctly squares the fluoride term but omits the [Ca²⁺] = s factor entirely, leaving out one of the two ions in the dissolution equilibrium."
+      "explanation": "Correct: K<sub>sp</sub> = s x (2s)<sup>2</sup> = 4s<sup>3</sup>. CaF<sub>2</sub> ⇌ Ca<sup>2+</sup> + 2F<sup>-</sup>. If s mol/L of CaF<sub>2</sub> dissolves, it gives [Ca<sup>2+</sup>] = s and [F<sup>-</sup>] = 2s, since each formula unit releases two fluoride ions. Then K<sub>sp</sub> = [Ca<sup>2+</sup>][F<sup>-</sup>]<sup>2</sup> = (s)(2s)<sup>2</sup> = 4s<sup>3</sup>. Note that the 2 gets squared too, giving the 4.\n\n(D) is wrong because it treats the salt as 1:1.\n(B) is wrong because it multiplies by 2 instead of squaring, and gives the wrong power.\n(C) is wrong because it leaves out the [Ca<sup>2+</sup>] = s factor."
     },
     {
       "id": "7-63",
@@ -6580,7 +6580,7 @@ const QUESTIONS = {
         "7.48 × 10⁻⁵ M"
       ],
       "correct": 2,
-      "explanation": "Mg(OH)₂ ⇌ Mg²⁺ + 2OH⁻. Ksp = (s)(2s)² = 4s³ = 5.6×10⁻¹². Solving: s³ = 1.4×10⁻¹², so s = (1.4×10⁻¹²)^(1/3) ≈ 1.11×10⁻⁴ M. Choice A just restates the given Ksp value itself, with no algebra performed to isolate s. Choice B (2.37×10⁻⁶) comes from treating the salt as if Ksp = s² (as if it were a simple 1:1 salt) and taking a plain square root, which ignores the 2OH⁻ stoichiometry entirely. Choice D (7.48×10⁻⁵) reflects an exponent-handling slip in extracting the cube root — most likely from not correctly folding the factor of 4 (from squaring [OH⁻] = 2s) into the s³ term before taking the root."
+      "explanation": "Correct: 1.11 x 10<sup>-4</sup> M. Mg(OH)<sub>2</sub> ⇌ Mg<sup>2+</sup> + 2OH<sup>-</sup>. With molar solubility s: [Mg<sup>2+</sup>] = s and [OH<sup>-</sup>] = 2s. K<sub>sp</sub> = (s)(2s)<sup>2</sup> = 4s<sup>3</sup> = 5.6 x 10<sup>-12</sup>. Then s<sup>3</sup> = 1.4 x 10<sup>-12</sup>, and s = (1.4 x 10<sup>-12</sup>)<sup>1/3</sup> = 1.11 x 10<sup>-4</sup> M.\n\n(A) is wrong because it just repeats K<sub>sp</sub>.\n(B) is wrong because it treats the salt as 1:1 (s = √K<sub>sp</sub>).\n(D) is wrong because it comes from a mistake with the factor of 4 when taking the cube root."
     },
     {
       "id": "7-64",
@@ -6593,7 +6593,7 @@ const QUESTIONS = {
         "8.0 × 10⁻¹²"
       ],
       "correct": 1,
-      "explanation": "MX₂ ⇌ M²⁺ + 2X⁻. With s = 2.0×10⁻⁴ M: [M²⁺]=s=2.0×10⁻⁴, [X⁻]=2s=4.0×10⁻⁴. Ksp = [M²⁺][X⁻]² = (2.0×10⁻⁴)(4.0×10⁻⁴)² = (2.0×10⁻⁴)(1.6×10⁻⁷) = 3.2×10⁻¹¹. Choice A (1.6×10⁻¹¹) comes from squaring the wrong ion — applying the exponent of 2 to [M²⁺] instead of to [X⁻] — giving s²(2s) = 1.6×10⁻¹¹ instead of s(2s)². Choice D (8.0×10⁻¹²) comes from forgetting to double [X⁻] for the 2 in MX₂, using s³ = (2.0×10⁻⁴)³ as if [X⁻] were simply equal to s rather than 2s. Choice C (4.0×10⁻⁸) treats the salt as a simple 1:1 dissociation, computing Ksp = s² and ignoring the MX₂ stoichiometry altogether."
+      "explanation": "Correct: 3.2 x 10<sup>-11</sup>. MX<sub>2</sub> ⇌ M<sup>2+</sup> + 2X<sup>-</sup>. If s = 2.0 x 10<sup>-4</sup> M, then [M<sup>2+</sup>] = s = 2.0 x 10<sup>-4</sup> and [X<sup>-</sup>] = 2s = 4.0 x 10<sup>-4</sup>. K<sub>sp</sub> = [M<sup>2+</sup>][X<sup>-</sup>]<sup>2</sup> = (2.0 x 10<sup>-4</sup>)(4.0 x 10<sup>-4</sup>)<sup>2</sup> = (2.0 x 10<sup>-4</sup>)(1.6 x 10<sup>-7</sup>) = 3.2 x 10<sup>-11</sup>.\n\n(A) is wrong because it squares the wrong ion.\n(D) is wrong because it uses s<sup>3</sup>, forgetting to double [X<sup>-</sup>].\n(C) is wrong because it treats the salt as 1:1 (s<sup>2</sup>)."
     },
     {
       "id": "7-65",
@@ -6632,7 +6632,7 @@ const QUESTIONS = {
         "2.5 × 10⁻² M"
       ],
       "correct": 2,
-      "explanation": "AgBr ⇌ Ag⁺ + Br⁻. With [Br⁻] ≈ 0.0200 M already present from NaBr: Ksp = [Ag⁺][Br⁻] ≈ s(0.0200) = 5.0×10⁻¹³, so s = 5.0×10⁻¹³/0.0200 = 2.5×10⁻¹¹ M — dramatically lower than AgBr's solubility in pure water. Choice D (2.5×10⁻²) is off by many orders of magnitude, consistent with a sign error in the exponent during division. Choice A (5.0×10⁻¹³) simply restates Ksp itself without ever dividing by the 0.0200 M common-ion concentration. Choice B (7.1×10⁻⁷) is actually the solubility AgBr would have in pure water (√Ksp = √(5.0×10⁻¹³) ≈ 7.1×10⁻⁷ M) — it's the right calculation for the wrong scenario, since it ignores the common-ion suppression from the NaBr entirely."
+      "explanation": "Correct: 2.5 x 10<sup>-11</sup> M. The common-ion effect: the Br<sup>-</sup> already in solution from NaBr pushes the dissolving equilibrium AgBr ⇌ Ag<sup>+</sup> + Br<sup>-</sup> to the left, lowering AgBr's solubility. [Br<sup>-</sup>] is about 0.0200 M (the Br<sup>-</sup> from AgBr is negligible). K<sub>sp</sub> = [Ag<sup>+</sup>][Br<sup>-</sup>] = s(0.0200) = 5.0 x 10<sup>-13</sup>, so s = 5.0 x 10<sup>-13</sup>/0.0200 = 2.5 x 10<sup>-11</sup> M.\n\n(B) is wrong because 7.1 x 10<sup>-7</sup> M is √K<sub>sp</sub>, the solubility in PURE water.\n(A) is wrong because it just repeats K<sub>sp</sub>.\n(D) is wrong because 2.5 x 10<sup>-2</sup> is off by many orders of magnitude, from an exponent error in the division."
     },
     {
       "id": "7-68",
@@ -6764,7 +6764,7 @@ const QUESTIONS = {
         "2.00"
       ],
       "correct": 3,
-      "explanation": "HCl is a strong acid, so it fully dissociates: [H⁺] = 0.0100 M, and pH = −log(0.0100) = 2.00. Choice C (1.00) is the pH you'd get for a ten-times-more-concentrated solution (0.100 M), an order-of-magnitude slip. Choice A (0.0100) is just the molarity itself, restated without ever taking the log. Choice B (12.00) comes from computing 14.00 − 2.00, as if 2.00 were a pOH that still needed converting to pH — but [H⁺] directly gives pH here, with no such conversion needed."
+      "explanation": "Correct: 2.00. HCl is a strong acid, so it dissociates completely (100%) and [H<sup>+</sup>] equals the acid concentration: [H<sup>+</sup>] = 0.0100 M. Then pH = -log[H<sup>+</sup>] = -log(0.0100) = -log(10<sup>-2</sup>) = 2.00. Shortcut: for a power of ten, the pH is the exponent without the minus sign.\n\n(C) is wrong because pH 1.00 would be 0.100 M, ten times as concentrated.\n(A) is wrong because 0.0100 is the concentration itself, with no log taken.\n(B) is wrong because 12.00 comes from doing 14 - 2.00, which is the step for a base's pOH; here the [H<sup>+</sup>] gives the pH directly."
     },
     {
       "id": "8-8",
@@ -6777,7 +6777,7 @@ const QUESTIONS = {
         "9.00"
       ],
       "correct": 0,
-      "explanation": "NaOH is a strong base: [OH⁻] = 0.00500 M, so pOH = −log(0.00500) = 2.30, and pH = 14.00 − 2.30 = 11.70. Choice B (2.30) stops at the pOH value and reports it as if it were the pH, skipping the final 14.00 − pOH step. Choice D (9.00) and choice C (5.00) don't correspond to a correct path from these numbers — they reflect a decimal-place or sign slip somewhere in converting 0.00500 M to its log, rather than a genuine alternate (if flawed) calculation."
+      "explanation": "Correct: 11.70. NaOH is a strong base, so it dissociates completely: [OH<sup>-</sup>] = 0.00500 M. First find the pOH: pOH = -log(0.00500) = 2.30. Then use pH + pOH = 14.00: pH = 14.00 - 2.30 = 11.70. A base should have a pH above 7, which this does.\n\n(B) is wrong because 2.30 is the pOH, and the last step to the pH was skipped. (C) and (D) are wrong because they do not result from the correct steps; they come from mistakes in the log or in the decimal places."
     },
     {
       "id": "8-9",
@@ -6790,7 +6790,7 @@ const QUESTIONS = {
         "1.00 × 10⁻³·⁵⁰ M, non-numeric"
       ],
       "correct": 1,
-      "explanation": "[H⁺] = 10^(−pH) = 10^(−3.50) = 3.16 × 10⁻⁴ M. Choice D (\"1.00 × 10⁻³·⁵⁰ M, non-numeric\") just restates the exponent without ever evaluating the antilog into a usable decimal number. Choice C (3.50 × 10⁻³ M) mistakes the pH's own digits for the concentration's coefficient and exponent, skipping the actual 10^(−pH) calculation. Choice A (3.16 × 10⁻³ M) has the correct coefficient but the wrong power of ten — a common error from mishandling how the integer and decimal parts of the pH split into the exponent and mantissa of the antilog."
+      "explanation": "Correct: 3.16 x 10<sup>-4</sup> M. Reverse the pH definition: [H<sup>+</sup>] = 10<sup>-pH</sup> = 10<sup>-3.50</sup>. Since 3.50 is halfway between 3 and 4, the answer is between 10<sup>-3</sup> and 10<sup>-4</sup>: 10<sup>-3.50</sup> = 10<sup>0.50</sup> x 10<sup>-4</sup> = 3.16 x 10<sup>-4</sup> M. (On a calculator: 10^(-3.5), or 'inverse log' of -3.5.) A pH between 3 and 4 always gives an exponent of -4 with a coefficient between 1 and 10.\n\n(A) is wrong because it has the right coefficient but the wrong power of ten (10<sup>-3</sup> would be a pH between 2 and 3).\n(C) is wrong because it copies the digits of the pH instead of calculating.\n(D) is wrong because it leaves the antilog uncalculated."
     },
     {
       "id": "8-10",
@@ -6803,7 +6803,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 2,
-      "explanation": "Ba(OH)₂ releases 2 OH⁻ per formula unit, so [OH⁻] = 2 × 0.00250 = 0.00500 M, giving pOH = −log(0.00500) = 2.30 and pH = 14.00 − 2.30 = 11.70. Choice B (2.30) is that correct pOH, mistakenly given as the final answer without completing the last pH = 14.00 − pOH step. Choice D (2.60) and choice A (11.40) both come from forgetting the factor of 2 from Ba(OH)₂'s two hydroxides — using [OH⁻] = 0.00250 M directly gives pOH = 2.60 (choice D) and, if that mistaken pOH is then converted, pH = 11.40 (choice A)."
+      "explanation": "Correct: 11.70. Ba(OH)<sub>2</sub> is a strong base that releases TWO hydroxide ions per formula unit: Ba(OH)<sub>2</sub> gives Ba<sup>2+</sup> + 2OH<sup>-</sup>. So [OH<sup>-</sup>] = 2 x 0.00250 = 0.00500 M. Then pOH = -log(0.00500) = 2.30 and pH = 14.00 - 2.30 = 11.70.\n\n(D) is wrong because it forgets the factor of 2: pOH = -log(0.00250) = 2.60.\n(A) is wrong because it takes that wrong pOH and converts it: 14.00 - 2.60 = 11.40.\n(B) is wrong because 2.30 is the pOH, and the conversion to pH was not done."
     },
     {
       "id": "8-11",
@@ -6816,7 +6816,7 @@ const QUESTIONS = {
         "4.80"
       ],
       "correct": 2,
-      "explanation": "pH + pOH = 14.00 at 25°C, so pH = 14.00 − 4.80 = 9.20. Choice D (4.80) is just the given pOH restated as if it were the pH, without applying the 14.00 relationship at all. Choice B (14.00) is the SUM pH + pOH, not the pH by itself. Choice A (−4.80) simply negates the pOH value, which isn't a meaningful operation here and ignores the pH + pOH = 14.00 relationship entirely."
+      "explanation": "Correct: 9.20. At 25°C, pH + pOH = 14.00, so pH = 14.00 - pOH = 14.00 - 4.80 = 9.20. A pOH of 4.80 means a fairly low [OH<sup>-</sup>] of about 1.6 x 10<sup>-5</sup> M, and the pH above 7 confirms the solution is basic.\n\n(D) is wrong because 4.80 is the pOH given in the problem.\n(B) is wrong because 14.00 is the SUM of pH and pOH.\n(A) is wrong because simply negating the pOH is not a relationship in chemistry."
     },
     {
       "id": "8-12",
@@ -6842,7 +6842,7 @@ const QUESTIONS = {
         "It decreases by 1 unit."
       ],
       "correct": 0,
-      "explanation": "Original pH = −log(0.100) = 1.00; diluted pH = −log(0.0100) = 2.00, an increase of exactly 1 whole unit, since pH is a base-10 log scale and a 10-fold drop in [H⁺] shifts log₁₀ by exactly 1. Choice C (\"stays exactly the same\") ignores that diluting a strong acid measurably lowers [H⁺] and therefore raises pH. Choice D (\"decreases by C unit\") has the direction backwards — dilution lowers [H⁺], which raises (not lowers) pH. Choice B (\"increases by a factor of 10, not by C unit\") misunderstands the log scale itself: it correctly notes concentration drops by a factor of 10, but wrongly assumes pH must also change by that same factor of 10, rather than recognizing that a 10-fold concentration change corresponds to exactly a 1-unit change on the already-logarithmic pH scale."
+      "explanation": "Correct: it increases by 1 unit (to pH 2.00). pH = -log[H<sup>+</sup>] is a logarithmic (base 10) scale. Before dilution: pH = -log(0.100) = 1.00. After dilution: pH = -log(0.0100) = 2.00. Every 10-fold decrease in [H<sup>+</sup>] raises the pH by exactly 1 unit. Diluting an acid makes it less acidic, so the pH rises toward 7.\n\n(C) is wrong because dilution lowers [H<sup>+</sup>], and the pH changes.\n(D) is wrong because it has the direction reversed.\n(B) is wrong because the pH is already a log, so a factor of 10 in concentration is a change of 1 unit, not a factor of 10 in pH."
     },
     {
       "id": "8-14",
@@ -6855,7 +6855,7 @@ const QUESTIONS = {
         "Ka = 0.100/x²"
       ],
       "correct": 0,
-      "explanation": "For the ICE table HA ⇌ H⁺ + A⁻, both [H⁺] and [A⁻] equal x at equilibrium, and [HA] ≈ 0.100 − x ≈ 0.100 (simplifying assumption), giving Ka = x²/0.100. Choice C (Ka = x/0.100) forgets that the numerator is [H⁺][A⁻] = x·x = x², not just x. Choice D (Ka = 0.100/x²) has the concentration terms flipped — the initial concentration belongs in the denominator (representing HA), not the numerator. Choice B (Ka = x²/(0.100+x)) has the wrong sign in the denominator; HA's concentration DECREASES by x as the reaction proceeds forward, so it should be (0.100−x), not (0.100+x)."
+      "explanation": "Correct: K<sub>a</sub> = x<sup>2</sup>/0.100. Make an ICE table for HA ⇌ H<sup>+</sup> + A<sup>-</sup>. Initially [HA] = 0.100 and [H<sup>+</sup>] = [A<sup>-</sup>] = 0. The change is -x for HA and +x for H<sup>+</sup> and A<sup>-</sup>. At equilibrium: [H<sup>+</sup>] = x, [A<sup>-</sup>] = x, and [HA] = 0.100 - x. K<sub>a</sub> = [H<sup>+</sup>][A<sup>-</sup>]/[HA] = x<sup>2</sup>/(0.100 - x). Because K<sub>a</sub> is small, x is tiny compared to 0.100, so 0.100 - x ≈ 0.100 and K<sub>a</sub> ≈ x<sup>2</sup>/0.100.\n\n(C) is wrong because the numerator is [H<sup>+</sup>][A<sup>-</sup>] = x<sup>2</sup>, not x.\n(D) is wrong because it is upside down: the acid is on the bottom.\n(B) is wrong because the acid concentration goes DOWN by x, so it should be 0.100 - x, not 0.100 + x."
     },
     {
       "id": "8-15",
@@ -6868,7 +6868,7 @@ const QUESTIONS = {
         "4.0 × 10⁻⁶ M"
       ],
       "correct": 2,
-      "explanation": "x² = (0.100)(4.0×10⁻⁶) = 4.0×10⁻⁷, so x = √(4.0×10⁻⁷) = 6.3×10⁻⁴ M, and 6.3×10⁻⁴/0.100 = 0.63% confirms the simplification was valid. Choice B (2.0×10⁻³ M) is √(4.0×10⁻⁶) — the square root of Ka alone, skipping the multiplication by the 0.100 M concentration. Choice D (4.0×10⁻⁶ M) is just Ka itself, restated without ever solving for x. Choice A (4.0×10⁻⁷ M) is x² (the unrounded product), reported without taking the final square root."
+      "explanation": "Correct: 6.3 x 10<sup>-4</sup> M. Use K<sub>a</sub> = x<sup>2</sup>/0.100 = 4.0 x 10<sup>-6</sup>. Then x<sup>2</sup> = (0.100)(4.0 x 10<sup>-6</sup>) = 4.0 x 10<sup>-7</sup>, so x = √(4.0 x 10<sup>-7</sup>) = 6.3 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Check the assumption: 6.3 x 10<sup>-4</sup>/0.100 = 0.63%, less than 5%, so it is valid.\n\n(B) is wrong because 2.0 x 10<sup>-3</sup> is √K<sub>a</sub>, without multiplying by 0.100 first.\n(D) is wrong because it is just K<sub>a</sub>.\n(A) is wrong because 4.0 x 10<sup>-7</sup> is x<sup>2</sup>; the square root was skipped."
     },
     {
       "id": "8-16",
@@ -6881,7 +6881,7 @@ const QUESTIONS = {
         "5.2 × 10⁻³ M"
       ],
       "correct": 0,
-      "explanation": "Kb = x²/0.150 (simplifying assumption), so x² = (0.150)(1.8×10⁻⁵) = 2.7×10⁻⁶ and x = √(2.7×10⁻⁶) = 1.6×10⁻³ M = [OH⁻]. Choice C (1.8×10⁻⁵ M) is just Kb itself, never actually solved for x. Choice D (5.2×10⁻³ M) is consistent with a decimal-placement slip in the intermediate product (e.g., treating x² as 2.7×10⁻⁵ instead of 2.7×10⁻⁶ before taking the square root). Choice B (2.7×10⁻⁶ M) is x² reported directly, without taking the required square root to get x = [OH⁻]."
+      "explanation": "Correct: 1.6 x 10<sup>-3</sup> M. For a weak base B + H<sub>2</sub>O ⇌ BH<sup>+</sup> + OH<sup>-</sup>, the ICE table gives [BH<sup>+</sup>] = [OH<sup>-</sup>] = x and [B] = 0.150 - x ≈ 0.150. So K<sub>b</sub> = x<sup>2</sup>/0.150 = 1.8 x 10<sup>-5</sup>. Then x<sup>2</sup> = (0.150)(1.8 x 10<sup>-5</sup>) = 2.7 x 10<sup>-6</sup> and x = √(2.7 x 10<sup>-6</sup>) = 1.6 x 10<sup>-3</sup> M = [OH<sup>-</sup>]. Remember this gives the [OH<sup>-</sup>], and you would take pOH next, then pH.\n\n(C) is wrong because it is just K<sub>b</sub>.\n(D) is wrong because it is from a decimal slip when finding x<sup>2</sup>.\n(B) is wrong because 2.7 x 10<sup>-6</sup> is x<sup>2</sup>, not x."
     },
     {
       "id": "8-17",
@@ -6894,7 +6894,7 @@ const QUESTIONS = {
         "1.0 × 10⁻¹⁰"
       ],
       "correct": 3,
-      "explanation": "Ka × Kb = Kw, so Kb = Kw/Ka = (1.0×10⁻¹⁴)/(1.0×10⁻⁴) = 1.0×10⁻¹⁰. Choice C (1.0×10¹⁰) has a sign error in the exponent — positive instead of negative. Choice B (1.0×10⁻⁴) just restates the given Ka value instead of computing Kb at all. Choice A (1.0×10⁻¹⁸) comes from multiplying Ka × Kw instead of dividing Kw by Ka: (1.0×10⁻⁴)(1.0×10⁻¹⁴) = 1.0×10⁻¹⁸."
+      "explanation": "Correct: 1.0 x 10<sup>-10</sup>. For a conjugate acid-base pair, K<sub>a</sub> x K<sub>b</sub> = K<sub>w</sub> = 1.0 x 10<sup>-14</sup>. So K<sub>b</sub> = K<sub>w</sub>/K<sub>a</sub> = (1.0 x 10<sup>-14</sup>)/(1.0 x 10<sup>-4</sup>) = 1.0 x 10<sup>-10</sup>. This makes sense: the weaker the acid (small K<sub>a</sub>), the stronger its conjugate base (larger K<sub>b</sub>), and since the product is always 10<sup>-14</sup>, they must be inversely related. When dividing powers of ten, subtract the exponents: -14 - (-4) = -10.\n\n(C) is wrong because it has the wrong sign on the exponent.\n(B) is wrong because it is just K<sub>a</sub>.\n(A) is wrong because it multiplies K<sub>a</sub> by K<sub>w</sub> instead of dividing."
     },
     {
       "id": "8-18",
@@ -6920,7 +6920,7 @@ const QUESTIONS = {
         "2.65"
       ],
       "correct": 2,
-      "explanation": "x² = (0.0500)(1.0×10⁻⁵) = 5.0×10⁻⁷, so x = √(5.0×10⁻⁷) = 7.07×10⁻⁴ M = [H⁺], and pH = −log(7.07×10⁻⁴) = 3.15. Choice A (5.00) is exactly the acid's pKa (−log(1.0×10⁻⁵) = 5.00) mistaken for the solution's actual pH — pKa is a fixed property of the acid, while pH also depends on the specific concentration used (0.0500 M here). Choices B (4.30) and D (2.65) don't match any correct calculation path from these numbers; they're consistent with arithmetic slips in the square-root or logarithm step (e.g., mishandling how −log(x²) relates to −log(x), or a decimal-place error when computing x²) rather than the correct x = √(Ka·C) followed by pH = −log(x)."
+      "explanation": "Correct: 3.15. For a weak acid, use K<sub>a</sub> = x<sup>2</sup>/C. So x<sup>2</sup> = (0.0500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-7</sup>, and x = √(5.0 x 10<sup>-7</sup>) = 7.07 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Then pH = -log(7.07 x 10<sup>-4</sup>) = 3.15. Check: x/0.0500 = 1.4%, under 5%, so the approximation holds. A weak acid at this concentration should give a pH well above that of a strong acid (1.3 for 0.0500 M), which it does.\n\n(A) is wrong because 5.00 is the pKa, a property of the acid, not the pH of this solution. (B) and (D) are wrong because they do not match the correct steps and come from mistakes in the square root or log."
     },
     {
       "id": "8-20",
@@ -6946,7 +6946,7 @@ const QUESTIONS = {
         "9.26"
       ],
       "correct": 2,
-      "explanation": "x² = (0.500)(1.8×10⁻⁵) = 9.0×10⁻⁶, x = √(9.0×10⁻⁶) = 3.0×10⁻³ M = [OH⁻], pOH = −log(3.0×10⁻³) = 2.52, and pH = 14.00 − 2.52 = 11.48. Choice A (2.52) is the correct pOH, reported before completing the final conversion to pH. Choice B (4.74) is −log(1.8×10⁻⁵), i.e., NH₃'s pKb — a fixed property of ammonia — mistaken for the actual pH of this particular 0.500 M solution. Choice D (9.26) is 14.00 − 4.74, i.e., the pKa of NH₄⁺ (ammonia's conjugate acid), which is again a generic constant, not the pH that accounts for this specific concentration."
+      "explanation": "Correct: 11.48. Ammonia is a weak base: NH<sub>3</sub> + H<sub>2</sub>O ⇌ NH<sub>4</sub><sup>+</sup> + OH<sup>-</sup>. With the ICE table, K<sub>b</sub> = x<sup>2</sup>/0.500, where x = [OH<sup>-</sup>]. So x<sup>2</sup> = (0.500)(1.8 x 10<sup>-5</sup>) = 9.0 x 10<sup>-6</sup> and x = 3.0 x 10<sup>-3</sup> M. Then pOH = -log(3.0 x 10<sup>-3</sup>) = 2.52, and pH = 14.00 - 2.52 = 11.48. For a base, remember the extra step from pOH to pH.\n\n(A) is wrong because 2.52 is the pOH.\n(B) is wrong because 4.74 is the pK<sub>b</sub> of ammonia, a constant of the base, not the pH of this solution.\n(D) is wrong because 9.26 is the pK<sub>a</sub> of NH<sub>4</sub><sup>+</sup> (14.00 - 4.74), again a constant that does not depend on this concentration."
     },
     {
       "id": "8-22",
@@ -7025,7 +7025,7 @@ const QUESTIONS = {
         "50.0 mL"
       ],
       "correct": 2,
-      "explanation": "Moles HCl = (0.150)(0.0250 L) = 3.75×10⁻³ mol; since HCl + NaOH react 1:1, moles NaOH needed = 3.75×10⁻³ mol, and volume = (3.75×10⁻³ mol)/(0.100 M) = 0.0375 L = 37.5 mL. Choice A (16.7 mL) comes from putting the concentrations in the wrong positions of the ratio (effectively 25.0 × 0.100/0.150 instead of 25.0 × 0.150/0.100). Choice D (50.0 mL) is exactly double the correct volume, consistent with mistakenly assuming a 2:1 acid-to-base stoichiometry instead of the actual 1:1 reaction. Choice B (25.0 mL) simply reuses the acid's own volume, as if equal volumes were automatically enough for equivalence — ignoring that the two solutions have different concentrations."
+      "explanation": "Correct: 37.5 mL. At the equivalence point, moles of acid = moles of base for a 1:1 reaction (HCl + NaOH gives NaCl + H<sub>2</sub>O). Moles HCl = M x V = (0.150 mol/L)(0.0250 L) = 3.75 x 10<sup>-3</sup> mol. Moles NaOH needed = 3.75 x 10<sup>-3</sup> mol. Volume NaOH = moles/M = (3.75 x 10<sup>-3</sup> mol)/(0.100 mol/L) = 0.0375 L = 37.5 mL. Shortcut for 1:1: M<sub>a</sub>V<sub>a</sub> = M<sub>b</sub>V<sub>b</sub>. Since the NaOH is less concentrated than the HCl, you need MORE volume than 25.0 mL, which is a good check.\n\n(B) is wrong because equal volumes would work only if the concentrations were equal.\n(A) is wrong because it puts the concentrations upside down.\n(D) is wrong because it doubles the answer, as if the stoichiometry were 2:1."
     },
     {
       "id": "8-28",
@@ -7143,7 +7143,7 @@ const QUESTIONS = {
         "2.60"
       ],
       "correct": 3,
-      "explanation": "pKa = −log(Ka) = −log(2.5×10⁻³) = 2.60. Choice B (0.40) comes from computing only −log(2.5) and dropping the contribution from the ×10⁻³ part of Ka. Choice A (3.00) rounds Ka's mantissa away entirely, treating it as if Ka were exactly 1×10⁻³ instead of 2.5×10⁻³. Choice C (−2.60) has a sign error — it reports log(Ka) directly instead of −log(Ka), missing the negative sign that defines pKa."
+      "explanation": "Correct: 2.60. pK<sub>a</sub> = -log(K<sub>a</sub>) = -log(2.5 x 10<sup>-3</sup>). Split the log: -log(2.5) - log(10<sup>-3</sup>) = -0.40 + 3 = 2.60. A shortcut check: K<sub>a</sub> is between 10<sup>-2</sup> and 10<sup>-3</sup>, so pK<sub>a</sub> must be between 2 and 3, and since 2.5 is a bit bigger than 1, the pK<sub>a</sub> is a bit under 3. A smaller pK<sub>a</sub> means a stronger acid.\n\n(B) is wrong because it uses only -log(2.5) and forgets the 10<sup>-3</sup> part.\n(A) is wrong because it ignores the 2.5 and treats K<sub>a</sub> as 1 x 10<sup>-3</sup>.\n(C) is wrong because it has lost the minus sign in the definition; pK<sub>a</sub> of a weak acid is positive."
     },
     {
       "id": "8-37",
@@ -7156,7 +7156,7 @@ const QUESTIONS = {
         "5.0 × 10⁻⁹"
       ],
       "correct": 3,
-      "explanation": "Ka = 10^(−pKa) = 10^(−8.30) = 5.0×10⁻⁹. Choice B (3.16×10⁻⁹) has the right order of magnitude but the wrong mantissa, consistent with using the decimal 0.50 as if it corresponded to a different antilog value (10^(−0.5) = 0.316 rather than the correct 10^(−0.3) = 0.501). Choice A (1.3×10⁸) has a sign error in the exponent (positive instead of negative) along with a mismatched mantissa. Choice C (8.30) just restates the given pKa, without ever taking 10^(−pKa) to actually solve for Ka."
+      "explanation": "Correct: 5.0 x 10<sup>-9</sup>. K<sub>a</sub> = 10<sup>-pK<sub>a</sub></sup> = 10<sup>-8.30</sup>. Write -8.30 as 0.70 - 9: 10<sup>0.70</sup> x 10<sup>-9</sup> = 5.0 x 10<sup>-9</sup>. The pK<sub>a</sub> is between 8 and 9, so K<sub>a</sub> must have the exponent -9 and a coefficient between 1 and 10. A fast way to check: a pK<sub>a</sub> that ends in .30 gives a coefficient of about 5 (since log 5 = 0.70, and 1 - 0.70 = 0.30).\n\n(B) is wrong because 3.16 x 10<sup>-9</sup> would be a pK<sub>a</sub> of 8.50.\n(A) is wrong because it has a positive exponent, which would be a very strong acid.\n(C) is wrong because 8.30 is the pK<sub>a</sub> itself."
     },
     {
       "id": "8-38",
@@ -7364,7 +7364,7 @@ const QUESTIONS = {
         "4.20"
       ],
       "correct": 3,
-      "explanation": "pH = pKa + log([base]/[acid]) = 4.20 + log(0.300/0.300) = 4.20 + log(1) = 4.20, since equal concentrations always give a ratio of 1 and log(1) = 0. Choice B (4.50) doesn't follow from log(1) = 0, which holds regardless of what the equal concentration value actually is — this reflects an arithmetic slip rather than a genuine alternate calculation. Choice C (8.40) looks like doubling pKa (4.20 × 2), an operation with no basis in the Henderson-Hasselbalch equation. Choice A (4.00) rounds pKa down without correctly applying log(0.300/0.300) = 0, which should leave pKa completely unchanged, not shifted."
+      "explanation": "Correct: 4.20. Use the Henderson-Hasselbalch equation: pH = pK<sub>a</sub> + log([base]/[acid]). Here [base] = [acid] = 0.300 M, so the ratio is 1 and log(1) = 0. Therefore pH = pK<sub>a</sub> = 4.20. Whenever a buffer has equal amounts of weak acid and conjugate base, its pH equals the pK<sub>a</sub>, no matter what the common concentration is. (A) and (B) are wrong because a ratio of 1 adds nothing to the pK<sub>a</sub>, so the pH cannot differ from 4.20.\n\n(C) is wrong because doubling the pK<sub>a</sub> has no basis in the equation."
     },
     {
       "id": "8-54",
@@ -7377,7 +7377,7 @@ const QUESTIONS = {
         "5.50"
       ],
       "correct": 2,
-      "explanation": "pH = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Choice A (4.26) comes from subtracting the log term instead of adding it (4.74 − 0.477 = 4.26), effectively flipping the sign in Henderson-Hasselbalch. Choice D (5.50) doesn't match log(3.00) = 0.477 added to pKa, and appears to come from a different misapplication of the formula. Choice B (4.74) is just pKa restated, as if base and acid concentrations were equal, ignoring that the base here is three times the acid concentration."
+      "explanation": "Correct: 5.22. pH = pK<sub>a</sub> + log([base]/[acid]) = 4.74 + log(0.600/0.200) = 4.74 + log(3.00) = 4.74 + 0.477 = 5.22. Because there is more base than acid, the pH should come out ABOVE the pK<sub>a</sub>, which it does.\n\n(A) is wrong because it subtracts the log term, as if the acid were the larger part.\n(B) is wrong because 4.74 is correct only for equal concentrations.\n(D) is wrong because 5.50 does not match log(3.00); it would need a ratio of about 5.8."
     },
     {
       "id": "8-55",
@@ -7390,7 +7390,7 @@ const QUESTIONS = {
         "9.25"
       ],
       "correct": 2,
-      "explanation": "For this weak-base-type buffer, pH = 9.25 + log([base]/[acid]) = 9.25 + log(0.100/0.400) = 9.25 + log(0.250) = 9.25 − 0.602 = 8.65. Choice D (9.25) is just pKa restated, ignoring the unequal 4:1 concentration ratio entirely. Choice A (9.85) comes from inverting the ratio — using [conjugate acid]/[base] = 0.400/0.100 = 4 instead of [base]/[acid], giving 9.25 + log(4) = 9.25 + 0.602 = 9.85. Choice B (8.25) is close to correct but comes from rounding log(0.250) to a flat −1.00 rather than its actual value of −0.602."
+      "explanation": "Correct: 8.65. The pK<sub>a</sub> given (9.25) belongs to the conjugate acid, so use pH = pK<sub>a</sub> + log([base]/[acid]), with the weak base as the 'base' part and its conjugate acid as the 'acid' part: pH = 9.25 + log(0.100/0.400) = 9.25 + log(0.250) = 9.25 - 0.602 = 8.65. There is four times more acid than base, so the pH should be BELOW the pK<sub>a</sub>, which matches.\n\n(D) is wrong because it ignores the unequal amounts.\n(A) is wrong because it inverts the ratio, which gives 9.25 + 0.602 = 9.85.\n(B) is wrong because it rounds log(0.250) to -1.00 instead of -0.602."
     },
     {
       "id": "8-56",
@@ -7403,7 +7403,7 @@ const QUESTIONS = {
         "1:10"
       ],
       "correct": 2,
-      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10<sup>1.00</sup> = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
+      "explanation": "Correct: 10:1. Henderson-Hasselbalch: pH = pK<sub>a</sub> + log([base]/[acid]). Substitute 6.00 = 5.00 + log(ratio), so log(ratio) = 1.00, and ratio = 10<sup>1.00</sup> = 10. So [conjugate base]/[weak acid] = 10:1: ten times more base than acid. Rule of thumb: a pH one unit above pK<sub>a</sub> means a 10:1 base-to-acid ratio; one unit below means 1:10.\n\n(A) is wrong because 1:1 gives pH = pK<sub>a</sub> = 5.00.\n(D) is wrong because 1:10 gives pH 4.00, below the pK<sub>a</sub>.\n(B) is wrong because 100:1 gives pH 7.00."
     },
     {
       "id": "8-57",
@@ -7416,7 +7416,7 @@ const QUESTIONS = {
         "1:1"
       ],
       "correct": 1,
-      "explanation": "4.00 = 5.00 + log(ratio) → log(ratio) = −1.00 → ratio = 10^(−1.00) = 0.10, i.e., [base]/[acid] = 1:10 — more weak acid than conjugate base, since the target pH is below pKa. Choice A (10:A) is the inverted ratio, which would give pH = 6.00 (one unit above pKa), the mirror-image error. Choice D (A:A) would give pH = pKa = 5.00, not 4.00. Choice C (A:100) overcorrects by an extra order of magnitude, corresponding to pH = 3.00 (two units below pKa) rather than one."
+      "explanation": "Correct: 1:10. Henderson-Hasselbalch: pH = pK<sub>a</sub> + log([base]/[acid]). Substitute 4.00 = 5.00 + log(ratio), so log(ratio) = -1.00, and ratio = 10<sup>-1.00</sup> = 0.10, which means [base]/[acid] = 1:10. A pH below the pK<sub>a</sub> means the acid form is the larger part.\n\n(A) is wrong because 10:1 would give pH 6.00.\n(D) is wrong because 1:1 gives pH 5.00.\n(C) is wrong because 1:100 would give pH 3.00, two units below the pK<sub>a</sub>."
     },
     {
       "id": "8-58",
@@ -7429,7 +7429,7 @@ const QUESTIONS = {
         "4.94"
       ],
       "correct": 2,
-      "explanation": "With both species in the same 1.00 L, moles equal molarity directly: pH = 4.74 + log(0.250/0.400) = 4.74 + log(0.625) = 4.74 − 0.204 = 4.54. Choice B (4.74) is just pKa restated, ignoring that the moles of acid and base here aren't equal (0.400 mol acid vs. 0.250 mol base). Choice D (4.94) comes from inverting the ratio to [acid]/[base] = 0.400/0.250 = 1.6, giving 4.74 + log(1.6) = 4.74 + 0.204 = 4.94 — adding instead of subtracting the log term. Choice A (5.14) doesn't correspond to a consistent ratio calculation with these mole values and, notably, incorrectly pushes pH ABOVE pKa despite the base being the minority component, which should push pH below pKa, not above it."
+      "explanation": "Correct: 4.54. Both amounts are in the same 1.00 L, so the moles equal the molarities: [acid] = 0.400 M (CH<sub>3</sub>COOH) and [base] = 0.250 M (CH<sub>3</sub>COO<sup>-</sup> from the sodium salt). pH = pK<sub>a</sub> + log([base]/[acid]) = 4.74 + log(0.250/0.400) = 4.74 + log(0.625) = 4.74 - 0.204 = 4.54. Since there is more acid than base, the pH should be a little BELOW the pK<sub>a</sub>, which it is.\n\n(B) is wrong because it would need equal amounts.\n(D) is wrong because it inverts the ratio, getting 4.74 + 0.204.\n(A) is wrong because it puts the pH above the pK<sub>a</sub>, which cannot be when the acid is the larger part."
     },
     {
       "id": "8-59",
@@ -7534,7 +7534,7 @@ const QUESTIONS = {
         "pI = 6.05"
       ],
       "correct": 3,
-      "explanation": "For a simple amino acid, pI is the average of the two flanking pKa values: pI = (2.19 + 9.90)/2 = 6.05. Choice B (9.90) is just pKa₂ alone, ignoring pKa₁ entirely. Choice C (12.09) is the SUM of the two pKa values (2.19 + 9.90), not their average — the division by 2 was skipped. Choice A (2.19) is just pKa₁ alone, ignoring pKa₂ entirely."
+      "explanation": "Correct: pI = 6.05. The isoelectric point (pI) is the pH at which an amino acid has no net charge. For a simple amino acid with no ionizable side chain, the neutral (zwitterion) form sits between the two pK<sub>a</sub> values, so pI is their average: pI = (pK<sub>a1</sub> + pK<sub>a2</sub>)/2 = (2.19 + 9.90)/2 = 12.09/2 = 6.05. At this pH the carboxyl group is mostly -COO<sup>-</sup> and the amino group is mostly -NH<sub>3</sub><sup>+</sup>, so the charges cancel. (A) and (B) are wrong because each uses only one of the pK<sub>a</sub> values.\n\n(C) is wrong because 12.09 is the sum; the division by 2 was skipped."
     },
     {
       "id": "8-67",
