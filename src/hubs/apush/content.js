@@ -5220,7 +5220,7 @@ const QUESTIONS = {
         "Cuba outright, annexed directly as a formal U.S. territory rather than granted nominal independence"
       ],
       "correct": 0,
-      "explanation": "The 1898 Treaty of Paris gave the U.S. the Philippines, Puerto Rico, and Guam. Alaska (an 1867 purchase) and Hawaii (an 1898 annexation unrelated to the war) came through separate processes; Cuba became nominally independent rather than annexed, under the Platt Amendment; the U.S. took no Canadian or Mexican territory in this war."
+      "explanation": "Correct: (A) the Philippines, Puerto Rico, and Guam. The Treaty of Paris, signed in December 1898 and ratified by the Senate in February 1899, ended the Spanish-American War: Spain gave up Cuba, ceded Puerto Rico and Guam, and sold the Philippines to the U.S. for $20 million. These Spanish colonies gave the U.S. its first major overseas empire in the Caribbean and the Pacific, which is why the treaty sparked a national debate over imperialism.\n\n(B) is wrong because Alaska was bought from Russia in 1867 and Hawaii was annexed by a separate joint resolution in July 1898, so neither was a spoil of the peace settlement with Spain.\n(C) is wrong because the U.S. took no Canadian or Mexican land in this war and demanded no such compensation from Spain.\n(D) is wrong because the Teller Amendment (1898) had pledged the U.S. would not annex Cuba, so Cuba became nominally independent, though bound by the Platt Amendment, instead of becoming a U.S. territory."
     },
     {
       "id": "7-2",
@@ -5233,7 +5233,7 @@ const QUESTIONS = {
         "A U.S. constitutional amendment expanding voting rights to residents of the new territories"
       ],
       "correct": 2,
-      "explanation": "The Platt Amendment (1901) restricted Cuban sovereignty and authorized U.S. military intervention, imposed as a condition for ending U.S. occupation once Cuba gained nominal independence in 1902. It was not a constitutional amendment, a tariff measure, or an immigration law."
+      "explanation": "Correct: (C) a provision limiting Cuban sovereignty and authorizing U.S. military intervention. The Platt Amendment (1901) was attached to an Army appropriations bill and the U.S. required Cuba to write it into its constitution as the price for ending the military occupation that followed the Spanish-American War. It let the U.S. intervene to preserve Cuban independence and order, barred Cuba from making treaties that weakened its independence, and gave the U.S. a naval base at Guantánamo Bay. It made Cuba a protectorate in practice, an early example of 'informal empire'.\n\n(A) is wrong because it was not a tariff; the issue was political control of Cuba, a former Spanish colony the U.S. had just helped free.\n(B) is wrong because it dealt with Cuba's relationship to the U.S., not immigration from Spain.\n(D) is wrong because it was an ordinary act of Congress written into Cuba's constitution, not an amendment to the U.S. Constitution, and it gave no voting rights to anyone."
     },
     {
       "id": "7-3",
@@ -5246,7 +5246,7 @@ const QUESTIONS = {
         "That imperial expansion was purely a military logistics question with no political or moral dimension"
       ],
       "correct": 1,
-      "explanation": "The League's core objection was principled, not budgetary or diplomatic: extending American rule over unconsenting populations betrayed the nation's own founding democratic ideals, an argument figures like Mark Twain and Andrew Carnegie pressed publicly. Cost and Spanish-relations concerns were secondary at most, and the League plainly did invoke political/moral principle."
+      "explanation": "Correct: (B) that governing new populations without their consent violated core democratic principles. The Anti-Imperialist League, founded in Boston in 1898 as the Senate debated the Treaty of Paris, included Mark Twain, Andrew Carnegie, Jane Addams, and Samuel Gompers. Its members argued that ruling Filipinos and others without their consent contradicted the Declaration of Independence and the principle of government by consent of the governed, and some also feared a standing army and cheap colonial labor. The war that followed in the Philippines (1899-1902) sharpened this critique.\n\n(A) is wrong because the League wanted to avoid acquiring the colonies at all, and strengthening ties with Spain was no part of its argument.\n(C) is wrong because cost was at most a side concern; its central objection was moral and constitutional, not that colonies would bankrupt the treasury.\n(D) is wrong because the League explicitly treated imperialism as a political and moral question about democracy and self-government, not a mere matter of logistics."
     },
     {
       "id": "7-4",
@@ -5259,7 +5259,7 @@ const QUESTIONS = {
         "That China should be excluded from all trade with Western and Japanese powers alike"
       ],
       "correct": 1,
-      "explanation": "The Open Door Policy (1899) called for equal trading access for every nation in China, explicitly opposing formal partition into exclusive colonial spheres. It did not propose excluding China from trade or annexing it outright — both describe policies the U.S. explicitly rejected."
+      "explanation": "Correct: (B) that all nations should have equal trading access to China, rather than exclusive spheres of influence. Secretary of State John Hay sent the Open Door Notes in 1899 because Britain, Russia, Germany, France, and Japan were carving China into spheres of influence after its defeat by Japan in 1895. The U.S. had no sphere of its own and wanted its merchants to compete on equal terms in the China market, so Hay asked the powers to keep trade open to all and respect Chinese territorial integrity (restated after the Boxer Rebellion in 1900).\n\n(A) is wrong because the policy opposed partition into exclusive colonial territories.\n(C) is wrong because the U.S. did not seek to annex China, only equal commercial access.\n(D) is wrong because the goal was to keep China open to trade with everyone, not close it off."
     },
     {
       "id": "7-5",
@@ -5272,7 +5272,7 @@ const QUESTIONS = {
         "A permanent U.S. pledge to never intervene militarily in any Western Hemisphere nation"
       ],
       "correct": 0,
-      "explanation": "The Roosevelt Corollary (1904) asserted a U.S. right to intervene in Latin American nations' internal affairs to preserve stability and preempt European intervention, expanding rather than reversing the Monroe Doctrine's earlier defensive posture. It was not a non-intervention pledge, a joint-governance pact with Europe, or a tariff scheme."
+      "explanation": "Correct: (A) a U.S. right to intervene in Latin American nations to preserve stability. Theodore Roosevelt announced the Corollary in his 1904 message to Congress after European creditors threatened the Dominican Republic over unpaid debts. He argued that 'chronic wrongdoing' by a Latin American government could force the U.S., under the Monroe Doctrine, to act as an 'international police power' so that Europeans would have no excuse to intervene. It was later used in the Dominican Republic, Haiti, and Nicaragua.\n\n(B) is wrong because it dealt with debts and intervention, not tariff rates.\n(C) is wrong because it did the opposite of inviting Europeans to police the region; its purpose was to keep European powers out and reserve that role for the U.S.\n(D) is wrong because it expanded U.S. willingness to use force rather than pledging never to intervene."
     },
     {
       "id": "7-6",
@@ -5285,7 +5285,7 @@ const QUESTIONS = {
         "The Roosevelt Corollary itself formally annexed several Latin American nations as U.S. territories, including Cuba"
       ],
       "correct": 2,
-      "explanation": "The Roosevelt Corollary claimed a right to intervene in Latin American nations without formally annexing them — an 'informal empire' genuinely distinct from the Philippines' direct, formal colonial governance. The Corollary annexed no territory, and the two approaches did not share identical treaties or administrations."
+      "explanation": "Correct: (C) it asserted a right to intervene without formal annexation ('informal empire'), unlike the Philippines' colonial rule. In the Philippines, the U.S. took formal sovereignty by treaty in 1898-99, fought the Philippine-American War to enforce it, and governed through the Philippine Commission and a civil governor (William Howard Taft). Under the Roosevelt Corollary (1904), the U.S. instead kept nominal independence for countries like the Dominican Republic and Cuba while taking control of their customs, finances, and sometimes sending Marines. That gave the U.S. influence and economic benefits without the burdens of governing a colony.\n\n(A) is wrong because the Corollary was a presidential policy statement, not a treaty of annexation, so the two approaches did not use identical treaties.\n(B) is wrong because only the Philippines (and Puerto Rico) had American-appointed governors in a formal colonial structure.\n(D) is wrong because the Corollary annexed no one; Cuba, in particular, was not annexed but nominally independent under the Platt Amendment."
     },
     {
       "id": "7-7",
@@ -5298,7 +5298,7 @@ const QUESTIONS = {
         "It was organized opposition coverage that actively argued against American entry into the war"
       ],
       "correct": 0,
-      "explanation": "Sensationalized 'yellow journalism' coverage of Spanish colonial abuses in Cuba, alongside the USS Maine's explosion, helped build American public support for war — it did not oppose intervention, and it originated with American publishers (Pulitzer and Hearst), not the Spanish government."
+      "explanation": "Correct: (A) sensationalized coverage of Spanish abuses in Cuba helped build American support for war. Joseph Pulitzer's New York World and William Randolph Hearst's New York Journal competed for readers in the 1890s by running dramatic, often exaggerated stories about the Spanish reconcentrado policy in Cuba, where civilians were herded into camps during the revolt that began in 1895. The leaked De Lôme letter and the explosion of the USS Maine in Havana harbor in February 1898 were played up with headlines blaming Spain, which pushed public opinion and Congress toward war by April 1898.\n\n(B) is wrong because the press was one of the major influences on opinion and pressure on McKinley.\n(C) is wrong because these were American publishers selling to American readers, not Spanish government releases.\n(D) is wrong because yellow journalism pushed for intervention, not against it."
     },
     {
       "id": "7-8",
@@ -5311,7 +5311,7 @@ const QUESTIONS = {
         "Yes, imperialism faced organized opposition only from within Congress, never from the broader public"
       ],
       "correct": 1,
-      "explanation": "It is not accurate to call American imperialism universally supported: the Anti-Imperialist League, including prominent figures like Mark Twain, actively and publicly opposed overseas acquisition. The League was a real, broad public organization (not confined to Congress or fabricated), and plenty of prominent Americans, including Theodore Roosevelt, did support expansion."
+      "explanation": "Correct: (B) no; the Anti-Imperialist League, including Mark Twain, actively opposed overseas acquisition. The League, founded in 1898, attracted thousands of members, and the Senate approved the Treaty of Paris in February 1899 by only one vote more than the two-thirds required (57-27), showing real division. Opponents included Twain, Carnegie, and Jane Addams, while supporters such as Theodore Roosevelt, Henry Cabot Lodge, and Albert Beveridge pushed for expansion. So the claim of universal support is false.\n\n(A) is wrong because many prominent Americans, including Roosevelt, Lodge, and naval strategist Alfred Thayer Mahan, publicly supported imperialism.\n(C) is wrong because the League was real, formed in November 1898, and its members are well documented.\n(D) is wrong because the opposition was not limited to Congress; it was a public movement of writers, reformers, and labor and business leaders, and the premise that the country was unanimously in favor is false in any case."
     },
     {
       "id": "7-9",
@@ -5324,7 +5324,7 @@ const QUESTIONS = {
         "Horrific, unsanitary conditions inside the meatpacking industry"
       ],
       "correct": 3,
-      "explanation": "Upton Sinclair's The Jungle exposed horrific meatpacking industry conditions, directly leading to the Pure Food and Drug Act and Meat Inspection Act (both 1906). Railroad pricing, election fraud, and banking fragility were real Progressive-era concerns, but not what Sinclair's novel targeted."
+      "explanation": "Correct: (D) horrific, unsanitary conditions inside the meatpacking industry. Upton Sinclair, a socialist, wrote The Jungle (1906) about immigrant workers in Chicago's stockyards, hoping to expose how they were exploited. Readers, including President Theodore Roosevelt, reacted most to its descriptions of filthy, unsafe processing of meat, which led Congress to pass the Meat Inspection Act and the Pure Food and Drug Act in 1906. Sinclair is said to have remarked that he aimed at the public's heart and hit its stomach.\n\n(A) is wrong because railroad rate abuses were handled by laws like the Elkins Act (1903) and Hepburn Act (1906), and Ida Tarbell and others wrote about monopoly in other industries.\n(B) is wrong because banking instability led to the Federal Reserve Act of 1913 after the Panic of 1907, not to Sinclair's book.\n(C) is wrong because election fraud and machine corruption were exposed by writers like Lincoln Steffens, not Sinclair."
     },
     {
       "id": "7-10",
@@ -5337,7 +5337,7 @@ const QUESTIONS = {
         "Direct popular election of United States Senators"
       ],
       "correct": 3,
-      "explanation": "The Seventeenth Amendment (1913) established direct election of U.S. Senators, replacing selection by state legislatures. Women's suffrage came via the Nineteenth Amendment (1920), the income tax via the Sixteenth Amendment (1913, a separate measure), and Prohibition via the Eighteenth Amendment (1919)."
+      "explanation": "Correct: (D) direct popular election of United States Senators. Before 1913, state legislatures chose senators, which led to deadlocked elections, bribery, and charges that wealthy interests and party machines controlled the Senate. Progressives pushed for change, and the Seventeenth Amendment, ratified in 1913, gave voters in each state the power to elect their senators directly.\n\n(A) is wrong because women's suffrage nationwide came with the Nineteenth Amendment in 1920.\n(B) is wrong because the income tax was authorized by the Sixteenth Amendment, also ratified in 1913, and it did not establish a specific graduated rate.\n(C) is wrong because Prohibition was the Eighteenth Amendment, ratified in 1919 and in force in 1920."
     },
     {
       "id": "7-11",
@@ -5350,7 +5350,7 @@ const QUESTIONS = {
         "Direct election of Senators began as an 1892 Populist Omaha Platform demand."
       ],
       "correct": 3,
-      "explanation": "Direct election of Senators was originally a Populist Omaha Platform demand (Section 6.7); the Seventeenth Amendment's passage two decades later shows Populism's genuine longer-term ideological influence surviving the party's own political end — not opposition from Populists, not an undoing of a prior Populist win, and not an unrelated coincidence."
+      "explanation": "Correct: (D) direct election of Senators began as an 1892 Populist Omaha Platform demand. The People's Party platform written in Omaha in 1892 called for the direct election of U.S. senators, a graduated income tax, and other measures to give ordinary farmers and workers more power against railroads and banks. The party faded after 1896, when it backed William Jennings Bryan and the Democrats, but many of its ideas were taken up by Progressives, including the Seventeenth Amendment (1913) and the Sixteenth Amendment for the income tax. That is a clear link between periods.\n\n(A) is wrong because the Populists favored direct election, they did not block it.\n(B) is wrong because the amendment fulfilled a Populist goal rather than undoing one.\n(C) is wrong because there is a clear documented link between the Omaha Platform and later Progressive reforms, even though the two movements differed in membership and goals."
     },
     {
       "id": "7-12",
@@ -5363,7 +5363,7 @@ const QUESTIONS = {
         "By nationalizing the railroad, steel, and oil industries outright under federal ownership"
       ],
       "correct": 2,
-      "explanation": "Roosevelt's Square Deal distinguished 'good trusts' from 'bad trusts,' pursuing selective regulation and antitrust action against abusive behavior rather than blanket hostility to size itself. He did not nationalize industry or suspend antitrust enforcement."
+      "explanation": "Correct: (C) by distinguishing 'good trusts' from abusive 'bad trusts' for selective regulation. Theodore Roosevelt's Square Deal promised fairness to labor, consumers, and business. He believed that large corporations were an economic reality and were acceptable if they behaved well, but that the government should act against those that harmed the public. His administration sued Northern Securities, a railroad holding company, in 1902 (the Supreme Court broke it up in 1904), brokered a settlement of the 1902 anthracite coal strike, and secured the Hepburn Act (1906).\n\n(A) is wrong because he used the Sherman Antitrust Act in dozens of suits, not suspended it.\n(B) is wrong because he did not oppose every large business; he accepted size and went after only the 'bad' trusts.\n(D) is wrong because he regulated industry; he never nationalized railroads, steel, or oil."
     },
     {
       "id": "7-13",
@@ -5376,7 +5376,7 @@ const QUESTIONS = {
         "New Freedom was more skeptical of corporate concentration, favoring aggressive trust-breaking regardless of conduct."
       ],
       "correct": 3,
-      "explanation": "Wilson's New Freedom was more philosophically opposed to large corporate concentration as such, favoring aggressive trust-breaking whether or not a given company was currently behaving abusively — a genuinely different underlying philosophy from Roosevelt's conduct-based Square Deal, and neither an identical stance nor an abandonment of antitrust policy."
+      "explanation": "Correct: (D) New Freedom was more skeptical of corporate concentration, favoring aggressive trust-breaking regardless of conduct. In the 1912 campaign, Wilson, advised by Louis Brandeis, argued that monopoly and bigness themselves threatened economic opportunity and democracy, and that government should restore competition by breaking up concentrated power. Theodore Roosevelt's New Nationalism, by contrast, accepted big business and relied on a strong federal regulatory role. Wilson's presidency produced the Underwood Tariff, the Federal Reserve Act, the Federal Trade Commission Act, and the Clayton Antitrust Act (1914).\n\n(A) is wrong because the two philosophies differed over whether bigness is itself a problem.\n(B) is wrong because Wilson created the FTC and signed the Clayton Act, strengthening antitrust enforcement.\n(C) is wrong because trusts were at the center of the New Freedom agenda."
     },
     {
       "id": "7-14",
@@ -5389,7 +5389,7 @@ const QUESTIONS = {
         "The direct primary, initiative, referendum, and recall"
       ],
       "correct": 3,
-      "explanation": "The direct primary, initiative, referendum, and recall were Progressive-era reforms giving voters more direct influence over legislation and officeholders. The spoils system, popular sovereignty, and the Homestead Act belonged to earlier eras and addressed different issues entirely."
+      "explanation": "Correct: (D) the direct primary, initiative, referendum, and recall. Progressives such as Robert La Follette in Wisconsin sought to weaken party bosses and corrupt legislatures. The direct primary let voters, not party leaders, choose candidates, the initiative and referendum let citizens propose and approve laws directly, and the recall let voters remove officials before their terms ended. Oregon and other western states led the way in the early 1900s.\n\n(A) is wrong because the Homestead Act (1862) gave land to settlers and has nothing to do with voter control of government.\n(B) is wrong because the spoils system, associated with Andrew Jackson and later reformed by the Pendleton Act (1883), is patronage that Progressives opposed.\n(C) is wrong because popular sovereignty was the 1850s idea of letting territories decide on slavery, which was a different issue from Progressive-era reforms."
     },
     {
       "id": "7-15",
@@ -5402,7 +5402,7 @@ const QUESTIONS = {
         "Regulatory legislation consistently preceded the muckraking exposés that inspired it"
       ],
       "correct": 0,
-      "explanation": "The muckraker-to-legislation pattern involves journalists exposing specific abuses to a mass audience, which then drives targeted regulatory legislation — as with Sinclair's The Jungle prompting food-safety laws. Muckrakers targeted business as much as government, the two developments were closely linked in time, and exposés generally preceded, not followed, the resulting laws."
+      "explanation": "Correct: (A) muckrakers exposed specific abuses to a mass audience, driving targeted regulatory legislation. Cheap national magazines such as McClure's reached hundreds of thousands of readers in the early 1900s. Ida Tarbell's series on Standard Oil, Lincoln Steffens's The Shame of the Cities, and Upton Sinclair's The Jungle revealed concrete abuses, and the resulting public anger gave reformers and Theodore Roosevelt the political support to pass laws, for example the Meat Inspection Act and Pure Food and Drug Act in 1906.\n\n(B) is wrong because the exposés and the laws are closely linked in time.\n(C) is wrong because muckrakers examined corporate abuses at least as much as political corruption.\n(D) is wrong because the exposés came first and spurred the laws, so the order is reversed."
     },
     {
       "id": "7-16",
@@ -5415,7 +5415,7 @@ const QUESTIONS = {
         "A policy limited to attacking only clearly marked military vessels after prior warning"
       ],
       "correct": 1,
-      "explanation": "Unrestricted submarine warfare was Germany's policy of attacking ships, including passenger vessels like the Lusitania, without warning — not a U.S. naval strategy, not a warning-based practice, and directly connected to (not separate from) the deteriorating naval situation."
+      "explanation": "Correct: (B) Germany's policy of attacking ships, including passenger vessels, without warning. In February 1915, Germany declared the waters around Britain a war zone and used U-boats to sink merchant ships on sight to counter the British naval blockade. Because submarines are fragile and could not surface to warn ships, they struck without warning, killing civilians, including Americans, as in the Lusitania sinking of May 1915. The U.S. insisted on its neutral right to travel safely and on the older rules requiring warning before attack.\n\n(A) is wrong because the policy was a naval one and drove the crisis between the U.S. and Germany.\n(C) is wrong because the U.S. did not adopt it; Germany did.\n(D) is wrong because limiting attacks to marked warships after a warning describes the rules Germany was violating."
     },
     {
       "id": "7-17",
@@ -5428,7 +5428,7 @@ const QUESTIONS = {
         "No — the U.S. stayed neutral nearly two more years, since Germany paused unrestricted submarine warfare."
       ],
       "correct": 3,
-      "explanation": "The Lusitania's sinking did not immediately bring the U.S. into the war: Germany temporarily suspended unrestricted submarine warfare after American diplomatic protest, and the U.S. remained neutral for nearly two more years. The ship was British-flagged, not American, and no declaration of war followed within weeks."
+      "explanation": "Correct: (D) no; the U.S. stayed neutral nearly two more years, since Germany paused unrestricted submarine warfare. The British liner Lusitania was sunk by a German U-boat on May 7, 1915, killing 1,198 people, including 128 Americans. Wilson sent strong protests, and Germany's Sussex Pledge in 1916 promised to stop sinking merchant ships without warning. Wilson won re-election in 1916 using the slogan 'He kept us out of war'. The U.S. entered the war on April 6, 1917.\n\n(A) is wrong because the sinking was a deliberate attack by a German submarine in the war zone.\n(B) is wrong because no declaration of war came in 1915.\n(C) is wrong because the Lusitania was a British Cunard ship, and it was not carrying American troops."
     },
     {
       "id": "7-18",
@@ -5441,7 +5441,7 @@ const QUESTIONS = {
         "A U.S. diplomatic proposal sent to the German government"
       ],
       "correct": 1,
-      "explanation": "The Zimmermann Telegram was a secret German proposal encouraging Mexico to attack the United States in exchange for German support recovering lost Mexican territory; its early-1917 revelation directly contributed to U.S. entry. It was not a peace treaty, an irrelevant intercept, or an American proposal to Germany."
+      "explanation": "Correct: (B) a secret German proposal for a Mexican attack on the U.S. In January 1917, German foreign secretary Arthur Zimmermann sent a coded message to Mexico offering an alliance if war with the U.S. began, with German support for Mexico to regain Texas, New Mexico, and Arizona. British intelligence intercepted and decoded it and passed it to the U.S., and it was published in newspapers on March 1, 1917. The public outrage helped push the country toward war, along with the renewed submarine campaign.\n\n(A) is wrong because the treaty ending the war was Versailles in 1919.\n(C) is wrong because the interception was important and the message helped bring the U.S. into the war.\n(D) is wrong because the message was sent by Germany to Mexico and not by the U.S. to Germany."
     },
     {
       "id": "7-19",
@@ -5454,7 +5454,7 @@ const QUESTIONS = {
         "The onset of the New Deal and the depths of the Great Depression"
       ],
       "correct": 1,
-      "explanation": "Germany's 1917 resumption of unrestricted submarine warfare, combined with the Zimmermann Telegram's revelation, directly triggered the April 1917 declaration of war. The other pairs involve events from entirely different decades and periods."
+      "explanation": "Correct: (B) renewed German submarine warfare and the Zimmermann Telegram. Germany announced on January 31, 1917 that it would resume unrestricted submarine warfare on February 1 to starve Britain, even knowing it might bring in the U.S. Then the Zimmermann Telegram became public on March 1, and several American ships were sunk. Wilson asked Congress for a declaration of war on April 2, and Congress declared it on April 6, 1917.\n\n(A) is wrong because the Lusitania sinking was in 1915, and the Treaty of Versailles came in 1919 after the war.\n(C) is wrong because the Spanish-American War (1898) and the Open Door Policy (1899) are from the earlier imperialism era.\n(D) is wrong because the New Deal and the Great Depression came in the 1930s."
     },
     {
       "id": "7-20",
@@ -5467,7 +5467,7 @@ const QUESTIONS = {
         "As a strictly economic decision made without any idealistic justification, mainly to protect bank loans"
       ],
       "correct": 2,
-      "explanation": "Wilson framed entry idealistically, describing the war as a fight to 'make the world safe for democracy' and connecting it to Progressive-era reform ideals, rather than presenting it as conquest, pure economics, or leaving it unexplained."
+      "explanation": "Correct: (C) as a fight to 'make the world safe for democracy,' tying U.S. involvement to broader reform ideals. In his April 2, 1917 war message to Congress, Wilson argued that the U.S. was fighting for democratic principles, said 'the world must be made safe for democracy', and cast the war as a crusade against autocracy, building on the Progressive idea of reforming society. He later stated this as the Fourteen Points (January 1918).\n\n(A) is wrong because he delivered a major speech to Congress explaining the reasons.\n(B) is wrong because he said the U.S. sought no conquest or material gain.\n(D) is wrong because, although Allied loans and trade mattered, he based his case on principle and the defense of neutral rights, not on protecting bank loans."
     },
     {
       "id": "7-21",
@@ -5480,7 +5480,7 @@ const QUESTIONS = {
         "The Lusitania (1915) preceded entry by nearly two years; the 1917 triggers were renewed submarine warfare and the Telegram."
       ],
       "correct": 3,
-      "explanation": "Citing the Lusitania alone is insufficient because it preceded actual U.S. entry by nearly two years — Germany's temporary suspension of unrestricted submarine warfare defused that crisis — while the more immediate, direct 1917 triggers were the resumed submarine campaign and the Zimmermann Telegram."
+      "explanation": "Correct: (D) the Lusitania (1915) preceded entry by nearly two years; the 1917 triggers were renewed submarine warfare and the Telegram. The Lusitania was sunk on May 7, 1915, but Wilson responded with diplomatic notes, Germany's Sussex Pledge (1916) eased the crisis, and Wilson won re-election in 1916 as the man who kept the U.S. out of war. The decisive changes came in early 1917, when Germany resumed unrestricted submarine warfare on February 1 and the Zimmermann Telegram was revealed on March 1. War was declared on April 6, 1917.\n\n(A) is wrong because the U.S. entered after the Lusitania, not before.\n(B) is wrong because the sinking alone did not cause the declaration, and other factors such as Allied loans and the 1917 events mattered.\n(C) is wrong because the sinking did shape American opinion of Germany, so the problem is that it is not the direct trigger, not that it is irrelevant."
     },
     {
       "id": "7-22",
@@ -5493,7 +5493,7 @@ const QUESTIONS = {
         "Nearly three years"
       ],
       "correct": 3,
-      "explanation": "The United States maintained official neutrality for nearly three years after World War I began in Europe in 1914, before entering the war in April 1917."
+      "explanation": "Correct: (D) nearly three years. World War I began in Europe in late July and August 1914, and Wilson immediately proclaimed neutrality and urged Americans to be 'neutral in fact as well as in name.' The U.S. stayed out, trading with the Allies and lending them money, until it declared war on Germany on April 6, 1917, which is about two years and eight months.\n\n(A) is wrong because no immediate declaration followed the outbreak of war.\n(B) is wrong because ten years would run to 1924, long after the war ended in 1918.\n(C) is wrong because a few weeks is far shorter than the period of neutrality from 1914 to 1917."
     },
     {
       "id": "7-23",
@@ -5506,7 +5506,7 @@ const QUESTIONS = {
         "It produced government propaganda promoting enlistment and war bonds"
       ],
       "correct": 2,
-      "explanation": "The War Industries Board coordinated industrial production for the World War I war effort, a significant expansion of federal economic coordination. Civil-liberties restriction was the Espionage/Sedition Acts' role, Versailles negotiation was Wilson's, and propaganda was the Committee on Public Information's."
+      "explanation": "Correct: (C) it coordinated industrial production for the war effort. Created in 1917 and strengthened in 1918 under financier Bernard Baruch, the War Industries Board set production priorities, allocated raw materials, and fixed some prices to supply the army and the Allies. It was a large expansion of federal control over the economy and a model for the New Deal later.\n\n(A) is wrong because Wilson and other leaders negotiated Versailles in 1919, after the war.\n(B) is wrong because restricting civil liberties was the work of the Espionage and Sedition Acts.\n(D) is wrong because propaganda was the job of George Creel's Committee on Public Information."
     },
     {
       "id": "7-24",
@@ -5519,7 +5519,7 @@ const QUESTIONS = {
         "Regulated wartime industrial production levels across the economy"
       ],
       "correct": 1,
-      "explanation": "The Espionage Act and Sedition Act criminalized forms of anti-war speech and dissent, restricting civil liberties during World War I — the opposite of expanding free-speech protections. They did not establish the League of Nations or regulate industrial output."
+      "explanation": "Correct: (B) criminalized anti-war dissent, restricting civil liberties. The Espionage Act (1917) made it a crime to interfere with the draft or to cause insubordination in the military, and the Sedition Act (1918) went further by criminalizing 'disloyal' or abusive language about the government, the flag, or the war effort. Socialist leader Eugene V. Debs was sentenced to ten years for an anti-war speech, and in Schenck v. United States (1919) the Supreme Court upheld convictions under the Espionage Act using the 'clear and present danger' test.\n\n(A) is wrong because the laws restricted speech instead of protecting it.\n(C) is wrong because the League of Nations was a proposal in Wilson's Fourteen Points and the Treaty of Versailles.\n(D) is wrong because industrial output was regulated by the War Industries Board."
     },
     {
       "id": "7-25",
@@ -5532,7 +5532,7 @@ const QUESTIONS = {
         "The general principle of judicial review over federal statutes and executive actions"
       ],
       "correct": 1,
-      "explanation": "Schenck v. United States (1919) established the 'clear and present danger' test, permitting speech restriction in specific circumstances — a First Amendment precedent from Espionage Act prosecutions. It did not establish 'separate but equal' (Plessy, 1896) or judicial review (Marbury, 1803), and it was directly about free speech."
+      "explanation": "Correct: (B) the 'clear and present danger' test permitting speech restriction in specific circumstances. Charles Schenck, a Socialist Party official in Philadelphia, mailed leaflets urging draftees to resist conscription in 1917 and was convicted under the Espionage Act. In a unanimous 1919 opinion, Justice Oliver Wendell Holmes upheld the conviction, ruling that speech may be punished when it creates a 'clear and present danger' of bringing about harms Congress may prevent, and compared it to falsely shouting fire in a crowded theater.\n\n(A) is wrong because 'separate but equal' came from Plessy v. Ferguson (1896) and concerned segregation.\n(C) is wrong because the case was about the First Amendment and wartime dissent, not commercial law.\n(D) is wrong because judicial review was established by Marbury v. Madison (1803)."
     },
     {
       "id": "7-26",
@@ -5545,7 +5545,7 @@ const QUESTIONS = {
         "The wartime movement of Black Americans from the South to northern cities."
       ],
       "correct": 3,
-      "explanation": "The Great Migration was the large-scale movement of Black Americans from the rural South to northern industrial cities, significantly accelerated by wartime industrial labor demand and continuing well past the war's end — distinct from westward white settlement or any European return migration."
+      "explanation": "Correct: (D) the wartime movement of Black Americans from the South to northern cities. Beginning around 1916, hundreds of thousands of Black Southerners moved to Chicago, Detroit, Cleveland, New York, and other cities. World War I cut off European immigration and created heavy demand for factory labor, while many were also leaving Jim Crow segregation, lynching, and poor farm conditions in the South. Newspapers such as the Chicago Defender urged them to go, and the migration continued for decades, changing northern politics and culture, including the Harlem Renaissance.\n\n(A) is wrong because the migration was internal to the U.S. and not a European return.\n(B) is wrong because the Homestead Act (1862) was about land in the West.\n(C) is wrong because the war's labor demand was a main cause of the acceleration."
     },
     {
       "id": "7-27",
@@ -5558,7 +5558,7 @@ const QUESTIONS = {
         "No, because Wilson never actually proposed a League of Nations at Paris"
       ],
       "correct": 2,
-      "explanation": "The U.S. Senate ultimately REJECTED the Treaty of Versailles, and the United States never joined the League of Nations — a frequently tested, genuinely ironic outcome given Wilson's central role proposing it. There was no later withdrawal, and Wilson did in fact champion the League at Paris."
+      "explanation": "Correct: (C) no; the Senate rejected Versailles, and the U.S. never joined the League. Wilson made the League of Nations the centerpiece of his Fourteen Points (1918) and the Paris Peace Conference (1919), where it was built into the treaty. Back home, Senate Republicans led by Henry Cabot Lodge demanded reservations, Wilson refused to compromise and toured the country until he suffered a stroke in October 1919, and the Senate voted down the treaty in November 1919 and again in March 1920. The U.S. made a separate peace with Germany in 1921.\n\n(A) is wrong because the U.S. never became a member, so there was nothing to withdraw from.\n(B) is wrong because the Senate never ratified.\n(D) is wrong because Wilson was the League's chief champion at Paris."
     },
     {
       "id": "7-28",
@@ -5571,7 +5571,7 @@ const QUESTIONS = {
         "That the treaty failed to adequately address the Zimmermann Telegram affair and its aftermath for Mexico"
       ],
       "correct": 2,
-      "explanation": "The primary Senate concern was that League of Nations membership could obligate the U.S. to military commitments abroad without full congressional control — reflecting persistent American ambivalence about binding international commitment. The treaty's severity toward Germany and the long-resolved Zimmermann Telegram were not the Senate's stated objections."
+      "explanation": "Correct: (C) that League membership could obligate U.S. military commitments without full congressional control. Lodge and other senators targeted Article X of the League Covenant, which pledged members to preserve one another's territory against aggression, fearing it would commit the U.S. to war without a vote by Congress, which holds the power to declare war. Many Americans were also tired of the war and wary of entangling alliances after Washington's Farewell Address. Wilson refused to accept the Lodge reservations, so the treaty failed.\n\n(A) is wrong because the treaty drew a lengthy and bitter debate.\n(B) is wrong because critics did not say it was too lenient to Germany; it imposed war guilt and heavy reparations, and the main objection was American commitments.\n(D) is wrong because the Zimmermann Telegram (1917) was not a treaty issue."
     },
     {
       "id": "7-29",
@@ -5584,7 +5584,7 @@ const QUESTIONS = {
         "There is no genuine irony in how this outcome unfolded"
       ],
       "correct": 0,
-      "explanation": "The genuine irony is that despite the League of Nations being Wilson's own signature proposal, central to his Fourteen Points, the U.S. Senate ultimately rejected American membership in it — the opposite of Wilson opposing it himself, and far from a unanimous, uncontested Senate vote."
+      "explanation": "Correct: (A) despite being Wilson's own proposal, the Senate rejected the League. Wilson had spent months in Paris in 1919 insisting that the League of Nations be part of the peace settlement, and he made it the core of his 'peace without victory' idealism. Yet his own country declined to join, and the League operated without the United States, which weakened it during the 1930s.\n\n(B) is wrong because the Senate fell short of the two-thirds needed and the votes in 1919 and 1920 were sharply divided.\n(C) is wrong because Wilson strongly supported the League from the start.\n(D) is wrong because the outcome is considered a famous irony, since the president who invented the League could not win it ratification."
     },
     {
       "id": "7-30",
@@ -5597,7 +5597,7 @@ const QUESTIONS = {
         "The Bessemer process for converting iron into steel"
       ],
       "correct": 0,
-      "explanation": "Henry Ford's assembly-line mass production techniques dramatically cut automobile costs, making car ownership newly accessible during the 1920s. Horizontal and vertical integration describe corporate consolidation strategies (more associated with Standard Oil and Carnegie Steel), and the Bessemer process concerns steelmaking, not automobile assembly."
+      "explanation": "Correct: (A) assembly-line mass production. In 1913 at his Highland Park plant, Henry Ford introduced a moving assembly line in which each worker did one narrow task as the car chassis moved past, cutting the time to build a Model T from about 12 hours to under 2. That helped drop the price from about $850 in 1908 to under $300 by the mid-1920s, so ordinary families, including Ford's own workers paid $5 a day from 1914, could afford one.\n\n(B) is wrong because horizontal integration means buying up competitors, as Rockefeller's Standard Oil did, and does not explain lower manufacturing costs.\n(C) is wrong because Ford did own supply sources such as at the River Rouge complex, but vertical integration is not the technique that cut costs so sharply.\n(D) is wrong because the Bessemer process made steel cheaply in the 1850s-60s and was not a car manufacturing method."
     },
     {
       "id": "7-31",
@@ -5610,7 +5610,7 @@ const QUESTIONS = {
         "A labor union organizing campaign among Harlem's garment workers"
       ],
       "correct": 2,
-      "explanation": "The Harlem Renaissance was a flourishing of Black literary, artistic, and musical achievement centered in New York during the 1920s — a cultural, not political-independence, labor, or Prohibition-focused, movement."
+      "explanation": "Correct: (C) a 1920s flourishing of Black art and literature centered in New York. In the Harlem neighborhood, swelled by the Great Migration, writers like Langston Hughes, Zora Neale Hurston, and Claude McKay, thinker Alain Locke ('The New Negro', 1925), and musicians such as Duke Ellington and Louis Armstrong created work expressing Black pride and experience. It challenged racial stereotypes and made Black culture a visible part of American culture.\n\n(A) is wrong because it was a cultural movement, not a campaign against Prohibition enforcement.\n(B) is wrong because it did not seek political independence for Harlem.\n(D) is wrong because it was not a labor campaign among garment workers."
     },
     {
       "id": "7-32",
@@ -5623,7 +5623,7 @@ const QUESTIONS = {
         "It encouraged unlimited immigration from every world region equally, ending earlier restrictions entirely"
       ],
       "correct": 2,
-      "explanation": "The National Origins Act (1924) imposed strict immigration quotas explicitly designed to favor northern/western European immigration over the 'New Immigration' from southern/eastern Europe, reflecting intensifying 1920s nativism — the opposite of encouraging unlimited or equally applied immigration."
+      "explanation": "Correct: (C) it imposed strict quotas favoring northern/western Europe over the 'New Immigration.' The National Origins Act (Johnson-Reed Act, 1924) limited annual immigration to 2% of each nationality's U.S. population as counted in the 1890 census, a date chosen because few southern and eastern Europeans had arrived by then. It sharply cut immigration from Italy, Poland, Russia, and Greece, and barred virtually all Asian immigrants. It reflected 1920s nativism, anti-radical fears after the Red Scare, and pseudo-scientific racial ideas.\n\n(A) is wrong because immigration was heavily restricted after the 1921 and 1924 acts.\n(B) is wrong because the quotas deliberately favored certain origins.\n(D) is wrong because the act ended the earlier open policy rather than encouraging unlimited entry."
     },
     {
       "id": "7-33",
@@ -5636,7 +5636,7 @@ const QUESTIONS = {
         "Direct election of Senators; it remains constitutionally in effect today"
       ],
       "correct": 2,
-      "explanation": "The Eighteenth Amendment established Prohibition, which proved difficult to enforce, fueled organized crime, and was ultimately repealed by the Twenty-First Amendment. The income tax (Sixteenth Amendment) and direct election of Senators (Seventeenth) remain in force, and women's suffrage came via the Nineteenth, a separate amendment."
+      "explanation": "Correct: (C) Prohibition, later repealed via the Twenty-First Amendment. The Eighteenth Amendment, ratified in 1919 and effective in January 1920, banned the manufacture, sale, and transport of alcohol, and the Volstead Act defined and enforced it. Enforcement was weak, speakeasies spread, and bootlegging fed organized crime, as with Al Capone in Chicago, so public support fell, and the Twenty-First Amendment repealed it in December 1933.\n\n(A) is wrong because women's suffrage was the Nineteenth Amendment (1920), and it is still in effect but is not the Eighteenth.\n(B) is wrong because the income tax was the Sixteenth Amendment (1913), and it was not repealed.\n(D) is wrong because direct election of senators was the Seventeenth (1913), which remains in effect."
     },
     {
       "id": "7-34",
@@ -5649,7 +5649,7 @@ const QUESTIONS = {
         "A conflict between religious fundamentalism and scientific modernism over teaching evolution"
       ],
       "correct": 3,
-      "explanation": "The Scopes Trial (1925) dramatized the clash between religious fundamentalism and scientific modernism over teaching evolution in public schools — a cultural conflict distinct from immigration policy or labor-management disputes."
+      "explanation": "Correct: (D) a conflict between religious fundamentalism and scientific modernism over teaching evolution. In 1925, Tennessee's Butler Act banned teaching human evolution in public schools. John Scopes, a teacher in Dayton, was tried after the ACLU offered to test the law. Clarence Darrow defended him and William Jennings Bryan helped prosecute, and national newspapers covered the 'Monkey Trial' as a clash between traditional rural religion and modern urban science. Scopes was convicted and fined $100, though the conviction was later reversed on a technicality.\n\n(A) is wrong because labor-management conflict over wages was not the trial's subject.\n(B) is wrong because it was a major cultural event of the 1920s.\n(C) is wrong because immigration quotas were the subject of the 1921 and 1924 laws and not this trial."
     },
     {
       "id": "7-35",
@@ -5662,7 +5662,7 @@ const QUESTIONS = {
         "It targeted only Black Americans, identical in scope to its Reconstruction-era iteration"
       ],
       "correct": 2,
-      "explanation": "The resurgent 1920s Klan also targeted Catholics, Jews, and immigrants, broadening beyond its Reconstruction-era focus primarily on Black Americans, and reached significant national membership and political influence — it did not narrow to immigrants alone, drop all targets, or stay identical to its earlier form."
+      "explanation": "Correct: (C) it also targeted Catholics, Jews, and immigrants, beyond Black Americans alone. The Reconstruction-era Klan (late 1860s-70s) used terror to stop Black Southerners and white Republicans from voting. The second Klan, revived in 1915 and reaching several million members by the mid-1920s, was strong in the Midwest and North as well as the South, and it combined racism with anti-Catholic, anti-Jewish, and anti-immigrant nativism, and also policed morals and Prohibition.\n\n(A) is wrong because both Klans had clear targets.\n(B) is wrong because it continued to target Black Americans along with others.\n(D) is wrong because its targets were widened beyond those of Reconstruction, not identical."
     },
     {
       "id": "7-36",
@@ -5675,7 +5675,7 @@ const QUESTIONS = {
         "Neither purely — both were genuinely, simultaneously true, and a strong essay holds both together."
       ],
       "correct": 3,
-      "explanation": "The 1920s should not be characterized as purely one or the other: genuine prosperity and cultural liberation existed alongside a powerful, simultaneous conservative backlash, and a strong essay holds both together rather than choosing one narrative exclusively."
+      "explanation": "Correct: (D) neither purely; both were genuinely, simultaneously true, and a strong essay holds both together. The 1920s saw rising consumer prosperity (cars, radios, appliances bought on credit), jazz, flappers, and the Harlem Renaissance. At the same time there was a strong backlash: the Red Scare, the National Origins Act (1924), Prohibition, the revived Ku Klux Klan, and the Scopes Trial, and many farmers and workers did not share in the boom.\n\n(A) is wrong because it ignores real economic growth and cultural change.\n(B) is wrong because it ignores the nativism, the Klan, and the clash over traditional values.\n(C) is wrong because historians can and do describe the decade through these tensions."
     },
     {
       "id": "7-37",
@@ -5688,7 +5688,7 @@ const QUESTIONS = {
         "Yes, since no other economic weaknesses existed anywhere in the 1920s economy"
       ],
       "correct": 2,
-      "explanation": "The crash alone is an insufficient explanation — it is better understood as the trigger that exposed and activated deeper structural weaknesses (overproduction, uneven wealth distribution, banking fragility, margin speculation) already present in the 1920s economy, turning what could have been a contained correction into a catastrophic collapse."
+      "explanation": "Correct: (C) no; the crash is better seen as a trigger exposing deeper structural weaknesses. The stock market fell sharply in October 1929 (Black Tuesday, October 29), but the Depression's depth came from problems already present: uneven distribution of income that limited consumer demand, overproduction in industry and farming, heavy consumer debt, speculation with borrowed money, and weak banks, thousands of which failed from 1930 to 1933. Policy errors such as the Smoot-Hawley Tariff (1930) and a tight money supply made it worse.\n\n(A) is wrong because the crash alone cannot account for ten years of high unemployment.\n(B) is wrong because it did affect the economy, destroying wealth and confidence and hurting banks.\n(D) is wrong because many weaknesses existed in the 1920s."
     },
     {
       "id": "7-38",
@@ -5701,7 +5701,7 @@ const QUESTIONS = {
         "Purchasing stock using risky borrowed money"
       ],
       "correct": 3,
-      "explanation": "'Buying on margin' refers to purchasing stock using risky borrowed money, a practice that amplified investor losses once the stock market crashed in 1929 — unrelated to banking regulation, the Dust Bowl, or New Deal relief programs."
+      "explanation": "Correct: (D) purchasing stock using risky borrowed money. In the 1920s an investor could buy stock by paying perhaps 10 to 20% of the price in cash and borrowing the rest from a broker, using the stock as collateral. That magnified gains in a rising market, but when prices fell in 1929, brokers issued margin calls demanding repayment, forcing investors to sell at a loss, which pushed prices down further and wiped out borrowers and lenders.\n\n(A) is wrong because it was a market practice and not a New Deal program.\n(B) is wrong because banking regulation after 1929 included the Glass-Steagall Act and FDIC, and margin buying was later regulated by the Securities Exchange Act (1934).\n(C) is wrong because the Dust Bowl was a drought and soil erosion disaster on the Great Plains."
     },
     {
       "id": "7-39",
@@ -5714,7 +5714,7 @@ const QUESTIONS = {
         "He acted some (the RFC), but his limited-intervention philosophy proved inadequate."
       ],
       "correct": 3,
-      "explanation": "Hoover took some action — notably the Reconstruction Finance Corporation, providing loans to banks and businesses — but his underlying philosophical commitment to voluntary cooperation and limited federal intervention shaped a response inadequate to the crisis's scale, a more precise characterization than claiming he did 'nothing,' matched his program to the New Deal's scope, or stayed entirely uninvolved."
+      "explanation": "Correct: (D) he acted some (the RFC), but his limited-intervention philosophy proved inadequate. President Herbert Hoover believed in voluntary cooperation and private charity, and he feared that direct relief would weaken self-reliance. Even so, he asked business to hold wages, supported the Federal Home Loan Bank Act, and created the Reconstruction Finance Corporation in 1932 to lend to banks, railroads, and other businesses. He did not provide direct relief to individuals, and unemployment kept rising to about 25% by 1933, which led voters to elect Franklin Roosevelt in 1932.\n\n(A) is wrong because the RFC and other measures show he acted.\n(B) is wrong because he was the president during the first years of the Depression and shaped federal policy.\n(C) is wrong because his measures were far narrower than the New Deal's relief, recovery, and reform programs."
     },
     {
       "id": "7-40",
@@ -5727,7 +5727,7 @@ const QUESTIONS = {
         "Severe drought and soil erosion devastating Great Plains agriculture, deepening the economic crisis"
       ],
       "correct": 3,
-      "explanation": "The Dust Bowl was severe drought and soil erosion devastating Great Plains agriculture, an environmental catastrophe compounding the Great Depression's economic crisis — not a financial instrument, a New Deal program, or another name for Hoovervilles."
+      "explanation": "Correct: (D) severe drought and soil erosion devastating Great Plains agriculture, deepening the economic crisis. In the 1930s, drought struck the southern plains of Oklahoma, Texas, Kansas, Colorado, and New Mexico, where decades of plowing up grasslands to plant wheat had removed the anchoring roots, and the topsoil blew away in giant dust storms, such as Black Sunday in April 1935. Farmers who lost their land, many of them called 'Okies', moved west, especially to California. The federal government responded with the Soil Conservation Service (1935) and shelterbelt tree planting.\n\n(A) is wrong because the program that employed young men in the countryside was the Civilian Conservation Corps, created in 1933.\n(B) is wrong because it was an environmental disaster, not a financial instrument.\n(C) is wrong because the shantytowns were called Hoovervilles."
     },
     {
       "id": "7-41",
@@ -5740,7 +5740,7 @@ const QUESTIONS = {
         "Improvised shantytowns rebuking Hoover's perceived inadequate response."
       ],
       "correct": 3,
-      "explanation": "'Hoovervilles' were improvised shantytowns springing up in cities nationwide, named as a direct, pointed public rebuke of Hoover's perceived inadequate response to the Depression — the opposite of wealthy housing or official relief offices."
+      "explanation": "Correct: (D) improvised shantytowns rebuking Hoover's perceived inadequate response. As unemployment soared and people lost homes after 1929, the homeless built camps of scrap wood, cardboard, and tin on the edges of cities, such as Seattle, St. Louis, and New York's Central Park. People named them Hoovervilles to blame President Hoover; empty pockets turned inside out were likewise called 'Hoover flags'. They became a symbol of the failure of voluntary relief.\n\n(A) is wrong because they were not government offices.\n(B) is wrong because the term was widely used during the Depression.\n(C) is wrong because the settlements were poor and makeshift, not wealthy suburbs."
     },
     {
       "id": "7-42",
@@ -5753,7 +5753,7 @@ const QUESTIONS = {
         "It ensured broad, evenly shared prosperity with no underlying economic weakness"
       ],
       "correct": 0,
-      "explanation": "Uneven wealth distribution limited broad consumer purchasing power even during the seemingly prosperous 1920s, contributing to overproduction relative to actual demand — one of the structural weaknesses the 1929 crash exposed, not evidence of evenly shared prosperity or an effect confined to the wealthy alone."
+      "explanation": "Correct: (A) it limited consumer purchasing power even during the 'prosperous' 1920s. In the 1920s productivity and corporate profits soared, but wages rose slowly and farm income was weak, so the top few percent held a growing share of income while most families earned little beyond necessities. Factories produced more goods than the public could afford to buy, except through installment credit, and when credit and confidence collapsed in 1929, demand fell, firms cut output and jobs, and the downturn deepened.\n\n(B) is wrong because the imbalance affected the whole economy through weak demand.\n(C) is wrong because it was one of the key structural causes.\n(D) is wrong because prosperity in the 1920s was not evenly shared, as farmers, Black Southerners, and many industrial workers lagged behind."
     },
     {
       "id": "7-43",
@@ -5766,7 +5766,7 @@ const QUESTIONS = {
         "Because the crash actually occurred several years after the Depression had already ended"
       ],
       "correct": 0,
-      "explanation": "The crash is better described as a trigger because it interacted with and activated preexisting structural weaknesses (overproduction, banking fragility, margin speculation) that turned what might have been a more contained financial correction into a prolonged, catastrophic economic collapse — it had real effects, occurred at the Depression's outset (not its end), and 'trigger' and 'cause' are meaningfully distinct concepts here."
+      "explanation": "Correct: (A) because it activated preexisting weaknesses, turning a possible correction into a prolonged collapse. The crash of October 1929 wiped out paper wealth and shook confidence, and it hit an economy with overproduction, uneven income, heavy debt, and fragile banks, leading to bank failures, cuts in spending, and layoffs through 1933. A trigger starts the chain of events but does not by itself explain how deep it went.\n\n(B) is wrong because the crash had major effects on investors, banks, and spending.\n(C) is wrong because a trigger is the event that sets off a crisis, while causes are the underlying conditions that give it force.\n(D) is wrong because the crash came in 1929 at the start of the Depression, not years after it ended."
     },
     {
       "id": "7-44",
@@ -5779,7 +5779,7 @@ const QUESTIONS = {
         "A system of old-age pensions and unemployment insurance"
       ],
       "correct": 3,
-      "explanation": "The Social Security Act (1935) established a system of old-age pensions and unemployment insurance, a permanent federal social welfare program. Deposit insurance was the FDIC's role, direct employment was the WPA's, and union protection was the Wagner Act's."
+      "explanation": "Correct: (D) a system of old-age pensions and unemployment insurance. The Social Security Act of 1935 created old-age retirement benefits funded by payroll taxes on workers and employers, a federal-state unemployment insurance system, and aid for dependent children and the blind. It was a permanent change in the federal government's role, though it initially left out agricultural and domestic workers, who were disproportionately Black.\n\n(A) is wrong because public works employment was provided by programs like the Works Progress Administration (also 1935) and the Public Works Administration.\n(B) is wrong because union rights were protected by the Wagner Act.\n(C) is wrong because deposit insurance came from the Federal Deposit Insurance Corporation, created by the Banking Act of 1933."
     },
     {
       "id": "7-45",
@@ -5792,7 +5792,7 @@ const QUESTIONS = {
         "Workers' right to unionize and bargain collectively."
       ],
       "correct": 3,
-      "explanation": "The Wagner Act (1935) guaranteed workers' right to unionize and engage in collective bargaining, significantly strengthening organized labor's legal position. Deposit insurance, direct employment, and old-age pensions were, respectively, the FDIC's, WPA's, and Social Security Act's functions."
+      "explanation": "Correct: (D) workers' right to unionize and bargain collectively. The National Labor Relations Act of 1935, sponsored by Senator Robert Wagner, protected workers' right to organize and join unions, banned employer practices such as firing union supporters, and set up the National Labor Relations Board to run elections and enforce the law. It helped union membership grow rapidly in the late 1930s, including in the CIO.\n\n(A) is wrong because old-age pensions came from the Social Security Act.\n(B) is wrong because bank deposit insurance came from the FDIC.\n(C) is wrong because direct federal public works jobs came from agencies such as the WPA and CCC."
     },
     {
       "id": "7-46",
@@ -5805,7 +5805,7 @@ const QUESTIONS = {
         "Legal protection for workers seeking to unionize in industry"
       ],
       "correct": 2,
-      "explanation": "The FDIC addressed banking system fragility by insuring individual bank deposits, directly responding to the bank failures that worsened the Depression. Pensions, union protections, and direct relief payments were, respectively, the domains of Social Security, the Wagner Act, and relief programs like the WPA."
+      "explanation": "Correct: (C) banking system fragility, by insuring individual deposits. Between 1930 and 1933 thousands of banks failed, and depositors lost their savings; bank runs spread and in March 1933 Roosevelt declared a bank holiday. The Banking Act of 1933 (Glass-Steagall) created the Federal Deposit Insurance Corporation, which insured deposits up to a set limit (initially $2,500), so customers no longer had reason to rush to withdraw money. Bank failures dropped sharply afterward.\n\n(A) is wrong because old-age pensions came from the Social Security Act (1935).\n(B) is wrong because direct relief to the unemployed came from the Federal Emergency Relief Administration and the WPA.\n(D) is wrong because the legal right to unionize was protected by the Wagner Act (1935)."
     },
     {
       "id": "7-47",
@@ -5818,7 +5818,7 @@ const QUESTIONS = {
         "Direct government employment on public works projects."
       ],
       "correct": 3,
-      "explanation": "The WPA provided direct government employment on public works projects, a major relief program during the Great Depression — distinct from banking regulation, a permanent welfare program funded by payroll taxes (that describes Social Security), or a labor union."
+      "explanation": "Correct: (D) direct government employment on public works projects. Created in 1935 and led by Harry Hopkins, the Works Progress Administration employed around 8 million people over its life, building roads, bridges, schools, and airports, and also hired artists, writers, and actors through projects such as the Federal Writers' Project. Roosevelt preferred paying wages for work to giving cash handouts. It was an emergency relief program that ended in 1943 when wartime jobs became plentiful.\n\n(A) is wrong because it was a government agency, not a labor union.\n(B) is wrong because banking regulation was handled by the FDIC and the Glass-Steagall Act.\n(C) is wrong because the permanent program funded by payroll taxes was Social Security."
     },
     {
       "id": "7-48",
@@ -5831,7 +5831,7 @@ const QUESTIONS = {
         "It left no lasting legacy once the immediate Depression crisis had passed"
       ],
       "correct": 1,
-      "explanation": "The New Deal's most significant legacy is REFORM: it permanently expanded the federal government's role in economic regulation and social welfare provision, well beyond the Progressive Era's earlier reforms, through lasting institutions like Social Security, the FDIC, and the Wagner Act — not a temporary, self-erasing episode, and certainly not a retreat of federal power."
+      "explanation": "Correct: (B) it permanently expanded the federal role in regulation and welfare, beyond even Progressive reforms. The New Deal (1933-39) created lasting institutions: Social Security, the FDIC, the Securities and Exchange Commission, the National Labor Relations Board, and the Federal Housing Administration. It established the expectation that the federal government is responsible for economic security and for stabilizing the economy, going further than the Progressive Era's regulation of specific industries. Debates over the proper size of government since then trace back to it.\n\n(A) is wrong because the New Deal increased the federal role and did not return to laissez-faire.\n(C) is wrong because Social Security and the FDIC remained after the 1930s.\n(D) is wrong because its institutions and ideas shaped later policy such as Medicare and the Great Society."
     },
     {
       "id": "7-49",
@@ -5844,7 +5844,7 @@ const QUESTIONS = {
         "No — it faced criticism from the left, business, and the Supreme Court."
       ],
       "correct": 3,
-      "explanation": "The New Deal faced genuine multi-directional opposition — from the political left (Huey Long, arguing it did not go far enough), business and conservative interests (who saw it as dangerous overreach), and the Supreme Court itself, which initially struck down several major programs as unconstitutional. It plainly did exist and did draw sustained criticism."
+      "explanation": "Correct: (D) no; it faced criticism from the left, business, and the Supreme Court. From the left, Senator Huey Long's 'Share Our Wealth' plan and Dr. Francis Townsend's pension plan said the New Deal did not go far enough. Business leaders and the American Liberty League said it threatened free enterprise and imposed heavy government control. The Supreme Court struck down the National Industrial Recovery Act in Schechter Poultry v. United States (1935) and the Agricultural Adjustment Act in United States v. Butler (1936), leading FDR to propose his unsuccessful court-packing plan in 1937.\n\n(A) is wrong because the New Deal passed many laws and created many programs.\n(B) is wrong because opposition was widespread and public.\n(C) is wrong because the programs drew significant political opposition."
     },
     {
       "id": "7-50",
@@ -5857,7 +5857,7 @@ const QUESTIONS = {
         "By separating PERMANENT programs (Social Security, FDIC, Wagner Act) from TEMPORARY ones (WPA)."
       ],
       "correct": 3,
-      "explanation": "A strong essay distinguishes the New Deal's PERMANENT structural legacy programs (Social Security, FDIC, Wagner Act, designed to last) from its TEMPORARY emergency-relief programs (like the WPA, tied to the specific unemployment crisis) — rather than collapsing 'the New Deal' into one undifferentiated policy, or elevating only a single program."
+      "explanation": "Correct: (D) by separating permanent programs (Social Security, FDIC, Wagner Act) from temporary ones (WPA). Some New Deal measures were created as emergency relief and ended once the crisis passed: the WPA was closed in 1943, the CCC in 1942, and the NIRA was struck down in 1935. Others set up lasting structures of regulation and security: Social Security still pays benefits, the FDIC still insures deposits, and the Wagner Act still governs labor relations. Distinguishing them lets an essay explain the New Deal's long-term legacy rather than treating it as a single block.\n\n(A) is wrong because many programs were important, including the CCC and TVA.\n(B) is wrong because ignoring distinctions produces weak analysis.\n(C) is wrong because the programs differed in purpose and in how long they lasted."
     },
     {
       "id": "7-51",
@@ -5870,7 +5870,7 @@ const QUESTIONS = {
         "Isolationism had no real bearing on 1930s American foreign-policy debate"
       ],
       "correct": 0,
-      "explanation": "Isolationists favored staying out of the growing European and Asian conflicts entirely, one side of a genuine national debate running through the 1930s and into 1941 — the opposite of favoring immediate entry, and unrelated to any alliance with Japan."
+      "explanation": "Correct: (A) favoring staying out of the growing European and Asian conflicts entirely. After the heavy losses of World War I and revelations by the Nye Committee (1934-36) about arms makers' profits, many Americans wanted to avoid another overseas war. Congress passed Neutrality Acts in 1935, 1936, 1937, and 1939 to ban arms sales and loans to nations at war, and in 1940-41 the America First Committee, with Charles Lindbergh as a prominent voice, opposed aid to Britain.\n\n(B) is wrong because that describes interventionists, the opposite side.\n(C) is wrong because isolationists opposed foreign alliances in general and no group promoted an exclusive alliance with Japan.\n(D) is wrong because the debate over isolationism shaped U.S. policy throughout the 1930s."
     },
     {
       "id": "7-52",
@@ -5883,7 +5883,7 @@ const QUESTIONS = {
         "Supplied Britain and other Allies without requiring immediate cash payment."
       ],
       "correct": 3,
-      "explanation": "The Lend-Lease Act (1941) provided military supplies to Britain and other Allied nations without requiring immediate cash payment, supporting the Allied war effort while formally stopping short of direct U.S. military participation. It expanded, rather than ended, U.S. support, and it did not create the UN or declare war."
+      "explanation": "Correct: (D) supplied Britain and other Allies without requiring immediate cash payment. By late 1940 Britain had nearly run out of money to buy arms under the 'cash and carry' rules. Roosevelt proposed that the U.S. 'lend' war material the way one lends a garden hose to a neighbor whose house is on fire, and Congress passed Lend-Lease in March 1941, calling the U.S. the 'arsenal of democracy'. It later extended to the Soviet Union and China, and it moved the country from neutrality toward open support of the Allies.\n\n(A) is wrong because only Congress's declaration after Pearl Harbor brought war, and Lend-Lease sent supplies, not troops.\n(B) is wrong because the UN was created in 1945.\n(C) is wrong because the law increased support for the Allies."
     },
     {
       "id": "7-53",
@@ -5896,7 +5896,7 @@ const QUESTIONS = {
         "The Japanese attack on Pearl Harbor (December 7, 1941)"
       ],
       "correct": 3,
-      "explanation": "The Japanese attack on Pearl Harbor (December 7, 1941) immediately and decisively ended the isolationism-interventionism debate, bringing the United States directly into World War II. The Zimmermann Telegram and Versailles belong to the World War I era, and Lend-Lease itself stopped short of full military entry."
+      "explanation": "Correct: (D) the Japanese attack on Pearl Harbor (December 7, 1941). Japan's surprise attack on the U.S. Pacific Fleet in Hawaii killed about 2,400 Americans, and the next day Congress declared war on Japan with only one dissenting vote; Germany and Italy declared war on the U.S. a few days later. Even leading isolationists, including the America First Committee, backed the war effort.\n\n(A) is wrong because the Senate's rejection of Versailles (1919-20) helped start the isolationist trend rather than ending the debate.\n(B) is wrong because Lend-Lease (March 1941) was a step short of war, and debate continued.\n(C) is wrong because the Zimmermann Telegram (1917) belongs to World War I."
     },
     {
       "id": "7-54",
@@ -5909,7 +5909,7 @@ const QUESTIONS = {
         "The policy of Japanese American internment on the West Coast after Pearl Harbor"
       ],
       "correct": 1,
-      "explanation": "'Rosie the Riveter' symbolized women entering the industrial workforce in unprecedented numbers during World War II, filling positions vacated by men in military service — distinct from isolationist politics, Lend-Lease's legal terms, or internment policy."
+      "explanation": "Correct: (B) women entering the industrial workforce in unprecedented numbers during World War II. With millions of men in uniform, factories making aircraft, ships, and munitions recruited women, and the poster 'We Can Do It!' and the figure 'Rosie the Riveter' became symbols of that effort. The number of women in the workforce rose from about 12 million in 1940 to about 18 million in 1944, and many Black women gained industrial jobs for the first time. Most were pushed out when men returned in 1945, but the experience affected later movements for women's rights.\n\n(A) is wrong because it is not about Lend-Lease.\n(C) is wrong because Rosie promoted participation in the war effort, not isolationism.\n(D) is wrong because internment was a policy that removed Japanese Americans from the West Coast."
     },
     {
       "id": "7-55",
@@ -5922,7 +5922,7 @@ const QUESTIONS = {
         "Yes, internment relied on individualized evidence and formal legal proceedings for each detained person"
       ],
       "correct": 1,
-      "explanation": "Japanese American internment was based explicitly on racial and national-origin grounds, applied broadly to an entire population group — including roughly 120,000 people, many of them U.S. citizens — with no requirement of individual evidence of disloyalty. It was a real, well-documented policy, not individualized, and it did include citizens."
+      "explanation": "Correct: (B) no; it was based on racial grounds, applied broadly with no individual evidence, even to citizens. After Pearl Harbor, military leaders and public pressure led to Executive Order 9066 (February 1942), which allowed the removal of people of Japanese ancestry from the West Coast; about 120,000 were sent to camps in remote areas, and roughly two-thirds were U.S. citizens. No individual hearings were held, and investigators found no widespread disloyalty. The Supreme Court upheld the exclusion in Korematsu v. United States (1944), but Congress in the Civil Liberties Act of 1988 apologized and paid $20,000 to each survivor.\n\n(A) is wrong because internment is well documented.\n(C) is wrong because most of those held were citizens.\n(D) is wrong because there were no individual proceedings."
     },
     {
       "id": "7-56",
@@ -5935,7 +5935,7 @@ const QUESTIONS = {
         "Wartime mobilization had no measurable effect on the Depression's persistence in the labor market"
       ],
       "correct": 1,
-      "explanation": "Massive wartime production demand effectively eliminated unemployment and dramatically accelerated economic growth in a way New Deal programs alone had not fully achieved, fueling ongoing historical debate about what truly ended the Depression — the opposite of worsening unemployment, having no effect, or the Depression ending before the New Deal began."
+      "explanation": "Correct: (B) massive wartime production demand ended unemployment and outpaced what the New Deal alone had achieved. Even after years of New Deal programs, unemployment was still around 14% in 1940. Wartime spending, military enlistment of millions of men, and orders for planes, ships, and tanks drove it down to about 1% by 1944, and the economy grew rapidly. Historians still debate how much credit goes to the New Deal and how much to war spending, but the war was what brought full employment.\n\n(A) is wrong because unemployment fell sharply.\n(C) is wrong because the Depression began in 1929 and the New Deal started in 1933, so it had not ended before.\n(D) is wrong because mobilization had a very large effect on jobs."
     },
     {
       "id": "7-57",
@@ -5948,7 +5948,7 @@ const QUESTIONS = {
         "Over 10 million"
       ],
       "correct": 2,
-      "explanation": "Roughly 120,000 Japanese Americans, many of them U.S. citizens, were forcibly relocated and interned during World War II based on racial and national-origin grounds — a well-documented policy, not a myth, and far fewer than 10 million but far more than a mere 1,000."
+      "explanation": "Correct: (C) roughly 120,000. Under Executive Order 9066 (1942), people of Japanese ancestry living on the West Coast, including about 70,000 who were U.S. citizens, were removed to ten camps run by the War Relocation Authority in places such as Manzanar, California and Heart Mountain, Wyoming. They lost homes, farms, and businesses. In 1988 Congress acknowledged a 'grave injustice' and paid reparations.\n\n(A) is wrong because the camps are thoroughly documented.\n(B) is wrong because roughly 1,000 is far too few.\n(D) is wrong because 10 million is far more than the entire Japanese American population, which was only about 126,000 on the mainland."
     },
     {
       "id": "7-58",
@@ -5961,7 +5961,7 @@ const QUESTIONS = {
         "The Japanese attack on the U.S. naval base at Pearl Harbor in December 1941"
       ],
       "correct": 0,
-      "explanation": "D-Day (June 6, 1944) was a massive Allied amphibious invasion of Nazi-occupied France, opening a crucial second front against Germany that, combined with Soviet advances, led to Germany's surrender — distinct from Japan's later surrender, Pearl Harbor, or the atomic bombings, which came the following year."
+      "explanation": "Correct: (A) a massive Allied invasion of France, opening a second front against Germany. On June 6, 1944, under General Eisenhower, about 156,000 American, British, and Canadian troops landed on five beaches in Normandy, supported by air and naval forces. It gave the Allies a foothold in Western Europe and forced Germany to fight on two fronts, since the Soviets were pressing from the east. Paris was freed in August and Germany surrendered in May 1945.\n\n(B) is wrong because Japan's surrender ceremony took place on the USS Missouri in September 1945.\n(C) is wrong because the Hiroshima bombing was on August 6, 1945, more than a year later.\n(D) is wrong because Pearl Harbor was on December 7, 1941."
     },
     {
       "id": "7-59",
@@ -5974,7 +5974,7 @@ const QUESTIONS = {
         "Capturing every single Japanese-held position without any exception, one island at a time, until Japan surrendered"
       ],
       "correct": 0,
-      "explanation": "'Island-hopping' involved selectively capturing key strategic Pacific islands rather than every Japanese-held position, using each captured island as a base for the next advance toward Japan itself — a Pacific, offensive strategy, not a European or purely defensive one."
+      "explanation": "Correct: (A) selectively capturing key strategic Pacific islands, using each as a base for the next advance. Admiral Nimitz and General MacArthur chose to take islands that could hold airfields and bypass heavily defended ones such as Rabaul and Truk, which were cut off from supplies and left isolated. Successive operations at Guadalcanal, Tarawa, Saipan, Iwo Jima, and Okinawa moved American air power close enough to bomb Japan.\n\n(B) is wrong because the strategy was developed for the Pacific.\n(C) is wrong because it was an offensive campaign.\n(D) is wrong because the point of the strategy was to skip many Japanese-held positions, which saved time and lives."
     },
     {
       "id": "7-60",
@@ -5987,7 +5987,7 @@ const QUESTIONS = {
         "Atomic bombs dropped on Hiroshima and Nagasaki."
       ],
       "correct": 3,
-      "explanation": "The United States dropping atomic bombs on Hiroshima and Nagasaki in August 1945 led to Japan's surrender and the war's end. D-Day (1944) opened the European front, Versailles (1919) concerned World War I, and Lend-Lease (1941) predated Japan's surrender by years."
+      "explanation": "Correct: (D) atomic bombs dropped on Hiroshima and Nagasaki. The U.S. dropped an atomic bomb on Hiroshima on August 6, 1945 and another on Nagasaki on August 9, and the Soviet Union declared war on Japan on August 8. Emperor Hirohito announced surrender on August 15, and the formal surrender was signed on September 2, 1945. The bombs killed well over 100,000 people, and historians also credit the Soviet entry for the decision.\n\n(A) is wrong because the Treaty of Versailles ended World War I in 1919.\n(B) is wrong because Lend-Lease (1941) supplied the Allies and did not defeat Japan.\n(C) is wrong because D-Day (1944) was in the European theater against Germany."
     },
     {
       "id": "7-61",
@@ -6000,7 +6000,7 @@ const QUESTIONS = {
         "That the bombs were entirely unnecessary and served no strategic purpose whatsoever to the war"
       ],
       "correct": 0,
-      "explanation": "One historiographical position argues the bombs were militarily necessary to avoid the massive projected casualties, on both sides, of a full conventional invasion of Japan. This remains a genuinely contested question, Japan had not yet formally surrendered when the bombs were used, and the 'no purpose at all' framing misstates even the necessity argument's own premise."
+      "explanation": "Correct: (A) that the bombs were militarily necessary to avoid the massive projected casualties of a full invasion. This view, associated with Truman and Secretary of War Henry Stimson, holds that Japan's military leaders would not surrender and that an invasion (Operation Downfall) planned for late 1945 would have cost many lives on both sides, including civilians, given the ferocity of fighting at Iwo Jima and Okinawa. The bombs, in this account, ended the war quickly. Historians dispute the casualty estimates but the argument is a major position.\n\n(B) is wrong because the question is debated among historians.\n(C) is wrong because Japan did not surrender until after both bombings.\n(D) is wrong because even critics of the decision generally say the bombs had some strategic purpose, and their argument is that alternatives existed."
     },
     {
       "id": "7-62",
@@ -6013,7 +6013,7 @@ const QUESTIONS = {
         "That the atomic bombs were, in historical fact, never actually deployed"
       ],
       "correct": 2,
-      "explanation": "A competing historiographical position argues Japan was already close to surrender through other diplomatic or military pressures, and that demonstrating American power to the Soviet Union was an additional motive behind the bombs' use — a real, well-documented counter-position, not a denial that the bombings occurred or a purely humanitarian reading."
+      "explanation": "Correct: (C) Japan was already near surrender, and demonstrating power to the USSR was a motive. Some historians, such as Gar Alperovitz, argue that Japan's government was already seeking an exit, that a guarantee for the emperor, continuing the naval blockade, or the Soviet declaration of war could have brought surrender without the bombs, and that Truman also wanted to impress the Soviet Union and influence postwar bargaining. Others reject this view, but it is a serious counterargument.\n\n(A) is wrong because it has been advanced since the late 1940s and 1960s.\n(B) is wrong because no historian claims the motive was purely humanitarian.\n(D) is wrong because the bombings of August 1945 are not disputed."
     },
     {
       "id": "7-63",
@@ -6026,7 +6026,7 @@ const QUESTIONS = {
         "Yes, because no historian has ever seriously debated this question in the decades since 1945"
       ],
       "correct": 2,
-      "explanation": "A strong essay should NOT treat this as settled consensus — the exam specifically rewards acknowledging the atomic bomb decision as a genuinely contested historiographical question with legitimate historians holding multiple positions, not as a single accepted answer, a non-debate, or an insignificant footnote."
+      "explanation": "Correct: (C) no; this exam rewards treating it as a genuinely contested question with historians on multiple sides. The decision to use atomic bombs is still debated: traditionalists stress saving lives and ending the war; revisionists point to Japan's weakened position, the Soviet entry on August 8, and Cold War diplomacy. An essay that sets out the evidence for more than one view and weighs it shows stronger historical reasoning than one asserting a single answer.\n\n(A) is wrong because no single answer is universally accepted.\n(B) is wrong because the decision is very significant for the end of the war and the beginning of the nuclear age.\n(D) is wrong because historians have debated it since 1945."
     },
     {
       "id": "7-64",
@@ -6039,7 +6039,7 @@ const QUESTIONS = {
         "The European theater"
       ],
       "correct": 0,
-      "explanation": "'Island-hopping' was specifically the Pacific theater strategy, contrasted with the European theater's different approach (including the D-Day invasion) — it involved land assaults on captured islands, not a purely naval effort, and was not applied identically in both theaters."
+      "explanation": "Correct: (A) the Pacific theater. Island hopping was used by U.S. forces under Nimitz and MacArthur against Japan across the Pacific, from the Solomons and Gilberts to the Marianas, Iwo Jima, and Okinawa. In Europe, the war was fought on land masses through campaigns in North Africa, Italy, and France, including the Normandy invasion and the drive across Germany.\n\n(B) is wrong because island hopping involved Marines and Army troops landing on and fighting for islands, not just ships.\n(C) is wrong because it could not be applied in Europe, where no chain of islands led to Germany.\n(D) is wrong because the European theater used different strategies such as Mediterranean landings, the Normandy invasion, and strategic bombing."
     },
     {
       "id": "7-65",
@@ -6053,7 +6053,7 @@ const QUESTIONS = {
         "These four developments share no meaningful connection to one another across the unit"
       ],
       "correct": 1,
-      "explanation": "This synthesis question rewards the unit's opening framework: Progressive regulation of specific industries (7.2) established an early precedent for federal economic intervention; wartime coordination (7.4) expanded this to entire industries; the New Deal (7.7) established PERMANENT federal welfare institutions beyond any temporary crisis; and WWII mobilization (7.8-7.9) coordinated the ENTIRE economy plus an unprecedented military technology. These are four sequential steps in one continuous trajectory of expanding federal scope — not unconnected events, a story of later retrenchment, or a static picture of unchanged federal power."
+      "explanation": "Correct: (B) each step expands federal reach across the unit, from Progressive rules to WWII's total mobilization. Progressive laws (1906-1914) such as the Meat Inspection Act, the Hepburn Act, the FTC, and the Federal Reserve set the precedent that the federal government can regulate business and protect consumers. In World War I, the War Industries Board and Food Administration directed production and prices and the Espionage Act regulated speech. The New Deal made federal management of the economy and welfare permanent through Social Security, the FDIC, and the Wagner Act. In World War II, Washington directed the whole economy, built a huge military, and funded the Manhattan Project. Each step used earlier precedents and enlarged federal power.\n\n(A) is wrong because federal power grew greatly.\n(C) is wrong because later developments expanded federal authority.\n(D) is wrong because they are linked by this continuing growth, with each crisis building on earlier precedents."
     },
     {
       "id": "7-66",
@@ -6066,7 +6066,7 @@ const QUESTIONS = {
         "It negotiated the final terms of the Treaty of Versailles on Wilson's behalf"
       ],
       "correct": 2,
-      "explanation": "The Committee on Public Information conducted extensive government propaganda promoting World War I and, in practice, discouraged dissent, working alongside the Espionage and Sedition Acts' more coercive restrictions. Industrial coordination was the War Industries Board's role, Versailles negotiation was Wilson's own diplomatic task, and conscription ran through the Selective Service System, not the CPI."
+      "explanation": "Correct: (C) it ran wartime propaganda that, in practice, discouraged dissent. Created in April 1917 and led by journalist George Creel, the Committee on Public Information used posters, films, pamphlets, and about 75,000 'Four-Minute Men' speakers to build support for the war and to promote Liberty Bonds. Its portrayals of Germans as barbarians and its pressure for conformity contributed to a climate of suspicion toward immigrants and dissenters, alongside prosecutions under the Espionage and Sedition Acts.\n\n(A) is wrong because the draft was run by the Selective Service System under the Selective Service Act of 1917.\n(B) is wrong because industrial production was coordinated by the War Industries Board.\n(D) is wrong because Wilson and his advisers negotiated the Treaty of Versailles at Paris in 1919."
     },
     {
       "id": "7-67",
@@ -6079,7 +6079,7 @@ const QUESTIONS = {
         "A list of wartime rationing rules issued by the War Industries Board for civilian households"
       ],
       "correct": 2,
-      "explanation": "Wilson's Fourteen Points were his idealistic proposed framework for the postwar peace settlement, including the creation of a League of Nations to prevent future wars through collective security. They were not wartime rationing rules, the Senate's own ratification conditions (which in fact led the Senate to reject the resulting treaty), or a domestic Progressive reform agenda."
+      "explanation": "Correct: (C) Wilson's idealistic proposed framework for a postwar peace, including the League of Nations. Presented to Congress on January 8, 1918, the Fourteen Points called for open diplomacy, freedom of the seas, free trade, arms reduction, self-determination for peoples of Europe, and a 'general association of nations' (Point 14) that became the League of Nations. Allied leaders at Paris accepted only part of it, and the treaty was harsher on Germany than Wilson wanted.\n\n(A) is wrong because they were about world peace and not domestic reform such as the New Freedom.\n(B) is wrong because the Senate's conditions were the Lodge reservations in 1919.\n(D) is wrong because rationing rules for consumers were not issued in the Fourteen Points; the Food Administration under Herbert Hoover encouraged voluntary conservation."
     }
   ],
   "8": [
@@ -6094,7 +6094,7 @@ const QUESTIONS = {
         "A full military alliance uniting U.S. and Soviet forces against a resurgent Germany after the war ended"
       ],
       "correct": 0,
-      "explanation": "Containment, devised chiefly by diplomat George Kennan, meant actively blocking further Soviet/communist expansion while accepting existing Soviet-held territory rather than trying to reverse it. Rolling back existing gains (Choice C) would have meant a far riskier, more aggressive policy than the U.S. actually pursued; the other two options describe things that never happened."
+      "explanation": "Correct: (A) actively preventing further Soviet/communist expansion without reversing existing Soviet gains. George Kennan's 1946 Long Telegram and 1947 'X' article argued that Soviet power was expansionist but cautious and could be 'contained' by firm, patient counter-pressure at points of expansion, leading to the Soviet system's gradual weakening. Truman's administration put this into practice with the Truman Doctrine, the Marshall Plan, and NATO, but accepted the Soviet sphere in Eastern Europe as it stood in 1945-47.\n\n(B) is wrong because containment was not a short-lived initiative; it guided American policy for decades, and the Berlin Blockade was handled by containment.\n(C) is wrong because describing 'rollback' by force, which the U.S. did not attempt in Eastern Europe, as containment confuses a more aggressive idea with the actual policy.\n(D) is wrong because the U.S.-Soviet wartime alliance against Germany ended as postwar conflicts grew, and containment was directed against the Soviets."
     },
     {
       "id": "8-2",
@@ -6106,8 +6106,8 @@ const QUESTIONS = {
         "A formal U.S.–Soviet alliance directed against Nazi Germany.",
         "A large package of reconstruction loans earmarked specifically for occupied Japan."
       ],
-      "correct": 1,
-      "explanation": "The Truman Doctrine (1947) committed the U.S. to aiding Greece and Turkey against communist pressure, an early concrete application of containment. No formal WWII peace treaty of this kind was ever signed, Japan's aid came through separate occupation policy, and the U.S. and USSR were adversaries by 1947, not allies."
+      "correct": 0,
+      "explanation": "Correct: (A) aid to Greece and Turkey to help them resist communist-backed pressure. In February 1947 Britain told the U.S. it could no longer afford to support Greece, where a civil war pitted the government against communist-led guerrillas, or Turkey, under Soviet pressure over the Straits. On March 12, 1947 Truman asked Congress for $400 million, declaring that the U.S. would 'support free peoples who are resisting attempted subjugation by armed minorities or by outside pressures.' It was the first major application of containment.\n\n(B) is wrong because no single treaty ended WWII in Europe: Germany surrendered in May 1945, and the German settlement came only in 1990, and the Truman Doctrine was an aid program, not a peace treaty.\n(C) is wrong because the U.S.-Soviet alliance against Germany ended in 1945 and the Doctrine was aimed at resisting Soviet-backed expansion.\n(D) is wrong because Japan was under U.S. occupation policy, and the 1947 aid went to Greece and Turkey."
     },
     {
       "id": "8-3",
@@ -6120,7 +6120,7 @@ const QUESTIONS = {
         "A military plan to invade and occupy Soviet-held Eastern Europe."
       ],
       "correct": 2,
-      "explanation": "The Marshall Plan funneled billions in economic aid to rebuild Western European economies, on the theory that desperate, war-ravaged populations were more susceptible to communist appeals. It was economic, not military, and is distinct from NATO's later mutual-defense commitments or domestic loyalty-screening programs."
+      "explanation": "Correct: (C) extensive economic aid rebuilding Western Europe to blunt communism's appeal amid postwar hardship. Announced by Secretary of State George Marshall in June 1947 and enacted as the European Recovery Program in 1948, it gave about $13 billion in grants and loans to sixteen Western European countries over four years. Europe faced food shortages, wrecked factories, and strong communist parties in France and Italy; U.S. leaders reasoned that prosperity would reduce support for communism. The Soviets refused the aid and pressured Eastern European states to do the same.\n\n(A) is wrong because a mutual-defense treaty describes NATO (1949).\n(B) is wrong because loyalty screening of federal employees was the Truman loyalty program (1947) and later HUAC and McCarthy, not an international aid plan.\n(D) is wrong because it was economic, not an invasion plan."
     },
     {
       "id": "8-4",
@@ -6133,7 +6133,7 @@ const QUESTIONS = {
         "NATO's member states voted to dissolve the alliance entirely, ending the military partnership"
       ],
       "correct": 2,
-      "explanation": "In the Berlin Blockade (1948–49), the Soviets cut off Allied land access to West Berlin, and the U.S. and its allies responded with a sustained airlift of supplies rather than direct confrontation — containment applied in practice. Germany would not reunify until 1990, NATO was founded (not dissolved) in this period, and no U.S. blockade of Moscow occurred."
+      "explanation": "Correct: (C) the Soviets cut off Allied land access to West Berlin, prompting a sustained Allied airlift. Berlin lay inside the Soviet zone of Germany but was divided among the four powers. After the Western Allies merged their zones and introduced a new currency in June 1948, Stalin closed road, rail, and canal routes into West Berlin hoping to force the Allies out. Truman chose not to send an armed convoy, and the Berlin Airlift flew in food and fuel, over 2 million tons, until the Soviets lifted the blockade in May 1949.\n\n(A) is wrong because Germany was divided into West Germany and East Germany in 1949 and was not reunified until 1990.\n(B) is wrong because the U.S. never blockaded Moscow, which is inland, and the blockade was Soviet.\n(D) is wrong because NATO was founded in April 1949 and has not dissolved."
     },
     {
       "id": "8-5",
@@ -6146,7 +6146,7 @@ const QUESTIONS = {
         "A postwar economic aid package administered through the United Nations."
       ],
       "correct": 0,
-      "explanation": "NATO (1949) was a formal mutual-defense military alliance among the U.S. and Western European states, institutionalizing the Cold War's division of Europe. The Soviet-led equivalent was the later Warsaw Pact, not NATO; domestic loyalty screening was handled by bodies like HUAC, not NATO."
+      "explanation": "Correct: (A) a formal military alliance binding the U.S. and Western European nations together. The North Atlantic Treaty of April 1949 joined the U.S., Canada, and ten Western European countries, and its Article 5 says an armed attack on one is an attack on all. It followed the Berlin Blockade and was the first peacetime military alliance for the U.S. since 1778.\n\n(B) is wrong because the Soviet-led alliance was the Warsaw Pact, formed in 1955 in response to West Germany joining NATO.\n(C) is wrong because screening federal employees for loyalty was a domestic program under Truman's 1947 loyalty order, with HUAC investigating separately.\n(D) is wrong because economic aid was the Marshall Plan, run by the U.S. outside the United Nations."
     },
     {
       "id": "8-6",
@@ -6159,7 +6159,7 @@ const QUESTIONS = {
         "The outbreak of the Korean War and the rise of Senator McCarthy."
       ],
       "correct": 0,
-      "explanation": "The Soviet Union's 1949 atomic bomb test and Mao's communist victory in China (also 1949) shattered assumptions of secure U.S. nuclear and geopolitical advantage, sharply intensifying American anxiety and setting the stage for Korea and McCarthyism the following year — the other pairs are earlier containment measures, not the shocks that triggered this new wave of anxiety."
+      "explanation": "Correct: (A) the Soviet atomic bomb test and communist China's establishment under Mao. In August 1949 the USSR tested its first atomic bomb, ending the U.S. nuclear monopoly years earlier than expected, and on October 1, 1949, Mao Zedong proclaimed the People's Republic of China after defeating the Nationalists under Chiang Kai-shek, who fled to Taiwan. Together they made the Cold War look more dangerous and prompted NSC-68 (1950), a call for large military spending, and the Republican charge that Democrats had 'lost China.'\n\n(B) is wrong because the Marshall Plan (1948) and NATO (April 1949) were U.S. responses, not shocks.\n(C) is wrong because the Truman Doctrine (1947) and Berlin Airlift (1948-49) were seen as successes.\n(D) is wrong because the Korean War began in June 1950 and McCarthy's speech was in February 1950."
     },
     {
       "id": "8-7",
@@ -6172,7 +6172,7 @@ const QUESTIONS = {
         "It was designed mainly to weaken and destabilize Western European economies after the war to benefit American exporters."
       ],
       "correct": 1,
-      "explanation": "American policymakers believed economically desperate populations were more susceptible to communist political appeals, so funding European recovery directly advanced containment's strategic goal rather than existing as a separate humanitarian category. The Plan aimed to strengthen, not weaken, Western Europe, and its Cold War logic was explicit in policymakers' own justifications."
+      "explanation": "Correct: (B) policymakers believed desperate populations were more susceptible to communism, so aid served containment. Officials such as Marshall, Kennan, and Truman saw hunger, unemployment, and ruined industry in 1947 as conditions in which communist parties in France and Italy might win power. By restoring prosperity and trade, the plan aimed to build stable, democratic, capitalist partners and keep them out of the Soviet orbit, while also creating markets for American goods.\n\n(A) is wrong because it had a strategic purpose as well as humane effects.\n(C) is wrong because the plan was a central part of containment.\n(D) is wrong because the goal was to strengthen Western European economies; their recovery helped trade with the U.S., not harm it."
     },
     {
       "id": "8-8",
@@ -6185,7 +6185,7 @@ const QUESTIONS = {
         "Because containment aimed at preventing further expansion, a narrower goal than reversing existing gains."
       ],
       "correct": 3,
-      "explanation": "Containment specifically targeted preventing further Soviet/communist expansion — a narrower, more limited goal than actually reversing Soviet control over territory already held in Eastern Europe. This distinction explains later U.S. non-intervention when Soviet-aligned governments suppressed uprisings within their existing sphere; the Soviet Union plainly did control substantial territory by this point."
+      "explanation": "Correct: (D) because containment aimed at preventing further expansion, a narrower goal than reversing existing gains. Kennan's strategy accepted that the Soviets controlled Eastern Europe after 1945 and sought to stop them from gaining more, believing internal weaknesses would eventually change the Soviet system. That is why the U.S. did not intervene when the Soviets crushed the Hungarian Revolution in 1956, though 'rollback' was used as campaign rhetoric by Republicans in 1952.\n\n(A) is wrong because Soviet troops stayed in Poland, Hungary, Romania, and other Eastern European states, which came under communist governments.\n(B) is wrong because containment was carried out through the Truman Doctrine, Marshall Plan, NATO, and the wars in Korea and Vietnam.\n(C) is wrong because its aims were limited to blocking further expansion."
     },
     {
       "id": "8-9",
@@ -6198,7 +6198,7 @@ const QUESTIONS = {
         "A decisive U.S./UN victory that fully reunified Korea under Seoul's government."
       ],
       "correct": 2,
-      "explanation": "The Korean War (1950–53) ended in a stalemate and armistice restoring roughly the prewar North-South border — a limited outcome consistent with containment's limited aim of stopping expansion rather than achieving total victory. No reunification occurred in either direction; an armistice, not a permanent unresolved war with no ending, formally paused the fighting."
+      "explanation": "Correct: (C) a stalemate and armistice that restored roughly the prewar border. North Korea invaded in June 1950; UN forces led by the U.S. pushed north past the 38th parallel after the Inchon landing, then China entered in November 1950 and drove them back. After Truman removed General MacArthur in April 1951 for demanding a wider war, the front stabilized near the 38th parallel, and an armistice was signed on July 27, 1953, creating a demilitarized zone.\n\n(A) is wrong because North Korea did not conquer the peninsula, and South Korea survived.\n(B) is wrong because an armistice formally stopped the fighting, even though no peace treaty was ever signed; it ended the shooting war.\n(D) is wrong because the UN forces failed to unify Korea under Seoul after China intervened."
     },
     {
       "id": "8-10",
@@ -6211,7 +6211,7 @@ const QUESTIONS = {
         "Containment required decisive, total military victory in every regional conflict it touched, tolerating no negotiated or partial outcome of any kind."
       ],
       "correct": 0,
-      "explanation": "The Korean War's limited outcome directly reflected containment's narrower aim — stopping communist expansion into South Korea specifically, not achieving total victory or reunifying the peninsula under non-communist control. The U.S. sought the opposite of communist reunification, and containment's whole logic was to avoid the kind of total-victory commitments this choice describes."
+      "explanation": "Correct: (A) it aimed only at stopping communist expansion into South Korea, not total victory or reunification. After China intervened, Truman chose to fight a 'limited war': he refused to use nuclear weapons or to attack China proper, and he removed MacArthur, who wanted to widen the war. Containment held that the goal was to block communist expansion and avoid a wider war with China or the USSR, so a stalemate that preserved South Korea counted as meeting that aim.\n\n(B) is wrong because the U.S. fought against communist control of Korea.\n(C) is wrong because the limited outcome grew from the containment strategy.\n(D) is wrong because containment did not demand total victory; Truman accepted negotiation, and the war ended in an armistice."
     },
     {
       "id": "8-11",
@@ -6224,7 +6224,7 @@ const QUESTIONS = {
         "That the United States should withdraw entirely from the Korean conflict at once."
       ],
       "correct": 2,
-      "explanation": "Senator Joseph McCarthy alleged widespread communist infiltration of the U.S. government, frequently offering sweeping accusations backed by minimal or no substantiating evidence. McCarthy's crusade targeted domestic loyalty, not Korea policy, Marshall Plan funding levels, or NATO's existence."
+      "explanation": "Correct: (C) widespread communist infiltration of government, often with little or no real evidence. In a February 1950 speech in Wheeling, West Virginia, Senator Joseph McCarthy of Wisconsin claimed to have a list of State Department employees who were communists, citing numbers that changed from one telling to another. He kept making charges against the State Department, the Army, and others without proving them, and the term McCarthyism came to mean making accusations without evidence. His charges fed on fears following the Soviet bomb, the fall of China, and the Korean War.\n\n(A) is wrong because he was not arguing about Marshall Plan funding.\n(B) is wrong because he did not attack NATO.\n(D) is wrong because his accusations concerned loyalty in government, not withdrawal from Korea."
     },
     {
       "id": "8-12",
@@ -6237,7 +6237,7 @@ const QUESTIONS = {
         "They had essentially no connection to the broader domestic anticommunist movement."
       ],
       "correct": 0,
-      "explanation": "HUAC and the Hollywood blacklist extended the anticommunist climate beyond McCarthy himself, targeting entertainment-industry figures suspected of communist sympathies and damaging or ending careers based on often flimsy or unproven allegations. They investigated domestic loyalty, not foreign policy, and offered no legal protection to the accused."
+      "explanation": "Correct: (A) they extended the anticommunist climate to entertainment figures, often on unproven allegations. In 1947 the House Un-American Activities Committee held hearings on alleged communist influence in Hollywood and cited ten writers and directors (the Hollywood Ten) for contempt for refusing to answer questions. Studios then adopted a blacklist, barring hundreds of people from work for suspected past associations. Many careers ended without any proof of wrongdoing.\n\n(B) is wrong because HUAC investigated and exposed people rather than defending them; blacklisting hurt the accused.\n(C) is wrong because they investigated domestic political and cultural influences, not foreign policy.\n(D) is wrong because they were central to the domestic anticommunist movement known as the Second Red Scare."
     },
     {
       "id": "8-13",
@@ -6250,7 +6250,7 @@ const QUESTIONS = {
         "The completion of the Marshall Plan's European reconstruction effort, which shifted congressional and public attention decisively away from domestic politics."
       ],
       "correct": 0,
-      "explanation": "McCarthy's downfall followed his accusations extending to the U.S. Army during nationally televised hearings, which exposed his methods' recklessness to a mass audience and badly discredited him. Neither the Marshall Plan's completion, NATO's formation, nor the Korean armistice had any direct bearing on McCarthy's own political standing."
+      "explanation": "Correct: (A) his own accusations extending to the Army during televised hearings exposed his recklessness nationally. In 1954 McCarthy investigated alleged communists in the U.S. Army, and the Army-McCarthy hearings were broadcast on television to millions. Viewers saw him bully witnesses, and when he attacked a young lawyer in the Army's counsel's office, Joseph Welch, Welch asked, 'Have you no sense of decency, sir?' McCarthy's popularity fell, and the Senate voted in December 1954 to censure him.\n\n(B) is wrong because NATO's founding (1949) came years before and did not affect him.\n(C) is wrong because the Korean armistice (1953) did not bring him down.\n(D) is wrong because the Marshall Plan ended in 1951-52 and had nothing to do with domestic politics."
     },
     {
       "id": "8-14",
@@ -6263,7 +6263,7 @@ const QUESTIONS = {
         "No — genuine espionage cases existed, but McCarthy's own claims were often unsubstantiated and excessive."
       ],
       "correct": 3,
-      "explanation": "McCarthyism should not be treated as a proportionate response — real espionage cases existed (the Rosenbergs, for instance), but McCarthy's own specific allegations were frequently unsubstantiated and excessive, amounting to a significant civil liberties overreach fueled by exaggerated anxiety rather than solid evidence."
+      "explanation": "Correct: (D) no; genuine espionage cases existed, but McCarthy's own claims were often unsubstantiated and excessive. Soviet intelligence did run spies in the U.S., as later shown by decoded Venona cables and cases such as Klaus Fuchs and Julius Rosenberg. But McCarthy never identified a single proven spy through his lists of names, and the loyalty investigations, blacklists, and smears ruined many innocent people and chilled free speech. Taking both facts together gives a more accurate picture than either denying the spies or endorsing the accusations.\n\n(A) is wrong because Soviet espionage did exist.\n(B) is wrong because McCarthyism was a real phenomenon of the early 1950s.\n(C) is wrong because his charges were mostly unsupported by evidence."
     },
     {
       "id": "8-15",
@@ -6276,7 +6276,7 @@ const QUESTIONS = {
         "They affected only foreign policy debates, with no domestic political fallout whatsoever in elections or Congress."
       ],
       "correct": 2,
-      "explanation": "China's fall to communism and Korea's invasion together created genuine public anxiety that communism was expanding despite containment, and McCarthy and others exploited that anxiety by claiming internal domestic subversion explained the apparent failure. Far from ending anticommunist sentiment, these events intensified it and reached well beyond foreign-policy circles."
+      "explanation": "Correct: (C) they created a sense communism was expanding, which figures like McCarthy exploited to allege internal subversion. The 1949 communist victory in China, the Soviet atomic bomb, and the invasion of South Korea in June 1950 looked to many Americans like a series of defeats. Republicans asked 'Who lost China?' and McCarthy argued that traitors in the State Department explained these setbacks, which gave his charges a ready audience.\n\n(A) is wrong because anticommunism grew rather than ended.\n(B) is wrong because these events fueled loud national debate.\n(D) is wrong because they affected elections, such as the 1950 midterms and the 1952 campaign, and the work of Congress."
     },
     {
       "id": "8-16",
@@ -6289,7 +6289,7 @@ const QUESTIONS = {
         "The Zimmermann Telegram proposing a German-Mexican wartime alliance."
       ],
       "correct": 0,
-      "explanation": "The Rosenberg case involved a genuine, documented instance of atomic espionage, giving some real basis to Cold War-era anticommunist concern even as McCarthy's own broader allegations were frequently excessive and unsubstantiated. The Scopes Trial, Watergate, and the Zimmermann Telegram all belong to entirely different eras and issues."
+      "explanation": "Correct: (A) the Rosenberg case, involving atomic secrets passed to the Soviet Union. Julius and Ethel Rosenberg were arrested in 1950 after the arrest of British physicist Klaus Fuchs and Harry Gold, and a witness, Ethel's brother David Greenglass, testified that he had passed atomic information to Julius. They were convicted in 1951 and executed in June 1953. Later releases of decoded Venona cables and Soviet material support that Julius ran a spy ring, while Ethel's role is more debated.\n\n(B) is wrong because the Scopes Trial (1925) was about evolution.\n(C) is wrong because Watergate (1972) was a political scandal under Nixon.\n(D) is wrong because the Zimmermann Telegram (1917) was a German message to Mexico in World War I."
     },
     {
       "id": "8-17",
@@ -6302,7 +6302,7 @@ const QUESTIONS = {
         "Mass-produced suburban housing enabled by government-backed mortgage programs."
       ],
       "correct": 3,
-      "explanation": "Levittown exemplified mass-produced suburban housing developments, enabled by government-backed mortgage programs, that made homeownership newly accessible to a broad middle class in the 1950s. It was a housing development, not a labor union, an urban tenement district, or a political machine."
+      "explanation": "Correct: (D) mass-produced suburban housing enabled by government-backed mortgage programs. William Levitt's company built Levittown on Long Island, New York, starting in 1947, using assembly-line methods to produce thousands of identical houses at low prices, and later built others in Pennsylvania and New Jersey. Veterans could buy with little or no down payment using VA and FHA loans. Levitt's leases and deeds barred Black buyers, and Levittown remained almost entirely white for years.\n\n(A) is wrong because it was a housing development, not a political machine.\n(B) is wrong because it was not a union.\n(C) is wrong because it was a suburb with single-family homes, not a crowded urban tenement area."
     },
     {
       "id": "8-18",
@@ -6315,7 +6315,7 @@ const QUESTIONS = {
         "NATO's mutual-defense guarantees among member states."
       ],
       "correct": 1,
-      "explanation": "The GI Bill's mortgage assistance helped make homeownership affordable for millions of returning veterans, significantly fueling 1950s suburbanization. NATO, the Wagner Act, and the Marshall Plan addressed defense, labor rights, and European recovery respectively — none provided domestic mortgage assistance."
+      "explanation": "Correct: (B) the GI Bill's mortgage assistance for returning veterans. The Servicemen's Readjustment Act of 1944 had the Veterans Administration guarantee home loans, often with no down payment, and combined with the Federal Housing Administration's insured mortgages, it let millions of young families buy homes in suburbs, driving the 1950s housing boom. Black veterans often could not use the benefits fully because banks and the programs' rules discriminated.\n\n(A) is wrong because the Wagner Act (1935) protected union organizing.\n(C) is wrong because Marshall Plan aid went to Western Europe.\n(D) is wrong because NATO is a military alliance."
     },
     {
       "id": "8-19",
@@ -6328,7 +6328,7 @@ const QUESTIONS = {
         "A labor union tactic for organizing workers across regional lines."
       ],
       "correct": 2,
-      "explanation": "Redlining was a discriminatory lending practice that denied loans in specific neighborhoods, often based on race, significantly limiting Black Americans' access to suburban homeownership. It worked to entrench segregation rather than promote integration, and it had nothing to do with foreign policy or labor organizing."
+      "explanation": "Correct: (C) a discriminatory lending practice denying loans in certain neighborhoods, often based on race. In the 1930s the Home Owners' Loan Corporation drew maps coloring Black and mixed neighborhoods red as 'hazardous,' and the Federal Housing Administration and private lenders then refused mortgages or insurance in such areas. Black families were kept out of the new suburbs and the home equity that built middle-class wealth.\n\n(A) is wrong because it blocked integration and did not promote it.\n(B) is wrong because it was a domestic housing and lending practice, not a diplomatic strategy.\n(D) is wrong because it was not a union tactic."
     },
     {
       "id": "8-20",
@@ -6341,7 +6341,7 @@ const QUESTIONS = {
         "Yes, because redlining as a lending practice simply never occurred in practice."
       ],
       "correct": 1,
-      "explanation": "Government-backed mortgage programs were not race-neutral: these programs, along with related private practices like redlining, frequently and explicitly discriminated based on race, significantly limiting Black Americans' access to suburban homeownership while broadly benefiting white families. Redlining was a well-documented, real practice, not a uniform or race-blind exclusion of everyone."
+      "explanation": "Correct: (B) no; these programs and practices like redlining frequently discriminated by race, limiting Black access. FHA underwriting manuals favored racially homogeneous neighborhoods and recommended restrictive covenants, banks refused loans in Black areas, and developers like Levitt excluded Black buyers. Although the Supreme Court said in Shelley v. Kraemer (1948) that courts could not enforce racial covenants, the discrimination continued, and about 98% of FHA loans in the early postwar years went to white families. This helped create a large racial gap in wealth.\n\n(A) is wrong because the programs were not applied equally.\n(C) is wrong because the pattern was racial, not an equal exclusion of all low-income applicants.\n(D) is wrong because redlining did occur and is well documented."
     },
     {
       "id": "8-21",
@@ -6354,7 +6354,7 @@ const QUESTIONS = {
         "The interstate highway system, authorized in 1956."
       ],
       "correct": 3,
-      "explanation": "The interstate highway system, authorized in 1956, further enabled suburban growth and automobile-centered culture during the 1950s. The transcontinental railroad, Erie Canal, and Panama Canal were all significant infrastructure projects from earlier eras, unrelated to 1950s suburbanization."
+      "explanation": "Correct: (D) the interstate highway system, authorized in 1956. President Eisenhower signed the Federal-Aid Highway Act in 1956, funding about 41,000 miles of limited-access highways, justified partly by defense needs (moving troops and evacuating cities) and partly by commerce. The roads made commuting by car practical, helped suburbs and shopping centers expand, and led to the decline of passenger rail and some city centers.\n\n(A) is wrong because the transcontinental railroad was completed in 1869.\n(B) is wrong because the Panama Canal opened in 1914.\n(C) is wrong because the Erie Canal opened in 1825."
     },
     {
       "id": "8-22",
@@ -6367,7 +6367,7 @@ const QUESTIONS = {
         "An informal term sometimes applied to new suburban housing developments built by Levitt and others."
       ],
       "correct": 1,
-      "explanation": "The Baby Boom was a significant, sustained rise in birth rates reflecting and reinforcing the 1950s' emphasis on family stability and consumer-oriented domestic life — the opposite of a birth-rate decline, and unrelated to housing terminology or labor union membership."
+      "explanation": "Correct: (B) a sustained rise in birth rates reflecting the era's emphasis on family stability. After the Depression and war, couples married younger and had more children, and annual U.S. births rose from about 2.4 million in 1945 to over 4 million by 1957, with the generation born from 1946 to 1964 called baby boomers. Postwar prosperity, cheap suburban housing, and a cultural ideal of family life supported the trend, and it shaped demand for schools, housing, and consumer goods for decades.\n\n(A) is wrong because it is a demographic term and not about unions.\n(C) is wrong because births rose and did not decline.\n(D) is wrong because it does not refer to housing developments."
     },
     {
       "id": "8-23",
@@ -6380,7 +6380,7 @@ const QUESTIONS = {
         "The Civil Rights Movement had essentially no relationship to housing policy, since its organizing focused exclusively on voting and school segregation."
       ],
       "correct": 2,
-      "explanation": "1950s housing discrimination directly connects to the Civil Rights Movement's emerging demands for full and equal access to opportunities — including suburban homeownership — that other Americans already enjoyed through government-backed programs. Discriminatory practices like redlining persisted well into and beyond the movement's rise, and housing access was a genuine civil rights concern, not an unrelated topic."
+      "explanation": "Correct: (C) it connects to the movement's demands for equal access to opportunities white suburban homeowners already enjoyed. Federal mortgage programs and redlining helped white families gain suburban homes and wealth while Black families were kept in urban neighborhoods with poorer schools and services. These patterns of housing segregation became a target for activists; Martin Luther King Jr.'s Chicago campaign in 1966 focused on housing, and the Fair Housing Act of 1968 banned discrimination in housing sales and rentals.\n\n(A) is wrong because housing was a part of civil rights activism.\n(B) is wrong because the discrimination continued after the movement began.\n(D) is wrong because housing campaigns, such as in Chicago, show the movement's focus was broader than voting and schools."
     },
     {
       "id": "8-24",
@@ -6393,7 +6393,7 @@ const QUESTIONS = {
         "That school segregation was unconstitutional, overturning 'separate but equal.'"
       ],
       "correct": 3,
-      "explanation": "Brown v. Board of Education (1954) ruled that school segregation was unconstitutional, directly overturning the earlier 'separate but equal' doctrine from Plessy v. Ferguson. It addressed education, not voting rights, and it reversed rather than upheld 'separate but equal.'"
+      "explanation": "Correct: (D) that school segregation was unconstitutional, overturning 'separate but equal.' In Brown v. Board of Education of Topeka (May 17, 1954), a unanimous Court led by Chief Justice Earl Warren held that segregated public schools were inherently unequal and violated the Fourteenth Amendment's equal protection clause. The NAACP's legal team, led by Thurgood Marshall, had presented evidence about harm to Black children. It overturned Plessy v. Ferguson (1896) as applied to schools, though implementation met strong resistance, such as at Little Rock in 1957.\n\n(A) is wrong because the case was about schools, not voting.\n(B) is wrong because it was a landmark civil rights case.\n(C) is wrong because that was the Plessy rule that Brown overturned."
     },
     {
       "id": "8-25",
@@ -6406,7 +6406,7 @@ const QUESTIONS = {
         "A violent uprising that spread across several major Southern cities in the mid-1950s."
       ],
       "correct": 0,
-      "explanation": "The Montgomery Bus Boycott (1955–56) was a sustained nonviolent protest against bus segregation that launched Martin Luther King Jr.'s national civil rights leadership. It was a grassroots protest campaign, not a Supreme Court ruling, a violent uprising, or federal legislation."
+      "explanation": "Correct: (A) a sustained nonviolent protest against bus segregation that launched MLK's national leadership. After Rosa Parks was arrested on December 1, 1955 for refusing to give up her bus seat, the Montgomery Improvement Association, led by 26-year-old Martin Luther King Jr., organized a boycott by Black residents that lasted 381 days. They walked or formed carpools, and the Supreme Court ruled bus segregation unconstitutional in Browder v. Gayle in 1956. The campaign showed the effectiveness of nonviolent mass action.\n\n(B) is wrong because it was a community protest and not a court ruling, though a ruling later ended the segregation.\n(C) is wrong because voting rights laws came in 1957, 1960, and 1965.\n(D) is wrong because the boycott was nonviolent."
     },
     {
       "id": "8-26",
@@ -6419,7 +6419,7 @@ const QUESTIONS = {
         "Discrimination in voting practices exclusively, leaving other areas untouched."
       ],
       "correct": 1,
-      "explanation": "The Civil Rights Act (1964) banned discrimination based on race, color, religion, sex, or national origin in public accommodations and employment — a broad measure, not one confined to a single narrow area like voting, schools, or housing alone (fair housing was addressed separately in 1968)."
+      "explanation": "Correct: (B) discrimination based on race, color, religion, sex, or national origin in accommodations and employment. Signed by Lyndon Johnson on July 2, 1964 after a long Senate filibuster, the act barred segregation in hotels, restaurants, and theaters (Title II), prohibited employment discrimination by large employers and unions and created the Equal Employment Opportunity Commission (Title VII), and allowed funding cuts to programs that discriminated (Title VI). It also let the Justice Department sue to desegregate schools. 'Sex' was included in Title VII, which later helped the women's movement.\n\n(A) is wrong because housing was covered by the Fair Housing Act of 1968.\n(C) is wrong because the act covered much more than schools, including accommodations and jobs.\n(D) is wrong because voting was the focus of the 1965 Voting Rights Act."
     },
     {
       "id": "8-27",
@@ -6432,7 +6432,7 @@ const QUESTIONS = {
         "School segregation exclusively, with no provisions touching voting practices."
       ],
       "correct": 2,
-      "explanation": "The Voting Rights Act (1965) banned discriminatory voting practices like literacy tests and authorized federal oversight of voter registration in jurisdictions with a history of discrimination — its focus was specifically on voting access, not schools, housing, or employment, which other laws addressed."
+      "explanation": "Correct: (C) discriminatory voting practices like literacy tests, with federal oversight of registration. After the Selma marches of March 1965, including Bloody Sunday on March 7 when state troopers beat marchers on the Edmund Pettus Bridge, Johnson pushed the Voting Rights Act through Congress, and he signed it on August 6, 1965. It banned literacy tests and similar devices and required places with a history of discrimination to obtain federal approval before changing voting rules, with federal examiners able to register voters. Black registration in the South rose sharply.\n\n(A) is wrong because housing was covered in 1968.\n(B) is wrong because employment discrimination was covered in the Civil Rights Act of 1964.\n(D) is wrong because schools were addressed through Brown and the 1964 act."
     },
     {
       "id": "8-28",
@@ -6445,7 +6445,7 @@ const QUESTIONS = {
         "Exclusive reliance on courtroom lawsuits, avoiding any direct public action such as marches or boycotts."
       ],
       "correct": 1,
-      "explanation": "King and allied organizations pursued nonviolent civil disobedience — deliberately breaking unjust segregation laws through peaceful protest and accepting arrest, using the resulting media coverage to build broader support. This was neither cooperation with segregation, litigation alone, nor armed resistance."
+      "explanation": "Correct: (B) nonviolent civil disobedience, deliberately breaking unjust laws and accepting arrest. King, the Southern Christian Leadership Conference, and the Student Nonviolent Coordinating Committee drew on Gandhi and Christian ideas, staging sit-ins, Freedom Rides, marches, and boycotts. In his 1963 'Letter from Birmingham Jail' King explained that one has a moral duty to disobey unjust laws and to accept the penalty openly. Images of police dogs and fire hoses used on peaceful protesters in Birmingham built Northern support for civil rights laws.\n\n(A) is wrong because King rejected armed struggle and separatism.\n(C) is wrong because they confronted segregation directly and did not cooperate with it.\n(D) is wrong because the NAACP used lawsuits, but King's movement emphasized direct action like marches and boycotts as well."
     },
     {
       "id": "8-29",
@@ -6458,7 +6458,7 @@ const QUESTIONS = {
         "A total rejection of civil rights activism of any kind in the 1960s and later."
       ],
       "correct": 0,
-      "explanation": "Malcolm X and the Black Power movement articulated a more assertive approach, emphasizing Black self-determination, self-defense, and sometimes skepticism about whether integration into existing institutions was the movement's necessary ultimate goal — a real contrast with King's strategy, not a rejection of activism or an international-diplomacy focus."
+      "explanation": "Correct: (A) a more assertive approach stressing Black self-determination, self-defense, and skepticism of integration. Malcolm X, a spokesman for the Nation of Islam until 1964, criticized nonviolence and integration, urging Black pride, economic independence, and the right to defend against attack; after leaving the Nation and traveling to Mecca, he shifted toward a broader view before his assassination in February 1965. Stokely Carmichael popularized 'Black Power' in 1966, and the Black Panther Party formed in 1966 to organize community self-defense and programs.\n\n(B) is wrong because their main focus was Black communities in the U.S., even though Malcolm X also appealed to international bodies.\n(C) is wrong because it differed from King's nonviolent integrationism.\n(D) is wrong because they were activists, not opponents of civil rights."
     },
     {
       "id": "8-30",
@@ -6471,7 +6471,7 @@ const QUESTIONS = {
         "Yes, no strategic disagreement of any kind ever existed within the movement."
       ],
       "correct": 0,
-      "explanation": "The Civil Rights Movement should not be described as strategically unified — it contained genuine internal debate, with King's nonviolent integrationist approach and Malcolm X's/Black Power's more assertive approach reflecting genuinely different philosophies within a broader, internally diverse movement."
+      "explanation": "Correct: (A) no; the movement held genuine strategic debate between King's approach and Malcolm X's/Black Power's approach. Besides that split, there were disagreements among organizations: the NAACP favored litigation, the SCLC favored mass marches, SNCC organized local voter registration and became more militant after 1964, and CORE shifted toward Black Power by 1966. Disagreements concerned nonviolence, integration versus self-determination, and the role of white allies. Recognizing this makes an essay more accurate than describing one unified strategy.\n\n(B) is wrong because activists disagreed about tactics and goals.\n(C) is wrong because the movement existed and is well documented.\n(D) is wrong because there were many disputes."
     },
     {
       "id": "8-31",
@@ -6484,7 +6484,7 @@ const QUESTIONS = {
         "The Cold War had essentially no bearing on any domestic American issue, since foreign and domestic policy operated in fully separate spheres."
       ],
       "correct": 1,
-      "explanation": "American segregation was a significant Cold War propaganda liability — Soviet media regularly cited it to challenge U.S. claims of moral and democratic superiority, giving civil rights reform genuine Cold War strategic significance. The Soviets exploited segregation rhetorically; they did not support it."
+      "explanation": "Correct: (B) segregation was a Cold War propaganda liability, cited by Soviet media against claims of U.S. superiority. The U.S. presented itself as leader of the 'free world,' but images of Little Rock in 1957 and Birmingham in 1963 and the treatment of Black diplomats from African nations were used by Soviet media to challenge that claim, especially in newly independent countries courted by both sides. U.S. officials, including those who filed briefs in Brown, argued that ending segregation was important for the nation's image abroad.\n\n(A) is wrong because the Soviets criticized segregation.\n(C) is wrong because the connection is documented.\n(D) is wrong because Cold War concerns affected domestic issues, including civil rights, loyalty programs, and defense spending."
     },
     {
       "id": "8-32",
@@ -6497,7 +6497,7 @@ const QUESTIONS = {
         "Medicare, Medicaid, and the War on Poverty."
       ],
       "correct": 3,
-      "explanation": "Johnson's Great Society agenda included Medicare (health insurance for the elderly), Medicaid (health insurance for low-income Americans), and a broader War on Poverty featuring programs like Head Start. The Wagner Act and Social Security predated it under the New Deal; détente, China, the Marshall Plan, and NATO all belong to foreign policy, not this domestic agenda."
+      "explanation": "Correct: (D) Medicare, Medicaid, and the War on Poverty. Lyndon Johnson's Great Society (1964-66) included the Economic Opportunity Act (1964) that created programs like Head Start and Job Corps, Medicare and Medicaid (1965), the Elementary and Secondary Education Act (1965), and the Voting Rights Act, along with immigration and environmental measures. Johnson wanted to end poverty and racial injustice.\n\n(A) is wrong because détente and China were Nixon's foreign policies in the early 1970s.\n(B) is wrong because the Wagner Act and Social Security were New Deal measures from 1935.\n(C) is wrong because the Marshall Plan (1948) and NATO (1949) were Truman-era foreign policy."
     },
     {
       "id": "8-33",
@@ -6510,7 +6510,7 @@ const QUESTIONS = {
         "It extended the New Deal's federal-security premise into a new area, healthcare."
       ],
       "correct": 3,
-      "explanation": "The Great Society directly extended the New Deal's basic premise of federal responsibility for economic security into new areas the New Deal itself had not addressed, particularly healthcare through Medicare and Medicaid. It built on, rather than eliminated, New Deal programs, and it followed the New Deal chronologically by roughly three decades."
+      "explanation": "Correct: (D) it extended the New Deal's federal-security premise into a new area, healthcare. The New Deal's Social Security Act (1935) covered pensions and unemployment, but not medical care. Medicare (1965) provided hospital insurance to those 65 and older and Medicaid provided care for low-income people, building on the idea that the federal government should protect Americans from economic insecurity. Johnson, who had supported the New Deal as a young congressman, saw himself as continuing Franklin Roosevelt's work.\n\n(A) is wrong because the Great Society added to New Deal programs and did not eliminate them.\n(B) is wrong because the relationship is direct.\n(C) is wrong because the Great Society (mid-1960s) came about three decades after the New Deal (1933-39)."
     },
     {
       "id": "8-34",
@@ -6523,7 +6523,7 @@ const QUESTIONS = {
         "Created the NATO alliance among Western nations in the late 1940s."
       ],
       "correct": 0,
-      "explanation": "The Gulf of Tonkin Resolution (1964) granted Johnson broad authority to escalate U.S. military involvement in Vietnam, directly preceding dramatic escalation of the war. It expanded rather than ended the war, and it had nothing to do with the Great Society or NATO's founding."
+      "explanation": "Correct: (A) granted Johnson broad authority to escalate U.S. military involvement in Vietnam. In August 1964, the Navy reported that North Vietnamese boats attacked the destroyers USS Maddox and Turner Joy in the Gulf of Tonkin, though the second attack was later widely doubted. Congress passed the resolution almost unanimously (88-2 in the Senate), allowing the president to take 'all necessary measures' to repel armed attack, and Johnson used it without a declaration of war to start sustained bombing (Rolling Thunder) and deploy combat troops in 1965.\n\n(B) is wrong because it expanded U.S. involvement, and the peace treaty was the 1973 Paris Peace Accords.\n(C) is wrong because the Great Society was a domestic agenda.\n(D) is wrong because NATO was created in 1949."
     },
     {
       "id": "8-35",
@@ -6536,7 +6536,7 @@ const QUESTIONS = {
         "No — it was ultimately a military defeat for the attackers, who suffered heavy losses."
       ],
       "correct": 3,
-      "explanation": "The Tet Offensive was ultimately a significant military defeat for the attacking North Vietnamese/Viet Cong forces, who suffered heavy casualties and failed to hold captured territory — despite its major political and psychological significance. The war continued for years afterward, not ending in immediate North Vietnamese victory."
+      "explanation": "Correct: (D) no; it was ultimately a military defeat for the attackers, who suffered heavy losses. On January 30, 1968, during the Tet holiday, North Vietnamese and Viet Cong forces attacked about 100 cities and towns in South Vietnam, including the U.S. embassy in Saigon and the city of Hue. They hoped to spark a popular uprising, but none occurred; U.S. and South Vietnamese forces recaptured the cities, and Viet Cong units were badly depleted. Still, the scale of the attack was a political and psychological shock in the U.S.\n\n(A) is wrong because the offensive did occur.\n(B) is wrong because the war continued until 1973 for the U.S. and 1975 for South Vietnam.\n(C) is wrong because it did not succeed militarily or force an immediate U.S. withdrawal."
     },
     {
       "id": "8-36",
@@ -6549,7 +6549,7 @@ const QUESTIONS = {
         "It had essentially no measurable effect on American public opinion."
       ],
       "correct": 2,
-      "explanation": "Tet's sheer scale and coordination directly contradicted U.S. government assurances that the war was being won, significantly damaging public and media confidence in the war effort and the government's honesty, regardless of the actual battlefield outcome. Coverage was often skeptical rather than reassuring, and no American surrender occurred."
+      "explanation": "Correct: (C) its scale contradicted official assurances the war was being won, damaging trust regardless of outcome. In late 1967, General Westmoreland had said the enemy was nearing defeat, and officials spoke of 'light at the end of the tunnel.' Then Tet showed that the enemy could attack almost anywhere, including the U.S. embassy grounds, and television news carried the fighting into American homes. CBS anchor Walter Cronkite concluded the war was probably a stalemate, and Johnson announced on March 31, 1968 that he would not seek re-election. This produced a 'credibility gap'.\n\n(A) is wrong because there was no American surrender.\n(B) is wrong because coverage became more skeptical, and the surprise contradicted the government's optimism.\n(D) is wrong because opinion polls showed a fall in support for the war."
     },
     {
       "id": "8-37",
@@ -6562,7 +6562,7 @@ const QUESTIONS = {
         "It substantially increased the funding available to Great Society programs, since wartime spending expanded the federal budget overall."
       ],
       "correct": 2,
-      "explanation": "As the Vietnam War escalated dramatically in cost, resources and political attention devoted to it came, to a real extent, at the expense of the ambitious Great Society agenda's own funding and political momentum — a direct competing-priorities tension, not a funding boost, and the Great Society was still actively being built out as the war escalated."
+      "explanation": "Correct: (C) resources devoted to the escalating war came at the expense of Great Society funding and momentum. Johnson tried to pay for both 'guns and butter,' but war spending rose after he sent combat troops in 1965, causing budget deficits and inflation, and he asked for a tax increase only in 1967-68. Congress became less willing to fund new domestic programs, and Johnson's attention and political capital shifted to the war and, after Tet, to his decision not to run again.\n\n(A) is wrong because the war and the Great Society competed for money and attention.\n(B) is wrong because the Great Society was being enacted in 1964-66, the same time the war escalated.\n(D) is wrong because the war reduced available funds for domestic programs."
     },
     {
       "id": "8-38",
@@ -6575,7 +6575,7 @@ const QUESTIONS = {
         "Foreign and domestic policy operated in entirely separate, unrelated spheres."
       ],
       "correct": 2,
-      "explanation": "The Vietnam War's escalating cost directly competing with the Great Society's domestic funding is a clear, direct illustration of this unit's opening theme — foreign policy and domestic policy constantly shaping and constraining each other, not operating as separate, unrelated tracks."
+      "explanation": "Correct: (C) the Vietnam War's cost directly competing with Great Society funding. Johnson's decision to escalate in Vietnam in 1965 limited his ability to expand his domestic programs, and the resulting inflation and criticism weakened support for both. The case illustrates how foreign policy decisions affected domestic reform and vice versa, as with Cold War concerns about the U.S. image helping the cause of civil rights.\n\n(A) is wrong because foreign and domestic policy were closely tied.\n(B) is wrong because domestic politics also influenced foreign choices, such as Johnson's fear of being blamed for 'losing' Vietnam.\n(D) is wrong because the two spheres overlapped."
     },
     {
       "id": "8-39",
@@ -6588,7 +6588,7 @@ const QUESTIONS = {
         "Betty Friedan's The Feminine Mystique."
       ],
       "correct": 3,
-      "explanation": "Betty Friedan's The Feminine Mystique (1963) helped catalyze a renewed women's movement, leading to the founding of the National Organization for Women (NOW). The Jungle, Common Sense, and 'The Gospel of Wealth' are all significant works from entirely different eras and movements."
+      "explanation": "Correct: (D) Betty Friedan's The Feminine Mystique. Published in 1963, it described the 'problem that has no name': educated, middle-class housewives who felt unfulfilled by the 1950s ideal of domestic life, and argued that women should have careers and equal opportunities. It sold millions of copies and helped spark the second-wave feminist movement, and Friedan co-founded the National Organization for Women in 1966.\n\n(A) is wrong because Sinclair's The Jungle (1906) exposed the meatpacking industry.\n(B) is wrong because Carnegie's 'Gospel of Wealth' (1889) defended philanthropy by the rich.\n(C) is wrong because Thomas Paine's Common Sense (1776) argued for American independence."
     },
     {
       "id": "8-40",
@@ -6601,7 +6601,7 @@ const QUESTIONS = {
         "Yes, it was ratified and remains part of the Constitution today, guaranteeing women equal rights."
       ],
       "correct": 0,
-      "explanation": "Despite passing Congress in 1972, the Equal Rights Amendment ultimately failed to achieve ratification by the required number of states within its deadline — a significant setback for the women's movement. It was never added to the Constitution, and Congress did pass it (twice extending the ratification deadline), so it was never repealed because it never took effect."
+      "explanation": "Correct: (A) no; despite passing Congress in 1972, it failed ratification within its deadline. The Equal Rights Amendment, which said equality of rights shall not be denied on account of sex, passed Congress in March 1972 and went to the states with a seven-year deadline, later extended to June 30, 1982. It was ratified by 35 states, three short of the 38 needed, as opposition led by Phyllis Schlafly's STOP ERA campaign argued it would harm traditional family roles, and some states tried to rescind their ratification. Later ratifications by Nevada, Illinois, and Virginia came after the deadline, and it has not been added to the Constitution.\n\n(B) is wrong because Congress did propose it.\n(C) is wrong because Congress never ratified it, so it was never repealed.\n(D) is wrong because it is not part of the Constitution."
     },
     {
       "id": "8-41",
@@ -6614,7 +6614,7 @@ const QUESTIONS = {
         "The final stages of the Marshall Plan and NATO's formal founding."
       ],
       "correct": 2,
-      "explanation": "The establishment of the Environmental Protection Agency (EPA) and the first Earth Day (1970) were significant environmental movement achievements around this time. The Marshall Plan, NATO, the Civil Rights and Voting Rights Acts, and the Gulf of Tonkin Resolution all belong to earlier years and different policy areas."
+      "explanation": "Correct: (C) the establishment of the Environmental Protection Agency and the first Earth Day. Rachel Carson's Silent Spring (1962), the 1969 Santa Barbara oil spill, and the Cuyahoga River fire raised public concern. Millions took part in the first Earth Day on April 22, 1970, and that year President Nixon created the EPA and signed the Clean Air Act, followed by the Clean Water Act (1972) and the Endangered Species Act (1973).\n\n(A) is wrong because the Gulf of Tonkin Resolution was a 1964 Vietnam measure.\n(B) is wrong because those laws were from 1964-65 and dealt with civil rights.\n(D) is wrong because the Marshall Plan and NATO date from 1948-49."
     },
     {
       "id": "8-42",
@@ -6627,7 +6627,7 @@ const QUESTIONS = {
         "The Civil Rights Movement exerted essentially no influence on any subsequent movement."
       ],
       "correct": 0,
-      "explanation": "The women's and environmental movements directly adapted organizing tactics — mass peaceful demonstrations, targeted legislative advocacy, effective media use — pioneered by the Civil Rights Movement, applying this template to their own distinct causes rather than rejecting it or leaving it confined to foreign policy."
+      "explanation": "Correct: (A) the women's and environmental movements adapted tactics like mass demonstrations and legislative advocacy. The civil rights movement showed that marches, sit-ins, media coverage, lobbying, and lawsuits could win laws and change opinion. The women's movement used protests, such as the 1970 Women's Strike for Equality, and pressed for legislation like Title IX (1972), while environmentalists held Earth Day demonstrations and lobbied for the Clean Air Act and the EPA.\n\n(B) is wrong because the movement affected domestic activism, not just foreign policy.\n(C) is wrong because later movements borrowed many of its methods.\n(D) is wrong because its influence on the women's, student, Chicano, and American Indian movements is well documented."
     },
     {
       "id": "8-43",
@@ -6640,7 +6640,7 @@ const QUESTIONS = {
         "The National Organization for Women (NOW)."
       ],
       "correct": 3,
-      "explanation": "The National Organization for Women (NOW) was founded as part of the renewed women's movement, following the influence of Betty Friedan's The Feminine Mystique. The AFL, the Farmers' Alliance, and Tammany Hall were all organizations from earlier, unrelated eras of American history."
+      "explanation": "Correct: (D) the National Organization for Women (NOW). Betty Friedan and others founded NOW in 1966, partly out of frustration that the Equal Employment Opportunity Commission was not enforcing the ban on sex discrimination in the Civil Rights Act of 1964. NOW lobbied for the Equal Rights Amendment, equal pay, and legal access to abortion, and it became the largest feminist organization.\n\n(A) is wrong because Tammany Hall was a New York City Democratic machine of the 1800s.\n(B) is wrong because the AFL was a craft union federation founded in 1886.\n(C) is wrong because the Farmers' Alliance was a late-19th-century agrarian group that led to Populism."
     },
     {
       "id": "8-44",
@@ -6653,7 +6653,7 @@ const QUESTIONS = {
         "There is essentially no meaningful reason to draw this distinction at all."
       ],
       "correct": 0,
-      "explanation": "It's important to distinguish shared organizing methods from substantive goals — the women's and environmental movements adapted Civil Rights Movement tactics while pursuing genuinely distinct causes, a distinction a strong essay should maintain rather than conflating shared methods with identical goals or claiming no relationship existed at all."
+      "explanation": "Correct: (A) they adapted similar tactics but pursued genuinely distinct causes, a distinction essays should preserve. The civil rights movement sought an end to racial segregation and disenfranchisement, the women's movement sought equality in law, work, and family life, and environmentalists sought protection of air, water, and wildlife. Treating them as one would blur the different groups, aims, and opponents, and would miss the originality of each movement. Noting the shared methods, such as mass protest and lobbying, shows the link while keeping the distinct goals.\n\n(B) is wrong because the goals differed.\n(C) is wrong because they shared methods.\n(D) is wrong because distinguishing between methods and goals is a basic skill of historical analysis."
     },
     {
       "id": "8-45",
@@ -6666,7 +6666,7 @@ const QUESTIONS = {
         "Reduced Cold War tension and increased diplomatic engagement, including arms control agreements."
       ],
       "correct": 3,
-      "explanation": "Détente was Nixon's policy of reduced Cold War tension and increased diplomatic engagement with the Soviet Union, including arms control agreements. It aimed to ease tension rather than escalate it, and it was a foreign policy, not a domestic loyalty program."
+      "explanation": "Correct: (D) reduced Cold War tension and increased diplomatic engagement, including arms control agreements. Under Nixon and National Security Advisor Henry Kissinger, the U.S. sought easier relations with the Soviet Union, culminating in Nixon's May 1972 Moscow summit, the SALT I agreement limiting offensive nuclear missiles, and the ABM Treaty, with the Helsinki Accords following under Ford in 1975. Détente also included the opening to China.\n\n(A) is wrong because it lowered tension.\n(B) is wrong because it was a central part of Cold War strategy.\n(C) is wrong because the description applies to McCarthyism and loyalty investigations from the early 1950s."
     },
     {
       "id": "8-46",
@@ -6679,7 +6679,7 @@ const QUESTIONS = {
         "Nixon pursued the opening with no clear underlying strategic reasoning."
       ],
       "correct": 1,
-      "explanation": "Nixon's opening to China strategically exploited growing tension between China and the Soviet Union (the Sino-Soviet split), aiming to increase U.S. diplomatic pressure and leverage against the Soviet Union, America's primary Cold War rival — not a move against Japan or a retreat from Asia altogether."
+      "explanation": "Correct: (B) exploiting the Sino-Soviet split to gain diplomatic leverage against the USSR. The Soviet Union and China had broken ideologically in the 1960s and fought border clashes in 1969. Kissinger made a secret trip to Beijing in July 1971, and Nixon visited China in February 1972, meeting Mao Zedong and issuing the Shanghai Communiqué. Improved ties gave Washington leverage in talks with Moscow, which feared a U.S.-Chinese alignment, and helped U.S. efforts to end the Vietnam War. Formal diplomatic relations came in 1979.\n\n(A) is wrong because it expanded diplomacy in Asia.\n(C) is wrong because it was not directed at Japan, a U.S. ally.\n(D) is wrong because it was based on a deliberate strategy."
     },
     {
       "id": "8-47",
@@ -6692,7 +6692,7 @@ const QUESTIONS = {
         "A policy with no real connection to the Vietnam War at all, concerned only with relations with the Soviets."
       ],
       "correct": 0,
-      "explanation": "Vietnamization was Nixon's policy of gradually withdrawing U.S. troops while transferring primary combat responsibility to South Vietnamese forces, eventually leading to full U.S. withdrawal in 1973. It reduced rather than increased U.S. troop levels, and it involved a gradual transition, not an immediate pullout."
+      "explanation": "Correct: (A) gradually withdrawing U.S. troops while shifting combat responsibility to South Vietnamese forces. Announced by Nixon in 1969 as part of the Nixon Doctrine, Vietnamization trained and equipped the South Vietnamese army (ARVN) so that U.S. ground forces could leave. U.S. troop levels dropped from about 540,000 in 1969 to under 30,000 by 1972, while bombing continued and the war was widened into Cambodia in 1970. The Paris Peace Accords were signed in January 1973 and the last U.S. combat troops left in March 1973.\n\n(B) is wrong because the withdrawal was gradual and tied to training.\n(C) is wrong because troop numbers fell.\n(D) is wrong because it was the core of Nixon's Vietnam policy."
     },
     {
       "id": "8-48",
@@ -6705,7 +6705,7 @@ const QUESTIONS = {
         "A foreign policy crisis stemming from renewed tension with the Soviet Union over a Middle East war."
       ],
       "correct": 0,
-      "explanation": "The Watergate scandal began with a break-in at Democratic Party headquarters connected to Nixon's re-election campaign, followed by a documented, sustained cover-up effort that ultimately forced Nixon's resignation. It was a domestic political scandal, not a foreign policy crisis, civil rights protest, or economic downturn."
+      "explanation": "Correct: (A) a break-in at Democratic headquarters connected to Nixon's campaign, followed by a cover-up. On June 17, 1972, five men were arrested inside the Democratic National Committee offices in the Watergate complex in Washington, D.C.; they were tied to the Committee to Re-elect the President. Nixon and aides tried to hide the link by paying hush money and pressuring the CIA and FBI to limit the investigation. Reporting by the Washington Post, Senate hearings, and a special prosecutor revealed the cover-up.\n\n(B) is wrong because Watergate was not an economic crisis.\n(C) is wrong because it was not a protest.\n(D) is wrong because it was a domestic political scandal, and the Middle East war of 1973 was a separate event."
     },
     {
       "id": "8-49",
@@ -6718,7 +6718,7 @@ const QUESTIONS = {
         "Nixon completed his full term in office with no lasting consequence."
       ],
       "correct": 0,
-      "explanation": "Watergate ultimately forced Nixon's resignation in 1974 — the only U.S. presidential resignation in American history, occurring before a formal Senate impeachment removal vote could take place. He did not serve out his full term, nor was he formally removed by a completed Senate trial."
+      "explanation": "Correct: (A) Nixon resigned in 1974, the only U.S. presidential resignation in history. After the Supreme Court ordered release of the tapes (July 1974), the House Judiciary Committee approved articles of impeachment, and a tape showing Nixon had ordered the FBI to stop the investigation (the 'smoking gun') cost him his remaining support among Republicans. He announced his resignation on August 8 and left office on August 9, 1974, and Gerald Ford, who succeeded him, pardoned him in September.\n\n(B) is wrong because he was never impeached by the full House or removed by the Senate; he resigned first.\n(C) is wrong because it ended his presidency.\n(D) is wrong because his second term was cut short."
     },
     {
       "id": "8-50",
@@ -6731,7 +6731,7 @@ const QUESTIONS = {
         "No — it showed a genuine abuse of power, but its resolution also showed accountability mechanisms could work."
       ],
       "correct": 3,
-      "explanation": "Watergate should not be characterized purely as institutional failure — while it represented a genuine, serious abuse of power, its resolution (press investigation, congressional action, a Supreme Court ruling) also demonstrated that constitutional accountability mechanisms could function even against a sitting president, a genuine duality rather than pure failure or pure success."
+      "explanation": "Correct: (D) no; it showed a genuine abuse of power, but its resolution also showed accountability mechanisms could work. Nixon's aides had used the CIA, FBI, and IRS for political purposes and obstructed the investigation, which was a serious abuse. But journalists at the Washington Post, a Senate investigating committee, a special prosecutor, federal judge John Sirica, the Supreme Court in United States v. Nixon (1974), and the House Judiciary Committee all pressed the case, and the president left office. So both failure and success appear in the story.\n\n(A) is wrong because Watergate did happen.\n(B) is wrong because the press, Congress, and the courts did act.\n(C) is wrong because the institutions also succeeded in holding the president accountable."
     },
     {
       "id": "8-51",
@@ -6744,7 +6744,7 @@ const QUESTIONS = {
         "South Vietnam remained independent and non-communist on a permanent basis after American troops left."
       ],
       "correct": 0,
-      "explanation": "Following the U.S. withdrawal (1973), South Vietnam was ultimately defeated and unified with North Vietnam under communist control by 1975. It neither remained permanently independent, became U.S. territory, nor joined NATO, an alliance limited to the U.S. and Western Europe."
+      "explanation": "Correct: (A) South Vietnam was ultimately defeated and unified with the North under communist control (1975). The Paris Peace Accords (January 1973) allowed North Vietnamese troops to stay in the South, and the U.S. withdrew its troops. Congress then cut aid and banned renewed bombing, and in spring 1975 North Vietnamese forces launched a major offensive. Saigon fell on April 30, 1975, and the country was unified as the Socialist Republic of Vietnam in 1976.\n\n(B) is wrong because the U.S. never annexed South Vietnam.\n(C) is wrong because NATO is a North Atlantic alliance, and South Vietnam's ally was the U.S. via SEATO-era commitments.\n(D) is wrong because South Vietnam collapsed."
     },
     {
       "id": "8-52",
@@ -6757,7 +6757,7 @@ const QUESTIONS = {
         "The Supreme Court ruled that Nixon must release incriminating tape recordings."
       ],
       "correct": 3,
-      "explanation": "The Supreme Court ruled that Nixon must release incriminating tape recordings, a significant judicial-branch action that directly contributed to Watergate's ultimate resolution and Nixon's resignation. The Court cannot itself remove a president from office, and its ruling found against, not in favor of, Nixon's conduct."
+      "explanation": "Correct: (D) the Supreme Court ruled that Nixon must release incriminating tape recordings. Nixon had secretly taped conversations in the White House, and special prosecutor Leon Jaworski sought the tapes. Nixon claimed executive privilege, but in United States v. Nixon (July 24, 1974), the Court ruled unanimously (8-0) that the claim could not withhold evidence in a criminal case. The tapes included a conversation of June 23, 1972, showing he had tried to block the FBI inquiry, and he resigned about two weeks later.\n\n(A) is wrong because it ruled against him.\n(B) is wrong because the ruling was decisive.\n(C) is wrong because the Constitution gives removal power to Congress through impeachment, not to the courts."
     },
     {
       "id": "8-53",
@@ -6770,7 +6770,7 @@ const QUESTIONS = {
         "Slow growth and high unemployment combined simultaneously with high inflation."
       ],
       "correct": 3,
-      "explanation": "Stagflation was the unusual, simultaneous combination of economic stagnation (slow growth, high unemployment) and high inflation, emerging significantly during the 1970s. It was distinct from — and far less severe than — the Great Depression, and it was defined by inflation, not its absence, alongside slow rather than rapid growth."
+      "explanation": "Correct: (D) slow growth and high unemployment combined simultaneously with high inflation. In the 1970s the U.S. had a recession in 1973-75 while prices rose rapidly, with inflation over 11% in 1974 and unemployment reaching about 9% in 1975. Factors included the oil price shocks, the cost of the Vietnam War, and the end of the Bretton Woods fixed exchange system in 1971. The name joins 'stagnation' and 'inflation.'\n\n(A) is wrong because the Great Depression featured falling prices and unemployment near 25%.\n(B) is wrong because it is a real economic term.\n(C) is wrong because it described high inflation and weak growth, not the opposite."
     },
     {
       "id": "8-54",
@@ -6783,7 +6783,7 @@ const QUESTIONS = {
         "It failed to challenge any existing economic policy assumptions in any way."
       ],
       "correct": 1,
-      "explanation": "Stagflation challenged conventional Keynesian assumptions because stagnation and inflation normally moved in opposite directions — policy tools typically used to address one, like stimulating growth, would usually worsen the other, making stagflation's simultaneous combination a genuine policy puzzle rather than a confirmation of existing theory."
+      "explanation": "Correct: (B) conventional theory held stagnation and inflation normally moved in opposite directions. Keynesian economics, influential since the New Deal, held that when unemployment was high, government spending or tax cuts could stimulate demand, and when inflation was high, the government could cool the economy; the Phillips curve suggested a trade-off between inflation and unemployment. When both rose together in the 1970s, a tool aimed at one worsened the other, and Nixon's wage and price controls and Ford's 'Whip Inflation Now' campaign did not solve it.\n\n(A) is wrong because it disproved assumptions.\n(C) is wrong because Keynesian policy dealt with both.\n(D) is wrong because it challenged existing ideas and opened the way for new approaches."
     },
     {
       "id": "8-55",
@@ -6796,7 +6796,7 @@ const QUESTIONS = {
         "A response to the unfolding Watergate scandal in Washington."
       ],
       "correct": 0,
-      "explanation": "The 1973 OPEC oil embargo was a response to U.S. support for Israel during the Yom Kippur War, causing a sharp oil price spike that significantly contributed to inflationary pressure. It was tied to Middle East conflict, not the Vietnam withdrawal, Great Society programs, or Watergate."
+      "explanation": "Correct: (A) a response to U.S. support for Israel during the Yom Kippur War. When Egypt and Syria attacked Israel on October 6, 1973, the U.S. sent arms to Israel, and Arab members of OPEC, led by Saudi Arabia, imposed an oil embargo on the U.S. and other supporters of Israel and cut production. The price of oil quadrupled, gasoline lines formed across the U.S., and the embargo ended in March 1974.\n\n(B) is wrong because the Great Society was a domestic agenda from the 1960s.\n(C) is wrong because the Vietnam ceasefire was unrelated to Arab oil policy.\n(D) is wrong because Watergate was a domestic scandal, though it occurred at the same time."
     },
     {
       "id": "8-56",
@@ -6809,7 +6809,7 @@ const QUESTIONS = {
         "That the American economy had essentially no relationship to oil prices."
       ],
       "correct": 1,
-      "explanation": "The 1973 oil embargo exposed America's growing economic vulnerability to international energy supply disruption, significantly contributing to the era's inflationary pressure. It demonstrated real dependence on foreign oil, not self-sufficiency, and a direct rather than nonexistent link between oil prices and inflation."
+      "explanation": "Correct: (B) growing American economic vulnerability to disruptions in international energy supply. U.S. oil production had peaked in 1970, and by 1973 the U.S. imported about a third of its oil. The embargo caused shortages, long lines, a sharp rise in prices, and inflation, and it led to the 55 mph speed limit, the Department of Energy (1977), and the Strategic Petroleum Reserve. The shock showed that the American economy depended on foreign producers.\n\n(A) is wrong because oil prices raised costs throughout the economy.\n(C) is wrong because the U.S. was not self-sufficient.\n(D) is wrong because the economy was closely tied to oil."
     },
     {
       "id": "8-57",
@@ -6822,7 +6822,7 @@ const QUESTIONS = {
         "Together they significantly increased American public trust in government as the nation recovered from them."
       ],
       "correct": 2,
-      "explanation": "The combined cumulative effect of Vietnam's disillusioning outcome and Watergate's documented corruption significantly and lastingly damaged American public trust in government institutions generally, persisting well beyond the specific events themselves — not an increase in trust, and not the product of only one event."
+      "explanation": "Correct: (C) their combined effect significantly and lastingly damaged public trust in government institutions. Vietnam, with the Pentagon Papers (1971) and the earlier credibility gap, showed that officials had misled the public, and Watergate showed a president abusing power and lying. Polls showed a steep fall in the share of Americans who trusted the government to do what is right, from about 75% in the early 1960s to about 30% by the late 1970s. The skepticism lasted well beyond the decade.\n\n(A) is wrong because Vietnam played a major role.\n(B) is wrong because trust fell sharply.\n(D) is wrong because trust declined and did not rise."
     },
     {
       "id": "8-58",
@@ -6835,7 +6835,7 @@ const QUESTIONS = {
         "The combined disillusionment undermined confidence in the same expanded government, setting up Period 9."
       ],
       "correct": 3,
-      "explanation": "The combined disillusionment from Vietnam and Watergate directly undermined public confidence in the same expanded federal government this unit traced (since the Progressive Era), setting up genuine public receptiveness to a different, more skeptical political message that Period 9 will cover — a decline in trust, not a steady rise."
+      "explanation": "Correct: (D) the combined disillusionment undermined confidence in the same expanded government, setting up Period 9. From the Progressive Era through the New Deal and Great Society, Americans came to accept a larger federal role in the economy, welfare, and foreign affairs. After Vietnam, Watergate, and stagflation, many Americans doubted that government could solve problems or be trusted, and that opened the way for Ronald Reagan's argument in 1980 that 'government is not the solution to our problem; government is the problem' and for a conservative turn in Period 9.\n\n(A) is wrong because the decline in trust was directly tied to the performance of that government.\n(B) is wrong because trust fell.\n(C) is wrong because the power and the trust were linked."
     },
     {
       "id": "8-59",
@@ -6848,7 +6848,7 @@ const QUESTIONS = {
         "The need for new policy approaches, since conventional tools struggled with stagnation and inflation together."
       ],
       "correct": 3,
-      "explanation": "Stagflation set up the need for different economic policy approaches in Period 9, since conventional Keynesian tools had struggled to address the unusual simultaneous combination of stagnation and inflation. It was not resolved by the end of this unit and directly shaped the following period's policy debates."
+      "explanation": "Correct: (D) the need for new policy approaches, since conventional tools struggled with stagnation and inflation together. Presidents Nixon, Ford, and Carter tried wage and price controls, voluntary restraint, and energy policies without ending stagflation. Carter appointed Paul Volcker to the Federal Reserve in 1979, and Volcker raised interest rates sharply to break inflation, causing a deep recession in 1981-82. Reagan's supply-side economics (tax cuts and deregulation) in the 1980s then replaced Keynesian demand management as the leading approach.\n\n(A) is wrong because it created a major challenge.\n(B) is wrong because it shaped later policy.\n(C) is wrong because stagflation lasted until the early 1980s and was not solved by Keynesian tools."
     },
     {
       "id": "8-60",
@@ -6861,7 +6861,7 @@ const QUESTIONS = {
         "1970s economic conditions were not actually difficult in any meaningful way, once adjusted for population growth and regional variation."
       ],
       "correct": 2,
-      "explanation": "A vague 'bad economic times' description fails to name stagflation's specific, genuinely unusual feature — the simultaneous combination of stagnation and inflation — which is precisely what made this economic challenge distinct from a typical downturn and set up different policy debates in Period 9."
+      "explanation": "Correct: (C) it fails to name the specific unusual feature (simultaneous stagnation and inflation) that made this era distinct. Recessions in earlier eras, such as the Depression, involved falling prices and unemployment; the 1970s combined high inflation (over 11% in 1974) with slow growth and unemployment (about 9% in 1975). Naming stagflation explains why Keynesian tools struggled, why Nixon, Ford, and Carter had trouble, and why the nation turned to new ideas after 1980. The AP exam expects specific evidence, not vague labels.\n\n(A) is wrong because it lacks specifics.\n(B) is wrong because specificity is basic to historical argument.\n(D) is wrong because the decade did include real hardship such as the oil shocks and recession."
     },
     {
       "id": "8-61",
@@ -6874,7 +6874,7 @@ const QUESTIONS = {
         "Vietnam's disillusioning outcome and the Watergate scandal."
       ],
       "correct": 3,
-      "explanation": "Vietnam's disillusioning outcome and the Watergate scandal combined to significantly and lastingly damage American public trust in government institutions by the late 1970s. The Great Society, détente, Brown v. Board, the Civil Rights Act, the Marshall Plan, and NATO were all significant but did not drive this particular trust decline."
+      "explanation": "Correct: (D) Vietnam's disillusioning outcome and the Watergate scandal. The Vietnam War, ending in the fall of Saigon in 1975, and revelations that officials had misled the public, along with Nixon's resignation in 1974, produced widespread cynicism, and the Church Committee in 1975 added revelations of CIA and FBI abuses.\n\n(A) is wrong because the Marshall Plan and NATO were seen as successes in the late 1940s.\n(B) is wrong because the Great Society and détente did not cause the collapse of trust.\n(C) is wrong because Brown and the Civil Rights Act (1964) increased faith in government for many, though they angered others."
     },
     {
       "id": "8-62",
@@ -6887,7 +6887,7 @@ const QUESTIONS = {
         "It was a direct response to U.S. support for Israel during the Yom Kippur War."
       ],
       "correct": 3,
-      "explanation": "The oil embargo was a direct response to U.S. support for Israel during the Yom Kippur War, directly connecting domestic American economic conditions (stagflation, inflation) to international Middle East geopolitical conflict — not a purely domestic matter, and squarely tied to the region's central role in global oil production."
+      "explanation": "Correct: (D) it was a direct response to U.S. support for Israel during the Yom Kippur War. Arab oil producers used oil as a political weapon after Egypt and Syria attacked Israel in October 1973 and the U.S. airlifted weapons to Israel, so the Middle East conflict directly raised prices at American gas pumps and contributed to stagflation. The Middle East supplied a large share of global oil.\n\n(A) is wrong because it was closely connected to Arab-Israeli politics.\n(B) is wrong because it came from foreign producers, not U.S. policy.\n(C) is wrong because the region held much of the world's oil reserves."
     },
     {
       "id": "8-63",
@@ -6900,7 +6900,7 @@ const QUESTIONS = {
         "Slow growth and high unemployment combined together with high inflation."
       ],
       "correct": 3,
-      "explanation": "The unusual combination of slow growth and high unemployment (stagnation) together with high inflation — called stagflation — made 1970s conditions genuinely unusual compared to a typical recession, where these factors normally move in opposite directions rather than appearing together."
+      "explanation": "Correct: (D) slow growth and high unemployment combined together with high inflation. In a typical recession, weak demand lowers prices, but in 1973-75 and again around 1979-82, prices rose while output stalled. In 1974 inflation was above 11%, and unemployment reached about 9% in 1975. The oil embargo, wage and price pressures, and loose monetary policy each contributed.\n\n(A) is wrong because growth was slow, not high, and unemployment was high.\n(B) is wrong because the unusual combination was widely recognized.\n(C) is wrong because inflation was high, not low, and growth was weak."
     },
     {
       "id": "8-64",
@@ -6913,7 +6913,7 @@ const QUESTIONS = {
         "Period 9 covers an entirely unrelated set of developments with no link to Period 8."
       ],
       "correct": 2,
-      "explanation": "This unit's closing section — declining public trust and stagflation's policy challenge — directly sets up Period 9's opening themes, connecting the two units through a continuous historical narrative rather than a sharp, disconnected break between unrelated periods."
+      "explanation": "Correct: (C) declining trust and stagflation's policy challenge directly set up the shift Period 9 covers. The Vietnam failure, Watergate, and the economic troubles of the 1970s left many Americans doubting the federal government and the Keynesian approach, and that created an opening for Reagan's conservative movement in 1980 favoring tax cuts, deregulation, and a smaller federal role in domestic policy. So the end of Period 8 explains the beginning of Period 9.\n\n(A) is wrong because the periods are linked.\n(B) is wrong because developments in the late 1970s fed directly into the 1980 election.\n(D) is wrong because Period 9 builds on these developments."
     },
     {
       "id": "8-65",
@@ -6927,7 +6927,7 @@ const QUESTIONS = {
         "The Cold War gave civil rights leverage abroad, while Vietnam's unpopularity undermined the Great Society and public trust, intertwining the two."
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing that this unit's foreign policy and domestic developments were never actually separable: the Cold War's ideological competition gave the Civil Rights Movement genuine international leverage against segregation; containment's same underlying logic drove the Vietnam War, whose domestic unpopularity then directly undermined the Great Society's funding and, ultimately, public trust in the very expanded federal government structure the Cold War itself had helped build. Recognizing this continuous, causally intertwined relationship between 'foreign' and 'domestic' history — rather than treating them as separate categories that merely happened to occur during the same decades — is exactly the connective, unit-spanning synthesis this unit's opening Skill Builder framework asks for."
+      "explanation": "Correct: (D) the Cold War gave civil rights leverage abroad, while Vietnam's unpopularity undermined the Great Society and public trust, intertwining the two. Cold War rivalry made segregation an embarrassment as Soviet media used it to challenge American claims, which pressured leaders to support the Civil Rights Act (1964). Containment led to the Gulf of Tonkin Resolution (1964) and escalation in Vietnam, and the war's cost and unpopularity after Tet (1968) weakened Johnson, slowed the Great Society, and with Watergate lowered public trust in government. So foreign and domestic events constantly affected each other.\n\n(A) is wrong because they were closely connected.\n(B) is wrong because the Cold War and Vietnam also had large international effects and shaped domestic politics.\n(C) is wrong because Vietnam had major domestic effects, including protest, the 1968 election, and loss of trust."
     },
     {
       "id": "8-66",
@@ -6940,7 +6940,7 @@ const QUESTIONS = {
         "A Supreme Court case striking down segregation in interstate travel."
       ],
       "correct": 2,
-      "explanation": "The March on Washington (1963) was a massive nonviolent demonstration for civil rights and economic justice, and the site of Martin Luther King Jr.'s famous 'I Have a Dream' speech. It was a peaceful public demonstration, not a violent clash, a court case, or a closed congressional hearing."
+      "explanation": "Correct: (C) a massive nonviolent demonstration, the site of King's 'I Have a Dream' speech. On August 28, 1963, about 250,000 people gathered at the Lincoln Memorial in the March on Washington for Jobs and Freedom, organized by A. Philip Randolph, Bayard Rustin, and civil rights groups to support civil rights legislation and economic justice. King delivered his 'I Have a Dream' speech, and the peaceful gathering helped build momentum for the Civil Rights Act of 1964.\n\n(A) is wrong because the march was peaceful.\n(B) is wrong because it was an open public event.\n(D) is wrong because interstate travel segregation was addressed in Boynton v. Virginia (1960) and by the Freedom Rides, not by the march."
     }
   ],
   "9": [
