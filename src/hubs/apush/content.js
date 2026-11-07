@@ -6955,7 +6955,7 @@ const QUESTIONS = {
         "That dramatically increasing government spending while leaving existing tax rates unchanged would spur growth."
       ],
       "correct": 0,
-      "explanation": "Reaganomics held that cutting tax rates — especially for higher earners and businesses — and reducing regulation would stimulate growth and investment, benefiting the broader economy; it did not call for nationalizing industry, raising top rates, or spending increases funded by unchanged taxes."
+      "explanation": "Correct: (A) tax and regulatory cuts to spur growth. Supply-side economics holds that the economy is limited by incentives to produce and invest, so lower marginal tax rates and lighter regulation leave businesses and investors more capital to expand, which is expected to raise output and eventually revenue. Reagan pushed this through the Economic Recovery Tax Act of 1981, which cut the top income tax rate from 70 to 50 percent, and he paired it with deregulation after the stagflation of the 1970s.\n\n(B) is wrong because raising marginal rates on high earners is the opposite of the supply-side claim and would reduce, not increase, the incentive to invest.\n(C) is wrong because nationalizing failing industries is state ownership, which Reagan's free-market program rejected.\n(D) is wrong because it describes Keynesian demand-side stimulus through spending; supply-siders cut taxes and did not rely on a spending expansion with unchanged rates."
     },
     {
       "id": "9-2",
@@ -6968,7 +6968,7 @@ const QUESTIONS = {
         "It had no relationship to any prior economic philosophy that had shaped federal policy."
       ],
       "correct": 1,
-      "explanation": "Reaganomics broke from the demand-side Keynesian assumptions that had generally guided federal policy since the New Deal (Period 7) — it neither continued nor duplicated that approach, and it did not exist in isolation from prior economic philosophy."
+      "explanation": "Correct: (B) a break from Keynesian demand-side assumptions. Since the New Deal, federal policy generally assumed that government spending and regulation could manage total demand and stabilize the economy, an approach built on the ideas of John Maynard Keynes. Reaganomics, adopted after the stagflation of the 1970s seemed to discredit that approach, instead put its faith in tax cuts, deregulation and supply-side incentives, and Reagan declared in 1981 that government was 'the problem.'\n\n(A) is wrong because it calls the two philosophies identical when Reaganomics rejected the New Deal's reliance on federal management of demand.\n(C) is wrong because continuing Keynesian assumptions without change contradicts the shift toward tax cuts and reduced regulation.\n(D) is wrong because Reaganomics had intellectual roots in earlier free-market and laissez-faire ideas, and it was defined in contrast to the Keynesian policy that preceded it."
     },
     {
       "id": "9-3",
@@ -6981,7 +6981,7 @@ const QUESTIONS = {
         "Only religious conservatives organized around social issues, without any other allied constituency."
       ],
       "correct": 0,
-      "explanation": "The 'New Right' coalition united three distinct constituencies — fiscal conservatives, religious/social conservatives, and anti-communist foreign policy hawks — not a single group, and it did not include labor unions, environmentalists, or pacifists."
+      "explanation": "Correct: (A) fiscal conservatives, religious/social conservatives, and anti-communist hawks. The New Right that helped elect Reagan in 1980 was a coalition of three groups: business-minded conservatives who wanted lower taxes and less regulation, evangelical and other social conservatives (organized in groups such as the Moral Majority) who opposed abortion and favored traditional family values, and Cold War hawks who wanted a tougher stance against the Soviet Union. The question's words 'three distinct constituencies' signal a combination, not a single group.\n\n(B) is wrong because labor unions, environmentalists and pacifists were mostly aligned with the left and opposed Reagan's agenda.\n(C) is wrong because fiscal conservatives were only one of the three groups.\n(D) is wrong because religious conservatives were a key part of the coalition but were allied with the economic and foreign-policy groups, not alone."
     },
     {
       "id": "9-4",
@@ -6994,7 +6994,7 @@ const QUESTIONS = {
         "No, because the New Right coalition as a historical political alliance never actually existed."
       ],
       "correct": 0,
-      "explanation": "The New Right should NOT be described as ideologically uniform — it was a real coalition of distinct constituencies (fiscal conservatives, religious conservatives, foreign policy hawks) with different specific priorities, not a single uniform movement or a coalition that never existed."
+      "explanation": "Correct: (A) No, it had distinct constituencies with different priorities. The New Right worked as an alliance: fiscal conservatives cared most about taxes and regulation, social conservatives about abortion and moral issues, and hawks about confronting the USSR. These priorities sometimes pulled apart, for example when business interests and religious activists disagreed over what to emphasize, so the movement was not ideologically uniform.\n\n(B) is wrong because Reagan won two landslide elections (1980 and 1984) with support from several constituencies, not just one.\n(C) is wrong because the groups did not share identical priorities on all issues, which is why it is called a coalition.\n(D) is wrong because the New Right coalition clearly existed and is a standard part of the story of Reagan's 1980 victory."
     },
     {
       "id": "9-5",
@@ -7007,7 +7007,7 @@ const QUESTIONS = {
         "There is no meaningful historical connection between these two developments."
       ],
       "correct": 2,
-      "explanation": "Reagan's election directly reflected the declining public trust in expanded federal government that Period 8's closing themes (Vietnam, Watergate, stagflation) had set up — it did not increase trust in that structure, and the two developments are directly connected."
+      "explanation": "Correct: (C) it reflected declining public trust in government after Vietnam and Watergate. The Vietnam War, the Pentagon Papers, and Watergate (Nixon resigned in 1974) damaged confidence in federal leaders, while the stagflation of the 1970s and the Iran hostage crisis suggested that government policy had failed. Reagan's 1980 campaign message that government was too big and too intrusive won because voters were already skeptical.\n\n(A) is wrong because it says the election increased trust in the expanded federal structure, when Reagan's platform was built on distrust of it.\n(B) is wrong because the political events of Period 8 directly shaped the 1980 election; they did not lack bearing.\n(D) is wrong because a clear causal link exists between the collapse of trust in the 1960s and 1970s and the conservative turn in 1980."
     },
     {
       "id": "9-6",
@@ -7020,7 +7020,7 @@ const QUESTIONS = {
         "Lower tax rates and reduced government regulation of business activity."
       ],
       "correct": 3,
-      "explanation": "Fiscal conservatives within the New Right favored lower taxes and reduced regulation, consistent with supply-side economic philosophy — not higher taxes, no preference, or nationalization."
+      "explanation": "Correct: (D) lower tax rates and reduced regulation of business. Fiscal conservatives within the New Right argued that high taxes and heavy regulation slowed investment and growth, a view that became Reagan's supply-side program, including the 1981 tax cuts and deregulation of industries such as oil price decontrol and banking.\n\n(A) is wrong because nationalizing industries is a socialist idea that fiscal conservatives opposed.\n(B) is wrong because higher business taxes and more oversight reverse their agenda.\n(C) is wrong because this group did have a distinguishing preference, the tax-and-regulation program that set it apart from social conservatives and foreign-policy hawks."
     },
     {
       "id": "9-7",
@@ -7033,7 +7033,7 @@ const QUESTIONS = {
         "Tax policy exclusively, with no social dimension."
       ],
       "correct": 0,
-      "explanation": "Religious/social conservatives within the New Right became increasingly mobilized around issues like abortion — not labor organizing, trade policy, or tax policy alone, which were priorities of other coalition members."
+      "explanation": "Correct: (A) abortion and related family and moral issues. After Roe v. Wade (1973) legalized abortion nationwide, evangelical Protestants and many Catholics organized politically, with groups such as the Moral Majority (1979), and they also campaigned on school prayer, the family and opposition to the Equal Rights Amendment. These social issues helped bring religious conservatives into the Republican coalition in 1980.\n\n(B) is wrong because labor union organizing was a concern of the labor movement, not religious conservatives, and most unions backed Democrats.\n(C) is wrong because trade and tariff negotiations were not the focus that mobilized this group.\n(D) is wrong because 'exclusively' tax policy with no social dimension contradicts the definition of social conservatives, who were motivated by moral questions."
     },
     {
       "id": "9-8",
@@ -7046,7 +7046,7 @@ const QUESTIONS = {
         "Formal military alliance directly with the Soviet Union itself."
       ],
       "correct": 1,
-      "explanation": "Anti-communist foreign policy hawks within the New Right favored an assertive, confrontational approach toward the Soviet Union — not passivity, alliance with Moscow, or disengagement."
+      "explanation": "Correct: (B) an assertive, confrontational approach to Soviet expansion. Anti-communist hawks criticized détente under Nixon and Ford and the Carter administration's approach as too soft, and they wanted a large military buildup and firm resistance to Soviet gains in places such as Afghanistan and Central America. Reagan's rhetoric calling the USSR an 'evil empire' (1983) and his defense spending reflect that stance.\n\n(A) is wrong because complete disengagement would abandon the containment goal hawks wanted to strengthen.\n(C) is wrong because a passive, negotiation-only approach is what hawks criticized in détente.\n(D) is wrong because an alliance with the Soviet Union would contradict anti-communism entirely."
     },
     {
       "id": "9-9",
@@ -7059,7 +7059,7 @@ const QUESTIONS = {
         "A deliberate departure from Keynesian demand-side assumptions since the New Deal."
       ],
       "correct": 3,
-      "explanation": "Reaganomics represented a deliberate philosophical departure from the demand-side Keynesian assumptions that had guided federal policy since the New Deal — it did not precede the New Deal, and the New Deal did have a guiding economic philosophy the two approaches diverged from."
+      "explanation": "Correct: (D) a deliberate departure from Keynesian demand-side assumptions. The New Deal and the policies that followed it relied on the idea that federal spending and regulation could manage demand and stabilize the economy. Reagan's advisers deliberately rejected that framework after 1970s stagflation, favoring tax cuts on the supply side.\n\n(A) is wrong because the New Deal did operate from an identifiable philosophy, the view that government must actively intervene in the economy.\n(B) is wrong because the two approaches differed sharply in their view of the proper role of government.\n(C) is wrong because Reaganomics emerged in the 1980s, nearly half a century after the New Deal of the 1930s, so it could not precede it."
     },
     {
       "id": "9-10",
@@ -7072,7 +7072,7 @@ const QUESTIONS = {
         "Political movements covered in this course are always ideologically uniform with no genuine internal diversity."
       ],
       "correct": 0,
-      "explanation": "This course has repeatedly asked students to recognize internal diversity within seemingly unified movements — the Populist coalition (Period 6) and the Civil Rights Movement's internal strategic debates (Period 8) both modeled this same habit, now applied to the New Right."
+      "explanation": "Correct: (A) the course has repeatedly shown internal diversity in coalitions. Historians avoid treating movements as monoliths: the Populists of the 1890s combined farmers from the South and the West with different priorities, and the Civil Rights Movement included disagreements between groups such as the NAACP, SCLC, SNCC and, later, Black Power advocates. The New Right's mix of fiscal, social and foreign-policy conservatives fits that same pattern.\n\n(B) is wrong because diversity within coalitions is not unique to Period 9; the examples above come from earlier periods.\n(C) is wrong because the course has asked this repeatedly.\n(D) is wrong because movements in this course are not ideologically uniform; they contained real internal differences."
     },
     {
       "id": "9-11",
@@ -7085,7 +7085,7 @@ const QUESTIONS = {
         "A trajectory of consistently shrinking federal government dating back to 1789."
       ],
       "correct": 1,
-      "explanation": "Reagan's political message expressed skepticism about the broader trajectory of expanding federal government role and scope traced since the Progressive Era (Period 7) through the Great Society (Period 8) — not a shrinking trajectory, foreign-policy-only trajectory, or an absence of skepticism."
+      "explanation": "Correct: (B) the trajectory of expanding federal government since the Progressive Era. Reagan argued that the federal government had grown too large and intrusive, a growth that began with the Progressive Era's regulatory reforms, accelerated with the New Deal, and peaked with the Great Society; in his 1981 inaugural address he said that government was 'the problem.'\n\n(A) is wrong because his skepticism applied mainly to domestic programs and regulation, and he actually increased defense spending.\n(C) is wrong because skepticism about big government was the core of his message.\n(D) is wrong because federal power did not shrink continuously from 1789; it generally grew over time, especially in the twentieth century."
     },
     {
       "id": "9-12",
@@ -7098,7 +7098,7 @@ const QUESTIONS = {
         "'Openness' — permitting greater political expression and transparency."
       ],
       "correct": 3,
-      "explanation": "'Glasnost' meant 'openness,' permitting greater political expression and transparency — the economic-restructuring description belongs to perestroika, and glasnost was not about military spending or repression."
+      "explanation": "Correct: (D) 'openness,' permitting greater political expression and transparency. Mikhail Gorbachev, who became Soviet leader in 1985, introduced glasnost to let officials and citizens criticize problems, relax censorship and speak more freely, partly to expose the corruption and inefficiency that blocked reform.\n\n(A) is wrong because glasnost was not about military spending, and Gorbachev actually sought to reduce it and negotiate arms control.\n(B) is wrong because limited market mechanisms describe perestroika, the economic restructuring.\n(C) is wrong because repression and total censorship are the reverse of what glasnost meant."
     },
     {
       "id": "9-13",
@@ -7111,7 +7111,7 @@ const QUESTIONS = {
         "A policy aimed at substantially expanding the Soviet military's reach."
       ],
       "correct": 2,
-      "explanation": "'Perestroika' meant 'restructuring,' introducing limited market mechanisms into the Soviet economy — the openness description belongs to glasnost, a related but distinct reform, not a synonym for it."
+      "explanation": "Correct: (C) 'restructuring,' economic reforms introducing limited market mechanisms. Perestroika, announced by Gorbachev in the mid-1980s, tried to revive the stagnant Soviet economy by giving enterprises more autonomy, allowing some private cooperatives and reducing central planning, while keeping the system socialist.\n\n(A) is wrong because political openness describes glasnost.\n(B) is wrong because the two were separate policies: one economic, one political and cultural, though they worked together.\n(D) is wrong because expanding military reach was not the goal; Gorbachev ended the Afghan war and sought arms reductions."
     },
     {
       "id": "9-14",
@@ -7124,7 +7124,7 @@ const QUESTIONS = {
         "The September 11 terrorist attacks on the United States."
       ],
       "correct": 2,
-      "explanation": "The fall of the Berlin Wall (1989) symbolically and practically marked Eastern European communism's collapse — the Soviet Union's own dissolution came later (1991), and the Gulf War and September 11 are unrelated events from other sections."
+      "explanation": "Correct: (C) the fall of the Berlin Wall. On November 9, 1989, East Germany opened the border crossings in the wall that had divided Berlin since 1961, after weeks of protests and the Soviet refusal to intervene. It symbolized the collapse of communist rule across Eastern Europe, where Poland, Hungary, Czechoslovakia and others overthrew communist governments in 1989.\n\n(A) is wrong because the Soviet Union dissolved in December 1991, two years later.\n(B) is wrong because the Gulf War was in 1991 and concerned Iraq, not communism.\n(D) is wrong because the September 11 attacks occurred in 2001."
     },
     {
       "id": "9-15",
@@ -7137,7 +7137,7 @@ const QUESTIONS = {
         "1991"
       ],
       "correct": 3,
-      "explanation": "The Soviet Union formally dissolved in 1991, following the fall of the Berlin Wall (1989) and the broader collapse of Soviet political and economic control."
+      "explanation": "Correct: (D) 1991. After an attempted hardline coup in August 1991 failed, the republics moved to independence, and the Soviet Union formally dissolved in December 1991, when Gorbachev resigned on December 25 and the Soviet flag came down.\n\n(A) is wrong because 1989 was the year the Berlin Wall fell and Eastern European communist governments collapsed, not the Soviet state itself.\n(B) is wrong because 1985 is the year Gorbachev came to power.\n(C) is wrong because 2001 was the year of the September 11 attacks, a decade after the USSR ended."
     },
     {
       "id": "9-16",
@@ -7150,7 +7150,7 @@ const QUESTIONS = {
         "The Soviet Union had no organized economic system of any recognizable kind."
       ],
       "correct": 1,
-      "explanation": "The Soviet centrally planned economy's increasing inefficiency and inability to keep pace with Western development provided the structural context making Gorbachev's reforms impossible to fully contain — the Soviet economy was neither nonexistent nor thriving."
+      "explanation": "Correct: (B) the Soviet economy had grown inefficient and could not match Western development. The centrally planned economy suffered from low productivity, shortages, and heavy military spending, and it was falling behind the West in technology and living standards by the 1980s. Gorbachev's reforms exposed these problems and unleashed demands that could not be contained.\n\n(A) is wrong because economic weakness was the very reason reforms were needed and why they had such large consequences.\n(C) is wrong because an efficient economy outproducing the West would not have required drastic reform.\n(D) is wrong because the USSR had a well-defined planned economic system; it simply performed poorly."
     },
     {
       "id": "9-17",
@@ -7163,7 +7163,7 @@ const QUESTIONS = {
         "The United States actively worked to support continued Soviet territorial expansion."
       ],
       "correct": 0,
-      "explanation": "One historiographical position emphasizes U.S. policy's decisive role — Reagan's defense buildup and rhetoric pressuring the Soviet economy, followed by diplomatic engagement with Gorbachev — not that U.S. policy was irrelevant, supportive of Soviet expansion, or absent from the debate."
+      "explanation": "Correct: (A) Reagan's defense buildup pressured the Soviet economy, followed by diplomacy. This 'victory' interpretation argues that U.S. military spending, the Strategic Defense Initiative announced in 1983, and firm rhetoric forced the USSR to spend beyond its means, after which Reagan negotiated with Gorbachev, signing the INF Treaty in 1987.\n\n(B) is wrong because that would deny any role to U.S. policy, which is not this position.\n(C) is wrong because such historians do exist.\n(D) is wrong because U.S. policy opposed Soviet expansion, as in containment and the Reagan Doctrine of backing anti-communist forces."
     },
     {
       "id": "9-18",
@@ -7176,7 +7176,7 @@ const QUESTIONS = {
         "Soviet inefficiency and internal pressures were more decisive than U.S. policy."
       ],
       "correct": 3,
-      "explanation": "A competing position emphasizes internal Soviet factors — accumulated economic inefficiency, Gorbachev's own reforms, and satellite states' internal pressures — as more fundamentally decisive, substantially independent of U.S. policy choices; this position does exist, and it concerns the Cold War's end, not its beginning."
+      "explanation": "Correct: (D) Soviet inefficiency and internal pressures were more decisive than U.S. policy. This competing view stresses economic stagnation, the burden of the arms race and Afghan war, Gorbachev's own reforms, and nationalist and reform movements in the satellite states as the main causes, with U.S. actions playing a smaller part.\n\n(A) is wrong because this competing position exists and is a major side of the debate.\n(B) is wrong because internal Soviet conditions are central, not unrelated.\n(C) is wrong because the position addresses why the Cold War ended, and its beginning is a separate question."
     },
     {
       "id": "9-19",
@@ -7189,7 +7189,7 @@ const QUESTIONS = {
         "No, because the Cold War's end holds no historical significance worth analyzing."
       ],
       "correct": 0,
-      "explanation": "A strong essay should NOT treat the Cold War's end as having one settled explanation — this exam rewards acknowledging it as a genuinely contested historiographical question, paralleling the atomic bomb debate's treatment in Period 7, not dismissing it as insignificant or claiming a single agreed-upon answer."
+      "explanation": "Correct: (A) No, because historians contest it, as with the atomic bomb debate in Period 7. Some scholars credit Reagan's pressure, others emphasize Soviet internal weaknesses, others highlight Gorbachev's choices or the role of popular movements in Eastern Europe, so a strong essay acknowledges these competing explanations, just as it does for the decision to use atomic weapons in 1945.\n\n(B) is wrong because historians have debated this extensively.\n(C) is wrong because there is no universally agreed single answer.\n(D) is wrong because the end of the Cold War is one of the most significant events in modern U.S. and world history."
     },
     {
       "id": "9-20",
@@ -7202,7 +7202,7 @@ const QUESTIONS = {
         "They loosened Soviet control over satellite states, aiding their independence."
       ],
       "correct": 3,
-      "explanation": "Glasnost and perestroika significantly loosened Soviet political and economic control both domestically and over Eastern European satellite states, contributing directly to their eventual independence — not strengthening control or leaving satellite states unaffected."
+      "explanation": "Correct: (D) they loosened Soviet control over satellite states, aiding their independence. Glasnost allowed open criticism, and perestroika weakened the economic base of the Soviet system. Gorbachev also signaled in 1988-1989 that the USSR would no longer use force to maintain communist governments, abandoning the Brezhnev Doctrine, so in 1989 Poland, Hungary, East Germany, Czechoslovakia, and others changed governments.\n\n(A) is wrong because the effect was large and visible.\n(B) is wrong because control weakened rather than strengthened.\n(C) is wrong because the reforms spread outward to the satellite states, which noticed that Moscow would not intervene."
     },
     {
       "id": "9-21",
@@ -7215,7 +7215,7 @@ const QUESTIONS = {
         "Neither event has any documented or historically verifiable date."
       ],
       "correct": 1,
-      "explanation": "The Berlin Wall's fall (1989) preceded the Soviet Union's formal dissolution (1991) — the reverse order, same-year claim, and undated claim are all incorrect."
+      "explanation": "Correct: (B) the Berlin Wall's fall in 1989 preceded the Soviet dissolution in 1991. The wall fell on November 9, 1989, during the wave of revolutions in Eastern Europe, and the Soviet Union itself formally ended in December 1991.\n\n(A) is wrong because the events were two years apart.\n(C) is wrong because it reverses the real order.\n(D) is wrong because both events have well-documented dates."
     },
     {
       "id": "9-22",
@@ -7228,7 +7228,7 @@ const QUESTIONS = {
         "Nikita Khrushchev"
       ],
       "correct": 0,
-      "explanation": "Mikhail Gorbachev's reform policies (glasnost and perestroika) are most closely associated with the systemic changes leading to the Cold War's end."
+      "explanation": "Correct: (A) Mikhail Gorbachev. He became General Secretary of the Soviet Communist Party in March 1985 and introduced glasnost and perestroika, negotiated arms control with Reagan, and declined to use force to keep Eastern Europe communist, which led to the Cold War's end.\n\n(B) is wrong because Stalin ruled from the 1920s until his death in 1953 and built the harsh system, not reformed it.\n(C) is wrong because Lenin led the Bolshevik revolution of 1917 and died in 1924.\n(D) is wrong because Khrushchev led from 1953 to 1964, the era of the Cuban Missile Crisis, well before the Cold War ended."
     },
     {
       "id": "9-23",
@@ -7241,7 +7241,7 @@ const QUESTIONS = {
         "It successfully reversed Iraq's military invasion of Kuwait."
       ],
       "correct": 3,
-      "explanation": "The Persian Gulf War (1991) successfully reversed Iraq's invasion of Kuwait — it did not establish permanent occupation of Iraq, was itself an armed conflict, and is distinct from the Cold War's end, which had already occurred by 1991."
+      "explanation": "Correct: (D) it reversed Iraq's invasion of Kuwait. Iraq under Saddam Hussein invaded Kuwait in August 1990, and President George H. W. Bush assembled a UN-authorized coalition. Operation Desert Storm began in January 1991 and Iraqi forces were driven out within weeks, in a ground war that lasted about 100 hours in February.\n\n(A) is wrong because the Cold War was ending separately through the events of 1989-1991.\n(B) is wrong because the Gulf War was itself an international armed conflict.\n(C) is wrong because the coalition liberated Kuwait and did not occupy Iraq, and Saddam remained in power."
     },
     {
       "id": "9-24",
@@ -7254,7 +7254,7 @@ const QUESTIONS = {
         "The 2008 financial crisis and its global economic fallout."
       ],
       "correct": 1,
-      "explanation": "The September 11, 2001 attacks fundamentally redirected American foreign policy priorities, leading to the War on Terror — the 2008 crisis, the Gulf War, and the Berlin Wall's fall are significant but distinct developments from other sections."
+      "explanation": "Correct: (B) the September 11, 2001 terrorist attacks. Al-Qaeda hijackers killed nearly 3,000 people, leading President George W. Bush to declare a 'war on terror,' invade Afghanistan in October 2001, create the Department of Homeland Security and pass the USA PATRIOT Act. Counterterrorism became the central focus of foreign policy.\n\n(A) is wrong because the Berlin Wall's fall in 1989 ended a Cold War stage and came earlier.\n(C) is wrong because the Gulf War was in 1991 and was an interstate conflict.\n(D) is wrong because the 2008 crisis was economic and came later in the decade."
     },
     {
       "id": "9-25",
@@ -7267,7 +7267,7 @@ const QUESTIONS = {
         "No meaningful connection existed between these two historical events."
       ],
       "correct": 2,
-      "explanation": "The Afghanistan War (2001) targeted the Taliban government that had sheltered the al-Qaeda network responsible for September 11 — a direct connection; it followed, rather than preceded, the attacks, and it targeted Afghanistan, not Iraq."
+      "explanation": "Correct: (C) it targeted the Taliban government that sheltered al-Qaeda. The 9/11 attacks were planned by al-Qaeda under Osama bin Laden, who was based in Afghanistan under the protection of the Taliban. When the Taliban refused to hand him over, the U.S. and allies began military operations in October 2001.\n\n(A) is wrong because the war was fought in Afghanistan; Iraq was invaded in 2003.\n(B) is wrong because the war followed the attacks.\n(D) is wrong because the attacks were the direct cause of the war."
     },
     {
       "id": "9-26",
@@ -7280,7 +7280,7 @@ const QUESTIONS = {
         "Iraq lacked the 9/11 connection; its WMD justification proved more contested."
       ],
       "correct": 3,
-      "explanation": "The Iraq War (2003) lacked Afghanistan's direct connection to September 11, and its justification — weapons of mass destruction that ultimately were not found — proved significantly more contested; Iraq's connection to 9/11 was weaker, not stronger, than Afghanistan's, and both wars did have stated justifications."
+      "explanation": "Correct: (D) Iraq lacked a 9/11 connection, and its WMD justification proved more contested. The Bush administration argued in 2002-2003 that Saddam Hussein possessed or was developing weapons of mass destruction, but inspectors found no stockpiles, and the 9/11 Commission found no collaborative operational relationship between Iraq and al-Qaeda.\n\n(A) is wrong because the justifications were not identical.\n(B) is wrong because officials stated reasons for both wars.\n(C) is wrong because Afghanistan had the stronger link, as the base of the group that attacked."
     },
     {
       "id": "9-27",
@@ -7293,7 +7293,7 @@ const QUESTIONS = {
         "Both wars occurred in identical locations under identical stated justifications."
       ],
       "correct": 1,
-      "explanation": "The Afghanistan and Iraq Wars had genuinely different origins, levels of international support, and domestic political reception — this exam rewards distinguishing them precisely rather than treating either as insignificant or identical to the other."
+      "explanation": "Correct: (B) they had different origins, support levels, and domestic reception. Afghanistan (2001) was a response to the 9/11 attacks and drew broad international and domestic support, including NATO's first invocation of Article 5, while Iraq (2003) was based largely on WMD claims, lacked UN Security Council authorization and a wide coalition, and was far more divisive at home.\n\n(A) is wrong because the distinctions are meaningful.\n(C) is wrong because both wars were historically significant.\n(D) is wrong because they occurred in different countries and on different stated grounds."
     },
     {
       "id": "9-28",
@@ -7306,7 +7306,7 @@ const QUESTIONS = {
         "A significantly weakened, marginal position on the world stage."
       ],
       "correct": 2,
-      "explanation": "Following the Cold War's end, the United States occupied the position of the world's sole remaining superpower — a genuinely new position, not isolation, an unchanged status, or a weakened one."
+      "explanation": "Correct: (C) the world's sole remaining military and economic superpower. With the Soviet Union gone in 1991, the United States had no rival with comparable military and economic power, sometimes called a 'unipolar moment,' and President George H. W. Bush spoke of a 'new world order.'\n\n(A) is wrong because the U.S. status changed from one of two superpowers to the only one.\n(B) is wrong because the U.S. was deeply engaged diplomatically and economically in the world.\n(D) is wrong because the U.S. was strengthened relative to others, not weakened."
     },
     {
       "id": "9-29",
@@ -7319,7 +7319,7 @@ const QUESTIONS = {
         "The government of Afghanistan, which had sheltered al-Qaeda's leadership."
       ],
       "correct": 3,
-      "explanation": "The Taliban led the government of Afghanistan, which had sheltered the al-Qaeda network responsible for September 11 — the specific target of the 2001 Afghanistan War, not Iraq, Kuwait, or the Soviet Union."
+      "explanation": "Correct: (D) the government of Afghanistan, which had sheltered al-Qaeda's leadership. The Taliban, an Islamist movement, took control of most of Afghanistan in the mid-1990s and gave bin Laden a base, which is why U.S. forces and allies attacked it in late 2001.\n\n(A) is wrong because Iraq was led by Saddam Hussein's Ba'ath Party.\n(B) is wrong because Kuwait was the invaded country in 1990 and a U.S. partner.\n(C) is wrong because the Taliban had no connection to the Soviet government, which had fought in Afghanistan in the 1980s and no longer existed after 1991."
     },
     {
       "id": "9-30",
@@ -7332,7 +7332,7 @@ const QUESTIONS = {
         "The presence of weapons of mass destruction, never actually found."
       ],
       "correct": 3,
-      "explanation": "Concerns about Iraqi weapons of mass destruction were the specific claimed justification that ultimately proved unfounded — Iraq's connection to 9/11 was not the claimed justification, a justification was in fact offered, and the U.N. Security Council did not request the intervention."
+      "explanation": "Correct: (D) the presence of weapons of mass destruction, which were never found. In 2002-2003 the Bush administration asserted that Iraq had chemical and biological weapons and was seeking nuclear capability, and after the March 2003 invasion no active WMD stockpiles were found.\n\n(A) is wrong because investigations did not document a direct operational link between Saddam's regime and 9/11.\n(B) is wrong because the Security Council did not authorize the invasion, and the U.S. proceeded with a smaller coalition.\n(C) is wrong because officials gave detailed justifications, including Iraq's violations of earlier UN resolutions."
     },
     {
       "id": "9-31",
@@ -7345,7 +7345,7 @@ const QUESTIONS = {
         "It followed the identical superpower-versus-superpower framework of Cold War conflicts."
       ],
       "correct": 0,
-      "explanation": "The Persian Gulf War occurred as an early example of post-Cold War American military engagement, without the direct superpower-versus-superpower framework that had structured Cold War-era conflicts — it did not involve direct U.S.-Soviet combat or follow that older framework."
+      "explanation": "Correct: (A) it was an early post-Cold War conflict outside the old superpower framework. The 1991 war was a regional conflict that the U.S. led with a broad UN-backed coalition, and the Soviet Union did not oppose it, which showed how far the Cold War division had faded.\n\n(B) is wrong because the U.S. and USSR did not fight each other.\n(C) is wrong because the war reflected the new international situation as the Cold War ended.\n(D) is wrong because it did not follow the superpower-versus-superpower pattern, which had applied in Korea, Vietnam, and elsewhere."
     },
     {
       "id": "9-32",
@@ -7358,7 +7358,7 @@ const QUESTIONS = {
         "A federal civil rights statute addressing workplace discrimination."
       ],
       "correct": 1,
-      "explanation": "NAFTA (North American Free Trade Agreement, 1993) expanded international trade among the U.S., Canada, and Mexico — it was not a tax policy, civil rights law, or military alliance."
+      "explanation": "Correct: (B) the North American Free Trade Agreement, expanding regional trade. NAFTA, negotiated under George H. W. Bush and approved by Congress in 1993 under President Clinton, took effect in January 1994 and phased out most tariffs among the U.S., Canada and Mexico.\n\n(A) is wrong because the military alliance is NATO, formed in 1949.\n(C) is wrong because NAFTA was about trade, not individual income taxes.\n(D) is wrong because it was not a civil rights statute; Title VII of the 1964 Civil Rights Act addressed workplace discrimination."
     },
     {
       "id": "9-33",
@@ -7371,7 +7371,7 @@ const QUESTIONS = {
         "The complete elimination of all economic inequality nationwide."
       ],
       "correct": 2,
-      "explanation": "Globalization and digital technology produced genuine benefits including lower consumer prices, new technology-sector industries and jobs, and expanded access to information — they did not eliminate inequality entirely, and the benefits were broader than a single industry."
+      "explanation": "Correct: (C) lower prices, new tech-sector jobs, and expanded access to information. Cheaper imports reduced costs for consumers, the growth of computing and the internet created new industries and firms, and the web made information, communication and commerce more widely available.\n\n(A) is wrong because the effects spread across the economy, not one industry.\n(B) is wrong because the benefits were real, and most economists recognize gains from trade and technology alongside costs.\n(D) is wrong because inequality did not disappear, and in many ways it grew."
     },
     {
       "id": "9-34",
@@ -7384,7 +7384,7 @@ const QUESTIONS = {
         "Manufacturing job losses as production shifted to lower-cost locations."
       ],
       "correct": 3,
-      "explanation": "Globalization produced genuine costs concentrated in specific regions and industries, notably manufacturing job losses as production shifted to lower-cost locations — not the total elimination of manufacturing, costs limited to foreign countries, or no costs at all."
+      "explanation": "Correct: (D) manufacturing job losses as production shifted to lower-cost locations. Many factories in the Midwest and the South closed or moved abroad or to Mexico, hitting communities that depended on them, such as steel, auto parts, and textile towns, a decline sometimes called the Rust Belt.\n\n(A) is wrong because there were real costs.\n(B) is wrong because American manufacturing declined in employment in many regions but did not disappear.\n(C) is wrong because the costs fell heavily on American workers and communities."
     },
     {
       "id": "9-35",
@@ -7397,7 +7397,7 @@ const QUESTIONS = {
         "This question bears no relationship to any pattern established elsewhere in the course."
       ],
       "correct": 1,
-      "explanation": "Consistent with this course's recurring 'hold both stories together' pattern, a strong essay identifies both globalization's genuine benefits and its genuine, unevenly distributed costs — it did produce effects, they were unevenly distributed, and this connects to a broader course pattern."
+      "explanation": "Correct: (B) a strong essay identifies both real benefits and unevenly distributed costs. Globalization lowered prices and expanded markets and technology, while concentrating job losses in particular regions and industries, so a one-sided account of either kind misses part of the evidence.\n\n(A) is wrong because globalization had major effects.\n(C) is wrong because effects varied widely by region, industry, and skill level.\n(D) is wrong because the question fits the course's recurring pattern of weighing gains and costs."
     },
     {
       "id": "9-36",
@@ -7410,7 +7410,7 @@ const QUESTIONS = {
         "The Gilded Age produced only negative effects; globalization only positive ones."
       ],
       "correct": 2,
-      "explanation": "Both Gilded Age industrialization and globalization produced genuine aggregate economic growth while simultaneously generating serious hardship for specific groups — a real parallel, though the two are distinct historical processes, and neither era's effects were purely one-sided."
+      "explanation": "Correct: (C) both produced aggregate growth alongside serious hardship for specific groups. Gilded Age industrialization raised national output and created great fortunes while many workers faced low wages, dangerous conditions and displacement, and globalization similarly raised overall wealth while hitting manufacturing workers and communities.\n\n(A) is wrong because the parallel is real.\n(B) is wrong because they are different processes in different eras, even though the pattern of benefits and costs is comparable.\n(D) is wrong because both periods had benefits and costs."
     },
     {
       "id": "9-37",
@@ -7423,7 +7423,7 @@ const QUESTIONS = {
         "Growing debate over globalization's costs and rising regional inequality."
       ],
       "correct": 3,
-      "explanation": "Manufacturing job losses in specific regions contributed to growing public debate over globalization's costs and benefits and to rising economic inequality between regions and skill levels — not a total economic collapse, eliminated inequality, or no broader trend at all."
+      "explanation": "Correct: (D) growing debate over globalization's costs and rising regional inequality. Job losses in manufacturing regions fed political arguments over trade deals such as NAFTA, plant closings, and the widening gap between booming areas and struggling ones, and these debates later shaped national politics.\n\n(A) is wrong because broader trends clearly followed.\n(B) is wrong because the national economy kept growing overall.\n(C) is wrong because inequality persisted and in many measures increased."
     },
     {
       "id": "9-38",
@@ -7436,7 +7436,7 @@ const QUESTIONS = {
         "Eli Whitney's invention of the mechanical cotton gin."
       ],
       "correct": 1,
-      "explanation": "The rise of digital technology — personal computing and later the internet — alongside expanding trade like NAFTA, significantly transformed the American economy during this period; the Bessemer process, the printing press, and the cotton gin are all technologies from earlier periods of this course."
+      "explanation": "Correct: (B) the rise of personal computing and, later, the internet. From the 1980s, personal computers and software spread through offices and homes, and the commercial internet of the 1990s transformed communication, business and trade, and the new tech industry helped drive global integration.\n\n(A) is wrong because Gutenberg's printing press dates from the fifteenth century.\n(C) is wrong because the Bessemer process from the 1850s-1870s belongs to the Gilded Age steel industry.\n(D) is wrong because Eli Whitney's cotton gin (1793) belongs to the early republic."
     },
     {
       "id": "9-39",
@@ -7449,7 +7449,7 @@ const QUESTIONS = {
         "A similarly uneven transformation, with genuine benefits and real costs."
       ],
       "correct": 3,
-      "explanation": "Globalization represents a similarly uneven economic transformation to Gilded Age industrialization — genuine aggregate benefits alongside genuine, unevenly distributed costs — not a perfectly even, unrelated, or nonexistent transformation."
+      "explanation": "Correct: (D) a similarly uneven transformation with real benefits and costs. The analogy asks for the same relationship: Gilded Age industrialization was a transformation that benefitted some and harmed others, and globalization also raised overall output while concentrating costs in certain places and groups.\n\n(A) is wrong because the analogy depends on a pattern shared with the earlier period.\n(B) is wrong because globalization did have costs.\n(C) is wrong because the economy was substantially transformed."
     },
     {
       "id": "9-40",
@@ -7462,7 +7462,7 @@ const QUESTIONS = {
         "An agreement with no relationship to globalization as a broader trend."
       ],
       "correct": 1,
-      "explanation": "NAFTA was a specific example of expanding international trade agreements, directly part of the broader globalization trend — it expanded rather than reduced trade, applied to North America rather than Asia, and was closely tied to that broader trend."
+      "explanation": "Correct: (B) a specific example of the broader trend of expanding trade agreements. NAFTA created a large free-trade zone among the U.S., Canada and Mexico in 1994, and it was followed by other measures such as the creation of the World Trade Organization (1995) and normalized trade relations with China (2000), all part of rising global economic integration.\n\n(A) is wrong because NAFTA increased trade.\n(C) is wrong because the agreement covered North America.\n(D) is wrong because it was a clear instance of globalization."
     },
     {
       "id": "9-41",
@@ -7475,7 +7475,7 @@ const QUESTIONS = {
         "Precision about regional or industry-specific effects has no analytical value."
       ],
       "correct": 2,
-      "explanation": "Precision about which specific regions and industries bore globalization's costs reflects this exam's broader expectation that economic transformations be analyzed with attention to their uneven distribution — a skill applicable across periods, not just the Gilded Age, and not one regions/industries experienced identically."
+      "explanation": "Correct: (C) it reflects the exam's expectation of analyzing uneven distribution. AP scoring rewards specific evidence, so naming which regions (for example the industrial Midwest) and which industries (such as steel, autos, textiles) bore the costs shows the analysis of who gained and who lost instead of a vague generalization.\n\n(A) is wrong because effects were not identical across regions.\n(B) is wrong because specificity matters in all periods.\n(D) is wrong because precise evidence is central to strong historical writing."
     },
     {
       "id": "9-42",
@@ -7488,7 +7488,7 @@ const QUESTIONS = {
         "Only economic policy questions involving taxation and regulation of banks and industry."
       ],
       "correct": 2,
-      "explanation": "'Culture war' debates during this period generally encompassed abortion rights, gay rights and marriage equality, immigration policy, and the proper role of religion in public life — not foreign policy, economic policy, or Cold War questions alone."
+      "explanation": "Correct: (C) abortion, gay rights and marriage equality, immigration, and religion's public role. 'Culture wars' refers to conflicts over values and identity, such as Roe v. Wade, same-sex marriage, immigration policy, and school prayer, that divided Americans from the 1980s and 1990s onward.\n\n(A) is wrong because these debates were primarily domestic and social.\n(B) is wrong because the Cold War and nuclear arms race were foreign policy matters.\n(D) is wrong because taxation and bank regulation are economic, not the social issues in question."
     },
     {
       "id": "9-43",
@@ -7501,7 +7501,7 @@ const QUESTIONS = {
         "Dred Scott v. Sandford"
       ],
       "correct": 1,
-      "explanation": "Obergefell v. Hodges (2015) established a nationwide right to same-sex marriage, a significant culmination of the gay rights movement's legal advocacy."
+      "explanation": "Correct: (B) Obergefell v. Hodges. In June 2015 the Supreme Court ruled 5-4 that the Fourteenth Amendment guarantees same-sex couples the right to marry, requiring all states to license and recognize such marriages.\n\n(A) is wrong because Brown v. Board of Education (1954) ended legal segregation in public schools.\n(C) is wrong because Marbury v. Madison (1803) established judicial review.\n(D) is wrong because Dred Scott v. Sandford (1857) held that African Americans could not be citizens."
     },
     {
       "id": "9-44",
@@ -7514,7 +7514,7 @@ const QUESTIONS = {
         "A measurable decrease in political disagreement across the population."
       ],
       "correct": 0,
-      "explanation": "Political polarization describes an increasing tendency for Americans' views across issues to sort more consistently along party lines, with declining overlap between the two major parties — not a decrease in disagreement, an unrelated term, or a synonym for the Cold War."
+      "explanation": "Correct: (A) views sorting more consistently along party lines with declining overlap. Political polarization means that Democrats and Republicans increasingly hold consistently different positions across issues, with fewer moderates or cross-party coalitions, and that party identity increasingly lines up with region, religion, and values.\n\n(B) is wrong because it is an identifiable trend studied by political scientists.\n(C) is wrong because the Cold War was a geopolitical rivalry and the terms are unrelated.\n(D) is wrong because polarization means more disagreement between the parties, not less."
     },
     {
       "id": "9-45",
@@ -7527,7 +7527,7 @@ const QUESTIONS = {
         "Strongly advocate for one specific position as objectively, uniquely correct."
       ],
       "correct": 0,
-      "explanation": "A strong essay describes the substance and positions of contested contemporary debates factually and evenhandedly, without advocating for one side — matching this exam's expectation of objectivity, rather than ignoring the topic, assuming uniform views, or arguing for one side."
+      "explanation": "Correct: (A) describing the debate factually and evenhandedly, without advocacy. Historical analysis explains what each side argued and why, using evidence, without declaring one position correct, which keeps the essay about history rather than personal politics.\n\n(B) is wrong because these issues are historically significant.\n(C) is wrong because Americans hold a range of views.\n(D) is wrong because advocacy for one position replaces analysis."
     },
     {
       "id": "9-46",
@@ -7540,7 +7540,7 @@ const QUESTIONS = {
         "Both involve contested questions lacking settled consensus."
       ],
       "correct": 3,
-      "explanation": "Both the atomic bomb debate and contemporary culture war debates involve genuinely contested questions where consensus hasn't settled on one clearly correct answer, requiring the same disciplined, factual treatment — neutrality is expected here, the two cases are analogous, and the atomic bomb debate remains genuinely contested too."
+      "explanation": "Correct: (D) both involve contested questions lacking settled consensus. Historians and the public still disagree about whether the 1945 atomic bombings were necessary, and the same kind of unresolved disagreement exists for abortion, immigration and other culture-war issues, so both call for presenting competing positions fairly.\n\n(A) is wrong because neutrality is expected here.\n(B) is wrong because the atomic bomb debate remains unresolved.\n(C) is wrong because they require the same approach."
     },
     {
       "id": "9-47",
@@ -7553,7 +7553,7 @@ const QUESTIONS = {
         "No specific recurring questions have structured this ongoing debate."
       ],
       "correct": 0,
-      "explanation": "Immigration policy debate has generally centered on recurring questions including appropriate levels and criteria for legal immigration, addressing undocumented immigrants already present, and border security — not tariff policy, military policy, or an absence of recurring structure."
+      "explanation": "Correct: (A) legal immigration levels, undocumented immigrants, and border security. Debates have returned to how many people and which categories to admit legally (as in the Immigration Act of 1965 and 1990), what to do about undocumented immigrants already living in the U.S. (as in the 1986 Immigration Reform and Control Act), and how to secure the border.\n\n(B) is wrong because tariffs concern trade, not immigration.\n(C) is wrong because military deployments are a separate area.\n(D) is wrong because these questions recur regularly."
     },
     {
       "id": "9-48",
@@ -7566,7 +7566,7 @@ const QUESTIONS = {
         "Significant political division is understood to have begun only after the year 2000."
       ],
       "correct": 2,
-      "explanation": "While recent polarization's specific intensity is a notable feature of this period, this course has traced significant political division and party realignment in earlier periods too — such as the critical realigning Election of 1896 (Period 6) — so current polarization isn't without precedent; it did not begin only after 2000, and earlier periods were not free of documented division."
+      "explanation": "Correct: (C) the course traced division earlier too, as with the 1896 election. The 1896 contest between William McKinley and William Jennings Bryan created lasting divisions by region, class and economic outlook, and earlier eras brought other sharp divisions such as the Civil War era and the 1850s. Modern polarization has distinctive features, but not unprecedented ones.\n\n(A) is wrong because the course addressed political division in many periods.\n(B) is wrong because earlier periods had major divisions.\n(D) is wrong because polarization did not begin only after 2000; it had been growing since the 1960s and 1970s."
     },
     {
       "id": "9-49",
@@ -7579,7 +7579,7 @@ const QUESTIONS = {
         "The equal division of household labor between spouses."
       ],
       "correct": 2,
-      "explanation": "'Marriage equality' refers specifically to the legal right of same-sex couples to marry, an issue culminating in Obergefell v. Hodges (2015) — not household labor division, the Equal Rights Amendment, or equal-pay legislation, which are distinct issues."
+      "explanation": "Correct: (C) the legal right of same-sex couples to marry. The phrase became the central slogan of the movement that won state-level victories (Massachusetts in 2004) and the Supreme Court's Obergefell decision (2015).\n\n(A) is wrong because the Equal Rights Amendment concerned equal rights regardless of sex and was proposed in 1972.\n(B) is wrong because equal pay legislation was the Equal Pay Act of 1963.\n(D) is wrong because household labor is a domestic matter, not a legal rights issue."
     },
     {
       "id": "9-50",
@@ -7592,7 +7592,7 @@ const QUESTIONS = {
         "Underlying values bear no relationship whatsoever to specific policy positions."
       ],
       "correct": 1,
-      "explanation": "Explaining the different underlying values driving disagreement (economic, security, humanitarian considerations) provides a more complete, historically substantive account than simply listing positions — values and positions are related but distinct, and this approach has clear analytical value."
+      "explanation": "Correct: (B) underlying values give a fuller account than simply listing positions. Showing why people disagree, such as the weight placed on individual choice, on respect for life, on public safety, on economic opportunity or humanitarian concerns, explains the cause of the dispute and not just what each side wants.\n\n(A) is wrong because positions and values differ; the same value can lead to different positions.\n(C) is wrong because the approach is valuable in historical analysis.\n(D) is wrong because values are what motivate policy positions."
     },
     {
       "id": "9-51",
@@ -7605,7 +7605,7 @@ const QUESTIONS = {
         "Increasing overlap and common ground between the two major parties."
       ],
       "correct": 0,
-      "explanation": "This section describes declining overlap or common ground between the two major parties' positions compared to earlier in the twentieth century — not increasing overlap, no change, or an absence of any claim."
+      "explanation": "Correct: (A) declining overlap between the parties compared to earlier in the century. In the mid-twentieth century both parties included liberal, moderate and conservative members, such as conservative Southern Democrats and liberal Northeastern Republicans; later realignment sorted members more cleanly by party, leaving less ideological common ground.\n\n(B) is wrong because there was a measurable change.\n(C) is wrong because the section does describe the trend.\n(D) is wrong because the overlap shrank, not grew."
     },
     {
       "id": "9-52",
@@ -7618,7 +7618,7 @@ const QUESTIONS = {
         "No prior unit in this course modeled this particular analytical approach."
       ],
       "correct": 1,
-      "explanation": "Period 7's treatment of the atomic bomb decision's necessity modeled the same disciplined neutrality — presenting genuine competing positions fairly without declaring one uncontestedly correct — a precedent, not an unprecedented approach or one modeled by Period 1 or Period 3's material."
+      "explanation": "Correct: (B) Period 7's treatment of the atomic bomb decision's necessity. That question has long divided historians, some arguing the bomb ended the war and saved lives, others emphasizing alternatives and diplomatic or Soviet factors, so it taught presenting competing views fairly.\n\n(A) is wrong because Columbus's voyage is a different kind of topic.\n(C) is wrong because the drafting of the Declaration is not a model of historiographical debate in the same way.\n(D) is wrong because the atomic bomb debate is such a precedent."
     },
     {
       "id": "9-53",
@@ -7631,7 +7631,7 @@ const QUESTIONS = {
         "The formal dissolution of the Soviet Union in 1991."
       ],
       "correct": 0,
-      "explanation": "The 2008 financial crisis was triggered significantly by risky mortgage lending practices and complex financial instruments whose risks proved poorly understood and poorly regulated — not agricultural prices, a foreign invasion, or the unrelated 1991 Soviet dissolution."
+      "explanation": "Correct: (A) risky mortgage lending and poorly understood financial instruments. Lenders issued subprime mortgages to borrowers who could not afford them, banks bundled them into mortgage-backed securities and derivatives that spread the risk, and when housing prices fell in 2006-2007 defaults rose and firms such as Lehman Brothers collapsed in September 2008, freezing credit.\n\n(B) is wrong because crop prices were not the trigger.\n(C) is wrong because there was no foreign invasion.\n(D) is wrong because the Soviet dissolution occurred in 1991, 17 years earlier."
     },
     {
       "id": "9-54",
@@ -7644,7 +7644,7 @@ const QUESTIONS = {
         "It was measurably less severe than any prior recession in American history."
       ],
       "correct": 1,
-      "explanation": "The 2008 financial crisis produced the most severe American economic downturn since the Great Depression (Period 7) — not an insignificant event, one unrelated to the broader economy, or one milder than every prior recession."
+      "explanation": "Correct: (B) it produced the most severe American economic downturn since the Great Depression. The Great Recession of 2007-2009 saw unemployment rise to about 10 percent, millions of foreclosures, and a sharp stock market fall.\n\n(A) is wrong because it was highly significant.\n(C) is wrong because it was a major national economic event.\n(D) is wrong because it was far deeper than most postwar recessions."
     },
     {
       "id": "9-55",
@@ -7657,7 +7657,7 @@ const QUESTIONS = {
         "The federal government took no significant action in response to the crisis."
       ],
       "correct": 1,
-      "explanation": "The federal government's 2008 response (financial sector intervention, stimulus spending) directly continued this course's recurring pattern of expanded federal economic intervention during major crises, paralleling the New Deal and wartime mobilization — not a reversal of that pattern, inaction, or an unrelated event."
+      "explanation": "Correct: (B) it continued the course's pattern of expanded federal crisis intervention. The government passed the Troubled Asset Relief Program in October 2008 to stabilize banks, rescued firms such as AIG, assisted automakers, and enacted the American Recovery and Reinvestment Act in 2009, echoing the New Deal and wartime mobilization.\n\n(A) is wrong because it followed the earlier pattern.\n(C) is wrong because it fits an established pattern.\n(D) is wrong because the federal government acted extensively."
     },
     {
       "id": "9-56",
@@ -7670,7 +7670,7 @@ const QUESTIONS = {
         "A policy addressing immigration reform rather than healthcare, mainly border enforcement."
       ],
       "correct": 1,
-      "explanation": "The Affordable Care Act (2010) represented a further, significantly contested extension of federal healthcare involvement, building on but extending beyond Medicare/Medicaid (Period 8) — it addressed healthcare, not immigration, and expanded rather than eliminated or reduced federal healthcare involvement."
+      "explanation": "Correct: (B) a further, contested extension of federal healthcare beyond Medicare/Medicaid. The 2010 law expanded insurance coverage by creating exchanges, subsidies, and an expansion of Medicaid, and it prohibited denying coverage for preexisting conditions, building on the programs created in 1965; it remained politically contested, with disputes over its cost and its individual mandate.\n\n(A) is wrong because it expanded federal involvement.\n(C) is wrong because it did not eliminate those programs.\n(D) is wrong because it addressed healthcare, not immigration."
     },
     {
       "id": "9-57",
@@ -7683,7 +7683,7 @@ const QUESTIONS = {
         "The Anti-Imperialist League, opposing overseas territorial expansion."
       ],
       "correct": 0,
-      "explanation": "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing racial disparities in criminal justice — the Populist movement, Anti-Imperialist League, and Farmers' Alliance are unrelated organizations from much earlier periods."
+      "explanation": "Correct: (A) the Black Lives Matter movement. It began in 2013 after the acquittal of George Zimmerman in the shooting of Trayvon Martin, grew with protests after deaths such as Michael Brown in Ferguson (2014), and reached a peak in 2020, focusing on policing and racial disparities in criminal justice.\n\n(B) is wrong because the Farmers' Alliance organized farmers in the 1870s-1890s.\n(C) is wrong because the Populists were an 1890s party.\n(D) is wrong because the Anti-Imperialist League opposed expansion after 1898."
     },
     {
       "id": "9-58",
@@ -7696,7 +7696,7 @@ const QUESTIONS = {
         "It bears no relationship to any prior period's civil rights activity."
       ],
       "correct": 2,
-      "explanation": "Continued 21st-century civil rights activism is consistent with this course's recurring pattern of civil rights activism evolving across periods — Reconstruction, the Progressive Era, and the 1960s Civil Rights Movement are earlier chapters — not an unprecedented phenomenon, nor evidence that such activism ended after the 1960s."
+      "explanation": "Correct: (C) it fits the course's pattern of civil rights activism since Reconstruction. African Americans and allies pursued rights through the Reconstruction amendments, the NAACP, and the 1950s-1960s movement, and later campaigns continued to press on voting, policing and equality.\n\n(A) is wrong because activism continued after the 1960s.\n(B) is wrong because it has earlier roots.\n(D) is wrong because it is connected to earlier struggles."
     },
     {
       "id": "9-59",
@@ -7709,7 +7709,7 @@ const QUESTIONS = {
         "Factually, without asserting a settled verdict on ongoing debates."
       ],
       "correct": 3,
-      "explanation": "This section's guidance specifies describing recent civil rights activism factually and precisely, without asserting a settled verdict on questions that remain genuinely subject to ongoing debate — not ignoring the topic, advocating for one verdict, or assuming universal agreement."
+      "explanation": "Correct: (D) factually, without asserting a settled verdict on ongoing debates. Recent events lack the perspective and scholarship that come with time, so a strong response describes what happened and what people argued, using evidence, without declaring a final judgment.\n\n(A) is wrong because the topic is historically significant.\n(B) is wrong because opinions on these events are far from universal.\n(C) is wrong because advocating one settled verdict would be partisan and premature."
     },
     {
       "id": "9-60",
@@ -7722,7 +7722,7 @@ const QUESTIONS = {
         "Caution about distinguishing fact from debate is irrelevant to historical study."
       ],
       "correct": 2,
-      "explanation": "This final unit requires the most caution because it covers the most recent history in the course, lacking the decades or centuries of historical distance and scholarly consensus earlier units benefit from — not the least caution, and not facts as settled as Period 1's."
+      "explanation": "Correct: (C) the unit lacks the historical distance and consensus earlier units have. Events of the last few decades are still unfolding, sources are incomplete, and historians have not had time to reach shared interpretations, so claims should be careful.\n\n(A) is wrong because it is the opposite.\n(B) is wrong because Period 1 is much more settled.\n(D) is wrong because distinguishing fact from debate is basic to the discipline."
     },
     {
       "id": "9-61",
@@ -7735,7 +7735,7 @@ const QUESTIONS = {
         "The Spanish-American War and the earlier Mexican-American War over territory, influence, and expansion."
       ],
       "correct": 2,
-      "explanation": "The Constitutional Convention's response to the Articles of Confederation's weakness (Period 3) and the New Deal's response to the Great Depression (Period 7) are two prior examples of major crises prompting expanded federal economic role — the Missouri Compromise, Spanish-American War, and Great Awakenings are unrelated developments from this course."
+      "explanation": "Correct: (C) the Constitutional Convention's response to the Articles' weakness and the New Deal's Depression response. The Articles of Confederation left the national government unable to tax or regulate trade, and the crisis of Shays' Rebellion (1786-87) helped lead to the stronger Constitution of 1787; the Great Depression led to the New Deal's banking regulation, public works and Social Security. Both parallel 2008's federal rescue of the financial system.\n\n(A) is wrong because the Great Awakenings were religious revivals, not government responses.\n(B) is wrong because the Missouri Compromise (1820) and Kansas-Nebraska Act (1854) concerned slavery's expansion.\n(D) is wrong because the Spanish-American and Mexican-American wars concerned territory and not an expanded federal economic role."
     },
     {
       "id": "9-62",
@@ -7748,7 +7748,7 @@ const QUESTIONS = {
         "Beginning in the 2010s"
       ],
       "correct": 3,
-      "explanation": "The Black Lives Matter movement gained significant national attention beginning in the 2010s, addressing ongoing concerns about racial disparities in areas including criminal justice."
+      "explanation": "Correct: (D) beginning in the 2010s. The #BlackLivesMatter hashtag arose in 2013 and the movement became prominent after protests in Ferguson, Missouri, in 2014, with a large wave of demonstrations in 2020.\n\n(A) is wrong because 'before 1900' covers abolition and Reconstruction, long before this movement.\n(B) is wrong because the 1960s were the era of the Civil Rights Movement led by groups such as SCLC and SNCC.\n(C) is wrong because the 1980s precede the movement by about three decades."
     },
     {
       "id": "9-63",
@@ -7761,7 +7761,7 @@ const QUESTIONS = {
         "A consistent, unbroken decline in federal power across every one of the nine periods."
       ],
       "correct": 1,
-      "explanation": "One of the most significant unifying threads spanning this course is major crises repeatedly prompting significant, often lasting expansion of federal government economic role and capacity — not a decline in federal power, an absence of pattern, or unconnected periods."
+      "explanation": "Correct: (B) crises repeatedly prompting lasting expansion of federal economic capacity. Examples include the Constitution after the Articles' weakness, the Civil War, the New Deal, the world wars, and the 2008 crisis, each leaving the federal government with new powers or programs.\n\n(A) is wrong because the course shows clear recurring patterns.\n(C) is wrong because the periods are connected.\n(D) is wrong because federal power has generally grown, not steadily declined."
     },
     {
       "id": "9-64",
@@ -7774,7 +7774,7 @@ const QUESTIONS = {
         "Federal government power played no meaningful role in the 2008 crisis response."
       ],
       "correct": 2,
-      "explanation": "The 2008 financial crisis is a fitting closing topic because it represents the most recent, clearest example of this course's multi-century pattern of federal crisis response, directly connecting the earliest and most recent periods — not a reversal of that pattern, an unrelated event, or one where federal power played no role."
+      "explanation": "Correct: (C) it is the clearest recent example of this multi-century crisis-response pattern. In 2008 the federal government and the Federal Reserve bailed out banks, passed TARP and the 2009 stimulus, and increased regulation through the Dodd-Frank Act (2010), as the federal government had done during the Great Depression and the world wars.\n\n(A) is wrong because it is closely related.\n(B) is wrong because it followed the pattern.\n(D) is wrong because federal power was central to the response."
     },
     {
       "id": "9-65",
@@ -7788,7 +7788,7 @@ const QUESTIONS = {
         "Memorizing isolated facts is always more valuable than recognizing any recurring historical pattern in the course."
       ],
       "correct": 1,
-      "explanation": "This final synthesis question rewards recognizing that the 'major crisis produces expanded federal response' pattern first identified in Period 3 recurs across the New Deal (Period 7), wartime mobilization in both World Wars (Period 7), the Great Society (Period 8), and the 2008 financial crisis (Period 9) — several widely separated instances of the same underlying pattern. Recognizing this single recurring pattern is more valuable than memorizing each crisis response in isolation because it provides a reusable analytical framework: when a DBQ or LEQ presents a new, unfamiliar crisis-response scenario, a student who has internalized this pattern can reason about it using an established structure, rather than building an entirely new explanation from scratch."
+      "explanation": "Correct: (B) it recurs in the New Deal, both World Wars, the Great Society, and the 2008 crisis response, and one reusable framework beats memorizing each crisis alone. After the Constitutional Convention (1787), the Depression produced the New Deal, World War I and World War II brought mobilization and agencies that managed the economy, the Great Society responded to poverty and civil rights pressure in the 1960s, and the 2008 crisis brought TARP and the stimulus. A single pattern lets a student reason about unfamiliar prompts and organize evidence across periods, which is what DBQs and LEQs reward.\n\n(A) is wrong because the pattern recurs repeatedly.\n(C) is wrong because the course draws exactly these connections.\n(D) is wrong because memorization without a framework is brittle and does not help with new prompts."
     }
   ]
 };
