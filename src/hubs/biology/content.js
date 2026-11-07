@@ -952,7 +952,7 @@ const QUESTIONS = {
         "A plasma membrane enclosing the cell's contents"
       ],
       "correct": 2,
-      "explanation": "Prokaryotes lack a membrane-bound nucleus; their single circular chromosome sits in the nucleoid region, unenclosed by any membrane. Choices A, B, and D are all wrong for the same reason: a plasma membrane, ribosomes, and cytoplasm are present in both prokaryotic and eukaryotic cells, so none distinguishes the two."
+      "explanation": "Correct: a single circular chromosome located in the nucleoid region, not enclosed by a membrane. The defining difference between prokaryotes and eukaryotes is that prokaryotes have no membrane-bound nucleus or other membrane-bound organelles. Their DNA is typically one circular chromosome that sits in a region of the cytoplasm called the nucleoid (often with small extra rings of DNA called plasmids). Eukaryotic DNA is in linear chromosomes enclosed in a nuclear envelope. To answer 'present in one but absent in the other' questions, first recall what ALL cells share: a plasma membrane, cytoplasm, ribosomes, and DNA.\n\n(A) is wrong because cytoplasm fills the interior of every cell, prokaryotic and eukaryotic.\n(B) is wrong because both types of cell have ribosomes (they are a different size in the two groups, but they are present in both).\n(D) is wrong because every cell is enclosed by a plasma membrane; it is one of the features of all cells."
     },
     {
       "id": "2-2",
@@ -965,7 +965,7 @@ const QUESTIONS = {
         "An animal cell that happens to lack mitochondria"
       ],
       "correct": 0,
-      "explanation": "Ribosomes plus a total absence of membrane-bound organelles is the hallmark of a prokaryotic cell. Choices B, C, and D all wrongly assume the cell is eukaryotic: every eukaryotic cell, plant or animal, at any developmental stage, has membrane-bound organelles such as a nucleus, ER, and Golgi apparatus — an animal cell missing mitochondria would still have those other organelles."
+      "explanation": "Correct: a prokaryotic cell, since it has no membrane-bound organelles at all. Ribosomes are found in ALL cells, so they do not tell you much; the important clue is that there are no membrane-bound organelles. Eukaryotic cells always have a nucleus and a set of organelles such as the endoplasmic reticulum, Golgi apparatus, and mitochondria. A cell with ribosomes but none of those compartments is the profile of a prokaryote, such as a bacterium.\n\n(B) is wrong because a eukaryotic cell, even an early-stage one, already has a nucleus and other membrane-bound organelles.\n(C) is wrong because a plant cell with a thin wall would still have a nucleus, a large central vacuole, chloroplasts, and the other organelles.\n(D) is wrong because an animal cell without mitochondria would still have a nucleus, ER, Golgi, and lysosomes; the cell in the question has no membrane-bound organelles of any kind."
     },
     {
       "id": "2-3",
@@ -978,7 +978,7 @@ const QUESTIONS = {
         "The Golgi apparatus, which modifies and sorts proteins and lipids"
       ],
       "correct": 2,
-      "explanation": "The mitochondrion is the primary site of aerobic respiration and generates the bulk of a eukaryotic cell's ATP. The other three are wrong because each names a real but unrelated organelle function: the Golgi modifies and sorts (not respires), lysosomes digest waste, and rough ER synthesizes proteins for secretion — none produces ATP via aerobic respiration."
+      "explanation": "Correct: the mitochondrion. Mitochondria are the main site of aerobic respiration in eukaryotic cells. The Krebs cycle takes place in the matrix, and the electron transport chain and ATP synthase are in the folded inner membrane, where most of the cell's ATP is made when oxygen is available. The way to answer 'which organelle makes ATP?' is to link the process to the structure: a double membrane with a highly folded inner membrane (cristae) built for the electron transport chain.\n\n(A) is wrong because lysosomes contain digestive enzymes that break down waste and damaged material.\n(B) is wrong because the rough ER makes and folds proteins for secretion and for membranes, using ATP rather than producing it.\n(D) is wrong because the Golgi apparatus modifies, sorts, and packages proteins and lipids; it also consumes ATP rather than making it."
     },
     {
       "id": "2-4",
@@ -991,7 +991,7 @@ const QUESTIONS = {
         "Rapid, repeated cell division, which requires many rounds of chromosome duplication and mitosis"
       ],
       "correct": 0,
-      "explanation": "Lysosomes hold digestive enzymes that break down waste, damaged organelles (autophagy), and engulfed material (as in phagocytic immune cells) — an unusually high lysosome count points to heavy degradative activity. Photosynthesis (choice B) is a chloroplast function, rapid division (choice D) relates to the cell cycle machinery, and high secretion (choice C) points instead to abundant rough ER and Golgi — none of these are lysosome jobs."
+      "explanation": "Correct: extensive breakdown of waste, damaged organelles, or engulfed particles. Lysosomes are membrane-bound sacs of digestive (hydrolytic) enzymes that work best at acidic pH. They digest material taken in by phagocytosis (like bacteria), recycle damaged organelles (autophagy), and break down worn-out molecules. A cell that has many lysosomes is therefore specialized for heavy breakdown or recycling, such as a white blood cell (macrophage) that engulfs pathogens.\n\n(B) is wrong because photosynthesis takes place in chloroplasts, not lysosomes.\n(C) is wrong because high rates of protein secretion would point to abundant rough ER and Golgi apparatus.\n(D) is wrong because rapid cell division depends on the cell cycle and its machinery for copying and separating DNA, not on lysosomes."
     },
     {
       "id": "2-5",
@@ -1004,7 +1004,7 @@ const QUESTIONS = {
         "The rough ER and Golgi apparatus carry out identical, redundant functions in the cell"
       ],
       "correct": 2,
-      "explanation": "The secretion pathway runs in order: rough-ER-bound ribosomes synthesize the protein, rough ER performs initial folding, and the protein then travels (typically by vesicle) to the Golgi for further modification, sorting, and packaging. Choice A reverses the products (ribosomes are not made by the Golgi), choice B reverses the sequence (proteins are made on rough ER, not the Golgi), and choice D is wrong because the two organelles perform distinct, sequential steps, not duplicate ones."
+      "explanation": "Correct: rough ER ribosomes synthesize the protein, which then moves to the Golgi for modification and packaging. The secretion pathway is a production line with a fixed order. Ribosomes attached to the rough ER make the protein and thread it into the ER, where it is folded and given its first modifications. Transport vesicles then carry it to the Golgi apparatus, which modifies it further (for example, adding carbohydrate groups), sorts it, and packages it into vesicles that fuse with the plasma membrane to release it (exocytosis). A short way to remember: rough ER, then Golgi, then vesicle, then out.\n\n(A) is wrong because ribosomes are built in the nucleolus from rRNA and proteins, not made by the Golgi.\n(B) is wrong because it reverses the sequence: proteins are made on the rough ER, not in the Golgi.\n(D) is wrong because the two organelles do different, sequential jobs: the ER makes and folds, the Golgi modifies, sorts, and ships."
     },
     {
       "id": "2-6",
@@ -1017,7 +1017,7 @@ const QUESTIONS = {
         "Synthesis of proteins destined for secretion"
       ],
       "correct": 0,
-      "explanation": "Smooth ER's lack of ribosomes reflects its non-protein role: it is the main site of lipid synthesis, calcium storage, and detoxification of drugs and other harmful substances (especially extensive in liver cells). Choice B describes lysosomes, choice C describes the nucleus, and choice D describes rough ER — each names a real organelle function, just not smooth ER's."
+      "explanation": "Correct: lipid synthesis and detoxification of harmful substances. Smooth ER has no ribosomes, so it does not make proteins. Instead, its membranes hold enzymes for making lipids (phospholipids and steroid hormones), for detoxifying drugs and poisons (which is why liver cells have a lot of smooth ER), and for storing calcium ions (in muscle cells this is the sarcoplasmic reticulum). This is a good example of structure matching function: no ribosomes, no protein synthesis.\n\n(B) is wrong because digestion of engulfed particles and worn-out organelles is the job of lysosomes.\n(C) is wrong because housing and organizing the cell's DNA is the job of the nucleus.\n(D) is wrong because making proteins for secretion is the job of the rough ER, where the ribosomes are attached."
     },
     {
       "id": "2-7",
@@ -1030,7 +1030,7 @@ const QUESTIONS = {
         "Well-supported, since eukaryotes are found across more distinct environment types"
       ],
       "correct": 0,
-      "explanation": "Structural complexity and evolutionary success are not the same thing: prokaryotes have thrived for billions of years, vastly outnumber eukaryotes, and occupy environmental extremes eukaryotes cannot survive, which directly undercuts the claim. Choices B and D both mistake structural or distributional differences for a measure of adaptedness, and choice C is wrong because the claim is a general one that can be evaluated using well-documented prokaryotic biology as a whole, without picking a single species."
+      "explanation": "Correct: the claim is not well-supported. Being 'simpler' is not the same as being 'less well adapted.' Adaptation is measured by how well organisms survive and reproduce in their environment, not by structural complexity. By that measure prokaryotes are extraordinarily successful: they have existed for billions of years (the oldest fossils are about 3.5 billion years old), outnumber eukaryotes by a huge margin, and live in places eukaryotes cannot, such as boiling hot springs, extremely salty or acidic water, and deep rock. They also have a wide variety of metabolisms, including nitrogen fixation and chemosynthesis, and their small size gives them a high surface-area-to-volume ratio and fast reproduction.\n\n(B) is wrong because lacking membrane-bound organelles is a structural difference, not evidence of being poorly adapted.\n(D) is wrong because prokaryotes, not eukaryotes, are found across the widest range of environments, including extremes.\n(C) is wrong because the claim is a general one about prokaryotes and can be evaluated without picking a single species."
     },
     {
       "id": "2-8",
@@ -1043,7 +1043,7 @@ const QUESTIONS = {
         "The mitochondrion, which handles aerobic respiration and houses the enzymes of the electron transport chain"
       ],
       "correct": 1,
-      "explanation": "Transcription happens in the nucleus because that's where the DNA and the transcription enzymes are housed. Smooth ER (choice A), lysosomes (choice C), and mitochondria (choice D) are each correctly described for their own jobs, but none of them contains the cell's DNA or performs transcription."
+      "explanation": "Correct: the nucleus, where the DNA and transcription machinery reside. In eukaryotic cells, DNA is stored inside the nucleus, enclosed by the nuclear envelope, and transcription (copying a gene into mRNA by RNA polymerase) happens there. The mRNA is then processed and exported through nuclear pores to the cytoplasm for translation by ribosomes. Keeping transcription in the nucleus and translation in the cytoplasm separates the two steps.\n\n(A) is wrong because smooth ER is involved in lipid synthesis, detoxification, and calcium storage, and it has no DNA to transcribe.\n(C) is wrong because lysosomes digest material and contain hydrolytic enzymes, not transcription enzymes.\n(D) is wrong because mitochondria do have a small amount of their own DNA, but the question refers to transcribing the cell's DNA into mRNA, and the nucleus is where that mainly takes place; the mitochondrion's main job is ATP production by aerobic respiration."
     },
     {
       "id": "2-9",
@@ -1057,7 +1057,7 @@ const QUESTIONS = {
         "This observation is impossible and must reflect an experimental error"
       ],
       "correct": 1,
-      "explanation": "This question pushes back on the assumption that membrane-bound compartments are the only route to regulatory sophistication: real prokaryotes use non-membrane mechanisms like localized protein complexes, RNA-based regulation, and protein-shelled metabolic microcompartments. Choice D wrongly dismisses documented biology as an error, choice C invents unobserved organelles rather than accepting the data, and choice A wrongly assumes regulatory capacity itself requires eukaryotic status."
+      "explanation": "Correct: complex internal regulation does not require membrane-bound compartmentalization. The organism has no nucleus and no membrane-bound organelles, so by structure it IS a prokaryote. The observation then shows something real about prokaryotes: they can regulate their chemistry in sophisticated ways without membrane compartments. Examples include protein-shelled compartments such as carboxysomes (which concentrate enzymes for carbon fixation), clusters of proteins located at specific places in the cell, regulation by RNA molecules, and signaling systems. The scientifically appropriate response is to revise the assumption that compartments are required, not to explain away the data.\n\n(A) is wrong because classification depends on structure (no nucleus, no membrane-bound organelles), not on how complicated the regulation is.\n(C) is wrong because it invents undetected organelles that nothing in the observation supports.\n(D) is wrong because dismissing a documented observation as an error without evidence is not good science."
     },
     {
       "id": "2-10",
@@ -1070,7 +1070,7 @@ const QUESTIONS = {
         "Chloroplasts, the site of photosynthesis"
       ],
       "correct": 3,
-      "explanation": "Chloroplasts are found in plant cells (and some protists) but not animal cells, which cannot carry out photosynthesis. Ribosomes (choice C), mitochondria (choice B), and the plasma membrane (choice A) are all shared structures present in both plant and animal cells, so none of them is plant-exclusive."
+      "explanation": "Correct: chloroplasts, the site of photosynthesis. Plant cells (and algae) have chloroplasts, where chlorophyll captures light energy and the cell makes sugar from CO2 and water. Animal cells cannot do photosynthesis and do not have chloroplasts, and they get their energy by consuming food. A good way to answer 'in plants but not animals' questions is to remember that plants also have a cell wall and a large central vacuole, while animals have neither.\n\n(A) is wrong because every cell, plant and animal, has a plasma membrane.\n(B) is wrong because plant cells and animal cells both have mitochondria and use them for aerobic respiration (plants respire as well as photosynthesize).\n(C) is wrong because ribosomes are present in all cells, since all cells make proteins."
     },
     {
       "id": "2-11",
@@ -1083,7 +1083,7 @@ const QUESTIONS = {
         "Exclusively insertion into the plasma membrane"
       ],
       "correct": 1,
-      "explanation": "Free ribosomes in the cytosol typically make proteins that stay in the cytosol or get imported into organelles such as mitochondria and chloroplasts. Choices A, C, and D are all wrong because they describe destinations reached via rough-ER-bound ribosomes instead — proteins headed for secretion, the Golgi, or the plasma membrane are synthesized on ribosomes attached to rough ER, not free ones."
+      "explanation": "Correct: use within the cytosol itself, or import into organelles like mitochondria. Free ribosomes and ribosomes attached to the rough ER are identical; the difference is the destination of the protein they make. Proteins that stay in the cytosol (for example, enzymes of glycolysis) or that are imported into the nucleus, mitochondria, chloroplasts, or peroxisomes are made on free ribosomes. Proteins that are going to be secreted, inserted into membranes, or sent to the ER, Golgi, or lysosomes are made on ribosomes attached to the rough ER, because a signal sequence on the growing protein sends the ribosome to the ER.\n\n(A) is wrong because proteins bound for the Golgi pass through the ER first, so they come from rough-ER ribosomes, and 'exclusively' makes the choice even less likely.\n(C) is wrong because secreted proteins are made on rough-ER ribosomes and then move through the ER-Golgi pathway.\n(D) is wrong because plasma membrane proteins are also made on rough-ER ribosomes, and 'exclusively' is incorrect again."
     },
     {
       "id": "2-12",
@@ -1096,7 +1096,7 @@ const QUESTIONS = {
         "Copying of the cell's DNA during replication in the nucleus"
       ],
       "correct": 2,
-      "explanation": "The Golgi apparatus specifically handles final modification, sorting, and packaging of proteins and lipids before they reach their destination, so inhibiting it most directly disrupts that pathway. Photosynthesis (choice A), aerobic respiration (choice B), and DNA replication (choice D) each occur in a different organelle (chloroplast, mitochondrion, nucleus) with no direct dependence on Golgi function."
+      "explanation": "Correct: final modification, sorting, and packaging of secreted proteins. The Golgi apparatus receives proteins and lipids from the ER in vesicles, modifies them (for example, adding carbohydrate groups), sorts them, and packages them into vesicles that go to the plasma membrane, lysosomes, or other destinations. If the Golgi is disrupted, the final steps of the secretion pathway fail, so proteins would be made but not properly finished and delivered.\n\n(A) is wrong because light capture and sugar production happen in the chloroplast.\n(B) is wrong because ATP production by aerobic respiration happens in the mitochondria.\n(D) is wrong because DNA replication takes place in the nucleus, and it does not depend on the Golgi."
     },
     {
       "id": "2-13",
@@ -1109,7 +1109,7 @@ const QUESTIONS = {
         "An organelle's structure is generally well-suited to its function"
       ],
       "correct": 3,
-      "explanation": "The structure-function relationship is a core recurring AP Biology theme: an organelle's shape and composition (rough ER's ribosome-studded surface, mitochondria's folded inner membrane) generally matches the job it does, at every level of biological organization. Choice B contradicts the obvious structural diversity among organelles, choice A ignores that structure itself (visible by microscopy) reveals function without sequencing, and choice C is the direct opposite of the well-established pattern."
+      "explanation": "Correct: an organelle's structure is generally well-suited to its function. This is a core theme of AP Biology: form fits function at every level. Examples: the rough ER is studded with ribosomes because it makes proteins; the inner membrane of the mitochondrion is folded into cristae to hold more electron transport chains; thylakoid membranes are stacked to increase surface area for the light reactions; and the Golgi is a stack of flattened sacs to modify products in order. Seeing a structure under a microscope therefore gives clues about what the organelle does.\n\n(C) is wrong because it is the opposite of what is observed again and again.\n(B) is wrong because organelles differ greatly in structure, which is part of why they can be told apart.\n(A) is wrong because function does not need DNA sequencing to be inferred; structure, composition, and experiments also reveal function."
     },
     {
       "id": "2-14",
@@ -1122,7 +1122,7 @@ const QUESTIONS = {
         "SA:V ratio decreases as cell size increases"
       ],
       "correct": 3,
-      "explanation": "Surface area scales with the square of linear dimension while volume scales with the cube, so volume grows disproportionately faster as a cell enlarges — meaning SA:V necessarily falls as size increases. Choice A ignores the radius-dependence explicit in the given numbers, choice C is contradicted by the 4-fold vs. 8-fold difference stated in the problem, and choice B has the direction of the relationship backwards."
+      "explanation": "Correct: SA:V ratio decreases as cell size increases. For a sphere, surface area grows with the SQUARE of the radius (r^2) and volume grows with the CUBE (r^3), so volume increases faster than surface area as the cell enlarges. Using the numbers in the question: doubling the radius multiplies the surface area by 4 and the volume by 8, so the new SA:V is 4/8 = 1/2 of the old one. The ratio falls by half every time the radius doubles (for a sphere SA:V = 3/r). This matters because cells get their supplies and remove waste across their surface, while their needs depend on their volume.\n\n(B) is wrong because it states the relationship backwards: the ratio decreases, not increases.\n(C) is wrong because the numbers in the question (4-fold vs. 8-fold) show the ratio changes.\n(A) is wrong because the ratio clearly depends on the radius."
     },
     {
       "id": "2-15",
@@ -1135,7 +1135,7 @@ const QUESTIONS = {
         "SA = 9 μm², V = 27 μm³, giving SA:V = 1:3"
       ],
       "correct": 0,
-      "explanation": "SA = 6s² = 6 × 9 = 54 μm², and V = s³ = 27 μm³, so SA:V = 54:27 = 2:1. Choice B swaps the SA and V values entirely, choice D uses only one face's area (s² = 9) instead of all six faces, and choice C miscalculates both s² and s³, arriving at the right ratio (2:1) by coincidence from wrong raw values."
+      "explanation": "Correct: SA = 54 um^2, V = 27 um^3, SA:V = 2:1. For a cube with side s: the surface area is the area of six faces, 6 x s^2 = 6 x (3 x 3) = 6 x 9 = 54 um^2. The volume is s^3 = 3 x 3 x 3 = 27 um^3. The ratio is 54 : 27 = 2 : 1. Always write the formulas first (SA = 6s^2, V = s^3) and check the units (area in square micrometers, volume in cubic micrometers).\n\n(B) is wrong because it swaps the two values, giving a surface area smaller than the volume, which is impossible for such a small cube.\n(D) is wrong because 9 is the area of only ONE face; the cube has six.\n(C) is wrong because 18 and 9 come from using 6s and s^2 instead of 6s^2 and s^3; it happens to give 2:1 by coincidence, so check the raw values, not just the ratio."
     },
     {
       "id": "2-16",
@@ -1148,7 +1148,7 @@ const QUESTIONS = {
         "They provide a dedicated site for photosynthesis in the intestinal cell"
       ],
       "correct": 0,
-      "explanation": "Microvilli add substantial surface area while contributing comparatively little extra volume, directly raising the cell's SA:V ratio and boosting absorption, since absorption happens across the cell surface. Choice B misreads the effect as a volume reduction rather than a surface-area gain, choice D assigns them a chloroplast-only function irrelevant to intestinal cells, and choice C has no basis — microvilli affect absorption, not division rate."
+      "explanation": "Correct: they dramatically increase surface area without proportionally increasing volume, improving nutrient absorption efficiency. Absorption happens across the plasma membrane, so a cell that needs to absorb a lot (like the lining of the small intestine) benefits from having more membrane surface. Thousands of tiny finger-like microvilli fold the surface and add a large amount of membrane while adding very little volume, which raises the SA:V ratio and the rate of absorption. It is the same idea as folded inner membranes in mitochondria or the many folds of the small intestine itself.\n\n(B) is wrong because microvilli do not reduce volume; they increase surface area.\n(C) is wrong because there is no link between microvilli and how often the cell divides.\n(D) is wrong because photosynthesis takes place in chloroplasts, which intestinal animal cells do not have."
     },
     {
       "id": "2-17",
@@ -1161,7 +1161,7 @@ const QUESTIONS = {
         "Cells are physically incapable of growing at all once they have formed in the body"
       ],
       "correct": 0,
-      "explanation": "Past a certain size, a cell's membrane surface area becomes too small relative to its internal volume to keep pace with metabolic exchange demands — the central reason organisms grow by adding cell number (division), not by growing single cells indefinitely. Choice D is factually false (cells do grow, just with limits), choice C invents an unrelated toxicity claim, and choice B wrongly ties the limit to DNA rather than to surface-area-to-volume exchange capacity."
+      "explanation": "Correct: as a cell grows, its SA:V ratio falls until surface area is too small to support adequate exchange of nutrients, gases, and waste. A cell's needs (nutrients, oxygen, and waste removal) depend on its volume, but its supplies enter and leave across its surface. Since volume grows faster than surface area, a bigger cell has less membrane for each unit of volume, and substances also have to travel farther by diffusion to reach the center. Past a certain size the cell cannot exchange materials quickly enough to stay alive. This is why organisms grow mainly by adding more cells, and why large cells use strategies like flattening, elongating, or folding the membrane (microvilli).\n\n(B) is wrong because DNA exists in cells of any size; the limit is about exchange across the membrane.\n(C) is wrong because nothing makes large cells toxic to an organism.\n(D) is wrong because cells do grow; they are just limited in how large they can get."
     },
     {
       "id": "2-18",
@@ -1174,7 +1174,7 @@ const QUESTIONS = {
         "Cell B, since dividing a fixed volume into multiple smaller units increases total surface area even though total volume stays the same"
       ],
       "correct": 3,
-      "explanation": "Subdividing a fixed volume into several smaller units increases the combined surface area because each new unit gains its own additional surface, even though total volume is unchanged — this is exactly why organisms are built of many small cells rather than one giant one. Choice B wrongly assumes surface area tracks volume, choice A overlooks that the geometry is fully determined by the given volume and division count, and choice C has the comparison backwards."
+      "explanation": "Correct: Cell B, since dividing a fixed volume into multiple smaller units increases total surface area even though total volume stays the same. Work it out for 8 equal spheres. Each small sphere has 1/8 of the volume, and because volume scales with r^3, each has a radius half as large (r/2). Surface area scales with r^2, so each small sphere has (1/2)^2 = 1/4 of the original surface area. Eight spheres x 1/4 = 2 times the original surface area. So Cell B has twice the total surface area (and twice the SA:V) of Cell A for the same total volume. This is why organisms are built of many small cells rather than one giant cell.\n\n(B) is wrong because surface area does not follow volume: it depends on how the volume is divided up.\n(C) is wrong because a single sphere has the least surface area for its volume.\n(A) is wrong because the geometry is fully determined by the volume and the number of pieces."
     },
     {
       "id": "2-19",
@@ -1187,7 +1187,7 @@ const QUESTIONS = {
         "It increases surface area for aerobic respiration's proteins and reactions without requiring the mitochondrion to gain overall volume"
       ],
       "correct": 3,
-      "explanation": "Cristae fold the inner membrane, dramatically increasing the surface area available for embedded electron transport chain proteins and ATP synthase, boosting respiratory capacity without added bulk. Choice C misidentifies the effect as a volume decrease rather than a surface-area increase, choice A assigns mitochondria a chloroplast-only function, and choice B ignores the well-documented functional benefit tied to ATP production."
+      "explanation": "Correct: it increases surface area for aerobic respiration's proteins and reactions without requiring the mitochondrion to gain overall volume. The electron transport chain complexes and ATP synthase are embedded in the inner mitochondrial membrane, so the more inner membrane there is, the more of these protein machines can fit and the more ATP can be made. Folding the membrane into cristae packs a large membrane surface into a small organelle. This is the same principle as microvilli on intestinal cells and the stacked thylakoids of a chloroplast: folding raises surface area (and the SA:V ratio) without adding bulk.\n\n(A) is wrong because photosynthesis takes place in chloroplasts, which are different organelles with their own membrane system.\n(B) is wrong because the folding has a clear functional advantage: more ATP production.\n(C) is wrong because the folds increase surface area; they do not significantly reduce the volume of the organelle."
     },
     {
       "id": "2-20",
@@ -1200,7 +1200,7 @@ const QUESTIONS = {
         "The second cell, with SA:V = 1:1"
       ],
       "correct": 1,
-      "explanation": "First cell: 100:50 = 2:1. Second cell: 400:400 = 1:1. A higher SA:V ratio means more membrane surface per unit of volume, so the first cell (2:1) is more efficient for exchange relative to its size, despite being smaller overall — making choice D wrong on the numbers and choice C wrong because the ratios clearly differ. Choice A is simply incorrect: both surface area and volume are given directly."
+      "explanation": "Correct: the first cell, with SA:V = 2:1. Divide the surface area by the volume for each cell. First cell: 100 um^2 / 50 um^3 = 2 (2:1). Second cell: 400 um^2 / 400 um^3 = 1 (1:1). A higher SA:V ratio means more surface for each unit of volume, which lets nutrients and wastes cross the membrane quickly relative to the amount of cell contents they must serve, so the first cell is better for exchange even though it is smaller.\n\n(D) is wrong because the second cell's ratio of 1:1 is lower than 2:1, not better.\n(C) is wrong because the two ratios are different.\n(A) is wrong because SA:V can be calculated directly when both the surface area and the volume are given."
     },
     {
       "id": "2-21",
@@ -1213,7 +1213,7 @@ const QUESTIONS = {
         "Egg cells have an unusually high metabolic rate that offsets their large size, allowing continuous ATP generation to offset the demands of its large size"
       ],
       "correct": 0,
-      "explanation": "SA:V limits are really about matching exchange capacity to metabolic demand, which scales with active volume, not raw volume — since much of a large egg's volume is inert nutrient storage, its effective exchange demand is far lower than its size implies. Choice C wrongly claims eggs are exempt from a universal geometric relationship, choice B is factually false (all cells have a plasma membrane), and choice D gets the physiology backwards — a high metabolic rate would make the SA:V problem worse, not solve it."
+      "explanation": "Correct: much of an egg cell's volume is metabolically inactive stored yolk rather than actively respiring cytoplasm, lowering its exchange demand. The SA:V limit exists because a cell's need for exchange (oxygen in, wastes out) depends on how much of its volume is metabolically active. An egg's volume is mostly yolk, a store of lipids and protein that does not use oxygen or produce much waste, and an unfertilized egg has a very low metabolic rate. The demand for exchange is therefore small compared with the cell's size. (An ostrich egg's yolk is the single cell; the white and shell are not part of it.)\n\n(C) is wrong because no cell is exempt from the geometry; the egg works because of what is inside it.\n(B) is wrong because all cells, including eggs, have a plasma membrane.\n(D) is wrong because a high metabolic rate would make the exchange problem worse, not better."
     },
     {
       "id": "2-22",
@@ -1226,7 +1226,7 @@ const QUESTIONS = {
         "Both cells have identical exchange efficiency"
       ],
       "correct": 2,
-      "explanation": "A higher SA:V ratio (3:1 for Cell X) means more surface area is available per unit of volume, generally correlating with more efficient exchange; Cell Y's 1:2 ratio reflects a much larger volume relative to available surface. Choice B is false — ratios below 1 occur routinely in larger cells — choice D ignores the clearly different values, and choice A has the comparison backwards."
+      "explanation": "Correct: Cell X (SA:V = 3:1) likely has a more favorable ratio for efficient exchange than Cell Y. A ratio of 3:1 means 3 units of surface area for every 1 unit of volume (3.0), while 1:2 means only 0.5 units of surface area per unit of volume. Cell X therefore has 6 times as much surface for each unit of volume, so nutrients and gases can reach all of its contents more quickly and wastes can leave faster. A higher SA:V ratio means more efficient exchange.\n\n(A) is wrong because it reverses the comparison: a lower ratio (Cell Y) means less surface area to serve each unit of volume.\n(B) is wrong because ratios below 1 are common in larger cells, for example a cell with a large volume.\n(D) is wrong because the two values are very different, so the cells are not equally efficient."
     },
     {
       "id": "2-23",
@@ -1240,7 +1240,7 @@ const QUESTIONS = {
         "Surface area increases 2-fold and volume increases 4-fold"
       ],
       "correct": 1,
-      "explanation": "Surface area of a sphere scales with r², so doubling the radius raises surface area by 2² = 4-fold; volume scales with r³, so doubling the radius raises volume by 2³ = 8-fold. Choice C and choice D both understate the volume increase by treating it as if it scaled linearly or quadratically with radius, and choice A swaps the two scaling exponents, overstating surface area's increase while understating volume's."
+      "explanation": "Correct: surface area increases 4-fold and volume increases 8-fold. Doubling the diameter doubles the radius (10 um to 20 um). Surface area is 4 x pi x r^2, so it scales with the square of the radius: 2^2 = 4. Volume is (4/3) x pi x r^3, so it scales with the cube: 2^3 = 8. With numbers: at r = 10 um, SA is about 1,257 um^2 and V is about 4,189 um^3; at r = 20 um, SA is about 5,027 um^2 and V is about 33,510 um^3, which are 4 times and 8 times the earlier values. The SA:V ratio is therefore cut in half, from about 0.30 to 0.15.\n\n(A) is wrong because it swaps the two exponents, so surface area would grow faster than volume, which never happens as size increases. (C) and (D) are wrong because they treat volume as growing linearly (x2) or only with the square (x4), forgetting that volume depends on the cube of the radius."
     },
     {
       "id": "2-24",
@@ -1253,7 +1253,7 @@ const QUESTIONS = {
         "Protein synthesis at the ribosome"
       ],
       "correct": 2,
-      "explanation": "As a growing cell's SA:V ratio becomes unfavorable, division lets the organism increase total size and cell number without any single cell exceeding a workable size limit, keeping each cell's SA:V ratio efficient. Osmosis (choice A), transcription (choice B), and protein synthesis (choice D) are all real cellular processes, but none of them is the mechanism organisms use to manage size as SA:V constraints tighten."
+      "explanation": "Correct: cell division, producing more, smaller cells. As a cell grows, its volume increases faster than its surface area, so its SA:V ratio falls and exchange with the environment becomes less efficient. Dividing keeps each cell small, so each one keeps a high SA:V ratio, while the organism can still grow by increasing the NUMBER of cells. That is why a multicellular organism grows by making more cells and not by making its cells larger.\n\n(A) is wrong because osmosis is the movement of water across a membrane; it is affected by cell size but is not how organisms deal with size limits.\n(B) is wrong because transcription copies DNA into RNA and does not manage size.\n(D) is wrong because protein synthesis makes proteins and does not solve the problem of exchange across a growing cell's surface."
     },
     {
       "id": "2-25",
@@ -1266,7 +1266,7 @@ const QUESTIONS = {
         "Smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, reflecting a more favorable surface-to-mass ratio at smaller sizes"
       ],
       "correct": 3,
-      "explanation": "Smaller animals reliably show a higher mass-specific metabolic rate than larger ones, because it's the whole organism's surface area (skin) relative to body mass/volume that scales unfavorably as size increases — not individual cell size, which stays roughly constant across mammals. Choices A and B both deny any size-metabolism relationship, which contradicts well-documented data, and choice C states the real trend backwards."
+      "explanation": "Correct: smaller mammals should have a higher metabolic rate per gram of tissue than larger mammals, reflecting a more favorable surface-to-mass ratio at smaller sizes. Apply the SA:V idea to the whole animal. A small animal has a lot of body surface relative to its mass, so it loses heat to its surroundings quickly and must burn more fuel per gram to stay warm. A large animal has less surface relative to its mass, so it loses less heat per gram and has a lower metabolic rate per gram. This is why a shrew's heart beats hundreds of times a minute and a shrew has to eat almost constantly, while an elephant's rate per gram is far lower. (Individual cells are similar in size across mammals; the difference is in the size of the whole body.)\n\n(C) is wrong because it reverses the trend: it is the larger body that retains heat better, so a larger mammal needs LESS heat production per gram. (A) and (B) are wrong because metabolic rate per gram clearly changes with body size."
     },
     {
       "id": "2-26",
@@ -1279,7 +1279,7 @@ const QUESTIONS = {
         "V = s³, side length cubed"
       ],
       "correct": 3,
-      "explanation": "For a cube with side length s, volume is V = s³. Choice B is actually the surface area formula (6 faces of area s² each), choice C is the sphere volume formula and does not apply to a cube's flat-faced geometry, and choice A gives only the area of a single face, not the cube's three-dimensional volume."
+      "explanation": "Correct: V = s^3, side length cubed. A cube is three-dimensional with equal length, width, and height, so its volume is s x s x s = s^3. A helpful rule: volume uses three dimensions (cubed), area uses two (squared). For example, a cube with 3 um sides has a volume of 27 um^3.\n\n(B) is wrong because 6s^2 is the surface area (six faces, each with an area of s^2).\n(A) is wrong because s^2 is the area of only ONE face, a two-dimensional measurement.\n(C) is wrong because (4/3) x pi x r^3 is the volume of a SPHERE; it does not apply to a cube. Knowing these formulas (cube: SA = 6s^2, V = s^3; sphere: SA = 4 x pi x r^2, V = (4/3) x pi x r^3) is the key to every SA:V calculation."
     },
     {
       "id": "2-27",
@@ -1292,7 +1292,7 @@ const QUESTIONS = {
         "Proteins, along with phospholipids, can drift within the plane of the membrane"
       ],
       "correct": 3,
-      "explanation": "The \"fluid\" in fluid mosaic model refers to both phospholipids and embedded proteins being able to move laterally within the membrane plane, a dynamic quality essential to many membrane functions. Choice B contradicts that fluidity directly, and choices A and C both deny that proteins are embedded within the bilayer at all, which is false — many proteins span or partially embed in the membrane."
+      "explanation": "Correct: proteins, along with phospholipids, can drift within the plane of the membrane. The fluid mosaic model describes the membrane as a 'fluid' because the phospholipids and many of the proteins move sideways within the layer, and as a 'mosaic' because it is made of a mixture of different molecules (phospholipids, cholesterol, proteins, and carbohydrates) scattered through the bilayer. Some proteins are integral (they are embedded in or span the bilayer) and some are peripheral (attached to the surface). In classic experiments, proteins from mouse and human cells fused together mixed within the membrane within about an hour, which showed that membrane proteins can move. Some proteins are anchored to the cytoskeleton and move less, but the membrane as a whole is dynamic.\n\n(B) is wrong because proteins are not locked in place.\n(A) is wrong because many proteins are embedded in or span the bilayer; they are not only on the outside.\n(C) is wrong because membranes contain a great many proteins, which carry out transport, signaling, and recognition."
     },
     {
       "id": "2-28",
@@ -1305,7 +1305,7 @@ const QUESTIONS = {
         "Glycoproteins, in every case, regardless of their embedding pattern"
       ],
       "correct": 2,
-      "explanation": "Integral, especially transmembrane, proteins are embedded within and span across the lipid bilayer, often serving transport or receptor roles. Cholesterol (choice A) is a lipid, not a protein, peripheral proteins (choice B) attach to the surface without spanning the bilayer, and glycoproteins (choice D) are defined by their attached carbohydrate, not by whether they span the membrane — many glycoproteins are peripheral, not transmembrane."
+      "explanation": "Correct: integral (transmembrane) proteins, which span the entire bilayer. Integral proteins are embedded in the lipid bilayer, and transmembrane proteins pass all the way through it, with a hydrophobic region in the middle (in the lipid) and hydrophilic regions on either side (in the water). Because they cross the membrane, they form channels and carriers for transport and receptors that pass signals from outside to inside.\n\n(B) is wrong because peripheral proteins attach only to the surface of the membrane and do not span it.\n(A) is wrong because cholesterol is a lipid (a steroid), not a protein.\n(D) is wrong because glycoproteins are defined by the carbohydrate chains attached to them, and a glycoprotein may or may not span the membrane, so the term does not describe the way a protein is embedded."
     },
     {
       "id": "2-29",
@@ -1318,7 +1318,7 @@ const QUESTIONS = {
         "Photosynthesis in the chloroplast"
       ],
       "correct": 0,
-      "explanation": "The carbohydrate chains on glycoproteins (and glycolipids) at the cell's exterior act as identifying markers that let cells recognize one another, important in immune function, tissue formation, and signaling. ATP synthesis (choice B), photosynthesis (choice D), and DNA replication (choice C) are each real cellular processes, but none of them occurs via the sugar tags glycoproteins carry."
+      "explanation": "Correct: cell-cell recognition and signaling. Glycoproteins are proteins with short carbohydrate chains attached. On the outer surface of the plasma membrane these chains act as identification tags that cells use to recognize each other and their surroundings. They are important for tissue formation, for the immune system (distinguishing self from foreign cells), and for receptors that bind signaling molecules.\n\n(B) is wrong because ATP synthesis at the inner mitochondrial membrane is done by the electron transport chain and ATP synthase, inside the mitochondrion.\n(C) is wrong because DNA replication takes place in the nucleus, carried out by enzymes such as DNA polymerase.\n(D) is wrong because photosynthesis happens in chloroplasts, and glycoproteins on the cell surface are not part of it."
     },
     {
       "id": "2-30",
@@ -1331,7 +1331,7 @@ const QUESTIONS = {
         "The membrane would convert entirely into protein"
       ],
       "correct": 2,
-      "explanation": "At high temperatures phospholipids naturally move more, increasing fluidity; cholesterol normally restrains that excess movement, so without it a membrane at high temperature becomes abnormally fluid and structurally compromised. Choice D describes a chemically impossible transformation, choice A ignores cholesterol's well-established temperature-buffering role, and choice B describes the opposite effect — rigidity is cholesterol's role at LOW temperatures, not high ones."
+      "explanation": "Correct: the membrane would become excessively fluid. Cholesterol acts as a fluidity buffer. At high temperatures, phospholipids move around more and the membrane tends to become too fluid; cholesterol wedges between the phospholipids and restrains their movement. At low temperatures, cholesterol does the opposite: it keeps the phospholipids from packing tightly together, which keeps the membrane from becoming stiff. Without cholesterol, a hot membrane would be abnormally fluid and could not hold its structure well.\n\n(B) is wrong because excessive rigidity is the problem at LOW temperatures, and cholesterol helps prevent it; heat has the opposite effect.\n(A) is wrong because it ignores cholesterol's well-known role in keeping the membrane's fluidity steady.\n(D) is wrong because a membrane cannot turn into protein; the question asks about fluidity."
     },
     {
       "id": "2-31",
@@ -1344,7 +1344,7 @@ const QUESTIONS = {
         "Glucose and amino acids, because they are small enough to slip between phospholipids"
       ],
       "correct": 2,
-      "explanation": "Small nonpolar molecules like O2 and CO2 diffuse directly through the hydrophobic bilayer interior easily, and small polar water molecules can cross directly too, though more slowly. Choice B's ions are charged and repelled by the hydrophobic interior, choice A's large proteins are far too big to pass through the bilayer, and choice D's glucose and amino acids are polar and sized such that all three require specific transport proteins rather than crossing directly."
+      "explanation": "Correct: small nonpolar molecules like O2 and CO2, and to a lesser extent small polar molecules like water. The interior of the bilayer is made of the hydrophobic (nonpolar) fatty acid tails of phospholipids, so it is easy for nonpolar molecules to pass through and hard for charged or polar molecules. Small uncharged polar molecules like water can slip through slowly (and aquaporins speed it up). Everything else generally needs a transport protein.\n\n(B) is wrong because ions like Na+ and K+ are charged and are repelled by, not attracted to, the nonpolar interior, so they need channels or pumps.\n(A) is wrong because large proteins are far too big to diffuse through the bilayer; cells move them with vesicles (endocytosis and exocytosis).\n(D) is wrong because glucose and amino acids are polar and relatively large, so they need transport proteins (facilitated diffusion or cotransport)."
     },
     {
       "id": "2-32",
@@ -1357,7 +1357,7 @@ const QUESTIONS = {
         "The membrane's permeability changes randomly with no predictable pattern"
       ],
       "correct": 1,
-      "explanation": "Selective permeability means the membrane discriminates: small nonpolar molecules cross easily, small polar ones more slowly or with help, and large or highly charged molecules essentially cannot cross the bilayer directly. Choice C describes the opposite of selectivity, choice D wrongly claims no predictable basis when size/polarity/charge are well-established governing factors, and choice A is contradicted by the many substances known to cross membranes routinely."
+      "explanation": "Correct: the membrane lets some substances cross more easily than others, based on factors like size, polarity, and charge. 'Selectively permeable' means the membrane controls what gets in and out. Small nonpolar molecules (O2, CO2) cross easily; small polar molecules like water cross slowly; large polar molecules and charged ions cannot cross the bilayer on their own, and cross only through specific transport proteins. This gives the cell control over its internal environment (homeostasis).\n\n(A) is wrong because many substances cross membranes all the time (gases, water, nutrients, wastes).\n(C) is wrong because it describes the opposite of selectivity: a membrane that let everything cross equally would not be selective.\n(D) is wrong because permeability follows predictable rules based on size, polarity, and charge, and on which transport proteins are present."
     },
     {
       "id": "2-33",
@@ -1370,7 +1370,7 @@ const QUESTIONS = {
         "A single layer would leave hydrophobic tails exposed to water on one side"
       ],
       "correct": 3,
-      "explanation": "Because both the cell's interior and exterior are watery, a single layer would leave hydrophobic tails exposed to water somewhere; a bilayer lets hydrophilic heads face water on both sides while hydrophobic tails cluster together in the middle, the lowest-energy and most stable arrangement, forming spontaneously. Choice A overstates the case (single layers can form, e.g., as micelles, just not as a stable cell membrane), choice C invents an assembly requirement bilayers don't need, and choice B invokes a nonexistent magnetic mechanism rather than the real hydrophobic-effect explanation."
+      "explanation": "Correct: a single layer would leave hydrophobic tails exposed to water on one side. A phospholipid has a hydrophilic (polar) head and two hydrophobic (nonpolar) tails. In a cell, both the inside (cytoplasm) and the outside are watery. In a bilayer the heads face the water on both sides, while the tails face each other in the center, away from water. A single layer would have to expose either the tails or the heads to the water somewhere, which is energetically unfavorable. The bilayer forms spontaneously because it is the most stable arrangement, a result of the hydrophobic effect, with no external help needed.\n\n(A) is wrong because single layers can form (for example, at the surface of water, or as micelles); they are just not the stable arrangement for a cell membrane.\n(C) is wrong because the bilayer assembles without a protein scaffold.\n(B) is wrong because magnetism plays no role; the cause is hydrophobic and hydrophilic interactions with water."
     },
     {
       "id": "2-34",
@@ -1383,7 +1383,7 @@ const QUESTIONS = {
         "The basic bilayer structure and transmembrane transport capability would remain largely intact"
       ],
       "correct": 3,
-      "explanation": "Peripheral proteins attach to the membrane surface for structural or signaling roles, while the core bilayer and most transmembrane transport depend on the phospholipid bilayer and integral proteins, so removing only peripheral proteins leaves most structure and transport intact. Choice C overstates the damage far beyond what removing surface-only proteins would cause, choice A confuses membrane composition with an entire cell classification, and choice B wrongly predicts total impermeability when the transport-capable integral proteins remain untouched."
+      "explanation": "Correct: the basic bilayer structure and transmembrane transport capability would remain largely intact. The membrane's basic structure is the phospholipid bilayer, held together by hydrophobic interactions among the lipid tails. Integral proteins are embedded in the bilayer and include the channels, carriers, and pumps that carry out transport across the membrane. Peripheral proteins sit on the surface and help with jobs such as anchoring the cytoskeleton and signaling. Removing only the peripheral proteins would affect those jobs, but the bilayer and the transport through integral proteins would mostly continue.\n\n(C) is wrong because removing surface proteins would not destroy the bilayer, which is held together by its own lipid interactions.\n(B) is wrong because the integral transport proteins are still present, so the membrane would not become impermeable.\n(A) is wrong because membrane composition does not determine whether a cell is a prokaryote or a eukaryote."
     },
     {
       "id": "2-35",
@@ -1397,7 +1397,7 @@ const QUESTIONS = {
         "Indicates the protein has no functional role within the membrane and is simply a structural scaffold lacking any transport or signaling activity at all"
       ],
       "correct": 0,
-      "explanation": "Nonpolar R-groups are energetically favorable within the hydrophobic bilayer interior, while polar/charged R-groups are favorable in the watery environments on either side — this nonpolar-flanked-by-polar pattern is exactly how biologists identify likely transmembrane regions from sequence data. Choice D draws an unsupported conclusion about function from structure alone, choice B has no chemical basis (bilayer chemistry doesn't differ between domains of life in this respect), and choice C contradicts the described pattern, which specifically places part of the protein within the membrane."
+      "explanation": "Correct: this is consistent with a transmembrane protein: the nonpolar segment spans the hydrophobic interior, and the polar ends face the aqueous sides. The inside of the lipid bilayer is hydrophobic, so amino acids with nonpolar R-groups (such as leucine, valine, and isoleucine) are stable there, usually folded into an alpha helix long enough to cross the membrane. Amino acids with polar or charged R-groups interact with water, so they are stable in the watery cytoplasm and extracellular fluid on each side. The pattern 'polar, nonpolar, polar' in a sequence is how biologists predict that a protein spans the membrane.\n\n(B) is wrong because bilayer chemistry is the same in prokaryotes and eukaryotes; transmembrane proteins occur in both.\n(C) is wrong because a protein entirely outside the membrane would not need a nonpolar segment embedded in the bilayer.\n(D) is wrong because structure does not show that the protein lacks a function; many transmembrane proteins are channels, carriers, or receptors."
     },
     {
       "id": "2-36",
@@ -1410,7 +1410,7 @@ const QUESTIONS = {
         "Found only in plant cell membranes, never in animal cells, where it helps regulate cell wall rigidity across a range of temperatures"
       ],
       "correct": 1,
-      "explanation": "Cholesterol is a small, mostly nonpolar steroid that inserts among the fatty acid tails in the hydrophobic bilayer interior, moderating how tightly they pack depending on temperature. Choice D has the biology backwards — cholesterol is characteristic of animal cell membranes and largely absent from plants — choice A wrongly claims cholesterol displaces phospholipids rather than sitting among them, and choice C ignores that cholesterol's regulatory function specifically depends on being embedded within the interior."
+      "explanation": "Correct: wedged among the phospholipid tails within the hydrophobic interior of the bilayer. Cholesterol is a small, mostly nonpolar steroid with one small polar hydroxyl group. That group sits near the phospholipid heads, while its ring structure fits in among the fatty acid tails. In that position it can influence how tightly the tails pack, which lets it act as a fluidity buffer: it restrains the movement of phospholipids at high temperatures and keeps them from packing too tightly at low temperatures. Cholesterol is a typical component of animal cell membranes (plants use related molecules called phytosterols).\n\n(D) is wrong because it reverses the facts: cholesterol is characteristic of animal membranes, and it has nothing to do with the rigidity of a cell wall.\n(A) is wrong because cholesterol sits among the phospholipids; it does not replace them.\n(C) is wrong because cholesterol works from inside the bilayer, not from the outer surface."
     },
     {
       "id": "2-37",
@@ -1423,7 +1423,7 @@ const QUESTIONS = {
         "Both ions and gases cross the membrane with identical ease, since the bilayer does not discriminate"
       ],
       "correct": 0,
-      "explanation": "Charged ions are strongly repelled by the hydrophobic bilayer interior and need channel or carrier proteins to cross, while small nonpolar gases like O2 dissolve into and diffuse through the hydrophobic interior with relative ease. Choice C is contradicted by both known routes of crossing, choice D ignores the sharp permeability difference between charged and nonpolar species, and choice B states the comparison exactly backwards."
+      "explanation": "Correct: charged ions need transport proteins to cross the hydrophobic bilayer, while small nonpolar gases diffuse directly. The interior of the membrane is made of nonpolar fatty acid tails. An ion like Na+ is charged and is surrounded by a shell of water molecules, so it is strongly repelled by the hydrophobic interior and can cross only through channel proteins or pumps. A small nonpolar molecule like O2 dissolves easily in the hydrophobic interior, so it can diffuse straight through the bilayer down its concentration gradient (simple diffusion). Both can cross, but by very different routes.\n\n(B) is wrong because it reverses the comparison.\n(C) is wrong because both ions and gases do cross membranes, just by different routes.\n(D) is wrong because the bilayer discriminates strongly based on size and charge."
     },
     {
       "id": "2-38",
@@ -1436,7 +1436,7 @@ const QUESTIONS = {
         "A protein located exclusively in the nuclear membrane, facing the nucleoplasm"
       ],
       "correct": 1,
-      "explanation": "Receptor proteins that bind external signaling molecules like many drugs are typically integral membrane proteins with a portion exposed on the extracellular surface, letting them detect molecules approaching from outside. Choice A's phospholipids and choice C's cholesterol are structural lipid components, not receptor proteins, and choice D points to the wrong membrane entirely — the nuclear envelope, not the plasma membrane, where the drug in this scenario is acting."
+      "explanation": "Correct: an integral membrane protein with a receptor function, exposed on the extracellular surface. Receptors that bind signaling molecules (hormones, neurotransmitters, many drugs) have a binding site on the outer side of the plasma membrane. They are usually integral proteins: part of the protein spans the bilayer, so when a ligand binds outside, the protein changes shape and passes the message to the inside of the cell (signal transduction). Because the drug binds to the cell's exterior surface, the target has to be exposed on the outer surface.\n\n(A) is wrong because a phospholipid is a structural lipid, not a receptor protein.\n(C) is wrong because cholesterol is a lipid that adjusts membrane fluidity; it is not a receptor.\n(D) is wrong because the nuclear membrane faces the nucleus, while the drug binds the plasma membrane's outer surface."
     },
     {
       "id": "2-39",
@@ -1449,7 +1449,7 @@ const QUESTIONS = {
         "Slightly raising the glucose concentration outside the cell"
       ],
       "correct": 0,
-      "explanation": "The bilayer's structural integrity depends on hydrophobic interactions keeping fatty acid tails clustered away from water, so a solvent that disrupts those interactions directly threatens that basic structure. Choice B describes cholesterol's normal regulatory role, which stabilizes rather than destroys structure, choice C removes surface markers without touching the bilayer's core architecture, and choice D's mild concentration change has no direct structural effect on the bilayer itself."
+      "explanation": "Correct: introducing a solvent that disrupts the hydrophobic interactions between fatty acid tails. A phospholipid bilayer forms and holds together because the nonpolar tails cluster together away from water (the hydrophobic effect), while the polar heads face the water. A solvent or detergent that dissolves or competes with the tails breaks up those interactions, so the bilayer loses its structure (this is how soap dissolves lipid membranes).\n\n(B) is wrong because cholesterol in normal amounts stabilizes the membrane by buffering its fluidity; it does not destroy its structure.\n(C) is wrong because glycoproteins on the outer surface act as markers and receptors, so removing them affects recognition and not the core structure of the bilayer.\n(D) is wrong because a slight change in glucose concentration outside the cell has no direct effect on the lipid bilayer's structure."
     },
     {
       "id": "2-40",
@@ -1462,7 +1462,7 @@ const QUESTIONS = {
         "Movement of a substance that occurs only through active pumping proteins in the membrane"
       ],
       "correct": 2,
-      "explanation": "Passive transport is defined by movement down the concentration gradient (high to low) with no cellular energy input, covering simple diffusion, facilitated diffusion, and osmosis. Choice B describes active pumps, which use the opposite mechanism (movement against the gradient, powered by ATP), choice A wrongly makes vesicle formation a requirement when most passive transport involves no vesicles at all, and choice D describes active transport, the defining opposite of the passive process being asked about."
+      "explanation": "Correct: movement of a substance down its concentration gradient across a membrane, requiring no cellular energy. In passive transport, molecules move from where they are more concentrated to where they are less concentrated, and the cell does not need to spend ATP, because the gradient provides the energy. It includes simple diffusion (small nonpolar molecules), facilitated diffusion (through channel or carrier proteins), and osmosis (water).\n\n(B) is wrong because moving against a gradient with ATP is active transport.\n(A) is wrong because vesicle formation (endocytosis and exocytosis) is a bulk transport process that uses energy, and most passive transport does not use vesicles.\n(D) is wrong because active pumping proteins carry out active transport, the opposite of passive."
     },
     {
       "id": "2-41",
@@ -1475,7 +1475,7 @@ const QUESTIONS = {
         "Hypotonic to the cell"
       ],
       "correct": 3,
-      "explanation": "A solution with lower solute concentration than the cell's interior is hypotonic relative to the cell; water will move into the cell by osmosis since the interior has relatively more solute. Choice A wrongly assumes equal concentrations when the solution is explicitly described as lower, choice C invents a status ('osmotically inert') that doesn't apply to any real solution with a defined solute concentration, and choice B describes the opposite tonicity relationship."
+      "explanation": "Correct: hypotonic to the cell. Tonicity compares the solute concentration of a solution with that of the cell. A solution with a LOWER solute concentration than the cell's interior is hypotonic ('hypo' means less). Because water moves by osmosis toward the higher solute concentration, water enters the cell, and an animal cell such as a red blood cell swells and may burst (lyse). Memory aid: hypotonic = water goes in; hypertonic = water goes out; isotonic = no net movement.\n\n(A) is wrong because isotonic means equal solute concentrations, but the question states the solution is lower.\n(B) is wrong because hypertonic means HIGHER solute concentration outside, which would pull water out of the cell.\n(C) is wrong because 'osmotically inert' is not a tonicity category, and any solution with a different solute concentration will affect the cell."
     },
     {
       "id": "2-42",
@@ -1488,7 +1488,7 @@ const QUESTIONS = {
         "The rigid cell wall dissolves completely away"
       ],
       "correct": 1,
-      "explanation": "In a hypertonic environment, water leaves the plant cell by osmosis, and because the rigid cell wall doesn't shrink with it, the plasma membrane pulls away from the wall — this separation is plasmolysis. Choice C confuses an osmotic event with cell division, choice A describes water movement in the opposite direction (which would happen in a hypotonic, not hypertonic, solution), and choice D wrongly has the wall dissolving when it is actually the wall's rigidity that causes the membrane to separate from it."
+      "explanation": "Correct: water leaves the cell by osmosis, causing the plasma membrane to shrink away from the surrounding rigid cell wall. A hypertonic solution has a higher solute concentration than the cell, so water moves out of the cell (and out of its central vacuole). The cell contents shrink, but the cell wall is rigid and keeps its shape, so the plasma membrane pulls away from the wall. That separation is plasmolysis, and it is why plants wilt when they lose water. (In a hypotonic solution the opposite happens: water enters and the wall keeps the cell turgid instead of letting it burst.)\n\n(A) is wrong because water rushing in describes a hypotonic solution, and a plant cell's wall prevents bursting.\n(C) is wrong because osmosis does not cause cell division.\n(D) is wrong because the wall does not dissolve; its rigidity is the reason the membrane pulls away from it."
     },
     {
       "id": "2-43",
@@ -1501,7 +1501,7 @@ const QUESTIONS = {
         "Requires ATP, while simple diffusion does not, since powering movement of any kind requires a direct cellular energy input"
       ],
       "correct": 2,
-      "explanation": "Both diffusion types are passive and gradient-driven; the key difference is that facilitated diffusion needs a channel or carrier protein because its cargo (often charged or polar) cannot cross the hydrophobic bilayer unaided. Choice A wrongly restricts facilitated diffusion to prokaryotes when it occurs broadly in eukaryotic cells too, choice D wrongly assigns ATP use to a passive process, and choice B describes active transport's defining feature, not facilitated diffusion's."
+      "explanation": "Correct: it requires a specific transport protein to move molecules that cannot cross the lipid bilayer directly, unlike simple diffusion. Both are forms of passive transport: the molecules move down their concentration gradient and no ATP is used. The difference is the route. In simple diffusion the molecule passes through the lipid bilayer itself (small nonpolar molecules). In facilitated diffusion, polar or charged molecules (glucose, ions) move through a channel protein or a carrier protein that is specific for them.\n\n(A) is wrong because facilitated diffusion occurs in all kinds of cells, including eukaryotic ones.\n(B) is wrong because moving against a gradient is active transport.\n(D) is wrong because facilitated diffusion does not need ATP; it is passive."
     },
     {
       "id": "2-44",
@@ -1514,7 +1514,7 @@ const QUESTIONS = {
         "No, because any process involving a protein automatically counts as active transport"
       ],
       "correct": 2,
-      "explanation": "Aquaporins speed up water movement via a dedicated channel but don't change the process's fundamental nature: water still moves down its gradient with no ATP spent, so it remains passive, just facilitated. Choice B wrongly implies cell type would change the underlying physics of osmosis, choice A describes a chemically nonsensical conversion of ATP into water, and choice D mistakenly assumes protein involvement alone determines active vs. passive status."
+      "explanation": "Correct: yes, water still moves down its own concentration gradient and no ATP is spent. Aquaporins are channels that give water a fast route through the membrane. Water still moves by osmosis: from where water is more concentrated (lower solute concentration) to where it is less concentrated (higher solute concentration), and the cell supplies no energy. A protein being involved does not make a process active; what makes transport active is moving a substance against its gradient using energy such as ATP. Aquaporin transport is a type of facilitated diffusion.\n\n(D) is wrong because many proteins (channels and carriers) carry out passive transport.\n(A) is wrong because cells do not turn ATP into water.\n(B) is wrong because the nature of osmosis does not depend on the cell type."
     },
     {
       "id": "2-45",
@@ -1527,7 +1527,7 @@ const QUESTIONS = {
         "The cell will swell noticeably over time"
       ],
       "correct": 0,
-      "explanation": "In an isotonic solution, solute concentration inside and outside is equal, so there's no net driving force for water movement (water moves both ways at equal rates), keeping cell size essentially stable. Choice B describes what happens in a hypertonic solution, choice C describes extreme hypotonic swelling gone wrong, and choice D describes ordinary hypotonic swelling — none of these apply when the surrounding solution is isotonic."
+      "explanation": "Correct: the cell's size stays essentially stable. An isotonic solution has the same solute concentration as the inside of the cell, so water has no net direction to move. Water molecules still cross the membrane in both directions, but at equal rates, so the cell neither gains nor loses water overall (dynamic equilibrium). This is why intravenous fluids are made isotonic (about 0.9% saline) so that they do not shrink or swell red blood cells.\n\n(B) is wrong because shrinking happens in a hypertonic solution, where water leaves the cell.\n(D) is wrong because swelling happens in a hypotonic solution, where water enters.\n(C) is wrong because bursting would happen only in an extreme hypotonic situation for an animal cell without a wall, not in an isotonic one."
     },
     {
       "id": "2-46",
@@ -1540,7 +1540,7 @@ const QUESTIONS = {
         "Facilitated diffusion"
       ],
       "correct": 3,
-      "explanation": "Glucose moving down its concentration gradient (high to low) via a transport protein with no ATP required fits facilitated diffusion exactly. Choice C wrongly assumes any protein-mediated transport is active, when the scenario explicitly states movement is down the gradient with no ATP; choice A's exocytosis involves vesicle fusion, not a transporter protein, and choice B's osmosis specifically concerns water, not glucose."
+      "explanation": "Correct: facilitated diffusion. Read the clues: the substance (glucose) moves from high concentration to low concentration (down its gradient), it uses a transport protein, and no ATP is spent. Moving down the gradient with no energy input makes it passive, and needing a protein to cross the bilayer (glucose is polar) makes it facilitated diffusion.\n\n(C) is wrong because active transport moves substances against their gradient and uses energy; a protein being involved is not enough to make it active, and the question states there is no ATP.\n(A) is wrong because exocytosis releases material from the cell using vesicles that fuse with the membrane; it does not use a transporter protein.\n(B) is wrong because osmosis is specifically the movement of water, and the molecule in this question is glucose."
     },
     {
       "id": "2-47",
@@ -1553,7 +1553,7 @@ const QUESTIONS = {
         "CO2 moving from an area of high concentration to an area of low concentration across a cell membrane without any assistance from carrier proteins"
       ],
       "correct": 0,
-      "explanation": "Osmosis is specifically the diffusion of water across a selectively permeable membrane, driven by a solute concentration difference. Choice B describes active transport of an ion (not water), choice D describes simple diffusion of a gas (not water), and choice C describes an intracellular protein-trafficking event unrelated to membrane crossing by osmosis at all."
+      "explanation": "Correct: water moving across a selectively permeable membrane toward the side with the higher solute concentration. Osmosis is a special case of diffusion: it is the net movement of WATER across a selectively permeable membrane, from the side where there is less dissolved solute (more free water) toward the side where there is more solute (less free water). If the question names water and a membrane and a solute concentration difference, think osmosis.\n\n(D) is wrong because CO2 moving down its gradient without carrier proteins is simple diffusion of a gas; it is diffusion but not osmosis, because the molecule is not water.\n(B) is wrong because sodium ions pumped against their gradient with ATP is active transport.\n(C) is wrong because packaging a protein in the Golgi is part of the protein-trafficking pathway inside the cell and does not involve crossing a membrane by osmosis."
     },
     {
       "id": "2-48",
@@ -1566,7 +1566,7 @@ const QUESTIONS = {
         "An isotonic solution, matching the cells' internal solute concentration"
       ],
       "correct": 3,
-      "explanation": "An isotonic solution matches the solute concentration inside red blood cells, producing no net water movement and therefore no swelling or shrinking, which is why isotonic saline is used to preserve cells in labs and medicine. Choice A and choice C (essentially the extreme hypotonic case) would cause water to rush in and risk lysis, while choice B would draw water out and cause shrinkage — neither preserves the cells unchanged."
+      "explanation": "Correct: an isotonic solution, matching the cells' internal solute concentration. In an isotonic solution the solute concentration outside equals that inside the cell, so there is no net movement of water and the cells keep their normal size and shape. That is why labs and hospitals use isotonic saline (about 0.9% sodium chloride) for red blood cells.\n\n(A) is wrong because a strongly hypotonic solution has less solute than the cells, so water rushes in and the cells swell and can burst (lyse).\n(C) is wrong because distilled water has no solutes at all, which is the extreme hypotonic case, so cells placed in it swell and burst.\n(B) is wrong because a strongly hypertonic solution has more solute than the cells, so water leaves the cells and they shrivel (crenate)."
     },
     {
       "id": "2-49",
@@ -1580,7 +1580,7 @@ const QUESTIONS = {
         "The cell will shrink permanently with no possibility of recovery"
       ],
       "correct": 0,
-      "explanation": "\"Isotonic\" based on total solute concentration doesn't guarantee no change if one solute can freely cross: it will diffuse in down its own gradient, raising the cell's effective internal solute concentration (since internal solutes stay put while the permeable one keeps entering), and water will then follow by osmosis, swelling the cell. Choice C confuses solute movement with membrane breakdown, choice D predicts the wrong direction and an unwarranted permanence, and choice B stops at the surface-level 'isotonic' label without accounting for the permeable solute's behavior."
+      "explanation": "Correct: the cell will likely swell over time. What matters for water movement is the concentration of solutes that CANNOT cross the membrane (the effective osmotic concentration, or tonicity), not the total concentration of all solutes. Here the total concentrations are equal, but part of the solute outside can cross the membrane and the cell's internal solutes cannot. The permeable solute diffuses into the cell down its gradient until it is equal inside and outside. At that point the inside has all of its original non-crossing solutes PLUS the solute that entered, while the outside has fewer non-crossing solutes. The inside is now more concentrated in terms of solute, so water follows into the cell by osmosis and the cell swells, possibly until it bursts.\n\n(B) is wrong because it stops at the label 'isotonic' and ignores that a permeable solute changes the situation.\n(C) is wrong because a solute crossing the membrane does not dissolve it.\n(D) is wrong because it predicts shrinking, the wrong direction, and 'permanent' shrinkage has no support."
     },
     {
       "id": "2-50",
@@ -1593,7 +1593,7 @@ const QUESTIONS = {
         "O2 gas crosses most easily, then water, then glucose"
       ],
       "correct": 3,
-      "explanation": "Small nonpolar O2 crosses most easily by simple diffusion, small polar water crosses next most easily (more slowly, but still directly), and larger polar glucose needs transport proteins and essentially cannot cross by simple diffusion, placing it last. Choice C puts water ahead of the smaller, more lipid-soluble O2 molecule, choice B places glucose first despite its polarity and size, and choice A wrongly includes a charged ion, which (like glucose) cannot cross by simple diffusion at all."
+      "explanation": "Correct: O2 gas crosses most easily, then water, then glucose. Rank by how well each molecule fits the hydrophobic interior of the bilayer. O2 is small and nonpolar, so it dissolves in the lipid and diffuses straight through. Water is small but polar; a little of it slips through the bilayer, so it crosses less readily than O2 (aquaporins make it much faster in cells that have them). Glucose is large and polar, so it essentially cannot cross by simple diffusion and needs a transporter protein. Charged ions like Na+ are repelled by the interior and also need channels or pumps.\n\n(C) is wrong because it puts polar water ahead of nonpolar O2, which gets the polarity effect backwards.\n(B) is wrong because glucose is the molecule with the most difficulty crossing.\n(A) is wrong because a charged ion like Na+ cannot cross the bilayer by simple diffusion at all, so it cannot be first."
     },
     {
       "id": "2-51",
@@ -1606,7 +1606,7 @@ const QUESTIONS = {
         "An animal cell, which lacks a rigid cell wall to resist expansion"
       ],
       "correct": 3,
-      "explanation": "Animal cells lack a rigid cell wall, so as water enters in a hypotonic environment there's nothing beyond the plasma membrane's limited elasticity to resist expansion, making them vulnerable to lysis. Choice B and choice C both name walled cell types, which become turgid rather than burst because the wall resists expansion, and choice A denies a well-established structural protection that walled cells clearly have and animal cells lack."
+      "explanation": "Correct: an animal cell, which lacks a rigid cell wall to resist expansion. In a hypotonic environment water flows into the cell by osmosis, so the cell swells. A plant cell, a bacterium, or a fungal cell has a cell wall outside its plasma membrane; as water enters, the wall pushes back (turgor pressure) and the cell becomes firm (turgid) but does not burst. An animal cell has only a plasma membrane, which can stretch only a little, so it can swell until it bursts (lyses).\n\n(B) is wrong because a plant cell is protected by its wall, so it becomes turgid, which is the healthy, firm state of a plant cell.\n(C) is wrong because a bacterial cell wall also resists expansion.\n(A) is wrong because the presence of a wall clearly matters for the risk of bursting."
     },
     {
       "id": "2-52",
@@ -1619,7 +1619,7 @@ const QUESTIONS = {
         "Only carrier proteins participate in facilitated diffusion; channel proteins are used exclusively in active transport"
       ],
       "correct": 0,
-      "explanation": "Channel proteins form an open pore that lets specific molecules pass through passively, while carrier proteins bind their cargo and undergo a conformational change to shuttle it across — both mechanisms are passive (no ATP) in facilitated diffusion. Choice B wrongly assigns ATP use to either type in this passive context, choice C ignores their distinct mechanisms, and choice D wrongly excludes channel proteins from facilitated diffusion, where they are in fact commonly used."
+      "explanation": "Correct: channel proteins form a continuous pore for specific molecules, while carrier proteins bind their cargo and change shape to move it across. A channel protein is like an open (sometimes gated) tunnel through the membrane that lets specific ions or water pass quickly. A carrier protein works more like a revolving door: it binds a specific molecule on one side, changes shape, and releases it on the other side (for example, a glucose carrier). Both types move substances down their concentration gradient and use no ATP, so both belong to facilitated diffusion.\n\n(B) is wrong because neither type needs ATP in facilitated diffusion.\n(C) is wrong because they work by different mechanisms.\n(D) is wrong because channel proteins are very much part of facilitated diffusion; active transport uses pumps and other carriers."
     },
     {
       "id": "2-53",
@@ -1632,7 +1632,7 @@ const QUESTIONS = {
         "Movement of a substance against its concentration gradient, requiring an input of energy, typically ATP"
       ],
       "correct": 3,
-      "explanation": "Active transport is defined by movement against the concentration gradient, which is energetically unfavorable and requires cellular energy, usually from ATP hydrolysis. Choice C ties active transport to an unrelated cellular event (division), choice B confuses it with a passive mechanism (simple diffusion), and choice A describes passive transport, the defining opposite of what's being asked about."
+      "explanation": "Correct: movement of a substance against its concentration gradient, requiring an input of energy, typically ATP. Moving a substance from low to high concentration is like pushing a ball uphill, so the cell must spend energy. In primary active transport, a pump (such as the sodium-potassium pump) uses ATP directly. In secondary active transport, the movement is powered by a gradient that was built earlier using ATP.\n\n(A) is wrong because moving down the gradient with no energy is passive transport, the opposite.\n(B) is wrong because simple diffusion is a passive process.\n(C) is wrong because active transport is about moving substances across a membrane at any time in the life of the cell; it has nothing to do only with cell division."
     },
     {
       "id": "2-54",
@@ -1645,7 +1645,7 @@ const QUESTIONS = {
         "No energy input, since the pump involves channel proteins"
       ],
       "correct": 1,
-      "explanation": "Since both Na+ and K+ move against their existing gradients (Na+ out of an already Na+-poor cell, K+ into an already K+-rich cell), the process is energetically unfavorable and requires ATP hydrolysis — a textbook case of primary active transport. Choice A substitutes a light-driven mechanism relevant to photosynthesis, not ion pumping, choice D mislabels the sodium-potassium pump as a passive channel when it is an ATP-powered pump, and choice C ignores that moving ions uphill against a gradient cannot happen without an external energy input."
+      "explanation": "Correct: ATP, since both ions are being moved against their respective gradients. Na+ is more concentrated outside the cell and K+ is more concentrated inside, so pushing 3 Na+ out and 2 K+ in moves each ion uphill, from lower to higher concentration. Uphill movement does not happen on its own, so the pump uses energy from the hydrolysis of one ATP per cycle. This keeps the gradients that nerve cells need for signaling, helps control the cell's volume, and supplies the gradient that powers secondary active transport.\n\n(A) is wrong because light energy drives photosynthesis, not ion pumps.\n(C) is wrong because simple diffusion moves ions down their gradients, not against them.\n(D) is wrong because the sodium-potassium pump is a carrier that uses ATP, not a passive channel."
     },
     {
       "id": "2-55",
@@ -1658,7 +1658,7 @@ const QUESTIONS = {
         "It only ever moves substances down their own concentration gradients"
       ],
       "correct": 0,
-      "explanation": "Secondary active transport borrows energy: the immediate coupled step doesn't directly consume ATP, but it depends on a gradient built earlier using ATP (via primary active transport, like the sodium-potassium pump). Choice C ignores that ATP was spent to establish the gradient in the first place, choice B overlooks that secondary active transport moves its target substance against its gradient (unlike simple diffusion, which is purely passive), and choice D contradicts the defining feature of the process — moving one substance against its own gradient."
+      "explanation": "Correct: the transport step itself does not directly use ATP, but the system depends on ATP spent earlier to establish the gradient it draws on. In secondary active transport (cotransport), a protein couples the movement of two substances: one moves down its gradient (releasing energy), and that energy is used to move the other substance against its gradient. A classic example is the sodium-glucose cotransporter: Na+ flows into the cell down its gradient and brings glucose in with it, even when glucose is already more concentrated inside. The Na+ gradient exists only because the sodium-potassium pump spent ATP to build it, so ATP is used indirectly.\n\n(C) is wrong because ATP was spent to establish the gradient; the system does not run on random thermal motion.\n(B) is wrong because simple diffusion is purely passive, while secondary active transport moves one substance against its gradient.\n(D) is wrong because the substance that is being 'pumped' moves against its gradient, which is the whole point."
     },
     {
       "id": "2-56",
@@ -1671,7 +1671,7 @@ const QUESTIONS = {
         "Exocytosis, releasing the bacterium from the cell"
       ],
       "correct": 0,
-      "explanation": "Phagocytosis (\"cell eating\") is a type of endocytosis where the membrane engulfs a large solid particle like a bacterium, forming an internal vesicle — a key immune mechanism for capturing pathogens. Choices B and C both wrongly apply diffusion mechanisms, which move individual small molecules through transport proteins or the bilayer itself, not whole bacteria, and choice D's exocytosis moves material OUT of the cell, the opposite of engulfment."
+      "explanation": "Correct: phagocytosis, a form of endocytosis. In endocytosis the cell takes in material by wrapping its plasma membrane around it and pinching off a vesicle inside the cell. Phagocytosis ('cell eating') is the type used to take in large particles or whole cells: the white blood cell extends parts of its membrane (pseudopodia) around the bacterium and forms a vesicle that is then merged with a lysosome to digest it. Related types are pinocytosis ('cell drinking,' taking in fluid droplets) and receptor-mediated endocytosis (taking in specific molecules that bind receptors). All of them use energy. (B) and (C) are wrong because diffusion moves small molecules through the bilayer or through proteins; a whole bacterium is far too large.\n\n(D) is wrong because exocytosis moves material OUT of the cell, the opposite of engulfing."
     },
     {
       "id": "2-57",
@@ -1684,7 +1684,7 @@ const QUESTIONS = {
         "Exocytosis, releasing the vesicle's contents outside the cell"
       ],
       "correct": 3,
-      "explanation": "Exocytosis is the fusion of an internal vesicle with the plasma membrane, releasing its contents to the exterior — the mechanism used for secreting hormones, neurotransmitters, and other bulk materials. Choice C's facilitated diffusion moves individual molecules through a protein channel, not vesicle contents, choice B's osmosis concerns water movement specifically, and choice A's endocytosis is the reverse process, bringing material INTO the cell."
+      "explanation": "Correct: exocytosis, releasing the vesicle's contents outside the cell. In exocytosis a vesicle made inside the cell (often from the Golgi) moves to the plasma membrane and fuses with it, releasing its contents to the outside. Cells use it to secrete hormones, digestive enzymes, and neurotransmitters, and the fusion also adds new membrane to the plasma membrane. It is the reverse of endocytosis and requires energy.\n\n(A) is wrong because endocytosis brings material INTO the cell by forming a vesicle from the plasma membrane.\n(B) is wrong because osmosis is the movement of water, not the release of hormones in vesicles.\n(C) is wrong because facilitated diffusion moves individual molecules through a transport protein, not the contents of a vesicle."
     },
     {
       "id": "2-58",
@@ -1697,7 +1697,7 @@ const QUESTIONS = {
         "Mitochondria are bounded by a double membrane"
       ],
       "correct": 1,
-      "explanation": "Mitochondria replicate on their own schedule, independent of the broader cell cycle, using a division process closely resembling bacterial binary fission — this is one of the four classic lines of endosymbiotic evidence, and the one specifically about replication. Choices A, C, and D are each true statements about mitochondria, but they describe prevalence, membrane structure, or metabolic function, not the replication behavior the question asks about."
+      "explanation": "Correct: mitochondria divide independently of the rest of the cell cycle, through a process resembling bacterial binary fission. One line of evidence for the endosymbiotic theory is that mitochondria reproduce by splitting in two on their own schedule, as bacteria do, and are not made from scratch by the cell. The other classic lines of evidence are: a double membrane, their own circular DNA, and ribosomes that are similar to bacterial ribosomes. The question asks specifically about how mitochondria REPLICATE.\n\n(A) is wrong because making ATP by aerobic respiration is about metabolism, not replication.\n(C) is wrong because being in almost every eukaryotic cell is about how common they are, not how they replicate.\n(D) is wrong because the double membrane is evidence about structure (it is consistent with a cell engulfing a bacterium into a vesicle), not about replication."
     },
     {
       "id": "2-59",
@@ -1710,7 +1710,7 @@ const QUESTIONS = {
         "That mitochondria evolved after chloroplasts did"
       ],
       "correct": 0,
-      "explanation": "If mitochondria originated as engulfed free-living bacteria, their ribosomes should retain bacterial characteristics rather than matching the eukaryotic cell's own cytoplasmic ribosomes — exactly what's observed, and one of the four key endosymbiotic evidence lines. Choice C directly contradicts the premise, which describes mitochondrial ribosomes existing and being measured, choice B overgeneralizes from mitochondrial ribosomes to ALL eukaryotic ribosomes (cytoplasmic ones are notably different), and choice D makes an evolutionary timing claim the ribosome-size evidence doesn't support."
+      "explanation": "Correct: that mitochondria originated from an engulfed free-living bacterium. Bacterial ribosomes are smaller (70S) than the ribosomes in the cytoplasm of eukaryotic cells (80S). If mitochondria began as bacteria that were engulfed by an ancestral cell, we would expect them to keep bacterial-type ribosomes, which is what is found. Together with their circular DNA, their double membrane, and their binary-fission-like division, this supports the endosymbiotic theory.\n\n(C) is wrong because the premise says mitochondrial ribosomes exist and have been measured.\n(B) is wrong because it overgeneralizes: the cytoplasmic ribosomes of the eukaryotic cell are different from bacterial ribosomes.\n(D) is wrong because ribosome size says nothing about the timing of the origin of mitochondria compared with chloroplasts."
     },
     {
       "id": "2-60",
@@ -1723,7 +1723,7 @@ const QUESTIONS = {
         "Double membranes are required specifically for photosynthesis and are unrelated to mitochondria"
       ],
       "correct": 1,
-      "explanation": "The double membrane is explained directly by engulfment: the engulfed prokaryote retained its own single membrane (becoming the organelle's inner membrane), while the host cell's membrane wrapped around it, becoming the outer membrane. Choice D wrongly restricts the explanation to photosynthesis when mitochondria (non-photosynthetic) also have a double membrane, choice A invents an unrelated nuclear-synthesis origin, and choice C denies the well-supported engulfment explanation the question is testing."
+      "explanation": "Correct: the inner membrane is the engulfed prokaryote's original membrane; the outer derives from the host cell's membrane. According to the endosymbiotic theory, an ancestral host cell engulfed a bacterium. The bacterium kept its own plasma membrane, which became the organelle's inner membrane. The host cell's membrane formed a vesicle around the bacterium during engulfment, and that vesicle membrane became the outer membrane. So two membranes are exactly what engulfment would leave behind. This explanation applies to both mitochondria and chloroplasts.\n\n(D) is wrong because mitochondria, which do not carry out photosynthesis, also have double membranes, so it is not specific to photosynthesis.\n(A) is wrong because the theory does not say that organelles are made in the nucleus; it says they came from engulfed bacteria.\n(C) is wrong because the double membrane is one of the main pieces of evidence in the theory and has a clear explanation."
     },
     {
       "id": "2-61",
@@ -1736,7 +1736,7 @@ const QUESTIONS = {
         "A double membrane surrounding the organelle"
       ],
       "correct": 0,
-      "explanation": "Photosynthesis is not universal to all eukaryotic cells — animal cells entirely lack chloroplasts — so it is not one of the four structural/behavioral lines of endosymbiotic evidence. Choices B, C, and D are each genuine members of that evidence set (independent binary-fission-like division, a double membrane, and circular DNA), so they are each incorrectly identified as the exception here."
+      "explanation": "Correct: the organelle's ability to perform photosynthesis in ALL eukaryotic cells. This is a 'which is NOT' question, so find the three true statements first. The classic lines of evidence for the endosymbiotic theory are: (1) a double membrane, (2) their own circular DNA, (3) ribosomes that resemble bacterial ribosomes, and (4) division by a process like bacterial binary fission, independent of the cell cycle. Choices B, C, and D are all on that list, so they are not the answer. Choice A is not evidence, and it is also false: photosynthesis occurs only in cells that have chloroplasts (plants and algae); animals and fungi have no chloroplasts, and mitochondria do not carry out photosynthesis.\n\n(B) is wrong as an answer because independent binary-fission-like division is real evidence.\n(C) is wrong as an answer because circular DNA, like that of bacteria, is real evidence.\n(D) is wrong as an answer because the double membrane is real evidence."
     },
     {
       "id": "2-62",
@@ -1749,7 +1749,7 @@ const QUESTIONS = {
         "The Golgi apparatus is present in most eukaryotic cells"
       ],
       "correct": 1,
-      "explanation": "The Golgi lacks essentially every hallmark used as endosymbiotic evidence for mitochondria and chloroplasts — no own DNA, no distinct bacterial-type ribosomes, only a single membrane, and no independent replication — which is exactly why it's understood to arise from internal membrane budding, not engulfment. Choices A, C, and D each describe true but unrelated facts about the Golgi (its location, prevalence, and function) that neither support nor undermine an endosymbiotic origin claim."
+      "explanation": "Correct: the Golgi apparatus lacks its own DNA and distinct ribosomes, has a single membrane, and does not divide independently. To argue that an organelle came from an engulfed bacterium, you need the hallmarks of mitochondria and chloroplasts: their own circular DNA, bacterial-type ribosomes, a double membrane, and independent division like binary fission. The Golgi has none of them. It has a single membrane, no DNA or ribosomes of its own, and it is made inside the cell from membrane that buds off the endoplasmic reticulum, so it is part of the endomembrane system, not a former bacterium.\n\n(A) is wrong because being near the ER says nothing about origin.\n(C) is wrong because the fact that it modifies proteins is about its function.\n(D) is wrong because being common in eukaryotic cells does not support or undermine an endosymbiotic origin."
     },
     {
       "id": "2-63",
@@ -1762,7 +1762,7 @@ const QUESTIONS = {
         "An aerobic bacterium was engulfed first, becoming the mitochondrion"
       ],
       "correct": 3,
-      "explanation": "The accepted sequence has an aerobic bacterium engulfed first, becoming the mitochondrion (found in essentially all eukaryotes), with a separate, later engulfment of a photosynthetic bacterium in the plant/algal lineage giving rise to the chloroplast — explaining why chloroplasts aren't universal. Choice B wrongly claims a single simultaneous event, choice C places chloroplasts before eukaryotes existed (engulfment requires an existing eukaryotic host), and choice A swaps which organelle came from which type of bacterium."
+      "explanation": "Correct: an aerobic bacterium was engulfed first, becoming the mitochondrion. The accepted sequence has two separate events. First, an ancestor of eukaryotic cells engulfed an aerobic (oxygen-using) bacterium that became the mitochondrion; since this happened early, nearly all eukaryotes have mitochondria. Later, in the lineage that led to plants and algae, a cell that already had mitochondria engulfed a photosynthetic bacterium (like a cyanobacterium), which became the chloroplast. This order explains why plant cells have both organelles while animal and fungal cells have only mitochondria.\n\n(A) is wrong because it swaps the two organelles' origins.\n(B) is wrong because the events happened separately and chloroplasts are found only in some lineages.\n(C) is wrong because engulfment needs a host eukaryotic cell to already exist, so chloroplasts could not have come before eukaryotes."
     },
     {
       "id": "2-64",
@@ -1776,7 +1776,7 @@ const QUESTIONS = {
         "Extensive gene transfer from the original endosymbiont's genome to the host nucleus occurred over evolutionary time"
       ],
       "correct": 3,
-      "explanation": "Gradual gene transfer from the endosymbiont's genome to the host nucleus over vast evolutionary time is a well-documented, expected feature of long-term endosymbiosis, so mitochondria today retain only a fraction of the genes a free-living bacterium would need. Choice C treats this transfer as disproof rather than as documented co-evolutionary history, choice A is contradicted by mitochondria's well-established retained genome, and choice B ignores that mitochondrial DNA does still encode a small but essential set of genes."
+      "explanation": "Correct: extensive gene transfer from the original endosymbiont's genome to the host nucleus occurred over evolutionary time. A free-living bacterium has thousands of genes. Over hundreds of millions of years, most of the genes of the engulfed bacterium were moved into the host's nuclear DNA or lost. The mitochondrion now depends on the nucleus: nuclear genes are transcribed and translated by cytoplasmic ribosomes, and the proteins are imported into the mitochondrion. A small genome remains in the mitochondrion (human mitochondrial DNA has 37 genes). This fits the theory instead of contradicting it.\n\n(C) is wrong because the transfer is a documented result of long-term endosymbiosis, not a disproof.\n(A) is wrong because mitochondria do have their own DNA.\n(B) is wrong because mitochondrial DNA still encodes essential genes, so it does serve a purpose."
     },
     {
       "id": "2-65",
@@ -1789,7 +1789,7 @@ const QUESTIONS = {
         "Simple diffusion of the amino acid across the bilayer"
       ],
       "correct": 1,
-      "explanation": "This scenario defines secondary active transport: the amino acid moves against its own gradient, but the immediate energy source is the pre-established Na+ gradient (itself built earlier by ATP-powered primary active transport), not direct ATP use in this coupled step. Choice C mislabels the process as primary active transport despite no direct ATP use here, choice D's simple diffusion cannot move a substance against its gradient at all, and choice A's osmosis applies specifically to water, not amino acids."
+      "explanation": "Correct: secondary active transport. In this process the amino acid moves against its own gradient (uphill), but the energy comes from the Na+ ion moving down its gradient (downhill) through the same transporter protein. The Na+ gradient was built earlier by the sodium-potassium pump using ATP, so the cell uses ATP indirectly, not in this transport step. Cotransport like this is called secondary active transport.\n\n(C) is wrong because primary active transport uses ATP directly at the transporter (as the pump does); here the coupled step uses the Na+ gradient, not ATP.\n(A) is wrong because osmosis is the movement of water, not amino acids.\n(D) is wrong because simple diffusion can only move a substance down its gradient, never against it."
     },
     {
       "id": "2-66",
@@ -1802,7 +1802,7 @@ const QUESTIONS = {
         "It allows the cell to skip the process of protein synthesis entirely"
       ],
       "correct": 2,
-      "explanation": "Compartmentalization walls off different chemical processes into separate membrane-bound spaces so reactions that would otherwise interfere with each other can proceed simultaneously, each in conditions (pH, enzyme concentration) suited to it. Choice B has no logical connection to organelle compartmentalization, and choices A and D both wrongly claim compartmentalization eliminates fundamental cell requirements (a plasma membrane, protein synthesis) that every cell still needs regardless of internal organization."
+      "explanation": "Correct: it allows chemically incompatible reactions to proceed simultaneously, each within its own optimized internal environment. Membrane-bound organelles create separate spaces inside a cell. Each space can have its own pH, enzymes, and concentrations. For example, lysosomes keep digestive enzymes at an acidic pH in a closed compartment, away from the rest of the cell, which they would otherwise damage; and mitochondria concentrate the enzymes and membranes needed for respiration. Compartments also increase efficiency by keeping enzymes and substrates close together.\n\n(A) is wrong because the cell still needs its plasma membrane to separate inside from outside.\n(B) is wrong because the amount of DNA a cell has to maintain is not reduced by having organelles.\n(D) is wrong because every cell must still make proteins."
     },
     {
       "id": "2-67",
@@ -1815,7 +1815,7 @@ const QUESTIONS = {
         "Active transport, because a transport protein is involved, regardless of the direction that molecule happens to be moving"
       ],
       "correct": 1,
-      "explanation": "Movement from high to low concentration with no ATP → ADP + Pi conversion shown is exactly the signature of facilitated diffusion: a protein providing a path for passive, gradient-driven movement. Choice D wrongly assumes any protein involvement means active transport, choice A misapplies osmosis (specific to water) to glucose, and choice C wrongly invokes a coupled gradient-as-energy-source mechanism that isn't depicted in this simple single-molecule diagram."
+      "explanation": "Correct: facilitated diffusion, because movement is down the concentration gradient and no ATP is shown. Read the diagram clues: a membrane protein is involved, the glucose goes from higher to lower concentration, and there is no ATP to ADP + Pi conversion. High to low with no energy input is passive transport, and the protein makes it facilitated diffusion.\n\n(D) is wrong because a protein being involved does not make transport active; active transport moves substances against their gradient with an energy input.\n(A) is wrong because osmosis is the movement of water, and the molecule here is glucose.\n(C) is wrong because secondary active transport needs a second substance moving down its gradient to power uphill movement, and nothing like that is shown."
     },
     {
       "id": "2-68",
@@ -1828,7 +1828,7 @@ const QUESTIONS = {
         "Facilitated diffusion through a transport protein"
       ],
       "correct": 2,
-      "explanation": "Pinocytosis (\"cell drinking\") is bulk uptake of fluid and dissolved substances by membrane invagination and vesicle formation, with no solid particles involved. Choice A's phagocytosis specifically engulfs solid particles, which the scenario explicitly rules out, choice B's exocytosis moves material OUT of the cell rather than in, and choice D's facilitated diffusion moves individual molecules through a protein, not via vesicle formation."
+      "explanation": "Correct: pinocytosis, the bulk uptake of fluid and dissolved substances via membrane invagination. In pinocytosis ('cell drinking') the plasma membrane folds inward around a droplet of extracellular fluid and dissolved nutrients and pinches off to form a vesicle. The clues in the question are 'dissolved nutrients,' 'a small volume of extracellular fluid,' and 'no solid particles.' Phagocytosis ('cell eating') is the counterpart for large solid particles or whole cells. Both are types of endocytosis.\n\n(A) is wrong because phagocytosis engulfs solid particles, which the question rules out.\n(B) is wrong because exocytosis moves material OUT of the cell.\n(D) is wrong because facilitated diffusion moves single molecules through a protein, not through the formation of a vesicle."
     },
     {
       "id": "2-69",
@@ -1841,7 +1841,7 @@ const QUESTIONS = {
         "Excessively rigid, since cholesterol normally prevents tight phospholipid packing at low temperatures"
       ],
       "correct": 3,
-      "explanation": "Cholesterol is a bidirectional fluidity buffer: at low temperatures it wedges between phospholipids and prevents tight packing, so a low-cholesterol cell lacks this protection and becomes excessively rigid when temperature drops. Choice C describes cholesterol's high-temperature role, the opposite direction from this cold-temperature scenario, choice A wrongly claims cholesterol is irrelevant at low temperature when it is specifically important there, and choice B overstates the effect as total permeability loss rather than a fluidity/rigidity shift."
+      "explanation": "Correct: excessively rigid, since cholesterol normally prevents tight phospholipid packing at low temperatures. Cholesterol keeps membrane fluidity steady in both directions. At high temperatures it restrains the movement of the phospholipids. At low temperatures, when phospholipids would otherwise pack tightly together and the membrane would stiffen, cholesterol sits among them and keeps them from packing closely. A cell with unusually low cholesterol lacks that protection, so when the temperature suddenly drops its membrane becomes abnormally rigid, which can interfere with the movement of proteins and with transport.\n\n(C) is wrong because restraining movement describes cholesterol's role at HIGH temperatures, the opposite direction.\n(A) is wrong because cholesterol matters at low temperatures too.\n(B) is wrong because the change is a shift in fluidity, not a complete loss of selective permeability."
     }
   ],
   "3": [
@@ -2747,7 +2747,7 @@ const QUESTIONS = {
         "It binds a membrane-bound receptor on the cell surface"
       ],
       "correct": 3,
-      "explanation": "Membrane-bound receptors let large, polar hormones signal from the cell surface without crossing the membrane, which is why choice D is correct. Choice B is wrong because polar hormones aren't actively carried across the membrane to reach intracellular receptors — that route is used by small nonpolar ligands via diffusion, not transporters. Choice C is wrong because the cell does respond, just through a surface receptor rather than membrane crossing. Choice A is wrong because hormones do not chemically convert upon touching the membrane."
+      "explanation": "Correct: it binds a membrane-bound receptor on the cell surface. A large, polar protein hormone (insulin is an example) cannot pass through the hydrophobic interior of the plasma membrane. Instead, it binds a receptor protein that spans the plasma membrane, with a binding site on the outside. Binding changes the shape of the receptor, which starts a signal transduction pathway inside the cell (for example, through G proteins, second messengers, or a series of phosphorylations). The message crosses the membrane even though the hormone does not.\n\n(A) is wrong because the hormone is not chemically converted when it touches the membrane.\n(B) is wrong because carrier proteins do not transport hormones into the cell to reach intracellular receptors; that route is for small nonpolar molecules, which diffuse in on their own.\n(C) is wrong because the cell does respond, through its surface receptor."
     },
     {
       "id": "4-3",
@@ -2760,7 +2760,7 @@ const QUESTIONS = {
         "An intracellular receptor, since the hormone can diffuse directly across the plasma membrane"
       ],
       "correct": 3,
-      "explanation": "Small, nonpolar steroid hormones diffuse straight through the hydrophobic membrane interior, so they typically bind intracellular receptors, making choice D correct. Choice A is wrong because it wrongly assumes every hormone requires a surface receptor. Choice B is wrong because steroid hormones still require receptor binding to trigger a response — they don't act as free agents. Choice C is wrong because an intracellular receptor by definition interacts with the cytoplasm or nucleus, not a purely extracellular site."
+      "explanation": "Correct: an intracellular receptor, since the hormone can diffuse directly across the plasma membrane. Steroid hormones (such as estrogen, testosterone, and cortisol) are small and nonpolar, so they pass straight through the hydrophobic interior of the plasma membrane. Once inside, they bind a receptor in the cytoplasm or the nucleus. The hormone-receptor complex typically acts as a transcription factor: it binds DNA and changes which genes are expressed. A good rule: small and nonpolar means an intracellular receptor, while large or polar means a membrane-bound receptor.\n\n(A) is wrong because not every hormone needs a surface receptor; those that can enter the cell can bind receptors inside.\n(B) is wrong because steroid hormones do act through receptor proteins.\n(C) is wrong because an intracellular receptor, by definition, is inside the cell, in the cytoplasm or nucleus, not entirely outside it."
     },
     {
       "id": "4-4",
@@ -2799,7 +2799,7 @@ const QUESTIONS = {
         "To slow the cell's response down as much as biologically possible"
       ],
       "correct": 1,
-      "explanation": "Amplification is the key advantage of a multi-step cascade, since each activated component can trigger multiple downstream molecules, so choice B is correct. Choice D is wrong because slowing the response is not the functional purpose of a cascade — amplification, not delay, is the goal. Choice A is wrong because many ligands (especially large polar ones) never enter the cell at all during signaling. Choice C is wrong because the pathway's output is a meaningful, targeted cellular response, not a dead-end conversion."
+      "explanation": "Correct: to amplify the original signal. In a cascade, each activated molecule can activate many molecules of the next step, so the effect gets larger at every step. A single hormone molecule binding to one receptor can therefore end up producing thousands or millions of molecules of the final product, so even a weak or brief signal can have a large effect. A multi-step pathway also offers more places for regulation and for coordination with other pathways.\n\n(D) is wrong because the purpose of a cascade is not to slow the response (amplification, not delay, is the point).\n(A) is wrong because the ligand does not have to enter the cell; most polar ligands never do, and the pathway passes the message along instead.\n(C) is wrong because a pathway ends in a useful, specific response and not in a dead-end molecule."
     },
     {
       "id": "4-7",
@@ -2812,7 +2812,7 @@ const QUESTIONS = {
         "Ligand binding promotes GDP being exchanged for GTP on the G protein"
       ],
       "correct": 3,
-      "explanation": "The GDP-to-GTP exchange triggered by the receptor's ligand-induced shape change is the actual molecular switch, making choice D correct. Choice B is wrong because activation is not spontaneous — it depends on the specific event of ligand binding. Choice A is wrong because G proteins remain membrane-associated during activation rather than being removed. Choice C is wrong because it is GTP, not ATP, that binds and activates the G protein, and it does so as a result of the receptor's action, not directly."
+      "explanation": "Correct: ligand binding promotes GDP being exchanged for GTP on the G protein. In a G protein-coupled receptor pathway, the ligand binds the receptor and changes its shape. The changed receptor then interacts with a G protein on the inner side of the membrane and causes it to release GDP and bind GTP. The GTP-bound G protein is the active form, and it goes on to activate an effector enzyme such as adenylyl cyclase, which makes the second messenger cAMP. The G protein later switches itself off by hydrolyzing GTP back to GDP.\n\n(B) is wrong because activation depends on ligand binding to the receptor, not on spontaneous activation.\n(C) is wrong because G proteins bind GTP, not ATP, and it is the receptor that triggers the exchange.\n(A) is wrong because G proteins stay associated with the membrane when they are active."
     },
     {
       "id": "4-8",
@@ -2825,7 +2825,7 @@ const QUESTIONS = {
         "The receptor itself would stop responding to any ligand whatsoever"
       ],
       "correct": 0,
-      "explanation": "Without GTP hydrolysis, the G protein stays locked in its active, GTP-bound form, so the pathway keeps signaling regardless of ligand status, making choice A correct. Choice B is wrong because the defect causes constant activity, not a shutdown. Choice C is wrong because losing GTP hydrolysis is a functionally significant change, not a neutral one. Choice D is wrong because the mutation affects the G protein's own on/off cycle, not the receptor's separate ability to bind ligand."
+      "explanation": "Correct: the pathway would remain continuously active, regardless of ligand status. A G protein is an on/off switch: GTP-bound means ON, and hydrolysis of GTP to GDP turns it OFF. A G protein that cannot hydrolyze GTP is stuck in the ON state, so it keeps activating its target even when no ligand is bound to the receptor. A real example is cholera toxin, which blocks GTP hydrolysis in a G protein of intestinal cells. The pathway is stuck on, the cells keep making cAMP, and they pump out large amounts of chloride and water, causing severe diarrhea.\n\n(B) is wrong because the defect leaves the pathway permanently on, not permanently off.\n(C) is wrong because losing the shut-off step is a major change in how the pathway behaves.\n(D) is wrong because the mutation affects the G protein's on/off cycle, not the receptor's ability to bind its ligand."
     },
     {
       "id": "4-9",
@@ -2838,7 +2838,7 @@ const QUESTIONS = {
         "The cell always immediately undergoes mitosis, regardless of which specific pathway was actually activated"
       ],
       "correct": 0,
-      "explanation": "A transduction pathway ends in a meaningful, specific outcome for the cell, so choice A is correct. Choice C is wrong because the whole point of the pathway is to produce a downstream effect, not to fizzle out. Choice B is wrong because even when the ligand is eventually degraded, the pathway still produces a functional cellular change before that happens. Choice D is wrong because the specific response depends entirely on the pathway involved — mitosis is only one of many possible outcomes, not a universal one."
+      "explanation": "Correct: a specific cellular response occurs, such as a change in gene expression or enzyme activity. Signal transduction pathways have a purpose: they turn an outside signal into an action. The end result could be a change in gene expression (a transcription factor turns genes on or off), the activation or inhibition of an enzyme, a change in the cytoskeleton, the secretion of a product, or even apoptosis (programmed cell death). The response depends on the particular pathway and cell type.\n\n(C) is wrong because a pathway that just disappeared would make no sense; the whole point is to produce a response.\n(B) is wrong because the cell does change in response to the signal, even if the ligand is later broken down.\n(D) is wrong because mitosis is only one of many possible outcomes, and most pathways do not lead to it."
     },
     {
       "id": "4-10",
@@ -2852,7 +2852,7 @@ const QUESTIONS = {
         "Kinases and phosphatases are structures found exclusively in prokaryotic cells"
       ],
       "correct": 2,
-      "explanation": "Having both a kinase and a phosphatase lets the cell switch the target protein on and off as conditions change, so choice C is correct. Choice B is wrong because the pairing is not redundant — each enzyme performs the opposite, necessary function. Choice A is wrong because the kinase must act first to add the phosphate before the phosphatase can later remove it, not the reverse. Choice D is wrong because kinases and phosphatases are common in eukaryotic cells as well, central to virtually all eukaryotic signaling."
+      "explanation": "Correct: this arrangement makes the pathway reversible. A kinase adds a phosphate group (using ATP) to a target protein, which usually changes the protein's shape and switches it on or off. A phosphatase removes the phosphate and returns the protein to its original state. Having both enzymes acting on the same target lets the cell use phosphorylation as a molecular switch that can be turned on and turned off again, so the signal can end and the pathway can reset and respond again. Without a phosphatase the target would stay activated indefinitely.\n\n(B) is wrong because the two enzymes are not redundant; they do opposite jobs.\n(A) is wrong because the kinase must add the phosphate before a phosphatase has something to remove.\n(D) is wrong because kinases and phosphatases are widespread and essential in eukaryotic cell signaling."
     },
     {
       "id": "4-11",
@@ -2865,7 +2865,7 @@ const QUESTIONS = {
         "The cell would respond normally, since a receptor is not actually required for signaling"
       ],
       "correct": 1,
-      "explanation": "Because receptor binding is the required first step of transduction, a cell lacking a functional receptor cannot detect the hormone at all, so choice B is correct. Choice D is wrong because receptors are in fact essential — signaling cannot proceed without one. Choice C is wrong because no functional receptor means no detection, not an exaggerated response. Choice A is wrong because most hormones (especially polar ones) depend on a surface receptor and do not simply enter cells unassisted."
+      "explanation": "Correct: the cell would fail to respond. Signaling is specific because the cell has to have a receptor that recognizes the ligand. The hormone binds its receptor, the receptor starts the transduction pathway, and the pathway produces a response. A cell without a functional receptor does not detect the hormone, even if the hormone is present in normal amounts. This is why a hormone affects only certain target cells. A human example is androgen insensitivity syndrome, in which a nonfunctional androgen receptor means that cells cannot respond to testosterone.\n\n(A) is wrong because polar hormones cannot cross the membrane on their own; even hormones that can enter the cell still need an intracellular receptor to work.\n(C) is wrong because with no receptor, there is no detection, so there cannot be a stronger response.\n(D) is wrong because a receptor is essential for signaling."
     },
     {
       "id": "4-12",
@@ -2917,7 +2917,7 @@ const QUESTIONS = {
         "Sister chromatids separate and move toward opposite spindle poles"
       ],
       "correct": 1,
-      "explanation": "Cytokinesis is the physical splitting of the cytoplasm into two daughter cells, so choice B is correct. Choice A is wrong because DNA replication happens much earlier, during S phase, not during cytokinesis. Choice C is wrong because chromosome condensation happens during prophase, before cytokinesis. Choice D is wrong because chromatid separation is an anaphase event that occurs before cytokinesis physically divides the cell."
+      "explanation": "Correct: the cytoplasm physically divides, producing two daughter cells. Cytokinesis follows mitosis (it begins during late anaphase and telophase) and splits the cell into two. In animal cells, a ring of actin and myosin filaments pinches the cell in two, forming a cleavage furrow. In plant cells, vesicles form a cell plate across the middle of the cell that becomes the new cell wall.\n\n(A) is wrong because DNA replication happens earlier, in S phase of interphase.\n(C) is wrong because chromosome condensation happens in prophase.\n(D) is wrong because separation of sister chromatids to opposite poles happens in anaphase, before cytokinesis divides the cell."
     },
     {
       "id": "4-16",
@@ -2956,7 +2956,7 @@ const QUESTIONS = {
         "Measuring each cell's overall physical size under a microscope"
       ],
       "correct": 0,
-      "explanation": "A labeled nucleotide gets built directly into newly made DNA, so tracking its uptake pinpoints cells in S phase, making choice A correct. Choice D is wrong because cell size alone doesn't reliably indicate active DNA synthesis. Choice B is wrong because mitochondria count reflects metabolic activity, not replication status. Choice C is wrong because cytoplasmic pH has no direct, reliable connection to whether DNA replication is underway."
+      "explanation": "Correct: using a labeled nucleotide incorporated into newly made DNA. Cells that are copying their DNA (S phase) build new strands using free nucleotides. If you give the tissue a labeled nucleotide (for example, radioactive thymidine, or a thymidine analog such as BrdU or EdU that can be detected later), only cells that are making new DNA will build it into their DNA and become labeled. So the labeled cells are the ones in S phase.\n\n(D) is wrong because the size of a cell does not reliably show whether DNA is being replicated.\n(B) is wrong because the number of mitochondria reflects energy needs and not DNA synthesis.\n(C) is wrong because the pH of the cytoplasm has no reliable link to whether replication is under way."
     },
     {
       "id": "4-19",
@@ -2982,7 +2982,7 @@ const QUESTIONS = {
         "Whether nutrients are sufficiently available for the cell to continue dividing normally at all"
       ],
       "correct": 0,
-      "explanation": "The M checkpoint specifically monitors spindle attachment to prevent anaphase from starting prematurely, so choice A is correct. Choice C is wrong because replication accuracy is instead assessed at the G2 checkpoint. Choice B is wrong because cell size is evaluated at the G1 checkpoint, not the M checkpoint. Choice D is wrong because nutrient availability is also a G1 checkpoint consideration, unrelated to spindle attachment."
+      "explanation": "Correct: whether chromosomes are properly attached to spindle fibers. The M checkpoint, also called the spindle checkpoint, acts at the transition from metaphase to anaphase. It makes sure every chromosome is correctly attached to spindle microtubules (at its kinetochore) before the cell is allowed to separate sister chromatids, which prevents the chromosomes from being divided unevenly. The other main checkpoints are different: the G1 checkpoint checks cell size, nutrients, growth signals, and DNA damage; the G2 checkpoint checks that DNA replication is complete and accurate.\n\n(C) is wrong because checking that DNA has been replicated correctly is the job of the G2 checkpoint.\n(B) is wrong because cell size is checked at the G1 checkpoint (and G2).\n(D) is wrong because nutrient availability is also evaluated at G1, not at the M checkpoint."
     },
     {
       "id": "4-21",
@@ -2995,7 +2995,7 @@ const QUESTIONS = {
         "The cell would immediately repair the underlying DNA damage on its own"
       ],
       "correct": 0,
-      "explanation": "An unattached chromosome that proceeds into anaphase anyway risks being misdirected, leaving one daughter cell with too many chromosomes and the other with too few — aneuploidy — making choice A correct. Choice B is wrong because proper attachment is in fact essential for accurate division. Choice D is wrong because this scenario involves a spindle attachment error, not DNA damage, so no repair process is triggered. Choice C is wrong because this error has no established effect on whether the next cycle's S phase occurs."
+      "explanation": "Correct: uneven chromosome distribution to daughter cells, potentially aneuploidy. The M checkpoint is supposed to stop the cell until every chromosome is attached to the spindle. If it fails and the cell enters anaphase with one chromosome not attached, that chromosome may not be pulled to a pole properly, so one daughter cell may receive an extra chromosome and the other may be missing it. That is aneuploidy, a change in chromosome number that is often harmful to cells and is common in cancer cells.\n\n(B) is wrong because correct attachment is essential for accurate division.\n(D) is wrong because this error is about the spindle and not about damaged DNA, and the cell has no mechanism to repair it at this stage.\n(C) is wrong because the failed checkpoint has no effect on whether the next round of the cycle includes an S phase."
     },
     {
       "id": "4-22",
@@ -3008,7 +3008,7 @@ const QUESTIONS = {
         "CDKs regulate cyclin levels, while cyclins play no role in the checkpoints at all, ever"
       ],
       "correct": 0,
-      "explanation": "Cyclins must bind CDKs to activate them, and it's specific cyclin-CDK pairings reaching sufficient levels that push the cell past particular checkpoints, making choice A correct. Choice C is wrong because cyclins and CDKs work together, not independently — CDKs are inactive without their cyclin partner. Choice D is wrong because it reverses the relationship: cyclins activate CDKs, not the other way around. Choice B is wrong because they are distinct molecule types — a regulatory protein and an enzyme — not synonyms."
+      "explanation": "Correct: cyclins bind and activate CDKs, and cyclin-CDK pairs reaching required activity drive progression past checkpoints. A CDK (cyclin-dependent kinase) is an enzyme that adds phosphate groups to target proteins; its levels in the cell stay fairly constant, but on its own it is inactive. Cyclin levels rise and fall at set times during the cell cycle. When a particular cyclin builds up and binds its CDK, the CDK is switched on and phosphorylates the proteins that push the cell past a checkpoint (for example, from G1 into S phase, or from G2 into mitosis). The name says it: the kinase is 'cyclin-dependent.'\n\n(B) is wrong because a cyclin (a regulatory protein) and a CDK (an enzyme) are different molecules.\n(C) is wrong because they work together; a CDK is inactive without its cyclin.\n(D) is wrong because it reverses the roles: cyclins activate CDKs, and cyclins are central to getting past checkpoints."
     },
     {
       "id": "4-23",
@@ -3021,7 +3021,7 @@ const QUESTIONS = {
         "DNA damage occurring during G2 has no effect on cell cycle progression"
       ],
       "correct": 1,
-      "explanation": "The G2 checkpoint is designed to catch DNA damage before mitosis and halt the cycle for repair, or trigger apoptosis if the damage is unrepairable, making choice B correct. Choice A is wrong because normal checkpoint function specifically prevents proceeding with significant unrepaired damage. Choice C is wrong because cells don't reverse from G2 back into G1 in this way. Choice D is wrong because significant DNA damage is exactly the kind of problem the G2 checkpoint is built to detect and respond to."
+      "explanation": "Correct: the G2 checkpoint detects the damage and halts the cycle. The G2 checkpoint is a quality-control point before mitosis. It checks that DNA replication is complete and that the DNA is undamaged. If damage is detected (by sensor proteins that activate p53 and other regulators), the cyclin-CDK activity needed to enter mitosis is blocked, so the cell pauses and repairs the DNA. If the damage is too severe to repair, the cell may undergo apoptosis (programmed cell death).\n\n(A) is wrong because normal checkpoints prevent a cell with damaged DNA from entering mitosis, where the damage could be passed on or made worse.\n(C) is wrong because the cell cycle does not run backward from G2 to G1.\n(D) is wrong because DNA damage is exactly what this checkpoint is designed to detect."
     },
     {
       "id": "4-24",
@@ -3034,7 +3034,7 @@ const QUESTIONS = {
         "Checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation"
       ],
       "correct": 3,
-      "explanation": "Checkpoints act as quality control, stopping cells with damage or incomplete processes from dividing and thereby limiting mutation spread and abnormal chromosome counts, making choice D correct. Choice C is wrong because checkpoints have a clear, essential protective function, not an incidental one. Choice A is wrong because slowing division is a side effect, not the actual functional purpose, which is quality control. Choice B is wrong because checkpoints are a defining feature of eukaryotic cell cycle regulation, not a prokaryotic one — prokaryotes lack this checkpoint system."
+      "explanation": "Correct: checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation. Checkpoints work like quality control stations in the cell cycle: they stop the cycle until a problem is fixed. The G1 checkpoint checks size, nutrients, growth signals, and DNA damage; the G2 checkpoint checks that DNA replication is complete and accurate; the M (spindle) checkpoint checks that chromosomes are attached to the spindle. This keeps damaged or incomplete cells from dividing and passing on mutations or an abnormal number of chromosomes, which is why failure of checkpoints is a hallmark of cancer.\n\n(A) is wrong because slowing division is only a side effect; the purpose is quality control.\n(B) is wrong because this checkpoint system is a feature of eukaryotic cell cycle control; prokaryotes divide by binary fission and do not have the same system.\n(C) is wrong because the checkpoints have a clear, essential function."
     },
     {
       "id": "4-25",
@@ -3048,7 +3048,7 @@ const QUESTIONS = {
         "Cyclin levels have no meaningful relationship to CDK activity whatsoever"
       ],
       "correct": 0,
-      "explanation": "It's the fluctuating rise and fall of cyclin levels, not just their presence, that times CDK activation correctly, so constant high cyclin could disrupt that timing and cause premature checkpoint passage, making choice A correct. Choice C is wrong because cyclin dynamics are essential to CDK timing, not irrelevant. Choice B is wrong because constant activation would more plausibly drive inappropriate progression, not a total block on division. Choice D is wrong because cyclins directly activate CDKs, making their relationship central to cycle regulation."
+      "explanation": "Correct: checkpoint regulation would likely be disrupted. In a normal cell, cyclin levels rise and fall in a pattern, and that pattern times the activation of CDKs: each cyclin-CDK complex is active only at the right point in the cycle, then the cyclin is broken down. If cyclin levels stay high all the time, CDKs would stay active when they should not be, so the cell could pass checkpoints before the necessary conditions are met (for example, entering mitosis before DNA replication is finished) or skip the normal pauses. The result is a loss of control over the timing of the cell cycle.\n\n(B) is wrong because constant CDK activation pushes a cell toward inappropriate division, not toward being unable to divide.\n(C) is wrong because the rise and fall of cyclin levels is what normally controls CDK activity, and CDK levels remain steady, so cyclin is the variable that matters.\n(D) is wrong because cyclins directly activate CDKs."
     },
     {
       "id": "4-26",
@@ -3061,7 +3061,7 @@ const QUESTIONS = {
         "It normally promotes cell division when appropriately signaled to do so"
       ],
       "correct": 3,
-      "explanation": "A proto-oncogene's normal job is promoting division under appropriate signaling, making choice D correct. Choice A is wrong because inhibiting division describes a tumor suppressor gene's role, not a proto-oncogene's. Choice B is wrong because proto-oncogenes are functionally important and active in healthy cells, not inert. Choice C is wrong because DNA repair is a separate function associated with different genes, not the defining role of a proto-oncogene."
+      "explanation": "Correct: it normally promotes cell division when appropriately signaled to do so. Proto-oncogenes are normal genes that act like the gas pedal of the cell cycle. Many code for proteins in growth-signaling pathways, such as growth factors, growth factor receptors, Ras (a G protein), and cyclins. In a healthy cell, they stimulate division when growth signals are present and are quiet when they are not.\n\n(A) is wrong because inhibiting division is the job of tumor suppressor genes (the brakes).\n(B) is wrong because proto-oncogenes have important functions in normal cell growth and division.\n(C) is wrong because DNA repair is a job of other genes (some of which are tumor suppressors), and it is not the defining role of proto-oncogenes."
     },
     {
       "id": "4-27",
@@ -3074,7 +3074,7 @@ const QUESTIONS = {
         "Proto-oncogenes are structurally incapable of ever being mutated in the first place, under any condition"
       ],
       "correct": 2,
-      "explanation": "Turning a proto-oncogene into an oncogene requires a gain-of-function change that boosts or deregulates its division-promoting activity, making choice C correct. Choice A is wrong because loss-of-function is instead the pattern seen in tumor suppressor gene mutations, not oncogene formation. Choice B is wrong because not every mutation type produces an oncogene — the functional direction of the mutation specifically matters. Choice D is wrong because proto-oncogenes are ordinary genes and are fully capable of being mutated."
+      "explanation": "Correct: a gain-of-function mutation causing inappropriate or continuous division. A proto-oncogene becomes an oncogene when a mutation makes its product more active or present in higher amounts than normal. Examples: a mutation in Ras that locks it in its active GTP-bound state, a mutation that makes a growth factor receptor signal without its ligand, or extra copies of a gene (gene amplification) that make too much of a growth-promoting protein. A single mutated copy is enough to push the cell toward division, like a stuck gas pedal.\n\n(A) is wrong because a loss-of-function mutation would make the gene less active, which does not produce a cancer-promoting gene; loss of function is the pattern for tumor suppressors.\n(B) is wrong because the direction of the effect matters; not every mutation creates an oncogene.\n(D) is wrong because proto-oncogenes are ordinary genes and can mutate like any others."
     },
     {
       "id": "4-28",
@@ -3087,7 +3087,7 @@ const QUESTIONS = {
         "A loss-of-function mutation eliminating the gene's inhibitory or repair role"
       ],
       "correct": 3,
-      "explanation": "Tumor suppressor genes become cancer-associated through loss-of-function mutations that remove their protective division-inhibiting or repair role, making choice D correct. Choice B is wrong because gain-of-function is instead the pattern associated with converting proto-oncogenes into oncogenes. Choice C is wrong because tumor suppressor gene mutations are a major, well-documented contributor to cancer. Choice A is wrong because mutating a tumor suppressor gene doesn't transform it into an entirely different gene category."
+      "explanation": "Correct: a loss-of-function mutation eliminating the gene's inhibitory or repair role. Tumor suppressor genes (such as p53, Rb, and BRCA1/2) code for proteins that restrain division, repair DNA, or trigger apoptosis, like the brakes of the cell cycle. Cancer arises when these genes lose their function, so the brakes fail. Usually both copies must be lost (one from each chromosome) before the effect appears, because one normal copy is often enough to keep the protein working. A person who inherits one damaged copy needs only one more hit to lose the function, which is why such inherited mutations raise cancer risk.\n\n(B) is wrong because gain-of-function is the pattern for turning proto-oncogenes into oncogenes.\n(C) is wrong because tumor suppressor mutations are a major cause of cancer.\n(A) is wrong because a mutated tumor suppressor does not turn into a proto-oncogene; it simply stops doing its job."
     },
     {
       "id": "4-29",
@@ -3100,7 +3100,7 @@ const QUESTIONS = {
         "Mutations are incapable of accumulating within the same cell lineage over successive rounds of cell division in the body"
       ],
       "correct": 1,
-      "explanation": "Because checkpoints and tumor suppressor genes provide layered protection, cancer typically needs both an abnormal division-promoting mutation and a failure of the safeguards meant to catch it, making choice B correct. Choice A is wrong because a single mutation is usually insufficient on its own, given these redundant safeguards. Choice C is wrong because it contradicts the well-established multi-mutation model of cancer development. Choice D is wrong because mutations accumulating within one lineage over successive divisions is exactly the mechanism underlying cancer progression."
+      "explanation": "Correct: safeguards normally catch problems, so cancer needs both an abnormal drive to divide and a failure of safeguards. A cell has layers of protection: checkpoints, DNA repair, tumor suppressor proteins such as p53, and apoptosis. One mutation that turns on an oncogene (the gas pedal) can be caught by these safeguards, so the cell stops or dies. Cancer typically develops when mutations also disable the safeguards (the brakes), and further mutations help the cell evade apoptosis, grow blood vessels, and spread. These mutations accumulate in a single line of cells as they divide, which is why cancer risk increases with age. Colorectal cancer, for example, usually develops after changes in several genes (APC, KRAS, and p53).\n\n(A) is wrong because a single mutation is usually not enough.\n(C) is wrong because it contradicts the well-established multi-step model.\n(D) is wrong because mutations do accumulate in a cell lineage over successive divisions."
     },
     {
       "id": "4-30",
@@ -3113,7 +3113,7 @@ const QUESTIONS = {
         "Show improved detection of DNA damage compared to a normal cell"
       ],
       "correct": 1,
-      "explanation": "Losing p53 function removes the cell's ability to halt the cycle or trigger apoptosis in response to damage, allowing damaged cells to continue dividing, making choice B correct. Choice D is wrong because losing p53 function impairs detection and response, rather than improving it. Choice C is wrong because the mutation removes a brake on division rather than halting the cell entirely. Choice A is wrong because losing both functional p53 copies is a significant, consequential change, not a neutral one — it's found in a large share of human cancers."
+      "explanation": "Correct: have an impaired ability to halt division or trigger apoptosis after DNA damage. The protein p53 acts as a major brake: when DNA is damaged, p53 stops the cell cycle (so that the damage can be repaired) or, if the damage is too severe, triggers apoptosis. A cell that has lost both working copies of the p53 gene can no longer do either, so cells with damaged DNA keep dividing and pass their mutations on. This is why p53 is mutated in roughly half of all human cancers.\n\n(D) is wrong because losing p53 impairs the cell's response to damage; it does not improve it.\n(C) is wrong because the loss removes a brake, so the cell does not stop dividing.\n(A) is wrong because losing both copies of such a key regulator is a major change, not a neutral one."
     },
     {
       "id": "4-31",
@@ -3126,7 +3126,7 @@ const QUESTIONS = {
         "An oncogene inhibits division while a tumor suppressor gene instead promotes it"
       ],
       "correct": 0,
-      "explanation": "The stuck-gas-pedal versus failed-brakes analogy accurately captures how an oncogene drives continuous division while a mutated tumor suppressor gene removes normal restraint, making choice A correct. Choice B is wrong because oncogenes and mutated tumor suppressors act through opposite mechanisms, not identical ones. Choice D is wrong because it reverses the actual roles — oncogenes promote division and tumor suppressors normally restrain it. Choice C is wrong because both gene categories are directly and centrally involved in controlling division."
+      "explanation": "Correct: an oncogene is like a stuck gas pedal on division, while a mutated tumor suppressor gene is like failed brakes. A car moves at a controlled speed because it has both a gas pedal and brakes. In the cell, proto-oncogenes are the gas pedal, and a gain-of-function mutation (an oncogene) makes the pedal stuck down so the cell is pushed to divide continuously. Tumor suppressor genes are the brakes, and a loss-of-function mutation means nothing restrains division or repairs damage. Either problem can lead to uncontrolled division, and cancer often involves both.\n\n(D) is wrong because it reverses the roles: oncogenes promote division, and tumor suppressors restrain it.\n(B) is wrong because the two kinds of genes work in opposite ways.\n(C) is wrong because both kinds of genes are central to controlling the cell cycle."
     },
     {
       "id": "4-32",
@@ -3139,7 +3139,7 @@ const QUESTIONS = {
         "A mutation with no meaningful relationship to any cell signaling pathway"
       ],
       "correct": 2,
-      "explanation": "Continuous, ligand-independent activation is the classic signature of a gain-of-function mutation locking part of the pathway on, such as in a receptor or G protein, making choice C correct. Choice B is wrong because a mismatch repair gene defect affects DNA repair, not signaling pathway activity directly. Choice D is wrong because the observed phenotype is directly tied to signaling pathway behavior. Choice A is wrong because deleting the entire pathway would eliminate signaling altogether, not cause continuous activation."
+      "explanation": "Correct: a gain-of-function mutation locking the pathway active without ligand. A normal growth-signaling pathway is on only when a growth factor binds its receptor. A pathway that is active with no ligand present must have a component that is stuck in the 'on' state, for example, a receptor that signals without binding its ligand, or a Ras protein or G protein that is locked in its active GTP-bound form. That is a gain-of-function mutation, and it turns the proto-oncogene for that component into an oncogene.\n\n(A) is wrong because deleting the whole pathway would remove signaling, not make it continuous.\n(B) is wrong because a defect in mismatch repair affects how DNA errors are fixed and does not directly turn on a signaling pathway.\n(D) is wrong because the observation is directly about the behavior of a signaling pathway."
     },
     {
       "id": "4-33",
@@ -3152,7 +3152,7 @@ const QUESTIONS = {
         "Only target cells possess the receptor needed to bind that hormone"
       ],
       "correct": 3,
-      "explanation": "Hormone specificity comes down to which cells express the matching receptor, so only target cells with that receptor respond, making choice D correct. Choice C is wrong because essentially all cells in the body contain DNA, target or not. Choice B is wrong because a bloodstream-circulated hormone physically reaches non-target cells too — it's receptor absence, not avoidance, that prevents a response. Choice A is wrong because cells without the matching receptor do not respond at all, contradicting a uniform response."
+      "explanation": "Correct: only target cells possess the receptor needed to bind that hormone. Hormones travel through the blood to all parts of the body, so they reach every cell. But a hormone can cause a response only in cells that have the matching receptor, because the receptor is what detects the hormone and starts the signal pathway. Cells that lack the receptor are exposed to the hormone but ignore it. The same hormone can even cause different responses in different target cells, depending on the pathways connected to the receptor (epinephrine, for example, breaks down glycogen in liver cells but increases heart rate in heart cells).\n\n(A) is wrong because cells without the receptor do not respond.\n(B) is wrong because circulating hormones reach non-target cells too.\n(C) is wrong because almost all cells have DNA, so that does not explain the difference."
     },
     {
       "id": "4-34",
@@ -3165,7 +3165,7 @@ const QUESTIONS = {
         "The pathway would likely be disrupted downstream of the blocked kinase"
       ],
       "correct": 3,
-      "explanation": "Since each step of a cascade generally depends on the one before it, blocking a kinase partway through would disrupt everything downstream of that point, making choice D correct. Choice A is wrong because a sequential cascade cannot simply bypass a blocked step. Choice C is wrong because blocking a component would be expected to reduce or stop signaling, not paradoxically increase it. Choice B is wrong because kinases are frequently central, essential components of transduction cascades."
+      "explanation": "Correct: the pathway would likely be disrupted downstream of the blocked kinase. A kinase cascade is a chain of steps: each kinase phosphorylates (and activates) the next protein, which then activates the one after it. If a kinase in the middle is blocked, the signal cannot get past that point, so the proteins after it are not activated and the final response (such as a change in gene expression) does not occur. This is also how many cancer drugs work: for example, imatinib blocks an overactive kinase and stops the signal that drives the cancer cells' growth.\n\n(A) is wrong because a sequential cascade cannot skip a blocked step.\n(C) is wrong because blocking a component should lower the signal, not make the pathway permanently active.\n(B) is wrong because kinases are central, essential parts of many signaling pathways."
     },
     {
       "id": "4-35",
@@ -3178,7 +3178,7 @@ const QUESTIONS = {
         "Metaphase, prophase, telophase, anaphase"
       ],
       "correct": 0,
-      "explanation": "Prophase, metaphase, anaphase, telophase (PMAT) is the correct order of mitosis's sub-phases, making choice A correct. Choice D is wrong because it places prophase after metaphase, out of sequence. Choice C is wrong because it starts with anaphase, which cannot occur before chromosomes have even condensed or aligned. Choice B is wrong because it is simply the correct order run entirely backward, ending rather than beginning with prophase."
+      "explanation": "Correct: prophase, metaphase, anaphase, telophase. In prophase the chromosomes condense, the spindle begins to form, and the nuclear envelope breaks down. In metaphase the chromosomes line up at the center (the metaphase plate), each attached to spindle fibers. In anaphase the sister chromatids separate and are pulled to opposite poles. In telophase two nuclei re-form around the separated chromosomes, which decondense, and cytokinesis then divides the cytoplasm. A memory aid is PMAT, or 'Please Make Another Taco.'\n\n(D) is wrong because it puts metaphase before prophase, but chromosomes must condense before they can line up.\n(C) is wrong because it starts with anaphase, which cannot happen before the chromosomes are condensed and aligned.\n(B) is wrong because it is the correct order backward."
     },
     {
       "id": "4-36",
@@ -3191,7 +3191,7 @@ const QUESTIONS = {
         "To remove the cell's normal need for DNA replication before it divides"
       ],
       "correct": 2,
-      "explanation": "The checkpoint system's overall job is evaluating conditions and pausing the cycle when problems arise, protecting the resulting daughter cells, making choice C correct. Choice B is wrong because checkpoints exist to ensure correctness, sometimes slowing division, not to maximize speed regardless of conditions. Choice D is wrong because DNA replication remains a required step that checkpoints monitor, not eliminate. Choice A is wrong because checkpoints are a well-established, essential regulatory system, not a functionless one."
+      "explanation": "Correct: to evaluate internal and external conditions at key points, halting the cycle if problems are detected. The checkpoints (G1, G2, and M) work together as a quality-control system. They monitor internal conditions (DNA damage, whether replication is complete, whether the chromosomes are attached to the spindle) and external conditions (nutrients and growth signals). If something is wrong, the cycle is paused so the problem can be fixed, or the cell undergoes apoptosis. This protects the daughter cells from inheriting damaged or incomplete genomes.\n\n(B) is wrong because the checkpoints exist to make sure that division is accurate, even if that means slowing it down.\n(D) is wrong because DNA replication is still required, and the checkpoints monitor it.\n(A) is wrong because checkpoints are an essential regulatory system."
     },
     {
       "id": "4-37",
@@ -3204,7 +3204,7 @@ const QUESTIONS = {
         "Only tumor suppressor genes are present in genuinely healthy, non-cancerous cells of the body"
       ],
       "correct": 1,
-      "explanation": "Both gene categories are normal, functioning parts of healthy cells with important regulatory roles, making choice B correct. Choice A is wrong because these genes are present in every normal cell, not exclusively in cancer cells — it's their mutation, not their presence, that matters for cancer. Choice C is wrong because proto-oncogenes are equally present and functioning in healthy cells. Choice D is wrong because tumor suppressor genes are likewise present and functioning in healthy cells."
+      "explanation": "Correct: both proto-oncogenes and tumor suppressor genes are present and functioning normally in healthy cells. Every healthy cell has both types: proto-oncogenes encourage division when growth signals are present (the gas pedal), and tumor suppressor genes restrain division and repair damage (the brakes). Together they keep division balanced. Cancer arises not from having these genes but from MUTATIONS in them: a gain-of-function mutation turns a proto-oncogene into an oncogene, and loss-of-function mutations disable tumor suppressors.\n\n(A) is wrong because these genes are present in all normal cells.\n(C) is wrong because tumor suppressor genes are just as present and necessary in healthy cells.\n(D) is wrong because proto-oncogenes are also present and have normal roles in healthy cells."
     },
     {
       "id": "4-38",
@@ -3217,7 +3217,7 @@ const QUESTIONS = {
         "A hormone traveling through the bloodstream to reach a distant target cell"
       ],
       "correct": 0,
-      "explanation": "Gap junctions physically connecting adjacent cells' cytoplasm is a defining example of direct contact signaling, making choice A correct. Choice D is wrong because bloodstream travel to a distant target describes endocrine signaling, not direct contact. Choice C is wrong because a cell responding to its own secreted signal describes autocrine signaling, not direct contact. Choice B is wrong because local diffusion to nearby cells describes paracrine signaling, which does not require physical touching."
+      "explanation": "Correct: two adjacent cells communicating through gap junctions. In direct contact signaling, cells communicate through physical contact. In animals, gap junctions are channels that connect the cytoplasm of neighboring cells so that ions and small molecules pass directly between them (in plants, plasmodesmata do the same job). Cells can also communicate by contact when a molecule on the surface of one cell binds a receptor on an adjacent cell. The other types involve secreted signals: paracrine signals diffuse to nearby cells, autocrine signals act on the cell that made them, and endocrine signals travel in the blood.\n\n(B) is wrong because a local growth factor diffusing outward is paracrine signaling.\n(C) is wrong because a cell responding to its own secreted signal is autocrine signaling.\n(D) is wrong because a hormone traveling in the bloodstream to a distant target is endocrine signaling."
     },
     {
       "id": "4-39",
@@ -3230,7 +3230,7 @@ const QUESTIONS = {
         "The original extracellular ligand molecule once it has entered the cell"
       ],
       "correct": 0,
-      "explanation": "Second messengers are small intracellular molecules generated after receptor activation that relay and amplify the signal, making choice A correct. Choice D is wrong because second messengers are distinct newly produced molecules, not the original ligand, which in many cases never enters the cell at all. Choice B is wrong because second messengers are a normal, primary part of transduction, not a backup system. Choice C is wrong because second messengers propagate signaling forward rather than shutting pathways down."
+      "explanation": "Correct: small molecules made inside the cell that relay and amplify the receptor's signal. The ligand outside the cell is the 'first messenger.' When it activates a receptor, the receptor pathway often causes the cell to make second messengers: small, water-soluble molecules or ions such as cAMP, calcium ions (Ca2+), and IP3. They spread quickly through the cytoplasm and activate many target proteins (for example, cAMP activates protein kinase A). Because one activated receptor can lead to the production of many second messenger molecules, they amplify the signal.\n\n(D) is wrong because the original ligand is a separate molecule, which often never enters the cell.\n(B) is wrong because second messengers are part of the normal pathway, not a backup system.\n(C) is wrong because second messengers carry the signal forward; they are not what turns pathways off."
     },
     {
       "id": "4-40",
@@ -3243,7 +3243,7 @@ const QUESTIONS = {
         "The chromosomes have already separated into two distinct daughter cells"
       ],
       "correct": 2,
-      "explanation": "Right after S phase, each chromosome has been duplicated into two joined sister chromatids, making choice C correct. Choice B is wrong because DNA content has doubled after S phase, not halved. Choice D is wrong because chromatid separation and cell division happen much later, during anaphase and cytokinesis, not immediately after S phase. Choice A is wrong because DNA replication is the defining event of S phase, which has just been completed."
+      "explanation": "Correct: each chromosome now has two identical sister chromatids, joined at the centromere. During S phase the cell copies all of its DNA, so each chromosome is duplicated into two identical sister chromatids held together at the centromere. The amount of DNA has doubled, but the NUMBER of chromosomes is still the same, because the two chromatids of a duplicated chromosome are counted as one chromosome (a human cell still has 46 chromosomes, now made of 92 chromatids). The chromatids are separated later, during anaphase of mitosis.\n\n(A) is wrong because replication is exactly what takes place in S phase.\n(B) is wrong because the DNA content doubled, not halved.\n(D) is wrong because separation of the chromatids and division of the cell happen later, in mitosis and cytokinesis."
     },
     {
       "id": "4-41",
@@ -3269,7 +3269,7 @@ const QUESTIONS = {
         "A programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair"
       ],
       "correct": 3,
-      "explanation": "Apoptosis is a controlled, programmed process triggered as a safeguard against severe, unrepairable DNA damage, making choice D correct. Choice C is wrong because apoptosis is tightly regulated and intentional, not accidental or uncontrolled. Choice B is wrong because apoptosis is a normal process occurring throughout healthy tissue, not confined to cancer cells. Choice A is wrong because apoptosis eliminates a cell entirely, while mitosis produces two new living daughter cells — they are fundamentally different processes."
+      "explanation": "Correct: a programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair. In apoptosis a cell carries out a controlled self-destruction using enzymes called caspases: the cell shrinks, its DNA is cut up, and its remains are packaged and removed by neighboring cells without causing inflammation. Apoptosis is a safeguard: when a checkpoint (via p53) finds damage that cannot be repaired, the cell is told to die instead of dividing. It also shapes development, such as removing the webbing between developing fingers, and cancer cells often evade it.\n\n(C) is wrong because apoptosis is regulated and purposeful; uncontrolled, accidental cell death is necrosis.\n(B) is wrong because apoptosis happens normally in healthy tissue all the time.\n(A) is wrong because mitosis makes two new cells, while apoptosis removes a cell."
     },
     {
       "id": "4-43",
@@ -3282,7 +3282,7 @@ const QUESTIONS = {
         "The cell's response to the ligand would remain entirely unaffected by the blockage"
       ],
       "correct": 2,
-      "explanation": "With the binding site physically occupied by the antibody, the ligand can no longer activate the receptor, so signaling is blocked or reduced, making choice C correct. Choice B is wrong because occupying the binding site directly prevents normal receptor activation. Choice D is wrong because blocking the receptor would be expected to weaken, not strengthen, the response. Choice A is wrong because membrane-bound receptor signaling does not require the ligand to enter the cell, occupied or not."
+      "explanation": "Correct: the cell's response to that ligand would likely be blocked or reduced. A ligand activates a receptor by binding to its binding site. If an antibody is occupying that site, the ligand cannot bind, so the receptor is not activated and no signal transduction pathway starts, which blocks or reduces the response. This is how many drugs work: receptor blockers (such as beta blockers) and therapeutic antibodies keep the natural ligand from binding its receptor.\n\n(B) is wrong because blocking the binding site cannot increase the response.\n(D) is wrong because the response would not stay the same.\n(A) is wrong because ligands that bind a membrane-bound receptor do not have to enter the cell; the receptor passes the signal inside."
     },
     {
       "id": "4-44",
@@ -3295,7 +3295,7 @@ const QUESTIONS = {
         "A change in gene expression"
       ],
       "correct": 3,
-      "explanation": "Since transcription factors regulate gene transcription in the nucleus, their activation most directly points to a change in gene expression as the pathway's outcome, making choice D correct. Choice C is wrong because it describes an entirely different, membrane-level effect unrelated to a nuclear transcription factor. Choice A is wrong because ATP synthesis is a metabolic process, not something transcription factor activity directly performs. Choice B is wrong because transcription factor activation typically regulates specific genes, not an automatic trigger for cell death."
+      "explanation": "Correct: a change in gene expression. Transcription factors are proteins that bind to DNA and turn specific genes on or off (that is, they control transcription). If a signal transduction pathway ends with a transcription factor moving into the nucleus, the pathway is changing which genes are transcribed, so the cell makes different mRNA and different proteins. This is a typical way for cells to respond to growth factors and steroid hormones.\n\n(A) is wrong because making ATP is a metabolic process done mainly by mitochondria, not a direct effect of a transcription factor.\n(B) is wrong because transcription factors usually regulate specific genes and do not automatically cause cell death.\n(C) is wrong because a change in membrane permeability is a different kind of response that does not involve the nucleus."
     },
     {
       "id": "4-45",
@@ -3308,7 +3308,7 @@ const QUESTIONS = {
         "A mutation affecting spindle fiber formation or function"
       ],
       "correct": 3,
-      "explanation": "Spindle fibers are the structures that physically pull sister chromatids apart during anaphase, so a mutation disrupting them would most directly interfere with separation, making choice D correct. Choice C is wrong because it specifies an enzyme unrelated to division, so it wouldn't directly affect chromatid separation. Choice B is wrong because cell size alone doesn't determine spindle function. Choice A is wrong because it explicitly states no effect on the mitotic machinery, ruling out disruption of anaphase."
+      "explanation": "Correct: a mutation affecting spindle fiber formation or function. During anaphase, spindle fibers (microtubules) attached to the kinetochores of the chromosomes shorten and pull the sister chromatids apart toward opposite poles. If the spindle cannot form or work properly, the chromatids cannot be separated correctly. Cancer drugs such as paclitaxel (Taxol) and the compound colchicine work by interfering with microtubules and so stop mitosis.\n\n(C) is wrong because an enzyme with no role in division would not directly affect chromatid separation.\n(B) is wrong because an increase in cell size by itself does not stop the spindle from working.\n(A) is wrong because a change in outside pH with no effect on the mitotic machinery would not disrupt anaphase."
     },
     {
       "id": "4-46",
@@ -3321,7 +3321,7 @@ const QUESTIONS = {
         "This scenario is not a scientifically plausible strategy for any cancer treatment"
       ],
       "correct": 0,
-      "explanation": "Since checkpoint function is already lost, an effective strategy must trigger apoptosis through a different route that bypasses the defective checkpoint trigger, making choice A correct. Choice C is wrong because targeting an unrelated pathway wouldn't achieve the goal of forcing apoptosis in these specific cells. Choice B is wrong because targeting only replication timing wouldn't directly activate the cell death pathway needed. Choice D is wrong because this bypass strategy reflects real, established classes of cancer therapeutics."
+      "explanation": "Correct: the pathway leading to programmed cell death, bypassed around the defective checkpoint trigger. Normally, a checkpoint (acting through p53) detects damage and triggers apoptosis. In cancer cells with defective checkpoints that trigger does not work, so the damaged cells survive and divide. A treatment would therefore have to start apoptosis another way: by directly activating the death machinery downstream of the broken trigger (for example, activating the caspases) or by blocking the proteins that protect cancer cells from apoptosis. Some existing drugs work like this, such as drugs that inhibit the anti-apoptotic protein BCL-2.\n\n(B) is wrong because targeting only the timing of DNA replication would not directly cause the cells to die.\n(C) is wrong because an unrelated metabolic pathway would not force apoptosis.\n(D) is wrong because bypassing the defective trigger is a real, established strategy."
     },
     {
       "id": "4-47",
@@ -3334,7 +3334,7 @@ const QUESTIONS = {
         "Because every individual cancer cell is functionally identical to every other cancer cell in the entire tumor mass"
       ],
       "correct": 2,
-      "explanation": "Cancer is defined at the cellular level by loss of normal division control, tied to specific regulatory gene mutations, making choice C correct. Choice D is wrong because cancer cells actually vary considerably between and even within tumors, not identical. Choice B is wrong because cancer cells still contain DNA — their problem is regulatory, not an absence of genetic material. Choice A is wrong because cancer cells typically retain many normal cellular functions; it's specifically division control that is lost."
+      "explanation": "Correct: because cancer cells lose normal control over division, traceable to mutations in cell cycle regulatory genes. A healthy cell divides only when it receives the right signals and passes its checkpoints. In cancer, mutations in genes that regulate the cell cycle (oncogenes that stay switched on, tumor suppressors that are lost, and checkpoint proteins that fail) allow the cell to divide without the normal signals and to ignore damage. Other features of cancer, such as avoiding apoptosis, invading tissue, and spreading, develop after this loss of control. That is why cancer is described as a disease of cell cycle regulation and not simply 'abnormal cells.'\n\n(A) is wrong because cancer cells keep many normal cell functions; it is division control that is lost.\n(B) is wrong because cancer cells contain DNA, and their problem is mutated DNA.\n(D) is wrong because cancer cells in a tumor vary considerably from one to another."
     },
     {
       "id": "4-48",
@@ -3347,7 +3347,7 @@ const QUESTIONS = {
         "Paracrine signals are simply weaker chemical versions of endocrine signals in the same pathway, acting at lower doses on cells"
       ],
       "correct": 2,
-      "explanation": "The core difference is the delivery route: paracrine signals diffuse locally without entering the bloodstream, while endocrine signals are released into the bloodstream for long-range travel, making choice C correct. Choice D is wrong because the distinction is about delivery distance, not signal strength or potency. Choice A is wrong because these two signaling types are meaningfully distinct in range and mechanism. Choice B is wrong because affecting only the releasing cell describes autocrine signaling, not endocrine."
+      "explanation": "Correct: paracrine signals travel short distances without entering the bloodstream, while endocrine signals are carried through it. A paracrine signal is released into the fluid between cells and diffuses only a short way, often being broken down or taken up quickly, so only nearby cells are affected (for example, a local growth factor or histamine released at a site of injury). An endocrine signal (a hormone) is released into the bloodstream and is carried all over the body, so it can affect target cells far from the source (for example, insulin released by the pancreas). The difference is the route and the distance, not the strength of the signal.\n\n(D) is wrong because the difference is not about signal strength or dose.\n(B) is wrong because a signal that acts on the cell that released it is autocrine.\n(A) is wrong because the two types clearly differ in range and delivery."
     },
     {
       "id": "4-49",
@@ -3360,7 +3360,7 @@ const QUESTIONS = {
         "There is no consistent sequence of events across cell signaling scenarios"
       ],
       "correct": 0,
-      "explanation": "Reception, transduction, response is the standard framework describing cell signaling from initial ligand binding to final outcome, making choice A correct. Choice C is wrong because it starts with the response before any signal has even been received. Choice B is wrong because it places reception, the necessary first step, at the end of the sequence instead of the beginning. Choice D is wrong because this three-stage sequence reliably applies across virtually all cell signaling scenarios."
+      "explanation": "Correct: reception (ligand binds receptor), transduction (signal relayed), response (outcome). Cell signaling has three stages in this order. In reception, a signal molecule (ligand) binds to a specific receptor. In transduction, the receptor's change in shape starts a series of steps (such as a cascade of phosphorylations or the release of second messengers) that relay the message and often amplify it. In response, the cell does something specific, such as changing gene expression, activating an enzyme, or rearranging the cytoskeleton. (B) and (C) are wrong because they put the stages in the wrong order: a response cannot occur before the signal has been received and relayed.\n\n(D) is wrong because this three-stage sequence describes cell signaling in general."
     },
     {
       "id": "4-50",
@@ -3373,7 +3373,7 @@ const QUESTIONS = {
         "Continuously cycling through mitosis over and over without ever stopping"
       ],
       "correct": 1,
-      "explanation": "Cells that permanently exit the active cycle, like most mature neurons, are described as being in G0, a distinct resting state, making choice B correct. Choice D is wrong because it describes the opposite behavior of a cell that has stopped dividing altogether. Choice C is wrong because being stuck in S phase would mean an incomplete, stalled replication process, not a stable resting state. Choice A is wrong because being stuck in anaphase would represent a division error, not the normal quiescent state these cells occupy."
+      "explanation": "Correct: G0, a resting state outside the normal active cell cycle. Cells that stop dividing leave the cycle in G1 and enter G0. In G0 the cell stays alive and does its normal job but does not prepare to divide. Some cells in G0 can be triggered to return to the cycle (for example, liver cells after an injury), while others, such as most mature neurons and muscle cells, stay in G0 permanently.\n\n(D) is wrong because continuous cycling is what actively dividing cells do, the opposite of a cell that has stopped.\n(C) is wrong because being stuck in S phase would mean replication that never finishes, which is a stalled cycle and not a normal resting state.\n(A) is wrong because being stuck in anaphase would be a failure of division, not the stable state of a non-dividing cell."
     },
     {
       "id": "4-51",
@@ -3386,7 +3386,7 @@ const QUESTIONS = {
         "Growth factors directly alter the DNA sequence itself to force cell division to occur"
       ],
       "correct": 1,
-      "explanation": "Growth factors work as ligands that bind receptors and trigger transduction pathways whose downstream targets include the cyclin-CDK machinery driving progression past G1, making choice B correct. Choice D is wrong because growth factors act through signaling, not by directly editing DNA sequence. Choice A is wrong because growth factors are themselves a textbook example of receptor-mediated cell signaling. Choice C is wrong because growth factors are typically large, polar molecules that bind surface receptors rather than bypassing them to enter the nucleus."
+      "explanation": "Correct: growth factors bind specific receptors. Growth factors are signaling molecules (ligands) released by other cells. A growth factor binds a specific receptor on the surface of the target cell. This starts a signal transduction pathway (for example, a kinase cascade) that leads to the production and activation of cyclins and CDKs, which then allow the cell to pass the G1 checkpoint and enter S phase. So growth factors are an example of the reception, transduction, and response sequence you learned in sections 4.1 and 4.2.\n\n(D) is wrong because growth factors do not edit the DNA sequence; they change gene expression and enzyme activity by signaling.\n(C) is wrong because growth factors are usually large, polar proteins that cannot enter the cell, so they bind surface receptors.\n(A) is wrong because growth factors are a textbook example of cell signaling."
     },
     {
       "id": "4-52",
@@ -3399,7 +3399,7 @@ const QUESTIONS = {
         "Two separate loss-of-function mutations in two unrelated, non-regulatory genes"
       ],
       "correct": 2,
-      "explanation": "The two-hit concept centers on combining an abnormal drive to divide with a disabled safeguard within the same cell lineage, making choice C correct. Choice A is wrong because a single isolated mutation, with other safeguards intact, is generally insufficient to drive cancer on its own. Choice D is wrong because mutations in unrelated, non-regulatory genes don't provide the combination of division drive and lost safeguard that cancer typically requires. Choice B is wrong because the complete absence of mutations would not be associated with cancer development at all."
+      "explanation": "Correct: a gain-of-function mutation in a proto-oncogene together with a loss-of-function mutation in a tumor suppressor gene. The two-hit idea is that cancer usually needs two kinds of change in the same cell line: something that pushes the cell to divide (an oncogene, the stuck gas pedal) and something that removes the safeguards that would stop it (a lost tumor suppressor, the failed brakes). With both, the cell divides abnormally and the damage is not caught.\n\n(A) is wrong because a single mutation in an oncogene with all the other regulators working is usually caught by checkpoints and tumor suppressors.\n(D) is wrong because mutations in non-regulatory genes do not give the cell both a drive to divide and a loss of safeguards.\n(B) is wrong because without mutations there would be no cancer."
     },
     {
       "id": "4-53",
@@ -3412,7 +3412,7 @@ const QUESTIONS = {
         "There is no meaningful mechanistic difference between these two types of receptors"
       ],
       "correct": 2,
-      "explanation": "The key distinction is where ligand binding occurs: at the surface without entry for membrane-bound receptors, versus inside the cell after entry for intracellular receptors, making choice C correct. Choice D is wrong because these two receptor types differ substantially in location and mechanism. Choice A is wrong because relative response speed isn't a defining mechanistic difference between the two types, and isn't universally true either way. Choice B is wrong because membrane-bound receptors are common and essential in eukaryotic cells, not limited to prokaryotes."
+      "explanation": "Correct: a membrane-bound receptor signals from the surface; an intracellular receptor binds a ligand that has entered. Large or polar ligands (like peptide hormones) cannot cross the plasma membrane, so they bind a receptor in the membrane, and the receptor passes the signal inside through a transduction pathway. Small, nonpolar ligands (like steroid hormones) diffuse across the membrane and bind a receptor in the cytoplasm or nucleus; the hormone-receptor complex often acts directly as a transcription factor.\n\n(A) is wrong because the intracellular route changes gene expression, which is usually slower, so it is not true that intracellular receptors always respond faster.\n(B) is wrong because membrane-bound receptors are common and essential in eukaryotic cells.\n(D) is wrong because the two types clearly differ in where the ligand binds and how the signal is carried."
     },
     {
       "id": "4-54",
@@ -3425,7 +3425,7 @@ const QUESTIONS = {
         "The observation described is biologically impossible and must indicate an experimental error"
       ],
       "correct": 2,
-      "explanation": "Modifying pre-existing proteins, such as through kinase-driven phosphorylation, can occur within seconds, far faster than new protein synthesis, making choice C correct. Choice A is wrong because new transcription and translation typically take much longer than seconds, making it an implausible explanation for this timescale. Choice D is wrong because rapid signaling responses are a real, well-documented phenomenon, not evidence of an error. Choice B is wrong because this fast response is still very much a signal transduction pathway outcome, just one based on modifying existing proteins."
+      "explanation": "Correct: modification of existing proteins already present, such as phosphorylation by a kinase. Changing gene expression means transcribing a gene and translating the mRNA into new protein, which takes many minutes to hours. A response within seconds has to use proteins that are already in the cell: for example, a kinase adding a phosphate group to an enzyme or channel to activate it, the release of calcium ions from storage, or a change in the opening of an ion channel. Such changes can happen almost immediately.\n\n(A) is wrong because transcription and translation are far too slow for a response within seconds.\n(D) is wrong because fast responses like this are well documented.\n(B) is wrong because these quick responses are still signal transduction pathways, using steps that change existing proteins."
     },
     {
       "id": "4-55",
@@ -3438,7 +3438,7 @@ const QUESTIONS = {
         "Mitosis typically takes up the vast majority of the total cell cycle's overall duration"
       ],
       "correct": 0,
-      "explanation": "Interphase, encompassing G1, S, and G2, dominates the overall cell cycle duration for most actively dividing cells, making choice A correct. Choice D is wrong because it reverses the actual relationship — mitosis is typically the shorter portion, despite appearing dramatic. Choice C is wrong because these two portions are not generally equal; interphase is usually much longer. Choice B is wrong because interphase reliably dominates cycle time across the great majority of actively dividing cell types."
+      "explanation": "Correct: interphase (G1, S, and G2) takes up the vast majority of the total cell cycle time, with mitosis comparatively brief. In a typical dividing human cell, a cell cycle of about 24 hours may have only about an hour of mitosis, and the remaining 20-plus hours are spent in interphase, when the cell grows, carries out its normal functions, replicates its DNA (S phase), and prepares for division. Because mitosis is so dramatic under a microscope, it is easy to forget that it is the shortest part of the cycle.\n\n(D) is wrong because it reverses the relationship.\n(C) is wrong because the two parts are not equal in length.\n(B) is wrong because interphase dominates the cycle in nearly all actively dividing cells."
     },
     {
       "id": "4-56",
@@ -3451,7 +3451,7 @@ const QUESTIONS = {
         "The cell cycle would end up being regulated even more precisely than it normally is"
       ],
       "correct": 0,
-      "explanation": "A CDK that's active without needing cyclin bypasses the normal timing mechanism, risking inappropriate progression through the cycle, making choice A correct. Choice D is wrong because bypassing a required regulatory step would degrade precision, not improve it. Choice C is wrong because a constitutively active CDK would more plausibly drive inappropriate entry into the cycle, not prevent entry altogether. Choice B is wrong because cyclin-independent CDK activity removes a key timing control, which is a functionally significant change."
+      "explanation": "Correct: cell cycle progression could occur inappropriately. CDKs are normally active only when they are bound to their partner cyclin, and cyclin levels rise and fall at set times, so CDK activity is switched on only at the right point in the cycle. A CDK that is active with no cyclin has lost this control. It would phosphorylate its targets all the time, and the cell could pass checkpoints or enter phases before it is ready, such as starting mitosis before the DNA is fully copied. This kind of loss of timing can contribute to uncontrolled division.\n\n(D) is wrong because removing a control makes regulation less precise, not more.\n(C) is wrong because an always-active CDK would push the cell to progress, not prevent it from entering the cycle.\n(B) is wrong because losing the cyclin requirement is a significant change in regulation."
     },
     {
       "id": "4-57",
@@ -3464,7 +3464,7 @@ const QUESTIONS = {
         "Loss-of-function mutations raise cancer risk; the gene normally inhibits division, repairs DNA, or triggers apoptosis"
       ],
       "correct": 3,
-      "explanation": "A gene whose loss of function raises cancer risk, and whose normal role is inhibiting division, repairing DNA, or triggering apoptosis, fits the defining pattern of a tumor suppressor gene, making choice D correct. Choice A is wrong because gain-of-function driving cancer risk is instead the pattern associated with proto-oncogenes, not tumor suppressors. Choice B is wrong because it would provide no evidence either way, rather than strong evidence for tumor suppressor status. Choice C is wrong because tumor suppressor genes are normally expressed in healthy cells, performing protective functions there."
+      "explanation": "Correct: loss-of-function mutations raise cancer risk; the gene normally inhibits division, repairs DNA, or triggers apoptosis. A tumor suppressor gene is defined by its normal role as a brake: it restrains division, repairs damaged DNA, or triggers apoptosis. The evidence for a tumor suppressor is that when the gene is lost or its function is disabled (a loss-of-function mutation), cancer becomes more likely. Examples are p53, Rb, and BRCA1 (people who inherit a damaged BRCA1 gene have a much higher risk of breast and ovarian cancer).\n\n(A) is wrong because increased cancer risk from GAIN-of-function mutations is the pattern of proto-oncogenes.\n(B) is wrong because a gene with no relationship to cancer risk gives no evidence of anything.\n(C) is wrong because tumor suppressor genes are expressed in healthy cells, where they protect against cancer."
     },
     {
       "id": "4-58",
@@ -3477,7 +3477,7 @@ const QUESTIONS = {
         "The pancreas releasing insulin into the bloodstream, affecting distant tissues"
       ],
       "correct": 3,
-      "explanation": "Insulin traveling through the bloodstream to reach distant target tissues throughout the body is a textbook endocrine signaling example, making choice D correct. Choice C is wrong because affecting only an adjacent cell describes paracrine (or direct synaptic) signaling, not the long-distance endocrine route. Choice A is wrong because a cell responding to its own secreted signal describes autocrine signaling. Choice B is wrong because gap junction communication between touching cells describes direct contact signaling, not endocrine."
+      "explanation": "Correct: the pancreas releasing insulin into the bloodstream, affecting distant tissues. Endocrine signaling uses hormones that are made by endocrine glands, released into the bloodstream, and carried to target cells that may be far away. Insulin is released by the pancreas and acts on liver, muscle, and fat cells throughout the body.\n\n(A) is wrong because a cell responding to a growth factor it released itself is autocrine signaling.\n(B) is wrong because touching cells communicating through a shared gap junction is direct contact signaling.\n(C) is wrong because a neurotransmitter crossing a synapse to the next neuron is a very short-range signal (paracrine-like, or synaptic), not one carried by the bloodstream."
     },
     {
       "id": "4-59",
@@ -3490,7 +3490,7 @@ const QUESTIONS = {
         "Multiple steps exist purely as an evolutionary accident, providing no functional benefit at all"
       ],
       "correct": 2,
-      "explanation": "Beyond amplification, multi-step pathways create multiple checkpoints for regulation and integration with other signals, giving the cell nuanced control, making choice C correct. Choice D is wrong because these multi-step pathways provide clear, well-documented functional benefits, not merely accidental complexity. Choice A is wrong because it overstates the case — while receptors generally don't perform the final response alone, the reasoning given (physical incapability) isn't the actual explanation for multi-step pathways. Choice B is wrong because the regulatory and integration benefits outweigh any added time cost, making it a functional tradeoff rather than pure downside."
+      "explanation": "Correct: multiple steps allow signal amplification and provide multiple points where the pathway can be regulated or integrated. A single ligand binding to one receptor can be amplified at every step of a cascade, so a tiny signal can have a large effect. Each step is also a place where the cell can control the pathway (for example, by an inhibitor or a phosphatase), a place where the signal can be linked with other pathways (crosstalk), and a place where the signal can branch to cause several different responses. This gives the cell fine control over its responses.\n\n(D) is wrong because the multiple steps have well-documented benefits.\n(B) is wrong because while a longer pathway may take slightly longer, the benefits of amplification and regulation are important.\n(A) is wrong because the reasoning is not about a receptor's physical inability; it is about the advantages of a multi-step pathway."
     },
     {
       "id": "4-60",
@@ -3503,7 +3503,7 @@ const QUESTIONS = {
         "Chromosome number following normal mitosis is fundamentally unpredictable"
       ],
       "correct": 2,
-      "explanation": "Mitosis is designed to produce daughter cells genetically identical to the parent, including matching chromosome number, making choice C correct. Choice B is wrong because halving the chromosome number is instead the outcome of meiosis, not mitosis. Choice A is wrong because doubling would only apply transiently after S phase replication, not to the final chromosome count of a completed daughter cell. Choice D is wrong because normal mitosis reliably and predictably preserves the parent cell's chromosome number."
+      "explanation": "Correct: the daughter cell has the same chromosome number as the parent cell. Mitosis is designed to make two genetically identical daughter cells. DNA is copied once in S phase, and in anaphase each duplicated chromosome is split so that each daughter gets one complete set; a diploid (2n) cell makes two diploid (2n) cells. A human cell with 46 chromosomes makes two cells with 46 chromosomes each.\n\n(B) is wrong because halving the chromosome number is what meiosis does, not mitosis.\n(A) is wrong because the doubling of the amount of DNA happens in S phase before division, and the sister chromatids are then separated, so the final number of chromosomes in each daughter is not doubled.\n(D) is wrong because normal mitosis reliably preserves the chromosome number."
     },
     {
       "id": "4-61",
@@ -3516,7 +3516,7 @@ const QUESTIONS = {
         "Checkpoints have no established relationship to cancer development whatsoever"
       ],
       "correct": 2,
-      "explanation": "Losing checkpoints removes a safeguard, but the cell still generally needs an actual abnormal drive to divide, such as an activated oncogene, for that lost safeguard to matter, making choice C correct. Choice A is wrong because checkpoint loss alone is usually insufficient without an accompanying division-promoting mutation. Choice D is wrong because checkpoints are directly and centrally relevant to how cancer develops. Choice B is wrong because checkpoint dysfunction is in fact a well-established contributing factor to cancer, just not typically a sufficient cause on its own."
+      "explanation": "Correct: a cell also typically needs an active drive to divide inappropriately. Checkpoints are brakes: they stop a cell that has a problem. A cell that has lost its checkpoints is missing a safeguard, but it still may not divide without growth signals, and so loss of checkpoint function alone often does not lead to cancer. Cancer typically needs both: a drive to divide (for example, an activated oncogene) and the loss of the checkpoints that would catch the resulting damage. This is why cancer needs a combination of mutations.\n\n(A) is wrong because checkpoint loss alone usually is not sufficient.\n(B) is wrong because checkpoint failure is a major contributor to cancer.\n(D) is wrong because checkpoints are central to preventing cancer."
     },
     {
       "id": "4-62",
@@ -3529,7 +3529,7 @@ const QUESTIONS = {
         "Normal, fully functional cell cycle regulation operating exactly as it should"
       ],
       "correct": 2,
-      "explanation": "Repeated M checkpoint failures let cells proceed into anaphase despite improper attachment, producing daughter cells with inconsistent chromosome numbers over time, making choice C correct. Choice D is wrong because varying chromosome numbers is itself evidence of regulation failure, not normal function. Choice B is wrong because a G1-only failure would not specifically explain chromosome segregation errors occurring during anaphase. Choice A is wrong because this hallmark of many cancers is directly tied to cell cycle checkpoint dysfunction."
+      "explanation": "Correct: failure of the M checkpoint (spindle checkpoint). Cells in a tumor that have widely different numbers of chromosomes (aneuploidy) are showing that chromosomes are being divided unevenly during mitosis. The M checkpoint normally delays anaphase until every chromosome is correctly attached to the spindle. If it fails, the cell proceeds into anaphase with misattached chromosomes, and daughter cells receive too many or too few of them. Repeated over many divisions, this produces cells with highly variable chromosome numbers.\n\n(B) is wrong because a G1-only problem would not directly cause errors in chromosome segregation.\n(D) is wrong because variable chromosome numbers are a sign of failed regulation, not normal regulation.\n(A) is wrong because this feature of many cancers is directly linked to cell cycle checkpoint failure."
     },
     {
       "id": "4-63",
@@ -3542,7 +3542,7 @@ const QUESTIONS = {
         "The ligand must be large in overall size and must also carry a substantial net electric charge"
       ],
       "correct": 2,
-      "explanation": "Reaching an intracellular receptor first requires crossing the membrane, which demands a small, sufficiently nonpolar ligand able to diffuse through the bilayer, making choice C correct. Choice D is wrong because large, charged molecules generally cannot cross the membrane by diffusion at all. Choice A is wrong because proteins are typically large and polar, making them poor candidates for membrane diffusion, unlike small steroid-type ligands. Choice B is wrong because ligand structure very much determines which receptor type it can reach and bind."
+      "explanation": "Correct: the ligand must be small and nonpolar enough to diffuse across the membrane. An intracellular receptor is inside the cell, so the ligand first has to get through the plasma membrane. The membrane interior is hydrophobic, so only small, nonpolar (or lipid-soluble) molecules can diffuse through. Steroid hormones (such as estrogen and cortisol) and thyroid hormones are examples. Large or polar ligands such as peptide hormones cannot cross, so they use membrane-bound receptors.\n\n(D) is wrong because a large, highly charged molecule cannot diffuse across the bilayer.\n(A) is wrong because proteins are typically large and polar, so they cannot diffuse through the membrane.\n(B) is wrong because the chemical properties of the ligand determine which kind of receptor it can reach."
     },
     {
       "id": "4-64",
@@ -3555,7 +3555,7 @@ const QUESTIONS = {
         "Normal receptor binding occurring correctly with the appropriate matching ligand"
       ],
       "correct": 1,
-      "explanation": "Amplification depends on each pathway component activating multiple downstream targets, so limiting an early enzyme to a single target directly reduces amplification, making choice B correct. Choice A is wrong because more ligand would tend to increase pathway activation, not disrupt amplification. Choice C is wrong because a separate, unrelated pathway wouldn't affect amplification within this specific pathway. Choice D is wrong because normal receptor-ligand binding is the expected starting point of proper signaling, not a disruption to it."
+      "explanation": "Correct: a mutation limiting an early pathway enzyme to activating only one downstream target. Amplification happens because each activated molecule can activate MANY molecules at the next step, so the effect multiplies at each stage (for example, one receptor activates many G proteins, each activates an enzyme that makes many second messengers). If an early enzyme can activate only one target, that step no longer multiplies the signal, so the amplification is lost even though the receptor itself works normally.\n\n(A) is wrong because more ligand would tend to increase signaling, not reduce amplification.\n(C) is wrong because an unrelated pathway would not change amplification in this one.\n(D) is wrong because normal binding of the right ligand is the expected start of signaling, not a disruption."
     },
     {
       "id": "4-65",
@@ -3569,7 +3569,7 @@ const QUESTIONS = {
         "This type of mutation would only ever be biologically relevant within prokaryotic cells"
       ],
       "correct": 1,
-      "explanation": "By raising the genome-wide mutation rate, a mutator mutation makes it statistically more likely that the specific driver mutations needed for cancer will eventually arise together, indirectly promoting cancer development, making choice B correct. Choice C is wrong because indirect contribution through increased mutation rate is still a meaningful, real contribution, even without directly driving division. Choice D is wrong because this genomic instability concept applies to eukaryotic cancer biology, not specifically to prokaryotic cells. Choice A is wrong because a mutator mutation persisting and increasing instability, rather than self-correcting, is precisely what makes it relevant to cancer risk."
+      "explanation": "Correct: by raising the overall mutation rate, it makes other driver mutations more likely to arise in the same lineage. Cancer needs several mutations (oncogene activation, tumor suppressor loss, and checkpoint failure). A mutator mutation, such as a defect in a DNA repair gene (for example, a mismatch repair gene, as in Lynch syndrome), does not itself make the cell divide, but it makes ALL kinds of mutations occur much more often. That means the cell lineage is much more likely to pick up the specific driver mutations it needs for cancer, and to do so sooner. This increase in genomic instability is one reason some inherited repair-gene mutations increase cancer risk.\n\n(C) is wrong because an indirect effect on the mutation rate can still contribute strongly to cancer.\n(A) is wrong because a mutation does not repair itself automatically.\n(D) is wrong because this applies to the DNA repair and cancer biology of eukaryotic cells such as ours."
     }
   ],
   "5": [
@@ -4448,7 +4448,7 @@ const QUESTIONS = {
         "Entirely new DNA in both strands of each daughter helix, with no parental strand retained anywhere"
       ],
       "correct": 2,
-      "explanation": "Semiconservative means each daughter helix is a hybrid of one old strand and one new strand (confirmed by Meselson-Stahl). Choice D describes the (incorrect) 'conservative' model, where an all-new helix and an all-old helix would form instead. Choice A confuses 'conservative' with the everyday meaning of 'conserving resources' — replication's frequency isn't what the term refers to. Choice B describes the opposite: no new synthesis at all, which isn't replication."
+      "explanation": "Correct: one parental strand paired with one newly synthesized strand in each resulting double helix. In semiconservative replication, the two strands of the parent DNA separate and each one acts as a template for a new complementary strand. Each of the two new double helices therefore contains ONE old strand and ONE new strand. This was shown by the Meselson-Stahl experiment: bacteria grown in heavy nitrogen (15N) and then moved to light nitrogen (14N) produced DNA of intermediate density after one generation, which is what the semiconservative model predicts (the conservative model predicted one heavy and one light band).\n\n(D) is wrong because it describes a mixture of all-new DNA with no parental strand, which is not what happens.\n(A) is wrong because 'semiconservative' refers to what is kept in each new double helix; it has nothing to do with how often replication occurs.\n(B) is wrong because replication makes new strands; having entirely original DNA with no new synthesis would not be replication."
     },
     {
       "id": "6-2",
@@ -4487,7 +4487,7 @@ const QUESTIONS = {
         "Polymerase only synthesizes 5' to 3', so on the lagging strand this runs away from the opening fork"
       ],
       "correct": 3,
-      "explanation": "Because polymerase only extends 3' ends and the two template strands are antiparallel, the lagging strand's synthesis direction points away from the moving fork, so it has to restart repeatedly as more template is exposed. Choice B is false — both strands are ordinary DNA with the same chemistry. Choice C is false — ligase specifically functions on the lagging strand, sealing the resulting Okazaki fragments together. Choice A is false — the lagging strand requires the same core enzymes (primase, polymerase, ligase) as replication generally does."
+      "explanation": "Correct: polymerase only synthesizes 5' to 3', so on the lagging strand this runs away from the opening fork. DNA polymerase can add nucleotides only to a free 3' end, so every new strand grows 5' to 3'. The two template strands run in opposite (antiparallel) directions. On one template (the leading strand) the polymerase moves in the same direction as the replication fork, so synthesis is continuous. On the other template (the lagging strand), building 5' to 3' means moving AWAY from the fork, so the polymerase has to wait for the fork to open more DNA and then start again, over and over. Each restart needs a new RNA primer from primase, and the result is a series of short pieces (Okazaki fragments) that DNA ligase joins together.\n\n(B) is wrong because both strands are DNA made from the same four nucleotides.\n(C) is wrong because ligase is exactly the enzyme that seals the fragments on the lagging strand.\n(A) is wrong because the lagging strand uses primase, DNA polymerase, and ligase."
     },
     {
       "id": "6-5",
@@ -4514,7 +4514,7 @@ const QUESTIONS = {
         "The mutation rate would be entirely unaffected by losing this proofreading function"
       ],
       "correct": 1,
-      "explanation": "Normal proofreading detects mismatched nucleotides and removes/replaces them before synthesis continues, keeping the error rate low; losing it lets more mismatches persist uncorrected in the finished strand, raising mutation rate. Choice A gets the mechanism backwards — proofreading corrects errors rather than adding them, so removing it increases, not decreases, errors. Choices C and D both ignore that proofreading is precisely the mechanism keeping replication errors rare, so removing it must have a measurable effect."
+      "explanation": "Correct: the mutation rate would likely increase, since proofreading normally corrects mismatched nucleotides. DNA polymerase sometimes inserts the wrong nucleotide. A proofreading polymerase notices the mismatch (using a 3' to 5' exonuclease activity), backs up, removes the incorrect nucleotide, and then continues. Proofreading lowers the error rate by a factor of about 100, so replication errors are very rare (roughly one error per billion nucleotides copied once mismatch repair is included). A polymerase without proofreading leaves more mismatches in the new strand, and some of them will become permanent mutations after the next round of replication.\n\n(A) is wrong because skipping a correction step does not reduce the number of errors; it leaves them uncorrected. (C) and (D) are wrong because proofreading is one of the main reasons replication is accurate, so losing it would change the mutation rate."
     },
     {
       "id": "6-7",
@@ -4527,7 +4527,7 @@ const QUESTIONS = {
         "In a direction that varies randomly and is not predictable in advance"
       ],
       "correct": 1,
-      "explanation": "DNA polymerase can only add nucleotides onto a growing strand's free 3' end, so synthesis always proceeds 5' to 3'. Choice A reverses this direction. Choice C is impossible — a single polymerase molecule synthesizes in only one direction at a time, which is exactly why the lagging strand needs discontinuous fragments instead of continuous synthesis in the 'other' direction. Choice D is false; the direction is fixed and predictable, not random."
+      "explanation": "Correct: 5' to 3' exclusively. DNA polymerase needs a free 3' hydroxyl group on the growing strand (or primer), and it joins the next nucleotide's 5' phosphate to that 3' end, releasing pyrophosphate. So the new strand always grows from its 5' end toward its 3' end. Don't mix this up with how the template is read: the polymerase reads the template strand 3' to 5' as it builds the new strand 5' to 3'.\n\n(A) is wrong because it states the direction in which the template is read (3' to 5') as the direction of new synthesis.\n(C) is wrong because a polymerase works in one direction only, which is why the lagging strand has to be made in fragments.\n(D) is wrong because the direction is fixed by the chemistry of the enzyme, not random."
     },
     {
       "id": "6-8",
@@ -4566,7 +4566,7 @@ const QUESTIONS = {
         "Introns remain in mature mRNA as coding sequence, while exons get spliced out and discarded"
       ],
       "correct": 0,
-      "explanation": "Exons are the coding portions of a gene that remain in the mature mRNA; introns are non-coding intervening sequences transcribed initially but then cut out during splicing. Choice D swaps the two definitions exactly backwards. Choice B is false since they refer to opposite, non-interchangeable categories. Choice C is also backwards — introns are a defining feature of most eukaryotic genes and are largely absent from prokaryotic genes, not the other way around."
+      "explanation": "Correct: introns are non-coding and removed by splicing; exons are coding and remain. A eukaryotic gene is transcribed into a pre-mRNA that contains both. Introns are the 'intervening' sequences that are cut out by the spliceosome, and exons are the sequences that are joined together and 'expressed' in the mature mRNA, which is translated into protein. A memory aid is that exons EXit the nucleus (as mRNA) and EXpress, while introns stay IN and get cut IN pieces. Most eukaryotic genes have introns; prokaryotic genes mostly do not.\n\n(D) is wrong because it swaps the definitions.\n(B) is wrong because the two terms mean opposite things.\n(C) is wrong because introns are common in eukaryotes and mostly absent from prokaryotes."
     },
     {
       "id": "6-11",
@@ -4579,7 +4579,7 @@ const QUESTIONS = {
         "By altering the underlying DNA sequence of the gene between different cell types"
       ],
       "correct": 0,
-      "explanation": "Alternative splicing selectively includes or excludes different exons when assembling the mature mRNA, so different combinations yield different mRNAs — and therefore different proteins — from one pre-mRNA transcript. Choice D is wrong because the DNA sequence itself never changes between splice variants. Choice C describes gene duplication, an unrelated process that doesn't occur during splicing. Choice B is wrong because introns are removed entirely during splicing, never incorporated into the protein-coding portion."
+      "explanation": "Correct: by including or excluding different combinations of exons in the mature mRNA. In alternative splicing, one gene's pre-mRNA can be spliced in more than one way: some exons may be left out, or different exons chosen, depending on the cell type or signals. Each combination gives a different mature mRNA, which is translated into a different protein. This is one reason that humans, with about 20,000 genes, can make many more different proteins.\n\n(D) is wrong because the DNA sequence does not change; the splicing happens on the RNA copy.\n(C) is wrong because the gene is not duplicated before transcription.\n(B) is wrong because introns are removed during splicing and are not turned into protein."
     },
     {
       "id": "6-12",
@@ -4605,7 +4605,7 @@ const QUESTIONS = {
         "Only introns are added to the transcript, with no other processing steps occurring"
       ],
       "correct": 1,
-      "explanation": "Eukaryotic pre-mRNA processing adds a protective 5' cap and a 3' poly-A tail and removes introns via splicing before export. Choice A is wrong because translation happens on ribosomes in the cytoplasm, not directly inside the nucleus. Choice C ignores these well-documented processing steps entirely. Choice D reverses the actual process — introns are removed, not added, during normal pre-mRNA processing."
+      "explanation": "Correct: a 5' cap and 3' poly-A tail are added, and introns are removed via splicing. Before a eukaryotic mRNA leaves the nucleus, three changes are made. A modified guanine cap is added to the 5' end, which protects the mRNA from degradation and helps ribosomes attach. A poly-A tail (a string of about 100-250 adenine nucleotides) is added to the 3' end, which also helps stability and export. Introns are removed and exons are joined by splicing. The mature mRNA then exits through nuclear pores.\n\n(A) is wrong because translation takes place on ribosomes in the cytoplasm, not inside the nucleus.\n(C) is wrong because pre-mRNA is processed before it leaves the nucleus.\n(D) is wrong because introns are removed, not added."
     },
     {
       "id": "6-14",
@@ -4644,7 +4644,7 @@ const QUESTIONS = {
         "It forms the main structural and catalytic core of the ribosome itself"
       ],
       "correct": 0,
-      "explanation": "Each tRNA carries one specific amino acid and pairs its anticodon with the complementary mRNA codon, ensuring the right amino acid is added at each step. Choice B actually describes mRNA's job, not tRNA's. Choice D describes rRNA, the molecule that forms the ribosome's structural and catalytic core. Choice C describes DNA polymerase's role in replication — tRNA plays no part in synthesizing DNA."
+      "explanation": "Correct: it carries a specific amino acid, pairing its anticodon with a matching mRNA codon. tRNA is the adaptor between the language of nucleic acids and the language of proteins. One end of the tRNA is attached to a particular amino acid (by an enzyme called an aminoacyl-tRNA synthetase), and the other end has a three-nucleotide anticodon. At the ribosome, the anticodon pairs by complementary base pairing with the mRNA codon, so the correct amino acid is brought to the growing polypeptide.\n\n(B) is wrong because carrying the code from DNA to the ribosome is the job of mRNA.\n(D) is wrong because rRNA, with proteins, forms the ribosome.\n(C) is wrong because DNA is synthesized by DNA polymerase during replication, and tRNA has no role in that."
     },
     {
       "id": "6-17",
@@ -4657,7 +4657,7 @@ const QUESTIONS = {
         "The genetic code's codon assignments differ completely from one species to another"
       ],
       "correct": 2,
-      "explanation": "'Degenerate' (or redundant) refers to the 64 possible codons mapping onto only 20 amino acids, so most amino acids have more than one codon that specifies them. Choice B confuses degeneracy with error rate, which it doesn't describe. Choice A describes ambiguity — one codon specifying multiple amino acids — which does not actually occur in the genetic code. Choice D is false, since the code is nearly universal across species rather than varying species to species."
+      "explanation": "Correct: most amino acids are specified by more than one codon. There are 64 possible codons (4 x 4 x 4): 61 code for amino acids and 3 are stop codons. Since there are only 20 amino acids, many amino acids have two to six different codons. 'Degenerate' means redundant. The code is NOT ambiguous: each codon specifies only one amino acid. The redundancy often involves the third position of the codon, so many changes there are silent and do not change the protein.\n\n(A) is wrong because it describes ambiguity, with one codon coding for several amino acids, and that does not happen.\n(B) is wrong because degeneracy is not about errors.\n(D) is wrong because the code is nearly universal across species."
     },
     {
       "id": "6-18",
@@ -4670,7 +4670,7 @@ const QUESTIONS = {
         "The sequence cannot be translated at all because it contains a stop codon"
       ],
       "correct": 0,
-      "explanation": "Reading codon by codon: AUG = Met (start), UUU = Phe, GCC = Ala, UAA = Stop. The finished polypeptide is Met-Phe-Ala, three residues, with UAA ending translation rather than coding for an amino acid. Choice B incorrectly treats UAA as coding for leucine instead of functioning as a stop signal. Choice C both drops the initiating methionine and scrambles the amino acid order. Choice D is wrong because a stop codon ends translation normally — it doesn't make the sequence untranslatable."
+      "explanation": "Correct: Met-Phe-Ala-Stop. Read the mRNA 5' to 3' in groups of three nucleotides (codons), starting at the start codon. AUG codes for methionine (Met) and is the start codon, UUU codes for phenylalanine (Phe), GCC codes for alanine (Ala), and UAA is a stop codon. A stop codon does not code for an amino acid: it signals release of the polypeptide, so the finished chain is three amino acids long, Met-Phe-Ala.\n\n(B) is wrong because UAA does not code for leucine; it is a stop codon.\n(C) is wrong because the start codon is always translated as the first amino acid, and the order of the amino acids follows the order of the codons.\n(D) is wrong because a stop codon is a normal way to end translation, and it does not stop the sequence from being translated."
     },
     {
       "id": "6-19",
@@ -4683,7 +4683,7 @@ const QUESTIONS = {
         "It proves every organism sharing this code has an identical genome sequence"
       ],
       "correct": 1,
-      "explanation": "Because codon-to-amino-acid assignments are chemically arbitrary, finding the same assignments preserved across nearly all life strongly suggests one shared origin rather than repeated, coincidental independent origins. Choice C dismisses this significance without justification. Choice D overreaches — sharing a genetic code says nothing about having an identical genome, since organisms clearly differ enormously in their actual sequences. Choice A contradicts the evidence, since near-universality reflects strong conservation over time, not constant change."
+      "explanation": "Correct: independent origins give no reason to expect the same arbitrary codon assignments in unrelated lineages. There is no chemical reason why the codon GGA has to code for glycine; it could just as well have coded for a different amino acid, so the assignments are essentially arbitrary. If different forms of life had arisen separately, we would expect them to use different codes. The fact that bacteria, plants, animals, and fungi all use essentially the same code is best explained by a common ancestor from which all life inherited it. (The few small differences, such as in mitochondria, fit with descent with modification.)\n\n(A) is wrong because near-universality means the code has been conserved, not that it keeps changing.\n(C) is wrong because the sharing of an arbitrary code has strong evolutionary significance.\n(D) is wrong because sharing a code does not mean sharing identical genomes; organisms have very different DNA sequences."
     },
     {
       "id": "6-20",
@@ -4709,7 +4709,7 @@ const QUESTIONS = {
         "A silent mutation"
       ],
       "correct": 3,
-      "explanation": "Because GGA and GGC both specify glycine, the amino acid sequence doesn't change — this is a silent mutation, made possible by the genetic code's degeneracy. Choice B is incorrect since missense mutations specifically change the amino acid produced, which didn't happen here. Choice C is incorrect because no stop codon was introduced. Choice A is incorrect because no nucleotides were inserted or deleted, so the reading frame for downstream codons is untouched."
+      "explanation": "Correct: a silent mutation. A silent mutation is a change in the DNA that changes a codon but not the amino acid it codes for, so the protein is unchanged. GGA and GGC both code for glycine, so this change does not affect the amino acid sequence. Silent mutations are common at the third position of a codon because of the degeneracy (redundancy) of the genetic code. For comparison: a missense mutation changes one amino acid, a nonsense mutation changes an amino acid codon to a stop codon, and a frameshift mutation (an insertion or deletion that is not a multiple of three) shifts the reading frame.\n\n(B) is wrong because a missense mutation would change the amino acid, and it did not here.\n(C) is wrong because no stop codon was created.\n(A) is wrong because no nucleotides were added or removed, so the reading frame is unchanged."
     },
     {
       "id": "6-22",
@@ -4722,7 +4722,7 @@ const QUESTIONS = {
         "This kind of change is not biologically possible"
       ],
       "correct": 2,
-      "explanation": "A nonsense mutation replaces an amino-acid-coding codon with a premature stop codon, cutting translation short and usually producing a truncated, nonfunctional protein. Choice A is wrong because a silent mutation would leave the protein sequence unchanged, not truncate it. Choice B is wrong because a missense mutation substitutes one amino acid for another rather than introducing a stop. Choice D is simply false — this exact scenario is a well-documented, named category of point mutation."
+      "explanation": "Correct: a nonsense mutation. In a nonsense mutation a change in one nucleotide turns a codon that codes for an amino acid into a stop codon (UAA, UAG, or UGA). For example, UAC (tyrosine) changing to UAA. Translation ends early, so the cell makes a shortened (truncated) protein that is usually nonfunctional. The earlier in the gene the stop appears, the more of the protein is lost.\n\n(A) is wrong because a silent mutation does not change the amino acid sequence at all.\n(B) is wrong because a missense mutation changes one amino acid into a different amino acid; it does not create a stop codon.\n(D) is wrong because this is a well-known type of point mutation."
     },
     {
       "id": "6-23",
@@ -4735,7 +4735,7 @@ const QUESTIONS = {
         "Deleting 4 nucleotides"
       ],
       "correct": 0,
-      "explanation": "A frameshift results whenever the number of inserted or deleted nucleotides is not a multiple of three, since that shifts how every downstream codon groups. Six nucleotides equals two whole codons, so it adds two amino acids without disturbing the reading frame afterward. Choices C, B, and D (1, 2, and 4 nucleotides) are each not multiples of three, so all three would shift the downstream reading frame and cause a frameshift."
+      "explanation": "Correct: insertion of 6 nucleotides. Codons are read in groups of three, so a frameshift occurs when the number of nucleotides inserted or deleted is NOT a multiple of three: all the codons after the change are then read in a different grouping, which usually changes every downstream amino acid and often creates an early stop codon. Quick test: divide the number by 3. If it divides evenly, the reading frame is kept. Six nucleotides is exactly two codons, so the protein gains two amino acids but the rest of the reading frame is unchanged.\n\n(C) inserting 1 nucleotide is wrong because 1 is not a multiple of three, so it shifts the reading frame.\n(B) deleting 2 nucleotides is wrong because 2 is not a multiple of three, so it shifts the reading frame.\n(D) deleting 4 nucleotides is wrong because 4 is not a multiple of three (it is 3 + 1), so it shifts the reading frame."
     },
     {
       "id": "6-24",
@@ -4761,7 +4761,7 @@ const QUESTIONS = {
         "A frameshift mutation"
       ],
       "correct": 1,
-      "explanation": "Sickle-cell disease arises from a missense mutation: a single nucleotide change that substitutes one amino acid for another in hemoglobin, altering the protein's structure and red blood cell shape. Choice C is wrong because no stop codon is introduced here — a full-length protein is still made, just with one different residue. Choice D is wrong since no nucleotides are inserted or deleted, so no frame shift occurs. Choice A is wrong because the amino acid sequence does in fact change — that altered residue is exactly what causes the disease."
+      "explanation": "Correct: a missense mutation. In sickle-cell disease one nucleotide in the gene for the beta chain of hemoglobin changes (the codon GAG becomes GTG), so the amino acid glutamic acid is replaced with valine at one position. A mutation that swaps one amino acid for another is a missense mutation. Glutamic acid is polar and valine is nonpolar, and this one change makes hemoglobin molecules stick together when oxygen is low, so the red blood cells bend into a sickle shape. This shows how a small change in the DNA can change a protein's structure and function.\n\n(C) is wrong because no stop codon is created, and a full-length protein is made.\n(D) is wrong because no nucleotides were inserted or deleted, so there was no frameshift.\n(A) is wrong because the amino acid sequence does change, and that change causes the disease."
     },
     {
       "id": "6-26",
@@ -4774,7 +4774,7 @@ const QUESTIONS = {
         "Something acting exclusively on RNA molecules, never touching DNA itself"
       ],
       "correct": 1,
-      "explanation": "A mutagen (chemical or physical, such as UV or ionizing radiation) raises the mutation rate, either by damaging DNA directly or by disrupting accurate replication. Choice C describes the opposite function — repair mechanisms fix damage rather than cause it. Choice A directly contradicts the definition of a mutagen, which is defined by having a measurable effect. Choice D is inaccurate, since classic mutagens like UV light and many chemicals act directly on DNA itself, not exclusively on RNA."
+      "explanation": "Correct: a substance or energy form that raises the mutation rate, directly or via disrupted replication. Mutagens are agents that increase the frequency of mutations. Examples: ultraviolet light (which links neighboring thymines into thymine dimers), ionizing radiation such as X-rays (which can break DNA strands), and chemicals such as some compounds in tobacco smoke or base analogs that are mistakenly incorporated into DNA. They damage DNA or cause errors during replication, and the damage becomes a mutation if it is not repaired.\n\n(C) is wrong because repairing damage is the job of DNA repair systems, not mutagens.\n(A) is wrong because a mutagen is defined by its effect on DNA.\n(D) is wrong because the best-known mutagens act on DNA itself."
     },
     {
       "id": "6-27",
@@ -4801,7 +4801,7 @@ const QUESTIONS = {
         "It directly synthesizes lactose molecules for the cell's own use"
       ],
       "correct": 1,
-      "explanation": "With no lactose present, the active repressor binds the operator and physically blocks RNA polymerase, keeping the lac genes off. Choice C misattributes RNA polymerase's job (transcribing genes) to the repressor, which never synthesizes RNA itself. Choice A is wrong because the repressor is actively doing its job (blocking transcription) precisely when lactose is absent. Choice D confuses the repressor, a regulatory protein, with a metabolic enzyme — it has no role in synthesizing lactose."
+      "explanation": "Correct: it binds the operator, physically blocking RNA polymerase from the operon. The lac operon contains genes for the enzymes that use lactose. The repressor protein is made all the time. When there is no lactose, the active repressor binds to the operator (a DNA sequence next to the promoter) and blocks RNA polymerase from transcribing the lac genes, so the cell does not waste energy making enzymes it does not need. The lac operon is an example of an inducible operon: it is normally off and is turned on by the presence of lactose.\n\n(C) is wrong because the repressor does not transcribe anything; RNA polymerase does that.\n(D) is wrong because the repressor is a regulatory protein and does not make lactose.\n(A) is wrong because the repressor is actively doing its job when lactose is absent."
     },
     {
       "id": "6-29",
@@ -4814,7 +4814,7 @@ const QUESTIONS = {
         "Lactose enters the ribosome directly, triggering transcription of the operon"
       ],
       "correct": 1,
-      "explanation": "Lactose binds the repressor protein, causing a shape change that makes it detach from the operator, removing the block so RNA polymerase can transcribe the operon. Choice A misplaces lactose's binding target — it acts on the repressor, not RNA polymerase directly. Choice C is false, since the promoter remains intact and reusable; nothing about lactose destroys it. Choice D confuses translation machinery (the ribosome) with the transcriptional regulation lactose actually influences."
+      "explanation": "Correct: lactose binds the repressor, causing it to release from the operator. When lactose is present, a form of lactose (allolactose) acts as an inducer: it binds the repressor protein and changes its shape, so the repressor can no longer bind the operator. With the operator free, RNA polymerase can bind the promoter and transcribe the lac genes, and the cell makes the enzymes (including beta-galactosidase) needed to digest lactose.\n\n(A) is wrong because lactose acts on the repressor, not on RNA polymerase.\n(C) is wrong because the promoter is not destroyed; it is used again.\n(D) is wrong because the ribosome translates mRNA; the effect of lactose is on transcription, before the mRNA exists."
     },
     {
       "id": "6-30",
@@ -4827,7 +4827,7 @@ const QUESTIONS = {
         "It directly changes the underlying nucleotide sequence of the DNA itself"
       ],
       "correct": 2,
-      "explanation": "DNA methylation typically adds methyl groups to cytosines, promoting tighter chromatin packaging that makes the region less accessible and generally silences expression there. Choice B describes the opposite effect. Choice A contradicts methylation's well-established regulatory role. Choice D is wrong because methylation is an epigenetic mark that regulates expression without altering the underlying DNA sequence itself."
+      "explanation": "Correct: it generally silences expression by promoting tighter, less accessible chromatin. DNA methylation adds methyl groups to cytosine bases (often at CpG sites). Methylated DNA attracts proteins that help compact the chromatin, so RNA polymerase and transcription factors cannot easily reach the genes, and the genes are turned off. It plays roles in processes such as X-chromosome inactivation and genomic imprinting. It is an epigenetic mark: it can be passed to daughter cells when they divide, but it does not change the DNA sequence.\n\n(B) is wrong because loosening chromatin and activating expression is the effect of histone acetylation, the opposite.\n(D) is wrong because methylation does not change the nucleotide sequence.\n(A) is wrong because methylation clearly affects gene expression."
     },
     {
       "id": "6-31",
@@ -4840,7 +4840,7 @@ const QUESTIONS = {
         "They actually contain entirely different DNA sequences from one another"
       ],
       "correct": 1,
-      "explanation": "Since nearly all cells share the same DNA, differences between cell types like liver cells and neurons arise from differential gene expression — different subsets of the shared genome being turned on or off. Choice D is factually wrong, since virtually all somatic cells retain the same genome. Choice C is false, since both cell types contain a full copy of the genome. Choice A directly contradicts the premise of the question, since it's precisely the differing expression patterns that make these cell types structurally and functionally distinct."
+      "explanation": "Correct: they express different subsets of an identical shared genome. Nearly all body cells came from one fertilized egg by mitosis, so they have the same DNA. A cell's identity depends on which genes are turned on. A liver cell expresses genes for liver enzymes (such as albumin), and a neuron expresses genes for neurotransmitter receptors and ion channels. Different transcription factors and epigenetic marks switch different sets of genes on and off in the two kinds of cell.\n\n(D) is wrong because the cells have the same genome.\n(C) is wrong because both cells have a full set of DNA.\n(A) is wrong because gene expression is different in different cell types, which is why they look and function differently."
     },
     {
       "id": "6-32",
@@ -4853,7 +4853,7 @@ const QUESTIONS = {
         "Genes there are generally poorly expressed, since tight packing limits access"
       ],
       "correct": 3,
-      "explanation": "Because heterochromatin is densely packed, it's generally inaccessible to RNA polymerase and transcription factors, so genes located there tend to be poorly expressed or silent. Choice B states the opposite of this relationship. Choice A denies a well-established link between chromatin structure and expression level. Choice C is wrong because heterochromatin is a eukaryotic chromatin structure — prokaryotic cells lack the histone-based chromatin packaging that defines it."
+      "explanation": "Correct: genes there are generally poorly expressed, since tight packing limits access. Chromatin is DNA wrapped around histone proteins. In heterochromatin the DNA is packed very tightly, so RNA polymerase and transcription factors cannot reach the genes, and the genes are silent or expressed at low levels. Euchromatin is loosely packed and accessible, and its genes can be transcribed. An example of heterochromatin is the inactive X chromosome in female cells.\n\n(B) is wrong because it states the opposite: tight packing reduces expression.\n(A) is wrong because there is a clear relationship between chromatin packing and gene expression.\n(C) is wrong because heterochromatin is a feature of eukaryotes, whose DNA is packaged with histones in the nucleus; prokaryotes lack this kind of chromatin."
     },
     {
       "id": "6-33",
@@ -4866,7 +4866,7 @@ const QUESTIONS = {
         "Alternative splicing occurring during pre-mRNA processing"
       ],
       "correct": 1,
-      "explanation": "Post-translational regulation acts on a protein after it's already been made, such as through modifications like phosphorylation that alter its activity, stability, or localization. Choice C (transcription factor binding) and choice A (DNA methylation) both regulate expression at the transcriptional level, before any protein exists. Choice D (alternative splicing) regulates the mRNA itself, a post-transcriptional but still pre-translational step — none of these three act on a finished protein."
+      "explanation": "Correct: chemical modification of an already-synthesized protein, altering its activity. Gene expression can be regulated at many levels. Before transcription: chromatin structure and DNA methylation. During transcription: transcription factors. After transcription: RNA processing, alternative splicing, and mRNA stability. During translation: control of the ribosome. After translation (post-translational): changes to a finished protein, such as phosphorylation, cutting a precursor into an active form (insulin is made from proinsulin), or tagging it for destruction. These change a protein's activity, location, or lifespan. (C) and (A) are wrong because transcription factor binding and DNA methylation regulate transcription, before any protein exists.\n\n(D) is wrong because alternative splicing regulates the mRNA, a post-transcriptional step that occurs before translation."
     },
     {
       "id": "6-34",
@@ -4879,7 +4879,7 @@ const QUESTIONS = {
         "Uncorrected replication errors can be passed to daughter cells and disrupt protein function"
       ],
       "correct": 3,
-      "explanation": "Because DNA sequence determines protein sequence and function, uncorrected replication errors (mutations) can be inherited by daughter cells and disrupt normal protein function or contribute to disease — this is why cells evolved proofreading mechanisms. Choice C dismisses a concern that is, in fact, central to cell biology. Choice B is arbitrary and false, since accurate replication matters in eukaryotes just as much as in prokaryotes. Choice A confuses accuracy with the act of dividing itself — high-fidelity replication supports normal division rather than preventing it."
+      "explanation": "Correct: uncorrected replication errors can be passed to daughter cells and disrupt protein function. The sequence of DNA determines the sequence of amino acids in proteins. If a replication error is not fixed, it becomes a permanent mutation that is copied into all the cells that descend from that cell. Some mutations change proteins so that they no longer work, which can cause disease (including cancer). That is why cells have proofreading by DNA polymerase and mismatch repair, which together keep the error rate extremely low. (Rare mutations that survive are also the raw material for evolution.)\n\n(C) is wrong because accurate replication is critical for normal cell function.\n(B) is wrong because fidelity matters in all cells, prokaryotic and eukaryotic.\n(A) is wrong because accurate replication supports normal cell division and does not prevent it."
     },
     {
       "id": "6-35",
@@ -4892,7 +4892,7 @@ const QUESTIONS = {
         "Transcription uses both DNA strands simultaneously, for every single gene it transcribes"
       ],
       "correct": 1,
-      "explanation": "Replication uses both original strands as templates simultaneously (matching the semiconservative model), while transcription of any given gene copies from just one strand, the template strand. Choice C ignores this clear mechanistic difference between the two processes. Choice A is wrong because only one strand serves as template for a given gene's transcription, not both. Choice D reverses the correct relationship entirely."
+      "explanation": "Correct: replication uses both strands as templates; transcription typically uses only one strand per gene. In DNA replication, the double helix is opened and BOTH strands are copied, so each of the two new double helices has an old strand and a new strand (semiconservative). In transcription, RNA polymerase copies just ONE strand (the template strand) of just ONE gene (or a few genes) into an RNA molecule; the other strand is not copied for that gene (and different genes can use different strands). Transcription also makes single-stranded RNA with uracil in place of thymine, and RNA polymerase does not need a primer.\n\n(A) is wrong because it reverses the two processes.\n(D) is wrong because transcription does not copy both strands of a gene.\n(C) is wrong because the two processes differ in which strands are used, in the product, and in the enzymes."
     },
     {
       "id": "6-36",
@@ -4931,7 +4931,7 @@ const QUESTIONS = {
         "Complete physical deletion of the gene from the cell's own genome"
       ],
       "correct": 1,
-      "explanation": "Stable, long-term silencing that persists across many cell divisions without changing the DNA sequence is a hallmark of epigenetic regulation, especially DNA methylation, which is faithfully copied to daughter cells during replication. Choice A offers no actual mechanism and doesn't explain the stability observed. Choice D would be detectable as a missing gene, not silencing of a still-present one. Choice C would alter the protein's sequence rather than turning off its expression, and wouldn't explain why the change is so reliably tied to differentiation."
+      "explanation": "Correct: epigenetic modification, such as methylation, stably silencing a gene across many divisions. A gene that is turned off in specialized cells but is still present in the DNA is being silenced by regulation, not by a change in sequence. Epigenetic marks, such as methyl groups added to DNA (often at cytosines) and chemical changes to histones, pack the gene into tight, inaccessible chromatin. These marks are copied when DNA is replicated (enzymes methylate the new strand to match the old one), so the silencing is passed on to all daughter cells. This is how cells keep their identity as they differentiate.\n\n(A) is wrong because random chance does not explain silencing that is reliably linked to differentiation.\n(D) is wrong because a deleted gene would be missing from the genome, and the question says the gene is silenced.\n(C) is wrong because a missense mutation changes one amino acid in the protein; it would not switch off expression in a pattern that follows differentiation."
     },
     {
       "id": "6-39",
@@ -4944,7 +4944,7 @@ const QUESTIONS = {
         "Only RNA synthesis would be disrupted, leaving DNA replication itself unaffected"
       ],
       "correct": 2,
-      "explanation": "Since helicase unwinds the double helix to expose both template strands, losing it would severely impair or halt replication entirely. Choice B wrongly assumes helicase is dispensable, when it's actually required to expose any template at all. Choice D misattributes the effect to RNA synthesis (transcription), a separate process that doesn't depend on this replication enzyme. Choice A is incorrect because both the leading and lagging strands require an unwound template, so both would be affected equally."
+      "explanation": "Correct: replication would be severely impaired, since the helix couldn't be unwound. Helicase unwinds the DNA double helix at the replication fork by breaking the hydrogen bonds between the base pairs (using ATP). That exposes the single-stranded templates that DNA polymerase needs. Without helicase, the strands stay together, so there is no template to copy for either strand, and replication would stop or be severely limited.\n\n(A) is wrong because both the leading and the lagging strand need an unwound template.\n(B) is wrong because helicase is essential.\n(D) is wrong because helicase acts in DNA replication, and RNA synthesis is a different process (transcription) that uses RNA polymerase."
     },
     {
       "id": "6-40",
@@ -4957,7 +4957,7 @@ const QUESTIONS = {
         "The cell having normal, unaltered levels of RNA polymerase available"
       ],
       "correct": 2,
-      "explanation": "Since the promoter is the sequence RNA polymerase (often with transcription factors) must bind to correctly start transcription, a mutation there would directly impair initiation of that gene. Choice B is unlikely to have this effect, since a mutation well past the stop codon lies outside the region controlling initiation. Choices A and D describe normal, unimpaired conditions (adequate ribonucleotides, adequate RNA polymerase) that would support transcription rather than prevent it."
+      "explanation": "Correct: a promoter mutation, blocking RNA polymerase and transcription factors from binding. The promoter is a DNA sequence at the start of a gene where RNA polymerase (in eukaryotes, together with transcription factors) binds to begin transcription. If a mutation changes the promoter so that these proteins cannot bind, transcription of that gene cannot be properly initiated, or happens at a much lower rate.\n\n(B) is wrong because a mutation far downstream of the stop codon is outside the sequences that control initiation.\n(A) is wrong because a normal supply of ribonucleotides supports transcription; it does not prevent it.\n(D) is wrong because normal levels of RNA polymerase also support transcription. The question asks what would PREVENT correct initiation, and only the promoter mutation does."
     },
     {
       "id": "6-41",
@@ -4970,7 +4970,7 @@ const QUESTIONS = {
         "5'-UAC-3', carrying tyrosine"
       ],
       "correct": 2,
-      "explanation": "Codon and anticodon pair antiparallel and complementary, like DNA strands: 3'-UAC-5' pairs with 5'-AUG-3' (A-U, U-A, C-G). Since AUG is the start codon specifying methionine, this tRNA carries methionine. Choice D incorrectly treats the anticodon sequence as if it were simply copied over as the codon, rather than base-paired to it. Choice B incorrectly reverses the letter order rather than applying actual base-pairing rules. Choice A is false, since this anticodon does have a valid complementary codon."
+      "explanation": "Correct: 5'-AUG-3', carrying methionine. A tRNA anticodon pairs with the mRNA codon by complementary base pairing, and the two strands run in opposite (antiparallel) directions. The anticodon is written 3'-UAC-5'. Pair each base: U pairs with A, A pairs with U, and C pairs with G, giving the codon 5'-AUG-3'. AUG is the start codon and codes for methionine, so this tRNA carries methionine. A frequent mistake is to copy the anticodon as the codon or to reverse the letters without pairing them.\n\n(D) is wrong because 5'-UAC-3' is the anticodon sequence copied over, not the base-paired codon.\n(B) is wrong because it only reverses the letters without applying base-pairing.\n(A) is wrong because the anticodon pairs with a valid codon."
     },
     {
       "id": "6-42",
@@ -4983,7 +4983,7 @@ const QUESTIONS = {
         "A mutation changing an amino-acid-specifying codon into a premature stop codon"
       ],
       "correct": 3,
-      "explanation": "A nonsense mutation converts an amino-acid-coding codon into a stop codon, prematurely ending translation and typically producing a truncated protein. Choice B describes a silent mutation, since the amino acid identity stays the same. Choice A describes an in-frame insertion, which adds a new amino acid rather than halting translation. Choice C describes a mutation with no functional consequence, the opposite of what a nonsense mutation typically causes."
+      "explanation": "Correct: a mutation changing an amino-acid-specifying codon into a premature stop codon. This is the definition of a nonsense mutation: the protein-coding sequence is cut short because translation ends at the new stop codon, and the result is usually a truncated, nonfunctional protein. To compare the point mutation types: a silent mutation changes a codon without changing the amino acid, a missense mutation changes one amino acid to another, and a nonsense mutation creates a stop codon.\n\n(B) is wrong because that is a silent mutation, since the amino acid stays the same.\n(A) is wrong because inserting exactly three nucleotides adds one amino acid in the same reading frame, which is an in-frame insertion.\n(C) is wrong because a mutation with no detectable effect is a neutral (often silent) change, not a nonsense mutation."
     },
     {
       "id": "6-43",
@@ -4996,7 +4996,7 @@ const QUESTIONS = {
         "A category of ribosomal RNA involved in ribosome structure"
       ],
       "correct": 1,
-      "explanation": "Transcription factors are regulatory proteins that bind specific DNA sequences like promoters and enhancers to help control whether, when, and how strongly a gene is transcribed. Choice D confuses transcription factors (proteins) with rRNA (a type of RNA that forms part of the ribosome). Choice A misattributes translation, a ribosome-driven process, to transcription factors, which act at the DNA/transcription level instead. Choice C directly contradicts their well-established central role in eukaryotic gene regulation."
+      "explanation": "Correct: proteins that bind DNA sequences like promoters or enhancers to help regulate transcription. Transcription factors have a DNA-binding region that recognizes a specific DNA sequence and a region that interacts with other proteins. General transcription factors help RNA polymerase bind the promoter, and specific transcription factors bind enhancers or other regulatory sequences and increase or decrease the rate of transcription. Because different cells have different transcription factors, they turn on different sets of genes, which is a major way that cell types are determined.\n\n(A) is wrong because translating mRNA into protein is done by ribosomes with tRNA.\n(D) is wrong because transcription factors are proteins and not ribosomal RNA.\n(C) is wrong because transcription factors are central to gene regulation."
     },
     {
       "id": "6-44",
@@ -5009,7 +5009,7 @@ const QUESTIONS = {
         "They directly synthesize brand-new DNA nucleotides onto a growing strand"
       ],
       "correct": 2,
-      "explanation": "After helicase separates the strands, single-strand binding proteins attach to and stabilize those exposed single strands, keeping them from re-annealing before polymerase can use them as templates. Choice D describes DNA polymerase's job, not this protein's. Choice A describes ligase's role in sealing fragments together, a separate step. Choice B describes primase's role in laying down starting primers — none of these three functions belongs to single-strand binding proteins."
+      "explanation": "Correct: they stabilize separated single strands, preventing premature re-annealing. Helicase unwinds the DNA at the replication fork, but the two single strands tend to pair up again (re-anneal) or fold on themselves. Single-strand binding proteins attach to the exposed single strands and hold them open and straight so that DNA polymerase can use them as templates.\n\n(D) is wrong because making new DNA is the job of DNA polymerase.\n(A) is wrong because joining Okazaki fragments is done by DNA ligase.\n(B) is wrong because primase makes the short RNA primers. Matching each enzyme to its job is a common question: helicase unwinds, SSBs stabilize, primase primes, polymerase extends, ligase seals."
     },
     {
       "id": "6-45",
@@ -5022,7 +5022,7 @@ const QUESTIONS = {
         "Complete failure of the cell's entire DNA replication process"
       ],
       "correct": 0,
-      "explanation": "Since splicing depends on specific signal sequences marking intron/exon boundaries, disrupting those signals can cause exons to be wrongly included or excluded even without changing the coding sequence itself, potentially producing an abnormal protein. Choice B wrongly assumes only the coding sequence matters, ignoring that proper splicing is itself required to assemble a correct mature mRNA. Choice D misattributes the effect to DNA replication, an unrelated process. Choice C overstates the severity — such mutations vary widely in effect and are not universally lethal."
+      "explanation": "Correct: improper inclusion or exclusion of exons, even with the coding sequence unchanged. Splicing depends on short signal sequences at the boundaries between introns and exons (such as GU at the start and AG at the end of an intron) and a branch point sequence that the spliceosome recognizes. A mutation in those signals can make the spliceosome skip an exon, keep an intron, or cut at the wrong place, so the mature mRNA is wrong and the protein it codes for may be abnormal, even if the exon sequences themselves are unchanged. Some cases of the blood disorder beta-thalassemia are caused by splice-site mutations.\n\n(B) is wrong because correct splicing is needed to make the right mRNA.\n(D) is wrong because splicing is part of RNA processing, not DNA replication.\n(C) is wrong because the effects of splicing mutations vary and are not always lethal."
     },
     {
       "id": "6-46",
@@ -5035,7 +5035,7 @@ const QUESTIONS = {
         "The genetic code must be entirely reprogrammed before use in any new host organism"
       ],
       "correct": 0,
-      "explanation": "Because the code is nearly universal, a bacterium's transcription and translation machinery reads a human gene's codons the same way human cells would, letting it produce a correctly folded, functional protein like insulin — this shared code is what makes recombinant DNA technology practical. Choice C dismisses a significance that underlies real biotechnology applications. Choice B is factually wrong, since bacteria routinely perform both processes on their own genes. Choice D contradicts the very premise of code universality, which is precisely why reprogramming isn't necessary."
+      "explanation": "Correct: a bacterium can correctly transcribe and translate an inserted human gene into functional protein. Because almost all organisms use the same genetic code, a codon like AUG or GGA means the same amino acid in a human cell and in a bacterium. Scientists can insert the human insulin gene into a plasmid (using a copy of the gene without introns, since bacteria cannot splice them out) and put it into bacteria, and the bacterial ribosomes and tRNAs read the human codons and make human insulin. This universality is what makes recombinant DNA technology practical.\n\n(B) is wrong because bacteria routinely transcribe and translate their own genes.\n(C) is wrong because the universal code is the basis for much of biotechnology.\n(D) is wrong because the code does not have to be reprogrammed; it is shared."
     },
     {
       "id": "6-47",
@@ -5048,7 +5048,7 @@ const QUESTIONS = {
         "Nonsense mutations, by truncating the protein, are generally more severe than typical missense changes"
       ],
       "correct": 3,
-      "explanation": "Truncating a protein (nonsense mutation) typically eliminates a large portion of its structure and function, while a missense mutation changes just one amino acid and often leaves the rest of the protein largely intact — making nonsense mutations generally more severe on average. Choice A states the reverse relationship. Choice C ignores that these mutation types have meaningfully different typical outcomes. Choice B is false, since both mutation types can and often do have real functional consequences, even if their severity typically differs."
+      "explanation": "Correct: nonsense mutations, by truncating the protein, are generally more severe than typical missense changes. A nonsense mutation puts a stop codon in the middle of the gene, so translation ends early and the protein is cut short (and the mRNA is often destroyed by the cell). A shortened protein usually loses much of its structure and its function. A missense mutation changes only one amino acid, and the effect depends on the change: a similar amino acid in an unimportant place may have no effect, while a change at a critical site can be damaging (as in sickle-cell disease). So nonsense mutations are generally more severe, though there are exceptions.\n\n(A) is wrong because it reverses the usual relationship.\n(C) is wrong because the two types usually have different effects.\n(B) is wrong because both types can change protein function."
     },
     {
       "id": "6-48",
@@ -5061,7 +5061,7 @@ const QUESTIONS = {
         "Gene regulation carries no real biological importance for the organism"
       ],
       "correct": 1,
-      "explanation": "Gene regulation lets genetically identical cells become diverse specialized cell types by expressing different gene subsets, and lets individual cells adjust expression in response to changing internal and external conditions. Choice D dismisses an importance that is well-established and directly testable. Choice A has the relevance backwards, since regulation becomes especially critical in multicellular organisms with many differentiated cell types. Choice C directly contradicts observed biology, since expression levels vary dramatically between cell types and conditions."
+      "explanation": "Correct: it lets identical cells differentiate and dynamically respond to changing conditions. A multicellular organism develops from one cell, and nearly all of its cells have the same genome. Gene regulation turns different sets of genes on and off, which produces hundreds of specialized cell types (neurons, muscle cells, liver cells) and controls when and where genes are expressed during development. It also lets cells adjust to changes, such as responding to hormones, nutrients, or stress, by changing the genes they use. Without regulation, every cell would be the same and could not adapt.\n\n(A) is wrong because gene regulation is especially important in multicellular organisms.\n(C) is wrong because expression levels differ greatly among cell types.\n(D) is wrong because gene regulation is essential for the organism."
     },
     {
       "id": "6-49",
@@ -5074,7 +5074,7 @@ const QUESTIONS = {
         "Synthesis could not begin, since polymerase needs an existing free 3' end to extend"
       ],
       "correct": 3,
-      "explanation": "DNA polymerase can only extend an existing strand from a free 3' end and cannot initiate synthesis from nothing — this is exactly why primase's short RNA primer is essential to get replication started. Choice B wrongly assumes the primer is dispensable. Choice A confuses polymerase's function with primase's; polymerase extends primers, it doesn't create them. Choice C misassigns this role to helicase, whose job is unwinding the helix, not providing a starting point for synthesis."
+      "explanation": "Correct: synthesis could not begin, since polymerase needs an existing free 3' end to extend. DNA polymerase can only add nucleotides to a free 3' hydroxyl group on an existing strand; it cannot start a new strand from nothing. That is why the enzyme primase first makes a short RNA primer (about 5-10 nucleotides) that base-pairs with the template and provides the free 3' end. The leading strand needs one primer at the origin, and the lagging strand needs a new primer for each Okazaki fragment. The RNA primers are later replaced with DNA.\n\n(A) is wrong because polymerase extends primers and does not make them.\n(B) is wrong because the primer is essential.\n(C) is wrong because helicase unwinds the helix and cannot provide a starting point for DNA synthesis."
     },
     {
       "id": "6-50",
@@ -5087,7 +5087,7 @@ const QUESTIONS = {
         "The mRNA is complementary to the template, matching the non-template strand except U for T"
       ],
       "correct": 3,
-      "explanation": "RNA polymerase builds mRNA as a complementary copy of the template strand (using U in place of T), which means the mRNA sequence ends up matching the other, non-template ('coding') DNA strand almost exactly. Choice A is wrong because complementary base pairing, not identity, links mRNA to the template strand. Choice B ignores this well-defined complementary relationship entirely. Choice C is wrong because base pairing is exactly the mechanism that produces the mRNA sequence — it isn't formed without pairing."
+      "explanation": "Correct: the mRNA is complementary to the template, matching the non-template strand except U for T. RNA polymerase reads the template strand and builds the mRNA by base pairing (A pairs with U, T pairs with A, C pairs with G, and G pairs with C). The new mRNA is therefore complementary to the template strand, which makes its sequence the same as the other DNA strand (the non-template, or coding, strand) with uracil in place of thymine. Example: template 3'-TAC-5' gives mRNA 5'-AUG-3', and the coding strand reads 5'-ATG-3'.\n\n(A) is wrong because the mRNA is complementary to the template strand, not identical to it.\n(B) is wrong because the relationship is precise and determined by base pairing.\n(C) is wrong because base pairing is exactly how the mRNA is made, and it is not simply a reversal of the sequence."
     },
     {
       "id": "6-51",
@@ -5100,7 +5100,7 @@ const QUESTIONS = {
         "DNA replication would immediately halt as a direct consequence of this defect"
       ],
       "correct": 0,
-      "explanation": "The ribosome reads mRNA codons and catalyzes addition of the matching amino acids, so a ribosome unable to bind mRNA would directly and severely impair translation. Choice B misattributes the effect to transcription, a separate, earlier process carried out by RNA polymerase rather than the ribosome. Choice D similarly misattributes the effect to DNA replication, an unrelated process. Choice C contradicts the ribosome's essential, direct role in synthesizing protein from mRNA."
+      "explanation": "Correct: translation could not proceed normally, since the ribosome is essential for reading mRNA. The ribosome (made of rRNA and proteins, with a large and a small subunit) is the site of translation. The small subunit binds the mRNA, and the ribosome moves along the codons while the large subunit catalyzes the formation of peptide bonds between amino acids carried by tRNAs. If the ribosome cannot bind mRNA, the codons cannot be read and protein synthesis would be severely impaired.\n\n(B) is wrong because transcription is done by RNA polymerase in the nucleus, and does not need ribosomes.\n(D) is wrong because DNA replication is carried out by different enzymes and is not directly affected by a defect in ribosomes.\n(C) is wrong because ribosomes are essential for making proteins."
     },
     {
       "id": "6-52",
@@ -5113,7 +5113,7 @@ const QUESTIONS = {
         "The protein would automatically gain a beneficial new function as a direct result"
       ],
       "correct": 0,
-      "explanation": "Introducing a charged, hydrophilic residue into a spot normally occupied by a nonpolar residue in the hydrophobic core is energetically unfavorable, since charged groups favor proximity to water rather than a nonpolar environment — this can disrupt the hydrophobic clustering that stabilizes tertiary structure. Choice C understates the likely impact of such a poorly tolerated substitution in a structurally important location. Choice D assumes an unsupported, favorable outcome with no basis. Choice B is inconsistent, since a change disrupting hydrophobic core packing would be expected to affect tertiary (higher-order) structure, not just the primary sequence."
+      "explanation": "Correct: likely disruption of normal folding, since a charged residue in a hydrophobic core is unfavorable. In most proteins, the nonpolar (hydrophobic) amino acids cluster in the interior, away from water, and this packing is a major force that holds the folded shape (the tertiary structure) together. A charged or polar amino acid wants to be near water and to make hydrogen bonds or ionic bonds. Putting one in the hydrophobic core is energetically unfavorable, so it can disrupt the packing and cause the protein to fold incorrectly or become unstable and lose function.\n\n(C) is wrong because the change is likely to matter at an important location.\n(D) is wrong because there is no reason to expect a beneficial gain of function.\n(B) is wrong because a change in amino acids (primary structure) that disrupts core packing will change the tertiary structure too."
     },
     {
       "id": "6-53",
@@ -5126,7 +5126,7 @@ const QUESTIONS = {
         "Chromatin structure is relevant only in prokaryotic cells"
       ],
       "correct": 2,
-      "explanation": "Loosely packed, accessible euchromatin generally gives transcription machinery easier physical access, correlating with higher expression, while tightly packed heterochromatin blocks that access and correlates with lower expression or silencing. Choice A denies this well-established relationship outright. Choice B states the opposite of the actual correlation. Choice D is backwards, since chromatin structure is specifically a eukaryotic feature — prokaryotic cells lack the histone-based packaging that defines it."
+      "explanation": "Correct: more accessible euchromatin correlates with higher expression; heterochromatin with lower expression. Chromatin is DNA wrapped around histone proteins. In euchromatin the DNA is loosely packed and open, so RNA polymerase and transcription factors can reach the genes and transcribe them, which correlates with higher expression. In heterochromatin the DNA is tightly packed, and the genes are hard to reach, so expression is low or off. Chemical marks control this: for example, adding acetyl groups to histones loosens chromatin, while DNA methylation tends to tighten it.\n\n(B) is wrong because it states the opposite of the real relationship.\n(A) is wrong because accessibility is closely linked to expression.\n(D) is wrong because histone-based chromatin is a feature of eukaryotic cells."
     },
     {
       "id": "6-54",
@@ -5139,7 +5139,7 @@ const QUESTIONS = {
         "It seals the remaining gaps between adjacent Okazaki fragments"
       ],
       "correct": 0,
-      "explanation": "As helicase unwinds the helix, torsional stress (supercoiling) builds up ahead of the fork faster than it can dissipate naturally; topoisomerase relieves this by temporarily cutting and rejoining the strand. Choice C describes DNA polymerase's role, not topoisomerase's. Choice D describes ligase's role in sealing Okazaki fragments, a separate function. Choice B contradicts topoisomerase's well-established, essential role in preventing replication from stalling under accumulated tension."
+      "explanation": "Correct: it relieves twisting/supercoiling stress building up ahead of the replication fork. As helicase unwinds the double helix, the DNA ahead of the fork becomes more tightly twisted (supercoiled), like a twisted rope or a telephone cord that is being pulled apart at one end. If this stress was not relieved, the fork would stall. Topoisomerase cuts one or both DNA strands, lets the DNA rotate to release the tension, and then reseals the strands.\n\n(C) is wrong because making new DNA is the job of DNA polymerase.\n(D) is wrong because sealing gaps between Okazaki fragments is the job of DNA ligase.\n(B) is wrong because topoisomerase is needed to keep replication moving."
     },
     {
       "id": "6-55",
@@ -5152,7 +5152,7 @@ const QUESTIONS = {
         "Normal splicing of introns out of the pre-mRNA transcript itself"
       ],
       "correct": 1,
-      "explanation": "The 5' cap and 3' poly-A tail protect mRNA from degradation, assist ribosome binding, and help enable proper nuclear export; failing to add them disrupts this processing and export. Choices A, C, and D each describe a normal, correctly functioning step (completed processing, correct ribosome binding, correct splicing) that would support proper export, not prevent it — the question specifically asks what would disrupt export, which only the missing cap/tail scenario does."
+      "explanation": "Correct: failure to add the 5' cap and poly-A tail, both important for stability and export. In eukaryotes, newly made pre-mRNA is processed in the nucleus: a 5' cap is added, a poly-A tail is added to the 3' end, and introns are spliced out. These modifications protect the mRNA from enzymes that degrade RNA, and are recognized by the proteins that export the mRNA through the nuclear pores and help ribosomes bind it. Unprocessed or improperly processed transcripts are held in the nucleus or destroyed. (A), (C), and (D) are wrong because they all describe normal, properly working steps (completed processing, normal ribosome binding, normal splicing) that would support correct export, not prevent it."
     },
     {
       "id": "6-56",
@@ -5165,7 +5165,7 @@ const QUESTIONS = {
         "The ribosome continues translating indefinitely, simply ignoring the stop codon it meets"
       ],
       "correct": 1,
-      "explanation": "Stop codons have no matching tRNA; release factor proteins instead bind at the stop codon, triggering release of the finished polypeptide and ending translation. Choice A is wrong because no amino acid, special or otherwise, is added at a stop codon. Choice D is wrong because translation reliably terminates at a stop codon rather than continuing past it. Choice C is wrong because the stop codon is recognized and acted upon, not simply skipped as if it weren't there."
+      "explanation": "Correct: no tRNA anticodon matches a stop codon; release factors instead trigger polypeptide release. The three stop codons (UAA, UAG, UGA) do not code for any amino acid, and there is no tRNA with a complementary anticodon for them. Instead, a protein called a release factor enters the ribosome and binds at the stop codon. It causes the finished polypeptide to be released from the last tRNA, and the ribosome subunits and the mRNA separate.\n\n(A) is wrong because no amino acid is added at a stop codon.\n(C) is wrong because the stop codon is recognized and ends translation; it is not skipped.\n(D) is wrong because translation does not continue past a stop codon."
     },
     {
       "id": "6-57",
@@ -5178,7 +5178,7 @@ const QUESTIONS = {
         "The claim is well-supported, since every single mutation reduces overall fitness in every environment"
       ],
       "correct": 2,
-      "explanation": "This overgeneralizes: silent mutations produce no amino acid change and typically no functional consequence, while missense mutations range from negligible to severe to, occasionally, beneficial depending on the specific change and location. Choice D asserts a uniform negative effect the evidence doesn't support. Choice B is factually wrong, since nonsense mutations are just one of several distinct mutation categories, not the only kind that occurs. Choice A is directly contradicted by the well-documented occurrence of mutations in all living organisms."
+      "explanation": "Correct: not well-supported; silent mutations typically have no effect, and some missense changes are even beneficial. Mutations can be harmful, neutral, or beneficial, depending on what they change and the environment. A silent mutation does not change the amino acid and usually has no effect. Many missense mutations in unimportant positions are close to neutral. Some mutations are beneficial: for example, a mutation that lets adults digest lactose, or mutations that give bacteria resistance to an antibiotic. Beneficial mutations, though rare, are the source of new alleles and the raw material for evolution by natural selection.\n\n(D) is wrong because mutations do not all lower fitness, and the effect depends on the environment.\n(B) is wrong because nonsense mutations are only one of several kinds.\n(A) is wrong because mutations occur in all organisms."
     },
     {
       "id": "6-58",
@@ -5191,7 +5191,7 @@ const QUESTIONS = {
         "Observing that the cell has stopped producing ATP following the treatment with the methylation inhibitor"
       ],
       "correct": 2,
-      "explanation": "The most direct evidence linking promoter methylation to expression is a consistent correlation — ideally via direct experimental manipulation — between that specific methylation state and that gene's transcription level. Choice B would actually indicate a mutation had occurred, not a methylation effect, since methylation doesn't alter the underlying sequence. Choice D describes an unrelated cellular process (energy metabolism) with no direct bearing on this specific regulatory question. Choice A fails to demonstrate anything about the gene of interest, since it examines a different gene entirely."
+      "explanation": "Correct: observing that removing methylation raises transcription, while adding it lowers transcription. The best evidence for a cause-and-effect link comes from changing the methylation at that specific promoter and seeing how the expression of that same gene responds. If a demethylating treatment (such as a drug that removes methyl groups) increases the gene's transcription, and adding methyl groups to the promoter decreases it, then methylation is controlling that gene's expression. Simply finding that the two go together is weaker evidence.\n\n(A) is wrong because a change in an unrelated gene says nothing about the gene in question.\n(B) is wrong because methylation does not change the DNA sequence, so a changed sequence would point to a mutation.\n(D) is wrong because ATP production is unrelated to this specific question."
     },
     {
       "id": "6-59",
@@ -5204,7 +5204,7 @@ const QUESTIONS = {
         "DNA replication occurs only in prokaryotic cells, which don't undergo mitosis at all"
       ],
       "correct": 2,
-      "explanation": "Mitosis's job is separating already-duplicated sister chromatids into two daughter cells, so replication must occur beforehand (during S phase) to produce those paired chromatids for mitosis to act on. Choice B denies a clear, sequential dependency between the two processes. Choice A confuses the two processes' roles — mitosis separates chromosomes, it doesn't replicate DNA. Choice D is false, since DNA replication occurs in eukaryotic cells too, ahead of their own mitotic divisions."
+      "explanation": "Correct: mitosis separates already-duplicated sister chromatids that replication must first produce. DNA is replicated in S phase of interphase, so every chromosome consists of two identical sister chromatids before mitosis begins. Mitosis then divides these chromatids equally into the two daughter cells, so that each receives a complete set of DNA. If replication did not come first, there would be nothing to divide, and the daughter cells would have half the DNA they need.\n\n(A) is wrong because mitosis divides chromosomes; it does not copy DNA.\n(B) is wrong because the two processes are closely linked in a sequence.\n(D) is wrong because eukaryotic cells replicate their DNA before mitosis, and replication also occurs in prokaryotes."
     },
     {
       "id": "6-60",
@@ -5217,7 +5217,7 @@ const QUESTIONS = {
         "RNA polymerase might continue past the normal endpoint, producing an overlong transcript"
       ],
       "correct": 3,
-      "explanation": "Since the terminator signals RNA polymerase to stop and release the transcript, disrupting it could let polymerase continue transcribing past the normal endpoint, producing an abnormally long transcript. Choice A confuses termination with initiation — a terminator problem doesn't prevent transcription from starting. Choice B misattributes the effect to the promoter, a separate sequence controlling initiation rather than termination. Choice C misattributes the effect to DNA replication, an unrelated process that doesn't depend on transcriptional terminators."
+      "explanation": "Correct: RNA polymerase might continue past the normal endpoint, producing an overlong transcript. A terminator is a sequence that signals the end of transcription, so RNA polymerase stops and releases the RNA. In prokaryotes, a common terminator causes the RNA to fold into a hairpin that makes the polymerase fall off; in eukaryotes, the polyadenylation signal in the RNA leads to cleavage of the transcript. If the polymerase does not recognize a mutated terminator, it can read through and make a transcript that is too long, which may include neighboring sequences.\n\n(A) is wrong because the terminator is at the end of the gene and has no role in starting transcription.\n(B) is wrong because the promoter is a separate sequence at the beginning of the gene.\n(C) is wrong because DNA replication does not depend on transcription terminators."
     },
     {
       "id": "6-61",
@@ -5230,7 +5230,7 @@ const QUESTIONS = {
         "Every single amino acid in the protein requires ten separate codons to specify it"
       ],
       "correct": 1,
-      "explanation": "Since each amino-acid-specifying codon codes for exactly one amino acid, the number of such codons directly determines the number of amino acids in the resulting polypeptide (the stop codon adds none). Choice A denies this clear, direct one-to-one relationship. Choice D invents a ratio (ten codons per amino acid) that has no basis in how the genetic code actually works. Choice C is wrong because the stop codon specifically signals termination and adds no amino acid to the chain."
+      "explanation": "Correct: each codon (except stop) equals one amino acid, so coding length sets protein length. The genetic code is read in non-overlapping groups of three nucleotides, and each codon specifies one amino acid. So the number of amino acids in a protein equals the number of amino-acid-coding codons in the mRNA's coding sequence (the start codon AUG is counted as the first, methionine). For example, a coding sequence of 300 nucleotides before the stop codon is 100 codons and gives a protein of 100 amino acids; with the stop codon the reading frame is 303 nucleotides long.\n\n(A) is wrong because there is a direct one-to-one relationship.\n(C) is wrong because a stop codon does not add an amino acid.\n(D) is wrong because each amino acid is specified by a single codon of three nucleotides, not ten."
     },
     {
       "id": "6-62",
@@ -5243,7 +5243,7 @@ const QUESTIONS = {
         "A missense mutation occurring within the gene's own coding sequence"
       ],
       "correct": 0,
-      "explanation": "Since introns are spliced out and never appear in the mature mRNA, a mutation entirely within an intron (away from splicing signal sequences) typically has no effect on the resulting protein's amino acid sequence. Choices B, C, and D all describe mutations occurring within the coding sequence (exons) itself, where changes directly alter the codons actually translated — a missense mutation changes one amino acid, a nonsense mutation truncates the protein, and a frameshift disrupts the downstream reading frame, so all three would be expected to affect the protein."
+      "explanation": "Correct: a mutation occurring within an intron later removed during splicing. Introns are cut out of the pre-mRNA by splicing, so they are not in the mature mRNA and are never translated. A mutation in the middle of an intron therefore usually does not change the amino acid sequence of the protein (unless it damages the sequences that signal where to splice, as in question 45). Mutations in the coding sequence (exons) change the codons that are translated.\n\n(D) is wrong because a missense mutation in an exon changes one amino acid.\n(C) is wrong because a nonsense mutation in an exon creates a premature stop codon and truncates the protein.\n(B) is wrong because a frameshift mutation in an exon changes the reading frame of all the codons after it. Remember: introns are removed, exons are expressed."
     },
     {
       "id": "6-63",
@@ -5256,7 +5256,7 @@ const QUESTIONS = {
         "A specific category of intron sequence found within a gene and removed during splicing"
       ],
       "correct": 2,
-      "explanation": "An enhancer is a regulatory DNA sequence, sometimes far from the gene it regulates, that specific transcription factors bind to help increase that gene's transcription rate. Choice A confuses an enhancer (a DNA sequence) with RNA polymerase (the enzyme that actually synthesizes mRNA). Choice D incorrectly categorizes an enhancer as a type of intron, when it's a distinct regulatory DNA element rather than part of the transcribed intron/exon structure. Choice B is wrong both because enhancers are DNA sequences rather than proteins, and because their defining role is increasing, not silencing, expression."
+      "explanation": "Correct: a DNA sequence, sometimes far from a gene, that factors bind to raise its transcription. An enhancer is a regulatory region of DNA that can be thousands of base pairs from the gene it controls (upstream, downstream, or even within an intron). Activator proteins (specific transcription factors) bind to it, and the DNA loops so that the bound proteins can contact the proteins at the promoter and help RNA polymerase start transcription. Different cell types have different activators, so enhancers are a major reason that genes are on only in certain tissues.\n\n(A) is wrong because the enzyme that makes mRNA is RNA polymerase, and an enhancer is a DNA sequence.\n(B) is wrong because an enhancer is DNA, not a protein, and it increases transcription; sequences that decrease it are called silencers.\n(D) is wrong because an enhancer is a regulatory element and not a type of intron."
     },
     {
       "id": "6-64",
@@ -5269,7 +5269,7 @@ const QUESTIONS = {
         "To accurately duplicate the genome so each daughter cell gets a complete copy"
       ],
       "correct": 3,
-      "explanation": "Replication's overarching purpose is faithful genome duplication, ensuring each daughter cell produced by mitosis receives a complete, accurate set of genetic instructions — accuracy matters because errors can be inherited by all descendant cells. Choice B mischaracterizes replication's purpose as generating variation, when in fact replication is built for accuracy, with variation instead arising from separate, comparatively rare mutation events. Choice A reverses the purpose entirely, since replication preserves rather than destroys genetic continuity. Choice C dismisses a purpose that is, in fact, foundational to cellular reproduction and inheritance."
+      "explanation": "Correct: to accurately duplicate the genome so each daughter cell gets a complete copy. DNA replication takes place in S phase, before cell division. It copies the whole genome so that after mitosis, each of the two daughter cells has a full, accurate set of DNA instructions. This preserves genetic information from one cell generation to the next and from parent to offspring. It is built for accuracy (with proofreading and repair) because an error can be passed on to all descendant cells.\n\n(B) is wrong because replication is designed for accuracy; variation comes from mutations and from meiosis and fertilization.\n(A) is wrong because replication preserves genetic continuity.\n(C) is wrong because replication is essential for cell reproduction and heredity."
     },
     {
       "id": "6-65",
@@ -5283,7 +5283,7 @@ const QUESTIONS = {
         "This mechanism acts at exactly the same stage of expression as DNA methylation does, before transcription"
       ],
       "correct": 2,
-      "explanation": "Because this microRNA acts on already-produced mRNA, marking it for degradation before translation, it represents post-transcriptional regulation — mechanistically and temporally distinct from DNA methylation (acting earlier, at the chromatin level before transcription even begins) and transcription factors (acting during transcription initiation itself). Choice D incorrectly places it at the same stage as methylation, when it actually acts much later in the pathway, on mRNA rather than on chromatin. Choice A dismisses a clearly defined regulatory role. Choice B misplaces the mechanism into DNA replication, an unrelated process that this microRNA doesn't act on at all."
+      "explanation": "Correct: this mechanism acts post-transcriptionally, controlling mRNA stability after transcription but before translation. Gene expression can be regulated at several stages. First, chromatin and DNA methylation affect whether a gene can be transcribed at all. Then transcription factors control how much transcription happens. After the mRNA is made (post-transcriptional control), RNA processing, mRNA stability, and microRNAs can regulate how much of the mRNA is available to be translated. Then translation and finally the protein itself (post-translational control) can be regulated. A microRNA that binds to an mRNA and marks it for destruction acts on the RNA that has already been made, so it controls the amount of protein by changing how long the mRNA lasts.\n\n(D) is wrong because DNA methylation acts earlier, at the chromatin level before transcription.\n(A) is wrong because it is a gene regulation mechanism.\n(B) is wrong because it acts on mRNA, not DNA replication."
     },
     {
       "id": "6-66",
@@ -5296,7 +5296,7 @@ const QUESTIONS = {
         "High glucose lowers cAMP, so CAP can't help RNA polymerase, even after the repressor is removed"
       ],
       "correct": 3,
-      "explanation": "High glucose lowers cAMP, preventing the cAMP-CAP complex from forming and helping RNA polymerase bind the promoter — this positive-regulation signal stays off even though lactose has already removed the repressor. Choice A is incorrect because lactose, if present, does successfully remove the repressor regardless of glucose level; glucose affects the separate CAP-based activation step instead. Choice C is far too broad, since RNA polymerase remains intact and active for transcribing other genes. Choice B is incorrect, since glucose levels don't control lactose transport into the cell."
+      "explanation": "Correct: high glucose lowers cAMP, so CAP can't help RNA polymerase, even after the repressor is removed. The lac operon has two layers of control. The repressor is a negative control: lactose removes it. CAP (catabolite activator protein) is a positive control: when glucose is low, cAMP levels are high, and cAMP binds CAP so that it helps RNA polymerase bind the promoter and transcribe the genes strongly. When glucose is abundant, cAMP is low, so CAP is inactive and RNA polymerase transcribes only weakly, even if lactose has removed the repressor. This makes sense because the cell uses glucose, the better energy source, first.\n\n(A) is wrong because lactose can remove the repressor regardless of the glucose level; glucose acts on CAP, not on the repressor.\n(B) is wrong because glucose levels do not control whether lactose enters the cell.\n(C) is wrong because glucose does not destroy RNA polymerase."
     },
     {
       "id": "6-67",
@@ -5309,7 +5309,7 @@ const QUESTIONS = {
         "Lactose absent, glucose abundant, since abundant glucose should favor high transcription"
       ],
       "correct": 2,
-      "explanation": "Maximal transcription needs lactose present (inactivating the repressor, lifting the block on RNA polymerase) AND glucose scarce (letting cAMP accumulate, activate CAP, and help RNA polymerase bind the promoter). Choice B is wrong because abundant glucose keeps CAP inactive via catabolite repression, limiting transcription even with lactose present. Choice A is wrong because without lactose, the repressor stays bound regardless of glucose level, blocking transcription outright. Choice D is wrong for the same reason — with no lactose, the repressor blocks RNA polymerase no matter how scarce or abundant glucose is."
+      "explanation": "Correct: lactose present, glucose scarce. The lac operon needs two conditions for maximum transcription. First, lactose must be present, because lactose (as allolactose) binds the repressor and removes it from the operator so RNA polymerase can transcribe. Second, glucose must be scarce, because low glucose raises cAMP, which activates CAP, which helps RNA polymerase bind the promoter strongly. Summary of the four cases: no lactose and low glucose: off (repressor is bound); no lactose and high glucose: off; lactose and high glucose: low transcription (no repressor, but CAP is not active); lactose and low glucose: HIGH transcription.\n\n(B) is wrong because abundant glucose keeps CAP inactive, which limits transcription. (A) and (D) are wrong because with no lactose the repressor stays bound to the operator and blocks transcription, whatever the glucose level."
     }
   ],
   "7": [
@@ -6174,7 +6174,7 @@ const QUESTIONS = {
         "dN/dt = B − D only, dropping the rate term entirely"
       ],
       "correct": 1,
-      "explanation": "Exponential growth is dN/dt = rmaxN: growth rate is simply proportional to current population size, with no limiting term, producing unlimited, accelerating (J-shaped) growth. Choice A is the logistic equation, which includes the (K−N)/K braking term exponential growth lacks. Choice D drops the rmax rate term needed to scale growth to population size. Choice C wrongly treats N as always equal to K, which describes a population already at carrying capacity, not general growth."
+      "explanation": "Correct: dN/dt = rmax N, growth rate proportional to N with no limiting term. Exponential growth happens when resources are unlimited, so each individual reproduces at its maximum per capita rate (rmax). The growth rate of the population (dN/dt, the change in the number of individuals over time) is then proportional to the current population size N: the more individuals there are, the more new individuals are added each time period. The graph of N versus time is J-shaped. Examples are bacteria in a fresh culture or a species newly introduced into a favorable environment.\n\n(A) is wrong because it is the logistic equation, which includes the term (K - N)/K that slows growth as the population nears the carrying capacity.\n(D) is wrong because B - D (births minus deaths) is a general idea but leaves out the rate term that scales growth with population size.\n(C) is wrong because N = K describes a population that is already at its carrying capacity, not how it grows."
     },
     {
       "id": "8-2",
@@ -6187,7 +6187,7 @@ const QUESTIONS = {
         "It approaches 0 as N nears K, slowing growth rate toward zero"
       ],
       "correct": 3,
-      "explanation": "As N approaches K, the numerator (K − N) approaches zero, so (K − N)/K approaches zero, slowing overall growth toward zero and producing the S-shaped curve's leveling-off. Choice A describes the opposite trend — the term shrinks, not grows, as N rises. Choice C confuses a shrinking positive fraction with an unbounded negative value; K − N never drops below zero once N is capped near K. Choice B ignores that this term is exactly what makes the logistic equation differ from the exponential one."
+      "explanation": "Correct: it approaches 0 as N nears K, slowing growth rate toward zero. Look at what the term does at different population sizes. When N is much smaller than K, (K - N)/K is close to 1, so growth is nearly exponential (dN/dt is about rmax N). When N is half of K, the term is 0.5. When N reaches K, K - N = 0, so the term is 0 and dN/dt = 0: the population stops growing. This 'braking' term is what produces the S-shaped (logistic) curve that levels off at K.\n\n(A) is wrong because the term decreases toward 0, not toward 1, as N rises.\n(C) is wrong because when N is at or below K the term is never negative, and it cannot become negative infinity.\n(B) is wrong because this term is the difference between the logistic and exponential equations."
     },
     {
       "id": "8-3",
@@ -6200,7 +6200,7 @@ const QUESTIONS = {
         "The maximum population size an environment can sustainably support given its available resources"
       ],
       "correct": 3,
-      "explanation": "Carrying capacity (K) is the maximum population size a given environment can sustainably support long-term, based on resources like food, water, and space; populations tend to level off near K under logistic growth. Choice A confuses K with individual reproductive output, a property of an organism, not an environment. Choice C confuses K with rmax, the growth rate, which is a different variable entirely. Choice B describes something closer to a minimum viable population, the opposite extreme from a maximum sustainable one."
+      "explanation": "Correct: the maximum population size an environment can sustainably support given its available resources. Carrying capacity (K) depends on limiting resources such as food, water, shelter, and space. A population can grow until it reaches K, and then it tends to level off. K is not fixed: it changes if the environment changes (a drought can lower it, and an increase in food can raise it), and populations sometimes overshoot K and then decline.\n\n(A) is wrong because the number of offspring one organism can produce describes the individual's reproductive output, not a property of the environment.\n(B) is wrong because the minimum size needed to avoid extinction is a different idea (a minimum viable population).\n(C) is wrong because the growth rate of a population is rmax, a different quantity from K."
     },
     {
       "id": "8-4",
@@ -6213,7 +6213,7 @@ const QUESTIONS = {
         "Carrying capacity itself"
       ],
       "correct": 0,
-      "explanation": "Disease transmission's impact scales with density — it spreads faster in a more crowded population — making it a classic density-dependent limiting factor. Choice C is the opposite category: density-independent factors (like weather) act regardless of crowding, but disease here explicitly depends on it. Choice B misidentifies a limiting factor as a growth pattern; exponential growth assumes no such limiting factors are yet acting. Choice D confuses the factor with the ceiling it helps produce; carrying capacity is the outcome, not the mechanism."
+      "explanation": "Correct: a density-dependent limiting factor. A density-dependent factor limits a population more strongly as the population gets denser. Disease spreads more easily when individuals are crowded together and in frequent contact, so the proportion of the population affected rises with density. Other density-dependent factors are competition for food or space, predation, and the buildup of waste. They help bring a population toward its carrying capacity.\n\n(C) is wrong because density-independent factors (like fire or storms) affect a population regardless of how crowded it is, which does not fit disease transmission.\n(B) is wrong because exponential growth is a pattern of growth with no limiting factors, not a type of limiting factor.\n(D) is wrong because carrying capacity is the population size that results from limiting factors, not a factor itself."
     },
     {
       "id": "8-5",
@@ -6226,7 +6226,7 @@ const QUESTIONS = {
         "A density-independent limiting factor"
       ],
       "correct": 3,
-      "explanation": "The eruption kills organisms regardless of how crowded the population was beforehand, so its effect doesn't depend on density — the defining feature of a density-independent limiting factor, alongside other natural disasters and extreme weather. Choice C describes the opposite pattern, where impact would scale with crowding (as with disease or resource competition), which isn't the case here. Choice A misapplies a growth-curve term to a single destructive event, not a pattern of growth. Choice B confuses a sudden catastrophe with the resource-based ceiling a population approaches gradually."
+      "explanation": "Correct: a density-independent limiting factor. A density-independent factor affects a population by the same proportion no matter how dense it is. A volcanic eruption destroys organisms whether the population was sparse or crowded, as do fires, floods, extreme cold, and storms. Such events can reduce a population far below its carrying capacity.\n\n(C) is wrong because a density-dependent factor, like disease or competition, would have an effect that increases with crowding, and the eruption does not.\n(A) is wrong because logistic growth is a pattern of population growth, not an event that kills organisms.\n(B) is wrong because carrying capacity is a resource-based population ceiling reached gradually, not a sudden catastrophe."
     },
     {
       "id": "8-6",
@@ -6239,7 +6239,7 @@ const QUESTIONS = {
         "Growth resembling exponential growth initially, before resource limits eventually matter"
       ],
       "correct": 3,
-      "explanation": "With abundant, essentially unlimited resources, density-dependent limiting factors haven't yet become significant, so growth would initially resemble exponential growth; this pattern typically shifts toward logistic growth as the population grows and resources become comparatively scarcer. Choice C skips the growth phase entirely and assumes the population starts at K, contradicting the unlimited-resources setup. Choice A predicts decline despite favorable conditions that should support growth. Choice B ignores that abundant resources are exactly what permits growth to begin."
+      "explanation": "Correct: growth resembling exponential growth initially, before resource limits eventually matter. When resources are plentiful and there are few individuals, almost every individual can survive and reproduce at the maximum rate, so the population grows exponentially (a J-shaped curve). As the population increases, resources become scarcer, competition and other density-dependent factors begin to act, and growth slows and levels off near the carrying capacity (logistic growth). This is the typical pattern for a species introduced to a new environment.\n\n(C) is wrong because a population starting with few individuals does not begin at its carrying capacity.\n(A) is wrong because abundant resources should support growth, not decline.\n(B) is wrong because abundant resources are exactly what allows a population to grow."
     },
     {
       "id": "8-7",
@@ -6252,7 +6252,7 @@ const QUESTIONS = {
         "Competition, harming both species involved"
       ],
       "correct": 0,
-      "explanation": "Mutualism describes a (+/+) interaction benefiting both participants: bees gain nectar as food, while flowers benefit from pollination aiding reproduction. Choice C wrongly treats the flower as unaffected, when pollination is a clear, significant benefit to it. Choice B wrongly treats the flower as harmed, when it gains reproductive benefit rather than loses fitness. Choice D wrongly treats both species as harmed, when both clearly gain from the exchange."
+      "explanation": "Correct: mutualism, since both the bee and the flower benefit. Species interactions can be described by their effects on each of the two species: (+/+) mutualism, (+/0) commensalism, (+/-) predation, parasitism, and herbivory, and (-/-) competition. The bee gets nectar for food (+) and the flower gets pollen carried to other flowers, which allows it to reproduce (+). Other examples are mycorrhizal fungi and plant roots, and clownfish and sea anemones.\n\n(C) is wrong because commensalism benefits one species and has no effect on the other, but pollination clearly benefits the flower.\n(B) is wrong because parasitism harms the host, and the flower gains from pollination.\n(D) is wrong because competition harms both species, and here both gain."
     },
     {
       "id": "8-8",
@@ -6265,7 +6265,7 @@ const QUESTIONS = {
         "Mutualism, benefiting both the barnacle and the whale that carries it"
       ],
       "correct": 1,
-      "explanation": "Commensalism describes a (+/0) interaction: the barnacle benefits from a place to live and nutrient-rich water, while the whale experiences no significant benefit or harm. Choice D wrongly assumes the whale also benefits, but no such benefit is described. Choice C wrongly assumes the whale is harmed, but the scenario explicitly states no noticeable harm occurs. Choice A misapplies predation, which requires one organism being consumed as food; the barnacle merely attaches, it doesn't eat the whale."
+      "explanation": "Correct: commensalism, since the barnacle benefits with no noticeable effect on the whale. In commensalism one species benefits (+) and the other is neither helped nor harmed (0). The barnacle gets a place to live and water carrying food past it as the whale swims, while the whale is not noticeably affected. Another example is an orchid growing on the branch of a tree.\n\n(D) is wrong because mutualism would require a benefit to the whale as well, and none is described.\n(C) is wrong because parasitism would harm the whale, and the question says there is no noticeable harm.\n(A) is wrong because predation involves one organism eating another, and the barnacle does not consume the whale."
     },
     {
       "id": "8-9",
@@ -6278,7 +6278,7 @@ const QUESTIONS = {
         "Competition, since both species are negatively affected by the shared, limited resource"
       ],
       "correct": 3,
-      "explanation": "Competition describes a (−/−) interaction: both species are negatively affected because each one's presence reduces the shared, limited food available to the other. Choice B wrongly assumes both benefit, but reduced food availability harms both. Choice A wrongly assumes one side is unaffected, but both bird populations lose access to food. Choice C misapplies predation, which requires one species directly consuming the other; here they merely compete for the same insects."
+      "explanation": "Correct: competition, since both species are negatively affected by the shared, limited resource. When two species use the same limited resource (such as the same insects, space, or light), each one's use reduces the amount available to the other, so both are harmed (-/-). Over time, competing species may divide up the resource (niche partitioning), or one may be forced out of the area (competitive exclusion).\n\n(B) is wrong because mutualism is a (+/+) interaction, and in this scenario both lose out.\n(A) is wrong because commensalism would affect only one species.\n(C) is wrong because predation requires one species to eat the other, but these birds simply compete for the same food."
     },
     {
       "id": "8-10",
@@ -6291,7 +6291,7 @@ const QUESTIONS = {
         "Predation occurs only between plant species, unlike parasitism, which occurs only between animal species"
       ],
       "correct": 1,
-      "explanation": "The key distinction is timescale and outcome: predation generally kills prey relatively quickly in a single direct interaction, while parasitism typically involves an extended relationship with a living host, often without killing it immediately or at all. Choice A ignores this real distinction between the two interaction types. Choice C reverses the actual pattern — parasites typically avoid quickly killing their host, since that would end their food source, while predators typically do cause prompt death. Choice D wrongly restricts predation to plants, when it occurs across animal, plant, and other kingdoms."
+      "explanation": "Correct: predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host. Both interactions benefit one species and harm the other (+/-). In predation, the predator kills and eats its prey, usually in a short time (a hawk and a mouse). A parasite lives on or in a host and feeds from it for a long time, usually without killing it quickly because the parasite depends on the host (tapeworms, ticks, and fleas are examples).\n\n(C) is wrong because parasites usually do not kill their hosts right away; that would end their food supply.\n(A) is wrong because the two interactions differ in how long they last and whether the victim is killed.\n(D) is wrong because predation occurs among animals and in other groups, and parasitism occurs in many groups of organisms too."
     },
     {
       "id": "8-11",
@@ -6304,7 +6304,7 @@ const QUESTIONS = {
         "A species with no ecological interactions with any other species in its community or habitat"
       ],
       "correct": 0,
-      "explanation": "A keystone species has a disproportionately large ecological impact relative to its numerical abundance; removing it can trigger dramatic, cascading community-wide changes even though the species itself may not be especially numerous. Choice B describes the opposite pattern — abundance, not disproportionate impact, which is a different (and often unrelated) property. Choice C wrongly restricts the concept to one habitat type, when keystone species occur in terrestrial, freshwater, and marine ecosystems alike. Choice D contradicts the very definition, since a keystone species' impact comes precisely from its ecological interactions with others."
+      "explanation": "Correct: a species whose ecological impact is disproportionately large relative to its own abundance. A keystone species is like the keystone of an arch: removing it causes the whole structure to change, even though it may not be numerous or have much biomass. Two classic examples are the sea otter, which eats sea urchins and so protects kelp forests, and the sea star Pisaster, which preys on mussels and so keeps intertidal communities diverse.\n\n(B) is wrong because the most numerous species is called the dominant species, and keystone species are defined by their impact, not their abundance.\n(C) is wrong because keystone species occur in aquatic and terrestrial ecosystems.\n(D) is wrong because a keystone species has its effect through its interactions with other species."
     },
     {
       "id": "8-12",
@@ -6317,7 +6317,7 @@ const QUESTIONS = {
         "The predator's prey population immediately goes extinct as a direct result"
       ],
       "correct": 2,
-      "explanation": "Removing a keystone predator typically triggers a trophic cascade: its prey population, no longer controlled by predation, tends to increase, placing greater pressure on that prey's own food source, with effects potentially rippling through multiple trophic levels. Choice B and choice A both wrongly assume no ecological consequences, contradicting the defining trait of a keystone species — its outsized ecosystem impact. Choice D overstates the effect: an unchecked prey population typically grows rather than goes extinct."
+      "explanation": "Correct: prey increases unchecked, raising pressure on what it consumes and rippling through trophic levels. This is called a trophic cascade. Take sea otters: they eat sea urchins. If the otters are removed, the urchin population grows unchecked, the urchins overgraze the kelp, and the kelp forest collapses, so the many species that depend on the kelp for food and shelter decline too. The effects spread down through the food web. (A) and (B) are wrong because removing a keystone predator has a large effect, which is what makes a species a keystone.\n\n(D) is wrong because without the predator the prey population tends to increase, not go extinct."
     },
     {
       "id": "8-13",
@@ -6330,7 +6330,7 @@ const QUESTIONS = {
         "10%"
       ],
       "correct": 3,
-      "explanation": "The 10% rule states that roughly 10% of the energy at one trophic level is typically transferred to and incorporated into the next level's biomass, with about 90% lost mainly as heat through respiration. Choice B understates the typical transfer efficiency by a factor of ten. Choice A overstates it dramatically, well beyond what real ecosystems achieve. Choice C inverts the rule, describing the energy that is lost rather than the fraction that is actually transferred."
+      "explanation": "Correct: 10%. The 10% rule is a rule of thumb: on average, only about 10% of the energy stored in one trophic level ends up as biomass in the next level up (the real value varies, usually between about 5% and 20%). For example, if producers store 10,000 kcal, the primary consumers get about 1,000 kcal, the secondary consumers about 100 kcal, and the tertiary consumers about 10 kcal. The other roughly 90% is not passed on: most is used by the organisms for their own life processes and lost as heat, and some is in parts that are not eaten or not digested.\n\n(B) is wrong because 1% is too low; it is about a tenth of the usual value.\n(A) is wrong because 50% is far higher than real ecosystems achieve.\n(C) is wrong because 90% is the fraction that is LOST at each transfer, not the fraction that is transferred."
     },
     {
       "id": "8-14",
@@ -6343,7 +6343,7 @@ const QUESTIONS = {
         "It is transferred entirely to the next trophic level with no loss along the way"
       ],
       "correct": 1,
-      "explanation": "Most 'lost' energy isn't destroyed, consistent with the laws of thermodynamics — it's released as heat through cellular respiration and general metabolism at each trophic level, powering the organism's own life processes rather than passing on to whatever eats it. Choice A violates the conservation of energy by claiming it vanishes rather than being converted to heat. Choice D contradicts the well-documented ~90% loss at each transfer that the 10% rule describes. Choice C misplaces the energy as new biomass, when in fact most of it leaves the organism's body as heat rather than building tissue."
+      "explanation": "Correct: it is lost mainly as heat, released through respiration and metabolism at each level. Energy is not destroyed (the first law of thermodynamics says energy is conserved). Organisms use most of the energy they take in for their own life processes, such as moving, growing, maintaining their bodies, and keeping up their metabolism. Cellular respiration releases much of it as heat, and no energy transformation is 100% efficient (the second law of thermodynamics). This heat cannot be recaptured by living things, which is why energy flows through an ecosystem in one direction and has to be supplied continuously by the sun.\n\n(A) is wrong because energy is not destroyed; it is converted to heat.\n(C) is wrong because most of the energy is not converted into new biomass at the same level (only a small fraction is).\n(D) is wrong because roughly 90% is lost at each transfer, which is the point of the 10% rule."
     },
     {
       "id": "8-15",
@@ -6356,7 +6356,7 @@ const QUESTIONS = {
         "180,000 kcal, calculated as 200,000 × 0.90"
       ],
       "correct": 0,
-      "explanation": "Applying the 10% rule: 200,000 × 0.10 = 20,000 kcal available at the primary consumer level. Choice C mistakenly applies a 1% transfer rate instead of 10%. Choice D mistakenly calculates what remains AT the producer level after a 10% loss (200,000 × 0.90), rather than what transfers to the next level up. Choice B assumes no energy is lost in the transfer at all, contradicting the 10% rule entirely."
+      "explanation": "Correct: 20,000 kcal, calculated as 200,000 x 0.10. The 10% rule says that about 10% of the energy at one trophic level reaches the next. Multiply the energy at the producer level by 0.10: 200,000 x 0.10 = 20,000 kcal for the primary consumers. The same step gives 2,000 kcal for secondary consumers and 200 kcal for tertiary consumers. The common error in these problems is multiplying by the wrong decimal.\n\n(C) is wrong because 2,000 kcal results from multiplying by 0.01 (1%), which is the amount for the SECOND transfer in this chain, not the first.\n(D) is wrong because 180,000 kcal (200,000 x 0.90) is the energy lost in the transfer, not the energy passed on.\n(B) is wrong because it assumes no energy is lost."
     },
     {
       "id": "8-16",
@@ -6369,7 +6369,7 @@ const QUESTIONS = {
         "Roughly 90% of energy is lost at each transfer, leaving too little to support a level beyond 4-5"
       ],
       "correct": 3,
-      "explanation": "Since only about 10% of available energy transfers at each trophic level, total available energy shrinks dramatically at each step; after 4-5 transfers, the remaining energy is typically too small to sustain an additional trophic level's population in most ecosystems. Choice A invents a fixed biological ceiling rather than the actual energetic explanation. Choice C confuses prey diversity (how many species a predator eats) with the number of trophic levels a food chain can support. Choice B denies the well-established link between energy loss and food chain length that the 10% rule explains."
+      "explanation": "Correct: roughly 90% of energy is lost at each transfer, leaving too little to support a level beyond 4-5. Because only about 10% of the energy moves up each level, the amount available falls tenfold at each step. Starting with 10,000 kcal at the producers, the energy would be 1,000, 100, 10, and 1 kcal by the fourth consumer level. By then there is too little energy to support a population large enough to survive, because top predators would need a very large area to find enough food.\n\n(A) is wrong because there is no fixed biological limit; the limit comes from the energy available.\n(C) is wrong because the number of prey species a predator can eat is different from the number of trophic levels.\n(B) is wrong because the length of food chains is closely linked to energy availability."
     },
     {
       "id": "8-17",
@@ -6382,7 +6382,7 @@ const QUESTIONS = {
         "It reflects increasing energy availability at higher trophic levels"
       ],
       "correct": 2,
-      "explanation": "The narrowing pyramid shape directly reflects the progressively decreasing energy actually available at each successive trophic level, a direct consequence of the roughly 90% energy loss at each transfer. Choice B dismisses a shape that is in fact a meaningful, quantitative representation of real energy flow. Choice D describes the opposite trend of what actually occurs — energy availability decreases, not increases, moving up the pyramid. Choice A wrongly limits a pattern that holds across terrestrial, freshwater, and marine ecosystems alike."
+      "explanation": "Correct: it reflects progressively decreasing energy availability at each level. In an energy pyramid, each tier shows how much energy is available at that trophic level. Since only about 10% of the energy is passed up at each transfer, each tier has about a tenth of the energy of the one below it, so the pyramid gets narrower toward the top. A pyramid of energy is always upright. (Pyramids of biomass or numbers can sometimes be inverted, for example in some aquatic ecosystems or a single tree supporting many insects.)\n\n(D) is wrong because energy availability decreases, not increases, going up.\n(B) is wrong because the shape is a real representation of energy flow.\n(A) is wrong because the pattern holds in aquatic and terrestrial ecosystems."
     },
     {
       "id": "8-18",
@@ -6395,7 +6395,7 @@ const QUESTIONS = {
         "Organisms, typically photosynthetic, that capture energy from an abiotic source and convert it to chemical energy"
       ],
       "correct": 3,
-      "explanation": "Producers, typically photosynthetic organisms like plants and algae, capture energy directly from an abiotic source (sunlight) and convert it into usable chemical energy, forming the base of most food chains. Choice A describes consumers, which obtain energy by eating other organisms rather than from an abiotic source. Choice C misplaces producers at the top of the food chain, when they instead occupy the base. Choice B describes decomposers, a separate functional group that breaks down dead matter rather than capturing energy from sunlight."
+      "explanation": "Correct: organisms, typically photosynthetic, that capture energy from an abiotic source and convert it to chemical energy. Producers (autotrophs) make their own food. Most use sunlight through photosynthesis (plants, algae, cyanobacteria), and some use chemical energy from inorganic substances through chemosynthesis (for example, bacteria at deep-sea vents). They form the base of the food chain, because all the other organisms depend directly or indirectly on the chemical energy they capture.\n\n(A) is wrong because organisms that must get energy by eating other organisms are consumers (heterotrophs).\n(B) is wrong because organisms that break down dead matter are decomposers.\n(C) is wrong because producers are at the base of the food chain, not the top."
     },
     {
       "id": "8-19",
@@ -6408,7 +6408,7 @@ const QUESTIONS = {
         "There is no meaningful difference in how energy and matter move through ecosystems"
       ],
       "correct": 0,
-      "explanation": "Energy flows through an ecosystem in one direction, entering as sunlight and ultimately lost as heat per the laws of thermodynamics, and cannot be recycled; matter, like carbon, nitrogen, and water, is instead continuously recycled between living organisms and the abiotic environment through biogeochemical cycles. Choice B wrongly claims matter is also lost one-way, when it is recycled rather than depleted. Choice C wrongly claims energy is recycled with no loss, contradicting the thermodynamic loss covered in Unit 3. Choice D denies this well-established, fundamental distinction in ecology."
+      "explanation": "Correct: energy flows one way and is lost as heat; matter is recycled between organisms and the environment. Energy enters most ecosystems as sunlight, is captured by producers, is passed along food chains, and leaves as heat given off by organisms; it cannot be reused, so the ecosystem needs a constant supply. Matter, such as carbon, nitrogen, phosphorus, and water, is not lost: atoms are used by organisms and returned to the soil, water, and air by decomposition and other processes, and are used again. That is why matter moves in biogeochemical CYCLES while energy moves in a flow.\n\n(B) is wrong because matter is recycled, not lost.\n(C) is wrong because energy is not recycled; it is lost as heat.\n(D) is wrong because the difference is a basic feature of ecosystems."
     },
     {
       "id": "8-20",
@@ -6421,7 +6421,7 @@ const QUESTIONS = {
         "Evaporation and precipitation, which govern the movement of water rather than carbon"
       ],
       "correct": 0,
-      "explanation": "Photosynthesis removes CO2 from the atmosphere, fixing carbon into organic molecules, while cellular respiration (and combustion, including of fossil fuels) releases carbon back into the atmosphere as CO2 — together forming the core exchange of the carbon cycle. Choice B names nitrogen cycle processes rather than carbon cycle ones. Choice D names water cycle processes, unrelated to carbon exchange. Choice C names ecological interactions between organisms, not the chemical processes that move carbon between the atmosphere and living things."
+      "explanation": "Correct: photosynthesis (removing atmospheric CO2) and respiration/combustion (releasing it). Producers take CO2 from the air and use it to build organic molecules during photosynthesis, which moves carbon from the atmosphere into living things. Carbon returns to the atmosphere as CO2 when organisms carry out cellular respiration, when decomposers break down dead matter, and when fuels and wood are burned (combustion). These two opposite processes are the main exchange of carbon between the atmosphere and living organisms.\n\n(B) is wrong because nitrogen fixation and denitrification belong to the nitrogen cycle.\n(D) is wrong because evaporation and precipitation are steps of the water cycle.\n(C) is wrong because predation and competition are interactions between species, not processes that move carbon."
     },
     {
       "id": "8-21",
@@ -6434,7 +6434,7 @@ const QUESTIONS = {
         "Photosynthesis in chloroplasts"
       ],
       "correct": 2,
-      "explanation": "Nitrogen fixation, performed by specialized nitrogen-fixing bacteria, converts atmospheric N2 — unusable directly due to its stable triple bond — into usable forms like ammonia, making nitrogen available to plants and, through the food chain, the rest of the ecosystem. Choice D names the process that captures light energy for sugar production, an entirely different function. Choice B names the process that releases CO2 during metabolism, not one that fixes nitrogen. Choice A names a feeding interaction between organisms, with no role in converting atmospheric gas."
+      "explanation": "Correct: nitrogen fixation, performed by bacteria. The atmosphere is about 78% nitrogen gas (N2), but the two nitrogen atoms are held together by a very stable triple bond that most organisms cannot break. Certain bacteria, such as Rhizobium in the root nodules of legumes, and free-living bacteria and cyanobacteria in soil and water, have an enzyme that converts N2 into ammonia (NH3, or ammonium, NH4+), which plants can take up and use to make amino acids and nucleic acids. Lightning and industrial processes (making fertilizer) also fix some nitrogen.\n\n(D) is wrong because photosynthesis captures light energy to make sugars, not usable nitrogen.\n(B) is wrong because cellular respiration releases energy from organic molecules and does not convert nitrogen gas.\n(A) is wrong because predation is a feeding interaction between organisms."
     },
     {
       "id": "8-22",
@@ -6447,7 +6447,7 @@ const QUESTIONS = {
         "Plants have no biological use for nitrogen at all, since it is not part of any molecule in living cells"
       ],
       "correct": 0,
-      "explanation": "Despite N2's atmospheric abundance, its stable triple bond makes it directly unusable by plants, which depend on nitrogen-fixing bacteria to convert it into usable forms first; since this conversion can be a bottleneck, nitrogen often limits plant growth. Choice D is factually wrong — plants require nitrogen for proteins, nucleic acids, and other essential molecules. Choice C contradicts nitrogen's well-established ~78% share of the atmosphere. Choice B ignores the chemical barrier (the triple bond) that specifically prevents plants from using N2 without bacterial help."
+      "explanation": "Correct: N2 is chemically unusable by plants directly and requires nitrogen-fixing bacteria to convert it. Plants cannot absorb N2 from the air. They take up nitrogen as ammonium (NH4+) or nitrate (NO3-) from the soil, and these forms are made available by nitrogen-fixing bacteria, by lightning, and by decomposers that recycle nitrogen from dead organisms. Nitrogen is needed in large amounts for amino acids (proteins), nucleotides (DNA and RNA), and chlorophyll, so the limited supply of usable forms limits plant growth, which is why farmers often add nitrogen fertilizers.\n\n(B) is wrong because plants cannot use N2 directly.\n(C) is wrong because nitrogen is about 78% of the atmosphere.\n(D) is wrong because nitrogen is a part of proteins and nucleic acids."
     },
     {
       "id": "8-23",
@@ -6460,7 +6460,7 @@ const QUESTIONS = {
         "The carbon cycle, by releasing ancient, buried carbon into the atmosphere faster than natural cycling would"
       ],
       "correct": 3,
-      "explanation": "Fossil fuels represent ancient carbon buried and removed from active circulation over enormous timescales; burning them releases that long-sequestered carbon back into the atmosphere as CO2 far faster than natural cycling would, disrupting the carbon cycle's balance and driving climate change. Choice C misattributes the effect to nitrogen fixation, a separate biological process unrelated to burning fuel. Choice B misattributes it to water formation, which combustion does not primarily drive. Choice A denies a well-documented, major human impact on a biogeochemical cycle."
+      "explanation": "Correct: the carbon cycle, by releasing ancient, buried carbon into the atmosphere faster than natural cycling would. Fossil fuels (coal, oil, and natural gas) formed from the remains of organisms that were buried millions of years ago, so their carbon was removed from the fast carbon cycle. Burning them releases that carbon as CO2 into the atmosphere in a matter of decades, much faster than natural processes can remove it. The extra CO2 adds to the greenhouse effect and warms the planet, and some of it dissolves in the ocean, causing ocean acidification (topics in Unit 9).\n\n(C) is wrong because combustion does not fix nitrogen for plants.\n(B) is wrong because combustion is not the primary driver of the water cycle.\n(A) is wrong because burning fossil fuels is a major human impact on the carbon cycle."
     },
     {
       "id": "8-24",
@@ -6473,7 +6473,7 @@ const QUESTIONS = {
         "Functional redundancy from overlapping species roles lets others maintain function if one declines"
       ],
       "correct": 3,
-      "explanation": "Functional redundancy — multiple species performing overlapping ecological roles — means that if one species declines, others can often maintain overall ecosystem function, making high-biodiversity ecosystems generally more resilient than low-diversity ones, where losing a species with a unique role could leave that function unfilled. Choice C denies this well-documented relationship. Choice A states the reverse of the actual pattern. Choice B wrongly restricts a relationship that applies broadly across terrestrial and aquatic ecosystems alike."
+      "explanation": "Correct: functional redundancy from overlapping species roles lets others maintain function if one declines. In a diverse ecosystem, many species do similar jobs (for example, several kinds of pollinators or several plants that fix nitrogen or hold the soil). If one species is lost because of disease, drought, or another disturbance, the others can take over its role, so the ecosystem keeps functioning and recovers more easily. This is sometimes called the insurance effect. In a low-diversity ecosystem, a species may be the only one doing a particular job, so its loss can cause the ecosystem to fail. Genetic diversity within a species helps in the same way, since some individuals may survive the disturbance.\n\n(C) is wrong because there is a clear relationship, shown by experiments with diverse and simple grassland plots in droughts.\n(A) is wrong because it states the opposite of the pattern.\n(B) is wrong because the effect applies in terrestrial and aquatic ecosystems."
     },
     {
       "id": "8-25",
@@ -6486,7 +6486,7 @@ const QUESTIONS = {
         "Reducing the human population to zero"
       ],
       "correct": 1,
-      "explanation": "Habitat destruction and fragmentation — eliminating natural habitat or dividing it into smaller, disconnected patches — is one of the most significant, well-documented human-driven mechanisms of biodiversity loss, alongside invasive species, pollution, overharvesting, and climate change. Choice A describes an outcome that would help, not harm, biodiversity, and isn't something human activity typically causes. Choice C and choice D both describe hypothetical actions that would reduce biodiversity threats rather than cause loss, the opposite of what the question asks."
+      "explanation": "Correct: habitat destruction/fragmentation. Habitat loss is the leading cause of biodiversity loss. Humans destroy habitat by clearing land for farms, cities, and roads, and fragmentation breaks the remaining habitat into small, isolated patches. Small isolated populations have less gene flow and more inbreeding, are more vulnerable to chance events, and suffer from edge effects. The main human threats to biodiversity are often summarized by the memory aid HIPPCO: Habitat destruction, Invasive species, Pollution, human Population growth, Climate change, and Overexploitation.\n\n(A) is wrong because humans do not typically increase the genetic diversity of all species, and an increase in genetic diversity would not cause biodiversity loss anyway. (C) and (D) are wrong because eliminating invasive species or reducing the human population to zero would reduce threats to biodiversity, not cause loss, and the question asks for a mechanism of loss."
     },
     {
       "id": "8-26",
@@ -6499,7 +6499,7 @@ const QUESTIONS = {
         "How invasive species, lacking natural checks, can outcompete natives and reduce biodiversity"
       ],
       "correct": 3,
-      "explanation": "Lacking the natural checks (predators, competitors, diseases) present in their original ecosystem, invasive species can outcompete native species for resources, disrupting community structure and contributing to biodiversity loss. Choice A mischaracterizes a harmful, one-sided outcompeting as a mutually beneficial relationship. Choice B misapplies a term for factors like weather that act independent of density, when this scenario is fundamentally about competitive interaction. Choice C names an unrelated chemical cycle rather than a species interaction."
+      "explanation": "Correct: how invasive species, lacking natural checks, can outcompete natives and reduce biodiversity. In their native ecosystem, a species is held in check by predators, parasites, diseases, and competitors that evolved with it. When it is introduced to a new ecosystem these checks are missing (sometimes called enemy release), so it can reproduce and spread quickly and take food, space, and other resources from native species. Examples are zebra mussels, kudzu, and lionfish. This can reduce the populations of native species and lower the overall biodiversity of the ecosystem.\n\n(A) is wrong because the invasive species is harming the natives, which is not mutualism.\n(B) is wrong because a density-independent factor is something like weather that acts regardless of density; this scenario is about competition.\n(C) is wrong because the nitrogen cycle is a different topic and has nothing to do with this interaction."
     },
     {
       "id": "8-27",
@@ -6526,7 +6526,7 @@ const QUESTIONS = {
         "Predation, since the tapeworm consumes the host quickly"
       ],
       "correct": 0,
-      "explanation": "Parasitism benefits one species (the tapeworm, absorbing nutrients) while harming the other (the host, losing nutrients) over an extended relationship, distinct from predation because it doesn't immediately kill the host. Choice D mischaracterizes a slow, ongoing relationship as a quick predatory kill, which doesn't fit the scenario. Choice C wrongly claims the host also benefits, when it clearly loses nutrients and resources. Choice B wrongly claims the host is unaffected, when nutrient loss over time constitutes real harm."
+      "explanation": "Correct: parasitism, since the tapeworm benefits over time without immediately killing the host. In parasitism one organism (the parasite) benefits and the other (the host) is harmed (+/-), usually over a long period of time. The tapeworm gets nutrients from the food the host digests, and the host loses nutrients, which can cause weakness and weight loss, but it is usually not killed quickly because that would end the parasite's food supply.\n\n(D) is wrong because predation kills the prey, typically quickly, and that does not describe a long-term relationship.\n(C) is wrong because the host does not gain from the tapeworm.\n(B) is wrong because the host is harmed by losing nutrients, so this is not commensalism (+/0)."
     },
     {
       "id": "8-29",
@@ -6539,7 +6539,7 @@ const QUESTIONS = {
         "5,000 kcal, assuming no energy loss occurred at either transfer"
       ],
       "correct": 2,
-      "explanation": "Working backward reverses the 10% rule (multiplying by 10 at each step): secondary consumer (5,000 kcal) ← primary consumer (5,000 × 10 = 50,000 kcal) ← producer (50,000 × 10 = 500,000 kcal). Choice A divides instead of multiplying, moving in the wrong direction. Choice B correctly computes the intermediate primary consumer value but stops one trophic level too early, without applying the second backward step to reach the producer level. Choice D assumes no energy was lost across either transfer, contradicting the 10% rule entirely."
+      "explanation": "Correct: 500,000 kcal, from multiplying by 10 at each of the two backward steps. The 10% rule says that each trophic level has about a tenth of the energy of the level below it, so going backward you multiply by 10 at each level. A secondary consumer is the third level of the chain (producer, then primary consumer, then secondary consumer), so there are two steps to take. Secondary consumer: 5,000 kcal. Primary consumers must have had about 5,000 x 10 = 50,000 kcal. Producers must have had about 50,000 x 10 = 500,000 kcal.\n\n(B) is wrong because 50,000 kcal is the amount at the primary consumer level, so it is only one step back.\n(A) is wrong because it divides, which goes in the wrong direction (energy at lower levels is larger).\n(D) is wrong because it assumes no energy is lost, which the 10% rule contradicts."
     },
     {
       "id": "8-30",
@@ -6565,7 +6565,7 @@ const QUESTIONS = {
         "The ecosystem permanently collapses and never recovers any function after the disturbance ends"
       ],
       "correct": 0,
-      "explanation": "Ecosystem resilience specifically means the ability to recover normal structure and function after a disturbance; demonstrating this recovery, rather than avoiding disturbance entirely (a related but distinct concept called resistance), is the clearest evidence of genuine resilience. Choice D describes the opposite outcome — permanent collapse — which would demonstrate a lack of resilience. Choice B describes resistance to disturbance, not recovery after it, conflating two distinct concepts. Choice C wrongly claims resilience is unmeasurable, when recovery of structure and function is directly observable over time."
+      "explanation": "Correct: the ecosystem recovers its normal structure and function over time after a disturbance. Resilience means the ability of an ecosystem to recover after a disturbance such as a fire, flood, or storm. The best evidence is seeing the ecosystem return to something like its original structure (the species present) and function (for example, productivity and nutrient cycling) over time. Resistance is a different idea: it is the ability to avoid being changed by a disturbance in the first place. A forest regrowing after a fire is an example of resilience.\n\n(B) is wrong because showing no response to a disturbance is resistance, not resilience.\n(D) is wrong because permanent collapse is the opposite of resilience.\n(C) is wrong because recovery can be observed and measured over time."
     },
     {
       "id": "8-32",
@@ -6578,7 +6578,7 @@ const QUESTIONS = {
         "The population reaching a size where density-dependent factors begin to limit birth and death rates"
       ],
       "correct": 3,
-      "explanation": "As a population grows and approaches carrying capacity, density-dependent limiting factors (resource competition, potentially disease) begin significantly slowing birth rates and/or raising death rates, transitioning growth from resembling unconstrained exponential growth to the leveling-off logistic pattern. Choice A describes conditions that would instead sustain exponential growth, the opposite of the shift described. Choice C would also sustain exponential-like growth indefinitely, since an infinite ceiling never constrains the population. Choice B describes population collapse, not a gradual transition in growth pattern."
+      "explanation": "Correct: the population reaching a size where density-dependent factors begin to limit birth and death rates. When a population is small and resources are plentiful, it grows almost exponentially. As it becomes larger and approaches the carrying capacity, density-dependent factors, such as competition for food and space, disease, and predation, become stronger: the birth rate falls and the death rate rises, so the growth rate slows and the curve levels off. That change turns the J-shaped curve into the S-shaped (logistic) curve.\n\n(A) is wrong because without any limiting factors the population would keep growing exponentially.\n(C) is wrong because a carrying capacity that kept rising to infinity would also allow continued exponential growth.\n(B) is wrong because a decline to zero is a population collapse, not a gradual change in the growth pattern."
     },
     {
       "id": "8-33",
@@ -6591,7 +6591,7 @@ const QUESTIONS = {
         "The species is the most numerous organism present in the ecosystem by a wide margin"
       ],
       "correct": 0,
-      "explanation": "The defining evidence for keystone species status is the disproportionate impact of removal relative to the species' own abundance — observing that removal triggers large, cascading community changes despite modest numbers is the clearest experimental signature of a true keystone species. Choice D describes numerical abundance, which is unrelated to (and often opposite from) keystone status. Choice C contradicts the concept entirely, since keystone impact depends on ecological interactions with other species. Choice B describes geographic range, which says nothing about a species' ecological impact within any one ecosystem."
+      "explanation": "Correct: removing the species triggers disproportionately large, cascading changes despite its modest abundance. Keystone status is shown by an experiment in which the species is removed. In a classic study, the ecologist Robert Paine removed the sea star Pisaster from tide pools. Without the sea star, mussels (its prey) took over the space, and the number of species in the community fell sharply, even though the sea star was not very numerous. A large effect compared with the species' abundance is the evidence.\n\n(D) is wrong because being the most numerous species is about abundance, not about the size of its effect.\n(C) is wrong because a species with no interactions could not affect the community.\n(B) is wrong because a wide geographic range does not show a large ecological impact in any one ecosystem."
     },
     {
       "id": "8-34",
@@ -6604,7 +6604,7 @@ const QUESTIONS = {
         "A decomposer breaking down dead organic matter, outside the standard trophic chain"
       ],
       "correct": 2,
-      "explanation": "A tertiary consumer is a carnivore that eats other carnivores (secondary consumers), which themselves eat herbivores (primary consumers), which eat producers — placing it at a high trophic level supported by a much smaller energy pool than levels below it, due to cumulative energy loss. Choice A describes the producer level, the base of the chain, not its upper levels. Choice B describes the primary consumer level, one step above producers but well below tertiary consumer. Choice D describes decomposers, which operate outside the standard producer-to-tertiary-consumer chain by breaking down dead matter from any level."
+      "explanation": "Correct: a carnivore that eats other carnivores, which themselves eat herbivores. Count the levels along a food chain: producers (plants), then primary consumers (herbivores), then secondary consumers (carnivores that eat herbivores), then tertiary consumers (carnivores that eat secondary consumers). For example, grass, then a grasshopper, then a frog, then a snake (tertiary consumer), and a hawk eating the snake would be a quaternary consumer. Because of the loss of energy at each transfer, there are fewer organisms at this level than at the levels below.\n\n(A) is wrong because a photosynthesizing plant is a producer.\n(B) is wrong because an herbivore eating plants is a primary consumer.\n(D) is wrong because decomposers break down dead matter from all levels and are not counted as a level in the chain."
     },
     {
       "id": "8-35",
@@ -6617,7 +6617,7 @@ const QUESTIONS = {
         "A significant decline in nitrogen-fixing bacteria, reducing conversion of N2 into usable forms"
       ],
       "correct": 3,
-      "explanation": "Nitrogen-fixing bacteria are the primary organisms converting largely unusable atmospheric N2 into forms usable by plants and other organisms; a significant decline in their population would directly reduce usable nitrogen entering the food web, potentially limiting plant growth and disrupting the cycle. Choice C describes a change to light availability, which mainly affects photosynthesis rather than nitrogen conversion. Choice B describes stability in an unrelated cycle, which wouldn't itself disrupt nitrogen cycling. Choice A describes ordinary, unchanged respiration, which is part of the cycle's normal function rather than a disruption to it."
+      "explanation": "Correct: a significant decline in nitrogen-fixing bacteria, reducing conversion of N2 into usable forms. In the nitrogen cycle, nitrogen-fixing bacteria are the main way that atmospheric N2 enters the living part of the ecosystem, because they convert it into ammonia, which plants can use. If these bacteria decline (for example, because of changes in the soil or the loss of the legumes they live with), less usable nitrogen enters the system, plant growth can be limited, and the animals that depend on the plants are affected.\n\n(C) is wrong because more sunlight mainly affects photosynthesis, not how nitrogen is converted.\n(B) is wrong because a stable water cycle does not disrupt the nitrogen cycle.\n(A) is wrong because normal cellular respiration is part of the usual functioning of an ecosystem and is not a disruption of the nitrogen cycle."
     },
     {
       "id": "8-36",
@@ -6630,7 +6630,7 @@ const QUESTIONS = {
         "Comparing measurable ecosystem characteristics before and after introduction, ideally with a control"
       ],
       "correct": 3,
-      "explanation": "A scientifically sound evaluation requires systematic before/after comparison of relevant ecosystem characteristics (native populations, resource availability, community structure), ideally alongside a comparable control ecosystem lacking the invasive species, enabling reliable conclusions about actual ecological impact. Choice A and choice C both skip the data collection needed to draw any reliable conclusion, relying on assumption or anecdote instead. Choice B narrows the investigation to only the invasive species itself, missing the native-species and ecosystem-level data actually needed to assess its impact on others."
+      "explanation": "Correct: comparing measurable ecosystem characteristics before and after introduction, ideally with a control. To find the effect of an invasive species, a scientist needs data that can show what changed and why. The best design measures things such as native species numbers, population sizes, and nutrient levels BEFORE the introduction and again AFTER it, and compares them with a similar control ecosystem where the species was not introduced, so that other changes (such as weather) can be accounted for. Repeating the measurements in several sites makes the conclusions stronger.\n\n(A) is wrong because anecdotes are not systematic data.\n(C) is wrong because assuming an impact without data is not science.\n(B) is wrong because looking only at the invasive species' population says nothing about its effects on the natives and the ecosystem."
     },
     {
       "id": "8-37",
@@ -6643,7 +6643,7 @@ const QUESTIONS = {
         "A J-shaped curve that continues upward and never levels off, however limited the resources become"
       ],
       "correct": 0,
-      "explanation": "Logistic growth produces the classic S-shaped (sigmoid) curve: growth starts slowly, accelerates while resources are relatively abundant, then gradually slows and levels off near carrying capacity — distinct from the unlimited, ever-accelerating J-shaped curve of pure exponential growth. Choice C describes constant, unchanging growth, which matches neither exponential nor logistic patterns. Choice D describes the exponential model's J-shaped curve, which logistic growth specifically departs from as N approaches K. Choice B describes stasis, contradicting the growth that logistic models explicitly describe."
+      "explanation": "Correct: an S-shaped curve that accelerates at first, then slows near carrying capacity. A logistic growth curve has three parts. At first the population is small and grows slowly. Then, with plenty of resources, it grows rapidly (nearly exponentially). As the population approaches the carrying capacity, density-dependent factors slow the growth, and the curve levels off at about K. The overall shape is an S.\n\n(D) is wrong because a J-shaped curve that never levels off is exponential growth.\n(C) is wrong because a straight line would mean a constant number of new individuals each year, which is not the case in either model.\n(B) is wrong because a flat line would mean no growth at all, but logistic growth describes a population that grows."
     },
     {
       "id": "8-38",
@@ -6656,7 +6656,7 @@ const QUESTIONS = {
         "A change affecting only organisms at the exact same trophic level as the disturbance, and no others"
       ],
       "correct": 2,
-      "explanation": "A trophic cascade is defined by a change at one trophic level triggering a chain of effects rippling through multiple subsequent levels — such as removing a top predator, allowing prey to increase, which then pressures whatever that prey consumes, and so on. Choice B describes the absence of any ripple effect, the opposite of a cascade. Choice A describes total stability, which contradicts the very idea of a cascading disturbance. Choice D restricts effects to a single trophic level, missing the defining cross-level ripple that distinguishes a cascade from an isolated change."
+      "explanation": "Correct: a change at one trophic level, like removing a top predator, rippling through later levels. A trophic cascade is an effect that passes through at least two trophic levels. In Yellowstone National Park, the return of wolves reduced the number of elk and changed where they fed. With less browsing, willows and aspens along the streams recovered, which benefited beavers and songbirds. A change in the top predator rippled down through the herbivores to the plants.\n\n(B) is wrong because a change with no effect on any other species is the opposite of a cascade.\n(A) is wrong because complete stability would mean no change at all.\n(D) is wrong because a cascade needs effects to spread to other trophic levels, not just stay at the same one."
     },
     {
       "id": "8-39",
@@ -6669,7 +6669,7 @@ const QUESTIONS = {
         "Herbivores are always physically larger than the plants that they eat"
       ],
       "correct": 2,
-      "explanation": "Since only about 10% of the energy available at the producer level typically transfers to and supports the primary consumer (herbivore) level, correspondingly much less biomass can be sustainably supported at the herbivore level than at the much larger producer-level energy pool. Choice D describes body size, an unrelated property that doesn't determine total biomass across a population. Choice B describes reproductive rate, which isn't the mechanism driving the biomass difference here. Choice A denies the well-documented energy-biomass relationship the 10% rule explains."
+      "explanation": "Correct: only about 10% of energy transfers from the producer to the herbivore level, supporting less biomass. Biomass is the total mass of living tissue, and it is built from energy. Producers capture a large amount of energy, but herbivores receive only about a tenth of the energy stored in the plants (the rest is lost as heat in the plants' respiration or is in the parts that are not eaten or digested). With a tenth of the energy, an ecosystem can support only about a tenth of the biomass at the next level. This is why a typical terrestrial ecosystem has much more plant biomass than herbivore biomass, and more herbivore biomass than carnivore biomass. (Some aquatic ecosystems show the opposite in biomass because the tiny producers reproduce so quickly, but their energy pyramid is still upright.)\n\n(D) is wrong because body size does not determine total biomass.\n(B) is wrong because reproductive rate is not the reason for the difference, and the claim that herbivores always reproduce more slowly is not true.\n(A) is wrong because there is a clear relationship."
     },
     {
       "id": "8-40",
@@ -6682,7 +6682,7 @@ const QUESTIONS = {
         "The conversion of nitrogen compounds like nitrate back into atmospheric N2 gas by bacteria"
       ],
       "correct": 3,
-      "explanation": "Denitrification, performed by specific bacteria, converts nitrogen compounds (like nitrate) back into atmospheric N2 gas, completing the nitrogen cycle by returning fixed nitrogen to its original atmospheric form, balancing the fixation process. Choice A describes nitrogen fixation, the reverse process that converts N2 into usable forms rather than back into gas. Choice C overstates denitrification's effect; it converts nitrogen back to a gaseous form rather than eliminating it from the ecosystem permanently. Choice B denies denitrification's well-established, central role in the nitrogen cycle."
+      "explanation": "Correct: the conversion of nitrogen compounds like nitrate back into atmospheric N2 gas by bacteria. In denitrification, certain bacteria that live in oxygen-poor places (such as waterlogged soil, wetlands, and sediments) use nitrate (NO3-) in place of oxygen when they respire and convert it to N2 gas, which returns to the atmosphere. This balances nitrogen fixation, which takes N2 out of the air. Remember the pair: fixation puts N2 INTO living systems; denitrification returns it to the air.\n\n(A) is wrong because that describes nitrogen fixation.\n(C) is wrong because denitrification does not remove nitrogen from the Earth; it returns it to the atmosphere as a gas, where it can be fixed again.\n(B) is wrong because denitrification is a central part of the nitrogen cycle, carried out by bacteria in soil and water."
     },
     {
       "id": "8-41",
@@ -6695,7 +6695,7 @@ const QUESTIONS = {
         "Climate change affects only a single species worldwide and no others"
       ],
       "correct": 2,
-      "explanation": "Climate change alters environmental conditions at a pace that often exceeds many species' ability to adapt or migrate, disrupting habitats, resource availability, and species interactions (like timing mismatches between co-evolved species such as a pollinator and its plant) — a well-documented contributor to biodiversity loss. Choice B denies a well-established, significant ecological relationship. Choice D wrongly limits an effect that impacts species broadly across ecosystems worldwide. Choice A claims the opposite of the documented trend, which is generally biodiversity loss, not uniform gain."
+      "explanation": "Correct: climate change alters temperature and precipitation faster than many species can adapt. Species are adapted to certain conditions. As the climate warms and rainfall patterns change, the places where a species can live shift, and many species cannot adapt through evolution or move (migrate) quickly enough. This leads to loss of habitat (for example, ice habitat for polar species), coral bleaching as oceans warm, species moving toward the poles or up mountains until there is nowhere left to go, and timing mismatches, such as plants flowering before their pollinators have emerged. These changes can lead to declines and extinctions.\n\n(A) is wrong because climate change does not increase biodiversity everywhere; the documented trend is loss.\n(B) is wrong because climate change has a well-documented relationship to biodiversity.\n(D) is wrong because it affects many species around the world."
     },
     {
       "id": "8-42",
@@ -6708,7 +6708,7 @@ const QUESTIONS = {
         "Only the geographic area the population occupies"
       ],
       "correct": 0,
-      "explanation": "A population's growth rate is calculated from birth rate, death rate, and, when relevant, immigration and emigration rates — the actual demographic inputs and outputs that determine whether and how quickly population size is changing. Choice C uses only a snapshot of current size, which says nothing about the rate at which that size is changing over time. Choice D describes area occupied, which relates to density rather than growth rate. Choice B describes body size, a trait unrelated to the demographic rates that actually drive population change."
+      "explanation": "Correct: birth rate and death rate (and, when relevant, immigration and emigration rates). The growth rate of a population depends on how many individuals are added and how many are lost per unit of time: growth = (births + immigration) - (deaths + emigration). If births plus immigration are greater than deaths plus emigration, the population grows; if they are less, it shrinks. For example, in a population of 1,000 with 50 births and 30 deaths in a year, the population increases by 20 individuals, or 2%.\n\n(C) is wrong because the current size alone does not show how the population is changing.\n(D) is wrong because the area occupied is used to find density, not growth rate.\n(B) is wrong because average body size does not determine the rates that change the population."
     },
     {
       "id": "8-43",
@@ -6721,7 +6721,7 @@ const QUESTIONS = {
         "Two individual robins competing for the same nesting territory"
       ],
       "correct": 0,
-      "explanation": "Interspecific competition involves competition between two different species (deer and elk) for the same limited resource, distinct from intraspecific competition between individuals of the same species. Choice D describes robins competing with other robins, a same-species (intraspecific) example rather than a between-species one. Choice C describes a nonsensical scenario, since competition requires at least two competing individuals or populations. Choice B describes mutualism, a cooperative interaction that is essentially the opposite of competition."
+      "explanation": "Correct: a deer population competing with an elk population for the same grazing area and food. Interspecific competition is competition between individuals of DIFFERENT species for a shared limited resource; intraspecific competition is competition between individuals of the SAME species. Deer and elk are two different species using the same food, which makes this interspecific competition (a -/- interaction). The prefix helps: 'inter' means between (different species), and 'intra' means within (the same species).\n\n(D) is wrong because two robins are the same species, so this is intraspecific competition.\n(B) is wrong because mutualism is a cooperative (+/+) interaction.\n(C) is wrong because competition requires at least two individuals or populations."
     },
     {
       "id": "8-44",
@@ -6747,7 +6747,7 @@ const QUESTIONS = {
         "New atoms of carbon and nitrogen are constantly created to replace the ones that organisms use up"
       ],
       "correct": 1,
-      "explanation": "Because Earth's total supply of elements like carbon and nitrogen is essentially fixed, these elements must be continuously recycled between organisms and the abiotic environment to remain available across countless generations; without this recycling, essential elements would eventually become locked away and unavailable. Choice A denies this well-established ecological necessity. Choice D incorrectly claims new atoms are created, when recycling — not creation — is what actually maintains element availability. Choice C wrongly limits the cycles' importance to one generation, when their function is precisely long-term sustainability across many generations."
+      "explanation": "Correct: since Earth's supply of essential elements is essentially fixed, they must be recycled for biological use. Earth is almost a closed system for matter: only energy (sunlight) comes in. The carbon, nitrogen, phosphorus, and other atoms available for life are limited, and they are not created. Organisms take them from the environment, use them to build their bodies, and return them when they die, excrete, or decompose, so that they can be used again by other organisms. If these elements were not recycled, they would become locked away in dead material, rocks, and sediments, and life would run out of building materials.\n\n(D) is wrong because atoms are not created by organisms or by ecosystems; they are recycled.\n(C) is wrong because cycles operate continuously over many generations.\n(A) is wrong because recycling is essential for life to continue."
     },
     {
       "id": "8-46",
@@ -6760,7 +6760,7 @@ const QUESTIONS = {
         "Higher biodiversity generally correlates with greater potential number and complexity of species interactions"
       ],
       "correct": 3,
-      "explanation": "As the number of species present increases, the potential number and complexity of possible interactions (predation, competition, mutualism, and others) tends to increase substantially, part of what links high biodiversity to greater functional redundancy and resilience. Choice B denies this well-documented positive relationship. Choice A claims the opposite trend of what typically occurs. Choice C oversimplifies a combinatorial relationship — the number of possible pairwise interactions grows much faster than species count itself, not in exact lockstep with it."
+      "explanation": "Correct: higher biodiversity generally correlates with greater potential number and complexity of species interactions. More species means more possible relationships among them: predation, competition, mutualism, parasitism, and others. The number of possible pairs grows much faster than the number of species. For n species there are n(n - 1)/2 possible pairs: with 5 species there are 10 possible pairs, and with 10 species there are 45. A more complex web of interactions provides more pathways for energy and matter, and more overlapping roles (functional redundancy), which helps explain why diverse ecosystems tend to be more resilient.\n\n(A) is wrong because more species generally means more interactions, not fewer.\n(B) is wrong because there is a clear relationship.\n(C) is wrong because the number of interactions is not simply equal to the number of species; it is typically much larger."
     },
     {
       "id": "8-47",
@@ -6773,7 +6773,7 @@ const QUESTIONS = {
         "A population with an extremely high death rate and very low birth rate"
       ],
       "correct": 2,
-      "explanation": "A small population newly introduced to an environment with abundant, unexploited resources and no established predators or competitors is the classic real-world scenario for exponential-like growth, since density-dependent limiting factors haven't yet become significant. Choice B describes a population already leveled off at K, the opposite of initial rapid growth. Choice A describes conditions that would suppress growth, not accelerate it. Choice D describes conditions leading to decline, since deaths would far outpace births rather than driving rapid growth."
+      "explanation": "Correct: a small invasive population newly introduced to an environment with abundant resources and no predators. Exponential-like growth happens when a population is small, resources are plentiful, and nothing is limiting its growth yet, so almost every individual survives and reproduces at the maximum rate. A newly introduced species in a new environment with no natural predators or competitors fits well (zebra mussels spreading through the Great Lakes, or bacteria added to a fresh culture). Eventually, density-dependent factors begin to act and growth slows toward the carrying capacity.\n\n(B) is wrong because a population stable at its carrying capacity has stopped growing.\n(A) is wrong because severe resource limitation would hold growth down.\n(D) is wrong because a very high death rate and low birth rate would cause the population to decline."
     },
     {
       "id": "8-48",
@@ -6799,7 +6799,7 @@ const QUESTIONS = {
         "Tertiary consumer, secondary consumer, primary consumer, producer"
       ],
       "correct": 0,
-      "explanation": "The correct order, lowest to highest, is producer (photosynthetic organisms) → primary consumer (herbivores) → secondary consumer (carnivores eating herbivores) → tertiary consumer (carnivores eating other carnivores). Choice D lists this exact order in reverse, from highest to lowest instead. Choice C scrambles the order, placing producer after primary consumer and tertiary before secondary, neither of which reflects actual energy flow. Choice B denies the well-established, consistent structure of trophic levels."
+      "explanation": "Correct: producer, primary consumer, secondary consumer, tertiary consumer. Trophic levels describe where an organism gets its energy, from the bottom to the top of a food chain. Producers (plants, algae) make their own food. Primary consumers (herbivores) eat the producers. Secondary consumers (carnivores or omnivores) eat the primary consumers. Tertiary consumers eat the secondary consumers. For example, grass, then a grasshopper, then a frog, then a snake. Energy availability decreases at each step up.\n\n(D) is wrong because it lists the levels in reverse order.\n(C) is wrong because the order is scrambled and does not follow who eats whom.\n(B) is wrong because trophic levels follow the direction of energy flow, so there is a consistent order."
     },
     {
       "id": "8-50",
@@ -6812,7 +6812,7 @@ const QUESTIONS = {
         "Increased ocean absorption of atmospheric CO2 with no other accompanying changes to the carbon cycle"
       ],
       "correct": 1,
-      "explanation": "Deforestation reduces the total photosynthetic capacity available to remove CO2, while fossil fuel combustion simultaneously releases previously sequestered carbon; together these compound to significantly raise atmospheric CO2 and disrupt the carbon cycle's balance. Choice C describes a process that would lower, not raise, atmospheric CO2 by removing more of it. Choice A describes a change without a clear direct mechanism for increasing CO2. Choice D describes increased CO2 removal by oceans, which would lower atmospheric concentration rather than raise it."
+      "explanation": "Correct: large-scale deforestation combined with increased fossil fuel combustion, cutting uptake while raising release. Atmospheric CO2 depends on the balance between processes that remove it and processes that release it. Forests remove CO2 by photosynthesis, so cutting them down reduces the amount of CO2 taken up (and burning or decomposing the trees releases the carbon they stored). Burning fossil fuels releases carbon that had been stored underground for millions of years. Together, they remove a sink and add a source, so atmospheric CO2 rises quickly.\n\n(C) is wrong because more photosynthesis in a large forest would REMOVE CO2 from the air.\n(D) is wrong because increased absorption by the oceans would lower the CO2 in the air.\n(A) is wrong because a smaller human population with no other change would not increase CO2."
     },
     {
       "id": "8-51",
@@ -6825,7 +6825,7 @@ const QUESTIONS = {
         "Investigating potential causes and considering how the decline might affect resilience going forward"
       ],
       "correct": 3,
-      "explanation": "A scientifically appropriate response involves investigating specific underlying causes (habitat loss, invasive species, pollution, climate change, overharvesting) among the well-documented mechanisms of biodiversity loss, and considering likely consequences for functional redundancy and resilience, rather than dismissing the observation or assuming outcomes without investigation. Choice B dismisses biodiversity's ecological importance outright, contradicting well-established ecology. Choice C assumes no consequences without evidence. Choice A jumps to an optimistic conclusion without the investigation a scientific response requires."
+      "explanation": "Correct: investigating potential causes and considering how the decline might affect resilience going forward. A scientist who observes that biodiversity has declined would ask why and what the consequences will be. The causes could be habitat loss or fragmentation, invasive species, pollution, climate change, or overharvesting. A study would measure these factors and monitor the species. Because biodiversity supports functional redundancy and resilience, the scientist would also consider whether the ecosystem is now more vulnerable to disturbance, and this information would guide action to protect it.\n\n(B) is wrong because biodiversity has well-documented ecological importance.\n(C) is wrong because assuming there are no consequences without evidence is not scientific.\n(A) is wrong because concluding that the ecosystem has fully recovered, without investigating, is also not supported by evidence."
     },
     {
       "id": "8-52",
@@ -6851,7 +6851,7 @@ const QUESTIONS = {
         "One species extracting benefit while providing progressively less in return, ultimately harming the other"
       ],
       "correct": 3,
-      "explanation": "A shift from mutualism (+/+) toward parasitism (+/−) involves one species continuing to extract benefit while providing progressively less (or no) benefit in return, shifting the other species' experience from beneficial to harmful, illustrating that interaction types can shift along an evolutionary continuum. Choice A describes stasis, the opposite of the shift the question asks about. Choice B describes an extreme, unlikely outcome not implied by a gradual shift in benefit. Choice C describes movement toward commensalism (neutral for one side), not the harmful outcome that defines parasitism."
+      "explanation": "Correct: one species extracting benefit while providing progressively less in return, ultimately harming the other. Mutualism (+/+) depends on both partners getting more benefit than cost. The relationship can shift if one partner starts to 'cheat': it keeps taking the benefit but gives less or nothing in return, so the cost to the other partner increases until it is harmed (+/-), which is parasitism. Examples include nectar-robbing insects that take nectar without pollinating, or yucca moth larvae that eat too many of the seeds of the yucca plant that they pollinate. This shows that interactions between species are not fixed categories and can change with conditions over evolutionary time.\n\n(A) is wrong because it describes a relationship that stays the same.\n(C) is wrong because a neutral interaction would be a move toward commensalism, not parasitism.\n(B) is wrong because the simultaneous extinction of both species is not what a shift toward parasitism means."
     },
     {
       "id": "8-54",
@@ -6864,7 +6864,7 @@ const QUESTIONS = {
         "Tertiary consumers exclusively, since they sit at the top of the food chain and eat everything below"
       ],
       "correct": 2,
-      "explanation": "Decomposers, such as many fungi and bacteria, break down dead organic matter from all trophic levels, releasing nutrients back into forms producers and other organisms can use again, closing the loop for nutrient (though not energy) cycling. Choice B describes producers, which capture energy from sunlight rather than recycle matter from dead organisms. Choice D describes tertiary consumers, positioned at a high trophic level with no special role in breaking down dead matter. Choice A denies decomposers' well-established, essential ecological function."
+      "explanation": "Correct: decomposers, which break down dead organic matter and release nutrients into the ecosystem. Decomposers (mainly bacteria and fungi, helped by detritivores such as earthworms and dung beetles) feed on dead organisms and waste from every trophic level. As they digest this material, they release nutrients, such as nitrogen (as ammonium), phosphorus, and carbon (as CO2), back into the soil, water, and air, where producers can take them up again. Without decomposers, nutrients would stay locked in dead matter and the ecosystem would run out of the materials needed for new growth. Note that matter is recycled in this way, but the energy is not: most of it is lost as heat.\n\n(B) is wrong because producers capture energy from sunlight and do not return nutrients from dead organisms to the ecosystem in this way.\n(D) is wrong because tertiary consumers do not have a special role in breaking down dead matter.\n(A) is wrong because decomposers are essential for nutrient cycling."
     },
     {
       "id": "8-55",
@@ -6890,7 +6890,7 @@ const QUESTIONS = {
         "A study conducted without any disturbance or recovery measurement of any kind"
       ],
       "correct": 2,
-      "explanation": "A well-designed study directly testing this hypothesis would experimentally manipulate species richness and compare recovery outcomes following a standardized disturbance; finding that reduced-diversity ecosystems recover more slowly or less completely provides direct, controlled evidence supporting the biodiversity-resilience relationship. Choice B would actually contradict, not support, the hypothesis being tested. Choice A collects irrelevant data, omitting the biodiversity measurements the hypothesis is actually about. Choice D lacks the disturbance-and-recovery measurement that is essential to testing resilience at all."
+      "explanation": "Correct: a study finding reduced-richness ecosystems recover more slowly after a standardized disturbance. To test the hypothesis that biodiversity loss reduces resilience, a study needs both parts of the question: it must measure biodiversity (species richness) and it must measure recovery after a disturbance. If plots with fewer species are all given the same disturbance, such as a drought, and they recover more slowly or less completely than plots with more species, that directly supports the hypothesis. Using the same disturbance for all of the plots (a standardized disturbance) is important because it makes the comparison fair.\n\n(B) is wrong because finding no relationship would not support the hypothesis.\n(A) is wrong because a study of rainfall only does not include biodiversity data.\n(D) is wrong because without a disturbance and a measure of recovery, resilience cannot be tested."
     },
     {
       "id": "8-57",
@@ -6903,7 +6903,7 @@ const QUESTIONS = {
         "Predicting a well-established population's behavior over decades in a resource-limited environment"
       ],
       "correct": 2,
-      "explanation": "The exponential model is most appropriately applied to a population's initial, short-term growth under genuinely abundant, essentially unlimited resource conditions (like a small population recently introduced to a resource-rich environment); for longer-term, resource-limited predictions, the logistic model is far more realistic. Choice B describes exactly the long-term, resource-limited scenario the logistic model handles better. Choice D describes behavior at K, where growth rate is essentially zero — a scenario the exponential model doesn't represent at all. Choice A denies the model's real, if narrow, legitimate use case."
+      "explanation": "Correct: modeling the initial, short-term growth of a small population in a resource-abundant new environment. The exponential model assumes that resources are unlimited, so it describes a population only while resources really are not limiting: for example, a few individuals of a species that has just arrived in a favorable habitat, bacteria in a fresh culture, or the early growth of an invasive species. Over a longer time, resources run out and density-dependent factors act, so the logistic model, which includes the carrying capacity, is more realistic.\n\n(B) is wrong because at its carrying capacity a population has stopped growing, which the exponential model cannot describe.\n(D) is wrong because a well-established population over decades in a limited environment is described better by the logistic model.\n(A) is wrong because the exponential model has a real, if limited, use."
     },
     {
       "id": "8-58",
@@ -6916,7 +6916,7 @@ const QUESTIONS = {
         "Both species will immediately go extinct simultaneously as a result"
       ],
       "correct": 2,
-      "explanation": "The competitive exclusion principle predicts that two species competing intensely for the exact same limited resource/niche generally cannot coexist indefinitely; one typically outcompetes and excludes the other over time, unless niche differentiation reduces the overlap. Choice B predicts stable coexistence, the outcome the principle says is unlikely under intense, identical-niche competition. Choice D overstates the outcome as mutual extinction rather than one species being excluded. Choice A denies competition's well-established long-term consequences for at least one of the competing species."
+      "explanation": "Correct: one species typically excludes the other over time. The competitive exclusion principle says that two species that need exactly the same limited resource cannot coexist for long in the same place: the one that uses the resource a little more efficiently will increase while the other declines until it is eliminated locally. The classic example is the experiments of Gause with two species of Paramecium, which could coexist alone but not together when they competed for the same food, and one disappeared. Coexistence is possible when the species differ in their niches (niche partitioning), such as warblers feeding at different heights in the same tree.\n\n(B) is wrong because the principle predicts that stable coexistence with identical needs is unlikely.\n(D) is wrong because the usual outcome is the exclusion of one species, not both.\n(A) is wrong because competition has major long-term consequences for at least one species."
     },
     {
       "id": "8-59",
@@ -6929,7 +6929,7 @@ const QUESTIONS = {
         "Tertiary consumer biomass is typically much greater than producer biomass"
       ],
       "correct": 0,
-      "explanation": "Given roughly 90% energy loss at each of the several trophic transfers required to reach the tertiary consumer level, the cumulative loss is substantial, meaning producer biomass is typically far greater than tertiary consumer biomass in most ecosystems, consistent with the narrowing pyramid shape. Choice D states the opposite of the well-documented pattern. Choice C claims equality that ignores the cumulative energy loss across multiple trophic transfers. Choice B denies the consistent, well-established relationship between trophic level and available biomass."
+      "explanation": "Correct: producer biomass is typically far greater. To reach tertiary consumers from producers, energy passes through three transfers (producers to primary consumers, then to secondary consumers, then to tertiary consumers), and about 90% is lost at each. About 10% x 10% x 10% = 0.1% of the producers' energy ends up in the tertiary consumers, so much less biomass can be supported at that level. This gives the typical narrowing pyramid, with a very large mass of plants and a small mass of top predators. (In some aquatic ecosystems the standing biomass of tiny, fast-growing producers can be small, but the energy flow is still much greater at the producer level.)\n\n(D) is wrong because it reverses the pattern.\n(C) is wrong because the energy losses make equal biomass impossible.\n(B) is wrong because there is a consistent relationship between trophic level and biomass."
     },
     {
       "id": "8-60",
@@ -6942,7 +6942,7 @@ const QUESTIONS = {
         "Carbon is released as CO2 through cellular respiration during life, or through decomposition after death"
       ],
       "correct": 3,
-      "explanation": "Carbon incorporated into an organism's molecules is released back into the abiotic environment, mainly as atmospheric CO2, through the organism's own cellular respiration during life and through decomposition of its remains after death, both returning carbon to the shared atmospheric pool. Choice A contradicts the well-established respiration and decomposition pathways that release carbon continuously. Choice B names only one of several release pathways, ignoring respiration and decomposition, which don't require predation at all. Choice C denies organisms' well-established, central role in carbon cycling."
+      "explanation": "Correct: carbon is released as CO2 through cellular respiration during life, or through decomposition after death. Organisms take in carbon as part of food or by photosynthesis, and they return it to the abiotic environment in two main ways. While living, they break down organic molecules for energy by cellular respiration and release the carbon as CO2 (for example, when you exhale). After death, decomposers (which also respire) break down the remains and release CO2 as well. Some carbon also moves back to the atmosphere through combustion (burning wood or fossil fuels), and over very long times some is stored in sediments and fossil fuels.\n\n(A) is wrong because carbon is released continuously by respiration and decomposition.\n(B) is wrong because being eaten moves carbon to another organism rather than into the abiotic environment.\n(C) is wrong because organisms are central to the carbon cycle."
     },
     {
       "id": "8-61",
@@ -6955,7 +6955,7 @@ const QUESTIONS = {
         "Deliberately reducing species diversity to simplify ecosystem management"
       ],
       "correct": 2,
-      "explanation": "Given the established link between biodiversity and functional redundancy/resilience, a sound conservation strategy prioritizes protecting overall species diversity and habitat connectivity, since it's this broader biodiversity that provides ecosystem-level resilience benefits, rather than focusing narrowly on one charismatic species. Choice A narrows protection to a single species, missing the broader community structure resilience depends on. Choice D would actively reduce the functional redundancy that supports resilience. Choice B ignores biodiversity's well-documented role in ecosystem resilience entirely."
+      "explanation": "Correct: protecting overall species diversity and habitat connectivity. Resilience depends on having many species with overlapping roles (functional redundancy), so conservation should protect the whole community and not only one species. Habitat connectivity (for example, wildlife corridors between patches of habitat) lets animals and plants move, find mates and food, and recolonize areas after a disturbance, and it allows gene flow between populations, which helps them adapt. Protecting large areas of habitat and diverse habitats supports all of this.\n\n(A) is wrong because focusing on one appealing species ignores the community that supports resilience.\n(D) is wrong because reducing diversity lowers functional redundancy and makes ecosystems less resilient.\n(B) is wrong because biodiversity is central to ecosystem resilience."
     },
     {
       "id": "8-62",
@@ -6968,7 +6968,7 @@ const QUESTIONS = {
         "A constant that never varies between species or environmental conditions, set once for all populations"
       ],
       "correct": 1,
-      "explanation": "The intrinsic growth rate (r) represents the average per-individual contribution to population growth — per capita birth rate minus per capita death rate — and can vary significantly between species and environmental conditions. Choice C describes N, population size, a different variable from the per-individual rate r represents. Choice A describes K, carrying capacity, a separate parameter governing the logistic model's ceiling rather than growth rate. Choice D wrongly claims r is fixed, when it varies based on a species' typical reproductive rate, lifespan, and environmental conditions."
+      "explanation": "Correct: the average per-individual contribution to growth, the difference between per capita birth and death rates. The per capita growth rate r is the number of births per individual minus the number of deaths per individual in a period of time (r = b - d). When r is positive, the population grows; when r is zero, it is stable; and when r is negative, it declines. In the exponential model dN/dt = rN, and the greatest possible value, under ideal conditions, is rmax. r is not a constant: it differs among species (a mouse has a higher r than an elephant) and changes with conditions.\n\n(A) is wrong because the carrying capacity is K.\n(C) is wrong because the population size is N.\n(D) is wrong because r is not fixed; it depends on the species and the environment."
     },
     {
       "id": "8-63",
@@ -6981,7 +6981,7 @@ const QUESTIONS = {
         "The specific geographic location where a species is found, with no other information about its role or needs"
       ],
       "correct": 1,
-      "explanation": "An ecological niche encompasses the full set of biotic and abiotic conditions and resources a species uses and requires, including its specific functional role within the community (diet, predators, habitat requirements, and other interactions) — a much broader concept than simply location or size. Choice D describes habitat or range, only one narrow component of the full niche concept. Choice C confuses niche with a physical trait unrelated to ecological role. Choice A denies a concept that is in fact widely applied, including in explaining competitive exclusion and niche differentiation."
+      "explanation": "Correct: the full set of biotic/abiotic resources, conditions, and functional roles a species uses in its community. A niche includes everything about how a species fits into its ecosystem: what it eats, what eats it, the temperature, moisture, and other conditions it tolerates, where and when it is active, and how it affects other species and the environment. A simple comparison: the habitat is a species' address (where it lives), and the niche is its 'job' and way of life. The niche idea helps explain competition: species with very similar niches compete strongly, and species can coexist if their niches differ (niche partitioning).\n\n(D) is wrong because location is only a part of the niche (habitat or range).\n(C) is wrong because size is a trait, not a niche.\n(A) is wrong because the niche is widely used in ecology."
     },
     {
       "id": "8-64",
@@ -7021,7 +7021,7 @@ const QUESTIONS = {
         "Habitat fragmentation, by physically dividing the river"
       ],
       "correct": 1,
-      "explanation": "Pollution — introducing harmful substances like fertilizer runoff or industrial chemicals — is a well-documented human-driven mechanism of biodiversity loss; here, contaminated water directly harms fish and amphibian health and reproduction. Choice D describes physically dividing or eliminating habitat, distinct from chemical contamination of an intact habitat. Choice A describes an outcome of species competing for resources, not a mechanism involving chemical contamination. Choice C names an unrelated nitrogen cycle process with no direct connection to this pollution scenario."
+      "explanation": "Correct: pollution, since contaminants directly harm species in the water. Pollution is the introduction of harmful substances into the environment. Fertilizer runoff adds excess nutrients that can lead to algal blooms and oxygen depletion, and industrial chemicals can be toxic or interfere with hormones, harming the health and reproduction of aquatic animals. Amphibians are especially sensitive because they absorb substances through their skin, so they are often early indicators of pollution. The habitat is still there, but its quality is damaged.\n\n(D) is wrong because habitat fragmentation physically divides or removes habitat, and the river is not being divided here.\n(A) is wrong because competitive exclusion is about species competing for the same resource.\n(C) is wrong because nitrogen fixation is a natural process in the nitrogen cycle and not a cause of this harm."
     },
     {
       "id": "8-67",
@@ -7034,7 +7034,7 @@ const QUESTIONS = {
         "Mutualism between the fish and other species"
       ],
       "correct": 1,
-      "explanation": "Overharvesting occurs when a species is removed (through hunting, fishing, or collection) faster than its population can naturally replace itself, causing sustained decline — distinct from habitat destruction, pollution, invasive species, or climate change. Choice C describes dividing or eliminating physical habitat, not the direct removal of individuals through fishing described here. Choice D describes a beneficial interaction between species, the opposite of the harmful harvesting scenario described. Choice A names an unrelated nitrogen cycle process with no bearing on fish population decline."
+      "explanation": "Correct: overharvesting, since removal outpaces reproduction. Overharvesting occurs when individuals are taken from a population (by fishing, hunting, or collecting) faster than the population can replace them by reproduction. The population falls year after year and may collapse. An example is the collapse of the Atlantic cod fishery off Newfoundland. Sustainable harvesting keeps the take at or below the rate of replacement.\n\n(C) is wrong because habitat fragmentation divides habitat, and the scenario describes the direct removal of fish.\n(D) is wrong because mutualism is a beneficial interaction between species.\n(A) is wrong because denitrification is a part of the nitrogen cycle and has nothing to do with fish populations."
     },
     {
       "id": "8-68",
@@ -7047,7 +7047,7 @@ const QUESTIONS = {
         "There is no meaningful difference between the two processes or their scale of impact"
       ],
       "correct": 2,
-      "explanation": "Both biological fixation (by nitrogen-fixing bacteria) and industrial fixation (the Haber-Bosch process) convert atmospheric N2 into ammonia, but Haber-Bosch is a human-engineered chemical process, mainly used for synthetic fertilizer, adding a large additional human-scale input of fixed nitrogen alongside the natural biological pathway. Choice B reverses which process is bacterial and which is chemical — it's industrial fixation that is the engineered chemical process, not biological fixation. Choice A mischaracterizes industrial fixation as removing nitrogen, when it instead adds newly fixed nitrogen to the cycle, just like biological fixation does. Choice D denies a well-documented and significant difference in mechanism and human impact."
+      "explanation": "Correct: both convert N2 into ammonia, but industrial fixation is a human-engineered chemical process (Haber-Bosch) for fertilizer. In biological nitrogen fixation, bacteria use the enzyme nitrogenase to convert N2 into ammonia at normal temperatures. In the Haber-Bosch process, N2 and hydrogen (usually made from natural gas) react at high temperature and pressure with an iron catalyst to form ammonia, which is used to make synthetic fertilizer. This industrial process has roughly doubled the amount of fixed nitrogen entering the biosphere. The extra nitrogen increases crop yields, but it also runs off into waterways and contributes to eutrophication.\n\n(B) is wrong because it reverses the two processes: bacteria carry out biological fixation, and industrial fixation is the chemical one.\n(A) is wrong because industrial fixation adds fixed nitrogen, just as biological fixation does.\n(D) is wrong because the processes differ in their mechanism and in the scale of human impact."
     }
   ]
 };
