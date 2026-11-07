@@ -4641,7 +4641,7 @@ const QUESTIONS = {
           "The delayed main clause mirrors the writer's own delayed reaction to the diagnosis."
         ],
         "correct": 3,
-        "explanation": "The syntax enacts the content: readers must wait through three accumulating 'after' clauses before reaching the payoff, just as the writer endured three accumulating frustrations before reaching her own breaking point — form mirroring content, this unit's central integrated-analysis move. The structure isn't accidental (C) or self-undermining (B): it reinforces meaning rather than working against it. And it signals patience finally running out, not an unconsidered, immediate reaction (A) — the delay itself is the point."
+        "explanation": "Correct: (D) the delayed main clause mirrors the writer's delayed reaction. A periodic sentence is one that postpones its main clause until after a run of modifying phrases, so the reader must wait for the grammatical payoff. Here three 'after' phrases (\"After four appointments that each ended in 'let's wait and see,'\" \"after a specialist referral that took eleven weeks to schedule,\" \"after finally being told...\") pile up before \"I stopped being polite about it\" finally arrives. The reader's wait through the clauses imitates the writer's long wait through the appointments, so the form reinforces the content.\n\n(A) is wrong because it says the writer reacted immediately without deliberation, yet the passage stresses weeks of waiting and 'finally' before the reaction.\n(B) is wrong because the structure does not blame the writer; the passage places the fault on the system that said 'let's wait and see.'\n(C) is wrong because the delayed clause is clearly deliberate and tied to the meaning of delay, not a stylistic accident."
       },
       {
         "id": "1-3",
@@ -4667,7 +4667,7 @@ const QUESTIONS = {
           "Yes, but only because the cumulative rewrite would use noticeably fewer words."
         ],
         "correct": 0,
-        "explanation": "Converting to cumulative order would state the reaction immediately, losing the suspended tension the periodic version builds — removing the structural mirroring between the reader's wait and the writer's wait that makes this opening effective. The two structures are not rhetorically interchangeable (contra B, C), and the difference isn't primarily about length (D) — it's about where the tension is placed."
+        "explanation": "Correct: (A) yes, a cumulative version would state the reaction first and lose the suspended tension. A cumulative sentence opens with its main clause and then adds modifying detail, the reverse of a periodic sentence. If the passage began \"I stopped being polite about it, after four appointments...\" the reader would learn the payoff at once, and the long list of delays would become explanation rather than mounting pressure. The original makes us wait through \"eleven weeks to schedule\" and \"would have caught this a year ago\" before the break, which mirrors the writer's own endurance.\n\n(B) is wrong because it claims sentence type has no bearing on meaning, but the order of clauses directly controls when tension releases.\n(C) is wrong because it says periodic and cumulative versions always carry identical weight, which ignores where the emphasis falls.\n(D) is wrong because the change is about placement of the main clause, not about using fewer words; the rewrite could contain exactly the same words."
       },
       {
         "id": "1-5",
@@ -4680,7 +4680,7 @@ const QUESTIONS = {
           "Five — every clause in the passage's first two sentences accumulates together."
         ],
         "correct": 0,
-        "explanation": "Three 'after' clauses — 'After four appointments...,' 'after a specialist referral...,' 'after finally being told...' — accumulate before the main clause, 'I stopped being polite about it,' finally arrives. The opening sentence is periodic, not simple (ruling out B), and the count includes all three subordinate clauses, not just the last one (C) or clauses from the following sentence too (D)."
+        "explanation": "Correct: (A) three. The passage's opening sentence begins three parallel subordinate phrases with 'after' before the main clause arrives: \"After four appointments that each ended in 'let's wait and see,'\" then \"after a specialist referral that took eleven weeks to schedule,\" then \"after finally being told the tests they'd wanted from the start would have caught this a year ago.\" Only then does the main clause, \"I stopped being polite about it,\" appear. Counting the repeated word 'after' at the start of each phrase gives three, and this repetition is also what makes the sentence periodic, since the main idea is held back.\n\n(B) is wrong because the sentence is not simple; it has a long run of subordinate phrases before its main clause.\n(C) is wrong because it counts only the last phrase, though the first two 'after' phrases are equally part of the buildup.\n(D) is wrong because the second sentence, \"The wait had a cost,\" contains no 'after' clauses, and five is not the count anywhere."
       },
       {
         "id": "1-6",
@@ -4693,7 +4693,7 @@ const QUESTIONS = {
           "Syntax and diction operate independently here, each contributing an unrelated effect."
         ],
         "correct": 1,
-        "explanation": "The periodic syntax builds accumulating frustration through structure (the long wait for the main clause), while increasingly pointed diction — 'let's wait and see' giving way to 'I stopped being polite' — reinforces that same emotional weight at the word level. The two levels aren't independent (D) and the structure is not incidental (C): syntax and diction cooperate rather than pulling apart (ruling out A), which is this unit's central integrated-analysis lesson."
+        "explanation": "Correct: (B) periodic syntax builds frustration structurally while pointed diction reinforces it. Syntax is the arrangement of clauses; diction is word choice. The periodic structure withholds \"I stopped being polite about it\" until three 'after' phrases have piled up, so the reader feels frustration as a delay. The diction works at the word level in the same direction: the polite hedge \"let's wait and see\" gives way to the blunt \"stopped being polite,\" and the second sentence adds \"The wait had a cost, and the cost had a name.\" Both levels push toward the same emotional breaking point.\n\n(A) is wrong because the diction does not contradict the syntax; the blunt words are what the long buildup is leading to.\n(C) is wrong because the sentence structure is clearly doing work, since the withheld main clause creates the suspense.\n(D) is wrong because the two levels are not unrelated; they cooperate to express mounting anger at the delayed diagnosis."
       },
       {
         "id": "2-1",
@@ -4719,7 +4719,7 @@ const QUESTIONS = {
           "A rhetorical question posed without any parallel grammatical structure."
         ],
         "correct": 2,
-        "explanation": "'Ask what this city can build... Do not ask what this city can build...' presents contrasting ideas (visitors vs. residents) in deliberately mirrored grammatical structure — antithesis requires both parallel form AND contrasting content, which this sentence pair supplies. It isn't cumulative structure, a single-sentence pattern, not a two-sentence contrast (B); it does use parallel grammar, not an unstructured question (D); and there's no missing conjunction to omit here (A) — these are two separate sentences, not a list."
+        "explanation": "Correct: (C) antithesis, with visitors and residents contrasted in parallel form. Antithesis is the placing of opposed ideas in balanced, parallel grammar. The final pair mirrors itself exactly: \"Ask what this city can build for visitors who stay three days a year. Do not ask what this city can build for residents who stay a lifetime.\" The structure is identical, but 'Ask' flips to 'Do not ask' and 'three days' flips to 'a lifetime,' so the contrast between short-term visitors and permanent residents is sharpened by the sameness of the frame.\n\n(A) is wrong because asyndeton means omitting conjunctions in a list, and these are two separate sentences making a contrast, not a series of joined items.\n(B) is wrong because cumulative structure puts the main clause first and trails modifiers after it within one sentence, which is not what a pair of mirrored commands does.\n(D) is wrong because the sentences are not a question at all, and they are tightly parallel, not unstructured."
       },
       {
         "id": "2-3",
@@ -4732,7 +4732,7 @@ const QUESTIONS = {
           "The anaphora and antithesis both make the identical claim, so neither adds to the other."
         ],
         "correct": 2,
-        "explanation": "The anaphora establishes a rhythmic pattern of things the city DOES fund; the antithesis then sharply reframes that pattern into a values-based choice between two kinds of people — visitors and residents — so the preceding buildup makes the final contrast land harder than it would alone. The techniques don't make the same claim (D) or work against each other (B); calling them merely coincidental (A) misses that structural relationship."
+        "explanation": "Correct: (C) the anaphora's rhythmic buildup gives the closing antithesis more force by contrast. Anaphora is the repetition of the same opening words across successive sentences; here \"We fund the stadium renovation. We fund the downtown parking structure. We fund the tourism marketing campaign\" creates a steady, accumulating rhythm that lists what the city prioritizes. When the passage then turns to \"the branch library two neighborhoods over that has been operating on a leaking roof,\" and ends with the visitors versus residents antithesis, the earlier drumbeat makes the final contrast land harder, because the audience has just heard a long list of spending on outsiders.\n\n(A) is wrong because the two techniques serve one argument about misplaced priorities, not separate purposes.\n(B) is wrong because the anaphora lists only what the city funds, which sets up the complaint about what it does not fund, rather than suggesting equal funding of everything.\n(D) is wrong because the anaphora lists spending while the antithesis contrasts two groups of people, so they do not make an identical claim."
       },
       {
         "id": "2-4",
@@ -4745,7 +4745,7 @@ const QUESTIONS = {
           "The break undermines the passage's argument by seeming to change the topic."
         ],
         "correct": 2,
-        "explanation": "After three parallel 'We fund' sentences, the fourth sentence's shift to 'What we do not fund' stands out precisely because it interrupts an established rhythm — that disruption itself creates emphasis and marks the passage's turn from listing priorities to critiquing them. It isn't an error (A): the break is deliberate. And a noticeable pattern-break isn't rhetorically inert (B) or off-topic (D) — it sharpens the same argument the anaphora was already building."
+        "explanation": "Correct: (C) breaking the anaphoric pattern creates emphasis and marks the passage's turning point. Anaphora sets up an expectation by repeating a phrase, here \"We fund... We fund... We fund...\" in three sentences. The fourth sentence, \"What we do not fund, apparently, is the branch library,\" abandons that opening and flips from funding to not funding, and the word 'apparently' adds sarcasm. Because the reader has absorbed the rhythm, the departure stands out and signals the shift from listing priorities to criticizing them.\n\n(A) is wrong because the break is deliberate and effective, not a grammatical slip; the sentence is perfectly correct and its change in structure carries the point.\n(B) is wrong because a break in an established pattern is noticeable and has the opposite of no effect; it focuses the audience on the neglected library.\n(D) is wrong because the sentence stays on budget priorities and in fact reinforces the argument by naming what is left unfunded, so it does not change the topic."
       },
       {
         "id": "2-5",
@@ -4797,7 +4797,7 @@ const QUESTIONS = {
           "No identifiable technique; the sentence follows ordinary syntax."
         ],
         "correct": 0,
-        "explanation": "'And' is repeated before each clause — 'it was chaos AND it was rhythm AND it was, somehow...' — slowing the pace in deliberate contrast to the rapid asyndeton of the sentence before it, giving each of the three claims its own weighted beat. It isn't antithesis, since chaos/rhythm/the-job aren't set up as opposites; it's the reverse of asyndeton, which omits rather than repeats conjunctions; and the repeated 'and' is a genuine identifiable technique, not absent (D)."
+        "explanation": "Correct: (A) polysyndeton, with 'and' repeated before each clause. Polysyndeton is the deliberate repetition of conjunctions between clauses or items, which slows the pace and gives each element its own weight. The second sentence reads \"It was chaos and it was rhythm and it was, somehow, exactly the job I had signed up for,\" so 'and it was' repeats before each new claim. This slower, stacked pacing contrasts with the rushed, comma-spliced list of the first sentence and lets the writer dwell on each paradoxical judgment.\n\n(B) is wrong because asyndeton omits conjunctions, while this sentence does the opposite by repeating them.\n(C) is wrong because chaos and rhythm are not framed as a balanced opposition in parallel form; both are placed side by side as true descriptions of the same kitchen and followed by a third claim.\n(D) is wrong because the repeated 'and it was' is a recognizable, deliberate technique, not ordinary syntax."
       },
       {
         "id": "3-3",
@@ -4810,7 +4810,7 @@ const QUESTIONS = {
           "The shift mirrors the passage's own shift — from breathless chaos to considered reflection."
         ],
         "correct": 3,
-        "explanation": "The move from asyndeton (sentence 1) to polysyndeton (sentence 2) mirrors a shift in the passage's own content and perspective — from the rapid, breathless chaos of service itself to the writer's more considered, weighted reflection on what that chaos meant — form matching a change in pacing and perspective. It isn't inconsistency or error (A, C): the two sentences use genuinely different techniques (ruling out B), chosen deliberately to track the passage's shift in focus."
+        "explanation": "Correct: (D) the shift mirrors the passage's own shift from breathless chaos to considered reflection. Asyndeton, the omission of conjunctions in a list, speeds the first sentence: \"Tickets came in, orders stacked, pans clattered, voices rose...\" so the reader feels the rush of service. Polysyndeton, the repeated 'and,' slows the second: \"It was chaos and it was rhythm and it was, somehow, exactly the job I had signed up for.\" The writer has stepped back from the action to reflect on what it meant, and the sentence rhythm changes to match that change in perspective.\n\n(A) is wrong because the shift is a deliberate technique, not an error; both sentences are grammatically sound.\n(B) is wrong because the first sentence omits conjunctions while the second repeats them, so they use different techniques.\n(C) is wrong because the contrast is not an inconsistency to smooth over; it supports the movement from action to reflection, and removing it would flatten the passage."
       },
       {
         "id": "3-4",
@@ -4823,7 +4823,7 @@ const QUESTIONS = {
           "Ten or more — every word group in the sentence counts as a separate item."
         ],
         "correct": 0,
-        "explanation": "Six distinct actions are listed asyndetically — 'Tickets came in, orders stacked, pans clattered, voices rose, somebody dropped a plate, somebody else called for backup' — without connecting conjunctions between most of them, rapidly accumulating to convey overwhelming, simultaneous kitchen chaos. The sentence lists more than one or two actions (ruling out A and C) but far fewer than ten (ruling out D)."
+        "explanation": "Correct: (A) six. The first sentence strings together short independent clauses without connecting conjunctions: \"Tickets came in, orders stacked, pans clattered, voices rose, somebody dropped a plate, somebody else called for backup.\" Counting each comma-separated clause gives six actions before the sentence adds \"and still the tickets kept coming,\" which works as a closing beat rather than another item in the same run. The piling of events without 'and' is asyndeton and creates the sense of simultaneous chaos.\n\n(B) is wrong because the sentence plainly lists many separate actions rather than a single one.\n(C) is wrong because there is no reason to count only the first pair; every comma-separated clause is part of the same unbroken list and contributes to the rush.\n(D) is wrong because ten or more would require counting individual words or fragments such as the verbs and nouns separately, but the unit of the list is the clause, and there are nowhere near ten clauses."
       },
       {
         "id": "3-5",
@@ -4836,7 +4836,7 @@ const QUESTIONS = {
           "Highly formal, academic vocabulary throughout the entire passage, as in a scholarly journal article."
         ],
         "correct": 0,
-        "explanation": "The passage uses plain, concrete, sensory vocabulary — tickets, pans, plates, voices — appropriate to a firsthand memoir account of physical, active kitchen work, grounding the diction in the passage's grounded subject matter. This rules out corporate jargon (B), academic formality (D), and archaic or ornate poetic diction (C), none of which appear here."
+        "explanation": "Correct: (A) plain, concrete, sensory vocabulary suited to a firsthand account of physical work. Diction register is the level and type of language a writer chooses. The passage names ordinary kitchen things and noises: \"Tickets came in, orders stacked, pans clattered, voices rose, somebody dropped a plate.\" Words like 'pans,' 'plate,' and 'clattered' are everyday, concrete, and audible, which fits a memoir of hands-on restaurant work and keeps the reflection in the second sentence grounded.\n\n(B) is wrong because corporate jargon would involve terms like 'workforce optimization' or 'deliverables,' and nothing like that appears in this kitchen scene.\n(C) is wrong because archaic or poetic vocabulary would involve old-fashioned or ornate words, while this passage uses modern spoken words such as 'backup' and 'job.'\n(D) is wrong because scholarly diction would include abstract, technical terms, but the passage uses simple everyday words and a casual 'somehow' rather than academic phrasing."
       },
       {
         "id": "3-6",
@@ -4849,7 +4849,7 @@ const QUESTIONS = {
           "The passage's diction actually varies considerably from sentence to sentence."
         ],
         "correct": 2,
-        "explanation": "The contrasting pacing techniques — fast asyndeton, then slow polysyndeton — layered onto consistently plain, concrete diction let the passage shift its rhythm to match different moments (chaos, then reflection) without also needing to shift its vocabulary register, a more subtle integration than Passage 4's combined register-and-syntax shift. The techniques don't work against the diction (A) or leave it out entirely (B); and the diction stays consistent rather than varying (D), which is exactly what lets the syntax do the work of marking the shift."
+        "explanation": "Correct: (C) contrasting pacing techniques let the passage shift rhythm without shifting its diction register. The first sentence uses asyndeton, as in \"Tickets came in, orders stacked, pans clattered,\" to rush the reader, and the second uses polysyndeton, as in \"It was chaos and it was rhythm and it was, somehow,\" to slow and weigh each claim. Meanwhile the vocabulary stays plain and concrete throughout, with words like 'pans,' 'plate,' and 'job.' So the writer changes tempo and perspective purely through syntax, which shows how syntax can mark a shift while diction stays constant.\n\n(A) is wrong because the conjunction techniques do not clash with the plain words; they arrange those same plain words differently.\n(B) is wrong because the conjunction techniques add a great deal, creating the contrast between chaotic action and reflection.\n(D) is wrong because the diction does not vary considerably; both sentences use simple, everyday vocabulary."
       },
       {
         "id": "4-1",
@@ -4862,7 +4862,7 @@ const QUESTIONS = {
           "A formal, technical, corporate/bureaucratic register"
         ],
         "correct": 3,
-        "explanation": "The opening sentence — 'Pursuant to our Q3 strategic realignment initiative, the organization will be implementing a workforce optimization...' — uses dense corporate euphemism and passive, impersonal phrasing: a formal, bureaucratic register. It's neither intimate (A) nor figurative (B), and it's the opposite of casual (C) — that contrast is exactly what makes the later register shift so noticeable."
+        "explanation": "Correct: (D) a formal, technical, corporate or bureaucratic register. Register is the level of formality and kind of language a writer uses. The opening sentence reads \"Pursuant to our Q3 strategic realignment initiative, the organization will be implementing a workforce optimization affecting approximately 12 percent of current headcount across three divisions.\" Phrases such as 'pursuant to,' 'strategic realignment initiative,' 'workforce optimization,' and 'headcount' are the stiff vocabulary of an official memo, and the passive, impersonal subject 'the organization' avoids naming people.\n\n(A) is wrong because an intimate register would address a person warmly and personally, whereas this sentence names no individuals and speaks only of the organization.\n(B) is wrong because there is no imagery or metaphor in the sentence; its terms are literal business language.\n(C) is wrong because a casual conversational register appears later with 'Look, I'm not going to pretend,' not in the first sentence."
       },
       {
         "id": "4-1a",
@@ -4875,7 +4875,7 @@ const QUESTIONS = {
           "“Q3 strategic realignment initiative” — branding language dressing the layoff up as a planned move."
         ],
         "correct": 3,
-        "explanation": "“Q3 strategic realignment initiative” is corporate branding language — it frames the layoffs as a deliberate, forward-looking strategic move rather than naming what it is, doing the same euphemistic work as “workforce optimization” later in the same sentence. “Effective the first of next month” is precise, not vague (ruling out C); “12 percent” is a specific figure, not an obscuring euphemism (B); and “three divisions” states information plainly rather than hiding it (A)."
+        "explanation": "Correct: (D) \"Q3 strategic realignment initiative,\" branding language that dresses the layoff up as a planned move. A euphemism is a mild or inflated phrase used in place of a blunt one. Calling job cuts a 'strategic realignment initiative' sounds like a deliberate, forward-looking project and hides the plain fact that people are losing work, exactly as 'workforce optimization' does in the same sentence. The writer later admits the phrasing is what he was told to use instead of the simple truth.\n\n(A) is wrong because 'three divisions' states a plain fact about where the cuts fall, and does not disguise the layoffs as something else.\n(B) is wrong because '12 percent' is a precise statistic that actually gives concrete information, so it is not an obscuring euphemism.\n(C) is wrong because 'effective the first of next month' gives a specific, clear date, which is not vague and does not conceal anything about the layoffs."
       },
       {
         "id": "4-2a",
@@ -4888,7 +4888,7 @@ const QUESTIONS = {
           "A single long cumulative sentence that piles on modifying detail after the main clause."
         ],
         "correct": 2,
-        "explanation": "'Some of you are losing your jobs. I know that. I'm sorry.' — three short, simple declarative sentences in a row, each stating one plain fact without elaboration. That abruptness enacts the writer's refusal to soften or bury the news any further, performing the same move the register shift makes verbally. There's no delaying subordination (A), no rhetorical questions (B), and no single long sentence accumulating detail (D) — the bluntness itself is the point."
+        "explanation": "Correct: (C) a run of short, simple declarative sentences, each stating one plain fact. A simple declarative sentence is a single independent clause that makes a statement. The ending reads \"Some of you are losing your jobs. I know that. I'm sorry.\" Each is only a few words, each delivers one fact, and none contains subordinate clauses. This abruptness contrasts with the long, heavily modified opening sentence and creates a blunt, sincere tone, as if the writer is refusing to dress the news up any further.\n\n(A) is wrong because periodic sentences delay the main point with a long buildup, which describes the opening sentence rather than these brief final statements.\n(B) is wrong because the final sentences are statements, not questions, and nothing invites the reader to supply an answer.\n(D) is wrong because a cumulative sentence is one long sentence adding detail after its main clause, whereas the ending is three separate short sentences with no trailing modifiers."
       },
       {
         "id": "4-3a",
@@ -4901,7 +4901,7 @@ const QUESTIONS = {
           "It doesn't connect; register shifts are a syntax concept with no bearing on ethos."
         ],
         "correct": 0,
-        "explanation": "The writer explicitly frames his shift to plain language as a choice — he was 'told to use' the corporate phrasing and is now setting it aside — which builds ethos through candor: he positions himself as more honest and human than the institutional script, similar to how ethos-through-vulnerability works elsewhere in this course (e.g., the welding writer's 'assumed, wrongly' admission in Unit 1). Register shifts absolutely can serve ethos (contra B); the plain language reads as more credible, not less professional (contra C); and ethos doesn't require formality (contra D) — honesty here does the work formality would have undermined."
+        "explanation": "Correct: (A) by dropping corporate euphemism for plain language, the writer builds ethos through honesty. Ethos is the appeal to the speaker's credibility and character. The writer says \"Look, I'm not going to pretend that sentence means anything to the people it's about,\" and ends with \"That's the whole message, underneath all the words I was told to use instead.\" By admitting that the official wording was imposed and setting it aside, he presents himself as honest and humane, which makes readers more willing to trust him.\n\n(B) is wrong because ethos does not require technical or formal language; here the formal language is exactly what the writer rejects to gain credibility.\n(C) is wrong because the plain shift reads as candor and sympathy ('I'm sorry'), not as unprofessional behavior that harms his standing.\n(D) is wrong because register is part of how a writer constructs persona, so a register shift does bear on ethos and is not only a matter of syntax."
       },
       {
         "id": "4-4a",
@@ -4927,7 +4927,7 @@ const QUESTIONS = {
           "These short sentences actually contradict the passage's overall message."
         ],
         "correct": 2,
-        "explanation": "The short, direct sentences' brevity sharply contrasts with the dense opening sentence, reinforcing the register shift's meaning at the syntax level too — plain truth delivered in plain, short sentences enacts the content's claim. They don't echo the opening's dense syntax (A, the opposite of what happens); they aren't rhetorically inert (B); and they support, rather than contradict, the passage's central point (D)."
+        "explanation": "Correct: (C) their brevity, contrasting the dense opening, reinforces the register shift's meaning. After the casual turn at \"Look, I'm not going to pretend,\" the writer uses \"Some of you are losing your jobs. I know that. I'm sorry.\" These very short sentences are the opposite of the opening's long, stacked noun phrases like 'strategic realignment initiative' and 'workforce optimization.' The clipped syntax matches the plainer diction, so the form itself conveys that the writer is now speaking directly and honestly.\n\n(A) is wrong because the short sentences do not echo the dense, formal syntax of the opening; they are its opposite in length and complexity.\n(B) is wrong because the brevity has a clear rhetorical effect of bluntness and sincerity that supports the passage's meaning.\n(D) is wrong because the short sentences support the message by stating the truth plainly, which fits the writer's rejection of corporate language, not contradicts it."
       },
       {
         "id": "4-2",
@@ -4940,7 +4940,7 @@ const QUESTIONS = {
           "It shifts from a casual opening to an increasingly formal register by the passage's end."
         ],
         "correct": 1,
-        "explanation": "The register shifts sharply at 'Look, I'm not going to pretend that sentence means anything' — moving from formal corporate euphemism to a casual, direct, personal register, a deliberate break from the preceding bureaucratic language. The passage does NOT stay consistent throughout (contra A); the shift happens partway through, not at the very start (contra C); and the movement is from formal to casual, not the reverse (contra D)."
+        "explanation": "Correct: (B) it shifts sharply at 'Look, I'm not going to pretend...' to a casual, personal register. The passage opens in stiff memo language, \"Pursuant to our Q3 strategic realignment initiative, the organization will be implementing a workforce optimization.\" Then the second sentence begins with the colloquial 'Look,' and uses the first-person 'I'm not going to pretend,' contractions, and direct address with 'Some of you.' That abrupt move from impersonal bureaucratic wording to conversational, personal speech is the register shift.\n\n(A) is wrong because the passage does not keep one formal register; the casual voice clearly takes over after the first sentence.\n(C) is wrong because the first sentence is the most corporate part of the passage, full of terms like 'pursuant' and 'headcount,' so the shift cannot happen before corporate language appears.\n(D) is wrong because it reverses the direction: the passage begins formal and becomes casual, and does not become more formal by its end."
       },
       {
         "id": "4-3",
@@ -4953,7 +4953,7 @@ const QUESTIONS = {
           "The shift enacts the writer's own recognition that corporate language fails to convey the truth."
         ],
         "correct": 3,
-        "explanation": "This register shift marks the writer's own recognition that formal corporate language fails to convey the human reality underneath it — the shift itself performs the passage's argument that official language can obscure plain truth, directly paralleling Section 6.4's discussion of register shifts marking significant turns. Nothing in the passage suggests disagreement with the layoffs themselves (C) or multiple authors (B), and a shift this deliberate and load-bearing is not merely decorative (A)."
+        "explanation": "Correct: (D) the shift enacts the writer's own recognition that corporate language fails to convey the truth. The writer says of the opening sentence, \"I'm not going to pretend that sentence means anything to the people it's about,\" and later calls the plain message what lies \"underneath all the words I was told to use instead.\" By abandoning memo language mid-passage for \"Some of you are losing your jobs,\" the writer performs the very point he is making: official wording hides reality, and plain speech delivers it.\n\n(A) is wrong because the shift is central to the passage's meaning, since it is how the writer demonstrates that the corporate language is inadequate.\n(B) is wrong because nothing suggests multiple authors; the first-person voice and the phrase 'words I was told to use' show one writer deliberately changing registers.\n(C) is wrong because the writer does not say he opposes the layoffs; he apologizes and acknowledges the news, but he criticizes the language, not the decision."
       },
       {
         "id": "5-1",
@@ -4979,7 +4979,7 @@ const QUESTIONS = {
           "There is no real diction contrast at work anywhere in this passage."
         ],
         "correct": 1,
-        "explanation": "The rejected candidates draw on dramatic, almost catastrophic vocabulary (fire, flood), while the actual answer — 'a permit, signed on a Tuesday' — is deliberately mundane and bureaucratic: an ironic, deflating contrast that makes the true cause feel almost absurdly anticlimactic next to the dramatic false answers. The permit is described in flatter language, not more dramatic (contra C); the contrast is real and central to the passage's irony (contra D); and the four items clearly do not share one register (contra A)."
+        "explanation": "Correct: (B) the mundane, bureaucratic permit contrasts ironically with the dramatic rejected causes. Diction is word choice, and irony here is the gap between what we expect and what we get. The rejected candidates are \"the fire twelve years ago,\" \"the flood that followed it,\" and \"the slow decade of deferred repairs,\" all dramatic or sweeping. The real cause is \"a permit, signed on a Tuesday, by someone who had never once walked through its doors,\" which is ordinary paperwork language. That deflating drop in drama makes the cause feel both anticlimactic and quietly damning.\n\n(A) is wrong because fire and flood are vivid disasters while a permit is administrative, so they do not share one register.\n(C) is wrong because the permit is described in flat, procedural terms such as 'signed on a Tuesday,' which is far less dramatic than a fire or flood.\n(D) is wrong because the contrast between disaster words and a paperwork word is the central effect of the passage."
       },
       {
         "id": "5-3",
@@ -4992,7 +4992,7 @@ const QUESTIONS = {
           "The syntax and diction actively contradict each other, leaving the passage's point unclear."
         ],
         "correct": 1,
-        "explanation": "The syntax (periodic, anaphoric buildup) creates an expectation of dramatic revelation, while the diction's sudden drop to mundane, bureaucratic vocabulary delivers an ironic anticlimax — their combination produces the passage's darkly ironic effect more powerfully than either technique could alone, exactly the integrated analysis Section 6.5 modeled. The syntax is not merely decorative (contra C); the two levels work together rather than independently (contra A) or against each other (contra D)."
+        "explanation": "Correct: (B) the syntax builds dramatic expectation while the diction delivers an ironic anticlimax. Syntax is sentence structure; diction is word choice. The three fragments \"Not the fire twelve years ago. Not the flood that followed it. Not even the slow decade of deferred repairs after both.\" repeat 'Not' and delay the answer until \"What finally took the old mill down was a permit,\" so the structure raises expectation of a major revelation. The word 'permit,' with 'signed on a Tuesday,' then drops to mundane bureaucratic vocabulary, which deflates that expectation ironically. Together they make the point sharper than either could alone.\n\n(A) is wrong because the two levels clearly interact, with the structure setting up the very expectation the word choice then undercuts.\n(C) is wrong because the repeated, delayed structure does real work here, creating the suspense that the word permit then punctures.\n(D) is wrong because the syntax and diction cooperate to produce a clear ironic point rather than contradict each other."
       },
       {
         "id": "5-4",
@@ -5005,7 +5005,7 @@ const QUESTIONS = {
           "None — the passage doesn't actually use an anaphoric structure."
         ],
         "correct": 0,
-        "explanation": "Three rejected candidates — the fire, the flood, and the decade of deferred repairs — are presented anaphorically before the passage's actual answer (a permit) finally arrives in the final sentence. The passage clearly does use anaphora (ruling out D); it names three causes, not one (B) or five (C)."
+        "explanation": "Correct: (A) three. The anaphoric structure repeats 'Not' at the start of successive fragments, each naming a cause the writer rejects: \"Not the fire twelve years ago. Not the flood that followed it. Not even the slow decade of deferred repairs after both.\" That makes three rejected candidates, the fire, the flood, and the decade of deferred repairs. Only after these does the real answer arrive in \"What finally took the old mill down was a permit.\" The 'even' in the third fragment adds a final escalation before the turn.\n\n(B) is wrong because the flood is only one of the three rejected causes; the fire and the repairs are also named and dismissed.\n(C) is wrong because the passage's later sentence about the permit is the answer, not a rejected candidate, and only three fragments begin with 'Not.'\n(D) is wrong because the repeated 'Not' at the openings of the first three fragments is a clear case of anaphora, the repetition of the same words at the start of successive units."
       },
       {
         "id": "5-5",
@@ -5018,7 +5018,7 @@ const QUESTIONS = {
           "Yes, but only because a direct version would technically be grammatically incorrect."
         ],
         "correct": 0,
-        "explanation": "Stating the answer first would eliminate the periodic structure's suspended tension and the anaphoric buildup of dramatic false candidates, removing the ironic anticlimax that gives the passage its distinctive rhetorical power — confirming the structure itself is doing essential work, not decoration. The two orderings are not equally effective (contra B, C), and the issue is rhetorical impact, not grammatical correctness (contra D) — a direct version would still be perfectly grammatical."
+        "explanation": "Correct: (A) yes, stating the answer first would remove the suspense and the ironic anticlimax. The passage withholds its answer through repeated rejections, \"Not the fire twelve years ago. Not the flood that followed it. Not even the slow decade of deferred repairs after both,\" so that the reader expects something dramatic. The reveal, \"a permit, signed on a Tuesday, by someone who had never once walked through its doors,\" has force because of that buildup. Opening with the permit would drop the expectation, and the irony of an ordinary document defeating a building that survived disasters would land far less strongly.\n\n(B) is wrong because order of ideas strongly shapes impact, as the withheld answer here demonstrates.\n(C) is wrong because a direct opening would lack the suspense and contrast, so it would not be equally effective.\n(D) is wrong because a direct version would be perfectly grammatical; the loss is rhetorical, not a matter of correctness."
       },
       {
         "id": "5-6",
@@ -5031,7 +5031,7 @@ const QUESTIONS = {
           "To demonstrate that a single specific technique matters most for strong writing overall."
         ],
         "correct": 2,
-        "explanation": "These five passages, spanning genuinely varied genres and topics (memoir, public statement, corporate memo, local history column), demonstrate how the same core toolkit of syntax and diction techniques can be deployed for different specific effects depending on each passage's content and purpose — the unifying lesson across this unit's examples. The passages do NOT use identical techniques identically (contra B); no single technique is privileged above the rest (contra D); and the genre variety itself refutes the claim that this analysis applies only to speeches (contra A)."
+        "explanation": "Correct: (C) to show how one shared toolkit of techniques produces different effects across varied passages. The unit's passages, such as the delayed diagnosis essay, the council statement, the kitchen memoir, the layoff memo, and the demolished mill column, draw on the same syntax and diction tools, including periodic and cumulative sentences, anaphora, asyndeton, polysyndeton, and register shifts. Yet each produces a different result: frustration, urgency, chaos, honesty, or irony. The shared lesson is how to analyze such choices in any passage.\n\n(A) is wrong because the passages are a personal essay, a memoir, a memo, and a column, not only persuasive speeches, so the analysis clearly applies beyond public speeches.\n(B) is wrong because the passages deploy different techniques in different ways, such as periodic buildup in one and register shift in another.\n(D) is wrong because no single technique is presented as supreme; the unit treats several tools as useful depending on purpose."
       }
     ],
     "draftPassages": [
