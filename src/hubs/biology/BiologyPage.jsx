@@ -884,7 +884,7 @@ const S = {
 
   explanation: { marginTop: 14, padding: "13px 16px", background: "#EDE8F2", borderRadius: 12 },
   explanationLabel: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: "#6B5A80", marginBottom: 6 },
-  explanationText: { fontSize: 14.5, lineHeight: 1.55, margin: 0, color: "#3B4038" },
+  explanationText: { fontSize: 14.5, lineHeight: 1.55, margin: 0, color: "#3B4038", whiteSpace: "pre-line" },
 
   frqWrap: { minHeight: 300 },
   frqList: { display: "flex", flexDirection: "column", gap: 12 },
