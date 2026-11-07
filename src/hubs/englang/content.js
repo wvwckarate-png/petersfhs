@@ -1254,7 +1254,7 @@ const QUESTIONS = {
           "The speech makes no characterization of the opponent's position at all."
         ],
         "correct": 2,
-        "explanation": "The speaker calls the opponent's change “small” and “harmless” in the opponent's own framing, then immediately treats it as a step toward the extreme outcome of losing lunch altogether — which risks overstating what the opponent has actually proposed. That is a real distortion, so “fully and fairly” and “no characterization at all” are both wrong, and it is the speaker's own words (“small, harmless”) that undercut the idea that eliminating lunch is an accurate description of the opponent's stated position."
+        "explanation": "The speaker calls the opponent's change “small” and “harmless” in the opponent's own framing, then immediately treats it as a step toward the extreme outcome of losing lunch altogether — which risks overstating what the opponent has actually proposed. That is a real distortion, so “fully and fairly” and “no characterization at all” are both wrong, and it is the opponent's own framing ('small, harmless') that undercuts the idea that eliminating lunch is an accurate description of the opponent's stated position."
       },
       {
         "id": "3-6",
@@ -2356,7 +2356,7 @@ const QUESTIONS = {
       {
         "id": "4-9",
         "passageId": "P4",
-        "stem": "Considering this passage alongside the letter analyzed in Unit 1 (the bakery owner's announcement), what shared rhetorical strategy do both texts use in their concluding lines?",
+        "stem": "Considering this passage alongside the coral-restoration passage analyzed in Unit 1 (ending 'It is proof it is still possible for it to.'), what shared rhetorical strategy do both texts use in their concluding lines?",
         "choices": [
           "Neither passage has any particular concluding strategy, since both simply stop writing.",
           "Both passages avoid any form of emphasis in their concluding lines, staying uniformly flat.",
@@ -2364,7 +2364,7 @@ const QUESTIONS = {
           "Both use a short, distinct final statement to deliver their core claim with concentrated emphasis."
         ],
         "correct": 3,
-        "explanation": "Both passages use a short, syntactically distinct final statement — this passage's 'One decision, made new again every single day' and the bakery letter's central contrast — to deliver their core interpretive claim with concentrated emphasis after longer supporting material, connecting this unit's syntax analysis back to Unit 1. Neither ending is a bare statistic; both actively use emphasis rather than avoiding it; and both clearly have a deliberate concluding strategy."
+        "explanation": "Both passages use a short, syntactically distinct final statement — this passage's 'One decision, made new again every single day' and the Unit 1 coral passage's 'It is proof it is still possible for it to.' — to deliver their core interpretive claim with concentrated emphasis after longer supporting material, connecting this unit's syntax analysis back to Unit 1. Neither ending is a bare statistic; both actively use emphasis rather than avoiding it; and both clearly have a deliberate concluding strategy."
       },
       {
         "id": "5-8",
@@ -2850,7 +2850,7 @@ const QUESTIONS = {
           "It is appropriately qualified, citing documented but non-absolute claims."
         ],
         "correct": 3,
-        "explanation": "The passage's claim is appropriately qualified — it cites documented research links and measurable effects without overclaiming universal certainty, a calibrated level of confidence consistent with what citing research findings can actually support. In full: It is appropriately qualified — citing 'documented links' and 'measurable effects' without claiming these findings apply universally or with absolute certainty to every individual. The other choices are wrong: “The passage makes no claims about health effects at all.” wrongly claims the feature is entirely absent when it clearly is present; “It significantly overclaims, asserting certainty far beyond what an...” is not supported by the passage's actual wording or structure; “The passage's claim is stated as a claim of policy, not fact.” misclassifies the claim type."
+        "explanation": "The passage's claim is appropriately qualified — it cites documented research links and measurable effects without overclaiming universal certainty, a calibrated level of confidence consistent with what citing research findings can actually support. In full: It is appropriately qualified — citing 'documented clear links' and 'measurable health effects' without claiming these findings apply universally or with absolute certainty to every individual. The other choices are wrong: “The passage makes no claims about health effects at all.” wrongly claims the feature is entirely absent when it clearly is present; “It significantly overclaims, asserting certainty far beyond what an...” is not supported by the passage's actual wording or structure; “The passage's claim is stated as a claim of policy, not fact.” misclassifies the claim type."
       },
       {
         "id": "2-1",
@@ -4693,7 +4693,7 @@ const QUESTIONS = {
           "Syntax and diction operate independently here, each contributing an unrelated effect."
         ],
         "correct": 1,
-        "explanation": "The periodic syntax builds accumulating frustration through structure (the long wait for the main clause), while increasingly pointed diction — 'let's wait and see' giving way to 'I stopped being polite' — reinforces that same emotional weight at the word level. The two levels aren't independent (D) or unrelated in effect (C): syntax and diction cooperate rather than pulling apart (ruling out A), which is this unit's central integrated-analysis lesson."
+        "explanation": "The periodic syntax builds accumulating frustration through structure (the long wait for the main clause), while increasingly pointed diction — 'let's wait and see' giving way to 'I stopped being polite' — reinforces that same emotional weight at the word level. The two levels aren't independent (D) and the structure is not incidental (C): syntax and diction cooperate rather than pulling apart (ruling out A), which is this unit's central integrated-analysis lesson."
       },
       {
         "id": "2-1",
@@ -4810,7 +4810,7 @@ const QUESTIONS = {
           "The shift mirrors the passage's own shift — from breathless chaos to considered reflection."
         ],
         "correct": 3,
-        "explanation": "The move from asyndeton (sentence 1) to polysyndeton (sentence 2) mirrors a shift in the passage's own content and perspective — from the rapid, breathless chaos of service itself to the writer's more considered, weighted reflection on what that chaos meant — form matching a change in pacing and perspective. It isn't inconsistency or error (A, D): the two sentences use genuinely different techniques (ruling out C), chosen deliberately to track the passage's shift in focus."
+        "explanation": "The move from asyndeton (sentence 1) to polysyndeton (sentence 2) mirrors a shift in the passage's own content and perspective — from the rapid, breathless chaos of service itself to the writer's more considered, weighted reflection on what that chaos meant — form matching a change in pacing and perspective. It isn't inconsistency or error (A, C): the two sentences use genuinely different techniques (ruling out B), chosen deliberately to track the passage's shift in focus."
       },
       {
         "id": "3-4",
@@ -4901,7 +4901,7 @@ const QUESTIONS = {
           "It doesn't connect; register shifts are a syntax concept with no bearing on ethos."
         ],
         "correct": 0,
-        "explanation": "The writer explicitly frames his shift to plain language as a choice — he was 'told to use' the corporate phrasing and is now setting it aside — which builds ethos through candor: he positions himself as more honest and human than the institutional script, similar to how ethos-through-vulnerability works elsewhere in this course (e.g., the bakery-owner letter in Unit 1). Register shifts absolutely can serve ethos (contra B); the plain language reads as more credible, not less professional (contra C); and ethos doesn't require formality (contra D) — honesty here does the work formality would have undermined."
+        "explanation": "The writer explicitly frames his shift to plain language as a choice — he was 'told to use' the corporate phrasing and is now setting it aside — which builds ethos through candor: he positions himself as more honest and human than the institutional script, similar to how ethos-through-vulnerability works elsewhere in this course (e.g., the welding writer's 'assumed, wrongly' admission in Unit 1). Register shifts absolutely can serve ethos (contra B); the plain language reads as more credible, not less professional (contra C); and ethos doesn't require formality (contra D) — honesty here does the work formality would have undermined."
       },
       {
         "id": "4-4a",
@@ -4940,7 +4940,7 @@ const QUESTIONS = {
           "It shifts from a casual opening to an increasingly formal register by the passage's end."
         ],
         "correct": 1,
-        "explanation": "The register shifts sharply at 'Look, I'm not going to pretend that sentence means anything' — moving from formal corporate euphemism to a casual, direct, personal register, a deliberate break from the preceding bureaucratic language. The passage does NOT stay consistent throughout (contra B); the shift happens partway through, not at the very start (contra C, which also gets the direction wrong); and the movement is from formal to casual, not the reverse (contra D)."
+        "explanation": "The register shifts sharply at 'Look, I'm not going to pretend that sentence means anything' — moving from formal corporate euphemism to a casual, direct, personal register, a deliberate break from the preceding bureaucratic language. The passage does NOT stay consistent throughout (contra A); the shift happens partway through, not at the very start (contra C); and the movement is from formal to casual, not the reverse (contra D)."
       },
       {
         "id": "4-3",
@@ -4979,7 +4979,7 @@ const QUESTIONS = {
           "There is no real diction contrast at work anywhere in this passage."
         ],
         "correct": 1,
-        "explanation": "The rejected candidates draw on dramatic, almost catastrophic vocabulary (fire, flood), while the actual answer — 'a permit, signed on a Tuesday' — is deliberately mundane and bureaucratic: an ironic, deflating contrast that makes the true cause feel almost absurdly anticlimactic next to the dramatic false answers. The permit is described in flatter language, not more dramatic (contra A); the contrast is real and central to the passage's irony (contra C); and the four items clearly do not share one register (contra D)."
+        "explanation": "The rejected candidates draw on dramatic, almost catastrophic vocabulary (fire, flood), while the actual answer — 'a permit, signed on a Tuesday' — is deliberately mundane and bureaucratic: an ironic, deflating contrast that makes the true cause feel almost absurdly anticlimactic next to the dramatic false answers. The permit is described in flatter language, not more dramatic (contra C); the contrast is real and central to the passage's irony (contra D); and the four items clearly do not share one register (contra A)."
       },
       {
         "id": "5-3",
@@ -4992,7 +4992,7 @@ const QUESTIONS = {
           "The syntax and diction actively contradict each other, leaving the passage's point unclear."
         ],
         "correct": 1,
-        "explanation": "The syntax (periodic, anaphoric buildup) creates an expectation of dramatic revelation, while the diction's sudden drop to mundane, bureaucratic vocabulary delivers an ironic anticlimax — their combination produces the passage's darkly ironic effect more powerfully than either technique could alone, exactly the integrated analysis Section 6.5 modeled. The syntax is not merely decorative (contra A); the two levels work together rather than independently (contra C) or against each other (contra D)."
+        "explanation": "The syntax (periodic, anaphoric buildup) creates an expectation of dramatic revelation, while the diction's sudden drop to mundane, bureaucratic vocabulary delivers an ironic anticlimax — their combination produces the passage's darkly ironic effect more powerfully than either technique could alone, exactly the integrated analysis Section 6.5 modeled. The syntax is not merely decorative (contra C); the two levels work together rather than independently (contra A) or against each other (contra D)."
       },
       {
         "id": "5-4",
@@ -5018,7 +5018,7 @@ const QUESTIONS = {
           "Yes, but only because a direct version would technically be grammatically incorrect."
         ],
         "correct": 0,
-        "explanation": "Stating the answer first would eliminate the periodic structure's suspended tension and the anaphoric buildup of dramatic false candidates, removing the ironic anticlimax that gives the passage its distinctive rhetorical power — confirming the structure itself is doing essential work, not decoration. The two orderings are not equally effective (contra A, C), and the issue is rhetorical impact, not grammatical correctness (contra D) — a direct version would still be perfectly grammatical."
+        "explanation": "Stating the answer first would eliminate the periodic structure's suspended tension and the anaphoric buildup of dramatic false candidates, removing the ironic anticlimax that gives the passage its distinctive rhetorical power — confirming the structure itself is doing essential work, not decoration. The two orderings are not equally effective (contra B, C), and the issue is rhetorical impact, not grammatical correctness (contra D) — a direct version would still be perfectly grammatical."
       },
       {
         "id": "5-6",
@@ -5031,7 +5031,7 @@ const QUESTIONS = {
           "To demonstrate that a single specific technique matters most for strong writing overall."
         ],
         "correct": 2,
-        "explanation": "These five passages, spanning genuinely varied genres and topics (memoir, public statement, corporate memo, local history column), demonstrate how the same core toolkit of syntax and diction techniques can be deployed for different specific effects depending on each passage's content and purpose — the unifying lesson across this unit's examples. The passages do NOT use identical techniques identically (contra A); no single technique is privileged above the rest (contra C); and the genre variety itself refutes the claim that this analysis applies only to speeches (contra D)."
+        "explanation": "These five passages, spanning genuinely varied genres and topics (memoir, public statement, corporate memo, local history column), demonstrate how the same core toolkit of syntax and diction techniques can be deployed for different specific effects depending on each passage's content and purpose — the unifying lesson across this unit's examples. The passages do NOT use identical techniques identically (contra B); no single technique is privileged above the rest (contra D); and the genre variety itself refutes the claim that this analysis applies only to speeches (contra A)."
       }
     ],
     "draftPassages": [
@@ -5868,7 +5868,7 @@ const QUESTIONS = {
           "The paragraph break actually contradicts the passage's overall meaning, oddly enough."
         ],
         "correct": 1,
-        "explanation": "Correct: (B) The break marks the shift from disillusionment to reflection, like a pause. Paragraph structure is a way of organizing thought, and a break can mirror a change in the writer's thinking. Paragraph one reports the shock of the small room: 'I could touch both counters without moving my feet.' Paragraph two opens 'There is a particular kind of grief... But there is also... something almost generous in the correction,' turning from observation to interpretation. The white space works like the narrator's pause to absorb the discovery, which a single paragraph would blur.\n\n(A) is wrong because the paragraphs differ: the first describes the room and its water stains, while the second meditates on grief, correction, and accepting both versions.\n(C) is wrong because the break has a clear function, dividing noticing from making sense of what was noticed.\n(D) is wrong because the break supports rather than contradicts the meaning; the second paragraph builds on the first by returning to 'the cathedral.'"
+        "explanation": "Correct: (B) The break marks the shift from disillusionment to reflection, like a pause. Paragraph structure is a way of organizing thought, and a break can mirror a change in the writer's thinking. Paragraph one reports the shock of the small room: 'could touch both counters without moving my feet.' Paragraph two opens 'There is a particular kind of grief... But there is also... something almost generous in the correction,' turning from observation to interpretation. The white space works like the narrator's pause to absorb the discovery, which a single paragraph would blur.\n\n(A) is wrong because the paragraphs differ: the first describes the room and its water stains, while the second meditates on grief, correction, and accepting both versions.\n(C) is wrong because the break has a clear function, dividing noticing from making sense of what was noticed.\n(D) is wrong because the break supports rather than contradicts the meaning; the second paragraph builds on the first by returning to 'the cathedral.'"
       },
       {
         "id": "1-5",
@@ -6506,7 +6506,7 @@ const QUESTIONS = {
         "choices": [
           "Source 4's expertise duplicates a police department's day-to-day operational expertise.",
           "Expertise is irrelevant when evaluating a methodological critique like this one.",
-          "Source 4 has no relevant expertise of any kind for this critique, since both examine the same wearable device's readings under similar test conditions.",
+          "Source 4 has no relevant expertise of any kind for this critique, since a researcher outside the police department cannot judge burglary data.",
           "As an independent criminology researcher, Source 4 brings specialized expertise in identifying confounding variables."
         ],
         "correct": 3,
@@ -6549,7 +6549,7 @@ const QUESTIONS = {
           "Source 3's report should be disregarded entirely as worthless, since it comes from the police department itself."
         ],
         "correct": 2,
-        "explanation": "Correct: (C) The correlation may be partly explained by neighborhood characteristics, so causal claims should be qualified. A sophisticated synthesis keeps what each source legitimately shows and qualifies the rest. Source 3 reports a '22 percent reduction in reported burglaries' compared with a 'four percent citywide reduction,' and Source 4 shows that income and homeownership, 'independently associated with lower burglary rates,' may explain much of that gap. Together they support saying watch neighborhoods saw drops while limiting how much credit goes to the programs.\n\n(A) is wrong because the sources address the same city, the same neighborhoods, and the same burglary reductions.\n(B) is wrong because Source 4 only says the programs 'may not be' the primary cause, so asserting they definitely have no effect overstates the evidence.\n(D) is wrong because the data in Source 3 remains useful even though it needs qualification; its origin in a police department does not make it worthless."
+        "explanation": "Correct: (C) The correlation may be partly explained by neighborhood characteristics, so causal claims should be qualified. A sophisticated synthesis keeps what each source legitimately shows and qualifies the rest. Source 3 reports a '22 percent reduction in reported burglaries' compared with a '4 percent citywide reduction,' and Source 4 shows that income and homeownership, 'independently associated with lower burglary rates,' may explain much of that gap. Together they support saying watch neighborhoods saw drops while limiting how much credit goes to the programs.\n\n(A) is wrong because the sources address the same city, the same neighborhoods, and the same burglary reductions.\n(B) is wrong because Source 4 only says the programs 'may not be' the primary cause, so asserting they definitely have no effect overstates the evidence.\n(D) is wrong because the data in Source 3 remains useful even though it needs qualification; its origin in a police department does not make it worthless."
       },
       {
         "id": "3-1",
@@ -6575,7 +6575,7 @@ const QUESTIONS = {
           "Currency only matters for direct factual claims, never for forward-looking projections."
         ],
         "correct": 2,
-        "explanation": "Correct: (C) Modeling accuracy can depend on how current the underlying comparison data is, since commuting patterns can shift over time. Currency is how recent a source's information is, and it matters for models because they extrapolate from past data. Source 5 projects results based on 'comparable toll lane projects in three other states,' so if that comparison data are old, changes in driving habits or traffic may make the projected 'fifteen percent reduction in overall corridor congestion' less reliable. A careful reader asks how recent the comparison projects are.\n\n(A) is wrong because a recently published study can still rely on old underlying data, so the publication date alone does not guarantee currency.\n(B) is wrong because currency applies to any evidence base, including models built on dated comparisons.\n(D) is wrong because forward-looking projections are exactly where outdated inputs can cause errors, so currency matters for them as well."
+        "explanation": "Correct: (C) Modeling accuracy can depend on how current the underlying comparison data is, since commuting patterns can shift over time. Currency is how recent a source's information is, and it matters for models because they extrapolate from past data. Source 5 projects results based on 'comparable toll lane projects in three other states,' so if that comparison data are old, changes in driving habits or traffic may make the projected '15 percent reduction in overall corridor congestion' less reliable. A careful reader asks how recent the comparison projects are.\n\n(A) is wrong because a recently published study can still rely on old underlying data, so the publication date alone does not guarantee currency.\n(B) is wrong because currency applies to any evidence base, including models built on dated comparisons.\n(D) is wrong because forward-looking projections are exactly where outdated inputs can cause errors, so currency matters for them as well."
       },
       {
         "id": "3-7",
@@ -7359,7 +7359,7 @@ const QUESTIONS = {
           "It is grammatically incorrect despite taking a clear position.",
           "It hedges into meaninglessness and commits to no real position."
         ],
-        "correct": 1,
+        "correct": 3,
         "explanation": "Statement 3 hedges into meaninglessness — 'many different viewpoints... that people hold' is true of virtually any contested topic and commits to no specific, arguable position of the writer's own, failing the 'could someone reasonably disagree' test entirely. It is not credit-worthy as written, its flaw is not grammatical, and it is the opposite of too narrow — it is too broad to be falsifiable."
       },
       {
