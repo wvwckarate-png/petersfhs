@@ -684,7 +684,7 @@ const QUESTIONS = {
         "A has traveled half as far as B."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) A has traveled twice as far as B. Starting from rest, Δx = ½at², so for the same time t the displacement is directly proportional to the acceleration. If a<sub>A</sub> = 2a<sub>B</sub>, then Δx<sub>A</sub> = ½(2a<sub>B</sub>)t² = 2 × (½a<sub>B</sub>t²) = 2Δx<sub>B</sub>. The t² factor is identical for both and cancels in the ratio.\n\n(A) is wrong because four times would apply if the time were doubled (t² scaling), not the acceleration.\n(B) is wrong because equal distances would need equal accelerations.\n(D) is wrong because a larger acceleration gives a larger, not smaller, displacement."
+      "explanation": "Correct: (C) A has traveled twice as far as B. Starting from rest with constant acceleration, the displacement is Δx = ½at², so for a fixed elapsed time t the displacement is directly proportional to the acceleration. The stem gives a<sub>A</sub> = 2a<sub>B</sub> and the same time for both, so Δx<sub>A</sub> = ½(2a<sub>B</sub>)t² = 2 × (½a<sub>B</sub>t²) = 2Δx<sub>B</sub>. The t² factor is identical for both objects and cancels in the ratio, leaving only the factor of 2 from the accelerations.\n\n(A) is wrong because it claims a factor of four, and four would arise only if the time were doubled, since displacement grows with t², whereas here the time is equal and only the acceleration doubles.\n(B) is wrong because it claims equal distances, which would require equal accelerations; A accelerates twice as hard over the same time, so it must cover more ground.\n(D) is wrong because it claims A goes half as far, but a larger acceleration gives a larger speed at every moment and therefore a larger displacement, not a smaller one."
     },
     {
       "id": "1-49",
@@ -762,7 +762,7 @@ const QUESTIONS = {
         "19.8 m/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 19.8 m/s. At the maximum height the velocity is zero, so use v² = v<sub>0</sub>² + 2aΔy with a = −9.8 m/s²: 0 = v<sub>0</sub>² + 2(−9.8)(20), so v<sub>0</sub>² = 392 and v<sub>0</sub> = √392 ≈ 19.8 m/s. As a check, 19.8 is close to 20, and 20² = 400, which is consistent with 392.\n\n(A) is wrong because 14 m/s is about v<sub>0</sub>/√2, which would result from a mistaken square-root step, and it would only reach 10 m.\n(B) is wrong because 20 m/s is the height number reused as a speed; the units differ.\n(C) is wrong because 9.8 is g, not a speed."
+      "explanation": "Correct: (D) 19.8 m/s. At the maximum height the velocity is momentarily zero, so use v² = v<sub>0</sub>² + 2aΔy with a = −9.8 m/s² and Δy = 20 m: 0 = v<sub>0</sub>² + 2(−9.8)(20), so v<sub>0</sub>² = 392 and v<sub>0</sub> = √392 ≈ 19.8 m/s. As a check, 20² = 400 is very close to 392, so a launch speed just under 20 m/s is consistent with a 20 m rise.\n\n(A) is wrong because 14 m/s is the launch speed that would reach only about 10 m, since 14² = 196 = 2(9.8)(10); the 20 m height requires a larger speed.\n(B) is wrong because 20 m/s simply reuses the height number as a speed, but the correct method gives √392 ≈ 19.8 m/s, and a height in meters is not a speed in meters per second.\n(C) is wrong because 9.8 is the magnitude of the gravitational acceleration g in m/s², not a speed, and a ball launched at 9.8 m/s would rise only 4.9 m."
     },
     {
       "id": "1-55",
@@ -775,7 +775,7 @@ const QUESTIONS = {
         "v = 0; a = 0"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) v = 0; a = −9.8 m/s². At the peak the ball changes from rising to falling, so its velocity passes through zero for an instant. Gravity does not turn off, so the acceleration is still −9.8 m/s² (downward) at that moment and throughout the flight. If a were zero, the ball would hang there.\n\n(A) is wrong because the velocity is zero at the highest point; that is what defines it.\n(B) is wrong because it has both quantities wrong.\n(D) is wrong because a = 0 is the common misconception that no velocity means no acceleration; gravity still pulls and the ball immediately starts to fall."
+      "explanation": "Correct: (C) v = 0; a = −9.8 m/s². At the peak the ball changes from rising to falling, so its velocity passes through zero for an instant while it reverses direction. Gravity does not turn off at that moment, so the acceleration is still −9.8 m/s² (downward) there and throughout the entire flight. If the acceleration were zero, the velocity could not change and the ball would hang in midair instead of starting to fall.\n\n(A) is wrong because it says the velocity is nonzero at the highest point, but the highest point is defined by the velocity changing sign, which requires it to be exactly zero for that instant.\n(B) is wrong because it gets both quantities wrong, giving a nonzero velocity and zero acceleration, when the velocity is zero and the acceleration is the constant −9.8 m/s² of free fall.\n(D) is wrong because zero acceleration is the common error of thinking that no velocity means no acceleration; the net force is still the ball's weight, so the ball immediately begins to speed up downward."
     },
     {
       "id": "1-56",
@@ -1000,7 +1000,7 @@ const QUESTIONS = {
         "Tension from an attached string pulling it along, as always"
       ],
       "correct": 0,
-      "explanation": "There is no such thing as a 'force of momentum' — momentum is a property of a moving object, not a force acting on it. Gravity, normal force, and tension are all genuine forces with real physical sources; choice A is a common but invented misconception."
+      "explanation": "Correct: (A) A 'force of momentum' carrying the object forward. Momentum is a property of a moving object (its mass times its velocity), not a force acting on it, so it never appears as an arrow on a free-body diagram. A free-body diagram includes only real forces from real interactions with other objects, and the forward motion of an object needs no forward force unless something actually pushes or pulls it.\n\n(B) is wrong because gravity is a genuine force exerted by Earth on the object, always directed downward, so it belongs on every free-body diagram of an object near Earth.\n(C) is wrong because the normal force is a genuine contact force exerted perpendicular to the surface by whatever supports the object, so it must be drawn whenever the object touches a surface.\n(D) is wrong because tension is a genuine contact force exerted by an attached string pulling along its length, so it is drawn on the object the string is attached to."
     },
     {
       "id": "2-8",
@@ -1299,7 +1299,7 @@ const QUESTIONS = {
         "Mass — kilograms; Weight — newtons"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Mass in kilograms; weight in newtons. Mass is the amount of matter (or inertia) and is measured in kg. Weight is the gravitational force on an object, W = mg, and every force is measured in newtons (1 N = 1 kg·m/s²).\n\n(A) is wrong because weight is a force, so kilograms is the wrong unit for it.\n(B) is wrong because it swaps the units.\n(C) is wrong because mass is not a force and isn't measured in newtons."
+      "explanation": "Correct: (D) Mass in kilograms; weight in newtons. Mass is the amount of matter in an object, a measure of its inertia, and it is measured in kilograms. Weight is the gravitational force on an object, W = mg, and every force is measured in newtons, where 1 N = 1 kg·m/s². For example, a 1 kg mass has a weight of about 9.8 N on Earth, which shows the two quantities differ in both meaning and unit.\n\n(A) is wrong because it says both use kilograms, but weight is a force, and a force has units of newtons, so kilograms cannot be its unit.\n(B) is wrong because it swaps the two units, assigning newtons to mass and kilograms to weight, which reverses the actual definitions.\n(C) is wrong because it says both use newtons, but mass is not a force; it is the quantity of matter and is measured in kilograms, with weight found by multiplying it by g."
     },
     {
       "id": "2-31",
@@ -1312,7 +1312,7 @@ const QUESTIONS = {
         "245 N"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 245 N. Weight is the gravitational force, W = mg = (25 kg)(9.8 m/s²) = 245 N.\n\n(A) is wrong because 25 N takes the mass number and attaches the force unit, ignoring g.\n(B) is wrong because 2450 N is a factor of 10 too large, from a decimal slip in multiplying 25 × 98.\n(C) is wrong because 2.6 N is 25 ÷ 9.8, dividing by g instead of multiplying."
+      "explanation": "Correct: (D) 245 N. Weight is the gravitational force on an object, found from W = mg. With the mass 25 kg and the free-fall acceleration g = 9.8 m/s² on Earth, W = (25 kg)(9.8 m/s²) = 245 N. The unit works out because 1 kg·m/s² is one newton, which is the correct unit for a force.\n\n(A) is wrong because 25 N takes the mass number and attaches a force unit, which ignores the factor of g entirely; the correct method multiplies by 9.8 to get 245 N.\n(B) is wrong because 2450 N is ten times too large, which is what 25 × 98 gives, so it comes from a decimal-place slip in the multiplication; 25 × 9.8 is 245.\n(C) is wrong because 2.6 N is about 25 ÷ 9.8, so it divides by g instead of multiplying by it, but weight grows with both mass and g."
     },
     {
       "id": "2-32",
@@ -1559,7 +1559,7 @@ const QUESTIONS = {
         "The friction force is smaller at the higher speed."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The friction force is the same in both cases. Kinetic friction follows f<sub>k</sub> = μ<sub>k</sub>F<sub>N</sub>, which has no speed in it. With the same surfaces and the same normal force, the friction stays the same at 3 m/s and at 9 m/s.\n\n(A) is wrong because the model gives enough information.\n(B) is wrong because three times larger would be true only if friction were proportional to speed, as in a fluid drag model, not for dry sliding friction.\n(D) is wrong because friction does not shrink with speed in this model."
+      "explanation": "Correct: (C) The friction force is the same in both cases. Kinetic friction obeys f<sub>k</sub> = μ<sub>k</sub>F<sub>N</sub>, and this expression contains the coefficient of kinetic friction and the normal force but no speed at all. The stem says the surface is the same, so μ<sub>k</sub> is unchanged, and the normal force is the same in both cases, so the friction force is identical at 3 m/s and at 9 m/s.\n\n(A) is wrong because it says more information is needed, but the stem gives everything the model requires: the same surface and the same normal force determine the friction without any speed.\n(B) is wrong because three times larger at three times the speed would hold only if friction were proportional to speed, as in a fluid drag model, and dry sliding friction does not behave that way.\n(D) is wrong because it claims friction decreases at higher speed, but in the standard model the kinetic friction does not shrink or grow with speed; only the surface and normal force matter."
     },
     {
       "id": "2-51",
@@ -1598,7 +1598,7 @@ const QUESTIONS = {
         "60 N/m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 60 N/m. A spring obeys Hooke's law, F = kx, so k = F/x = 18 N ÷ 0.30 m = 60 N/m. The spring constant tells how many newtons are needed per meter of stretch.\n\n(A) is wrong because 18 is the force itself.\n(B) is wrong because 30 N/m would result from dividing by 0.60 or from a decimal slip (the 0.30 treated as 30 in the wrong place).\n(C) is wrong because 5.4 N/m is 18 × 0.30, multiplying instead of dividing."
+      "explanation": "Correct: (D) 60 N/m. A spring obeys Hooke's law, F = kx, so the spring constant is k = F/x. Using the applied force 18 N and the stretch 0.30 m gives k = 18 N ÷ 0.30 m = 60 N/m. The spring constant tells how many newtons are needed per meter of stretch, so a value of 60 N/m means 60 N would stretch it a full meter.\n\n(A) is wrong because 18 is simply the applied force with a different unit attached, and the spring constant must be the force divided by the stretch, which gives 60 N/m.\n(B) is wrong because 30 N/m is what dividing 18 N by 0.60 m would give, which does not match the stated stretch of 0.30 m; dividing by 0.30 gives 60.\n(C) is wrong because 5.4 is 18 × 0.30, so it multiplies force by distance instead of dividing, which gives a quantity with units of N·m rather than N/m."
     },
     {
       "id": "2-54",
@@ -1624,7 +1624,7 @@ const QUESTIONS = {
         "160 N"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 10 N. The magnitude of a spring force is F = kx, whether the spring is stretched or compressed: F = (40 N/m)(0.25 m) = 10 N.\n\n(A) is wrong because 0.16 N would require x = 0.0040 m; with x = 0.25 m, kx = 10 N.\n(B) is wrong because 16 N would require x = 0.40 m, not the 0.25 m given.\n(D) is wrong because 160 N is k ÷ x = 40 ÷ 0.25, dividing instead of multiplying."
+      "explanation": "Correct: (C) 10 N. The magnitude of a spring force is given by Hooke's law, F = kx, where x is the distance the spring is displaced from its natural length. This holds whether the spring is stretched or compressed, since only the size of the displacement matters for the magnitude, so F = (40 N/m)(0.25 m) = 10 N. The direction of the force would oppose the compression, pushing back outward.\n\n(A) is wrong because 0.16 N would require a displacement of only 0.0040 m with this spring; with x = 0.25 m the product kx is 10 N.\n(B) is wrong because 16 N would require a displacement of 0.40 m, which is not the 0.25 m the stem gives for the compression.\n(D) is wrong because 160 N is k ÷ x = 40 ÷ 0.25, which divides instead of multiplies; the correct relation is F = kx, which gives 10 N."
     },
     {
       "id": "2-56",
@@ -1637,7 +1637,7 @@ const QUESTIONS = {
         "It increases ninefold."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It triples. Hooke's law, F = kx, is linear, so with k fixed, the force is directly proportional to the displacement. Tripling x triples F (for example 5 N at 0.1 m becomes 15 N at 0.3 m).\n\n(A) is wrong because one-third would need the force to decrease as the spring is stretched further.\n(C) is wrong because the force depends on the displacement.\n(D) is wrong because ninefold would need F ∝ x², which describes the spring's stored energy (½kx²), not its force."
+      "explanation": "Correct: (B) It triples. Hooke's law, F = kx, is linear, so with the spring constant k fixed the force is directly proportional to the displacement from the natural length. Tripling x therefore triples F; for example, a spring that pulls with 5 N at 0.1 m pulls with 15 N at 0.3 m. The spring stays within its elastic limit, so Hooke's law remains valid at the larger stretch.\n\n(A) is wrong because one-third would require the force to decrease as the spring is stretched further, but a spring pulls back harder the more it is stretched.\n(C) is wrong because staying the same would require the force to be independent of the displacement, but the force F = kx depends directly on the displacement.\n(D) is wrong because ninefold would require F to scale with x², which describes the stored elastic energy ½kx², not the force; the force is linear in x and increases by a factor of three."
     },
     {
       "id": "2-57",
@@ -1915,7 +1915,7 @@ const QUESTIONS = {
         "100 J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 50 J. Kinetic energy is KE = ½mv², which depends on the square of the speed. So KE = ½(4.0 kg)(5.0 m/s)² = ½(4.0)(25) = 50 J.\n\n(B) is wrong because 10 J results from forgetting to square the speed: ½(4.0)(5.0) = 10.\n(C) is wrong because 20 J is just mv = (4.0)(5.0), which is momentum's number, leaving out both the ½ and the squaring.\n(D) is wrong because 100 J is mv² without the factor of ½."
+      "explanation": "Correct: (A) 50 J. Kinetic energy is KE = ½mv², which depends on the square of the speed, not the speed itself. With m = 4.0 kg and v = 5.0 m/s, KE = ½(4.0 kg)(5.0 m/s)² = ½(4.0)(25) = 50 J. The units check out because kg·m²/s² is a joule.\n\n(B) is wrong because 10 J results from forgetting to square the speed, since ½(4.0)(5.0) = 10; the speed must be squared first, giving 25.\n(C) is wrong because 20 J is just mv = (4.0)(5.0), which is the number for momentum, and it leaves out both the factor of ½ and the squaring of the speed.\n(D) is wrong because 100 J is mv² = (4.0)(25) without the factor of ½; the definition of kinetic energy includes the one-half, which brings the result down to 50 J."
     },
     {
       "id": "3-13",
@@ -1980,7 +1980,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It decreases. The work-energy theorem says W<sub>net</sub> = ΔKE = KE<sub>f</sub> − KE<sub>i</sub>. Negative net work means ΔKE is negative, so the final kinetic energy is smaller than the initial value and the object slows down. The clue is the word 'negative' attached to net work, which means the net force has a component opposite the motion.\n\n(A) is wrong because KE = ½mv² can never be negative, since the mass is positive and v² is never negative; only the change in KE can be negative.\n(B) is wrong because an increase requires positive net work.\n(C) is wrong because KE stays constant only when net work is exactly zero."
+      "explanation": "Correct: (D) It decreases. The work-energy theorem says W<sub>net</sub> = ΔKE = KE<sub>f</sub> − KE<sub>i</sub>. Negative net work means ΔKE is negative, so the final kinetic energy is smaller than the initial value and the object slows down. The clue is the word negative attached to net work, which means the net force has a component opposite the motion, taking energy away from the object.\n\n(A) is wrong because KE = ½mv² can never be negative, since the mass is positive and v² is never negative; only the change in KE can be negative, not the energy itself.\n(B) is wrong because an increase in kinetic energy requires positive net work, where the net force has a component along the motion, which is the opposite of the situation described.\n(C) is wrong because kinetic energy stays constant only when the net work is exactly zero, and the stem says the net work is negative, so the energy must change."
     },
     {
       "id": "3-18",
@@ -2175,7 +2175,7 @@ const QUESTIONS = {
         "It triples."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It increases ninefold. The elastic potential energy is PE = ½kx², proportional to the square of the displacement from the natural length. Tripling x gives ½k(3x)² = 9(½kx²), so the energy is multiplied by 3² = 9.\n\n(A) is wrong because the displacement is in the formula.\n(C) is wrong because six times has no basis; it comes from multiplying 3 by 2.\n(D) is wrong because tripling would be right only if PE depended linearly on x."
+      "explanation": "Correct: (B) It increases ninefold. The elastic potential energy of a spring is PE = ½kx², which is proportional to the square of the displacement from the natural length. Tripling x gives ½k(3x)² = 9(½kx²), so the stored energy is multiplied by 3² = 9. The stem says the displacement is tripled, so the square law is what matters here.\n\n(A) is wrong because the displacement appears in the formula, so changing it from x to 3x necessarily changes the stored energy; the energy goes from ½kx² to 4.5kx².\n(C) is wrong because a factor of six does not come from the formula; squaring the tripled displacement gives a factor of 9, not 6.\n(D) is wrong because tripling would be correct only if the potential energy depended linearly on x, but it depends on x², so the stored energy grows much faster than the displacement."
     },
     {
       "id": "3-33",
@@ -2188,7 +2188,7 @@ const QUESTIONS = {
         "At maximum stretch only."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) At its natural length (x=0). Elastic PE is ½kx², and since x² is never negative, the smallest possible value is 0 J, reached only when x = 0, the relaxed natural length. Any stretch or compression raises the stored energy, which is why the spring is pulled back toward x = 0.\n\n(A) is wrong because maximum compression has x² at its largest, so PE is greatest there, not least.\n(B) is wrong because there is a minimum, namely zero.\n(D) is wrong because maximum stretch also has the largest x², so PE is a maximum there."
+      "explanation": "Correct: (C) At its natural length (x=0). Elastic potential energy is PE = ½kx², and since x² is never negative, the smallest possible value is 0 J, reached only when x = 0, the relaxed natural length. Any stretch or compression raises the stored energy above zero, which is why the spring is pulled back toward x = 0 when released.\n\n(A) is wrong because at maximum compression x² is at its largest on the compressed side, so the stored energy is greatest there, not least.\n(B) is wrong because elastic PE does have a minimum value, namely zero, since the squared displacement can never make the energy negative.\n(D) is wrong because at maximum stretch the displacement is also large, so x² and the stored energy are at a maximum there rather than a minimum."
     },
     {
       "id": "3-34",
@@ -2240,7 +2240,7 @@ const QUESTIONS = {
         "Whenever the object returns to its starting position."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Whenever no non-conservative force does work on the system. Mechanical energy (KE + PE) is conserved only when the forces doing work are conservative, such as gravity and ideal springs. Non-conservative forces such as friction, air drag, or an outside push change the mechanical energy by W<sub>nc</sub>. If W<sub>nc</sub> = 0, then E<sub>i</sub> = E<sub>f</sub>.\n\n(A) is wrong because friction, for example, reduces mechanical energy.\n(C) is wrong because constant speed does not rule out non-conservative work; a box pushed at constant speed against friction has the push doing positive work and friction doing equal negative work.\n(D) is wrong because returning to the start does not guarantee conservation; a block sliding on a rough floor and back loses energy to friction."
+      "explanation": "Correct: (B) Whenever no non-conservative force does work on the system. Mechanical energy (KE + PE) is conserved only when the forces doing work are conservative, such as gravity and ideal springs. Non-conservative forces such as friction, air drag, or an outside push change the mechanical energy by W<sub>nc</sub>, so E<sub>f</sub> = E<sub>i</sub> + W<sub>nc</sub>. If W<sub>nc</sub> = 0, then E<sub>i</sub> = E<sub>f</sub> and the mechanical energy is constant.\n\n(A) is wrong because mechanical energy is not always constant; friction, for example, converts mechanical energy into thermal energy and reduces it.\n(C) is wrong because constant speed does not rule out non-conservative work; a box pushed at constant speed against friction has the push doing positive work and friction doing equal negative work.\n(D) is wrong because returning to the starting position does not guarantee conservation; a block sliding across a rough floor and back loses energy to friction on both trips."
     },
     {
       "id": "3-38",
@@ -2344,7 +2344,7 @@ const QUESTIONS = {
         "It converts into other forms, mainly heat."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It converts into other forms, mainly heat. Energy is conserved overall. Kinetic friction does negative work on the block, W<sub>nc</sub> = −f·d, and that energy goes into thermal energy in the block and floor (plus a little sound), so the mechanical energy KE + PE decreases while the total energy is unchanged.\n\n(A) is wrong because energy cannot be destroyed.\n(B) is wrong because conservation of energy still holds when thermal energy is counted; only mechanical energy is not conserved.\n(C) is wrong because the block stays on the floor, so its height and gravitational PE do not change."
+      "explanation": "Correct: (D) It converts into other forms, mainly heat. Energy is conserved overall. Kinetic friction does negative work on the block, W<sub>nc</sub> = −f·d, and that energy goes into thermal energy in the block and floor (plus a little sound), so the mechanical energy KE + PE decreases while the total energy is unchanged. The block stops because all of its initial kinetic energy ends up as thermal energy.\n\n(A) is wrong because energy cannot be destroyed; the lost mechanical energy shows up as increased thermal energy of the surfaces rather than vanishing without a trace.\n(B) is wrong because conservation of energy still holds when the thermal energy is counted; only the mechanical energy is not conserved, so no law is violated.\n(C) is wrong because the block stays on the level floor, so its height and gravitational potential energy do not change, and nothing is stored in that form."
     },
     {
       "id": "3-46",
@@ -2448,7 +2448,7 @@ const QUESTIONS = {
         "Kinetic friction (conservative); gravity (non-conservative)"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Gravity (conservative); kinetic friction (non-conservative). A conservative force does work that depends only on the endpoints, and its energy can be recovered; gravity does this, with PE = mgh. Kinetic friction dissipates mechanical energy as heat, with work depending on the path length (W = −fd), so it is non-conservative.\n\n(A) is wrong because it calls friction conservative; a block slid back and forth over a rough floor never recovers its energy.\n(B) is wrong because it calls gravity non-conservative, but a ball thrown up returns with the same speed it left with (ignoring drag).\n(D) is wrong because it reverses the correct classification."
+      "explanation": "Correct: (C) Gravity (conservative); kinetic friction (non-conservative). A conservative force does work that depends only on the endpoints of the path, and its energy can be recovered; gravity does this, with PE = mgh. Kinetic friction dissipates mechanical energy as heat, and the work it does depends on the path length (W = −fd), so it is non-conservative.\n\n(A) is wrong because it calls friction conservative; a block slid back and forth over a rough floor never recovers the energy friction took, so the work depends on the path.\n(B) is wrong because it calls gravity non-conservative, but a ball thrown up returns to its starting height with the same speed it left with (ignoring drag), so its energy is fully recovered.\n(D) is wrong because it reverses the correct classification, calling friction conservative and gravity non-conservative, the opposite of what these forces actually do."
     },
     {
       "id": "3-54",
@@ -2461,7 +2461,7 @@ const QUESTIONS = {
         "27 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 87 J. The object starts at rest at the top, so the initial energy is entirely PE: mgh = (3.0)(9.8)(5.0) = 147 J. Taking the bottom as h = 0, all of that can become KE except what friction takes away: KE<sub>f</sub> = E<sub>i</sub> + W<sub>nc</sub> = 147 + (−60) = 87 J.\n\n(A) is wrong because 207 J adds the friction loss instead of subtracting it, which would mean friction gave the object energy.\n(C) is wrong because 147 J ignores friction entirely.\n(D) is wrong because 27 J subtracts the 60 J twice (147 − 60 − 60)."
+      "explanation": "Correct: (B) 87 J. The object starts at rest at the top, so the initial energy is entirely gravitational potential energy: mgh = (3.0)(9.8)(5.0) = 147 J. Taking the bottom as h = 0, all of that would become kinetic energy except what friction takes away: KE<sub>f</sub> = E<sub>i</sub> + W<sub>nc</sub> = 147 + (−60) = 87 J. Friction's work is negative because it opposes the motion.\n\n(A) is wrong because 207 J adds the friction loss, 147 + 60, instead of subtracting it, which would mean friction gave the object energy.\n(C) is wrong because 147 J ignores friction entirely and treats all of the gravitational potential energy as converted to kinetic energy.\n(D) is wrong because 27 J subtracts the 60 J twice (147 − 60 − 60), but the friction work of −60 J is counted only once."
     },
     {
       "id": "3-55",
@@ -2474,7 +2474,7 @@ const QUESTIONS = {
         "200 W"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 200 W. Average power is the rate of doing work, P = W/t. Here P = 1200 J / 6.0 s = 200 J/s = 200 W.\n\n(A) is wrong because 1206 W adds the work and time, which have different units and cannot be added.\n(B) is wrong because 7.2 W is (1200)(6.0)/1000, a product with a stray factor of 1/1000, rather than the quotient 1200/6.0.\n(C) is wrong because 7200 W multiplies the work by the time (1200 × 6.0), but that is not a power."
+      "explanation": "Correct: (D) 200 W. Average power is the rate of doing work, P = W/t. The motor does 1200 J of work in 6.0 s, so P = 1200 J ÷ 6.0 s = 200 J/s = 200 W, since one watt is one joule per second. The question asks for a rate, which signals a division of work by time.\n\n(A) is wrong because 1206 W adds the work and the time, which have different units (joules and seconds) and cannot be added; power is their quotient, which is 200 W.\n(B) is wrong because 7.2 W does not come from dividing work by time; the correct quotient 1200 ÷ 6.0 gives 200, far larger than 7.2.\n(C) is wrong because 7200 W multiplies the work by the time (1200 × 6.0), but a product of joules and seconds is not a power; dividing gives 200 W."
     },
     {
       "id": "3-56",
@@ -2526,7 +2526,7 @@ const QUESTIONS = {
         "20.8 J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 3000 J. The work done at a constant power is W = Pt = (250 W)(12 s) = 3000 J, since 1 W = 1 J/s.\n\n(B) is wrong because 30,000 J is ten times too large, a decimal slip.\n(C) is wrong because 262 J adds the numbers (250 + 12), which have different units.\n(D) is wrong because 20.8 is P/t = 250/12, dividing instead of multiplying."
+      "explanation": "Correct: (A) 3000 J. The work done at a constant power is W = Pt, because power is the rate of doing work and 1 W = 1 J/s. With P = 250 W and t = 12 s, W = (250 W)(12 s) = 3000 J. The units work out because watts times seconds gives joules, the unit of work.\n\n(B) is wrong because 30,000 J is ten times too large, which is what a decimal slip in multiplying 250 by 120 would give; 250 × 12 is 3000.\n(C) is wrong because 262 adds the numbers 250 and 12, which have different units (watts and seconds) and cannot be added.\n(D) is wrong because 20.8 is P/t = 250 ÷ 12, dividing instead of multiplying; since power is work per time, work is power times time, giving 3000 J."
     },
     {
       "id": "3-60",
@@ -2565,7 +2565,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It doubles. For a force along the motion, θ = 0° and P = Fv. With F fixed, power is directly proportional to speed, so doubling v gives P = F(2v) = 2Fv.\n\n(A) is wrong because speed appears in the power formula.\n(B) is wrong because quadrupling applies to quantities like KE that depend on v², but power depends on v to the first power when F is constant.\n(C) is wrong because a higher speed gives more power, not less."
+      "explanation": "Correct: (D) It doubles. For a force along the motion, the angle between force and velocity is θ = 0°, so the instantaneous power is P = Fv cos 0° = Fv. With F fixed, the power is directly proportional to the speed, so doubling v gives P = F(2v) = 2Fv, twice the original. The clue is that the force is constant and in the direction of motion.\n\n(A) is wrong because speed appears directly in the power formula P = Fv, so a change in speed with a fixed force necessarily changes the power.\n(B) is wrong because quadrupling applies to quantities such as kinetic energy that depend on v², but the power depends on v to the first power when the force is constant.\n(C) is wrong because a higher speed with the same force gives more power, not less; the force does work faster when the object moves faster."
     },
     {
       "id": "3-63",
@@ -2633,7 +2633,7 @@ const QUESTIONS = {
         "24 kg·m/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 24 kg·m/s. Momentum is p = mv, the product of mass and velocity. So p = (6.0 kg)(4.0 m/s) = 24 kg·m/s.\n\n(A) is wrong because 1.5 comes from dividing 6.0 by 4.0, but momentum is a product.\n(B) is wrong because 96 is 6.0 × 4.0², squaring the speed as in a kinetic energy formula, which has no place in momentum.\n(C) is wrong because 10 adds the two numbers (6.0 + 4.0), but they have different units and are multiplied."
+      "explanation": "Correct: (D) 24 kg·m/s. Momentum is p = mv, the product of mass and velocity. With m = 6.0 kg and v = 4.0 m/s, p = (6.0 kg)(4.0 m/s) = 24 kg·m/s. The units of momentum are kilogram meters per second, and the direction is the direction of the velocity.\n\n(A) is wrong because 1.5 comes from dividing 6.0 by 4.0, but momentum is a product of mass and velocity, not a quotient.\n(B) is wrong because 96 is 6.0 × 4.0², which squares the speed as a kinetic-energy formula would, but momentum depends on the speed to the first power.\n(C) is wrong because 10 adds the two numbers (6.0 + 4.0), but mass and velocity have different units and are multiplied, so the correct value is 24."
     },
     {
       "id": "4-3",
@@ -2659,7 +2659,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It doubles. Momentum p = mv is directly proportional to velocity for a fixed mass, so p becomes m(2v) = 2mv, twice the original. Compare this with kinetic energy ½mv², which depends on v² and would quadruple.\n\n(A) is wrong because velocity is a factor in p.\n(B) is wrong because greater velocity gives greater momentum.\n(C) is wrong because quadrupling is the result for kinetic energy; momentum depends on v to the first power only."
+      "explanation": "Correct: (D) It doubles. Momentum p = mv is directly proportional to velocity for a fixed mass, so when the velocity is doubled the momentum becomes m(2v) = 2mv, twice the original value. Compare this with kinetic energy ½mv², which depends on v² and would quadruple under the same change.\n\n(A) is wrong because velocity is a factor in the momentum, so changing the velocity while the mass stays the same necessarily changes p.\n(B) is wrong because greater velocity gives greater momentum, so doubling the velocity cannot cut the momentum in half.\n(C) is wrong because quadrupling is the result for kinetic energy; momentum depends on v to the first power only, so the doubled velocity gives a doubled momentum."
     },
     {
       "id": "4-5",
@@ -2776,7 +2776,7 @@ const QUESTIONS = {
         "0.75 N"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 300 N. Impulse equals the change in momentum, FΔt = Δp, so the average force is F = Δp/Δt = (15 kg·m/s)/(0.050 s) = 300 N. A short time for a given momentum change requires a large force.\n\n(A) is wrong because 0.0033 inverts the ratio (0.050/15).\n(B) is wrong because 750 does not follow from the numbers; it would need Δt = 0.02 s.\n(D) is wrong because 0.75 multiplies the values (15 × 0.050) instead of dividing."
+      "explanation": "Correct: (C) 300 N. Impulse equals the change in momentum, FΔt = Δp, so the average force is F = Δp/Δt = (15 kg·m/s) ÷ (0.050 s) = 300 N. A short time for a given momentum change requires a large force, which is why this force is much larger than the momentum change number. The units work out because kg·m/s² is a newton.\n\n(A) is wrong because 0.0033 inverts the ratio (0.050 ÷ 15); the force is the momentum change divided by the time, not the time divided by the momentum change.\n(B) is wrong because 750 N does not follow from these numbers; it would require a time of 0.020 s, but the stem gives 0.050 s, and 15 ÷ 0.050 is 300.\n(D) is wrong because 0.75 multiplies the values (15 × 0.050) instead of dividing them, but force is momentum change per unit time."
     },
     {
       "id": "4-14",
@@ -2815,7 +2815,7 @@ const QUESTIONS = {
         "240 s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0.20 s. Impulse for a constant force is J = FΔt, so Δt = J/F = (60 N·s)/(300 N) = 0.20 s. The units work: N·s divided by N leaves s. A big force acts for only a short time to deliver a modest impulse.\n\n(A) is wrong because 5.0 is F/J, which inverts the ratio.\n(B) is wrong because 18,000 multiplies J by F.\n(D) is wrong because 240 subtracts the values, which mixes units."
+      "explanation": "Correct: (C) 0.20 s. Impulse for a constant force is J = FΔt, so the time is Δt = J/F = (60 N·s) ÷ (300 N) = 0.20 s. The units work: newton-seconds divided by newtons leaves seconds. A large force acting for only a short time delivers a modest impulse of 60 N·s.\n\n(A) is wrong because 5.0 is F/J = 300 ÷ 60, which inverts the ratio; the time is the impulse divided by the force, which gives 0.20 s.\n(B) is wrong because 18,000 multiplies J by F (60 × 300), but that product has no meaning as a time; impulse divided by force is the quantity needed.\n(D) is wrong because 240 subtracts the values (300 − 60), which mixes unlike units of newtons and newton-seconds and has no physical meaning."
     },
     {
       "id": "4-17",
@@ -2958,7 +2958,7 @@ const QUESTIONS = {
         "Only if the objects have equal mass and equal speed before the collision."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Yes — this describes exactly what happens in an inelastic collision. Momentum conservation depends on there being no net external force, while kinetic energy conservation requires the collision to be elastic. In an inelastic collision some KE becomes heat, sound or deformation, though the vector sum of momenta stays the same. A perfectly inelastic collision, where objects stick together, loses the most KE possible.\n\n(B) is wrong because total energy is still conserved; only the mechanical (kinetic) part decreases.\n(C) is wrong because the two conservation laws are independent.\n(D) is wrong because no special masses or speeds are required."
+      "explanation": "Correct: (A) Yes — this describes exactly what happens in an inelastic collision. Momentum conservation depends only on there being no net external force on the system, while kinetic energy conservation additionally requires the collision to be elastic. In an inelastic collision some kinetic energy becomes heat, sound, or deformation, although the vector sum of the momenta stays the same. A perfectly inelastic collision, where the objects stick together, loses the most kinetic energy possible.\n\n(B) is wrong because total energy is still conserved in every collision; only the mechanical (kinetic) part decreases while the rest appears as thermal energy, so no law is violated.\n(C) is wrong because the two conservation laws are independent: momentum is conserved whenever the external force is zero, but kinetic energy is conserved only in elastic collisions.\n(D) is wrong because no special masses or speeds are required; an inelastic collision between any objects conserves momentum while losing kinetic energy."
     },
     {
       "id": "4-28",
@@ -3010,7 +3010,7 @@ const QUESTIONS = {
         "Skater A (more massive) ends up moving faster."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Skater B (less massive) ends up moving faster. The skaters start at rest, so the total momentum is zero and must remain zero. Therefore their momenta are equal in size and opposite in direction: m<sub>A</sub> v<sub>A</sub> = m<sub>B</sub> v<sub>B</sub>. If m<sub>A</sub> is greater than m<sub>B</sub>, then v<sub>B</sub> = (m<sub>A</sub>/m<sub>B</sub>)v<sub>A</sub>, which exceeds v<sub>A</sub>, so the lighter skater moves faster.\n\n(B) is wrong because the push is an internal force that gives the skaters equal and opposite momenta; their total stays zero but each moves.\n(C) is wrong because equal speeds would give the heavier skater more momentum and the total would not be zero.\n(D) is wrong because it reverses the correct relationship."
+      "explanation": "Correct: (A) Skater B (less massive) ends up moving faster. The skaters start at rest, so the total momentum is zero and must remain zero. Therefore their momenta are equal in size and opposite in direction: m<sub>A</sub>v<sub>A</sub> = m<sub>B</sub>v<sub>B</sub>. If m<sub>A</sub> is greater than m<sub>B</sub>, then v<sub>B</sub> = (m<sub>A</sub>/m<sub>B</sub>)v<sub>A</sub>, which exceeds v<sub>A</sub>, so the lighter skater moves faster.\n\n(B) is wrong because the push is an internal force that gives the skaters equal and opposite momenta; their total stays zero but each skater still moves.\n(C) is wrong because equal speeds would give the more massive skater the larger momentum, and the total would no longer be zero as conservation requires.\n(D) is wrong because it reverses the correct relationship; the more massive skater needs the smaller speed to have the same momentum magnitude as the lighter skater."
     },
     {
       "id": "4-32",
@@ -3036,7 +3036,7 @@ const QUESTIONS = {
         "Nothing stays the same in a collision."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The system's total momentum (vector sum). In an isolated system, the internal forces between the colliding objects are equal and opposite, so they change each object's momentum by equal and opposite amounts and the total p₁ + p₂ stays constant. Individual velocities change, and so do kinetic energies unless the collision is elastic.\n\n(A) is wrong because each object's kinetic energy changes in a collision as energy is transferred between them.\n(C) is wrong because the stem says the velocities of both objects change.\n(D) is wrong because total momentum is conserved."
+      "explanation": "Correct: (B) The system's total momentum (vector sum). In an isolated system, the internal forces between the colliding objects are equal and opposite (Newton's third law), so they change each object's momentum by equal and opposite amounts and the total p<sub>1</sub> + p<sub>2</sub> stays constant. Individual velocities change, and so do kinetic energies unless the collision is elastic.\n\n(A) is wrong because each object's kinetic energy changes in a collision as energy is transferred between them, so an individual object's kinetic energy is not preserved.\n(C) is wrong because the stem itself says the velocities of both objects change, so the individual velocities cannot be the quantity that stays the same.\n(D) is wrong because total momentum is conserved for an isolated system in any collision, so something does stay the same."
     },
     {
       "id": "4-34",
@@ -3166,7 +3166,7 @@ const QUESTIONS = {
         "Conservation of momentum, which only applies to elastic collisions."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Conservation of kinetic energy, in addition to momentum. Momentum is conserved in every collision of an isolated system, elastic or not. The extra condition that defines an elastic collision is that total kinetic energy is also the same before and after.\n\n(A) is wrong because mass is conserved in all collisions at this level, so it does not distinguish anything.\n(C) is wrong because force is not a conserved quantity.\n(D) is wrong because momentum conservation is not limited to elastic collisions; it holds for inelastic ones too."
+      "explanation": "Correct: (B) Conservation of kinetic energy, in addition to momentum. Momentum is conserved in every collision of an isolated system, elastic or not. The extra condition that defines an elastic collision is that the total kinetic energy is also the same before and after, so no energy is lost to heat, sound, or deformation. This extra condition is what lets you solve for final velocities using both equations.\n\n(A) is wrong because mass is conserved in all collisions at this level, so it does not distinguish an elastic collision from any other.\n(C) is wrong because force is not a conserved quantity; forces appear and vanish during the contact, and there is no law of conservation of force.\n(D) is wrong because momentum conservation is not limited to elastic collisions; it holds for inelastic collisions too, so it cannot be the distinguishing feature."
     },
     {
       "id": "4-44",
@@ -3218,7 +3218,7 @@ const QUESTIONS = {
         "Only if the objects have equal mass, and then only for an elastic collision."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Yes — momentum is conserved for any isolated collision, elastic or inelastic. Momentum changes only by external impulse. During a collision the internal forces between the objects are equal and opposite, so the total momentum is the same before and after, however much kinetic energy is lost.\n\n(B) is wrong because inelastic collisions conserve momentum too; what they lose is KE.\n(C) is wrong because partially inelastic collisions also conserve momentum.\n(D) is wrong because equal mass is not required and conservation is not limited to elastic collisions."
+      "explanation": "Correct: (A) Yes — momentum is conserved for any isolated collision, elastic or inelastic. Momentum changes only through an external impulse. During a collision the internal forces between the objects are equal and opposite, so the total momentum is the same before and after, no matter how much kinetic energy is lost. What distinguishes an inelastic collision is the loss of kinetic energy, not of momentum.\n\n(B) is wrong because inelastic collisions conserve momentum too; what they lose is kinetic energy, which becomes heat, sound, and deformation.\n(C) is wrong because partially inelastic collisions also conserve momentum, so the conservation does not require the objects to stick together.\n(D) is wrong because equal masses are not required for momentum conservation, and the conservation is not limited to elastic collisions."
     },
     {
       "id": "4-48",
@@ -3231,7 +3231,7 @@ const QUESTIONS = {
         "40 J"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 60 J. The kinetic energy lost is KE<sub>before</sub> − KE<sub>after</sub>. Before: ½(5.0)(8.0)² = 160 J, since only the 5.0 kg cart moves. After: the two carts move together, ½(8.0 kg)(5.0)² = 100 J. The loss is 160 − 100 = 60 J, which became heat, sound and deformation.\n\n(A) is wrong because 100 J is the KE after the collision, not the loss.\n(B) is wrong because 160 J is the KE before.\n(D) is wrong because 40 J does not result from the energy difference; it is the momentum numerator (40) mistaken for energy."
+      "explanation": "Correct: (C) 60 J. The kinetic energy lost is KE<sub>before</sub> − KE<sub>after</sub>. Before the collision only the 5.0 kg cart moves, so KE<sub>before</sub> = ½(5.0)(8.0)² = 160 J. After the collision the two carts move together at 5.0 m/s, so KE<sub>after</sub> = ½(8.0 kg)(5.0)² = 100 J. The loss is 160 − 100 = 60 J, which became heat, sound, and deformation.\n\n(A) is wrong because 100 J is the kinetic energy after the collision, not the amount lost; the loss is the difference between before and after.\n(B) is wrong because 160 J is the kinetic energy before the collision, which would be lost only if everything stopped, but the carts still move together afterward.\n(D) is wrong because 40 J is the initial momentum 5.0 × 8.0 in kg·m/s, which is not an energy; the energy difference is 160 − 100 = 60 J."
     },
     {
       "id": "4-49",
@@ -3244,7 +3244,7 @@ const QUESTIONS = {
         "It is truly destroyed and no longer exists in any form."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) It converts into other forms of energy, such as heat, sound, and deformation. Total energy is always conserved; only the kinetic part decreases in an inelastic collision. The missing KE goes to thermal energy, sound, and permanent deformation of the objects.\n\n(A) is wrong because the energy stays inside the system in those other forms rather than going to an unrelated object.\n(C) is wrong because the objects are not lifted in this collision, so there is no large change in potential energy.\n(D) is wrong because energy cannot be destroyed."
+      "explanation": "Correct: (B) It converts into other forms of energy, such as heat, sound, and deformation. Total energy is always conserved; only the kinetic part decreases in an inelastic collision. The missing kinetic energy goes into thermal energy, sound, and permanent deformation of the objects, such as dented metal. This is why momentum is conserved in these collisions while kinetic energy is not.\n\n(A) is wrong because the energy stays inside the system in those other forms rather than going to an unrelated outside object that is not involved in the collision.\n(C) is wrong because the objects are not lifted in the collision, so there is no large change in their heights and no significant change in gravitational potential energy to absorb the missing energy.\n(D) is wrong because energy cannot be destroyed; the law of conservation of energy requires that the missing kinetic energy reappear in some other form."
     },
     {
       "id": "4-50",
@@ -3387,7 +3387,7 @@ const QUESTIONS = {
         "Only in systems with more than three objects."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Yes — it can lie in empty space, like between two point masses. The center of mass is a calculated average position, x<sub>cm</sub> = Σm<sub>i</sub> x<sub>i</sub> / Σm<sub>i</sub>, and not a piece of matter. For two separate point masses it lies somewhere on the line between them, nearer the heavier one, where there is nothing. A donut or a boomerang is another example.\n\n(A) is wrong because it need not coincide with any object.\n(C) is wrong because this is true for asymmetric systems too.\n(D) is wrong because two objects are already enough."
+      "explanation": "Correct: (B) Yes — it can lie in empty space, like between two point masses. The center of mass is a calculated average position, x<sub>cm</sub> = Σm<sub>i</sub>x<sub>i</sub> / Σm<sub>i</sub>, and not a piece of matter. For two separate point masses it lies somewhere on the line between them, nearer the heavier one, where there is nothing. A donut or a boomerang is another example, since the center of mass sits in the hole or the bend.\n\n(A) is wrong because the center of mass need not coincide with any object; it is only a weighted average of positions and can fall in empty space.\n(C) is wrong because this can happen for asymmetric systems too, and for any system whose parts surround an empty region; symmetry is not required.\n(D) is wrong because two objects are already enough to put the center of mass in empty space, so more than three objects is not needed."
     },
     {
       "id": "4-61",
@@ -3650,7 +3650,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It doubles. For a perpendicular force τ = rF, so with F fixed, torque is directly proportional to r. Doubling r from r to 2r gives τ = (2r)F = 2rF, twice as large. This is why a longer wrench makes a stuck bolt easier to turn.\n\n(A) is wrong because it reverses the proportionality.\n(B) is wrong because quadrupling would require τ ∝ r², but torque is linear in r.\n(C) is wrong because r is a direct factor in the torque, so changing it changes the torque."
+      "explanation": "Correct: (D) It doubles. For a perpendicular force the torque is τ = rF, so with the force fixed, the torque is directly proportional to the distance r from the axis. Doubling r from r to 2r gives τ = (2r)F = 2rF, twice as large. This is why a longer wrench makes a stuck bolt easier to turn, since the same push produces more torque.\n\n(A) is wrong because it reverses the proportionality; a larger lever arm gives a larger torque, so doubling r cannot cut the torque in half.\n(B) is wrong because quadrupling would require the torque to depend on r², but the torque is linear in r when the force is constant, so doubling r only doubles τ.\n(C) is wrong because r is a direct factor in the torque τ = rF, so changing it necessarily changes the torque."
     },
     {
       "id": "5-16",
@@ -3780,7 +3780,7 @@ const QUESTIONS = {
         "0.18 kg·m²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.18 kg·m². A solid disk (or cylinder) rotating about its central axis has I = ½MR². Then I = ½(4.0 kg)(0.30 m)² = ½(4.0)(0.09) = 0.18 kg·m².\n\n(A) is wrong because 0.36 is MR², the formula for a thin hoop, which has all mass at the rim.\n(B) is wrong because 0.72 is 2MR², a coefficient that does not belong to any standard shape.\n(C) is wrong because 0.12 uses the coefficient 1/3 (MR²/3), which is the rod-about-end style factor, not the disk factor."
+      "explanation": "Correct: (D) 0.18 kg·m². A solid disk (or cylinder) rotating about its central axis has a moment of inertia I = ½MR². With M = 4.0 kg and R = 0.30 m, I = ½(4.0 kg)(0.30 m)² = ½(4.0)(0.09) = 0.18 kg·m². The factor of ½ reflects that the mass of a solid disk is spread from the center out to the rim rather than concentrated at the edge.\n\n(A) is wrong because 0.36 is MR² = (4.0)(0.09), the formula for a thin hoop, which has all of its mass at the rim; a solid disk has less rotational inertia.\n(B) is wrong because 0.72 is 2MR², a coefficient that does not belong to any standard shape and would be larger than even a hoop.\n(C) is wrong because 0.12 uses the coefficient 1/3, giving (1/3)(4.0)(0.09) = 0.12, which is the factor for a thin rod about its end, not for a solid disk."
     },
     {
       "id": "5-26",
@@ -3819,7 +3819,7 @@ const QUESTIONS = {
         "0.20 kg·m²"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 0.08 kg·m². A solid sphere about a diameter has I = (2/5)MR². Then I = (2/5)(5.0 kg)(0.20 m)² = (2/5)(5.0)(0.04) = 0.08 kg·m².\n\n(A) is wrong because 0.04 uses the coefficient 1/5 instead of 2/5.\n(C) is wrong because 0.10 is ½MR², the solid disk value.\n(D) is wrong because 0.20 is MR², the thin hoop value."
+      "explanation": "Correct: (B) 0.08 kg·m². A solid sphere rotating about a diameter has a moment of inertia I = (2/5)MR². With M = 5.0 kg and R = 0.20 m, I = (2/5)(5.0 kg)(0.20 m)² = (2/5)(5.0)(0.04) = 0.08 kg·m². The coefficient 2/5 is smaller than the ½ of a disk because more of the sphere's mass lies near the axis.\n\n(A) is wrong because 0.04 uses the coefficient 1/5 instead of 2/5, giving (1/5)(5.0)(0.04) = 0.04, which is half the correct value.\n(C) is wrong because 0.10 is ½MR² = ½(5.0)(0.04), the solid disk value, and a sphere has a different mass distribution.\n(D) is wrong because 0.20 is MR² = (5.0)(0.04), the thin hoop value, which applies only when all of the mass is at the radius R."
     },
     {
       "id": "5-29",
@@ -3832,7 +3832,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It quadruples. For a disk I = ½MR², so with M fixed, I is proportional to R². Doubling R multiplies I by 2² = 4. The clue is that mass stays the same while only the size changes, so the whole change comes from the squared radius.\n\n(A) is wrong because I depends on R.\n(B) is wrong because a larger radius spreads the mass farther out and increases I, not decreases it.\n(C) is wrong because it treats I as linear in R and forgets the square."
+      "explanation": "Correct: (D) It quadruples. For a disk the moment of inertia is I = ½MR², so with the mass M fixed, I is proportional to R². Doubling R multiplies I by 2² = 4. The clue is that the mass stays the same while only the size changes, so the whole change comes from the squared radius: ½M(2R)² = 4(½MR²).\n\n(A) is wrong because I depends on R through the R² factor, so changing the radius necessarily changes the moment of inertia.\n(B) is wrong because a larger radius spreads the same mass farther from the axis and increases I; it does not decrease it.\n(C) is wrong because it treats I as linear in R and forgets the square; the formula has R², so doubling R gives four times the original value, not two."
     },
     {
       "id": "5-30",
@@ -3884,7 +3884,7 @@ const QUESTIONS = {
         "0.25 rad/s²"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 4.0 rad/s². Newton's second law for rotation is Στ = Iα, so α = τ/I = 12 N·m / 3.0 kg·m² = 4.0 rad/s². Units check: N·m ÷ kg·m² = (kg·m²/s²) ÷ (kg·m²) = 1/s².\n\n(A) is wrong because 9.0 subtracts (12 − 3.0) instead of dividing.\n(B) is wrong because 36 multiplies τ by I.\n(D) is wrong because 0.25 inverts the ratio (I/τ)."
+      "explanation": "Correct: (C) 4.0 rad/s². Newton's second law for rotation is Στ = Iα, so the angular acceleration is α = τ/I = (12 N·m) ÷ (3.0 kg·m²) = 4.0 rad/s². The units check: N·m divided by kg·m² is (kg·m²/s²) ÷ (kg·m²) = 1/s², which is the unit of angular acceleration in rad/s².\n\n(A) is wrong because 9.0 subtracts the numbers (12 − 3.0) instead of dividing, but torque and moment of inertia have different units and are related by a quotient.\n(B) is wrong because 36 multiplies the torque by the moment of inertia (12 × 3.0), which would make the acceleration larger for a heavier object, the opposite of the real behavior.\n(D) is wrong because 0.25 inverts the ratio (3.0 ÷ 12); the angular acceleration is torque divided by moment of inertia, which gives 4.0."
     },
     {
       "id": "5-34",
@@ -3897,7 +3897,7 @@ const QUESTIONS = {
         "12 N·m"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 3.0 N·m. Στ = Iα gives the net torque as τ = (0.50 kg·m²)(6.0 rad/s²) = 3.0 N·m. A bigger I or a bigger α both require more torque.\n\n(A) is wrong because 6.5 adds the two numbers, which have different units.\n(C) is wrong because 0.083 divides I by α (0.50/6.0).\n(D) is wrong because 12 divides α by I (6.0/0.50), which is the inverted relation."
+      "explanation": "Correct: (B) 3.0 N·m. Newton's second law for rotation, Στ = Iα, gives the net torque directly as the product of the moment of inertia and the angular acceleration. Here τ = (0.50 kg·m²)(6.0 rad/s²) = 3.0 N·m. A bigger moment of inertia or a bigger angular acceleration would both require more torque.\n\n(A) is wrong because 6.5 adds the two numbers (0.50 + 6.0), which have different units and cannot be added; the relationship is a product.\n(C) is wrong because 0.083 divides I by α (0.50 ÷ 6.0), but the torque is found by multiplying, giving 3.0 N·m.\n(D) is wrong because 12 divides α by I (6.0 ÷ 0.50), which is the inverted relation; that quotient would be the angular acceleration per unit of I, not the torque."
     },
     {
       "id": "5-35",
@@ -3936,7 +3936,7 @@ const QUESTIONS = {
         "Both have equal angular acceleration."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) B has twice the angular acceleration of A. With the same torque, α = τ/I, so α is inversely proportional to I. Since I<sub>A</sub> = 2I<sub>B</sub>, α_A = τ/(2I<sub>B</sub>) = ½α_B, so B accelerates twice as fast. This parallels a lighter object accelerating more under the same force.\n\n(A) is wrong because the ratio is fully determined by the given information.\n(C) is wrong because it reverses the inverse relationship.\n(D) is wrong because equal α would need equal I, but A resists rotational change twice as much."
+      "explanation": "Correct: (B) B has twice the angular acceleration of A. With the same torque on each, α = τ/I, so the angular acceleration is inversely proportional to the moment of inertia. Since I<sub>A</sub> = 2I<sub>B</sub>, α<sub>A</sub> = τ/(2I<sub>B</sub>) = ½α<sub>B</sub>, so B accelerates twice as fast. This parallels a lighter object accelerating more under the same force.\n\n(A) is wrong because the ratio is fully determined by the given information: the torques are equal and the moment-of-inertia ratio is stated, so nothing more is needed.\n(C) is wrong because it reverses the inverse relationship; the object with more rotational inertia accelerates less, not more.\n(D) is wrong because equal angular accelerations would require equal moments of inertia, but A resists a change in rotation twice as much as B does."
     },
     {
       "id": "5-38",
@@ -3988,7 +3988,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It is cut in half. Newton's second law for rotation gives α = τ/I, so with the torque fixed α is inversely proportional to I. Doubling I halves α. Moving mass away from the axis raises I, so the object is harder to spin up even though its mass hasn't changed.\n\n(A) is wrong because I is in the denominator, so changing it changes α.\n(B) is wrong because quadrupling would need a squared relation.\n(C) is wrong because doubling the inertia makes the object more resistant, not less."
+      "explanation": "Correct: (D) It is cut in half. Newton's second law for rotation gives α = τ/I, so with the torque fixed the angular acceleration is inversely proportional to the moment of inertia. Doubling I halves α. Moving mass away from the axis raises I, so the object is harder to spin up even though its total mass has not changed.\n\n(A) is wrong because I is in the denominator of α = τ/I, so changing it necessarily changes the angular acceleration.\n(B) is wrong because quadrupling would require a squared relationship, but α depends on I to the first power, so doubling I only halves α.\n(C) is wrong because doubling the inertia makes the object more resistant to changes in rotation, not less, so the angular acceleration cannot increase."
     },
     {
       "id": "5-42",
@@ -4183,7 +4183,7 @@ const QUESTIONS = {
         "1.8 rad/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 20 rad/s. For rolling without slipping v<sub>cm</sub> = rω, so ω = v<sub>cm</sub>/r = 6.0 m/s / 0.30 m = 20 rad/s.\n\n(B) is wrong because 180 multiplies by 30 (as if r were 30 m) rather than dividing by 0.30.\n(C) is wrong because 6.3 adds the speed and the radius (6.0 + 0.30), which have different units; v = rω calls for dividing.\n(D) is wrong because 1.8 is v<sub>cm</sub> × r (6.0 × 0.30), which is multiplication in place of division."
+      "explanation": "Correct: (A) 20 rad/s. For rolling without slipping, the speed of the center equals the radius times the angular velocity, v<sub>cm</sub> = rω, so ω = v<sub>cm</sub>/r = (6.0 m/s) ÷ (0.30 m) = 20 rad/s. The units work because m/s divided by m leaves 1/s, and radians are dimensionless. A wheel with a small radius must spin fast to cover ground at this speed.\n\n(B) is wrong because 180 comes from multiplying 6.0 by 30 rather than dividing by 0.30; the correct method gives 20 rad/s.\n(C) is wrong because 6.3 adds the speed and the radius (6.0 + 0.30), which have different units and cannot be added; v = rω calls for division.\n(D) is wrong because 1.8 is v<sub>cm</sub> × r (6.0 × 0.30), which multiplies where the relation calls for dividing."
     },
     {
       "id": "5-57",
@@ -4196,7 +4196,7 @@ const QUESTIONS = {
         "60 m/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 3.75 m/s. For rolling without slipping the center speed is v<sub>cm</sub> = rω = (0.25 m)(15 rad/s) = 3.75 m/s.\n\n(A) is wrong because 37.5 is a factor of ten off, a decimal slip.\n(B) is wrong because 15.25 adds r and ω, which have different units.\n(D) is wrong because 60 divides ω by r (15/0.25), the inverted relation."
+      "explanation": "Correct: (C) 3.75 m/s. For rolling without slipping, the speed of the center is v<sub>cm</sub> = rω. With r = 0.25 m and ω = 15 rad/s, v<sub>cm</sub> = (0.25 m)(15 rad/s) = 3.75 m/s. This is the same speed at which the wheel's rim moves relative to its center, and it matches how far the wheel advances per second.\n\n(A) is wrong because 37.5 is ten times too large, which would be a decimal slip; the product 0.25 × 15 is 3.75.\n(B) is wrong because 15.25 adds the radius and the angular velocity (15 + 0.25), which have different units and cannot be added.\n(D) is wrong because 60 divides ω by r (15 ÷ 0.25), the inverted relation; the center speed is the product rω, which gives 3.75 m/s."
     },
     {
       "id": "5-58",
@@ -4235,7 +4235,7 @@ const QUESTIONS = {
         "2.0 m/s²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2.0 m/s². For rolling without slipping, the center's linear acceleration is a<sub>cm</sub> = rα = (0.20 m)(10 rad/s²) = 2.0 m/s².\n\n(A) is wrong because 5.0 divides α by 2 instead of multiplying by r.\n(B) is wrong because 0.5 is a decimal slip in the product (10 × 0.05 instead of 10 × 0.20).\n(C) is wrong because 50 divides α by r (10/0.20), the inverted relation."
+      "explanation": "Correct: (D) 2.0 m/s². For rolling without slipping, the linear acceleration of the center is a<sub>cm</sub> = rα, the radius times the angular acceleration. With r = 0.20 m and α = 10 rad/s², a<sub>cm</sub> = (0.20 m)(10 rad/s²) = 2.0 m/s². This follows from differentiating v<sub>cm</sub> = rω with respect to time.\n\n(A) is wrong because 5.0 comes from dividing α by 2 rather than multiplying by r; the radius, 0.20 m, is the factor that must multiply α.\n(B) is wrong because 0.5 would be the product of 10 and 0.05, but the radius is 0.20 m, and 10 × 0.20 gives 2.0.\n(C) is wrong because 50 divides α by r (10 ÷ 0.20), the inverted relation; the acceleration of the center is the product rα, which gives 2.0 m/s²."
     },
     {
       "id": "5-61",
@@ -4261,7 +4261,7 @@ const QUESTIONS = {
         "0.45 rad/s²"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 20 rad/s². For rolling without slipping a<sub>cm</sub> = rα, so α = a<sub>cm</sub>/r = 3.0 m/s² / 0.15 m = 20 rad/s².\n\n(A) is wrong because 3.15 adds the numbers 3.0 and 0.15.\n(B) is wrong because 2.85 subtracts them.\n(D) is wrong because 0.45 multiplies a by r (3.0 × 0.15) instead of dividing."
+      "explanation": "Correct: (C) 20 rad/s². For rolling without slipping, a<sub>cm</sub> = rα, so the angular acceleration is α = a<sub>cm</sub>/r = (3.0 m/s²) ÷ (0.15 m) = 20 rad/s². The units work because m/s² divided by m leaves 1/s², which is rad/s². A small ball must have a large angular acceleration to speed up at a given linear rate.\n\n(A) is wrong because 3.15 adds the numbers 3.0 and 0.15, which have different units and cannot be added; the relation is a quotient.\n(B) is wrong because 2.85 subtracts the radius from the acceleration (3.0 − 0.15), which again mixes unlike units.\n(D) is wrong because 0.45 multiplies the acceleration by the radius (3.0 × 0.15) instead of dividing; since a = rα, the angular acceleration is a divided by r, giving 20 rad/s²."
     },
     {
       "id": "5-63",
@@ -4274,7 +4274,7 @@ const QUESTIONS = {
         "There is no meaningful physical distinction between the two kinds of motion of an object."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Rolling has zero contact-point velocity (static friction); sliding has relative motion (kinetic friction). The distinction is what the contact point does relative to the surface. In rolling without slipping, it is momentarily at rest, so the relevant friction is static and v<sub>cm</sub> = rω. In sliding, there is relative motion at the contact, so kinetic friction acts.\n\n(A) is wrong because rolling objects are rotating (ω ≠ 0), and pure sliding can have ω = 0, so it reverses the real picture.\n(B) is wrong because rolling does involve friction (static).\n(D) is wrong because the two cases differ in contact-point motion, friction type and the v = rω link."
+      "explanation": "Correct: (C) Rolling has zero contact-point velocity (static friction); sliding has relative motion (kinetic friction). The distinction is what the contact point does relative to the surface. In rolling without slipping, the point touching the ground is momentarily at rest relative to it, so the relevant friction is static and the speed of the center obeys v<sub>cm</sub> = rω. In sliding, there is relative motion at the contact, so kinetic friction acts and no such link exists.\n\n(A) is wrong because rolling objects are rotating, so ω ≠ 0, and pure sliding can occur with ω = 0, which reverses the real picture.\n(B) is wrong because rolling does involve friction, specifically static friction at the contact point, which does not dissipate energy as the object rolls.\n(D) is wrong because the two cases differ in the motion of the contact point, in the type of friction acting, and in whether the relation v = rω holds."
     },
     {
       "id": "5-64",
@@ -4329,7 +4329,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) It quadruples. KE<sub>rot</sub> = ½Iω² depends on the square of ω. With I fixed, doubling ω multiplies the energy by 2² = 4. Squared dependence is the same as for ½mv², where doubling speed quadruples KE.\n\n(B) is wrong because energy increases when ω increases.\n(C) is wrong because it treats KE as linear in ω and forgets the square.\n(D) is wrong because ω is a direct variable in KE<sub>rot</sub>, so changing it changes the energy."
+      "explanation": "Correct: (A) It quadruples. The rotational kinetic energy is KE<sub>rot</sub> = ½Iω², which depends on the square of the angular velocity. With I fixed, doubling ω multiplies the energy by 2² = 4, since ½I(2ω)² = 4(½Iω²). This squared dependence is the same as for ½mv², where doubling the speed quadruples the translational kinetic energy.\n\n(B) is wrong because the energy increases when ω increases; a faster spin stores more energy, so the energy cannot be cut in half.\n(C) is wrong because it treats the energy as linear in ω and forgets the square; doubling ω gives four times the energy, not two.\n(D) is wrong because ω is a direct variable in KE<sub>rot</sub> = ½Iω², so changing it necessarily changes the stored energy."
     },
     {
       "id": "6-3",
@@ -4355,7 +4355,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) It doubles. KE<sub>rot</sub> = ½Iω² is directly proportional to I when ω is fixed, so doubling I doubles the energy. A larger I means more mass farther from the axis, which stores more energy at the same spin rate.\n\n(B) is wrong because a larger I increases the energy.\n(C) is wrong because I is a factor in the formula, so changing it changes KE.\n(D) is wrong because quadrupling would require KE ∝ I², but only ω is squared."
+      "explanation": "Correct: (A) It doubles. The rotational kinetic energy KE<sub>rot</sub> = ½Iω² is directly proportional to the moment of inertia when ω is fixed, so doubling I doubles the energy: ½(2I)ω² = 2(½Iω²). A larger I means more mass farther from the axis, which stores more energy at the same spin rate. The stem keeps the angular velocity unchanged, so only the I factor matters.\n\n(B) is wrong because a larger moment of inertia increases the energy at a fixed spin rate, so the energy cannot be cut in half.\n(C) is wrong because I is a factor in the formula, so changing it changes the kinetic energy.\n(D) is wrong because quadrupling would require KE to depend on I², but only ω is squared in the formula; I appears to the first power, so doubling I only doubles KE."
     },
     {
       "id": "6-5",
@@ -4381,7 +4381,7 @@ const QUESTIONS = {
         "The role of velocity."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) The role of mass. Comparing ½mv² with ½Iω²: v is replaced by ω and m is replaced by I. Mass measures resistance to a change in linear motion, and I measures resistance to a change in rotational motion, so I is the rotational counterpart of mass.\n\n(A) is wrong because it has a direct analog, m.\n(B) is wrong because force has no place in either energy formula.\n(D) is wrong because the role of velocity is played by ω."
+      "explanation": "Correct: (C) The role of mass. Comparing ½mv² with ½Iω²: v is replaced by ω and m is replaced by I. Mass measures resistance to a change in linear motion, and the moment of inertia I measures resistance to a change in rotational motion, so I is the rotational counterpart of mass. The same pattern appears in p = mv and L = Iω.\n\n(A) is wrong because I has a direct analog in the translational formula, namely the mass m, which sits in the same position in the expression.\n(B) is wrong because force has no place in either energy formula; kinetic energy depends on mass and speed, not on the force that produced the motion.\n(D) is wrong because the role of velocity in the rotational formula is played by the angular velocity ω, not by I, which multiplies ω² just as m multiplies v²."
     },
     {
       "id": "6-7",
@@ -4407,7 +4407,7 @@ const QUESTIONS = {
         "18 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 9.0 J. A hoop has I = MR² = (2.0)(0.50)² = 0.50 kg·m². Then KE<sub>rot</sub> = ½Iω² = ½(0.50)(6.0)² = ½(0.50)(36) = 9.0 J.\n\n(A) is wrong because 36 J is just ω² with no I or ½.\n(C) is wrong because 4.5 J comes from using the disk formula ½MR² (I = 0.25) for a hoop.\n(D) is wrong because 18 J leaves out the ½ in ½Iω²."
+      "explanation": "Correct: (B) 9.0 J. A hoop has all of its mass at the rim, so its moment of inertia is I = MR² = (2.0 kg)(0.50 m)² = 0.50 kg·m². Then the rotational kinetic energy is KE<sub>rot</sub> = ½Iω² = ½(0.50)(6.0)² = ½(0.50)(36) = 9.0 J. Both the moment of inertia and the squared angular velocity are needed.\n\n(A) is wrong because 36 J is just ω² with no moment of inertia and no factor of ½, so it is not the energy of anything.\n(C) is wrong because 4.5 J comes from using the disk formula ½MR² (I = 0.25 kg·m²) for a hoop, but a hoop has all its mass at the rim, so I = MR².\n(D) is wrong because 18 J is Iω² = (0.50)(36), which leaves out the ½ in ½Iω²; the correct energy is half that value, 9.0 J."
     },
     {
       "id": "6-9",
@@ -4420,7 +4420,7 @@ const QUESTIONS = {
         "3.0 rad/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 6.0 rad/s. From KE<sub>rot</sub> = ½Iω², 27 = ½(1.5)ω² = 0.75ω², so ω² = 36 and ω = 6.0 rad/s. Check: ½(1.5)(36) = 27 J.\n\n(B) is wrong because ω = 4.0 gives ½(1.5)(16) = 12 J, not 27 J.\n(C) is wrong because ω = 9.0 gives ½(1.5)(81) ≈ 61 J.\n(D) is wrong because ω = 3.0 gives ½(1.5)(9) ≈ 6.8 J."
+      "explanation": "Correct: (A) 6.0 rad/s. From KE<sub>rot</sub> = ½Iω², 27 J = ½(1.5 kg·m²)ω² = 0.75ω², so ω² = 27 ÷ 0.75 = 36 and ω = 6.0 rad/s. Check: ½(1.5)(36) = 27 J, which matches the given energy. The angular velocity enters squared, so a square root is needed in the last step.\n\n(B) is wrong because ω = 4.0 rad/s gives ½(1.5)(16) = 12 J, not the 27 J stated in the problem.\n(C) is wrong because ω = 9.0 rad/s gives ½(1.5)(81) ≈ 61 J, which is more than twice the given energy.\n(D) is wrong because ω = 3.0 rad/s gives ½(1.5)(9) ≈ 6.8 J, which is far too small compared with the stated 27 J."
     },
     {
       "id": "6-10",
@@ -4446,7 +4446,7 @@ const QUESTIONS = {
         "20 kg·m²"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 5.0 kg·m². Solve KE<sub>rot</sub> = ½Iω² for I: I = 2KE/ω² = 2(40)/(4.0)² = 80/16 = 5.0 kg·m². Check: ½(5.0)(16) = 40 J.\n\n(A) is wrong because I = 10 gives ½(10)(16) = 80 J.\n(B) is wrong because I = 2.5 gives ½(2.5)(16) = 20 J.\n(D) is wrong because I = 20 gives 160 J."
+      "explanation": "Correct: (C) 5.0 kg·m². Solve KE<sub>rot</sub> = ½Iω² for the moment of inertia: I = 2KE/ω² = 2(40 J)/(4.0 rad/s)² = 80/16 = 5.0 kg·m². Check: ½(5.0)(16) = 40 J, which matches the given energy. The unit works out because joules divided by 1/s² is kg·m².\n\n(A) is wrong because I = 10 kg·m² gives ½(10)(16) = 80 J, which is double the 40 J given in the stem.\n(B) is wrong because I = 2.5 kg·m² gives ½(2.5)(16) = 20 J, which is only half of the given energy.\n(D) is wrong because I = 20 kg·m² gives ½(20)(16) = 160 J, which is four times the given energy of 40 J."
     },
     {
       "id": "6-12",
@@ -4459,7 +4459,7 @@ const QUESTIONS = {
         "Yes — it has purely rotational kinetic energy."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Yes — it has purely rotational kinetic energy. Kinetic energy is energy of motion, and a spinning object has it as KE<sub>rot</sub> = ½Iω² even when its center of mass stays still. Every piece of the top moves in a circle, so each piece has kinetic energy.\n\n(A) is wrong because translation is not required for KE.\n(B) is wrong because losing height concerns potential energy and is unrelated to whether the top has KE.\n(C) is wrong because staying in one place does not mean there is no motion; the top still rotates."
+      "explanation": "Correct: (D) Yes — it has purely rotational kinetic energy. Kinetic energy is energy of motion, and a spinning object has it in the form KE<sub>rot</sub> = ½Iω², even when its center of mass stays still. Every piece of the top moves in a circle around the axis, so each piece has kinetic energy, and the sum over all the pieces is the rotational kinetic energy.\n\n(A) is wrong because translation is not required for kinetic energy; rotation alone gives the object energy of motion.\n(B) is wrong because losing height concerns gravitational potential energy and is unrelated to whether the top has kinetic energy at the moment it spins.\n(C) is wrong because staying in one place does not mean there is no motion; the top's center of mass is still, but its parts are moving in circles, so it has kinetic energy."
     },
     {
       "id": "6-13",
@@ -4472,7 +4472,7 @@ const QUESTIONS = {
         "18 J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 12 J. A uniform rod about its center has I = (1/12)ML² = (1/12)(2.0)(3.0)² = (1/12)(2.0)(9.0) = 1.5 kg·m². Then KE<sub>rot</sub> = ½Iω² = ½(1.5)(4.0)² = ½(1.5)(16) = 12 J.\n\n(B) is wrong because 24 J leaves out the ½.\n(C) is wrong because 6.0 J comes from a rod I that is half as big (0.75).\n(D) is wrong because 18 J results from using I = 2.25 kg·m², which is ML²/8 instead of ML²/12."
+      "explanation": "Correct: (A) 12 J. A uniform rod rotating about its center has a moment of inertia I = (1/12)ML² = (1/12)(2.0 kg)(3.0 m)² = (1/12)(2.0)(9.0) = 1.5 kg·m². Then the rotational kinetic energy is KE<sub>rot</sub> = ½Iω² = ½(1.5)(4.0)² = ½(1.5)(16) = 12 J. The center axis is what makes the factor 1/12 the right one.\n\n(B) is wrong because 24 J is Iω² = (1.5)(16), which leaves out the ½ in the energy formula.\n(C) is wrong because 6.0 J comes from a moment of inertia half as big (0.75 kg·m²), which is not the value for a rod about its center.\n(D) is wrong because 18 J results from using I = 2.25 kg·m², which is ML²/8 instead of the correct ML²/12 for a rod rotating about its center."
     },
     {
       "id": "6-14",
@@ -4485,7 +4485,7 @@ const QUESTIONS = {
         "It increases ninefold."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) It increases ninefold. KE<sub>rot</sub> = ½Iω² depends on ω², so tripling ω multiplies KE by 3² = 9 when I is constant.\n\n(A) is wrong because changing ω changes the energy.\n(B) is wrong because sixfold has no basis; it would be 3 × 2 from mixing a factor of 2.\n(C) is wrong because tripling would be the result if KE were linear in ω."
+      "explanation": "Correct: (D) It increases ninefold. The rotational kinetic energy KE<sub>rot</sub> = ½Iω² depends on the square of the angular velocity, so tripling ω multiplies the energy by 3² = 9 when I is constant. For example, ½I(3ω)² = 9(½Iω²). The stem keeps the moment of inertia unchanged, so only the squared term matters.\n\n(A) is wrong because ω is in the formula, so changing the angular velocity changes the energy.\n(B) is wrong because sixfold has no basis in the formula; squaring the tripled angular velocity gives a factor of 9, not 6.\n(C) is wrong because tripling would be the result only if the kinetic energy were linear in ω, but the energy depends on ω², so tripling ω gives nine times the energy."
     },
     {
       "id": "6-15",
@@ -4511,7 +4511,7 @@ const QUESTIONS = {
         "115.2 J"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 57.6 J. KE<sub>rot</sub> = ½Iω² = ½(0.80)(12)² = ½(0.80)(144) = 57.6 J.\n\n(A) is wrong because 38.4 J is Iω²/3 = (0.80)(144)/3, using a factor of ⅓ in place of ½.\n(C) is wrong because 9.6 J is Iω, with ω not squared and no ½.\n(D) is wrong because 115.2 J is Iω², which omits the ½."
+      "explanation": "Correct: (B) 57.6 J. The rotational kinetic energy is KE<sub>rot</sub> = ½Iω². With I = 0.80 kg·m² and ω = 12 rad/s, KE<sub>rot</sub> = ½(0.80)(12)² = ½(0.80)(144) = 57.6 J. Note that the angular velocity must be squared before multiplying, and the factor ½ must be kept.\n\n(A) is wrong because 38.4 J is Iω²/3 = (0.80)(144)/3, which uses a factor of one-third in place of one-half.\n(C) is wrong because 9.6 J is Iω = (0.80)(12), with ω not squared and no ½, which is neither an energy nor the correct formula.\n(D) is wrong because 115.2 J is Iω² = (0.80)(144), which omits the factor of ½; the correct energy is half that, 57.6 J."
     },
     {
       "id": "6-17",
@@ -4524,7 +4524,7 @@ const QUESTIONS = {
         "L = Iα"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) L = Iω. Angular momentum is the rotational analog of linear momentum p = mv, with I replacing m and ω replacing v. It has units kg·m²/s.\n\n(B) is wrong because ½Iω² is rotational kinetic energy.\n(C) is wrong because ½mv² is translational kinetic energy.\n(D) is wrong because Iα is a torque (Στ = Iα)."
+      "explanation": "Correct: (A) L = Iω. Angular momentum is the rotational analog of linear momentum p = mv, with the moment of inertia I replacing the mass m and the angular velocity ω replacing the velocity v. It has units of kg·m²/s. For a rigid object spinning about a fixed axis, this single product gives the angular momentum.\n\n(B) is wrong because ½Iω² is the rotational kinetic energy, which has units of joules, not the units of angular momentum.\n(C) is wrong because ½mv² is the translational kinetic energy of a moving mass and has nothing to do with rotation or angular momentum.\n(D) is wrong because Iα is a torque (Στ = Iα), the rotational analog of force; it measures the rate of change of angular momentum, not the angular momentum itself."
     },
     {
       "id": "6-18",
@@ -4537,7 +4537,7 @@ const QUESTIONS = {
         "40 kg·m²/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 40 kg·m²/s. L = Iω = (5.0 kg·m²)(8.0 rad/s) = 40 kg·m²/s.\n\n(A) is wrong because 3.0 subtracts the numbers.\n(B) is wrong because 160 is Iω² (5.0 × 64), squaring ω as in the energy formula.\n(C) is wrong because 13 adds the numbers, which have different units."
+      "explanation": "Correct: (D) 40 kg·m²/s. Angular momentum of a rigid rotating object is L = Iω. With I = 5.0 kg·m² and ω = 8.0 rad/s, L = (5.0 kg·m²)(8.0 rad/s) = 40 kg·m²/s. The units are those of angular momentum, kilogram meters squared per second.\n\n(A) is wrong because 3.0 subtracts the numbers (8.0 − 5.0), but angular momentum is the product of the moment of inertia and the angular velocity.\n(B) is wrong because 160 is Iω² = 5.0 × 64, which squares ω as in the energy formula; angular momentum depends on ω to the first power.\n(C) is wrong because 13 adds the numbers (5.0 + 8.0), but moment of inertia and angular velocity have different units and are multiplied."
     },
     {
       "id": "6-19",
@@ -4563,7 +4563,7 @@ const QUESTIONS = {
         "0.17 rad/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 6.0 rad/s. Since L = Iω, ω = L/I = 60 / 10 = 6.0 rad/s. Check units: (kg·m²/s)/(kg·m²) = 1/s.\n\n(A) is wrong because 600 multiplies L and I.\n(B) is wrong because 50 subtracts them.\n(D) is wrong because 0.17 inverts the ratio (I/L)."
+      "explanation": "Correct: (C) 6.0 rad/s. Since L = Iω, the angular velocity is ω = L/I = (60 kg·m²/s) ÷ (10 kg·m²) = 6.0 rad/s. Check the units: (kg·m²/s) divided by (kg·m²) leaves 1/s, which is the unit of angular velocity. This is the same idea as finding a speed from linear momentum divided by mass, with the moment of inertia in the role of the mass.\n\n(A) is wrong because 600 multiplies L and I (60 × 10), but the angular velocity is found by dividing the angular momentum by the moment of inertia.\n(B) is wrong because 50 subtracts the two numbers (60 − 10), which have different units and are related by a quotient, not a difference.\n(D) is wrong because 0.17 inverts the ratio (10 ÷ 60); since L = Iω, the angular velocity is L divided by I, which gives 6.0."
     },
     {
       "id": "6-21",
@@ -4576,7 +4576,7 @@ const QUESTIONS = {
         "405 kg·m²"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 5.0 kg·m². Since L = Iω, I = L/ω = 45 / 9.0 = 5.0 kg·m².\n\n(A) is wrong because 0.2 inverts the ratio (ω/L).\n(C) is wrong because 36 subtracts 9.0 from 45.\n(D) is wrong because 405 multiplies L by ω instead of dividing."
+      "explanation": "Correct: (B) 5.0 kg·m². Since L = Iω, the moment of inertia is I = L/ω = (45 kg·m²/s) ÷ (9.0 rad/s) = 5.0 kg·m². Check: (5.0)(9.0) = 45, which matches the given angular momentum. The unit works because kg·m²/s divided by 1/s leaves kg·m².\n\n(A) is wrong because 0.2 inverts the ratio (9.0 ÷ 45); the moment of inertia is the angular momentum divided by the angular velocity, which gives 5.0.\n(C) is wrong because 36 subtracts 9.0 from 45, but the two quantities have different units and are related by a product, so a difference is meaningless.\n(D) is wrong because 405 multiplies L by ω (45 × 9.0) instead of dividing, and a product would make the object's inertia grow with its spin, which is not how L = Iω works."
     },
     {
       "id": "6-22",
@@ -4589,7 +4589,7 @@ const QUESTIONS = {
         "Yes — it depends on momentum and perpendicular distance, not the path's shape."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) Yes — it depends on momentum and perpendicular distance, not the path's shape. For a point particle, angular momentum about a chosen point is L = r p sinθ = mv r⊥, where r⊥ is the perpendicular distance from the point to the line of motion. A particle moving in a straight line that does not pass through the point has nonzero r⊥, hence nonzero L (and constant, if no force acts).\n\n(A) is wrong because circular motion is not needed.\n(B) is wrong because acceleration is not required; a constant-velocity particle has L = mvr⊥.\n(C) is wrong because point particles have angular momentum about any point, not just rigid rotating objects."
+      "explanation": "Correct: (D) Yes — it depends on momentum and perpendicular distance, not the path's shape. For a point particle, the angular momentum about a chosen point is L = rp sinθ = mvr<sub>⊥</sub>, where r<sub>⊥</sub> is the perpendicular distance from the point to the line of motion. A particle moving in a straight line that does not pass through the point has a nonzero r<sub>⊥</sub>, hence a nonzero L, and L stays constant if no force acts.\n\n(A) is wrong because circular motion is not needed; the particle only has to have momentum and a perpendicular offset from the chosen point.\n(B) is wrong because acceleration is not required; a particle moving at constant velocity still has L = mvr<sub>⊥</sub> about the point.\n(C) is wrong because point particles have angular momentum about any point, not just rigid rotating objects, since the definition uses position and momentum."
     },
     {
       "id": "6-23",
@@ -4615,7 +4615,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) It doubles. L = Iω is linear in ω, so with I fixed, doubling ω doubles L. This contrasts with rotational KE, which depends on ω² and would quadruple.\n\n(B) is wrong because quadrupling is the KE result, not the angular momentum result.\n(C) is wrong because L increases with ω.\n(D) is wrong because ω is a direct factor in L."
+      "explanation": "Correct: (A) It doubles. Angular momentum is L = Iω, which is linear in ω, so with the moment of inertia fixed, doubling ω doubles L: I(2ω) = 2Iω. This contrasts with rotational kinetic energy, which depends on ω² and would quadruple under the same change. The stem keeps I unchanged, so the whole change comes through the first power of ω.\n\n(B) is wrong because quadrupling is the kinetic-energy result, where ω is squared, not the angular momentum result, where ω appears to the first power.\n(C) is wrong because L increases with ω, so a doubled angular velocity cannot cut the angular momentum in half.\n(D) is wrong because ω is a direct factor in L = Iω, so changing it with I fixed necessarily changes the angular momentum."
     },
     {
       "id": "6-25",
@@ -4641,7 +4641,7 @@ const QUESTIONS = {
         "45 N·m"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 10 N·m. Net torque equals the rate of change of angular momentum, τ = ΔL/Δt = 50 kg·m²/s / 5.0 s = 10 N·m.\n\n(B) is wrong because 250 multiplies ΔL by Δt.\n(C) is wrong because 0.1 inverts the ratio (Δt/ΔL).\n(D) is wrong because 45 subtracts the numbers."
+      "explanation": "Correct: (A) 10 N·m. The net torque equals the rate of change of angular momentum, τ = ΔL/Δt, which is the rotational form of Newton's second law. Here τ = (50 kg·m²/s) ÷ (5.0 s) = 10 N·m. The units work because kg·m²/s² is the same as N·m.\n\n(B) is wrong because 250 multiplies ΔL by Δt (50 × 5.0), but torque is a rate, so the angular momentum change must be divided by the time.\n(C) is wrong because 0.1 inverts the ratio (5.0 ÷ 50); the correct quotient is ΔL divided by Δt, which gives 10 N·m.\n(D) is wrong because 45 subtracts the numbers (50 − 5.0), but angular momentum and time have different units and are related by a quotient, not a difference."
     },
     {
       "id": "6-27",
@@ -4693,7 +4693,7 @@ const QUESTIONS = {
         "2.0 kg·m²/s"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 8.0 kg·m²/s. L = Iω = (4.0 kg·m²)(2.0 rad/s) = 8.0 kg·m²/s.\n\n(A) is wrong because 16 is Iω², squaring ω as in the KE formula.\n(B) is wrong because 6.0 adds the numbers.\n(D) is wrong because 2.0 is just ω and leaves out I."
+      "explanation": "Correct: (C) 8.0 kg·m²/s. Angular momentum of a rotating object is L = Iω. With I = 4.0 kg·m² and ω = 2.0 rad/s, L = (4.0 kg·m²)(2.0 rad/s) = 8.0 kg·m²/s. The skater's moment of inertia and spin rate multiply directly, with no squares or fractions.\n\n(A) is wrong because 16 is Iω² = 4.0 × 4.0, which squares ω as in the kinetic-energy formula; angular momentum depends on ω to the first power.\n(B) is wrong because 6.0 adds the numbers (4.0 + 2.0), but the moment of inertia and angular velocity have different units and are multiplied.\n(D) is wrong because 2.0 is just the angular velocity ω and leaves out the moment of inertia, so it is not the angular momentum of the skater."
     },
     {
       "id": "6-31",
@@ -4706,7 +4706,7 @@ const QUESTIONS = {
         "No, angular momentum has no defined units at all."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) No — they have different units and are different physical quantities. Linear momentum p = mv has units kg·m/s; angular momentum L = Iω (or r × p) has units kg·m²/s, with an extra factor of length. A quantity with different dimensions cannot be converted or compared directly.\n\n(B) is wrong because even for circular motion the units remain different (L = r p).\n(C) is wrong because they are distinct quantities, not the same quantity in different units.\n(D) is wrong because angular momentum has definite units, kg·m²/s."
+      "explanation": "Correct: (A) No — they have different units and are different physical quantities. Linear momentum p = mv has units kg·m/s, while angular momentum L = Iω (or r × p) has units kg·m²/s, with an extra factor of length. A quantity with different dimensions cannot be converted or compared directly, just as a force cannot be compared with an energy even though both involve kilograms and meters.\n\n(B) is wrong because even for motion in a perfect circle the units remain different, since L = rp still carries the extra length factor of the radius.\n(C) is wrong because they are distinct quantities, not the same quantity measured in different units; one describes straight-line motion and the other describes rotation about a point.\n(D) is wrong because angular momentum has definite units, namely kg·m²/s, so it can be measured and compared with other angular momenta."
     },
     {
       "id": "6-32",
@@ -4797,7 +4797,7 @@ const QUESTIONS = {
         "Neither conservation law applies to this scenario."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) No — angular momentum conservation is the relevant law here. The question is about a change in spin rate, which is governed by L = Iω with no external torque about the axis. A linear momentum analysis does not apply, because the axle exerts external forces on the merry-go-round, so total linear momentum is not conserved.\n\n(B) is wrong because linear momentum conservation does not determine a rotation rate and the axle force breaks it.\n(C) is wrong because only angular momentum is needed.\n(D) is wrong because angular momentum conservation does apply."
+      "explanation": "Correct: (A) No — angular momentum conservation is the relevant law here. The question is about a change in spin rate, which is governed by L = Iω, and the total angular momentum about the axis is conserved when there is no external torque on the system about that axis. A linear momentum analysis does not apply, because the axle exerts external forces on the merry-go-round, so the total linear momentum is not conserved.\n\n(B) is wrong because linear momentum conservation does not determine a rotation rate, and the force from the axle breaks it anyway.\n(C) is wrong because only angular momentum conservation is needed to find the new rotation rate; bringing in linear momentum would add nothing and would be invalid.\n(D) is wrong because angular momentum conservation does apply, since the forces involved exert no net torque about the central axis."
     },
     {
       "id": "6-39",
@@ -4849,7 +4849,7 @@ const QUESTIONS = {
         "It appears from nowhere, violating energy conservation."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) From the real muscular work she does pulling her arms inward. Her arms must be pulled in against the effect of the rotation (the \"centrifugal\" effect, or equivalently the inward force needed to keep mass moving in a circle). Her muscles do positive work, and that work becomes the added rotational KE (10 J to 25 J in the earlier example).\n\n(B) is wrong because the ice supplies essentially no torque, which is why L is conserved.\n(C) is wrong because her angular momentum stays constant.\n(D) is wrong because energy is conserved; it comes from her body's chemical energy."
+      "explanation": "Correct: (A) From the real muscular work she does pulling her arms inward. Her arms must be pulled in against the inward force needed to keep the mass moving in a circle, so her muscles do positive work. That work becomes the added rotational kinetic energy: with L = Iω conserved, a smaller I means a larger ω, and KE = L²/2I rises as I falls. The energy comes from her body's chemical energy.\n\n(B) is wrong because the ice supplies essentially no torque on her, which is exactly why her angular momentum is conserved, and a force on the ice would not add energy to the spin.\n(C) is wrong because her angular momentum stays constant during the pull-in; it is the moment of inertia that decreases.\n(D) is wrong because energy is conserved; the added kinetic energy is supplied by her muscles, so no law is violated."
     },
     {
       "id": "6-43",
@@ -4927,7 +4927,7 @@ const QUESTIONS = {
         "The object's linear momentum."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) The object's angular momentum. With no external torque about the orbit's center, L = mvr⊥ stays constant even though v and r change.\n\n(A) is wrong because angular momentum remains constant.\n(C) is wrong because KE = ½mv² changes as v goes from 6.0 to 12 m/s.\n(D) is wrong because linear momentum mv changes in both size and direction as the object moves around the center (it is acted on by a central force)."
+      "explanation": "Correct: (B) The object's angular momentum. With no external torque about the center of the orbit, the angular momentum L = mvr<sub>⊥</sub> stays constant even though the speed v and the distance r both change. When the object moves closer, r decreases and v rises to keep the product mvr fixed, which is why the speed goes from 6.0 to 12 m/s in the scenario.\n\n(A) is wrong because angular momentum does remain constant when the only force is directed toward the center, since a central force exerts no torque about that point.\n(C) is wrong because the kinetic energy ½mv² changes as the speed changes from 6.0 to 12 m/s, so it is not constant.\n(D) is wrong because linear momentum mv changes in both size and direction as the object moves around the center, since a central force acts on it throughout the motion."
     },
     {
       "id": "6-49",
@@ -4953,7 +4953,7 @@ const QUESTIONS = {
         "KE_total = ½mv² + ½Iω²"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) KE<sub>total</sub> = ½mv² + ½Iω². A rolling object moves its center of mass (translational KE = ½mv<sub>cm</sub>²) and also spins about it (rotational KE = ½Iω²), and the total is the sum of both.\n\n(A) is wrong because it ignores the spin.\n(B) is wrong because the ½ factors are missing from both terms.\n(C) is wrong because it ignores the motion of the center of mass."
+      "explanation": "Correct: (D) KE<sub>total</sub> = ½mv² + ½Iω². A rolling object moves its center of mass, which has translational kinetic energy ½mv<sub>cm</sub>², and it also spins about that center, which has rotational kinetic energy ½Iω². The total kinetic energy is the sum of both parts. Each term carries its own factor of one-half, following from the definition of kinetic energy.\n\n(A) is wrong because ½mv² alone ignores the spin of the object, so it leaves out the rotational part of the energy.\n(B) is wrong because the factors of ½ are missing from both terms, so it overstates each contribution by a factor of two.\n(C) is wrong because ½Iω² alone ignores the motion of the center of mass, so it leaves out the translational part of the energy."
     },
     {
       "id": "6-51",
@@ -4966,7 +4966,7 @@ const QUESTIONS = {
         "16 J"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 25.6 J. Total kinetic energy of a rolling object is the sum of its translational and rotational parts: 16 + 9.6 = 25.6 J.\n\n(A) is wrong because 6.4 J is the difference of the two.\n(B) is wrong because 9.6 J is only the rotational part.\n(D) is wrong because 16 J is only the translational part."
+      "explanation": "Correct: (C) 25.6 J. The total kinetic energy of a rolling object is the sum of its translational and rotational parts, since both kinds of motion happen at the same time. Here KE<sub>total</sub> = KE<sub>trans</sub> + KE<sub>rot</sub> = 16 J + 9.6 J = 25.6 J. Energies are scalars, so they add directly with no directions to consider.\n\n(A) is wrong because 6.4 J is the difference of the two parts (16 − 9.6), but the two forms of energy are present together and must be added.\n(B) is wrong because 9.6 J is only the rotational part and leaves out the translational energy of the center of mass.\n(D) is wrong because 16 J is only the translational part and leaves out the rotational energy of the spinning about the center."
     },
     {
       "id": "6-52",
@@ -4979,7 +4979,7 @@ const QUESTIONS = {
         "This substitution works for any rotating object, slipping or not, at any speed."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Because rolling without slipping guarantees v<sub>cm</sub> = rω, so ω can be expressed in terms of v (or vice versa). The no-slip condition means the contact point is at rest, so each rotation advances the center by exactly 2πr and v<sub>cm</sub> = rω exactly. Then ½Iω² = ½I(v/r)², which lets total KE be written in terms of v alone.\n\n(A) is wrong because the relation is exact for no slipping and does not depend on friction being small.\n(C) is wrong because it has a definite physical justification.\n(D) is wrong because it fails for slipping or skidding objects, where v and ω are independent."
+      "explanation": "Correct: (B) Because rolling without slipping guarantees v<sub>cm</sub> = rω, so ω can be expressed in terms of v (or vice versa). The no-slip condition means the contact point is at rest against the surface, so each full rotation advances the center by exactly 2πr and v<sub>cm</sub> = rω exactly. Then ½Iω² = ½I(v/r)², which lets the total kinetic energy be written in terms of v alone.\n\n(A) is wrong because the relation is exact for rolling without slipping and does not depend on friction being small; it follows from geometry of the contact point.\n(C) is wrong because the substitution has a definite physical justification, namely the contact point being at rest against the surface.\n(D) is wrong because the relation fails for slipping or skidding objects, where the speed v and the angular velocity ω are independent."
     },
     {
       "id": "6-53",
@@ -4992,7 +4992,7 @@ const QUESTIONS = {
         "18 J"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 25.2 J. For rolling without slipping, KE<sub>total</sub> = ½mv² + ½Iω² with ω = v/r. For a solid sphere I = (2/5)mr², so the rotational part is ½(2/5)mr²(v/r)² = (1/5)mv². The total is (1/2 + 1/5)mv² = (7/10)mv² = (0.7)(4.0)(3.0)² = 25.2 J.\n\n(A) is wrong because 36 J is mv², too large.\n(B) is wrong because 10.8 J uses a coefficient of 3/10 rather than 7/10.\n(D) is wrong because 18 J is only the translational ½mv², which ignores the spin."
+      "explanation": "Correct: (C) 25.2 J. For rolling without slipping, KE<sub>total</sub> = ½mv² + ½Iω² with ω = v/r. For a solid sphere I = (2/5)mr², so the rotational part is ½(2/5)mr²(v/r)² = (1/5)mv². The total is (1/2 + 1/5)mv² = (7/10)mv² = (0.7)(4.0)(3.0)² = 25.2 J. The radius cancels, so it is not needed.\n\n(A) is wrong because 36 J is mv² = (4.0)(9.0), which is too large because it uses a coefficient of 1 instead of 7/10.\n(B) is wrong because 10.8 J uses a coefficient of 3/10 rather than 7/10, giving (0.3)(36), which does not add the translational and rotational parts correctly.\n(D) is wrong because 18 J is only the translational ½mv² = ½(4.0)(9.0), which ignores the energy of the spin."
     },
     {
       "id": "6-54",
@@ -5070,7 +5070,7 @@ const QUESTIONS = {
         "2/3"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 1/3. For a disk I = ½MR², so with ω = v/R the rotational KE is ½(½MR²)(v/R)² = ¼Mv². The translational KE is ½Mv², so the total is ¾Mv². The rotational fraction is (¼)/(¾) = 1/3.\n\n(A) is wrong because 1/2 is the hoop's fraction.\n(C) is wrong because 1/4 is the coefficient of Mv² for the rotational part, not the fraction of the total.\n(D) is wrong because 2/3 is the translational fraction."
+      "explanation": "Correct: (B) 1/3. For a solid disk I = ½MR², so with ω = v/R the rotational kinetic energy is ½(½MR²)(v/R)² = ¼Mv². The translational kinetic energy is ½Mv², so the total is ¾Mv². The rotational fraction is (¼)/(¾) = 1/3, independent of the mass and the speed.\n\n(A) is wrong because 1/2 is the hoop's fraction, where I = MR² makes the rotational and translational energies equal; a solid disk has a smaller I.\n(C) is wrong because 1/4 is the coefficient of Mv² for the rotational part, not the fraction of the total; dividing by the total ¾ gives 1/3.\n(D) is wrong because 2/3 is the translational fraction (½ out of ¾), which is the rest of the energy, not the rotational share."
     },
     {
       "id": "6-60",
@@ -5083,7 +5083,7 @@ const QUESTIONS = {
         "1/3"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1/2. A hoop has I = MR², so with ω = v/R the rotational KE is ½(MR²)(v/R)² = ½Mv². The translational KE is also ½Mv², so the total is Mv² and the rotational fraction is 1/2. All the mass is at the rim, so rotation takes as much energy as translation.\n\n(B) is wrong because 2/3 doesn't come from these terms.\n(C) is wrong because 3/4 is the total coefficient for a disk (¾Mv²).\n(D) is wrong because 1/3 is the disk's fraction, as the disk has a smaller I."
+      "explanation": "Correct: (A) 1/2. A hoop has all its mass at the rim, so I = MR², and with ω = v/R the rotational kinetic energy is ½(MR²)(v/R)² = ½Mv². The translational kinetic energy is also ½Mv², so the total is Mv² and the rotational fraction is 1/2. All of the mass is at the rim, so rotation takes as much energy as translation.\n\n(B) is wrong because 2/3 does not come from these terms; the rotational and translational parts are equal, so the share cannot be two-thirds.\n(C) is wrong because 3/4 is the total coefficient of Mv² for a disk (¾Mv²), not a fraction for the hoop.\n(D) is wrong because 1/3 is the disk's rotational fraction, and a disk has a smaller moment of inertia than a hoop of the same mass and radius."
     },
     {
       "id": "6-61",
@@ -5320,7 +5320,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) it quadruples. Maximum acceleration is a<sub>max</sub> = Aω², so with A fixed it scales with the square of ω. Doubling ω multiplies a<sub>max</sub> by 2² = 4; for example A = 0.02 m, ω = 8 gives 1.28 m/s², while ω = 16 gives 5.12 m/s². Clue words: \"angular frequency is doubled,\" \"amplitude stays the same.\"\n\n(B) is wrong because acceleration does not fall as ω rises.\n(C) is wrong because a<sub>max</sub> clearly depends on ω.\n(D) is wrong because it applies the linear scaling that holds for v<sub>max</sub> = Aω, forgetting the square in a<sub>max</sub>."
+      "explanation": "Correct: (A) It quadruples. The maximum acceleration of simple harmonic motion is a<sub>max</sub> = Aω², so with the amplitude A fixed it scales with the square of the angular frequency. Doubling ω multiplies a<sub>max</sub> by 2² = 4; for example A = 0.02 m and ω = 8 rad/s give 1.28 m/s², while ω = 16 rad/s gives 5.12 m/s². The clue words are that the angular frequency is doubled and the amplitude stays the same.\n\n(B) is wrong because the acceleration does not fall as ω rises; a faster oscillation with the same amplitude has to change direction more quickly, requiring a larger acceleration.\n(C) is wrong because a<sub>max</sub> clearly depends on ω through the Aω² formula, so changing ω must change it.\n(D) is wrong because it applies the linear scaling that holds for v<sub>max</sub> = Aω, forgetting the square in the acceleration formula."
     },
     {
       "id": "7-14",
@@ -5437,7 +5437,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) it is cut in half. Since T = 2π√(m/k), the period varies as 1/√k. Replacing k with 4k gives T' = 2π√(m/(4k)) = (1/2)·2π√(m/k) = T/2. A stiffer spring supplies a larger restoring force for the same displacement, so the mass oscillates faster. Clue words: \"spring constant quadrupled.\"\n\n(A) is wrong because a stiffer spring does not slow the motion.\n(B) is wrong because k appears in the formula.\n(D) is wrong because doubling would result from quadrupling the mass, not the spring constant."
+      "explanation": "Correct: (C) It is cut in half. Since T = 2π√(m/k), the period varies as 1/√k. Replacing k with 4k gives T' = 2π√(m/(4k)) = (1/2)·2π√(m/k) = T/2. A stiffer spring supplies a larger restoring force for the same displacement, so the mass oscillates faster. The clue words are that the spring constant is quadrupled while the mass stays the same.\n\n(A) is wrong because a stiffer spring does not slow the motion; it pulls the mass back harder, which shortens the period rather than lengthening it.\n(B) is wrong because k appears in the period formula, so changing the spring constant necessarily changes the period.\n(D) is wrong because doubling the period would result from quadrupling the mass, not the spring constant, since the period grows as the square root of m but shrinks as the square root of k."
     },
     {
       "id": "7-23",
@@ -5463,7 +5463,7 @@ const QUESTIONS = {
         "Spring A (stiffer) has a longer period."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Spring A, the stiffer one, has the shorter period. With equal masses, T = 2π√(m/k) decreases as k increases. A stiffer spring exerts a larger restoring force at the same displacement, so the mass is accelerated more strongly and completes each cycle faster. Clue words: \"identical masses,\" \"stiffer (larger k).\"\n\n(A) is wrong because the formula gives a definite comparison with only the stated information.\n(C) is wrong because equal masses alone do not set the period; k matters too.\n(D) is wrong because it reverses the dependence on k."
+      "explanation": "Correct: (B) Spring A, the stiffer one, has the shorter period. With equal masses, T = 2π√(m/k) decreases as k increases. A stiffer spring exerts a larger restoring force at the same displacement, so the mass is accelerated more strongly and completes each cycle faster. The clue words are identical masses and stiffer (larger k).\n\n(A) is wrong because the formula gives a definite comparison with only the stated information: the same mass in the numerator and a larger k in the denominator mean a smaller period.\n(C) is wrong because equal masses alone do not set the period; the spring constant matters too, and here the two springs differ.\n(D) is wrong because it reverses the dependence on k; a larger k makes the period shorter, not longer."
     },
     {
       "id": "7-25",
@@ -5476,7 +5476,7 @@ const QUESTIONS = {
         "Cannot be determined without more information."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Mass A, the heavier one, has the longer period. With identical springs (same k), T = 2π√(m/k) increases with m. A larger mass has more inertia, so the same restoring force produces a smaller acceleration and the cycle takes longer. Clue words: \"identical springs,\" \"heavier.\"\n\n(A) is wrong because it reverses the dependence on mass.\n(B) is wrong because the spring is only one of the two quantities in the formula; mass differs.\n(D) is wrong because the comparison is determined by the formula."
+      "explanation": "Correct: (C) Mass A, the heavier one, has the longer period. With identical springs (the same k), T = 2π√(m/k) increases with m. A larger mass has more inertia, so the same restoring force produces a smaller acceleration and each cycle takes longer. The clue words are identical springs and heavier.\n\n(A) is wrong because it reverses the dependence on mass; the period grows with the square root of the mass, so the heavier mass is slower.\n(B) is wrong because the spring is only one of the two quantities in the period formula, and the masses differ, so the periods differ even though the springs are the same.\n(D) is wrong because the comparison is determined by the formula T = 2π√(m/k) with the same k and different m."
     },
     {
       "id": "7-26",
@@ -5619,7 +5619,7 @@ const QUESTIONS = {
         "Only for small swing angles (roughly under 15°)."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) only for small swing angles, roughly under 15°. The formula comes from replacing sinθ with θ (in radians) in the restoring force, which makes the motion SHM. That approximation is good only for small angles; at larger angles sinθ < θ, the restoring force is weaker, and the real period is longer. Clue words: \"accurate description.\"\n\n(A) is wrong because the length does not set the validity; a long pendulum with a huge swing still fails.\n(B) is wrong because larger angles break sinθ ≈ θ.\n(C) is wrong because g affects the period value but not the angle limitation."
+      "explanation": "Correct: (D) Only for small swing angles (roughly under 15°). The formula comes from replacing sinθ with θ (in radians) in the restoring force, which makes the motion simple harmonic. That approximation is good only for small angles; at larger angles sinθ < θ, the restoring force is weaker, and the real period is longer. The clue words are accurate description, pointing to the condition under which the model holds.\n\n(A) is wrong because the length does not set the validity; a long pendulum with a huge swing angle still fails the small-angle approximation.\n(B) is wrong because larger angles break the approximation sinθ ≈ θ, even if the string stays taut, so the formula is no longer accurate.\n(C) is wrong because g affects the value of the period but not the angle limitation, so a larger g does not make the formula accurate for large swings."
     },
     {
       "id": "7-37",
@@ -5645,7 +5645,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) it doubles. T = 2π√(L/g), so T ∝ √L. Quadrupling L multiplies T by √4 = 2. For example, a 1.0 m pendulum has T ≈ 2.0 s and a 4.0 m pendulum has T ≈ 4.0 s. Clue words: \"length is quadrupled.\"\n\n(A) is wrong because it treats T as directly proportional to L.\n(B) is wrong because the period depends on length.\n(D) is wrong because a longer pendulum swings more slowly, not faster."
+      "explanation": "Correct: (C) It doubles. For a pendulum T = 2π√(L/g), so T ∝ √L. Quadrupling L multiplies T by √4 = 2. For example, a 1.0 m pendulum has T ≈ 2.0 s and a 4.0 m pendulum has T ≈ 4.0 s. The clue words are that the length is quadrupled, so the square-root dependence is what matters.\n\n(A) is wrong because it treats T as directly proportional to L, but the period depends on the square root of the length, so a factor of 4 in L gives only a factor of 2 in T.\n(B) is wrong because the period depends on the length through T = 2π√(L/g), so changing the length changes the period.\n(D) is wrong because a longer pendulum swings more slowly, not faster, so the period cannot decrease."
     },
     {
       "id": "7-39",
@@ -5658,7 +5658,7 @@ const QUESTIONS = {
         "The pendulum stops swinging entirely."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) it increases. In T = 2π√(L/g), g is in the denominator, so a smaller g gives a larger period. Weaker gravity gives a weaker restoring force, so the bob accelerates back more slowly and each swing takes longer. Clue words: \"g is smaller.\"\n\n(A) is wrong because it reverses the dependence.\n(B) is wrong because g appears directly in the formula.\n(D) is wrong because as long as g > 0 there is a restoring force; the swing just slows."
+      "explanation": "Correct: (C) It increases. In T = 2π√(L/g), the gravitational acceleration g is in the denominator, so a smaller g gives a larger period. Weaker gravity gives a weaker restoring force, so the bob accelerates back toward the bottom more slowly and each swing takes longer. The clue words are that g is smaller while the length is unchanged.\n\n(A) is wrong because it reverses the dependence; the period decreases only if g increases, not if it decreases.\n(B) is wrong because g appears directly in the formula, so changing g necessarily changes the period.\n(D) is wrong because as long as g > 0 there is a restoring force pulling the bob back; the swing just slows, but the pendulum still oscillates."
     },
     {
       "id": "7-40",
@@ -5684,7 +5684,7 @@ const QUESTIONS = {
         "Yes, this formula is exact for any angle."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) no, for large angles the true period is somewhat longer. The formula depends on sinθ ≈ θ. At large angles sinθ is smaller than θ, so the true restoring force is weaker than the SHM model assumes, and the pendulum takes longer per swing than 2π√(L/g). Clue words: \"very LARGE angle,\" \"exact period.\"\n\n(A) is wrong because mass is irrelevant to the approximation.\n(B) is wrong because the pendulum still oscillates (periodically), just not exactly sinusoidally.\n(D) is wrong because the formula is exact for no angle; it is a good approximation only for small angles."
+      "explanation": "Correct: (C) No — for large angles, the true period is somewhat longer. The formula depends on the approximation sinθ ≈ θ. At large angles sinθ is smaller than θ, so the true restoring force is weaker than the simple harmonic model assumes, and the pendulum takes longer per swing than 2π√(L/g). The clue words are very large angle and exact period.\n\n(A) is wrong because the mass is irrelevant to the approximation; the formula involves only length and gravity, and a light bob does not make a large swing valid.\n(B) is wrong because the pendulum still oscillates periodically at large angles, just not exactly sinusoidally.\n(D) is wrong because the formula is exact for no angle at all; it is a good approximation only for small angles, and the error grows as the swing angle increases."
     },
     {
       "id": "7-42",
@@ -5697,7 +5697,7 @@ const QUESTIONS = {
         "16"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2. Because T ∝ √L, the ratio of periods is the square root of the ratio of lengths: T₂/T₁ = √(8.0/2.0) = √4 = 2. Numerically T₁ ≈ 2.84 s and T₂ ≈ 5.68 s. Clue words: \"ratio of Pendulum 2's period to Pendulum 1's.\"\n\n(B) is wrong because 8 is just the second length.\n(C) is wrong because 4 is the length ratio and the square root has not been taken.\n(D) is wrong because 16 squares the length ratio instead of taking its root."
+      "explanation": "Correct: (A) 2. Because the period of a pendulum satisfies T ∝ √L, the ratio of periods is the square root of the ratio of lengths: T<sub>2</sub>/T<sub>1</sub> = √(8.0/2.0) = √4 = 2. Numerically T<sub>1</sub> ≈ 2.84 s and T<sub>2</sub> ≈ 5.68 s. The factor 2π√(1/g) is the same for both pendulums and cancels in the ratio.\n\n(B) is wrong because 8 is just the second pendulum's length in meters; the ratio of periods depends on the square root of the ratio of lengths, not on that number.\n(C) is wrong because 4 is the length ratio, and the square root has not been taken; the period ratio is √4 = 2.\n(D) is wrong because 16 squares the length ratio instead of taking its root, which would make the period grow faster than the length, not slower."
     },
     {
       "id": "7-43",
@@ -5723,7 +5723,7 @@ const QUESTIONS = {
         "0.50 m"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.99 m. Solve for the length: L = g(T/2π)². With T = 2.0 s, T/2π = 0.3183 s, squared is 0.1013 s², and L = 9.8(0.1013) ≈ 0.99 m. This is the classic \"seconds pendulum\" of about 1 m. Clue words: \"period of exactly 2.0 s.\"\n\n(B) is wrong because 1.98 m doubles the answer.\n(C) is wrong because 0.25 m would correspond to a period of about 1.0 s (treating one swing as the whole cycle).\n(D) is wrong because 0.50 m halves the correct answer, and it would give T ≈ 1.4 s."
+      "explanation": "Correct: (A) 0.99 m. Solve T = 2π√(L/g) for the length: L = g(T/2π)². With T = 2.0 s, T/2π = 0.3183 s, which squared is 0.1013 s², so L = 9.8(0.1013) ≈ 0.99 m. This is the classic seconds pendulum of about one meter. The clue words are a period of exactly 2.0 s, which fixes the length through the formula.\n\n(B) is wrong because 1.98 m doubles the correct answer; a pendulum that long would have a period of about 2.8 s.\n(C) is wrong because 0.25 m would correspond to a period of about 1.0 s, so it is too short.\n(D) is wrong because 0.50 m halves the correct answer, and it would give a period of about 1.4 s, not 2.0 s."
     },
     {
       "id": "7-45",
@@ -6012,7 +6012,7 @@ const QUESTIONS = {
         "1000 kg/m³"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 1500 kg/m³. Density is mass per unit volume, ρ = m/V. With m = 750 kg and V = 0.50 m³: ρ = 750/0.50 = 1500 kg/m³, which is denser than water (1000 kg/m³). Clue words: \"mass 750 kg and volume 0.50 m³.\"\n\n(A) is wrong because 375 multiplies by 0.50 instead of dividing.\n(B) is wrong because 750 ignores the volume entirely.\n(D) is wrong because 1000 kg/m³ is water's density, not a value computed from these data."
+      "explanation": "Correct: (C) 1500 kg/m³. Density is mass per unit volume, ρ = m/V. With m = 750 kg and V = 0.50 m³, ρ = 750 kg ÷ 0.50 m³ = 1500 kg/m³, which is denser than water (1000 kg/m³). The clue words are mass 750 kg and volume 0.50 m³, which point straight to the quotient m/V.\n\n(A) is wrong because 375 multiplies the mass by 0.50 instead of dividing; since density is mass per volume, dividing by a volume smaller than one makes the density larger than the mass, not smaller.\n(B) is wrong because 750 ignores the volume entirely and just repeats the mass number, which is not a density.\n(D) is wrong because 1000 kg/m³ is the density of water, a memorized reference value and not a result computed from the data given for this object."
     },
     {
       "id": "8-2",
@@ -6064,7 +6064,7 @@ const QUESTIONS = {
         "5.0 m²"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 0.2 m². Rearrange P = F/A to A = F/P = 800 N / 4000 Pa = 0.2 m². Clue words: \"area over which it's applied.\"\n\n(A) is wrong because 0.5 does not come from F/P; it is an arithmetic slip.\n(C) is wrong because 3,200,000 multiplies F by P instead of dividing.\n(D) is wrong because 5.0 inverts the ratio (P/F = 4000/800)."
+      "explanation": "Correct: (B) 0.2 m². Pressure is force per unit area, P = F/A, so the area is found by rearranging to A = F/P = 800 N ÷ 4000 Pa = 0.2 m². The units work because N divided by N/m² leaves m². The clue words are the area over which the force is applied, so the unknown is A.\n\n(A) is wrong because 0.5 m² does not come from F/P; it would require a force of 2000 N at the given pressure, while the stem gives 800 N.\n(C) is wrong because 3,200,000 multiplies F by P (800 × 4000) instead of dividing, which gives a number with meaningless units for an area.\n(D) is wrong because 5.0 inverts the ratio (P/F = 4000/800); the area is force divided by pressure, which gives 0.2 m²."
     },
     {
       "id": "8-6",
@@ -6077,7 +6077,7 @@ const QUESTIONS = {
         "300 N"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 3000 N. Force is pressure times area: F = PA = (1.5×10⁵ Pa)(0.020 m²) = 3.0×10³ N = 3000 N. Clue words: \"resulting force,\" pressure and area given.\n\n(A) is wrong because it divides instead of multiplying; A/P is only 1.3×10⁻⁷, so 0.13 comes from dividing 0.020 by 0.15 with the 10⁵ mishandled.\n(C) is wrong because 7,500,000 divides pressure by area (P/A).\n(D) is wrong because 300 is a factor-of-ten slip in the multiplication."
+      "explanation": "Correct: (B) 3000 N. Force is pressure times area, F = PA. With P = 1.5×10<sup>5</sup> Pa and A = 0.020 m², F = (1.5×10<sup>5</sup> Pa)(0.020 m²) = 3.0×10<sup>3</sup> N = 3000 N. The units work because Pa times m² is N. The clue words are resulting force, with pressure and area given.\n\n(A) is wrong because 0.13 N is far too small: a pressure of 150,000 Pa over 0.020 m² cannot produce a force under one newton, and it comes from dividing rather than multiplying.\n(C) is wrong because 7,500,000 N divides the pressure by the area (1.5×10<sup>5</sup> ÷ 0.020), which is not how force is found.\n(D) is wrong because 300 N is ten times too small, as would result from a decimal slip in the multiplication; the correct product is 3000 N."
     },
     {
       "id": "8-7",
@@ -6090,7 +6090,7 @@ const QUESTIONS = {
         "They spread the weight over a larger area, lowering the pressure."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) they spread the weight over a larger area, lowering the pressure. Pressure is P = F/A. The person's weight (the force) is unchanged, but the snowshoe has a much larger contact area, so the pressure on the snow is much smaller and the surface is less likely to give way. Clue words: \"in terms of pressure.\"\n\n(A) is wrong because the person's weight is still the same; snowshoes do not reduce it.\n(B) is wrong because they do not melt the snow.\n(C) is wrong because a firmer snow comes from lower pressure, not greater force."
+      "explanation": "Correct: (D) They spread the weight over a larger area, lowering the pressure. Pressure is P = F/A. The person's weight, which is the force on the snow, is unchanged, but the snowshoe has a much larger contact area, so the pressure on the snow is much smaller and the surface is less likely to give way. The clue words are in terms of pressure, which points to the force-over-area relation.\n\n(A) is wrong because the person's weight is still the same; snowshoes support the person on the snow but do not reduce the downward force on it.\n(B) is wrong because snowshoes do not melt the snow; they have no heating effect, and melting would make the footing worse.\n(C) is wrong because firmer footing comes from lower pressure, not greater force; increasing the force on the same area would push the person deeper."
     },
     {
       "id": "8-8",
@@ -6116,7 +6116,7 @@ const QUESTIONS = {
         "kg/m³"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) pascal (Pa). Pressure is force per unit area, and the SI unit is the pascal, 1 Pa = 1 N/m².\n\n(B) is wrong because the newton is the unit of force.\n(C) is wrong because the joule is the unit of energy and work.\n(D) is wrong because kg/m³ is the unit of density."
+      "explanation": "Correct: (A) Pascal (Pa). Pressure is force per unit area, P = F/A, and the SI unit that results is the pascal, where 1 Pa = 1 N/m². A pressure of 1 pascal is quite small, so everyday pressures are often given in kilopascals or atmospheres, but the base unit is still the pascal.\n\n(B) is wrong because the newton is the SI unit of force, which is only the numerator of the pressure; pressure also divides by area.\n(C) is wrong because the joule is the SI unit of energy and work, which is a force times a distance rather than a force over an area.\n(D) is wrong because kg/m³ is the unit of density, a mass divided by a volume, which is a different quantity from pressure."
     },
     {
       "id": "8-10",
@@ -6129,7 +6129,7 @@ const QUESTIONS = {
         "5.07×10⁴ Pa"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 2.026×10⁵ Pa. Multiply by the conversion factor: 2.0 atm × 1.013×10⁵ Pa/atm = 2.026×10⁵ Pa. Clue words: \"convert 2.0 atm.\"\n\n(A) is wrong because 1.013×10⁵ Pa is only 1 atm.\n(C) is wrong because 4.052×10⁵ multiplies by 2 twice.\n(D) is wrong because 5.07×10⁴ divides by 2 instead of multiplying."
+      "explanation": "Correct: (B) 2.026×10<sup>5</sup> Pa. To convert units, multiply by the conversion factor: 2.0 atm × 1.013×10<sup>5</sup> Pa/atm = 2.026×10<sup>5</sup> Pa. The atm units cancel, leaving pascals. The clue words are convert 2.0 atm, and the conversion factor is given in the stem, so no other physics is needed.\n\n(A) is wrong because 1.013×10<sup>5</sup> Pa is only 1 atm, which is half of the 2.0 atm in the question.\n(C) is wrong because 4.052×10<sup>5</sup> Pa multiplies by 2 twice, equal to 4 atm rather than the 2.0 atm requested.\n(D) is wrong because 5.07×10<sup>4</sup> Pa divides 1.013×10<sup>5</sup> by 2 instead of multiplying, and it is smaller than a single atmosphere, so it cannot be 2.0 atm."
     },
     {
       "id": "8-11",
@@ -6142,7 +6142,7 @@ const QUESTIONS = {
         "Both have equal density, since their volumes are equal."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) object A has the greater density. Since ρ = m/V and the volumes are equal, density is proportional to mass, so the object with more mass is denser. Clue words: \"same volume,\" \"more mass.\"\n\n(B) is wrong because it reverses the relationship.\n(C) is wrong because the given information is enough.\n(D) is wrong because equal volumes do not give equal densities unless the masses are also equal."
+      "explanation": "Correct: (A) Object A has greater density. Since density is ρ = m/V and the two volumes are equal, the density is proportional to the mass, so the object with more mass is denser. For example, 4 kg in 2 m³ gives 2 kg/m³, while 2 kg in 2 m³ gives 1 kg/m³. The clue words are same volume and more mass.\n\n(B) is wrong because it reverses the relationship; with a common volume in the denominator, the larger mass gives the larger density, not the smaller.\n(C) is wrong because the given information is enough: equal volumes and a larger mass settle the comparison.\n(D) is wrong because equal volumes give equal densities only if the masses are also equal, and the stem says Object A has more mass."
     },
     {
       "id": "8-12",
@@ -6181,7 +6181,7 @@ const QUESTIONS = {
         "Equally in every direction."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) equally in every direction. At a point in a fluid at rest, the pressure is the same in all directions (Pascal's principle). A small submerged surface feels the same pressure no matter how it is turned, which is why a diver is squeezed from all sides.\n\n(A) is wrong because pressure is not just upward.\n(B) is wrong because it is not only sideways.\n(C) is wrong because the \"weight pressing down\" intuition applies to the force on a horizontal surface, but the pressure itself has no preferred direction."
+      "explanation": "Correct: (D) Equally in every direction. At a point in a fluid at rest, the pressure is the same in all directions, which is a consequence of Pascal's principle. A small submerged surface feels the same pressure no matter how it is turned, which is why a diver is squeezed from all sides rather than only from above.\n\n(A) is wrong because the pressure is not just upward; the fluid pushes on a surface from every side, with the force directed perpendicular to that surface.\n(B) is wrong because the pressure is not only sideways; a horizontal surface in the fluid also feels a force from the fluid above or below it.\n(C) is wrong because the weight pressing down intuition applies to the force on a horizontal surface, but the pressure itself at a point has no preferred direction."
     },
     {
       "id": "8-15",
@@ -6220,7 +6220,7 @@ const QUESTIONS = {
         "20 m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 20 m. Gauge pressure in a static fluid is P<sub>gauge</sub> = ρgh, so h = P<sub>gauge</sub>/(ρg) = 196,000 Pa / (1000 kg/m³ × 9.8 m/s²) = 196,000/9800 = 20 m. Clue words: \"gauge pressure,\" \"corresponding depth.\"\n\n(A) is wrong because 15 m would give only 147,000 Pa.\n(B) is wrong because 10 m gives 98,000 Pa, half the stated pressure (the common 98,000 per 10 m value).\n(C) is wrong because 25 m would give 245,000 Pa."
+      "explanation": "Correct: (D) 20 m. Gauge pressure in a static fluid is P<sub>gauge</sub> = ρgh, so the depth is h = P<sub>gauge</sub>/(ρg) = 196,000 Pa ÷ (1000 kg/m³ × 9.8 m/s²) = 196,000 ÷ 9800 = 20 m. The clue words are gauge pressure and corresponding depth, which signal that atmospheric pressure is left out and only ρgh is used.\n\n(A) is wrong because 15 m of water would give only 147,000 Pa, less than the 196,000 Pa stated.\n(B) is wrong because 10 m gives 98,000 Pa, only half of the stated pressure, since water adds about 98,000 Pa for every 10 m of depth.\n(C) is wrong because 25 m would give 245,000 Pa, which is more than the 196,000 Pa measured."
     },
     {
       "id": "8-18",
@@ -6233,7 +6233,7 @@ const QUESTIONS = {
         "No — pressure at a given depth depends only on depth and density."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) no, pressure at a given depth depends only on depth (and density, and g). In P = P₀ + ρgh there is no term for the total volume or shape of the container. The pressure at a point is set by the height of fluid directly above it, so a thin tube and a wide lake of the same depth give the same pressure.\n\n(A) is wrong because no volume threshold exists.\n(B) is wrong because adding fluid sideways does not add pressure at fixed depth.\n(C) is wrong because pressure is perfectly well defined from depth alone."
+      "explanation": "Correct: (D) No — pressure at a given depth depends only on depth and density. In P = P<sub>0</sub> + ρgh there is no term for the total volume or the shape of the container. The pressure at a point is set by the height of the fluid directly above it, so a thin tube and a wide lake of the same depth give the same pressure at the bottom.\n\n(A) is wrong because no volume threshold exists; the formula holds for small and large amounts of fluid alike, as long as the depth is the same.\n(B) is wrong because adding fluid sideways does not add pressure at a fixed depth; only a greater depth above the point increases the pressure.\n(C) is wrong because pressure is perfectly well defined from depth, density, and g alone, with no need to know the total volume."
     },
     {
       "id": "8-19",
@@ -6272,7 +6272,7 @@ const QUESTIONS = {
         "7840 Pa"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 78,400 Pa. Pressure difference between two points in a static fluid depends only on the vertical separation: ΔP = ρgΔh = (1000)(9.8)(8.0) = 78,400 Pa. Clue words: \"vertical distance of 8.0 m.\"\n\n(B) is wrong because 9800 Pa corresponds to 1.0 m of water.\n(C) is wrong because 784,000 is ten times too large.\n(D) is wrong because 7840 is ten times too small."
+      "explanation": "Correct: (A) 78,400 Pa. The pressure difference between two points in a static fluid depends only on their vertical separation: ΔP = ρgΔh = (1000 kg/m³)(9.8 m/s²)(8.0 m) = 78,400 Pa. The clue words are vertical distance of 8.0 m, and the atmospheric pressure cancels in the difference.\n\n(B) is wrong because 9800 Pa corresponds to a separation of only 1.0 m of water, since ρg = 9800 Pa per meter; the stem gives 8.0 m.\n(C) is wrong because 784,000 Pa is ten times too large, which would correspond to a separation of 80 m.\n(D) is wrong because 7840 Pa is ten times too small, which would correspond to a separation of only 0.80 m."
     },
     {
       "id": "8-22",
@@ -6337,7 +6337,7 @@ const QUESTIONS = {
         "0.025 m²"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0.0025 m². Equal pressure means F₁/A₁ = F₂/A₂, so A₁ = F₁A₂/F₂ = (100 N)(0.20 m²)/(8000 N) = 20/8000 = 0.0025 m². The required force ratio of 80 means the input area must be 1/80 of the output area: 0.20/80 = 0.0025.\n\n(A) is wrong because 0.010 m² is 1/20 of the output area, only a 20-fold gain.\n(B) is wrong because 0.16 does not follow from the force ratio.\n(D) is wrong because 0.025 is a factor-of-ten slip."
+      "explanation": "Correct: (C) 0.0025 m². In a hydraulic system the pressure is equal at both pistons, so F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>, and the input area is A<sub>1</sub> = F<sub>1</sub>A<sub>2</sub>/F<sub>2</sub> = (100 N)(0.20 m²) ÷ (8000 N) = 20 ÷ 8000 = 0.0025 m². The required force ratio of 80 means the input area must be 1/80 of the output area: 0.20 ÷ 80 = 0.0025.\n\n(A) is wrong because 0.010 m² is 1/20 of the output area, which would give only a twenty-fold multiplication, not the 80-fold needed to turn 100 N into 8000 N.\n(B) is wrong because 0.16 m² does not follow from the force ratio; it is almost as large as the output piston, so it would give almost no multiplication.\n(D) is wrong because 0.025 m² is ten times too large, giving a multiplication of only 8."
     },
     {
       "id": "8-27",
@@ -6363,7 +6363,7 @@ const QUESTIONS = {
         "1500 N"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 15,000 N. Equal pressure gives F₂ = F₁(A₂/A₁) = 300 N × (0.25/0.0050) = 300 × 50 = 15,000 N. Clue words: \"car lift,\" two piston areas.\n\n(A) is wrong because 6 N uses the inverted ratio (300/50).\n(B) is wrong because 6000 N is 300 × 20, a wrong area ratio.\n(D) is wrong because 1500 N is a factor-of-ten slip."
+      "explanation": "Correct: (C) 15,000 N. Equal pressure at the two pistons gives F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>, so F<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>) = 300 N × (0.25 ÷ 0.0050) = 300 × 50 = 15,000 N. The area ratio of 50 is the multiplication factor of the lift. The clue words are car lift and two piston areas.\n\n(A) is wrong because 6 N uses the inverted ratio (300 ÷ 50); the larger output piston multiplies the force, so the output must exceed the input.\n(B) is wrong because 6000 N is 300 × 20, which uses a wrong area ratio; 0.25 divided by 0.0050 is 50, not 20.\n(D) is wrong because 1500 N is ten times too small, which would correspond to a multiplication factor of only 5."
     },
     {
       "id": "8-29",
@@ -6376,7 +6376,7 @@ const QUESTIONS = {
         "Both pressure and force are always equal."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) pressure is equal, force generally differs. In a connected fluid at the same height, Pascal's Principle makes the pressure the same at both pistons. Since F = PA, pistons of different area have different forces, which is how hydraulics multiplies force.\n\n(A) is wrong because it reverses the two quantities.\n(C) is wrong because the pressure is equal.\n(D) is wrong because forces are equal only if the areas are equal."
+      "explanation": "Correct: (B) Pressure is equal; force generally differs. In a connected fluid at the same height, Pascal's principle makes the pressure the same at both pistons. Since F = PA, pistons with different areas have different forces, which is how a hydraulic system multiplies force: the larger piston carries a proportionally larger force at the same pressure.\n\n(A) is wrong because it reverses the two quantities; the force is not what the fluid equalizes, the pressure is.\n(C) is wrong because the pressure at the same height is equal in a connected fluid, so something is equal.\n(D) is wrong because the forces are equal only if the piston areas are equal, and a hydraulic machine works precisely because the areas differ."
     },
     {
       "id": "8-30",
@@ -6415,7 +6415,7 @@ const QUESTIONS = {
         "20"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 20. Equal pressure means F₂/F₁ = A₂/A₁ = 0.030/0.0015 = 20, so the brake piston delivers 20 times the pedal force. Clue words: \"force multiplication factor.\"\n\n(A) is wrong because 45 is not from the area ratio (it looks like adding or mixing numbers).\n(B) is wrong because 10 is half of the true ratio, from an arithmetic slip.\n(C) is wrong because 5 is a further arithmetic slip, with no basis in 0.030/0.0015."
+      "explanation": "Correct: (D) 20. In a hydraulic system the pressure is equal at the two pistons, so F<sub>2</sub>/F<sub>1</sub> = A<sub>2</sub>/A<sub>1</sub> = 0.030 ÷ 0.0015 = 20, which means the brake piston delivers 20 times the force applied at the pedal piston. The clue words are force multiplication factor, which is the ratio of the output force to the input force.\n\n(A) is wrong because 45 does not come from the area ratio; dividing 0.030 by 0.0015 gives 20, not 45.\n(B) is wrong because 10 is half of the true ratio; the brake piston area is 20 times the pedal piston area, not 10 times.\n(C) is wrong because 5 has no basis in 0.030 ÷ 0.0015 and would understate the multiplication of force by a factor of four."
     },
     {
       "id": "8-33",
@@ -6428,7 +6428,7 @@ const QUESTIONS = {
         "F1+A1 = F2+A2"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) F₁/A₁ = F₂/A₂. Pascal's Principle says the pressure is the same at both pistons at the same height, and since P = F/A, equal pressure means F₁/A₁ = F₂/A₂.\n\n(B) is wrong because F·A has no physical meaning here.\n(C) is wrong because forces are equal only if the areas are equal.\n(D) is wrong because it adds quantities with different units (newtons and square meters)."
+      "explanation": "Correct: (A) F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>. Pascal's principle says the pressure is the same at both pistons at the same height in an enclosed incompressible fluid, and since pressure is P = F/A, equal pressure means F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>. The larger piston therefore carries the larger force, in proportion to its area.\n\n(B) is wrong because the product F·A has no physical meaning here; pressure is force divided by area, not multiplied by it.\n(C) is wrong because the forces are equal only if the areas are equal, and the stem says the pistons have different areas.\n(D) is wrong because it adds quantities with different units, newtons and square meters, which cannot be added."
     },
     {
       "id": "8-34",
@@ -6441,7 +6441,7 @@ const QUESTIONS = {
         "98 N"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 196 N. Archimedes' principle: F<sub>b</sub> = ρ<sub>fluid</sub> V<sub>displaced</sub> g = (1000 kg/m³)(0.020 m³)(9.8 m/s²) = 196 N. Clue words: \"displaces 0.020 m³ of water.\"\n\n(B) is wrong because 19.6 N is ten times too small (as if the volume were 0.0020 m³).\n(C) is wrong because 1960 N is ten times too large.\n(D) is wrong because 98 N is half the answer, as if g were 4.9."
+      "explanation": "Correct: (A) 196 N. Archimedes' principle says the buoyant force equals the weight of the displaced fluid: F<sub>b</sub> = ρ<sub>fluid</sub>V<sub>displaced</sub>g = (1000 kg/m³)(0.020 m³)(9.8 m/s²) = 196 N. The object's own mass and density do not enter, only the volume of water it pushes aside. The clue words are displaces 0.020 m³ of water.\n\n(B) is wrong because 19.6 N is ten times too small, which is what a displaced volume of 0.0020 m³ would give; the stem says 0.020 m³.\n(C) is wrong because 1960 N is ten times too large, which would correspond to a displaced volume of 0.20 m³ rather than 0.020 m³.\n(D) is wrong because 98 N is exactly half of the correct value, as would result from using g = 4.9 m/s² or half the displaced volume."
     },
     {
       "id": "8-35",
@@ -6467,7 +6467,7 @@ const QUESTIONS = {
         "490 N"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 490 N. The buoyant force equals the weight of the displaced fluid: F<sub>b</sub> = ρ<sub>fluid</sub> V g = (1000 kg/m³)(0.050 m³)(9.8 m/s²) = 490 N. Clue words: \"fully submerged,\" \"displacing 0.050 m³.\"\n\n(A) is wrong because 980 N doubles the correct value.\n(B) is wrong because 245 N is half the correct value.\n(C) is wrong because 49 N is ten times too small, as if the displaced volume were 0.0050 m³."
+      "explanation": "Correct: (D) 490 N. The buoyant force equals the weight of the displaced fluid: F<sub>b</sub> = ρ<sub>fluid</sub>Vg = (1000 kg/m³)(0.050 m³)(9.8 m/s²) = 490 N. Because the object is fully submerged, the displaced volume equals the object's whole volume, and nothing else about the object matters. The clue words are fully submerged and displacing 0.050 m³.\n\n(A) is wrong because 980 N doubles the correct value, which would require a displaced volume of 0.100 m³ rather than 0.050 m³.\n(B) is wrong because 245 N is half the correct value, corresponding to a displaced volume of only 0.025 m³.\n(C) is wrong because 49 N is ten times too small, as would result if the displaced volume were 0.0050 m³ instead of 0.050 m³."
     },
     {
       "id": "8-37",
@@ -6519,7 +6519,7 @@ const QUESTIONS = {
         "When the object's density is less than the fluid's density."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) when the object's density exceeds the fluid's density. Even fully submerged, the object displaces only its own volume, giving a maximum buoyant force ρ<sub>fluid</sub> V g. If ρ<sub>obj</sub> > ρ<sub>fluid</sub>, then its weight ρ<sub>obj</sub> V g is larger, so the net force is downward and it sinks.\n\n(B) is wrong because comparing total volumes is not the criterion; density is.\n(C) is wrong because dense objects, like rocks in water, do sink.\n(D) is wrong because a less dense object floats."
+      "explanation": "Correct: (A) When the object's density exceeds the fluid's density. Even when fully submerged, the object displaces only its own volume, giving a maximum buoyant force of ρ<sub>fluid</sub>Vg. If ρ<sub>obj</sub> > ρ<sub>fluid</sub>, then its weight ρ<sub>obj</sub>Vg is larger than that buoyant force, so the net force is downward and the object sinks. A rock in water is a typical example.\n\n(B) is wrong because comparing total volumes is not the criterion; a huge ship floats and a small pebble sinks, so density is what decides.\n(C) is wrong because dense objects, like rocks or steel bolts in water, do sink, since their weight exceeds the maximum buoyant force.\n(D) is wrong because an object less dense than the fluid floats, since its weight is less than the buoyant force when fully submerged."
     },
     {
       "id": "8-41",
@@ -6532,7 +6532,7 @@ const QUESTIONS = {
         "0.02 m³"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0.005 m³. The block's volume is V = m/ρ = 5.0 kg / 500 kg/m³ = 0.010 m³. A floating object submerges the fraction ρ<sub>obj</sub>/ρ_fluid = 500/1000 = 0.50, so the submerged volume is 0.50 × 0.010 = 0.005 m³. Clue words: \"floats,\" \"volume that is submerged.\"\n\n(A) is wrong because 0.01 m³ is the total volume.\n(B) is wrong because 0.0025 is half of the correct amount (25% submerged).\n(D) is wrong because 0.02 m³ exceeds the block's whole volume, which is impossible."
+      "explanation": "Correct: (C) 0.005 m³. The block's total volume is V = m/ρ = 5.0 kg ÷ 500 kg/m³ = 0.010 m³. A floating object submerges the fraction ρ<sub>obj</sub>/ρ<sub>fluid</sub> = 500/1000 = 0.50 of its volume, because the buoyant force must equal its weight, so the submerged volume is 0.50 × 0.010 m³ = 0.005 m³. The clue words are floats and the volume that is submerged.\n\n(A) is wrong because 0.01 m³ is the total volume of the block, which would mean the block is entirely submerged; a block half as dense as water floats half out.\n(B) is wrong because 0.0025 m³ is half of the correct amount, corresponding to only 25% of the block submerged.\n(D) is wrong because 0.02 m³ exceeds the block's whole volume of 0.010 m³, so more of the block could not be submerged than exists."
     },
     {
       "id": "8-42",
@@ -6545,7 +6545,7 @@ const QUESTIONS = {
         "Apparent weight = actual weight + buoyant force."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) apparent weight = actual weight − buoyant force. The buoyant force acts upward and partially supports the object, so a scale or spring balance reading the net downward force reads W − F<sub>b</sub>. Clue words: \"apparent weight\" while submerged.\n\n(B) is wrong because the apparent weight is not just the buoyant force; the actual weight is involved.\n(C) is wrong because the two are directly related.\n(D) is wrong because it adds, as if buoyancy pushed downward."
+      "explanation": "Correct: (A) Apparent weight = actual weight − buoyant force. The buoyant force acts upward and partially supports the object, so a scale or spring balance that reads the net downward force on it reads W − F<sub>b</sub>. For example, an object weighing 50 N in air that feels a 20 N buoyant force reads 30 N when submerged. The clue words are apparent weight while submerged.\n\n(B) is wrong because the apparent weight is not just the buoyant force; the actual weight is involved, and the buoyant force is only what reduces it.\n(C) is wrong because the two are directly related: the apparent weight is lower exactly by the amount of the buoyant force.\n(D) is wrong because it adds the two, as if buoyancy pushed downward, but the buoyant force is directed upward and opposes the weight."
     },
     {
       "id": "8-43",
@@ -6558,7 +6558,7 @@ const QUESTIONS = {
         "Fb=20N; V≈0.0392 m³"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) F<sub>b</sub> = 20 N; V ≈ 0.00204 m³. The buoyant force is the loss of apparent weight: F<sub>b</sub> = 50 − 30 = 20 N. Fully submerged, V = F<sub>b</sub>/(ρ<sub>water</sub> g) = 20/(1000 × 9.8) ≈ 0.00204 m³. Clue words: \"weighs 50 N in air,\" \"apparent weight of 30 N.\"\n\n(B) is wrong because 80 N adds the two weights.\n(C) is wrong because 30 N is the apparent weight, not the buoyant force.\n(D) is wrong because the force is right, but the volume is about 19 times too large and does not follow from F<sub>b</sub>/(ρg)."
+      "explanation": "Correct: (A) F<sub>b</sub> = 20 N; V ≈ 0.00204 m³. The buoyant force is the loss of apparent weight when the object is submerged: F<sub>b</sub> = 50 N − 30 N = 20 N. For a fully submerged object, the volume equals the displaced volume, V = F<sub>b</sub>/(ρ<sub>water</sub>g) = 20 ÷ (1000 × 9.8) ≈ 0.00204 m³. The clue words are weighs 50 N in air and apparent weight of 30 N.\n\n(B) is wrong because 80 N adds the two weights, but the buoyant force is the difference, 20 N, and its volume 80/9800 ≈ 0.00816 m³ follows from the wrong force.\n(C) is wrong because 30 N is the apparent weight, not the buoyant force, and the volume 30/9800 ≈ 0.00306 m³ follows from that wrong force.\n(D) is wrong because the force of 20 N is right, but the volume 0.0392 m³ is about 19 times too large and does not follow from F<sub>b</sub>/(ρg)."
     },
     {
       "id": "8-44",
@@ -6597,7 +6597,7 @@ const QUESTIONS = {
         "12 m/s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 12 m/s. By continuity A₁v₁ = A₂v₂: (0.020)(3.0) = (0.0050)v₂, so v₂ = 0.060/0.0050 = 12 m/s. The area shrinks by 4, so the speed rises by 4. Clue words: \"pipe narrows.\"\n\n(A) is wrong because 0.75 m/s inverts the ratio, giving a slower speed.\n(B) is wrong because it ignores the narrowing.\n(C) is wrong because 6.0 would require the area to drop by only a factor of 2."
+      "explanation": "Correct: (D) 12 m/s. For an incompressible fluid the continuity equation holds: A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>, so (0.020 m²)(3.0 m/s) = (0.0050 m²)v<sub>2</sub> and v<sub>2</sub> = 0.060 ÷ 0.0050 = 12 m/s. The area shrinks by a factor of 4, so the speed rises by a factor of 4. The clue words are that the pipe narrows.\n\n(A) is wrong because 0.75 m/s inverts the ratio, dividing by 4 instead of multiplying by 4, and gives a slower speed in the narrower section.\n(B) is wrong because 3.0 m/s ignores the narrowing; the same speed in a smaller area would carry less water per second than comes in.\n(C) is wrong because 6.0 m/s would require the area to drop by only a factor of 2, but it drops from 0.020 to 0.0050 m², a factor of 4."
     },
     {
       "id": "8-47",
@@ -6610,7 +6610,7 @@ const QUESTIONS = {
         "The speed increases."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) the speed increases. Continuity requires Av = constant for an incompressible fluid. If A gets smaller, v must get larger so the volume flow rate is unchanged, as with a garden hose nozzle.\n\n(A) is wrong because constant speed would reduce the flow rate where the pipe narrows.\n(B) is wrong because the fluid keeps flowing.\n(C) is wrong because it reverses the Av = constant relationship."
+      "explanation": "Correct: (D) The speed increases. For an incompressible fluid the continuity equation requires Av = constant, where A is the cross-sectional area and v the speed. If A gets smaller, v must get larger so that the volume flow rate stays the same, as with the nozzle of a garden hose, where the water speeds up as the opening narrows.\n\n(A) is wrong because a constant speed through a smaller area would reduce the volume flow rate where the pipe narrows, so fluid would pile up behind the constriction.\n(B) is wrong because the fluid keeps flowing; the narrowing changes how fast it moves, but the same volume per second passes through.\n(C) is wrong because it reverses the Av = constant relationship; a smaller area means a larger speed, not a smaller one."
     },
     {
       "id": "8-48",
@@ -6649,7 +6649,7 @@ const QUESTIONS = {
         "50 m³/s"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.05 m³/s. Volume flow rate is Q = Av = (0.010 m²)(5.0 m/s) = 0.05 m³/s. Clue words: \"volume flow rate.\"\n\n(B) is wrong because 0.002 divides A by v.\n(C) is wrong because 0.5 is a factor-of-ten slip.\n(D) is wrong because 50 m³/s is a factor of 1000 too large and has no valid origin; dividing v by A would give 500, not 50."
+      "explanation": "Correct: (A) 0.05 m³/s. The volume flow rate is the cross-sectional area times the fluid speed, Q = Av = (0.010 m²)(5.0 m/s) = 0.05 m³/s. The units work because m² times m/s is m³/s, the volume passing a point each second. The clue words are volume flow rate, with an area and a speed given.\n\n(B) is wrong because 0.002 divides the area by the speed (0.010 ÷ 5.0), but the flow rate is their product.\n(C) is wrong because 0.5 m³/s is ten times too large, as would result from a decimal slip in the multiplication.\n(D) is wrong because 50 m³/s is a factor of 1000 too large and has no valid origin; even dividing v by A would give 500, not 50, and a division would be wrong anyway."
     },
     {
       "id": "8-51",
@@ -6662,7 +6662,7 @@ const QUESTIONS = {
         "The fluid must have zero viscosity."
       ],
       "correct": 0,
-      "explanation": "Correct: (A) the fluid must be incompressible. If density stays constant, conserving mass (ρAv constant) is the same as conserving volume flow rate, giving A₁v₁ = A₂v₂.\n\n(B) is wrong because for a compressible fluid the density changes, and the simple equation no longer holds.\n(C) is wrong because the equation describes flowing fluid, not static.\n(D) is wrong because zero viscosity is an assumption of Bernoulli's equation, not of continuity."
+      "explanation": "Correct: (A) The fluid must be incompressible. If the density stays constant, conservation of mass (ρAv constant) is the same as conservation of volume flow rate, which gives A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>. The density cancels from both sides, which is only possible when it does not change along the flow. Liquids such as water satisfy this to a very good approximation.\n\n(B) is wrong because for a compressible fluid the density changes along the flow, so the mass flow ρAv is conserved but the simple area-speed equation no longer holds.\n(C) is wrong because the equation describes a flowing fluid, not a fluid at rest; if the fluid were at rest, v would be zero everywhere and the equation would say nothing.\n(D) is wrong because zero viscosity is an assumption of Bernoulli's equation, not of the continuity equation."
     },
     {
       "id": "8-52",
@@ -6701,7 +6701,7 @@ const QUESTIONS = {
         "Second: 1.33 m/s; Third: 2.0 m/s"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) second 12 m/s; third 8.0 m/s. Volume flow rate is constant: Q = A₁v₁ = (0.030)(4.0) = 0.12 m³/s. Then v₂ = Q/A₂ = 0.12/0.010 = 12 m/s and v₃ = Q/A₃ = 0.12/0.015 = 8.0 m/s. The narrowest section has the fastest flow.\n\n(A) is wrong because it swaps the two speeds.\n(C) is wrong because the third section is wider than the second, so the speed there must be lower.\n(D) is wrong because it divides the speed by the area ratio instead of multiplying, giving slower flow in narrower pipe."
+      "explanation": "Correct: (B) Second: 12 m/s; third: 8.0 m/s. For an incompressible fluid the volume flow rate is constant: Q = A<sub>1</sub>v<sub>1</sub> = (0.030 m²)(4.0 m/s) = 0.12 m³/s. Then v<sub>2</sub> = Q/A<sub>2</sub> = 0.12 ÷ 0.010 = 12 m/s and v<sub>3</sub> = Q/A<sub>3</sub> = 0.12 ÷ 0.015 = 8.0 m/s. The narrowest section has the fastest flow.\n\n(A) is wrong because it swaps the two speeds, giving the faster flow to the wider third section, but the smaller area of 0.010 m² must have the larger speed.\n(C) is wrong because the third section is wider than the second, so the speed there must be lower than 12 m/s, not equal to it.\n(D) is wrong because 1.33 and 2.0 m/s multiply the speed by the area ratio (A<sub>2</sub>/A<sub>1</sub>) instead of dividing, which would give slower flow in the narrower pipe."
     },
     {
       "id": "8-55",
@@ -6740,7 +6740,7 @@ const QUESTIONS = {
         "1.66×10⁵ Pa"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.34×10⁵ Pa. For a horizontal pipe the height terms cancel: P₁ + ½ρv₁² = P₂ + ½ρv₂². So P₂ = P₁ + ½ρ(v₁² − v₂²) = 1.5×10⁵ + ½(1000)(4 − 36) = 1.5×10⁵ − 16,000 = 1.34×10⁵ Pa. The faster, narrower region has lower pressure.\n\n(B) is wrong because 1.50×10⁵ ignores the speed change.\n(C) is wrong because 1.18×10⁵ subtracts 32,000 Pa, leaving off the factor of ½.\n(D) is wrong because 1.66×10⁵ adds the 16,000 Pa, which would mean pressure rises where the fluid speeds up."
+      "explanation": "Correct: (A) 1.34×10<sup>5</sup> Pa. For a horizontal pipe the height terms cancel, so Bernoulli's equation gives P<sub>1</sub> + ½ρv<sub>1</sub>² = P<sub>2</sub> + ½ρv<sub>2</sub>². Then P<sub>2</sub> = P<sub>1</sub> + ½ρ(v<sub>1</sub>² − v<sub>2</sub>²) = 1.5×10<sup>5</sup> + ½(1000)(4 − 36) = 1.5×10<sup>5</sup> − 16,000 = 1.34×10<sup>5</sup> Pa. The faster, narrower region has the lower pressure.\n\n(B) is wrong because 1.50×10<sup>5</sup> Pa ignores the speed change; a speed increase from 2.0 to 6.0 m/s must lower the pressure.\n(C) is wrong because 1.18×10<sup>5</sup> Pa subtracts 32,000 Pa, which leaves off the factor of ½ in the dynamic pressure ½ρv².\n(D) is wrong because 1.66×10<sup>5</sup> Pa adds the 16,000 Pa instead of subtracting it, which would mean the pressure rises where the fluid speeds up."
     },
     {
       "id": "8-58",
@@ -6766,7 +6766,7 @@ const QUESTIONS = {
         "4,000 Pa"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 16,000 Pa. For horizontal flow, the pressure drop is ΔP = ½ρ(v₂² − v₁²) = ½(1000)(36 − 4) = ½(1000)(32) = 16,000 Pa. Faster flow means lower pressure.\n\n(A) is wrong because 32,000 omits the factor of ½.\n(B) is wrong because 8,000 halves the correct answer a second time.\n(D) is wrong because 4,000 Pa is a quarter of the true drop; it equals ρ(v₂ − v₁), subtracting the speeds instead of their squares and dropping the ½."
+      "explanation": "Correct: (C) 16,000 Pa. For horizontal flow, Bernoulli's equation gives a pressure drop of ΔP = ½ρ(v<sub>2</sub>² − v<sub>1</sub>²) = ½(1000 kg/m³)(36 − 4) = ½(1000)(32) = 16,000 Pa. Faster flow means lower pressure, and the speeds enter as squares. The result is independent of the actual pressure in the pipe.\n\n(A) is wrong because 32,000 Pa omits the factor of ½ in the dynamic pressure ½ρv², which doubles the true drop.\n(B) is wrong because 8,000 Pa halves the correct answer a second time, applying the factor of ½ twice.\n(D) is wrong because 4,000 Pa is a quarter of the true drop; it equals ρ(v<sub>2</sub> − v<sub>1</sub>), which subtracts the speeds instead of their squares and drops the ½."
     },
     {
       "id": "8-60",
@@ -6779,7 +6779,7 @@ const QUESTIONS = {
         "The fast-moving region has lower pressure."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) the fast-moving region has lower pressure. In a horizontal flow Bernoulli's equation gives P + ½ρv² = constant, so where v is larger, P is smaller. This effect lifts airplane wings and pulls a shower curtain inward.\n\n(A) is wrong because pressure varies with speed.\n(B) is wrong because it reverses the relationship, a common intuition error.\n(C) is wrong because the direction (lower pressure in fast flow) holds for any fluid; density only changes the size of the effect."
+      "explanation": "Correct: (D) The fast-moving region has lower pressure. In a horizontal flow Bernoulli's equation gives P + ½ρv² = constant, so where the speed v is larger, the pressure P is smaller. This effect lifts airplane wings, where air moves faster over the top surface, and pulls a shower curtain inward when the water is running.\n\n(A) is wrong because the pressure varies with speed along the flow; if the speed changes, the pressure must change to keep P + ½ρv² constant.\n(B) is wrong because it reverses the relationship, a common intuition error that associates speed with a harder push; the moving fluid actually has the lower pressure.\n(C) is wrong because the direction, lower pressure in the fast flow, holds for any fluid; the density only changes the size of the effect."
     },
     {
       "id": "8-61",
@@ -6805,7 +6805,7 @@ const QUESTIONS = {
         "P+ρgh=constant — matching P=P0+ρgh from Section 8.2."
       ],
       "correct": 3,
-      "explanation": "Correct: (D) P + ρgh = constant, matching P = P₀ + ρgh from Section 8.2. Setting v = 0 removes the ½ρv² terms from Bernoulli's equation, leaving P + ρgh the same everywhere, i.e. the hydrostatic relation. The static pressure-depth law is a special case of Bernoulli's equation.\n\n(A) is wrong because the equation remains valid at v = 0.\n(B) is wrong because the relation holds throughout the fluid, not only at isolated points.\n(C) is wrong because pressure is nonzero (atmospheric plus ρgh)."
+      "explanation": "Correct: (D) P + ρgh = constant, matching P = P<sub>0</sub> + ρgh from Section 8.2. Setting v = 0 removes the ½ρv² terms from Bernoulli's equation, leaving P + ρgh the same everywhere in the fluid, which is the hydrostatic relation. The static pressure-depth law is therefore a special case of Bernoulli's equation, and the two descriptions of fluids agree.\n\n(A) is wrong because the equation remains valid at v = 0; it simply reduces to the static case with no motion terms.\n(B) is wrong because the relation holds throughout the fluid at rest, not only at isolated points, so it can be applied to any two points.\n(C) is wrong because the pressure is not zero in a fluid at rest; it is at least atmospheric pressure at the surface and increases by ρgh with depth."
     },
     {
       "id": "8-63",
