@@ -965,7 +965,7 @@ const QUESTIONS = {
         "An animal cell that happens to lack mitochondria"
       ],
       "correct": 0,
-      "explanation": "Correct: a prokaryotic cell, since it has no membrane-bound organelles at all. Ribosomes are found in ALL cells, so they do not tell you much; the important clue is that there are no membrane-bound organelles. Eukaryotic cells always have a nucleus and a set of organelles such as the endoplasmic reticulum, Golgi apparatus, and mitochondria. A cell with ribosomes but none of those compartments is the profile of a prokaryote, such as a bacterium.\n\n(B) is wrong because a eukaryotic cell, even an early-stage one, already has a nucleus and other membrane-bound organelles.\n(C) is wrong because a plant cell with a thin wall would still have a nucleus, a large central vacuole, chloroplasts, and the other organelles.\n(D) is wrong because an animal cell without mitochondria would still have a nucleus, ER, Golgi, and lysosomes; the cell in the question has no membrane-bound organelles of any kind."
+      "explanation": "Correct: a prokaryotic cell, since it has no membrane-bound organelles at all. Ribosomes are found in ALL cells, so they do not tell you much; the important clue is that there are no membrane-bound organelles. Eukaryotic cells have a nucleus and a set of organelles such as the endoplasmic reticulum, Golgi apparatus, and mitochondria (mature mammalian red blood cells are a rare exception that lose theirs as they mature). A cell with ribosomes but none of those compartments is the profile of a prokaryote, such as a bacterium.\n\n(B) is wrong because a eukaryotic cell, even an early-stage one, already has a nucleus and other membrane-bound organelles.\n(C) is wrong because a plant cell with a thin wall would still have a nucleus, a large central vacuole, chloroplasts, and the other organelles.\n(D) is wrong because an animal cell without mitochondria would still have a nucleus, ER, Golgi, and lysosomes; the cell in the question has no membrane-bound organelles of any kind."
     },
     {
       "id": "2-3",
@@ -1030,7 +1030,7 @@ const QUESTIONS = {
         "Well-supported, since eukaryotes are found across more distinct environment types"
       ],
       "correct": 0,
-      "explanation": "Correct: the claim is not well-supported. Being 'simpler' is not the same as being 'less well adapted.' Adaptation is measured by how well organisms survive and reproduce in their environment, not by structural complexity. By that measure prokaryotes are extraordinarily successful: they have existed for billions of years (the oldest fossils are about 3.5 billion years old), outnumber eukaryotes by a huge margin, and live in places eukaryotes cannot, such as boiling hot springs, extremely salty or acidic water, and deep rock. They also have a wide variety of metabolisms, including nitrogen fixation and chemosynthesis, and their small size gives them a high surface-area-to-volume ratio and fast reproduction.\n\n(B) is wrong because lacking membrane-bound organelles is a structural difference, not evidence of being poorly adapted.\n(D) is wrong because prokaryotes, not eukaryotes, are found across the widest range of environments, including extremes.\n(C) is wrong because the claim is a general one about prokaryotes and can be evaluated without picking a single species."
+      "explanation": "Correct: the claim is not well-supported. Being 'simpler' is not the same as being 'less well adapted.' Adaptation is measured by how well organisms survive and reproduce in their environment, not by structural complexity. By that measure prokaryotes are extraordinarily successful: they have existed for billions of years (the oldest fossils are about 3.5 billion years old), outnumber eukaryotes by a huge margin, and live in places where few or no eukaryotes can survive, such as boiling hot springs, extremely salty or acidic water, and deep rock. They also have a wide variety of metabolisms, including nitrogen fixation and chemosynthesis, and their small size gives them a high surface-area-to-volume ratio and fast reproduction.\n\n(B) is wrong because lacking membrane-bound organelles is a structural difference, not evidence of being poorly adapted.\n(D) is wrong because prokaryotes, not eukaryotes, are found across the widest range of environments, including extremes.\n(C) is wrong because the claim is a general one about prokaryotes and can be evaluated without picking a single species."
     },
     {
       "id": "2-8",
@@ -1070,7 +1070,7 @@ const QUESTIONS = {
         "Chloroplasts, the site of photosynthesis"
       ],
       "correct": 3,
-      "explanation": "Correct: chloroplasts, the site of photosynthesis. Plant cells (and algae) have chloroplasts, where chlorophyll captures light energy and the cell makes sugar from CO2 and water. Animal cells cannot do photosynthesis and do not have chloroplasts, and they get their energy by consuming food. A good way to answer 'in plants but not animals' questions is to remember that plants also have a cell wall and a large central vacuole, while animals have neither.\n\n(A) is wrong because every cell, plant and animal, has a plasma membrane.\n(B) is wrong because plant cells and animal cells both have mitochondria and use them for aerobic respiration (plants respire as well as photosynthesize).\n(C) is wrong because ribosomes are present in all cells, since all cells make proteins."
+      "explanation": "Correct: chloroplasts, the site of photosynthesis. Plant cells (and algae) have chloroplasts, where chlorophyll captures light energy and the cell makes sugar from CO2 and water. Animal cells cannot do photosynthesis and do not have chloroplasts, and they get their energy by consuming food. A good way to answer 'in plants but not animals' questions is to remember that plants also have a cell wall and a large central vacuole, while animal cells have no cell wall and only small vacuoles.\n\n(A) is wrong because every cell, plant and animal, has a plasma membrane.\n(B) is wrong because plant cells and animal cells both have mitochondria and use them for aerobic respiration (plants respire as well as photosynthesize).\n(C) is wrong because ribosomes are present in all cells, since all cells make proteins."
     },
     {
       "id": "2-11",
@@ -1122,7 +1122,7 @@ const QUESTIONS = {
         "SA:V ratio decreases as cell size increases"
       ],
       "correct": 3,
-      "explanation": "Correct: SA:V ratio decreases as cell size increases. For a sphere, surface area grows with the SQUARE of the radius (r^2) and volume grows with the CUBE (r^3), so volume increases faster than surface area as the cell enlarges. Using the numbers in the question: doubling the radius multiplies the surface area by 4 and the volume by 8, so the new SA:V is 4/8 = 1/2 of the old one. The ratio falls by half every time the radius doubles (for a sphere SA:V = 3/r). This matters because cells get their supplies and remove waste across their surface, while their needs depend on their volume.\n\n(B) is wrong because it states the relationship backwards: the ratio decreases, not increases.\n(C) is wrong because the numbers in the question (4-fold vs. 8-fold) show the ratio changes.\n(A) is wrong because the ratio clearly depends on the radius."
+      "explanation": "Correct: SA:V ratio decreases as cell size increases. For a sphere, surface area grows with the SQUARE of the radius (r<sup>2</sup>) and volume grows with the CUBE (r<sup>3</sup>), so volume increases faster than surface area as the cell enlarges. Using the numbers in the question: doubling the radius multiplies the surface area by 4 and the volume by 8, so the new SA:V is 4/8 = 1/2 of the old one. The ratio falls by half every time the radius doubles (for a sphere SA:V = 3/r). This matters because cells get their supplies and remove waste across their surface, while their needs depend on their volume.\n\n(B) is wrong because it states the relationship backwards: the ratio decreases, not increases.\n(C) is wrong because the numbers in the question (4-fold vs. 8-fold) show the ratio changes.\n(A) is wrong because the ratio clearly depends on the radius."
     },
     {
       "id": "2-15",
@@ -1135,7 +1135,7 @@ const QUESTIONS = {
         "SA = 9 μm², V = 27 μm³, giving SA:V = 1:3"
       ],
       "correct": 0,
-      "explanation": "Correct: SA = 54 um^2, V = 27 um^3, SA:V = 2:1. For a cube with side s: the surface area is the area of six faces, 6 x s^2 = 6 x (3 x 3) = 6 x 9 = 54 um^2. The volume is s^3 = 3 x 3 x 3 = 27 um^3. The ratio is 54 : 27 = 2 : 1. Always write the formulas first (SA = 6s^2, V = s^3) and check the units (area in square micrometers, volume in cubic micrometers).\n\n(B) is wrong because it swaps the two values, giving a surface area smaller than the volume, which is impossible for such a small cube.\n(D) is wrong because 9 is the area of only ONE face; the cube has six.\n(C) is wrong because 18 and 9 come from using 6s and s^2 instead of 6s^2 and s^3; it happens to give 2:1 by coincidence, so check the raw values, not just the ratio."
+      "explanation": "Correct: SA = 54 um<sup>2</sup>, V = 27 um<sup>3</sup>, SA:V = 2:1. For a cube with side s: the surface area is the area of six faces, 6 x s<sup>2</sup> = 6 x (3 x 3) = 6 x 9 = 54 um<sup>2</sup>. The volume is s<sup>3</sup> = 3 x 3 x 3 = 27 um<sup>3</sup>. The ratio is 54 : 27 = 2 : 1. Always write the formulas first (SA = 6s<sup>2</sup>, V = s<sup>3</sup>) and check the units (area in square micrometers, volume in cubic micrometers).\n\n(B) is wrong because it swaps the two values. For any cube with sides under 6 units, the surface area number is larger than the volume number (SA:V = 6/s), so 27 and 54 cannot be right for a 3 um cube.\n(D) is wrong because 9 is the area of only ONE face; the cube has six.\n(C) is wrong because 18 and 9 come from using 6s and s<sup>2</sup> instead of 6s<sup>2</sup> and s<sup>3</sup>; it happens to give 2:1 by coincidence, so check the raw values, not just the ratio."
     },
     {
       "id": "2-16",
@@ -1174,7 +1174,7 @@ const QUESTIONS = {
         "Cell B, since dividing a fixed volume into multiple smaller units increases total surface area even though total volume stays the same"
       ],
       "correct": 3,
-      "explanation": "Correct: Cell B, since dividing a fixed volume into multiple smaller units increases total surface area even though total volume stays the same. Work it out for 8 equal spheres. Each small sphere has 1/8 of the volume, and because volume scales with r^3, each has a radius half as large (r/2). Surface area scales with r^2, so each small sphere has (1/2)^2 = 1/4 of the original surface area. Eight spheres x 1/4 = 2 times the original surface area. So Cell B has twice the total surface area (and twice the SA:V) of Cell A for the same total volume. This is why organisms are built of many small cells rather than one giant cell.\n\n(B) is wrong because surface area does not follow volume: it depends on how the volume is divided up.\n(C) is wrong because a single sphere has the least surface area for its volume.\n(A) is wrong because the geometry is fully determined by the volume and the number of pieces."
+      "explanation": "Correct: Cell B, since dividing a fixed volume into multiple smaller units increases total surface area even though total volume stays the same. Work it out for 8 equal spheres. Each small sphere has 1/8 of the volume, and because volume scales with r<sup>3</sup>, each has a radius half as large (r/2). Surface area scales with r<sup>2</sup>, so each small sphere has (1/2)<sup>2</sup> = 1/4 of the original surface area. Eight spheres x 1/4 = 2 times the original surface area. So Cell B has twice the total surface area (and twice the SA:V) of Cell A for the same total volume. This is why organisms are built of many small cells rather than one giant cell.\n\n(B) is wrong because surface area does not follow volume: it depends on how the volume is divided up.\n(C) is wrong because a single sphere has the least surface area for its volume.\n(A) is wrong because the geometry is fully determined by the volume and the number of pieces."
     },
     {
       "id": "2-19",
@@ -1200,7 +1200,7 @@ const QUESTIONS = {
         "The second cell, with SA:V = 1:1"
       ],
       "correct": 1,
-      "explanation": "Correct: the first cell, with SA:V = 2:1. Divide the surface area by the volume for each cell. First cell: 100 um^2 / 50 um^3 = 2 (2:1). Second cell: 400 um^2 / 400 um^3 = 1 (1:1). A higher SA:V ratio means more surface for each unit of volume, which lets nutrients and wastes cross the membrane quickly relative to the amount of cell contents they must serve, so the first cell is better for exchange even though it is smaller.\n\n(D) is wrong because the second cell's ratio of 1:1 is lower than 2:1, not better.\n(C) is wrong because the two ratios are different.\n(A) is wrong because SA:V can be calculated directly when both the surface area and the volume are given."
+      "explanation": "Correct: the first cell, with SA:V = 2:1. Divide the surface area by the volume for each cell. First cell: 100 um<sup>2</sup> / 50 um<sup>3</sup> = 2 (2:1). Second cell: 400 um<sup>2</sup> / 400 um<sup>3</sup> = 1 (1:1). A higher SA:V ratio means more surface for each unit of volume, which lets nutrients and wastes cross the membrane quickly relative to the amount of cell contents they must serve, so the first cell is better for exchange even though it is smaller.\n\n(D) is wrong because the second cell's ratio of 1:1 is lower than 2:1, not better.\n(C) is wrong because the two ratios are different.\n(A) is wrong because SA:V can be calculated directly when both the surface area and the volume are given."
     },
     {
       "id": "2-21",
@@ -1240,7 +1240,7 @@ const QUESTIONS = {
         "Surface area increases 2-fold and volume increases 4-fold"
       ],
       "correct": 1,
-      "explanation": "Correct: surface area increases 4-fold and volume increases 8-fold. Doubling the diameter doubles the radius (10 um to 20 um). Surface area is 4 x pi x r^2, so it scales with the square of the radius: 2^2 = 4. Volume is (4/3) x pi x r^3, so it scales with the cube: 2^3 = 8. With numbers: at r = 10 um, SA is about 1,257 um^2 and V is about 4,189 um^3; at r = 20 um, SA is about 5,027 um^2 and V is about 33,510 um^3, which are 4 times and 8 times the earlier values. The SA:V ratio is therefore cut in half, from about 0.30 to 0.15.\n\n(A) is wrong because it swaps the two exponents, so surface area would grow faster than volume, which never happens as size increases. (C) and (D) are wrong because they treat volume as growing linearly (x2) or only with the square (x4), forgetting that volume depends on the cube of the radius."
+      "explanation": "Correct: surface area increases 4-fold and volume increases 8-fold. Doubling the diameter doubles the radius (10 um to 20 um). Surface area is 4 x pi x r<sup>2</sup>, so it scales with the square of the radius: 2<sup>2</sup> = 4. Volume is (4/3) x pi x r<sup>3</sup>, so it scales with the cube: 2<sup>3</sup> = 8. With numbers: at r = 10 um, SA is about 1,257 um<sup>2</sup> and V is about 4,189 um<sup>3</sup>; at r = 20 um, SA is about 5,027 um<sup>2</sup> and V is about 33,510 um<sup>3</sup>, which are 4 times and 8 times the earlier values. The SA:V ratio is therefore cut in half, from about 0.30 to 0.15.\n\n(A) is wrong because it swaps the two exponents, so surface area would grow faster than volume, which never happens as size increases. (C) and (D) are wrong because they treat volume as growing linearly (x2) or only with the square (x4), forgetting that volume depends on the cube of the radius."
     },
     {
       "id": "2-24",
@@ -1279,7 +1279,7 @@ const QUESTIONS = {
         "V = s³, side length cubed"
       ],
       "correct": 3,
-      "explanation": "Correct: V = s^3, side length cubed. A cube is three-dimensional with equal length, width, and height, so its volume is s x s x s = s^3. A helpful rule: volume uses three dimensions (cubed), area uses two (squared). For example, a cube with 3 um sides has a volume of 27 um^3.\n\n(B) is wrong because 6s^2 is the surface area (six faces, each with an area of s^2).\n(A) is wrong because s^2 is the area of only ONE face, a two-dimensional measurement.\n(C) is wrong because (4/3) x pi x r^3 is the volume of a SPHERE; it does not apply to a cube. Knowing these formulas (cube: SA = 6s^2, V = s^3; sphere: SA = 4 x pi x r^2, V = (4/3) x pi x r^3) is the key to every SA:V calculation."
+      "explanation": "Correct: V = s<sup>3</sup>, side length cubed. A cube is three-dimensional with equal length, width, and height, so its volume is s x s x s = s<sup>3</sup>. A helpful rule: volume uses three dimensions (cubed), area uses two (squared). For example, a cube with 3 um sides has a volume of 27 um<sup>3</sup>.\n\n(B) is wrong because 6s<sup>2</sup> is the surface area (six faces, each with an area of s<sup>2</sup>).\n(A) is wrong because s<sup>2</sup> is the area of only ONE face, a two-dimensional measurement.\n(C) is wrong because (4/3) x pi x r<sup>3</sup> is the volume of a SPHERE; it does not apply to a cube. Knowing these formulas (cube: SA = 6s<sup>2</sup>, V = s<sup>3</sup>; sphere: SA = 4 x pi x r<sup>2</sup>, V = (4/3) x pi x r<sup>3</sup>) is the key to every SA:V calculation."
     },
     {
       "id": "2-27",
@@ -1462,7 +1462,7 @@ const QUESTIONS = {
         "Movement of a substance that occurs only through active pumping proteins in the membrane"
       ],
       "correct": 2,
-      "explanation": "Correct: movement of a substance down its concentration gradient across a membrane, requiring no cellular energy. In passive transport, molecules move from where they are more concentrated to where they are less concentrated, and the cell does not need to spend ATP, because the gradient provides the energy. It includes simple diffusion (small nonpolar molecules), facilitated diffusion (through channel or carrier proteins), and osmosis (water).\n\n(B) is wrong because moving against a gradient with ATP is active transport.\n(A) is wrong because vesicle formation (endocytosis and exocytosis) is a bulk transport process that uses energy, and most passive transport does not use vesicles.\n(D) is wrong because active pumping proteins carry out active transport, the opposite of passive."
+      "explanation": "Correct: movement of a substance down its concentration gradient across a membrane, requiring no cellular energy. In passive transport, molecules move from where they are more concentrated to where they are less concentrated, and the cell does not need to spend ATP, because the gradient provides the energy. It includes simple diffusion (small nonpolar molecules), facilitated diffusion (through channel or carrier proteins), and osmosis (water).\n\n(B) is wrong because moving against a gradient with ATP is active transport.\n(A) is wrong because vesicle formation (endocytosis and exocytosis) is a bulk transport process that uses energy, and passive transport moves molecules directly across the membrane, through the bilayer or through a protein, without vesicles.\n(D) is wrong because active pumping proteins carry out active transport, the opposite of passive."
     },
     {
       "id": "2-41",
@@ -1723,7 +1723,7 @@ const QUESTIONS = {
         "Double membranes are required specifically for photosynthesis and are unrelated to mitochondria"
       ],
       "correct": 1,
-      "explanation": "Correct: the inner membrane is the engulfed prokaryote's original membrane; the outer derives from the host cell's membrane. According to the endosymbiotic theory, an ancestral host cell engulfed a bacterium. The bacterium kept its own plasma membrane, which became the organelle's inner membrane. The host cell's membrane formed a vesicle around the bacterium during engulfment, and that vesicle membrane became the outer membrane. So two membranes are exactly what engulfment would leave behind. This explanation applies to both mitochondria and chloroplasts.\n\n(D) is wrong because mitochondria, which do not carry out photosynthesis, also have double membranes, so it is not specific to photosynthesis.\n(A) is wrong because the theory does not say that organelles are made in the nucleus; it says they came from engulfed bacteria.\n(C) is wrong because the double membrane is one of the main pieces of evidence in the theory and has a clear explanation."
+      "explanation": "Correct: the inner membrane is the engulfed prokaryote's original membrane; the outer derives from the host cell's membrane. According to the endosymbiotic theory, an ancestral host cell engulfed a bacterium (the details differ among organelles and lineages). The bacterium kept its own plasma membrane, which became the organelle's inner membrane. The host cell's membrane formed a vesicle around the bacterium during engulfment, and that vesicle membrane became the outer membrane. So two membranes are exactly what engulfment would leave behind. This explanation applies to both mitochondria and chloroplasts.\n\n(D) is wrong because mitochondria, which do not carry out photosynthesis, also have double membranes, so it is not specific to photosynthesis.\n(A) is wrong because the theory does not say that organelles are made in the nucleus; it says they came from engulfed bacteria.\n(C) is wrong because the double membrane is one of the main pieces of evidence in the theory and has a clear explanation."
     },
     {
       "id": "2-61",
@@ -1762,7 +1762,7 @@ const QUESTIONS = {
         "An aerobic bacterium was engulfed first, becoming the mitochondrion"
       ],
       "correct": 3,
-      "explanation": "Correct: an aerobic bacterium was engulfed first, becoming the mitochondrion. The accepted sequence has two separate events. First, an ancestor of eukaryotic cells engulfed an aerobic (oxygen-using) bacterium that became the mitochondrion; since this happened early, nearly all eukaryotes have mitochondria. Later, in the lineage that led to plants and algae, a cell that already had mitochondria engulfed a photosynthetic bacterium (like a cyanobacterium), which became the chloroplast. This order explains why plant cells have both organelles while animal and fungal cells have only mitochondria.\n\n(A) is wrong because it swaps the two organelles' origins.\n(B) is wrong because the events happened separately and chloroplasts are found only in some lineages.\n(C) is wrong because engulfment needs a host eukaryotic cell to already exist, so chloroplasts could not have come before eukaryotes."
+      "explanation": "Correct: an aerobic bacterium was engulfed first, becoming the mitochondrion. The accepted sequence has two separate events. First, an ancestor of eukaryotic cells engulfed an aerobic (oxygen-using) bacterium that became the mitochondrion; since this happened early, nearly all eukaryotes have mitochondria or a reduced remnant of them. Later, in the lineage that led to plants and algae, a cell that already had mitochondria engulfed a photosynthetic bacterium (like a cyanobacterium), which became the chloroplast. This order explains why plant cells have both organelles while animal and fungal cells have only mitochondria.\n\n(A) is wrong because it swaps the two organelles' origins.\n(B) is wrong because the events happened separately and chloroplasts are found only in some lineages.\n(C) is wrong because engulfment needs a host eukaryotic cell to already exist, so chloroplasts could not have come before eukaryotes."
     },
     {
       "id": "2-64",
@@ -2734,7 +2734,7 @@ const QUESTIONS = {
         "Autocrine signaling, where a cell releases and responds to its own secreted signal"
       ],
       "correct": 1,
-      "explanation": "Endocrine signaling is the correct classification because the messenger travels through the bloodstream to reach a distant organ. Autocrine is wrong because that describes a cell signaling itself, not a distant target. Paracrine is wrong because it covers only short-range diffusion to nearby cells, not bloodstream transport. Direct contact signaling is wrong because it requires physical cell-to-cell touching, which is absent here since the organ is distant."
+      "explanation": "Correct: endocrine signaling. In endocrine signaling, a hormone is made by an endocrine gland (such as the pancreas), released into the bloodstream, and carried throughout the body, so it can act on target cells in a distant organ. Clue words: 'bloodstream' and 'distant organ.'\n\n(A) is wrong because direct contact signaling needs the two cells to touch, and the target here is far away.\n(C) is wrong because paracrine signals diffuse only a short distance to nearby cells; they do not travel in the blood.\n(D) is wrong because autocrine signaling is a cell responding to its own signal, not signaling a distant organ."
     },
     {
       "id": "4-2",
@@ -2747,7 +2747,7 @@ const QUESTIONS = {
         "It binds a membrane-bound receptor on the cell surface"
       ],
       "correct": 3,
-      "explanation": "Correct: it binds a membrane-bound receptor on the cell surface. A large, polar protein hormone (insulin is an example) cannot pass through the hydrophobic interior of the plasma membrane. Instead, it binds a receptor protein that spans the plasma membrane, with a binding site on the outside. Binding changes the shape of the receptor, which starts a signal transduction pathway inside the cell (for example, through G proteins, second messengers, or a series of phosphorylations). The message crosses the membrane even though the hormone does not.\n\n(A) is wrong because the hormone is not chemically converted when it touches the membrane.\n(B) is wrong because carrier proteins do not transport hormones into the cell to reach intracellular receptors; that route is for small nonpolar molecules, which diffuse in on their own.\n(C) is wrong because the cell does respond, through its surface receptor."
+      "explanation": "Correct: it binds a membrane-bound receptor on the cell surface. A large, polar protein hormone (insulin is an example) cannot pass through the hydrophobic interior of the plasma membrane. Instead, it binds a receptor protein that spans the plasma membrane, with a binding site on the outside. Binding changes the shape of the receptor, which starts a signal transduction pathway inside the cell (for example, through G proteins, second messengers, or a series of phosphorylations). The message crosses the membrane even though the hormone does not.\n\n(A) is wrong because the hormone is not chemically converted when it touches the membrane.\n(B) is wrong because a large protein hormone like insulin is not carried across the membrane by a transporter; hormones that act on intracellular receptors are small and nonpolar and mostly diffuse in on their own.\n(C) is wrong because the cell does respond, through its surface receptor."
     },
     {
       "id": "4-3",
@@ -2773,7 +2773,7 @@ const QUESTIONS = {
         "No signaling has occurred, since the molecule affects only nearby cells"
       ],
       "correct": 2,
-      "explanation": "Paracrine signaling is correct because it describes short-range diffusion to nearby cells in the same tissue. Endocrine signaling is wrong because it specifically requires bloodstream transport to distant sites, not local diffusion. Direct contact signaling is wrong because it requires the cells to be physically touching, which isn't stated here. Choice D is wrong because affecting nearby cells is itself a form of signaling, not an absence of it."
+      "explanation": "Correct: paracrine signaling. A paracrine signal is released into the fluid between cells and diffuses only a short distance, so only nearby cells in the same tissue respond (histamine released at a site of injury is an example). Clue words: 'nearby cells' and 'not cells located far away.'\n\n(B) is wrong because endocrine signals travel through the bloodstream to distant targets.\n(A) is wrong because the question does not say that the cells touch; the molecule is secreted and diffuses.\n(D) is wrong because affecting neighboring cells is a type of signaling, not an absence of it."
     },
     {
       "id": "4-5",
@@ -2786,7 +2786,7 @@ const QUESTIONS = {
         "Paracrine signaling"
       ],
       "correct": 2,
-      "explanation": "Autocrine signaling is correct because it is defined as a cell responding to the very signal it released. Paracrine is wrong because that describes affecting other nearby cells, not the originating cell itself. Endocrine is wrong because it requires bloodstream transport to a distant organ, which is not the case here. Choice A is wrong because self-signaling is a real, well-documented biological mechanism, for example in some immune cell regulation."
+      "explanation": "Correct: autocrine signaling. 'Auto' means self: the cell that releases the signaling molecule also has the receptor for it, so it responds to its own signal (some immune cells use this to stimulate their own growth, and many cancer cells do too). Clue words: 'the very same cell that released it.' (C) is the answer.\n\n(D) is wrong because paracrine signaling affects other nearby cells, not the cell that sent the signal.\n(B) is wrong because endocrine signals travel in the blood to distant cells.\n(A) is wrong because a cell can respond to its own signal; that is exactly what autocrine signaling is."
     },
     {
       "id": "4-6",
@@ -2878,7 +2878,7 @@ const QUESTIONS = {
         "G2"
       ],
       "correct": 1,
-      "explanation": "DNA replication is the defining event of S phase, making choice B correct. G1 is wrong because it precedes replication, during general cell growth. G2 is wrong because it comes after replication is already complete, as the cell prepares for mitosis. M phase is wrong because mitosis separates chromosomes that were already duplicated earlier — it does not copy DNA itself."
+      "explanation": "Correct: S phase (S stands for synthesis). Interphase has three parts. In G1 the cell grows and carries out its normal functions. In S phase the cell copies all of its DNA, so each chromosome ends up with two identical sister chromatids. In G2 the cell grows more, makes the proteins it needs for mitosis, and checks the copied DNA. The clue words 'DNA replication' point to S phase.\n\n(A) is wrong because G1 comes before replication begins.\n(C) is wrong because mitosis (M phase) separates chromosomes that were already copied; it does not copy DNA.\n(D) is wrong because G2 comes after replication is finished."
     },
     {
       "id": "4-13",
@@ -2891,7 +2891,7 @@ const QUESTIONS = {
         "Metaphase"
       ],
       "correct": 3,
-      "explanation": "Chromosomes aligned at the cell's center, after having already condensed, is the defining feature of metaphase, so choice D is correct. Prophase is wrong because condensation is still underway and alignment has not yet occurred. Anaphase is wrong because it describes chromatids that have already begun moving apart, past the alignment stage. Telophase is wrong because it involves nuclear envelope reformation around separated chromosomes at opposite poles, not central alignment."
+      "explanation": "Correct: metaphase. In metaphase the condensed chromosomes line up along the middle of the cell (the metaphase plate), and each sister chromatid is attached by spindle fibers to an opposite pole. Clue words: 'condensed' and 'aligned at the cell's center.'\n\n(C) is wrong because in prophase the chromosomes are still condensing and have not lined up yet.\n(B) is wrong because in anaphase the sister chromatids have already separated and are moving apart.\n(A) is wrong because in telophase two nuclei are re-forming at opposite poles, not aligning in the center."
     },
     {
       "id": "4-14",
@@ -2904,7 +2904,7 @@ const QUESTIONS = {
         "Metaphase"
       ],
       "correct": 2,
-      "explanation": "Anaphase is specifically the phase where sister chromatids split apart and move toward opposite poles, making choice C correct. Prophase is wrong because it involves chromosome condensation, well before any separation occurs. Metaphase is wrong because chromosomes are aligned at that point but chromatids are still joined. Telophase is wrong because separation has already finished by then, and the focus shifts to nuclear envelope reformation."
+      "explanation": "Correct: anaphase. In anaphase the centromeres split, and each sister chromatid (now counted as a separate chromosome) is pulled toward an opposite pole as the spindle fibers shorten. Clue words: 'separate' and 'move to opposite poles.'\n\n(A) is wrong because prophase is when the chromosomes condense; nothing has separated yet.\n(D) is wrong because in metaphase the chromosomes are aligned but the sister chromatids are still joined.\n(B) is wrong because in telophase the separation is already complete, and the cell is re-forming nuclei."
     },
     {
       "id": "4-15",
@@ -2930,7 +2930,7 @@ const QUESTIONS = {
         "Anaphase"
       ],
       "correct": 2,
-      "explanation": "The nuclear envelope reforming around two separated chromosome sets, with decondensation beginning, is the hallmark of telophase, making choice C correct. Prophase is wrong because it involves condensation, the opposite process, and no nuclear envelope reformation. Metaphase is wrong because chromosomes there are aligned centrally, not yet split into two separated sets. Anaphase is wrong because chromosome movement is still in progress and no nuclear envelope has reformed yet."
+      "explanation": "Correct: telophase. In telophase the two sets of chromosomes have reached the opposite poles, a nuclear envelope re-forms around each set, and the chromosomes begin to decondense and become less visible (essentially the reverse of prophase). Cytokinesis usually overlaps with it. Clue words: 'nuclear envelope has just reformed' and 'beginning to decondense.'\n\n(A) is wrong because in prophase the envelope is breaking down and the chromosomes are condensing, which is the opposite.\n(B) is wrong because in metaphase the chromosomes are lined up in the middle and not yet in two sets.\n(D) is wrong because in anaphase the chromatids are still moving apart and no new envelope has formed."
     },
     {
       "id": "4-17",
@@ -2943,7 +2943,7 @@ const QUESTIONS = {
         "G1, as part of interphase"
       ],
       "correct": 3,
-      "explanation": "G1 is typically the longest single phase for most actively dividing cells, dominating overall cycle time as part of interphase, so choice D is correct. M phase is wrong because it is usually the shortest major phase despite being visually dramatic. S phase is wrong because, while substantial, it is generally shorter than G1 for most cell types. Cytokinesis alone is wrong because it is a brief final step, far shorter than the growth period of G1."
+      "explanation": "Correct: G1. In a typical dividing cell, G1 is the longest phase: the cell grows, makes proteins and organelles, carries out its normal job, and waits for growth signals before it commits to copying its DNA. Mitosis is visually dramatic, but it is short (about an hour in a 24-hour cycle), so most of the cell cycle is spent in interphase.\n\n(C) is wrong because M phase is usually the shortest of the main phases even though it seems the most eventful.\n(B) is wrong because S phase takes a substantial amount of time but is usually shorter than G1.\n(A) is wrong because cytokinesis is a brief final step."
     },
     {
       "id": "4-18",
@@ -2969,7 +2969,7 @@ const QUESTIONS = {
         "There is no single primary decision point in the cell cycle"
       ],
       "correct": 0,
-      "explanation": "The G1 checkpoint is the main go/no-go decision point, evaluating size, nutrients, and growth signals before committing to the cycle, so choice A is correct. The G2 checkpoint is wrong because it evaluates replication accuracy later, not the initial commitment decision. The M checkpoint is wrong because it checks spindle attachment during mitosis, a later and different checkpoint. Choice D is wrong because G1 is widely recognized as the primary decision point."
+      "explanation": "Correct: the G1 checkpoint. The G1 checkpoint (also called the restriction point) is where the cell decides whether to start a new cycle. It checks that the cell is big enough, that nutrients are available, that growth signals are present, and that the DNA is undamaged. If the answers are yes, the cell is generally committed to finish the whole cycle. If not, it can stop and enter G0.\n\n(B) is wrong because the G2 checkpoint comes later and checks that DNA replication is complete and accurate.\n(C) is wrong because the M (spindle) checkpoint comes even later and checks that chromosomes are attached to the spindle before anaphase.\n(D) is wrong because the cell cycle has several checkpoints, but G1 is the main commitment point."
     },
     {
       "id": "4-20",
@@ -3034,7 +3034,7 @@ const QUESTIONS = {
         "Checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation"
       ],
       "correct": 3,
-      "explanation": "Correct: checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation. Checkpoints work like quality control stations in the cell cycle: they stop the cycle until a problem is fixed. The G1 checkpoint checks size, nutrients, growth signals, and DNA damage; the G2 checkpoint checks that DNA replication is complete and accurate; the M (spindle) checkpoint checks that chromosomes are attached to the spindle. This keeps damaged or incomplete cells from dividing and passing on mutations or an abnormal number of chromosomes, which is why failure of checkpoints is a hallmark of cancer.\n\n(A) is wrong because slowing division is only a side effect; the purpose is quality control.\n(B) is wrong because this checkpoint system is a feature of eukaryotic cell cycle control; prokaryotes divide by binary fission and do not have the same system.\n(C) is wrong because the checkpoints have a clear, essential function."
+      "explanation": "Correct: checkpoints prevent cells with damaged DNA or incomplete processes from dividing, reducing mutation propagation. Checkpoints work like quality control stations in the cell cycle: they stop the cycle until a problem is fixed. The G1 checkpoint checks size, nutrients, growth signals, and DNA damage; the G2 checkpoint checks that DNA replication is complete and accurate; the M (spindle) checkpoint checks that chromosomes are attached to the spindle. This keeps damaged or incomplete cells from dividing and passing on mutations or an abnormal number of chromosomes, which is why failure of checkpoints is a hallmark of cancer.\n\n(A) is wrong because slowing division is only a side effect; the purpose is quality control.\n(B) is wrong because eukaryotic cells rely heavily on checkpoints. Prokaryotes divide by binary fission with simpler controls; the G1, G2, and M checkpoints are a eukaryotic system.\n(C) is wrong because the checkpoints have a clear, essential function."
     },
     {
       "id": "4-25",
@@ -3048,7 +3048,7 @@ const QUESTIONS = {
         "Cyclin levels have no meaningful relationship to CDK activity whatsoever"
       ],
       "correct": 0,
-      "explanation": "Correct: checkpoint regulation would likely be disrupted. In a normal cell, cyclin levels rise and fall in a pattern, and that pattern times the activation of CDKs: each cyclin-CDK complex is active only at the right point in the cycle, then the cyclin is broken down. If cyclin levels stay high all the time, CDKs would stay active when they should not be, so the cell could pass checkpoints before the necessary conditions are met (for example, entering mitosis before DNA replication is finished) or skip the normal pauses. The result is a loss of control over the timing of the cell cycle.\n\n(B) is wrong because constant CDK activation pushes a cell toward inappropriate division, not toward being unable to divide.\n(C) is wrong because the rise and fall of cyclin levels is what normally controls CDK activity, and CDK levels remain steady, so cyclin is the variable that matters.\n(D) is wrong because cyclins directly activate CDKs."
+      "explanation": "Correct: checkpoint regulation would likely be disrupted. In a normal cell, cyclin levels rise and fall in a pattern, and that pattern times the activation of CDKs: each cyclin-CDK complex is active only at the right point in the cycle, then the cyclin is broken down. If cyclin levels stay high all the time, CDKs would stay active when they should not be, so timing control is lost. Depending on which cyclin stays high, cells may pass checkpoints too early or fail to exit a phase (for example, cells cannot leave mitosis if mitotic cyclin is never broken down). Either way, the normal on/off timing is disrupted.\n\n(B) is wrong because the problem is a loss of timing control, not a complete inability to divide; 'permanently and entirely unable' goes too far.\n(C) is wrong because the rise and fall of cyclin levels is what normally controls CDK activity, and CDK levels remain steady, so cyclin is the variable that matters.\n(D) is wrong because cyclins directly activate CDKs."
     },
     {
       "id": "4-26",
@@ -3061,7 +3061,7 @@ const QUESTIONS = {
         "It normally promotes cell division when appropriately signaled to do so"
       ],
       "correct": 3,
-      "explanation": "Correct: it normally promotes cell division when appropriately signaled to do so. Proto-oncogenes are normal genes that act like the gas pedal of the cell cycle. Many code for proteins in growth-signaling pathways, such as growth factors, growth factor receptors, Ras (a G protein), and cyclins. In a healthy cell, they stimulate division when growth signals are present and are quiet when they are not.\n\n(A) is wrong because inhibiting division is the job of tumor suppressor genes (the brakes).\n(B) is wrong because proto-oncogenes have important functions in normal cell growth and division.\n(C) is wrong because DNA repair is a job of other genes (some of which are tumor suppressors), and it is not the defining role of proto-oncogenes."
+      "explanation": "Correct: it normally promotes cell division when appropriately signaled to do so. Proto-oncogenes are normal genes that act like the gas pedal of the cell cycle. Many code for proteins in growth-signaling pathways, such as growth factors, growth factor receptors, Ras (a small G protein), and cyclins. In a healthy cell, they stimulate division when growth signals are present and are quiet when they are not.\n\n(A) is wrong because inhibiting division is the job of tumor suppressor genes (the brakes).\n(B) is wrong because proto-oncogenes have important functions in normal cell growth and division.\n(C) is wrong because DNA repair is a job of other genes (some of which are tumor suppressors), and it is not the defining role of proto-oncogenes."
     },
     {
       "id": "4-27",
@@ -3256,7 +3256,7 @@ const QUESTIONS = {
         "M checkpoint (spindle checkpoint)"
       ],
       "correct": 0,
-      "explanation": "The G2 checkpoint specifically evaluates replication accuracy and DNA damage before mitosis, making choice A correct. The G1 checkpoint is wrong because it evaluates conditions before replication starts, not errors in already-replicated DNA. The M checkpoint is wrong because it checks spindle fiber attachment during mitosis, a separate concern from replication errors. Choice B is wrong because the G2 checkpoint is specifically responsible for exactly this kind of detection."
+      "explanation": "Correct: the G2 checkpoint. After S phase, the cell is in G2, and the G2 checkpoint checks that all of the DNA has been copied and that the new DNA is not damaged or full of errors. If a problem is found, the cell is held in G2 so that it can be repaired (or it undergoes apoptosis if it cannot be repaired) before mitosis starts. Clue words: 'newly replicated DNA' and 'before the cell proceeds into mitosis.'\n\n(C) is wrong because the G1 checkpoint acts before replication begins.\n(D) is wrong because the M checkpoint checks that the chromosomes are attached to the spindle, not whether the DNA was copied correctly.\n(B) is wrong because the G2 checkpoint does exactly this job."
     },
     {
       "id": "4-42",
@@ -3269,7 +3269,7 @@ const QUESTIONS = {
         "A programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair"
       ],
       "correct": 3,
-      "explanation": "Correct: a programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair. In apoptosis a cell carries out a controlled self-destruction using enzymes called caspases: the cell shrinks, its DNA is cut up, and its remains are packaged and removed by neighboring cells without causing inflammation. Apoptosis is a safeguard: when a checkpoint (via p53) finds damage that cannot be repaired, the cell is told to die instead of dividing. It also shapes development, such as removing the webbing between developing fingers, and cancer cells often evade it.\n\n(C) is wrong because apoptosis is regulated and purposeful; uncontrolled, accidental cell death is necrosis.\n(B) is wrong because apoptosis happens normally in healthy tissue all the time.\n(A) is wrong because mitosis makes two new cells, while apoptosis removes a cell."
+      "explanation": "Correct: a programmed, regulated form of cell death triggered when DNA damage is too severe to safely repair. In apoptosis a cell carries out a controlled self-destruction using enzymes called caspases: the cell shrinks, its DNA is cut up, and its remains are packaged and removed by neighboring cells without causing inflammation. Apoptosis is a safeguard: when a checkpoint (via p53) finds damage that cannot be repaired, the cell is told to die instead of dividing. It also shapes development, such as removing the webbing between developing fingers, and cancer cells often evade it. DNA damage is only one trigger: apoptosis can also be set off by developmental signals, by infection, or when a cell is no longer needed.\n\n(C) is wrong because apoptosis is regulated and purposeful; uncontrolled, accidental cell death is necrosis.\n(B) is wrong because apoptosis happens normally in healthy tissue all the time.\n(A) is wrong because mitosis makes two new cells, while apoptosis removes a cell."
     },
     {
       "id": "4-43",
@@ -3308,7 +3308,7 @@ const QUESTIONS = {
         "A mutation affecting spindle fiber formation or function"
       ],
       "correct": 3,
-      "explanation": "Correct: a mutation affecting spindle fiber formation or function. During anaphase, spindle fibers (microtubules) attached to the kinetochores of the chromosomes shorten and pull the sister chromatids apart toward opposite poles. If the spindle cannot form or work properly, the chromatids cannot be separated correctly. Cancer drugs such as paclitaxel (Taxol) and the compound colchicine work by interfering with microtubules and so stop mitosis.\n\n(C) is wrong because an enzyme with no role in division would not directly affect chromatid separation.\n(B) is wrong because an increase in cell size by itself does not stop the spindle from working.\n(A) is wrong because a change in outside pH with no effect on the mitotic machinery would not disrupt anaphase."
+      "explanation": "Correct: a mutation affecting spindle fiber formation or function. During anaphase, spindle fibers (microtubules) attached to the kinetochores of the chromosomes shorten and pull the sister chromatids apart toward opposite poles. If the spindle cannot form or work properly, the chromatids cannot be separated correctly. Paclitaxel (Taxol), a cancer drug, freezes microtubules in place, and colchicine, a laboratory tool, prevents them from forming; both stop mitosis.\n\n(C) is wrong because an enzyme with no role in division would not directly affect chromatid separation.\n(B) is wrong because an increase in cell size by itself does not stop the spindle from working.\n(A) is wrong because a change in outside pH with no effect on the mitotic machinery would not disrupt anaphase."
     },
     {
       "id": "4-46",
@@ -3334,7 +3334,7 @@ const QUESTIONS = {
         "Because every individual cancer cell is functionally identical to every other cancer cell in the entire tumor mass"
       ],
       "correct": 2,
-      "explanation": "Correct: because cancer cells lose normal control over division, traceable to mutations in cell cycle regulatory genes. A healthy cell divides only when it receives the right signals and passes its checkpoints. In cancer, mutations in genes that regulate the cell cycle (oncogenes that stay switched on, tumor suppressors that are lost, and checkpoint proteins that fail) allow the cell to divide without the normal signals and to ignore damage. Other features of cancer, such as avoiding apoptosis, invading tissue, and spreading, develop after this loss of control. That is why cancer is described as a disease of cell cycle regulation and not simply 'abnormal cells.'\n\n(A) is wrong because cancer cells keep many normal cell functions; it is division control that is lost.\n(B) is wrong because cancer cells contain DNA, and their problem is mutated DNA.\n(D) is wrong because cancer cells in a tumor vary considerably from one to another."
+      "explanation": "Correct: because cancer cells lose normal control over division, traceable to mutations in cell cycle regulatory genes. A healthy cell divides only when it receives the right signals and passes its checkpoints. In cancer, mutations in genes that regulate the cell cycle (oncogenes that stay switched on, tumor suppressors that are lost, and checkpoint proteins that fail) allow the cell to divide without the normal signals and to ignore damage. Other features of cancer, such as avoiding apoptosis, invading tissue, and spreading, often develop along with or after this loss of control. That is why cancer is described as a disease of cell cycle regulation and not simply 'abnormal cells.'\n\n(A) is wrong because cancer cells keep many normal cell functions; it is division control that is lost.\n(B) is wrong because cancer cells contain DNA, and their problem is mutated DNA.\n(D) is wrong because cancer cells in a tumor vary considerably from one to another."
     },
     {
       "id": "4-48",
@@ -3391,7 +3391,7 @@ const QUESTIONS = {
     {
       "id": "4-52",
       "topic": "4.5 Cancer and Cell Cycle Dysregulation",
-      "stem": "Which of the following mutation combinations would be most strongly associated with cancer development, based on the two-hit concept discussed in this unit?",
+      "stem": "Which of the following mutation combinations would be most strongly associated with cancer development, based on the multi-step (multiple-hit) model of cancer discussed in this unit?",
       "choices": [
         "A single, isolated gain-of-function mutation in a proto-oncogene, with all other regulatory genes still fully functional",
         "The complete absence of any mutations within the cell lineage in question",
@@ -3399,7 +3399,7 @@ const QUESTIONS = {
         "Two separate loss-of-function mutations in two unrelated, non-regulatory genes"
       ],
       "correct": 2,
-      "explanation": "Correct: a gain-of-function mutation in a proto-oncogene together with a loss-of-function mutation in a tumor suppressor gene. The two-hit idea is that cancer usually needs two kinds of change in the same cell line: something that pushes the cell to divide (an oncogene, the stuck gas pedal) and something that removes the safeguards that would stop it (a lost tumor suppressor, the failed brakes). With both, the cell divides abnormally and the damage is not caught.\n\n(A) is wrong because a single mutation in an oncogene with all the other regulators working is usually caught by checkpoints and tumor suppressors.\n(D) is wrong because mutations in non-regulatory genes do not give the cell both a drive to divide and a loss of safeguards.\n(B) is wrong because without mutations there would be no cancer."
+      "explanation": "Correct: a gain-of-function mutation in a proto-oncogene together with a loss-of-function mutation in a tumor suppressor gene. The multi-step idea is that cancer usually needs more than one kind of change in the same cell line: something that pushes the cell to divide (an oncogene, the stuck gas pedal) and something that removes the safeguards that would stop it (a lost tumor suppressor, the failed brakes). With both, the cell divides abnormally and the damage is not caught. (The separate 'two-hit' idea says that a tumor suppressor gene usually needs BOTH of its copies knocked out.)\n\n(A) is wrong because a single mutation in an oncogene with all the other regulators working is usually caught by checkpoints and tumor suppressors.\n(D) is wrong because mutations in non-regulatory genes do not give the cell both a drive to divide and a loss of safeguards.\n(B) is wrong because without mutations there would be no cancer."
     },
     {
       "id": "4-53",
@@ -3490,7 +3490,7 @@ const QUESTIONS = {
         "Multiple steps exist purely as an evolutionary accident, providing no functional benefit at all"
       ],
       "correct": 2,
-      "explanation": "Correct: multiple steps allow signal amplification and provide multiple points where the pathway can be regulated or integrated. A single ligand binding to one receptor can be amplified at every step of a cascade, so a tiny signal can have a large effect. Each step is also a place where the cell can control the pathway (for example, by an inhibitor or a phosphatase), a place where the signal can be linked with other pathways (crosstalk), and a place where the signal can branch to cause several different responses. This gives the cell fine control over its responses.\n\n(D) is wrong because the multiple steps have well-documented benefits.\n(B) is wrong because while a longer pathway may take slightly longer, the benefits of amplification and regulation are important.\n(A) is wrong because the reasoning is not about a receptor's physical inability; it is about the advantages of a multi-step pathway."
+      "explanation": "Correct: multiple steps allow signal amplification and provide multiple points where the pathway can be regulated or integrated. A single ligand binding to one receptor can be amplified at every step of a cascade, so a tiny signal can have a large effect. Each step is also a place where the cell can control the pathway (for example, by an inhibitor or a phosphatase), a place where the signal can be linked with other pathways (crosstalk), and a place where the signal can branch to cause several different responses. This gives the cell fine control over its responses.\n\n(D) is wrong because the multiple steps have well-documented benefits.\n(B) is wrong because while a longer pathway may take slightly longer, the benefits of amplification and regulation are important.\n(A) is wrong because the words 'under any circumstances' make it false: some receptors, such as ligand-gated ion channels, produce a response directly. Most pathways use several steps because of the advantages in the right answer, not because receptors cannot act."
     },
     {
       "id": "4-60",
@@ -3542,7 +3542,7 @@ const QUESTIONS = {
         "The ligand must be large in overall size and must also carry a substantial net electric charge"
       ],
       "correct": 2,
-      "explanation": "Correct: the ligand must be small and nonpolar enough to diffuse across the membrane. An intracellular receptor is inside the cell, so the ligand first has to get through the plasma membrane. The membrane interior is hydrophobic, so only small, nonpolar (or lipid-soluble) molecules can diffuse through. Steroid hormones (such as estrogen and cortisol) and thyroid hormones are examples. Large or polar ligands such as peptide hormones cannot cross, so they use membrane-bound receptors.\n\n(D) is wrong because a large, highly charged molecule cannot diffuse across the bilayer.\n(A) is wrong because proteins are typically large and polar, so they cannot diffuse through the membrane.\n(B) is wrong because the chemical properties of the ligand determine which kind of receptor it can reach."
+      "explanation": "Correct: the ligand must be small and nonpolar enough to diffuse across the membrane. An intracellular receptor is inside the cell, so the ligand first has to get through the plasma membrane. The membrane interior is hydrophobic, so only small, nonpolar (or lipid-soluble) molecules can diffuse through. Steroid hormones (such as estrogen and cortisol) are examples. Large or polar ligands such as peptide hormones cannot cross, so they use membrane-bound receptors.\n\n(D) is wrong because a large, highly charged molecule cannot diffuse across the bilayer.\n(A) is wrong because proteins are typically large and polar, so they cannot diffuse through the membrane.\n(B) is wrong because the chemical properties of the ligand determine which kind of receptor it can reach."
     },
     {
       "id": "4-64",
@@ -3610,7 +3610,7 @@ const QUESTIONS = {
         "Independent assortment of homologous pairs"
       ],
       "correct": 3,
-      "explanation": "Correct: independent assortment of homologous pairs. In metaphase I each homologous pair lines up at the plate with a random orientation (maternal chromosome on the left or on the right), independent of how every other pair lines up. Different orientations send different mixes of maternal and paternal chromosomes into the gametes. With n pairs there are 2^n possible combinations, so independent assortment is one of the three classic sources of variation in sexual reproduction, along with crossing over and random fertilization.\n\n(A) is wrong because mitochondrial replication just copies organelle DNA (which is inherited from the mother and is essentially identical in all her offspring) and does not shuffle nuclear alleles.\n(B) is wrong because DNA methylation is an epigenetic tag that changes how genes are expressed without changing the DNA sequence, so it does not create new allele combinations.\n(C) is wrong because cytokinesis only divides the cytoplasm after the chromosomes have already been sorted; it creates no new genetic combinations."
+      "explanation": "Correct: independent assortment of homologous pairs. In metaphase I each homologous pair lines up at the plate with a random orientation (maternal chromosome on the left or on the right), independent of how every other pair lines up. Different orientations send different mixes of maternal and paternal chromosomes into the gametes. With n pairs there are 2<sup>n</sup> possible combinations, so independent assortment is one of the three classic sources of variation in sexual reproduction, along with crossing over and random fertilization.\n\n(A) is wrong because mitochondrial replication just copies organelle DNA (which is inherited from the mother and is essentially identical in all her offspring) and does not shuffle nuclear alleles.\n(B) is wrong because DNA methylation is an epigenetic tag that changes how genes are expressed without changing the DNA sequence, so it does not create new allele combinations.\n(C) is wrong because cytokinesis only divides the cytoplasm after the chromosomes have already been sorted; it creates no new genetic combinations."
     },
     {
       "id": "5-4",
@@ -3636,7 +3636,7 @@ const QUESTIONS = {
         "Independent assortment, crossing over, and random fertilization each contribute variation"
       ],
       "correct": 3,
-      "explanation": "Correct: independent assortment, crossing over, and random fertilization each contribute variation. Full siblings come from the same two parents, but each child receives a different combination of their genes for three separate reasons. Independent assortment: each homologous pair lines up randomly in metaphase I, so each gamete gets a different mix of maternal and paternal chromosomes (2^23, over 8 million possibilities in humans). Crossing over: in prophase I homologs swap segments, creating new allele combinations on the same chromosome. Random fertilization: which sperm fuses with which egg is a matter of chance, multiplying the possibilities again. The result is that each child inherits a unique combination of the parents' alleles.\n\n(C) is wrong because identical DNA is found only in monozygotic (identical) twins, which come from one fertilized egg that splits; ordinary siblings come from different eggs and sperm.\n(B) is wrong because genetic variation is a major cause of differences between siblings, in addition to environment.\n(A) is wrong because new mutations happen, but the variation from meiosis and fertilization is already present at conception and is far larger than the effect of rare mutations."
+      "explanation": "Correct: independent assortment, crossing over, and random fertilization each contribute variation. Full siblings come from the same two parents, but each child receives a different combination of their genes for three separate reasons. Independent assortment: each homologous pair lines up randomly in metaphase I, so each gamete gets a different mix of maternal and paternal chromosomes (2<sup>23</sup>, over 8 million possibilities in humans). Crossing over: in prophase I homologs swap segments, creating new allele combinations on the same chromosome. Random fertilization: which sperm fuses with which egg is a matter of chance, multiplying the possibilities again. The result is that each child inherits a unique combination of the parents' alleles.\n\n(C) is wrong because identical DNA is found only in monozygotic (identical) twins, which come from one fertilized egg that splits; ordinary siblings come from different eggs and sperm.\n(B) is wrong because genetic variation is a major cause of differences between siblings, in addition to environment.\n(A) is wrong because new mutations happen, but the variation from meiosis and fertilization is already present at conception and is far larger than the effect of rare mutations."
     },
     {
       "id": "5-6",
@@ -3663,7 +3663,7 @@ const QUESTIONS = {
         "8 combinations"
       ],
       "correct": 3,
-      "explanation": "Correct: 8 combinations. Each homologous pair lines up at the metaphase I plate in one of two possible orientations (the maternal chromosome toward one pole or the other), and each pair does this independently of the others. Three pairs with two choices each gives 2 x 2 x 2 = 2^3 = 8 combinations. The general rule is 2^n for n pairs of homologous chromosomes. This rule is why humans, with 23 pairs, can make 2^23 = more than 8 million different chromosome combinations in gametes before crossing over is even counted.\n\n(B) is wrong because 3 is just the number of pairs, not the number of ways they can combine.\n(A) is wrong because 6 comes from multiplying 2 x 3 (treating the pairs additively) instead of raising 2 to the power of 3.\n(C) is wrong because 64 comes from using the wrong exponent or base, such as 2^6 (counting the 6 chromosomes instead of the 3 pairs) or 4^3; each pair has only two possible orientations, not four."
+      "explanation": "Correct: 8 combinations. Each homologous pair lines up at the metaphase I plate in one of two possible orientations (the maternal chromosome toward one pole or the other), and each pair does this independently of the others. Three pairs with two choices each gives 2 x 2 x 2 = 2<sup>3</sup> = 8 combinations. The general rule is 2<sup>n</sup> for n pairs of homologous chromosomes. This rule is why humans, with 23 pairs, can make 2<sup>23</sup> = more than 8 million different chromosome combinations in gametes before crossing over is even counted.\n\n(B) is wrong because 3 is just the number of pairs, not the number of ways they can combine.\n(A) is wrong because 6 comes from multiplying 2 x 3 (treating the pairs additively) instead of raising 2 to the power of 3.\n(C) is wrong because 64 comes from using the wrong exponent or base, such as 2<sup>6</sup> (counting the 6 chromosomes instead of the 3 pairs) or 4<sup>3</sup>; each pair has only two possible orientations, not four."
     },
     {
       "id": "5-8",
@@ -3728,7 +3728,7 @@ const QUESTIONS = {
         "1/4"
       ],
       "correct": 3,
-      "explanation": "Correct: 1/4. When a problem asks about two independently assorting genes, treat each gene on its own and then multiply (the product rule for an 'AND' situation). For gene A, Aa x Aa gives AA 1/4, Aa 1/2, aa 1/4, so the chance of Aa is 1/2. The same is true for gene B: the chance of Bb is 1/2. The chance of getting Aa AND Bb is 1/2 x 1/2 = 1/4. This shortcut is much faster than filling in a 16-box Punnett square.\n\n(C) is wrong because 1/16 is the chance of a specific double homozygote such as AABB (1/4 x 1/4) or aabb; it also results from multiplying four 1/2s instead of just the two that apply here.\n(A) is wrong because 1/2 is the probability for only one gene being heterozygous; it forgets to multiply in the second gene.\n(B) is wrong because 9/16 is the fraction of offspring that show BOTH dominant phenotypes (AABB, AABb, AaBB, and AaBb combined), which is a different question from the one specific genotype AaBb."
+      "explanation": "Correct: 1/4. When a problem asks about two independently assorting genes, treat each gene on its own and then multiply (the product rule for an 'AND' situation). For gene A, Aa x Aa gives AA 1/4, Aa 1/2, aa 1/4, so the chance of Aa is 1/2. The same is true for gene B: the chance of Bb is 1/2. The chance of getting Aa AND Bb is 1/2 x 1/2 = 1/4. This shortcut is much faster than filling in a 16-box Punnett square.\n\n(C) is wrong because 1/16 is the chance of a specific double homozygote such as AABB (1/4 x 1/4) or aabb.\n(A) is wrong because 1/2 is the probability for only one gene being heterozygous; it forgets to multiply in the second gene.\n(B) is wrong because 9/16 is the fraction of offspring that show BOTH dominant phenotypes (AABB, AABb, AaBB, and AaBb combined), which is a different question from the one specific genotype AaBb."
     },
     {
       "id": "5-13",
@@ -3754,7 +3754,7 @@ const QUESTIONS = {
         "Neither probability rule applies to genetics problems"
       ],
       "correct": 1,
-      "explanation": "Correct: the product rule. Use it when two independent events must BOTH happen (an 'AND' situation): multiply their probabilities. For example, in a cross of two RrYy plants, the chance of a round seed is 3/4 and the chance of a yellow seed is 3/4, so the chance of an offspring that is round AND yellow is 3/4 x 3/4 = 9/16. The reason it works is that independent events do not influence each other, so the chances combine by multiplication. The sum rule is the partner tool for 'OR' situations (see the next point).\n\n(A) is wrong because the sum rule adds probabilities for mutually exclusive outcomes where EITHER one is acceptable, for example the chance a child is AA or Aa. Adding 3/4 + 3/4 would give more than 1, which is impossible for 'both happening.'\n(C) is wrong because dividing favorable outcomes by total outcomes gives the probability of a single event (the idea behind a Punnett square), but it does not combine two separate events the way multiplication does.\n(D) is wrong because probability is essential in genetics: each fertilization is a chance event, and these rules are how ratios are predicted."
+      "explanation": "Correct: the product rule. Use it when two independent events must BOTH happen (an 'AND' situation): multiply their probabilities. For example, in a cross of two RrYy plants, the chance of a round seed is 3/4 and the chance of a yellow seed is 3/4, so the chance of an offspring that is round AND yellow is 3/4 x 3/4 = 9/16. The reason it works is that independent events do not influence each other, so the chances combine by multiplication. The sum rule is the partner tool for 'OR' situations (it comes up in a later question).\n\n(A) is wrong because the sum rule adds probabilities for mutually exclusive outcomes where EITHER one is acceptable, for example the chance a child is AA or Aa. Adding 3/4 + 3/4 would give more than 1, which is impossible for 'both happening.'\n(C) is wrong because dividing favorable outcomes by total outcomes gives the probability of a single event (the idea behind a Punnett square), but it does not combine two separate events the way multiplication does.\n(D) is wrong because probability is essential in genetics: each fertilization is a chance event, and these rules are how ratios are predicted."
     },
     {
       "id": "5-15",
@@ -3832,7 +3832,7 @@ const QUESTIONS = {
         "Pleiotropy"
       ],
       "correct": 3,
-      "explanation": "Correct: pleiotropy. Pleiotropy means one gene has several effects on an organism's phenotype, often in traits that seem unrelated ('pleio' means many). In sickle-cell disease a single change in the gene for hemoglobin affects hemoglobin shape, which changes red blood cell shape, causes anemia and blocked blood vessels (leading to organ damage), and also gives carriers some resistance to malaria. The clue in the stem is 'a single gene influencing multiple, seemingly unrelated traits.'\n\n(C) is wrong because polygenic inheritance is the reverse: MANY genes affecting ONE trait. (A) and (B) are wrong because incomplete dominance and codominance both describe how the two alleles of a gene are expressed together in a heterozygote for a single trait; they do not address one gene producing many different effects."
+      "explanation": "Correct: pleiotropy. Pleiotropy means one gene has several effects on an organism's phenotype, often in traits that seem unrelated ('pleio' means many). In sickle-cell disease a single change in the gene for hemoglobin affects hemoglobin shape, which changes red blood cell shape, causes anemia and blocked blood vessels (leading to organ damage), and also gives carriers some resistance to malaria. The clue in the stem is 'a single gene influencing multiple, seemingly unrelated traits.'\n\n(A) is wrong because incomplete dominance is about a heterozygote showing an in-between phenotype for ONE trait (pink from red x white); it says nothing about one gene affecting many traits.\n(B) is wrong because codominance is about both alleles showing at once in a heterozygote (AB blood type) for ONE trait.\n(C) is wrong because polygenic inheritance is the reverse: MANY genes affecting ONE trait."
     },
     {
       "id": "5-21",
@@ -3864,7 +3864,7 @@ const QUESTIONS = {
       "id": "5-23",
       "topic": "5.3 Non-Mendelian Inheritance",
       "stretch": true,
-      "stem": "Stretch — beyond typical AP difficulty: A trait shows incomplete dominance for flower color (red RR, white rr, pink Rr) AND is influenced by a completely separate, independently assorting gene controlling petal number (incomplete dominance, giving three phenotypes: tall-petal, medium-petal, short-petal). If a plant heterozygous for flower color (Rr) and heterozygous for petal number (using two of the three possible alleles) is self-crossed, how would you approach calculating the probability of a specific combined phenotype?",
+      "stem": "Stretch — beyond typical AP difficulty: A plant's flower color is controlled by a gene with incomplete dominance (red RR, pink Rr, white rr). A second, independently assorting gene controls petal size, also with incomplete dominance (large LL, medium Ll, small ll). A plant that is Rr Ll is self-crossed. How would you approach calculating the probability of a specific combined phenotype?",
       "choices": [
         "Calculate each gene's phenotype probability separately, then multiply them together using the product rule",
         "Add the two individual probabilities together",
@@ -3872,7 +3872,7 @@ const QUESTIONS = {
         "This calculation is impossible since the genes follow different inheritance patterns"
       ],
       "correct": 0,
-      "explanation": "Correct: calculate each gene's phenotype probability separately, then multiply them with the product rule. The product rule works for ANY two genes that assort independently, no matter what inheritance pattern each gene follows; you simply use each gene's own rules to find its phenotype probabilities first. For flower color (incomplete dominance), Rr x Rr gives red 1/4, pink 1/2, white 1/4, because in incomplete dominance the phenotype ratio matches the genotype ratio. For petal number, a self-cross of a plant with two different alleles gives the same pattern (one homozygote 1/4, the heterozygote 1/2, the other homozygote 1/4), giving tall, medium, and short phenotypes. The chance of a specific combination, such as pink AND medium petals, is 1/2 x 1/2 = 1/4.\n\n(B) is wrong because adding is the sum rule, used when outcomes are mutually exclusive alternatives ('or'), not when two traits must occur together ('and').\n(C) is wrong because incomplete dominance only changes the ratio of phenotypes for its own gene; it cannot cancel or override a separate, independently assorting gene.\n(D) is wrong because different inheritance patterns do not prevent combining probabilities as long as the genes assort independently."
+      "explanation": "Correct: calculate each gene's phenotype probability separately, then multiply them with the product rule. The product rule works for ANY two genes that assort independently, no matter what inheritance pattern each gene follows; you simply use each gene's own rules to find its phenotype probabilities first. For flower color (incomplete dominance), Rr x Rr gives red 1/4, pink 1/2, white 1/4, because in incomplete dominance the phenotype ratio matches the genotype ratio. For petal size (also incomplete dominance), Ll x Ll gives large 1/4, medium 1/2, and small 1/4. The chance of a specific combination, such as pink AND medium petals, is 1/2 x 1/2 = 1/4.\n\n(B) is wrong because adding is the sum rule, used when outcomes are mutually exclusive alternatives ('or'), not when two traits must occur together ('and').\n(C) is wrong because incomplete dominance only changes the ratio of phenotypes for its own gene; it cannot cancel or override a separate, independently assorting gene.\n(D) is wrong because different inheritance patterns do not prevent combining probabilities as long as the genes assort independently."
     },
     {
       "id": "5-24",
@@ -3911,7 +3911,7 @@ const QUESTIONS = {
         "Random fertilization, which sperm fertilizes which egg"
       ],
       "correct": 1,
-      "explanation": "Correct: crossing over during prophase I. Two linked genes sit on the same chromosome, so they normally stay together. Independent assortment only randomizes how WHOLE chromosomes are distributed, and a whole chromosome carries both linked genes with it. To separate the two genes, a piece of DNA has to be physically exchanged between homologous chromosomes, which is what crossing over does: after the swap, a chromatid can carry one gene's allele from one parent and the other gene's allele from the other parent (a recombinant).\n\n(C) is wrong because independent assortment shuffles whole chromosomes and cannot split genes located on the same one.\n(D) is wrong because random fertilization decides which sperm meets which egg; it does not rearrange genes within a chromosome.\n(A) is wrong because mitosis does not involve homologous chromosomes pairing up, so there is no crossing over in it, and it produces identical daughter cells."
+      "explanation": "Correct: crossing over during prophase I. Two linked genes sit on the same chromosome, so they normally stay together. Independent assortment only randomizes how WHOLE chromosomes are distributed, and a whole chromosome carries both linked genes with it. To separate the two genes, a piece of DNA has to be physically exchanged between homologous chromosomes, which is what crossing over does: after the swap, a chromatid can carry one gene's allele from one parent and the other gene's allele from the other parent (a recombinant). Among the choices, crossing over is the only one that rearranges alleles on a single chromosome (rare events such as mutation or translocation aside).\n\n(C) is wrong because independent assortment shuffles whole chromosomes and cannot split genes located on the same one.\n(D) is wrong because random fertilization decides which sperm meets which egg; it does not rearrange genes within a chromosome.\n(A) is wrong because mitosis does not involve homologous chromosomes pairing up, so there is no crossing over in it, and it produces identical daughter cells."
     },
     {
       "id": "5-27",
@@ -4054,21 +4054,21 @@ const QUESTIONS = {
         "Mitosis, not meiosis, since gametes don't come from meiosis"
       ],
       "correct": 1,
-      "explanation": "Correct: meiosis I. The clue is that ALL FOUR gametes are abnormal for this chromosome: two have an extra copy and two are missing it. In meiosis I a homologous pair fails to separate, so one daughter cell gets both homologs and the other gets neither. In meiosis II both of those cells divide normally, so the cell with both homologs makes two n + 1 gametes and the cell with none makes two n - 1 gametes: four abnormal gametes. If the error had happened in meiosis II, only one of the two meiosis I cells would be affected, so the result would be two abnormal gametes and two normal ones.\n\n(C) is wrong because of that pattern (two normal gametes would be present).\n(A) is wrong because this outcome is the standard result of meiosis I nondisjunction.\n(D) is wrong because gametes are produced by meiosis, not mitosis."
+      "explanation": "Correct: meiosis I. The clue is that ALL FOUR gametes are abnormal for this chromosome: two have an extra copy and two are missing it. In meiosis I a homologous pair fails to separate, so one daughter cell gets both homologs and the other gets neither. In meiosis II both of those cells divide normally, so the cell with both homologs makes two n + 1 gametes and the cell with none makes two n - 1 gametes: four abnormal gametes. If the error had happened in meiosis II, only one of the two meiosis I cells would be affected, so the result would be two abnormal gametes and two normal ones.\n\n(C) is wrong because nondisjunction in meiosis II would leave two normal gametes, but here all four are abnormal.\n(A) is wrong because this outcome is the standard result of meiosis I nondisjunction.\n(D) is wrong because gametes are produced by meiosis, not mitosis."
     },
     {
       "id": "5-38",
       "topic": "5.5 Chromosomal Abnormalities",
       "stretch": true,
-      "stem": "Stretch — beyond typical AP difficulty: A woman who is a known carrier for nondisjunction-prone meiosis has an elevated risk of producing aneuploid gametes for a particular chromosome. If nondisjunction risk is independent between her two meiotic divisions, and the probability of nondisjunction occurring specifically in Meiosis I is 4% while the probability of nondisjunction occurring specifically in Meiosis II (given that Meiosis I proceeded normally) is 3%, what is the approximate overall probability that a given egg cell from this woman is aneuploid for this chromosome?",
+      "stem": "Stretch — beyond typical AP difficulty: A woman has an elevated risk of producing aneuploid gametes for a particular chromosome. If nondisjunction risk is independent between her two meiotic divisions, and the probability of nondisjunction occurring specifically in Meiosis I is 4% while the probability of nondisjunction occurring specifically in Meiosis II (given that Meiosis I proceeded normally) is 3%, what is the approximate overall probability that a given egg cell from this woman is aneuploid for this chromosome?",
       "choices": [
-        "7%, from simply adding 4% and 3%",
+        "3.5%, from averaging 4% and 3%",
         "12%, from multiplying 4 and 3 together",
         "Approximately 6.9% (4% + [96% × 3%])",
         "1%, from subtracting 3% from 4%"
       ],
       "correct": 2,
-      "explanation": "Correct: approximately 6.9% (4% + [96% x 3%]). There are two different ways an egg can end up aneuploid, and they cannot both happen as separate first events, so we add them: nondisjunction in meiosis I (probability 0.04), OR meiosis I going normally (0.96) AND THEN nondisjunction in meiosis II (0.03). The second path is a product ('and'): 0.96 x 0.03 = 0.0288. Adding the two mutually exclusive paths gives 0.04 + 0.0288 = 0.0688, about 6.9%. A way to check: the egg is normal only if both divisions go correctly, 0.96 x 0.97 = 0.9312, so the chance of aneuploidy is 1 - 0.9312 = 0.0688.\n\n(A) is wrong because adding 4% + 3% skips the fact that meiosis II can only go wrong in cells that got through meiosis I correctly (96%).\n(B) is wrong because 12 comes from multiplying 4 by 3, which does not mean anything for probabilities given as percentages.\n(D) is wrong because subtracting the percentages does not combine the two ways the egg could be aneuploid."
+      "explanation": "Correct: approximately 6.9% (4% + [96% x 3%]). An egg can become aneuploid by only one of two routes, so we add them: nondisjunction in meiosis I (probability 0.04), OR meiosis I going normally (0.96) AND THEN nondisjunction in meiosis II (0.03). The second path is a product ('and'): 0.96 x 0.03 = 0.0288. Adding the two mutually exclusive paths gives 0.04 + 0.0288 = 0.0688, about 6.9%. A way to check: the egg is normal only if both divisions go correctly, 0.96 x 0.97 = 0.9312, so the chance of aneuploidy is 1 - 0.9312 = 0.0688.\n\n(A) is wrong because 3.5% averages the two risks, but the egg is exposed to BOTH divisions, so the risks combine and the result must be larger than either one alone.\n(B) is wrong because 12 comes from multiplying 4 by 3, which does not mean anything for probabilities given as percentages.\n(D) is wrong because subtracting the percentages does not combine the two ways the egg could be aneuploid."
     },
     {
       "id": "5-39",
@@ -4081,7 +4081,7 @@ const QUESTIONS = {
         "Aneuploidy has no biological consequences of any kind, positive or negative"
       ],
       "correct": 1,
-      "explanation": "Correct: chromosomes contain genes, so an abnormal chromosome number creates abnormal dosage of many genes at once. Each chromosome carries hundreds or thousands of genes. With an extra chromosome, the cell makes about 150% of the normal amount of every gene product from that chromosome; with a missing chromosome it makes about 50%. Many proteins work together in fixed proportions, so an imbalance in the amounts of many of them can disrupt development and normal cell function. This is why aneuploidies (like Down syndrome, trisomy 21) cause serious effects, and why only trisomies of the smallest chromosomes with the fewest genes are usually survivable.\n\n(D) is wrong because aneuploidy has well-documented, significant consequences, such as Down syndrome and Turner syndrome.\n(C) is wrong because the effects are not limited to appearance; they include heart defects, development, and cell function.\n(A) is wrong because mitochondrial DNA is separate from the nuclear chromosomes, so changes in nuclear chromosome number do not specifically target mitochondrial function."
+      "explanation": "Correct: chromosomes contain genes, so an abnormal chromosome number creates abnormal dosage of many genes at once. Each chromosome carries hundreds or thousands of genes. With an extra chromosome, the cell makes roughly 150% of the normal amount of every gene product from that chromosome; with a missing chromosome it makes roughly 50%. Many proteins work together in fixed proportions, so an imbalance in the amounts of many of them can disrupt development and normal cell function. This is why aneuploidies (like Down syndrome, trisomy 21) cause serious effects, and why most whole-chromosome aneuploidies are lost as miscarriages; the ones that can survive to birth involve small, gene-poor chromosomes (such as 21; trisomies 18 and 13 rarely survive long) or the sex chromosomes.\n\n(D) is wrong because aneuploidy has well-documented, significant consequences, such as Down syndrome and Turner syndrome.\n(C) is wrong because the effects are not limited to appearance; they include heart defects, development, and cell function.\n(A) is wrong because mitochondrial DNA is separate from the nuclear chromosomes, so changes in nuclear chromosome number do not specifically target mitochondrial function."
     },
     {
       "id": "5-1b",
@@ -4198,7 +4198,7 @@ const QUESTIONS = {
         "43%"
       ],
       "correct": 2,
-      "explanation": "Correct: 14%. Recombination frequency is the percentage of offspring that are recombinant (non-parental): (recombinant offspring / total offspring) x 100. First find the total: 430 parental + 70 recombinant = 500 offspring. Then 70 / 500 = 0.14, or 14%. In genetic mapping 1% recombination equals 1 map unit (centimorgan), so these two genes are about 14 map units apart, close enough to be clearly linked (unlinked genes would give about 50%).\n\n(A) is wrong because 86% is the PARENTAL percentage (430 / 500), the complement of the correct answer, and it is easy to grab by mistake.\n(B) is wrong because 70 is the raw number of recombinants, not a percentage; it was never divided by the total.\n(D) is wrong because 43% comes from dividing the parental count (430) by 1,000, an incorrect total, and it also uses the wrong group of offspring."
+      "explanation": "Correct: 14%. Recombination frequency is the percentage of offspring that are recombinant (non-parental): (recombinant offspring / total offspring) x 100. First find the total: 430 parental + 70 recombinant = 500 offspring. Then 70 / 500 = 0.14, or 14%. In genetic mapping 1% recombination equals 1 map unit (centimorgan), so these two genes are about 14 map units apart, close enough to be clearly linked (unlinked genes would give about 50%).\n\n(A) is wrong because 86% is the PARENTAL percentage (430 / 500), the complement of the correct answer, and it is easy to grab by mistake.\n(B) is wrong because 70 is the raw number of recombinants, not a percentage; it was never divided by the total.\n(D) is wrong because 43% is 430 / 1,000: it uses the parental count and the wrong total (the total is 500)."
     },
     {
       "id": "5-44",
@@ -4367,7 +4367,7 @@ const QUESTIONS = {
         "Recognizing that nondisjunction's parental origin can never actually be determined"
       ],
       "correct": 0,
-      "explanation": "Correct: using genetic markers to trace which parent contributed the extra or missing chromosome. Genetic markers are DNA variations (for example, small sequence differences) that are different in the mother and in the father. By comparing the markers on the affected person's three copies (or one copy) of the chromosome with the markers of each parent, researchers can see which parent's chromosome copies are over- or under-represented, and so which parent's meiosis made the faulty gamete. The same method can often show whether the error was in meiosis I (two different homologs from the same parent are present) or meiosis II (two identical copies from the same parent). For example, in most cases of Down syndrome the extra chromosome 21 turns out to come from the mother.\n\n(C) is wrong because height and general physical traits do not show which parent contributed the chromosome.\n(B) is wrong because the number of siblings contains no information about the chromosomes involved.\n(D) is wrong because marker analysis is a standard method for this."
+      "explanation": "Correct: using genetic markers to trace which parent contributed the extra or missing chromosome. Genetic markers are DNA variations (for example, small sequence differences) that are different in the mother and in the father. By comparing the markers on the affected person's three copies (or one copy) of the chromosome with the markers of each parent, researchers can see which parent's chromosome copies are over- or under-represented, and so which parent's meiosis made the faulty gamete. The same method can often show whether the error was in meiosis I (two different homologs from the same parent are present) or meiosis II (two copies of the same homolog from the same parent, identical except where crossing over has swapped segments). For example, in most cases of Down syndrome the extra chromosome 21 turns out to come from the mother.\n\n(C) is wrong because height and general physical traits do not show which parent contributed the chromosome.\n(B) is wrong because the number of siblings contains no information about the chromosomes involved.\n(D) is wrong because marker analysis is a standard method for this."
     },
     {
       "id": "5-57",
@@ -4407,7 +4407,7 @@ const QUESTIONS = {
         "Sex chromosomes contain no genes that are relevant to survival or development"
       ],
       "correct": 2,
-      "explanation": "Correct: X-inactivation already silences one X in typical XX cells, so losing the second X is a smaller dosage loss than losing an autosome. In a normal XX female, one of the two X chromosomes in each cell is switched off early in development (X-inactivation, forming a Barr body), so even a typical female is using only about one X's worth of genes in most cells. A person with only one X (XO, Turner syndrome) therefore has close to the normal active gene dosage for most X genes, unlike an autosomal monosomy, where both copies are normally active and half the gene dosage is lost for hundreds of genes. This is why Turner syndrome is survivable, although it still has effects (some genes on the X escape inactivation, which is part of why it is not entirely normal), and many such pregnancies still end in miscarriage.\n\n(B) is wrong because the person IS missing a chromosome's worth of genetic material and the effects show it.\n(D) is wrong because the X chromosome carries many genes important for development, which is why having no X at all is not compatible with life.\n(A) is wrong because it contradicts the premise: autosomal monosomies are generally NOT survivable."
+      "explanation": "Correct: X-inactivation already silences one X in typical XX cells, so losing the second X is a smaller dosage loss than losing an autosome. In a normal XX female, one of the two X chromosomes in each cell is switched off early in development (X-inactivation, forming a Barr body), so even a typical female is using only about one X's worth of genes in most cells. A person with only one X (XO, Turner syndrome) therefore has close to the normal active gene dosage for most X genes, unlike an autosomal monosomy, where both copies are normally active and half the gene dosage is lost for hundreds of genes. This is why Turner syndrome is survivable, although it still has effects (some genes on the X escape inactivation, which is part of why it is not entirely normal), and about 99% of 45,X conceptions end in miscarriage, so survival to birth is the exception.\n\n(B) is wrong because the person IS missing a chromosome's worth of genetic material and the effects show it.\n(D) is wrong because the X chromosome carries many genes important for development, which is why having no X at all is not compatible with life.\n(A) is wrong because it contradicts the premise: autosomal monosomies are generally NOT survivable."
     },
     {
       "id": "5-60",
@@ -4433,7 +4433,7 @@ const QUESTIONS = {
         "Independent assortment, random orientation of chromosome pairs"
       ],
       "correct": 0,
-      "explanation": "Correct: random fertilization. Random fertilization is the variation that comes from chance at the moment of fertilization: any one of millions of genetically different sperm can fuse with any one of the genetically different eggs. A human parent can already make about 2^23 (more than 8 million) different gametes from independent assortment alone, so two parents can produce roughly 8 million x 8 million = about 70 trillion different zygotes, even before crossing over is counted. The other two sources of variation take place during meiosis inside one parent; random fertilization takes place when gametes from two different parents combine.\n\n(C) is wrong because crossing over creates new allele combinations within chromosomes in prophase I, inside a single meiosis.\n(D) is wrong because independent assortment creates new combinations of whole chromosomes in metaphase I, also inside a single meiosis, not at fertilization.\n(B) is wrong because nondisjunction is a chromosome separation ERROR that produces abnormal chromosome numbers, not a normal source of variation."
+      "explanation": "Correct: random fertilization. Random fertilization is the variation that comes from chance at the moment of fertilization: any one of millions of genetically different sperm can fuse with any one of the genetically different eggs. A human parent can already make about 2<sup>23</sup> (more than 8 million) different gametes from independent assortment alone, so two parents can produce roughly 8 million x 8 million = about 70 trillion different zygotes, even before crossing over is counted. The other two sources of variation take place during meiosis inside one parent; random fertilization takes place when gametes from two different parents combine.\n\n(C) is wrong because crossing over creates new allele combinations within chromosomes in prophase I, inside a single meiosis.\n(D) is wrong because independent assortment creates new combinations of whole chromosomes in metaphase I, also inside a single meiosis, not at fertilization.\n(B) is wrong because nondisjunction is a chromosome separation ERROR that produces abnormal chromosome numbers, not a normal source of variation."
     }
   ],
   "6": [
@@ -4461,7 +4461,7 @@ const QUESTIONS = {
         "DNA polymerase"
       ],
       "correct": 2,
-      "explanation": "Helicase breaks the hydrogen bonds between base pairs to separate the two strands. DNA polymerase (D) only extends an existing strand from an existing template — it doesn't unwind DNA. Ligase (B) seals backbone nicks between fragments, not hydrogen bonds between strands. Primase (A) lays down RNA primers to give polymerase a starting point; neither of these enzymes separates the helix."
+      "explanation": "Correct: helicase. Helicase works at the replication fork. Using ATP, it breaks the hydrogen bonds between the base pairs and unwinds the double helix into two single-stranded templates, which DNA polymerase can then copy. Clue words: 'unwinding' or 'separating the strands' point to helicase.\n\n(D) is wrong because DNA polymerase adds nucleotides to an existing strand and does not unwind the DNA.\n(B) is wrong because ligase seals the sugar-phosphate backbone between fragments; it does not separate strands.\n(A) is wrong because primase makes the short RNA primers that give polymerase a starting point; it does not unwind the helix."
     },
     {
       "id": "6-3",
@@ -4474,7 +4474,7 @@ const QUESTIONS = {
         "Helicase"
       ],
       "correct": 2,
-      "explanation": "Primase synthesizes a short RNA primer, giving DNA polymerase the free 3' end it needs to begin adding nucleotides. Helicase (D) separates strands but adds no primer. Ligase (B) acts at the end of the process, sealing already-synthesized fragments together. Topoisomerase (A) relieves the twisting stress created ahead of the replication fork; none of these three provide the starting sequence polymerase requires."
+      "explanation": "Correct: primase. DNA polymerase cannot start a new strand; it can only add nucleotides to a free 3' end. Primase is an RNA polymerase that makes a short RNA primer (about 5 to 10 nucleotides) paired with the template, which provides that free 3' end. The leading strand needs one primer, and the lagging strand needs a new primer for each Okazaki fragment. Clue words: 'RNA primer' and 'starting point' point to primase.\n\n(D) is wrong because helicase unwinds the helix but does not make primers.\n(B) is wrong because ligase works at the end of the process, sealing the fragments together.\n(A) is wrong because topoisomerase relieves twisting stress ahead of the fork and does not provide a starting sequence."
     },
     {
       "id": "6-4",
@@ -4500,7 +4500,7 @@ const QUESTIONS = {
         "Primase"
       ],
       "correct": 0,
-      "explanation": "Ligase seals the remaining gaps between adjacent Okazaki fragments (after their RNA primers are removed and replaced with DNA), producing one continuous lagging strand. Helicase (B) unwinds the helix earlier in the process and plays no role in joining fragments. Primase (D) provides starting primers, the opposite function of sealing an ending. RNA polymerase (C) belongs to transcription, not DNA replication, and never acts on Okazaki fragments."
+      "explanation": "Correct: ligase. The lagging strand is made in short pieces called Okazaki fragments. Each piece starts with an RNA primer. After the primers are removed and the gaps are filled with DNA (by DNA polymerase I), small breaks (nicks) remain in the sugar-phosphate backbone between neighboring fragments. DNA ligase seals those nicks by forming phosphodiester bonds, which turns the fragments into one continuous strand. Clue words: 'joins fragments.'\n\n(B) is wrong because helicase unwinds the double helix earlier in the process.\n(D) is wrong because primase makes the starting primers, the opposite end of the job.\n(C) is wrong because RNA polymerase carries out transcription and is not part of DNA replication."
     },
     {
       "id": "6-6",
@@ -4514,7 +4514,7 @@ const QUESTIONS = {
         "The mutation rate would be entirely unaffected by losing this proofreading function"
       ],
       "correct": 1,
-      "explanation": "Correct: the mutation rate would likely increase, since proofreading normally corrects mismatched nucleotides. DNA polymerase sometimes inserts the wrong nucleotide. A proofreading polymerase notices the mismatch (using a 3' to 5' exonuclease activity), backs up, removes the incorrect nucleotide, and then continues. Proofreading lowers the error rate by a factor of about 100, so replication errors are very rare (roughly one error per billion nucleotides copied once mismatch repair is included). A polymerase without proofreading leaves more mismatches in the new strand, and some of them will become permanent mutations after the next round of replication.\n\n(A) is wrong because skipping a correction step does not reduce the number of errors; it leaves them uncorrected. (C) and (D) are wrong because proofreading is one of the main reasons replication is accurate, so losing it would change the mutation rate."
+      "explanation": "Correct: the mutation rate would likely increase, since proofreading normally corrects mismatched nucleotides. DNA polymerase sometimes inserts the wrong nucleotide. A proofreading polymerase notices the mismatch (using a 3' to 5' exonuclease activity), backs up, removes the incorrect nucleotide, and then continues. Proofreading lowers the error rate by a factor of about 100, so replication errors are very rare (roughly one error per billion nucleotides copied once mismatch repair is included). A polymerase without proofreading leaves more mismatches in the new strand, and some of them will become permanent mutations after the next round of replication.\n\n(A) is wrong because skipping a correction step does not reduce the number of errors; it leaves them uncorrected. (C) is wrong because proofreading is one of the main reasons replication is accurate, so DNA polymerase does affect the mutation rate.\n(D) is wrong because losing proofreading removes error correction, so the mutation rate would change."
     },
     {
       "id": "6-7",
@@ -4540,7 +4540,7 @@ const QUESTIONS = {
         "Ligase"
       ],
       "correct": 1,
-      "explanation": "RNA polymerase builds an mRNA strand complementary to the DNA template, using ribonucleotides (with uracil instead of thymine). DNA polymerase (C) synthesizes DNA during replication, not RNA during transcription. Helicase (A) only separates strands; it never adds nucleotides to a growing chain. Ligase (D) seals gaps in DNA backbones and has no role in building an mRNA molecule."
+      "explanation": "Correct: RNA polymerase. RNA polymerase reads the DNA template strand (3' to 5') and builds a complementary RNA strand 5' to 3' using ribonucleotides, with uracil in place of thymine. Unlike DNA polymerase, it does not need a primer to start. Clue words: 'synthesizing mRNA' and 'transcription.'\n\n(C) is wrong because DNA polymerase makes DNA during replication.\n(A) is wrong because helicase only separates DNA strands and does not add nucleotides.\n(D) is wrong because ligase seals breaks in DNA and does not build an mRNA molecule."
     },
     {
       "id": "6-9",
@@ -4553,7 +4553,7 @@ const QUESTIONS = {
         "An intron"
       ],
       "correct": 1,
-      "explanation": "RNA polymerase (often aided by transcription factors) binds the promoter, a DNA sequence upstream of the gene, to begin transcription at the correct location. The terminator (A) signals the opposite event — where transcription ends, not begins. Introns and exons (C, D) are features of the transcript itself, distinguishing coding from non-coding regions; neither one is a DNA binding site that initiates transcription."
+      "explanation": "Correct: the promoter. The promoter is a DNA sequence at the start of a gene (upstream of where transcription begins). RNA polymerase, usually helped by transcription factors, binds to the promoter and then begins making RNA at the correct place. Clue words: 'bind to initiate transcription.'\n\n(A) is wrong because the terminator is the sequence that signals where transcription ends, not where it begins. (C) and (D) are wrong because exons and introns are segments within the gene that are transcribed (and then spliced); they are not the DNA sequence that RNA polymerase attaches to in order to begin transcription."
     },
     {
       "id": "6-10",
@@ -4573,13 +4573,13 @@ const QUESTIONS = {
       "topic": "6.2 Transcription",
       "stem": "Alternative splicing allows a single gene to produce multiple different proteins primarily by:",
       "choices": [
-        "By including or excluding different combinations of exons in the mature mRNA",
-        "By converting intron sequences directly into functional protein segments",
-        "By duplicating the entire gene into several separate copies before transcription",
-        "By altering the underlying DNA sequence of the gene between different cell types"
+        "Including or excluding different combinations of exons in the mature mRNA",
+        "Converting intron sequences directly into functional protein segments",
+        "Duplicating the entire gene into several separate copies before transcription",
+        "Altering the underlying DNA sequence of the gene between different cell types"
       ],
       "correct": 0,
-      "explanation": "Correct: by including or excluding different combinations of exons in the mature mRNA. In alternative splicing, one gene's pre-mRNA can be spliced in more than one way: some exons may be left out, or different exons chosen, depending on the cell type or signals. Each combination gives a different mature mRNA, which is translated into a different protein. This is one reason that humans, with about 20,000 genes, can make many more different proteins.\n\n(D) is wrong because the DNA sequence does not change; the splicing happens on the RNA copy.\n(C) is wrong because the gene is not duplicated before transcription.\n(B) is wrong because introns are removed during splicing and are not turned into protein."
+      "explanation": "Correct: including or excluding different combinations of exons in the mature mRNA. In alternative splicing, one gene's pre-mRNA can be spliced in more than one way: some exons may be left out, or different exons chosen, depending on the cell type or signals. Each combination gives a different mature mRNA, which is translated into a different protein. This is one reason that humans, with about 20,000 genes, can make many more different proteins.\n\n(D) is wrong because the DNA sequence does not change; the splicing happens on the RNA copy.\n(C) is wrong because the gene is not duplicated before transcription.\n(B) is wrong because introns are removed during splicing and are not turned into protein."
     },
     {
       "id": "6-12",
@@ -4592,7 +4592,7 @@ const QUESTIONS = {
         "Release of the completed transcript from the DNA template"
       ],
       "correct": 2,
-      "explanation": "During elongation, RNA polymerase actively travels along the template strand, extending the growing mRNA. Promoter binding (A) is the initiation step that precedes elongation. Transcript release (D) is termination, the step that follows elongation. Intron removal (B) is RNA processing that happens after the transcript is made, not during the act of synthesizing it."
+      "explanation": "Correct: RNA polymerase moving along the template, synthesizing complementary mRNA. Transcription has three stages. In initiation, RNA polymerase (with transcription factors in eukaryotes) binds the promoter. In elongation, it moves along the template strand and adds complementary RNA nucleotides to the growing mRNA. In termination, a terminator signal causes the polymerase to release the finished transcript. Clue words: 'moving along' and 'synthesizing.'\n\n(A) is wrong because binding to the promoter is initiation.\n(D) is wrong because releasing the transcript is termination.\n(B) is wrong because removing introns is RNA processing, which occurs after (and partly during) transcription, and is not the act of making the RNA."
     },
     {
       "id": "6-13",
@@ -4618,7 +4618,7 @@ const QUESTIONS = {
         "Two nucleotides, which still yields too few possible combinations for 20 amino acids"
       ],
       "correct": 1,
-      "explanation": "A codon is a three-nucleotide unit specifying either one amino acid or a stop signal. One nucleotide (A) allows only 4 combinations, and two nucleotides (D) allow only 16 — both fall short of the 20 amino acids that must be encoded. Four nucleotides (C) would allow 256 combinations, far more redundancy than the genetic code actually shows; three nucleotides (64 combinations) is the number actually used."
+      "explanation": "Correct: three. A codon is a group of three nucleotides in mRNA that specifies one amino acid or a stop signal. The reason it is three: with 4 possible bases, one nucleotide gives only 4 combinations (4<sup>1</sup>) and two nucleotides give only 16 (4<sup>2</sup>), which is not enough to code for 20 amino acids. Three nucleotides give 64 combinations (4<sup>3</sup>), which is enough for all 20 amino acids plus stop signals, with some redundancy.\n\n(A) is wrong because one nucleotide can specify only 4 possibilities.\n(D) is wrong because two nucleotides allow only 16 combinations.\n(C) is wrong because four nucleotides would allow 256 combinations, far more than the cell needs, and the actual genetic code uses triplets."
     },
     {
       "id": "6-15",
@@ -4631,7 +4631,7 @@ const QUESTIONS = {
         "AUG"
       ],
       "correct": 3,
-      "explanation": "AUG both marks the start of translation and codes for methionine, so nearly every new polypeptide begins with a methionine residue. UAG, UAA, and UGA (choices A, B, and C) are the three stop codons — they terminate translation and do not code for any amino acid, making them the opposite of a start codon."
+      "explanation": "Correct: AUG. AUG is the start codon: the ribosome begins translation at an AUG, and AUG codes for methionine, so nearly every new polypeptide begins with methionine (it is sometimes removed later). AUG also sets the reading frame, because the ribosome reads the following codons in groups of three starting from it. Methionine is coded for only by AUG. (A), (B), and (C) are wrong because UAG, UAA, and UGA are the three stop codons: they end translation and do not code for any amino acid, so they are the opposite of a start codon."
     },
     {
       "id": "6-16",
@@ -4683,7 +4683,7 @@ const QUESTIONS = {
         "It proves every organism sharing this code has an identical genome sequence"
       ],
       "correct": 1,
-      "explanation": "Correct: independent origins give no reason to expect the same arbitrary codon assignments in unrelated lineages. There is no chemical reason why the codon GGA has to code for glycine; it could just as well have coded for a different amino acid, so the assignments are essentially arbitrary. If different forms of life had arisen separately, we would expect them to use different codes. The fact that bacteria, plants, animals, and fungi all use essentially the same code is best explained by a common ancestor from which all life inherited it. (The few small differences, such as in mitochondria, fit with descent with modification.)\n\n(A) is wrong because near-universality means the code has been conserved, not that it keeps changing.\n(C) is wrong because the sharing of an arbitrary code has strong evolutionary significance.\n(D) is wrong because sharing a code does not mean sharing identical genomes; organisms have very different DNA sequences."
+      "explanation": "Correct: independent origins give no reason to expect the same arbitrary codon assignments in unrelated lineages. There is no known chemical necessity that makes the codon GGA code for glycine; the assignments look largely arbitrary (sometimes called a 'frozen accident'). If different forms of life had arisen separately, we would expect them to use different codes. The fact that bacteria, plants, animals, and fungi all use essentially the same code is best explained by a common ancestor from which all life inherited it. (The few small differences, such as in mitochondria, fit with descent with modification.)\n\n(A) is wrong because near-universality means the code has been conserved, not that it keeps changing.\n(C) is wrong because the sharing of an arbitrary code has strong evolutionary significance.\n(D) is wrong because sharing a code does not mean sharing identical genomes; organisms have very different DNA sequences."
     },
     {
       "id": "6-20",
@@ -4696,7 +4696,7 @@ const QUESTIONS = {
         "rRNA"
       ],
       "correct": 3,
-      "explanation": "rRNA forms a key structural and catalytic part of the ribosome, directly helping catalyze peptide bond formation between amino acids. mRNA (C) only carries the coded message that the ribosome reads; it isn't part of the ribosome's structure. tRNA (B) delivers individual amino acids to the ribosome but doesn't form its core. DNA polymerase (A) functions in DNA replication and has no role in ribosome structure at all."
+      "explanation": "Correct: rRNA. A ribosome is made of ribosomal RNA (rRNA) and proteins, in a large and a small subunit. The rRNA gives the ribosome its structure, and it is the rRNA itself that catalyzes the formation of the peptide bond between amino acids, so the ribosome is a ribozyme. Clue words: 'structural and catalytic component of the ribosome.'\n\n(C) is wrong because mRNA carries the message that the ribosome reads, but it is not part of the ribosome.\n(B) is wrong because tRNA brings amino acids to the ribosome but is not part of its structure.\n(A) is wrong because DNA polymerase copies DNA in replication and has no role in the ribosome."
     },
     {
       "id": "6-21",
@@ -4748,7 +4748,7 @@ const QUESTIONS = {
         "A silent mutation"
       ],
       "correct": 1,
-      "explanation": "An early frameshift disrupts the reading frame for essentially the entire rest of the gene, typically scrambling most of the downstream sequence into a largely nonfunctional protein. A silent mutation (D) causes no amino acid change at all, so it has essentially no effect. A distant missense change (C) usually has only a minor effect since only one residue, away from the functionally critical region, is altered. A silent intron mutation (A) is removed during splicing and never reaches the protein at all, making it functionally irrelevant."
+      "explanation": "Correct: a frameshift mutation occurring early in the gene's coding sequence. A frameshift (an insertion or deletion that is not a multiple of three) changes the reading frame of every codon after it, so nearly the whole protein would have the wrong amino acids, and a premature stop codon often appears. If it happens early in the gene, almost the entire protein is affected, so it is typically the most severe of these.\n\n(D) is wrong because a silent mutation does not change the amino acid sequence, so it has essentially no effect.\n(C) is wrong because a missense mutation changes only one amino acid, and far from the active site it usually has a minor effect.\n(A) is wrong because a mutation inside an intron is removed by splicing and never reaches the protein."
     },
     {
       "id": "6-25",
@@ -4761,20 +4761,20 @@ const QUESTIONS = {
         "A frameshift mutation"
       ],
       "correct": 1,
-      "explanation": "Correct: a missense mutation. In sickle-cell disease one nucleotide in the gene for the beta chain of hemoglobin changes (the codon GAG becomes GTG), so the amino acid glutamic acid is replaced with valine at one position. A mutation that swaps one amino acid for another is a missense mutation. Glutamic acid is polar and valine is nonpolar, and this one change makes hemoglobin molecules stick together when oxygen is low, so the red blood cells bend into a sickle shape. This shows how a small change in the DNA can change a protein's structure and function.\n\n(C) is wrong because no stop codon is created, and a full-length protein is made.\n(D) is wrong because no nucleotides were inserted or deleted, so there was no frameshift.\n(A) is wrong because the amino acid sequence does change, and that change causes the disease."
+      "explanation": "Correct: a missense mutation. In sickle-cell disease one nucleotide in the gene for the beta chain of hemoglobin changes (the DNA triplet GAG becomes GTG, so the mRNA codon GAG becomes GUG), so the amino acid glutamic acid is replaced with valine at one position. A mutation that swaps one amino acid for another is a missense mutation. Glutamic acid is polar and valine is nonpolar, and this one change makes hemoglobin molecules stick together when oxygen is low, so the red blood cells bend into a sickle shape. This shows how a small change in the DNA can change a protein's structure and function.\n\n(C) is wrong because no stop codon is created, and a full-length protein is made.\n(D) is wrong because no nucleotides were inserted or deleted, so there was no frameshift.\n(A) is wrong because the amino acid sequence does change, and that change causes the disease."
     },
     {
       "id": "6-26",
       "topic": "6.4 Mutations",
       "stem": "A mutagen is a substance or form of energy that:",
       "choices": [
-        "Something with no measurable effect on DNA under any circumstance at all, whether natural or artificial",
-        "A substance or energy form that raises mutation rate, directly or via disrupted replication",
-        "A substance that repairs and corrects existing DNA damage within the cell",
-        "Something acting exclusively on RNA molecules, never touching DNA itself"
+        "Has no measurable effect on DNA under any circumstance, whether natural or artificial",
+        "Raises the mutation rate, either by damaging DNA directly or by disrupting accurate replication",
+        "Repairs and corrects existing DNA damage within the cell",
+        "Acts exclusively on RNA molecules and never touches DNA itself"
       ],
       "correct": 1,
-      "explanation": "Correct: a substance or energy form that raises the mutation rate, directly or via disrupted replication. Mutagens are agents that increase the frequency of mutations. Examples: ultraviolet light (which links neighboring thymines into thymine dimers), ionizing radiation such as X-rays (which can break DNA strands), and chemicals such as some compounds in tobacco smoke or base analogs that are mistakenly incorporated into DNA. They damage DNA or cause errors during replication, and the damage becomes a mutation if it is not repaired.\n\n(C) is wrong because repairing damage is the job of DNA repair systems, not mutagens.\n(A) is wrong because a mutagen is defined by its effect on DNA.\n(D) is wrong because the best-known mutagens act on DNA itself."
+      "explanation": "Correct: it raises the mutation rate, either by damaging DNA directly or by disrupting accurate replication. Mutagens are agents that increase the frequency of mutations. Examples: ultraviolet light (which links neighboring thymines into thymine dimers), ionizing radiation such as X-rays (which can break DNA strands), and chemicals such as some compounds in tobacco smoke or base analogs that are mistakenly incorporated into DNA. They damage DNA or cause errors during replication, and the damage becomes a mutation if it is not repaired.\n\n(C) is wrong because repairing damage is the job of DNA repair systems, not mutagens.\n(A) is wrong because a mutagen is defined by its effect on DNA.\n(D) is wrong because the best-known mutagens act on DNA itself."
     },
     {
       "id": "6-27",
@@ -4788,7 +4788,7 @@ const QUESTIONS = {
         "This particular kind of boundary-spanning deletion would always create a nonsense mutation"
       ],
       "correct": 2,
-      "explanation": "Removing exactly 3 nucleotides preserves the reading frame downstream, but that alone doesn't guarantee the protein is unaffected if the cut doesn't fall cleanly between codons. Here, the deletion fuses leftover pieces of two adjacent codons into one new triplet, likely changing that single amino acid even while everything further downstream reads correctly. Choice B wrongly assumes 'no frameshift' means 'no change at all.' Choice D wrongly assumes this specific outcome (a stop codon) is guaranteed, when in fact any amino acid, stop or otherwise, could result depending on the new triplet formed. Choice A is simply wrong, since a multiple-of-three deletion by definition does not shift the downstream frame."
+      "explanation": "Correct: the downstream frame stays intact, but the merged codon pieces form one new, different codon at the deletion. A deletion of exactly 3 nucleotides does not shift the reading frame of the codons after it, because the codons after the deletion are still read in groups of three starting from the right place. But here the deleted nucleotides come from two neighboring codons: the last nucleotide of one codon and the first two of the next. The leftover pieces (two nucleotides from the first codon and one from the second) join into ONE new triplet. Two codons have become one, so the protein is one amino acid shorter, and the amino acid at that spot may be different (or, rarely, the new triplet could be a stop codon). Everything downstream is still read in the correct frame.\n\n(A) is wrong because a deletion of a multiple of three does not shift the reading frame for the rest of the gene.\n(B) is wrong because 'no frameshift' does not mean 'no change': the protein has lost an amino acid and may have a different one at that position.\n(D) is wrong because the new triplet could code for any amino acid or for a stop; a stop codon is possible but not guaranteed."
     },
     {
       "id": "6-28",
@@ -4809,12 +4809,12 @@ const QUESTIONS = {
       "stem": "What specifically happens to allow the lac operon to be transcribed when lactose IS present?",
       "choices": [
         "Lactose binds directly onto RNA polymerase, switching the enzyme on",
-        "Lactose binds the repressor, causing it to release from the operator",
+        "A lactose derivative (allolactose) binds the repressor, causing it to release from the operator",
         "The promoter region is physically destroyed once lactose enters the cell",
         "Lactose enters the ribosome directly, triggering transcription of the operon"
       ],
       "correct": 1,
-      "explanation": "Correct: lactose binds the repressor, causing it to release from the operator. When lactose is present, a form of lactose (allolactose) acts as an inducer: it binds the repressor protein and changes its shape, so the repressor can no longer bind the operator. With the operator free, RNA polymerase can bind the promoter and transcribe the lac genes, and the cell makes the enzymes (including beta-galactosidase) needed to digest lactose.\n\n(A) is wrong because lactose acts on the repressor, not on RNA polymerase.\n(C) is wrong because the promoter is not destroyed; it is used again.\n(D) is wrong because the ribosome translates mRNA; the effect of lactose is on transcription, before the mRNA exists."
+      "explanation": "Correct: a lactose derivative (allolactose) binds the repressor, causing it to release from the operator. When lactose is present, a form of lactose (allolactose) acts as an inducer: it binds the repressor protein and changes its shape, so the repressor can no longer bind the operator. With the operator free, RNA polymerase can bind the promoter and transcribe the lac genes, and the cell makes the enzymes (including beta-galactosidase) needed to digest lactose.\n\n(A) is wrong because lactose acts on the repressor, not on RNA polymerase.\n(C) is wrong because the promoter is not destroyed; it is used again.\n(D) is wrong because the ribosome translates mRNA; the effect of lactose is on transcription, before the mRNA exists."
     },
     {
       "id": "6-30",
@@ -4905,7 +4905,7 @@ const QUESTIONS = {
         "DNA"
       ],
       "correct": 2,
-      "explanation": "mRNA carries the genetic information transcribed from DNA out of the nucleus to ribosomes in the cytoplasm, serving as the template read during translation. tRNA (B) delivers individual amino acids rather than carrying the overall coded message. rRNA (A) forms part of the ribosome's structure rather than transporting genetic information. DNA (D) remains inside the nucleus in eukaryotic cells and is not itself exported to the ribosome."
+      "explanation": "Correct: mRNA. In eukaryotic cells the DNA stays in the nucleus. A gene is transcribed into messenger RNA (mRNA), which is processed and then exported through nuclear pores to the cytoplasm, where a ribosome reads its codons to build a protein. 'Messenger' describes its job: it carries the information from the DNA to the ribosome.\n\n(B) is wrong because tRNA brings individual amino acids to the ribosome and does not carry the overall message.\n(A) is wrong because rRNA is a structural and catalytic part of the ribosome.\n(D) is wrong because DNA remains in the nucleus and is not exported to the ribosome."
     },
     {
       "id": "6-37",
@@ -4918,7 +4918,7 @@ const QUESTIONS = {
         "A silent mutation"
       ],
       "correct": 3,
-      "explanation": "A silent mutation leaves the amino acid sequence completely unchanged, since the new codon still specifies the same amino acid, giving it essentially no effect on protein function. An early frameshift (C) and an early nonsense mutation (A) both typically cause severe disruption by scrambling or truncating most of the downstream sequence. A missense mutation at a critical active-site residue (B) can also significantly impair function, since that specific position matters disproportionately to the protein's activity."
+      "explanation": "Correct: a silent mutation. A silent mutation changes a nucleotide, but the new codon still codes for the same amino acid (for example, GGA to GGC, both glycine), so the protein is unchanged and the effect on its function is essentially zero.\n\n(A) is wrong because an early nonsense mutation creates a premature stop codon, so most of the protein is lost.\n(C) is wrong because an early frameshift changes every amino acid after the mutation.\n(B) is wrong because a missense mutation at a critical residue of the active site can make the protein nonfunctional, even though only one amino acid changes."
     },
     {
       "id": "6-38",
@@ -4970,7 +4970,7 @@ const QUESTIONS = {
         "5'-UAC-3', carrying tyrosine"
       ],
       "correct": 2,
-      "explanation": "Correct: 5'-AUG-3', carrying methionine. A tRNA anticodon pairs with the mRNA codon by complementary base pairing, and the two strands run in opposite (antiparallel) directions. The anticodon is written 3'-UAC-5'. Pair each base: U pairs with A, A pairs with U, and C pairs with G, giving the codon 5'-AUG-3'. AUG is the start codon and codes for methionine, so this tRNA carries methionine. A frequent mistake is to copy the anticodon as the codon or to reverse the letters without pairing them.\n\n(D) is wrong because 5'-UAC-3' is the anticodon sequence copied over, not the base-paired codon.\n(B) is wrong because it only reverses the letters without applying base-pairing.\n(A) is wrong because the anticodon pairs with a valid codon."
+      "explanation": "Correct: 5'-AUG-3', carrying methionine. A tRNA anticodon pairs with the mRNA codon by complementary base pairing, and the two strands run in opposite (antiparallel) directions. The anticodon is written 3'-UAC-5'. Pair each base: U pairs with A, A pairs with U, and C pairs with G, giving the codon 5'-AUG-3'. AUG is the start codon and codes for methionine, so this tRNA carries methionine. A frequent mistake is to copy the anticodon as the codon or to reverse the letters without pairing them.\n\n(D) is wrong because 5'-UAC-3' is the anticodon sequence copied over, not the base-paired codon.\n(B) is wrong because it pairs the bases correctly (U-A, A-U, C-G) but then flips the result. The anticodon is written 3' to 5', so the paired codon, written left to right, is already in 5' to 3' order: 5'-AUG-3'. 5'-GUA-3' (valine) would pair with a 3'-CAU-5' anticodon.\n(A) is wrong because the anticodon pairs with a valid codon."
     },
     {
       "id": "6-42",
@@ -5035,7 +5035,7 @@ const QUESTIONS = {
         "The genetic code must be entirely reprogrammed before use in any new host organism"
       ],
       "correct": 0,
-      "explanation": "Correct: a bacterium can correctly transcribe and translate an inserted human gene into functional protein. Because almost all organisms use the same genetic code, a codon like AUG or GGA means the same amino acid in a human cell and in a bacterium. Scientists can insert the human insulin gene into a plasmid (using a copy of the gene without introns, since bacteria cannot splice them out) and put it into bacteria, and the bacterial ribosomes and tRNAs read the human codons and make human insulin. This universality is what makes recombinant DNA technology practical.\n\n(B) is wrong because bacteria routinely transcribe and translate their own genes.\n(C) is wrong because the universal code is the basis for much of biotechnology.\n(D) is wrong because the code does not have to be reprogrammed; it is shared."
+      "explanation": "Correct: a bacterium can correctly transcribe and translate an inserted human gene into functional protein. Because almost all organisms use the same genetic code, a codon like AUG or GGA means the same amino acid in a human cell and in a bacterium. Scientists can insert the human insulin gene into a plasmid (using a copy of the gene without introns, since bacteria cannot splice them out) and put it into bacteria (next to a bacterial promoter so that the bacterial RNA polymerase will transcribe it), and the bacterial ribosomes and tRNAs read the human codons and make human insulin. This universality is what makes recombinant DNA technology practical.\n\n(B) is wrong because bacteria routinely transcribe and translate their own genes.\n(C) is wrong because the universal code is the basis for much of biotechnology.\n(D) is wrong because the code does not have to be reprogrammed; it is shared."
     },
     {
       "id": "6-47",
@@ -5146,13 +5146,13 @@ const QUESTIONS = {
       "topic": "6.2 Transcription",
       "stem": "Which of the following would most directly prevent a completed mRNA transcript from being properly exported from the nucleus in a eukaryotic cell?",
       "choices": [
-        "Normal completion of transcription along with all the standard processing steps",
+        "A silent mutation within one of the mRNA's exons",
         "Failure to add the 5' cap and poly-A tail, both important for stability and export",
-        "Normal binding of ribosomes to the finished, exported mRNA transcript",
-        "Normal splicing of introns out of the pre-mRNA transcript itself"
+        "A mutation in a ribosomal protein that blocks translation in the cytoplasm",
+        "A single-base change inside an intron that does not affect any splice signal"
       ],
       "correct": 1,
-      "explanation": "Correct: failure to add the 5' cap and poly-A tail, both important for stability and export. In eukaryotes, newly made pre-mRNA is processed in the nucleus: a 5' cap is added, a poly-A tail is added to the 3' end, and introns are spliced out. These modifications protect the mRNA from enzymes that degrade RNA, and are recognized by the proteins that export the mRNA through the nuclear pores and help ribosomes bind it. Unprocessed or improperly processed transcripts are held in the nucleus or destroyed. (A), (C), and (D) are wrong because they all describe normal, properly working steps (completed processing, normal ribosome binding, normal splicing) that would support correct export, not prevent it."
+      "explanation": "Correct: failure to add the 5' cap and poly-A tail, both important for stability and export. In eukaryotes, newly made pre-mRNA is processed in the nucleus: a 5' cap is added, a poly-A tail is added to the 3' end, and introns are spliced out. These modifications protect the mRNA from enzymes that degrade RNA, and are recognized by the proteins that export the mRNA through the nuclear pores and help ribosomes bind it. Unprocessed or improperly processed transcripts are held in the nucleus or destroyed. (A) is wrong because a silent mutation in an exon changes no amino acid and does not affect the cap, the tail, or splicing, so the transcript is processed and exported normally.\n(C) is wrong because a ribosomal defect in the cytoplasm affects translation, which happens after export, so it does not stop the mRNA from leaving the nucleus.\n(D) is wrong because an intron mutation that leaves the splice signals intact is removed along with the intron and does not affect export."
     },
     {
       "id": "6-56",
@@ -5243,7 +5243,7 @@ const QUESTIONS = {
         "A missense mutation occurring within the gene's own coding sequence"
       ],
       "correct": 0,
-      "explanation": "Correct: a mutation occurring within an intron later removed during splicing. Introns are cut out of the pre-mRNA by splicing, so they are not in the mature mRNA and are never translated. A mutation in the middle of an intron therefore usually does not change the amino acid sequence of the protein (unless it damages the sequences that signal where to splice, as in question 45). Mutations in the coding sequence (exons) change the codons that are translated.\n\n(D) is wrong because a missense mutation in an exon changes one amino acid.\n(C) is wrong because a nonsense mutation in an exon creates a premature stop codon and truncates the protein.\n(B) is wrong because a frameshift mutation in an exon changes the reading frame of all the codons after it. Remember: introns are removed, exons are expressed."
+      "explanation": "Correct: a mutation occurring within an intron later removed during splicing. Introns are cut out of the pre-mRNA by splicing, so they are not in the mature mRNA and are never translated. A mutation in the middle of an intron therefore does not change the amino acid sequence of the protein (unless it damages a splice signal, as in the splicing-signal mutation question). Mutations in the coding sequence (exons) change the codons that are translated.\n\n(D) is wrong because a missense mutation in an exon changes one amino acid.\n(C) is wrong because a nonsense mutation in an exon creates a premature stop codon and truncates the protein.\n(B) is wrong because a frameshift mutation in an exon changes the reading frame of all the codons after it. Remember: introns are removed, exons are expressed."
     },
     {
       "id": "6-63",
@@ -5324,7 +5324,7 @@ const QUESTIONS = {
         "Homologous structures"
       ],
       "correct": 3,
-      "explanation": "Homologous structures share an underlying anatomical origin — the same bone arrangement — despite serving different functions in each lineage, matching the scenario described. Analogous structures (B) is the opposite pattern: similar function arising from unrelated origins, not what's described here. Convergent evolution (C) names the process that produces analogous structures, not a label for a shared skeletal plan inherited from a common ancestor. Sympatric speciation (A) is an unrelated concept about how new species arise without geographic separation, with no connection to comparative anatomy."
+      "explanation": "Correct: homologous structures. Homologous structures have the same underlying anatomy because they were inherited from a common ancestor, even if the structures now do different jobs. A whale's flipper, a bat's wing, and a human arm all have one upper-arm bone, two forearm bones, wrist bones, and finger bones in the same arrangement, but they are used for swimming, flying, and grasping. Clue words: 'same fundamental underlying bone arrangement' and 'very different functions.' Memory aid: homologous means same origin, different job; analogous means different origin, same job.\n\n(B) is wrong because analogous structures have a similar function but different origins.\n(C) is wrong because convergent evolution is the process that produces analogous structures, not a name for a skeleton inherited from a common ancestor.\n(A) is wrong because sympatric speciation is about how new species form without geographic separation and has nothing to do with comparative anatomy."
     },
     {
       "id": "7-2",
@@ -5337,7 +5337,7 @@ const QUESTIONS = {
         "Reproductive isolation"
       ],
       "correct": 2,
-      "explanation": "Analogous structures arise independently in unrelated lineages but converge on a similar function — exactly the case for butterfly and bird wings, built from entirely different underlying structures. Homologous (A) would require the wings to share a common structural origin inherited from a shared ancestor, which they don't. Vestigial (B) describes a structure that has lost function over time, not a fully functioning wing shared across unrelated groups. Reproductive isolation (D) is a barrier to interbreeding between species, unrelated to comparative anatomy."
+      "explanation": "Correct: analogous structures. The wing of a butterfly is a flap of chitin supported by veins, and the wing of a bird is built from modified arm bones covered with feathers. They did not come from a winged common ancestor; each evolved separately because flying is useful (this is convergent evolution). Clue words: 'similar function' and 'entirely different underlying structures in unrelated lineages.'\n\n(A) is wrong because homologous structures would share the same underlying structure inherited from a common ancestor.\n(B) is wrong because vestigial structures have lost most of their function, and both of these wings work.\n(D) is wrong because reproductive isolation is about barriers to interbreeding between species and is not a type of anatomical evidence."
     },
     {
       "id": "7-3",
@@ -5350,7 +5350,7 @@ const QUESTIONS = {
         "Comparative embryology"
       ],
       "correct": 3,
-      "explanation": "Comparative embryology specifically compares developmental stages across species. Biogeography (A) instead compares where species live geographically. The fossil record (B) provides evidence from preserved remains of past organisms rather than the developing embryos of living species. Molecular biology (C) compares DNA or protein sequences rather than developmental anatomy — a distinct category of evidence covered elsewhere in this unit."
+      "explanation": "Correct: comparative embryology. This kind of evidence compares how embryos of different species develop. Many vertebrate embryos, such as fish, chickens, and humans, look very similar early in development, and all have pharyngeal pouches and a tail, which suggests that they share a common ancestor. Clue words: 'developmental stages of embryos.'\n\n(A) is wrong because biogeography is about where species live.\n(B) is wrong because the fossil record uses preserved remains of past organisms.\n(C) is wrong because molecular biology compares DNA or protein sequences, not developmental stages."
     },
     {
       "id": "7-4",
@@ -5363,7 +5363,7 @@ const QUESTIONS = {
         "Species with more similar DNA/protein sequences generally share a more recent common ancestor"
       ],
       "correct": 3,
-      "explanation": "Since mutations accumulate gradually over evolutionary time, species that diverged more recently generally have had less time to accumulate independent differences, resulting in more similar DNA/protein sequences. Option A gets this backwards — sequence divergence is exactly what tracks relatedness. Option B is factually false, since sequence differences (not identical sequences) are what allow comparison in the first place. Option C misses the point that molecular evidence is only powerful because it compares sequences ACROSS species."
+      "explanation": "Correct: species with more similar DNA/protein sequences generally share a more recent common ancestor. Mutations accumulate in each lineage over time after two species split from a common ancestor, so the longer ago they split, the more differences have built up (this is the basis of the 'molecular clock'). For example, human and chimpanzee cytochrome c proteins are almost identical, while human and yeast cytochrome c differ at many positions. All living things also use DNA, the same genetic code, and similar ribosomes, which supports a common ancestry for all life.\n\n(A) is wrong because sequence differences do track evolutionary relatedness.\n(B) is wrong because different species have different sequences; if they were all identical, there would be nothing to compare.\n(C) is wrong because the power of molecular data comes from comparing sequences across species."
     },
     {
       "id": "7-5",
@@ -5376,7 +5376,7 @@ const QUESTIONS = {
         "Biogeography"
       ],
       "correct": 3,
-      "explanation": "Biogeography examines the geographic distribution of species and how it reflects evolutionary history — island species being related to, but distinct from, mainland species reflects colonization followed by independent divergence in isolation. Comparative embryology (C) instead compares developmental stages of embryos, not geographic patterns. Homologous structures (B) is an anatomical category of evidence, not a geographic one. Vestigial structures (A) refers to reduced, functionless remnants, unrelated to island biogeography."
+      "explanation": "Correct: biogeography. Biogeography is the study of where species live, and it provides evidence for evolution. Island species are often closely related to species on the nearest mainland but are distinct from them, which fits the idea that a few mainland ancestors colonized the islands and then diverged in isolation. Darwin's finches on the Galapagos Islands are an example: they resemble finches from South America and diversified into many species with different beaks. Clue words: 'isolated island chains' and 'closely related to the nearest mainland.'\n\n(A) is wrong because vestigial structures are reduced remnants of ancestral structures.\n(B) is wrong because homologous structures are anatomical evidence, not geographic.\n(C) is wrong because comparative embryology compares the development of embryos."
     },
     {
       "id": "7-6",
@@ -5389,7 +5389,7 @@ const QUESTIONS = {
         "A structure unique to a single species with no relatives"
       ],
       "correct": 0,
-      "explanation": "Vestigial structures are remnants of structures that served an important function in an ancestral lineage but have lost most or all of that function over time, often becoming reduced in size — like the human appendix or the reduced pelvic bones in some whale species — reflecting an organism's evolutionary history. Option C is wrong because vestigial structures DO have a clear evolutionary origin. Option B is wrong because they're common in living organisms, not confined to fossils. Option D is wrong because vestigial structures are typically shared across related species that still use the full ancestral structure."
+      "explanation": "Correct: a structure that has lost most or all of its original function over evolutionary time. 'Vestigial' means a leftover. Ancestors used the structure, but in the descendants it is reduced and has little or no function. Examples: the tiny pelvic bones in whales (their ancestors walked on land), the wings of flightless birds, and the eyes of cave fish. A note: some vestigial structures keep a minor function (the human appendix has some role in immune tissue), which is why the definition says 'most' of the original function.\n\n(C) is wrong because vestigial structures have a clear evolutionary history; they are evidence of it.\n(B) is wrong because vestigial structures are found in living organisms, not only in fossils.\n(D) is wrong because they are usually shared with related species, which still use the full version of the structure."
     },
     {
       "id": "7-7",
@@ -5402,12 +5402,12 @@ const QUESTIONS = {
         "Mutation must never occur in the population during the period of selection"
       ],
       "correct": 2,
-      "explanation": "Natural selection requires heritable variation that affects differential survival or reproduction (fitness), with advantageous variants passed on more often. Option B is backwards: genetic identity would remove the variation selection needs to act on. Option A confuses speciation mechanisms (like allopatric speciation) with the requirements for selection itself. Option D is wrong because mutation is a primary source of the heritable variation that fuels selection, not something that must be absent."
+      "explanation": "Correct: heritable variation must exist, and that variation must affect survival or reproduction. Natural selection needs four things: (1) individuals in a population vary, (2) some of that variation is heritable, (3) more offspring are produced than can survive, so (4) individuals with certain variants survive and reproduce more than others. Over generations, the alleles of the more successful variants become more common.\n\n(A) is wrong because a population does not have to be isolated for selection to occur.\n(B) is wrong because if all individuals were genetically identical there would be no variation for selection to act on.\n(D) is wrong because mutation is a main source of new variation, so selection does not require its absence."
     },
     {
       "id": "7-8",
       "topic": "7.2 Mechanisms of Natural Selection",
-      "stem": "A population of moths shows variation in wing color from very light to very dark. Following an environmental change that makes dark-colored tree bark much more common, the population's average wing color becomes progressively darker over subsequent generations, as dark-colored moths increasingly outcompete lighter-colored moths for survival. This is an example of:",
+      "stem": "A population of moths shows variation in wing color from very light to very dark. Following an environmental change that makes dark-colored tree bark much more common, the population's average wing color becomes progressively darker over subsequent generations, as birds more often eat the lighter-colored moths, which are easier to see against the dark bark. This is an example of:",
       "choices": [
         "Stabilizing selection",
         "Disruptive selection",
@@ -5415,7 +5415,7 @@ const QUESTIONS = {
         "Genetic drift"
       ],
       "correct": 2,
-      "explanation": "Since the environmental change favored one specific extreme (dark coloration, for camouflage against dark bark) and the population's phenotype distribution shifted toward that extreme over time, this is directional selection — similar to the famous peppered moth example from industrial pollution darkening tree bark. Stabilizing selection (A) would instead favor the middle of the range. Disruptive selection (B) would favor both light and dark extremes at once. Genetic drift (D) is a random process unrelated to a consistent, survival-driven shift."
+      "explanation": "Correct: directional selection. In directional selection, the environment favors one extreme of a trait, so the average of the population shifts toward that extreme over generations. Here the dark bark makes dark moths harder for birds to see, so birds eat more of the lighter moths and dark moths survive and reproduce more. The whole distribution of wing color moves toward dark. This is like the famous peppered moth example in industrial England. Clue words: 'average wing color becomes progressively darker.'\n\n(A) is wrong because stabilizing selection favors the middle of the range and acts against both extremes.\n(B) is wrong because disruptive selection favors both extremes at the expense of the middle.\n(D) is wrong because genetic drift is a random change in allele frequencies, not a consistent shift in one direction caused by survival differences."
     },
     {
       "id": "7-9",
@@ -5428,7 +5428,7 @@ const QUESTIONS = {
         "Disruptive selection"
       ],
       "correct": 3,
-      "explanation": "Disruptive selection favors both extreme phenotypes while selecting against the intermediate, which can increase phenotypic variation and, in some cases, contribute to speciation if the two favored extremes become reproductively isolated. Directional selection (C) shifts the population toward just one extreme. Stabilizing selection (A) does the opposite of disruptive selection, favoring the middle. Sexual selection (B) is defined by the driver (mate choice), not by favoring both extremes specifically."
+      "explanation": "Correct: disruptive selection. In disruptive selection both extremes of a trait are favored and the intermediate form is selected against, so the population's distribution changes from one hump to two. For example, in a drought only very small and very large seeds may be available, so finches with very small or very large beaks survive better than finches with medium beaks. Over time this can increase variation and, if the two extreme groups stop interbreeding, may contribute to speciation.\n\n(C) is wrong because directional selection favors only one extreme.\n(A) is wrong because stabilizing selection favors the middle, which is the opposite.\n(B) is wrong because sexual selection is defined by mate choice and competition for mates, not by favoring both extremes."
     },
     {
       "id": "7-10",
@@ -5441,7 +5441,7 @@ const QUESTIONS = {
         "Because natural selection has no relationship to alleles at all"
       ],
       "correct": 2,
-      "explanation": "An organism's phenotype directly interacts with the environment and determines survival/reproductive outcomes; allele frequency change is the downstream, population-level result of this differential success being passed on to the next generation, not something selection targets directly. Option A wrongly places genes, not phenotypes, as selection's direct target. Option B conflates two distinct concepts — an observable trait versus a population-genetic frequency. Option D is simply false, since allele frequency change is exactly the eventual genetic consequence of selection acting on phenotype."
+      "explanation": "Correct: phenotype determines survival and reproductive success, and allele frequency change is the result. The environment interacts with an organism's phenotype (its observable traits): a bird with a longer beak may reach more food and have more offspring. The alleles that contribute to that beak length are passed to the offspring, so the frequency of those alleles increases in the next generation. Selection acts on phenotypes, and evolution (a change in allele frequencies over generations) is the result.\n\n(A) is wrong because selection does not directly target or destroy alleles inside cells; it acts on whole organisms.\n(B) is wrong because a phenotype is an observable trait, while an allele frequency is a population-level measurement.\n(D) is wrong because allele frequency change is exactly the genetic result of selection."
     },
     {
       "id": "7-11",
@@ -5455,7 +5455,7 @@ const QUESTIONS = {
         "Genetics and environment cannot both influence the same trait, so one must always be absent"
       ],
       "correct": 0,
-      "explanation": "When environment substantially contributes to phenotype, an individual's observed trait doesn't perfectly reflect its underlying genotype — some individuals with favorable phenotypes (due to environment) may not carry favorable alleles, and vice versa. Since selection can only 'see' and act on phenotype directly, some selection pressure is effectively wasted on non-heritable, environmentally caused variation, diluting how efficiently allele frequencies shift compared to a scenario where phenotype and genotype align perfectly. This is closely related to the real concept of heritability in evolutionary biology, and it's why options B and C — which claim environmental influence has no effect or actually helps — get the direction backwards, and why option D's premise (that a trait can't be shaped by both) is simply false."
+      "explanation": "Correct: since some phenotypic variation is environmental, selecting for phenotype doesn't perfectly correlate with alleles. Selection acts on phenotypes, but only the genetic part of the variation can be passed to offspring. If part of the difference between individuals is caused by the environment (for example, nutrition), then some individuals have a favorable phenotype without having the favorable alleles, and the offspring will not inherit it. Part of the selection is 'wasted' on variation that is not heritable. The fraction of variation that is genetic is called heritability, and the lower the heritability, the smaller the response to selection.\n\n(B) is wrong because phenotypes do not always track genotypes exactly; the environment changes them.\n(C) is wrong because environmental variation does not help selection change allele frequencies; it makes the link between phenotype and genotype weaker.\n(D) is wrong because most traits are influenced by both genes and the environment."
     },
     {
       "id": "7-12",
@@ -5468,7 +5468,7 @@ const QUESTIONS = {
         "A population of finches evolving progressively larger beaks following a drought"
       ],
       "correct": 2,
-      "explanation": "Human birth weight is a classic textbook example of stabilizing selection, since intermediate (average) birth weight is associated with the best survival outcomes, while selection acts against both extremes. Option B describes bacteria consistently shifting toward one extreme (resistance) — directional selection, not stabilizing. Option D similarly describes a shift toward one extreme (larger beaks) — again directional. Option A describes a speciation event, not a selection pattern at all."
+      "explanation": "Correct: human birth weight, where infants of average weight have the highest survival rate. Stabilizing selection favors the average (intermediate) phenotype and acts against both extremes, so the bell curve of the trait becomes narrower. Very small babies have trouble staying warm and fighting infection, and very large babies have more birth complications, so babies of average weight survive best. (Modern medical care has weakened this effect.) Clue words: 'average ... has the highest survival.'\n\n(B) is wrong because bacteria becoming more and more resistant is a shift toward one extreme, which is directional selection.\n(D) is wrong because finches evolving larger and larger beaks is also a shift toward one extreme (directional selection).\n(A) is wrong because a population splitting into two reproductively isolated groups is speciation, not a pattern of selection."
     },
     {
       "id": "7-13",
@@ -6291,7 +6291,7 @@ const QUESTIONS = {
         "Predation occurs only between plant species, unlike parasitism, which occurs only between animal species"
       ],
       "correct": 1,
-      "explanation": "Correct: predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host. Both interactions benefit one species and harm the other (+/-). In predation, the predator kills and eats its prey, usually in a short time (a hawk and a mouse). A parasite lives on or in a host and feeds from it for a long time, usually without killing it quickly because the parasite depends on the host (tapeworms, ticks, and fleas are examples).\n\n(C) is wrong because parasites usually do not kill their hosts right away; that would end their food supply.\n(A) is wrong because the two interactions differ in how long they last and whether the victim is killed.\n(D) is wrong because predation occurs among animals and in other groups, and parasitism occurs in many groups of organisms too."
+      "explanation": "Correct: predation typically kills prey quickly; parasitism typically involves an extended relationship with a living host. Both interactions benefit one species and harm the other (+/-). In predation, the predator kills and eats its prey, usually in a short time (a hawk and a mouse). A predator usually takes many prey in its life, while a parasite is usually much smaller than its host. A parasite lives on or in a single host and feeds from it for a long time, usually without killing it quickly because the parasite depends on the host (tapeworms, ticks, and fleas are examples).\n\n(C) is wrong because parasites usually do not kill their hosts right away; that would end their food supply.\n(A) is wrong because the two interactions differ in how long they last and whether the victim is killed.\n(D) is wrong because predation occurs among animals and in other groups, and parasitism occurs in many groups of organisms too."
     },
     {
       "id": "8-11",
@@ -6434,7 +6434,7 @@ const QUESTIONS = {
         "Photosynthesis in chloroplasts"
       ],
       "correct": 2,
-      "explanation": "Correct: nitrogen fixation, performed by bacteria. The atmosphere is about 78% nitrogen gas (N2), but the two nitrogen atoms are held together by a very stable triple bond that most organisms cannot break. Certain bacteria, such as Rhizobium in the root nodules of legumes, and free-living bacteria and cyanobacteria in soil and water, have an enzyme that converts N2 into ammonia (NH3, or ammonium, NH4+), which plants can take up and use to make amino acids and nucleic acids. Lightning and industrial processes (making fertilizer) also fix some nitrogen.\n\n(D) is wrong because photosynthesis captures light energy to make sugars, not usable nitrogen.\n(B) is wrong because cellular respiration releases energy from organic molecules and does not convert nitrogen gas.\n(A) is wrong because predation is a feeding interaction between organisms."
+      "explanation": "Correct: nitrogen fixation, performed by bacteria. The atmosphere is about 78% nitrogen gas (N2), but the two nitrogen atoms are held together by a very stable triple bond that most organisms cannot break. Certain bacteria, such as Rhizobium in the root nodules of legumes, and free-living bacteria and cyanobacteria in soil and water, have an enzyme that converts N2 into ammonia (NH3, or ammonium, NH4+), which plants can take up and use to make amino acids and nucleic acids. Lightning and industrial processes (making fertilizer) also fix some nitrogen. The rest of the cycle: nitrifying bacteria change ammonium into nitrate, the form most plants absorb; decomposers return nitrogen from dead organisms as ammonium (ammonification); and denitrifying bacteria return it to the air as N2.\n\n(D) is wrong because photosynthesis captures light energy to make sugars, not usable nitrogen.\n(B) is wrong because cellular respiration releases energy from organic molecules and does not convert nitrogen gas.\n(A) is wrong because predation is a feeding interaction between organisms."
     },
     {
       "id": "8-22",
@@ -6460,7 +6460,7 @@ const QUESTIONS = {
         "The carbon cycle, by releasing ancient, buried carbon into the atmosphere faster than natural cycling would"
       ],
       "correct": 3,
-      "explanation": "Correct: the carbon cycle, by releasing ancient, buried carbon into the atmosphere faster than natural cycling would. Fossil fuels (coal, oil, and natural gas) formed from the remains of organisms that were buried millions of years ago, so their carbon was removed from the fast carbon cycle. Burning them releases that carbon as CO2 into the atmosphere in a matter of decades, much faster than natural processes can remove it. The extra CO2 adds to the greenhouse effect and warms the planet, and some of it dissolves in the ocean, causing ocean acidification (topics in Unit 9).\n\n(C) is wrong because combustion does not fix nitrogen for plants.\n(B) is wrong because combustion is not the primary driver of the water cycle.\n(A) is wrong because burning fossil fuels is a major human impact on the carbon cycle."
+      "explanation": "Correct: the carbon cycle, by releasing ancient, buried carbon into the atmosphere faster than natural cycling would. Fossil fuels (coal, oil, and natural gas) formed from the remains of organisms that were buried millions of years ago, so their carbon was removed from the fast carbon cycle. Burning them releases that carbon as CO2 into the atmosphere in a matter of decades, much faster than natural processes can remove it. The extra CO2 adds to the greenhouse effect and warms the planet, and some of it dissolves in the ocean, causing ocean acidification (another human impact on ecosystems).\n\n(C) is wrong because although combustion also produces some nitrogen oxides, it does not provide plants with usable nitrogen, and its primary effect is on carbon.\n(B) is wrong because the water cycle is driven by the sun through evaporation, transpiration, condensation, and precipitation; burning fuel makes a little water vapor but does not 'create' water in a way that matters for the cycle.\n(A) is wrong because burning fossil fuels is a major human impact on the carbon cycle."
     },
     {
       "id": "8-24",
@@ -6513,7 +6513,7 @@ const QUESTIONS = {
         "The growth rate must always be higher when N is closer to K than when N is lower"
       ],
       "correct": 1,
-      "explanation": "dN/dt = rmaxN((K−N)/K) is the product of N (which rises as population grows) and (K−N)/K (which falls toward zero as N nears K). At very low N, N itself is small, keeping absolute growth low despite (K−N)/K being near 1. At N = 900 with K = 1,000, (K−N)/K is only 0.1, keeping absolute growth low despite N being large. Absolute growth rate is actually maximized at an intermediate N (mathematically N = K/2), making choice D wrong (growth isn't always higher near K), choice C wrong (growth rate clearly changes with N), and choice A wrong (dN/dt is actually zero at N = K, since (K−N)/K becomes zero there)."
+      "explanation": "Correct: absolute growth is likely lower at N = 900 than at some intermediate N. Absolute growth rate is dN/dt = rmax x N x (K - N)/K, the product of N (which increases as the population grows) and (K - N)/K (which decreases toward zero as N approaches K). Try numbers with K = 1,000 and rmax = 1: at N = 200, growth is 200 x 0.8 = 160; at N = 500 (half of K), growth is 500 x 0.5 = 250, the maximum; at N = 900, growth is 900 x 0.1 = 90. So growth at N = 900 is lower than at N = 200 and much lower than at the midpoint.\n\n(A) is wrong because the values above are different, so the absolute growth rate depends on N.\n(C) is wrong because at N = K the term (K - N)/K is 0, so dN/dt = 0, the lowest possible growth and not the highest.\n(D) is wrong because growth near K is slower than growth at intermediate sizes; being closer to K does not make growth faster."
     },
     {
       "id": "8-28",
@@ -6552,7 +6552,7 @@ const QUESTIONS = {
         "The release of water vapor from plant leaves into the atmosphere"
       ],
       "correct": 3,
-      "explanation": "Transpiration is the release of water vapor from plant leaves into the atmosphere, contributing alongside evaporation from other surfaces (like bodies of water) to the water cycle's movement of water into the air; it's part of the same transport system that relies on cohesion via hydrogen bonds (Unit 1), with the tension it creates being new to this unit. Choice A misattributes a plant-specific process to animals instead. Choice B reverses the actual direction of water movement — transpiration adds water vapor to the atmosphere, it doesn't remove it. Choice C denies transpiration's well-established, central role in the water cycle."
+      "explanation": "Correct: the release of water vapor from plant leaves into the atmosphere. Transpiration is the loss of water vapor from the stomata (pores) of plant leaves. Roots take up liquid water from the soil, the water moves up through the xylem, and most of it leaves as vapor through the leaves. Transpiration is therefore a major way in which water returns from the land to the atmosphere, together with evaporation from oceans, lakes, and soil. Clue words: 'release of water vapor' and 'plant leaves.'\n\n(A) is wrong because transpiration is carried out by plants; sweating and breathing are different processes.\n(B) is wrong because it describes condensation and precipitation, which take water out of the atmosphere, while transpiration adds vapor to the air.\n(C) is wrong because transpiration happens in leaves above the ground and is a major part of the water cycle, especially over forests and crops."
     },
     {
       "id": "8-31",
@@ -6656,7 +6656,7 @@ const QUESTIONS = {
         "A change affecting only organisms at the exact same trophic level as the disturbance, and no others"
       ],
       "correct": 2,
-      "explanation": "Correct: a change at one trophic level, like removing a top predator, rippling through later levels. A trophic cascade is an effect that passes through at least two trophic levels. In Yellowstone National Park, the return of wolves reduced the number of elk and changed where they fed. With less browsing, willows and aspens along the streams recovered, which benefited beavers and songbirds. A change in the top predator rippled down through the herbivores to the plants.\n\n(B) is wrong because a change with no effect on any other species is the opposite of a cascade.\n(A) is wrong because complete stability would mean no change at all.\n(D) is wrong because a cascade needs effects to spread to other trophic levels, not just stay at the same one."
+      "explanation": "Correct: a change at one trophic level, like removing a top predator, rippling through later levels. A trophic cascade is an effect that passes through at least two trophic levels. In Yellowstone National Park, the return of wolves reduced the number of elk and changed where they fed. With less browsing, willows and aspens along the streams recovered, which is often credited with helping beavers and songbirds recover (the size of the effect is still debated). A change in the top predator rippled down through the herbivores to the plants.\n\n(B) is wrong because a change with no effect on any other species is the opposite of a cascade.\n(A) is wrong because complete stability would mean no change at all.\n(D) is wrong because a cascade needs effects to spread to other trophic levels, not just stay at the same one."
     },
     {
       "id": "8-39",
@@ -6669,7 +6669,7 @@ const QUESTIONS = {
         "Herbivores are always physically larger than the plants that they eat"
       ],
       "correct": 2,
-      "explanation": "Correct: only about 10% of energy transfers from the producer to the herbivore level, supporting less biomass. Biomass is the total mass of living tissue, and it is built from energy. Producers capture a large amount of energy, but herbivores receive only about a tenth of the energy stored in the plants (the rest is lost as heat in the plants' respiration or is in the parts that are not eaten or digested). With a tenth of the energy, an ecosystem can support only about a tenth of the biomass at the next level. This is why a typical terrestrial ecosystem has much more plant biomass than herbivore biomass, and more herbivore biomass than carnivore biomass. (Some aquatic ecosystems show the opposite in biomass because the tiny producers reproduce so quickly, but their energy pyramid is still upright.)\n\n(D) is wrong because body size does not determine total biomass.\n(B) is wrong because reproductive rate is not the reason for the difference, and the claim that herbivores always reproduce more slowly is not true.\n(A) is wrong because there is a clear relationship."
+      "explanation": "Correct: only about 10% of energy transfers from the producer to the herbivore level, supporting less biomass. Biomass is the total mass of living tissue, and it is built from energy. Producers capture a large amount of energy, but herbivores receive only about a tenth of the energy stored in the plants (the rest is lost as heat in the plants' respiration or is in the parts that are not eaten or digested). With a tenth of the energy, an ecosystem can support roughly a tenth of the biomass at the next level. This is why a typical terrestrial ecosystem has much more plant biomass than herbivore biomass, and more herbivore biomass than carnivore biomass. (Some aquatic ecosystems show the opposite in biomass because the tiny producers reproduce so quickly, but their energy pyramid is still upright.)\n\n(D) is wrong because body size does not determine total biomass.\n(B) is wrong because reproductive rate is not the reason for the difference, and the claim that herbivores always reproduce more slowly is not true.\n(A) is wrong because there is a clear relationship."
     },
     {
       "id": "8-40",
@@ -6734,7 +6734,7 @@ const QUESTIONS = {
         "No effect on any other trophic level in the ecosystem"
       ],
       "correct": 1,
-      "explanation": "Since each trophic level's available energy is derived from and limited by the level below it, a decline in producer biomass would reduce energy at the primary consumer level, and this reduction would propagate up through all subsequent higher levels, following the same 10% rule logic in reverse. Choice A and choice D both wrongly claim no connection between trophic levels, contradicting the fundamental dependence each level has on the one below. Choice C predicts the opposite of the expected effect — less producer energy should mean less, not more, energy higher up."
+      "explanation": "Correct: reduced energy at the primary consumer level, propagating to higher trophic levels. Each trophic level gets its energy from the level below it, and only about 10% is passed on at each step. If a drought cuts the biomass of producers, there is less energy available to the primary consumers, so their populations shrink; then there is less energy for the secondary and tertiary consumers too. For example, if producers fall from 100,000 kcal to 50,000 kcal, primary consumers fall from about 10,000 to about 5,000 kcal, and the reduction continues up the chain. (A) and (D) are wrong because trophic levels are linked by feeding, so a change at the base affects the levels above.\n\n(C) is wrong because higher trophic levels cannot gain energy when the energy entering the food web at the bottom falls."
     },
     {
       "id": "8-45",
@@ -6786,7 +6786,7 @@ const QUESTIONS = {
         "Measuring only the physical size of individuals of the species in the area"
       ],
       "correct": 0,
-      "explanation": "The most direct experimental test involves removing the species (or comparing similar areas with and without it naturally present) and measuring the resulting changes in community structure and function — disproportionately large changes relative to abundance support keystone classification, exactly how species like sea otters in kelp forests have been scientifically confirmed. Choice B measures abundance, which is unrelated to (and often opposite from) keystone status. Choice D measures body size, a trait uninformative about ecological impact. Choice C skips evidence entirely, the opposite of a scientific test."
+      "explanation": "Correct: removing the species (or comparing similar areas with and without it) and measuring community changes. A keystone species is defined by how large its effect is compared with how abundant it is. The best test is therefore to see what happens when it is absent, by removing it or by comparing similar sites with and without it, and to measure the changes in the rest of the community. In Paine's experiment, removing the sea star Pisaster from tide pools allowed mussels to take over, and the number of species dropped sharply; sea otters and kelp forests are another example.\n\n(B) is wrong because counting individuals measures abundance, and keystone species are often not abundant.\n(D) is wrong because the size of individuals says nothing about the species' effect on the ecosystem.\n(C) is wrong because assuming something without collecting evidence is not an experiment."
     },
     {
       "id": "8-49",
@@ -6838,7 +6838,7 @@ const QUESTIONS = {
         "Resources become strained, likely raising death rates and/or lowering birth rates until the population declines"
       ],
       "correct": 3,
-      "explanation": "When a population temporarily exceeds carrying capacity, resources become severely strained relative to demand, typically raising death rates (from starvation or competition) and/or lowering birth rates, bringing the population back down toward a sustainable level near K — illustrating carrying capacity's role as a genuine, resource-based limit. Choice A ignores the resource strain that a population overshoot creates. Choice C treats K as flexible in response to population size, when it is instead set by the environment's actual resource availability. Choice B denies the resource-based relationship that defines carrying capacity itself."
+      "explanation": "Correct: resources become strained, likely raising death rates and/or lowering birth rates until the population declines. The carrying capacity K is the number of individuals the environment's resources can support over time. If a population goes above K, even temporarily, there is not enough food, water, or space for everyone: competition increases, starvation and disease become more common, death rates go up and birth rates go down, and the population falls back toward K.\n\n(A) is wrong because limited resources keep a population from growing indefinitely.\n(B) is wrong because population size and resources are directly linked; that link is what carrying capacity means.\n(C) is wrong because K is set by the environment's resources, not by the number of individuals present; it would increase only if the environment changed."
     },
     {
       "id": "8-53",
@@ -6851,12 +6851,12 @@ const QUESTIONS = {
         "One species extracting benefit while providing progressively less in return, ultimately harming the other"
       ],
       "correct": 3,
-      "explanation": "Correct: one species extracting benefit while providing progressively less in return, ultimately harming the other. Mutualism (+/+) depends on both partners getting more benefit than cost. The relationship can shift if one partner starts to 'cheat': it keeps taking the benefit but gives less or nothing in return, so the cost to the other partner increases until it is harmed (+/-), which is parasitism. Examples include nectar-robbing insects that take nectar without pollinating, or yucca moth larvae that eat too many of the seeds of the yucca plant that they pollinate. This shows that interactions between species are not fixed categories and can change with conditions over evolutionary time.\n\n(A) is wrong because it describes a relationship that stays the same.\n(C) is wrong because a neutral interaction would be a move toward commensalism, not parasitism.\n(B) is wrong because the simultaneous extinction of both species is not what a shift toward parasitism means."
+      "explanation": "Correct: one species extracting benefit while providing progressively less in return, ultimately harming the other. Mutualism (+/+) depends on both partners getting more benefit than cost. The relationship can shift if one partner starts to 'cheat': it keeps taking the benefit but gives less or nothing in return, so the cost to the other partner increases until it is harmed (+/-), which is parasitism. Examples include nectar-robbing insects that take nectar without pollinating, or yucca moth larvae that eat too many of the seeds of the yucca plant that they pollinate. This shows that interactions between species are not fixed categories and can change with conditions over evolutionary time.\n\n(A) is wrong because it describes a relationship that stays the same.\n(C) is wrong because an interaction that becomes neutral for both species has no harm to either, so it is no longer one that harms a partner. Parasitism requires one species to benefit while the other is harmed (+/-).\n(B) is wrong because the simultaneous extinction of both species is not what a shift toward parasitism means."
     },
     {
       "id": "8-54",
       "topic": "8.3 Energy Flow",
-      "stem": "Which of the following organisms plays an essential role in returning energy-containing organic matter from dead organisms back into a form usable by producers and other organisms in the ecosystem?",
+      "stem": "Which of the following organisms plays an essential role in returning nutrients from dead organisms to the soil, water, and air in a form that producers can use again?",
       "choices": [
         "Decomposers have no meaningful ecological role in nutrient cycling",
         "Producers exclusively, since only they return nutrients to the soil through their roots and leaves",
@@ -6877,7 +6877,7 @@ const QUESTIONS = {
         "Atmospheric CO2 concentration would automatically decrease as a result"
       ],
       "correct": 1,
-      "explanation": "Oceans are a significant natural carbon sink; if warming or other factors reduce this absorption capacity, less atmospheric CO2 is removed by this pathway, likely contributing to further increases in atmospheric CO2 — illustrating how disrupting one part of the carbon cycle's balance can compound atmospheric effects overall. Choice D predicts the opposite outcome of reduced ocean uptake. Choice C denies any consequence, when removing a major carbon sink pathway clearly has an effect. Choice A denies ocean absorption's well-established role as a component of the carbon cycle."
+      "explanation": "Correct: atmospheric CO2 would likely increase further. The ocean is a major carbon sink: CO2 from the air dissolves in surface water. Warm water holds less dissolved gas, so ocean warming lowers the amount of CO2 that the ocean can absorb. More CO2 stays in the atmosphere, which increases warming, which then reduces the ocean's uptake further (a positive feedback loop).\n\n(D) is wrong because it predicts the opposite: reduced ocean uptake would not lower atmospheric CO2.\n(C) is wrong because removing a major carbon sink affects the carbon cycle.\n(A) is wrong because the ocean's absorption of CO2 is a main part of the carbon cycle."
     },
     {
       "id": "8-56",
@@ -6916,7 +6916,7 @@ const QUESTIONS = {
         "Both species will immediately go extinct simultaneously as a result"
       ],
       "correct": 2,
-      "explanation": "Correct: one species typically excludes the other over time. The competitive exclusion principle says that two species that need exactly the same limited resource cannot coexist for long in the same place: the one that uses the resource a little more efficiently will increase while the other declines until it is eliminated locally. The classic example is the experiments of Gause with two species of Paramecium, which could coexist alone but not together when they competed for the same food, and one disappeared. Coexistence is possible when the species differ in their niches (niche partitioning), such as warblers feeding at different heights in the same tree.\n\n(B) is wrong because the principle predicts that stable coexistence with identical needs is unlikely.\n(D) is wrong because the usual outcome is the exclusion of one species, not both.\n(A) is wrong because competition has major long-term consequences for at least one species."
+      "explanation": "Correct: one species typically excludes the other over time. The competitive exclusion principle says that two species that need exactly the same limited resource cannot coexist for long in the same place: the one that uses the resource a little more efficiently will increase while the other declines until it is eliminated locally. The classic example is the experiments of Gause with two species of Paramecium: each grew well when raised alone, but when they were raised together on the same limited food, one species outcompeted the other and the other died out. Coexistence is possible when the species differ in their niches (niche partitioning), such as warblers feeding at different heights in the same tree.\n\n(B) is wrong because the principle predicts that stable coexistence with identical needs is unlikely.\n(D) is wrong because the usual outcome is the exclusion of one species, not both.\n(A) is wrong because competition has major long-term consequences for at least one species."
     },
     {
       "id": "8-59",
@@ -6994,7 +6994,7 @@ const QUESTIONS = {
         "Apex predators have no meaningful relationship to energy availability in an ecosystem or its food web"
       ],
       "correct": 2,
-      "explanation": "Since apex predators occupy a relatively high trophic level, and substantial energy (roughly 90%) is lost at each of the several transfers required to reach that level, comparatively little total energy remains to support their population — this fundamental energy limitation explains their generally low population densities. Choice D denies the well-established energetic constraint the 10% rule describes. Choice B attributes an active preference to what is actually an energetic limitation beyond any organism's control. Choice A is factually false — all organisms, including apex predators, require energy to survive."
+      "explanation": "Correct: cumulative energy loss across trophic transfers leaves little energy to support a large apex predator population. Only about 10% of the energy passes up each trophic level, so an apex predator receives only a tiny fraction of the producers' energy (about 0.1% for a tertiary consumer: 10% x 10% x 10%). With so little energy available, the ecosystem can feed only a small number of apex predators, so their population densities are low and they often need large territories.\n\n(A) is wrong because every organism, including apex predators, needs energy to survive.\n(B) is wrong because population size is limited by the energy available, not by preference.\n(D) is wrong because the number of apex predators depends directly on the energy flowing up the food web."
     },
     {
       "id": "8-65",
@@ -7002,13 +7002,13 @@ const QUESTIONS = {
       "stretch": true,
       "stem": "Stretch — beyond typical AP difficulty: A researcher proposes that ecosystem resilience depends not just on overall SPECIES RICHNESS (total number of species), but also on FUNCTIONAL DIVERSITY (the range of distinct ecological roles those species collectively perform). Explain why two ecosystems with identical species richness could still have very different levels of actual resilience, based on this distinction.",
       "choices": [
-        "An ecosystem with functionally redundant species can be less resilient than one with equal richness but wider functional range",
+        "An ecosystem whose many species all perform the same few roles can lose a unique function if one species disappears, so it can be less resilient than one with equal richness but a wider range of roles",
         "More species always automatically means more distinct ecological roles, with no exceptions at all",
         "Functional diversity has no relationship to resilience whatsoever in any ecosystem studied",
         "Species richness and functional diversity are always identical, so this scenario is impossible in practice for any ecosystem"
       ],
       "correct": 0,
-      "explanation": "An ecosystem can have high species richness while still having low functional diversity if many species perform very similar roles (redundant within a narrow category) while other functions are covered by only one or few species; losing that one unique-function species could still cause significant disruption despite high overall richness. This shows it's the diversity of functional roles, not raw species count, that most directly determines resilience to losing any particular species. Choice D wrongly asserts the two concepts are identical, denying the very distinction the question is testing. Choice C denies a real, well-reasoned ecological relationship. Choice B assumes a one-to-one mapping between species count and functional roles that the scenario explicitly shows can break down."
+      "explanation": "Correct: an ecosystem whose many species perform the same few roles can lose a unique function if one species disappears. Resilience depends on how many different ecological roles (functions) are covered and on whether each role is covered by more than one species. Imagine forest X with 20 species that all do the same few jobs (for example, many insect-eating birds) and only one species that fixes nitrogen, and forest Y with 20 species spread across many roles with some overlap. If the lone nitrogen-fixer in forest X disappears, that role is gone completely, even though richness is unchanged. Redundancy (more than one species per role) helps only where it exists.\n\n(B) is wrong because many species can share one role, so a higher richness does not guarantee more roles.\n(C) is wrong because the range of roles strongly influences resilience.\n(D) is wrong because richness and functional diversity are different measures, as this scenario shows."
     },
     {
       "id": "8-66",
@@ -7047,7 +7047,7 @@ const QUESTIONS = {
         "There is no meaningful difference between the two processes or their scale of impact"
       ],
       "correct": 2,
-      "explanation": "Correct: both convert N2 into ammonia, but industrial fixation is a human-engineered chemical process (Haber-Bosch) for fertilizer. In biological nitrogen fixation, bacteria use the enzyme nitrogenase to convert N2 into ammonia at normal temperatures. In the Haber-Bosch process, N2 and hydrogen (usually made from natural gas) react at high temperature and pressure with an iron catalyst to form ammonia, which is used to make synthetic fertilizer. This industrial process has roughly doubled the amount of fixed nitrogen entering the biosphere. The extra nitrogen increases crop yields, but it also runs off into waterways and contributes to eutrophication.\n\n(B) is wrong because it reverses the two processes: bacteria carry out biological fixation, and industrial fixation is the chemical one.\n(A) is wrong because industrial fixation adds fixed nitrogen, just as biological fixation does.\n(D) is wrong because the processes differ in their mechanism and in the scale of human impact."
+      "explanation": "Correct: both convert N2 into ammonia, but industrial fixation is a human-engineered chemical process (Haber-Bosch) for fertilizer. In biological nitrogen fixation, bacteria use the enzyme nitrogenase to convert N2 into ammonia at normal temperatures. In the Haber-Bosch process, N2 and hydrogen (usually made from natural gas) react at high temperature and pressure with an iron catalyst to form ammonia, which is used to make synthetic fertilizer. This industrial process has roughly doubled the amount of fixed nitrogen entering the biosphere. The extra nitrogen increases crop yields, but it also runs off into waterways and contributes to eutrophication.\n\n(B) is wrong because biological fixation is carried out by bacteria using the enzyme nitrogenase, not by rocks, and industrial fixation is a factory chemical reaction (Haber-Bosch), not bacteria. Nitrifying bacteria are a different group: they convert ammonia to nitrite and nitrate and do not fix N2.\n(A) is wrong because industrial fixation adds fixed nitrogen, just as biological fixation does.\n(D) is wrong because the processes differ in their mechanism and in the scale of human impact."
     }
   ]
 };

@@ -1886,7 +1886,7 @@ const QUESTIONS = {
         "Larger electron clouds are more polarizable, allowing stronger dipoles."
       ],
       "correct": 3,
-      "explanation": "More electrons spread over a larger volume are more easily distorted into a temporary, uneven distribution (more 'polarizable'), creating stronger instantaneous dipoles and therefore stronger induced-dipole attractions between neighbors—this is why dispersion forces grow with size. Choice A confuses intramolecular nuclear attraction (which holds a single atom's own electrons) with intermolecular attraction between separate molecules; more protons don't pull on a neighboring molecule's electrons. Choice C is false as a blanket rule—large molecules like octane are still nonpolar; size alone doesn't create a permanent dipole. Choice B is directly contradicted by real trends (e.g., the halogens' boiling points rising from F2 to I2), so dispersion clearly does depend on size."
+      "explanation": "Correct: larger electron clouds are more polarizable, allowing stronger dipoles. London dispersion forces come from temporary (instantaneous) dipoles: at any moment the electrons in a molecule may be unevenly distributed, making one side briefly slightly negative. That temporary dipole distorts the electron cloud of a neighboring molecule (an induced dipole), and the two attract. A molecule with more electrons spread over a larger volume has an electron cloud that is easier to distort (more polarizable), so its temporary dipoles are larger and the attractions are stronger. This is why the halogens go from gas to liquid to solid as size increases: F2 (boiling point about 85 K), Cl2 (about 239 K), Br2 (about 332 K), I2 (about 458 K).\n\n(A) is wrong because more protons hold a molecule's own electrons more tightly; they do not strengthen the attraction between separate molecules.\n(C) is wrong because large molecules are not always polar; octane is large and nonpolar.\n(B) is wrong because the halogen trend shows that size matters."
     },
     {
       "id": "3-4",
@@ -1938,7 +1938,7 @@ const QUESTIONS = {
         "Only hydrogen bonding forces present here"
       ],
       "correct": 0,
-      "explanation": "A polar molecule always experiences dipole-dipole attraction (from its permanent partial charges) in addition to London dispersion forces, which are present in every molecule, polar or not. Since it lacks H directly bonded to N, O, or F, hydrogen bonding doesn't apply. Choice B ('only dispersion') ignores that a permanent dipole necessarily adds dipole-dipole attraction on top of dispersion. Choice C ('only dipole-dipole') incorrectly assumes dispersion forces vanish once a stronger IMF is present—they never do, they're universal. Choice D ('only hydrogen bonding') directly contradicts the stem, which states no H is bonded to N, O, or F."
+      "explanation": "Correct: dipole-dipole and London dispersion forces. Work through the intermolecular forces in order. London dispersion forces are present in EVERY molecule. Dipole-dipole forces are added if the molecule is polar (a permanent dipole, from polar bonds that do not cancel by shape). Hydrogen bonding is added only if hydrogen is bonded directly to N, O, or F. This molecule is polar, so it has dipole-dipole forces, and it has no H on N, O, or F, so there is no hydrogen bonding. Examples that fit: HCl, CH3Cl, and SO2.\n\n(B) is wrong because a polar molecule has a permanent dipole, which gives it dipole-dipole attractions in addition to dispersion forces.\n(C) is wrong because dispersion forces never disappear; every molecule has them.\n(D) is wrong because the stem says there is no H bonded to N, O, or F, so hydrogen bonding is not possible."
     },
     {
       "id": "3-8",
@@ -1990,7 +1990,7 @@ const QUESTIONS = {
         "A solid lacking long-range order, with only local structure"
       ],
       "correct": 3,
-      "explanation": "Amorphous solids, unlike crystalline solids, lack the long-range, repeating structural order of a true crystal lattice—atoms or molecules are frozen in a relatively random arrangement (more like a 'frozen liquid'), even though some short-range local structure may persist. Choice B describes a crystalline solid, the opposite of amorphous. Choice C is false because amorphous solids aren't necessarily ionic at all—glass, for instance, is a covalent-network-based amorphous solid, and many amorphous solids are molecular or polymeric. Choice A is false because being amorphous (disordered) has nothing to do with electrical conductivity; glass, a classic amorphous solid, does not conduct."
+      "explanation": "Correct: a solid lacking long-range order, with only local structure. In a crystalline solid (like table salt or diamond) the particles are arranged in a regular pattern that repeats throughout the whole sample (long-range order). In an amorphous solid (glass, rubber, many plastics) the particles are frozen in a disordered arrangement, a bit like a liquid that has stopped flowing, with only short-range local structure. A practical difference is that amorphous solids soften gradually over a range of temperatures instead of melting at one sharp temperature.\n\n(B) is wrong because a perfectly repeating, long-range structure describes a crystalline solid, the opposite of amorphous.\n(C) is wrong because amorphous solids are not necessarily ionic; glass is a covalent network-type material, and many amorphous solids are polymers.\n(A) is wrong because electrical conductivity has nothing to do with being amorphous; glass is a classic amorphous solid and it does not conduct."
     },
     {
       "id": "3-12",
@@ -2003,7 +2003,7 @@ const QUESTIONS = {
         "Metallic solid"
       ],
       "correct": 0,
-      "explanation": "Dry ice consists of individual, intact CO2 molecules held to their neighbors only by weak London dispersion forces (CO2 is nonpolar)—a molecular solid. This is why it sublimes at such a low temperature; only weak IMFs, not covalent bonds, need to be overcome. Choice C is wrong because there's no metal cation/nonmetal anion pair here—CO2 is a covalent molecule, not an ionic compound. Choice B is wrong because dry ice is made of discrete, separate CO2 units rather than one continuous bonded network. Choice D is wrong because there are no metal atoms or delocalized electron sea; CO2 is entirely nonmetallic and molecular."
+      "explanation": "Correct: molecular solid. To classify a solid, ask what particles are in the lattice and what holds them together. Ionic solid: cations and anions held by ionic bonds. Metallic solid: metal cations in a sea of delocalized electrons. Covalent network solid: atoms joined by covalent bonds in one continuous network (diamond, SiO2). Molecular solid: separate molecules held together by intermolecular forces. Dry ice is made of separate CO2 molecules. Because CO2 is nonpolar, only weak London dispersion forces hold the molecules together, which is why dry ice sublimes at a very low temperature (about -78 C at 1 atm): only intermolecular forces, not covalent bonds, have to be overcome.\n\n(C) is wrong because there is no metal cation and nonmetal anion pair in CO2.\n(B) is wrong because dry ice consists of discrete CO2 units, not one continuous bonded network.\n(D) is wrong because there are no metal atoms or sea of electrons; CO2 is entirely nonmetal."
     },
     {
       "id": "3-13",
@@ -2016,7 +2016,7 @@ const QUESTIONS = {
         "It shatters easily under stress and conducts electricity when dissolved in water."
       ],
       "correct": 1,
-      "explanation": "Covalent network solids like diamond or quartz are extremely hard with extremely high melting points (breaking actual covalent bonds throughout the structure), and unlike ionic solids they don't conduct electricity even when molten, since there are no charged, mobile particles—just a continuous covalent framework. Choice A describes a solid with weak IMFs (a molecular solid), the opposite of a network solid's behavior. Choice C (conducts as a solid) suggests mobile charge carriers, which points to a metal, not a covalent network solid (graphite is a rare, specific exception, not the general case implied here). Choice D (shatters easily and conducts when dissolved) describes an ionic solid, which dissociates into mobile ions in water—network solids are generally insoluble and don't ionize."
+      "explanation": "Correct: it is extremely hard and high-melting, with no conductivity even molten. In a covalent network solid (such as diamond, quartz, or silicon carbide), every atom is bonded to its neighbors by covalent bonds throughout the whole crystal. Melting or scratching it means breaking many strong covalent bonds, so these solids are very hard and have very high melting points. They do not conduct electricity, even when melted, because there are no mobile ions and the electrons are held in the bonds. They are also usually insoluble. (Graphite is an exception that conducts, because of its layers of delocalized electrons.)\n\n(A) is wrong because a low melting point and good solubility in water point to a molecular solid.\n(C) is wrong because conducting as a solid points to a metal, which has a sea of mobile electrons.\n(D) is wrong because a brittle solid that conducts when dissolved is typical of an ionic solid, which releases mobile ions in water."
     },
     {
       "id": "3-14",
@@ -2029,7 +2029,7 @@ const QUESTIONS = {
         "Iodine is an ionic solid, while SiO₂ is covalent-network."
       ],
       "correct": 0,
-      "explanation": "SiO2's silicon and oxygen atoms are connected in a continuous 3D network of covalent bonds, requiring genuine bond-breaking to melt, while I2 molecules are complete, stable units held to their neighbors only by comparatively weak London dispersion forces—only IMFs, not bonds, need overcoming. Choice C has it backwards: whatever dispersion forces I2 has are irrelevant to SiO2's melting point, since SiO2 doesn't melt by overcoming dispersion forces at all—it melts by breaking covalent bonds, which is a fundamentally stronger process regardless of I2's dispersion strength. Choice D is wrong because iodine is a nonpolar covalent molecule, not ionic. Choice B is directly contradicted by real data: SiO2 melts around 1710°C while I2 melts around 114°C, an enormous difference."
+      "explanation": "Correct: SiO2 is a covalent network solid; I2 has only weak dispersion forces. The melting point depends on what has to be overcome for the particles to move past each other. SiO2 is a continuous 3D network of strong covalent Si-O bonds, so to melt it you have to break covalent bonds, which takes a very high temperature (about 1,710 C). I2 is a molecular solid: its molecules stay intact and only the weak London dispersion forces between them are overcome when it melts (about 114 C). Covalent bonds are much stronger than intermolecular forces.\n\n(C) is wrong because dispersion forces between SiO2 units are not what holds quartz together; its melting point is set by the covalent network.\n(D) is wrong because iodine is a nonpolar covalent molecule, not an ionic solid.\n(B) is wrong because the melting points are very different (1,710 C vs. 114 C)."
     },
     {
       "id": "3-15",
@@ -2068,7 +2068,7 @@ const QUESTIONS = {
         "A measurement error somewhere in the experimental setup."
       ],
       "correct": 2,
-      "explanation": "During a phase change, all added heat energy goes into overcoming the attractive forces between particles (increasing potential energy) rather than increasing particle speed (kinetic energy/temperature)—this is why temperature stays constant even while heat continues to be added throughout the transition. Choice A misreads a flat plateau as a temperature ceiling, but heating resumes and temperature rises again once the phase change is complete; nothing about the plateau implies a 'maximum possible' temperature. Choice B is wrong because heat is still being actively added during the plateau—that's exactly why the temperature doesn't rise, not because heating has stopped. Choice D is wrong because this flat region is a real, reproducible physical phenomenon seen in every substance's heating curve, not an artifact of faulty measurement."
+      "explanation": "Correct: a phase change is occurring, so energy overcomes IMFs, not raising KE. Temperature measures the average kinetic energy of the particles. On a heating curve, the sloped parts are where the substance is in a single phase, and the added energy raises the kinetic energy (the temperature rises; q = mc(delta T)). The flat plateaus are the phase changes (melting and boiling). The added energy goes into overcoming the attractions between particles (increasing potential energy), not into making them move faster, so the temperature stays constant until the change is complete (q = n x delta H).\n\n(A) is wrong because a plateau is not a maximum temperature: the temperature rises again once the phase change is over.\n(B) is wrong because heat is still being added during the plateau; that is why the phase change can continue.\n(D) is wrong because a plateau is a real, reproducible feature of every heating curve."
     },
     {
       "id": "3-18",
@@ -2094,7 +2094,7 @@ const QUESTIONS = {
         "The escaping molecules have the highest KE, lowering the liquid's average KE."
       ],
       "correct": 3,
-      "explanation": "The molecules with the highest kinetic energy are the ones that escape from the liquid, so the molecules left behind have a lower average KE — the liquid, and the skin it touches, cools down. Choice A gets the thermodynamics backwards: evaporation is endothermic, not exothermic, so it cools rather than warms the surroundings. Choice B is contradicted by everyday experience; the cooling effect of evaporating sweat is well documented and easy to measure. Choice C treats the cooling as stored heat being “released” into the air, but evaporation does not release stored heat — the energy leaves with the fastest molecules as they escape into the vapor."
+      "explanation": "Correct: the escaping molecules have the highest KE, lowering the liquid's average KE. In a liquid the molecules move at a range of speeds (a distribution of kinetic energies). The fastest molecules are the ones with enough energy to overcome the intermolecular forces and escape into the gas phase. When they leave, the molecules left behind have a lower average kinetic energy, which means the liquid has a lower temperature. The sweat takes energy from the skin as it evaporates (evaporation is endothermic), so the skin cools.\n\n(A) is wrong because evaporation is endothermic, not exothermic; it removes energy from the surroundings.\n(B) is wrong because the cooling effect is easy to measure and is how sweating cools the body.\n(C) is wrong because the skin's heat is not 'released' into the air; the energy leaves with the fastest molecules as they escape into vapor."
     },
     {
       "id": "3-20",
@@ -2172,7 +2172,7 @@ const QUESTIONS = {
         "0.500 L"
       ],
       "correct": 2,
-      "explanation": "With n, R, and T constant, PV must remain constant (Boyle's Law): P1V1 = P2V2. (1.00)(2.00) = (2.00)V2, so V2 = 1.00 L—doubling pressure at constant temperature halves the volume. Choice B (2.00 L, no change) treats the volume as unaffected by the pressure change, ignoring Boyle's Law entirely. Choice A (4.00 L) inverts the relationship, doubling volume as if P and V were directly rather than inversely proportional. Choice D (0.500 L) over-corrects, as if the pressure had been squared or doubled twice rather than doubled once."
+      "explanation": "Correct: 1.00 L. At constant temperature and amount of gas, the pressure and volume of a gas are inversely proportional (Boyle's law): P1V1 = P2V2. Substitute the values: (1.00 atm)(2.00 L) = (2.00 atm)(V2), so V2 = (1.00 x 2.00) / 2.00 = 1.00 L. A quick reasonableness check: the pressure was doubled, so the volume should be cut in half, from 2.00 L to 1.00 L.\n\n(A) is wrong because 4.00 L treats the pressure and volume as directly proportional, so doubling the pressure doubles the volume; they are inversely proportional.\n(B) is wrong because 2.00 L means the volume did not respond to the change in pressure.\n(D) is wrong because 0.500 L would require the volume to drop to a quarter, as if the pressure had quadrupled."
     },
     {
       "id": "3-26",
@@ -2198,7 +2198,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "With n, R, and V constant, P/T remains constant (Gay-Lussac's Law): P1/T1 = P2/T2. Halving the absolute temperature (400 K to 200 K) must therefore halve the pressure. Choice A (doubles) inverts the direct proportionality between P and T, as if cooling somehow raised pressure. Choice C (stays the same) ignores that P depends on T at constant V and n. Choice B (quadruples) applies the temperature ratio as if it were squared, confusing this simple direct proportion with a different (and here inapplicable) relationship."
+      "explanation": "Correct: it is cut in half. At constant volume and amount of gas, pressure is directly proportional to the Kelvin temperature (Gay-Lussac's law): P1/T1 = P2/T2. The temperature drops from 400 K to 200 K, which is half, so P2 = P1 x (200 / 400) = P1 x 0.5. The particles move more slowly at the lower temperature, so they hit the walls less often and with less force. Remember that these gas law relationships work only with temperature in kelvins; here the temperatures were already given in K.\n\n(A) is wrong because it treats pressure and temperature as inversely related, as if cooling increased the pressure.\n(C) is wrong because at constant volume, pressure depends on temperature.\n(B) is wrong because the pressure changes by the same factor as the Kelvin temperature (one-half), not by a squared factor (four)."
     },
     {
       "id": "3-28",
@@ -2211,7 +2211,7 @@ const QUESTIONS = {
         "44.0 g/mol"
       ],
       "correct": 0,
-      "explanation": "M = dRT/P = (1.43 g/L)(0.0821 L·atm/mol·K)(273 K) / (1.00 atm) = 32.05 g/mol ≈ 32.0 g/mol, consistent with O2 (whose real STP density is in fact 1.43 g/L). Choice C (16.0 g/mol) is half the correct value—about what you'd get from a factor-of-2 slip in the algebra (e.g., mistakenly using R·T/2). Choice B (22.4 g/mol) confuses molar mass with the unrelated constant 22.4 L/mol (the molar volume of an ideal gas at STP)—a classic mix-up between a mass unit (g/mol) and a volume unit (L/mol) that happen to be similarly memorized STP numbers. Choice D (44.0 g/mol) is the molar mass of CO2, a plausible-looking wrong gas if you guessed the identity instead of actually computing M from the given density."
+      "explanation": "Correct: 32.0 g/mol. Start from the ideal gas law, PV = nRT, and replace n with mass divided by molar mass (n = m/M). Then PV = (m/M)RT, and since density d = m/V this rearranges to M = dRT/P. Substitute: M = (1.43 g/L)(0.0821 L atm/mol K)(273 K) / (1.00 atm) = 32.05, or 32.0 g/mol (the molar mass of O2). A quick check: at STP one mole of an ideal gas occupies 22.4 L, so M = density x 22.4 L/mol = 1.43 x 22.4 = 32.0 g/mol.\n\n(B) is wrong because 22.4 is the molar VOLUME of a gas at STP in L/mol, which has different units from a molar mass.\n(C) is wrong because 16.0 g/mol is half the correct value, which is the result of an algebra slip.\n(D) is wrong because 44.0 g/mol is the molar mass of CO2; it would be the answer only if the density were about 1.96 g/L."
     },
     {
       "id": "3-29",
@@ -2224,7 +2224,7 @@ const QUESTIONS = {
         "12.2 atm"
       ],
       "correct": 1,
-      "explanation": "First convert temperature to Kelvin: 25°C + 273 = 298 K. P = nRT/V = (0.0500)(0.0821)(298) / (1.00) = 1.223 atm ≈ 1.22 atm. Choice C (2.44 atm) is double the correct value, consistent with an arithmetic slip that doubles n or R along the way. Choice A (0.610 atm) is half the correct value, the mirror-image slip. Choice D (12.2 atm) is exactly what you get by forgetting the Celsius-to-Kelvin conversion and plugging in T = 25 instead of 298—since T appears in the numerator here, using the much smaller uncoverted value shrinks P by roughly the same ~11.9× factor (298/25) that's missing, landing at 10× too high once other rounding is folded in. Always convert to Kelvin first."
+      "explanation": "Correct: 1.22 atm. Use the ideal gas law, P = nRT/V, and be careful with the units. First convert the temperature to kelvin: T = 25 + 273 = 298 K. Then P = (0.0500 mol)(0.0821 L atm/mol K)(298 K) / (1.00 L) = 1.223 atm, which rounds to 1.22 atm (three significant figures).\n\n(C) is wrong because 2.44 atm is double the correct value, as if n or R had been doubled by a slip.\n(A) is wrong because 0.610 atm is half the correct value, the mirror-image slip.\n(D) is wrong because 12.2 atm is ten times too large, which is the kind of result a misplaced decimal point gives. Note that forgetting to convert to kelvin and using 25 would make the answer far too SMALL (about 0.103 atm), not too large. Always convert Celsius to Kelvin first."
     },
     {
       "id": "3-30",
@@ -2237,7 +2237,7 @@ const QUESTIONS = {
         "They must be exactly the same identical gas, in each container."
       ],
       "correct": 1,
-      "explanation": "This is Avogadro's Law, a direct consequence of PV = nRT: at the same P, V, and T, n must be identical regardless of which gas is present. Choice A (same mass) is wrong because mass = n × M, and different gases have different molar masses even with the same mole count. Choice C (same density) is wrong for the same reason—density (d = PM/RT) also depends on molar mass, which can differ between gases. Choice D (must be the same gas) isn't required at all; Avogadro's Law works for any two different gases as long as P, V, and T match."
+      "explanation": "Correct: they must have the same number of moles, regardless of identity. This is Avogadro's law. Rearrange the ideal gas law to n = PV/RT. If two samples have the same pressure (P), volume (V), and temperature (T), the right side is the same for both, so they must contain the same number of moles of gas (and the same number of particles), whether the gas is hydrogen or carbon dioxide.\n\n(A) is wrong because mass equals moles times molar mass (m = n x M), and different gases have different molar masses, so equal moles do not mean equal mass.\n(C) is wrong because density depends on molar mass as well (d = PM/RT), so a heavier gas is denser at the same P and T.\n(D) is wrong because the identity of the gas does not matter; Avogadro's law applies to any two gases at the same P, V, and T."
     },
     {
       "id": "3-31",
@@ -2250,7 +2250,7 @@ const QUESTIONS = {
         "12.0 L"
       ],
       "correct": 1,
-      "explanation": "With n and P constant, V/T remains constant (Charles's Law): V1/T1 = V2/T2. 12.0/293 = V2/350, so V2 = 12.0 × (350/293) = 14.3 L, matching a balloon expanding as it's heated at constant pressure. Choice D (12.0 L, unchanged) ignores that volume must respond to the temperature increase at constant pressure. Choice A (10.0 L) results from inverting the temperature ratio (using T1/T2 = 293/350 instead of T2/T1), which shrinks the volume instead of growing it—backwards for a heated gas. Choice C (16.8 L) is roughly what a mis-transcribed initial temperature (e.g., reading 293 K as a smaller number) would produce, overshooting the correct expansion factor."
+      "explanation": "Correct: 14.3 L. The balloon is heated at constant pressure with a fixed amount of gas, so use Charles's law: V1/T1 = V2/T2, with temperatures in kelvin (they already are). V2 = V1 x (T2/T1) = 12.0 L x (350 K / 293 K) = 12.0 x 1.195 = 14.3 L. A quick check: heating a gas at constant pressure makes it expand, so the answer has to be larger than 12.0 L.\n\n(D) is wrong because 12.0 L means no change, but the volume of a gas at constant pressure increases as the temperature rises.\n(A) is wrong because 10.0 L comes from inverting the temperature ratio (12.0 x 293/350), which shrinks the gas as it is heated.\n(C) is wrong because 16.8 L is too large: it would require heating to about 410 K, not 350 K."
     },
     {
       "id": "3-32",
@@ -2263,7 +2263,7 @@ const QUESTIONS = {
         "Total: 6.16 atm; P(O₂) = 3.70 atm"
       ],
       "correct": 0,
-      "explanation": "Total moles = 0.300 + 0.200 = 0.500 mol, so P(total) = nRT/V = (0.500)(0.0821)(300)/(2.00) ≈ 6.16 atm. Each gas's partial pressure is its mole fraction times the total, so P(O₂) = (0.200/0.500)(6.16) ≈ 2.46 atm. Choice B (12.3 atm; 4.93 atm) is double both correct values, consistent with forgetting to divide nRT by the 2.00 L volume. Choice C (3.70 atm; 2.46 atm) reports N₂'s partial pressure as if it were the total pressure. Choice D (6.16 atm; 3.70 atm) gets the total right but gives N₂'s partial pressure instead of O₂'s."
+      "explanation": "Correct: total 6.16 atm; P(O2) = 2.46 atm. Dalton's law says the total pressure depends on the total moles of gas: n(total) = 0.300 + 0.200 = 0.500 mol. P(total) = nRT/V = (0.500)(0.0821)(300) / 2.00 = 6.16 atm. The partial pressure of O2 is its mole fraction times the total: (0.200 / 0.500)(6.16) = 2.46 atm. You can also find it directly with only the O2 moles: (0.200)(0.0821)(300) / 2.00 = 2.46 atm.\n\n(B) is wrong because 12.3 atm and 4.93 atm are both double the correct values, which is what you get by forgetting to divide by the 2.00 L volume.\n(C) is wrong because 3.70 atm is the partial pressure of N2 (0.300 mol), not the total.\n(D) is wrong because 3.70 atm is again the partial pressure of N2, not of O2."
     },
     {
       "id": "3-33",
@@ -2276,7 +2276,7 @@ const QUESTIONS = {
         "Pressure only"
       ],
       "correct": 0,
-      "explanation": "KMT states average kinetic energy depends only on absolute temperature (in Kelvin)—all gases at the same temperature have identical average kinetic energy, regardless of molar mass. Choice C (molar mass only) and choice B (both equally) incorrectly bring molar mass into the determination of average KE; molar mass affects average speed, not average kinetic energy, at a given temperature. Choice D (pressure only) confuses a macroscopic, container-dependent variable (pressure) with the microscopic quantity (average KE) that KMT ties specifically to temperature."
+      "explanation": "Correct: absolute temperature only. In kinetic molecular theory, the average kinetic energy of the particles of a gas is proportional to the absolute (Kelvin) temperature: KE(avg) = (3/2)RT per mole. All gases at the same temperature therefore have the same average kinetic energy, no matter what they are. Molar mass does not change the average kinetic energy; it changes the average SPEED, because KE = (1/2)mv<sup>2</sup>, so heavier particles move more slowly at the same KE. (C) and (B) are wrong because molar mass does not determine the average kinetic energy; it affects speed.\n\n(D) is wrong because pressure is a macroscopic result of the collisions, which depends on temperature, volume, and the number of moles, while the average kinetic energy is tied directly to temperature."
     },
     {
       "id": "3-34",
@@ -2302,7 +2302,7 @@ const QUESTIONS = {
         "Ar effuses about 1.4× faster than Ne"
       ],
       "correct": 2,
-      "explanation": "Rate(Ne)/Rate(Ar) = √(M(Ar)/M(Ne)) = √(40.0/20.2) = √1.98 ≈ 1.41, so neon effuses about 1.4× faster than argon at the same temperature—lighter gas, faster effusion. Choice D has the ratio inverted, claiming the heavier gas (Ar) is faster, which reverses Graham's Law. Choice A ignores that molar mass differs between Ne and Ar, which is precisely what makes their effusion rates unequal. Choice B (2×) overstates the effect—that would require the molar masses to differ by a factor of 4 (since rate ratio is a square root of the mass ratio), not 40.0/20.2 ≈ 2."
+      "explanation": "Correct: Ne effuses about 1.4x faster than Ar. Graham's law says the effusion rate is inversely proportional to the square root of the molar mass: rate(Ne)/rate(Ar) = square root of [M(Ar)/M(Ne)] = square root of (40.0 / 20.2) = square root of 1.98 = 1.41. The lighter gas (Ne) effuses faster, and here it is about 1.4 times as fast.\n\n(D) is wrong because it reverses the relationship: the heavier gas effuses more slowly.\n(A) is wrong because the gases have different molar masses, which is what makes the rates different.\n(B) is wrong because 2x is the ratio of the molar masses themselves; it forgets to take the square root."
     },
     {
       "id": "3-36",
@@ -2354,7 +2354,7 @@ const QUESTIONS = {
         "He and Ar particles have the same average kinetic energy but different average speeds."
       ],
       "correct": 3,
-      "explanation": "At the same temperature, all gases share the same average kinetic energy regardless of identity—but since KE = ½mv² and He has a much smaller mass than Ar, He's particles must move faster on average to carry that same kinetic energy. Choice A (same average speed) ignores the mass difference between He and Ar; equal KE with unequal mass requires unequal speed. Choice C (same KE and same speed) is internally inconsistent—if both had equal speed as well as equal KE, their masses would have to be equal too, which they aren't. Choice B has the KE relationship backwards: temperature (not mass) sets average KE, so Ar being heavier does not give it higher average KE than He at the same temperature."
+      "explanation": "Correct: He and Ar particles have the same average kinetic energy but different average speeds. At a given temperature, all gases have the same average kinetic energy, because average KE depends only on temperature. Kinetic energy is KE = (1/2)mv<sup>2</sup>, so for the same KE a particle with a smaller mass must move faster. Helium atoms (about 4 g/mol) are about ten times lighter than argon atoms (about 40 g/mol), so their average speed is about three times greater (the speed scales as 1 over the square root of the mass).\n\n(A) is wrong because it ignores the mass difference.\n(C) is wrong because equal KE and equal speed would require equal masses, and these differ.\n(B) is wrong because temperature, not mass, sets the average KE, so heavier Ar does not have a higher average KE."
     },
     {
       "id": "3-40",
@@ -2380,7 +2380,7 @@ const QUESTIONS = {
         "High pressure and low temperature"
       ],
       "correct": 3,
-      "explanation": "High pressure forces particles close enough together that their actual volume (assumed zero in the ideal model) becomes significant, and low temperature slows particles enough that intermolecular attractions (also assumed zero) become significant—together these produce the greatest deviation from ideal behavior. Choice B (low pressure, high temperature) is actually the condition under which real gases behave most ideally, the opposite of what's being asked. Choices A and C each combine one deviation-promoting condition with one that suppresses deviation (high T counters low-T attraction effects; low P counters high-P volume effects), so neither produces the maximum combined deviation that high pressure plus low temperature does together."
+      "explanation": "Correct: high pressure and low temperature. The ideal gas law assumes that gas particles have no volume and no attractions. At high pressure the particles are pushed close together, so the space they take up becomes a significant part of the total volume. At low temperature the particles move slowly, so the attractions between them (intermolecular forces) matter more, and they pull together (a gas near its condensation point). Both effects together give the largest deviation. This is what the van der Waals equation corrects: (P + an<sup>2</sup>/V<sup>2</sup>)(V - nb) = nRT, where a accounts for attractions and b for particle volume.\n\n(B) is wrong because low pressure and high temperature are the conditions where real gases behave MOST ideally.\n(A) is wrong because high temperature reduces the effect of attractions, and\n(C) is wrong because low pressure keeps the particles far apart. Each of those mixes one condition that causes deviation with one that suppresses it."
     },
     {
       "id": "3-42",
@@ -2445,7 +2445,7 @@ const QUESTIONS = {
         "He and Ne (both nonpolar, similar size)"
       ],
       "correct": 2,
-      "explanation": "He is nonpolar, tiny, with extremely weak dispersion forces (very small 'a'), while NH3 is polar and hydrogen-bonds (much stronger IMFs, much larger 'a')—this pairing has by far the largest expected difference in intermolecular attraction strength among the options given. Choice B (CH4 and CO2) pairs two nonpolar molecules of fairly similar size, so their 'a' values, while not identical, are much closer to each other than He and NH3's. Choice D (He and Ne) pairs two nonpolar noble gases of similar (small) size, giving them comparably small 'a' values with only a modest difference. Choice A (N2 and CO) pairs two molecules of nearly identical size and only mild polarity difference, so their 'a' constants are quite close as well."
+      "explanation": "Correct: He and NH3 (very different polarity and size). The van der Waals constant 'a' measures the strength of attractions between molecules: the stronger the intermolecular forces, the larger the 'a'. Helium is a tiny, nonpolar atom with extremely weak dispersion forces, so its 'a' is very small (about 0.03 L<sup>2</sup> atm/mol<sup>2</sup>). Ammonia is polar and hydrogen bonds, so its attractions are much stronger and its 'a' is much larger (about 4.2). That is by far the biggest difference among the pairs.\n\n(B) is wrong because CH4 and CO2 are both nonpolar molecules of similar size, so their values are in the same range.\n(D) is wrong because He and Ne are both nonpolar, small atoms with weak dispersion forces and small values.\n(A) is wrong because N2 and CO have nearly the same size and similar, weak polarity, so their values are close."
     },
     {
       "id": "3-47",
@@ -2498,7 +2498,7 @@ const QUESTIONS = {
         "Metallic bonding"
       ],
       "correct": 0,
-      "explanation": "Water's polar molecules orient their partial charges toward the ions at the surface of an ionic crystal (oxygen toward cations, hydrogen toward anions), and this ion-dipole attraction pulls individual ions away from the lattice and stabilizes them in solution (hydration). Choice C (dispersion) is far too weak to overcome the strong electrostatic lattice energy holding an ionic solid together. Choice B (covalent bond formation) doesn't occur between water and dissolved ions—hydration is an intermolecular attraction, not a new covalent bond. Choice D (metallic bonding) applies to metals' electron seas, not to water molecules surrounding dissolved ions."
+      "explanation": "Correct: ion-dipole attraction. Water molecules are polar: the oxygen end is partially negative and the hydrogen ends are partially positive. When an ionic solid is placed in water, the oxygen ends of water molecules are attracted to the positive cations and the hydrogen ends to the negative anions on the surface of the crystal. This ion-dipole attraction pulls ions out of the lattice, and the water molecules surround them (hydration), which keeps them in solution. An ionic solid dissolves when the energy released by hydration is large enough to compensate for the energy needed to break up the lattice.\n\n(C) is wrong because dispersion forces are much too weak to overcome the strong attractions between ions.\n(B) is wrong because no new covalent bonds form when ions dissolve; hydration is an intermolecular attraction.\n(D) is wrong because metallic bonding is found in metals, not in ionic solids or water."
     },
     {
       "id": "3-51",
@@ -2511,7 +2511,7 @@ const QUESTIONS = {
         "Diluted"
       ],
       "correct": 2,
-      "explanation": "A saturated solution is at the maximum solute concentration the solvent can hold at that temperature, with dissolved and undissolved solute in dynamic equilibrium (solute continues dissolving and recrystallizing at equal rates). Choice D (diluted) describes lowering concentration by adding solvent, unrelated to the maximum-capacity/equilibrium description given. Choice B (unsaturated) describes a solution that could still dissolve more solute—the opposite of the 'no more can dissolve' condition in the stem. Choice A (supersaturated) describes an unstable solution holding more solute than the equilibrium maximum, which is a different, less stable state than the equilibrium condition being described here."
+      "explanation": "Correct: saturated. A solution is saturated when it contains the maximum amount of solute that can dissolve in that amount of solvent at that temperature. Any extra solute stays undissolved, and the two states are in dynamic equilibrium: solute dissolves and crystallizes out at the same rate, so the concentration stays constant. Compare the other terms: an unsaturated solution has less than the maximum and can still dissolve more; a supersaturated solution holds more than the equilibrium maximum and is unstable (extra solute can crystallize suddenly).\n\n(B) is wrong because an unsaturated solution could still dissolve more solute, which contradicts the stem.\n(A) is wrong because a supersaturated solution holds more than the equilibrium amount and has no undissolved solute in equilibrium.\n(D) is wrong because diluting means adding solvent to lower the concentration; it does not describe a maximum."
     },
     {
       "id": "3-52",
@@ -2537,7 +2537,7 @@ const QUESTIONS = {
         "Water and ethanol happen to share identical molar mass values."
       ],
       "correct": 1,
-      "explanation": "Ethanol's -OH group can hydrogen bond directly with water's hydrogen-bonding network, providing new solute-solvent attractions comparable in strength to the ones being broken (water-water and ethanol-ethanol hydrogen bonds)—this comparably strong new attraction is why the two liquids mix in any ratio. Choice D (identical molar mass) is both false (water is 18 g/mol, ethanol is 46 g/mol) and irrelevant to miscibility, which depends on IMF matching, not mass. Choice C (both nonpolar) is factually wrong—both water and ethanol are polar, hydrogen-bonding molecules. Choice A (ethanol is ionic) is also false; ethanol is a covalent molecular compound, not an ionic one."
+      "explanation": "Correct: both can hydrogen bond, giving comparably strong attraction. Liquids are miscible when the attractions between the two kinds of molecules are about as strong as the attractions already present in each pure liquid ('like dissolves like'). Water molecules hydrogen bond to each other, and ethanol has an -OH group that can also hydrogen bond. When they mix, the new ethanol-water hydrogen bonds replace the water-water and ethanol-ethanol hydrogen bonds, with little energy cost, so they mix in any proportion. Ethanol's short nonpolar CH3CH2 part is small enough not to spoil this.\n\n(D) is wrong because the molar masses are different (water 18 g/mol, ethanol 46 g/mol), and mass does not control miscibility.\n(C) is wrong because both are polar, hydrogen-bonding molecules.\n(A) is wrong because ethanol is a covalent molecular compound, not an ionic one."
     },
     {
       "id": "3-54",
@@ -2550,7 +2550,7 @@ const QUESTIONS = {
         "Octanol actually cannot hydrogen bond with water at all."
       ],
       "correct": 2,
-      "explanation": "Both molecules have one hydrogen-bonding -OH group, but octanol's much longer nonpolar carbon chain (8 carbons vs. methanol's 1) contributes an increasingly large nonpolar 'like dissolves like' mismatch with water, making octanol's overall behavior more nonpolar-like despite its polar -OH. Choice A has the comparison backwards—it's octanol, not methanol, that has the larger nonpolar hydrocarbon tail. Choice D is false; octanol does have an -OH group and can hydrogen bond, just less effectively relative to its large nonpolar portion. Choice B is contradicted by real solubility data—methanol is fully miscible with water while octanol has quite limited water solubility."
+      "explanation": "Correct: octanol's larger nonpolar chain makes it act more like a nonpolar substance. Both alcohols have a polar -OH group that can hydrogen bond with water. The difference is the nonpolar hydrocarbon part. Methanol has just one carbon, so the -OH group dominates and methanol mixes with water in all proportions. Octanol has eight carbons in a nonpolar chain. That long chain cannot form hydrogen bonds and disrupts water's hydrogen-bond network, so the molecule as a whole behaves more like a nonpolar substance, and octanol is only slightly soluble in water. A good rule: the longer the nonpolar chain, the less soluble in water.\n\n(A) is wrong because it reverses the facts: octanol has the larger nonpolar tail.\n(D) is wrong because octanol does have an -OH group and can hydrogen bond with water, but its large nonpolar part outweighs that.\n(B) is wrong because their solubilities are very different."
     },
     {
       "id": "3-55",
@@ -2563,7 +2563,7 @@ const QUESTIONS = {
         "Hexane (nonpolar) and heptane (nonpolar)"
       ],
       "correct": 3,
-      "explanation": "Hexane and heptane are both nonpolar hydrocarbons with very similar structure and IMF profile (both rely almost entirely on comparable-strength London dispersion forces), so they mix freely in any ratio—textbook 'like dissolves like.' Choice A (water and hexane) and choice B (hexane and water, the same mismatched pair restated) both combine a strongly hydrogen-bonding polar solvent with a nonpolar solute, a classic immiscible combination. Choice C (NaCl and hexane) pairs an ionic solid, which needs strong ion-dipole attraction to dissolve, with a nonpolar solvent that can only offer weak dispersion forces—far too weak to pull ions out of the ionic lattice."
+      "explanation": "Correct: hexane (nonpolar) and heptane (nonpolar). The rule is 'like dissolves like': two liquids mix completely when the attractions between the two different molecules are about as strong as the attractions in each pure liquid. Hexane and heptane are both nonpolar hydrocarbons held together only by London dispersion forces of similar strength, so molecules of one slip in between molecules of the other with almost no energy cost, and they are miscible in all proportions. (A) and (B) are wrong because water has strong hydrogen bonds between its molecules, and hexane cannot hydrogen bond, so the water molecules stay attached to each other and the liquids separate into two layers (the two choices describe the same water and hexane pair).\n\n(C) is wrong because NaCl is an ionic solid; to dissolve it, a solvent has to provide strong ion-dipole attractions, and nonpolar hexane offers only weak dispersion forces."
     },
     {
       "id": "3-56",
@@ -2576,7 +2576,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 3,
-      "explanation": "M = mol solute / L solution = 2.00 mol / 4.00 L = 0.500 M. Choice B (2.00 M) mistakenly reports the moles of solute as if it were the molarity, skipping the division by volume entirely. Choice A (8.00 M) results from multiplying instead of dividing (4.00 × 2.00). Choice C (0.250 M) is half the correct value, consistent with an extra unwarranted factor of 2 in the division (e.g., using 8.00 L instead of 4.00 L)."
+      "explanation": "Correct: 0.500 M. Molarity is moles of solute divided by liters of SOLUTION: M = mol / L = 2.00 mol / 4.00 L = 0.500 mol/L = 0.500 M. Write the formula and include the units, so you can see that you are dividing moles by liters.\n\n(B) is wrong because 2.00 M just repeats the number of moles; it was not divided by the volume.\n(A) is wrong because 8.00 M comes from multiplying 2.00 by 4.00 instead of dividing.\n(C) is wrong because 0.250 M is half of the correct value, which would be the answer if the volume had been 8.00 L."
     },
     {
       "id": "3-57",
@@ -2589,7 +2589,7 @@ const QUESTIONS = {
         "0.400 mol"
       ],
       "correct": 2,
-      "explanation": "Convert mL to L: 250.0 mL = 0.2500 L. mol = M × L = 0.400 × 0.2500 = 0.100 mol. Choice B (1.60 mol) results from dividing instead of multiplying (0.400 / 0.2500), inverting the relationship. Choice D (0.400 mol) skips the volume conversion/multiplication entirely and just restates the molarity value as if it were the mole count. Choice A (0.0250 mol) is off by a factor of 4 from the correct answer, consistent with an extra unintended division (e.g., treating 250.0 mL as 0.0625 L instead of 0.2500 L)."
+      "explanation": "Correct: 0.100 mol. Molarity is moles per liter, so moles = M x V, with the volume in LITERS. First convert: 250.0 mL x (1 L / 1000 mL) = 0.2500 L. Then moles = 0.400 mol/L x 0.2500 L = 0.100 mol. A quick reasonableness check: 250 mL is a quarter of a liter, so you should have a quarter of 0.400 mol, which is 0.100 mol.\n\n(B) is wrong because 1.60 mol comes from dividing 0.400 by 0.2500 instead of multiplying, which inverts the relationship.\n(D) is wrong because 0.400 mol just repeats the molarity; the volume was not used.\n(A) is wrong because 0.0250 mol is one-fourth of the correct value, so the volume was entered incorrectly."
     },
     {
       "id": "3-58",
@@ -2602,7 +2602,7 @@ const QUESTIONS = {
         "0.500 M"
       ],
       "correct": 3,
-      "explanation": "Using M1V1 = M2V2: (2.00)(50.0) = M2(200.0), so M2 = 100/200.0 = 0.500 M. Choice C (8.00 M) results from inverting the dilution relationship (multiplying instead of dividing, or swapping which volume belongs in the numerator vs. denominator). Choice B (0.250 M) and choice A (0.125 M) are both too dilute for the given volumes—0.250 M would require a roughly 8-fold dilution and 0.125 M a 16-fold dilution, but going from 50.0 mL to 200.0 mL is only a 4-fold dilution, which correctly takes 2.00 M down to 0.500 M, not further."
+      "explanation": "Correct: 0.500 M. In a dilution, adding water changes the volume but not the number of moles of solute, so M1V1 = M2V2. Substitute: (2.00 M)(50.0 mL) = M2 (200.0 mL), so M2 = 100.0 / 200.0 = 0.500 M. (The volumes can stay in mL because they cancel as a ratio.) Another way to see it: the volume increased from 50.0 mL to 200.0 mL, a factor of 4, so the concentration drops by a factor of 4: 2.00 / 4 = 0.500 M.\n\n(C) is wrong because 8.00 M multiplies by 4 instead of dividing, which would make the solution MORE concentrated after adding water.\n(B) is wrong because 0.250 M would be an 8-fold dilution.\n(A) is wrong because 0.125 M would be a 16-fold dilution; the actual dilution here is only 4-fold."
     },
     {
       "id": "3-59",
@@ -2615,7 +2615,7 @@ const QUESTIONS = {
         "200.0 mL"
       ],
       "correct": 0,
-      "explanation": "Using M1V1 = M2V2: M1(V1) = (1.50)(500.0), so V1 = 750/6.00 = 125.0 mL of the 6.00 M stock. Choice B (100.0 mL) and choice D (200.0 mL) both misapply the dilution factor—100.0 mL corresponds to a 5-fold dilution (6.00 M would land at 1.20 M, not 1.50 M) and 200.0 mL corresponds to only a 2.5-fold dilution (landing at 2.40 M, too concentrated), neither matching the required 4-fold dilution (6.00/1.50 = 4) that 125.0 mL actually provides. Choice C (150.0 mL) is a plausible-looking rounding of the target volume but doesn't satisfy M1V1 = M2V2 exactly: (6.00)(150.0) = 900, giving 900/500.0 = 1.80 M, not the required 1.50 M."
+      "explanation": "Correct: 125.0 mL. Use M1V1 = M2V2, where the stock solution is solution 1: (6.00 M)(V1) = (1.50 M)(500.0 mL). V1 = (1.50 x 500.0) / 6.00 = 750 / 6.00 = 125.0 mL. A check: the dilution factor is 6.00 / 1.50 = 4, so the final volume should be 4 times the stock volume: 500.0 / 4 = 125.0 mL. In the lab you would measure 125.0 mL of stock and add water up to the 500.0 mL mark.\n\n(B) is wrong because 100.0 mL would give (6.00)(100.0)/500.0 = 1.20 M, which is too dilute.\n(D) is wrong because 200.0 mL would give 2.40 M, which is too concentrated.\n(C) is wrong because 150.0 mL would give 1.80 M, which is also too concentrated."
     },
     {
       "id": "3-60",
@@ -2628,7 +2628,7 @@ const QUESTIONS = {
         "1.00 M"
       ],
       "correct": 0,
-      "explanation": "Moles of NaOH = 20.0 g / 40.00 g/mol = 0.500 mol. Molarity = 0.500 mol / 0.2500 L = 2.00 M. Choice B (0.500 M) mistakenly reports the mole count as if it directly equaled the molarity, skipping the division by volume. Choice D (1.00 M) is half the correct value, consistent with using 0.500 L instead of 0.2500 L in the denominator. Choice C (0.800 M) doesn't correspond to a clean single-step slip from this data and represents a general miscalculation rather than a systematic error."
+      "explanation": "Correct: 2.00 M. Molarity needs moles of solute and liters of solution, so do two steps. Step 1, moles of NaOH: 20.0 g / 40.00 g/mol = 0.500 mol. Step 2, convert the volume to liters: 250.0 mL = 0.2500 L. Then M = 0.500 mol / 0.2500 L = 2.00 M.\n\n(B) is wrong because 0.500 is the number of moles, and it was not divided by the volume.\n(D) is wrong because 1.00 M comes from dividing by 0.500 L instead of 0.2500 L, so the volume was converted incorrectly.\n(C) is wrong because 0.800 M does not follow from this data by any of the usual steps; it would require a different mass or volume."
     },
     {
       "id": "3-61",
@@ -2641,7 +2641,7 @@ const QUESTIONS = {
         "Molarity stays exactly the same, unaffected by the added solvent."
       ],
       "correct": 2,
-      "explanation": "Dilution adds solvent (increasing total volume) while the number of moles of solute stays fixed. Since M = mol/L, keeping the numerator constant while increasing the denominator necessarily decreases molarity—this is the entire basis of M1V1 = M2V2. Choice A has the relationship backwards: it treats increasing volume as if it increased concentration, when more solvent for the same amount of solute always dilutes, not concentrates. Choice D ignores that adding solvent changes the mol/L ratio at all. Choice B is simply false—diluted solutions still have a well-defined, calculable molarity; it's just lower than before."
+      "explanation": "Correct: molarity decreases, since the moles are spread through a larger volume. When you dilute a solution, you add solvent, which increases the volume, but you do not add or remove any solute, so the number of moles of solute stays the same. Since molarity is M = moles / liters, the same numerator with a larger denominator gives a smaller molarity. This is the idea behind the dilution equation, M1V1 = M2V2: moles before equals moles after.\n\n(A) is wrong because it states the relationship backwards: more solvent makes a solution less concentrated, not more.\n(D) is wrong because molarity depends on volume, which does change.\n(B) is wrong because a diluted solution still has a well-defined molarity; it is simply lower."
     },
     {
       "id": "3-62",
@@ -2654,7 +2654,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "The same number of particles spread through twice the volume represents half the original concentration—the particulate-level picture of dilution, matching the mathematical M1V1 = M2V2 relationship. Choice B (doubles) has the relationship backwards—concentration falls, not rises, when volume increases with the same particle count. Choice A (stays the same) ignores that concentration is particles per volume, and volume has changed while particle count hasn't. Choice C is wrong because this is a determinable, predictable relationship (concentration is inversely proportional to volume at constant particle count), not an indeterminate one."
+      "explanation": "Correct: it is cut in half. Concentration is the amount of solute per unit of volume. If the number of solute particles stays at 6 while the volume doubles, there are half as many particles in each unit of volume, so the concentration is halved. This is the particle-level picture of dilution, and it matches M1V1 = M2V2: if V2 = 2V1, then M2 = M1/2. When you compare particulate diagrams, count the particles AND compare the volumes.\n\n(B) is wrong because it states the relationship backwards: a larger volume with the same particles is more dilute.\n(A) is wrong because concentration depends on the volume, which changed.\n(C) is wrong because the relationship is definite: at a constant number of particles, concentration is inversely proportional to volume."
     },
     {
       "id": "3-63",
@@ -2667,7 +2667,7 @@ const QUESTIONS = {
         "2.60 M"
       ],
       "correct": 3,
-      "explanation": "Moles from the first solution: (4.00 M)(0.1500 L) = 0.600 mol. Moles from the second: (2.00 M)(0.3500 L) = 0.700 mol. Total moles = 1.300 mol over a total volume of 0.1500 + 0.3500 = 0.5000 L, giving 1.300/0.5000 = 2.60 M. Choice C (3.00 M) is roughly what a simple (unweighted) average of 4.00 M and 2.00 M would give, ignoring that the two volumes mixed are different sizes and must be weighted by volume, not averaged directly. Choice A (1.30 M) mistakenly reports the total moles as if that number were the final molarity, skipping the division by total volume. Choice B (2.10 M) doesn't correspond to a clean single mistake and simply reflects an incorrect combination of the mole and volume totals.",
+      "explanation": "Correct: 2.60 M. When solutions are mixed, add up the moles of solute and divide by the total volume. Moles from the first solution: 4.00 mol/L x 0.1500 L = 0.600 mol. Moles from the second: 2.00 mol/L x 0.3500 L = 0.700 mol. Total moles = 1.300 mol. Total volume = 0.1500 + 0.3500 = 0.5000 L. Final concentration = 1.300 mol / 0.5000 L = 2.60 M. A check: the result must be between 2.00 M and 4.00 M, and closer to 2.00 M because more of the 2.00 M solution was used.\n\n(C) is wrong because 3.00 M is a simple average of the two concentrations, which ignores that the volumes are different.\n(A) is wrong because 1.30 is the total number of moles, and it was not divided by the total volume.\n(B) is wrong because 2.10 M is too close to 2.00 M: the 4.00 M portion adds more than that.",
       "stretch": true
     },
     {
@@ -2681,7 +2681,7 @@ const QUESTIONS = {
         "Chromatography of the mixture"
       ],
       "correct": 1,
-      "explanation": "Filtration removes the insoluble sand (a solid too large to pass through filter paper) from the saltwater, leaving the dissolved salt in the filtrate; evaporating the water afterward then isolates the pure NaCl. Choice A (distillation) would recover the pure solvent (water) rather than the salt, and is unnecessary and inefficient for removing an insoluble solid like sand. Choice C (recrystallization) is used to purify a solid that's already been isolated by re-dissolving and re-crystallizing it—it's not the appropriate first step for separating an insoluble solid from a solution. Choice D (chromatography) separates dissolved components based on differing affinities for a stationary/mobile phase, which isn't the relevant property distinguishing insoluble sand from dissolved salt."
+      "explanation": "Correct: filtration followed by evaporation. Plan a separation by looking at the property that differs between the components. Sand is insoluble in water, so it is a solid that does not pass through filter paper. Salt is dissolved, so it passes through in the filtrate. Filtering removes the sand. Then evaporating the water from the filtrate leaves the solid salt behind.\n\n(A) is wrong because distillation would collect the pure water, and it is not needed to remove the sand; filtering is simpler.\n(C) is wrong because recrystallization purifies a solid that has already been isolated, by dissolving it and letting it crystallize again; it is not the first step.\n(D) is wrong because chromatography separates dissolved substances that travel at different rates, and the problem here is an insoluble solid."
     },
     {
       "id": "3-65",
@@ -2707,7 +2707,7 @@ const QUESTIONS = {
         "Decanting"
       ],
       "correct": 1,
-      "explanation": "Distillation exploits differences in boiling point to separate miscible liquids: heating the mixture selectively vaporizes the lower-boiling-point component first, which can then be condensed and collected separately from the higher-boiling-point liquid left behind. Choice D (decanting) only works to separate an already-settled, immiscible liquid layer or a liquid from a settled solid—it can't separate two liquids that are fully mixed (miscible) with each other. Choices C and A (filtration, simple filtration through paper) both separate solids from liquids based on particle size, which is irrelevant here since both components are liquids with no solid phase to filter out."
+      "explanation": "Correct: distillation. Two liquids that are miscible mix completely, so you cannot filter or pour one off. The property that differs is the boiling point. In distillation the mixture is heated, the liquid with the lower boiling point (for example acetone, which boils at 56 C, mixed with water, which boils at 100 C) vaporizes first, and the vapor passes into a condenser, where it cools and is collected as a pure liquid. The liquid with the higher boiling point stays behind in the flask.\n\n(D) is wrong because decanting only works when the layers are immiscible (such as oil and water) or when a solid has settled. (A) and (C) are wrong because filtration separates a solid from a liquid by particle size, and there is no solid here."
     },
     {
       "id": "3-67",
@@ -2733,7 +2733,7 @@ const QUESTIONS = {
         "This kind of separation is not possible using any physical technique."
       ],
       "correct": 2,
-      "explanation": "This combines selective dissolution (using the solvent to dissolve only the soluble component), filtration (removing the remaining insoluble solid), and evaporation (recovering the dissolved solid from the filtrate)—a standard real lab procedure for separating a two-solid mixture based on differing solubility. Choice B (heating until both solids melt) doesn't separate anything—melting both components together just gives a mixed liquid or, worse, could cause decomposition, and doesn't exploit the solubility difference given. Choice A (chromatography without dissolution) skips the step needed to distinguish the components based on the property actually described (solubility, not chromatographic affinity), and solids generally must be in solution or vapor form for standard chromatography. Choice D is false—this separation is a routine, well-established physical technique."
+      "explanation": "Correct: dissolve in solvent, filter out the solid, then evaporate to recover it. This is the standard way to separate two solids when one dissolves in a solvent and the other does not (for example, sand and salt in water). Add the solvent so that the soluble solid dissolves, filter the mixture so that the insoluble solid is caught on the filter paper, and then evaporate the solvent from the filtrate to recover the soluble solid. Each step uses a physical difference (solubility, particle size, volatility of the solvent).\n\n(B) is wrong because melting both solids together does not separate them and may decompose them.\n(A) is wrong because chromatography needs the substances to be dissolved first, and it is not necessary when a solubility difference makes a simpler separation possible.\n(D) is wrong because this separation is routine and uses only physical methods."
     },
     {
       "id": "3-69",
@@ -2759,7 +2759,7 @@ const QUESTIONS = {
         "Increases"
       ],
       "correct": 3,
-      "explanation": "For most solids, dissolving is favored at higher temperatures, so additional thermal energy generally helps overcome the solute's internal lattice attractions, increasing solubility—this is why more sugar dissolves in hot tea than in iced tea. Choice B is wrong because this trend is well-characterized and predictable (via solubility curves), not unpredictable. Choice A (decreases) describes the trend for most gases in water, not for most solids—an important distinction to keep straight. Choice C (stays the same) ignores the clear, measurable temperature-dependence shown on standard solubility curves for the vast majority of solid solutes."
+      "explanation": "Correct: increases. For most solid solutes, dissolving in water absorbs heat (it is endothermic), so adding heat by raising the temperature favors dissolving (Le Chatelier's principle), and the particles also have more energy to break away from the solid. A solubility curve shows this trend: more of the solid dissolves as the temperature goes up, which is why more sugar dissolves in hot tea than in iced tea. There are exceptions (some salts, like NaCl, change very little), but 'increases' is the general rule for solids.\n\n(A) is wrong because decreasing with temperature is the trend for most gases in water, not solids.\n(B) is wrong because the trend is well-known and can be read from solubility curves.\n(C) is wrong because solubility clearly depends on temperature for most solids."
     },
     {
       "id": "3-71",
@@ -2772,7 +2772,7 @@ const QUESTIONS = {
         "Stays exactly the same"
       ],
       "correct": 0,
-      "explanation": "Gas solubility in liquids typically decreases with increasing temperature—faster-moving gas molecules at higher temperature more easily escape the weak IMFs holding them in solution, returning to the gas phase. Choice C (becomes zero) overstates the effect; solubility decreases but doesn't necessarily drop all the way to zero at any finite, reasonable temperature. Choice B (increases) describes the trend for most solids, not gases—the opposite direction. Choice D (stays exactly the same) ignores the clear, well-documented temperature-dependence of gas solubility (e.g., warm soda going flat faster than cold soda)."
+      "explanation": "Correct: decreases. When a gas dissolves in a liquid, the gas molecules are held by weak attractions to the solvent. At a higher temperature the molecules have more kinetic energy, so more of them can escape from the liquid back into the gas phase. (Dissolving a gas is usually exothermic, so heating also shifts the equilibrium toward the undissolved gas.) That is why a warm soda goes flat faster than a cold one, and why warm lake water holds less dissolved oxygen, which can harm fish.\n\n(B) is wrong because increasing solubility with temperature is the trend for most solids.\n(C) is wrong because the solubility falls but does not reach zero at ordinary temperatures.\n(D) is wrong because gas solubility clearly changes with temperature."
     },
     {
       "id": "3-72",
@@ -2785,7 +2785,7 @@ const QUESTIONS = {
         "The identity of the solvent only, regardless of pressure"
       ],
       "correct": 0,
-      "explanation": "Henry's Law states that at constant temperature, the amount of gas dissolved in a liquid is directly proportional to the partial pressure of that gas above the liquid's surface—higher pressure pushes more gas into solution, lower pressure lets more escape. Choice D ignores pressure entirely, which is the central variable Henry's Law describes. Choice C (temperature only) misattributes the relationship to temperature, when Henry's Law specifically concerns pressure at constant temperature (temperature is a separate factor affecting solubility, but it's not what Henry's Law itself states proportionality to). Choice B (container volume) isn't part of the Henry's Law relationship at all; what matters is the partial pressure of the gas above the solution, not the container's overall volume."
+      "explanation": "Correct: the partial pressure of that gas above the solution. Henry's law says that, at a constant temperature, the concentration of a dissolved gas is proportional to the partial pressure of that gas above the liquid: S = kP. If the pressure of the gas is doubled, twice as much gas dissolves. At a higher pressure, more gas molecules collide with the surface and enter the liquid.\n\n(D) is wrong because the solvent matters for the value of the constant k, but Henry's law is about how solubility changes with pressure.\n(C) is wrong because temperature affects the solubility and the value of k, but the proportionality in Henry's law is with the partial pressure at a given temperature.\n(B) is wrong because the size of the container is not part of the relationship."
     },
     {
       "id": "3-73",
@@ -2798,7 +2798,7 @@ const QUESTIONS = {
         "Fizzing is completely unrelated to gas solubility at all."
       ],
       "correct": 0,
-      "explanation": "Soda is bottled/canned under high CO2 pressure, keeping a large amount of CO2 dissolved (Henry's Law). Opening the container suddenly drops the pressure above the liquid to atmospheric pressure, meaning much less CO2 can stay dissolved—the excess rapidly escapes as visible bubbles. Choice C is backwards: opening the can doesn't add CO2, it releases the pressure that was keeping dissolved CO2 in solution. Choice D is false; this is a textbook, well-understood application of gas solubility principles. Choice B incorrectly attributes the fizzing to a temperature increase—opening a can doesn't meaningfully change temperature, and even if it did, temperature isn't the primary driver here; the sudden pressure drop is."
+      "explanation": "Correct: opening the can drops pressure, lowering CO2 solubility, so it bubbles out. Soda is sealed under a high pressure of CO2 gas (a few atmospheres), so, by Henry's law, a large amount of CO2 is dissolved in the liquid. When the can is opened, the pressure above the liquid drops quickly to atmospheric pressure, where the CO2 pressure is much lower. The liquid then holds much more CO2 than it can at the new pressure, and the excess comes out of the solution as bubbles (the fizz).\n\n(C) is wrong because opening the can does not add CO2; it releases the pressure that kept the CO2 dissolved.\n(B) is wrong because the temperature does not rise noticeably when you open a can, and the cause is the pressure drop.\n(D) is wrong because fizzing is a direct application of gas solubility."
     },
     {
       "id": "3-74",
@@ -2864,7 +2864,7 @@ const QUESTIONS = {
         "1.50 × 10⁻⁶ Hz"
       ],
       "correct": 2,
-      "explanation": "ν = c/λ = (3.00 × 10<sup>8</sup> m/s) / (450 × 10<sup>−9</sup> m) = 6.67 × 10<sup>14</sup> Hz. Choice D (1.50 × 10<sup>−6</sup> Hz) results from inverting the formula (using λ/c instead of c/λ), giving a nonsensically tiny frequency. Choice B (3.33 × 10<sup>14</sup> Hz) is half the correct value, consistent with an arithmetic slip such as using 900 nm instead of 450 nm somewhere in the calculation. Choice A (1.35 × 10<sup>17</sup> Hz) is off by roughly a factor of 200, consistent with a units error (e.g., forgetting to convert nm to m correctly, effectively treating 450 nm as a value far smaller than it should be)."
+      "explanation": "Correct: 6.67 x 10<sup>14</sup> Hz. The frequency of light is given by the speed of light divided by the wavelength: frequency = c / wavelength. First convert the wavelength to meters: 450 nm = 450 x 10<sup>-9</sup> m = 4.50 x 10<sup>-7</sup> m. Then frequency = (3.00 x 10<sup>8</sup> m/s) / (4.50 x 10<sup>-7</sup> m) = 6.67 x 10<sup>14</sup> s<sup>-1</sup> (Hz). This is blue-violet light, and visible light has frequencies of about 4 to 8 x 10<sup>14</sup> Hz, which is a quick check.\n\n(D) is wrong because 1.50 x 10<sup>-6</sup> Hz comes from inverting the formula (wavelength divided by c), giving an absurdly small frequency.\n(B) is wrong because 3.33 x 10<sup>14</sup> Hz is half of the correct value, as if the wavelength had been 900 nm.\n(A) is wrong because 1.35 x 10<sup>17</sup> Hz is about 200 times too large, which suggests an error in the unit conversion from nanometers to meters."
     },
     {
       "id": "3-79",
@@ -2877,7 +2877,7 @@ const QUESTIONS = {
         "It decreases"
       ],
       "correct": 3,
-      "explanation": "Energy and wavelength are inversely proportional (E = hc/λ)—as wavelength increases, energy decreases. This is why long-wavelength radio waves are extremely low energy while short-wavelength gamma rays are extremely high energy. Choice B denies the well-established, always-consistent inverse relationship between these two quantities. Choice C reverses the actual direction of the relationship. Choice A ignores that E = hc/λ explicitly shows energy changing whenever wavelength changes, since h and c are constants."
+      "explanation": "Correct: it decreases. A photon's energy and its wavelength are inversely proportional: E = hc / wavelength, where h (Planck's constant) and c (the speed of light) are constants. A longer wavelength gives a smaller energy. That is why radio waves, with wavelengths of meters, have very low energy per photon, while gamma rays and X-rays, with tiny wavelengths, have very high energy. In the visible region, red light (about 700 nm) has less energy per photon than violet light (about 400 nm).\n\n(C) is wrong because it reverses the relationship.\n(A) is wrong because the equation shows that energy changes whenever the wavelength changes.\n(B) is wrong because the inverse relationship holds for all photons."
     },
     {
       "id": "3-80",
@@ -2890,7 +2890,7 @@ const QUESTIONS = {
         "Ejection of core electrons"
       ],
       "correct": 0,
-      "explanation": "IR radiation has energy in the right range to excite molecular bond vibrations (stretching, bending) rather than electron transitions (which need the higher energy of UV/visible light) or nuclear-level processes. Choice D (core electron ejection) requires much higher-energy radiation such as X-rays, not IR. Choice B (nuclear spin transitions) is probed by NMR, which uses radio-frequency radiation, a far lower energy range than IR. Choice C (electron transitions between energy levels) is what UV-visible spectroscopy probes, not IR—IR photons don't carry enough energy to promote most electronic transitions."
+      "explanation": "Correct: molecular bond vibrations and stretching. Infrared photons have just the right amount of energy to make the bonds in a molecule vibrate (stretch and bend). Each kind of bond vibrates at its own characteristic frequencies, so IR spectra identify functional groups: for example, a strong C=O stretch near 1700 cm<sup>-1</sup> or a broad O-H stretch near 3300 cm<sup>-1</sup>. Other kinds of spectroscopy match other energies: UV-visible photons promote electrons between energy levels, radio waves flip nuclear spins (NMR), and X-rays are energetic enough to eject core electrons.\n\n(B) is wrong because nuclear spin transitions are the subject of NMR, using radio waves.\n(C) is wrong because electron transitions need more energy, in the UV-visible region.\n(D) is wrong because ejecting core electrons needs the high energy of X-rays."
     },
     {
       "id": "3-81",
@@ -2903,7 +2903,7 @@ const QUESTIONS = {
         "2.68 × 10⁻⁶ m"
       ],
       "correct": 0,
-      "explanation": "Rearranging E = hc/λ for λ: λ = hc/E = (6.626 × 10<sup>−34</sup>)(3.00 × 10<sup>8</sup>) / (4.00 × 10<sup>−19</sup>) = 4.97 × 10<sup>−7</sup> m = 497 nm, which falls in the visible range. Choice B (1.66 × 10<sup>−27</sup> m) results from a serious unit/algebra error, effectively dividing by an extra large factor and landing at a physically nonsensical sub-nuclear length scale. Choice C (4.97 × 10<sup>−7</sup> nm) has the correct numerical digits but the wrong unit—reporting the answer in nm using the value that's actually correct only in meters, off by a factor of a billion. Choice D (2.68 × 10<sup>−6</sup> m) results from inverting the formula (using E/hc instead of hc/E), giving an incorrect wavelength value."
+      "explanation": "Correct: 497 nm. Solve E = hc / wavelength for the wavelength: wavelength = hc / E = (6.626 x 10<sup>-34</sup> J s)(3.00 x 10<sup>8</sup> m/s) / (4.00 x 10<sup>-19</sup> J) = 4.97 x 10<sup>-7</sup> m. Convert to nanometers (1 m = 10<sup>9</sup> nm): 4.97 x 10<sup>-7</sup> m = 497 nm. That is in the visible region (blue-green), which makes sense for a photon with an energy of about 4 x 10<sup>-19</sup> J.\n\n(B) is wrong because 1.66 x 10<sup>-27</sup> m is far too small to be a wavelength of visible-range energy; it comes from an algebra or unit error.\n(C) is wrong because 4.97 x 10<sup>-7</sup> nm has the correct digits but the wrong unit: that number is in meters, not nanometers.\n(D) is wrong because 2.68 x 10<sup>-6</sup> m results from inverting the formula (E divided by hc)."
     },
     {
       "id": "3-82",
@@ -2916,7 +2916,7 @@ const QUESTIONS = {
         "IR light actually has more energy than UV-visible light."
       ],
       "correct": 0,
-      "explanation": "Photon energy must closely match the specific energy gap of the process being probed for absorption to occur. Electron transitions require relatively large energy gaps, matched by UV-visible light's higher-energy, shorter-wavelength photons; bond vibrations require much smaller energy gaps, matched by IR's lower-energy, longer-wavelength photons. Choice C denies any real distinction, but the two regions clearly probe different molecular processes for a specific physical reason (energy matching). Choice D reverses the actual energy comparison—IR light has lower energy per photon than UV-visible light, not more. Choice B is simply false; UV-visible spectroscopy is a standard, widely used technique for studying molecules."
+      "explanation": "Correct: UV-visible photons carry more energy, matching electron transitions' larger gaps. A molecule absorbs a photon only if the photon's energy matches the gap between two energy levels. The gaps between electronic energy levels are large, so exciting an electron takes UV or visible light (short wavelengths, high energy). The gaps between vibrational levels of bonds are smaller, so infrared photons (longer wavelengths, lower energy) are enough to cause vibrations. Each region of the spectrum therefore gives different information about a molecule.\n\n(D) is wrong because IR photons have LESS energy than UV-visible photons, not more.\n(C) is wrong because the two regions probe different processes for the reason given above.\n(B) is wrong because UV-visible spectroscopy is widely used to study molecules."
     },
     {
       "id": "3-83",
@@ -2929,7 +2929,7 @@ const QUESTIONS = {
         "Infrared, visible, UV, X-ray, radio"
       ],
       "correct": 1,
-      "explanation": "From shortest to longest wavelength (highest to lowest energy), the EM spectrum runs: gamma rays, X-rays, UV, visible, infrared, microwave, radio—so X-ray → UV → visible → infrared → radio is the correct order of increasing wavelength among these five regions. Choice A starts with radio (the longest wavelength of the group) and ends with X-ray (the shortest), which is the order of decreasing, not increasing, wavelength. Choice C and choice D both scramble the regions out of their correct relative order (for instance, placing visible before X-ray, or UV after visible), rather than following the true wavelength progression."
+      "explanation": "Correct: X-ray, UV, visible, infrared, radio. The electromagnetic spectrum, from the shortest wavelength (highest energy and frequency) to the longest, is: gamma rays, X-rays, ultraviolet (UV), visible light, infrared (IR), microwaves, and radio waves. Of the five regions in this question, the order of increasing wavelength is therefore X-ray, UV, visible, infrared, radio. Remember that as the wavelength increases, the frequency and the photon energy decrease.\n\n(A) is wrong because it lists the regions in order of DEcreasing wavelength, from radio to X-ray. (C) and (D) are wrong because they mix up the order of the regions and do not follow a steady change in wavelength."
     },
     {
       "id": "3-84",
@@ -2942,7 +2942,7 @@ const QUESTIONS = {
         "Only PES (photoelectron spectroscopy) works for both purposes"
       ],
       "correct": 0,
-      "explanation": "IR spectroscopy's photon energies match bond vibration energy gaps, making it the standard tool for identifying functional groups; UV-visible spectroscopy's higher-energy photons match electronic transition energy gaps (like HOMO-LUMO gaps), making it appropriate for probing electronic structure. Choice B swaps the two techniques' roles, which mismatches each spectroscopy's photon energy range to the wrong type of molecular information (UV-vis photons are too energetic to selectively probe vibrations the way IR does, and IR photons are too weak to promote the electronic transitions UV-vis targets). Choice D (PES for both) and choice C (radio waves for both) each pick a single technique that isn't well-matched to both tasks—PES specifically measures orbital binding energies, not vibrations, and radio waves lack the energy for either functional-group vibrations or electronic transitions (radio frequencies are suited to nuclear spin, as in NMR)."
+      "explanation": "Correct: IR spectroscopy for functional groups; UV-visible spectroscopy for the electronic energy gap. IR photons match the energies of bond vibrations, and each functional group has characteristic absorptions, so IR spectroscopy shows whether a C=O (about 1700 cm<sup>-1</sup>) or an O-H (a broad band near 3300 cm<sup>-1</sup>) is present. UV-visible photons match the larger gaps between electronic energy levels, so the wavelength of maximum absorption gives information about the HOMO-LUMO gap (for example, molecules with longer conjugated systems have smaller gaps and absorb longer wavelengths).\n\n(B) is wrong because it swaps the two roles, and each technique would be used with the wrong type of photon energy.\n(D) is wrong because photoelectron spectroscopy measures the binding energies of electrons in orbitals and does not identify functional groups.\n(C) is wrong because radio waves are used for NMR (nuclear spin) and do not have the energy for vibrations or electronic transitions."
     },
     {
       "id": "3-85",
@@ -3007,7 +3007,7 @@ const QUESTIONS = {
         "The exact same energy in both cases."
       ],
       "correct": 1,
-      "explanation": "The n=3 to n=1 transition spans a larger energy gap than the n=2 to n=1 transition, and a larger energy gap means the emitted photon carries more energy—so the n=2 to n=1 transition, spanning the smaller gap, emits the lower-energy photon of the two. Choice C has the comparison backwards, claiming the smaller-gap transition (n=2 to n=1) is higher energy than the larger-gap one (n=3 to n=1). Choice D ignores that these are genuinely different transitions spanning different energy gaps, so their photon energies can't be equal. Choice A is wrong because hydrogen's energy levels (and thus these specific transition energies) are well-defined and calculable, not incomparable without further information."
+      "explanation": "Correct: lower energy, since n=3 to n=1 is a larger transition. The energy of a hydrogen atom's level n is E(n) = -2.18 x 10<sup>-18</sup> J / n<sup>2</sup>. For n = 3 to n = 1, the photon energy is 2.18 x 10<sup>-18</sup> x (1 - 1/9) = 1.94 x 10<sup>-18</sup> J. For n = 2 to n = 1 it is 2.18 x 10<sup>-18</sup> x (1 - 1/4) = 1.63 x 10<sup>-18</sup> J. A bigger energy gap between the two levels gives a higher-energy photon, so the 2-to-1 transition has the lower energy of the two.\n\n(C) is wrong because it states the comparison backwards: the 3-to-1 transition spans the larger gap and gives the higher-energy photon, so the 2-to-1 photon cannot be the higher-energy one.\n(D) is wrong because the two transitions have different energy gaps.\n(A) is wrong because hydrogen's energy levels are well defined, so the comparison can be made."
     },
     {
       "id": "3-90",
@@ -4109,7 +4109,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 1,
-      "explanation": "Doubling [A] (0.10→0.20) causes rate to quadruple (0.0050→0.0200, factor of 4). Since 2ᵐ = 4, m = 2, so the reaction is second order in A. Choice C (order 3) would require an 8-fold rate increase (2³) upon doubling [A], but the data show only a 4-fold increase. Choice D (order 0) would mean rate is unaffected by [A], contradicted by the clear change observed. Choice A (order 1) would predict only a 2-fold rate increase upon doubling [A] — a common mistake of reading off the concentration-doubling factor itself rather than solving 2^m = (rate factor)."
+      "explanation": "Doubling [A] (0.10→0.20) causes rate to quadruple (0.0050→0.0200, factor of 4). Since 2ᵐ = 4, m = 2, so the reaction is second order in A. Choice C (order 3) would require an 8-fold rate increase (2³) upon doubling [A], but the data show only a 4-fold increase. Choice D (order 0) would mean rate is unaffected by [A], contradicted by the clear change observed. Choice A (order 1) would predict only a 2-fold rate increase upon doubling [A] — a common mistake of reading off the concentration-doubling factor itself rather than solving 2<sup>m</sup> = (rate factor)."
     },
     {
       "id": "5-8",
@@ -4187,7 +4187,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 1,
-      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2^1.5 × 2^0.5 = 2^(1.5+0.5) = 2² = 4. Choice D (2) would follow only if the overall order were treated as 1 with a single doubled variable, ignoring the actual fractional exponents entirely. Choice C (2.83 ≈ 2^1.5) correctly captures A's contribution but omits B's, as if B were zero order. Choice A (5.66 ≈ 2^2.5) overcounts B's contribution, effectively treating B as first order (an extra factor of 2^1) instead of half order (2^0.5) — this shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
+      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2<sup>1</sup>.5 × 2<sup>0</sup>.5 = 2^(1.5+0.5) = 2² = 4. Choice D (2) would follow only if the overall order were treated as 1 with a single doubled variable, ignoring the actual fractional exponents entirely. Choice C (2.83 ≈ 2<sup>1</sup>.5) correctly captures A's contribution but omits B's, as if B were zero order. Choice A (5.66 ≈ 2<sup>2</sup>.5) overcounts B's contribution, effectively treating B as first order (an extra factor of 2<sup>1</sup>) instead of half order (2<sup>0</sup>.5) — this shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
       "stretch": true
     },
     {
@@ -4893,7 +4893,7 @@ const QUESTIONS = {
         "≈ 9.75 × 10⁻¹ s⁻¹"
       ],
       "correct": 1,
-      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e^2.389 ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
+      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e<sup>2</sup>.389 ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
     }
   ],
   "6": [
@@ -7403,7 +7403,7 @@ const QUESTIONS = {
         "1:10"
       ],
       "correct": 2,
-      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10^1.00 = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
+      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10<sup>1</sup>.00 = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
     },
     {
       "id": "8-57",
@@ -7901,7 +7901,7 @@ const QUESTIONS = {
         "−25.0"
       ],
       "correct": 2,
-      "explanation": "Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e^10.09=2.41×10⁴. ‘1.01×10⁻⁴’ and ‘8.4×10⁻⁵’ both give K<1, which would incorrectly pair a negative ΔG° (favorable, K>1 expected) with a small K — a sign-handling error in the exponent. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
+      "explanation": "Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e<sup>10</sup>.09=2.41×10⁴. ‘1.01×10⁻⁴’ and ‘8.4×10⁻⁵’ both give K<1, which would incorrectly pair a negative ΔG° (favorable, K>1 expected) with a small K — a sign-handling error in the exponent. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
     },
     {
       "id": "9-27",
