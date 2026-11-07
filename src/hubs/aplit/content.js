@@ -118,7 +118,7 @@ const QUESTIONS = {
           "That she has firmly and consistently committed to a small wedding throughout, a claim nothing later in the passage, including her mother's ongoing skepticism, actually undermines."
         ],
         "correct": 0,
-        "explanation": "This is indirect characterization: Delia's repeated insistence on 'small' directly contradicts her own expanding, secretly-maintained guest list of eighty-three names, revealing self-deception or conflict avoidance rather than the honesty her words claim. Choice D wrongly claims the passage supports her claim being true; the guest list explicitly undermines it. Choice B misreads Tom's final question, whose careful tone signals he already suspects the truth, not ignorance of it. Choice C misplaces the doubt onto the mother, when the passage's irony centers on Delia's own self-contradiction, not her mother's judgment."
+        "explanation": "Correct: (A) it indirectly characterizes her through the gap between claim and secret list. Indirect characterization means the author reveals personality through actions, gestures, and contradictions instead of stating traits outright. Delia says the wedding will be \"small, intimate, exactly what she and Tom wanted,\" and tells her mother \"We're happy with small,\" yet she opens \"the real one, not the one she showed anyone,\" and the list \"had grown to eighty-three people.\" The stem's phrase \"later details\" points to this contradiction, which exposes her real conflict.\n\n(B) is wrong because it claims Tom is unaware of the list, but his \"light, careful\" question suggests he already knows, and the stem asks what her insistence reveals about her, not about Tom.\n(C) is wrong because it says her mother misjudged the size, yet the passage shows the mother is the one pressing for a larger wedding and Delia's own list is what grows.\n(D) is wrong because it claims Delia is firmly committed to a small wedding, which the eighty-three names and her penciling and erasing directly undermine."
       },
       {
         "id": "1-2",
@@ -131,7 +131,7 @@ const QUESTIONS = {
           "It signals a physical injury serious enough to need medical attention."
         ],
         "correct": 2,
-        "explanation": "This quiet, self-inflicted gesture during a moment of verbally-claimed calm indirectly characterizes suppressed stress, contradicting her assurance that she's 'happy with small.' Choice D overstates the detail into an injury the text doesn't support — it's a faint 'white crescent,' not a wound. Choice A dismisses a detail the passage clearly ties to her stress, appearing right as she repeats her reassurance for the eleventh time. Choice B misreads a stress habit as general carelessness, when nothing else in the passage suggests Delia is accident-prone."
+        "explanation": "Correct: (C) a small, controlled self-soothing action that betrays suppressed tension. A telling physical detail is a gesture that reveals emotion the character is trying to hide, which is a form of indirect characterization. Delia says \"It's fine, Mom\" and \"We're happy with small\" in a calm voice, but at the same moment she is \"pressing her thumbnail into the soft pad of her index finger until it left a small white crescent.\" The stem's wording, 'most directly reveal,' asks what the gesture shows, and the contrast between calm speech and pressure on her own skin shows anxiety held beneath the surface.\n\n(A) is wrong because it calls the detail incidental scene-setting, yet it appears exactly as she repeats her reassurance for the eleventh time, so it is tied to her state of mind.\n(B) is wrong because it reads the gesture as carelessness, but nothing else in the passage suggests she is accident-prone, and the action is deliberate.\n(D) is wrong because it turns a faint \"small white crescent\" into a serious injury needing medical attention, which the text never suggests."
       },
       {
         "id": "1-3",
@@ -144,7 +144,7 @@ const QUESTIONS = {
           "It reveals Tom genuinely has no opinion either way about how large the wedding turns out to be in the end."
         ],
         "correct": 2,
-        "explanation": "The narrator's explicit description of his tone as 'deliberately uninterested in being a fight' signals Tom suspects the truth and is choosing restraint over confrontation, paralleling Delia's own conflict-avoidance. Choice A contradicts the text's own framing — 'deliberately' implies awareness, not ignorance. Choice D ignores that a genuinely indifferent question wouldn't need such a carefully controlled tone. Choice B misreads 'careful' and 'light' as anger, when those words describe restraint, the opposite of building toward a fight."
+        "explanation": "Correct: (C) Tom likely knows about the discrepancy and is choosing a careful, non-confrontational approach. A narrator's description of tone can show what a character knows without stating it. Tom asks \"How's the small wedding coming?\" while \"not looking up from the dishes,\" and his voice is \"light, careful, deliberately uninterested in being a fight.\" The word \"deliberately\" shows his calm is chosen, and the narrator adds that it \"told her he already knew,\" so the clue words in the stem point to awareness plus restraint.\n\n(A) is wrong because it says Tom has no idea the list has grown, which the phrase \"he already knew\" directly contradicts.\n(B) is wrong because it reads his tone as anger building toward a fight, while \"light\" and \"careful\" describe restraint and the passage says he is uninterested in a fight.\n(D) is wrong because it claims Tom has no opinion about the size, but a truly indifferent person would not need such a carefully controlled tone, and his wording about the \"small\" wedding is pointed."
       },
       {
         "id": "1-4",
@@ -157,7 +157,7 @@ const QUESTIONS = {
           "It shows Tom does not care about the wedding's actual size at all."
         ],
         "correct": 1,
-        "explanation": "Ending on implied rather than explicit confrontation extends the passage's consistent pattern of indirect communication — tension existing beneath a controlled surface — reinforcing how both characters have been characterized throughout. Choice D misreads Tom's careful tone as indifference, when 'deliberately uninterested in being a fight' implies real awareness and restraint, not apathy. Choice A gets the relationship backwards — the ending is consistent with, not opposed to, the passage's established indirection. Choice C undersells the choice: leaving the confrontation unstated is itself meaningful, extending rather than abandoning the passage's technique."
+        "explanation": "Correct: (B) it maintains the passage's pattern of indirect communication between the two characters. Indirection means meaning conveyed beneath the surface, through tone, hints, and unsaid things, instead of through open statement. All through the excerpt Delia avoids the truth: she tells her mother \"It's fine, Mom,\" hides the real list, and \"closed the laptop before Tom got home.\" Tom, in turn, asks about the \"small wedding\" in a voice \"deliberately uninterested in being a fight.\" Ending on what Tom knows, not on a spoken argument, continues the same pattern of tension under a controlled surface.\n\n(A) is wrong because it says the ending contradicts the established dynamic, when it actually fits the restrained, indirect dynamic of the whole passage.\n(C) is wrong because it says the ending adds no meaning, but leaving the confrontation unspoken is itself meaningful and shows both characters avoiding conflict.\n(D) is wrong because it claims Tom does not care about the size, yet his careful tone and the line that he \"already knew\" show real awareness and effort."
       },
       {
         "id": "1-5",
@@ -170,7 +170,7 @@ const QUESTIONS = {
           "The guest list detail has no real bearing on how the passage characterizes Delia, existing only as a minor logistical afterthought in an otherwise character-focused scene."
         ],
         "correct": 2,
-        "explanation": "The specific, escalating detail — eighty-three names penciled in, erased, and penciled in again — provides concrete indirect evidence of internal conflict between Delia's stated wishes and felt social obligation. Choice D ignores that this is the passage's central piece of characterizing evidence. Choice A treats the list as mere setting when it functions as psychological evidence, not backdrop. Choice B overstates her dishonesty as calculated; the erased-and-repenciled names suggest genuine uncertainty, not settled deception."
+        "explanation": "Correct: (C) the escalating, secretly revised guest list is concrete indirect evidence of Delia's real internal conflict. Concrete detail used for characterization shows a character's inner state through specific, observable facts. The narrator tells us Delia penciled in \"then erased, then penciled in again\" the names of three cousins, and that \"The list had grown to eighty-three people\" while she tells everyone the wedding is small. The repeated adding and erasing shows her pulled between what she says she wants and what social obligation makes her feel, and the stem asks for exactly this relationship between detail and character.\n\n(A) is wrong because it says the list only shows how she spends her afternoons, but the passage uses it to reveal her feelings, not her schedule.\n(B) is wrong because it calls her deliberately and calculatedly dishonest with no genuine conflict, while the penciling, erasing, and penciling again shows uncertainty and not a settled plan to deceive.\n(D) is wrong because it calls the list a minor logistical afterthought, when it is the passage's central evidence of the gap between her words and her private behavior."
       },
       {
         "id": "2-1",
@@ -183,7 +183,7 @@ const QUESTIONS = {
           "It is a detail unrelated to the passage's broader mood or meaning."
         ],
         "correct": 2,
-        "explanation": "The fading from red to 'tired pink' is a visual marker of extended time passing, reinforcing the passage's broader atmosphere of neglect and stagnation. Choice A contradicts the detail's plain meaning — fading paint signals disuse, not renovation. Choice D dismisses a detail the passage clearly uses to establish mood, alongside the overgrown lawn and unofficial parking. Choice B reduces a deliberately evocative detail to mere material fact, missing its atmospheric function."
+        "explanation": "Correct: (C) it marks extended time passing and reinforces the atmosphere of neglect. Imagery of decay is a concrete sensory detail that shows time and condition without stating them. The passage says the house \"had been for sale for eleven months, long enough that the realtor's sign had faded from red to a tired pink.\" The phrase \"long enough\" and the personified \"tired\" show that the sign has aged unattended, which matches the lawn that \"had given up being a lawn.\"\n\n(A) is wrong because fading paint shows weathering over many months, not a recent renovation, and nothing in the passage mentions any repair.\n(B) is wrong because the passage never discusses paint chemistry; the color change is there to show duration and the word \"tired\" adds mood.\n(D) is wrong because the detail is tied to the \"eleven months\" timeline and the lawn turning into a field, so it clearly supports the broader mood of abandonment."
       },
       {
         "id": "2-2",
@@ -196,7 +196,7 @@ const QUESTIONS = {
           "It simply indicates the house is dirty and in need of a thorough cleaning."
         ],
         "correct": 2,
-        "explanation": "This image blends literal domestic detail (dust outlines) with a suggestion of haunting or persistent loss, letting the house's emptiness register as absence rather than mere vacancy. Choice D reduces a deliberately evocative image to mundane housekeeping, missing its figurative work. Choice A misreads the dust patterns exactly backwards — they mark furniture that is gone, not newly arrived. Choice B directly contradicts the passage's established eleven-month vacancy."
+        "explanation": "Correct: (C) the house retains a kind of physical memory of its former occupants and their absence. Personification and absence imagery let a setting hold traces of people who are gone. The passage describes dust that \"had settled into the shape of furniture that was no longer there — a paler rectangle on the living room carpet where a couch had sat for thirty years,\" and then states that \"The house remembered its former occupants more precisely than most of the neighbors did anymore.\" The shapes record what once stood there, so the house itself acts as memory.\n\n(A) is wrong because the furniture is described as \"no longer there,\" so nothing new has been delivered, and the dust shows only absence.\n(B) is wrong because the house has been empty and for sale for eleven months, so it is not currently occupied by a family.\n(D) is wrong because it reads the dust only as dirtiness, but the narrator calls the shapes memory of the former occupants, giving them emotional meaning beyond a cleaning problem."
       },
       {
         "id": "2-3",
@@ -209,7 +209,7 @@ const QUESTIONS = {
           "It has no symbolic function and is simply a realistic detail about aging electrical wiring."
         ],
         "correct": 0,
-        "explanation": "The light is explicitly called 'a small persistent signal to no one in particular,' directly signaling the text's own symbolic framing of unresolved absence and expectation. Choice C has no textual support — nothing connects the light to the realtor's efforts. Choice B is unsupported and, if anything, ironic — the light burns precisely because no one has arrived. Choice D dismisses a detail the passage itself editorializes about, missing the clearest symbolic signal in the excerpt."
+        "explanation": "Correct: (A) it symbolizes a persistent, now-meaningless gesture of welcome or intended return. A symbol is a concrete object that stands for an abstract idea. The porch light was left on \"the last week the old man lived there,\" and it \"burned quietly through eleven months of empty afternoons, a small persistent signal to no one in particular that someone, once, had meant to come home.\" The words \"signal to no one\" and \"meant to come home\" show that the light is a welcome with nobody left to welcome.\n\n(B) is wrong because no new owners are mentioned, and the light signals to \"no one in particular,\" not an imminent arrival.\n(C) is wrong because the realtor appears only through the faded sign, and the light was left on by the old man, not used for marketing.\n(D) is wrong because the passage gives the light emotional meaning with phrases like \"meant to come home\" and never mentions wiring, so it is clearly symbolic."
       },
       {
         "id": "2-4",
@@ -222,7 +222,7 @@ const QUESTIONS = {
           "It suggests the neighbors are behaving illegally, in a way the passage clearly condemns through its narrator."
         ],
         "correct": 2,
-        "explanation": "The casual, unofficial use of the driveway suggests the house's exterior is being quietly absorbed into ordinary neighborhood life even as its interior remains frozen — a tension between external forgetting and internal persistence. Choice A undersells a detail the passage develops with deliberate phrasing ('the way people claim a space nobody's using'). Choice D reads judgment into a description that is notably neutral about the neighbors. Choice B misunderstands the detail's role — it extends, rather than contradicts, the theme of neglect, just from the outside in."
+        "explanation": "Correct: (C) it suggests a quiet erosion of the house's significance as its space is absorbed into ordinary use. The simile and the word \"unofficially\" show a gradual, informal change in how people treat the property. The passage says neighbors \"had taken to parking their extra cars in its driveway, unofficially, the way people claim a space nobody's using.\" The house is now treated like an unused patch of ground, which shows its former importance fading as the community moves on.\n\n(A) is wrong because the detail follows the faded sign and the lawn turned field and adds to the idea of abandonment, so it does affect the overall atmosphere.\n(B) is wrong because using the driveway as free space is further evidence of neglect, not a contradiction of it.\n(D) is wrong because \"unofficially\" is a mild, non-judgmental word, and the narrator never condemns the neighbors or calls their parking illegal."
       },
       {
         "id": "2-5",
@@ -235,7 +235,7 @@ const QUESTIONS = {
           "The accumulated details accomplish nothing that a general statement of mood wouldn't accomplish just as well."
         ],
         "correct": 1,
-        "explanation": "Letting readers arrive at 'sad and empty' through accumulated specifics — the sign, the dust, the light — is more persuasive and immersive than simply asserting a mood, since the reader effectively convinces themselves. Choice C treats purposeful craft as mere padding. Choice A is unsupported; the details are mutually reinforcing, not contradictory. Choice D flattens a real technique into a distinction without a difference, ignoring how much more vivid the specific version is."
+        "explanation": "Correct: (B) the concrete details let the reader infer the atmosphere through accumulated evidence rather than being told directly. Showing versus telling means an author presents specific sensory evidence and lets readers draw the emotional conclusion themselves. The passage offers a sign faded \"from red to a tired pink,\" dust shaped like a couch that sat there \"for thirty years,\" and a porch light that burned \"through eleven months of empty afternoons.\" Together these prove loneliness without the narrator announcing it, which is what the stem contrasts with a general statement like 'the house felt sad and empty.'\n\n(A) is wrong because the details all point the same way, toward abandonment and absence, so they reinforce one another instead of causing confusion.\n(C) is wrong because the details are chosen for meaning and mood, not to lengthen the text.\n(D) is wrong because a flat statement of mood would lose the specific images, like the pale rectangle and the lit porch, that make the loss felt."
       },
       {
         "id": "3-1",
@@ -248,7 +248,7 @@ const QUESTIONS = {
           "It reflects simple carelessness or forgetfulness about a task he had just completed."
         ],
         "correct": 1,
-        "explanation": "Coiling then immediately uncoiling a rope 'he did not need to coil' is a displacement activity, revealing unresolved anxiety channeled into repetitive motion during a difficult conversation, echoing the spice-rack technique this unit's guide introduces. Choice C misreads purposeless repetition as incompetence, when the detail is psychological rather than technical. Choice A dismisses a detail the passage times precisely to Eli's emotionally loaded question. Choice D mistakes deliberate, repeated fidgeting for simple absent-mindedness."
+        "explanation": "Correct: (B) a displacement activity revealing nervous tension channeled into repetitive physical action. A displacement activity is a pointless action a person does to release stress they cannot express directly. Eli was \"coiling a line he did not need to coil,\" and later he \"set down the rope he'd finished coiling and started, without quite meaning to, uncoiling it again.\" The phrase \"without quite meaning to\" shows the action is unconscious nervous energy during the tense silence with his brother.\n\n(A) is wrong because the passage itself says the coiling was unnecessary, which marks it as meaningful characterization instead of routine boating.\n(C) is wrong because nothing suggests inexperience; the issue is that he coils a rope that is already done, driven by emotion.\n(D) is wrong because forgetfulness would not explain the earlier coiling \"he did not need to coil,\" and the repeated action is tied to the brothers' unresolved tension, not memory."
       },
       {
         "id": "3-2",
@@ -261,7 +261,7 @@ const QUESTIONS = {
           "It introduces an entirely new, unrelated topic into the brothers' conversation."
         ],
         "correct": 0,
-        "explanation": "Sam's response retreats into a flat, literal technicality instead of engaging with Eli's emotional point, revealing discomfort with direct emotional engagement through dialogue alone. Choice D misses that the line responds directly to, rather than departs from, Eli's statement. Choice C gets the tone backwards — the line deflects and undercuts Eli's point rather than affirming it. Choice B dismisses a moment the passage clearly uses to characterize Sam's guardedness."
+        "explanation": "Correct: (A) it functions as a blunt, defensive deflection, retreating to literal technicality instead of engaging emotionally. Deflection in dialogue means answering a feeling-laden remark with a cold fact to avoid the feeling. Eli says \"Dad would have hated this. Us, not talking,\" which opens an emotional topic, and Sam answers \"Dad's not here to hate anything.\" Sam's literal, curt reply shuts the door on the subject and shows his guardedness after six years of silence.\n\n(B) is wrong because the line sharply characterizes Sam as defensive and emotionally closed, so it clearly has an effect.\n(C) is wrong because Sam does not agree with or build on Eli's point; he dismisses it, and the next lines show the tension remains.\n(D) is wrong because Sam responds directly to Eli's comment about their father, so he does not change the topic to something unrelated."
       },
       {
         "id": "3-3",
@@ -274,7 +274,7 @@ const QUESTIONS = {
           "It contradicts the passage's central themes of withholding and reticence."
         ],
         "correct": 1,
-        "explanation": "Describing the water as 'giving nothing away' mirrors the brothers' own emotional guardedness and the passage's structural refusal to resolve clearly, aligning setting with character and theme. Choice D has the relationship backwards — the description reinforces rather than contradicts the passage's core concerns. Choice A ignores the phrase's clearly evocative, non-technical language. Choice C dismisses a deliberate echo between description and the brothers' behavior."
+        "explanation": "Correct: (B) it parallels the brothers' guarded emotional states and the passage's withholding of resolution. A setting detail can mirror a character's inner life through pathetic fallacy or parallel. Eli \"looked at the water, gray and moving, giving nothing away,\" just as the brothers give nothing away to each other after six years without speaking, and as the story ends without telling whether going out was \"the plan.\" The phrase \"giving nothing away\" ties the water to their reticence.\n\n(A) is wrong because the description has no scientific purpose and its phrase \"giving nothing away\" adds figurative meaning.\n(C) is wrong because the water echoes the guarded tone of the dialogue and the unresolved ending, so it does relate to the rest of the passage.\n(D) is wrong because the water's reticence supports, instead of opposing, the themes of withholding and silence that run through the brothers' scene."
       },
       {
         "id": "3-4",
@@ -287,7 +287,7 @@ const QUESTIONS = {
           "It suggests the passage has no real thematic content to offer at all."
         ],
         "correct": 2,
-        "explanation": "Leaving 'whether that was the plan' unstated deliberately withholds resolution, locating the passage's interest in the brothers' shared, silent decision to keep going rather than in any declared outcome — the kind of meaningful ambiguity this unit's guide discusses. Choice A mistakes a deliberate craft choice for an unfinished manuscript. Choice B confuses narratorial uncertainty with a chosen technique — the narrator knows and withholds, rather than not knowing. Choice D ignores that withheld resolution is itself thematically significant."
+        "explanation": "Correct: (C) it deliberately withholds resolution, locating the interest in the brothers' shared, unspoken choice to continue. An open ending leaves the outcome unstated so that meaning lies in what characters do rather than what they say. The final lines read \"Neither of them moved to change course. The shoreline behind them grew smaller. Neither of them said whether that was the plan.\" The repeated \"Neither\" shows a joint, silent decision to keep going, which fits the brothers' pattern of avoiding direct statements.\n\n(A) is wrong because the ending is a crafted final beat that echoes the earlier silence, not a missing section.\n(B) is wrong because the narrator clearly controls the story and reports precisely what the brothers do; the withholding is a choice within the characters, not lost track of the plot.\n(D) is wrong because the ending is rich with theme, including estrangement, grief, and tentative reconciliation, so the claim of no thematic content fails."
       },
       {
         "id": "3-5",
@@ -300,7 +300,7 @@ const QUESTIONS = {
           "It can be read as symbolically paralleling the brothers' movement into difficult, previously avoided emotional territory."
         ],
         "correct": 3,
-        "explanation": "Moving further from shore, away from safety, parallels the brothers moving further into difficult emotional territory they've avoided for six years — literal and emotional distance developing together. Choice A misreads a symbolically loaded choice as merely a navigational detail. Choice C dismisses the clear thematic echo between 'going out' and confronting rather than avoiding their grief. Choice B misunderstands the relationship — continuing outward extends rather than contradicts the passage's central tension."
+        "explanation": "Correct: (D) it can be read as symbolically paralleling the brothers' movement into difficult, previously avoided emotional territory. Symbolic action means a physical movement stands for an inner change. After Sam says \"I could turn us back,\" and the narrator notes \"It wasn't clear if he meant the boat,\" Eli proposes \"we could just keep going out and see what's still there.\" Going farther from shore mirrors facing the painful topic of their father and six silent years.\n\n(A) is wrong because Sam's steering is not criticized, and the choice to continue is made jointly, so it does not reflect poor navigation.\n(B) is wrong because continuing out actually supports the tension by showing both brothers moving toward confrontation with their estrangement.\n(C) is wrong because Sam's line about turning back is openly double-meaning, so the direction of the boat is plainly tied to more than the route."
       },
       {
         "id": "4-1",
@@ -313,7 +313,7 @@ const QUESTIONS = {
           "It has no meaningful relationship to how the passage handles narrative distance."
         ],
         "correct": 1,
-        "explanation": "The qualifying phrase signals a gap between the external, dollar-value truth told to the adjuster and the narrator's fuller private experience, exactly the within-first-person distance-shifting this unit's guide covers. Choice D ignores that the phrase is precisely where narrative distance becomes visible in the text. Choice A is contradicted by the rich interior life the rest of the passage reveals. Choice C misreads a phrase that signals incompleteness, not honesty."
+        "explanation": "Correct: (B) it signals a gap between what the narrator tells the adjuster and what he privately experiences. Narrative distance is the gap between a narrator's outward statements and inner reality, and in first person it can show concealment. The narrator says the fire \"had taken everything, which was true in the way that mattered to him — dollar amounts, replacement values, a checklist of rooms.\" The qualifier \"in the way that mattered to him\" shows that the narrator's private truth is different, and he later lists what he \"did not say.\"\n\n(A) is wrong because the narrator has a rich interior life, shown by his memory of the photograph and his unresolved choice during the fire.\n(C) is wrong because the qualifier shows he is being only partly honest, and he later says \"I did not tell him about the drawer.\"\n(D) is wrong because the statement is exactly where the passage sets up the gap between public and private, so it bears directly on narrative distance."
       },
       {
         "id": "4-2",
@@ -326,7 +326,7 @@ const QUESTIONS = {
           "It is a detail unrelated to the passage's central themes of loss and disclosure."
         ],
         "correct": 0,
-        "explanation": "A drawer that 'had stuck for years' is the kind of detail only someone intimately familiar with a space would know, grounding the theme of private, unspoken loss in something concrete. Choice B misreads an intimate, affectionate detail as a complaint about upkeep. Choice C isolates a minor mechanical fact from its actual narrative purpose. Choice D dismisses a detail the passage builds its central image — the photograph inside — directly around."
+        "explanation": "Correct: (A) it is a small, private detail that grounds the larger theme of hidden, unspoken loss in something concrete. A concrete detail makes an abstract theme tangible. The narrator says he did not tell the adjuster \"about the drawer in the kitchen, the one that had stuck for years, that held exactly one photograph of my father laughing.\" The drawer that sticks suggests a habit of private return, and the narrator opens it \"perhaps once a year\" to check the photograph, which makes the unspoken grief physical.\n\n(B) is wrong because the stuck drawer is mentioned as the home of a treasured photograph, and the passage never criticizes his housekeeping.\n(C) is wrong because the passage never discusses construction quality; the drawer matters for what it held.\n(D) is wrong because the drawer is the first example of what the narrator conceals from the adjuster, tying it directly to the central themes of loss and disclosure."
       },
       {
         "id": "4-3",
@@ -339,7 +339,7 @@ const QUESTIONS = {
           "It has no particular effect on the passage's narrative technique."
         ],
         "correct": 0,
-        "explanation": "Revealing 'what I did not say' closes the gap between narrator and reader precisely when the gap from the adjuster is widest, granting the reader privileged access another character is denied. Choice C misunderstands the technique — this move is a natural extension of first-person narration, not a break from it. Choice B has no textual support; the narrator is clear and deliberate about what he withheld. Choice D dismisses a moment the passage builds its central tension around."
+        "explanation": "Correct: (A) it explicitly closes narrative distance with the reader right when distance from the adjuster is greatest. Narrative distance is how close the narrator lets the audience come to his inner thoughts. To the adjuster the narrator says only that he lost \"mostly just furniture,\" but then the narration turns to \"What I did not say,\" revealing the yearly drawer checks and the choice to \"save nothing.\" The reader gets the private truth that the adjuster is denied, which is the contrast the stem names.\n\n(B) is wrong because the narrator recalls the evening precisely, down to the \"space between the fire alarm and the front lawn,\" and is not confused.\n(C) is wrong because first-person narration naturally lets a narrator confide in the reader, so this fits the point of view.\n(D) is wrong because the sentence marks a turn from public statement to private confession, which strongly shapes the passage's technique."
       },
       {
         "id": "4-4",
@@ -352,7 +352,7 @@ const QUESTIONS = {
           "It extends the passage's insurance-claim framework metaphorically to an unresolved, internal emotional reckoning."
         ],
         "correct": 3,
-        "explanation": "Extending 'file a claim' to an internal decision he's 'still making sense of' figuratively applies the passage's insurance vocabulary to grief no official form could capture. Choices B and C both take the claim-language literally, when the context makes clear no actual claim is being filed. Choice A denies a deliberate, carefully placed figurative move the passage builds toward across the whole excerpt."
+        "explanation": "Correct: (D) it extends the passage's insurance-claim framework metaphorically to an unresolved, internal emotional reckoning. A metaphor carries a term from one realm into another to express an idea. The narrator ends by saying the choice to run, \"more than the house, was what I hadn't yet found a way to file a claim for.\" Filing a claim is the adjuster's language of compensation for loss, and here it stands for finding a place to acknowledge and process an inner loss no form can cover.\n\n(A) is wrong because the phrase does carry strong figurative meaning, since there is nothing about the choice to run that an insurer could pay for.\n(B) is wrong because no dispute with the insurance company is described; the adjuster merely writes down his answers.\n(C) is wrong because the narrator says he cannot find a way to claim it, so he does not plan an additional literal claim; the claim is figurative."
       },
       {
         "id": "4-5",
@@ -365,7 +365,7 @@ const QUESTIONS = {
           "The pattern directly enacts the passage's theme about official systems' inadequacy to capture inner loss."
         ],
         "correct": 3,
-        "explanation": "Who gets told what — controlled information for the adjuster, full access for the reader — enacts the very theme it explores, the gap between quantifiable, official accounting and actual, unquantifiable grief. Choice B dismisses a structural alignment the passage sustains throughout. Choice C treats a purposeful technique as decorative, when it does real thematic work. Choice A misreads the relationship entirely — the pattern supports, rather than undercuts, the passage's meaning."
+        "explanation": "Correct: (D) the pattern directly enacts the theme about official systems' inadequacy to capture inner loss. A passage's form can embody its theme when how things are told matches what they mean. With the adjuster, the narrator stays controlled, answering \"no, not really, mostly just furniture\" while the adjuster writes it down \"as if it were a complete answer.\" With the reader, he opens up about the photograph and the choice to run. The adjuster's checklist captures only \"dollar amounts, replacement values,\" so the split between the two modes shows that official systems cannot hold what the narrator really lost.\n\n(A) is wrong because the pattern supports the theme of loss and disclosure by showing what is hidden and what is revealed.\n(B) is wrong because the passage's central contrast between public answer and private truth is precisely this pattern.\n(C) is wrong because the distance changes tie directly to the narrator's meaning, which is that his deepest loss cannot be reported to an official."
       },
       {
         "id": "5-1",
@@ -378,7 +378,7 @@ const QUESTIONS = {
           "A symbol with no particular connection to the passage's emotional content or to Rosa's inner life."
         ],
         "correct": 0,
-        "explanation": "The path's abrupt stopping point mirrors Rosa's own suspended emotional state, an incompleteness she has actively maintained rather than simply neglected. Choice B treats a symbolically loaded, carefully described detail as ordinary household trivia. Choice C is contradicted by Rosa's deliberate, careful maintenance of the gap — the opposite of laziness. Choice D dismisses a symbol the passage explicitly develops across the whole excerpt."
+        "explanation": "Correct: (A) unprocessed or suspended grief, mirroring Rosa's own emotional state since her mother's illness and death. A symbol develops meaning as details accumulate. The path was laid \"the summer before she got sick\" and stopped \"two-thirds of the way to the fence.\" Rosa refuses offers to finish it, saying \"not yet,\" and she cannot explain \"what she was waiting for.\" Her refusal to complete her mother's last project shows grief that is held in place instead of resolved.\n\n(B) is wrong because the passage treats the unfinished path as emotionally loaded, with Rosa turning down every offer, not as a mere chore left undone for other priorities.\n(C) is wrong because Rosa walks the path \"most evenings\" and attends to it carefully, so laziness is not suggested.\n(D) is wrong because the path is directly tied to her mother's death and Rosa's waiting, so it connects strongly to her inner life."
       },
       {
         "id": "5-2",
@@ -391,7 +391,7 @@ const QUESTIONS = {
           "It suggests Rosa is physically unable to walk through the narrow gap in the path."
         ],
         "correct": 1,
-        "explanation": "Stepping carefully around, rather than through, shows the gap is preserved with intention rather than merely unfinished, reinforcing the reading of maintained rather than forgotten grief. Choice D invents a physical limitation the text never mentions. Choice C misreads a detail that supports, rather than contradicts, the passage's central symbol. Choice A undersells a deliberately specific verb choice ('carefully') that signals intention, not mere convenience."
+        "explanation": "Correct: (B) this deliberate avoidance suggests the incompleteness is actively maintained and meaningful to her, not simply forgotten. A deliberate action reveals intention that words may hide. Rosa walks \"out to where the stones stopped and back,\" and the unfinished part is \"a small, deliberate wilderness she stepped carefully around rather than through.\" Treating the dirt gap with such care shows she protects the incompleteness as something that matters, which fits her saying \"not yet.\"\n\n(A) is wrong because the gap is not an obstacle she has failed to remove; she refuses offers to finish it, so the avoidance is chosen.\n(C) is wrong because the careful stepping supports, not contradicts, the reading of the path as suspended grief.\n(D) is wrong because nothing describes a narrow gap she physically cannot cross; the text says she steps around by choice, and she ends by setting a stone there."
       },
       {
         "id": "5-3",
@@ -404,7 +404,7 @@ const QUESTIONS = {
           "Rosa has simply forgotten that she was ever asked the question in the first place, as she has so much on her mind."
         ],
         "correct": 2,
-        "explanation": "The passage tells us 'Eventually' 'had stopped meaning anything specific years ago,' indicating deferral has become a permanent, essentially meaningless placeholder rather than a real intention. Choice B is directly contradicted by the text's own statement that the word no longer means anything specific. Choice A is unsupported — the passage says visitors 'sometimes' ask, implying it still happens. Choice D misreads a habitual, practiced answer as forgetfulness."
+        "explanation": "Correct: (C) the deferral itself has become a permanent, comfortable holding pattern rather than a genuine intention. A habitual phrase can lose its literal meaning and reveal an emotional state. When visitors ask if she plans to finish the path, Rosa says \"Eventually,\" which \"had stopped meaning anything specific years ago.\" The word keeps the question away without promising anything, showing that postponing has become the point and not a real plan.\n\n(A) is wrong because the passage says visitors \"sometimes asked,\" and her answer is described as a standing response, with no claim that they stopped.\n(B) is wrong because a word that \"had stopped meaning anything specific\" cannot reflect a concrete plan to finish soon.\n(D) is wrong because she gives the answer \"always,\" so she clearly remembers the question; the issue is that the word is empty, not forgotten."
       },
       {
         "id": "5-4",
@@ -417,7 +417,7 @@ const QUESTIONS = {
           "It fully resolves the passage's central tension with a complete, happy ending in which Rosa finally finishes the path her mother started building."
         ],
         "correct": 1,
-        "explanation": "Placing a single stone without 'finishing anything, not really' represents tentative movement toward change, its meaning lying precisely in its incompleteness — neither full avoidance nor full resolution. Choice C dismisses a carefully placed final image the whole passage has been building toward. Choice D overstates a small, hedged gesture into a complete emotional resolution the text explicitly denies. Choice A misreads a natural, consistent extension of Rosa's established pattern as a contradiction of it."
+        "explanation": "Correct: (B) a small, partial movement toward processing grief without full resolution, meaningful precisely because it is incomplete. A symbolic action can show change without closure. Rosa brings \"just one, unremarkable\" stone and sets it \"at the exact place the path had stopped, not finishing anything, not really, but no longer leaving the gap entirely as it was, either.\" The double negative phrasing shows a modest shift: she touches the unfinished place but does not complete it, which fits grief that moves a little.\n\n(A) is wrong because the ending builds on, rather than breaks from, her long attachment to the unfinished path, and the small step follows naturally.\n(C) is wrong because the stone is brought from her mother's pile and placed at the exact edge of the gap, which is clearly symbolic.\n(D) is wrong because the narrator says she is \"not finishing anything,\" so the path remains unfinished and there is no complete, happy resolution."
       },
       {
         "id": "5-5",
@@ -430,7 +430,7 @@ const QUESTIONS = {
           "The two symbols function identically, with no meaningful distinction between how each is used."
         ],
         "correct": 2,
-        "explanation": "Both objects carry unresolved emotional weight, but they diverge in development — the path gains a small, deliberate new stone while the porch light simply keeps burning unchanged, a meaningful contrast in how each symbol evolves. Choice B ignores a clear parallel the two passages share in symbolic technique. Choice A is inconsistent — Passage 5's path is at least as symbolically developed as Passage 2's light. Choice D flattens a real, describable difference between the two texts."
+        "explanation": "Correct: (C) both stand for unresolved emotion lingering in a physical object, but Passage 5 shows tentative movement. Comparing symbols means looking at what each object represents and how it changes. In Passage 2, the porch light \"burned quietly through eleven months of empty afternoons,\" a signal that \"someone, once, had meant to come home,\" and it never changes. In Passage 5, the unfinished path holds Rosa's grief, but she finally sets a stone \"at the exact place the path had stopped.\" Both objects carry unfinished feeling, yet only Rosa acts.\n\n(A) is wrong because both the porch light and the unfinished path are plainly symbolic, with detailed emotional meaning attached to each.\n(B) is wrong because both objects carry the theme of loss and incomplete endings, so they are closely related.\n(D) is wrong because the light stays constant and passive while the stone marks a change in Rosa, so the two are not identical in function."
       },
       {
         "id": "1-6",
@@ -443,7 +443,7 @@ const QUESTIONS = {
           "First person, giving intimate but limited access only to Delia's own perspective."
         ],
         "correct": 0,
-        "explanation": "The narration is third-person limited, focalized through Delia — we see her private guest list and inner calculation, while Tom and her mother appear only through dialogue and observable behavior. Choice D is wrong on grammatical grounds: there is no 'I'; the narration uses 'she.' Choice B misapplies a rare, unused form; the passage never blends the couple's perspectives. Choice C is contradicted directly by our access to Delia's private thoughts, which an objective narrator could never report."
+        "explanation": "Correct: (A) third-person limited, focalized through Delia, granting access to her thoughts but not Tom's or her mother's. Point of view is who tells the story and how much that voice knows. The narrator uses \"she\" and \"Delia,\" and shares only her perceptions, as when the guest list is \"the real one, not the one she showed anyone,\" and Tom's voice \"told her he already knew.\" We learn how his voice sounds to her, but not what he thinks.\n\n(B) is wrong because there is no \"we\" narrator; the story refers to the characters as \"she\" and \"he,\" and shows no equal shared perspective.\n(C) is wrong because objective narration gives no thoughts, yet the passage tells us what Delia keeps hidden and how she interprets Tom's voice.\n(D) is wrong because the narration says \"Delia\" and \"she\" and never uses \"I,\" so it is third person, not first."
       },
       {
         "id": "1-7",
@@ -456,7 +456,7 @@ const QUESTIONS = {
           "It contradicts the passage's otherwise quiet, restrained emotional tone."
         ],
         "correct": 1,
-        "explanation": "The unremarkable kitchen-table setting contrasts with the hidden tension of the guest list, suggesting this kind of quiet conflict unfolds within ordinary routine rather than dramatic confrontation. Choice A invents a plot detail — nothing in the passage discusses moving. Choice C undersells the setting's role; its very ordinariness is what makes the private tension land. Choice D has it backwards — the mundane setting reinforces, rather than contradicts, the passage's restrained tone."
+        "explanation": "Correct: (B) the ordinary domestic setting contrasts with the private tension of the secret guest list. Contrast between setting and mood heightens emotion by placing strain in a mundane place. After hanging up, Delia \"sat at the kitchen table and opened the guest list again,\" and the plain kitchen, with the laptop she closes \"before Tom got home,\" holds an anxious secret. The everyday scene makes the concealment feel real and quiet.\n\n(A) is wrong because nothing suggests a move; the kitchen simply hosts the scene and the passage never mentions a new house.\n(C) is wrong because the domestic setting does more than locate the scene, as it frames Delia's secret within her shared home with Tom.\n(D) is wrong because the quiet kitchen fits the restrained tone of the passage, which also depends on understated tension beneath calm surfaces."
       },
       {
         "id": "2-6",
@@ -469,7 +469,7 @@ const QUESTIONS = {
           "First-person plural, narrated collectively by the neighborhood's longtime residents who watched the house decline."
         ],
         "correct": 1,
-        "explanation": "The narration is third person, but unusually centers the house itself as its focal subject rather than any single human perspective. Choice D is unsupported — there's no collective 'we' voice anywhere in the passage. Choice C is contradicted by the complete absence of any first-person pronoun or personal recollection. Choice A is also unsupported; the passage never addresses a 'you.'"
+        "explanation": "Correct: (B) third person, with the house itself functioning almost as the focal subject. Third person uses outside narration, and focal subject is what the narration keeps returning to. The passage begins \"The house at the end of Ferry Street had been for sale for eleven months\" and goes on to say \"The house remembered its former occupants,\" so the house is the center of attention. The narrator reports the neighbors, the old man, and the dust without ever saying \"I\" or \"you.\"\n\n(A) is wrong because the narrator never addresses the reader as \"you\"; the passage describes the house and neighbors in the third person.\n(C) is wrong because there is no \"I\" narrator or any claim that a former resident is telling the story.\n(D) is wrong because there is no \"we\" voice; neighbors appear as \"Neighbors\" and \"people,\" described from outside, not narrating collectively."
       },
       {
         "id": "2-7",
@@ -482,7 +482,7 @@ const QUESTIONS = {
           "The passage's lack of characters means it has no clear thematic focus at all."
         ],
         "correct": 2,
-        "explanation": "By centering the house rather than a specific person, the passage generalizes its theme of loss beyond any one individual's story, letting the house's own memory function almost like a character. Choice D mistakes the absence of a protagonist for an absence of meaning, when the choice is clearly deliberate. Choice A dismisses a consistent, structurally significant choice as accidental. Choice B is simply false — no character in the passage is ever named."
+        "explanation": "Correct: (C) it shifts the passage's thematic focus toward absence and persistence in the abstract, rather than one person's specific grief. Theme comes from what a text emphasizes, and leaving out named characters moves emphasis to other elements. The only human is \"the old man,\" never named, and the passage focuses on \"a paler rectangle on the living room carpet,\" and on a porch light that burned \"to no one in particular.\" The house and its traces become the subject, so absence and what endures are the ideas.\n\n(A) is wrong because the unnamed old man and the focus on objects are consistent choices, and the passage's tight imagery shows deliberate design.\n(B) is wrong because the passage names no human character; \"the old man\" and the \"neighbors\" are generic.\n(D) is wrong because the passage has a clear theme of absence and persistence, shown through the dust shapes and the lit porch."
       },
       {
         "id": "3-6",
@@ -495,7 +495,7 @@ const QUESTIONS = {
           "First person, narrated by Eli, giving the reader direct access to his private thoughts and memories of the lake."
         ],
         "correct": 0,
-        "explanation": "The passage reports dialogue and action (the rope, the brief exchanges) with virtually no direct interior access to either brother, the maximum narrative distance requiring the reader to infer feeling from behavior. Choice C is contradicted by the total absence of any stated interior thought for either brother. Choices B and D are both ruled out by the complete absence of a first-person 'I' anywhere in the passage."
+        "explanation": "Correct: (A) third-person objective, reporting mainly external dialogue and action, with little access to either brother's thoughts. Point of view is the narrator's position, and objective narration records what can be seen and heard from outside. The passage reports \"Sam holding the tiller, Eli coiling a line,\" quoted dialogue, and \"A gull complained.\" Even when Sam says \"I could turn us back,\" the narrator admits \"It wasn't clear if he meant the boat,\" showing no inside knowledge.\n\n(B) is wrong because there is no \"I\" narrator and the passage never mentions a lake or Sam's private memories.\n(C) is wrong because omniscient narration would reveal what both brothers think, but the narrator says it \"wasn't clear\" what Sam meant.\n(D) is wrong because Eli is referred to as \"Eli\" and \"he,\" not as an \"I,\" and the passage gives no access to his private thoughts or memories."
       },
       {
         "id": "3-7",
@@ -508,7 +508,7 @@ const QUESTIONS = {
           "The choice actively undermines the passage's themes about emotional distance between the brothers."
         ],
         "correct": 1,
-        "explanation": "Withholding interior access lets readers experience the same uncertainty about the brothers' true feelings that the brothers seem to have toward each other, form reinforcing content. Choice A treats a deliberate craft choice as arbitrary convenience, unsupported by the passage's consistent execution. Choice C dismisses an alignment between technique and theme the passage clearly maintains. Choice D gets the relationship backwards — the distance supports, rather than undermines, the passage's central concern."
+        "explanation": "Correct: (B) the narrative distance formally mirrors the emotional distance between the two brothers. Narrative distance is how close the narrator gets to a character's mind, and form can echo content. The brothers \"had not spoken since the funeral, six years now,\" and the narration, like them, keeps its distance: it shows their talk and actions, such as uncoiling a rope, yet never says what either feels. Readers must infer feeling just as the brothers withhold it.\n\n(A) is wrong because the passage's careful details, like the \"third passenger\" silence, show deliberate craft and the choice of distance fits its content.\n(C) is wrong because the withholding narrator matches the brothers' reticence, so the choice relates closely to the characters.\n(D) is wrong because the distant narration supports, not undermines, the theme of emotional distance, as both the narrator and brothers hold back inner feeling."
       },
       {
         "id": "4-6",
@@ -521,7 +521,7 @@ const QUESTIONS = {
           "The choice of point of view is largely irrelevant to how this particular story means what it means."
         ],
         "correct": 2,
-        "explanation": "Only first person can grant this kind of direct, unmediated access to the narrator's private, unspoken thoughts — the drawer, 'what I did not say' — without heavy-handed narratorial intervention. Choice A understates how much the technique shapes the story's core effect. Choice B is unsupported and backwards; intimate first-person access tends to increase believability here. Choice D ignores how much explicit narration a third-person version would need to achieve the same intimacy."
+        "explanation": "Correct: (C) first-person narration allows the intimate access to unspoken thoughts the story's central tension depends on. First person lets a narrator say \"I\" and share private feelings directly. The tension here is between what the narrator tells the adjuster and what he thinks, and the line \"What I did not say\" can only be delivered by an inside voice. We learn of the yearly drawer checks and the choice \"to save nothing, to grab nothing, to simply run,\" which an outside narrator might not reach.\n\n(A) is wrong because third person would have changed the intimacy, and the confessional \"What I did not say\" depends on the first-person voice.\n(B) is wrong because the narrator's concealment from the adjuster is not a lie to the reader, and his candor with us makes the account more intimate, not less believable.\n(D) is wrong because the first-person choice is central to the story's meaning, since it creates the gap between public silence and private confession."
       },
       {
         "id": "4-7",
@@ -534,7 +534,7 @@ const QUESTIONS = {
           "Setting the scene during the bureaucratic aftermath shifts the focus toward processing and meaning-making."
         ],
         "correct": 3,
-        "explanation": "Choosing the adjuster's visit over the fire itself shifts attention to processing and meaning-making after the event, consistent with the passage's deeper interest in ongoing internal reckoning rather than dramatic spectacle. Choice A dismisses a clearly deliberate structural choice. Choice C mistakes a single procedural detail for the passage's actual subject. Choice B is directly contradicted by the passage's own framing of the adjuster assessing what's already been lost."
+        "explanation": "Correct: (D) setting the scene during the bureaucratic aftermath shifts the focus toward processing and meaning-making. Setting affects focus by choosing when and where events are examined. The scene is an interview with an adjuster who is \"pen ready\" and asks about a \"checklist of rooms.\" Because the fire is already over and only mentioned as \"between the fire alarm and the front lawn,\" the passage concerns how loss is measured and understood afterward, not the spectacle of burning.\n\n(A) is wrong because the adjuster setting shapes the tone and theme, contrasting official paperwork with private grief, so it could not simply be moved anywhere.\n(B) is wrong because the passage is told after the fire, as the narrator says \"I told the insurance adjuster\" and speaks of what he did not say.\n(C) is wrong because there is nothing about safety procedures; the adjuster's questions concern value and the narrator's feelings, not fire protocols."
       },
       {
         "id": "5-6",
@@ -547,7 +547,7 @@ const QUESTIONS = {
           "Second person, directly addressing Rosa as 'you' throughout the passage."
         ],
         "correct": 2,
-        "explanation": "The narration is third-person limited, focalized through Rosa — we learn she 'could never explain, even to herself' her reasoning, interior access an objective narrator couldn't provide. Choice A is contradicted by the consistent use of 'she' rather than 'I.' Choice B is ruled out by the passage's clear access to Rosa's private, unstated feelings. Choice D is unsupported; the passage never addresses Rosa or the reader as 'you.'"
+        "explanation": "Correct: (C) third-person limited, focalized through Rosa, granting access to her habits and unstated reasoning. Third-person limited narrates with \"she\" while staying inside one character's perception. The passage says Rosa \"could never explain, even to herself, what she was waiting for,\" which reveals an inner state, and shows her routine, \"She walked it most evenings.\" We understand her private hesitation even though she never states it to others.\n\n(A) is wrong because the narrator refers to \"Rosa,\" \"she,\" and \"her mother,\" and never says \"I,\" so it is not first person.\n(B) is wrong because objective narration would not tell us she could not explain her waiting even to herself, which is an inner truth.\n(D) is wrong because the passage never addresses anyone as \"you\" and describes Rosa from outside her own voice, so it is not second person."
       },
       {
         "id": "5-7",
@@ -560,7 +560,7 @@ const QUESTIONS = {
           "This hedging phrase reflects careful handling of ambiguous progress, avoiding overstating a small gesture as full resolution."
         ],
         "correct": 3,
-        "explanation": "The qualification ('not finishing anything, not really') carefully avoids overstating Rosa's gesture as full resolution while still registering it as genuine, if limited, movement. Choice C misreads a hedge about the scope of change as a decision to stop trying altogether. Choice A misunderstands the phrase's relationship to the stone-placing action — it qualifies rather than contradicts it. Choice B dismisses precise, deliberate language controlling how much progress the ending claims."
+        "explanation": "Correct: (D) this hedging phrase reflects careful handling of ambiguous progress, avoiding overstating a small gesture as full resolution. A hedge is a qualifier that limits a claim. After Rosa sets down one stone, the narrator says she is \"not finishing anything, not really, but no longer leaving the gap entirely as it was, either.\" The qualifiers \"not really\" and \"entirely\" are exact: they admit a real change while refusing to call it completion, in keeping with grief that moves slowly.\n\n(A) is wrong because the phrase does not contradict the action; it qualifies how much the stone changes.\n(B) is wrong because the path has been treated as meaningful throughout, from the mother's work to Rosa's refusal to finish, so the phrase is far from insignificant.\n(C) is wrong because setting down a stone at the edge of the gap is a movement toward the project, not an abandonment of it."
       },
       {
         "id": "1-8",
@@ -573,7 +573,7 @@ const QUESTIONS = {
           "The passage has already reached a full resolution, complete with climax and falling action by the final line."
         ],
         "correct": 1,
-        "explanation": "The excerpt sits in rising action — the gap between Delia's stated wishes and her actual guest list has been established and is escalating toward Tom's knowing question, but no climax has occurred yet. Choice A underestimates how legible the escalating tension pattern is from the text itself. Choice D is directly contradicted by the passage ending mid-tension, with nothing resolved. Choice C ignores that conflict is actively developing well before the excerpt ends, not merely being set up."
+        "explanation": "Correct: (B) rising action, as the tension between Delia's claims and her actual behavior escalates toward Tom's question. Plot structure describes where events fall in the arc of exposition, rising action, climax, and resolution. The passage establishes that Delia claims small while her list has \"grown to eighty-three people,\" and then Tom asks \"How's the small wedding coming?\" with a voice that \"told her he already knew.\" The confrontation is near but not yet played out, so the strain is still building.\n\n(A) is wrong because the excerpt shows enough, with a secret and a looming question, to see tension growing toward a climax.\n(C) is wrong because the passage includes conflict between her words and actions, so it is more than exposition.\n(D) is wrong because the ending leaves what Tom knows unspoken, so no climax or falling action has happened."
       },
       {
         "id": "2-8",
@@ -586,7 +586,7 @@ const QUESTIONS = {
           "A conventional plot structure with clear rising action, a climax, and a resolution that becomes evident once the full story extends beyond this brief excerpt."
         ],
         "correct": 2,
-        "explanation": "The passage builds meaning through accumulated description (the sign, the dust, the light) rather than a sequence of events or decisions, a legitimate structural choice for atmosphere-driven short fiction. Choice D is contradicted by the passage's lack of any rising or resolving action. Choice A is unsupported — the passage stays within a single continuous present. Choice B is directly contradicted by the complete absence of dialogue in the passage."
+        "explanation": "Correct: (C) a largely static, descriptive structure that builds meaning through accumulated imagery rather than a sequence of events. Structure refers to how a passage is organized, and here organization comes from layers of description. The passage moves from the exterior (\"the realtor's sign,\" the lawn, the driveway) to the interior (\"dust had settled into the shape of furniture\") to the porch light, and little happens. Meaning builds as the images pile up.\n\n(A) is wrong because there is no shift among time periods; everything is the current state of the house, with backstory only implied in the dust shapes.\n(B) is wrong because no one speaks, and the passage has no dialogue at all, since nobody speaks in the passage and its structure is not built around any conversation between characters.\n(D) is wrong because the passage contains no rising action, climax, or resolution; it is a quiet description and does not require more story to be complete."
       },
       {
         "id": "3-8",
@@ -599,7 +599,7 @@ const QUESTIONS = {
           "Likely near a turning point or minor climax, as the brothers make a shared, unspoken decision to continue."
         ],
         "correct": 3,
-        "explanation": "The brothers' shared decision to keep going rather than turn back marks a meaningful shift in their six-year silence, even without full resolution — a turning point or minor climax. Choice A ignores the conflict already established (their unspoken six-year rift, surfacing directly in dialogue). Choice B is contradicted by the passage's explicitly unresolved ending. Choice C understates how clearly the passage signals a shift in momentum through the brothers' choice to continue outward."
+        "explanation": "Correct: (D) likely near a turning point or minor climax, as the brothers make a shared, unspoken decision to continue. In the narrative arc, a turning point is where a conflict shifts. Eli says \"Or we could just keep going out and see what's still there,\" Sam asks about turning back, and then \"Neither of them moved to change course.\" The silence of six years breaks into talk and a joint choice, which marks a shift in their stalemate.\n\n(A) is wrong because the conflict is established at once, with the brothers silent since the funeral, so this is not mere exposition.\n(B) is wrong because the ending leaves the plan uncertain and the grief unspoken, so it is not a definitive resolution.\n(C) is wrong because the passage offers enough clues, such as the breaking of silence and the decision, to place it near a turning point."
       },
       {
         "id": "4-8",
@@ -612,7 +612,7 @@ const QUESTIONS = {
           "Beginning after the fact emphasizes aftermath and processing over spectacle."
         ],
         "correct": 3,
-        "explanation": "Opening with the aftermath rather than the fire itself foregrounds processing and reflection over dramatic event, reinforcing the passage's deeper interest in internal reckoning. Choice C mistakes a deliberate, well-executed structural choice for a flaw. Choice A misreads emphasis on aftermath as dismissal of the fire's importance — the fire matters precisely because of what it leaves behind. Choice B dismisses a structural choice the passage's own content and tone directly support."
+        "explanation": "Correct: (D) beginning after the fact emphasizes aftermath and processing over spectacle. Structure shapes meaning through where a story starts. The passage opens with \"I told the insurance adjuster the fire had taken everything,\" so the fire is already past and the reader meets the narrator in the dull work of listing losses. The unspoken drawer and the choice to run emerge as reflection.\n\n(A) is wrong because the fire matters greatly, since the narrator's choice to \"save nothing\" during it is the unresolved center of the passage.\n(B) is wrong because starting with the adjuster shifts the focus to loss measured by paperwork versus private grief, which strongly affects meaning.\n(C) is wrong because the aftermath start is exactly what lets the passage contrast official inventory with inner loss, so it supports the purpose."
       },
       {
         "id": "5-8",
@@ -625,7 +625,7 @@ const QUESTIONS = {
           "Establishing a repeated, static pattern before the deviation makes the final action's significance legible."
         ],
         "correct": 3,
-        "explanation": "Showing years of the same walk-and-avoid pattern first makes the small deviation — one new stone — legible as meaningful change, since the reader can measure it against an established routine. Choice B contradicts the passage's own final scene, which explicitly departs from the established pattern. Choice A has the relationship backwards — the repetition builds up, rather than undercuts, the final action's weight. Choice C dismisses a clear, purposeful structural technique."
+        "explanation": "Correct: (D) establishing a repeated, static pattern before the deviation makes the final action's significance legible. Repetition in structure builds a baseline so that a variation stands out. The passage shows that Rosa \"walked it most evenings,\" says \"not yet\" whenever offered help, and always answers \"Eventually.\" Then \"This evening, though, she brought a stone,\" and the word \"though\" signals change. Only after the habits are clear can the stone read as a meaningful break.\n\n(A) is wrong because the passage marks the final action as different from the routine with \"This evening, though,\" so it does not seem like another step.\n(B) is wrong because the last scene varies the routine by adding the stone, so the pattern does change.\n(C) is wrong because the repetition creates the contrast that gives the ending its force, so it has a clear structural function."
       },
       {
         "id": "1-9",
@@ -638,7 +638,7 @@ const QUESTIONS = {
           "It suggests Delia has left herself with a permanent physical scar."
         ],
         "correct": 1,
-        "explanation": "'Crescent' evokes a moon-shape connotation — small, curved, associated with something partial or waning — subtly reinforcing the theme of tension kept mostly out of sight. Choice C misreads the word's quiet, understated connotation as somehow clashing with tone, when it actually matches it. Choice A misses the word choice entirely; a plainer word like 'mark' would have carried none of the same association. Choice D overstates a fleeting pressure mark into lasting physical damage the text doesn't describe."
+        "explanation": "Correct: (B) it connotes something partial or waning, subtly reinforcing the theme of suppressed, not-fully-visible tension. Connotation is the suggested meaning a word carries beyond its literal sense. A crescent is a partial shape, like a moon not fully shown, and the thumbnail leaves \"a small white crescent\" as Delia says \"We're happy with small.\" The incomplete, faint mark mirrors her tension, only partly visible beneath her calm words.\n\n(A) is wrong because the author chose a word with a shape association, and \"crescent\" suggests partiality in a way a plain term like 'mark' would not.\n(C) is wrong because the delicate crescent fits the restrained, understated tone, as it is a quiet sign of strain and not a dramatic one.\n(D) is wrong because a \"small white crescent\" left by pressure is a momentary mark that fades, and the passage never suggests a permanent scar."
       },
       {
         "id": "2-9",
@@ -651,7 +651,7 @@ const QUESTIONS = {
           "It suggests the current owners are actively cultivating the property for farming and have restored it to full use."
         ],
         "correct": 2,
-        "explanation": "Attributing 'giving up' to the lawn extends the passage's theme of neglect and abandonment into the physical setting, blurring passive decay with something closer to intention. Choice D misreads an image of abandonment as evidence of active use. Choice B dismisses phrasing the passage clearly chose for effect. Choice A flattens the deliberately figurative verb 'given up' into neutral, literal reporting, missing its personifying force."
+        "explanation": "Correct: (C) this near-personification extends the theme of neglect and surrender beyond the human realm into the setting. Personification gives human actions or attitudes to non-human things. The passage says the lawn \"had given up being a lawn and become, instead, a field,\" and giving up is a human act of surrender. The phrase appears after the faded sign and fits the long vacancy, so the property itself seems to resign.\n\n(A) is wrong because \"given up\" is not a neutral landscaping term, and the wording adds a feeling of defeat beyond literal change.\n(B) is wrong because the image directly supports the themes of neglect and abandonment that run through the faded sign, the driveway, and the dust.\n(D) is wrong because the passage says the lawn became a field through eleven months of vacancy, and the house is empty and for sale, so no one is cultivating or restoring it."
       },
       {
         "id": "3-9",
@@ -664,7 +664,7 @@ const QUESTIONS = {
           "It contradicts the passage's later dialogue, which involves only the two brothers."
         ],
         "correct": 2,
-        "explanation": "Comparing the silence to 'a third passenger' personifies an abstract emotional state as a tangible presence, establishing from the opening line how weighty the brothers' unspoken tension is. Choice B takes a figurative comparison literally, missing the simile entirely. Choice A denies the image any figurative work despite its clearly non-literal comparison. Choice D misunderstands the relationship — the 'third passenger' is the silence itself, not a contradiction of the two-brother dialogue that follows."
+        "explanation": "Correct: (C) this simile personifies the silence as an almost physical presence, making an abstract tension concrete. A simile compares two unlike things using 'like' or 'as.' The narrator says the boat \"carried that silence out past the breakwater like a third passenger.\" Silence is an absence of sound, but treating it as a passenger gives it weight and presence in the small boat between Sam and Eli.\n\n(A) is wrong because the boat holds only two brothers and the phrase uses 'like,' so it is a figure of speech, not a count of passengers.\n(B) is wrong because the \"third passenger\" is the silence itself, and no friend or relative appears anywhere in the passage.\n(D) is wrong because the later dialogue involves only the two brothers, which agrees with the simile, since the third passenger is not a person."
       },
       {
         "id": "4-9",
@@ -677,7 +677,7 @@ const QUESTIONS = {
           "It carries no figurative significance and is simply a neutral, literal description."
         ],
         "correct": 0,
-        "explanation": "The careful qualifier implies a different, unstated way the loss 'mattered' outside the adjuster's dollar-value frame, planting the passage's central tension in one economical phrase. Choice D denies any figurative weight to phrasing the passage clearly chose over a simpler, flatter alternative. Choice B misdirects the implied criticism — the phrase is about the limits of his frame, not his personal attitude toward his job. Choice C gets the relationship backwards; the phrase sets up, rather than conflicts with, the drawer detail that follows."
+        "explanation": "Correct: (A) it implies another way the loss mattered that the adjuster's frame cannot capture. A qualifier can imply a contrast without stating it. The narrator says the fire \"had taken everything, which was true in the way that mattered to him — dollar amounts, replacement values, a checklist of rooms.\" By limiting the claim to what matters \"to him,\" the narrator hints at a different measure that matters to the narrator, which the later paragraphs reveal.\n\n(B) is wrong because the adjuster is shown doing his job, with a ready pen and questions, and the phrase is not a criticism of effort.\n(C) is wrong because the later drawer and photograph content is exactly the other way of mattering that the phrase implies.\n(D) is wrong because the qualifier is pointed, setting up the split between official value and private grief, so it does carry significance."
       },
       {
         "id": "5-9",
@@ -690,7 +690,7 @@ const QUESTIONS = {
           "It suggests Rosa's garden has become genuinely overrun with actual wild plants."
         ],
         "correct": 1,
-        "explanation": "'Wilderness' normally connotes something wild and uncontrolled, so pairing it with 'deliberate' creates a pointed tension — Rosa's grief is outwardly managed yet genuinely untamed underneath. Choice A denies figurative force to a phrase built from two words in tension with each other. Choice C misreads the phrase as inconsistent with Rosa's characterization, when it actually captures her precisely. Choice D takes 'wilderness' too literally; nothing suggests actual plant overgrowth."
+        "explanation": "Correct: (B) the contrast between 'deliberate' and 'wilderness' suggests Rosa's grief is controlled yet unresolved. An oxymoron-like pairing puts opposite ideas together to show tension. A wilderness is wild and untended, but the narrator calls the bare section \"a small, deliberate wilderness she stepped carefully around rather than through.\" Wildness that is chosen and preserved matches grief that Rosa keeps in order while leaving it unfinished.\n\n(A) is wrong because a few feet of bare dirt is not literal wilderness, and \"deliberate\" and \"small\" show the term is figurative.\n(C) is wrong because her careful, deliberate behavior is the same trait the phrase expresses, so there is no contradiction.\n(D) is wrong because the passage describes bare dirt where stones should have gone, not wild plants, so it does not mean the garden is literally overrun."
       },
       {
         "id": "1-10",
@@ -703,7 +703,7 @@ const QUESTIONS = {
           "The brief description of Delia's kitchen table accomplishes this combined work most efficiently."
         ],
         "correct": 2,
-        "explanation": "The guest list simultaneously characterizes Delia's internal conflict, is grounded in the concrete kitchen setting, and foreshadows the coming confrontation implied by Tom's closing question — a single detail doing several kinds of work at once. Choice D names only a setting detail with no characterizing or foreshadowing function of its own. Choice A is suggestive of anxiety but doesn't combine setting or foreshadowing the way the guest list does. Choice B is a minor detail about the mother's argument, not one that does triple duty."
+        "explanation": "Correct: (C) the guest list, with its number, its erased-and-repenciled names, and its concealment from Tom, does all three at once. Characterization shows who someone is, setting gives place, and foreshadowing hints at what will happen. The list is \"the real one, not the one she showed anyone,\" it has names she \"penciled in, then erased, then penciled in again,\" and it \"had grown to eighty-three people.\" It reveals her conflict, it sits in the kitchen, and it hints that Tom will discover the truth.\n\n(A) is wrong because the repeated reassurance characterizes her but does little for setting or foreshadowing.\n(B) is wrong because Aunt Carol's garden only shows her mother's pressure and gives little characterization of Delia.\n(D) is wrong because the kitchen table is just a place and does not shape character or foreshadow events by itself."
       },
       {
         "id": "2-10",
@@ -716,7 +716,7 @@ const QUESTIONS = {
           "The description of the dust settling into the shape of former furniture, which lingers as the passage's most vivid and memorable single image."
         ],
         "correct": 0,
-        "explanation": "This phrase goes beyond neutral description to explicitly interpret the light's meaning, the clearest textual signal that the passage intends the light symbolically. Choice B is a factual time marker, not an interpretive one. Choice D, though evocative, describes rather than interprets — it doesn't editorialize the way the porch-light phrase does. Choice C is similarly descriptive rather than interpretive, marking time rather than assigning meaning."
+        "explanation": "Correct: (A) the phrase 'a small persistent signal to no one in particular,' which explicitly interprets the light's meaning. A writer signals symbolism when a narrator steps beyond description and interprets an object. After noting that the porch light \"burned quietly through eleven months of empty afternoons,\" the narrator calls it \"a small persistent signal to no one in particular that someone, once, had meant to come home.\" Words like \"signal\" and \"meant to come home\" turn a bulb into a message about intention and absence.\n\n(B) is wrong because \"eleven months\" is a measure of time for the house's vacancy and does not interpret the light.\n(C) is wrong because the fading sign is about time and neglect and is not linked to the porch light.\n(D) is wrong because the dust image is vivid but it is about furniture, not the light, so it does not signal symbolic reading of the light."
       },
       {
         "id": "3-10",
@@ -729,7 +729,7 @@ const QUESTIONS = {
           "It suggests the story is set during a period of drought on land far from the sea, with no connection to the boat."
         ],
         "correct": 2,
-        "explanation": "Low tide exposes what's normally submerged, paralleling the brothers' long-buried feelings finally surfacing in this conversation, extending figurative meaning into the title itself. Choice A misreads a title consistent with, not opposed to, the passage's ocean setting. Choice D confuses a nautical phenomenon with an unrelated weather condition. Choice B denies any figurative resonance despite the title's clear thematic fit with the passage's content."
+        "explanation": "Correct: (C) it can suggest exposure, hidden things becoming visible, paralleling long-submerged feelings surfacing. A title can add figurative meaning beyond the literal scene. At low tide, water recedes to show what lies under it, and in the passage the brothers' six-year silence begins to break: Eli says \"Dad would have hated this,\" and speaks of going out to \"see what's still there when we get far enough.\" The phrase \"see what's still there\" fits the idea of revealing what was covered.\n\n(A) is wrong because the title fits the boat and shoreline setting, with the breakwater and gull, and does not contradict it.\n(B) is wrong because the title and the exchange about seeing \"what's still there\" invite a figurative reading beyond tide conditions.\n(D) is wrong because the brothers are on a boat near the sea, so the title cannot suggest a drought far from water."
       },
       {
         "id": "4-10",
@@ -742,7 +742,7 @@ const QUESTIONS = {
           "It operates on two levels — the literal insurance inventory of lost possessions, and a figurative accounting of the narrator's grief."
         ],
         "correct": 3,
-        "explanation": "'Inventory' names both the literal insurance list of lost possessions and a figurative reckoning with internal, unquantifiable grief, a title chosen to carry both meanings at once. Choice B denies a double meaning the passage's own content clearly supports. Choice C is unsupported; the title fits the passage's content rather than conflicting with it. Choice A invents an unrelated biographical detail the text never mentions."
+        "explanation": "Correct: (D) it operates on two levels, the literal insurance inventory of lost possessions and a figurative accounting of the narrator's grief. A double meaning lets a word work in a literal and a figurative sense. The adjuster wants \"a checklist of rooms\" and asks about \"sentimental value,\" while the narrator privately takes stock of what he truly lost: the photograph of his father and the choice \"to save nothing.\" The final line about a \"claim\" he cannot file completes the metaphor of accounting for inner loss.\n\n(A) is wrong because the narrator is dealing with a fire and an insurance adjuster, and no retail job appears.\n(B) is wrong because the passage also takes private emotional stock of the drawer and the choice to run, so the meaning goes beyond the literal.\n(C) is wrong because the adjuster's \"checklist of rooms\" and the narrator's listing show inventory-taking occurs in the scene, so the title matches the content."
       },
       {
         "id": "5-10",
@@ -755,7 +755,7 @@ const QUESTIONS = {
           "All five passages end without full resolution, consistently modeling ambiguity as a deliberate choice."
         ],
         "correct": 3,
-        "explanation": "Every passage ends short of full resolution — Delia's confrontation unstated, the porch light still burning, the brothers still undeclared, the narrator's grief unfiled, Rosa's path still unfinished — a shared technique this unit's guide frames as deliberate rather than incomplete. Choice B undercounts how consistently this pattern holds across all five. Choice C directly contradicts the specific, unresolved ending each passage actually has."
+        "explanation": "Correct: (D) all five passages end without full resolution, consistently modeling ambiguity as a deliberate choice. Open endings leave the central tension unsettled so readers must interpret. Delia's story ends when Tom's voice \"told her he already knew\"; the house ends with a light signaling \"someone, once, had meant to come home\"; the brothers end with \"Neither of them said whether that was the plan\"; the narrator has not \"found a way to file a claim\"; and Rosa places a stone \"not finishing anything, not really.\"\n\n(A) is wrong because every one of the five endings is open, with none tying off all its threads.\n(B) is wrong because the shared lack of resolution is a clear common technique across the endings.\n(C) is wrong because none of the five gives a fully resolved conclusion; each leaves questions about what happens next or what the characters feel."
       },
       {
         "id": "1-11",
@@ -768,7 +768,7 @@ const QUESTIONS = {
           "The passage characterizes Delia only through direct narratorial commentary about her personality."
         ],
         "correct": 1,
-        "explanation": "Nearly everything we learn about Delia — the thumbnail gesture, the contradiction between claim and guest list, her careful dialogue — comes through inference rather than stated traits, a sustained show-don't-tell approach. Choice A ignores the passage's dense characterizing detail. Choices C and D both claim the opposite of what happens: the narrator never states outright that Delia is anxious or self-deceiving — that reading is built entirely from inference."
+        "explanation": "Correct: (B) the passage relies almost entirely on indirect characterization, with virtually no direct narratorial statement of her traits. Direct characterization names traits outright, while indirect characterization shows them through action, speech, and detail. The narrator never says Delia is anxious or conflict-avoidant; instead she presses her thumbnail until it leaves \"a small white crescent,\" says \"We're happy with small\" while keeping a list of \"eighty-three people,\" and closes the laptop \"before Tom got home.\" The reader infers her traits from these behaviors.\n\n(A) is wrong because the narrator does not list her traits, and the passage lacks statements like 'Delia was anxious.'\n(C) is wrong because the passage characterizes Delia richly through her gestures, her secrecy, and her contradictory statements.\n(D) is wrong because there is almost no narratorial commentary on her personality, and the characterization emerges from concrete behavior."
       },
       {
         "id": "2-11",
@@ -781,7 +781,7 @@ const QUESTIONS = {
           "It follows a completely standard five-part plot structure from exposition through resolution, tracing the house's decline in clearly separated narrative stages."
         ],
         "correct": 1,
-        "explanation": "With no protagonist or conflict, the passage builds meaning entirely through accumulated description, an atmosphere-driven approach that departs from event-driven plot conventions. Choices A and D both claim the opposite of what's evident — there is no rising action or climax anywhere in the passage. Choice C understates how clearly the passage's structural choice can be identified from the text alone."
+        "explanation": "Correct: (B) it deliberately subverts conventional plot expectations by offering no human protagonist making decisions or facing conflict. Conventional plot follows a character who wants something and faces a conflict. This passage has no active character: the house \"had been for sale for eleven months,\" the dust \"had settled,\" and the porch light \"burned quietly.\" The only person, \"the old man,\" is already gone, so mood replaces events.\n\n(A) is wrong because nothing builds to a climax; the passage is static description with no rising action.\n(C) is wrong because the text itself shows a lack of protagonist, decisions, or events, which is enough to judge its relationship to plot conventions.\n(D) is wrong because the passage has no five-part structure with exposition through resolution; it layers images of a house over time and does not narrate stages."
       },
       {
         "id": "3-11",
@@ -794,7 +794,7 @@ const QUESTIONS = {
           "The dialogue provides full, direct access to both brothers' internal thoughts and feelings, closing any distance between them."
         ],
         "correct": 1,
-        "explanation": "The brothers' brief, deflecting exchanges reinforce the same withholding the narration practices, so both dialogue and narrative distance push the reader toward inference rather than certainty. Choice A has the relationship backwards — dialogue and distance work together here, not against each other. Choice C is simply false; several lines of dialogue drive the scene. Choice D is contradicted by how little the dialogue actually reveals about either brother's interior state."
+        "explanation": "Correct: (B) the sparse, clipped dialogue reinforces the passage's narrative distance, often deflecting from emotional content. Narrative distance is reinforced when speech stays on the surface. Eli says \"Dad would have hated this,\" Sam answers \"Dad's not here to hate anything,\" and later Sam says \"I could turn us back\" with the narrator noting \"It wasn't clear if he meant the boat.\" The short lines hint at feeling without stating it, so readers stay outside the brothers' minds.\n\n(A) is wrong because the dialogue is as guarded as the narration, so it matches the distant approach instead of contradicting it.\n(C) is wrong because the passage includes several lines of dialogue, from Eli's \"Dad would have hated this\" to his suggestion to keep going out.\n(D) is wrong because the dialogue gives no direct access to inner thoughts; characters deflect, and the narrator never reveals what either brother thinks."
       },
       {
         "id": "4-11",
@@ -807,7 +807,7 @@ const QUESTIONS = {
           "First-person narration actively undermines the passage's stated theme about hidden loss."
         ],
         "correct": 1,
-        "explanation": "A story about the gap between what's officially reported and what's privately felt needs a narrator who can show both sides at once, which first person accomplishes with an intimacy third person would struggle to match. Choice D has the relationship backwards. Choice C underestimates how much explicit narratorial commentary a different point of view would require to achieve the same effect. Choice A dismisses a clear, sustained alignment between technique and theme."
+        "explanation": "Correct: (B) first-person narration is essential to the theme's execution, since it alone can show both sides of the reporting/feeling gap directly. A point of view supports a theme when its limits and access match the idea. The narrator speaks to the adjuster aloud, saying \"mostly just furniture,\" and then tells us \"What I did not say.\" Only an \"I\" voice can deliver both the public answer and the private confession, which carries the theme that official reports cannot capture inner loss.\n\n(A) is wrong because the point of view is closely tied to the theme, since the gap between spoken and unspoken is created by the narrator's confiding voice.\n(C) is wrong because a different point of view would lose the direct admission of unspoken thoughts, such as the yearly drawer checks, so meaning would suffer.\n(D) is wrong because first person helps reveal the hidden loss by letting the narrator disclose it to the reader."
       },
       {
         "id": "5-11",
@@ -820,7 +820,7 @@ const QUESTIONS = {
           "The passage takes place over a single week, with no reference to extended background time or to the mother's long illness."
         ],
         "correct": 1,
-        "explanation": "Years of habitual evening walks establish a baseline before the passage narrows to one evening's small change, using extended time to make the brief moment's significance legible by contrast. Choice A ignores explicit time markers ('the summer before,' 'for years afterward,' 'this evening'). Choices C and D both understate the passage's clearly stated multi-year span before narrowing to the present evening."
+        "explanation": "Correct: (B) it establishes an extended, repetitive pattern as background, then narrows to a single evening's small deviation. Handling of time means how a passage spans and compresses events. The opening covers the summer before her mother \"got sick,\" then \"For years afterward\" Rosa says \"not yet,\" and she walks the path \"most evenings.\" Then the narrator turns to \"This evening, though,\" focusing on one moment of change.\n\n(A) is wrong because the timeline is clear, with markers like \"For years afterward\" and \"This evening.\"\n(C) is wrong because the passage refers to the summer before the illness, years of refusals, and the pile since her mother died, so it spans more than an afternoon.\n(D) is wrong because the narrator mentions years and a pile that sat \"since her mother died,\" so the passage reaches far beyond a single week."
       },
       {
         "id": "1-12",
@@ -833,7 +833,7 @@ const QUESTIONS = {
           "Figurative language, since the passage relies heavily on an extended, developed metaphor."
         ],
         "correct": 2,
-        "explanation": "The guest list, the thumbnail mark, and Tom's careful tone all function primarily to reveal character through inference, making indirect characterization the passage's dominant technique. Choice B overstates the plot, which is a single quiet domestic scene, not a complex sequence of events. Choice D is unsupported — the passage doesn't build any sustained extended metaphor comparable to Passage 4's insurance-claim framing. Choice A is backwards: the kitchen is mentioned briefly and mainly to ground character, not described at length for its own sake."
+        "explanation": "Correct: (C) indirect characterization, since nearly every specific detail works primarily to reveal character through inference. Indirect characterization shows a person through behavior, speech, and objects. The thumbnail \"until it left a small white crescent,\" the \"real\" guest list that \"had grown to eighty-three people,\" the laptop closed \"before Tom got home,\" and Tom's voice that \"told her he already knew\" all let the reader infer Delia's anxiety and avoidance.\n\n(A) is wrong because the kitchen is mentioned only briefly and is not described in detail, so setting is not the main tool.\n(B) is wrong because the passage has little action and builds no complex series of dramatic events; the confrontation is only implied.\n(D) is wrong because the passage has no extended metaphor; its single image of a crescent is brief and serves characterization."
       },
       {
         "id": "2-12",
@@ -846,7 +846,7 @@ const QUESTIONS = {
           "Dialogue-based characterization, since the passage consists mostly of spoken conversation."
         ],
         "correct": 0,
-        "explanation": "The sign, the dust, and the porch light do the passage's primary work, building mood and meaning through setting rather than through plot or character. Choice B is contradicted by the passage's static, event-free structure. Choice C overstates the narrator's presence — the voice stays understated rather than opinionated. Choice D is directly contradicted by the total absence of dialogue in the passage."
+        "explanation": "Correct: (A) setting and its atmospheric and symbolic function, since meaning develops mainly through accumulated physical detail. Setting includes place, objects, and atmosphere. The passage gives only a house: a sign faded \"to a tired pink,\" a lawn turned \"a field,\" dust shaped like a couch, and a porch light that \"burned quietly through eleven months.\" Atmosphere of abandonment and symbolism of the light come entirely from these details.\n\n(B) is wrong because the passage has no climax or resolution and builds a static scene, not a dramatic arc.\n(C) is wrong because the narrator stays largely neutral and descriptive, with no opinionated voice, so point of view is not the main tool.\n(D) is wrong because the passage contains no spoken conversation at all, so dialogue plays no role in characterization."
       },
       {
         "id": "3-12",
@@ -859,7 +859,7 @@ const QUESTIONS = {
           "Setting, since the passage spends most of its length on detailed oceanographic description."
         ],
         "correct": 0,
-        "explanation": "Withholding interior access forces inference from external dialogue and action, mirroring the brothers' own emotional distance — the passage's central technique. Choice C is directly contradicted; the narrator never states either brother's traits outright. Choice D overstates the setting's role — the ocean is sketched briefly, not developed at length. Choice B is incoherent and doesn't describe a technique the passage actually leans on."
+        "explanation": "Correct: (A) narrative distance and point of view, since the passage's effect depends on withholding direct internal access to either brother. Narrative distance is the closeness of narration to a character's mind. Here the narrator reports what the brothers do, such as \"Eli coiling a line he did not need to coil,\" and what they say, but admits \"It wasn't clear if he meant the boat.\" Readers must infer feeling because the narration never states it, which matches the brothers' own silence.\n\n(B) is wrong because the passage includes plenty of literal description, such as the tiller, the rope, the gull, and the shoreline.\n(C) is wrong because the narrator does not state either brother's personality traits; they emerge from dialogue and actions.\n(D) is wrong because the setting is brief, with only a breakwater, a gull, and gray water, and not detailed oceanographic description."
       },
       {
         "id": "4-12",
@@ -872,7 +872,7 @@ const QUESTIONS = {
           "Direct characterization, since the adjuster explicitly describes the narrator's personality traits in the exchange of dialogue."
         ],
         "correct": 2,
-        "explanation": "The drawer, the photograph, and the extended insurance-claim metaphor all carry meaning beyond their literal function, making figurative language and symbol this passage's dominant technique. Choice B overstates the plot, a single brief scene with no multi-stage arc. Choice A is contradicted by the passage's near-total lack of physical description of the burned house itself. Choice D is simply false — the adjuster never describes the narrator's personality."
+        "explanation": "Correct: (C) figurative language and symbol, since the drawer, photograph, and 'claim' metaphor carry meaning beyond their function. Symbol and metaphor give objects and phrases meaning beyond the literal. The drawer that \"had stuck for years\" holds a single photograph \"of my father laughing,\" and the closing idea of something he \"hadn't yet found a way to file a claim for\" turns insurance language into a figure for grief. Much of the passage's weight sits in these images.\n\n(A) is wrong because the burned house is barely described, with no mention of smoke damage or physical remains beyond a \"checklist of rooms.\"\n(B) is wrong because the passage has no elaborate, multi-stage arc, only a brief interview and a reflection.\n(D) is wrong because the adjuster does not describe the narrator's personality; he only asks if there is anything of sentimental value."
       },
       {
         "id": "5-12",
@@ -885,7 +885,7 @@ const QUESTIONS = {
           "Direct characterization, through explicit narratorial statement of Rosa's personality traits."
         ],
         "correct": 2,
-        "explanation": "The path's specific evolution — from abandoned project, to maintained gap, to one new stone — carries the passage's central meaning more than any other single element. Choice B is contradicted by the passage's single, consistent narrative perspective throughout. Choice A overstates a brief, reported exchange with visitors as the passage's primary content, when it's mostly narrated description. Choice D is directly contradicted by the passage's reliance on indirect, inferential characterization instead."
+        "explanation": "Correct: (C) symbol and its development, since the garden path's traceable evolution carries the passage's central meaning. A developed symbol changes in meaning as the story advances. The path is first an unfinished project from \"the summer before she got sick,\" then a space Rosa steps \"carefully around,\" and finally a place where she sets a stone \"at the exact place the path had stopped.\" These stages carry the meaning of grief shifting slightly.\n\n(A) is wrong because the passage has only one short line of dialogue, \"Eventually,\" and visitors are not shown pressing her repeatedly.\n(B) is wrong because the passage keeps a single third-person perspective on Rosa and does not shift between narrators.\n(D) is wrong because the narrator never states Rosa's personality outright; her traits come from her actions and refusals like \"not yet.\""
       },
       {
         "id": "1-13",
@@ -898,7 +898,7 @@ const QUESTIONS = {
           "Passages 2 and 4, since both are set primarily inside a domestic interior space."
         ],
         "correct": 1,
-        "explanation": "Both Passages 1 and 3 escalate toward a moment of decision or confrontation (Tom's pointed question; the brothers' choice to keep going) and end just before that moment is directly addressed. Choice A is inaccurate — Passage 2 has no named human character at all, and Passage 5 centers on one (Rosa). Choice C ignores an evident, describable pattern shared by two of the five texts. Choice D mischaracterizes Passage 2, whose setting is an empty house, not an occupied domestic interior like Passage 4's."
+        "explanation": "Correct: (B) Passages 1 and 3, since both build toward an implied but unstated confrontation or decision. Structural similarity here means how tension is handled. In Passage 1, Tom's question and the narrator's note that his voice \"told her he already knew\" imply a confrontation that never occurs openly. In Passage 3, the brothers' silence is broken, but \"Neither of them said whether that was the plan,\" leaving the decision unspoken.\n\n(A) is wrong because Passage 2 has no named characters at all, and Passage 5 has only Rosa, so neither features several named people interacting.\n(C) is wrong because the unit does show such similarities, including the shared reliance on implication in Passages 1 and 3.\n(D) is wrong because Passage 2 is set at an empty house with dust and a porch light, while Passage 4 involves the adjuster, and the shared domestic setting does not describe how tension is handled."
       },
       {
         "id": "2-13",
@@ -911,7 +911,7 @@ const QUESTIONS = {
           "Passage 5 differs most, since it also centers on a physical object carrying symbolic weight."
         ],
         "correct": 1,
-        "explanation": "Passage 2 is unique in this set for making setting itself, rather than any character's action or thought, the primary vehicle for meaning, with human presence reduced entirely to implication. Choice D misidentifies Passage 5, which still centers a human character (Rosa) acting within her setting, unlike Passage 2's houseless narration. Choice A misreads how commonly domestic interiors appear; the real distinction is about whose action carries meaning, not the room type. Choice C ignores a clear, describable difference among the passages' techniques."
+        "explanation": "Correct: (B) Passage 2 differs most, since it is the only passage where setting itself, not a character's action, carries the passage's meaning. Setting differs fundamentally when place and objects replace action as the carrier of meaning. Passage 2 is made of \"a paler rectangle on the living room carpet,\" a faded sign, and \"a small persistent signal to no one in particular,\" with no active character. The other passages center on people acting or speaking.\n\n(A) is wrong because Passage 1 is much like the others, built on characters in domestic settings and dialogue, so it does not differ most.\n(C) is wrong because the passages treat setting very differently, from Passage 2's setting-as-subject to Passage 3's minimal boat backdrop.\n(D) is wrong because Passage 5's path carries symbolic weight through Rosa's actions, so it is closer to the others than Passage 2 is."
       },
       {
         "id": "3-13",
@@ -924,7 +924,7 @@ const QUESTIONS = {
           "Narrative distance cannot meaningfully be compared across passages that use different points of view."
         ],
         "correct": 2,
-        "explanation": "Comparing the passages shows a real range — Passage 4's confiding first person sits at one end, Passage 3's third-person objective at the other — demonstrating narrative distance as a tool writers vary deliberately by story. Choice B is false; every passage has an identifiable narrative distance, not just Passage 3. Choice A wrongly assumes point of view and narrative distance are the same axis. Choice D contradicts the clear, describable variation across the five texts."
+        "explanation": "Correct: (C) the five passages span a meaningful range, from Passage 4's close first-person intimacy to Passage 3's maximum objective distance. Narrative distance varies with how much inner access the narration gives. Passage 4's \"I\" shares private thoughts, such as \"What I did not say.\" Passage 3 reports only action and speech, admitting \"It wasn't clear if he meant the boat.\" The others lie in between, with Delia and Rosa focalized in limited third person.\n\n(A) is wrong because the passages differ clearly, from first-person confession to outside observation, since Passage 4 gives close first-person access while Passage 3 reports only outward action, so the distances clearly differ.\n(B) is wrong because Passages 1 and 5 grant access to a character's thoughts and Passage 4 gives close access, so closeness varies.\n(D) is wrong because distance can be compared across points of view by asking how much inner access each narration provides."
       },
       {
         "id": "4-13",
@@ -937,7 +937,7 @@ const QUESTIONS = {
           "Memorizing a fixed list of universal literary symbols to apply to any text encountered."
         ],
         "correct": 1,
-        "explanation": "Asking 'why this specific detail, and what does it reveal or accomplish' across character, setting, structure, point of view, and figurative language is the unifying habit this unit's five sections all model. Choice D contradicts this unit's own Key Idea that symbolic meaning is context-specific, not drawn from a universal dictionary. Choice A rules out the interpretive work the exam rewards, mistaking caution for rigor. Choice C describes exactly the plot-summary approach this unit's opening framework warns against."
+        "explanation": "Correct: (B) consistently asking why a specific detail is there and what it reveals or accomplishes. Close reading means treating each detail as a choice. The unit's passages reward this: Delia's \"small white crescent\" shows hidden tension, the sign \"faded from red to a tired pink\" shows time, and Rosa's careful stepping shows deliberate grief. Asking what each detail accomplishes uncovers all of these.\n\n(A) is wrong because the unit's passages rely on inference, such as Tom's voice that \"told her he already knew,\" so staying literal misses meaning.\n(C) is wrong because the passages have little plot to summarize, and summary would not reveal how details create meaning.\n(D) is wrong because memorized universal symbols ignore context; a porch light or a path means something because of its development in the particular passage."
       },
       {
         "id": "5-13",
@@ -950,7 +950,7 @@ const QUESTIONS = {
           "All five are centrally concerned with how people manage unresolved emotional states through small, indirect actions."
         ],
         "correct": 3,
-        "explanation": "Despite different plots and techniques, all five passages explore how people manage — or partially fail to manage — unresolved emotional states through small, indirect, often unspoken actions, a thread this unit's five distinct techniques each illuminate. Choice A dismisses a clear, describable thematic pattern running through every passage. Choice C ignores the same concern surfacing in Delia's guest list, the brothers' silence, the narrator's drawer, and the house's porch light alike. Choice B understates the connection to theme, not just setting, that ties the set together."
+        "explanation": "Correct: (D) all five are centrally concerned with how people manage unresolved emotional states through small, indirect actions. A thematic thread is an idea that recurs across works. Delia presses her thumbnail and hides a list, the house keeps a porch light burning, the brothers coil rope and drift out to sea, the narrator hides a drawer's photograph, and Rosa sets one stone. Each expresses feeling through a small gesture instead of open statement.\n\n(A) is wrong because grief and emotional processing appear in all five passages, such as the funeral in Passage 3 and the fire in Passage 4.\n(B) is wrong because the passages share a strong thematic link in indirect handling of emotion, beyond any similarities of setting.\n(C) is wrong because the passages are closely related by theme, technique, and open endings, not merely by genre and length."
       }
     ]
   },
@@ -1043,7 +1043,7 @@ const QUESTIONS = {
           "The question cannot be answered because the poem never uses any punctuation to mark sentence boundaries."
         ],
         "correct": 2,
-        "explanation": "The poem is in fact one long sentence, and its final line — 'the wall relearning how to be one color' — is where that sentence's grammar and the poem itself both end, an alignment of grammatical, poetic, and thematic closure. (D) is wrong because the poem does use commas and dashes to mark its single sentence's structure. (A) mistakes closure for continuation; there is no dangling clause after the final line. (B) ignores that the whole poem is in fact one grammatically complete sentence, just an unusually long one."
+        "explanation": "Correct: (C) end-stopped, because the final line completes the poem's sentence and closes the poem at the same point. An end-stopped line ends with a natural grammatical pause and punctuation, while an enjambed line runs on without a pause into the next. The poem's last line, \"the wall relearning how to be one color,\" finishes with a period, and the long sentence beginning \"They took the couch\" and its colon-led list of what remained resolves there. Nothing is left grammatically hanging.\n\n(A) is wrong because the final line ends with a period and the thought is complete, so no sentence continues beyond it.\n(B) is wrong because the poem is made of full sentences, even though they are long and carried across many lines.\n(D) is wrong because the poem uses punctuation clearly, including commas, a dash, a colon, and a final period marking where the sentence ends."
       },
       {
         "id": "1-5",
@@ -1095,7 +1095,7 @@ const QUESTIONS = {
           "It suggests the tulips are literally capable of speech and apology."
         ],
         "correct": 1,
-        "explanation": "Personifying the frost-damaged petals as 'apologizing... for believing, too soon' extends the poem's concern from the literal tulips to the speaker's own situation, bridging directly to her explicit later reflection on distinguishing hope from simply being early — the poem's central thematic move. (C) is unsupported; the personification is consistent with, not contrary to, the title's concern with frost's disruption. (A) understates a moment that sets up the poem's whole third-stanza turn. (D) overliteralizes a figurative device — the poem doesn't claim the tulips can actually speak."
+        "explanation": "Correct: (B) it bridges the tulips' fate to the speaker's own later admission about premature hope. Personification gives human feelings to non-human things, and here it prepares a turn. The petals have \"curled into itself, / apologizing to no one in particular / for believing, too soon, in something warmer,\" which turns frost damage into a story about misplaced hope. In the last stanza the speaker says \"I did not plant tulips this year\" and is \"learning... the difference between hope / and simply being early,\" echoing that same belief.\n\n(A) is wrong because the personification sets up the poem's central insight and is not incidental.\n(C) is wrong because it fits the title \"Late Frost\" and extends the tulip image instead of contradicting them.\n(D) is wrong because the petals are only figuratively said to apologize; the poem makes no literal claim that flowers speak."
       },
       {
         "id": "2-4",
@@ -1173,7 +1173,7 @@ const QUESTIONS = {
           "That the speaker plans to delete the voicemail immediately after the poem ends."
         ],
         "correct": 0,
-        "explanation": "Preserving this small, ordinary recording has become a stand-in for a more complete form of holding onto the person themselves — a limited, partial gesture that takes on outsized significance precisely because more substantial connection is no longer possible. (B) is contradicted by the poem's ongoing, unresolved attachment. (D) has no textual support; the poem's whole point is the speaker's inability to delete it. (C) is wrong given three years of keeping the message, which shows longstanding, not sudden, valuing."
+        "explanation": "Correct: (A) preserving the recording has become a limited stand-in for a fuller connection that is no longer possible. A final line often reveals a poem's emotional logic. The speaker says the voice was \"so ordinary / I didn't think to hold onto it on purpose / until holding onto it was all I had left to do.\" The phrase \"all I had left\" shows that keeping the recording is the only connection remaining after loss.\n\n(B) is wrong because the speaker admits \"I have not deleted it\" and still checks the voicemail after three years, which is not moving past grief.\n(C) is wrong because the speaker did value the call later; the line says they did not hold on \"on purpose\" at first, not that it lacked value until a final moment.\n(D) is wrong because the speaker says the confession is not deleting it and nothing suggests plans to delete it."
       },
       {
         "id": "3-5",
@@ -1303,7 +1303,7 @@ const QUESTIONS = {
           "The garden's self-sufficiency parallels the speaker's own claimed personal growth."
         ],
         "correct": 3,
-        "explanation": "The garden's resilience and self-sufficiency parallels the speaker's own claimed personal growth — both garden and speaker have 'learned... how little it actually needs from anyone,' suggesting the house itself, and the speaker's time in it, fostered a kind of independent resilience in both. (B) is the opposite of what the text says — the garden thrives 'whether you tend it or not.' (A) and (C) both miss the direct, explicit parallel the speaker draws ('I think I have learned something similar')."
+        "explanation": "Correct: (D) the garden's self-sufficiency parallels the speaker's own claimed personal growth. A symbol in a poem stands for something about the speaker. The garden \"will come back in April / whether you tend it or not — it has learned... how little it actually needs from anyone,\" and then the speaker says \"I think I have learned something similar.\" The word \"similar\" ties the garden's resilience directly to the speaker's growth.\n\n(A) is wrong because the speaker explicitly links the garden to their own learning with the phrase \"something similar.\"\n(B) is wrong because the lines say the garden returns \"whether you tend it or not,\" which means it does not need constant care.\n(C) is wrong because the garden's quiet renewal supports the poem's themes of growth and change instead of contradicting them."
       },
       {
         "id": "5-5",
@@ -1342,7 +1342,7 @@ const QUESTIONS = {
           "Auditory imagery, appealing primarily to the reader's sense of sound, evoked by the implied rustle of petals opening in the early spring air."
         ],
         "correct": 2,
-        "explanation": "The first stanza's imagery is visual and tactile — 'red cups lifted' appeals to sight while suggesting an upward, reaching physical posture, grounding the poem's opening in concrete sensory detail before the more abstract reflection that follows. (A) and (B) are unsupported; no smell or taste language appears in the stanza. (D) is likewise unsupported — nothing describes a sound in the tulips' emergence."
+        "explanation": "Correct: (C) visual and tactile imagery, because 'red cups lifted' appeals to sight while suggesting an upward, reaching posture. Imagery is language that appeals to the senses. The first stanza describes tulips as \"red cups lifted like small impatient hands / reaching for a summer,\" giving color and shape for sight and the sense of hands reaching for touch. The stanza describes no flavor, scent, or sound.\n\n(A) is wrong because nothing in the stanza refers to taste or eating, so gustatory imagery does not apply.\n(B) is wrong because no flower fragrance or smell is mentioned in the stanza, since the stanza mentions no flower fragrance or scent anywhere, only color, shape, and reaching motion.\n(D) is wrong because the stanza gives no sounds and no rustle; the implied rustle in the choice is not in the poem, which relies on color and shape."
       },
       {
         "id": "3-6",
@@ -1394,7 +1394,7 @@ const QUESTIONS = {
           "The specific object chosen is arbitrary and could be swapped for any other object with no change in meaning."
         ],
         "correct": 1,
-        "explanation": "A picture frame specifically evokes a captured, framed moment — apt for a poem centrally concerned with memory, absence, and the traces remembered things leave behind — so the object choice reinforces theme rather than being incidental. (D) is wrong because a mirror or clock would carry different associations (self-image, time) that wouldn't fit the memory-and-absence focus as precisely. (C) has it backwards — the frame supports, not undercuts, the poem's themes. (A) overreaches; the poem uses the frame symbolically, not as commentary on photography itself."
+        "explanation": "Correct: (B) a picture frame evokes a captured, framed memory, fitting a poem about absence and remembering. Specific objects carry associations that deepen theme. The poem centers on \"a single nail still holding / the shape of a picture frame that isn't there,\" and the frame once displayed something \"being looked at, being loved.\" A frame holds a remembered image, so its absence mirrors the poem's concern with what is lost and recalled.\n\n(A) is wrong because the poem never discusses photography as an art; the frame matters for memory and loss.\n(C) is wrong because the frame strengthens the poem's themes of memory and loss and does not undercut them.\n(D) is wrong because a frame carries ideas about keeping and displaying that a clock or mirror would not, so the choice affects meaning."
       },
       {
         "id": "2-7",
@@ -1472,7 +1472,7 @@ const QUESTIONS = {
           "The title's literal event becomes, by the final stanza, a vehicle for the speaker's own psychological insight."
         ],
         "correct": 3,
-        "explanation": "The title's literal meteorological event becomes, by the final stanza, an explicit vehicle for the speaker's psychological insight about premature hope and self-protective caution — the natural phenomenon and the human reflection stay connected across the poem's full arc. (A) misses that connection entirely. (B) is backwards; the title's fuller significance only becomes clear once the final stanza is read. (C) ignores that the final stanza directly extends, rather than drops, the frost's meaning."
+        "explanation": "Correct: (D) the title's literal event becomes, by the final stanza, a vehicle for the speaker's own psychological insight. A title can name a literal event that the poem then uses as a metaphor. \"Late Frost\" is the literal event that curls the petals in stanza two, and in the final stanza the speaker admits \"I did not plant tulips this year. I am learning, / slowly, the difference between hope / and simply being early,\" ending with \"what April costs.\" The frost becomes a lesson about the speaker's life.\n\n(A) is wrong because the final stanza draws directly on the frost and the early tulips named by the title.\n(B) is wrong because the title stays relevant in the conclusion through the speaker's reflection and the mention of April.\n(C) is wrong because the final stanza does not turn to gardening techniques but uses the planting decision to express a lesson about hope."
       },
       {
         "id": "3-8",
@@ -1524,7 +1524,7 @@ const QUESTIONS = {
           "The title emphasizes the movers' professionalism and careful handling of the furniture."
         ],
         "correct": 1,
-        "explanation": "'What the Movers Left' directs attention to remainder rather than removal — what stayed, not what went — shaping the reader toward the poem's central concern with traces and residue before the poem itself even begins. (A) is unsupported; the title accurately previews the poem's focus on the mark left behind. (C) and (D) both mistake 'movers' as the title's subject of interest, when the title's real emphasis, grammatically and thematically, falls on 'left.'"
+        "explanation": "Correct: (B) it emphasizes what was left behind rather than what was taken, foregrounding absence and residue. Titles frame how we read a poem. \"What the Movers Left\" points at the remains: the poem lists what the movers took, such as \"the couch, the bed, the good glasses,\" but spends its detail on \"a nail, a paler patch\" and \"a small dark rectangle on the wall.\" The leftover traces become the center.\n\n(A) is wrong because the title matches the poem's focus on the nail and the faded rectangle.\n(C) is wrong because the poem is not about the movers' business practices and mentions them only as the cause of the absence.\n(D) is wrong because the poem does mention carrying the frame \"carefully in newspaper,\" but the title stresses what remains, not the professionalism of the movers."
       },
       {
         "id": "2-9",
@@ -1602,7 +1602,7 @@ const QUESTIONS = {
           "The developing tulip/frost metaphor, paired with visual and tactile imagery bridging nature to insight."
         ],
         "correct": 3,
-        "explanation": "The poem relies most heavily on its developing figurative language — the tulip/frost personification — combined with concrete visual and tactile imagery, using nature as a bridge to personal insight, drawing on this unit's Sections 2.2 and 2.4 together. (A) is simply false given the metaphor and simile already identified in earlier items. (B) is inaccurate; the poem is free verse, not metered. (C) overstates a single device at the expense of the figurative language that actually drives the poem's meaning."
+        "explanation": "Correct: (D) the developing tulip/frost metaphor, paired with visual and tactile imagery bridging nature to insight. An extended metaphor develops one comparison across a poem. The tulips are \"betting everything on a warm March,\" the frost is \"quiet as a held grudge,\" and the speaker finally says \"I am learning... the difference between hope / and simply being early.\" Imagery like \"red cups lifted like small impatient hands\" ties nature to the speaker's insight.\n\n(A) is wrong because the poem is full of figurative language, including similes and personification, since the poem is full of figurative language, including similes, personification, and a developing metaphor.\n(B) is wrong because the lines vary in length and the poem has no strict regular meter in each line.\n(C) is wrong because enjambment is present but is not the sole dominant technique; the metaphor and imagery carry the meaning."
       },
       {
         "id": "3-10",
@@ -1615,7 +1615,7 @@ const QUESTIONS = {
           "Sustained address to an absent listener, paired with the concrete, ordinary imagery of the voicemail's content."
         ],
         "correct": 3,
-        "explanation": "This passage relies most heavily on its speaker's sustained address to an absent listener, combined with concrete, ordinary imagery (the voicemail's mundane content) that makes an abstract grief tangible and specific — drawing primarily on this unit's Sections 2.2 and 2.5 together. (B) and (C) are both wrong because the poem is free verse, with no meter or rhyme scheme. (A) misreads the poem's enjambment, which serves reflective pacing, not comedy."
+        "explanation": "Correct: (D) sustained address to an absent listener, paired with the concrete, ordinary imagery of the voicemail's content. Apostrophe or direct address speaks to someone not present. The speaker says \"I still can't / press the button that would make your voice / stop existing,\" speaking to the lost person, and recalls the call \"about picking up milk, your voice so ordinary.\" The mundane detail of milk gives the loss weight.\n\n(A) is wrong because the enjambment serves a grave, confessional tone and not comic misdirection, since the poem treats loss seriously and its line breaks serve a grave confessional tone.\n(B) is wrong because the poem has no rigid, unchanging rhyme scheme; it is free verse with irregular lines.\n(C) is wrong because the poem does not rely on strict meter or notable sound devices, and its impact comes from address and detail."
       },
       {
         "id": "4-10",
@@ -1628,7 +1628,7 @@ const QUESTIONS = {
           "Sound devices, since the poem's rhyme scheme is its most notable feature."
         ],
         "correct": 2,
-        "explanation": "This passage relies most heavily on its sustained, developing extended metaphor, which structures the entire poem and carries its central meaning from beginning to end — a direct, extended illustration of this unit's Section 2.4 principle about metaphor development across a full poem. (A) is inaccurate; the poem is free verse. (B) understates the metaphor in favor of a secondary device. (D) is wrong because the poem doesn't rhyme."
+        "explanation": "Correct: (C) the sustained, developing metaphor of grief as long division, structuring the whole poem. An extended metaphor carries a single comparison across a poem. It opens \"Grief is long division,\" then speaks of a \"remainder that never quite resolves,\" mentions \"carry the one,\" checking \"by multiplying back,\" and ends with the remainder \"at the bottom of the page.\" Every stanza uses math to describe grief.\n\n(A) is wrong because the poem is in free verse with irregular line lengths and no strict formal structure.\n(B) is wrong because enjambment appears but the poem's meaning is carried mainly by the long division metaphor, not line breaks alone.\n(D) is wrong because the poem has no notable rhyme scheme, so sound devices are not its main feature."
       },
       {
         "id": "5-10",
@@ -1667,7 +1667,7 @@ const QUESTIONS = {
           "The stanza breaks contradict and disrupt the poem's otherwise chronological progression."
         ],
         "correct": 0,
-        "explanation": "The three stanzas correspond to three distinct movements — the tulips' hopeful blooming, the frost's disruption, and the speaker's reflective self-application — giving the poem's natural, chronological progression a clear structural counterpart in its stanza breaks. (B) and (C) both dismiss a correspondence that's easy to trace stanza by stanza. (D) gets the relationship backwards; the stanza breaks track the chronology rather than working against it."
+        "explanation": "Correct: (A) each stanza corresponds to one movement: blooming, disruption, and reflection. Stanza structure supports meaning when each section handles a stage of thought. Stanza one has the tulips that \"came up early, confident\"; stanza two begins \"Then the frost came back, uninvited\"; stanza three turns to the speaker with \"I did not plant tulips this year.\" The shifts follow the three movements.\n\n(B) is wrong because the stanza breaks fall exactly where the poem changes from blooming to frost to reflection, so they relate to meaning.\n(C) is wrong because the divisions are not arbitrary; each stanza handles a distinct stage, since each stanza break lands exactly where the poem moves from blooming to frost to the speaker.\n(D) is wrong because the breaks do not disrupt the progression but mark its steps from spring to frost to the speaker's later admission."
       },
       {
         "id": "3-11",
@@ -1823,7 +1823,7 @@ const QUESTIONS = {
           "The ability to summarize each poem's literal, paraphrased content, restating what happens in each poem in plain, non-analytical prose."
         ],
         "correct": 1,
-        "explanation": "The single most important skill built across this unit's five poems is tracing how specific details and figurative choices develop and accumulate meaning across a poem's FULL length — not analyzing isolated images in isolation, but understanding cumulative, developing structure. (A) and (D) both describe surface-level recall or paraphrase rather than analysis. (C) is especially off-target since none of this unit's poems actually use rhyme schemes."
+        "explanation": "Correct: (B) tracing how a poem's concrete details and figurative choices accumulate meaning across its full length. Close reading of poetry means watching how images and devices build. In the unit, a nail and a paler patch build absence, tulips and frost build a lesson on hope, and \"Grief is long division\" extends through \"the remainder\" to the end. Understanding each poem comes from following accumulation, not isolating a feature.\n\n(A) is wrong because memorizing content builds no analytical skill and would not transfer to new poems.\n(C) is wrong because identifying rhyme schemes alone is insufficient, and several of these poems are free verse with no scheme to find.\n(D) is wrong because plain paraphrase restates what happens but does not explain how imagery and form create meaning."
       },
       {
         "id": "5-13",
@@ -2828,7 +2828,7 @@ const QUESTIONS = {
           "That the narrator chose to describe the meeting to us at all, rather than staying silent about it."
         ],
         "correct": 1,
-        "explanation": "The correct answer is the repeated, almost compulsive insistence on 'calm' and 'professional,' combined with the disproportionate fifteen-minute length of a supposedly simple explanation — someone genuinely composed rarely needs this much repeated self-reassurance, exactly the internal signal Section 4.1 teaches readers to detect. Choice D is wrong because merely choosing to narrate an event says nothing about whether the account is trustworthy — plenty of reliable narrators describe meetings in detail. Choice A misreads the three-years-ago detail as a memory issue; it actually characterizes the narrator's tendency to relitigate old grievances (see 1-5), not a signal about their emotional state in this specific meeting. Choice C points at Denise's behavior, but the question asks about signals of the narrator's OWN unreliability — what Denise did doesn't bear on whether the narrator's self-report can be trusted."
+        "explanation": "Correct: (B) the repeated insistence on staying 'calm' and 'professional,' padded into a supposedly simple explanation that somehow runs fifteen minutes. An unreliable narrator is one whose account the reader cannot fully trust because their words clash with the evidence they give. The narrator declares \"complete professionalism\" and \"calm,\" yet admits the explanation \"take[s] fifteen minutes and cover[s] several projects from three years ago that had nothing directly to do with the current proposal.\" The over-insistence plus the rambling detail signals an agitated state hidden behind claims of calm.\n\n(A) is wrong because the fifteen-minute tangent is not mere time mismanagement; it contradicts the claim of calm, and the stem asks about emotional state.\n(C) is wrong because noting that Denise raised her voice first shifts blame but does not itself show the narrator's emotions are distorted.\n(D) is wrong because simply telling the story is the premise of any narration and is no signal of unreliability."
       },
       {
         "id": "1-2",
@@ -2841,7 +2841,7 @@ const QUESTIONS = {
           "It confirms the narrator's account was accurate, since coworkers were simply following up on ordinary post-meeting business."
         ],
         "correct": 1,
-        "explanation": "Multiple coworkers independently checking on the narrator is external, corroborating evidence that contradicts the narrator's own claim that 'nothing unusual happened' — drawn from the narrator's own account, it undercuts their version, exactly the internal-evidence-against-itself pattern Section 4.1 emphasizes. Choice D gets the logic backward: if the meeting were as unremarkable as claimed, multiple people wouldn't feel compelled to check in — the concern itself is the inconsistency. Choice A has no textual support; the passage explicitly says people checked on 'the narrator,' not Denise, and there's no intermediary framing anywhere in the text. Choice C is a plausible-sounding but unsupported generalization — the passage gives no indication this workplace has a norm of checking in after every meeting, and inventing one to explain away the detail ignores the narrator's own admission that the repeated questioning struck them as strange."
+        "explanation": "Correct: (B) it offers outside evidence that undercuts the narrator's claim that 'nothing unusual happened' in the meeting. Unreliability is often exposed when other characters' behavior contradicts the narrator's version. The narrator says \"anyone in that room could confirm nothing unusual happened at all,\" yet \"several people came up to me individually to check that I was okay.\" People do not check on someone individually after an ordinary meeting, so the coworkers' concern reveals that something noticeable occurred.\n\n(A) is wrong because the narrator says people checked that \"I was okay,\" so the concern was about the narrator and not Denise.\n(C) is wrong because the narrator himself calls the checking \"strange,\" and nothing suggests it is a routine habit.\n(D) is wrong because the coworkers' behavior contradicts the claim of a normal meeting, and the narrator has to explain \"more than once\" that he is fine."
       },
       {
         "id": "1-3",
@@ -2854,7 +2854,7 @@ const QUESTIONS = {
           "This detail is incidental scene-setting and doesn't connect to the passage's central technique of unreliable narration."
         ],
         "correct": 2,
-        "explanation": "This admission reveals an unacknowledged tension within the narrator's own account — genuine confusion about repeated questioning sits awkwardly next to the confident claim that nothing unusual happened, a specific internal contradiction the passage uses to signal unreliability without any character ever stating it directly. Choice D dismisses a detail the question itself flags as significant; 'having to explain it more than once' is precisely the kind of small, telling repetition Section 4.1 asks readers not to skip past. Choice B misreads the narrator as self-aware and candid, when the passage shows the opposite — the narrator never acknowledges an outburst, only puzzlement at others' reactions. Choice A shifts blame onto the coworkers with no textual basis; nothing suggests their concern was irrational, and reading it that way requires ignoring how many of them acted the same way."
+        "explanation": "Correct: (C) it exposes a tension in the narrator's account: genuine confusion sitting uneasily beside a confident claim that nothing was wrong. An unreliable narrator's own wording can reveal what the narrator refuses to see. The narrator says \"I did notice I had to explain it more than once, and I'm still not entirely sure why they kept asking.\" The narrator notes the repeated asking yet cannot connect it to the possibility that something did go wrong, which leaves the claim of being \"completely fine\" shaky.\n\n(A) is wrong because it blames the coworkers for pestering without reason, but the passage implies their concern was justified by the narrator's behavior.\n(B) is wrong because the narrator never admits an outburst; he insists he stayed calm, so he is not candid or transparent.\n(D) is wrong because the detail directly supports the central technique, since the narrator's confusion is evidence of unreliability."
       },
       {
         "id": "1-4",
@@ -2893,7 +2893,7 @@ const QUESTIONS = {
           "Situational irony — the generator, purchased and tested for exactly this ordinary storm, fails for an unrelated reason (a squirrel)."
         ],
         "correct": 3,
-        "explanation": "This is situational irony — the generator, specifically purchased and tested for exactly this kind of ordinary storm, fails due to an entirely unrelated cause (a squirrel), contradicting the reasonable expectation that this deliberate investment would prevent precisely this kind of failure. Choice B wrongly denies any irony despite the passage's central contrast between preparation and outcome. Choice C misapplies dramatic irony — the passage never establishes that the reader learns the squirrel detail before any character does; it's presented as a fact 'later confirmed,' available to reader and townspeople at the same time, not a gap in a character's in-scene knowledge. Choice A misreads the mayor's quote as insincere; nothing in the passage signals sarcasm — he means the statement earnestly, which is precisely what makes the later failure ironic rather than merely mocking."
+        "explanation": "Correct: (D) situational irony, because the generator, purchased and tested for exactly this ordinary storm, fails for an unrelated reason, a squirrel. Situational irony occurs when what happens is the opposite of what was expected. The mayor called the generator \"insurance against exactly the kind of thing we hope never happens,\" and the storm was \"entirely unremarkable — well within the range the generator had been designed and tested for.\" Yet a squirrel \"chewed through a specific wire,\" so the device \"failed to do the one single thing it existed to do.\"\n\n(A) is wrong because the mayor's remark is sincere, not sarcastic, and the irony comes from later events, not his tone.\n(B) is wrong because the failure is the opposite of what was expected, and it did not occur on any maintenance schedule.\n(C) is wrong because dramatic irony requires the reader to know something characters don't, and the squirrel is revealed only afterward, not before."
       },
       {
         "id": "2-2",
@@ -2906,7 +2906,7 @@ const QUESTIONS = {
           "It shows the mayor anticipated the generator might eventually fail in exactly this way."
         ],
         "correct": 2,
-        "explanation": "This quote establishes the generator's intended purpose explicitly and confidently before the narrative reveals its failure, creating a foundation of stated expectation that the passage's actual events directly and ironically undermine. Choice A misses that the quote is doing real structural work — it's the setup half of the passage's central irony, not a throwaway line. Choice D inverts the point; the mayor's confidence is precisely what makes the later failure ironic, not a sign of foresight — he explicitly calls it protection against what 'we hope never happens,' with no hint he expects failure. Choice B confuses contradiction of expectation with contradiction of the passage itself — the quote and the later event are in tension by design, not because one detail is a factual inconsistency in the story."
+        "explanation": "Correct: (C) it sets up a confident, stated expectation that the passage's actual events go on to ironically undercut. Irony depends on a gap between expectation and outcome, and a quoted promise establishes the expectation. The mayor calls the generator \"insurance against exactly the kind of thing we hope never happens,\" and when the storm arrives it is \"entirely unremarkable,\" yet the generator fails. The confident language makes the failure more striking.\n\n(A) is wrong because the quote is the first step in the passage's ironic structure and frames the later failure.\n(B) is wrong because the quote and the failure are linked, since the failure happens in exactly the kind of storm the mayor described, even though they occur at different times.\n(D) is wrong because the mayor expected the generator to protect the hospital and did not foresee a squirrel's damage."
       },
       {
         "id": "2-3",
@@ -2945,7 +2945,7 @@ const QUESTIONS = {
           "This final image carries no particular rhetorical or thematic weight in the passage and is purely descriptive in function."
         ],
         "correct": 1,
-        "explanation": "This juxtaposition of urgent, improvised human effort (flashlight-lit procedures) against the generator's ironic, near-total physical intactness ('perfectly intact except for one small, chewed wire') sharpens the irony by emphasizing how minor and disproportionate the actual point of failure was relative to its consequences. Choice D undersells an image the passage clearly positions as its closing, culminating detail. Choice A invents a contradiction; nothing about the installation description conflicts with this final image — they're consistent, both emphasizing the generator's careful preparation. Choice C has no support in the text; the passage praises nothing and criticizes nothing about the medical staff's competence, only describes the improvised conditions they had to work under."
+        "explanation": "Correct: (B) it sharpens the irony by setting urgent, improvised human effort against how minor the actual point of failure was. Juxtaposition puts two things side by side to heighten contrast. The doctors work \"by flashlight for the more delicate procedures,\" while the generator, \"perfectly intact except for one small, chewed wire,\" sits idle. The huge consequences set against a tiny cause emphasize the irony of the $200,000 investment.\n\n(A) is wrong because the passage never says hospital staff installed the generator; it says the town installed it.\n(C) is wrong because the passage presents the staff working with flashlights and battery backups for six hours, which is resourcefulness and not incompetence.\n(D) is wrong because the final image carries heavy weight, concentrating the contrast between the generator's purpose and its failure."
       },
       {
         "id": "3-1",
@@ -2958,7 +2958,7 @@ const QUESTIONS = {
           "The motif of checking the doors, moving from unconscious ritual, to anxious repetition after a nearby break-in, to relaxed routine."
         ],
         "correct": 3,
-        "explanation": "This passage tracks the motif of door-checking across three distinct stages — unconscious ritual, anxious disruption after a nearby break-in, and eventual relaxed integration — exactly the kind of multi-stage motif development Section 4.3 emphasizes tracking rather than analyzing from a single appearance. Choice B invents content not in the passage; no crime statistics are ever mentioned, only a single nearby break-in as an inciting event. Choice A is simply incorrect — a clear, three-stage pattern is directly stated in the text. Choice C misidentifies a passing origin detail (the grandmother's house, mentioned once in the opening) as the motif itself; the grandmother never reappears in the middle or ending excerpts, so she can't be what's being tracked across all three stages."
+        "explanation": "Correct: (D) the motif of checking the doors, moving from unconscious ritual to anxious repetition after a nearby break-in to relaxed routine. A motif is a repeated element that develops across a work. In the beginning Marguerite checks the doors \"in that order\"; in the middle she checks \"four times instead of the usual once\"; at the end she checks \"in whatever order her hands happen to move,\" a \"wordless comfort.\" The same act appears at each stage with changing meaning.\n\n(A) is wrong because a motif is clearly present in the repeated door checking, since the repeated door checking is plainly a motif that appears and changes across all three excerpts.\n(B) is wrong because the passage mentions one break-in but tracks no crime statistics and follows Marguerite's private ritual.\n(C) is wrong because the grandmother appears only in the first excerpt and is not referenced at all three stages."
       },
       {
         "id": "3-2",
@@ -2971,7 +2971,7 @@ const QUESTIONS = {
           "It shows no meaningful psychological change occurring between these first two excerpted stages of the passage as a whole."
         ],
         "correct": 1,
-        "explanation": "This shift reveals how a specific external event (the nearby break-in) disrupted a previously stable, unconscious ritual, introducing anxious repetition and self-doubt ('unable to quite trust her own memory') where confident habit had existed before — external circumstance directly affecting an established internal pattern. Choice A misdescribes the relationship between stages; the middle stage doesn't contradict the ending, it's one step in a coherent three-part progression the ending later resolves. Choice C is the opposite of what happens — checking four times instead of once shows Marguerite becoming more vigilant, not less. Choice D ignores the clearly marked change in both frequency (once versus four times) and quality (confident habit versus anxious self-doubt) between the two stages."
+        "explanation": "Correct: (B) it shows a specific event, the nearby break-in, disrupting a stable, unconscious ritual into anxious repetition. A shift in a repeated pattern reveals how an event changes a character. At first Marguerite checks the three doors once in a fixed order; \"The night after the break-in two houses down\" she checks \"four times instead of the usual once,\" and she is \"unable to quite trust her own memory of having already checked, though she had.\" The trigger and the doubt show anxiety replacing routine.\n\n(A) is wrong because the middle stage is consistent with the ending, which says the ritual later settles into comfort, so there is continuity.\n(C) is wrong because she checks more, not less, which shows increased attention and vigilance, since she checks more times and with more doubt, which shows heightened attention and not less care.\n(D) is wrong because the change from one check to four plus distrust of memory is a meaningful psychological shift."
       },
       {
         "id": "3-3",
@@ -3023,7 +3023,7 @@ const QUESTIONS = {
           "No clear or meaningful juxtaposition is actually established anywhere in this passage."
         ],
         "correct": 2,
-        "explanation": "This passage establishes a central juxtaposition between the chaotic, joyful, multi-generational childhood kitchen and the quiet, efficient, solo adult kitchen — two settings placed side by side specifically to highlight their contrast, exactly the structural juxtaposition Section 4.4 covers. Choice A invents a detail absent from the text; no specific cities are ever named, only two kitchens. Choice B misreads the passage's content — cumin amounts are mentioned only as an example of the childhood kitchen's lively arguing, not as a recipe comparison structuring the passage. Choice D denies a contrast the passage's entire two-part structure is organized around, from its title onward."
+        "explanation": "Correct: (C) the chaotic, multigenerational childhood kitchen set against the quiet, solitary kitchen of Adaeze's current apartment. Juxtaposition places two contrasting things side by side so their differences stand out. The first kitchen has \"six burners going at once, three generations arguing amiably\" and \"controlled, joyful chaos,\" while the second has \"a single pot on a single burner\" and \"the specific silence of a kitchen built for one.\" The passage is built on this contrast.\n\n(A) is wrong because the passage compares two kitchens, not cities, and never names any location.\n(B) is wrong because it mentions cumin only in passing and does not compare two recipes of one dish.\n(D) is wrong because the passage clearly sets up the contrast between loud and quiet kitchens, so there is a meaningful juxtaposition."
       },
       {
         "id": "4-2",
@@ -3062,7 +3062,7 @@ const QUESTIONS = {
           "It conflicts with the passage's earlier description of the kitchen system Adaeze deliberately chose for her own use."
         ],
         "correct": 0,
-        "explanation": "This final sentence crystallizes the passage's central juxtaposition into a single, precise closing image — explicitly naming the standard (the childhood kitchen's sound) against which her current silence is being measured, making the juxtaposition's emotional function fully explicit in the passage's final line. Choice B has no textual support; nothing in the passage suggests any plan to move, only a reflective comparison of two remembered and current spaces. Choice C undersells the sentence's function — it isn't a repetition but a synthesis, the first place the passage explicitly names the childhood kitchen as the standard for judging the present one. Choice D invents a contradiction; her having 'never once heard' this particular silence growing up is fully consistent with, not opposed to, her having since chosen a quieter kitchen as an adult."
+        "explanation": "Correct: (A) it crystallizes the central contrast by naming, in its final line, the standard her current silence is measured against. A closing sentence in a juxtaposition passage often states the measure by which the two sides are compared. Adaeze's silence is one \"she'd never once heard, growing up, in the kitchen that had taught her what a kitchen was supposed to sound like.\" The childhood kitchen of \"joyful chaos\" becomes the benchmark, so the quiet one feels lacking even though it has \"nothing wrong with it, exactly.\"\n\n(B) is wrong because nothing in the passage suggests a plan to move back; she \"had chosen this quiet, efficient kitchen.\"\n(C) is wrong because the sentence adds a new idea, that the childhood kitchen taught her what a kitchen should sound like, which was not stated earlier.\n(D) is wrong because the sentence does not conflict with her chosen system; it admits she chose it while revealing the unease beneath that choice."
       },
       {
         "id": "4-5",
@@ -3075,7 +3075,7 @@ const QUESTIONS = {
           "The passage's juxtaposition operates at neither the sentence level nor the structural level."
         ],
         "correct": 0,
-        "explanation": "This juxtaposition operates primarily at the structural level — the passage's overall organization alternates between full paragraphs describing each distinct kitchen setting, rather than placing brief, contrasting images within a single sentence, giving each setting full development before the contrast's cumulative effect registers. Choice B misdescribes the passage's actual structure, which spans multiple paragraphs per setting, unlike the unit's own sentence-level worked example (the hospital waiting room passage). Choice C denies a level of operation the passage clearly does use — its structure is exactly how the contrast is built. Choice D contradicts Section 4.4's own definition, which the passage satisfies precisely: two contrasting elements placed side by side specifically to highlight their difference."
+        "explanation": "Correct: (A) primarily structural, because full paragraphs are devoted to each kitchen before the cumulative contrast between them registers. Sentence-level juxtaposition puts opposites within a single sentence, while structural juxtaposition arranges larger parts against each other. Paragraph one describes the childhood kitchen with \"six burners going at once\"; paragraph two describes \"a single pot on a single burner\"; paragraph three reflects on the quiet. The reader feels the contrast only after both are fully presented.\n\n(B) is wrong because the contrast is not contained in one sentence; it spans three paragraphs, unlike a single-sentence example.\n(C) is wrong because the passage fits the definition of juxtaposition, placing two opposing situations side by side.\n(D) is wrong because the juxtaposition works at the structural level, in the arrangement of paragraphs, so the claim that it works at neither is false."
       },
       {
         "id": "5-1",
@@ -3101,7 +3101,7 @@ const QUESTIONS = {
           "It suggests Gerald is simply an unusually eloquent and confident public speaker at social gatherings, since dinner-party guests are typically impressed by someone who can speak at length and with apparent ease about their own character."
         ],
         "correct": 1,
-        "explanation": "This detail uses length itself ironically — the excessive words required to disclaim wanting recognition undercuts the disclaimer's content, since someone genuinely uninterested in recognition would likely need far fewer words to express that indifference, reinforcing the passage's authorial distance from Gerald's stated self-image. Choice D reframes an ironic detail as a flattering trait, missing that the passage isn't praising Gerald's eloquence but noting the suspicious excess of it. Choice A has the logic backward — the detail is presented specifically to cast doubt on, not confirm, Gerald's self-assessment. Choice C dismisses a detail the passage clearly foregrounds through its own pointed phrasing ('somehow always required'), a phrase that signals authorial skepticism."
+        "explanation": "Correct: (B) the sheer length needed to disclaim wanting recognition undercuts the disclaimer, since genuine indifference wouldn't require so many words. Authorial distance means the author lets the reader see more than the character does, often through irony. Gerald declines a plaque \"with visible reluctance,\" and the narrator notes this \"somehow always required at least four or five sentences to fully express.\" Someone truly indifferent to recognition would not talk at length about it, so the detail reveals the opposite desire.\n\n(A) is wrong because the detail undercuts, instead of confirming, his claim to be \"intensely private.\"\n(C) is wrong because the detail has an ironic effect by exposing the gap between his words and his behavior.\n(D) is wrong because the text frames the length as reluctance that \"somehow\" takes many sentences, which is ironic, not praise for his eloquence."
       },
       {
         "id": "5-3",
@@ -3114,7 +3114,7 @@ const QUESTIONS = {
           "It carries no particular ironic weight beyond simply describing what text appears on the plaque."
         ],
         "correct": 2,
-        "explanation": "This wording represents the passage's irony at its most concentrated and self-defeating — Gerald actively writing and submitting text explicitly proclaiming his lack of interest in recognition, the ultimate contradiction between claimed value and actual documented behavior within a single, precisely quoted detail. Choice B is directly contradicted by the passage, which states plainly that 'Gerald had... submitted the exact wording himself.' Choice A misreads consistency as contradiction; this detail doesn't conflict with the earlier characterization, it's the culmination of the same pattern established from the passage's opening line. Choice D understates a detail the passage treats as its climactic piece of evidence, deliberately placed and quoted in full for its ironic effect."
+        "explanation": "Correct: (C) it concentrates the central irony into one detail, Gerald personally writing words proclaiming his lack of interest in recognition. Irony arises when actions contradict stated claims. The plaque reads \"A Man Who Never Sought Recognition For This Or Any Gift,\" and the narrator reveals that Gerald \"had, it turned out, submitted the exact wording himself.\" Seeking recognition by writing a statement that he never sought it is the passage's irony in one act.\n\n(A) is wrong because the wording matches his habit of announcing his modesty at dinner parties, so it agrees with earlier details while exposing the irony.\n(B) is wrong because the passage says he submitted the exact wording himself and was \"particular\" about it, not that the committee wrote it.\n(D) is wrong because the wording carries the main irony, since it announces modesty on the largest plaque in the lobby."
       },
       {
         "id": "5-4",
@@ -3153,7 +3153,7 @@ const QUESTIONS = {
           "First-person, which lets the reader see the narrator's own self-justifying account closely enough to catch its inconsistencies."
         ],
         "correct": 3,
-        "explanation": "This passage uses first-person narration, essential to its unreliable narration technique — direct access to the narrator's own self-justifying account is specifically what allows the reader to detect internal inconsistencies and defensive patterns, an effect third-person narration would struggle to achieve as intimately. Choice C misdescribes the passage, which is saturated with the narrator's own interpretive claims ('I remained calm'), not objective, unfiltered reporting. Choice A is contradicted by the text's single, consistent 'I' throughout; no other character's internal thoughts are ever presented. Choice B has no textual basis — the passage never addresses the reader as 'you'; it consistently uses first-person 'I' to describe the narrator's own experience."
+        "explanation": "Correct: (D) first-person, which lets the reader see the narrator's own self-justifying account closely enough to catch its inconsistencies. Point of view affects unreliable narration because the reader receives events only through the narrator's voice. The narrator says \"I want to be clear that I handled the situation with complete professionalism\" and \"I am the kind of person who provides context,\" and these defensive claims clash with the fifteen-minute tangent and coworkers' concern. Hearing the justifications directly lets us see the gap.\n\n(A) is wrong because the narration is not third person and does not move among several characters' thoughts.\n(B) is wrong because the narrator says \"I,\" and the reader is addressed only in phrases like \"if you asked them,\" not throughout.\n(C) is wrong because the narration gives access to the narrator's thoughts and justifications, so it is not objective and an outside view is not what drives the effect."
       },
       {
         "id": "2-6",
@@ -3179,7 +3179,7 @@ const QUESTIONS = {
           "Third-person objective, providing no access to any character's internal experience."
         ],
         "correct": 2,
-        "explanation": "This passage uses third-person limited narration focalized consistently through Marguerite across all three time periods, providing access to her internal experience of the ritual (the counting, the disrupted trust, the eventual wordless comfort) without shifting to any other character's perspective. Choice D is contradicted by details like 'unable to quite trust her own memory,' which require internal access an objective point of view wouldn't allow. Choice A misidentifies the pronoun pattern; the passage consistently uses 'she,' never 'I,' so this isn't first-person narration. Choice B is false — the same third-person perspective on Marguerite is maintained across all three excerpts, with no shift to another character's viewpoint."
+        "explanation": "Correct: (C) third-person limited, consistently focalized through Marguerite across all three time periods. Third-person limited uses \"she\" while staying close to one character. Each excerpt follows Marguerite: she \"checked that the front door was locked,\" was \"unable to quite trust her own memory of having already checked,\" and finally finds comfort in \"her own hands confirming, once, that the house was safe enough to sleep in.\" The narration stays with her and reveals her feelings and doubts.\n\n(A) is wrong because the narrator says \"she\" and \"Marguerite\" and never \"I,\" so it is not first person.\n(B) is wrong because only Marguerite is followed in all three excerpts, with no other character's viewpoint.\n(D) is wrong because the passage reveals her thoughts, such as her distrust of her own memory and the comfort she feels, so it is not objective."
       },
       {
         "id": "4-6",
@@ -3205,7 +3205,7 @@ const QUESTIONS = {
           "The passage does not use any discernible or consistent point of view from beginning to end, shifting between speakers without notice."
         ],
         "correct": 0,
-        "explanation": "This third-person narration reports Gerald's stated self-assessment alongside his actual documented behavior without a narrator directly correcting him — this narrative choice lets the CONTRADICTION between claim and action speak for itself, creating authorial distance through juxtaposed evidence rather than explicit narratorial judgment. Choice D is contradicted by the passage's clear, consistent third-person perspective throughout, tracking Gerald's statements and actions. Choice B has no textual support — the passage never addresses Gerald as 'you'; it describes him in the third person ('Gerald had always considered himself...'). Choice C is false; if Gerald narrated his own story in first person, the ironic distance the passage depends on would largely collapse, since we'd only have his own account rather than the narrator's juxtaposed reporting."
+        "explanation": "Correct: (A) third-person narration that reports Gerald's self-assessment alongside his documented behavior without correcting him. Authorial distance is the space between a narrator's tone and the character's self-image, and here the narrator quotes Gerald without comment. He says he gives \"quietly, without needing recognition, because that's simply who I am,\" and the narrator reports that his name appears \"in letters considerably larger than any other name listed.\" Setting the two side by side lets the reader see the hypocrisy.\n\n(B) is wrong because the passage never addresses Gerald as \"you\"; it narrates about him as \"Gerald\" and \"he.\"\n(C) is wrong because Gerald does not narrate in the first person, and we hear his words only in quoted speech.\n(D) is wrong because the point of view is consistent third person throughout the two paragraphs, with no unexplained shifts."
       },
       {
         "id": "1-7",
@@ -3218,7 +3218,7 @@ const QUESTIONS = {
           "Structural juxtaposition, since the passage's central effect depends on contrasting two different settings."
         ],
         "correct": 2,
-        "explanation": "This passage relies most heavily on unreliable narration — its entire technique depends on detecting internal inconsistencies within the narrator's own account, making Section 4.1 the most directly applicable lens. Choice A doesn't fit; nothing in the passage repeats across multiple time periods the way a motif requires — it's a single, continuous meeting recounted once. Choice B doesn't apply either, since the passage never gives the reader information a character within the story lacks; the gap here is between the narrator's claims and what other details in the SAME account suggest, not a reader-character knowledge gap. Choice D is likewise a poor fit, since the passage never sets up two contrasting settings or ideas side by side."
+        "explanation": "Correct: (C) unreliable narration, since the entire technique depends on the reader catching inconsistencies within the narrator's own defensive account. Unreliable narration works when the narrator's claims clash with details they reveal. The narrator says \"I remained calm\" and \"nothing anyone would remember specifically,\" yet the explanation ran fifteen minutes and people \"came up to me individually to check that I was okay.\" The passage depends on this gap.\n\n(A) is wrong because there is no recurring image across several time periods; the passage describes one meeting and its aftermath.\n(B) is wrong because the reader does not know something the narrator misses through an outside knowledge gap; the clues come from the narrator's own telling.\n(D) is wrong because the passage has no two contrasting settings; it covers one meeting and its aftermath in the same workplace."
       },
       {
         "id": "2-7",
@@ -3231,7 +3231,7 @@ const QUESTIONS = {
           "Situational irony, since the passage's central effect depends on the contrast between the generator's careful preparation and its failure."
         ],
         "correct": 3,
-        "explanation": "This passage relies most heavily on situational irony — its central effect depends entirely on the contradiction between the generator's careful, extensive preparation and its failure due to an entirely unrelated, unanticipated cause, making Section 4.2 the most directly applicable lens. Choice B doesn't fit, since nothing here is tracked as a repeating pattern across multiple time periods; it's a single event told in third person. Choice C is a poor match, since the passage uses third-person, not first-person narration, and its irony doesn't hinge on distrusting anyone's personal account. Choice A also doesn't fit, since no character's stated self-assessment is being contradicted here — the irony is about an object's failure, not a person's self-image."
+        "explanation": "Correct: (D) situational irony, since the passage's central effect depends on the contrast between the generator's careful preparation and its failure. Situational irony is an outcome opposite to expectation. The generator is a \"$200,000 investment,\" \"extensively tested,\" and \"specifically-purchased-for-this-exact-scenario,\" yet it fails in an \"entirely unremarkable\" storm because a squirrel chewed \"one small... wire.\" Careful preparation meets a failure of the sort it was supposed to prevent.\n\n(A) is wrong because the passage has no character whose self-assessment contradicts behavior; no person describes themselves in a self-deluded way.\n(B) is wrong because the passage tells one event from installation to storm and does not track a single recurring image across stages.\n(C) is wrong because the passage is told in third person with no narrator whose account is distrusted."
       },
       {
         "id": "3-7",
@@ -3244,7 +3244,7 @@ const QUESTIONS = {
           "Motif, since the passage's entire structure depends on tracking the door-checking ritual's development across three separate stages."
         ],
         "correct": 3,
-        "explanation": "This passage relies most heavily on motif — its entire structure depends on tracking one recurring action's development across three temporally separated stages, making Section 4.3 the most directly applicable lens. Choice A doesn't fit well; the passage never signals disagreement with Marguerite's own self-understanding the way authorial distance requires — she isn't shown holding a mistaken belief about herself the text quietly undercuts. Choice B is a poor match too, since nothing in the passage sets up a stated expectation that outcome then contradicts; instead there's gradual, expected psychological change. Choice C doesn't apply, since the passage tracks one ritual over time rather than contrasting two distinct settings side by side."
+        "explanation": "Correct: (D) motif, since the passage's entire structure depends on tracking the door-checking ritual's development across three separate stages. A motif is a repeated element whose meaning develops. The beginning shows the three-door check \"in that order,\" the middle shows \"four times instead of the usual once,\" and the ending shows her checking \"in whatever order her hands happen to move.\" The passage is labeled by stage because the repeated act changes.\n\n(A) is wrong because the passage has no gap between Marguerite's self-understanding and the text's view; she is not shown as self-deluded.\n(B) is wrong because no outcome contradicts expectation; the break-in leads to anxiety, which is expected.\n(C) is wrong because the passage stays in her home and contrasts times, not two different settings."
       },
       {
         "id": "4-7",
@@ -3270,7 +3270,7 @@ const QUESTIONS = {
           "A motif, since the passage tracks a single recurring image or action across several distinct stages."
         ],
         "correct": 1,
-        "explanation": "This passage relies most heavily on authorial distance — its central effect depends on the gap between Gerald's sincere self-assessment and the actual, documented behavior the text presents alongside it, without direct narratorial correction, making Section 4.5 the most directly applicable lens. Choice A doesn't fit, since the passage doesn't contrast two distinct settings; it stays centered on one character's contradictory self-image. Choice D is a poor match, since nothing here is a recurring image or action tracked across separated stages of time. Choice C also misses the mark, since the passage is told in third person, not first — its irony comes from the narrator reporting Gerald's quotes alongside his behavior, not from an untrustworthy first-person voice."
+        "explanation": "Correct: (B) authorial distance, since the passage's central effect depends on the gap between Gerald's self-assessment and his documented behavior. Authorial distance is the gap between how a character sees himself and how the author invites us to see him. Gerald calls himself giving \"quietly, without needing recognition,\" yet he wrote the plaque calling himself \"A Man Who Never Sought Recognition\" and was \"quite particular about the plaque's specific size and lobby placement.\" The narrator lets these facts expose him.\n\n(A) is wrong because the passage is not built on contrasting two settings; the dinner party and lobby are only parts of one pattern.\n(C) is wrong because the narration is third person and Gerald does not narrate, since the narration is third person and Gerald never narrates his own account.\n(D) is wrong because the passage does not track a single recurring image across stages; it presents two connected scenes about one character's hypocrisy."
       },
       {
         "id": "1-8",
@@ -3309,7 +3309,7 @@ const QUESTIONS = {
           "The title has no discernible relationship to anything the passage actually describes or develops, and could be replaced by any other word."
         ],
         "correct": 0,
-        "explanation": "'Inventory' suggests a careful, itemized accounting — appropriate to a passage centrally concerned with counting, checking, and tracking (the door-checking ritual), while also gesturing toward the passage's deeper concern with psychologically 'taking inventory' of one's own anxious patterns over time. Choice D dismisses a title that clearly operates on both a literal and figurative level once the door-checking motif is considered. Choice C takes the word 'inventory' at its most common but least relevant sense; nothing in the passage involves retail or stock of goods. Choice B misreads title and content as opposed, when they're actually well matched — the counting and checking IS a kind of inventory-taking, literally and psychologically."
+        "explanation": "Correct: (A) 'Inventory' evokes careful, itemized counting that fits the passage's checking, while suggesting psychological stocktaking. A title can connect to a motif and add a figurative layer. Marguerite checks \"front, back, basement, in that order,\" and later checks four times, so the ritual resembles taking inventory of her house's locks. By the end she has \"stopped counting,\" and the repeated checking also suggests taking stock of her sense of safety.\n\n(B) is wrong because the door-checking behavior is itemized and counted, which matches the idea of an inventory instead of contradicting it.\n(C) is wrong because the passage is set in Marguerite's home and has no retail business.\n(D) is wrong because the title relates closely to the counting and checking in the passage, and another word would lose that resonance."
       },
       {
         "id": "4-8",
@@ -3322,7 +3322,7 @@ const QUESTIONS = {
           "The title has no meaningful relationship to the passage's central juxtaposition technique, leaving readers to infer the passage's comparative structure entirely on their own, without the title offering any early guidance toward it."
         ],
         "correct": 2,
-        "explanation": "The title directly and explicitly names the passage's central juxtaposition — announcing the comparative structure before the passage itself develops it, priming the reader to attend specifically to the contrast between the two named settings from the very first word. Choice D undersells a title doing unusually direct structural work, naming the exact technique the passage uses. Choice A mistakes the setting (kitchens) for the genre (an instructional guide), which the passage never resembles — there are no steps or instructions given. Choice B sets up a false opposition; the two kitchens aren't separate from Adaeze's emotional state, they're the vehicle through which that emotional state is developed."
+        "explanation": "Correct: (C) the title directly names the central contrast, priming readers to notice the two settings from the very first word. A title can announce a structure before the text begins. \"Two Kitchens\" tells the reader that two kitchens will be set against each other, and the passage then gives \"the kitchen of the house where Adaeze grew up\" with \"six burners going at once\" and \"the kitchen of the apartment where Adaeze now lived alone\" with \"a single pot on a single burner.\" The title prepares us to compare them.\n\n(A) is wrong because the passage contains no instructions or steps; it describes meals and feelings.\n(B) is wrong because the kitchens are the vehicle for Adaeze's emotional state, so the title fits the focus and does not contradict it.\n(D) is wrong because the title plainly signals the passage's comparative structure, so it offers readers early guidance toward the juxtaposition."
       },
       {
         "id": "5-8",
@@ -3348,7 +3348,7 @@ const QUESTIONS = {
           "A defensively measured, insistently reasonable tone whose very consistency becomes suspicious rather than reassuring."
         ],
         "correct": 3,
-        "explanation": "This narrator maintains a defensively measured, insistently reasonable tone throughout — this consistent tonal performance of composure is itself part of what the passage asks readers to see through, since the tone's very consistency and insistence become suspicious rather than reassuring. Choice A is contradicted by the narrator's own claim never to have raised their voice; the tone stays controlled and measured, not angry, on the surface. Choice B misdescribes a passage whose tone is notably stable and consistent throughout, not erratic. Choice C is the opposite of the actual effect; the narrator insists repeatedly on calm rather than displaying open distress, which is precisely what makes the performance suspicious."
+        "explanation": "Correct: (D) a defensively measured, insistently reasonable tone whose very consistency becomes suspicious rather than reassuring. Tone is the narrator's attitude conveyed through word choice, and in unreliable narration a tone can contradict the facts. The narrator uses phrases like \"I want to be clear,\" \"clearly and reasonably,\" and \"I am the kind of person who provides context,\" always insisting on reason. This steady defensiveness suggests the narrator is protesting too much, which makes the claim of calm unconvincing.\n\n(A) is wrong because the narrator never expresses anger at Denise and instead insists on calm and reason.\n(B) is wrong because the tone is consistent from paragraph to paragraph, and that consistency is part of what makes it suspicious.\n(C) is wrong because the narrator never shows distress openly, instead claiming to be \"completely fine,\" which is why the reader must infer the truth."
       },
       {
         "id": "2-9",
@@ -3374,7 +3374,7 @@ const QUESTIONS = {
           "The voice keeps a steady, clinical distance even during the anxious middle stage, letting readers register Marguerite's anxiety through described details rather than an anxious narrative voice."
         ],
         "correct": 3,
-        "explanation": "The narrative voice maintains a steady, somewhat clinical distance even while describing Marguerite's anxious middle-stage experience, allowing the READER to register the anxiety through specific described details (checking four times, distrusting her memory) rather than through an anxious narrative voice mirroring her internal state directly. Choice A is unsupported; the tone doesn't contradict the content so much as maintain a consistent distance from it throughout all three stages. Choice B confuses narrative distance with narratorial ignorance; a steady tone doesn't mean the narrator fails to register Marguerite's anxiety, only that it reports that anxiety calmly rather than performing it stylistically. Choice C is directly contradicted by details like 'unable to quite trust her own memory,' which is squarely a description of anxiety."
+        "explanation": "Correct: (D) the voice keeps a steady, clinical distance even during the anxious middle stage, letting readers register Marguerite's anxiety through described details rather than an anxious narrative voice. Narrative tone can stay flat while the events carry emotion. The middle excerpt reports plainly that she checked \"four times instead of the usual once... unable to quite trust her own memory of having already checked, though she had.\" The calm phrasing makes the repeated checking stand out as the sign of anxiety.\n\n(A) is wrong because the calm tone does not contradict the content but supports it by letting the actions speak, helping the reader see her changing state.\n(B) is wrong because the narrator clearly knows of her anxiety, reporting her distrust of her memory.\n(C) is wrong because checking four times and distrusting her memory show real anxiety, even though the narration stays calm."
       },
       {
         "id": "4-9",
@@ -3387,7 +3387,7 @@ const QUESTIONS = {
           "The tone remains completely identical and unchanging across both of the passage's kitchen descriptions, with no shift in its word choice at all."
         ],
         "correct": 2,
-        "explanation": "The tone shifts from warm, energetic, almost celebratory language describing the childhood kitchen ('controlled, joyful chaos') to more measured, quietly melancholic language describing the current kitchen ('quiet, efficient system'), the tonal shift itself reinforcing the passage's central juxtaposition beyond just factual contrast. Choice B mischaracterizes the childhood kitchen, described warmly and positively, not negatively. Choice D ignores a clear shift in word choice and rhythm between the two descriptions — 'joyful chaos' reads very differently from 'quiet, efficient system.' Choice A reverses the actual pattern; it's the childhood kitchen, not the current one, that receives the more energetic, celebratory language."
+        "explanation": "Correct: (C) the tone shifts from warm, energetic language for the childhood kitchen to quieter, melancholic language for the current one. Tone is shown by word choice and rhythm. The childhood kitchen is \"a controlled, joyful chaos\" with \"three generations arguing amiably,\" while the current one is \"a single pot on a single burner\" and a \"specific silence of a kitchen built for one.\" The long, lively sentences give way to measured, subdued description.\n\n(A) is wrong because the current kitchen is described with quiet, efficient language, and the childhood kitchen is called \"joyful,\" not dull.\n(B) is wrong because the first description is warm and affectionate, with \"joyful chaos,\" not negative.\n(D) is wrong because the passage clearly changes in energy and mood between the two descriptions, from \"production\" to \"silence.\""
       },
       {
         "id": "5-9",
@@ -3413,7 +3413,7 @@ const QUESTIONS = {
           "It provides full, explicit resolution that confirms the narrator's version of events as accurate, with a coworker's testimony closing the matter."
         ],
         "correct": 2,
-        "explanation": "This ending deliberately withholds resolution, leaving the gap between the narrator's insistent claims and the accumulated contradicting evidence unresolved — consistent with this course's broader emphasis on meaningful ambiguity, trusting the reader to have already reconstructed the more accurate version without needing explicit confirmation. Choice D is the opposite of what happens; the passage never confirms the narrator's account, it only lets the narrator continue asserting it unchallenged. Choice B misreads an ending that's fully consistent with, and in fact reinforces, the passage's unreliable-narration technique. Choice A has no textual basis; nothing in the passage suggests any upcoming correction or feedback is coming to the narrator."
+        "explanation": "Correct: (C) it withholds resolution, leaving the gap between the narrator's claims and the contradicting evidence to the reader. An open ending leaves the central tension unresolved for the reader to judge. The narrator is \"still not entirely sure why they kept asking, since anyone in that room could confirm nothing unusual happened at all.\" The coworkers' concern stays unexplained, so the reader must conclude that the narrator is unreliable.\n\n(A) is wrong because the passage ends with no sign of incoming feedback or another scene correcting the narrator.\n(B) is wrong because the ending supports the unreliable narration technique by keeping the narrator's blind spot.\n(D) is wrong because no coworker testifies, and the narrator's own claim that others could confirm him is unsupported, so the narrator's version is not confirmed."
       },
       {
         "id": "2-10",
@@ -3478,7 +3478,7 @@ const QUESTIONS = {
           "Only Passage 5 actually deals with any gap between a character's self-perception and reality, since both passages ultimately ask the reader to trust a single, stated version of events without looking for any deeper contradiction."
         ],
         "correct": 2,
-        "explanation": "Passage 1 uses first-person narration requiring the reader to detect distortion within the narrator's own direct, ongoing account of events, while Passage 5 uses third-person narration presenting a character's self-description alongside separately-reported behavior — different formal structures achieving a similar thematic concern about self-perception's limits. Choice D is wrong; both passages centrally involve this kind of gap, just built through different narrative structures. Choice B flattens a distinction the passage pair is designed to illustrate — the difference in point of view genuinely changes how each technique works. Choice A is factually incorrect; Passage 1 is told in first person ('I'), not third person."
+        "explanation": "Correct: (C) Passage 1 requires detecting distortion within a first-person account, while Passage 5 presents a character's self-description alongside separately reported behavior. Both passages show a gap between self-perception and reality but build it differently. In Passage 1 the narrator says \"I remained calm\" and the reader must spot the fifteen-minute tangent. In Passage 5 a third-person narrator reports that Gerald gives \"quietly\" and then reports the plaque in \"letters considerably larger than any other name.\"\n\n(A) is wrong because Passage 1 is told by an \"I\" narrator, so it is not third person like Passage 5.\n(B) is wrong because first-person unreliable narration and third-person authorial distance are formally different approaches, since one is a first-person account and the other a third-person report, which are formally distinct.\n(D) is wrong because both passages deal with a gap between self-perception and reality and invite the reader to find the contradiction."
       },
       {
         "id": "2-11",
@@ -3543,7 +3543,7 @@ const QUESTIONS = {
           "No two passages in this unit share this specific thematic concern with self-deception, since each one uses a different technique to a different end."
         ],
         "correct": 0,
-        "explanation": "Passages 1 and 5 most directly share this concern — both centering on a character's evidently sincere, though ultimately unreliable, belief about their own behavior or character, genuine self-deception rather than deliberate deception aimed at other people. Choice C identifies a real but surface-level similarity (domestic settings) rather than the deeper thematic one the question asks about; Passage 3 and 4 don't share a self-deception theme the way 1 and 5 do. Choice D denies a connection the unit's own thematic pairing clearly supports. Choice B also picks a surface-level similarity (physical settings and objects) rather than the specific concern with self-deception the question is asking about."
+        "explanation": "Correct: (A) Passages 1 and 5, since both center on a character's sincere but unreliable belief about their own behavior or character. Self-deception means believing something false about oneself, unlike deceiving others. The narrator of Passage 1 insists \"I was completely fine,\" and Gerald in Passage 5 considers himself \"an intensely private person\" who gives \"quietly.\" Neither seems to know the truth about themselves, as shown by the fifteen-minute explanation and the large plaque.\n\n(B) is wrong because Passages 2 and 3 are linked by objects and settings, not by a character deceived about themselves.\n(C) is wrong because the shared domestic settings of Passages 3 and 4 say nothing about self-deception, which concerns a character's beliefs about themselves.\n(D) is wrong because Passages 1 and 5 clearly share this concern despite using different techniques."
       },
       {
         "id": "2-12",
@@ -3556,7 +3556,7 @@ const QUESTIONS = {
           "Passage 2's irony centers on one self-contained plot event, while Passage 5's irony is more diffuse, spread across a whole pattern of behavior."
         ],
         "correct": 3,
-        "explanation": "Passage 2's situational irony centers on a single, self-contained plot event (the generator's specific failure), while Passage 5's irony is more diffuse, emerging across the character's entire pattern of behavior and repeated self-description rather than one isolated event. Choice A denies a real difference in scope the question is built to draw out. Choice C is contradicted by both passages, each of which relies centrally on irony (situational in Passage 2, tied to authorial distance in Passage 5). Choice B reverses the actual relationship; it's Passage 2's irony that is the more narrowly, tightly focused of the two."
+        "explanation": "Correct: (D) Passage 2's irony centers on one self-contained plot event, while Passage 5's irony is more diffuse, spread across a whole pattern of behavior. Scope of irony means how widely it extends. In Passage 2, one event carries it: the generator \"failed to do the one single thing it existed to do\" because of one chewed wire. In Passage 5, irony recurs in Gerald's dinner-party disclaimers, his note asking for something \"understated,\" and his insistence on the plaque's \"size and lobby placement.\"\n\n(A) is wrong because irony is the central technique in both passages, the generator's failure and Gerald's self-contradiction.\n(B) is wrong because Passage 5's irony is spread across many behaviors, so it is broader, not narrower, than Passage 2's single event.\n(C) is wrong because a single mechanical failure and an ongoing pattern of self-contradiction differ in reach and kind, so the scopes are not identical."
       },
       {
         "id": "3-12",
