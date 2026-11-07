@@ -4187,7 +4187,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 1,
-      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2<sup>1</sup>.5 × 2<sup>0</sup>.5 = 2^(1.5+0.5) = 2² = 4. Choice D (2) would follow only if the overall order were treated as 1 with a single doubled variable, ignoring the actual fractional exponents entirely. Choice C (2.83 ≈ 2<sup>1</sup>.5) correctly captures A's contribution but omits B's, as if B were zero order. Choice A (5.66 ≈ 2<sup>2</sup>.5) overcounts B's contribution, effectively treating B as first order (an extra factor of 2<sup>1</sup>) instead of half order (2<sup>0</sup>.5) — this shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
+      "explanation": "Rate scales as [A]^1.5 × [B]^0.5. Doubling both concentrations multiplies the rate by 2<sup>1.5</sup> × 2<sup>0.5</sup> = 2^(1.5+0.5) = 2² = 4. Choice D (2) would follow only if the overall order were treated as 1 with a single doubled variable, ignoring the actual fractional exponents entirely. Choice C (2.83 ≈ 2<sup>1.5</sup>) correctly captures A's contribution but omits B's, as if B were zero order. Choice A (5.66 ≈ 2<sup>2.5</sup>) overcounts B's contribution, effectively treating B as first order (an extra factor of 2<sup>1</sup>) instead of half order (2<sup>0.5</sup>) — this shows that fractional-order rate laws (which arise from certain mechanism substitutions, as in section 5.8) follow the same exponent rules as integer orders, just requiring careful fractional-exponent arithmetic.",
       "stretch": true
     },
     {
@@ -4893,7 +4893,7 @@ const QUESTIONS = {
         "≈ 9.75 × 10⁻¹ s⁻¹"
       ],
       "correct": 1,
-      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e<sup>2</sup>.389 ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
+      "explanation": "ln(k₂/k₁) = −(Ea/R)(1/T₂ − 1/T₁) = −(75000/8.314)(1/320 − 1/295) = −(9021.4)(3.125×10⁻³ − 3.3898×10⁻³) = −(9021.4)(−2.648×10⁻⁴) = 2.389. So k₂/k₁ = e<sup>2.389</sup> ≈ 10.9, and k₂ = 1.20×10⁻³ × 10.9 ≈ 1.31×10⁻² s⁻¹; the key takeaway is that k increases sharply — by roughly an order of magnitude — for this 25 K increase, since raising T always increases k for a positive Ea. Choice A (≈1.16×10⁻⁴ s⁻¹) is smaller than k₁, which would mean k decreases as temperature increases — backwards for any reaction with positive Ea. Choice C assumes k stays completely unchanged with temperature, ignoring the Arrhenius temperature dependence altogether. Choice D (≈9.75×10⁻¹ s⁻¹) is drastically too large, consistent with a sign error in the Arrhenius exponent (e.g., dropping the negative sign) that makes the calculated increase wildly overshoot the actual ~11-fold change."
     }
   ],
   "6": [
@@ -7403,7 +7403,7 @@ const QUESTIONS = {
         "1:10"
       ],
       "correct": 2,
-      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10<sup>1</sup>.00 = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
+      "explanation": "6.00 = 5.00 + log(ratio) → log(ratio) = 1.00 → ratio = 10<sup>1.00</sup> = 10, so [base]/[acid] must be 10:1 to raise pH exactly one unit above pKa. Choice D (D:10) is the inverted ratio, which would actually give a pH BELOW pKa (pH = 4.00), not above it. Choice A (D:D) would give pH = pKa = 5.00 exactly, not the target 6.00. Choice B (100:D) overshoots by an extra order of magnitude, corresponding to log(ratio) = 2.00 and pH = 7.00, one unit too high."
     },
     {
       "id": "8-57",
@@ -7901,7 +7901,7 @@ const QUESTIONS = {
         "−25.0"
       ],
       "correct": 2,
-      "explanation": "Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e<sup>10</sup>.09=2.41×10⁴. ‘1.01×10⁻⁴’ and ‘8.4×10⁻⁵’ both give K<1, which would incorrectly pair a negative ΔG° (favorable, K>1 expected) with a small K — a sign-handling error in the exponent. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
+      "explanation": "Rearranging ΔG°=−RTlnK: lnK=−ΔG°/(RT)=25,000/2477.6=10.09, so K=e<sup>10.09</sup>=2.41×10⁴. ‘1.01×10⁻⁴’ and ‘8.4×10⁻⁵’ both give K<1, which would incorrectly pair a negative ΔG° (favorable, K>1 expected) with a small K — a sign-handling error in the exponent. ‘−25.0’ just restates ΔG° in kJ instead of actually solving for K, ignoring the exponential relationship entirely."
     },
     {
       "id": "9-27",
