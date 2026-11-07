@@ -66,7 +66,7 @@ const QUESTIONS = {
         "The average speed doubles, since speed is proportional to temperature."
       ],
       "correct": 1,
-      "explanation": "Average kinetic energy is proportional to temperature: K<sub>avg</sub> = (3/2)k<sub>B</sub>T. Since K ∝ v², speed scales as v ∝ √T, so speed increases by a factor of √2 when T doubles — not by a factor of 2. Choice D assumes speed itself is directly proportional to temperature, skipping the square-root step. Choice A confuses the constant-volume condition (which fixes the container, not the particles) with speed being unaffected by heating — heating always raises average speed regardless of volume. Choice C inverts the operation: instead of taking the square root of the temperature factor, it squares it, turning 2 into 4 rather than √2."
+      "explanation": "Correct: (B) The average speed increases by a factor of √2. In an ideal monatomic gas the average kinetic energy is K<sub>avg</sub> = (3/2)k<sub>B</sub>T, so it is proportional to absolute temperature. Since K = ½mv², speed scales as v ∝ √T, so doubling T multiplies the speed by √2 ≈ 1.41. The clue words are \"absolute temperature doubles\" and \"average particle speed\", which point to the square-root relationship rather than a direct one.\n\n(A) is wrong because constant volume only fixes the container size; heating still raises the average kinetic energy and therefore the speed.\n(C) is wrong because it squares the factor, but speed goes as the square root of T, not the square.\n(D) is wrong because speed is proportional to √T, not to T itself; doubling the speed would require quadrupling T."
     },
     {
       "id": "9-2",
@@ -79,7 +79,7 @@ const QUESTIONS = {
         "The curve shifts left (lower peak speed) and becomes taller and narrower."
       ],
       "correct": 3,
-      "explanation": "Cooling reduces average kinetic energy, so the distribution's peak moves toward lower speeds, and total particle number (area under the curve) can't change. Choice C has the direction backwards — it describes what happens on heating, not cooling. Choice A gets the direction right but the shape wrong: it treats cooling like a redistribution that spreads particles out, when in fact fewer particles occupying a narrower range of low speeds means the curve must grow taller and narrower, not shorter and wider. Choice B ignores that the shape must change at all to conserve the area under the curve as the peak moves."
+      "explanation": "Correct: (D) The curve shifts left (lower peak speed) and becomes taller and narrower. Cooling lowers the average kinetic energy (K ∝ T), so the most probable speed, which scales as √T, moves to a smaller value. The number of molecules is fixed, so the area under the distribution must stay the same. If the peak moves left and the spread of speeds shrinks, the curve must get taller and narrower to keep that area constant. The clue words are \"cooled\" and \"constant volume\", meaning the same molecules, just slower.\n\n(A) is wrong because a shorter, wider curve would describe a hotter gas, and a wider curve at lower speed would not conserve the area.\n(B) is wrong because the shape changes too, not only the position, since the area must stay fixed.\n(C) is wrong because a shift right is what happens on heating, not cooling."
     },
     {
       "id": "9-3",
@@ -92,7 +92,7 @@ const QUESTIONS = {
         "It stays the same, since temperature is constant."
       ],
       "correct": 0,
-      "explanation": "At constant temperature and constant n, PV = nRT means PV is constant (Boyle's Law): halving V must double P to keep the product fixed. Choice C inverts this, treating a volume decrease as if it should also decrease pressure. Choice D correctly notes T is constant but wrongly assumes that also freezes P — it's PV, not P alone, that stays fixed. Choice B applies a squared relationship (as if P ∝ 1/V²) to what is actually a simple inverse proportionality."
+      "explanation": "Correct: (A) It doubles. For a fixed amount of ideal gas at constant temperature, PV = nRT means the product PV stays constant (Boyle's law). If V goes from V to V/2, then P<sub>2</sub> = P<sub>1</sub>V<sub>1</sub>/V<sub>2</sub> = P<sub>1</sub>V/(V/2) = 2P<sub>1</sub>. The clues are \"fixed amount\" (n constant) and \"temperature held constant\", which make P inversely proportional to V.\n\n(B) is wrong because it treats pressure as proportional to 1/V², but the relationship is simply inverse.\n(C) is wrong because compressing a gas packs the molecules into less space so they strike the walls more often, raising the pressure rather than lowering it.\n(D) is wrong because constant temperature fixes the product PV, not P alone, so P must change when V changes."
     },
     {
       "id": "9-4",
@@ -105,7 +105,7 @@ const QUESTIONS = {
         "It triples."
       ],
       "correct": 3,
-      "explanation": "At constant pressure, V/T is constant (Charles's Law), a direct consequence of PV = nRT. Tripling T triples V to keep the ratio fixed. Choice B ignores this proportionality entirely, treating volume as independent of temperature at fixed pressure. Choice A inverts the relationship, applying the kind of inverse scaling that belongs to Boyle's Law (constant T) rather than the direct scaling that governs this constant-P scenario. Choice C squares the given factor (3²=9) instead of applying it directly — volume and temperature scale one-to-one here, not quadratically."
+      "explanation": "Correct: (D) It triples. From PV = nRT with P and n constant, V/T = nR/P is constant (Charles's law), so volume is directly proportional to absolute temperature. If T becomes 3T, then V<sub>2</sub> = V<sub>1</sub>(3T/T) = 3V<sub>1</sub>. The clues are \"constant pressure\" and \"absolute temperature is tripled\", which signal direct proportionality.\n\n(A) is wrong because it inverts the relationship; V gets smaller with T only in an inverse scenario like Boyle's law, which needs constant T.\n(B) is wrong because at fixed pressure a hotter gas must expand to keep the pressure from rising, so volume does change.\n(C) is wrong because it squares the factor (3² = 9), but V and T scale one to one."
     },
     {
       "id": "9-5",
@@ -118,7 +118,7 @@ const QUESTIONS = {
         "Block B, because it has a lower specific heat, so the same energy produces a larger ΔT."
       ],
       "correct": 3,
-      "explanation": "From Q = mcΔT, ΔT = Q/(mc): a larger specific heat c gives a smaller ΔT for the same Q and m. Choice C states the exact opposite relationship, treating a higher c as amplifying rather than damping the temperature change. Choice A assumes equal energy input guarantees equal ΔT, overlooking that c differs between the blocks. Choice B overlooks that Q, m, and c are already enough to solve for ΔT directly — initial temperatures aren't needed to compare the sizes of the changes, only to find the final temperatures themselves."
+      "explanation": "Correct: (D) Block B, because it has a lower specific heat, so the same energy produces a larger ΔT. Specific heat is the energy needed per kilogram per kelvin, and Q = mcΔT rearranges to ΔT = Q/(mc). With equal Q and equal m, ΔT is inversely proportional to c. For example, if c<sub>A</sub> = 2c<sub>B</sub>, Block A warms by half as much as Block B. The clues are \"equal mass\", \"same energy Q\", and \"higher specific heat\" for A.\n\n(A) is wrong because equal energy input gives equal ΔT only when m and c are also equal, and here c differs.\n(B) is wrong because ΔT depends only on Q, m, and c; initial temperatures only shift the final values, not the size of the change.\n(C) is wrong because it reverses the relationship; a higher c means more energy is needed per degree, so the temperature change is smaller."
     },
     {
       "id": "9-6",
@@ -131,7 +131,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 3,
-      "explanation": "The conduction rate is Q/Δt = kAΔT/L, with length L in the denominator: doubling L halves the rate. Choice A inverts this, treating a longer path as speeding up heat transfer rather than slowing it. Choice B ignores L's presence in the equation altogether, as if conduction rate didn't depend on the distance heat has to travel. Choice C applies a squared relationship (as if rate ∝ 1/L²) to what is actually a simple inverse proportionality with L."
+      "explanation": "Correct: (D) It is cut in half. Conduction through a rod follows Q/Δt = kAΔT/L, where k is conductivity, A is cross-sectional area, ΔT is the temperature difference, and L is length. With k, A, and ΔT unchanged, the rate is proportional to 1/L, so doubling L gives 1/2 the original rate. The clue words are \"length is doubled\" while area and temperature difference stay the same.\n\n(A) is wrong because a longer rod gives heat a longer path, which slows transfer rather than speeding it up.\n(B) is wrong because L appears in the denominator of the conduction equation, so the rate depends on it.\n(C) is wrong because it treats the rate as proportional to 1/L², but the dependence on L is only inverse."
     },
     {
       "id": "9-7",
@@ -157,7 +157,7 @@ const QUESTIONS = {
         "W = Q, and ΔU = 0."
       ],
       "correct": 2,
-      "explanation": "With volume explicitly constant (isochoric), no P-V work is possible no matter how pressure changes, so W = 0 and all added heat becomes internal energy: ΔU = Q. Choice D swaps which quantity is zero, as if this were an isothermal process instead of a constant-volume one. Choice B assumes rising pressure implies mechanical compression (boundary work), but with volume fixed there's no displacement for the gas to do or receive P-V work through. Choice A conflates “no volume change” with “no internal-energy change” — internal energy tracks temperature, which is clearly rising here since heat is being added."
+      "explanation": "Correct: (C) W = 0, and ΔU = Q, so internal energy increases. The first law is ΔU = Q + W (work done on the gas). A rigid container has constant volume, so the gas has no displacement to do or receive P-V work and W = 0 even though pressure rises. Then ΔU = Q > 0, and the added energy raises the temperature and the pressure. The clue words are \"rigid, sealed\", \"no piston motion\", and \"heater adds energy\".\n\n(A) is wrong because a constant volume removes work, not internal-energy change; heat is being added, so U increases.\n(B) is wrong because rising pressure at fixed volume is not compression; with no volume change there is no boundary work.\n(D) is wrong because W = Q and ΔU = 0 is the isothermal pattern, which is not what happens here: W is zero and ΔU equals Q."
     },
     {
       "id": "9-9",
@@ -170,7 +170,7 @@ const QUESTIONS = {
         "Isothermal"
       ],
       "correct": 2,
-      "explanation": "A vertical line means volume is fixed while pressure changes — the definition of an isochoric process. Choice A describes the horizontal-line case (isobaric) instead. Choices B and D both describe curved processes (following PV = constant-type relationships) and don't correspond to a straight vertical segment at all."
+      "explanation": "Correct: (C) Isochoric. On a P-V diagram the horizontal axis is volume and the vertical axis is pressure. A vertical segment keeps V fixed while P changes, which is the definition of an isochoric (constant-volume) process, and no work is done since W = −∫P dV = 0.\n\n(A) is wrong because an isobaric process holds P constant, which draws a horizontal line.\n(B) is wrong because an adiabatic process (Q = 0) follows a curve like PV<sup>γ</sup> = constant, which is steeper than an isotherm but not vertical.\n(D) is wrong because an isothermal process follows PV = constant, a hyperbola-shaped curve, not a vertical line."
     },
     {
       "id": "9-10",
@@ -183,7 +183,7 @@ const QUESTIONS = {
         "The equilibrium temperature reached by the water and metal together."
       ],
       "correct": 1,
-      "explanation": "Calorimetry (heat lost by the metal equals heat gained by the water) only needs masses, specific heats, and temperature changes — atmospheric pressure doesn't appear anywhere in Q = mcΔT. Choice C, the water's initial temperature, is required to compute the water's ΔT. Choice A, the metal's mass, is one of the three variables needed for the metal side of the equation. Choice D, the equilibrium temperature, is the endpoint needed to find ΔT for both substances — without it, neither side of the calorimetry equation can be completed."
+      "explanation": "Correct: (B) The atmospheric pressure in the room. In calorimetry, energy conservation gives heat lost by the metal = heat gained by the water: m<sub>m</sub>c<sub>m</sub>(T<sub>m,i</sub> − T<sub>f</sub>) = m<sub>w</sub>c<sub>w</sub>(T<sub>f</sub> − T<sub>w,i</sub>). Solving for c<sub>m</sub> needs masses, the water's specific heat, the starting temperatures, and the final temperature, and pressure appears nowhere in Q = mcΔT. The clue words are \"NOT needed\" and \"negligible heat capacity\" for the calorimeter.\n\n(A) is wrong because the metal's mass is needed for the metal side of the equation.\n(C) is wrong because the water's initial temperature is needed to find its ΔT.\n(D) is wrong because the equilibrium temperature is needed to compute ΔT for both the metal and the water."
     },
     {
       "id": "9-11",
@@ -196,7 +196,7 @@ const QUESTIONS = {
         "Entropy is not applicable to this process since no phase change occurs."
       ],
       "correct": 1,
-      "explanation": "Heat flowing spontaneously from the hotter coffee to the colder room is exactly the entropy-increasing direction the second law describes; the coffee's own entropy drop is more than offset by the room's gain. Choice C correctly notes the coffee's entropy decreases but adds a false claim — entropy is a well-defined property for any system, not only isolated ones. Choice A reverses the actual effect: a room absorbing heat from a warmer source gains entropy, it doesn't lose it, so there's no violation to describe. Choice D wrongly restricts entropy changes to phase-change situations; ordinary heat flow changes entropy just as much."
+      "explanation": "Correct: (B) The total entropy of the coffee-plus-room system increases, since heat is flowing spontaneously from hot to cold. The second law says the total entropy of an isolated system (here, coffee plus room) never decreases for a spontaneous process. When heat Q leaves the coffee at higher T<sub>h</sub>, its entropy falls by Q/T<sub>h</sub>, but the room gains Q/T<sub>c</sub> at lower T<sub>c</sub>, and since T<sub>c</sub> < T<sub>h</sub>, the gain is larger. For example, with Q = 100 J, T<sub>h</sub> = 350 K and T<sub>c</sub> = 295 K, the net change is −0.286 + 0.339 = +0.053 J/K.\n\n(A) is wrong because the room gains entropy when it absorbs heat, so nothing is violated.\n(C) is wrong because entropy is defined for any system; the second law constrains the total, and the coffee alone can decrease only because the room gains more.\n(D) is wrong because entropy changes occur with ordinary heat flow, not only phase changes."
     },
     {
       "id": "9-12",
@@ -209,7 +209,7 @@ const QUESTIONS = {
         "Balloon A has twice the volume of Balloon B."
       ],
       "correct": 3,
-      "explanation": "With P and T fixed, PV = nRT gives V ∝ n: twice the moles fill twice the volume in a flexible balloon. Choice A inverts this proportionality, as if more gas required less space. Choice C ignores that the two balloons hold different amounts of gas (n differs), so equal T and P alone don't force equal V. Choice B imports molar mass, a variable that doesn't appear anywhere in PV = nRT and is irrelevant to this comparison."
+      "explanation": "Correct: (D) Balloon A has twice the volume of Balloon B. Rearranging PV = nRT gives V = nRT/P. With P and T the same for both balloons, V is directly proportional to n, so doubling the moles doubles the volume (Avogadro's law). The clues are \"same temperature and pressure\" and \"twice as many moles\".\n\n(A) is wrong because it inverts the proportionality; more gas takes up more space at the same P and T.\n(B) is wrong because molar mass does not appear in PV = nRT, and the comparison depends only on the number of moles.\n(C) is wrong because equal T and P produce equal volume only for equal n, and here n differs."
     },
     {
       "id": "9-13",
@@ -222,7 +222,7 @@ const QUESTIONS = {
         "2"
       ],
       "correct": 3,
-      "explanation": "Since K<sub>avg</sub> ∝ T and K<sub>avg</sub> ∝ v², speed scales as √T: quadrupling T gives √4 = 2. Choice A applies the temperature factor directly to speed, skipping the square root. Choice B compounds that error with an extra, unexplained multiplication. Choice C squares the temperature factor (4²=16) instead of taking its square root — the exact inverse of the correct operation."
+      "explanation": "Correct: (D) 2. The average kinetic energy is proportional to absolute temperature (K<sub>avg</sub> = (3/2)k<sub>B</sub>T) and K = ½mv², so v ∝ √T. If T becomes 4T, then v<sub>2</sub>/v<sub>1</sub> = √4 = 2. The clue words are \"absolute temperature quadruples\" and \"average particle speed\", which point to a square-root relationship.\n\n(A) is wrong because it applies the temperature factor directly to speed, skipping the square root.\n(B) is wrong because 8 has no basis in the relationship; it is just 2 times 4.\n(C) is wrong because it squares the temperature factor (4² = 16), which is the opposite of taking the square root."
     },
     {
       "id": "9-14",
@@ -235,7 +235,7 @@ const QUESTIONS = {
         "Gas X and Gas Y have equal average kinetic energy and equal average speed."
       ],
       "correct": 2,
-      "explanation": "Average kinetic energy depends only on temperature (K<sub>avg</sub> = (3/2)k<sub>B</sub>T), never on particle mass, so equal T means equal K<sub>avg</sub> for both gases. But K = ½mv², so for the heavier gas (X) to match Y's kinetic energy, X's particles must move slower on average. Choice A assumes kinetic energy scales with mass directly, contradicting the T-only dependence of K<sub>avg</sub>. Choice B gets K backwards (assuming the heavier gas has less energy) and gets the speed direction backwards too — heavier particles move slower for equal K, not faster. Choice D correctly has equal K but wrongly assumes speed is also unaffected by the mass difference, ignoring K = ½mv²."
+      "explanation": "Correct: (C) Equal average kinetic energy, but Gas X has the lower average speed. The average translational kinetic energy is K<sub>avg</sub> = (3/2)k<sub>B</sub>T, which depends only on temperature, so equal T means equal K<sub>avg</sub> regardless of mass. Since K = ½mv², equal K with X's mass equal to 2m<sub>Y</sub> requires v<sub>X</sub> = v<sub>Y</sub>/√2 ≈ 0.71v<sub>Y</sub>, so the heavier molecules move slower. The clue words are \"twice the mass\" and \"same temperature\".\n\n(A) is wrong because kinetic energy does not scale with mass at a fixed temperature, and the speeds would differ anyway.\n(B) is wrong because the heavier gas does not have less kinetic energy, and it moves slower, not faster.\n(D) is wrong because it has the equal energy right but ignores that equal K with different masses requires different speeds."
     },
     {
       "id": "9-15",
@@ -248,7 +248,7 @@ const QUESTIONS = {
         "250 K"
       ],
       "correct": 3,
-      "explanation": "Using P₁V₁/T₁ = P₂V₂/T₂: (2.0)(4.0)/250 = (1.0)(8.0)/T₂, giving T₂ = 250 K — the pressure halving and volume doubling exactly cancel. Choice A (125 K) reflects applying only the pressure ratio's halving effect without the offsetting volume doubling. Choice C (500 K) reflects the mirror-image slip: only the volume doubling is applied, ignoring the pressure drop that cancels it. Choice B (1000 K) compounds both factors as if they reinforced each other multiplicatively instead of canceling out."
+      "explanation": "Correct: (D) 250 K. For a fixed amount of gas, P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>. Here (2.0 atm)(4.0 L)/250 K = 8.0/250 = 0.032 atm·L/K, and (1.0 atm)(8.0 L)/T<sub>2</sub> = 0.032, so T<sub>2</sub> = 8.0/0.032 = 250 K. The pressure halves while the volume doubles, so the PV product is unchanged and T must be unchanged.\n\n(A) is wrong because 125 K applies only the pressure halving and ignores the volume doubling.\n(B) is wrong because 1000 K treats the two factors of 2 as multiplying to 4 instead of canceling.\n(C) is wrong because 500 K applies only the volume doubling and ignores the pressure drop."
     },
     {
       "id": "9-16",
@@ -261,7 +261,7 @@ const QUESTIONS = {
         "T/4"
       ],
       "correct": 2,
-      "explanation": "At constant volume, P/T is constant (Gay-Lussac's Law): P/T = 4P/T<sub>new</sub> gives T<sub>new</sub> = 4T, a direct one-to-one scaling. Choice D inverts this relationship, treating a pressure increase as if it should produce a temperature decrease. Choice A applies only half of the actual factor of 4. Choice B squares the given factor (4²=16) instead of applying it directly — pressure and temperature scale linearly together here, not quadratically."
+      "explanation": "Correct: (C) 4T. For a fixed amount of gas at constant volume, P/T is constant (Gay-Lussac's law) because P = (nR/V)T. So P/T = 4P/T<sub>new</sub>, giving T<sub>new</sub> = 4T. The clues are \"rigid, sealed\" (V and n fixed) and \"pressure reads 4P\", which makes pressure directly proportional to absolute temperature.\n\n(A) is wrong because 2T applies only half of the factor of 4.\n(B) is wrong because 16T squares the factor, but P and T scale linearly.\n(D) is wrong because T/4 inverts the relationship; raising pressure at constant volume requires heating, not cooling."
     },
     {
       "id": "9-17",
@@ -274,7 +274,7 @@ const QUESTIONS = {
         "400 K"
       ],
       "correct": 2,
-      "explanation": "Using PV = nRT: T = PV/(nR) = (1.0)(9.8)/[(0.40)(0.0821)] ≈ 299 K, so about 300 K. Choice A is roughly half this value, consistent with using twice the actual nR product in the denominator. Choice B falls between the true answer and a bookkeeping slip in the intermediate division. Choice D is noticeably above the correct value, consistent with dividing by too small an nR product, such as using n = 0.20 mol instead of the given 0.40 mol."
+      "explanation": "Correct: (C) 300 K. Use the ideal gas law PV = nRT and solve for temperature: T = PV/(nR). Substituting gives T = (1.0 atm)(9.8 L)/[(0.40 mol)(0.0821 L·atm/(mol·K))] = 9.8/0.03284 ≈ 298 K, which rounds to about 300 K. The clue words are \"mol\", \"atm\", \"L\" and the given R, which match the units in the gas law.\n\n(A) is wrong because 150 K is about half the computed value, and the numbers give 298 K.\n(B) is wrong because 200 K does not result from substituting the given n, P, and V.\n(D) is wrong because 400 K is about a third too high; it would require n to be about 0.30 mol rather than 0.40 mol."
     },
     {
       "id": "9-18",
@@ -287,7 +287,7 @@ const QUESTIONS = {
         "60°C"
       ],
       "correct": 3,
-      "explanation": "Using Q = mcΔT: ΔT = 9000/(0.50 × 450) = 40°C — but that's the CHANGE in temperature, not the final temperature, so the final temperature is 20°C + 40°C = 60°C. Choice C reports the computed ΔT itself, forgetting to add it to the 20°C starting point. Choice B reflects adding only part of that ΔT to the starting temperature. Choice A overshoots, consistent with adding the ΔT twice or miscomputing ΔT as 60°C before adding it to 20°C. Always circle back to what the question actually asked for before selecting an answer."
+      "explanation": "Correct: (D) 60°C. Use Q = mcΔT and solve for the temperature change: ΔT = Q/(mc) = 9000 J/[(0.50 kg)(450 J/(kg·°C))] = 9000/225 = 40°C. The question asks for the final temperature, so add this change to the starting value: T<sub>f</sub> = 20°C + 40°C = 60°C. The clue words are \"final temperature\" and \"initial temperature of 20°C\".\n\n(A) is wrong because 80°C would require a ΔT of 60°C, which needs Q = 13,500 J.\n(B) is wrong because 50°C corresponds to ΔT = 30°C, which needs only 6750 J.\n(C) is wrong because 40°C is the temperature change itself, not the final temperature, so it leaves out the 20°C starting point."
     },
     {
       "id": "9-19",
@@ -300,7 +300,7 @@ const QUESTIONS = {
         "Slab 2 conducts heat three times as fast as Slab 1."
       ],
       "correct": 2,
-      "explanation": "Conduction rate is Q/Δt = kAΔT/L, with L (thickness) in the denominator: tripling thickness cuts the rate to one-third. Choice D inverts this, treating a thicker slab as conducting heat faster. Choice B ignores L's role in the equation altogether, as if thickness had no effect on rate. Choice A applies a squared relationship (3²=9) to what is actually a simple inverse proportionality with thickness."
+      "explanation": "Correct: (C) Slab 2 conducts heat at one-third the rate of Slab 1. The conduction rate is Q/Δt = kAΔT/L, and with the same material (k), the same area (A), and the same fixed reservoir temperatures (ΔT), the rate is proportional to 1/L. If L<sub>2</sub> = 3L<sub>1</sub>, then the rate ratio is L<sub>1</sub>/L<sub>2</sub> = 1/3.\n\n(A) is wrong because it treats the rate as increasing with thickness squared, but thickness is in the denominator.\n(B) is wrong because thickness appears in the conduction equation, so a thicker slab changes the rate.\n(D) is wrong because a thicker slab gives heat a longer path and slows conduction, not speeds it up."
     },
     {
       "id": "9-20",
@@ -326,7 +326,7 @@ const QUESTIONS = {
         "+12000 J"
       ],
       "correct": 0,
-      "explanation": "W (on the gas) = −PΔV = −(3.0×10⁵)(0.025 − 0.040) = +4500 J; compression means something outside is pushing in, doing positive work on the gas. Choice B gets the magnitude right but the sign wrong, missing that work done ON the gas during compression is positive. Choice C assumes no P-V work occurs despite an explicit volume change at constant pressure. Choice D reflects a magnitude error, such as using the full initial or final volume rather than the actual ΔV of 0.015 m³."
+      "explanation": "Correct: (A) +4500 J. The work done on a gas at constant pressure is W = −PΔV. Here ΔV = 0.025 − 0.040 = −0.015 m³, so W = −(3.0 × 10⁵ Pa)(−0.015 m³) = +4500 J. A compression has the surroundings pushing in, so the work done on the gas is positive. The clue words are \"compressed\", \"constant pressure\", and \"done ON the gas\".\n\n(B) is wrong because it has the right size but the wrong sign; that would be work done by the gas, as in an expansion.\n(C) is wrong because the volume changes at constant pressure, so P-V work is not zero.\n(D) is wrong because 12,000 J comes from using a volume of 0.040 m³ rather than the change in volume of 0.015 m³."
     },
     {
       "id": "9-22",
@@ -339,7 +339,7 @@ const QUESTIONS = {
         "ΔU is positive, and temperature increases."
       ],
       "correct": 3,
-      "explanation": "For an adiabatic process, Q = 0, so the first law becomes ΔU = W. Compression means positive work is done ON the gas, so ΔU is positive, and since U depends only on temperature for an ideal gas, temperature must increase. Choice B confuses adiabatic (Q = 0) with isothermal (ΔU = 0) — those are two different conditions, and only the first applies here. Choice C reverses the sign of the work done during compression; compressing a gas does positive work ON it, not negative, so ΔU (and temperature) should rise, not fall. Choice A overlooks that Q = 0 together with the sign of the compression work is already enough to pin down the sign of ΔU, without needing specific P and V values."
+      "explanation": "Correct: (D) ΔU is positive, and temperature increases. The first law is ΔU = Q + W (W is work done on the gas). In an adiabatic process Q = 0, so ΔU = W. Compression means the surroundings do positive work on the gas, so W > 0 and ΔU > 0. For an ideal gas, U depends only on temperature, so T rises. The clue words are \"adiabatic\", \"Q = 0\", and \"compression\".\n\n(A) is wrong because Q = 0 and the sign of the work already fix the sign of ΔU, so exact values of P and V are not needed.\n(B) is wrong because it confuses adiabatic (Q = 0) with isothermal (ΔU = 0); here the energy added as work stays in the gas.\n(C) is wrong because compression adds energy to the gas, so ΔU is positive and the temperature rises."
     },
     {
       "id": "9-23",
@@ -352,7 +352,7 @@ const QUESTIONS = {
         "Adiabatic"
       ],
       "correct": 2,
-      "explanation": "A horizontal line means pressure stays constant while volume changes — an isobaric process, by definition. Choice B assigns the vertical-line (isochoric) description to this horizontal-line scenario. Choices A and D both describe curved processes and don't match a straight horizontal segment."
+      "explanation": "Correct: (C) Isobaric. On a P-V diagram, pressure is the vertical axis and volume is the horizontal axis. A horizontal segment keeps P fixed while V changes, which defines an isobaric (constant-pressure) process, with work W = −PΔV.\n\n(A) is wrong because an isothermal process follows PV = constant, which is a curve.\n(B) is wrong because an isochoric process holds V constant, which draws a vertical line.\n(D) is wrong because an adiabatic process (Q = 0) follows a steeper curve, PV<sup>γ</sup> = constant, not a straight horizontal line."
     },
     {
       "id": "9-24",
@@ -365,7 +365,7 @@ const QUESTIONS = {
         "It increases, since more configurations become available to the gas particles."
       ],
       "correct": 3,
-      "explanation": "Free expansion into a vacuum increases the number of possible particle arrangements, which increases entropy — even though no heat was exchanged and no work was done (there's no opposing pressure to push against). Choice B doubly errs: it assumes work is being done during this expansion, when free expansion into a vacuum does zero work by definition. Choice C conflates “no heat exchanged” with “no entropy change” — entropy tracks accessible configurations, not just energy transfer, so it can rise with zero heat flow. Choice A wrongly ties entropy exclusively to temperature change, missing the volume/configuration-based mechanism demonstrated by this exact scenario."
+      "explanation": "Correct: (D) It increases, since more configurations become available to the gas particles. In free expansion into a vacuum, the gas does no work (there is no opposing pressure) and, in an insulated container, exchanges no heat, so Q = 0, W = 0, and ΔU = 0. Entropy is a state function that depends on the number of accessible microstates, and a larger volume gives each particle more positions to occupy. For an ideal gas, ΔS = nR ln(V<sub>f</sub>/V<sub>i</sub>) > 0 whenever the volume grows. The process is irreversible, which also signals an entropy increase.\n\n(A) is wrong because entropy also depends on volume, so it can change even if the temperature does not (for an ideal gas the temperature is unchanged here).\n(B) is wrong because no work is done in a free expansion, and entropy does not decrease in an irreversible spontaneous process like this.\n(C) is wrong because zero heat exchange does not mean zero entropy change; entropy is generated inside the gas by the irreversible expansion."
     },
     {
       "id": "9-25",
@@ -378,7 +378,7 @@ const QUESTIONS = {
         "Estimating the mass of the metal sample rather than measuring it precisely."
       ],
       "correct": 0,
-      "explanation": "A precise thermometer and multiple trials are the standard moves for reducing uncertainty — they don't introduce new error sources, they reduce existing ones. Choice C introduces real error: heat is lost to the surroundings during a slow transfer. Choice B also introduces real error, since some heat goes into warming the unaccounted-for calorimeter cup rather than just the water. Choice D directly corrupts one of the three variables (m) in Q = mcΔT, adding uncertainty rather than removing it."
+      "explanation": "Correct: (A) Using a thermometer with fine temperature graduations and taking multiple trials. Uncertainty in Q = mcΔT comes from errors in m, ΔT, and heat lost to the surroundings. A finer scale reduces the reading uncertainty in ΔT, and averaging several trials reduces random error, so neither adds a new source of error. The clue words are \"LEAST additional experimental uncertainty\".\n\n(B) is wrong because an unaccounted-for cup absorbs some of the heat that the equation attributes to the water, which creates a systematic error.\n(C) is wrong because a slow transfer lets the hot metal lose heat to the air before it reaches the water, so the measured heat transfer is off.\n(D) is wrong because estimating the mass puts a direct error in m, one of the quantities in the calculation."
     },
     {
       "id": "9-26",
@@ -391,7 +391,7 @@ const QUESTIONS = {
         "It shifts right, to higher speeds."
       ],
       "correct": 2,
-      "explanation": "Temperature alone sets the shape and position of the Maxwell-Boltzmann distribution; adding more gas at the same T just scales up the number of particles at every speed, so the curve grows taller while its shape and peak position stay exactly the same. Choice D assumes more particles at the same T means higher speeds, incorrectly linking particle count to the distribution's position. Choice B makes the same type of error in the opposite direction. Choice A correctly keeps the position fixed but gets the height/width change backwards — adding particles at fixed T makes the curve taller, not shorter and wider (that pattern instead describes cooling, which redistributes existing particles rather than adding new ones)."
+      "explanation": "Correct: (C) Same shape and position, but grows taller. The Maxwell-Boltzmann distribution is set by temperature (and particle mass): the peak speed scales as √(2k<sub>B</sub>T/m). With T and gas type unchanged, the peak position and the shape of the curve stay fixed. Adding more particles raises the number at every speed, so the curve scales up and the area under it (the total number of particles) grows. The clue words are \"additional gas of the same type\" and \"temperature held fixed\".\n\n(A) is wrong because a shorter, wider curve would describe a hotter gas of the same number of particles, and adding particles makes the curve taller.\n(B) is wrong because a shift left needs a lower temperature, and the temperature is unchanged.\n(D) is wrong because a shift right needs a higher temperature, and the particle count does not set the speeds."
     },
     {
       "id": "9-27",
@@ -404,7 +404,7 @@ const QUESTIONS = {
         "The two temperatures must be equal."
       ],
       "correct": 3,
-      "explanation": "Average kinetic energy depends only on temperature (K<sub>avg</sub> = (3/2)k<sub>B</sub>T), not on particle mass or identity at all, so equal K<sub>avg</sub> directly implies equal temperatures. Choice A assumes the lighter gas needs a higher temperature to match kinetic energy, incorrectly linking mass to the K–T relationship. Choice C makes the same kind of error in the opposite direction. Choice B treats particle mass as necessary information, but mass is irrelevant to comparing temperatures once equal average kinetic energies are given — it only matters for converting K into speed, not for the K–T relationship itself."
+      "explanation": "Correct: (D) The two temperatures must be equal. The average translational kinetic energy per particle is K<sub>avg</sub> = (3/2)k<sub>B</sub>T, which depends only on the absolute temperature and not on the particle's mass or identity. If helium and argon have equal K<sub>avg</sub>, then T<sub>He</sub> = T<sub>Ar</sub>. Their average speeds would differ, with helium faster because v ∝ 1/√m, but that is a different quantity.\n\n(A) is wrong because a lighter gas does not need a higher temperature to have the same kinetic energy; K depends only on T.\n(B) is wrong because mass is not needed to compare temperatures when the average kinetic energies are given as equal.\n(C) is wrong because argon being heavier does not require a higher temperature; mass cancels out of the K-T relationship."
     },
     {
       "id": "9-28",
@@ -417,7 +417,7 @@ const QUESTIONS = {
         "Speed doubles; collision frequency doubles."
       ],
       "correct": 2,
-      "explanation": "Isothermal means temperature — and therefore average speed — is unchanged, since speed depends only on temperature. But with half the volume, particles travel shorter distances between wall collisions, so they hit the walls more often. Choice B assumes isothermal compression still changes speed, when temperature (and hence speed) is explicitly held fixed. Choice D makes the same error, tying speed to the volume change instead of to temperature. Choice A correctly keeps speed fixed but misses that the smaller volume directly increases collision frequency — it fails to separate which property depends on temperature (speed) versus which depends on geometry (frequency)."
+      "explanation": "Correct: (C) Speed stays the same; collision frequency increases. Isothermal means T is constant, and average particle speed depends only on temperature (K<sub>avg</sub> = (3/2)k<sub>B</sub>T and v<sub>rms</sub> = √(3k<sub>B</sub>T/m)), so the speed does not change. Halving the volume means the particles have a shorter distance between wall collisions, so each particle hits the walls more often. Pressure doubles, consistent with P ∝ 1/V at constant T. The clue words are \"isothermally\" and \"half its original volume\".\n\n(A) is wrong because it misses that the smaller volume increases how often particles strike the walls.\n(B) is wrong because speed does not increase when the temperature is held constant, and collision frequency does change.\n(D) is wrong because speed does not double at constant T; it would increase only if the temperature rose."
     },
     {
       "id": "9-29",
@@ -430,7 +430,7 @@ const QUESTIONS = {
         "1.0 × 10⁻²⁰ J"
       ],
       "correct": 3,
-      "explanation": "First convert to kelvin: 227°C + 273 = 500 K. Then K<sub>avg</sub> = (3/2)(1.38×10⁻²³)(500) ≈ 1.0×10⁻²⁰ J. Choice A (4.7×10⁻²¹ J) comes from mistakenly plugging in 227 directly without converting to kelvin. Choice C (3.1×10⁻²¹ J) is close to what results from dropping the 3/2 factor and using k<sub>B</sub>T alone. Choice B (6.9×10⁻²¹ J) reflects a similar dropped- or misapplied-factor slip near the k<sub>B</sub>T magnitude rather than the full (3/2)k<sub>B</sub>T."
+      "explanation": "Correct: (D) 1.0 × 10⁻²⁰ J. Convert to kelvin first: T = 227 + 273 = 500 K. Then use K<sub>avg</sub> = (3/2)k<sub>B</sub>T = 1.5 × (1.38 × 10⁻²³ J/K) × 500 K ≈ 1.04 × 10⁻²⁰ J, or about 1.0 × 10⁻²⁰ J. The clue word is \"227°C\", which signals a conversion.\n\n(A) is wrong because 4.7 × 10⁻²¹ J results from using 227 directly in place of kelvin.\n(B) is wrong because 6.9 × 10⁻²¹ J equals k<sub>B</sub>T with the factor of 3/2 left out.\n(C) is wrong because 3.1 × 10⁻²¹ J equals k<sub>B</sub> times 227, leaving out both the kelvin conversion and the 3/2."
     },
     {
       "id": "9-30",
@@ -443,7 +443,7 @@ const QUESTIONS = {
         "27"
       ],
       "correct": 2,
-      "explanation": "Since K<sub>avg</sub> ∝ v², speed scales as the square root of the kinetic energy ratio: √9 = 3. Choice A applies the given factor directly to speed, skipping the square root (treating v as proportional to K rather than √K). Choice D compounds that error with an extra multiplication rather than taking a square root. Choice B squares the given factor (9²=81) instead of taking its square root, the exact inverse of the correct operation."
+      "explanation": "Correct: (C) 3. Average kinetic energy is K = ½mv², so for the same gas (constant m), v ∝ √K. If K increases by a factor of 9, then v increases by √9 = 3. The clue words are \"kinetic energy increases by a factor of 9\" and \"average particle speed\".\n\n(A) is wrong because it applies the energy factor directly to speed, but speed goes as the square root of energy.\n(B) is wrong because it squares the factor (9² = 81), the opposite of taking the square root.\n(D) is wrong because 27 is just 9 times 3 and has no basis in the relationship."
     },
     {
       "id": "9-31",
@@ -456,7 +456,7 @@ const QUESTIONS = {
         "Decreasing the number of particles at constant volume and temperature."
       ],
       "correct": 3,
-      "explanation": "Removing particles at constant volume and temperature means fewer collisions with the walls per second, which decreases pressure — the one change here that does NOT increase pressure. Choice A does increase pressure: raising temperature at fixed volume and particle count makes collisions more frequent and more forceful. Choice C does increase pressure too: adding particles at fixed volume and temperature increases collision frequency. Choice B also increases pressure: shrinking the volume packs the same particles into less space, so they strike the walls more often."
+      "explanation": "Correct: (D) Decreasing the number of particles at constant volume and temperature. Pressure arises from particle collisions with the walls, and from PV = nRT, P = nRT/V is proportional to n at fixed V and T. Removing particles means fewer collisions per second, so pressure drops. The clue word is \"NOT\", so the answer is the one change that does not raise pressure.\n\n(A) is wrong because it raises pressure: at constant V and n, P is proportional to T, and faster particles hit the walls more often and harder.\n(B) is wrong because it raises pressure: P is proportional to 1/V at fixed n and T, so a smaller volume gives more collisions per area.\n(C) is wrong because it raises pressure: more particles at fixed V and T means more collisions per second."
     },
     {
       "id": "9-32",
@@ -469,7 +469,7 @@ const QUESTIONS = {
         "400 K"
       ],
       "correct": 0,
-      "explanation": "Using P₁V₁/T₁ = P₂V₂/T₂, both P and V doubling means PV increases by a factor of 4 (2×2), so T must also increase by a factor of 4: T₂ = 4 × 400 = 1600 K. Choice D treats the two doublings as if they canceled out, leaving T unchanged. Choice B accounts for only one of the two doubled quantities rather than both contributing multiplicatively. Choice C overcounts the combined effect, applying an extra factor beyond the correct ×4."
+      "explanation": "Correct: (A) 1600 K. For a fixed amount of gas, P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>. With P<sub>2</sub> = 2P<sub>1</sub> and V<sub>2</sub> = 2V<sub>1</sub>, the product PV rises by 2 × 2 = 4, so T<sub>2</sub> = 4 × 400 K = 1600 K. Check: P<sub>1</sub>V<sub>1</sub> = (3.0)(6.0) = 18 atm·L, P<sub>2</sub>V<sub>2</sub> = (6.0)(12) = 72 atm·L, and 72/18 = 4.\n\n(B) is wrong because 800 K accounts for only one of the two doublings.\n(C) is wrong because 3200 K is a factor of 8, which overcounts the combined effect.\n(D) is wrong because 400 K would need the doublings to cancel, but both raise PV, so they multiply."
     },
     {
       "id": "9-33",
@@ -482,7 +482,7 @@ const QUESTIONS = {
         "5.7 atm"
       ],
       "correct": 2,
-      "explanation": "Using PV = nRT: P = nRT/V = (0.20)(0.0821)(350)/3.0 ≈ 1.9 atm. Choice A is roughly half this value, consistent with a factor-of-2 slip such as using double the actual volume. Choice B is roughly double the correct value, the mirror-image slip. Choice D is roughly triple the correct value, consistent with an arithmetic error in combining the n×R×T product."
+      "explanation": "Correct: (C) 1.9 atm. Use the ideal gas law PV = nRT and solve for pressure: P = nRT/V = (0.20 mol)(0.0821 L·atm/(mol·K))(350 K)/(3.0 L) = 5.75/3.0 ≈ 1.9 atm. The clue words are the given moles, temperature, volume, and R in L·atm units.\n\n(A) is wrong because 0.95 atm is half the computed value and would need a volume of 6.0 L.\n(B) is wrong because 3.8 atm is double the computed value and would need a volume of 1.5 L.\n(D) is wrong because 5.7 atm is the product nRT = 5.75 L·atm with the division by V left out."
     },
     {
       "id": "9-34",
@@ -495,7 +495,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "At constant volume, P/T is constant: halving the temperature (600 K → 300 K) halves the pressure. Choice A inverts this relationship, treating cooling as if it should raise pressure. Choice B applies a squared relationship (halving twice) to what is actually a simple linear one. Choice D ignores the P/T relationship at constant volume entirely, as if pressure were independent of temperature."
+      "explanation": "Correct: (C) It is cut in half. At constant volume with a fixed amount of gas, PV = nRT gives P ∝ T, so P/T is constant (Gay-Lussac's law). Cooling from 600 K to 300 K gives a temperature ratio of 300/600 = 1/2, so the pressure falls to half its original value. The clue words are \"rigid container\", \"constant volume\", and \"cooled\".\n\n(A) is wrong because cooling lowers the pressure rather than raising it, since slower molecules hit the walls less often and less hard.\n(B) is wrong because one quarter would need the temperature to fall to 150 K; the relation is linear, not squared.\n(D) is wrong because at constant volume pressure depends directly on temperature, so it cannot stay the same."
     },
     {
       "id": "9-35",
@@ -509,7 +509,7 @@ const QUESTIONS = {
         "3.0 atm"
       ],
       "correct": 3,
-      "explanation": "Since n ∝ PV at fixed T, the total ‘PV’ before mixing is (2.0)(4.0) + (5.0)(2.0) = 18.0; after mixing, total volume is 6.0 L, so final pressure is 18.0/6.0 = 3.0 atm. Choice A resembles an unweighted average of the two pressures rather than properly combining total PV and dividing by total volume. Choice C reflects a smaller arithmetic slip in totaling the PV products or the combined volume. Choice B simply adds the two given pressures (2.0+5.0=7.0), ignoring that the gas amounts — not just the pressures — need to be weighted properly."
+      "explanation": "Correct: (D) 3.0 atm. At the same temperature, the amount of gas is proportional to PV, so the total before mixing is P<sub>A</sub>V<sub>A</sub> + P<sub>B</sub>V<sub>B</sub> = (2.0)(4.0) + (5.0)(2.0) = 8.0 + 10.0 = 18.0 atm·L. After the valve opens, the gas fills V = 4.0 + 2.0 = 6.0 L, so P = 18.0/6.0 = 3.0 atm. This is a volume-weighted average of the two pressures. The clues are \"same temperature\" and \"gas mixes\".\n\n(A) is wrong because 3.5 atm is the plain average of 2.0 and 5.0, which ignores that Container A is twice as large.\n(B) is wrong because 7.0 atm just adds the pressures, but adding volumes in the mixture spreads the gas out.\n(C) is wrong because 2.3 atm does not follow from the total PV of 18.0 atm·L and total volume of 6.0 L."
     },
     {
       "id": "9-36",
@@ -522,7 +522,7 @@ const QUESTIONS = {
         "8.3 m³"
       ],
       "correct": 3,
-      "explanation": "Using P₁V₁/T₁ = P₂V₂/T₂: V₂ = (1.0)(2.5)(250)/[(300)(0.25)] ≈ 8.3 m³; the large pressure drop (which would quadruple the volume) dominates over the smaller temperature drop (which shrinks it by a factor of 5/6). Choice A (0.52 m³) has the pressure effect backwards, treating the pressure drop as compressing the gas rather than letting it expand. Choice B (12 m³) inverts the temperature ratio, using 300/250 instead of 250/300. Choice C (10 m³) accounts for only the pressure change (a factor of 4) and ignores the temperature drop."
+      "explanation": "Correct: (D) 8.3 m³. For a fixed amount of gas, P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>, so V<sub>2</sub> = V<sub>1</sub>(P<sub>1</sub>/P<sub>2</sub>)(T<sub>2</sub>/T<sub>1</sub>) = (2.5 m³)(1.0/0.25)(250/300) = 2.5 × 4 × 0.833 ≈ 8.3 m³. The pressure drop by a factor of 4 expands the gas, and the temperature drop shrinks it by 5/6. The clue words are the balloon being sealed (fixed n) and the changes in both pressure and temperature.\n\n(A) is wrong because 0.52 m³ treats the pressure drop as a compression; lower pressure lets the gas expand.\n(B) is wrong because 12 m³ uses 300/250 for the temperature ratio instead of 250/300; cooling reduces the volume.\n(C) is wrong because 10 m³ accounts only for the pressure change and ignores the cooling."
     },
     {
       "id": "9-37",
@@ -535,7 +535,7 @@ const QUESTIONS = {
         "A hyperbola-shaped curve, decreasing."
       ],
       "correct": 3,
-      "explanation": "At constant temperature, PV = constant (Boyle's Law), so P = constant/V — an inverse relationship, which graphs as a hyperbola, not a straight line. Choice C assumes a linear inverse relationship, conflating “decreasing” with “straight line.” Choice A is wrong in both direction (P decreases as V increases here, not increases) and shape (linear vs. hyperbolic). Choice B picks a curve that's qualitatively decreasing like the true hyperbola but is the wrong functional form — P ∝ 1/V, not P ∝ e<sup>−V</sup>."
+      "explanation": "Correct: (D) A hyperbola-shaped curve, decreasing. At constant temperature with a fixed amount of gas, PV = nRT is constant (Boyle's law), so P = (constant)/V. Pulling the plunger out increases V, so P decreases, and an inverse relationship graphs as a hyperbola. For example, doubling V halves P, and tripling V cuts it to a third.\n\n(A) is wrong because pressure falls as volume rises, so the slope cannot be positive, and the graph is also not linear.\n(B) is wrong because an exponential decay has the form e<sup>−V</sup>, whereas the real relationship is P ∝ 1/V, which has a different shape.\n(C) is wrong because a straight line would mean P falls by equal amounts for equal volume increases, but the inverse relationship gives a curve."
     },
     {
       "id": "9-38",
@@ -549,7 +549,7 @@ const QUESTIONS = {
         "9P"
       ],
       "correct": 1,
-      "explanation": "Step 1 (isobaric): tripling V at constant P also triples T (V/T constant), giving an intermediate state of P, 3V, 3T. Step 2 (isochoric): tripling T again to 9T at constant V means pressure also triples (P/T constant): P<sub>final</sub> = 3P. Choice A assumes the two sequential changes cancel out, missing that the isochoric step alone produces a genuine threefold pressure increase. Choice D multiplies the volume factor and temperature factor together as if both drove pressure directly (3×3=9), rather than recognizing that the isobaric step leaves pressure completely unchanged. Choice C compounds that error with an extra factor of 3."
+      "explanation": "Correct: (B) 3P. Take the two steps in order. Step 1 is at constant pressure: V/T is constant, so tripling V triples T and the gas goes from (P, V, T) to (P, 3V, 3T). Step 2 is at constant volume: P/T is constant, so tripling T from 3T to 9T triples the pressure, giving P<sub>final</sub> = 3P. As a check, P<sub>f</sub>V<sub>f</sub>/T<sub>f</sub> = (3P)(3V)/(9T) = PV/T.\n\n(A) is wrong because the steps do not cancel; the constant-volume heating raises pressure while the isobaric step leaves it unchanged.\n(C) is wrong because 27P has no basis here, since the pressure only changes in the second step, by a single factor of 3.\n(D) is wrong because 9P multiplies the volume and temperature factors together, but the isobaric step leaves the pressure unchanged."
     },
     {
       "id": "9-39",
@@ -562,7 +562,7 @@ const QUESTIONS = {
         "20,000 L"
       ],
       "correct": 0,
-      "explanation": "Using P₁V₁/T₁ = P₂V₂/T₂: V₂ = (200)(12)(250)/[(300)(1.0)] = 2000 L; the huge pressure drop (200 atm to 1 atm) dominates. Choice C is off by roughly a factor of 10, consistent with a decimal-point slip in the pressure ratio. Choice B is close but reflects a smaller intermediate-arithmetic slip, such as using 300 K instead of 250 K for the final temperature. Choice D is off by a factor of 10 in the other direction, another decimal-point error applying the 200:1 pressure ratio."
+      "explanation": "Correct: (A) 2000 L. For a fixed amount of gas, P<sub>1</sub>V<sub>1</sub>/T<sub>1</sub> = P<sub>2</sub>V<sub>2</sub>/T<sub>2</sub>, so V<sub>2</sub> = V<sub>1</sub>(P<sub>1</sub>/P<sub>2</sub>)(T<sub>2</sub>/T<sub>1</sub>) = (12 L)(200/1.0)(250/300) = 12 × 200 × 0.8333 = 2000 L. The pressure drop of 200 times dominates, and the cooling reduces the result by 5/6.\n\n(B) is wrong because 2400 L is 12 × 200 and leaves out the cooling from 300 K to 250 K.\n(C) is wrong because 200 L is a factor of 10 too small and does not follow from the 200:1 pressure ratio.\n(D) is wrong because 20,000 L is a factor of 10 too large and does not follow from the numbers."
     },
     {
       "id": "9-40",
@@ -575,7 +575,7 @@ const QUESTIONS = {
         "R/2"
       ],
       "correct": 3,
-      "explanation": "Conduction rate is Q/Δt = kAΔT/L, with length L in the denominator; doubling the length halves the rate. Choice B ignores L's effect entirely, as if rate were independent of length. Choice A inverts the relationship, treating a longer rod as conducting faster rather than slower. Choice C compounds that inversion with an incorrect squared dependence on length."
+      "explanation": "Correct: (D) R/2. The conduction rate is Q/Δt = kAΔT/L. With the same material (k), the same area (A), and the same temperatures (ΔT), the rate is proportional to 1/L. Rod 2 has L<sub>2</sub> = 2L<sub>1</sub>, so its rate is R/2.\n\n(A) is wrong because it inverts the relationship; a longer rod gives heat farther to travel and conducts more slowly.\n(B) is wrong because length appears in the denominator of the conduction equation, so the rate depends on it.\n(C) is wrong because 4R is both an increase, which is the wrong direction, and a squared dependence, which does not exist here."
     },
     {
       "id": "9-41",
@@ -588,7 +588,7 @@ const QUESTIONS = {
         "9R"
       ],
       "correct": 1,
-      "explanation": "Conduction rate is directly proportional to ΔT: Q/Δt = kAΔT/L. Tripling ΔT triples the rate. Choice C inverts this, treating ΔT as if it belonged in the denominator the way length does. Choice A ignores ΔT's role in the equation altogether, as if rate were independent of the temperature difference. Choice D applies a squared relationship (3²=9) to what is actually a direct, linear proportionality with ΔT."
+      "explanation": "Correct: (B) 3R. The conduction rate is Q/Δt = kAΔT/L, which is directly proportional to the temperature difference when k, A, and L are unchanged. Tripling ΔT triples the rate to 3R.\n\n(A) is wrong because ΔT appears in the numerator of the equation, so changing it changes the rate.\n(C) is wrong because R/3 treats ΔT as if it were in the denominator like the length; more temperature difference drives more heat flow, not less.\n(D) is wrong because 9R squares the factor of 3, but the rate is linear in ΔT."
     },
     {
       "id": "9-42",
@@ -601,7 +601,7 @@ const QUESTIONS = {
         "1.5 W"
       ],
       "correct": 2,
-      "explanation": "Q/Δt = kAΔT/L = (0.20)(0.50)(15)/0.10 = 15 W. Choice A is off by a factor of 10, consistent with a decimal-point slip. Choice B is roughly half the correct value, consistent with omitting one of the given factors (such as using half the area). Choice D is off by a factor of 10 in the other direction from choice A."
+      "explanation": "Correct: (C) 15 W. The conduction rate is Q/Δt = kAΔT/L = (0.20 W/(m·K))(0.50 m²)(15 K)/(0.10 m) = 1.5/0.10 = 15 W. A temperature difference of 15°C equals 15 K. The clue words are the given k, area, thickness, and temperature difference.\n\n(A) is wrong because 150 W is a factor of 10 too large, which would result from using a thickness of 0.010 m.\n(B) is wrong because 7.5 W is half the computed value and would need half the area or half the temperature difference.\n(D) is wrong because 1.5 W is the numerator kAΔT with the division by L left out, which is a factor of 10 too small."
     },
     {
       "id": "9-43",
@@ -614,7 +614,7 @@ const QUESTIONS = {
         "112°C"
       ],
       "correct": 2,
-      "explanation": "Setting heat lost equal to heat gained: (0.40)(130)(200−T<sub>f</sub>) = (0.20)(4180)(T<sub>f</sub>−25), giving T<sub>f</sub> ≈ 35°C — close to the water's starting temperature, since lead's low specific heat means it gives up heat with only a modest temperature change of its own. Choice B undershoots, consistent with over-weighting water's dominance beyond what the actual mc values justify. Choice A overshoots, consistent with treating the two objects' mc values as more comparable than they really are. Choice D suggests the “heat lost” and “heat gained” sides were swapped, or both temperature differences were set up with the same sign instead of opposite signs."
+      "explanation": "Correct: (C) 35°C. In an insulated container, heat lost by the lead equals heat gained by the water: m<sub>L</sub>c<sub>L</sub>(200 − T<sub>f</sub>) = m<sub>w</sub>c<sub>w</sub>(T<sub>f</sub> − 25). The lead has m c = (0.40)(130) = 52 J/°C and the water has (0.20)(4180) = 836 J/°C. So 52(200 − T<sub>f</sub>) = 836(T<sub>f</sub> − 25), which gives 10,400 + 20,900 = 888T<sub>f</sub>, so T<sub>f</sub> = 31,300/888 ≈ 35°C. Because the water's mc is about 16 times larger, the final temperature stays close to the water's starting 25°C.\n\n(A) is wrong because 50°C would require the lead to give up 52 × 150 = 7800 J, while the water would gain 836 × 25 = 20,900 J, so the energies do not match.\n(B) is wrong because 28°C has the water gaining only 2508 J while the lead gives up 8944 J, so the energies do not match.\n(D) is wrong because 112°C is far above what the water can absorb, and the result must lie between 25°C and 200°C and very near 25°C."
     },
     {
       "id": "9-44",
@@ -627,7 +627,7 @@ const QUESTIONS = {
         "Closer to the hot object's initial temperature."
       ],
       "correct": 3,
-      "explanation": "A large mc value means an object strongly resists changing temperature, so the equilibrium temperature is pulled toward whichever object has the larger mc — here, the hot object. Choice B reverses which object dominates the outcome. Choice A only holds when both objects have equal mc, which contradicts the stated large/small mc difference. Choice C overstates the effect — the cool object still absorbs heat and shifts the equilibrium slightly, just less than an equal-mc scenario would."
+      "explanation": "Correct: (D) Closer to the hot object's initial temperature. At equilibrium, heat lost by the hot object equals heat gained by the cool one: (mc)<sub>hot</sub>(T<sub>h</sub> − T<sub>f</sub>) = (mc)<sub>cool</sub>(T<sub>f</sub> − T<sub>c</sub>). The object with the larger mc changes temperature less for the same energy exchange, so its temperature shift is the smaller one and T<sub>f</sub> stays near its starting value. Here that object is the hot one.\n\n(A) is wrong because the final temperature is the simple average only when the two mc values are equal.\n(B) is wrong because it reverses the roles; the smaller mc moves more, the larger mc moves less.\n(C) is wrong because the cool object still absorbs some heat, so the hot object must cool slightly and the final temperature is below its starting value."
     },
     {
       "id": "9-45",
@@ -641,7 +641,7 @@ const QUESTIONS = {
         "The temperature gradient (ΔT/L) across each layer."
       ],
       "correct": 0,
-      "explanation": "In steady state, no heat accumulates anywhere inside the wall, so whatever flows into one layer must flow out into the next — the rate of heat flow (Q/Δt) must match across both layers. Choice C reverses which quantity is guaranteed equal: ΔT across each layer generally differs, since it depends on that layer's own k and L, while it's the flow rate that's forced to match. Choice B treats conductivity as something that should equalize between different materials, but k is a fixed material property, and the problem states the materials differ. Choice D conflates the gradient (ΔT/L) with the flow rate; two layers can share the same flow rate while having different gradients, since flow rate also depends on each layer's own k."
+      "explanation": "Correct: (A) The rate of heat flow through each layer. In steady state the temperatures in the wall no longer change, so no energy builds up in either layer, and the heat entering a layer per second must equal the heat leaving it. Both layers therefore carry the same Q/Δt, where each layer obeys Q/Δt = kAΔT/L with its own k, L, and ΔT. Different k and L values then produce different temperature drops.\n\n(B) is wrong because conductivity is a material property, and the layers are made of different materials.\n(C) is wrong because the layer with the lower conductivity or greater thickness needs a larger ΔT to carry the same rate, so the temperature differences generally differ.\n(D) is wrong because the gradient ΔT/L equals the rate divided by kA, so with different k it differs between layers."
     },
     {
       "id": "9-46",
@@ -654,7 +654,7 @@ const QUESTIONS = {
         "Q vs. ΔT; c = 1 ÷ (slope × m)"
       ],
       "correct": 2,
-      "explanation": "From Q = mcΔT, plotting Q (vertical) against ΔT (horizontal) gives a line through the origin with slope = mc; since m is known, c = slope/m. Choice D inverts the needed algebra — slope already equals mc directly, so dividing by m gives c, not its reciprocal. Choice A swaps the axes, which changes what the slope physically represents (it would become 1/(mc) instead of mc), so the same c = slope×m formula no longer applies once axes are flipped. Choice B keeps the correct axes but performs the wrong algebra step, multiplying by m instead of dividing."
+      "explanation": "Correct: (C) Q vs. ΔT; c = slope ÷ m. From Q = mcΔT, a graph of Q on the vertical axis against ΔT on the horizontal axis is a straight line through the origin with slope = mc. The mass m is fixed and known, so c = slope/m. The clue words are \"known amounts of heat Q\", \"fixed mass m\" and \"specific heat c found from the graph\".\n\n(A) is wrong because with ΔT vs. Q the slope is 1/(mc), so c = 1/(slope × m), not slope × m.\n(B) is wrong because the axes are right, but multiplying the slope by m gives m²c, not c.\n(D) is wrong because 1/(slope × m) is not c; the slope already equals mc, so c is just slope divided by m."
     },
     {
       "id": "9-47",
@@ -667,7 +667,7 @@ const QUESTIONS = {
         "30°C"
       ],
       "correct": 3,
-      "explanation": "Because all three blocks share equal mc, the equilibrium temperature is simply the arithmetic mean: (10+30+50)/3 = 30°C. Choice B reflects averaging only two of the three given temperatures. Choice C reflects a mis-averaging that over-weights the higher temperatures. Choice A simply sums the three temperatures (90) without dividing by the number of objects."
+      "explanation": "Correct: (D) 30°C. With equal masses and specific heats, all three blocks have the same mc, so the heat balance mc[(T<sub>f</sub> − 10) + (T<sub>f</sub> − 30) + (T<sub>f</sub> − 50)] = 0 gives T<sub>f</sub> = (10 + 30 + 50)/3 = 90/3 = 30°C. The clues are \"identical blocks\" and \"insulated system\".\n\n(A) is wrong because 90°C is the sum of the temperatures, which was never divided by 3.\n(B) is wrong because 20°C is not the mean; it is the average of 10 and 30, which leaves out the 50°C block.\n(C) is wrong because 40°C is the average of 30 and 50, which leaves out the 10°C block."
     },
     {
       "id": "9-48",
@@ -680,7 +680,7 @@ const QUESTIONS = {
         "Rod 2 conducts four times as fast as Rod 1."
       ],
       "correct": 2,
-      "explanation": "Area A sits in the numerator of Q/Δt = kAΔT/L, so doubling the area doubles the rate. Choice A inverts this, confusing area's numerator role with length's denominator role. Choice D applies a squared relationship (2²=4) to what is actually a direct, linear proportionality with area. Choice B ignores that area appears explicitly in the equation, as if rate were unaffected by cross-sectional area."
+      "explanation": "Correct: (C) Rod 2 conducts twice as fast as Rod 1. The conduction rate is Q/Δt = kAΔT/L, so with the same material (k), length (L), and temperatures (ΔT), the rate is directly proportional to the cross-sectional area A. Doubling A doubles the rate, because there are twice as many parallel paths for heat to travel along.\n\n(A) is wrong because it treats area like length; area is in the numerator, so more area means more flow.\n(B) is wrong because area appears in the equation, so the rate depends on it.\n(D) is wrong because 4 times would come from a squared dependence on area, but the dependence is linear."
     },
     {
       "id": "9-49",
@@ -693,7 +693,7 @@ const QUESTIONS = {
         "288 W"
       ],
       "correct": 0,
-      "explanation": "ΔT = 22−(−8) = 30°C, so Q/Δt = kAΔT/L = (0.96)(1.5)(30)/0.0050 = 8640 W. Choice D is off by a factor of roughly 30, consistent with a major unit or decimal-point slip in the thickness term. Choice B is off by a factor of 6, consistent with using too small a ΔT (such as 5°C instead of the full 30°C difference). Choice C is exactly half the correct value, consistent with a factor-of-2 slip such as using half the given area."
+      "explanation": "Correct: (A) 8640 W. The temperature difference is ΔT = 22 − (−8) = 30°C = 30 K. The conduction rate is Q/Δt = kAΔT/L = (0.96 W/(m·K))(1.5 m²)(30 K)/(0.0050 m) = 43.2/0.0050 = 8640 W. The clue words are the indoor and outdoor temperatures, which must be subtracted with the negative sign carried through, and the thin 0.0050 m thickness, which makes the rate large.\n\n(B) is wrong because 1440 W is 6 times too small, which would correspond to ΔT = 5 K.\n(C) is wrong because 4320 W is exactly half the correct value, which would correspond to half the area.\n(D) is wrong because 288 W is 30 times too small and does not follow from the given values."
     },
     {
       "id": "9-50",
@@ -706,7 +706,7 @@ const QUESTIONS = {
         "Equal to the net work done on the gas during the cycle."
       ],
       "correct": 1,
-      "explanation": "For an ideal gas, internal energy depends only on temperature, and a complete cycle returns the gas to its exact starting state — including its starting temperature — so ΔU for the full cycle is always exactly zero, regardless of path. Choice A conflates ΔU with Q alone, ignoring that ΔU = Q + W depends on both quantities together. Choice D makes the same kind of error isolating W instead of Q. Choice C overlooks that ΔU is a state function depending only on the endpoints — identical start and end states guarantee ΔU = 0 no matter what path the cycle took."
+      "explanation": "Correct: (B) Zero, always. Internal energy is a state function, so it depends only on the current state of the gas (for an ideal gas, only its temperature). A complete cycle returns the gas to its exact initial state, so U<sub>final</sub> = U<sub>initial</sub> and ΔU = 0 regardless of the path taken. The clue words are \"complete cyclic process\" and \"returning to its exact initial state\".\n\n(A) is wrong because ΔU = Q + W, and the net heat alone does not equal ΔU; in a cycle the net heat is canceled by the net work.\n(C) is wrong because a state function does not depend on the path, so no path information is needed.\n(D) is wrong because ΔU equals Q + W, not W alone; the net work on the gas equals −Q<sub>net</sub>, not ΔU."
     },
     {
       "id": "9-51",
@@ -720,7 +720,7 @@ const QUESTIONS = {
         "No relationship can be determined between them at all."
       ],
       "correct": 1,
-      "explanation": "From the first law, ΔU = Q + W. Since ΔU = 0 for a full cycle, Q<sub>net</sub> + W<sub>net</sub> = 0, meaning Q<sub>net</sub> = −W<sub>net</sub>. Choice C overreaches: while their sum is zero, nothing requires each term to individually vanish — many real cycles have nonzero net heat and nonzero net work that cancel each other out. Choice A gets the sign relationship backwards; the correct algebra requires Q<sub>net</sub> and W<sub>net</sub> to be opposite in sign, not equal in sign. Choice D overlooks that ΔU = 0 for any complete cycle directly forces a specific relationship between Q<sub>net</sub> and W<sub>net</sub> via the first law, regardless of the path taken."
+      "explanation": "Correct: (B) Q<sub>net</sub> must equal −W<sub>net</sub> (equal magnitude, opposite sign). The first law is ΔU = Q + W (W being work done on the gas). For a complete cycle ΔU = 0, so Q<sub>net</sub> + W<sub>net</sub> = 0, which gives Q<sub>net</sub> = −W<sub>net</sub>. For example, an engine cycle that absorbs a net 200 J of heat must have a net 200 J of work done by the gas, meaning W<sub>net</sub> = −200 J on the gas.\n\n(A) is wrong because equal values with the same sign would make ΔU = 2Q, not zero.\n(C) is wrong because only the sum must vanish; real cycles such as heat engines have nonzero net heat and nonzero net work that cancel in the first law.\n(D) is wrong because the first law with ΔU = 0 directly links Q<sub>net</sub> and W<sub>net</sub>."
     },
     {
       "id": "9-52",
@@ -733,7 +733,7 @@ const QUESTIONS = {
         "800 J"
       ],
       "correct": 1,
-      "explanation": "Work done BY the gas on its surroundings means work done ON the gas is negative: W = −300 J, so ΔU = Q + W = 800 + (−300) = 500 J. Choice D forgets to subtract the work entirely, reporting Q alone as if W were zero. Choice A adds the work instead of subtracting it, treating W as positive when it should be negative for work done ON the gas during an expansion. Choice C reports the work value itself rather than combining it with Q via the first law."
+      "explanation": "Correct: (B) 500 J. The first law is ΔU = Q + W, where W is the work done ON the gas. The gas absorbs heat, so Q = +800 J. The gas expands and does 300 J of work on its surroundings, so the work done on the gas is W = −300 J. Then ΔU = 800 + (−300) = 500 J. The clue words are \"absorbs\" (Q positive) and \"doing work on its surroundings (expanding)\" (W negative).\n\n(A) is wrong because 1100 J adds the work instead of subtracting it, treating expansion work as energy given to the gas.\n(C) is wrong because 300 J is just the work and ignores the heat.\n(D) is wrong because 800 J is just the heat and ignores the energy the gas gave up as work."
     },
     {
       "id": "9-53",
@@ -746,7 +746,7 @@ const QUESTIONS = {
         "650 J"
       ],
       "correct": 0,
-      "explanation": "Heat released means Q = −400 J, and work done ON the gas is positive: W = +250 J, so ΔU = Q + W = −400 + 250 = −150 J. Choice B adds the two magnitudes with matching signs, as if both terms were negative, instead of combining a negative Q with a positive W. Choice C gets the correct magnitude but the wrong sign, from mismanaging which term should be negative. Choice D compounds both the sign error and the addition error from choice B."
+      "explanation": "Correct: (A) −150 J. Use ΔU = Q + W with W as the work done ON the gas. The gas releases heat, so Q = −400 J. The gas is compressed, so work is done on it and W = +250 J. Then ΔU = −400 + 250 = −150 J. The clue words are \"releases\" (Q negative) and \"done ON it (compression)\" (W positive).\n\n(B) is wrong because −650 J treats the work as negative as well, but compression adds energy to the gas.\n(C) is wrong because +150 J has the right size with the wrong sign; the gas loses more energy as heat than it gains as work, so U decreases.\n(D) is wrong because +650 J adds the magnitudes with both terms positive, which ignores that the heat leaves the gas."
     },
     {
       "id": "9-54",
@@ -772,7 +772,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "With Q = 0, the first law becomes ΔU = W. Expansion means the gas does positive work on its surroundings, so work done ON the gas is negative, making ΔU negative — and since U depends only on temperature, temperature decreases. Choice B reverses the outcome, missing that work leaving the gas (not entering it) lowers internal energy here. Choice D ignores that with no external heat source, any work done by the gas must come from its own internal energy. Choice C overlooks that Q = 0 combined with the direction of work during an expansion is already sufficient to determine the sign of ΔU without needing specific numbers."
+      "explanation": "Correct: (A) It decreases. The first law is ΔU = Q + W (W is the work done on the gas). In an adiabatic process Q = 0, so ΔU = W. When the gas expands it does work on its surroundings, so the work done on the gas is negative, making ΔU negative. For an ideal gas, U depends only on temperature, so the temperature decreases. The clue words are \"adiabatically\" and \"expands\".\n\n(B) is wrong because a temperature rise happens in adiabatic compression, when work is done on the gas, not in expansion.\n(C) is wrong because Q = 0 and the sign of the work already settle the direction of the change, without values of P and V.\n(D) is wrong because with no heat entering, the energy the gas gives up as work must come from its own internal energy, so the temperature cannot stay constant; that would require heat flow, as in an isothermal process."
     },
     {
       "id": "9-56",
@@ -785,7 +785,7 @@ const QUESTIONS = {
         "No — none of the four classic processes match a straight diagonal line."
       ],
       "correct": 3,
-      "explanation": "Isobaric and isochoric processes are straight lines, but only horizontal or vertical, respectively; isothermal and adiabatic processes are both curves (roughly hyperbola-shaped, PV ≈ constant-type relationships), not straight diagonal lines. Choice C incorrectly assumes any process changing both variables must be isothermal — but isothermal processes are curves, not straight lines. Choice B makes the same category error, mistaking “both variables change” for the adiabatic label, which is also a curve. Choice A overgeneralizes from the two real straight-line cases (horizontal = isobaric, vertical = isochoric) to assume ALL straight lines, including diagonal ones, must be named processes — but a diagonal line holds none of P, V, or T constant, so it matches none of the four definitions."
+      "explanation": "Correct: (D) No, none of the four classic processes match a straight diagonal line. An isobaric process holds P constant, so it is a horizontal line; an isochoric process holds V constant, so it is a vertical line. An isothermal process follows PV = constant, and an adiabatic process follows PV<sup>γ</sup> = constant, so both are curves. A diagonal line has P, V, and T all changing (and heat flowing), so it matches none of the four definitions.\n\n(A) is wrong because only horizontal and vertical lines correspond to named processes.\n(B) is wrong because an adiabatic process (Q = 0) is a curve, and both variables changing does not make a process adiabatic.\n(C) is wrong because an isothermal process is a hyperbola-shaped curve, and a straight diagonal line cannot have a constant PV product."
     },
     {
       "id": "9-57",
@@ -798,7 +798,7 @@ const QUESTIONS = {
         "W<sub>by</sub> = 0"
       ],
       "correct": 0,
-      "explanation": "The AP convention gives work done ON the gas as W<sub>on</sub> = −PΔV = −P(V₂−V₁); work done BY the gas is the opposite sign: W<sub>by</sub> = P(V₂−V₁), which is positive for this expansion (V₂>V₁), as expected. Choice B is actually the AP-convention work done ON the gas, not the textbook work done BY the gas — picking it mixes up the two conventions the question is asking you to distinguish. Choice C adds the two volumes instead of subtracting them, so it would predict a large, nonzero “work” even if the volume never changed. Choice D ignores that any volume change at nonzero pressure involves nonzero P-V work; zero work only applies to a strictly isochoric process."
+      "explanation": "Correct: (A) W<sub>by</sub> = P(V₂ − V₁). At constant pressure the work done on the gas is W<sub>on</sub> = −PΔV = −P(V₂ − V₁), as on the AP equation sheet. Work done by the gas is the negative of that, so W<sub>by</sub> = +P(V₂ − V₁). This is positive for an expansion (V₂ > V₁), which makes sense because the gas pushes on its surroundings. For example, P = 1.0 × 10⁵ Pa and ΔV = 0.010 m³ gives W<sub>by</sub> = +1000 J. The clue words are \"work done BY the gas\" and \"textbook convention\".\n\n(B) is wrong because −P(V₂ − V₁) is the AP-convention work done ON the gas, which is negative for an expansion.\n(C) is wrong because it adds the volumes, but the work depends on the change in volume (V₂ − V₁), not the total.\n(D) is wrong because the volume changes at nonzero pressure, so the work is nonzero."
     },
     {
       "id": "9-58",
@@ -811,7 +811,7 @@ const QUESTIONS = {
         "4860 J"
       ],
       "correct": 3,
-      "explanation": "At constant volume, W = 0, so Q = ΔU = (3/2)nRΔT = (3/2)(3.0)(8.31)(130) ≈ 4860 J — all the added heat goes directly into internal energy. Choice A is exactly one-third of the correct value, consistent with using a factor of 1/2 instead of 3/2. Choice C is roughly two-thirds of the correct value, consistent with using a factor of 1 instead of 3/2. Choice B is exactly double the correct value, consistent with using a factor of 3 instead of 3/2 in the internal energy equation."
+      "explanation": "Correct: (D) 4860 J. At constant volume no P-V work is done, so W = 0 and the first law gives Q = ΔU. For a monatomic ideal gas, ΔU = (3/2)nRΔT = (3/2)(3.0 mol)(8.31 J/(mol·K))(410 − 280 K) = 1.5 × 3.0 × 8.31 × 130 ≈ 4860 J. The clue words are \"monatomic\" (3/2 factor) and \"constant volume\" (Q = ΔU).\n\n(A) is wrong because 1620 J is one third of the correct value, which would come from using a factor of 1/2 instead of 3/2.\n(B) is wrong because 9720 J is double the correct value, which would come from using a factor of 3 instead of 3/2.\n(C) is wrong because 3240 J is two thirds of the correct value, which would come from using a factor of 1 instead of 3/2."
     },
     {
       "id": "9-59",
@@ -824,7 +824,7 @@ const QUESTIONS = {
         "Both processes involve the same amount of work, since ΔV is the same."
       ],
       "correct": 1,
-      "explanation": "Work magnitude for an isobaric process is |W| = PΔV; for the same ΔV, a higher constant pressure directly produces a larger magnitude of work. Choice A inverts this direct proportionality between pressure and work magnitude. Choice D ignores that pressure also appears in the work equation — equal ΔV alone doesn't make the works equal unless pressure is equal too. Choice C confuses magnitude with sign; the direction of the volume change affects the SIGN of the work, but the question asks about magnitude, which the given pressure comparison is sufficient to answer on its own."
+      "explanation": "Correct: (B) The higher-pressure process involves more work. For a constant-pressure process the work magnitude is |W| = PΔV. With the same ΔV, the work is directly proportional to P, so the process at the higher pressure P<sub>2</sub> involves more work. For example, ΔV = 0.010 m³ at 1.0 × 10⁵ Pa gives 1000 J, while at 2.0 × 10⁵ Pa it gives 2000 J.\n\n(A) is wrong because it inverts the direct proportionality between work and pressure.\n(C) is wrong because the direction of the volume change affects only the sign of the work (positive for compression, negative for expansion), not the magnitude.\n(D) is wrong because equal ΔV gives equal work only when P is equal, and here the pressures differ."
     },
     {
       "id": "9-60",
@@ -837,7 +837,7 @@ const QUESTIONS = {
         "Q/Δt vs. 1/ΔT; k = 1/slope"
       ],
       "correct": 1,
-      "explanation": "Rearranging Q/Δt = kAΔT/L, plotting Q/Δt against ΔT gives a line through the origin with slope = kA/L, so k = slope × L/A. Choice C inverts the needed algebra step; since slope = kA/L, isolating k means multiplying by L/A, not A/L. Choice A swaps which variable goes on which axis, which changes what the slope physically represents, so the same k = slope×L/A formula no longer applies directly. Choice D's reciprocal-axis approach doesn't produce a slope that isolates k the way the correct linear relationship does — it overcomplicates a relationship that's already linear in ΔT."
+      "explanation": "Correct: (B) Q/Δt vs. ΔT; k = slope × L/A. The conduction law Q/Δt = kAΔT/L, with Q/Δt on the vertical axis and ΔT on the horizontal axis, is a straight line through the origin with slope = kA/L. Solving for the conductivity gives k = slope × L/A. The clue words are \"varies ΔT\" and \"known area A and thickness L\", which show that ΔT is the independent variable.\n\n(A) is wrong because swapping the axes makes the slope L/(kA), so k = slope × L/A does not apply.\n(C) is wrong because multiplying the slope by A/L gives kA²/L², not k; isolating k needs the factor L/A.\n(D) is wrong because Q/Δt plotted against 1/ΔT is not a straight line, since the rate is directly proportional to ΔT, and 1/slope would not give k anyway."
     },
     {
       "id": "9-61",
@@ -850,7 +850,7 @@ const QUESTIONS = {
         "Insulate the syringe to prevent any heat exchange with the surroundings."
       ],
       "correct": 2,
-      "explanation": "Slow, quasi-static volume changes give the gas time to exchange heat with the room and stay at (approximately) room temperature throughout — genuinely isothermal conditions. Choice A does the opposite, trapping heat inside the gas and pushing the process toward adiabatic behavior instead, the exact failure mode this question is testing for. Choice D actively prevents the heat exchange needed for isothermal conditions, guaranteeing adiabatic-like behavior. Choice B misidentifies what's being controlled — a vacuum chamber affects the outside environment, not whether heat can flow between the gas and a reservoir, and doesn't address the actual variable (rate of volume change) that determines whether the process is quasi-static."
+      "explanation": "Correct: (C) Move the plunger slowly so the gas stays in thermal equilibrium with the room. Boyle's law (PV = constant) requires constant temperature. Moving the plunger slowly lets heat flow between the gas and the room, so any temperature change caused by compression or expansion is removed, and the gas stays near room temperature throughout. The clue words are \"constant\" temperature and \"best ensures\".\n\n(A) is wrong because moving quickly gives the gas no time to exchange heat, so compression warms it and expansion cools it, which is closer to an adiabatic process.\n(B) is wrong because a vacuum chamber has no connection to keeping the gas at a constant temperature, and a vacuum is a poor thermal conductor.\n(D) is wrong because insulation blocks the heat exchange that keeps the gas at the room temperature, pushing the process toward adiabatic."
     },
     {
       "id": "9-62",
@@ -891,7 +891,7 @@ const QUESTIONS = {
         "The gas gains more entropy than the reservoir loses, so the total rises."
       ],
       "correct": 1,
-      "explanation": "For an idealized reversible process, the total entropy change of the universe (gas plus reservoir) is exactly zero — the defining feature of reversibility — so whatever entropy the gas gains, the reservoir loses an equal amount. Choice D describes a net entropy increase, which is the hallmark of an IRREVERSIBLE process, not the idealized reversible case described here. Choice A makes the same type of error in the opposite direction, still implying a net entropy increase rather than the exact cancellation reversibility requires. Choice C is incorrect because entropy is defined for essentially any process, reversible or not; what's special about a reversible process is that its total change is exactly zero, not that entropy becomes undefined."
+      "explanation": "Correct: (B) Equal magnitude, opposite sign, which is a reversible process's signature. In a reversible isothermal process the gas absorbs heat Q at constant temperature T, so its entropy change is ΔS<sub>gas</sub> = +Q/T. The reservoir supplies that same Q at the same T, so ΔS<sub>res</sub> = −Q/T. The total is zero, which is the defining feature of a reversible process. For example, Q = 600 J at T = 300 K gives +2.0 J/K for the gas and −2.0 J/K for the reservoir.\n\n(A) is wrong because the gas absorbs heat and gains entropy rather than losing it, and a net increase would signal irreversibility.\n(C) is wrong because entropy is defined for all processes; reversibility just means the total change is zero.\n(D) is wrong because a net rise in total entropy describes an irreversible process, while here the reservoir loses exactly what the gas gains."
     },
     {
       "id": "9-65",
@@ -904,7 +904,7 @@ const QUESTIONS = {
         "Only processes I and II result in an entropy increase."
       ],
       "correct": 2,
-      "explanation": "Every one of these is a classic entropy-increasing process: heat flowing hot-to-cold, free expansion into more available space, and mixing of previously separated substances all increase the number of ways the system's particles can be arranged. Choice D wrongly excludes mixing (III); combining two previously separated gases into one mixed state is itself entropy-increasing, by the same “more accessible configurations” logic as free expansion. Choice A wrongly excludes I and II, both standard textbook entropy-increasing processes. Choice B conflates the first law (energy conservation, always true) with the second law (entropy behavior) — energy being conserved says nothing about whether the arrangement of that energy becomes more or less ordered."
+      "explanation": "Correct: (C) All three processes result in an entropy increase for the isolated system. In (I), heat flowing from hot to cold increases the total entropy, since Q/T<sub>c</sub> gained exceeds Q/T<sub>h</sub> lost. In (II), free expansion gives the gas more volume and therefore more accessible microstates, so ΔS = nR ln(V<sub>f</sub>/V<sub>i</sub>) > 0. In (III), mixing two different gases lets each spread through the whole volume, which also increases the number of arrangements. All three are spontaneous, irreversible processes, so the second law requires entropy to increase.\n\n(A) is wrong because processes I and II also increase entropy.\n(B) is wrong because conservation of energy is the first law; the second law is a separate statement, and entropy can rise while energy is conserved.\n(D) is wrong because it leaves out mixing, which increases entropy for the same reason as free expansion."
     }
   ],
   "10": [
@@ -919,7 +919,7 @@ const QUESTIONS = {
         "The forces are equal in magnitude, by Newton's third law."
       ],
       "correct": 3,
-      "explanation": "Newton's third law guarantees these two forces are equal in magnitude and opposite in direction, regardless of how different the charge magnitudes are — confirmed by Coulomb's Law's symmetry in q₁ and q₂. Choice C assumes Sphere B (the larger charge) must exert more force than it receives, and Choice B makes the same charge-ratio error in the other direction; action-reaction pairs are never scaled by charge size. Choice A wrongly treats distance as necessary information — distance affects both forces identically, so it cancels out of any comparison between them."
+      "explanation": "Correct: the forces are equal in magnitude. The two spheres exert an action-reaction pair on each other, and Newton's third law says such a pair always has equal magnitude and opposite direction. Coulomb's law agrees: F = k|q<sub>A</sub>q<sub>B</sub>|/r<sup>2</sup> is symmetric in the two charges, so the same product and the same r give the same F for both. The charges being −10 μC and −40 μC does not matter for the comparison.\n\n(A) is wrong because the distance is the same for both forces, so it cancels from the comparison and is not needed.\n(B) is wrong because it assumes the bigger charge feels less force, but force is not split by charge size.\n(C) is wrong because it assumes the larger charge feels more force, which would violate Newton's third law."
     },
     {
       "id": "10-2",
@@ -932,7 +932,7 @@ const QUESTIONS = {
         "Neutral, since the rod never touched the sphere."
       ],
       "correct": 0,
-      "explanation": "This is the classic charging-by-induction sequence: the negative rod repels electrons to the far side of the sphere, grounding drains that excess of electrons away, and removing the ground wire traps a deficit — positive charge, opposite the rod. Choice C describes what direct contact (conduction) would produce, not induction at a distance. Choice D wrongly assumes the rod must touch the sphere for anything to happen; the field alone is enough to redistribute charge. Choice B mistakes induction for a duration-dependent process — once the sphere reaches equilibrium (essentially instantly for a conductor), holding the rod there longer changes nothing."
+      "explanation": "Correct: positive, opposite in sign to the rod. Clue words are 'never touching' and 'grounded while the rod is still in place', which describe charging by induction. The negative rod repels the sphere's free electrons toward the side away from the rod. The ground wire lets those electrons flow off the sphere into the ground. When the wire is removed with the rod still there, the sphere is trapped with a deficit of electrons, and it stays net positive after the rod is taken away.\n\n(B) is wrong because a conductor reaches equilibrium almost instantly, so waiting longer changes nothing.\n(C) is wrong because negative would be the result of conduction (touching), not induction.\n(D) is wrong because charge can be redistributed and removed by the rod's field without any contact."
     },
     {
       "id": "10-3",
@@ -945,7 +945,7 @@ const QUESTIONS = {
         "There are no charges anywhere in the system."
       ],
       "correct": 0,
-      "explanation": "Field is force per unit charge (E = F/q), so a zero field at a point means any test charge placed there feels zero net force — true by definition. Choice D overreaches: a zero field at one point doesn't mean there are no charges anywhere, only that their effects happen to cancel there. Choice B confuses field with potential — potential is a separate scalar quantity, and nothing requires it to be zero just because the field is; a nonzero-potential, zero-field point is entirely possible (and vice versa). Choice C invents an unnecessary geometric requirement; the charges need not be equidistant, only positioned so their vector contributions cancel."
+      "explanation": "Correct: a test charge there would feel zero net electric force. The electric field is defined as force per unit charge, E = F/q, so E = 0 at a point means F = qE = 0 for any charge placed there. This says nothing else about the surroundings; the contributions from different charges just cancel as vectors at that one point.\n\n(B) is wrong because potential is a scalar that depends on the sum of kq/r terms, and it can be nonzero where the field is zero (for example the midpoint between two equal positive charges).\n(C) is wrong because the charges do not need to be equidistant; two unequal charges can cancel at unequal distances.\n(D) is wrong because charges can exist elsewhere in the system, with their fields canceling at that point."
     },
     {
       "id": "10-4",
@@ -958,7 +958,7 @@ const QUESTIONS = {
         "The midpoint between the two charges."
       ],
       "correct": 2,
-      "explanation": "Between two like charges, the field from each points away from itself, so between the charges the two contributions point toward each other and can cancel. That cancellation point must sit closer to the WEAKER charge (+Q) — Choice C — since being nearer the smaller charge lets its close-range field match the larger charge's field from farther away. Choice D (the midpoint) is wrong because the stronger +2Q charge would dominate there, leaving a nonzero net field toward +Q. Choice A places the point on the wrong side, closer to the stronger charge, which only worsens the imbalance. Choice B is wrong because both charges being positive is exactly what makes cancellation possible between them — the fields oppose because they point in opposite directions along the line, not because of any sign restriction."
+      "explanation": "Correct: a point between the charges, closer to +Q. Both charges are positive, so on the line between them their fields point in opposite directions and can cancel. Set kQ/x<sup>2</sup> = k(2Q)/(d−x)<sup>2</sup>, where x is the distance from +Q. This gives (d−x) = √2 x, so x = d/(1+√2) ≈ 0.41d, which is nearer the smaller charge. The smaller charge must be closer so that its weaker field, at short range, matches the stronger charge's field at long range.\n\n(A) is wrong because near +2Q the larger charge's field would dominate even more.\n(B) is wrong because like charges give cancellation between them, since the fields oppose there.\n(D) is wrong because at the midpoint the +2Q field is twice as large, so the net field points toward +Q and is not zero."
     },
     {
       "id": "10-5",
@@ -971,7 +971,7 @@ const QUESTIONS = {
         "The potential cannot be determined without knowing the exact distances."
       ],
       "correct": 1,
-      "explanation": "Electric potential is a scalar, so contributions from multiple charges add algebraically — including their signs — never like vectors and never by multiplication. Choice C wrongly treats potential like a vector quantity that can cancel by symmetry; two negative potentials don't cancel just because the charges are placed symmetrically. Choice A applies a sign rule that belongs to multiplying two numbers, not to adding two potentials from separate sources. Choice D is a distractor — the problem already states the distances are equal, and equal distances plus equal charges is enough to know the total is twice one contribution, even without the exact numerical value."
+      "explanation": "Correct: negative, the sum of the two negative potentials. Electric potential is a scalar, so V = kq<sub>1</sub>/r<sub>1</sub> + kq<sub>2</sub>/r<sub>2</sub>, added with signs. Each −6 μC charge at the same distance r gives −kq/r, so the total is −2k(6 x 10<sup>-6</sup>)/r, which is negative. Direction and the opposite sides do not matter for a scalar.\n\n(A) is wrong because potentials are added, not multiplied, so two negatives do not make a positive.\n(C) is wrong because cancellation happens for vectors like field, but these two potentials have the same sign and add.\n(D) is wrong because the sign is fixed by the charges, and equal distances are given, so the total is simply twice one contribution."
     },
     {
       "id": "10-6",
@@ -984,7 +984,7 @@ const QUESTIONS = {
         "They are always perpendicular at every point."
       ],
       "correct": 3,
-      "explanation": "Field lines and equipotential lines are always perpendicular wherever they meet, because moving along an equipotential involves zero work, and the electric force can do zero work on a displacement only if the force is perpendicular to it. Choice B describes the opposite relationship. Choice A is wrong on two counts: the two families of lines never cross at all (each point has one field direction and one potential value), and field strength doesn't create an exception. Choice C denies that any fixed relationship exists, when perpendicularity in fact holds everywhere, without exception."
+      "explanation": "Correct: they are always perpendicular. Along an equipotential surface the potential does not change, so moving a charge along it requires zero work. Work is W = F·d·cosθ, and for it to be zero for every displacement along the surface, the electric force (and therefore the field) must be perpendicular to the surface. So field lines cross equipotentials at 90° everywhere.\n\n(A) is wrong because field lines never cross equipotential lines at any angle other than 90°, and strength does not create exceptions.\n(B) is wrong because parallel would mean the field has a component along the equipotential, which would change the potential.\n(C) is wrong because the relationship is fixed by the definition of potential, so it is required."
     },
     {
       "id": "10-7",
@@ -997,7 +997,7 @@ const QUESTIONS = {
         "The charge drops to zero, since a dielectric is an insulating material that cannot carry charge."
       ],
       "correct": 2,
-      "explanation": "Inserting a dielectric raises capacitance (C = κε₀A/d, κ > 1). With the battery still connected holding ΔV fixed, Q = CΔV means charge must rise to match the larger C — the battery pushes more charge onto the plates. Choice A correctly notes the field inside the dielectric drops, but wrongly extends that to the charge itself; the field weakens because of the dielectric's own polarization, not because charge left the plates. Choice B wrongly assumes both Q and C stay fixed — inserting the dielectric is precisely what changes C, so Q can't stay constant while ΔV is held fixed. Choice D confuses the dielectric's insulating property (it blocks charge from flowing THROUGH it) with an ability to remove charge already sitting on the plates, which it does not do."
+      "explanation": "Correct: the charge increases. A dielectric raises the capacitance, C = κε<sub>0</sub>A/d with κ > 1. The battery stays connected, so ΔV is held constant, and Q = CΔV rises because C rose. The battery supplies extra charge to the plates to keep the voltage fixed.\n\n(A) is wrong because although the dielectric weakens the field inside it, the plates hold more charge, not less.\n(B) is wrong because C changes when the dielectric goes in, so Q = CΔV cannot stay the same at fixed ΔV.\n(D) is wrong because the dielectric does not discharge the plates; it only polarizes and is not an electrical path between them."
     },
     {
       "id": "10-8",
@@ -1010,7 +1010,7 @@ const QUESTIONS = {
         "It cannot be determined without knowing the distance traveled."
       ],
       "correct": 2,
-      "explanation": "Using W = −qΔV = ΔK: ΔV = 50 − 200 = −150 V, and the proton's charge is positive, so ΔK = −qΔV comes out positive — kinetic energy increases. Choice B gets the sign backwards, treating a move to lower potential as if it costs the proton energy, when for a positive charge it's the opposite (like a ball rolling downhill). Choice A wrongly claims potential has no effect on kinetic energy; potential difference is exactly what determines the energy change here. Choice D is a distractor — the work-energy relationship depends only on the potential difference between the two points, not on the distance traveled."
+      "explanation": "Correct: the kinetic energy increases. The work done by the field is W = −qΔV = ΔK. Here ΔV = 50 − 200 = −150 V and q = +e = 1.6 x 10<sup>-19</sup> C, so ΔK = −(1.6 x 10<sup>-19</sup>)(−150) = +2.4 x 10<sup>-17</sup> J, which equals 150 eV. A positive charge speeds up as it moves toward lower potential, like a mass falling to lower height.\n\n(A) is wrong because potential difference is exactly what sets the energy change.\n(B) is wrong because it reverses the sign; moving to lower potential would reduce the energy of a negative charge, not a positive one.\n(D) is wrong because only the potential difference between start and end matters, not the path length."
     },
     {
       "id": "10-9",
@@ -1023,7 +1023,7 @@ const QUESTIONS = {
         "It doubles in magnitude, while remaining negative in sign."
       ],
       "correct": 1,
-      "explanation": "For a positive-negative pair, U = (1/4πε₀)(q₁q₂/r) is negative, and U depends on 1/r, so doubling r cuts the magnitude of U in half. Choice D gets the r-dependence backwards, treating doubling the distance as if it strengthens the interaction rather than weakens it. Choices A and C both incorrectly flip the sign of U to positive — but the sign of U depends only on the signs of the charges, which haven't changed, so U must stay negative regardless of what happens to the distance."
+      "explanation": "Correct: the magnitude is cut in half and stays negative. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r, which is negative for opposite signs and proportional to 1/r. Doubling r gives U' = kq<sub>1</sub>q<sub>2</sub>/(2r) = U/2, still negative, so it is half as negative (it rises toward zero).\n\n(A) is wrong because it doubles the magnitude and flips the sign, but neither follows from U ∝ 1/r with fixed charges.\n(C) is wrong because the magnitude is halved correctly but the sign cannot change when the charge signs do not change.\n(D) is wrong because it treats U as proportional to r instead of 1/r."
     },
     {
       "id": "10-10",
@@ -1036,7 +1036,7 @@ const QUESTIONS = {
         "The angle cannot be determined without knowing the object's charge-to-mass ratio numerically."
       ],
       "correct": 0,
-      "explanation": "The object has two forces besides tension: gravity (mg, downward) and the electric force (qE, horizontal). For equilibrium, tension must balance both simultaneously, which only happens at a tilt angle satisfying tan(θ) = qE/mg. Choice B ignores the electric force entirely, as if only gravity acts — but the problem specifies a nonzero field and a charged object. Choice C wrongly assumes the string aligns fully with the field direction (90° from vertical), which would require gravity to have no effect at all. Choice D is a distractor — the angle is fully determined by the ratio qE/mg symbolically, without needing specific numerical values."
+      "explanation": "Correct: a nonzero angle fixed by the ratio qE to mg. Three forces act on the object: weight mg down, electric force qE horizontal (positive charge, so along the field), and string tension along the string. For equilibrium the vertical component of tension balances mg, T cosθ = mg, and the horizontal component balances qE, T sinθ = qE. Dividing gives tanθ = qE/(mg).\n\n(B) is wrong because the electric force is also present, so the string tilts.\n(C) is wrong because 90° would need gravity to be zero; mg always pulls it down so tanθ is finite.\n(D) is wrong because the angle depends on qE/mg, which can be written symbolically, and no separate numerical charge-to-mass value is needed to say it is nonzero and set by that ratio."
     },
     {
       "id": "10-11",
@@ -1049,7 +1049,7 @@ const QUESTIONS = {
         "0.06 N"
       ],
       "correct": 1,
-      "explanation": "F = k|q₁q₂|/r² = (9.0×10⁹)(2.0×10⁻⁶)(3.0×10⁻⁶)/(0.30)² ≈ 0.6 N. Choice D (0.06 N) is ten times too small and Choice C (6 N) is ten times too large — both come from a decimal-place slip when converting μC to C or in the final division. Choice A (60 N) is a hundred times too large, as if the distance had been entered as 0.030 m instead of 0.30 m."
+      "explanation": "Correct: 0.6 N. Use Coulomb's law F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup>. Convert μC to C: F = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)(3.0 x 10<sup>-6</sup>)/(0.30)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(6.0 x 10<sup>-12</sup>)/0.090 = 0.054/0.090 = 0.60 N. Both charges are positive so the force is repulsive, but only the magnitude is asked.\n\n(A) is wrong because 60 N is 100 times too large, as if r = 0.030 m had been used.\n(C) is wrong because 6 N is 10 times too large, from a power-of-ten slip in the unit conversion.\n(D) is wrong because 0.06 N is 10 times too small, from another power-of-ten slip such as dividing by 0.9 instead of 0.09."
     },
     {
       "id": "10-12",
@@ -1062,7 +1062,7 @@ const QUESTIONS = {
         "9"
       ],
       "correct": 1,
-      "explanation": "Coulomb's Law follows an inverse-square relationship: F ∝ 1/r². Tripling the distance divides the force by 3² = 9, giving Choice B. Choice C (1/3) applies the tripling directly to the force as if F ∝ 1/r, forgetting to square it. Choices A and D (3, 9) both apply the scaling in the wrong direction, as if increasing distance increased the force rather than decreasing it."
+      "explanation": "Correct: 1/9. Coulomb's law is F = kq<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>, an inverse-square law. If r becomes 3r, then F' = kq<sub>1</sub>q<sub>2</sub>/(3r)<sup>2</sup> = F/9. The charges are unchanged, so only the r<sup>2</sup> factor matters.\n\n(A) is wrong because the force decreases with distance, not increases.\n(C) is wrong because 1/3 applies the factor to r once, as if F ∝ 1/r, forgetting to square it.\n(D) is wrong because 9 gets the square right but uses the wrong direction, as if the force grew with distance."
     },
     {
       "id": "10-13",
@@ -1075,7 +1075,7 @@ const QUESTIONS = {
         "4F"
       ],
       "correct": 1,
-      "explanation": "New force = k(2Q)(2Q)/(2r)² = k(4Q²)/(4r²) = kQ²/r² = F — the two factors of 4, from squaring both the doubled charges and the doubled distance, cancel exactly. Choice A (F/4) comes from applying only the distance-doubling effect and ignoring that the charges also doubled. Choice D (4F) comes from applying only the charge-doubling effect and ignoring the distance change. Choice C (F/16) comes from squaring the distance change correctly but mistakenly squaring the charge factor again too, over-applying the inverse-square relationship."
+      "explanation": "Correct: F. Originally F = kQ<sup>2</sup>/r<sup>2</sup>. With both charges doubled the numerator becomes k(2Q)(2Q) = 4kQ<sup>2</sup>, and doubling the distance makes the denominator (2r)<sup>2</sup> = 4r<sup>2</sup>. So F' = 4kQ<sup>2</sup>/4r<sup>2</sup> = F, because the factor of 4 on top and bottom cancel.\n\n(A) is wrong because F/4 counts only the distance change and ignores the doubled charges.\n(C) is wrong because F/16 divides by 4 for the distance and again by 4 in the wrong direction for the charge, treating a bigger charge as weakening the force.\n(D) is wrong because 4F counts only the doubled charges and ignores the doubled distance."
     },
     {
       "id": "10-14",
@@ -1088,7 +1088,7 @@ const QUESTIONS = {
         "kQ²/d²"
       ],
       "correct": 3,
-      "explanation": "The charge at x = 0 repels the x = d charge in the +x direction with magnitude kQ²/d²; the +2Q charge at x = 2d repels it in the −x direction with magnitude 2kQ²/d². Net force = 2kQ²/d² − kQ²/d² = kQ²/d² (Choice D). Choice B (0) comes from wrongly assuming the two forces are equal and cancel, ignoring that the x = 2d charge is twice as large. Choice C (2kQ²/d²) comes from counting only the force from the +2Q charge and forgetting to subtract the opposing force from the charge at x = 0. Choice A (3kQ²/d²) comes from adding the two force magnitudes instead of correctly subtracting them, since they point in opposite directions."
+      "explanation": "Correct: kQ<sup>2</sup>/d<sup>2</sup>. Treat the force on the middle +Q as a vector sum along the line. The +Q at x = 0 pushes it in the +x direction with F<sub>1</sub> = kQ<sup>2</sup>/d<sup>2</sup>. The +2Q at x = 2d pushes it in the −x direction with F<sub>2</sub> = k(2Q)(Q)/d<sup>2</sup> = 2kQ<sup>2</sup>/d<sup>2</sup>. Net = 2kQ<sup>2</sup>/d<sup>2</sup> − kQ<sup>2</sup>/d<sup>2</sup> = kQ<sup>2</sup>/d<sup>2</sup>, toward −x.\n\n(A) is wrong because it adds the magnitudes even though the forces point opposite ways.\n(B) is wrong because the forces would cancel only if the outer charges were equal, but one is twice as large.\n(C) is wrong because it counts only the force from the +2Q charge and leaves out the opposing force from the +Q at x = 0."
     },
     {
       "id": "10-15",
@@ -1101,7 +1101,7 @@ const QUESTIONS = {
         "0.56 N"
       ],
       "correct": 0,
-      "explanation": "F = k|q₁q₂|/r² = (9.0×10⁹)(5.0×10⁻⁶)(5.0×10⁻⁶)/(0.20)² ≈ 5.6 N. Choices D and B (0.56 N, 2.8 N) both come from decimal-place or arithmetic slips in the numerator before dividing by r². Choice C (11 N) is roughly double the correct result, consistent with accidentally doubling the numerator. The force magnitude depends only on the charge magnitudes and distance — the opposite signs affect direction (attraction) but not size."
+      "explanation": "Correct: 5.6 N. Use F = k|q<sub>1</sub>q<sub>2</sub>|/r<sup>2</sup> with the magnitudes: F = (9.0 x 10<sup>9</sup>)(5.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/(0.20)<sup>2</sup> = (9.0 x 10<sup>9</sup>)(2.5 x 10<sup>-11</sup>)/0.040 = 0.225/0.040 = 5.6 N. The opposite signs mean the force is attractive, but the size depends only on the magnitudes.\n\n(B) is wrong because 2.8 N is half the right value, from dropping a factor of 2 in the arithmetic.\n(C) is wrong because 11 N is double the right value, from a doubled numerator.\n(D) is wrong because 0.56 N is a power-of-ten slip in the conversion or division."
     },
     {
       "id": "10-16",
@@ -1127,7 +1127,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "The equilibrium angle satisfies tan(θ) = F_electric/(mg). Doubling the mass while keeping charge and separation (and thus F_electric) unchanged cuts the ratio F_electric/(mg) in half, so θ decreases — Choice A. Choice B has the relationship backwards, treating more mass as if it increases the tilt rather than pulling the spheres more toward vertical. Choice D wrongly assumes mass has no effect on the balance, ignoring that θ is set by the ratio of the two forces. Choice C is incorrect because the new angle IS determinable — it just requires comparing the unchanged electric force to the new, larger weight."
+      "explanation": "Correct: it decreases. Each sphere is in equilibrium under three forces: weight mg down, the horizontal Coulomb repulsion F<sub>e</sub>, and string tension. Balancing components gives T cosθ = mg and T sinθ = F<sub>e</sub>, so tanθ = F<sub>e</sub>/(mg). With the charges and separation unchanged, F<sub>e</sub> is unchanged, and doubling m halves the ratio, so tanθ and θ decrease. The strings hang closer to vertical because gravity now wins more of the balance.\n\n(B) is wrong because a heavier sphere is pulled down harder, which reduces the tilt rather than increasing it.\n(C) is wrong because the new ratio F<sub>e</sub>/(2mg) is known relative to the old one, so the direction of change is determinable.\n(D) is wrong because θ depends on the ratio of F<sub>e</sub> to mg, so changing m changes θ."
     },
     {
       "id": "10-18",
@@ -1140,7 +1140,7 @@ const QUESTIONS = {
         "+6e and 0."
       ],
       "correct": 0,
-      "explanation": "When identical conductors touch, total charge redistributes equally between them: total charge = +8e + (−2e) = +6e, split evenly gives +3e on each sphere (Choice A). Choice B assumes no charge transfer occurs at all, ignoring that contact lets charge flow freely between identical conductors. Choice D (+6e and 0) keeps the total charge correct but wrongly dumps it all onto one sphere instead of splitting it evenly. Choice C (+4e and +2e) preserves the correct total but splits it unevenly, as if the spheres retained some memory of their original charges rather than reaching a shared equilibrium."
+      "explanation": "Correct: +3e on each sphere. Identical conductors share their total charge equally when they touch, because charge moves freely until each has the same potential. Total charge is conserved: (+8e) + (−2e) = +6e. Splitting evenly gives +6e/2 = +3e on each sphere after separation.\n\n(B) is wrong because contact lets charge flow, so the spheres do not keep their original charges.\n(C) is wrong because +4e and +2e do add to +6e, but identical conductors cannot hold unequal shares at equilibrium.\n(D) is wrong because +6e and 0 also total +6e but puts all the charge on one sphere, which is not an equal split."
     },
     {
       "id": "10-19",
@@ -1153,7 +1153,7 @@ const QUESTIONS = {
         "opposite; the same"
       ],
       "correct": 3,
-      "explanation": "Induction (never touching, then grounding while the rod stays nearby) always leaves the object with a charge opposite the rod's; conduction (direct contact) always leaves the same sign as the charging object — Choice D. Choice C reverses both relationships. Choices A and B each get one blank right and one wrong, mixing the two mechanisms rather than keeping them as exact opposites of each other."
+      "explanation": "Correct: opposite; the same. In induction the rod never touches the object. The rod's field pushes like charges away, the ground carries them off, and the object ends up with the opposite sign to the rod. In conduction the rod touches the object and charge transfers directly, so both end up with the same sign.\n\n(A) is wrong because it says induction gives the same sign, which it never does.\n(B) is wrong because it says conduction gives opposite sign, but a touching transfer leaves the same sign.\n(C) is wrong because it reverses both relationships."
     },
     {
       "id": "10-20",
@@ -1166,7 +1166,7 @@ const QUESTIONS = {
         "Charging by friction between the balloon and the surrounding air."
       ],
       "correct": 2,
-      "explanation": "Insulators have no free electrons to flow, so true induction (Choice A) can't occur — the wall's charges can't migrate through it. Instead, the balloon's nearby charge polarizes each wall molecule slightly, shifting electron clouds toward or away from the balloon and creating attraction with zero net charge transferred — Choice C. Choice B is wrong because conduction requires direct contact and shared charge, which doesn't match a balloon merely sticking to a wall. Choice D is a distractor — friction with air isn't the mechanism holding the balloon to the wall; it's the polarization-induced attraction after the balloon is already charged."
+      "explanation": "Correct: polarization of the wall's molecules, with no net charge transfer. A wall that is an insulator has no free electrons to flow through it, so induction as in a conductor cannot happen. The negative balloon pushes electron clouds in the nearby wall molecules slightly away and the positive sides slightly closer. The positive side is nearer to the balloon, so the attraction is stronger than the repulsion and the balloon sticks.\n\n(A) is wrong because induction in the conducting sense needs free electrons moving through the material.\n(B) is wrong because conduction means actual charge transfer on contact, but the wall stays neutral overall here.\n(D) is wrong because friction with air only helps explain how the balloon got charged, not why it sticks to the wall."
     },
     {
       "id": "10-21",
@@ -1179,7 +1179,7 @@ const QUESTIONS = {
         "Negative, the same sign as the rod."
       ],
       "correct": 2,
-      "explanation": "Induction always leaves the object with a charge opposite in sign to the charging rod, so a negative rod leaves the conductor positive (Choice C) — the exact mirror image of the positive-rod case. Choice D assumes the induced charge matches the rod's sign, which describes conduction, not induction. Choice A wrongly assumes the process leaves no lasting change, ignoring that grounding while the rod is present permanently removes or adds electrons. Choice B is a distractor — the sign of the induced charge depends only on the sign of the rod, not on how strongly charged it is."
+      "explanation": "Correct: positive, opposite in sign to the rod. Induction always leaves the object with a charge opposite to the rod's sign. With a positive rod the conductor's electrons are attracted near, then extra electrons come up from ground and it ends negative. Swapping to a negative rod repels electrons away, they go to ground, and the conductor is left with a deficit, so it ends positive.\n\n(A) is wrong because the grounding step makes a permanent change in net charge.\n(B) is wrong because the sign of the final charge depends on the rod's sign, not on how strongly it is charged.\n(D) is wrong because same-sign charging would be conduction, not induction."
     },
     {
       "id": "10-22",
@@ -1192,7 +1192,7 @@ const QUESTIONS = {
         "A wooden ruler"
       ],
       "correct": 0,
-      "explanation": "Metals like copper have abundant free (delocalized) electrons that move throughout the material, letting charge spread rapidly across the whole surface — Choice A. Choices B, C, and D (rubber, glass, wood) are all insulators, whose electrons stay bound to individual atoms and can't flow freely, so charge placed on them stays put near where it was deposited rather than redistributing."
+      "explanation": "Correct: a copper sphere. A conductor has free (delocalized) electrons that move easily throughout the material. Excess charge repels itself and spreads quickly over the surface. Copper is a metal, so it fits.\n\n(B) is wrong because rubber is an insulator whose electrons stay bound to atoms, so charge stays where it was placed.\n(C) is wrong because glass is also an insulator and holds charge in place.\n(D) is wrong because wood is an insulator in this setting and does not let charge spread across the surface."
     },
     {
       "id": "10-23",
@@ -1218,7 +1218,7 @@ const QUESTIONS = {
         "2.9 × 10⁵ N/C"
       ],
       "correct": 2,
-      "explanation": "E = kq/r² = (9.0×10⁹)(4.0×10⁻⁶)/(0.50)² = 1.44×10⁵ N/C. Choice B (7.2×10⁴ N/C) comes from forgetting to square the 0.50 m distance. Choices D and A (5.8×10⁵, 2.9×10⁵ N/C) both come from a factor-of-2-type slip, such as mishandling the squared denominator or a decimal shift, landing roughly double or quadruple the correct value."
+      "explanation": "Correct: 1.44 x 10<sup>5</sup> N/C. The field of a point charge is E = kq/r<sup>2</sup>. Substituting: E = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)/(0.50)<sup>2</sup> = 3.6 x 10<sup>4</sup>/0.25 = 1.44 x 10<sup>5</sup> N/C. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m<sup>2</sup> = N/C.\n\n(A) is wrong because 5.8 x 10<sup>5</sup> is four times too big, which would come from squaring the distance twice or using r = 0.25 m.\n(B) is wrong because 7.2 x 10<sup>4</sup> comes from dividing by r = 0.50 without squaring it.\n(D) is wrong because 2.9 x 10<sup>5</sup> is about twice the right value, from dividing by 0.125 instead of 0.25."
     },
     {
       "id": "10-25",
@@ -1231,7 +1231,7 @@ const QUESTIONS = {
         "2.0 × 10⁴ N/C, same direction as the force"
       ],
       "correct": 2,
-      "explanation": "Magnitude: E = F/|q| = 0.060/(3.0×10⁻⁶) = 2.0×10⁴ N/C. Since the charge is negative, the force on it points opposite to the field (E = F/q, dividing by negative q flips direction), so the field points opposite to the given force — Choice C. Choice D gets the correct magnitude but the wrong direction, forgetting that a negative charge reverses the force-field relationship. Choices A and B both compute the magnitude incorrectly, inverting the F/q ratio rather than dividing force by charge correctly."
+      "explanation": "Correct: 2.0 x 10<sup>4</sup> N/C, opposite direction to the force. The field is the force per unit charge, E = F/q. The magnitude is E = 0.060 N/(3.0 x 10<sup>-6</sup> C) = 2.0 x 10<sup>4</sup> N/C. The charge is negative, so the force on it points opposite to the field, which means the field points opposite to the force.\n\n(A) is wrong because 5.0 x 10<sup>-5</sup> is q/F inverted, and the direction is also wrong.\n(B) is wrong because it has the inverted ratio q/F = 3.0 x 10<sup>-6</sup>/0.060, which does not have field units.\n(D) is wrong because the magnitude is right but a negative charge feels force against the field, so the directions are opposite, not the same."
     },
     {
       "id": "10-26",
@@ -1244,7 +1244,7 @@ const QUESTIONS = {
         "Lines point straight from +Q to −Q only, with no curvature."
       ],
       "correct": 2,
-      "explanation": "Field lines always start on positive charges and end on negative charges; for a dipole they emanate from +Q, curve through the surrounding space, and terminate on −Q, with the densest concentration of lines (strongest field) directly between the two charges — Choice C. Choice A reverses the start and end points entirely. Choice B is wrong because dipole field lines always originate and terminate ON the charges — they never form self-contained loops that avoid the charges. Choice D is too restrictive; while the line directly on the axis between the charges is straight, most of the field line pattern curves substantially rather than running in perfectly straight paths."
+      "explanation": "Correct: lines emanate from +Q and curve around to terminate on −Q. Field lines show the direction of the force on a positive test charge, so they start on positive charges and end on negative ones. For a dipole they leave +Q, spread and curve through the space around, and come into −Q, with the lines crowded between the charges where the field is strongest.\n\n(A) is wrong because it reverses the start and end.\n(B) is wrong because electrostatic field lines begin and end on charges and do not form closed loops.\n(D) is wrong because only the line along the axis is straight, while most lines curve."
     },
     {
       "id": "10-27",
@@ -1257,7 +1257,7 @@ const QUESTIONS = {
         "It does not accelerate."
       ],
       "correct": 0,
-      "explanation": "The force on a charge is F = qE, and for a negative charge this force points opposite the field direction. Since the field points in +x, the force — and the initial acceleration — points in −x (Choice A). Choice B wrongly applies the field direction directly to the charge, ignoring the sign flip a negative charge introduces. Choice C invents a direction (+y) with no basis, since the field and force here are purely along the x-axis. Choice D wrongly assumes the charge stays at rest, but a nonzero field on a nonzero charge always produces a nonzero force."
+      "explanation": "Correct: −x. The force on a charge in a field is F = qE. For a negative q the force is opposite to E. The field is along +x, so the force and the initial acceleration (a = F/m) are along −x.\n\n(B) is wrong because +x is the direction a positive charge would accelerate.\n(C) is wrong because there is no y-component in the field, so there is no y-component of force.\n(D) is wrong because a nonzero field acting on a nonzero charge gives a nonzero force, so the charge accelerates."
     },
     {
       "id": "10-28",
@@ -1270,7 +1270,7 @@ const QUESTIONS = {
         "A = B = C"
       ],
       "correct": 1,
-      "explanation": "Field magnitude follows E ∝ 1/r², so Point A (closest, at r) has the strongest field, followed by B (at 2r), then C (at 3r, weakest) — Choice B. Choice C reverses the order entirely, as if field grew stronger with distance. Choice D wrongly assumes distance has no effect on field strength. Choice A scrambles the order, placing the middle distance (B) as strongest, which doesn't match the inverse-square falloff from the source charge."
+      "explanation": "Correct: A > B > C. For a point charge E = kq/r<sup>2</sup>, so the field falls with the square of the distance. With distances r, 2r, 3r the fields are in the ratio 1 : 1/4 : 1/9, so E<sub>A</sub> = kq/r<sup>2</sup> > E<sub>B</sub> = kq/4r<sup>2</sup> > E<sub>C</sub> = kq/9r<sup>2</sup>. The closest point has the strongest field.\n\n(A) is wrong because it puts the middle distance first, which doesn't match any monotonic falloff.\n(C) is wrong because it reverses the order, as if the field grew with distance.\n(D) is wrong because the field depends on distance, so the three points differ."
     },
     {
       "id": "10-29",
@@ -1283,7 +1283,7 @@ const QUESTIONS = {
         "They are perpendicular to each other."
       ],
       "correct": 0,
-      "explanation": "At the midpoint, the field from +Q points away from +Q (toward −Q), and the field from −Q also points toward −Q — both fields point the same way and add constructively, Choice A. Choice B applies the like-charges cancellation rule to this opposite-charges scenario, where it doesn't hold. Choice D invents a perpendicular relationship that doesn't exist here, since both fields lie along the same line connecting the charges. Choice C wrongly ignores the −Q charge's contribution entirely, when both charges produce a field at every point in space."
+      "explanation": "Correct: they point in the same direction and add. At the midpoint the field from +Q points away from +Q, which is toward −Q. The field from −Q points toward −Q, so it is also toward −Q. Both are along the line joining the charges and both point the same way, so the magnitudes add.\n\n(B) is wrong because cancellation at the midpoint is what happens with two like charges, not opposite ones.\n(C) is wrong because every charge produces a field at every point, including the −Q.\n(D) is wrong because both fields lie along the same line, so they cannot be perpendicular."
     },
     {
       "id": "10-30",
@@ -1296,7 +1296,7 @@ const QUESTIONS = {
         "0"
       ],
       "correct": 1,
-      "explanation": "Each charge sits a distance L/2 from the midpoint, contributing a field of magnitude kQ/(L/2)² = 4kQ/L². Since opposite charges' fields add at the midpoint (as shown elsewhere in this set), the total is 2 × 4kQ/L² = 8kQ/L² (Choice B). Choice C (kQ/L²) comes from using the full length L instead of the half-distance L/2. Choice A (4kQ/L²) comes from correctly finding one charge's contribution but forgetting to double it for the second charge. Choice D (0) wrongly assumes the two contributions cancel, which would only be true for two LIKE charges at the midpoint, not this +Q/−Q pair."
+      "explanation": "Correct: 8kQ/L<sup>2</sup>. The midpoint is L/2 from each charge, so each charge alone gives E = kQ/(L/2)<sup>2</sup> = 4kQ/L<sup>2</sup>. The field from +Q points away from it and the field from −Q points toward it, which is the same direction at the midpoint, so they add: 4kQ/L<sup>2</sup> + 4kQ/L<sup>2</sup> = 8kQ/L<sup>2</sup>.\n\n(A) is wrong because it counts only one charge's contribution.\n(C) is wrong because kQ/L<sup>2</sup> uses the full length L instead of the half-distance L/2.\n(D) is wrong because zero would be right only for two equal like charges, not for +Q and −Q."
     },
     {
       "id": "10-31",
@@ -1309,7 +1309,7 @@ const QUESTIONS = {
         "The measured field is smaller with the larger test charge."
       ],
       "correct": 2,
-      "explanation": "While the force on a larger test charge is indeed larger, the ratio F/q stays constant, since force scales proportionally with the test charge — Choice C. Choice B assumes the measured field itself grows with a bigger test charge, confusing the raw force with the defined field quantity. Choice D makes the same confusion in the opposite direction. Choice A is a distractor — the source charge's value isn't needed to answer this comparison, since the question only asks how the measurement changes with test charge, and by definition it doesn't."
+      "explanation": "Correct: the measured field is the same either way. The electric field is defined as E = F/q, the force per unit test charge. A larger test charge feels proportionally more force (F = qE), so the ratio F/q is unchanged. That is why E is a property of the source charges and the point in space, not of the test charge (assuming the test charge is small enough not to disturb the source).\n\n(A) is wrong because the comparison needs no value of the source charge, only the definition of E.\n(B) is wrong because it confuses the larger force with a larger field.\n(D) is wrong because the larger charge does not make the ratio smaller; both F and q scale together."
     },
     {
       "id": "10-32",
@@ -1322,7 +1322,7 @@ const QUESTIONS = {
         "0.045 J"
       ],
       "correct": 2,
-      "explanation": "U = kq₁q₂/r = (9.0×10⁹)(3.0×10⁻⁶)(5.0×10⁻⁶)/0.60 ≈ 0.225 J (Choice C). Choice D (0.045 J) comes from a factor-of-5 arithmetic slip in the numerator. Choices A and B (1.35 J, 2.25 J) both come from forgetting to divide by r = 0.60 m, or dividing by the wrong power of it."
+      "explanation": "Correct: 0.225 J. For two point charges, U = kq<sub>1</sub>q<sub>2</sub>/r. Substituting: U = (9.0 x 10<sup>9</sup>)(3.0 x 10<sup>-6</sup>)(5.0 x 10<sup>-6</sup>)/0.60 = (9.0 x 10<sup>9</sup>)(1.5 x 10<sup>-11</sup>)/0.60 = 0.135/0.60 = 0.225 J. It is positive because the charges are like charges.\n\n(A) is wrong because 1.35 J is ten times the numerator 0.135 and also ignores dividing by r, a power-of-ten slip.\n(B) is wrong because 2.25 J is ten times the right answer, from a power-of-ten error in the conversion from μC.\n(D) is wrong because 0.045 J is one third of 0.135, from dividing by 3 instead of by 0.60."
     },
     {
       "id": "10-33",
@@ -1335,7 +1335,7 @@ const QUESTIONS = {
         "Both decrease."
       ],
       "correct": 1,
-      "explanation": "The repulsive force accelerates the charge away, converting potential energy into kinetic energy while total mechanical energy is conserved — as PE goes down, KE goes up by the same amount (Choice B). Choice A has both quantities backwards. Choices C and D each assume both energies move in the same direction, which would violate conservation of energy for an isolated system with no external forces doing work."
+      "explanation": "Correct: KE increases; PE decreases. Two like charges repel, so the fixed charge's force on the moving charge points along its motion and does positive work on it. That work speeds it up, so kinetic energy rises. The system's potential energy U = kq<sub>1</sub>q<sub>2</sub>/r falls as r grows. With no outside forces, total energy is conserved: the drop in U equals the gain in KE.\n\n(A) is wrong because it has both energies changing the wrong way, as if the charge slowed down while moving away.\n(C) is wrong because KE and PE cannot both rise in an isolated system without external work.\n(D) is wrong because both cannot fall, since energy would disappear."
     },
     {
       "id": "10-34",
@@ -1348,7 +1348,7 @@ const QUESTIONS = {
         "3kQ²/d"
       ],
       "correct": 3,
-      "explanation": "A three-charge system has three distinct pairs, and each contributes kQ²/d (since all sides equal d): total = 3 × kQ²/d = 3kQ²/d (Choice D). Choice B (kQ²/d) counts only a single pair and forgets the other two. Choice C (2kQ²/d) counts only two of the three pairs. Choice A (6kQ²/d) double-counts each pair once too many — a common error is tallying each pair twice, once from each charge's perspective, without correcting back down."
+      "explanation": "Correct: 3kQ<sup>2</sup>/d. The total potential energy of a set of point charges is the sum over every distinct pair, with each pair counted once. Three charges give three pairs, and every pair is separated by d with charges Q and Q, so each contributes kQ<sup>2</sup>/d. Total U = 3kQ<sup>2</sup>/d, positive because the charges are alike.\n\n(A) is wrong because 6kQ<sup>2</sup>/d counts each pair twice, once from each charge's point of view.\n(B) is wrong because kQ<sup>2</sup>/d counts only one pair.\n(C) is wrong because 2kQ<sup>2</sup>/d counts only two of the three pairs."
     },
     {
       "id": "10-35",
@@ -1361,7 +1361,7 @@ const QUESTIONS = {
         "−0.36 J"
       ],
       "correct": 0,
-      "explanation": "U = kq₁q₂/r = (9.0×10⁹)(4.0×10⁻⁶)(−2.0×10⁻⁶)/0.40 ≈ −0.18 J (Choice A). Choice D (−0.36 J) comes from a factor-of-2 slip in the numerator. Choices C and B (0.36 J, 0.18 J) both drop the negative sign, forgetting that a positive-negative charge pair always yields negative potential energy."
+      "explanation": "Correct: −0.18 J. For two point charges U = kq<sub>1</sub>q<sub>2</sub>/r, keeping the signs. U = (9.0 x 10<sup>9</sup>)(4.0 x 10<sup>-6</sup>)(−2.0 x 10<sup>-6</sup>)/0.40 = (9.0 x 10<sup>9</sup>)(−8.0 x 10<sup>-12</sup>)/0.40 = −0.072/0.40 = −0.18 J. Opposite charges attract, so the system's energy is below zero, the value at infinite separation.\n\n(B) is wrong because 0.36 J drops the sign and also doubles the magnitude.\n(C) is wrong because it has the right size but drops the negative sign.\n(D) is wrong because it has the right sign but is twice the right size, a factor-of-2 slip."
     },
     {
       "id": "10-36",
@@ -1374,7 +1374,7 @@ const QUESTIONS = {
         "Positive"
       ],
       "correct": 3,
-      "explanation": "Like charges repel, so an external agent must push against that repulsion to bring them closer, doing positive work — Choice D. Choice C has the sign backwards, as if bringing repelling charges together required negative work, which would mean the repulsion was somehow helping the process. Choice A wrongly assumes no work is needed at all, ignoring that the charges actively resist being brought closer. Choice B is a distractor — the sign of the work doesn't depend on which specific charge moves, only on whether the pair attracts or repels."
+      "explanation": "Correct: positive. Like charges repel, so to bring them together from infinity the agent must push against the repulsive force. The agent's force points along the displacement, so W<sub>agent</sub> = +ΔU = kq<sub>1</sub>q<sub>2</sub>/d > 0. Because the motion is slow (ΔKE = 0), all this work is stored as potential energy.\n\n(A) is wrong because the repulsion has to be overcome, so work is needed.\n(B) is wrong because the sign depends only on whether the pair attracts or repels, not on which charge is moved.\n(C) is wrong because negative work would mean the repulsion pushed the agent along, which is the opposite of the situation."
     },
     {
       "id": "10-37",
@@ -1387,7 +1387,7 @@ const QUESTIONS = {
         "Negative"
       ],
       "correct": 3,
-      "explanation": "Opposite charges attract, so left alone they'd accelerate toward each other; to move them together slowly without gaining kinetic energy, the agent must hold them back, doing negative work — Choice D. Choice A has the sign backwards, treating the attraction as if it required extra pushing rather than restraining. Choice B wrongly assumes no work is involved, ignoring that the agent must actively counteract the attractive force to keep the motion slow. Choice C is a distractor, since which charge is moved doesn't change the sign of the work — only whether the pair attracts or repels does."
+      "explanation": "Correct: negative. Opposite charges attract, so left alone they would speed up toward each other. To bring them together slowly with no change in kinetic energy, the agent must hold them back: its force points against the displacement. So W<sub>agent</sub> = ΔU = kq<sub>1</sub>q<sub>2</sub>/d, which is negative because q<sub>1</sub>q<sub>2</sub> < 0. The system's energy drops from 0 at infinity to a negative value.\n\n(A) is wrong because positive work would be needed to pull the charges apart, not bring them together.\n(B) is wrong because the agent still has to counter the attractive force.\n(C) is wrong because the sign depends on attraction versus repulsion, not on which charge moves."
     },
     {
       "id": "10-38",
@@ -1400,7 +1400,7 @@ const QUESTIONS = {
         "PE decreases; external agent does positive work."
       ],
       "correct": 1,
-      "explanation": "Bringing two like charges closer together against their mutual repulsion increases the potential energy, and the external agent must do positive work to raise it — the work goes directly into the PE. Choice A gets the PE change right but the sign of the work wrong: here the work and the PE change must share the same sign. Choices C and D both get the PE change backwards, as if moving like charges closer released energy rather than costing it."
+      "explanation": "Correct: PE increases; the external agent does positive work. The charges are both positive, so they repel. Moving +2Q from 0.80 m to 0.20 m brings them closer against that repulsion. U = k(Q)(2Q)/r grows as r shrinks, going from 2kQ<sup>2</sup>/0.80 to 2kQ<sup>2</sup>/0.20, a four-fold increase. The agent supplies that energy, so W<sub>agent</sub> = ΔU > 0.\n\n(A) is wrong because PE rises correctly, but the agent's work equals ΔU, so it cannot be negative.\n(C) is wrong because it has the PE falling and the work negative, but closer like charges store energy.\n(D) is wrong because the PE does not decrease for like charges brought closer."
     },
     {
       "id": "10-39",
@@ -1413,7 +1413,7 @@ const QUESTIONS = {
         "−5.4 × 10⁴ V"
       ],
       "correct": 2,
-      "explanation": "V = kq/r = (9.0×10⁹)(−6.0×10⁻⁶)/0.25 = −2.16×10⁵ V (Choice C). Choice D (−5.4×10⁴ V) forgets to divide by r after computing the numerator kq. Choices A and B drop the negative sign entirely, forgetting that potential from a negative charge is always negative at any finite distance."
+      "explanation": "Correct: −2.16 x 10<sup>5</sup> V. The potential of a point charge is V = kq/r, which keeps the sign of q. V = (9.0 x 10<sup>9</sup>)(−6.0 x 10<sup>-6</sup>)/0.25 = (−5.4 x 10<sup>4</sup>)/0.25 = −2.16 x 10<sup>5</sup> V. Check units: N·m<sup>2</sup>/C<sup>2</sup> x C / m = J/C = V.\n\n(A) is wrong because it is the numerator kq without dividing by r, and without the sign.\n(B) is wrong because the size is right but the sign is wrong, since a negative charge gives negative potential.\n(D) is wrong because it has the right sign but stops at kq = −5.4 x 10<sup>4</sup> without dividing by r."
     },
     {
       "id": "10-40",
@@ -1426,7 +1426,7 @@ const QUESTIONS = {
         "A large positive value"
       ],
       "correct": 0,
-      "explanation": "Potential is a scalar and adds algebraically; equal-magnitude opposite-sign charges at equal distances from P contribute equal and opposite potentials, which sum to exactly zero — Choice A. Choices B and D both wrongly assume the potentials add up to a large nonzero value instead of canceling, treating this like the same-sign case elsewhere in this set. Choice C is a distractor — since the charges are stated to be at equal distances, the exact numerical distance isn't needed to know the potentials cancel."
+      "explanation": "Correct: zero. Electric potential is a scalar, and contributions add algebraically with their signs. At P the +2.0 μC charge gives +kq/r and the −2.0 μC charge gives −kq/r, since the distance r is the same. They sum to zero.\n\n(B) is wrong because that would need two negative charges, not one of each sign.\n(C) is wrong because the equal distances make the two terms cancel for any value of r.\n(D) is wrong because that would need two positive charges, not opposite ones."
     },
     {
       "id": "10-41",
@@ -1440,7 +1440,7 @@ const QUESTIONS = {
         "Yes, but only if there is just a single point charge in the system."
       ],
       "correct": 0,
-      "explanation": "This happens at exactly the dipole midpoint scenario elsewhere in this set: potential from +Q and −Q cancels as opposite-sign scalars, while the field vectors from each actually point the same direction and add — giving nonzero net field with zero potential (Choice A). Choices B and C both wrongly assume E and V must track together; they are related by a derivative, not a direct proportionality, so one can vanish while the other doesn't. Choice D wrongly restricts this to a single point charge, but a single point charge never has V = 0 at any finite distance, so the scenario actually requires at least two charges (as in a dipole) to occur at all."
+      "explanation": "Correct: yes. Potential is a scalar sum, so +kQ/r and −kQ/r cancel to V = 0 at the midpoint of a +Q and −Q pair. The field is a vector sum, and at that midpoint both fields point toward −Q, so they add to E = 2kQ/(d/2)<sup>2</sup> = 8kQ/d<sup>2</sup>, not zero. E is related to the slope of V (E = −dV/dx), not to the value of V, so V = 0 does not force E = 0.\n\n(B) is wrong because the zero of V is only a choice of where V crosses zero, and the slope can be nonzero there.\n(C) is wrong because E and V are not proportional; E depends on the rate of change of V.\n(D) is wrong because a single point charge never has V = 0 at a finite distance, so the case needs at least two charges."
     },
     {
       "id": "10-42",
@@ -1453,7 +1453,7 @@ const QUESTIONS = {
         "1.0 × 10⁵ V"
       ],
       "correct": 2,
-      "explanation": "Each charge contributes V = kq/r = (9.0×10⁹)(2.0×10⁻⁶)/0.17 ≈ 1.04×10⁵ V, and since potential adds as a scalar, the total is 3 × 1.04×10⁵ ≈ 3.1×10⁵ V (Choice C). Choice D (1.0×10⁵ V) is just the single-charge contribution, forgetting to add the other two. Choice A (2.1×10⁵ V) only accounts for two of the three charges. Choice B (9.4×10⁵ V) comes from a computational slip, such as misplacing a decimal."
+      "explanation": "Correct: 3.1 x 10<sup>5</sup> V. Potential is a scalar, so add each charge's kq/r. Each +2.0 μC gives V = (9.0 x 10<sup>9</sup>)(2.0 x 10<sup>-6</sup>)/0.17 = 1.8 x 10<sup>4</sup>/0.17 ≈ 1.06 x 10<sup>5</sup> V, or about 1.04 x 10<sup>5</sup> V using the exact distance 0.30/√3 = 0.173 m. Three equal contributions give V ≈ 3.1 x 10<sup>5</sup> V. All three are positive, so none cancel.\n\n(A) is wrong because 2.1 x 10<sup>5</sup> V includes only two charges.\n(B) is wrong because 9.4 x 10<sup>5</sup> V is about three times too large, as if the triple was applied twice.\n(D) is wrong because 1.0 x 10<sup>5</sup> V is only one charge's contribution."
     },
     {
       "id": "10-43",
@@ -1466,7 +1466,7 @@ const QUESTIONS = {
         "Zero, by definition."
       ],
       "correct": 3,
-      "explanation": "An equipotential surface is, by definition, a surface where potential doesn't change; since W = −qΔV, zero potential difference along the path means zero work regardless of distance traveled — Choice D. Choices A and C both wrongly assume moving along the surface still requires work proportional to distance, contradicting the very definition of 'equipotential.' Choice B invents a speed-dependence that doesn't exist — work done by a static electric field depends only on the potential difference between start and end points, never on how fast the charge moves."
+      "explanation": "Correct: zero, by definition. On an equipotential surface ΔV = 0 between any two points, and the work done by the electric force is W = −qΔV = 0. This holds for any path along the surface and any distance moved, because the electric force is perpendicular to the surface so F·d = 0.\n\n(A) is wrong because positive work would require a potential drop along the path.\n(B) is wrong because the work done by the electric force depends on the potential difference, not on speed.\n(C) is wrong because negative work would require a potential rise along the path."
     },
     {
       "id": "10-44",
@@ -1479,7 +1479,7 @@ const QUESTIONS = {
         "Concentric cylinders around the charge."
       ],
       "correct": 0,
-      "explanation": "Since V = kQ/r depends only on distance r from the charge, every point at the same r shares the same potential, and the set of all points equidistant from a single point forms a sphere — Choice A. Choices C (flat planes) and D (cylinders) both describe geometries that don't have this equidistant property with respect to a single point source. Choice B is simply wrong — equipotential surfaces exist for any charge distribution, including a lone point charge; they're just spherical in this particular case."
+      "explanation": "Correct: concentric spheres centered on the charge. The potential of a point charge is V = kQ/r, which depends only on the distance r from the charge. All points with the same r have the same V, and the set of points a fixed distance from one point is a sphere. Different values of V give spheres of different radii, all sharing the same center.\n\n(B) is wrong because every charge distribution has equipotential surfaces.\n(C) is wrong because planes are the equipotentials of a uniform field, such as between parallel plates.\n(D) is wrong because cylinders are the equipotentials of a long line of charge."
     },
     {
       "id": "10-45",
@@ -1492,7 +1492,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "For a uniform field between parallel plates, E = ΔV/d. Doubling d while holding ΔV constant cuts E in half — Choice C. Choices A and B both assume the field grows when the plates are pulled apart, which is backwards; spreading the same voltage over a larger gap always weakens the field. Choice D wrongly assumes separation has no effect on field strength, ignoring the direct d-dependence in the formula."
+      "explanation": "Correct: it is cut in half. For a uniform field between parallel plates, E = ΔV/d. With ΔV held fixed and d doubled, E' = ΔV/(2d) = E/2. The same potential drop spread over a longer gap means a weaker field.\n\n(A) is wrong because doubling would require halving d.\n(B) is wrong because 4 would need a squared dependence, which does not appear in E = ΔV/d.\n(D) is wrong because the field depends directly on d at a fixed voltage."
     },
     {
       "id": "10-46",
@@ -1505,7 +1505,7 @@ const QUESTIONS = {
         "1.5 × 10⁵ V/m"
       ],
       "correct": 2,
-      "explanation": "E = ΔV/d = 300/0.020 = 1.5×10⁴ V/m (Choice C). Choice B (6.0×10³ V/m) comes from a misplaced decimal in the division. Choices A and D (6.0×10⁴, 1.5×10⁵ V/m) both come from mixing up which value goes in the numerator versus denominator, or a decimal-place slip in converting 0.020 m."
+      "explanation": "Correct: 1.5 x 10<sup>4</sup> V/m. The field between parallel plates is uniform with magnitude E = ΔV/d. E = 300 V/0.020 m = 1.5 x 10<sup>4</sup> V/m, which is the same as N/C.\n\n(A) is wrong because 6.0 x 10<sup>4</sup> V/m is four times too large, not from the correct division.\n(B) is wrong because 6.0 x 10<sup>3</sup> V/m comes from multiplying 300 x 0.020 = 6.0 and misplacing a decimal, not dividing.\n(D) is wrong because 1.5 x 10<sup>5</sup> V/m is ten times too large, a decimal-place slip on the 0.020 m."
     },
     {
       "id": "10-47",
@@ -1518,7 +1518,7 @@ const QUESTIONS = {
         "480 μC"
       ],
       "correct": 2,
-      "explanation": "Q = CΔV = (4.0×10⁻⁶)(12) = 48 μC (Choice C). Choice A (0.33 μC) comes from dividing ΔV by C instead of multiplying. Choice B (3.0 μC) makes the same inversion error with a different rounding. Choice D (480 μC) comes from a decimal-place slip, off by a factor of 10 from the correct value."
+      "explanation": "Correct: 48 μC. Capacitance is defined by C = Q/ΔV, so Q = CΔV. Q = (4.0 x 10<sup>-6</sup> F)(12 V) = 4.8 x 10<sup>-5</sup> C = 48 μC. Units: F x V = C.\n\n(A) is wrong because 0.33 μC is 4.0/12, dividing C by ΔV instead of multiplying.\n(B) is wrong because 3.0 μC is 12/4.0, dividing ΔV by C instead of multiplying.\n(D) is wrong because 480 μC is ten times too large, a decimal-place slip."
     },
     {
       "id": "10-48",
@@ -1531,7 +1531,7 @@ const QUESTIONS = {
         "0.25 μF"
       ],
       "correct": 2,
-      "explanation": "C = Q/ΔV = (2.0×10⁻⁴)/50 = 4.0 μF (Choice C). Choice D (0.25 μF) comes from inverting the formula (ΔV/Q instead of Q/ΔV). Choices A and B (25 μF, 100 μF) both come from a decimal-place slip in converting the charge to proper units before dividing."
+      "explanation": "Correct: 4.0 μF. Capacitance is defined as C = Q/ΔV, the charge stored per volt. C = (2.0 x 10<sup>-4</sup> C)/(50 V) = 4.0 x 10<sup>-6</sup> F = 4.0 μF.\n\n(A) is wrong because 25 μF is 50/2, which divides the voltage by the coefficient 2.0 and ignores the power of ten on the charge.\n(B) is wrong because 100 μF is 50 x 2.0, which multiplies the numbers instead of dividing the charge by the voltage.\n(D) is wrong because 0.25 μF comes from inverting the ratio to ΔV/Q instead of Q/ΔV."
     },
     {
       "id": "10-49",
@@ -1544,7 +1544,7 @@ const QUESTIONS = {
         "3.0 × 10⁻² J"
       ],
       "correct": 3,
-      "explanation": "U = ½CΔV² = 0.5(6.0×10⁻⁶)(100)² = 0.030 J (Choice D). Choice A (3.0×10⁻⁴ J) comes from forgetting to square the voltage. Choice B (6.0×10⁻³ J) comes from omitting the factor of ½. Choice C (6.0×10⁻¹ J) comes from a decimal-place slip after squaring the voltage."
+      "explanation": "Correct: 3.0 x 10<sup>-2</sup> J. The energy stored in a capacitor is U = ½CΔV<sup>2</sup>. U = ½(6.0 x 10<sup>-6</sup> F)(100 V)<sup>2</sup> = ½(6.0 x 10<sup>-6</sup>)(10<sup>4</sup>) = 3.0 x 10<sup>-2</sup> J = 0.030 J.\n\n(A) is wrong because 3.0 x 10<sup>-4</sup> J uses ½CΔV with ΔV not squared.\n(B) is wrong because 6.0 x 10<sup>-3</sup> J is not the result of any single correct step; dropping the ½ would give 6.0 x 10<sup>-2</sup> J, so this is a power-of-ten slip.\n(C) is wrong because 6.0 x 10<sup>-1</sup> J is ten times too large, from a decimal-place slip after squaring the voltage."
     },
     {
       "id": "10-50",
@@ -1557,7 +1557,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Capacitance C = κε₀A/d is directly proportional to area, so doubling A doubles C; since Q = CΔV and voltage is held constant, doubling C doubles Q as well — Choice A. Choice D wrongly assumes area has no effect on stored charge. Choice C has the relationship completely backwards, as if more plate area stored less charge. Choice B overstates the effect — area and charge are directly (not quadratically) proportional here, so doubling area doubles rather than quadruples the charge."
+      "explanation": "Correct: it doubles. For a parallel plate capacitor C = κε<sub>0</sub>A/d, so C is directly proportional to the plate area. Doubling A doubles C. The voltage is held fixed, so Q = CΔV doubles as well.\n\n(B) is wrong because charge is proportional to area, not to its square.\n(C) is wrong because a larger plate area holds more charge for the same voltage, not less.\n(D) is wrong because area appears in the capacitance and so changes the charge at fixed ΔV."
     },
     {
       "id": "10-51",
@@ -1570,7 +1570,7 @@ const QUESTIONS = {
         "Charge stays constant; capacitance increases; voltage decreases."
       ],
       "correct": 2,
-      "explanation": "With the battery disconnected, charge has nowhere to go, so Q stays fixed. Increasing separation d decreases capacitance (C = κε₀A/d), and since Q = CΔV with Q constant and C falling, ΔV must rise to compensate — Choice C. Choice A wrongly assumes charge itself decreases, when nothing exists for it to flow into once disconnected. Choice D gets the capacitance direction backwards — increasing plate separation always decreases capacitance, never increases it. Choice B wrongly assumes charge can increase despite there being no battery connected to supply more."
+      "explanation": "Correct: charge stays constant; capacitance decreases; voltage increases. Once the battery is disconnected, the plates are isolated and the charge on them has nowhere to go, so Q = Q<sub>0</sub>. Increasing d lowers C = κε<sub>0</sub>A/d. Then ΔV = Q/C must rise since Q is fixed and C fell.\n\n(A) is wrong because it says the charge decreases, but no path exists for it to leave.\n(B) is wrong because charge can't increase without a battery to supply it, and C does change when d changes.\n(D) is wrong because moving the plates farther apart lowers capacitance rather than raising it, and the voltage would then rise, not fall."
     },
     {
       "id": "10-52",
@@ -1583,7 +1583,7 @@ const QUESTIONS = {
         "C > A > B"
       ],
       "correct": 2,
-      "explanation": "Using U = ½CΔV²: U_A = ½C(ΔV)², U_B = ½(2C)(ΔV)² = 2U_A, and U_C = ½C(2ΔV)² = 4U_A, so U_C > U_B > U_A — Choice C. Choice B has B and C swapped, underestimating how strongly energy depends on voltage (which is squared) compared to capacitance (which enters linearly). Choice A reverses the entire ranking. Choice D also misorders B, placing it below A despite B's energy being twice A's."
+      "explanation": "Correct: C > B > A. The energy stored is U = ½CΔV<sup>2</sup>, linear in C and quadratic in ΔV. Take U<sub>A</sub> = ½C(ΔV)<sup>2</sup> as the unit. Capacitor B has twice the C, so U<sub>B</sub> = 2U<sub>A</sub>. Capacitor C has twice the voltage, so U<sub>C</sub> = ½C(2ΔV)<sup>2</sup> = 4U<sub>A</sub>. Ranking: C (4) > B (2) > A (1).\n\n(A) is wrong because it reverses the order.\n(B) is wrong because it ranks B above C, treating doubling C as stronger than doubling ΔV, when ΔV is squared.\n(D) is wrong because it puts B below A, but B has twice the capacitance and therefore twice the energy."
     },
     {
       "id": "10-53",
@@ -1596,7 +1596,7 @@ const QUESTIONS = {
         "0.4 μF"
       ],
       "correct": 2,
-      "explanation": "C_new = κC₀ = (5.0)(2.0 μF) = 10 μF (Choice C). Choice D (0.4 μF) comes from dividing by κ instead of multiplying. Choice B (2.5 μF) also results from an inverted operation. Choice A (50 μF) comes from a decimal-place slip after correctly multiplying by κ."
+      "explanation": "Correct: 10 μF. Filling the gap with a dielectric multiplies the capacitance by κ: C = κC<sub>0</sub>. C = (5.0)(2.0 μF) = 10 μF.\n\n(A) is wrong because 50 μF is ten times too large, a decimal slip after multiplying.\n(B) is wrong because 2.5 μF comes from dividing κ by C<sub>0</sub> (5.0/2.0), the wrong operation.\n(D) is wrong because 0.4 μF comes from dividing C<sub>0</sub> by κ, which would lower the capacitance, but a dielectric raises it."
     },
     {
       "id": "10-54",
@@ -1622,7 +1622,7 @@ const QUESTIONS = {
         "8.0 × 10⁻¹⁷ J"
       ],
       "correct": 3,
-      "explanation": "K = |q|ΔV = (1.6×10⁻¹⁹)(500) = 8.0×10⁻¹⁷ J (Choice D). Choice C (3.2×10⁻¹⁷ J) comes from an arithmetic slip in the multiplication. Choice B (1.6×10⁻¹⁶ J) is exactly double the correct value, likely from a stray factor of 2. Choice A (8.0×10⁻¹⁴ J) comes from a decimal-place slip, three orders of magnitude too large."
+      "explanation": "Correct: 8.0 x 10<sup>-17</sup> J. The electric force does work W = |q|ΔV on the electron, and starting from rest this becomes its kinetic energy. K = (1.6 x 10<sup>-19</sup> C)(500 V) = 8.0 x 10<sup>-17</sup> J, which is 500 eV.\n\n(A) is wrong because 8.0 x 10<sup>-14</sup> J is a thousand times too large, a power-of-ten error.\n(B) is wrong because 1.6 x 10<sup>-16</sup> J is double the right value, from a stray factor of 2.\n(C) is wrong because 3.2 x 10<sup>-17</sup> J is not |q|ΔV; it is a multiplication slip."
     },
     {
       "id": "10-56",
@@ -1635,7 +1635,7 @@ const QUESTIONS = {
         "Same force; electron has much greater acceleration."
       ],
       "correct": 3,
-      "explanation": "Both particles carry the same magnitude of charge, so F = qE gives the same force magnitude on each — but a = F/m, and the electron's mass is about 1800 times smaller, so for the same force it accelerates dramatically more — Choice D. Choice A wrongly assumes equal force implies equal acceleration, ignoring the vastly different masses. Choice B wrongly claims the electron feels more force, when the force magnitudes are actually equal (only q, not m, sets the force). Choice C gets both parts backwards — the proton feels the same force as the electron, not more, and it's the lighter electron, not the proton, that accelerates more."
+      "explanation": "Correct: same force; the electron has a much greater acceleration. The force in a uniform field is F = |q|E. The proton and electron both have charge of magnitude e, so the magnitudes of the forces are equal. Acceleration is a = F/m. The electron's mass (9.11 x 10<sup>-31</sup> kg) is about 1/1836 of the proton's (1.67 x 10<sup>-27</sup> kg), so its acceleration is about 1800 times greater, in the opposite direction.\n\n(A) is wrong because equal forces on unequal masses do not give equal accelerations.\n(B) is wrong because the force depends on charge, not mass, so it is the same on both.\n(C) is wrong because the proton does not feel more force, and the lighter electron has the larger acceleration."
     },
     {
       "id": "10-57",
@@ -1648,7 +1648,7 @@ const QUESTIONS = {
         "3.0 × 10⁻⁴ J"
       ],
       "correct": 2,
-      "explanation": "Work done by the field is W = −qΔV = −(2.0×10⁻⁶)(90 − 150) = +1.2×10⁻⁴ J (Choice C). Choice A gets the correct magnitude but the wrong sign, missing that a positive charge moving from higher to lower potential is moving 'downhill' — the field does positive, not negative, work on it. Choices B and D both come from a numerical slip (using the wrong potential difference or an extra factor), landing at 3.0×10⁻⁴ J with either sign instead of the correct 1.2×10⁻⁴ J."
+      "explanation": "Correct: +1.2 x 10<sup>-4</sup> J. The work done by the electric force is W = −qΔV = −q(V<sub>f</sub> − V<sub>i</sub>). W = −(2.0 x 10<sup>-6</sup> C)(90 − 150) V = −(2.0 x 10<sup>-6</sup>)(−60) = +1.2 x 10<sup>-4</sup> J. A positive charge moving to lower potential gains kinetic energy, so the field does positive work.\n\n(A) is wrong because it has the right size but the wrong sign, as if the charge moved uphill.\n(B) is wrong because 3.0 x 10<sup>-4</sup> J is q times 150 V, using the starting potential instead of the change, and also has the wrong sign.\n(D) is wrong because 3.0 x 10<sup>-4</sup> J is q x 150 V, using the potential itself instead of the potential difference of 60 V."
     },
     {
       "id": "10-58",
@@ -1661,7 +1661,7 @@ const QUESTIONS = {
         "It moved perpendicular to the field at every single instant."
       ],
       "correct": 2,
-      "explanation": "Since W = −qΔV = ΔK, if ΔK = 0 and q ≠ 0, then ΔV must be 0 — the start and end points must share the same potential, Choice C. Choice A invents a field-magnitude requirement that isn't necessary; the field can vary along the path as long as the net potential change is zero. Choice D over-restricts the motion to being perpendicular to the field at every instant, which would only be one specific way to keep ΔK = 0, not the general requirement. Choice B is simply false — if the particle carried no charge, the electric force couldn't act on it at all, making the premise of the question meaningless."
+      "explanation": "Correct: it started and ended at points of equal electric potential. With only the electric force acting, the work-energy theorem gives ΔK = W = −qΔV. If ΔK = 0 and the charge q is nonzero, then ΔV = 0, so the start and end points have the same potential. The path in between can be anything.\n\n(A) is wrong because the field can change along the path as long as the net potential change is zero.\n(B) is wrong because with q = 0 there would be no electric force at all, which contradicts the setup.\n(D) is wrong because moving perpendicular at every instant is only one way to keep KE constant; the particle could wander and return to the same potential."
     },
     {
       "id": "10-59",
@@ -1674,7 +1674,7 @@ const QUESTIONS = {
         "4.4 × 10⁴ m/s"
       ],
       "correct": 2,
-      "explanation": "First, K = qΔV = (1.6×10⁻¹⁹)(1000) = 1.6×10⁻¹⁶ J; then v = √(2K/m) ≈ 4.4×10⁵ m/s (Choice C). Choice D (4.4×10⁴ m/s) comes from a factor-of-10-type slip in the square root. Choice B (1.9×10⁶ m/s) comes from omitting the factor of 2 inside the square root. Choice A (4.4×10⁷ m/s) comes from a decimal-place slip in computing K before taking the square root."
+      "explanation": "Correct: 4.4 x 10<sup>5</sup> m/s. The electric force does work qΔV, which becomes kinetic energy: ½mv<sup>2</sup> = qΔV. So K = (1.6 x 10<sup>-19</sup>)(1000) = 1.6 x 10<sup>-16</sup> J, and v = √(2K/m) = √(2(1.6 x 10<sup>-16</sup>)/(1.67 x 10<sup>-27</sup>)) = √(1.9 x 10<sup>11</sup>) = 4.4 x 10<sup>5</sup> m/s.\n\n(A) is wrong because 4.4 x 10<sup>7</sup> m/s is 100 times too large, a power-of-ten slip.\n(B) is wrong because 1.9 x 10<sup>6</sup> m/s is not a correct step; it comes from mishandling the square root of a number like 1.9 x 10<sup>11</sup>.\n(D) is wrong because 4.4 x 10<sup>4</sup> m/s is ten times too small, a slip in the exponent under the root."
     },
     {
       "id": "10-60",
@@ -1715,7 +1715,7 @@ const QUESTIONS = {
         "E ∝ 1/r²; V ∝ 1/r; U ∝ 1/r"
       ],
       "correct": 3,
-      "explanation": "Field falls off fastest, as 1/r² (inverse-square), while potential falls off more gently, as 1/r; potential energy of a test charge, U = qV, shares potential's 1/r dependence exactly, since q is just a constant multiplier — Choice D. Choice B gets V's and U's dependence backwards, assigning them 1/r² instead of E. Choice A wrongly assigns V a 1/r² dependence, when only E falls off that fast. Choice C wrongly claims all three scale identically, when E is genuinely the odd one out among the three."
+      "explanation": "Correct: E ∝ 1/r<sup>2</sup>; V ∝ 1/r; U ∝ 1/r. Coulomb's law gives the field of a point charge E = kQ/r<sup>2</sup>, which falls as the inverse square. Potential is the energy per unit charge, found by integrating the field, so V = kQ/r falls only as 1/r. The potential energy of a test charge q is U = qV = kQq/r, so it also falls as 1/r since q is a constant.\n\n(A) is wrong because V is 1/r, not 1/r<sup>2</sup>.\n(B) is wrong because E is not 1/r, and V and U do not fall as 1/r<sup>2</sup>.\n(C) is wrong because only E is inverse-square; V and U fall more slowly."
     },
     {
       "id": "10-63",
@@ -1742,7 +1742,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Potential from a single point charge is directly proportional to charge: V = kq/r, so doubling the charge simply doubles the potential — Choice A. Choice B wrongly applies an inverse-square-style quadrupling, which belongs to force and field, not to this direct proportionality. Choice D wrongly assumes potential is unaffected by the source charge's value. Choice C has the relationship backwards, as if a larger charge produced a smaller potential."
+      "explanation": "Correct: it doubles. The potential of a point charge is V = kq/r, directly proportional to q at a fixed r. Replacing +Q by +2Q at the same location gives V' = k(2Q)/r = 2V.\n\n(B) is wrong because quadrupling would need V ∝ q<sup>2</sup>, but V is linear in q.\n(C) is wrong because a larger charge gives a larger potential, not a smaller one.\n(D) is wrong because the source charge appears directly in V = kq/r."
     },
     {
       "id": "10-65",
@@ -1768,7 +1768,7 @@ const QUESTIONS = {
         "+12 μC on the first sphere, 0 on the second."
       ],
       "correct": 0,
-      "explanation": "Touching two identical conductors lets charge flow until both reach the same potential, splitting the total charge evenly: (+12 μC + 0)/2 = +6 μC on each sphere. Choice B wrongly assumes contact neutralizes both spheres, when in fact the total charge is conserved and merely redistributed, not destroyed. Choice C would create charge: +12 μC on each sphere is a total of +24 μC, which violates conservation of charge. Choice D wrongly assumes no charge transfer occurs, ignoring that contact between identical conductors always allows redistribution."
+      "explanation": "Correct: +6 μC on each sphere. When the identical conductors touch, charge moves until they are at the same potential, which for identical spheres means equal charges. The total is conserved: +12 μC + 0 = +12 μC, shared equally gives +6 μC each.\n\n(B) is wrong because touching does not neutralize both; only equal and opposite charges would cancel, and charge is conserved.\n(C) is wrong because +12 μC on each would total +24 μC, creating charge.\n(D) is wrong because it assumes nothing moves, but conductors in contact share charge freely."
     }
   ],
   "11": [
@@ -1796,7 +1796,7 @@ const QUESTIONS = {
         "Electrons oscillate with no net drift direction."
       ],
       "correct": 1,
-      "explanation": "Electrons drift left, opposite the conventional current direction, since conventional current is defined as the direction positive charge would move, while the actual carriers in a metal are negative. Choice C confuses the sign convention and assumes electrons follow conventional current directly. Choice A confuses drift velocity with the near-instantaneous propagation of the electric field/signal through the wire — the field moves fast, but individual electrons still physically drift, just slowly. Choice D wrongly imports the idea of random thermal motion (which electrons do have) while ignoring the small net drift superimposed on top of it that actually constitutes the current."
+      "explanation": "Correct: (B) Electrons drift to the left, opposite conventional current. Conventional current is defined as the direction positive charge would move, but the mobile carriers in a metal are negative electrons, so they drift the opposite way: current to the right means electrons drift left. The clue words are \"actual direction of electron motion.\" Electrons do have fast random thermal motion, but a small net drift (often around 10<sup>-4</sup> m/s) is superimposed on it, and that drift is the current.\n\n(A) is wrong because it confuses the fast propagation of the field (near light speed) with charge motion; electrons really do drift.\n(C) is wrong because it treats electrons like positive carriers and ignores their negative charge.\n(D) is wrong because it keeps only the random thermal motion and ignores the net drift that makes up the current."
     },
     {
       "id": "11-3",
@@ -1809,7 +1809,7 @@ const QUESTIONS = {
         "0.2 A"
       ],
       "correct": 1,
-      "explanation": "I = 5.0 A, from I = Q/t = 15/3.0. 0.2 A comes from inverting the ratio (3.0/15). 12 A comes from subtracting instead of dividing (15 − 3.0). 45 A comes from multiplying Q and t together instead of dividing."
+      "explanation": "Correct: (B) 5.0 A. Current is charge per unit time, I = Q/t. With Q = 15 C and t = 3.0 s, I = 15/3.0 = 5.0 C/s = 5.0 A. The clue words are \"constant rate,\" which means a simple ratio applies. (A) 12 A is wrong because it subtracts (15 − 3.0) instead of dividing. (C) 45 A is wrong because it multiplies Q by t (15 × 3.0) instead of dividing. (D) 0.2 A is wrong because it inverts the ratio, computing t/Q = 3.0/15."
     },
     {
       "id": "11-4",
@@ -1862,7 +1862,7 @@ const QUESTIONS = {
         "Current stops everywhere in the loop."
       ],
       "correct": 3,
-      "explanation": "Current stops everywhere, since a single loop has no alternate path around the break. Choice B wrongly imagines the current can \"skip\" the broken segment, as if there were a parallel route. Choice C imagines the circuit compensating for the break by increasing current elsewhere, which isn't how a broken loop behaves — there's no current anywhere to redistribute. Choice A confuses the battery's voltage (which is still available) with the circuit's ability to actually drive current, which requires a complete path."
+      "explanation": "Correct: (D) Current stops everywhere in the loop. In a series loop, current has only one path, and the same current must pass through every element. If the filament breaks, the circuit is open, so no charge can complete the loop and the current is zero everywhere, even though the battery still has its emf. The clue words are \"single-loop\" and \"breaks.\"\n\n(A) is wrong because the battery voltage alone does not drive current; a complete conducting path is also needed.\n(B) is wrong because charge cannot skip the gap; with no parallel branch, there is no current in the other wires either.\n(C) is wrong because the current cannot increase to compensate; with infinite resistance at the break, I = V/R drops to zero."
     },
     {
       "id": "11-8",
@@ -1875,7 +1875,7 @@ const QUESTIONS = {
         "Zero."
       ],
       "correct": 3,
-      "explanation": "Zero, since a fully-charged capacitor blocks any further steady-state current in the loop. Choice C confuses the initial transient current (which is indeed high right after closing) with the final steady state, missing that the capacitor's blocking effect grows over time. Choice A incorrectly imports oscillating-circuit behavior (relevant to AC or LC circuits) into a simple DC RC loop, which has no mechanism to oscillate. Choice B ignores the capacitor's presence entirely, as if it were a simple resistor-only loop."
+      "explanation": "Correct: (D) Zero. As the capacitor charges, its voltage rises until it equals the battery emf. Then the net voltage across the bulb is V − V<sub>C</sub> = 0, so I = 0 by Ohm's law. A capacitor acts as an open circuit to steady DC after a long time, and \"long time passes\" is the clue for the steady state.\n\n(A) is wrong because a DC RC loop has no inductor and cannot oscillate; the current simply decays exponentially.\n(B) is wrong because I = V/R would only hold if the capacitor were absent or just starting to charge, and it ignores the capacitor's opposing voltage.\n(C) is wrong because the initial current (about V/R) is the largest value; it decays toward zero as the capacitor charges."
     },
     {
       "id": "11-9",
@@ -1888,7 +1888,7 @@ const QUESTIONS = {
         "2.0 A"
       ],
       "correct": 3,
-      "explanation": "I = 2.0 A, from I = V/R = 6.0/3.0. 0.5 A comes from inverting the ratio (3.0/6.0). 3.0 A comes from just restating the resistance value without dividing. 18 A comes from multiplying V and R together instead of dividing."
+      "explanation": "Correct: (D) 2.0 A. Ohm's law gives I = V/R. With V = 6.0 V and R = 3.0 Ω, I = 6.0/3.0 = 2.0 A. A battery connected directly across a single resistance means the full voltage is across the bulb. (A) 3.0 A is wrong because it just repeats the resistance value instead of dividing. (B) 0.5 A is wrong because it inverts the ratio, computing R/V = 3.0/6.0. (C) 18 A is wrong because it multiplies V by R instead of dividing."
     },
     {
       "id": "11-10",
@@ -2018,7 +2018,7 @@ const QUESTIONS = {
         "0.33 A"
       ],
       "correct": 0,
-      "explanation": "I = 3.0 A, from I = V/R = 45/15. 0.33 A comes from inverting the ratio (15/45). 30 A comes from adding a stray factor of 10, perhaps a decimal-place slip. 675 A comes from multiplying V and R together instead of dividing."
+      "explanation": "Correct: (A) 3.0 A. Ohm's law gives I = V/R. With V = 45 V and R = 15 Ω, I = 45/15 = 3.0 A. The current is the voltage divided by the resistance, with units of V/Ω = A. (B) 30 A is wrong because it is an order-of-magnitude slip, as if the 45 were divided by 1.5 instead of 15. (C) 675 A is wrong because it multiplies V by R (45 × 15) instead of dividing. (D) 0.33 A is wrong because it inverts the ratio, computing R/V = 15/45."
     },
     {
       "id": "11-20",
@@ -2240,7 +2240,7 @@ const QUESTIONS = {
         "R/3"
       ],
       "correct": 3,
-      "explanation": "R/3, the general rule that n identical resistors in parallel combine to R/n. \"R\" wrongly assumes adding more parallel branches doesn't lower the equivalent resistance. \"3R\" and \"9R\" both mistakenly apply series-style addition (or a squared version of it) instead of the parallel reciprocal rule."
+      "explanation": "Correct: (D) R/3. For parallel resistors, 1/R<sub>eq</sub> = 1/R + 1/R + 1/R = 3/R, so R<sub>eq</sub> = R/3. For n identical resistors the result is R/n. Each added branch gives current another path, so the equivalent resistance must be less than any single resistor. (A) 3R is wrong because it adds the resistances as in series. (B) 9R is wrong because it applies a squared or otherwise invented series-style factor instead of the reciprocal rule. (C) R is wrong because it assumes extra parallel branches do not change the equivalent resistance; they lower it."
     },
     {
       "id": "11-37",
@@ -2635,7 +2635,7 @@ const QUESTIONS = {
         "They exist only inside current-carrying wires."
       ],
       "correct": 2,
-      "explanation": "Never observed — poles always occur in pairs. Cut a bar magnet in half and you don't get an isolated N piece and S piece; you get two smaller complete magnets, each with its own N and S. Choice B is wrong because no monopole has ever been experimentally confirmed, no matter how strong the field — field strength isn't the limiting factor. Choice D invents a restriction with no basis: wires produce ordinary dipole-like fields, not isolated poles. Choice A is similarly unfounded — pole-pairing is a structural feature of how magnetism arises from moving charge, not a temperature effect."
+      "explanation": "Correct: (C) Never observed — poles always occur in N-S pairs. Magnetic field lines form closed loops, and every magnet, however small, is a dipole with both a north and a south end. Cutting a bar magnet in half gives two smaller complete magnets, not an isolated N piece and S piece. No experiment has ever confirmed a monopole, so the clue word is isolated.\n\n(A) is wrong because temperature has nothing to do with it; absolute zero does not separate poles.\n(B) is wrong because field strength is not the limiting factor, and no monopole has been directly observed under any field.\n(D) is wrong because current-carrying wires make ordinary looping dipole-type fields, not isolated poles."
     },
     {
       "id": "12-2",
@@ -2648,7 +2648,7 @@ const QUESTIONS = {
         "Cannot be determined without knowing the field strength."
       ],
       "correct": 1,
-      "explanation": "Zero work, always. The magnetic force is perpendicular to velocity at every instant (F = qv × B), and a force perpendicular to motion does zero work (W = Fd cosθ, θ = 90°). Choices A and C both wrongly assume the magnetic force can change speed at all — it can only change direction, never magnitude, so neither a KE increase nor decrease is possible here. Choice D is wrong because field strength is irrelevant to the answer: the perpendicularity of F and v holds regardless of B's magnitude, so the work is zero whether the field is weak or strong."
+      "explanation": "Correct: (B) Zero work at every instant. The magnetic force is F = qv × B, which is always perpendicular to the velocity. Work is W = Fd cosθ, and with θ = 90° we get cos 90° = 0, so W = 0. This matches the stem: speed never changes, so kinetic energy is constant and the net work must be zero.\n\n(A) is wrong because negative work would reduce KE and slow the particle, which contradicts constant speed.\n(C) is wrong for the same reason in reverse: positive work would raise KE and speed.\n(D) is wrong because the work is zero for any B; field strength changes the radius of the turn but not the perpendicularity of F and v."
     },
     {
       "id": "12-3",
@@ -2661,7 +2661,7 @@ const QUESTIONS = {
         "0.030 T"
       ],
       "correct": 3,
-      "explanation": "B = 0.030 T. Using F = qvB, solve for B: B = F/(qv) = (3.0×10⁻⁴)/[(2.0×10⁻⁶)(5.0×10³)] = (3.0×10⁻⁴)/(1.0×10⁻²) = 0.030 T. Choice B (0.0030 T) comes from a power-of-ten slip in the denominator, effectively treating qv as 0.10 instead of 1.0×10⁻². Choices C (0.30 T) and A (3.0 T) come from misplacing the decimal the other way, such as computing qv as 1.0×10⁻³ or 1.0×10⁻⁴ instead of 1.0×10⁻²."
+      "explanation": "Correct: (D) 0.030 T. For a charge moving perpendicular to the field, F = qvB, so B = F/(qv). The product qv = (2.0×10⁻⁶ C)(5.0×10³ m/s) = 1.0×10⁻² C·m/s. Then B = (3.0×10⁻⁴ N)/(1.0×10⁻² C·m/s) = 3.0×10⁻² T = 0.030 T. (A) 3.0 T is wrong because it is off by a factor of 100, as if qv were 1.0×10⁻⁴. (B) 0.0030 T is wrong because it treats qv as 0.10, a power-of-ten slip the other way. (C) 0.30 T is wrong because it treats qv as 1.0×10⁻³, miscounting the exponents when multiplying 10⁻⁶ by 10³."
     },
     {
       "id": "12-4",
@@ -2674,7 +2674,7 @@ const QUESTIONS = {
         "Stays zero, since both forces scale with the fields equally."
       ],
       "correct": 0,
-      "explanation": "The forces stop balancing, and net force becomes nonzero. The electric force (qE) doesn't depend on speed at all, but the magnetic force (qvB) grows directly with speed, so once speed changes the two no longer match. Choice D gets the physics backwards: the fields themselves aren't changing, but the forces don't 'scale equally' with speed — only the magnetic term does. Choice C swaps which force is speed-dependent; it's the magnetic force (qvB), not the electric force (qE), that carries the v. Choice B wrongly assumes staying in the region matters — the imbalance depends only on speed relative to the fields, not on position."
+      "explanation": "Correct: (A) Becomes nonzero — magnetic force depends on speed, electric force doesn't. In a velocity selector the balance qE = qvB holds only at v = E/B. The electric force qE does not involve v, while the magnetic force qvB grows in proportion to v. If the speed rises with E and B fixed, qvB exceeds qE and a net force appears.\n\n(B) is wrong because staying inside the field region does not matter; the imbalance depends only on v relative to E/B.\n(C) is wrong because it swaps the roles: the electric force is speed-independent and the magnetic force carries the v.\n(D) is wrong because the two forces do not scale equally with speed; only the magnetic one does, and the fields are not changing."
     },
     {
       "id": "12-5",
@@ -2687,7 +2687,7 @@ const QUESTIONS = {
         "1.0 × 10⁻² N"
       ],
       "correct": 0,
-      "explanation": "F = 2.0 × 10⁻² N. Using F = qvBsinθ = (4.0×10⁻⁶)(2.0×10⁴)(0.50)(sin 30°) = (0.080)(0.50)(0.50) = 0.020 N. Choice D (1.0×10⁻² N) results from an arithmetic slip that halves the correct product one extra time. Choice C (4.0×10⁻² N) is what you get if you drop the sinθ factor entirely and just compute qvB = (4.0×10⁻⁶)(2.0×10⁴)(0.50) = 0.040 N. Choice B (8.0×10⁻² N) comes from dropping sinθ AND using the full 0.080 = qv term without multiplying by B correctly, or otherwise doubling the qvB result."
+      "explanation": "Correct: (A) 2.0 × 10⁻² N. The force on a charge moving at an angle θ to the field is F = qvB sinθ. Compute qv = (4.0×10⁻⁶ C)(2.0×10⁴ m/s) = 0.080 C·m/s, then multiply by B = 0.50 T to get 0.040 N, and by sin 30° = 0.50 to get 0.020 N = 2.0×10⁻² N. (B) 8.0×10⁻² N is wrong because it stops at qv = 0.080 and never multiplies by B or sinθ properly. (C) 4.0×10⁻² N is wrong because it drops the sinθ factor, giving qvB with the full velocity treated as perpendicular. (D) 1.0×10⁻² N is wrong because it halves the answer once too often, such as applying the 0.50 factor three times."
     },
     {
       "id": "12-6",
@@ -2700,7 +2700,7 @@ const QUESTIONS = {
         "N/(A·m)"
       ],
       "correct": 3,
-      "explanation": "N/(A·m). Starting from F = qvB, solving for B gives units of N/(C·m/s) = N·s/(C·m); since A = C/s, this becomes N/(A·m) — force per unit current per unit length, matching F = BIL directly. Choice B (N·m/A) puts the meter in the numerator instead of the denominator, inverting the length dependence. Choice A (A/(N·m)) inverts the whole expression, putting amperes on top and newtons on bottom. Choice C (N·A/m) mistakenly multiplies by current instead of dividing by it."
+      "explanation": "Correct: (D) N/(A·m). Start from F = BIL, so B = F/(IL) with units N/(A·m). This agrees with F = qvB, where B = N/(C·m/s) = N·s/(C·m), and since A = C/s this is N/(A·m). (A) A/(N·m) is wrong because it inverts the whole expression, putting force in the denominator. (B) N·m/A is wrong because it puts the length in the numerator; B falls as the length of wire grows for a given force. (C) N·A/m is wrong because it multiplies by current, while a larger current for the same force means a weaker field, so current belongs in the denominator."
     },
     {
       "id": "12-7",
@@ -2713,7 +2713,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 1,
-      "explanation": "The radius is cut in half. From r = mv/(qB), charge sits in the denominator — doubling q with everything else fixed halves r, since a more strongly charged particle feels a proportionally stronger force and gets turned into a tighter circle. Choice C (doubles) mistakenly treats q as if it were in the numerator. Choice D (quadruples) applies a squared relationship that doesn't exist here — r depends on q to the first power, not q². Choice A (stays the same) wrongly assumes charge has no effect on radius at all."
+      "explanation": "Correct: (B) It is cut in half. The magnetic force supplies the centripetal force: qvB = mv²/r, so r = mv/(qB). Charge q is in the denominator, so with m, v and B fixed, doubling q gives r → r/2. Physically, the stronger force turns the particle into a tighter circle.\n\n(A) is wrong because charge does affect the force and hence the radius.\n(C) is wrong because it treats q as if it were in the numerator.\n(D) is wrong because r depends on q to the first power, not q², and it also goes the wrong direction."
     },
     {
       "id": "12-8",
@@ -2726,7 +2726,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 3,
-      "explanation": "The radius doubles. From r = mv/(qB), mass sits in the numerator — a more massive particle resists the turning force more, tracing a larger circle for the same field and speed. Choice C (cut in half) mistakenly treats m as if it were in the denominator, like q is. Choice B (quadruples) applies a squared relationship that doesn't apply to mass in this formula. Choice A (stays the same) wrongly assumes mass has no bearing on the radius."
+      "explanation": "Correct: (D) It doubles. Setting qvB = mv²/r gives r = mv/(qB). Mass is in the numerator, so with q, v and B fixed, doubling m gives r → 2r. A heavier particle has more inertia, so the same magnetic force bends it into a wider circle.\n\n(A) is wrong because mass appears directly in the radius formula.\n(B) is wrong because r is proportional to m, not m², so doubling m cannot quadruple r.\n(C) is wrong because it treats m as if it were in the denominator like q is, which reverses the dependence."
     },
     {
       "id": "12-9",
@@ -2739,7 +2739,7 @@ const QUESTIONS = {
         "Into the page"
       ],
       "correct": 1,
-      "explanation": "Out of the page. Point your fingers along +x (velocity), curl them toward +y (the field) — your thumb ends up pointing out of the page. Since the charge is positive, that's the force direction directly, no flip needed. Choice D (into the page) is the result of using a left hand instead of a right hand, or forgetting the positive charge needs no sign flip. Choices A and C both wrongly place the force along an axis in the v-B plane; the magnetic force is always perpendicular to both v and B, so it can never point along +x or along ±y here."
+      "explanation": "Correct: (B) Out of the page. Use the right-hand rule for F = qv × B: fingers along v (+x), curled toward B (+y); the thumb points along +z, which is out of the page. The charge is a proton, which is positive, so the force is along the thumb with no reversal.\n\n(A) is wrong because −y lies along the field line, but the force must be perpendicular to both v and B.\n(C) is wrong because +x is the velocity direction, and the magnetic force can never be parallel to v.\n(D) is wrong because into the page results from a left-hand rule or from needlessly flipping for a positive charge."
     },
     {
       "id": "12-10",
@@ -2752,7 +2752,7 @@ const QUESTIONS = {
         "Into the page"
       ],
       "correct": 3,
-      "explanation": "Into the page. The right-hand rule gives out-of-the-page for a positive charge in this setup (as in the previous question) — but the electron is negative, so flip the result 180°: into the page. Choice A (out of the page) is what you'd get by applying the right-hand rule correctly but then forgetting to flip for the negative charge. Choices B and C again place the force along the v-B plane, which is impossible since the magnetic force must be perpendicular to both velocity and field regardless of charge sign."
+      "explanation": "Correct: (D) Into the page. For a positive charge, x̂ × ŷ = ẑ gives out of the page. The electron is negative, so F = qv × B reverses sign and the force points into the page.\n\n(A) is wrong because it is the positive-charge result with the sign flip forgotten.\n(B) is wrong because +x is along the velocity, and the force must be perpendicular to v.\n(C) is wrong because −y lies along the field line, but the force must be perpendicular to B as well as v."
     },
     {
       "id": "12-11",
@@ -2765,7 +2765,7 @@ const QUESTIONS = {
         "To the right"
       ],
       "correct": 1,
-      "explanation": "Upward. Fingers point right (velocity), curl into the page (field direction) — thumb points up. Positive charge, so no flip needed: the force is straight up. Choice C (downward) results from using a left hand, or from applying the right-hand rule correctly but then flipping unnecessarily for a charge that's actually positive. Choices A and D place the force along the direction of the current itself, which can't be right since the magnetic force is always perpendicular to velocity."
+      "explanation": "Correct: (B) Upward. Fingers along v (+x, right), curled toward B (into the page): x̂ × (−ẑ) = +ŷ, so the thumb points up. The proton is positive, so no reversal is needed and the force is straight up.\n\n(A) is wrong because the left is antiparallel to the velocity, and a magnetic force cannot lie along v.\n(C) is wrong because downward comes from a left-hand rule or from flipping the sign for a charge that is actually positive.\n(D) is wrong because the right is parallel to the velocity, which the perpendicularity of F and v rules out."
     },
     {
       "id": "12-12",
@@ -2778,7 +2778,7 @@ const QUESTIONS = {
         "Upward"
       ],
       "correct": 2,
-      "explanation": "Downward. The right-hand rule gives upward for a positive charge in this exact setup (as in the previous question) — flip it for the negative electron: downward. Choice D (upward) is the right-hand-rule result for a positive charge, applied here without the needed flip for the electron's negative sign. Choices A and B again put the force parallel to the velocity, which the perpendicularity of the magnetic force rules out."
+      "explanation": "Correct: (C) Downward. For a positive charge, x̂ × (−ẑ) = +ŷ gives upward. The electron is negative, so the force reverses to downward.\n\n(A) is wrong because to the right lies along the velocity, and F must be perpendicular to v.\n(B) is wrong for the same reason; left is antiparallel to v.\n(D) is wrong because upward is the positive-charge result with the flip for the electron's negative sign forgotten."
     },
     {
       "id": "12-13",
@@ -2791,7 +2791,7 @@ const QUESTIONS = {
         "To the right"
       ],
       "correct": 3,
-      "explanation": "To the right. Fingers point up (velocity), curl out of the page (field) — thumb points to the right. Positive charge, direct result, no flip needed. Choice B (to the left) comes from a left-hand application, or from flipping a correct right-hand result for a charge that's actually positive. Choices A and C place the force along the direction of motion itself, which the perpendicularity of F to v rules out."
+      "explanation": "Correct: (D) To the right. Fingers along v (+y, up), curled toward B (out of the page, +z): ŷ × ẑ = x̂, so the thumb points to the right. The charge is positive, so the force is the thumb direction with no reversal.\n\n(A) is wrong because upward is along the velocity, and the magnetic force is always perpendicular to v.\n(B) is wrong because to the left comes from using a left hand or from flipping a result for a charge that is actually positive.\n(C) is wrong because downward is also along the line of motion, so it cannot be perpendicular to v."
     },
     {
       "id": "12-14",
@@ -2804,7 +2804,7 @@ const QUESTIONS = {
         "To the left"
       ],
       "correct": 3,
-      "explanation": "To the left. Same v and B as the previous question give 'to the right' for a positive charge — flip it for the negative charge: to the left. Choice B (to the right) is the correct right-hand-rule result for a positive charge, applied here without flipping for the negative sign. Choices A and C wrongly place the force along the velocity direction rather than perpendicular to it."
+      "explanation": "Correct: (D) To the left. With v up and B out of the page, ŷ × ẑ = x̂ gives to the right for a positive charge. The charge here is negative, so F = qv × B reverses and points to the left.\n\n(A) is wrong because upward is along the velocity, and the force must be perpendicular to v.\n(B) is wrong because to the right is the positive-charge result with the negative sign ignored.\n(C) is wrong because downward is also along the line of motion, which the perpendicularity of F and v rules out."
     },
     {
       "id": "12-15",
@@ -2817,7 +2817,7 @@ const QUESTIONS = {
         "4.6 × 10⁻² T"
       ],
       "correct": 0,
-      "explanation": "B ≈ 4.6 × 10⁻⁴ T. Rearranging r = mv/(qB): B = mv/(rq) = (9.11×10⁻³¹)(4.0×10⁶)/[(0.050)(1.6×10⁻¹⁹)] ≈ 4.6×10⁻⁴ T. Choice B (4.6×10⁻⁵ T) and choices C (4.6×10⁻³ T) and D (4.6×10⁻² T) all come from misplacing a power of ten somewhere in the division — most commonly mishandling the 10⁻³¹ and 10⁻¹⁹ exponents when combining them, which shifts the final exponent by one or two steps in either direction."
+      "explanation": "Correct: (A) 4.6 × 10⁻⁴ T. For circular motion qvB = mv²/r, so B = mv/(qr). Substituting m = 9.11×10⁻³¹ kg, v = 4.0×10⁶ m/s, q = 1.6×10⁻¹⁹ C, r = 0.050 m: numerator = 3.64×10⁻²⁴, denominator = 8.0×10⁻²¹, giving B = 4.6×10⁻⁴ T. (B) 4.6×10⁻⁵ T is wrong because it is a factor of 10 too small, a slip when combining the 10⁻³¹, 10⁶ and 10⁻¹⁹ exponents. (C) 4.6×10⁻³ T is wrong because it is a factor of 10 too large from a similar exponent slip. (D) 4.6×10⁻² T is wrong because it is off by a factor of 100, again from mishandling the exponents rather than from different physics."
     },
     {
       "id": "12-16",
@@ -2830,7 +2830,7 @@ const QUESTIONS = {
         "5.2 × 10⁻¹ m"
       ],
       "correct": 0,
-      "explanation": "r ≈ 5.2 × 10⁻³ m. Using r = mv/(qB) = (1.67×10⁻²⁷)(1.0×10⁵)/[(1.6×10⁻¹⁹)(0.20)] ≈ 5.2×10⁻³ m. Choices B, C, and D share the same underlying setup but shift the decimal by mishandling the exponents — for instance, mismanaging the 10⁻²⁷ and 10⁻¹⁹ powers, or misplacing the 0.20 in the denominator — landing one or two orders of magnitude away from the correct value in either direction."
+      "explanation": "Correct: (A) 5.2 × 10⁻³ m. The magnetic force supplies the centripetal force, so qvB = mv²/r and r = mv/(qB). Numerator: (1.67×10⁻²⁷ kg)(1.0×10⁵ m/s) = 1.67×10⁻²² kg·m/s. Denominator: (1.6×10⁻¹⁹ C)(0.20 T) = 3.2×10⁻²⁰. Dividing gives r = 5.2×10⁻³ m, about 5 mm. (B) 5.2×10⁻² m is wrong because it is a factor of 10 too big, such as using B = 0.020 T. (C) 5.2×10⁻⁴ m is wrong because it is a factor of 10 too small, a slip combining the 10⁻²⁷ and 10⁻¹⁹ exponents. (D) 5.2×10⁻¹ m is wrong because it is a factor of 100 too large, from mishandling the exponents or dropping the 0.20 and the power of ten with it."
     },
     {
       "id": "12-17",
@@ -2843,7 +2843,7 @@ const QUESTIONS = {
         "r<sub>alpha</sub> = 4 r<sub>proton</sub>"
       ],
       "correct": 2,
-      "explanation": "r<sub>alpha</sub> = 2 r<sub>proton</sub>. Using r = mv/(qB): the alpha particle's mass is 4× the proton's but its charge is 2×, so its radius is (4/2) = 2× the proton's. Choice B wrongly assumes the mass and charge factors cancel completely. Choice A (r<sub>proton</sub>/2) inverts the ratio, applying the charge effect as if it dominated in the wrong direction. Choice D (4×) applies only the mass factor and forgets that the doubled charge partially offsets it."
+      "explanation": "Correct: (C) r_alpha = 2 r_proton. From r = mv/(qB) with the same v and B, r is proportional to m/q. The alpha has m = 4m_p and q = 2e, so m/q is (4/2) = 2 times the proton's, and its radius is twice as large. (A) r_proton/2 is wrong because it inverts the ratio, putting q/m instead of m/q.\n\n(B) is wrong because it assumes mass and charge effects cancel, but 4 over 2 is 2, not 1. (D) 4 r_proton is wrong because it uses only the mass factor and forgets that the doubled charge tightens the circle and offsets half of it."
     },
     {
       "id": "12-18",
@@ -2857,7 +2857,7 @@ const QUESTIONS = {
         "It doubles."
       ],
       "correct": 1,
-      "explanation": "The period is cut in half. Combining T = 2πr/v with r = mv/(qB) gives T = 2πm/(qB) — speed cancels entirely, so the period depends only on mass, charge, and field strength. Doubling B directly halves T. Choice D (doubles) treats B as if it were in the numerator of the period formula rather than the denominator. Choice C (quadruples) applies a squared relationship that doesn't exist for B here. Choice A (stays the same) wrongly assumes field strength doesn't affect the period, when in fact T = 2πm/(qB) depends on B directly."
+      "explanation": "Correct: (B) It is cut in half. The period is T = 2πr/v. Substituting r = mv/(qB) gives T = 2πm/(qB); the speed cancels, so T depends only on m, q and B. Doubling B gives T → T/2.\n\n(A) is wrong because B does appear in T = 2πm/(qB); only the speed drops out.\n(C) is wrong because T is proportional to 1/B, not 1/B², and quadrupling would also be the wrong direction.\n(D) is wrong because it puts B in the numerator, and a stronger field turns the particle faster around a smaller circle, which shortens the period."
     },
     {
       "id": "12-19",
@@ -2870,7 +2870,7 @@ const QUESTIONS = {
         "The direction of the magnetic force"
       ],
       "correct": 1,
-      "explanation": "Kinetic energy (and therefore speed) stays constant — the one true scalar invariant here, since the magnetic force never does work. Choice A (velocity) confuses a vector with its magnitude: velocity's direction constantly changes even though its magnitude (speed) doesn't. Choice D is wrong for the same reason — the force's direction rotates continuously to stay perpendicular to velocity, even though its magnitude is fixed. Choice C (momentum) is also a vector whose direction sweeps around the full circle, even though its magnitude (mv) stays constant."
+      "explanation": "Correct: (B) Kinetic energy. The magnetic force is perpendicular to the velocity, so it does zero work (W = Fd cos90° = 0) and the speed, hence KE = ½mv², stays constant.\n\n(A) is wrong because velocity is a vector, and its direction rotates continuously even though its magnitude does not.\n(C) is wrong because momentum p = mv is also a vector that sweeps around the circle, so only its magnitude is constant.\n(D) is wrong because the force always points toward the center of the circle, so its direction rotates as the particle moves, even though its magnitude qvB is fixed."
     },
     {
       "id": "12-20",
@@ -2896,7 +2896,7 @@ const QUESTIONS = {
         "2.6 × 10⁻² m"
       ],
       "correct": 3,
-      "explanation": "r ≈ 2.6 × 10⁻² m. Using r = mv/(qB) = (6.64×10⁻²⁷)(5.0×10⁵)/[(3.2×10⁻¹⁹)(0.40)] ≈ 2.6×10⁻² m. Choices A, B, and C each come from a power-of-ten slip while combining the 10⁻²⁷ and 10⁻¹⁹ exponents or handling the 0.40 in the denominator, landing one to three orders of magnitude away from the correct value."
+      "explanation": "Correct: (D) 2.6 × 10⁻² m. Use r = mv/(qB). Numerator: (6.64×10⁻²⁷ kg)(5.0×10⁵ m/s) = 3.32×10⁻²¹. Denominator: (3.2×10⁻¹⁹ C)(0.40 T) = 1.28×10⁻¹⁹. So r = 2.6×10⁻² m, about 2.6 cm. (A) 2.6×10⁻³ m is wrong because it is a factor of 10 too small, a slip in the exponent subtraction (−21 − (−19) = −2, not −3). (B) 2.6 m is wrong because it is 100 times too large, from mishandling the powers of ten. (C) 2.6×10⁻¹ m is wrong because it is a factor of 10 too large, as if the exponent difference were −1."
     },
     {
       "id": "12-22",
@@ -2909,7 +2909,7 @@ const QUESTIONS = {
         "This situation is physically impossible for a charged particle."
       ],
       "correct": 0,
-      "explanation": "Velocity is parallel (or antiparallel) to the field. Force is F = qvBsinθ, and the only way to get zero force from a genuinely nonzero charge, speed, and field is sinθ = 0, i.e., θ = 0° or 180°. Choice B wrongly assumes a nonzero field can't coexist with zero deflection — it can, at the right angle. Choice C wrongly assumes the charge itself must vanish, when the angle alone fully explains the result. Choice D is wrong because this exact scenario is both possible and common — it's simply motion along the field line."
+      "explanation": "Correct: (A) Velocity must be parallel (or antiparallel) to the field. The force is F = qvB sinθ. With nonzero q, v and B, no deflection requires sinθ = 0, so θ = 0° or 180°. The stem says the field is nonzero, which points to the angle as the only possible explanation.\n\n(B) is wrong because the stem states the field is nonzero, and a nonzero field can still exert no force when v is along it.\n(C) is wrong because the stem says the particle is charged, and the angle alone explains zero force.\n(D) is wrong because motion along a field line is possible and common; the magnetic force is simply zero."
     },
     {
       "id": "12-23",
@@ -2922,7 +2922,7 @@ const QUESTIONS = {
         "60° > 90° > 30°"
       ],
       "correct": 0,
-      "explanation": "90° > 60° > 30°. Force depends on sinθ, which increases steadily from 0° to 90° (sin30° = 0.5, sin60° ≈ 0.87, sin90° = 1). Choice B (30° > 60° > 90°) reverses the trend entirely, as if force decreased with angle instead of increasing. Choice D (60° > 90° > 30°) gets the ranking out of order, placing 90° in the middle instead of first. Choice C wrongly ignores the sinθ dependence altogether, treating the angle as irrelevant to force magnitude."
+      "explanation": "Correct: (A) 90° > 60° > 30°. The force magnitude is F = qvB sinθ, and q, v and B are the same, so F is proportional to sinθ. sin 90° = 1, sin 60° ≈ 0.87, sin 30° = 0.50, so the order is 90° > 60° > 30°.\n\n(B) is wrong because it reverses the trend, as if force decreased with angle.\n(C) is wrong because it ignores the sinθ factor; only the component of velocity perpendicular to B contributes.\n(D) is wrong because it places 60° above 90°, although sinθ peaks at exactly 90°."
     },
     {
       "id": "12-24",
@@ -2935,7 +2935,7 @@ const QUESTIONS = {
         "A spiral that grows outward over time."
       ],
       "correct": 2,
-      "explanation": "Uniform circular motion — exactly the standard result, since a perpendicular velocity is the one condition needed to guarantee it. Choice B is wrong on two counts: a magnetic force never changes speed, and it never produces straight-line motion when perpendicular to velocity. Choice D (an outward spiral) would require the radius to grow over time, but with B fixed in magnitude and speed constant, r = mv/(qB) stays fixed too — no spiral. Choice A is wrong because the magnetic force does zero work, so the particle can never lose speed and come to rest."
+      "explanation": "Correct: (C) Uniform circular motion, same as the standard case. With v perpendicular to a uniform B, the force qvB is perpendicular to v, has constant magnitude, and always points toward a fixed center. That gives uniform circular motion of radius r = mv/(qB).\n\n(A) is wrong because the magnetic force does zero work, so the particle's speed and KE never drop and it never stops.\n(B) is wrong because a force perpendicular to v changes direction, not speed, so the path curves instead of being straight with growing speed.\n(D) is wrong because speed, m, q and B are all constant, so r = mv/(qB) is constant and there is no outward spiral."
     },
     {
       "id": "12-25",
@@ -2948,7 +2948,7 @@ const QUESTIONS = {
         "r₁/9"
       ],
       "correct": 0,
-      "explanation": "r₁/3. Since r = mv/(qB), radius is inversely proportional to field strength — tripling B cuts the radius to one-third. Choice D (r₁/9) mistakenly squares the tripling factor, as if radius depended on 1/B² instead of 1/B. Choices B (3r₁) and C (9r₁) both invert the relationship, treating radius as directly (or directly-squared) proportional to B rather than inversely proportional."
+      "explanation": "Correct: (A) r₁/3. From r = mv/(qB) with m, v and q fixed, r is proportional to 1/B. Tripling B to 3B₁ gives r = r₁/3. (B) 3r₁ is wrong because it treats r as directly proportional to B. (C) 9r₁ is wrong because it both inverts the dependence and squares the factor. (D) r₁/9 is wrong because it squares the factor 3, but r depends on 1/B to the first power, not 1/B²."
     },
     {
       "id": "12-26",
@@ -2975,7 +2975,7 @@ const QUESTIONS = {
         "6.0 N"
       ],
       "correct": 0,
-      "explanation": "F = 0.60 N. Using F = BIL = (0.30)(5.0)(0.40) = 0.60 N, with sinθ = 1 since the wire is perpendicular to the field. Choice C (0.15 N) results from a division instead of multiplication somewhere in the product, such as computing B/I×L. Choices B (1.5 N) and D (6.0 N) come from decimal-placement slips, such as treating 0.30 as 0.75 or forgetting a decimal point in one of the three factors."
+      "explanation": "Correct: (A) 0.60 N. For a wire perpendicular to the field, F = BIL sin 90° = BIL = (0.30 T)(5.0 A)(0.40 m) = 0.60 N. (B) 1.5 N is wrong because it is 2.5 times too large; it matches using L = 1.0 m, so the 0.40 m length was misread or dropped. (C) 0.15 N is wrong because it is one quarter of the correct value, which would come from an arithmetic slip such as dividing the product by 4 or misplacing a decimal. (D) 6.0 N is wrong because it is 10 times too large, a decimal-place slip in one of the three factors."
     },
     {
       "id": "12-28",
@@ -2988,7 +2988,7 @@ const QUESTIONS = {
         "BIL/2"
       ],
       "correct": 1,
-      "explanation": "Zero. Force on a wire is F = BILsinθ, and parallel orientation means θ = 0°, giving sinθ = 0 regardless of how large the current or field is. Choice A has it backwards — BIL (the maximum) actually occurs at the perpendicular orientation (θ = 90°, sinθ = 1), not the parallel one. Choice D (BIL/2) misapplies a factor as if the angle were 30° (sin30° = 0.5) rather than 0°. Choice C wrongly suggests the current's exact value matters here, when in fact sinθ = 0 makes the force zero no matter what the current is."
+      "explanation": "Correct: (B) Zero. The force on a wire is F = BIL sinθ, and for a wire parallel to the field θ = 0°, so sin 0° = 0 and F = 0 for any current or field strength.\n\n(A) is wrong because BIL is the maximum, reached at θ = 90°, the perpendicular orientation.\n(C) is wrong because the current value does not matter; sinθ = 0 makes the product zero for any I. (D) BIL/2 is wrong because it corresponds to sin 30° = 0.5, not 0°."
     },
     {
       "id": "12-29",
@@ -3001,7 +3001,7 @@ const QUESTIONS = {
         "1.6 × 10⁻⁴ T"
       ],
       "correct": 0,
-      "explanation": "B = 1.6 × 10⁻⁵ T. Using B = μ₀I/(2πr) = (4π×10⁻⁷)(8.0)/(2π×0.10) — the π cancels, leaving (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T. Choice C (1.6×10⁻⁶ T) results from an extra division by 10, such as mishandling the 0.10 in the denominator. Choices D (1.6×10⁻⁴ T) and B (1.6×10⁻³ T) come from forgetting to divide by r correctly or mismanaging the 10⁻⁷ exponent from μ₀, shifting the answer one or two powers of ten too large."
+      "explanation": "Correct: (A) 1.6 × 10⁻⁵ T. For a long straight wire B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(8.0 A)/(2π × 0.10 m). The π cancels and 4/2 = 2, leaving B = (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T. (B) 1.6×10⁻³ T is wrong because it is 100 times too large, from botching the 10⁻⁷ exponent. (C) 1.6×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 1.0 m. (D) 1.6×10⁻⁴ T is wrong because it is a factor of 10 too large, from multiplying by 0.10 instead of dividing."
     },
     {
       "id": "12-30",
@@ -3014,7 +3014,7 @@ const QUESTIONS = {
         "It is cut to one-fourth."
       ],
       "correct": 1,
-      "explanation": "It's cut in half. The field from a long straight wire falls off as B ∝ 1/r, a direct inverse relationship, NOT inverse-square like a point charge's electric field. Doubling the distance simply halves the field. Choice A (doubles) inverts the relationship, treating B as increasing with distance instead of decreasing. Choices C (quadruples) and D (cut to one-fourth) both mistakenly import the inverse-square (1/r²) pattern from Coulomb's Law, which doesn't apply to this long-wire geometry."
+      "explanation": "Correct: (B) It is cut in half. For a long straight wire B = μ₀I/(2πr), so B is proportional to 1/r. Doubling r gives B → B/2.\n\n(A) is wrong because it says B grows with distance, but the field weakens as you move away.\n(C) is wrong because it both inverts the trend and uses a squared law.\n(D) is wrong because it applies an inverse-square (1/r²) law like a point charge's electric field; a long line source falls off only as 1/r."
     },
     {
       "id": "12-31",
@@ -3027,7 +3027,7 @@ const QUESTIONS = {
         "It increases ninefold."
       ],
       "correct": 2,
-      "explanation": "It triples. B = μ₀I/(2πr) is directly proportional to current, so tripling I triples B — a straightforward linear relationship. Choice D (ninefold) mistakenly squares the tripling factor, as if B depended on I². Choice A (cut to one-third) inverts the relationship, treating B as inversely related to current when it's actually directly proportional. Choice B wrongly assumes current has no effect on the field it creates."
+      "explanation": "Correct: (C) It triples. B = μ₀I/(2πr) is directly proportional to I, so with r fixed, tripling I triples B.\n\n(A) is wrong because it makes B inversely related to current, but more current produces a stronger field.\n(B) is wrong because current is the source of the field and the value of I appears in the formula.\n(D) is wrong because it squares the factor, as if B depended on I²; the dependence is linear."
     },
     {
       "id": "12-32",
@@ -3040,7 +3040,7 @@ const QUESTIONS = {
         "Directly away from the wire"
       ],
       "correct": 2,
-      "explanation": "Into the page. Grip the wire with your right thumb pointing up (along the current); your fingers curl around the wire, and at a point to the right of the wire that curl points into the page. Choice A (out of the page) is the field direction on the LEFT side of the wire, not the right — mixing up the two sides of the circular pattern. Choices B and D both wrongly assume the field points along the wire or radially outward from it; the field from a straight wire actually circles around it, tangent to circles centered on the wire, never parallel to the wire or radial."
+      "explanation": "Correct: (C) Into the page. Use the right-hand rule for a wire: thumb along the current (up, +y), fingers curl around the wire. On the right side of the wire the curl goes into the page (and out of the page on the left).\n\n(A) is wrong because out of the page is the field direction on the left side of the wire.\n(B) is wrong because the field of a straight wire is perpendicular to the wire, not along it.\n(D) is wrong because the field is tangent to circles centered on the wire, never radial; a radial field would violate the closed-loop nature of B."
     },
     {
       "id": "12-33",
@@ -3053,7 +3053,7 @@ const QUESTIONS = {
         "Out of the page"
       ],
       "correct": 3,
-      "explanation": "Out of the page. This is the exact opposite side from the previous question, and the field reverses accordingly — the field circles all the way around the wire, so opposite sides always have opposite directions relative to the page. Choice A (into the page) is the field direction on the RIGHT side of the wire, mixed up with the left side asked about here. Choices B and C again wrongly place the field along the wire or radially toward it, when it actually circles the wire tangentially."
+      "explanation": "Correct: (D) Out of the page. Right-hand rule for a wire: thumb along the current (up), fingers curl around the wire. The curl goes into the page on the right side and comes out of the page on the left side, so at a point to the left the field is out of the page.\n\n(A) is wrong because into the page is the field on the right side of the wire, which mixes up the two sides.\n(B) is wrong because the field of a straight wire is perpendicular to the wire, never along it.\n(C) is wrong because the field is tangent to circles around the wire, not radial toward it."
     },
     {
       "id": "12-34",
@@ -3079,7 +3079,7 @@ const QUESTIONS = {
         "6.0 × 10⁻⁵ T"
       ],
       "correct": 3,
-      "explanation": "B = 6.0 × 10⁻⁵ T. Using B = μ₀I/(2πr) = (4π×10⁻⁷)(6.0)/(2π×0.020), the π cancels: (2×10⁻⁷)(6.0)/0.020 = 6.0×10⁻⁵ T. Choice B (6.0×10⁻⁶ T) comes from an extra factor-of-ten error in the 0.020 denominator. Choices C (6.0×10⁻⁴ T) and A (6.0×10⁻³ T) come from mismanaging the 10⁻⁷ exponent from μ₀ or the division by r, landing one or two powers of ten too large."
+      "explanation": "Correct: (D) 6.0 × 10⁻⁵ T. The field of a long straight wire is B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(6.0 A)/(2π × 0.020 m). The π cancels, leaving (2×10⁻⁷)(6.0)/0.020 = 1.2×10⁻⁶/0.020 = 6.0×10⁻⁵ T. (A) 6.0×10⁻³ T is wrong because it is 100 times too large, from a power-of-ten slip with the 10⁻⁷ from μ₀. (B) 6.0×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 0.20 m. (C) 6.0×10⁻⁴ T is wrong because it is a factor of 10 too large, from an exponent slip in dividing by 0.020."
     },
     {
       "id": "12-36",
@@ -3092,7 +3092,7 @@ const QUESTIONS = {
         "3.6 × 10⁻² N"
       ],
       "correct": 1,
-      "explanation": "F = 3.6 × 10⁻⁴ N. Using F = BIL = (6.0×10⁻⁵)(6.0)(1.0) = 3.6×10⁻⁴ N — treating Wire 2 as a current-carrying wire sitting in Wire 1's field, exactly like any other force-on-a-wire problem. Choice A (3.6×10⁻⁵ N) comes from an extra factor-of-ten slip in multiplying the given B by I and L. Choices C (3.6×10⁻³ N) and D (3.6×10⁻² N) come from misplacing the decimal the other way, such as mishandling the 10⁻⁵ from the given field value."
+      "explanation": "Correct: (B) 3.6 × 10⁻⁴ N. Wire 2 is a current-carrying wire sitting in the field of Wire 1, perpendicular to it, so F = BIL = (6.0×10⁻⁵ T)(6.0 A)(1.0 m) = 3.6×10⁻⁴ N. Since the currents run in the same direction, the force is attractive. (A) 3.6×10⁻⁵ N is wrong because it is a factor of 10 too small, an exponent slip when multiplying. (C) 3.6×10⁻³ N is wrong because it is a factor of 10 too large. (D) 3.6×10⁻² N is wrong because it is 100 times too large, from mishandling the 10⁻⁵ of the given field."
     },
     {
       "id": "12-37",
@@ -3105,7 +3105,7 @@ const QUESTIONS = {
         "Field lines run in straight parallel lines through the loop."
       ],
       "correct": 1,
-      "explanation": "Resembles a bar magnet's field. The looped current creates a concentrated, roughly uniform field through the center, with field lines curving back around outside the loop to close — one face of the loop acts like a north pole, the other like a south pole. Choice D wrongly describes the field as straight and parallel, which is only a rough approximation very near the center axis, not the field's actual shape overall. Choice C is wrong because the field extends well beyond the wire itself, both through the loop's interior and in the curving return paths outside it — it's not confined to the wire. Choice A wrongly confines the circular field lines to the loop's edge; the actual field pattern spans the whole region in and around the loop, not just a ring at the boundary."
+      "explanation": "Correct: (B) Resembles a bar magnet's field overall. A current loop produces a field that passes through the loop's center and returns around the outside to close, so one face acts as a north pole and the other as a south pole, like a short bar magnet.\n\n(A) is wrong because the field is not just a ring of concentric circles at the edge; it fills the region in and around the loop.\n(C) is wrong because the field extends well beyond the wire, through the interior and in return paths outside.\n(D) is wrong because the lines are roughly straight only near the center axis; overall they curve around and close into loops."
     },
     {
       "id": "12-38",
@@ -3118,7 +3118,7 @@ const QUESTIONS = {
         "Radially outward from the center"
       ],
       "correct": 0,
-      "explanation": "Upward. Curl your right-hand fingers in the direction of the current (counterclockwise, viewed from above) — your thumb points straight up, out of the loop's plane, giving the field direction at the center. Choice B (downward) is what you'd get from curling your fingers the wrong way, as if the current were clockwise instead of counterclockwise. Choices C and D both wrongly describe the field at the loop's center as radial; the field there actually points straight along the loop's axis (up or down), not outward or inward within the loop's plane."
+      "explanation": "Correct: (A) Upward, out of the loop. Right-hand rule for a loop: curl the fingers in the direction of the current (counterclockwise from above) and the thumb gives the field at the center, which points up out of the plane.\n\n(B) is wrong because downward would result from curling the fingers the wrong way, as for a clockwise current.\n(C) is wrong because the field at the center is along the loop's axis, not radial in the plane.\n(D) is wrong for the same reason; there is no outward radial field at the center of a flat loop."
     },
     {
       "id": "12-39",
@@ -3131,7 +3131,7 @@ const QUESTIONS = {
         "Radially outward from the center"
       ],
       "correct": 2,
-      "explanation": "Downward. Reversing the current direction reverses the curl of your fingers, and therefore flips the thumb's direction — the exact opposite of the counterclockwise case. Choice B (upward) is the correct answer for the counterclockwise version of this same loop, applied here without accounting for the reversed (clockwise) current. Choices A and D again wrongly place the field radially in the loop's plane rather than along its axis."
+      "explanation": "Correct: (C) Downward, into the loop. Reversing the current reverses the sense of the curl, so for clockwise current viewed from above the right-hand thumb points down, opposite to the counterclockwise case.\n\n(A) is wrong because the field at the center lies along the axis, not radially in the plane.\n(B) is wrong because upward is the answer for counterclockwise current, and ignores that the current is now reversed.\n(D) is wrong because there is no outward radial component at the center; the field is perpendicular to the plane of the loop."
     },
     {
       "id": "12-40",
@@ -3144,7 +3144,7 @@ const QUESTIONS = {
         "Both fall off as 1/r."
       ],
       "correct": 1,
-      "explanation": "Point charge: 1/r² (inverse-square). Wire: 1/r (a gentler falloff). Choice C wrongly applies the electric field's inverse-square pattern to the wire's magnetic field as well, when the wire actually falls off more slowly, as 1/r. Choice D makes the opposite mistake, applying the wire's 1/r pattern to the point charge's field too, when Coulomb's Law genuinely is inverse-square. Choice A swaps the two relationships entirely, assigning 1/r to the point charge and 1/r² to the wire — exactly backwards from the correct pairing."
+      "explanation": "Correct: (B) 1/r² for the point charge (inverse-square); the wire's is gentler, at 1/r. A point charge's electric field is E = kq/r², so doubling r cuts E to one-fourth. A long straight wire has B = μ₀I/(2πr), so doubling r only halves B, because the source is a line rather than a point.\n\n(A) is wrong because it swaps the two laws.\n(C) is wrong because it applies the inverse-square law to the wire as well, although the wire's field falls off as 1/r.\n(D) is wrong because it applies the 1/r law to the point charge, but Coulomb's law is inverse-square."
     },
     {
       "id": "12-41",
@@ -3157,7 +3157,7 @@ const QUESTIONS = {
         "1.9 A"
       ],
       "correct": 3,
-      "explanation": "F = ILB sinθ, so I = F/(LB sinθ) = 0.60/[(2.0)(0.25)(sin 40°)] = 0.60/0.321 ≈ 1.9 A. Choice A (1.2 A) leaves out the sinθ factor entirely, treating the wire as if it were perpendicular to the field. Choice B (1.6 A) uses cos 40° instead of sin 40°. Choice C (2.4 A) computes F/B alone, dropping both the length L and the sinθ factor."
+      "explanation": "Correct: (D) 1.9 A. For a wire at angle θ to the field, F = BIL sinθ, so I = F/(BL sinθ) = 0.60 N/[(0.25 T)(2.0 m)(sin 40°)]. With sin 40° ≈ 0.643, the denominator is 0.50 × 0.643 = 0.321, giving I ≈ 1.9 A. (A) 1.2 A is wrong because it leaves out sinθ, treating the wire as perpendicular to the field (0.60/0.50). (B) 1.6 A is wrong because it uses cos 40° ≈ 0.766 instead of sin 40°. (C) 2.4 A is wrong because it is F/B alone (0.60/0.25), dropping both L and sinθ."
     },
     {
       "id": "12-42",
@@ -3170,7 +3170,7 @@ const QUESTIONS = {
         "Oriented parallel (or antiparallel) to the field."
       ],
       "correct": 3,
-      "explanation": "Parallel (or antiparallel) to the field. F = BILsinθ = 0 with nonzero B, I, and L requires sinθ = 0, meaning θ = 0° or 180°. Choice A has the geometry backwards — perpendicular orientation (θ = 90°) actually gives the MAXIMUM force, since sin90° = 1, not zero. Choice C wrongly assumes the current itself must vanish, when the angle alone fully accounts for zero force even with substantial current flowing. Choice B is wrong because this is an entirely ordinary, common configuration — a wire running along the field lines — not an impossibility."
+      "explanation": "Correct: (D) Oriented parallel (or antiparallel) to the field. The force on a wire is F = BIL sinθ. With strong B, nonzero I and nonzero L, F = 0 requires sinθ = 0, so θ = 0° or 180°.\n\n(A) is wrong because perpendicular (θ = 90°) gives sin 90° = 1, the maximum force.\n(B) is wrong because a wire running along the field lines is an ordinary situation with zero force.\n(C) is wrong because the stem does not require the current to vanish; the angle alone explains the zero force."
     },
     {
       "id": "12-43",
@@ -3211,7 +3211,7 @@ const QUESTIONS = {
         "0.0075 Wb"
       ],
       "correct": 2,
-      "explanation": "Φ = 0.015 Wb. Using Φ = BAcosθ with θ = 0° (field perpendicular to the loop means it's parallel to the loop's normal): Φ = (0.50)(0.030)(1) = 0.015 Wb. Choice D (0.0075 Wb) comes from an extra factor of one-half, as if a cosine other than 1 had been applied. Choices A (0.030 Wb) and B (0.060 Wb) come from doubling or otherwise misapplying one of the two given values (B or A) instead of simply multiplying them directly."
+      "explanation": "Correct: (C) 0.015 Wb. Flux is Φ = BA cosθ, with θ measured between B and the loop's normal. A field perpendicular to the loop's plane is along the normal, so θ = 0° and cos 0° = 1. Φ = (0.50 T)(0.030 m²)(1) = 0.015 Wb. (A) 0.030 Wb is wrong because it just repeats the area value, or doubles the product. (B) 0.060 Wb is wrong because it is four times too large, a doubling error. (D) 0.0075 Wb is wrong because it halves the answer, as if cos 60° had been applied although the angle is 0°."
     },
     {
       "id": "12-46",
@@ -3224,7 +3224,7 @@ const QUESTIONS = {
         "0.013 Wb"
       ],
       "correct": 0,
-      "explanation": "Φ = 0.0075 Wb. Using Φ = BAcosθ = (0.50)(0.030)(cos 60°) = (0.015)(0.5) = 0.0075 Wb — half of the maximum flux from the previous question, since cos 60° = 0.5 exactly. Choice D (0.013 Wb) results from using sin60° (≈0.866) in place of cos60° (0.5). Choice B (0.015 Wb) is the maximum flux BA with no angle factor applied at all, as if θ were 0° instead of 60°. Choice C (0.026 Wb) doubles the sin60°-based error, compounding the same trig mix-up."
+      "explanation": "Correct: (A) 0.0075 Wb. Φ = BA cosθ = (0.50 T)(0.030 m²)(cos 60°) = 0.015 × 0.50 = 0.0075 Wb, half the maximum flux. (B) 0.015 Wb is wrong because it is the maximum BA with no angle factor applied, as if θ were 0°. (C) 0.026 Wb is wrong because it exceeds the maximum possible BA = 0.015 Wb, so it cannot be a valid flux; it is a doubling of the sin 60° mix-up. (D) 0.013 Wb is wrong because it uses sin 60° ≈ 0.866 in place of cos 60° = 0.5."
     },
     {
       "id": "12-47",
@@ -3237,7 +3237,7 @@ const QUESTIONS = {
         "Half of the maximum flux."
       ],
       "correct": 1,
-      "explanation": "Zero. Flux depends on alignment with the loop's NORMAL (perpendicular) direction, not the surface itself. A field running along the surface makes a 90° angle with the normal, and cos 90° = 0. Choice C falls into the trap of assuming 'along the surface' sounds like it should maximize flux, when in fact that orientation minimizes it completely. Choice D (half of maximum) would require cosθ = 0.5, i.e., θ = 60°, not the 90° angle this parallel orientation actually produces. Choice A wrongly suggests area is the missing piece, when the angle alone (θ = 90°) already fixes the flux at zero regardless of area."
+      "explanation": "Correct: (B) Zero. Flux depends on the component of B along the loop's normal: Φ = BA cosθ. A field running along the surface is perpendicular to the normal, so θ = 90° and cos 90° = 0, meaning no field lines pass through the loop.\n\n(A) is wrong because the angle alone already fixes the flux at zero, whatever the area.\n(C) is wrong because maximum flux BA needs B along the normal, the opposite orientation.\n(D) is wrong because half the maximum would need cosθ = 0.5, i.e. θ = 60°, not 90°."
     },
     {
       "id": "12-48",
@@ -3250,7 +3250,7 @@ const QUESTIONS = {
         "3.0 V"
       ],
       "correct": 0,
-      "explanation": "𝓔 = 0.30 V. Using 𝓔 = ΔΦ/Δt = (0.050 − 0.020)/0.10 = 0.030/0.10 = 0.30 V. Choice C (0.030 V) is the flux CHANGE itself (ΔΦ) reported without dividing by the 0.10 s time interval. Choices D (3.0 V) and B (30 V) come from misplacing the decimal in that division, such as treating Δt as 0.010 s or 0.0010 s instead of 0.10 s."
+      "explanation": "Correct: (A) 0.30 V. Faraday's law gives the magnitude of the EMF as ΔΦ/Δt. ΔΦ = 0.050 − 0.020 = 0.030 Wb, and Δt = 0.10 s, so EMF = 0.030/0.10 = 0.30 V. (B) 30 V is wrong because it is 100 times too large, as if Δt were 0.0010 s. (C) 0.030 V is wrong because it is the flux change itself, without dividing by the time. (D) 3.0 V is wrong because it is 10 times too large, as if Δt were 0.010 s."
     },
     {
       "id": "12-49",
@@ -3263,7 +3263,7 @@ const QUESTIONS = {
         "0.20 V"
       ],
       "correct": 3,
-      "explanation": "𝓔 = 0.20 V. Using 𝓔 = |ΔΦ|/Δt = |0.020 − 0.080|/0.30 = 0.060/0.30 = 0.20 V. The direction of change doesn't affect this magnitude, only the induced current's direction per Lenz's Law. Choice C (0.060 V) is the flux change (ΔΦ) itself, reported without dividing by the 0.30 s interval. Choices B (0.60 V) and A (2.0 V) come from misplacing the decimal in that division, such as treating Δt as 0.030 s or 0.030 instead of 0.30 s."
+      "explanation": "Correct: (D) 0.20 V. The magnitude of the induced EMF is |ΔΦ|/Δt. |ΔΦ| = |0.020 − 0.080| = 0.060 Wb and Δt = 0.30 s, so EMF = 0.060/0.30 = 0.20 V. The decrease only affects the direction of the induced current (Lenz's law), not the magnitude. (A) 2.0 V is wrong because it is 10 times too large, a decimal slip such as using Δt = 0.030 s. (B) 0.60 V is wrong because it is three times too large, as from dividing by 0.10 s instead of 0.30 s. (C) 0.060 V is wrong because it is the flux change alone, not divided by the time interval."
     },
     {
       "id": "12-50",
@@ -3276,7 +3276,7 @@ const QUESTIONS = {
         "0.020 V"
       ],
       "correct": 1,
-      "explanation": "𝓔 = 0.40 V. Using 𝓔 = N(ΔΦ/Δt) = (20)(0.0030/0.15) = (20)(0.020) = 0.40 V — each turn contributes its own EMF, and since they're in series, the total is N times a single loop's contribution. Choice D (0.020 V) is the per-turn EMF (ΔΦ/Δt) without multiplying by the number of turns N = 20. Choice C (0.10 V) comes from multiplying by too small a factor, such as using N/4 or otherwise undercounting the turns. Choice A (3.0 V) overshoots by roughly a factor of about 7–8, consistent with a misplaced decimal in the per-turn flux rate."
+      "explanation": "Correct: (B) 0.40 V. For a coil of N turns, EMF = N(ΔΦ/Δt) = 20 × (0.0030 Wb/0.15 s) = 20 × 0.020 = 0.40 V, because the turns act in series. (A) 3.0 V is wrong because it equals N × Δt = 20 × 0.15, multiplying by the time instead of dividing the flux change by it. (C) 0.10 V is wrong because it corresponds to using about N/4 turns, undercounting the coil. (D) 0.020 V is wrong because it is the EMF of a single turn, without multiplying by N = 20."
     },
     {
       "id": "12-51",
@@ -3289,7 +3289,7 @@ const QUESTIONS = {
         "Yes, proportional to the field strength."
       ],
       "correct": 2,
-      "explanation": "No, regardless of field strength. Faraday's Law requires a CHANGE in flux to induce an EMF — a constant field through a stationary, fixed loop produces zero flux change, hence zero EMF, no matter how strong that field is. Choice D wrongly assumes a static field itself (rather than a changing one) can drive an EMF, confusing field strength with the rate of flux change. Choice A invents an arbitrary field-strength threshold (1 T) that plays no role in Faraday's Law at all. Choice B is wrong because resistance affects the induced CURRENT (I = 𝓔/R) once an EMF exists, but has no bearing on whether an EMF is induced in the first place — that's determined purely by flux change."
+      "explanation": "Correct: (C) No, regardless of how strong the field is. Faraday's law says EMF = −N ΔΦ/Δt, so an EMF requires a change in flux. A constant field through a fixed loop gives ΔΦ = 0, hence EMF = 0, however large B is.\n\n(A) is wrong because there is no 1 T threshold anywhere in Faraday's law.\n(B) is wrong because resistance sets the current once an EMF exists (I = EMF/R), but it does not decide whether an EMF is induced.\n(D) is wrong because it confuses field strength with rate of change of flux; a steady field induces nothing."
     },
     {
       "id": "12-52",
@@ -3302,7 +3302,7 @@ const QUESTIONS = {
         "Yes, since the changing area changes the flux."
       ],
       "correct": 3,
-      "explanation": "Yes. Flux is Φ = BAcosθ, and area A is just as much a part of that product as B is — a shrinking area produces a genuinely changing flux even with B held constant, which is enough to induce an EMF. Choice C wrongly assumes only B's own change matters, ignoring that A appears in the flux formula on completely equal footing. Choice B has the logic backwards — an EMF is induced WHILE the area is actively changing, and would vanish at the instant change stops, not the reverse. Choice A is simply false: flux explicitly depends on area (Φ = BA at θ = 0°), not on field strength alone."
+      "explanation": "Correct: (D) Yes, since the changing area changes the flux. Flux is Φ = BA cosθ, and A is as much a factor as B. With B constant and perpendicular (cos 0° = 1), a shrinking A gives ΔΦ/Δt ≠ 0, so an EMF is induced.\n\n(A) is wrong because flux depends explicitly on area (Φ = BA here).\n(B) is wrong because the EMF exists while the area is changing, and stops when the change stops.\n(C) is wrong because the field need not change; any change in B, A or θ will change the flux."
     },
     {
       "id": "12-53",
@@ -3315,7 +3315,7 @@ const QUESTIONS = {
         "No, since angle doesn't appear in the flux equation."
       ],
       "correct": 2,
-      "explanation": "Yes. Flux depends on all three factors in Φ = BAcosθ, including the angle θ. A continuously rotating loop has a continuously changing θ, producing continuously changing flux even with B and A fixed — this is literally the operating principle behind AC generators. Choice A wrongly assumes only B and A can drive flux changes, overlooking that θ is an equally valid third variable in the formula. Choice B wrongly restricts induction to a single instant, when in fact EMF is induced continuously throughout the rotation, not just at one orientation. Choice D is simply false — θ appears explicitly in Φ = BAcosθ as the cosine argument."
+      "explanation": "Correct: (C) Yes, since the changing angle changes the flux. Φ = BA cosθ, and in a rotating loop θ varies with time, so Φ varies even with B and A fixed. A changing flux induces EMF = −N dΦ/dt, which is exactly how an AC generator works.\n\n(A) is wrong because B and A are not the only variables; θ matters too.\n(B) is wrong because the EMF is induced throughout the rotation, not at a single orientation (in fact flux is at its maximum at perpendicular alignment, where the EMF is momentarily zero).\n(D) is wrong because θ appears explicitly as the argument of the cosine in the flux equation."
     },
     {
       "id": "12-54",
@@ -3328,7 +3328,7 @@ const QUESTIONS = {
         "Clockwise"
       ],
       "correct": 2,
-      "explanation": "Counterclockwise. By Lenz's Law, the induced current must oppose the increasing downward flux, generating its own upward field inside the loop; the loop's right-hand rule (upward field ↔ counterclockwise current viewed from above) gives the answer. Choice D (clockwise) is the direction that would REINFORCE the increasing downward flux rather than oppose it, exactly backwards from what Lenz's Law requires. Choice B is wrong because the flux is actively changing here (increasing), which is precisely the condition Faraday's Law says induces an EMF and current. Choice A wrongly suggests alternation, but with the magnet moving steadily in one direction, the induced current direction stays fixed as counterclockwise throughout this approach."
+      "explanation": "Correct: (C) Counterclockwise. A north pole approaching from above makes the downward flux through the loop increase. By Lenz's law, the induced current opposes the increase by making its own field point up inside the loop. The right-hand rule for a loop says an upward field at the center needs counterclockwise current viewed from above.\n\n(A) is wrong because the magnet moves steadily one way, so the current direction does not alternate.\n(B) is wrong because the flux is changing, which is exactly the condition for induction.\n(D) is wrong because clockwise current would make a downward field that reinforces the growing flux, the opposite of Lenz's law."
     },
     {
       "id": "12-55",
@@ -3341,7 +3341,7 @@ const QUESTIONS = {
         "Counterclockwise"
       ],
       "correct": 2,
-      "explanation": "Clockwise — the exact opposite of the approaching-magnet case. Since flux is now DECREASING, the induced current must reinforce it rather than oppose it, creating a downward field inside the loop to prop up the shrinking flux. Choice D (counterclockwise) is the answer for the approaching-magnet (increasing-flux) case, applied here without accounting for the flux now decreasing instead. Choice A is wrong because the flux is still actively changing (decreasing), which still induces a current, just with a reversed goal — reinforcing rather than opposing. Choice B wrongly suggests alternation during this single, steady retreat, when the direction actually stays fixed as clockwise throughout."
+      "explanation": "Correct: (C) Clockwise. As the north pole retreats, the downward flux decreases. Lenz's law has the induced current oppose the decrease, so it makes its own field point down inside the loop, to prop up the flux. A downward field at the center needs clockwise current viewed from above.\n\n(A) is wrong because the flux is changing (decreasing), which still induces a current.\n(B) is wrong because the magnet retreats steadily, so the direction stays fixed, not alternating.\n(D) is wrong because counterclockwise is the answer for the approaching magnet; here it would add to the loss of flux rather than oppose it."
     },
     {
       "id": "12-56",
@@ -3354,7 +3354,7 @@ const QUESTIONS = {
         "The current alternates direction"
       ],
       "correct": 2,
-      "explanation": "Clockwise. The upward flux is increasing, so the induced current must oppose that increase by generating a downward field inside the loop, which by the loop's right-hand rule requires clockwise current viewed from above. Choice A (counterclockwise) would generate an upward field, which reinforces rather than opposes the increasing upward flux — exactly backwards from what Lenz's Law requires, and easy to reach by reusing the north-pole-approaching answer without re-deriving it. Choice B is wrong because the flux is actively increasing here, which is precisely the condition for induction. Choice D wrongly suggests alternation despite the steady, one-directional approach of the magnet."
+      "explanation": "Correct: (C) Clockwise. A south pole approaching from above makes the upward flux through the loop increase. Lenz's law has the induced current oppose that increase by producing a downward field inside the loop. The right-hand rule gives clockwise current viewed from above for a downward field.\n\n(A) is wrong because counterclockwise would give an upward field that adds to the growing upward flux, which is the opposite of Lenz's law; it is the answer you get by reusing the north-pole case.\n(B) is wrong because the flux is increasing, so an EMF is induced.\n(D) is wrong because the magnet moves steadily in one direction, so the current does not alternate."
     },
     {
       "id": "12-57",
@@ -3367,7 +3367,7 @@ const QUESTIONS = {
         "It would generate unlimited energy from nothing, violating conservation of energy."
       ],
       "correct": 3,
-      "explanation": "It would create energy from nothing, which conservation of energy forbids: if the induced current reinforced an increasing flux, that reinforcement would increase the flux further, inducing an even stronger current, in a runaway feedback loop generating limitless energy from nothing. Choice B wrongly dismisses the rule as arbitrary, when it's actually a direct, necessary consequence of energy conservation, not a memorized convention. Choice C names the wrong conservation law — the issue with reinforcement is unbounded energy creation, not any violation of charge conservation, which isn't at stake here at all. Choice A is wrong because the direction is fully determined and reproducible by Lenz's Law every time, not random or an artifact of measurement."
+      "explanation": "Correct: (D) It would generate unlimited energy from nothing, violating conservation of energy. If the induced current reinforced an increasing flux, the extra flux would induce a still larger current, which would add more flux, in a runaway feedback loop producing energy with no input. Lenz's law (opposing the change) means work must be done to move the magnet, and that work is what appears as electrical energy.\n\n(A) is wrong because the direction is fully determined by Lenz's law every time, not random.\n(B) is wrong because the rule is a necessary consequence of energy conservation, not an arbitrary convention.\n(C) is wrong because the problem with reinforcement is energy, not charge; charge is conserved either way."
     },
     {
       "id": "12-58",
@@ -3380,7 +3380,7 @@ const QUESTIONS = {
         "0.48 V"
       ],
       "correct": 1,
-      "explanation": "𝓔 ≈ 1.9 V. Using 𝓔 = BLv = (0.40)(0.60)(8.0) = 1.92 V. Choice D (0.48 V) comes from dropping a factor of the speed, effectively computing BL alone (0.24) times roughly 2 instead of the full v = 8.0. Choices A (4.8 V) and C (19 V) come from decimal-placement slips in multiplying the three factors, such as treating 0.40 as 1.0 or otherwise shifting a decimal point."
+      "explanation": "Correct: (B) 1.9 V. Motional EMF for a rod moving perpendicular to the field is EMF = BLv = (0.40 T)(0.60 m)(8.0 m/s) = 1.92 V ≈ 1.9 V. (A) 4.8 V is wrong because it is 2.5 times too large, as if B were 1.0 T (the product 1.0 × 0.60 × 8.0). (C) 19 V is wrong because it is 10 times too large, a decimal-place slip. (D) 0.48 V is wrong because it is four times too small, as if v were 2.0 m/s instead of 8.0 m/s."
     },
     {
       "id": "12-59",
@@ -3406,7 +3406,7 @@ const QUESTIONS = {
         "It quadruples."
       ],
       "correct": 2,
-      "explanation": "It doubles. Motional EMF is 𝓔 = BLv, directly proportional to speed — a straightforward linear relationship, no squaring involved. Choice D (quadruples) mistakenly applies a squared relationship, as if 𝓔 depended on v² rather than v. Choice A (cut in half) inverts the relationship, treating EMF as inversely related to speed rather than directly proportional. Choice B wrongly assumes speed has no effect on the induced EMF."
+      "explanation": "Correct: (C) It doubles. Motional EMF is EMF = BLv, directly proportional to v when B and L are fixed. Doubling v doubles the EMF.\n\n(A) is wrong because it treats EMF as inversely related to speed.\n(B) is wrong because speed is a direct factor in the formula.\n(D) is wrong because it assumes EMF ∝ v², but the dependence is linear."
     },
     {
       "id": "12-61",
@@ -3419,7 +3419,7 @@ const QUESTIONS = {
         "It is cut in half."
       ],
       "correct": 2,
-      "explanation": "It quadruples. Doubling the rate of flux change doubles the induced EMF (𝓔 = ΔΦ/Δt). Since P = 𝓔²/R, and 𝓔 has doubled, P increases by 2² = 4. Choice A (doubles) correctly tracks the EMF's own doubling but stops there, forgetting that power depends on 𝓔 SQUARED, not 𝓔 directly. Choice D (cut in half) inverts the relationship entirely, treating power as decreasing when the rate of change actually increased. Choice B wrongly assumes power is unaffected by the flux-change rate, when P = 𝓔²/R makes it strongly (quadratically) dependent on 𝓔."
+      "explanation": "Correct: (C) It quadruples. The induced EMF is proportional to the rate of flux change, so doubling the rate doubles the EMF. The power dissipated in the loop is P = EMF²/R, so with R fixed, P rises by 2² = 4.\n\n(A) is wrong because it tracks the doubling of the EMF but forgets that power depends on EMF squared.\n(B) is wrong because the rate of flux change sets the EMF and therefore the power.\n(D) is wrong because it says power falls when the EMF has actually risen."
     },
     {
       "id": "12-62",
@@ -3446,7 +3446,7 @@ const QUESTIONS = {
         "0.012 Wb"
       ],
       "correct": 0,
-      "explanation": "Φ = 0.024 Wb. First find area: A = (0.15)(0.20) = 0.030 m². Then Φ = BA = (0.80)(0.030) = 0.024 Wb. Choice D (0.012 Wb) comes from an extra factor of one-half somewhere in the area or flux calculation. Choices C (0.048 Wb) and B (0.24 Wb) come from doubling the correct result or misplacing a decimal point when multiplying B by the computed area."
+      "explanation": "Correct: (A) 0.024 Wb. The area is A = (0.15 m)(0.20 m) = 0.030 m². With B perpendicular to the loop, θ = 0° and Φ = BA = (0.80 T)(0.030 m²) = 0.024 Wb. (B) 0.24 Wb is wrong because it is 10 times too large, a misplaced decimal. (C) 0.048 Wb is wrong because it doubles the correct answer. (D) 0.012 Wb is wrong because it halves the correct answer, as if a factor of 1/2 (such as cos 60°) were applied."
     },
     {
       "id": "12-64",
@@ -3459,7 +3459,7 @@ const QUESTIONS = {
         "0.50 V"
       ],
       "correct": 3,
-      "explanation": "𝓔 = 0.50 V. Since flux changes at a constant rate, the induced EMF is simply that rate — the coefficient of t in the equation, 0.50 Wb/s = 0.50 V — independent of t itself. Choice A (0.020 V) mistakes the constant term (0.020 Wb, the flux at t = 0) for the rate of change, when the rate is actually the coefficient multiplying t. Choice B (0.52 V) results from adding the constant term and the rate together (0.020 + 0.50) instead of using the rate alone. Choice C wrongly assumes a specific time is needed, when a CONSTANT rate of change means the EMF is the same at every instant, so no particular t is required."
+      "explanation": "Correct: (D) 0.50 V. The induced EMF is the magnitude of dΦ/dt. For Φ(t) = 0.020 + 0.50t, the derivative is 0.50 Wb/s = 0.50 V at every instant. The constant 0.020 Wb is the flux at t = 0 and does not change. (A) 0.020 V is wrong because it takes the constant term as the rate of change. (B) 0.52 V is wrong because it adds the constant and the rate (0.020 + 0.50), which have different units and meanings.\n\n(C) is wrong because with a constant rate the EMF is the same at every t, so no specific time is needed."
     },
     {
       "id": "12-65",
@@ -3472,7 +3472,7 @@ const QUESTIONS = {
         "0.40 A"
       ],
       "correct": 3,
-      "explanation": "I = 0.40 A. Using I = 𝓔/R = 2.0/5.0 = 0.40 A — an induced EMF drives current exactly like a battery's EMF, so the Ohm's Law tools from Unit 11 carry over directly. Choice C (0.10 A) results from dividing by a larger resistance than given, such as using 20 Ω instead of 5.0 Ω. Choice A (2.5 A) inverts the ratio, computing R/𝓔 instead of 𝓔/R. Choice B (10 A) comes from multiplying 𝓔 and R together instead of dividing."
+      "explanation": "Correct: (D) 0.40 A. An induced EMF drives current like a battery, so Ohm's law applies: I = EMF/R = 2.0 V/5.0 Ω = 0.40 A. (A) 2.5 A is wrong because it inverts the ratio, computing R/EMF. (B) 10 A is wrong because it multiplies EMF by R instead of dividing. (C) 0.10 A is wrong because it divides by a resistance four times too large (20 Ω rather than 5.0 Ω)."
     },
     {
       "id": "12-66",
@@ -3485,7 +3485,7 @@ const QUESTIONS = {
         "South pole"
       ],
       "correct": 2,
-      "explanation": "North pole. Field lines run from a magnet's north pole to its south pole outside the magnet, so lines pointing AWAY from the magnet at a nearby point are leaving that point on their way outward — meaning they originate at a nearby north pole. Choice D (south pole) reverses the field-line convention: lines point TOWARD a south pole, not away from it, so this would only fit if the lines pointed inward instead. Choice A wrongly claims the poles are indistinguishable here, when the outward direction of the lines specifically identifies the nearer pole as north. Choice B understates what the information gives — while low line density alone (sparseness) wouldn't pin down a pole, the DIRECTION of the lines (away vs. toward) is exactly the cue that does identify it, so the pole can in fact be determined."
+      "explanation": "Correct: (C) North pole. Outside a magnet, field lines run from the north pole toward the south pole. Lines that point away from the magnet near a point are leaving the nearby end, so that end is a north pole.\n\n(A) is wrong because the two poles are not equivalent; the direction of the lines tells them apart.\n(B) is wrong because the direction of the field lines is exactly the information needed (sparse spacing only tells about field strength, not pole type).\n(D) is wrong because lines point toward a south pole, so it would fit only if the lines pointed inward."
     }
   ],
   "13": [
@@ -4377,7 +4377,7 @@ const QUESTIONS = {
         "Light and string waves are transverse; sound is longitudinal."
       ],
       "correct": 3,
-      "explanation": "Light and waves on a string are transverse (oscillation perpendicular to travel); sound is longitudinal (compression/rarefaction parallel to travel). 'All transverse' wrongly includes sound, which has no perpendicular oscillation. 'All longitudinal' wrongly includes light and string waves, which do not compress and expand. Choice B swaps the correct classification, incorrectly making light longitudinal and sound transverse."
+      "explanation": "Correct: (D) Light and string waves are transverse; sound is longitudinal. A transverse wave oscillates perpendicular to the direction of travel; a longitudinal wave oscillates parallel to it. Light is an electromagnetic wave whose E and B fields are perpendicular to its travel, and a string pulse moves the string sideways while the wave moves along it. Sound in air is a series of compressions and rarefactions along the direction of travel, so it is longitudinal.\n\n(A) is wrong because light and string waves do not compress and expand along their direction of travel.\n(B) is wrong because it reverses the classification: light is transverse and sound is longitudinal.\n(C) is wrong because sound in a fluid has no perpendicular oscillation; it is longitudinal."
     },
     {
       "id": "14-4",
@@ -4390,7 +4390,7 @@ const QUESTIONS = {
         "320 m"
       ],
       "correct": 2,
-      "explanation": "λ = v/f = 340/20 = 17 m. 0.059 m comes from inverting the ratio (f/v instead of v/f). 320 m comes from subtracting instead of dividing (340 − 20). 6800 m comes from multiplying v and f instead of dividing them."
+      "explanation": "Correct: (C) 17 m. For any wave, v = fλ, so λ = v/f. With v = 340 m/s and f = 20 Hz, λ = 340/20 = 17 m. Low-frequency sound has a long wavelength. (A) 0.059 m is wrong because it inverts the ratio, computing f/v = 20/340. (B) 6800 m is wrong because it multiplies v by f instead of dividing. (D) 320 m is wrong because it subtracts (340 − 20) instead of dividing."
     },
     {
       "id": "14-5",
@@ -4429,7 +4429,7 @@ const QUESTIONS = {
         "4.0 Hz"
       ],
       "correct": 0,
-      "explanation": "f = 1/T = 1/0.025 = 40 Hz. 0.025 Hz mistakes the period itself for the frequency. 4.0 Hz comes from a misplaced decimal (dividing by 0.25 instead of 0.025). 400 Hz comes from another decimal-place slip in the reciprocal."
+      "explanation": "Correct: (A) 40 Hz. Frequency is the reciprocal of period, f = 1/T. With T = 0.025 s, f = 1/0.025 = 40 Hz, since 0.025 fits into 1 s forty times. (B) 400 Hz is wrong because it is a decimal-place slip that gives ten times too large a reciprocal. (C) 0.025 Hz is wrong because it just repeats the period as if it were the frequency. (D) 4.0 Hz is wrong because it is a decimal slip, as if 1/0.25 had been computed instead of 1/0.025."
     },
     {
       "id": "14-8",
@@ -4442,7 +4442,7 @@ const QUESTIONS = {
         "2.0 × 10⁻³ s"
       ],
       "correct": 3,
-      "explanation": "T = 1/f = 1/500 = 2.0×10⁻³ s. 5.0×10⁻³ s swaps the digits from 500 into the answer instead of computing the reciprocal. 2.0×10² s and 5.0×10² s both mistakenly treat T as growing with f (positive exponent) rather than shrinking as its reciprocal."
+      "explanation": "Correct: (D) 2.0 × 10<sup>-3</sup> s. The period is the reciprocal of frequency, T = 1/f. With f = 500 Hz, T = 1/500 = 0.0020 s = 2.0 × 10<sup>-3</sup> s. A high frequency means a very short period, so the exponent must be negative. (A) 2.0 × 10<sup>2</sup> s is wrong because a positive exponent makes the period huge, but a larger frequency makes the period smaller. (B) 5.0 × 10<sup>2</sup> s is wrong because it reuses the digits of 500 rather than taking the reciprocal, and it also has a positive exponent. (C) 5.0 × 10<sup>-3</sup> s is wrong because it takes 1/200 instead of 1/500; the correct reciprocal of 5.0 × 10<sup>2</sup> is 2.0 × 10<sup>-3</sup>."
     },
     {
       "id": "14-9",
@@ -4455,7 +4455,7 @@ const QUESTIONS = {
         "0.5 m"
       ],
       "correct": 2,
-      "explanation": "λ = v/f = 300/150 = 2.0 m. 0.5 m comes from inverting the ratio (f/v). 450 m comes from adding v and f instead of dividing. 45,000 m comes from multiplying v and f instead of dividing them."
+      "explanation": "Correct: (C) 2.0 m. Wave speed obeys v = fλ, so λ = v/f. With v = 300 m/s and f = 150 Hz, λ = 300/150 = 2.0 m. (A) 45,000 m is wrong because it multiplies v by f instead of dividing. (B) 450 m is wrong because it adds v and f (300 + 150) instead of dividing. (D) 0.5 m is wrong because it inverts the ratio, computing f/v = 150/300."
     },
     {
       "id": "14-10",
@@ -5240,7 +5240,7 @@ const QUESTIONS = {
         "3.3 × 10⁻²⁰ J"
       ],
       "correct": 0,
-      "explanation": "E ≈ 3.3 × 10⁻¹⁹ J. Using E = hf = (6.63×10⁻³⁴)(5.0×10¹⁴) ≈ 3.3×10⁻¹⁹ J. Choice D (3.3×10⁻²⁰ J) is off by a factor of 10 too small, and choices C (3.3×10⁻¹⁸ J) and B (3.3×10⁻¹⁷ J) are off by factors of 10 and 100 too large — all three come from mis-tracking the exponent when multiplying the powers of ten."
+      "explanation": "Correct: (A) 3.3 × 10<sup>-19</sup> J. A photon's energy is E = hf. With h = 6.63 × 10<sup>-34</sup> J·s and f = 5.0 × 10<sup>14</sup> Hz, E = 6.63 × 5.0 × 10<sup>-34+14</sup> = 33.2 × 10<sup>-20</sup> = 3.3 × 10<sup>-19</sup> J (about 2.1 eV, visible light). (B) 3.3 × 10<sup>-17</sup> J is wrong because the exponent is off by two; adding 34 and 14 incorrectly would give this. (C) 3.3 × 10<sup>-18</sup> J is wrong because it is a power-of-ten slip when converting 33.2 × 10<sup>-20</sup> to scientific notation. (D) 3.3 × 10<sup>-20</sup> J is wrong because it forgets to shift the decimal after multiplying 6.63 by 5.0 to get 33."
     },
     {
       "id": "15-2",
@@ -5253,7 +5253,7 @@ const QUESTIONS = {
         "4.0 eV"
       ],
       "correct": 0,
-      "explanation": "E = 2.0 eV. Using E = hc/λ = 1240/620 = 2.0 eV — the convenient eV·nm form of hc avoids converting to joules and meters. Choice C (0.5 eV) comes from inverting the ratio (620/1240 instead of 1240/620). Choices D (4.0 eV) and B (8.0 eV) come from mis-dividing by half or a quarter of 620, doubling or quadrupling the correct result."
+      "explanation": "Correct: (A) 2.0 eV. With hc = 1240 eV·nm, a photon's energy is E = hc/λ. For λ = 620 nm, E = 1240/620 = 2.0 eV. (B) 8.0 eV is wrong because it would need a wavelength of 155 nm; 1240/620 is only 2.0. (C) 0.5 eV is wrong because it inverts the ratio, computing 620/1240. (D) 4.0 eV is wrong because it is double the correct value, as if the wavelength were 310 nm."
     },
     {
       "id": "15-3",
@@ -5292,7 +5292,7 @@ const QUESTIONS = {
         "7.9 × 10⁻¹³ m"
       ],
       "correct": 3,
-      "explanation": "λ ≈ 7.9 × 10⁻¹³ m. First find momentum: p = mv = (1.67×10⁻²⁷)(5.0×10⁵) ≈ 8.35×10⁻²² kg·m/s. Then λ = h/p = (6.63×10⁻³⁴)/(8.35×10⁻²²) ≈ 7.9×10⁻¹³ m. Choice A (7.9×10⁻¹⁴ m) is off by a factor of 10 too small and choices C (7.9×10⁻¹² m) and B (7.9×10⁻¹¹ m) are off by factors of 10 and 100 too large — all from misplacing the exponent when dividing h by p."
+      "explanation": "Correct: (D) 7.9 × 10<sup>-13</sup> m. The de Broglie wavelength is λ = h/p = h/(mv). Momentum p = (1.67 × 10<sup>-27</sup>)(5.0 × 10<sup>5</sup>) = 8.35 × 10<sup>-22</sup> kg·m/s, so λ = 6.63 × 10<sup>-34</sup>/8.35 × 10<sup>-22</sup> = 7.9 × 10<sup>-13</sup> m. (A) 7.9 × 10<sup>-14</sup> m is wrong because the exponent is one too small, a power-of-ten slip after dividing the mantissas. (B) 7.9 × 10<sup>-11</sup> m is wrong because the exponent is two too large, from forgetting to move the decimal after dividing 6.63 by 8.35. (C) 7.9 × 10<sup>-12</sup> m is wrong because it forgets that 6.63/8.35 = 0.79 is less than 1, so 10<sup>-12</sup> must become 10<sup>-13</sup> in scientific notation."
     },
     {
       "id": "15-6",
@@ -5344,7 +5344,7 @@ const QUESTIONS = {
         "6.0 eV"
       ],
       "correct": 1,
-      "explanation": "7.0 eV. Photon energy equals the magnitude of the energy difference: |(−1.0) − (−8.0)| = 7.0 eV. Choice A (1.0 eV) is actually the energy of the n=3 to n=2 transition, and choice D (6.0 eV) is the energy of the n=2 to n=1 transition — both real gaps, just for the wrong pair of levels. Choice C (9.0 eV) doesn't correspond to any transition among these three levels at all; it looks like an erroneous sum of two of the smaller gaps."
+      "explanation": "Correct: (B) 7.0 eV. A photon emitted in a transition carries away the energy difference between levels: E = E<sub>initial</sub> − E<sub>final</sub>. For n=3 to n=1, E = (−1.0) − (−8.0) = 7.0 eV. (A) 1.0 eV is wrong because it uses only the magnitude of the n=3 level and ignores the final level. (C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) instead of subtracting the energies. (D) 6.0 eV is wrong because it is the n=2 to n=1 gap (8.0 − 2.0), a different transition."
     },
     {
       "id": "15-10",
@@ -5357,7 +5357,7 @@ const QUESTIONS = {
         "1.0 eV"
       ],
       "correct": 0,
-      "explanation": "6.0 eV. |(−2.0) − (−8.0)| = 6.0 eV. Choice D (1.0 eV) is the n=3 to n=2 gap and choice B (7.0 eV) is the n=3 to n=1 gap — both real transitions, just between the wrong pair of levels. Choice C (9.0 eV) matches no actual transition here; it looks like a mistaken addition of two smaller gaps rather than a direct subtraction of the two level energies."
+      "explanation": "Correct: (A) 6.0 eV. The photon energy equals the level difference, E = E<sub>2</sub> − E<sub>1</sub> = (−2.0) − (−8.0) = 6.0 eV. (B) 7.0 eV is wrong because it is the n=3 to n=1 gap, a different transition. (C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) rather than subtracting the two levels in question. (D) 1.0 eV is wrong because it is the n=3 to n=2 gap (−1.0 − (−2.0)), not the n=2 to n=1 gap."
     },
     {
       "id": "15-11",
@@ -5370,7 +5370,7 @@ const QUESTIONS = {
         "6.0 eV"
       ],
       "correct": 2,
-      "explanation": "1.0 eV. |(−1.0) − (−2.0)| = 1.0 eV — notice this is the smallest of the three possible transitions among these levels, since n=2 and n=3 are the closest together in energy. Choice D (6.0 eV) is the n=2 to n=1 gap and choice B (7.0 eV) is the n=3 to n=1 gap — real transitions, but for different level pairs. Choice A (9.0 eV) matches no actual transition; it looks like an incorrect sum rather than the direct difference asked for."
+      "explanation": "Correct: (C) 1.0 eV. The emitted photon energy is the level difference: E = E<sub>3</sub> − E<sub>2</sub> = (−1.0) − (−2.0) = 1.0 eV. This is the smallest gap, because the levels get closer as n increases. (A) 9.0 eV is wrong because it adds the magnitudes of the n=1 and n=3 levels, which is not any transition. (B) 7.0 eV is wrong because it is the n=3 to n=1 gap, not n=3 to n=2. (D) 6.0 eV is wrong because it is the n=2 to n=1 gap, not n=3 to n=2."
     },
     {
       "id": "15-12",
@@ -5396,7 +5396,7 @@ const QUESTIONS = {
         "708 nm"
       ],
       "correct": 2,
-      "explanation": "λ ≈ 177 nm. Using λ = hc/E = 1240/7.0 ≈ 177 nm — in the ultraviolet range, just beyond visible light. Choice B (89 nm) is roughly half the correct value, as if dividing by 14 instead of 7. Choice A (354 nm) is roughly double the correct value, and choice D (708 nm) is roughly quadruple — both consistent with using half the actual photon energy (3.5 eV) or a quarter of it (1.75 eV) instead of the given 7.0 eV."
+      "explanation": "Correct: (C) 177 nm. The photon wavelength is λ = hc/E. With hc = 1240 eV·nm and E = 7.0 eV, λ = 1240/7.0 = 177 nm, which is ultraviolet. Larger energy means a shorter wavelength. (A) 354 nm is wrong because it would result from using E = 3.5 eV, half the actual energy. (B) 89 nm is wrong because it would result from using E = 14 eV, double the actual energy. (D) 708 nm is wrong because it would result from using E = 1.75 eV, a quarter of the actual energy."
     },
     {
       "id": "15-14",
@@ -5448,7 +5448,7 @@ const QUESTIONS = {
         "A single bright line at one specific wavelength only."
       ],
       "correct": 1,
-      "explanation": "Bright lines on a dark background. An emission spectrum shows the specific wavelengths released as electrons in a hot, excited gas fall to lower energy levels. Choice A describes an *absorption* spectrum instead (dark lines on bright). Choice C describes a smooth, continuous blackbody-style spectrum with no lines at all, which isn't what a line spectrum looks like. Choice D wrongly limits emission to a single line, when in fact every possible transition produces its own line, typically several at once."
+      "explanation": "Correct: (B) Bright lines at specific wavelengths, against an otherwise dark background. A hot, low-density gas emits light only at wavelengths that match photon energies equal to its allowed level differences (E = hc/λ). Each transition gives one bright line, so the spectrum is a set of bright lines on dark.\n\n(A) is wrong because dark lines on a bright background describe an absorption spectrum.\n(C) is wrong because a smooth continuous rainbow comes from a hot dense solid or liquid, not an excited gas.\n(D) is wrong because an atom has many allowed transitions, so there are several lines, not just one."
     },
     {
       "id": "15-18",
@@ -5461,7 +5461,7 @@ const QUESTIONS = {
         "A smooth, continuous rainbow with no distinct lines at all."
       ],
       "correct": 2,
-      "explanation": "Dark lines on a bright, continuous background. An absorption spectrum shows the specific wavelengths removed from a broad light source as it passes through a cooler gas, with those photons absorbed to excite electrons upward. Choice B describes an *emission* spectrum instead (bright lines on dark). Choice D describes a smooth continuous spectrum with no missing wavelengths at all. Choice A wrongly limits absorption to a single line, when in fact every accessible transition removes its own line, typically several at once."
+      "explanation": "Correct: (C) Dark lines at specific wavelengths, against an otherwise bright background. When continuous light passes through a cool gas, atoms absorb photons only at wavelengths matching their level differences. Those wavelengths are removed, leaving dark lines in the continuous spectrum. The dark lines occur at the same wavelengths where the gas would emit.\n\n(A) is wrong because atoms have many allowed transitions, so there are many dark lines, not just one.\n(B) is wrong because bright lines on dark describe an emission spectrum.\n(D) is wrong because a smooth continuous rainbow with no lines is what the light source gives before passing through the gas."
     },
     {
       "id": "15-19",
@@ -5619,7 +5619,7 @@ const QUESTIONS = {
         "5.0 eV"
       ],
       "correct": 1,
-      "explanation": "K<sub>max</sub> = 2.0 eV. Using K<sub>max</sub> = hf − φ (with photon energy standing in for hf): K<sub>max</sub> = 5.0 − 3.0 = 2.0 eV. Choice C (3.0 eV) reports the work function itself instead of subtracting it. Choice D (5.0 eV) reports the photon energy alone, skipping the subtraction entirely. Choice A (8.0 eV) adds the photon energy and work function together instead of subtracting one from the other."
+      "explanation": "Correct: (B) 2.0 eV. In the photoelectric effect, K<sub>max</sub> = E<sub>photon</sub> − φ. With E = 5.0 eV and φ = 3.0 eV, K<sub>max</sub> = 5.0 − 3.0 = 2.0 eV. The work function is the minimum energy needed to free an electron, and the rest becomes kinetic energy. (A) 8.0 eV is wrong because it adds the photon energy and work function instead of subtracting. (C) 3.0 eV is wrong because it gives the work function itself, which is the energy spent escaping the metal, not the leftover kinetic energy. (D) 5.0 eV is wrong because it ignores the work function and gives all photon energy to the electron."
     },
     {
       "id": "15-31",
@@ -5645,7 +5645,7 @@ const QUESTIONS = {
         "3.0 × 10¹⁴ Hz"
       ],
       "correct": 0,
-      "explanation": "f ≈ 6.0 × 10¹⁴ Hz. First convert φ to joules: (2.5)(1.6×10⁻¹⁹) = 4.0×10⁻¹⁹ J. Then f<sub>threshold</sub> = φ/h = (4.0×10⁻¹⁹)/(6.63×10⁻³⁴) ≈ 6.0×10¹⁴ Hz — the frequency at which hf exactly equals the work function, with K<sub>max</sub> = 0. Choice B (1.5×10¹⁴ Hz) is about a quarter of the correct value. Choice D (3.0×10¹⁴ Hz) is half the correct value, as if the eV-to-joule conversion were applied twice, or h were doubled. Choice C (1.2×10¹⁵ Hz) is double the correct value, the opposite factor-of-2 slip."
+      "explanation": "Correct: (A) 6.0 × 10<sup>14</sup> Hz. At threshold, hf<sub>0</sub> = φ. Convert: φ = 2.5 eV × 1.6 × 10<sup>-19</sup> J/eV = 4.0 × 10<sup>-19</sup> J. Then f<sub>0</sub> = φ/h = 4.0 × 10<sup>-19</sup>/6.63 × 10<sup>-34</sup> = 6.0 × 10<sup>14</sup> Hz. (B) 1.5 × 10<sup>14</sup> Hz is wrong because it is a factor of 4 too small, from an arithmetic error in the division. (C) 1.2 × 10<sup>15</sup> Hz is wrong because it is twice the correct value, as if φ had been doubled. (D) 3.0 × 10<sup>14</sup> Hz is wrong because it is half the correct value, as if φ had been halved."
     },
     {
       "id": "15-33",
@@ -5658,7 +5658,7 @@ const QUESTIONS = {
         "1.0 eV"
       ],
       "correct": 2,
-      "explanation": "K<sub>max</sub> ≈ 0.5 eV. First find photon energy: E = hc/λ = 1240/500 = 2.48 eV. Then K<sub>max</sub> = 2.48 − 2.0 ≈ 0.5 eV. Choice D (1.0 eV) comes from a photon-energy calculation error that effectively doubles the true K<sub>max</sub>. Choice B (2.0 eV) reports the work function itself rather than the subtracted result. Choice A (2.5 eV) reports the photon energy alone, skipping the subtraction of the work function entirely."
+      "explanation": "Correct: (C) 0.5 eV. First find the photon energy: E = hc/λ = 1240/500 = 2.48 eV, about 2.5 eV. Then K<sub>max</sub> = E − φ = 2.5 − 2.0 = 0.5 eV (more precisely 0.48 eV). (A) 2.5 eV is wrong because it is the photon energy and forgets to subtract the work function. (B) 2.0 eV is wrong because it is the work function, not the leftover kinetic energy. (D) 1.0 eV is wrong because it would need a photon energy of 3.0 eV, but 1240/500 is about 2.5 eV."
     },
     {
       "id": "15-34",
@@ -5710,7 +5710,7 @@ const QUESTIONS = {
         "0.75 V"
       ],
       "correct": 1,
-      "explanation": "V<sub>stop</sub> = 1.5 V. Since qV<sub>stop</sub> = K<sub>max</sub>, and using the elementary charge for a single electron, the stopping voltage in volts numerically equals K<sub>max</sub> in eV directly — a convenient shortcut of working in electron-volts. Choice D (0.75 V) halves the correct value, as if dividing the kinetic energy unnecessarily by two. Choice C (3.0 V) doubles it. Choice A (1.5×10⁻¹⁹ V) mistakenly tacks the numeric value of the elementary charge onto the answer, rather than recognizing that working in eV already makes the extra charge conversion unnecessary."
+      "explanation": "Correct: (B) 1.5 V. The stopping potential satisfies eV<sub>s</sub> = K<sub>max</sub>. With K<sub>max</sub> = 1.5 eV, V<sub>s</sub> = 1.5 eV / e = 1.5 V, because 1 eV is the energy of one electron charge crossing 1 V. (A) 1.5 × 10<sup>-19</sup> V is wrong because it treats a joule-scale number as volts; in eV units the electron charge is already absorbed, so the number is unchanged. (C) 3.0 V is wrong because it doubles the value for no reason. (D) 0.75 V is wrong because it halves the value for no reason."
     },
     {
       "id": "15-38",
@@ -5828,7 +5828,7 @@ const QUESTIONS = {
         "9.0 × 10¹⁶ J"
       ],
       "correct": 2,
-      "explanation": "E = 9.0 × 10¹³ J. Using E = mc² = (0.0010)(3.0×10⁸)² = (0.0010)(9.0×10¹⁶) = 9.0×10¹³ J — an enormous amount of energy from a genuinely tiny amount of mass. Choice B (3.0×10⁷ J) comes from using E = mc instead of E = mc², forgetting to square the speed of light. Choice D (9.0×10¹⁶ J) comes from computing c² alone and forgetting to multiply by the mass at all. Choice A (2.7×10²⁵ J) comes from using c³ instead of c², an extra unwanted factor of c."
+      "explanation": "Correct: (C) 9.0 × 10<sup>13</sup> J. Mass-energy equivalence gives E = mc<sup>2</sup>. With m = 1.0 × 10<sup>-3</sup> kg and c = 3.0 × 10<sup>8</sup> m/s, E = (1.0 × 10<sup>-3</sup>)(9.0 × 10<sup>16</sup>) = 9.0 × 10<sup>13</sup> J. (A) 2.7 × 10<sup>25</sup> J is wrong because it cubes c instead of squaring it. (B) 3.0 × 10<sup>7</sup> J is wrong because it uses mc (a single power of c) instead of mc<sup>2</sup>. (D) 9.0 × 10<sup>16</sup> J is wrong because it forgets to multiply by the mass of 0.0010 kg, giving only c<sup>2</sup>."
     },
     {
       "id": "15-47",
@@ -5854,7 +5854,7 @@ const QUESTIONS = {
         "They have exactly equal mass, with no difference whatsoever."
       ],
       "correct": 1,
-      "explanation": "The helium-4 nucleus has less mass. The 'missing' mass compared to the separated particles became the binding energy holding the nucleus together — this mass defect is a universal feature of every bound nucleus, not just helium. Choice C inverts the relationship, claiming the bound nucleus has *more* mass than its separated parts. Choice D ignores that binding energy corresponds to a real, measurable mass difference. Choice A wrongly makes mass defect temperature-dependent, when it's actually a fixed property of the bound configuration itself."
+      "explanation": "Correct: (B) The helium-4 nucleus has less total mass than the separate particles. Forming a bound nucleus releases binding energy, and by E = mc<sup>2</sup> that energy corresponds to lost mass, called the mass defect. So the nucleus has less mass than 2 protons plus 2 neutrons, and the mass defect times c<sup>2</sup> equals the binding energy (about 28 MeV for He-4).\n\n(A) is wrong because the mass defect is a property of the nuclear binding, not of temperature.\n(C) is wrong because a bound system with more mass would need energy added to hold it together, and it would fly apart.\n(D) is wrong because equal mass would imply zero binding energy, but nuclei are bound."
     },
     {
       "id": "15-49",
@@ -5880,7 +5880,7 @@ const QUESTIONS = {
         "19 MeV"
       ],
       "correct": 3,
-      "explanation": "E ≈ 19 MeV. Using E = (0.020 u)(931 MeV/u) ≈ 18.6 MeV, rounding to about 19 MeV. Choice B (0.019 MeV) is off by a factor of 1000 too small, likely from a unit-conversion slip. Choice C (1.9 MeV) is off by a factor of 10 too small. Choice A (190 MeV) is off by a factor of 10 too large — both come from misplacing a decimal point in the multiplication."
+      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV. (A) 190 MeV is wrong because it is ten times too large, a decimal slip. (B) 0.019 MeV is wrong because the decimal is shifted three places, as if dividing by 931 rather than multiplying. (C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
     },
     {
       "id": "15-51",
@@ -5920,7 +5920,7 @@ const QUESTIONS = {
         "Mass and energy must be tracked as two entirely separate conserved quantities, with no relationship between them."
       ],
       "correct": 1,
-      "explanation": "Exactly conserved, when mass and energy are treated together. Mass alone appears to decrease during fission, but that 'lost' mass exactly equals (via E = mc²) the energy released — total mass-ENERGY, properly combined into one quantity, is strictly conserved throughout. Choice C tracks mass alone and wrongly concludes something was destroyed, without accounting for the energy that mass became. Choice A wrongly implies energy was created from nothing, when it in fact came from existing mass. Choice D denies mass-energy equivalence, treating mass and energy as two unrelated quantities rather than the single conserved quantity Einstein's relation actually describes. This more sophisticated framing — mass-energy equivalence as a single conserved quantity, rather than 'mass decreases, energy appears' as two separate facts — is a deeper synthesis than the basic mass-defect calculation this section usually tests."
+      "explanation": "Correct: (B) Total mass-energy is exactly conserved; the 'lost' mass equals the released energy's equivalent mass. In fission the products have slightly less rest mass than the original nucleus plus neutron. The mass difference Δm appears as energy E = Δmc<sup>2</sup> (kinetic energy and radiation). When energy is counted as equivalent mass, the total mass-energy before and after is the same.\n\n(A) is wrong because energy is not created from nothing; it comes from the mass defect.\n(C) is wrong because the mass is not destroyed; it is converted to an equivalent amount of energy, and the total is unchanged.\n(D) is wrong because E = mc<sup>2</sup> links mass and energy, so only their combined total is conserved."
     },
     {
       "id": "15-54",
@@ -5933,7 +5933,7 @@ const QUESTIONS = {
         "3.2 × 10⁻⁸ J"
       ],
       "correct": 0,
-      "explanation": "E = 3.2 × 10⁻¹¹ J. Converting: 200 MeV = 200×10⁶ eV, so E = (200×10⁶)(1.6×10⁻¹⁹) = 3.2×10⁻¹¹ J. Choice B (3.2×10⁻¹⁴ J) is off by a factor of 1000 too small, likely from a MeV-to-eV conversion slip. Choice D (3.2×10⁻⁸ J) is off by a factor of 1000 too large. Choice C (3.2×10⁻⁵ J) is off by a factor of 10⁶ too large, a larger compounded version of the same conversion error."
+      "explanation": "Correct: (A) 3.2 × 10<sup>-11</sup> J. Convert 200 MeV to eV: 200 × 10<sup>6</sup> = 2.0 × 10<sup>8</sup> eV. Multiply by 1.6 × 10<sup>-19</sup> J/eV: 2.0 × 10<sup>8</sup> × 1.6 × 10<sup>-19</sup> = 3.2 × 10<sup>-11</sup> J. (B) 3.2 × 10<sup>-14</sup> J is wrong because it uses a factor of 10<sup>3</sup> (keV) instead of 10<sup>6</sup> (MeV) for the prefix. (C) 3.2 × 10<sup>-5</sup> J is wrong because it is a power-of-ten error in the conversion from MeV to joules. (D) 3.2 × 10<sup>-8</sup> J is wrong because it uses a prefix factor of 10<sup>9</sup> (GeV) instead of 10<sup>6</sup>."
     },
     {
       "id": "15-55",
@@ -5959,7 +5959,7 @@ const QUESTIONS = {
         "Radium-234"
       ],
       "correct": 0,
-      "explanation": "Thorium-234. Alpha decay removes 4 from the mass number (238 − 4 = 234) and 2 from the atomic number (92 − 2 = 90, which is Thorium). Choice C (Protactinium-234) keeps the correct mass number but gets the atomic-number change wrong, effectively increasing rather than decreasing it. Choice B (Thorium-242) gets the atomic number right but keeps the mass number unchanged instead of decreasing it by 4. Choice D (Radium-234) keeps the mass number unchanged and lowers the atomic number by 4 instead of 2."
+      "explanation": "Correct: (A) Thorium-234. An alpha particle is a helium-4 nucleus (2 protons, 2 neutrons), so alpha decay lowers the mass number by 4 and the atomic number by 2. From U-238 (Z = 92) the daughter has A = 234 and Z = 90, which is thorium. (B) Thorium-242 is wrong because it adds 4 to the mass number instead of subtracting. (C) Protactinium-234 is wrong because Z = 91 would mean losing only one proton, as in beta-minus decay of Th-234; alpha decay lowers Z by 2. (D) Radium-234 is wrong because Z = 88 would mean losing four protons, and Ra with A = 234 does not match alpha decay (Z = 90)."
     },
     {
       "id": "15-57",
@@ -5972,7 +5972,7 @@ const QUESTIONS = {
         "Nitrogen-13"
       ],
       "correct": 1,
-      "explanation": "Nitrogen-14. Beta-minus decay leaves the mass number unchanged (14) while increasing the atomic number by 1 (6 + 1 = 7, which is Nitrogen), since a neutron converts into a proton. Choice A (Boron-14) moves the atomic number the wrong direction, decreasing instead of increasing it. Choice D (Nitrogen-13) correctly identifies the daughter element but incorrectly decreases the mass number, which beta decay does not change. Choice C (Carbon-13) gets both changes wrong: it keeps the parent element (no atomic-number change at all) and decreases the mass number."
+      "explanation": "Correct: (B) Nitrogen-14. In beta-minus decay a neutron becomes a proton and emits an electron and antineutrino. So Z increases by 1 and A is unchanged. C-14 (Z = 6) becomes Z = 7, which is nitrogen, with A = 14. (A) Boron-14 is wrong because Z = 5 means a proton was lost, which is the opposite of beta-minus decay. (C) Carbon-13 is wrong because it has the same Z and a different A, which would be neutron loss, not beta decay. (D) Nitrogen-13 is wrong because it has the right element but the mass number changed; beta decay conserves the mass number."
     },
     {
       "id": "15-58",
@@ -5985,7 +5985,7 @@ const QUESTIONS = {
         "Sodium-21"
       ],
       "correct": 1,
-      "explanation": "Neon-22. Beta-plus decay leaves the mass number unchanged (22) while decreasing the atomic number by 1 (11 − 1 = 10, which is Neon), since a proton converts into a neutron. Choice A (Magnesium-22) moves the atomic number the wrong direction, increasing instead of decreasing it. Choice C (Neon-21) correctly identifies the daughter element but wrongly decreases the mass number, which beta-plus decay does not change. Choice D (Sodium-21) gets both changes wrong: it keeps the parent element (no atomic-number change) and wrongly decreases the mass number."
+      "explanation": "Correct: (B) Neon-22. In beta-plus decay a proton becomes a neutron and emits a positron and neutrino. So Z decreases by 1 and A is unchanged. Na-22 (Z = 11) becomes Z = 10, which is neon, with A = 22. (A) Magnesium-22 is wrong because Z = 12 is an increase, which is beta-minus behavior. (C) Neon-21 is wrong because the mass number must be conserved in beta decay, so A stays 22. (D) Sodium-21 is wrong because it keeps Z = 11 and changes A, which is not beta-plus decay."
     },
     {
       "id": "15-59",
@@ -6011,7 +6011,7 @@ const QUESTIONS = {
         "Charge is not actually conserved at all in beta-minus decay, unlike mass number."
       ],
       "correct": 1,
-      "explanation": "Charge balances exactly. A neutral neutron (charge 0) becomes a proton (charge +1) plus an emitted electron (charge −1); adding the products' charges together, +1 + (−1) = 0, exactly matching the starting charge — conservation of charge holds throughout. Choice D is incorrect — beta-minus decay always obeys charge conservation exactly, as shown above. Choice C is wrong because charge cannot simply vanish; it must be accounted for in the reaction's products. Choice A is wrong because the electron's −1 charge is essential to balancing the equation — treating the electron as chargeless would make the two sides fail to match."
+      "explanation": "Correct: (B) Total charge before (0, neutron) equals total charge after (+1 proton, −1 electron = 0). Charge is always conserved. The neutron has charge 0. The products are a proton (+e) and an electron (−e), so the total is +1 − 1 = 0, matching the initial charge. The antineutrino is neutral and does not change the sum.\n\n(A) is wrong because the electron carries charge −e; charge is conserved because it cancels the proton's +e.\n(C) is wrong because charge never disappears; it is shared among the products.\n(D) is wrong because charge is conserved in all known processes, including beta-minus decay."
     },
     {
       "id": "15-61",
@@ -6024,7 +6024,7 @@ const QUESTIONS = {
         "Charge is not conserved in this process at all, which is impossible according to every known law."
       ],
       "correct": 1,
-      "explanation": "Charge balances exactly. A proton (charge +1) becomes a neutron (charge 0) plus an emitted positron (charge +1, since a positron is the positively-charged antimatter counterpart of an electron); the products' total charge, 0 + 1 = +1, exactly matches the starting charge. Choice A is incorrect — beta-plus decay also always conserves charge exactly, as shown above. Choice C has the positron's charge backwards; it is positive, not negative. Choice D is wrong because beta-plus decay does NOT violate charge conservation — it occurs precisely because charge balances exactly, not in spite of some violation."
+      "explanation": "Correct: (B) Total charge before (+1, proton) equals total charge after (0 neutron plus +1 positron = +1). Charge conservation requires equal totals before and after. The proton has +e. The products are a neutron (0) and a positron (+e), so the total is +e, matching. The neutrino is neutral. The decay is allowed in unstable nuclei, though it needs the daughter to have enough mass-energy.\n\n(A) is wrong because the decay conserves charge; it is less common only for energy and nuclear-stability reasons.\n(C) is wrong because a positron has charge +e, the opposite of an electron; if it were negative the total would be −e and charge would not be conserved.\n(D) is wrong because charge is conserved in this process, as it is in every known process."
     },
     {
       "id": "15-62",
