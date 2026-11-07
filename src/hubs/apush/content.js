@@ -80,7 +80,7 @@ const QUESTIONS = {
         "Pacific Northwest populations were too small and scattered to develop social stratification."
       ],
       "correct": 1,
-      "explanation": "Abundant, reliable salmon runs provided a food surplus dense and predictable enough to support permanent, socially stratified settlements without agriculture — geography (Theme GEO) shaping social structure directly. Population was in fact substantial, not small (D); the stratification predates sustained European contact, not caused by it (A); and arable-land scarcity is irrelevant to a non-farming economy (C)."
+      "explanation": "Correct: (B) Abundant, reliable salmon runs supported permanent, stratified settlement without farming. Along the Pacific Northwest coast, huge seasonal salmon runs (plus shellfish and sea mammals) could be caught, smoked and stored in quantity, which gave peoples such as the Tlingit, Haida and Kwakwaka'wakw a dependable surplus. A surplus like that allowed year-round villages, large plank houses, specialized craftsmen and hereditary rank, the same pattern that farming surpluses produced elsewhere. The stem's clue words 'without practicing agriculture' point to geography and resources as the cause.\n\n(A) is wrong because the stratified societies and potlatch traditions existed well before sustained European contact; trade in furs later changed them but did not create them.\n(C) is wrong because the region was rich in food rather than short of land, and a shortage of farmland would not explain a non-farming economy anyway.\n(D) is wrong because the Northwest Coast was among the most densely populated regions of North America north of Mexico, not small and scattered."
     },
     {
       "id": "1-2",
@@ -93,7 +93,7 @@ const QUESTIONS = {
         "A purely nomadic hunting society organized with no formal political structure."
       ],
       "correct": 0,
-      "explanation": "The Haudenosaunee Confederacy united five (later six) nations under a sophisticated shared political structure. It was an agricultural Eastern Woodlands society, not a nomadic hunting band (D); its economy centered on 'Three Sisters' farming, not Pacific salmon (B, which describes a different region); and its significance has nothing to do with the specific date of first European contact (B)."
+      "explanation": "Correct: (A) A sophisticated confederation uniting multiple nations under a shared governing structure. The Haudenosaunee Confederacy joined the Mohawk, Oneida, Onondaga, Cayuga and Seneca (the Tuscarora joined in the early 1700s) through a Grand Council with agreed procedures for decisions and for settling disputes, which is why historians treat it as a major example of Native political organization. The stem asks what the Confederacy is 'significant primarily' for, which is its political structure.\n\n(B) is wrong because the Haudenosaunee, in what is now New York, were among the first to deal with Dutch, French and English traders and settlers in the 1600s, so a claim of no contact before 1700 is false.\n(C) is wrong because salmon fishing describes Pacific Northwest peoples; the Haudenosaunee were Eastern Woodlands farmers of corn, beans and squash.\n(D) is wrong because they lived in permanent farming villages and had an elaborate formal government, the opposite of nomadic and unorganized."
     },
     {
       "id": "1-3",
@@ -106,7 +106,7 @@ const QUESTIONS = {
         "A major Mississippian mound-building center near St. Louis with a population in the tens of thousands."
       ],
       "correct": 3,
-      "explanation": "Cahokia was a major Mississippian culture urban center near present-day St. Louis, with a population possibly in the tens of thousands at its peak around 1050–1200 CE. It was not a Southwest irrigation settlement (C), a Spanish colonial outpost (B, which postdates it and is a different culture entirely), or a term for Plains hunting bands (B)."
+      "explanation": "Correct: (D) A major Mississippian mound-building center near St. Louis with a population in the tens of thousands. Cahokia, in the Mississippi River floodplain of present-day Illinois, flourished roughly 1050-1200 CE and was the largest city north of Mexico in its time, built around Monks Mound, a huge earthen platform. Its size rested on intensive corn agriculture and long-distance trade, and it shows that pre-contact North America had true urban centers.\n\n(A) is wrong because Spanish settlements in Florida, such as St. Augustine (1565), came centuries after Cahokia flourished, and Cahokia was an Indigenous city.\n(B) is wrong because it describes mobile Plains bison-hunting bands, whereas Cahokia was a large permanent farming city.\n(C) is wrong because Pueblo irrigation farming belongs to the arid Southwest, a different region and culture from the Mississippi valley."
     },
     {
       "id": "1-4",
@@ -119,7 +119,7 @@ const QUESTIONS = {
         "Cultivating grapevines as part of a regional wine-making tradition."
       ],
       "correct": 0,
-      "explanation": "The 'Three Sisters' — corn, beans, and squash grown together, each crop benefiting the others — was widely practiced by Eastern Woodlands societies. Grapes (D) and rice paddies (B) were not part of this practice, and wheat, barley, and oats (C) are Old World grains introduced only after contact."
+      "explanation": "Correct: (A) Growing corn, beans, and squash together in a single field. In this Eastern Woodlands system the three crops support one another: corn stalks give the beans something to climb, beans fix nitrogen in the soil, and broad squash leaves shade the ground to hold moisture and suppress weeds. It was a productive, sustainable farming method that fed villages such as those of the Haudenosaunee, and the stem's term 'Three Sisters' names exactly these three plants.\n\n(B) is wrong because wild rice was harvested in the Great Lakes region but paddy irrigation was not a Woodlands practice.\n(C) is wrong because wheat, barley and oats are Old World grains that arrived with Europeans after 1492.\n(D) is wrong because Native societies did not have a wine-making tradition; grape cultivation for wine came with Europeans."
     },
     {
       "id": "1-5",
@@ -132,7 +132,7 @@ const QUESTIONS = {
         "This mounted, horse-based characterization is actually historically accurate for the pre-contact period."
       ],
       "correct": 1,
-      "explanation": "Horses were introduced to North America by Spanish colonizers and spread gradually northward to Plains societies over subsequent generations, so the classic mounted Plains culture developed well after 1491–1607. Plains societies did eventually adopt horses (contradicting A), the mounted characterization is inaccurate for the pre-contact period (contradicting B), and horses were absent, not already present, before contact (contradicting C)."
+      "explanation": "Correct: (B) Horses were introduced by Spanish colonizers and spread gradually northward, well after this period. Horses had died out in the Americas thousands of years earlier, and the animals that Plains peoples came to use descended from Spanish stock brought by Columbus and later by conquistadors and settlers in New Mexico. After the Pueblo Revolt of 1680 many horses passed into Native hands and spread north across the Plains during the 1700s, so the famous mounted buffalo-hunting culture of the Comanche, Lakota and others is a post-contact development.\n\n(A) is wrong because horses were not present on the Plains before European contact.\n(C) is wrong because Plains nations adopted horses extensively and built a new way of life around them.\n(D) is wrong because the stem asks why the picture is inaccurate for the pre-1492 period, and it is inaccurate."
     },
     {
       "id": "1-6",
@@ -145,7 +145,7 @@ const QUESTIONS = {
         "The broad uniformity of Native American societies across every region of North America."
       ],
       "correct": 0,
-      "explanation": "The Haudenosaunee Confederacy's sophisticated governance and Cahokia's substantial urban population directly support treating pre-contact Native societies with serious analytical attention. Claiming uniformity (D) contradicts the unit's central point about regional diversity, small Plains bands (B) would undercut rather than support the argument, and agricultural societies clearly existed (contradicting C)."
+      "explanation": "Correct: (A) The Haudenosaunee Confederacy's multi-nation governance and Cahokia's substantial urban population. The historian's argument is that Native societies were complex ones deserving the same analytical seriousness as societies elsewhere; evidence of formal confederal government and a city of many thousands with monumental earthworks directly shows that complexity.\n\n(B) is wrong because small hunting bands, without evidence of institutions or cities, would not demonstrate complexity and might be read as the opposite.\n(C) is wrong because it is false: the Pueblo, Eastern Woodlands and Mississippian peoples practiced agriculture, and it would not support the argument even if true.\n(D) is wrong because Native societies were very diverse by region, so claimed uniformity is inaccurate and does not show sophistication."
     },
     {
       "id": "1-7",
@@ -158,7 +158,7 @@ const QUESTIONS = {
         "Southwest Pueblo peoples, who engineered irrigation to farm in an arid climate."
       ],
       "correct": 3,
-      "explanation": "Southwest Pueblo peoples relied on irrigation-based agriculture to farm successfully in their arid climate, supporting settled communities with multi-story adobe dwellings. Option C is wrong on the facts; Pacific Northwest societies (A) were stratified without farming at all; Great Plains societies (B) were nomadic hunters, not irrigators."
+      "explanation": "Correct: (D) Southwest Pueblo peoples, who engineered irrigation to farm in an arid climate. Ancestral Pueblo and related peoples such as the Hohokam built canals and used runoff and dams to grow corn, beans and squash in the dry Southwest, which supported permanent adobe villages and multi-story dwellings. The stem's clue words are 'irrigation-based agriculture' and 'arid climate'.\n\n(A) is wrong because Pacific Northwest peoples relied on salmon and other wild foods rather than farming, and the region is wet, not arid.\n(B) is wrong because Plains bison hunters on foot depended on hunting and were not irrigators.\n(C) is wrong because the Pueblo and Hohokam clearly practiced irrigation farming, so 'none' is false."
     },
     {
       "id": "1-8",
@@ -171,7 +171,7 @@ const QUESTIONS = {
         "There is no meaningful relationship between food source reliability and social complexity."
       ],
       "correct": 0,
-      "explanation": "A more reliable, dense food surplus — whether from agriculture (Southwest, Eastern Woodlands) or abundant non-farmed resources (Pacific Northwest salmon) — tended to support larger, more sedentary, more stratified societies. Pacific Northwest stratification without farming directly disproves C; the unit's own comparisons show a real relationship, disproving D; and Atlantic proximity (B) is never the operative variable in any of the unit's examples."
+      "explanation": "Correct: (A) A more reliable, dense food surplus, whether farmed or not, tended to support larger, more stratified societies. The general pattern across regions is that where food was abundant and predictable, populations could settle, grow and specialize: maize farming supported Cahokia and Pueblo villages, and salmon supported Northwest Coast villages. Where food was scattered and seasonal, as on the pre-horse Plains, groups stayed smaller and more mobile. The phrase 'whether farmed or not' captures the salmon case.\n\n(B) is wrong because distance from the Atlantic coast and its trade does not account for the complexity of societies like Cahokia (inland) and the Northwest Coast (Pacific).\n(C) is wrong because the Pacific Northwest developed rank and large villages without agriculture.\n(D) is wrong because food supply is the central explanation for variation, not irrelevant to it."
     },
     {
       "id": "1-9",
@@ -184,7 +184,7 @@ const QUESTIONS = {
         "They originated specifically to mark the arrival of European trade goods."
       ],
       "correct": 0,
-      "explanation": "Potlatch ceremonies redistributed wealth and status within Pacific Northwest societies, a practice connected to the region's stratified social structure. Pacific Northwest societies did not farm, so agricultural planning (C) does not apply; potlatch predates sustained European trade contact (contradicting D); and it clearly served a real social/economic function (contradicting B)."
+      "explanation": "Correct: (A) They redistributed wealth and status within an already stratified society. In a potlatch, a host (often a chief or lineage head) gave feasts and gifts to guests, who by accepting witnessed and affirmed the host's rank, inheritance rights and claims; giving away goods generously raised status and spread wealth through the community. The 'already stratified' wording fits the Northwest Coast, whose salmon surplus supported hereditary rank.\n\n(B) is wrong because potlatch had important social, political and economic functions, including recording rank and sharing resources.\n(C) is wrong because Northwest Coast peoples did not farm, so the ceremonies did not plan an agricultural calendar.\n(D) is wrong because potlatch was an older Indigenous institution that existed before European trade goods arrived, though trade later affected the goods given."
     },
     {
       "id": "1-10",
@@ -197,7 +197,7 @@ const QUESTIONS = {
         "An enormous diversity of distinct societies, shaped significantly by regional geography and available resources."
       ],
       "correct": 3,
-      "explanation": "Native American societies in 1491 displayed enormous diversity, shaped significantly by regional geography and resource availability — the section's central corrective point. A single uniform culture (C) and a simple two-category split (A) both flatten this diversity, and Native societies existed across the entire continent, not only the East (B)."
+      "explanation": "Correct: (D) An enormous diversity of distinct societies, shaped significantly by regional geography and available resources. In 1491 North America held hundreds of nations with different languages, economies and governments, ranging from Pueblo irrigation farmers and Plains hunters to Northwest Coast salmon fishers and Mississippian-descended mound builders, with each adapting to its own environment.\n\n(A) is wrong because sorting societies into just farmers and non-farmers ignores the real regional variation within each type, such as the contrast between Northwest Coast fishers and Plains hunters.\n(B) is wrong because Native peoples lived across the whole continent, including the West, Southwest and Plains.\n(C) is wrong because there was no single uniform culture; the languages alone belonged to many unrelated families."
     },
     {
       "id": "1-11",
@@ -210,7 +210,7 @@ const QUESTIONS = {
         "At its historical peak population and political influence."
       ],
       "correct": 1,
-      "explanation": "Cahokia was in decline by the time of sustained European contact — its peak population and influence occurred earlier, around 1050–1200 CE. It was not newly founded at contact (C), it had certainly existed and flourished earlier (contradicting A), and it was well past its peak by contact, not at it (contradicting D)."
+      "explanation": "Correct: (B) In decline, having already passed its peak population and influence. Cahokia peaked around 1050-1200 CE, after which its population fell and the site was largely abandoned by about 1350, probably because of a combination of environmental stress, flooding or resource depletion, and political change. By the time Europeans arrived in the 1500s, the city was long gone, though its mounds and descendant Mississippian peoples remained.\n\n(A) is wrong because Cahokia certainly existed and had been the largest city north of Mexico.\n(C) is wrong because the city was not being founded then; it had been founded centuries earlier.\n(D) is wrong because its peak was earlier, not at the time of sustained contact."
     },
     {
       "id": "1-12",
@@ -223,7 +223,7 @@ const QUESTIONS = {
         "A framework used exclusively to describe early Portuguese exploration."
       ],
       "correct": 2,
-      "explanation": "'God, Gold, and Glory' describes three genuinely distinct but often overlapping motives — religious mission, economic gain, and national/personal prestige — that together explain European exploration generally, not just Portuguese voyages (D), frequently operating together within a single expedition rather than never (A), and carrying real explanatory value (contradicting B)."
+      "explanation": "Correct: (C) Three genuinely distinct, often overlapping motives — religious, economic, and prestige-driven. 'God' stands for spreading Christianity, 'Gold' for wealth from trade, precious metals and land, and 'Glory' for power and reputation for a monarch or individual. Historians use it to organize the reasons European states sponsored voyages, and the overlap matters because a single expedition could pursue all three at once.\n\n(A) is wrong because the motives did operate together and were not tied to different countries.\n(B) is wrong because the framework is a standard and useful way to organize causes, which is why it appears in course materials.\n(D) is wrong because it applies to Spanish, English, French and other exploration as well as Portuguese."
     },
     {
       "id": "1-13",
@@ -236,7 +236,7 @@ const QUESTIONS = {
         "The steamship, a nineteenth-century innovation in ocean travel."
       ],
       "correct": 2,
-      "explanation": "The caravel, a Portuguese ship design combining maneuverability with the ability to sail effectively against the wind, was crucial to enabling sustained transoceanic exploration in the late 1400s. The steamship (D) and clipper ship (A) are far later innovations, and the galleon (B) came into wide use after this initial era of exploration."
+      "explanation": "Correct: (C) The caravel, a maneuverable design able to sail effectively against the wind. Portuguese shipbuilders in the 1400s combined lateen (triangular) sails, which allow sailing closer into the wind, with a light, sturdy hull, so ships could sail down the African coast and return. This solved the problem of coming home against prevailing winds and made repeated long voyages practical; Columbus's Niña and Pinta were caravels.\n\n(A) is wrong because clipper ships were fast nineteenth-century merchant vessels.\n(B) is wrong because the galleon was a larger ship that developed in the 1500s, after the first caravel voyages.\n(D) is wrong because steamships appeared in the nineteenth century."
     },
     {
       "id": "1-14",
@@ -249,7 +249,7 @@ const QUESTIONS = {
         "GPS-based satellite navigation systems."
       ],
       "correct": 1,
-      "explanation": "The magnetic compass and the astrolabe (used for determining latitude) were significant navigational technologies enabling long, open-ocean voyages during the Age of Exploration. Radio (A) and GPS (D) are modern technologies, and the telescope/sextant (C) came into common navigational use centuries later, not in the 1400s–1500s."
+      "explanation": "Correct: (B) The magnetic compass and the astrolabe, used to determine direction and latitude. The compass (known in Europe from the 1200s, from Chinese origins by way of the Muslim world) gave direction when no land was in sight, and the astrolabe let sailors measure the sun's or a star's height to find latitude. Together with better ships they made open-ocean voyages in the 1400s and 1500s possible.\n\n(A) is wrong because radio did not exist until the late 1800s and early 1900s.\n(C) is wrong because the sextant was invented in the 1700s, and the telescope came about 1608, so neither was available to the early explorers.\n(D) is wrong because satellite navigation is a twentieth-century technology."
     },
     {
       "id": "1-15",
@@ -262,7 +262,7 @@ const QUESTIONS = {
         "Portugal, sponsor of Prince Henry the Navigator's coastal voyages."
       ],
       "correct": 3,
-      "explanation": "Portugal, under the sponsorship of Prince Henry the Navigator, led early exploration down the African coast, culminating in Vasco da Gama's 1498 voyage establishing a sea route to India. Spain (A) sponsored Columbus's westward voyages instead, and England (C) and France (B) entered transoceanic exploration significantly later than Portugal."
+      "explanation": "Correct: (D) Portugal, sponsor of Prince Henry the Navigator's coastal voyages. Beginning in the early 1400s Prince Henry sponsored voyages down the West African coast, seeking gold, trade and Christian allies. Portuguese captains passed Cape Bojador, Bartolomeu Dias rounded the Cape of Good Hope in 1488, and Vasco da Gama reached India in 1498, giving Portugal a direct sea route to Asian trade.\n\n(A) is wrong because Spain sponsored Columbus's westward voyage in 1492 and had no role in the African route.\n(B) is wrong because France entered Atlantic exploration later, with Verrazzano in 1524 and Cartier in the 1530s.\n(C) is wrong because England's early voyage, John Cabot's in 1497, came after Portugal's long program."
     },
     {
       "id": "1-16",
@@ -275,7 +275,7 @@ const QUESTIONS = {
         "Yes, because Columbus was the first European ever to cross any ocean on a voyage of discovery."
       ],
       "correct": 1,
-      "explanation": "Portugal had already been engaged in African coastal exploration for decades before 1492 — Columbus's voyage is significant specifically for opening SUSTAINED European contact with the Americas, not for being the absolute first European exploration voyage (contradicting A and C). Its significance is real, not absent, contradicting B."
+      "explanation": "Correct: (B) No — Portugal had already explored Africa for decades; Columbus's voyage opened sustained contact with the Americas. Portuguese expeditions down the African coast started in the early 1400s, and Bartolomeu Dias rounded Africa's southern tip in 1488, before Columbus sailed. Norse voyagers had also reached North America around 1000. What made 1492 a turning point was that it began continuing contact between Europe and the Americas, which led to the Columbian Exchange and colonization.\n\n(A) is wrong because the voyage had enormous lasting significance.\n(C) is wrong because European exploration clearly occurred before 1492, along Africa and in the Atlantic islands.\n(D) is wrong because Columbus was not the first European to cross an ocean to the Americas, given the Norse, and Portuguese voyagers were already exploring."
     },
     {
       "id": "1-17",
@@ -288,7 +288,7 @@ const QUESTIONS = {
         "Selecting a site to found a permanent Spanish military base."
       ],
       "correct": 2,
-      "explanation": "Columbus was originally seeking a western sea route to Asia, sponsored by the Spanish crown, and instead landed in the Caribbean. The Nile's source (A) and an African overland route (B) were not his goal, and founding a military base (D) was not the original purpose of the 1492 voyage."
+      "explanation": "Correct: (C) A western sea route to Asia. Columbus believed, with a mistaken estimate of the earth's size, that he could reach the Indies by sailing west across the Atlantic, and he persuaded Ferdinand and Isabella of Spain to fund the voyage. His goal was the spice and silk trade of Asia, and he never recognized that he had reached a continent unknown to Europeans, which is why the Caribbean peoples came to be called 'Indians.'\n\n(A) is wrong because the source of the Nile was not his aim, and it lies in Africa.\n(B) is wrong because he was sailing on the open ocean, not seeking an overland route through Africa.\n(D) is wrong because a permanent military base was not the stated goal of the 1492 voyage, though he left a small garrison at La Navidad."
     },
     {
       "id": "1-18",
@@ -301,7 +301,7 @@ const QUESTIONS = {
         "European powers sought a western sea route to bypass costly routes controlled by Middle Eastern and Italian intermediaries."
       ],
       "correct": 3,
-      "explanation": "The economic motive for exploration included seeking a western sea route to Asian markets specifically to bypass the expensive overland trade routes controlled by Middle Eastern and Italian intermediaries. Those routes were controlled and costly, not free and open (contradicting A); the economic motive was directly tied to Asian trade, not unrelated to it (contradicting B); and strong interest in Asian goods, not indifference, drove the search (contradicting D)."
+      "explanation": "Correct: (D) European powers sought a western sea route to bypass costly routes controlled by Middle Eastern and Italian intermediaries. Asian spices, silk and other goods reached Europe by overland and mixed land-sea routes through Muslim-ruled territories and Italian trading cities such as Venice and Genoa, and each middleman added costs. The Ottoman conquest of Constantinople in 1453 made those routes seem even less secure. Monarchs wanted to reach Asian markets directly by sea, which is the 'Gold' motive.\n\n(A) is wrong because Europeans valued spices and silk highly, and the search for them drove exploration.\n(B) is wrong because the economic motive was tied directly to Asian trade.\n(C) is wrong because the routes were controlled and expensive, not free and open."
     },
     {
       "id": "1-19",
@@ -314,7 +314,7 @@ const QUESTIONS = {
         "Gold, the pursuit of precious metals and trade wealth."
       ],
       "correct": 2,
-      "explanation": "'Glory' — national and personal prestige — best explains European monarchies' direct competition with rival powers for territorial claims and international standing. Gold (D) centers on economic gain rather than prestige rivalry, God (B) centers on religious mission, and the framework clearly does relate to inter-European competition (contradicting A)."
+      "explanation": "Correct: (C) Glory, national and personal prestige through territorial claims. Competition among Spain, Portugal, England and France for territory and power was about rivalry and reputation: monarchs wanted to outdo other kingdoms, and the Treaty of Tordesillas in 1494, in which Spain and Portugal divided new lands between them, is an example of rivals contending over claims.\n\n(A) is wrong because the motives do explain such competition, and Glory especially does.\n(B) is wrong because 'God' concerns spreading Christianity, which is a religious mission rather than rivalry among states.\n(D) is wrong because 'Gold' concerns wealth from trade and precious metals; the stem asks for the motive about rivalry for territorial claims, which is prestige."
     },
     {
       "id": "1-20",
@@ -327,7 +327,7 @@ const QUESTIONS = {
         "Only one of the three motives, with the other two entirely absent."
       ],
       "correct": 1,
-      "explanation": "This expedition illustrates all three motives simultaneously: Gold (precious metals), Glory (claiming territory for the crown), and God (religious conversion) — directly illustrating how these motives frequently overlapped. It is not limited to one (D) or two (C) motives, and it is not an exception outside the framework (A)."
+      "explanation": "Correct: (B) All three motives — God, Gold, and Glory — operating simultaneously. Seeking precious metals is Gold, claiming new territory for the crown is Glory because it increases a monarch's power and standing against rivals, and converting Native peoples to Catholicism is God. Spanish expeditions of the 1500s, such as Cortés's in Mexico, commonly combined all three, which shows why historians stress that the motives overlapped.\n\n(A) is wrong because this expedition fits the framework perfectly rather than being an exception.\n(C) is wrong because none of the three is missing: each of the stem's three goals maps to one motive.\n(D) is wrong because the stem lists three separate aims, so more than one motive is shown."
     },
     {
       "id": "1-21",
@@ -340,7 +340,7 @@ const QUESTIONS = {
         "Motive alone fully explains the timing, with no other contributing factor at all."
       ],
       "correct": 0,
-      "explanation": "Motives like religious mission, economic ambition, and national competition had existed long before the late 1400s — what changed was the arrival of specific enabling technology (the caravel, compass, astrolabe) that made sustained transoceanic voyages newly practical, explaining the specific timing. Motive was not absent earlier (contradicting A), technology clearly mattered (contradicting B), and motive alone is an incomplete explanation of timing (contradicting D)."
+      "explanation": "Correct: (A) Specific technological developments — the caravel, compass, and astrolabe — made long ocean voyages newly practical. Desire for wealth, converts and power had existed in Europe for centuries, so motive cannot explain why the voyages began in the late 1400s. The change was that ships able to sail against the wind and navigational tools for direction and latitude had come together, making sustained voyages feasible.\n\n(B) is wrong because Europeans did have motives earlier, as in the Crusades and the long demand for Asian goods.\n(C) is wrong because technology clearly mattered, which is the point of the question.\n(D) is wrong because motive alone would have produced voyages earlier, so it cannot be a full explanation of timing."
     },
     {
       "id": "1-22",
@@ -353,7 +353,7 @@ const QUESTIONS = {
         "Christopher Columbus himself, describing his own voyages."
       ],
       "correct": 0,
-      "explanation": "Historian Alfred Crosby coined the term 'Columbian Exchange' to describe the massive, bidirectional transfer of plants, animals, diseases, and people between the hemispheres following 1492. Las Casas (B), Columbus (D), and Cortés (C) were sixteenth-century historical figures, not the modern historian who named this exchange."
+      "explanation": "Correct: (A) Historian Alfred Crosby, in his influential study of the exchange. Crosby, an American historian, introduced the term in his 1972 book The Columbian Exchange: Biological and Cultural Consequences of 1492, which described the transfer of plants, animals, diseases and people between the Eastern and Western Hemispheres after Columbus. It is a modern scholarly term, not a phrase used in the 1500s.\n\n(B) is wrong because Bartolomé de las Casas was a sixteenth-century Dominican friar who wrote against the abuse of Native peoples under the encomienda system.\n(C) is wrong because Cortés, the conqueror of the Aztec Empire, wrote letters to Charles V but did not use this term.\n(D) is wrong because Columbus lived in the 1400s and early 1500s, centuries before the concept was named."
     },
     {
       "id": "1-23",
@@ -366,7 +366,7 @@ const QUESTIONS = {
         "Coffee and bananas, crops later introduced to the Americas from elsewhere."
       ],
       "correct": 2,
-      "explanation": "Maize (corn) and potatoes moved from the Americas to Europe, becoming staple crops that significantly expanded the European food supply. Rice, sugarcane, wheat, and barley (A, B) all moved in the opposite direction, from the Old World to the Americas, and coffee and bananas (D) are not part of this Americas-to-Europe transfer."
+      "explanation": "Correct: (C) Maize and potatoes, both native to the Americas before 1492. The question asks what moved from the Americas to Europe. Maize was domesticated in Mexico and potatoes in the Andes, and after 1492 both crossed the Atlantic and became major food crops in Europe and later in Africa and Asia.\n\n(A) is wrong because wheat and barley are Old World grains that Europeans brought to the Americas, so they moved in the opposite direction.\n(B) is wrong because rice and sugarcane are likewise Old World crops; sugarcane, planted first in the Caribbean, became the basis of plantation slavery.\n(D) is wrong because coffee and bananas also came from the Old World (Africa and Asia) and were introduced to the Americas, not carried to Europe from there."
     },
     {
       "id": "1-24",
@@ -379,7 +379,7 @@ const QUESTIONS = {
         "Maize and tobacco, both crops native to the Americas, which Europeans adopted after contact."
       ],
       "correct": 0,
-      "explanation": "Horses and cattle moved from the Old World to the Americas, along with crops like wheat and sugarcane, significantly reshaping American agriculture and, eventually, Native ways of life. Potatoes, tomatoes, cacao, squash, maize, and tobacco (A, B, C) all moved in the opposite direction, from the Americas to the Old World."
+      "explanation": "Correct: (A) Horses and cattle, Old World livestock brought across the Atlantic. The Americas had no horses, cattle, pigs, sheep or goats before 1492, and Spanish colonists brought them from the first voyages on. Horses changed warfare and later Plains life, and cattle and pigs spread widely and reshaped land use.\n\n(B) is wrong because potatoes and tomatoes are American crops that went east to Europe.\n(C) is wrong because cacao and squash are American crops, and cacao became the basis of chocolate in Europe.\n(D) is wrong because maize and tobacco also originated in the Americas, and tobacco was later grown in Europe and became the cash crop of Virginia. The stem asks for movement from the Old World to the Americas, so each of these three options names things going the other way."
     },
     {
       "id": "1-25",
@@ -392,7 +392,7 @@ const QUESTIONS = {
         "An epidemic defined narrowly as damage to soil fertility rather than to health, caused by overplanting of imported crops."
       ],
       "correct": 1,
-      "explanation": "A 'virgin soil epidemic' describes an epidemic among a population with no prior exposure or immunity to the introduced disease, often resulting in catastrophically high mortality — precisely the situation Native populations faced with Old World diseases like smallpox. It describes human disease, not crop damage (C) or soil fertility (D), and it has nothing to do with crop movement (A)."
+      "explanation": "Correct: (B) An epidemic in a population with no prior exposure or immunity, resulting in unusually high mortality. The 'virgin soil' phrase means a population that had never met the disease, so that people of all ages fell sick at once and there were too few healthy people to nurse the sick or plant crops, which raised the death toll. Smallpox, measles and other Old World diseases struck Native peoples this way after 1492.\n\n(A) is wrong because it describes crop movement, which is another part of the Columbian Exchange, not this concept.\n(C) is wrong because the term is about human disease, not diseases of plants.\n(D) is wrong because 'virgin soil' is a figure of speech for a population never exposed, not a statement about soil fertility."
     },
     {
       "id": "1-26",
@@ -405,7 +405,7 @@ const QUESTIONS = {
         "Direct military conquest by Spanish forces, acting alone, with no other contributing factor."
       ],
       "correct": 2,
-      "explanation": "Disease — particularly virgin soil epidemics like smallpox — was the dominant factor in catastrophic Native population decline, exceeding the demographic impact of military conquest acting alone (D). There is no historical basis for large-scale voluntary relocation to Europe (B), and the decline is tied directly to European contact, not unrelated climate change (A)."
+      "explanation": "Correct: (C) Disease, especially virgin soil epidemics like smallpox, against which Native populations had no immunity. Smallpox, measles, influenza and typhus spread ahead of and alongside Europeans, often killing a large share of a community before any Spanish soldier arrived. Warfare, forced labor and displacement added to the toll, but historians identify disease as the largest cause.\n\n(A) is wrong because the decline began with contact from 1492 and is tied to disease and conquest, not to a separate climate event.\n(B) is wrong because Native peoples did not voluntarily relocate to Europe in large numbers; the movement of people ran largely the other way, along with enslaved Africans.\n(D) is wrong because conquest was real and brutal but could not by itself account for deaths on this scale, and the stem asks for the dominant factor."
     },
     {
       "id": "1-27",
@@ -418,7 +418,7 @@ const QUESTIONS = {
         "A catastrophic decline of roughly 80–90% in the first century."
       ],
       "correct": 3,
-      "explanation": "Historians commonly cite population declines estimated at 80–90% in some regions during the first century of sustained contact, reflecting the catastrophic demographic impact of virgin soil epidemics — a far larger decline than the modest (A) or minor (B) figures, and certainly not the absence of decline claimed in B."
+      "explanation": "Correct: (D) A catastrophic decline of roughly 80–90% in the first century. For central Mexico and Peru, estimates of pre-contact population compared with a century later suggest losses of about 80-90 percent, for example from many millions in central Mexico in 1519 to about one or two million by the early 1600s. Exact numbers are debated, but the order of magnitude is widely accepted for the hardest-hit regions.\n\n(A) is wrong because 20-30 percent is far too small to match the demographic evidence.\n(B) is wrong because 5-10 percent is far smaller still.\n(C) is wrong because no decline would contradict the evidence of abandoned villages and Spanish records of labor shortages."
     },
     {
       "id": "1-28",
@@ -431,7 +431,7 @@ const QUESTIONS = {
         "Calorie-dense crops like the potato and maize could be grown on land unsuited to traditional grains."
       ],
       "correct": 3,
-      "explanation": "Calorie-dense New World crops like the potato and maize could be grown successfully on land not well-suited to traditional European grain crops, expanding the overall food supply and contributing to sustained European population growth. They were in fact widely and successfully cultivated in Europe (contradicting A), had a real measurable effect on population (contradicting C), and were not toxic (contradicting D)."
+      "explanation": "Correct: (D) Calorie-dense crops like the potato and maize could be grown on land unsuited to traditional grains. Potatoes in cool, wet northern Europe and maize in southern and eastern Europe yielded more calories per acre than wheat or rye and could use poorer soil, so peasants were better fed and populations grew from the 1700s onward. Ireland's heavy reliance on the potato, and the disaster of the 1840s blight, show how central it became.\n\n(A) is wrong because these crops were nutritious food, not toxic.\n(B) is wrong because their effect on population was large, not nonexistent.\n(C) is wrong because they were widely and successfully grown across Europe."
     },
     {
       "id": "1-29",
@@ -444,7 +444,7 @@ const QUESTIONS = {
         "A transfer limited exclusively to the movement of precious metals."
       ],
       "correct": 2,
-      "explanation": "The Columbian Exchange was a massive, bidirectional transfer — moving in both directions between the hemispheres — of plants, animals, diseases, and people, not merely precious metals (D), not merely symbolic (A), and not one-directional (B), since crops, disease, and people moved both ways."
+      "explanation": "Correct: (C) A massive, bidirectional transfer of plants, animals, diseases, and people. Crops (maize, potatoes, tomatoes, tobacco) and syphilis, by some accounts, went east, while horses, cattle, wheat, sugarcane and smallpox went west, and people moved both voluntarily and by force, including enslaved Africans. The exchange transformed diets, economies and populations on both sides of the Atlantic.\n\n(A) is wrong because the effects were enormous and measurable, from Native population collapse to new food supplies.\n(B) is wrong because the exchange went both ways, as crops moved east and livestock and diseases moved west.\n(D) is wrong because precious metals were only one part of the flows and the exchange chiefly concerned living things."
     },
     {
       "id": "1-30",
@@ -457,7 +457,7 @@ const QUESTIONS = {
         "The argument is incomplete — disease, not conquest alone, was the dominant demographic factor."
       ],
       "correct": 3,
-      "explanation": "This section's content directly evaluates such an argument as incomplete — while military conquest was real and significant, disease was the dominant factor in Native population decline. The section provides ample basis for evaluation (contradicting A), the argument does not claim no decline occurred (contradicting B, which mischaracterizes it), and the argument as stated is not fully accurate (contradicting D)."
+      "explanation": "Correct: (D) The argument is incomplete — disease, not conquest alone, was the dominant demographic factor. Cortés and Pizarro won with the help of Native allies and with epidemics that struck their opponents, as smallpox did in Tenochtitlan in 1520 just before the Aztec fall, and disease killed far more people than fighting did. Weapons, horses and steel mattered, but they do not explain the scale of population loss.\n\n(A) is wrong because the historian's argument does not say Native societies did not decline; it attributes their decline to military superiority.\n(B) is wrong because conquest alone cannot be a full explanation given the evidence on disease, allies and political divisions.\n(C) is wrong because the section on the Columbian Exchange supplies exactly the evidence needed to judge the claim."
     },
     {
       "id": "1-31",
@@ -470,7 +470,7 @@ const QUESTIONS = {
         "No new disease of any kind was introduced to the Americas during this period."
       ],
       "correct": 0,
-      "explanation": "Smallpox is commonly cited as a key Old World disease introduced to Native American populations, causing catastrophic virgin soil epidemics due to their lack of prior immunity. A livestock-only disease (C) does not describe smallpox, malaria in this framing is generally discussed as an Old World import rather than pre-contact (B), and new diseases clearly were introduced during this period (contradicting D)."
+      "explanation": "Correct: (A) Smallpox, a disease Native populations had no prior immunity to. Smallpox spread through the Caribbean, Mexico and the Andes after 1492, and a major outbreak weakened the Aztecs in 1520 and the Inca before Pizarro arrived. Europeans had partial immunity from long exposure, while Native peoples did not.\n\n(B) is wrong because malaria came from the Old World (Africa and Europe) and is generally treated as an introduction, not an American disease.\n(C) is wrong because smallpox is a human disease that spreads from person to person, not a livestock-only illness.\n(D) is wrong because many new diseases, including smallpox, measles and influenza, did arrive with Europeans and Africans."
     },
     {
       "id": "1-32",
@@ -483,7 +483,7 @@ const QUESTIONS = {
         "It has no relevance to American history beyond Period 1 itself."
       ],
       "correct": 2,
-      "explanation": "The Columbian Exchange's consequences — Native population collapse, resulting labor shortages, and the consequent shift toward African slave labor — directly shape colonial economic and social development throughout subsequent periods, making it a foundational framework rather than confined to Period 1 (D), to Europe alone (B), or to events concluded by 1500 (A)."
+      "explanation": "Correct: (C) Its consequences — population collapse, labor shortages, and slavery's growth — directly shape later periods. Native deaths left European colonists short of workers, and they turned increasingly to enslaved Africans for plantations producing sugar, tobacco and rice, which shaped the economy, society and politics of the colonies and later the United States. New crops and livestock also changed land use and diets.\n\n(A) is wrong because the exchange continued for centuries and its effects are still felt.\n(B) is wrong because it reshaped the Americas, Africa and Asia as well as Europe.\n(D) is wrong because its consequences, especially slavery, are central to later periods of U.S. history."
     },
     {
       "id": "1-33",
@@ -496,7 +496,7 @@ const QUESTIONS = {
         "Ferdinand Magellan, known for his circumnavigation voyage."
       ],
       "correct": 0,
-      "explanation": "Hernán Cortés led the Spanish conquest of the Aztec Empire (1519–1521), exploiting internal political divisions and disease. Pizarro (C) led the separate conquest of the Inca Empire, Las Casas (B) was a critic of labor practices rather than a conquistador, and Magellan (D) is known for circumnavigation, not Aztec conquest."
+      "explanation": "Correct: (A) Hernán Cortés, who led the campaign against the Aztec Empire. Cortés landed in Mexico in 1519 with a few hundred men, allied with Native peoples hostile to Aztec rule, and with the help of a smallpox epidemic captured Tenochtitlan in 1521.\n\n(B) is wrong because Bartolomé de las Casas was a friar who criticized the treatment of Native peoples, not a military leader.\n(C) is wrong because Francisco Pizarro conquered the Inca Empire in the Andes in the 1530s, a different campaign.\n(D) is wrong because Ferdinand Magellan led the Spanish expedition of 1519 to 1522 that sailed around the world (he died in the Philippines in 1521), and he had no part in the Aztec conquest."
     },
     {
       "id": "1-34",
@@ -509,7 +509,7 @@ const QUESTIONS = {
         "Christopher Columbus, known for his 1492 transatlantic voyage."
       ],
       "correct": 0,
-      "explanation": "Francisco Pizarro led the Spanish conquest of the Inca Empire (1532–1533), similarly exploiting internal political weakness and disease. Cortés (C) led the separate conquest of the Aztec Empire, and da Gama (B) and Columbus (D) were explorers whose voyages predate and are unrelated to the Inca conquest."
+      "explanation": "Correct: (A) Francisco Pizarro, who led the campaign against the Inca Empire. Pizarro arrived in Peru in 1532 when the Inca state was weakened by a civil war between Atahualpa and Huáscar and by earlier epidemics; he captured Atahualpa at Cajamarca, collected a huge ransom, executed him in 1533 and took Cuzco.\n\n(B) is wrong because Vasco da Gama, a Portuguese captain, reached India by sea in 1498 and had no role in the Americas.\n(C) is wrong because Cortés conquered the Aztecs in Mexico.\n(D) is wrong because Columbus died in 1506, decades before the Inca conquest."
     },
     {
       "id": "1-35",
@@ -522,7 +522,7 @@ const QUESTIONS = {
         "The Inca, a separate empire located far to the south in the Andes."
       ],
       "correct": 2,
-      "explanation": "Cortés allied with the Tlaxcalans and other groups who resented Aztec rule, turning a small Spanish force into a much larger combined army. The Inca (D), Pueblo (A), and Haudenosaunee (B) were all geographically and politically unconnected to the Aztec conquest campaign."
+      "explanation": "Correct: (C) The Tlaxcalans, a group that resented and actively opposed Aztec rule. Tlaxcala was an independent state in central Mexico that had resisted the Aztecs and had been pressured by them; after first fighting the Spanish, the Tlaxcalans allied with Cortés in 1519 and supplied thousands of warriors. Other peoples who paid tribute to the Aztecs also joined, and these allies made up most of the force that besieged Tenochtitlan.\n\n(A) is wrong because the Pueblo peoples lived far north in the Southwest and had no link to the Aztec campaign.\n(B) is wrong because the Haudenosaunee lived in what is now New York, thousands of miles away.\n(D) is wrong because the Inca were a separate empire in the Andes, and Pizarro conquered them later."
     },
     {
       "id": "1-36",
@@ -535,7 +535,7 @@ const QUESTIONS = {
         "The specific role of Spanish naval technology in the conquest."
       ],
       "correct": 0,
-      "explanation": "Oversimplified accounts crediting Spanish weaponry alone commonly under-emphasize the exploitation of existing Native political divisions and the significant weakening effects of disease. English competition (B), Spanish naval technology (D), and the printing press (C) are not the factors this section identifies as commonly overlooked."
+      "explanation": "Correct: (A) Existing Native political divisions and disease, both exploited by or weakening the Spanish's opponents. Accounts that credit steel, guns and horses alone leave out that Cortés relied on Tlaxcalan and other allies who hated Aztec tribute demands, that Pizarro arrived during an Inca civil war, and that smallpox killed many leaders and fighters. These factors are what the stem means by 'under-emphasized'.\n\n(B) is wrong because English competition in the area of Spanish conquest was not a factor in the conquest of Mexico and Peru in the 1500s.\n(C) is wrong because the printing press did spread news in Europe but did not decide the outcome of the conquests, and it is not an overlooked cause.\n(D) is wrong because naval technology brought the Spanish across the Atlantic but did not win the inland campaigns against the Aztecs and Inca."
     },
     {
       "id": "1-37",
@@ -548,7 +548,7 @@ const QUESTIONS = {
         "A system used exclusively to organize ranks within the Spanish military, with no connection to colonial society at large."
       ],
       "correct": 1,
-      "explanation": "The Spanish casta system was a formal, legally codified racial hierarchy that determined an individual's social status, legal rights, and economic opportunity based on ancestry — not a trade agreement (C), a military rank system (D), or merely informal custom (A)."
+      "explanation": "Correct: (B) A formal, legally codified racial hierarchy determining status, rights, and opportunity. The casta system in Spanish America ranked people by ancestry, with peninsulares at the top, then criollos, then mestizos, mulattos and others of mixed ancestry, then Native Americans and enslaved Africans, and the law gave each group different rights, taxes, and access to office and the Church.\n\n(A) is wrong because it had the force of law, not just custom.\n(C) is wrong because it concerns social ranking within colonies, not a treaty with Portugal.\n(D) is wrong because the system applied to all of colonial society and was not confined to the army."
     },
     {
       "id": "1-38",
@@ -561,7 +561,7 @@ const QUESTIONS = {
         "Criollos, people of Spanish descent born in the Americas."
       ],
       "correct": 0,
-      "explanation": "Peninsulares — colonists born in Spain itself — generally held the highest colonial offices, ranking above criollos (D) despite criollos often being wealthy. Mestizos (B) and Native Americans (C) ranked well below both peninsulares and criollos in the hierarchy."
+      "explanation": "Correct: (A) Peninsulares, colonists born in Spain itself. The Crown reserved top posts, such as viceroy and the judges of the audiencias, and senior church offices mainly for people born in Spain, on the grounds of loyalty and birth.\n\n(B) is wrong because mestizos, of mixed Spanish and Native ancestry, ranked below Spaniards and criollos and were mostly kept out of high office.\n(C) is wrong because Native Americans were near the bottom, as the answer itself states, so they did not hold the highest offices.\n(D) is wrong because criollos were wealthy and often owned land, but, being born in the Americas, ranked below peninsulares for top posts; this resentment later fed independence movements."
     },
     {
       "id": "1-39",
@@ -574,7 +574,7 @@ const QUESTIONS = {
         "A person of purely African ancestry, under the casta system."
       ],
       "correct": 2,
-      "explanation": "'Mestizo' referred to a person of mixed Spanish and Native American ancestry within the casta system. It is not unrelated to ancestry (A); purely Spanish-born ancestry (B) describes a peninsular, and purely African ancestry (D) describes a different casta category entirely."
+      "explanation": "Correct: (C) A person of mixed Spanish and Native American ancestry. The word 'mestizo' described the many people descended from Spanish men and Native women in the early colonies, a large and growing group that stood between the Spanish elite and the Native majority in the casta ranking.\n\n(A) is wrong because the casta categories were based on ancestry, so the term is entirely about ancestry.\n(B) is wrong because a person of purely Spanish ancestry born in Spain was a peninsular, and one born in the Americas was a criollo.\n(D) is wrong because people of African ancestry were placed in other categories, and mixed African-Spanish people were called mulattos."
     },
     {
       "id": "1-40",
@@ -587,7 +587,7 @@ const QUESTIONS = {
         "Legal racial hierarchies never appear again after this period ends in the colonies."
       ],
       "correct": 2,
-      "explanation": "The casta system's formal, legal nature makes it a concrete example of an institutionalized racial hierarchy, useful for later comparison with other legal racial hierarchies in subsequent periods. Legal hierarchies do reappear later (contradicting A), the casta system is not the only such example in American history (contradicting B), and it clearly has later analytical relevance (contradicting C)."
+      "explanation": "Correct: (C) It is a concrete example of a legally institutionalized racial hierarchy, a pattern the course revisits later. The casta system wrote rank by ancestry into law, and students can compare it with slave codes, laws on free Black people, Jim Crow laws and other legal systems of racial hierarchy in British America and the United States.\n\n(A) is wrong because the comparison has direct analytical value for later periods.\n(B) is wrong because it was not the only racial hierarchy in American history; slavery and segregation laws are other examples.\n(D) is wrong because legal racial hierarchies recurred, for example in slavery, in Jim Crow laws and in restrictions on immigration."
     },
     {
       "id": "1-41",
@@ -600,7 +600,7 @@ const QUESTIONS = {
         "1776–1783, during the era of the American Revolution."
       ],
       "correct": 0,
-      "explanation": "Cortés's conquest of the Aztec Empire occurred approximately 1519–1521, roughly three decades after Columbus's initial 1492 voyage. 1607–1610 (C) marks England's Jamestown settlement, 1492–1493 (B) is Columbus's own voyage, and 1776–1783 (D) is the American Revolutionary era — none matches the Aztec conquest."
+      "explanation": "Correct: (A) 1519–1521, roughly three decades after Columbus's first voyage. Cortés left Cuba in 1519, entered Tenochtitlan in November of that year, was driven out in the 'Sad Night' of 1520, and returned to capture the city in August 1521.\n\n(B) is wrong because 1492-1493 was Columbus's first voyage to the Caribbean.\n(C) is wrong because 1607 was the founding of Jamestown, England's first permanent colony in North America, nearly a century after the Aztec conquest.\n(D) is wrong because 1776-1783 was the American Revolution, centuries later."
     },
     {
       "id": "1-42",
@@ -613,7 +613,7 @@ const QUESTIONS = {
         "A combination of superior weaponry, exploited political divisions, and disease."
       ],
       "correct": 3,
-      "explanation": "A complete explanation requires combining multiple factors: superior weaponry, exploitation of existing Native political divisions, and the weakening effects of disease — no single factor alone suffices. Native empires resisted rather than voluntarily surrendering (contradicting B), Spanish forces were vastly outnumbered rather than numerically superior (contradicting C), and weaponry alone is an incomplete explanation (contradicting D)."
+      "explanation": "Correct: (D) A combination of superior weaponry, exploited political divisions, and disease. Spanish steel weapons, firearms and horses gave them military advantages, but Native allies provided most of the fighting strength, rivalries such as that between the Aztec Empire and Tlaxcala were turned to Spanish use, and epidemics killed many defenders. Together these account for victory over empires of millions of people.\n\n(A) is wrong because weaponry alone ignores the allies and disease that proved decisive.\n(B) is wrong because Aztec and Inca forces fought hard and long, as in the Aztecs' defeat of the Spanish on the Sad Night in 1520, and did not surrender voluntarily.\n(C) is wrong because the Spanish were greatly outnumbered, with a few hundred men against the populations of whole empires."
     },
     {
       "id": "1-43",
@@ -626,7 +626,7 @@ const QUESTIONS = {
         "A Native American system for managing land communally within a village or kin group."
       ],
       "correct": 2,
-      "explanation": "The encomienda system granted individual Spanish colonists the right to demand labor and tribute from Native Americans, nominally in exchange for protection and Christianization. It was not paid, freely-entered wage labor (B), a Spain-England trade agreement (A), or a Native communal land system (D)."
+      "explanation": "Correct: (C) A grant giving Spanish colonists the right to demand labor and tribute from Native Americans. The Spanish Crown gave an encomendero a group of Native people, who owed labor or tribute, and in return he was supposed to protect them and teach them Christianity. The system began in the Caribbean in the early 1500s and was used in Mexico and Peru.\n\n(A) is wrong because it was an arrangement within the Spanish empire between the Crown, colonists and Native communities, not a treaty with England.\n(B) is wrong because the labor was compelled, not freely chosen wage work.\n(D) is wrong because it was a Spanish institution imposed on Native peoples, not a Native communal land system."
     },
     {
       "id": "1-44",
@@ -639,7 +639,7 @@ const QUESTIONS = {
         "As a brutal forced labor system that contributed to Native population decline through overwork."
       ],
       "correct": 3,
-      "explanation": "In practice, encomienda functioned as a brutal forced labor system; overwork under it, alongside disease, contributed significantly to catastrophic Native population decline. It was not voluntary or fairly compensated (B), it overwhelmingly benefited Spanish colonists rather than Native communities (contradicting A), and it centrally involved coerced labor, not merely religion (contradicting C)."
+      "explanation": "Correct: (D) As a brutal forced labor system that contributed to Native population decline through overwork. Though the law said encomenderos owed protection and religious instruction, in practice many forced Native people to work in mines and fields in harsh conditions, which together with disease killed huge numbers, particularly in the Caribbean, where Taíno populations collapsed within decades. Critics such as las Casas pressed the Crown to issue the New Laws of 1542.\n\n(A) is wrong because the system chiefly benefited the colonists, and the supposed protection was rarely given.\n(B) is wrong because the labor was compelled and not freely chosen, and workers could not leave at will.\n(C) is wrong because, although religious instruction was part of the justification, the core of the system was labor and tribute."
     },
     {
       "id": "1-45",
@@ -652,7 +652,7 @@ const QUESTIONS = {
         "The Spanish king who formally authorized Columbus's 1492 voyage across the Atlantic."
       ],
       "correct": 2,
-      "explanation": "Bartolomé de las Casas was a Dominican friar who became a prominent critic of the encomienda system's brutal treatment of Native peoples. He was not the conquistador who conquered the Inca (A, that was Pizarro), a Tlaxcalan leader (B), or the Spanish king (D)."
+      "explanation": "Correct: (C) A Dominican friar who became a prominent critic of encomienda's treatment of Native peoples. Las Casas first lived as an encomendero in Hispaniola, then became a priest and Dominican, and from the 1510s to his death in 1566 argued before the Crown that Native peoples were rational human beings who should not be enslaved. His writings, including A Short Account of the Destruction of the Indies, helped bring about the New Laws of 1542, and in 1550-1551 he debated Juan Ginés de Sepúlveda at Valladolid.\n\n(A) is wrong because the conqueror of the Inca was Pizarro.\n(B) is wrong because the Tlaxcalan allies of Cortés were Native leaders, and las Casas was a Spanish friar.\n(D) is wrong because Columbus's voyage was authorized by Queen Isabella and King Ferdinand, not las Casas."
     },
     {
       "id": "1-46",
@@ -665,7 +665,7 @@ const QUESTIONS = {
         "He initially proposed African slave labor as an alternative to Native forced labor, a view he later regretted."
       ],
       "correct": 3,
-      "explanation": "Las Casas's early advocacy is complicated by his initial proposal of African slave labor as an alternative to Native forced labor, a position he later regretted. He did not lead the Aztec conquest (A, that was Cortés), his record is genuinely complicated rather than unblemished (contradicting C), and he supported rather than opposed Christian conversion efforts (contradicting D)."
+      "explanation": "Correct: (D) He initially proposed African slave labor as an alternative to Native forced labor, a view he later regretted. In the 1510s and early 1520s las Casas suggested that Africans could be brought to relieve Native people from the mines and fields, and in his later History of the Indies he condemned that proposal and the African slave trade as equally unjust. This is the complicating fact: a great defender of Native peoples had at first backed a path that helped expand African slavery.\n\n(A) is wrong because historians discuss exactly this complication and do not treat him as unblemished.\n(B) is wrong because las Casas was a priest who supported conversion; he argued it should be peaceful and not forced.\n(C) is wrong because the Aztec conquest was led by Cortés, and las Casas was a critic of such conquests."
     },
     {
       "id": "1-47",
@@ -678,7 +678,7 @@ const QUESTIONS = {
         "Native Americans are recorded as having voluntarily requested this specific labor shift."
       ],
       "correct": 1,
-      "explanation": "The shift was driven primarily by economic necessity — catastrophic Native population decline from disease and overwork created a severe labor shortage for profitable enterprises like sugar production. There is no record of Native Americans requesting this shift (D) or of a papal ban driving it (C), and broad moral concern was not the dominant driver (contradicting A)."
+      "explanation": "Correct: (B) Primarily economic necessity, as disease and overwork caused a severe Native labor shortage. Epidemics and harsh encomienda labor reduced Native populations, as in the Caribbean where the Taíno nearly disappeared within a few decades, and landowners needed workers for sugar, mining and farming. Portuguese and Spanish traders, who already had slave trade links along the African coast, supplied enslaved Africans, and the profits kept the system growing.\n\n(A) is wrong because moral concern was voiced by a few people, like las Casas, but was not what drove the change.\n(C) is wrong because the Church did not ban Native labor outright, and the Crown's New Laws of 1542 restricted but did not end it.\n(D) is wrong because there is no evidence that Native Americans asked for another people to be enslaved; the decision was made by colonists and officials for their own interests."
     },
     {
       "id": "1-48",
@@ -691,7 +691,7 @@ const QUESTIONS = {
         "Sugar, a labor-intensive crop central to plantation profits."
       ],
       "correct": 3,
-      "explanation": "Sugar production was particularly labor-intensive and significant in driving colonial demand for alternative labor sources as the Native labor supply collapsed. Tobacco alone (C) understates sugar's central role, and wheat (A) and potatoes (B) were not the labor-intensive cash crops driving this demand."
+      "explanation": "Correct: (D) Sugar, a labor-intensive crop central to plantation profits. Growing, cutting and boiling sugarcane was exhausting and dangerous work that required large gangs, and since sugar sold for high prices in Europe, planters on Caribbean islands and in Brazil sought a large and cheap labor force. As Native workers died, planters turned to enslaved Africans, and sugar became the main engine of the Atlantic slave trade.\n\n(A) is wrong because wheat was grown for local consumption and was not the labor-intensive export crop that drove the demand.\n(B) is wrong because potatoes were an American staple but were not a plantation cash crop that produced the demand for enslaved labor.\n(C) is wrong because tobacco was important later, notably in Virginia, but the word 'exclusively' and the claim that sugar played no role are false, since sugar was central."
     },
     {
       "id": "1-49",
@@ -704,7 +704,7 @@ const QUESTIONS = {
         "African slavery grows first, then labor shortage, then Native decline, then disease."
       ],
       "correct": 2,
-      "explanation": "The correct causal sequence is: Old World disease causes Native population decline, which (combined with brutal encomienda conditions) creates a severe labor shortage, which drives colonies toward African slave labor as an alternative. Option A reverses this order entirely, B denies a real causal relationship that clearly exists, and D misorders labor shortage and disease as cause and effect."
+      "explanation": "Correct: (C) Disease causes Native decline, which causes labor shortage, which drives the growth of African slavery. Old World diseases killed large numbers of Native people, the fall in population left colonial enterprises without workers, and colonists imported enslaved Africans to fill the gap. Overwork under encomienda added to the decline at the second step.\n\n(A) is wrong because it reverses the order, since a labor shortage cannot cause an epidemic.\n(B) is wrong because the events are linked, and the sequence is a standard cause-and-effect chain in this period.\n(D) is wrong because slavery grew as a result of the shortage and not before it, and disease began with contact rather than after slavery."
     },
     {
       "id": "1-50",
@@ -717,7 +717,7 @@ const QUESTIONS = {
         "A reported total absence of any prior disease exposure among West and Central Africans."
       ],
       "correct": 1,
-      "explanation": "West and Central African populations had greater relative immunity to the specific mix of diseases circulating in the Atlantic world compared to Native American populations, which colonizers used to justify importing enslaved Africans. They in fact had substantial farming and labor skills, contradicting B; they had significant prior disease exposure, contradicting C (the opposite of the real claim); and their enslavement was coerced, not voluntary, contradicting D."
+      "explanation": "Correct: (B) Greater relative immunity to the mix of diseases circulating in the Atlantic world. West and Central Africans had long exposure to many Old World diseases, including smallpox and, in some regions, resistance to malaria and yellow fever, so they died less often than Native Americans in many early colonies. Colonizers pointed to this, along with the existing Atlantic slave trade and farming skills of Africans, as a reason to rely on them, though the justification does not make the practice less cruel.\n\n(A) is wrong because West and Central Africans were skilled farmers, metalworkers and craftspeople, and colonizers valued those skills.\n(C) is wrong because Africans were seized and sold, not volunteers.\n(D) is wrong because they had prior exposure to many of these diseases, which is the reason for their relative immunity."
     },
     {
       "id": "1-51",
@@ -730,7 +730,7 @@ const QUESTIONS = {
         "Yes, moral concern for Native peoples was the dominant driver across Spanish colonial society."
       ],
       "correct": 0,
-      "explanation": "It is not accurate to characterize this shift as a broad moral reform effort — while individuals like Las Casas raised moral objections, the broader colonial shift was driven primarily by economic necessity. Las Casas's view was not the near-universal Spanish position (contradicting A), a real shift toward African slavery clearly did occur (contradicting B), and moral concern was not the dominant societal driver (contradicting D)."
+      "explanation": "Correct: (A) No — individual objections existed, but the broader shift was driven by economic necessity. Las Casas and some clergy argued against abuse of Native peoples, and the 1542 New Laws restricted encomienda, but the major change to African slavery came because colonists needed labor for sugar and mines when Native workers died. The shift therefore reflected economic interest, not a moral reform.\n\n(B) is wrong because a shift toward African slavery did occur, in the Caribbean in the 1500s and in Brazil.\n(C) is wrong because las Casas's views were opposed by many colonists and were not near-universal; colonists lobbied against the New Laws.\n(D) is wrong because moral concern was not the dominant driver, and the move relied on a different kind of exploitation."
     },
     {
       "id": "1-52",
@@ -743,7 +743,7 @@ const QUESTIONS = {
         "It is one of the most important multi-step causal chains, linking Period 1 to slavery's later growth."
       ],
       "correct": 3,
-      "explanation": "This causal chain — disease, depopulation, labor shortage, forced African migration — is one of the most important multi-step causal relationships in the entire course, connecting Period 1 directly to slavery's expansion in later periods. It is not confined to Spanish administration alone (A), it reflects a genuine causal relationship rather than coincidence (contradicting A), and it matters well beyond Period 1 (contradicting C)."
+      "explanation": "Correct: (D) It is one of the most important multi-step causal chains, linking Period 1 to slavery's later growth. Disease and labor shortages in the 1500s led to the Atlantic slave trade, and African slavery then shaped the plantation economies of the British colonies and the United States, the conflict over slavery before the Civil War, and later racial inequality. Seeing this chain lets students explain why slavery is central across the course.\n\n(A) is wrong because the chain is a well-supported explanation, not a coincidence.\n(B) is wrong because it affected the English and French colonies and the United States, not only Spanish administration.\n(C) is wrong because the chain explains developments for several centuries after Period 1."
     },
     {
       "id": "1-53",
@@ -756,7 +756,7 @@ const QUESTIONS = {
         "The WXT theme applies only to industrial-era labor systems, not colonial ones."
       ],
       "correct": 0,
-      "explanation": "Encomienda represents an early colonial labor and economic system directly relevant to the Work, Exchange, and Technology (WXT) theme, which examines how labor systems, markets, and government policy shape economic development. It clearly relates to this theme (contradicting A), it was fundamentally an economic labor system rather than purely religious (contradicting C), and WXT applies across every period, including this earliest one (contradicting D)."
+      "explanation": "Correct: (A) Encomienda is an early colonial labor system directly relevant to the WXT theme. The APUSH theme Work, Exchange and Technology covers how people have organized labor, trade and production, and encomienda was a way the Spanish Crown and colonists organized forced labor and tribute for mining and agriculture. It is also the starting point of the later shift toward African slavery.\n\n(B) is wrong because it directly concerns labor and the economy.\n(C) is wrong because religion was part of the justification, but its central function was extraction of labor and tribute.\n(D) is wrong because the theme runs across all periods, including colonial labor systems such as encomienda, indentured servitude and slavery."
     },
     {
       "id": "1-54",
@@ -769,7 +769,7 @@ const QUESTIONS = {
         "As a communal resource for which individual ownership was never possible."
       ],
       "correct": 1,
-      "explanation": "Most European colonizers operated within a framework treating land as individually owned property, transferable through sale or grant, with an owner holding exclusive rights. This differed significantly from many Native land-use concepts, not resembled them (contradicting C); European land could in fact be legally transferred (contradicting D), and B misdescribes the European framework itself."
+      "explanation": "Correct: (B) As individually owned property, transferable by sale or grant, with exclusive owner rights. English, Spanish and other European legal traditions treated land as property that a person or crown could hold, buy, sell, fence off and pass to heirs, and colonial charters, deeds and land grants followed this model.\n\n(A) is wrong because European law allowed land to be sold, granted and inherited, so it could be legally transferred.\n(C) is wrong because Native societies generally understood land as something whose use rights were shared, which is why misunderstandings arose.\n(D) is wrong because treating land only as a communal resource closer matches many Native systems than the European one; Europeans did recognize individual ownership."
     },
     {
       "id": "1-55",
@@ -782,7 +782,7 @@ const QUESTIONS = {
         "A term with no real connection to any concept of land use."
       ],
       "correct": 2,
-      "explanation": "'Usufruct' land use refers to the right to use land and its resources — often communally and tied to seasonal or agricultural patterns — rather than claiming exclusive ownership in the European legal sense. It is the opposite of exclusive individual ownership (contradicting A), it differed sharply from European land law rather than mirroring it (contradicting B), and it is directly a land-use concept, not unrelated to one (contradicting C)."
+      "explanation": "Correct: (C) The right to use land and its resources, rather than exclusively own it. In many Native societies, a family or village might have the right to farm a field, hunt or fish in a territory, or gather plants seasonally, but did not hold the land as private property that could be permanently sold. 'Usufruct' is the legal term for such use rights.\n\n(A) is wrong because European law centered on ownership and transfer, so usufruct is not identical to it.\n(B) is wrong because exclusive permanent individual ownership is the opposite of usufruct.\n(D) is wrong because it is a precise concept about land use, which historians use to explain misunderstandings in land deals."
     },
     {
       "id": "1-56",
@@ -795,7 +795,7 @@ const QUESTIONS = {
         "Both groups always understood land transactions in an identical way."
       ],
       "correct": 2,
-      "explanation": "A Native group might grant temporary or shared land-use rights under a communal framework, while Europeans, operating under an individual-ownership framework, could sincerely believe they had acquired full permanent ownership — producing genuine, sincerely held misunderstanding on both sides. Deliberate deception (B) does not describe every such case, identical understanding (D) is precisely what did not happen, and this scenario is well documented, not baseless (contradicting A)."
+      "explanation": "Correct: (C) A Native group grants shared, temporary use rights, while Europeans sincerely assume full permanent ownership. When Native leaders agreed to a 'sale' in exchange for gifts, they might have meant allowing the newcomers to use the land alongside them, while the European buyers believed they now held a deed and could exclude others. Each side could be acting honestly under its own assumptions.\n\n(A) is wrong because this kind of misunderstanding is well documented in New England and elsewhere.\n(B) is wrong because some transactions involved fraud and coercion, but not all, and the stem asks about sincere misunderstanding.\n(D) is wrong because the two groups often held very different ideas of what a land agreement meant."
     },
     {
       "id": "1-57",
@@ -808,7 +808,7 @@ const QUESTIONS = {
         "No, because Europeans had no rivalries for Native groups to exploit."
       ],
       "correct": 2,
-      "explanation": "It is not accurate to characterize Native responses as uniformly passive — Native peoples actively resisted, negotiated, adapted, and in many documented cases leveraged rivalries between European powers to their own advantage. Substantial evidence of this agency does survive (contradicting B), and European powers did have real, exploitable rivalries (contradicting D, which gives the right conclusion for the wrong reason)."
+      "explanation": "Correct: (C) No — Native peoples actively resisted, negotiated, adapted, and leveraged European rivalries. Examples include the Tlaxcalans allying with Cortés, the Pueblo Revolt of 1680 that drove the Spanish from New Mexico, and Native nations that traded with and allied with French, Dutch and English traders to pursue their own interests. Native peoples were decision makers within a context of heavy pressure.\n\n(A) is wrong because abundant evidence survives of resistance and negotiation, including treaties, wars and revolts.\n(B) is wrong because describing Native peoples only as passive victims erases their active role.\n(D) is wrong because Europeans did have rivalries, among Spain, France, England and the Netherlands, and Native groups used them."
     },
     {
       "id": "1-58",
@@ -821,7 +821,7 @@ const QUESTIONS = {
         "Because Native Americans had essentially no meaningful interaction with European colonizers."
       ],
       "correct": 0,
-      "explanation": "This framing reflects genuine historical accuracy — Native peoples actively shaped outcomes through resistance, negotiation, adaptation, and strategic engagement — not merely a stylistic preference. The framing carries real analytical value (contradicting B), Native-European interaction was extensive and consequential (contradicting C), and the framing reflects factual accuracy, not just essay convention (contradicting D)."
+      "explanation": "Correct: (A) Because Native peoples genuinely shaped outcomes through resistance, negotiation, and adaptation. Historians stress agency because the evidence shows Native nations deciding whom to ally with, when to fight, and what to trade, and these decisions influenced where colonies succeeded or failed, as in Pueblo resistance and Powhatan diplomacy. This is a matter of historical accuracy, not just of interpretation.\n\n(B) is wrong because the framing reflects what happened and is not merely an essay-scoring device.\n(C) is wrong because it carries significant analytical value, helping explain the course of contact.\n(D) is wrong because Native peoples interacted extensively with Europeans through trade, diplomacy, war and intermarriage."
     },
     {
       "id": "1-59",
@@ -834,7 +834,7 @@ const QUESTIONS = {
         "America in the World (WOR) exclusively, with no other theme relevant."
       ],
       "correct": 2,
-      "explanation": "This section's content on land use and ownership connects most directly to Geography and the Environment (GEO) and Migration and Settlement (MIG), examining how peoples moving into new territory interacted with existing land-use patterns. WXT (B), SOC (A), and WOR (D) are each less directly connected to this specific land-ownership content than GEO and MIG together."
+      "explanation": "Correct: (C) Geography and the Environment (GEO), together with Migration and Settlement (MIG). Land ownership concerns how people relate to the physical environment and territory (GEO), and the arrival and settlement of Europeans on lands used by Native peoples is migration and settlement (MIG), so both themes apply.\n\n(A) is wrong because Social Structures does not by itself capture the land and settlement issues, and 'exclusively' wrongly excludes the other themes.\n(B) is wrong because WXT concerns work and trade, which is relevant only partly, and 'exclusively' again rules out the others.\n(D) is wrong because America in the World concerns relations with other countries and does not most directly address land concepts, and 'exclusively' is again an error."
     },
     {
       "id": "1-60",
@@ -847,7 +847,7 @@ const QUESTIONS = {
         "A Native group allying with one European power for advantage against a rival power or rival Native group."
       ],
       "correct": 3,
-      "explanation": "A Native group forming strategic alliances with one European power to gain advantage against a rival power or Native group directly illustrates active agency. Such alliances are well documented, not unknown (contradicting B), total refusal of contact (C) illustrates avoidance rather than strategic leverage, and adopting European law identically (A) describes assimilation rather than leverage."
+      "explanation": "Correct: (D) A Native group allying with one European power for advantage against a rival power or rival Native group. Examples include Tlaxcala's alliance with Cortés against the Aztecs, and later alliances such as the Huron with the French and the Haudenosaunee with the Dutch and then the English in the fur trade. Such alliances show Native groups acting for their own strategic ends.\n\n(A) is wrong because adopting European property law would be assimilation to European practice and not leverage of rivalries.\n(B) is wrong because these alliances are well documented.\n(C) is wrong because refusing all contact is avoidance, not leveraging of rivalries between powers."
     },
     {
       "id": "1-61",
@@ -860,7 +860,7 @@ const QUESTIONS = {
         "Europeans are recorded as ultimately adopting the Native usufruct framework instead."
       ],
       "correct": 1,
-      "explanation": "Regardless of the sincerity of either side's original understanding, permanent displacement of Native communities frequently resulted, since European legal and political power ultimately enforced the European framework of exclusive ownership. The consequences were real, not absent (contradicting A); Native communities generally lost rather than retained legal ownership under European law (contradicting B); and Europeans enforced their own framework rather than adopting the Native one (contradicting C)."
+      "explanation": "Correct: (B) Permanent displacement of Native communities from land they understood as shared or temporarily granted. Once a deed was recorded, European courts and colonial governments backed the buyer's claim of exclusive ownership, and Native communities lost access to farming, hunting and burial grounds, whatever either side had intended. Growing settlement and later wars added to the pressure.\n\n(A) is wrong because the consequences were large and long lasting.\n(C) is wrong because European courts and officials generally upheld European titles, so Native communities rarely retained full legal ownership.\n(D) is wrong because Europeans enforced their own concept of property rather than adopting usufruct."
     },
     {
       "id": "1-62",
@@ -873,7 +873,7 @@ const QUESTIONS = {
         "European and Native American understandings of land were essentially always identical, so no conflict could arise from them."
       ],
       "correct": 2,
-      "explanation": "This section's overall lesson is that cultural contact involved genuine conceptual mismatches (particularly around land ownership), active Native agency, and significant consequences that often followed regardless of either side's original sincerity. It was not simple or one-directional (contradicting A), the two land concepts were sharply different, not identical (contradicting B), and its consequences were substantial, not absent (contradicting C)."
+      "explanation": "Correct: (C) Genuine conceptual mismatches, active Native agency, and consequences regardless of either side's intent. The section shows that Europeans and Native peoples held different ideas of land, that Native peoples acted as decision makers, and that the outcomes, such as loss of land, followed from the power of the colonial system even when there was no deliberate deception.\n\n(A) is wrong because contact had major, lasting consequences.\n(B) is wrong because contact was complex, with both cooperation and conflict, and influence in more than one direction.\n(D) is wrong because European and Native ideas of land ownership were not identical, which is exactly why conflicts arose."
     },
     {
       "id": "1-63",
@@ -886,7 +886,7 @@ const QUESTIONS = {
         "This claim cannot be evaluated using any available historical evidence."
       ],
       "correct": 0,
-      "explanation": "This claim is incomplete — while deliberate deception certainly occurred in documented cases, this section emphasizes that genuine conceptual mismatches in land-ownership understanding could also produce sincere misunderstanding on both sides. Land conflicts clearly did occur (contradicting A), the claim as stated is too absolute to be fully accurate (contradicting B), and the section provides ample evidence for evaluating it (contradicting C)."
+      "explanation": "Correct: (A) This claim is incomplete — sincere conceptual mismatch, not solely deliberate deception, also produced conflict. Fraud and pressure did occur in some land deals, but others involved different understandings of what a land agreement meant, as when a Native group gave shared use rights and the buyers thought they had gained full ownership. A historian would qualify the word 'all'.\n\n(B) is wrong because land conflicts between settlers and Native peoples certainly occurred, as in King Philip's War (1675-1676), which arose partly from land pressure.\n(C) is wrong because the claim is too absolute and ignores the role of mismatched concepts.\n(D) is wrong because evidence about land deals and their meanings does exist, so it can be evaluated."
     },
     {
       "id": "1-64",
@@ -899,7 +899,7 @@ const QUESTIONS = {
         "Specific instances of Native groups negotiating, resisting, adapting, and leveraging rivalries."
       ],
       "correct": 3,
-      "explanation": "Citing specific instances of Native groups negotiating, resisting, adapting, and strategically leveraging European rivalries provides direct, concrete evidence of meaningful historical agency. Disease statistics alone (A) speak to demographic impact, not agency; European exploration accounts (B) and exploration technology (C) do not address Native agency at all."
+      "explanation": "Correct: (D) Specific instances of Native groups negotiating, resisting, adapting, and leveraging rivalries. An argument for agency needs evidence that Native peoples made choices that influenced events, such as the Tlaxcalan alliance with Cortés, the Pueblo Revolt of 1680, or Native diplomacy in the fur trade.\n\n(A) is wrong because population decline statistics show the effects of disease, not what Native people chose to do.\n(B) is wrong because European accounts of motives show what Europeans wanted and do not show Native action.\n(C) is wrong because technology that enabled European voyages explains how Europeans arrived and not how Native peoples responded."
     },
     {
       "id": "1-65",
@@ -913,7 +913,7 @@ const QUESTIONS = {
         "Disease-driven Native population collapse drove the labor shift to African slavery, while land-ownership conflict shaped colonial expansion."
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing that Sections 1.3, 1.5, and 1.6 are interconnected pieces of a single transformation: Columbian Exchange disease caused Native population collapse, which drove the labor shortage behind the shift toward African slavery, while the parallel conceptual clash over land ownership shaped how colonial expansion proceeded. Treating the Columbian Exchange as the only significant topic (C) is a false hierarchy, reversing cause and effect (A) inverts the real chronology, and treating the three as unrelated (B) misses exactly the interconnection this question tests."
+      "explanation": "Correct: (D) Disease-driven Native population collapse drove the labor shift to African slavery, while land-ownership conflict shaped colonial expansion. Disease from the Columbian Exchange reduced the Native population, creating a labor shortage that led planters to import enslaved Africans, and Europeans' view of land as private property clashed with Native views of shared use, which led to dispossession as colonies spread. Both parts come from the same contact between Europe and the Americas, so they form one system.\n\n(A) is wrong because it reverses the order, as the Exchange began with contact in 1492 and was not caused by land ownership concepts.\n(B) is wrong because the three topics are linked by cause and effect.\n(C) is wrong because labor systems and land conflict were major consequences of the Exchange and not minor footnotes."
     },
     {
       "id": "1-66",
@@ -926,7 +926,7 @@ const QUESTIONS = {
         "Vasco da Gama"
       ],
       "correct": 1,
-      "explanation": "Prince Henry the Navigator sponsored Portugal's early, sustained exploration of the African coast, building the navigational expertise and technology that Spain's westward voyages later drew on. King Ferdinand (C) sponsored Columbus's Spanish voyages rather than Portugal's African program; Vasco da Gama (D) was the explorer who reached India in 1498 under this earlier Portuguese initiative, not its sponsor; and the papacy (A) later arbitrated Spanish-Portuguese territorial claims but did not sponsor these voyages."
+      "explanation": "Correct: (B) Prince Henry the Navigator. Henry, a Portuguese prince, sponsored voyages down the African coast beginning in the 1410s and 1420s and supported the development of ships such as the caravel and of navigation methods. These advances, along with the experience of Portuguese pilots, helped later transatlantic voyages, including those sponsored by Spain.\n\n(A) is wrong because Pope Alexander VI issued the 1493 bulls dividing newly found lands between Spain and Portugal, and did not sponsor the African voyages.\n(C) is wrong because Ferdinand of Aragon, with Isabella, sponsored Columbus for Spain, not Portugal's African voyages.\n(D) is wrong because Vasco da Gama was a captain who reached India in 1498 and was a beneficiary of the program, not a sponsor, and Henry had died in 1460."
     },
     {
       "id": "1-67",
@@ -939,7 +939,7 @@ const QUESTIONS = {
         "It had no measurable effect on Catholic exploration or colonization in the Americas."
       ],
       "correct": 0,
-      "explanation": "The Reformation era's religious competition intensified the Catholic Church's competitive posture, sharpening the missionary urgency behind the 'God' motive for Spanish and Portuguese exploration and colonization. It did not eliminate (C) or leave unaffected (D) that motive, and Catholic powers expanded rather than abandoned (B) missionary efforts during this era."
+      "explanation": "Correct: (A) It intensified the Catholic Church's competitive posture, sharpening the drive to spread Christianity. After Martin Luther's challenge in 1517 and the spread of Protestantism, the Catholic Church and the Spanish and Portuguese crowns promoted missionary work, including new orders such as the Jesuits (founded 1540), partly to win converts overseas as Catholics lost members in Europe. This strengthened the 'God' motive.\n\n(B) is wrong because Catholic missions overseas expanded in the 1500s and 1600s.\n(C) is wrong because religious aims continued alongside commercial ones.\n(D) is wrong because the religious rivalry of the Reformation era clearly affected the intensity of Catholic missionary effort."
     }
   ],
   "2": [
@@ -954,7 +954,7 @@ const QUESTIONS = {
         "Military conquest of Spanish territory"
       ],
       "correct": 1,
-      "explanation": "Massachusetts Bay was founded primarily for religious reform and community-building by Puritan settlers seeking to establish a model religious society."
+      "explanation": "Correct: (B) Religious reform and community-building. The Puritans who founded the Massachusetts Bay Colony in 1630 under John Winthrop wanted to purify the Church of England and build a godly society, a 'city upon a hill' that would be a model for others. Whole families sailed together, and they set up covenanted towns and churches.\n\n(A) is wrong because fur trading with Native nations was an activity in New England and elsewhere, but it was not the reason this colony was founded.\n(C) is wrong because cash crop agriculture and profit characterized Virginia and the Chesapeake, where tobacco was the draw; New England's soil and climate did not favor such crops.\n(D) is wrong because the English colony was not founded to conquer Spanish territory, and its settlers aimed to build communities in New England."
     },
     {
       "id": "2-2",
@@ -967,7 +967,7 @@ const QUESTIONS = {
         "Fur trade with the Powhatan Confederacy"
       ],
       "correct": 2,
-      "explanation": "Virginia was founded primarily as a profit-driven venture sponsored by the Virginia Company, a joint-stock company seeking financial returns through cash crop (tobacco) agriculture."
+      "explanation": "Correct: (C) Profit-driven cash crop agriculture. Virginia began in 1607 as a venture of the Virginia Company of London, a joint-stock company whose investors expected a return. After early failures to find gold, John Rolfe's tobacco, first successfully exported around 1614, made the colony profitable, and the headright system of 1618 gave land to those who paid for passage of workers.\n\n(A) is wrong because Puritan reformers settled New England in the 1620s and 1630s, not Virginia, whose settlers belonged to the Church of England.\n(B) is wrong because English settlers were not fleeing Spanish persecution, and England had been Protestant and at odds with Spain.\n(D) is wrong because Virginia's founders were interested in the Powhatan Confederacy first as neighbors and trading partners for food and later as rivals for land, but a fur trade was not the main purpose."
     },
     {
       "id": "2-3",
@@ -980,7 +980,7 @@ const QUESTIONS = {
         "The Chesapeake actually had a notably healthier climate than New England, which encouraged balanced family settlement."
       ],
       "correct": 2,
-      "explanation": "Puritan settlers largely emigrated as whole families seeking to build a religious community, producing a balanced gender ratio, while the Chesapeake's profit-driven tobacco economy recruited largely young single men, producing a heavily male-skewed population."
+      "explanation": "Correct: (C) Puritan families emigrated together seeking religious community, while the Chesapeake mainly recruited young single men as laborers. New England's founding purpose of building a godly society brought husbands, wives and children, so the population grew by natural increase, and the healthier northern climate meant long lives. The Chesapeake's tobacco economy attracted mostly young male indentured servants, with perhaps six men for each woman at first, and disease reduced life spans.\n\n(A) is wrong because no law barred single women from settling in the South; the imbalance came from who chose or was recruited to go.\n(B) is wrong because the stem's contrast shows that founding motive strongly shaped demographic patterns.\n(D) is wrong because the Chesapeake's swampy, disease-ridden environment (malaria, typhoid, dysentery) was more deadly than New England's."
     },
     {
       "id": "2-4",
@@ -993,7 +993,7 @@ const QUESTIONS = {
         "The Chesapeake"
       ],
       "correct": 2,
-      "explanation": "The Middle Colonies were the most ethnically and religiously diverse region, including Quaker Pennsylvania's policy of religious toleration and Dutch heritage in New York."
+      "explanation": "Correct: (C) The Middle Colonies. New York had Dutch, English, Swedish and African residents and became more diverse after English takeover in 1664, while Pennsylvania, with Penn's policy of toleration, drew Quakers, Germans, Scots-Irish, Dutch and others, and Jews and Catholics also lived there. Religions included Quaker, Lutheran, Reformed, Presbyterian, Catholic and Jewish congregations.\n\n(A) is wrong because the regions differed sharply in population mix.\n(B) is wrong because New England was largely English and Puritan, and it was the least diverse region.\n(D) is wrong because the Chesapeake was mostly English Anglican, with a growing population of enslaved Africans, but was less varied in European origins and religions than the Middle Colonies."
     },
     {
       "id": "2-5",
@@ -1006,7 +1006,7 @@ const QUESTIONS = {
         "A colony founded on Quaker principles of religious toleration."
       ],
       "correct": 3,
-      "explanation": "William Penn's 'holy experiment' was Pennsylvania's founding on Quaker principles of religious toleration, contributing to the Middle Colonies' broader ethnic and religious diversity."
+      "explanation": "Correct: (D) A colony founded on Quaker principles of religious toleration. William Penn, a Quaker, received the charter in 1681 and founded Pennsylvania as a place where people could worship freely and live peacefully. Penn called it a 'holy experiment', created a government with a representative assembly and made treaties and purchased land from the Lenape. This helped draw many groups to the colony.\n\n(A) is wrong because Penn's colony was based on peace, and Quakers were pacifists, not a force against New France.\n(B) is wrong because Quakers were a different group from the Puritans, and the Puritan colony Massachusetts Bay had a church-member voting rule.\n(C) is wrong because Pennsylvania was an agricultural and commercial settlement for settlers, not a trading post for fur only."
     },
     {
       "id": "2-6",
@@ -1019,7 +1019,7 @@ const QUESTIONS = {
         "There were no meaningful economic differences between the tobacco-growing South and fishing-and-trade New England in the colonial period."
       ],
       "correct": 2,
-      "explanation": "New England, the Middle Colonies, and the Chesapeake/South differed dramatically across founding motive, economy, demographics, and religious composition — treating 'the colonies' as uniform flattens genuine, historically significant regional diversity."
+      "explanation": "Correct: (C) New England, the Middle Colonies, and the Chesapeake/South differed sharply in founding motive, economy, demographics, and religion. New England had religious towns, small farms, fishing and shipping; the Middle Colonies had grain farms, trade and diverse peoples; the Chesapeake and South had plantations growing tobacco and, farther south, rice and indigo, with a growing enslaved population. Treating them as one hides these real differences.\n\n(A) is wrong because the colonies differed greatly.\n(B) is wrong because regional differences were present from the 1600s, and arose from their founding and environment, not after 1783.\n(D) is wrong because the tobacco-growing South and fishing-and-trade New England had very different economies."
     },
     {
       "id": "2-7",
@@ -1032,7 +1032,7 @@ const QUESTIONS = {
         "Fur trading exclusively"
       ],
       "correct": 2,
-      "explanation": "Tobacco cultivation was the primary economic activity of the Chesapeake colonies, driving the region's plantation-based economy and demand for agricultural labor."
+      "explanation": "Correct: (C) Tobacco cultivation. Virginia and Maryland planted tobacco, which grew well in the region's soil and sold at high prices in England, so it became the cash crop that paid for imports. Because tobacco exhausted soil and needed many workers, planters kept seeking land and labor, first from indentured servants and later enslaved Africans.\n\n(A) is wrong because fishing and shipbuilding were New England activities.\n(B) is wrong because the colonies imported finished goods from England under mercantilist policies and did little large-scale manufacturing.\n(D) is wrong because fur trading was a minor activity in the Chesapeake compared with tobacco, and the word 'exclusively' makes it plainly false."
     },
     {
       "id": "2-8",
@@ -1045,7 +1045,7 @@ const QUESTIONS = {
         "New England"
       ],
       "correct": 2,
-      "explanation": "The Middle Colonies became known for grain production, earning the informal 'breadbasket' colonies designation within the broader colonial economy."
+      "explanation": "Correct: (C) The Middle Colonies. Pennsylvania, New York, New Jersey and Delaware had fertile soil and a moderate climate, and farmers grew wheat and other grains and exported flour and bread through ports such as Philadelphia and New York. Their food exports reached other colonies and the West Indies, which earned the nickname 'breadbasket'.\n\n(A) is wrong because the Caribbean colonies grew sugar and imported food from the mainland.\n(B) is wrong because the Chesapeake specialized in tobacco.\n(D) is wrong because New England's rocky soil and short growing season favored small subsistence farms, fishing and shipping rather than large grain exports."
     },
     {
       "id": "2-9",
@@ -1058,7 +1058,7 @@ const QUESTIONS = {
         "The Chesapeake had a much smaller total population than New England throughout this entire period."
       ],
       "correct": 1,
-      "explanation": "The Chesapeake's labor-intensive cash crop agriculture created strong, ongoing demand for a large, controllable labor force, first met through indentured servitude and later increasingly through African slavery — a demand New England's smaller-scale, more diversified economy did not generate to the same degree."
+      "explanation": "Correct: (B) The Chesapeake's cash crop economy demanded a large, controllable labor force that New England's mixed economy did not. Tobacco was grown on large tracts and required many workers year after year, so planters used indentured servants and then, as indenture became costly and unstable, enslaved Africans. New England's small family farms, fishing, shipbuilding and trade relied mainly on family labor and hired workers, and had less need for large gangs.\n\n(A) is wrong because coerced labor was less widespread in New England than in the Chesapeake.\n(C) is wrong because New England did have some indentured servants and enslaved people, though in smaller numbers.\n(D) is wrong because population size did not account for the difference, and the Chesapeake's number of laborers was large because of its plantation economy."
     },
     {
       "id": "2-10",
@@ -1071,7 +1071,7 @@ const QUESTIONS = {
         "They were controlled entirely by the English crown with no local input."
       ],
       "correct": 2,
-      "explanation": "Town meetings provided New England colonies with a strong institution of local self-governance, directly connecting to Section 2.3's broader theme of early colonial self-rule."
+      "explanation": "Correct: (C) They provided a strong institution of local self-governance. In New England towns, adult male property holders met to elect selectmen, set taxes, regulate land use, and make local rules, which gave ordinary settlers a say in local decisions. This tradition of local self-government grew with the Puritan idea of covenant community and later fed Revolutionary-era resistance.\n\n(A) is wrong because the meetings had clear political functions.\n(B) is wrong because town meetings dealt with civic and economic matters and were separate from worship, though the Puritan church and town were closely linked.\n(D) is wrong because the meetings were run by local townspeople and not by the Crown, which was distant from daily affairs."
     },
     {
       "id": "2-11",
@@ -1084,7 +1084,7 @@ const QUESTIONS = {
         "What was the population of each colony's capital city?"
       ],
       "correct": 1,
-      "explanation": "Founding motive (religious, economic, or mixed) is the single most useful starting question, since it predicts an enormous amount about a colony's subsequent settlement pattern, demographics, economy, and labor system, as this section demonstrates."
+      "explanation": "Correct: (B) What was each colony's founding motive? Whether a colony began as a religious refuge (Massachusetts Bay), a profit venture (Virginia) or a proprietor's vision of toleration (Pennsylvania) shaped who migrated, whether they came as families or single men, what they produced, how they were governed and what labor they used. This one question therefore explains many regional differences.\n\n(A) is wrong because founding year helps only with chronology and does not account for differences in economy and society.\n(C) is wrong because the number of rivers is a minor geographic detail and does not explain economic differences between regions.\n(D) is wrong because the capital city's population describes one town and does not explain regional economies."
     },
     {
       "id": "2-12",
@@ -1097,7 +1097,7 @@ const QUESTIONS = {
         "A voluntary wage-labor arrangement that carried no binding contractual obligation on either side."
       ],
       "correct": 2,
-      "explanation": "Indentured servitude was a fixed-term labor contract, typically four to seven years, in which migrants exchanged a period of labor for passage to the colonies — the dominant Chesapeake labor source before the shift toward African slavery."
+      "explanation": "Correct: (C) A fixed-term labor contract, typically four to seven years, exchanged for passage to the colonies. Many poor English migrants could not pay the cost of crossing the Atlantic, so they signed contracts to work for a master for a set term and were then free, sometimes receiving 'freedom dues' such as tools, clothing or land. Indentured servants made up a large share of Chesapeake migrants in the 1600s.\n\n(A) is wrong because indentured servants worked chiefly in the Chesapeake and the Middle Colonies, and not only in New England towns.\n(B) is wrong because indenture ended after the term and was not passed to children; that describes slavery.\n(D) is wrong because indenture was a binding contract, and servants who ran away could have their terms lengthened."
     },
     {
       "id": "2-13",
@@ -1110,7 +1110,7 @@ const QUESTIONS = {
         "An organized slave uprising that began on rice plantations in South Carolina and spread to Georgia."
       ],
       "correct": 2,
-      "explanation": "Bacon's Rebellion was a 1676 Virginia uprising led by Nathaniel Bacon, involving poor colonists (including former indentured servants and some enslaved people) against Virginia's colonial government over land policy and its handling of Native American relations on the frontier."
+      "explanation": "Correct: (C) A 1676 Virginia uprising by poor colonists against the government's land and Native policy. Led by Nathaniel Bacon, a wealthy planter, frontier settlers and many former indentured servants resented Governor William Berkeley, who limited attacks on Native peoples and favored his circle in the fur trade, and they wanted land. Bacon's forces attacked Native communities and burned Jamestown in September 1676, and the rebellion collapsed after Bacon died of illness in October.\n\n(A) is wrong because the Navigation Acts were a separate matter, and the rebellion was mostly about frontier policy and land.\n(B) is wrong because the Great Awakening occurred in the 1730s and 1740s.\n(D) is wrong because it was not a slave uprising, and South Carolina's rice plantations developed later."
     },
     {
       "id": "2-14",
@@ -1123,7 +1123,7 @@ const QUESTIONS = {
         "It had little lasting significance and produced no change in Virginia's labor policy."
       ],
       "correct": 2,
-      "explanation": "Bacon's Rebellion alarmed Virginia's elite by demonstrating that poor colonists — including former indentured servants and some enslaved people — could unite in rebellion across racial lines, prompting elites to reconsider their labor system."
+      "explanation": "Correct: (C) It showed that poor colonists, including former servants, could unite across racial lines. Bacon's followers included white freedmen and indentured servants, and some Black people, enslaved and free, who joined the rebels and fought with them. Planters saw a growing class of landless, discontented people as a danger to their own power.\n\n(A) is wrong because the rebels were mainly poor and frontier colonists, and Bacon himself led a faction against the governor.\n(B) is wrong because the legislature did not abolish slavery; instead, it passed laws that restricted enslaved people more.\n(D) is wrong because the rebellion had lasting significance, as elites favored a workforce they considered easier to control, and Virginia's laws later hardened racial slavery."
     },
     {
       "id": "2-15",
@@ -1136,7 +1136,7 @@ const QUESTIONS = {
         "By shifting Virginia's economy away from tobacco toward grain production."
       ],
       "correct": 2,
-      "explanation": "Virginia's elite increasingly shifted toward permanent, hereditary African slave labor in the decades following Bacon's Rebellion, calculating that this labor source was less likely to unite with poor free whites in future cross-racial uprisings."
+      "explanation": "Correct: (C) By increasingly shifting toward permanent, hereditary African slavery as a safer labor source. After 1676, planters bought more enslaved Africans rather than indentured servants who would become free and land-hungry, and Virginia passed laws that reduced enslaved people's rights and set them apart by race, culminating in the slave codes of 1705. As English indentured migration also declined, the supply of enslaved workers grew through the Atlantic trade.\n\n(A) is wrong because indenture continued for decades and was not abolished.\n(B) is wrong because elites did not extend full political and property rights to all colonists; they made racial lines clearer.\n(D) is wrong because Virginia remained a tobacco economy."
     },
     {
       "id": "2-16",
@@ -1149,7 +1149,7 @@ const QUESTIONS = {
         "A colonial court would individually determine each child's status at a formal hearing."
       ],
       "correct": 0,
-      "explanation": "The 1662 Virginia law established that a child's enslaved or free status followed the status of the mother — meaning children born to enslaved women were enslaved regardless of the father's status, a principle later called partus sequitur ventrem."
+      "explanation": "Correct: (A) A child's enslaved or free status followed the mother's status, regardless of the father's. Virginia's 1662 law, later described by the Latin phrase partus sequitur ventrem, broke with English common law, in which a child's status followed the father. Under the new rule, children of enslaved women were enslaved even if their fathers were free or white, and slaveholders gained the labor of those children.\n\n(B) is wrong because the law dealt with the status of children of enslaved women and not with land inheritance.\n(C) is wrong because it did the reverse, making the children enslaved.\n(D) is wrong because the law set a general rule and did not require a hearing for each child."
     },
     {
       "id": "2-17",
@@ -1162,7 +1162,7 @@ const QUESTIONS = {
         "It briefly suspended slavery in Virginia before the practice resumed a decade later."
       ],
       "correct": 1,
-      "explanation": "By making enslaved status hereditary through the mother, this law transformed slavery from a temporary labor arrangement (like indentured servitude, non-inheritable) into a permanent, self-perpetuating institution — a fundamental structural transformation."
+      "explanation": "Correct: (B) It turned slavery into a permanent, hereditary institution that expanded across generations. If the children of enslaved women were born enslaved, slaveholders no longer needed to buy new workers to keep their labor force, and slavery would continue from one generation to the next, tied to race. Indenture, by contrast, ended after a set term.\n\n(A) is wrong because it was a rule with far-reaching effects, and it governed courts' decisions on status.\n(C) is wrong because it addressed the status of enslaved people's children and not only indentured servants.\n(D) is wrong because it did not suspend slavery; it strengthened it."
     },
     {
       "id": "2-18",
@@ -1175,7 +1175,7 @@ const QUESTIONS = {
         "No labor system was used before this period"
       ],
       "correct": 1,
-      "explanation": "Indentured servitude was the Chesapeake's dominant labor source before Bacon's Rebellion prompted the shift toward permanent African slavery in subsequent decades."
+      "explanation": "Correct: (B) Indentured servitude. Through the 1600s, most laborers in Virginia and Maryland were English servants who had signed contracts, and in the middle decades of the century they greatly outnumbered the small number of enslaved Africans. Only after Bacon's Rebellion in 1676 and the decline of English migration did planters switch heavily to slavery.\n\n(A) is wrong because free wage labor was not the dominant system in the early Chesapeake, where laborers were scarce and servants were bound by contract.\n(C) is wrong because Africans first arrived in 1619 in small numbers, and slavery became the main labor source later.\n(D) is wrong because indenture was a well-established system from the early 1600s."
     },
     {
       "id": "2-19",
@@ -1188,7 +1188,7 @@ const QUESTIONS = {
         "No, because purely economic explanations never apply to any colonial labor system in any period of history."
       ],
       "correct": 1,
-      "explanation": "This shift involved both economic and political dimensions — Bacon's Rebellion illustrates a specific political calculation (preventing future cross-racial uprisings) that colonial elites layered on top of the underlying economic motive for a stable, controllable labor force."
+      "explanation": "Correct: (B) No — Bacon's Rebellion shows elites making a political calculation on top of economic motives. Planters wanted a steady labor force for tobacco, which was an economic reason, but after 1676 they also saw that enslaved Africans were less likely to join a rebellion of poor colonists because the law and racial distinctions set them apart; this was a political aim of keeping order and holding power.\n\n(A) is wrong because the rebellion was closely related to the choice of labor system.\n(C) is wrong because the political calculation did play a role.\n(D) is wrong because it overstates the case: the point is that this shift had political as well as economic causes, not that economic explanations never work for any labor system."
     },
     {
       "id": "2-20",
@@ -1201,7 +1201,7 @@ const QUESTIONS = {
         "Servitude was a fixed-term contract; slavery, after 1662, became permanent and hereditary."
       ],
       "correct": 3,
-      "explanation": "Indentured servitude was a fixed-term contractual labor obligation (typically four to seven years), while racial slavery, following legal developments like the 1662 Virginia law, became a permanent and hereditary condition — a fundamental structural difference."
+      "explanation": "Correct: (D) Servitude was a fixed-term contract; slavery, after 1662, became permanent and hereditary. An indentured servant worked for a set number of years and then went free, while the enslaved person's status lasted for life and passed to children through the mother, according to Virginia law.\n\n(A) is wrong because most indentured servants in the 1600s were English or other Europeans, though some Africans had varying statuses early on.\n(B) is wrong because it reverses the two systems.\n(C) is wrong because indenture ended after a term, so it did not bind laborers permanently."
     },
     {
       "id": "2-21",
@@ -1214,7 +1214,7 @@ const QUESTIONS = {
         "This is accurate; enslaved Africans already made up most Chesapeake laborers as early as 1610."
       ],
       "correct": 2,
-      "explanation": "This argument is inaccurate — this section specifically traces how indentured servitude was the dominant early Chesapeake labor system, and racial slavery developed through a specific historical sequence (Bacon's Rebellion, followed by hardening legal codes like the 1662 law), not as an immediate, inevitable feature present from the start."
+      "explanation": "Correct: (C) This is inaccurate — indentured servitude dominated before the 1670s, and slavery's growth came later. Africans arrived in Virginia in 1619, but their numbers stayed small and their legal status was uncertain for decades. Slavery spread after laws such as the 1662 act and after Bacon's Rebellion and a falling supply of servants. The student's claim of an immediate, inevitable beginning ignores this gradual development and the choices made by planters and legislators.\n\n(A) is wrong because the argument is not accurate for any region as stated, and New England's economy relied much less on slavery.\n(B) is wrong because records, such as laws, court cases and lists of servants, survive and show the pattern.\n(D) is wrong because enslaved Africans were a small minority in 1610; Africans arrived in Virginia in 1619."
     },
     {
       "id": "2-22",
@@ -1227,7 +1227,7 @@ const QUESTIONS = {
         "Racial slavery hardened first in the 1650s, which then provoked Bacon's Rebellion in response."
       ],
       "correct": 0,
-      "explanation": "The correct causal sequence: Bacon's Rebellion exposed the danger of poor colonists uniting in rebellion across racial lines, prompting Virginia's elite to increasingly shift toward and legally entrench permanent, hereditary African slavery as a perceived safer, more stable labor alternative."
+      "explanation": "Correct: (A) Bacon's Rebellion exposed the danger of cross-racial revolt, prompting elites to entrench slavery. The 1676 uprising showed that landless and former servants of different backgrounds could join against the colonial elite. Planters responded by turning to a race-based, lifelong and hereditary labor system and passing laws that separated enslaved Africans from poor whites, who were given some privileges.\n\n(B) is wrong because the government did not abolish coerced labor; it increased the reliance on slavery.\n(C) is wrong because historians link the two events directly.\n(D) is wrong because the order is reversed: the rebellion came in 1676, and the hardening of slave codes followed it, especially around 1705."
     },
     {
       "id": "2-23",
@@ -1240,7 +1240,7 @@ const QUESTIONS = {
         "A French trading company chartered to manage the North American fur trade."
       ],
       "correct": 2,
-      "explanation": "The House of Burgesses, established in Virginia in 1619, was the first elected legislative body in the English colonies — an early landmark in colonial self-governance."
+      "explanation": "Correct: (C) The first elected legislative body in the English colonies, established in Virginia in 1619. The Virginia Company allowed landowning men from the settlements to elect representatives, called burgesses, who met with the governor and council at Jamestown in July 1619 to pass laws. It continued to meet, even after Virginia became a royal colony in 1624, and it gave Virginians a tradition of making their own laws and taxes.\n\n(A) is wrong because it was an English colonial legislature and not a council for treaties with Native nations.\n(B) is wrong because Massachusetts Bay's church affairs were handled by congregations and ministers, and the colony's legislature was the General Court.\n(D) is wrong because the French fur trade was run by French companies in New France, and the Burgesses was an English, elected body."
     },
     {
       "id": "2-24",
@@ -1253,7 +1253,7 @@ const QUESTIONS = {
         "A pre-landing agreement among Plymouth colonists to govern by consent of the governed."
       ],
       "correct": 3,
-      "explanation": "The Mayflower Compact was an agreement among Plymouth colonists establishing self-government based on the consent of the governed, signed before the colonists even landed — an early expression of colonial self-rule principles."
+      "explanation": "Correct: (D) A pre-landing agreement among Plymouth colonists to govern by consent of the governed. In November 1620, while the Mayflower lay off Cape Cod, 41 adult male passengers signed an agreement to form a 'civil body politic' and obey laws made for the colony's good. They did this because they had landed outside the territory of their Virginia Company patent and some 'Strangers' (non-Separatists) had challenged the leaders' authority.\n\n(A) is wrong because it had nothing to do with tobacco quotas or trade.\n(B) is wrong because the treaty with the Wampanoag leader Massasoit was made in 1621, and it was a separate agreement.\n(C) is wrong because it was not a royal charter; it was drawn up by the settlers themselves."
     },
     {
       "id": "2-25",
@@ -1266,7 +1266,7 @@ const QUESTIONS = {
         "A term historians use for how colonial governments allocated land to Native nations."
       ],
       "correct": 1,
-      "explanation": "Salutary neglect describes England's generally loose, inconsistent enforcement of trade and governance regulations over much of this period, allowing colonial assemblies to develop substantial practical authority over local taxation and legislation."
+      "explanation": "Correct: (B) England's loose, inconsistent enforcement of trade and governance rules, which let colonial assemblies gain authority. From about the 1690s to 1763, and notably under Robert Walpole, Britain often did not enforce the Navigation Acts strictly or direct colonial governments closely, because trade with the colonies was profitable anyway. The word 'salutary' means beneficial, and the term was applied later (Edmund Burke used a similar phrase in 1775). Colonial assemblies gained control over taxes, salaries and local laws.\n\n(A) is wrong because British officials and royal governors remained in many colonies, so it was not full withdrawal.\n(C) is wrong because the policy was lax, not strict.\n(D) is wrong because it concerns British rule of the colonists, not land allocation to Native nations."
     },
     {
       "id": "2-26",
@@ -1279,7 +1279,7 @@ const QUESTIONS = {
         "Salutary neglect continued completely unchanged even after 1763, with no new enforcement."
       ],
       "correct": 1,
-      "explanation": "Decades of practical self-governance under salutary neglect gave colonists a lived expectation of autonomy — Britain's later shift toward stricter enforcement felt like an alarming REVERSAL of established practice, not simply ordinary law enforcement, directly shaping the intensity of colonial resistance."
+      "explanation": "Correct: (B) Decades of practical self-rule made Britain's later crackdown feel like an alarming reversal. After the French and Indian War ended in 1763, Britain, which was in heavy debt, issued the Proclamation of 1763, the Sugar Act of 1764, the Stamp Act of 1765 and other measures to raise revenue and tighten control. Colonists who had long run their own affairs through assemblies saw this as an attack on their rights, which helps explain the strength of the protests.\n\n(A) is wrong because colonists were highly aware of the changes and responded with boycotts and petitions.\n(C) is wrong because the policy lasted until 1763, not ending by 1700.\n(D) is wrong because Britain did change policy after 1763 and began new enforcement."
     },
     {
       "id": "2-27",
@@ -1292,7 +1292,7 @@ const QUESTIONS = {
         "Town meetings"
       ],
       "correct": 3,
-      "explanation": "Town meetings provided New England colonists with a strong, direct tradition of local self-governance, complementing broader colonial governance developments like the House of Burgesses in Virginia."
+      "explanation": "Correct: (D) Town meetings. In New England towns, male property holders gathered to elect officials, decide local taxes and settle local business, which gave residents direct experience with self-rule.\n\n(A) is wrong because the House of Burgesses was Virginia's colonial assembly, not a New England institution.\n(B) is wrong because the Navigation Acts were English laws that regulated colonial trade and did not provide self-governance.\n(C) is wrong because the casta system was the Spanish colonial racial hierarchy and has nothing to do with English New England."
     },
     {
       "id": "2-28",
@@ -1305,7 +1305,7 @@ const QUESTIONS = {
         "Yes — colonial assemblies gained no real governing experience before the Stamp Act crisis."
       ],
       "correct": 2,
-      "explanation": "Colonial self-governance had deep roots stretching back to institutions like the House of Burgesses (1619) and the Mayflower Compact (1620), continuing and expanding through decades of salutary neglect — it did not suddenly emerge in the 1760s."
+      "explanation": "Correct: (C) No — self-governance dated back to the House of Burgesses (1619) and grew under salutary neglect. Colonists had elected assemblies from 1619, wrote the Mayflower Compact in 1620, held town meetings in New England and expanded their assemblies' powers over taxes and laws in the century that followed. The demands of the 1760s and 1770s built on this experience.\n\n(A) is wrong because representative government existed in England and the colonies well before the twentieth century.\n(B) is wrong because the House of Burgesses dates to 1619, not after 1763.\n(D) is wrong because colonial assemblies had a long record of governing before the Stamp Act crisis of 1765."
     },
     {
       "id": "2-29",
@@ -1318,7 +1318,7 @@ const QUESTIONS = {
         "Complete independence from the British crown."
       ],
       "correct": 0,
-      "explanation": "Colonial assemblies increasingly developed substantial practical authority over local taxation and legislation under salutary neglect, even while remaining nominally subject to the crown."
+      "explanation": "Correct: (A) Authority over local taxation and legislation. Because royal governors depended on assemblies to pay their salaries and to vote funds, assemblies could bargain, and they gained control over local taxes, spending and lawmaking.\n\n(B) is wrong because assemblies gained a good deal of practical authority.\n(C) is wrong because declaring war on European nations was a power of the British Crown, not the colonial assemblies.\n(D) is wrong because colonies remained part of the British Empire and subject to the Crown until the Revolution."
     },
     {
       "id": "2-30",
@@ -1331,7 +1331,7 @@ const QUESTIONS = {
         "The Mayflower Compact"
       ],
       "correct": 3,
-      "explanation": "The Mayflower Compact (1620) is considered an early expression of government based on the consent of the governed, predating the Declaration of Independence (1776) by over 150 years."
+      "explanation": "Correct: (D) The Mayflower Compact. Signed in 1620, it stated that the settlers would form a body politic and obey just laws they themselves enacted, an early statement of government resting on the consent of those governed. The Declaration of Independence was adopted in 1776, 156 years later.\n\n(A) is wrong because the Treaty of Paris (1763 and 1783) ended wars and does not predate the Declaration by over 150 years.\n(B) is wrong because there was no 'House of Burgesses charter' that fits this description, and the Virginia Company's instructions in 1619 did not express consent of the governed in this way.\n(C) is wrong because the Navigation Acts were British trade laws passed without colonial consent."
     },
     {
       "id": "2-31",
@@ -1344,7 +1344,7 @@ const QUESTIONS = {
         "This is inaccurate — over a century of self-rule under Burgesses-style assemblies gave Period 3 its context."
       ],
       "correct": 3,
-      "explanation": "This argument is inaccurate — Section 2.3 establishes over a century of practical colonial self-governance (House of Burgesses, Mayflower Compact, salutary neglect) as essential historical context, directly refuting any claim that Period 3's self-governance demands emerged with no prior history."
+      "explanation": "Correct: (D) This is inaccurate — over a century of self-rule under Burgesses-style assemblies gave Period 3 its context. By the 1760s, colonists had run their own legislatures since 1619 and developed local control over taxes, so their demands for self-government in the 1760s and 1770s grew out of long experience and expectations, helped by salutary neglect.\n\n(A) is wrong because assemblies existed in many colonies besides New England, such as the House of Burgesses in Virginia.\n(B) is wrong because colonial records survive, including laws, journals and charters.\n(C) is wrong because colonists had considerable practical experience governing themselves."
     },
     {
       "id": "2-32",
@@ -1357,7 +1357,7 @@ const QUESTIONS = {
         "Colonies stayed nominally subject to the crown, but salutary neglect let assemblies gain real authority."
       ],
       "correct": 3,
-      "explanation": "Colonies remained nominally subject to the crown throughout this period, but salutary neglect's loose, inconsistent enforcement allowed colonial assemblies to develop substantial PRACTICAL self-governing authority despite this formal subordination — an important nuance distinguishing formal from practical authority."
+      "explanation": "Correct: (D) Colonies stayed nominally subject to the crown, but salutary neglect let assemblies gain real authority. Legally, Parliament and the King ruled the colonies, appointed governors, and could veto colonial laws, but in practice lax enforcement meant assemblies controlled much of daily government.\n\n(A) is wrong because colonies still answered to the Crown through governors and trade laws, even if enforcement was weak.\n(B) is wrong because salutary neglect was not a charter or any formal grant of independence.\n(C) is wrong because Britain never renounced its authority, and it reasserted authority after 1763."
     },
     {
       "id": "2-33",
@@ -1370,7 +1370,7 @@ const QUESTIONS = {
         "It set a working model of elected government that colonists drew on for the following century."
       ],
       "correct": 3,
-      "explanation": "The House of Burgesses is significant beyond simply being first because it established a functioning, ongoing model of elected representative governance that set a precedent colonists drew on and expanded throughout the following century, connecting directly to later Revolutionary-era demands for representative government."
+      "explanation": "Correct: (D) It set a working model of elected government that colonists drew on for the following century. The Burgesses met again and again, passed laws and gave Virginians experience in debating taxes and policy, and other colonies set up their own assemblies. Leaders such as Patrick Henry, who spoke against the Stamp Act in the House of Burgesses in 1765, came out of this tradition.\n\n(A) is wrong because it had important lasting significance beyond coming first.\n(B) is wrong because it met many times after 1619.\n(C) is wrong because it was not dissolved permanently; the assembly continued through the colonial period, including after Virginia became a royal colony in 1624."
     },
     {
       "id": "2-34",
@@ -1383,7 +1383,7 @@ const QUESTIONS = {
         "Large-scale agricultural land settlement"
       ],
       "correct": 2,
-      "explanation": "French colonial strategy in North America centered primarily on the fur trade, an economic activity requiring cooperative relationships with Native trading partners rather than large-scale land displacement."
+      "explanation": "Correct: (C) The fur trade. French colonies in Canada and the Great Lakes region, begun at Quebec by Samuel de Champlain in 1608, relied on beaver pelts, which were in high demand in Europe for hats. French traders exchanged goods with Native hunters and trappers and relied on their knowledge and labor.\n\n(A) is wrong because missionaries, especially Jesuits, were active, but economic motives such as the fur trade were also strong and religion was not the only aim.\n(B) is wrong because French North America did not produce major mining wealth the way Spain's colonies did.\n(D) is wrong because French settlement was small and spread along rivers; large-scale farm settlement characterized the English colonies."
     },
     {
       "id": "2-35",
@@ -1396,7 +1396,7 @@ const QUESTIONS = {
         "English colonists faced a royal ban on any trade or diplomacy with Native nations."
       ],
       "correct": 1,
-      "explanation": "The structural, economic explanation is preferred over a vague cultural one: French fur trade strategy required functioning alliances with Native trading partners to be profitable, while English agricultural land settlement required displacing Native peoples — economic strategy, not national character, best explains the difference."
+      "explanation": "Correct: (B) French fur trade required lasting alliances with Native partners, unlike English land settlement. French traders depended on Native hunters to bring pelts, so they had reasons to trade fairly, join Native diplomacy, learn languages and sometimes marry Native women, and they allied with groups such as the Huron and Algonquin. English settlers, growing in number, needed land for farms and so pressed Native peoples off it. The explanation rests on the economic structure and not on any claim about national character.\n\n(A) is wrong because French traders and Native nations had close and frequent contact in the Great Lakes region.\n(C) is wrong because national temperament is not a sound historical explanation, and French relations were not always peaceful.\n(D) is wrong because the English Crown did not ban trade or diplomacy with Native nations, and the English traded and negotiated widely."
     },
     {
       "id": "2-36",
@@ -1409,7 +1409,7 @@ const QUESTIONS = {
         "Large-scale tobacco and rice plantation agriculture worked by enslaved laborers."
       ],
       "correct": 1,
-      "explanation": "Dutch colonial strategy in New Netherland centered on trade, particularly the fur trade conducted via the Hudson River, producing a relatively diverse and commercially oriented trading colony."
+      "explanation": "Correct: (B) Trade, especially the fur trade conducted along the Hudson River. The Dutch West India Company founded New Netherland in the 1620s, with New Amsterdam at the tip of Manhattan and Fort Orange (now Albany) as a post for trading beaver pelts with the Mohawk and other Haudenosaunee nations. Traders and merchants dominated the colony, and few settlers came.\n\n(A) is wrong because converting Native peoples was not the main aim of the commercial Dutch colony.\n(C) is wrong because the Dutch did not aim to seize English settlements; they did eventually lose their own colony to the English in 1664.\n(D) is wrong because large tobacco and rice plantations were features of the English Chesapeake and Carolina colonies, not New Netherland, although the Dutch did use some enslaved Africans."
     },
     {
       "id": "2-37",
@@ -1422,7 +1422,7 @@ const QUESTIONS = {
         "It remained a permanently independent Dutch territory."
       ],
       "correct": 1,
-      "explanation": "New Netherland later became New York, following English acquisition of the colony from the Dutch."
+      "explanation": "Correct: (B) It became present-day New York. In 1664 an English fleet sent by the Duke of York (the future James II) took New Amsterdam without a fight, and the colony was renamed New York, with New Amsterdam becoming New York City and Fort Orange becoming Albany. The Dutch briefly retook it in 1673 but gave it up in 1674.\n\n(A) is wrong because Pennsylvania was a separate colony given to William Penn in 1681, though it included some land that had been claimed by the Dutch and the Swedes.\n(C) is wrong because New Netherland was not French.\n(D) is wrong because it did not remain Dutch, as England took it."
     },
     {
       "id": "2-38",
@@ -1435,7 +1435,7 @@ const QUESTIONS = {
         "Both explanations are equally rigorous, so historians treat them as interchangeable."
       ],
       "correct": 0,
-      "explanation": "A structural/economic explanation is preferred because it identifies the actual underlying causal mechanism — what each colonial economy structurally required to be profitable — rather than relying on an unsupported, oversimplified generalization about national temperament or character."
+      "explanation": "Correct: (A) A structural explanation identifies what each colonial economy actually needed to be profitable. The French fur trade needed Native partners to hunt and trade, while English farming colonies needed land, and this difference accounts for patterns in alliances and conflict without relying on stereotypes about national character.\n\n(B) is wrong because national-character explanations are broad and hard to prove, and they are generally not the more reliable ones.\n(C) is wrong because economic motives are central to how historians explain colonial behavior.\n(D) is wrong because the two kinds of explanation are not equally rigorous: a structural account can be tested with evidence about trade and settlement, while character claims are generalizations."
     },
     {
       "id": "2-39",
@@ -1448,7 +1448,7 @@ const QUESTIONS = {
         "English"
       ],
       "correct": 3,
-      "explanation": "English colonial strategy, centered on agricultural land settlement for a rapidly growing settler population, most directly and structurally required displacing Native peoples from land, unlike the trade-focused French and Dutch approaches."
+      "explanation": "Correct: (D) English. Colonies such as Virginia, Massachusetts and Pennsylvania attracted large numbers of settlers who farmed their own land, which meant taking land used by Native peoples and led to conflicts such as the Pequot War (1636-1637), King Philip's War (1675-1676) and later frontier wars.\n\n(A) is wrong because displacement did occur, particularly under English settlement.\n(B) is wrong because French colonization, based on the fur trade and few settlers, needed Native partners rather than their land, so it less directly required displacement.\n(C) is wrong because the Dutch were mainly interested in trade, with a small settler population, so their approach did not require displacement to the same degree."
     },
     {
       "id": "2-40",
@@ -1461,7 +1461,7 @@ const QUESTIONS = {
         "It wrongly claims French colonists actually had worse relations with Native nations overall."
       ],
       "correct": 2,
-      "explanation": "The strongest critique is that this explanation relies on an unsupported generalization about national character or attitude, rather than identifying the actual structural economic factor — French fur trade's dependence on cooperative Native alliances — that this section identifies as the real explanatory mechanism."
+      "explanation": "Correct: (C) It rests on an unsupported generalization rather than the structural fur-trade explanation. The statement attributes French behavior to feelings, but the evidence shows that French traders needed Native hunters and allies for the fur trade and had few settlers who wanted land, while English colonies were built on farming settlement. Also, French relations were not free of conflict, for example in the Fox Wars.\n\n(A) is wrong because claims about national temperament need evidence and are not self-evidently true.\n(B) is wrong because historians have gathered extensive evidence on the fur trade and alliances that bears on the claim.\n(D) is wrong because the student claims French relations were better, not worse."
     },
     {
       "id": "2-41",
@@ -1474,7 +1474,7 @@ const QUESTIONS = {
         "Comparing only the two powers' official religious policies toward settlers."
       ],
       "correct": 1,
-      "explanation": "This section models explaining regional/national differences by comparing the underlying structure of each economy — what it required from land and from Native relationships to be profitable — as the key explanatory variable, a reusable analytical approach for comparison questions elsewhere in the course."
+      "explanation": "Correct: (B) Comparing what each economy structurally needed from land and Native peoples to profit. The section uses this approach to explain differences: fur trade colonies needed trading partners, farming colonies needed land. The same method can be applied elsewhere, asking what each region's economy required.\n\n(A) is wrong because raw population totals do not explain why the colonies developed as they did.\n(C) is wrong because military size is not the comparison the section uses.\n(D) is wrong because religious policy alone does not explain the economic structures and relations with Native peoples."
     },
     {
       "id": "2-42",
@@ -1487,7 +1487,7 @@ const QUESTIONS = {
         "Large-scale farming settlement requiring extensive displacement of Native peoples."
       ],
       "correct": 3,
-      "explanation": "Large-scale agricultural settlement requiring extensive land displacement was NOT a primary focus of French colonial strategy — this was more characteristic of English colonization, while French strategy centered on the fur trade and relatively sparse settlement."
+      "explanation": "Correct: (D) Large-scale farming settlement requiring extensive displacement of Native peoples. The question asks what was NOT a focus of the French. New France had a small population of settlers, concentrated along the St. Lawrence River, and its economy centered on furs.\n\n(A) is wrong because working alliances with Native trading partners were a major part of French strategy, with alliances such as that with the Huron.\n(B) is wrong because Jesuit and other missionaries worked in New France alongside trading posts, so this was part of French strategy.\n(C) is wrong because the fur trade was the central commercial activity."
     },
     {
       "id": "2-43",
@@ -1500,7 +1500,7 @@ const QUESTIONS = {
         "It matched a fur-trade economy that never needed large numbers of settlers on the land."
       ],
       "correct": 3,
-      "explanation": "The relatively sparse French settler population was consistent with — and helps explain — a fur-trade-focused economic strategy that did not require large numbers of settlers displacing Native peoples for agricultural land, unlike the English pattern."
+      "explanation": "Correct: (D) It matched a fur-trade economy that never needed large numbers of settlers on the land. Fur trading depended on a small number of traders and trappers and on Native hunters, so France did not send many farm families, and New France had only about 60,000 settlers by 1760 compared with over a million in the British colonies.\n\n(A) is wrong because the main reason for the small population was the economic and policy approach, not disease alone; the Crown also restricted Protestant emigration.\n(B) is wrong because British colonists greatly outnumbered the French.\n(C) is wrong because the size of the population is related to the economic strategy."
     },
     {
       "id": "2-44",
@@ -1513,7 +1513,7 @@ const QUESTIONS = {
         "The fur trade"
       ],
       "correct": 3,
-      "explanation": "English colonization centered on agricultural land settlement; French colonization centered on the fur trade — the key structural difference this section uses to explain differing patterns of relations with Native peoples."
+      "explanation": "Correct: (D) The fur trade. The analogy pairs each nation with its main colonial activity: English colonists were mostly farmers settling on land, and the French were mainly fur traders working with Native partners.\n\n(A) is wrong because French colonization had a strong economic side, and religion was not the only aim.\n(B) is wrong because mining precious metals was characteristic of Spanish colonization, not French.\n(C) is wrong because that is the answer for the English side of the analogy, not the French."
     },
     {
       "id": "2-45",
@@ -1526,7 +1526,7 @@ const QUESTIONS = {
         "A political movement calling for colonial independence from Britain."
       ],
       "correct": 2,
-      "explanation": "The First Great Awakening was a religious revival movement of the 1730s–40s emphasizing intense, personal religious conversion experience over formal ritual and established religious hierarchy."
+      "explanation": "Correct: (C) A 1730s–40s religious revival stressing personal conversion over formal ritual. Preachers such as Jonathan Edwards (his 1741 sermon 'Sinners in the Hands of an Angry God') and the English evangelist George Whitefield, who toured the colonies from 1739, urged people to have an emotional, personal experience of salvation. Revival meetings drew large crowds across denominations and regions.\n\n(A) is wrong because the Awakening was a religious movement, and the colonial wars were a different matter.\n(B) is wrong because it was not an economic campaign against the Navigation Acts.\n(D) is wrong because it was not a political independence movement, although it helped weaken respect for established authority."
     },
     {
       "id": "2-46",
@@ -1539,7 +1539,7 @@ const QUESTIONS = {
         "William Penn"
       ],
       "correct": 0,
-      "explanation": "Jonathan Edwards was known for vivid, emotionally intense sermons like 'Sinners in the Hands of an Angry God,' a landmark example of Great Awakening preaching."
+      "explanation": "Correct: (A) Jonathan Edwards. Edwards, a Congregational minister in Northampton, Massachusetts, preached 'Sinners in the Hands of an Angry God' at Enfield, Connecticut, in 1741, using images of a spider held over a fire to urge listeners to seek salvation. The stem's clue, a vivid and emotionally intense sermon with that title, points to him.\n\n(B) is wrong because George Whitefield was a traveling English evangelist known for his dramatic speaking across the colonies, but the famous Enfield sermon was Edwards's.\n(C) is wrong because Nathaniel Bacon led the 1676 rebellion in Virginia and was not a preacher.\n(D) is wrong because William Penn, a Quaker, founded Pennsylvania in 1681 and lived before the Awakening."
     },
     {
       "id": "2-47",
@@ -1552,7 +1552,7 @@ const QUESTIONS = {
         "John Locke"
       ],
       "correct": 0,
-      "explanation": "George Whitefield was an itinerant preacher who traveled extensively across colonial and denominational boundaries, drawing enormous crowds regardless of formal religious affiliation."
+      "explanation": "Correct: (A) George Whitefield. Whitefield, an Anglican minister from England, made several preaching tours of the colonies beginning in 1739-1740, speaking outdoors to crowds of thousands in places from Georgia to New England, and he welcomed listeners of many denominations. 'Itinerant' means traveling from place to place, which fits him.\n\n(B) is wrong because Thomas Paine wrote Common Sense in 1776 and was a political writer, not a preacher.\n(C) is wrong because Jonathan Edwards mainly preached in his own area of New England and is known for the content of his sermons, not for traveling widely.\n(D) is wrong because John Locke was an English philosopher of the late 1600s who died in 1704, before the Awakening."
     },
     {
       "id": "2-48",
@@ -1565,7 +1565,7 @@ const QUESTIONS = {
         "New denominations such as Baptists and Methodists gained ground as the revival challenged religious hierarchy."
       ],
       "correct": 3,
-      "explanation": "The Great Awakening contributed to religious pluralism as new denominations like Baptists and Methodists gained ground, reflecting the movement's broader challenge to established religious hierarchy and ritual."
+      "explanation": "Correct: (D) New denominations such as Baptists and Methodists gained ground as the revival challenged religious hierarchy. The Awakening divided Congregationalists and Presbyterians into 'New Lights' (supporting revivals) and 'Old Lights' (opposed), and many new converts joined Baptist and other evangelical churches that stressed personal faith and did not depend on a learned, established clergy. The result was more competing churches and a broader religious mix in the colonies.\n\n(A) is wrong because the Awakening changed the religious landscape by making evangelical denominations larger.\n(B) is wrong because it caused splits and did not unite congregations into one church.\n(C) is wrong because established denominations such as the Congregational and Anglican churches continued to exist, and the Awakening did not eliminate them."
     },
     {
       "id": "2-49",
@@ -1578,7 +1578,7 @@ const QUESTIONS = {
         "It gave colonists in very different regions a genuinely shared popular experience."
       ],
       "correct": 3,
-      "explanation": "Whitefield's itinerant preaching across colonial and denominational lines created one of the first genuinely shared popular experiences among colonists in different, otherwise very different regions — a significant cross-colonial phenomenon well before formal political unification."
+      "explanation": "Correct: (D) It gave colonists in very different regions a genuinely shared popular experience. Whitefield's tours from Georgia to New Hampshire were reported in colonial newspapers and drew crowds in cities and towns that had little in common, so people from New England, the Middle Colonies and the South took part in the same event and read about it. Historians see this as an early step in forming a common colonial identity.\n\n(A) is wrong because the tours had wider effects, including shared experience and challenges to church authority.\n(B) is wrong because his message was religious, even if it had political effects later.\n(C) is wrong because he traveled through many colonies, from Georgia to New England."
     },
     {
       "id": "2-50",
@@ -1591,7 +1591,7 @@ const QUESTIONS = {
         "As a direct, undisputed cause of the Revolution established beyond historical debate."
       ],
       "correct": 2,
-      "explanation": "This connection should be characterized as an interpretive connection some historians draw, appropriately hedged as one plausible interpretation among others — not stated as a direct, airtight, settled causal fact, which would overstate the historical evidence."
+      "explanation": "Correct: (C) As a hedged, interpretive connection some historians draw, not an airtight causal claim. Some historians argue that the Awakening taught ordinary colonists to question established authority and to see themselves as part of a larger community, which prepared the way for questioning British rule. Others point out that many revivalists were not political and that the Revolution had many causes, such as taxation and representation, so the link must be stated with caution.\n\n(A) is wrong because calling it the single most decisive cause overstates the evidence.\n(B) is wrong because some connection can reasonably be argued.\n(D) is wrong because calling it a direct, undisputed cause ignores the historians who doubt a link."
     },
     {
       "id": "2-51",
@@ -1604,7 +1604,7 @@ const QUESTIONS = {
         "An emphasis on rejecting all forms of Christianity."
       ],
       "correct": 1,
-      "explanation": "The Great Awakening's core distinguishing emphasis was on intense, personal religious conversion experience, contrasting with more traditional religious practice's greater emphasis on formal ritual and hierarchy."
+      "explanation": "Correct: (B) An emphasis on intense, personal religious conversion experience. Revivalists taught that salvation came from an individual's emotional experience of repentance and new birth, and not simply from church membership, ritual or the learning of a minister. This put the individual conscience first.\n\n(A) is wrong because the movement crossed denominations and created divisions, and did not emphasize adherence to a single established church.\n(C) is wrong because it reverses the emphasis, since the Awakening valued personal experience above formal ritual.\n(D) is wrong because the Awakening was a Christian revival and did not reject Christianity."
     },
     {
       "id": "2-52",
@@ -1617,7 +1617,7 @@ const QUESTIONS = {
         "1850s–1860s"
       ],
       "correct": 0,
-      "explanation": "The First Great Awakening occurred approximately in the 1730s–1740s, a religious revival predating the Revolutionary period by several decades."
+      "explanation": "Correct: (A) 1730s–1740s. Revivals began in the mid-1730s in Northampton under Jonathan Edwards, and the movement peaked with George Whitefield's tours of 1739-1741 and continued into the 1740s.\n\n(B) is wrong because the 1600s-1610s was the era of Jamestown (1607) and early settlement, long before the Awakening.\n(C) is wrong because the 1770s-1780s were the years of the American Revolution.\n(D) is wrong because the 1850s-1860s were the years before and during the Civil War, and the Second Great Awakening came earlier, in the early 1800s."
     },
     {
       "id": "2-53",
@@ -1630,7 +1630,7 @@ const QUESTIONS = {
         "It had no significance beyond individuals' private religious experience."
       ],
       "correct": 1,
-      "explanation": "The Great Awakening's challenge to established religious authority reflected a broader pattern of colonists directly engaging with and sometimes challenging institutional authority — a pattern some historians connect, with appropriate hedging, to later political developments, without claiming a direct, unqualified causal link."
+      "explanation": "Correct: (B) It reflected a wider pattern of challenging authority that some historians link, cautiously, to later politics. Revivalist preachers criticized ministers they thought unconverted, and ordinary people judged religious leaders for themselves, which made some colonists more willing to question established authority. Some historians suggest this contributed to the later challenge to British authority, but the link is argued with care.\n\n(A) is wrong because established churches did not close, and church membership did not end.\n(C) is wrong because the Awakening spread to the Middle Colonies and the South as well as New England.\n(D) is wrong because its effects went beyond private experience, shaping churches, social divisions and attitudes toward authority."
     },
     {
       "id": "2-54",
@@ -1643,7 +1643,7 @@ const QUESTIONS = {
         "Edwards is remembered for a vivid sermon; Whitefield for his itinerant, cross-colonial reach."
       ],
       "correct": 3,
-      "explanation": "Edwards is specifically associated with a landmark example of emotionally intense preaching content ('Sinners in the Hands of an Angry God'), while Whitefield is specifically known for his itinerant, cross-colonial preaching reach — both significant but in somewhat different ways."
+      "explanation": "Correct: (D) Edwards is remembered for a vivid sermon; Whitefield for his itinerant, cross-colonial reach. Edwards, a theologian based in Massachusetts, is known for the Enfield sermon of 1741 and his writing on revival, while Whitefield traveled widely and drew crowds of thousands across the colonies.\n\n(A) is wrong because it reverses their roles, as Whitefield was the traveler.\n(B) is wrong because both left extensive records of their sermons, journals and writing.\n(C) is wrong because their contributions were different in kind."
     },
     {
       "id": "2-55",
@@ -1656,7 +1656,7 @@ const QUESTIONS = {
         "Native American concepts of collective, non-exclusive land ownership that colonists adopted in their own deeds."
       ],
       "correct": 2,
-      "explanation": "The Great Awakening's cross-colonial reach connects most directly to the gradual development of shared colonial experiences and identity well before formal political unification — a theme the course revisits when examining what eventually enables coordinated colonial political action."
+      "explanation": "Correct: (C) The gradual growth of shared colonial experience and identity before political union. As revival meetings and newspaper reports reached colonists from Georgia to Massachusetts, people in separate colonies took part in a common experience, an early basis for a sense of being American that later helped coordinate colonial resistance.\n\n(A) is wrong because tobacco was the crop of the Chesapeake and not a shared reliance across all the colonies, and the Awakening is not about the economy.\n(B) is wrong because the casta system was Spanish and was not used in the English colonies.\n(D) is wrong because colonists generally did not adopt Native concepts of land use in their deeds, and this has no connection to the Awakening."
     },
     {
       "id": "2-56",
@@ -1669,7 +1669,7 @@ const QUESTIONS = {
         "A labor arrangement built around fixed-term indenture contracts for poor migrants crossing the Atlantic."
       ],
       "correct": 0,
-      "explanation": "Mercantilism was the dominant economic theory holding that colonies existed primarily to economically benefit the mother country — supplying raw materials and serving as a captive market for finished goods."
+      "explanation": "Correct: (A) An economic theory holding that colonies existed to enrich the mother country. Under mercantilism, which was influential in Europe in the 1600s and 1700s, nations sought to export more than they imported and to gather gold and silver, and colonies were supposed to supply raw materials like tobacco and lumber and to buy the mother country's manufactured goods.\n\n(B) is wrong because direct colonial seats in Parliament refers to virtual versus actual representation, a political argument of the 1760s.\n(C) is wrong because a revival movement describes the Great Awakening.\n(D) is wrong because fixed-term indenture contracts describe a labor system."
     },
     {
       "id": "2-57",
@@ -1682,7 +1682,7 @@ const QUESTIONS = {
         "Free, unrestricted colonial trade with any nation."
       ],
       "correct": 1,
-      "explanation": "The Navigation Acts required colonial trade to pass through English ports and English ships, restricting colonial trade with other nations to enforce mercantilist economic policy."
+      "explanation": "Correct: (B) Colonial trade to pass through English ports and ships. The Navigation Acts, beginning in 1651 and expanded in 1660 and 1663, required that colonial trade be carried in English or colonial ships, that 'enumerated' goods such as tobacco and sugar be shipped only to England, and that European goods bound for the colonies pass through English ports. This kept the profits within the empire.\n\n(A) is wrong because the acts did not require goods to be made in the colonies, and Parliament actually limited colonial manufacturing, such as with the Wool Act of 1699.\n(C) is wrong because the acts imposed duties and did not exempt colonists from taxes.\n(D) is wrong because they restricted trade rather than freeing it."
     },
     {
       "id": "2-58",
@@ -1695,7 +1695,7 @@ const QUESTIONS = {
         "Manufactured goods to Africa, enslaved people to the Americas, raw materials back to Europe."
       ],
       "correct": 3,
-      "explanation": "The triangular trade model describes manufactured goods moving from Europe to Africa, enslaved people from Africa to the Americas, and raw materials/cash crops from the Americas back to Europe — though real Atlantic trade patterns were considerably more complex than this simplified model."
+      "explanation": "Correct: (D) Manufactured goods to Africa, enslaved people to the Americas, raw materials back to Europe. In the model, ships carried goods such as cloth, guns and rum from Europe or New England to Africa, enslaved Africans on the brutal Middle Passage to the Caribbean and the mainland, and sugar, tobacco and other products back to Europe.\n\n(A) is wrong because it described a network among Native nations, whereas this model is an Atlantic one that involved Europe, Africa and the Americas.\n(B) is wrong because it was not limited to England and France.\n(C) is wrong because the model describes trade across the Atlantic and not within one colony."
     },
     {
       "id": "2-59",
@@ -1708,7 +1708,7 @@ const QUESTIONS = {
         "No — real Atlantic trade was far more varied than this simplified model suggests."
       ],
       "correct": 3,
-      "explanation": "The triangular trade model is a useful simplified illustration, but real Atlantic trade patterns were considerably more varied and complex than this simplified triangle suggests — an important qualification when using this model."
+      "explanation": "Correct: (D) No — real Atlantic trade was far more varied than this simplified model suggests. Ships followed many routes, including direct voyages between Europe and Africa, Africa and the Caribbean, North American colonies and the West Indies carrying food and lumber, and many trades did not match a neat triangle. The model is a useful shorthand for the connected economies of Europe, Africa and the Americas.\n\n(A) is wrong because many voyages did not follow a single triangle.\n(B) is wrong because the model is not limited to France and Spain.\n(C) is wrong because the model has a basis in the historical record, since goods and enslaved people did move in these ways, though it simplifies."
     },
     {
       "id": "2-60",
@@ -1721,7 +1721,7 @@ const QUESTIONS = {
         "No — loose enforcement under salutary neglect allowed substantial smuggling and autonomy."
       ],
       "correct": 3,
-      "explanation": "Enforcement of the Navigation Acts was often loose and inconsistent under salutary neglect (Section 2.3), allowing significant colonial smuggling and substantial de facto economic autonomy for decades."
+      "explanation": "Correct: (D) No — loose enforcement under salutary neglect allowed substantial smuggling and autonomy. Britain passed the Navigation Acts from 1651, but customs officers were few and often lax, and colonial merchants carried on trade with the French and Dutch West Indies and others, evading the duties. Britain's 1733 Molasses Act, for instance, was widely ignored.\n\n(A) is wrong because the acts were enforced at times and in many ports, so they were not wholly unenforced.\n(B) is wrong because enforcement varied and was not constant.\n(C) is wrong because the looseness appeared across the colonies, not only in New England."
     },
     {
       "id": "2-61",
@@ -1734,7 +1734,7 @@ const QUESTIONS = {
         "Navigation Act enforcement has no bearing on how colonists reacted to Period 3 policy."
       ],
       "correct": 2,
-      "explanation": "Because colonial merchants grew accustomed to loose enforcement and substantial practical trade freedom, Britain's later shift toward stricter enforcement after 1763 felt like a sudden, alarming crackdown on long-accepted practices, not simply routine continued enforcement — directly fueling Period 3 colonial grievances."
+      "explanation": "Correct: (C) Merchants grew used to loose enforcement, so stricter post-1763 rules felt like a sudden crackdown. After the Seven Years' War, Britain used the Sugar Act of 1764 (with lower duties but better enforcement), vice-admiralty courts and more customs officials to collect revenue, and merchants who had long smuggled saw this as a threat to their livelihood. Resistance followed, such as boycotts and protests.\n\n(A) is wrong because British policy changed after 1763.\n(B) is wrong because the Navigation Acts remained in force into the 1770s and were not repealed beforehand.\n(D) is wrong because the contrast between the earlier lax practice and the later enforcement is a major reason for colonial anger."
     },
     {
       "id": "2-62",
@@ -1747,7 +1747,7 @@ const QUESTIONS = {
         "By the number of colonies it controlled, regardless of any economic output."
       ],
       "correct": 2,
-      "explanation": "Mercantilist theory primarily measured a nation's wealth by its accumulated precious metal (bullion), motivating policies designed to maximize exports and accumulated wealth while minimizing imports from rival powers."
+      "explanation": "Correct: (C) By its accumulated precious metal (bullion). Mercantilists treated the stock of gold and silver as the measure of national power, since it paid for armies and navies, and so they wanted a favorable balance of trade, selling more abroad than they bought. Spain's silver from the Americas was a model, and England pursued the same goal through colonial trade and regulation.\n\n(A) is wrong because literacy was not how mercantilists measured wealth.\n(B) is wrong because population was valued as a source of labor and soldiers but was not the measure of wealth.\n(D) is wrong because the number of colonies mattered only for the economic benefit they brought, which is why the stem's phrase 'regardless of any economic output' does not fit the theory."
     },
     {
       "id": "2-63",
@@ -1760,7 +1760,7 @@ const QUESTIONS = {
         "The two are unrelated concepts that developed independently of one another."
       ],
       "correct": 0,
-      "explanation": "The Navigation Acts were the specific legal mechanism Britain used to enforce mercantilist economic policy — requiring colonial trade to benefit the mother country by passing through English ports and ships, consistent with mercantilist theory's core principles."
+      "explanation": "Correct: (A) The Navigation Acts were the legal mechanism Britain used to enforce mercantilist policy. Mercantilism was the idea that colonies should benefit the mother country, and the Navigation Acts turned it into law by controlling where and how colonial goods were shipped and sold, so that the profits supported England.\n\n(B) is wrong because mercantilism concerned trade and national wealth, not labor contracts, and the Navigation Acts did not govern churches.\n(C) is wrong because the theory came first as an idea, and the acts, starting in 1651, applied it.\n(D) is wrong because the two are directly connected, as the acts put the theory into practice."
     },
     {
       "id": "2-64",
@@ -1773,7 +1773,7 @@ const QUESTIONS = {
         "1607"
       ],
       "correct": 0,
-      "explanation": "The Navigation Acts began in 1651, establishing the legal framework for enforcing mercantilist trade policy in the English colonies over the following century."
+      "explanation": "Correct: (A) 1651. England's Parliament passed the first Navigation Act in 1651 under the Commonwealth, partly to hurt Dutch shipping, which dominated trade, and more acts followed in 1660, 1663 and 1696.\n\n(B) is wrong because 1763 was the end of the Seven Years' War and the date of the Proclamation, after the first acts.\n(C) is wrong because 1776 was the year of the Declaration of Independence.\n(D) is wrong because 1607 was when Jamestown was founded, well before the acts."
     },
     {
       "id": "2-65",
@@ -1787,7 +1787,7 @@ const QUESTIONS = {
         "Salutary neglect left both colonial governance and Navigation Act enforcement completely untouched throughout this period of the empire."
       ],
       "correct": 0,
-      "explanation": "This synthesis question rewards recognizing that salutary neglect operated simultaneously across two related but distinct domains — practical governing authority (Section 2.3) and loose trade enforcement (Section 2.6) — producing a single, COMPOUNDED colonial expectation of practical autonomy spanning both political and economic life. This is exactly why Britain's post-1763 policy shift (Period 3) felt so comprehensively alarming to colonists: it wasn't a change in one isolated policy area, but a simultaneous tightening across multiple dimensions of colonial life that colonists had, for over a century, experienced as settled and normal."
+      "explanation": "Correct: (A) Salutary neglect let assemblies govern themselves and let trade go loosely enforced at once, so Britain's 1763 shift felt like a sweeping reversal. Colonists in the 1700s had come to expect to make their own laws and taxes through assemblies and to trade with little interference. When Britain after 1763 sent troops, taxed (Stamp Act, 1765; Townshend Acts, 1767) and enforced trade rules, colonists found their expectations violated in both politics and commerce, which strengthened resistance.\n\n(B) is wrong because governance is just as important as trade enforcement in the explanation.\n(C) is wrong because the two are connected, since both come from the same lax imperial oversight.\n(D) is wrong because salutary neglect directly affected both areas."
     },
     {
       "id": "2-66",
@@ -1800,7 +1800,7 @@ const QUESTIONS = {
         "Coffee and cacao"
       ],
       "correct": 1,
-      "explanation": "By the early 1700s, the Carolinas had developed plantation economies centered on rice and indigo, alongside the Chesapeake's continued reliance on tobacco -- part of the broader Southern cash-crop plantation pattern that deepened the region's dependence on coerced labor."
+      "explanation": "Correct: (B) Rice and indigo. In South Carolina's Lowcountry, planters began growing rice by the early 1700s, using the skills of enslaved West Africans who knew rice cultivation, and indigo, a blue dye, became a second crop after Eliza Lucas Pinckney's experiments in the 1740s. Both required large numbers of enslaved workers.\n\n(A) is wrong because wheat and corn were grown mainly for food, especially in the Middle Colonies, and were not the plantation exports of the Carolinas.\n(C) is wrong because sugar was the main crop in the Caribbean, and cotton became dominant in the South only after the cotton gin in the 1790s.\n(D) is wrong because coffee and cacao were not produced in the Carolinas."
     }
   ],
   "3": [
@@ -1815,7 +1815,7 @@ const QUESTIONS = {
         "Competing French and British claims to the Ohio River Valley"
       ],
       "correct": 3,
-      "explanation": "The French and Indian War began over competing French and British claims to the Ohio River Valley, with Washington's 1754 expedition marking an early flashpoint."
+      "explanation": "Correct: (D) Competing French and British claims to the Ohio River Valley. Both empires wanted the Ohio Valley: the French needed it to link Canada with Louisiana and protect the fur trade, while Virginia land speculators and British traders pushed west into it. In 1754 a young George Washington led Virginia troops to challenge the French near the forks of the Ohio, skirmished at Jumonville Glen, and surrendered at Fort Necessity, which started the fighting that became the French and Indian War.\n\n(A) is wrong because the Mississippi Delta was not the contested ground; the war started far inland and Spain was not a party until 1762.\n(B) is wrong because Spanish Florida and British Georgia had border friction in earlier conflicts like the War of Jenkins' Ear, not this war.\n(C) is wrong because the dispute was French versus British, not French versus Spanish, and it concerned the interior rather than Florida."
     },
     {
       "id": "3-2",
@@ -1828,7 +1828,7 @@ const QUESTIONS = {
         "Formal repeal of the Proclamation of 1763's settlement restrictions"
       ],
       "correct": 2,
-      "explanation": "The 1763 Treaty of Paris ended the French and Indian War, with Britain gaining Canada and territory east of the Mississippi River from France, removing France from mainland North America."
+      "explanation": "Correct: (C) Britain's acquisition of Canada and territory east of the Mississippi. The 1763 Treaty of Paris ended the Seven Years' War: France gave up Canada and nearly all of its land east of the Mississippi River to Britain, and Spain received French Louisiana west of the river while giving Florida to Britain. France was thereby removed as a mainland power in eastern North America, which changed how colonists viewed the need for British protection.\n\n(A) is wrong because American independence was recognized by Britain in the 1783 Treaty of Paris, twenty years later, not in 1763.\n(B) is wrong because France lost the war and made no alliance with the colonies; the Franco-American alliance came in 1778 during the Revolution.\n(D) is wrong because the Proclamation of 1763 was issued after the treaty to restrict settlement west of the Appalachians and was not repealed by it."
     },
     {
       "id": "3-3",
@@ -1841,7 +1841,7 @@ const QUESTIONS = {
         "All colonial trade and commerce conducted with Great Britain"
       ],
       "correct": 2,
-      "explanation": "The Proclamation of 1763 prohibited colonial settlement west of the Appalachian Mountains, angering land-hungry colonists eager to expand westward following the French threat's removal."
+      "explanation": "Correct: (C) Colonial settlement west of the Appalachian Mountains. After the war and Pontiac's Rebellion (1763), the Crown issued the Proclamation of 1763 to stop colonists from settling beyond the Appalachian crest, hoping to avoid costly frontier wars with Native nations and to control western land. Colonists, including veterans and land speculators like Virginians who had hoped to profit from Ohio land, saw it as blocking the reward for their wartime sacrifices.\n\n(A) is wrong because the Proclamation said nothing about seats in Parliament; colonial representation became an issue through taxation.\n(B) is wrong because it did not ban the slave trade; Britain actively protected that trade.\n(D) is wrong because it did not stop trade with Britain, only western settlement and unlicensed land purchases from Native peoples."
     },
     {
       "id": "3-4",
@@ -1854,7 +1854,7 @@ const QUESTIONS = {
         "Britain had no financial motive for imposing these new taxes"
       ],
       "correct": 2,
-      "explanation": "Britain imposed new taxes on colonists to help pay off the massive war debt incurred during the French and Indian War, directly setting up the taxation conflicts of Section 3.2."
+      "explanation": "Correct: (C) To help pay off massive war debt incurred during the conflict. The Seven Years' War roughly doubled Britain's national debt to about 130 million pounds, and Britain also had to keep troops in North America after 1763. Ministers such as George Grenville argued that the colonists, who had benefited from the removal of France, should share the cost, leading to the Sugar Act (1764), Stamp Act (1765), and later Townshend duties.\n\n(A) is wrong because the colonial assemblies protested these measures rather than requesting them.\n(B) is wrong because there was no separate war with Spain driving the taxes; Britain had just finished a war it won.\n(D) is wrong because the financial motive was explicit and was the central justification for the revenue measures."
     },
     {
       "id": "3-5",
@@ -1867,7 +1867,7 @@ const QUESTIONS = {
         "Colonists no longer needed British protection as urgently, weakening a key rationale for British authority"
       ],
       "correct": 3,
-      "explanation": "With the French threat eliminated, colonists no longer needed British military protection as urgently — weakening a key rationale for accepting British authority right as Britain imposed new taxes and the Proclamation of 1763, fueling resentment rather than gratitude."
+      "explanation": "Correct: (D) Colonists no longer needed British protection as urgently, weakening a key rationale for British authority. Before 1763 the French and their Native allies on the frontier gave colonists a practical reason to accept imperial supervision and the presence of British regulars. Once France left the continent, the threat was gone just as Britain began imposing taxes, enforcing trade laws, stationing troops, and restricting western settlement, so these measures looked like control rather than protection.\n\n(A) is wrong because colonists did not feel obliged to the Crown for long; the new burdens produced resentment, not gratitude.\n(B) is wrong because the change had a clear effect, which was a gradual weakening of attachment.\n(C) is wrong because the Treaty of Paris did remove France from mainland North America east of the Mississippi."
     },
     {
       "id": "3-6",
@@ -1880,7 +1880,7 @@ const QUESTIONS = {
         "The War of 1812"
       ],
       "correct": 0,
-      "explanation": "The French and Indian War was the North American theater of the broader global Seven Years' War (1756–1763)."
+      "explanation": "Correct: (A) The Seven Years' War. The conflict that began in the Ohio Valley in 1754 expanded into a worldwide struggle (1756-1763) between Britain and France and their allies, fought in Europe, the Caribbean, India, West Africa, and the Philippines. Britain's victory made it the dominant colonial power in North America and left it deeply in debt.\n\n(B) is wrong because the Hundred Years' War was a medieval English-French conflict of 1337-1453.\n(C) is wrong because the Napoleonic Wars were fought around 1803-1815, long after the colonial era.\n(D) is wrong because the War of 1812 was a later conflict between the United States and Britain."
     },
     {
       "id": "3-7",
@@ -1893,7 +1893,7 @@ const QUESTIONS = {
         "Yes, because the treaty had no measurable effect on colonial relations"
       ],
       "correct": 0,
-      "explanation": "British victory directly produced several consequences — war debt, new taxation, the Proclamation of 1763, and reduced colonial need for British protection — that together contributed significantly to the colonial resistance covered in Section 3.2."
+      "explanation": "Correct: (A) No, because victory produced debt, taxation, and the Proclamation Line, fueling resistance. The question asks whether victory had no negative effects, and the answer is no: Britain won but emerged with an enormous debt, which led to new taxes on colonists; the Proclamation of 1763 limited westward expansion; and the removal of France lessened colonial reliance on Britain. Together these made the empire's victory a cause of its later crisis.\n\n(B) is wrong because Britain won the war, gaining Canada and land east of the Mississippi.\n(C) is wrong because the victory brought burdens like taxes and restrictions, not only benefits.\n(D) is wrong because the treaty reshaped the continent and the imperial relationship, so it did have major effects."
     },
     {
       "id": "3-8",
@@ -1906,7 +1906,7 @@ const QUESTIONS = {
         "The war produced no lasting political consequences of any kind for the colonies, Britain, or the Native nations"
       ],
       "correct": 2,
-      "explanation": "This section's central causal argument is that British victory itself — not defeat — produced the specific conditions (debt, new taxation, the Proclamation Line, reduced need for protection) that provoked colonial resistance, an ironic and causally important connection to the rest of Period 3."
+      "explanation": "Correct: (C) British victory produced the debt, taxation, and Proclamation Line that provoked colonial resistance. The central causal argument is an irony: the war that removed France from North America left Britain with a huge debt, a need to garrison new territory, and Native conflict on the frontier. Ministers responded with taxes, trade enforcement, and the Proclamation of 1763, which colonists read as threats to their rights and economic ambitions and which began the chain of events leading to the Revolution.\n\n(A) is wrong because independence came only after the 1775-1783 war, not in 1763.\n(B) is wrong because France lost its North American territory east of the Mississippi in the treaty.\n(D) is wrong because the war had major political consequences, including the Revolution and the displacement and pressure on Native nations."
     },
     {
       "id": "3-9",
@@ -1919,7 +1919,7 @@ const QUESTIONS = {
         "It had no relationship to taxation or Parliamentary policy at all"
       ],
       "correct": 0,
-      "explanation": "The Stamp Act was significant because it was Parliament's first DIRECT tax on colonists (on printed materials), rather than a tax on trade goods — provoking the specific 'no taxation without representation' constitutional argument."
+      "explanation": "Correct: (A) It was Parliament's first DIRECT tax on colonists, not a tax on trade. The Stamp Act (1765) required a tax stamp on legal documents, newspapers, pamphlets, and playing cards, so it fell directly on colonists' daily activities and was designed to raise revenue, unlike earlier duties such as the Navigation Acts, which regulated imperial commerce. Colonists therefore argued Parliament was taxing people who had no elected representatives in it, producing the Stamp Act Congress, the Sons of Liberty, boycotts, and repeal in 1766.\n\n(B) is wrong because colonists protested widely and sometimes violently.\n(C) is wrong because earlier duties like the Sugar Act (1764) and Molasses Act of 1733 had already taxed trade.\n(D) is wrong because the act was a Parliamentary tax measure."
     },
     {
       "id": "3-10",
@@ -1932,7 +1932,7 @@ const QUESTIONS = {
         "That Britain should tax colonists more heavily."
       ],
       "correct": 2,
-      "explanation": "'No taxation without representation' made a specific constitutional argument: that only a body colonists elected could legitimately tax them — not a general objection to taxation's existence or amount."
+      "explanation": "Correct: (C) That only a body colonists elected could legitimately tax them. The slogan expressed the view that under the British constitution, subjects could be taxed only with the consent of their own representatives. Because colonists elected no members of Parliament, they claimed that Parliament could regulate trade but could not levy internal taxes like the Stamp Act. Britain replied with the idea of 'virtual representation,' arguing that members represented the whole empire.\n\n(A) is wrong because colonists wanted representation in their own assemblies, not none.\n(B) is wrong because the objection was about who authorized taxes, not that taxes should never exist.\n(D) is wrong because colonists wanted fewer, not heavier, taxes imposed by Parliament."
     },
     {
       "id": "3-11",
@@ -1945,7 +1945,7 @@ const QUESTIONS = {
         "The Battle of Saratoga"
       ],
       "correct": 0,
-      "explanation": "The Coercive Acts of 1774 were a direct, punitive British response to the Boston Tea Party (December 1773), closing Boston's port among other measures."
+      "explanation": "Correct: (A) The Boston Tea Party. In December 1773 Bostonians dumped 342 chests of East India Company tea into the harbor to protest the Tea Act and its tax. Parliament responded in 1774 with the Coercive Acts, which closed Boston's port until the tea was paid for, curtailed Massachusetts self-government, allowed trials of officials to be moved, and expanded quartering.\n\n(B) is wrong because the Proclamation of 1763 came eleven years earlier and concerned western settlement.\n(C) is wrong because the Stamp Act Congress of 1765 was a protest against the Stamp Act, long before 1774.\n(D) is wrong because the Battle of Saratoga was fought in 1777, after the Coercive Acts."
     },
     {
       "id": "3-12",
@@ -1958,7 +1958,7 @@ const QUESTIONS = {
         "A violent military clash between colonial militia and British regulars"
       ],
       "correct": 1,
-      "explanation": "The Stamp Act Congress (1765) was an early example of cross-colonial political coordination, with delegates from multiple colonies meeting to formally protest the Stamp Act together."
+      "explanation": "Correct: (B) An early example of cross-colonial coordination to protest the Stamp Act. In October 1765 delegates from nine colonies met in New York and issued resolutions asserting that only colonial legislatures could tax the colonies and that the Stamp Act violated rights of Englishmen. It showed that colonies that usually acted separately could unite in petition, and it helped pressure Parliament to repeal the Act in 1766.\n\n(A) is wrong because it petitioned the Crown and Parliament and did not declare independence, which came in 1776.\n(C) is wrong because the delegates were colonists, not members of Parliament.\n(D) is wrong because it was a political assembly, not a military clash; the battles of Lexington and Concord came in 1775."
     },
     {
       "id": "3-13",
@@ -1971,7 +1971,7 @@ const QUESTIONS = {
         "British policy grew steadily more lenient throughout this entire period of the crisis"
       ],
       "correct": 2,
-      "explanation": "This period should be understood as an escalating action-reaction cycle — each British policy provoked a colonial response, which provoked a harsher British policy in turn, steadily narrowing the space for compromise and pushing toward armed conflict."
+      "explanation": "Correct: (C) Each British policy provoked a colonial response, which provoked a harsher policy, narrowing room for compromise. After the Sugar and Stamp Acts, colonists protested and boycotted, Parliament repealed the Stamp Act but passed the Declaratory Act (1766) and the Townshend duties (1767), further protests and the Boston Massacre (1770) followed, and then the Tea Act and Boston Tea Party led to the Coercive Acts (1774). Each step hardened positions, moving both sides toward conflict.\n\n(A) is wrong because the events were closely linked causally.\n(B) is wrong because colonial boycotts and protests caused repeal of the Stamp Act and Townshend duties.\n(D) is wrong because policy generally became harsher, ending with the Coercive Acts."
     },
     {
       "id": "3-14",
@@ -1984,7 +1984,7 @@ const QUESTIONS = {
         "Full colonial acceptance with no protest"
       ],
       "correct": 1,
-      "explanation": "Colonial boycotts of British goods followed the Townshend Acts (1767), which had imposed taxes on imported goods like glass, tea, and paper."
+      "explanation": "Correct: (B) Colonial boycotts of British goods. The Townshend Acts (1767) placed duties on imports such as glass, lead, paint, paper, and tea, and colonists responded with nonimportation agreements, supported by merchants and groups like the Daughters of Liberty who made homespun cloth. The boycotts hurt British merchants and led Parliament to repeal most of the duties in 1770, keeping the tea tax.\n\n(A) is wrong because the Tea Party occurred in 1773 in response to the Tea Act, not the Townshend duties.\n(C) is wrong because independence was not declared until 1776.\n(D) is wrong because colonists protested strongly, including through boycotts and the Massachusetts Circular Letter."
     },
     {
       "id": "3-15",
@@ -1997,7 +1997,7 @@ const QUESTIONS = {
         "The Constitutional Convention, held thirteen years later"
       ],
       "correct": 1,
-      "explanation": "The First Continental Congress convened in 1774 in direct response to the Coercive Acts, representing a further escalation of cross-colonial political coordination."
+      "explanation": "Correct: (B) The First Continental Congress. In September 1774, delegates from twelve colonies (all but Georgia) met in Philadelphia to coordinate a response to the Coercive Acts. They endorsed the Suffolk Resolves, organized a boycott through the Continental Association, and petitioned the king, but did not declare independence.\n\n(A) is wrong because the Stamp Act Congress met in 1765 to protest the Stamp Act.\n(C) is wrong because the Second Continental Congress met in May 1775, after Lexington and Concord, and later managed the war.\n(D) is wrong because the Constitutional Convention met in 1787 to create a new government."
     },
     {
       "id": "3-16",
@@ -2010,7 +2010,7 @@ const QUESTIONS = {
         "There is no meaningful difference between these two positions at all"
       ],
       "correct": 2,
-      "explanation": "This distinction matters because it explains a genuine nuance in colonial thinking: colonists could accept some forms of British trade regulation (like the loosely-enforced Navigation Acts) while specifically rejecting DIRECT taxation as constitutionally illegitimate — a more precise position than blanket anti-tax sentiment."
+      "explanation": "Correct: (C) This distinction explains why colonists accepted some trade regulation but rejected direct taxation. Colonists had long lived with Navigation Acts that regulated imperial trade and generally accepted them, but they argued that taxes meant to raise revenue, such as the Stamp Act, required consent through elected representatives. Seeing the slogan as a constitutional principle rather than a dislike of paying money explains why they accepted Parliament's regulatory role in some areas and fought it in others.\n\n(A) is wrong because colonists accepted many regulations, especially of trade.\n(B) is wrong because the distinction is key to the colonial argument.\n(D) is wrong because the difference is real: one is a principle about consent, the other a generic complaint about cost."
     },
     {
       "id": "3-17",
@@ -2023,7 +2023,7 @@ const QUESTIONS = {
         "That individuals possess no inherent rights of any kind apart from those the state grants them by law or custom"
       ],
       "correct": 2,
-      "explanation": "Locke's natural rights philosophy held that individuals possess inherent rights to life, liberty, and property, and that legitimate government authority derives specifically from the consent of the governed."
+      "explanation": "Correct: (C) That individuals hold inherent rights to life, liberty, and property, granted only with the people's consent. John Locke's Two Treatises of Government (1689) argued that people have natural rights before government exists and form governments through a social contract to protect them, so government's power rests on the consent of the governed. This idea shaped the Declaration of Independence, which echoed Locke's 'life, liberty, and property' as 'life, liberty and the pursuit of happiness.'\n\n(A) is wrong because it describes the divine right theory that Locke rejected.\n(B) is wrong because Locke criticized absolute monarchy.\n(D) is wrong because Locke held that rights come from nature, not from the state."
     },
     {
       "id": "3-18",
@@ -2036,7 +2036,7 @@ const QUESTIONS = {
         "Absolute monarchy and the centralization of royal power"
       ],
       "correct": 2,
-      "explanation": "Republicanism emphasized civic virtue, a suspicion of concentrated or arbitrary power, and the importance of an engaged, virtuous citizenry — a key ideological framework alongside Lockean natural rights philosophy."
+      "explanation": "Correct: (C) Civic virtue, suspicion of concentrated power, and an engaged citizenry. Republicanism, drawn from classical Rome and English Commonwealth writers, held that a free society depends on citizens who put the public good ahead of private interest, and that power tends to corrupt unless checked. Colonists saw British policies as corrupt exercises of power, and republican ideals shaped their state constitutions and the rejection of monarchy.\n\n(A) is wrong because republicanism supports organized self-government, not anarchy.\n(B) is wrong because it opposes hereditary aristocratic rule.\n(D) is wrong because absolute monarchy is the opposite of a republic."
     },
     {
       "id": "3-19",
@@ -2049,7 +2049,7 @@ const QUESTIONS = {
         "A formal declaration of war against Britain by Congress."
       ],
       "correct": 1,
-      "explanation": "Common Sense was Thomas Paine's influential pamphlet, written in accessible language, arguing directly for independence and significantly shifting public opinion in the months before July 1776."
+      "explanation": "Correct: (B) An influential, accessible pamphlet arguing for independence. Thomas Paine, an English immigrant, published Common Sense in January 1776. He wrote in plain language and attacked hereditary monarchy and the idea of reconciliation with Britain, and the pamphlet sold hundreds of thousands of copies, moving many colonists toward independence before July 1776.\n\n(A) is wrong because it was written by a colonist critic, not issued by the British government.\n(C) is wrong because the war ended in 1783 with the Treaty of Paris, not with a pamphlet.\n(D) is wrong because Congress's formal break was the Declaration of Independence, and Common Sense was a private pamphlet."
     },
     {
       "id": "3-20",
@@ -2062,7 +2062,7 @@ const QUESTIONS = {
         "Yes, because Common Sense had no measurable effect on colonial opinion"
       ],
       "correct": 0,
-      "explanation": "Colonists did not uniformly support independence from the start — through much of the early 1770s, many sought reform and reconciliation within the British Empire; Common Sense helped shift a meaningful portion of opinion toward full independence in the crucial months before July 1776."
+      "explanation": "Correct: (A) No — through the early 1770s many colonists sought reform, not independence. Most colonists wanted to protect their rights within the empire, and as late as the Olive Branch Petition (July 1775) Congress professed loyalty to the king. Colonists were also divided, with Loyalists who stayed with Britain and many neutral, and support for independence grew after the fighting at Lexington and Concord, Common Sense, and the king's hostile response.\n\n(B) is wrong because some, such as Samuel Adams and Paine, did advocate independence.\n(C) is wrong because there was no unanimity from 1763.\n(D) is wrong because Common Sense had a major effect on opinion."
     },
     {
       "id": "3-21",
@@ -2075,7 +2075,7 @@ const QUESTIONS = {
         "It restated Locke's philosophy in identical, highly technical language for scholars"
       ],
       "correct": 0,
-      "explanation": "Common Sense translated Locke's more abstract natural rights philosophy into direct, plainly written, widely accessible language, arguing that hereditary monarchy itself (not just King George III's specific policies) was an illegitimate form of government."
+      "explanation": "Correct: (A) It rendered natural rights philosophy in plain language, arguing monarchy itself was illegitimate. Paine took the ideas of Locke and the Enlightenment about natural rights and consent and presented them without technical vocabulary, using biblical and everyday references so artisans, farmers, and sailors could follow. He also argued that hereditary monarchy was itself unjust, making independence a principled choice rather than a response to specific taxes.\n\n(B) is wrong because the pamphlet drew heavily on Enlightenment thought as well as scripture.\n(C) is wrong because it was aimed at ordinary readers and was read aloud in taverns.\n(D) is wrong because it did not copy Locke in technical language; it simplified him."
     },
     {
       "id": "3-22",
@@ -2088,7 +2088,7 @@ const QUESTIONS = {
         "A right only to petition the government, with no further recourse."
       ],
       "correct": 1,
-      "explanation": "Lockean natural rights philosophy held that people retain a right to overthrow a government that fails to protect their rights or that rules without their consent — a foundational justification for revolutionary resistance."
+      "explanation": "Correct: (B) A right to overthrow that government. In Locke's social contract theory, government exists to protect life, liberty, and property with the consent of the governed, so when it violates that trust by ruling arbitrarily, the people may alter or abolish it. The Declaration of Independence echoes this when it says the people have a right to alter or abolish a destructive government.\n\n(A) is wrong because Locke held that people keep their natural rights and a right to resist.\n(C) is wrong because he did not limit them to compensation from an outside arbiter.\n(D) is wrong because Locke endorsed revolution as a last resort, not merely petitioning."
     },
     {
       "id": "3-23",
@@ -2101,7 +2101,7 @@ const QUESTIONS = {
         "Colonists showed no interest in any ideological justification"
       ],
       "correct": 0,
-      "explanation": "Colonists needed a broader intellectual framework — supplied by Locke's natural rights philosophy and republicanism — to argue that resistance to Britain was a legitimate defense of fundamental rights, not simply lawless rebellion against specific unpopular policies."
+      "explanation": "Correct: (A) A broader framework was needed to justify resisting authority itself. Protesting a single tax could be framed as a dispute over policy, but taking up boycotts, committees, and eventually arms against the Crown required an argument that resistance was lawful and principled. Locke's natural rights and consent theory and republican ideas about corrupt power supplied that argument, which Jefferson later turned into the Declaration of Independence's list of grievances and its claim that people may alter or abolish a government that violates their rights.\n\n(B) is wrong because grievances about taxes alone would not have justified overthrowing the legitimate government in the eyes of colonists or the world.\n(C) is wrong because ideas were central to mobilizing and justifying the Revolution.\n(D) is wrong because colonists read Locke, Montesquieu, and English radical writers and debated their ideas widely."
     },
     {
       "id": "3-24",
@@ -2114,7 +2114,7 @@ const QUESTIONS = {
         "A cause with no relationship to colonial resistance."
       ],
       "correct": 0,
-      "explanation": "Specific tax grievances prompted immediate colonial protest; Enlightenment natural rights philosophy provided the broader ideological legitimation for resistance to established authority itself — two distinct but complementary components of colonial resistance."
+      "explanation": "Correct: (A) Broader ideological legitimation of resistance to authority itself. The analogy pairs a cause with its function: specific tax grievances like the Stamp Act and Townshend duties produced immediate protests, while Enlightenment natural rights philosophy supplied the larger principle that governments exist to protect rights and can be resisted when they fail. Thus the second pair describes justification, not an immediate action.\n\n(B) is wrong because the analogy sets the two terms apart; natural rights ideas were a justifying framework, not the same thing as a protest over taxes.\n(C) is wrong because the ideas were used by colonists, as in Jefferson's Declaration, not exclusively by the British government.\n(D) is wrong because those ideas were closely related to the resistance and shaped its arguments."
     },
     {
       "id": "3-25",
@@ -2127,7 +2127,7 @@ const QUESTIONS = {
         "Thomas Jefferson"
       ],
       "correct": 3,
-      "explanation": "Thomas Jefferson was the primary author of the Declaration of Independence (July 4, 1776), drawing directly on Lockean natural rights philosophy."
+      "explanation": "Correct: (D) Thomas Jefferson. The Second Continental Congress appointed a committee of five (Jefferson, John Adams, Benjamin Franklin, Roger Sherman, and Robert Livingston) to draft a statement of independence, and the committee asked Jefferson, a 33-year-old Virginian known for his writing, to compose the draft in June 1776. Congress edited it and adopted it on July 4, 1776.\n\n(A) is wrong because Franklin served on the committee and made edits but was not the main author.\n(B) is wrong because Alexander Hamilton was not part of the drafting and later became a leading Federalist and Treasury Secretary.\n(C) is wrong because George Washington was commanding the Continental Army, not drafting the declaration."
     },
     {
       "id": "3-26",
@@ -2140,7 +2140,7 @@ const QUESTIONS = {
         "It resulted in immediate British surrender, ending the war outright"
       ],
       "correct": 1,
-      "explanation": "Saratoga's primary longer-term significance was diplomatic — the American victory convinced France to formally ally with the United States (1778), providing crucial support that significantly strengthened the American war effort."
+      "explanation": "Correct: (B) It convinced France to formally ally with the U.S., providing crucial support. At Saratoga (October 1777) American forces under Horatio Gates and Benedict Arnold forced British General John Burgoyne to surrender his army, showing that the Americans could win a major battle. This persuaded France, led by Louis XVI's foreign minister Vergennes, to sign treaties of alliance and commerce in February 1778, bringing in money, supplies, a navy, and later troops.\n\n(A) is wrong because the Declaration came in July 1776, more than a year before Saratoga.\n(C) is wrong because the battle had major diplomatic consequences.\n(D) is wrong because Burgoyne's surrender did not end the war, which continued until Yorktown in 1781 and the treaty in 1783."
     },
     {
       "id": "3-27",
@@ -2153,7 +2153,7 @@ const QUESTIONS = {
         "Bunker Hill (1775)"
       ],
       "correct": 0,
-      "explanation": "The Battle of Yorktown (1781) resulted in British General Cornwallis's surrender, effectively ending major fighting in the Revolutionary War."
+      "explanation": "Correct: (A) Yorktown (1781). In the fall of 1781, Washington and the French commander Rochambeau marched to Virginia, while the French fleet under de Grasse blocked the Chesapeake. Cornwallis, besieged on the Yorktown peninsula, surrendered on October 19, 1781, and although skirmishes continued, Britain's government soon began peace negotiations.\n\n(B) is wrong because Lexington and Concord (April 1775) were the first battles of the war.\n(C) is wrong because Saratoga (1777) ended with General Burgoyne's surrender, not Cornwallis's.\n(D) is wrong because Bunker Hill (June 1775) was an early British victory costly to them, and was not the war's ending."
     },
     {
       "id": "3-28",
@@ -2166,7 +2166,7 @@ const QUESTIONS = {
         "An alliance between Britain and France against the United States."
       ],
       "correct": 2,
-      "explanation": "The Treaty of Paris (1783) formally ended the Revolutionary War, recognizing American independence and establishing the new nation's boundaries."
+      "explanation": "Correct: (C) Formal recognition of American independence and the war's boundaries. The 1783 Treaty of Paris, negotiated by John Adams, Benjamin Franklin, and John Jay, recognized the United States as independent and set its boundaries roughly at the Mississippi River on the west, Canada on the north, and Spanish Florida on the south. It also dealt with debts and Loyalist property claims, which led to later disputes.\n\n(A) is wrong because the Proclamation of 1763 had limited settlement west of the Appalachians and the new treaty gave the United States land beyond it.\n(B) is wrong because the treaty ended British rule.\n(D) is wrong because France had been America's ally against Britain, not Britain's ally against America."
     },
     {
       "id": "3-29",
@@ -2179,7 +2179,7 @@ const QUESTIONS = {
         "Saratoga carried no diplomatic consequence of any kind whatsoever"
       ],
       "correct": 2,
-      "explanation": "Explaining Saratoga purely in terms of immediate battlefield outcome misses its more historically significant diplomatic consequence — securing the French alliance that provided crucial support arguably decisive to the war's ultimate outcome."
+      "explanation": "Correct: (C) Saratoga's significance is diplomatic — it secured the French alliance. By itself the surrender of Burgoyne's army (October 1777) did not end British strength, since the British still held New York City and occupied Philadelphia. Its lasting importance was convincing France that the Americans could win, leading to the 1778 alliance that supplied money, ships, and troops, and widened the war into a global conflict that stretched British resources.\n\n(A) is wrong because battlefield results do not by themselves decide all wars; outside support and diplomacy mattered here.\n(B) is wrong because the battle was a turning point.\n(D) is wrong because it had one of the most important diplomatic consequences of the war."
     },
     {
       "id": "3-30",
@@ -2192,7 +2192,7 @@ const QUESTIONS = {
         "Formal diplomatic recognition only, with no material aid provided"
       ],
       "correct": 0,
-      "explanation": "The Franco-American Alliance (1778), secured following Saratoga, provided crucial military supplies, naval support, and financing — support that significantly strengthened the American war effort."
+      "explanation": "Correct: (A) Military supplies, naval support, and financing. Even before 1778 France secretly supplied arms and money through Beaumarchais' firm; after the alliance it provided loans, ships, and thousands of soldiers, including Rochambeau's army and de Grasse's fleet, and it also fought Britain in the Caribbean and elsewhere. This help made possible the Yorktown campaign.\n\n(B) is wrong because France gave real material aid, not just symbolic recognition.\n(C) is wrong because the alliance included military and naval forces as well as loans.\n(D) is wrong because French support went well beyond diplomatic recognition."
     },
     {
       "id": "3-31",
@@ -2205,7 +2205,7 @@ const QUESTIONS = {
         "It played no role whatsoever in the Yorktown campaign"
       ],
       "correct": 0,
-      "explanation": "French naval support helped trap Cornwallis's forces at Yorktown, a critical factor contributing to this decisive American victory — a direct, concrete illustration of the French alliance's practical military value."
+      "explanation": "Correct: (A) French naval power helped trap Cornwallis's forces, a critical factor in the victory. In September 1781 a French fleet under Admiral de Grasse defeated a British squadron at the Battle of the Chesapeake (the Capes) and sealed off the bay, so Cornwallis could neither be resupplied nor evacuated by sea. Washington and Rochambeau's combined army besieged him by land, forcing surrender on October 19.\n\n(B) is wrong because French ships operated in North American and Caribbean waters, including the Chesapeake.\n(C) is wrong because the fleet arrived before the siege ended and made it possible.\n(D) is wrong because Yorktown could not have succeeded without French naval control of the bay."
     },
     {
       "id": "3-32",
@@ -2218,7 +2218,7 @@ const QUESTIONS = {
         "The 1783 Treaty of Paris, signed seven years later"
       ],
       "correct": 2,
-      "explanation": "Jefferson drew most directly on Lockean natural rights philosophy in composing the Declaration of Independence, reflecting Section 3.3's ideological content."
+      "explanation": "Correct: (C) Lockean natural rights philosophy. The Declaration opens with the claim that all men are created equal with unalienable rights to life, liberty, and the pursuit of happiness, that governments are instituted to secure these rights, and that they derive power from the consent of the governed, ideas that Jefferson took from Locke's Two Treatises. The long list of grievances against George III then argues that the king had broken that contract.\n\n(A) is wrong because the Navigation Acts were British trade laws that the colonists objected to, not an intellectual source.\n(B) is wrong because Magna Carta influenced ideas of rights under law, but the Declaration did not draw on it exclusively.\n(D) is wrong because the 1783 treaty came after the Declaration, not before."
     },
     {
       "id": "3-33",
@@ -2231,7 +2231,7 @@ const QUESTIONS = {
         "Congress could tax citizens directly at any rate it alone chose to set"
       ],
       "correct": 0,
-      "explanation": "Under the Articles of Confederation, Congress could only request funds from states, with no independent power to tax directly — a central structural weakness."
+      "explanation": "Correct: (A) Congress could only request funds from states, with no direct power. Under the Articles (ratified 1781) Congress could ask states for money, called requisitions, but could not force them to pay and could not tax citizens directly. States often paid late or not at all, leaving the national government unable to pay war debts or soldiers, which fueled demands for a stronger government.\n\n(B) is wrong because Congress did not have taxing power.\n(C) is wrong because the lack of taxing power was one of the major complaints.\n(D) is wrong because Congress could not tax citizens directly at all."
     },
     {
       "id": "3-34",
@@ -2244,7 +2244,7 @@ const QUESTIONS = {
         "The framers had no prior experience with any form of government"
       ],
       "correct": 1,
-      "explanation": "The Articles' deliberately weak central government directly reflected colonists' recent experience with centralized British tyranny and a genuine fear of recreating that same concentration of power domestically."
+      "explanation": "Correct: (B) This weakness reflected colonists' fear of recreating the centralized British tyranny they had fought. The Articles (drafted 1777, ratified 1781) created a league of sovereign states with a one-chamber Congress and no executive, because Americans had just fought to escape a distant government that taxed them without consent. States kept most power, which also reflected republican ideas that liberty is safest in small, close-to-the-people governments.\n\n(A) is wrong because the structure was a conscious choice.\n(C) is wrong because the Declaration does not prescribe a form of government; it states grievances against the king.\n(D) is wrong because colonists had long experience with colonial assemblies and local government."
     },
     {
       "id": "3-35",
@@ -2257,7 +2257,7 @@ const QUESTIONS = {
         "A treaty formally ending the Revolutionary War in 1783"
       ],
       "correct": 2,
-      "explanation": "The Northwest Ordinance (1787) was a significant, lasting policy success under the otherwise weak Articles of Confederation, establishing an orderly process for admitting new states, banning slavery in the Northwest Territory, and providing for public education funding."
+      "explanation": "Correct: (C) A lasting success: an orderly process for new states, banning slavery there. The Northwest Ordinance of 1787 organized the territory north of the Ohio River and east of the Mississippi, set steps for a territory to become a state on equal terms once it reached 60,000 free inhabitants, protected civil liberties, set aside land for schools, and banned slavery in the territory. It set the model for later expansion.\n\n(A) is wrong because it was not a tax, and the tax revolt of western Pennsylvania farmers was the Whiskey Rebellion in 1794.\n(B) is wrong because its principles endured and were reaffirmed by the new Congress in 1789.\n(D) is wrong because the Treaty of Paris ended the war in 1783."
     },
     {
       "id": "3-36",
@@ -2270,7 +2270,7 @@ const QUESTIONS = {
         "An uprising of enslaved people in the state of Georgia"
       ],
       "correct": 0,
-      "explanation": "Shays' Rebellion was an uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection and tax policies, exposing the Articles of Confederation's practical weaknesses."
+      "explanation": "Correct: (A) An uprising of debt-burdened Massachusetts farmers protesting aggressive debt collection. After the war, western Massachusetts farmers, led by Daniel Shays, faced high taxes and creditors who foreclosed on their land and sent debtors to jail, and in 1786-87 they closed courts and attempted to seize an arsenal at Springfield. The uprising was put down by the state militia but frightened many leaders.\n\n(B) is wrong because no party formed to oppose Washington's election, which came in 1789.\n(C) is wrong because the rebels were Americans, not British invaders.\n(D) is wrong because the uprising had nothing to do with slavery or Georgia."
     },
     {
       "id": "3-37",
@@ -2283,7 +2283,7 @@ const QUESTIONS = {
         "It could not respond effectively, lacking a standing army or taxing power; Massachusetts used a private militia"
       ],
       "correct": 3,
-      "explanation": "The national government could not respond effectively to Shays' Rebellion, since it had no standing army or independent taxing power under the Articles — Massachusetts had to rely on a privately funded militia, vividly exposing this structural weakness."
+      "explanation": "Correct: (D) It could not respond effectively, lacking a standing army or taxing power; Massachusetts used a private militia. Congress had no money to raise troops and little authority over the states, so Massachusetts leaders gathered a militia funded by wealthy Boston merchants under General Benjamin Lincoln, which dispersed the rebels in early 1787. The episode showed that the national government could not protect order or property.\n\n(A) is wrong because the Confederation had no well-funded army.\n(B) is wrong because it was an American domestic event, not British.\n(C) is wrong because the rebels' demands were not adopted nationally, though the state later pardoned most of them and some relief followed."
     },
     {
       "id": "3-38",
@@ -2296,7 +2296,7 @@ const QUESTIONS = {
         "A stronger essay explains WHY the framers chose this weak structure first"
       ],
       "correct": 3,
-      "explanation": "Acknowledging the deliberate reasoning behind the Articles' weak design (genuine fear of centralized tyranny) before explaining its practical problems produces a stronger, more complete historical argument than treating the weakness as an unexplained mistake."
+      "explanation": "Correct: (D) A stronger essay explains WHY the framers chose this weak structure first. The Articles were not a mistake but the product of fear of tyranny after the British experience, so a good argument starts there and then shows how the lack of taxation power, a single vote per state, the unanimity needed to amend, and the inability to regulate commerce caused problems. This gives context and shows how the Constitution responded to a real tradeoff between liberty and order.\n\n(A) is wrong because the weak design was deliberate.\n(B) is wrong because the intent is directly relevant to understanding the Convention's choices.\n(C) is wrong because the reasoning matters in explaining both the design and the later change."
     },
     {
       "id": "3-39",
@@ -2309,7 +2309,7 @@ const QUESTIONS = {
         "Only the largest three states received votes."
       ],
       "correct": 0,
-      "explanation": "Under the Articles of Confederation, each state received one vote in Congress regardless of size or population — a structural feature later replaced by the Great Compromise's population-based House and equal-representation Senate."
+      "explanation": "Correct: (A) Each state received one vote, regardless of size or population. Under the Articles, delegations from each state cast a single vote in Congress, so Rhode Island had as much voice as Virginia, and passing major measures took nine of thirteen states. Large states resented this, and the question of representation became a central fight at the 1787 Convention, ending with the Great Compromise.\n\n(B) is wrong because states were the voting units.\n(C) is wrong because proportional voting is what large states wanted and what the House later used, not what the Articles had.\n(D) is wrong because every state, not just three, had a vote."
     },
     {
       "id": "3-40",
@@ -2322,7 +2322,7 @@ const QUESTIONS = {
         "Amendment required only a simple majority of states."
       ],
       "correct": 2,
-      "explanation": "Amending the Articles of Confederation required unanimous consent from all states — an extremely high bar that made reforming the document's structural weaknesses very difficult in practice."
+      "explanation": "Correct: (C) Amendment required unanimous consent from all states. Article XIII required that every state's legislature agree to any change, so a single state, such as Rhode Island, could block reforms like a national impost (tax on imports) in 1781 and 1786. This made correcting the Articles from within nearly impossible and led reformers to call the Philadelphia Convention of 1787, which proposed a new Constitution requiring ratification by nine states.\n\n(A) is wrong because there was an amendment process.\n(B) is wrong because states had to approve.\n(D) is wrong because a simple majority was not enough."
     },
     {
       "id": "3-41",
@@ -2335,7 +2335,7 @@ const QUESTIONS = {
         "It led to the immediate ratification of a new Constitution by all of the states"
       ],
       "correct": 2,
-      "explanation": "Shays' Rebellion became a key catalyst for reform because it vividly and concretely exposed, in a way abstract arguments about the Articles' structure could not, the real-world danger of a national government too weak to maintain basic order — directly pushing many leaders toward supporting a stronger central government."
+      "explanation": "Correct: (C) It exposed, more vividly than abstract argument could, the danger of a government too weak to keep order. Shays' Rebellion (1786-87) showed that Congress could not raise an army or funds to put down an armed uprising, and made propertied leaders like Washington, Madison, and Hamilton fear disorder and attacks on property. It added urgency to the call for the Constitutional Convention in Philadelphia in May 1787.\n\n(A) is wrong because it was cited as a reason for the Convention.\n(B) is wrong because it convinced many that the Articles needed change.\n(D) is wrong because the Constitution was not ratified until 1788, and only after debate over nine states' approval."
     },
     {
       "id": "3-42",
@@ -2348,7 +2348,7 @@ const QUESTIONS = {
         "A dispute over presidential term limits and re-election rules"
       ],
       "correct": 1,
-      "explanation": "The Great (Connecticut) Compromise resolved the large-state/small-state representation dispute by creating a bicameral legislature — a House based on population and a Senate with equal representation per state."
+      "explanation": "Correct: (B) The large/small-state dispute, resolved via a bicameral legislature. Large states favored the Virginia Plan (representation by population), small states favored the New Jersey Plan (equal votes), and in July 1787 Roger Sherman and other Connecticut delegates proposed a House based on population and a Senate with two members per state. This compromise saved the Convention.\n\n(A) is wrong because slavery was dealt with in separate compromises, like the Three-Fifths Compromise and the 1808 slave trade clause.\n(C) is wrong because the capital's location was settled later, by the 1790 Compromise tied to Hamilton's debt plan.\n(D) is wrong because the president's term and re-election were debated separately."
     },
     {
       "id": "3-43",
@@ -2361,7 +2361,7 @@ const QUESTIONS = {
         "It immediately ended slavery in three-fifths of all states under the new government"
       ],
       "correct": 0,
-      "explanation": "The Three-Fifths Compromise counted enslaved people as three-fifths of a person SOLELY for calculating a state's total population for representation in the House and for federal taxation — it granted enslaved people no political rights whatsoever."
+      "explanation": "Correct: (A) It counted enslaved people as three-fifths of a person solely for representation and taxation. Delegates at the 1787 Convention, with the South wanting enslaved people counted for House seats and the North wanting them counted for taxes, agreed that each enslaved person would count as three-fifths of a free person in apportioning representatives and direct taxes. It gave enslaved people no rights and no vote.\n\n(B) is wrong because it did not grant citizenship, even partial.\n(C) is wrong because enslaved people had no vote at all; the clause only affected how states' populations were counted.\n(D) is wrong because it did not end slavery anywhere; the Constitution protected slavery in various ways."
     },
     {
       "id": "3-44",
@@ -2374,7 +2374,7 @@ const QUESTIONS = {
         "It increased slaveholding states' power by boosting their counted population"
       ],
       "correct": 3,
-      "explanation": "The Three-Fifths Compromise increased slaveholding states' political power by boosting their total counted population for House representation and Electoral College votes, entirely independent of any political voice for enslaved people themselves."
+      "explanation": "Correct: (D) It increased slaveholding states' power by boosting their counted population. Southern states got additional seats in the House and additional electors in the Electoral College for people who were held in bondage and denied any political voice. This gave slaveholding states disproportionate influence, helping, for example, Jefferson win the presidency in 1800 and shaping national policy for decades.\n\n(A) is wrong because the clause directly affected representation and electors.\n(B) is wrong because it increased rather than reduced Southern power.\n(C) is wrong because it affected the House (and therefore electors, who equal House plus Senate seats), not the Senate, where each state has two seats."
     },
     {
       "id": "3-45",
@@ -2387,7 +2387,7 @@ const QUESTIONS = {
         "The international slave trade was immediately and permanently banned."
       ],
       "correct": 1,
-      "explanation": "The Commerce Compromise specified that Congress could regulate interstate and foreign commerce but could not interfere with the international slave trade until 1808 — a specific, time-limited protection for the trade."
+      "explanation": "Correct: (B) Congress could not interfere with the international slave trade until 1808. At the Convention, delegates from South Carolina and Georgia insisted they would not join a union that let Congress end the slave trade, while Northern delegates wanted federal power over commerce. The compromise gave Congress power to regulate foreign and interstate commerce but barred it from prohibiting the importation of enslaved people before 1808 (Article I, Section 9), and Congress banned the import effective January 1, 1808.\n\n(A) is wrong because the compromise dealt precisely with the trade.\n(C) is wrong because the clause was a federal limit with a set date, not permanent state control.\n(D) is wrong because the ban was neither immediate nor part of the Constitution's text."
     },
     {
       "id": "3-46",
@@ -2400,7 +2400,7 @@ const QUESTIONS = {
         "A stronger central government, capable of the effective action the Articles lacked"
       ],
       "correct": 3,
-      "explanation": "Federalists favored a stronger central government, capable of the effective national action that the weak Articles of Confederation had proven incapable of providing."
+      "explanation": "Correct: (D) A stronger central government, capable of the effective action the Articles lacked. Federalists such as Hamilton, Madison, and Washington argued that a national government needed power to tax, regulate commerce, raise an army, and enforce laws, since the Articles had failed to pay debts, resolve trade disputes, or stop Shays' Rebellion. They defended the Constitution's checks and balances and federal structure as a safeguard against tyranny, as in Federalist No. 10 and No. 51.\n\n(A) is wrong because Federalists created a national government.\n(B) is wrong because they supported ratification and campaigned for it.\n(C) is wrong because they wanted a government with real powers over defense and foreign affairs."
     },
     {
       "id": "3-47",
@@ -2413,7 +2413,7 @@ const QUESTIONS = {
         "That it granted far too little power to the new central government"
       ],
       "correct": 0,
-      "explanation": "Anti-Federalists feared that centralized power under the new Constitution could become just as tyrannical as the British authority colonists had recently overthrown, and specifically criticized its initial lack of an explicit bill of rights."
+      "explanation": "Correct: (A) That centralized power could grow tyrannical without a bill of rights. Anti-Federalists such as Patrick Henry, George Mason, and Richard Henry Lee feared that a strong national government, with power to tax and maintain an army, would threaten state authority and individual liberty. They pointed out that the Constitution as written lacked guarantees of freedom of speech, religion, and trial by jury, and insisted on amendments.\n\n(B) is wrong because the Constitution did not create many new states, only allowed Congress to admit them.\n(C) is wrong because the House of Representatives was part of the Constitution.\n(D) is wrong because their complaint was that the government had too much, not too little, power."
     },
     {
       "id": "3-48",
@@ -2426,7 +2426,7 @@ const QUESTIONS = {
         "Anti-Federalist pressure over the Constitution's initial lack of a bill of rights"
       ],
       "correct": 3,
-      "explanation": "Anti-Federalist pressure and concerns about the Constitution's initial lack of explicit rights protections directly produced the Bill of Rights, added specifically to secure ratification in key states."
+      "explanation": "Correct: (D) Anti-Federalist pressure over the Constitution's initial lack of a bill of rights. To win ratification in states like Massachusetts, Virginia, and New York, Federalists promised to add amendments protecting individual rights. James Madison drafted them in the first Congress, and ten were ratified in 1791 as the Bill of Rights, protecting freedoms such as speech, religion, and due process from federal power.\n\n(A) is wrong because the king had no role in a government independent since 1783.\n(B) is wrong because the Northwest Ordinance governed a territory.\n(C) is wrong because Federalists did not demand it to strengthen the executive; the amendments limited government."
     },
     {
       "id": "3-49",
@@ -2439,7 +2439,7 @@ const QUESTIONS = {
         "Hamilton, Madison, and Jay"
       ],
       "correct": 3,
-      "explanation": "Hamilton, Madison, and Jay authored the Federalist Papers, a series of essays building public support for ratifying the new Constitution."
+      "explanation": "Correct: (D) Hamilton, Madison, and Jay. In 1787-88, Alexander Hamilton, James Madison, and John Jay wrote 85 essays under the pseudonym Publius in New York newspapers to urge voters to ratify the Constitution, explaining separation of powers, federalism, and the dangers of faction. Hamilton wrote most, Madison wrote famous ones like No. 10 and No. 51, and Jay wrote a few on foreign affairs.\n\n(A) is wrong because Locke died in 1704, Paine did not write them, and Jefferson was in France.\n(B) is wrong because Jefferson and Paine were not authors.\n(C) is wrong because Washington, Adams, and Franklin did not write them."
     },
     {
       "id": "3-50",
@@ -2452,7 +2452,7 @@ const QUESTIONS = {
         "The immediate and total abolition of all federal taxation"
       ],
       "correct": 2,
-      "explanation": "Hamilton's financial program included federal assumption of state debts, a national bank, and protective tariffs — provoking intense constitutional debate over the scope of federal power."
+      "explanation": "Correct: (C) Federal assumption of state debts, a national bank, and protective tariffs. As Treasury Secretary, Alexander Hamilton proposed that the federal government take over state war debts and fund the national debt at face value to build credit, create the Bank of the United States (1791) to manage money, and impose tariffs and excise taxes to support manufacturing and raise revenue. Critics such as Jefferson and Madison, representing agrarian interests, thought it favored northern financiers and exceeded constitutional authority.\n\n(A) is wrong because Hamilton created the Bank.\n(B) is wrong because the program strengthened the national government under the Constitution.\n(D) is wrong because Hamilton relied on taxes such as tariffs and the whiskey excise."
     },
     {
       "id": "3-51",
@@ -2465,7 +2465,7 @@ const QUESTIONS = {
         "Reading the Constitution to grant no powers beyond those explicitly listed"
       ],
       "correct": 0,
-      "explanation": "Loose construction, argued by Hamilton, interpreted the Constitution (particularly via the 'necessary and proper' clause) to justify implied federal powers beyond those explicitly listed — contrasted with Jefferson and Madison's strict construction."
+      "explanation": "Correct: (A) Reading the 'necessary and proper' clause to justify implied powers. Hamilton argued that Article I, Section 8's clause let Congress use means not specifically listed if they helped carry out enumerated powers, so a national bank was constitutional because it aided taxing, borrowing, and regulating commerce. He made this case in his 1791 opinion to Washington on the bank.\n\n(B) is wrong because loose construction is the opposite of strict construction.\n(C) is wrong because Hamilton accepted the Constitution and helped write the Federalist Papers to defend it.\n(D) is wrong because limiting government to explicit powers describes strict construction."
     },
     {
       "id": "3-52",
@@ -2478,7 +2478,7 @@ const QUESTIONS = {
         "A position identical in substance to loose construction of the Constitution's powers"
       ],
       "correct": 0,
-      "explanation": "Strict construction, argued by Jefferson and Madison, limited federal power to only those powers explicitly listed in the Constitution, out of fear that looser interpretation could justify nearly unlimited federal power."
+      "explanation": "Correct: (A) Limiting federal power to only what the Constitution explicitly lists, fearing broader claims. Jefferson and Madison argued that the Constitution's Tenth Amendment reserves unlisted powers to the states, so because the document does not mention a bank, Congress had no power to charter one. They feared that a broad reading would let the federal government expand without limit, serving moneyed interests over farmers.\n\n(B) is wrong because they supported independence and the Constitution, not British rule.\n(C) is wrong because Madison was the Constitution's chief architect.\n(D) is wrong because strict construction differs from loose construction in the extent of federal power."
     },
     {
       "id": "3-53",
@@ -2491,7 +2491,7 @@ const QUESTIONS = {
         "Federalists and Democratic-Republicans"
       ],
       "correct": 3,
-      "explanation": "The Federalists (Hamilton-aligned) and the Democratic-Republicans (Jefferson/Madison-aligned) emerged as the first American political parties from this constitutional debate."
+      "explanation": "Correct: (D) Federalists and Democratic-Republicans. Hamilton's allies, who favored a strong national government, commerce, and ties with Britain, formed the Federalist Party; Jefferson and Madison's supporters, who favored states' rights, agrarian interests, and France, formed the Democratic-Republican Party in the 1790s. The split deepened over Hamilton's financial program, the Jay Treaty, and the French Revolution.\n\n(A) is wrong because Progressives came more than a century later and the Republican Party arose in the 1850s.\n(B) is wrong because Loyalists and Patriots were Revolutionary-era groups.\n(C) is wrong because Whigs and Democrats appeared in the 1830s."
     },
     {
       "id": "3-54",
@@ -2504,7 +2504,7 @@ const QUESTIONS = {
         "A dispute over the location of the new national capital between northern and southern leaders"
       ],
       "correct": 2,
-      "explanation": "The Whiskey Rebellion (1794) was an uprising of Pennsylvania farmers resisting a federal excise tax on whiskey, suppressed by federal militia personally led by Washington."
+      "explanation": "Correct: (C) An uprising of Pennsylvania farmers resisting a federal whiskey excise. Hamilton's 1791 excise tax on distilled spirits hit western farmers, who turned grain into whiskey that served as currency because it was easier to carry to market. In 1794, farmers in western Pennsylvania attacked tax collectors, and Washington called out about 13,000 militia to suppress the protest.\n\n(A) is wrong because it was not a slave uprising and happened in Pennsylvania.\n(B) is wrong because conflicts with Native Americans in the Ohio Valley were separate, like the Battle of Fallen Timbers in 1794.\n(D) is wrong because the capital's location was settled in 1790."
     },
     {
       "id": "3-55",
@@ -2517,7 +2517,7 @@ const QUESTIONS = {
         "Both rebellions received an essentially identical government response from national leaders"
       ],
       "correct": 2,
-      "explanation": "Washington personally led federal militia to suppress the Whiskey Rebellion, directly demonstrating the new federal government's willingness and practical capacity to enforce its authority — a stark, deliberate contrast with the Articles-era government's inability to respond effectively to Shays' Rebellion."
+      "explanation": "Correct: (C) Washington personally led federal militia to suppress it, showing capability the Articles-era government lacked. In 1794 Washington federalized thousands of state militia and rode out with them before turning command over to others, showing that the Constitution gave the government taxing power and the means to enforce laws. In 1786-87, Congress under the Articles had no army or income, and Massachusetts had to raise a private force.\n\n(A) is wrong because the government acted forcefully.\n(B) is wrong because the response to the Whiskey Rebellion was stronger, not weaker.\n(D) is wrong because the responses differed sharply."
     },
     {
       "id": "3-56",
@@ -2530,7 +2530,7 @@ const QUESTIONS = {
         "Founders had actively hoped for organized political parties to form"
       ],
       "correct": 2,
-      "explanation": "Many founders explicitly viewed organized political 'factions' as dangerous to republican government — making the emergence of the Federalist and Democratic-Republican parties, which several of these same founders helped create, a genuinely ironic outcome relative to their own stated hopes."
+      "explanation": "Correct: (C) Many founders viewed 'factions' as dangerous, yet helped create one anyway. Washington warned against the spirit of party in his 1796 Farewell Address, and Madison in Federalist No. 10 described factions as a threat to the public good. Even so, disputes over Hamilton's economic program, the Jay Treaty, and the French Revolution led Hamilton and Adams on one side and Jefferson and Madison on the other to organize rival parties.\n\n(A) is wrong because founders did have stated views on parties, mostly negative.\n(B) is wrong because it shaped American politics.\n(D) is wrong because they did not hope for organized parties."
     },
     {
       "id": "3-57",
@@ -2543,7 +2543,7 @@ const QUESTIONS = {
         "Formal annexation of French colonial territory."
       ],
       "correct": 0,
-      "explanation": "Washington established a precedent of neutrality in European conflicts, expressed in the Neutrality Proclamation of 1793 regarding the war between France and Britain."
+      "explanation": "Correct: (A) Neutrality, as expressed in the Neutrality Proclamation of 1793. When Britain and France went to war after the French Revolution, Washington declared that the United States would be impartial toward both, though some like Jefferson favored France and Hamilton favored Britain. His Farewell Address (1796) later warned against permanent alliances, a principle that shaped American foreign policy for a century.\n\n(B) is wrong because Washington pursued diplomacy, such as the Jay Treaty and Pinckney's Treaty.\n(C) is wrong because the 1778 alliance with France was effectively set aside.\n(D) is wrong because the U.S. did not annex French colonies, and the Louisiana Purchase came in 1803."
     },
     {
       "id": "3-58",
@@ -2556,7 +2556,7 @@ const QUESTIONS = {
         "Northern commercial and financial interests"
       ],
       "correct": 3,
-      "explanation": "Northern commercial and financial interests were most aligned with the Federalist Party, contrasted with the Democratic-Republicans' southern agrarian base."
+      "explanation": "Correct: (D) Northern commercial and financial interests. Federalists, led by Hamilton, drew strength from merchants, bankers, and shippers in New England and Middle Atlantic cities, who benefited from the national bank, funded debt, tariffs, and trade with Britain. Democratic-Republicans drew most support from southern and western farmers, planters, and artisans.\n\n(A) is wrong because southern agrarian interests were the Democratic-Republican base.\n(B) is wrong because western settlers, who disliked the whiskey excise, tended away from the Federalists.\n(C) is wrong because there were identifiable regional patterns."
     },
     {
       "id": "3-59",
@@ -2569,7 +2569,7 @@ const QUESTIONS = {
         "A term with no real connection to the Revolutionary era at all"
       ],
       "correct": 0,
-      "explanation": "Republican Motherhood reconceived women's role as raising virtuous future citizens for the new republic — genuinely elevating the cultural importance of female education, but without producing any expansion of formal political rights."
+      "explanation": "Correct: (A) Women's role raising virtuous citizens, elevating education, not rights. After the Revolution, Americans argued that a republic needed informed, moral citizens and that mothers should teach them civic virtue, which led to more academies for girls, such as the Young Ladies' Academy of Philadelphia. It raised the value of women's education but kept their political role indirect, and married women still lacked legal independence under coverture.\n\n(B) is wrong because it was an ideal, not a party.\n(C) is wrong because women could not generally vote, except briefly in New Jersey until 1807.\n(D) is wrong because the idea grew from republican ideals of the Revolutionary era."
     },
     {
       "id": "3-60",
@@ -2582,7 +2582,7 @@ const QUESTIONS = {
         "Yes, it resulted in immediate voting rights for women nationwide under the new Constitution and state laws"
       ],
       "correct": 0,
-      "explanation": "Abigail Adams's private appeal to her husband John to 'remember the ladies' did not translate into any legal change for women's political rights, despite its historical significance as an early expression of concern for women's status."
+      "explanation": "Correct: (A) No — it produced no legal change, despite its significance as an early expression of concern for women's status. In March 1776 Abigail Adams wrote to John Adams asking him and the Continental Congress to 'remember the ladies' and avoid giving husbands unlimited power over wives. John responded jokingly, and the new laws left women's legal status under coverture unchanged.\n\n(B) is wrong because her letters survive.\n(C) is wrong because no state changed laws as a result.\n(D) is wrong because women did not gain national voting rights until the Nineteenth Amendment in 1920."
     },
     {
       "id": "3-61",
@@ -2595,7 +2595,7 @@ const QUESTIONS = {
         "Rights rhetoric was in tension with slavery, prompting northern abolition"
       ],
       "correct": 3,
-      "explanation": "Revolutionary rhetoric emphasizing universal natural rights and liberty created genuine ideological tension with slavery's continued existence, prompting several northern states to begin gradual abolition processes in the years following independence."
+      "explanation": "Correct: (D) Rights rhetoric was in tension with slavery, prompting northern abolition. The Declaration's claim that all men are created equal made slavery hard to defend, and enslaved people such as those who petitioned Massachusetts courts and legislatures pointed to it. Vermont (1777), Pennsylvania (1780 gradual abolition), Massachusetts (court rulings around 1783), and others moved against slavery, while Southern states kept it.\n\n(A) is wrong because the contradiction was recognized by contemporaries.\n(B) is wrong because the ideology did not endorse slavery.\n(C) is wrong because slavery was legal in all 13 states at the start of the Revolution."
     },
     {
       "id": "3-62",
@@ -2608,7 +2608,7 @@ const QUESTIONS = {
         "The South held no meaningful economic reliance on slavery in agriculture or trade"
       ],
       "correct": 2,
-      "explanation": "Despite Revolutionary rhetoric, slavery persisted and, if anything, became further entrenched in the South, directly reflected in the Constitution's own compromises — the Three-Fifths Compromise increased slaveholding states' political power, and the Commerce Compromise protected the international slave trade until 1808."
+      "explanation": "Correct: (C) Slavery persisted and grew further entrenched, reflected in compromises like the Three-Fifths Compromise. In the South, planters shifted to expansion as tobacco declined, and after the cotton gin (1793) enslaved labor became more valuable. The Constitution protected slavery through the Three-Fifths clause, the slave trade clause until 1808, and the Fugitive Slave Clause.\n\n(A) is wrong because Southern states did not abolish slavery; some allowed easier private manumission for a time.\n(B) is wrong because the Constitution's compromises directly reflected slavery.\n(D) is wrong because the Southern economy relied heavily on enslaved labor."
     },
     {
       "id": "3-63",
@@ -2621,7 +2621,7 @@ const QUESTIONS = {
         "Displacement pressure continued, unconstrained by earlier British limits"
       ],
       "correct": 3,
-      "explanation": "Displacement pressure on Native Americans continued and in some ways intensified in the new republic, as the United States pursued westward expansion largely unconstrained by earlier British-imposed limits like the Proclamation of 1763."
+      "explanation": "Correct: (D) Displacement pressure continued, unconstrained by earlier British limits. The Proclamation of 1763 had tried to keep settlers east of the Appalachians, but the Treaty of Paris (1783) gave the new nation land to the Mississippi, and the Northwest Ordinance (1787) opened the Ohio country. Native nations, such as the Shawnee and Miami under Little Turtle, fought back and won at first, but lost at Fallen Timbers (1794) and ceded land in the Treaty of Greenville (1795).\n\n(A) is wrong because expansion accelerated.\n(B) is wrong because Native Americans were not granted citizenship or political rights.\n(C) is wrong because expansion cost them land and sovereignty."
     },
     {
       "id": "3-64",
@@ -2634,7 +2634,7 @@ const QUESTIONS = {
         "This description is, in fact, fully accurate without any qualification"
       ],
       "correct": 0,
-      "explanation": "It is inaccurate because revolutionary rhetoric's actual application was highly UNEVEN across different groups — genuine but limited change for some (northern abolition, Republican Motherhood's cultural elevation of education) alongside significant continuity of restriction for others (southern slavery, Native American displacement, women's formal political rights), requiring a group-by-group analysis rather than one sweeping claim."
+      "explanation": "Correct: (A) Rhetoric applied unevenly — limited change for some, continuity for others. Some groups saw change, such as northern gradual abolition, expanded white male suffrage in some states, and Republican Motherhood for women, but many remained unaffected: slavery deepened in the South, Native Americans faced growing land loss, and women stayed under coverture. A fair assessment looks at each group rather than making a sweeping claim.\n\n(B) is wrong because some change occurred.\n(C) is wrong because liberty did not expand for enslaved people, Native peoples, or women in the same way.\n(D) is wrong because the claim of uniform expansion does not hold."
     },
     {
       "id": "3-65",
@@ -2648,7 +2648,7 @@ const QUESTIONS = {
         "The Constitution resolved this tension permanently, and it never reappeared in any later period of U.S. political history"
       ],
       "correct": 1,
-      "explanation": "This synthesis question directly rewards the unit's opening Skill Builder framework: colonists vs. Britain (Section 3.2) over taxation without representation, the Articles' deliberate weakness followed by the Constitution's stronger structure (Sections 3.5–3.6), and the Federalist/Democratic-Republican construction debate (Section 3.7) all represent the SAME recurring question about how much authority should be concentrated versus distributed, appearing in three structurally similar but substantively different historical moments across this single unit — recognizing this recurring pattern, rather than treating each conflict as a wholly separate topic, is exactly the kind of connective, thematic reasoning that strong LEQ and DBQ responses reward."
+      "explanation": "Correct: (B) Colonists vs. Britain (3.2), Articles vs. Constitution (3.5-3.6), and Federalists vs. Democratic-Republicans (3.7) repeat one question. In each case Americans asked how much power should rest with a central authority versus local governments or individuals: colonists said Parliament could not tax them without consent, the Articles gave nearly all power to states until its weakness (Shays' Rebellion) led to the stronger Constitution, and Hamilton's loose construction clashed with Jefferson and Madison's strict construction over the bank.\n\n(A) is wrong because later sections clearly reflect the same tension.\n(C) is wrong because there is a common thread.\n(D) is wrong because debates over federal versus state power recurred, for example in the nullification crisis and the Civil War."
     }
   ],
   "4": [
@@ -2663,7 +2663,7 @@ const QUESTIONS = {
         "Acquisition of a vast French territory in 1803, doubling the nation's size."
       ],
       "correct": 3,
-      "explanation": "The Louisiana Purchase (1803) was the acquisition of a vast territory from France, roughly doubling the size of the United States. Choice B confuses it with the 1819 Adams-Onís Treaty that acquired Florida from Spain; C describes the unrelated 1763 Proclamation Line; A refers to the 1795 Pinckney Treaty, a separate agreement with Spain over river access."
+      "explanation": "Correct: (D) Acquisition of a vast French territory in 1803, doubling the nation's size. Jefferson sent Robert Livingston and James Monroe to Paris to buy New Orleans, and Napoleon, who had lost his Haitian colony to the slave revolution and needed money for war with Britain, offered all of Louisiana, about 828,000 square miles between the Mississippi and the Rockies, for roughly 15 million dollars. The purchase secured Mississippi River trade and opened land for farmers and, later, the expansion of slavery.\n\n(A) is wrong because Pinckney's Treaty (1795) with Spain gave right of deposit at New Orleans but did not transfer land.\n(B) is wrong because Florida was acquired from Spain in the Adams-Onis Treaty of 1819, after Jefferson.\n(C) is wrong because the Proclamation Line of 1763 was a British restriction, not an American purchase."
     },
     {
       "id": "4-2",
@@ -2676,7 +2676,7 @@ const QUESTIONS = {
         "The Constitution explicitly prohibited any federal acquisition of new territory."
       ],
       "correct": 0,
-      "explanation": "The Constitution nowhere explicitly grants the federal government power to acquire new territory — a genuine problem for the strict-constructionist Jefferson. Choice D overstates the case (the Constitution is silent, not prohibitive); C is false, as no such 1801 amendment existed; B confuses this with an unrelated requirement."
+      "explanation": "Correct: (A) The Constitution grants no explicit power to acquire territory, conflicting with Jefferson's own principles. As a strict constructionist, Jefferson believed the federal government could use only powers listed in the Constitution, and none mentions buying land from a foreign nation. He privately considered proposing an amendment but, fearing Napoleon might withdraw the offer, he accepted the Purchase and the Senate ratified the treaty in October 1803.\n\n(B) is wrong because no war with France was needed; the land was bought by treaty.\n(C) is wrong because there was no 1801 amendment.\n(D) is wrong because the Constitution does not forbid acquiring territory; it simply does not mention it, and the treaty power was used."
     },
     {
       "id": "4-3",
@@ -2689,7 +2689,7 @@ const QUESTIONS = {
         "Jefferson delayed the purchase for over a decade until Congress passed a specific constitutional amendment."
       ],
       "correct": 0,
-      "explanation": "Jefferson had built his identity opposing Hamilton's loose construction, yet relied on that same expansive reading to complete the purchase. D is false — no such amendment was passed or needed; C is false, as Jefferson (not Hamilton) led the negotiation; B reverses history: Jefferson opposed, rather than supported, loose construction throughout his career until this reversal."
+      "explanation": "Correct: (A) Jefferson, a strict constructionist who had opposed Hamilton, relied on expansive federal power to justify it. In 1791 Jefferson had argued that the national bank was unconstitutional because it was not explicitly authorized, yet in 1803 he used the treaty power and implied authority to acquire the land because it would secure the nation's future as an agrarian republic. The irony is that he adopted the kind of broad interpretation he had criticized.\n\n(B) is wrong because Jefferson opposed Hamilton's loose-construction views and bank.\n(C) is wrong because Livingston and Monroe negotiated for Jefferson's administration; Hamilton was not in government.\n(D) is wrong because Jefferson acted quickly and no constitutional amendment was passed."
     },
     {
       "id": "4-4",
@@ -2702,7 +2702,7 @@ const QUESTIONS = {
         "The constitutionality of Jefferson's 1803 purchase of the Louisiana Territory from France."
       ],
       "correct": 0,
-      "explanation": "Marbury v. Madison (1803) established judicial review, a landmark precedent for the judicial branch. C and D describe unrelated later questions never actually ruled on in this case; B refers to a real later dispute (McCulloch v. Maryland, 1819) decided in a separate case."
+      "explanation": "Correct: (A) Judicial review — the Supreme Court's power to declare an act of Congress unconstitutional. In Marbury v. Madison (1803), William Marbury, a last-minute Federalist appointee of John Adams, sued for his commission, but Chief Justice John Marshall ruled that the section of the Judiciary Act of 1789 giving the Court power to hear his case conflicted with Article III. By striking it down, the Court claimed the final say on what the Constitution means, while avoiding a direct clash with Jefferson.\n\n(B) is wrong because the Second Bank's legality was settled in McCulloch v. Maryland (1819).\n(C) is wrong because the Indian Removal Act of 1830 postdates the case.\n(D) is wrong because Marbury had nothing to do with the Louisiana Purchase."
     },
     {
       "id": "4-5",
@@ -2715,7 +2715,7 @@ const QUESTIONS = {
         "John Marshall, appointed Chief Justice by John Adams in 1801."
       ],
       "correct": 3,
-      "explanation": "Chief Justice John Marshall, appointed by outgoing president John Adams in 1801, wrote the landmark opinion in Marbury v. Madison. Madison was the defendant (as Jefferson's Secretary of State) and Jefferson was president when the case was decided, but neither presided over the Court."
+      "explanation": "Correct: (D) John Marshall, appointed Chief Justice by John Adams in 1801. Adams named Marshall, his Secretary of State, to the Court in the last weeks of his term, and Marshall served as Chief Justice until 1835, writing Marbury v. Madison and building federal judicial power.\n\n(A) is wrong because Jefferson was president, not a judge, and the Court was a separate branch.\n(B) is wrong because James Madison was Jefferson's Secretary of State and the named defendant, not the presiding justice.\n(C) is wrong because Andrew Jackson did not become president until 1829."
     },
     {
       "id": "4-6",
@@ -2728,7 +2728,7 @@ const QUESTIONS = {
         "It applied only to the single 1803 case and set no lasting precedent for later rulings."
       ],
       "correct": 1,
-      "explanation": "Judicial review, though nowhere explicit in the Constitution's text, became a foundational and continuously relied-upon precedent. C and D are false — the principle was never confined to one case nor overturned; Congress in fact has no direct mechanism to overturn a constitutional ruling by simple vote, contrary to A."
+      "explanation": "Correct: (B) It strengthened the judiciary's role as a lasting precedent, despite not being explicit in the text. Article III does not say the Court may strike down laws, but Marshall reasoned that the Constitution is supreme law and judges must apply it over conflicting statutes. Later courts used this power, for example in McCulloch v. Maryland (1819) and Dred Scott (1857), making the judiciary an equal branch.\n\n(A) is wrong because Congress did not overturn the ruling, and overturning a constitutional ruling requires a constitutional amendment, not a two-thirds vote.\n(C) is wrong because judicial review became central to constitutional law.\n(D) is wrong because the precedent applies to all later cases."
     },
     {
       "id": "4-7",
@@ -2741,7 +2741,7 @@ const QUESTIONS = {
         "The argument is inaccurate — the Louisiana Purchase shows Jefferson departing from his stated principles."
       ],
       "correct": 3,
-      "explanation": "The Louisiana Purchase shows Jefferson abandoning his strict-constructionist principles when practical benefits outweighed ideological consistency. B mischaracterizes Marbury (which was about judicial review, not federal territorial power); C ignores the Purchase entirely; A is false — ample documentary evidence, including Jefferson's own correspondence, survives."
+      "explanation": "Correct: (D) The argument is inaccurate — the Louisiana Purchase shows Jefferson departing from his stated principles. Jefferson had argued in 1791 that the federal government could exercise only powers explicitly granted, but when Napoleon offered Louisiana in 1803, he accepted without an amendment, because the purchase advanced his vision of a nation of independent farmers. A purely consistent record would not include this.\n\n(A) is wrong because there is ample evidence, including Jefferson's letters about his doubts on the Purchase.\n(B) is wrong because Marbury was a Court decision by Marshall, opposed by Jefferson, not an example of his consistency.\n(C) is wrong because the Purchase and other actions, such as the Embargo Act of 1807, used broad federal power."
     },
     {
       "id": "4-8",
@@ -2754,7 +2754,7 @@ const QUESTIONS = {
         "The Lewis and Clark Expedition, commissioned to explore and map the new territory."
       ],
       "correct": 3,
-      "explanation": "Jefferson commissioned the Lewis and Clark Expedition (1804–1806) to explore and map the Louisiana Territory. Pike led a separate, later expedition mostly through the Southwest; no expedition was led by Jackson, who held no federal exploratory command at this time."
+      "explanation": "Correct: (D) The Lewis and Clark Expedition, commissioned to explore and map the new territory. Jefferson, even before the Purchase was complete, asked Congress to fund Meriwether Lewis and William Clark's Corps of Discovery (1804-1806), which went up the Missouri to the Pacific with help from Sacagawea, a Shoshone woman, to study geography, plants, animals, and Native nations, and to assess trade.\n\n(A) is wrong because the expedition was commissioned.\n(B) is wrong because Zebulon Pike explored the upper Mississippi and southwestern areas (1805-07) in separate expeditions.\n(C) is wrong because Andrew Jackson did not lead any such exploration."
     },
     {
       "id": "4-9",
@@ -2767,7 +2767,7 @@ const QUESTIONS = {
         "The 1830 Indian Removal Act, which provoked a British-backed uprising on the frontier."
       ],
       "correct": 1,
-      "explanation": "British impressment of American sailors, alongside British support for Native resistance on the frontier, was a central cause of the War of 1812. The other three events are unrelated or postdate the war by years (Missouri Compromise, 1820; Indian Removal Act, 1830) and had no causal role in it."
+      "explanation": "Correct: (B) British impressment of American sailors into the Royal Navy against their will. During the Napoleonic Wars Britain seized thousands of sailors from American ships, claiming they were deserters, as in the Chesapeake-Leopard affair of 1807. Together with British trade restrictions and support for Native resistance in the Northwest, which War Hawks like Henry Clay and John C. Calhoun resented, this led Congress to declare war in June 1812.\n\n(A) is wrong because the Missouri Compromise came in 1820, after the war.\n(C) is wrong because the Louisiana Purchase was with France and did not provoke Britain into war.\n(D) is wrong because the Indian Removal Act was passed in 1830, well after."
     },
     {
       "id": "4-10",
@@ -2780,7 +2780,7 @@ const QUESTIONS = {
         "No — the United States formally surrendered and ceded the Northwest Territory to Britain."
       ],
       "correct": 2,
-      "explanation": "The Treaty of Ghent (1814) essentially restored the prewar status quo, with no major territorial changes; the U.S. neither surrendered nor gained Canada, and never held Montreal."
+      "explanation": "Correct: (C) No, the war was inconclusive; the Treaty of Ghent largely restored prewar boundaries. The U.S. failed to conquer Canada and British forces burned Washington in 1814, while the Americans held off the British at Baltimore and Plattsburgh and Jackson won at New Orleans. The treaty, signed on December 24, 1814, returned the prewar situation without mentioning impressment.\n\n(A) is wrong because Canada stayed British.\n(B) is wrong because American attempts to take Montreal failed.\n(D) is wrong because the U.S. did not surrender or cede territory."
     },
     {
       "id": "4-11",
@@ -2793,7 +2793,7 @@ const QUESTIONS = {
         "A gathering of New England Federalists opposed to the war, where secession was even discussed."
       ],
       "correct": 3,
-      "explanation": "The Hartford Convention (1814) gathered New England Federalists opposed to the War of 1812, whose grievances (including talk of secession) later damaged the party. It has no connection to the Constitutional Convention, Southern slaveholders, or the unrelated, earlier Louisiana Purchase negotiations."
+      "explanation": "Correct: (D) A gathering of New England Federalists opposed to the war, where secession was even discussed. Delegates from Massachusetts, Connecticut, Rhode Island, and parts of New Hampshire and Vermont met in Hartford in December 1814 to protest the war, which had hurt New England trade, and proposed constitutional amendments, such as ending the three-fifths clause and requiring a two-thirds vote for war and embargoes. Some members discussed secession, though the convention did not endorse it.\n\n(A) is wrong because it was not a Southern meeting about slavery.\n(B) is wrong because the Constitutional Convention met in Philadelphia in 1787.\n(C) is wrong because it had nothing to do with Louisiana."
     },
     {
       "id": "4-12",
@@ -2806,7 +2806,7 @@ const QUESTIONS = {
         "News of the convention broke alongside Jackson's victory, making Federalists appear unpatriotic."
       ],
       "correct": 3,
-      "explanation": "News of the Hartford Convention's grievances became public at nearly the same moment as Jackson's victory at New Orleans, making the Federalists look unpatriotic just as national pride surged. In reality, the party did not win in 1816 and was not kept secret — its poor timing, not secrecy, caused the damage, and it in fact hastened the party's national collapse rather than leaving it unaffected."
+      "explanation": "Correct: (D) News of the convention broke alongside Jackson's victory, making Federalists appear unpatriotic. Delegates went to Washington with their demands in early 1815 just as news arrived of Jackson's triumph at New Orleans (January 8, 1815) and the Treaty of Ghent, so the Federalists seemed to have been opposing the war at the moment of national success. The party was discredited and faded after 1816.\n\n(A) is wrong because James Monroe won easily in 1816.\n(B) is wrong because the sessions were closed but a report was published.\n(C) is wrong because the damage was severe and the Federalists did not recover nationally."
     },
     {
       "id": "4-13",
@@ -2819,7 +2819,7 @@ const QUESTIONS = {
         "A term commonly used to describe the national mood immediately following the Civil War's end."
       ],
       "correct": 2,
-      "explanation": "The 'Era of Good Feelings' describes the reduced party competition under Democratic-Republican dominance that followed the Federalist Party's collapse. It directly resulted from, not merely coexisted with, the War of 1812's political fallout; it long precedes the Civil War and did not feature a resurgent, competitive Federalist Party."
+      "explanation": "Correct: (C) A period of reduced party competition under one-party Democratic-Republican dominance. After the Federalists collapsed, James Monroe won the 1816 election and was reelected almost unopposed in 1820, and his presidency (1817-1825) saw national optimism, a protective tariff, internal improvements, and nationalist court rulings. The label hides growing sectional conflict, such as the Missouri crisis of 1819-20.\n\n(A) is wrong because competition declined.\n(B) is wrong because 1812-14 was a war, not a standoff.\n(D) is wrong because the label referred to the 1810s-20s, not the post-Civil War era."
     },
     {
       "id": "4-14",
@@ -2832,7 +2832,7 @@ const QUESTIONS = {
         "The formal American annexation of all British territory in Canada."
       ],
       "correct": 0,
-      "explanation": "The Treaty of Ghent (1814) restored prewar boundaries essentially unchanged — neither side annexed territory or gained new land, consistent with the war's inconclusive military outcome."
+      "explanation": "Correct: (A) A restored prewar status quo, with no major territorial changes for either side. Negotiators meeting in Ghent, Belgium, agreed to stop fighting and return conquered land, leaving issues like impressment unresolved because the end of the Napoleonic Wars had made them less urgent. The agreement ended the war on Dec. 24, 1814, and the Senate ratified it in February 1815.\n\n(B) is wrong because the U.S. gained no Canadian territory.\n(C) is wrong because Britain did not annex any American states.\n(D) is wrong because Canada remained British."
     },
     {
       "id": "4-15",
@@ -2845,7 +2845,7 @@ const QUESTIONS = {
         "The war's clear, decisive military victory over Britain overshadows any of its minor political consequences."
       ],
       "correct": 1,
-      "explanation": "Despite being militarily inconclusive, the War of 1812 produced a more historically significant political legacy — surging nationalism and the Federalist Party's collapse — which is why this exam emphasizes those consequences. It was not a decisive military win, nor without consequence, and military and political significance are not interchangeable measures."
+      "explanation": "Correct: (B) Its inconclusive military outcome mattered less than its lasting political legacy of nationalism. Though neither side won, Americans saw the war as a second war of independence, boosted by Jackson's victory and the Star-Spangled Banner, and it brought a rise of national feeling, new support for the Second Bank (1816) and a protective tariff, plus the Federalists' decline. The war also weakened Native resistance east of the Mississippi after Tecumseh's death in 1813.\n\n(A) is wrong because the war had major consequences.\n(C) is wrong because historians do not say they are always equal.\n(D) is wrong because there was no decisive military victory."
     },
     {
       "id": "4-16",
@@ -2858,7 +2858,7 @@ const QUESTIONS = {
         "Thomas Jefferson, the sitting president when the Louisiana Purchase was completed."
       ],
       "correct": 2,
-      "explanation": "Andrew Jackson commanded American forces to victory at the Battle of New Orleans (1815), news of which became tied to the damaging Hartford Convention reports. Jefferson, Washington, and Marshall each played other significant but unrelated roles in this era."
+      "explanation": "Correct: (C) Andrew Jackson, commanding American forces at the Battle of New Orleans in 1815. Jackson's troops, a mix of regulars, militia, free Black soldiers, and Choctaw and other allies, defeated a British assault on January 8, 1815, with heavy British losses. The victory, which occurred after the treaty was signed but before it was known, made Jackson a national hero and made the Hartford Federalists look unpatriotic.\n\n(A) is wrong because Marshall was a judge.\n(B) is wrong because Washington died in 1799.\n(D) is wrong because Jefferson was no longer president in 1815."
     },
     {
       "id": "4-17",
@@ -2871,7 +2871,7 @@ const QUESTIONS = {
         "Connected the Great Lakes to the Atlantic, cutting shipping costs and travel time."
       ],
       "correct": 3,
-      "explanation": "The Erie Canal (completed 1825) connected the Great Lakes to the Atlantic via the Hudson River, dramatically reducing shipping costs and travel time. It did not touch the Mississippi or Pacific, and road/rail construction continued and expanded long after its completion."
+      "explanation": "Correct: (D) Connected the Great Lakes to the Atlantic, cutting shipping costs and travel time. The canal, championed by Governor DeWitt Clinton and finished in 1825, ran about 363 miles from Albany on the Hudson River to Buffalo on Lake Erie, which let farmers in the Midwest ship goods east and settlers move west cheaply, and cut freight costs dramatically. It made New York City the nation's leading port.\n\n(A) is wrong because roads, other canals, and railroads grew after it.\n(B) is wrong because it did not reach the Mississippi or Pacific.\n(C) is wrong because its effects were large."
     },
     {
       "id": "4-18",
@@ -2884,7 +2884,7 @@ const QUESTIONS = {
         "A political voting system that removed property requirements for white male suffrage."
       ],
       "correct": 1,
-      "explanation": "The Lowell System was an early American industrial system, notably employing young unmarried women in Massachusetts textile mills — a key example of early industrialization, distinct from canal transportation, suffrage reform, or subsistence farming."
+      "explanation": "Correct: (B) An early industrial system employing young women in Massachusetts textile mills. In the 1820s Boston investors built mills at Lowell, where young unmarried farm daughters worked under strict rules and lived in company boardinghouses, allowing them to earn wages and have some independence. Over time, wage cuts and speedups led to strikes in the 1830s and replacement by immigrant workers.\n\n(A) is wrong because the system was industrial, not farming.\n(C) is wrong because the canal was the Erie Canal.\n(D) is wrong because suffrage reforms were in state constitutions."
     },
     {
       "id": "4-19",
@@ -2897,7 +2897,7 @@ const QUESTIONS = {
         "Falling transportation costs had essentially no measurable effect on interior agriculture at all."
       ],
       "correct": 1,
-      "explanation": "Falling transportation costs (from canals, roads, and eventually railroads) made it newly profitable for interior farmers to grow cash crops for distant markets, shifting agriculture from subsistence toward market orientation. Farming did not disappear, interior — not just coastal — farmers were the ones most transformed, and the effect on agriculture was substantial, not negligible."
+      "explanation": "Correct: (B) Falling costs made growing cash crops for distant markets newly profitable for interior farmers. Before the canals, roads, steamboats, and railroads, hauling wheat or pork far overland cost more than the goods were worth, so farmers grew mostly for their own use and local trade. With cheaper transport, farmers in the Old Northwest could sell to eastern cities and Europe, and in the South cotton shipped to northern and British mills.\n\n(A) is wrong because farming expanded.\n(C) is wrong because interior farmers gained the most.\n(D) is wrong because the effect was large."
     },
     {
       "id": "4-20",
@@ -2910,7 +2910,7 @@ const QUESTIONS = {
         "This vague description is already sufficiently precise and needs no further elaboration."
       ],
       "correct": 1,
-      "explanation": "A strong answer names the specific mechanism — falling transportation costs enabling the shift from subsistence to market-oriented agriculture — rather than a vague claim like 'the economy grew.' Precision does affect scoring, the Market Revolution is fundamentally about economic transformation, and a vague description remains too imprecise to earn full credit."
+      "explanation": "Correct: (B) The exam rewards naming the specific mechanism over vague, general growth language. The Market Revolution refers to the shift from household and local production to production for distant markets, driven by transportation improvements such as the Erie Canal and steamboats, new factories, and wage labor. A strong answer says how transportation changes led to regional specialization, with the Northeast in manufacturing, the Midwest in grain, and the South in cotton.\n\n(A) is wrong because precision is rewarded.\n(C) is wrong because the Market Revolution is about economic transformation.\n(D) is wrong because 'the economy grew' does not explain how."
     },
     {
       "id": "4-21",
@@ -2923,7 +2923,7 @@ const QUESTIONS = {
         "New factory wage labor, distinct from family farm work, reshaped family and social structures."
       ],
       "correct": 3,
-      "explanation": "Beyond economics, the Market Revolution introduced factory wage labor as a new option distinct from family farm work, reshaping family and social structures — though family farming persisted widely rather than being eliminated, and social structures were clearly affected, not left untouched."
+      "explanation": "Correct: (D) New factory wage labor, distinct from family farm work, reshaped family and social structures. Wage work in mills and workshops separated work from home, so family members, including young women at Lowell, took jobs for pay, while middle-class ideas of separate spheres put women in the home. It also created a new working class and new inequalities.\n\n(A) is wrong because there were large social changes.\n(B) is wrong because most Americans still lived on farms.\n(C) is wrong because the changes touched households, gender roles, and communities."
     },
     {
       "id": "4-22",
@@ -2936,7 +2936,7 @@ const QUESTIONS = {
         "The immediate, nationwide legal abolition of slavery throughout the South."
       ],
       "correct": 0,
-      "explanation": "The chain concludes with a shift from subsistence-oriented to market-oriented agriculture and growing regional specialization — this section's core transformation. It did not eliminate agriculture, abolish slavery, or simply stop with no further consequence."
+      "explanation": "Correct: (A) A shift toward market-oriented agriculture and growing regional specialization. Once farmers could profitably sell to distant buyers, they specialized in what suited their region: grain and livestock in the Old Northwest, manufacturing in the Northeast, and cotton in the South, which relied on enslaved labor and tied the sections together by trade.\n\n(B) is wrong because agriculture remained the main occupation.\n(C) is wrong because the chain continued to specialization and sectional differences.\n(D) is wrong because slavery expanded with cotton and was not abolished until the Thirteenth Amendment in 1865."
     },
     {
       "id": "4-23",
@@ -2949,7 +2949,7 @@ const QUESTIONS = {
         "The Indian Removal Act, an 1830 policy of forced relocation"
       ],
       "correct": 0,
-      "explanation": "The Erie Canal (completed 1825) is a specific, named transportation-improvement example from the Market Revolution. The other three are important Period 4 developments but belong to different topics — Native policy, territorial acquisition, and sectional compromise, respectively."
+      "explanation": "Correct: (A) The Erie Canal, completed in 1825. The Market Revolution rested on cheaper transportation, and the 363-mile Erie Canal linked the Hudson River to Lake Erie, lowering freight costs sharply and making New York City the nation's commercial center. It also encouraged other canals, turnpikes, steamboats, and early railroads.\n\n(B) is wrong because the Louisiana Purchase was a land acquisition from France that opened territory but was not a transportation improvement.\n(C) is wrong because the Missouri Compromise (1820) dealt with admitting Missouri as a slave state and Maine as a free state.\n(D) is wrong because the Indian Removal Act (1830) was a policy forcing Native nations from the Southeast, not a transportation project."
     },
     {
       "id": "4-24",
@@ -2962,7 +2962,7 @@ const QUESTIONS = {
         "1776, the year of American independence"
       ],
       "correct": 1,
-      "explanation": "The Erie Canal was completed in 1825, connecting the Great Lakes to the Atlantic during the Market Revolution — decades after independence (1776) and the Louisiana Purchase (1803), and well before this period's 1848 close."
+      "explanation": "Correct: (B) 1825, the year the canal was completed. New York began digging in 1817 under Governor DeWitt Clinton, and the canal opened with a ceremony in October 1825 when a flotilla traveled from Buffalo to New York City. It made shipping goods between the Great Lakes and the Atlantic far cheaper and faster.\n\n(A) is wrong because 1848 is the end of this period and the date of the Seneca Falls Convention and the Mexican-American War's end, not the canal.\n(C) is wrong because 1803 is the Louisiana Purchase, two decades earlier.\n(D) is wrong because 1776 is the Declaration of Independence, long before the canal."
     },
     {
       "id": "4-25",
@@ -2975,7 +2975,7 @@ const QUESTIONS = {
         "A political movement organized to demand American independence from British rule."
       ],
       "correct": 0,
-      "explanation": "The Second Great Awakening was a wave of evangelical Protestant revival sweeping the U.S. in the early-to-mid 1800s, emphasizing individual salvation and moral improvement. It is distinct from the First Great Awakening (a century earlier), had no tariff agenda, and was not a political independence movement."
+      "explanation": "Correct: (A) A wave of evangelical revival in the early-to-mid 1800s, emphasizing moral improvement. Beginning around 1800 with camp meetings like Cane Ridge, Kentucky (1801) and spreading through the preaching of Charles Grandison Finney in upstate New York in the 1820s-30s, it taught that individuals could choose salvation and should work to perfect themselves and society. It led to church growth, especially among Methodists and Baptists, and to reform causes such as temperance and abolition.\n\n(B) is wrong because the First Great Awakening was the 1730s-40s revival with Jonathan Edwards and George Whitefield.\n(C) is wrong because it was a religious movement with no tariff agenda.\n(D) is wrong because independence was a political matter of the 1770s."
     },
     {
       "id": "4-26",
@@ -2988,7 +2988,7 @@ const QUESTIONS = {
         "The First occurred in the 1730s–40s; the Second in the early-to-mid 1800s, a century later."
       ],
       "correct": 3,
-      "explanation": "The First Great Awakening swept the colonies in the 1730s–40s (Period 2); the Second occurred roughly a century later, in the early-to-mid 1800s (Period 4) — two distinct revivals, not simultaneous or reversed in order."
+      "explanation": "Correct: (D) The First occurred in the 1730s-40s; the Second in the early-to-mid 1800s, a century later. The First Great Awakening in the colonies, led by Jonathan Edwards, George Whitefield, and others, emphasized a personal conversion experience and challenged established clergy, while the Second began about 1800 and peaked in the 1820s-30s with revival meetings and the Burned-Over District of New York.\n\n(A) is wrong because the two did not overlap.\n(B) is wrong because the Second came after, not before.\n(C) is wrong because they occurred in different centuries, with the First in the 1700s and the Second largely in the 1800s."
     },
     {
       "id": "4-27",
@@ -3001,7 +3001,7 @@ const QUESTIONS = {
         "A belief that individuals and society could be perfected through committed moral effort."
       ],
       "correct": 3,
-      "explanation": "The Second Great Awakening's theology held that individuals AND society itself could be actively perfected through committed moral effort — directly fueling reform movements, the opposite of the fatalism or ritualism the other choices describe."
+      "explanation": "Correct: (D) A belief that individuals and society could be perfected through committed moral effort. Preachers such as Charles Finney taught that people had free will to choose salvation and that Christians should help bring about a more righteous world, which was a departure from strict Calvinist predestination. This optimism, called perfectionism, motivated reformers to attack alcohol, slavery, poor schools, and unequal treatment of women.\n\n(A) is wrong because the revivals stressed emotional personal conversion over ritual.\n(B) is wrong because they held that sinful conditions could be changed.\n(C) is wrong because the movement was highly organized and social, with camp meetings, societies, and reform groups."
     },
     {
       "id": "4-28",
@@ -3014,7 +3014,7 @@ const QUESTIONS = {
         "The abolitionist movement, opposing slavery"
       ],
       "correct": 3,
-      "explanation": "The abolitionist movement is the reform movement this section directly connects to Second Great Awakening theology — the other three are significant Period 3–4 developments but are unrelated to this religious revival's reform influence."
+      "explanation": "Correct: (D) The abolitionist movement, opposing slavery. Revivalist religion told believers that slavery was a sin they must work to end, and many abolitionists, such as Theodore Weld, a Finney convert, and William Lloyd Garrison, described their cause in religious terms; Garrison founded The Liberator in 1831. Churches and benevolent societies became centers of antislavery organizing.\n\n(A) is wrong because the Louisiana Purchase was a territorial deal.\n(B) is wrong because the Indian Removal Act was a government policy, and in fact some missionaries opposed it.\n(C) is wrong because the Federalist Party formed in the 1790s, before the revival."
     },
     {
       "id": "4-29",
@@ -3027,7 +3027,7 @@ const QUESTIONS = {
         "The Seneca Falls Convention of 1848"
       ],
       "correct": 3,
-      "explanation": "The Seneca Falls Convention (1848), occurring near this period's end, launched the organized women's rights movement, connected to the reform energy fueled by the Second Great Awakening. The other choices are significant but unrelated events from earlier in the period or before it."
+      "explanation": "Correct: (D) The Seneca Falls Convention of 1848. Organized by Elizabeth Cady Stanton and Lucretia Mott in Seneca Falls, New York, it adopted a Declaration of Sentiments modeled on the Declaration of Independence, claiming that 'all men and women are created equal' and demanding rights including the vote. Many participants had come from abolitionist and religious reform circles.\n\n(A) is wrong because the Hartford Convention (1814) was about the War of 1812.\n(B) is wrong because the Constitutional Convention (1787) wrote the Constitution.\n(C) is wrong because the Missouri Compromise (1820) concerned slavery's expansion."
     },
     {
       "id": "4-30",
@@ -3040,7 +3040,7 @@ const QUESTIONS = {
         "The temperance movement, opposing alcohol consumption"
       ],
       "correct": 3,
-      "explanation": "The temperance movement, opposing alcohol consumption, is named alongside abolitionism as a reform cause fueled by Second Great Awakening theology. The spoils system, Bank War, and Manifest Destiny are all separate Jacksonian-era developments unconnected to this religious revival."
+      "explanation": "Correct: (D) The temperance movement, opposing alcohol consumption. Evangelical reformers argued that drinking caused poverty, family violence, and sin, and groups such as the American Temperance Society (1826) pushed for abstinence, with Maine passing a prohibition law in 1851. The movement, which attracted many women, grew from the revivals' belief that people could improve society.\n\n(A) is wrong because the Bank War was Jackson's economic fight with the Second Bank.\n(B) is wrong because Manifest Destiny, a belief that the U.S. was meant to expand across the continent, was a political idea of the 1840s, not a reform tied to revivalism.\n(C) is wrong because the spoils system was a patronage policy."
     },
     {
       "id": "4-31",
@@ -3053,7 +3053,7 @@ const QUESTIONS = {
         "The Second Great Awakening, specifically"
       ],
       "correct": 3,
-      "explanation": "The Second Great Awakening specifically — not the First, and not the much earlier Protestant Reformation — is the movement connected to antebellum reforms like abolitionism and temperance."
+      "explanation": "Correct: (D) The Second Great Awakening, specifically. The revivals of the early 1800s linked religious conversion to social improvement, so converts joined temperance societies, abolitionist groups, and schools and prison reform. A question about antebellum reforms (about 1820s-1850s) calls for this movement.\n\n(A) is wrong because the First Great Awakening was in the 1730s-40s, a century earlier.\n(B) is wrong because the revival is the key link.\n(C) is wrong because the Protestant Reformation was a sixteenth-century European movement, not an American cause of these reforms."
     },
     {
       "id": "4-32",
@@ -3066,7 +3066,7 @@ const QUESTIONS = {
         "It left abolitionists without any distinctly religious language or motivating conviction."
       ],
       "correct": 2,
-      "explanation": "Second Great Awakening theology framed slavery as a moral sin a genuinely Christian society had an obligation to actively eliminate — the opposite of endorsing slavery or offering no religious vocabulary at all, and far from a purely secular, non-religious argument."
+      "explanation": "Correct: (C) It framed slavery as a moral sin society had a religious duty to eliminate. Revivalist preachers taught that sin was a choice and that believers should act to remove it, so abolitionists could argue that slaveholding violated Christian principles and call for immediate emancipation. This language helped mobilize churchgoers, though many Southern ministers argued the opposite from the same Bible.\n\n(A) is wrong because the arguments were deeply religious.\n(B) is wrong because that describes the proslavery defense, not the revivalists' abolitionist message.\n(D) is wrong because abolitionists such as Theodore Weld and Angelina Grimke drew strongly on religious conviction."
     },
     {
       "id": "4-33",
@@ -3079,7 +3079,7 @@ const QUESTIONS = {
         "Removal of property requirements for voting, specifically among white men."
       ],
       "correct": 3,
-      "explanation": "The Jacksonian era removed property ownership requirements for voting in most states, but this expansion applied specifically and exclusively to white men — not enslaved people, Native Americans, or women, none of whom gained voting rights in this period."
+      "explanation": "Correct: (D) Removal of property requirements for voting, specifically among white men. In the 1820s-30s, states such as New York and Massachusetts dropped property or tax requirements, and newer western states often entered with universal white male suffrage, so the electorate grew and voter turnout in 1828 and 1840 rose sharply. This is called Jacksonian democracy.\n\n(A) is wrong because women were not given the vote.\n(B) is wrong because enslaved people could not vote and free Black men often lost suffrage.\n(C) is wrong because Native Americans were not given voting rights and were being removed from their land."
     },
     {
       "id": "4-34",
@@ -3092,7 +3092,7 @@ const QUESTIONS = {
         "No, because no suffrage expansion of any kind actually took place during the Jacksonian era."
       ],
       "correct": 2,
-      "explanation": "Jacksonian-era suffrage expansion applied specifically to white men — not women, enslaved people, or Native Americans — and some states formally narrowed free Black Americans' voting rights during this same period. A genuine expansion, just not a universal one, did occur, so D is also wrong."
+      "explanation": "Correct: (C) No — it applied to white men only, and some states even narrowed free Black voting rights. Women and enslaved people remained excluded, Native nations were being forced west, and states such as Pennsylvania (1838), New York with its property rule for Black men, and North Carolina (1835) restricted or removed Black men's voting.\n\n(A) is wrong because those groups gained no such rights.\n(B) is wrong because Native American men were not enfranchised.\n(D) is wrong because there was real expansion for white men."
     },
     {
       "id": "4-35",
@@ -3105,7 +3105,7 @@ const QUESTIONS = {
         "A system of rewarding political supporters with appointed government jobs."
       ],
       "correct": 3,
-      "explanation": "The spoils system was Jackson's practice of rewarding political supporters with government jobs, justified as rotating ordinary citizens through public service. It has no relation to tariffs, judicial review, or land policy toward Native nations."
+      "explanation": "Correct: (D) A system of rewarding political supporters with appointed government jobs. After winning in 1828, Jackson replaced many federal officeholders with loyal supporters, and Senator William Marcy's phrase 'to the victor belong the spoils' gave it its name. Supporters said it opened government to ordinary men, while critics said it encouraged incompetence and corruption.\n\n(A) is wrong because it had nothing to do with land grants to Native peoples.\n(B) is wrong because tariffs are taxes on imports.\n(C) is wrong because judicial review is the Supreme Court's power from Marbury v. Madison."
     },
     {
       "id": "4-36",
@@ -3118,7 +3118,7 @@ const QUESTIONS = {
         "Jacksonian Democracy expanded no political rights for any American during this entire period."
       ],
       "correct": 2,
-      "explanation": "The description is incomplete because it omits WHO the expansion actually included — white men specifically — while other groups faced continued or intensified restriction in this same period. A genuine expansion did occur, and meaningful group-by-group distinctions matter a great deal here."
+      "explanation": "Correct: (C) It fails to specify the expansion was for white men, while others faced continued restriction. The widening of voting for white males came as the Cherokee and other Southeastern nations were removed, slavery expanded with cotton, free Black men were disenfranchised in several states, and women had no vote. A complete answer identifies who gained and who did not.\n\n(A) is wrong because it ignores those who were excluded.\n(B) is wrong because group distinctions are central.\n(D) is wrong because white men did gain rights."
     },
     {
       "id": "4-37",
@@ -3131,7 +3131,7 @@ const QUESTIONS = {
         "That it would sharply reduce voter turnout by discouraging ordinary citizen involvement."
       ],
       "correct": 0,
-      "explanation": "Jackson justified the spoils system as rotating ordinary citizens through government service rather than entrenching a permanent elite — the opposite of what the other choices claim about elite entrenchment, reduced turnout, or irrelevance to political participation."
+      "explanation": "Correct: (A) That it rotated ordinary citizens through government service, avoiding a permanent elite. Jackson argued in his first annual message (1829) that government duties were simple enough for any intelligent citizen and that long tenure in office made officials arrogant and corrupt, so rotation was democratic. Critics said it filled posts with loyalists rather than skilled people.\n\n(B) is wrong because Jackson saw jobs as part of participation.\n(C) is wrong because he claimed to prevent a permanent elite, not create one.\n(D) is wrong because his aim was to increase involvement."
     },
     {
       "id": "4-38",
@@ -3144,7 +3144,7 @@ const QUESTIONS = {
         "1812–1815, the years of the War of 1812"
       ],
       "correct": 2,
-      "explanation": "Andrew Jackson served as president from 1829 to 1837, a period associated with expanded white male suffrage, the spoils system, Indian Removal, and the Bank War — distinct from the War of 1812, Jefferson's presidency, or the later Mexican-American War era."
+      "explanation": "Correct: (C) 1829-1837, Jackson's two full presidential terms. Andrew Jackson defeated John Quincy Adams in 1828 and was inaugurated in March 1829, won reelection in 1832 against Henry Clay, and was succeeded by Martin Van Buren in 1837. His presidency saw the Nullification Crisis, Indian Removal, and the Bank War.\n\n(A) is wrong because 1801-1809 were Jefferson's years.\n(B) is wrong because 1845-49 were James K. Polk's years, including the Mexican-American War.\n(D) is wrong because 1812-1815 were the years of the War of 1812, when Jackson was a general and James Madison was president."
     },
     {
       "id": "4-39",
@@ -3157,7 +3157,7 @@ const QUESTIONS = {
         "Focusing exclusively on economic policy, without mentioning suffrage or civil rights."
       ],
       "correct": 0,
-      "explanation": "The strongest evaluation holds both facts together — genuine white male suffrage expansion AND continued/intensified restriction for other groups — directly refuting a claim of truly universal expansion. Ignoring the claim, agreeing uncritically, or focusing only on unrelated economic policy would all be weaker responses."
+      "explanation": "Correct: (A) Noting genuine white male suffrage expansion alongside continued Native displacement and slavery. A strong evaluation weighs evidence both ways: property requirements fell, turnout grew, and more offices were elected, but at the same time the Indian Removal Act forced Cherokee, Creek, Choctaw, Chickasaw, and Seminole peoples west, slavery grew, and free Black men and women were excluded.\n\n(B) is wrong because no analysis is weak.\n(C) is wrong because plenty of evidence exists.\n(D) is wrong because ignoring suffrage and civil rights misses the topic."
     },
     {
       "id": "4-40",
@@ -3170,7 +3170,7 @@ const QUESTIONS = {
         "Expanded political and civil rights extended equally to all Americans regardless of race"
       ],
       "correct": 1,
-      "explanation": "Continued or intensified restriction for other groups completes the analogy — directly illustrating this section's key point about the unevenness of Jacksonian-era democratic expansion, not equal rights for all, an unrelated development, or a denial that suffrage expansion happened."
+      "explanation": "Correct: (B) Continued or intensified restriction for other groups during this same period. The analogy pairs actions with their effect: removing property requirements expanded white male suffrage, while slavery and Indian Removal limited the freedom and rights of enslaved people and Native nations, as in the Trail of Tears. It shows that democracy grew unevenly.\n\n(A) is wrong because the developments were directly related to who had rights and power.\n(C) is wrong because white male suffrage did expand.\n(D) is wrong because rights were not extended equally."
     },
     {
       "id": "4-41",
@@ -3183,7 +3183,7 @@ const QUESTIONS = {
         "The forced relocation of Southeastern Native nations west of the Mississippi River."
       ],
       "correct": 3,
-      "explanation": "The Indian Removal Act (1830) authorized the forced relocation of Southeastern Native nations to territory west of the Mississippi. It was a domestic law, not a British treaty; it stripped rather than extended citizenship rights; and it is unrelated to the 1816-chartered Second Bank."
+      "explanation": "Correct: (D) The forced relocation of Southeastern Native nations west of the Mississippi River. Pushed by Jackson and by Southern settlers and Georgia officials who wanted Cherokee, Creek, Choctaw, Chickasaw, and Seminole land, Congress passed the act in 1830, authorizing the president to negotiate land exchanges for territory in what is now Oklahoma. Though framed as voluntary, it was carried out under pressure and force, leading to removals such as the Trail of Tears.\n\n(A) is wrong because the Second Bank was chartered in 1816.\n(B) is wrong because it was a domestic law and not a treaty with Britain.\n(C) is wrong because it denied rather than extended citizenship."
     },
     {
       "id": "4-42",
@@ -3196,7 +3196,7 @@ const QUESTIONS = {
         "That the state of Georgia held full legal authority over all Cherokee-held land."
       ],
       "correct": 1,
-      "explanation": "In Worcester v. Georgia (1832), the Court ruled the Cherokee Nation sovereign and not subject to Georgia law — essentially the opposite of Georgia's claimed authority. The ruling addressed Cherokee sovereignty, not Jackson's presidential authority or the Removal Act's constitutionality."
+      "explanation": "Correct: (B) That the Cherokee Nation was sovereign and not subject to Georgia's state law. In Worcester v. Georgia (1832), Chief Justice John Marshall held that the Cherokee Nation was a distinct political community in which Georgia's laws had no force, and that only the federal government could deal with it. The case arose when Georgia imprisoned the missionary Samuel Worcester for living on Cherokee land without a state license.\n\n(A) is wrong because the case did not question Jackson's authority.\n(C) is wrong because the Court did not rule on the Removal Act's constitutionality.\n(D) is wrong because the Court rejected Georgia's claim to authority over Cherokee land."
     },
     {
       "id": "4-43",
@@ -3209,7 +3209,7 @@ const QUESTIONS = {
         "He had no direct involvement in the matter, leaving enforcement entirely to Georgia's governor."
       ],
       "correct": 1,
-      "explanation": "Jackson refused to enforce the Worcester v. Georgia ruling, directly defying the Supreme Court and proceeding with Cherokee removal anyway. He remained deeply involved and in office throughout, and did not protect Cherokee sovereignty as the ruling required."
+      "explanation": "Correct: (B) He refused to enforce the ruling, defying the Court and proceeding with removal anyway. Jackson, who supported Georgia and removal, took no steps to enforce Worcester; he is quoted as saying Marshall had made his decision and could enforce it, though the quote is of uncertain origin. His administration pressed the Cherokee to sign the Treaty of New Echota (1835), signed by a minority faction.\n\n(A) is wrong because he remained president.\n(C) is wrong because he did not use troops to protect the Cherokee.\n(D) is wrong because as president he was responsible for enforcing federal law and chose not to."
     },
     {
       "id": "4-44",
@@ -3222,7 +3222,7 @@ const QUESTIONS = {
         "1830, the same year as the Indian Removal Act, under Jackson"
       ],
       "correct": 1,
-      "explanation": "The Trail of Tears was actually implemented in 1838, under Jackson's successor Martin Van Buren — eight years after the 1830 Indian Removal Act and its legal groundwork, and well after (not before) Jackson's presidency."
+      "explanation": "Correct: (B) 1838, under Jackson's successor Martin Van Buren. After the Treaty of New Echota (1835), signed by a small group not representing the Cherokee Nation's government under John Ross, the army under General Winfield Scott forced about 16,000 Cherokee into camps and westward in 1838-39, and thousands (about 4,000) died of cold, hunger, and disease.\n\n(A) is wrong because 1848 is later and the removal was not then.\n(C) is wrong because 1776 was before the U.S. government existed.\n(D) is wrong because 1830 was when the Removal Act passed, not when the Cherokee march occurred."
     },
     {
       "id": "4-45",
@@ -3235,7 +3235,7 @@ const QUESTIONS = {
         "That the Bank charged insufficiently low interest rates on its federal loans."
       ],
       "correct": 0,
-      "explanation": "Jackson viewed the Second Bank as an unconstitutional concentration of economic power benefiting wealthy elites at ordinary Americans' expense, leading to his Bank War — not a complaint about its size, interest rates, or economic irrelevance."
+      "explanation": "Correct: (A) That the Bank was an unconstitutional concentration of power benefiting elites. Jackson saw the Second Bank, a private corporation partly owned by wealthy investors and run by Nicholas Biddle, as a monopoly that favored eastern financiers and threatened the common man. In his July 1832 veto of its recharter, he said it made the rich richer, and he claimed the right to judge constitutionality himself despite McCulloch v. Maryland (1819). He then withdrew federal deposits and placed them in state banks.\n\n(B) is wrong because the Bank regulated credit and money.\n(C) is wrong because Jackson's worry was that it was too powerful.\n(D) is wrong because his concern was power and privilege, not interest rates."
     },
     {
       "id": "4-46",
@@ -3248,7 +3248,7 @@ const QUESTIONS = {
         "By vetoing its recharter and withdrawing federal deposits from its vaults."
       ],
       "correct": 3,
-      "explanation": "Jackson destroyed the Second Bank by vetoing its recharter and withdrawing federal deposits — a direct presidential action, not a congressional act, a Court ruling (in fact McCulloch v. Maryland had upheld the earlier Bank's constitutionality), or an institution that simply persisted unaffected."
+      "explanation": "Correct: (D) By vetoing its recharter and withdrawing federal deposits from its vaults. Henry Clay and Nicholas Biddle pushed Congress to renew the Bank's charter early in 1832, an election year, hoping to force Jackson into a difficult choice, but Jackson vetoed it in July 1832, called it a threat to liberty, and won reelection. In 1833 he had Treasury funds placed in state 'pet banks', which weakened the Bank, and its federal charter expired in 1836.\n\n(A) is wrong because it lost its federal charter in 1836.\n(B) is wrong because the Court had upheld the Bank in McCulloch v. Maryland (1819) and did not rule against it.\n(C) is wrong because Jackson's veto was the decisive act, and Congress failed to override it."
     },
     {
       "id": "4-47",
@@ -3261,7 +3261,7 @@ const QUESTIONS = {
         "Both events show Jackson consistently limiting and opposing any expansion of his own executive power."
       ],
       "correct": 1,
-      "explanation": "Both Indian Removal (defying the Court) and the Bank War (destroying a national institution) illustrate Jackson's aggressive use of presidential power against established institutions, framed as protecting ordinary Americans — the opposite of deference or a limited, unchanged presidency."
+      "explanation": "Correct: (B) Jackson's willingness to aggressively wield presidential power against established institutions. In Indian Removal he pushed Congress to act and ignored a Supreme Court ruling, Worcester v. Georgia, and in the Bank War he vetoed a recharter on constitutional grounds, withdrew deposits, and was censured by the Senate in 1834. His supporters called this defending ordinary people, while opponents called him 'King Andrew'.\n\n(A) is wrong because he challenged the Court and the Bank.\n(C) is wrong because he used the veto much more than earlier presidents and claimed to speak for the people.\n(D) is wrong because he expanded executive power."
     },
     {
       "id": "4-48",
@@ -3274,7 +3274,7 @@ const QUESTIONS = {
         "Both the law and the actual forced relocation took place simultaneously, in the single year 1830."
       ],
       "correct": 2,
-      "explanation": "The eight-year gap between the 1830 Act and 1838 Trail of Tears shows the legal groundwork was established under Jackson while the most infamous implementation occurred later, under Van Buren — not simultaneously, reversed, or a trivial detail."
+      "explanation": "Correct: (C) The eight-year gap shows the groundwork was Jackson's, implementation Van Buren's. The Removal Act of 1830 and the pressure and treaties under Jackson, including the 1835 Treaty of New Echota, set the stage, but the forced march of about 16,000 Cherokee took place in 1838-39 under President Martin Van Buren and General Winfield Scott. Getting this right avoids attributing the Trail of Tears to the wrong year or president, while still tying the policy to Jackson.\n\n(A) is wrong because chronology matters in history.\n(B) is wrong because the Act came first.\n(D) is wrong because the events were separated by eight years."
     },
     {
       "id": "4-49",
@@ -3287,7 +3287,7 @@ const QUESTIONS = {
         "The immediate, nationwide abolition of slavery."
       ],
       "correct": 0,
-      "explanation": "The Missouri Compromise (1820) admitted Missouri as a slave state and Maine as a free state simultaneously, prohibiting slavery in Louisiana Purchase territory north of 36°30' — it did not abolish slavery nationally, ban future statehood, or concern Native removal policy."
+      "explanation": "Correct: (A) Missouri admitted as a slave state, Maine as free, slavery barred north of 36°30'. Missouri's request for statehood in 1819 threatened to upset the Senate's balance between free and slave states, so Congress, led by Henry Clay, admitted Missouri as a slave state and Maine (separated from Massachusetts) as a free state, and banned slavery in the rest of the Louisiana Purchase north of 36°30', except Missouri. It deferred sectional conflict, as Jefferson called it 'a firebell in the night.'\n\n(B) is wrong because the Removal Act came ten years later.\n(C) is wrong because states continued to be admitted.\n(D) is wrong because slavery stayed legal in the South."
     },
     {
       "id": "4-50",
@@ -3300,7 +3300,7 @@ const QUESTIONS = {
         "Yes, since the United States acquired no further territory of any kind after 1820."
       ],
       "correct": 2,
-      "explanation": "The Missouri Compromise did not permanently resolve slavery's expansion — it set a geographic line bound to face renewed pressure as the nation kept expanding westward (as it did, extensively, after 1820), merely deferring rather than resolving a conflict very much about slavery."
+      "explanation": "Correct: (C) No — it set a line that would predictably face renewed pressure as expansion continued. The compromise only covered the Louisiana Purchase land, so when the U.S. annexed Texas (1845) and took the Mexican Cession (1848), the question of slavery in new lands returned with the Wilmot Proviso and the Compromise of 1850. The Kansas-Nebraska Act of 1854 repealed the line.\n\n(A) is wrong because conflict resumed.\n(B) is wrong because the compromise was about slavery.\n(D) is wrong because the U.S. acquired Texas, Oregon, and the Mexican Cession after 1820."
     },
     {
       "id": "4-51",
@@ -3313,7 +3313,7 @@ const QUESTIONS = {
         "It eliminated the need for cotton cultivation, freeing land for other, unrelated crops."
       ],
       "correct": 2,
-      "explanation": "The cotton gin economically entrenched slavery more deeply, rather than making it obsolete — dramatically increasing cotton profitability and driving surging demand for enslaved labor, not eliminating cultivation or leaving slavery's economics untouched."
+      "explanation": "Correct: (C) It entrenched slavery more deeply as cotton demand required more enslaved labor. Eli Whitney's 1793 gin made it fast to separate seeds from short-staple cotton, so planters expanded into Georgia, Alabama, Mississippi, and beyond to supply British and New England textile mills, and the enslaved population grew from about 700,000 in 1790 to nearly 4 million in 1860, with many forced to move from the Upper South in the domestic slave trade.\n\n(A) is wrong because it made slavery more profitable.\n(B) is wrong because it did the opposite of making slavery obsolete.\n(D) is wrong because cotton planting expanded."
     },
     {
       "id": "4-52",
@@ -3326,7 +3326,7 @@ const QUESTIONS = {
         "It sharply increased processing efficiency for widely-grown short-staple cotton."
       ],
       "correct": 3,
-      "explanation": "The cotton gin dramatically increased the efficiency of processing short-staple cotton — grown across a far larger area of the Deep South than long-staple varieties — driving surging profitability and demand. It did not eliminate labor demand (it increased it) or leave processing unaffected."
+      "explanation": "Correct: (D) It sharply increased processing efficiency for widely-grown short-staple cotton. Short-staple cotton could grow across much of the interior South but had sticky seeds that took a worker a day to clean about a pound by hand, while the gin let one person clean many pounds a day. This made short-staple cotton very profitable, though picking still required human labor, which increased the demand for enslaved workers.\n\n(A) is wrong because picking and planting were still done by hand.\n(B) is wrong because the gin mattered for short-staple, which was grown across the Deep South.\n(C) is wrong because it greatly increased efficiency."
     },
     {
       "id": "4-53",
@@ -3339,7 +3339,7 @@ const QUESTIONS = {
         "No meaningful connection exists between this unit's content and any earlier unit's material."
       ],
       "correct": 0,
-      "explanation": "The cotton gin's economic effect directly extends Period 3's observation (Section 3.8) that slavery persisted and entrenched despite revolutionary rhetoric — Period 4 supplies the specific mechanism driving that entrenchment forward, not a contradiction of it or an unrelated development."
+      "explanation": "Correct: (A) It extends Period 3's point that slavery persisted despite liberty rhetoric, via this specific mechanism. In Period 3, Revolutionary talk of liberty led northern states to abolish slavery gradually, but the Constitution protected it and Southern states kept it. After 1793, the cotton gin made slavery profitable in new lands, explaining why it expanded instead of dying out as some Founders had hoped.\n\n(B) is wrong because slavery was not abolished until 1865.\n(C) is wrong because the periods are connected.\n(D) is wrong because there are clear links between units."
     },
     {
       "id": "4-54",
@@ -3352,7 +3352,7 @@ const QUESTIONS = {
         "Because this deferral framing is historically inaccurate and should be avoided by strong essays."
       ],
       "correct": 2,
-      "explanation": "A strong essay frames the Missouri Compromise as a temporary deferral because its geographic line was always going to face renewed pressure as the nation kept acquiring western territory — pressure that eventually exploded into later crises, not a permanent or unrelated resolution."
+      "explanation": "Correct: (C) Because the line was always going to face renewed pressure as western territory kept growing. The Missouri Compromise solved the immediate problem of balance between slave and free states, but it settled slavery's status only in the Louisiana Purchase, so annexation of Texas and the Mexican Cession reopened the matter. Seeing it as a pause explains the later Compromise of 1850, Kansas-Nebraska Act (1854), and the road to the Civil War.\n\n(A) is wrong because it did not end conflict.\n(B) is wrong because it was about slavery.\n(D) is wrong because the deferral framing is historically accurate."
     },
     {
       "id": "4-55",
@@ -3365,7 +3365,7 @@ const QUESTIONS = {
         "The Appalachian Mountains, a colonial-era boundary"
       ],
       "correct": 2,
-      "explanation": "The Missouri Compromise established the 36°30' parallel line, prohibiting slavery in Louisiana Purchase territory north of this line — distinct from the Appalachians, Rockies, or Mississippi River, which marked other, unrelated boundaries."
+      "explanation": "Correct: (C) The 36°30' parallel line. The 1820 law prohibited slavery in the remaining Louisiana Purchase land north of the southern border of Missouri, at 36°30' north latitude, which covered most of the Great Plains, while allowing it south of the line in what is now Arkansas and Oklahoma. The Kansas-Nebraska Act of 1854 effectively repealed it and the Supreme Court in Dred Scott (1857) declared it unconstitutional.\n\n(A) is wrong because the Mississippi River was not the dividing line.\n(B) is wrong because the Rocky Mountains were not the boundary.\n(D) is wrong because the Appalachians marked the 1763 Proclamation Line."
     },
     {
       "id": "4-56",
@@ -3378,7 +3378,7 @@ const QUESTIONS = {
         "In the middle of Period 4's timeframe, around the year 1825"
       ],
       "correct": 2,
-      "explanation": "The cotton gin was invented in 1793, shortly before Period 4 begins — its economic effects on slavery's entrenchment and expansion play out significantly during this period, not during Period 1 or later in the 1820s–40s."
+      "explanation": "Correct: (C) Shortly before Period 4 begins, in the year 1793. Eli Whitney, a New Englander visiting Georgia, patented the cotton gin in 1794 after building it in 1793, and its effects, including the spread of cotton growing across the Deep South, shaped Period 4 (1800-1848).\n\n(A) is wrong because Period 1 covers the years before 1607 and the gin came centuries later.\n(B) is wrong because 1848 is the Seneca Falls Convention and the end of the Mexican-American War.\n(D) is wrong because the gin predated 1825 by three decades."
     },
     {
       "id": "4-57",
@@ -3391,7 +3391,7 @@ const QUESTIONS = {
         "A specific legal treaty formally signed between the United States and Mexico."
       ],
       "correct": 1,
-      "explanation": "Manifest Destiny was the widely held belief that American westward expansion across the continent was divinely ordained and inevitable — not a restrictive policy, a treaty, or simply another name for the unrelated Missouri Compromise."
+      "explanation": "Correct: (B) The widely held belief that westward expansion was divinely ordained. Journalist John L. O'Sullivan coined the phrase in 1845 when arguing for annexing Texas, saying it was America's 'manifest destiny to overspread the continent.' It gave a moral and religious justification for expansion into Texas, Oregon, and California, but also served to excuse displacing Native Americans and Mexicans.\n\n(A) is wrong because it encouraged expansion.\n(C) is wrong because the Missouri Compromise was a 1820 agreement on slavery.\n(D) is wrong because it was an ideology, not a treaty."
     },
     {
       "id": "4-58",
@@ -3404,7 +3404,7 @@ const QUESTIONS = {
         "Yes, it was a neutral, purely factual description carrying no ideological content whatsoever."
       ],
       "correct": 0,
-      "explanation": "Manifest Destiny was a specific ideological framework invoking divine sanction and claims of cultural/racial superiority to justify displacing existing populations and frame expansion as inevitable and righteous — not a neutral description, nor an anti-expansion policy."
+      "explanation": "Correct: (A) No — it invoked divine sanction and racial superiority to justify displacing existing populations. Supporters claimed Americans had a God-given mission to spread republican institutions and Protestant Christianity, and often portrayed Native Americans and Mexicans as inferior, which excused war and land seizure. Opponents, such as many Whigs and abolitionists, denounced it as aggression and a way to expand slavery.\n\n(B) is wrong because it justified specific policies like annexing Texas.\n(C) is wrong because it supported expansion.\n(D) is wrong because it carried ideological and racial claims."
     },
     {
       "id": "4-59",
@@ -3417,7 +3417,7 @@ const QUESTIONS = {
         "The Mexican-American War (1846–1848)"
       ],
       "correct": 3,
-      "explanation": "Manifest Destiny ideology helped drive the Mexican-American War (1846–1848), resulting in the Mexican Cession — distinct from the much earlier Revolutionary War, French and Indian War, or War of 1812."
+      "explanation": "Correct: (D) The Mexican-American War (1846-1848). After the U.S. annexed Texas in 1845, President James K. Polk sent troops into the disputed area between the Nueces and Rio Grande and sought to buy California, and fighting began in April 1846. Expansionists backed the war, while critics like Abraham Lincoln and Henry David Thoreau opposed it.\n\n(A) is wrong because the Revolution was fought in 1775-83.\n(B) is wrong because the War of 1812 was caused by impressment and frontier issues.\n(C) is wrong because the French and Indian War was in the 1750s-60s."
     },
     {
       "id": "4-60",
@@ -3430,7 +3430,7 @@ const QUESTIONS = {
         "Only the smaller 1853 Gadsden Purchase, negotiated separately years later"
       ],
       "correct": 2,
-      "explanation": "The Mexican Cession resulted from the Mexican-American War (1846–1848) — a massive acquisition distinct from the smaller, later Gadsden Purchase or the earlier, unrelated Louisiana Purchase; substantial territory clearly did change hands."
+      "explanation": "Correct: (C) The Mexican Cession, a massive new territorial acquisition. In the Treaty of Guadalupe Hidalgo (1848), Mexico ceded present-day California, Nevada, Utah, and parts of Arizona, New Mexico, Colorado, and Wyoming, and the U.S. paid 15 million dollars, adding about 525,000 square miles. Mexican residents were promised citizenship, but many lost land and rights.\n\n(A) is wrong because large territory changed hands.\n(B) is wrong because the Louisiana Purchase was in 1803.\n(D) is wrong because the Gadsden Purchase of 1853 was a smaller strip bought after the war."
     },
     {
       "id": "4-61",
@@ -3443,7 +3443,7 @@ const QUESTIONS = {
         "No meaningful connection exists between westward expansion and sectional slavery conflict."
       ],
       "correct": 2,
-      "explanation": "New territory acquired through Manifest Destiny-driven expansion (like the Mexican Cession) immediately reopened, with fresh urgency, the unresolved slavery-expansion question the Missouri Compromise had only temporarily deferred — not resolved it, or left it disconnected from slavery entirely."
+      "explanation": "Correct: (C) New territory reopened, with fresh urgency, the slavery question only deferred by Missouri's line. The Mexican Cession lay mostly south and west of the Missouri Compromise's reach, so Congress had to decide if slavery would be allowed there. The Wilmot Proviso (1846), proposing to ban slavery in any land from Mexico, passed the House but not the Senate, and the debate led to the Compromise of 1850.\n\n(A) is wrong because it intensified conflict.\n(B) is wrong because the new land was central to the slavery debate.\n(D) is wrong because the connection is direct."
     },
     {
       "id": "4-62",
@@ -3456,7 +3456,7 @@ const QUESTIONS = {
         "The Hartford Convention, held in 1814 by New England Federalists"
       ],
       "correct": 0,
-      "explanation": "The annexation of Texas (1845), driven partly by Manifest Destiny ideology, raised tensions with Mexico that soon led to war — distinct from the much earlier Hartford Convention, Missouri Compromise, or Louisiana Purchase."
+      "explanation": "Correct: (A) The annexation of Texas, admitted as a state in 1845. Texas had won independence from Mexico in 1836, and annexation was long delayed by fear of adding a slave state, but expansionist President John Tyler and then James K. Polk pursued it, and Texas was admitted in December 1845. Mexico considered annexation an act of aggression and disputed the border, which led to war in 1846.\n\n(B) is wrong because the Missouri Compromise (1820) was about Missouri and Maine.\n(C) is wrong because the Louisiana Purchase was in 1803 from France.\n(D) is wrong because the Hartford Convention (1814) was about the War of 1812."
     },
     {
       "id": "4-63",
@@ -3469,7 +3469,7 @@ const QUESTIONS = {
         "Because the slavery question had already been permanently resolved."
       ],
       "correct": 0,
-      "explanation": "Every new territory required a fresh answer because the nation had never actually resolved slavery's expansion — only postponed it through compromises like Missouri's — so each acquisition reopened the same unresolved debate, not an automatically settled or irrelevant question."
+      "explanation": "Correct: (A) Because compromises only postponed slavery's expansion, so each territory reopened the debate. The Missouri Compromise settled only the Louisiana Purchase land, and later land from Texas and Mexico lay outside it, so Congress had to fight again over the Wilmot Proviso, popular sovereignty, and the Compromise of 1850. Each time Northerners and Southerners disagreed about whether slavery's growth would upset political balance.\n\n(B) is wrong because slavery was central to expansion.\n(C) is wrong because territories did not automatically enter as free states.\n(D) is wrong because the question stayed unresolved."
     },
     {
       "id": "4-64",
@@ -3482,7 +3482,7 @@ const QUESTIONS = {
         "Only recently arrived European immigrant populations settled in eastern port cities."
       ],
       "correct": 1,
-      "explanation": "Manifest Destiny-driven expansion displaced or subordinated Native American and Mexican populations already present in the acquired territory — not European immigrants, colonial-era populations, or no one at all."
+      "explanation": "Correct: (B) Native American and Mexican populations already present in the acquired territory. Native nations such as the Comanche, Apache, Paiute, and California peoples lost land to settlers and the army, and Mexicans in Texas, New Mexico, and California became residents of the United States after 1848 and often lost land, political power, and equal treatment despite treaty protections.\n\n(A) is wrong because the colonies were not the target.\n(C) is wrong because expansion had serious effects.\n(D) is wrong because European immigrants in eastern ports were not displaced by it."
     },
     {
       "id": "4-65",
@@ -3495,7 +3495,7 @@ const QUESTIONS = {
         "These three territorial acquisitions were entirely unrelated, isolated events sharing no common underlying pattern or recurring cause."
       ],
       "correct": 2,
-      "explanation": "This synthesis rewards recognizing a recurring pattern: the Louisiana Purchase (4.1) first raised the question of implied federal power; the same territory's slavery status required the Missouri Compromise (4.7); and the Mexican Cession (4.8) reopened the identical slavery-expansion question decades later. Choice B wrongly isolates the Missouri Compromise as the only slavery-relevant event — the Mexican Cession also reopened it. Choices A and D treat these as unrelated, missing the connective, pattern-recognition argument (territorial growth as the recurring underlying cause) that strong DBQ/LEQ responses reward.",
+      "explanation": "Correct: (C) Each acquisition — Louisiana Purchase, Missouri Compromise, Mexican Cession — reopened the same two questions: federal power's limits and slavery's expansion. The 1803 Purchase raised whether the Constitution allowed the government to buy land, and its land produced the Missouri crisis of 1819-20 over whether slavery could spread; the Mexican Cession of 1848 again raised the question of slavery in new territory, driving the Wilmot Proviso and the 1850 compromises. The pattern shows how expansion repeatedly forced the nation to confront unresolved issues.\n\n(A) is wrong because they were closely related.\n(B) is wrong because the Louisiana Purchase and Mexican Cession also concerned slavery and federal power.\n(D) is wrong because there is a common pattern.",
       "stretch": true
     },
     {
@@ -3509,7 +3509,7 @@ const QUESTIONS = {
         "A British naval blockade of the Mississippi River beginning in 1790 that closed New Orleans to farmers."
       ],
       "correct": 2,
-      "explanation": "The guide identifies British support for Native resistance on the frontier, alongside impressment, as a cause of the War of 1812. The Confederacy did not exist until decades later; there was no such 1790 blockade; and the Hartford Convention (1814) was an internal Federalist gathering, not a British-funded effort."
+      "explanation": "Correct: (C) British support for Native American resistance to U.S. expansion on the frontier. British officials in Canada supplied arms and encouragement to Tecumseh's confederation and the Prophet in the Northwest, after the Battle of Tippecanoe (1811), and Westerners and War Hawks blamed Britain for frontier violence. Together with impressment and British trade restrictions on American shipping, it led Congress to declare war in 1812.\n\n(A) is wrong because the Confederacy did not exist until 1861.\n(B) is wrong because the Hartford Convention came at the war's end in 1814 and Britain did not fund it.\n(D) is wrong because there was no British blockade of the Mississippi in 1790, and Spain, not Britain, controlled New Orleans in that period."
     }
   ],
   "5": [
