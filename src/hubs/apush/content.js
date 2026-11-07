@@ -3524,7 +3524,7 @@ const QUESTIONS = {
         "Texas as a slave state, settling its post-annexation boundary dispute"
       ],
       "correct": 0,
-      "explanation": "The Compromise of 1850 admitted California as a free state. Missouri had already entered under the 1820 Missouri Compromise; Texas was annexed separately in 1845; Kansas didn't exist as an organized territory open to statehood until 1854."
+      "explanation": "Correct: (A) California as a free state. Gold Rush population pushed California to apply for statehood in 1849 with a free-state constitution, and admitting it in 1850 gave free states a 16-15 edge in the Senate, which is why Southerners demanded concessions such as a stronger Fugitive Slave Act in return.\n\n(B) is wrong because Kansas was not organized until 1854 and entered the Union as a free state only in 1861, and the Missouri Compromise line did not decide it in 1850.\n(C) is wrong because Missouri entered as a slave state in 1820, thirty years before this deal.\n(D) is wrong because Texas had already joined as a slave state in 1845; the 1850 Compromise only settled its boundary claim to part of New Mexico in exchange for federal assumption of Texas's debt."
     },
     {
       "id": "5-2",
@@ -3537,7 +3537,7 @@ const QUESTIONS = {
         "A requirement that Congress alone decide slavery's status in every territory, with no local input permitted"
       ],
       "correct": 1,
-      "explanation": "Popular sovereignty let each territory's own settlers vote on whether to permit slavery. Choice D describes the OPPOSITE approach (congressional control), and choice A describes the Missouri Compromise's older fixed-line method that popular sovereignty replaced."
+      "explanation": "Correct: (B) Letting each territory's own settlers vote on whether to permit slavery. Popular sovereignty, associated with Lewis Cass and Stephen Douglas, handed the slavery decision to territorial residents, and the Compromise of 1850 applied it to the Utah and New Mexico territories. The clue is the phrase 'each territory's own settlers,' meaning a local vote rather than a rule set in Washington.\n\n(A) is wrong because a fixed geographic line (36°30′) was the Missouri Compromise method that popular sovereignty replaced.\n(C) is wrong because a ban in every territory regardless of local views is the idea behind the Wilmot Proviso, which never became law.\n(D) is wrong because exclusive congressional control is the opposite of leaving the choice to settlers."
     },
     {
       "id": "5-3",
@@ -3550,7 +3550,7 @@ const QUESTIONS = {
         "Free states to grant full citizenship rights to formerly enslaved people"
       ],
       "correct": 2,
-      "explanation": "The strengthened Fugitive Slave Act required citizens in free states to actively assist in capturing and returning escaped enslaved people, deeply antagonizing northern public opinion. The Compromise banned only the D.C. slave trade, not slavery itself there, and did not require southern emancipation or grant citizenship."
+      "explanation": "Correct: (C) Citizens in free states to help capture and return escaped enslaved people. The Fugitive Slave Act of 1850 created federal commissioners, denied accused fugitives a jury trial and the right to testify, and compelled citizens to assist in captures under penalty of fine and jail. Northerners who had ignored the 1793 law now found themselves personally implicated, which spurred personal liberty laws, Underground Railroad activity, and the success of Uncle Tom's Cabin (1852).\n\n(A) is wrong because the Compromise ended only the slave trade in Washington D.C., not slavery there.\n(B) is wrong because no southern state was required to free anyone; the Fugitive Slave Act was a concession to the South.\n(D) is wrong because the Compromise granted no citizenship rights to formerly enslaved people, and Dred Scott in 1857 denied them."
     },
     {
       "id": "5-4",
@@ -3563,7 +3563,7 @@ const QUESTIONS = {
         "It was functionally identical to the Missouri Compromise's fixed line"
       ],
       "correct": 2,
-      "explanation": "Popular sovereignty turned slavery's status into an ongoing local contest in each territory, giving activists on both sides direct incentive to settle there and sway the vote — an instability the Missouri Compromise's single, fixed congressional line didn't create."
+      "explanation": "Correct: (C) It made slavery's status an ongoing local contest, drawing activists in to sway the vote. The Missouri Compromise settled the question once by a line at 36°30′, but popular sovereignty left each territory to decide, so both sides had reason to flood settlers into the territory before the vote. Kansas after 1854 showed this, with New England Emigrant Aid Company settlers and Missouri 'border ruffians' contesting elections.\n\n(A) is wrong because no unanimous-consent rule existed; it was a statute and a political practice, not a constitutional amendment.\n(B) is wrong because it describes a ban with no local vote, which is the opposite of popular sovereignty.\n(D) is wrong because the two approaches were different mechanisms, a fixed line versus a local vote, and that difference is the point of the question."
     },
     {
       "id": "5-5",
@@ -3576,7 +3576,7 @@ const QUESTIONS = {
         "The Kansas-Nebraska Act, a later 1854 law with no connection to the 1850 debate"
       ],
       "correct": 2,
-      "explanation": "The strengthened Fugitive Slave Act is frequently underemphasized but was one of the Compromise's most immediately divisive elements, forcing northern citizens to participate directly in slavery's enforcement. The Wilmot Proviso never became law, and the Kansas-Nebraska Act came four years later."
+      "explanation": "Correct: (C) The strengthened Fugitive Slave Act. Textbooks often highlight California's admission, yet the Fugitive Slave Act reached ordinary Northerners directly, forcing them to aid in returning people to slavery, and it produced immediate anger, rescue attempts and personal liberty laws. The stem's clue words are 'underemphasized' and 'immediately divisive.'\n\n(A) is wrong because the Missouri Compromise line was not a provision of the 1850 package, and the question asks about a feature of that package.\n(B) is wrong because the Wilmot Proviso (1846) passed the House but never the Senate and never became law.\n(D) is wrong because the Kansas-Nebraska Act came four years later in 1854, so it was not part of the 1850 debate."
     },
     {
       "id": "5-6",
@@ -3589,7 +3589,7 @@ const QUESTIONS = {
         "No, the Compromise of 1850 contained no provisions relating to Washington D.C. at all"
       ],
       "correct": 2,
-      "explanation": "The Compromise of 1850 banned the slave trade (buying and selling enslaved people) in Washington D.C., but did not abolish slavery itself there — full D.C. emancipation didn't come until 1862, separately."
+      "explanation": "Correct: (C) No — it banned only the slave TRADE in Washington D.C., not slavery itself. The Compromise of 1850 ended the buying and selling of enslaved people in the District's markets, which Northerners found embarrassing in the capital, but slavery remained legal there until the compensated emancipation act of April 1862. The stem asks about slavery itself, and the clue is the trade-versus-institution distinction.\n\n(A) is wrong because it claims full abolition, which did not happen until 1862.\n(B) is wrong because no ten-year sunset clause existed; the trade ban was permanent.\n(D) is wrong because the D.C. slave trade provision was one of the five main parts of the Compromise."
     },
     {
       "id": "5-7",
@@ -3602,7 +3602,7 @@ const QUESTIONS = {
         "Slavery was declared immediately and permanently legal in both territories"
       ],
       "correct": 2,
-      "explanation": "Utah and New Mexico were organized under popular sovereignty: each territory's own settlers would vote on whether to permit slavery, rather than Congress or a fixed line settling the question in advance."
+      "explanation": "Correct: (C) Each territory's settlers would vote on whether to permit slavery. When Congress organized Utah and New Mexico in 1850 it applied popular sovereignty, leaving the slavery question to the territorial legislatures and eventual state constitutions. Both lay in land taken from Mexico in 1848, where the Wilmot Proviso fight had stalled any decision.\n\n(A) is wrong because a permanent ban would have been the Wilmot Proviso approach, which failed.\n(B) is wrong because congressional control with no local input is the reverse of popular sovereignty.\n(D) is wrong because Congress did not declare slavery permanently legal either; it deferred to local voting."
     },
     {
       "id": "5-8",
@@ -3615,7 +3615,7 @@ const QUESTIONS = {
         "Lincoln and Douglas, debating the compromise's merits during their 1858 Senate campaign"
       ],
       "correct": 1,
-      "explanation": "Henry Clay and Stephen Douglas were the two figures most associated with engineering the Compromise of 1850. Lincoln and Douglas's famous debates came later (1858); Jefferson, Madison, Jackson, and Van Buren belong to earlier eras entirely."
+      "explanation": "Correct: (B) Henry Clay and Stephen Douglas. The aging Whig Henry Clay introduced the compromise resolutions in January 1850, and when his omnibus bill failed, Democrat Stephen Douglas broke it into separate bills and steered them through Congress in September 1850 with the help of Daniel Webster and President Millard Fillmore.\n\n(A) is wrong because Jefferson and Madison were long dead (1826 and 1836) and the 1787 Convention concerned the Constitution, not this issue.\n(C) is wrong because Jackson died in 1845 and Van Buren took the Free Soil ticket in 1848, so neither shaped the 1850 deal.\n(D) is wrong because the Lincoln-Douglas debates occurred in 1858, eight years after the Compromise."
     },
     {
       "id": "5-9",
@@ -3628,7 +3628,7 @@ const QUESTIONS = {
         "Strengthened it and extended its protections into newly organized territories"
       ],
       "correct": 0,
-      "explanation": "The Kansas-Nebraska Act explicitly repealed the Missouri Compromise line, applying popular sovereignty instead to Kansas and Nebraska — territory that should have been automatically free under the earlier line."
+      "explanation": "Correct: (A) Explicitly repealed it, applying popular sovereignty to Kansas and Nebraska. Stephen Douglas, seeking a northern route for a transcontinental railroad, wrote a bill in 1854 that organized two territories and stated the 36°30′ restriction of the 1820 Missouri Compromise was 'inoperative,' leaving slavery to the settlers' vote. Because both territories lay north of that line, the repeal opened land that had been closed to slavery for 34 years.\n\n(B) is wrong because the law did the opposite and ended the line instead of making it permanent.\n(C) is wrong because the Act's central feature was repealing the line.\n(D) is wrong because it weakened the line rather than strengthening or extending it."
     },
     {
       "id": "5-10",
@@ -3641,7 +3641,7 @@ const QUESTIONS = {
         "Violent conflict in Kansas between rival settlers, provoked by the territory's popular vote"
       ],
       "correct": 3,
-      "explanation": "'Bleeding Kansas' describes the violent conflict between pro- and anti-slavery settlers who flooded into Kansas Territory specifically to influence its popular sovereignty vote — not a Civil War battle, which came years later."
+      "explanation": "Correct: (D) Violent conflict in Kansas between rival settlers, provoked by the territory's popular vote. After the Kansas-Nebraska Act (1854), pro-slavery Missourians crossed the border to vote, free-state settlers formed their own Topeka government, and violence followed, including the sack of Lawrence (May 1856) and John Brown's Pottawatomie killings. Horace Greeley's press coined 'Bleeding Kansas.'\n\n(A) is wrong because the term is directly tied to the popular sovereignty contest, not detached from it.\n(B) is wrong because the name refers to the 1854-1859 territorial struggle, years before the war, not a named battle in 1863.\n(C) is wrong because the elections were marked by fraud and conflict, not peace."
     },
     {
       "id": "5-11",
@@ -3654,7 +3654,7 @@ const QUESTIONS = {
         "It strengthened and further unified the existing Whig Party's national coalition"
       ],
       "correct": 1,
-      "explanation": "Northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line shattered the Whig Party, which could not hold together its fractured northern anti-expansion and southern pro-slavery factions."
+      "explanation": "Correct: (B) It shattered the Whig Party, unable to hold its northern and southern wings together. Northern 'Conscience' Whigs saw the repeal of the Missouri Compromise line as a betrayal, while Southern Whigs lined up with the Democrats' policy, so the party could not take a unified position. Already weakened after the Whig loss in 1852, the party effectively disappeared by 1856.\n\n(A) is wrong because the Act was the decisive blow that split the party along sectional lines.\n(C) is wrong because the Whigs did not merge into the Democrats; many northern members moved to the new Republican Party, and some to the Know-Nothings.\n(D) is wrong because the Act divided the Whigs rather than unified them."
     },
     {
       "id": "5-12",
@@ -3667,7 +3667,7 @@ const QUESTIONS = {
         "The Federalist Party, reorganized under new sectional leadership"
       ],
       "correct": 2,
-      "explanation": "The Republican Party emerged from the Whig Party's 1854 collapse, organized specifically around opposing slavery's expansion into western territories. The Federalist Party had dissolved decades earlier, and the Know-Nothing Party was a separate, short-lived rival, not the sole successor."
+      "explanation": "Correct: (C) The Republican Party. Anti-Nebraska Whigs, Free Soilers and northern Democrats met at places like Ripon, Wisconsin, and Jackson, Michigan, in 1854 to form a party opposed to the spread of slavery into the territories. The question's clues are 'emerged from the Whig Party's collapse' and 'founded in 1854.'\n\n(A) is wrong because the Democratic Party dated from the Jacksonian era and was not a new party; the Kansas-Nebraska Act actually cost it northern support.\n(B) is wrong because the Know-Nothings (American Party) drew in many Whigs for a time but based their message on anti-immigrant nativism and did not absorb the entire coalition.\n(D) is wrong because the Federalist Party had faded by the 1810s-1820s."
     },
     {
       "id": "5-13",
@@ -3680,7 +3680,7 @@ const QUESTIONS = {
         "No, because the party's actual platform favored slavery's expansion westward"
       ],
       "correct": 1,
-      "explanation": "The early Republican Party's platform opposed slavery's expansion into new western territories — narrower than full, immediate abolitionism, and the opposite of the claim that it favored expansion or had no relation to the slavery debate at all."
+      "explanation": "Correct: (B) No — its platform opposed slavery's EXPANSION westward, narrower than full abolitionism. The Republicans' Free Soil position, 'free soil, free labor, free men,' would keep slavery out of the territories while leaving it alone where it existed, and Lincoln repeated this stance in 1860. Many Republicans were moderate on slavery's legal status in the South even though they attracted some abolitionists.\n\n(A) is wrong because the founding platform did not call for immediate national abolition, and abolitionists like Garrison remained outside party politics.\n(C) is wrong because the party's whole identity was about the slavery debate.\n(D) is wrong because it opposed slavery's westward expansion, the opposite of favoring it."
     },
     {
       "id": "5-14",
@@ -3693,7 +3693,7 @@ const QUESTIONS = {
         "The immediate, nationwide abolition of slavery following the Act's passage"
       ],
       "correct": 1,
-      "explanation": "The intermediate step is northern outrage over the Kansas-Nebraska Act's repeal of the Missouri Compromise line, which fractured the Whig Party and led directly to the Republican Party's 1854 founding."
+      "explanation": "Correct: (B) Northern outrage over the repeal of the Missouri Compromise line. Many Northerners viewed the repeal as opening free soil to slavery and as a betrayal of a long-standing agreement; that anger split northern Whigs from southern Whigs and drove northern voters toward a new antislavery party in 1854.\n\n(A) is wrong because the Act deeply divided the nation rather than uniting support, and Douglas himself was burned in effigy in the North.\n(C) is wrong because the question asks for the intermediate link, and the public reaction is exactly that.\n(D) is wrong because slavery was not abolished nationwide until the Thirteenth Amendment in 1865."
     },
     {
       "id": "5-15",
@@ -3706,7 +3706,7 @@ const QUESTIONS = {
         "That the mechanism's instability could produce real, sustained violence, not theory"
       ],
       "correct": 3,
-      "explanation": "'Bleeding Kansas' demonstrated in practice that popular sovereignty's structural instability, previewed conceptually in Section 5.1, could produce real, sustained violence — not merely a theoretical risk."
+      "explanation": "Correct: (D) That the mechanism's instability could produce real, sustained violence, not theory. Section 5.1's logic held that a local vote would invite both sides to push settlers into the territory; in Kansas that is exactly what happened, with fraudulent elections, rival governments, and killings from 1855 through 1859.\n\n(A) is wrong because the Act gave the decision to settlers, not to Congress alone.\n(B) is wrong because the Act's central provision was the repeal of the Missouri Compromise line, which is a direct connection.\n(C) is wrong because Kansas was anything but stable or uncontroversial."
     },
     {
       "id": "5-16",
@@ -3719,7 +3719,7 @@ const QUESTIONS = {
         "No lasting new party divide emerged from the Kansas-Nebraska Act's fallout"
       ],
       "correct": 2,
-      "explanation": "A new Republican-Democrat divide, organized more explicitly along sectional lines, replaced the old Whig-Democrat party system following the Kansas-Nebraska Act's fallout — not a revival of the much earlier Federalist-era rivalry."
+      "explanation": "Correct: (C) Republican-Democrat. After the Whigs collapsed and the Know-Nothings faded, the Republicans became a purely northern, antislavery-expansion party and the Democrats kept their base in the South, so the 1856 and 1860 contests were fought along sectional lines. The 1860 election made this clear, with Lincoln winning without a single southern electoral vote.\n\n(A) is wrong because the Whigs did not return after their collapse.\n(B) is wrong because the Federalist Party had ended decades earlier, and the Republicans of 1854 were a new party, not the Jeffersonian Republicans.\n(D) is wrong because the Republican-Democratic division proved durable."
     },
     {
       "id": "5-17",
@@ -3732,7 +3732,7 @@ const QUESTIONS = {
         "That only enslaved people, and not free Black Americans, lacked U.S. citizenship"
       ],
       "correct": 1,
-      "explanation": "Dred Scott v. Sandford (1857) ruled that enslaved people, and even free Black Americans, were not U.S. citizens and therefore had no standing to sue in federal court — a ruling that extended well beyond enslaved people alone."
+      "explanation": "Correct: (B) That enslaved people, and free Black Americans too, were not citizens with standing to sue. In March 1857 Chief Justice Roger Taney wrote for a 7-2 majority that people of African descent, whether free or enslaved, were not and could not be citizens under the Constitution, so Dred Scott could not bring a federal suit.\n\n(A) is wrong because it states the opposite of the ruling.\n(C) is wrong because citizenship was the first question the Court answered, ruling Scott lacked standing.\n(D) is wrong because Taney's reasoning extended to free Black Americans too, not only the enslaved."
     },
     {
       "id": "5-18",
@@ -3745,7 +3745,7 @@ const QUESTIONS = {
         "The ruling did not address congressional power over slavery in any way"
       ],
       "correct": 1,
-      "explanation": "Dred Scott ruled Congress had NO constitutional power to prohibit slavery in the territories — invalidating the Missouri Compromise's core mechanism even retroactively and undermining popular sovereignty's legitimacy as well."
+      "explanation": "Correct: (B) That Congress had NO constitutional power to prohibit slavery in the territories at all. Taney held that enslaved people were property protected by the Fifth Amendment's due process clause, so Congress could not bar slaveholders from taking them into territories, and the Missouri Compromise line was declared unconstitutional. This also struck at the Republicans' Free Soil platform.\n\n(A) is wrong because the Court did not assign the power to itself or the territories; it said no one except possibly the states could outlaw slavery.\n(C) is wrong because the ruling sharply limited, not expanded, congressional power over slavery.\n(D) is wrong because this was a central holding of the decision."
     },
     {
       "id": "5-19",
@@ -3758,7 +3758,7 @@ const QUESTIONS = {
         "Its significance was constitutional and national, invalidating the framework prior compromises relied on"
       ],
       "correct": 3,
-      "explanation": "Dred Scott's significance was constitutional and national — by ruling Congress had no power to restrict slavery in any territory, it invalidated the entire prior legal framework for limiting slavery's expansion, radicalizing northern opinion well beyond one case."
+      "explanation": "Correct: (D) Its significance was constitutional and national, invalidating the framework prior compromises relied on. By denying Congress power to exclude slavery from territories, Dred Scott erased the Missouri Compromise line, undermined popular sovereignty (since territories might not be able to ban slavery either), and put the Republican position outside the Constitution.\n\n(A) is wrong because describing it as an individual case ignores its national reach.\n(B) is wrong because the outcome affected all territories and all Black Americans' citizenship.\n(C) is wrong because the ruling was not limited to Scott's home territory; it applied to all federal territories."
     },
     {
       "id": "5-20",
@@ -3771,7 +3771,7 @@ const QUESTIONS = {
         "The party remained fully unified behind a single ticket with no sectional division whatsoever"
       ],
       "correct": 1,
-      "explanation": "By 1860, the Democratic Party had split along sectional lines, with northern and southern Democrats nominating different candidates — a major factor enabling Lincoln's ultimate victory."
+      "explanation": "Correct: (B) The party split sectionally, with northern and southern Democrats naming rival candidates. At the Democratic convention in Charleston in April 1860, southern delegates walked out over a federal slave code for the territories, and in Baltimore the party nominated Stephen Douglas (northern) and John C. Breckinridge (southern), while John Bell ran as the Constitutional Union candidate. The divided opposition helped Lincoln win a plurality.\n\n(A) is wrong because the Democrats were still a major organization and won many seats.\n(C) is wrong because they did not merge with the Republicans.\n(D) is wrong because the party was clearly fractured, not unified."
     },
     {
       "id": "5-21",
@@ -3784,7 +3784,7 @@ const QUESTIONS = {
         "As proof ordinary elections could no longer protect their interests, triggering secession"
       ],
       "correct": 3,
-      "explanation": "Southern states interpreted Lincoln's victory, won with almost no southern electoral support, as proof the political system could no longer protect their interests through ordinary means — directly triggering secession even before his inauguration."
+      "explanation": "Correct: (D) As proof ordinary elections could no longer protect their interests, triggering secession. Lincoln won all of the northern states and 180 electoral votes without appearing on the ballot in most southern states, which many Southerners saw as proof they would be permanently outvoted. South Carolina seceded on December 20, 1860, and six more states followed by February 1861.\n\n(A) is wrong because the South did not celebrate; seven states left within months.\n(B) is wrong because secession conventions began almost immediately.\n(C) is wrong because secession reflected the belief that the system no longer protected southern interests, the opposite of this answer."
     },
     {
       "id": "5-22",
@@ -3797,7 +3797,7 @@ const QUESTIONS = {
         "A steady, uninterrupted march toward peaceful sectional reconciliation across the whole decade"
       ],
       "correct": 2,
-      "explanation": "This period shows repeated attempted compromise (1850, Kansas-Nebraska) followed by escalating crisis (Bleeding Kansas, Dred Scott), culminating in the 1860 election as the final breaking point that triggered secession — a coherent pattern, not isolated events."
+      "explanation": "Correct: (C) A repeated cycle of compromise and escalating crisis, ending in the 1860 election and secession. The Compromise of 1850 produced the Fugitive Slave Act backlash, the Kansas-Nebraska Act (1854) led to Bleeding Kansas, Dred Scott (1857) inflamed the territorial question, and Lincoln's win in 1860 triggered secession. Each attempt at settlement led to a new crisis.\n\n(A) is wrong because the events were causally linked.\n(B) is wrong because the decade between 1850 and 1860 was full of intervening events and the 1820 compromise was not the immediate prelude.\n(D) is wrong because the decade saw intensifying conflict, not peaceful reconciliation."
     },
     {
       "id": "5-23",
@@ -3810,7 +3810,7 @@ const QUESTIONS = {
         "The Republican Party"
       ],
       "correct": 3,
-      "explanation": "Lincoln represented the Republican Party in 1860, a party explicitly opposed to slavery's expansion. The Whig Party had already collapsed by then, and the Democratic Party — which Lincoln did not represent — was the one that split sectionally."
+      "explanation": "Correct: (D) The Republican Party. Lincoln, a former Whig from Illinois who joined the Republicans in 1856, won the party's 1860 nomination at the Chicago convention on a platform opposing slavery's expansion.\n\n(A) is wrong because the Whig Party had disappeared by the mid-1850s.\n(B) is wrong because the Democrats, split between Douglas and Breckinridge, were Lincoln's opponents.\n(C) is wrong because the Federalists dissolved after the Hartford Convention era and Lincoln was never a member."
     },
     {
       "id": "5-24",
@@ -3823,7 +3823,7 @@ const QUESTIONS = {
         "No — it inflamed the dispute, seeming to open every territory to slavery unchecked"
       ],
       "correct": 3,
-      "explanation": "Dred Scott inflamed rather than resolved the dispute — its ruling appeared to open all territories to slavery with no remaining legal check, radicalizing northern opinion rather than settling the underlying conflict."
+      "explanation": "Correct: (D) No — it inflamed the dispute, seeming to open every territory to slavery unchecked. Taney's ruling meant Congress could not bar slavery in any territory, so Republicans saw a threat of slavery spreading everywhere and Northerners called it a slaveholders' conspiracy, while the decision also undercut Douglas's popular sovereignty. The Lincoln-Douglas debates of 1858 and the Republican gains followed.\n\n(A) is wrong because the ruling bore directly on slavery in the territories.\n(B) is wrong because sectional conflict continued to intensify.\n(C) is wrong because the crisis kept escalating to secession within four years, not a five-year resolution."
     },
     {
       "id": "5-25",
@@ -3836,7 +3836,7 @@ const QUESTIONS = {
         "An abstract states' rights principle detached from any specific underlying policy"
       ],
       "correct": 1,
-      "explanation": "This exam treats slavery as the Civil War's central, underlying cause — southern states' own secession declarations explicitly and repeatedly named the right to maintain and expand slavery, not tariffs or an unrelated states'-rights abstraction."
+      "explanation": "Correct: (B) Slavery — the right at stake was the right to maintain and expand it. Secession documents such as Mississippi's declaration say its position was 'thoroughly identified with the institution of slavery,' and Alexander Stephens's Cornerstone speech (March 1861) described slavery as the foundation of the Confederacy. The territorial fights of 1850-1860 all concerned slavery's growth.\n\n(A) is wrong because tariffs were a secondary issue; the 1832 Nullification Crisis was earlier, and the Morrill Tariff followed secession.\n(C) is wrong because the question of the capital's location was not a cause; only the D.C. slave trade was touched in 1850.\n(D) is wrong because 'states' rights' in 1860 was invoked in defense of a specific right, slavery, as the secession declarations show."
     },
     {
       "id": "5-26",
@@ -3849,7 +3849,7 @@ const QUESTIONS = {
         "Initially superior military leadership in several key early engagements"
       ],
       "correct": 2,
-      "explanation": "Larger population and greater industrial capacity were major Union advantages, alongside a more extensive railroad network and naval superiority. The other three options describe Confederate, not Union, advantages."
+      "explanation": "Correct: (C) Larger population and greater industrial capacity. The Union had about 22 million people against about 9 million in the Confederacy, of whom roughly 3.5 million were enslaved, and it held most of the nation's factories, railroads and banking. This industrial base supplied weapons and let the Union sustain a long war.\n\n(A) is wrong because fighting on friendly home ground was the Confederacy's advantage.\n(B) is wrong because defending home territory against invasion was likewise a Confederate asset.\n(D) is wrong because the Confederacy initially had stronger commanders such as Lee and Jackson, so the Union did not have superior early leadership."
     },
     {
       "id": "5-27",
@@ -3862,7 +3862,7 @@ const QUESTIONS = {
         "A more extensive railroad network for moving troops and materiel"
       ],
       "correct": 0,
-      "explanation": "Fighting primarily a defensive war on familiar home territory was a significant Confederate advantage, alongside initially superior leadership in several early engagements. Naval superiority, industrial capacity, and railroads all favored the Union instead."
+      "explanation": "Correct: (A) Fighting primarily a defensive war on familiar home territory. The Confederacy could win by surviving, since the Union had to invade, conquer and hold a large territory, and Southern soldiers defended their homes. The clue is 'defensive.'\n\n(B) is wrong because the North held the industrial base.\n(C) is wrong because the Union navy blockaded Southern ports under the Anaconda Plan.\n(D) is wrong because the North had about 70 percent of the nation's railroad mileage, giving it better mobility."
     },
     {
       "id": "5-28",
@@ -3875,7 +3875,7 @@ const QUESTIONS = {
         "It ended Lee's invasion, eliminating hopes of a decisive Confederate victory on northern soil"
       ],
       "correct": 3,
-      "explanation": "Gettysburg ended Lee's invasion of the North, eliminating Confederate hopes of a decisive northern victory that might have pressured a negotiated peace. Mississippi River control came from Vicksburg, a separate battle in a different theater."
+      "explanation": "Correct: (D) It ended Lee's invasion, eliminating hopes of a decisive Confederate victory on northern soil. At Gettysburg, July 1-3, 1863, General George Meade's army repulsed Lee, whose failed Pickett's Charge cost the Army of Northern Virginia heavy losses; Lee never again invaded the North in force.\n\n(A) is wrong because the war continued until April 1865 and Lee surrendered at Appomattox.\n(B) is wrong because the battle ended northern invasion and cost Lee about a third of his army.\n(C) is wrong because the Mississippi River was secured at Vicksburg, not Gettysburg."
     },
     {
       "id": "5-29",
@@ -3888,7 +3888,7 @@ const QUESTIONS = {
         "It ended General Lee's invasion of Union territory in the North"
       ],
       "correct": 0,
-      "explanation": "Vicksburg gave the Union full control of the Mississippi River, splitting the Confederacy in two and severing a crucial link between its eastern and western halves. Ending Lee's invasion was Gettysburg's contribution, in a different theater."
+      "explanation": "Correct: (A) It gave the Union full control of the Mississippi, splitting the Confederacy into two. After a siege that ended on July 4, 1863, Grant's capture of Vicksburg and the fall of Port Hudson days later cut off Texas, Louisiana and Arkansas from the rest of the Confederacy.\n\n(B) is wrong because the Confederacy did not surrender; only Vicksburg's garrison did, and the war ran until 1865.\n(C) is wrong because the Mississippi had not been fully open before this.\n(D) is wrong because Lee's invasion ended at Gettysburg in Pennsylvania."
     },
     {
       "id": "5-30",
@@ -3901,7 +3901,7 @@ const QUESTIONS = {
         "The two battles share no meaningful joint significance worth analyzing together at all"
       ],
       "correct": 1,
-      "explanation": "Gettysburg and Vicksburg, occurring almost simultaneously in different theaters, together eliminated the Confederacy's best remaining strategic options at once, jointly shifting the war's momentum toward the Union — neither one alone tells the full story."
+      "explanation": "Correct: (B) Occurring almost simultaneously, together they eliminated the South's best options at once. Gettysburg (July 1-3) ended Lee's northern invasion and Vicksburg (July 4) cut the Confederacy along the Mississippi, so within days the South lost both its chance to win a decisive victory in the North and its hold on the river. They are paired as the war's turning point.\n\n(A) is wrong because Vicksburg had major strategic value.\n(C) is wrong because Gettysburg mattered greatly too.\n(D) is wrong because the timing makes them a standard pairing."
     },
     {
       "id": "5-31",
@@ -3914,7 +3914,7 @@ const QUESTIONS = {
         "This argument is incomplete — secession declarations named slavery as the right at stake"
       ],
       "correct": 3,
-      "explanation": "The argument is incomplete: southern states' own secession declarations explicitly and repeatedly named slavery specifically as the right at stake, directly contradicting a 'states' rights' framing detached from that institution."
+      "explanation": "Correct: (D) This argument is incomplete — secession declarations named slavery as the right at stake. Mississippi, Georgia, Texas and South Carolina each cited slavery and the threat to it as the reason for leaving, and Stephens called slavery the Confederacy's 'cornerstone.' States' rights claims were about the right to hold enslaved people.\n\n(A) is wrong because it ignores this evidence.\n(B) is wrong because the declarations and speeches survive and can be analyzed.\n(C) is wrong because the slavery focus applied from the start of secession, not only in later years."
     },
     {
       "id": "5-32",
@@ -3927,7 +3927,7 @@ const QUESTIONS = {
         "The Union held no meaningful naval advantage over the Confederacy at any point"
       ],
       "correct": 1,
-      "explanation": "Union naval superiority enabled a blockade of southern ports, restricting Confederate trade and supply throughout the war — a significant, sustained Union advantage, not a Confederate one."
+      "explanation": "Correct: (B) Naval superiority, enabling a blockade of southern ports. Under Winfield Scott's Anaconda Plan, the Union navy blockaded Southern ports and cut off the Confederacy's cotton exports and imports, wearing down its economy.\n\n(A) is wrong because the navy was central to the Anaconda Plan and the Mississippi campaign.\n(C) is wrong because the Union navy was larger.\n(D) is wrong because the Union clearly held the naval advantage."
     },
     {
       "id": "5-33",
@@ -3940,7 +3940,7 @@ const QUESTIONS = {
         "January 1863, following the Battle of Antietam (September 1862)"
       ],
       "correct": 3,
-      "explanation": "The Emancipation Proclamation was issued in January 1863, following the Union's tactical victory at Antietam in September 1862, which gave Lincoln the political standing to issue it — decades after Saratoga and years before the war's 1865 end."
+      "explanation": "Correct: (D) January 1863, following the Battle of Antietam (September 1862). Lincoln issued the preliminary proclamation on September 22, 1862, after the Union stopped Lee's advance at Antietam (September 17), and it took effect on January 1, 1863.\n\n(A) is wrong because the war ended in 1865, and 1865 is the year of the Thirteenth Amendment.\n(B) is wrong because 1776 was the year of independence, and Saratoga (1777) belongs to the Revolution.\n(C) is wrong because 1850 is the year of the Compromise, not emancipation."
     },
     {
       "id": "5-34",
@@ -3953,7 +3953,7 @@ const QUESTIONS = {
         "No, because the Proclamation freed no enslaved people in any state whatsoever"
       ],
       "correct": 0,
-      "explanation": "The Emancipation Proclamation applied specifically to states currently in rebellion — it did NOT free enslaved people in loyal border states like Maryland and Kentucky, though it did free many people within the rebelling South."
+      "explanation": "Correct: (A) No — it applied to states in rebellion, explicitly excluding loyal border states. The Proclamation exempted Delaware, Kentucky, Maryland and Missouri, which stayed in the Union, as well as Tennessee and Union-occupied areas of Louisiana and Virginia. Lincoln based it on his war powers against rebelling areas.\n\n(B) is wrong because it covered only rebel-held areas.\n(C) is wrong because Maryland and others were also exempt, not just Kentucky.\n(D) is wrong because it declared enslaved people in rebel areas free, and many freed themselves by reaching Union lines."
     },
     {
       "id": "5-35",
@@ -3966,7 +3966,7 @@ const QUESTIONS = {
         "Loyal border states had already abolished slavery on their own before 1863"
       ],
       "correct": 0,
-      "explanation": "Lincoln excluded loyal border states because he lacked clear constitutional authority to abolish slavery outside states in rebellion, and worried that including them might push those loyal states toward secession themselves."
+      "explanation": "Correct: (A) He lacked authority over loyal states and feared pushing them toward secession themselves. Lincoln justified the Proclamation as a military measure against the enemy, which did not extend to loyal states, and he worried that Kentucky, Maryland and Missouri might join the Confederacy; losing Kentucky in particular, he feared, would badly damage the Union's position on the Ohio River.\n\n(B) is wrong because the exclusion was deliberate.\n(C) is wrong because the document did target slavery in rebel areas.\n(D) is wrong because slavery remained legal in the border states until the Thirteenth Amendment."
     },
     {
       "id": "5-36",
@@ -3979,7 +3979,7 @@ const QUESTIONS = {
         "The Nineteenth Amendment, ratified decades later in 1920"
       ],
       "correct": 1,
-      "explanation": "The Thirteenth Amendment (ratified 1865, after the war's end) achieved full, nationwide abolition of slavery — a distinct, later step beyond the Proclamation's wartime, rebellion-only scope."
+      "explanation": "Correct: (B) The Thirteenth Amendment. Ratified in December 1865, it abolished slavery everywhere in the United States, including the border states that the Proclamation had exempted.\n\n(A) is wrong because the Fifteenth Amendment (1870) protects voting rights, not abolition, and came seven years after the Proclamation.\n(C) is wrong because the Fourteenth Amendment (1868) dealt with citizenship and equal protection and came five years after it.\n(D) is wrong because the Nineteenth Amendment (1920) concerned women's suffrage."
     },
     {
       "id": "5-37",
@@ -3992,7 +3992,7 @@ const QUESTIONS = {
         "It produced no practical effect on the Union war effort whatsoever"
       ],
       "correct": 0,
-      "explanation": "The Emancipation Proclamation authorized Black men to enlist in the Union Army, adding a substantial new source of manpower — a major practical effect that went beyond the document's more limited legal scope."
+      "explanation": "Correct: (A) It authorized Black men to enlist in the Union Army, adding substantial new manpower. The Proclamation announced that freedmen would be received into armed service, and about 180,000 Black men served in the Union Army, with others in the navy, including the 54th Massachusetts. It also discouraged Britain and France from backing the Confederacy.\n\n(B) is wrong because the war continued for over two more years.\n(C) is wrong because it increased manpower.\n(D) is wrong because Black enlistment and the shift in war aims were significant effects."
     },
     {
       "id": "5-38",
@@ -4005,7 +4005,7 @@ const QUESTIONS = {
         "It transformed the war's purpose from purely preserving the Union into also ending slavery"
       ],
       "correct": 3,
-      "explanation": "The Emancipation Proclamation transformed the war's purpose from purely preserving the Union into ALSO ending slavery — it added a goal rather than replacing the original one."
+      "explanation": "Correct: (D) It transformed the war's purpose from purely preserving the Union into also ending slavery. Before 1863 Lincoln stressed restoring the Union, but the Proclamation made emancipation an official Union war aim, which Lincoln's Gettysburg Address later framed as a 'new birth of freedom.'\n\n(A) is wrong because the purpose clearly widened.\n(B) is wrong because preserving the Union remained a goal.\n(C) is wrong because the Union goal was not replaced; it was supplemented."
     },
     {
       "id": "5-39",
@@ -4018,7 +4018,7 @@ const QUESTIONS = {
         "This claim is fully accurate exactly as stated, with no qualification needed"
       ],
       "correct": 1,
-      "explanation": "This is a frequently tested misconception: the Proclamation applied only to states in rebellion, explicitly excluding loyal border states, and full nationwide abolition required the separate, later Thirteenth Amendment (1865)."
+      "explanation": "Correct: (B) This claim is inaccurate — it excluded loyal states; full abolition needed the 13th Amendment. The Proclamation applied only to areas in rebellion, leaving slavery legal in the border states and in Union-held parts of the South, and its enforcement depended on Union army advances. The Thirteenth Amendment in 1865 ended slavery nationwide.\n\n(A) is wrong because the text and effects of the Proclamation are well documented.\n(C) is wrong because the claim is inaccurate for 1863 as well.\n(D) is wrong because the claim overlooks the exemptions."
     },
     {
       "id": "5-40",
@@ -4031,7 +4031,7 @@ const QUESTIONS = {
         "He had no particular strategic reasoning behind the delay at all"
       ],
       "correct": 0,
-      "explanation": "Lincoln waited for a battlefield victory (Antietam) so the Proclamation would appear as a position of strength rather than a desperate gesture after a string of Union setbacks — a deliberate timing choice, not a legal requirement or congressional condition."
+      "explanation": "Correct: (A) He wanted to issue it from strength, not apparent desperation, after earlier Union setbacks. Secretary of State William Seward advised Lincoln to wait for a battlefield victory so that the proclamation would not look like a last-ditch appeal; Lincoln held the draft until Antietam in September 1862.\n\n(B) is wrong because no statute set a date; Lincoln acted on his war powers.\n(C) is wrong because he did not need congressional approval to issue it as commander in chief.\n(D) is wrong because the delay was a deliberate strategic choice."
     },
     {
       "id": "5-41",
@@ -4044,7 +4044,7 @@ const QUESTIONS = {
         "A plan with no meaningful connection to Reconstruction policy whatsoever"
       ],
       "correct": 1,
-      "explanation": "Lincoln's Ten Percent Plan was an early, relatively lenient Reconstruction proposal offering former Confederate states a comparatively easy path back into the Union, not a tariff or loyalty-oath threshold measure."
+      "explanation": "Correct: (B) An early, relatively lenient Reconstruction plan for readmitting former Confederate states. Announced in December 1863, it offered a pardon to most Confederates who took a loyalty oath, and a state could form a new government once 10 percent of its 1860 voters took the oath and accepted emancipation.\n\n(A) is wrong because it reverses the numbers; only ten percent were required.\n(C) is wrong because it had nothing to do with tariffs.\n(D) is wrong because the plan was central to wartime Reconstruction policy."
     },
     {
       "id": "5-42",
@@ -4057,7 +4057,7 @@ const QUESTIONS = {
         "Johnson's approach was notably stricter and more punitive than Lincoln's had been"
       ],
       "correct": 1,
-      "explanation": "Johnson's approach was even more lenient than Lincoln's, quickly readmitting southern states with minimal requirements and offering broad pardons to former Confederates — the opposite of a stricter policy."
+      "explanation": "Correct: (B) Johnson's approach was even more lenient, readmitting states with minimal requirements and pardons. After taking office in April 1865, Johnson issued broad amnesty in May 1865, appointed provisional governors, and required only that states void secession, abolish slavery and repudiate Confederate debt, while he pardoned thousands of former Confederates.\n\n(A) is wrong because Johnson's plan differed, particularly in leaving Confederate elites in power and ignoring freed people's protection.\n(C) is wrong because Johnson dominated Reconstruction policy through the end of 1865.\n(D) is wrong because his plan was less punitive than the Radical Republicans' and softer than Lincoln's."
     },
     {
       "id": "5-43",
@@ -4070,7 +4070,7 @@ const QUESTIONS = {
         "An alternate name used interchangeably for the separate Freedmen's Bureau agency"
       ],
       "correct": 2,
-      "explanation": "Black Codes were laws passed by southern states under Johnson's lenient policy, severely restricting freed people's rights regarding labor contracts, movement, and other basic freedoms — not federal protections or a Freedmen's Bureau synonym."
+      "explanation": "Correct: (C) Laws passed by southern states severely restricting freed people's labor and movement. In 1865-1866, Mississippi, South Carolina and other states enacted codes with vagrancy laws, apprenticeship rules and labor contract requirements, forcing Black workers back to plantations and limiting their rights to testify or own land.\n\n(A) is wrong because Congress did not pass them; they were state laws, and the Civil Rights Act of 1866 was a response.\n(B) is wrong because they restricted rather than granted rights.\n(D) is wrong because the Freedmen's Bureau was a federal agency that helped former slaves, not the same as the Black Codes."
     },
     {
       "id": "5-44",
@@ -4083,7 +4083,7 @@ const QUESTIONS = {
         "Congress broadly supported the Black Codes and raised no significant objection to them"
       ],
       "correct": 0,
-      "explanation": "Black Codes appeared to congressional Republicans as an attempt to recreate slavery's conditions in all but name, convincing them Johnson's lenient approach let the South evade the war's fundamental outcome — provoking, not securing, congressional support."
+      "explanation": "Correct: (A) They appeared to recreate slavery's conditions, convincing Republicans the South was evading the outcome. Northerners saw Black Codes and the return of former Confederate leaders to Congress as proof that the South was refusing to accept defeat, so Congress passed the Civil Rights Act of 1866 over Johnson's veto, wrote the Fourteenth Amendment, and denied seats to southern delegations.\n\n(B) is wrong because states, not Congress, passed the Codes.\n(C) is wrong because they were a major cause of Congress's backlash.\n(D) is wrong because Republicans objected strongly."
     },
     {
       "id": "5-45",
@@ -4096,7 +4096,7 @@ const QUESTIONS = {
         "Yes, both presidents pursued policies that were, in every particular, identical"
       ],
       "correct": 2,
-      "explanation": "It is not accurate to treat the two as identical: while both were relatively lenient compared to what followed, Johnson's was notably more lenient and included essentially no meaningful protection for freed people's rights."
+      "explanation": "Correct: (C) No — Johnson's approach was more lenient, with essentially no protection for freed people's rights. Johnson's pardons returned Confederate leaders to power, he vetoed the Freedmen's Bureau extension and the Civil Rights Act of 1866, and he opposed the Fourteenth Amendment, unlike Lincoln's wartime plan, which at least required accepting emancipation.\n\n(A) is wrong because it reverses the comparison.\n(B) is wrong because Johnson did not just continue Lincoln's plan.\n(D) is wrong because the two plans differed."
     },
     {
       "id": "5-46",
@@ -4109,7 +4109,7 @@ const QUESTIONS = {
         "A complete and permanent end to any further Reconstruction policy of any kind"
       ],
       "correct": 1,
-      "explanation": "Congressional Republican backlash against Johnson's leniency and southern Black Codes directly set up the shift toward Radical Reconstruction, with Congress seizing control of policy from the president — not a re-election or an already-past Proclamation."
+      "explanation": "Correct: (B) The shift toward Radical Reconstruction, Congress seizing policy control from the president. After Republicans won big in the 1866 midterms, Congress passed the Reconstruction Acts of 1867 over Johnson's veto, placing the South under military districts and requiring new state constitutions with Black male suffrage.\n\n(A) is wrong because Johnson was not renominated or re-elected in 1868.\n(C) is wrong because the Emancipation Proclamation was 1863, before Johnson took office.\n(D) is wrong because Reconstruction intensified."
     },
     {
       "id": "5-47",
@@ -4122,7 +4122,7 @@ const QUESTIONS = {
         "Complete political equality, including guaranteed voting rights, from the very outset"
       ],
       "correct": 0,
-      "explanation": "Under Johnson's lenient approach, formerly enslaved people received essentially no meaningful federal protection, allowing southern states to pass restrictive Black Codes largely unchecked — a key factor provoking later congressional intervention."
+      "explanation": "Correct: (A) Essentially no protection, letting southern states pass restrictive Black Codes unchecked. Johnson believed in a limited federal role and a white-led South, so his plan imposed no suffrage or civil rights protections, leaving freed people vulnerable to Black Codes and violence such as the 1866 Memphis and New Orleans riots.\n\n(B) is wrong because Radical Reconstruction brought military protection and the Fourteenth and Fifteenth Amendments.\n(C) is wrong because Johnson did not enforce them.\n(D) is wrong because Black men did not get voting rights until Radical Reconstruction."
     },
     {
       "id": "5-48",
@@ -4135,7 +4135,7 @@ const QUESTIONS = {
         "Presidential Reconstruction was, on balance, considerably harsher than what followed it"
       ],
       "correct": 2,
-      "explanation": "Both Lincoln's and Johnson's approaches favored an easier path back to the Union with limited protection for freed people, in contrast to Radical Reconstruction's more assertive intervention (military districts, constitutional amendments) covered next."
+      "explanation": "Correct: (C) Both favored an easier path back with limited protections, unlike Radical Reconstruction's approach. Lincoln's and Johnson's plans readmitted states quickly with modest conditions, while Radical Reconstruction required military occupation, Black male suffrage and ratification of the Fourteenth Amendment.\n\n(A) is wrong because the differences were large.\n(B) is wrong because military districts were a feature of Radical Reconstruction, not Presidential Reconstruction.\n(D) is wrong because Presidential Reconstruction was more lenient."
     },
     {
       "id": "5-49",
@@ -4148,7 +4148,7 @@ const QUESTIONS = {
         "Citizenship for all persons born within the United States"
       ],
       "correct": 2,
-      "explanation": "The Thirteenth Amendment (1865) abolished slavery nationwide — the first of the three Reconstruction-era amendments. Citizenship, voting rights, and military districts belong to the Fourteenth Amendment, Fifteenth Amendment, and Reconstruction Acts, respectively."
+      "explanation": "Correct: (C) Abolition of slavery nationwide. Ratified in December 1865, the Thirteenth Amendment banned slavery and involuntary servitude except as punishment for crime, and ended it in the border states as well.\n\n(A) is wrong because the Fifteenth Amendment (1870) addressed voting rights.\n(B) is wrong because military districts were created by the Reconstruction Acts of 1867 and not by an amendment.\n(D) is wrong because birthright citizenship came with the Fourteenth Amendment (1868)."
     },
     {
       "id": "5-50",
@@ -4161,7 +4161,7 @@ const QUESTIONS = {
         "Prohibition of denying voting rights on the basis of race or color"
       ],
       "correct": 2,
-      "explanation": "The Fourteenth Amendment (1868) granted citizenship to all persons born in the United States and guaranteed equal protection under the law — distinct from the Thirteenth Amendment's abolition of slavery or the Fifteenth's voting protections."
+      "explanation": "Correct: (C) Citizenship for all persons born in the U.S. and equal protection under the law. The Fourteenth Amendment overruled Dred Scott by defining citizenship by birth and barred states from denying due process or equal protection, which later underlay Brown v. Board.\n\n(A) is wrong because abolition came with the Thirteenth Amendment.\n(B) is wrong because the military districts came from statutes in 1867.\n(D) is wrong because that is the Fifteenth Amendment."
     },
     {
       "id": "5-51",
@@ -4174,7 +4174,7 @@ const QUESTIONS = {
         "Citizenship for all persons born within the United States, including the formerly enslaved and their children"
       ],
       "correct": 0,
-      "explanation": "The Fifteenth Amendment (1870) prohibited denying the right to vote based on race, color, or previous condition of servitude — the third Reconstruction amendment, distinct from citizenship (14th) or women's suffrage, which came decades later."
+      "explanation": "Correct: (A) Prohibition of denying the vote based on race, color, or prior condition of servitude. Ratified in 1870, the Fifteenth Amendment gave Black men a constitutional guarantee against racial exclusion from voting, though it did not cover women and did not stop poll taxes or literacy tests later.\n\n(B) is wrong because abolition was the Thirteenth Amendment.\n(C) is wrong because women's suffrage came in the Nineteenth Amendment (1920).\n(D) is wrong because citizenship is in the Fourteenth Amendment."
     },
     {
       "id": "5-52",
@@ -4187,7 +4187,7 @@ const QUESTIONS = {
         "The passage sequence was essentially arbitrary and carries no logical connection"
       ],
       "correct": 2,
-      "explanation": "Each amendment answered a progressively more specific question building directly on the one before it — abolishing slavery, then establishing citizenship and legal protection, then securing voting rights — a logical sequence, not an arbitrary one."
+      "explanation": "Correct: (C) Each amendment built on the one before it: abolition, then citizenship, then voting rights. The Thirteenth ended slavery, the Fourteenth defined citizenship and equal protection for people freed from it, and the Fifteenth protected their right to vote, as political tools to defend those gains.\n\n(A) is wrong because each amendment's content was different.\n(B) is wrong because the order reflects a logical progression.\n(D) is wrong because it was not arbitrary."
     },
     {
       "id": "5-53",
@@ -4200,7 +4200,7 @@ const QUESTIONS = {
         "Division of the Confederacy into military districts, readmission tied to specific conditions"
       ],
       "correct": 3,
-      "explanation": "The Reconstruction Acts divided the former Confederacy into military districts under federal military oversight, with readmission conditioned on ratifying the Fourteenth Amendment and guaranteeing Black male suffrage — not immediate self-rule or permanent exclusion."
+      "explanation": "Correct: (D) Division of the Confederacy into military districts, readmission tied to specific conditions. The Reconstruction Acts of 1867 divided ten former Confederate states (not Tennessee) into five military districts, and they could return only after writing new constitutions with Black male suffrage and ratifying the Fourteenth Amendment.\n\n(A) is wrong because federal military oversight was central.\n(B) is wrong because the acts defined how the South would be governed.\n(C) is wrong because the states were readmitted, between 1868 and 1870."
     },
     {
       "id": "5-54",
@@ -4213,7 +4213,7 @@ const QUESTIONS = {
         "Another name commonly used interchangeably for the Ku Klux Klan"
       ],
       "correct": 0,
-      "explanation": "The Freedmen's Bureau provided formerly enslaved people direct assistance — education, medical care, and help negotiating labor contracts — a federal Reconstruction-era agency, not a Confederate body or a name for the Klan."
+      "explanation": "Correct: (A) An agency giving freed people direct help: education, medical care, and labor-contract negotiation. Created by Congress in March 1865 under General O. O. Howard, the Bureau of Refugees, Freedmen, and Abandoned Lands set up schools, hospitals and food aid, and helped freed people negotiate labor contracts.\n\n(B) is wrong because the Bureau was a Union government agency.\n(C) is wrong because it was a federal agency, not a Confederate one.\n(D) is wrong because the Klan was a terrorist group that opposed Black rights and sometimes attacked Bureau agents."
     },
     {
       "id": "5-55",
@@ -4226,7 +4226,7 @@ const QUESTIONS = {
         "Yes, but strictly at the local municipal level, never in state legislatures or Congress"
       ],
       "correct": 1,
-      "explanation": "Radical Reconstruction saw genuine, historic Black political participation — Black Americans were elected to southern state legislatures and to the U.S. Congress itself for the first time, not just at the local level, and this was permitted, not barred, by the Reconstruction Acts."
+      "explanation": "Correct: (B) Yes — elected to southern legislatures and to the U.S. Congress for the first time. Hiram Revels of Mississippi became the first Black U.S. senator in 1870, Blanche K. Bruce followed, and Joseph Rainey of South Carolina entered the House in 1870, while hundreds of Black men served in state legislatures.\n\n(A) is wrong because many Black officeholders served.\n(C) is wrong because the acts required Black male suffrage.\n(D) is wrong because Black officials were elected to state legislatures and Congress."
     },
     {
       "id": "5-56",
@@ -4239,7 +4239,7 @@ const QUESTIONS = {
         "The later reversal renders the original achievement historically meaningless"
       ],
       "correct": 1,
-      "explanation": "Black political participation during Radical Reconstruction was a genuine, substantial achievement, even though it would tragically prove temporary — a complete answer honors that achievement while also explaining its later, forcible reversal, rather than only emphasizing the reversal."
+      "explanation": "Correct: (B) It was a genuine achievement; a complete answer also notes its eventual reversal. Black men voting and holding office in the 1860s-1870s was historic, and the Fourteenth and Fifteenth Amendments remained as a legal basis for later challenge, even though disenfranchisement took much of it away by 1900.\n\n(A) is wrong because it had significance.\n(C) is wrong because the reversal doesn't erase what was achieved.\n(D) is wrong because the later loss doesn't make the achievement meaningless."
     },
     {
       "id": "5-57",
@@ -4252,7 +4252,7 @@ const QUESTIONS = {
         "Using organized terror to suppress Black political participation and intimidate people"
       ],
       "correct": 3,
-      "explanation": "The Ku Klux Klan used organized terrorism and violence specifically to suppress Black political participation and intimidate Black communities and their allies — the opposite of protecting rights or administering federal Reconstruction programs."
+      "explanation": "Correct: (D) Using organized terror to suppress Black political participation and intimidate people. Founded in Pulaski, Tennessee in 1865-66, the Klan used violence, arson and murder against Black voters, officeholders and their white allies, prompting the Enforcement Acts (1870-71) and a Ku Klux Klan Act.\n\n(A) is wrong because the Klan attacked civil rights.\n(B) is wrong because the Klan opposed the Reconstruction Acts.\n(C) is wrong because the Freedmen's Bureau was a federal agency the Klan opposed."
     },
     {
       "id": "5-58",
@@ -4265,7 +4265,7 @@ const QUESTIONS = {
         "The formal ratification of the Thirteenth Amendment abolishing slavery"
       ],
       "correct": 2,
-      "explanation": "The Compromise of 1877 resolved the disputed 1876 election by awarding the presidency to Rutherford B. Hayes in exchange for withdrawing remaining federal troops from the South — a political bargain, not an amendment or an extension of Radical Reconstruction."
+      "explanation": "Correct: (C) Hayes's presidency, secured in exchange for withdrawing remaining federal troops from the South. In the disputed 1876 election, Republican Rutherford B. Hayes became president over Samuel Tilden after an informal deal, with Southern Democrats accepting Hayes and the last federal troops leaving Louisiana and South Carolina.\n\n(A) is wrong because federal enforcement declined.\n(B) is wrong because the compromise ended Reconstruction.\n(D) is wrong because the Thirteenth Amendment was ratified in 1865."
     },
     {
       "id": "5-59",
@@ -4278,7 +4278,7 @@ const QUESTIONS = {
         "It effectively ended federal civil rights enforcement in the South, clearing the way for Jim Crow"
       ],
       "correct": 3,
-      "explanation": "The Compromise of 1877 effectively ended federal enforcement of Black civil rights protections in the former Confederacy, clearing the way for the systematic segregation and disenfranchisement that opens Period 6 — not an extension or strengthening of enforcement."
+      "explanation": "Correct: (D) It effectively ended federal civil rights enforcement in the South, clearing the way for Jim Crow. After troops left in 1877, white Democratic 'Redeemer' governments took over, and Black voting was suppressed through violence and later poll taxes, literacy tests and segregation laws.\n\n(A) is wrong because enforcement did not last two more decades.\n(B) is wrong because federal enforcement weakened.\n(C) is wrong because there was a clear change."
     },
     {
       "id": "5-60",
@@ -4291,7 +4291,7 @@ const QUESTIONS = {
         "Yes, KKK violence alone ended Reconstruction, with no political component involved in the final outcome"
       ],
       "correct": 1,
-      "explanation": "A complete explanation names BOTH sustained organized violence (KKK terrorism undermining enforcement throughout Reconstruction) AND the 1877 political deal (delivering its final, formal end) — neither cause alone is sufficient."
+      "explanation": "Correct: (B) No — a complete answer names both sustained KKK violence and the 1877 political deal together. Violence by the Klan and similar groups weakened Republican governments, while Northern fatigue and the Compromise of 1877 removed federal troops, together with court rulings such as the Slaughter-House Cases (1873) and U.S. v. Cruikshank (1876).\n\n(A) is wrong because Reconstruction ended in 1877.\n(C) is wrong because violence was a major factor.\n(D) is wrong because political deals were important."
     },
     {
       "id": "5-61",
@@ -4304,7 +4304,7 @@ const QUESTIONS = {
         "Reconstruction's legacy cannot be assessed using any available historical evidence at all"
       ],
       "correct": 0,
-      "explanation": "A complete evaluation distinguishes Reconstruction's short-term practical failure (undone by violence and the 1877 Compromise) from its enduring constitutional legacy (the three amendments the Civil Rights Movement later relied on) — avoiding a simple one-sided verdict."
+      "explanation": "Correct: (A) It distinguishes short-term practical failure from the amendments' longer-term legacy. Reconstruction failed to secure lasting Black political and economic rights by 1877, but it produced the Thirteenth, Fourteenth and Fifteenth Amendments and public schools and institutions that remained.\n\n(B) is wrong because it ignores the amendments.\n(C) is wrong because it ignores the loss of rights.\n(D) is wrong because ample evidence exists."
     },
     {
       "id": "5-62",
@@ -4317,7 +4317,7 @@ const QUESTIONS = {
         "They carried no significance whatsoever beyond the immediate Reconstruction era itself"
       ],
       "correct": 1,
-      "explanation": "The Reconstruction-era amendments remained on the books despite Reconstruction's practical political collapse, becoming the essential legal foundation the twentieth-century Civil Rights Movement (Period 8) eventually used to dismantle segregation — they were never repealed."
+      "explanation": "Correct: (B) They stayed on the books, later becoming the legal foundation the Civil Rights Movement used. The Fourteenth Amendment's equal protection clause supported Brown v. Board of Education (1954), and the Fifteenth Amendment backed the Voting Rights Act of 1965.\n\n(A) is wrong because they remained law.\n(C) is wrong because Congress never repealed them.\n(D) is wrong because they had major later impact."
     },
     {
       "id": "5-63",
@@ -4330,7 +4330,7 @@ const QUESTIONS = {
         "Jim Crow segregation and systematic disenfranchisement"
       ],
       "correct": 3,
-      "explanation": "The end of Reconstruction cleared the way for Jim Crow segregation and systematic legal disenfranchisement — a distinct system of racial oppression, not a literal return to slavery, that dominates the opening of Period 6."
+      "explanation": "Correct: (D) Jim Crow segregation and systematic disenfranchisement. After 1877, Southern states passed segregation laws and used poll taxes, literacy tests and grandfather clauses to bar Black voters, and Plessy v. Ferguson (1896) upheld 'separate but equal.'\n\n(A) is wrong because equality did not follow.\n(B) is wrong because a system of oppression did follow.\n(C) is wrong because slavery was not restored, though sharecropping and convict leasing created other forms of coercion."
     },
     {
       "id": "5-64",
@@ -4343,7 +4343,7 @@ const QUESTIONS = {
         "1877"
       ],
       "correct": 3,
-      "explanation": "1877 is the year of the Compromise of 1877, the political deal that formally ended Reconstruction by trading the disputed presidency for federal troop withdrawal — distinct from 1865 (war's end/13th Amendment), 1870 (15th Amendment), and 1898 (Spanish-American War)."
+      "explanation": "Correct: (D) 1877. The Compromise of 1877 settled the contested 1876 election and led to the withdrawal of troops that ended Reconstruction.\n\n(A) is wrong because 1865 was when the war ended and the Thirteenth Amendment was ratified.\n(B) is wrong because 1870 was when the Fifteenth Amendment was ratified.\n(C) is wrong because 1898 was the Spanish-American War."
     },
     {
       "id": "5-65",
@@ -4357,7 +4357,7 @@ const QUESTIONS = {
         "Both show a genuine advance met by backlash that undermined it, leaving lasting residue"
       ],
       "correct": 3,
-      "explanation": "This synthesis question rewards recognizing a recurring rhythm: an initial step meant as a stabilizing advance (popular sovereignty; Black political participation) meets organized, often violent backlash (Bleeding Kansas; KKK terrorism and the 1877 Compromise) that undermines the immediate practical goal — yet something lasting survives (a transformed party system; constitutional amendments that outlive Reconstruction's collapse). Recognizing this shared advance-backlash-residue pattern across different subject matter is exactly the higher-order synthesis a top-scoring essay should demonstrate."
+      "explanation": "Correct: (D) Both show a genuine advance met by backlash that undermined it, leaving lasting residue. In Radical Reconstruction, Black voting and officeholding were met by Klan terror and the Compromise of 1877, leaving the Reconstruction Amendments. In the 1850s, each compromise (the 1850 package, popular sovereignty) met escalating resistance, Bleeding Kansas and Dred Scott, leaving a new party system and sectional lines. The pattern is advance, backlash, residue.\n\n(A) is wrong because the compromises of the 1850s met fierce resistance too.\n(B) is wrong because the parallel is real.\n(C) is wrong because recurring patterns can be identified."
     }
   ],
   "6": [
