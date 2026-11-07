@@ -1822,7 +1822,7 @@ const QUESTIONS = {
       "topic": "3.1 French and Indian War",
       "stem": "What did the 1763 Treaty of Paris establish?",
       "choices": [
-        "American independence from Britain, recognized eleven years earlier than it actually was",
+        "American independence from Britain, recognized twenty years earlier than it actually was",
         "A permanent military alliance between France and the thirteen colonies",
         "Britain's acquisition of Canada and territory east of the Mississippi",
         "Formal repeal of the Proclamation of 1763's settlement restrictions"
@@ -2019,11 +2019,11 @@ const QUESTIONS = {
       "choices": [
         "That government authority derives solely from hereditary succession and divine right, regardless of the people's consent",
         "That monarchy is the only legitimate form of government for any society",
-        "That individuals hold inherent rights to life, liberty, and property, granted only with the people's consent",
+        "That individuals hold inherent rights to life, liberty, and property, and that government is legitimate only with the people's consent",
         "That individuals possess no inherent rights of any kind apart from those the state grants them by law or custom"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) That individuals hold inherent rights to life, liberty, and property, granted only with the people's consent. John Locke's Two Treatises of Government (1689) argued that people have natural rights before government exists and form governments through a social contract to protect them, so government's power rests on the consent of the governed. This idea shaped the Declaration of Independence, which echoed Locke's 'life, liberty, and property' as 'life, liberty and the pursuit of happiness.'\n\n(A) is wrong because it describes the divine right theory that Locke rejected.\n(B) is wrong because Locke criticized absolute monarchy.\n(D) is wrong because Locke held that rights come from nature, not from the state."
+      "explanation": "Correct: (C) That individuals hold inherent rights to life, liberty, and property, and that government is legitimate only with the people's consent. John Locke's Two Treatises of Government (1689) argued that people have natural rights before government exists and form governments through a social contract to protect them, so government's power rests on the consent of the governed. This idea shaped the Declaration of Independence, which echoed Locke's 'life, liberty, and property' as 'life, liberty and the pursuit of happiness.'\n\n(A) is wrong because it describes the divine right theory that Locke rejected.\n(B) is wrong because Locke criticized absolute monarchy.\n(D) is wrong because Locke held that rights come from nature, not from the state."
     },
     {
       "id": "3-18",
@@ -2210,7 +2210,7 @@ const QUESTIONS = {
     {
       "id": "3-32",
       "topic": "3.4 Independence and War",
-      "stem": "Which document did Thomas Jefferson draw on most directly in composing the Declaration of Independence?",
+      "stem": "Which source did Thomas Jefferson draw on most directly in composing the Declaration of Independence?",
       "choices": [
         "The Navigation Acts of the mid-seventeenth century",
         "The Magna Carta exclusively, with no other influence",
@@ -2322,7 +2322,7 @@ const QUESTIONS = {
         "Amendment required only a simple majority of states."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) Amendment required unanimous consent from all states. Article XIII required that every state's legislature agree to any change, so a single state, such as Rhode Island, could block reforms like a national impost (tax on imports) in 1781 and 1786. This made correcting the Articles from within nearly impossible and led reformers to call the Philadelphia Convention of 1787, which proposed a new Constitution requiring ratification by nine states.\n\n(A) is wrong because there was an amendment process.\n(B) is wrong because states had to approve.\n(D) is wrong because a simple majority was not enough."
+      "explanation": "Correct: (C) Amendment required unanimous consent from all states. Article XIII required that every state's legislature agree to any change, so a single state could block reforms: Rhode Island blocked the 1781 national impost (a tax on imports) in 1782, and New York blocked a revised impost in 1786. This made correcting the Articles from within nearly impossible and led reformers to call the Philadelphia Convention of 1787, which proposed a new Constitution requiring ratification by nine states.\n\n(A) is wrong because there was an amendment process.\n(B) is wrong because states had to approve.\n(D) is wrong because a simple majority was not enough."
     },
     {
       "id": "3-41",
@@ -3784,7 +3784,7 @@ const QUESTIONS = {
         "As proof ordinary elections could no longer protect their interests, triggering secession"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) As proof ordinary elections could no longer protect their interests, triggering secession. Lincoln won all of the northern states and 180 electoral votes without appearing on the ballot in most southern states, which many Southerners saw as proof they would be permanently outvoted. South Carolina seceded on December 20, 1860, and six more states followed by February 1861.\n\n(A) is wrong because the South did not celebrate; seven states left within months.\n(B) is wrong because secession conventions began almost immediately.\n(C) is wrong because secession reflected the belief that the system no longer protected southern interests, the opposite of this answer."
+      "explanation": "Correct: (D) As proof ordinary elections could no longer protect their interests, triggering secession. Lincoln won every free state except New Jersey, which split its votes, for 180 electoral votes, without appearing on the ballot in most southern states, which many Southerners saw as proof they would be permanently outvoted. South Carolina seceded on December 20, 1860, and six more states followed by February 1861.\n\n(A) is wrong because the South did not celebrate; seven states left within months.\n(B) is wrong because secession conventions began almost immediately.\n(C) is wrong because secession reflected the belief that the system no longer protected southern interests, the opposite of this answer."
     },
     {
       "id": "5-22",
@@ -3966,7 +3966,7 @@ const QUESTIONS = {
         "Loyal border states had already abolished slavery on their own before 1863"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) He lacked authority over loyal states and feared pushing them toward secession themselves. Lincoln justified the Proclamation as a military measure against the enemy, which did not extend to loyal states, and he worried that Kentucky, Maryland and Missouri might join the Confederacy; losing Kentucky in particular, he feared, would badly damage the Union's position on the Ohio River.\n\n(B) is wrong because the exclusion was deliberate.\n(C) is wrong because the document did target slavery in rebel areas.\n(D) is wrong because slavery remained legal in the border states until the Thirteenth Amendment."
+      "explanation": "Correct: (A) He lacked authority over loyal states and feared pushing them toward secession themselves. Lincoln justified the Proclamation as a military measure against the enemy, which did not extend to loyal states, and he worried that Kentucky, Maryland and Missouri might join the Confederacy; losing Kentucky in particular, he feared, would badly damage the Union's position on the Ohio River.\n\n(B) is wrong because the exclusion was deliberate.\n(C) is wrong because the document did target slavery in rebel areas.\n(D) is wrong because slavery was still legal in the border states in 1863; Maryland and Missouri ended it by state action in 1864-65, while Kentucky and Delaware kept it until the Thirteenth Amendment."
     },
     {
       "id": "5-36",
@@ -5948,7 +5948,7 @@ const QUESTIONS = {
         "Over 10 million"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) roughly 120,000. Under Executive Order 9066 (1942), people of Japanese ancestry living on the West Coast, including about 70,000 who were U.S. citizens, were removed to ten camps run by the War Relocation Authority in places such as Manzanar, California and Heart Mountain, Wyoming. They lost homes, farms, and businesses. In 1988 Congress acknowledged a 'grave injustice' and paid reparations.\n\n(A) is wrong because the camps are thoroughly documented.\n(B) is wrong because roughly 1,000 is far too few.\n(D) is wrong because 10 million is far more than the entire Japanese American population, which was only about 126,000 on the mainland."
+      "explanation": "Correct: (C) roughly 120,000. Under Executive Order 9066 (1942), people of Japanese ancestry living on the West Coast, about two-thirds of them U.S. citizens, were removed to ten camps run by the War Relocation Authority in places such as Manzanar, California and Heart Mountain, Wyoming. They lost homes, farms, and businesses. In 1988 Congress acknowledged a 'grave injustice' and paid reparations.\n\n(A) is wrong because the camps are thoroughly documented.\n(B) is wrong because roughly 1,000 is far too few.\n(D) is wrong because 10 million is far more than the entire Japanese American population, which was only about 126,000 on the mainland."
     },
     {
       "id": "7-58",
@@ -6198,7 +6198,7 @@ const QUESTIONS = {
         "A decisive U.S./UN victory that fully reunified Korea under Seoul's government."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) a stalemate and armistice that restored roughly the prewar border. North Korea invaded in June 1950; UN forces led by the U.S. pushed north past the 38th parallel after the Inchon landing, then China entered in November 1950 and drove them back. After Truman removed General MacArthur in April 1951 for demanding a wider war, the front stabilized near the 38th parallel, and an armistice was signed on July 27, 1953, creating a demilitarized zone.\n\n(A) is wrong because North Korea did not conquer the peninsula, and South Korea survived.\n(B) is wrong because an armistice formally stopped the fighting, even though no peace treaty was ever signed; it ended the shooting war.\n(D) is wrong because the UN forces failed to unify Korea under Seoul after China intervened."
+      "explanation": "Correct: (C) a stalemate and armistice that restored roughly the prewar border. North Korea invaded in June 1950; UN forces led by the U.S. pushed north past the 38th parallel after the Inchon landing, then China entered in November 1950 and drove them back. After Truman removed General MacArthur in April 1951 for demanding a wider war, the front stabilized near the 38th parallel, and an armistice was signed on July 27, 1953, creating a demilitarized zone.\n\n(A) is wrong because North Korea did not conquer the peninsula, and South Korea survived.\n(B) is wrong because, although no peace treaty was ever signed and the two sides are technically still at war, the question asks how the war ended, and the 1953 armistice ended the fighting at roughly the prewar border.\n(D) is wrong because the UN forces failed to unify Korea under Seoul after China intervened."
     },
     {
       "id": "8-10",
@@ -7007,7 +7007,7 @@ const QUESTIONS = {
         "There is no meaningful historical connection between these two developments."
       ],
       "correct": 2,
-      "explanation": "Correct: (C) it reflected declining public trust in government after Vietnam and Watergate. The Vietnam War, the Pentagon Papers, and Watergate (Nixon resigned in 1974) damaged confidence in federal leaders, while the stagflation of the 1970s and the Iran hostage crisis suggested that government policy had failed. Reagan's 1980 campaign message that government was too big and too intrusive won because voters were already skeptical.\n\n(A) is wrong because it says the election increased trust in the expanded federal structure, when Reagan's platform was built on distrust of it.\n(B) is wrong because the political events of Period 8 directly shaped the 1980 election; they did not lack bearing.\n(D) is wrong because a clear causal link exists between the collapse of trust in the 1960s and 1970s and the conservative turn in 1980."
+      "explanation": "Correct: (C) it reflected declining public trust in government after Vietnam and Watergate. The Vietnam War, the Pentagon Papers, and Watergate (Nixon resigned in 1974) damaged confidence in federal leaders, while the stagflation of the 1970s and the Iran hostage crisis suggested that government policy had failed. Reagan's 1980 campaign message that government was too big and too intrusive resonated with voters already skeptical of Washington, alongside inflation, unemployment and the hostage crisis.\n\n(A) is wrong because it says the election increased trust in the expanded federal structure, when Reagan's platform was built on distrust of it.\n(B) is wrong because the political events of Period 8 directly shaped the 1980 election; they did not lack bearing.\n(D) is wrong because a clear causal link exists between the collapse of trust in the 1960s and 1970s and the conservative turn in 1980."
     },
     {
       "id": "9-6",
@@ -7085,7 +7085,7 @@ const QUESTIONS = {
         "A trajectory of consistently shrinking federal government dating back to 1789."
       ],
       "correct": 1,
-      "explanation": "Correct: (B) the trajectory of expanding federal government since the Progressive Era. Reagan argued that the federal government had grown too large and intrusive, a growth that began with the Progressive Era's regulatory reforms, accelerated with the New Deal, and peaked with the Great Society; in his 1981 inaugural address he said that government was 'the problem.'\n\n(A) is wrong because his skepticism applied mainly to domestic programs and regulation, and he actually increased defense spending.\n(C) is wrong because skepticism about big government was the core of his message.\n(D) is wrong because federal power did not shrink continuously from 1789; it generally grew over time, especially in the twentieth century."
+      "explanation": "Correct: (B) the trajectory of expanding federal government since the Progressive Era. Reagan argued that the federal government had grown too large and intrusive, a growth that began with the Progressive Era's regulatory reforms, accelerated with the New Deal, and expanded again with the Great Society; in his 1981 inaugural address he said that government was 'the problem.'\n\n(A) is wrong because his skepticism applied mainly to domestic programs and regulation, and he actually increased defense spending.\n(C) is wrong because skepticism about big government was the core of his message.\n(D) is wrong because federal power did not shrink continuously from 1789; it generally grew over time, especially in the twentieth century."
     },
     {
       "id": "9-12",
