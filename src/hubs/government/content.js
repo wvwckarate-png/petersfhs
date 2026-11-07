@@ -52,7 +52,7 @@ const QUESTIONS = {
         "Direct democracy"
       ],
       "correct": 2,
-      "explanation": "Pluralist democracy is defined by competing organized groups bargaining and negotiating to influence policy outcomes — exactly the dynamic described here, as opposed to broad citizen participation (participatory) or concentrated influence held by a small elite group."
+      "explanation": "Correct: (C) Pluralist democracy. Pluralism holds that policy emerges from bargaining and competition among many organized groups, none of which dominates permanently, so government acts as a referee or broker among them. The clue words are 'intense competition and negotiation between several organized interest groups, each representing different economic sectors', which is exactly this group-versus-group dynamic.\n\n(A) is wrong because participatory democracy stresses direct involvement of ordinary citizens in decisions, not organized groups bargaining.\n(B) is wrong because elite theory says a small, resource-rich minority controls outcomes, whereas here several groups compete.\n(D) is wrong because direct democracy means citizens vote on laws themselves, such as in a referendum, and nothing like that is described."
     },
     {
       "id": "1-2",
@@ -65,7 +65,7 @@ const QUESTIONS = {
         "A concentrated elite holding disproportionate resources and access."
       ],
       "correct": 3,
-      "explanation": "Elite theory holds that influence concentrates in a small, resource-advantaged elite — those with outsized wealth, education, or institutional position — rather than resulting from evenly matched group competition (C, which describes pluralism), random chance (B), or sheer voter turnout (A)."
+      "explanation": "Correct: (D) A concentrated elite holding disproportionate resources and access. Elite theory argues that power in a democracy is held by a small group, usually people with great wealth, education, or institutional position, who have far more access to decision makers than average citizens. So influence depends on resources and access, not on the number of participants.\n\n(A) is wrong because sheer turnout reflects majority or participatory ideas; elite theory says voters have little real influence.\n(B) is wrong because random selection of policy makers (sortition) is not part of any AP model of U.S. democracy and would prevent an elite from dominating.\n(C) is wrong because competition between roughly equal interest groups describes pluralism, the rival model."
     },
     {
       "id": "1-3",
@@ -78,7 +78,7 @@ const QUESTIONS = {
         "All three models — participatory, pluralist, and elite — appear together in this decision."
       ],
       "correct": 3,
-      "explanation": "The scenario shows all three models operating side by side: participatory democracy in the open public comment period, pluralist democracy in the trucking association and residents' group lobbying, and elite theory in the developer's personal ties to long-serving council members shaping the vote. Choices A and C each seize on only one piece of evidence while ignoring the rest; choice B is wrong because these models describe patterns of influence, not a special legal category from which local government is exempt."
+      "explanation": "Correct: (D) All three models appear together in this decision. Each model is a lens for a pattern of influence, and real decisions often show several at once. The open public comment period is participatory democracy (broad citizen involvement). The trucking association and residents' group lobbying are pluralism (organized groups competing). Two long-serving members whose ties to a developer decide the vote are elite theory (a small group with disproportionate access).\n\n(A) is wrong because it sees only the comment period and ignores the lobbying and the personal ties.\n(B) is wrong because the models describe how influence works at any level of government, local included.\n(C) is wrong because it fixates on who ultimately decided and ignores the other two clearly described channels of influence."
     },
     {
       "id": "1-4",
@@ -91,7 +91,7 @@ const QUESTIONS = {
         "None of these models apply to referenda"
       ],
       "correct": 1,
-      "explanation": "Direct, broad citizen engagement in decision-making — such as voting directly on a law — is the defining feature of participatory democracy."
+      "explanation": "Correct: (B) Participatory democracy. Participatory democracy emphasizes broad, direct citizen involvement in making decisions, and a referendum, in which every eligible citizen votes directly on a proposed law, is a core example. The clue words are 'every eligible citizen' and 'directly'.\n\n(A) is wrong because pluralism focuses on organized interest groups bargaining, not individuals voting on a law.\n(C) is wrong because elite theory says a small group controls outcomes, which is the opposite of everyone voting.\n(D) is wrong because referenda fit participatory democracy well, so the models do apply."
     },
     {
       "id": "1-5",
@@ -117,7 +117,7 @@ const QUESTIONS = {
         "Participatory democracy"
       ],
       "correct": 1,
-      "explanation": "Two competing organized groups (a union and a business association) negotiating for influence over legislation is a clear example of pluralist democracy's group-based competition model."
+      "explanation": "Correct: (B) Pluralist democracy. Pluralism describes policy made as organized groups with different interests compete to influence government. A labor union and a business association lobbying Congress on opposite sides of a minimum wage bill are the classic example: neither group wins automatically, and the final bill reflects bargaining between them.\n\n(A) is wrong because direct democracy means citizens themselves vote on laws, but here groups lobby legislators.\n(C) is wrong because elite theory would require a small, privileged group to dominate, while two groups on opposing sides compete.\n(D) is wrong because participatory democracy stresses individual citizen involvement, not organized group lobbying."
     },
     {
       "id": "1-7",
@@ -143,7 +143,7 @@ const QUESTIONS = {
         "Participatory democracy"
       ],
       "correct": 2,
-      "explanation": "A small group holding disproportionate institutional influence over outcomes — regardless of broader input — is a textbook example of elite theory in action, here applied to congressional committee structure specifically."
+      "explanation": "Correct: (C) Elite theory. Elite theory claims that a small group holds disproportionate power over policy no matter what the broader public or membership wants. The stem's clue words are 'a small number of long-serving committee chairs' with 'outsized influence' 'regardless of the preferences of rank-and-file members', which describe power concentrated in a few hands through institutional position (seniority).\n\n(A) is wrong because pluralism involves competing groups with relatively balanced influence, not a few insiders overriding everyone.\n(B) is wrong because these models can describe legislative behavior, including congressional committees.\n(D) is wrong because participatory democracy stresses broad member and citizen input, the opposite of what the stem shows."
     },
     {
       "id": "1-9",
@@ -156,7 +156,7 @@ const QUESTIONS = {
         "A trade association and a consumer advocacy group negotiating over regulatory language."
       ],
       "correct": 0,
-      "explanation": "Pluralist democracy is specifically about competition and negotiation BETWEEN multiple organized groups — a scenario with no group competition at all, just a single official acting alone, doesn't fit the pluralist model; it's more consistent with elite theory."
+      "explanation": "Correct: (A) A single unelected official making a policy decision with no input from any outside group. Pluralism requires multiple organized groups competing and bargaining over policy, so the LEAST pluralist scenario is one with no group input at all. A lone unelected decision maker acting alone fits elite theory better (power concentrated in one person or a few).\n\n(B) is wrong because environmental groups and energy companies testifying on opposing interests is classic pluralism.\n(C) is wrong because multiple interest groups lobbying on competing sides is the textbook definition of pluralism.\n(D) is wrong because a trade association and a consumer group negotiating regulatory language is again organized-group bargaining, which is pluralist."
     },
     {
       "id": "1-10",
@@ -182,7 +182,7 @@ const QUESTIONS = {
         "To eliminate all forms of political disagreement."
       ],
       "correct": 2,
-      "explanation": "The Declaration frames government's core purpose as securing rights people already possess by nature, not inventing new ones (ruling out C), enriching a monarch (ruling out A), or eliminating disagreement, which the Declaration never claims as government's job (ruling out D)."
+      "explanation": "Correct: (C) To secure citizens' pre-existing natural rights. The Declaration says people are endowed by their Creator with unalienable rights, including 'Life, Liberty and the pursuit of Happiness', and that 'to secure these rights, Governments are instituted among Men'. Under this Lockean social contract idea the rights exist before government, so government's job is to protect them, not to grant them.\n\n(A) is wrong because it says government creates rights, which contradicts the idea of natural rights that exist already.\n(B) is wrong because enriching a monarch is the kind of abuse the Declaration condemns King George for.\n(D) is wrong because the Declaration never claims government should end political disagreement; it assumes people will disagree and can alter or abolish government when it fails."
     },
     {
       "id": "1-12",
@@ -234,7 +234,7 @@ const QUESTIONS = {
         "Mercantilism"
       ],
       "correct": 1,
-      "explanation": "Social contract theory — the idea that legitimate government authority derives from an agreement between the government and the governed — directly underlies the Declaration's consent-based argument, drawing heavily on philosophers like John Locke."
+      "explanation": "Correct: (B) Social contract theory. Enlightenment thinkers such as John Locke argued that legitimate government arises from an agreement among free people, who give up some freedom in exchange for protection of their rights, so government's authority comes from the 'consent of the governed'. The Declaration uses this idea to argue that people may abolish a government that violates the contract.\n\n(A) is wrong because federalism is the division of power between national and state governments, and it is not about the source of legitimacy.\n(C) is wrong because divine right of kings holds that monarchs rule by God's authority without needing consent, which is the very idea the Declaration rejects.\n(D) is wrong because mercantilism is an economic system of trade policy controlled by the mother country and is unrelated to consent."
     },
     {
       "id": "1-16",
@@ -247,7 +247,7 @@ const QUESTIONS = {
         "Incorrect — the Constitution, not the Declaration, established the three branches."
       ],
       "correct": 3,
-      "explanation": "The claim is wrong: the Declaration of Independence is a philosophical justification for separation and never establishes any governing structure — it is the Constitution that creates and defines the three branches. Choice B is also wrong since the Constitution does establish three branches; choices A and C wrongly credit the Declaration with structural work it never performed, even partially."
+      "explanation": "Correct: (D) Incorrect: the Constitution, not the Declaration, established the three branches. The Declaration of Independence (1776) is a statement of philosophy and a list of grievances justifying separation from Britain; it creates no government institutions. The Constitution (1787) set up Congress in Article I, the presidency in Article II, and the federal courts in Article III.\n\n(A) is wrong because the Declaration did not create even the legislative branch; the Articles of Confederation had a Congress and the Constitution later created the current one.\n(B) is wrong because it says no founding document created three branches, but the Constitution plainly did.\n(C) is wrong because it accepts the student's false claim and credits the Declaration with structural work it never did."
     },
     {
       "id": "1-17",
@@ -273,7 +273,7 @@ const QUESTIONS = {
         "'advice and consent' of the Senate required"
       ],
       "correct": 0,
-      "explanation": "'Life, Liberty and the pursuit of Happiness' is the Declaration's specific articulation of the natural, unalienable rights it claims belong to all people by nature. ('We the People' opens the Constitution; 'necessary and proper' and 'advice and consent' are constitutional clauses.)"
+      "explanation": "Correct: (A) 'Life, Liberty and the pursuit of Happiness'. The Declaration says all people are endowed by their Creator with certain unalienable rights, and names these three as examples. 'Unalienable' means they cannot be taken away, and 'natural' means they come from human nature rather than from government. The phrase is a revision of Locke's 'life, liberty, and property'.\n\n(B) is wrong because 'We the People of the United States' is the opening of the Constitution's Preamble and expresses popular sovereignty, not natural rights.\n(C) is wrong because 'necessary and proper' is the Article I, Section 8 clause giving Congress implied powers.\n(D) is wrong because 'advice and consent' refers to the Senate's role in treaties and appointments in Article II."
     },
     {
       "id": "1-19",
@@ -299,7 +299,7 @@ const QUESTIONS = {
         "A 3/4 majority of states."
       ],
       "correct": 2,
-      "explanation": "The Articles of Confederation required unanimous consent from every state to be amended — an extremely high bar that made reform of the Articles' many weaknesses nearly impossible in practice, contributing to the eventual push for a wholly new Constitution."
+      "explanation": "Correct: (C) Unanimous consent of all states. Under the Articles of Confederation, any amendment required the approval of all thirteen states, so a single state could block a change. This made it nearly impossible to fix the Articles' known weaknesses, such as no power to tax or regulate trade, and helped lead to the Constitutional Convention in 1787, where a new document was written instead.\n\n(A) is wrong because two-thirds was not the standard; the Constitution uses a two-thirds vote to propose amendments.\n(B) is wrong because a simple majority would have been far easier than what the Articles required.\n(D) is wrong because three-fourths of states is the Constitution's ratification threshold for amendments (Article V), not the Articles' rule."
     },
     {
       "id": "1-21",
@@ -325,7 +325,7 @@ const QUESTIONS = {
         "No power for the national government to tax citizens directly."
       ],
       "correct": 1,
-      "explanation": "A bicameral legislature with one house apportioned by population is a feature of the Constitution (the House of Representatives), created precisely to fix the Articles' weaknesses — not a weakness of the Articles itself, which instead gave every state a single vote regardless of size. Choices A, C, and D are genuine Articles weaknesses: no national judiciary, no taxing power, and no national executive."
+      "explanation": "Correct: (B) A bicameral legislature based partly on population. This question asks for the item that was NOT a weakness. The Articles created a one-house (unicameral) Congress in which each state had one vote regardless of size. A two-house legislature with one chamber based on population is a feature of the Constitution (the House), created by the Great Compromise to fix problems, so it was not an Articles weakness.\n\n(A) is wrong because it was a real weakness: with no national courts, there was no way to settle interstate disputes consistently.\n(C) is wrong because it was a real weakness: no executive meant Congress had no one to enforce its laws.\n(D) is wrong because it was a real weakness: Congress could only request money from the states and could not tax citizens directly, leaving the government short of funds."
     },
     {
       "id": "1-23",
@@ -351,7 +351,7 @@ const QUESTIONS = {
         "Two votes per state"
       ],
       "correct": 0,
-      "explanation": "Under the Articles, each state received exactly one vote in the national legislature, regardless of its population — a structure the Constitution later modified by creating a bicameral Congress with the House based on population."
+      "explanation": "Correct: (A) One vote per state. Under the Articles of Confederation the national government was a unicameral Congress in which each state delegation cast a single vote, whether it was large like Virginia or small like Delaware. This reflected the idea that the states were sovereign partners in a 'league of friendship'.\n\n(B) is wrong because proportional-to-population votes describe the House under the Constitution.\n(C) is wrong because wealth was never used to allocate votes.\n(D) is wrong because two votes per state describes each state's Senate representation under the Constitution (two senators), not the Articles."
     },
     {
       "id": "1-25",
@@ -364,7 +364,7 @@ const QUESTIONS = {
         "By eliminating courts entirely and leaving disputes to the legislature or to the people themselves."
       ],
       "correct": 0,
-      "explanation": "The Constitution created Article III, establishing a federal judiciary with authority to resolve disputes — directly addressing the Articles' complete lack of any national court system."
+      "explanation": "Correct: (A) By creating a federal court system with authority to resolve disputes. Article III of the Constitution created the Supreme Court and allowed Congress to establish lower federal courts, giving the nation a judiciary with power over cases involving federal law and disputes between states. This directly fixed the Articles' lack of any national court.\n\n(B) is wrong because requiring Congress to resolve each dispute by special laws would mix legislative and judicial power and is not what the Constitution does.\n(C) is wrong because state courts keep much authority, but the Constitution adds federal courts above them in federal matters, and the Supremacy Clause makes federal law binding.\n(D) is wrong because the Constitution did not eliminate courts; it created a new branch devoted to them."
     },
     {
       "id": "1-26",
@@ -390,7 +390,7 @@ const QUESTIONS = {
         "The Necessary and Proper Clause"
       ],
       "correct": 2,
-      "explanation": "The Commerce Clause (Article I, Section 8) grants Congress the power to regulate interstate commerce — directly addressing the Articles' failure to give the national government any authority over trade between states."
+      "explanation": "Correct: (C) The Commerce Clause. Under the Articles of Confederation Congress could not regulate trade, so states imposed tariffs on each other and on foreign goods, which hurt the national economy. Article I, Section 8 of the Constitution gives Congress power 'to regulate Commerce with foreign Nations, and among the several States', directly fixing that weakness. The clue words are 'regulate trade between states'.\n\n(A) is wrong because the Supremacy Clause makes federal law supreme over state law, which is a different issue.\n(B) is wrong because the Establishment Clause is in the First Amendment and bars government establishment of religion.\n(D) is wrong because the Necessary and Proper Clause gives Congress implied powers to carry out its listed powers, but it is not the specific grant over trade."
     },
     {
       "id": "1-28",
@@ -403,7 +403,7 @@ const QUESTIONS = {
         "Federalist No. 51"
       ],
       "correct": 0,
-      "explanation": "Brutus No. 1 is the required foundational document representing the Anti-Federalist position, arguing against ratification of the Constitution, primarily on the grounds that a large, extended republic would become too distant and unaccountable."
+      "explanation": "Correct: (A) Brutus No. 1. The required Anti-Federalist document is Brutus No. 1, which argued against ratification because a large republic covering a vast territory would make representatives distant from the people, concentrate power in the national government, and threaten state sovereignty and liberty.\n\n(B) is wrong because the Declaration of Independence (1776) predates the ratification debate and is not an argument about the Constitution.\n(C) is wrong because Federalist No. 10 is Madison's Federalist argument that a large republic controls the effects of faction, the opposite side.\n(D) is wrong because Federalist No. 51 is also a Federalist essay, explaining how separation of powers and checks and balances protect liberty."
     },
     {
       "id": "1-29",
@@ -481,7 +481,7 @@ const QUESTIONS = {
         "A caucus"
       ],
       "correct": 2,
-      "explanation": "Madison defines a 'faction' as a group of citizens, whether a majority or minority, united by a common interest or passion that may run counter to the rights of other citizens or the broader interests of the community."
+      "explanation": "Correct: (C) A faction. In Federalist No. 10, Madison defines a faction as a number of citizens, whether a majority or a minority of the whole, united by some common impulse of passion or interest adverse to the rights of other citizens or the permanent interests of the community. His concern is how to control the effects of faction without destroying liberty.\n\n(A) is wrong because 'coalition' is a modern term for an alliance of groups and is not Madison's word.\n(B) is wrong because 'bloc' is a modern term for a voting group and not Madison's term.\n(D) is wrong because a caucus is a meeting of party members or legislators, not the term used in the essay."
     },
     {
       "id": "1-35",
@@ -520,7 +520,7 @@ const QUESTIONS = {
         "Cincinnatus"
       ],
       "correct": 0,
-      "explanation": "The Federalist Papers, including No. 10, were written under the collective pen name 'Publius' by Alexander Hamilton, James Madison, and John Jay."
+      "explanation": "Correct: (A) Publius. The Federalist Papers, 85 essays written in 1787 and 1788 to persuade New Yorkers to ratify the Constitution, were published under the single pseudonym Publius, though the authors were Alexander Hamilton, James Madison, and John Jay. Federalist No. 10 was written by Madison.\n\n(B) is wrong because Cato was a pen name used by Anti-Federalist writers in New York.\n(C) is wrong because Brutus was also an Anti-Federalist pen name, used for essays opposing ratification.\n(D) is wrong because Cincinnatus was a Roman figure invoked by George Washington and not the Federalist authors' pen name."
     },
     {
       "id": "1-38",
@@ -572,7 +572,7 @@ const QUESTIONS = {
         "Judicial review"
       ],
       "correct": 3,
-      "explanation": "This is judicial review — the judicial branch's power to declare a law or executive action unconstitutional, checking both the legislative and executive branches simultaneously."
+      "explanation": "Correct: (D) Judicial review. Judicial review is the power of courts to decide whether laws and executive actions violate the Constitution and to strike down those that do; it was established in Marbury v. Madison (1803). The clue is a federal court ruling a law passed by Congress and signed by the president unconstitutional, which checks both political branches.\n\n(A) is wrong because a veto is the president refusing to sign a bill before it becomes law, not a court action.\n(B) is wrong because an override is Congress repassing a vetoed bill by two-thirds vote.\n(C) is wrong because Senate confirmation is the Senate approving presidential appointments, which is unrelated to courts striking down laws."
     },
     {
       "id": "1-42",
@@ -598,7 +598,7 @@ const QUESTIONS = {
         "Judicial"
       ],
       "correct": 0,
-      "explanation": "Under the basic structural separation of powers, the executive branch (headed by the president) is primarily responsible for enforcing and administering the laws passed by Congress."
+      "explanation": "Correct: (A) Executive. Separation of powers divides government so that Congress (legislative) makes laws, the president and the executive branch enforce and carry them out, and the courts (judicial) interpret them. Article II vests executive power in the president, who must 'take Care that the Laws be faithfully executed'.\n\n(B) is wrong because the point of separation of powers is that each branch has distinct primary duties, not that all share enforcement equally.\n(C) is wrong because the legislative branch writes laws rather than enforcing them.\n(D) is wrong because the judicial branch interprets laws and decides cases, relying on the executive to carry out its rulings."
     },
     {
       "id": "1-44",
@@ -611,7 +611,7 @@ const QUESTIONS = {
         "The president issuing an executive order unilaterally, without any approval by Congress or the courts."
       ],
       "correct": 2,
-      "explanation": "Congress checks the judicial branch mainly through the Senate's confirmation power over judicial nominees and Congress's constitutional power to impeach and remove federal judges. Choice A is the judiciary checking the legislature (the reverse direction), and choices B and D are executive actions that don't involve Congress checking the courts at all."
+      "explanation": "Correct: (C) Senate confirmation and Congress's power to impeach federal judges. Congress checks the judiciary through the Senate's power to confirm or reject nominees to federal courts and through the House's power to impeach and the Senate's power to convict and remove judges. It can also set the number of lower courts and propose constitutional amendments.\n\n(A) is wrong because it is the judiciary checking Congress through judicial review, which reverses the direction.\n(B) is wrong because a veto is the president checking Congress.\n(D) is wrong because an executive order is the president acting alone and does not involve Congress checking courts."
     },
     {
       "id": "1-45",
@@ -624,7 +624,7 @@ const QUESTIONS = {
         "'A more perfect Union' and secure the blessings of liberty"
       ],
       "correct": 2,
-      "explanation": "'Ambition must be made to counteract ambition' is Madison's famous summary in Federalist No. 51 of the logic behind checks and balances — rather than relying on virtue, the system harnesses each branch's own self-interested ambition to check the others."
+      "explanation": "Correct: (C) 'Ambition must be made to counteract ambition'. In Federalist No. 51, Madison argues that since men are not angels, government must be designed so that each branch has the means and motive to resist encroachments by the others. Rather than depending on virtue, the system uses each branch's self-interest to keep the others in check, which is the logic of checks and balances.\n\n(A) is wrong because 'necessary and proper' is from Article I, Section 8, about implied congressional powers.\n(B) is wrong because 'We the People' is the opening of the Preamble.\n(D) is wrong because 'a more perfect Union' is also from the Preamble and states a goal of the Constitution, not the logic of checks and balances."
     },
     {
       "id": "1-46",
@@ -650,7 +650,7 @@ const QUESTIONS = {
         "Implied powers"
       ],
       "correct": 3,
-      "explanation": "Implied powers are those not explicitly listed among Congress's enumerated powers but are considered constitutional because they are 'necessary and proper' for carrying out an enumerated power — the exact issue at stake in McCulloch v. Maryland."
+      "explanation": "Correct: (D) Implied powers. Enumerated powers are listed in the Constitution, but Article I, Section 8 ends with the Necessary and Proper Clause, letting Congress make laws needed to carry out those listed powers. Powers inferred from that clause but not named are implied powers, as upheld in McCulloch v. Maryland. The clue is 'NOT explicitly listed' and 'derived from the Necessary and Proper Clause'.\n\n(A) is wrong because enumerated powers are explicitly listed.\n(B) is wrong because reserved powers come from the Tenth Amendment and belong to the states.\n(C) is wrong because concurrent powers, like taxing, are shared by national and state governments and do not come from that clause."
     },
     {
       "id": "1-48",
@@ -663,7 +663,7 @@ const QUESTIONS = {
         "That only state governments could charter banks."
       ],
       "correct": 2,
-      "explanation": "McCulloch v. Maryland established that Congress has IMPLIED powers under the Necessary and Proper Clause — chartering a national bank, while not an explicitly enumerated power, was ruled constitutional because it was 'necessary and proper' for carrying out Congress's enumerated powers over taxation and commerce."
+      "explanation": "Correct: (C) That Congress had implied authority to charter a bank under the Necessary and Proper Clause. In McCulloch v. Maryland (1819) Chief Justice John Marshall ruled that although chartering a bank is not an enumerated power, it is a reasonable means to carry out enumerated powers such as taxing, borrowing, and regulating commerce. The Court also held that Maryland could not tax the national bank because of the Supremacy Clause.\n\n(A) is wrong because no amendment was required.\n(B) is wrong because the Court rejected the idea that Congress is limited only to listed powers.\n(D) is wrong because the Court did not give banking power exclusively to the states; it upheld federal authority."
     },
     {
       "id": "1-49",
@@ -689,7 +689,7 @@ const QUESTIONS = {
         "Declaring war"
       ],
       "correct": 0,
-      "explanation": "Taxation is a classic example of a concurrent power — both the national government and state governments independently hold the authority to levy taxes, unlike powers such as declaring war or coining money, which belong exclusively to the national government."
+      "explanation": "Correct: (A) Levying taxes. Concurrent powers are shared by the national and state governments, and taxing, borrowing, building roads, and establishing courts are the usual examples. Both Congress and state legislatures can tax citizens.\n\n(B) is wrong because coining money is an exclusive national power; states are barred from it by Article I, Section 10.\n(C) is wrong because regulating interstate commerce is given to Congress.\n(D) is wrong because declaring war is an exclusive power of Congress, and states cannot do so."
     },
     {
       "id": "1-51",
@@ -702,7 +702,7 @@ const QUESTIONS = {
         "The United Nations"
       ],
       "correct": 2,
-      "explanation": "The 10th Amendment reserves powers not delegated to the national government (and not prohibited to the states) to the states, or to the people — the constitutional basis for the category of 'reserved powers.'"
+      "explanation": "Correct: (C) The states, or the people. The Tenth Amendment says that powers not delegated to the United States by the Constitution, nor prohibited by it to the states, are reserved to the states respectively, or to the people. It is the basis of reserved powers such as running schools and elections and issuing licenses.\n\n(A) is wrong because the Supreme Court is a federal institution that interprets the law and does not receive reserved powers.\n(B) is wrong because the president's powers come from Article II and are part of the national government.\n(D) is wrong because the United Nations is an international body unrelated to the American constitutional division of power."
     },
     {
       "id": "1-52",
@@ -715,7 +715,7 @@ const QUESTIONS = {
         "McCulloch v. Maryland"
       ],
       "correct": 3,
-      "explanation": "McCulloch v. Maryland's implied-powers holding is the directly relevant precedent here — it established that Congress may exercise powers not explicitly enumerated, as long as they are 'necessary and proper' for carrying out an enumerated power, such as regulating commerce."
+      "explanation": "Correct: (D) McCulloch v. Maryland. The law relies on an implied power: a federal body not named in the Constitution but connected to the enumerated power to regulate commerce. McCulloch held that, under the Necessary and Proper Clause, Congress may create institutions and use means not listed if they carry out an enumerated power.\n\n(A) is wrong because Roe v. Wade (1973) concerned privacy and abortion rights.\n(B) is wrong because Tinker v. Des Moines (1969) concerned students' free speech in schools.\n(C) is wrong because Brown v. Board of Education (1954) concerned racial segregation in public schools and the Equal Protection Clause."
     },
     {
       "id": "1-53",
@@ -728,7 +728,7 @@ const QUESTIONS = {
         "A power that no longer exists today."
       ],
       "correct": 0,
-      "explanation": "Enumerated (or 'expressed') powers are those explicitly listed in the Constitution as belonging to the national government — such as the power to declare war, coin money, and regulate interstate commerce."
+      "explanation": "Correct: (A) A power explicitly listed and granted to the national government in the Constitution. Enumerated (or expressed) powers appear in the text, mostly in Article I, Section 8, and include taxing, coining money, regulating commerce, declaring war, and raising armies.\n\n(B) is wrong because powers reserved to the states are reserved powers under the Tenth Amendment, not enumerated powers.\n(C) is wrong because enumerated powers belong to the national government, and separation of powers divides them among branches rather than sharing them equally.\n(D) is wrong because enumerated powers still exist and are used regularly by Congress."
     },
     {
       "id": "1-54",
@@ -741,7 +741,7 @@ const QUESTIONS = {
         "The Establishment Clause"
       ],
       "correct": 2,
-      "explanation": "The Necessary and Proper Clause is sometimes called the 'Elastic Clause,' since its broad, flexible interpretation (as in McCulloch v. Maryland) has historically allowed Congress's implied powers to expand considerably beyond its narrow enumerated list."
+      "explanation": "Correct: (C) The Necessary and Proper Clause. This clause in Article I, Section 8 lets Congress make all laws 'necessary and proper' for carrying out its enumerated powers. Because broad interpretation, beginning with McCulloch v. Maryland, has stretched federal power well beyond the list, it is nicknamed the Elastic Clause.\n\n(A) is wrong because the Equal Protection Clause of the Fourteenth Amendment guarantees equal treatment under the law.\n(B) is wrong because the Full Faith and Credit Clause requires states to honor other states' public acts and records.\n(D) is wrong because the Establishment Clause is the First Amendment's ban on a government-established religion."
     },
     {
       "id": "1-55",
@@ -754,7 +754,7 @@ const QUESTIONS = {
         "Reserved power"
       ],
       "correct": 3,
-      "explanation": "Marriage law is not among the national government's enumerated powers, so under the 10th Amendment, authority over it is reserved to the states — a classic example of a reserved power."
+      "explanation": "Correct: (D) Reserved power. Marriage law is not among the powers delegated to the national government, and the Tenth Amendment reserves undelegated powers to the states. States therefore set rules for marriage licensing, age, and divorce, subject to constitutional limits. Other reserved powers include education and intrastate commerce.\n\n(A) is wrong because a concurrent power, like taxing, is shared and exercised by both governments, but marriage law is traditionally state controlled.\n(B) is wrong because no implied federal power over marriage has been established.\n(C) is wrong because enumerated powers are explicitly listed for the national government, and marriage is not on that list."
     },
     {
       "id": "1-56",
@@ -845,7 +845,7 @@ const QUESTIONS = {
         "A requirement that all federal spending be equally distributed among states."
       ],
       "correct": 0,
-      "explanation": "Fiscal federalism refers to the use of federal funding — grants, in particular — as an indirect tool for shaping state policy, even in areas the Constitution otherwise reserves to the states, since states retain formal discretion to decline the funding and its conditions."
+      "explanation": "Correct: (A) The use of federal funding and grants as a tool to influence state policy choices. Fiscal federalism is the federal government's use of money, such as categorical grants and block grants, to encourage or require states to follow national priorities, for example the highway funds tied to a drinking age of 21 in South Dakota v. Dole. Because states may refuse the money, the Constitution is respected while national influence expands.\n\n(B) is wrong because states keep their own budgets and powers to tax and spend.\n(C) is wrong because federal grants to states are widespread and fiscal federalism depends on them.\n(D) is wrong because federal money is not required to be distributed equally; grants follow formulas, projects, and need."
     },
     {
       "id": "1-63",
@@ -858,7 +858,7 @@ const QUESTIONS = {
         "Brown v. Board of Education"
       ],
       "correct": 1,
-      "explanation": "United States v. Lopez is the directly relevant precedent for an argument that Congress has exceeded its Commerce Clause authority by regulating an activity with only a weak connection to interstate commerce."
+      "explanation": "Correct: (B) United States v. Lopez. In Lopez (1995) the Supreme Court struck down the Gun-Free School Zones Act, holding that possessing a gun near a school was not economic activity substantially affecting interstate commerce, so Congress had exceeded its Commerce Clause power. This was the first such limit in decades, and a state arguing that an activity has only a minimal connection to interstate commerce would cite it.\n\n(A) is wrong because McCulloch v. Maryland expanded federal power through implied powers and the Supremacy Clause.\n(C) is wrong because Marbury v. Madison established judicial review.\n(D) is wrong because Brown v. Board of Education dealt with school segregation under equal protection."
     },
     {
       "id": "1-64",
@@ -924,7 +924,7 @@ const QUESTIONS = {
         "Factions are only discussed in the Constitution's text, not in any Federalist essay."
       ],
       "correct": 0,
-      "explanation": "Controlling the effects of factions through an extended republic is Madison's argument in Federalist No. 10, not No. 39. Federalist No. 39 instead addresses whether the Constitution establishes a national or federal government, concluding it is a composition of both."
+      "explanation": "Correct: (A) That summary actually describes Federalist No. 10, not No. 39. Madison's Federalist No. 10 argues that a large republic helps control the dangers of factions because it contains many interests, making it harder for one faction to form a majority. Federalist No. 39, in contrast, examines whether the proposed government is truly republican and finds it a mixture of national and federal features.\n\n(B) is wrong because No. 39 does discuss the size of the republic indirectly, but the actual problem with the summary is that its subject belongs to a different essay.\n(C) is wrong because Federalist No. 51 is about separation of powers and checks and balances, not factions in a large republic.\n(D) is wrong because factions are discussed extensively in Federalist No. 10, so claiming they appear only in the Constitution's text is false."
     },
     {
       "id": "1-69",
@@ -965,7 +965,7 @@ const QUESTIONS = {
         "Both chambers equally"
       ],
       "correct": 1,
-      "explanation": "The Senate has 100 members, with each state receiving exactly two seats regardless of population — a deliberate design ensuring equal state representation, in contrast to the House's population-based apportionment."
+      "explanation": "Correct: (B) Senate. The Constitution gives each state two senators regardless of population, so with 50 states the Senate has 100 members. This equal representation was the smaller states' side of the Great Compromise. The clue words are '100 members' and 'exactly two regardless of population'.\n\n(A) is wrong because the House has 435 voting members apportioned by state population.\n(C) is wrong because the Senate does fit the description.\n(D) is wrong because the chambers differ in size and in how seats are allocated, so they cannot both match."
     },
     {
       "id": "2-2",
@@ -978,7 +978,7 @@ const QUESTIONS = {
         "Revenue (tax) bills"
       ],
       "correct": 3,
-      "explanation": "The Constitution requires that revenue (tax) bills originate specifically in the House of Representatives, reflecting the House's closer, more direct connection to the population through frequent elections and proportional representation."
+      "explanation": "Correct: (D) Revenue (tax) bills. Article I, Section 7 says all bills for raising revenue must originate in the House, because the House is elected every two years and is closest to the people, following the principle of no taxation without representation. The Senate may still amend them.\n\n(A) is wrong because judicial nominations are made by the president and confirmed by the Senate only.\n(B) is wrong because treaties are negotiated by the president and ratified by a two-thirds Senate vote.\n(C) is wrong because declarations of war are Congress's power but have no constitutional rule requiring House origination."
     },
     {
       "id": "2-3",
@@ -991,7 +991,7 @@ const QUESTIONS = {
         "Unanimous consent"
       ],
       "correct": 0,
-      "explanation": "Invoking cloture to end debate and force a vote requires 60 votes in most cases — significantly more than a simple majority, which is exactly why the filibuster can block legislation with majority (but sub-60-vote) support."
+      "explanation": "Correct: (A) 60 votes. A filibuster is extended debate used to block a vote, and cloture is the Senate procedure (Rule XXII) to end it. Cloture requires three-fifths of the Senate, which is 60 of 100 senators, so a united minority of 41 can block most legislation.\n\n(B) is wrong because two-thirds (67) is the threshold for ratifying treaties, convicting in impeachment, and overriding vetoes, not for cloture on ordinary legislation.\n(C) is wrong because a simple majority of 51 cannot end a filibuster.\n(D) is wrong because unanimous consent is not required, and requiring it would give every senator a veto."
     },
     {
       "id": "2-4",
@@ -1004,7 +1004,7 @@ const QUESTIONS = {
         "Impeaching federal officials"
       ],
       "correct": 2,
-      "explanation": "Ratifying treaties (requiring a 2/3 Senate vote) is a power held exclusively by the Senate. Overriding a veto and impeaching require action from both chambers (impeachment specifically originates in the House, but removal requires the Senate) or both chambers acting together (veto overrides)."
+      "explanation": "Correct: (C) Ratifying treaties by a 2/3 vote. Article II gives the Senate alone the power to approve treaties made by the president, by two-thirds of senators present, along with confirming appointments by majority vote. This makes it a distinctive Senate power.\n\n(A) is wrong because ordinary legislation must pass both chambers.\n(B) is wrong because overriding a veto needs two-thirds in both the House and Senate, so it is shared.\n(D) is wrong because impeachment is shared: the House impeaches, and the Senate holds the trial, so the House has a role and the Senate does not hold the power alone."
     },
     {
       "id": "2-5",
@@ -1017,7 +1017,7 @@ const QUESTIONS = {
         "House: 2 years; Senate: 6 years"
       ],
       "correct": 3,
-      "explanation": "House members serve 2-year terms, facing reelection frequently to stay closely tied to constituent opinion. Senators serve longer, 6-year terms, staggered so roughly one-third of the Senate is up for election every 2 years."
+      "explanation": "Correct: (D) House: 2 years; Senate: 6 years. The Constitution sets House terms at two years so members stay close to the people, and Senate terms at six years, staggered so that one-third of the seats are up every two years, to give stability and a longer-term view.\n\n(A) is wrong because senators serve six years, not four, and four years is the presidential term.\n(B) is wrong because House terms are two years, not four.\n(C) is wrong because it reverses the correct terms; the shorter term belongs to the House."
     },
     {
       "id": "2-6",
@@ -1030,7 +1030,7 @@ const QUESTIONS = {
         "The president"
       ],
       "correct": 0,
-      "explanation": "The House Rules Committee holds significant power over the legislative process, determining the terms of debate and controlling which bills actually reach the floor for a vote — a key source of centralized, majoritarian control in the House."
+      "explanation": "Correct: (A) The House Rules Committee. The Rules Committee sets the terms for floor consideration of most bills, including the time limit on debate and whether amendments may be offered (open, structured, or closed rules). Because it is controlled by the majority party leadership, it is a key tool for controlling the agenda in the large House.\n\n(B) is wrong because the Senate Rules Committee governs Senate procedure, not the House floor.\n(C) is wrong because the Supreme Court has no role in how bills reach the floor.\n(D) is wrong because the president can recommend and sign or veto bills but does not control floor scheduling."
     },
     {
       "id": "2-7",
@@ -1043,7 +1043,7 @@ const QUESTIONS = {
         "No — cloture requires 60 votes, more than a simple majority."
       ],
       "correct": 3,
-      "explanation": "Ending debate (invoking cloture) generally requires 60 votes, not a simple majority — this higher threshold is exactly why the filibuster can block bills with majority but sub-60-vote support. Choice B is wrong because a bare majority cannot force a final vote against a filibuster; choice C is wrong because revenue bills face the same cloture rule, with no special carve-out; choice A is wrong because 60 votes is well short of unanimous consent, which is not required."
+      "explanation": "Correct: (D) No, cloture requires 60 votes, more than a simple majority. Senate rules protect extended debate, so ending a filibuster on ordinary legislation takes three-fifths of the Senate (60 of 100). A simple majority passes a bill only after debate has ended.\n\n(A) is wrong because unanimous consent speeds some business but is not required for every vote.\n(B) is wrong because a majority cannot always end debate; that is the point of the filibuster.\n(C) is wrong because revenue bills face the same cloture rule, and the House origination rule is about where bills start, not Senate debate."
     },
     {
       "id": "2-8",
@@ -1056,7 +1056,7 @@ const QUESTIONS = {
         "To ensure both chambers would always reach identical votes on legislation."
       ],
       "correct": 2,
-      "explanation": "The two-chamber structure reflects the Great Compromise (Connecticut Compromise) at the Constitutional Convention, balancing larger states' preference for population-based representation (the House) against smaller states' preference for equal state representation (the Senate). Choice A is wrong because both chambers were created together in the original Constitution; choice B is wrong because the differing structures serve a real representational purpose, not mere redundancy; choice D is wrong because the chambers were designed to check each other, not to vote identically."
+      "explanation": "Correct: (C) To balance population-based and equal-state representation (the Great Compromise). Large states favored the Virginia Plan's population-based representation and small states favored the New Jersey Plan's equal representation. The Connecticut (Great) Compromise created a House based on population and a Senate with two members per state, so each side was satisfied.\n\n(A) is wrong because both chambers were created together in Article I.\n(B) is wrong because the chambers differ in term length, size, and powers by design.\n(D) is wrong because different structures make identical votes unlikely, and the bicameral design is meant to slow hasty legislation."
     },
     {
       "id": "2-9",
@@ -1069,7 +1069,7 @@ const QUESTIONS = {
         "Politico"
       ],
       "correct": 0,
-      "explanation": "This is the trustee model — the representative prioritizes their own independent judgment and expertise over constituents' directly expressed wishes."
+      "explanation": "Correct: (A) Trustee. A trustee representative uses his or her own best judgment and knowledge of what is good for the nation or district, even against constituent preferences, as Edmund Burke argued. The clue words are 'independent judgment' and 'conflicts with the majority of their constituents'.\n\n(B) is wrong because a delegate follows the expressed wishes of constituents.\n(C) is wrong because partisan is not a model of representation based on judgment; it describes following one's party.\n(D) is wrong because a politico blends the trustee and delegate approaches depending on the issue, but here the representative consistently defies constituents."
     },
     {
       "id": "2-10",
@@ -1082,7 +1082,7 @@ const QUESTIONS = {
         "That congressional districts must always follow county lines."
       ],
       "correct": 2,
-      "explanation": "Baker v. Carr made redistricting cases justiciable (previously treated as a 'political question' outside judicial review) and established the 'one person, one vote' principle, requiring districts within a state to have roughly equal populations. Choice A is wrong because racial gerrymandering is addressed by later cases like Shaw v. Reno, not Baker; choice D is wrong because the Court never imposed a county-line requirement; choice B is wrong because the Senate's equal representation by state is set by the Constitution itself and was not affected by this ruling."
+      "explanation": "Correct: (C) That redistricting is a justiciable 'one person, one vote' question. In Baker v. Carr (1962) the Court held that challenges to unequal legislative districts are not political questions beyond the courts' reach, opening the way for rulings that districts must have roughly equal populations (Reynolds v. Sims and Wesberry v. Sanders).\n\n(A) is wrong because racial gerrymandering was addressed later, as in Shaw v. Reno.\n(B) is wrong because the Senate's equal representation by state is fixed by the Constitution.\n(D) is wrong because county lines were never required; the focus was equal population."
     },
     {
       "id": "2-11",
@@ -1095,7 +1095,7 @@ const QUESTIONS = {
         "That race-predominant districting triggers strict scrutiny."
       ],
       "correct": 3,
-      "explanation": "Shaw v. Reno addressed racial gerrymandering specifically, ruling that districts drawn with race as the predominant factor are subject to strict judicial scrutiny and may violate the Equal Protection Clause. Choice A is wrong because the Court has not held that all partisan gerrymandering is unconstitutional; choice C is wrong because states retain the responsibility to draw districts, just under constitutional limits; choice B restates Baker v. Carr's population-equality holding, a separate issue from Shaw's race-based concern."
+      "explanation": "Correct: (D) That race-predominant districting triggers strict scrutiny. In Shaw v. Reno (1993) North Carolina drew an oddly shaped majority-Black district, and the Court held that a map so irregular that it can be explained only by race can be challenged under the Equal Protection Clause and must meet strict scrutiny, meaning a compelling interest and narrow tailoring.\n\n(A) is wrong because the Court has not ruled partisan gerrymandering always unconstitutional; in Rucho v. Common Cause (2019) it called it a political question.\n(B) is wrong because exactly equal populations is not the Shaw holding, and it concerns Baker v. Carr and later cases.\n(C) is wrong because states still draw congressional districts."
     },
     {
       "id": "2-12",
@@ -1108,7 +1108,7 @@ const QUESTIONS = {
         "No — one addresses population equality, the other race-based districting."
       ],
       "correct": 3,
-      "explanation": "These two cases address genuinely different redistricting problems: Baker v. Carr is about ensuring roughly equal population across districts, while Shaw v. Reno is about limiting how much race can predominate in how district lines are drawn. Choice B is wrong because only Shaw concerns race; choice C is wrong because only Baker concerns population equality; choice A is wrong because both cases are squarely about redistricting."
+      "explanation": "Correct: (D) No: one addresses population equality, the other race-based districting. Baker v. Carr (1962) allowed courts to hear malapportionment claims, leading to the one person, one vote rule that districts have roughly equal populations. Shaw v. Reno (1993) dealt with districts drawn mainly on the basis of race and subjected them to strict scrutiny. Both involve redistricting but different constitutional concerns.\n\n(A) is wrong because both cases concern redistricting.\n(B) is wrong because Baker is about population, not race.\n(C) is wrong because Shaw is about race, not population."
     },
     {
       "id": "2-13",
@@ -1121,7 +1121,7 @@ const QUESTIONS = {
         "Trustee"
       ],
       "correct": 1,
-      "explanation": "This is the delegate model — the representative is following constituents' clearly expressed preference over their own personal judgment about the policy's merits."
+      "explanation": "Correct: (B) Delegate. A delegate follows the clear preferences of constituents even when the representative personally disagrees. Here the member backs the subsidy because the district's farmers strongly favor it, despite personal skepticism about its merit, which is delegate behavior.\n\n(A) is wrong because a politico shifts between roles by issue, and this scenario shows only constituents' wishes overriding personal views.\n(C) is wrong because the models apply directly.\n(D) is wrong because a trustee would follow personal judgment and oppose the subsidy."
     },
     {
       "id": "2-14",
@@ -1134,7 +1134,7 @@ const QUESTIONS = {
         "A representative who always acts as a delegate, following constituent opinion in every single vote."
       ],
       "correct": 2,
-      "explanation": "The politico model describes a blended approach: a representative might act as a delegate on high-salience issues where constituents have strong, clear preferences, and as a trustee on more technical or lower-visibility issues where their own judgment plays a larger role. Choice A is wrong because politicos do weigh constituent opinion, just not exclusively; choices B and D each describe a pure single model (trustee or delegate) rather than the blend that defines politico."
+      "explanation": "Correct: (C) A representative who blends trustee and delegate approaches by issue. A politico acts as a delegate on issues where constituents hold strong, clear views, such as local economic matters, and as a trustee on complex or low-salience issues where independent judgment is better. The key idea is flexibility by issue.\n\n(A) is wrong because politicos still weigh constituent opinion.\n(B) is wrong because always using one's own judgment is the trustee model.\n(D) is wrong because always following constituents is the delegate model."
     },
     {
       "id": "2-15",
@@ -1147,7 +1147,7 @@ const QUESTIONS = {
         "Each midterm election"
       ],
       "correct": 1,
-      "explanation": "Redistricting occurs following the decennial census, which measures population shifts and determines how many House seats each state receives, requiring states to redraw district lines to reflect updated population data."
+      "explanation": "Correct: (B) The decennial (every-ten-year) census. The Constitution requires a census every ten years, and after it Congress's 435 House seats are reapportioned among the states according to population. States then redraw their district lines (redistricting) to keep districts roughly equal under the one person, one vote rule.\n\n(A) is wrong because redistricting follows a regular constitutional schedule, not whenever a legislature decides.\n(C) is wrong because presidential elections occur every four years and are unrelated to district boundaries.\n(D) is wrong because midterm elections happen every two years and do not trigger redistricting."
     },
     {
       "id": "2-16",
@@ -1160,7 +1160,7 @@ const QUESTIONS = {
         "As exclusively criminal matters, handled by prosecutors rather than by the federal courts in a civil suit."
       ],
       "correct": 0,
-      "explanation": "Before Baker v. Carr, federal courts had generally treated redistricting disputes as 'political questions' — matters better left to the legislative and executive branches, outside the judiciary's proper role. Baker v. Carr changed this by ruling such cases were indeed justiciable."
+      "explanation": "Correct: (A) As a 'political question' outside the proper scope of judicial review. Before 1962, in cases such as Colegrove v. Green (1946), courts held that the drawing of legislative districts was a matter for the political branches, so unequal districts persisted, often with rural districts far smaller than growing urban ones. Baker v. Carr (1962) ruled that such claims are justiciable under the Equal Protection Clause.\n\n(B) is wrong because no amendment was ever required; courts simply declined to hear the cases.\n(C) is wrong because if courts had treated them as ordinary cases, Baker would not have been a landmark change.\n(D) is wrong because redistricting disputes were civil challenges to maps, not criminal prosecutions."
     },
     {
       "id": "2-17",
@@ -1173,7 +1173,7 @@ const QUESTIONS = {
         "Vetoing legislation"
       ],
       "correct": 3,
-      "explanation": "The veto power is explicitly granted to the president in Article II — a formal, textually-based power, unlike executive orders, the bully pulpit, and signing statements, all of which are informal powers developed through practice rather than explicit constitutional text."
+      "explanation": "Correct: (D) Vetoing legislation. Article I, Section 7 gives the president the explicit power to sign or veto bills, and Article II lists formal powers such as commander in chief, pardons, treaty making, and appointments. A formal power comes from the text of the Constitution.\n\n(A) is wrong because executive orders are not named in the Constitution; they are an informal power grounded in executive authority and statutes.\n(B) is wrong because signing statements are statements issued when signing a bill and are not in the text.\n(C) is wrong because the bully pulpit is the president's ability to use the office's visibility to persuade, an informal power."
     },
     {
       "id": "2-18",
@@ -1186,7 +1186,7 @@ const QUESTIONS = {
         "Hamilton actually opposed a single executive in Federalist No. 70, preferring a council of several members."
       ],
       "correct": 1,
-      "explanation": "Hamilton argued that a single executive provides 'energy in the executive' — the decisiveness and speed needed especially during a crisis — along with clearer accountability, since blame cannot be diffused across multiple officials the way it could with a council. Choice C is wrong because Federalist No. 70 does not argue removal ease as the rationale; choice D is wrong because Hamilton explicitly favored a single executive; choice A is wrong because Senate confirmation of the president is not the issue Federalist No. 70 addresses."
+      "explanation": "Correct: (B) A single executive provides greater 'energy', meaning decisiveness and accountability. In Federalist No. 70 Hamilton argued that 'energy in the executive' is a leading character of good government and that one person can act with unity, secrecy, and speed, particularly in emergencies. A single person is also easier to hold responsible, since blame cannot be spread among council members.\n\n(A) is wrong because the essay concerns the structure of the office, not avoiding confirmation of subordinates.\n(C) is wrong because Hamilton did not argue that a single executive is easier to remove.\n(D) is wrong because Hamilton explicitly opposed a plural executive."
     },
     {
       "id": "2-19",
@@ -1199,7 +1199,7 @@ const QUESTIONS = {
         "Granting pardons"
       ],
       "correct": 0,
-      "explanation": "Executive orders are an informal power — not explicitly detailed in Article II's text, but developed through historical practice and broader interpretation of executive authority. Commander in chief, the veto, and the pardon power are all explicitly granted formal powers."
+      "explanation": "Correct: (A) Issuing executive orders. Informal powers are not spelled out in the Constitution but developed through practice, and executive orders are directives that manage the executive branch, based on the president's general executive authority or on laws passed by Congress.\n\n(B) is wrong because commander in chief is named in Article II, Section 2.\n(C) is wrong because the veto is formal, in Article I, Section 7.\n(D) is wrong because the pardon power is formal, in Article II, Section 2."
     },
     {
       "id": "2-20",
@@ -1212,7 +1212,7 @@ const QUESTIONS = {
         "Holding a private meeting with congressional leaders."
       ],
       "correct": 0,
-      "explanation": "'Going public' describes a president's strategy of appealing directly to the public — through speeches, media appearances, and other means — to build public pressure that might, in turn, influence Congress or other actors to support the president's policy goals. Choice C is wrong because it describes a leak or disclosure, not a public appeal; choice B is wrong because resigning ends a president's ability to pursue any policy goal; choice D is wrong because it describes a private, not public, strategy — the opposite of 'going public.'"
+      "explanation": "Correct: (A) Appealing directly to the public to build support for a policy goal. 'Going public' is a strategy in which a president uses speeches, televised addresses, and social media to mobilize public opinion so that members of Congress feel pressure to support the president's agenda. It relies on the bully pulpit and is an informal power.\n\n(B) is wrong because resigning has nothing to do with seeking support for a policy.\n(C) is wrong because releasing classified documents is a disclosure or leak, not a public appeal.\n(D) is wrong because meeting privately with leaders is the opposite of going public."
     },
     {
       "id": "2-21",
@@ -1225,7 +1225,7 @@ const QUESTIONS = {
         "Using the bully pulpit"
       ],
       "correct": 0,
-      "explanation": "Appointing federal judges (and other high-level officials) requires Senate confirmation under the 'advice and consent' clause of Article II — the president nominates, but the appointment isn't finalized without Senate approval."
+      "explanation": "Correct: (A) Appointing federal judges. Article II gives the president the power to nominate judges, ambassadors, and other officers 'by and with the Advice and Consent of the Senate', so the Senate must confirm by a majority vote before an appointment takes effect.\n\n(B) is wrong because a signing statement is issued by the president alone when signing a bill.\n(C) is wrong because executive orders take effect without Senate approval.\n(D) is wrong because the bully pulpit is the president's use of public attention to persuade, which needs no approval."
     },
     {
       "id": "2-22",
@@ -1238,7 +1238,7 @@ const QUESTIONS = {
         "No, executive orders can only be reversed by Congress."
       ],
       "correct": 0,
-      "explanation": "Because executive orders rest on informal, more contested constitutional authority rather than explicit statutory backing, they are comparatively fragile — a subsequent president can generally reverse a predecessor's executive order simply by issuing a new one. Choice B is wrong because executive orders are not permanent; choice D is wrong because Congress is not the only actor that can undo one — a president can do it directly; choice C is wrong because reversal requires nothing as demanding as a constitutional amendment."
+      "explanation": "Correct: (A) Yes, a new president can reverse one with a new order. An executive order is a directive issued under the president's own authority, so a later president can revoke or replace it by issuing another order, as often happens at the start of a new administration. Congress can also override orders by statute and courts can strike them down.\n\n(B) is wrong because orders are not permanent.\n(C) is wrong because reversing an order is a simple presidential act.\n(D) is wrong because Congress is only one possible check and the president can undo orders without it."
     },
     {
       "id": "2-23",
@@ -1251,7 +1251,7 @@ const QUESTIONS = {
         "Presidential power has steadily and continuously decreased since the founding."
       ],
       "correct": 1,
-      "explanation": "The general historical trend has been toward an expanded presidency, with informal powers (executive orders, executive agreements, going public, and others) developing well beyond the comparatively limited and specific formal powers Article II explicitly grants. Choice D is wrong because it reverses the actual trend; choice C is wrong because power has generally grown, not shrunk; choice A is wrong because the presidency has changed substantially through informal practice since 1789."
+      "explanation": "Correct: (B) Presidential power has generally grown beyond Article II's original text. Over time, crises such as the Civil War, the Great Depression, and World War II, the growth of the administrative state, and tools like executive orders, executive agreements, and going public have expanded the president's influence compared to the limited formal powers listed in Article II.\n\n(A) is wrong because the office has changed greatly since 1789.\n(C) is wrong because the founders designed a relatively limited executive, and power has increased since then.\n(D) is wrong because the trend has not been a steady decline, even though Congress and the courts have limited the president at times."
     },
     {
       "id": "2-24",
@@ -1264,7 +1264,7 @@ const QUESTIONS = {
         "An executive agreement"
       ],
       "correct": 3,
-      "explanation": "Executive agreements, unlike treaties, do not require Senate ratification — they are an informal presidential tool for reaching agreements with foreign governments, though they generally carry less enduring legal weight and permanence than a formally ratified treaty."
+      "explanation": "Correct: (D) An executive agreement. An executive agreement is an agreement between the president and the leader of another country that does not need Senate ratification, so it can be made quickly, though a later president can end it more easily. Treaties, in contrast, need a two-thirds Senate vote.\n\n(A) is wrong because a constitutional amendment is a domestic change to the Constitution that requires Congress and the states, not an international agreement.\n(B) is wrong because a treaty requires Senate ratification by two-thirds.\n(C) is wrong because a statute is a law that must pass both chambers of Congress and is not an international agreement."
     },
     {
       "id": "2-25",
@@ -1277,7 +1277,7 @@ const QUESTIONS = {
         "A simple majority"
       ],
       "correct": 3,
-      "explanation": "The House impeaches with only a simple majority vote — this is a formal accusation, comparable to an indictment, and does not by itself remove the president from office."
+      "explanation": "Correct: (D) A simple majority. Under Article I, the House has the sole power of impeachment, and it needs only a majority of members voting to approve articles of impeachment. Impeachment is like an indictment, a formal charge of 'treason, bribery, or other high crimes and misdemeanors', and it does not remove the president.\n\n(A) is wrong because two-thirds is the Senate's threshold for conviction.\n(B) is wrong because three-fourths is the number of states needed to ratify an amendment.\n(C) is wrong because unanimity is never required for impeachment."
     },
     {
       "id": "2-26",
@@ -1290,7 +1290,7 @@ const QUESTIONS = {
         "2/3 of the Senate"
       ],
       "correct": 3,
-      "explanation": "The Senate requires a 2/3 supermajority vote to convict and remove a president following impeachment by the House — a genuinely high bar, reflecting the seriousness of removing a duly elected president from office."
+      "explanation": "Correct: (D) 2/3 of the Senate. After the House impeaches, the Senate holds the trial, with the Chief Justice presiding for a president, and the Constitution requires a two-thirds vote of the senators present to convict and remove. This high threshold makes removal rare, and no president has ever been removed.\n\n(A) is wrong because a simple majority would make removal too easy and is the House's threshold to impeach.\n(B) is wrong because three-fifths is the cloture threshold.\n(C) is wrong because unanimity is not required."
     },
     {
       "id": "2-27",
@@ -1303,7 +1303,7 @@ const QUESTIONS = {
         "Yes, impeachment alone removes a president from office."
       ],
       "correct": 1,
-      "explanation": "Impeachment by the House is only the first of two required steps — it's a formal accusation, not a removal. Removal requires the Senate to separately hold a trial and vote to convict by a 2/3 supermajority. Choice D is wrong because impeachment alone does not remove anyone; choice C is wrong because conviction requires 2/3, not unanimity; choice A is wrong because impeachment does have real legal effect — it triggers the Senate trial process."
+      "explanation": "Correct: (B) No, impeachment is only a formal accusation. When the House votes to impeach, it brings charges, and the Senate then must try the case and convict by two-thirds before the president can be removed. Presidents Andrew Johnson, Bill Clinton, and Donald Trump (twice) were impeached but not removed.\n\n(A) is wrong because impeachment has legal effect: it starts the Senate trial.\n(C) is wrong because the House needs only a majority and unanimity is not the rule.\n(D) is wrong because it confuses the accusation with removal."
     },
     {
       "id": "2-28",
@@ -1316,7 +1316,7 @@ const QUESTIONS = {
         "Executive privilege"
       ],
       "correct": 1,
-      "explanation": "This is Congress exercising the power of the purse — a practical, significant check on presidential and executive branch action, since most federal programs and initiatives require congressional appropriation of funds to actually operate."
+      "explanation": "Correct: (B) The power of the purse. Article I gives Congress the power to tax and spend, and no money may be drawn from the Treasury without an appropriation made by law. When Congress refuses to fund a presidential initiative, it controls the executive through its spending power.\n\n(A) is wrong because judicial review is a court striking down a law or action.\n(C) is wrong because the veto is the president's power over bills, not Congress's check.\n(D) is wrong because executive privilege is the president's claim to withhold information from Congress or the courts."
     },
     {
       "id": "2-29",
@@ -1329,7 +1329,7 @@ const QUESTIONS = {
         "Impeachment"
       ],
       "correct": 2,
-      "explanation": "This is judicial review — the judicial branch's power (established in Marbury v. Madison) to declare an executive action unconstitutional, checking executive power even when it doesn't involve an act of Congress."
+      "explanation": "Correct: (C) Judicial review. Established in Marbury v. Madison (1803), judicial review lets federal courts decide whether actions of the other branches violate the Constitution. A court ruling that an executive order exceeds the president's authority is a judicial check on the executive, as in Youngstown Sheet & Tube v. Sawyer (1952).\n\n(A) is wrong because the power of the purse is Congress's control of funding.\n(B) is wrong because the veto is the president's power to reject bills.\n(D) is wrong because impeachment is a process carried out by Congress to remove officials."
     },
     {
       "id": "2-30",
@@ -1342,7 +1342,7 @@ const QUESTIONS = {
         "Judicial review by the federal courts of the land"
       ],
       "correct": 1,
-      "explanation": "This is the Senate exercising its constitutional 'advice and consent' role over presidential appointments — the president nominates, but the Senate's confirmation is required before an appointment is finalized. Choice D is wrong because judicial review involves courts assessing constitutionality, not confirming nominees; choice A is wrong because the veto applies to legislation, not nominations; choice C is wrong because impeachment targets removing an official, not blocking a nomination."
+      "explanation": "Correct: (B) The Senate's advice-and-consent confirmation power. Article II, Section 2 gives the president power to appoint cabinet secretaries, judges, and ambassadors only with the Senate's advice and consent, a majority vote. By refusing to confirm a nominee, the Senate checks the president's choice of personnel.\n\n(A) is wrong because the veto applies to legislation, and the Senate is not using it.\n(C) is wrong because impeachment involves the House voting to charge an officer and aims at removal, not blocking a nominee.\n(D) is wrong because courts do not decide on confirmations."
     },
     {
       "id": "2-31",
@@ -1355,7 +1355,7 @@ const QUESTIONS = {
         "Senate confirmation of one nominee"
       ],
       "correct": 1,
-      "explanation": "While the power of the purse is a formal constitutional power, its practical leverage comes from its ongoing, pervasive nature — nearly every executive branch program depends on continued congressional funding, giving Congress persistent influence over presidential action well beyond any single up-or-down vote. Choices A, C, and D are each single, discrete formal votes rather than the sustained, recurring leverage the question asks about."
+      "explanation": "Correct: (B) Ongoing control over appropriations funding. The power of the purse (Article I, Section 9: no money drawn from the Treasury except by appropriations made by law) gives Congress continuing leverage because nearly every executive agency and program needs annual funding, so Congress can shape, limit, or defund presidential priorities, hold hearings tied to budgets, and add conditions. The clue words are 'practical leverage' and 'rather than a single formal vote'.\n\n(A) is wrong because impeachment is a discrete, formal, rare constitutional action.\n(C) is wrong because a veto override is a single formal vote on one bill.\n(D) is wrong because confirming one nominee is a single formal vote on one person."
     },
     {
       "id": "2-32",
@@ -1368,7 +1368,7 @@ const QUESTIONS = {
         "The power of the purse over funding."
       ],
       "correct": 2,
-      "explanation": "This illustrates how the mere threat of a veto can shape legislation before it's ever formally passed — Congress adjusting a bill in anticipation of a veto is a good example of a formal power's informal, anticipatory influence. Choice B is wrong because no court is involved; choice D is wrong because no funding or appropriations issue is at stake; choice A is wrong because no veto was actually cast — the bill was changed before final passage, precisely to avoid one."
+      "explanation": "Correct: (C) The veto power's informal, anticipatory influence on legislation. A veto threat gives the president bargaining leverage because Congress often cannot muster the two-thirds needed to override, so it changes the bill ahead of time to win the president's signature. The clue is that Congress removed the provision before final passage, so no veto was actually cast.\n\n(A) is wrong because the veto was never executed.\n(B) is wrong because no court was involved.\n(D) is wrong because the dispute was about a provision in a bill, not about funding."
     },
     {
       "id": "2-33",
@@ -1381,7 +1381,7 @@ const QUESTIONS = {
         "Judicial review of laws and executive acts"
       ],
       "correct": 3,
-      "explanation": "Marbury v. Madison established judicial review — a power not explicitly stated in the Constitution's text, but reasoned by Chief Justice Marshall to be inherent in the judiciary's role of interpreting the supreme law of the land. Choice B is wrong because the power of the purse belongs to Congress, not the courts; choice C is wrong because that principle comes from Baker v. Carr; choice A is wrong because that clause was central to McCulloch v. Maryland, not Marbury."
+      "explanation": "Correct: (D) Judicial review of laws and executive acts. In Marbury v. Madison (1803), Chief Justice John Marshall held that part of the Judiciary Act of 1789 conflicted with Article III, and that the Constitution is supreme law, so courts must refuse to apply laws that violate it. This established the Supreme Court's power to declare acts of Congress and the executive unconstitutional.\n\n(A) is wrong because the scope of the Necessary and Proper Clause was settled in McCulloch v. Maryland.\n(B) is wrong because the power of the purse belongs to Congress and was not at issue.\n(C) is wrong because 'one person, one vote' came from cases such as Baker v. Carr and Reynolds v. Sims."
     },
     {
       "id": "2-34",
@@ -1394,7 +1394,7 @@ const QUESTIONS = {
         "U.S. District Courts"
       ],
       "correct": 3,
-      "explanation": "U.S. District Courts are the trial-level federal courts, where evidence is first presented, witnesses testify, and facts are established — the starting point for most federal cases."
+      "explanation": "Correct: (D) U.S. District Courts. District courts are the federal trial courts, with 94 districts, where juries may be used, witnesses testify, evidence is presented, and facts are found. Most federal cases begin there.\n\n(A) is wrong because Courts of Appeals review the trial record for legal errors and do not hold trials.\n(B) is wrong because state supreme courts are the top courts of state systems, not part of the federal trial structure.\n(C) is wrong because the Supreme Court is the final appellate court and hears only a few cases as original jurisdiction."
     },
     {
       "id": "2-35",
@@ -1407,7 +1407,7 @@ const QUESTIONS = {
         "An executive order issued by the president."
       ],
       "correct": 2,
-      "explanation": "A writ of certiorari is a formal petition asking the Supreme Court to review and hear a case — the Court's primary mechanism for exercising its mostly discretionary jurisdiction over which cases it actually chooses to hear. Choice B is wrong because it describes a congressional, not judicial, tool; choice D is wrong because it describes an executive action unrelated to the Court's docket; choice A is wrong because it describes the impeachment process, not case review."
+      "explanation": "Correct: (C) A petition asking the Supreme Court to review a case. 'Certiorari' means to be informed; a party that lost in a lower court files a petition for a writ of certiorari, and the Court, using its discretion, decides whether to take the case. Most petitions are denied, leaving the lower court ruling in place.\n\n(A) is wrong because impeachment accusations are articles of impeachment voted by the House.\n(B) is wrong because a subpoena is a legal order to appear or produce documents, and this writ is not one.\n(D) is wrong because executive orders are presidential directives and not judicial writs."
     },
     {
       "id": "2-36",
@@ -1420,7 +1420,7 @@ const QUESTIONS = {
         "Only two sitting justices"
       ],
       "correct": 1,
-      "explanation": "Under the 'rule of four,' at least four of the nine justices must agree to grant certiorari for the Supreme Court to hear a case — notably less than a majority of the full Court. Choice A is wrong because unanimity is not required; choice D is wrong because two is below the actual threshold; choice C is wrong because five (a majority) is more than the rule actually requires."
+      "explanation": "Correct: (B) At least four, the 'rule of four'. The Supreme Court has a long-standing practice that if four of the nine justices vote to hear a case, certiorari is granted. This lets a minority of the Court put an important case on the docket.\n\n(A) is wrong because unanimity is not required.\n(C) is wrong because five is a majority, which is needed to decide a case but not to take it.\n(D) is wrong because two justices are not enough under the rule."
     },
     {
       "id": "2-37",
@@ -1433,7 +1433,7 @@ const QUESTIONS = {
         "No, its discretionary docket takes only a small fraction."
       ],
       "correct": 3,
-      "explanation": "The Supreme Court's jurisdiction is mostly discretionary — it grants certiorari for only a small fraction of the petitions it receives each year, leaving the vast majority of lower court rulings as the final word. Choice C is wrong because the Court is not obligated to hear nearly all cases; choice B is wrong because the Court also takes some non-constitutional cases, and its selectivity isn't limited to that category; choice A is wrong because the Court does grant certiorari regularly, just selectively."
+      "explanation": "Correct: (D) No, its discretionary docket takes only a small fraction. The Court receives thousands of petitions each year, roughly 7,000 or more, and grants review to only about 60 to 80 cases, usually those involving conflicts among circuits or important constitutional questions. For most cases the appeals court decision is final.\n\n(A) is wrong because the Court does grant certiorari every term.\n(B) is wrong because the Court's selectivity is not limited to constitutional questions, and it also decides statutory questions.\n(C) is wrong because the Court is not required to hear nearly every case."
     },
     {
       "id": "2-38",
@@ -1446,7 +1446,7 @@ const QUESTIONS = {
         "Serving as the final, unappealable level of the federal court system, above even the Supreme Court."
       ],
       "correct": 1,
-      "explanation": "U.S. Courts of Appeals review district court decisions specifically for legal errors — they do not conduct new trials, hear new evidence, or call new witnesses; their role is appellate review of how the law was applied below."
+      "explanation": "Correct: (B) Reviewing district court decisions for legal errors, without holding new trials. The 13 courts of appeals (12 regional circuits and the Federal Circuit) examine the trial record and the lawyers' briefs and arguments to decide whether the law was applied correctly, typically by a panel of three judges. There are no juries, witnesses, or new evidence.\n\n(A) is wrong because that describes a trial court.\n(C) is wrong because appeals courts hear appeals from many types of cases, not only those involving the president.\n(D) is wrong because the Supreme Court sits above the courts of appeals."
     },
     {
       "id": "2-39",
@@ -1459,7 +1459,7 @@ const QUESTIONS = {
         "It was later explicitly added to the Constitution by amendment, which confirmed the principle formally."
       ],
       "correct": 1,
-      "explanation": "Despite not being explicitly written into the Constitution, judicial review — established through Marshall's reasoning in Marbury v. Madison — has become foundational to the judiciary's role as a genuine, independent check on the legislative and executive branches. Choice D is wrong because no amendment ever codified judicial review; choice A is wrong because it applies to federal as well as state action; choice C is wrong because the question's premise is that it is significant despite lacking explicit text, not that it isn't."
+      "explanation": "Correct: (B) It established the judiciary as a genuine, independent check on the other branches. Although the Constitution never uses the words 'judicial review', Marbury v. Madison reasoned from Article VI's supremacy of the Constitution and the judges' duty to interpret the law that courts must not enforce unconstitutional acts. This gave the judiciary real power to limit Congress and the president, balancing the system.\n\n(A) is wrong because judicial review applies to federal as well as state actions.\n(C) is wrong because lack of explicit text does not make it insignificant; it is one of the most important powers in American government.\n(D) is wrong because no amendment added it."
     },
     {
       "id": "2-40",
@@ -1472,7 +1472,7 @@ const QUESTIONS = {
         "Federalist No. 10"
       ],
       "correct": 1,
-      "explanation": "Federalist No. 78, written by Hamilton, argues the judiciary is the 'least dangerous' branch because it lacks control over either the military ('the sword') or government funding ('the purse'), relying instead on judgment and legitimacy."
+      "explanation": "Correct: (B) Federalist No. 78. Alexander Hamilton wrote that the judiciary will always be the 'least dangerous' branch because it holds neither the sword (the executive's control of force) nor the purse (the legislature's control of money), possessing only judgment. He used this to defend life tenure and judicial independence, and to support judicial review.\n\n(A) is wrong because Federalist No. 51 explains checks and balances and 'ambition must counteract ambition'.\n(C) is wrong because Brutus No. 1 is an Anti-Federalist essay, though Brutus did warn about judicial power in later essays.\n(D) is wrong because Federalist No. 10 addresses factions in a large republic."
     },
     {
       "id": "2-41",
@@ -1498,7 +1498,7 @@ const QUESTIONS = {
         "The requirement that Supreme Court justices serve fixed 10-year terms."
       ],
       "correct": 1,
-      "explanation": "Stare decisis ('to stand by things decided') is the principle that courts generally adhere to established precedent from prior rulings, promoting legal predictability and stability rather than treating each new case as a completely fresh question. Choice D is wrong because justices serve during good behavior, not fixed 10-year terms; choice A is wrong because Supreme Court decisions need not be unanimous; choice C is wrong because Congress has no direct mechanism to override a judicial ruling this way."
+      "explanation": "Correct: (B) The practice of courts generally following established legal precedent. Stare decisis, Latin for 'to stand by things decided', means judges usually follow earlier decisions on similar issues, which makes the law predictable and stable and supports the legitimacy of courts. Precedent can be overturned but only for strong reasons.\n\n(A) is wrong because the Court does not need unanimity; it decides by majority vote.\n(C) is wrong because Congress overriding a ruling is done by amending the statute or the Constitution, and is not what stare decisis means.\n(D) is wrong because justices serve during good behavior, not for fixed ten-year terms."
     },
     {
       "id": "2-43",
@@ -1511,7 +1511,7 @@ const QUESTIONS = {
         "To ensure judges never issue controversial rulings."
       ],
       "correct": 2,
-      "explanation": "Lifetime tenure is specifically designed to insulate federal judges from short-term political pressure, allowing them to rule based on legal judgment rather than fear of losing their position due to an unpopular decision. Choice D is wrong because insulation from pressure does not guarantee uncontroversial rulings; choice B is wrong because lifetime tenure applies to judges specifically, not all officials; choice A is wrong because lifetime tenure makes removal harder, not easier."
+      "explanation": "Correct: (C) To insulate judges from short-term political pressure and public opinion. Article III says judges 'shall hold their Offices during good behaviour' and their pay cannot be reduced. Hamilton argued in Federalist No. 78 that this permanence is needed so judges can rule on the law and the Constitution without fear of losing their jobs or salaries after unpopular decisions.\n\n(A) is wrong because tenure makes removal harder.\n(B) is wrong because the Constitution does not give all officials life terms; presidents, representatives, and senators face elections.\n(D) is wrong because independent judges may well issue controversial decisions."
     },
     {
       "id": "2-44",
@@ -1524,7 +1524,7 @@ const QUESTIONS = {
         "Yes, but only Supreme Court justices are subject to any check."
       ],
       "correct": 1,
-      "explanation": "Lifetime tenure protects judges from removal over the content of their rulings, but it does not make them immune from all checks — Congress retains the power to impeach and remove federal judges for serious misconduct, just as it can with the president. Choice A is wrong because an unpopular ruling alone is not grounds for removal; choice C is wrong because removal for misconduct remains possible; choice D is wrong because the impeachment check applies to federal judges generally, not just Supreme Court justices."
+      "explanation": "Correct: (B) No, judges can still be impeached for serious misconduct. Article II says all civil officers, including judges, can be removed after impeachment by the House and conviction by two-thirds of the Senate for treason, bribery, or other high crimes and misdemeanors. Several federal judges have been removed this way.\n\n(A) is wrong because a disliked ruling is not a ground for removal and would destroy independence.\n(C) is wrong because removal for misconduct is possible.\n(D) is wrong because all federal judges are subject to impeachment, not just Supreme Court justices."
     },
     {
       "id": "2-45",
@@ -1537,7 +1537,7 @@ const QUESTIONS = {
         "Because the judiciary is not a genuine branch of government."
       ],
       "correct": 2,
-      "explanation": "As Hamilton noted in Federalist No. 78, the judiciary lacks 'the sword' (direct enforcement power, unlike the executive) and 'the purse' (funding control, unlike the legislature) — its rulings only become effective if the other branches and the public choose to comply with them. Choice B reverses the actual relationship; choice D is wrong because the judiciary is a full constitutional branch; choice A is wrong because judicial rulings are legally binding, even though their enforcement depends on others' compliance."
+      "explanation": "Correct: (C) Because the judiciary has no independent enforcement power of its own. Hamilton wrote that the judiciary controls neither the sword nor the purse, so it depends on the executive branch to enforce its rulings and on Congress for funding, and on public acceptance of its legitimacy. Examples include the need for federal marshals or the president to enforce desegregation orders.\n\n(A) is wrong because judicial rulings are legally binding.\n(B) is wrong because it reverses the true situation, since the judiciary has less enforcement power.\n(D) is wrong because Article III creates the judiciary as a full, separate branch."
     },
     {
       "id": "2-46",
@@ -1550,7 +1550,7 @@ const QUESTIONS = {
         "No, only Congress can overturn a Supreme Court precedent."
       ],
       "correct": 1,
-      "explanation": "The Supreme Court does sometimes overturn its own precedent, but this is understood as a notable, closely scrutinized exception to the norm — precisely because stare decisis plays such a central role in maintaining the judiciary's perceived legitimacy. Choice A is wrong because overturning precedent is rare, not routine; choice C is wrong because stare decisis is a norm, not a constitutional bar; choice D is wrong because Congress cannot overturn a Supreme Court precedent — only the Court itself (or a constitutional amendment) can."
+      "explanation": "Correct: (B) Yes, though doing so is treated as a significant departure from the norm. The Court has overturned precedents, for example Brown v. Board of Education (1954) overturning Plessy v. Ferguson, and Dobbs v. Jackson (2022) overturning Roe v. Wade. Stare decisis is a strong norm rather than an absolute rule, so reversals are rare and carefully justified.\n\n(A) is wrong because routine reversals would destroy predictability.\n(C) is wrong because stare decisis is a judicial practice, not a constitutional prohibition.\n(D) is wrong because Congress cannot overturn precedent about constitutional meaning; only the Court or a constitutional amendment can."
     },
     {
       "id": "2-47",
@@ -1563,7 +1563,7 @@ const QUESTIONS = {
         "The power to directly reverse any specific ruling by a simple majority vote of both houses of Congress."
       ],
       "correct": 2,
-      "explanation": "While Congress cannot remove a judge simply for disagreeing with a ruling, it does retain some structural authority over the federal judiciary — including the ability to set the number of Supreme Court justices and to define the jurisdiction of lower federal courts. Choice D is wrong because Congress cannot directly reverse a specific ruling by vote; choice B is wrong because the Court itself, not Congress, chooses its own docket; choice A understates Congress's real, if limited, structural role."
+      "explanation": "Correct: (C) Authority to structure the courts, such as justice numbers or lower-court jurisdiction. The Constitution creates only the Supreme Court and leaves the size of the Court, the creation of lower federal courts, and much of their jurisdiction to Congress, which has changed the number of justices several times (it has been nine since 1869). Congress also sets judges' budgets.\n\n(A) is wrong because courts are independent in deciding cases but Congress has real structural authority.\n(B) is wrong because the Court controls its own docket through certiorari.\n(D) is wrong because Congress cannot directly reverse a particular ruling by vote; it can only change statutes or propose constitutional amendments."
     },
     {
       "id": "2-48",
@@ -1576,7 +1576,7 @@ const QUESTIONS = {
         "It would immediately remove all sitting justices from office, by operation of the Constitution."
       ],
       "correct": 0,
-      "explanation": "Stare decisis supports legitimacy specifically by making legal outcomes predictable and consistent — frequent, unpredictable reversals of precedent would undermine that stability, risking a public perception that rulings reflect the personal preferences of whichever justices currently sit on the Court rather than durable legal principle. Choice C is wrong because no amendment process is automatically triggered; choice D is wrong because overturning precedent does not remove justices; choice B directly contradicts the premise the question is asking about."
+      "explanation": "Correct: (A) It would undermine the perception that the law is stable and predictable. Stare decisis tells citizens, businesses, and lower courts that similar cases will be treated alike, which is part of why people accept court rulings without enforcement power. If precedents were overturned often and unpredictably, rulings would look like the personal preferences of whoever sits on the Court, reducing public trust.\n\n(B) is wrong because courts are expected to follow earlier rulings generally, so legitimacy would be affected.\n(C) is wrong because no amendment is triggered automatically.\n(D) is wrong because overturning precedent does not remove justices, who serve during good behavior."
     },
     {
       "id": "2-49",
@@ -1589,7 +1589,7 @@ const QUESTIONS = {
         "The requirement that judges never agree with each other."
       ],
       "correct": 0,
-      "explanation": "Judicial independence refers to the judiciary's capacity to make rulings based on legal reasoning rather than being swayed by short-term political pressure, public opinion, or fear of electoral consequences — supported structurally by lifetime tenure. Choice C is wrong because independence does not mean total isolation from the other branches; choice B is wrong because the judiciary does not control its own funding, Congress does; choice D is wrong because judicial independence has nothing to do with justices agreeing or disagreeing with one another."
+      "explanation": "Correct: (A) Ruling based on legal judgment, insulated from short-term political pressure. Judicial independence means judges decide cases according to the law and Constitution, not fear of removal, pay cuts, or public anger. It is supported by life tenure during good behavior and protection from salary reductions in Article III.\n\n(B) is wrong because Congress, not the judiciary, writes funding legislation.\n(C) is wrong because the judiciary still interacts with the other branches through appointments, funding, and checks.\n(D) is wrong because independence does not mean judges must disagree, and justices often agree."
     },
     {
       "id": "2-50",
@@ -1602,7 +1602,7 @@ const QUESTIONS = {
         "The process by which the Supreme Court issues rulings on cases that come before it."
       ],
       "correct": 0,
-      "explanation": "Rule-making is the process by which bureaucratic agencies issue detailed, legally binding regulations that implement and flesh out the specifics of broader, often vaguely-worded statutes passed by Congress. Choice B describes ordinary lawmaking, not agency action; choice C describes an entirely separate presidential tool; choice D describes judicial rulings, not agency regulation."
+      "explanation": "Correct: (A) The quasi-legislative process by which agencies issue binding regulations. Congress writes broad statutes and delegates details to agencies, which publish proposed rules, accept public comments, and then issue final rules under the Administrative Procedure Act that have the force of law. This is called quasi-legislative because agencies make rules like a legislature.\n\n(B) is wrong because that describes lawmaking by Congress and the president.\n(C) is wrong because executive orders are presidential directives and not agency rules.\n(D) is wrong because that describes judicial decisions."
     },
     {
       "id": "2-51",
@@ -1615,7 +1615,7 @@ const QUESTIONS = {
         "The White House staff"
       ],
       "correct": 2,
-      "explanation": "Independent regulatory agencies often have leaders serving fixed terms with more protection from direct presidential removal, specifically intended to reduce short-term political influence over technical regulatory decisions — in contrast to cabinet department heads, who generally serve more directly at the president's discretion."
+      "explanation": "Correct: (C) Independent regulatory agencies. Agencies such as the Federal Reserve, the SEC, the FCC, and the FTC are led by commissioners or governors with fixed terms and, often, laws that allow removal only for cause, so the president cannot easily fire them. This keeps technical and economic regulation less subject to short-term political pressure.\n\n(A) is wrong because cabinet secretaries are appointed by the president and serve at the president's pleasure.\n(B) is wrong because independent agencies do have some insulation.\n(D) is wrong because White House staff work directly for the president and are removable at will."
     },
     {
       "id": "2-52",
@@ -1628,7 +1628,7 @@ const QUESTIONS = {
         "Because it exercises substantial practical policy influence despite not being a formal branch."
       ],
       "correct": 3,
-      "explanation": "The 'fourth branch' label is informal, not constitutional — it reflects the bureaucracy's substantial practical influence over how laws actually function, through both implementation and its quasi-legislative rule-making authority, despite not being an explicitly named branch. Choice C is wrong because the bureaucracy operates within, and is overseen by, the other three branches; choice A is wrong because the Constitution names only three branches; choice B is wrong because agencies have no amendment power whatsoever."
+      "explanation": "Correct: (D) Because it exercises substantial practical policy influence despite not being a formal branch. Agencies write rules with the force of law, enforce them, and settle disputes through administrative hearings, so they perform legislative, executive, and judicial-like functions, giving them large influence over everyday policy. The 'fourth branch' label is informal.\n\n(A) is wrong because the Constitution names only three branches, and Article IV deals with states.\n(B) is wrong because agencies cannot amend the Constitution.\n(C) is wrong because agencies are overseen by Congress through funding and hearings, by the president through appointments, and by courts through review."
     },
     {
       "id": "2-53",
@@ -1641,7 +1641,7 @@ const QUESTIONS = {
         "Judicial review"
       ],
       "correct": 0,
-      "explanation": "This is a classic example of rule-making — a relevant federal agency would issue detailed regulations defining specific, measurable safety standards to implement the broader statutory language Congress left intentionally general."
+      "explanation": "Correct: (A) Rule-making. Congress often passes a broad standard, such as 'reasonable' workplace safety, and leaves the specifics to an expert agency. The agency, such as OSHA, then writes detailed regulations, with numeric exposure limits and procedures, which carry the force of law. The clue is that the statute leaves 'specific numeric thresholds undefined'.\n\n(B) is wrong because the veto is a presidential power over bills.\n(C) is wrong because hearings only monitor and do not write the detailed standards.\n(D) is wrong because judicial review comes only after a challenge and courts do not write regulations."
     },
     {
       "id": "2-54",
@@ -1654,7 +1654,7 @@ const QUESTIONS = {
         "No, only the president oversees bureaucratic agencies."
       ],
       "correct": 1,
-      "explanation": "Congress retains meaningful oversight authority over the bureaucracy even after passing a law — including holding oversight hearings, and, if it disagrees with an agency's implementation choices, revising the underlying statute to more explicitly constrain the agency's discretion. Choice C is wrong because Congress's role continues after passage; choice D is wrong because Congress, not just the president, retains oversight; choice A is wrong because ordinary legislation, not a constitutional amendment, is enough to redirect an agency."
+      "explanation": "Correct: (B) Yes, through hearings and revising the statute. Congress oversees agencies by holding oversight hearings, requiring reports, controlling their budgets through appropriations, confirming their leaders, and rewriting the law to narrow or direct what agencies can do. The clue is that Congress is not finished after a law passes.\n\n(A) is wrong because ordinary legislation is enough, and no amendment is needed.\n(C) is wrong because Congress keeps oversight responsibility.\n(D) is wrong because the president directs the executive branch, but Congress shares oversight."
     },
     {
       "id": "2-55",
@@ -1667,7 +1667,7 @@ const QUESTIONS = {
         "Staff processing applications under a rule."
       ],
       "correct": 3,
-      "explanation": "Implementation refers to the bureaucracy's core function of actually carrying out and enforcing laws and regulations in specific, individual cases — distinct from rule-making, which is the quasi-legislative process of writing the detailed regulations in the first place. Choice A describes judicial review; choice C describes ordinary legislating; choice B describes rule-making itself, the very function the question distinguishes implementation from."
+      "explanation": "Correct: (D) Staff processing applications under a rule. Implementation is the carrying out of laws and rules in individual cases, such as an agency reviewing benefit applications, inspecting facilities, or issuing permits. It differs from rule-making, which is writing the rules themselves.\n\n(A) is wrong because a court striking down a regulation is judicial review.\n(B) is wrong because issuing a new regulation is rule-making, the function the question contrasts.\n(C) is wrong because passing a statute is lawmaking by Congress."
     },
     {
       "id": "2-56",
@@ -1680,7 +1680,7 @@ const QUESTIONS = {
         "Because bureaucratic rule-making has no real effect on policy outcomes."
       ],
       "correct": 0,
-      "explanation": "Since bureaucratic rule-making effectively delegates substantial practical policymaking authority to unelected agency officials — who are not directly accountable to voters the way legislators are — it raises genuine questions about democratic accountability, even though Congress retains oversight. Choice B is wrong because rules do not automatically expire; choice C is wrong because rule-making is a much lower bar than amending the Constitution; choice D is wrong because rule-making has substantial, not negligible, real-world policy effects."
+      "explanation": "Correct: (A) Because unelected agency officials end up making substantive policy decisions. Agency staff are mostly career civil servants who are not elected and cannot be voted out, yet they write rules that affect millions of people, so there is a gap between policy makers and voters. Congress and the president try to limit this through oversight, appointments, and the notice-and-comment process.\n\n(B) is wrong because rules do not automatically expire after a year.\n(C) is wrong because rule-making is not constitutional amendment and requires neither state ratification nor supermajorities.\n(D) is wrong because rule-making greatly affects policy outcomes, which is why accountability matters."
     },
     {
       "id": "2-57",
@@ -1693,7 +1693,7 @@ const QUESTIONS = {
         "A category that does not actually exist within the federal bureaucracy, despite the name."
       ],
       "correct": 0,
-      "explanation": "Government corporations are federal entities structured to operate somewhat like businesses (often providing a specific commercial-style service) while remaining part of the broader government bureaucracy — a distinct organizational type alongside cabinet departments and independent regulatory agencies. Choice B is wrong because government corporations remain part of government, unlike private business; choice D is wrong because they are a real, recognized bureaucratic category; choice C is wrong because they are organizationally distinct from cabinet departments."
+      "explanation": "Correct: (A) A federal entity that operates like a business while remaining part of government. Government corporations, such as the U.S. Postal Service and Amtrak, provide a market-type service and may charge fees to cover costs, but they are created by Congress and are part of the executive branch bureaucracy.\n\n(B) is wrong because they are not private businesses owned by shareholders.\n(C) is wrong because cabinet departments are large organizations headed by secretaries and are a different category.\n(D) is wrong because government corporations are a real category of federal entity."
     },
     {
       "id": "2-58",
@@ -1706,7 +1706,7 @@ const QUESTIONS = {
         "The Supreme Court automatically reviews the law for its constitutionality before it takes effect."
       ],
       "correct": 2,
-      "explanation": "After a bill is signed into law, a relevant executive branch agency often engages in rule-making — writing detailed regulations that flesh out and implement the law's broader statutory goals — before the policy is actually enforced on the ground. Choice D is wrong because judicial review is not automatic; it happens only if a case is brought; choice A is wrong because a signed law does not return to committee; choice B is wrong because ordinary statutes never become constitutional amendments."
+      "explanation": "Correct: (C) A relevant executive agency may begin rule-making to implement it. After a bill is signed, the agency named in the statute usually drafts regulations that translate the general language into detailed requirements, using notice and comment, before enforcement.\n\n(A) is wrong because a signed law does not go back to committee.\n(B) is wrong because statutes do not become constitutional amendments, which need two-thirds of Congress and three-fourths of states.\n(D) is wrong because the Supreme Court reviews a law only when a lawsuit is brought and a case reaches it."
     },
     {
       "id": "2-59",
@@ -1719,7 +1719,7 @@ const QUESTIONS = {
         "At multiple points, once a law is legally challenged."
       ],
       "correct": 3,
-      "explanation": "The judicial branch typically becomes involved when an affected party challenges a law or its implementing regulations in court, arguing the government exceeded its statutory or constitutional authority — this can happen at various points after a policy has been enacted or a regulation issued. Choice B is wrong because courts act on legal challenges, not presidential requests; choice C directly contradicts the judiciary's real role in policy-making; choice A is wrong because judicial involvement typically comes after, not before, a bill exists."
+      "explanation": "Correct: (D) At multiple points, once a law is legally challenged. Courts do not act on their own; they decide actual cases, so they become involved when someone with standing challenges a statute, a regulation, or an agency's action, and challenges can arise at various stages after enactment.\n\n(A) is wrong because courts do not give advisory opinions before bills exist.\n(B) is wrong because the president cannot request judicial input as a route.\n(C) is wrong because courts are heavily involved in policy through judicial review and statutory interpretation."
     },
     {
       "id": "2-60",
@@ -1732,7 +1732,7 @@ const QUESTIONS = {
         "Because only one branch of government has any role in policy-making."
       ],
       "correct": 0,
-      "explanation": "The multi-branch, multi-stage nature of American policy-making — legislative passage, executive approval, bureaucratic implementation, and potential judicial review — creates numerous points where different institutions can reshape or block a given policy, generally producing a slower, more incremental process. Choice C is wrong because the American system is not generally fast and decisive; choice D is wrong because multiple branches are involved, not just one; choice B is wrong because no such constitutional delay requirement exists."
+      "explanation": "Correct: (A) Because the multi-branch, multi-stage process gives many actors chances to shape or block it. A policy must pass committees and two chambers of Congress, avoid a presidential veto, be implemented by agencies, and survive court challenges, and federalism adds state actors. Each of these veto points allows delay or change, which favors incremental policy.\n\n(B) is wrong because the Constitution has no required ten-year delay.\n(C) is wrong because the system was designed to slow hasty change.\n(D) is wrong because all three branches take part in policy-making."
     },
     {
       "id": "2-61",
@@ -1758,7 +1758,7 @@ const QUESTIONS = {
         "The Supreme Court writing a new law directly."
       ],
       "correct": 1,
-      "explanation": "This sequence — legislative passage, executive approval and bureaucratic implementation (both part of the executive branch), and judicial review of a resulting legal challenge — illustrates the full, multi-branch policy-making process. Choice D is wrong because courts interpret and apply law, they don't write it directly; choice C is wrong because it involves only Congress, leaving out the executive and judiciary; choice A is wrong for the same reason in reverse, involving only the president."
+      "explanation": "Correct: (B) Congress passing a law, an agency writing regulations, and a court reviewing a legal challenge. This shows the legislative branch making the statute, the executive branch (an agency) implementing it with rules, and the judicial branch checking it in a lawsuit, so all three branches interact in a single lifecycle.\n\n(A) is wrong because it involves only the president.\n(C) is wrong because it involves only Congress.\n(D) is wrong because courts interpret laws and do not write them directly."
     },
     {
       "id": "2-63",
@@ -1771,7 +1771,7 @@ const QUESTIONS = {
         "Committees only become relevant after a bill has already been signed into law."
       ],
       "correct": 1,
-      "explanation": "Congressional committees do much of the substantive work of shaping legislation — holding hearings, gathering expert testimony, and revising bill language — often significantly influencing (or entirely blocking) a bill's content and prospects long before it would ever reach a floor vote. Choice A directly contradicts committees' substantial real influence; choice C is wrong because judicial review belongs to the courts, not congressional committees; choice D is wrong because committees matter earliest, before a bill is signed, not after."
+      "explanation": "Correct: (B) Committees review, hold hearings, and can shape or block a bill's language early. Most bills are referred to a committee or subcommittee, which holds hearings, takes expert testimony, marks up (amends) the text, and decides whether to report it to the floor. Many bills die in committee, so these panels act as gatekeepers at the earliest stage.\n\n(A) is wrong because committees have substantial influence.\n(C) is wrong because judicial review belongs to courts.\n(D) is wrong because committees act before a bill is signed, not after."
     },
     {
       "id": "2-64",
@@ -1784,7 +1784,7 @@ const QUESTIONS = {
         "Congress would be required to amend the Constitution."
       ],
       "correct": 1,
-      "explanation": "If Congress supports a regulation's goal but a court finds the agency lacked sufficient statutory authority to issue it, Congress retains the ability to pass new legislation explicitly granting that authority. Choice A is wrong because Congress does have a clear path to respond; choice D is wrong because ordinary legislation, not a constitutional amendment, suffices; choice C is wrong because Congress cannot directly overturn a judicial ruling by simple vote — it can only change the underlying law."
+      "explanation": "Correct: (B) Congress could pass new legislation explicitly granting that authority. When a court rules that an agency exceeded its statutory authority, the problem is the law's text, so Congress can amend the statute to give the agency clear power, which the president must sign or Congress must pass over a veto. The court's decision then no longer applies to the new law, though it can be challenged again.\n\n(A) is wrong because Congress can respond through legislation.\n(C) is wrong because Congress cannot reverse a ruling by a simple vote; it can only change the underlying law.\n(D) is wrong because a constitutional amendment is unnecessary for a statutory issue."
     },
     {
       "id": "2-65",
@@ -1813,7 +1813,7 @@ const QUESTIONS = {
         "Yes, but only in criminal cases."
       ],
       "correct": 2,
-      "explanation": "The Bill of Rights, as originally ratified, restricted only the federal government — it said nothing about what state governments could or could not do, which is exactly why the process of selective incorporation later became necessary to extend these protections to the states."
+      "explanation": "Correct: (C) No, originally only the federal government. The Bill of Rights was added in 1791 to calm Anti-Federalist fears of a powerful new national government, so its wording (\"Congress shall make no law...\") targeted federal power. In Barron v. Baltimore (1833) the Court confirmed these limits did not bind states. Only after the 14th Amendment (1868) and the later doctrine of selective incorporation, case by case through the Due Process Clause, did most protections reach state and local governments. The clue word is \"originally ratified,\" which points to the pre-incorporation rule.\n\n(A) is wrong because the Bill of Rights has always limited the federal government.\n(B) is wrong because it confuses the original rule with the modern one that incorporation created.\n(D) is wrong because no criminal-case-only limit existed; the original scope was about which government, not which kind of case."
     },
     {
       "id": "3-2",
@@ -1878,7 +1878,7 @@ const QUESTIONS = {
         "McDonald v. Chicago"
       ],
       "correct": 2,
-      "explanation": "Gideon v. Wainwright directly addressed this exact scenario, establishing that states must provide a public defender to criminal defendants who cannot afford their own attorney."
+      "explanation": "Correct: (C) Gideon v. Wainwright. Clarence Gideon was charged with a felony in Florida, could not afford a lawyer, and was refused one. In 1963 the Court unanimously held that the 6th Amendment right to counsel is fundamental to a fair trial and, through the 14th Amendment, requires states to provide an attorney to indigent felony defendants. The clue words are \"state,\" \"criminal defendant,\" \"cannot afford an attorney,\" and \"counsel.\"\n\n(A) is wrong because Brown v. Board of Education (1954) concerned racial segregation in public schools under Equal Protection.\n(B) is wrong because Engel v. Vitale (1962) was about school-sponsored prayer and the Establishment Clause.\n(D) is wrong because McDonald v. Chicago (2010) incorporated the 2nd Amendment right to bear arms."
     },
     {
       "id": "3-7",
@@ -1891,7 +1891,7 @@ const QUESTIONS = {
         "Tinker v. Des Moines"
       ],
       "correct": 0,
-      "explanation": "McDonald v. Chicago is directly on point — it incorporated the 2nd Amendment to apply to state and local governments and struck down a similar handgun ban, establishing that local governments cannot violate this right any more than the federal government could."
+      "explanation": "Correct: (A) McDonald v. Chicago. Chicago had a near-total ban on handgun possession. In 2010 the Court held that the 14th Amendment's Due Process Clause incorporates the 2nd Amendment, so state and local governments are bound by it just as the federal government is (building on D.C. v. Heller, 2008). The clue words are \"local ordinance\" and \"banning handgun possession,\" which signal 2nd Amendment rights against a local government.\n\n(B) is wrong because Schenck v. United States (1919) set the clear and present danger test for speech.\n(C) is wrong because Gideon v. Wainwright concerned the right to counsel.\n(D) is wrong because Tinker v. Des Moines concerned student symbolic speech."
     },
     {
       "id": "3-8",
@@ -1956,7 +1956,7 @@ const QUESTIONS = {
         "The Equal Protection Clause"
       ],
       "correct": 2,
-      "explanation": "The Establishment Clause prohibits government from establishing, promoting, or favoring a religion — the clause at issue in Engel v. Vitale."
+      "explanation": "Correct: (C) The Establishment Clause. The First Amendment's religion language has two parts, and the first, \"Congress shall make no law respecting an establishment of religion,\" bars government from creating an official church or officially favoring or sponsoring religion. This is the clause applied in Engel v. Vitale (1962), where a state-written school prayer was struck down. The clue phrase is \"favoring or promoting a particular religion.\"\n\n(A) is wrong because Due Process is in the 5th and 14th Amendments and protects fair procedures and liberty, not the religion balance.\n(B) is wrong because the Free Exercise Clause protects people's right to practice their faith rather than limiting government favoritism.\n(D) is wrong because Equal Protection (14th Amendment) bars discrimination in how laws treat people."
     },
     {
       "id": "3-13",
@@ -1969,7 +1969,7 @@ const QUESTIONS = {
         "The Necessary and Proper Clause"
       ],
       "correct": 2,
-      "explanation": "The Free Exercise Clause protects individuals' ability to practice their religion — the clause at issue in Wisconsin v. Yoder."
+      "explanation": "Correct: (C) The Free Exercise Clause. The second religion clause of the First Amendment forbids government from \"prohibiting the free exercise\" of religion, protecting a person's right to hold and act on religious beliefs. In Wisconsin v. Yoder (1972), the Court found that compulsory schooling past 8th grade unduly burdened Amish families' religious practice. The clue words are \"protects an individual's ability to practice\" and \"without government interference.\"\n\n(A) is wrong because the Establishment Clause limits government sponsorship or favoritism rather than protecting individual practice.\n(B) is wrong because the Commerce Clause (Article I) gives Congress power to regulate trade and has nothing to do with religion.\n(D) is wrong because the Necessary and Proper Clause gives Congress implied powers and is not part of the First Amendment."
     },
     {
       "id": "3-14",
@@ -2008,7 +2008,7 @@ const QUESTIONS = {
         "The federal government's interest in national security."
       ],
       "correct": 1,
-      "explanation": "The Court in Wisconsin v. Yoder weighed the state's interest in requiring universal compulsory education against the substantial burden the requirement placed on the Amish families' religious practice, ultimately finding the state's interest insufficient to override the free exercise claim in this specific case."
+      "explanation": "Correct: (B) The state's interest in universal education. Wisconsin v. Yoder (1972) was a Free Exercise case in which Amish parents refused to send their children to school past 8th grade. When government burdens religious practice, the Court weighs the believers' burden against the government's interest. Wisconsin argued for compulsory education, but the Court found the Amish way of life (a long-established, self-sufficient community that educated teens through vocational training) was seriously threatened, so the state's interest did not outweigh the family's free exercise rights. The clue is that the question asks what interest the state asserted.\n\n(A) is wrong because the community's size was not the interest being balanced.\n(C) is wrong because cost of public education was not the state's argument.\n(D) is wrong because national security played no role in this state education dispute."
     },
     {
       "id": "3-17",
@@ -2021,7 +2021,7 @@ const QUESTIONS = {
         "Engel v. Vitale"
       ],
       "correct": 2,
-      "explanation": "Wisconsin v. Yoder is the required case addressing a Free Exercise Clause claim — government (the compulsory education requirement) burdening an individual's religious practice."
+      "explanation": "Correct: (C) Wisconsin v. Yoder. A Free Exercise claim argues that government is burdening a person's religious practice. In Yoder (1972), Amish parents said Wisconsin's compulsory schooling law past 8th grade violated their religious way of life, and the Court agreed. The clue words are \"Free Exercise Clause specifically,\" which separates it from the Establishment Clause case in the list.\n\n(A) is wrong because Schenck v. United States is a free speech case about wartime anti-draft leaflets.\n(B) is wrong because New York Times Co. v. United States (1971) is a press freedom and prior restraint case about the Pentagon Papers.\n(D) is wrong because Engel v. Vitale is the Establishment Clause case, about government-composed school prayer."
     },
     {
       "id": "3-18",
@@ -2034,7 +2034,7 @@ const QUESTIONS = {
         "Wisconsin v. Yoder"
       ],
       "correct": 0,
-      "explanation": "Engel v. Vitale is the required case addressing an Establishment Clause claim — government sponsoring or promoting a religious practice (school prayer)."
+      "explanation": "Correct: (A) Engel v. Vitale. In 1962 the Court held that New York's practice of having public school students recite a state-written, nondenominational prayer violated the Establishment Clause, because government may not sponsor or compose official prayer even if students are not forced to join. The clue words are \"Establishment Clause specifically,\" which points to government promoting religion.\n\n(B) is wrong because Gideon v. Wainwright is a 6th Amendment right-to-counsel case.\n(C) is wrong because Tinker v. Des Moines is a student free speech case about armbands.\n(D) is wrong because Wisconsin v. Yoder is the required Free Exercise case, which concerns burdening religious practice rather than government endorsement of it."
     },
     {
       "id": "3-19",
@@ -2047,7 +2047,7 @@ const QUESTIONS = {
         "The 'prior restraint' test"
       ],
       "correct": 0,
-      "explanation": "Schenck v. United States established the 'clear and present danger' test — speech creating a clear and present danger of bringing about substantive evils that Congress has a right to prevent may be constitutionally restricted."
+      "explanation": "Correct: (A) The clear and present danger test. In Schenck (1919), Justice Holmes upheld the conviction of Charles Schenck for mailing anti-draft leaflets under the Espionage Act, writing that speech can be punished when the words create a \"clear and present danger\" of bringing about substantive evils Congress can prevent. His famous analogy was falsely shouting fire in a crowded theater.\n\n(B) is wrong because the substantial disruption test comes from Tinker v. Des Moines (1969) and covers student speech in schools.\n(C) is wrong because strict scrutiny is a general standard requiring a compelling government interest and narrow tailoring, and it is not the Schenck test.\n(D) is wrong because prior restraint refers to blocking speech before publication, a concept tied to New York Times Co. v. United States."
     },
     {
       "id": "3-20",
@@ -2151,7 +2151,7 @@ const QUESTIONS = {
         "Written speech only"
       ],
       "correct": 0,
-      "explanation": "Tinker v. Des Moines involved symbolic speech specifically — the wearing of black armbands as a silent, non-verbal form of political protest, which the Court found to be a protected form of expression under the First Amendment."
+      "explanation": "Correct: (A) Symbolic speech (wearing armbands). In Tinker v. Des Moines (1969), students wore black armbands to protest the Vietnam War. Symbolic speech is expression through conduct rather than spoken or written words, and the Court held it protected by the First Amendment because it did not substantially disrupt school operations. Justice Fortas wrote that students do not \"shed their constitutional rights to freedom of speech or expression at the schoolhouse gate.\" The clue is the armbands, a silent act that communicated a message.\n\n(B) is wrong because no spoken words were the basis of the case.\n(C) is wrong because the Court treated the armbands as speech and protected them.\n(D) is wrong because no written text was at issue; the message was carried by the armbands."
     },
     {
       "id": "3-28",
@@ -2164,7 +2164,7 @@ const QUESTIONS = {
         "Schenck v. United States"
       ],
       "correct": 3,
-      "explanation": "Schenck v. United States is the required case establishing the 'clear and present danger' standard, in a case involving a conviction for distributing anti-draft leaflets during World War I."
+      "explanation": "Correct: (D) Schenck v. United States. During World War I, Charles Schenck distributed leaflets urging men to resist the draft, and was convicted under the Espionage Act of 1917. In 1919 Justice Holmes held that speech is not protected when it creates a \"clear and present danger\" of bringing about harms Congress may prevent, and wartime obstruction of the draft qualified. The clue words are \"clear and present danger\" and \"military draft.\"\n\n(A) is wrong because Engel v. Vitale is an Establishment Clause school prayer case.\n(B) is wrong because Tinker v. Des Moines involved student armbands protesting Vietnam and used the substantial disruption test instead.\n(C) is wrong because Gideon v. Wainwright involved the right to counsel."
     },
     {
       "id": "3-29",
@@ -2177,7 +2177,7 @@ const QUESTIONS = {
         "A type of criminal sentence."
       ],
       "correct": 2,
-      "explanation": "Prior restraint refers specifically to government action that blocks or censors speech or publication BEFORE it occurs, rather than addressing it after the fact — treated as one of the most serious and disfavored forms of First Amendment restriction."
+      "explanation": "Correct: (C) Government action that blocks speech or publication before it occurs. Prior restraint is censorship in advance, such as a court order or law stopping a newspaper from printing a story. Courts treat it as presumptively unconstitutional because it prevents ideas from ever reaching the public, whereas punishing speech afterward (for libel, for example) at least allows it to be heard first. The key word is \"prior,\" meaning before.\n\n(A) is wrong because it describes the legislative process, not a speech concept.\n(B) is wrong because punishing speech after it has occurred is subsequent punishment, the opposite of prior restraint.\n(D) is wrong because a criminal sentence is a penalty after conviction and has no connection to censoring in advance."
     },
     {
       "id": "3-30",
@@ -2242,7 +2242,7 @@ const QUESTIONS = {
         "Selective incorporation"
       ],
       "correct": 0,
-      "explanation": "This is a direct example of prior restraint — government seeking to block publication before it occurs, the exact type of action at issue in New York Times Co. v. United States."
+      "explanation": "Correct: (A) Prior restraint. Prior restraint is government action that stops speech or publication before it happens. Here an agency asks a court to block a newspaper from printing a story before it appears, which is the exact situation in New York Times Co. v. United States (1971), when the government tried to stop publication of the Pentagon Papers. The clue words are \"prevent... from publishing... before the story is ever printed.\"\n\n(B) is wrong because rule-making is how executive agencies write regulations with the force of law.\n(C) is wrong because judicial review is the courts' power to strike down unconstitutional laws or acts, as in Marbury v. Madison.\n(D) is wrong because selective incorporation is the process of applying Bill of Rights protections to states through the 14th Amendment."
     },
     {
       "id": "3-35",
@@ -2255,7 +2255,7 @@ const QUESTIONS = {
         "A strong presumption against prior restraint, placing a heavy burden on the government to justify it."
       ],
       "correct": 3,
-      "explanation": "The case established a strong presumption AGAINST prior restraint — government seeking to block publication in advance faces an extremely heavy burden of justification, one the government failed to meet even in this landmark case itself."
+      "explanation": "Correct: (D) A strong presumption against prior restraint, placing a heavy burden on the government to justify it. In New York Times Co. v. United States (1971), the Nixon administration sought to stop the Times and Washington Post from publishing the classified Pentagon Papers. The Court, in a short per curiam opinion, said any system of prior restraint carries a \"heavy presumption against its constitutional validity,\" and the government had not met its burden of showing that publication would cause direct, immediate harm to national security. The clue words are \"presumption\" and \"prior restraint.\"\n\n(A) is wrong because it reverses the holding.\n(B) is wrong because the case involved newspapers, which are print media, and the principle applies to the press generally.\n(C) is wrong because the Court did set a presumption; it did not decide randomly."
     },
     {
       "id": "3-36",
@@ -2268,7 +2268,7 @@ const QUESTIONS = {
         "Schenck v. United States (1919), on wartime speech"
       ],
       "correct": 1,
-      "explanation": "New York Times Co. v. United States is commonly known as the 'Pentagon Papers' case, referring to the classified Vietnam War-related documents the government sought unsuccessfully to block from publication."
+      "explanation": "Correct: (B) New York Times Co. v. United States. The \"Pentagon Papers\" were a classified Defense Department history of U.S. involvement in Vietnam, leaked by Daniel Ellsberg in 1971 to the New York Times and Washington Post. When the Nixon administration sought a court order to stop publication, the Supreme Court refused, citing the heavy presumption against prior restraint. The clue phrase is the name \"Pentagon Papers,\" which identifies this case directly.\n\n(A) is wrong because Engel v. Vitale concerned state-written school prayer.\n(C) is wrong because Tinker v. Des Moines concerned students wearing armbands to protest the Vietnam War, which is a related era but not the leaked documents.\n(D) is wrong because Schenck v. United States dealt with anti-draft leaflets in World War I."
     },
     {
       "id": "3-37",
@@ -2359,7 +2359,7 @@ const QUESTIONS = {
         "Roe v. Wade"
       ],
       "correct": 0,
-      "explanation": "Gideon v. Wainwright involves the 6th Amendment right to counsel, a due process protection ensuring criminal defendants have access to legal representation, which the Court incorporated to apply to state governments."
+      "explanation": "Correct: (A) Gideon v. Wainwright. The 6th Amendment guarantees the accused \"the assistance of counsel,\" and in Gideon (1963) the Court held that this right is fundamental to a fair trial and is incorporated through the 14th Amendment's Due Process Clause, so states must appoint lawyers for defendants who cannot afford one. The clue words are \"6th Amendment\" and \"right to counsel.\"\n\n(B) is wrong because Brown v. Board of Education is an Equal Protection case on school segregation.\n(C) is wrong because Shaw v. Reno (1993) addressed racially gerrymandered voting districts under Equal Protection.\n(D) is wrong because Roe v. Wade (1973) dealt with a privacy right related to abortion, not criminal procedure."
     },
     {
       "id": "3-44",
@@ -2385,7 +2385,7 @@ const QUESTIONS = {
         "Brown v. Board of Education (1954), on school segregation"
       ],
       "correct": 1,
-      "explanation": "Dobbs v. Jackson Women's Health Organization (2022) directly overturned Roe v. Wade, holding the Constitution does not confer a right to abortion. Citizens United concerns campaign finance, Brown concerns school segregation, and McDonald concerns 2nd Amendment incorporation — none touches Roe."
+      "explanation": "Correct: (B) Dobbs v. Jackson Women's Health Organization (2022). In Dobbs, the Court upheld a Mississippi law banning most abortions after 15 weeks and ruled that the Constitution does not confer a right to abortion, overruling Roe v. Wade (1973) and Planned Parenthood v. Casey (1992). It returned the question to elected state legislatures. The clue word is \"overturned,\" which asks for the later case that reversed Roe.\n\n(A) is wrong because Citizens United v. FEC concerned independent political spending by corporations and unions as protected speech.\n(C) is wrong because McDonald v. Chicago incorporated the 2nd Amendment against states.\n(D) is wrong because Brown v. Board of Education (1954) overturned Plessy's separate but equal rule in schools and predates Roe by almost two decades."
     },
     {
       "id": "3-46",
@@ -2398,7 +2398,7 @@ const QUESTIONS = {
         "The Equal Protection Clause"
       ],
       "correct": 1,
-      "explanation": "The 14th Amendment's Due Process Clause is the specific textual provision courts have used to develop substantive due process doctrine, protecting certain fundamental rights not explicitly listed in the Constitution's text."
+      "explanation": "Correct: (B) The Due Process Clause. The 14th Amendment says no state shall \"deprive any person of life, liberty, or property, without due process of law.\" Procedural due process requires fair procedures, while substantive due process holds that \"liberty\" itself includes certain fundamental rights, such as privacy, that government cannot take away regardless of procedure. Courts used this reading in cases like Griswold and Roe, and also as the vehicle for selective incorporation. The clue word is \"due process\" built into the doctrine's name.\n\n(A) is wrong because the Citizenship Clause defines who is a citizen.\n(C) is wrong because the Privileges or Immunities Clause was read very narrowly in the Slaughter-House Cases and is not the source of the doctrine.\n(D) is wrong because the Equal Protection Clause governs unequal treatment of groups and is a separate doctrine."
     },
     {
       "id": "3-47",
@@ -2411,7 +2411,7 @@ const QUESTIONS = {
         "That segregation is a matter reserved entirely to individual states with no federal role."
       ],
       "correct": 0,
-      "explanation": "Brown v. Board of Education ruled that segregated public schools are inherently unequal, regardless of whether the physical facilities themselves were comparable, and therefore violate the 14th Amendment's Equal Protection Clause."
+      "explanation": "Correct: (A) That segregated public schools are inherently unequal and violate the Equal Protection Clause. In Brown (1954), a unanimous Court led by Chief Justice Warren held that separating children by race in public schools generates a feeling of inferiority and denies equal educational opportunity, even if buildings and funding are comparable. It therefore violates the 14th Amendment's guarantee that no state may deny equal protection of the laws. The clue words are \"inherently unequal.\"\n\n(B) is wrong because that is the Plessy v. Ferguson (1896) separate but equal rule that Brown rejected for schools.\n(C) is wrong because the 14th Amendment was the basis of the ruling, since state governments were involved.\n(D) is wrong because the 14th Amendment lets the federal courts enforce equal protection against state action."
     },
     {
       "id": "3-48",
@@ -2424,7 +2424,7 @@ const QUESTIONS = {
         "The 'separate but equal' doctrine"
       ],
       "correct": 3,
-      "explanation": "Brown v. Board of Education explicitly overturned the 'separate but equal' doctrine (established in the earlier case Plessy v. Ferguson) as applied to public education, ruling that segregation itself, not just unequal facilities, was the constitutional problem."
+      "explanation": "Correct: (D) The 'separate but equal' doctrine. Plessy v. Ferguson (1896) allowed state-mandated racial segregation so long as the separate facilities were supposedly equal. Brown v. Board of Education (1954) rejected that idea for public education, stating that \"separate educational facilities are inherently unequal.\" The clue words are \"earlier doctrine\" and \"overturn.\"\n\n(A) is wrong because judicial review, established in Marbury v. Madison, is the power Brown relied on rather than a doctrine it overturned.\n(B) is wrong because selective incorporation is the process of applying Bill of Rights guarantees to states, which the Court still uses.\n(C) is wrong because the clear and present danger test comes from Schenck and concerns speech, not schools."
     },
     {
       "id": "3-49",
@@ -2437,7 +2437,7 @@ const QUESTIONS = {
         "The Due Process Clause"
       ],
       "correct": 1,
-      "explanation": "The Equal Protection Clause of the 14th Amendment — which prohibits states from denying any person equal protection of the laws — was the central constitutional basis for the ruling in Brown v. Board of Education."
+      "explanation": "Correct: (B) The Equal Protection Clause. The 14th Amendment forbids states from denying \"any person within its jurisdiction the equal protection of the laws.\" The NAACP, led by Thurgood Marshall, argued that state-mandated school segregation treated Black students as inferior, and the Court agreed that segregated schools could not provide equal protection. The clue words are \"14th Amendment\" and \"Brown,\" a case about unequal treatment by race.\n\n(A) is wrong because the Necessary and Proper Clause is in Article I and gives Congress implied powers.\n(C) is wrong because the Establishment Clause is in the First Amendment and concerns religion.\n(D) is wrong because the Due Process Clause is another part of the 14th Amendment, but the central holding in Brown rested on equal protection (the companion case Bolling v. Sharpe used the 5th Amendment's due process since D.C. is federal)."
     },
     {
       "id": "3-50",
@@ -2476,7 +2476,7 @@ const QUESTIONS = {
         "An act of Congress signed by the president into law."
       ],
       "correct": 0,
-      "explanation": "'Letter from a Birmingham Jail' is a philosophical and moral argument written by King, justifying civil disobedience against unjust laws — it is not a legal ruling, statute, or any form of binding legal authority, and should not be confused with a court case."
+      "explanation": "Correct: (A) A philosophical and moral argument, not a court ruling. Martin Luther King Jr. wrote the letter in April 1963 while jailed for protesting segregation in Birmingham. It responds to white clergymen who called his protests untimely, and argues that people have a moral duty to disobey unjust laws, distinguishing just laws (which uplift human personality) from unjust ones. It has persuasive moral force but creates no legal obligation. The clue is the word \"Letter,\" a piece of writing by a private citizen.\n\n(B) is wrong because amendments are proposed by Congress or conventions and ratified by three-fourths of the states, not written by an individual.\n(C) is wrong because courts issue rulings in cases and King was not a judge.\n(D) is wrong because acts of Congress pass through both chambers and receive presidential signature; the letter did not."
     },
     {
       "id": "3-53",
@@ -2502,7 +2502,7 @@ const QUESTIONS = {
         "Public transportation"
       ],
       "correct": 2,
-      "explanation": "Brown v. Board of Education specifically addressed racial segregation in public education — its holding and reasoning are precise to that context, even though its influence extended more broadly to the Civil Rights Movement."
+      "explanation": "Correct: (C) Public education. Brown v. Board of Education (1954) challenged state laws that required racially separate public schools and held that segregation in this setting denied equal protection. The clue is the word \"Education\" in the case name and the facts about children assigned to schools by race (for example Linda Brown in Topeka, Kansas). Later cases and laws extended the principle to other areas.\n\n(A) is wrong because the military was desegregated by President Truman's Executive Order 9981 in 1948, not by this case.\n(B) is wrong because voting rights were addressed by the 15th Amendment and the Voting Rights Act of 1965.\n(D) is wrong because public transportation was the focus of Plessy v. Ferguson (railway cars) and the Montgomery bus boycott, not Brown."
     },
     {
       "id": "3-55",
@@ -2554,7 +2554,7 @@ const QUESTIONS = {
         "Rational basis review (the most lenient standard)"
       ],
       "correct": 2,
-      "explanation": "Government policies that classify people by race are a classic trigger for strict scrutiny — the most demanding standard of judicial review, given the serious constitutional concerns raised by racial classifications."
+      "explanation": "Correct: (C) Strict scrutiny (the most demanding standard). Courts use tiers of review. Race is a \"suspect classification\" under the Equal Protection Clause, so a law that explicitly classifies by race is presumed unconstitutional unless the government shows a compelling interest and that the policy is narrowly tailored to achieve it. The clue words are \"explicitly classifies... by race.\"\n\n(A) is wrong because courts can and do review such policies, and judicial review applies to all government action.\n(B) is wrong because intermediate scrutiny applies mainly to classifications like sex, and has no criminal-case-only limit.\n(D) is wrong because rational basis, the lenient test, applies to ordinary economic or social regulations that do not involve suspect classes or fundamental rights."
     },
     {
       "id": "3-59",
@@ -2619,7 +2619,7 @@ const QUESTIONS = {
         "Schenck v. United States"
       ],
       "correct": 1,
-      "explanation": "Wisconsin v. Yoder's balancing approach — weighing the burden a government requirement places on sincere religious practice against the strength of the government's interest — is the most directly relevant precedent for a new Free Exercise Clause dispute involving a public health regulation."
+      "explanation": "Correct: (B) Wisconsin v. Yoder. When someone claims a law burdens their religious practice, Yoder (1972) shows the Court's approach: weigh how serious the burden is on a sincere religious belief against how strong the state's interest is and whether it can be met without forcing the believer to act against faith. A religious objection to a public health rule (such as vaccination or mask requirements) raises the same Free Exercise balancing question. The clue words are \"religious objection\" and \"weighing religious burden against government interest.\"\n\n(A) is wrong because Brown concerns equal protection and race in schools.\n(C) is wrong because New York Times Co. v. United States concerns prior restraint of the press.\n(D) is wrong because Schenck is about speech that creates a clear and present danger, not religion."
     },
     {
       "id": "3-64",
@@ -2724,7 +2724,7 @@ const QUESTIONS = {
         "An act of Congress delegating civil-rights authority"
       ],
       "correct": 2,
-      "explanation": "Lincoln grounded the Emancipation Proclamation in his wartime power as commander-in-chief — a unilateral exercise of presidential emergency authority, not an act of Congress or a constitutional clause that did not yet exist (the 14th Amendment was ratified in 1868, after the Proclamation)."
+      "explanation": "Correct: (C) His power as commander-in-chief during wartime. Lincoln issued the Emancipation Proclamation on January 1, 1863, during the Civil War, as a military measure. Article II makes the president commander-in-chief, so he justified freeing enslaved people in Confederate-held territory as a way of weakening the rebellion. Because it rested on war powers, it did not free slaves in loyal border states. The clue words are \"primarily rely\" and \"Emancipation Proclamation,\" which point to wartime authority.\n\n(A) is wrong because the 14th Amendment was ratified in 1868, five years later.\n(B) is wrong for the same reason, since the Equal Protection Clause is part of the 14th Amendment.\n(D) is wrong because Lincoln acted by executive proclamation, not under a statute from Congress."
     },
     {
       "id": "3-72",
@@ -2750,7 +2750,7 @@ const QUESTIONS = {
         "The 13th Amendment"
       ],
       "correct": 3,
-      "explanation": "The 13th Amendment (1865) abolished slavery nationwide, including in border states and areas the Emancipation Proclamation had not reached. The 14th Amendment addresses citizenship and equal protection, the 15th addresses voting rights regardless of race, and the 19th addresses women's suffrage."
+      "explanation": "Correct: (D) The 13th Amendment. Ratified in 1865, it states that neither slavery nor involuntary servitude shall exist in the United States except as punishment for a crime. The Emancipation Proclamation applied only to Confederate-held areas as a wartime measure and left slavery in loyal border states, so a constitutional amendment was needed to end slavery everywhere. The clue words are \"abolished slavery throughout the entire United States.\"\n\n(A) is wrong because the 19th Amendment (1920) gave women the right to vote.\n(B) is wrong because the 15th Amendment (1870) barred denying the vote based on race.\n(C) is wrong because the 14th Amendment (1868) defined citizenship and guaranteed due process and equal protection rather than abolishing slavery."
     }
   ],
   "4": [
@@ -2765,7 +2765,7 @@ const QUESTIONS = {
         "Monarchy"
       ],
       "correct": 0,
-      "explanation": "Individualism — emphasizing personal responsibility and self-reliance — is one of the core American political values, alongside liberty, equality, and self-government."
+      "explanation": "Correct: (A) Individualism. American political culture rests on a set of widely shared beliefs, including liberty, equality, individualism, self-government, and rule of law. Individualism is the idea that people are responsible for their own success and should be free from heavy government direction, which shapes American debates on welfare, taxes, and regulation. The clue is that the question asks for a core value, and only one option is on that list.\n\n(B) is wrong because isolationism is a foreign policy stance of avoiding alliances, not a core political value.\n(C) is wrong because centralization means concentrating power in one authority, which conflicts with the American emphasis on federalism and limited government.\n(D) is wrong because monarchy is a form of government the founders rejected in the Declaration of Independence."
     },
     {
       "id": "4-2",
@@ -2791,7 +2791,7 @@ const QUESTIONS = {
         "Federalism and separation of powers"
       ],
       "correct": 2,
-      "explanation": "This kind of mandate debate typically pits liberty (businesses' freedom to operate without government mandate) against equality (ensuring workers receive equitable treatment/benefits) — a classic values tradeoff in American political culture."
+      "explanation": "Correct: (C) Liberty and equality. Liberty means freedom from government interference, and equality means fair treatment and opportunity for all. A government mandate that businesses provide a benefit to employees limits the owners' freedom to run their firms as they choose (liberty), but aims to give workers fairer treatment and protection (equality). Many policy debates, such as minimum wage and anti-discrimination laws, pit these two values against each other. The clue words are \"government should mandate\" and \"employee benefit.\"\n\n(A) is wrong because selective incorporation and due process are legal doctrines about applying the Bill of Rights to states, not core values in tension.\n(B) is wrong because judicial review and checks and balances are structural features that work together.\n(D) is wrong because federalism and separation of powers are structural principles, not conflicting political-culture values."
     },
     {
       "id": "4-4",
@@ -2817,7 +2817,7 @@ const QUESTIONS = {
         "Self-government"
       ],
       "correct": 3,
-      "explanation": "Self-government is the core value emphasizing that legitimate political authority rests on the consent and active participation of the people being governed — directly connecting back to the social contract theory covered in Unit 1."
+      "explanation": "Correct: (D) Self-government. This value holds that legitimate political authority comes from the consent of the people, who take part by voting, serving on juries, and joining in public life. It echoes the social contract ideas of Locke and the Declaration of Independence, which says governments derive \"their just powers from the consent of the governed.\" The clue words are \"consent and participation of the governed.\"\n\n(A) is wrong because isolationism is a foreign policy stance of avoiding involvement abroad.\n(B) is wrong because individualism stresses self-reliance and personal responsibility, not collective consent.\n(C) is wrong because federalism describes the division of power between national and state governments, and it is a structural principle rather than a statement about popular consent."
     },
     {
       "id": "4-6",
@@ -2830,7 +2830,7 @@ const QUESTIONS = {
         "Liberty"
       ],
       "correct": 3,
-      "explanation": "This defense invokes liberty specifically — the idea that individuals (and businesses) should retain maximum freedom over their own economic resources, with minimal government interference through taxation."
+      "explanation": "Correct: (D) Liberty. Liberty means freedom from government interference, including in economic matters. A tax policy defended as preserving \"individual economic freedom\" argues that people should keep more of what they earn and decide how to use it, which appeals to liberty. The clue words are \"individual economic freedom.\"\n\n(A) is wrong because federalism concerns the division of power between national and state governments, which the argument does not address.\n(B) is wrong because equality of outcome would support redistributing wealth, often through progressive taxes, which is the opposite of the argument.\n(C) is wrong because self-government is about citizens' participation and consent, not about how much income individuals keep."
     },
     {
       "id": "4-7",
@@ -2895,7 +2895,7 @@ const QUESTIONS = {
         "A court issuing a ruling."
       ],
       "correct": 0,
-      "explanation": "Voting is a direct expression of self-government — the value that political authority and legitimacy rest on the consent and active participation of the governed."
+      "explanation": "Correct: (A) A citizen voting in a local election. Self-government means the people rule themselves, with political power resting on their participation and consent. Voting is the most direct way citizens choose who governs and what policies are adopted, and a local election puts that power in the hands of residents. The clue words are \"in action,\" which signals citizen participation.\n\n(B) is wrong because a federal agency issuing a regulation is rule-making by unelected bureaucrats, though under delegated authority.\n(C) is wrong because a business setting its own prices expresses economic liberty in a market, not self-government.\n(D) is wrong because a court ruling is the judicial branch applying the law, and federal judges are appointed, not chosen by direct popular participation."
     },
     {
       "id": "4-12",
@@ -2908,7 +2908,7 @@ const QUESTIONS = {
         "Peers"
       ],
       "correct": 2,
-      "explanation": "Family is generally considered the strongest and earliest agent of political socialization, especially in shaping party identification — children raised in strongly partisan households are considerably more likely to adopt a similar affiliation as adults."
+      "explanation": "Correct: (C) Family. Political socialization is the process by which people acquire their political beliefs and attitudes. Family is generally the earliest and strongest agent because children spend their formative years with parents, absorbing views through conversation, example, and shared identity. Studies show that children often adopt their parents' party identification, and many keep it for life. The clue words are \"strongest and earliest\" and \"party identification.\"\n\n(A) is wrong because media influence is broad but comes later and tends to reinforce existing views.\n(B) is wrong because religion shapes views mainly on social and moral issues rather than being the strongest influence overall.\n(D) is wrong because peers grow in influence in adolescence and adulthood, but come after family."
     },
     {
       "id": "4-13",
@@ -2947,7 +2947,7 @@ const QUESTIONS = {
         "A generational effect"
       ],
       "correct": 3,
-      "explanation": "This describes a generational effect — a major historical event shaping the political outlook of an entire generation who experienced it during a formative period, a recognized pattern within political socialization."
+      "explanation": "Correct: (D) A generational effect. A generational (or cohort) effect occurs when a shared historical experience during formative years shapes the political outlook of everyone in an age group. For example, people who came of age during the Great Depression tended to support the New Deal and the Democratic Party, and those who lived through Vietnam often grew more distrustful of government. The clue words are \"entire age cohort who lived through it.\"\n\n(A) is wrong because party realignment is a lasting shift in the coalitions supporting parties, which is not limited to one age cohort.\n(B) is wrong because selective incorporation applies Bill of Rights guarantees to the states.\n(C) is wrong because judicial review is the courts' power to strike down unconstitutional laws."
     },
     {
       "id": "4-16",
@@ -2960,7 +2960,7 @@ const QUESTIONS = {
         "Peers"
       ],
       "correct": 2,
-      "explanation": "This scenario describes school as the agent of socialization at work — formal civic education is one of the standard, recognized channels through which political knowledge and values are transmitted."
+      "explanation": "Correct: (C) School. Schools are formal agents of political socialization. Civics and government classes teach how the system works, and activities like student government, the Pledge of Allegiance, and lessons on history help instill civic knowledge and values. The clue words are \"civics class\" and \"teaches... the structure and processes of American government.\"\n\n(A) is wrong because family influences political views informally at home, not through a structured curriculum.\n(B) is wrong because media shape opinions through news and entertainment, not classroom instruction.\n(D) is wrong because peers influence each other through social interaction, not through a teacher presenting government content."
     },
     {
       "id": "4-17",
@@ -2973,7 +2973,7 @@ const QUESTIONS = {
         "Peers"
       ],
       "correct": 3,
-      "explanation": "Peer influence tends to grow substantially during adolescence and young adulthood, as individuals spend increasing time with friends, classmates, and colleagues outside the family unit."
+      "explanation": "Correct: (D) Peers. As teenagers and young adults spend more time with friends, classmates, coworkers, and social groups outside the home, those people's opinions increasingly shape their own political views and willingness to engage. Parental influence is still important, but peer influence rises as young people form independent identities. The clue words are \"grow in influence... during adolescence and young adulthood.\"\n\n(A) is wrong because family is strongest earliest in childhood, not growing in this period.\n(B) is wrong because the bureaucracy is a government institution, not an agent of socialization.\n(C) is wrong because the judicial branch is also a government institution, not a group that shapes individuals' views through social contact."
     },
     {
       "id": "4-18",
@@ -2986,7 +2986,7 @@ const QUESTIONS = {
         "The bureaucracy"
       ],
       "correct": 0,
-      "explanation": "This directly illustrates religion as an agent of political socialization, which tends to shape views specifically on social and moral policy issues in particular."
+      "explanation": "Correct: (A) Religion. Religious communities teach moral values and norms, and members often carry these into their views on issues like abortion, marriage, the death penalty, and the role of faith in public life. The clue words are \"religious community\" and \"social and moral policy issues.\" Religion is one of the standard agents of political socialization, alongside family, school, peers, and media.\n\n(B) is wrong because the judicial branch is a government institution that issues rulings rather than shaping personal views through community membership.\n(C) is wrong because media shape opinions through news and information, not through a faith community.\n(D) is wrong because the bureaucracy implements laws and is not a community that transmits values."
     },
     {
       "id": "4-19",
@@ -3012,7 +3012,7 @@ const QUESTIONS = {
         "Stock market"
       ],
       "correct": 3,
-      "explanation": "Media, family, and school are all standard, recognized agents of political socialization, along with religion and peers. The stock market is not among them."
+      "explanation": "Correct: (D) Stock market. Agents of political socialization are the sources that shape a person's political beliefs and values: family, school, peers, media, and religion. The stock market is a financial institution for trading shares and is not recognized as a source of political values. The clue word is \"NOT,\" so the answer is the one item missing from the standard list.\n\n(A) is wrong because media is a standard agent, shaping views through news and commentary.\n(B) is wrong because school is a standard agent, teaching civics and national identity.\n(C) is wrong because family is the earliest and usually strongest agent."
     },
     {
       "id": "4-21",
@@ -3025,7 +3025,7 @@ const QUESTIONS = {
         "The bureaucracy exclusively"
       ],
       "correct": 0,
-      "explanation": "This scenario directly illustrates media as an ongoing agent of political socialization, shaping views and which issues seem most salient through sustained exposure over time."
+      "explanation": "Correct: (A) Media. Media act as an agent of political socialization by deciding which issues are covered, how they are framed, and which viewpoints are heard. Long-term exposure to outlets with a consistent perspective can gradually pull a person's views toward it, an effect reinforced by selective exposure to sources one already agrees with. The clue words are \"primarily through a specific set of media outlets over many years.\"\n\n(B) is wrong because federalism is a division of power between national and state governments, not a source of personal views.\n(C) is wrong because the judicial branch is a government institution that decides cases and does not shape a person's news diet.\n(D) is wrong because the bureaucracy carries out laws and is not an agent that transmits views through sustained news consumption."
     },
     {
       "id": "4-22",
@@ -3129,7 +3129,7 @@ const QUESTIONS = {
         "Using a non-random method to select respondents."
       ],
       "correct": 3,
-      "explanation": "Using a non-random selection method is the most fundamental threat to a poll's methodological quality and generalizability — this issue persists regardless of how the poll is administered (phone, online, or otherwise) or how large the resulting sample turns out to be."
+      "explanation": "Correct: (D) Using a non-random method to select respondents. A poll can generalize to a population only if every member has a known chance of being selected, which random sampling provides. A non-random sample, such as a call-in poll or self-selected website voters, can be biased, and a larger sample does not fix the bias; it only repeats the same skew with more people. The clue phrase is \"regardless of its sample size.\"\n\n(A) is wrong because publishing the margin of error is good practice, since it tells readers the poll's precision.\n(B) is wrong because rounding to whole percentage points has a trivial effect compared with the margin of error.\n(C) is wrong because phone and online polls can each be sound if the respondents are randomly selected and representative."
     },
     {
       "id": "4-30",
@@ -3259,7 +3259,7 @@ const QUESTIONS = {
         "Preference for a specific sports team in the local league."
       ],
       "correct": 1,
-      "explanation": "Preferred level of government regulation and economic intervention is one of the most reliable, defining distinctions between typically liberal and typically conservative positions. Options A, C, and D (region, sports preference, and campaign color choice) are not meaningful ideological indicators at all."
+      "explanation": "Correct: (B) Preferred level of government regulation of the economy. Ideology is a coherent set of beliefs about the proper role of government. In the usual framework, liberals favor more government involvement in the economy through regulation and social programs, while conservatives favor less regulation and more reliance on markets. The clue words are \"MOST reliably distinguish\" liberal from conservative.\n\n(A) is wrong because region alone is a weak predictor, since urban and rural areas vary and every region includes both liberals and conservatives.\n(C) is wrong because campaign colors have nothing to do with positions on government.\n(D) is wrong because favorite sports teams do not reflect ideology."
     },
     {
       "id": "4-40",
@@ -3285,7 +3285,7 @@ const QUESTIONS = {
         "Support for lower taxation and reduced government spending."
       ],
       "correct": 3,
-      "explanation": "A typically conservative position favors lower taxation and reduced government spending, in contrast to the typically liberal preference for higher taxation to fund more expansive government programs."
+      "explanation": "Correct: (D) Support for lower taxation and reduced government spending. Conservatives generally believe in limited government and free markets, arguing that people and businesses allocate money more efficiently than government does, so they favor lower taxes and smaller budgets for social programs. Liberals typically accept higher taxes to fund broader government services. The clue words are \"typically conservative position on taxation and government spending.\"\n\n(A) is wrong because conservatives do have a fairly consistent view on this, and that pattern is part of why this is a defining difference.\n(B) is wrong because conservatives want lower taxes, not zero revenue, and still support funding for defense and core functions.\n(C) is wrong because higher taxes and spending describe the liberal position."
     },
     {
       "id": "4-42",
@@ -3311,7 +3311,7 @@ const QUESTIONS = {
         "Both major parties are identical in their platforms."
       ],
       "correct": 2,
-      "explanation": "The Democratic Party's platform generally aligns more closely with liberal ideological positions, such as greater government intervention in the economy and expanded social programs."
+      "explanation": "Correct: (C) The Democratic Party. The Democratic Party's platform generally reflects liberal positions: a larger government role in the economy, expanded social programs and healthcare, stronger regulation, and support for civil rights protections. The clue is the word \"liberal,\" which in the American framework is associated with the Democratic platform.\n\n(A) is wrong because the Republican Party generally aligns with conservative positions such as lower taxes and less regulation.\n(B) is wrong because the parties' platforms do cluster around the two ideological orientations, even though individual members vary.\n(D) is wrong because the platforms differ substantially on taxes, regulation, healthcare, and social issues."
     },
     {
       "id": "4-44",
@@ -3324,7 +3324,7 @@ const QUESTIONS = {
         "The Republican Party"
       ],
       "correct": 3,
-      "explanation": "The Republican Party's platform generally aligns more closely with conservative ideological positions, such as reduced government regulation and lower taxation."
+      "explanation": "Correct: (D) The Republican Party. The Republican Party's platform generally reflects conservative positions: lower taxes, reduced regulation, limited federal government, strong national defense, and traditional social values. The clue word is \"conservative,\" which in American politics is most closely associated with the Republican platform.\n\n(A) is wrong because the parties' platforms do align with ideological clusters, even though some members depart from them.\n(B) is wrong because the two platforms differ sharply on taxes, regulation, and social programs.\n(C) is wrong because the Democratic Party aligns most closely with liberal positions, not conservative ones."
     },
     {
       "id": "4-45",
@@ -3350,7 +3350,7 @@ const QUESTIONS = {
         "This platform is equally likely to belong to either major party."
       ],
       "correct": 0,
-      "explanation": "This platform — expanded government healthcare funding through progressive taxation — most closely resembles the Democratic Party's general platform, reflecting the broader liberal ideological cluster around active government economic and social intervention."
+      "explanation": "Correct: (A) Democratic Party. Expanding government-funded healthcare and taxing high earners more to pay for it fits the liberal view that government should reduce inequality and provide services, funded progressively. The Democratic platform generally holds these positions, as seen in support for the Affordable Care Act and higher rates on top incomes. The clue words are \"expanding government-funded healthcare\" and \"raising taxes on high earners.\"\n\n(B) is wrong because the Republican platform generally favors lower taxes, market-based healthcare, and less federal spending.\n(C) is wrong because candidates in either party can take varied positions, and this one fits one party's general platform clearly.\n(D) is wrong because the parties differ clearly on taxing high earners and government healthcare, so the platform is not equally likely for both."
     },
     {
       "id": "4-47",
@@ -3376,7 +3376,7 @@ const QUESTIONS = {
         "Republican Party"
       ],
       "correct": 3,
-      "explanation": "This platform — reduced regulation and lower broad-based taxation — most closely resembles the Republican Party's general platform, reflecting the typically conservative ideological cluster."
+      "explanation": "Correct: (D) Republican Party. A platform of reduced business regulation and lower taxes across all income levels matches the conservative, free-market approach that the Republican Party generally promotes: the belief that lighter taxes and fewer rules spur investment, jobs, and growth. The clue words are \"reduced business regulation\" and \"lower taxes across all income levels.\"\n\n(A) is wrong because the two parties' platforms differ on these issues, with Democrats favoring more regulation and higher taxes on high earners.\n(B) is wrong because this is a mainstream position for the Republican Party.\n(C) is wrong because the Democratic platform generally supports stronger regulation and more progressive taxation."
     },
     {
       "id": "4-49",
@@ -3705,7 +3705,7 @@ const QUESTIONS = {
         "26th Amendment"
       ],
       "correct": 0,
-      "explanation": "The 15th Amendment (1870) prohibited denying citizens the right to vote based on race."
+      "explanation": "Correct: (A) 15th Amendment. Ratified in 1870 after the Civil War as one of the Reconstruction Amendments, it states that the right to vote shall not be denied \"on account of race, color, or previous condition of servitude.\" The clue word is \"race.\" Many states later evaded it with poll taxes, literacy tests, and grandfather clauses until the Voting Rights Act of 1965.\n\n(B) is wrong because the 19th Amendment concerns sex.\n(C) is wrong because the 24th Amendment banned poll taxes in federal elections.\n(D) is wrong because the 26th Amendment lowered the voting age to 18."
     },
     {
       "id": "5-2",
@@ -3718,7 +3718,7 @@ const QUESTIONS = {
         "15th Amendment"
       ],
       "correct": 0,
-      "explanation": "The 19th Amendment (1920) prohibited denying citizens the right to vote based on sex, extending suffrage to women nationwide."
+      "explanation": "Correct: (A) 19th Amendment. Ratified in 1920 after decades of activism by suffragists such as Susan B. Anthony and Alice Paul, it says the right to vote cannot be denied \"on account of sex,\" extending suffrage to women nationwide. The clue word is \"sex.\"\n\n(B) is wrong because the 26th Amendment set the voting age at 18.\n(C) is wrong because the 24th Amendment banned poll taxes in federal elections.\n(D) is wrong because the 15th Amendment barred denial of the vote on the basis of race, color, or previous servitude and did not mention sex."
     },
     {
       "id": "5-3",
@@ -3731,7 +3731,7 @@ const QUESTIONS = {
         "19th Amendment"
       ],
       "correct": 2,
-      "explanation": "The 24th Amendment (1964) banned poll taxes in federal elections, removing a financial barrier that had been used to suppress voter turnout, particularly among Black voters in some states."
+      "explanation": "Correct: (C) 24th Amendment. Ratified in 1964, it prohibits requiring payment of a poll tax or other tax as a condition of voting in federal elections. Southern states had used poll taxes to keep poor citizens, especially Black voters, from voting. The Court extended the ban to state elections in Harper v. Virginia Board of Elections (1966). The clue words are \"poll taxes.\"\n\n(A) is wrong because the 26th Amendment lowered the voting age to 18.\n(B) is wrong because the 15th Amendment prohibited race-based denial of the vote but did not mention taxes.\n(D) is wrong because the 19th Amendment guaranteed women's suffrage."
     },
     {
       "id": "5-4",
@@ -3744,7 +3744,7 @@ const QUESTIONS = {
         "26th Amendment"
       ],
       "correct": 3,
-      "explanation": "The 26th Amendment (1971) lowered the voting age from 21 to 18."
+      "explanation": "Correct: (D) 26th Amendment. Ratified in 1971, it set the national voting age at 18 for federal and state elections, down from 21. Its passage was driven by the Vietnam War era argument that those old enough to be drafted and fight should be old enough to vote. The clue words are \"voting age to 18.\"\n\n(A) is wrong because the 19th Amendment gave women the vote.\n(B) is wrong because the 15th Amendment barred denying the vote because of race.\n(C) is wrong because the 24th Amendment eliminated poll taxes in federal elections."
     },
     {
       "id": "5-5",
@@ -3757,7 +3757,7 @@ const QUESTIONS = {
         "Retrospective voting"
       ],
       "correct": 2,
-      "explanation": "This is prospective voting — the voter is basing their choice on the candidate's promises about FUTURE policy, as opposed to retrospective voting, which evaluates PAST performance."
+      "explanation": "Correct: (C) Prospective voting. Prospective voting means choosing a candidate based on expectations about what they will do in the future, such as their proposals and promises on policy. Here the voter compares the candidate's \"stated future policy proposals\" to their own preferences, which is a forward-looking judgment.\n\n(A) is wrong because rational choice is a broader theory that voters weigh costs and benefits, and the question asks for the specific model, which is prospective voting.\n(B) is wrong because party-line voting means supporting a party's candidates regardless of their proposals, and no party loyalty is mentioned.\n(D) is wrong because retrospective voting judges past performance, whereas this voter is looking at future proposals."
     },
     {
       "id": "5-6",
@@ -3770,7 +3770,7 @@ const QUESTIONS = {
         "Retrospective voting"
       ],
       "correct": 3,
-      "explanation": "This is retrospective voting — the voter is evaluating the incumbent's PAST performance in office, rather than comparing future policy promises."
+      "explanation": "Correct: (D) Retrospective voting. Retrospective voting means evaluating a candidate or party on past performance, especially of the incumbent, and rewarding or punishing them accordingly. This voter re-elects the incumbent because the economy did well during the term, a judgment about what has already happened. The clue words are \"performed well during that incumbent's term.\"\n\n(A) is wrong because party-line voting means supporting one party regardless of performance, and nothing about party identification appears in the stem.\n(B) is wrong because prospective voting looks ahead to promises, not back at results.\n(C) is wrong because the stem fits retrospective voting exactly."
     },
     {
       "id": "5-7",
@@ -3822,7 +3822,7 @@ const QUESTIONS = {
         "Turnout is identical across all age groups."
       ],
       "correct": 1,
-      "explanation": "Older citizens generally turn out to vote at higher rates than younger citizens, a well-documented and consistent pattern in American elections."
+      "explanation": "Correct: (B) Older citizens generally turn out at higher rates than younger citizens. Turnout rises with age because older voters are more settled in their communities, are more likely to own homes and have a stake in local policies, are more familiar with registration, and have developed the habit of voting. Younger citizens move more often, have to re-register, and feel less connected to the political system. Voters aged 65 and over typically have the highest turnout, and voters aged 18 to 29 the lowest.\n\n(A) is wrong because it reverses the pattern.\n(C) is wrong because age is among the best-documented predictors of turnout.\n(D) is wrong because turnout differs substantially by age group."
     },
     {
       "id": "5-11",
@@ -3874,7 +3874,7 @@ const QUESTIONS = {
         "A state's voter registration deadline"
       ],
       "correct": 3,
-      "explanation": "A state's registration deadline is a structural/administrative factor — a feature of the electoral system itself, distinct from individual-level factors like a voter's personal income, age, or interest in politics."
+      "explanation": "Correct: (D) A state's voter registration deadline. Structural factors are rules and features of the electoral system that apply to everyone in a jurisdiction, such as registration deadlines, voter ID laws, early voting availability, and whether Election Day is a holiday. A state's registration deadline is set by law and can make voting easier or harder for all residents. The clue words are \"STRUCTURAL factor... as opposed to an individual-level factor.\"\n\n(A) is wrong because personal income describes an individual's characteristics.\n(B) is wrong because age is also an individual characteristic.\n(C) is wrong because a voter's interest in politics is an individual attitude, not a feature of the system."
     },
     {
       "id": "5-15",
@@ -3913,7 +3913,7 @@ const QUESTIONS = {
         "Conducting foreign policy negotiations"
       ],
       "correct": 1,
-      "explanation": "Recruiting candidates and mobilizing voters are core functions parties perform, connecting ordinary citizens' preferences to the process of selecting and electing government officials — a defining linkage institution role."
+      "explanation": "Correct: (B) Recruiting candidates and mobilizing voters. Linkage institutions, such as parties, elections, interest groups, and the media, connect citizens to government. Parties link people to government by recruiting and nominating candidates, running campaigns, and getting supporters registered and to the polls, which turns public preferences into the selection of officeholders. The clue words are \"linkage institutions\" and \"core function.\"\n\n(A) is wrong because regulating interstate commerce is a power of Congress under Article I.\n(C) is wrong because issuing judicial rulings is the role of courts.\n(D) is wrong because conducting foreign negotiations is a role of the president and the executive branch."
     },
     {
       "id": "5-18",
@@ -3926,7 +3926,7 @@ const QUESTIONS = {
         "The party in the electorate"
       ],
       "correct": 3,
-      "explanation": "The party in the electorate refers to ordinary voters who identify with a given party — distinct from the party's formal organizational structure or its elected officials currently serving in government."
+      "explanation": "Correct: (D) The party in the electorate. Political scientists describe three \"faces\" of a party: the party in the electorate (voters who identify with or support the party), the party organization (the committees and staff that run it, such as the DNC and RNC), and the party in government (officeholders who run for and serve in government). Ordinary voters who identify with a party are the party in the electorate.\n\n(A) is wrong because \"party bureaucracy\" is not one of the three faces.\n(B) is wrong because the party organization consists of party officials, committees, and workers.\n(C) is wrong because the party in government consists of elected officials such as members of Congress and the president, not ordinary voters."
     },
     {
       "id": "5-19",
@@ -3939,7 +3939,7 @@ const QUESTIONS = {
         "The party organization"
       ],
       "correct": 1,
-      "explanation": "The party in government refers specifically to elected officials serving under the party's label — such as a party's members of Congress or a party's officeholders more broadly."
+      "explanation": "Correct: (B) The party in government. Parties have three faces: the party in the electorate (identifying voters), the party organization (committees and staff), and the party in government (officeholders who were elected under the party label). Members of Congress, governors, and the president serve in government and carry the party's label while making policy. The clue words are \"elected officials serving under that party's label.\"\n\n(A) is wrong because a platform committee writes the party's platform and is a part of the party organization, not elected officials.\n(C) is wrong because the party in the electorate consists of ordinary voters who identify with the party.\n(D) is wrong because the party organization consists of the committees and staff who run the party, such as national and state committees."
     },
     {
       "id": "5-20",
@@ -3978,7 +3978,7 @@ const QUESTIONS = {
         "The party in the electorate"
       ],
       "correct": 0,
-      "explanation": "A national party committee is part of the party organization — the formal institutional structure of the party, distinct from ordinary voters (the electorate) or currently elected officials (the party in government)."
+      "explanation": "Correct: (A) The party organization. The party organization is the formal structure of a party, including national, state, and local committees like the DNC and RNC, and its paid staff and volunteers. These committees raise money, recruit and support candidates, run conventions, and plan strategy. The clue words are \"national party committee,\" \"raises funds,\" and \"strategic support to candidates.\"\n\n(B) is wrong because national committees clearly fit within the three faces of a party.\n(C) is wrong because the party in government is made up of elected officials, not the committee that supports campaigns.\n(D) is wrong because the party in the electorate is made up of ordinary voters who identify with the party."
     },
     {
       "id": "5-23",
@@ -4095,7 +4095,7 @@ const QUESTIONS = {
         "None of these are ever the direct result of a single election."
       ],
       "correct": 1,
-      "explanation": "Divided government is the direct result of a single election's specific outcome (different parties winning different branches in that particular election cycle), distinct from the longer-term, multi-election trends that realignment and dealignment describe."
+      "explanation": "Correct: (B) Divided government resulting from that specific election's results. Divided government occurs when one party controls the presidency and a different party controls at least one chamber of Congress. It is determined entirely by who wins the offices in a given election, so a single election can create it. Realignment and dealignment, by contrast, are long-term changes in party coalitions or voter attachment that show up over many elections. The clue words are \"DIRECT result of a single election.\"\n\n(A) is wrong because a decline in strong party identification over multiple decades is dealignment, a long-term trend.\n(C) is wrong because a durable shift in a group's party support is realignment, which lasts across elections.\n(D) is wrong because elections can directly produce outcomes like divided government."
     },
     {
       "id": "5-32",
@@ -4121,7 +4121,7 @@ const QUESTIONS = {
         "Mandatory voting laws"
       ],
       "correct": 2,
-      "explanation": "Winner-take-all (plurality) elections most directly disadvantage third parties — since the winner takes the entire seat with no representation for second- or third-place finishers, voters have a strong incentive to support one of the two candidates most likely to actually win."
+      "explanation": "Correct: (C) Winner-take-all (plurality) elections. In most U.S. elections, the candidate with the most votes wins the seat and everyone else gets nothing. Third parties can earn a substantial share of votes yet win no seats, and voters fear \"wasting\" their votes, so they pick one of the two viable candidates. This tendency is known as Duverger's Law. The clue words are \"most directly disadvantages third parties.\"\n\n(A) is wrong because the Electoral College reinforces winner-take-all in presidential races but is only part of the system, and the question asks for the feature, which is the plurality rule.\n(B) is wrong because proportional representation helps small parties by awarding seats by vote share.\n(D) is wrong because mandatory voting is about turnout and does not hinder third parties."
     },
     {
       "id": "5-34",
@@ -4160,7 +4160,7 @@ const QUESTIONS = {
         "Strict ballot access requirements and exclusion from major debates."
       ],
       "correct": 3,
-      "explanation": "Beyond the disadvantage created by winner-take-all elections, third parties commonly face additional structural barriers, including strict ballot access requirements in many states and frequent exclusion from major televised debates, both of which further limit their visibility and competitiveness."
+      "explanation": "Correct: (D) Strict ballot access requirements and exclusion from major debates. Beyond winner-take-all elections, third parties face rules that limit visibility. States often require thousands of petition signatures for a new party to appear on the ballot, which costs time and money, and the Commission on Presidential Debates requires 15 percent support in national polls, which most third-party candidates cannot reach. Fewer people see them, which keeps their support low. The clue words are \"additional structural barrier.\"\n\n(A) is wrong because other barriers do exist.\n(B) is wrong because public funding goes mainly to major parties, with third parties getting less or none.\n(C) is wrong because third parties are usually excluded from major televised debates."
     },
     {
       "id": "5-37",
@@ -4186,7 +4186,7 @@ const QUESTIONS = {
         "The free rider problem"
       ],
       "correct": 0,
-      "explanation": "Duverger's Law describes the general tendency of winner-take-all (plurality) electoral systems to produce and reinforce two-party systems over time, since such systems structurally disadvantage additional parties."
+      "explanation": "Correct: (A) Duverger's Law. Named after French political scientist Maurice Duverger, it states that plurality, winner-take-all elections in single-member districts tend to produce a two-party system. Voters do not want to waste ballots on candidates who cannot win, and small parties cannot win seats, so they fade or merge into larger ones. The clue words are \"winner-take-all electoral systems\" and \"two-party systems.\"\n\n(B) is wrong because an iron triangle is the stable relationship among a congressional committee, a bureaucratic agency, and an interest group.\n(C) is wrong because selective incorporation applies Bill of Rights guarantees to states.\n(D) is wrong because the free rider problem is when people benefit from a group's effort without contributing, a challenge for interest groups."
     },
     {
       "id": "5-39",
@@ -4368,7 +4368,7 @@ const QUESTIONS = {
         "A congressional committee"
       ],
       "correct": 0,
-      "explanation": "Super PACs emerged largely as a result of Citizens United — they can raise and spend unlimited money on independent expenditures, but are legally prohibited from directly coordinating that spending with a candidate's own campaign."
+      "explanation": "Correct: (A) A Super PAC. After Citizens United v. FEC (2010) held that independent political spending by corporations and unions is protected speech, and SpeechNow.org v. FEC (2010) applied that logic to groups, independent-expenditure-only committees, called Super PACs, arose. They can raise unlimited sums from individuals, corporations, and unions and spend them to support or oppose candidates, but they may not coordinate with a candidate's campaign. The clue words are \"unlimited funds on independent expenditures.\"\n\n(B) is wrong because traditional PACs have limits on contributions they can receive and give.\n(C) is wrong because a cabinet department is an executive agency.\n(D) is wrong because a congressional committee is a part of the legislature and is not a campaign spending group."
     },
     {
       "id": "5-53",
@@ -4511,7 +4511,7 @@ const QUESTIONS = {
         "Horse-race journalism"
       ],
       "correct": 2,
-      "explanation": "This scenario directly illustrates selective exposure — actively seeking out media that reinforces existing views while avoiding sources that might challenge them."
+      "explanation": "Correct: (C) Selective exposure. Selective exposure is the tendency of people to choose news and information that match their existing beliefs while avoiding opposing views, which reinforces their attitudes and can increase polarization. Cable channels, social media feeds, and websites make it easy to do. The clue words are \"exclusively from sources that consistently align with their existing political views.\"\n\n(A) is wrong because the watchdog function is the media's role in investigating and exposing misconduct by officials.\n(B) is wrong because agenda-setting is the media's power to influence which issues the public regards as important, which is about the media's choices, not the viewer's.\n(D) is wrong because horse-race journalism is coverage focused on who is ahead in polls rather than on policies."
     },
     {
       "id": "5-64",
@@ -4524,7 +4524,7 @@ const QUESTIONS = {
         "The watchdog function"
       ],
       "correct": 2,
-      "explanation": "This scenario is a direct example of horse-race journalism — emphasis on the competitive, polling-driven dimension of a campaign rather than substantive policy coverage."
+      "explanation": "Correct: (C) Horse-race journalism. Horse-race journalism treats an election like a sporting contest, concentrating on polls, who is ahead or behind, fundraising, and strategy rather than on candidates' policy positions and qualifications. Critics say it leaves voters less informed about issues. The clue words are \"focuses overwhelmingly on polling numbers and campaign strategy rather than candidates' policy positions.\"\n\n(A) is wrong because agenda-setting is about the media shaping which issues the public considers important.\n(B) is wrong because selective exposure describes audience choices of media that match their views, not the content that a network produces.\n(D) is wrong because the watchdog function means investigating officials and holding them accountable."
     },
     {
       "id": "5-65",
@@ -4577,7 +4577,7 @@ const QUESTIONS = {
         "California and Texas"
       ],
       "correct": 1,
-      "explanation": "Maine and Nebraska use a congressional-district method instead of winner-take-all: 2 electoral votes go to the statewide popular-vote winner, and 1 electoral vote goes to the popular-vote winner in each individual congressional district. All other states and D.C. use winner-take-all allocation."
+      "explanation": "Correct: (B) Maine and Nebraska. Most states give all of their electoral votes to the candidate who wins the statewide popular vote (winner-take-all). Maine and Nebraska instead award two electoral votes to the statewide winner and one electoral vote to the winner of each congressional district, so their votes can be split between candidates. Nebraska's 2nd District, for example, has gone to a different candidate than the state as a whole. The clue words are \"do not use winner-take-all.\"\n\n(A) is wrong because Pennsylvania and Wisconsin both use winner-take-all, though they are competitive swing states.\n(C) is wrong because New York and Florida both award all electoral votes to the statewide winner.\n(D) is wrong because California and Texas also use winner-take-all, despite their large electoral vote totals."
     },
     {
       "id": "5-69",

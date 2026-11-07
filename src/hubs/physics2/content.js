@@ -1809,7 +1809,7 @@ const QUESTIONS = {
         "0.2 A"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 5.0 A. Current is charge per unit time, I = Q/t. With Q = 15 C and t = 3.0 s, I = 15/3.0 = 5.0 C/s = 5.0 A. The clue words are \"constant rate,\" which means a simple ratio applies. (A) 12 A is wrong because it subtracts (15 − 3.0) instead of dividing. (C) 45 A is wrong because it multiplies Q by t (15 × 3.0) instead of dividing. (D) 0.2 A is wrong because it inverts the ratio, computing t/Q = 3.0/15."
+      "explanation": "Correct: (B) 5.0 A. Current is charge per unit time, I = Q/t. With Q = 15 C and t = 3.0 s, I = 15/3.0 = 5.0 C/s = 5.0 A. The clue words are \"constant rate,\" which means a simple ratio applies.\n\n(A) 12 A is wrong because it subtracts (15 − 3.0) instead of dividing.\n(C) 45 A is wrong because it multiplies Q by t (15 × 3.0) instead of dividing.\n(D) 0.2 A is wrong because it inverts the ratio, computing t/Q = 3.0/15."
     },
     {
       "id": "11-4",
@@ -1836,7 +1836,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 0,
-      "explanation": "Drift velocity is cut in half: from I = nqAv_d, with I, n, and q unchanged, v_d ∝ 1/A, so doubling A halves v_d — like the same volume flow rate spreading more slowly through a wider pipe. \"It doubles\" and \"it quadruples\" both mistakenly treat v_d as directly (or even more strongly) proportional to A rather than inversely proportional. \"Stays the same\" wrongly assumes current alone determines drift velocity without accounting for how it's distributed across a larger cross-section."
+      "explanation": "Drift velocity is cut in half: from I = nqAv<sub>d</sub>, with I, n, and q unchanged, v<sub>d</sub> ∝ 1/A, so doubling A halves v<sub>d</sub> — like the same volume flow rate spreading more slowly through a wider pipe. \"It doubles\" and \"it quadruples\" both mistakenly treat v<sub>d</sub> as directly (or even more strongly) proportional to A rather than inversely proportional. \"Stays the same\" wrongly assumes current alone determines drift velocity without accounting for how it's distributed across a larger cross-section."
     },
     {
       "id": "11-6",
@@ -1888,7 +1888,7 @@ const QUESTIONS = {
         "2.0 A"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2.0 A. Ohm's law gives I = V/R. With V = 6.0 V and R = 3.0 Ω, I = 6.0/3.0 = 2.0 A. A battery connected directly across a single resistance means the full voltage is across the bulb. (A) 3.0 A is wrong because it just repeats the resistance value instead of dividing. (B) 0.5 A is wrong because it inverts the ratio, computing R/V = 3.0/6.0. (C) 18 A is wrong because it multiplies V by R instead of dividing."
+      "explanation": "Correct: (D) 2.0 A. Ohm's law gives I = V/R. With V = 6.0 V and R = 3.0 Ω, I = 6.0/3.0 = 2.0 A. A battery connected directly across a single resistance means the full voltage is across the bulb.\n\n(A) 3.0 A is wrong because it just repeats the resistance value instead of dividing.\n(B) 0.5 A is wrong because it inverts the ratio, computing R/V = 3.0/6.0.\n(C) 18 A is wrong because it multiplies V by R instead of dividing."
     },
     {
       "id": "11-10",
@@ -2018,7 +2018,7 @@ const QUESTIONS = {
         "0.33 A"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 3.0 A. Ohm's law gives I = V/R. With V = 45 V and R = 15 Ω, I = 45/15 = 3.0 A. The current is the voltage divided by the resistance, with units of V/Ω = A. (B) 30 A is wrong because it is an order-of-magnitude slip, as if the 45 were divided by 1.5 instead of 15. (C) 675 A is wrong because it multiplies V by R (45 × 15) instead of dividing. (D) 0.33 A is wrong because it inverts the ratio, computing R/V = 15/45."
+      "explanation": "Correct: (A) 3.0 A. Ohm's law gives I = V/R. With V = 45 V and R = 15 Ω, I = 45/15 = 3.0 A. The current is the voltage divided by the resistance, with units of V/Ω = A.\n\n(B) 30 A is wrong because it is an order-of-magnitude slip, as if the 45 were divided by 1.5 instead of 15.\n(C) 675 A is wrong because it multiplies V by R (45 × 15) instead of dividing.\n(D) 0.33 A is wrong because it inverts the ratio, computing R/V = 15/45."
     },
     {
       "id": "11-20",
@@ -2175,7 +2175,7 @@ const QUESTIONS = {
         "15 W"
       ],
       "correct": 1,
-      "explanation": "30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R_total drops to half of one bulb's rated power. \"15 W\" is the power of each bulb alone (each has 60 V across 240 Ω), not the total for the pair. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
+      "explanation": "30 W: wiring in series doubles total resistance, and with the same 120 V now spread across double the resistance, P = V²/R<sub>total</sub> drops to half of one bulb's rated power. \"15 W\" is the power of each bulb alone (each has 60 V across 240 Ω), not the total for the pair. \"60 W\" assumes total power stays equal to a single bulb's rated power, ignoring that doubling resistance changes the power at fixed voltage. \"120 W\" is the common error of simply adding the two bulbs' rated powers, which only holds if each bulb individually saw its full 120 V — not true once they share the source in series."
     },
     {
       "id": "11-32",
@@ -2227,7 +2227,7 @@ const QUESTIONS = {
         "2.0 Ω"
       ],
       "correct": 1,
-      "explanation": "4.0 Ω, since two identical resistors R in parallel always give R/2: 1/R_p = 1/8.0 + 1/8.0. \"2.0 Ω\" over-halves, perhaps mistakenly dividing by 4 instead of 2, or confusing this with a three-resistor case. \"8.0 Ω\" wrongly treats the parallel combination as unchanged from a single resistor, forgetting the second branch lowers resistance. \"16 Ω\" mistakenly adds the resistors as if they were in series instead of parallel."
+      "explanation": "4.0 Ω, since two identical resistors R in parallel always give R/2: 1/R<sub>p</sub> = 1/8.0 + 1/8.0. \"2.0 Ω\" over-halves, perhaps mistakenly dividing by 4 instead of 2, or confusing this with a three-resistor case. \"8.0 Ω\" wrongly treats the parallel combination as unchanged from a single resistor, forgetting the second branch lowers resistance. \"16 Ω\" mistakenly adds the resistors as if they were in series instead of parallel."
     },
     {
       "id": "11-36",
@@ -2240,7 +2240,7 @@ const QUESTIONS = {
         "R/3"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) R/3. For parallel resistors, 1/R<sub>eq</sub> = 1/R + 1/R + 1/R = 3/R, so R<sub>eq</sub> = R/3. For n identical resistors the result is R/n. Each added branch gives current another path, so the equivalent resistance must be less than any single resistor. (A) 3R is wrong because it adds the resistances as in series. (B) 9R is wrong because it applies a squared or otherwise invented series-style factor instead of the reciprocal rule. (C) R is wrong because it assumes extra parallel branches do not change the equivalent resistance; they lower it."
+      "explanation": "Correct: (D) R/3. For parallel resistors, 1/R<sub>eq</sub> = 1/R + 1/R + 1/R = 3/R, so R<sub>eq</sub> = R/3. For n identical resistors the result is R/n. Each added branch gives current another path, so the equivalent resistance must be less than any single resistor.\n\n(A) 3R is wrong because it adds the resistances as in series.\n(B) 9R is wrong because it applies a squared or otherwise invented series-style factor instead of the reciprocal rule.\n(C) R is wrong because it assumes extra parallel branches do not change the equivalent resistance; they lower it."
     },
     {
       "id": "11-37",
@@ -2266,7 +2266,7 @@ const QUESTIONS = {
         "6.0 A"
       ],
       "correct": 0,
-      "explanation": "2.0 A: the parallel pair gives R_p = 2.0 Ω (1/R_p = 1/6.0 + 1/3.0), total resistance is 4.0 + 2.0 = 6.0 Ω, and I = 12/6.0 = 2.0 A. \"0.5 A\" comes from inverting the final step (6.0/12 instead of 12/6.0). \"3.0 A\" comes from skipping the parallel reduction and using only the 4.0 Ω series resistor as total resistance (12/4.0). \"6.0 A\" comes from treating the parallel pair as if it simply added to give a much smaller total resistance, or from a division error in the last step."
+      "explanation": "2.0 A: the parallel pair gives R<sub>p</sub> = 2.0 Ω (1/R<sub>p</sub> = 1/6.0 + 1/3.0), total resistance is 4.0 + 2.0 = 6.0 Ω, and I = 12/6.0 = 2.0 A. \"0.5 A\" comes from inverting the final step (6.0/12 instead of 12/6.0). \"3.0 A\" comes from skipping the parallel reduction and using only the 4.0 Ω series resistor as total resistance (12/4.0). \"6.0 A\" comes from treating the parallel pair as if it simply added to give a much smaller total resistance, or from a division error in the last step."
     },
     {
       "id": "11-39",
@@ -2516,7 +2516,7 @@ const QUESTIONS = {
         "4.0 A"
       ],
       "correct": 2,
-      "explanation": "3.0 A: R_p = 3.0 Ω gives V = (4.0)(3.0) = 12 V, and I₄ = V/R = 12/4.0 = 3.0 A. \"1.0 A\" comes from mistakenly using the 12 Ω resistor's value in place of the 4.0 Ω one in the final division. \"4.0 A\" mistakenly assumes the smaller resistor carries the entire total current, ignoring that the 12 Ω branch also carries some current. \"12 A\" comes from restating the shared voltage value instead of dividing it by the resistance to get current."
+      "explanation": "3.0 A: R<sub>p</sub> = 3.0 Ω gives V = (4.0)(3.0) = 12 V, and I₄ = V/R = 12/4.0 = 3.0 A. \"1.0 A\" comes from mistakenly using the 12 Ω resistor's value in place of the 4.0 Ω one in the final division. \"4.0 A\" mistakenly assumes the smaller resistor carries the entire total current, ignoring that the 12 Ω branch also carries some current. \"12 A\" comes from restating the shared voltage value instead of dividing it by the resistance to get current."
     },
     {
       "id": "11-58",
@@ -2620,7 +2620,7 @@ const QUESTIONS = {
         "Initial current is unchanged; final charge decreases."
       ],
       "correct": 1,
-      "explanation": "Initial current decreases; final charge is unchanged. At t = 0 the capacitor acts like a wire, so I_initial = 𝓔/R falls as R grows, but Q_final = CΔV depends only on C and battery voltage, not on R at all — resistance only changes how fast charging happens, never how much charge results. \"Initial current increases\" reverses the direct effect of R on I = 𝓔/R. \"Final charge decreases\" wrongly assumes resistance affects the ultimate charge stored, when Q_final's formula doesn't include R at all. \"Initial current unchanged\" wrongly assumes the initial instant is somehow independent of R, when R is exactly what sets that first-instant current."
+      "explanation": "Initial current decreases; final charge is unchanged. At t = 0 the capacitor acts like a wire, so I<sub>initial</sub> = 𝓔/R falls as R grows, but Q<sub>final</sub> = CΔV depends only on C and battery voltage, not on R at all — resistance only changes how fast charging happens, never how much charge results. \"Initial current increases\" reverses the direct effect of R on I = 𝓔/R. \"Final charge decreases\" wrongly assumes resistance affects the ultimate charge stored, when Q<sub>final</sub>'s formula doesn't include R at all. \"Initial current unchanged\" wrongly assumes the initial instant is somehow independent of R, when R is exactly what sets that first-instant current."
     }
   ],
   "12": [
@@ -2661,7 +2661,7 @@ const QUESTIONS = {
         "0.030 T"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.030 T. For a charge moving perpendicular to the field, F = qvB, so B = F/(qv). The product qv = (2.0×10⁻⁶ C)(5.0×10³ m/s) = 1.0×10⁻² C·m/s. Then B = (3.0×10⁻⁴ N)/(1.0×10⁻² C·m/s) = 3.0×10⁻² T = 0.030 T. (A) 3.0 T is wrong because it is off by a factor of 100, as if qv were 1.0×10⁻⁴. (B) 0.0030 T is wrong because it treats qv as 0.10, a power-of-ten slip the other way. (C) 0.30 T is wrong because it treats qv as 1.0×10⁻³, miscounting the exponents when multiplying 10⁻⁶ by 10³."
+      "explanation": "Correct: (D) 0.030 T. For a charge moving perpendicular to the field, F = qvB, so B = F/(qv). The product qv = (2.0×10⁻⁶ C)(5.0×10³ m/s) = 1.0×10⁻² C·m/s. Then B = (3.0×10⁻⁴ N)/(1.0×10⁻² C·m/s) = 3.0×10⁻² T = 0.030 T.\n\n(A) 3.0 T is wrong because it is off by a factor of 100, as if qv were 1.0×10⁻⁴.\n(B) 0.0030 T is wrong because it treats qv as 0.10, a power-of-ten slip the other way.\n(C) 0.30 T is wrong because it treats qv as 1.0×10⁻³, miscounting the exponents when multiplying 10⁻⁶ by 10³."
     },
     {
       "id": "12-4",
@@ -2687,7 +2687,7 @@ const QUESTIONS = {
         "1.0 × 10⁻² N"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.0 × 10⁻² N. The force on a charge moving at an angle θ to the field is F = qvB sinθ. Compute qv = (4.0×10⁻⁶ C)(2.0×10⁴ m/s) = 0.080 C·m/s, then multiply by B = 0.50 T to get 0.040 N, and by sin 30° = 0.50 to get 0.020 N = 2.0×10⁻² N. (B) 8.0×10⁻² N is wrong because it stops at qv = 0.080 and never multiplies by B or sinθ properly. (C) 4.0×10⁻² N is wrong because it drops the sinθ factor, giving qvB with the full velocity treated as perpendicular. (D) 1.0×10⁻² N is wrong because it halves the answer once too often, such as applying the 0.50 factor three times."
+      "explanation": "Correct: (A) 2.0 × 10⁻² N. The force on a charge moving at an angle θ to the field is F = qvB sinθ. Compute qv = (4.0×10⁻⁶ C)(2.0×10⁴ m/s) = 0.080 C·m/s, then multiply by B = 0.50 T to get 0.040 N, and by sin 30° = 0.50 to get 0.020 N = 2.0×10⁻² N.\n\n(B) 8.0×10⁻² N is wrong because it stops at qv = 0.080 and never multiplies by B or sinθ properly.\n(C) 4.0×10⁻² N is wrong because it drops the sinθ factor, giving qvB with the full velocity treated as perpendicular.\n(D) 1.0×10⁻² N is wrong because it halves the answer once too often, such as applying the 0.50 factor three times."
     },
     {
       "id": "12-6",
@@ -2700,7 +2700,7 @@ const QUESTIONS = {
         "N/(A·m)"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) N/(A·m). Start from F = BIL, so B = F/(IL) with units N/(A·m). This agrees with F = qvB, where B = N/(C·m/s) = N·s/(C·m), and since A = C/s this is N/(A·m). (A) A/(N·m) is wrong because it inverts the whole expression, putting force in the denominator. (B) N·m/A is wrong because it puts the length in the numerator; B falls as the length of wire grows for a given force. (C) N·A/m is wrong because it multiplies by current, while a larger current for the same force means a weaker field, so current belongs in the denominator."
+      "explanation": "Correct: (D) N/(A·m). Start from F = BIL, so B = F/(IL) with units N/(A·m). This agrees with F = qvB, where B = N/(C·m/s) = N·s/(C·m), and since A = C/s this is N/(A·m).\n\n(A) A/(N·m) is wrong because it inverts the whole expression, putting force in the denominator.\n(B) N·m/A is wrong because it puts the length in the numerator; B falls as the length of wire grows for a given force.\n(C) N·A/m is wrong because it multiplies by current, while a larger current for the same force means a weaker field, so current belongs in the denominator."
     },
     {
       "id": "12-7",
@@ -2817,7 +2817,7 @@ const QUESTIONS = {
         "4.6 × 10⁻² T"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 4.6 × 10⁻⁴ T. For circular motion qvB = mv²/r, so B = mv/(qr). Substituting m = 9.11×10⁻³¹ kg, v = 4.0×10⁶ m/s, q = 1.6×10⁻¹⁹ C, r = 0.050 m: numerator = 3.64×10⁻²⁴, denominator = 8.0×10⁻²¹, giving B = 4.6×10⁻⁴ T. (B) 4.6×10⁻⁵ T is wrong because it is a factor of 10 too small, a slip when combining the 10⁻³¹, 10⁶ and 10⁻¹⁹ exponents. (C) 4.6×10⁻³ T is wrong because it is a factor of 10 too large from a similar exponent slip. (D) 4.6×10⁻² T is wrong because it is off by a factor of 100, again from mishandling the exponents rather than from different physics."
+      "explanation": "Correct: (A) 4.6 × 10⁻⁴ T. For circular motion qvB = mv²/r, so B = mv/(qr). Substituting m = 9.11×10⁻³¹ kg, v = 4.0×10⁶ m/s, q = 1.6×10⁻¹⁹ C, r = 0.050 m: numerator = 3.64×10⁻²⁴, denominator = 8.0×10⁻²¹, giving B = 4.6×10⁻⁴ T.\n\n(B) 4.6×10⁻⁵ T is wrong because it is a factor of 10 too small, a slip when combining the 10⁻³¹, 10⁶ and 10⁻¹⁹ exponents.\n(C) 4.6×10⁻³ T is wrong because it is a factor of 10 too large from a similar exponent slip.\n(D) 4.6×10⁻² T is wrong because it is off by a factor of 100, again from mishandling the exponents rather than from different physics."
     },
     {
       "id": "12-16",
@@ -2830,7 +2830,7 @@ const QUESTIONS = {
         "5.2 × 10⁻¹ m"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 5.2 × 10⁻³ m. The magnetic force supplies the centripetal force, so qvB = mv²/r and r = mv/(qB). Numerator: (1.67×10⁻²⁷ kg)(1.0×10⁵ m/s) = 1.67×10⁻²² kg·m/s. Denominator: (1.6×10⁻¹⁹ C)(0.20 T) = 3.2×10⁻²⁰. Dividing gives r = 5.2×10⁻³ m, about 5 mm. (B) 5.2×10⁻² m is wrong because it is a factor of 10 too big, such as using B = 0.020 T. (C) 5.2×10⁻⁴ m is wrong because it is a factor of 10 too small, a slip combining the 10⁻²⁷ and 10⁻¹⁹ exponents. (D) 5.2×10⁻¹ m is wrong because it is a factor of 100 too large, from mishandling the exponents or dropping the 0.20 and the power of ten with it."
+      "explanation": "Correct: (A) 5.2 × 10⁻³ m. The magnetic force supplies the centripetal force, so qvB = mv²/r and r = mv/(qB). Numerator: (1.67×10⁻²⁷ kg)(1.0×10⁵ m/s) = 1.67×10⁻²² kg·m/s. Denominator: (1.6×10⁻¹⁹ C)(0.20 T) = 3.2×10⁻²⁰. Dividing gives r = 5.2×10⁻³ m, about 5 mm.\n\n(B) 5.2×10⁻² m is wrong because it is a factor of 10 too big, such as using B = 0.020 T.\n(C) 5.2×10⁻⁴ m is wrong because it is a factor of 10 too small, a slip combining the 10⁻²⁷ and 10⁻¹⁹ exponents.\n(D) 5.2×10⁻¹ m is wrong because it is a factor of 100 too large, from mishandling the exponents or dropping the 0.20 and the power of ten with it."
     },
     {
       "id": "12-17",
@@ -2843,7 +2843,7 @@ const QUESTIONS = {
         "r<sub>alpha</sub> = 4 r<sub>proton</sub>"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) r_alpha = 2 r_proton. From r = mv/(qB) with the same v and B, r is proportional to m/q. The alpha has m = 4m_p and q = 2e, so m/q is (4/2) = 2 times the proton's, and its radius is twice as large. (A) r_proton/2 is wrong because it inverts the ratio, putting q/m instead of m/q.\n\n(B) is wrong because it assumes mass and charge effects cancel, but 4 over 2 is 2, not 1. (D) 4 r_proton is wrong because it uses only the mass factor and forgets that the doubled charge tightens the circle and offsets half of it."
+      "explanation": "Correct: (C) r<sub>alpha</sub> = 2 r<sub>proton</sub>. From r = mv/(qB) with the same v and B, r is proportional to m/q. The alpha has m = 4m<sub>p</sub> and q = 2e, so m/q is (4/2) = 2 times the proton's, and its radius is twice as large.\n\n(A) r<sub>proton</sub>/2 is wrong because it inverts the ratio, putting q/m instead of m/q.\n(B) is wrong because it assumes mass and charge effects cancel, but 4 over 2 is 2, not 1.\n(D) 4 r<sub>proton</sub> is wrong because it uses only the mass factor and forgets that the doubled charge tightens the circle and offsets half of it."
     },
     {
       "id": "12-18",
@@ -2896,7 +2896,7 @@ const QUESTIONS = {
         "2.6 × 10⁻² m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2.6 × 10⁻² m. Use r = mv/(qB). Numerator: (6.64×10⁻²⁷ kg)(5.0×10⁵ m/s) = 3.32×10⁻²¹. Denominator: (3.2×10⁻¹⁹ C)(0.40 T) = 1.28×10⁻¹⁹. So r = 2.6×10⁻² m, about 2.6 cm. (A) 2.6×10⁻³ m is wrong because it is a factor of 10 too small, a slip in the exponent subtraction (−21 − (−19) = −2, not −3). (B) 2.6 m is wrong because it is 100 times too large, from mishandling the powers of ten. (C) 2.6×10⁻¹ m is wrong because it is a factor of 10 too large, as if the exponent difference were −1."
+      "explanation": "Correct: (D) 2.6 × 10⁻² m. Use r = mv/(qB). Numerator: (6.64×10⁻²⁷ kg)(5.0×10⁵ m/s) = 3.32×10⁻²¹. Denominator: (3.2×10⁻¹⁹ C)(0.40 T) = 1.28×10⁻¹⁹. So r = 2.6×10⁻² m, about 2.6 cm.\n\n(A) 2.6×10⁻³ m is wrong because it is a factor of 10 too small, a slip in the exponent subtraction (−21 − (−19) = −2, not −3).\n(B) 2.6 m is wrong because it is 100 times too large, from mishandling the powers of ten.\n(C) 2.6×10⁻¹ m is wrong because it is a factor of 10 too large, as if the exponent difference were −1."
     },
     {
       "id": "12-22",
@@ -2948,7 +2948,7 @@ const QUESTIONS = {
         "r₁/9"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) r₁/3. From r = mv/(qB) with m, v and q fixed, r is proportional to 1/B. Tripling B to 3B₁ gives r = r₁/3. (B) 3r₁ is wrong because it treats r as directly proportional to B. (C) 9r₁ is wrong because it both inverts the dependence and squares the factor. (D) r₁/9 is wrong because it squares the factor 3, but r depends on 1/B to the first power, not 1/B²."
+      "explanation": "Correct: (A) r₁/3. From r = mv/(qB) with m, v and q fixed, r is proportional to 1/B. Tripling B to 3B₁ gives r = r₁/3.\n\n(B) 3r₁ is wrong because it treats r as directly proportional to B.\n(C) 9r₁ is wrong because it both inverts the dependence and squares the factor.\n(D) r₁/9 is wrong because it squares the factor 3, but r depends on 1/B to the first power, not 1/B²."
     },
     {
       "id": "12-26",
@@ -2975,7 +2975,7 @@ const QUESTIONS = {
         "6.0 N"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.60 N. For a wire perpendicular to the field, F = BIL sin 90° = BIL = (0.30 T)(5.0 A)(0.40 m) = 0.60 N. (B) 1.5 N is wrong because it is 2.5 times too large; it matches using L = 1.0 m, so the 0.40 m length was misread or dropped. (C) 0.15 N is wrong because it is one quarter of the correct value, which would come from an arithmetic slip such as dividing the product by 4 or misplacing a decimal. (D) 6.0 N is wrong because it is 10 times too large, a decimal-place slip in one of the three factors."
+      "explanation": "Correct: (A) 0.60 N. For a wire perpendicular to the field, F = BIL sin 90° = BIL = (0.30 T)(5.0 A)(0.40 m) = 0.60 N.\n\n(B) 1.5 N is wrong because it is 2.5 times too large; it matches using L = 1.0 m, so the 0.40 m length was misread or dropped.\n(C) 0.15 N is wrong because it is one quarter of the correct value, which would come from an arithmetic slip such as dividing the product by 4 or misplacing a decimal.\n(D) 6.0 N is wrong because it is 10 times too large, a decimal-place slip in one of the three factors."
     },
     {
       "id": "12-28",
@@ -2988,7 +2988,7 @@ const QUESTIONS = {
         "BIL/2"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Zero. The force on a wire is F = BIL sinθ, and for a wire parallel to the field θ = 0°, so sin 0° = 0 and F = 0 for any current or field strength.\n\n(A) is wrong because BIL is the maximum, reached at θ = 90°, the perpendicular orientation.\n(C) is wrong because the current value does not matter; sinθ = 0 makes the product zero for any I. (D) BIL/2 is wrong because it corresponds to sin 30° = 0.5, not 0°."
+      "explanation": "Correct: (B) Zero. The force on a wire is F = BIL sinθ, and for a wire parallel to the field θ = 0°, so sin 0° = 0 and F = 0 for any current or field strength.\n\n(A) is wrong because BIL is the maximum, reached at θ = 90°, the perpendicular orientation.\n(C) is wrong because the current value does not matter; sinθ = 0 makes the product zero for any I.\n(D) BIL/2 is wrong because it corresponds to sin 30° = 0.5, not 0°."
     },
     {
       "id": "12-29",
@@ -3001,7 +3001,7 @@ const QUESTIONS = {
         "1.6 × 10⁻⁴ T"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 1.6 × 10⁻⁵ T. For a long straight wire B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(8.0 A)/(2π × 0.10 m). The π cancels and 4/2 = 2, leaving B = (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T. (B) 1.6×10⁻³ T is wrong because it is 100 times too large, from botching the 10⁻⁷ exponent. (C) 1.6×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 1.0 m. (D) 1.6×10⁻⁴ T is wrong because it is a factor of 10 too large, a misplaced decimal."
+      "explanation": "Correct: (A) 1.6 × 10⁻⁵ T. For a long straight wire B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(8.0 A)/(2π × 0.10 m). The π cancels and 4/2 = 2, leaving B = (2×10⁻⁷)(8.0)/0.10 = 1.6×10⁻⁵ T.\n\n(B) 1.6×10⁻³ T is wrong because it is 100 times too large, from botching the 10⁻⁷ exponent.\n(C) 1.6×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 1.0 m.\n(D) 1.6×10⁻⁴ T is wrong because it is a factor of 10 too large, a misplaced decimal."
     },
     {
       "id": "12-30",
@@ -3079,7 +3079,7 @@ const QUESTIONS = {
         "6.0 × 10⁻⁵ T"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 6.0 × 10⁻⁵ T. The field of a long straight wire is B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(6.0 A)/(2π × 0.020 m). The π cancels, leaving (2×10⁻⁷)(6.0)/0.020 = 1.2×10⁻⁶/0.020 = 6.0×10⁻⁵ T. (A) 6.0×10⁻³ T is wrong because it is 100 times too large, from a power-of-ten slip with the 10⁻⁷ from μ₀. (B) 6.0×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 0.20 m. (C) 6.0×10⁻⁴ T is wrong because it is a factor of 10 too large, from an exponent slip in dividing by 0.020."
+      "explanation": "Correct: (D) 6.0 × 10⁻⁵ T. The field of a long straight wire is B = μ₀I/(2πr) = (4π×10⁻⁷ T·m/A)(6.0 A)/(2π × 0.020 m). The π cancels, leaving (2×10⁻⁷)(6.0)/0.020 = 1.2×10⁻⁶/0.020 = 6.0×10⁻⁵ T.\n\n(A) 6.0×10⁻³ T is wrong because it is 100 times too large, from a power-of-ten slip with the 10⁻⁷ from μ₀.\n(B) 6.0×10⁻⁶ T is wrong because it is a factor of 10 too small, as if r were 0.20 m.\n(C) 6.0×10⁻⁴ T is wrong because it is a factor of 10 too large, from an exponent slip in dividing by 0.020."
     },
     {
       "id": "12-36",
@@ -3092,7 +3092,7 @@ const QUESTIONS = {
         "3.6 × 10⁻² N"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 3.6 × 10⁻⁴ N. Wire 2 is a current-carrying wire sitting in the field of Wire 1, perpendicular to it, so F = BIL = (6.0×10⁻⁵ T)(6.0 A)(1.0 m) = 3.6×10⁻⁴ N. Since the currents run in the same direction, the force is attractive. (A) 3.6×10⁻⁵ N is wrong because it is a factor of 10 too small, an exponent slip when multiplying. (C) 3.6×10⁻³ N is wrong because it is a factor of 10 too large. (D) 3.6×10⁻² N is wrong because it is 100 times too large, from mishandling the 10⁻⁵ of the given field."
+      "explanation": "Correct: (B) 3.6 × 10⁻⁴ N. Wire 2 is a current-carrying wire sitting in the field of Wire 1, perpendicular to it, so F = BIL = (6.0×10⁻⁵ T)(6.0 A)(1.0 m) = 3.6×10⁻⁴ N. Since the currents run in the same direction, the force is attractive.\n\n(A) 3.6×10⁻⁵ N is wrong because it is a factor of 10 too small, an exponent slip when multiplying.\n(C) 3.6×10⁻³ N is wrong because it is a factor of 10 too large.\n(D) 3.6×10⁻² N is wrong because it is 100 times too large, from mishandling the 10⁻⁵ of the given field."
     },
     {
       "id": "12-37",
@@ -3157,7 +3157,7 @@ const QUESTIONS = {
         "1.9 A"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 1.9 A. For a wire at angle θ to the field, F = BIL sinθ, so I = F/(BL sinθ) = 0.60 N/[(0.25 T)(2.0 m)(sin 40°)]. With sin 40° ≈ 0.643, the denominator is 0.50 × 0.643 = 0.321, giving I ≈ 1.9 A. (A) 1.2 A is wrong because it leaves out sinθ, treating the wire as perpendicular to the field (0.60/0.50). (B) 1.6 A is wrong because it uses cos 40° ≈ 0.766 instead of sin 40°. (C) 2.4 A is wrong because it is F/B alone (0.60/0.25), dropping both L and sinθ."
+      "explanation": "Correct: (D) 1.9 A. For a wire at angle θ to the field, F = BIL sinθ, so I = F/(BL sinθ) = 0.60 N/[(0.25 T)(2.0 m)(sin 40°)]. With sin 40° ≈ 0.643, the denominator is 0.50 × 0.643 = 0.321, giving I ≈ 1.9 A.\n\n(A) 1.2 A is wrong because it leaves out sinθ, treating the wire as perpendicular to the field (0.60/0.50).\n(B) 1.6 A is wrong because it uses cos 40° ≈ 0.766 instead of sin 40°.\n(C) 2.4 A is wrong because it is F/B alone (0.60/0.25), dropping both L and sinθ."
     },
     {
       "id": "12-42",
@@ -3211,7 +3211,7 @@ const QUESTIONS = {
         "0.0075 Wb"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0.015 Wb. Flux is Φ = BA cosθ, with θ measured between B and the loop's normal. A field perpendicular to the loop's plane is along the normal, so θ = 0° and cos 0° = 1. Φ = (0.50 T)(0.030 m²)(1) = 0.015 Wb. (A) 0.030 Wb is wrong because it just repeats the area value, or doubles the product. (B) 0.060 Wb is wrong because it is four times too large, a doubling error. (D) 0.0075 Wb is wrong because it halves the answer, as if cos 60° had been applied although the angle is 0°."
+      "explanation": "Correct: (C) 0.015 Wb. Flux is Φ = BA cosθ, with θ measured between B and the loop's normal. A field perpendicular to the loop's plane is along the normal, so θ = 0° and cos 0° = 1. Φ = (0.50 T)(0.030 m²)(1) = 0.015 Wb.\n\n(A) 0.030 Wb is wrong because it just repeats the area value, or doubles the product.\n(B) 0.060 Wb is wrong because it is four times too large, a doubling error.\n(D) 0.0075 Wb is wrong because it halves the answer, as if cos 60° had been applied although the angle is 0°."
     },
     {
       "id": "12-46",
@@ -3224,7 +3224,7 @@ const QUESTIONS = {
         "0.013 Wb"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.0075 Wb. Φ = BA cosθ = (0.50 T)(0.030 m²)(cos 60°) = 0.015 × 0.50 = 0.0075 Wb, half the maximum flux. (B) 0.015 Wb is wrong because it is the maximum BA with no angle factor applied, as if θ were 0°. (C) 0.026 Wb is wrong because it exceeds the maximum possible BA = 0.015 Wb, so it cannot be a valid flux; it is a doubling of the sin 60° mix-up. (D) 0.013 Wb is wrong because it uses sin 60° ≈ 0.866 in place of cos 60° = 0.5."
+      "explanation": "Correct: (A) 0.0075 Wb. Φ = BA cosθ = (0.50 T)(0.030 m²)(cos 60°) = 0.015 × 0.50 = 0.0075 Wb, half the maximum flux.\n\n(B) 0.015 Wb is wrong because it is the maximum BA with no angle factor applied, as if θ were 0°.\n(C) 0.026 Wb is wrong because it exceeds the maximum possible BA = 0.015 Wb, so it cannot be a valid flux; it is a doubling of the sin 60° mix-up.\n(D) 0.013 Wb is wrong because it uses sin 60° ≈ 0.866 in place of cos 60° = 0.5."
     },
     {
       "id": "12-47",
@@ -3250,7 +3250,7 @@ const QUESTIONS = {
         "3.0 V"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.30 V. Faraday's law gives the magnitude of the EMF as ΔΦ/Δt. ΔΦ = 0.050 − 0.020 = 0.030 Wb, and Δt = 0.10 s, so EMF = 0.030/0.10 = 0.30 V. (B) 30 V is wrong because it is 100 times too large, as if Δt were 0.0010 s. (C) 0.030 V is wrong because it is the flux change itself, without dividing by the time. (D) 3.0 V is wrong because it is 10 times too large, as if Δt were 0.010 s."
+      "explanation": "Correct: (A) 0.30 V. Faraday's law gives the magnitude of the EMF as ΔΦ/Δt. ΔΦ = 0.050 − 0.020 = 0.030 Wb, and Δt = 0.10 s, so EMF = 0.030/0.10 = 0.30 V.\n\n(B) 30 V is wrong because it is 100 times too large, as if Δt were 0.0010 s.\n(C) 0.030 V is wrong because it is the flux change itself, without dividing by the time.\n(D) 3.0 V is wrong because it is 10 times too large, as if Δt were 0.010 s."
     },
     {
       "id": "12-49",
@@ -3263,7 +3263,7 @@ const QUESTIONS = {
         "0.20 V"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.20 V. The magnitude of the induced EMF is |ΔΦ|/Δt. |ΔΦ| = |0.020 − 0.080| = 0.060 Wb and Δt = 0.30 s, so EMF = 0.060/0.30 = 0.20 V. The decrease only affects the direction of the induced current (Lenz's law), not the magnitude. (A) 2.0 V is wrong because it is 10 times too large, a decimal slip such as using Δt = 0.030 s. (B) 0.60 V is wrong because it is three times too large, as from dividing by 0.10 s instead of 0.30 s. (C) 0.060 V is wrong because it is the flux change alone, not divided by the time interval."
+      "explanation": "Correct: (D) 0.20 V. The magnitude of the induced EMF is |ΔΦ|/Δt. |ΔΦ| = |0.020 − 0.080| = 0.060 Wb and Δt = 0.30 s, so EMF = 0.060/0.30 = 0.20 V. The decrease only affects the direction of the induced current (Lenz's law), not the magnitude.\n\n(A) 2.0 V is wrong because it is 10 times too large, a decimal slip such as using Δt = 0.030 s.\n(B) 0.60 V is wrong because it is three times too large, as from dividing by 0.10 s instead of 0.30 s.\n(C) 0.060 V is wrong because it is the flux change alone, not divided by the time interval."
     },
     {
       "id": "12-50",
@@ -3276,7 +3276,7 @@ const QUESTIONS = {
         "0.020 V"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 0.40 V. For a coil of N turns, EMF = N(ΔΦ/Δt) = 20 × (0.0030 Wb/0.15 s) = 20 × 0.020 = 0.40 V, because the turns act in series. (A) 3.0 V is wrong because it equals N × Δt = 20 × 0.15, multiplying by the time instead of dividing the flux change by it. (C) 0.10 V is wrong because it corresponds to using about N/4 turns, undercounting the coil. (D) 0.020 V is wrong because it is the EMF of a single turn, without multiplying by N = 20."
+      "explanation": "Correct: (B) 0.40 V. For a coil of N turns, EMF = N(ΔΦ/Δt) = 20 × (0.0030 Wb/0.15 s) = 20 × 0.020 = 0.40 V, because the turns act in series.\n\n(A) 3.0 V is wrong because it equals N × Δt = 20 × 0.15, multiplying by the time instead of dividing the flux change by it.\n(C) 0.10 V is wrong because it corresponds to using about N/4 turns, undercounting the coil.\n(D) 0.020 V is wrong because it is the EMF of a single turn, without multiplying by N = 20."
     },
     {
       "id": "12-51",
@@ -3380,7 +3380,7 @@ const QUESTIONS = {
         "0.48 V"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 1.9 V. Motional EMF for a rod moving perpendicular to the field is EMF = BLv = (0.40 T)(0.60 m)(8.0 m/s) = 1.92 V ≈ 1.9 V. (A) 4.8 V is wrong because it is 2.5 times too large, as if B were 1.0 T (the product 1.0 × 0.60 × 8.0). (C) 19 V is wrong because it is 10 times too large, a decimal-place slip. (D) 0.48 V is wrong because it is four times too small, as if v were 2.0 m/s instead of 8.0 m/s."
+      "explanation": "Correct: (B) 1.9 V. Motional EMF for a rod moving perpendicular to the field is EMF = BLv = (0.40 T)(0.60 m)(8.0 m/s) = 1.92 V ≈ 1.9 V.\n\n(A) 4.8 V is wrong because it is 2.5 times too large, as if B were 1.0 T (the product 1.0 × 0.60 × 8.0).\n(C) 19 V is wrong because it is 10 times too large, a decimal-place slip.\n(D) 0.48 V is wrong because it is four times too small, as if v were 2.0 m/s instead of 8.0 m/s."
     },
     {
       "id": "12-59",
@@ -3446,7 +3446,7 @@ const QUESTIONS = {
         "0.012 Wb"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 0.024 Wb. The area is A = (0.15 m)(0.20 m) = 0.030 m². With B perpendicular to the loop, θ = 0° and Φ = BA = (0.80 T)(0.030 m²) = 0.024 Wb. (B) 0.24 Wb is wrong because it is 10 times too large, a misplaced decimal. (C) 0.048 Wb is wrong because it doubles the correct answer. (D) 0.012 Wb is wrong because it halves the correct answer, as if a factor of 1/2 (such as cos 60°) were applied."
+      "explanation": "Correct: (A) 0.024 Wb. The area is A = (0.15 m)(0.20 m) = 0.030 m². With B perpendicular to the loop, θ = 0° and Φ = BA = (0.80 T)(0.030 m²) = 0.024 Wb.\n\n(B) 0.24 Wb is wrong because it is 10 times too large, a misplaced decimal.\n(C) 0.048 Wb is wrong because it doubles the correct answer.\n(D) 0.012 Wb is wrong because it halves the correct answer, as if a factor of 1/2 (such as cos 60°) were applied."
     },
     {
       "id": "12-64",
@@ -3459,7 +3459,7 @@ const QUESTIONS = {
         "0.50 V"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.50 V. The induced EMF is the magnitude of dΦ/dt. For Φ(t) = 0.020 + 0.50t, the derivative is 0.50 Wb/s = 0.50 V at every instant. The constant 0.020 Wb is the flux at t = 0 and does not change. (A) 0.020 V is wrong because it takes the constant term as the rate of change. (B) 0.52 V is wrong because it adds the constant and the rate (0.020 + 0.50), which have different units and meanings.\n\n(C) is wrong because with a constant rate the EMF is the same at every t, so no specific time is needed."
+      "explanation": "Correct: (D) 0.50 V. The induced EMF is the magnitude of dΦ/dt. For Φ(t) = 0.020 + 0.50t, the derivative is 0.50 Wb/s = 0.50 V at every instant. The constant 0.020 Wb is the flux at t = 0 and does not change.\n\n(A) 0.020 V is wrong because it takes the constant term as the rate of change.\n(B) 0.52 V is wrong because it adds the constant and the rate (0.020 + 0.50), which have different units and meanings.\n(C) is wrong because with a constant rate the EMF is the same at every t, so no specific time is needed."
     },
     {
       "id": "12-65",
@@ -3472,7 +3472,7 @@ const QUESTIONS = {
         "0.40 A"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 0.40 A. An induced EMF drives current like a battery, so Ohm's law applies: I = EMF/R = 2.0 V/5.0 Ω = 0.40 A. (A) 2.5 A is wrong because it inverts the ratio, computing R/EMF. (B) 10 A is wrong because it multiplies EMF by R instead of dividing. (C) 0.10 A is wrong because it divides by a resistance four times too large (20 Ω rather than 5.0 Ω)."
+      "explanation": "Correct: (D) 0.40 A. An induced EMF drives current like a battery, so Ohm's law applies: I = EMF/R = 2.0 V/5.0 Ω = 0.40 A.\n\n(A) 2.5 A is wrong because it inverts the ratio, computing R/EMF.\n(B) 10 A is wrong because it multiplies EMF by R instead of dividing.\n(C) 0.10 A is wrong because it divides by a resistance four times too large (20 Ω rather than 5.0 Ω)."
     },
     {
       "id": "12-66",
@@ -3958,7 +3958,7 @@ const QUESTIONS = {
         "36.9°"
       ],
       "correct": 0,
-      "explanation": "θ_c ≈ 48.6°. Using sinθ_c = n₂/n₁ = 1.2/1.6 = 0.75, so θ_c = sin⁻¹(0.75) ≈ 48.6°. '36.9°' comes from using the inverse ratio n₁/n₂ instead of n₂/n₁. '41.8°' is the critical angle for a different index ratio entirely (like a glass-air boundary with n = 1.5), mistakenly carried over to this problem's numbers. '53.1°' is the complement of the correct angle (90° − 36.9°), suggesting a mixed-up reference line."
+      "explanation": "θ<sub>c</sub> ≈ 48.6°. Using sinθ_c = n₂/n₁ = 1.2/1.6 = 0.75, so θ<sub>c</sub> = sin⁻¹(0.75) ≈ 48.6°. '36.9°' comes from using the inverse ratio n₁/n₂ instead of n₂/n₁. '41.8°' is the critical angle for a different index ratio entirely (like a glass-air boundary with n = 1.5), mistakenly carried over to this problem's numbers. '53.1°' is the complement of the correct angle (90° − 36.9°), suggesting a mixed-up reference line."
     },
     {
       "id": "13-37",
@@ -4062,7 +4062,7 @@ const QUESTIONS = {
         "Cannot be determined without exact speed values"
       ],
       "correct": 0,
-      "explanation": "n_A < n_B < n_C. Speed and index of refraction are inversely related (n = c/v) — the material where light moves fastest (A) has the smallest n, and the slowest material (C) has the largest n. 'n_A > n_B > n_C' has the entire ranking backwards. 'n_A = n_B = n_C' ignores that different speeds necessarily mean different indices. 'Cannot be determined without exact speed values' is wrong — the inverse relationship between speed and index means the RANKING can be found from the speed ranking alone, without needing exact numbers."
+      "explanation": "n<sub>A</sub> < n<sub>B</sub> < n<sub>C</sub>. Speed and index of refraction are inversely related (n = c/v) — the material where light moves fastest (A) has the smallest n, and the slowest material (C) has the largest n. 'n<sub>A</sub> > n<sub>B</sub> > n<sub>C</sub>' has the entire ranking backwards. 'n<sub>A</sub> = n<sub>B</sub> = n<sub>C</sub>' ignores that different speeds necessarily mean different indices. 'Cannot be determined without exact speed values' is wrong — the inverse relationship between speed and index means the RANKING can be found from the speed ranking alone, without needing exact numbers."
     },
     {
       "id": "13-45",
@@ -4390,7 +4390,7 @@ const QUESTIONS = {
         "320 m"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 17 m. For any wave, v = fλ, so λ = v/f. With v = 340 m/s and f = 20 Hz, λ = 340/20 = 17 m. Low-frequency sound has a long wavelength. (A) 0.059 m is wrong because it inverts the ratio, computing f/v = 20/340. (B) 6800 m is wrong because it multiplies v by f instead of dividing. (D) 320 m is wrong because it subtracts (340 − 20) instead of dividing."
+      "explanation": "Correct: (C) 17 m. For any wave, v = fλ, so λ = v/f. With v = 340 m/s and f = 20 Hz, λ = 340/20 = 17 m. Low-frequency sound has a long wavelength.\n\n(A) 0.059 m is wrong because it inverts the ratio, computing f/v = 20/340.\n(B) 6800 m is wrong because it multiplies v by f instead of dividing.\n(D) 320 m is wrong because it subtracts (340 − 20) instead of dividing."
     },
     {
       "id": "14-5",
@@ -4429,7 +4429,7 @@ const QUESTIONS = {
         "4.0 Hz"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 40 Hz. Frequency is the reciprocal of period, f = 1/T. With T = 0.025 s, f = 1/0.025 = 40 Hz, since 0.025 fits into 1 s forty times. (B) 400 Hz is wrong because it is a decimal-place slip that gives ten times too large a reciprocal. (C) 0.025 Hz is wrong because it just repeats the period as if it were the frequency. (D) 4.0 Hz is wrong because it is a decimal slip, as if 1/0.25 had been computed instead of 1/0.025."
+      "explanation": "Correct: (A) 40 Hz. Frequency is the reciprocal of period, f = 1/T. With T = 0.025 s, f = 1/0.025 = 40 Hz, since 0.025 fits into 1 s forty times.\n\n(B) 400 Hz is wrong because it is a decimal-place slip that gives ten times too large a reciprocal.\n(C) 0.025 Hz is wrong because it just repeats the period as if it were the frequency.\n(D) 4.0 Hz is wrong because it is a decimal slip, as if 1/0.25 had been computed instead of 1/0.025."
     },
     {
       "id": "14-8",
@@ -4442,7 +4442,7 @@ const QUESTIONS = {
         "2.0 × 10⁻³ s"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 2.0 × 10<sup>-3</sup> s. The period is the reciprocal of frequency, T = 1/f. With f = 500 Hz, T = 1/500 = 0.0020 s = 2.0 × 10<sup>-3</sup> s. A high frequency means a very short period, so the exponent must be negative. (A) 2.0 × 10<sup>2</sup> s is wrong because a positive exponent makes the period huge, but a larger frequency makes the period smaller. (B) 5.0 × 10<sup>2</sup> s is wrong because it reuses the digits of 500 rather than taking the reciprocal, and it also has a positive exponent. (C) 5.0 × 10<sup>-3</sup> s is wrong because it takes 1/200 instead of 1/500; the correct reciprocal of 5.0 × 10<sup>2</sup> is 2.0 × 10<sup>-3</sup>."
+      "explanation": "Correct: (D) 2.0 × 10<sup>-3</sup> s. The period is the reciprocal of frequency, T = 1/f. With f = 500 Hz, T = 1/500 = 0.0020 s = 2.0 × 10<sup>-3</sup> s. A high frequency means a very short period, so the exponent must be negative.\n\n(A) 2.0 × 10<sup>2</sup> s is wrong because a positive exponent makes the period huge, but a larger frequency makes the period smaller.\n(B) 5.0 × 10<sup>2</sup> s is wrong because it reuses the digits of 500 rather than taking the reciprocal, and it also has a positive exponent.\n(C) 5.0 × 10<sup>-3</sup> s is wrong because it takes 1/200 instead of 1/500; the correct reciprocal of 5.0 × 10<sup>2</sup> is 2.0 × 10<sup>-3</sup>."
     },
     {
       "id": "14-9",
@@ -4455,7 +4455,7 @@ const QUESTIONS = {
         "0.5 m"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 2.0 m. Wave speed obeys v = fλ, so λ = v/f. With v = 300 m/s and f = 150 Hz, λ = 300/150 = 2.0 m. (A) 45,000 m is wrong because it multiplies v by f instead of dividing. (B) 450 m is wrong because it adds v and f (300 + 150) instead of dividing. (D) 0.5 m is wrong because it inverts the ratio, computing f/v = 150/300."
+      "explanation": "Correct: (C) 2.0 m. Wave speed obeys v = fλ, so λ = v/f. With v = 300 m/s and f = 150 Hz, λ = 300/150 = 2.0 m.\n\n(A) 45,000 m is wrong because it multiplies v by f instead of dividing.\n(B) 450 m is wrong because it adds v and f (300 + 150) instead of dividing.\n(D) 0.5 m is wrong because it inverts the ratio, computing f/v = 150/300."
     },
     {
       "id": "14-10",
@@ -4689,7 +4689,7 @@ const QUESTIONS = {
         "Exactly the same, since only source motion causes a Doppler shift"
       ],
       "correct": 2,
-      "explanation": "The same directional rule applies regardless of which object moves — motion toward always raises the observed frequency, whether it's the source or, as here, the listener doing the approaching. 'Lower' reverses the correct direction. 'Exactly the same, since only source motion causes a shift' is a common misconception — observer motion causes a Doppler shift too, through the (v + v_observer) term in the numerator. 'Cannot be determined' wrongly implies the direction of the shift (higher) requires speed information, when only its exact size does."
+      "explanation": "The same directional rule applies regardless of which object moves — motion toward always raises the observed frequency, whether it's the source or, as here, the listener doing the approaching. 'Lower' reverses the correct direction. 'Exactly the same, since only source motion causes a shift' is a common misconception — observer motion causes a Doppler shift too, through the (v + v<sub>observer</sub>) term in the numerator. 'Cannot be determined' wrongly implies the direction of the shift (higher) requires speed information, when only its exact size does."
     },
     {
       "id": "14-28",
@@ -4703,7 +4703,7 @@ const QUESTIONS = {
         "The two-cars-moving scenario produces a SMALLER frequency shift than the single-mover scenario."
       ],
       "correct": 3,
-      "explanation": "In f' = f(v + v_o)/(v − v_s), source motion enters the denominator (v − v_s) while observer motion enters the numerator (v + v_o); the denominator's effect grows nonlinearly with v_s while the numerator's effect is only linear in v_o. So concentrating the full closing speed into source motion alone produces a larger shift than splitting it between source and observer — e.g., at v = 340 m/s with a 30 m/s total closing speed, all-source gives f' ≈ 1.097f versus a 15/15 split giving f' ≈ 1.092f. 'LARGER' reverses this comparison. 'Identical, since only relative speed matters' is the tempting but incorrect assumption that the Doppler formula is symmetric in source and observer speed — it isn't. 'No shift unless the source alone moves' is simply false, since observer motion alone also produces a shift."
+      "explanation": "In f' = f(v + v<sub>o</sub>)/(v − v<sub>s</sub>), source motion enters the denominator (v − v<sub>s</sub>) while observer motion enters the numerator (v + v<sub>o</sub>); the denominator's effect grows nonlinearly with v<sub>s</sub> while the numerator's effect is only linear in v<sub>o</sub>. So concentrating the full closing speed into source motion alone produces a larger shift than splitting it between source and observer — e.g., at v = 340 m/s with a 30 m/s total closing speed, all-source gives f' ≈ 1.097f versus a 15/15 split giving f' ≈ 1.092f. 'LARGER' reverses this comparison. 'Identical, since only relative speed matters' is the tempting but incorrect assumption that the Doppler formula is symmetric in source and observer speed — it isn't. 'No shift unless the source alone moves' is simply false, since observer motion alone also produces a shift."
     },
     {
       "id": "14-29",
@@ -4716,7 +4716,7 @@ const QUESTIONS = {
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v − v_source) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 368 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz does not come from any correct Doppler step; it overstates the shift. The correct source-motion form is v/(v − v<sub>source</sub>)."
+      "explanation": "f' = f·v/(v − v<sub>source</sub>) = 400(340)/(340 − 30) = 400(340)/310 ≈ 439 Hz; approaching uses the minus sign in the denominator, raising the frequency. 368 Hz comes from using the receding-source formula (plus sign) by mistake. 400 Hz ignores the Doppler shift entirely. 483 Hz does not come from any correct Doppler step; it overstates the shift. The correct source-motion form is v/(v − v<sub>source</sub>)."
     },
     {
       "id": "14-30",
@@ -4729,7 +4729,7 @@ const QUESTIONS = {
         "483 Hz"
       ],
       "correct": 2,
-      "explanation": "f' = f·v/(v + v_source) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz does not come from any correct Doppler step; it has the wrong direction and size of shift for a receding source."
+      "explanation": "f' = f·v/(v + v<sub>source</sub>) = 400(340)/(340 + 30) = 400(340)/370 ≈ 368 Hz; receding uses the plus sign in the denominator, lowering the frequency. 400 Hz ignores the Doppler shift entirely. 439 Hz comes from using the approaching-source formula (minus sign) by mistake — the exact mirror-image error. 483 Hz does not come from any correct Doppler step; it has the wrong direction and size of shift for a receding source."
     },
     {
       "id": "14-31",
@@ -4742,7 +4742,7 @@ const QUESTIONS = {
         "471 Hz"
       ],
       "correct": 1,
-      "explanation": "f' = f(v + v_observer)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz does not come from any correct step; the shift from a 20 m/s observer is only about +29 Hz."
+      "explanation": "f' = f(v + v<sub>observer</sub>)/v = 500(340 + 20)/340 = 500(360)/340 ≈ 529 Hz; observer approaching uses the plus sign in the numerator, raising the frequency. 471 Hz comes from using the minus sign (the receding-observer form) instead. 500 Hz ignores the Doppler shift entirely. 559 Hz does not come from any correct step; the shift from a 20 m/s observer is only about +29 Hz."
     },
     {
       "id": "14-32",
@@ -4859,7 +4859,7 @@ const QUESTIONS = {
         "0.90 m"
       ],
       "correct": 1,
-      "explanation": "λ_n = 2L/n with n = 1: λ₁ = 2(0.90)/1 = 1.8 m — the fundamental wavelength is always twice the string's length for a string fixed at both ends. 0.45 m comes from dividing L by 2 instead of multiplying. 0.90 m mistakes the string's length itself for its wavelength. 3.6 m comes from doubling the correct answer, effectively using 4L instead of 2L."
+      "explanation": "λ<sub>n</sub> = 2L/n with n = 1: λ₁ = 2(0.90)/1 = 1.8 m — the fundamental wavelength is always twice the string's length for a string fixed at both ends. 0.45 m comes from dividing L by 2 instead of multiplying. 0.90 m mistakes the string's length itself for its wavelength. 3.6 m comes from doubling the correct answer, effectively using 4L instead of 2L."
     },
     {
       "id": "14-41",
@@ -4872,7 +4872,7 @@ const QUESTIONS = {
         "It decreases."
       ],
       "correct": 2,
-      "explanation": "Since f_n = nv/(2L), a higher wave speed v (with n and L fixed) directly raises the frequency — exactly why tightening a guitar string raises its pitch. 'It decreases' has the relationship backwards, treating higher speed as lowering frequency. 'Stays the same' wrongly ignores v's role in the formula altogether. 'Cannot be determined' is wrong because the direction of the change (an increase) follows from v increasing alone — the exact tension value isn't needed to know which way f moves."
+      "explanation": "Since f<sub>n</sub> = nv/(2L), a higher wave speed v (with n and L fixed) directly raises the frequency — exactly why tightening a guitar string raises its pitch. 'It decreases' has the relationship backwards, treating higher speed as lowering frequency. 'Stays the same' wrongly ignores v's role in the formula altogether. 'Cannot be determined' is wrong because the direction of the change (an increase) follows from v increasing alone — the exact tension value isn't needed to know which way f moves."
     },
     {
       "id": "14-42",
@@ -5146,7 +5146,7 @@ const QUESTIONS = {
         "t = mλ_film"
       ],
       "correct": 1,
-      "explanation": "2t = mλ_film, a whole number of wavelengths — when both surfaces either shift together or don't shift at all, their phase effects either cancel out or don't factor in, leaving the ordinary constructive condition intact. '2t = (m + ½)λ_film' is the condition for the MISMATCHED case instead, where the extra half-wavelength swap applies. '2t = mλ_film/2' introduces an extra, unjustified factor of one-half into the formula. 't = mλ_film' drops the essential factor of 2 that accounts for the round-trip path through the film."
+      "explanation": "2t = mλ<sub>film</sub>, a whole number of wavelengths — when both surfaces either shift together or don't shift at all, their phase effects either cancel out or don't factor in, leaving the ordinary constructive condition intact. '2t = (m + ½)λ<sub>film</sub>' is the condition for the MISMATCHED case instead, where the extra half-wavelength swap applies. '2t = mλ<sub>film</sub>/2' introduces an extra, unjustified factor of one-half into the formula. 't = mλ<sub>film</sub>' drops the essential factor of 2 that accounts for the round-trip path through the film."
     },
     {
       "id": "14-63",
@@ -5159,7 +5159,7 @@ const QUESTIONS = {
         "2t = 2mλ_film"
       ],
       "correct": 1,
-      "explanation": "2t = (m + ½)λ_film — the single unmatched 180° shift adds an extra half-wavelength to the bookkeeping, swapping which path differences count as constructive versus destructive compared to the matched case. '2t = mλ_film' is the MATCHED-case condition instead, missing the needed half-wavelength offset. '2t = 2mλ_film' introduces an unjustified extra factor of 2 on m. 't = (m + ½)λ_film' drops the factor of 2 that accounts for the round-trip path through the film."
+      "explanation": "2t = (m + ½)λ<sub>film</sub> — the single unmatched 180° shift adds an extra half-wavelength to the bookkeeping, swapping which path differences count as constructive versus destructive compared to the matched case. '2t = mλ<sub>film</sub>' is the MATCHED-case condition instead, missing the needed half-wavelength offset. '2t = 2mλ<sub>film</sub>' introduces an unjustified extra factor of 2 on m. 't = (m + ½)λ<sub>film</sub>' drops the factor of 2 that accounts for the round-trip path through the film."
     },
     {
       "id": "14-64",
@@ -5173,7 +5173,7 @@ const QUESTIONS = {
         "70 nm"
       ],
       "correct": 2,
-      "explanation": "First convert to the wavelength inside the film: λ_film = λ_vacuum/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ_film with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm does not come from any correct step; skipping the index conversion and using 500 nm directly would give 125 nm. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ_film itself for the answer, skipping the mismatched-condition calculation entirely."
+      "explanation": "First convert to the wavelength inside the film: λ<sub>film</sub> = λ<sub>vacuum</sub>/n = 500/1.33 ≈ 376 nm. Using the mismatched condition 2t = (m + ½)λ<sub>film</sub> with the smallest value m = 0: 2t = (½)(376) = 188, so t ≈ 94 nm. 70 nm does not come from any correct step; skipping the index conversion and using 500 nm directly would give 125 nm. 188 nm mistakes the value of 2t itself for t, forgetting to divide by 2 at the final step. 376 nm mistakes λ<sub>film</sub> itself for the answer, skipping the mismatched-condition calculation entirely."
     },
     {
       "id": "14-65",
@@ -5186,7 +5186,7 @@ const QUESTIONS = {
         "The soap molecules themselves are colored and simply reflect different colors at random."
       ],
       "correct": 1,
-      "explanation": "Since the constructive-interference condition (2t = mλ_film or (m + ½)λ_film, depending on the phase-shift situation) depends directly on thickness t, different wavelengths satisfy it at different thicknesses — so different colors appear brightest at different points on the film's slightly uneven surface, producing the familiar swirling rainbow pattern. 'Different colors travel at different speeds in the film' invents a dispersion-based explanation rather than the actual thickness-dependence mechanism. 'Soap molecules are colored, reflecting at random' incorrectly attributes the effect to pigment rather than interference — soap is colorless. 'Caused by diffraction, not interference, nothing to do with thickness' misidentifies both the mechanism (it is interference) and dismisses thickness, which is precisely the variable driving the color variation."
+      "explanation": "Since the constructive-interference condition (2t = mλ<sub>film</sub> or (m + ½)λ<sub>film</sub>, depending on the phase-shift situation) depends directly on thickness t, different wavelengths satisfy it at different thicknesses — so different colors appear brightest at different points on the film's slightly uneven surface, producing the familiar swirling rainbow pattern. 'Different colors travel at different speeds in the film' invents a dispersion-based explanation rather than the actual thickness-dependence mechanism. 'Soap molecules are colored, reflecting at random' incorrectly attributes the effect to pigment rather than interference — soap is colorless. 'Caused by diffraction, not interference, nothing to do with thickness' misidentifies both the mechanism (it is interference) and dismisses thickness, which is precisely the variable driving the color variation."
     },
     {
       "id": "14-66",
@@ -5240,7 +5240,7 @@ const QUESTIONS = {
         "3.3 × 10⁻²⁰ J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 3.3 × 10<sup>-19</sup> J. A photon's energy is E = hf. With h = 6.63 × 10<sup>-34</sup> J·s and f = 5.0 × 10<sup>14</sup> Hz, E = 6.63 × 5.0 × 10<sup>-34+14</sup> = 33.2 × 10<sup>-20</sup> = 3.3 × 10<sup>-19</sup> J (about 2.1 eV, visible light). (B) 3.3 × 10<sup>-17</sup> J is wrong because the exponent is off by two; adding 34 and 14 incorrectly would give this. (C) 3.3 × 10<sup>-18</sup> J is wrong because it is a power-of-ten slip when converting 33.2 × 10<sup>-20</sup> to scientific notation. (D) 3.3 × 10<sup>-20</sup> J is wrong because it forgets to shift the decimal after multiplying 6.63 by 5.0 to get 33."
+      "explanation": "Correct: (A) 3.3 × 10<sup>-19</sup> J. A photon's energy is E = hf. With h = 6.63 × 10<sup>-34</sup> J·s and f = 5.0 × 10<sup>14</sup> Hz, E = 6.63 × 5.0 × 10<sup>-34+14</sup> = 33.2 × 10<sup>-20</sup> = 3.3 × 10<sup>-19</sup> J (about 2.1 eV, visible light).\n\n(B) 3.3 × 10<sup>-17</sup> J is wrong because the exponent is off by two; adding 34 and 14 incorrectly would give this.\n(C) 3.3 × 10<sup>-18</sup> J is wrong because it is a power-of-ten slip when converting 33.2 × 10<sup>-20</sup> to scientific notation.\n(D) 3.3 × 10<sup>-20</sup> J is wrong because it forgets to shift the decimal after multiplying 6.63 by 5.0 to get 33."
     },
     {
       "id": "15-2",
@@ -5253,7 +5253,7 @@ const QUESTIONS = {
         "4.0 eV"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 2.0 eV. With hc = 1240 eV·nm, a photon's energy is E = hc/λ. For λ = 620 nm, E = 1240/620 = 2.0 eV. (B) 8.0 eV is wrong because it would need a wavelength of 155 nm; 1240/620 is only 2.0. (C) 0.5 eV is wrong because it inverts the ratio, computing 620/1240. (D) 4.0 eV is wrong because it is double the correct value, as if the wavelength were 310 nm."
+      "explanation": "Correct: (A) 2.0 eV. With hc = 1240 eV·nm, a photon's energy is E = hc/λ. For λ = 620 nm, E = 1240/620 = 2.0 eV.\n\n(B) 8.0 eV is wrong because it would need a wavelength of 155 nm; 1240/620 is only 2.0.\n(C) 0.5 eV is wrong because it inverts the ratio, computing 620/1240.\n(D) 4.0 eV is wrong because it is double the correct value, as if the wavelength were 310 nm."
     },
     {
       "id": "15-3",
@@ -5292,7 +5292,7 @@ const QUESTIONS = {
         "7.9 × 10⁻¹³ m"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 7.9 × 10<sup>-13</sup> m. The de Broglie wavelength is λ = h/p = h/(mv). Momentum p = (1.67 × 10<sup>-27</sup>)(5.0 × 10<sup>5</sup>) = 8.35 × 10<sup>-22</sup> kg·m/s, so λ = 6.63 × 10<sup>-34</sup>/8.35 × 10<sup>-22</sup> = 7.9 × 10<sup>-13</sup> m. (A) 7.9 × 10<sup>-14</sup> m is wrong because the exponent is one too small, a power-of-ten slip after dividing the mantissas. (B) 7.9 × 10<sup>-11</sup> m is wrong because the exponent is two too large, from forgetting to move the decimal after dividing 6.63 by 8.35. (C) 7.9 × 10<sup>-12</sup> m is wrong because it forgets that 6.63/8.35 = 0.79 is less than 1, so 10<sup>-12</sup> must become 10<sup>-13</sup> in scientific notation."
+      "explanation": "Correct: (D) 7.9 × 10<sup>-13</sup> m. The de Broglie wavelength is λ = h/p = h/(mv). Momentum p = (1.67 × 10<sup>-27</sup>)(5.0 × 10<sup>5</sup>) = 8.35 × 10<sup>-22</sup> kg·m/s, so λ = 6.63 × 10<sup>-34</sup>/8.35 × 10<sup>-22</sup> = 7.9 × 10<sup>-13</sup> m.\n\n(A) 7.9 × 10<sup>-14</sup> m is wrong because the exponent is one too small, a power-of-ten slip after dividing the mantissas.\n(B) 7.9 × 10<sup>-11</sup> m is wrong because the exponent is two too large, from forgetting to move the decimal after dividing 6.63 by 8.35.\n(C) 7.9 × 10<sup>-12</sup> m is wrong because it forgets that 6.63/8.35 = 0.79 is less than 1, so 10<sup>-12</sup> must become 10<sup>-13</sup> in scientific notation."
     },
     {
       "id": "15-6",
@@ -5344,7 +5344,7 @@ const QUESTIONS = {
         "6.0 eV"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 7.0 eV. A photon emitted in a transition carries away the energy difference between levels: E = E<sub>initial</sub> − E<sub>final</sub>. For n=3 to n=1, E = (−1.0) − (−8.0) = 7.0 eV. (A) 1.0 eV is wrong because it uses only the magnitude of the n=3 level and ignores the final level. (C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) instead of subtracting the energies. (D) 6.0 eV is wrong because it is the n=2 to n=1 gap (8.0 − 2.0), a different transition."
+      "explanation": "Correct: (B) 7.0 eV. A photon emitted in a transition carries away the energy difference between levels: E = E<sub>initial</sub> − E<sub>final</sub>. For n=3 to n=1, E = (−1.0) − (−8.0) = 7.0 eV.\n\n(A) 1.0 eV is wrong because it uses only the magnitude of the n=3 level and ignores the final level.\n(C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) instead of subtracting the energies.\n(D) 6.0 eV is wrong because it is the n=2 to n=1 gap (8.0 − 2.0), a different transition."
     },
     {
       "id": "15-10",
@@ -5357,7 +5357,7 @@ const QUESTIONS = {
         "1.0 eV"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 6.0 eV. The photon energy equals the level difference, E = E<sub>2</sub> − E<sub>1</sub> = (−2.0) − (−8.0) = 6.0 eV. (B) 7.0 eV is wrong because it is the n=3 to n=1 gap, a different transition. (C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) rather than subtracting the two levels in question. (D) 1.0 eV is wrong because it is the n=3 to n=2 gap (−1.0 − (−2.0)), not the n=2 to n=1 gap."
+      "explanation": "Correct: (A) 6.0 eV. The photon energy equals the level difference, E = E<sub>2</sub> − E<sub>1</sub> = (−2.0) − (−8.0) = 6.0 eV.\n\n(B) 7.0 eV is wrong because it is the n=3 to n=1 gap, a different transition.\n(C) 9.0 eV is wrong because it adds the magnitudes (8.0 + 1.0) rather than subtracting the two levels in question.\n(D) 1.0 eV is wrong because it is the n=3 to n=2 gap (−1.0 − (−2.0)), not the n=2 to n=1 gap."
     },
     {
       "id": "15-11",
@@ -5370,7 +5370,7 @@ const QUESTIONS = {
         "6.0 eV"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 1.0 eV. The emitted photon energy is the level difference: E = E<sub>3</sub> − E<sub>2</sub> = (−1.0) − (−2.0) = 1.0 eV. This is the smallest gap, because the levels get closer as n increases. (A) 9.0 eV is wrong because it adds the magnitudes of the n=1 and n=3 levels, which is not any transition. (B) 7.0 eV is wrong because it is the n=3 to n=1 gap, not n=3 to n=2. (D) 6.0 eV is wrong because it is the n=2 to n=1 gap, not n=3 to n=2."
+      "explanation": "Correct: (C) 1.0 eV. The emitted photon energy is the level difference: E = E<sub>3</sub> − E<sub>2</sub> = (−1.0) − (−2.0) = 1.0 eV. This is the smallest gap, because the levels get closer as n increases.\n\n(A) 9.0 eV is wrong because it adds the magnitudes of the n=1 and n=3 levels, which is not any transition.\n(B) 7.0 eV is wrong because it is the n=3 to n=1 gap, not n=3 to n=2.\n(D) 6.0 eV is wrong because it is the n=2 to n=1 gap, not n=3 to n=2."
     },
     {
       "id": "15-12",
@@ -5396,7 +5396,7 @@ const QUESTIONS = {
         "708 nm"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 177 nm. The photon wavelength is λ = hc/E. With hc = 1240 eV·nm and E = 7.0 eV, λ = 1240/7.0 = 177 nm, which is ultraviolet. Larger energy means a shorter wavelength. (A) 354 nm is wrong because it would result from using E = 3.5 eV, half the actual energy. (B) 89 nm is wrong because it would result from using E = 14 eV, double the actual energy. (D) 708 nm is wrong because it would result from using E = 1.75 eV, a quarter of the actual energy."
+      "explanation": "Correct: (C) 177 nm. The photon wavelength is λ = hc/E. With hc = 1240 eV·nm and E = 7.0 eV, λ = 1240/7.0 = 177 nm, which is ultraviolet. Larger energy means a shorter wavelength.\n\n(A) 354 nm is wrong because it would result from using E = 3.5 eV, half the actual energy.\n(B) 89 nm is wrong because it would result from using E = 14 eV, double the actual energy.\n(D) 708 nm is wrong because it would result from using E = 1.75 eV, a quarter of the actual energy."
     },
     {
       "id": "15-14",
@@ -5606,7 +5606,7 @@ const QUESTIONS = {
         "It stays the same."
       ],
       "correct": 2,
-      "explanation": "It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ_peak ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one."
+      "explanation": "It roughly halves. Peak wavelength is inversely proportional to absolute temperature (Wien's Law: λ<sub>peak</sub> ∝ 1/T) — doubling temperature roughly halves the peak wavelength, not doubles it. \"Roughly doubles\" inverts this proportionality entirely. \"Stays the same\" ignores that peak wavelength depends on temperature at all. \"Quadruples\" would follow from an inverse-square relationship (1/T²), but Wien's Law is a simple inverse (1/T), not a squared one."
     },
     {
       "id": "15-30",
@@ -5619,7 +5619,7 @@ const QUESTIONS = {
         "5.0 eV"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 2.0 eV. In the photoelectric effect, K<sub>max</sub> = E<sub>photon</sub> − φ. With E = 5.0 eV and φ = 3.0 eV, K<sub>max</sub> = 5.0 − 3.0 = 2.0 eV. The work function is the minimum energy needed to free an electron, and the rest becomes kinetic energy. (A) 8.0 eV is wrong because it adds the photon energy and work function instead of subtracting. (C) 3.0 eV is wrong because it gives the work function itself, which is the energy spent escaping the metal, not the leftover kinetic energy. (D) 5.0 eV is wrong because it ignores the work function and gives all photon energy to the electron."
+      "explanation": "Correct: (B) 2.0 eV. In the photoelectric effect, K<sub>max</sub> = E<sub>photon</sub> − φ. With E = 5.0 eV and φ = 3.0 eV, K<sub>max</sub> = 5.0 − 3.0 = 2.0 eV. The work function is the minimum energy needed to free an electron, and the rest becomes kinetic energy.\n\n(A) 8.0 eV is wrong because it adds the photon energy and work function instead of subtracting.\n(C) 3.0 eV is wrong because it gives the work function itself, which is the energy spent escaping the metal, not the leftover kinetic energy.\n(D) 5.0 eV is wrong because it ignores the work function and gives all photon energy to the electron."
     },
     {
       "id": "15-31",
@@ -5645,7 +5645,7 @@ const QUESTIONS = {
         "3.0 × 10¹⁴ Hz"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 6.0 × 10<sup>14</sup> Hz. At threshold, hf<sub>0</sub> = φ. Convert: φ = 2.5 eV × 1.6 × 10<sup>-19</sup> J/eV = 4.0 × 10<sup>-19</sup> J. Then f<sub>0</sub> = φ/h = 4.0 × 10<sup>-19</sup>/6.63 × 10<sup>-34</sup> = 6.0 × 10<sup>14</sup> Hz. (B) 1.5 × 10<sup>14</sup> Hz is wrong because it is a factor of 4 too small, from an arithmetic error in the division. (C) 1.2 × 10<sup>15</sup> Hz is wrong because it is twice the correct value, as if φ had been doubled. (D) 3.0 × 10<sup>14</sup> Hz is wrong because it is half the correct value, as if φ had been halved."
+      "explanation": "Correct: (A) 6.0 × 10<sup>14</sup> Hz. At threshold, hf<sub>0</sub> = φ. Convert: φ = 2.5 eV × 1.6 × 10<sup>-19</sup> J/eV = 4.0 × 10<sup>-19</sup> J. Then f<sub>0</sub> = φ/h = 4.0 × 10<sup>-19</sup>/6.63 × 10<sup>-34</sup> = 6.0 × 10<sup>14</sup> Hz.\n\n(B) 1.5 × 10<sup>14</sup> Hz is wrong because it is a factor of 4 too small, from an arithmetic error in the division.\n(C) 1.2 × 10<sup>15</sup> Hz is wrong because it is twice the correct value, as if φ had been doubled.\n(D) 3.0 × 10<sup>14</sup> Hz is wrong because it is half the correct value, as if φ had been halved."
     },
     {
       "id": "15-33",
@@ -5658,7 +5658,7 @@ const QUESTIONS = {
         "1.0 eV"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 0.5 eV. First find the photon energy: E = hc/λ = 1240/500 = 2.48 eV, about 2.5 eV. Then K<sub>max</sub> = E − φ = 2.5 − 2.0 = 0.5 eV (more precisely 0.48 eV). (A) 2.5 eV is wrong because it is the photon energy and forgets to subtract the work function. (B) 2.0 eV is wrong because it is the work function, not the leftover kinetic energy. (D) 1.0 eV is wrong because it would need a photon energy of 3.0 eV, but 1240/500 is about 2.5 eV."
+      "explanation": "Correct: (C) 0.5 eV. First find the photon energy: E = hc/λ = 1240/500 = 2.48 eV, about 2.5 eV. Then K<sub>max</sub> = E − φ = 2.5 − 2.0 = 0.5 eV (more precisely 0.48 eV).\n\n(A) 2.5 eV is wrong because it is the photon energy and forgets to subtract the work function.\n(B) 2.0 eV is wrong because it is the work function, not the leftover kinetic energy.\n(D) 1.0 eV is wrong because it would need a photon energy of 3.0 eV, but 1240/500 is about 2.5 eV."
     },
     {
       "id": "15-34",
@@ -5710,7 +5710,7 @@ const QUESTIONS = {
         "0.75 V"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) 1.5 V. The stopping potential satisfies eV<sub>s</sub> = K<sub>max</sub>. With K<sub>max</sub> = 1.5 eV, V<sub>s</sub> = 1.5 eV / e = 1.5 V, because 1 eV is the energy of one electron charge crossing 1 V. (A) 1.5 × 10<sup>-19</sup> V is wrong because it treats a joule-scale number as volts; in eV units the electron charge is already absorbed, so the number is unchanged. (C) 3.0 V is wrong because it doubles the value for no reason. (D) 0.75 V is wrong because it halves the value for no reason."
+      "explanation": "Correct: (B) 1.5 V. The stopping potential satisfies eV<sub>s</sub> = K<sub>max</sub>. With K<sub>max</sub> = 1.5 eV, V<sub>s</sub> = 1.5 eV / e = 1.5 V, because 1 eV is the energy of one electron charge crossing 1 V.\n\n(A) 1.5 × 10<sup>-19</sup> V is wrong because it treats a joule-scale number as volts; in eV units the electron charge is already absorbed, so the number is unchanged.\n(C) 3.0 V is wrong because it doubles the value for no reason.\n(D) 0.75 V is wrong because it halves the value for no reason."
     },
     {
       "id": "15-38",
@@ -5828,7 +5828,7 @@ const QUESTIONS = {
         "9.0 × 10¹⁶ J"
       ],
       "correct": 2,
-      "explanation": "Correct: (C) 9.0 × 10<sup>13</sup> J. Mass-energy equivalence gives E = mc<sup>2</sup>. With m = 1.0 × 10<sup>-3</sup> kg and c = 3.0 × 10<sup>8</sup> m/s, E = (1.0 × 10<sup>-3</sup>)(9.0 × 10<sup>16</sup>) = 9.0 × 10<sup>13</sup> J. (A) 2.7 × 10<sup>25</sup> J is wrong because it is c<sup>3</sup> with the mass left out. (B) 3.0 × 10<sup>7</sup> J is wrong because it does not follow from mc (which is 3.0 × 10<sup>5</sup> J) and is just a wrong power of ten; the formula needs c squared. (D) 9.0 × 10<sup>16</sup> J is wrong because it forgets to multiply by the mass of 0.0010 kg, giving only c<sup>2</sup>."
+      "explanation": "Correct: (C) 9.0 × 10<sup>13</sup> J. Mass-energy equivalence gives E = mc<sup>2</sup>. With m = 1.0 × 10<sup>-3</sup> kg and c = 3.0 × 10<sup>8</sup> m/s, E = (1.0 × 10<sup>-3</sup>)(9.0 × 10<sup>16</sup>) = 9.0 × 10<sup>13</sup> J.\n\n(A) 2.7 × 10<sup>25</sup> J is wrong because it is c<sup>3</sup> with the mass left out.\n(B) 3.0 × 10<sup>7</sup> J is wrong because it does not follow from mc (which is 3.0 × 10<sup>5</sup> J) and is just a wrong power of ten; the formula needs c squared.\n(D) 9.0 × 10<sup>16</sup> J is wrong because it forgets to multiply by the mass of 0.0010 kg, giving only c<sup>2</sup>."
     },
     {
       "id": "15-47",
@@ -5880,7 +5880,7 @@ const QUESTIONS = {
         "19 MeV"
       ],
       "correct": 3,
-      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV. (A) 190 MeV is wrong because it is ten times too large, a decimal slip. (B) 0.019 MeV is wrong because it is 19 with the decimal shifted three places. (C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
+      "explanation": "Correct: (D) 19 MeV. Energy equals mass defect times the conversion factor: E = (0.020 u)(931 MeV/u) = 18.6, about 19 MeV.\n\n(A) 190 MeV is wrong because it is ten times too large, a decimal slip.\n(B) 0.019 MeV is wrong because it is 19 with the decimal shifted three places.\n(C) 1.9 MeV is wrong because it is ten times too small, a decimal slip."
     },
     {
       "id": "15-51",
@@ -5933,7 +5933,7 @@ const QUESTIONS = {
         "3.2 × 10⁻⁸ J"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) 3.2 × 10<sup>-11</sup> J. Convert 200 MeV to eV: 200 × 10<sup>6</sup> = 2.0 × 10<sup>8</sup> eV. Multiply by 1.6 × 10<sup>-19</sup> J/eV: 2.0 × 10<sup>8</sup> × 1.6 × 10<sup>-19</sup> = 3.2 × 10<sup>-11</sup> J. (B) 3.2 × 10<sup>-14</sup> J is wrong because it uses a factor of 10<sup>3</sup> (keV) instead of 10<sup>6</sup> (MeV) for the prefix. (C) 3.2 × 10<sup>-5</sup> J is wrong because it is a power-of-ten error in the conversion from MeV to joules. (D) 3.2 × 10<sup>-8</sup> J is wrong because it uses a prefix factor of 10<sup>9</sup> (GeV) instead of 10<sup>6</sup>."
+      "explanation": "Correct: (A) 3.2 × 10<sup>-11</sup> J. Convert 200 MeV to eV: 200 × 10<sup>6</sup> = 2.0 × 10<sup>8</sup> eV. Multiply by 1.6 × 10<sup>-19</sup> J/eV: 2.0 × 10<sup>8</sup> × 1.6 × 10<sup>-19</sup> = 3.2 × 10<sup>-11</sup> J.\n\n(B) 3.2 × 10<sup>-14</sup> J is wrong because it uses a factor of 10<sup>3</sup> (keV) instead of 10<sup>6</sup> (MeV) for the prefix.\n(C) 3.2 × 10<sup>-5</sup> J is wrong because it is a power-of-ten error in the conversion from MeV to joules.\n(D) 3.2 × 10<sup>-8</sup> J is wrong because it uses a prefix factor of 10<sup>9</sup> (GeV) instead of 10<sup>6</sup>."
     },
     {
       "id": "15-55",
@@ -5959,7 +5959,7 @@ const QUESTIONS = {
         "Radium-234"
       ],
       "correct": 0,
-      "explanation": "Correct: (A) Thorium-234. An alpha particle is a helium-4 nucleus (2 protons, 2 neutrons), so alpha decay lowers the mass number by 4 and the atomic number by 2. From U-238 (Z = 92) the daughter has A = 234 and Z = 90, which is thorium. (B) Thorium-242 is wrong because it adds 4 to the mass number instead of subtracting. (C) Protactinium-234 is wrong because Z = 91 would mean losing only one proton, as in beta-minus decay of Th-234; alpha decay lowers Z by 2. (D) Radium-234 is wrong because Z = 88 would mean losing four protons, and Ra with A = 234 does not match alpha decay (Z = 90)."
+      "explanation": "Correct: (A) Thorium-234. An alpha particle is a helium-4 nucleus (2 protons, 2 neutrons), so alpha decay lowers the mass number by 4 and the atomic number by 2. From U-238 (Z = 92) the daughter has A = 234 and Z = 90, which is thorium.\n\n(B) Thorium-242 is wrong because it adds 4 to the mass number instead of subtracting.\n(C) Protactinium-234 is wrong because Z = 91 would mean losing only one proton, as in beta-minus decay of Th-234; alpha decay lowers Z by 2.\n(D) Radium-234 is wrong because Z = 88 would mean losing four protons, and Ra with A = 234 does not match alpha decay (Z = 90)."
     },
     {
       "id": "15-57",
@@ -5972,7 +5972,7 @@ const QUESTIONS = {
         "Nitrogen-13"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Nitrogen-14. In beta-minus decay a neutron becomes a proton and emits an electron and antineutrino. So Z increases by 1 and A is unchanged. C-14 (Z = 6) becomes Z = 7, which is nitrogen, with A = 14. (A) Boron-14 is wrong because Z = 5 means a proton was lost, which is the opposite of beta-minus decay. (C) Carbon-13 is wrong because it has the same Z and a different A, which would be neutron loss, not beta decay. (D) Nitrogen-13 is wrong because it has the right element but the mass number changed; beta decay conserves the mass number."
+      "explanation": "Correct: (B) Nitrogen-14. In beta-minus decay a neutron becomes a proton and emits an electron and antineutrino. So Z increases by 1 and A is unchanged. C-14 (Z = 6) becomes Z = 7, which is nitrogen, with A = 14.\n\n(A) Boron-14 is wrong because Z = 5 means a proton was lost, which is the opposite of beta-minus decay.\n(C) Carbon-13 is wrong because it has the same Z and a different A, which would be neutron loss, not beta decay.\n(D) Nitrogen-13 is wrong because it has the right element but the mass number changed; beta decay conserves the mass number."
     },
     {
       "id": "15-58",
@@ -5985,7 +5985,7 @@ const QUESTIONS = {
         "Sodium-21"
       ],
       "correct": 1,
-      "explanation": "Correct: (B) Neon-22. In beta-plus decay a proton becomes a neutron and emits a positron and neutrino. So Z decreases by 1 and A is unchanged. Na-22 (Z = 11) becomes Z = 10, which is neon, with A = 22. (A) Magnesium-22 is wrong because Z = 12 is an increase, which is beta-minus behavior. (C) Neon-21 is wrong because the mass number must be conserved in beta decay, so A stays 22. (D) Sodium-21 is wrong because it keeps Z = 11 and changes A, which is not beta-plus decay."
+      "explanation": "Correct: (B) Neon-22. In beta-plus decay a proton becomes a neutron and emits a positron and neutrino. So Z decreases by 1 and A is unchanged. Na-22 (Z = 11) becomes Z = 10, which is neon, with A = 22.\n\n(A) Magnesium-22 is wrong because Z = 12 is an increase, which is beta-minus behavior.\n(C) Neon-21 is wrong because the mass number must be conserved in beta decay, so A stays 22.\n(D) Sodium-21 is wrong because it keeps Z = 11 and changes A, which is not beta-plus decay."
     },
     {
       "id": "15-59",

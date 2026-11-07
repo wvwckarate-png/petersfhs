@@ -929,7 +929,7 @@ const QUESTIONS = {
         "It generally increases down the period, then resets to zero at each new row."
       ],
       "correct": 0,
-      "explanation": "Electron affinity magnitude follows the same effective-nuclear-charge story as ionization energy and electronegativity: moving left to right, protons increase while shielding stays roughly constant, so Z_eff rises, and an incoming electron is pulled in more strongly, releasing more energy — a larger electron affinity magnitude. 'It generally decreases, since atomic radius is increasing' has the radius trend backward across a period — atomic radius actually decreases left to right (the same rising Z_eff that increases electron affinity also shrinks radius), so this choice contradicts the established atomic-radius trend, not just electron affinity. 'It stays exactly constant across the whole period' ignores that Z_eff, and therefore electron affinity, changes substantially across a period — if it were constant, there would be no periodic trend to speak of at all, which conflicts with the whole premise of periodic trends. 'It generally increases down the period, then resets to zero at each new row' confuses moving across a period with moving down a group and invents a 'reset' behavior that doesn't correspond to any real periodic pattern — electron affinity trends are described period-by-period (left to right) and group-by-group (top to bottom) separately, not as a single up-then-reset sequence."
+      "explanation": "Electron affinity magnitude follows the same effective-nuclear-charge story as ionization energy and electronegativity: moving left to right, protons increase while shielding stays roughly constant, so Z<sub>eff</sub> rises, and an incoming electron is pulled in more strongly, releasing more energy — a larger electron affinity magnitude. 'It generally decreases, since atomic radius is increasing' has the radius trend backward across a period — atomic radius actually decreases left to right (the same rising Z<sub>eff</sub> that increases electron affinity also shrinks radius), so this choice contradicts the established atomic-radius trend, not just electron affinity. 'It stays exactly constant across the whole period' ignores that Z<sub>eff</sub>, and therefore electron affinity, changes substantially across a period — if it were constant, there would be no periodic trend to speak of at all, which conflicts with the whole premise of periodic trends. 'It generally increases down the period, then resets to zero at each new row' confuses moving across a period with moving down a group and invents a 'reset' behavior that doesn't correspond to any real periodic pattern — electron affinity trends are described period-by-period (left to right) and group-by-group (top to bottom) separately, not as a single up-then-reset sequence."
     },
     {
       "id": "1-77",
@@ -942,7 +942,7 @@ const QUESTIONS = {
         "Nitrogen's added electron would need to enter a new, higher-energy shell."
       ],
       "correct": 1,
-      "explanation": "Nitrogen's 2p³ configuration is a stable, half-filled subshell (one electron in each of the three 2p orbitals, all unpaired by Hund's rule); adding a fourth electron forces pairing in an already-occupied orbital, which costs extra energy from increased electron-electron repulsion and makes the process less favorable than the simple Z_eff trend alone would predict — this is why N's electron affinity is lower (less negative/less favorable) than the general left-to-right trend suggests, and even lower than its neighbor oxygen's. 'Nitrogen's added electron would need to enter a new, higher-energy shell' is incorrect — the added electron goes into the existing 2p subshell (same n = 2 shell nitrogen's other electrons already occupy), not a new shell; that would only happen when crossing into a new period, not within Period 2. 'Nitrogen is a noble gas' is simply false — nitrogen is a Group 15 nonmetal, not a noble gas, and this mixes up nitrogen with the genuine noble-gas exception (Group 18 elements have essentially zero electron affinity because their subshells are already completely full, which is a different exception from the one this question is asking about). 'Oxygen's nucleus has a lower effective nuclear charge than nitrogen's' is backward — oxygen has one more proton than nitrogen and, per the standard across-a-period trend, a higher Z_eff, not a lower one; that's exactly why oxygen's electron affinity would be expected to be larger before even considering nitrogen's half-filled-subshell exception."
+      "explanation": "Nitrogen's 2p³ configuration is a stable, half-filled subshell (one electron in each of the three 2p orbitals, all unpaired by Hund's rule); adding a fourth electron forces pairing in an already-occupied orbital, which costs extra energy from increased electron-electron repulsion and makes the process less favorable than the simple Z<sub>eff</sub> trend alone would predict — this is why N's electron affinity is lower (less negative/less favorable) than the general left-to-right trend suggests, and even lower than its neighbor oxygen's. 'Nitrogen's added electron would need to enter a new, higher-energy shell' is incorrect — the added electron goes into the existing 2p subshell (same n = 2 shell nitrogen's other electrons already occupy), not a new shell; that would only happen when crossing into a new period, not within Period 2. 'Nitrogen is a noble gas' is simply false — nitrogen is a Group 15 nonmetal, not a noble gas, and this mixes up nitrogen with the genuine noble-gas exception (Group 18 elements have essentially zero electron affinity because their subshells are already completely full, which is a different exception from the one this question is asking about). 'Oxygen's nucleus has a lower effective nuclear charge than nitrogen's' is backward — oxygen has one more proton than nitrogen and, per the standard across-a-period trend, a higher Z<sub>eff</sub>, not a lower one; that's exactly why oxygen's electron affinity would be expected to be larger before even considering nitrogen's half-filled-subshell exception."
     },
     {
       "id": "1-78",
@@ -1309,7 +1309,7 @@ const QUESTIONS = {
         "Lattice energy depends on the difference between cation and anion radii, not their sum."
       ],
       "correct": 1,
-      "explanation": "Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r_cation + r_anion) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (D) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (A) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (C) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
+      "explanation": "Lattice energy in a simple Coulombic model depends on the distance between ion centers, which is essentially the sum of the cation and anion radii (r<sub>cation</sub> + r<sub>anion</sub>) — not on how that total distance is split between the two ions individually. Since AB and CD could plausibly have the same total ion-center distance despite very different individual ion sizes, they could indeed have similar lattice energies. Option (D) is wrong because it's the sum of the radii that matters in this simple model, not their difference. Option (A) is wrong because the described scenario is entirely possible under the sum-based model — differing individual ion sizes don't force differing lattice energies if the total separation distance is similar. Option (C) is wrong because it ignores the smaller ion's contribution entirely; both ions' radii add to the total separation distance, not just the larger one's."
     },
     {
       "id": "2-28",
@@ -2276,7 +2276,7 @@ const QUESTIONS = {
         "Pressure only"
       ],
       "correct": 0,
-      "explanation": "Correct: absolute temperature only. In kinetic molecular theory, the average kinetic energy of the particles of a gas is proportional to the absolute (Kelvin) temperature: KE(avg) = (3/2)RT per mole. All gases at the same temperature therefore have the same average kinetic energy, no matter what they are. Molar mass does not change the average kinetic energy; it changes the average SPEED, because KE = (1/2)mv<sup>2</sup>, so heavier particles move more slowly at the same KE. (C) and (B) are wrong because molar mass does not determine the average kinetic energy; it affects speed.\n\n(D) is wrong because pressure is a macroscopic result of the collisions, which depends on temperature, volume, and the number of moles, while the average kinetic energy is tied directly to temperature."
+      "explanation": "Correct: absolute temperature only. In kinetic molecular theory, the average kinetic energy of the particles of a gas is proportional to the absolute (Kelvin) temperature: KE(avg) = (3/2)RT per mole. All gases at the same temperature therefore have the same average kinetic energy, no matter what they are. Molar mass does not change the average kinetic energy; it changes the average SPEED, because KE = (1/2)mv<sup>2</sup>, so heavier particles move more slowly at the same KE.\n\n(C) and\n(B) are wrong because molar mass does not determine the average kinetic energy; it affects speed.\n(D) is wrong because pressure is a macroscopic result of the collisions, which depends on temperature, volume, and the number of moles, while the average kinetic energy is tied directly to temperature."
     },
     {
       "id": "3-34",
@@ -2563,7 +2563,7 @@ const QUESTIONS = {
         "Hexane (nonpolar) and heptane (nonpolar)"
       ],
       "correct": 3,
-      "explanation": "Correct: hexane (nonpolar) and heptane (nonpolar). The rule is 'like dissolves like': two liquids mix completely when the attractions between the two different molecules are about as strong as the attractions in each pure liquid. Hexane and heptane are both nonpolar hydrocarbons held together only by London dispersion forces of similar strength, so molecules of one slip in between molecules of the other with almost no energy cost, and they are miscible in all proportions. (A) and (B) are wrong because water has strong hydrogen bonds between its molecules, and hexane cannot hydrogen bond, so the water molecules stay attached to each other and the liquids separate into two layers (the two choices describe the same water and hexane pair).\n\n(C) is wrong because NaCl is an ionic solid; to dissolve it, a solvent has to provide strong ion-dipole attractions, and nonpolar hexane offers only weak dispersion forces."
+      "explanation": "Correct: hexane (nonpolar) and heptane (nonpolar). The rule is 'like dissolves like': two liquids mix completely when the attractions between the two different molecules are about as strong as the attractions in each pure liquid. Hexane and heptane are both nonpolar hydrocarbons held together only by London dispersion forces of similar strength, so molecules of one slip in between molecules of the other with almost no energy cost, and they are miscible in all proportions.\n\n(A) and\n(B) are wrong because water has strong hydrogen bonds between its molecules, and hexane cannot hydrogen bond, so the water molecules stay attached to each other and the liquids separate into two layers (the two choices describe the same water and hexane pair).\n(C) is wrong because NaCl is an ionic solid; to dissolve it, a solvent has to provide strong ion-dipole attractions, and nonpolar hexane offers only weak dispersion forces."
     },
     {
       "id": "3-56",
@@ -2707,7 +2707,7 @@ const QUESTIONS = {
         "Decanting"
       ],
       "correct": 1,
-      "explanation": "Correct: distillation. Two liquids that are miscible mix completely, so you cannot filter or pour one off. The property that differs is the boiling point. In distillation the mixture is heated, the liquid with the lower boiling point (for example acetone, which boils at 56 C, mixed with water, which boils at 100 C) vaporizes first, and the vapor passes into a condenser, where it cools and is collected as a pure liquid. The liquid with the higher boiling point stays behind in the flask.\n\n(D) is wrong because decanting only works when the layers are immiscible (such as oil and water) or when a solid has settled. (A) and (C) are wrong because filtration separates a solid from a liquid by particle size, and there is no solid here."
+      "explanation": "Correct: distillation. Two liquids that are miscible mix completely, so you cannot filter or pour one off. The property that differs is the boiling point. In distillation the mixture is heated, the liquid with the lower boiling point (for example acetone, which boils at 56 C, mixed with water, which boils at 100 C) vaporizes first, and the vapor passes into a condenser, where it cools and is collected as a pure liquid. The liquid with the higher boiling point stays behind in the flask.\n\n(D) is wrong because decanting only works when the layers are immiscible (such as oil and water) or when a solid has settled.\n(A) and\n(C) are wrong because filtration separates a solid from a liquid by particle size, and there is no solid here."
     },
     {
       "id": "3-67",
@@ -2929,7 +2929,7 @@ const QUESTIONS = {
         "Infrared, visible, UV, X-ray, radio"
       ],
       "correct": 1,
-      "explanation": "Correct: X-ray, UV, visible, infrared, radio. The electromagnetic spectrum, from the shortest wavelength (highest energy and frequency) to the longest, is: gamma rays, X-rays, ultraviolet (UV), visible light, infrared (IR), microwaves, and radio waves. Of the five regions in this question, the order of increasing wavelength is therefore X-ray, UV, visible, infrared, radio. Remember that as the wavelength increases, the frequency and the photon energy decrease.\n\n(A) is wrong because it lists the regions in order of DEcreasing wavelength, from radio to X-ray. (C) and (D) are wrong because they mix up the order of the regions and do not follow a steady change in wavelength."
+      "explanation": "Correct: X-ray, UV, visible, infrared, radio. The electromagnetic spectrum, from the shortest wavelength (highest energy and frequency) to the longest, is: gamma rays, X-rays, ultraviolet (UV), visible light, infrared (IR), microwaves, and radio waves. Of the five regions in this question, the order of increasing wavelength is therefore X-ray, UV, visible, infrared, radio. Remember that as the wavelength increases, the frequency and the photon energy decrease.\n\n(A) is wrong because it lists the regions in order of DEcreasing wavelength, from radio to X-ray.\n(C) and\n(D) are wrong because they mix up the order of the regions and do not follow a steady change in wavelength."
     },
     {
       "id": "3-84",
@@ -3047,7 +3047,7 @@ const QUESTIONS = {
         "0.0600"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication. (A) and (B) are wrong because they are nowhere near the product 2.00 x 10<sup>3</sup> x 1.00 x 3.00 x 10<sup>-4</sup>; absorbance is found by multiplying epsilon, b, and c."
+      "explanation": "Correct: 0.600. The Beer-Lambert law is A = epsilon x b x c. Substitute with units: A = [2.00 x 10<sup>3</sup> L/(mol cm)] x [1.00 cm] x [3.00 x 10<sup>-4</sup> mol/L] = 0.600. The units cancel (L, mol, and cm all cancel), leaving a unitless absorbance, which is a useful check on the setup. A = 0.600 also means about 25% of the light gets through, a realistic value.\n\n(D) is wrong because 0.0600 is ten times too small, which is a decimal-place error in the multiplication.\n(A) and\n(B) are wrong because they are nowhere near the product 2.00 x 10<sup>3</sup> x 1.00 x 3.00 x 10<sup>-4</sup>; absorbance is found by multiplying epsilon, b, and c."
     },
     {
       "id": "3-93",
@@ -4161,7 +4161,7 @@ const QUESTIONS = {
         "6.0 × 10⁻⁵ M·s⁻¹"
       ],
       "correct": 2,
-      "explanation": "Correct: 0.060 s<sup>-1</sup>. Solve the rate law Rate = k[A] for k: k = Rate / [A] = (0.0030 M/s) / (0.050 M) = 0.060 s<sup>-1</sup>. The units: M/s divided by M leaves 1/s. A good way to catch mistakes is to remember the units of k for each order: zero order is M/s, first order is s<sup>-1</sup>, and second order is M<sup>-1</sup> s<sup>-1</sup>. Because this rate law is first order, k must have units of s<sup>-1</sup>. (B) and (D) are wrong because their units (M s<sup>-1</sup>) are those of a zero-order rate constant, which shows a confusion about the order.\n\n(A) is wrong because it has the correct units but the division is wrong: 0.0030 / 0.050 is 0.060, not 0.0015."
+      "explanation": "Correct: 0.060 s<sup>-1</sup>. Solve the rate law Rate = k[A] for k: k = Rate / [A] = (0.0030 M/s) / (0.050 M) = 0.060 s<sup>-1</sup>. The units: M/s divided by M leaves 1/s. A good way to catch mistakes is to remember the units of k for each order: zero order is M/s, first order is s<sup>-1</sup>, and second order is M<sup>-1</sup> s<sup>-1</sup>. Because this rate law is first order, k must have units of s<sup>-1</sup>.\n\n(B) and\n(D) are wrong because their units (M s<sup>-1</sup>) are those of a zero-order rate constant, which shows a confusion about the order.\n(A) is wrong because it has the correct units but the division is wrong: 0.0030 / 0.050 is 0.060, not 0.0015."
     },
     {
       "id": "5-13",
@@ -4305,7 +4305,7 @@ const QUESTIONS = {
         "10.0 s"
       ],
       "correct": 1,
-      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here. (D) is wrong because 10.0 s uses k[A]<sub>0</sub> = 0.100 instead of 0.0100. (A) is wrong because 6.93 s comes from 0.693/0.100, mixing the first-order formula with that same slip."
+      "explanation": "Correct: 100 s. For a second-order reaction the half-life is t<sub>1/2</sub> = 1 / (k[A]<sub>0</sub>), which depends on the starting concentration. Substitute: t<sub>1/2</sub> = 1 / [(0.0400 M<sup>-1</sup>s<sup>-1</sup>)(0.250 M)] = 1 / 0.0100 s<sup>-1</sup> = 100 s. Remember which formula goes with which order: zero order is [A]<sub>0</sub> / 2k, first order is 0.693 / k, and second order is 1 / (k[A]<sub>0</sub>).\n\n(C) is wrong because 17.3 s comes from using the first-order formula (0.693 / 0.0400), which does not apply here.\n(D) is wrong because 10.0 s uses k[A]<sub>0</sub> = 0.100 instead of 0.0100.\n(A) is wrong because 6.93 s comes from 0.693/0.100, mixing the first-order formula with that same slip."
     },
     {
       "id": "5-25",
@@ -4631,7 +4631,7 @@ const QUESTIONS = {
         "Rate = k[NO₂]"
       ],
       "correct": 0,
-      "explanation": "Correct: Rate = k[NO<sub>2</sub>][CO]. When the slow (rate-determining) step is the FIRST step, its reactants are the original reactants, so the rate law is written directly from that step as if it were an elementary reaction: each reactant's concentration to the power of its coefficient. Step 1 has one NO<sub>2</sub> and one CO, so Rate = k[NO<sub>2</sub>][CO]. No intermediate shows up in the rate law here, so no substitution is needed.\n\n(B) is wrong because it uses the products of the slow step, NO and CO<sub>2</sub>, instead of the reactants. (C) and (D) are wrong because each leaves out one of the two reactants, but both particles collide in the slow step, so both must be in the rate law."
+      "explanation": "Correct: Rate = k[NO<sub>2</sub>][CO]. When the slow (rate-determining) step is the FIRST step, its reactants are the original reactants, so the rate law is written directly from that step as if it were an elementary reaction: each reactant's concentration to the power of its coefficient. Step 1 has one NO<sub>2</sub> and one CO, so Rate = k[NO<sub>2</sub>][CO]. No intermediate shows up in the rate law here, so no substitution is needed.\n\n(B) is wrong because it uses the products of the slow step, NO and CO<sub>2</sub>, instead of the reactants.\n(C) and\n(D) are wrong because each leaves out one of the two reactants, but both particles collide in the slow step, so both must be in the rate law."
     },
     {
       "id": "5-54",
@@ -4775,7 +4775,7 @@ const QUESTIONS = {
         "It's always the very first hump, regardless of height."
       ],
       "correct": 1,
-      "explanation": "Correct: the step with the tallest energy hump. The rate-determining step is the slowest step, and the slowest step has the largest activation energy. On the diagram, that is the step whose peak is highest above its own starting valley (the energy the step must climb from where it begins). Position in the sequence does not matter; any step can be the slowest. (A) and (D) are wrong because they fix the rate-determining step as first or last no matter what the heights are.\n\n(C) is wrong because it reverses the logic: the lowest barrier is the fastest step, not the slowest."
+      "explanation": "Correct: the step with the tallest energy hump. The rate-determining step is the slowest step, and the slowest step has the largest activation energy. On the diagram, that is the step whose peak is highest above its own starting valley (the energy the step must climb from where it begins). Position in the sequence does not matter; any step can be the slowest.\n\n(A) and\n(D) are wrong because they fix the rate-determining step as first or last no matter what the heights are.\n(C) is wrong because it reverses the logic: the lowest barrier is the fastest step, not the slowest."
     },
     {
       "id": "5-66",
@@ -5233,7 +5233,7 @@ const QUESTIONS = {
         "5356 J released"
       ],
       "correct": 0,
-      "explanation": "The solution absorbs q = mcΔT = (100.0)(4.184)(6.4) = 2678 J as its temperature rises, and since the reaction is what heated the solution, the reaction itself released that same 2678 J (q_rxn = −q_solution). \"2678 J absorbed\" gets the magnitude right but assigns it to the wrong perspective — that's what the solution did, not what the reaction (the system) did; from the reaction's standpoint, this energy was released. \"1339 J released\" is half the correct value, as if only one 50.0 mL portion were counted toward the total mass. \"5356 J released\" is double the correct value, the opposite mass-counting error."
+      "explanation": "The solution absorbs q = mcΔT = (100.0)(4.184)(6.4) = 2678 J as its temperature rises, and since the reaction is what heated the solution, the reaction itself released that same 2678 J (q<sub>rxn</sub> = −q<sub>solution</sub>). \"2678 J absorbed\" gets the magnitude right but assigns it to the wrong perspective — that's what the solution did, not what the reaction (the system) did; from the reaction's standpoint, this energy was released. \"1339 J released\" is half the correct value, as if only one 50.0 mL portion were counted toward the total mass. \"5356 J released\" is double the correct value, the opposite mass-counting error."
     },
     {
       "id": "6-27",
@@ -5652,7 +5652,7 @@ const QUESTIONS = {
         "It stays exactly the same."
       ],
       "correct": 0,
-      "explanation": "Reversing a reaction swaps the start and end states, which negates ΔH, since ΔH = E_end − E_start and swapping start/end flips that difference's sign. \"Automatically doubled\" would apply if the coefficients were scaled by 2, not if the reaction were simply reversed — these are two different operations. \"Becomes exactly zero\" would mean no energy change at all, which isn't implied by reversing direction. \"Stays exactly the same\" is wrong because that would mean the forward and reverse processes have identical energetics, true only in the special case ΔH = 0."
+      "explanation": "Reversing a reaction swaps the start and end states, which negates ΔH, since ΔH = E<sub>end</sub> − E<sub>start</sub> and swapping start/end flips that difference's sign. \"Automatically doubled\" would apply if the coefficients were scaled by 2, not if the reaction were simply reversed — these are two different operations. \"Becomes exactly zero\" would mean no energy change at all, which isn't implied by reversing direction. \"Stays exactly the same\" is wrong because that would mean the forward and reverse processes have identical energetics, true only in the special case ΔH = 0."
     },
     {
       "id": "6-59",
@@ -5902,7 +5902,7 @@ const QUESTIONS = {
         "K = [CaCO₃]/([CaO][CO₂])"
       ],
       "correct": 1,
-      "explanation": "Correct: K = [CO<sub>2</sub>]. Pure solids and pure liquids are left out of the equilibrium expression, because their concentration is essentially constant and does not change with the amount of solid present. Only gases and dissolved (aqueous) species appear. In this reaction CaCO<sub>3</sub> and CaO are both solids, so only CO<sub>2</sub>(g) is left: K = [CO<sub>2</sub>]. (A) and (C) are wrong because they include CaO, a solid.\n\n(D) is wrong because it includes both solids and has the ratio upside down (reactants over products)."
+      "explanation": "Correct: K = [CO<sub>2</sub>]. Pure solids and pure liquids are left out of the equilibrium expression, because their concentration is essentially constant and does not change with the amount of solid present. Only gases and dissolved (aqueous) species appear. In this reaction CaCO<sub>3</sub> and CaO are both solids, so only CO<sub>2</sub>(g) is left: K = [CO<sub>2</sub>].\n\n(A) and\n(C) are wrong because they include CaO, a solid.\n(D) is wrong because it includes both solids and has the ratio upside down (reactants over products)."
     },
     {
       "id": "7-12",
@@ -5928,7 +5928,7 @@ const QUESTIONS = {
         "Q = 5.0 × 10⁻⁴; shifts backward (Q > K)"
       ],
       "correct": 3,
-      "explanation": "Correct: Q = 5.0 x 10<sup>-4</sup>; shifts backward (Q > K). Write Q for 2H<sub>2</sub>S ⇌ 2H<sub>2</sub> + S<sub>2</sub>: Q = [H<sub>2</sub>]<sup>2</sup>[S<sub>2</sub>]/[H<sub>2</sub>S]<sup>2</sup>. Substitute: (0.0500)<sup>2</sup>(0.0500)/(0.500)<sup>2</sup> = (0.00250)(0.0500)/0.250 = 1.25 x 10<sup>-4</sup>/0.250 = 5.0 x 10<sup>-4</sup>. Compare to K = 1.0 x 10<sup>-6</sup>: Q is much larger than K, so there is too much product and the reaction shifts backward.\n\n(B) is wrong because it has the correct Q but the wrong direction; shifting forward applies only when Q < K. (A) and (C) are wrong because their Q = 5.0 x 10<sup>-3</sup> is ten times too large, a calculation slip."
+      "explanation": "Correct: Q = 5.0 x 10<sup>-4</sup>; shifts backward (Q > K). Write Q for 2H<sub>2</sub>S ⇌ 2H<sub>2</sub> + S<sub>2</sub>: Q = [H<sub>2</sub>]<sup>2</sup>[S<sub>2</sub>]/[H<sub>2</sub>S]<sup>2</sup>. Substitute: (0.0500)<sup>2</sup>(0.0500)/(0.500)<sup>2</sup> = (0.00250)(0.0500)/0.250 = 1.25 x 10<sup>-4</sup>/0.250 = 5.0 x 10<sup>-4</sup>. Compare to K = 1.0 x 10<sup>-6</sup>: Q is much larger than K, so there is too much product and the reaction shifts backward.\n\n(B) is wrong because it has the correct Q but the wrong direction; shifting forward applies only when Q < K.\n(A) and\n(C) are wrong because their Q = 5.0 x 10<sup>-3</sup> is ten times too large, a calculation slip."
     },
     {
       "id": "7-14",
@@ -6006,7 +6006,7 @@ const QUESTIONS = {
         "0.0125"
       ],
       "correct": 3,
-      "explanation": "Correct: 0.0125. Write K for 2NOCl ⇌ 2NO + Cl<sub>2</sub>: K = [NO]<sup>2</sup>[Cl<sub>2</sub>]/[NOCl]<sup>2</sup>. Substitute: (0.100)<sup>2</sup>(0.0500)/(0.200)<sup>2</sup> = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Note that both NO and NOCl are squared because of their coefficients of 2.\n\n(B) is wrong because it does not square [NO]: (0.100)(0.0500)/0.0400 = 0.125. (A) and (C) are wrong because they are off from the correct value by arithmetic slips (a factor of 2 and a factor of 100)."
+      "explanation": "Correct: 0.0125. Write K for 2NOCl ⇌ 2NO + Cl<sub>2</sub>: K = [NO]<sup>2</sup>[Cl<sub>2</sub>]/[NOCl]<sup>2</sup>. Substitute: (0.100)<sup>2</sup>(0.0500)/(0.200)<sup>2</sup> = (0.0100)(0.0500)/0.0400 = 0.000500/0.0400 = 0.0125. Note that both NO and NOCl are squared because of their coefficients of 2.\n\n(B) is wrong because it does not square [NO]: (0.100)(0.0500)/0.0400 = 0.125.\n(A) and\n(C) are wrong because they are off from the correct value by arithmetic slips (a factor of 2 and a factor of 100)."
     },
     {
       "id": "7-20",
@@ -6137,7 +6137,7 @@ const QUESTIONS = {
         "K = 2.0"
       ],
       "correct": 2,
-      "explanation": "Correct: K = 5.0 x 10<sup>25</sup>. K = [products]/[reactants], so a huge K means that at equilibrium almost all of the material is product and only an immeasurably small amount of reactant remains. That is what 'goes essentially to completion' means. Rule of thumb: K greater than about 10<sup>3</sup> is product-favored; K less than about 10<sup>-3</sup> is reactant-favored; values near 1 leave significant amounts of both.\n\n(B) is wrong because K = 1.0 x 10<sup>-20</sup> is the opposite extreme: the reaction hardly goes forward. (A) and (D) are wrong because K = 0.50 and K = 2.0 are both near 1, so large amounts of both reactants and products are present."
+      "explanation": "Correct: K = 5.0 x 10<sup>25</sup>. K = [products]/[reactants], so a huge K means that at equilibrium almost all of the material is product and only an immeasurably small amount of reactant remains. That is what 'goes essentially to completion' means. Rule of thumb: K greater than about 10<sup>3</sup> is product-favored; K less than about 10<sup>-3</sup> is reactant-favored; values near 1 leave significant amounts of both.\n\n(B) is wrong because K = 1.0 x 10<sup>-20</sup> is the opposite extreme: the reaction hardly goes forward.\n(A) and\n(D) are wrong because K = 0.50 and K = 2.0 are both near 1, so large amounts of both reactants and products are present."
     },
     {
       "id": "7-30",
@@ -6163,7 +6163,7 @@ const QUESTIONS = {
         "8.0"
       ],
       "correct": 2,
-      "explanation": "Correct: 16.0. The rules for changing K: reversing a reaction takes the reciprocal; multiplying all coefficients by n raises K to the power n; adding reactions multiplies their K values. Going from A ⇌ 2B to 2A ⇌ 4B multiplies every coefficient by 2, so K<sub>new</sub> = (K<sub>old</sub>)<sup>2</sup> = (4.0)<sup>2</sup> = 16.0. You can see why from the expression: the original K = [B]<sup>2</sup>/[A] and the new one is [B]<sup>4</sup>/[A]<sup>2</sup>, which is the original squared.\n\n(A) is wrong because K does change with the coefficients. (B) and (D) are wrong because they scale K by simple division or multiplication instead of using an exponent."
+      "explanation": "Correct: 16.0. The rules for changing K: reversing a reaction takes the reciprocal; multiplying all coefficients by n raises K to the power n; adding reactions multiplies their K values. Going from A ⇌ 2B to 2A ⇌ 4B multiplies every coefficient by 2, so K<sub>new</sub> = (K<sub>old</sub>)<sup>2</sup> = (4.0)<sup>2</sup> = 16.0. You can see why from the expression: the original K = [B]<sup>2</sup>/[A] and the new one is [B]<sup>4</sup>/[A]<sup>2</sup>, which is the original squared.\n\n(A) is wrong because K does change with the coefficients.\n(B) and\n(D) are wrong because they scale K by simple division or multiplication instead of using an exponent."
     },
     {
       "id": "7-32",
@@ -6176,7 +6176,7 @@ const QUESTIONS = {
         "5.0"
       ],
       "correct": 1,
-      "explanation": "Correct: 6.0. When two reactions are added to give a third (the B on the two sides cancels), the K of the new reaction is the PRODUCT of the individual K values: K = K<sub>1</sub> x K<sub>2</sub> = 2.0 x 3.0 = 6.0. You can check it with the expressions: K<sub>1</sub> = [B]/[A] and K<sub>2</sub> = [C]/[B]; multiplying them cancels [B] and leaves [C]/[A], the K of A ⇌ C.\n\n(D) is wrong because K values multiply when reactions are added; they do not add. (A) and (C) are wrong because they come from dividing the K values, which would be the rule for subtracting reactions."
+      "explanation": "Correct: 6.0. When two reactions are added to give a third (the B on the two sides cancels), the K of the new reaction is the PRODUCT of the individual K values: K = K<sub>1</sub> x K<sub>2</sub> = 2.0 x 3.0 = 6.0. You can check it with the expressions: K<sub>1</sub> = [B]/[A] and K<sub>2</sub> = [C]/[B]; multiplying them cancels [B] and leaves [C]/[A], the K of A ⇌ C.\n\n(D) is wrong because K values multiply when reactions are added; they do not add.\n(A) and\n(C) are wrong because they come from dividing the K values, which would be the rule for subtracting reactions."
     },
     {
       "id": "7-33",
@@ -6189,7 +6189,7 @@ const QUESTIONS = {
         "50"
       ],
       "correct": 0,
-      "explanation": "Correct: 5.0. Multiplying all coefficients by a factor n raises K to the power n. Halving the coefficients means n = 1/2, which is the square root: K<sub>new</sub> = √25 = 5.0. Check with the expressions: the original K = [B]<sup>2</sup>/[A] = 25, and the new one is [B]/[A]<sup>1/2</sup>, which is the square root of the original.\n\n(B) is wrong because squaring K is the rule for doubling coefficients. (C) and (D) are wrong because they divide or multiply K by 2 instead of using an exponent."
+      "explanation": "Correct: 5.0. Multiplying all coefficients by a factor n raises K to the power n. Halving the coefficients means n = 1/2, which is the square root: K<sub>new</sub> = √25 = 5.0. Check with the expressions: the original K = [B]<sup>2</sup>/[A] = 25, and the new one is [B]/[A]<sup>1/2</sup>, which is the square root of the original.\n\n(B) is wrong because squaring K is the rule for doubling coefficients.\n(C) and\n(D) are wrong because they divide or multiply K by 2 instead of using an exponent."
     },
     {
       "id": "7-34",
@@ -6202,7 +6202,7 @@ const QUESTIONS = {
         "5.0"
       ],
       "correct": 3,
-      "explanation": "Correct: 5.0. Add the two reactions: 2A ⇌ B and B ⇌ 2C give 2A ⇌ 2C, with B canceling. When reactions are added, their K values multiply: K = K<sub>1</sub> x K<sub>2</sub> = 10.0 x 0.50 = 5.0. Check: K<sub>1</sub> = [B]/[A]<sup>2</sup> and K<sub>2</sub> = [C]<sup>2</sup>/[B], so the product is [C]<sup>2</sup>/[A]<sup>2</sup>, the K of the overall reaction.\n\n(C) is wrong because K values are not added. (A) and (B) are wrong because they come from dividing the K values (10.0/0.50 = 20.0 and 0.50/10.0 = 0.05), which is the rule for subtracting reactions, not adding them."
+      "explanation": "Correct: 5.0. Add the two reactions: 2A ⇌ B and B ⇌ 2C give 2A ⇌ 2C, with B canceling. When reactions are added, their K values multiply: K = K<sub>1</sub> x K<sub>2</sub> = 10.0 x 0.50 = 5.0. Check: K<sub>1</sub> = [B]/[A]<sup>2</sup> and K<sub>2</sub> = [C]<sup>2</sup>/[B], so the product is [C]<sup>2</sup>/[A]<sup>2</sup>, the K of the overall reaction.\n\n(C) is wrong because K values are not added.\n(A) and\n(B) are wrong because they come from dividing the K values (10.0/0.50 = 20.0 and 0.50/10.0 = 0.05), which is the rule for subtracting reactions, not adding them."
     },
     {
       "id": "7-35",
@@ -6385,7 +6385,7 @@ const QUESTIONS = {
         "Generally no — a large K still leaves a tiny amount of reactant remaining."
       ],
       "correct": 3,
-      "explanation": "Correct: generally no; a large K still leaves a tiny amount of reactant remaining. Equilibrium is dynamic: both the forward and the reverse reactions keep occurring. With a huge K the equilibrium lies far to the product side, so the reactants are extremely small, but they are not exactly zero, since if they were zero the reverse reaction could not occur. A drawing with limited particles may show none because of its simplified scale, but in principle some are present. (A) and (C) are wrong because they say reactants must be exactly zero, which contradicts dynamic equilibrium.\n\n(B) is wrong because what you see depends on K, not just on how many particles are drawn."
+      "explanation": "Correct: generally no; a large K still leaves a tiny amount of reactant remaining. Equilibrium is dynamic: both the forward and the reverse reactions keep occurring. With a huge K the equilibrium lies far to the product side, so the reactants are extremely small, but they are not exactly zero, since if they were zero the reverse reaction could not occur. A drawing with limited particles may show none because of its simplified scale, but in principle some are present.\n\n(A) and\n(C) are wrong because they say reactants must be exactly zero, which contradicts dynamic equilibrium.\n(B) is wrong because what you see depends on K, not just on how many particles are drawn."
     },
     {
       "id": "7-49",
@@ -6398,7 +6398,7 @@ const QUESTIONS = {
         "K must always be less than 1 in this case."
       ],
       "correct": 2,
-      "explanation": "Correct: K must equal exactly 1, since [A] = [B] here. For A ⇌ B (1:1), K = [B]/[A]. If the diagram is at equilibrium and has equal numbers of A and B particles, the concentrations are equal and the ratio is 1. Be careful: this works because the stoichiometry is 1:1, with no exponents. For other reactions, equal particle numbers would not give K = 1. (A) and (D) are wrong because equal amounts give exactly 1, not more or less.\n\n(B) is wrong because equal counts for a 1:1 reaction do determine K."
+      "explanation": "Correct: K must equal exactly 1, since [A] = [B] here. For A ⇌ B (1:1), K = [B]/[A]. If the diagram is at equilibrium and has equal numbers of A and B particles, the concentrations are equal and the ratio is 1. Be careful: this works because the stoichiometry is 1:1, with no exponents. For other reactions, equal particle numbers would not give K = 1.\n\n(A) and\n(D) are wrong because equal amounts give exactly 1, not more or less.\n(B) is wrong because equal counts for a 1:1 reaction do determine K."
     },
     {
       "id": "7-50",
@@ -6777,7 +6777,7 @@ const QUESTIONS = {
         "9.00"
       ],
       "correct": 0,
-      "explanation": "Correct: 11.70. NaOH is a strong base, so it dissociates completely: [OH<sup>-</sup>] = 0.00500 M. First find the pOH: pOH = -log(0.00500) = 2.30. Then use pH + pOH = 14.00: pH = 14.00 - 2.30 = 11.70. A base should have a pH above 7, which this does.\n\n(B) is wrong because 2.30 is the pOH, and the last step to the pH was skipped. (C) and (D) are wrong because they do not result from the correct steps; they come from mistakes in the log or in the decimal places."
+      "explanation": "Correct: 11.70. NaOH is a strong base, so it dissociates completely: [OH<sup>-</sup>] = 0.00500 M. First find the pOH: pOH = -log(0.00500) = 2.30. Then use pH + pOH = 14.00: pH = 14.00 - 2.30 = 11.70. A base should have a pH above 7, which this does.\n\n(B) is wrong because 2.30 is the pOH, and the last step to the pH was skipped.\n(C) and\n(D) are wrong because they do not result from the correct steps; they come from mistakes in the log or in the decimal places."
     },
     {
       "id": "8-9",
@@ -6920,7 +6920,7 @@ const QUESTIONS = {
         "2.65"
       ],
       "correct": 2,
-      "explanation": "Correct: 3.15. For a weak acid, use K<sub>a</sub> = x<sup>2</sup>/C. So x<sup>2</sup> = (0.0500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-7</sup>, and x = √(5.0 x 10<sup>-7</sup>) = 7.07 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Then pH = -log(7.07 x 10<sup>-4</sup>) = 3.15. Check: x/0.0500 = 1.4%, under 5%, so the approximation holds. A weak acid at this concentration should give a pH well above that of a strong acid (1.3 for 0.0500 M), which it does.\n\n(A) is wrong because 5.00 is the pKa, a property of the acid, not the pH of this solution. (B) and (D) are wrong because they do not match the correct steps and come from mistakes in the square root or log."
+      "explanation": "Correct: 3.15. For a weak acid, use K<sub>a</sub> = x<sup>2</sup>/C. So x<sup>2</sup> = (0.0500)(1.0 x 10<sup>-5</sup>) = 5.0 x 10<sup>-7</sup>, and x = √(5.0 x 10<sup>-7</sup>) = 7.07 x 10<sup>-4</sup> M = [H<sup>+</sup>]. Then pH = -log(7.07 x 10<sup>-4</sup>) = 3.15. Check: x/0.0500 = 1.4%, under 5%, so the approximation holds. A weak acid at this concentration should give a pH well above that of a strong acid (1.3 for 0.0500 M), which it does.\n\n(A) is wrong because 5.00 is the pKa, a property of the acid, not the pH of this solution.\n(B) and\n(D) are wrong because they do not match the correct steps and come from mistakes in the square root or log."
     },
     {
       "id": "8-20",
@@ -7364,7 +7364,7 @@ const QUESTIONS = {
         "4.20"
       ],
       "correct": 3,
-      "explanation": "Correct: 4.20. Use the Henderson-Hasselbalch equation: pH = pK<sub>a</sub> + log([base]/[acid]). Here [base] = [acid] = 0.300 M, so the ratio is 1 and log(1) = 0. Therefore pH = pK<sub>a</sub> = 4.20. Whenever a buffer has equal amounts of weak acid and conjugate base, its pH equals the pK<sub>a</sub>, no matter what the common concentration is. (A) and (B) are wrong because a ratio of 1 adds nothing to the pK<sub>a</sub>, so the pH cannot differ from 4.20.\n\n(C) is wrong because doubling the pK<sub>a</sub> has no basis in the equation."
+      "explanation": "Correct: 4.20. Use the Henderson-Hasselbalch equation: pH = pK<sub>a</sub> + log([base]/[acid]). Here [base] = [acid] = 0.300 M, so the ratio is 1 and log(1) = 0. Therefore pH = pK<sub>a</sub> = 4.20. Whenever a buffer has equal amounts of weak acid and conjugate base, its pH equals the pK<sub>a</sub>, no matter what the common concentration is.\n\n(A) and\n(B) are wrong because a ratio of 1 adds nothing to the pK<sub>a</sub>, so the pH cannot differ from 4.20.\n(C) is wrong because doubling the pK<sub>a</sub> has no basis in the equation."
     },
     {
       "id": "8-54",
@@ -7534,7 +7534,7 @@ const QUESTIONS = {
         "pI = 6.05"
       ],
       "correct": 3,
-      "explanation": "Correct: pI = 6.05. The isoelectric point (pI) is the pH at which an amino acid has no net charge. For a simple amino acid with no ionizable side chain, the neutral (zwitterion) form sits between the two pK<sub>a</sub> values, so pI is their average: pI = (pK<sub>a1</sub> + pK<sub>a2</sub>)/2 = (2.19 + 9.90)/2 = 12.09/2 = 6.05. At this pH the carboxyl group is mostly -COO<sup>-</sup> and the amino group is mostly -NH<sub>3</sub><sup>+</sup>, so the charges cancel. (A) and (B) are wrong because each uses only one of the pK<sub>a</sub> values.\n\n(C) is wrong because 12.09 is the sum; the division by 2 was skipped."
+      "explanation": "Correct: pI = 6.05. The isoelectric point (pI) is the pH at which an amino acid has no net charge. For a simple amino acid with no ionizable side chain, the neutral (zwitterion) form sits between the two pK<sub>a</sub> values, so pI is their average: pI = (pK<sub>a1</sub> + pK<sub>a2</sub>)/2 = (2.19 + 9.90)/2 = 12.09/2 = 6.05. At this pH the carboxyl group is mostly -COO<sup>-</sup> and the amino group is mostly -NH<sub>3</sub><sup>+</sup>, so the charges cancel.\n\n(A) and\n(B) are wrong because each uses only one of the pK<sub>a</sub> values.\n(C) is wrong because 12.09 is the sum; the division by 2 was skipped."
     },
     {
       "id": "8-67",
