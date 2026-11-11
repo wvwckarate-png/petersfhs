@@ -10,10 +10,14 @@ import { SankakuMark } from "./hubs/jiujitsu/Mark";
 import { BELT_STOPS } from "./hubs/jiujitsu/Enso";
 import { getSession, onSession, legacyEntries, downloadBackup } from "./lib/cloud";
 import { openProfilePanel } from "./lib/profileSlot";
+import { useLayout } from "./lib/layoutPrefs";
 import { AP, SAT_TOTALS, MODE_LABELS, loadApProgress, loadOtherProgress, pct, timeAgo } from "./lib/progress";
 
 // The home page is the student's desk: who is studying, where they left off, and every subject one click away.
 // (Before v8.5 this page was four hub cards; that version is kept at the git tag v8.4.26-before-redesign.)
+
+// Home sections in their default order. Each student can reorder and hide them ("Customize").
+const SECTIONS = ["ap", "sat", "college", "jj"];
 
 const SAT_COLOR = "#3D3470", SAT_DEEP = "#2A2350";
 const NAVY = "#002855", GOLD_DEEP = "#8A6500";
@@ -57,6 +61,9 @@ export default function HomePage() {
   const [session, setSession] = useState(getSession());
   const [ap, setAp] = useState(null);
   const [other, setOther] = useState(null);
+  const [edit, setEdit] = useState(false);
+  const layout = useLayout("home-layout-v1", SECTIONS);
+  const { isHidden } = layout;
 
   useEffect(() => onSession(setSession), []);
   useEffect(() => {
@@ -77,7 +84,7 @@ export default function HomePage() {
       const w = apWhere(s);
       const u = w.unit, p = u && s.per[u.id];
       items.push({
-        key: s.id, to: s.route, title: s.name, accent: SUBJECT_COLORS[s.id], deep: SUBJECT_DEEP[s.id],
+        key: s.id, lid: `ap:${s.id}`, sec: "ap", to: s.route, title: s.name, accent: SUBJECT_COLORS[s.id], deep: SUBJECT_DEEP[s.id],
         icon: <SubjectIcon id={s.id} size={26} />, last: s.lastActive, weight: s.done,
         stats: [
           [`${s.done}/${s.mcqTotal}`, "questions answered"],
@@ -95,7 +102,7 @@ export default function HomePage() {
       const p = other.college[c.id];
       if (!p || (!p.started && !p.lastActive)) continue;
       items.push({
-        key: c.id, to: `/college/${c.id}`, title: c.name, accent: "#EAAA00", deep: NAVY,
+        key: c.id, lid: `college:${c.id}`, sec: "college", to: `/college/${c.id}`, title: c.name, accent: "#EAAA00", deep: NAVY,
         icon: <CourseIcon id={c.id} size={26} />, last: p.lastActive, weight: p.done,
         where: <>{c.code}</>, mode: p.nav && MODE_LABELS[p.nav.mode], bar: null,
         note: p.done ? <><b>{p.done}</b> questions answered · <b>{pct(p.correct, p.done)}%</b> correct</> : <>Study guide in progress</>,
@@ -103,19 +110,19 @@ export default function HomePage() {
     }
     const sat = other.sat;
     if (sat.wordsSeen || sat.lastWords) items.push({
-      key: "sat-cards", to: "/sat/vocab", title: "SAT Vocabulary Flash Cards", accent: SAT_COLOR, deep: SAT_DEEP,
+      key: "sat-cards", lid: "sat:cards", sec: "sat", to: "/sat/vocab", title: "SAT Vocabulary Flash Cards", accent: SAT_COLOR, deep: SAT_DEEP,
       icon: <SatIcon kind="cards" size={26} />, last: sat.lastWords, weight: sat.wordsSeen, where: <>Flash cards</>, mode: null,
       bar: pct(sat.wordsKnown, SAT_TOTALS.words), note: <><b>{sat.wordsKnown}</b> of {SAT_TOTALS.words} words known</>,
     });
     if (sat.questionsDone || sat.lastQuestions) items.push({
-      key: "sat-q", to: "/sat/vocab-questions", title: "SAT Vocabulary Question Bank", accent: SAT_COLOR, deep: SAT_DEEP,
+      key: "sat-q", lid: "sat:questions", sec: "sat", to: "/sat/vocab-questions", title: "SAT Vocabulary Question Bank", accent: SAT_COLOR, deep: SAT_DEEP,
       icon: <SatIcon kind="questions" size={26} />, last: sat.lastQuestions, weight: sat.questionsDone, where: <>Practice questions</>, mode: null,
       bar: pct(sat.questionsDone, SAT_TOTALS.questions),
       note: <><b>{sat.questionsDone}</b> of {SAT_TOTALS.questions} answered{sat.questionsDone ? <> · <b>{pct(sat.questionsCorrect, sat.questionsDone)}%</b> correct</> : null}</>,
     });
     items.sort((a, b) => (b.last - a.last) || (b.weight - a.weight));
-    return items.slice(0, 3);
-  }, [ap, other]);
+    return items.filter((it) => !isHidden(it.sec) && !isHidden(it.lid)).slice(0, 3);
+  }, [ap, other, isHidden]);
 
   const returning = resume.length > 0;
   const name = signedIn ? session.name : "";
@@ -126,7 +133,13 @@ export default function HomePage() {
       <header className="site-header">
         <div className="site-header-inner">
           <BrandLogo height={52} />
-          <ProfileSlot />
+          <div className="topbar-actions">
+            <button className={edit ? "btn-ghost on" : "btn-ghost"} onClick={() => setEdit((e) => !e)} aria-pressed={edit} title="Choose what this page shows and in what order">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7h10M18 7h2M4 12h3M11 12h9M4 17h12M20 17h0" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round"/><circle cx="16" cy="7" r="2" stroke="currentColor" strokeWidth="1.9"/><circle cx="9" cy="12" r="2" stroke="currentColor" strokeWidth="1.9"/><circle cx="18" cy="17" r="2" stroke="currentColor" strokeWidth="1.9"/></svg>
+              <span className="pf-label">{edit ? "Done" : "Customize"}</span>
+            </button>
+            <ProfileSlot />
+          </div>
         </div>
       </header>
 
@@ -152,7 +165,17 @@ export default function HomePage() {
           </div>
         )}
 
-        {returning && (
+        {edit && (
+          <div className="edit-bar" role="region" aria-label="Customize this page">
+            <div><b>Customizing your home page.</b> Move sections up or down, and hide anything you don't use. Hidden subjects stay available on the AP, SAT, and College hub pages, and nothing is deleted.</div>
+            <div className="edit-bar-btns">
+              {layout.customized && <button className="btn-ghost" onClick={layout.reset}>Reset to default</button>}
+              <button className="btn-dark" onClick={() => setEdit(false)}>Done</button>
+            </div>
+          </div>
+        )}
+
+        {returning && !edit && (
           <section aria-label="Pick up where you left off">
             <div className="eyebrow" style={{ marginBottom: 10 }}>Pick up where you left off</div>
             <div className={resume.length === 1 ? "resume single" : "resume"}>
@@ -166,81 +189,92 @@ export default function HomePage() {
           </section>
         )}
 
-        <section className="section" aria-labelledby="h-ap">
-          <div className="section-head">
-            <h2 id="h-ap">AP subjects<span className="sub">Study guides, practice questions, FRQs, and exams</span></h2>
-            <Link to="/ap" className="section-link">AP Hub →</Link>
-          </div>
-          <div className="tiles">
-            {Object.entries(AP).map(([id, s]) => <ApTile key={id} id={id} s={s} p={ap && ap[id]} />)}
-          </div>
-        </section>
-
-        <section className="section" aria-labelledby="h-sat">
-          <div className="section-head">
-            <h2 id="h-sat">SAT<span className="sub">Vocabulary</span></h2>
-            <Link to="/sat" className="section-link">SAT Hub →</Link>
-          </div>
-          <div className="tiles">
-            <Link to="/sat/vocab" className="tile" style={{ "--accent": SAT_COLOR }}>
-              <span className="tile-icon"><SatIcon kind="cards" /></span>
-              <span className="tile-main">
-                <span className="tile-name">Vocabulary Flash Cards</span>
-                {other && other.sat.wordsSeen > 0 ? (
-                  <><Bar thin value={pct(other.sat.wordsKnown, SAT_TOTALS.words)} /><span className="tile-meta"><b>{other.sat.wordsKnown}</b> of {SAT_TOTALS.words} words known</span></>
-                ) : <span className="tile-meta">{SAT_TOTALS.words} words in three levels</span>}
-              </span>
-            </Link>
-            <Link to="/sat/vocab-questions" className="tile" style={{ "--accent": SAT_COLOR }}>
-              <span className="tile-icon"><SatIcon kind="questions" /></span>
-              <span className="tile-main">
-                <span className="tile-name">Vocabulary Question Bank</span>
-                {other && other.sat.questionsDone > 0 ? (
-                  <><Bar thin value={pct(other.sat.questionsDone, SAT_TOTALS.questions)} /><span className="tile-meta"><b>{other.sat.questionsDone}</b> of {SAT_TOTALS.questions} answered · <b>{pct(other.sat.questionsCorrect, other.sat.questionsDone)}%</b> correct</span></>
-                ) : <span className="tile-meta">{SAT_TOTALS.questions} practice questions</span>}
-              </span>
-            </Link>
-          </div>
-        </section>
-
-        <section className="section" aria-labelledby="h-college">
-          <div className="section-head">
-            <h2 id="h-college">College head start<span className="sub">Exercise Physiology plan of study</span></h2>
-            <Link to="/college" className="section-link" style={{ color: NAVY }}>College Hub →</Link>
-          </div>
-          <div className="tiles">
-            {COURSES.filter((c) => COURSE_PAGES[c.id]).map((c) => {
-              const p = other && other.college[c.id];
-              return (
-                <Link key={c.id} to={`/college/${c.id}`} className="tile" style={{ "--accent": NAVY }}>
-                  <span className="tile-icon"><CourseIcon id={c.id} size={24} /></span>
+        {layout.order.map((sec, index) => {
+          const shell = { id: sec, edit, layout, index, count: layout.order.length };
+          if (sec === "ap") return (
+            <SectionShell key={sec} {...shell} title="AP subjects" sub="Study guides, practice questions, FRQs, and exams"
+              empty={Object.keys(AP).every((id) => layout.isHidden(`ap:${id}`))}
+              link={<Link to="/ap" className="section-link">AP Hub →</Link>}>
+              <div className="tiles">
+                {Object.entries(AP).map(([id, s]) => (
+                  <Tile key={id} id={`ap:${id}`} to={s.route} edit={edit} layout={layout} style={{ "--accent": SUBJECT_COLORS[id] }}>
+                    <ApTileBody id={id} s={s} p={ap && ap[id]} />
+                  </Tile>
+                ))}
+              </div>
+            </SectionShell>
+          );
+          if (sec === "sat") return (
+            <SectionShell key={sec} {...shell} title="SAT" sub="Vocabulary"
+              empty={layout.isHidden("sat:cards") && layout.isHidden("sat:questions")}
+              link={<Link to="/sat" className="section-link">SAT Hub →</Link>}>
+              <div className="tiles">
+                <Tile id="sat:cards" to="/sat/vocab" edit={edit} layout={layout} style={{ "--accent": SAT_COLOR }}>
+                  <span className="tile-icon"><SatIcon kind="cards" /></span>
                   <span className="tile-main">
-                    <span className="tile-name" style={{ color: NAVY }}>{c.name}</span>
-                    <span className="tile-meta"><b style={{ color: GOLD_DEEP }}>{c.code}</b>{p && p.done ? <> · {p.done} answered · {pct(p.correct, p.done)}% correct</> : null}</span>
+                    <span className="tile-name">Vocabulary Flash Cards</span>
+                    {other && other.sat.wordsSeen > 0 ? (
+                      <><Bar thin value={pct(other.sat.wordsKnown, SAT_TOTALS.words)} /><span className="tile-meta"><b>{other.sat.wordsKnown}</b> of {SAT_TOTALS.words} words known</span></>
+                    ) : <span className="tile-meta">{SAT_TOTALS.words} words in three levels</span>}
                   </span>
-                </Link>
-              );
-            })}
-            <Link to="/college" className="tile more">All college courses →</Link>
-          </div>
-        </section>
-
-        <section className="section" aria-label="Jiu-Jitsu">
-          <Link to="/jiujitsu" className="jj-banner">
-            <SankakuMark size={54} stops={BELT_STOPS} />
-            <span style={{ position: "relative", zIndex: 1 }}>
-              <span className="jj-title" style={{ display: "block" }}>Jiu-Jitsu</span>
-              <span className="jj-sub" style={{ display: "block" }}>
-                Positions, systems, drills, and sparring plans for training at home.
-                {other && other.jj.inProgress > 0 ? ` ${other.jj.inProgress} technique${other.jj.inProgress === 1 ? "" : "s"} in progress.` : ""}
-              </span>
-            </span>
-            <span className="jj-go">Open the dojo →</span>
-          </Link>
-        </section>
+                </Tile>
+                <Tile id="sat:questions" to="/sat/vocab-questions" edit={edit} layout={layout} style={{ "--accent": SAT_COLOR }}>
+                  <span className="tile-icon"><SatIcon kind="questions" /></span>
+                  <span className="tile-main">
+                    <span className="tile-name">Vocabulary Question Bank</span>
+                    {other && other.sat.questionsDone > 0 ? (
+                      <><Bar thin value={pct(other.sat.questionsDone, SAT_TOTALS.questions)} /><span className="tile-meta"><b>{other.sat.questionsDone}</b> of {SAT_TOTALS.questions} answered · <b>{pct(other.sat.questionsCorrect, other.sat.questionsDone)}%</b> correct</span></>
+                    ) : <span className="tile-meta">{SAT_TOTALS.questions} practice questions</span>}
+                  </span>
+                </Tile>
+              </div>
+            </SectionShell>
+          );
+          if (sec === "college") {
+            const courses = COURSES.filter((c) => COURSE_PAGES[c.id]);
+            return (
+              <SectionShell key={sec} {...shell} title="College head start" sub="Exercise Physiology plan of study"
+                empty={courses.every((c) => layout.isHidden(`college:${c.id}`))}
+                link={<Link to="/college" className="section-link" style={{ color: NAVY }}>College Hub →</Link>}>
+                <div className="tiles">
+                  {courses.map((c) => {
+                    const p = other && other.college[c.id];
+                    return (
+                      <Tile key={c.id} id={`college:${c.id}`} to={`/college/${c.id}`} edit={edit} layout={layout} style={{ "--accent": NAVY }}>
+                        <span className="tile-icon"><CourseIcon id={c.id} size={24} /></span>
+                        <span className="tile-main">
+                          <span className="tile-name" style={{ color: NAVY }}>{c.name}</span>
+                          <span className="tile-meta"><b style={{ color: GOLD_DEEP }}>{c.code}</b>{p && p.done ? <> · {p.done} answered · {pct(p.correct, p.done)}% correct</> : null}</span>
+                        </span>
+                      </Tile>
+                    );
+                  })}
+                  {!edit && <Link to="/college" className="tile more">All college courses →</Link>}
+                </div>
+              </SectionShell>
+            );
+          }
+          const JJ = edit ? "div" : Link;
+          return (
+            <SectionShell key={sec} {...shell} title="Jiu-Jitsu" headOnlyInEdit>
+              <JJ {...(edit ? {} : { to: "/jiujitsu" })} className="jj-banner">
+                <SankakuMark size={54} stops={BELT_STOPS} />
+                <span style={{ position: "relative", zIndex: 1 }}>
+                  <span className="jj-title" style={{ display: "block" }}>Jiu-Jitsu</span>
+                  <span className="jj-sub" style={{ display: "block" }}>
+                    Positions, systems, drills, and sparring plans for training at home.
+                    {other && other.jj.inProgress > 0 ? ` ${other.jj.inProgress} technique${other.jj.inProgress === 1 ? "" : "s"} in progress.` : ""}
+                  </span>
+                </span>
+                {!edit && <span className="jj-go">Open the dojo →</span>}
+              </JJ>
+            </SectionShell>
+          );
+        })}
 
         <footer className="site-foot">
           <span>{signedIn ? `Signed in as ${session.name}. Progress saves to your profile automatically.` : "Progress saves on this device automatically."}</span>
+          {layout.hiddenCount > 0 && !edit && <button className="link-btn" onClick={() => { setEdit(true); window.scrollTo(0, 0); }}>{layout.hiddenCount} hidden · show or rearrange</button>}
           <button className="link-btn" onClick={downloadBackup}>Download a backup file</button>
         </footer>
       </main>
@@ -278,10 +312,45 @@ function ResumeCard({ item, small }) {
   );
 }
 
-function ApTile({ id, s, p }) {
+// A tile is a link normally; while customizing it stays put and gets a Hide/Show button.
+function Tile({ id, to, edit, layout, style, children }) {
+  const hidden = layout.isHidden(id);
+  if (!edit) return hidden ? null : <Link to={to} className="tile" style={style}>{children}</Link>;
+  return (
+    <div className={hidden ? "tile editing is-hidden" : "tile editing"} style={style}>
+      {children}
+      <button className="hide-btn" onClick={() => layout.toggle(id)} aria-pressed={hidden}>{hidden ? "Show" : "Hide"}</button>
+    </div>
+  );
+}
+
+// One home section. Hidden sections (or sections whose every tile is hidden) are left out unless customizing.
+function SectionShell({ id, title, sub, link, edit, layout, index, count, empty, headOnlyInEdit, children }) {
+  const hidden = layout.isHidden(id);
+  if (!edit && (hidden || empty)) return null;
+  return (
+    <section className={hidden ? "section is-hidden" : "section"} aria-label={title}>
+      {(edit || !headOnlyInEdit) && (
+        <div className="section-head">
+          <h2>{title}{sub && <span className="sub">{sub}</span>}{edit && hidden && <span className="hidden-tag">Hidden</span>}</h2>
+          {edit ? (
+            <span className="edit-tools">
+              <button onClick={() => layout.move(id, -1)} disabled={index === 0} aria-label={`Move ${title} up`} title="Move up">↑</button>
+              <button onClick={() => layout.move(id, 1)} disabled={index === count - 1} aria-label={`Move ${title} down`} title="Move down">↓</button>
+              <button className="wide" onClick={() => layout.toggle(id)} aria-pressed={hidden}>{hidden ? "Show section" : "Hide section"}</button>
+            </span>
+          ) : link}
+        </div>
+      )}
+      {!(edit && hidden) && children}
+    </section>
+  );
+}
+
+function ApTileBody({ id, s, p }) {
   const started = p && p.started;
   return (
-    <Link to={s.route} className="tile" style={{ "--accent": SUBJECT_COLORS[id] }}>
+    <>
       <span className="tile-icon"><SubjectIcon id={id} /></span>
       <span className="tile-main">
         <span className="tile-name">{s.name}</span>
@@ -297,6 +366,6 @@ function ApTile({ id, s, p }) {
           <span className="tile-meta">{s.units.length} units · {s.mcqTotal} questions</span>
         )}
       </span>
-    </Link>
+    </>
   );
 }
