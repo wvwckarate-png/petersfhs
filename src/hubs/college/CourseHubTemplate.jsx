@@ -16,6 +16,8 @@ import StructText, { WordParts } from "./StructText";
 import { FIGS } from "./figures";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import { useMcqPosition } from "../shared/useMcqPosition";
+import QuestionScrubber from "../shared/QuestionScrubber";
 import CourseIcon from "./CourseIcon";
 import BrandLogo from "../../components/BrandLogo";
 import ProfileSlot from "../../components/ProfileSlot";
@@ -266,6 +268,7 @@ export default function CourseHubTemplate({ course, content }) {
   }
 
   async function resetProgress(scopeUnitId) {
+    mcqPos.clear(scopeUnitId);
     if (scopeUnitId) {
       const ids = new Set((QUESTIONS[scopeUnitId] || []).map((q) => q.id));
       const next = {};
@@ -284,6 +287,12 @@ export default function CourseHubTemplate({ course, content }) {
 
   const unit = UNITS.find((u) => u.id === unitId);
   const questions = QUESTIONS[unitId] || [];
+
+  // MCQ Practice opens each unit on the question the student was last on (or the next unanswered one)
+  const mcqPos = useMcqPosition({
+    storageKey: MCQ_STORAGE_KEY.replace("-mcq-progress-v1", "-mcq-pos-v1"),
+    unitId, questions, answered, ready: navLoaded, filter: reviewFilter, qIndex, setQIndex,
+  });
   const cards = useMemo(() => FLASHCARDS[unitId] || [], [FLASHCARDS, unitId]);
 
   const statsFor = useCallback((id) => {
@@ -615,14 +624,17 @@ export default function CourseHubTemplate({ course, content }) {
                   </div>
                   {stats.done > 0 && <button style={S.unitResetBtn} onClick={() => setResetTarget(unitId)}>Reset this unit</button>}
                 </div>
-                <div style={S.progressTrack}><div style={{ ...S.progressFill, width: stats.total ? `${(stats.done / stats.total) * 100}%` : "0%" }} /></div>
+                <QuestionScrubber
+                  questions={reviewFilter === "missed" ? questions.filter((q) => answered[q.id] && !answered[q.id].correct) : questions}
+                  answered={answered} index={qIndex} onJump={setQIndex} accent={S.progressFill.background}
+                />
               </div>
 
               {(() => {
                 const missedCount = questions.filter((q) => answered[q.id] && !answered[q.id].correct).length;
                 return (
                   <div style={S.filterRow}>
-                    <button style={{ ...S.filterPill, ...(reviewFilter === "all" ? S.filterPillActive : {}) }} onClick={() => { setReviewFilter("all"); setQIndex(0); }}>
+                    <button style={{ ...S.filterPill, ...(reviewFilter === "all" ? S.filterPillActive : {}) }} onClick={() => { setReviewFilter("all"); mcqPos.restore(); }}>
                       All Questions ({questions.length})
                     </button>
                     <button style={{ ...S.filterPill, ...(reviewFilter === "missed" ? S.filterPillMissedActive : {}) }} onClick={() => { setReviewFilter("missed"); setQIndex(0); }}>

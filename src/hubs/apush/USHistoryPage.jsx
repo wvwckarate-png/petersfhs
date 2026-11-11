@@ -6,6 +6,8 @@ import { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT } from "./content";
 import RichText from "../shared/RichText";
 import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
+import { useMcqPosition } from "../shared/useMcqPosition";
+import QuestionScrubber from "../shared/QuestionScrubber";
 import BrandLogo from "../../components/BrandLogo";
 import ProfileSlot from "../../components/ProfileSlot";
 
@@ -154,6 +156,7 @@ export default function UsHistoryPage() {
   }
 
   async function resetProgress(scopeUnitId) {
+    mcqPos.clear(scopeUnitId);
     if (scopeUnitId) {
       const qs = QUESTIONS[scopeUnitId] || [];
       const idsToClear = new Set(qs.map((q) => q.id));
@@ -171,6 +174,12 @@ export default function UsHistoryPage() {
 
   const unit = UNITS.find((u) => u.id === unitId);
   const questions = QUESTIONS[unitId] || [];
+
+  // MCQ Practice opens each unit on the question the student was last on (or the next unanswered one)
+  const mcqPos = useMcqPosition({
+    storageKey: MCQ_STORAGE_KEY.replace("-mcq-progress-v1", "-mcq-pos-v1"),
+    unitId, questions, answered, ready: navLoaded, filter: reviewFilter, qIndex, setQIndex,
+  });
   const unitFrqs = FRQ_CONTENT[unitId] || {};
   const [frqType, setFrqType] = useState("saq");
   const currentFrq = unitFrqs[frqType] || null;
@@ -417,9 +426,10 @@ export default function UsHistoryPage() {
                     <button style={S.unitResetBtn} onClick={() => setResetTarget(unitId)}>Reset this unit</button>
                   )}
                 </div>
-                <div style={S.progressTrack}>
-                  <div style={{ ...S.progressFill, width: stats.total ? `${(stats.done / stats.total) * 100}%` : "0%" }} />
-                </div>
+                <QuestionScrubber
+                  questions={reviewFilter === "missed" ? questions.filter((q) => answered[q.id] && !answered[q.id].correct) : questions}
+                  answered={answered} index={qIndex} onJump={setQIndex} accent={S.progressFill.background}
+                />
               </div>
 
               {(() => {
@@ -428,7 +438,7 @@ export default function UsHistoryPage() {
                   <div style={S.filterRow}>
                     <button
                       style={{ ...S.filterPill, ...(reviewFilter === "all" ? S.filterPillActive : {}) }}
-                      onClick={() => { setReviewFilter("all"); setQIndex(0); }}
+                      onClick={() => { setReviewFilter("all"); mcqPos.restore(); }}
                     >
                       All Questions ({questions.length})
                     </button>
