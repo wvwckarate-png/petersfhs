@@ -1,0 +1,190 @@
+/* Shared look for the home page, the hub pages, and the profile button. Subject pages keep their own engine styles. */
+:root {
+  --pf-bg: #FAFAF7;
+  --pf-card: #FFFFFF;
+  --pf-ink: #2E332E;
+  --pf-soft: #5C645A;
+  --pf-muted: #767F73;
+  --pf-line: #ECEAE3;
+  --pf-sage: #5E7A55;
+  --pf-sage-pale: #EAF1E6;
+  --pf-display: 'Manrope', system-ui, sans-serif;
+  --pf-body: 'Nunito', system-ui, sans-serif;
+  --pf-mono: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+/* ---------- profile button (rendered into a header by ProfileChip) ---------- */
+.pf-btn {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; white-space: nowrap;
+  font-family: var(--pf-body); font-weight: 700; font-size: 13.5px; line-height: 1;
+  border-radius: 100px; border: 1px solid #DAD7CC; background: #fff; color: var(--pf-ink);
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+.pf-btn:hover { border-color: #B9B5A6; box-shadow: 0 2px 10px rgba(0,0,0,.07); }
+.pf-btn-out { padding: 8px 15px 8px 12px; }
+.pf-btn-in { padding: 4px 14px 4px 4px; }
+.pf-avatar {
+  position: relative; width: 28px; height: 28px; border-radius: 50%; flex-shrink: 0;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--pf-sage); color: #fff; font-family: var(--pf-display); font-weight: 800; font-size: 13px;
+}
+.pf-dot { position: absolute; right: -1px; bottom: -1px; width: 9px; height: 9px; border-radius: 50%; border: 2px solid #fff; }
+.pf-float { animation: pf-float-in .2s ease .35s both; } /* brief delay so it never flashes while a page is loading */
+@keyframes pf-float-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* ---------- version badge ---------- */
+.version-badge .vb-founded { display: inline; }
+
+/* ---------- page shell ---------- */
+.site-page { min-height: 100svh; background: var(--pf-bg); color: var(--pf-ink); font-family: var(--pf-body); display: flex; flex-direction: column; }
+.site-header { background: #fff; border-bottom: 1px solid var(--pf-line); padding: 12px 24px; }
+.site-header-inner { max-width: 1120px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.site-main { width: 100%; max-width: 1120px; margin: 0 auto; padding: 34px 24px 90px; box-sizing: border-box; flex: 1; }
+
+.eyebrow { font-family: var(--pf-mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--pf-muted); }
+
+/* ---------- home: greeting ---------- */
+.home-hello { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 26px; }
+.home-hello h1 { font-family: var(--pf-display); font-weight: 800; font-size: clamp(27px, 4vw, 38px); line-height: 1.15; letter-spacing: -.01em; margin: 6px 0 0; }
+.home-quote { font-size: 14px; color: var(--pf-muted); font-style: italic; max-width: 360px; text-align: right; line-height: 1.5; }
+.home-quote b { font-style: normal; font-weight: 700; color: var(--pf-soft); display: block; }
+
+.save-nudge {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-bottom: 30px;
+  background: #FBF6E6; border: 1px solid #EADBA0; border-radius: 16px; padding: 14px 18px; font-size: 14.5px; line-height: 1.5;
+}
+.save-nudge > div { flex: 1; min-width: 220px; }
+.btn-dark {
+  font-family: var(--pf-body); font-weight: 800; font-size: 14px; border: none; cursor: pointer; text-decoration: none;
+  background: var(--pf-ink); color: #fff; padding: 10px 18px; border-radius: 100px; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px;
+}
+.btn-dark:hover { background: #1F231F; }
+
+/* ---------- home: pick up where you left off ---------- */
+.resume { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 16px; margin-bottom: 40px; }
+.resume.single { grid-template-columns: minmax(0, 1fr); }
+.resume-side { display: grid; gap: 16px; align-content: stretch; }
+.resume-card {
+  position: relative; display: flex; flex-direction: column; gap: 14px; text-decoration: none; color: inherit;
+  background: var(--pf-card); border: 1px solid var(--pf-line); border-radius: 22px; padding: 24px 26px;
+  box-shadow: 0 6px 22px rgba(0,0,0,.05); overflow: hidden; transition: transform .16s ease, box-shadow .16s ease;
+}
+.resume-card::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 6px; background: var(--accent); }
+.resume-card:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(0,0,0,.09); }
+.resume-top { display: flex; align-items: center; gap: 14px; }
+.resume-title { font-family: var(--pf-display); font-weight: 800; font-size: 22px; line-height: 1.2; }
+.resume-where { font-size: 15px; color: var(--pf-soft); line-height: 1.45; }
+.resume-where b { color: var(--pf-ink); font-weight: 800; }
+.resume-foot { border-top: 1px solid var(--pf-line); padding-top: 16px; display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: auto; }
+.resume-stats { display: flex; gap: 26px; flex-wrap: wrap; }
+.resume-stats > div { display: flex; flex-direction: column; gap: 2px; }
+.resume-stats b { font-family: var(--pf-display); font-weight: 800; font-size: 19px; color: var(--pf-ink); }
+.resume-stats span { font-size: 12px; color: var(--pf-muted); }
+.resume-go {
+  font-family: var(--pf-body); font-weight: 800; font-size: 14.5px; color: #fff; background: var(--accent-deep, var(--pf-ink));
+  padding: 10px 20px; border-radius: 100px; white-space: nowrap;
+}
+.resume-card.small { padding: 16px 18px 16px 22px; gap: 8px; border-radius: 18px; }
+.resume-card.small .resume-title { font-size: 16.5px; }
+.resume-card.small .resume-where { font-size: 13.5px; }
+.mode-chip { display: inline-block; font-family: var(--pf-body); font-weight: 800; font-size: 12px; padding: 3px 10px; border-radius: 100px; background: var(--accent-pale, #F0EFE9); color: var(--accent-deep, var(--pf-soft)); margin-left: 6px; vertical-align: 1px; white-space: nowrap; }
+.ago { font-family: var(--pf-mono); font-size: 11px; letter-spacing: .04em; color: var(--pf-muted); }
+
+/* ---------- progress bar ---------- */
+.bar { display: block; height: 7px; border-radius: 100px; background: #ECEAE3; overflow: hidden; }
+.bar > i { display: block; height: 100%; border-radius: 100px; background: var(--accent, var(--pf-sage)); min-width: 4px; }
+.bar.thin { height: 5px; }
+.bar-note { font-size: 13px; color: var(--pf-muted); margin-top: 7px; }
+.bar-note b { color: var(--pf-ink); font-weight: 800; }
+
+/* ---------- catalog sections ---------- */
+.section { margin-bottom: 38px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+.section-head h2 { font-family: var(--pf-display); font-weight: 800; font-size: 20px; margin: 0; }
+.section-head .sub { font-size: 14px; color: var(--pf-muted); margin-left: 10px; font-family: var(--pf-body); font-weight: 600; }
+.section-link { font-weight: 800; font-size: 13.5px; color: var(--pf-sage); text-decoration: none; white-space: nowrap; }
+.section-link:hover { text-decoration: underline; }
+.group-label { font-family: var(--pf-mono); font-size: 10.5px; letter-spacing: .12em; text-transform: uppercase; color: var(--pf-muted); margin: 18px 0 9px; }
+.group-label:first-of-type { margin-top: 0; }
+
+.tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.tile {
+  display: flex; align-items: center; gap: 13px; min-height: 68px; box-sizing: border-box; text-decoration: none; color: inherit;
+  background: var(--pf-card); border: 1px solid var(--pf-line); border-radius: 16px; padding: 12px 15px;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.tile:hover { transform: translateY(-2px); box-shadow: 0 8px 22px rgba(0,0,0,.08); border-color: color-mix(in srgb, var(--accent, #999) 45%, #ECEAE3); }
+.tile-icon { width: 42px; height: 42px; border-radius: 13px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: color-mix(in srgb, var(--accent, #999) 14%, #fff); }
+.tile-main { min-width: 0; flex: 1; display: flex; flex-direction: column; gap: 5px; }
+.tile-name { font-family: var(--pf-display); font-weight: 800; font-size: 15.5px; line-height: 1.25; overflow-wrap: anywhere; }
+.tile-meta { font-size: 12.5px; color: var(--pf-muted); line-height: 1.3; }
+.tile-meta b { color: var(--pf-soft); font-weight: 800; }
+.tile-arrow { color: #B5B2A6; font-weight: 800; flex-shrink: 0; }
+.tile.more { border-style: dashed; background: transparent; justify-content: center; font-weight: 800; font-size: 14px; color: var(--pf-soft); }
+
+.jj-banner {
+  display: flex; align-items: center; gap: 18px; text-decoration: none; color: #F3F1EA;
+  background: #1B1F24; border-radius: 20px; padding: 18px 22px; position: relative; overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.jj-banner:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(27,31,36,.28); }
+.jj-banner::after { content: ""; position: absolute; right: -60px; top: -80px; width: 260px; height: 260px; border-radius: 50%; background: radial-gradient(circle, rgba(216,71,46,.32), rgba(216,71,46,0) 70%); pointer-events: none; }
+.jj-title { font-family: var(--pf-display); font-weight: 800; font-size: 18px; }
+.jj-sub { font-size: 13.5px; color: #B9BDC2; margin-top: 3px; line-height: 1.45; }
+.jj-go { margin-left: auto; font-weight: 800; font-size: 14px; color: #fff; background: #D8472E; padding: 9px 18px; border-radius: 100px; white-space: nowrap; position: relative; z-index: 1; }
+
+.site-foot { border-top: 1px solid var(--pf-line); margin-top: 8px; padding-top: 18px; display: flex; gap: 10px 22px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--pf-muted); }
+.link-btn { background: none; border: none; padding: 0; cursor: pointer; font: inherit; color: var(--pf-sage); font-weight: 800; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- hub pages ---------- */
+.hub-intro { max-width: 1120px; margin: 0 auto 22px; font-size: 15.5px; color: var(--pf-muted); }
+.hub-wrap { max-width: 1120px; margin: 0 auto; }
+
+/* ---------- study-page top bar and mode bar (AP subjects, college courses, SAT vocabulary) ---------- */
+.topbar-actions { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.topbar-logo-row { min-width: 0; }
+@media (max-width: 700px) {
+  /* phones: keep the header to one line and show every mode at once in a compact grid (it used to wrap to 3 or 4 rows) */
+  .topbar-tag { display: none; }
+  .topbar-logo-row > a:first-child { display: none !important; }
+  .topbar-back { padding: 7px 12px !important; font-size: 13px !important; }
+  .mode-bar-inner { display: grid !important; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px !important; }
+  .mode-bar-inner:has(> :nth-child(4):last-child) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mode-bar-inner > .mode-pill-hover { justify-content: center; padding: 8px 4px !important; font-size: 12.5px !important; white-space: nowrap; }
+  .mode-bar-inner > .mode-pill-hover > span:first-child { display: none !important; }
+  .app-body { padding-bottom: 64px !important; }
+  .hub-bar-inner h1 { font-size: 16px !important; }
+}
+
+/* ---------- responsive ---------- */
+@media (max-width: 920px) {
+  .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .resume { grid-template-columns: minmax(0, 1fr); }
+  .resume-side { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 600px) {
+  .site-header { padding: 10px 16px; }
+  .site-main { padding: 22px 16px 80px; }
+  .tiles { grid-template-columns: minmax(0, 1fr); gap: 10px; }
+  .resume-side { grid-template-columns: minmax(0, 1fr); }
+  .resume-card { padding: 20px 20px 20px 24px; }
+  .resume-title { font-size: 20px; }
+  .home-quote { text-align: left; max-width: none; }
+  .section-head .sub { display: none; }
+  .resume-stats { gap: 18px; }
+  .resume-stats b { font-size: 17px; }
+  .jj-banner { flex-wrap: wrap; }
+  .jj-go { margin-left: 0; }
+  .pf-btn-in { padding: 3px; border-color: transparent; background: transparent; }
+  .pf-btn-in .pf-name { display: none; }
+  .pf-btn-out { padding: 8px 12px 8px 10px; font-size: 13px; }
+  .version-badge .vb-founded { display: none; }
+  .version-badge { opacity: .78; }
+  .pf-float { opacity: .9; }
+}
+
+@media (max-width: 480px) {
+  /* small phones: the header keeps the person icon; the home page still has a full "Sign in" banner */
+  .topbar-actions .pf-btn-out .pf-label { display: none; }
+  .topbar-actions .pf-btn-out { padding: 8px 9px; }
+}

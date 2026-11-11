@@ -9,6 +9,7 @@
 body {
   margin: 0;
   background: #FAFAF7;
+  font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
 
 #root {

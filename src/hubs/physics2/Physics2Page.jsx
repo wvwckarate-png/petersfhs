@@ -11,6 +11,7 @@ import { useSectionProgress } from "../shared/useSectionProgress";
 import ExamScoresCard from "../shared/ExamScoresCard";
 import FRQ_META from "./frqMeta";
 import BrandLogo from "../../components/BrandLogo";
+import ProfileSlot from "../../components/ProfileSlot";
 
 const FrqExamsView = lazy(() => import("./FrqExamsView"));
 
@@ -244,7 +245,7 @@ export default function Physics2Page() {
       {/* TOP BAR */}
       <div style={S.topbar}>
         <div style={S.topbarInner} className="app-container">
-          <div style={S.logoRow}>
+          <div style={S.logoRow} className="topbar-logo-row">
             <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -255,15 +256,19 @@ export default function Physics2Page() {
             </div>
             <div>
               <div style={S.logoText}>AP Physics 2 Hub</div>
-              <div style={S.logoTag}>Peters Family Homeschool</div>
+              <div style={S.logoTag} className="topbar-tag">Peters Family Homeschool</div>
             </div>
+          </div>
+          <div className="topbar-actions">
+            <Link to="/" style={S.backToHubPill} className="mode-pill-hover topbar-back">← Home</Link>
+            <ProfileSlot />
           </div>
         </div>
       </div>
 
       {/* MODE PILLS */}
       <div style={S.modeBar}>
-        <div style={S.modeBarInner} className="app-container">
+        <div style={S.modeBarInner} className="app-container mode-bar-inner">
           {MODES.map((m) => (
             <button
               key={m.id}
@@ -274,9 +279,6 @@ export default function Physics2Page() {
               <span style={S.modePillIcon}><ModeIcon id={m.id} /></span>{m.label}
             </button>
           ))}
-          <Link to="/ap" style={S.backToHubPill} className="mode-pill-hover">
-            ← AP Hub
-          </Link>
         </div>
       </div>
 
@@ -805,7 +807,7 @@ const S = {
   modePill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#F0EFE9", color: "#5A4E3F", border: "none", padding: "8px 16px", borderRadius: 100, cursor: "pointer", display: "inline-flex", alignItems: "center" },
   modePillActive: { background: "#7C9B72", color: "white" },
   modePillIcon: { display: "inline-flex", marginRight: 7, position: "relative", top: 1 },
-  backToHubPill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#EDE8F2", color: "#6B5A80", border: "none", padding: "8px 16px", borderRadius: 100, cursor: "pointer", display: "inline-flex", alignItems: "center", textDecoration: "none", marginLeft: "auto" },
+  backToHubPill: { fontFamily: "'Nunito',sans-serif", fontWeight: 700, fontSize: 13.5, background: "#EDE8F2", color: "#6B5A80", border: "none", padding: "8px 16px", borderRadius: 100, cursor: "pointer", display: "inline-flex", alignItems: "center", textDecoration: "none" },
 
   body: { maxWidth: 1040, margin: "0 auto", padding: "18px 24px 24px", position: "relative", flex: 1, overflowY: "auto", width: "100%" },
 

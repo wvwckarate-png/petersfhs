@@ -53,13 +53,6 @@ export default function CollegeHubPage() {
         ))}
       </div>
 
-      <Link to="/" style={styles.homeCard}>
-        <span style={styles.homeCardIcon}>←</span>
-        <span>
-          <div style={styles.homeCardTitle}>Back to Homeschool Hub</div>
-          <div style={styles.homeCardSub}>Return to the main site</div>
-        </span>
-      </Link>
 
       <style>{`
         .college-card { transition: transform 0.18s ease, box-shadow 0.18s ease; }

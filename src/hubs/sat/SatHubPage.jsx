@@ -39,7 +39,7 @@ export default function SatHubPage() {
     <div style={styles.page}>
       <HubTopBar title="SAT Hub" titleColor="#2A2350" tagColor="#8A84A8" border="#E5E2F0" pillBg="#EFEDFA" pillColor="#3D3470" />
       <div style={styles.header}>
-                <p style={styles.subtitle}>Choose a subject to start studying.</p>
+                <p style={styles.subtitle}>Build your SAT vocabulary: learn the words with flash cards, then test yourself in context.</p>
       </div>
       <div style={styles.grid}>
         {subjects.map((s) => (
@@ -51,19 +51,12 @@ export default function SatHubPage() {
           </Link>
         ))}
       </div>
-      <Link to="/" style={styles.homeCard}>
-        <span style={styles.homeCardIcon}>←</span>
-        <span>
-          <div style={styles.homeCardTitle}>Back to Homeschool Hub</div>
-          <div style={styles.homeCardSub}>Return to the main site</div>
-        </span>
-      </Link>
     </div>
   );
 }
 
 const styles = {
-  page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "sans-serif", padding: "40px 24px", boxSizing: "border-box" },
+  page: { minHeight: "100vh", background: "#FAFAF7", fontFamily: "'Nunito', sans-serif", padding: "40px 24px 90px", boxSizing: "border-box" },
   header: { textAlign: "center", margin: "0 0 32px" },
   title: { fontSize: 32, fontWeight: 800, color: "#2A2350", margin: 0 },
   subtitle: { color: "#8A84A8", marginTop: 8 },

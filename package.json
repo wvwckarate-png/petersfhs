@@ -8,7 +8,10 @@
     "build": "vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "structures": "node --import ./scripts/ext-hook.mjs scripts/build-structures.mjs orgchem1 orgchem2 physiology kinesiology nutrition"
+    "structures": "node --import ./scripts/ext-hook.mjs scripts/build-structures.mjs orgchem1 orgchem2 physiology kinesiology nutrition",
+    "manifest": "node scripts/build-manifest.mjs",
+    "predev": "node scripts/build-manifest.mjs",
+    "prebuild": "node scripts/build-manifest.mjs"
   },
   "dependencies": {
     "react": "^19.2.7",

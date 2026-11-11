@@ -1,10 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
+import { createPortal } from "react-dom";
+import { getSlot, onSlot } from "../lib/profileSlot";
 import {
   getSession, onSession, onSync, getSyncState, listProfiles, createProfile, signIn, signOut, renameProfile,
   syncDown, flush, legacyEntries, legacyAvailable, legacySkipped, skipLegacy, importLegacy, downloadBackup,
 } from "../lib/cloud";
 
-// Small "Sign in" pill (bottom-left) + panel. Kids pick a name and enter a PIN; first-time setup needs the family code.
+// Profile button + panel. The button sits in the page header when the page provides a <ProfileSlot />;
+// on pages without one it is a small pill at the bottom-left. Kids pick a name and enter a PIN; first-time setup needs the family code.
 // Nothing here talks to Supabase accounts: it only calls the site's own PIN-checked functions (see lib/cloud.js).
 
 const INK = "#2C312C", MUTED = "#6A726A", LINE = "rgba(60,60,60,.18)", GREEN = "#2E7D32", RED = "#B3361C";
@@ -36,8 +39,11 @@ export default function ProfileChip() {
   const [error, setError] = useState("");
   const [importMsg, setImportMsg] = useState("");
 
+  const [slot, setSlotEl] = useState(getSlot());
+
   useEffect(() => onSession(setSession), []);
   useEffect(() => onSync(setSync), []);
+  useEffect(() => { const off = onSlot(setSlotEl); setSlotEl(getSlot()); return off; }, []);
 
   const legacyCount = useMemo(() => (open ? legacyEntries().length : 0), [open, session]);
   const canImport = !!session && !session.expired && legacyCount > 0 && legacyAvailable();
@@ -52,6 +58,11 @@ export default function ProfileChip() {
     try { setProfiles(await listProfiles()); } catch (e) { setError(e.message); setProfiles([]); }
   }
   function close() { setOpen(false); reset(); }
+  useEffect(() => {
+    const h = () => openPanel();
+    window.addEventListener("pfhs:open-profile", h);
+    return () => window.removeEventListener("pfhs:open-profile", h);
+  }); // re-bound each render so it always sees the current session
 
   async function finishAuth() {
     // Pull whatever this profile already has. A brand-new profile on a device that already holds saved progress
@@ -116,10 +127,23 @@ export default function ProfileChip() {
 
   return (
     <>
-      <button onClick={openPanel} aria-label={session ? `Signed in as ${session.name}` : "Sign in"}
-        style={{ position: "fixed", left: 10, bottom: 8, zIndex: 40, display: "flex", alignItems: "center", gap: 7, padding: "5px 11px", borderRadius: 999, background: "rgba(255,255,255,.92)", border: `1px solid ${LINE}`, color: "#3F443F", fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, letterSpacing: "0.04em", cursor: "pointer" }}>
-        <span style={{ width: 8, height: 8, borderRadius: "50%", background: dot, flexShrink: 0 }} />{label}
-      </button>
+      {slot ? createPortal(
+        session ? (
+          <button onClick={openPanel} className="pf-btn pf-btn-in" aria-label={`Signed in as ${session.name}. Open profile`} title={statusText(sync, session)}>
+            <span className="pf-avatar">{(session.name || "?").trim().charAt(0).toUpperCase()}<span className="pf-dot" style={{ background: dot }} /></span>
+            <span className="pf-name">{session.expired ? `${session.name} · sign in` : session.name}</span>
+          </button>
+        ) : (
+          <button onClick={openPanel} className="pf-btn pf-btn-out" aria-label="Sign in">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="8.2" r="3.6" stroke="currentColor" strokeWidth="1.9"/><path d="M4.8 20c.9-3.6 3.7-5.4 7.2-5.4s6.3 1.8 7.2 5.4" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round"/></svg>
+            <span className="pf-label">Sign in</span>
+          </button>
+        ), slot) : (
+        <button onClick={openPanel} className="pf-float" aria-label={session ? `Signed in as ${session.name}` : "Sign in"}
+          style={{ position: "fixed", left: 10, bottom: 8, zIndex: 40, display: "flex", alignItems: "center", gap: 7, padding: "5px 11px", borderRadius: 999, background: "rgba(255,255,255,.92)", border: `1px solid ${LINE}`, color: "#3F443F", fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, letterSpacing: "0.04em", cursor: "pointer" }}>
+          <span style={{ width: 8, height: 8, borderRadius: "50%", background: dot, flexShrink: 0 }} />{label}
+        </button>
+      )}
 
       {open && (
         <div role="dialog" aria-modal="true" aria-label="Student profile" onClick={close}

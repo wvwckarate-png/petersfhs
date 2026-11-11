@@ -3,6 +3,7 @@ import { storage } from "../../../lib/storage";
 import { Link } from "react-router-dom";
 import { DIFFICULTIES, DECKS, QUESTIONS } from "./content";
 import BrandLogo from "../../../components/BrandLogo";
+import ProfileSlot from "../../../components/ProfileSlot";
 
 const PROGRESS_KEY = "vocab-question-progress-v1";
 const NAV_KEY = "vocab-question-nav-v1";
@@ -116,7 +117,7 @@ export default function QuestionBankPage() {
 
       <div style={S.topbar}>
         <div style={S.topbarInner}>
-          <div style={S.logoRow}>
+          <div style={S.logoRow} className="topbar-logo-row">
             <BrandLogo height={42} divider />
             <div style={S.logoMark}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
@@ -129,10 +130,13 @@ export default function QuestionBankPage() {
             </div>
             <div>
               <div style={S.logoText}>SAT Vocabulary Question Bank</div>
-              <div style={S.logoTag}>Peters Family Homeschool</div>
+              <div style={S.logoTag} className="topbar-tag">Peters Family Homeschool</div>
             </div>
           </div>
-          <Link to="/sat" style={S.backPill}>← SAT Hub</Link>
+          <div className="topbar-actions">
+            <Link to="/" style={S.backPill} className="topbar-back">← Home</Link>
+            <ProfileSlot />
+          </div>
         </div>
       </div>
 

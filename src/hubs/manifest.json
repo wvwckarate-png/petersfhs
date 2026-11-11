@@ -1,0 +1,545 @@
+{
+ "ap": {
+  "physics1": {
+   "name": "AP Physics 1",
+   "route": "/ap/physics1",
+   "hubKey": "physics1-hub",
+   "examKey": "physics1",
+   "group": "science",
+   "units": [
+    {
+     "id": 1,
+     "name": "Kinematics",
+     "mcq": 65,
+     "sections": 7
+    },
+    {
+     "id": 2,
+     "name": "Force and Translational Dynamics",
+     "mcq": 65,
+     "sections": 9
+    },
+    {
+     "id": 3,
+     "name": "Work, Energy, and Power",
+     "mcq": 65,
+     "sections": 6
+    },
+    {
+     "id": 4,
+     "name": "Linear Momentum",
+     "mcq": 65,
+     "sections": 6
+    },
+    {
+     "id": 5,
+     "name": "Torque and Rotational Dynamics",
+     "mcq": 65,
+     "sections": 6
+    },
+    {
+     "id": 6,
+     "name": "Energy and Momentum of Rotating Systems",
+     "mcq": 65,
+     "sections": 4
+    },
+    {
+     "id": 7,
+     "name": "Oscillations",
+     "mcq": 65,
+     "sections": 4
+    },
+    {
+     "id": 8,
+     "name": "Fluids",
+     "mcq": 65,
+     "sections": 6
+    }
+   ],
+   "mcqTotal": 520,
+   "sectionTotal": 48
+  },
+  "physics2": {
+   "name": "AP Physics 2",
+   "route": "/ap/physics2",
+   "hubKey": "physics2-hub",
+   "examKey": "physics2",
+   "group": "science",
+   "units": [
+    {
+     "id": 9,
+     "name": "Thermodynamics",
+     "mcq": 65,
+     "sections": 6
+    },
+    {
+     "id": 10,
+     "name": "Electric Force, Field & Potential",
+     "mcq": 66,
+     "sections": 7
+    },
+    {
+     "id": 11,
+     "name": "Electric Circuits",
+     "mcq": 65,
+     "sections": 9
+    },
+    {
+     "id": 12,
+     "name": "Magnetism & Electromagnetism",
+     "mcq": 66,
+     "sections": 4
+    },
+    {
+     "id": 13,
+     "name": "Geometric Optics",
+     "mcq": 65,
+     "sections": 4
+    },
+    {
+     "id": 14,
+     "name": "Waves, Sound & Physical Optics",
+     "mcq": 68,
+     "sections": 9
+    },
+    {
+     "id": 15,
+     "name": "Modern Physics",
+     "mcq": 65,
+     "sections": 9
+    }
+   ],
+   "mcqTotal": 460,
+   "sectionTotal": 48
+  },
+  "biology": {
+   "name": "AP Biology",
+   "route": "/ap/biology",
+   "hubKey": "biology-hub",
+   "examKey": "biology",
+   "group": "science",
+   "units": [
+    {
+     "id": 1,
+     "name": "Chemistry of Life",
+     "mcq": 67,
+     "sections": 5
+    },
+    {
+     "id": 2,
+     "name": "Cell Structure and Function",
+     "mcq": 69,
+     "sections": 5
+    },
+    {
+     "id": 3,
+     "name": "Cellular Energetics",
+     "mcq": 67,
+     "sections": 5
+    },
+    {
+     "id": 4,
+     "name": "Cell Communication and Cell Cycle",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 5,
+     "name": "Heredity",
+     "mcq": 66,
+     "sections": 5
+    },
+    {
+     "id": 6,
+     "name": "Gene Expression and Regulation",
+     "mcq": 67,
+     "sections": 5
+    },
+    {
+     "id": 7,
+     "name": "Natural Selection",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 8,
+     "name": "Ecology",
+     "mcq": 68,
+     "sections": 5
+    }
+   ],
+   "mcqTotal": 534,
+   "sectionTotal": 40
+  },
+  "chemistry": {
+   "name": "AP Chemistry",
+   "route": "/ap/chemistry",
+   "hubKey": "chemistry-hub",
+   "examKey": "chemistry",
+   "group": "science",
+   "units": [
+    {
+     "id": 1,
+     "name": "Atomic Structure and Properties",
+     "mcq": 68,
+     "sections": 8
+    },
+    {
+     "id": 2,
+     "name": "Compound Structure and Properties",
+     "mcq": 68,
+     "sections": 7
+    },
+    {
+     "id": 3,
+     "name": "Properties of Substances and Mixtures",
+     "mcq": 100,
+     "sections": 13
+    },
+    {
+     "id": 4,
+     "name": "Chemical Reactions",
+     "mcq": 66,
+     "sections": 9
+    },
+    {
+     "id": 5,
+     "name": "Kinetics",
+     "mcq": 67,
+     "sections": 11
+    },
+    {
+     "id": 6,
+     "name": "Thermochemistry",
+     "mcq": 66,
+     "sections": 9
+    },
+    {
+     "id": 7,
+     "name": "Equilibrium",
+     "mcq": 70,
+     "sections": 12
+    },
+    {
+     "id": 8,
+     "name": "Acids and Bases",
+     "mcq": 68,
+     "sections": 11
+    },
+    {
+     "id": 9,
+     "name": "Thermodynamics and Electrochemistry",
+     "mcq": 65,
+     "sections": 11
+    }
+   ],
+   "mcqTotal": 638,
+   "sectionTotal": 91
+  },
+  "environmental": {
+   "name": "AP Environmental Science",
+   "route": "/ap/environmental",
+   "hubKey": "envsci-hub",
+   "examKey": null,
+   "group": "science",
+   "units": [
+    {
+     "id": 1,
+     "name": "The Living World: Ecosystems",
+     "mcq": 80,
+     "sections": 8
+    },
+    {
+     "id": 2,
+     "name": "The Living World: Biodiversity",
+     "mcq": 83,
+     "sections": 7
+    },
+    {
+     "id": 3,
+     "name": "Populations",
+     "mcq": 76,
+     "sections": 8
+    },
+    {
+     "id": 4,
+     "name": "Earth Systems and Resources",
+     "mcq": 85,
+     "sections": 9
+    },
+    {
+     "id": 5,
+     "name": "Land and Water Use",
+     "mcq": 76,
+     "sections": 8
+    },
+    {
+     "id": 6,
+     "name": "Energy Resources and Consumption",
+     "mcq": 79,
+     "sections": 9
+    },
+    {
+     "id": 7,
+     "name": "Atmospheric Pollution",
+     "mcq": 68,
+     "sections": 7
+    },
+    {
+     "id": 8,
+     "name": "Aquatic and Terrestrial Pollution",
+     "mcq": 72,
+     "sections": 7
+    },
+    {
+     "id": 9,
+     "name": "Global Change",
+     "mcq": 72,
+     "sections": 7
+    }
+   ],
+   "mcqTotal": 691,
+   "sectionTotal": 70
+  },
+  "ushistory": {
+   "name": "AP US History",
+   "route": "/ap/ushistory",
+   "hubKey": "ushistory-hub",
+   "examKey": null,
+   "group": "social",
+   "units": [
+    {
+     "id": 1,
+     "name": "Period 1: 1491–1607",
+     "mcq": 67,
+     "sections": 6
+    },
+    {
+     "id": 2,
+     "name": "Period 2: 1607–1754",
+     "mcq": 66,
+     "sections": 6
+    },
+    {
+     "id": 3,
+     "name": "Period 3: 1754–1800",
+     "mcq": 65,
+     "sections": 8
+    },
+    {
+     "id": 4,
+     "name": "Period 4: 1800–1848",
+     "mcq": 66,
+     "sections": 8
+    },
+    {
+     "id": 5,
+     "name": "Period 5: 1844–1877",
+     "mcq": 65,
+     "sections": 8
+    },
+    {
+     "id": 6,
+     "name": "Period 6: 1865–1898",
+     "mcq": 65,
+     "sections": 8
+    },
+    {
+     "id": 7,
+     "name": "Period 7: 1890–1945",
+     "mcq": 67,
+     "sections": 9
+    },
+    {
+     "id": 8,
+     "name": "Period 8: 1945–1980",
+     "mcq": 66,
+     "sections": 8
+    },
+    {
+     "id": 9,
+     "name": "Period 9: 1980–Present",
+     "mcq": 65,
+     "sections": 6
+    }
+   ],
+   "mcqTotal": 592,
+   "sectionTotal": 67
+  },
+  "government": {
+   "name": "AP US Government",
+   "route": "/ap/government",
+   "hubKey": "government-hub",
+   "examKey": null,
+   "group": "social",
+   "units": [
+    {
+     "id": 1,
+     "name": "Foundations of American Democracy",
+     "mcq": 70,
+     "sections": 7
+    },
+    {
+     "id": 2,
+     "name": "Interactions Among Branches of Government",
+     "mcq": 65,
+     "sections": 8
+    },
+    {
+     "id": 3,
+     "name": "Civil Liberties and Civil Rights",
+     "mcq": 73,
+     "sections": 7
+    },
+    {
+     "id": 4,
+     "name": "American Political Ideologies and Beliefs",
+     "mcq": 72,
+     "sections": 6
+    },
+    {
+     "id": 5,
+     "name": "Political Participation",
+     "mcq": 70,
+     "sections": 8
+    }
+   ],
+   "mcqTotal": 350,
+   "sectionTotal": 36
+  },
+  "englang": {
+   "name": "AP English Language",
+   "route": "/ap/englang",
+   "hubKey": "englang-hub",
+   "examKey": null,
+   "group": "english",
+   "units": [
+    {
+     "id": 1,
+     "name": "The Rhetorical Situation",
+     "mcq": 38,
+     "sections": 5
+    },
+    {
+     "id": 2,
+     "name": "Claims, Evidence, and Reasoning",
+     "mcq": 35,
+     "sections": 5
+    },
+    {
+     "id": 3,
+     "name": "Rhetorical Appeals and Style",
+     "mcq": 36,
+     "sections": 5
+    },
+    {
+     "id": 4,
+     "name": "Argument Structure and Counterargument",
+     "mcq": 34,
+     "sections": 5
+    },
+    {
+     "id": 5,
+     "name": "Synthesis: Working with Multiple Sources",
+     "mcq": 28,
+     "sections": 5
+    },
+    {
+     "id": 6,
+     "name": "Syntax and Diction Analysis",
+     "mcq": 32,
+     "sections": 5
+    },
+    {
+     "id": 7,
+     "name": "Complex and Layered Rhetorical Analysis",
+     "mcq": 34,
+     "sections": 5
+    },
+    {
+     "id": 8,
+     "name": "Advanced Synthesis and Research Argument",
+     "mcq": 40,
+     "sections": 5
+    },
+    {
+     "id": 9,
+     "name": "Exam Skills Integration and Review",
+     "mcq": 45,
+     "sections": 5
+    }
+   ],
+   "mcqTotal": 322,
+   "sectionTotal": 45
+  },
+  "englit": {
+   "name": "AP English Literature",
+   "route": "/ap/englit",
+   "hubKey": "englit-hub",
+   "examKey": null,
+   "group": "english",
+   "units": [
+    {
+     "id": 1,
+     "name": "Short Fiction I",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 2,
+     "name": "Poetry I",
+     "mcq": 67,
+     "sections": 5
+    },
+    {
+     "id": 3,
+     "name": "Longer Fiction or Drama I",
+     "mcq": 67,
+     "sections": 5
+    },
+    {
+     "id": 4,
+     "name": "Short Fiction II",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 5,
+     "name": "Poetry II",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 6,
+     "name": "Longer Fiction or Drama II",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 7,
+     "name": "Short Fiction III",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 8,
+     "name": "Poetry III",
+     "mcq": 65,
+     "sections": 5
+    },
+    {
+     "id": 9,
+     "name": "Longer Fiction or Drama III",
+     "mcq": 67,
+     "sections": 5
+    }
+   ],
+   "mcqTotal": 591,
+   "sectionTotal": 45
+  }
+ },
+ "sat": {
+  "words": 1000,
+  "questions": 1000
+ }
+}

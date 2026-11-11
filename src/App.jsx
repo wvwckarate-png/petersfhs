@@ -1,5 +1,6 @@
-import React, { Suspense, lazy } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React, { Suspense, lazy, useEffect } from "react";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { noteVisit } from "./lib/progress";
 import HomePage from "./HomePage";
 import NotFoundPage from "./NotFoundPage";
 import ErrorBoundary from "./ErrorBoundary";
@@ -23,9 +24,17 @@ const QuestionBankPage = lazy(() => import("./hubs/sat/vocab/QuestionBankPage"))
 import VersionBadge from "./components/VersionBadge";
 import ProfileChip from "./components/ProfileChip";
 
+// Remembers which study page was opened when, so the home page can offer "pick up where you left off".
+function RecentTracker() {
+  const { pathname } = useLocation();
+  useEffect(() => { noteVisit(pathname); }, [pathname]);
+  return null;
+}
+
 export default function App() {
   return (
     <BrowserRouter>
+      <RecentTracker />
       <ErrorBoundary>
       <Suspense fallback={<div style={{ margin: "auto", padding: 24, fontFamily: "sans-serif", color: "#767F73" }}>Loading…</div>}>
       <Routes>
