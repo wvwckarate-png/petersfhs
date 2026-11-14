@@ -11,6 +11,7 @@ import { BELT_STOPS } from "./hubs/jiujitsu/Enso";
 import { getSession, onSession, legacyEntries, downloadBackup } from "./lib/cloud";
 import { openProfilePanel } from "./lib/profileSlot";
 import { useLayout } from "./lib/layoutPrefs";
+import TileGrid from "./components/TileGrid";
 import { AP, SAT_TOTALS, MODE_LABELS, loadApProgress, loadOtherProgress, pct, timeAgo } from "./lib/progress";
 
 // The home page is the student's desk: who is studying, where they left off, and every subject one click away.
@@ -167,13 +168,15 @@ export default function HomePage() {
 
         {edit && (
           <div className="edit-bar" role="region" aria-label="Customize this page">
-            <div><b>Customizing your home page.</b> Move sections up or down, and hide anything you don't use. Hidden subjects stay available on the AP, SAT, and College hub pages, and nothing is deleted.</div>
+            <div><b>Customizing your home page.</b> Drag cards to put them in the order you want, move sections up or down, and hide anything you don't use. Hidden subjects stay available on the AP, SAT, and College hub pages, and nothing is deleted.</div>
             <div className="edit-bar-btns">
               {layout.customized && <button className="btn-ghost" onClick={layout.reset}>Reset to default</button>}
               <button className="btn-dark" onClick={() => setEdit(false)}>Done</button>
             </div>
           </div>
         )}
+
+        {edit && <button className="btn-dark edit-done-float" onClick={() => setEdit(false)}>Done customizing</button>}
 
         {returning && !edit && (
           <section aria-label="Pick up where you left off">
@@ -195,21 +198,18 @@ export default function HomePage() {
             <SectionShell key={sec} {...shell} title="AP subjects" sub="Study guides, practice questions, FRQs, and exams"
               empty={Object.keys(AP).every((id) => layout.isHidden(`ap:${id}`))}
               link={<Link to="/ap" className="section-link">AP Hub →</Link>}>
-              <div className="tiles">
-                {Object.entries(AP).map(([id, s]) => (
-                  <Tile key={id} id={`ap:${id}`} to={s.route} edit={edit} layout={layout} style={{ "--accent": SUBJECT_COLORS[id] }}>
-                    <ApTileBody id={id} s={s} p={ap && ap[id]} />
-                  </Tile>
-                ))}
-              </div>
+              <TileGrid group="ap" edit={edit} layout={layout} items={Object.entries(AP).map(([id, s]) => ({
+                id: `ap:${id}`, to: s.route, style: { "--accent": SUBJECT_COLORS[id] }, body: <ApTileBody id={id} s={s} p={ap && ap[id]} />,
+              }))} />
             </SectionShell>
           );
           if (sec === "sat") return (
             <SectionShell key={sec} {...shell} title="SAT" sub="Vocabulary"
               empty={layout.isHidden("sat:cards") && layout.isHidden("sat:questions")}
               link={<Link to="/sat" className="section-link">SAT Hub →</Link>}>
-              <div className="tiles">
-                <Tile id="sat:cards" to="/sat/vocab" edit={edit} layout={layout} style={{ "--accent": SAT_COLOR }}>
+              <TileGrid group="sat" edit={edit} layout={layout} items={[
+                { id: "sat:cards", to: "/sat/vocab", style: { "--accent": SAT_COLOR }, body: (
+                  <>
                   <span className="tile-icon"><SatIcon kind="cards" /></span>
                   <span className="tile-main">
                     <span className="tile-name">Vocabulary Flash Cards</span>
@@ -217,8 +217,10 @@ export default function HomePage() {
                       <><Bar thin value={pct(other.sat.wordsKnown, SAT_TOTALS.words)} /><span className="tile-meta"><b>{other.sat.wordsKnown}</b> of {SAT_TOTALS.words} words known</span></>
                     ) : <span className="tile-meta">{SAT_TOTALS.words} words in three levels</span>}
                   </span>
-                </Tile>
-                <Tile id="sat:questions" to="/sat/vocab-questions" edit={edit} layout={layout} style={{ "--accent": SAT_COLOR }}>
+                  </>
+                ) },
+                { id: "sat:questions", to: "/sat/vocab-questions", style: { "--accent": SAT_COLOR }, body: (
+                  <>
                   <span className="tile-icon"><SatIcon kind="questions" /></span>
                   <span className="tile-main">
                     <span className="tile-name">Vocabulary Question Bank</span>
@@ -226,8 +228,9 @@ export default function HomePage() {
                       <><Bar thin value={pct(other.sat.questionsDone, SAT_TOTALS.questions)} /><span className="tile-meta"><b>{other.sat.questionsDone}</b> of {SAT_TOTALS.questions} answered · <b>{pct(other.sat.questionsCorrect, other.sat.questionsDone)}%</b> correct</span></>
                     ) : <span className="tile-meta">{SAT_TOTALS.questions} practice questions</span>}
                   </span>
-                </Tile>
-              </div>
+                  </>
+                ) },
+              ]} />
             </SectionShell>
           );
           if (sec === "college") {
@@ -236,21 +239,20 @@ export default function HomePage() {
               <SectionShell key={sec} {...shell} title="College head start" sub="Exercise Physiology plan of study"
                 empty={courses.every((c) => layout.isHidden(`college:${c.id}`))}
                 link={<Link to="/college" className="section-link" style={{ color: NAVY }}>College Hub →</Link>}>
-                <div className="tiles">
-                  {courses.map((c) => {
+                <TileGrid group="college" edit={edit} layout={layout}
+                  after={<Link to="/college" className="tile more">All college courses →</Link>}
+                  items={courses.map((c) => {
                     const p = other && other.college[c.id];
-                    return (
-                      <Tile key={c.id} id={`college:${c.id}`} to={`/college/${c.id}`} edit={edit} layout={layout} style={{ "--accent": NAVY }}>
+                    return { id: `college:${c.id}`, to: `/college/${c.id}`, style: { "--accent": NAVY }, body: (
+                      <>
                         <span className="tile-icon"><CourseIcon id={c.id} size={24} /></span>
                         <span className="tile-main">
                           <span className="tile-name" style={{ color: NAVY }}>{c.name}</span>
                           <span className="tile-meta"><b style={{ color: GOLD_DEEP }}>{c.code}</b>{p && p.done ? <> · {p.done} answered · {pct(p.correct, p.done)}% correct</> : null}</span>
                         </span>
-                      </Tile>
-                    );
-                  })}
-                  {!edit && <Link to="/college" className="tile more">All college courses →</Link>}
-                </div>
+                      </>
+                    ) };
+                  })} />
               </SectionShell>
             );
           }
@@ -309,18 +311,6 @@ function ResumeCard({ item, small }) {
         </div>
       )}
     </Link>
-  );
-}
-
-// A tile is a link normally; while customizing it stays put and gets a Hide/Show button.
-function Tile({ id, to, edit, layout, style, children }) {
-  const hidden = layout.isHidden(id);
-  if (!edit) return hidden ? null : <Link to={to} className="tile" style={style}>{children}</Link>;
-  return (
-    <div className={hidden ? "tile editing is-hidden" : "tile editing"} style={style}>
-      {children}
-      <button className="hide-btn" onClick={() => layout.toggle(id)} aria-pressed={hidden}>{hidden ? "Show" : "Hide"}</button>
-    </div>
   );
 }
 

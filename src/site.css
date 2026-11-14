@@ -153,6 +153,7 @@
   background: #EEF3FB; border: 1px solid #C9D6EC; border-radius: 16px; padding: 14px 18px; font-size: 14.5px; line-height: 1.5;
   box-shadow: 0 6px 18px rgba(0,0,0,.07);
 }
+.edit-done-float { display: none; }
 .edit-bar > div:first-child { flex: 1; min-width: 240px; }
 .edit-bar-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .edit-tools { display: inline-flex; gap: 6px; flex-shrink: 0; }
@@ -163,7 +164,22 @@
 .edit-tools button:hover:not(:disabled), .hide-btn:hover { border-color: var(--pf-ink); }
 .edit-tools button:disabled { opacity: .35; cursor: default; }
 .hide-btn { flex-shrink: 0; margin-left: auto; }
-.tile.editing { cursor: default; }
+.tile.editing { cursor: grab; }
+.grip {
+  flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 26px; height: 40px; margin: 0 -4px 0 -6px;
+  border: none; background: transparent; color: #A9A698; border-radius: 8px; cursor: grab; touch-action: none; padding: 0;
+}
+.grip:hover, .grip:focus-visible { color: var(--pf-ink); background: #F1EFE7; }
+/* where the card will land: a dashed outline in its new position */
+.tile.editing.drag-slot { border: 2px dashed var(--accent, #8A8F86); background: color-mix(in srgb, var(--accent, #999) 9%, transparent); box-shadow: none; }
+.tile.editing.drag-slot > * { visibility: hidden; }
+/* the card being carried */
+.tile.drag-ghost {
+  z-index: 60; pointer-events: none; box-sizing: border-box; cursor: grabbing; transform: rotate(1.2deg) scale(1.02);
+  border-color: var(--accent, #999); box-shadow: 0 18px 40px rgba(0,0,0,.22); background: #fff;
+}
+.tile.drag-ghost.is-hidden > * { opacity: .6; }
+body.is-dragging-card, body.is-dragging-card * { cursor: grabbing !important; user-select: none !important; -webkit-user-select: none !important; }
 .tile.editing:hover { transform: none; box-shadow: none; border-color: var(--pf-line); }
 .tile.editing.is-hidden { background: transparent; border-style: dashed; }
 .tile.editing.is-hidden > :not(.hide-btn) { opacity: .4; }
@@ -217,4 +233,10 @@
   /* small phones: the header keeps the person icon; the home page still has a full "Sign in" banner */
   .topbar-actions .pf-btn-out .pf-label { display: none; }
   .topbar-actions .pf-btn-out { padding: 8px 9px; }
+}
+
+@media (max-width: 600px) {
+  /* phones: the instructions scroll away so they never cover the cards being dragged; a small Done button stays in reach */
+  .edit-bar { position: static; }
+  .edit-done-float { display: inline-flex; position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); z-index: 30; box-shadow: 0 8px 22px rgba(0,0,0,.28); }
 }
