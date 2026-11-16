@@ -85,7 +85,24 @@ export default function ProfileChip() {
   async function doSignIn(e) {
     e.preventDefault(); setBusy(true); setError("");
     try { await signIn(picked.id, pin); setPin(""); await finishAuth(); }
-    catch (err) { setError(err.message); setBusy(false); }
+    catch (err) {
+      if (/profile not found/i.test(err.message)) {
+        // the profile was deleted: forget it on this device and let them pick again (saved progress is not touched)
+        await signOut().catch(() => {});
+        reset(); setMode("pick");
+        try { setProfiles(await listProfiles()); } catch { setProfiles([]); }
+        setError("That profile wasn't found. Pick your name from the list, or create a new profile.");
+      } else setError(err.message);
+      setBusy(false);
+    }
+  }
+  // Leave an expired sign-in without having to enter its PIN (for example, someone else is about to use this device).
+  async function doLeaveExpired() {
+    setBusy(true); setError("");
+    await signOut().catch(() => {});
+    reset(); setMode("pick");
+    try { setProfiles(await listProfiles()); } catch (e) { setError(e.message); setProfiles([]); }
+    setBusy(false);
   }
   async function doCreate(e) {
     e.preventDefault(); setError("");
@@ -176,6 +193,11 @@ export default function ProfileChip() {
                   <button type="button" style={btn(false)} onClick={async () => { reset(); setMode("pick"); try { setProfiles(await listProfiles()); } catch { /* keep list */ } }}>Back</button>
                   <button type="submit" disabled={busy || pin.length < 4} style={{ ...btn(true), flex: 1, opacity: busy || pin.length < 4 ? 0.6 : 1 }}>{busy ? "Signing in…" : "Sign in"}</button>
                 </div>
+                {session?.expired && (
+                  <button type="button" disabled={busy} onClick={doLeaveExpired} style={{ background: "none", border: "none", padding: 0, marginTop: 14, color: MUTED, fontSize: 13.5, textDecoration: "underline", textUnderlineOffset: 3, cursor: "pointer", fontFamily: "inherit" }}>
+                    Not {picked.name}? Sign out of this device
+                  </button>
+                )}
               </form>
             )}
 
