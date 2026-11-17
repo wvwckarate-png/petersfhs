@@ -33,7 +33,7 @@ for (const s of SUBJECTS) {
   const mod = await import(pathToFileURL(path.join(root, "src/hubs", s.dir, "content.js")).href);
   const units = mod.UNITS.map((u) => {
     const q = mod.QUESTIONS[u.id];
-    const mcq = Array.isArray(q) ? q.length : (q && Array.isArray(q.items) ? q.items.length : 0);
+    const mcq = Array.isArray(q) ? q.length : (q ? (q.items || []).length + (q.writingItems || []).length : 0);
     return { id: u.id, name: u.name, mcq, sections: sectionCount(mod.STUDY_CONTENT[u.id]) };
   });
   out[s.id] = {

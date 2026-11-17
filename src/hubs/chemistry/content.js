@@ -5181,7 +5181,7 @@ const QUESTIONS = {
         "50.0°C"
       ],
       "correct": 0,
-      "explanation": "Setting heat lost by the hot water equal to heat gained by the cold water: (60.0)(80.0−T) = (40.0)(T−20.0) → 4800 − 60.0T = 40.0T − 800 → T = 56.0°C. \"60.0°C\" is just the starting temperature of the hot water — as if no mixing occurred, which isn't a valid equilibrium answer. \"50.0°C\" is the simple, unweighted average of the two starting temperatures, ignoring that the larger 60.0 g mass of hot water should pull the equilibrium closer to its own starting point. \"44.0°C\" makes the opposite mass-weighting error, pulling the answer toward the smaller (40.0 g) sample instead."
+      "explanation": "Setting heat lost by the hot water equal to heat gained by the cold water: (60.0)(80.0−T) = (40.0)(T−20.0) → 4800 − 60.0T = 40.0T − 800 → T = 56.0°C. \"60.0°C\" is just the mass of the hot water (60.0 g) reused as a temperature, or a guess that does not follow from the energy balance, so it is not a valid equilibrium answer. \"50.0°C\" is the simple, unweighted average of the two starting temperatures, ignoring that the larger 60.0 g mass of hot water should pull the equilibrium closer to its own starting point. \"44.0°C\" makes the opposite mass-weighting error, pulling the answer toward the smaller (40.0 g) sample instead."
     },
     {
       "id": "6-23",

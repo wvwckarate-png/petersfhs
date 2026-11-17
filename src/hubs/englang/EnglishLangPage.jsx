@@ -64,6 +64,9 @@ function ModeIcon({ id, size = 16 }) {
   return null;
 }
 
+// Each unit's practice list: the reading questions, then the revision questions on the unit's two student drafts.
+const unitQuestions = (d) => (Array.isArray(d) ? d : [...(d?.items || []), ...(d?.writingItems || [])]);
+
 export default function EnglishLangPage() {
   const [mode, setMode] = useState("study");
   const [unitId, setUnitId] = useState(1);
@@ -160,7 +163,7 @@ export default function EnglishLangPage() {
     mcqPos.clear(scopeUnitId);
     if (scopeUnitId) {
       const scopeData = QUESTIONS[scopeUnitId];
-      const qs = Array.isArray(scopeData) ? scopeData : (scopeData?.items || []);
+      const qs = unitQuestions(scopeData);
       const idsToClear = new Set(qs.map((q) => q.id));
       const next = {};
       Object.keys(answered).forEach((k) => { if (!idsToClear.has(k)) next[k] = answered[k]; });
@@ -176,19 +179,19 @@ export default function EnglishLangPage() {
 
   const unit = UNITS.find((u) => u.id === unitId);
   const unitData = QUESTIONS[unitId];
-  const questions = Array.isArray(unitData) ? unitData : (unitData?.items || []);
+  const questions = unitQuestions(unitData);
 
   // MCQ Practice opens each unit on the question the student was last on (or the next unanswered one)
   const mcqPos = useMcqPosition({
     storageKey: MCQ_STORAGE_KEY.replace("-mcq-progress-v1", "-mcq-pos-v1"),
     unitId, questions, answered, ready: navLoaded, filter: reviewFilter, qIndex, setQIndex,
   });
-  const passages = Array.isArray(unitData) ? [] : (unitData?.passages || []);
+  const passages = Array.isArray(unitData) ? [] : [...(unitData?.passages || []), ...(unitData?.draftPassages || [])];
   const frqs = FRQ_CONTENT[unitId] || [];
 
   const statsFor = useCallback((id) => {
     const uData = QUESTIONS[id];
-    const qs = Array.isArray(uData) ? uData : (uData?.items || []);
+    const qs = unitQuestions(uData);
     const ids = qs.map((q) => q.id);
     const done = ids.filter((qid) => answered[qid]);
     const correct = done.filter((qid) => answered[qid].correct);
@@ -207,7 +210,7 @@ export default function EnglishLangPage() {
     const list = [];
     UNITS.forEach((u) => {
       const uData = QUESTIONS[u.id];
-      const qs = Array.isArray(uData) ? uData : (uData?.items || []);
+      const qs = unitQuestions(uData);
       qs.forEach((q) => {
         const a = answered[q.id];
         if (a && !a.correct) list.push({ q, unitId: u.id, unitName: u.name, ts: a.ts || 0 });
@@ -369,7 +372,7 @@ export default function EnglishLangPage() {
                         <button style={S.qHeader} onClick={() => setActiveQ(isOpen ? null : q.id)} aria-expanded={isOpen}>
                           <div style={S.qHeaderLeft}>
                             <span style={S.unitBadge}>Unit {qUnitId}</span>
-                            <span style={S.qTopic}>{q.topic}</span>
+                            <span style={S.qTopic}>{q.topic || (/^D\d/.test(q.passageId || "") ? "Revising a draft" : "")}</span>
                             {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
                           </div>
                           <span style={{ ...S.qStatus, ...S.qStatusWrong }}>↻ retry</span>
@@ -515,7 +518,7 @@ export default function EnglishLangPage() {
                       return (
                         <div style={S.passageCard}>
                           <div style={S.passageLabel}>{passage.title}</div>
-                          {passage.intro && <p style={S.passageIntro}>{passage.intro}</p>}
+                          {(passage.intro || passage.context) && <p style={S.passageIntro}>{passage.intro || passage.context}</p>}
                           <p style={S.passageText}>{passage.text}</p>
                         </div>
                       );
@@ -525,7 +528,7 @@ export default function EnglishLangPage() {
                       <div style={S.qHeader}>
                         <div style={S.qHeaderLeft}>
                           <span style={S.qNumBadge}>{String(i + 1).padStart(2, "0")}</span>
-                          <span style={S.qTopic}>{q.topic}</span>
+                          <span style={S.qTopic}>{q.topic || (/^D\d/.test(q.passageId || "") ? "Revising a draft" : "")}</span>
                           {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
                         </div>
                         <span style={{ ...S.qStatus, ...(a ? (a.correct ? S.qStatusCorrect : S.qStatusWrong) : S.qStatusUnanswered) }}>

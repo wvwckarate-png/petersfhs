@@ -4346,7 +4346,7 @@ const QUESTIONS = {
       "topic": "5.1 Agricultural Practices",
       "stem": "Why does monoculture increase vulnerability to pests and disease, connecting to Unit 2 concepts?",
       "choices": [
-        "Low genetic uniformity lets one well-matched pest wipe out the crop.",
+        "High genetic uniformity lets one well-matched pest wipe out the crop.",
         "Monoculture by definition includes a wide variety of genetically diverse plant species.",
         "Monoculture has no meaningful relationship to pest or disease vulnerability.",
         "Monoculture inherently prevents any pest or disease outbreak from occurring."
@@ -6969,7 +6969,7 @@ const QUESTIONS = {
         "Catalytic converters only affect indoor air quality, not outdoor smog."
       ],
       "correct": 0,
-      "explanation": "Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting A); they reduce rather than increase NOx (contradicting C); and the connection is direct, not absent (B)."
+      "explanation": "Since photochemical smog forms from NOx and VOCs reacting in sunlight, catalytic converters (which reduce vehicle NOx emissions) directly cut the precursor material available for smog -- a practical illustration of controlling a secondary pollutant by targeting its primary precursor. Catalytic converters affect outdoor, not just indoor, air (contradicting D); they reduce rather than increase NOx (contradicting C); and the connection is direct, not absent (B)."
     },
     {
       "id": "7-52",
@@ -7008,7 +7008,7 @@ const QUESTIONS = {
         "Different pollutants have no meaningful relationship to different sources or control needs."
       ],
       "correct": 0,
-      "explanation": "Because different pollutants (primary vs. secondary, and different specific primary pollutants) come from different sources and require different control technologies, a comprehensive strategy typically needs multiple targeted approaches working together -- not a single universal strategy (A, B), and pollutant source/control needs clearly do vary (contradicting C)."
+      "explanation": "Because different pollutants (primary vs. secondary, and different specific primary pollutants) come from different sources and require different control technologies, a comprehensive strategy typically needs multiple targeted approaches working together -- not a single universal strategy (B, C), and pollutant source/control needs clearly do vary (contradicting D)."
     },
     {
       "id": "7-55",
@@ -7021,7 +7021,7 @@ const QUESTIONS = {
         "It sets air quality standards and regulates emission sources broadly."
       ],
       "correct": 3,
-      "explanation": "The Clean Air Act establishes NAAQS for criteria pollutants, regulates both stationary and mobile emission sources, and has used market-based mechanisms like cap-and-trade -- a comprehensive framework. It does address vehicle emissions (contradicting A), it targets outdoor air quality broadly (contradicting B), and it covers multiple pollutants, not just one (contradicting C)."
+      "explanation": "The Clean Air Act establishes NAAQS for criteria pollutants, regulates both stationary and mobile emission sources, and has used market-based mechanisms like cap-and-trade -- a comprehensive framework. It does address vehicle emissions (contradicting B), it targets outdoor air quality broadly (contradicting C), and it covers multiple pollutants, not just one (contradicting A)."
     },
     {
       "id": "7-56",
@@ -7151,7 +7151,7 @@ const QUESTIONS = {
         "A scrubber (technology-based) versus a cap-and-trade system (market-based)."
       ],
       "correct": 3,
-      "explanation": "A scrubber is technology-based -- a device directly removing a pollutant at its source -- while cap-and-trade is market-based, using tradeable allowances within an emissions cap to create economic incentives rather than mandating a specific device. The two approaches are meaningfully distinct (contradicting A); a catalytic converter is itself technology-based, not market-based (contradicting B); and the Clean Air Act has in fact used both approaches (contradicting D)."
+      "explanation": "A scrubber is technology-based -- a device directly removing a pollutant at its source -- while cap-and-trade is market-based, using tradeable allowances within an emissions cap to create economic incentives rather than mandating a specific device. The two approaches are meaningfully distinct (contradicting B); a catalytic converter is itself technology-based, not market-based (contradicting A); and the Clean Air Act has in fact used both approaches (contradicting C)."
     },
     {
       "id": "7-66",
@@ -7164,7 +7164,7 @@ const QUESTIONS = {
         "Increased lung capacity and reduced cardiovascular risk over time."
       ],
       "correct": 1,
-      "explanation": "Chronic high noise exposure is linked to hearing loss, elevated stress hormones, sleep disruption, and cardiovascular effects -- real physiological harm, not improved sleep or lung function (A, C). Noise is recognized as a genuine pollutant with measurable health effects, contradicting D, even though it doesn't linger in the environment like a chemical pollutant does."
+      "explanation": "Chronic high noise exposure is linked to hearing loss, elevated stress hormones, sleep disruption, and cardiovascular effects -- real physiological harm, not improved sleep or lung function (A, D). Noise is recognized as a genuine pollutant with measurable health effects, contradicting C, even though it doesn't linger in the environment like a chemical pollutant does."
     },
     {
       "id": "7-67",

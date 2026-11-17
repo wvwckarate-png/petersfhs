@@ -823,7 +823,7 @@ const QUESTIONS = {
           "However,"
         ],
         "correct": 2,
-        "explanation": "‘For instance’ correctly frames sentence [2] as a specific example (productivity data) illustrating the general claim in [1], since the relationship between the two sentences is illustrative, not contrasting. A, B, and C all signal contrast or opposition, which misrepresents how [2] actually relates to [1] — it supports and specifies [1]'s claim rather than pushing back against it."
+        "explanation": "‘For instance’ correctly frames sentence [2] as a specific example (productivity data) illustrating the general claim in [1], since the relationship between the two sentences is illustrative, not contrasting. A, B, and D all signal contrast or opposition, which misrepresents how [2] actually relates to [1] — it supports and specifies [1]'s claim rather than pushing back against it."
       },
       {
         "id": "2w-7",
@@ -5159,7 +5159,7 @@ const QUESTIONS = {
         "stem": "If the writer wanted to add a periodic sentence for structural variety before the current sentence [5], which option would be most effective?",
         "choices": [
           "A flat, simple listing of accounting duties with no particular structure (a common misreading of the passage's actual phrasing).",
-          "Three accumulating 'after' clauses delaying the main clause: 'I finally admitted the job and I were done with each other.'",
+          "After nine years of spreadsheets, after one tax season too many, after a thousand polite answers, I finally admitted the job and I were done with each other.",
           "No periodic sentence would ever fit naturally into this essay.",
           "A sentence with exactly the same structure as sentence [1]."
         ],
@@ -5276,7 +5276,7 @@ const QUESTIONS = {
         "stem": "Which revision of sentence [3] ('People ask why a lot.') would most effectively use a periodic structure to build toward the essay's central explanation?",
         "choices": [
           "No periodic structure would fit naturally into this particular sentence or its meaning, which is a blunt answer.",
-          "Three accumulating 'after' clauses delaying the honest answer: 'good at accounting, terrible at loving it.'",
+          "After nine years of balanced ledgers, after one more tax season, after one more friend asked over dinner, the question people kept asking finally had an answer.",
           "Why did I change careers? That's a fair question worth asking directly of anyone who has done it.",
           "People ask why a lot, and I have never really found a good answer to give them or to myself."
         ],
@@ -8508,8 +8508,16 @@ const FRQ_CONTENT = {
 
 // Question IDs are only unique within a unit ("1-1" exists in every unit), but saved
 // progress is keyed by ID — so namespace them by unit to keep progress per-unit.
+// The revision ("writing") questions repeat ids too ("1w-1" is in every unit), so they get the same unit prefix ("u3-1w-1").
 for (const [unit, data] of Object.entries(QUESTIONS)) {
   for (const q of data.items) q.id = `u${unit}-${q.id}`;
+  for (const q of data.writingItems || []) q.id = `u${unit}-${q.id}`;
 }
+
+// Revision questions held back until they are rewritten: each one refers to something not on screen (an "earlier
+// suggestion", another unit's passage, the course itself), or its choices do not fit its question. They stay in this
+// file so they can be fixed and returned; they are just not shown.
+const HELD_BACK = new Set(["u1-2w-8", "u2-1w-16", "u2-2w-14b", "u3-2w-8", "u3-1w-14", "u3-2w-12", "u3-2w-13", "u4-1w-5", "u4-1w-11", "u4-1w-12", "u4-2w-11", "u4-2w-12", "u4-2w-14", "u5-1w-4", "u5-1w-12", "u5-1w-14", "u5-1w-6", "u5-1w-19", "u5-2w-7", "u5-2w-12", "u5-2w-17", "u5-1w-11", "u5-2w-6", "u5-2w-9", "u6-1w-14", "u6-1w-16", "u6-2w-9", "u6-2w-12", "u6-2w-13", "u6-1w-12", "u7-2w-8", "u7-1w-11", "u7-1w-12", "u7-1w-15", "u7-1w-16", "u7-1w-17", "u7-2w-10", "u7-1w-18", "u8-1w-6", "u8-2w-6", "u8-1w-9", "u8-1w-11", "u8-2w-11", "u8-1w-12", "u8-2w-12", "u8-1w-13", "u9-1w-4", "u9-1w-5", "u9-1w-6", "u9-1w-7", "u9-1w-9", "u9-1w-10", "u9-2w-8", "u9-2w-10", "u8-2w-8"]);
+for (const data of Object.values(QUESTIONS)) data.writingItems = (data.writingItems || []).filter((q) => !HELD_BACK.has(q.id));
 
 export { STUDY_CONTENT, UNITS, QUESTIONS, FRQ_CONTENT };
