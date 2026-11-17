@@ -181,19 +181,19 @@
     {
      "id": 1,
      "name": "Atomic Structure and Properties",
-     "mcq": 68,
+     "mcq": 71,
      "sections": 8
     },
     {
      "id": 2,
      "name": "Compound Structure and Properties",
-     "mcq": 68,
+     "mcq": 70,
      "sections": 7
     },
     {
      "id": 3,
      "name": "Properties of Substances and Mixtures",
-     "mcq": 100,
+     "mcq": 103,
      "sections": 13
     },
     {
@@ -205,35 +205,35 @@
     {
      "id": 5,
      "name": "Kinetics",
-     "mcq": 67,
+     "mcq": 70,
      "sections": 11
     },
     {
      "id": 6,
      "name": "Thermochemistry",
-     "mcq": 66,
+     "mcq": 71,
      "sections": 9
     },
     {
      "id": 7,
      "name": "Equilibrium",
-     "mcq": 70,
+     "mcq": 80,
      "sections": 12
     },
     {
      "id": 8,
      "name": "Acids and Bases",
-     "mcq": 68,
+     "mcq": 88,
      "sections": 11
     },
     {
      "id": 9,
      "name": "Thermodynamics and Electrochemistry",
-     "mcq": 65,
+     "mcq": 71,
      "sections": 11
     }
    ],
-   "mcqTotal": 638,
+   "mcqTotal": 690,
    "sectionTotal": 91
   },
   "environmental": {
