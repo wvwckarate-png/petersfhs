@@ -31,7 +31,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 - [ ] Build and check the additions
 
 ### A3. AP Physics 2
-- [ ] Download the course description and run the audit
+- [x] Download the course description and run the audit (Fall 2024 edition; reports in ~/Desktop/petersfhs-gap-reports/physics2/)
 - [ ] Review the gap report and choose what to add
 - [ ] Build and check the additions
 
