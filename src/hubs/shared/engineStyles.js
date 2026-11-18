@@ -176,6 +176,39 @@ export function getEngineCSS(colors = {}) {
     .sec-done-bar.is-done .sec-done-icon::after{content:""; width:11px; height:6px; border-left:2.5px solid var(--sage-deep); border-bottom:2.5px solid var(--sage-deep); transform:rotate(-45deg) translate(1px,-1px);}
     .sec-next{font-family:'Nunito',sans-serif; font-weight:700; font-size:14.5px; color:var(--sage-deep); text-decoration:none;}
     .sec-next:hover{text-decoration:underline;}
+    /* ---- new material (see newMaterial.js) ---- */
+    .new-material.is-new{border-left:4px solid var(--sage); background:linear-gradient(90deg, var(--sage-pale), transparent 70%); border-radius:0 14px 14px 0; padding:12px 16px 4px 18px; margin:22px 0;}
+    .new-material-label{display:inline-block; font-family:'Nunito',sans-serif; font-weight:800; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; background:var(--sage-deep); color:#fff; border-radius:100px; padding:3px 10px; margin-bottom:8px;}
+    h2.sec-new-h::after{content:"New section"; font-family:'Nunito',sans-serif; font-weight:800; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; background:#fff; color:var(--sage-deep); border:2px solid var(--sage-deep); border-radius:100px; padding:2px 10px; margin-left:8px; white-space:nowrap; vertical-align:middle;}
+    .sec-new-tag{display:none; font-family:'Nunito',sans-serif; font-weight:800; font-size:10.5px; letter-spacing:0.06em; text-transform:uppercase; background:#fff; color:var(--sage-deep); border:1.5px solid var(--sage-deep); border-radius:100px; padding:2px 9px; margin-left:32px; margin-top:-2px;}
+    .toc li.has-new .sec-new-tag{display:inline-block;}
+    .toc li.sec-item:has(.sec-new-tag) a{flex-basis:calc(100% - 40px);}
+    .toc li.has-new .sec-new-tag + .sec-pickup-pill{margin-left:6px;}
+    .toc li.has-new.is-done .sec-new-tag{background:var(--sage-deep); color:#fff;}
+    .sec-seen-btn{display:none; font-family:'Nunito',sans-serif; font-weight:800; font-size:14px; color:#fff; background:var(--sage-deep); border:none; border-radius:100px; padding:10px 18px; cursor:pointer;}
+    .sec-done-bar.needs-seen .sec-seen-btn{display:inline-flex;}
+    .q-new-badge{font-family:'Nunito',sans-serif; font-weight:800; font-size:10.5px; letter-spacing:0.06em; text-transform:uppercase; background:var(--sage-deep); color:#fff; border-radius:100px; padding:3px 9px;}
+    .newmat-card{background:var(--card); border:2.5px solid var(--sage); border-radius:18px; padding:18px 22px; margin-bottom:26px; box-shadow:0 4px 14px rgba(70,90,60,0.06);}
+    .newmat-card.is-clear{border-color:var(--sage-pill);}
+    .newmat-head{display:flex; align-items:center; gap:10px; margin-bottom:8px;}
+    .newmat-badge{font-family:'Nunito',sans-serif; font-weight:800; font-size:11px; letter-spacing:0.06em; text-transform:uppercase; background:var(--sage-deep); color:#fff; border-radius:100px; padding:3px 10px;}
+    .newmat-date{font-family:'Nunito',sans-serif; font-size:12.5px; color:var(--ink-soft);}
+    .newmat-title{font-family:'Manrope',sans-serif; font-weight:800; font-size:17px; color:var(--ink); line-height:1.35;}
+    .newmat-sub{font-family:'Nunito',sans-serif; font-size:14px; color:var(--ink-soft); margin-top:4px;}
+    .newmat-unit{margin-top:14px; padding-top:14px; border-top:1px solid var(--border);}
+    .newmat-unit-top{display:flex; align-items:center; justify-content:space-between; gap:10px; flex-wrap:wrap;}
+    .newmat-unit-name{font-family:'Manrope',sans-serif; font-weight:800; font-size:15px; color:var(--sage-deep);}
+    .newmat-btn{font-family:'Nunito',sans-serif; font-weight:800; font-size:13.5px; color:#fff; background:var(--sage-deep); border:none; border-radius:100px; padding:8px 16px; cursor:pointer;}
+    .newmat-btn:hover{filter:brightness(1.08);}
+    .newmat-done{font-family:'Nunito',sans-serif; font-weight:700; font-size:13px; color:var(--ink-soft);}
+    .newmat-secs{list-style:none; margin:10px 0 0; padding:0; display:grid; gap:6px;}
+    .newmat-sec{width:100%; display:flex; align-items:center; justify-content:space-between; gap:10px; text-align:left; background:var(--sage-pale); border:none; border-radius:12px; padding:9px 14px; cursor:pointer; font-family:'Nunito',sans-serif; font-size:14px; font-weight:700; color:var(--ink);}
+    .newmat-sec:hover{box-shadow:inset 0 0 0 2px var(--sage);}
+    .newmat-sec-title{min-width:0;}
+    .newmat-sec-tag{flex-shrink:0; font-weight:800; font-size:10.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--sage-deep); border:1.5px solid var(--sage-deep); border-radius:100px; padding:2px 9px; background:#fff;}
+    .newmat-sec-tag.was-done{background:var(--sage-deep); color:#fff;}
+    .newmat-later{font-family:'Nunito',sans-serif; font-size:13.5px; color:var(--ink-soft); margin-top:14px;}
+    @media (max-width:520px){ .newmat-card{padding:16px;} .newmat-btn{width:100%;} .newmat-sec{flex-direction:column; align-items:flex-start;} }
     @media (max-width:520px){ .toc li.sec-item{padding:7px 8px;} .sec-check{width:28px; height:28px;} .sec-pickup-pill{margin-left:38px;} .sec-done-btn{width:100%; justify-content:flex-start;} }
     /* Master This First / Worked Example / Before You Move On: the same card family as Key Idea, but light and calm — tinted card, soft rays, a solid round icon badge. */
     .skillbox{--bx:var(--violet); --bx-deep:color-mix(in srgb, var(--violet) 72%, #000); position:relative; overflow:hidden; background-image:repeating-conic-gradient(from 195deg at 100% 0%, color-mix(in srgb, var(--violet) 7%, transparent) 0 7deg, transparent 7deg 15deg), linear-gradient(135deg, var(--violet-pale), #fff 92%); background-color:var(--violet-pale); border:2.5px solid var(--violet); border-radius:20px; padding:24px 26px 20px 92px; margin:30px 0; min-height:88px; box-shadow:0 8px 20px rgba(60,70,60,0.10);}

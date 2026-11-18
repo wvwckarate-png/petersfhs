@@ -128,48 +128,48 @@
     {
      "id": 2,
      "name": "Cell Structure and Function",
-     "mcq": 69,
+     "mcq": 74,
      "sections": 5
     },
     {
      "id": 3,
      "name": "Cellular Energetics",
-     "mcq": 67,
+     "mcq": 70,
      "sections": 5
     },
     {
      "id": 4,
      "name": "Cell Communication and Cell Cycle",
-     "mcq": 65,
+     "mcq": 68,
      "sections": 5
     },
     {
      "id": 5,
      "name": "Heredity",
-     "mcq": 66,
+     "mcq": 68,
      "sections": 5
     },
     {
      "id": 6,
      "name": "Gene Expression and Regulation",
-     "mcq": 67,
-     "sections": 5
+     "mcq": 76,
+     "sections": 6
     },
     {
      "id": 7,
      "name": "Natural Selection",
-     "mcq": 65,
+     "mcq": 72,
      "sections": 5
     },
     {
      "id": 8,
      "name": "Ecology",
-     "mcq": 68,
-     "sections": 5
+     "mcq": 83,
+     "sections": 6
     }
    ],
-   "mcqTotal": 534,
-   "sectionTotal": 40
+   "mcqTotal": 578,
+   "sectionTotal": 42
   },
   "chemistry": {
    "name": "AP Chemistry",

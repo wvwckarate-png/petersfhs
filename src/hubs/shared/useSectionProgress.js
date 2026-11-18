@@ -5,9 +5,13 @@
 //   - a check circle beside every entry in "Jump to a section"
 //   - a progress line with a "Continue" link to the first unfinished section
 //   - a "Mark section as done" button at the end of every section
+//   - "New" tags on material added after the guide was first built (see newMaterial.js). A section finished before
+//     its new material arrived is tagged "New since you finished" until the student marks the new material as read.
+// Finished sections are stored as the time they were checked off (older saves hold `true`, meaning "before any additions").
 // Progress is stored per hub in the shared storage wrapper, so it survives reloads.
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { storage } from "../../lib/storage";
+import { sectionAddedDates, formatAdded, isRecent, addedTime } from "./newMaterial";
 
 const TOC_RE = /class="toc"[\s\S]*?<\/ol>/;
 const LI_RE = /<li><a href="#([\w-]+)">([\s\S]*?)<\/a><\/li>/g;
@@ -28,7 +32,7 @@ const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;").replac
 
 export function useSectionProgress({ hubKey, content, unitId, active }) {
   const storageKey = `${hubKey}-sections-v1`;
-  const [done, setDone] = useState({}); // { [unitId]: { [sectionId]: true } }
+  const [done, setDone] = useState({}); // { [unitId]: { [sectionId]: time checked off (or true from older saves) } }
   const [loaded, setLoaded] = useState(false);
   const doneRef = useRef(done);
   doneRef.current = done;
@@ -38,6 +42,14 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
     Object.keys(content).forEach((u) => { map[u] = parseSections(content[u]); });
     return map;
   }, [content]);
+
+  // { [unitId]: { [sectionId]: when material was last added (ms) } }, recent additions only
+  const added = useMemo(() => {
+    const map = {};
+    Object.keys(content).forEach((u) => { map[u] = sectionAddedDates(content[u]); });
+    return map;
+  }, [content]);
+  const pendingJump = useRef(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -61,8 +73,16 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
   const toggle = useCallback((uid, sid) => {
     const cur = doneRef.current;
     const unit = { ...(cur[uid] || {}) };
-    if (unit[sid]) delete unit[sid]; else unit[sid] = true;
+    if (unit[sid]) delete unit[sid]; else unit[sid] = Date.now();
     const next = { ...cur, [uid]: unit };
+    setDone(next);
+    save(next);
+  }, [save]);
+
+  // Keep the section done, but record that its new material has been read.
+  const markSeen = useCallback((uid, sid) => {
+    const cur = doneRef.current;
+    const next = { ...cur, [uid]: { ...(cur[uid] || {}), [sid]: Date.now() } };
     setDone(next);
     save(next);
   }, [save]);
@@ -80,6 +100,20 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
     const count = list.filter((s) => d[s.id]).length;
     return { done: count, total: list.length, pct: list.length ? Math.round((count / list.length) * 100) : 0 };
   }, [sections, done]);
+
+  // Sections with new material the student has not picked up: never finished, or finished before it was added.
+  const newSections = useCallback((uid) => {
+    const a = added[uid] || {};
+    const d = done[uid] || {};
+    return (sections[uid] || []).filter((s) => {
+      if (!a[s.id]) return false;
+      const v = d[s.id];
+      return !(typeof v === "number" && v >= a[s.id]);
+    }).map((s) => ({ ...s, added: a[s.id], wasDone: !!d[s.id] }));
+  }, [sections, added, done]);
+
+  /** Scroll to a section once its unit's guide is on screen (used by the Dashboard). */
+  const jumpTo = useCallback((sid) => { pendingJump.current = sid; }, []);
 
   // ---- decorate the rendered guide ----
   // Runs after every render on purpose: React may replace the guide's HTML (unit change, re-render), and the
@@ -112,6 +146,11 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
           btn.innerHTML = '<svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true"><path d="M3.5 8.5l3 3 6-7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
           link.parentElement.classList.add("sec-item");
           link.parentElement.insertBefore(btn, link);
+          if ((added[unitId] || {})[s.id]) {
+            const tag = document.createElement("span");
+            tag.className = "sec-new-tag";
+            link.parentElement.appendChild(tag);
+          }
           const pill = document.createElement("span");
           pill.className = "sec-pickup-pill";
           pill.textContent = "Pick up here";
@@ -127,11 +166,22 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
         bar.className = "sec-done-bar";
         bar.setAttribute("data-sec-bar", s.id);
         const nxt = list[i + 1];
-        bar.innerHTML = `<button type="button" class="sec-done-btn" data-sec-toggle="${esc(s.id)}" aria-pressed="false"><span class="sec-done-icon"></span><span class="sec-done-text">Mark section as done</span></button>${nxt ? `<a class="sec-next" href="#${esc(nxt.id)}">Next: ${esc(nxt.title)} →</a>` : ""}`;
+        bar.innerHTML = `<button type="button" class="sec-done-btn" data-sec-toggle="${esc(s.id)}" aria-pressed="false"><span class="sec-done-icon"></span><span class="sec-done-text">Mark section as done</span></button>${(added[unitId] || {})[s.id] ? `<button type="button" class="sec-seen-btn" data-sec-seen="${esc(s.id)}">I've read the new material</button>` : ""}${nxt ? `<a class="sec-next" href="#${esc(nxt.id)}">Next: ${esc(nxt.title)} →</a>` : ""}`;
         const footer = pane.querySelector(".footer-nav");
         if (nextHead && nextHead.parentNode) nextHead.parentNode.insertBefore(bar, nextHead);
         else if (footer && footer.parentNode) footer.parentNode.insertBefore(bar, footer);
         else h.parentNode.appendChild(bar);
+      });
+      pane.querySelectorAll(".new-material[data-added], h2[data-added]").forEach((el) => {
+        const date = el.getAttribute("data-added");
+        if (!isRecent(date)) return;
+        const t = addedTime(date);
+        if (el.tagName === "H2") { el.classList.add("sec-new-h"); return; }
+        el.classList.add("is-new");
+        const label = document.createElement("div");
+        label.className = "new-material-label";
+        label.textContent = `New · added ${formatAdded(t)}`;
+        el.insertBefore(label, el.firstChild);
       });
     }
 
@@ -140,15 +190,24 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
     const doneCount = list.filter((s) => d[s.id]).length;
     const next = list.find((s) => !d[s.id]);
     pane.querySelectorAll("h2.sec-nextup").forEach((h) => h.classList.remove("sec-nextup"));
+    const fresh = {};
+    newSections(unitId).forEach((s) => { fresh[s.id] = s; });
     list.forEach((s) => {
       const on = !!d[s.id];
       const btn = pane.querySelector(`.sec-check[data-sec-toggle="${s.id}"]`);
       if (btn) { btn.classList.toggle("on", on); btn.setAttribute("aria-pressed", String(on)); }
       const li = btn && btn.parentElement;
-      if (li) { li.classList.toggle("is-done", on); li.classList.toggle("is-next", !!next && next.id === s.id && doneCount > 0); }
+      if (li) {
+        li.classList.toggle("is-done", on);
+        li.classList.toggle("is-next", !!next && next.id === s.id && doneCount > 0);
+        li.classList.toggle("has-new", !!fresh[s.id]);
+        const tag = li.querySelector(".sec-new-tag");
+        if (tag) tag.textContent = fresh[s.id] && fresh[s.id].wasDone ? "New since you finished" : "New";
+      }
       const bar = pane.querySelector(`[data-sec-bar="${s.id}"]`);
       if (bar) {
         bar.classList.toggle("is-done", on);
+        bar.classList.toggle("needs-seen", on && !!fresh[s.id]);
         const b = bar.querySelector(".sec-done-btn");
         if (b) { b.setAttribute("aria-pressed", String(on)); b.querySelector(".sec-done-text").textContent = on ? "Done — click to undo" : "Mark section as done"; }
       }
@@ -169,6 +228,12 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
     const reset = pane.querySelector(".sec-reset");
     if (reset) reset.style.display = doneCount > 0 ? "" : "none";
 
+    if (pendingJump.current) {
+      const h = pane.querySelector(`h2[id="${pendingJump.current}"]`);
+      pendingJump.current = null;
+      if (h) requestAnimationFrame(() => h.scrollIntoView({ behavior: "smooth", block: "start" }));
+    }
+
   });
 
   // Clicks on the injected check buttons (delegated, so they survive the guide's HTML being re-created).
@@ -179,11 +244,13 @@ export function useSectionProgress({ hubKey, content, unitId, active }) {
       if (!pane) return;
       const t = e.target.closest("[data-sec-toggle]");
       if (t) { e.preventDefault(); toggle(unitId, t.getAttribute("data-sec-toggle")); return; }
+      const seen = e.target.closest("[data-sec-seen]");
+      if (seen) { e.preventDefault(); markSeen(unitId, seen.getAttribute("data-sec-seen")); return; }
       if (e.target.closest("[data-sec-reset]")) { e.preventDefault(); resetUnit(unitId); }
     }
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);
-  }, [active, unitId, toggle, resetUnit]);
+  }, [active, unitId, toggle, markSeen, resetUnit]);
 
-  return { progress };
+  return { progress, newSections, jumpTo, loaded };
 }

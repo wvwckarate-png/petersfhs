@@ -10,6 +10,8 @@ import { getEngineCSS } from "../shared/engineStyles";
 import { useSectionProgress } from "../shared/useSectionProgress";
 import { useMcqPosition } from "../shared/useMcqPosition";
 import QuestionScrubber from "../shared/QuestionScrubber";
+import NewMaterialCard from "../shared/NewMaterialCard";
+import { newQuestions, isRecent, useNewFilter } from "../shared/newMaterial";
 import ExamScoresCard from "../shared/ExamScoresCard";
 import BrandLogo from "../../components/BrandLogo";
 import ProfileSlot from "../../components/ProfileSlot";
@@ -87,7 +89,7 @@ export default function Physics1Page() {
   const [resetTarget, setResetTarget] = useState(null);
   const [navLoaded, setNavLoaded] = useState(false);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [reviewFilter, setReviewFilter] = useState("all"); // "all" | "missed"
+  const [reviewFilter, setReviewFilter] = useState("all"); // "all" | "missed" | "new"
   const [qIndex, setQIndex] = useState(0);
   const [globalReview, setGlobalReview] = useState(false);
   const [activeFrq, setActiveFrq] = useState(null);
@@ -196,6 +198,7 @@ export default function Physics1Page() {
     storageKey: MCQ_STORAGE_KEY.replace("-mcq-progress-v1", "-mcq-pos-v1"),
     unitId, questions, answered, ready: navLoaded, filter: reviewFilter, qIndex, setQIndex,
   });
+  useNewFilter({ filter: reviewFilter, setFilter: setReviewFilter, unitId, mode, questions, answered, setQIndex });
   const frqs = FRQ_CONTENT[unitId] || [];
 
   const statsFor = useCallback((id) => {
@@ -380,6 +383,7 @@ export default function Physics1Page() {
                           <div style={S.qHeaderLeft}>
                             <span style={S.unitBadge}>Unit {qUnitId}</span>
                             <span style={S.qTopic}>{q.topic}</span>
+{isRecent(q.added) && <span className="q-new-badge">New</span>}
                             {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
                           </div>
                           <span style={{ ...S.qStatus, ...S.qStatusWrong }}>↻ retry</span>
@@ -442,7 +446,7 @@ export default function Physics1Page() {
                   )}
                 </div>
                 <QuestionScrubber
-                  questions={reviewFilter === "missed" ? questions.filter((q) => answered[q.id] && !answered[q.id].correct) : questions}
+                  questions={reviewFilter === "missed" ? questions.filter((q) => answered[q.id] && !answered[q.id].correct) : reviewFilter === "new" ? newQuestions(questions) : questions}
                   answered={answered} index={qIndex} onJump={setQIndex} accent={S.progressFill.background}
                 />
               </div>
@@ -463,6 +467,14 @@ export default function Physics1Page() {
                     >
                       Missed Only ({missedCount})
                     </button>
+                    {newQuestions(questions).length > 0 && (
+                      <button
+                        style={{ ...S.filterPill, ...(reviewFilter === "new" ? S.filterPillActive : {}) }}
+                        onClick={() => setReviewFilter("new")}
+                      >
+                        New ({newQuestions(questions).filter((q) => !answered[q.id]).length} left)
+                      </button>
+                    )}
                   </div>
                 );
               })()}
@@ -470,7 +482,7 @@ export default function Physics1Page() {
               {(() => {
                 const displayed = reviewFilter === "missed"
                   ? questions.filter((q) => answered[q.id] && !answered[q.id].correct)
-                  : questions;
+                  : reviewFilter === "new" ? newQuestions(questions) : questions;
 
                 if (displayed.length === 0) {
                   return (
@@ -524,6 +536,7 @@ export default function Physics1Page() {
                         <div style={S.qHeaderLeft}>
                           <span style={S.qNumBadge}>{String(i + 1).padStart(2, "0")}</span>
                           <span style={S.qTopic}>{q.topic}</span>
+{isRecent(q.added) && <span className="q-new-badge">New</span>}
                           {q.stretch && <span style={S.stretchBadge}>Stretch</span>}
                         </div>
                         <span style={{ ...S.qStatus, ...(a ? (a.correct ? S.qStatusCorrect : S.qStatusWrong) : S.qStatusUnanswered) }}>
@@ -719,6 +732,12 @@ export default function Physics1Page() {
                   </button>
                 )}
               </div>
+
+              <NewMaterialCard
+                units={UNITS} questions={QUESTIONS} answered={answered} sections={sectionProgress}
+                onStudy={(uid, sid) => { sectionProgress.jumpTo(sid); setMode("study"); switchUnit(uid); }}
+                onPractice={(uid) => { setMode("mcq"); setGlobalReview(false); switchUnit(uid); setReviewFilter("new"); }}
+              />
 
               <ExamScoresCard
                 hubKey="physics1"
