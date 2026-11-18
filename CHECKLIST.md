@@ -70,6 +70,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.5.9 | Visuals pass on the new Chemistry and Biology material: 42 figures, tables and worked examples (Chemistry 13 figures + 4 worked examples; Biology 24 figures + 1 table), placed inside the "New" boxes |
 | v8.5.8 | Biology gaps, batch 2: 34 study-guide additions, 44 MCQs (Biology now 622) |
 | v8.5.7 | Biology gaps, batch 1 (18 study-guide additions, 44 MCQs); "New material" markers: Dashboard card, MCQ "New" filter, New tags in the study guide (including sections finished before the additions) |
 | v8.5.6 | Chemistry gaps, batch 2: 31 study-guide additions, 51 MCQs (Chemistry now 741) |
