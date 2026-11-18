@@ -122,53 +122,53 @@
     {
      "id": 1,
      "name": "Chemistry of Life",
-     "mcq": 67,
+     "mcq": 69,
      "sections": 5
     },
     {
      "id": 2,
      "name": "Cell Structure and Function",
-     "mcq": 74,
+     "mcq": 79,
      "sections": 5
     },
     {
      "id": 3,
      "name": "Cellular Energetics",
-     "mcq": 70,
+     "mcq": 77,
      "sections": 5
     },
     {
      "id": 4,
      "name": "Cell Communication and Cell Cycle",
-     "mcq": 68,
+     "mcq": 72,
      "sections": 5
     },
     {
      "id": 5,
      "name": "Heredity",
-     "mcq": 68,
+     "mcq": 73,
      "sections": 5
     },
     {
      "id": 6,
      "name": "Gene Expression and Regulation",
-     "mcq": 76,
+     "mcq": 82,
      "sections": 6
     },
     {
      "id": 7,
      "name": "Natural Selection",
-     "mcq": 72,
+     "mcq": 82,
      "sections": 5
     },
     {
      "id": 8,
      "name": "Ecology",
-     "mcq": 83,
+     "mcq": 88,
      "sections": 6
     }
    ],
-   "mcqTotal": 578,
+   "mcqTotal": 622,
    "sectionTotal": 42
   },
   "chemistry": {
