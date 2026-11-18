@@ -18,15 +18,15 @@ The College Board publishes a free Course and Exam Description for each AP subje
 ### A1. AP Chemistry
 - [x] Audit against the Fall 2024 course description (172 of 241 statements fully covered)
 - [x] Batch 1: real gaps and Unit 8 practice — 23 study-guide additions, 52 MCQs (v8.5.5)
-- [ ] Batch 2: smaller thin items
-  - [ ] One-sentence study-guide fixes (Coulomb's law, amu and molar mass, C–H bonds nonpolar, solids and liquids have similar molar volumes, complementary phase changes, heat versus work, and others listed in the report)
-  - [ ] Graph and diagram questions: Maxwell-Boltzmann curves, gas-law graphs, chromatograms, particle diagrams of solutions and hydrogen bonding, energy diagrams for physical changes
-  - [ ] Unit 9 table calculations: ΔS° from absolute entropies, ΔG° from ΔG°f
-  - [ ] Sigma versus pi bonds, cis/trans isomers, square pyramidal shape
+- [x] Batch 2: smaller thin items — 31 study-guide additions, 51 MCQs (v8.5.6)
+  - [x] One-sentence study-guide fixes (Coulomb's law, amu and molar mass, C–H bonds nonpolar, solids and liquids have similar molar volumes, complementary phase changes, heat versus work, and others listed in the report)
+  - [x] Graph and diagram questions (described in words): Maxwell-Boltzmann curves, gas-law graphs, chromatograms, particle diagrams of solutions and hydrogen bonding, energy diagrams for physical changes
+  - [x] Unit 9 table calculations: ΔS° from absolute entropies, ΔG° from ΔG°f
+  - [x] Sigma versus pi bonds, cis/trans isomers, square pyramidal shape
 - [ ] Decide whether the new topics need FRQ parts or practice-exam questions (Kp and titrations are the likeliest)
 
 ### A2. AP Biology
-- [ ] Download the course description and run the audit
+- [x] Download the course description and run the audit (Fall 2025 edition; reports in ~/Desktop/petersfhs-gap-reports/biology/)
 - [ ] Review the gap report and choose what to add
 - [ ] Build and check the additions
 
@@ -69,6 +69,7 @@ The College Board publishes a free Course and Exam Description for each AP subje
 
 | Version | What |
 |---|---|
+| v8.5.6 | Chemistry gaps, batch 2: 31 study-guide additions, 51 MCQs (Chemistry now 741) |
 | v8.5.5 | Chemistry gaps, batch 1: 23 study-guide additions, 52 MCQs |
 | v8.5.4 | Answer-key reviews of Chemistry 1, 2, 4, 6, 9, all of APES, Biology 1, 3, 7 (no wrong keys; 8 text fixes); 208 AP Language revision questions shown |
 | v8.5.3 | Sign-out from an expired or deleted profile |
